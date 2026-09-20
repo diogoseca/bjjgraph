@@ -670,9 +670,13 @@ REFERENCES:
 - related_content[] -> Array of objects with name/content_type/relationship (3-15 items, any type)
 
 KEY FIELDS:
-- summary: ONE self-contained definition sentence (~15-40 words, "A {filename} is..." / "{filename} are...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
-- overview: 2-3 paragraphs, 400+ characters
-- key_principles: 6-9 fundamental principles
+- description: One plain sentence describing the principle (70-180 characters), without promotional copy.
+- summary: ONE self-contained definition sentence (~15-35 words, at most 260 characters). Explain what the principle means directly.
+- overview: 1-2 practical sentences (40-320 characters). Add an application cue; do not repeat the summary, introduce history, or praise the principle.
+- key_principles: 3-5 distinct actionable points, at most 160 characters each. Put the most useful first.
+- application_contexts: 3-5 distinct examples; name a position or situation and give one concrete action (at most 240 characters).
+- common_errors: 3-4 distinct mistakes; short label (90 characters), consequence (160), and practical correction (200).
+- training_approaches: 2-3 focused drills; short name (80 characters), setup/action/reset or stop condition (260), and focus (120). Start with the easiest useful drill. Use cooperative recognition and control practice for submissions; do not prescribe resisted joint or neck finishes or near-tap exposure.
 - component_skills: 5-8 discrete sub-skills with 50+ char descriptions
 - decision_framework: 6-8 steps for applying the principle
 - developmental_metrics: Exactly 4 levels (Beginner/Intermediate/Advanced/Expert)"""
@@ -1079,15 +1083,17 @@ PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instruct
 - principle_relationships[].principle_name MUST reference existing Principles
 
 ### 3. Review Content Quality
-- overview must be 400+ characters with substantive BJJ analysis
+- Follow the concise section counts and length limits in FIELD GUIDANCE and the schema.
+- Write practical, principle-specific copy. Remove generic praise, origin stories, and repeated explanations.
+- Put the most useful points, examples, mistakes, and drills first; the sidebar previews these entries.
 - component_skills descriptions must be 50+ characters each
 - decision_framework should have 6-8 actionable steps
 - developmental_metrics must have exactly 4 levels with 3+ observable behaviors each
 
-### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
-- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the principle, e.g. "A wedge is any body part inserted into a gap to pry space open, redirect force, or block an opponent's movement."
-- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "A {filename} is..." or "{filename} are...".
-- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+### 4. Define the Principle Directly
+- Write one self-contained `summary` sentence (~15-35 words, at most 260 characters) explaining what the principle means.
+- Use natural wording for the name; do not force every definition into the same sentence pattern.
+- The `overview` adds a practical application cue in 1-2 sentences (40-320 characters), without repeating the definition or adding history.
 
 ### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
 - Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this principle.

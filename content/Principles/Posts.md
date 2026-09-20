@@ -4,7 +4,7 @@
 
 ---
 title: "Posts | BJJ Principle | BJJ Graph"
-description: "Master posts in BJJ. Learn to plant extended limbs against the mat or opponent for base recovery, sweep defense, and balance — the fundamental stability mechanic."
+description: "Place useful hand, elbow, knee, or foot supports before losing balance, and control the opponent’s posts when sweeping."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posts",
-  "description": "Master posts in BJJ. Learn to plant extended limbs against the mat or opponent for base recovery, sweep defense, and balance — the fundamental stability mechanic.",
+  "description": "Place useful hand, elbow, knee, or foot supports before losing balance, and control the opponent’s posts when sweeping.",
   "url": "https://bjjgraph.org/Principles/Posts",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Posting in the wrong direction relative to the displacement?",
+      "name": "What is a common mistake in Posting on the wrong side?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The post provides no stability because it is not between the body and the ground. Posting to the left when being swept to the right is equivalent to not posting at all — the sweep succeeds despite the effort. The correction is: Train directional awareness through repeated sweep drilling. Feel the displacement direction and post in that exact direction. If uncertain, post slightly behind the displacement angle rather than in front of it."
+        "text": "The support does not catch the direction your weight is moving. The correction is: Read the weight shift and reposition the support while you still have balance."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Posting with a bent arm that collapses under load?",
+      "name": "What is a common mistake in Waiting until balance is already lost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The post cannot transfer the toppling force to the ground because the bent joint acts as a hinge that folds. The arm buckles, the post fails, and the sweep succeeds. The correction is: Extend the posting arm nearly straight with the joints stacked — shoulder over elbow over wrist. The straighter the arm, the more force transfers through the skeleton rather than being absorbed by muscles."
+        "text": "The post arrives too late to stabilize the position. The correction is: In drills, react to the initial shift and reset before a committed fall."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Posting too late after the sweep momentum has already committed the body?",
+      "name": "What is a common mistake in Leaving the opponent’s catching hand free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "By the time the post is placed, the body is already past the tipping point. The post either cannot reach the ground or reaches it too late to catch the accumulated momentum. The sweep completes despite the posting attempt. The correction is: Post at the first sign of displacement, not after the sweep is fully committed. Train to recognize sweep setups and begin posting during the opponent's preparation rather than during the execution."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Leaving the posting limb committed to the post instead of transitioning to base recovery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The post catches the sweep but the practitioner stays frozen in the posting position, unable to advance or recover a proper base. The opponent uses this static position to set up the next attack or re-attempt the sweep from a new angle. The correction is: Treat every post as temporary. The moment the post catches your weight, begin moving your hips and other limbs to rebuild full base. The post buys time — use that time for recovery, not stalling."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Sacrificing critical grips to post when alternative posts are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Releasing a dominant grip to post with that hand surrenders the offensive advantage. If a foot post or head post could have served, releasing the grip was unnecessary and the opponent gains the grip battle. The correction is: Consider all posting options before releasing grips. Can a foot post wide instead of a hand? Can the head drive into the mat? Only release a grip for a post when no alternative post can prevent the sweep."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring the opponent's posts when executing sweeps?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The sweep has perfect setup and execution but fails because the opponent simply posts a hand or foot to catch their balance. This is the most common reason sweeps fail at all levels — the posting limb was not accounted for. The correction is: Before every sweep, identify which limbs the opponent will use to post and neutralize them. Control the posting hand with a grip, block the posting space with your shoulder, or time the sweep when the posting limb is occupied."
+        "text": "They post and stop the sweep. The correction is: Build control of the likely posting limb into the sweep setup."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Posts",
-  "description": "Posts are extended limbs — a hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base.",
+  "description": "Posts are contacts with the mat or another support that help catch a weight shift, maintain balance, or provide a base for movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "The elbow post in back control",
+      "description": "Posts film study: The elbow post in back control, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ILjOMZwctuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ILjOMZwctuU",
+      "url": "https://www.youtube.com/watch?v=ILjOMZwctuU",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Active posting to set up and defend submissions",
       "description": "Posts film study: Active posting to set up and defend submissions, taught by BJJ Cache.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hF0QNMgV6NQ/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Building structures, frames and posts",
       "description": "Posts film study: Building structures, frames and posts, taught by MMA Leech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WRnKMbQqnD4/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Active toes: posting with the feet",
       "description": "Posts film study: Active toes: posting with the feet, taught by M1FC.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0WZjs49l8Qk/hqdefault.jpg",
@@ -216,13 +202,9 @@ description: "Master posts in BJJ. Learn to plant extended limbs against the mat
 
 ## What are Posts?
 
-**Posts are extended limbs — a hand, foot, elbow, or head — planted firmly against the mat or opponent in the direction of displacement, transferring toppling force through the skeleton into the ground to recover or maintain base.**
+**Posts are contacts with the mat or another support that help catch a weight shift, maintain balance, or provide a base for movement.**
 
-Posting is the emergency base-recovery system of grappling, and also the proactive balance-maintenance system that keeps you upright and stable during every exchange. When someone tries to sweep you and you shoot your hand out to catch yourself, that is a post. When a wrestler sprawls and drives their hips down while their hands brace against the mat, those hands are posts. When a judo player steps wide during a throw attempt to catch their balance, that foot is a post. The mechanic shows up wherever balance is threatened — which, in a live roll, is nearly everywhere.
-
-Posts work on a simple mechanical principle: an extended limb planted in the direction of displacement creates a structural strut that transfers the toppling force through the skeleton into the ground. The key word is direction. A post only works if it is placed in the direction you are falling or being pushed. Post your hand to the right when you are being swept left and it does nothing. This directional requirement means posting is a reactive skill that demands fast recognition of displacement direction and immediate limb placement. The best grapplers post reflexively before they even consciously register the sweep or off-balancing attempt.
-
-Understanding posts transforms both offensive and defensive grappling. Defensively, posts are your last line of base recovery — the difference between getting swept and catching your balance. Offensively, understanding posts reveals how to attack them. Every post the opponent places is a limb that is no longer available for other tasks — it cannot grip, frame, hook, or attack while it is busy keeping them upright. Removing, blocking, or trapping the opponent's posting limb before executing a sweep is one of the most important offensive concepts in BJJ. The sweep does not fail because the technique is wrong; it fails because the opponent posted and you did not account for it.
+A post only helps if it supports the direction you are moving. In attack, identify which limb could catch the opponent and control it before redirecting their weight.
 
 </section>
 
@@ -233,6 +215,14 @@ Understanding posts transforms both offensive and defensive grappling. Defensive
 
 <p class="section-subtitle">Watch Posts in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=ILjOMZwctuU)
+
+<p class="clip-credit"><strong>The elbow post in back control</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=ILjOMZwctuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -265,15 +255,10 @@ Understanding posts transforms both offensive and defensive grappling. Defensive
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Post in the direction of displacement — the post must be between you and the ground to transfer force into the mat
-- Post with skeletal extension rather than muscular effort — a straight or nearly straight arm transfers more force than a bent one
-- Post early and decisively — a late post catches less weight and often collapses under the momentum already built
-- Recognize that every post removes a limb from other tasks — posting is a trade-off between stability and offense
-- Attack the opponent's posts before executing sweeps — block, trap, or remove the posting limb to deny their base recovery
-- Use the head as a post when hands are occupied — driving the forehead into the mat or opponent creates a third support point
-- Maintain awareness of which limbs are available for posting in every position
-- Transition off posts quickly — a post is a temporary stabilizer, not a permanent position
-- Layer posts with base adjustments to create comprehensive stability responses
+- Place the post in the direction of the developing weight shift.
+- Keep the support connected to your body position.
+- Adjust or replace a post as the direction changes.
+- Control the opponent’s likely posting limb before a sweep.
 
 
 </section>
@@ -304,31 +289,13 @@ Understanding posts transforms both offensive and defensive grappling. Defensive
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: When the bottom player bridges, the top player posts a hand or foot in the direction of the bridge to prevent being rolled. From bottom mount, posting a foot wide catches the hip escape angle and prevents being flattened back to center.
+**Mount**: Adjust a hand, knee, or foot support as the bottom player bridges so your weight stays within a usable base.
 
-**Closed Guard**: When the guard player attempts a hip bump sweep or scissor sweep, the top player posts a hand behind or to the side to catch their balance. Breaking the top player's posture denies them the ability to post, which is why posture breaking precedes many guard sweeps.
+**Butterfly Guard**: From bottom, control the posting arm on the sweep side. From top, recognize the weight shift while a support is still available.
 
-**Half Guard**: From top half guard, posting the free hand on the mat prevents the bottom player's sweep attempts. From bottom, posting an elbow or hand creates the platform needed to come to a seated position and establish an underhook.
+**Half Guard**: An elbow or hand post can support the bottom player’s movement into a seated position or underhook exchange.
 
-**Butterfly Guard**: When the guard player elevates with butterfly hooks, the top player must post hands to the mat to prevent being swept overhead. Blocking or trapping the posting hands is the critical offensive detail that makes butterfly sweeps succeed.
-
-**Standing Position**: When taken off balance by a push or pull, stepping a foot wide in the displacement direction creates a leg post that catches the weight. This is the fundamental balance recovery mechanism in standup grappling and the primary defense against trips and reaps.
-
-**Side Control**: From top side control, posting the far hand on the mat prevents the bottom player's bridge from rolling you over. From bottom, posting an elbow creates the space needed to insert a hip escape or re-guard movement.
-
-**Turtle**: Turtle position is fundamentally a four-point posting structure — both hands and both knees posting against the mat to resist the opponent's attempts to flatten or roll. When the attacking player removes one post (controlling an arm), the structure weakens and becomes vulnerable.
-
-**Knee on Belly**: The top player posts the far foot wide for balance, creating a tripod with the knee and foot that resists the bottom player's bump attempts. Removing this foot post by controlling it or sweeping it is a primary escape strategy.
-
-**Combat Base**: Combat base is a posting position by design — one foot posted flat on the mat, one knee down. The posted foot provides a wide base that prevents guard sweeps while the kneeling leg provides stable ground contact. The posted hand adds a third support point when needed.
-
-**X-Guard**: When caught in X-guard, the top player must post both hands to the mat to prevent being swept. The X-guard player's offensive strategy centers on controlling these posting hands with grips or shoulder pressure to deny the post before executing the sweep.
-
-**De La Riva Guard**: The top player posts the free hand to maintain balance when the DLR hook disrupts their lead leg. Denying this hand post through sleeve control is what makes DLR sweeps possible — without the post, the top player has no base recovery option.
-
-**North-South**: Both hands and feet post against the mat in a wide spread to maintain the north-south pin. If the bottom player bumps, the top player adjusts posts to the direction of displacement. Loss of posting structure from north-south allows the bottom player to turn and recover guard.
-
-**Back Control**: When the defender tries to escape back control by rolling to one side, the attacker posts the hand on the mat on that side to prevent being rolled to bottom. Head posting is also used from back control when both hands are committed to the choke.
+**Knee on Belly**: The outside foot provides a mobile support as you follow the opponent’s turns or return to side control.
 
 
 
@@ -352,27 +319,15 @@ Understanding posts transforms both offensive and defensive grappling. Defensive
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Posting in the wrong direction relative to the displacement
-  - **Consequence**: The post provides no stability because it is not between the body and the ground. Posting to the left when being swept to the right is equivalent to not posting at all — the sweep succeeds despite the effort.
-  - **Correction**: Train directional awareness through repeated sweep drilling. Feel the displacement direction and post in that exact direction. If uncertain, post slightly behind the displacement angle rather than in front of it.
-- **Mistake**: Posting with a bent arm that collapses under load
-  - **Consequence**: The post cannot transfer the toppling force to the ground because the bent joint acts as a hinge that folds. The arm buckles, the post fails, and the sweep succeeds.
-  - **Correction**: Extend the posting arm nearly straight with the joints stacked — shoulder over elbow over wrist. The straighter the arm, the more force transfers through the skeleton rather than being absorbed by muscles.
-- **Mistake**: Posting too late after the sweep momentum has already committed the body
-  - **Consequence**: By the time the post is placed, the body is already past the tipping point. The post either cannot reach the ground or reaches it too late to catch the accumulated momentum. The sweep completes despite the posting attempt.
-  - **Correction**: Post at the first sign of displacement, not after the sweep is fully committed. Train to recognize sweep setups and begin posting during the opponent's preparation rather than during the execution.
-- **Mistake**: Leaving the posting limb committed to the post instead of transitioning to base recovery
-  - **Consequence**: The post catches the sweep but the practitioner stays frozen in the posting position, unable to advance or recover a proper base. The opponent uses this static position to set up the next attack or re-attempt the sweep from a new angle.
-  - **Correction**: Treat every post as temporary. The moment the post catches your weight, begin moving your hips and other limbs to rebuild full base. The post buys time — use that time for recovery, not stalling.
-- **Mistake**: Sacrificing critical grips to post when alternative posts are available
-  - **Consequence**: Releasing a dominant grip to post with that hand surrenders the offensive advantage. If a foot post or head post could have served, releasing the grip was unnecessary and the opponent gains the grip battle.
-  - **Correction**: Consider all posting options before releasing grips. Can a foot post wide instead of a hand? Can the head drive into the mat? Only release a grip for a post when no alternative post can prevent the sweep.
-- **Mistake**: Ignoring the opponent's posts when executing sweeps
-  - **Consequence**: The sweep has perfect setup and execution but fails because the opponent simply posts a hand or foot to catch their balance. This is the most common reason sweeps fail at all levels — the posting limb was not accounted for.
-  - **Correction**: Before every sweep, identify which limbs the opponent will use to post and neutralize them. Control the posting hand with a grip, block the posting space with your shoulder, or time the sweep when the posting limb is occupied.
-- **Mistake**: Over-relying on hand posts instead of developing foot and head posting skills
-  - **Consequence**: When hands are occupied with grips or trapped by the opponent, the practitioner has no posting option and gets swept. This limitation becomes critical in gi grappling where hands are frequently committed to collar and sleeve grips.
-  - **Correction**: Practice foot posting from seated and kneeling positions, and head posting from turtle and scramble positions. Develop a full repertoire of posting options so that stability is maintained regardless of which limbs are available.
+- **Mistake**: Posting on the wrong side
+  - **Consequence**: The support does not catch the direction your weight is moving.
+  - **Correction**: Read the weight shift and reposition the support while you still have balance.
+- **Mistake**: Waiting until balance is already lost
+  - **Consequence**: The post arrives too late to stabilize the position.
+  - **Correction**: In drills, react to the initial shift and reset before a committed fall.
+- **Mistake**: Leaving the opponent’s catching hand free
+  - **Consequence**: They post and stop the sweep.
+  - **Correction**: Build control of the likely posting limb into the sweep setup.
 
 
 </section>
@@ -380,23 +335,11 @@ Understanding posts transforms both offensive and defensive grappling. Defensive
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Sweep and Post Drilling** (Focus: Developing the reflexive posting response and directional accuracy that prevents sweeps. The progressive speed increase trains the transition from conscious posting to unconscious, reflexive posting.)
-Partner executes various sweeps (scissor, hip bump, butterfly, flower) at progressive speeds while the practitioner focuses exclusively on posting to prevent the sweep. Start at slow speed for directional accuracy, then increase to build reflexive posting.
+**Early balance response** (Focus: Recognize the weight shift early.)
+Start in low mount. The bottom partner gives a slow, small bridge while the top partner adjusts a supporting hand or knee. Stop before a fall and reset after each direction.
 
-**Post Denial Sweep Practice** (Focus: Building the offensive understanding of posts — learning to deny posting opportunities as a core part of sweep technique. Transforms sweep success rates by addressing the most common reason sweeps fail.)
-Practice sweeps with specific emphasis on controlling the opponent's posting limbs before execution. For every sweep, identify which hand or foot the opponent would post with and establish control of that limb first. Drill the post denial as part of the sweep setup, not as an afterthought.
-
-**Head Posting Under Pressure** (Focus: Developing the head posting skill that provides an additional stability option when hands are committed. Builds neck strength and confidence in using the head as a structural support point.)
-Practice head posting from turtle, scramble, and passing positions where hands are occupied. Partner provides progressive resistance while the practitioner uses forehead pressure against the mat or opponent's body to maintain stability and base.
-
-**Post-to-Recovery Sequences** (Focus: Building the complete posting cycle: catch, recover, re-engage. Eliminates the common pattern of catching a sweep with a post but then freezing in the posting position without transitioning to recovery.)
-Partner executes a sweep that the practitioner catches with a post, then immediately works to recover full base and re-engage from a strong position. The focus is on the transition from caught post to recovered base to re-engagement, not just on catching the initial sweep.
-
-**Fatigue Posting Circuits** (Focus: Maintaining posting reflexes under fatigue conditions that simulate late-round competition. Builds the resilience to post effectively even when physically exhausted.)
-After a conditioning circuit, immediately practice posting against partner sweeps to develop posting reflexes under fatigue. Use burpees, sprawls, or sit-outs followed by immediate sweep defense rounds. Simulates late-round fatigue where posting reflexes are most needed and most likely to fail.
-
-**Multi-Directional Balance Challenges** (Focus: Developing the directional recognition and limb placement speed that makes posting reflexive. The random direction element prevents the practitioner from anticipating and forces genuine reactive posting.)
-From kneeling or standing positions, partner pushes and pulls in random directions while the practitioner posts in the correct direction each time. Vary the intensity, direction, and timing to train rapid directional recognition and posting response.
+**Find the catching hand** (Focus: Connect post denial to off-balancing.)
+Start in butterfly guard with a cooperative partner. Gently begin a sweep and identify the hand they would post with. Reset, control that hand, and repeat the setup without completing the fall.
 
 
 

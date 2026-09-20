@@ -4,7 +4,7 @@
 
 ---
 title: "Chest Compression | BJJ Principle | BJJ Graph"
-description: "Master chest compression mechanics in BJJ. Learn diaphragm restriction, torso pressure, breathing denial techniques, and how body weight creates cumulative exhaustion."
+description: "Chest compression uses bodyweight around the torso to limit movement and breathing; practice control with clear partner feedback."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Chest Compression",
-  "description": "Master chest compression mechanics in BJJ. Learn diaphragm restriction, torso pressure, breathing denial techniques, and how body weight creates cumulative exhaustion.",
+  "description": "Chest compression uses bodyweight around the torso to limit movement and breathing; practice control with clear partner feedback.",
   "url": "https://bjjgraph.org/Principles/Chest-Compression",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Distributing weight too broadly rather than concentrating it on the opponent's breathing structures?",
+      "name": "What is a common mistake in Driving pressure without feedback?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The compression is spread across a large area, allowing the opponent to breathe through portions of the ribcage that are not loaded. The pressure feels heavy but does not actually restrict breathing enough to create meaningful oxygen deficit. The correction is: Focus weight through specific contact points: shoulder into sternum from side control, hips onto lower ribs from mount, or body triangle squeeze around the midsection. Less contact area with the same weight produces greater compression."
+        "text": "A partner may experience rib pain or breathing difficulty. The correction is: Reduce pressure and stop immediately when requested."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Muscling compression through active squeezing rather than using gravity and skeletal alignment?",
+      "name": "What is a common mistake in Squeezing the whole body?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The attacker fatigues quickly while the defender can outlast the muscular effort. Active squeezing is unsustainable for the extended timeframe that chest compression requires to be effective. The correction is: Let gravity do the work. Position your skeleton so that your body weight naturally drives into the opponent's torso without muscular effort. In mount, sit heavy. In side control, drape your weight through your shoulder. In body triangle, lock the configuration and use hip extension rather than leg squeezing."
+        "text": "You tire while losing the ability to adjust. The correction is: Use controlled contact and keep your supporting limbs mobile."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Abandoning compression too quickly before cumulative effects take hold?",
+      "name": "What is a common mistake in Trying to endure breathing difficulty?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest compression works over minutes, not seconds. Transitioning away from compression after 30 seconds wastes the positional advantage without achieving the fatigue effect that makes subsequent submissions easier. The correction is: Commit to sustained compression for at least 1-2 minutes before expecting significant fatigue effects. Monitor the opponent's breathing and energy rather than the clock. The compression is working when their defensive movements slow and their breathing becomes audibly labored."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring defensive breathing techniques when under compression?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The defender panics and wastes energy trying to escape rather than managing their breathing. Panic breathing under compression accelerates oxygen deficit and fatigue, making escape progressively less likely. The correction is: When under compression, focus on lateral breathing first. Breathe into the sides of your ribcage where compression is lighter. Time inhalations between the attacker's weight shifts. Create even a small frame or wedge to give the ribcage expansion room before attempting escape."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying maximum body triangle compression with excessive force in training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Body triangle squeeze can crack ribs, especially in smaller training partners or those with reduced bone density. Rib injuries are painful, slow to heal, and prevent training for weeks. The correction is: Apply body triangle pressure progressively and watch for partner distress. Use enough squeeze to restrict breathing without driving maximum force. Discuss pressure levels with partners, especially when there is a significant size difference."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using compression as the only offensive strategy without transitioning to submissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In competition, relying solely on compression leads to stalling calls and low point totals. In training, it creates boring exchanges that limit both partners' development. The correction is: Use compression as a tool that creates submission opportunities, not as an end in itself. Once the opponent is fatigued from breathing restriction, transition to chokes and joint locks that their diminished defensive capacity cannot resist."
+        "text": "The defender delays stopping an unsafe exchange. The correction is: Tap or call stop immediately; reset before continuing."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Chest Compression",
-  "description": "Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm to deny full lung expansion and force a cumulative oxygen deficit.",
+  "description": "Chest compression is pressure on the torso that limits chest expansion and can make breathing and movement harder.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -216,13 +192,9 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
 
 ## What is Chest Compression?
 
-**Chest compression is a finishing mechanic that restricts breathing by applying sustained body-weight pressure to the opponent's torso, compressing the ribcage and diaphragm to deny full lung expansion and force a cumulative oxygen deficit.**
+**Chest compression is pressure on the torso that limits chest expansion and can make breathing and movement harder.**
 
-Among BJJ's finishing mechanics, chest compression stands apart from chokes and joint locks because it attacks the opponent's capacity to breathe rather than their consciousness or joints. Unlike chokes that target the neck's blood vessels or airway, chest compression works by denying the opponent the ability to draw a full breath, creating a progressive oxygen deficit that accumulates over time. The body triangle squeeze, mounted chest pressure, north-south weight distribution, and kesa gatame rib compression all use this mechanic. Chest compression is one of the most accessible finishing mechanics because it relies on body weight and positioning rather than complex grips or precise anatomical targeting.
-
-The effectiveness of chest compression comes from its cumulative nature. A single moment of torso pressure is not dangerous, but sustained compression prevents adequate breathing and forces the opponent to work against the attacker's weight with every breath. Each inhalation requires the defender to expand their ribcage against the compressive force, which demands muscular effort that accelerates fatigue. Over minutes, this creates an oxygen deficit and carbon dioxide buildup that impairs decision-making, weakens defensive movements, and eventually forces a tap from exhaustion and breathing distress.
-
-Chest compression is often underestimated as a finishing mechanic because it works slowly compared to chokes and joint locks. However, it is an integral part of dominant position maintenance and creates the conditions that make other submissions possible. A mounted opponent who cannot breathe fully makes poorer defensive decisions and has less energy to escape or resist submission attempts. Understanding chest compression mechanics improves both offensive pressure application and defensive breathing strategies that extend survival time under heavy opponents.
+Weight placement matters more than squeezing harder. In training, use partner feedback and release immediately on a tap or breathing difficulty; do not make breath restriction the drill’s goal.
 
 </section>
 
@@ -265,14 +237,10 @@ Chest compression is often underestimated as a finishing mechanic because it wor
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Chest compression restricts breathing by preventing full ribcage and diaphragm expansion, creating a cumulative oxygen deficit over time
-- Body weight distribution is more important than size, positioning your mass to maximize downward force on the opponent's torso and ribcage
-- Sustained compression is more effective than momentary pressure because the oxygen deficit and fatigue compound over successive breathing cycles
-- The diaphragm is the primary target because it is the main breathing muscle, and compressing the abdomen restricts its downward movement during inhalation
-- Chest compression works best as a complementary tactic that wears down the opponent while setting up chokes and joint locks from dominant positions
-- Defensive breathing techniques including lateral breathing, timed breathing between pressure shifts, and body positioning to create breathing space are essential survival skills
-- The attacker must remain aware that chest compression can cause rib injuries, especially in smaller partners or those with pre-existing conditions, requiring pressure calibration
-- Maximizing chest-to-chest contact and driving the shoulder into the opponent's diaphragm amplifies compression without requiring additional strength
+- Use position and bodyweight rather than constant squeezing.
+- Keep enough base to follow the opponent’s movement.
+- Adjust pressure to the partner and the agreed exercise.
+- Release immediately on a tap, stop cue, or breathing difficulty.
 
 
 </section>
@@ -301,27 +269,13 @@ Chest compression is often underestimated as a finishing mechanic because it wor
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: Mounted chest pressure is the most direct application of chest compression. The attacker sits on the opponent's torso with their full weight driving down through the hips. Low mount compresses the diaphragm and lower ribs, while high mount restricts upper chest expansion. Grapevining the legs prevents bridging and amplifies the downward weight.
+**Mount**: Torso contact and hip placement change how much weight the bottom player carries.
 
-**Back Control**: The body triangle from back control creates circumferential torso compression. The attacker locks their legs around the opponent's midsection and squeezes inward while extending the hips, creating sustained rib compression that restricts every breath. Body triangle pressure is one of the highest-percentage chest compression techniques in competition.
+**Side Control**: Chest contact can limit the bottom player’s ability to turn and make space.
 
-**Side Control**: Shoulder driving from side control concentrates the attacker's weight through the shoulder into the opponent's sternum and ribs. Cross-face pressure with the shoulder while driving the hips low creates significant breathing restriction. The attacker can alternate between positions that restrict different portions of the ribcage.
+**Back Control**: A body triangle surrounds the torso and can add compression to back control.
 
-**North-South**: North-south pressure spreads the attacker's weight across the opponent's chest and face, restricting breathing through combined chest compression and partial airway obstruction from shoulder pressure on the face. The attacker's hips drive down onto the opponent's upper chest while shoulders control the head.
-
-**Knee on Belly**: Knee on belly concentrates the attacker's body weight through a single knee into the opponent's abdomen or solar plexus, creating intense focal compression that restricts diaphragm movement. While not sustained as easily as mount or side control, the acute pressure often forces immediate defensive reactions.
-
-**Kesa Gatame**: Kesa gatame applies lateral rib compression with the attacker's body draped across the opponent's side. The attacker's weight and hip positioning restrict the lower ribcage from expanding, while head and arm control prevents the opponent from creating breathing space.
-
-**Closed Guard**: From bottom closed guard, the guard player can use the legs to squeeze the opponent's torso, compressing the ribs and restricting breathing. While less effective than top-position compression, sustained closed guard squeezing wears down the passer and creates submission opportunities.
-
-**Half Guard**: Top half guard with crossface and shoulder pressure creates significant chest compression. The attacker drives their shoulder into the bottom player's diaphragm while sprawling the legs back to add weight. This is a common wearing-down strategy before passing to side control or mount.
-
-**Turtle**: Riding on top of a turtled opponent with chest-to-back pressure restricts their ability to expand the ribcage. Combined with heavy hip pressure and body lock control, this compression makes the turtle position increasingly untenable as breathing becomes restricted.
-
-**Clinch**: During clinch exchanges, momentary chest compression through chest-to-chest smash or body-on-body pressure can disrupt the opponent's breathing and rhythm, creating advantages in the transition. Even brief compression affects the opponent's energy management.
-
-**Body Lock**: The body lock position uses arm-based torso compression to restrict breathing. Locked hands around the opponent's midsection squeeze the lower ribs and diaphragm, creating a sustained compression effect that complements the positional control.
+**North-South**: Upper-body weight can restrict movement while the top player follows the hips.
 
 
 
@@ -345,24 +299,15 @@ Chest compression is often underestimated as a finishing mechanic because it wor
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Distributing weight too broadly rather than concentrating it on the opponent's breathing structures
-  - **Consequence**: The compression is spread across a large area, allowing the opponent to breathe through portions of the ribcage that are not loaded. The pressure feels heavy but does not actually restrict breathing enough to create meaningful oxygen deficit.
-  - **Correction**: Focus weight through specific contact points: shoulder into sternum from side control, hips onto lower ribs from mount, or body triangle squeeze around the midsection. Less contact area with the same weight produces greater compression.
-- **Mistake**: Muscling compression through active squeezing rather than using gravity and skeletal alignment
-  - **Consequence**: The attacker fatigues quickly while the defender can outlast the muscular effort. Active squeezing is unsustainable for the extended timeframe that chest compression requires to be effective.
-  - **Correction**: Let gravity do the work. Position your skeleton so that your body weight naturally drives into the opponent's torso without muscular effort. In mount, sit heavy. In side control, drape your weight through your shoulder. In body triangle, lock the configuration and use hip extension rather than leg squeezing.
-- **Mistake**: Abandoning compression too quickly before cumulative effects take hold
-  - **Consequence**: Chest compression works over minutes, not seconds. Transitioning away from compression after 30 seconds wastes the positional advantage without achieving the fatigue effect that makes subsequent submissions easier.
-  - **Correction**: Commit to sustained compression for at least 1-2 minutes before expecting significant fatigue effects. Monitor the opponent's breathing and energy rather than the clock. The compression is working when their defensive movements slow and their breathing becomes audibly labored.
-- **Mistake**: Ignoring defensive breathing techniques when under compression
-  - **Consequence**: The defender panics and wastes energy trying to escape rather than managing their breathing. Panic breathing under compression accelerates oxygen deficit and fatigue, making escape progressively less likely.
-  - **Correction**: When under compression, focus on lateral breathing first. Breathe into the sides of your ribcage where compression is lighter. Time inhalations between the attacker's weight shifts. Create even a small frame or wedge to give the ribcage expansion room before attempting escape.
-- **Mistake**: Applying maximum body triangle compression with excessive force in training
-  - **Consequence**: Body triangle squeeze can crack ribs, especially in smaller training partners or those with reduced bone density. Rib injuries are painful, slow to heal, and prevent training for weeks.
-  - **Correction**: Apply body triangle pressure progressively and watch for partner distress. Use enough squeeze to restrict breathing without driving maximum force. Discuss pressure levels with partners, especially when there is a significant size difference.
-- **Mistake**: Using compression as the only offensive strategy without transitioning to submissions
-  - **Consequence**: In competition, relying solely on compression leads to stalling calls and low point totals. In training, it creates boring exchanges that limit both partners' development.
-  - **Correction**: Use compression as a tool that creates submission opportunities, not as an end in itself. Once the opponent is fatigued from breathing restriction, transition to chokes and joint locks that their diminished defensive capacity cannot resist.
+- **Mistake**: Driving pressure without feedback
+  - **Consequence**: A partner may experience rib pain or breathing difficulty.
+  - **Correction**: Reduce pressure and stop immediately when requested.
+- **Mistake**: Squeezing the whole body
+  - **Consequence**: You tire while losing the ability to adjust.
+  - **Correction**: Use controlled contact and keep your supporting limbs mobile.
+- **Mistake**: Trying to endure breathing difficulty
+  - **Consequence**: The defender delays stopping an unsafe exchange.
+  - **Correction**: Tap or call stop immediately; reset before continuing.
 
 
 </section>
@@ -370,20 +315,11 @@ Chest compression is often underestimated as a finishing mechanic because it wor
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Weight Distribution Drilling** (Focus: Developing the ability to make yourself maximally heavy through skeletal alignment and weight concentration rather than size or strength)
-Practice concentrating body weight through specific contact points from mount, side control, kesa gatame, and north-south. Partner provides feedback on which positions create the most breathing restriction. Alternate between different pressure points and positions to develop the ability to apply effective compression from any top position.
+**Light contact comparison** (Focus: Control movement without testing breathing tolerance.)
+From a familiar top pin, change torso contact slowly while your partner reports how easily they can turn. Keep breathing comfortable, release between attempts, and stop on any discomfort.
 
-**Body Triangle Pressure Development** (Focus: Building the specific body triangle mechanics that create effective circumferential torso compression as a finishing or wearing-down tool)
-Drill body triangle application from back control and guard positions, focusing on lock configuration, leg squeeze mechanics, and hip extension. Practice at moderate intensity with partner feedback on compression levels. Include entry sequences from standard back control and half guard positions.
-
-**Defensive Breathing Under Pressure** (Focus: Developing the survival breathing skills that extend defensive capacity under heavy chest compression, which is critical for smaller practitioners dealing with larger opponents)
-Have a partner apply progressively increasing chest pressure from mount and side control while you practice maintaining controlled breathing. Focus on lateral breathing, timed inhalation between pressure shifts, and maintaining mental composure. Gradually increase the duration and intensity of compression rounds.
-
-**Compression-to-Submission Flow** (Focus: Integrating chest compression into a complete offensive system where breathing restriction creates the conditions for submission finishing)
-Practice sustained compression from mount and side control for 1-2 minutes, then transition to submission attempts when the partner's defensive energy is visibly diminished. Chain from mounted compression to armbar, collar choke, or arm triangle. From side control compression, flow to kimura, americana, or north-south choke.
-
-**Sustained Pressure Endurance Training** (Focus: Building the physical and mental conditioning to both apply and endure sustained chest compression, which is essential for both offensive effectiveness and defensive survival)
-Extended top control rounds (5-10 minutes) where the attacker focuses on maintaining maximum compression while managing their own energy. The bottom player works defensive breathing and escape attempts. Both partners develop critical conditioning: the top player learns to stay heavy without tiring, the bottom player learns to breathe and survive.
+**Frame and reset** (Focus: Recognize where pressure can be relieved.)
+Start under light side control. The bottom player establishes frames and turns to make space; the top player follows gently. Reset once space appears and release on any stop cue.
 
 
 

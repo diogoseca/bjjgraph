@@ -33,7 +33,7 @@ import { journey } from "../dsl";
  *
  * Rails: __neural.concepts, ._conceptsById, ._conceptId, ._exQ, ._focusIdxSet
  * Handles: [data-concept-row], [data-concept-detail], [data-concept-body], [data-concept-back],
- *          [data-concept-node], [data-concept-link], [data-concept-page]
+ *          [data-concept-node], [data-concept-link], [data-concept-disclosure]
  * Beats (PostHog): neural_concept_opened
  *
  * THE REFERENCE SURFACES DO NOT PLAY — the owner's rule, and the reason this file exists twice
@@ -60,6 +60,10 @@ import { journey } from "../dsl";
  *    turn it red.
  *  · nothing here asserts the concept flashcards reach a deck. They still do not — that is the
  *    UNACCOUNTED figure the emitter prints every run, and it is untouched by this surface.
+ *  · disclosure fixtures prove interaction and layout; corpus editorial quality is checked
+ *    separately against the authored principle JSON, not inferred from those fixtures.
+ *  · film fixtures exercise the shared player through a local YouTube API stub; they do not
+ *    verify third-party availability, instructional relevance, or real provider playback.
  */
 
 type Concept = {
@@ -231,6 +235,52 @@ const watchErrors = (page: Page) => {
   return errors;
 };
 
+/** The DSL aborts remote video requests. Record player creation/destruction and capture-listener
+ *  lifetimes locally, so navigation cannot pass merely because a detached player is invisible. */
+const stubPrincipleVideos = (page: Page) => page.evaluate(() => {
+  const w = window as any;
+  w.__principlePlayers = [];
+  w.__principleVideoListeners = new Set();
+  const add = document.addEventListener.bind(document);
+  const remove = document.removeEventListener.bind(document);
+  document.addEventListener = ((type: string, listener: any, options: any) => {
+    if (type === "pointerdown" && options === true) w.__principleVideoListeners.add(listener);
+    add(type, listener, options);
+  }) as typeof document.addEventListener;
+  document.removeEventListener = ((type: string, listener: any, options: any) => {
+    if (type === "pointerdown" && options === true) w.__principleVideoListeners.delete(listener);
+    remove(type, listener, options);
+  }) as typeof document.removeEventListener;
+  function Player(this: any, host: HTMLElement, options: any) {
+    this.id = options.videoId;
+    this.destroyed = false;
+    this.plays = 0;
+    this.mute = () => {};
+    this.seekTo = () => {};
+    this.getCurrentTime = () => 0;
+    this.playVideo = () => {
+      this.plays++;
+      options.events.onStateChange({ target: this, data: 1 });
+    };
+    this.destroy = () => { this.destroyed = true; host.remove(); };
+    host.textContent = "Synthetic video player";
+    w.__principlePlayers.push(this);
+    queueMicrotask(() => options.events.onReady({ target: this }));
+  }
+  w.YT = { Player, PlayerState: { ENDED: 0 } };
+});
+
+const principleStudyState = (page: Page) => page.evaluate(() => {
+  const a = (window as any).__neural;
+  return {
+    current: a.currentPos ?? null, staged: a._staged ?? null, played: !!a._played,
+    options: (a.optionIdxs || []).length, log: (a.rollLog || []).length,
+    prep: a.prep || {}, days: a._days || {}, cardsToday: a.cardsToday || 0,
+    filmLook: a._filmLook || {}, challenges: a.challenges || {},
+    badges: a.badges || {}, coins: a.coins || {},
+  };
+});
+
 test("opening a reference before the landing prefetch runs leaves the roll retired @curated", async ({ page }) => {
   const errors = watchErrors(page);
   const j = journey(page);
@@ -401,11 +451,8 @@ test("Explore lists every authored principle, and opening one opens content — 
     body,
     "the concept's own prose is what the panel is for",
   ).toBeVisible({ timeout: 20_000 });
-  const prose = ((await body.textContent()) || "").trim();
-  expect(
-    prose.length,
-    "and it is real authored content, not a title and a shrug",
-  ).toBeGreaterThan(400);
+  await expect(body.locator("[data-doc-section] > h3"),
+    "all four parts of the principle are available").toHaveCount(4);
 
   expect(
     await litIds(page),
@@ -413,12 +460,16 @@ test("Explore lists every authored principle, and opening one opens content — 
   ).toEqual([...target.nodes].sort());
   await expect(
     page.locator("[data-concept-node]"),
-    "and they are readable as a list too",
+    "the optional list retains its first batch",
   ).toHaveCount(Math.min(60, target.nodes.length));
   await expect(
     page.locator(`[data-concept-page][href="${"/" + target.id}"]`),
-    "the full authored page is one click away",
-  ).toHaveCount(1);
+    "the principle is already open; it does not link to itself",
+  ).toHaveCount(0);
+  await expect(page.locator("[data-concept-node]").first()).toBeHidden();
+  const techniques = page.locator('[data-concept-disclosure="techniques"] > summary');
+  await techniques.scrollIntoViewIfNeeded();
+  await j.clickByMouse('[data-concept-disclosure="techniques"] > summary');
 
   s = await searchState(page);
   expect(s.exQ, "still no query, on the second concept too").toBe("");
@@ -601,6 +652,9 @@ test("arriving on a principle's own page opens it and starts NOTHING @curated", 
   //    broken": a POSITION, TRANSITION or SUBMISSION is what starts a roll, and the concept's own
   //    member list is full of them. Clicking one begins the roll the arrival refused to begin.
   // A position starts a staged roll; a submission escape may enter a live defense.
+  const techniques = page.locator('[data-concept-disclosure="techniques"] > summary');
+  await techniques.scrollIntoViewIfNeeded();
+  await j.clickByMouse('[data-concept-disclosure="techniques"] > summary');
   const nodeRow = page.locator('[data-concept-node^="Positions/"]').first();
   await expect(nodeRow, "the principle lists a playable position").toHaveCount(1);
   const clickedId = await nodeRow.getAttribute("data-concept-node");
@@ -680,6 +734,261 @@ for (const viewport of [
   { width: 1440, height: 900 },
   { width: 390, height: 844 },
 ]) {
+  test(`principle film study hydrates, plays on request, and stops on leaving at ${viewport.width}px @curated`, async ({ page }) => {
+    await page.setViewportSize(viewport);
+    const errors = watchErrors(page);
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await awaitConcepts(page);
+    const concept = of("Principle").find((c) => c.id === "Principles/Base")!;
+    const [longer, empty] = of("Principle").filter((c) => c.id !== concept.id);
+    const clips = [
+      { id: "abcdefghijk", title: "Balance in one minute", by: "Fixture instructor", vertical: true, start: 0, end: 45 },
+      { id: "bcdefghijkl", title: "Recover your base", by: "Fixture instructor", vertical: true },
+      { id: "cdefghijklm", title: "Base instructional", by: "Fixture instructor", vertical: false },
+      { id: "defghijklmn", title: "Balance seminar", by: "Fixture instructor", vertical: false },
+    ];
+    // These bodies replace the DSL's empty chunks. A held response proves the row is added by
+    // real deferred hydration, while the two other bodies cover longer-only and missing clips.
+    const bodies = {
+      [concept.key]: { overview: "Adjust your supports as pressure changes.", clips, related: [longer.id] },
+      [longer.key]: { overview: "One longer explanation is still useful.", clips: [clips[2]], related: [empty.id] },
+      [empty.key]: { overview: "This principle has no suitable video yet." },
+    };
+    let release!: () => void;
+    const held = new Promise<void>((resolve) => { release = resolve; });
+    let requests = 0;
+    await page.route("**/static/neural/content/*.json", async (route) => {
+      requests++;
+      await held;
+      await route.fulfill({ json: bodies });
+    });
+    await page.evaluate((id) => (window as any).__neural.openConcept(id), concept.id);
+    await expect(page.locator(`[data-concept-detail="${concept.id}"]`)).toBeVisible();
+    await expect.poll(() => requests, { message: "the dossier request actually reached the hold" }).toBeGreaterThan(0);
+    await expect(page.locator("[data-concept-film]")).toHaveCount(0);
+    await j.advance(4000);
+    const idle = await principleStudyState(page);
+    expect(idle).toMatchObject({ current: null, staged: null, played: false, options: 0, log: 0 });
+    expect(await page.evaluate(() => (window as any).__neural.challengeProgress("white.film").done),
+      "film challenge starts incomplete, so an accidental reward cannot pass vacuously").toBe(false);
+    const highlighted = await litIds(page);
+    release();
+
+    const film = page.locator(`[data-concept-film="${concept.id}"]`);
+    await expect(film).toHaveCount(1);
+    await expect(film).toContainText("Film study");
+    await expect(film.locator(".ng-clip")).toHaveCount(4);
+    await expect(film.locator(".ng-clip").first()).toContainText(clips[0].title);
+    await expect(film.locator(".ng-clip").first()).toHaveAccessibleName(`Play: ${clips[0].title} — ${clips[0].by}`);
+    expect(await film.evaluate((el) => {
+      const detail = document.querySelector("[data-concept-detail]")!;
+      const body = document.querySelector("[data-concept-body]")!;
+      return !!(detail.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)
+        && !!(el.compareDocumentPosition(body) & Node.DOCUMENT_POSITION_FOLLOWING);
+    }), "film follows the summary and precedes the readable body").toBe(true);
+    const widths = await film.locator(".ng-clip").evaluateAll((cards) => cards.map((card) => card.getBoundingClientRect().width));
+    expect(widths[2], "longer landscape videos keep their wider thumbnails").toBeGreaterThan(widths[0]);
+    const row = film.locator(".ng-cliprow");
+    await row.scrollIntoViewIfNeeded();
+    expect(await row.evaluate((el) => el.scrollWidth - el.clientWidth)).toBeGreaterThan(0);
+    await row.hover();
+    await page.mouse.wheel(900, 0);
+    await expect.poll(() => row.evaluate((el) => el.scrollLeft)).toBeGreaterThan(0);
+    await page.mouse.wheel(-900, 0);
+    await expect.poll(() => row.evaluate((el) => el.scrollLeft)).toBe(0);
+    expect(await page.evaluate(() => !!(window as any).__neural._expandedClip)).toBe(false);
+    await expect(page.locator(".ngPlayerHost, #yt-iframe-api")).toHaveCount(0);
+    await stubPrincipleVideos(page);
+
+    const first = `[data-concept-film="${concept.id}"] .ng-clip[data-i="0"]`;
+    const play = async () => {
+      await page.locator(first).scrollIntoViewIfNeeded();
+      if (viewport.width > 600) await j.clickByMouse(first);
+      else { await page.locator(first).focus(); await page.keyboard.press("Enter"); }
+      await expect(film.locator(".ngPlayerHost")).toHaveCount(1);
+      await expect.poll(() => page.evaluate(() => {
+        const players = (window as any).__principlePlayers;
+        return players.length && players[players.length - 1].plays > 0;
+      })).toBe(true);
+      expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[0].id);
+      expect(await page.evaluate(() => (window as any).__principleVideoListeners.size)).toBe(1);
+      await expect.poll(() => page.locator(first).evaluate((card) => {
+        const pane = (window as any).__neural.explorerListRef.current.getBoundingClientRect();
+        const rect = card.getBoundingClientRect();
+        const finalHeight = parseFloat((card as HTMLElement).style.height);
+        const mute = card.querySelector(".ngMuteBtn")!.getBoundingClientRect();
+        return Math.abs(rect.height - finalHeight) < 1 && rect.top >= pane.top
+          && rect.bottom <= pane.bottom && mute.bottom <= pane.bottom;
+      }), { message: "the expanded portrait and mute control fit inside the reading pane" }).toBe(true);
+    };
+    const stopped = async () => {
+      await expect(page.locator(".ngPlayerHost")).toHaveCount(0);
+      expect(await page.evaluate(() => ({
+        active: !!(window as any).__neural._expandedClip,
+        alive: (window as any).__principlePlayers.filter((p: any) => !p.destroyed).length,
+        listeners: (window as any).__principleVideoListeners.size,
+      }))).toEqual({ active: false, alive: 0, listeners: 0 });
+    };
+
+    await play();
+    const close = `${first} .ngClipX`;
+    await page.locator(close).scrollIntoViewIfNeeded();
+    if (viewport.width > 600) await j.clickByMouse(close);
+    else { await page.locator(close).focus(); await page.keyboard.press("Enter"); }
+    await stopped();
+    await play();
+    // No outside pointer event here: replacing the DOM itself must destroy the live player.
+    await page.evaluate(() => (window as any).__neural.renderExplorer());
+    await stopped();
+    expect(await litIds(page)).toEqual(highlighted);
+    expect(await principleStudyState(page)).toEqual(idle);
+    await play();
+    await page.evaluate(() => (window as any).__neural.setDeckOpen(false));
+    await stopped();
+    await page.evaluate((id) => (window as any).__neural.openConcept(id), concept.id);
+    await play();
+    const related = page.locator(`[data-concept-link="${longer.id}"]`);
+    await related.scrollIntoViewIfNeeded();
+    await related.focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
+    await stopped();
+
+    const longFilm = page.locator(`[data-concept-film="${longer.id}"]`);
+    await expect(longFilm.locator(".ng-clip")).toHaveCount(1);
+    await expect(longFilm).toContainText(clips[2].title);
+    await longFilm.locator(".ng-clip").focus();
+    await page.keyboard.press("Enter");
+    await expect(longFilm.locator(".ngPlayerHost")).toHaveCount(1);
+    expect(await page.evaluate(() => (window as any).__principlePlayers.at(-1).id)).toBe(clips[2].id);
+    await page.keyboard.press("Escape");
+    await stopped();
+    await expect(longFilm.locator(".ng-clip")).toBeFocused();
+    await expect(page.locator(`[data-concept-detail="${longer.id}"]`)).toBeVisible();
+    const noVideo = page.locator(`[data-concept-link="${empty.id}"]`);
+    await noVideo.focus();
+    await page.keyboard.press("Enter");
+    await expect(page.locator(`[data-concept-body="${empty.id}"]`)).toContainText("no suitable video");
+    await expect(page.locator("[data-concept-film], .ng-cliprow")).toHaveCount(0);
+    await expect(page.locator(".ng-learning-list")).not.toContainText("Film study");
+    expect(await principleStudyState(page)).toEqual(idle);
+    expect((await j.beats()).filter((b) => ["options_dealt", "roll_staged", "short_watched", "film_first_look", "lesson_done", "bonus_pumped"].includes(b.beat))).toEqual([]);
+    // A study takeover hides the Explore list without changing the selected principle.
+    // It must release the player even without the pointer event that normally closes it.
+    await page.evaluate((id) => (window as any).__neural.openConcept(id), concept.id);
+    await play();
+    await page.evaluate(() => (window as any).__neural.openStudy("Half Guard|Top"));
+    await stopped();
+    await expect(film).toBeHidden();
+    expect(errors).toEqual([]);
+  });
+
+  test(`principle sections expand independently and keep related concepts first at ${viewport.width}px @curated`, async ({ page }) => {
+    await page.setViewportSize(viewport);
+    const j = journey(page);
+    const errors = watchErrors(page);
+    await j.boot("/");
+    await awaitConcepts(page);
+    const concept = of("Principle").find((c) => c.id === "Principles/Base")!;
+    const related = of("Principle").find((c) => c.id !== concept.id)!;
+    // The DSL's empty chunks cannot exercise disclosures. This complete body deliberately has
+    // more than a preview in every section; production content may legitimately need no fold.
+    await page.evaluate(({ concept, related }) => {
+      const w = window as any;
+      w.NG_CONTENT = w.NG_CONTENT || {};
+      w.NG_CONTENT.decks = w.NG_CONTENT.decks || {};
+      w.NG_CONTENT.decks[concept.key] = {
+        overview: "Adjust your supports as pressure changes.",
+        points: ["Keep your weight over your supports.", "Widen your base against a push.",
+          "Move a support before you shift your weight.", "Recover balance before advancing.", "Keep <pressure> controlled."],
+        contexts: ["Standing", "Top guard", "Mount", "Seated guard"].map((c) => ({ c, how: "Shift your support toward the incoming pressure." })),
+        errors: ["Feet too narrow", "Weight too far forward", "Locked knees", "Late posting"].map((err) => ({ err, why: "Your weight moves outside your supports.", fix: "Recover a support under your weight." })),
+        drills: ["Partner pushes", "Slow stepping", "Positional rounds"].map((name) => ({ name, how: "Keep your balance while a partner applies light pressure.", focus: "Move your supports before increasing effort." })),
+        related: [related.id],
+        applicability: "GENERIC COVERAGE MUST NOT BECOME ROW COPY",
+      };
+      w.__neural.openConcept(concept.id);
+    }, { concept, related });
+
+    const body = page.locator('[data-concept-body]');
+    await expect(body).toBeVisible();
+    await expect(body.locator("h3")).toHaveText([
+      "Key principles", "Examples / where it applies", "What goes wrong", "How to train it",
+    ]);
+    await expect(page.locator("[data-concept-page], [data-principle-coverage]")).toHaveCount(0);
+    await expect(body.locator("pressure")).toHaveCount(0);
+    const spacing = await body.evaluate((el) => {
+      const contexts = el.querySelector('[data-doc-section="contexts"]')!;
+      const entries = contexts.querySelectorAll(".ng-doc-item");
+      const first = entries[0], second = entries[1];
+      return {
+        labelGap: first.querySelector("dd")!.getBoundingClientRect().top - first.querySelector("dt")!.getBoundingClientRect().bottom,
+        entryGap: second.getBoundingClientRect().top - first.getBoundingClientRect().bottom,
+        sectionGap: contexts.querySelector("h3")!.getBoundingClientRect().top - el.querySelector('[data-doc-section="points"]')!.getBoundingClientRect().bottom,
+      };
+    });
+    expect(spacing.labelGap).toBeGreaterThan(0);
+    expect(spacing.entryGap).toBeGreaterThan(spacing.labelGap);
+    expect(spacing.sectionGap).toBeGreaterThan(spacing.entryGap);
+
+    for (const [key, preview, total] of [
+      ["points", 3, 5], ["contexts", 2, 4], ["errors", 2, 4], ["drills", 1, 3],
+    ] as const) {
+      const section = body.locator(`[data-doc-section="${key}"]`);
+      const disclosure = section.locator("details");
+      const summary = disclosure.locator("summary");
+      const selector = `[data-concept-disclosure="${key}"] > summary`;
+      const items = key === "points" ? "li" : ".ng-doc-item";
+      await expect(section.locator(`${items}:visible`)).toHaveCount(preview);
+      await expect(disclosure).toHaveJSProperty("open", false);
+      await expect(summary).toHaveAccessibleName(/^Show \d+ more\s*:/);
+      await summary.scrollIntoViewIfNeeded();
+      await j.clickByMouse(selector);
+      await expect(disclosure).toHaveJSProperty("open", true);
+      await expect(section.locator(`${items}:visible`)).toHaveCount(total);
+      await expect(summary).toHaveAccessibleName(/^Show less\s*:/);
+      await expect(body.locator("details[open]")).toHaveCount(1);
+      await summary.focus();
+      await page.keyboard.press("Enter");
+      await expect(disclosure).toHaveJSProperty("open", false);
+      await expect(section.locator(`${items}:visible`)).toHaveCount(preview);
+    }
+
+    // Keep two sections open together, and prove a pane rebuild preserves both choices.
+    for (const key of ["points", "contexts"]) {
+      const selector = `[data-concept-disclosure="${key}"] > summary`;
+      await page.locator(selector).scrollIntoViewIfNeeded();
+      await j.clickByMouse(selector);
+    }
+    await expect(body.locator("details[open]")).toHaveCount(2);
+    await page.evaluate(() => (window as any).__neural.renderExplorer());
+    await expect(body.locator("details[open]")).toHaveCount(2);
+    const points = page.locator('[data-concept-disclosure="points"] > summary');
+    await points.focus();
+    await page.keyboard.press("Space");
+    await expect(page.locator('[data-concept-disclosure="points"]')).toHaveJSProperty("open", false);
+    await expect(page.locator('[data-concept-disclosure="contexts"]')).toHaveJSProperty("open", true);
+
+    const graph = page.locator('[data-concept-disclosure="techniques"]');
+    await expect(page.locator("[data-concept-related] [data-concept-link]")).toHaveCount(1);
+    expect(await page.locator("[data-concept-related]").evaluate((el) => {
+      const next = document.querySelector('[data-concept-disclosure="techniques"]')!;
+      return !!(el.compareDocumentPosition(next) & Node.DOCUMENT_POSITION_FOLLOWING);
+    })).toBe(true);
+    await expect(graph).toHaveJSProperty("open", false);
+    await expect(graph.locator("[data-concept-node]").first()).toBeHidden();
+    await expect(graph.locator(".ng-system-role")).toHaveCount(0);
+    await expect(graph).not.toContainText("GENERIC COVERAGE");
+    await graph.locator("summary").scrollIntoViewIfNeeded();
+    await j.clickByMouse('[data-concept-disclosure="techniques"] > summary');
+    await expect(graph.locator("[data-concept-node]").first()).toBeVisible();
+    await graph.locator("summary").focus();
+    await page.keyboard.press("Enter");
+    await expect(graph.locator("[data-concept-node]").first()).toBeHidden();
+    expect(errors).toEqual([]);
+  });
+
   test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px @curated`, async ({
     page,
   }) => {
@@ -687,7 +996,7 @@ for (const viewport of [
     const j = journey(page);
     await j.boot("/Principles/Compression-Locks");
     await expect(
-      page.locator('[data-principle-coverage="specific"]'),
+      page.locator('[data-concept-detail="Principles/Compression-Locks"]'),
     ).toBeVisible();
     await j.advance(10000); // beyond the intro AND the camera lease
     const result = await page.evaluate(() => {
@@ -732,6 +1041,10 @@ for (const viewport of [
     expect(result.roles).toEqual(["attacker", "bottom", "defender", "top"]);
     expect(result.staged).toBe(false);
     await expect(page.locator("[data-concept-node]")).toHaveCount(60);
+    await expect(page.locator("[data-concept-node]").first()).toBeHidden();
+    const techniques = page.locator('[data-concept-disclosure="techniques"] > summary');
+    await techniques.scrollIntoViewIfNeeded();
+    await j.clickByMouse('[data-concept-disclosure="techniques"] > summary');
     const more = page.locator("[data-concept-more]");
     await more.scrollIntoViewIfNeeded();
     const rect = await more.boundingBox();
@@ -746,6 +1059,7 @@ for (const viewport of [
     await expect(page.locator("[data-concept-node]")).toHaveCount(
       Math.min(120, result.lit / 2),
     );
+    await expect(page.locator('[data-concept-disclosure="techniques"]')).toHaveJSProperty("open", true);
     expect(
       await page.evaluate(() => (window as any).__neural._focusIdxSet.size),
     ).toBe(result.lit);

@@ -4,7 +4,7 @@
 
 ---
 title: "Rotational Breaks | BJJ Principle | BJJ Graph"
-description: "Master rotational submission mechanics in BJJ. Learn how twisting force applied past a joint's rotational limit creates Kimuras, heel hooks, and Americanas."
+description: "Recognize the isolation and rotation behind shoulder and leg attacks, practicing entries and control without finishing pressure."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rotational Breaks",
-  "description": "Master rotational submission mechanics in BJJ. Learn how twisting force applied past a joint's rotational limit creates Kimuras, heel hooks, and Americanas.",
+  "description": "Recognize the isolation and rotation behind shoulder and leg attacks, practicing entries and control without finishing pressure.",
   "url": "https://bjjgraph.org/Principles/Rotational-Breaks",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting to finish the rotation using only arm and grip strength?",
+      "name": "What is a common mistake in Adding rotation before the partner can respond?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The attacker fatigues quickly and generates insufficient rotational force against a resisting opponent. Grip-only finishes work in drilling but fail against resistance, leading to lost positions when the exhausted attacker cannot maintain control. The correction is: Use your entire body to generate rotation. In Kimuras, rotate your hips and torso while keeping the grip tight to your chest. In heel hooks, use hip bridging and body turning to create the rotational force rather than cranking with your hands."
+        "text": "The joint is loaded before a clear stop signal can be acted on. The correction is: Keep drills at unloaded control, accept an early tap, and release immediately."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to control the opponent's ability to rotate their body with the attack?",
+      "name": "What is a common mistake in Chasing a grip while losing body control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent simply rolls or turns in the direction of the rotational force, relieving all pressure on the joint. The attacker may end up in a worse position after the opponent rolls through. This is the most common reason Kimuras and heel hooks fail. The correction is: Before applying rotation, ensure your body position blocks the opponent's rotation escape. In Kimuras, pin their shoulder or step over their head. In heel hooks, control their hip line with your legs. The rotation must be isolated to the joint, not absorbed by whole-body movement."
+        "text": "The opponent’s torso or hips move and the entry loses its alignment. The correction is: Rebuild the position without twisting the captured limb."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying rotational force with slack in the grip or connection?",
+      "name": "What is a common mistake in Testing rotation against a late escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The force dissipates through the loose connection rather than transferring to the target joint. The opponent uses the slack to create space, change angles, or extract their limb. The attacker feels like they are cranking hard but nothing is happening at the joint. The correction is: Systematically eliminate all slack before applying rotation. Pull the limb tight to your body, close all gaps between your control points and their limb, and verify that every link in the chain is tight. Then apply rotation slowly — if slack remains, you will feel the limb moving without resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Confusing rotational direction (applying Americana mechanics when attempting Kimura or vice versa)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Force is applied against the joint's stronger range of motion rather than its weaker limit. The submission feels ineffective despite apparently correct positioning, and the attacker wastes energy fighting against the joint's natural strength. The correction is: Study the specific rotational direction for each submission. The Kimura rotates the shoulder internally (hand behind the back direction). The Americana rotates externally (hand away from body). Inside heel hooks rotate the knee internally. Drill each direction independently until the correct rotation is automatic."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Explosive cranking of rotational submissions, especially heel hooks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ligament damage occurs before the defender can tap, causing serious injury. This is especially dangerous with knee attacks where proprioceptive feedback is delayed. Training partners become unwilling to roll, and the attacker develops unsafe habits. The correction is: Always apply rotational force gradually with control. Feel for the submission developing through progressive tightening. Give your training partner time to feel the pressure and tap. In competition, controlled application actually produces more taps because opponents recognize the inevitability and submit rather than trying to explode out."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting secondary joint control (ankle in heel hooks, elbow angle in Kimuras)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Force bypasses the target joint because the secondary joint absorbs or redirects the rotation. A heel hook with a loose ankle allows the foot to rotate without the knee being affected. A Kimura with an incorrect elbow angle reduces torque on the shoulder. The correction is: Actively manage the secondary joint throughout the submission. In heel hooks, control the foot position and consider dorsiflexion to lock the ankle. In Kimuras, maintain approximately 90 degrees at the elbow to ensure maximum force transfer to the shoulder. Drill the secondary joint control as a distinct skill."
+        "text": "The partners’ movements can add joint pressure unpredictably. The correction is: Stop and reset when control is established; practice the earlier entry or prevention stage."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Rotational Breaks",
-  "description": "Rotational breaks are joint submissions that apply twisting force along a joint's rotational axis past its anatomical limit, loading the ligaments that resist rotation — the shared mechanic behind Kimuras, Americanas, heel hooks, and the Twister.",
+  "description": "Rotational breaks are joint attacks that use a controlled limb as a lever to rotate a joint beyond its available range.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Three Kimura finishing mechanics",
+      "description": "Rotational Breaks film study: Three Kimura finishing mechanics, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xtwg59n7Yls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xtwg59n7Yls",
+      "url": "https://www.youtube.com/watch?v=Xtwg59n7Yls",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Ankle lock breaking mechanics: grips and rotation",
       "description": "Rotational Breaks film study: Ankle lock breaking mechanics: grips and rotation, taught by Energia Martial Arts.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-6m7kyxrgRM/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Danaher\u0027s key detail for rotational ankle locks",
       "description": "Rotational Breaks film study: Danaher\u0027s key detail for rotational ankle locks, taught by John Danaher.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nF301WIHEdw/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Push, shake and rotate to break structure",
       "description": "Rotational Breaks film study: Push, shake and rotate to break structure, taught by John Danaher.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XXPJc-i4_Co/hqdefault.jpg",
@@ -216,13 +202,9 @@ description: "Master rotational submission mechanics in BJJ. Learn how twisting 
 
 ## What are Rotational Breaks?
 
-**Rotational breaks are joint submissions that apply twisting force along a joint's rotational axis past its anatomical limit, loading the ligaments that resist rotation — the shared mechanic behind Kimuras, Americanas, heel hooks, and the Twister.**
+**Rotational breaks are joint attacks that use a controlled limb as a lever to rotate a joint beyond its available range.**
 
-Joint attacks in submission grappling fall into two broad families, and rotational breaks are the family defined by the plane of attack rather than by the joint targeted. Whereas hyperextension attacks like the armbar drive a joint in a single linear plane, rotational breaks twist the joint along its rotational axis, loading the ligaments and tendons that resist rotation. The shoulder's internal and external rotation limits are exploited by the Kimura and Americana respectively. The knee's rotational vulnerability is exploited by inside and outside heel hooks. Even the spine's rotational limits come into play with twisting attacks like the Twister.
-
-What makes rotational breaks particularly dangerous is the relative lack of proprioceptive feedback compared to hyperextension. When someone straightens your arm, you feel the stretch gradually and can tap in time. When someone rotates your knee past its limit, the ligament damage can occur before you register significant pain. This is why heel hooks have historically been restricted in many competition rulesets and why understanding the mechanics is critical for both attacking safely and defending intelligently.
-
-The core mechanic is consistent across all rotational submissions: isolate the joint, control the limb segments on both sides of the target joint, and apply rotational force while preventing the opponent from rotating their body to relieve the pressure. The attacker must create a closed system where the only thing that can give is the joint itself.
+The setup combines limb control with a limit on the opponent’s body movement. Practice identifying that setup without twisting the joint; tap early when caught and release immediately.
 
 </section>
 
@@ -233,6 +215,14 @@ The core mechanic is consistent across all rotational submissions: isolate the j
 
 <p class="section-subtitle">Watch Rotational Breaks in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=Xtwg59n7Yls)
+
+<p class="clip-credit"><strong>Three Kimura finishing mechanics</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=Xtwg59n7Yls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -265,15 +255,10 @@ The core mechanic is consistent across all rotational submissions: isolate the j
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Isolate the target joint by controlling the limb segments on both sides of it
-- Apply rotational force along the joint's natural axis of rotation to attack end-range
-- Prevent the opponent from rotating their body to relieve torsional pressure on the joint
-- Control the secondary joint to eliminate slack and ensure force transfers to the target
-- Recognize the difference between internal rotation attacks (Kimura) and external rotation attacks (Americana)
-- Apply force gradually with control — rotational damage can occur before the opponent feels significant pain
-- Use your entire body to generate rotation rather than relying on grip strength alone
-- Maintain tight connection between your control points and the opponent's limb throughout the rotation
-- Understand that rotational breaks require less force than hyperextensions when properly applied
+- Identify the target joint and the controls on either side of it.
+- Check body and limb position before considering any rotation.
+- Practice capture and control without loading the joint.
+- Tap early and release immediately; do not use pain to judge the available range.
 
 
 </section>
@@ -302,29 +287,13 @@ The core mechanic is consistent across all rotational submissions: isolate the j
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Kimura Trap**: The Kimura grip creates a figure-four lever system that rotates the shoulder internally past its limit. The attacker controls the wrist and uses the elbow as a fulcrum, while body positioning prevents the opponent from rolling to relieve shoulder rotation. The grip itself acts as a ratchet, allowing incremental rotation without losing position.
+**Kimura Trap**: The figure-four grip controls the arm while body position affects shoulder movement. Rehearse the grip and position without rotating the arm to a finish.
 
-**Mount**: Mounted Kimura and Americana attacks use the mount position to pin the opponent's shoulder to the mat, creating a fixed point against which rotational force is applied. The mount provides the body weight pressure that prevents torso rotation, making it one of the strongest platforms for shoulder rotation attacks.
+**Side Control**: An Americana entry combines wrist control and support near the elbow while the shoulder is contained; stop the drill before applying rotation.
 
-**Side Control**: The Americana from side control uses the mat as a backstop for the shoulder while the attacker rotates the arm externally using a figure-four grip. The near-side Kimura requires transitioning to North-South or stepping over the head to prevent the opponent from rolling through the rotation.
+**Mount**: Mounted shoulder-attack entries require arm isolation while maintaining base, without using the pin to force the joint’s range.
 
-**Ashi Garami**: All Ashi Garami variations serve as control platforms for heel hook rotational attacks on the knee. The entanglement isolates the leg and controls the hip line, while the heel hook grip rotates the tibia relative to the femur. Inside Ashi favors inside heel hooks; Honey Hole provides superior hip control for outside heel hooks.
-
-**Honey Hole**: The Honey Hole (Inside Sankaku or Saddle) provides the tightest hip control for heel hook rotation. Both legs trap the opponent's thigh, preventing hip rotation that would relieve knee torsion. This makes it the premier position for finishing rotational attacks on the knee.
-
-**Back Control**: Kimura attacks from back control use the seatbelt grip to transition into a figure-four on the opponent's arm. The back control position restricts the opponent's ability to rotate their torso, creating an effective platform for shoulder rotation attacks that is difficult to defend.
-
-**Half Guard**: The Kimura from bottom half guard uses the underhook side to establish the figure-four grip. The attacker can use the Kimura grip both as a submission threat and as a sweeping mechanism, since the rotational control of the shoulder compromises the opponent's base and posture.
-
-**Closed Guard**: Hip bump Kimura and overhead Kimura attacks from closed guard use hip elevation and guard angle to create the space needed for figure-four grip establishment. The guard player's legs control the opponent's posture and prevent them from posturing up to relieve shoulder rotation.
-
-**North-South**: The North-South Kimura is one of the highest-percentage rotational attacks because the attacker's body weight pins the opponent's shoulder to the mat while both hands are free to apply the figure-four rotation. The chest pressure prevents any torso rotation that would relieve the shoulder.
-
-**Turtle**: Kimura attacks on the turtle exploit the opponent's exposed arms during the defensive position. The attacker can establish the figure-four grip and use it to flatten the opponent, transition to back control, or finish the rotation depending on the opponent's defensive reactions.
-
-**50-50 Guard**: The 50-50 position creates a symmetrical leg entanglement where both athletes can threaten rotational attacks on the knee. Heel hook battles from 50-50 often come down to who establishes the superior grip and rotational angle first, making hand fighting critical.
-
-**Twister Control**: The Twister submission applies rotational force to the spine by controlling the opponent's head and rotating it in the opposite direction of their hips. The truck position isolates the spine as the target, using the legs to control hip rotation while the arms rotate the upper body.
+**Ashi Garami**: Leg control and a heel-hook grip can form a rotational attack. Practice recognizing the capture and releasing it without twisting.
 
 
 
@@ -347,27 +316,15 @@ The core mechanic is consistent across all rotational submissions: isolate the j
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting to finish the rotation using only arm and grip strength
-  - **Consequence**: The attacker fatigues quickly and generates insufficient rotational force against a resisting opponent. Grip-only finishes work in drilling but fail against resistance, leading to lost positions when the exhausted attacker cannot maintain control.
-  - **Correction**: Use your entire body to generate rotation. In Kimuras, rotate your hips and torso while keeping the grip tight to your chest. In heel hooks, use hip bridging and body turning to create the rotational force rather than cranking with your hands.
-- **Mistake**: Failing to control the opponent's ability to rotate their body with the attack
-  - **Consequence**: The opponent simply rolls or turns in the direction of the rotational force, relieving all pressure on the joint. The attacker may end up in a worse position after the opponent rolls through. This is the most common reason Kimuras and heel hooks fail.
-  - **Correction**: Before applying rotation, ensure your body position blocks the opponent's rotation escape. In Kimuras, pin their shoulder or step over their head. In heel hooks, control their hip line with your legs. The rotation must be isolated to the joint, not absorbed by whole-body movement.
-- **Mistake**: Applying rotational force with slack in the grip or connection
-  - **Consequence**: The force dissipates through the loose connection rather than transferring to the target joint. The opponent uses the slack to create space, change angles, or extract their limb. The attacker feels like they are cranking hard but nothing is happening at the joint.
-  - **Correction**: Systematically eliminate all slack before applying rotation. Pull the limb tight to your body, close all gaps between your control points and their limb, and verify that every link in the chain is tight. Then apply rotation slowly — if slack remains, you will feel the limb moving without resistance.
-- **Mistake**: Confusing rotational direction (applying Americana mechanics when attempting Kimura or vice versa)
-  - **Consequence**: Force is applied against the joint's stronger range of motion rather than its weaker limit. The submission feels ineffective despite apparently correct positioning, and the attacker wastes energy fighting against the joint's natural strength.
-  - **Correction**: Study the specific rotational direction for each submission. The Kimura rotates the shoulder internally (hand behind the back direction). The Americana rotates externally (hand away from body). Inside heel hooks rotate the knee internally. Drill each direction independently until the correct rotation is automatic.
-- **Mistake**: Explosive cranking of rotational submissions, especially heel hooks
-  - **Consequence**: Ligament damage occurs before the defender can tap, causing serious injury. This is especially dangerous with knee attacks where proprioceptive feedback is delayed. Training partners become unwilling to roll, and the attacker develops unsafe habits.
-  - **Correction**: Always apply rotational force gradually with control. Feel for the submission developing through progressive tightening. Give your training partner time to feel the pressure and tap. In competition, controlled application actually produces more taps because opponents recognize the inevitability and submit rather than trying to explode out.
-- **Mistake**: Neglecting secondary joint control (ankle in heel hooks, elbow angle in Kimuras)
-  - **Consequence**: Force bypasses the target joint because the secondary joint absorbs or redirects the rotation. A heel hook with a loose ankle allows the foot to rotate without the knee being affected. A Kimura with an incorrect elbow angle reduces torque on the shoulder.
-  - **Correction**: Actively manage the secondary joint throughout the submission. In heel hooks, control the foot position and consider dorsiflexion to lock the ankle. In Kimuras, maintain approximately 90 degrees at the elbow to ensure maximum force transfer to the shoulder. Drill the secondary joint control as a distinct skill.
-- **Mistake**: Attempting rotational attacks without adequate positional control
-  - **Consequence**: The opponent escapes the submission and often improves their position in the process. Premature Kimura attempts from guard lead to the opponent passing. Heel hook attempts from poor entanglements lead to the opponent extracting their leg and standing up.
-  - **Correction**: Establish solid positional control before attacking the rotation. Secure the mount before the Kimura. Establish proper Ashi Garami entanglement before the heel hook. The position is the platform from which the rotation becomes possible — skipping this step sacrifices both the submission and the position.
+- **Mistake**: Adding rotation before the partner can respond
+  - **Consequence**: The joint is loaded before a clear stop signal can be acted on.
+  - **Correction**: Keep drills at unloaded control, accept an early tap, and release immediately.
+- **Mistake**: Chasing a grip while losing body control
+  - **Consequence**: The opponent’s torso or hips move and the entry loses its alignment.
+  - **Correction**: Rebuild the position without twisting the captured limb.
+- **Mistake**: Testing rotation against a late escape
+  - **Consequence**: The partners’ movements can add joint pressure unpredictably.
+  - **Correction**: Stop and reset when control is established; practice the earlier entry or prevention stage.
 
 
 </section>
@@ -375,20 +332,11 @@ The core mechanic is consistent across all rotational submissions: isolate the j
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Directional Rotation Drilling** (Focus: Developing precise directional awareness for each rotational submission so that the correct rotation becomes automatic and does not require conscious thought during live rolling.)
-Practice each rotational submission in isolation, focusing specifically on the correct axis and direction of rotation. Drill Kimura internal rotation, Americana external rotation, inside heel hook rotation, and outside heel hook rotation as separate movements. Use slow, controlled repetitions with a compliant partner to build correct motor patterns.
+**Shoulder-attack control check** (Focus: Recognize the setup without finishing pressure.)
+Start in side control with a cooperative partner. Form a loose Kimura or Americana grip without rotating the shoulder. Name the wrist, elbow, and body controls, then release and reset.
 
-**Slack Elimination Progressive Drilling** (Focus: Building the habit of complete slack elimination before force application, and developing sensitivity to the difference between tight and loose submission configurations.)
-Begin each submission rep with deliberately loose positioning, then systematically tighten each connection point before applying any rotation. Partner provides feedback on when they first feel the rotational pressure. Goal is to make the transition from loose to tight as efficient as possible while identifying which connection points matter most.
-
-**Body Rotation Prevention Sparring** (Focus: Developing the critical skill of preventing body rotation during submission finishing, which is the most common failure point for rotational attacks in live rolling.)
-Positional sparring where the attacker has an established rotational submission grip and the defender's only goal is to rotate their body to relieve pressure. The attacker works on blocking rotation pathways while maintaining the submission configuration. Reset when either the submission is finished or the defender fully escapes the rotation.
-
-**Transition Chain Drilling** (Focus: Understanding how rotational submissions connect to each other and to positional advances, so that each attack creates a fork between submission and improvement.)
-Practice flowing between different rotational attacks as the opponent defends. Kimura to sweep to Kimura from top. Heel hook to opposite leg heel hook. Americana to Kimura when opponent tries to straighten the arm. Build sequences where each defensive reaction opens a new rotational attack.
-
-**Controlled Finishing Under Resistance** (Focus: Building the ability to finish rotational submissions against real resistance while maintaining safe, controlled force application. Developing the sensitivity to distinguish between effective rotation and ineffective muscling.)
-Partner provides graduated resistance to submission finishes, starting at 30% and building to 80%. Attacker must finish with controlled, progressive force rather than explosive cranking. Partner taps when they feel genuine rotational pressure on the joint. Both partners debrief after each rep on force quality and safety.
+**Early recognition and release** (Focus: Make an early stop signal part of each repetition.)
+Use a familiar rotational-attack entry with no joint pressure. The defender signals as soon as the capture is recognized; the attacker releases immediately. Reset and switch roles.
 
 
 

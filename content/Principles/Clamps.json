@@ -1,6 +1,6 @@
 {
   "name": "Clamps",
-  "description": "Master clamps in BJJ. Learn to use paired limbs for squeezing control — closed guard, triangles, body locks, and mount pinches. The fundamental squeeze mechanic.",
+  "description": "Clamps use paired limbs to hold an opponent between them, limiting space and movement without relying on constant maximum squeeze.",
   "tags": [
     "bjj",
     "principle",
@@ -15,18 +15,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Low",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Clamps are the squeezing together of two paired body parts — legs around a torso, arms around a neck, knees against ribs — to compress, control, or finish, converting muscular contraction into inescapable inward pressure.",
-  "overview": "Clamps are among the most intuitive mechanics in grappling — a child instinctively wrapping their legs around someone's waist is already using one. The closed guard is a clamp. The triangle choke is a clamp. The body lock from back control is a clamp. Every squeeze-based control or submission in BJJ is built on clamp mechanics, which is precisely what makes the concept so foundational once you learn to see it everywhere.\n\nWhat makes clamps effective is the biomechanical advantage of compression. When you squeeze with paired limbs, you are applying inward force from two sides simultaneously, which the opponent can only resist by expanding outward — a mechanically disadvantaged direction for most body positions. Your legs clamping around someone's torso can generate enormous compressive force because the adductors and glutes are among the strongest muscles in the body. Your arms clamping around a head and arm for a guillotine use the lats, pecs, and biceps in concert. The clamp converts muscular contraction into omnidirectional compression that is extremely difficult to escape once fully locked.\n\nUnderstanding clamp mechanics transforms how you think about both control and submissions. Every guard retention problem is partly a clamping problem — can you maintain squeeze pressure on the opponent's body or limb to prevent them from extracting themselves? Every choke is fundamentally a clamp around the neck. Every joint lock begins with clamping the limb in place before applying the breaking force. Learning to identify where and when to apply clamps, how to tighten them progressively, and how to escape them is a core skill that cuts across every area of BJJ.",
+  "summary": "A clamp uses two limbs or body surfaces to hold an opponent between them, limiting the space available for movement.",
+  "overview": "Close the gap before adding effort, and adjust the contact as the opponent moves. Use only the tension needed for control so you can still breathe and change position.",
   "key_principles": [
-    "Squeeze with the strongest available muscles — legs clamp harder than arms, use them when possible",
-    "Close the loop completely before applying maximum squeeze pressure",
-    "Tighten the clamp incrementally, eliminating slack with each adjustment",
-    "Position the clamp around the narrowest available circumference for maximum compression",
-    "Use skeletal locks (ankle behind knee, hands clasped, figure-four) to maintain clamps without constant muscular effort",
-    "Combine clamping with pulling or twisting to amplify the controlling or finishing effect",
-    "Recognize that every successful clamp escape involves creating space to slip through — deny that space",
-    "Apply clamps as early as possible in a scramble, before the opponent can create defensive frames",
-    "Maintain breathing and avoid full-body tension — clamp with the squeezing limbs, relax everything else"
+    "Close the gap before squeezing harder.",
+    "Keep both sides of the clamp connected as the opponent moves.",
+    "Use limb position and locks to reduce muscular effort.",
+    "Relax the parts of your body that are not needed for control."
   ],
   "component_skills": [
     {
@@ -122,59 +117,19 @@
   "application_contexts": [
     {
       "context": "Closed Guard",
-      "how_applied": "The closed guard is the most fundamental clamp in BJJ — legs locked around the opponent's waist, ankles crossed, squeezing inward to prevent posture and passing. The adductors and hip flexors provide the clamping force while the ankle lock maintains the closed loop."
+      "how_applied": "Your legs surround the torso and help keep the opponent connected to your hips."
     },
     {
       "context": "Mount",
-      "how_applied": "Knees squeezed against the opponent's ribcage clamp them in place and prevent hip escape. The mount clamp keeps the hips low and tight, using adductor engagement to pinch the opponent's body and limit their lateral movement for bridge-and-roll escapes."
+      "how_applied": "Knee contact limits space beside the torso as you adjust your base."
     },
     {
       "context": "Back Control",
-      "how_applied": "The body triangle is a leg-based clamp around the opponent's torso that maintains back control and applies rib compression. The seatbelt grip (over-under arm configuration) is an upper body clamp around the opponent's chest. Together they create comprehensive circumferential control."
+      "how_applied": "The seatbelt and leg controls help keep the opponent connected to you."
     },
     {
       "context": "Side Control",
-      "how_applied": "The crossface arm and the underhook arm work together as a clamp around the opponent's head and far shoulder. The knees can clamp against the opponent's hip and shoulder to prevent them from turning in or out. Multiple clamping pairs maintain this dominant pin."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "The bottom player's legs clamped around the top player's trapped leg prevent the pass from completing. The lockdown variation tightens this clamp by figure-fouring the legs around the opponent's ankle and calf, creating an extremely difficult-to-break leg clamp."
-    },
-    {
-      "context": "Guillotine Control",
-      "how_applied": "The arms clamp around the opponent's neck in a guillotine grip while the closed guard legs clamp around the waist. This double clamp — upper body squeezing the neck, lower body preventing posture — creates the compression needed for the choke."
-    },
-    {
-      "context": "Triangle Choke",
-      "how_applied": "The legs form a figure-four clamp around the opponent's neck and one arm. The clamping force comes from squeezing the thighs together while the figure-four leg lock amplifies compression through lever mechanics. This is the most powerful submission clamp in BJJ."
-    },
-    {
-      "context": "Crucifix",
-      "how_applied": "The legs clamp one of the opponent's arms between the thighs while the top arm controls the other arm. This dual clamp immobilizes both arms and exposes the neck for chokes, using leg clamping on one side and arm trapping on the other."
-    },
-    {
-      "context": "Body Lock",
-      "how_applied": "Arms locked around the opponent's torso (gable grip or clasp) create a body lock clamp used in passing, takedowns, and back control. The body lock clamp prevents the opponent from creating distance or changing angle. Chest-to-back body lock from behind is one of the strongest control clamps."
-    },
-    {
-      "context": "Knee on Belly",
-      "how_applied": "While primarily a pressure position, the far hand and knee work as a loose clamp on the opponent's torso, preventing them from turning away. The clamp tightens when the top player drives the knee down while pulling the opponent toward them with grips."
-    },
-    {
-      "context": "Armbar Control",
-      "how_applied": "The knees squeeze together to clamp the opponent's arm in place while the hips lift for the break. Without this knee clamp, the opponent can pull their arm free. The tighter the knee clamp around the upper arm, the more secure the armbar becomes."
-    },
-    {
-      "context": "Darce Control",
-      "how_applied": "The arms form a figure-four clamp around the opponent's neck and arm, compressing the carotid arteries. The clamping force comes from squeezing the bicep against the opponent's neck while the locked hands prevent the loop from opening."
-    },
-    {
-      "context": "Anaconda Control",
-      "how_applied": "Similar to the Darce, the anaconda clamp wraps around the opponent's head and arm from the opposite angle. The arm clamp compresses the neck while the opponent's own shoulder acts as the blocking surface on the other side of the neck."
-    },
-    {
-      "context": "Inside Sankaku",
-      "how_applied": "The legs form a triangle clamp from inside the opponent's legs, controlling their lower body. This leg clamp restricts the opponent's hip movement and creates the platform for leg lock attacks or sweeping entries."
+      "how_applied": "Upper-body and knee contacts can limit movement around the shoulders and hips."
     }
   ],
   "decision_framework": [
@@ -221,61 +176,31 @@
   ],
   "common_errors": [
     {
-      "error": "Squeezing with maximum force immediately instead of closing the loop first",
-      "consequence": "The clamp is not fully closed so pressure leaks out. The opponent feels the squeeze warning and postures up or creates frames before the clamp can be completed. Energy is wasted on a partially effective squeeze.",
-      "correction": "Always close the loop first — lock ankles, clasp hands, complete the figure-four — then begin applying progressive squeeze pressure. The lock must be secure before the squeeze intensifies."
+      "error": "Squeezing before closing space",
+      "consequence": "The opponent moves inside the gap while you tire.",
+      "correction": "Reposition the contacts first."
     },
     {
-      "error": "Clamping around the widest point instead of the narrowest",
-      "consequence": "The clamp requires more force to create the same compression. Closed guard around the belly is weaker than around the ribcage. A triangle around the shoulders is weaker than around the neck. The wider the circumference, the more energy needed and the less effective the compression.",
-      "correction": "Always migrate the clamp to the narrowest available circumference. Walk hips higher in guard, angle the triangle tighter around the neck, slide the body lock up toward the ribcage. Small positional adjustments yield large improvements in clamp effectiveness."
+      "error": "Tensing the whole body",
+      "consequence": "You lose mobility and spend unnecessary effort.",
+      "correction": "Keep tension local to the controlling limbs."
     },
     {
-      "error": "Squeezing with calves or forearms instead of adductors, hips, and lats",
-      "consequence": "Using small distal muscles leads to rapid fatigue and weak clamping pressure. Calves cannot generate the sustained compressive force that adductors can. Forearms cannot match the squeezing power of the lats and chest.",
-      "correction": "Consciously recruit the large proximal muscles for clamping. In closed guard, squeeze with the inner thighs and hip flexors, not the calves. In a guillotine, squeeze with the lats and chest, not the forearms. The distal limbs maintain the loop while the proximal muscles provide the force."
-    },
-    {
-      "error": "Tensing the entire body while clamping",
-      "consequence": "Full-body tension drains energy rapidly. When you clamp with your legs and also tense your arms, neck, and core unnecessarily, the total energy expenditure multiplies without improving the clamp effectiveness.",
-      "correction": "Isolate the clamping muscles and relax everything else. Squeeze with the legs but keep the upper body relaxed. Clamp with the arms but let the legs and core rest. Controlled tension in the clamping limbs with relaxation elsewhere allows sustained pressure."
-    },
-    {
-      "error": "Failing to use skeletal locks to maintain the clamp",
-      "consequence": "Relying entirely on muscular squeeze means the clamp weakens as muscles fatigue. Without the ankle lock in closed guard or the figure-four in a triangle, the clamp slowly opens as the muscles tire.",
-      "correction": "Always secure a skeletal lock — ankle behind knee, hands clasped, figure-four configuration — as the structural foundation of the clamp. Let the skeleton maintain the loop while muscles provide the active squeeze on top of that passive structure."
-    },
-    {
-      "error": "Maintaining a failing clamp too long instead of transitioning",
-      "consequence": "When the opponent is successfully opening the clamp, continuing to fight for the same loop wastes energy and delays the transition to a new position or clamp configuration. The position is lost along with the energy.",
-      "correction": "Recognize when a clamp is being broken and transition to a new clamping configuration or a different control before the current clamp fails completely. Moving from closed guard to triangle, or from body lock to hooks, maintains continuous control."
+      "error": "Keeping one fixed angle",
+      "consequence": "The opponent creates space as they turn.",
+      "correction": "Follow the movement and reconnect the opening."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Clamp Retention Drilling",
-      "description": "Start with a clamp established (closed guard, triangle, body lock) and have the partner attempt to escape at progressive resistance levels. Focus on maintaining the clamp through micro-adjustments — tightening when space is created, adjusting angle when the opponent shifts, and using skeletal locks to conserve energy.",
-      "focus": "Building the sensitivity to feel when a clamp is being opened and developing the reflexive tightening response. Teaches the difference between holding a clamp through strength versus maintaining it through technique and adjustment."
+      "approach_name": "Closed-guard retention",
+      "description": "With a cooperative partner, start in closed guard and use gentle posture changes to test the connection. Adjust your legs and angle; reset when the guard opens. Stop on any discomfort.",
+      "focus": "Retain contact without maximum squeeze."
     },
     {
-      "approach_name": "Clamp Escape Circuits",
-      "description": "Partner establishes various clamps (closed guard, body triangle, head-and-arm clamp, lockdown) and the practitioner works to escape each one. Rotate through different clamp types to understand the universal escape pattern: create internal space, find the gap in the loop, extract through it.",
-      "focus": "Understanding clamp escapes from the conceptual level — every clamp escape is about creating space within the squeeze and extracting through the weakest point. Develops frame insertion and posture mechanics specifically for breaking clamp pressure."
-    },
-    {
-      "approach_name": "Squeeze Pressure Development",
-      "description": "Drilling focused on maximizing clamping force through proper muscle recruitment. Practice squeezing a heavy bag or partner with legs in closed guard position, focusing on engaging adductors and hip flexors rather than calves. Use isometric holds to build squeeze endurance.",
-      "focus": "Developing the specific strength and muscle recruitment patterns needed for effective clamping. Builds awareness of which muscles should be working and teaches practitioners to generate maximum compression with efficient muscle engagement."
-    },
-    {
-      "approach_name": "Clamp Transition Flow",
-      "description": "Practice flowing between different clamp configurations without releasing control entirely: closed guard to triangle to armbar knee clamp to omoplata leg clamp. The goal is maintaining continuous clamping pressure while changing the type and target of the clamp.",
-      "focus": "Building the ability to transition between clamp types as positions evolve, maintaining continuous compressive control throughout. Develops the understanding that clamps can be transformed rather than released and re-established."
-    },
-    {
-      "approach_name": "Positional Sparring with Clamp Focus",
-      "description": "Live sparring rounds with specific emphasis on clamp mechanics. Start from positions where clamps are central (closed guard, back control, mount) and consciously work on clamp tightening, loop closure, and clamp-based attacks. Debrief between rounds on clamp opportunities missed or exploited.",
-      "focus": "Integrating clamp awareness into live sparring. Transitions clamp mechanics from isolated drilling into the chaotic environment of live rolling, where timing, angle, and opponent resistance are all variable."
+      "approach_name": "Find the gap",
+      "description": "Start in a loose, familiar body control with no submission pressure. The partner slowly creates space while you identify where the clamp opens; release and reset.",
+      "focus": "Recognize the escape space."
     }
   ],
   "developmental_metrics": [
@@ -522,7 +447,7 @@
       "vertical": false,
       "channel": "BJJ Fanatics",
       "duration": 223,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "ypi3ie6hKTI",
@@ -531,7 +456,7 @@
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 1103,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "E8x1Cva8hJ8",
@@ -540,7 +465,7 @@
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 1664,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

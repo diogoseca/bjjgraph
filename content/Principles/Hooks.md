@@ -4,7 +4,7 @@
 
 ---
 title: "Hooks | BJJ Principle | BJJ Graph"
-description: "Master hooks in BJJ. Learn curved foot and hand attachments for retention and control — butterfly hooks, back control hooks, De La Riva hook, overhooks, and underhooks."
+description: "Use arm and leg hooks to maintain contact, redirect weight, and support sweeps, back control, and clinch work."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hooks",
-  "description": "Master hooks in BJJ. Learn curved foot and hand attachments for retention and control — butterfly hooks, back control hooks, De La Riva hook, overhooks, and underhooks.",
+  "description": "Use arm and leg hooks to maintain contact, redirect weight, and support sweeps, back control, and clinch work.",
   "url": "https://bjjgraph.org/Principles/Hooks",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Setting hooks too shallow so they do not complete the curve around the target?",
+      "name": "What is a common mistake in Only touching the target?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shallow hooks are easily stripped because they do not have geometric retention. A butterfly hook with only the toes touching the thigh can be kicked off with a simple knee pinch. An underhook that stops at the armpit is countered by a basic whizzer. The correction is: Drive hooks deep. The foot should wrap past the knee line in butterfly guard, the arm should thread past the opponent's centerline in an underhook, and the heel should pass fully inside the thigh for back control. The curve must complete for retention to work."
+        "text": "The opponent removes the limb before it can lift or follow them. The correction is: Adjust your body angle so the hook curves around the target instead of merely resting against it."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Making hooks too rigid instead of keeping them responsive and mobile?",
+      "name": "What is a common mistake in Locking the hook rigidly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rigid hooks break under sudden angle changes. When the opponent explosively changes direction, a stiff hook snaps out of position and cannot reattach. Rigidity also prevents the hook from following the opponent's movement. The correction is: Maintain active tension rather than locked rigidity. Keep the hooking limb firm enough to maintain connection but flexible enough to follow the opponent's movement and re-curve around the target from new angles when displaced."
+        "text": "An angle change strips the hook and delays reattachment. The correction is: Use active tension and let the limb move with the opponent."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to set hooks during transitions when gaps are open?",
+      "name": "What is a common mistake in Expecting one hook to hold everything?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hooks are easiest to insert during movement when the opponent's limbs are not set in defensive positions. Missing these windows means having to fight for hook insertion against a settled, defending opponent, which is far more difficult. The correction is: Develop awareness of transitional moments — when the opponent stands up, turns, or shifts weight — as hook insertion opportunities. Train to insert hooks reflexively during scrambles and transitions rather than waiting for static positions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Relying on a single hook without establishing backup attachment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A single hook is a single point of failure. When it gets stripped, all connection is lost and the position collapses. Back control with one hook, butterfly guard with one hook, or a single underhook without grip support are all fragile. The correction is: Always work toward dual hooks or hook-plus-grip combinations. Set the second butterfly hook, establish both back control hooks, or pair the underhook with a collar grip. Redundant attachment provides resilience."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Trying to strip opponent's hooks by pulling straight out instead of changing the angle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hooks resist linear removal by design — the curve catches on the target when pulled directly. Yanking at a hook wastes energy and often fails because you are fighting against the geometry. The correction is: Strip hooks by changing the angle. Push the hooking foot sideways off the thigh, swim your arm past the underhook laterally, or rotate your body to change the angle of the curve. Hooks resist straight pulls but are vulnerable to angular displacement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Setting hooks in the wrong direction for the intended technique?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A butterfly hook angled inward provides no sweep leverage outward. An underhook threaded at the wrong angle does not allow a back take. The hook is set but provides no tactical value because its directional force is misaligned with the technique. The correction is: Align hook direction with technique direction. Angle butterfly hooks in the sweep direction, thread underhooks toward the back for back takes, and set DLR hooks to control the angle you want to sweep toward. The hook should point where you want the opponent to go."
+        "text": "The opponent rotates around the attachment or clears it with a free limb. The correction is: Add a complementary grip and track the shoulder or hip the hook does not control."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Hooks",
-  "description": "Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.",
+  "description": "Hooks are curved arm or leg attachments that connect to an opponent’s limbs, helping you follow movement, lift, or restrict an escape.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Creating room to insert your hook",
+      "description": "Hooks film study: Creating room to insert your hook, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6PO2N-GcQkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6PO2N-GcQkY",
+      "url": "https://www.youtube.com/watch?v=6PO2N-GcQkY",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Butterfly guard hooks: the most important principles",
       "description": "Hooks film study: Butterfly guard hooks: the most important principles, taught by Marcelo Garcia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0WG1MYvgXAM/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The secret to Marcelo Garcia\u0027s butterfly hooks",
       "description": "Hooks film study: The secret to Marcelo Garcia\u0027s butterfly hooks, taught by Kenny Florian.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WB9_9TgcH1o/hqdefault.jpg",
@@ -205,13 +191,9 @@ description: "Master hooks in BJJ. Learn curved foot and hand attachments for re
 
 ## What are Hooks?
 
-**Hooks are curved attachments — a foot behind a knee, an instep inside a thigh, an arm under an armpit — that use limb geometry rather than gripping force to create connections an opponent must change angles to remove.**
+**Hooks are curved arm or leg attachments that connect to an opponent’s limbs, helping you follow movement, lift, or restrict an escape.**
 
-Hooks sit alongside grips as one of the two foundational attachment mechanics in grappling, but where a grip is an active, muscular grab, a hook is structural. Because the connection comes from the curve of feet, hands, and limbs wrapping around the opponent's body rather than from squeezing, you cannot simply pull a hook off by yanking — you must change the angle, peel it away, or create enough space to disengage the curve. This geometric resilience is what makes hooks one of the most reliable control mechanisms in BJJ.
-
-Hooks appear everywhere. The butterfly guard is defined by feet hooked under the opponent's thighs. Back control requires heel hooks inside the opponent's thighs. The De La Riva guard wraps a foot behind the opponent's lead knee. The underhook threads an arm under the opponent's armpit and curves upward behind the shoulder. The overhook wraps over the opponent's arm and curves downward to trap it. In each case, the hook creates a persistent connection that the opponent must actively work to remove, buying the hooking player time, control, and options.
-
-What distinguishes hooks from other attachment methods is their passive retention quality. A grip requires constant muscular effort to maintain — relax your hand and you lose the grip. A hook, once set, tends to stay in place even with minimal active effort because the curved geometry naturally resists linear pulling forces. This makes hooks exceptionally energy-efficient. A butterfly hook sitting passively under the opponent's thigh maintains its position until the opponent specifically addresses it. This passive retention allows the hooking player to focus attention and energy on other tasks — setting up sweeps, establishing grips, or transitioning — while the hooks quietly maintain the fundamental connection.
+A useful hook follows the opponent’s movement and supports another control. If its angle is stripped, reposition it instead of holding a rigid, failing attachment.
 
 </section>
 
@@ -222,6 +204,14 @@ What distinguishes hooks from other attachment methods is their passive retentio
 
 <p class="section-subtitle">Watch Hooks in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=6PO2N-GcQkY)
+
+<p class="clip-credit"><strong>Creating room to insert your hook</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=6PO2N-GcQkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -246,15 +236,10 @@ What distinguishes hooks from other attachment methods is their passive retentio
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Curve the hooking limb around the target to create geometric retention that resists linear removal
-- Set hooks early during transitions before the opponent can establish defensive barriers
-- Use the instep and heel for foot hooks — the curve of the foot naturally wraps around limbs
-- Thread arm hooks deep enough that the curved portion passes fully behind the target
-- Maintain active hook pressure (pulling or lifting) to amplify the passive retention
-- Layer multiple hooks to create redundant attachment that survives one hook being stripped
-- Recognize that hook removal requires angle change, not just pulling — defend hooks by changing the angle
-- Combine hooks with grips to create attachment systems that are stronger than either alone
-- Keep hooks light and responsive rather than rigid — a mobile hook can reattach after being partially stripped
+- Curve the limb around the target far enough to make a useful connection.
+- Keep active tension while allowing the hook to follow movement.
+- Pair hooks with upper-body grips or another point of control.
+- Reinsert or replace a hook when the opponent changes the angle.
 
 
 </section>
@@ -285,33 +270,13 @@ What distinguishes hooks from other attachment methods is their passive retentio
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Butterfly Guard**: Both feet hooked under the opponent's thighs create the defining attachment of butterfly guard. These hooks provide upward elevation for sweeps, distance control to prevent smashing passes, and the ability to redirect the opponent's weight laterally for off-balancing.
+**Butterfly Guard**: Use instep hooks under the thighs with upper-body control to lift and redirect the opponent’s weight.
 
-**Back Control**: Both heels hooked inside the opponent's inner thighs are the primary retention mechanism for back control. The hooks prevent the opponent from sliding down and escaping. Losing both hooks generally means losing the position. Body triangle is an alternative when hooks are stripped.
+**Back Control**: Use inside leg hooks with chest and seatbelt contact to follow the hips as the opponent tries to slide away.
 
-**De La Riva Guard**: The De La Riva hook wraps the outside foot behind the opponent's lead knee, curving around the leg to control their base and balance. This single hook is the foundation of the entire guard system, providing the attachment from which sweeps, back takes, and berimbolo entries are launched.
+**De La Riva Guard**: Wrap the outside hook around the lead leg and combine it with grips to affect the opponent’s base.
 
-**Half Guard**: From bottom half guard, the underhook on the near side is the single most important hook. A deep underhook allows the bottom player to come to the knees, take the back, or execute sweeps. Without the underhook, the bottom half guard player is flat and defensive.
-
-**Clinch**: Underhooks and overhooks define the clinch battle. An underhook provides steering control and takedown entries. An overhook (whizzer) defends against the underhook and creates its own back take and throw opportunities. The clinch is fundamentally a hook fight.
-
-**X-Guard**: Both legs hook the opponent's lead leg — one foot behind the knee, one foot on the hip — creating an X-shaped hook configuration that elevates the entire leg and controls the opponent's base from underneath. The dual hook creates powerful sweep leverage.
-
-**Single Leg X-Guard**: One foot hooks behind the opponent's knee while the legs control the shin, creating a hook-based entanglement on a single leg. This hook configuration enables technical stand-ups, sweep entries, and transitions to leg lock positions.
-
-**Reverse De La Riva Guard**: The inside foot hooks behind the opponent's lead knee from the inside, inverting the standard DLR hook direction. This reverse hook provides a different angle of base disruption and enables bolo entries and outside passing defense.
-
-**Open Guard**: Feet hooked on hips, biceps, or inside thighs provide the retention connections that keep the passer engaged. Open guard without hooks becomes pure distance management — adding hooks gives the guard player active control over the passer's positioning.
-
-**Turtle**: The attacking player attempts to insert hooks (heels inside the thighs) to convert turtle control into back control. The defending player pinches elbows and knees to prevent hook insertion. The hook insertion battle is the defining contest from turtle.
-
-**Dogfight Position**: The dogfight emerges from half guard when both players have underhooks and come to their knees. The underhook depth and angle determine who gets the back take. The deeper underhook usually wins the dogfight exchange.
-
-**Crab Ride**: Hooks behind the opponent's knees from the back-side create the crab ride attachment. These hooks control the opponent's ability to stand or turn while providing entries to leg locks and back takes.
-
-**Spider Guard**: Feet hooked on the opponent's biceps combined with sleeve grips create the spider guard attachment system. The foot hooks on the biceps control the opponent's arm positioning and posture, enabling sweeps and triangle entries.
-
-**Standing Position**: In standing grappling, foot hooks behind the opponent's heel or ankle are used for reaps and trips. Arm hooks (underhooks) from standing provide the attachment needed for body lock takedowns and duck-under entries.
+**Clinch**: Thread an underhook beneath the arm and connect it to your stance and head position to control the upper body.
 
 
 
@@ -335,27 +300,15 @@ What distinguishes hooks from other attachment methods is their passive retentio
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Setting hooks too shallow so they do not complete the curve around the target
-  - **Consequence**: Shallow hooks are easily stripped because they do not have geometric retention. A butterfly hook with only the toes touching the thigh can be kicked off with a simple knee pinch. An underhook that stops at the armpit is countered by a basic whizzer.
-  - **Correction**: Drive hooks deep. The foot should wrap past the knee line in butterfly guard, the arm should thread past the opponent's centerline in an underhook, and the heel should pass fully inside the thigh for back control. The curve must complete for retention to work.
-- **Mistake**: Making hooks too rigid instead of keeping them responsive and mobile
-  - **Consequence**: Rigid hooks break under sudden angle changes. When the opponent explosively changes direction, a stiff hook snaps out of position and cannot reattach. Rigidity also prevents the hook from following the opponent's movement.
-  - **Correction**: Maintain active tension rather than locked rigidity. Keep the hooking limb firm enough to maintain connection but flexible enough to follow the opponent's movement and re-curve around the target from new angles when displaced.
-- **Mistake**: Failing to set hooks during transitions when gaps are open
-  - **Consequence**: Hooks are easiest to insert during movement when the opponent's limbs are not set in defensive positions. Missing these windows means having to fight for hook insertion against a settled, defending opponent, which is far more difficult.
-  - **Correction**: Develop awareness of transitional moments — when the opponent stands up, turns, or shifts weight — as hook insertion opportunities. Train to insert hooks reflexively during scrambles and transitions rather than waiting for static positions.
-- **Mistake**: Relying on a single hook without establishing backup attachment
-  - **Consequence**: A single hook is a single point of failure. When it gets stripped, all connection is lost and the position collapses. Back control with one hook, butterfly guard with one hook, or a single underhook without grip support are all fragile.
-  - **Correction**: Always work toward dual hooks or hook-plus-grip combinations. Set the second butterfly hook, establish both back control hooks, or pair the underhook with a collar grip. Redundant attachment provides resilience.
-- **Mistake**: Trying to strip opponent's hooks by pulling straight out instead of changing the angle
-  - **Consequence**: Hooks resist linear removal by design — the curve catches on the target when pulled directly. Yanking at a hook wastes energy and often fails because you are fighting against the geometry.
-  - **Correction**: Strip hooks by changing the angle. Push the hooking foot sideways off the thigh, swim your arm past the underhook laterally, or rotate your body to change the angle of the curve. Hooks resist straight pulls but are vulnerable to angular displacement.
-- **Mistake**: Setting hooks in the wrong direction for the intended technique
-  - **Consequence**: A butterfly hook angled inward provides no sweep leverage outward. An underhook threaded at the wrong angle does not allow a back take. The hook is set but provides no tactical value because its directional force is misaligned with the technique.
-  - **Correction**: Align hook direction with technique direction. Angle butterfly hooks in the sweep direction, thread underhooks toward the back for back takes, and set DLR hooks to control the angle you want to sweep toward. The hook should point where you want the opponent to go.
-- **Mistake**: Neglecting foot position — using the top of the foot instead of the instep or heel
-  - **Consequence**: The top of the foot has no natural curve for wrapping. Using it for hooks results in weak attachment that slides off under any pressure. The opponent can easily clear a foot that is not properly curved around the target.
-  - **Correction**: Use the instep (inside curve of the foot) for hooks that wrap behind legs and the heel for hooks that need to dig into inner thighs. The natural curve of these foot surfaces creates the geometric retention that makes hooks effective.
+- **Mistake**: Only touching the target
+  - **Consequence**: The opponent removes the limb before it can lift or follow them.
+  - **Correction**: Adjust your body angle so the hook curves around the target instead of merely resting against it.
+- **Mistake**: Locking the hook rigidly
+  - **Consequence**: An angle change strips the hook and delays reattachment.
+  - **Correction**: Use active tension and let the limb move with the opponent.
+- **Mistake**: Expecting one hook to hold everything
+  - **Consequence**: The opponent rotates around the attachment or clears it with a free limb.
+  - **Correction**: Add a complementary grip and track the shoulder or hip the hook does not control.
 
 
 </section>
@@ -363,23 +316,11 @@ What distinguishes hooks from other attachment methods is their passive retentio
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Hook Insertion Speed Drills** (Focus: Developing the timing and speed needed to set hooks during the brief windows that appear during transitions. Builds the reflexive hook insertion that experienced grapplers perform without conscious thought.)
-Partner moves through various positions while the practitioner focuses on inserting hooks as quickly as possible during transitional moments. No submissions or sweeps — just repeated hook insertion and release to build reflexive hook setting during movement.
+**Butterfly hook tracking** (Focus: Follow angle changes with the hooks.)
+Start in butterfly guard with light upper-body grips. The partner slowly shifts each knee while you follow with your insteps. Reset whenever a hook clears, then switch roles.
 
-**Hook Retention Under Resistance** (Focus: Building the sensitivity to feel hook stripping attempts early and developing the reflexive responses that maintain hook attachment. Teaches the difference between rigid hook holding (bad) and responsive hook maintenance (good).)
-Start with hooks established (butterfly guard, back control, DLR) and have the partner work progressively harder to strip them. Focus on maintaining hooks through micro-adjustments, re-curving when partially stripped, and using active hook pressure to resist removal.
-
-**Hook Stripping Practice** (Focus: Understanding hooks from the defensive perspective — how to recognize, prevent, and remove the opponent's hooks efficiently. Develops the angular stripping mechanics that defeat geometric retention.)
-Partner establishes various hooks and the practitioner works to strip them using angle changes rather than strength. Practice clearing butterfly hooks with knee pinches, stripping underhooks with swim moves, and removing back control hooks with foot peel sequences.
-
-**Underhook-Overhook Flow Drilling** (Focus: Developing fluency in the arm hook battle that defines clinch work and half guard. Builds the automatic threading and countering of arm hooks that separates experienced grapplers from beginners.)
-Partners continuously alternate between underhook and overhook positions, flowing between attack and defense. One partner threads the underhook, the other counters with an overhook, then they switch. Practice from standing, kneeling, and half guard positions.
-
-**Guard-Specific Hook Drilling** (Focus: Building position-specific hook competence. Each guard uses hooks differently, and drilling the specific hook insertion, depth, angle, and pressure for each guard develops the nuanced understanding that makes each guard functional.)
-Practice the hook mechanics specific to individual guard types: butterfly hooks for butterfly guard, DLR hook for De La Riva, spider hooks for spider guard, X-guard hooks for X-guard. Drill each guard's hooks independently with progressive resistance.
-
-**Back Control Hook Battles** (Focus: Building competence in the most consequential hook battle in BJJ — back control hook retention versus clearing. Both skills are essential and this drill develops them simultaneously.)
-Positional sparring starting from back control where the attacker tries to maintain both hooks while the defender tries to clear them. The round resets when hooks are fully cleared or maintained for 60 seconds. Develops the specific hook retention and stripping skills for back control.
+**Back-control reconnection** (Focus: Coordinate upper- and lower-body attachments.)
+Begin with a seatbelt and hooks. The partner slowly slides one hip away; replace the displaced hook while maintaining chest contact. Reset after reconnection or escape.
 
 
 

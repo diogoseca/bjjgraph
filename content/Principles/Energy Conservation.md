@@ -4,7 +4,7 @@
 
 ---
 title: "Energy Conservation | BJJ Principle | BJJ Graph"
-description: "Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance."
+description: "Energy conservation means using structure, useful grips, and well-timed effort so you can keep making effective decisions through a round."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Energy Conservation",
-  "description": "Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance.",
+  "description": "Energy conservation means using structure, useful grips, and well-timed effort so you can keep making effective decisions through a round.",
   "url": "https://bjjgraph.org/Principles/Energy-Conservation",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Constant high-intensity effort regardless of positional importance?",
+      "name": "What is a common mistake in Working at full effort throughout?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Premature exhaustion leading to technical degradation and defensive vulnerabilities in critical match moments The correction is: Develop positional hierarchy awareness and reserve explosive efforts for positions with significant strategic value or decisive submission opportunities"
+        "text": "Fatigue accumulates without a matching positional gain. The correction is: Notice which tension can be reduced without losing control."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Explosive escape attempts without proper setup or timing?",
+      "name": "What is a common mistake in Exploding before the setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wasted energy on low-probability escapes while failing to create actual positional improvements or ending in worse positions The correction is: Wait for optimal escape timing when opponent weight shifts or makes positional errors rather than forcing constant escape attempts"
+        "text": "A large effort produces little movement. The correction is: Create the frame, angle, or weight shift first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Muscular resistance against superior positional pressure?",
+      "name": "What is a common mistake in Confusing conservation with passivity?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapid energy depletion fighting unwinnable battles while opponent maintains control using structural advantages and weight The correction is: Use frame-based structural defense and accept temporary positional disadvantages to preserve energy for better escape opportunities"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Breath-holding during defensive exchanges or submission escapes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Oxygen debt accumulation causing rapid fatigue, reduced cognitive function, and panic responses under continued pressure The correction is: Maintain conscious breathing awareness during all exchanges and prioritize breathing even while defending difficult positions"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to recognize recovery opportunities in neutral positions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Continuous high-intensity engagement without energy restoration leading to progressive performance degradation throughout match The correction is: Actively seek stable positions allowing partial recovery such as closed guard or turtle when energy levels are depleted"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Matching opponent's pace regardless of energy state or strategic position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Loss of strategic control over match tempo and energy expenditure rates, allowing opponent to dictate engagement intensity The correction is: Implement deliberate pace control through guard pulling, stalling in advantageous positions, and selective engagement"
+        "text": "The opponent improves control while you wait. The correction is: Keep addressing grips and immediate threats with small actions."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Energy Conservation",
-  "description": "Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.",
+  "description": "Energy conservation means avoiding unnecessary tension and spending effort on movements that improve your position or address an immediate threat.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Breathing to manage your energy while rolling",
+      "description": "Energy Conservation film study: Breathing to manage your energy while rolling, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5v-0tJzzWI8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5v-0tJzzWI8",
+      "url": "https://www.youtube.com/watch?v=5v-0tJzzWI8",
+      "creator": { "@type": "Person", "name": "Nick Albin" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Why white belts gas out and how to fix it",
       "description": "Energy Conservation film study: Why white belts gas out and how to fix it, taught by Chewjitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cRLnxkS0N6g/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The real reason you gas out in competition",
       "description": "Energy Conservation film study: The real reason you gas out in competition, taught by Josh Saunders.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bhSpo8fYL7U/hqdefault.jpg",
@@ -205,9 +191,9 @@ description: "Master energy conservation in BJJ. Learn strategic resource manage
 
 ## What is Energy Conservation?
 
-**Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.**
+**Energy conservation means avoiding unnecessary tension and spending effort on movements that improve your position or address an immediate threat.**
 
-In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skilled in the abstract, but by who can still execute clean technique in the final minutes when both athletes are exhausted. Energy Conservation addresses this reality directly: it recognizes that grappling is fundamentally a war of attrition where the practitioner who maintains effective performance while expending less fuel often prevails. It is not about being passive or lazy; rather, it is about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the closing exchanges of competition.
+Use frames, weight placement, and timing to reduce constant muscular work. Stay active in defense, and save larger efforts for openings you have prepared.
 
 </section>
 
@@ -218,6 +204,14 @@ In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skille
 
 <p class="section-subtitle">Watch Energy Conservation in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=5v-0tJzzWI8)
+
+<p class="clip-credit"><strong>Breathing to manage your energy while rolling</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=5v-0tJzzWI8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -242,14 +236,10 @@ In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skille
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Strategic resource allocation throughout match duration
-- Efficient movement patterns that minimize wasted energy
-- Selective resistance based on positional hierarchy
-- Tactical concessions to preserve energy for critical exchanges
-- Timing explosive efforts for maximum strategic impact
-- Recovery positioning between high-intensity exchanges
-- Mental energy management and decision-making efficiency
-- Opponent energy exploitation through pressure and pace control
+- Relax tension that is not doing a useful job.
+- Use frames and weight placement before adding strength.
+- Prepare an opening before making a large effort.
+- Keep breathing and address threats instead of resting inside them.
 
 
 </section>
@@ -278,35 +268,13 @@ In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skille
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Use leg squeeze and posture breaking intermittently rather than constantly, conserving hip flexor and core energy while maintaining control
+**Closed Guard**: Use grips and leg tension as needed rather than squeezing at full effort throughout.
 
-**Side Control**: When bottom, frame efficiently and wait for escape opportunities rather than explosive scrambling; when top, use weight distribution not muscle
+**Side Control**: The bottom player uses frames; the top player uses weight placement instead of constant muscular force.
 
-**Mount**: Bottom position allows conservative defense through hip frames and selective bridging; top position maintains control through grapevine and weight placement
+**Mount**: The bottom player prepares a bridge with frames and timing rather than bridging repeatedly without an opening.
 
-**Back Control**: Defender conserves energy through chin protection and hand fighting rather than explosive escape attempts until optimal moment
-
-**Turtle**: Highly efficient defensive position requiring minimal energy to maintain while allowing controlled breathing and recovery between exchanges
-
-**Headquarters Position**: Use pressure and patience rather than explosive scrambles, forcing defender to expend energy while passer maintains structural control from standing headquarters
-
-**Open Guard**: Strategic guard pulling to avoid high-energy standup exchanges when grappling is preferred or when energy conservation is prioritized
-
-**Ashi Garami**: Recognize when to clear entanglements versus when to accept neutral positions to avoid exhausting scrambles
-
-**Armbar Control**: Use structural defense and proper hand positioning rather than explosive strength-based resistance against submission attempts
-
-**Half Guard**: Bottom player can stall and recover in lockdown or deep half, while top player conserves energy through shoulder pressure and patience
-
-**Knee Shield Half Guard**: Efficient barrier position allowing defensive recovery while maintaining frames and preventing pass without constant scrambling
-
-**Butterfly Guard**: Active hook control allows sweeping opportunities while seated posture enables breathing and energy recovery between attacks
-
-**Deep Half Guard**: Extremely defensive position allowing complete recovery while opponent struggles to advance, forcing attacker to expend energy
-
-**De La Riva Guard**: Hook control maintains distance and defensive safety without requiring constant grip fighting or explosive movement
-
-**Spider Guard**: Extended legs create distance and control while allowing upper body relaxation and breathing between offensive attempts
+**Back Control**: The defender prioritizes the attacking hands while preparing a controlled escape.
 
 
 
@@ -330,24 +298,15 @@ In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skille
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Constant high-intensity effort regardless of positional importance
-  - **Consequence**: Premature exhaustion leading to technical degradation and defensive vulnerabilities in critical match moments
-  - **Correction**: Develop positional hierarchy awareness and reserve explosive efforts for positions with significant strategic value or decisive submission opportunities
-- **Mistake**: Explosive escape attempts without proper setup or timing
-  - **Consequence**: Wasted energy on low-probability escapes while failing to create actual positional improvements or ending in worse positions
-  - **Correction**: Wait for optimal escape timing when opponent weight shifts or makes positional errors rather than forcing constant escape attempts
-- **Mistake**: Muscular resistance against superior positional pressure
-  - **Consequence**: Rapid energy depletion fighting unwinnable battles while opponent maintains control using structural advantages and weight
-  - **Correction**: Use frame-based structural defense and accept temporary positional disadvantages to preserve energy for better escape opportunities
-- **Mistake**: Breath-holding during defensive exchanges or submission escapes
-  - **Consequence**: Oxygen debt accumulation causing rapid fatigue, reduced cognitive function, and panic responses under continued pressure
-  - **Correction**: Maintain conscious breathing awareness during all exchanges and prioritize breathing even while defending difficult positions
-- **Mistake**: Failing to recognize recovery opportunities in neutral positions
-  - **Consequence**: Continuous high-intensity engagement without energy restoration leading to progressive performance degradation throughout match
-  - **Correction**: Actively seek stable positions allowing partial recovery such as closed guard or turtle when energy levels are depleted
-- **Mistake**: Matching opponent's pace regardless of energy state or strategic position
-  - **Consequence**: Loss of strategic control over match tempo and energy expenditure rates, allowing opponent to dictate engagement intensity
-  - **Correction**: Implement deliberate pace control through guard pulling, stalling in advantageous positions, and selective engagement
+- **Mistake**: Working at full effort throughout
+  - **Consequence**: Fatigue accumulates without a matching positional gain.
+  - **Correction**: Notice which tension can be reduced without losing control.
+- **Mistake**: Exploding before the setup
+  - **Consequence**: A large effort produces little movement.
+  - **Correction**: Create the frame, angle, or weight shift first.
+- **Mistake**: Confusing conservation with passivity
+  - **Consequence**: The opponent improves control while you wait.
+  - **Correction**: Keep addressing grips and immediate threats with small actions.
 
 
 </section>
@@ -355,20 +314,11 @@ In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skille
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Flow Rolling with Energy Awareness** (Focus: Developing conscious awareness of energy use patterns and efficient movement pathways through low-intensity technical practice)
-Practice rolling at reduced intensity while maintaining technical quality, focusing on movement efficiency and identifying unnecessary energy expenditure patterns
+**Easy flow and review** (Focus: Find effort that can be removed.)
+Roll cooperatively at a pace where both partners can talk. Pause when someone notices unnecessary tension, relax it without abandoning control, then restart.
 
-**Positional Sparring with Energy Constraints** (Focus: Isolating energy conservation techniques within specific positional contexts to develop efficient defensive and offensive patterns)
-Train specific positions with explicit rules about effort levels, such as defending mount using only framing or maintaining guard with minimal grip strength
-
-**Timed Rounds with Progressive Fatigue** (Focus: Experiencing real fatigue consequences and developing strategic energy management under conditions approximating competition demands)
-Structure training with longer rounds or multiple consecutive rounds to simulate late-match fatigue, forcing energy conservation under accumulating exhaustion
-
-**Competition Simulation with Scoring** (Focus: Implementing energy conservation within competitive contexts including tactical stalling, point protection, and risk-averse late-match strategies)
-Practice matches with authentic scoring rules encouraging tactical stalling and conservative play when ahead, developing strategic energy allocation skills
-
-**Strength Disadvantage Training** (Focus: Forcing development of efficient techniques and energy conservation when muscular solutions are insufficient)
-Regular practice against larger or stronger opponents requiring technical efficiency and energy conservation due to strength differential
+**Frame-first escape** (Focus: Spend effort after making an opening.)
+From light mount or side control, build frames and wait for an agreed weight shift before escaping. Reset and compare the effort with an unprepared attempt.
 
 
 

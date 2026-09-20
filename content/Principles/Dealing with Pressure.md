@@ -4,7 +4,7 @@
 
 ---
 title: "Dealing with Pressure | BJJ Principle | BJJ Graph"
-description: "Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control."
+description: "Dealing with pressure means protecting your neck and arms, building frames, and using small movements to make space under a pin."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Dealing with Pressure",
-  "description": "Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control.",
+  "description": "Dealing with pressure means protecting your neck and arms, building frames, and using small movements to make space under a pin.",
   "url": "https://bjjgraph.org/Principles/Dealing-with-Pressure",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Allowing complete flattening of back to mat without maintaining angles?",
+      "name": "What is a common mistake in Exploding before making space?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maximizes effective pressure surface area, prevents hip mobility, eliminates escape pathways, and creates vulnerable position for submissions and sustained control The correction is: Immediately turn to side or create hip angle, even small degrees of rotation significantly reduce effective pressure. Practice maintaining side orientation as default defensive posture."
+        "text": "Effort rises while the opponent remains settled on you. The correction is: Set a frame and change the angle first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Explosive, high-energy escape attempts without creating necessary space first?",
+      "name": "What is a common mistake in Pushing with straight, exposed arms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wastes critical energy reserves, tightens opponent's control through reactive adjustment, creates exhaustion that leads to submission or complete positional breakdown The correction is: Use sequential small movements to accumulate space first, then execute committed escapes only when sufficient space exists. Energy conservation is essential for sustained pressure defense."
+        "text": "The arms can be isolated while the pin remains. The correction is: Use connected frames and move your body around them."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Holding breath or shallow chest breathing under compression?",
+      "name": "What is a common mistake in Holding your breath to endure pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Accelerates oxygen depletion, increases panic response, reduces muscular endurance, impairs decision-making capacity, and creates psychological pressure that exceeds physical pressure The correction is: Focus on diaphragmatic breathing using available space, coordinate breathing with opponent's weight shifts, create micro-spaces through frame adjustments specifically for breathing windows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Pushing directly against opponent's weight with rigid arm extensions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates strength-versus-strength battle that favors top position, exhausts arm muscles rapidly, provides opponent with frames to attack for armbars or other submissions The correction is: Use frames structurally rather than muscularly, direct pressure at angles rather than head-on, maintain bent-arm frames that use skeletal structure rather than muscle strength."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Abandoning defensive priorities to attempt escapes prematurely?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Exposes neck and limbs to submission attacks, allows opponent to transition to more dominant positions, converts survivable pressure situation into immediate submission danger The correction is: Maintain priority hierarchy: protect submissions first, maintain breathing second, preserve position third, attempt escapes fourth. Never compromise higher priorities for lower ones."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Accepting static position without making small progressive adjustments?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to settle into optimized pressure configuration, prevents accumulation of escape opportunities, leads to increasing physical and psychological pressure over time The correction is: Make constant small adjustments to frames, angles, and position even under heavy pressure. Small movements prevent opponent from achieving perfect control and create escape opportunities."
+        "text": "You postpone stopping while the position becomes harder to manage. The correction is: Keep breathing; tap or call stop when breathing is restricted."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Dealing with Pressure",
-  "description": "Dealing with Pressure is the defensive skill of preserving breathing, structure, and escape options under an opponent's top weight by combining frames, angles, strategic breathing, and psychological composure to survive control and create escapes.",
+  "description": "Dealing with pressure means preserving frames, breathing space, and escape options while an opponent controls you from above.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "How to prevent getting crushed",
+      "description": "Dealing with Pressure film study: How to prevent getting crushed, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gymff0hcYhQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gymff0hcYhQ",
+      "url": "https://www.youtube.com/watch?v=gymff0hcYhQ",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Defending top pressure and transitioning to attack",
       "description": "Dealing with Pressure film study: Defending top pressure and transitioning to attack, taught by Firas Zahabi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EOJsjsYYmX0/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Defensive BJJ: the five position system",
       "description": "Dealing with Pressure film study: Defensive BJJ: the five position system, taught by Priit Mihkelson.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HYON7oAvB2s/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "How to breathe when trapped and getting crushed",
       "description": "Dealing with Pressure film study: How to breathe when trapped and getting crushed, taught by Stephan Kesting.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Vf07y7rmsxE/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master pressure defense in BJJ with comprehensive strategies for f
 
 ## What is Dealing with Pressure?
 
-**Dealing with Pressure is the defensive skill of preserving breathing, structure, and escape options under an opponent's top weight by combining frames, angles, strategic breathing, and psychological composure to survive control and create escapes.**
+**Dealing with pressure means preserving frames, breathing space, and escape options while an opponent controls you from above.**
 
-In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crushing, suffocating control rather than by chaining submissions, which makes the bottom player's ability to manage that load a decisive skill. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where an opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach required to survive and escape pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.
+Address immediate submission threats, then build a frame and an angle before trying to escape. Use weight shifts to move a little at a time; tap or call stop if you cannot breathe comfortably.
 
 </section>
 
@@ -229,6 +215,14 @@ In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crus
 
 <p class="section-subtitle">Watch Dealing with Pressure in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=gymff0hcYhQ)
+
+<p class="clip-credit"><strong>How to prevent getting crushed</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=gymff0hcYhQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crus
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Establish frames immediately to create minimal space for breathing and movement
-- Never allow flat back position—maintain angle to one side or hip orientation
-- Breathe strategically using diaphragmatic breathing despite chest compression
-- Create small movements sequentially rather than explosive attempts that waste energy
-- Protect neck and arms as priority to prevent immediate submission threats
-- Use opponent's pressure redirections rather than direct strength-on-strength opposition
-- Maintain calm mental state to preserve decision-making capability under duress
-- Recognize pressure patterns to anticipate weight shifts and create escape timing
-- Conserve energy for critical escape moments rather than constant struggle
+- Protect the neck and isolated arms first.
+- Build frames before pushing or moving your hips.
+- Turn toward a useful escape angle when space allows.
+- Use small movements during weight shifts instead of constant struggling.
 
 
 </section>
@@ -300,35 +289,13 @@ In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crus
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: Under mount pressure, the concept manifests through establishing elbow frames to prevent chest-to-chest compression, maintaining hip angles to prevent flattening, and timing breathing with opponent's weight shifts while protecting neck from choke attempts.
+**Mount**: Keep elbows available as frames and time a bridge or hip movement with a change in weight.
 
-**Side Control**: In side control, pressure management involves creating frames with bottom arm and knee shield, turning to the side to reduce pressure surface area, protecting neck with chin-to-shoulder connection, and using small shrimping movements to prevent complete flattening.
+**Side Control**: Frame at the upper body and hip, then turn and move your hips into the opening.
 
-**Knee on Belly**: Under knee-on-belly pressure, the concept requires protecting ribs and solar plexus with frames, maintaining breathing despite abdominal compression, and using opponent's elevated position to create hip escape opportunities while managing acute localized pressure.
+**Knee on Belly**: Protect your upper body while using frames and hip movement to create space around the knee.
 
-**North-South**: In north-south pressure, management focuses on protecting neck from choke attempts, maintaining space with arm frames to preserve breathing, and using bridging movements to redirect opponent's weight rather than accepting direct chest compression.
-
-**Kesa Gatame**: Under scarf hold control, pressure dealing involves using near-side arm to create space around neck, maintaining hip mobility to prevent complete pinning, and timing escape attempts with opponent's weight distribution changes.
-
-**Back Control**: When experiencing back control pressure, the concept emphasizes protecting neck as primary priority, managing breathing despite body triangle or leg compression, and maintaining hand fighting effectiveness to prevent choke completion.
-
-**Closed Guard**: Under pressure in closed guard, management involves maintaining guard structure despite forward pressure, using hip movement to prevent posture establishment, and creating angles to reduce effective pressure while maintaining offensive threats.
-
-**Half Guard**: In bottom half guard under pressure, the concept requires maintaining knee shield frames when possible, protecting underhook space, managing breathing during smash passing pressure, and using small movements to maintain guard retention.
-
-**Turtle**: Under turtle pressure, management focuses on maintaining base to prevent flattening, protecting neck from choke attempts, keeping elbows tight to prevent arm isolation, and timing movements to create re-guard or stand-up opportunities.
-
-**Knee Shield Half Guard**: When experiencing pressure against knee shield, the concept involves maintaining shield structure despite opponent's weight, using bottom arm to reinforce frame, and managing energy to sustain frame integrity through sustained pressure attempts.
-
-**Deep Half Guard**: Under pressure in deep half guard, management requires controlling opponent's far leg to maintain position, managing breathing despite opponent's weight overhead, and using opponent's pressure against them to create sweep opportunities.
-
-**High Mount**: Under high mount pressure with opponent's knees near armpits, management emphasizes protecting neck and face from attacks, using minimal frames to preserve breathing space, and waiting for opponent's weight shift to attempt elbow escape.
-
-**S Mount**: In S mount pressure scenarios, the concept requires protecting extended arm from armbar, maintaining breathing despite opponent's weight on chest, and using hip movement to prevent opponent from settling into optimal armbar position.
-
-**Mount Control**: Under established mount control, pressure management involves systematic frame construction to prevent grapevine hooks, protecting neck constantly, and using small hip movements to prevent opponent from achieving perfect weight distribution.
-
-**Kuzure Kesa Gatame**: Under modified scarf hold pressure, management requires protecting near arm from kimura attacks, using far arm to create breathing space, and maintaining hip mobility to prevent opponent from consolidating control.
+**North-South**: Keep defensive arm position and use small turns to change where the weight lands.
 
 
 
@@ -352,27 +319,15 @@ In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crus
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Allowing complete flattening of back to mat without maintaining angles
-  - **Consequence**: Maximizes effective pressure surface area, prevents hip mobility, eliminates escape pathways, and creates vulnerable position for submissions and sustained control
-  - **Correction**: Immediately turn to side or create hip angle, even small degrees of rotation significantly reduce effective pressure. Practice maintaining side orientation as default defensive posture.
-- **Mistake**: Explosive, high-energy escape attempts without creating necessary space first
-  - **Consequence**: Wastes critical energy reserves, tightens opponent's control through reactive adjustment, creates exhaustion that leads to submission or complete positional breakdown
-  - **Correction**: Use sequential small movements to accumulate space first, then execute committed escapes only when sufficient space exists. Energy conservation is essential for sustained pressure defense.
-- **Mistake**: Holding breath or shallow chest breathing under compression
-  - **Consequence**: Accelerates oxygen depletion, increases panic response, reduces muscular endurance, impairs decision-making capacity, and creates psychological pressure that exceeds physical pressure
-  - **Correction**: Focus on diaphragmatic breathing using available space, coordinate breathing with opponent's weight shifts, create micro-spaces through frame adjustments specifically for breathing windows.
-- **Mistake**: Pushing directly against opponent's weight with rigid arm extensions
-  - **Consequence**: Creates strength-versus-strength battle that favors top position, exhausts arm muscles rapidly, provides opponent with frames to attack for armbars or other submissions
-  - **Correction**: Use frames structurally rather than muscularly, direct pressure at angles rather than head-on, maintain bent-arm frames that use skeletal structure rather than muscle strength.
-- **Mistake**: Abandoning defensive priorities to attempt escapes prematurely
-  - **Consequence**: Exposes neck and limbs to submission attacks, allows opponent to transition to more dominant positions, converts survivable pressure situation into immediate submission danger
-  - **Correction**: Maintain priority hierarchy: protect submissions first, maintain breathing second, preserve position third, attempt escapes fourth. Never compromise higher priorities for lower ones.
-- **Mistake**: Accepting static position without making small progressive adjustments
-  - **Consequence**: Allows opponent to settle into optimized pressure configuration, prevents accumulation of escape opportunities, leads to increasing physical and psychological pressure over time
-  - **Correction**: Make constant small adjustments to frames, angles, and position even under heavy pressure. Small movements prevent opponent from achieving perfect control and create escape opportunities.
-- **Mistake**: Focusing solely on physical technique while ignoring psychological composure
-  - **Consequence**: Creates panic responses that override technical knowledge, leads to premature tapping to pressure rather than actual submissions, impairs pattern recognition and decision-making
-  - **Correction**: Train pressure tolerance specifically through positional sparring, practice maintaining calm mindset under discomfort, recognize that psychological submission occurs before physical limits in most cases.
+- **Mistake**: Exploding before making space
+  - **Consequence**: Effort rises while the opponent remains settled on you.
+  - **Correction**: Set a frame and change the angle first.
+- **Mistake**: Pushing with straight, exposed arms
+  - **Consequence**: The arms can be isolated while the pin remains.
+  - **Correction**: Use connected frames and move your body around them.
+- **Mistake**: Holding your breath to endure pressure
+  - **Consequence**: You postpone stopping while the position becomes harder to manage.
+  - **Correction**: Keep breathing; tap or call stop when breathing is restricted.
 
 
 </section>
@@ -380,23 +335,11 @@ In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crus
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Progressive Pressure Tolerance Drills** (Focus: Builds physical tolerance for pressure, develops breathing techniques under compression, conditions psychological response to discomfort, teaches sustainable frame structures.)
-Partner applies gradually increasing pressure from specific positions (mount, side control, etc.) while defender practices frame maintenance, breathing, and composure for timed intervals. Start with 30-second rounds and progress to 2+ minutes.
+**Frame under light pressure** (Focus: Build structure before movement.)
+Start under light side control with a cooperative partner. Establish frames and turn until you create space; release and reset. Stop immediately on discomfort or breathing difficulty.
 
-**Pressure Position Survival Sparring** (Focus: Develops realistic pressure management under resistance, tests frame effectiveness, builds escape execution from worst positions, conditions energy management under duress.)
-Positional sparring beginning from worst-case pressure scenarios (flat mount, heavy cross-face, etc.) where defender must survive and escape while top player applies maximum pressure. Reset when escape achieved or submission occurs.
-
-**Frame Isolation and Testing** (Focus: Refines frame construction technique, identifies structural weaknesses, develops frame maintenance efficiency, teaches angle adjustments to optimize frame effectiveness.)
-Isolate specific frame types (forearm frame, knee shield, hand frame) and test their effectiveness under sustained pressure. Partner attempts to break frame through pressure while defender maintains structure using minimal energy.
-
-**Breathing Under Compression Practice** (Focus: Isolates breathing skill development, conditions diaphragm strength, develops breath timing awareness, reduces panic response to restricted breathing.)
-Partner applies controlled chest compression in various positions while defender focuses exclusively on maintaining diaphragmatic breathing, timing breaths with pressure changes, and creating micro-spaces for air intake.
-
-**Sequential Distance Control Drilling** (Focus: Teaches patience in pressure situations, develops incremental space creation skill, conditions energy-efficient movement patterns, builds understanding of cumulative positioning.)
-From heavy pressure positions, defender makes series of small movements (mini-shrimps, elbow slides, hip adjustments) to accumulate space progressively over 10-15 repetitions before attempting full escape.
-
-**Psychological Composure Training** (Focus: Develops psychological resilience, conditions panic response management, builds confidence in pressure situations, teaches separation of discomfort from danger.)
-Extended rounds (5+ minutes) under sustained pressure with focus on maintaining calm mental state, problem-solving under discomfort, and avoiding panic responses. Include self-assessment of mental state during rounds.
+**Weight-shift escape** (Focus: Find an escape window without rushing.)
+The top partner slowly changes weight in a familiar pin. Use each change for a small hip movement, pausing to check frames; reset once a knee enters the gap.
 
 
 

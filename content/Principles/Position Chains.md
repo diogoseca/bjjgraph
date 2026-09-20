@@ -4,7 +4,7 @@
 
 ---
 title: "Position Chains | BJJ Principle | BJJ Graph"
-description: "Master position chains in BJJ. Learn systematic progression through 2-4 positions, strategic planning, and multi-step sequences for dominant control."
+description: "Link short sequences of positions with clear control checkpoints and a fallback when the opponent blocks the next transition."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master position chains in BJJ. Learn systematic progression throug
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Position Chains",
-  "description": "Master position chains in BJJ. Learn systematic progression through 2-4 positions, strategic planning, and multi-step sequences for dominant control.",
+  "description": "Link short sequences of positions with clear control checkpoints and a fallback when the opponent blocks the next transition.",
   "url": "https://bjjgraph.org/Principles/Position-Chains",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master position chains in BJJ. Learn systematic progression throug
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Planning overly complex chains with 5+ positions that have low cumulative success probability?",
+      "name": "What is a common mistake in Planning too many steps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Practitioner invests significant energy executing early transitions only to have chain break down at later stages, leaving them in intermediate position without clear offensive direction and depleted energy reserves. The correction is: Limit chains to 2-4 positions maximum with each transition having 50%+ success rate at current skill level, ensuring cumulative probability remains reasonable and energy expenditure is justified by positional gain."
+        "text": "Attention shifts to a distant finish while the current controls are still loose. The correction is: Keep the sequence short and name the control needed at each landing."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Rigid adherence to planned chain when opponent successfully defends key transition?",
+      "name": "What is a common mistake in Forcing the planned next move?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Continued attempts to force predetermined sequence despite losing necessary control points results in predictable attacks opponent can defend systematically, often leading to position loss or counterattack opportunities. The correction is: Develop contingency planning where defensive success at each chain position triggers alternative pathway rather than repeated attempts at failed technique, maintaining offensive initiative through adaptive sequencing."
+        "text": "The opponent’s defense turns your commitment into an escape opportunity. The correction is: Choose the open branch or consolidate the position you have."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to establish required control points before advancing to next position?",
+      "name": "What is a common mistake in Skipping the landing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Premature progression to subsequent position without securing grips, frames, or positional requirements creates gaps in chain where opponent can escape entire sequence, often reversing positions completely. The correction is: Use each position in chain as control checkpoint where specific grips, hooks, or body positions must be established before proceeding, ensuring each transition has proper foundation for success."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting energy management across multi-position sequences?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Explosive execution of early transitions depletes energy reserves, leaving practitioner fatigued when reaching dominant position where sustained control or submission finishing requires strength and coordination. The correction is: Select efficient transitional movements that conserve energy during intermediate positions, reserving maximum effort for final dominant position or submission attempt where energy investment has highest return."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Constructing chains that bypass point-scoring positions in competition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Position sequences that advance directly to submissions without securing points leave practitioner vulnerable to time expiration without score, losing matches despite dominant positional control throughout. The correction is: In competition context, design chains that pass through point-scoring positions (guard pass, mount, back control) before attempting submissions, ensuring points are secured even if submission attempts fail."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using chains exclusively in drilling without testing under resistance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sequences that flow perfectly in cooperative drilling break down completely during live training when opponent actively defends, creating false confidence in unrealistic chain progressions. The correction is: Progressively test position chains against increasing resistance, starting with compliant drilling then adding defensive reactions at each position to identify where chains succeed under realistic conditions versus where modifications are needed."
+        "text": "The opponent escapes through the gap between transitions. The correction is: Pause in drilling to confirm the grips, base, and contact required for the next step."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master position chains in BJJ. Learn systematic progression throug
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Position Chains",
-  "description": "Position Chains are pre-planned sequences of two to four linked positional transitions in which each successful advance sets up the next, moving a practitioner systematically from neutral or inferior positions toward dominant control or a submission.",
+  "description": "Position chains link a few positional transitions so each landing supplies the control and starting point needed for the next move.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master position chains in BJJ. Learn systematic progression throug
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Transitioning into mount",
+      "description": "Position Chains film study: Transitioning into mount, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gtHMHpP3sd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gtHMHpP3sd4",
+      "url": "https://www.youtube.com/watch?v=gtHMHpP3sd4",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Combinations and sequencing techniques",
       "description": "Position Chains film study: Combinations and sequencing techniques, taught by Marcelo Garcia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/X0pxgQGcvgI/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master position chains in BJJ. Learn systematic progression throug
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "How to develop your own submission chains",
       "description": "Position Chains film study: How to develop your own submission chains, taught by Nick Albin.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JDpqQJdktq4/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master position chains in BJJ. Learn systematic progression throug
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Seven-submission flow chain",
       "description": "Position Chains film study: Seven-submission flow chain, taught by Johnny Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/e3NL2SQZPV0/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 
 ## What are Position Chains?
 
-**Position Chains are pre-planned sequences of two to four linked positional transitions in which each successful advance sets up the next, moving a practitioner systematically from neutral or inferior positions toward dominant control or a submission.**
+**Position chains link a few positional transitions so each landing supplies the control and starting point needed for the next move.**
 
-Position Chains represents the strategic principle of linking multiple positional transitions into planned sequences that systematically advance toward dominant control or submission outcomes. Unlike isolated technique execution, position chains involve pre-planned pathways through the state machine where each successful transition creates the setup for the next position in the sequence. This concept encompasses the strategic planning, pattern recognition, and sequential thinking required to navigate from disadvantageous or neutral positions toward dominant control through multiple intermediary states. Position chains serve as both an offensive roadmap that guides systematic advancement and a defensive framework that helps practitioners recognize and interrupt opponent's progression patterns. The ability to construct and execute position chains often determines whether a practitioner fights reactively technique-by-technique or strategically with coordinated multi-step plans, making it one of the most important conceptual elements for intermediate and advanced development.
+Plan the next two or three positions, then check what each transition needs. Keep a fallback available so a blocked step does not cost the position you already hold.
 
 </section>
 
@@ -229,6 +215,14 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 <p class="section-subtitle">Watch Position Chains in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=gtHMHpP3sd4)
+
+<p class="clip-credit"><strong>Transitioning into mount</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=gtHMHpP3sd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Position Chains represents the strategic principle of linking multiple positiona
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Plan sequences of 2-4 positions in advance based on current state and opponent tendencies
-- Each position in the chain should improve control or create submission opportunities
-- Maintain flexibility to adapt chains when opponent disrupts planned progression
-- Recognize when opponent is executing position chains against you and interrupt early
-- Energy-efficient chains minimize unnecessary movements and preserve stamina
-- High-percentage chains use reliable transitions with good success rates at your skill level
-- Competition chains should consider point accumulation and time management
-- Position chains should have contingency branches for common defensive responses
-- Successful chains often exploit momentum from previous transition to enable next movement
+- Choose a short sequence with a clear positional objective.
+- Secure the landing controls before starting the next transition.
+- Use the opponent’s response to choose the next branch.
+- Return to a stable position when the next step is blocked.
 
 
 </section>
@@ -300,35 +289,13 @@ Position Chains represents the strategic principle of linking multiple positiona
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Common chain: Hip Bump Sweep → Mount → Armbar Control. Practitioner plans sweep-to-mount progression with armbar as terminal option, using opponent's posture-up defense against sweep to create mount entry, then exploiting mount control to establish armbar.
+**Closed Guard**: Link a hip bump sweep to mount, then establish mount control before considering an armbar entry.
 
-**Half Guard**: Typical chain: Underhook Battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control.
+**Side Control**: Advance to mount when the hip barrier opens; if the opponent turns and exposes the back, follow that opening instead.
 
-**Side Control**: Standard chain: Side Control consolidation → Mount transition → Back take when opponent bridges. Three-position sequence where initial control enables mount advancement, with opponent's mount escape attempt creating back exposure that completes chain.
+**Half Guard**: Connect an underhook entry to a sweep, then establish top position before beginning a pass.
 
-**Turtle**: Chain from bottom: Turtle → Granby Roll → Guard Recovery → Closed Guard. Defensive chain where turtle position serves as intermediate state during escape sequence, using roll to create distance then re-establishing guard structure.
-
-**Open Guard**: Offensive chain: De La Riva Guard → X-Guard → Sweep to top → Knee Slice Pass. Guard retention flows into sweeping position, sweep reversal leads to immediate passing opportunity, demonstrating how bottom chains transition to top chains mid-sequence.
-
-**Back Control**: Submission-focused chain: Back Control → Rear Naked Choke attempt → Armbar from Back when opponent defends neck → Triangle Control if arm escapes. Multi-submission chain where each defensive success leads to alternative submission rather than positional regression.
-
-**Knee on Belly**: Point-scoring chain: Knee on Belly → Mount when opponent turns → Technical Mount when opponent bridges → Back take from mount escape. Competition chain maximizes point accumulation while maintaining offensive pressure throughout sequence.
-
-**Turtle**: Defensive recovery chain: Turtle → Sit-out to guard → Half Guard → Butterfly Guard. Progressive re-guarding sequence where each position represents improvement in defensive structure while working toward full guard restoration from a compromised bottom position.
-
-**Ashi Garami**: Leg lock chain: Ashi Garami → Straight Ankle Lock threat → 50-50 Guard entry when opponent defends → Heel Hook from 50-50. Leg entanglement chain where initial submission attempt creates opportunity for positional advancement to more dominant leg lock position.
-
-**Butterfly Guard**: Sweep chain: Butterfly Guard → Butterfly Sweep → Mount or Side Control → Submission attempts. Classical chain where guard structure enables high-percentage sweep with planned destination position based on sweep direction and opponent's defensive posture.
-
-**North-South**: Control chain: North-South → Kimura isolation → Crucifix from Turtle when opponent defends → Armbar from Crucifix. Advanced chain where submission threat creates positional opportunity, which in turn creates alternative submission access.
-
-**Clinch**: Takedown chain: Standing clinch → Snap Down → Front Headlock → Back take or Guillotine. Wrestling-based chain where standing control transitions through ground entry position to dominant submission or control position.
-
-**Lasso Guard**: Sweep-to-submission chain: Spider/Lasso Guard → Triangle Setup → Triangle Choke or Omoplata. Guard-based chain where initial control creates multiple submission pathways with shared setup requirements.
-
-**De La Riva Guard**: Multi-sweep chain: De La Riva Guard → Berimbolo Entry → Back Control. Modern competition chain where guard retention directly connects to back taking sequence through rotational movement pattern.
-
-**Mount**: Top control chain: Mount → High Mount → Mounted Triangle → Armbar when opponent defends. Offensive chain from dominant position where each transition increases submission threat while maintaining superior control.
+**Knee on Belly**: Use the opponent’s turn to choose between advancing to mount and returning to a stable side-control pin.
 
 
 
@@ -352,24 +319,15 @@ Position Chains represents the strategic principle of linking multiple positiona
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Planning overly complex chains with 5+ positions that have low cumulative success probability
-  - **Consequence**: Practitioner invests significant energy executing early transitions only to have chain break down at later stages, leaving them in intermediate position without clear offensive direction and depleted energy reserves.
-  - **Correction**: Limit chains to 2-4 positions maximum with each transition having 50%+ success rate at current skill level, ensuring cumulative probability remains reasonable and energy expenditure is justified by positional gain.
-- **Mistake**: Rigid adherence to planned chain when opponent successfully defends key transition
-  - **Consequence**: Continued attempts to force predetermined sequence despite losing necessary control points results in predictable attacks opponent can defend systematically, often leading to position loss or counterattack opportunities.
-  - **Correction**: Develop contingency planning where defensive success at each chain position triggers alternative pathway rather than repeated attempts at failed technique, maintaining offensive initiative through adaptive sequencing.
-- **Mistake**: Failing to establish required control points before advancing to next position
-  - **Consequence**: Premature progression to subsequent position without securing grips, frames, or positional requirements creates gaps in chain where opponent can escape entire sequence, often reversing positions completely.
-  - **Correction**: Use each position in chain as control checkpoint where specific grips, hooks, or body positions must be established before proceeding, ensuring each transition has proper foundation for success.
-- **Mistake**: Neglecting energy management across multi-position sequences
-  - **Consequence**: Explosive execution of early transitions depletes energy reserves, leaving practitioner fatigued when reaching dominant position where sustained control or submission finishing requires strength and coordination.
-  - **Correction**: Select efficient transitional movements that conserve energy during intermediate positions, reserving maximum effort for final dominant position or submission attempt where energy investment has highest return.
-- **Mistake**: Constructing chains that bypass point-scoring positions in competition
-  - **Consequence**: Position sequences that advance directly to submissions without securing points leave practitioner vulnerable to time expiration without score, losing matches despite dominant positional control throughout.
-  - **Correction**: In competition context, design chains that pass through point-scoring positions (guard pass, mount, back control) before attempting submissions, ensuring points are secured even if submission attempts fail.
-- **Mistake**: Using chains exclusively in drilling without testing under resistance
-  - **Consequence**: Sequences that flow perfectly in cooperative drilling break down completely during live training when opponent actively defends, creating false confidence in unrealistic chain progressions.
-  - **Correction**: Progressively test position chains against increasing resistance, starting with compliant drilling then adding defensive reactions at each position to identify where chains succeed under realistic conditions versus where modifications are needed.
+- **Mistake**: Planning too many steps
+  - **Consequence**: Attention shifts to a distant finish while the current controls are still loose.
+  - **Correction**: Keep the sequence short and name the control needed at each landing.
+- **Mistake**: Forcing the planned next move
+  - **Consequence**: The opponent’s defense turns your commitment into an escape opportunity.
+  - **Correction**: Choose the open branch or consolidate the position you have.
+- **Mistake**: Skipping the landing
+  - **Consequence**: The opponent escapes through the gap between transitions.
+  - **Correction**: Pause in drilling to confirm the grips, base, and contact required for the next step.
 
 
 </section>
@@ -377,23 +335,11 @@ Position Chains represents the strategic principle of linking multiple positiona
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Flow Drilling** (Focus: Technical precision in transitional movements and proper establishment of control points at each position before advancing to next, building familiarity with chain execution under controlled conditions.)
-Structured drilling where partners cooperate to move through planned position chains, practicing smooth transitions between positions with minimal resistance to establish technical foundation and muscle memory for sequential movements.
+**Two-position checkpoints** (Focus: Make each landing support the next move.)
+Choose a familiar sweep-to-top sequence. Perform it cooperatively and pause at the landing to check grips and base before a pass entry. Reset after the second position.
 
-**Progressive Resistance Chain Training** (Focus: Testing chain viability under realistic conditions while developing adaptive responses when primary transitions encounter defense, building contingency planning skills through exposure to common defensive patterns.)
-Staged training where practitioner executes planned chains against partner providing incrementally increasing defensive resistance, starting with passive cooperation and gradually adding realistic defensive reactions at each transition.
-
-**Chain Mapping Sessions** (Focus: Strategic planning and chain design skills, developing ability to construct logical positional sequences and recognize which transitions have sufficient success rates to justify chain inclusion.)
-Off-mat analytical work where practitioners diagram position chains from current position to goal states, identifying multiple pathways and calculating approximate success probabilities based on personal technique proficiency.
-
-**Positional Sparring with Chain Goals** (Focus: Realistic testing of chain effectiveness against fully resisting opponent, identifying where chains succeed versus where defensive patterns interrupt progression, building experience recognizing when to persist versus pivot to alternatives.)
-Live training starting from specific positions with explicit goal of executing predetermined position chain, allowing full resistance from partner while maintaining focus on planned sequential progression.
-
-**Chain Recognition Defense Drilling** (Focus: Defensive awareness of position chain indicators and practice disrupting opponent sequences before they establish momentum, recognizing when opponent is linking positions versus executing isolated techniques.)
-Defensive training where partner executes common position chains while practitioner works to identify and interrupt progression at earliest possible stage, developing pattern recognition for opponent chain entry positions.
-
-**Competition Chain Analysis** (Focus: Learning proven chain progressions from expert practitioners and understanding how chains integrate into overall match strategy, building library of competition-tested sequences for incorporation into personal game.)
-Video analysis of high-level competition matches identifying successful position chains used by elite competitors, documenting chain structure, success rates, and contextual factors that enabled execution.
+**One blocked branch** (Focus: Keep a useful fallback in the chain.)
+Begin in side control. The partner gently allows or blocks a familiar mount entry; advance when open and return to side control when blocked. Reset after either outcome.
 
 
 

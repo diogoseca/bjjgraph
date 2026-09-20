@@ -4,7 +4,7 @@
 
 ---
 title: "Hand Fighting | BJJ Principle | BJJ Graph"
-description: "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance."
+description: "Use hand placement, grip breaks, and footwork to gain upper-body control and deny an opponent’s preferred grips."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hand Fighting",
-  "description": "Master hand fighting fundamentals in BJJ. Learn strategic positioning, control sequencing, tactical movement patterns for guard retention, passing, and clinch dominance.",
+  "description": "Use hand placement, grip breaks, and footwork to gain upper-body control and deny an opponent’s preferred grips.",
   "url": "https://bjjgraph.org/Principles/Hand-Fighting",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Fighting for grips without strategic hand positioning first?",
+      "name": "What is a common mistake in Reaching before moving your body?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Attempting to establish grips from poor hand positions leads to weak controls that are easily broken and wastes energy on ineffective grip attempts that don't create positional advantage. The correction is: Prioritize establishing superior hand positioning through inside control and tactical movement before committing to specific grips. Use hand fighting to create positional foundation for effective grip establishment."
+        "text": "The opponent redirects your arms while your feet and hips stay behind. The correction is: Step or change your angle so the hand control stays supported by your body."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Static hand positioning that allows opponent to establish controls?",
+      "name": "What is a common mistake in Letting a strong grip settle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Maintaining static hand positions allows opponent time to establish their preferred grips and controls, surrendering initiative in hand fighting exchanges and creating defensive problems. The correction is: Maintain continuous tactical hand movement and circulation that prevents opponent from establishing static controls. Even when defending, hands should move strategically to deny opponent's grip attempts."
+        "text": "The opponent can build posture control or passing pressure around it. The correction is: Block the grip as it arrives or address it before starting your own attack."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Isolated hand fighting without body coordination?",
+      "name": "What is a common mistake in Fighting for one grip indefinitely?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hand fighting that doesn't coordinate with body positioning, footwork, and weight distribution creates disconnected upper and lower body control that is mechanically weak and easily countered. The correction is: Integrate hand fighting with overall body management, ensuring hand movements support and enhance body positioning. Coordinate hand fighting with footwork and weight shifts for compound advantages."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Reactive rather than proactive hand fighting approach?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Waiting to respond to opponent's hand fighting initiatives surrenders control of the exchange, creates defensive positioning, and allows opponent to dictate hand fighting dynamics. The correction is: Develop proactive hand fighting that creates problems for opponent to solve. Initiate hand fighting exchanges with offensive positioning and force opponent into reactive responses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring positional context in hand fighting priorities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Using universal hand fighting approach regardless of position leads to inappropriate control priorities and inefficient hand fighting that doesn't serve positional objectives. The correction is: Adapt hand fighting strategy based on specific positional context. Understand how hand fighting priorities change in standing versus guard versus top positions and adjust accordingly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Over-commitment to single hand fighting objective?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Becoming fixated on establishing one specific control creates predictability, allows opponent to defend effectively, and may open vulnerabilities elsewhere that opponent can exploit. The correction is: Maintain multiple hand fighting threats simultaneously and be willing to switch objectives based on opponent's defensive responses. Use misdirection and multiple threats to create openings."
+        "text": "The opponent keeps defending a predictable target. The correction is: Offer a second control and use the response to reach the first or begin another attack."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Hand Fighting",
-  "description": "Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.",
+  "description": "Hand fighting is the contest for hand and arm position that lets you establish useful grips while denying your opponent theirs.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Break a grip, make a grip",
+      "description": "Hand Fighting film study: Break a grip, make a grip, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2ejgcBAfnTg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2ejgcBAfnTg",
+      "url": "https://www.youtube.com/watch?v=2ejgcBAfnTg",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Gripping and hand fighting fundamentals",
       "description": "Hand Fighting film study: Gripping and hand fighting fundamentals, taught by John Danaher.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yquAL8CBldY/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Inside position: winning the hand fight",
       "description": "Hand Fighting film study: Inside position: winning the hand fight, taught by Jordan Preisinger.",
       "thumbnailUrl": "https://i.ytimg.com/vi/peYJDb7LZMM/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Hand fighting concepts for short offense",
       "description": "Hand Fighting film study: Hand fighting concepts for short offense, taught by JFLO Judo.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pzJ24HqY-Bg/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 
 ## What is Hand Fighting?
 
-**Hand Fighting is the continuous tactical battle for upper-body control in which practitioners use hand placement, movement, and timing to establish their own grips and controls while denying the opponent theirs.**
+**Hand fighting is the contest for hand and arm position that lets you establish useful grips while denying your opponent theirs.**
 
-Often conflated with grip fighting, hand fighting operates at a broader tactical level that governs the entire upper-body control exchange. Unlike grip fighting, which focuses specifically on establishing and breaking grips, hand fighting encompasses all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.
+Choose a control that serves your next move: an underhook, a sleeve grip, or a frame. Once you win it, use the opening before the opponent resets.
 
 </section>
 
@@ -229,6 +215,14 @@ Often conflated with grip fighting, hand fighting operates at a broader tactical
 
 <p class="section-subtitle">Watch Hand Fighting in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=2ejgcBAfnTg)
+
+<p class="clip-credit"><strong>Break a grip, make a grip</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=2ejgcBAfnTg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Often conflated with grip fighting, hand fighting operates at a broader tactical
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Establish inside position control when possible to gain mechanical advantage
-- Maintain active hand movement to prevent opponent's preferred controls
-- Create misdirection through strategic hand placement and attention manipulation
-- Sequence hand positioning to build progressive control advantages
-- Coordinate hand fighting with body positioning and footwork
-- Utilize tactile sensitivity to anticipate and counter opponent's intentions
-- Create asymmetric control scenarios that favor your technical objectives
-- Transition between offensive and defensive hand fighting as circumstances evolve
-- Manipulate opponent's defensive responses through tactical hand placements
+- Win useful hand position before reaching for a grip.
+- Move your feet and hips with your hands; avoid reaching from a weak stance.
+- Address controlling grips before they settle.
+- Switch targets when a grip is blocked, then act on the opening.
 
 
 </section>
@@ -300,35 +289,13 @@ Often conflated with grip fighting, hand fighting operates at a broader tactical
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Standing Position**: Hand fighting establishes initial control in standing exchanges, determining who gains positional advantage before clinch engagement. Focus is on inside position control, collar tie establishment, and preventing opponent's preferred grips while working toward takedown setups.
+**Clinch**: Pummel for an underhook while keeping your stance and head position; use it to begin a takedown setup.
 
-**Clinch**: Hand fighting determines control hierarchy in clinch exchanges, with emphasis on underhook battles, overhook prevention, and head control establishment. Success in clinch hand fighting directly impacts takedown success and defensive positioning.
+**Half Guard**: From bottom, deny the crossface and work for an underhook. From top, clear those frames before settling your pressure.
 
-**Closed Guard**: Hand fighting from closed guard focuses on preventing posture establishment, breaking grips that facilitate guard opening, and establishing control pathways for sweeps and submissions. Emphasis on sleeve control, collar grips, and preventing strong posture grips.
+**Closed Guard**: From bottom, control a sleeve or wrist to interrupt posture grips and remove a posting hand.
 
-**Combat Base**: Hand fighting from combat base focuses on preventing guard player's grips while establishing passing controls. Emphasis on hand positioning that supports base maintenance while creating passing opportunities.
-
-**Open Guard**: Hand fighting establishes and maintains guard retention grips while preventing opponent's passing grips. Emphasis on sleeve control, pant grips, and creating control asymmetry that favors guard player's technical objectives.
-
-**Spider Guard**: Hand fighting establishes and maintains sleeve grips while preventing posture and creating distance control. Focus on grip establishment timing, preventing grip breaks, and creating control angles for sweeps.
-
-**De La Riva Guard**: Hand fighting controls opponent's upper body while leg positions control lower body. Emphasis on sleeve and collar control that prevents posting and creates off-balancing opportunities for sweeps and back takes.
-
-**Reverse De La Riva Guard**: Hand fighting establishes far sleeve control and prevents crossface positioning while leg hooks control near side. Focus on creating control asymmetry that facilitates transitions to back control or sweeps.
-
-**Lasso Guard**: Hand fighting maintains lasso control while preventing free arm from establishing crossface or underhook controls. Emphasis on controlling free arm through grips that facilitate lasso effectiveness.
-
-**Overhook Control**: Hand fighting establishes and deepens overhook control while preventing opponent's defensive hand fighting. Focus on sequencing controls that maximize overhook effectiveness for positional advancement.
-
-**Dogfight Position**: Hand fighting in the dogfight centers on the underhook battle, with the dominant underhook determining who comes up on top. Focus on deepening underhook depth, preventing opponent's whizzer counter, and converting hand position advantage into back takes or sweeps.
-
-**Collar Sleeve Guard**: Hand fighting establishes and maintains collar and sleeve grips while preventing opponent's passing attempts. Focus on grip management that creates off-balancing and sweep opportunities.
-
-**Butterfly Guard**: Hand fighting establishes overhook or underhook controls while preventing opponent's crossface and pressure. Emphasis on upper body control that facilitates butterfly hook effectiveness for sweeps.
-
-**Half Guard**: Hand fighting battles for underhooks and prevents crossface control from top or bottom. Focus on establishing favorable upper body controls that support either retention or passing objectives.
-
-**Front Headlock**: Hand fighting establishes and maintains head and arm control while preventing opponent's defensive posturing and escape attempts. Emphasis on collar tie depth, chin strap positioning, and controlling the far arm to set up chokes and go-behinds.
+**Combat Base**: Clear the guard player’s grips while establishing a passing grip without reaching beyond your base.
 
 
 
@@ -352,27 +319,15 @@ Often conflated with grip fighting, hand fighting operates at a broader tactical
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Fighting for grips without strategic hand positioning first
-  - **Consequence**: Attempting to establish grips from poor hand positions leads to weak controls that are easily broken and wastes energy on ineffective grip attempts that don't create positional advantage.
-  - **Correction**: Prioritize establishing superior hand positioning through inside control and tactical movement before committing to specific grips. Use hand fighting to create positional foundation for effective grip establishment.
-- **Mistake**: Static hand positioning that allows opponent to establish controls
-  - **Consequence**: Maintaining static hand positions allows opponent time to establish their preferred grips and controls, surrendering initiative in hand fighting exchanges and creating defensive problems.
-  - **Correction**: Maintain continuous tactical hand movement and circulation that prevents opponent from establishing static controls. Even when defending, hands should move strategically to deny opponent's grip attempts.
-- **Mistake**: Isolated hand fighting without body coordination
-  - **Consequence**: Hand fighting that doesn't coordinate with body positioning, footwork, and weight distribution creates disconnected upper and lower body control that is mechanically weak and easily countered.
-  - **Correction**: Integrate hand fighting with overall body management, ensuring hand movements support and enhance body positioning. Coordinate hand fighting with footwork and weight shifts for compound advantages.
-- **Mistake**: Reactive rather than proactive hand fighting approach
-  - **Consequence**: Waiting to respond to opponent's hand fighting initiatives surrenders control of the exchange, creates defensive positioning, and allows opponent to dictate hand fighting dynamics.
-  - **Correction**: Develop proactive hand fighting that creates problems for opponent to solve. Initiate hand fighting exchanges with offensive positioning and force opponent into reactive responses.
-- **Mistake**: Ignoring positional context in hand fighting priorities
-  - **Consequence**: Using universal hand fighting approach regardless of position leads to inappropriate control priorities and inefficient hand fighting that doesn't serve positional objectives.
-  - **Correction**: Adapt hand fighting strategy based on specific positional context. Understand how hand fighting priorities change in standing versus guard versus top positions and adjust accordingly.
-- **Mistake**: Over-commitment to single hand fighting objective
-  - **Consequence**: Becoming fixated on establishing one specific control creates predictability, allows opponent to defend effectively, and may open vulnerabilities elsewhere that opponent can exploit.
-  - **Correction**: Maintain multiple hand fighting threats simultaneously and be willing to switch objectives based on opponent's defensive responses. Use misdirection and multiple threats to create openings.
-- **Mistake**: Poor grip prevention allowing problematic controls to develop
-  - **Consequence**: Failing to prevent opponent's grip establishment early allows controls to solidify into difficult-to-break structures that create significant positional problems requiring extensive energy to address.
-  - **Correction**: Develop proactive grip prevention through early hand positioning and movement timing. Strip grips immediately when established before they develop into consolidated control structures.
+- **Mistake**: Reaching before moving your body
+  - **Consequence**: The opponent redirects your arms while your feet and hips stay behind.
+  - **Correction**: Step or change your angle so the hand control stays supported by your body.
+- **Mistake**: Letting a strong grip settle
+  - **Consequence**: The opponent can build posture control or passing pressure around it.
+  - **Correction**: Block the grip as it arrives or address it before starting your own attack.
+- **Mistake**: Fighting for one grip indefinitely
+  - **Consequence**: The opponent keeps defending a predictable target.
+  - **Correction**: Offer a second control and use the response to reach the first or begin another attack.
 
 
 </section>
@@ -380,23 +335,11 @@ Often conflated with grip fighting, hand fighting operates at a broader tactical
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Isolated Hand Fighting Drills** (Focus: Develop fundamental hand fighting mechanics, timing, and tactical awareness through position-specific hand fighting exchanges with progressive resistance.)
-Structured drilling focused exclusively on hand fighting without technique execution, allowing practitioners to develop hand positioning skills, circulation patterns, and tactical sensitivity in controlled environment.
+**Inside-control exchanges** (Focus: Link hand position to footwork.)
+Start standing with light hand contact. Take turns pummeling to one underhook while the partner gently blocks. Reset once the underhook and stance are secure.
 
-**Specific Position Hand Fighting** (Focus: Build position-specific hand fighting competency by isolating hand fighting challenges in particular positions and developing specialized solutions for each context.)
-Position-specific hand fighting training that emphasizes the unique hand fighting priorities and patterns for each position (standing, guard, passing, etc.), developing contextual hand fighting expertise.
-
-**Grips Integration** (Focus: Understand how hand fighting creates the foundation for effective grip fighting and how to transition seamlessly from hand positioning to grip establishment.)
-Training that combines hand fighting with grip establishment and maintenance, developing the relationship between positional hand fighting and specific grip objectives.
-
-**Reactive Hand Fighting Games** (Focus: Develop tactical creativity, competitive intensity, and problem-solving in hand fighting through structured games that reward effective hand fighting.)
-Game-based training where practitioners compete in hand fighting exchanges with specific objectives (establish inside position, prevent grips, etc.), developing competitive hand fighting instincts.
-
-**Integrated Technique Sequences** (Focus: Bridge gap between isolated hand fighting skill and complete technique execution by training hand fighting as the essential first phase of all technique attempts.)
-Full technique training that begins with hand fighting and progresses to technique execution, ensuring hand fighting skills transfer to complete technical application in realistic contexts.
-
-**Sensory Awareness Development** (Focus: Enhance tactile awareness and reaction capability in hand fighting by developing sophisticated sensitivity to pressure changes, movement intentions, and grip attempts through touch.)
-Training focused on developing tactile sensitivity, reaction speed, and anticipatory recognition of opponent's intentions through hand contact, often trained with reduced visual input.
+**Grip to first action** (Focus: Use a grip before the opponent resets.)
+Start in closed guard with no grips. Establish a sleeve or wrist control, begin a posture break, then release and reset. Alternate roles with light resistance.
 
 
 

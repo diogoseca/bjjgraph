@@ -1,6 +1,6 @@
 {
   "name": "Dealing with Pressure",
-  "description": "Master pressure defense in BJJ with comprehensive strategies for frame maintenance, breathing techniques, energy conservation, and maintaining composure under heavy top control.",
+  "description": "Dealing with pressure means protecting your neck and arms, building frames, and using small movements to make space under a pin.",
   "tags": [
     "bjj",
     "principle",
@@ -14,18 +14,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Dealing with Pressure is the defensive skill of preserving breathing, structure, and escape options under an opponent's top weight by combining frames, angles, strategic breathing, and psychological composure to survive control and create escapes.",
-  "overview": "In Brazilian Jiu-Jitsu, many top-game specialists win primarily by imposing crushing, suffocating control rather than by chaining submissions, which makes the bottom player's ability to manage that load a decisive skill. Unlike specific escape techniques, dealing with pressure is a comprehensive conceptual framework that applies across all bottom positions where an opponent applies weight, compression, and control to limit mobility and breathing. This concept encompasses the physical endurance, technical positioning, psychological composure, and strategic approach required to survive and escape pressure-based control systems. Dealing with pressure serves as both a survival mechanism that prevents submission and positional deterioration, and a foundation for creating escape opportunities through managed space creation and frame maintenance. The ability to effectively deal with pressure often determines whether a practitioner can escape bad positions or succumbs to submission or exhaustion, making it one of the most essential defensive elements in BJJ.",
+  "summary": "Dealing with pressure means preserving frames, breathing space, and escape options while an opponent controls you from above.",
+  "overview": "Address immediate submission threats, then build a frame and an angle before trying to escape. Use weight shifts to move a little at a time; tap or call stop if you cannot breathe comfortably.",
   "key_principles": [
-    "Establish frames immediately to create minimal space for breathing and movement",
-    "Never allow flat back position—maintain angle to one side or hip orientation",
-    "Breathe strategically using diaphragmatic breathing despite chest compression",
-    "Create small movements sequentially rather than explosive attempts that waste energy",
-    "Protect neck and arms as priority to prevent immediate submission threats",
-    "Use opponent's pressure redirections rather than direct strength-on-strength opposition",
-    "Maintain calm mental state to preserve decision-making capability under duress",
-    "Recognize pressure patterns to anticipate weight shifts and create escape timing",
-    "Conserve energy for critical escape moments rather than constant struggle"
+    "Protect the neck and isolated arms first.",
+    "Build frames before pushing or moving your hips.",
+    "Turn toward a useful escape angle when space allows.",
+    "Use small movements during weight shifts instead of constant struggling."
   ],
   "component_skills": [
     {
@@ -116,63 +111,19 @@
   "application_contexts": [
     {
       "context": "Mount",
-      "how_applied": "Under mount pressure, the concept manifests through establishing elbow frames to prevent chest-to-chest compression, maintaining hip angles to prevent flattening, and timing breathing with opponent's weight shifts while protecting neck from choke attempts."
+      "how_applied": "Keep elbows available as frames and time a bridge or hip movement with a change in weight."
     },
     {
       "context": "Side Control",
-      "how_applied": "In side control, pressure management involves creating frames with bottom arm and knee shield, turning to the side to reduce pressure surface area, protecting neck with chin-to-shoulder connection, and using small shrimping movements to prevent complete flattening."
+      "how_applied": "Frame at the upper body and hip, then turn and move your hips into the opening."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Under knee-on-belly pressure, the concept requires protecting ribs and solar plexus with frames, maintaining breathing despite abdominal compression, and using opponent's elevated position to create hip escape opportunities while managing acute localized pressure."
+      "how_applied": "Protect your upper body while using frames and hip movement to create space around the knee."
     },
     {
       "context": "North-South",
-      "how_applied": "In north-south pressure, management focuses on protecting neck from choke attempts, maintaining space with arm frames to preserve breathing, and using bridging movements to redirect opponent's weight rather than accepting direct chest compression."
-    },
-    {
-      "context": "Kesa Gatame",
-      "how_applied": "Under scarf hold control, pressure dealing involves using near-side arm to create space around neck, maintaining hip mobility to prevent complete pinning, and timing escape attempts with opponent's weight distribution changes."
-    },
-    {
-      "context": "Back Control",
-      "how_applied": "When experiencing back control pressure, the concept emphasizes protecting neck as primary priority, managing breathing despite body triangle or leg compression, and maintaining hand fighting effectiveness to prevent choke completion."
-    },
-    {
-      "context": "Closed Guard",
-      "how_applied": "Under pressure in closed guard, management involves maintaining guard structure despite forward pressure, using hip movement to prevent posture establishment, and creating angles to reduce effective pressure while maintaining offensive threats."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "In bottom half guard under pressure, the concept requires maintaining knee shield frames when possible, protecting underhook space, managing breathing during smash passing pressure, and using small movements to maintain guard retention."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Under turtle pressure, management focuses on maintaining base to prevent flattening, protecting neck from choke attempts, keeping elbows tight to prevent arm isolation, and timing movements to create re-guard or stand-up opportunities."
-    },
-    {
-      "context": "Knee Shield Half Guard",
-      "how_applied": "When experiencing pressure against knee shield, the concept involves maintaining shield structure despite opponent's weight, using bottom arm to reinforce frame, and managing energy to sustain frame integrity through sustained pressure attempts."
-    },
-    {
-      "context": "Deep Half Guard",
-      "how_applied": "Under pressure in deep half guard, management requires controlling opponent's far leg to maintain position, managing breathing despite opponent's weight overhead, and using opponent's pressure against them to create sweep opportunities."
-    },
-    {
-      "context": "High Mount",
-      "how_applied": "Under high mount pressure with opponent's knees near armpits, management emphasizes protecting neck and face from attacks, using minimal frames to preserve breathing space, and waiting for opponent's weight shift to attempt elbow escape."
-    },
-    {
-      "context": "S Mount",
-      "how_applied": "In S mount pressure scenarios, the concept requires protecting extended arm from armbar, maintaining breathing despite opponent's weight on chest, and using hip movement to prevent opponent from settling into optimal armbar position."
-    },
-    {
-      "context": "Mount Control",
-      "how_applied": "Under established mount control, pressure management involves systematic frame construction to prevent grapevine hooks, protecting neck constantly, and using small hip movements to prevent opponent from achieving perfect weight distribution."
-    },
-    {
-      "context": "Kuzure Kesa Gatame",
-      "how_applied": "Under modified scarf hold pressure, management requires protecting near arm from kimura attacks, using far arm to create breathing space, and maintaining hip mobility to prevent opponent from consolidating control."
+      "how_applied": "Keep defensive arm position and use small turns to change where the weight lands."
     }
   ],
   "decision_framework": [
@@ -219,71 +170,31 @@
   ],
   "common_errors": [
     {
-      "error": "Allowing complete flattening of back to mat without maintaining angles",
-      "consequence": "Maximizes effective pressure surface area, prevents hip mobility, eliminates escape pathways, and creates vulnerable position for submissions and sustained control",
-      "correction": "Immediately turn to side or create hip angle, even small degrees of rotation significantly reduce effective pressure. Practice maintaining side orientation as default defensive posture."
+      "error": "Exploding before making space",
+      "consequence": "Effort rises while the opponent remains settled on you.",
+      "correction": "Set a frame and change the angle first."
     },
     {
-      "error": "Explosive, high-energy escape attempts without creating necessary space first",
-      "consequence": "Wastes critical energy reserves, tightens opponent's control through reactive adjustment, creates exhaustion that leads to submission or complete positional breakdown",
-      "correction": "Use sequential small movements to accumulate space first, then execute committed escapes only when sufficient space exists. Energy conservation is essential for sustained pressure defense."
+      "error": "Pushing with straight, exposed arms",
+      "consequence": "The arms can be isolated while the pin remains.",
+      "correction": "Use connected frames and move your body around them."
     },
     {
-      "error": "Holding breath or shallow chest breathing under compression",
-      "consequence": "Accelerates oxygen depletion, increases panic response, reduces muscular endurance, impairs decision-making capacity, and creates psychological pressure that exceeds physical pressure",
-      "correction": "Focus on diaphragmatic breathing using available space, coordinate breathing with opponent's weight shifts, create micro-spaces through frame adjustments specifically for breathing windows."
-    },
-    {
-      "error": "Pushing directly against opponent's weight with rigid arm extensions",
-      "consequence": "Creates strength-versus-strength battle that favors top position, exhausts arm muscles rapidly, provides opponent with frames to attack for armbars or other submissions",
-      "correction": "Use frames structurally rather than muscularly, direct pressure at angles rather than head-on, maintain bent-arm frames that use skeletal structure rather than muscle strength."
-    },
-    {
-      "error": "Abandoning defensive priorities to attempt escapes prematurely",
-      "consequence": "Exposes neck and limbs to submission attacks, allows opponent to transition to more dominant positions, converts survivable pressure situation into immediate submission danger",
-      "correction": "Maintain priority hierarchy: protect submissions first, maintain breathing second, preserve position third, attempt escapes fourth. Never compromise higher priorities for lower ones."
-    },
-    {
-      "error": "Accepting static position without making small progressive adjustments",
-      "consequence": "Allows opponent to settle into optimized pressure configuration, prevents accumulation of escape opportunities, leads to increasing physical and psychological pressure over time",
-      "correction": "Make constant small adjustments to frames, angles, and position even under heavy pressure. Small movements prevent opponent from achieving perfect control and create escape opportunities."
-    },
-    {
-      "error": "Focusing solely on physical technique while ignoring psychological composure",
-      "consequence": "Creates panic responses that override technical knowledge, leads to premature tapping to pressure rather than actual submissions, impairs pattern recognition and decision-making",
-      "correction": "Train pressure tolerance specifically through positional sparring, practice maintaining calm mindset under discomfort, recognize that psychological submission occurs before physical limits in most cases."
+      "error": "Holding your breath to endure pressure",
+      "consequence": "You postpone stopping while the position becomes harder to manage.",
+      "correction": "Keep breathing; tap or call stop when breathing is restricted."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Progressive Pressure Tolerance Drills",
-      "description": "Partner applies gradually increasing pressure from specific positions (mount, side control, etc.) while defender practices frame maintenance, breathing, and composure for timed intervals. Start with 30-second rounds and progress to 2+ minutes.",
-      "focus": "Builds physical tolerance for pressure, develops breathing techniques under compression, conditions psychological response to discomfort, teaches sustainable frame structures."
+      "approach_name": "Frame under light pressure",
+      "description": "Start under light side control with a cooperative partner. Establish frames and turn until you create space; release and reset. Stop immediately on discomfort or breathing difficulty.",
+      "focus": "Build structure before movement."
     },
     {
-      "approach_name": "Pressure Position Survival Sparring",
-      "description": "Positional sparring beginning from worst-case pressure scenarios (flat mount, heavy cross-face, etc.) where defender must survive and escape while top player applies maximum pressure. Reset when escape achieved or submission occurs.",
-      "focus": "Develops realistic pressure management under resistance, tests frame effectiveness, builds escape execution from worst positions, conditions energy management under duress."
-    },
-    {
-      "approach_name": "Frame Isolation and Testing",
-      "description": "Isolate specific frame types (forearm frame, knee shield, hand frame) and test their effectiveness under sustained pressure. Partner attempts to break frame through pressure while defender maintains structure using minimal energy.",
-      "focus": "Refines frame construction technique, identifies structural weaknesses, develops frame maintenance efficiency, teaches angle adjustments to optimize frame effectiveness."
-    },
-    {
-      "approach_name": "Breathing Under Compression Practice",
-      "description": "Partner applies controlled chest compression in various positions while defender focuses exclusively on maintaining diaphragmatic breathing, timing breaths with pressure changes, and creating micro-spaces for air intake.",
-      "focus": "Isolates breathing skill development, conditions diaphragm strength, develops breath timing awareness, reduces panic response to restricted breathing."
-    },
-    {
-      "approach_name": "Sequential Distance Control Drilling",
-      "description": "From heavy pressure positions, defender makes series of small movements (mini-shrimps, elbow slides, hip adjustments) to accumulate space progressively over 10-15 repetitions before attempting full escape.",
-      "focus": "Teaches patience in pressure situations, develops incremental space creation skill, conditions energy-efficient movement patterns, builds understanding of cumulative positioning."
-    },
-    {
-      "approach_name": "Psychological Composure Training",
-      "description": "Extended rounds (5+ minutes) under sustained pressure with focus on maintaining calm mental state, problem-solving under discomfort, and avoiding panic responses. Include self-assessment of mental state during rounds.",
-      "focus": "Develops psychological resilience, conditions panic response management, builds confidence in pressure situations, teaches separation of discomfort from danger."
+      "approach_name": "Weight-shift escape",
+      "description": "The top partner slowly changes weight in a familiar pin. Use each change for a small hip movement, pausing to check frames; reset once a knee enters the gap.",
+      "focus": "Find an escape window without rushing."
     }
   ],
   "developmental_metrics": [
@@ -527,13 +438,21 @@
   ],
   "clips": [
     {
+      "id": "gymff0hcYhQ",
+      "title": "How to prevent getting crushed",
+      "by": "Rory Van Vliet",
+      "vertical": true,
+      "channel": "RVV BJJ",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "EOJsjsYYmX0",
       "title": "Defending top pressure and transitioning to attack",
       "by": "Firas Zahabi",
       "vertical": false,
       "channel": "Tristar Gym",
       "duration": 62,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "HYON7oAvB2s",
@@ -542,7 +461,7 @@
       "vertical": false,
       "channel": "RGA South Herts",
       "duration": 982,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "Vf07y7rmsxE",
@@ -551,7 +470,7 @@
       "vertical": false,
       "channel": "Stephan Kesting",
       "duration": 545,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

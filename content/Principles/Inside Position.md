@@ -4,7 +4,7 @@
 
 ---
 title: "Inside Position | BJJ Principle | BJJ Graph"
-description: "Master inside position in BJJ and wrestling. Learn underhook control, inside bicep ties, pummeling, and how controlling the inside channel wins clinch and guard."
+description: "Use underhooks, inside ties, knees, and feet to occupy useful space before the opponent can establish their own controls."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Inside Position",
-  "description": "Master inside position in BJJ and wrestling. Learn underhook control, inside bicep ties, pummeling, and how controlling the inside channel wins clinch and guard.",
+  "description": "Use underhooks, inside ties, knees, and feet to occupy useful space before the opponent can establish their own controls.",
   "url": "https://bjjgraph.org/Principles/Inside-Position",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting techniques from outside position rather than first establishing inside position?",
+      "name": "What is a common mistake in Reaching inside without support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Techniques fail at high rates because the opponent's inside controls deflect and redirect the attack. Guard passes from outside the legs get re-guarded. Takedowns without underhooks get sprawled. The practitioner feels like their techniques are correct but inexplicably ineffective. The correction is: Develop the discipline to establish inside position before attempting any offensive technique. Make pummeling and inside space establishment the first step in every exchange. If you do not have inside position, your immediate goal is to get it — not to attack from an inferior position."
+        "text": "The opponent displaces the arm or folds your posture. The correction is: Move your body into range and keep the control connected to your ribs and stance."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Establishing inside position but not securing it before attempting to exploit it?",
+      "name": "What is a common mistake in Winning contact but leaving it loose?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent pummels back or displaces the inside control before the technique can be completed. The practitioner achieves momentary inside position but loses it during the technique attempt, resulting in a stalled or reversed exchange. The correction is: After establishing inside position, spend a beat securing it — drive the underhook deep, place the head on the inside, tighten elbow discipline. Only when the inside position is secured against immediate counter-pummeling should you begin the offensive technique."
+        "text": "The opponent pummels back before you can use the control. The correction is: Secure the angle and connection, then begin the next movement."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Allowing elbows to flare away from the body, creating inside space for the opponent?",
+      "name": "What is a common mistake in Ignoring a lost inside control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent easily establishes underhooks, inside ties, or guard hooks because gaps between the elbows and ribs provide entry points. Chronic elbow flaring means the practitioner is perpetually fighting from outside position and wondering why their game feels reactive. The correction is: Train elbow discipline as a fundamental habit. Elbows should rest against or near the ribs as the default position. Every time you notice your elbows flaring, retract them. This single habit change dramatically reduces the opponent's inside position opportunities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Only fighting for inside position with the arms while ignoring legs, knees, and head?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The practitioner wins the underhook battle but loses the inside position battle at the legs (guard hooks) or head (crossface). Inside position is a whole-body concept, and winning it with one body part while losing it with others creates a mixed position that does not provide the expected advantages. The correction is: Think of inside position as a complete system — arms, legs, knees, feet, and head all have inside/outside battles happening simultaneously. Prioritize based on position (legs in guard, arms in clinch) but never completely ignore any inside position battle."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Pummeling slowly and tentatively rather than with commitment and forward drive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Tentative pummeling is easily stuffed by the opponent. The arm gets halfway inside before the opponent blocks it with shoulder pressure or a counter-pummel. The practitioner spends energy on failed pummeling attempts without establishing the underhook. The correction is: Pummel with committed, sharp movements that combine the arm swim with forward body pressure. The pummel should be a sudden, decisive insertion — not a gradual push. Time pummeling attempts for moments when the opponent's attention or pressure is momentarily directed elsewhere."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to pummel back immediately after losing inside position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The opponent establishes and secures inside position while the practitioner accepts the outside position. Each moment without re-pummeling allows the opponent to deepen their control, making recovery increasingly difficult. What started as a momentary loss becomes a permanent positional deficit. The correction is: Make immediate re-pummeling a reflexive response to losing inside position. The moment you feel your underhook displaced or your inside tie broken, the pummeling response should begin. Do not wait, do not attempt techniques from outside, do not accept the inferior position. Pummel back immediately."
+        "text": "The opponent fills the space and starts controlling your shoulders or hips. The correction is: Recover the frame or pummel back before their pressure settles."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Inside Position",
-  "description": "Inside Position is the principle of occupying the space between an opponent's limbs and their torso — via underhooks, inside ties, knees, and hooks — so your strongest, closest controls work inside their defensive framework while theirs are forced to operate at weak, extended range.",
+  "description": "Inside position means placing your hands, arms, knees, or feet between an opponent’s limbs to create useful controls and protect space near your body.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Inside-tie control into a double leg",
+      "description": "Inside Position film study: Inside-tie control into a double leg, taught by Sean Russell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PRvfJSP_MdI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PRvfJSP_MdI",
+      "url": "https://www.youtube.com/watch?v=PRvfJSP_MdI",
+      "creator": { "@type": "Person", "name": "Sean Russell" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Danaher\u0027s inside position concept explained",
       "description": "Inside Position film study: Danaher\u0027s inside position concept explained, taught by Chadi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/my3fvg5RDJ0/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "What is inside position and why it matters",
       "description": "Inside Position film study: What is inside position and why it matters, taught by Jordan Preisinger.",
       "thumbnailUrl": "https://i.ytimg.com/vi/peYJDb7LZMM/hqdefault.jpg",
@@ -205,13 +191,9 @@ description: "Master inside position in BJJ and wrestling. Learn underhook contr
 
 ## What is Inside Position?
 
-**Inside Position is the principle of occupying the space between an opponent's limbs and their torso — via underhooks, inside ties, knees, and hooks — so your strongest, closest controls work inside their defensive framework while theirs are forced to operate at weak, extended range.**
+**Inside position means placing your hands, arms, knees, or feet between an opponent’s limbs to create useful controls and protect space near your body.**
 
-Across wrestling, judo, and BJJ, the same quiet battle decides most exchanges: who controls the inside. Whoever occupies this inside space controls the engagement. In the clinch, having double underhooks means you control inside position and can dictate whether the exchange goes to a takedown, a throw, or a body lock. In guard passing, getting your arms inside the opponent's legs rather than outside them gives you inside position to collapse the guard. In guard playing, getting your feet and knees inside the opponent's arms gives you inside position to control distance and create attacks.
-
-This principle comes directly from wrestling, where pummeling — the act of fighting for underhooks by swimming your arms inside the opponent's arms — is one of the most fundamental skills taught from day one. In BJJ, the same concept extends beyond the arms to include legs, knees, feet, and even head position. The practitioner with inside position can attack; the practitioner with outside position must first fight to regain inside position before they can advance. This creates a clear hierarchy: establish inside position, then attack.
-
-Inside position matters because physics favors the inside fighter. Your arms and legs are strongest and most mobile when working close to your body's center. The further your limbs extend from your centerline, the weaker and more vulnerable they become. By occupying the inside space, you force the opponent's limbs to work at extended range while your limbs operate at their strongest range. This mechanical advantage compounds with every exchange — the inside fighter gets progressively stronger position while the outside fighter gets progressively weaker position.
+Choose the inside control that fits the position: an underhook in the clinch or a knee shield under pressure. Support it with posture and angle before using it to move.
 
 </section>
 
@@ -222,6 +204,14 @@ Inside position matters because physics favors the inside fighter. Your arms and
 
 <p class="section-subtitle">Watch Inside Position in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=PRvfJSP_MdI)
+
+<p class="clip-credit"><strong>Inside-tie control into a double leg</strong> — taught by Sean Russell · <a href="https://www.youtube.com/watch?v=PRvfJSP_MdI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -246,15 +236,10 @@ Inside position matters because physics favors the inside fighter. Your arms and
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Fight for underhooks in the clinch — double underhooks give complete inside control and dictate the engagement
-- Get your arms inside the opponent's legs when passing guard to collapse their defensive framework from the inside
-- Get your feet and knees inside the opponent's arms when playing guard to control distance and create attacks
-- Pummeling is the constant battle for inside position — never stop swimming your arms toward the inside
-- Inside bicep ties control the opponent's arms by occupying the space between their arms and their body
-- When you lose inside position, immediately pummel back rather than trying to work from outside
-- Head position supports inside position — your head should be on the inside (against the opponent's chest or chin)
-- Inside position compounds — once you establish one inside control point, it becomes easier to establish additional ones
-- Deny the opponent inside position by keeping your elbows tight and maintaining active hand fighting
+- Protect space near your ribs with connected elbows and active hand fighting.
+- Pummel an arm or leg inside when the opening appears.
+- Support an inside control with head position, posture, and base.
+- Use the control for your next action before the opponent displaces it.
 
 
 </section>
@@ -285,33 +270,13 @@ Inside position matters because physics favors the inside fighter. Your arms and
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Clinch**: The clinch is the purest inside position battle. Double underhooks give complete inside control and enable body lock takedowns, suplex variations, and trips. Single underhook against single overhook creates the classic pummeling exchange. Collar ties and inside bicep ties provide alternative inside controls for setups and off-balancing.
+**Clinch**: Pummel for an underhook or inside tie while keeping a stance that supports pulling, turning, or entering a takedown.
 
-**Standing Position**: Grip fighting from standing is fundamentally about inside position. Getting grips on the inside of the opponent's arms (inside bicep tie, collar tie, underhook) gives you first strike advantage for takedown entries. The wrestler's stance with elbows in and hands forward is designed to protect inside space while threatening to occupy the opponent's.
+**Half Guard**: From bottom, a knee shield and an underhook protect different spaces; from top, address them before settling pressure.
 
-**Half Guard**: The half guard battle centers on inside position. The bottom player needs the knee shield (inside position with the knee) and the underhook (inside position with the arm). The top player needs to flatten the knee shield and establish the crossface (their own inside position over the bottom player's head). Whoever wins the inside position battle wins the half guard exchange.
+**Butterfly Guard**: Keep the feet inside the thighs and combine those hooks with an upper-body grip for elevation.
 
-**Closed Guard**: From inside closed guard, the top player wants inside position with their arms (hands on the hips or chest, elbows inside the thighs) to maintain posture and begin passing. The guard player wants inside position with underhooks on the arms and knees squeezing inward to break posture and set up attacks.
-
-**Butterfly Guard**: Butterfly hooks are inside position for the legs — the feet sit inside the opponent's thighs, occupying the space between their legs and torso. Combined with an underhook or collar tie, the butterfly guard player has inside position with both upper and lower body, creating sweep and submission opportunities.
-
-**Side Control**: The side control player maintains inside position through the underhook and crossface, which occupy the inside space between the bottom player's arms and body. Escaping side control requires re-establishing inside position through frames (which push back into the inside space) and underhook recovery.
-
-**Double Unders**: Double unders passing is the clearest guard passing application of inside position. Both arms go inside and under the opponent's legs, occupying the space between their thighs and torso. This collapses the guard structure from the inside, making guard retention nearly impossible if the grip is secured.
-
-**Body Lock**: The body lock (either standing or from top position) is inside position taken to its logical extreme — both arms wrap inside and around the opponent's torso, completely occupying the inside space. From this configuration, the inside fighter can dictate takedowns, passes, and transitions with total upper body control.
-
-**Headquarters Position**: Headquarters is a guard passing position where one knee splits the opponent's legs, establishing inside position in the lower body. Combined with an underhook or collar control, the passer has inside position in both the upper and lower body, creating multiple passing options.
-
-**De La Riva Guard**: The De La Riva hook wraps behind the opponent's lead leg, creating inside position from an unconventional angle. The hook controls the inside of the leg while the opposite hand controls the inside of the sleeve or ankle. Passing De La Riva requires establishing your own inside position by stripping the hook and getting your knee inside.
-
-**Dogfight Position**: Dogfight is a pure underhook battle — both athletes on their knees, each fighting for the underhook on the same side. The athlete who establishes the deeper, tighter underhook controls inside position and can drive for the takedown or sweep. The whizzer (overhook) is the primary defensive tool against the underhook.
-
-**Knee Shield Half Guard**: The knee shield is the guard player's primary inside position tool in half guard. The shin placed across the opponent's torso occupies the inside space and prevents the top player from establishing chest-to-chest control. Passing the knee shield requires displacing this inside barrier — either smashing it flat or going around it.
-
-**Spider Guard**: Spider guard places the feet on the inside of the opponent's biceps, establishing inside position with the feet in the upper body. This inside foot placement controls the opponent's arms, preventing them from establishing their own inside grips for passing. The guard player's feet occupy the inside space that the passer needs.
-
-**Mount**: From mount, the top player has complete inside position — their knees inside the opponent's elbows, hips inside the opponent's hip space. Mount escapes must re-establish inside position from the bottom, typically through elbow-knee frames that create inside barriers against the mount's inside control.
+**Side Control**: From bottom, recover an elbow or forearm inside to frame, then use the space to begin hip movement.
 
 
 
@@ -334,24 +299,15 @@ Inside position matters because physics favors the inside fighter. Your arms and
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting techniques from outside position rather than first establishing inside position
-  - **Consequence**: Techniques fail at high rates because the opponent's inside controls deflect and redirect the attack. Guard passes from outside the legs get re-guarded. Takedowns without underhooks get sprawled. The practitioner feels like their techniques are correct but inexplicably ineffective.
-  - **Correction**: Develop the discipline to establish inside position before attempting any offensive technique. Make pummeling and inside space establishment the first step in every exchange. If you do not have inside position, your immediate goal is to get it — not to attack from an inferior position.
-- **Mistake**: Establishing inside position but not securing it before attempting to exploit it
-  - **Consequence**: The opponent pummels back or displaces the inside control before the technique can be completed. The practitioner achieves momentary inside position but loses it during the technique attempt, resulting in a stalled or reversed exchange.
-  - **Correction**: After establishing inside position, spend a beat securing it — drive the underhook deep, place the head on the inside, tighten elbow discipline. Only when the inside position is secured against immediate counter-pummeling should you begin the offensive technique.
-- **Mistake**: Allowing elbows to flare away from the body, creating inside space for the opponent
-  - **Consequence**: The opponent easily establishes underhooks, inside ties, or guard hooks because gaps between the elbows and ribs provide entry points. Chronic elbow flaring means the practitioner is perpetually fighting from outside position and wondering why their game feels reactive.
-  - **Correction**: Train elbow discipline as a fundamental habit. Elbows should rest against or near the ribs as the default position. Every time you notice your elbows flaring, retract them. This single habit change dramatically reduces the opponent's inside position opportunities.
-- **Mistake**: Only fighting for inside position with the arms while ignoring legs, knees, and head
-  - **Consequence**: The practitioner wins the underhook battle but loses the inside position battle at the legs (guard hooks) or head (crossface). Inside position is a whole-body concept, and winning it with one body part while losing it with others creates a mixed position that does not provide the expected advantages.
-  - **Correction**: Think of inside position as a complete system — arms, legs, knees, feet, and head all have inside/outside battles happening simultaneously. Prioritize based on position (legs in guard, arms in clinch) but never completely ignore any inside position battle.
-- **Mistake**: Pummeling slowly and tentatively rather than with commitment and forward drive
-  - **Consequence**: Tentative pummeling is easily stuffed by the opponent. The arm gets halfway inside before the opponent blocks it with shoulder pressure or a counter-pummel. The practitioner spends energy on failed pummeling attempts without establishing the underhook.
-  - **Correction**: Pummel with committed, sharp movements that combine the arm swim with forward body pressure. The pummel should be a sudden, decisive insertion — not a gradual push. Time pummeling attempts for moments when the opponent's attention or pressure is momentarily directed elsewhere.
-- **Mistake**: Failing to pummel back immediately after losing inside position
-  - **Consequence**: The opponent establishes and secures inside position while the practitioner accepts the outside position. Each moment without re-pummeling allows the opponent to deepen their control, making recovery increasingly difficult. What started as a momentary loss becomes a permanent positional deficit.
-  - **Correction**: Make immediate re-pummeling a reflexive response to losing inside position. The moment you feel your underhook displaced or your inside tie broken, the pummeling response should begin. Do not wait, do not attempt techniques from outside, do not accept the inferior position. Pummel back immediately.
+- **Mistake**: Reaching inside without support
+  - **Consequence**: The opponent displaces the arm or folds your posture.
+  - **Correction**: Move your body into range and keep the control connected to your ribs and stance.
+- **Mistake**: Winning contact but leaving it loose
+  - **Consequence**: The opponent pummels back before you can use the control.
+  - **Correction**: Secure the angle and connection, then begin the next movement.
+- **Mistake**: Ignoring a lost inside control
+  - **Consequence**: The opponent fills the space and starts controlling your shoulders or hips.
+  - **Correction**: Recover the frame or pummel back before their pressure settles.
 
 
 </section>
@@ -359,23 +315,11 @@ Inside position matters because physics favors the inside fighter. Your arms and
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Pummeling Rounds** (Focus: Building pummeling as a reflexive, high-frequency skill rather than a deliberate, conscious action. Developing the timing, speed, and body mechanics for efficient inside position establishment and recovery.)
-Dedicated 3-minute rounds of pure pummeling with a partner, starting from collar ties. The goal is to achieve double underhooks. Both athletes continuously swim for underhooks, counter-pummel, and fight for inside position. No takedowns or techniques — pure pummeling skill development. Vary intensity from flow to competitive.
+**One-underhook pummeling** (Focus: Connect inside hand position to posture.)
+Start in a light over-under clinch. Exchange one underhook at a time while keeping a balanced stance. Pause on each secure control, then release and restart.
 
-**Inside Position Awareness Sparring** (Focus: Developing conscious awareness of inside position battles during live rolling, building the habit of monitoring inside/outside status as a fundamental tactical consideration.)
-Regular sparring rounds with the added constraint of verbally calling out inside position changes. When you establish an underhook, say it. When you lose it, say it. This forced awareness keeps inside position battles at the front of your mind rather than allowing them to happen unconsciously. Partner does the same.
-
-**Position-Specific Inside Position Drilling** (Focus: Building position-specific inside position skills rather than relying only on clinch pummeling. Developing the ability to recognize and fight for inside position in every major position in BJJ.)
-Drill inside position establishment from each major position separately. Clinch: pummeling to double unders. Half guard: recovering knee shield and underhook. Guard passing: getting arms inside the legs. Closed guard: inside control with arms and knees. Spend 10 minutes per position with progressive resistance.
-
-**Elbow Discipline Training** (Focus: Eliminating the habit of elbow flaring that creates inside space for opponents. Building the default elbow position as close to the ribs, making inside position attacks harder for the opponent.)
-Roll with a specific focus on keeping elbows tight to the body. Partner actively looks for opportunities to establish inside position when your elbows flare. After each roll, partner provides feedback on how many inside entries they found due to elbow position. Track improvement over sessions.
-
-**Inside Position Chain Drilling** (Focus: Developing the persistence and reflexive response needed to continuously fight for inside position throughout an entire round, rather than accepting outside position after a single counter.)
-Practice establishing inside position, having it countered, immediately re-establishing, being countered again, and re-establishing again. Chain 5-10 inside position exchanges in sequence without any pause. This builds the reflexive response of never accepting outside position.
-
-**Whole-Body Inside Position Integration** (Focus: Building the ability to coordinate multiple inside position battles simultaneously, understanding that inside position is a whole-body concept rather than an isolated arm or leg battle.)
-Practice positions where inside position involves multiple body parts simultaneously. Half guard bottom: knee shield plus underhook. Butterfly guard: hooks plus collar tie. Clinch passing: underhook plus head inside plus knee splitting. Drill the coordination of establishing inside position with multiple body parts as an integrated system.
+**Knee-shield recovery** (Focus: Recognize and occupy inside space.)
+Start in half guard with light top pressure. The bottom partner inserts a knee shield as the top partner opens a small gap. Reset after the shield is established, then change roles.
 
 
 

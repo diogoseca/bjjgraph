@@ -4,7 +4,7 @@
 
 ---
 title: "Head Position | BJJ Principle | BJJ Graph"
-description: "Master Head Position in BJJ. Learn biomechanical principles, control hierarchy, cross-position applications, and decision frameworks with expert analysis."
+description: "Maintain useful head alignment and manage the opponent’s head position to support balance, pins, and escapes."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Head Position",
-  "description": "Master Head Position in BJJ. Learn biomechanical principles, control hierarchy, cross-position applications, and decision frameworks with expert analysis.",
+  "description": "Maintain useful head alignment and manage the opponent’s head position to support balance, pins, and escapes.",
   "url": "https://bjjgraph.org/Principles/Head-Position",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Releasing head control during transitions or submission attempts?",
+      "name": "What is a common mistake in Controlling their head while exposing yours?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent recovers posture, establishes frames, or escapes position during the brief moment when head control is lost. This is one of the most common reasons for failed techniques in competition, as the transition moment when head control is released creates the escape window. The correction is: Practice maintaining head control through entire technical sequences, using drills that specifically focus on control maintenance during movement. Develop grip transitions and pressure adjustments that allow head control to persist through position changes rather than requiring full release and re-establishment."
+        "text": "The opponent gains a collar tie or pulls your head out of alignment. The correction is: Keep your head supported by your stance and address their head control first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using excessive grip strength without proper positional pressure?",
+      "name": "What is a common mistake in Pulling with the arms alone?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapid fatigue, arm exhaustion, and inability to maintain head control for extended periods. Opponent can wait out the grip-based control and escape once grip strength diminishes, or use the rigid grip as a post to generate escape leverage. The correction is: Shift focus from pure grip strength to positional pressure and structure. Use body weight, angle, and positional configuration to maintain head control rather than relying primarily on hand strength. Grips should serve as connection points for pressure transfer, not as the sole source of control."
+        "text": "Your grips tire while the opponent moves their torso around the control. The correction is: Bring your body closer and connect head control to the shoulder or hip."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Controlling head in single direction without preventing rotation?",
+      "name": "What is a common mistake in Losing contact during a transition?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent rotates head and body in the uncontrolled direction, escaping position or negating submission attempts. Single-direction head control allows opponent to use rotational mechanics to generate escape momentum. The correction is: Establish multi-directional head control using multiple contact points that prevent both lateral and rotational movement. Use combinations of grips, pressure points, and positional configuration to create a control cage that eliminates movement in all directions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Positioning head toward opponent's escape routes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Head position actually facilitates opponent's escape rather than preventing it. For example, pushing the head toward the hips in side control helps opponent recover guard rather than preventing guard recovery. The correction is: Understand the directional aspect of head control and position the head away from escape routes. In side control, push the head away from the hips. In mount, control the head to prevent turning to turtle. In back control, prevent head from looking toward escape directions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting own head protection while focusing on opponent's head control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent establishes head control on you while you attempt to control their head, often resulting in submission vulnerability or position loss. This creates head control battles where neither practitioner achieves dominant control. The correction is: Develop simultaneous awareness of offensive head control opportunities and defensive head protection requirements. In positions where both practitioners have head access to each other, prioritize preventing opponent's head control while seeking opportunities to establish your own."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying head control without coordinating other control points?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent escapes by moving parts of their body that aren't controlled, even though their head is controlled. Head control alone, without hip control or shoulder control, often proves insufficient for maintaining dominant positions. The correction is: Integrate head control within a comprehensive control point system that addresses multiple parts of opponent's body simultaneously. Coordinate head control with hip control, shoulder control, and limb control to create complete positional dominance."
+        "text": "The opponent turns or recovers posture through the opening. The correction is: Establish the next upper-body control before releasing the old one."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Head Position",
-  "description": "Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.",
+  "description": "Head position is the placement of your head relative to your spine and opponent, affecting balance, movement, and control of the upper body.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Using your head to create passing pressure",
+      "description": "Head Position film study: Using your head to create passing pressure, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ADiyj3T7nw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ADiyj3T7nw",
+      "url": "https://www.youtube.com/watch?v=_ADiyj3T7nw",
+      "creator": { "@type": "Person", "name": "Nick Albin" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Head control concepts and the chokes they lead to",
       "description": "Head Position film study: Head control concepts and the chokes they lead to, taught by Firas Zahabi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/LTVX-QojYJw/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Head control principle explained",
       "description": "Head Position film study: Head control principle explained, taught by Gracie Breakdown.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HSplh5HeJvE/hqdefault.jpg",
@@ -205,9 +191,9 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 
 ## What is Head Position?
 
-**Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.**
+**Head position is the placement of your head relative to your spine and opponent, affecting balance, movement, and control of the upper body.**
 
-Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.
+Check your own alignment while controlling theirs. A head control works with the shoulders and hips; it rarely holds a position by itself.
 
 </section>
 
@@ -218,6 +204,14 @@ Across every phase of grappling, from the standing clinch to back control, the h
 
 <p class="section-subtitle">Watch Head Position in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=_ADiyj3T7nw)
+
+<p class="clip-credit"><strong>Using your head to create passing pressure</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=_ADiyj3T7nw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -242,15 +236,10 @@ Across every phase of grappling, from the standing clinch to back control, the h
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Control the head to control the spine and subsequently the entire body structure
-- Establish head position that limits opponent's ability to generate effective frames or escape mechanics
-- Apply pressure through the head to disrupt opponent's postural alignment and base
-- Maintain connection points that prevent head movement in multiple directions simultaneously
-- Position the head away from escape routes and toward vulnerable structural positions
-- Coordinate head control with other control points for comprehensive positional dominance
-- Recognize that opponent protecting their head position is a fundamental defensive priority
-- Utilize head control as setup mechanism for transitions and submissions
-- Maintain awareness of own head position to prevent opponent exploitation
+- Keep your head supported by your posture instead of reaching with your neck.
+- Pair head control with a shoulder or hip control.
+- Use body position to guide the head; avoid wrenching the neck.
+- Adjust contact as the opponent turns or you change positions.
 
 
 </section>
@@ -281,33 +270,13 @@ Across every phase of grappling, from the standing clinch to back control, the h
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: From closed guard bottom, head control prevents opponent from breaking posture and establishing offensive grips. Controlling the head by pulling it down or to the side eliminates the opponent's ability to create the upright posture necessary for guard opening and passing, while positioning the head for sweep and submission setups.
+**Clinch**: Place your head to support the underhook and stance, while keeping it out of an easy collar tie or front headlock.
 
-**Side Control**: In side control, head control through cross-face pressure or head-and-arm positioning prevents opponent's ability to turn into you or create frames. The head control establishes the foundational pressure that pins the shoulder and eliminates hip escape mechanics while setting up transitions to mount or submission attacks.
+**Side Control**: From top, combine head-and-shoulder control with a hip block to limit turning in. From bottom, recover alignment as you rebuild frames.
 
-**Mount**: From mount, controlling the opponent's head through grips or gable grip positioning limits their ability to bridge effectively or turn to turtle. Head control in mount sets up submission attacks by controlling the direction of potential escape attempts and maintaining positional stability during submission execution.
+**Closed Guard**: From bottom, draw the head and upper body forward with connected grips and leg movement to interrupt the passer’s posture.
 
-**Back Control**: In back control, head control through over-the-shoulder grips or hand fighting prevents opponent from tucking their chin and defending the rear naked choke. Controlling head position also prevents opponent from looking toward escape routes and maintains the seat belt or harness control structure.
-
-**North-South**: From north-south position, head control through chest pressure and arm positioning traps the opponent flat and prevents them from turning to their side or recovering guard. The head control creates the pressure necessary for north-south choke attacks and maintains positional dominance during transition attempts.
-
-**Front Headlock**: In front headlock positions, head control is the defining characteristic of the position itself, where controlling the head and one arm creates the structure for anaconda, darce, and guillotine attacks. Head position determines whether opponent can stand, which way they can turn, and which submission attacks become available.
-
-**Turtle**: When attacking turtle, head control prevents opponent from standing or turning to guard while creating the foundation for back takes and submission attacks. Controlling the head through front headlock grips, crossface pressure, or chin strap controls dictates opponent's defensive options and escape routes.
-
-**Kesa Gatame**: In kesa gatame (scarf hold), the arm around the head creates the fundamental control mechanism that prevents opponent from turning away or recovering guard. Head control combined with hip pressure creates one of the most stable pinning positions in BJJ and sets up various arm attacks.
-
-**Crucifix**: From crucifix, controlling the head through leg positioning or grips prevents opponent from turning either direction and traps them in a fully controlled position. Head control in crucifix enables choke attacks while maintaining the arm control that defines the position.
-
-**Gift Wrap**: In gift wrap position, head control through the wrapped arm structure prevents opponent from escaping the arm trap and creates the angle for taking the back or executing submission attacks. The head control maintains the structural integrity of the gift wrap configuration during transitions.
-
-**Clinch**: In standing clinch positions, head control determines throwing opportunities and takedown defense. Controlling the head through collar ties, overhooks, or underhooks creates off-balancing opportunities and prevents opponent from establishing their preferred gripping configuration.
-
-**Guillotine Control**: In guillotine control positions, head position relative to the choking arm determines submission effectiveness. Head control through the guillotine grip creates the structural alignment necessary for the choke while preventing opponent from posturing up or pulling their head free.
-
-**Half Guard**: From half guard top, head control through crossface or underhook prevents opponent from recovering full guard or sweeping. Controlling the head establishes the pressure necessary for passing sequences while limiting bottom player's offensive options and framing capabilities.
-
-**Knee on Belly**: In knee on belly, head control through grips or frames prevents opponent from turning away or shrimping out. Controlling the head maintains the unstable position while setting up transitions to mount or submission attacks when opponent attempts to address the knee pressure.
+**Front Headlock**: Control the head and an arm together to limit posture recovery while looking for a go-behind.
 
 
 
@@ -331,24 +300,15 @@ Across every phase of grappling, from the standing clinch to back control, the h
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Releasing head control during transitions or submission attempts
-  - **Consequence**: Opponent recovers posture, establishes frames, or escapes position during the brief moment when head control is lost. This is one of the most common reasons for failed techniques in competition, as the transition moment when head control is released creates the escape window.
-  - **Correction**: Practice maintaining head control through entire technical sequences, using drills that specifically focus on control maintenance during movement. Develop grip transitions and pressure adjustments that allow head control to persist through position changes rather than requiring full release and re-establishment.
-- **Mistake**: Using excessive grip strength without proper positional pressure
-  - **Consequence**: Rapid fatigue, arm exhaustion, and inability to maintain head control for extended periods. Opponent can wait out the grip-based control and escape once grip strength diminishes, or use the rigid grip as a post to generate escape leverage.
-  - **Correction**: Shift focus from pure grip strength to positional pressure and structure. Use body weight, angle, and positional configuration to maintain head control rather than relying primarily on hand strength. Grips should serve as connection points for pressure transfer, not as the sole source of control.
-- **Mistake**: Controlling head in single direction without preventing rotation
-  - **Consequence**: Opponent rotates head and body in the uncontrolled direction, escaping position or negating submission attempts. Single-direction head control allows opponent to use rotational mechanics to generate escape momentum.
-  - **Correction**: Establish multi-directional head control using multiple contact points that prevent both lateral and rotational movement. Use combinations of grips, pressure points, and positional configuration to create a control cage that eliminates movement in all directions.
-- **Mistake**: Positioning head toward opponent's escape routes
-  - **Consequence**: Head position actually facilitates opponent's escape rather than preventing it. For example, pushing the head toward the hips in side control helps opponent recover guard rather than preventing guard recovery.
-  - **Correction**: Understand the directional aspect of head control and position the head away from escape routes. In side control, push the head away from the hips. In mount, control the head to prevent turning to turtle. In back control, prevent head from looking toward escape directions.
-- **Mistake**: Neglecting own head protection while focusing on opponent's head control
-  - **Consequence**: Opponent establishes head control on you while you attempt to control their head, often resulting in submission vulnerability or position loss. This creates head control battles where neither practitioner achieves dominant control.
-  - **Correction**: Develop simultaneous awareness of offensive head control opportunities and defensive head protection requirements. In positions where both practitioners have head access to each other, prioritize preventing opponent's head control while seeking opportunities to establish your own.
-- **Mistake**: Applying head control without coordinating other control points
-  - **Consequence**: Opponent escapes by moving parts of their body that aren't controlled, even though their head is controlled. Head control alone, without hip control or shoulder control, often proves insufficient for maintaining dominant positions.
-  - **Correction**: Integrate head control within a comprehensive control point system that addresses multiple parts of opponent's body simultaneously. Coordinate head control with hip control, shoulder control, and limb control to create complete positional dominance.
+- **Mistake**: Controlling their head while exposing yours
+  - **Consequence**: The opponent gains a collar tie or pulls your head out of alignment.
+  - **Correction**: Keep your head supported by your stance and address their head control first.
+- **Mistake**: Pulling with the arms alone
+  - **Consequence**: Your grips tire while the opponent moves their torso around the control.
+  - **Correction**: Bring your body closer and connect head control to the shoulder or hip.
+- **Mistake**: Losing contact during a transition
+  - **Consequence**: The opponent turns or recovers posture through the opening.
+  - **Correction**: Establish the next upper-body control before releasing the old one.
 
 
 </section>
@@ -356,17 +316,11 @@ Across every phase of grappling, from the standing clinch to back control, the h
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Sparring with Head Position Emphasis** (Focus: Developing practical head control maintenance under resistance and learning realistic defensive responses to various head control types. This approach builds the pressure sensitivity and adjustment capability necessary for maintaining head control during dynamic exchanges.)
-Conduct position-specific sparring sessions where one partner must maintain head control while the other attempts to regain head freedom. Start from various positions (side control, mount, turtle, etc.) with head control already established and focus exclusively on control maintenance versus escape.
+**Clinch alignment check** (Focus: Support head position with the whole body.)
+Start in a light over-under clinch. Pause after each pummel to check head, spine, and stance alignment together. Release and restart after each exchange.
 
-**Head Position Transition Drills** (Focus: Building the technical skill of maintaining head control during movement and transition phases. This approach addresses the common error of releasing head control during techniques and develops the coordination necessary for continuous control through complex sequences.)
-Practice flowing through position sequences while maintaining continuous head control throughout the transitions. For example, flow from side control to mount to back control while never releasing head control, requiring constant adjustment of grip type and pressure application.
-
-**Isolation Training with Progressive Resistance** (Focus: Developing proper head control mechanics in a controlled environment before applying them under full resistance. This progressive approach allows practitioners to understand the technical details of effective head control before dealing with the chaos of full resistance.)
-Isolate specific head control situations and practice with progressively increasing resistance levels. Start with compliant drilling to develop proper mechanics, then add graduated resistance where opponent defends at 25%, 50%, 75%, and finally 100% resistance.
-
-**Defensive Head Protection Circuit Training** (Focus: Developing comprehensive defensive skills against head control and understanding the defensive perspective. This approach creates awareness of how effective head control feels from the receiving end and clarifies which defensive measures actually work under pressure.)
-Create training circuits where you start in various positions with opponent having established head control, and the objective is to systematically regain head freedom using position-appropriate defensive techniques. Rotate through multiple positions and head control types in a single training session.
+**Head-and-shoulder control** (Focus: Follow movement without wrenching the neck.)
+Start in side control with light contact. The bottom partner slowly turns in while the top partner adjusts head-and-shoulder control without neck pressure. Reset after the turn or a stable pin.
 
 
 

@@ -198,7 +198,8 @@ Do not copy a different content type's section list as if it were interchangeabl
 
 ### Answer-First Summary
 
-All schema-backed content types require a root `summary`, with a schema length of 30–300 characters.
+All schema-backed content types require a root `summary`, with a schema length of 30–300 characters
+(Principles cap it at 260).
 Editorially, write one self-contained definition sentence, roughly 15–40 words. Avoid promotional
 claims and keep it distinct from `overview`, which should supply context rather than repeat it.
 Templates render summaries as bold leads and emit `DefinedTerm` JSON-LD on canonical hub/single pages.
@@ -325,6 +326,14 @@ That is not permission to publish placeholders.
 - **Principles:** author application and complexity levels, development timeline, component skills,
   relationships, application contexts, decision framework, errors, training approaches,
   developmental metrics, related content, root flashcards, and `graph_applicability`.
+  Keep the reading sections concise: one definition sentence in `summary` (at most 260 characters),
+  then 1–2 practical sentences in `overview` (40–320 characters). Skip origin stories, generic
+  praise, and repeated definitions. Use 3–5 actionable key points, 3–5 distinct examples,
+  3–4 mistakes with brief consequences and corrections, and 2–3 focused drills. Put the most
+  useful entries first: the sidebar previews 3 points, 2 examples, 2 mistakes, and 1 drill,
+  with independent disclosures for the rest. A drill needs setup, action, and a reset or stop
+  condition; submission drills emphasize cooperative recognition and control without resisted
+  joint or neck finishing pressure. The schema enforces section and entry length limits.
 - **Learning:** author the category, key takeaways, BJJ applications, common mistakes, training
   exercises, `knowledge_assessment`, and related content. This type uses `knowledge_assessment`,
   unlike technique role decks. External `references` are optional.
@@ -453,7 +462,20 @@ Sourcing uses yt-dlp search results, AI-assisted selection from those results, a
 checks. “Never AI-authored” here means never invent IDs or let general content enrichment replace
 curated clips; it does not mean the sourcing pipeline has no AI step. The generated
 `clips_sourcing/review.html` report supports human inspection. Delete unsuitable selections from
-the content JSON and regenerate the report.
+the content JSON and regenerate the report. Its principle coverage table includes empty pages,
+missing Shorts, and sourcing review notes so gaps remain visible alongside the selected videos.
+
+Principle sourcing prefers focused YouTube Shorts and supplements existing instructionals.
+`python3 scripts/source_clips.py --category Principles --redo-principles` refreshes the searches;
+new selections are deduplicated by video ID, ordered with Shorts first, and capped at four.
+Keep at least one existing longer instructional when Shorts would otherwise fill all four slots.
+An empty search or unsuccessful verification never removes existing selections. A short runtime
+alone is not evidence of the portrait format. Principle sourcing also reads instructor Shorts
+tabs because yt-dlp's ordinary search applies a Videos-only filter; `--shorts-channel HANDLE`
+can override the default instructor handles (repeat the flag for multiple channels). Picks still
+require relevance curation and oEmbed verification. Format comes from portrait-thumbnail checks
+or official Shorts-tab URLs with portrait thumbnail dimensions. Re-verification retains the
+known format when portrait thumbnails are missing or temporarily unavailable.
 
 `validate:json` rejects inverted loop bounds but only warns about duplicate IDs and end times past
 the recorded duration. Network availability checks belong to `verify_clips.py`; neither tool checks

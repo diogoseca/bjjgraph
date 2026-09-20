@@ -4,7 +4,7 @@
 
 ---
 title: "Leg Entanglement | BJJ Principle | BJJ Graph"
-description: "Master Leg Entanglement principles in BJJ. Learn systematic lower body control, position hierarchy, entry mechanics, and transitional flow between configurations."
+description: "Build leg control through hip alignment and connected legs before moving between entanglements or considering a submission."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Leg Entanglement",
-  "description": "Master Leg Entanglement principles in BJJ. Learn systematic lower body control, position hierarchy, entry mechanics, and transitional flow between configurations.",
+  "description": "Build leg control through hip alignment and connected legs before moving between entanglements or considering a submission.",
   "url": "https://bjjgraph.org/Principles/Leg-Entanglement",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Focusing exclusively on submission while neglecting positional control?",
+      "name": "What is a common mistake in Reaching for the foot before controlling the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates opportunities for opponent to escape entanglement entirely, resulting in lost position and potentially disadvantageous scrambles or guard passing situations. The correction is: Prioritize establishing and maintaining secure entanglement position before attacking submissions. Build positional security first, then layer submission threats on top of solid control foundation."
+        "text": "The opponent pulls the knee free or turns out of the position. The correction is: Secure the hip and leg connections before changing your hand controls."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to recognize and pursue inside position advantage?",
+      "name": "What is a common mistake in Ignoring the free leg?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Remaining in inferior entanglement configurations with lower control and submission success rates when superior positions are available through proper transitions. The correction is: Develop awareness of inside versus outside position and actively work to establish inside position through proper hip movement and leg configuration adjustments based on opponent's defensive reactions."
+        "text": "The opponent uses it to push, frame, or help disengage. The correction is: Track the free leg and adjust your controls as it enters the exchange."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Neglecting upper body control integration?",
+      "name": "What is a common mistake in Holding a lost entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to use upper body frames, grips, and positioning to facilitate escapes despite having legs controlled, resulting in frequent entanglement losses. The correction is: Systematically add upper body controls including collar grips, sleeve controls, or body pins to create complete control systems that address both upper and lower body escape mechanisms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using excessive force instead of proper mechanics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Causes rapid fatigue, creates opportunities for explosive escapes, and indicates fundamental mechanical deficiencies in entanglement control that limit effectiveness against skilled opponents. The correction is: Focus on proper hip alignment, leg positioning, and connection point management to create mechanical control that requires minimal muscular effort. Use structure and alignment rather than strength."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Maintaining static position without transitional readiness?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to methodically work through escape sequence without pressure to adapt, often resulting in successful escape or counter-entanglement. The correction is: Develop transitional flow mindset where opponent's defensive movements trigger immediate positional adjustments. Use their escape attempts to transition to superior entanglements rather than fighting to maintain inferior positions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring opponent's counter-entanglement threats?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focuses so heavily on attacking opponent's leg that own leg becomes entangled, creating symmetrical or disadvantageous situations where opponent may have superior position or submission threat. The correction is: Maintain awareness of own leg positioning and vulnerability while attacking. Use proper distance management, leg positioning, and defensive awareness to prevent counter-entanglement while maintaining offensive pressure."
+        "text": "The opponent’s hips move away while your controls stop containing the leg. The correction is: Reposition your hips or release and recover guard when the connection is gone."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Leg Entanglement",
-  "description": "Leg Entanglement is a systematic framework for controlling an opponent's lower limbs—configuring your legs, hips, and connection points to immobilize a leg, expose the heel, and establish the positional foundation from which leg-lock submissions are applied.",
+  "description": "A leg entanglement uses your legs, hips, and grips to contain an opponent’s leg, limit their movement, and create control for transitions or attacks.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Emergency ashi garami against guard",
+      "description": "Leg Entanglement film study: Emergency ashi garami against guard, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lf3lPwYnQO8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lf3lPwYnQO8",
+      "url": "https://www.youtube.com/watch?v=Lf3lPwYnQO8",
+      "creator": { "@type": "Person", "name": "John Danaher" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Leg locks and the four-part entanglement system",
       "description": "Leg Entanglement film study: Leg locks and the four-part entanglement system, taught by John Danaher.",
       "thumbnailUrl": "https://i.ytimg.com/vi/wMsYpNQyem8/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Guide to the main leg entanglement positions",
       "description": "Leg Entanglement film study: Guide to the main leg entanglement positions, taught by MMA Leech.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xWrEk9MbvUc/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Terminology of ashi garami and leg entanglements",
       "description": "Leg Entanglement film study: Terminology of ashi garami and leg entanglements, taught by Patrick Donabedian.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fkl93-NakrI/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
 
 ## What is Leg Entanglement?
 
-**Leg Entanglement is a systematic framework for controlling an opponent's lower limbs—configuring your legs, hips, and connection points to immobilize a leg, expose the heel, and establish the positional foundation from which leg-lock submissions are applied.**
+**A leg entanglement uses your legs, hips, and grips to contain an opponent’s leg, limit their movement, and create control for transitions or attacks.**
 
-Once dismissed as a fringe area of grappling, leg entanglements have become the strategic centerpiece of modern no-gi BJJ, reshaping how practitioners approach lower-body control. Unlike specific leg lock techniques, leg entanglement is a comprehensive conceptual framework encompassing the principles, mechanics, and strategic approach to establishing and maintaining complex leg control positions. This concept includes understanding optimal entry paths, mechanical control principles, hierarchical relationships between different entanglements, and defensive countermeasures within the leg lock ecosystem. Leg entanglement serves as both the positional foundation for applying leg lock submissions and a sophisticated positional control system in its own right. The ability to effectively establish and navigate leg entanglements often determines success in modern leg lock-oriented BJJ, making it one of the most strategically significant conceptual elements in contemporary grappling. The hierarchical understanding of these positions—from basic outside ashi to advanced inside sankaku—forms the foundation of modern leg lock systems, requiring practitioners to develop both technical precision and strategic awareness to navigate this complex positional landscape.
+Secure the position before reaching for a foot. Track the opponent’s hip movement and your own exposed leg; a loose entanglement can let either player disengage or counter.
 
 </section>
 
@@ -229,6 +215,14 @@ Once dismissed as a fringe area of grappling, leg entanglements have become the 
 
 <p class="section-subtitle">Watch Leg Entanglement in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=Lf3lPwYnQO8)
+
+<p class="clip-credit"><strong>Emergency ashi garami against guard</strong> — taught by John Danaher · <a href="https://www.youtube.com/watch?v=Lf3lPwYnQO8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Once dismissed as a fringe area of grappling, leg entanglements have become the 
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Establish control of opponent's lower extremities through systematic positioning
-- Maintain proper alignment between your hips and opponent's leg joints
-- Create mechanical control that limits opponent's defensive mobility
-- Recognize hierarchical relationships between different entanglement positions
-- Transition between entanglements based on opponent's defensive responses
-- Integrate upper body control with lower body entanglement
-- Prevent opponent's disengagement through proper connection management
-- Coordinate hip movement and leg positioning for optimal control mechanics
-- Balance between entanglement security and submission opportunity
+- Establish hip and leg control before reaching for a submission grip.
+- Keep your hips aligned with the leg you are controlling.
+- Watch the free leg and upper-body grips that can help the opponent escape.
+- Change the entanglement when its controls no longer match the opponent’s movement.
 
 
 </section>
@@ -300,29 +289,13 @@ Once dismissed as a fringe area of grappling, leg entanglements have become the 
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Ashi Garami**: The foundational leg entanglement position where practitioner controls one opponent leg with both legs while maintaining outside position. Demonstrates basic entanglement principles of leg control, hip alignment, and heel exposure.
+**Ashi Garami**: Use both legs and hip position to contain one leg, then check whether the opponent can withdraw the knee or turn away.
 
-**50-50 Guard**: Symmetrical leg entanglement where both practitioners have similar control of each other's legs. Demonstrates principles of inside position advantage, transitional flow, and the importance of upper body control in breaking symmetry.
+**50-50 Guard**: Both players have leg contact; upper-body grips, hip angle, and management of the free leg affect who can improve position.
 
-**Honey Hole**: Advanced leg entanglement providing superior control through inside position and hip alignment. Exemplifies highest level of entanglement hierarchy with optimal heel exposure and submission opportunity.
+**Honey Hole**: Use the leg configuration and hip connection to contain the captured leg while monitoring the opponent’s free leg.
 
-**Cross Ashi-Garami**: Entanglement configuration where legs cross opponent's leg from various angles. Demonstrates importance of maintaining connection points and transitioning to more advantageous entanglements when opponent attempts to pass or escape.
-
-**Inside Ashi-Garami**: Inside position leg entanglement offering superior control compared to outside ashi. Shows hierarchical advantage of inside position and integration of upper body control with leg entanglement.
-
-**Outside Ashi-Garami**: Basic leg entanglement demonstrating foundational control mechanics. Serves as entry point for learning entanglement principles before progressing to more advanced configurations.
-
-**Backside 50-50**: Inverted leg entanglement position requiring understanding of unconventional angles and connection points. Demonstrates adaptability of entanglement principles across different body orientations.
-
-**Inside Sankaku**: Triangle-based leg entanglement using the legs to create a locked figure-four control around opponent's leg. Provides extremely secure inside position with powerful heel exposure mechanics and limited escape options for the defender.
-
-**K-Guard**: Modern guard position incorporating leg entanglement entry principles with dynamic movement and inversion. Demonstrates how guard positions serve as launching platforms for establishing leg entanglements through systematic entry mechanics.
-
-**Deep Half Guard**: Bottom position using leg entanglement concepts to control opponent's base and create sweeping opportunities. Shows how leg control principles extend beyond pure leg lock positions.
-
-**Kneebar Control**: Entanglement configuration specifically optimized for kneebar submissions. Demonstrates how different leg joint targets require specialized entanglement alignments.
-
-**Lockdown**: Half guard leg entanglement using a double leg lock to control opponent's leg and disrupt base. Shows how basic leg control mechanics from half guard create sweeping opportunities and offensive transitions.
+**K-Guard**: Carry the leg and hip connections through the entry so the opponent cannot simply disengage before the entanglement is established.
 
 
 
@@ -346,27 +319,15 @@ Once dismissed as a fringe area of grappling, leg entanglements have become the 
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Focusing exclusively on submission while neglecting positional control
-  - **Consequence**: Creates opportunities for opponent to escape entanglement entirely, resulting in lost position and potentially disadvantageous scrambles or guard passing situations.
-  - **Correction**: Prioritize establishing and maintaining secure entanglement position before attacking submissions. Build positional security first, then layer submission threats on top of solid control foundation.
-- **Mistake**: Failing to recognize and pursue inside position advantage
-  - **Consequence**: Remaining in inferior entanglement configurations with lower control and submission success rates when superior positions are available through proper transitions.
-  - **Correction**: Develop awareness of inside versus outside position and actively work to establish inside position through proper hip movement and leg configuration adjustments based on opponent's defensive reactions.
-- **Mistake**: Neglecting upper body control integration
-  - **Consequence**: Allows opponent to use upper body frames, grips, and positioning to facilitate escapes despite having legs controlled, resulting in frequent entanglement losses.
-  - **Correction**: Systematically add upper body controls including collar grips, sleeve controls, or body pins to create complete control systems that address both upper and lower body escape mechanisms.
-- **Mistake**: Using excessive force instead of proper mechanics
-  - **Consequence**: Causes rapid fatigue, creates opportunities for explosive escapes, and indicates fundamental mechanical deficiencies in entanglement control that limit effectiveness against skilled opponents.
-  - **Correction**: Focus on proper hip alignment, leg positioning, and connection point management to create mechanical control that requires minimal muscular effort. Use structure and alignment rather than strength.
-- **Mistake**: Maintaining static position without transitional readiness
-  - **Consequence**: Allows opponent to methodically work through escape sequence without pressure to adapt, often resulting in successful escape or counter-entanglement.
-  - **Correction**: Develop transitional flow mindset where opponent's defensive movements trigger immediate positional adjustments. Use their escape attempts to transition to superior entanglements rather than fighting to maintain inferior positions.
-- **Mistake**: Ignoring opponent's counter-entanglement threats
-  - **Consequence**: Focuses so heavily on attacking opponent's leg that own leg becomes entangled, creating symmetrical or disadvantageous situations where opponent may have superior position or submission threat.
-  - **Correction**: Maintain awareness of own leg positioning and vulnerability while attacking. Use proper distance management, leg positioning, and defensive awareness to prevent counter-entanglement while maintaining offensive pressure.
-- **Mistake**: Poor heel exposure management
-  - **Consequence**: Allows opponent to hide heel through defensive positioning, eliminating submission threat even from otherwise dominant entanglement positions.
-  - **Correction**: Develop systematic approach to exposing and maintaining heel control through coordinated hip and leg positioning. Understand how different entanglements facilitate heel access and adjust accordingly.
+- **Mistake**: Reaching for the foot before controlling the leg
+  - **Consequence**: The opponent pulls the knee free or turns out of the position.
+  - **Correction**: Secure the hip and leg connections before changing your hand controls.
+- **Mistake**: Ignoring the free leg
+  - **Consequence**: The opponent uses it to push, frame, or help disengage.
+  - **Correction**: Track the free leg and adjust your controls as it enters the exchange.
+- **Mistake**: Holding a lost entanglement
+  - **Consequence**: The opponent’s hips move away while your controls stop containing the leg.
+  - **Correction**: Reposition your hips or release and recover guard when the connection is gone.
 
 
 </section>
@@ -374,23 +335,11 @@ Once dismissed as a fringe area of grappling, leg entanglements have become the 
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Entanglement Drilling** (Focus: Developing fundamental control mechanics, hip positioning, and connection point management across different entanglement configurations before adding submission complexity.)
-Systematic drilling of different leg entanglement positions with focus on establishing and maintaining proper control mechanics without submission attempts. Partner provides graduated resistance while practitioner focuses on position quality.
+**Contain the leg** (Focus: Maintain position without finishing pressure.)
+Start in a loose ashi garami with no submission grips. The partner slowly tries to withdraw the knee while you adjust hip and leg contact. Reset when the knee clears or control settles.
 
-**Transitional Flow Training** (Focus: Building transitional fluidity between different entanglements and developing ability to use opponent's defensive energy to improve position rather than fighting against escapes.)
-Partner-assisted drilling where defender uses specific escape attempts and attacker practices transitioning between entanglement positions based on defensive movement. Emphasizes reading defensive patterns and executing appropriate positional responses.
-
-**Entry Repetition from Live Positions** (Focus: Developing opportunity recognition and entry mechanics from realistic positions with defensive resistance, bridging gap between isolated drilling and live application.)
-Starting from various live positions (guard, passing, scrambles) and repeatedly practicing establishing leg entanglement against resistance. Partner defends entanglement entries while practitioner works on timing, recognition, and mechanical execution.
-
-**Submission Integration Practice** (Focus: Learning to balance between submission pursuit and positional maintenance, understanding when position is secure enough to attack and how to maintain control during submission attempts.)
-After establishing secure entanglement position, systematically practicing submission attacks while maintaining positional control. Focuses on layering submission threats without compromising entanglement security.
-
-**Defensive Entanglement Escape Drilling** (Focus: Understanding leg entanglement from defensive perspective to recognize vulnerabilities, improve offensive entanglement by understanding escapes, and develop complete understanding of entanglement mechanics.)
-Training from defensive perspective with partner establishing various leg entanglements and practitioner working through escape sequences. Includes recognition, prevention, and systematic escape from different entanglement configurations.
-
-**Positional Sparring from Leg Entanglement** (Focus: Applying entanglement principles under live resistance with realistic intensity while maintaining focus on specific aspects of leg entanglement rather than full open sparring.)
-Live training starting from established leg entanglement positions with specific goals (attacker maintains/improves position and submits, defender escapes). Provides realistic application while controlling starting position for focused practice.
+**Entanglement transitions** (Focus: Preserve connection during hip movement.)
+Choose two familiar entanglements with a cooperative partner. Follow one agreed hip turn into the second position without submission grips. Check both players’ leg positions, release, and reset.
 
 
 

@@ -29,6 +29,7 @@ import argparse
 import json
 import random
 import re
+import subprocess
 import sys
 import time
 from datetime import date
@@ -53,6 +54,7 @@ QUERY_BATCH = 18
 CURATE_BATCH = 12
 SEARCH_PER_QUERY = 10
 MAX_PICKS = 3
+PRINCIPLE_SHORTS_CHANNELS = ("RVVBJJ", "StephanKesting", "JordanTeachesJiujitsu", "Chewjitsu", "BJJ.Fanatics")
 CLIP_ID_RE = re.compile(CLIP_ID_PATTERN)
 
 LEGEND_GUIDANCE = """\
@@ -83,8 +85,8 @@ and write queries about DEFENDING/ESCAPING the technique, never executing it."""
 # --------------------------------------------------------------------------- #
 # Sourcing policies. "shorts" is the default (~30s motion loops). "relaxed" is
 # the rescue/top-up policy for slots where Shorts don't exist (longer focused
-# instructionals beat nothing). "principle" targets concept DEPTH: one short
-# hook + 1-2 real lectures. Policy rides on the slot (slot["policy"]) so mixed
+# instructionals beat nothing). "principle" supplements existing instructionals
+# with focused concept Shorts. Policy rides on the slot (slot["policy"]) so mixed
 # reruns keep per-slot behavior; unset means shorts.
 # --------------------------------------------------------------------------- #
 SEARCH_CAP = {"shorts": 300, "relaxed": 900, "principle": 1800}
@@ -100,10 +102,11 @@ up dry or thin). Find the best FOCUSED INSTRUCTIONAL (<= 10 minutes) of exactly 
 technique/position and role — defense slots need escape/defense instructionals. Per slot,
 exactly 2 queries: one with the legend/authority's name + technique (no "shorts"), one
 technique + role + "technique"/"instructional"/"details".""",
-    "principle": """These are BJJ PRINCIPLE/CONCEPT pages — depth beats brevity here. Per slot, exactly
-2 queries: one for a deep concept lecture/breakdown by the domain authority (Danaher-style
-seminar excerpts, 'concepts', 'principles', 'explained', 'breakdown' — 5-25 minutes), and
-one for a short punchy explainer of the same concept.""",
+    "principle": """These are BJJ PRINCIPLE/CONCEPT pages. Prefer YouTube Shorts that clearly teach
+the concept; useful longer instructionals already on the page will be retained. Per slot,
+exactly 2 queries: one with the domain authority's name + concept + "shorts", and one
+concept + "bjj" + "#shorts" or "short explainer" without an instructor restriction.
+A focused longer breakdown is acceptable when a relevant Short is unavailable.""",
 }
 
 CURATE_RULES = {
@@ -117,11 +120,13 @@ CURATE_RULES = {
   podcast/seminar-ramble. Pick 1-2.
 - Ids listed under "already used" are on the page already — NEVER re-pick them.
 - Only return an empty picks array if genuinely nothing teaches this technique/role.""",
-    "principle": """- These are CONCEPT pages: pick up to 3 total — at most ONE short hook (<=120s) plus
-  1-2 DEEP lectures/breakdowns (300-1500s) by recognized authorities. Lectures are the
-  priority; skip the hook rather than a good lecture.
-- Candidates marked [CURRENT] are already on the page — include one in your picks ONLY
-  if it deserves to stay as the short hook; your picks REPLACE the page's clips.""",
+    "principle": """- These are CONCEPT pages: pick up to 3 NEW focused explainers, prioritizing relevant
+  YouTube Shorts. Prefer the shortest clear teaching of the principle over a general
+  technique demonstration. Duration alone does not establish that a video is a Short.
+- A focused longer instructional is acceptable if no relevant Short is available.
+- Ids listed under "already used" are on the page already — NEVER re-pick them.
+  Picks SUPPLEMENT existing clips, with Shorts first and a four-clip total limit.
+- Return an empty picks array if nothing relevant is available; existing clips stay intact.""",
 }
 
 
@@ -318,14 +323,67 @@ Return JSON: {{"plans": [{{"slot", "legend", "queries": [..]}}]}} — one entry 
 # --------------------------------------------------------------------------- #
 # Stage: search (yt-dlp — real YouTube results, no LLM)
 # --------------------------------------------------------------------------- #
+def principle_shorts_candidates(channels):
+    """Read real Shorts tabs: yt-dlp's ytsearch applies a Videos-only filter.
+
+    These candidates still need relevance curation and machine verification. A
+    failed channel listing is a review note, never a reason to discard source clips.
+    """
+    candidates, errors = [], []
+    for channel in channels:
+        try:
+            proc = subprocess.run(
+                ["python3", "-m", "yt_dlp", f"https://www.youtube.com/@{channel}/shorts",
+                 "--flat-playlist", "--dump-json", "--no-warnings", "--quiet", "--playlist-end", "100"],
+                capture_output=True, text=True, timeout=90)
+            entries = []
+            for line in proc.stdout.splitlines():
+                try:
+                    entry = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if CLIP_ID_RE.match(entry.get("id") or "") and "/shorts/" in (entry.get("url") or ""):
+                    entries.append({
+                        "id": entry["id"], "title": (entry.get("title") or "")[:120],
+                        "channel": entry.get("channel") or entry.get("playlist_channel") or channel,
+                        "duration": entry.get("duration"), "view_count": entry.get("view_count"),
+                        "shorts_source": True,
+                        "vertical": any(t.get("height", 0) > t.get("width", 0) > 0
+                                        for t in entry.get("thumbnails", [])),
+                    })
+            candidates.extend(entries)
+            if not entries:
+                errors.append(f"No Shorts candidates from @{channel}; channel listing needs review.")
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            errors.append(f"Shorts listing failed for @{channel}: {type(exc).__name__}.")
+    return candidates, errors
+
+
+def rank_principle_shorts(slot, candidates):
+    """Offer a small title-matched shortlist to the curator, not automatic picks."""
+    tokens = set(re.findall(r"[a-z]+", slot["name"].lower())) - {"and", "of", "the", "principle", "principles", "approach"}
+    def score(candidate):
+        title = candidate["title"].lower()
+        return sum(token.rstrip("s") in title for token in tokens)
+    return sorted((c for c in candidates if score(c)), key=score, reverse=True)[:6]
+
+
 def stage_search(state, args):
     keys = select(state, args, {"queried"})
     print(f"[search] {len(keys)} slot(s) to search (~{args.sleep:.0f}s/query pacing)")
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    principle_shorts, shorts_errors = [], []
+    if any(slot_policy(state["slots"][k]) == "principle" for k in keys):
+        principle_shorts, shorts_errors = principle_shorts_candidates(
+            args.shorts_channel or PRINCIPLE_SHORTS_CHANNELS)
+        print(f"[search] {len(principle_shorts)} real channel Shorts candidates")
     consec_failed_slots = 0
     for i, k in enumerate(keys):
         s = state["slots"][k]
-        merged, seen, failed = [], set(), False
+        merged = rank_principle_shorts(s, principle_shorts) if slot_policy(s) == "principle" else []
+        seen, failed = {r["id"] for r in merged}, False
+        if slot_policy(s) == "principle":
+            s["review_notes"] = shorts_errors.copy()
         for q in s.get("queries", []):
             for attempt in range(3):
                 try:
@@ -399,17 +457,11 @@ def stage_curate(state, args):
             rows = "\n".join(
                 f"  [{r['id']}] {r['title']} | {r['channel'] or '?'} | "
                 f"{r['duration'] or '?'}s | {r['view_count'] or '?'} views"
+                f"{' | Shorts tab' if r.get('shorts_source') else ''}"
                 for r in results)
             existing = _existing_clips(s)
-            if pol == "principle" and existing:
-                # Existing shorts are candidates too: the curator's picks REPLACE the
-                # page, keeping at most one as the hook.
-                for c in existing:
-                    valid_ids[k].add(c["id"])
-                    rows += (f"\n  [{c['id']}] [CURRENT] {c.get('title','')} | "
-                             f"{c.get('channel') or '?'} | {c.get('duration') or '?'}s | applied")
             used_note = ""
-            if pol == "relaxed" and existing:
+            if pol in ("relaxed", "principle") and existing:
                 used_note = "\nalready used (do NOT re-pick): " + ", ".join(c["id"] for c in existing)
             blocks.append(f"### slot: {k}\nwhat: {ctx.get('role_note') or s['name']} "
                           f"(intended legend: {s.get('legend') or 'any authority'}){used_note}\n"
@@ -451,7 +503,7 @@ one entry per slot, `slot` copied verbatim."""
             if k not in state["slots"] or state["slots"][k]["status"] != "searched":
                 continue
             banned = ({c["id"] for c in _existing_clips(state["slots"][k])}
-                      if pol == "relaxed" else set())
+                      if pol in ("relaxed", "principle") else set())
             picks = []
             for p in (cur.get("picks") or [])[:MAX_PICKS]:
                 pid = p.get("id")
@@ -475,9 +527,15 @@ def stage_verify(state, args):
     for i, k in enumerate(keys):
         s = state["slots"][k]
         durations = {c["id"]: c.get("duration") for c in _existing_clips(s)}
+        portrait_shorts = set()
         if results_path(k).exists():
             with open(results_path(k), encoding="utf-8") as fh:
-                durations.update({r["id"]: r.get("duration") for r in json.load(fh)})
+                results = json.load(fh)
+            durations.update({r["id"]: r.get("duration") for r in results})
+            # The oardefault heuristic misses Shorts whose published thumbnails use
+            # oar1/oar2/oar3/hq720_1. Official Shorts-tab URLs plus portrait dimensions
+            # supply independent format evidence; oEmbed must still pass below.
+            portrait_shorts = {r["id"] for r in results if r.get("shorts_source") and r.get("vertical")}
         verified = []
         transient = False
         for p in s.get("picks", []):
@@ -503,7 +561,7 @@ def stage_verify(state, args):
             if isinstance(end, int) and end > (start or 0) and (not dur or end <= dur):
                 clip["end"] = end
                 clip.setdefault("start", 0)
-            clip["vertical"] = bool(v["vertical"])
+            clip["vertical"] = bool(v["vertical"] or p["id"] in portrait_shorts)
             if v["channel"]:
                 clip["channel"] = v["channel"]
             if isinstance(dur, int):
@@ -527,6 +585,27 @@ def stage_verify(state, args):
 def _load_content(path):
     with open(path, encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def supplement_principle_clips(existing, additions):
+    """Keep authored selections, add distinct clips, and put Shorts first (cap four).
+
+    Reserve one place for an existing longer instructional even if new Shorts could
+    fill the row. An empty sourcing result must never remove existing selections.
+    """
+    if not additions:
+        return list(existing)
+    unique, seen = [], set()
+    for clip in [*existing, *additions]:
+        if clip.get("id") and clip["id"] not in seen:
+            seen.add(clip["id"])
+            unique.append(clip)
+    ordered = sorted(unique, key=lambda c: not bool(c.get("vertical")))
+    clips = ordered[:4]
+    longer = next((c for c in existing if not c.get("vertical")), None)
+    if longer and clips and all(c.get("vertical") for c in clips):
+        clips[-1] = longer
+    return clips
 
 
 def stage_apply(state, args):
@@ -558,7 +637,8 @@ def stage_apply(state, args):
             seen = {c.get("id") for c in existing}
             clips = existing + [c for c in clips if c["id"] not in seen]
             clips = clips[:4]
-        # principle: picks REPLACE the page (curator saw [CURRENT] clips as candidates)
+        elif pol == "principle":
+            clips = supplement_principle_clips(existing, clips)
         if args.dry_run:
             print(f"[apply] DRY RUN — would write {len(clips)} clip(s) -> {k} ({pol})")
             continue
@@ -609,6 +689,7 @@ def _apply_family_hubs(state, args):
 # --------------------------------------------------------------------------- #
 def stage_report(state, args):
     from _clips import CONTENT, iter_clips_arrays
+    from html import escape
     import os
     cards, by_id = [], {}
     for f, _data, role, holder in iter_clips_arrays(args.category, args.file):
@@ -636,8 +717,35 @@ def stage_report(state, args):
     counts = {}
     for s in state["slots"].values():
         counts[s["status"]] = counts.get(s["status"], 0) + 1
+    coverage = []
+    covered = shorts = 0
+    for slot in iter_clip_slots(args.category, args.file):
+        if slot["category"] != "Principles":
+            continue
+        clips = _existing_clips(slot)
+        has_short = any(c.get("vertical") for c in clips)
+        covered += bool(clips)
+        shorts += has_short
+        st = state["slots"].get(slot["key"], {})
+        notes = list(st.get("review_notes") or [])
+        if not clips:
+            notes.insert(0, "No suitable verified video selected.")
+        elif not has_short:
+            notes.insert(0, "No verified Short selected; existing instructionals retained.")
+        if st.get("error"):
+            notes.append(st["error"])
+        coverage.append(f"<tr><td>{escape(slot['name'])}</td><td>{len(clips)}</td>"
+                        f"<td>{'yes' if has_short else 'no'}</td>"
+                        f"<td>{escape(' '.join(notes))}</td></tr>")
+    coverage_html = (f"<h2>Principle coverage</h2><p>{covered}/{len(coverage)} with video; "
+                     f"{shorts}/{len(coverage)} with a verified Short. Verification records "
+                     "describe machine checks, not a full viewing or an instructional endorsement.</p>"
+                     "<table><thead><tr><th>Principle</th><th>Clips</th><th>Short</th>"
+                     f"<th>Review notes / unresolved checks</th></tr></thead><tbody>{''.join(coverage)}</tbody></table>"
+                     if coverage else "")
     html = f"""<!doctype html><meta charset="utf-8"><title>BJJGraph clip review</title>
 <style>body{{font:14px system-ui;background:#101418;color:#dde;margin:24px}}
+table{{border-collapse:collapse;width:100%;margin-bottom:24px}}th,td{{text-align:left;padding:6px;border-bottom:1px solid #345}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}}
 .card{{background:#1a2028;border-radius:10px;padding:10px}}.card.dupe{{outline:1px solid #b90}}
 img{{width:100%;border-radius:6px}}.t{{font-weight:700;margin:6px 0 2px}}
@@ -646,6 +754,7 @@ img{{width:100%;border-radius:6px}}.t{{font-weight:700;margin:6px 0 2px}}
 <h1>Clip review — {len(cards)} clips in content JSON</h1>
 <p>Pipeline state: {json.dumps(counts)}. To prune a bad pick: delete it from the named
 content JSON file (slot key = file#role), then rerun --stage report.</p>
+{coverage_html}
 <div class="grid">{''.join(rows)}</div>"""
     WORKDIR.mkdir(exist_ok=True)
     atomic_write_text(REVIEW_PATH, html)
@@ -677,7 +786,9 @@ def main():
                          "picks APPEND); drives coverage to 100%% / min-2")
     ap.add_argument("--redo-principles", action="store_true",
                     help="reset all Principle slots to pending under the principle policy "
-                         "(1 short hook + 1-2 deep lectures REPLACE the current shorts)")
+                         "(Shorts-first supplementation; retains existing instructionals)")
+    ap.add_argument("--shorts-channel", action="append", metavar="HANDLE",
+                    help="Principle Shorts source channel handle (repeatable; defaults to established BJJ instructors)")
     ap.add_argument("--relax-cap", type=int, default=None,
                     help="override the relaxed policy's search duration cap in seconds "
                          "(default 900; use 1800 for the final rescue round)")
@@ -707,13 +818,15 @@ def main():
         for k, s in state["slots"].items():
             if s["category"] != "Principles":
                 continue
+            if args.file and args.file.lower() not in s["file"].lower():
+                continue
             for field in ("queries", "picks", "verified_picks", "n_results", "applied", "error"):
                 s.pop(field, None)
             s["status"] = "pending"
             s["policy"] = "principle"
             results_path(k).unlink(missing_ok=True)
             n += 1
-        print(f"[redo-principles] reset {n} principle slot(s) (lecture policy)")
+        print(f"[redo-principles] reset {n} principle slot(s) (Shorts-first supplementation)")
     if args.redo_empty:
         n = 0
         for k, s in state["slots"].items():

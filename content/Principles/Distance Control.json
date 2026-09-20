@@ -1,6 +1,6 @@
 {
   "name": "Distance Control",
-  "description": "Manage distance in BJJ from either role: create space to escape, close it to connect and pin, and change range for guard play, passing, takedowns, and submissions.",
+  "description": "Distance control manages the space between players so you can enter, defend, pin, or escape at a useful range.",
   "tags": [
     "bjj",
     "principle",
@@ -15,18 +15,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Distance Control is the management of space between players: create room to move and recover, close it to connect and pin, and change it to enter or deny attacks. The useful distance depends on the objective, from standing exchanges through guard play, passing, and submissions.",
-  "overview": "Distance control means choosing how close each part of your body should be to the opponent for the current task. A guard player may extend frames to keep the passer away, then close distance to attach for a sweep. A passer removes the space that allows knees and elbows to reconnect, yet may first disengage to clear hooks. An attacker closes gaps around a controlled limb or neck, while the defender tries to restore enough space to recover alignment and escape. Neither maximum separation nor maximum contact is always correct. Manage distance together with angles, grips, and timing, and change the distance as your objective changes. Both participants influence the same space, so the principle applies equally to maintaining control and dismantling it.",
+  "summary": "Distance control is managing the space between you and an opponent to enter attacks, maintain control, or create an escape.",
+  "overview": "Decide whether the next action needs more space or closer contact. Use frames, grips, and hip movement together, then occupy an opening before the opponent closes it.",
   "key_principles": [
-    "Create or close space according to the objective; distance control serves attack and defense from either side",
-    "Space is created in increments, not all at once - progressive distance generation is more effective than explosive attempts",
-    "The opponent's weight transitions and base adjustments create windows for space creation",
-    "Hip mobility is the engine of space creation - shoulders frame, hips escape",
-    "Breathing room must be secured before attempting positional escapes",
-    "Multiple space creation attempts may be necessary - persistence and timing matter more than single explosive efforts",
-    "Frame angles must be constantly adjusted as the opponent adapts their pressure",
-    "Space created must be immediately utilized or it will be recovered by the opponent",
-    "Different positions require different space creation mechanics - mount requires bridging, side control requires shrimping"
+    "Choose distance for the action you want next.",
+    "Use frames to preserve space and connections to close it.",
+    "Move your hips instead of pushing only with the arms.",
+    "Use newly created space before the opponent follows."
   ],
   "component_skills": [
     {
@@ -117,63 +112,19 @@
   "application_contexts": [
     {
       "context": "Mount",
-      "how_applied": "Space creation from bottom mount primarily uses bridging to elevate the opponent's hips combined with hip escape to create lateral distance. The bottom practitioner frames against the opponent's hips or chest while explosively bridging, then immediately shrimps to prevent the mount from being re-established. Multiple bridge-and-shrimp cycles are typically necessary."
+      "how_applied": "A bridge and hip escape can create enough room for the bottom player to insert a knee."
     },
     {
       "context": "Side Control",
-      "how_applied": "From bottom side control, space creation relies heavily on shoulder frames against the opponent's neck and hip while shrimping the hips away. The practitioner creates initial breathing room by framing, then progressively escapes the hips to create enough distance to insert a knee shield or recover full guard. Timing the escape during the opponent's weight transitions is critical."
+      "how_applied": "Frames preserve a gap while the bottom player moves the hips away."
     },
     {
       "context": "Back Control",
-      "how_applied": "Space creation from back control focuses on creating distance between the chest and the opponent's chest to prevent the choking arm from connecting to the choking hand. This involves tucking the chin, hand fighting the choking attempts, and using hip escape mechanics to slide the hips away from the opponent's hooks while simultaneously working to strip the seatbelt grip."
+      "how_applied": "Hand fighting and hip movement work together to loosen the opponent’s connection."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Under knee on belly pressure, space creation requires framing against both the knee and the opponent's upper body while shrimping the hips toward the direction of the knee. The initial frame creates separation at the upper body, allowing the hips to escape and potentially trap the posted leg or create enough distance to turtle or re-guard."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "From bottom north-south, space creation utilizes bridging mechanics to elevate the opponent combined with immediate hip rotation to create angular distance. Because the opponent's weight is distributed along the centerline, bridges must be accompanied by rotation to prevent the opponent from simply settling back down in the same position."
-    },
-    {
-      "context": "Kesa Gatame",
-      "how_applied": "Space creation from kesa gatame involves bridging toward the opponent's head while simultaneously using the near-side arm to create a frame against their far hip. The bridge disrupts their base while the frame prevents them from following the movement. Hip escape is then used to create lateral distance and potentially recover guard or escape to turtle."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "From turtle, space creation focuses on creating distance between the hips and heels to prevent opponent flattening. This involves maintaining the tripod base structure while using subtle weight shifts and base widening to prevent the opponent from collapsing the position. Space is also created through active posting and base recovery when opponent attempts to break structure."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "In half guard, space creation involves using the lockdown or butterfly hook to prevent opponent's hip pressure while framing against their upper body. The bottom player creates distance by shrimping the hips away from the trapped leg side, allowing for underhook battles, deep half entries, or sweep attempts. The space created enables offensive action from what could be a defensive position."
-    },
-    {
-      "context": "Closed Guard",
-      "how_applied": "While closed guard is typically an offensive position, space creation becomes relevant when the opponent establishes strong posture or begins to pass. The guard player creates space by opening the guard strategically, using hip movement to maintain distance, and employing frames to prevent the opponent from settling into passing position."
-    },
-    {
-      "context": "Deep Half Guard",
-      "how_applied": "Space creation in deep half guard involves creating vertical distance by elevating the opponent's hips using the deep half hook and shoulder positioning. This elevation creates the space necessary for rolling under sweeps or transitions to other guard positions. The concept here inverts the typical lateral space creation model."
-    },
-    {
-      "context": "High Mount",
-      "how_applied": "From bottom high mount, space creation becomes more difficult due to the opponent's elevated position. The defender must use forearm frames against the opponent's hips while performing smaller, more frequent bridge-and-shrimp movements to gradually work back to regular mount position before executing full escapes."
-    },
-    {
-      "context": "Technical Mount",
-      "how_applied": "Under technical mount control, space creation focuses on preventing the opponent from transitioning to full mount or armbar. The bottom player uses the trapped arm to create frames while the free arm establishes distance, all while working to extract the trapped arm and recover to a more defensible position."
-    },
-    {
-      "context": "Crucifix",
-      "how_applied": "Space creation from crucifix is extremely challenging due to the opponent's arm control. The defender must focus on creating space with the legs by hip escaping away from the opponent's body weight, while simultaneously working to free at least one arm to establish frames and continue the escape sequence."
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "In butterfly guard, space creation is used defensively when the opponent establishes strong overhooks or begins to flatten the position. The guard player creates space by actively using butterfly hooks to elevate and create distance, while frames prevent forward pressure and maintain the structural integrity of the position."
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "Space creation in open guard involves using frames with hands and feet to maintain distance and prevent the opponent from settling into passing positions. The guard player constantly adjusts hip position to maintain optimal distance—close enough to threaten sweeps and submissions, far enough to prevent being smashed flat."
+      "how_applied": "Frames and hip movement create room to move away from the controlling knee."
     }
   ],
   "decision_framework": [
@@ -220,71 +171,31 @@
   ],
   "common_errors": [
     {
-      "error": "Attempting to create space without first establishing frames",
-      "consequence": "Hip movement without frames results in the opponent simply following the movement while maintaining full compression. Energy is expended with no distance gained.",
-      "correction": "Always establish at least one structural frame before initiating hip escape. The frame creates a pivot point around which the hips can move and prevents opponent from maintaining contact during the escape."
+      "error": "Moving without frames",
+      "consequence": "The opponent follows and removes the gap.",
+      "correction": "Establish a useful frame before moving the hips."
     },
     {
-      "error": "Using pure strength to push opponent away rather than using leverage and timing",
-      "consequence": "Strength-based space creation rapidly exhausts the defender and is easily countered by the opponent settling their weight. Once fatigued, the defender has no energy for subsequent escape attempts.",
-      "correction": "Focus on timing space creation during opponent weight shifts and using proper leverage through correct frame angles. Wait for the right moment rather than forcing the movement."
+      "error": "Creating space without using it",
+      "consequence": "The opening closes before you improve position.",
+      "correction": "Move a knee, hip, or frame into the space immediately."
     },
     {
-      "error": "Creating space but not immediately utilizing it",
-      "consequence": "Any space created is quickly recovered by the opponent who simply follows the hip movement or adjusts their pressure. The opportunity window closes within 1-2 seconds.",
-      "correction": "Have a clear plan for what to do with created space before initiating the movement. As soon as distance is generated, immediately insert knee, establish guard, or continue escape sequence."
-    },
-    {
-      "error": "Attempting to create all necessary space in one explosive movement",
-      "consequence": "Large explosive movements are telegraphed and easily countered by the opponent. Additionally, they require significant energy and rarely generate sufficient space against aware opponents.",
-      "correction": "Create space progressively through multiple smaller movements. First create breathing room, then hip mobility, then escape paths. Each increment makes the next easier and more effective."
-    },
-    {
-      "error": "Flat hips and poor hip positioning during shrimp attempts",
-      "consequence": "Shrimping with flat hips generates minimal distance as there is no leverage from which to drive the movement. The escape becomes a weak sliding motion rather than powerful hip displacement.",
-      "correction": "Turn to the side (create hip angle) before shrimping. One shoulder should be significantly lower than the other, creating the angle from which powerful hip escape can be generated."
-    },
-    {
-      "error": "Bridging without directional component toward opponent's weak side",
-      "consequence": "Bridging straight up allows the opponent to simply settle back down in the same position. No positional advantage is gained despite energy expenditure.",
-      "correction": "Bridge at an angle toward the opponent's weak side (usually toward their head or toward the side where their base is narrower). The angular bridge disrupts their base and creates opportunity for escape."
-    },
-    {
-      "error": "Giving up after first space creation attempt fails",
-      "consequence": "Single attempts rarely succeed against skilled opponents. Mental surrender after one failed attempt guarantees being held in inferior positions indefinitely.",
-      "correction": "Understand that multiple attempts are normal and necessary. Each attempt teaches information about opponent's reactions and creates small amounts of fatigue in their system. Persistence is key."
+      "error": "Always trying to move farther away",
+      "consequence": "You can lose a useful grip or the connection needed to attack.",
+      "correction": "Choose distance according to the next task."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Progressive Resistance Escape Drilling",
-      "description": "Partner starts in controlling position with agreed resistance level (0-100%). Defender practices space creation techniques with partner gradually increasing resistance over weeks. Start with compliant partner, progress to 50% resistance, then 75%, finally full resistance.",
-      "focus": "Building proper mechanics and timing sense before adding the complication of full resistance. Allows repetition volume necessary for motor pattern development."
+      "approach_name": "Make and occupy a gap",
+      "description": "From light side control with a cooperative partner, frame and hip escape, then place a knee in the gap. Pause to check the space and reset.",
+      "focus": "Turn space into a positional improvement."
     },
     {
-      "approach_name": "Positional Sparring from Inferior Positions",
-      "description": "Begin rounds with one partner in fully established top control (mount, side control, etc.) while bottom partner focuses exclusively on space creation and escape. Reset and repeat when escape succeeds. Track success rate and time to escape.",
-      "focus": "Realistic application of space creation under pressure. Develops the ability to recognize weight transition windows and execute space creation techniques against resisting opponents in game-like conditions."
-    },
-    {
-      "approach_name": "Distance Control Movement Drills (Solo and Partner)",
-      "description": "Dedicated drill sessions focusing on fundamental movements: shrimping sequences, bridging mechanics, granby rolls, technical standup patterns. Perform high-volume repetitions both solo and with partner providing moderate resistance.",
-      "focus": "Pure movement quality and efficiency. Develops the physical capacity and motor patterns necessary for explosive, precise space creation without the cognitive load of full sparring."
-    },
-    {
-      "approach_name": "Timed Escape Challenges",
-      "description": "Partner establishes control position. Defender has specific time limit (30 seconds, 60 seconds) to create space and escape. Track success rates at different time intervals. Vary starting positions and resistance levels.",
-      "focus": "Developing urgency and efficiency in space creation. Builds mental toughness and the ability to work calmly under pressure. Creates measurable progression metrics."
-    },
-    {
-      "approach_name": "Frame Fighting Isolation Drills",
-      "description": "Specific drilling focused only on establishing and maintaining frames against opponent pressure. Partner attempts to collapse frames while defender works to maintain structural integrity. Progress to combining frame maintenance with hip escape.",
-      "focus": "Isolated development of frame construction skills separate from escape mechanics. Builds understanding of proper frame angles, elbow positioning, and how to maintain frames under dynamic pressure."
-    },
-    {
-      "approach_name": "Reaction-Based Distance Control",
-      "description": "Partner in top position is instructed to transition between different pressure applications or attempt to advance position. Defender must recognize the weight shift or transition and immediately capitalize with space creation attempt. Emphasizes timing over technique.",
-      "focus": "Developing the sensitivity and reaction speed necessary to capitalize on momentary windows of opportunity. Trains the recognition of weight transitions that create space creation opportunities."
+      "approach_name": "Open-and-close exchange",
+      "description": "From open guard, move slowly between longer frames and closer connections. Name the attack or defense each range supports, then reset when contact is lost.",
+      "focus": "Choose range deliberately."
     }
   ],
   "developmental_metrics": [
@@ -516,13 +427,21 @@
   ],
   "clips": [
     {
+      "id": "pawETVGdcGM",
+      "title": "Managing distance in self-defense",
+      "by": "Gracie Breakdown",
+      "vertical": true,
+      "channel": "GracieBreakdown",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "zJhskfuh8Ts",
       "title": "Using the frame to manage distance",
       "by": "MMA Academy Online",
       "vertical": false,
       "channel": "MMA ACADEMY ONLINE",
       "duration": 56,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "TjGVpKRUUWc",
@@ -531,7 +450,7 @@
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 819,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "cdV5cRGYsyA",
@@ -540,7 +459,7 @@
       "vertical": false,
       "channel": "Jordan Teaches Jiujitsu",
       "duration": 513,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

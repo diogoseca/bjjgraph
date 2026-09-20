@@ -4,7 +4,7 @@
 
 ---
 title: "Control Point Hierarchy | BJJ Principle | BJJ Graph"
-description: "Master control point hierarchy in BJJ. Learn systematic control acquisition, position-specific priorities, and progressive dominance building across all positions."
+description: "Control point hierarchy helps you choose which grip or contact matters most for the current position, attack, or escape."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Control Point Hierarchy",
-  "description": "Master control point hierarchy in BJJ. Learn systematic control acquisition, position-specific priorities, and progressive dominance building across all positions.",
+  "description": "Control point hierarchy helps you choose which grip or contact matters most for the current position, attack, or escape.",
   "url": "https://bjjgraph.org/Principles/Control-Point-Hierarchy",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting to establish multiple control points simultaneously without securing any individual control first?",
+      "name": "What is a common mistake in Treating all grips as equal?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Results in weak, easily broken control where opponent can escape because no single control point is properly established. Creates scrambles where neither practitioner has clear control. The correction is: Focus on establishing one high-value control point completely before attempting to add secondary controls. Build control progressively rather than attempting to establish everything at once."
+        "text": "You defend a minor contact while losing an important one. The correction is: Ask which contact actually blocks the movement you need."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Pursuing submission attempts before achieving sufficient control point density?",
+      "name": "What is a common mistake in Reaching for several controls at once?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent easily defends or escapes submission attempts because foundational control is inadequate. Often results in losing dominant position entirely while chasing low-percentage submissions. The correction is: Follow position-over-submission principle by systematically establishing required control points before attempting finishes. Recognize specific control prerequisites for each submission type."
+        "text": "None becomes secure enough to support the next step. The correction is: Establish one contact, then build from it."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Treating all control points as equally valuable within a position?",
+      "name": "What is a common mistake in Confusing contact with control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wastes energy and creates opportunities for opponent by fighting for low-value controls while neglecting high-value controls. Results in apparent control that lacks practical dominance. The correction is: Study position-specific control hierarchies to understand which grips and controls matter most. Prioritize efforts toward high-value controls and willingly sacrifice low-value controls when necessary."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to recognize when control points are contested versus fully established?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prematurely advancing to next level of control while current control remains contested, allowing opponent to break free or reverse position during the transition. The correction is: Consolidate contested control points before attempting advancement. Use pressure, base adjustment, and grip fighting to convert contested controls into fully established controls before progression."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring defensive control point hierarchy when bottom or defensive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Expends energy defending low-value control points while allowing opponent to establish critical controls. Results in progressive dominance by opponent leading to submission or pin. The correction is: Understand inverted hierarchy from defensive perspective - prioritize preventing head control, underhooks, and other high-value controls even if it means conceding less important control points."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Dispersing control across many body parts instead of concentrating control density?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates appearance of control without actual dominance, as opponent can escape by defeating any single weak control point. Lacks the compound effect of concentrated control. The correction is: Concentrate multiple control points on strategic body parts (head and one arm, both arms, hips and one arm). Recognize that three controls on two body parts exceeds six controls dispersed across six body parts."
+        "text": "A hand touches the target but does not restrict movement. The correction is: Test the intended movement gently before upgrading the grip."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Control Point Hierarchy",
-  "description": "Control Point Hierarchy is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, telling you which controls to prioritize, upgrade, and defend.",
+  "description": "Control point hierarchy ranks the grips and contacts that matter most for a particular position, attack, or escape.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -205,13 +181,9 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
 
 ## What is Control Point Hierarchy?
 
-**Control Point Hierarchy is the ranking of grips, frames, and contact points within a position by how much positional dominance and submission access each provides, telling you which controls to prioritize, upgrade, and defend.**
+**Control point hierarchy ranks the grips and contacts that matter most for a particular position, attack, or escape.**
 
-Control Point Hierarchy is a systematic framework for understanding and applying positional dominance in Brazilian Jiu-Jitsu. This concept organizes the progression of control from minimal contact to complete submission control, providing practitioners with a clear roadmap for advancing position and maintaining dominance. The hierarchy recognizes that certain control points provide greater positional advantage and submission opportunities than others, allowing practitioners to prioritize their efforts and make strategic decisions during live rolling and competition.
-
-The fundamental principle underlying Control Point Hierarchy is that not all control points are created equal. A practitioner who controls the opponent's head and one arm from side control has significantly more control than one who merely has chest-to-chest pressure. By understanding which control points matter most in each position, practitioners can efficiently advance their position while preventing opponents from escaping or countering. This systematic approach transforms grappling from random scrambling into intelligent, progressive control.
-
-Mastery of Control Point Hierarchy requires understanding both the offensive and defensive implications of each control point. Offensively, practitioners learn to recognize which control points unlock specific attacks and position advancements. Defensively, they understand which control points must be defended at all costs to prevent submission or positional advancement. This dual understanding creates a chess-like approach to grappling where every grip, frame, and position has strategic significance within the broader hierarchy of control.
+Identify the movement you need to stop, then choose a control that stops it. Head, hip, and arm controls have different value as the position and immediate threat change.
 
 </section>
 
@@ -246,15 +218,10 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Control points have hierarchical value - certain grips and positions provide exponentially more control than others
-- Progressive control advancement - systematically upgrade control points rather than attempting to skip levels
-- Multiple simultaneous control points create compound dominance that exceeds the sum of individual controls
-- Head control typically represents the highest-value control point across most positions
-- Hip control enables mobility management and submission setup in both top and bottom positions
-- Arm control opens submission pathways while limiting opponent's defensive capabilities
-- Control point density matters - concentrating multiple controls on fewer body parts creates greater dominance than dispersed control
-- Defensive priority inverts the hierarchy - preventing high-value control points becomes paramount
-- Control point transitions follow predictable patterns that can be anticipated and countered
+- Prioritize the control that addresses the immediate threat.
+- Secure one useful contact before upgrading it.
+- Combine controls that limit different escape routes.
+- On defense, clear the contact that most restricts your next movement.
 
 
 </section>
@@ -285,35 +252,13 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: In mount, the hierarchy prioritizes head control (gable grip, palm-to-palm, or cross-collar grips), followed by hip control (high mount positioning), then arm isolation. Each control point incrementally increases submission opportunities while decreasing escape potential.
+**Mount**: Establish control of the torso before committing your hands to arm isolation.
 
-**Back Control**: Back control hierarchy emphasizes seatbelt control (arm across chest), then second hook establishment, then head control for finishing. The progression from single hook to double hooks to head isolation represents clear hierarchical advancement toward submission.
+**Back Control**: Keep chest and seatbelt connection while improving leg control or hand position.
 
-**Side Control**: Side control hierarchy begins with chest pressure and hip connection, advances to head control (crossface or underhook), then far arm control. This progression systematically eliminates escape routes while opening submission pathways.
+**Side Control**: Coordinate hip and upper-body controls before freeing a hand to attack.
 
-**Knee on Belly**: Knee on belly prioritizes far arm control to prevent opponent turning away, combined with near arm control or collar grip. The hierarchy recognizes that controlling the far arm is more valuable than simply maintaining knee pressure.
-
-**North-South**: North-south hierarchy emphasizes head control and shoulder pressure, then transitions to arm control or kimura grips. The progression recognizes that head control prevents escape before submission control can be safely established.
-
-**Closed Guard**: From bottom closed guard, hierarchy inverts - preventing opponent's posture control and head control becomes paramount. Progressive control acquisition focuses on breaking posture, controlling sleeves or wrists, then advancing to head or back control.
-
-**Half Guard**: Half guard hierarchy prioritizes underhook control as the highest value, followed by head control or whizzer defense. The underhook represents the gateway to sweeps and back takes, making it the primary control point objective.
-
-**Front Headlock**: When attacking turtle via the front headlock, hierarchy prioritizes seatbelt control or far arm control, then transitions to back control or chin-strap. Each control point represents progressive dominance and submission opportunity escalation.
-
-**Technical Mount**: Technical mount emphasizes arm triangle control points or direct arm control, with the trapped arm representing the highest-value control. This position demonstrates how control density creates submission opportunities from partial positions.
-
-**Crucifix**: Crucifix represents near-perfect control point hierarchy execution with both arms controlled and back control established. This position illustrates the apex of hierarchical control where submissions become extremely high percentage.
-
-**3-4 Mount**: S-mount style hierarchy prioritizes the trapped near arm, then transitions to head control for armbar finishing. The position demonstrates how upgrading from standard mount to a leg-over configuration represents hierarchical advancement.
-
-**Kesa Gatame**: Kesa Gatame emphasizes head control combined with far arm control, with the hierarchy recognizing that controlling both simultaneously creates submission opportunities while preventing escape routes.
-
-**Deep Half Guard**: From deep half guard bottom, the hierarchy prioritizes securing the lockdown or outside leg hook, then establishing shoulder control or underhook to enable sweeps and back takes from this unconventional position.
-
-**Reverse X-Guard**: X-guard style hierarchy focuses on establishing both hooks controlling the opponent's leg and hip, then controlling the sleeve or collar to break posture. This creates the control density needed for powerful sweeps and transitions.
-
-**Inside Ashi-Garami**: Ashi garami positions prioritize controlling the trapped leg at multiple points (ankle, knee, hip), then establishing upper body control through grips. The hierarchical leg control enables leg lock attacks while preventing escapes.
+**North-South**: Keep shoulder and head movement contained while transitioning toward an arm control.
 
 
 
@@ -337,27 +282,15 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting to establish multiple control points simultaneously without securing any individual control first
-  - **Consequence**: Results in weak, easily broken control where opponent can escape because no single control point is properly established. Creates scrambles where neither practitioner has clear control.
-  - **Correction**: Focus on establishing one high-value control point completely before attempting to add secondary controls. Build control progressively rather than attempting to establish everything at once.
-- **Mistake**: Pursuing submission attempts before achieving sufficient control point density
-  - **Consequence**: Opponent easily defends or escapes submission attempts because foundational control is inadequate. Often results in losing dominant position entirely while chasing low-percentage submissions.
-  - **Correction**: Follow position-over-submission principle by systematically establishing required control points before attempting finishes. Recognize specific control prerequisites for each submission type.
-- **Mistake**: Treating all control points as equally valuable within a position
-  - **Consequence**: Wastes energy and creates opportunities for opponent by fighting for low-value controls while neglecting high-value controls. Results in apparent control that lacks practical dominance.
-  - **Correction**: Study position-specific control hierarchies to understand which grips and controls matter most. Prioritize efforts toward high-value controls and willingly sacrifice low-value controls when necessary.
-- **Mistake**: Failing to recognize when control points are contested versus fully established
-  - **Consequence**: Prematurely advancing to next level of control while current control remains contested, allowing opponent to break free or reverse position during the transition.
-  - **Correction**: Consolidate contested control points before attempting advancement. Use pressure, base adjustment, and grip fighting to convert contested controls into fully established controls before progression.
-- **Mistake**: Ignoring defensive control point hierarchy when bottom or defensive
-  - **Consequence**: Expends energy defending low-value control points while allowing opponent to establish critical controls. Results in progressive dominance by opponent leading to submission or pin.
-  - **Correction**: Understand inverted hierarchy from defensive perspective - prioritize preventing head control, underhooks, and other high-value controls even if it means conceding less important control points.
-- **Mistake**: Dispersing control across many body parts instead of concentrating control density
-  - **Consequence**: Creates appearance of control without actual dominance, as opponent can escape by defeating any single weak control point. Lacks the compound effect of concentrated control.
-  - **Correction**: Concentrate multiple control points on strategic body parts (head and one arm, both arms, hips and one arm). Recognize that three controls on two body parts exceeds six controls dispersed across six body parts.
-- **Mistake**: Maintaining static control without progressive advancement through hierarchy
-  - **Consequence**: Stalls in positions without advancing toward submission or superior position. Allows opponent time to develop escapes, burns energy maintaining position without productive advancement.
-  - **Correction**: Continuously work to upgrade control points even from dominant positions. View each position as temporary waypoint in progressive control advancement rather than final destination.
+- **Mistake**: Treating all grips as equal
+  - **Consequence**: You defend a minor contact while losing an important one.
+  - **Correction**: Ask which contact actually blocks the movement you need.
+- **Mistake**: Reaching for several controls at once
+  - **Consequence**: None becomes secure enough to support the next step.
+  - **Correction**: Establish one contact, then build from it.
+- **Mistake**: Confusing contact with control
+  - **Consequence**: A hand touches the target but does not restrict movement.
+  - **Correction**: Test the intended movement gently before upgrading the grip.
 
 
 </section>
@@ -365,23 +298,11 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Sparring with Control Point Constraints** (Focus: Develops recognition of which control points unlock advancement and how to systematically pursue them under resistance. Builds defensive awareness of critical control points to defend.)
-Practice specific positions (mount, side control, back control) where each partner focuses explicitly on acquiring/denying specific control points within the hierarchy. Reset whenever key control point is lost or gained.
+**Gain or clear one control** (Focus: Recognize a control’s value.)
+From side control, agree on one important contact. The top player establishes it while the bottom player clears it at light resistance; reset when either succeeds.
 
-**Progressive Control Drilling** (Focus: Ingrains the sequential nature of control advancement and proper mechanics for transitioning between control levels while maintaining previously established controls.)
-Start from neutral position and systematically work through control point hierarchy with cooperative partner. Example: side control progression from initial chest pressure to crossface to head control to arm isolation to submission position.
-
-**Control Point Identification Analysis** (Focus: Develops pattern recognition for control point hierarchies and understanding of how elite practitioners systematically build control rather than randomly acquiring grips.)
-Review footage of high-level matches or personal rolling footage specifically analyzing control point acquisition sequences. Map out which controls practitioners establish and in what order before successful submissions or position advancements.
-
-**Hierarchy-Based Position Maintenance** (Focus: Builds ability to recognize when control points are threatened and respond appropriately. Develops understanding of which controls are weight-bearing for overall positional control.)
-Maintain dominant positions (mount, back control, side control) against progressively resistant partners while explicitly verbalizing which control points you're maintaining. Partner works to break specific controls in hierarchical order.
-
-**Inverted Hierarchy Escape Drilling** (Focus: Develops defensive understanding of control point hierarchy and strategic allocation of defensive resources toward preventing most dangerous controls first.)
-From bottom positions, practice escape sequences that prioritize preventing or breaking opponent's highest-value control points. Example: side control escape beginning with preventing crossface rather than attempting to shrimp immediately.
-
-**Control Density Experiments** (Focus: Empirically demonstrates superiority of concentrated control density over dispersed control, reinforcing concept that control point selection matters more than control point quantity.)
-Compare maintenance of position with dispersed control (six different grip/contact points) versus concentrated control (three grips on head and one arm). Test which configuration provides greater actual control against resistance.
+**Control sequence walkthrough** (Focus: Choose the next useful control.)
+With a cooperative partner, move through a familiar pin-to-attack setup. At each step, name what the new contact prevents; stop before submission pressure and reset.
 
 
 

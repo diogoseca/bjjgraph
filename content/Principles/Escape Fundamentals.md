@@ -4,7 +4,7 @@
 
 ---
 title: "Escape Fundamentals | BJJ Principle | BJJ Graph"
-description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space creation, angle generation, and position recovery across all defensive scenarios."
+description: "Escape fundamentals combine threat defense, frames, hip movement, and guard recovery to build a route out of a pin."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Escape Fundamentals",
-  "description": "Master Escape Fundamentals in BJJ. Learn systematic framing, space creation, angle generation, and position recovery across all defensive scenarios.",
+  "description": "Escape fundamentals combine threat defense, frames, hip movement, and guard recovery to build a route out of a pin.",
   "url": "https://bjjgraph.org/Principles/Escape-Fundamentals",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting explosive single-movement escapes without establishing frames first?",
+      "name": "What is a common mistake in Trying one explosive movement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates energy expenditure without structural foundation, allowing opponent to easily reestablish control after brief disruption. Results in rapid fatigue and progressively diminishing escape attempts. The correction is: Always establish frames before attempting dynamic movement. Build escape through sequential stages: frame, space, angle, recover. Coordinate explosive effort with proper structural positioning rather than using explosion as substitute for technique."
+        "text": "The pin remains because its controls have not been addressed. The correction is: Build a frame and an angle before the larger movement."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Maintaining flat body position instead of turning to face opponent?",
+      "name": "What is a common mistake in Pushing with isolated arms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to maintain full pressure application and control over both shoulders. Prevents effective hip escape and makes guard recovery extremely difficult. Increases submission vulnerability significantly. The correction is: Immediately begin turning to face opponent as part of escape mechanics. Create perpendicular or angular alignment rather than accepting flat positioning. Use frames to facilitate rotation while protecting against submissions."
+        "text": "The arms tire and become available to attack. The correction is: Connect frames to your torso and move with your hips."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using isolated limb strength instead of whole-body mechanics?",
+      "name": "What is a common mistake in Stopping when the opponent adjusts?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates rapid arm fatigue as frames collapse under sustained pressure. Wastes energy on ineffective pushing that opponent easily counters with weight distribution. Leads to frame collapse and position deterioration. The correction is: Drive frame pressure from hip movement and core rotation rather than arm strength alone. Coordinate upper and lower body to create unified escape system. Use skeletal structure and leverage rather than muscular effort as primary force generation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Abandoning escape attempt when opponent adjusts position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to consolidate control between escape attempts, making subsequent escapes progressively more difficult. Creates pattern of isolated rather than continuous defensive pressure. The correction is: Maintain constant escape pressure even when opponent counters initial attempt. Transition immediately to alternative escape pathway when primary route is blocked. View escape as continuous process rather than discrete attempts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Focusing solely on position improvement while ignoring submission threats?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Results in submission while attempting escape, as defensive priorities are misaligned. Creates dangerous situations where escape attempt actually facilitates opponent's submission opportunities. The correction is: Maintain submission awareness throughout escape process. Protect vulnerable areas (neck, arms, legs) while simultaneously working toward position improvement. Adjust escape pathway if submission threat becomes immediate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Escaping without clear destination or guard recovery plan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates space and angles but fails to capitalize by recovering specific guard position. Allows opponent to reestablish control in created space as practitioner lacks clear transition objective. The correction is: Identify target guard position before initiating escape sequence. Work toward specific recovery objective (closed guard, half guard, etc.) throughout escape process. Complete escape only when improved position is actually established."
+        "text": "The opponent settles into the new pin. The correction is: Rebuild the frame and continue from the improved space."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Escape Fundamentals",
-  "description": "Escape Fundamentals are the universal mechanical principles—framing, space creation, angle generation, and sequential position recovery—that govern how a practitioner systematically defends and regains advantage from any inferior or pinned position in BJJ.",
+  "description": "Escape fundamentals are the shared steps of protecting vulnerable areas, building frames, making space, and recovering a safer position.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Forearms versus hands when escaping tight positions",
+      "description": "Escape Fundamentals film study: Forearms versus hands when escaping tight positions, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9PSw0CLEbFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9PSw0CLEbFw",
+      "url": "https://www.youtube.com/watch?v=9PSw0CLEbFw",
+      "creator": { "@type": "Person", "name": "Nick Albin" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Key detail for escaping mount bottom",
       "description": "Escape Fundamentals film study: Key detail for escaping mount bottom, taught by SBG PDX.",
       "thumbnailUrl": "https://i.ytimg.com/vi/g0G7LYfW9Y8/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The one principle behind every side control escape",
       "description": "Escape Fundamentals film study: The one principle behind every side control escape, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JiqEETm20Wo/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "The first five escapes you need to know",
       "description": "Escape Fundamentals film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master Escape Fundamentals in BJJ. Learn systematic framing, space
 
 ## What are Escape Fundamentals?
 
-**Escape Fundamentals are the universal mechanical principles—framing, space creation, angle generation, and sequential position recovery—that govern how a practitioner systematically defends and regains advantage from any inferior or pinned position in BJJ.**
+**Escape fundamentals are the shared steps of protecting vulnerable areas, building frames, making space, and recovering a safer position.**
 
-Across every defensive scenario in BJJ, escape success is not random—it follows repeatable biomechanical patterns that separate practitioners who reliably survive bad positions from those who get submitted. Unlike specific escape techniques tied to a single pin, escape fundamentals are comprehensive conceptual guidelines that apply across all defensive scenarios and determine overall defensive capability. This concept encompasses the biomechanical understanding that successful escapes follow predictable patterns: creating frames, generating space, creating angles, and transitioning to improved positions through sequential movements. Escape fundamentals serve as both an immediate survival mechanism enabling defense against submissions and a long-term strategic framework for escaping dominant positions. The ability to apply escape fundamentals consistently under pressure often determines defensive success and overall BJJ survivability, making it one of the most essential conceptual elements for practitioners at all levels.
+Remove the control that blocks your next movement rather than trying to move your whole body at once. Use each small opening to rebuild a frame, insert a knee, or turn toward recovery.
 
 </section>
 
@@ -229,6 +215,14 @@ Across every defensive scenario in BJJ, escape success is not random—it follow
 
 <p class="section-subtitle">Watch Escape Fundamentals in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=9PSw0CLEbFw)
+
+<p class="clip-credit"><strong>Forearms versus hands when escaping tight positions</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=9PSw0CLEbFw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Across every defensive scenario in BJJ, escape success is not random—it follow
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Establish frames immediately as first defensive priority to create structural barriers
-- Generate space between bodies through hip movement and frame pressure
-- Create angles perpendicular to opponent's pressure to redirect force
-- Move sequentially through escape stages rather than attempting single-movement escapes
-- Protect vulnerable areas (neck, arms) while executing escape mechanics
-- Conserve energy by using leverage and timing rather than explosive effort alone
-- Create continuous escape pressure rather than isolated escape attempts
-- Transition to improved guard positions rather than standing or neutral positions when appropriate
-- Recognize that escapes succeed through disrupting multiple aspects of opponent's control simultaneously
+- Protect the neck and isolated limbs before moving.
+- Build a frame that supports the intended escape.
+- Move your hips to make a useful angle and gap.
+- Recover position in stages and retain each improvement.
 
 
 </section>
@@ -300,37 +289,13 @@ Across every defensive scenario in BJJ, escape success is not random—it follow
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: Escape fundamentals manifest through establishing frames across opponent's hips and chest, creating space via hip bridge and elbow escape, generating angles to insert knee shield, and recovering to half guard or closed guard through sequential movements.
+**Mount**: Frame, create a weight shift, and use hip movement to bring a knee into the space.
 
-**Side Control**: Applied by constructing frames using forearms against opponent's neck and hip, shrimping to create hip distance, turning to face opponent while maintaining frames, and recovering guard through insertion of knee shield or butterfly hooks.
+**Side Control**: Upper-body and hip frames support a turn and knee insertion toward guard recovery.
 
-**Back Control**: Fundamentals express through hand fighting to prevent choke establishment, creating space by addressing hooks individually, rotating body to face opponent while protecting neck, and escaping to guard or neutral position through sequential defensive movements.
+**Back Control**: Hand fighting protects the neck while you work to clear leg control and turn.
 
-**Knee on Belly**: Implemented via immediate frame construction against knee and shoulder, shrimping away from pressure to create hip distance, inserting knee shield or guard recovery, and transitioning to improved position before opponent consolidates control.
-
-**North-South**: Applied through creating frames using forearms under opponent's armpits, bridging to create upward pressure and space, shrimping to either side to create angles, and recovering to guard by inserting legs between bodies during opponent's base adjustment.
-
-**Kesa Gatame**: Fundamentals manifest through establishing frame against opponent's head and far hip, bridging toward trapped arm side to create space, using free leg to generate additional hip movement, and escaping to guard through sequential rolling or shrimping movements.
-
-**Closed Guard**: While not traditional escape position, fundamentals apply when posture is broken by creating frames to reestablish distance, using hip movement to recover proper guard angle, and preventing opponent from consolidating passing position.
-
-**Half Guard**: Applied when facing flattening pressure by creating underhook frames, using hip escape to recover to side-facing position, maintaining knee shield distance, and preventing opponent from advancing to mount or achieving complete pass.
-
-**Turtle**: Fundamentals express through protecting collar and arm exposure, creating base width to prevent rolling, using granby roll or sit-through movements to escape back exposure, and recovering to guard through sequential defensive transitions.
-
-**Crucifix**: Applied by protecting trapped arm and neck while creating hip movement to reduce opponent's control, systematically freeing one limb at a time through frame creation and space generation, and transitioning to improved defensive position.
-
-**High Mount**: Escape fundamentals applied by creating frames high on opponent's chest and hips, using explosive bridge to create maximum displacement, immediately inserting elbow escape during opponent's base recovery, and transitioning to half guard or closed guard.
-
-**Technical Mount**: Fundamentals manifest through immediate recognition of exposed back danger, creating frames to prevent mount consolidation, using hip escape toward opponent's lower leg, and recovering to closed guard or half guard before full mount is established.
-
-**Modified Mount**: Applied by identifying which side offers better escape opportunity based on opponent's leg positioning, creating frames on less-controlled side, executing hip escape toward that direction, and recovering guard through knee insertion.
-
-**Knee Shield Half Guard**: When knee shield is compromised, escape fundamentals apply through re-establishing frame distance, using hip movement to recover proper angle, preventing flatten-out while maintaining some barrier, and transitioning to more secure half guard variation or full guard recovery.
-
-**Lockdown**: Fundamentals apply when opponent establishes heavy pressure by creating upper body frames, using controlled hip movement to maintain lockdown control while preventing flattening, and systematically working toward sweep or back take opportunities.
-
-**Deep Half Guard**: When facing smash pressure in deep half, escape fundamentals manifest through maintaining underhook frame, using hip movement to prevent complete flattening, protecting head from crossface control, and either completing sweep or transitioning to standard half guard.
+**Knee on Belly**: Frames and hip movement create room to recover a knee or guard connection.
 
 
 
@@ -354,27 +319,15 @@ Across every defensive scenario in BJJ, escape success is not random—it follow
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting explosive single-movement escapes without establishing frames first
-  - **Consequence**: Creates energy expenditure without structural foundation, allowing opponent to easily reestablish control after brief disruption. Results in rapid fatigue and progressively diminishing escape attempts.
-  - **Correction**: Always establish frames before attempting dynamic movement. Build escape through sequential stages: frame, space, angle, recover. Coordinate explosive effort with proper structural positioning rather than using explosion as substitute for technique.
-- **Mistake**: Maintaining flat body position instead of turning to face opponent
-  - **Consequence**: Allows opponent to maintain full pressure application and control over both shoulders. Prevents effective hip escape and makes guard recovery extremely difficult. Increases submission vulnerability significantly.
-  - **Correction**: Immediately begin turning to face opponent as part of escape mechanics. Create perpendicular or angular alignment rather than accepting flat positioning. Use frames to facilitate rotation while protecting against submissions.
-- **Mistake**: Using isolated limb strength instead of whole-body mechanics
-  - **Consequence**: Creates rapid arm fatigue as frames collapse under sustained pressure. Wastes energy on ineffective pushing that opponent easily counters with weight distribution. Leads to frame collapse and position deterioration.
-  - **Correction**: Drive frame pressure from hip movement and core rotation rather than arm strength alone. Coordinate upper and lower body to create unified escape system. Use skeletal structure and leverage rather than muscular effort as primary force generation.
-- **Mistake**: Abandoning escape attempt when opponent adjusts position
-  - **Consequence**: Allows opponent to consolidate control between escape attempts, making subsequent escapes progressively more difficult. Creates pattern of isolated rather than continuous defensive pressure.
-  - **Correction**: Maintain constant escape pressure even when opponent counters initial attempt. Transition immediately to alternative escape pathway when primary route is blocked. View escape as continuous process rather than discrete attempts.
-- **Mistake**: Focusing solely on position improvement while ignoring submission threats
-  - **Consequence**: Results in submission while attempting escape, as defensive priorities are misaligned. Creates dangerous situations where escape attempt actually facilitates opponent's submission opportunities.
-  - **Correction**: Maintain submission awareness throughout escape process. Protect vulnerable areas (neck, arms, legs) while simultaneously working toward position improvement. Adjust escape pathway if submission threat becomes immediate.
-- **Mistake**: Escaping without clear destination or guard recovery plan
-  - **Consequence**: Creates space and angles but fails to capitalize by recovering specific guard position. Allows opponent to reestablish control in created space as practitioner lacks clear transition objective.
-  - **Correction**: Identify target guard position before initiating escape sequence. Work toward specific recovery objective (closed guard, half guard, etc.) throughout escape process. Complete escape only when improved position is actually established.
-- **Mistake**: Using same escape timing and rhythm repeatedly
-  - **Consequence**: Becomes predictable to opponent who can anticipate and counter escape attempts before they fully develop. Reduces escape success rate as opponent establishes defensive patterns against recognized timing.
-  - **Correction**: Vary escape timing between continuous pressure and explosive bursts. Use rhythm changes and false timing to create uncertainty in opponent's defensive responses. Maintain unpredictability while adhering to fundamental escape mechanics.
+- **Mistake**: Trying one explosive movement
+  - **Consequence**: The pin remains because its controls have not been addressed.
+  - **Correction**: Build a frame and an angle before the larger movement.
+- **Mistake**: Pushing with isolated arms
+  - **Consequence**: The arms tire and become available to attack.
+  - **Correction**: Connect frames to your torso and move with your hips.
+- **Mistake**: Stopping when the opponent adjusts
+  - **Consequence**: The opponent settles into the new pin.
+  - **Correction**: Rebuild the frame and continue from the improved space.
 
 
 </section>
@@ -382,23 +335,11 @@ Across every defensive scenario in BJJ, escape success is not random—it follow
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Progressive Pin Escapes with Increasing Resistance** (Focus: Develops ability to apply escape fundamentals under realistic pressure while building confidence through systematic progression. Allows refinement of frame placement, hip mechanics, and timing before facing full resistance.)
-Begin from specific pins with partner providing graduated resistance levels (30%, 50%, 70%, 100%). Focus on executing complete escape sequences using proper fundamentals at each resistance level before progressing.
+**Checkpoint escape** (Focus: Build an escape in stages.)
+From light side control with a cooperative partner, pause after framing, turning, and knee insertion. Keep each improvement before continuing, then reset at guard recovery.
 
-**Positional Sparring from Inferior Positions** (Focus: Creates high-repetition environment for applying escape fundamentals in live contexts. Develops problem-solving ability as partner actively counters escape attempts and consolidates control.)
-Start rounds from mount bottom, side control bottom, back control, and other pins with explicit goal of escaping to guard. Reset immediately after successful escape and repeat from same or different starting position.
-
-**Isolation Training of Component Skills** (Focus: Builds mastery of individual mechanical elements that comprise complete escapes. Allows detailed attention to technical precision without managing complexity of complete escape scenarios.)
-Dedicate specific training sessions to individual escape components: pure framing drills, hip escape mechanics, angle creation exercises, and guard recovery transitions. Practice each skill in isolation before reintegrating into complete sequences.
-
-**Timed Escape Challenges** (Focus: Develops urgency and efficiency in escape execution. Creates pressure environment that simulates competition scenarios while providing measurable performance feedback for tracking improvement.)
-Set specific time limits for escaping various pins (e.g., escape mount within 60 seconds). Partner provides consistent resistance level while practitioner works to complete escape within time constraint.
-
-**Flow Rolling with Escape Emphasis** (Focus: Develops smooth application of escape mechanics without relying on athleticism or explosive power. Builds understanding of timing, transitions, and sequential movements through repeated exposure in low-pressure context.)
-Engage in moderate-pace rolling where both partners allow position changes to occur naturally, with defender focusing on applying escape fundamentals systematically rather than explosive effort.
-
-**Video Analysis of Failed Escapes** (Focus: Provides objective feedback on technical execution and decision-making during live scenarios. Develops analytical understanding of why escapes succeed or fail beyond subjective feeling during rolling.)
-Record sparring sessions and review escape attempts that failed, identifying specific points where escape fundamentals broke down. Compare failed attempts to successful escapes to identify technical differences.
+**One-pin practice** (Focus: Repeat the same problem with useful feedback.)
+Choose one familiar pin and one escape. The top player gives light, predictable resistance; reset after a recovery or lost frame, and stop before submission pressure.
 
 
 
