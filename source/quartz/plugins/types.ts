@@ -4,7 +4,6 @@ import { ProcessedContent } from "./vfile"
 import { QuartzComponent } from "../components/types"
 import { FilePath } from "../util/path"
 import { BuildCtx } from "../util/ctx"
-import DepGraph from "../depgraph"
 import type { Element, Root } from "hast"
 import type { FullSlug, SimpleSlug } from "../util/path"
 
@@ -94,10 +93,4 @@ export type QuartzEmitterPluginInstance = {
   /** Completed writes/copies, not deferred artifacts. The driver awaits this promise. */
   emit(ctx: BuildCtx, content: ProcessedContent[], resources: StaticResources): Promise<FilePath[]>
   getQuartzComponents(ctx: BuildCtx): QuartzComponent[]
-  /** Incumbent compatibility only; the replacement full-build driver will not call it. */
-  getDependencyGraph?(
-    ctx: BuildCtx,
-    content: ProcessedContent[],
-    resources: StaticResources,
-  ): Promise<DepGraph<FilePath>>
 }
