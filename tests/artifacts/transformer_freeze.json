@@ -1,55 +1,103 @@
 {
   "files": {
+    "source/quartz/components/Head.tsx": {
+      "accepted": [
+        {
+          "date": "2026-09-20",
+          "from": "cff299113432ae3f14bf7484b9787156ee344c52aa5a8baeb8a9055e3f025248",
+          "reason": "Incoming from dev, NOT a programme change: published-time's production date fix (e81f18f06, v1.193.3), merged into the programme base. Head.tsx switches article:published_time and JSON-LD datePublished from dates.created (which is checkout birthtime) to dates.published (authored publishDate only); lastmod.ts documents that git supplies modification history, not a first-publication record. 0 of 4,600 files carry publishDate, so BOTH FIELDS NOW VANISH FROM ~6,118 PAGES. That is correct \u2014 the previous values were false \u2014 and it is why the fix reaches 13/13 across checkouts. The frozen baseline f649801a9 predates it.",
+          "scope": "keeplist",
+          "to": "31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0"
+        }
+      ],
+      "bytes": 7071,
+      "scope": "keeplist",
+      "sha256": "31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0"
+    },
+    "source/quartz/components/renderPage.tsx": {
+      "accepted": [
+        {
+          "date": "2026-09-20",
+          "from": "9cbebd6e988e3615d7f9ba043f8034678825b80b203ac07daa9fded4b1c92004",
+          "reason": "INTERFACE.md section 7's single named exception: S1's renderer integration and loadGraphData failure handling (64c058b61). Required by quartz-cto at D-49/D-50; INTERFACE.md:335 deferred it until review, and review happened. Bare catch becomes a throw; zero-entry coverage throws; adds getRenderCoverage/resetRenderState. AUTHORIZATION ONLY - byte-neutrality is EXPECTED BUT UNPROVEN: S1's build1 emitted zero HTML before dying so renderPage never ran. Confirm against build0 on the first completed build.",
+          "scope": "keeplist",
+          "to": "85b93291bfe9d563f198c0fb771035be32d1ee89030ac41838071dab35ccbfa7"
+        }
+      ],
+      "bytes": 26444,
+      "scope": "keeplist",
+      "sha256": "85b93291bfe9d563f198c0fb771035be32d1ee89030ac41838071dab35ccbfa7"
+    },
     "source/quartz/plugins/filters/draft.ts": {
       "bytes": 273,
+      "scope": "pipeline",
       "sha256": "09f2a6823e41ac8c31c5e3931b43efdac1add9abb111bc612455b3c11b4514f1"
     },
     "source/quartz/plugins/filters/index.ts": {
       "bytes": 39,
+      "scope": "pipeline",
       "sha256": "a7a4273d96aed4512e9fdc2d13ff9b3ead06fb41fa276a37285710eb0e7090ef"
     },
     "source/quartz/plugins/transformers/description.ts": {
       "bytes": 2627,
+      "scope": "pipeline",
       "sha256": "02b51925a9a609b7ae5f2396aa348023925afaf4a8e739b070246d8cb7a24b78"
     },
     "source/quartz/plugins/transformers/frontmatter.ts": {
       "bytes": 4139,
+      "scope": "pipeline",
       "sha256": "01ee12e3ada3e20af89928010a84661669520ba48963f866590e006633a9dad7"
     },
     "source/quartz/plugins/transformers/gfm.ts": {
       "bytes": 2257,
+      "scope": "pipeline",
       "sha256": "1b2bc93f553ea85b89ffbdfd49726ec651cb2382d2b06dfb1484e90959e08bf3"
     },
     "source/quartz/plugins/transformers/index.ts": {
       "bytes": 407,
+      "scope": "pipeline",
       "sha256": "42e096302b495a1e40459847d9171ef86aecd4546f0cbe1795efd18d827168ef"
     },
     "source/quartz/plugins/transformers/lastmod.ts": {
-      "bytes": 7362,
-      "sha256": "82fad748eb7b461516d1a8b384fc18ac15c8782442eaaf53cde52437ee639b90"
+      "accepted": [
+        {
+          "date": "2026-09-20",
+          "from": "82fad748eb7b461516d1a8b384fc18ac15c8782442eaaf53cde52437ee639b90",
+          "reason": "Incoming from dev, NOT a programme change: published-time's production date fix (e81f18f06, v1.193.3), merged into the programme base. Head.tsx switches article:published_time and JSON-LD datePublished from dates.created (which is checkout birthtime) to dates.published (authored publishDate only); lastmod.ts documents that git supplies modification history, not a first-publication record. 0 of 4,600 files carry publishDate, so BOTH FIELDS NOW VANISH FROM ~6,118 PAGES. That is correct \u2014 the previous values were false \u2014 and it is why the fix reaches 13/13 across checkouts. The frozen baseline f649801a9 predates it.",
+          "to": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0"
+        }
+      ],
+      "bytes": 8534,
+      "scope": "pipeline",
+      "sha256": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0"
     },
     "source/quartz/plugins/transformers/links.ts": {
       "bytes": 6208,
+      "scope": "pipeline",
       "sha256": "73eb56814f8b4ac392a0d540d1e522d29f5b913051f1844dded8f7d1d8973303"
     },
     "source/quartz/plugins/transformers/ofm.ts": {
       "bytes": 28754,
+      "scope": "pipeline",
       "sha256": "1dd1353ecd8a451dafa61eb71ec648a8b370376f1ae1043a2f3595a31e1d5f48"
     },
     "source/quartz/plugins/transformers/schemaExtractor.ts": {
       "bytes": 2693,
+      "scope": "pipeline",
       "sha256": "38d4642123d135d27966b93eccc8db8459b1a0e6104c85abc1538c5be076da1a"
     },
     "source/quartz/plugins/transformers/syntax.ts": {
       "bytes": 711,
+      "scope": "pipeline",
       "sha256": "db2758faa8629ef17df4da11e9f0c432dbeabecdd2457349aaadca4ddacae3f8"
     },
     "source/quartz/plugins/transformers/toc.ts": {
       "bytes": 2027,
+      "scope": "pipeline",
       "sha256": "127731bef4f383ef1e73aedd1849f4eeec6906723d2312540981c48c7bc21023"
     }
   },
-  "note": "Stream A byte-freeze, phases P1-P4 (D-27).",
+  "note": "Stream A byte-freeze, phases P1-P4 (D-27). Every entry declares its scope: `pipeline` (the 12-file markdown glob) or `keeplist` (INTERFACE.md section 7). One store serves both scopes and an untagged entry is what made an accepted keep-list change read as a MISSING pipeline file.",
   "phase": "P1-P4",
   "why": "Stream A is a re-host, not a rewrite: 0 of 64 import statements in these files cross into the replaced engine. Under D-03 the correct number of behavioural changes here during P1-P4 is zero. Moved one file at a time via --accept --reason, never automatically."
 }
