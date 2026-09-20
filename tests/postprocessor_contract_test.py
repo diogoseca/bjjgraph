@@ -5,6 +5,15 @@ missing/duplicate articles; sitemap zero/below-floor/missing target; missing noi
 and missing source coverage; unknown article-free artifacts. No surviving seeded
 mutants. Marker preservation belongs to system_affiliates.py, not this gate.
 The unchanged share-shell is also executed; this is not a copied renderer.
+
+D-51 scope: PostprocessorFreshOutputTest drives tiny fresh-output fixtures through
+unchanged headers/redirects/llms scripts, and discovery's actual error branches.
+It kills six copied-script no-op/write-deletion mutants plus one overflow-guard
+removal. No surviving seeded mutants in this class. Unproved: Forward generation
+from empty output; a real Env B emit. The existing keyless replay began with every
+artifact already present and only 1,767 redirect rules, so it cannot prove these
+fresh writes or the >2,000 overflow guard. Fixture coverage is not a corpus build.
+Run just these tiny cases: python3 -B tests/postprocessor_contract_test.py PostprocessorFreshOutputTest -v
 """
 from pathlib import Path
 import json
@@ -190,6 +199,204 @@ class PostprocessorContractTest(unittest.TestCase):
             self.assertIn('<title data-share-title="1">', shell)
             self.assertIn('<svg><title>Search</title></svg>', shell)
             self.assertEqual(shell.count('data-share-og='), 5)
+
+
+class PostprocessorFreshOutputTest(unittest.TestCase):
+    """Independent of the 4,000-page fixture; each test uses one tiny temp tree."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory(prefix='quartz-fresh-postprocessor-')
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        self.public = self.root / 'source/public'
+
+    def write_input(self, relative, text):
+        path = self.root / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding='utf-8')
+        return path
+
+    def copy_script(self, name):
+        target = self.root / 'scripts' / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / 'scripts' / name, target)
+        if name == 'regenerate_redirects.py':
+            shutil.copyfile(ROOT / 'scripts/_slug.py', target.with_name('_slug.py'))
+        return target
+
+    def run_script(self, script):
+        return subprocess.run([sys.executable, '-B', str(script)], cwd=self.root,
+                              capture_output=True, text=True, timeout=15)
+
+    def fresh_output(self, script, output_name, verify):
+        if self.public.exists():
+            shutil.rmtree(self.public)
+        output = self.public / output_name
+        self.assertFalse(output.exists())
+        result = self.run_script(script)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertTrue(output.is_file(), f'fresh output missing: {output_name}')
+        verify(output.read_text(encoding='utf-8'))
+        return result
+
+    def kill_fresh_write_mutants(self, script, write_statement, output_name, verify):
+        original = script.read_text()
+        anchors = {'no-op': '    main()\n', 'write-deletion': write_statement}
+        try:
+            for label, anchor in anchors.items():
+                with self.subTest(mutant=f'{script.stem}/{label}'):
+                    self.assertEqual(original.count(anchor), 1, f'dead mutant anchor: {label}')
+                    script.write_text(original.replace(anchor, '    pass  # seeded mutant\n', 1))
+                    # Syntax/runtime errors do NOT count: the script must exit 0,
+                    # and the SAME positive-output assertion must go red.
+                    with self.assertRaisesRegex(AssertionError, 'fresh output missing:'):
+                        self.fresh_output(script, output_name, verify)
+                    print(f'[fresh-postprocessor] RED {script.stem}/{label}: fresh output assertion rejected mutant')
+        finally:
+            script.write_text(original)
+        result = self.fresh_output(script, output_name, verify)
+        print(f'[fresh-postprocessor] GREEN {script.stem}: fresh {output_name} verified')
+        return result
+
+    def test_fresh_headers_copy_kills_noop_and_write_deletion(self):
+        expected = '/*\n  X-Content-Type-Options: nosniff\n/Positions/*\n  Cache-Control: public, max-age=300\n'
+        self.write_input('source/quartz/static/_headers', expected)
+        script = self.copy_script('regenerate_headers.py')
+        result = self.kill_fresh_write_mutants(
+            script, '    shutil.copyfile(CANONICAL, OUTPUT)\n', '_headers',
+            lambda actual: self.assertEqual(actual, expected))
+        self.assertIn('Wrote security headers', result.stdout)
+
+    def test_missing_canonical_headers_fails_without_publishing(self):
+        result = self.run_script(self.copy_script('regenerate_headers.py'))
+        self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
+        self.assertIn('ERROR: canonical', result.stderr)
+        self.assertIn('not found', result.stderr)
+        self.assertFalse((self.public / '_headers').exists())
+
+    def test_fresh_redirects_authored_alias_case_order_kills_write_mutants(self):
+        self.write_input('source/quartz/static/_redirects',
+                         '# Authored wins, even over aliases and case correction.\n'
+                         '/rescue /Positions/Mount 301\n'
+                         '/positions/mount /Positions/Authored-Wins 301\n'
+                         '/positions/synonym /Positions/Authored-Alias 301\n'
+                         '/rescue /Wrong-Duplicate 301\n')
+        self.write_input('content/Positions/Mount.json', json.dumps({'aliases': ['Synonym', 'Old Mount']}))
+        for name in ('Mount.md', 'Side Control.md', 'Mount/Top.md'):
+            self.write_input('content/Positions/' + name, '# Fixture\n')
+        expected = ['/rescue /Positions/Mount 301',
+                    '/positions/mount /Positions/Authored-Wins 301',
+                    '/positions/synonym /Positions/Authored-Alias 301',
+                    '/positions/old-mount /Positions/Mount 301',
+                    '/positions/side-control /Positions/Side-Control 301']
+        script = self.copy_script('regenerate_redirects.py')
+        result = self.kill_fresh_write_mutants(
+            script, '    OUTPUT.write_text("\\n".join(rules) + "\\n")\n', '_redirects',
+            lambda actual: self.assertEqual(actual.splitlines(), expected))
+        self.assertIn('3 authored rule(s)', result.stdout)
+        self.assertIn('1 alias 301 rule(s)', result.stdout)
+        self.assertIn('Wrote 5 301 rules', result.stdout)
+
+    def test_redirect_limit_accepts_2000_rejects_2001_and_kills_removed_guard(self):
+        # 2,001 short lines in ONE input file; no corpus-sized filesystem fixture.
+        canonical = self.write_input('source/quartz/static/_redirects', '')
+        script = self.copy_script('regenerate_redirects.py')
+        original = script.read_text()
+        guard = '    if len(rules) > CLOUDFLARE_STATIC_RULE_LIMIT:\n'
+        self.assertEqual(original.count(guard), 1, 'dead overflow mutant anchor')
+
+        def populate(count):
+            canonical.write_text(''.join(f'/old-{n} /new-{n} 301\n' for n in range(count)))
+            if self.public.exists():
+                shutil.rmtree(self.public)
+
+        def assert_overflow_rejected():
+            result = self.run_script(script)
+            self.assertEqual(result.returncode, 1, 'overflow guard must reject 2001 rules')
+            self.assertIn('2001 rules exceeds', result.stderr)
+            self.assertIn('2000-static-rule limit', result.stderr)
+            self.assertFalse((self.public / '_redirects').exists())
+
+        populate(2001)
+        try:
+            script.write_text(original.replace(guard, '    if False:  # seeded removed overflow guard\n', 1))
+            with self.assertRaisesRegex(AssertionError, 'overflow guard must reject'):
+                assert_overflow_rejected()
+            print('[fresh-postprocessor] RED redirects/removed-overflow-guard: 2001-rule assertion rejected mutant')
+        finally:
+            script.write_text(original)
+        populate(2000)
+        result = self.run_script(script)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(len((self.public / '_redirects').read_text().splitlines()), 2000)
+        self.assertIn('Wrote 2000 301 rules', result.stdout)
+        populate(2001)
+        assert_overflow_rejected()
+        print('[fresh-postprocessor] GREEN redirects boundary: 2000 accepted, 2001 rejected before write')
+
+    def test_fresh_llms_listed_and_hub_only_categories_kill_write_mutants(self):
+        inputs = {
+            'Positions/Side Control': {'name': 'Side Control', 'summary': 'Top\ncontrol.'},
+            'Principles/Frames': {'name': 'Frames', 'description': 'Use frames.'},
+            'Systems/Study Plan': {'name': 'Study Plan', 'summary': 'Review a plan.'},
+            'Learning/Safety': {'name': 'Safety'},
+            'Transitions/Sweep': {'name': 'Unlisted individual sweep'},
+            'Transitions/Pass': {'name': 'Unlisted individual pass'},
+            'Submissions/Armbar': {'name': 'Unlisted individual armbar'},
+        }
+        for relative, value in inputs.items():
+            self.write_input('content/' + relative + '.json', json.dumps(value))
+
+        def verify(text):
+            for line in (
+                '- [Side Control](https://bjjgraph.org/Positions/Side-Control): Top control.',
+                '- [Frames](https://bjjgraph.org/Principles/Frames): Use frames.',
+                '- [Study Plan](https://bjjgraph.org/Systems/Study-Plan): Review a plan.',
+                '- [Safety](https://bjjgraph.org/Learning/Safety)\n',
+                '- [All transitions](https://bjjgraph.org/Transitions): 2 topics — browse the hub.',
+                '- [All submissions](https://bjjgraph.org/Submissions): 1 topics — browse the hub.',
+            ):
+                self.assertIn(line, text)
+            self.assertNotIn('Unlisted individual', text)
+            self.assertNotIn('https://bjjgraph.org/Transitions/Sweep', text)
+            self.assertNotIn('https://bjjgraph.org/Submissions/Armbar', text)
+
+        result = self.kill_fresh_write_mutants(
+            self.copy_script('regenerate_llms_txt.py'),
+            '    OUTPUT.write_text("\\n".join(lines).rstrip() + "\\n", encoding="utf-8")\n',
+            'llms.txt', verify)
+        self.assertIn('4 listed pages + hubs', result.stdout)
+
+    def assert_discovery_error_then_valid_homepage(self, url, diagnostic):
+        self.write_input('source/public/index.html', '<title>Fixture home</title><article>Public study.</article>')
+        self.write_input('source/quartz/static/robots.txt', 'User-agent: *\nAllow: /\n')
+        for name, text in (('auth.md', '# Access\n'), ('api.md', '# Public API\n'), ('openapi.json', '{}\n')):
+            self.write_input('site/' + name, text)
+        sitemap = self.write_input('source/public/sitemap.xml', f'<urlset><url><loc>{url}</loc></url></urlset>')
+        script = self.copy_script('regenerate_agent_discovery.py')
+        red = self.run_script(script)
+        self.assertEqual(red.returncode, 1, red.stdout + red.stderr)
+        self.assertIn('ValueError: ' + diagnostic, red.stderr)
+        self.assertFalse((self.public / 'site-index.json').exists())
+        # Same copied consumer and fixture, repaired URL: prove the failure was
+        # the selected validation branch, not missing assets or a broken harness.
+        sitemap.write_text('<urlset><url><loc>https://bjjgraph.org/</loc></url></urlset>')
+        green = self.run_script(script)
+        self.assertEqual(green.returncode, 0, green.stdout + green.stderr)
+        self.assertIn('1 public Markdown pages', green.stdout)
+        self.assertIn('Public study.', (self.public / 'markdown/index.md').read_text())
+        records = json.loads((self.public / 'site-index.json').read_text())['pages']
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['url'], 'https://bjjgraph.org/')
+
+    def test_discovery_rejects_invalid_origin(self):
+        self.assert_discovery_error_then_valid_homepage('https://other.invalid/', 'Unexpected sitemap origin:')
+
+    def test_discovery_rejects_percent_encoded_unsafe_path(self):
+        self.assert_discovery_error_then_valid_homepage('https://bjjgraph.org/Positions/%2e%2e/private', 'Unsafe sitemap path:')
+
+    def test_discovery_rejects_missing_target(self):
+        self.assert_discovery_error_then_valid_homepage('https://bjjgraph.org/Positions/Missing', 'Sitemap target missing:')
 
 
 if __name__ == '__main__':
