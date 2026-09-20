@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "BJJ Principle Template Schema V3",
-  "description": "Standardized JSON schema for BJJ principle pages - strict 12-section structure",
+  "description": "Concise BJJ principle reference with practical examples, mistakes, and training approaches.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -37,11 +37,11 @@
     },
     "description": {
       "type": "string",
-      "description": "SEO meta description 150-160 characters",
-      "minLength": 140,
+      "description": "Plain one-sentence description for search previews. Describe the principle without promotional copy.",
+      "minLength": 70,
       "maxLength": 180,
       "examples": [
-        "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, cross-position application."
+        "Base is the support that keeps you balanced while you move, apply pressure, or resist a sweep."
       ]
     },
     "tags": {
@@ -149,25 +149,28 @@
     },
     "summary": {
       "type": "string",
-      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI/featured snippets). ~15-40 words, e.g. 'A wedge is any body part inserted into a gap to pry space open or redirect force.' If present, the overview should NOT repeat it.",
+      "description": "One self-contained definition sentence, roughly 15-35 words. Lead with what the principle means; avoid promotional claims.",
       "minLength": 30,
-      "maxLength": 300
+      "maxLength": 260
     },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph principle description (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before adding history/context — AI answer engines quote the first sentence. If a `summary` field is present, start the overview with context instead, to avoid duplicating it.",
-      "minLength": 400,
+      "description": "One or two practical sentences that add an application cue to the summary. No history, generic praise, or repeated definition.",
+      "minLength": 40,
       "examples": [
-        "Base Maintenance is a fundamental principle describing the ability to maintain stable positioning..."
-      ]
+        "Move your feet, knees, or hands as pressure changes so your weight stays supported. Widen your base to resist a sweep, then adjust it as you move."
+      ],
+      "maxLength": 320
     },
     "key_principles": {
       "type": "array",
-      "description": "6-9 fundamental principles",
-      "minItems": 6,
-      "maxItems": 9,
+      "description": "3-5 distinct actionable points, most useful first. Each point should be one short sentence.",
+      "minItems": 3,
+      "maxItems": 5,
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 160
       }
     },
     "component_skills": {
@@ -228,9 +231,9 @@
     },
     "application_contexts": {
       "type": "array",
-      "description": "Cross-position applications (5-20 items)",
-      "minItems": 5,
-      "maxItems": 20,
+      "description": "3-5 distinct examples. Name the position or situation and explain the concrete action in one short sentence.",
+      "minItems": 3,
+      "maxItems": 5,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -241,11 +244,15 @@
         "properties": {
           "context": {
             "type": "string",
-            "description": "Position or scenario where principle applies"
+            "description": "Position or scenario where principle applies",
+            "minLength": 1,
+            "maxLength": 90
           },
           "how_applied": {
             "type": "string",
-            "description": "How principle manifests in this context"
+            "description": "How principle manifests in this context",
+            "minLength": 1,
+            "maxLength": 240
           }
         }
       }
@@ -279,8 +286,8 @@
     },
     "common_errors": {
       "type": "array",
-      "description": "Common misunderstandings (minimum 5)",
-      "minItems": 5,
+      "description": "3-4 distinct mistakes, most useful first. Use a short label, a brief consequence, and a practical correction.",
+      "minItems": 3,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -291,22 +298,29 @@
         ],
         "properties": {
           "error": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 90
           },
           "consequence": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
           },
           "correction": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
           }
         }
-      }
+      },
+      "maxItems": 4
     },
     "training_approaches": {
       "type": "array",
-      "description": "4-6 training methods",
-      "minItems": 4,
-      "maxItems": 6,
+      "description": "2-3 focused drills, easiest useful starting drill first. Give a setup, action, and reset or stop condition; avoid resisted finishing pressure on joints or the neck.",
+      "minItems": 2,
+      "maxItems": 3,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -317,13 +331,19 @@
         ],
         "properties": {
           "approach_name": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 260
           },
           "focus": {
-            "type": "string"
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
           }
         }
       }

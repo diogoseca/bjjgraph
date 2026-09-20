@@ -4,7 +4,7 @@
 
 ---
 title: "Guard Passing | BJJ Principle | BJJ Graph"
-description: "Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types."
+description: "Guard passing clears the opponent’s grips, legs, and hip movement in stages, then secures a pin before the guard can return."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Guard Passing",
-  "description": "Master guard passing fundamentals in BJJ. Learn systematic framework, control progression, grip fighting, and cross-position applications for all guard types.",
+  "description": "Guard passing clears the opponent’s grips, legs, and hip movement in stages, then secures a pin before the guard can return.",
   "url": "https://bjjgraph.org/Principles/Guard-Passing",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting to pass without establishing grip dominance first?",
+      "name": "What is a common mistake in Rushing past the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent uses superior grips to break posture, establish offensive controls, and neutralize passing attempts before they begin, resulting in failed passes or submissions The correction is: Always win grip fighting battle before initiating passing movements, understanding that grip dominance typically predicts passing success regardless of subsequent technique selection"
+        "text": "The opponent recovers guard before a pin is secured. The correction is: Keep hip and upper-body control through the final step."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Rushing through passing stages without consolidating each phase?",
+      "name": "What is a common mistake in Using one approach against every guard?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent exploits gaps in control to recover guard position, resulting in wasted energy and repeated guard recovery cycles that favor defensive player The correction is: Progress methodically through each passing stage, ensuring control requirements are met before advancing—patience in consolidation ultimately accelerates overall passing success"
+        "text": "The route runs directly into the guard’s strongest controls. The correction is: Identify the hooks and frames before selecting the route."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using same passing approach against all guard types?",
+      "name": "What is a common mistake in Leaning forward without support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Passing effectiveness varies dramatically based on guard variation, with approaches that succeed against one guard failing entirely against others, limiting overall passing ability The correction is: Develop multiple passing systems and learn to recognize which approaches suit specific guard types, understanding that elite passers possess varied passing arsenal"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting base maintenance during passing attempts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent sweeps passer during passing sequences, reversing position and negating passing progress, particularly when passer becomes too focused on advancement and neglects stability The correction is: Maintain constant awareness of base positioning throughout passing sequences, adjusting stance and weight distribution to prevent sweeps while applying forward pressure"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying inappropriate pressure type for guard variation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Heavy pressure against guards requiring floating passes (DLR, spider) or light pressure against guards requiring smashing (closed, half) results in ineffective passing and wasted energy The correction is: Learn to recognize which guards require heavy pinning pressure versus floating mobility-based passing, adjusting pressure type to match guard-specific retention mechanics"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to control opponent's hips before attempting to pass legs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent uses hip mobility to continuously recover guard position despite successful leg clearing, creating endless passing cycles without consolidation The correction is: Prioritize hip control establishment before focusing on leg clearing, understanding that controlling hips typically prevents guard recovery more effectively than managing legs alone"
+        "text": "The guard player can off-balance or elevate you. The correction is: Move the base with your weight and clear the relevant hooks."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Guard Passing",
-  "description": "Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.",
+  "description": "Guard passing is moving beyond an opponent’s legs and securing a pin by managing their grips, frames, hooks, and hip movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Setting up your guard passing",
+      "description": "Guard Passing film study: Setting up your guard passing, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_UTf3WChDNE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_UTf3WChDNE",
+      "url": "https://www.youtube.com/watch?v=_UTf3WChDNE",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "The no-gi guard passing system explained",
       "description": "Guard Passing film study: The no-gi guard passing system explained, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OdscGUlottI/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Gordon Ryan explains his guard passing system",
       "description": "Guard Passing film study: Gordon Ryan explains his guard passing system, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RvgT17Xri5g/hqdefault.jpg",
@@ -205,9 +191,9 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 
 ## What is Guard Passing?
 
-**Guard passing is the systematic process of advancing from inside an opponent's guard to a dominant pinning position by neutralizing their retention tools—grips, frames, hooks, and hip mobility—through sequential control rather than a single explosive movement.**
+**Guard passing is moving beyond an opponent’s legs and securing a pin by managing their grips, frames, hooks, and hip movement.**
 
-Guard Passing represents the fundamental strategic and biomechanical concepts underlying all successful guard passing, providing systematic framework for advancing from guard to dominant pinning positions. Unlike specific passing techniques, guard passing principles are comprehensive conceptual guidelines that apply across all guard types and determine overall passing effectiveness. This concept encompasses the tactical understanding that successful passing requires neutralizing guard retention mechanics, establishing control points, and progressing through stages from open guard to consolidated side control or mount. Guard passing principles serve as both offensive framework enabling position advancement and strategic guide for pass selection based on opponent's defensive patterns. The ability to apply guard passing principles consistently determines offensive effectiveness against guard players, making it one of the most essential conceptual elements for top game development.
+Choose a route that fits the guard in front of you. Clear its main controls, pass the legs while maintaining base, then settle the pin before starting a submission.
 
 </section>
 
@@ -218,6 +204,14 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 
 <p class="section-subtitle">Watch Guard Passing in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=_UTf3WChDNE)
+
+<p class="clip-credit"><strong>Setting up your guard passing</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=_UTf3WChDNE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -242,15 +236,10 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Maintain strong posture preventing opponent from breaking your structure and establishing offensive control
-- Establish grip dominance preventing opponent from using grips for retention and attacks
-- Control opponent's hip movement as this is primary mechanism for guard retention
-- Progress through guard passing stages sequentially rather than attempting single-movement passes
-- Apply appropriate pressure type for guard variation (floating pressure vs heavy pressure)
-- Manage opponent's legs systematically to eliminate hook and frame retention mechanisms
-- Maintain base stability throughout pass preventing sweeps during passing attempts
-- Recognize guard type and select appropriate passing approach for specific guard variation
-- Consolidate position after passing rather than immediately transitioning to submissions
+- Protect your posture and base before committing forward.
+- Clear the grips, hooks, or frames that block your route.
+- Control hip movement as you move beyond the legs.
+- Secure the pin before releasing controls to attack.
 
 
 </section>
@@ -281,39 +270,13 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Principles manifest through posture maintenance to prevent forward collapse, systematic grip breaking to neutralize offensive control, and strategic opening approaches progressing from closed to open guard phases
+**Closed Guard**: Maintain posture, address controlling grips, and open the guard before advancing past the legs.
 
-**Open Guard**: Requires guard type recognition to select appropriate passing approach, leg management to clear frames and hooks, and distance control to prevent guard re-establishment during passing transitions
+**Open Guard**: Choose a passing route that addresses the current frames and hooks.
 
-**Half Guard**: Emphasizes crossface and underhook battles as primary control mechanisms, hip control to prevent bottom player from recovering full guard, and systematic leg clearing to achieve side control consolidation
+**Half Guard**: Coordinate upper-body and hip control while freeing the trapped leg.
 
-**Butterfly Guard**: Focuses on preventing elevation through base widening and weight distribution, controlling opponent's grips to neutralize sweep mechanics, and passing around rather than through butterfly hooks
-
-**De La Riva Guard**: Requires understanding of hook removal priorities, backstep timing to clear entanglements, and pressure direction to force bottom player into defensive rather than offensive DLR positioning
-
-**Spider Guard**: Emphasizes grip breaking as primary objective before movement begins, posture recovery against extension pressure, and systematic approach to clearing leg frames while maintaining forward pressure
-
-**X-Guard**: Requires base posting to prevent elevation sweeps, systematic leg extraction from X-hook configuration, and understanding of pressure angles that collapse X-Guard structure
-
-**Reverse De La Riva Guard**: Focuses on hip control to prevent inversion entries, systematic clearing of RDLR hook, and maintaining forward pressure while circling away from entanglement mechanics
-
-**Lasso Guard**: Requires grip breaking on lasso sleeve control, systematic approach to clearing lasso configuration while maintaining posture, and understanding of pressure directions that neutralize lasso mechanics
-
-**50-50 Guard**: Emphasizes systematic leg extraction strategies, understanding of hip positioning to prevent leg entanglement deepening, and consolidation priorities after achieving leg separation
-
-**Single Leg X-Guard**: Requires base widening to prevent sweeps, understanding of weight distribution to collapse SLX structure, and systematic leg clearing while maintaining forward pressure
-
-**Seated Guard**: Focuses on distance management to prevent opponent from establishing leg-based guards, grip control to limit mobility, and understanding of optimal passing angles against seated posture
-
-**Standing Guard**: Emphasizes takedown defense awareness while advancing position, grip fighting to prevent guard pulls, and systematic approach to closing distance for passing initiation
-
-**Headquarters Position**: Represents critical intermediate passing stage where principles of hip control, base maintenance, and leg management converge before final consolidation to side control
-
-**Combat Base**: Foundational passing posture demonstrating proper application of base maintenance and posture principles, serving as stable platform for initiating passing sequences
-
-**Deep Half Guard**: Requires understanding of weight distribution to prevent sweeps, systematic approach to extracting trapped leg, and maintaining crossface control during extraction process
-
-**Knee Shield Half Guard**: Emphasizes frame collapsing techniques to remove knee shield barrier, establishing underhook control, and transitioning to consolidated passing positions
+**Butterfly Guard**: Manage grips and weight so the opponent cannot easily load you onto the hooks.
 
 
 
@@ -337,27 +300,15 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting to pass without establishing grip dominance first
-  - **Consequence**: Opponent uses superior grips to break posture, establish offensive controls, and neutralize passing attempts before they begin, resulting in failed passes or submissions
-  - **Correction**: Always win grip fighting battle before initiating passing movements, understanding that grip dominance typically predicts passing success regardless of subsequent technique selection
-- **Mistake**: Rushing through passing stages without consolidating each phase
-  - **Consequence**: Opponent exploits gaps in control to recover guard position, resulting in wasted energy and repeated guard recovery cycles that favor defensive player
-  - **Correction**: Progress methodically through each passing stage, ensuring control requirements are met before advancing—patience in consolidation ultimately accelerates overall passing success
-- **Mistake**: Using same passing approach against all guard types
-  - **Consequence**: Passing effectiveness varies dramatically based on guard variation, with approaches that succeed against one guard failing entirely against others, limiting overall passing ability
-  - **Correction**: Develop multiple passing systems and learn to recognize which approaches suit specific guard types, understanding that elite passers possess varied passing arsenal
-- **Mistake**: Neglecting base maintenance during passing attempts
-  - **Consequence**: Opponent sweeps passer during passing sequences, reversing position and negating passing progress, particularly when passer becomes too focused on advancement and neglects stability
-  - **Correction**: Maintain constant awareness of base positioning throughout passing sequences, adjusting stance and weight distribution to prevent sweeps while applying forward pressure
-- **Mistake**: Applying inappropriate pressure type for guard variation
-  - **Consequence**: Heavy pressure against guards requiring floating passes (DLR, spider) or light pressure against guards requiring smashing (closed, half) results in ineffective passing and wasted energy
-  - **Correction**: Learn to recognize which guards require heavy pinning pressure versus floating mobility-based passing, adjusting pressure type to match guard-specific retention mechanics
-- **Mistake**: Failing to control opponent's hips before attempting to pass legs
-  - **Consequence**: Opponent uses hip mobility to continuously recover guard position despite successful leg clearing, creating endless passing cycles without consolidation
-  - **Correction**: Prioritize hip control establishment before focusing on leg clearing, understanding that controlling hips typically prevents guard recovery more effectively than managing legs alone
-- **Mistake**: Abandoning pass too quickly when meeting initial resistance
-  - **Consequence**: Constantly switching between incomplete passing attempts without developing any approach, preventing development of passing persistence and timing understanding
-  - **Correction**: Commit to passing approaches long enough to understand their mechanics and opponent's defenses, developing persistence while also recognizing when genuine strategic change is needed
+- **Mistake**: Rushing past the legs
+  - **Consequence**: The opponent recovers guard before a pin is secured.
+  - **Correction**: Keep hip and upper-body control through the final step.
+- **Mistake**: Using one approach against every guard
+  - **Consequence**: The route runs directly into the guard’s strongest controls.
+  - **Correction**: Identify the hooks and frames before selecting the route.
+- **Mistake**: Leaning forward without support
+  - **Consequence**: The guard player can off-balance or elevate you.
+  - **Correction**: Move the base with your weight and clear the relevant hooks.
 
 
 </section>
@@ -365,23 +316,11 @@ Guard Passing represents the fundamental strategic and biomechanical concepts un
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Passing Sparring** (Focus: Building passing endurance, learning to maintain pressure through defensive resistance, and developing strategic patience required for successful passing)
-Isolated passing rounds starting from specific guard types with restart after successful pass or guard retention, developing passing persistence and stage progression understanding
+**Pass in checkpoints** (Focus: Keep each stage connected.)
+Choose one familiar guard and pass with a cooperative partner. Pause after clearing grips, passing the legs, and securing the pin; reset if a checkpoint loses control.
 
-**Grips Isolation Drills** (Focus: Developing grip dominance understanding as foundational passing element, recognizing grip configurations that enable or prevent passing success)
-Dedicated training focusing exclusively on establishing and maintaining passing grips against opponent's retention grips, pausing when superior configuration achieved
-
-**Guard Type Recognition Training** (Focus: Building strategic flexibility and guard type identification skills, learning to match passing approach to guard-specific retention mechanics)
-Rapid guard variation changes requiring immediate passing approach adjustment, developing ability to recognize guard types and select appropriate passing systems
-
-**Pass Stage Progression Drills** (Focus: Developing patient, systematic passing mentality that prioritizes proper stage progression over rushed advancement attempts)
-Structured sequences requiring methodical progression through passing stages with consolidation at each phase before advancing, preventing stage skipping tendencies
-
-**Pressure Type Variation Training** (Focus: Building understanding of when to apply different pressure types and developing physical conditioning for both heavy and mobile passing approaches)
-Alternating rounds between heavy pressure passing and floating mobility-based passing against same opponents, developing adaptability in pressure application
-
-**Failed Pass Analysis Sessions** (Focus: Developing analytical understanding of passing failures, recognizing patterns in personal passing weaknesses, and creating systematic improvement plans)
-Video review or mental replay of unsuccessful passing attempts to identify specific stage where pass broke down and determine appropriate corrections
+**Passing grip exchange** (Focus: Prepare the pass before moving.)
+Start in the same guard and work only the grips and base needed for the pass. Pause when the passing route opens, then release and reset without advancing.
 
 
 

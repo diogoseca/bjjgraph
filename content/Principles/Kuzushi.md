@@ -4,7 +4,7 @@
 
 ---
 title: "Kuzushi | BJJ Principle | BJJ Graph"
-description: "Master sweep mechanics in BJJ. Learn off-balancing principles, leverage points, timing fundamentals, and success rates across skill levels. Technical framework included."
+description: "Coordinate grips, hooks, and timing to move the opponent off balance before completing a sweep or takedown."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kuzushi",
-  "description": "Master sweep mechanics in BJJ. Learn off-balancing principles, leverage points, timing fundamentals, and success rates across skill levels. Technical framework included.",
+  "description": "Coordinate grips, hooks, and timing to move the opponent off balance before completing a sweep or takedown.",
   "url": "https://bjjgraph.org/Principles/Kuzushi",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting sweeps with strength alone without establishing proper leverage points?",
+      "name": "What is a common mistake in Sweeping before affecting balance?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Exhaustion without positional improvement as opponent simply bases harder or uses superior strength to maintain position The correction is: Focus on grip configuration and body positioning first—establish mechanical advantage before attempting to generate force through sweep execution"
+        "text": "The opponent remains braced and the movement takes unnecessary effort. The correction is: Move their weight or draw a reaction before committing to the sweep."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attacking single base point without controlling opponent's ability to create new base points?",
+      "name": "What is a common mistake in Leaving the catching hand free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent simply posts with free hand or foot to recover balance, nullifying sweep attempt and potentially creating passing opportunities The correction is: Control upper body with grips or lower body with hooks so opponent cannot post during sweep—remove multiple base points simultaneously"
+        "text": "The opponent posts and recovers balance. The correction is: Identify and control the likely post as part of the setup."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Poor timing—attempting sweeps when opponent is stationary with established base?",
+      "name": "What is a common mistake in Pushing in the same direction after it is blocked?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Low success rate and wasted energy as opponent's stable position absorbs sweep force without disruption The correction is: Wait for opponent movement or create reactions that force weight shifts—sweep during transitions when base is temporarily compromised"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Releasing grips or hooks prematurely during sweep execution?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent regains base mid-sweep and recovers position or uses momentum to pass guard The correction is: Maintain all points of contact throughout entire sweep arc until positional reversal is complete and new position is secured"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Incorrect force vector—pushing or pulling in directions where opponent can easily recover balance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sweep creates minor imbalance but opponent posts or adjusts base to prevent positional reversal The correction is: Study sweep mechanics to understand optimal force directions—typically diagonal vectors combining vertical and horizontal components work best"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting hip mobility and bridging power development?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Inability to generate sufficient elevation or rotation even with correct leverage and timing The correction is: Dedicate training time to hip mobility drills, bridging exercises, and technical standup practice to build sweep execution engine"
+        "text": "The opponent settles into a stronger base. The correction is: Read the recovery step or weight shift and change the sweep direction."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kuzushi",
-  "description": "Kuzushi is the art of breaking an opponent's balance — disrupting their base and equilibrium along a vector where they cannot post or recover — so a sweep, takedown, or reversal succeeds through leverage and timing rather than strength.",
+  "description": "Kuzushi is off-balancing an opponent by shifting their weight toward a direction where their existing base or available posts cannot support them.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Denying base to make sweeps work",
+      "description": "Kuzushi film study: Denying base to make sweeps work, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PvOPqX5jQHA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PvOPqX5jQHA",
+      "url": "https://www.youtube.com/watch?v=PvOPqX5jQHA",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "All about kuzushi: breaking balance in depth",
       "description": "Kuzushi film study: All about kuzushi: breaking balance in depth, taught by Shintaro Higashi.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0ryNzeo3eoc/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The essential physics behind kuzushi",
       "description": "Kuzushi film study: The essential physics behind kuzushi, taught by Shintaro Nakano.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hOlLwI3dMMA/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Kuzushi: breaking balance in 30 seconds",
       "description": "Kuzushi film study: Kuzushi: breaking balance in 30 seconds, taught by Rener Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/b1zpi81TLPs/hqdefault.jpg",
@@ -216,13 +202,9 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
 
 ## What is Kuzushi?
 
-**Kuzushi is the art of breaking an opponent's balance — disrupting their base and equilibrium along a vector where they cannot post or recover — so a sweep, takedown, or reversal succeeds through leverage and timing rather than strength.**
+**Kuzushi is off-balancing an opponent by shifting their weight toward a direction where their existing base or available posts cannot support them.**
 
-Kuzushi represents the fundamental principles governing successful positional reversals from bottom positions in Brazilian Jiu-Jitsu. At its core, sweeping is the act of disrupting an opponent's base and equilibrium while simultaneously elevating or rotating your own body to achieve a superior position. Understanding sweep mechanics transcends individual techniques—it provides a systematic framework for analyzing weight distribution, leverage points, timing windows, and mechanical advantage across all guard positions. These principles apply universally whether executing a basic scissor sweep from closed guard or a complex berimbolo sequence from De La Riva guard.
-
-Effective sweep mechanics rely on three interconnected elements: base disruption (removing or compromising your opponent's points of contact with the ground), directional control (guiding their body along specific vectors where balance cannot be recovered), and explosive execution (capitalizing on the brief window when their weight is committed and recovery is impossible). The most successful sweeps create what systematic approach calls "structural collapse"—a cascade effect where removing one base point forces weight transfer that automatically compromises remaining points of stability. This systematic approach explains why certain sweeps have dramatically different success rates across skill levels: beginners struggle to identify and exploit these mechanical windows, while advanced practitioners instinctively recognize and chain multiple leverage points together.
-
-The development of sweep mechanics follows a predictable progression from gross motor patterns (bridging, hip elevation) to fine motor control (grip manipulation, angle adjustment) to conceptual mastery (creating reactions, timing opponent movement). Beginners often attempt sweeps with muscular effort alone, intermediates learn to combine leverage with timing, and advanced practitioners develop the ability to chain sweeps together and capitalize on defensive reactions. Understanding these mechanics transforms sweeping from a collection of isolated techniques into a systematic skill set applicable across all bottom positions.
+Identify where the opponent’s weight sits and which hand or foot could catch them. Control that post and redirect the weight as they move.
 
 </section>
 
@@ -233,6 +215,14 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 <p class="section-subtitle">Watch Kuzushi in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=PvOPqX5jQHA)
+
+<p class="clip-credit"><strong>Denying base to make sweeps work</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=PvOPqX5jQHA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -265,15 +255,10 @@ The development of sweep mechanics follows a predictable progression from gross 
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Off-balancing requires disrupting multiple base points simultaneously rather than attacking one point in isolation
-- Leverage multiplication occurs when body positioning creates mechanical advantage exceeding opponent's ability to counter with strength
-- Timing windows exist during opponent weight transfer and movement—static opponents are harder to sweep than moving ones
-- Direction of force matters more than magnitude—sweeps succeed by guiding opponents where they cannot post or recover
-- Hip elevation and bridging generate the vertical component necessary for most sweeping mechanics
-- Grip configuration determines which sweep options are available and controls opponent's ability to post
-- Energy efficiency in sweeps comes from using opponent's weight and momentum against them rather than pure strength
-- Sweep chains and combinations prevent opponents from settling into stable defensive positions
-- Creating reactions through false attacks opens genuine sweep opportunities when opponents shift weight to defend
+- Choose a direction where the opponent has limited support.
+- Control the hand or foot that could catch the fall.
+- Coordinate upper-body grips with leg and hip movement.
+- Use a weight shift or reaction to begin the sweep.
 
 
 </section>
@@ -304,35 +289,13 @@ The development of sweep mechanics follows a predictable progression from gross 
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Hip elevation and posture breaking create the foundation for scissor sweeps, pendulum sweeps, and hip bump sweeps where controlling opponent's upper body prevents posting
+**Butterfly Guard**: Control the posting arm while a hook lifts the weighted thigh, directing the opponent toward the side without a post.
 
-**Butterfly Guard**: Butterfly hooks provide leverage points under opponent's thighs while grips control upper body, allowing elevation sweeps that lift opponent off their base entirely
+**Closed Guard**: Combine posture control with hip movement to shift weight before a scissor, pendulum, or hip bump sweep.
 
-**De La Riva Guard**: De La Riva hook behind opponent's knee removes their backward base while opposite side grips prevent forward posting, creating unidirectional vulnerability
+**De La Riva Guard**: Use the hook and grips together to redirect the opponent’s weight while limiting their ability to step or post.
 
-**X-Guard**: X-Guard structure positions both legs as leverage points directly under opponent's center of mass, allowing pure vertical elevation that prevents posting in any direction
-
-**Single Leg X-Guard**: Single Leg X isolates one opponent leg while controlling their upper body, creating single-point base vulnerability that makes rotational sweeps high-percentage
-
-**Spider Guard**: Spider guard uses extended legs to control distance and disrupt opponent's base while sleeve grips remove posting options, creating push-pull sweep mechanics
-
-**Half Guard**: Underhooks and lockdown create leverage for off-balancing while trapped leg limits opponent's base recovery options, making old school and lockdown sweeps effective
-
-**Deep Half Guard**: Deep Half positioning under opponent disrupts their weight distribution forward while your body becomes a fulcrum for waiter sweep and homer sweep mechanics
-
-**Lasso Guard**: Lasso control around opponent's arm creates a fixed point that prevents posting on that side while opposite leg controls hip position for directional sweeps
-
-**Reverse De La Riva Guard**: Reverse De La Riva hook disrupts opponent's base while inverted positioning creates angles for berimbolo and kiss of the dragon sweep mechanics
-
-**Seated Guard**: Seated guard allows dynamic hip movement and angle changes while maintaining upper body connection, creating timing-based sweep opportunities during opponent's forward pressure
-
-**Shin-to-Shin Guard**: Shin-to-shin connection controls opponent's leg positioning while creating technical standup opportunities and tripod sweep mechanics when they commit weight forward
-
-**Butterfly Half Guard**: Combining butterfly hook with half guard lockdown creates hybrid sweep mechanics using both elevation and rotation against limited opponent base
-
-**Knee Shield Half Guard**: Knee shield frames create distance that forces opponent to commit weight forward to pass, creating timing windows for underhook sweeps and half guard recoveries
-
-**Open Guard**: Open guard's distance management allows for ankle pick sweeps, foot sweeps, and technical standup entries where opponent's weight commitment to closing distance creates vulnerability
+**X-Guard**: Use the leg controls to change the opponent’s stance and choose a sweep direction as their weight transfers.
 
 
 
@@ -356,30 +319,15 @@ The development of sweep mechanics follows a predictable progression from gross 
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting sweeps with strength alone without establishing proper leverage points
-  - **Consequence**: Exhaustion without positional improvement as opponent simply bases harder or uses superior strength to maintain position
-  - **Correction**: Focus on grip configuration and body positioning first—establish mechanical advantage before attempting to generate force through sweep execution
-- **Mistake**: Attacking single base point without controlling opponent's ability to create new base points
-  - **Consequence**: Opponent simply posts with free hand or foot to recover balance, nullifying sweep attempt and potentially creating passing opportunities
-  - **Correction**: Control upper body with grips or lower body with hooks so opponent cannot post during sweep—remove multiple base points simultaneously
-- **Mistake**: Poor timing—attempting sweeps when opponent is stationary with established base
-  - **Consequence**: Low success rate and wasted energy as opponent's stable position absorbs sweep force without disruption
-  - **Correction**: Wait for opponent movement or create reactions that force weight shifts—sweep during transitions when base is temporarily compromised
-- **Mistake**: Releasing grips or hooks prematurely during sweep execution
-  - **Consequence**: Opponent regains base mid-sweep and recovers position or uses momentum to pass guard
-  - **Correction**: Maintain all points of contact throughout entire sweep arc until positional reversal is complete and new position is secured
-- **Mistake**: Incorrect force vector—pushing or pulling in directions where opponent can easily recover balance
-  - **Consequence**: Sweep creates minor imbalance but opponent posts or adjusts base to prevent positional reversal
-  - **Correction**: Study sweep mechanics to understand optimal force directions—typically diagonal vectors combining vertical and horizontal components work best
-- **Mistake**: Neglecting hip mobility and bridging power development
-  - **Consequence**: Inability to generate sufficient elevation or rotation even with correct leverage and timing
-  - **Correction**: Dedicate training time to hip mobility drills, bridging exercises, and technical standup practice to build sweep execution engine
-- **Mistake**: Failing to chain sweeps together when initial attempt is defended
-  - **Consequence**: Returning to neutral position after failed sweep allows opponent to reset and establish strong passing posture
-  - **Correction**: Learn sweep combinations where defensive reactions naturally position you for secondary options—maintain offensive momentum
-- **Mistake**: Ignoring weight distribution changes that telegraph sweep timing to experienced opponents
-  - **Consequence**: Opponent recognizes sweep setup and preemptively adjusts base or changes position before execution
-  - **Correction**: Develop subtle setup mechanics and use feints or false attacks to disguise true sweep intentions until critical timing window
+- **Mistake**: Sweeping before affecting balance
+  - **Consequence**: The opponent remains braced and the movement takes unnecessary effort.
+  - **Correction**: Move their weight or draw a reaction before committing to the sweep.
+- **Mistake**: Leaving the catching hand free
+  - **Consequence**: The opponent posts and recovers balance.
+  - **Correction**: Identify and control the likely post as part of the setup.
+- **Mistake**: Pushing in the same direction after it is blocked
+  - **Consequence**: The opponent settles into a stronger base.
+  - **Correction**: Read the recovery step or weight shift and change the sweep direction.
 
 
 </section>
@@ -387,23 +335,11 @@ The development of sweep mechanics follows a predictable progression from gross 
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Isolated Sweep Drilling** (Focus: Motor pattern development, grip configuration memorization, and understanding correct force vectors for individual sweep techniques)
-Practice specific sweep techniques with compliant partner focusing on perfect mechanical execution without resistance
+**Post check** (Focus: Connect post denial to the sweep direction.)
+Start in butterfly guard with a cooperative partner. Name the catching hand, control it, and slowly lift into the sweep setup. Lower the partner and reset before completing a fall.
 
-**Progressive Resistance Sweeping** (Focus: Building explosive power, timing recognition under pressure, and learning to maintain proper mechanics when opponent actively resists)
-Partner provides graduated resistance levels starting at 20-30% and increasing to 80-90% as technique improves
-
-**Sweep-Specific Positional Sparring** (Focus: Developing timing sensitivity, reaction reading, and ability to recognize sweep windows in dynamic situations with full resistance)
-Rounds starting from specific guard positions where bottom player focuses exclusively on sweep attempts while top player defends
-
-**Sweep Chain Flow Drilling** (Focus: Learning natural sweep combinations, maintaining offensive momentum, and recognizing how defensive reactions create subsequent opportunities)
-Partner defends initial sweep attempt in predictable way and you immediately flow to secondary option without resetting position
-
-**Off-Balancing Sensitivity Drills** (Focus: Developing kinesthetic awareness of opponent's weight distribution and base vulnerabilities before committing to full sweep execution)
-Partner assumes various top positions while you explore different angles, grips, and leverage points to assess base stability without completing sweeps
-
-**Competition Simulation Sweeping** (Focus: Risk assessment, energy management across multiple sweep attempts, and developing psychological confidence in sweep mechanics under pressure)
-Full rounds where you receive points for successful sweeps and partner receives points for passing, simulating competition incentive structure
+**Weight-shift response** (Focus: Recognize weight transfer before committing.)
+Start in open guard. The partner slowly shifts weight between the feet while you use grips and hooks to begin an off-balance. Stop at the first recovery step and reset.
 
 
 

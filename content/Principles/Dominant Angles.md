@@ -4,7 +4,7 @@
 
 ---
 title: "Dominant Angles | BJJ Principle | BJJ Graph"
-description: "Master Dominant Angles in BJJ. Learn strategic principles of generating off-axis positions, creating mechanical advantages, and exploiting structural vulnerabilities."
+description: "Dominant angles put your body off the opponent’s strongest line, opening attacks and reducing the force you must oppose directly."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Dominant Angles",
-  "description": "Master Dominant Angles in BJJ. Learn strategic principles of generating off-axis positions, creating mechanical advantages, and exploiting structural vulnerabilities.",
+  "description": "Dominant angles put your body off the opponent’s strongest line, opening attacks and reducing the force you must oppose directly.",
   "url": "https://bjjgraph.org/Principles/Dominant-Angles",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Creating angles without anchoring grips, allowing opponent to easily follow and maintain alignment?",
+      "name": "What is a common mistake in Moving without an anchor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent simply rotates or repositions to match angular changes, nullifying any advantage created and wasting energy The correction is: Always establish grips or frames that pin opponent in place before initiating angular movements, preventing their ability to track your position"
+        "text": "The opponent follows and stays aligned with you. The correction is: Retain a useful grip or body contact as the hips move."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Moving in small incremental angles without commitment or exploitation?",
+      "name": "What is a common mistake in Changing angle without using it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent recognizes angular threat and preemptively adjusts base or position, closing window for effective angle utilization The correction is: Make decisive angular movements and immediately attack or advance—hesitation between creation and exploitation allows opponent defensive adjustment"
+        "text": "The opponent has time to recover their defense. The correction is: Connect the angle change to a specific next action."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Creating angles directly into opponent's strength or prepared defenses?",
+      "name": "What is a common mistake in Sacrificing base for the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Movement directly toward opponent's posted hand, strong side, or anticipated defensive position wastes the mechanical advantage angles should provide The correction is: Analyze opponent's structure to identify weak defensive zones and create angles specifically toward those vulnerabilities"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting base maintenance during angular movements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Loss of own balance while creating angles leads to sweeps or positional reversals, particularly when opponent recognizes and counters movement The correction is: Maintain stable base throughout angular adjustments, using grounded points of contact and frames to ensure movement doesn't compromise defensive structure"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Attempting large angular changes when opponent has stable base and good alignment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Strong opponent resistance prevents significant movement, expending high energy for minimal positional gain The correction is: Time angular movements for moments when opponent's base is compromised—during transitions, weight shifts, or when they commit to actions"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Creating angles only with upper body while hips remain stationary?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Superficial angular positioning that doesn't fundamentally change structural dynamics or create meaningful offensive opportunities The correction is: Drive angular changes primarily through hip movement and lower body displacement, with upper body following to maintain connection"
+        "text": "You gain access but become easy to reverse. The correction is: Move your supporting contacts with your hips."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Dominant Angles",
-  "description": "Dominant Angles are off-axis body positions created perpendicular or diagonal to an opponent's alignment and force vectors, multiplying mechanical leverage while compromising their structure and nullifying their strongest defenses.",
+  "description": "A dominant angle puts your body outside the opponent’s strongest line of defense, giving you a clearer route to control or attack.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Resetting the hip angle against a knee-cut frame",
+      "description": "Dominant Angles film study: Resetting the hip angle against a knee-cut frame, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yOTkN1187H4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yOTkN1187H4",
+      "url": "https://www.youtube.com/watch?v=yOTkN1187H4",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Finding the perfect angles from guard",
       "description": "Dominant Angles film study: Finding the perfect angles from guard, taught by Rickson Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/55zx0wJVo3I/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Guard passing with pressure and angles",
       "description": "Dominant Angles film study: Guard passing with pressure and angles, taught by Predators MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IlWRaPI6BLA/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Force vectors and planes in jiu-jitsu",
       "description": "Dominant Angles film study: Force vectors and planes in jiu-jitsu, taught by Rob Vella.",
       "thumbnailUrl": "https://i.ytimg.com/vi/l4stVpjco6E/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master Dominant Angles in BJJ. Learn strategic principles of gener
 
 ## What are Dominant Angles?
 
-**Dominant Angles are off-axis body positions created perpendicular or diagonal to an opponent's alignment and force vectors, multiplying mechanical leverage while compromising their structure and nullifying their strongest defenses.**
+**A dominant angle puts your body outside the opponent’s strongest line of defense, giving you a clearer route to control or attack.**
 
-Across every grappling exchange, the practitioner who controls the angle controls the dilemma. Angle creation is a comprehensive conceptual framework rather than a single movement, applying across all positions and determining success in both offensive and defensive scenarios. The biomechanical core is that moving perpendicular or diagonal to an opponent's force vectors multiplies effectiveness while minimizing energy expenditure, making angle creation fundamental to efficient BJJ. It serves as both an offensive mechanism that opens attack pathways and compromises an opponent's defenses, and a defensive tool that nullifies pressure and creates escape opportunities. The ability to consistently create and exploit angles often determines technical success against similar-skilled opponents, making it one of the most essential conceptual elements in advanced BJJ development.
+Move your hips and keep an anchoring connection so the opponent cannot simply turn with you. Use the opening before they recover their alignment.
 
 </section>
 
@@ -229,6 +215,14 @@ Across every grappling exchange, the practitioner who controls the angle control
 
 <p class="section-subtitle">Watch Dominant Angles in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=yOTkN1187H4)
+
+<p class="clip-credit"><strong>Resetting the hip angle against a knee-cut frame</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=yOTkN1187H4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Across every grappling exchange, the practitioner who controls the angle control
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Move perpendicular to opponent's pressure rather than directly against it for maximum efficiency
-- Create angles to expose opponent's structural vulnerabilities and weak defensive zones
-- Use hip movement as primary mechanism for generating significant angular changes
-- Recognize that small angular changes create disproportionately large defensive disruption
-- Combine angle creation with grips or control points to prevent opponent's realignment
-- Time angular movements to coincide with opponent's weight shifts or commitments
-- Chain multiple angular adjustments to progressively compromise opponent's position
-- Coordinate upper and lower body to create compound angles affecting multiple planes
-- Understand that opponent's strongest defenses are typically aligned with their body centerline
+- Move across pressure instead of directly into it.
+- Use hip movement to change the line of attack.
+- Keep a grip or contact that limits the opponent’s turn.
+- Maintain your base while using the new angle.
 
 
 </section>
@@ -300,29 +289,13 @@ Across every grappling exchange, the practitioner who controls the angle control
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Create angles by hip escaping laterally while maintaining closed guard, positioning body perpendicular to opponent to set up triangles, armbars, or sweeps. Angular displacement opens attack lanes while compromising opponent's posture.
+**Closed Guard**: Move your hips to the side while maintaining control to open an armbar, triangle, or sweep entry.
 
-**Half Guard**: Generate angles by getting on side and creating perpendicular alignment to opponent's pressure, enabling underhook access, back takes, or sweep entries. Angles neutralize opponent's crossface and shoulder pressure.
+**Half Guard**: Turn onto a useful side and connect to an underhook rather than remaining flat beneath pressure.
 
-**Side Control**: Maintain angular pressure by positioning body at 45-degree angle to opponent's centerline, maximizing shoulder pressure while preventing their hip escape. Angles make weight feel heavier and escapes more difficult.
+**Side Control**: Adjust your body angle as the opponent turns to preserve upper-body and hip control.
 
-**Mount**: Create angles by shifting weight and hip position off opponent's centerline to set up armbars, transitions to technical mount, or back takes. Angular positions expose one side while opponent defends the other.
-
-**Deep Half Guard**: Use angles by positioning body perpendicular under opponent, creating structural problems for their base while enabling sweep entries. Perpendicular alignment multiplies leverage for sweeps and escapes.
-
-**Butterfly Guard**: Generate angles through lateral movement and hook positioning that creates off-axis alignment, enabling elevator sweeps and guard passes to be defended through angle changes rather than strength.
-
-**De La Riva Guard**: Establish angular control by positioning body perpendicular to opponent's stance, using DLR hook and grips to maintain angle while preventing their square-up. Angles enable back takes and sweeps.
-
-**X-Guard**: Create upward angles by elevating opponent's hips while positioning body underneath at perpendicular alignment, compromising their base in multiple directions simultaneously through angular structure.
-
-**Spider Guard**: Use grips to create angular separation, extending one side while contracting the other to position opponent at diagonal alignment that opens sweep and submission opportunities while preventing passes.
-
-**Reverse De La Riva Guard**: Establish reverse angles by inverting under opponent's base, creating perpendicular alignment from underneath that enables back takes and sweep entries.
-
-**Open Guard**: Constantly adjust body angles to remain perpendicular to opponent's passing direction, using angular frames and positioning to create defensive barriers that force passer to reset.
-
-**Lasso Guard**: Use lasso control to create extreme angular separation on one side while maintaining perpendicular body positioning that opens sweeps and prevents opponent from establishing centered pressure.
+**Mount**: Shift toward one side to isolate an arm or move into technical mount.
 
 
 
@@ -346,24 +319,15 @@ Across every grappling exchange, the practitioner who controls the angle control
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Creating angles without anchoring grips, allowing opponent to easily follow and maintain alignment
-  - **Consequence**: Opponent simply rotates or repositions to match angular changes, nullifying any advantage created and wasting energy
-  - **Correction**: Always establish grips or frames that pin opponent in place before initiating angular movements, preventing their ability to track your position
-- **Mistake**: Moving in small incremental angles without commitment or exploitation
-  - **Consequence**: Opponent recognizes angular threat and preemptively adjusts base or position, closing window for effective angle utilization
-  - **Correction**: Make decisive angular movements and immediately attack or advance—hesitation between creation and exploitation allows opponent defensive adjustment
-- **Mistake**: Creating angles directly into opponent's strength or prepared defenses
-  - **Consequence**: Movement directly toward opponent's posted hand, strong side, or anticipated defensive position wastes the mechanical advantage angles should provide
-  - **Correction**: Analyze opponent's structure to identify weak defensive zones and create angles specifically toward those vulnerabilities
-- **Mistake**: Neglecting base maintenance during angular movements
-  - **Consequence**: Loss of own balance while creating angles leads to sweeps or positional reversals, particularly when opponent recognizes and counters movement
-  - **Correction**: Maintain stable base throughout angular adjustments, using grounded points of contact and frames to ensure movement doesn't compromise defensive structure
-- **Mistake**: Attempting large angular changes when opponent has stable base and good alignment
-  - **Consequence**: Strong opponent resistance prevents significant movement, expending high energy for minimal positional gain
-  - **Correction**: Time angular movements for moments when opponent's base is compromised—during transitions, weight shifts, or when they commit to actions
-- **Mistake**: Creating angles only with upper body while hips remain stationary
-  - **Consequence**: Superficial angular positioning that doesn't fundamentally change structural dynamics or create meaningful offensive opportunities
-  - **Correction**: Drive angular changes primarily through hip movement and lower body displacement, with upper body following to maintain connection
+- **Mistake**: Moving without an anchor
+  - **Consequence**: The opponent follows and stays aligned with you.
+  - **Correction**: Retain a useful grip or body contact as the hips move.
+- **Mistake**: Changing angle without using it
+  - **Consequence**: The opponent has time to recover their defense.
+  - **Correction**: Connect the angle change to a specific next action.
+- **Mistake**: Sacrificing base for the angle
+  - **Consequence**: You gain access but become easy to reverse.
+  - **Correction**: Move your supporting contacts with your hips.
 
 
 </section>
@@ -371,23 +335,11 @@ Across every grappling exchange, the practitioner who controls the angle control
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Isolation Drilling: Hip Escape Mechanics** (Focus: Building efficient hip movement patterns and understanding of body mechanics that generate significant angles with minimal energy expenditure)
-Partner holds specific positions while practitioner focuses exclusively on creating maximum angular displacement through various hip escape variations, developing fundamental movement quality
+**Guard angle walkthrough** (Focus: Connect hip movement to control.)
+From closed guard with a cooperative partner, establish familiar controls and move your hips toward an attack angle. Stop at the entry, check your connection, and reset before submission pressure.
 
-**Grip-Restricted Positional Sparring** (Focus: Developing angle creation as primary strategic tool when grip advantages are limited or unavailable)
-Practice specific positions with limited grip options, forcing reliance on angular positioning rather than grip fighting, developing ability to create and maintain angles through body positioning alone
-
-**Progressive Angle Accumulation Games** (Focus: Cultivating strategic mindset of accumulating small angular advantages that compound into dominant positions through sequential movements)
-Positional sparring where each small angular gain must be maintained and built upon incrementally, rewarding patience and progressive positioning over explosive single movements
-
-**Angle Recognition Flow Rolling** (Focus: Developing visual recognition of angular opportunities and understanding position-specific optimal directions for angle creation)
-Slow-paced rolling where partners specifically focus on creating and recognizing angles, pausing to identify optimal angular directions before movements
-
-**Reaction-Based Angle Chaining** (Focus: Training adaptive angle creation that responds dynamically to opponent's defensive adjustments and counter-movements)
-Partner provides specific reactions to initial angular movements, and practitioner must chain appropriate follow-up angles based on those reactions
-
-**Competition Simulation with Angle Emphasis** (Focus: Integrating angle creation into high-pressure competitive scenarios where timing and decisiveness become critical factors)
-Full-intensity sparring with coaching feedback specifically highlighting successful angle creation moments and missed opportunities for angular positioning
+**Follow or anchor** (Focus: Feel which connection preserves an angle.)
+From open guard, ask a partner to follow your slow angle change. Repeat with a useful grip or hook and compare how easily they can realign; reset after each attempt.
 
 
 

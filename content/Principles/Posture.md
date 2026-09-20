@@ -4,7 +4,7 @@
 
 ---
 title: "Posture | BJJ Principle | BJJ Graph"
-description: "Use posture in BJJ to align your head, spine, and hips from either role. Learn to preserve your own alignment and disrupt it during guard play, passing, and submissions."
+description: "Maintain or recover useful body alignment while using grips, legs, and angles to disrupt the opponent’s posture."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posture",
-  "description": "Use posture in BJJ to align your head, spine, and hips from either role. Learn to preserve your own alignment and disrupt it during guard play, passing, and submissions.",
+  "description": "Maintain or recover useful body alignment while using grips, legs, and angles to disrupt the opponent’s posture.",
   "url": "https://bjjgraph.org/Principles/Posture",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting to break posture with arm strength alone without using legs or hip movement?",
+      "name": "What is a common mistake in Pulling only with the arms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapidly fatigues arms while opponent easily maintains posture through superior leverage. Arm-only posture breaking fails against competent opponents and wastes energy that should be conserved for sustained guard work. The correction is: Integrate leg squeeze (closed guard), hooks (butterfly/DLR), or frames (open guard) to create structural advantage. Use hip movement to create angles that compromise opponent's base. Arms should guide and control rather than provide primary breaking force."
+        "text": "The opponent keeps their alignment while your grips tire. The correction is: Connect the pull to your legs and hip movement."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Breaking posture but failing to immediately follow with offensive attack?",
+      "name": "What is a common mistake in Treating upright as the only good posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent recovers posture during the delay, wasting the advantage created by breaking posture. Broken posture without immediate offensive action allows opponent to reset to defensive structure and continue passing attempts. The correction is: Have pre-planned sequences ready to execute the instant posture breaks. Hip bump sweep, triangle setup, or omoplata entry should begin immediately when opponent's posture is compromised. Eliminate dead time between posture breaking and attack initiation."
+        "text": "Your alignment stops matching the position or movement you need. The correction is: Choose a head, spine, and hip relationship that supports the current task."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using incorrect grip selection that doesn't provide mechanical advantage for posture breaking?",
+      "name": "What is a common mistake in Letting the opponent recover after a posture break?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Even with correct body mechanics, poor grips prevent effective posture breaking. Gripping pants low or having only one point of control allows opponent to easily maintain upright position despite breaking attempts. The correction is: Study guard-specific optimal grips for posture breaking. Closed guard needs high collar and sleeve. Spider needs sleeve grips with feet on biceps. DLR requires ankle and collar combination. Prioritize establishing correct grips before attempting to break posture."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Attempting to break posture when opponent has solid base and is statically braced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Requires enormous energy expenditure for minimal result as opponent's static structure efficiently resists pulling force. Creates fatigue without creating offensive opportunities, leaving guard player exhausted and vulnerable to passing. The correction is: Wait for or create timing windows when opponent shifts weight, changes grips, or moves forward. Time posture breaking attempts to coincide with opponent's movement phases when their structure is transitional and vulnerable rather than static and braced."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Releasing posture breaking control too early during offensive sequences?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent recovers posture mid-technique and easily defends sweep or submission attempt. Premature release of posture control is primary reason offensive attacks from guard fail despite correct technical execution of the attack itself. The correction is: Maintain pulling pressure and broken posture throughout entire offensive sequence until position is secured or submission is locked. Posture control is last thing to release, not first. Sustain broken posture as foundational control that enables technique completion."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Pulling opponent's posture straight down without creating angles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent can distribute weight across wide base and maintain stability despite forward pull. Straight pulling without angular component allows opponent to find posting positions that resist further posture breaking and enable passing pressure. The correction is: Combine pulling pressure with hip movement that creates angles relative to opponent's centerline. Pull opponent toward your chest while simultaneously angling hips away from their passing direction, creating rotational force that compromises their base and prevents stable posting."
+        "text": "The opening closes before you establish a useful follow-up. The correction is: Connect the posture break to a prepared control, angle change, or sweep setup."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Posture",
-  "description": "Posture is the alignment of the head, spine, and pelvis that supports effective movement and force transfer. Both players preserve or recover their own posture while disrupting the opponent’s, whether standing, playing guard, passing, escaping, or exchanging submissions.",
+  "description": "Posture is the alignment of the head, spine, and pelvis that supports your current movement, balance, and ability to transmit or resist force.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Fixing posture to get past the knee cut",
+      "description": "Posture film study: Fixing posture to get past the knee cut, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mIrzLpUr2VE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mIrzLpUr2VE",
+      "url": "https://www.youtube.com/watch?v=mIrzLpUr2VE",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Posture and posture breaking from the guard",
       "description": "Posture film study: Posture and posture breaking from the guard, taught by TakingItToTheMMAT.",
       "thumbnailUrl": "https://i.ytimg.com/vi/WtnCe6LPJJ8/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The posture concept that stops you getting crushed",
       "description": "Posture film study: The posture concept that stops you getting crushed, taught by Brandon McCaghren.",
       "thumbnailUrl": "https://i.ytimg.com/vi/onODo5EQkrk/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Common posture mistake made by guard players",
       "description": "Posture film study: Common posture mistake made by guard players, taught by Rickson Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Use posture in BJJ to align your head, spine, and hips from either
 
 ## What is Posture?
 
-**Posture is the alignment of the head, spine, and pelvis that supports effective movement and force transfer. Both players preserve or recover their own posture while disrupting the opponent’s, whether standing, playing guard, passing, escaping, or exchanging submissions.**
+**Posture is the alignment of the head, spine, and pelvis that supports your current movement, balance, and ability to transmit or resist force.**
 
-Posture connects the head, spine, and pelvis into a shape that supports the task at hand. It is not simply sitting upright inside closed guard: a bottom player needs posture to frame, turn, and recover guard, while a top player needs it to transmit pressure without overreaching. In standing exchanges, posture supports balance and makes grips useful. During submissions, both attacker and defender manage spinal and hip alignment to preserve control or recover movement. Effective posture changes with the position; staying rigid or insisting on a vertical spine can make movement harder. Ask whether your current alignment lets you direct force and move safely, then disrupt the opponent’s ability to do the same.
+Useful posture changes with the task; it does not always mean sitting upright. Coordinate your alignment with base and grips, and restore it when the opponent separates your head from your hips.
 
 </section>
 
@@ -229,6 +215,14 @@ Posture connects the head, spine, and pelvis into a shape that supports the task
 
 <p class="section-subtitle">Watch Posture in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=mIrzLpUr2VE)
+
+<p class="clip-credit"><strong>Fixing posture to get past the knee cut</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=mIrzLpUr2VE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,13 +255,10 @@ Posture connects the head, spine, and pelvis into a shape that supports the task
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Preserve useful head, spine, and pelvis alignment from top, bottom, attacking, and defending roles
-- Adapt posture to the task instead of insisting on an upright or rigid spine in every position
-- Coordinate posture with base and limb structure so movement and force transfer remain available
-- Use grips and angles to disrupt the opponent’s alignment before advancing control
-- Recover your own alignment when pressure or a grip prevents effective movement
-- Read the opponent’s recovery: rising posture can open hip-bump attacks while forward posture can expose other routes
-- Reassess both players’ posture during transitions and submission exchanges
+- Keep head, spine, and pelvis aligned for the movement you need.
+- Support posture with a stable base and connected limbs.
+- Use legs and hip angle with grips to disrupt the opponent’s alignment.
+- Follow a posture change with control or movement before it is recovered.
 
 
 </section>
@@ -298,29 +289,13 @@ Posture connects the head, spine, and pelvis into a shape that supports the task
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Primary posture breaking method uses leg squeeze combined with collar and sleeve grips pulling opponent forward and down. Legs provide structural reinforcement preventing opponent from posting wide. Hip movement creates angles that compromise opponent's ability to stack weight on knees. Breaking posture in closed guard is prerequisite for all offensive attacks.
+**Closed Guard**: From top, recover supported head and hip alignment before opening guard. From bottom, coordinate grips and legs to draw the upper body forward.
 
-**Spider Guard**: Posture breaking uses foot pressure on biceps combined with sleeve grips to extend opponent's arms and prevent them from bringing hands close to body for postural support. Extended arms eliminate opponent's ability to create vertical alignment. Hip movement coordinates with arm extension to pull opponent forward into broken posture.
+**Spider Guard**: Sleeve grips and feet on the arms change the opponent’s arm support and balance as you move your hips.
 
-**De La Riva Guard**: Hook behind opponent's leg combined with ankle grip and collar control creates mechanical advantage for breaking posture. De La Riva hook prevents opponent from creating solid base while collar grip pulls them forward and down. Breaking posture in DLR neutralizes passing pressure and creates sweep opportunities.
+**Butterfly Guard**: From bottom, keep a useful seated alignment while using upper-body grips and hooks to move the opponent’s weight.
 
-**Butterfly Guard**: Underhooks combined with butterfly hooks create powerful posture breaking mechanics. Underhooks prevent opponent from creating distance while hooks elevate opponent's hips, disrupting their ability to maintain vertical alignment. Coordinated hook elevation and underhook pulling breaks posture efficiently.
-
-**Half Guard**: Underhook on trapped leg side provides primary posture breaking tool combined with lockdown or knee shield. Underhook pulls opponent's torso down while preventing them from achieving crossface control. Breaking posture in half guard creates space for sweep entries and prevents flattening.
-
-**Lasso Guard**: Lasso around opponent's arm creates mechanical trap preventing posture while opposite leg controls distance. Pulling on lasso sleeve grip while extending leg around arm breaks opponent's posture to that side. Compromised posture prevents passing while creating sweep opportunities through structural imbalance.
-
-**Open Guard**: Multiple points of contact including sleeve grips, collar grips, and leg frames combine to create posture breaking capability. Open guard posture breaking is more dynamic, requiring constant adjustment as opponent moves. Frame placement on hips or biceps prevents opponent from achieving solid passing posture.
-
-**Seated Guard**: Ankle and sleeve grips combined with active hip movement prevent opponent from achieving dominant passing angles. Posture breaking in seated guard focuses on preventing opponent from establishing grips and pressure that would flatten guard player. Constant movement and grip fighting maintain broken opponent posture.
-
-**Collar Sleeve Guard**: Cross collar grip provides powerful pulling mechanism while same-side sleeve grip extends opponent's arm and prevents posting. Coordinating these grips with hip movement breaks opponent's posture by attacking their structure from two different vectors. Collar grip pulls down while sleeve grip prevents arm from supporting posture.
-
-**Rubber Guard**: High guard position with leg controlling opponent's posture combines with overhook or collar grip to create extreme posture breaking control. Rubber guard mechanics use leg as powerful lever preventing opponent from lifting head or creating space. Sustained broken posture enables submission attacks from guard.
-
-**X-Guard**: Hook structure under opponent combined with sleeve grips creates posture breaking through upward elevation and forward pulling. X-Guard mechanics break posture by lifting opponent's base while pulling upper body forward, creating severe postural compromise that enables sweeps.
-
-**Lapel Guard**: Lapel wraps and controls provide unique mechanical advantage for posture breaking by creating pulling points that opponent cannot easily defend. Lapel tension combined with leg frames breaks posture through constant directional pressure that opponent struggles to counter effectively.
+**Half Guard**: The bottom player uses frames and hip angle to avoid being flattened; the top player coordinates upper-body control and base.
 
 
 
@@ -344,24 +319,15 @@ Posture connects the head, spine, and pelvis into a shape that supports the task
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting to break posture with arm strength alone without using legs or hip movement
-  - **Consequence**: Rapidly fatigues arms while opponent easily maintains posture through superior leverage. Arm-only posture breaking fails against competent opponents and wastes energy that should be conserved for sustained guard work.
-  - **Correction**: Integrate leg squeeze (closed guard), hooks (butterfly/DLR), or frames (open guard) to create structural advantage. Use hip movement to create angles that compromise opponent's base. Arms should guide and control rather than provide primary breaking force.
-- **Mistake**: Breaking posture but failing to immediately follow with offensive attack
-  - **Consequence**: Opponent recovers posture during the delay, wasting the advantage created by breaking posture. Broken posture without immediate offensive action allows opponent to reset to defensive structure and continue passing attempts.
-  - **Correction**: Have pre-planned sequences ready to execute the instant posture breaks. Hip bump sweep, triangle setup, or omoplata entry should begin immediately when opponent's posture is compromised. Eliminate dead time between posture breaking and attack initiation.
-- **Mistake**: Using incorrect grip selection that doesn't provide mechanical advantage for posture breaking
-  - **Consequence**: Even with correct body mechanics, poor grips prevent effective posture breaking. Gripping pants low or having only one point of control allows opponent to easily maintain upright position despite breaking attempts.
-  - **Correction**: Study guard-specific optimal grips for posture breaking. Closed guard needs high collar and sleeve. Spider needs sleeve grips with feet on biceps. DLR requires ankle and collar combination. Prioritize establishing correct grips before attempting to break posture.
-- **Mistake**: Attempting to break posture when opponent has solid base and is statically braced
-  - **Consequence**: Requires enormous energy expenditure for minimal result as opponent's static structure efficiently resists pulling force. Creates fatigue without creating offensive opportunities, leaving guard player exhausted and vulnerable to passing.
-  - **Correction**: Wait for or create timing windows when opponent shifts weight, changes grips, or moves forward. Time posture breaking attempts to coincide with opponent's movement phases when their structure is transitional and vulnerable rather than static and braced.
-- **Mistake**: Releasing posture breaking control too early during offensive sequences
-  - **Consequence**: Opponent recovers posture mid-technique and easily defends sweep or submission attempt. Premature release of posture control is primary reason offensive attacks from guard fail despite correct technical execution of the attack itself.
-  - **Correction**: Maintain pulling pressure and broken posture throughout entire offensive sequence until position is secured or submission is locked. Posture control is last thing to release, not first. Sustain broken posture as foundational control that enables technique completion.
-- **Mistake**: Pulling opponent's posture straight down without creating angles
-  - **Consequence**: Opponent can distribute weight across wide base and maintain stability despite forward pull. Straight pulling without angular component allows opponent to find posting positions that resist further posture breaking and enable passing pressure.
-  - **Correction**: Combine pulling pressure with hip movement that creates angles relative to opponent's centerline. Pull opponent toward your chest while simultaneously angling hips away from their passing direction, creating rotational force that compromises their base and prevents stable posting.
+- **Mistake**: Pulling only with the arms
+  - **Consequence**: The opponent keeps their alignment while your grips tire.
+  - **Correction**: Connect the pull to your legs and hip movement.
+- **Mistake**: Treating upright as the only good posture
+  - **Consequence**: Your alignment stops matching the position or movement you need.
+  - **Correction**: Choose a head, spine, and hip relationship that supports the current task.
+- **Mistake**: Letting the opponent recover after a posture break
+  - **Consequence**: The opening closes before you establish a useful follow-up.
+  - **Correction**: Connect the posture break to a prepared control, angle change, or sweep setup.
 
 
 </section>
@@ -369,20 +335,11 @@ Posture connects the head, spine, and pelvis into a shape that supports the task
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Isolated Posture Drilling** (Focus: Building mechanical efficiency in posture breaking movements without the complexity of following with attacks. Develops feel for optimal timing, grip selection, and coordination of pulling pressure with hip movement across different guard types.)
-Partner starts in guard with upright posture. Focus exclusively on breaking posture using guard-specific mechanics without attempting sweeps or submissions. Partner provides progressive resistance, making posture recovery attempts as breaking skill develops.
+**Break and recover** (Focus: Feel the connection between posture and base.)
+Start in closed guard. The bottom partner gently coordinates grips and legs to change posture; the top partner restores alignment. Reset after either action and switch roles.
 
-**Posture to Attack Flow** (Focus: Integration of posture breaking with immediate offensive follow-up. Eliminates dead time between breaking posture and attacking. Develops automatic connection between achieving broken posture and initiating offensive sequences.)
-Drilling sequence where first rep breaks posture, second rep executes specific attack from broken posture, third rep chains multiple attacks maintaining broken posture throughout. Partner increases resistance progressively across rounds.
-
-**Specific Sparring from Broken vs Upright Posture** (Focus: Demonstrating through live resistance how drastically broken posture increases success rates of guard attacks. Creates experiential understanding of why posture breaking is priority rather than purely theoretical knowledge.)
-Positional sparring rounds where top player alternates starting from upright posture vs pre-broken posture. Bottom player compares success rates of attacks from each starting condition to reinforce importance of posture breaking as prerequisite for offense.
-
-**Posture Maintenance Resistance Training** (Focus: Developing ability to break posture against opponent whose primary focus is preventing it. Simulates competition scenarios where opponents understand importance of posture maintenance and actively resist breaking attempts.)
-Top player's only goal is maintaining upright posture while bottom player attempts to break it using all available guard tools. Top player practices defending posture breaking attempts while bottom player develops ability to break posture against maximum resistance.
-
-**Guard Type Rotation for Posture Variation** (Focus: Comprehensive development of posture breaking capability across all major guard types rather than specialization in single guard. Ensures well-rounded guard game where posture breaking competency isn't limited to preferred guard positions.)
-Systematic rotation through closed guard, open guard, spider, DLR, butterfly, and half guard focusing on guard-specific posture breaking methods. Each position gets focused attention on its unique mechanical requirements for effective posture breaking.
+**Posture into a sweep setup** (Focus: Use a posture change while it is available.)
+Start in butterfly guard with a cooperative partner. Change their posture, establish the sweep angle, and pause before lifting. Reset if posture is recovered, then try again.
 
 
 

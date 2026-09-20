@@ -4,7 +4,7 @@
 
 ---
 title: "Forward Pressure | BJJ Principle | BJJ Graph"
-description: "Master Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Technical analysis included."
+description: "Forward pressure uses connected weight and movement to take space, challenge frames, and advance while keeping a stable base."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Forward Pressure",
-  "description": "Master Forward Pressure in BJJ. Learn strategic force application, weight distribution, and advancement principles across positions. Technical analysis included.",
+  "description": "Forward pressure uses connected weight and movement to take space, challenge frames, and advance while keeping a stable base.",
   "url": "https://bjjgraph.org/Principles/Forward-Pressure",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying maximum pressure immediately without establishing proper connection points or base?",
+      "name": "What is a common mistake in Driving before establishing base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates vulnerability to sweeps and reversals as excessive force without proper structure makes the top player off-balanced and easy to redirect, while also rapidly exhausting energy reserves without achieving positional advancement. The correction is: Build pressure gradually after establishing strong base and optimal connection points, using incremental force increases that maintain defensive stability while systematically breaking down opponent's defensive structures."
+        "text": "The opponent can redirect your committed weight. The correction is: Set supporting contacts before adding forward force."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Continuing forward pressure directly into strong defensive frames rather than adjusting pressure angle?",
+      "name": "What is a common mistake in Pushing directly into a strong frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Wastes energy fighting against mechanically sound defensive structures, creates stalemate situations where neither player can advance, and potentially allows opponent to use the pressure against you through sweep mechanics or transitions. The correction is: Develop sensitivity to recognize when frames are mechanically strong and immediately adjust pressure vectors to bypass or undermine frame structures rather than confronting them head-on, finding paths of least resistance for advancement."
+        "text": "More effort produces little advancement. The correction is: Change the angle or address the frame first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using purely muscular force for pressure application rather than weight distribution and skeletal positioning?",
+      "name": "What is a common mistake in Keeping the same pressure throughout?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapidly depletes energy reserves making sustained pressure impossible, creates tension that reduces sensitivity to opponent's movements, and makes pressure application predictable and easier to defend against through timing and reactive movements. The correction is: Learn to use body weight, hip positioning, and skeletal structure to create pressure, engaging muscles only to make micro-adjustments and maintain connection points rather than generating force entirely through muscular contraction."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Maintaining constant uniform pressure without strategic variation or reactive adjustment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to adapt to consistent pressure patterns and develop sustainable defensive structures, fails to create reactive opportunities that arise from pressure changes, and reduces the psychological impact of pressure application. The correction is: Implement strategic pressure variation including intensity modulation, directional changes, and pulsing patterns that prevent defensive adaptation while creating reactive moments that expose vulnerabilities for exploitation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Focusing forward pressure exclusively on one connection point or pressure vector?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates predictable pressure that is easier to defend with targeted frame placement, allows opponent to concentrate defensive resources on a single area, and fails to create the compound pressure situations that overwhelm defensive systems. The correction is: Develop multi-directional pressure coordination where upper and lower body pressure work synergistically, creating pressure dilemmas where defending one vector exposes vulnerability to another, making comprehensive defense impossible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Advancing pressure without maintaining awareness of submission vulnerabilities or counter-attack opportunities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates exposure to guillotines, triangles, or sweep attempts as overly aggressive forward pressure often exposes the neck or creates off-balancing moments that skilled opponents exploit for submissions or reversals. The correction is: Maintain defensive awareness throughout pressure application, keeping chin protected, base stable, and pressure controlled enough to react immediately to submission threats or counter-attack attempts without abandoning forward advancement."
+        "text": "The opponent changes direction while your force stays fixed. The correction is: Adjust pressure to the current escape or opening."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Forward Pressure",
-  "description": "Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.",
+  "description": "Forward pressure is controlled advancing force through your base and contact points that takes space and limits the opponent’s movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Using your head to create passing pressure",
+      "description": "Forward Pressure film study: Using your head to create passing pressure, taught by Nick Albin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ADiyj3T7nw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ADiyj3T7nw",
+      "url": "https://www.youtube.com/watch?v=_ADiyj3T7nw",
+      "creator": { "@type": "Person", "name": "Nick Albin" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Pressure: the science behind your jiu jitsu",
       "description": "Forward Pressure film study: Pressure: the science behind your jiu jitsu, taught by RVV BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Gordon Ryan\u0027s no-gi pressure passing system",
       "description": "Forward Pressure film study: Gordon Ryan\u0027s no-gi pressure passing system, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OdscGUlottI/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Danaher on driving forward into the opponent",
       "description": "Forward Pressure film study: Danaher on driving forward into the opponent, taught by John Danaher.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GZbesQUVTao/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 
 ## What is Forward Pressure?
 
-**Forward Pressure is the principle of applying continuous, directional advancing force through weight, connection points, and body structure to collapse an opponent's frames, eliminate space, and drive positional advancement.**
+**Forward pressure is controlled advancing force through your base and contact points that takes space and limits the opponent’s movement.**
 
-Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, and submission setups - the difference between a practitioner who advances and one who stalls often comes down to the quality of their advancing force. Forward pressure is a conceptual framework rather than a single technique, encompassing the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises an opponent's defensive structures. It functions both as an offensive weapon that breaks through resistance and as a control mechanism that limits an opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by an opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.
+Connect before driving, and change direction when a frame blocks your path. Keep enough support and mobility to follow a turn rather than falling into the space you are trying to take.
 
 </section>
 
@@ -229,6 +215,14 @@ Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, an
 
 <p class="section-subtitle">Watch Forward Pressure in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=_ADiyj3T7nw)
+
+<p class="clip-credit"><strong>Using your head to create passing pressure</strong> — taught by Nick Albin · <a href="https://www.youtube.com/watch?v=_ADiyj3T7nw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, an
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Direct force application along strategic advancement pathways
-- Maintain continuous pressure through positional transitions
-- Coordinate pressure with strategic weight distribution and connection points
-- Create pressure dilemmas that force defensive compromises
-- Apply psychological pressure through relentless advancement
-- Utilize mechanical advantage to maximize pressure efficiency
-- Adapt pressure angle and intensity based on opponent's defensive structures
-- Balance pressure with mobility to counter defensive reactions
-- Integrate forward pressure with tactical grip configurations
+- Establish contact and base before advancing.
+- Use bodyweight and alignment rather than constant muscular pushing.
+- Change the angle when a strong frame stops you.
+- Keep support available as the opponent turns or withdraws.
 
 
 </section>
@@ -300,29 +289,13 @@ Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, an
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Knee on Belly**: Concentrated forward pressure through the knee controls opponent's diaphragm and creates psychological pressure, with the ability to shift pressure angle preventing both escape attempts and setting up transitions to mount or submissions.
+**Knee on Belly**: Coordinate the controlling knee and posted foot to follow movement without tipping forward.
 
-**Side Control**: Multi-directional forward pressure through chest weight, crossface pressure, and hip positioning prevents opponent's escape attempts while creating the positional dominance necessary for submission setups or further advancement to mount.
+**Side Control**: Connect chest pressure with hip control as the opponent frames or turns.
 
-**Mount**: Strategic forward pressure through chest and hip contact controls opponent's bridging attempts while maintaining high position, with pressure adjustments preventing both escape sequences and creating submission opportunities through defensive reactions.
+**Mount**: Adjust torso contact and base while moving toward a more useful control.
 
-**Kesa Gatame**: Hip-driven forward pressure combined with arm control creates a crushing pin that prevents both bridging and hip escape attempts, with pressure maintained through proper weight distribution rather than pure muscular force.
-
-**Kuzure Kesa Gatame**: Forward pressure through the chest and arm control drives opponent's shoulder into the mat while preventing hip escape, with the pressure angle adjusted to maintain pinning control and create submission opportunities.
-
-**Combat Base**: Forward pressure in combat base drives the opponent's legs down and back while maintaining structural integrity, using advancing force to flatten the bottom player and create passing opportunities without sacrificing defensive stability.
-
-**Half Guard**: Crossface and underhook pressure drives opponent away from the trapped leg while forward hip pressure prevents the bottom player from creating the angles necessary for sweeps or deep half entries.
-
-**Closed Guard**: Controlled forward pressure during guard opening sequences prevents opponent from establishing strong attacking positions, with advancing force used strategically to create posture-breaking opportunities while maintaining base against sweep attempts.
-
-**Headquarters Position**: Controlled forward pressure through proper posture and hand positioning breaks down opponent's guard structure while preventing sweep attempts, using incremental advancement rather than explosive force to maintain safety while passing.
-
-**North-South**: Forward chest pressure combined with head control creates overwhelming pin pressure that limits breathing and movement, with pressure maintained to prevent escape attempts while setting up submission opportunities from the north-south position.
-
-**Turtle**: Forward pressure from top turtle position drives opponent flat to the mat while controlling the hips, using advancing force to break down the turtle structure and create back take or submission opportunities.
-
-**Open Guard**: Strategic forward pressure disrupts guard player's distance management and frame structures, using advancing force to close distance and establish control positions that neutralize open guard retention systems.
+**Kesa Gatame**: Use hip position and arm control to maintain contact as the opponent tries to turn.
 
 
 
@@ -346,24 +319,15 @@ Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, an
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Applying maximum pressure immediately without establishing proper connection points or base
-  - **Consequence**: Creates vulnerability to sweeps and reversals as excessive force without proper structure makes the top player off-balanced and easy to redirect, while also rapidly exhausting energy reserves without achieving positional advancement.
-  - **Correction**: Build pressure gradually after establishing strong base and optimal connection points, using incremental force increases that maintain defensive stability while systematically breaking down opponent's defensive structures.
-- **Mistake**: Continuing forward pressure directly into strong defensive frames rather than adjusting pressure angle
-  - **Consequence**: Wastes energy fighting against mechanically sound defensive structures, creates stalemate situations where neither player can advance, and potentially allows opponent to use the pressure against you through sweep mechanics or transitions.
-  - **Correction**: Develop sensitivity to recognize when frames are mechanically strong and immediately adjust pressure vectors to bypass or undermine frame structures rather than confronting them head-on, finding paths of least resistance for advancement.
-- **Mistake**: Using purely muscular force for pressure application rather than weight distribution and skeletal positioning
-  - **Consequence**: Rapidly depletes energy reserves making sustained pressure impossible, creates tension that reduces sensitivity to opponent's movements, and makes pressure application predictable and easier to defend against through timing and reactive movements.
-  - **Correction**: Learn to use body weight, hip positioning, and skeletal structure to create pressure, engaging muscles only to make micro-adjustments and maintain connection points rather than generating force entirely through muscular contraction.
-- **Mistake**: Maintaining constant uniform pressure without strategic variation or reactive adjustment
-  - **Consequence**: Allows opponent to adapt to consistent pressure patterns and develop sustainable defensive structures, fails to create reactive opportunities that arise from pressure changes, and reduces the psychological impact of pressure application.
-  - **Correction**: Implement strategic pressure variation including intensity modulation, directional changes, and pulsing patterns that prevent defensive adaptation while creating reactive moments that expose vulnerabilities for exploitation.
-- **Mistake**: Focusing forward pressure exclusively on one connection point or pressure vector
-  - **Consequence**: Creates predictable pressure that is easier to defend with targeted frame placement, allows opponent to concentrate defensive resources on a single area, and fails to create the compound pressure situations that overwhelm defensive systems.
-  - **Correction**: Develop multi-directional pressure coordination where upper and lower body pressure work synergistically, creating pressure dilemmas where defending one vector exposes vulnerability to another, making comprehensive defense impossible.
-- **Mistake**: Advancing pressure without maintaining awareness of submission vulnerabilities or counter-attack opportunities
-  - **Consequence**: Creates exposure to guillotines, triangles, or sweep attempts as overly aggressive forward pressure often exposes the neck or creates off-balancing moments that skilled opponents exploit for submissions or reversals.
-  - **Correction**: Maintain defensive awareness throughout pressure application, keeping chin protected, base stable, and pressure controlled enough to react immediately to submission threats or counter-attack attempts without abandoning forward advancement.
+- **Mistake**: Driving before establishing base
+  - **Consequence**: The opponent can redirect your committed weight.
+  - **Correction**: Set supporting contacts before adding forward force.
+- **Mistake**: Pushing directly into a strong frame
+  - **Consequence**: More effort produces little advancement.
+  - **Correction**: Change the angle or address the frame first.
+- **Mistake**: Keeping the same pressure throughout
+  - **Consequence**: The opponent changes direction while your force stays fixed.
+  - **Correction**: Adjust pressure to the current escape or opening.
 
 
 </section>
@@ -371,23 +335,11 @@ Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, an
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Progressive Resistance Pressure Drilling** (Focus: Developing pressure calibration, sensitivity to resistance levels, and understanding how much force is necessary for different defensive structures without over-committing or under-applying pressure.)
-Partner drilling where the bottom player provides incrementally increasing resistance to forward pressure attempts, allowing the top player to develop sensitivity to defensive structures and learn appropriate pressure modulation. Start with compliant drilling and gradually increase defensive intensity over weeks.
+**Frame and angle drill** (Focus: Advance through position, not extra force.)
+From a familiar passing position, a cooperative partner presents one frame. Establish base and contact, change your angle to progress, then reset without forcing through the frame.
 
-**Positional Pressure Sparring** (Focus: Building pressure endurance, testing pressure application against live resistance, and developing the mental composure necessary to maintain advancing force despite defensive countermeasures and physical fatigue.)
-Controlled sparring starting from guard passing or top control positions where the top player focuses exclusively on maintaining forward pressure while the bottom player works pure defense. Reset when position is lost or consolidated, emphasizing pressure sustainability over extended rounds.
-
-**Frame Dissolution Practice** (Focus: Pattern recognition for defensive structures, developing specific pressure solutions for common frames, and building the technical vocabulary necessary to adapt pressure application to different defensive configurations.)
-Specific drilling focused on recognizing and systematically dismantling common defensive frames through pressure application. Partner creates various frame structures (knee shield, elbow-knee connection, straight arm frames) and top player develops pressure sequences that overcome each specific barrier.
-
-**Pressure Variation Flow Drilling** (Focus: Pressure adaptability, creative problem-solving under flow conditions, and developing the movement fluidity necessary to adjust pressure dynamically without losing forward momentum or creating positional vulnerabilities.)
-Flowing movement practice where practitioners alternate between different pressure intensities, angles, and connection points without resetting position. Emphasizes smooth transitions between pressure applications and developing creative pressure pathways rather than singular approach patterns.
-
-**Energy-Efficient Pressure Development** (Focus: Developing sustainable pressure mechanics that can be maintained throughout entire rounds or matches, reducing reliance on muscular force, and understanding biomechanical principles that maximize pressure efficiency.)
-Technical drilling emphasizing minimal muscular engagement for maximum pressure effect, using body positioning and weight distribution rather than strength. Partner provides feedback on perceived pressure while top player experiments with skeletal positioning and connection point optimization.
-
-**Pressure Reaction Exploitation** (Focus: Developing anticipation for common defensive reactions, building immediate pressure adjustment responses, and learning to use opponent's defensive movements as opportunities for increased pressure advantage or positional advancement.)
-Drilling where bottom player is instructed to perform specific defensive reactions (hip escape, bridge, frame recovery) at designated moments, and top player develops immediate pressure adjustments that exploit these reactions. Builds anticipatory pressure adaptation and reactive timing.
+**Light follow round** (Focus: Balance forward contact with mobility.)
+From side control, follow a partner’s slow turns with chest and hip contact. Pause when your base weakens, reset, and reduce pressure if requested; omit submissions.
 
 
 

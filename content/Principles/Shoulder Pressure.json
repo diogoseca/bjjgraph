@@ -1,6 +1,6 @@
 {
   "name": "Shoulder Pressure",
-  "description": "Master shoulder pressure control in BJJ. Learn weight distribution, skeletal alignment, pressure vectors across positions for efficient pinning and control.",
+  "description": "Support shoulder contact with body alignment and base to control the upper body during pins and passing transitions.",
   "tags": [
     "bjj",
     "principle",
@@ -15,18 +15,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Shoulder Pressure is a top-control principle in which body weight is driven through the shoulder—transmitted by skeletal alignment rather than muscle—into targets such as the sternum, jaw, or neck to pin and immobilize an opponent.",
-  "overview": "Among top-game control concepts, shoulder pressure is prized for converting simple positional dominance into a relentless, energy-cheap form of control. It transcends specific positions, relying on weight distribution, skeletal alignment, and an understanding of pressure vectors to create sustained, uncomfortable control that steadily drains an opponent's defensive capacity.\n\nEffective shoulder pressure requires precise positioning where the practitioner's shoulder contacts specific anatomical targets on the opponent's body—typically the sternum, chin, jaw, or neck area. The pressure is not generated through muscular effort but through proper body positioning that allows gravity and skeletal structure to do the work. This creates a sustainable control mechanism that can be maintained for extended periods without fatigue.\n\nMastery of shoulder pressure fundamentally changes a practitioner's top game, transforming scrambles into dominant positions and making escapes significantly more difficult for opponents. The concept integrates seamlessly with other control principles like crossface control, hip pressure, and weight distribution to create layered control systems that are extremely difficult to escape.",
+  "summary": "Shoulder pressure directs body weight through shoulder contact to control an opponent’s upper body and limit the turns needed for frames or escapes.",
+  "overview": "Match the shoulder contact to the turn you want to stop. Keep hip control and a stable base so the opponent cannot move around the pressure.",
   "key_principles": [
-    "Direct force through skeletal structure rather than muscle to create sustainable pressure",
-    "Target anatomical landmarks (sternum, chin, jaw) for maximum discomfort and control",
-    "Maintain pressure vector perpendicular to the mat for optimal weight transfer",
-    "Combine shoulder pressure with hip control to prevent shrimping escapes",
-    "Use pressure to limit opponent's breathing and create psychological urgency",
-    "Adjust pressure angle based on opponent's defensive responses",
-    "Integrate shoulder pressure with crossface to control head positioning",
-    "Balance pressure application with mobility to prevent opponent counters",
-    "Create cascading pressure systems where relieving one pressure point increases another"
+    "Connect the shoulder to a useful upper-body control point.",
+    "Support the contact with your torso, hips, and base.",
+    "Pair shoulder pressure with a hip block or other escape control.",
+    "Adjust with the opponent’s turn instead of forcing the neck."
   ],
   "component_skills": [
     {
@@ -112,63 +107,19 @@
   "application_contexts": [
     {
       "context": "Side Control",
-      "how_applied": "Drive shoulder into opponent's sternum or jaw while distributing weight forward, using shoulder as primary control point to prevent shrimping and create discomfort that forces defensive reactions"
-    },
-    {
-      "context": "Knee on Belly",
-      "how_applied": "Apply shoulder pressure to opponent's chin or near-side shoulder while knee controls torso, creating dual-axis pressure that limits both upper and lower body movement"
-    },
-    {
-      "context": "Mount",
-      "how_applied": "Use shoulder to drive into opponent's face or chest when they attempt to turn or create frames, redirecting their escape attempts while maintaining superior position"
-    },
-    {
-      "context": "North-South",
-      "how_applied": "Press shoulder into sternum while head controls one side, creating crushing chest pressure that restricts breathing and limits defensive options"
-    },
-    {
-      "context": "Kesa Gatame",
-      "how_applied": "Press shoulder into opponent's face while sitting heavy on chest, creating uncomfortable pressure that motivates escape attempts into submission traps"
-    },
-    {
-      "context": "Ushiro Kesa Gatame",
-      "how_applied": "Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position"
-    },
-    {
-      "context": "Headquarters Position",
-      "how_applied": "Apply shoulder pressure to opponent's knee or thigh while passing guard, using weight to flatten defensive structures and prevent re-guard"
-    },
-    {
-      "context": "Kuzure Kesa Gatame",
-      "how_applied": "Use shoulder to control opponent's head and upper body while transitioning to higher mount or submission positions, maintaining pressure throughout movement"
-    },
-    {
-      "context": "Ushiro Kesa Gatame",
-      "how_applied": "Drive shoulder into opponent's chest while facing away, using bodyweight to create crushing pressure on ribcage and restrict breathing capacity"
-    },
-    {
-      "context": "Kuzure Kesa Gatame",
-      "how_applied": "Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to defend against"
+      "how_applied": "Use shoulder contact with head-and-arm control to limit turning in, while a separate hip control blocks knee recovery."
     },
     {
       "context": "Half Guard",
-      "how_applied": "Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat during the pass"
-    },
-    {
-      "context": "High Mount",
-      "how_applied": "Press shoulder into opponent's face to set up armbar or collar choke, using pressure to force defensive arm positioning that opens submission opportunities"
-    },
-    {
-      "context": "Flattened Half Guard",
-      "how_applied": "Establish shoulder pressure immediately after flattening the opponent to prevent re-guard attempts, using the shoulder to anchor the position while securing additional control points"
+      "how_applied": "From top, coordinate shoulder contact with an underhook and base as you address frames and free the trapped leg."
     },
     {
       "context": "Mount",
-      "how_applied": "Apply shoulder pressure to opponent's jaw or neck area while establishing technical mount, using pressure to limit their ability to turn into turtle"
+      "how_applied": "Use upper-body contact to follow a turn without leaving your hips unsupported during a bridge."
     },
     {
-      "context": "Turtle",
-      "how_applied": "Drive shoulder into opponent's hip or upper body to flatten turtle position, using pressure to break down defensive posture and expose the back or arms"
+      "context": "North-South",
+      "how_applied": "Shift shoulder and chest contact as the opponent tries to turn, keeping your base available to follow."
     }
   ],
   "decision_framework": [
@@ -215,71 +166,31 @@
   ],
   "common_errors": [
     {
-      "error": "Using muscular effort instead of skeletal alignment to generate pressure",
-      "consequence": "Rapid fatigue and inability to maintain pressure for extended periods, allowing opponent to wait out the pressure and escape",
-      "correction": "Focus on positioning the shoulder in line with spine and hips so gravity does the work; pressure should feel effortless when properly aligned"
+      "error": "Pressing with an isolated shoulder",
+      "consequence": "Your arm and shoulder work without support from body weight.",
+      "correction": "Adjust your torso and hips so the contact is supported by your whole position."
     },
     {
-      "error": "Driving shoulder at incorrect angle relative to mat surface",
-      "consequence": "Pressure slides off target or allows opponent to redirect force, reducing control effectiveness",
-      "correction": "Ensure pressure vector is perpendicular to the mat whenever possible; adjust body position rather than changing shoulder angle"
+      "error": "Ignoring the hips while controlling the head",
+      "consequence": "The opponent makes lower-body space despite the upper-body pressure.",
+      "correction": "Add a hip control and check the route for knee recovery."
     },
     {
-      "error": "Committing too much weight forward and losing base",
-      "consequence": "Vulnerability to sweeps, rolls, or reversals as opponent can use the committed weight against you",
-      "correction": "Maintain one hand or leg posted for base while applying pressure; never commit 100% of weight unless opponent is fully flattened"
-    },
-    {
-      "error": "Targeting only one pressure point without variation",
-      "consequence": "Opponent adapts defenses to specific pressure point, making control less effective over time",
-      "correction": "Shift between sternum, jaw, and neck pressure based on opponent's adjustments; create dilemma where defending one pressure opens another"
-    },
-    {
-      "error": "Maintaining static pressure without responding to movement",
-      "consequence": "Opponent creates space or escapes during transitions because pressure isn't adjusted dynamically",
-      "correction": "Flow with opponent's movements while maintaining consistent pressure; make micro-adjustments to shoulder position as they shift"
-    },
-    {
-      "error": "Applying shoulder pressure without clearing defensive frames first",
-      "consequence": "Opponent's frames prevent shoulder from reaching target, wasting energy on ineffective pressure attempts",
-      "correction": "Clear frames systematically before attempting shoulder pressure; use grips, weight distribution, or positional adjustments to remove frames"
-    },
-    {
-      "error": "Focusing solely on pressure without maintaining positional control",
-      "consequence": "Opponent escapes by attacking uncontrolled areas while you're focused on shoulder pressure application",
-      "correction": "Integrate shoulder pressure with hip control and other control mechanisms; pressure should be part of complete control system"
+      "error": "Keeping contact while losing balance",
+      "consequence": "The opponent turns your committed weight into a reversal.",
+      "correction": "Move the supporting knee or foot and redistribute weight before following the turn."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Positional Sparring with Pressure Focus",
-      "description": "Practice maintaining specific positions (side control, mount, knee on belly) with emphasis on shoulder pressure application, starting with compliant partner and gradually increasing resistance",
-      "focus": "Developing feel for proper pressure angles, weight distribution, and skeletal alignment in live but controlled scenarios"
+      "approach_name": "Light pin adjustment",
+      "description": "Start in side control with light shoulder contact. The bottom partner slowly turns in while the top partner adjusts torso angle and base without neck pressure. Release and reset after each attempt.",
+      "focus": "Support contact with body position."
     },
     {
-      "approach_name": "Progressive Resistance Drills",
-      "description": "Partner provides graduated resistance to shoulder pressure, starting at 25% and increasing to 100%, allowing practitioner to maintain pressure against increasing defensive effort",
-      "focus": "Building ability to maintain effective pressure against realistic defensive reactions and escape attempts"
-    },
-    {
-      "approach_name": "Pressure Reaction Training",
-      "description": "Bottom person given specific escape assignments while top person maintains shoulder pressure and responds to each escape attempt with pressure adjustments",
-      "focus": "Developing dynamic pressure maintenance and learning to redirect pressure vectors in response to opponent's movements"
-    },
-    {
-      "approach_name": "Fatigue Testing Rounds",
-      "description": "Extended rounds (5-10 minutes) maintaining shoulder pressure while attempting positional advancement, testing whether pressure is sustainable or requires excessive muscular effort",
-      "focus": "Identifying and correcting inefficient pressure application that causes premature fatigue"
-    },
-    {
-      "approach_name": "Target Isolation Drills",
-      "description": "Practice hitting specific pressure targets (sternum, jaw, neck) from various positions, focusing on precision of shoulder placement rather than force",
-      "focus": "Developing accuracy in pressure application and understanding anatomical vulnerabilities"
-    },
-    {
-      "approach_name": "Integration Drilling",
-      "description": "Combine shoulder pressure with other control mechanisms (crossface, hip pressure, underhooks) in flow drilling to understand how pressure systems work together",
-      "focus": "Building comprehensive control systems where shoulder pressure is one component of layered control"
+      "approach_name": "Shoulder-and-hip connection",
+      "description": "Begin in top half guard with a cooperative partner. Set upper-body contact and a hip control, then rehearse freeing the knee. Stop if either contact is lost, release, and reset.",
+      "focus": "Coordinate pressure with the passing controls."
     }
   ],
   "developmental_metrics": [
@@ -509,13 +420,21 @@
   ],
   "clips": [
     {
+      "id": "IN9odK9Of94",
+      "title": "Adding side-control pressure with a shoulder adjustment",
+      "by": "Nick Albin",
+      "vertical": true,
+      "channel": "Chewjitsu",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "mzAgY0QUtnc",
       "title": "Pressure: the science behind your jiu-jitsu",
       "by": "RVV BJJ",
       "vertical": false,
       "channel": "RVV BJJ",
       "duration": 785,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "kWxijyG-6BE",
@@ -524,7 +443,7 @@
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 840,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

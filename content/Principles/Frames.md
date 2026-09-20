@@ -4,7 +4,7 @@
 
 ---
 title: "Frames | BJJ Principle | BJJ Graph"
-description: "Master Frames in BJJ. Learn skeletal alignment, force distribution, and structural barriers to manage pressure, create space, and escape bad positions effectively."
+description: "Frames use supported limb positions to hold space against pressure, giving you room to move without continuously pushing the opponent away."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Frames",
-  "description": "Master Frames in BJJ. Learn skeletal alignment, force distribution, and structural barriers to manage pressure, create space, and escape bad positions effectively.",
+  "description": "Frames use supported limb positions to hold space against pressure, giving you room to move without continuously pushing the opponent away.",
   "url": "https://bjjgraph.org/Principles/Frames",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Relying on muscular strength rather than skeletal alignment?",
+      "name": "What is a common mistake in Pushing continuously?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Frames collapse quickly under sustained pressure as muscles fatigue, leading to rapid positional deterioration and inability to maintain defensive structure for extended periods The correction is: Focus on positioning bones in straight lines or optimal angles that create structural integrity through skeletal stacking, allowing frames to be maintained with minimal muscular effort"
+        "text": "Arms tire while the opponent remains well supported. The correction is: Find supported contact, then move your own body."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Creating frames parallel to pressure direction?",
+      "name": "What is a common mistake in Leaving the frame isolated?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Frames provide minimal defensive value as they attempt to directly oppose superior force rather than redirecting it, resulting in easy compression and position advancement The correction is: Position frames perpendicular to incoming pressure vectors so they redirect force laterally rather than attempting direct opposition, using leverage rather than strength"
+        "text": "The opponent can move around it or attack the exposed limb. The correction is: Keep it connected to torso position and another defensive contact."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Establishing isolated single frames without supporting structure?",
+      "name": "What is a common mistake in Keeping a static frame?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent easily bypasses single-point defensive barriers through alternative pressure angles or by focusing overwhelming force on the isolated frame The correction is: Create integrated multi-frame systems using multiple limbs that provide comprehensive coverage and prevent opponent from finding unprotected pathways for advancement"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Maintaining static frames as opponent position changes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Frames become increasingly ineffective as opponent moves to angles where original frame configuration no longer provides perpendicular resistance or appropriate coverage The correction is: Continuously adjust and transition frame configurations in response to opponent movement, treating framing as a dynamic defensive system rather than static positioning"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Framing at incorrect connection points on opponent's body?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Frames provide minimal defensive value when placed at low-leverage locations such as opponent's arms or chest center, failing to control or redirect core pressure effectively The correction is: Target high-leverage connection points such as hips, shoulders, neck, and head where frames can effectively control opponent's center of mass and redirect pressure pathways"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Holding breath or breathing shallowly while maintaining frames?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Inadequate breathing leads to rapid fatigue, reduced core stability, and muscular tension that compromises frame structural integrity and overall defensive capability The correction is: Maintain steady breathing rhythm, exhaling during frame establishment to engage core musculature and inhaling during momentary pressure reductions to maintain oxygen supply"
+        "text": "The opponent changes angle and bypasses it. The correction is: Reposition the frame as the direction of pressure changes."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Frames",
-  "description": "Frames are rigid skeletal barriers — bones stacked and braced against an opponent's pressure — used to manage distance, create space, and stop positional advancement without relying on muscular strength.",
+  "description": "A frame is a supported limb position that holds space against the opponent’s pressure so you can move or defend.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Using frames for guard retention",
+      "description": "Frames film study: Using frames for guard retention, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/92lqcDuaiOw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/92lqcDuaiOw",
+      "url": "https://www.youtube.com/watch?v=92lqcDuaiOw",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Frames as a core concept",
       "description": "Frames film study: Frames as a core concept, taught by Absolute MMA St Kilda.",
       "thumbnailUrl": "https://i.ytimg.com/vi/57YaKxCRqzk/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Three most critical concepts of BJJ, including frames",
       "description": "Frames film study: Three most critical concepts of BJJ, including frames, taught by Stephan Kesting.",
       "thumbnailUrl": "https://i.ytimg.com/vi/j5RaxEV9fx8/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Framing for effective side control escapes",
       "description": "Frames film study: Framing for effective side control escapes, taught by The BJJ Project.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ary963VdmqY/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
 
 ## What are Frames?
 
-**Frames are rigid skeletal barriers — bones stacked and braced against an opponent's pressure — used to manage distance, create space, and stop positional advancement without relying on muscular strength.**
+**A frame is a supported limb position that holds space against the opponent’s pressure so you can move or defend.**
 
-Within BJJ's defensive hierarchy, framing sits alongside distance management and hip movement as one of the three pillars that keep a defending player alive under a heavier, more dominant opponent. Unlike specific techniques, framing is a conceptual framework applicable across all positions and phases of the art — it is taught on day one yet refined across an entire career. Frames function as temporary structural supports that redirect force, create defensive space, and establish the foundation for subsequent escapes, transitions, or offensive opportunities. The concept encompasses understanding proper skeletal alignment, force distribution, connection points, and the strategic timing of frame establishment. Frame creation serves as the primary defensive mechanism that enables a practitioner to survive disadvantageous positions and create the opportunity for positional improvement, making it one of the most essential conceptual elements for both beginners and advanced practitioners. Mastery of framing transforms defensive situations from desperate struggles into calculated defensive structures that systematically neutralize opponent pressure while creating pathways for recovery.
+Place the frame where it blocks the movement you need to stop, then move your body around it. Adjust with the pressure instead of treating a straight or rigid arm as automatically strong.
 
 </section>
 
@@ -229,6 +215,14 @@ Within BJJ's defensive hierarchy, framing sits alongside distance management and
 
 <p class="section-subtitle">Watch Frames in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=92lqcDuaiOw)
+
+<p class="clip-credit"><strong>Using frames for guard retention</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=92lqcDuaiOw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Within BJJ's defensive hierarchy, framing sits alongside distance management and
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Establish frames using proper skeletal alignment to maximize structural integrity
-- Create and maintain perpendicular force distribution relative to opponent's pressure
-- Utilize bone structure rather than muscular strength for sustainable frames
-- Position frames at critical junctures that prevent opponent's primary advancement paths
-- Connect frames to create comprehensive defensive structures rather than isolated barriers
-- Maintain active frames that respond dynamically to changing pressure angles
-- Transition between different framing configurations as positions evolve
-- Create space through effective frame utilization rather than explosive movement
-- Coordinate framing with breathing and body positioning for maximum effectiveness
+- Support the frame with your body position.
+- Place it across the opponent’s intended path.
+- Use the held space to move your hips or recover a knee.
+- Adjust contact as the pressure changes direction.
 
 
 </section>
@@ -300,35 +289,13 @@ Within BJJ's defensive hierarchy, framing sits alongside distance management and
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Side Control**: Establishing frames against the opponent's shoulder and hip using straight-arm positioning to create space for hip escape. The near arm frames the neck/shoulder while the far arm frames the hip, creating perpendicular pressure that prevents chest-to-chest compression.
+**Side Control**: Upper-body and hip frames preserve space for a turn and hip escape.
 
-**Mount**: Creating frames with elbows tight to ribs and forearms positioned against opponent's hips or chest to prevent high mount advancement and create space for hip escape or bridge-and-roll escapes. Frames must be positioned to redirect downward pressure laterally.
+**Mount**: Connected elbows and forearms at the hips help create room for an escape.
 
-**Closed Guard**: Using arm frames against opponent's collar, shoulders, or biceps to manage posture and prevent opponent from establishing dominant grips or posture for passing. Frames maintain critical distance that preserves offensive capability.
+**Closed Guard**: Frames against the upper body help manage distance and posture.
 
-**Half Guard**: Establishing underhook frames or knee shield frames that prevent opponent from flattening and establishing crossface control. The knee shield creates a structural barrier while arm frames manage upper body positioning.
-
-**North-South**: Creating frames with arms positioned against opponent's hips or thighs to prevent full weight distribution and create pathways for turning to turtle or recovering guard. Frames must redirect force away from the chest and face.
-
-**Knee on Belly**: Using one arm to frame the knee while the other frames the opponent's hip or shoulder, creating a comprehensive barrier that prevents mount transition while generating space for elbow escape or re-guard.
-
-**Turtle**: Creating frames with arms and legs that prevent opponent from inserting hooks or flattening while maintaining compact defensive posture. Frames establish boundaries that protect against back take attempts.
-
-**Kesa Gatame**: Establishing frames against opponent's head and hip to create the initial space necessary for bridge escapes or transitioning to turtle. The frame against the head prevents submission attempts while the hip frame creates escape pathways.
-
-**Open Guard**: Using frames to create and maintain distance during scrambles, preventing opponent from establishing dominant pins while legs work to re-establish guard structure. Frames buy time for guard recovery sequences.
-
-**Kuzure Kesa Gatame**: Creating frames against opponent's head and far hip to generate the space necessary for escape attempts. The head frame prevents increased pressure while the hip frame creates the foundational space for hip escape.
-
-**Knee Shield Half Guard**: The knee shield itself functions as the primary frame, with supplementary arm frames managing upper body control. This creates a comprehensive framing structure that prevents both upper and lower body advancement.
-
-**Quarter Guard**: Establishing frames to prevent opponent from consolidating full mount or side control while creating space to recover half guard or re-establish a more effective guard position.
-
-**High Mount**: Using frames to prevent opponent from advancing into submissions or S-mount while creating the foundation for elbow escape or bridge-based reversals.
-
-**Back Control**: Creating frames with hands to defend the neck and prevent choking attacks while maintaining chin protection and creating opportunities to escape hooks and turn into opponent.
-
-**Flattened Half Guard**: Universal framing principles are critical when flattened: establish perpendicular frames against the crossface to create turning space, use skeletal structure for sustainability, and coordinate frames with breathing and hip movement to recover knee shield or underhook.
+**Half Guard**: A knee shield and arm frames work together to keep the passer from settling onto the torso.
 
 
 
@@ -352,27 +319,15 @@ Within BJJ's defensive hierarchy, framing sits alongside distance management and
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Relying on muscular strength rather than skeletal alignment
-  - **Consequence**: Frames collapse quickly under sustained pressure as muscles fatigue, leading to rapid positional deterioration and inability to maintain defensive structure for extended periods
-  - **Correction**: Focus on positioning bones in straight lines or optimal angles that create structural integrity through skeletal stacking, allowing frames to be maintained with minimal muscular effort
-- **Mistake**: Creating frames parallel to pressure direction
-  - **Consequence**: Frames provide minimal defensive value as they attempt to directly oppose superior force rather than redirecting it, resulting in easy compression and position advancement
-  - **Correction**: Position frames perpendicular to incoming pressure vectors so they redirect force laterally rather than attempting direct opposition, using leverage rather than strength
-- **Mistake**: Establishing isolated single frames without supporting structure
-  - **Consequence**: Opponent easily bypasses single-point defensive barriers through alternative pressure angles or by focusing overwhelming force on the isolated frame
-  - **Correction**: Create integrated multi-frame systems using multiple limbs that provide comprehensive coverage and prevent opponent from finding unprotected pathways for advancement
-- **Mistake**: Maintaining static frames as opponent position changes
-  - **Consequence**: Frames become increasingly ineffective as opponent moves to angles where original frame configuration no longer provides perpendicular resistance or appropriate coverage
-  - **Correction**: Continuously adjust and transition frame configurations in response to opponent movement, treating framing as a dynamic defensive system rather than static positioning
-- **Mistake**: Framing at incorrect connection points on opponent's body
-  - **Consequence**: Frames provide minimal defensive value when placed at low-leverage locations such as opponent's arms or chest center, failing to control or redirect core pressure effectively
-  - **Correction**: Target high-leverage connection points such as hips, shoulders, neck, and head where frames can effectively control opponent's center of mass and redirect pressure pathways
-- **Mistake**: Holding breath or breathing shallowly while maintaining frames
-  - **Consequence**: Inadequate breathing leads to rapid fatigue, reduced core stability, and muscular tension that compromises frame structural integrity and overall defensive capability
-  - **Correction**: Maintain steady breathing rhythm, exhaling during frame establishment to engage core musculature and inhaling during momentary pressure reductions to maintain oxygen supply
-- **Mistake**: Overextending arms when creating frames
-  - **Consequence**: Overextended frames lose structural integrity and become vulnerable to collapse when opponent applies lateral pressure or weight, compromising defensive effectiveness
-  - **Correction**: Maintain slight bend in elbows to preserve structural strength and allow for micro-adjustments, keeping frames within optimal range of motion for sustained pressure resistance
+- **Mistake**: Pushing continuously
+  - **Consequence**: Arms tire while the opponent remains well supported.
+  - **Correction**: Find supported contact, then move your own body.
+- **Mistake**: Leaving the frame isolated
+  - **Consequence**: The opponent can move around it or attack the exposed limb.
+  - **Correction**: Keep it connected to torso position and another defensive contact.
+- **Mistake**: Keeping a static frame
+  - **Consequence**: The opponent changes angle and bypasses it.
+  - **Correction**: Reposition the frame as the direction of pressure changes.
 
 
 </section>
@@ -380,23 +335,11 @@ Within BJJ's defensive hierarchy, framing sits alongside distance management and
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Progressive Pressure Drilling** (Focus: Developing the ability to maintain proper frame structure under realistic pressure conditions while identifying the difference between skeletal versus muscular frame support)
-Partner applies gradually increasing pressure against established frames while practitioner focuses on maintaining skeletal alignment and structural integrity. Start with 30% pressure and incrementally increase to 80% over multiple rounds.
+**Supported-contact check** (Focus: Distinguish support from muscular pushing.)
+Under light side control, establish familiar frames. A cooperative partner changes pressure slightly while you adjust elbow and body position; reset when the frame loses support.
 
-**Frame Transition Flow** (Focus: Building the skill of recognizing when frame configurations are becoming ineffective and smoothly transitioning to appropriate alternative frames as positions evolve)
-Partner moves through various top positions while bottom practitioner continuously adjusts and transitions frame configurations to match changing pressure angles. Emphasizes dynamic frame adaptation rather than static positioning.
-
-**Targeted Frame Isolation** (Focus: Developing technical precision in executing individual frame types before integrating them into comprehensive defensive systems)
-Drill specific frame types in isolated scenarios: straight-arm frames, bent-arm frames, knee shield frames, and leg frames. Each frame type is practiced independently with focus on optimal connection points and skeletal alignment.
-
-**Positional Escape Sequences** (Focus: Understanding how frame creation serves as the launching point for complete defensive sequences rather than existing as an isolated skill)
-Practice complete escape sequences starting with frame establishment, progressing through space creation, and ending with full escape or guard recovery. Integrates framing as the foundational element of comprehensive escape systems.
-
-**Breath-Frame Coordination Exercise** (Focus: Developing the crucial connection between proper breathing and sustained frame effectiveness, preventing breath-holding and muscular tension)
-Practice establishing and maintaining frames while partner applies sustained pressure, with specific focus on coordinating breathing patterns with frame creation and maintenance. Include verbal counting to ensure continuous breathing.
-
-**Frame Recovery Under Pressure** (Focus: Building resilience and adaptability in framing systems, developing the ability to recover defensive structure even when initial attempts are unsuccessful)
-Allow partner to partially collapse frames, then practice re-establishing effective frames while under continuous pressure. Emphasizes the advanced skill of recovering defensive structure when initial frames are compromised.
+**Frame-to-movement flow** (Focus: Keep frames useful as positions change.)
+The top partner moves slowly between familiar pins. Rebuild the relevant frames and use each gap for a small hip movement; pause and reset when an arm becomes isolated.
 
 
 

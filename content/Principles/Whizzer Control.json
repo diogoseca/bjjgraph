@@ -1,6 +1,6 @@
 {
   "name": "Whizzer Control",
-  "description": "Master Whizzer Control in BJJ. Learn overhook mechanics, pressure application, counter-attacking principles. Cross-position applications from half guard to standing included.",
+  "description": "Coordinate an overhook, hip angle, and stance to counter an underhook and create room to recover or change position.",
   "tags": [
     "bjj",
     "control",
@@ -14,17 +14,13 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Whizzer Control is a defensive overhook position, borrowed from wrestling, where you thread your arm over an opponent's underhooking arm and apply downward pressure to neutralize their control while creating counter-attacking opportunities.",
-  "overview": "The battle for the underhook is one of the most consequential exchanges in grappling, frequently determining whether a position is held, passed, or reversed. The Whizzer is jiu-jitsu's primary answer when that battle is being lost—a counter borrowed from wrestling that turns an opponent's underhook into an opportunity rather than a liability. Its effectiveness stems from applying downward pressure on the opponent's arm, disrupting their posture and base while maintaining the defender's structural integrity.\n\nThe concept transcends simple arm positioning, embodying a comprehensive approach to managing an opponent's attempts to establish dominant control through underhooks. Proper Whizzer application requires coordinated integration of arm pressure, body positioning, footwork, and base management. The control proves particularly valuable in transitions between positions, where the battle for underhook dominance often determines positional outcomes.\n\nWhizzer Control finds application across numerous positional contexts, from standing clinch scenarios to ground-based half guard battles, making it an essential concept for practitioners developing comprehensive defensive and counter-attacking capabilities. Understanding the mechanical principles underlying effective Whizzer application enables practitioners to adapt the concept to varied tactical situations while maintaining defensive soundness and offensive threat potential.",
+  "summary": "A whizzer is an overhook used against an opponent’s underhook, combining arm pressure with hip position and base to limit their control.",
+  "overview": "The arm wrap needs support from the hips and stance. Use it to check the underhook while you rebuild position, rather than expecting the arm alone to stop the opponent.",
   "key_principles": [
-    "Establish overhook by placing arm over opponent's underhooking arm",
-    "Apply downward pressure to neutralize opponent's control",
-    "Maintain proper posture and spinal alignment",
-    "Coordinate Whizzer control with appropriate footwork and base",
-    "Create connection between Whizzer arm and body positioning",
-    "Control opponent's elevation and angle through strategic pressure",
-    "Manage opponent's potential counters to the Whizzer",
-    "Recognize and capitalize on counter-attacking opportunities"
+    "Wrap over the underhooking arm before the opponent settles their control.",
+    "Support downward arm pressure with hip position and a stable base.",
+    "Adjust your angle as the opponent rises or circles.",
+    "Use the control to recover position or enter a prepared counter."
   ],
   "component_skills": [
     {
@@ -119,48 +115,20 @@
   ],
   "application_contexts": [
     {
+      "context": "Dogfight Position",
+      "how_applied": "Use the overhook with hip position and base to resist the underhooking player’s attempt to come up or move behind you."
+    },
+    {
       "context": "Half Guard",
-      "how_applied": "Establish Whizzer on the underhook side to prevent opponent from flattening position and establishing cross-face control, while creating sweep opportunities through the Whizzer's off-balancing effect"
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Use Whizzer to prevent opponent from establishing controlling underhook during turtle position, protecting against back exposure and creating opportunities to return to guard or stand"
-    },
-    {
-      "context": "Front Headlock",
-      "how_applied": "Apply Whizzer to counter opponent's underhook attempts during front headlock scenarios, preventing them from improving position while creating scramble opportunities"
+      "how_applied": "When the bottom player gains an underhook and rises, the top player can use a whizzer while adjusting hips and base to contain the movement."
     },
     {
       "context": "Clinch",
-      "how_applied": "Establish Whizzer in standing clinch exchanges to neutralize opponent underhook control, prevent takedown attempts, and create opportunities for own takedown entries or position improvements"
+      "how_applied": "An overhook counters an underhook when paired with stance and hip adjustments, creating a chance to reset or change the tie."
     },
     {
-      "context": "Side Control",
-      "how_applied": "Utilize Whizzer when opponent attempts to establish underhook during side control escape sequences, preventing them from securing mount or back control transitions"
-    },
-    {
-      "context": "Deep Half Guard",
-      "how_applied": "Counter opponent's attempts to establish controlling underhook during deep half guard battles, maintaining defensive integrity while preserving sweep potential"
-    },
-    {
-      "context": "Dogfight Position",
-      "how_applied": "Employ Whizzer control during dogfight position to prevent opponent from completing coming-up-to-knees sequences while establishing dominant angle for own sweeps or back takes"
-    },
-    {
-      "context": "Standing Position",
-      "how_applied": "Apply Whizzer during standing exchanges to defend against opponent underhook-based takedown attempts while creating counter-wrestling opportunities"
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "Use Whizzer when opponent attempts to establish controlling underhook from top of butterfly guard, preventing their passing attempts while maintaining sweep threats"
-    },
-    {
-      "context": "Overhook Control",
-      "how_applied": "Establish Whizzer as primary defensive tool when losing the underhook battle, converting opponent's offensive control into neutralized position with counter-attacking potential through sustained overhook pressure"
-    },
-    {
-      "context": "Back Control",
-      "how_applied": "Use Whizzer defensively when opponent attempts to establish controlling underhook while attacking the back, preventing them from securing body triangle or improving control"
+      "context": "Turtle",
+      "how_applied": "Use an available overhook to address an underhook while adjusting your base and working toward a guard recovery or stand-up."
     }
   ],
   "decision_framework": [
@@ -207,71 +175,31 @@
   ],
   "common_errors": [
     {
-      "error": "Establishing Whizzer without coordinating base and hip positioning",
-      "consequence": "Creates isolated arm control that opponent can easily counter through base attacks or positional transitions, rendering the Whizzer ineffective",
-      "correction": "Always coordinate Whizzer establishment with appropriate base widening, hip positioning, and postural alignment to create comprehensive defensive structure"
+      "error": "Wrapping the arm without moving the hips",
+      "consequence": "The opponent keeps the underhook advantage and moves around your isolated arm.",
+      "correction": "Adjust hip angle and base as you establish the overhook."
     },
     {
-      "error": "Applying excessive upward pressure instead of downward pressure",
-      "consequence": "Reduces control effectiveness and can actually assist opponent in improving their position by helping them elevate their posture",
-      "correction": "Focus pressure direction downward and slightly backward, using opponent's arm as lever to disrupt their posture and base rather than elevating them"
+      "error": "Lifting the underhooking arm",
+      "consequence": "Your pressure can help the opponent rise into their control.",
+      "correction": "Direct the overhook pressure downward while keeping a supported stance."
     },
     {
-      "error": "Maintaining Whizzer too long without recognizing counter-offensive opportunities",
-      "consequence": "Allows opponent to adjust positioning, establish alternative controls, or neutralize Whizzer effectiveness through sustained defensive effort",
-      "correction": "Actively monitor for counter-offensive windows created by Whizzer control, transitioning to sweeps or reversals when opportunities present themselves"
-    },
-    {
-      "error": "Allowing opponent to achieve deep underhook before establishing Whizzer",
-      "consequence": "Reduces Whizzer effectiveness significantly as opponent already possesses dominant control position and can resist Whizzer application",
-      "correction": "Establish Whizzer early in underhook battle before opponent achieves deep position, using proactive timing rather than reactive application"
-    },
-    {
-      "error": "Compromising spinal alignment and posture while maintaining Whizzer",
-      "consequence": "Creates structural weakness that opponent can exploit through pressure application or positional transitions despite Whizzer presence",
-      "correction": "Maintain proper postural alignment throughout Whizzer application, ensuring head position, spine alignment, and shoulder positioning support overall structure"
-    },
-    {
-      "error": "Using primarily arm strength rather than leverage and positioning",
-      "consequence": "Creates unsustainable control that rapidly leads to muscular fatigue and Whizzer effectiveness degradation during extended exchanges",
-      "correction": "Emphasize proper positioning, pressure angles, and leverage application rather than muscular effort to create sustainable Whizzer control"
-    },
-    {
-      "error": "Failing to adjust Whizzer pressure based on opponent reactions",
-      "consequence": "Allows opponent to adapt to static pressure application, finding counters or escapes that neutralize the Whizzer's effectiveness",
-      "correction": "Continuously monitor opponent reactions and adjust pressure direction, intensity, and application points to maintain control effectiveness against adaptive responses"
+      "error": "Holding the whizzer after the opponent changes angle",
+      "consequence": "The wrap remains but no longer limits their path around you.",
+      "correction": "Follow with hip and base adjustments or release into a better defensive control."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Positional Sparring with Whizzer Focus",
-      "description": "Dedicated positional sparring rounds starting from positions where Whizzer control proves tactically relevant, such as half guard or turtle positions",
-      "focus": "Developing practical Whizzer application under resistance while learning to recognize appropriate timing for establishment and transition opportunities"
+      "approach_name": "Underhook to whizzer",
+      "description": "Start in a light clinch. One partner slowly establishes an underhook while the other wraps a whizzer and adjusts hips and stance. Pause to check balance, release, and reset with roles reversed.",
+      "focus": "Build the arm and body controls together."
     },
     {
-      "approach_name": "Underhook Battle Drills",
-      "description": "Structured drilling sequences focusing on the dynamic battle between underhook establishment and Whizzer counter-application across varied positions",
-      "focus": "Building reactive timing for Whizzer establishment and developing sensitivity to opponent underhook attempts before they achieve dominant position"
-    },
-    {
-      "approach_name": "Pressure Direction Exercises",
-      "description": "Technical drills emphasizing proper pressure vector application through the Whizzer arm using partner feedback to calibrate optimal pressure direction and intensity",
-      "focus": "Developing precise control over pressure application angles and learning to adjust pressure based on opponent positioning and reactions"
-    },
-    {
-      "approach_name": "Whizzer to Counter-Offense Sequences",
-      "description": "Chain drilling that begins with Whizzer establishment and flows into common counter-offensive sequences like sweeps, reversals, or back takes",
-      "focus": "Learning to recognize and capitalize on offensive opportunities created by successful Whizzer application rather than maintaining purely defensive control"
-    },
-    {
-      "approach_name": "Base Coordination Training",
-      "description": "Drilling protocols that emphasize coordinated development of Whizzer arm control with appropriate base adjustments and hip positioning",
-      "focus": "Building automatic coordination between upper body Whizzer application and lower body positioning to create comprehensive defensive structure"
-    },
-    {
-      "approach_name": "Counter-Response Scenarios",
-      "description": "Scenario-based training where partner employs common Whizzer counters while practitioner develops adaptive responses to maintain control effectiveness",
-      "focus": "Developing problem-solving capacity for common Whizzer counters and building repertoire of adjustments to maintain control against intelligent opposition"
+      "approach_name": "Dogfight angle tracking",
+      "description": "Start in a cooperative dogfight position with an unloaded overhook. The underhooking partner slowly rises or circles while the other adjusts base and hip angle. Stop before a takedown, release, and reset.",
+      "focus": "Follow movement without wrenching the arm."
     }
   ],
   "developmental_metrics": [
@@ -500,7 +428,7 @@
       "vertical": false,
       "channel": "TeachMeGrappling Coach Brian",
       "duration": 406,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "QzJvPmdjjFU",
@@ -509,7 +437,7 @@
       "vertical": false,
       "channel": "TeachMeGrappling Coach Brian",
       "duration": 267,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "8mXBDHXrAu4",
@@ -518,7 +446,7 @@
       "vertical": false,
       "channel": "Wrecking Crew BJJ",
       "duration": 60,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

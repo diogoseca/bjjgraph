@@ -1,6 +1,6 @@
 {
   "name": "Positional Sparring",
-  "description": "Master Positional Sparring in BJJ. Learn structured resistance training, position-specific skill development, reset protocols, and asymmetric goal structures.",
+  "description": "Use clear starting controls, paired objectives, and repeatable resets to practice one grappling problem under resistance.",
   "tags": [
     "bjj",
     "principle",
@@ -13,18 +13,13 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Positional sparring is a structured resistance-training method where partners start from a fixed position with asymmetric objectives — one attacks, one defends — resetting on completion to maximize focused repetitions of a specific scenario.",
-  "overview": "Within modern BJJ pedagogy, positional sparring emerged as the critical bridge between cooperative drilling and unstructured live rolling, formalized by competition-focused academies seeking to compress skill acquisition. By constraining where a round begins and what each partner is trying to achieve, it isolates specific scenarios to maximize repetition density and technical problem-solving across targeted positional contexts. This methodology encompasses the pedagogical structure, reset protocols, and objective-setting mechanisms that transform general rolling into focused skill development with measurable progression indicators. Positional sparring serves as both a diagnostic tool that reveals technical gaps in specific positions, and an accelerated learning environment that provides 5-10x more repetitions of target scenarios compared to live sparring. The ability to implement effective positional sparring methodology often determines the efficiency of skill acquisition and competitive preparation, making it one of the most valuable training tools in modern BJJ pedagogy.",
+  "summary": "Positional sparring is practice that starts from an agreed position, gives each partner a specific objective, and resets when either objective is reached.",
+  "overview": "Agree on the starting grips, each partner’s goal, and the reset before beginning. Choose resistance that lets you work on the intended problem and change roles regularly.",
   "key_principles": [
-    "Define clear starting positions and success objectives before engagement begins",
-    "Establish asymmetric goals where each partner has distinct winning conditions (e.g., attacker seeks submission, defender seeks escape)",
-    "Reset immediately to starting position after any partner achieves their objective",
-    "Maintain appropriate intensity level based on technical objectives rather than competitive ego",
-    "Track success rates quantitatively to monitor progress and identify technical gaps",
-    "Alternate roles regularly to develop both offensive and defensive capabilities",
-    "Time-bound rounds (typically 3-5 minutes) to maintain intensity and enable structured progression",
-    "Adjust resistance level strategically based on skill differential and learning objectives",
-    "Integrate positional sparring systematically throughout training program rather than as occasional supplement"
+    "Specify the starting position and grips.",
+    "Give each partner a clear objective and define when to reset.",
+    "Keep resistance appropriate to the skill being practiced.",
+    "Switch roles and review the repeated problem between rounds."
   ],
   "component_skills": [
     {
@@ -125,63 +120,19 @@
   "application_contexts": [
     {
       "context": "Mount",
-      "how_applied": "Defender starts in bottom mount with objective to escape to guard or reverse position, while top player seeks to maintain mount and secure submission. This isolated context allows focused development of mount escape fundamentals and defensive framing."
+      "how_applied": "The top player maintains mount while the bottom player recovers guard or reverses; reset when an escape is established."
     },
     {
       "context": "Side Control",
-      "how_applied": "Top player works to maintain side control and advance to mount or back control, while bottom player attempts escape to guard. This application develops side control pressure maintenance and escape sequencing under realistic resistance."
-    },
-    {
-      "context": "Back Control",
-      "how_applied": "Top player seeks to secure rear naked choke or maintain back control position, while bottom player works hand fighting and escape protocols. This context accelerates back attack skills and defensive awareness."
+      "how_applied": "The top player advances to mount while the bottom player recovers guard; reset after either positional change settles."
     },
     {
       "context": "Closed Guard",
-      "how_applied": "Bottom player attempts sweeps or submissions while top player works posture recovery and guard opening. This isolated scenario develops guard retention, sweep timing, and offensive threat creation from closed guard."
+      "how_applied": "The top player opens and passes the guard while the bottom player sweeps; agree on a stable landing before resetting."
     },
     {
-      "context": "Half Guard",
-      "how_applied": "Bottom player seeks sweeps or deep half entries while top player works to pass and advance position. This application allows focused development of half guard retention systems and passing sequences."
-    },
-    {
-      "context": "Knee on Belly",
-      "how_applied": "Top player maintains knee on belly while threatening submissions or transitions, defender works immediate escape protocols. This context develops pressure maintenance skills and urgent escape mechanics."
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "Guard player works to maintain distance and create off-balancing opportunities while passer attempts to control hips and pass guards. This scenario develops guard retention concepts and passing strategies."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Bottom turtle position with defender attempting to return to guard or stand while top player seeks back take or submission. This context isolates turtle defense mechanics and back attack entries."
-    },
-    {
-      "context": "X-Guard",
-      "how_applied": "Bottom player works X-guard sweeps and transitions while top player defends and attempts to pass. This application develops specific guard system execution under resistance."
-    },
-    {
-      "context": "De La Riva Guard",
-      "how_applied": "Guard player utilizes De La Riva hooks to create sweeping and back-taking opportunities while passer works to clear hooks and advance. This scenario isolates De La Riva system development and countering."
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "Bottom player uses butterfly hooks to create elevation and sweep opportunities while top player maintains posture and works to pass. This context develops butterfly guard mechanics and passing defense."
-    },
-    {
-      "context": "Spider Guard",
-      "how_applied": "Guard player controls sleeves with feet on biceps seeking sweeps while passer works grip breaks and passing entries. This application develops spider guard control maintenance and systematic breaking."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "Top player maintains north-south control seeking submissions while bottom player works escape protocols and guard recovery. This scenario develops north-south control maintenance and escape mechanics."
-    },
-    {
-      "context": "Deep Half Guard",
-      "how_applied": "Bottom player utilizes deep half position for sweeping opportunities while top player defends and attempts to extract legs. This context develops deep half guard system execution and counter-strategies."
-    },
-    {
-      "context": "Single Leg X-Guard",
-      "how_applied": "Bottom player uses single leg X structure to create sweeping and leg attack opportunities while top player maintains balance and seeks passing opportunities. This application develops single leg X system under resistance."
+      "context": "Back Control",
+      "how_applied": "The attacker maintains chest and hip contact while the defender turns to face them; reset on the agreed escape."
     }
   ],
   "decision_framework": [
@@ -228,71 +179,31 @@
   ],
   "common_errors": [
     {
-      "error": "Failing to establish clear success objectives before starting",
-      "consequence": "Training becomes unfocused with ambiguous completion criteria, reducing effectiveness and preventing accurate progress tracking.",
-      "correction": "Define specific, measurable objectives for both partners before engagement begins. Articulate exactly what constitutes success (submission, escape, sweep, pass, time survival) and ensure mutual understanding."
+      "error": "Starting without a shared objective",
+      "consequence": "Partners work on different problems and cannot tell when the exchange is complete.",
+      "correction": "Name both goals and demonstrate the reset condition before the round."
     },
     {
-      "error": "Resetting slowly or inconsistently after objective completion",
-      "consequence": "Valuable training time is wasted on position re-establishment, reducing repetition volume and allowing intensity to drop between rounds.",
-      "correction": "Develop efficient reset protocols that return both partners to starting position within 5-10 seconds. Practice reset procedure until it becomes automatic and maintains round flow."
+      "error": "Drifting into an unrelated roll",
+      "consequence": "The target position gets few repetitions.",
+      "correction": "Return to the agreed starting controls as soon as an objective is reached."
     },
     {
-      "error": "Maintaining same intensity regardless of training objectives",
-      "consequence": "Either too much resistance prevents technical learning or insufficient resistance fails to test techniques under realistic pressure.",
-      "correction": "Calibrate intensity deliberately based on objectives: 40-60% for skill acquisition, 70-80% for refinement, 90-95% for competition simulation. Communicate intensity expectations clearly."
-    },
-    {
-      "error": "Never alternating roles between partners",
-      "consequence": "Creates one-sided development where one partner only practices offense while other only practices defense, limiting comprehensive skill growth.",
-      "correction": "Establish role alternation schedule that ensures equal time in both advantageous and disadvantageous positions. Typically alternate after 2-4 rounds of same position."
-    },
-    {
-      "error": "Failing to track results quantitatively",
-      "consequence": "No objective measure of progress exists, preventing identification of specific technical gaps and limiting ability to adjust training focus strategically.",
-      "correction": "Maintain simple tracking system recording success rates, time to completion, and specific techniques that worked or failed. Review data weekly to inform training priorities."
-    },
-    {
-      "error": "Starting from poorly defined or unrealistic positions",
-      "consequence": "Training scenario doesn't replicate actual rolling situations, reducing transfer of learned skills to live sparring or competition contexts.",
-      "correction": "Ensure starting positions accurately reflect scenarios that occur during live rolling. Include realistic grips, body positioning, and spatial relationships rather than artificial setups."
-    },
-    {
-      "error": "Allowing competitive ego to override training objectives",
-      "consequence": "Focus shifts from technical development to winning individual rounds, causing partners to abandon techniques that require practice in favor of reliable fallbacks.",
-      "correction": "Explicitly frame positional sparring as skill development rather than competition. Celebrate technical progress and problem-solving over round victories. Consider making success criteria favor learning objectives."
+      "error": "Using resistance that stops all practice",
+      "consequence": "One partner repeats failure without getting to attempt the intended skill.",
+      "correction": "Reduce resistance or adjust the starting controls so the target action can be practiced."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Position of the Week",
-      "description": "Dedicating entire training week to intensive positional sparring from single position with all partners. Every class includes 20-30 minutes of positional sparring from same starting position.",
-      "focus": "Creates depth of understanding through volume exposure, revealing subtle details and variations that emerge only through extensive repetition with diverse partners."
+      "approach_name": "One-position rounds",
+      "description": "Start in side control and agree on guard recovery versus mount advancement. Begin with light resistance, reset after either goal, and exchange roles for the next round.",
+      "focus": "Keep the problem and reset consistent."
     },
     {
-      "approach_name": "Competition Scenario Preparation",
-      "description": "Designing positional sparring rounds that replicate specific competition scenarios based on likely opponent strategies and rule sets. Includes point-based objectives and time constraints matching tournament format.",
-      "focus": "Develops competition-specific skills and mental preparation by creating realistic match pressure and decision-making contexts with measurable performance outcomes."
-    },
-    {
-      "approach_name": "Asymmetric Skill Development",
-      "description": "Pairing advanced practitioners starting from disadvantageous positions against less experienced partners in advantageous positions. Creates valuable training for both participants through position differential.",
-      "focus": "Allows advanced practitioners to develop escape skills and defensive awareness while providing beginners opportunity to practice offense from dominant positions with realistic resistance."
-    },
-    {
-      "approach_name": "Progressive Constraint Addition",
-      "description": "Beginning with full freedom of technique selection, then systematically adding constraints (grip restrictions, technique prohibitions, time limits) to create specific learning environments.",
-      "focus": "Develops adaptability and forces technical creativity by removing familiar options, revealing gaps in technical repertoire and encouraging development of alternative solutions."
-    },
-    {
-      "approach_name": "Systematic Position Progression",
-      "description": "Following logical position chains through positional sparring sequence (guard to guard pass to side control to mount to back). Success in one position becomes starting point for next.",
-      "focus": "Develops understanding of positional relationships and transition sequences by practicing complete offensive progressions and defensive recovery pathways under resistance."
-    },
-    {
-      "approach_name": "Measurement-Driven Iteration",
-      "description": "Recording detailed metrics (success rates, time to completion, specific techniques used) and using data analysis to identify technical gaps requiring focused attention through adjusted positional sparring parameters.",
-      "focus": "Creates objective feedback loop that identifies weaknesses through quantitative analysis and allows targeted skill development based on measurable performance deficits."
+      "approach_name": "Review and repeat",
+      "description": "Run a short mount-maintenance round with an escape objective. Reset, discuss one recurring failure, then repeat from the same grips with that detail in focus.",
+      "focus": "Turn repeated outcomes into a specific adjustment."
     }
   ],
   "developmental_metrics": [
@@ -548,7 +459,7 @@
       "vertical": false,
       "channel": "BJJ Fanatics",
       "duration": 441,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "9mUzVwippH0",
@@ -557,7 +468,7 @@
       "vertical": false,
       "channel": "Alec Baulding",
       "duration": 121,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

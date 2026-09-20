@@ -4,7 +4,7 @@
 
 ---
 title: "Wedges | BJJ Principle | BJJ Graph"
-description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and forearms to create angles, redirect force, and open pathways for guard retention, passing, and escapes."
+description: "Place a knee, shin, elbow, or forearm in useful space and support it with body position before the opponent closes the gap."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Wedges",
-  "description": "Master wedges in BJJ. Learn to insert knees, elbows, shins, and forearms to create angles, redirect force, and open pathways for guard retention, passing, and escapes.",
+  "description": "Place a knee, shin, elbow, or forearm in useful space and support it with body position before the opponent closes the gap.",
   "url": "https://bjjgraph.org/Principles/Wedges",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Inserting the wedge parallel to the opponent's pressure rather than perpendicular?",
+      "name": "What is a common mistake in Pushing into a closed gap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The wedge fails to redirect force and instead gets compressed. A knee shield lying flat against the opponent's chest absorbs pressure rather than splitting it, and the bottom player gets smashed through. The correction is: Angle the wedge across the pressure line so force is redirected laterally. Turn the knee shield to 45 degrees so the opponent's forward drive is channeled toward the mat beside you, not through you."
+        "text": "The wedge cannot enter and the opponent keeps the same pressure. The correction is: Use a frame, hip movement, or weight shift to open space first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using soft tissue instead of bony surfaces for the wedge?",
+      "name": "What is a common mistake in Leaving the wedge unsupported?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The wedge deforms under pressure and provides no structural resistance. Wedging with the flat of the calf instead of the shin bone, or with the palm instead of the forearm, results in a soft barrier that collapses. The correction is: Always present a bony edge — shin bone, forearm bone, elbow point, or kneecap — as the wedge surface. These hard structures resist compression and maintain the wedge's shape under heavy pressure."
+        "text": "The opponent folds or redirects it and closes the gap. The correction is: Connect the elbow or knee to your torso position and adjust the angle."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Inserting the wedge too late, after the opponent has closed the gap?",
+      "name": "What is a common mistake in Holding the gap without using it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There is no space left to insert into, so the practitioner resorts to muscling the wedge in, wasting energy and often failing. The opponent has already consolidated position. The correction is: Develop sensitivity to gaps as they appear during transitions. Insert wedges during the opponent's movement, not after they settle. Anticipate where gaps will open based on the opponent's passing or pressure pattern."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Creating a wedge but failing to follow with hip movement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The wedge creates temporary space that closes again as soon as the opponent adjusts. Without hip escape or repositioning, the wedge buys time but produces no positional change. The correction is: Treat every wedge insertion as the first half of a two-part action: wedge plus movement. As soon as the wedge creates space, hip escape, shrimp, or reposition to convert that space into a new position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Over-committing to a single wedge against a mobile opponent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The opponent changes angle and bypasses the wedge entirely. A knee shield aimed at the chest becomes useless when the passer switches to a leg drag angle around it. The correction is: Keep wedges dynamic and be ready to withdraw and reinsert at a new angle. If the opponent changes direction, adjust the wedge angle or switch to a different wedge point that addresses the new threat."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Trying to wedge against a fully consolidated pin?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When the opponent has completely settled their weight and eliminated all gaps, attempting to insert a wedge requires enormous strength and usually fails, leading to exhaustion. The correction is: If the position is fully consolidated, create a gap first using a bridge, bump, or frame, then immediately insert the wedge into the space that briefly opens. The wedge insertion must be timed to the moment of space creation."
+        "text": "The opponent has time to remove the wedge or change the pressure. The correction is: Move your hips or establish the next frame as soon as space is available."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Wedges",
-  "description": "A wedge is any hard body part — knee, shin, elbow, or forearm — inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path.",
+  "description": "Wedges are body parts inserted into gaps to preserve space, redirect pressure, or block a movement route while you reposition.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -216,13 +192,9 @@ description: "Master wedges in BJJ. Learn to insert knees, elbows, shins, and fo
 
 ## What are Wedges?
 
-**A wedge is any hard body part — knee, shin, elbow, or forearm — inserted into a gap to pry space open, redirect force along a new vector, or block an opponent's movement path.**
+**Wedges are body parts inserted into gaps to preserve space, redirect pressure, or block a movement route while you reposition.**
 
-Wedges are one of the oldest mechanical principles in human toolmaking, and they appear everywhere in Brazilian Jiu-Jitsu. The knee shield in half guard is a wedge. The elbow driven inside an opponent's thigh during a guard pass is a wedge. The shin inserted across an opponent's hip line to retain guard is a wedge. Every time you slide a forearm under a chin, post a knee between entangled legs, or drive an elbow into the crease of someone's hip, you are applying wedge mechanics.
-
-What separates a wedge from a simple frame or post is its direction of action. A frame resists force head-on. A wedge splits force apart or redirects it laterally. When you insert your knee shield in half guard, you are not simply blocking your opponent's chest — you are angling their pressure away from your centerline and creating a channel of space along which you can hip escape or re-guard. When a passer drives a knee inside the bottom player's thigh, the wedge separates the legs and opens a passing lane. Wedges work because they convert a single line of force into two diverging lines, and the opponent can only chase one.
-
-Developing wedge awareness means learning to feel for gaps — the tiny spaces between your body and your opponent's where a knee, shin, elbow, or forearm can be inserted before the opponent closes them. Speed of insertion matters as much as placement, because gaps in grappling are transient. The practitioner who consistently finds and fills these gaps with well-angled wedges controls the geometry of the exchange, dictating where force travels and where space exists.
+Insert the wedge when a gap opens, then move while it holds the space. Its angle and support matter more than how hard you push it into the opponent.
 
 </section>
 
@@ -265,15 +237,10 @@ Developing wedge awareness means learning to feel for gaps — the tiny spaces b
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Insert the wedge into the gap before the opponent can close it — timing is critical
-- Angle the wedge to redirect force laterally rather than opposing it directly
-- Use bony, hard surfaces (shin, forearm, elbow, knee) for maximum mechanical advantage
-- Drive the wedge along its tapered axis to amplify the splitting effect
-- Combine wedges with hip movement to convert created space into positional change
-- Withdraw and reinsert wedges as gaps shift during scrambles
-- Layer multiple wedges to control both upper and lower body simultaneously
-- Recognize that every guard retention sequence starts with a wedge between you and the passer
-- Understand that wedges are temporary tools — use the space they create before it closes
+- Find or create a gap before inserting the wedge.
+- Angle the wedge to block the movement you need to stop.
+- Support it with connected elbows, hips, or other contacts.
+- Use the preserved space to move or establish the next control.
 
 
 </section>
@@ -304,33 +271,13 @@ Developing wedge awareness means learning to feel for gaps — the tiny spaces b
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Half Guard**: The knee shield is the quintessential wedge — the shin placed diagonally across the opponent's chest redirects their forward pressure laterally and creates space to re-guard or attack. Adjusting the angle and height of the knee shield changes which passing lanes are blocked.
+**Half Guard**: A knee shield occupies space between the bodies and redirects pressure while you adjust the hips or seek an underhook.
 
-**Closed Guard**: Inserting an elbow wedge inside the opponent's bicep prevents them from establishing posture. A forearm wedge across the collarbone breaks posture and creates the angles needed for sweeps and submissions. The legs themselves act as wedges controlling hip distance.
+**Side Control**: From bottom, insert a forearm or knee into the opening made by a frame and hip movement, then recover more space.
 
-**Side Control**: From bottom, inserting a knee wedge between your hip and the opponent's body creates the initial space for guard recovery. The elbow driven to the mat inside the opponent's hip line acts as a wedge that prevents them from consolidating chest-to-chest pressure.
+**Mount**: From bottom, use an elbow or knee at the hip opening to begin guard recovery while maintaining the space you create.
 
-**Mount**: From bottom, getting an elbow inside the opponent's thigh acts as a wedge to begin the elbow escape. The knee driven upward between bodies creates the space needed to slide a leg through and recover half guard or full guard.
-
-**Butterfly Guard**: The butterfly hooks themselves function as wedges inserted under the opponent's thighs. When driven upward, they split the opponent's base apart and create the elevation needed for butterfly sweeps. The angle of insertion determines sweep direction.
-
-**De La Riva Guard**: The De La Riva hook wraps the opponent's lead leg, but the free foot acts as a wedge on the far hip, creating distance and preventing the passer from smashing through. The shin across the thigh redirects the passer's forward drive into lateral drift.
-
-**Open Guard**: Feet on hips serve as wedges that maintain minimum distance and redirect passing pressure. Shins inserted across the opponent's hip line act as barriers that the passer must overcome before consolidating any pass.
-
-**Turtle**: From turtle, wedging elbows tight against the inner thighs prevents the opponent from inserting hooks for back control. The forearms act as wedges against the opponent's hands, blocking their seatbelt or harness grip attempts.
-
-**Back Control**: The defender uses elbow wedges against the choking arm, inserting the forearm between the opponent's wrist and their own neck. This wedge blocks the choke path and creates the angle needed to begin escaping the back position.
-
-**Headquarters Position**: The passer uses the lead knee as a wedge driven inside the guard player's thigh, splitting the legs apart and creating the space to complete a knee cut or leg drag pass. The angle and depth of this knee wedge determine whether the pass succeeds.
-
-**North-South**: From bottom, inserting forearm wedges against the opponent's hips prevents them from settling their weight fully. These wedges create enough separation to begin turning to turtle or sliding back toward guard recovery.
-
-**Knee Shield Half Guard**: The entire position is built around the knee shield wedge. The bottom player's shin across the opponent's torso redirects smashing pressure while the knee angle controls which passing angles remain available. Adjusting the wedge height between low knee shield and high knee shield changes the defensive and offensive options.
-
-**Combat Base**: The posted knee in combat base acts as a wedge that splits the guard player's legs and creates passing angles. Driving this knee forward or laterally opens different passing lanes while the posted foot provides base.
-
-**Clinch**: In the clinch, forearm wedges against the opponent's chest or neck create separation and deny them the tight clinch they need for throws. An elbow wedge driven inside the opponent's bicep line prevents them from establishing an underhook.
+**Headquarters Position**: Use leg placement to separate the guard player’s knees and block their return as you begin a pass.
 
 
 
@@ -354,27 +301,15 @@ Developing wedge awareness means learning to feel for gaps — the tiny spaces b
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Inserting the wedge parallel to the opponent's pressure rather than perpendicular
-  - **Consequence**: The wedge fails to redirect force and instead gets compressed. A knee shield lying flat against the opponent's chest absorbs pressure rather than splitting it, and the bottom player gets smashed through.
-  - **Correction**: Angle the wedge across the pressure line so force is redirected laterally. Turn the knee shield to 45 degrees so the opponent's forward drive is channeled toward the mat beside you, not through you.
-- **Mistake**: Using soft tissue instead of bony surfaces for the wedge
-  - **Consequence**: The wedge deforms under pressure and provides no structural resistance. Wedging with the flat of the calf instead of the shin bone, or with the palm instead of the forearm, results in a soft barrier that collapses.
-  - **Correction**: Always present a bony edge — shin bone, forearm bone, elbow point, or kneecap — as the wedge surface. These hard structures resist compression and maintain the wedge's shape under heavy pressure.
-- **Mistake**: Inserting the wedge too late, after the opponent has closed the gap
-  - **Consequence**: There is no space left to insert into, so the practitioner resorts to muscling the wedge in, wasting energy and often failing. The opponent has already consolidated position.
-  - **Correction**: Develop sensitivity to gaps as they appear during transitions. Insert wedges during the opponent's movement, not after they settle. Anticipate where gaps will open based on the opponent's passing or pressure pattern.
-- **Mistake**: Creating a wedge but failing to follow with hip movement
-  - **Consequence**: The wedge creates temporary space that closes again as soon as the opponent adjusts. Without hip escape or repositioning, the wedge buys time but produces no positional change.
-  - **Correction**: Treat every wedge insertion as the first half of a two-part action: wedge plus movement. As soon as the wedge creates space, hip escape, shrimp, or reposition to convert that space into a new position.
-- **Mistake**: Over-committing to a single wedge against a mobile opponent
-  - **Consequence**: The opponent changes angle and bypasses the wedge entirely. A knee shield aimed at the chest becomes useless when the passer switches to a leg drag angle around it.
-  - **Correction**: Keep wedges dynamic and be ready to withdraw and reinsert at a new angle. If the opponent changes direction, adjust the wedge angle or switch to a different wedge point that addresses the new threat.
-- **Mistake**: Trying to wedge against a fully consolidated pin
-  - **Consequence**: When the opponent has completely settled their weight and eliminated all gaps, attempting to insert a wedge requires enormous strength and usually fails, leading to exhaustion.
-  - **Correction**: If the position is fully consolidated, create a gap first using a bridge, bump, or frame, then immediately insert the wedge into the space that briefly opens. The wedge insertion must be timed to the moment of space creation.
-- **Mistake**: Neglecting to defend against the opponent's wedges
-  - **Consequence**: When passing or holding a pin, failing to deny the opponent's wedge attempts allows them to insert knee shields, elbows, or shins that progressively erode your control until you lose the position.
-  - **Correction**: Pinch your elbows, keep your hips low, and eliminate gaps proactively. When you feel the opponent attempting to insert a wedge, immediately close the gap by adjusting your pressure angle or squeezing the space shut.
+- **Mistake**: Pushing into a closed gap
+  - **Consequence**: The wedge cannot enter and the opponent keeps the same pressure.
+  - **Correction**: Use a frame, hip movement, or weight shift to open space first.
+- **Mistake**: Leaving the wedge unsupported
+  - **Consequence**: The opponent folds or redirects it and closes the gap.
+  - **Correction**: Connect the elbow or knee to your torso position and adjust the angle.
+- **Mistake**: Holding the gap without using it
+  - **Consequence**: The opponent has time to remove the wedge or change the pressure.
+  - **Correction**: Move your hips or establish the next frame as soon as space is available.
 
 
 </section>
@@ -382,20 +317,11 @@ Developing wedge awareness means learning to feel for gaps — the tiny spaces b
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Wedge Insertion Drilling** (Focus: Developing tactile sensitivity to gaps and building the muscle memory for fast, decisive wedge insertion under pressure. The partner provides enough resistance to make it realistic without making insertion impossible.)
-Partner holds various top positions (side control, mount, half guard top) at 50-70% resistance while the bottom player focuses exclusively on finding gaps and inserting wedges. No full escapes — just repeated wedge insertion and withdrawal to build the reflexive pattern of gap recognition and insertion speed.
+**Gap and knee recovery** (Focus: Recognize space and use it promptly.)
+Start under light side control. The partner shifts weight slowly while you frame, move the hips, and insert a knee into the gap. Reset once the knee is inside.
 
-**Wedge-to-Escape Chains** (Focus: Building the habit of treating wedges as the first step in a movement sequence rather than a standalone defensive action. Develops the coordination between wedge mechanics and whole-body repositioning.)
-Starting from bad positions, practice the complete sequence: create gap, insert wedge, drive wedge deeper, hip escape, recover guard or complete escape. Each repetition emphasizes the connection between the wedge and the follow-up movement, never allowing the wedge to sit idle.
-
-**Offensive Wedge Passing Drills** (Focus: Understanding wedges from the offensive perspective — how to use them to create passing lanes, split defensive structures, and open space for guard passes. Develops awareness of wedge mechanics from both sides.)
-From top position, practice inserting knee and elbow wedges to split the guard player's defenses. Work the knee cut wedge, the knee inside the thigh, and the elbow against the knee line as passing tools. Partner provides guard retention resistance.
-
-**Wedge Denial Positional Sparring** (Focus: Training the defensive side of wedge awareness — recognizing when the opponent is attempting to insert a wedge and closing the gap before they succeed. Develops the tight, pressure-based pinning that eliminates wedge opportunities.)
-Top player tries to maintain a pin while bottom player tries exclusively to insert wedges. Top player scores by preventing all wedge insertions for 30 seconds; bottom player scores by getting any wedge fully inserted and driven. Builds awareness of gap management from top.
-
-**Multi-Wedge Sequencing** (Focus: Building the sequential thinking required to use wedges as building blocks rather than isolated actions. Develops the ability to plan two or three wedge insertions ahead based on the space each one will create.)
-Practice chaining multiple wedges in sequence: insert first wedge, use it to create space for second wedge, use second wedge to create space for guard recovery. Work through the progressive wedge cascade from fully pinned to guard recovered.
+**Knee-shield angle check** (Focus: Support the wedge while changing its angle.)
+Start in half guard with a cooperative partner. Adjust the knee shield as they gently change pressure direction, then move into a guard-recovery setup. Release and reset between attempts.
 
 
 

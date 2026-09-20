@@ -4,7 +4,7 @@
 
 ---
 title: "Levers | BJJ Principle | BJJ Graph"
-description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency."
+description: "Adjust support points, limb position, and force direction to make sweeps and controls work with less effort."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Levers",
-  "description": "Master fundamental leverage mechanics in BJJ. Learn fulcrum positioning, force multiplication, and mechanical advantage across all positions for maximum efficiency.",
+  "description": "Adjust support points, limb position, and force direction to make sweeps and controls work with less effort.",
   "url": "https://bjjgraph.org/Principles/Levers",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying force through muscular strength rather than leveraging body weight through optimal positioning?",
+      "name": "What is a common mistake in Adding force before fixing the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapid fatigue, reduced technique effectiveness against larger opponents, inability to execute techniques consistently. Strength-based application allows strong opponents to simply resist through superior attributes. The correction is: Focus on positioning body weight to serve as effort force applied through proper fulcrum points and lever arms. Practice techniques emphasizing weight distribution over muscle engagement. Study how gravity and body mass can be directed through leverage angles."
+        "text": "The opponent’s base supports the load and the movement stalls. The correction is: Pause and adjust your hips, contact point, or pulling direction."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Positioning fulcrum too close to resistance point or too far from effort point?",
+      "name": "What is a common mistake in Leaving slack in the connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Unfavorable lever arm ratios drastically reduce mechanical advantage, making techniques require exponentially more force. Even perfect technique execution fails when leverage geometry is wrong, leading to confusion about technique validity. The correction is: Before applying force, consciously assess and adjust fulcrum positioning to maximize distance to effort point while minimizing distance to resistance. Use positional adjustments (hip movement, angle changes) to optimize lever arm ratios before committing to technique."
+        "text": "Your movement is absorbed by a loose grip or collapsing limb. The correction is: Bring the contact closer and support the working limb with your posture."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying force at angles other than perpendicular to lever arm direction?",
+      "name": "What is a common mistake in Keeping the same lever after the opponent moves?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Majority of applied force dissipates in non-productive directions, dramatically reducing rotational effectiveness. Force angle errors of even 30 degrees can reduce effectiveness by 50% or more, making techniques feel impossibly difficult. The correction is: Study perpendicular force application through drilling with attention to body angles. Learn to recognize proper force vector feel through repetition. Adjust entire body positioning to align force direction perpendicular to lever arms rather than just pushing harder."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Creating slack or weak points in kinetic chain between effort and resistance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Force dissipates through collapsed body segments rather than transmitting to resistance point. Bent arms, disengaged core, or improper alignment prevent leverage systems from functioning regardless of correct fulcrum positioning. The correction is: Develop body awareness of structural integrity throughout leverage application. Engage core, maintain spinal alignment, and create rigid connections through proper muscle activation. Practice holds with focus on zero-slack transmission of force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Attempting to maintain failing leverage system instead of transitioning to new opportunities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wasted energy fighting opponent's successful counter-leverage or positional improvements. Stubbornness about failed leverage leads to being stuck in deteriorating positions while better opportunities are missed. The correction is: Develop sensitivity to recognize when leverage systems are compromised. Practice flowing between multiple leverage setups in same position. Learn to abandon failing systems early and establish new mechanical advantages before position completely collapses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring opponent's leverage systems while focusing only on creating own advantages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent establishes superior mechanical advantage through better positioning, neutralizing or reversing your attempts. Failing to break their leverage before establishing yours often results in stalemates or position loss. The correction is: Train awareness of opponent's fulcrum points and lever arms simultaneously with your own. Learn to disrupt their leverage attempts through positioning that extends their lever arms or eliminates their fulcrums. Practice counter-leverage drilling."
+        "text": "The original support point no longer produces the intended movement. The correction is: Rebuild the contact and angle or switch to an available technique."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Levers",
-  "description": "Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.",
+  "description": "Levers use a body segment rotating around a support point to transfer force, with the contact position and angle determining the mechanical advantage.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Maximizing Kimura leverage against bigger opponents",
+      "description": "Levers film study: Maximizing Kimura leverage against bigger opponents, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pcTXJ6qK9rE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pcTXJ6qK9rE",
+      "url": "https://www.youtube.com/watch?v=pcTXJ6qK9rE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Leverage explained: defending armbars with levers",
       "description": "Levers film study: Leverage explained: defending armbars with levers, taught by Stephan Kesting.",
       "thumbnailUrl": "https://i.ytimg.com/vi/RDlDO3DipSU/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "The surprising physics and levers behind jiu-jitsu",
       "description": "Levers film study: The surprising physics and levers behind jiu-jitsu, taught by BBC Reel.",
       "thumbnailUrl": "https://i.ytimg.com/vi/PbpwQzUwmE8/hqdefault.jpg",
@@ -205,9 +191,9 @@ description: "Master fundamental leverage mechanics in BJJ. Learn fulcrum positi
 
 ## What are Levers?
 
-**Levers are the biomechanical principle of using a rigid body segment pivoting around a fulcrum to multiply force, letting a smaller practitioner overcome a stronger opponent through optimal angles and arm-length ratios rather than muscular strength.**
+**Levers use a body segment rotating around a support point to transfer force, with the contact position and angle determining the mechanical advantage.**
 
-Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a privileged place: it is the physics that explains why the art rewards technique over athleticism and why a well-positioned grappler can dismantle a far stronger one. Unlike specific techniques, leverage principles are comprehensive conceptual frameworks that apply across all positions, submissions, sweeps, and control scenarios in BJJ. This concept encompasses the physics of fulcrums, lever arms, force multiplication, and compound leverage systems, serving as both the theoretical foundation for technique effectiveness and the practical methodology for efficient movement. The ability to recognize and create leverage opportunities often determines whether techniques succeed against stronger opponents, making it one of the most essential conceptual elements in Brazilian Jiu-Jitsu. Leverage principles explain why smaller practitioners can control larger opponents and why proper technique overcomes strength.
+When a movement feels heavy, check where the support point sits and where you apply force. A small hip or grip adjustment can change the effort needed.
 
 </section>
 
@@ -218,6 +204,14 @@ Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a pri
 
 <p class="section-subtitle">Watch Levers in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=pcTXJ6qK9rE)
+
+<p class="clip-credit"><strong>Maximizing Kimura leverage against bigger opponents</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=pcTXJ6qK9rE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -242,15 +236,10 @@ Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a pri
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Position body segments to create optimal fulcrum points for force multiplication
-- Maximize lever arm length on effort side while minimizing resistance arm length
-- Apply force perpendicular to lever arms for maximum rotational effectiveness
-- Combine multiple leverage systems to create compound mechanical advantage
-- Use body weight as effort force rather than muscular strength when possible
-- Create rigid connection from effort point through fulcrum to resistance point
-- Recognize and exploit opponent's structural weaknesses in their leverage systems
-- Adjust leverage angles dynamically as positions and resistances change
-- Prioritize leverage efficiency over force magnitude in technique execution
+- Identify the support point and the body segment that will move around it.
+- Adjust contact distance and angle before adding effort.
+- Keep a firm connection between your body and the lever.
+- Reposition when the opponent moves the support point or changes the angle.
 
 
 </section>
@@ -281,35 +270,13 @@ Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a pri
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: Hip positioning creates fulcrum against opponent's chest while upper body extends as lever arm for maximum pressure. Arms can serve as additional leverage points for isolating limbs or breaking posture, with shoulder pressure creating compound leverage systems.
+**Butterfly Guard**: Bring your hips into position under the opponent so a hook can lift the thigh while upper-body grips direct the sweep.
 
-**Side Control**: Crossface creates lever system using shoulder as fulcrum against opponent's jaw while far side underhook extends lever arm. Hip pressure provides secondary leverage system pinning opponent's near hip, creating compound mechanical advantage preventing escape.
+**Closed Guard**: Use legs and hip angle with your grips to move the opponent’s upper body instead of pulling with the arms alone.
 
-**Back Control**: Hooks create lower body fulcrum points controlling hip movement while seatbelt grip establishes upper body lever system. Body weight distribution through hooks provides constant leverage pressure. Secondary leverage systems emerge for choking or arm attacks.
+**Spider Guard**: A sleeve grip and foot on the biceps act on the arm from different contact points to control distance and balance.
 
-**Closed Guard**: Hips and legs create primary leverage for breaking posture using closed guard as fulcrum point. Grips on collar or sleeves establish lever arms for pulling opponent into broken posture. Leg leverage can transition to sweep mechanics when combined with upper body grips.
-
-**Half Guard**: Underhook creates primary lever system while lockdown or knee shield provides fulcrum control. Leverage opportunities exist for sweeps by extending opponent away from base or creating angles where their weight distribution works against their stability.
-
-**De La Riva Guard**: De La Riva hook creates fulcrum point controlling opponent's leg while opposite leg on hip extends as lever arm. Grip combinations establish upper body leverage systems. This position exemplifies compound leverage with multiple simultaneous mechanical advantage points.
-
-**X-Guard**: Dual leg control creates scissoring leverage system where both legs serve as fulcrums and lever arms simultaneously. Upper body positioning extends lever arms while leg pressure creates rotational force for elevation or sweeping mechanics.
-
-**Knee on Belly**: Knee serves as concentrated fulcrum point directing body weight through minimal surface area for maximum pressure. Arms establish secondary leverage for controlling upper body or isolating limbs. Weight distribution creates leverage advantage for transitions or submissions.
-
-**Turtle**: Defensive leverage involves creating frames where hands and knees serve as fulcrum points resisting opponent's attempts to flatten. Understanding leverage helps identify when opponent's force application creates opportunities for counter-leverage in stand-up or guard recovery.
-
-**Open Guard**: Multiple grip and leg position combinations create diverse leverage systems for controlling distance, breaking posture, or initiating sweeps. Each guard variation represents different leverage trade-offs balancing control, mobility, and sweep mechanics.
-
-**Butterfly Guard**: Butterfly hooks create elevation leverage where hips serve as fulcrum and hooked legs as lever arms. Upper body grips establish compound leverage enabling sweeps through coordinated lever actions. Body weight management optimizes mechanical advantage during elevation.
-
-**Ashi Garami**: Leg entanglement creates primary fulcrum controlling opponent's lower body while upper body positioning extends lever arms. Different Ashi variations optimize leverage angles for specific submission attacks, particularly heel hooks and kneebars through superior mechanical advantage.
-
-**Standing Position**: Takedown entries rely on leverage principles where grips establish control points and body positioning creates fulcrums for off-balancing. Throws succeed through optimal lever arm ratios combined with opponent's weight distribution and momentum.
-
-**Rubber Guard**: High guard position creates extreme leverage angles for posture breaking and attack initiation. Leg positioning serves as primary fulcrum while arms establish secondary leverage systems for submissions and sweeps from unconventional angles.
-
-**Spider Guard**: Foot on biceps creates lever systems controlling opponent's arms while grips on sleeves extend lever arms. This position uses limb leverage to control distance and create sweeping opportunities through mechanical advantage on opponent's upper body structure.
+**Standing Position**: Place your body and grips so a takedown entry creates a support point around which the opponent can be redirected.
 
 
 
@@ -333,27 +300,15 @@ Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a pri
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Applying force through muscular strength rather than leveraging body weight through optimal positioning
-  - **Consequence**: Rapid fatigue, reduced technique effectiveness against larger opponents, inability to execute techniques consistently. Strength-based application allows strong opponents to simply resist through superior attributes.
-  - **Correction**: Focus on positioning body weight to serve as effort force applied through proper fulcrum points and lever arms. Practice techniques emphasizing weight distribution over muscle engagement. Study how gravity and body mass can be directed through leverage angles.
-- **Mistake**: Positioning fulcrum too close to resistance point or too far from effort point
-  - **Consequence**: Unfavorable lever arm ratios drastically reduce mechanical advantage, making techniques require exponentially more force. Even perfect technique execution fails when leverage geometry is wrong, leading to confusion about technique validity.
-  - **Correction**: Before applying force, consciously assess and adjust fulcrum positioning to maximize distance to effort point while minimizing distance to resistance. Use positional adjustments (hip movement, angle changes) to optimize lever arm ratios before committing to technique.
-- **Mistake**: Applying force at angles other than perpendicular to lever arm direction
-  - **Consequence**: Majority of applied force dissipates in non-productive directions, dramatically reducing rotational effectiveness. Force angle errors of even 30 degrees can reduce effectiveness by 50% or more, making techniques feel impossibly difficult.
-  - **Correction**: Study perpendicular force application through drilling with attention to body angles. Learn to recognize proper force vector feel through repetition. Adjust entire body positioning to align force direction perpendicular to lever arms rather than just pushing harder.
-- **Mistake**: Creating slack or weak points in kinetic chain between effort and resistance
-  - **Consequence**: Force dissipates through collapsed body segments rather than transmitting to resistance point. Bent arms, disengaged core, or improper alignment prevent leverage systems from functioning regardless of correct fulcrum positioning.
-  - **Correction**: Develop body awareness of structural integrity throughout leverage application. Engage core, maintain spinal alignment, and create rigid connections through proper muscle activation. Practice holds with focus on zero-slack transmission of force.
-- **Mistake**: Attempting to maintain failing leverage system instead of transitioning to new opportunities
-  - **Consequence**: Wasted energy fighting opponent's successful counter-leverage or positional improvements. Stubbornness about failed leverage leads to being stuck in deteriorating positions while better opportunities are missed.
-  - **Correction**: Develop sensitivity to recognize when leverage systems are compromised. Practice flowing between multiple leverage setups in same position. Learn to abandon failing systems early and establish new mechanical advantages before position completely collapses.
-- **Mistake**: Ignoring opponent's leverage systems while focusing only on creating own advantages
-  - **Consequence**: Opponent establishes superior mechanical advantage through better positioning, neutralizing or reversing your attempts. Failing to break their leverage before establishing yours often results in stalemates or position loss.
-  - **Correction**: Train awareness of opponent's fulcrum points and lever arms simultaneously with your own. Learn to disrupt their leverage attempts through positioning that extends their lever arms or eliminates their fulcrums. Practice counter-leverage drilling.
-- **Mistake**: Over-complicating leverage systems by seeking too many compound levers simultaneously
-  - **Consequence**: Loss of execution reliability as complex systems become difficult to maintain under resistance. Multiple leverage points can conflict with each other or become impossible to manage while opponent counters, leading to position collapse.
-  - **Correction**: Start with simple, reliable single leverage systems and add complexity only when primary system is secure. Prioritize one strong leverage point over multiple weak ones. Build compound systems progressively rather than attempting all simultaneously.
+- **Mistake**: Adding force before fixing the angle
+  - **Consequence**: The opponent’s base supports the load and the movement stalls.
+  - **Correction**: Pause and adjust your hips, contact point, or pulling direction.
+- **Mistake**: Leaving slack in the connection
+  - **Consequence**: Your movement is absorbed by a loose grip or collapsing limb.
+  - **Correction**: Bring the contact closer and support the working limb with your posture.
+- **Mistake**: Keeping the same lever after the opponent moves
+  - **Consequence**: The original support point no longer produces the intended movement.
+  - **Correction**: Rebuild the contact and angle or switch to an available technique.
 
 
 </section>
@@ -361,23 +316,11 @@ Among the conceptual foundations of Brazilian Jiu-Jitsu, leverage occupies a pri
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Leverage Mapping** (Focus: Develops comprehensive understanding of leverage geometry across all positions. Builds intuitive recognition of mechanical advantage opportunities before movement initiation. Creates framework for analyzing new positions through leverage lens.)
-Systematic exploration of every major position to identify all available fulcrum points, optimal lever arm configurations, and force vector angles. Partners freeze in positions while identifying and discussing leverage opportunities. Create mental models of leverage systems across entire positional hierarchy.
+**Butterfly leverage comparison** (Focus: Feel how hip position changes leverage.)
+With a cooperative partner in butterfly guard, compare the same gentle elevation from two nearby hip positions. Lower the partner and reset between attempts; discuss which required less effort.
 
-**Minimal Force Drilling** (Focus: Eliminates strength compensation habits and forces reliance on proper leverage mechanics. Develops sensitivity to leverage efficiency. Creates movement patterns based on mechanical advantage rather than athletic ability.)
-Execute techniques using absolute minimum force necessary by perfecting leverage positioning. Practice sweeps, passes, and controls with constraint of using only 20-30% strength. Partner provides honest feedback about pressure felt. Gradually reduce force used as leverage improves.
-
-**Lever Arm Ratio Experimentation** (Focus: Creates visceral understanding of how small positional changes dramatically affect leverage effectiveness. Develops precision in fulcrum positioning. Builds awareness of optimal leverage zones through contrast with inefficient positioning.)
-Deliberately practice techniques from both optimal and suboptimal fulcrum positions to physically feel difference in required force. Execute same sweep from correct hip position versus 6 inches forward/back. Quantify effort difference through partner resistance levels.
-
-**Compound Leverage Building** (Focus: Develops skill in creating exponential mechanical advantage through system combination. Teaches prioritization of which leverage systems to establish first. Builds coordination for managing multiple fulcrum points simultaneously.)
-Start with single leverage point in position and progressively add secondary and tertiary systems while maintaining control. Begin with basic closed guard posture break, then add second leverage for sweep preparation, then third for sweep execution. Practice smooth integration of multiple systems.
-
-**Counter-Leverage Awareness Drills** (Focus: Builds awareness of opponent's mechanical advantage attempts. Develops defensive leverage understanding. Creates realistic training where both athletes compete for superior positioning and leverage control.)
-Partner actively attempts to establish their leverage systems while you work to disrupt them before creating your own. Focus on identifying their fulcrum points and extending their lever arms unfavorably. Then reverse roles. Emphasize leverage denial before leverage establishment.
-
-**Dynamic Leverage Transitions** (Focus: Develops real-time leverage assessment and adjustment skills. Builds ability to flow between multiple mechanical advantage setups. Trains decision-making about when to maintain versus when to abandon leverage systems.)
-Flow rolling with constraint that techniques must be abandoned immediately when leverage becomes compromised. Focus on rapid identification of new fulcrum opportunities and smooth transitions between leverage systems. Emphasize adaptability over strength-forcing failed positions.
+**Map a sweep** (Focus: Connect the mechanical model to a known movement.)
+Set up a familiar sweep without completing it. Both partners identify the support point, moving segment, and force direction. Perform one slow cooperative repetition, then reset.
 
 
 

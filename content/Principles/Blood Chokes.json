@@ -1,6 +1,6 @@
 {
   "name": "Blood Chokes",
-  "description": "Master blood choke mechanics in BJJ. Learn carotid artery compression, vascular strangle principles, finishing details, and safety protocols for the most effective submission type.",
+  "description": "Blood chokes compress blood vessels in the neck; placement, positional control, early tapping, and immediate release matter in training.",
   "tags": [
     "bjj",
     "principle",
@@ -21,17 +21,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",
-  "summary": "Blood chokes are submissions that compress the carotid arteries on the sides of the neck to cut oxygenated blood flow to the brain, producing unconsciousness within seconds — a vascular mechanism distinct from airway-blocking air chokes.",
-  "overview": "Blood chokes are the most effective and widely used finishing mechanic in Brazilian Jiu-Jitsu. Unlike air chokes that restrict breathing through tracheal compression, blood chokes work by compressing the carotid arteries on one or both sides of the neck, cutting blood flow to the brain. When applied correctly, a blood choke can render an opponent unconscious in as little as 6 to 10 seconds, making it the fastest path to a finish in grappling. The rear naked choke, guillotine, triangle choke, and bow and arrow choke all operate primarily through this vascular mechanism.\n\nThe defining characteristic of a blood choke is that the opponent may not feel extreme pain or airway distress before losing consciousness. This makes recognition and early defense critical for safety, and makes the tap signal a non-negotiable safety requirement. Training partners must understand that a blood choke can put someone to sleep before they realize they are in danger. The attacker bears responsibility for releasing immediately upon tap and monitoring their partner's consciousness.\n\nEffective blood choke application requires understanding the anatomy of the neck, proper constriction angles that target the carotid arteries rather than the windpipe, and the mechanical details that differentiate a tight choke from one that merely squeezes. The difference between a blood choke that finishes in seconds and one that an opponent can weather for minutes often comes down to angle, shoulder positioning, and the ability to close all gaps between the choking structures and the neck. At every belt level, refining blood choke mechanics yields immediate returns because this finishing category accounts for the majority of submission victories in both training and competition.",
+  "summary": "Blood chokes are submissions that compress blood vessels in the neck, reducing blood flow to the brain.",
+  "overview": "Position and contact determine whether a choke becomes effective pressure or a neck crank. Unconsciousness can occur quickly, so tap early and release immediately; never train by testing tolerance.",
   "key_principles": [
-    "Target the carotid arteries on both sides of the neck, not the trachea, for the fastest and safest finish",
-    "Eliminate all space between choking structures and the opponent's neck to ensure vascular compression rather than muscular squeeze",
-    "Use skeletal structure and body positioning to generate constriction force rather than relying on arm strength alone",
-    "Control the opponent's posture and head position before attempting to close the choke, as posture is the primary defense against strangles",
-    "Understand that unconsciousness can occur in 6-10 seconds with a properly applied blood choke, making immediate release on tap a safety imperative",
-    "Recognize that the choking arm or leg must wrap around the neck at the correct angle to compress arteries rather than push against the chin or jaw",
-    "Apply the choke progressively, tightening incrementally while monitoring partner response, never cranking explosively in training",
-    "Always prioritize the squeeze direction that closes both carotid arteries simultaneously for maximum effectiveness and speed"
+    "Establish positional control before working on choke placement.",
+    "Correct gaps and angles instead of squeezing harder.",
+    "Stop and reset when pressure shifts onto the jaw or twists the neck.",
+    "Tap early and release immediately on any stop signal."
   ],
   "component_skills": [
     {
@@ -122,51 +118,19 @@
   "application_contexts": [
     {
       "context": "Back Control",
-      "how_applied": "The rear naked choke from back control is the highest-percentage blood choke in BJJ. The attacker uses the seatbelt grip to control the torso, then works the choking arm under the chin to position the blade of the forearm across the carotid arteries. The second arm closes behind the head, and chest expansion against the opponent's back amplifies the squeeze."
+      "how_applied": "Rear naked choke setups combine upper-body control with placement around the neck."
     },
     {
       "context": "Closed Guard",
-      "how_applied": "Triangle chokes from closed guard compress both carotid arteries using the thigh and calf on opposite sides of the neck. The attacker must control posture, isolate one arm across the centerline, lock the triangle configuration, and angle off to the side to maximize the pinch on both arteries simultaneously."
-    },
-    {
-      "context": "Front Headlock",
-      "how_applied": "Guillotine chokes from front headlock use the forearm blade across the throat and neck, with the attacker's chest and shoulder closing from behind. Proper guillotine mechanics require pulling the chin up and in while expanding the chest, targeting the carotid rather than crushing the windpipe."
+      "how_applied": "Triangle setups use the legs and the opponent’s trapped shoulder around the neck."
     },
     {
       "context": "Mount",
-      "how_applied": "Cross collar chokes from mount use gi lapel grips to create a scissoring action across both sides of the neck. The attacker's wrists cross and rotate inward, tightening the collar fabric against the carotid arteries. Elbows drive toward the mat to maximize constriction."
+      "how_applied": "Collar grips can create pressure along the sides of the neck."
     },
     {
       "context": "Side Control",
-      "how_applied": "Arm triangle chokes (kata gatame) trap the opponent's own shoulder against one carotid while the attacker's arm compresses the other. The attacker walks to the choking side and drops their shoulder to tighten the squeeze, using the opponent's own anatomy against them."
-    },
-    {
-      "context": "Triangle Control",
-      "how_applied": "From locked triangle position, the attacker adjusts angle to ensure the thigh compresses one carotid and the calf/shin compresses the other. Pulling the head down, squeezing the knees together, and lifting the hips all increase vascular compression."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Clock chokes and bow and arrow setups from turtle use lapel grips to wrap the collar around the neck and compress the carotid arteries. The attacker's body weight and rotation amplify the choking pressure as they drive around the opponent's body."
-    },
-    {
-      "context": "Crucifix",
-      "how_applied": "Rear naked choke variations from crucifix are extremely high percentage because the opponent's arms are trapped and cannot defend. The blood choke mechanics are identical to standard RNC but with dramatically reduced defensive options."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "North-south chokes compress the near-side carotid using the attacker's arm while shoulder pressure and chest weight close the far side. This is a subtle blood choke that often catches opponents off guard because the pressure builds gradually."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "Darce and anaconda chokes from half guard top use arm-in configurations to compress the carotid arteries. The attacker threads their arm around the opponent's neck and trapped arm, creating a figure-four lock that tightens as the attacker sprawls and rotates."
-    },
-    {
-      "context": "Standing Position",
-      "how_applied": "Standing guillotines and standing rear naked chokes use the same vascular mechanics but with added urgency due to slam risk. The attacker must secure the choke quickly and either pull guard or take the opponent down to finish safely."
-    },
-    {
-      "context": "Guillotine Control",
-      "how_applied": "From established guillotine control, the attacker refines arm position to ensure the blade of the forearm sits on the carotid rather than the windpipe. Pulling the elbow to the hip and arching the back creates the constriction angle needed for a clean blood choke finish."
+      "how_applied": "Arm triangle setups use the opponent’s shoulder as one side of the constricting structure."
     }
   ],
   "decision_framework": [
@@ -213,66 +177,31 @@
   ],
   "common_errors": [
     {
-      "error": "Squeezing with arm strength instead of using body mechanics and structural constriction",
-      "consequence": "Rapid forearm and bicep fatigue without effective arterial compression. The choke feels tight to the attacker but allows enough blood flow for the opponent to survive and escape over time.",
-      "correction": "Use chest expansion behind rear chokes, hip lift in triangles, and full-body rotation in guillotines. The arms position the choke; the body finishes it. Focus on eliminating gaps rather than squeezing harder."
+      "error": "Squeezing through a gap",
+      "consequence": "Arms tire while placement remains poor.",
+      "correction": "Release pressure and correct the position."
     },
     {
-      "error": "Compressing the windpipe instead of the carotid arteries",
-      "consequence": "The opponent experiences pain and airway restriction but remains conscious for much longer. This is less effective, more painful, and carries higher risk of tracheal injury. In competition, referees may question the legality of certain windpipe-focused applications.",
-      "correction": "Adjust the angle of the choking arm so the blade of the forearm sits on the side of the neck, not the front. The forearm should be on one carotid and the bicep or shoulder on the other. If the opponent is coughing, the choke is on the windpipe."
+      "error": "Turning the choke into a crank",
+      "consequence": "Force loads the neck or jaw instead of the intended contact.",
+      "correction": "Stop and reset; do not force the head into place."
     },
     {
-      "error": "Attempting the choke before controlling posture and head position",
-      "consequence": "The opponent postures up, creates space, and escapes before the choke can be applied. Without posture control, the neck is not accessible and defensive movements easily defeat the choke attempt.",
-      "correction": "Establish posture control first using collar grips, head control, or body positioning. Break the opponent's posture down before committing to the choke. The choke is the last step, not the first."
-    },
-    {
-      "error": "Leaving gaps between the choking structures and the neck",
-      "consequence": "Blood continues to flow through the carotid arteries despite apparent choking pressure. The opponent can survive the choke indefinitely because the compression is incomplete. This wastes the attacker's energy while the defender waits for an escape opportunity.",
-      "correction": "After positioning the choke, focus on closing every gap. Pull the head into the choke, adjust shoulder position, squeeze knees in triangles, and use chest-to-back pressure in rear chokes. The choke should feel like a sealed compression, not a loose squeeze."
-    },
-    {
-      "error": "Holding the choke after the opponent taps",
-      "consequence": "Serious safety violation that can cause unconsciousness, injury, or loss of trust between training partners. Blood chokes can render someone unconscious in seconds after the tap, making delayed release genuinely dangerous.",
-      "correction": "Release immediately upon feeling or hearing the tap. Train the release reflex to be as automatic as the choke application. In training, always err on the side of releasing too early rather than too late. If unsure whether the partner tapped, release and ask."
-    },
-    {
-      "error": "Cranking the neck or jaw instead of choking the neck",
-      "consequence": "Causes neck pain and potential cervical spine injury without effective arterial compression. The opponent may tap from pain rather than from the choke, which masks technical deficiency and risks injury.",
-      "correction": "If you feel the chin or jaw bone against your forearm, the choke is not properly positioned. Swim the arm deeper under the chin or adjust angle to get the forearm blade against the side of the neck. A clean blood choke should not involve neck or jaw cranking."
-    },
-    {
-      "error": "Abandoning the choke attempt too early when the opponent begins hand fighting",
-      "consequence": "Misses finishing opportunities because hand fighting is a normal defensive response that does not mean the choke is ineffective. Many opponents tap within seconds of beginning to hand fight because blood flow is already restricted.",
-      "correction": "Recognize that hand fighting is a sign the choke is threatening. Maintain the choke while using body positioning to win the hand fight. Only abandon the choke if the opponent successfully creates significant space or removes the choking arm entirely."
+      "error": "Waiting to see how long it takes",
+      "consequence": "Delayed tapping or release can lead to unconsciousness or injury.",
+      "correction": "Tap early, release immediately, and never test endurance."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Anatomical Placement Drilling",
-      "description": "Slow, deliberate drilling focused on feeling the correct placement of choking structures against the carotid arteries. Partner provides feedback on whether the choke feels like vascular compression or windpipe/jaw pressure. Use minimal force and focus entirely on positioning accuracy. Drill 20-30 reps per choke variation.",
-      "focus": "Developing the tactile sensitivity to distinguish correct carotid targeting from windpipe compression or jaw cranking, which is the single most important skill for effective blood choke application"
+      "approach_name": "Setup and release",
+      "description": "With a coach and cooperative partner, walk through one familiar choke entry without tightening it. Check position, release on an agreed signal, and reset.",
+      "focus": "Placement and immediate release."
     },
     {
-      "approach_name": "Progressive Resistance Choke Sparring",
-      "description": "Start from established choking positions (back control with one hook, locked triangle, guillotine grip) with partner providing graduated resistance. Begin at 30% defense and increase to 80% over weeks. Attacker focuses on maintaining position and adjusting choke placement against active defense without muscling the finish.",
-      "focus": "Building the ability to apply and finish blood chokes against realistic defensive reactions including hand fighting, chin tucking, posture recovery, and body rotation"
-    },
-    {
-      "approach_name": "Choke-to-Chain Flow Drilling",
-      "description": "Practice transitioning from choke attempts to other submissions when the choke is defended. Rear naked choke to armbar when opponent pulls the arm down. Triangle to armbar when opponent postures. Guillotine to darce when opponent circles. Build automatic chain responses to common choke defenses.",
-      "focus": "Integrating blood choke mechanics into broader submission chain systems so that choke attempts create offensive opportunities even when the finish is not immediately available"
-    },
-    {
-      "approach_name": "Safety Protocol Training",
-      "description": "Dedicated sessions focused on tap recognition, immediate release practice, and unconscious partner management. Practice identifying when a partner goes limp, the correct recovery position, and verbal check-ins during choke training. All partners should experience being choked to near-tap to understand the sensation and urgency of tapping.",
-      "focus": "Ensuring all practitioners understand the seriousness of blood choke application and can handle safety situations including unconscious training partners calmly and correctly"
-    },
-    {
-      "approach_name": "Body Mechanics Isolation",
-      "description": "Isolate the body mechanics that finish each choke type: chest expansion for rear naked, hip lift for triangles, chest-to-back squeeze for guillotines, wrist rotation for collar chokes. Practice the finishing mechanic without a partner using towels, heavy bags, or grappling dummies to build the specific muscular patterns.",
-      "focus": "Developing the specific body mechanics that generate choking force through structural compression rather than arm squeeze, reducing fatigue and increasing finishing effectiveness"
+      "approach_name": "Entry hand fighting",
+      "description": "Start from back control before a choking grip is secured. Work light hand fighting only; reset at a secured entry, before pressure, and release on any stop cue.",
+      "focus": "Win control before the choke."
     }
   ],
   "developmental_metrics": [
@@ -494,13 +423,21 @@
   ],
   "clips": [
     {
+      "id": "ITjheLKk7-w",
+      "title": "A detail for tighter chokes",
+      "by": "Jordan Preisinger",
+      "vertical": true,
+      "channel": "Jordan Teaches Jiujitsu",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "IrT8myY3jTQ",
       "title": "The science of the blood choke",
       "by": "Josiah Shoon",
       "vertical": false,
       "channel": "Josiah Shoon",
       "duration": 73,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "SiBG3CXr3vQ",
@@ -509,7 +446,7 @@
       "vertical": false,
       "channel": "Catalyst University",
       "duration": 556,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "wtgggEGnMOo",
@@ -518,7 +455,7 @@
       "vertical": false,
       "channel": "Jordan Teaches Jiujitsu",
       "duration": 1021,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

@@ -9,10 +9,11 @@ Facts these helpers encode (verified 2026-07-14, v1.55.0):
   provenance comes from the SEARCH result, never a follow-up fetch.
 - Existence + embeddability: YouTube oEmbed (200 = exists & embeddable,
   401/403 = embedding disabled, 404 = gone/private).
-- Verticality (Shorts): `i.ytimg.com/vi/<id>/oardefault.jpg` exists ONLY for
-  portrait videos (200 = Short, 404 = landscape). The /shorts/<id> redirect
-  trick is NOT reliable (302 for everything on HEAD) and oEmbed width/height
-  is a fixed 200x113 — don't use either.
+- Verticality (Shorts): portrait thumbnail variants include `oardefault.jpg`
+  and `oar1.jpg` (checked 2026-09-20). Their absence does NOT establish landscape:
+  some real Shorts only publish a cropped hq720_1 image on the channel Shorts tab.
+  Retain previously established format when this check is inconclusive. The
+  /shorts/<id> redirect and oEmbed width/height do not establish format.
 """
 
 from __future__ import annotations
@@ -195,10 +196,17 @@ def _http_status(url, method="GET", timeout=15):
 
 
 def is_short(video_id, timeout=15):
-    """True iff YouTube serves the portrait thumbnail (only exists for Shorts)."""
-    status, _ = _http_status(f"https://i.ytimg.com/vi/{video_id}/oardefault.jpg",
-                             method="HEAD", timeout=timeout)
-    return status == 200
+    """True for a known portrait thumbnail; None when format is inconclusive.
+
+    A 404 is not proof of landscape: current Shorts can use alternate/cropped
+    thumbnails. Never downgrade a known Short because one asset is unavailable.
+    """
+    for name in ("oardefault", "oar1", "oar2", "oar3"):
+        status, _ = _http_status(f"https://i.ytimg.com/vi/{video_id}/{name}.jpg",
+                                 method="HEAD", timeout=timeout)
+        if status == 200:
+            return True
+    return None
 
 
 def verify_video(video_id, timeout=15):

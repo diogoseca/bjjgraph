@@ -1,6 +1,6 @@
 {
   "name": "Control Maintenance",
-  "description": "Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions.",
+  "description": "Control maintenance means following an opponent’s escapes with changes in base, pressure, and contact so a useful position stays secure.",
   "tags": [
     "bjj",
     "principle",
@@ -13,18 +13,13 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Control Maintenance is the principle of preserving positional dominance through continuous micro-adjustment, pressure modulation, and redundant connection points that neutralize an opponent's escape mechanics before they generate momentum.",
-  "overview": "In the strategic hierarchy of grappling, securing a dominant position is only half the battle—holding it against a resisting, escape-hungry opponent is what separates fleeting position from genuine positional dominance. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.",
+  "summary": "Control maintenance is keeping a useful position by adjusting your base, pressure, and connections as the opponent tries to escape.",
+  "overview": "Watch the first movement of an escape, then adjust the contact that blocks it. Keep control long enough to choose an attack without committing both hands or your balance too early.",
   "key_principles": [
-    "Apply continuous pressure that prevents opponent's movement without creating escape opportunities through overcommitment",
-    "Maintain multiple connection points distributing control across different body areas",
-    "Adjust position dynamically in response to opponent's escape attempts rather than remaining static",
-    "Prioritize control maintenance over submission attempts until position is secure",
-    "Recognize and counter opponent's escape mechanics before they generate momentum",
-    "Conserve energy through efficient pressure application rather than constant maximum force",
-    "Establish control hierarchy targeting highest-value control points first",
-    "Coordinate pressure with body positioning to prevent specific escape pathways",
-    "Maintain awareness of position vulnerabilities and protect them preemptively"
+    "Respond to the beginning of an escape.",
+    "Use several contacts that control different directions.",
+    "Adjust pressure without losing your base.",
+    "Secure the position before committing to a submission."
   ],
   "component_skills": [
     {
@@ -115,63 +110,19 @@
   "application_contexts": [
     {
       "context": "Mount",
-      "how_applied": "Control maintenance in mount requires distributing weight across opponent's torso and hips while maintaining high posture that prevents bridge-and-roll escapes, using gable grip or S-mount configuration to prevent elbow escape mechanics, and continuously adjusting base width and weight distribution as opponent attempts various escape patterns."
+      "how_applied": "Move your base and weight as the bottom player bridges or begins a hip escape."
     },
     {
       "context": "Side Control",
-      "how_applied": "From side control, control maintenance involves establishing crossface and underhook connections while applying shoulder pressure to prevent opponent's hip escape, modulating chest pressure to prevent bridge attempts, and transitioning between various side control configurations as opponent's defensive reactions change."
+      "how_applied": "Coordinate upper-body contact and hip control as the opponent frames and turns."
     },
     {
       "context": "Back Control",
-      "how_applied": "Back control maintenance centers on maintaining hooks and seatbelt grip configuration while preventing opponent from turning into guard, applying strategic pressure through chest connection to flatten opponent, and continuously adjusting hook depth and body position as opponent attempts various escape sequences."
+      "how_applied": "Follow the opponent’s turn with chest contact, a seatbelt, and leg adjustments."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Knee on belly control requires dynamic weight modulation between knee pressure and posted foot, maintaining grips that control opponent's near arm and far collar, and continuously adjusting position to counter opponent's attempts to create frames or turn into guard."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "North-south control maintenance involves applying chest and shoulder pressure to prevent opponent's hip movement while controlling head position, establishing grips that prevent arm-based frames, and shifting weight distribution to counter opponent's directional escape attempts."
-    },
-    {
-      "context": "Closed Guard",
-      "how_applied": "Even from bottom closed guard, control maintenance concepts apply to maintaining closed guard itself against opponent's opening attempts, controlling posture through grips and leg pressure, and preventing opponent from establishing stable base for passing attacks."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "Top half guard control maintenance focuses on establishing crossface and underhook while applying shoulder pressure to flatten opponent, preventing lockdown or deep half guard entries through strategic knee positioning, and maintaining base that enables pass completion or submission attacks."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Control maintenance from turtle top position requires preventing opponent's stand-up or guard recovery through strategic weight distribution, establishing seatbelt or harness controls, and continuously adjusting to counter opponent's turning and scrambling attempts."
-    },
-    {
-      "context": "High Mount",
-      "how_applied": "Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while high mount prioritizes arm isolation, shoulder pressure, and posture control to set up collar chokes and armbars."
-    },
-    {
-      "context": "Crucifix",
-      "how_applied": "Crucifix control requires maintaining arm entrapment through leg and arm configuration while applying back pressure to prevent opponent's escape, continuously adjusting body angle to counter opponent's attempts to free trapped arms or turn into guard."
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "From bottom butterfly guard, control maintenance principles apply to preventing opponent's pass attempts through hook maintenance and upper body control, using underhooks and overhooks to control posture and prevent passing pressure."
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "Open guard control maintenance requires active foot and leg connections that prevent opponent from settling into passing position, combined with grip strategies that break opponent's posture and disrupt passing mechanics before they fully develop."
-    },
-    {
-      "context": "X-Guard",
-      "how_applied": "X-guard control maintenance centers on maintaining proper leg entanglement that prevents opponent from stepping out or sitting back, while controlling upper body to prevent postural recovery that could enable escape or counter-attacks."
-    },
-    {
-      "context": "Ashi Garami",
-      "how_applied": "Ashi garami control maintenance requires precise leg positioning that prevents opponent's leg extraction, combined with upper body control that prevents postural recovery, while maintaining connection points that enable both control and submission opportunities."
-    },
-    {
-      "context": "Kesa Gatame",
-      "how_applied": "Kesa gatame control maintenance represents systematic application of head and arm control with hip-based weight distribution, emphasizing connection establishment and escape prevention through chest pressure and arm entrapment over offensive actions."
+      "how_applied": "Shift between the controlling knee and posted foot as the opponent makes space."
     }
   ],
   "decision_framework": [
@@ -218,71 +169,31 @@
   ],
   "common_errors": [
     {
-      "error": "Maintaining static position without dynamic adjustment to opponent's escape attempts",
-      "consequence": "Creates predictable control pattern that opponent can systematically defeat through practiced escape sequences, eventually enabling escape success even against initially dominant position.",
-      "correction": "Develop habit of continuous micro-adjustment in response to opponent's movements, treating control maintenance as active process requiring constant attention rather than passive achievement once position is established."
+      "error": "Holding a fixed shape",
+      "consequence": "The opponent’s changing angle opens an escape.",
+      "correction": "Move the relevant contact as soon as the escape begins."
     },
     {
-      "error": "Applying maximum pressure constantly without modulating based on opponent's reactions",
-      "consequence": "Rapidly depletes practitioner's energy resources while creating excessive pressure points that opponent can exploit for escape, particularly through bridging or explosive movements that use practitioner's committed pressure against them.",
-      "correction": "Learn to vary pressure intensity strategically, applying maximum force only when opponent attempts active escape while moderating to sustainable levels during passive periods, developing 'active rest' within dominant positions."
+      "error": "Applying maximum pressure constantly",
+      "consequence": "You tire and become less able to follow movement.",
+      "correction": "Use enough pressure for the current threat."
     },
     {
-      "error": "Prioritizing submission attempts over control maintenance before position is secure",
-      "consequence": "Creates escape opportunities when practitioner commits to offensive attacks from unstable position, often resulting in position loss and reversal of advantageous situation into neutral or defensive position.",
-      "correction": "Internalize position-over-submission approach, ensuring control is sufficiently secure before attempting submissions, accepting that slower offensive progression produces higher success rates and fewer position losses."
-    },
-    {
-      "error": "Failing to recognize and counter escape attempts in their initial stages",
-      "consequence": "Allows opponent's escape mechanics to develop full momentum before implementing counters, making position retention far more difficult and energy-intensive than early intervention would require.",
-      "correction": "Develop pattern recognition for early escape indicators including postural changes, weight shifts, and frame creation attempts, implementing preemptive counters when escape is still in preparation phase rather than execution phase."
-    },
-    {
-      "error": "Maintaining insufficient connection points or over-relying on single control mechanism",
-      "consequence": "Creates fragile control structure that collapses completely when opponent defeats single critical connection, enabling rapid escape from what appeared to be dominant position.",
-      "correction": "Establish multiple redundant connections distributing control across different body areas, ensuring that loss of any single connection still leaves sufficient control to maintain position while reestablishing broken connection."
-    },
-    {
-      "error": "Neglecting base maintenance while focusing on pressure application",
-      "consequence": "Allows opponent to use practitioner's committed pressure and compromised base against them, enabling sweeps or reversals even from inferior positions through exploitation of structural imbalance.",
-      "correction": "Coordinate pressure application with base maintenance, ensuring structural stability is preserved even while applying significant control pressure, and recognizing when base must be prioritized over pressure increase."
-    },
-    {
-      "error": "Using exclusively muscular force rather than structural and technical control",
-      "consequence": "Creates unsustainable control approach that fails as fatigue develops, enabling opponent to escape simply by outlasting practitioner's physical capacity rather than through superior technique.",
-      "correction": "Develop technical control methods that use body position, weight distribution, and structural alignment rather than muscular force, enabling sustained control throughout extended engagements without excessive energy expenditure."
+      "error": "Attacking before control is secure",
+      "consequence": "Releasing a grip or post gives away the position.",
+      "correction": "Check the remaining contacts before committing to the attack."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Positional Sparring with Escape Focus",
-      "description": "Practice control maintenance through positional rounds where bottom player's sole objective is escaping while top player focuses exclusively on position retention without submission attempts. Time-based rounds (2-5 minutes) develop endurance and efficiency in control maintenance.",
-      "focus": "Developing sustainable control methods and escape recognition through repetitive exposure to opponent's defensive efforts, building both technical skill and psychological comfort with extended position maintenance."
+      "approach_name": "One-escape retention",
+      "description": "From mount or side control, have a partner repeat one agreed escape gently. Adjust to retain the position, then reset and switch roles; omit submissions.",
+      "focus": "Read the first escape movement."
     },
     {
-      "approach_name": "Progressive Resistance Drilling",
-      "description": "Partner provides graduated resistance levels from passive (0% resistance) through moderate (50% resistance) to full competition intensity, allowing practitioner to develop control maintenance skills progressively before testing against maximum resistance.",
-      "focus": "Building technical foundation in controlled environment before adding competitive pressure, enabling proper habit formation and technical refinement without the chaos of full resistance training."
-    },
-    {
-      "approach_name": "Control Maintenance Chains",
-      "description": "Practice maintaining single position against fresh opponents in succession (3-5 partners each attempting 2-minute escape), developing both physical endurance and mental stamina required for extended control maintenance under continuous pressure.",
-      "focus": "Building confidence in control maintenance capabilities while developing energy conservation methods necessary for sustained position retention against multiple opponents or throughout extended matches."
-    },
-    {
-      "approach_name": "Transition Maintenance Practice",
-      "description": "Practice maintaining control through deliberate position transitions (mount to technical mount to back control, or side control to knee on belly to mount), ensuring control is preserved throughout transition periods rather than only in static positions.",
-      "focus": "Developing dynamic control maintenance skills that enable safe position transitions and offensive attacks without creating escape windows during transitional movements."
-    },
-    {
-      "approach_name": "Deficit Control Training",
-      "description": "Practice control maintenance from deliberately disadvantageous configurations (opponent starts with established frame, practitioner begins with suboptimal connections), requiring skill development in recovering optimal control from compromised starting positions.",
-      "focus": "Building problem-solving capabilities and control recovery skills that enable position salvation when control becomes threatened during live training or competition."
-    },
-    {
-      "approach_name": "Video Analysis and Pattern Recognition",
-      "description": "Study video footage of high-level competition matches focusing specifically on control maintenance sequences, identifying patterns in how elite practitioners maintain positions, counter escapes, and transition between control configurations.",
-      "focus": "Developing theoretical understanding and pattern recognition capabilities that complement physical practice, enabling conscious understanding of control maintenance principles observed in elite performance."
+      "approach_name": "Control handoff",
+      "description": "Move cooperatively between two familiar top controls. Pause before changing grips and check what still limits the opponent’s hips and shoulders; reset if contact is lost.",
+      "focus": "Maintain control while changing position."
     }
   ],
   "developmental_metrics": [
@@ -533,13 +444,21 @@
   ],
   "clips": [
     {
+      "id": "d50kv5VdpG4",
+      "title": "Side control maintenance: beating the knee frame",
+      "by": "Rory Van Vliet",
+      "vertical": true,
+      "channel": "RVV BJJ",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "kft2AkvKhWU",
       "title": "How to maintain and control the mount",
       "by": "Gordon Ryan",
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 538,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "URGwWYwdoAs",
@@ -548,7 +467,7 @@
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 782,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

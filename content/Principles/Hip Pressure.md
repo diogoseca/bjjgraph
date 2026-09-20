@@ -4,7 +4,7 @@
 
 ---
 title: "Hip Pressure | BJJ Principle | BJJ Graph"
-description: "Master hip pressure mechanics in BJJ. Learn weight distribution, pressure vectors, position-specific applications, and control systems across top positions."
+description: "Control the opponent’s hips with weight, contact, and angle changes to support passing and stable top positions."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hip Pressure",
-  "description": "Master hip pressure mechanics in BJJ. Learn weight distribution, pressure vectors, position-specific applications, and control systems across top positions.",
+  "description": "Control the opponent’s hips with weight, contact, and angle changes to support passing and stable top positions.",
   "url": "https://bjjgraph.org/Principles/Hip-Pressure",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying maximum hip pressure without maintaining upper body base?",
+      "name": "What is a common mistake in Dropping weight beyond your base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Overcommitting weight through hips compromises balance and stability, making position vulnerable to sweeps, reversals, or opponent creating frames that disrupt control. The correction is: Maintain stable base through hands or elbows while applying hip pressure, ensuring weight distribution enables both effective pressure and defensive stability against opponent's counters."
+        "text": "The opponent can redirect your committed weight into a reversal. The correction is: Keep a supporting knee, foot, or post available as you shift weight."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using static hip pressure without adjusting to opponent movements?",
+      "name": "What is a common mistake in Holding one fixed hip angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fixed pressure allows opponent to time escape movements, create angles that reduce pressure effectiveness, or exploit pressure commitment to generate sweep opportunities. The correction is: Maintain dynamic hip pressure that adjusts intensity and angle based on opponent's defensive movements, using pressure modulation to prevent escapes while preserving technical mobility."
+        "text": "The opponent turns into an angle where your contact no longer blocks them. The correction is: Follow the hip movement and reset your angle before adding more pressure."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Losing hip contact during transitions or technical execution?",
+      "name": "What is a common mistake in Lifting away during a pass?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creating pressure windows enables opponent to execute hip escapes, recover guard, or establish defensive frames that fundamentally change positional dynamics in their favor. The correction is: Preserve constant hip connection even during complex movements by coordinating upper and lower body mechanics, ensuring hip pressure never completely releases during technical sequences."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying hip pressure in wrong direction for position objectives?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Misdirected pressure may immobilize self more than opponent, prevent intended position advancement, or create angles that actually assist opponent's defensive movements. The correction is: Select pressure vectors that align with position goals: downward for pinning, forward for advancing, angled for passing. Match pressure direction to tactical objectives and opponent's defensive structure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting to coordinate hip pressure with shoulder pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Isolated hip pressure allows opponent to create upper body frames, maintain mobility in un-pressured areas, or use partial escape movements to eventually compromise position. The correction is: Integrate hip pressure with shoulder pressure to create comprehensive control where both upper and lower body are simultaneously pinned, eliminating opponent's ability to create effective defensive structures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Maintaining excessive hip pressure when technical execution requires mobility?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Over-pressuring prevents own mobility needed for submissions, transitions, or position improvements, creating tactical stagnation where control exists but advancement becomes impossible. The correction is: Modulate pressure intensity based on immediate objectives, reducing hip pressure when executing techniques that require movement while maintaining sufficient contact to prevent opponent escapes."
+        "text": "The guard player gets space to bring a knee back inside. The correction is: Transfer control to the next contact before moving your hips away."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Hip Pressure",
-  "description": "Hip Pressure is the tactical application of bodyweight through hip-to-hip contact to pin an opponent's lower body to the mat, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission.",
+  "description": "Hip pressure uses body weight and hip contact to restrict an opponent’s lower-body movement while preserving your own balance and ability to move.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -205,9 +181,9 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
 
 ## What is Hip Pressure?
 
-**Hip Pressure is the tactical application of bodyweight through hip-to-hip contact to pin an opponent's lower body to the mat, nullify their shrimps, bridges, and turns, and build stable platforms for passing, control, and submission.**
+**Hip pressure uses body weight and hip contact to restrict an opponent’s lower-body movement while preserving your own balance and ability to move.**
 
-While general pressure principles govern how a top player manages total bodyweight across all contact points, hip pressure isolates the pelvis as the dedicated instrument for controlling an opponent's lower body. It centers on the strategic use of hip placement and weight allocation through the pelvis to achieve specific control objectives: pinning the opponent's hips to the mat, preventing shrimping and bridging, creating angles for passing, and establishing stable platforms for transitions and submissions. This concept integrates the biomechanics of how hip weight restricts an opponent's mobility with tactical decisions about hip placement, pressure intensity, and timing. Hip pressure serves simultaneously as an immediate control mechanism that restricts the opponent's most fundamental defensive movements and as an enabling tool that opens opportunities for position advancement and technical execution. A practitioner's ability to generate and maintain effective hip pressure often determines whether they can shut down the opponent's lower body and advance, or instead concede the constant hip escapes that fuel guard retention and recovery — making it one of the most essential elements of any top game.
+Place your hips where they block the escape you expect. Keep enough support elsewhere to follow a bridge or turn without tipping over.
 
 </section>
 
@@ -242,15 +218,10 @@ While general pressure principles govern how a top player manages total bodyweig
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Position hips close to opponent's hips to minimize escape space and maximize control
-- Generate pressure through hip contact while maintaining base stability with upper body
-- Drive hip pressure toward mat to pin opponent's hips and prevent bridge movements
-- Maintain consistent hip contact while enabling personal mobility for transitions
-- Adjust hip pressure intensity based on opponent's escape attempts and position objectives
-- Coordinate hip pressure with shoulder pressure to create comprehensive control
-- Create angles with hip placement that make escape movements biomechanically difficult
-- Preserve hip pressure through transitions to prevent opponent creating escape windows
-- Balance hip pressure application with mobility needs for technical execution
+- Close the gap at the opponent’s hips before adding pressure.
+- Keep a stable base as you transfer weight into the contact.
+- Adjust your hip angle when the opponent bridges or turns.
+- Pair hip control with upper-body control and transfer contact during transitions.
 
 
 </section>
@@ -281,41 +252,13 @@ While general pressure principles govern how a top player manages total bodyweig
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Side Control**: Hip pressure drives opponent's near hip to mat, preventing hip escape and establishing crossface-hip pressure pinning system that controls both upper and lower body simultaneously.
+**Side Control**: Block the near hip while controlling the shoulders, limiting the space needed for a knee to return inside.
 
-**Knee Slice Pass**: Hip pressure through knee slice pins opponent's bottom hip while passing, preventing them from recovering guard through hip escape or creating frames that would stop the pass progression.
+**Knee Slice Pass**: Keep hip contact as the knee clears the guard, so the bottom player cannot easily turn and reinsert a knee.
 
-**Mount**: Hip pressure maintains mount stability by keeping hips heavy and low, preventing bridge escapes while enabling mobility for transitions to high mount, technical mount, or submission attacks.
+**Mount**: Keep the hips connected and adjust your base to follow bridges without letting the bottom player slide a knee through.
 
-**North-South**: Hip pressure drives through opponent's chest and shoulder complex, pinning their upper body to mat while controlling hips prevents bridge movements that could create escape opportunities.
-
-**Knee on Belly**: Hip pressure through posted knee pins opponent's near hip, creating immobilization that sets up submission attacks while preventing opponent from turning into position or creating distance.
-
-**Half Guard**: Hip pressure drives toward trapped leg side, flattening opponent's position and preventing them from building underhook frames or recovering full guard through hip movement.
-
-**Smash Pass**: Hip pressure crushes opponent's bottom hip through shoulder-driven weight transfer, collapsing guard structure while advancing position past legs through sustained downward and forward pressure.
-
-**Headquarters Position**: Hip pressure maintains control of opponent's lower body during passing sequences, preventing them from recovering guard structure through hip movement while enabling leg weaving and position advancement.
-
-**Long Step Pass**: Hip pressure stabilizes passing position by controlling opponent's hips during leg clearing sequences, preventing guard recovery through hip rotation or elevation that would disrupt the pass.
-
-**Kuzure Kesa Gatame**: Extreme hip pressure application where entire bodyweight drives through hips into opponent's core, creating maximum pinning effect that exhausts defensive capabilities while maintaining dominant control.
-
-**Kuzure Kesa Gatame**: Hip pressure combines with arm control to pin opponent's upper body, with hip placement preventing bridge escapes while maintaining position for transitions or submissions.
-
-**Kesa Gatame**: Hip pressure drives through opponent's chest while controlling arm, creating comprehensive pinning system where hip weight prevents bridge movements and enables superior positional control.
-
-**High Mount**: Advanced hip pressure application where hips drive forward and downward simultaneously, crushing opponent's chest while preventing elbow escape and creating submission opportunities.
-
-**Flattened Half Guard**: Hip pressure flattens opponent from top half guard, preventing them from turning to their side or recovering underhook, maintaining dominant crushing control while advancing position.
-
-**Closed Guard**: From top, hip pressure combined with posture breaking drives weight down through opponent's hips, preventing them from creating angles or maintaining closed guard structure effectively.
-
-**Turtle**: Hip pressure applied to opponent's hips prevents them from standing or rolling through, controlling their base while working to establish back control or other dominant positions.
-
-**Combat Base**: Hip pressure from combat base pins opponent's bottom hip, preventing them from elevating or shrimping while maintaining stable passing platform for guard clearing sequences.
-
-**Technical Mount**: Hip pressure prevents opponent from bridging or turning back toward you, maintaining technical mount control while setting up submission attacks or transitioning to full mount.
+**Headquarters Position**: Use hip placement to contain the legs while changing grips and choosing a passing direction.
 
 
 
@@ -339,27 +282,15 @@ While general pressure principles govern how a top player manages total bodyweig
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Applying maximum hip pressure without maintaining upper body base
-  - **Consequence**: Overcommitting weight through hips compromises balance and stability, making position vulnerable to sweeps, reversals, or opponent creating frames that disrupt control.
-  - **Correction**: Maintain stable base through hands or elbows while applying hip pressure, ensuring weight distribution enables both effective pressure and defensive stability against opponent's counters.
-- **Mistake**: Using static hip pressure without adjusting to opponent movements
-  - **Consequence**: Fixed pressure allows opponent to time escape movements, create angles that reduce pressure effectiveness, or exploit pressure commitment to generate sweep opportunities.
-  - **Correction**: Maintain dynamic hip pressure that adjusts intensity and angle based on opponent's defensive movements, using pressure modulation to prevent escapes while preserving technical mobility.
-- **Mistake**: Losing hip contact during transitions or technical execution
-  - **Consequence**: Creating pressure windows enables opponent to execute hip escapes, recover guard, or establish defensive frames that fundamentally change positional dynamics in their favor.
-  - **Correction**: Preserve constant hip connection even during complex movements by coordinating upper and lower body mechanics, ensuring hip pressure never completely releases during technical sequences.
-- **Mistake**: Applying hip pressure in wrong direction for position objectives
-  - **Consequence**: Misdirected pressure may immobilize self more than opponent, prevent intended position advancement, or create angles that actually assist opponent's defensive movements.
-  - **Correction**: Select pressure vectors that align with position goals: downward for pinning, forward for advancing, angled for passing. Match pressure direction to tactical objectives and opponent's defensive structure.
-- **Mistake**: Neglecting to coordinate hip pressure with shoulder pressure
-  - **Consequence**: Isolated hip pressure allows opponent to create upper body frames, maintain mobility in un-pressured areas, or use partial escape movements to eventually compromise position.
-  - **Correction**: Integrate hip pressure with shoulder pressure to create comprehensive control where both upper and lower body are simultaneously pinned, eliminating opponent's ability to create effective defensive structures.
-- **Mistake**: Maintaining excessive hip pressure when technical execution requires mobility
-  - **Consequence**: Over-pressuring prevents own mobility needed for submissions, transitions, or position improvements, creating tactical stagnation where control exists but advancement becomes impossible.
-  - **Correction**: Modulate pressure intensity based on immediate objectives, reducing hip pressure when executing techniques that require movement while maintaining sufficient contact to prevent opponent escapes.
-- **Mistake**: Positioning hips too far from opponent's hips
-  - **Consequence**: Distance reduces pressure transfer efficiency, allows opponent space for hip escape movements, and prevents effective control of their lower body mobility and defensive capabilities.
-  - **Correction**: Maintain close hip proximity to opponent's hips, minimizing space between contact points to maximize pressure transfer and eliminate room for escape movement initiation.
+- **Mistake**: Dropping weight beyond your base
+  - **Consequence**: The opponent can redirect your committed weight into a reversal.
+  - **Correction**: Keep a supporting knee, foot, or post available as you shift weight.
+- **Mistake**: Holding one fixed hip angle
+  - **Consequence**: The opponent turns into an angle where your contact no longer blocks them.
+  - **Correction**: Follow the hip movement and reset your angle before adding more pressure.
+- **Mistake**: Lifting away during a pass
+  - **Consequence**: The guard player gets space to bring a knee back inside.
+  - **Correction**: Transfer control to the next contact before moving your hips away.
 
 
 </section>
@@ -367,23 +298,11 @@ While general pressure principles govern how a top player manages total bodyweig
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Pressure Drilling** (Focus: Developing tactile sensitivity to opponent movements through hip pressure, learning to adjust pressure intensity and angle based on defensive reactions.)
-Partner drilling focused on establishing and maintaining hip pressure in specific positions (side control, mount, knee slice) while partner attempts controlled escape movements. Emphasizes feeling opponent's defensive attempts through hip contact.
+**Follow the hips** (Focus: Keep contact while adjusting your base.)
+Start in side control. The bottom partner makes slow hip escapes and small bridges while the top partner follows with light hip contact. Reset after a knee enters or the pin settles.
 
-**Pressure Maintenance During Transitions** (Focus: Building ability to preserve hip contact and pressure during complex positional changes, ensuring no escape opportunities emerge during technical sequences.)
-Flow drilling where practitioner maintains constant hip pressure while transitioning between multiple top positions. Partner provides progressive resistance, attempting to exploit any pressure windows created during movement.
-
-**Pressure Vector Experimentation** (Focus: Understanding how different pressure directions affect opponent mobility, learning to select optimal vectors for specific positions and objectives.)
-Controlled exploration where practitioner applies hip pressure in various directions from same position while partner provides feedback on immobilization effectiveness. Test downward, forward, angled, and combined vector pressures.
-
-**Pressure Modulation Sparring** (Focus: Developing tactical judgment about when maximum pressure is needed versus when reduced pressure enables advancement, building pressure control sophistication.)
-Positional sparring with specific focus on varying hip pressure intensity based on opponent's defensive state. Practice increasing pressure to prevent escapes, decreasing for technical execution, maintaining baseline control pressure.
-
-**Integrated Pressure Systems** (Focus: Understanding synergistic relationships between pressure points, developing ability to create complete control through coordinated pressure application.)
-Drilling that combines hip pressure with shoulder pressure, crossface, and other control points, learning to coordinate multiple pressure sources into comprehensive pinning systems that eliminate escape options.
-
-**Resistance Progression Training** (Focus: Building pressure generation capacity against increasing resistance, developing confidence in hip pressure effectiveness against realistic defensive efforts.)
-Partner provides escalating resistance to hip pressure application, starting with compliance and gradually increasing defensive efforts. Practitioner maintains control through progressive resistance levels.
+**Knee-slice connection** (Focus: Carry lower-body control through a pass.)
+Begin halfway through a knee slice with a cooperative partner. Clear the knee while maintaining hip contact, then settle side control. Reset before the next pass.
 
 
 

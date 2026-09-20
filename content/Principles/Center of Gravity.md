@@ -4,7 +4,7 @@
 
 ---
 title: "Center of Gravity | BJJ Principle | BJJ Graph"
-description: "Master strategic weight allocation in BJJ top positions. Learn biomechanical pressure principles, dynamic distribution adjustment, and energy-efficient control."
+description: "Center of gravity describes where your weight is balanced and how shifting it changes your stability, pressure, and movement."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Center of Gravity",
-  "description": "Master strategic weight allocation in BJJ top positions. Learn biomechanical pressure principles, dynamic distribution adjustment, and energy-efficient control.",
+  "description": "Center of gravity describes where your weight is balanced and how shifting it changes your stability, pressure, and movement.",
   "url": "https://bjjgraph.org/Principles/Center-of-Gravity",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying maximum weight uniformly across all contact points without strategic allocation?",
+      "name": "What is a common mistake in Committing all weight forward?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates predictable, rigid pressure that skilled opponents can exploit, wastes energy through inefficient distribution, limits personal mobility for transitions, and often results in being swept or reversed when opponent creates specific reactions. The correction is: Develop strategic weight distribution patterns where pressure is concentrated on specific control targets while maintaining lighter pressure on base points, creating asymmetric loading that prevents escapes while preserving mobility and energy efficiency."
+        "text": "Pressure increases but the opponent can tip you. The correction is: Restore a supporting contact before driving farther."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Maintaining static weight distribution that doesn't adjust to opponent's movements?",
+      "name": "What is a common mistake in Keeping weight fixed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Allows opponent to systematically escape by creating space in undefended areas, misses opportunities to increase pressure when opponent exposes vulnerabilities, and results in losing positions to technical escape sequences that exploit fixed pressure patterns. The correction is: Cultivate dynamic weight modulation skills where distribution adjusts continuously based on opponent's defensive efforts, increasing pressure where they attempt to create space while lightening pressure in areas where they've stopped resisting."
+        "text": "An escape changes where support and pressure are needed. The correction is: Shift with the opponent’s movement."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Committing so much weight to pressure that base integrity is compromised?",
+      "name": "What is a common mistake in Squeezing to replace weight placement?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates vulnerability to sweeps and reversals when opponent explosively changes direction or uses technical escapes that exploit overcommitted weight distribution, often resulting in dramatic position losses from seemingly dominant positions. The correction is: Maintain constant balance between pressure effectiveness and base stability, ensuring sufficient weight remains on base points to resist sweeps while applying optimal pressure on opponent, adjusting this balance based on opponent's sweep threats."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using muscular effort to maintain pressure rather than skeletal alignment and gravity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rapidly drains personal energy making it impossible to sustain pressure over time, creates muscle tension that makes weight distribution rigid and less responsive, and often results in losing positions once fatigue sets in. The correction is: Focus on achieving pressure through optimal skeletal structure and gravity-assisted loading where bones bear weight rather than muscles, using muscular effort only for dynamic adjustments and maintaining alignment rather than generating force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to coordinate weight shifts with technical execution during transitions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates choppy, disconnected movements where weight distribution actively impedes transitions rather than facilitating them, often resulting in losing position during transition attempts because weight was committed in ways that prevented smooth movement. The correction is: Integrate weight distribution planning into technical execution where pressure shifts are choreographed as part of the technique itself, using strategic weight redistribution to create the exact reactions needed for smooth position advancement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying same weight distribution strategy regardless of opponent characteristics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Uses inappropriate pressure patterns that don't account for opponent's specific strengths and weaknesses, such as using mobile distribution against explosive opponents who need heavier pressure or static pressure against technical escapers who require constant adjustment. The correction is: Develop adaptive weight distribution strategies that modify based on opponent assessment, using heavier static pressure to limit explosiveness against athletic opponents while maintaining lighter, more mobile distribution against technical escapers who require constant positional adjustments."
+        "text": "Muscles tire without improving the contact. The correction is: Adjust your position so your weight does more of the work."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Center of Gravity",
-  "description": "Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.",
+  "description": "Your center of gravity is the point around which your weight balances; its position relative to your supports affects stability and movement.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Leverage and body weight in guard passing",
+      "description": "Center of Gravity film study: Leverage and body weight in guard passing, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Oq2qZuw6eWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Oq2qZuw6eWM",
+      "url": "https://www.youtube.com/watch?v=Oq2qZuw6eWM",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Weight distribution for movement in grappling",
       "description": "Center of Gravity film study: Weight distribution for movement in grappling, taught by 12 Gauge MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/chuU8FWlF4o/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Center of gravity and pressure explained",
       "description": "Center of Gravity film study: Center of gravity and pressure explained, taught by RVV BJJ.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QtN_TQNFXlI/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Principles of pressure passing",
       "description": "Center of Gravity film study: Principles of pressure passing, taught by Bernardo Faria.",
       "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master strategic weight allocation in BJJ top positions. Learn bio
 
 ## What is Center of Gravity?
 
-**Center of Gravity is the principle of strategically allocating bodyweight across contact points—concentrating pressure on control targets while preserving base—to pin an opponent, prevent escapes, and enable techniques with minimal energy expenditure.**
+**Your center of gravity is the point around which your weight balances; its position relative to your supports affects stability and movement.**
 
-In top-position control the practitioner who dominates is rarely the heaviest, but the one who organizes weight most intelligently, and that organization is precisely the domain Center of Gravity governs. Unlike simple heavy pressure, weight distribution is a sophisticated conceptual framework encompassing the biomechanical principles of leverage and balance, strategic decisions about where to concentrate or disperse weight, dynamic adjustment of distribution based on opponent responses, and the integration of weight allocation with technical objectives. This concept recognizes that effective top control depends not on maximum weight application but on intelligent weight distribution that simultaneously achieves multiple objectives: preventing escapes, enabling technique execution, maintaining base integrity, and conserving energy. Weight distribution serves as both a control mechanism that pins opponent effectively and a strategic tool that creates specific reactions enabling technical advancement. The ability to distribute weight intelligently often determines whether a practitioner can maintain dominant positions against resistance or loses control through predictable, rigid pressure patterns, making it one of the most essential conceptual elements in top game development.
+Notice which contacts carry your weight. Shift enough weight to control or move, while retaining support against the opponent’s next push, pull, or turn.
 
 </section>
 
@@ -229,6 +215,14 @@ In top-position control the practitioner who dominates is rarely the heaviest, b
 
 <p class="section-subtitle">Watch Center of Gravity in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=Oq2qZuw6eWM)
+
+<p class="clip-credit"><strong>Leverage and body weight in guard passing</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=Oq2qZuw6eWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ In top-position control the practitioner who dominates is rarely the heaviest, b
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Distribute weight strategically across multiple contact points rather than loading single areas
-- Concentrate pressure on opponent's most vulnerable targets (hips, chest, head) based on position
-- Maintain sufficient weight on base points to preserve stability while pressuring opponent
-- Modulate weight distribution dynamically based on opponent's escape attempts and pressure responses
-- Create asymmetric weight distribution that traps opponent on one side while controlling the other
-- Coordinate weight shifts with technical execution to enable smooth transitions and techniques
-- Maintain awareness of center of gravity relative to opponent's escape vectors
-- Balance weight application between control effectiveness and personal mobility needs
-- Adapt distribution strategy based on opponent's size, strength, and defensive capabilities
+- Know which contacts are carrying your weight.
+- Keep support available when transferring weight onto the opponent.
+- Change weight distribution when the opponent changes direction.
+- Free the limb you need to move before moving it.
 
 
 </section>
@@ -300,35 +289,13 @@ In top-position control the practitioner who dominates is rarely the heaviest, b
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: Distribute weight primarily through hips and chest onto opponent's torso, maintaining sufficient weight on knees/feet for base while concentrating pressure to flatten opponent and prevent hip escape, modulating between heavy chest pressure for control and lighter distribution when executing techniques.
+**Mount**: Shift weight between your torso and supporting legs as the opponent bridges or turns.
 
-**Side Control**: Create asymmetric weight distribution with heavy chest and shoulder pressure on opponent's upper body while using strategic hip placement to block hip escape, maintaining active base on outside leg while inside knee provides control point that can modulate between heavy pressure and light touch based on escape attempts.
+**Side Control**: Apply torso pressure while retaining leg support against a reversal.
 
-**Knee on Belly**: Concentrate majority of weight through knee directly onto opponent's diaphragm or stomach while maintaining base through posted foot and grips, requiring constant micro-adjustments to keep weight centered on opponent while remaining mobile enough to respond to escape attempts through dynamic redistribution.
+**Knee on Belly**: Adjust weight between the knee and posted foot to stay mobile.
 
-**North-South**: Distribute weight across chest and shoulder girdle to create oppressive downward pressure on opponent's head and chest, maintaining sufficient weight on toes for mobility while using gravity-assisted pressure that requires minimal muscular effort to maintain crushing control that drains opponent energy.
-
-**Back Control**: Apply strategic weight through chest onto opponent's back while using hooks and grips for control rather than relying primarily on pressure, modulating weight distribution to maintain connection without being so heavy that opponent can use explosive movements to create separation or roll.
-
-**Half Guard**: Create forward and downward pressure through chest and shoulder while distributing weight to prevent opponent's underhook and frame, using strategic weight shifts to flatten opponent or create reactions that enable knee slice or other passing sequences.
-
-**Closed Guard**: Maintain strategic weight distribution in combat base that creates enough downward pressure to limit opponent's offensive options while keeping sufficient weight on feet and hands to maintain posture and prevent being broken down, constantly adjusting to opponent's breaking attempts.
-
-**Kesa Gatame**: Concentrate weight through chest and shoulder directly across opponent's head and near-side shoulder, using strategic distribution that simultaneously prevents their near arm from escaping while maintaining sufficient base through spread legs to resist being rolled, creating crushing pressure that limits breathing and movement.
-
-**Turtle**: Distribute weight strategically across opponent's back and hips to flatten them while maintaining sufficient base to prevent them explosively changing levels, modulating between heavy pressure to break them down and lighter pressure when setting up back takes or submission attacks.
-
-**Technical Mount**: Balance weight between controlling opponent's upper body through chest pressure and maintaining base through posted foot and knee positioning, using asymmetric distribution that traps opponent's arm while enabling smooth transitions to full mount or armbar attacks.
-
-**Modified Mount**: Distribute weight to control opponent's trapped arm and shoulder while maintaining sufficient base through spread legs and posted hand, creating pressure patterns that simultaneously prevent escape and set up submission attacks on the trapped limb.
-
-**S Mount**: Concentrate weight through hips and legs onto opponent's shoulder and head while maintaining dynamic balance that allows rapid adjustment to escape attempts, using strategic distribution that facilitates armbar execution while preventing opponent from recovering guard.
-
-**Headquarters Position**: Apply forward pressure through shoulder and chest while distributing weight to control opponent's knees and hips, maintaining mobile base that allows rapid direction changes while keeping constant pressure that prevents guard recovery and enables various passing options.
-
-**Combat Base**: Distribute weight strategically between posted foot, base knee, and hands to maintain strong posture against guard breaks while creating enough downward pressure to limit opponent's offensive options, balancing stability needs against mobility for standing or passing.
-
-**Kesa Gatame**: Create heavy cross-body pressure through chest and near-side control of opponent's arm while maintaining wide base through spread legs, using weight distribution that simultaneously pins opponent's upper body and prevents their hip mobility for escape.
+**North-South**: Use chest contact for control while keeping your lower body available to follow movement.
 
 
 
@@ -352,24 +319,15 @@ In top-position control the practitioner who dominates is rarely the heaviest, b
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Applying maximum weight uniformly across all contact points without strategic allocation
-  - **Consequence**: Creates predictable, rigid pressure that skilled opponents can exploit, wastes energy through inefficient distribution, limits personal mobility for transitions, and often results in being swept or reversed when opponent creates specific reactions.
-  - **Correction**: Develop strategic weight distribution patterns where pressure is concentrated on specific control targets while maintaining lighter pressure on base points, creating asymmetric loading that prevents escapes while preserving mobility and energy efficiency.
-- **Mistake**: Maintaining static weight distribution that doesn't adjust to opponent's movements
-  - **Consequence**: Allows opponent to systematically escape by creating space in undefended areas, misses opportunities to increase pressure when opponent exposes vulnerabilities, and results in losing positions to technical escape sequences that exploit fixed pressure patterns.
-  - **Correction**: Cultivate dynamic weight modulation skills where distribution adjusts continuously based on opponent's defensive efforts, increasing pressure where they attempt to create space while lightening pressure in areas where they've stopped resisting.
-- **Mistake**: Committing so much weight to pressure that base integrity is compromised
-  - **Consequence**: Creates vulnerability to sweeps and reversals when opponent explosively changes direction or uses technical escapes that exploit overcommitted weight distribution, often resulting in dramatic position losses from seemingly dominant positions.
-  - **Correction**: Maintain constant balance between pressure effectiveness and base stability, ensuring sufficient weight remains on base points to resist sweeps while applying optimal pressure on opponent, adjusting this balance based on opponent's sweep threats.
-- **Mistake**: Using muscular effort to maintain pressure rather than skeletal alignment and gravity
-  - **Consequence**: Rapidly drains personal energy making it impossible to sustain pressure over time, creates muscle tension that makes weight distribution rigid and less responsive, and often results in losing positions once fatigue sets in.
-  - **Correction**: Focus on achieving pressure through optimal skeletal structure and gravity-assisted loading where bones bear weight rather than muscles, using muscular effort only for dynamic adjustments and maintaining alignment rather than generating force.
-- **Mistake**: Failing to coordinate weight shifts with technical execution during transitions
-  - **Consequence**: Creates choppy, disconnected movements where weight distribution actively impedes transitions rather than facilitating them, often resulting in losing position during transition attempts because weight was committed in ways that prevented smooth movement.
-  - **Correction**: Integrate weight distribution planning into technical execution where pressure shifts are choreographed as part of the technique itself, using strategic weight redistribution to create the exact reactions needed for smooth position advancement.
-- **Mistake**: Applying same weight distribution strategy regardless of opponent characteristics
-  - **Consequence**: Uses inappropriate pressure patterns that don't account for opponent's specific strengths and weaknesses, such as using mobile distribution against explosive opponents who need heavier pressure or static pressure against technical escapers who require constant adjustment.
-  - **Correction**: Develop adaptive weight distribution strategies that modify based on opponent assessment, using heavier static pressure to limit explosiveness against athletic opponents while maintaining lighter, more mobile distribution against technical escapers who require constant positional adjustments.
+- **Mistake**: Committing all weight forward
+  - **Consequence**: Pressure increases but the opponent can tip you.
+  - **Correction**: Restore a supporting contact before driving farther.
+- **Mistake**: Keeping weight fixed
+  - **Consequence**: An escape changes where support and pressure are needed.
+  - **Correction**: Shift with the opponent’s movement.
+- **Mistake**: Squeezing to replace weight placement
+  - **Consequence**: Muscles tire without improving the contact.
+  - **Correction**: Adjust your position so your weight does more of the work.
 
 
 </section>
@@ -377,23 +335,11 @@ In top-position control the practitioner who dominates is rarely the heaviest, b
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Static Pressure Holds** (Focus: Developing conscious awareness of weight distribution options and their control effects, learning to achieve maximum pressure with minimum effort through optimal skeletal alignment rather than muscular force.)
-Partner starts in bottom position and uses 50% resistance while top player experiments with different weight distribution patterns, holding each pattern for 30-60 seconds to develop awareness of how different allocations affect control effectiveness and energy cost.
+**Weight-shift feedback** (Focus: Feel the effect of each contact.)
+From side control with a cooperative partner, slowly change your weight distribution. Ask which movement becomes easier or harder; release pressure and reset between attempts.
 
-**Dynamic Distribution Drilling** (Focus: Cultivating ability to modulate weight distribution dynamically based on opponent movements, learning to read escape intentions through tactile feedback and respond with appropriate pressure adjustments before escapes develop.)
-Bottom player actively attempts specific escapes at moderate intensity while top player focuses exclusively on adjusting weight distribution in real-time to counter each escape attempt, developing responsive pressure modulation skills.
-
-**Positional Sparring with Center of Gravity Focus** (Focus: Integrating weight distribution principles into realistic resistance scenarios, developing ability to apply sophisticated pressure allocation under the cognitive load of active opposition and position maintenance.)
-Normal positional sparring from dominant positions but with explicit focus on using intelligent weight distribution rather than strength or speed to maintain position, resetting whenever position is lost to analyze what distribution pattern failed.
-
-**Transition Weight-Shift Training** (Focus: Learning to coordinate weight distribution changes with technical execution, developing intuitive understanding of how strategic pressure shifts create reactions and pathways that facilitate smooth position advancement.)
-Practice specific transitions from dominant positions with exclusive focus on how weight distribution enables or impedes the transition, experimenting with different weight shift patterns to discover sequences that create smoothest movement.
-
-**Asymmetric Loading Exercises** (Focus: Developing tactical sophistication in using weight distribution as offensive tool rather than just control mechanism, learning to create dilemmas through pressure allocation where all opponent's defensive options lead to advantageous situations.)
-Deliberately practice creating uneven weight distribution patterns that trap opponent on one side while controlling the other, observing how asymmetric loading forces opponent into predictable defensive choices that can be exploited.
-
-**Energy-Efficiency Challenges** (Focus: Cultivating energy-efficient weight distribution habits by removing the option of using strength to compensate for poor technique, forcing development of gravity-assisted pressure patterns that require minimal effort to maintain.)
-Extended control rounds (5-10 minutes) where top player must maintain dominant position using only strategic weight distribution and minimal muscular effort, developing sustainable pressure patterns that can be maintained indefinitely through efficient skeletal loading.
+**Follow one escape** (Focus: Balance pressure with stability.)
+From mount, have a partner repeat a gentle bridge or turn. Adjust your weight and support to follow, then reset and switch roles.
 
 
 

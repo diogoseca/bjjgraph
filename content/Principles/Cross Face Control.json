@@ -1,6 +1,6 @@
 {
   "name": "Cross Face Control",
-  "description": "Master cross face control mechanics in BJJ. Learn forearm positioning, pressure application, and head control across multiple positions for dominant top game.",
+  "description": "Cross face control uses upper-body contact to limit an opponent’s head turn, usually alongside hip control in a top pin.",
   "tags": [
     "bjj",
     "principle",
@@ -20,18 +20,13 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Cross Face Control is the application of forearm and shoulder pressure driven across an opponent's face from the near side toward the far side, turning their head away from escape angles to dominate top positions.",
-  "overview": "Rooted in the grappling truism that where the head goes the body follows, crossface control weaponizes that relationship to lock down top positions and passing sequences. Unlike general shoulder pressure, crossface control focuses specifically on driving arm and shoulder from opponent's near side across their face toward the far side, creating a lever that turns their head away from optimal escape angles and significantly restricts their ability to face into the position for defensive frames. This concept integrates biomechanical understanding of how head rotation affects overall body movement with strategic decisions about crossface establishment timing, pressure intensity, and coordination with other control elements. Crossface control serves as both an immediate restriction mechanism that prevents opponent from creating effective defensive frames and an enabling tool that allows position maintenance and technical advancement with minimal effort through superior head control. The ability to establish and maintain effective crossface control often determines whether a practitioner can dominate side control and passing positions or allows opponent to turn into position and escape, making it one of the most essential technical elements in top control and passing development.",
+  "summary": "Cross face control uses the arm and shoulder across the opponent’s head to limit turning and support a top pin.",
+  "overview": "Connect head control to your base and hip control so the opponent cannot simply turn underneath you. Use measured contact in training and reset if control becomes neck twisting.",
   "key_principles": [
-    "Drive arm and shoulder across opponent's face from near side toward far side",
-    "Turn opponent's head away from escape direction through crossface lever",
-    "Maintain consistent crossface pressure throughout position and transitions",
-    "Coordinate crossface with hip pressure to create comprehensive control",
-    "Establish crossface early before opponent can turn in and create frames",
-    "Apply pressure through forearm and shoulder rather than hand alone",
-    "Free far hand for underhooks, grips, or submissions while maintaining crossface",
-    "Adjust crossface depth and pressure based on opponent's size and defensive efforts",
-    "Preserve crossface connection during transitions to prevent opponent facing in"
+    "Use upper-body position rather than pushing with the hand alone.",
+    "Pair head control with control of the hips.",
+    "Adjust contact as the opponent changes angle.",
+    "Keep pressure controlled and release on a tap or stop cue."
   ],
   "component_skills": [
     {
@@ -107,63 +102,19 @@
   "application_contexts": [
     {
       "context": "Side Control",
-      "how_applied": "Primary control mechanism in side control, driving crossface arm across opponent's face while chest and shoulder create heavy pressure. Crossface prevents opponent from turning in to create frames or shrimp away, making it foundational to side control dominance."
+      "how_applied": "Head control makes it harder for the bottom player to turn toward you and rebuild frames."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Crossface combined with knee pressure creates extremely uncomfortable control position. Crossface prevents opponent from turning toward you to remove knee, while knee pressure prevents bridging away from crossface."
+      "how_applied": "Upper-body contact can support the pin while the knee and base control movement below."
     },
     {
       "context": "Kesa Gatame",
-      "how_applied": "Modified crossface application where arm wraps around head while shoulder drives across face. Creates extremely tight head control that prevents all rotation and is fundamental to scarf hold effectiveness."
+      "how_applied": "Head and shoulder contact help limit the opponent’s turn during scarf-hold control."
     },
     {
       "context": "North-South",
-      "how_applied": "Crossface applied while transitioning through north-south prevents opponent from following your movement and escaping. Maintains head control even as your body position changes relative to opponent."
-    },
-    {
-      "context": "Mount",
-      "how_applied": "Crossface from mount isolates one arm while controlling head, setting up americana, arm triangle, or transition to back control. Prevents opponent from effectively bridging or framing for escape."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Driving crossface from turtle control prevents opponent from turning toward you, keeping them flattened and vulnerable to back takes or submissions. Particularly effective when combined with hip control."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "From bottom perspective, opponent's crossface is primary threat that must be prevented or removed. Understanding crossface mechanics crucial for developing effective half guard defense and sweep initiation."
-    },
-    {
-      "context": "Front Headlock",
-      "how_applied": "Crossface element in front headlock prevents opponent from standing up or turning into you. Creates steering mechanism that drives opponent to mat and controls their movement direction."
-    },
-    {
-      "context": "Crucifix",
-      "how_applied": "Crossface from crucifix, often with own leg, prevents opponent from rolling toward trapped arm side. Creates additional control layer that enables safe submission attacks from dominant position."
-    },
-    {
-      "context": "Kesa Gatame",
-      "how_applied": "Traditional scarf hold relies heavily on crossface mechanics, with arm wrapped around head and shoulder driving across face. Creates fundamental control that defines the position's effectiveness."
-    },
-    {
-      "context": "Closed Guard",
-      "how_applied": "From top perspective, establishing crossface during guard opening attempts prevents opponent from maintaining optimal posture for defense. From bottom, defending crossface attempts is critical to maintaining guard control."
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "During guard passing sequences, crossface prevents opponent from recovering guard position by turning toward passer. Establishes early control that facilitates passing progression."
-    },
-    {
-      "context": "Knee Shield Half Guard",
-      "how_applied": "Crossface neutralizes knee shield effectiveness by preventing opponent from creating proper angle and frames. Combined with pressure, forces knee shield to collapse and enables passing."
-    },
-    {
-      "context": "Back Control",
-      "how_applied": "Modified crossface from back control, often using own forearm or bicep across face, prevents opponent from turning toward escape side and enhances choking opportunities."
-    },
-    {
-      "context": "Headquarters Position",
-      "how_applied": "Crossface from headquarters prevents opponent from sitting up or turning into passer, maintaining flatten position that enables knee slice and other passing options."
+      "how_applied": "Maintaining contact during the transition can prevent the opponent from turning to follow you."
     }
   ],
   "decision_framework": [
@@ -210,71 +161,31 @@
   ],
   "common_errors": [
     {
-      "error": "Applying crossface pressure with hand instead of forearm and shoulder",
-      "consequence": "Creates weak, easily escaped crossface that exhausts your arm muscles while providing minimal control. Opponent can simply turn head against hand pressure or push hand away.",
-      "correction": "Drive forearm across jaw and neck with shoulder weight behind it. Pressure comes from skeletal structure and body weight, not muscular effort. Hand should be relaxed with forearm doing the work."
+      "error": "Pushing with the hand alone",
+      "consequence": "The contact is easier to clear and does not connect to your weight.",
+      "correction": "Adjust your arm and shoulder position with your base."
     },
     {
-      "error": "Establishing shallow crossface that doesn't cross centerline of opponent's head",
-      "consequence": "Opponent retains ability to turn head toward you and create defensive frames or initiate escapes. Shallow crossface provides only minimal control that can be easily overcome.",
-      "correction": "Drive arm deeply across face until forearm is clearly past centerline of their head, ideally approaching their far ear. Deep crossface creates true head rotation control."
+      "error": "Using heavy pressure continuously",
+      "consequence": "The drill becomes uncomfortable without improving control.",
+      "correction": "Use only enough contact for the agreed movement and respond to feedback."
     },
     {
-      "error": "Maintaining continuous heavy crossface pressure regardless of tactical situation",
-      "consequence": "Exhausts your energy unnecessarily during position holding phases. Heavy sustained pressure should be reserved for creating openings or preventing specific escape attempts.",
-      "correction": "Modulate pressure between heavy application when opponent is actively defending and lighter maintenance pressure when position is secure. Conserve energy while maintaining control."
-    },
-    {
-      "error": "Losing crossface connection during position transitions or submission attempts",
-      "consequence": "Opponent uses transition moment to turn in, create frames, and escape. Momentary loss of crossface often results in complete position loss as opponent faces in.",
-      "correction": "Maintain crossface with appropriate limb throughout transitions. When freeing hand for submissions, transfer crossface to shoulder pressure first. Never abandon crossface before establishing new control."
-    },
-    {
-      "error": "Neglecting to coordinate crossface with hip pressure and positioning",
-      "consequence": "Opponent can escape away from crossface pressure through hip movement even though head is controlled. Crossface alone is insufficient without complementary hip control.",
-      "correction": "Always integrate crossface upper body control with hip pressure lower body control. Position hips to prevent shrimping and bridging while crossface prevents turning and framing."
-    },
-    {
-      "error": "Allowing opponent to establish near-side frames before crossface is secured",
-      "consequence": "Opponent's established frames prevent crossface establishment and create effective defensive structure. Much harder to establish crossface against existing frames than to prevent frame creation.",
-      "correction": "Establish crossface immediately upon achieving position, before opponent can orient and create frames. Timing is critical—crossface must be established during transition moment."
-    },
-    {
-      "error": "Using same crossface depth and angle for all opponents regardless of size and style",
-      "consequence": "Crossface becomes ineffective against larger, stronger opponents or those with specific defensive approaches. One-size-fits-all crossface fails to account for individual variations.",
-      "correction": "Adjust crossface depth, angle, and pressure based on opponent's physical attributes and defensive tendencies. Smaller opponents may need less pressure, larger opponents may need deeper positioning."
+      "error": "Losing the hips while controlling the head",
+      "consequence": "The opponent moves their lower body into an escape angle.",
+      "correction": "Coordinate the cross face with hip control."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Positional Sparring with Crossface Emphasis",
-      "description": "Start in side control with crossface established, opponent works to remove crossface and escape, top person maintains crossface throughout escape attempts. Reset if crossface is lost. Develops crossface maintenance under pressure.",
-      "focus": "Maintaining crossface connection against determined escape efforts, integrating crossface with other control elements, recognizing when to increase pressure versus conserve energy."
+      "approach_name": "Light turn-and-follow",
+      "description": "From side control, use light head and hip contact while a cooperative partner begins a turn. Follow without forcing the neck; reset when contact is cleared and release on any stop cue.",
+      "focus": "Connect head control to the pin."
     },
     {
-      "approach_name": "Crossface Entry Timing Drills",
-      "description": "Partner moves through various bottom positions (closed guard, half guard, turtle) while you practice establishing crossface during transition moments as you pass or achieve top position. Emphasizes timing of crossface establishment.",
-      "focus": "Recognizing optimal windows for crossface entry, developing automatic crossface establishment during transitions, preventing opponent from establishing frames first."
-    },
-    {
-      "approach_name": "Progressive Resistance Crossface Development",
-      "description": "Partner offers increasing levels of resistance to crossface attempts. Start with zero resistance to learn mechanics, progress to light resistance for refinement, end with full resistance for pressure testing. Build systematic crossface development.",
-      "focus": "Proper forearm positioning, shoulder pressure application, depth adjustment based on resistance, maintaining technique under increasing pressure."
-    },
-    {
-      "approach_name": "Crossface to Submission Chains",
-      "description": "From established side control with crossface, practice transitioning crossface from hand pressure to shoulder pressure while freeing hand for americana, arm triangle, or transition to mount. Develop offensive advancement while maintaining control.",
-      "focus": "Hand liberation techniques, maintaining head control during submission setups, recognizing when crossface has created sufficient control for offensive advancement."
-    },
-    {
-      "approach_name": "Crossface Defense and Counter Drills",
-      "description": "From bottom position, partner establishes various depths and angles of crossface. Practice removing crossface, preventing its establishment, and creating frames despite crossface pressure. Develops understanding from defensive perspective.",
-      "focus": "Understanding crossface mechanics from bottom, recognizing weak crossface applications, developing counters and defenses, appreciating importance of preventing crossface establishment."
-    },
-    {
-      "approach_name": "Flow Rolling with Crossface Constraints",
-      "description": "Flow roll with rule that top person must maintain some form of crossface control continuously. If crossface is completely lost, restart from specific position. Develops crossface maintenance through dynamic movement.",
-      "focus": "Preserving crossface through transitions, adjusting crossface as positions change, integrating crossface naturally into overall top game."
+      "approach_name": "Transition contact check",
+      "description": "Walk slowly from side control toward north-south. Pause to check whether the partner can turn to face you, then reset; keep head contact light and stop on discomfort.",
+      "focus": "Follow movement without neck twisting."
     }
   ],
   "developmental_metrics": [
@@ -526,13 +437,21 @@
   ],
   "clips": [
     {
+      "id": "IvTJBVitYT0",
+      "title": "A modified crossface for control",
+      "by": "Jordan Preisinger",
+      "vertical": true,
+      "channel": "Jordan Teaches Jiujitsu",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "PTe4-NhLXf8",
       "title": "Shallow cross face detail",
-      "by": "John Danaher",
+      "by": "Craig Jones",
       "vertical": false,
       "channel": "Dohn Janaher ",
       "duration": 24,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "eA9MZmfVrmA",
@@ -541,7 +460,7 @@
       "vertical": false,
       "channel": "BJJ Fanatics",
       "duration": 435,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "IugFZC3fjDg",
@@ -550,7 +469,7 @@
       "vertical": false,
       "channel": "RVV BJJ",
       "duration": 326,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

@@ -4,7 +4,7 @@
 
 ---
 title: "Base | BJJ Principle | BJJ Graph"
-description: "Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control."
+description: "Base is the support that keeps you balanced as you resist sweeps, apply pressure, or move between positions in BJJ."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Base",
-  "description": "Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control.",
+  "description": "Base is the support that keeps you balanced as you resist sweeps, apply pressure, or move between positions in BJJ.",
   "url": "https://bjjgraph.org/Principles/Base",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Creating excessively wide base that limits mobility?",
+      "name": "What is a common mistake in Staying too wide?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "While maximizing stability, overly wide base prevents necessary movement and allows opponent to establish controls or execute techniques unopposed. The correction is: Calibrate base width to task requirements. Use wider base only when stability is primary concern. Narrow base when mobility is needed for passing, transitioning, or attacking."
+        "text": "Your legs block the step you need to take. The correction is: Narrow or reposition your base when the immediate tipping threat passes."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Maintaining too narrow base when stability is required?",
+      "name": "What is a common mistake in Leaning beyond your support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Insufficient base width makes practitioner vulnerable to sweeps, reversals, and off-balancing. Opponent easily disrupts narrow base with minimal effort. The correction is: Recognize high-risk situations requiring maximum stability and establish appropriately wide base. Spread knees, widen stance, and create multiple support points."
+        "text": "The opponent can tip you despite a wide stance. The correction is: Move your support or bring your weight back over it."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to adjust base in response to opponent pressure?",
+      "name": "What is a common mistake in Forgetting base while attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Static base becomes vulnerable when opponent applies directional pressure. Practitioner gets swept or reversed because base wasn't modified to counter force direction. The correction is: Develop dynamic base adjustment skills. Shift weight and modify base configuration preemptively or reactively based on opponent's pressure application and base attack attempts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Poor weight distribution leaving center of gravity outside stability zone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Even with proper base structure, incorrect weight distribution creates vulnerability. Practitioner tips over despite having appropriate base width. The correction is: Maintain conscious awareness of weight distribution. Keep center of gravity within area formed by support points. Lower hips to lower center of gravity when needed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Compromising posture to establish base?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Leaning forward excessively or rounding spine to widen base creates other vulnerabilities. Poor posture enables opponent to attack neck, establish controls, or break down structure. The correction is: Maintain proper spinal alignment while establishing base. Keep chest up, shoulders back, and head neutral. Create stable base through leg positioning rather than compromising upper body posture."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Losing base awareness during offensive sequences?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focusing entirely on attack execution while neglecting base maintenance makes practitioner vulnerable to counters. Opponent exploits compromised base to reverse position or escape. The correction is: Maintain dual awareness of offensive objectives and defensive base requirements. Ensure base supports attack and provides safety if technique fails. Never fully commit base to attack."
+        "text": "Both hands commit and leave you vulnerable to a reversal. The correction is: Check which contacts still support you before changing grips."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Base",
-  "description": "Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.",
+  "description": "Base is the support you create with your contact points and weight distribution to stay balanced while moving or resisting force.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Base control and sweeping",
+      "description": "Base film study: Base control and sweeping, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i5UqDfgwn3I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i5UqDfgwn3I",
+      "url": "https://www.youtube.com/watch?v=i5UqDfgwn3I",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "What kuzushi is and how it breaks base",
       "description": "Base film study: What kuzushi is and how it breaks base, taught by Stephan Kesting.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Fy9h-dF6dcA/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Three core principles: base, posture, structure",
       "description": "Base film study: Three core principles: base, posture, structure, taught by Joel Snape.",
       "thumbnailUrl": "https://i.ytimg.com/vi/azzYS65sqks/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Base and weight concepts for maintaining mount",
       "description": "Base film study: Base and weight concepts for maintaining mount, taught by Roger Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wy6Si0FuQaU/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master base maintenance in BJJ: stability principles, weight distr
 
 ## What is Base?
 
-**Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.**
+**Base is the support you create with your contact points and weight distribution to stay balanced while moving or resisting force.**
 
-Rooted in the judo concept of a stable foundation, base is among the first principles a beginner is taught and one of the last a competitor fully masters. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ, from standing exchanges to deep submission entanglements. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
+Keep your weight supported as your opponent pushes, pulls, or removes a post. Widen your support when you need stability, then adjust it to move.
 
 </section>
 
@@ -229,6 +215,14 @@ Rooted in the judo concept of a stable foundation, base is among the first princ
 
 <p class="section-subtitle">Watch Base in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=i5UqDfgwn3I)
+
+<p class="clip-credit"><strong>Base control and sweeping</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=i5UqDfgwn3I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Rooted in the judo concept of a stable foundation, base is among the first princ
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Distribute weight optimally across multiple support points
-- Maintain proper alignment between base points and center of gravity
-- Adapt base configuration dynamically in response to opponent's actions
-- Create wide base structures when stability is primary concern
-- Transition to narrower, mobile bases when movement is required
-- Establish strong connection points with the mat or opponent
-- Anticipate and counter opponent's base disruption attempts
-- Coordinate base adjustments with technical execution
-- Maintain base awareness during transitional movements
+- Keep your weight supported by your contact points.
+- Adjust your base toward the force you need to resist.
+- Use enough width for stability without blocking your movement.
+- Establish new support as you move or attack.
 
 
 </section>
@@ -300,37 +289,13 @@ Rooted in the judo concept of a stable foundation, base is among the first princ
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Maintaining wide knee base with proper posture, distributing weight to prevent sweeps while keeping hands ready for grip fighting. Base width prevents hip bump and scissor sweeps.
+**Closed Guard**: The top player adjusts knee position and weight to resist being tipped while grip fighting.
 
-**Combat Base**: Establishing tripod structure with one knee down and opposite foot posted, creating stable platform for passing while maintaining mobility. Weight distribution prevents opponent from disrupting base.
+**Mount**: Move your support points as the bottom player bridges or turns, rather than holding one fixed stance.
 
-**Mount**: Creating low, wide base with knees spread and weight distributed through hips and lower body. Base maintenance prevents bridge and roll escapes while enabling effective control and attack initiation.
+**Combat Base**: Balance between the posted foot and kneeling leg so you can move without tipping forward.
 
-**Side Control**: Distributing weight through crossface shoulder, hip pressure, and wide base with legs. Proper base maintenance prevents opponent from creating frames and executing escape movements.
-
-**Knee on Belly**: Balancing weight between posting leg and knee pressure while maintaining mobile base that can adjust to opponent escape attempts. Base allows quick transitions while maintaining control.
-
-**Half Guard**: Creating stable base with free leg posted while preventing opponent from disrupting balance through underhooks or sweeps. Weight distribution enables passing pressure while maintaining defensive stability.
-
-**Open Guard**: Maintaining seated or supine base with proper weight distribution to enable guard retention and sweeping. Base stability allows effective use of feet and grips to control distance.
-
-**Butterfly Guard**: Creating seated base with hooks established, distributing weight to enable elevating sweeps while preventing opponent from driving forward and establishing dominant position.
-
-**Standing Position**: Maintaining athletic stance with bent knees, proper weight distribution, and lowered center of gravity. Base enables both offensive takedown entries and defensive sprawl responses.
-
-**Headquarters Position**: Establishing stable kneeling base while controlling opponent's legs, distributing weight to enable passing pressure while preventing opponent from recovering guard or executing sweeps.
-
-**North-South**: Creating wide base with knees and toes, distributing weight to apply chest pressure while maintaining ability to adjust to opponent escape attempts without being rolled.
-
-**Back Control**: Maintaining base through hooks and seat belt control, distributing weight to prevent opponent from rolling or standing while keeping structure for submission attacks.
-
-**Turtle**: Establishing four-point base structure with hands and knees, distributing weight to resist opponent's attempts to break down position or roll to back control.
-
-**Spider Guard**: Using foot placement on biceps and collar grips to create connected base that controls distance and prevents opponent from establishing passing base structure.
-
-**De La Riva Guard**: Maintaining hip mobility and proper hook placement to disrupt opponent's base while preserving own structural integrity for sweeping and off-balancing attacks.
-
-**X-Guard**: Creating inverted base structure using hooks and upper body connection to elevate and off-balance opponent while maintaining own stability for sweep execution.
+**Knee on Belly**: Share support between the posted foot and controlling knee, adjusting as the opponent turns.
 
 
 
@@ -354,24 +319,15 @@ Rooted in the judo concept of a stable foundation, base is among the first princ
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Creating excessively wide base that limits mobility
-  - **Consequence**: While maximizing stability, overly wide base prevents necessary movement and allows opponent to establish controls or execute techniques unopposed.
-  - **Correction**: Calibrate base width to task requirements. Use wider base only when stability is primary concern. Narrow base when mobility is needed for passing, transitioning, or attacking.
-- **Mistake**: Maintaining too narrow base when stability is required
-  - **Consequence**: Insufficient base width makes practitioner vulnerable to sweeps, reversals, and off-balancing. Opponent easily disrupts narrow base with minimal effort.
-  - **Correction**: Recognize high-risk situations requiring maximum stability and establish appropriately wide base. Spread knees, widen stance, and create multiple support points.
-- **Mistake**: Failing to adjust base in response to opponent pressure
-  - **Consequence**: Static base becomes vulnerable when opponent applies directional pressure. Practitioner gets swept or reversed because base wasn't modified to counter force direction.
-  - **Correction**: Develop dynamic base adjustment skills. Shift weight and modify base configuration preemptively or reactively based on opponent's pressure application and base attack attempts.
-- **Mistake**: Poor weight distribution leaving center of gravity outside stability zone
-  - **Consequence**: Even with proper base structure, incorrect weight distribution creates vulnerability. Practitioner tips over despite having appropriate base width.
-  - **Correction**: Maintain conscious awareness of weight distribution. Keep center of gravity within area formed by support points. Lower hips to lower center of gravity when needed.
-- **Mistake**: Compromising posture to establish base
-  - **Consequence**: Leaning forward excessively or rounding spine to widen base creates other vulnerabilities. Poor posture enables opponent to attack neck, establish controls, or break down structure.
-  - **Correction**: Maintain proper spinal alignment while establishing base. Keep chest up, shoulders back, and head neutral. Create stable base through leg positioning rather than compromising upper body posture.
-- **Mistake**: Losing base awareness during offensive sequences
-  - **Consequence**: Focusing entirely on attack execution while neglecting base maintenance makes practitioner vulnerable to counters. Opponent exploits compromised base to reverse position or escape.
-  - **Correction**: Maintain dual awareness of offensive objectives and defensive base requirements. Ensure base supports attack and provides safety if technique fails. Never fully commit base to attack.
+- **Mistake**: Staying too wide
+  - **Consequence**: Your legs block the step you need to take.
+  - **Correction**: Narrow or reposition your base when the immediate tipping threat passes.
+- **Mistake**: Leaning beyond your support
+  - **Consequence**: The opponent can tip you despite a wide stance.
+  - **Correction**: Move your support or bring your weight back over it.
+- **Mistake**: Forgetting base while attacking
+  - **Consequence**: Both hands commit and leave you vulnerable to a reversal.
+  - **Correction**: Check which contacts still support you before changing grips.
 
 
 </section>
@@ -379,23 +335,11 @@ Rooted in the judo concept of a stable foundation, base is among the first princ
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Static Base Stress Testing** (Focus: Developing awareness of base stability thresholds and understanding how much pressure properly configured base can withstand before requiring adjustment.)
-Partner applies progressively increasing directional pressure while practitioner maintains base without moving. Tests base strength and weight distribution under controlled conditions.
+**Directional balance drill** (Focus: Match your base to the force.)
+Start kneeling or in a familiar top position. A partner gives gentle pushes and pulls; adjust your support before tipping, then reset and change direction.
 
-**Dynamic Base Drills** (Focus: Building ability to preserve base integrity during active grappling. Develops unconscious base maintenance that persists during complex technical sequences.)
-Partner continuously attempts to off-balance practitioner who must maintain base while executing prescribed movements or techniques. Combines base maintenance with technical execution.
-
-**Base Configuration Transitions** (Focus: Developing smooth base transitions that maintain functional stability throughout position changes. Eliminates vulnerable moments between base configurations.)
-Practicing movement between different base structures (wide to narrow, high to low) while maintaining continuous stability. Emphasizes never being completely without base during transitions.
-
-**Position-Specific Base Analysis** (Focus: Building comprehensive knowledge of base requirements across BJJ position spectrum. Understanding position-specific base priorities and vulnerabilities.)
-Systematic study of optimal base configurations for each major position. Involves understanding why particular base structures work for specific positions and what they defend against.
-
-**Base Recovery Exercises** (Focus: Developing sensitivity to base degradation and building reflexive recovery responses. Training ability to restore base from partially compromised positions.)
-Partner disrupts practitioner's base to various degrees of compromise. Practitioner must recognize disruption early and execute appropriate recovery before complete destabilization.
-
-**Pressure Through Base** (Focus: Learning to utilize base not just for defensive stability but as offensive tool for pressure application and opponent control. Understanding base-pressure relationship.)
-Using stable base as platform for applying controlled pressure on partner. Focuses on understanding how base quality affects pressure effectiveness and sustainability.
+**Moving base drill** (Focus: Stay supported through transitions.)
+Move between two familiar top positions with a cooperative partner. Pause after each change to check your support; reset if you need to catch yourself.
 
 
 
