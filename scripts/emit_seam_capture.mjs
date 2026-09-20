@@ -538,6 +538,12 @@ function main() {
   // Verified by raising NEEDED_MB above any real free space: the branch fires and exits 2.
   const NEEDED_MB = limit > 0 ? 64 : 2048
   try {
+    // The directory must exist before df can report on it. Without this, a --work path that has
+    // not been created yet makes df fail, the catch fires, and the guard prints "free space
+    // unknown" and proceeds — which is what happened on the first full capture: the check written
+    // to protect that exact run did not run. It failed HONESTLY (it says unknown rather than OK),
+    // but a guard that skips itself on the one path that needs it is not a guard.
+    fs.mkdirSync(workRoot, { recursive: true })
     const df = execFileSync("df", ["-Pm", workRoot], { encoding: "utf8" }).trim().split("\n")
     const freeMb = Number(df[df.length - 1].split(/\s+/)[3])
     if (Number.isFinite(freeMb)) {
