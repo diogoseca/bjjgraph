@@ -599,7 +599,14 @@ function joinRecords(captured, outDir, opts) {
         // Required by seam_golden as an EXPLICIT list — an absent field is rejected rather than
         // read as empty, which is the right call: "no seeded regions" and "nobody said" must not
         // look the same. Found by running V's verifier against a joined record in preflight.
-        seeded_regions: emitter === "Static" ? opts.seeded : [],
+        // PER-REGION COUNTS, not just the roll-up. V read region.files as 0 because the field
+        // did not exist: a region declared without a count cannot be checked against the
+        // coverage roll-up, so a region that matched NOTHING looked exactly like one that
+        // matched everything. Counted from this record's own files, so the two must agree.
+        seeded_regions: (emitter === "Static" ? opts.seeded : []).map((r2) => {
+          const pre = r2.path.replace(/\/$/, "") + "/"
+          return { ...r2, files: Object.keys(files).filter((p2) => p2.startsWith(pre)).length }
+        }),
         input_seeded_regions: opts.seeded,
         corpus: { ...captured.discovered, partial: opts.limit > 0 },
       },
