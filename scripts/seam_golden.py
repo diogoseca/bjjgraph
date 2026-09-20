@@ -104,6 +104,8 @@ def write_record(path, record):
 
 def validate_emit_record(record):
     data, counts, provenance = record['data'], record['coverage'], record.get('provenance', {})
+    if not isinstance(provenance, dict):
+        raise ValueError('emitter provenance must be an object')
     files, returned = data.get('files'), data.get('returned_paths')
     if data.get('emitter') != record['key'] or not isinstance(files, dict) or not isinstance(returned, list):
         raise ValueError('invalid emitter identity/file inventory/return list')
@@ -123,9 +125,11 @@ def validate_emit_record(record):
         raise ValueError('seeded_regions must be an explicit list')
     seeded = set()
     for region in regions:
+        if not isinstance(region, dict):
+            raise ValueError('seeded region must be an object')
         prefix = region.get('path', '')
         relative_path(prefix.rstrip('/'))
-        matched = {p for p in files if p.startswith(prefix) if prefix.endswith('/')} if prefix.endswith('/') else ({prefix} & files.keys())
+        matched = {p for p in files if p.startswith(prefix)} if prefix.endswith('/') else ({prefix} & files.keys())
         if not region.get('reason') or not region.get('evidence') or not matched or type(region.get('files')) is not int or region['files'] != len(matched):
             raise ValueError(f'{prefix}: seeded declaration must count this output record')
         seeded.update(matched)
@@ -133,7 +137,10 @@ def validate_emit_record(record):
         raise ValueError('seeded/parity coverage mismatch')
     if not files:
         empty = provenance.get('empty_output', {})
-        discovered = provenance.get('corpus', {}).get('discovered_all', 0)
+        corpus = provenance.get('corpus', {})
+        if not isinstance(empty, dict) or not isinstance(corpus, dict):
+            raise ValueError('empty-output attestation and corpus must be objects')
+        discovered = corpus.get('discovered_all', 0)
         if returned or not empty.get('reason') or not empty.get('evidence') or type(discovered) is not int or discovered < 1:
             raise ValueError('empty emitter needs completed execution, reason/evidence and positive discovered corpus')
 

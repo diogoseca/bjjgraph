@@ -78,6 +78,7 @@ def emit_record_proofs():
     for name, mutate in [
         ('emitter never ran', lambda r: r['coverage'].update(emitter_runs=0)),
         ('empty output undeclared', lambda r: r['provenance'].pop('empty_output')),
+        ('malformed empty-output attestation', lambda r: r['provenance'].update(empty_output='not an object')),
         ('zero discovered input corpus', lambda r: r['provenance']['corpus'].update(discovered_all=0)),
         ('invented positive file count', lambda r: r['coverage'].update(files=1)),
         ('return count mismatch', lambda r: r['coverage'].update(returned_paths=1)),
