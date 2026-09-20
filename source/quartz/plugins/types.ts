@@ -32,7 +32,8 @@ export interface QuartzDataMap {
       cssclasses: string[]
       noindex: boolean
     }>
-  dates: { created: Date; modified: Date; published: Date }
+  // D-75: publication is optional; only authored publishDate/date supplies evidence.
+  dates: { created: Date; modified: Date; published?: Date }
   description: string
   text: string
   // Incumbent declaration; JSON.parse currently performs no object-shape validation.
