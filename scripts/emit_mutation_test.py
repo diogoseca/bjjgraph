@@ -5,6 +5,7 @@
   python3 scripts/emit_mutation_test.py --app-assets
   python3 scripts/emit_mutation_test.py --date-cardinality
   python3 scripts/emit_mutation_test.py --phantom-controls
+  python3 scripts/emit_mutation_test.py --extractor-controls
 
 The capture-driver suite uses tiny local command fixtures, never npm/network or a
 site build. It pins supplied step order/cwd, fail-fast execution, positive output,
@@ -31,10 +32,16 @@ copies. It kills empty, duplicated and token-remapped parser results. Exact coun
 and exact specifiers supplement positive execution; quoted structural siblings and
 a malformed-quote fixture pin the token path. No product source is changed or
 reverted; its SHA-256 is asserted unchanged in finally (COORDINATION 7I/7K).
+The extractor-controls suite uses two authored HTML fixtures and two non-HTML
+decoys containing the same bytes. Exact file/page/field counts catch overscope;
+single/double quoted ID siblings pin the token path. Temporary-copy mutants remove
+JSON-LD, broaden HTML classification and mangle parsed IDs. This is extractor
+evidence, not a full-site parity or feature-exercise claim.
 """
 import copy
 import argparse
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -42,6 +49,85 @@ import shutil
 import subprocess
 import sys
 import tempfile
+
+
+def extractor_control_probe(module):
+    spec = importlib.util.spec_from_file_location('v_extractor_control', module)
+    gate = importlib.util.module_from_spec(spec)
+    sys.modules[spec.name] = gate
+    spec.loader.exec_module(gate)
+    html = '''<!DOCTYPE html><html lang="en"><head><title>Fixture</title>
+<meta name="description" content="Fixture description"><meta property="og:title" content="Fixture">
+<link rel="canonical" href="https://example.invalid/fixture">
+<script type="application/ld+json">{"@type":"WebPage","name":"Fixture"}</script>
+<script type="application/ld+json">{"@type":"BreadcrumbList","name":"Fixture"}</script>
+</head><body><div id="quartz-root" data-id="sidebar-overlay"></div>
+<article><h2>Fixture heading</h2><a href="/inside">inside</a></article>
+<nav class="category-nav"><a href="/outside">outside</a></nav></body></html>'''
+    with tempfile.TemporaryDirectory(prefix='v-extractor-fixture-') as tmp:
+        root = Path(tmp)
+        # Same semantic IDs through both quoting forms, plus non-HTML decoys.
+        (root / 'double.html').write_text(html)
+        (root / 'single.html').write_text(html.replace('id="quartz-root"', "id='quartz-root'"))
+        (root / 'decoy.css').write_text(html)
+        (root / 'decoy.js').write_text(html)
+        files = gate.scan_tree(root, jobs=1)
+        assert set(files) == {'double.html', 'single.html', 'decoy.css', 'decoy.js'}, 'exact fixture file set'
+        counts = gate.coverage(files)
+        expected = {'files': 4, 'html_pages': 2, 'jsonld_blocks': 4, 'meta_tags': 4,
+                    'pages_with_canonical': 2, 'head_links': 2, 'article_headings': 2,
+                    'article_links': 2, 'outside_links': 2}
+        for name, value in expected.items():
+            assert counts[name] == value, (f'exact corpus coverage {name}', counts[name], value)
+        assert counts['by_class'] == {'html': 2, 'css': 1, 'js': 1}, counts['by_class']
+        assert counts['markers']['id:quartz-root'] == 2, 'exact marker coverage id:quartz-root'
+        assert counts['markers']['id:sidebar-overlay'] == 0, 'data-id must not count as id'
+        assert counts['markers']['class:category-nav'] == 2, 'exact marker coverage class:category-nav'
+        for name in ('double.html', 'single.html'):
+            fp = files[name]['fp']
+            assert fp['canonical'] == 'https://example.invalid/fixture'
+            assert fp['meta_map'] == {'name=description': 'Fixture description', 'property=og:title': 'Fixture'}
+            assert fp['jsonld_types'] == ['WebPage', 'BreadcrumbList']
+            assert '#quartz-root' in fp['outside']['selectors'], 'quoted ID structural sibling'
+        print('PASS exact extractor control: files=4 html=2 css=1 js=1 JSON-LD=4 meta=4; quoted-ID siblings=2; data-id decoy excluded')
+
+
+def extractor_controls_suite():
+    source = Path(__file__).resolve().with_name('emit_fingerprint.py')
+    inputs = [source, Path(__file__).resolve()]
+    stamp = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs}
+    code = source.read_text()
+    def change(needle, replacement):
+        assert code.count(needle) == 1, ('extractor mutant anchor', needle, code.count(needle))
+        return code.replace(needle, replacement)
+    cases = [
+        ('clean', code, 0, None),
+        ('matches-nothing', change('if stype == "application/ld+json":',
+                                   'if stype == "application/ld+json" and False:'),
+         1, 'exact corpus coverage jsonld_blocks'),
+        ('matches-too-much', change('if low.endswith(".html"):',
+                                    'if low.endswith((".html", ".css", ".js")):'),
+         1, 'exact corpus coverage html_pages'),
+        ('malformed-token', change('ids.add(n.attrs["id"])',
+                                   'ids.add("\\\\" + n.attrs["id"])'),
+         1, 'exact marker coverage id:quartz-root'),
+    ]
+    try:
+        with tempfile.TemporaryDirectory(prefix='v-extractor-controls-') as tmp:
+            for name, text, want, reason in cases:
+                module = Path(tmp) / (name + '.py'); module.write_text(text)
+                proc = subprocess.run([sys.executable, str(Path(__file__).resolve()),
+                                       '--extractor-probe', str(module)], capture_output=True, text=True, timeout=30)
+                assert proc.returncode == want, (name, proc.returncode, want, proc.stdout, proc.stderr)
+                if reason:
+                    assert reason in proc.stderr, (name, 'wrong failure', proc.stderr)
+                else:
+                    print(proc.stdout, end='')
+                print(f'PASS extractor control {name}: exit={proc.returncode}')
+        print('PASS coverage: 4 extractor CLI controls, 3/3 mutants killed; no built tree required')
+    finally:
+        assert {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs} == stamp, 'extractor input set changed; run is void'
+        print('PASS extractor input hashes unchanged: files=2; product reverts=0')
 
 
 def phantom_controls_suite():
@@ -291,9 +377,11 @@ if __name__ == '__main__':
     ap.add_argument('--app-assets', action='store_true')
     ap.add_argument('--date-cardinality', action='store_true')
     ap.add_argument('--phantom-controls', action='store_true')
+    ap.add_argument('--extractor-controls', action='store_true')
+    ap.add_argument('--extractor-probe', type=Path, help=argparse.SUPPRESS)
     args = ap.parse_args()
-    if not (args.capture_driver or args.app_assets or args.date_cardinality or args.phantom_controls):
-        ap.error('select --capture-driver, --app-assets, --date-cardinality or --phantom-controls; no empty test run')
+    if not any(vars(args).values()):
+        ap.error('select a named suite; no empty test run')
     if args.capture_driver:
         capture_driver_suite()
     if args.app_assets:
@@ -302,3 +390,7 @@ if __name__ == '__main__':
         date_cardinality_suite()
     if args.phantom_controls:
         phantom_controls_suite()
+    if args.extractor_controls:
+        extractor_controls_suite()
+    if args.extractor_probe:
+        extractor_control_probe(args.extractor_probe)
