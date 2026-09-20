@@ -1,8 +1,35 @@
 {
  "_meta": {
-  "format": 2
+  "app_assets_source": {
+   "git_dirty_paths": 4,
+   "git_head": "308d6f577bf21a79c54d8a31a6f4debe123ca578",
+   "method": "Additive inventory of retained build0; no build or content re-baseline. All prior bundle and census expectations retained.",
+   "snapshot": "build0",
+   "snapshot_utc": "2026-09-20T17:30:58+00:00"
+  },
+  "format": 3,
+  "retired_date_cardinalities": {
+   "historical_observations_only": {
+    "property=article:modified_time": 28,
+    "property=article:published_time": 1077
+   },
+   "reason": "D-106: exact timestamp cardinality is not date spread. Never re-seed these rows; X-01 requires per-field distinct_days, span_days and max_day_share instead."
+  }
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update whenever the emit legitimately changes (content edits move article_links and the @type histogram), and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
+ "app_assets": {
+  "count": 2,
+  "files": {
+   "static/neural/app/neural.css": {
+    "bytes": 45754,
+    "sha256": "730c9e15fa6a35a4e69ad169a3bfc230d0db8963f36f16bb011eafd51c9a98c2"
+   },
+   "static/neural/app/neural.js": {
+    "bytes": 571664,
+    "sha256": "3d2ea733b76d085d0102e41da97f91d79cd43752ecc9b12628d9895c57a95789"
+   }
+  }
+ },
  "bundle_tokens": {
   "postscript.js": {
    "__bjjAuth": 2
@@ -71,8 +98,6 @@
  },
  "distinct_values": {
   "name=description": 4562,
-  "property=article:modified_time": 28,
-  "property=article:published_time": 1077,
   "property=og:title": 4612
  },
  "jsonld_types": {
