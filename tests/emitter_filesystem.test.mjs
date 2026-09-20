@@ -65,6 +65,14 @@
 // because of the bare catch S1 was authorised to remove — the gate was right and the fixtures
 // were free-riding on a defect.
 //
+// A TRAP FOR THE NEXT PERSON WHO PARSES THE FEED, because the defensive version is the wrong one:
+// do NOT `.slice(1)` the <link> matches to "drop the channel link". The channel's own link is
+// `https://bjjgraph.org` with NO trailing path, so a pattern requiring a slash after the host
+// never matches it — and the slice then silently eats the first ITEM instead. Match item links
+// with the trailing slash in the pattern and assert the channel link separately, as below. Found
+// the hard way: the emitter was right, the spec-derived expectation was right, and the guard
+// added to be safe was the only thing wrong.
+//
 // NON-KILLS — recorded so nobody reads this file as covering them:
 //   - Nothing here asserts the PRODUCTION file counts. `static/**` is 4,952 in build0 only because
 //     the gitignored neural payload happened to hold 4,943 files that day; a literal would pin the
