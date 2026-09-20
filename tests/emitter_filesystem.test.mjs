@@ -730,6 +730,31 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
     description: `description of page ${i}`,
     created: `2026-0${(i % 9) + 1}-01T00:00:00.000Z`,
   }))
+  // A page whose slug sorts FIRST alphabetically but is inserted LAST. Without it the fixture's
+  // insertion order IS alphabetical, so an EXPECTED_SITEMAP_ORDER literal would be green against
+  // a `.sort()` mutant — a literal that agrees by construction (CLAUDE.md §6.3). Month 1 keeps it
+  // out of the RSS top ten, so the feed assertions above are undisturbed.
+  pages.push({
+    slug: "Section/A-sorts-first",
+    frontmatter: { title: "A sorts first", tags: [] },
+    text: "body of the alphabetically-first page",
+    links: [],
+    description: "description of the alphabetically-first page",
+    created: "2026-01-01T00:00:00.000Z",
+  })
+  // An EMPTY-TEXT page. `includeEmptyFiles` decides its MEMBERSHIP, and against the real corpus
+  // that flag is exercised by exactly 2 of 4,600 entries (Game-Over and Tree) — the thinnest
+  // exercise on this surface. Every other fixture page has text, so without this one the flag is
+  // satisfied by the RIGHT operand of `includeEmptyFiles || (text && text !== "")` twelve times
+  // out of twelve and deleting the flag entirely is a fixture no-op.
+  pages.push({
+    slug: "Section/Z-empty-text",
+    frontmatter: { title: "Empty", tags: [] },
+    text: "",
+    links: [],
+    description: "description of the empty page",
+    created: "2026-01-01T00:00:00.000Z",
+  })
 
   const { value } = probe(SNIPPET, {
     env: {
@@ -753,6 +778,20 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
   const idx = JSON.parse(fs.readFileSync(path.join(output, "static", "contentIndex.json"), "utf8"))
   const keys = Object.keys(idx)
   assert.equal(keys.length, pages.length, "one contentIndex entry per published page")
+
+  // PER-ENTRY PROPERTY ORDER. Every entry is built by one object literal, so a swap of two lines
+  // there rewrites all 16.4 MB of contentIndex.json and its 3.4 MB gzip. Measured on the golden:
+  // the shape histogram is {"title,links,tags,content": 4600} — one shape, 4,600 of 4,600.
+  let shapesChecked = 0
+  for (const k of keys) {
+    assert.deepEqual(
+      Object.keys(idx[k]),
+      ["title", "links", "tags", "content"],
+      `contentIndex entry ${k} has a different property order`,
+    )
+    shapesChecked++
+  }
+  assert.ok(shapesChecked > 0, "coverage floor: no entry shapes checked")
   assert.ok(keys.length > 0, "coverage floor: contentIndex is empty")
 
   // description and date are DELETED from the JSON. They exist in the in-memory index only so the
@@ -822,6 +861,33 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
   const locs = (value.sitemap.match(/<loc>/g) ?? []).length
   assert.equal(locs, pages.length, "the sitemap must carry every indexed page, not the RSS subset")
 
+  // SITEMAP ORDER. The <url> order is the Map's insertion order, i.e. content order, and on the
+  // golden it matches contentIndex.json's key order exactly (minus the 2 the post-processor
+  // removes) and is NOT alphabetical. `Section/A-sorts-first` is inserted last, so this literal
+  // distinguishes insertion order from a `.sort()`.
+  const sitemapSlugs = [...value.sitemap.matchAll(/<loc>https:\/\/bjjgraph\.org\/([^<]*)<\/loc>/g)].map(
+    (m) => m[1],
+  )
+  assert.deepEqual(
+    sitemapSlugs,
+    pages.map((p) => p.slug),
+    "the sitemap's <url> order is no longer the index's insertion order",
+  )
+  assert.notDeepEqual(
+    sitemapSlugs,
+    [...sitemapSlugs].sort(),
+    "the fixture's insertion order is alphabetical, so the assertion above cannot distinguish " +
+      "insertion order from a sort — the control page was lost",
+  )
+
+  // EVERY <loc> CARRIES A <lastmod>. This is the assertion that catches the strip-before-generate
+  // reorder: with `content.date` deleted, `${content.date && `<lastmod>…`}` guards the WHOLE
+  // element, so a falsy date emits a BARE WORD where the element should be and the count drops.
+  // (Do not assert on the literal: it renders "undefined", not "false", and the golden contains
+  // neither — a `!includes("false")` check is green against the very mutant it names.)
+  const lastmods = (value.sitemap.match(/<lastmod>/g) ?? []).length
+  assert.equal(lastmods, locs, "a <loc> lost its <lastmod>; the date was stripped before the sitemap was generated")
+
   // The gzip is a real gzip OF THE JUST-WRITTEN JSON, and it is deterministic: node's zlib writes
   // MTIME=0 into the header, which is why two builds of identical source produce identical bytes.
   const jsonBytes = fs.readFileSync(path.join(output, "static", "contentIndex.json"))
@@ -833,11 +899,47 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
   )
   assert.equal(gzBytes.readUInt32LE(4), 0, "the gzip header carries a non-zero MTIME; the .gz is no longer reproducible")
 
+  // THE FLAG IS READ, not merely defaulted past. The run above uses production's options, where
+  // includeEmptyFiles defaults true and the empty page IS indexed. This second run flips only
+  // that flag and the empty page must vanish — which is what distinguishes "the option is
+  // honoured" from "the option is present and inert".
+  const outputNoEmpty = path.join(root, "out-no-empty")
+  const { value: noEmpty } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({
+        kind: "contentindex",
+        root,
+        output: outputNoEmpty,
+        pages,
+        options: { enableSiteMap: true, enableRSS: true, includeEmptyFiles: false },
+      }),
+    },
+  })
+  void noEmpty
+  const idxNoEmpty = JSON.parse(
+    fs.readFileSync(path.join(outputNoEmpty, "static", "contentIndex.json"), "utf8"),
+  )
+  assert.ok(
+    "Section/Z-empty-text" in idx,
+    "the empty-text page is missing from the DEFAULT index; includeEmptyFiles defaults true",
+  )
+  assert.ok(
+    !("Section/Z-empty-text" in idxNoEmpty),
+    "includeEmptyFiles:false still indexed the empty-text page — the flag is not being read",
+  )
+  assert.equal(
+    Object.keys(idxNoEmpty).length,
+    pages.length - 1,
+    "includeEmptyFiles:false removed a different number of pages than the one empty page",
+  )
+
   console.log(
     `  [coverage] ContentIndex: 4 artifacts, ${keys.length} index entries all stripped of ` +
       `description+date, ${items} RSS items from ${pages.length} pages, ${locs} sitemap locs, ` +
       `1 truncation at 3,000 chars, gzip MTIME=0, ${feedLinks.length} feed links pinned in order ` +
-      `(2 tie pairs inside the window)`,
+      `(2 tie pairs inside the window), ${sitemapSlugs.length} sitemap slugs pinned in insertion ` +
+      `order, ${lastmods} lastmods, ${shapesChecked} entry shapes, includeEmptyFiles proven read ` +
+      `in both directions`,
   )
 })
 
