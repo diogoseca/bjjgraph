@@ -26,6 +26,16 @@
 //    `externalResources()` safe today (see `externalResourcesOf` below, which pins the
 //    consequence but not the transport).
 //  · It does not render a page. `<head>`, JSON-LD placement and article geometry are D's and B's.
+//    **AND IF YOU EXTEND IT TO RENDER, READ THIS FIRST.** `renderPage`'s `loadGraphData` reads
+//    `cwd/../graph.json` and, since S1's fix, THROWS when it cannot — deliberately, because the
+//    bare catch it replaced dropped `#page-graph-data` from 4,544 pages and exited 0 (D-49/D-50).
+//    This harness sets `file.cwd` to a THROWAWAY GIT REPO (see `scratchRepo`), which has no
+//    `graph.json`, so any render driven from that cwd will throw `Cannot load required graph
+//    data`. That is a TRUE POSITIVE, not a regression: stream B hit it on exactly the four of its
+//    tests that render a page, and the fix is to render from the REAL runtime base rather than
+//    from the fixture — `chdir` inside the snippet only for the cases that genuinely need the
+//    fixture as cwd. The throwaway repo exists for `CreatedModifiedDate`'s libgit2 pathspec, and
+//    that is the ONLY reason it is the cwd.
 //  · Filters, emitters and the renderer are out of scope by design.
 //
 // WHY THIS FILE IS FLAT IN `tests/` AND NOT IN `tests/quartz_pipeline/`: `test:units` is
