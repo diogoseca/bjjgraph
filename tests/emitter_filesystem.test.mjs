@@ -48,6 +48,15 @@
 //   - `helpers.ts`: append `"\n"` to the written content                 … kills "byte-exact write"
 //   - `helpers.ts`: return the path before awaiting `writeFile`          … kills "completed write"
 //
+// A CROSS-STREAM NOTE, learned the hard way at the first merge-down: every scenario here runs
+// the probe with cwd = SOURCE_DIR, the real runtime base, NOT the temp fixture root. The two
+// scenarios that need the fixture as cwd (Static, Assets) chdir to it inside the snippet instead.
+// This is load-bearing since S1's loadGraphData fix: `renderPage` reads `<cwd>/../graph.json` and
+// a missing file is now FATAL rather than silently caught, so any fixture that renders a page
+// from a temp cwd throws "Cannot load required graph data". These four tests were green only
+// because of the bare catch S1 was authorised to remove — the gate was right and the fixtures
+// were free-riding on a defect.
+//
 // NON-KILLS — recorded so nobody reads this file as covering them:
 //   - Nothing here asserts the PRODUCTION file counts. `static/**` is 4,952 in build0 only because
 //     the gitignored neural payload happened to hold 4,943 files that day; a literal would pin the
@@ -331,7 +340,6 @@ test("Static copies the WHOLE static directory, including what its own reporting
         ignorePatterns: REAL_IGNORE_PATTERNS,
       }),
     },
-    cwd: root,
   })
 
   const sourceFiles = walk(staticSrc)
@@ -420,7 +428,6 @@ test("Assets copies non-markdown content and keeps the dot DIRECTORY out of the 
         ignorePatterns: REAL_IGNORE_PATTERNS,
       }),
     },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -487,7 +494,6 @@ test("write() materialises exact bytes at output/slug+ext, and resolves only onc
 
   const { value } = probe(SNIPPET, {
     env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "write", output, writes }) },
-    cwd: root,
   })
 
   let checked = 0
@@ -620,7 +626,6 @@ test("AliasRedirects reproduces the golden stub byte-for-byte, and covers the fo
     env: {
       BJJ_PROBE_ARGS: JSON.stringify({ kind: "aliases", root, directory: contentDir, output, pages }),
     },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -720,7 +725,6 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
         options: { enableSiteMap: true, enableRSS: true }, // exactly what quartz.config.ts passes
       }),
     },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -809,7 +813,6 @@ function runComponentResources(configuration, label) {
     env: {
       BJJ_PROBE_ARGS: JSON.stringify({ kind: "componentresources", root, output, configuration }),
     },
-    cwd: root,
   })
   return { ...value, output }
 }
@@ -939,7 +942,6 @@ test("FolderPage mints one index per folder, and keeps the authored slug on a pa
 
   const { value } = probe(SNIPPET, {
     env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "folderpage", root, output, pages }) },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -1008,7 +1010,6 @@ test("TagPage mints a page per tag plus the index, expanding nested tags to ever
 
   const { value } = probe(SNIPPET, {
     env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "tagpage", root, output, pages }) },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -1065,7 +1066,6 @@ test("404Page emits one file whose RESOURCE base is root-absolute while its nav 
 
   const { value } = probe(SNIPPET, {
     env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "404", root, output, pages }) },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -1142,7 +1142,6 @@ test("ContentPage writes every page including the partial final batch, at pathTo
 
   const { value } = probe(SNIPPET, {
     env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "contentpage", root, output, pages }) },
-    cwd: root,
   })
 
   const emitted = walk(output)
@@ -1243,7 +1242,6 @@ test("ComponentResources collects components in first-seen order across emitters
     env: {
       BJJ_PROBE_ARGS: JSON.stringify({ kind: "resourceorder", root, output, components, emitterComponents }),
     },
-    cwd: root,
   })
 
   const css = value.css
