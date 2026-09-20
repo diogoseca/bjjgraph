@@ -60,7 +60,7 @@ function parse(file, text) {
     }
   }
   const runtimeModules = new Set();
-  const emitted = ts.createSourceFile(file + '.js', ts.transpileModule(text, { compilerOptions: {
+  const emitted = ts.createSourceFile(file + '.js', ast.isDeclarationFile ? '' : ts.transpileModule(text, { compilerOptions: {
     module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ESNext,
   }, fileName: file }).outputText, ts.ScriptTarget.Latest, true);
   for (const n of emitted.statements) {
@@ -216,6 +216,7 @@ function selftest() {
   proof('unknown dynamic fails closed', 'await import(process.env.PACKAGE)', 2);
   proof('type-only phantom', 'import type { X } from "toml"; type Y = import("toml").Y', 1);
   proof('declared type package', 'import type {Root} from "hast"', 0);
+  proof('declaration-file imports are types', 'import {Root} from "hast"; export declare const root: Root', 0, `${source}/case.d.ts`);
   proof('inferred type-only import', 'import {Root} from "hast"; export const x: Root = {} as Root', 0);
   proof('runtime import cannot borrow @types', 'import {Root} from "hast"; console.log(Root)', 1);
   proof('side-effect import cannot borrow @types', 'import "hast"', 1);
