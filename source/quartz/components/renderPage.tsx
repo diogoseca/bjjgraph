@@ -64,16 +64,54 @@ let _graphJson: any = null
 type GraphSection = "positions" | "transitions" | "submissions" | "principles" | "systems"
 // Maps lowercase slug (without section prefix) → { section, key }
 let _slugIndex: Record<string, { section: GraphSection; key: string }> = {}
+let _rendered = 0
+let _graphPayloads = 0
+
+// Each full build and isolated emitter starts a new lifetime. Watch rebuilds must not
+// reuse the previous build's graph, roll-position roster, or coverage counters.
+export function resetRenderState() {
+  _rollPositionsJson = null
+  _graphJson = null
+  _slugIndex = {}
+  _rendered = 0
+  _graphPayloads = 0
+}
+
+export function getRenderCoverage() {
+  return { rendered: _rendered, graphPayloads: _graphPayloads }
+}
 
 function loadGraphData(): any {
   if (_graphJson !== null) return _graphJson
 
+  const graphPath = path.join(process.cwd(), "..", "graph.json")
   try {
-    const graphPath = path.join(process.cwd(), "..", "graph.json")
     _graphJson = JSON.parse(fs.readFileSync(graphPath, "utf-8"))
-  } catch {
-    _graphJson = {}
+  } catch (cause) {
+    // CLAUDE.md 6.6: the old bare catch emitted a complete-looking site without any
+    // page-graph-data. Missing/malformed input is fatal; good-build bytes do not change.
+    throw new Error(`Cannot load required graph data: ${graphPath}`, { cause })
   }
+
+  const sections: GraphSection[] = [
+    "positions",
+    "transitions",
+    "submissions",
+    "principles",
+    "systems",
+  ]
+  const entries = sections.reduce((count, section) => {
+    const value = _graphJson?.[section]
+    if (
+      value !== undefined &&
+      (value === null || typeof value !== "object" || Array.isArray(value))
+    ) {
+      throw new Error(`Invalid graph section ${section} in ${graphPath}`)
+    }
+    return count + Object.keys(value ?? {}).length
+  }, 0)
+  if (entries === 0) throw new Error(`Graph coverage is zero: ${graphPath}`)
+  console.log(`[graph] loaded ${entries} entries from ${graphPath}`)
 
   // Build lookup index from Quartz slug → graph key
   _slugIndex = {}
@@ -559,6 +597,8 @@ export function renderPage(
 
   // Build-time per-page graph data (transitions, flashcard questions, etc.)
   const pageGraphDataJson = getPageGraphData(slug)
+  _rendered++
+  if (pageGraphDataJson !== null) _graphPayloads++
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   // Viewer's role drives the graph's per-role strength colouring (red↔blue).
