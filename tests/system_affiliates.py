@@ -3,9 +3,12 @@
 Marker-preservation mutants: deleting one entire guide or one anchor, changing a
 canonical URL, changing its marker kind, duplicating an anchor, and removing every
 source marker must fail the --built gate. No surviving seeded marker mutants.
+All mutations use disposable fixtures. Reused files are snapshotted as bytes and
+SHA-256 checked after restoration, outside subTest so a bad restore aborts the loop.
 """
 import copy
 import gzip
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -155,9 +158,18 @@ class SystemAffiliates(unittest.TestCase):
                     affiliate.stamp(article,ref)
                     errors=[];counts=gate.check_built(errors,ref)
                     self.assertEqual(errors,[]);self.assertEqual(counts,(2,6,1))
-                    good=article.read_text();article.write_text(good.replace('data-affiliate="'+str(bool(ref)).lower()+'"','data-affiliate="wrong"'))
-                    errors=[];gate.check_built(errors,ref);self.assertTrue(any('Fixture-System.md' in e for e in errors))
-                    article.write_text(good)
+                    saved = article.read_bytes()
+                    before = hashlib.sha256(saved).hexdigest()
+                    try:
+                        article.write_text(saved.decode('utf-8').replace(
+                            'data-affiliate="' + str(bool(ref)).lower() + '"', 'data-affiliate="wrong"'))
+                        errors = []
+                        gate.check_built(errors, ref)
+                        self.assertTrue(any('Fixture-System.md' in e for e in errors))
+                    finally:
+                        article.write_bytes(saved)
+                        self.assertEqual(hashlib.sha256(article.read_bytes()).hexdigest(), before,
+                                         f'mutant restore changed bytes: {article}')
                 stale=public/'feed.txt';stale.write_text('https://bjjfanatics.com/products/example?rfsn=old.token&utm_source=bjjgraph')
                 affiliate.stamp(stale,'');self.assertEqual(stale.read_text(),'https://bjjfanatics.com/products/example')
 
@@ -300,24 +312,52 @@ class SystemAffiliates(unittest.TestCase):
                     'duplicate-anchor': original + re.search(r'<a\b[^>]*data-course-url[^>]*>.*?</a>', original, flags=re.S)[0],
                 }
                 for name, mutant in mutations.items():
-                    with self.subTest(mutant=name):
-                        if mutant is None:
-                            page.unlink()
-                        else:
-                            page.write_text(mutant)
-                        output = StringIO()
-                        try:
+                    saved = page.read_bytes()
+                    before = hashlib.sha256(saved).hexdigest()
+                    try:
+                        with self.subTest(mutant=name):
+                            if mutant is None:
+                                page.unlink()
+                            else:
+                                page.write_text(mutant)
+                            output = StringIO()
                             with redirect_stdout(StringIO()), redirect_stderr(output), self.assertRaises(SystemExit) as failure:
                                 gate.main()
                             self.assertEqual(failure.exception.code, 1)
                             self.assertIn('marker preservation', output.getvalue())
-                        finally:
-                            page.write_text(original)
+                    finally:
+                        # Outside subTest: a failed revert must stop reuse of this fixture.
+                        page.write_bytes(saved)
+                        self.assertEqual(hashlib.sha256(page.read_bytes()).hexdigest(), before,
+                                         f'mutant restore changed bytes: {page}')
                 output = StringIO()
                 with redirect_stdout(output), redirect_stderr(StringIO()):
                     gate.main()
                 self.assertIn('2 marker pages', output.getvalue())
                 self.assertIn('6 canonical markers', output.getvalue())
+
+    def test_mutant_restore_verification_rejects_silent_wrong_writes(self):
+        # Exercise both real restoration call sites. Every target is in their
+        # disposable temp tree; no tracked source file is mutated.
+        real_write = Path.write_bytes
+        cases = (
+            ('Fixture-System.md', self.test_built_gate_checks_final_discovery_markdown_and_json_with_positive_coverage),
+            ('First-Guide.html', self.test_built_marker_contract_kills_missing_guide_or_anchor),
+        )
+        for filename, exercise in cases:
+            calls = []
+
+            def wrong_restore(path, data):
+                if path.name == filename:
+                    calls.append(path)
+                    return real_write(path, b'wrong prior committed bytes')
+                return real_write(path, data)
+
+            with self.subTest(restored_file=filename):
+                with patch.object(Path, 'write_bytes', wrong_restore):
+                    with self.assertRaisesRegex(AssertionError, 'mutant restore changed bytes'):
+                        exercise()
+                self.assertEqual(len(calls), 1, 'a failed restore must abort before the next case')
 
     def test_marker_preservation_rejects_zero_source_coverage(self):
         with tempfile.TemporaryDirectory() as tmp:
