@@ -3,7 +3,7 @@
  * Capture the EMIT seam: what each emitter actually put on the filesystem, per emitter.
  *
  *   node scripts/emit_seam_capture.mjs --out DIR [--emitter NAME]... [--limit N]
- *        [--work DIR] [--plain] [--keep] [--mutant omit-file|flip-byte] [--list]
+ *        [--work DIR] [--concurrency N] [--plain] [--keep] [--mutant omit-file|flip-byte] [--list]
  *
  * Stream B produces these records under D-26; stream V owns the `quartz-seam-v1` envelope
  * (`reports/quartz-v-record-format.md`) and reviews them. Exit 0 on a complete capture, 2 when no
@@ -214,8 +214,10 @@ const ctx = {
     port: 0,
     wsPort: 0,
     // 1 keeps parse in-process: no worker bundle, no .quartz-cache write, and (measured) no
-    // behavioural difference while no transformer imports .scss or *.inline.ts.
-    concurrency: 1,
+    // behavioural difference while no transformer imports .scss or *.inline.ts. Raising it uses
+    // the real build's workerpool path instead, which is MORE faithful and ~4x faster on this box
+    // — and is what a full-corpus capture should use, since the build itself runs --concurrency 4.
+    concurrency: args.concurrency,
   },
   cfg: config,
   // NOT sorted and NOT deduped: ambiguous link resolution uses first matches (INTERFACE.md §3).
@@ -377,6 +379,7 @@ function main() {
     return 2
   }
   const limit = Number(val("--limit", "0"))
+  const concurrency = Number(val("--concurrency", "1"))
   const emitters = many("--emitter")
   const mutant = val("--mutant")
   const plain = has("--plain")
@@ -400,7 +403,7 @@ function main() {
     cwd: SOURCE_DIR,
     env: {
       ...process.env,
-      BJJ_EMIT_CAPTURE_ARGS: JSON.stringify({ directory, limit, emitters, workRoot }),
+      BJJ_EMIT_CAPTURE_ARGS: JSON.stringify({ directory, limit, emitters, workRoot, concurrency }),
     },
     stdio: ["ignore", "pipe", "inherit"],
     encoding: "utf8",
@@ -493,6 +496,7 @@ function main() {
           parsed: captured.discovered.parsed,
           published: captured.discovered.published,
           partial: limit > 0,
+          parse_concurrency: concurrency,
         },
         ...(mutantNote ? { mutant: `${mutant}: ${mutantNote}` } : {}),
       },

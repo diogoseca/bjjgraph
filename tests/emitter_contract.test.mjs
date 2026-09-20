@@ -18,9 +18,25 @@
 //      make that planned removal look like a regression.
 //
 //   4. The SCHEDULE ITSELF, driven through the real `emitContent`: ComponentResources completes,
-//      then Static completes, then everything else runs concurrently. This is not a detail. Static
-//      is `fs.cp` over the whole `quartz/static` directory; run it after ContentIndex and it
-//      clobbers the generated `static/contentIndex.json`.
+//      then Static completes, then everything else runs concurrently.
+//
+//      A correction to the reason, because the stated one is wrong and a gate justified by a wrong
+//      mechanism can never go red. `emit.ts:18-19`, INTERFACE.md §4 and stream B's own brief all
+//      say Static's whole-directory copy would CLOBBER the generated `static/contentIndex.json`.
+//      Measured: `fs.cp(src, dst, {recursive:true})` MERGES — copying into a destination holding
+//      `contentIndex.json` and `sub/other.txt` leaves both in place. Nothing is clobbered, and
+//      reordering Static after ContentIndex would not lose a byte today.
+//
+//      What the ordering actually buys is the absence of a concurrent-write RACE on the shared
+//      `output/static/` tree: ContentIndex writes `static/contentIndex.json{,.gz}` into it and
+//      ComponentResources writes `static/fonts/*.ttf` into it, both while `fs.cp` is creating and
+//      populating the same directory. That hazard is dormant — `cdnCaching: true` means the fonts
+//      branch never fires, and no path in `quartz/static/` collides with an emitted one — which is
+//      precisely why it must be pinned rather than rediscovered: it is invisible until the day a
+//      path does collide, and then it is a flaky, ordering-dependent corruption.
+//
+//      So this test pins the ORDER, which is the frozen contract (D-03), and does not pretend to
+//      demonstrate the clobber that does not happen.
 //
 // COVERAGE COUNTS: every check prints how many things it compared and fails on zero. A matcher
 // that matches nothing emits exactly what success emits (CLAUDE.md §6.6) — the most repeated
