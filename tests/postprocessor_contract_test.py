@@ -2,8 +2,16 @@
 
 Kills: every one of the eleven index literal shapes; SVG/document-title confusion;
 missing/duplicate articles; sitemap zero/below-floor/missing target; missing noindex
-and missing source coverage; unknown article-free artifacts. No surviving seeded
-mutants. Marker preservation belongs to system_affiliates.py, not this gate.
+and missing source coverage; unknown article-free artifacts. Kills are claimed
+only for the seeded cases actually measured. Marker preservation belongs to
+system_affiliates.py, not this gate.
+
+Timestamp scope: modified_time is required exactly once; published_time is
+optional (zero or one). Removing an AUTHORED publication timestamp is an
+intentional NON-KILL in this input-only gate: Head/date provenance tests own
+whether publication metadata should have been emitted. Both accepted timestamp
+variants still exercise eleven literal shapes. No claim about date provenance
+or ISO-date meaning follows from these literal-shape tests.
 The unchanged share-shell is also executed; this is not a copied renderer.
 
 D-51 scope: PostprocessorFreshOutputTest drives tiny fresh-output fixtures through
@@ -25,6 +33,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECK = ROOT / 'scripts/check_postprocessor_contract.py'
+sys.path.insert(0, str(ROOT / 'scripts'))
+import check_postprocessor_contract as postprocessor_contract
 INDEX = '''<!DOCTYPE html><html><head><meta charset="utf-8"/>
 <title>Study BJJ</title><link rel="canonical" href="https://bjjgraph.org/"/>
 <meta property="og:title" content="Study BJJ"/>
@@ -100,7 +110,7 @@ class PostprocessorContractTest(unittest.TestCase):
             ('twitter:title', '<meta name="twitter:title" content="Study BJJ"/>'),
             ('twitter:description', '<meta name="twitter:description" content="Study techniques"/>'),
             ('description', '<meta name="description" content="Study techniques"/>'),
-            ('article-times', '<meta property="article:published_time" content="2026-09-20T00:00:00Z"/>'),
+            ('article-times', '<meta property="article:modified_time" content="2026-09-20T01:00:00Z"/>'),
         ]
         self.assertEqual(len(cases), 11)
         for name, literal in cases:
@@ -199,6 +209,112 @@ class PostprocessorContractTest(unittest.TestCase):
             self.assertIn('<title data-share-title="1">', shell)
             self.assertIn('<svg><title>Search</title></svg>', shell)
             self.assertEqual(shell.count('data-share-og='), 5)
+
+
+class PostprocessorTimestampTest(unittest.TestCase):
+    """Only the real index API and tiny share fixtures; no 4,000-page setup."""
+
+    published = '<meta property="article:published_time" content="2026-09-20T00:00:00Z"/>'
+    modified = '<meta property="article:modified_time" content="2026-09-20T01:00:00Z"/>'
+
+    def assert_valid_index(self, text):
+        errors = []
+        shapes = postprocessor_contract.check_index(text, errors)
+        self.assertEqual(errors, [], f'index rejected with {shapes} positive shapes: {errors}')
+        self.assertEqual(shapes, 11, 'accepted input must retain eleven positive literal shapes')
+
+    def assert_timestamp_rejected(self, text, label):
+        errors = []
+        shapes = postprocessor_contract.check_index(text, errors)
+        self.assertTrue(errors, f'{label} survived with {shapes} positive shapes')
+        self.assertTrue(any('article-times' in error for error in errors), errors)
+
+    def test_both_timestamps_retain_eleven_positive_shapes(self):
+        self.assert_valid_index(INDEX)
+
+    def test_modified_only_retains_eleven_positive_shapes(self):
+        # Intentional publication-removal NON-KILL: no authored-date provenance
+        # reaches this input-only gate. Head/date tests own that information.
+        self.assertEqual(INDEX.count(self.published), 1)
+        self.assert_valid_index(INDEX.replace(self.published, ''))
+
+    def test_missing_modified_rejected_with_and_without_publication(self):
+        for has_published in (True, False):
+            with self.subTest(has_published=has_published):
+                text = INDEX if has_published else INDEX.replace(self.published, '')
+                self.assert_timestamp_rejected(text.replace(self.modified, ''), 'missing modified timestamp')
+
+    def test_malformed_optional_publication_is_not_treated_as_absent(self):
+        malformed = {
+            'not-self-closing': self.published.replace('/>', '>'),
+            'explicit-end-tag': self.published.replace('/>', '></meta>'),
+            'space-before-slash': self.published.replace('/>', ' />'),
+            'single-quotes': self.published.replace('"', "'"),
+            'unquoted-property': self.published.replace('"article:published_time"', 'article:published_time'),
+            'attribute-order': '<meta content="2026-09-20T00:00:00Z" property="article:published_time"/>',
+            'uppercase-tag': self.published.replace('<meta ', '<META '),
+            'uppercase-attribute': self.published.replace('property=', 'PROPERTY='),
+            'uppercase-property': self.published.replace('article:published_time', 'ARTICLE:PUBLISHED_TIME'),
+            'extra-attribute': self.published.replace('/>', ' data-extra="1"/>'),
+            'duplicate-property': self.published.replace('/>', ' property="article:published_time"/>'),
+            'duplicate-property-overwritten': self.published.replace('/>', ' property="og:title"/>'),
+            'name-instead-of-property': self.published.replace('property=', 'name='),
+            'duplicate-content': self.published.replace('/>', ' content="another"/>'),
+        }
+        self.assertEqual(len(malformed), 14)
+        for label, tag in malformed.items():
+            with self.subTest(mutant=label):
+                self.assert_timestamp_rejected(INDEX.replace(self.published, tag), label)
+
+    def test_modified_inside_comment_or_script_cannot_supply_coverage(self):
+        for has_published in (True, False):
+            for wrapper in ('<!--{}-->', '<script>{}</script>'):
+                with self.subTest(has_published=has_published, wrapper=wrapper):
+                    text = INDEX if has_published else INDEX.replace(self.published, '')
+                    self.assert_timestamp_rejected(
+                        text.replace(self.modified, wrapper.format(self.modified)),
+                        'modified timestamp exists only as comment/script text')
+
+    def test_duplicate_known_timestamp_tags_are_rejected(self):
+        for label, text, duplicate in (
+            ('published', INDEX, self.published),
+            ('modified-with-publication', INDEX, self.modified),
+            ('modified-only', INDEX.replace(self.published, ''), self.modified),
+        ):
+            with self.subTest(mutant=label):
+                self.assert_timestamp_rejected(text.replace('</head>', duplicate + '</head>'), label)
+
+    def test_unknown_article_timestamp_tags_are_rejected(self):
+        unknown = '<meta property="article:created_time" content="2026-09-20T00:00:00Z"/>'
+        for has_published in (True, False):
+            with self.subTest(has_published=has_published):
+                text = INDEX if has_published else INDEX.replace(self.published, '')
+                self.assert_timestamp_rejected(text.replace('</head>', unknown + '</head>'), 'unknown article timestamp')
+
+    def test_unchanged_share_shell_removes_both_timestamp_variants(self):
+        for has_published in (True, False):
+            with self.subTest(has_published=has_published), tempfile.TemporaryDirectory(prefix='quartz-timestamp-share-') as tmp:
+                root = Path(tmp)
+                (root / 'scripts').mkdir()
+                shutil.copyfile(ROOT / 'scripts/build_share_shell.mjs', root / 'scripts/build_share_shell.mjs')
+                public = root / 'source/public'
+                (public / 'static/neural').mkdir(parents=True)
+                text = INDEX if has_published else INDEX.replace(self.published, '')
+                (public / 'index.html').write_text(text)
+                sitemap = '<urlset>' + ''.join(f'<url><loc>https://bjjgraph.org/Positions/P{n}</loc></url>' for n in range(1000)) + '</urlset>'
+                (public / 'sitemap.xml').write_text(sitemap)
+                (public / 'llms.txt').write_text('Public articles')
+                (public / 'static/neural/graph-data.json').write_text(json.dumps({'nodes': [{'o': n, 't': f'Technique {n}'} for n in range(1000)]}))
+                result = subprocess.run(['node', str(root / 'scripts/build_share_shell.mjs')],
+                                        capture_output=True, text=True, timeout=15)
+                self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+                shell = (public / 'l.html').read_text()
+                self.assertNotIn('article:', shell, 'no timestamp meta may survive shell rewriting')
+                self.assertIn('<svg><title>Search</title></svg>', shell)
+                self.assertEqual(shell.count('data-share-title="1"'), 1)
+                manifest = json.loads((public / 'l-manifest.json').read_text())
+                self.assertEqual(len(manifest['names']), 1000)
+                self.assertIn('1000 ordinals', result.stdout)
 
 
 class PostprocessorFreshOutputTest(unittest.TestCase):

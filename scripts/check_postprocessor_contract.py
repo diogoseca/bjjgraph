@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Read-only gate for the emitter inputs consumed by the post-processors.
 
-The eleven literal shapes below are the share-shell's charset, title, canonical,
-seven metadata rewrites and article timestamp removal pattern. The last two were
-silent replacements in the consumer, so renderer retention alone was not proof.
+The eleven required literal shapes are charset, title, canonical, seven metadata
+rewrites and one modified-time meta. D-86/D-87 publication omission is authorized:
+modified remains required by the homepage producer, while published is optional.
+Every parsed article timestamp meta must retain the share-shell's exact removal
+shape; duplicates and unknown timestamp names fail. The consumer can accept a head
+without timestamps, but the homepage producer always supplies modified. This checks
+input shape, not date values or authored publication provenance; Head/date fixtures
+own those assertions.
 One document title is required; the inline SVG Search title is deliberately valid.
 
 Marker preservation (contract item 5) belongs to the existing affiliate gate:
@@ -50,7 +55,8 @@ LITERAL_SHAPES = (
     ('twitter:title', r'<meta name="twitter:title" content="[^"]*"/>', 1),
     ('twitter:description', r'<meta name="twitter:description" content="[^"]*"/>', 1),
     ('description', r'<meta name="description" content="[^"]*"/>', 1),
-    ('article-times', r'<meta property="article:(?:published|modified)_time" content="[^"]*"/>', 2),
+    # Keep the eleventh positive check: modified is mandatory, published is not.
+    ('article-times', r'<meta property="article:modified_time" content="[^"]*"/>', 1),
 )
 
 
@@ -60,6 +66,7 @@ class TitleParser(HTMLParser):
         self.in_head = False
         self.svg_depth = 0
         self.titles = []
+        self.article_times = []
 
     def handle_starttag(self, tag, attrs):
         if tag == 'head':
@@ -68,6 +75,14 @@ class TitleParser(HTMLParser):
             self.svg_depth += 1
         if tag == 'title':
             self.titles.append((self.in_head, bool(self.svg_depth)))
+        if tag == 'meta' and self.in_head:
+            # Inspect every pair: dict(attrs) could hide a timestamp behind a
+            # duplicate property attribute. Name= is a malformed timestamp too.
+            if any(name in {'property', 'name'} and value is not None
+                   and value.strip().lower().startswith('article:')
+                   and value.strip().lower().endswith('_time')
+                   for name, value in attrs):
+                self.article_times.append(self.get_starttag_text())
 
     def handle_endtag(self, tag):
         if tag == 'head':
@@ -88,11 +103,22 @@ def check_index(text, errors):
             errors.append(f'index-{name}: expected {expected} literal matches, found {count}')
         else:
             passed += 1
-    times = re.findall(r'<meta property="article:([^"]+)_time"', head)
-    if sorted(times) != ['modified', 'published']:
-        errors.append('index-article-times: require one published and one modified timestamp')
     parser = TitleParser()
     parser.feed(text)
+    times = []
+    for raw in parser.article_times:
+        timestamp = re.fullmatch(
+            r'<meta property="article:(published|modified)_time" content="[^"]*"/>', raw)
+        if timestamp is None:
+            errors.append('index-article-times: malformed or unknown timestamp meta; '
+                          'must retain the literal share-shell removal shape')
+        else:
+            times.append(timestamp[1])
+    # Optional does not mean unchecked. Count parsed, consumer-matchable tags;
+    # a literal hidden in a comment/script cannot supply required coverage.
+    if times.count('modified') != 1 or times.count('published') > 1:
+        errors.append('index-article-times: require exactly one modified timestamp '
+                      'and zero or one published timestamp')
     document_titles = [value for value in parser.titles if not value[1]]
     if document_titles != [(True, False)] or not parser.titles or parser.titles[0] != (True, False):
         errors.append('index-document-title: one head title must precede every inline SVG title')
