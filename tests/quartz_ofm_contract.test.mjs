@@ -176,15 +176,28 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
   // The claim "the differ cannot see this" is only true while the corpus stays empty of it. If a
   // content file ever starts using one of these, emit_diff DOES become evidence and this file
   // stops being the sole gate — so the claim is re-measured on every run rather than asserted once.
+  // ── THE THREE-PART CONTROL (COORDINATION §7K) ────────────────────────────────────────────
+  // Each of these zeros is acted on: D-51 rests on them, and so does this whole file's claim to
+  // be the only instrument. A zero needs all three controls, because each catches a mode the
+  // others cannot:
+  //   NON-ZERO CONTROL    proves the matcher RUNS       -> the `files > 4000` floor below
+  //   EXACT-COUNT CONTROL proves its SCOPE              -> the per-pattern expectations below
+  //   STRUCTURAL SIBLING  proves the TOKEN              -> `sibling` on each row
+  // The sibling is the part that is easy to omit and impossible to substitute: a control
+  // validates the MATCHER, not the TOKEN, and both other controls use a DIFFERENT pattern from
+  // the one under test — so a malformed pattern under test is invisible to them BY CONSTRUCTION.
+  // A sibling is the SAME SHAPE through the SAME path with a known non-zero count, so if the
+  // shape could not reach the corpus at all, the sibling reads zero and says so.
   const pats = {
-    "comments %%x%%": /%%[\s\S]*?%%/,
-    "highlights ==x==": /==[^=\n]+==/,
-    "embeds ![[x]]": /!\[\[[^\]]+\]\]/,
-    "block refs ^id": /^\^[-_A-Za-z0-9]+$/m,
-    "mermaid fences": /```mermaid/,
-    "labelled fences": /^```[a-zA-Z]+/m,
+    "comments %%x%%": { re: /%%[\s\S]*?%%/, sibling: /<!--[\s\S]*?-->/, siblingName: "html comments" },
+    "highlights ==x==": { re: /==[^=\n]+==/, sibling: /\*\*[^*\n]+\*\*/, siblingName: "bold **x**" },
+    "embeds ![[x]]": { re: /!\[\[[^\]]+\]\]/, sibling: /(?<!!)\[\[[^\]]+\]\]/, siblingName: "wikilinks [[x]]" },
+    "block refs ^id": { re: /^\^[-_A-Za-z0-9]+$/m, sibling: /^#{1,6} /m, siblingName: "headings" },
+    "mermaid fences": { re: /```mermaid/, sibling: /```/, siblingName: "any fence" },
+    "labelled fences": { re: /^```[a-zA-Z]+/m, sibling: /^```/m, siblingName: "any fence at line start" },
   }
   const counts = Object.fromEntries(Object.keys(pats).map((k) => [k, 0]))
+  const siblings = Object.fromEntries(Object.keys(pats).map((k) => [k, 0]))
   let files = 0
   const walk = (d) => {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
@@ -193,7 +206,10 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
       else if (e.name.endsWith(".md")) {
         files += 1
         const s = fs.readFileSync(p, "utf8")
-        for (const [k, re] of Object.entries(pats)) if (re.test(s)) counts[k] += 1
+        for (const [k, spec] of Object.entries(pats)) {
+          if (spec.re.test(s)) counts[k] += 1
+          if (spec.sibling.test(s)) siblings[k] += 1
+        }
       }
     }
   }
@@ -203,6 +219,18 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
   // would report every count as 0 and look like a perfect confirmation of the claim.
   console.log(`  coverage: ${files} content files scanned · ${JSON.stringify(counts)}`)
   assert.ok(files > 4000, `expected the real corpus, walked ${files} files`)
+  // STRUCTURAL SIBLING: prove each pattern's SHAPE reaches the corpus at all. Without this, a
+  // malformed pattern and a genuinely absent feature are indistinguishable — both read zero.
+  for (const [k, spec] of Object.entries(pats)) {
+    assert.ok(
+      siblings[k] > 0,
+      `the structural sibling for "${k}" (${spec.siblingName}) matched ZERO files, so this ` +
+        "pattern's SHAPE cannot be shown to reach the corpus and its zero proves nothing. " +
+        "A control validates the matcher, not the token (COORDINATION §7K).",
+    )
+  }
+  console.log(`  siblings: ${Object.entries(siblings).map(([k, v]) => `${k.split(" ")[0]}=${v}`).join(" ")}`)
+
   for (const [k, n] of Object.entries(counts)) {
     assert.equal(
       n,
