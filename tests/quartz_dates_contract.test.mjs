@@ -12,7 +12,7 @@
 // instead (`:27`), and `:158-159` keep `?? new Date()` for created and modified while `:160` is
 // `published: publicationDate` with NO fallback.
 //
-// **AND THOSE TWO FALLBACKS ARE UNREACHABLE — measured, not assumed.** The configured priority is
+// **AND THOSE TWO FALLBACKS ARE NEVER REACHED ON THIS CORPUS — measured, not assumed.** The configured priority is
 // `["frontmatter","git","filesystem"]` and the filesystem branch does `created ||= st.birthtimeMs`
 // / `modified ||= st.mtimeMs` UNCONDITIONALLY, so by the time `:158-159` run, both already hold a
 // value. Deleting BOTH `?? new Date()` clauses turns nothing in this file red (5 pass, 0 fail).
@@ -20,6 +20,19 @@
 // fallback — the fallback is a constant with a function around it (CLAUDE.md §6.6) and would only
 // fire if `filesystem` were dropped from the priority array or `stat` threw. It stays under D-03;
 // it is documented here so nobody reads the assertion as gating it.
+//
+// **PRECISION, because "unreachable" and "never reached in this corpus" are different claims and
+// only the second is measured:** `coerceDate` treats `getTime() === 0` as invalid, so a file whose
+// birthtime is exactly the Unix epoch WOULD reach the fallback. Vanishingly rare, and it does not
+// change the conclusion — but the honest statement is *practically* dead, not *provably* dead.
+//
+// ── AND THE CONSEQUENCE THAT MATTERS MORE THAN THE CORRECTION ─────────────────────────────────
+// If the guarantee comes from the FILESYSTEM TIER and not from a code fallback, then "modified is
+// always present" rests on **a config entry** — the string `"filesystem"` in
+// `quartz.config.ts:110`'s priority array — and on nothing in `lastmod.ts` at all. Delete that one
+// string and `modified` can go absent, the dead fallback will NOT catch it, and stream F's
+// both-tags contract goes red for a genuinely new reason that nobody would connect to a config
+// edit. A comment pointing at a line that cannot execute is not a guard. The test below is.
 //
 // Two replacement designs were written and withdrawn before either shipped:
 //   1. "`published` is ABSENT when neither key is authored" — 4,600 of 4,600 today, and WRONG as a
@@ -123,6 +136,50 @@ test("AUTHORED BEATS DERIVED — the property that survives either implementatio
   const abs2 = commitFixture("AuthoredWins2.md", md2, "2024-06-07T08:09:10+00:00")
   const r2 = await runPipeline(md2, { slug: "AuthoredWins2", file: abs2 })
   assert.equal(r2.file.data.dates.published.toISOString(), "2018-01-02T03:04:05.000Z")
+})
+
+test("THE FILESYSTEM TIER IS WHAT GUARANTEES modified — and it rests on a config entry", async (t) => {
+  if (skip) return t.skip("harness unavailable")
+  // An UNCOMMITTED fixture: frontmatter supplies no dates and the git tier throws for a file git
+  // does not know, so ONLY the filesystem tier can supply `modified`. That isolates the tier the
+  // guarantee actually depends on, without this test having to read the config.
+  //
+  // Remove "filesystem" from `quartz.config.ts:110`'s priority and this goes RED — which is the
+  // whole point, because the `?? new Date()` at lastmod.ts:159 is dead code that would not catch
+  // it and every other assertion in this file would stay green.
+  const md = "---\ntitle: Untracked\n---\n\nbody\n"
+  const { file } = await runPipeline(md, { slug: "UntrackedByGit" })
+  const d = file.data.dates
+
+  assert.ok(
+    d.modified instanceof Date && Number.isFinite(d.modified.getTime()),
+    "modified must survive when neither frontmatter nor git can supply it — the filesystem tier " +
+      "is the only remaining source, and it is a CONFIG entry rather than a code guarantee",
+  )
+  assert.ok(
+    d.created instanceof Date && Number.isFinite(d.created.getTime()),
+    "created likewise comes from st.birthtimeMs via the filesystem tier",
+  )
+  // ── THE ASSERTION MUST BE EXACT mtime EQUALITY, AND HERE IS WHY ──────────────────────────
+  // The first version of this test asserted only "modified is recent". IT SURVIVED THE MUTANT IT
+  // WAS WRITTEN TO CATCH: deleting "filesystem" from the priority array left all six tests green.
+  // The reason corrects the premise this test was built on — **the `?? new Date()` fallback is not
+  // dead, it is DORMANT, and it goes live exactly when the filesystem tier is removed.** So
+  // dropping that config string does NOT make `modified` absent; it makes it `new Date()`, i.e.
+  // BUILD TIME, identical on every page — the v1.36.1 collapse, arriving silently through the very
+  // fallback that looked like a safety net. "Recent" cannot tell the two apart, because build time
+  // is recent too.
+  // Exact equality with the file's own mtime can: the filesystem tier yields st.mtimeMs to the
+  // millisecond, while `new Date()` lands however long the run has taken since (measured ~200ms).
+  const st = fs.statSync(file.data.filePath)
+  assert.ok(
+    Math.abs(d.modified.getTime() - st.mtimeMs) < 2,
+    `modified must BE the file's mtime (${new Date(st.mtimeMs).toISOString()}), not merely recent. ` +
+      `Got ${d.modified.toISOString()}. A near-but-not-equal value means the dormant ` +
+      "`?? new Date()` fallback supplied it, which is build time on every page.",
+  )
+  // `published` still has no source, and still must not be invented.
+  assert.equal(d.published, undefined, "no authored date means no publication date, not a stamp")
 })
 
 test("DISTINCTNESS — two pages committed at different times get different modified dates", async (t) => {
