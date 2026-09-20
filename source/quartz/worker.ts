@@ -6,8 +6,7 @@ import { Argv, BuildCtx } from "./util/ctx"
 import { FilePath, FullSlug } from "./util/path"
 import { createFileParser, createProcessor, restoreContent } from "./processors/parse"
 import { options } from "./util/sourcemap"
-import type { WorkerInit } from "./processors/workerPool"
-import type { ProcessedContent } from "./plugins/vfile"
+import type { EmitShard, EmitTask, WorkerInit } from "./processors/workerPool"
 import { getRenderCoverage, resetRenderState } from "./components/renderPage"
 
 sourceMapSupport.install(options)
@@ -32,35 +31,49 @@ if (parentPort && workerData) {
     argv: init.argv,
     allSlugs: init.allSlugs,
   }
-  // V8 serialization preserves Dates and the shared tree/htmlAst/block references.
-  // Every emitter receives ALL content. Chunking it would poison allFiles and roll positions.
-  const hydrateStart = performance.now()
-  if (init.phase === "emit") {
-    console.log(
-      `[emit:hydrate:start] thread=${threadId} sharedBytes=${init.content.byteLength} memory=${JSON.stringify(process.memoryUsage())}`,
-    )
-  }
-  const content =
-    init.phase === "emit"
-      ? restoreContent(deserialize(Buffer.from(init.content)) as ProcessedContent[])
-      : []
-  if (init.phase === "emit") {
-    // rss covers this whole Node process; heapUsed/heapTotal describe this worker isolate.
-    console.log(
-      `[emit:hydrate:ready] thread=${threadId} pages=${content.length} ${(performance.now() - hydrateStart).toFixed(1)}ms memory=${JSON.stringify(process.memoryUsage())}`,
-    )
-  }
   parentPort.on("message", async ({ id, task }) => {
     try {
       if (init.phase === "parse") {
         const result = await parseFiles(init.buildId, init.argv, task, init.allSlugs)
         parentPort!.postMessage({ id, result })
       } else {
-        const emitter = cfg.plugins.emitters[task as number]
-        if (!emitter) throw new Error(`Missing emitter at configured index ${task}`)
+        const { emitter: index, content: shared } = task as EmitTask
+        const emitter = cfg.plugins.emitters[index]
+        if (!emitter?.emitShard)
+          throw new Error(`Missing shard emitter at configured index ${index}`)
+        const hydrateStart = performance.now()
+        console.log(
+          `[emit:hydrate:start] thread=${threadId} sharedBytes=${shared.byteLength} memory=${JSON.stringify(process.memoryUsage())}`,
+        )
+        const shard = deserialize(Buffer.from(shared)) as EmitShard
+        const content = restoreContent(shard.content)
+        const allFiles = shard.allFiles
+        // D-50: restore VFile behavior without cloning its data. Resident roster entries,
+        // htmlAst and blocks still alias the same graph as the corresponding live tuple.
+        // A future/custom component's unaudited other-page AST read must fail, not silently
+        // treat omitted data as absent. Custom layouts default to main-thread full emit.
+        for (const { index: page, fields } of shard.omittedTrees) {
+          for (const field of fields) {
+            Object.defineProperty(allFiles[page], field, {
+              enumerable: true,
+              get() {
+                throw new Error(`Unplanned shard tree read: ${allFiles[page].slug}.${field}`)
+              },
+            })
+          }
+        }
+        // rss covers the whole Node process; heap figures belong to this worker isolate.
+        console.log(
+          `[emit:hydrate:ready] thread=${threadId} renderPages=${shard.renderCount} residentPages=${content.length} metadataPages=${allFiles.length} ${(performance.now() - hydrateStart).toFixed(1)}ms memory=${JSON.stringify(process.memoryUsage())}`,
+        )
         resetRenderState()
         const start = performance.now()
-        const files = await emitter.emit(ctx, content, init.resources)
+        const files = await emitter.emitShard(
+          ctx,
+          content.slice(0, shard.renderCount),
+          init.resources,
+          allFiles,
+        )
         const coverage = getRenderCoverage()
         console.log(
           `[emit:${emitter.name}] ${files.length} reported paths, ${(performance.now() - start).toFixed(1)}ms, rendered=${coverage.rendered} graphPayloads=${coverage.graphPayloads}`,

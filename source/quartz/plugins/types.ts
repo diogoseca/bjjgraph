@@ -1,6 +1,6 @@
 import { PluggableList } from "unified"
 import { StaticResources } from "../util/resources"
-import { ProcessedContent } from "./vfile"
+import { ProcessedContent, QuartzPluginData } from "./vfile"
 import { QuartzComponent } from "../components/types"
 import { FilePath } from "../util/path"
 import { BuildCtx } from "../util/ctx"
@@ -92,5 +92,15 @@ export type QuartzEmitterPluginInstance = {
   name: string
   /** Completed writes/copies, not deferred artifacts. The driver awaits this promise. */
   emit(ctx: BuildCtx, content: ProcessedContent[], resources: StaticResources): Promise<FilePath[]>
+  /** Opt-in page rendering: owned tuples plus a complete ordered metadata roster.
+   * The driver also transports transclusion trees. Other nonresident tree reads throw.
+   * emit() retains its complete-content ABI; custom layouts can omit this capability.
+   */
+  emitShard?(
+    ctx: BuildCtx,
+    content: ProcessedContent[],
+    resources: StaticResources,
+    allFiles: QuartzPluginData[],
+  ): Promise<FilePath[]>
   getQuartzComponents(ctx: BuildCtx): QuartzComponent[]
 }
