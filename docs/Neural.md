@@ -588,6 +588,15 @@ on-demand chunk a node dossier already uses, keyed `<Name>|Principle|Learning|Sy
 renderer — `_bodyDocHTML`, with `NG_DOC_LABELS` naming each library's blocks (no label, not drawn).
 A cached `null` is a MISS here, never an answer: `_docBody` forces one re-read per key per session
 and `_hydrateContent` retries a transport failure (`NG_CHUNK_TRIES`) while still caching a 404.
+Principles lead with a short definition and practical overview. Independent disclosures preview
+3 key points, 2 examples, 2 mistakes, and 1 drill. Section headings separate groups; entry labels
+stay close to their explanations. Related concepts precede the collapsed technique browser,
+whose rows show names and position/role qualifiers without repeated applicability descriptions.
+The principle sidebar has no coverage boilerplate or link back to its own page.
+Principles with curated clips show Film study immediately below the title and summary. Clips
+arrive with the deferred body, use the shared thumbnail row/player, and put Shorts first. They
+play only on activation, award no study credit, and stop when the reading panel is rebuilt or
+left. A principle without clips has no empty Film study section.
 Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
 techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
 `_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or

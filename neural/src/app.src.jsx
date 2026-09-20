@@ -142,7 +142,7 @@ const NG_CHUNK_TRIES = 3;
 // rather than a second panel. A block with NO LABEL in a library's row is not drawn for it: this
 // table is the contract, not a default, so a System's `metrics` can never leak into a principle.
 const NG_DOC_LABELS = {
-  Principle: { points: "Key principles", contexts: "Where it applies", errors: "What goes wrong", drills: "How to train it" },
+  Principle: { points: "Key principles", contexts: "Examples / where it applies", errors: "What goes wrong", drills: "How to train it" },
   Learning: { points: "Key takeaways", contexts: "Where it applies", errors: "What goes wrong", drills: "How to train it" },
   System: {
     points: "Key principles", contexts: "What it is made of", errors: "What gets in the way",
@@ -694,6 +694,9 @@ class Component extends DCLogic {
         if (this.closeModalIfOpen()) return;
         if (this.closeListPicker()) return; // anchored chooser, same deliberate band as the menu
         if (this.closeAccountMenu()) return;
+        if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) {
+          e.preventDefault(); const clip = this._expandedClip; this.collapseClip(clip); clip.focus(); return;
+        }
         if (this._landOpen) { e.preventDefault(); this.expandLandCard(false); return; }
         if (this._detailCtx) { e.preventDefault(); this.closeOptionDetail(); return; }
         if (this.closeNodeDossier()) return; // in-node dossier open (desktop) — fly back out
@@ -2013,31 +2016,43 @@ class Component extends DCLogic {
     clips.forEach((c, i) => {
       const w = compact ? (c.vertical ? 62 : 148) : (c.vertical ? 126 : 210), ht = compact ? 92 : 170;
       const dur = (c.end != null && c.start != null) ? this.fmtDur(c.end - c.start) + " \u00b7 loop" : "clip";
-      h += '<button class="ng-clip" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
-        '<img src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
+      h += '<button type="button" class="ng-clip" aria-label="' + this.escHTML('Play: ' + c.title + (c.by ? ' — ' + c.by : '')) + '" data-i="' + i + '" style="scroll-snap-align:start;flex:none;position:relative;width:' + w + 'px;height:' + ht + 'px;border-radius:13px;overflow:hidden;border:1px solid rgba(150,170,210,.16);background:#0c0f17;cursor:pointer;padding:0;display:block;transition:width .34s cubic-bezier(.4,0,.2,1),height .34s cubic-bezier(.4,0,.2,1);">' +
+        '<img alt="" src="https://i.ytimg.com/vi/' + c.id + '/hqdefault.jpg" loading="lazy" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.92;transition:transform .18s ease,opacity .3s ease;">' +
         '<span style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,16,0) 38%,rgba(8,10,16,.88) 100%);"></span>' +
         '<span class="ngPlay" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:' + (compact ? 30 : 44) + 'px;height:' + (compact ? 30 : 44) + 'px;border-radius:50%;background:rgba(12,14,22,.6);backdrop-filter:blur(3px);border:1.5px solid rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;transition:transform .16s ease,background .16s ease;"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" style="margin-left:2px;"><polygon points="6 4 20 12 6 20 6 4"></polygon></svg></span>' +
         '<span style="position:absolute;top:8px;right:8px;font-size:9px;font-weight:700;color:#eef1f6;background:rgba(8,10,16,.72);border-radius:6px;padding:2px 6px;letter-spacing:.02em;">' + dur + '</span>' +
-        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + c.title + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + c.by + '</span>' : '') + '</span>' +
+        '<span style="position:absolute;left:10px;right:10px;bottom:9px;text-align:left;"><span style="display:block;font-size:' + (compact ? 10 : 11.5) + 'px;font-weight:700;color:#fff;line-height:1.25;text-shadow:0 1px 6px rgba(0,0,0,.65);">' + this.escHTML(c.title) + '</span>' + (c.by ? '<span style="display:block;font-size:10px;color:#c3cce0;margin-top:2px;text-shadow:0 1px 5px rgba(0,0,0,.6);">' + this.escHTML(c.by) + '</span>' : '') + '</span>' +
         '</button>';
     });
     h += '</div>';
     return h;
   }
   clearClipLoops() { if (this._expandedClip) { try { this.collapseClip(this._expandedClip); } catch (e) {} } this._expandedClip = null; }
+  // A principle player belongs to the pane's current body. Release it before that body is
+  // replaced or hidden; other surfaces keep their own player lifecycle.
+  _stopConceptFilm() {
+    if (this._expandedClip && this._expandedClip.closest("[data-concept-film]")) this.clearClipLoops();
+  }
   expandClip(card, clip) {
     if (!card || !clip) return;
     if (card._expanded) return;
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
     card._expanded = true; this._expandedClip = card;
     { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = "hidden"; } // never beside the player's own ✕
-    this.fx("short_watched", { id: clip.id });
+    // Principle film is reference reading. This beat awards the gameplay film challenge,
+    // so it belongs only to the existing position/technique study surfaces.
+    if (!card.closest("[data-concept-film]")) this.fx("short_watched", { id: clip.id });
     const vertical = !!clip.vertical, start = clip.start || 0, end = clip.end || 0;
     const row = card.parentElement;
     const rw = (row && row.clientWidth) || 460;
+    const conceptList = card.closest("[data-concept-film]") && this.explorerListRef.current;
     let W, H;
     if (vertical) { H = 460; W = Math.round(H * 9 / 16); const capW = Math.round(rw * 0.7); if (W > capW) { W = capW; H = Math.round(W * 16 / 9); } }
     else { W = Math.min(496, Math.round(rw * 0.96)); H = Math.round(W * 9 / 16); }
+    if (conceptList && H > conceptList.clientHeight - 16) {
+      H = Math.max(1, conceptList.clientHeight - 16);
+      W = Math.round(H * (vertical ? 9 / 16 : 16 / 9));
+    }
     if (!card._bw) { card._bw = card.offsetWidth; card._bh = card.offsetHeight; }
     card.style.cursor = "default";
     const glyph = card.querySelector(".ngPlay"); if (glyph) glyph.style.display = "none";
@@ -2069,7 +2084,12 @@ class Component extends DCLogic {
     xb.style.cssText = "position:absolute;top:9px;right:9px;z-index:7;width:28px;height:28px;border-radius:9px;background:rgba(8,10,16,.78);backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,.22);color:#eef1f6;font-family:inherit;font-size:12px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:background .18s ease;";
     xb.addEventListener("mouseenter", () => { xb.style.background = "rgba(224,88,79,.9)"; });
     xb.addEventListener("mouseleave", () => { xb.style.background = "rgba(8,10,16,.78)"; });
-    xb.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); this.collapseClip(card); });
+    xb.addEventListener("click", (e) => {
+      e.preventDefault(); e.stopPropagation();
+      const restore = card.closest("[data-concept-film]") && card.contains(document.activeElement);
+      this.collapseClip(card);
+      if (restore && card.isConnected) card.focus({ preventScroll: true });
+    });
     card.appendChild(xb);
     // capture phase, so a surface that stops propagation cannot keep the player alive behind it.
     // Registered DURING the click that expanded this card, which has already dispatched its own
@@ -2081,8 +2101,20 @@ class Component extends DCLogic {
     // card WITHIN the row; `_dockLandFilm` re-anchors the row itself now that it is 92px taller,
     // and because that anchor is a BOTTOM the growth goes upward — which is what puts a playing
     // clip at the top of the screen instead of halfway down it.
-    if (row) { requestAnimationFrame(() => { const target = card.offsetLeft - Math.max(0, (row.clientWidth - card.offsetWidth) / 2); this.tweenScroll(row, Math.round(target - row.scrollLeft)); this._dockLandFilm(); }); }
-    const fail = () => { window.open("https://www.youtube.com/watch?v=" + clip.id + (start ? "&t=" + start + "s" : ""), "_blank", "noopener"); this.collapseClip(card); };
+    if (row) { requestAnimationFrame(() => {
+      if (!card._expanded || !card.isConnected) return;
+      const target = card.offsetLeft - Math.max(0, (row.clientWidth - card.offsetWidth) / 2);
+      this.tweenScroll(row, Math.round(target - row.scrollLeft)); this._dockLandFilm();
+      // Unlike the floating film strip, the principle row lives in a scrolling pane.
+      // Reveal its FINAL height now so a portrait player cannot hide its mute control
+      // below the pane while the expansion animates.
+      if (conceptList) {
+        const view = conceptList.getBoundingClientRect(), top = card.getBoundingClientRect().top;
+        if (top + H > view.bottom - 8) conceptList.scrollTop += top + H - view.bottom + 8;
+        else if (top < view.top + 8) conceptList.scrollTop += top - view.top - 8;
+      }
+    }); }
+    const fail = () => { if (!card._expanded) return; window.open("https://www.youtube.com/watch?v=" + clip.id + (start ? "&t=" + start + "s" : ""), "_blank", "noopener"); this.collapseClip(card); };
     this.ytApiReady().then((YT) => {
       if (!card._expanded) return;
       if (!YT || !YT.Player) { fail(); return; }
@@ -2685,6 +2717,7 @@ class Component extends DCLogic {
     const vt = this.viewToggleRef.current; if (vt) vt.style.display = study ? "none" : "grid";
     this._syncExploreTools(study);
     const showEx = !study && this._viewMode !== "history";
+    if (!showEx) this._stopConceptFilm();
     const exList = this.explorerListRef.current; if (exList) exList.style.display = showEx ? "block" : "none";
     if (!showEx) { const dos = this.dossierRef.current; if (dos) dos.style.display = "none"; }
     const showDrill = study || this._viewMode === "history";
@@ -3221,6 +3254,7 @@ class Component extends DCLogic {
     const idxs = this.conceptNodeIdxs(c);
     this._conceptId = id;
     this._conceptMemberLimit = 60;
+    this._conceptDisclosureOpen = {};
     this._conceptBody(c);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_concept_opened", { concept: c.name, cat: c.cat, nodes: idxs.length });
     this._pushUrl("/" + id, { ngPage: id });
@@ -5287,6 +5321,7 @@ class Component extends DCLogic {
    */
   openSession(bucket, label, sub) {
     this._stopSystemPreview();
+    this._stopConceptFilm();
     const keys = this.bucketTechniques(bucket);
     this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
     // "due" sessions narrow every deck to its due cards (see _entryForKey); others are whole-deck
@@ -7106,6 +7141,14 @@ class Component extends DCLogic {
     const keepScroll =
       this._viewMode === "challenges" && !this._challengeScrollPending ? list.scrollTop : null;
     this._stopSystemPreview();
+    this._stopConceptFilm();
+    // Native <details> updates `open` before its queued toggle event runs. Snapshot the
+    // live DOM before rebuilding so hydration cannot lose a just-opened section. Only
+    // the current visit's state object may be updated; openConcept starts a fresh one.
+    for (const details of list.querySelectorAll("[data-concept-disclosure]")) {
+      if (this._conceptId && details._conceptDisclosureState === this._conceptDisclosureOpen)
+        this._conceptDisclosureOpen[details.getAttribute("data-concept-disclosure")] = details.open;
+    }
     list.innerHTML = "";
     if (this.renderTabSubtitles) this.renderTabSubtitles();
     this._syncExploreTools();
@@ -7372,6 +7415,7 @@ class Component extends DCLogic {
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
   clearFocus() {
     this._stopSystemPreview();
+    this._stopConceptFilm();
     this._focusIdxSet = null; this._systemId = null; this._conceptId = null; this._listFocusId = null;
     const panel = this.drillRef && this.drillRef.current;
     if (panel) panel.removeAttribute("data-principle-view");
@@ -9594,8 +9638,18 @@ class Component extends DCLogic {
     const arr = (k) => (Array.isArray(body[k]) ? body[k] : []);
     const head = (k) => "<h3>" + E(L[k]) + "</h3>";
     let h = body.overview ? "<p>" + E(body.overview) + "</p>" : "";
-    const dl = (k, rows) => head(k) + '<dl data-doc-' + k + '="' + rows.length + '">' + rows.join("") + "</dl>";
-    const ul = (k, rows) => head(k) + '<ul data-doc-' + k + '="' + rows.length + '">' + rows.map((t) => "<li>" + E(t) + "</li>").join("") + "</ul>";
+    const block = (k, rows, tag) => {
+      const list = (items) => "<" + tag + ' data-doc-' + k + '="' + items.length + '">' + items.join("") + "</" + tag + ">";
+      if (cat !== "Principle") return head(k) + list(rows);
+      const preview = { points: 3, contexts: 2, errors: 2, drills: 1 }[k] || rows.length;
+      const rest = rows.slice(preview);
+      return '<section class="ng-doc-section" data-doc-section="' + k + '">' + head(k) + list(rows.slice(0, preview)) +
+        (rest.length ? '<details class="ng-doc-more" data-concept-disclosure="' + k + '"><summary style="pointer-events:auto;">' +
+          '<span class="ng-doc-expand">Show ' + rest.length + ' more<span class="ng-sr-only">: ' + E(L[k]) + '</span></span>' +
+          '<span class="ng-doc-collapse">Show less<span class="ng-sr-only">: ' + E(L[k]) + '</span></span></summary>' + list(rest) + '</details>' : "") + '</section>';
+    };
+    const dl = (k, rows) => block(k, cat === "Principle" ? rows.map((row) => '<div class="ng-doc-item">' + row + '</div>') : rows, "dl");
+    const ul = (k, rows) => block(k, rows.map((t) => "<li>" + E(t) + "</li>"), "ul");
     if (L.points && arr("points").length) h += ul("points", arr("points"));
     if (L.contexts && arr("contexts").length)
       h += dl("contexts", arr("contexts").map((x) => "<dt>" + E(x.c) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.how) + "</dd>"));
@@ -9621,11 +9675,11 @@ class Component extends DCLogic {
    *  Learning (authored by two different templates, saying the same things in different words)
    *  draw through ONE renderer: overview, points, contexts, errors, drills.
    *
-   *  NOT here, deliberately: the full authored prose (content/Principles/*.md is ~2.4MB) and the
-   *  concept flashcards, which still reach no deck. The page link is how a reader gets the rest. */
+   *  Principle sections keep a short preview; their remaining entries expand in place. */
   renderConceptDetail(list, id, mk) {
     const c = this._conceptsById[id]; if (!c) return;
     const E = (v) => this.escHTML(v);
+    const principle = c.cat === "Principle";
     const body = this._conceptBody(c);
     const idxs = this.conceptNodeIdxs(c);
     const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 ' + (c.cat === "Learning" ? "All learning" : "All principles") + '</span>', 12, () => this.closeConcept());
@@ -9639,84 +9693,106 @@ class Component extends DCLogic {
     card.setAttribute("data-concept-cat", c.cat);
     card.setAttribute("aria-label", c.name + " " + c.cat.toLowerCase());
     const meta = [c.cat === "Learning" ? "Learning" : "Principle"];
-    if (c.meta) meta.push(E(c.meta));
-    if (idxs.length) meta.push(idxs.length + " lit on the graph");
-    card.innerHTML = "<h2>" + E(c.name) + '</h2><div class="ng-concept-meta">' + meta.join(" \u00b7 ") + "</div>" +
+    if (c.meta) meta.push(...c.meta.split(" · "));
+    if (!principle && idxs.length) meta.push(idxs.length + " lit on the graph");
+    card.innerHTML = "<h2>" + E(c.name) + '</h2><div class="ng-concept-meta">' +
+      (principle ? meta.map((value) => "<span>" + E(value) + "</span>").join("") : meta.map(E).join(" \u00b7 ")) + "</div>" +
       (c.summary ? "<p>" + E(c.summary) + "</p>" : "");
     list.appendChild(card);
+
+    const clips = principle && body && Array.isArray(body.clips) ? body.clips : [];
+    if (clips.length) {
+      const film = document.createElement("section");
+      film.className = "ng-concept-film";
+      film.setAttribute("data-concept-film", c.id);
+      film.setAttribute("aria-label", "Film study: " + c.name);
+      film.innerHTML = this.filmStudyHTML(clips);
+      list.appendChild(film);
+      this.wireClips(film, clips);
+    }
 
     // ── the read. Rendered only when the chunk is here; until then the card above stands alone
     //    and this fills in on the re-render the fetch triggers.
     const doc = this._bodyDocHTML(body, c.cat);
-    if (c.cat === "Principle") {
-      const note = document.createElement("p");
-      note.className = "ng-system-role";
-      note.setAttribute("data-principle-coverage", c.allNodes ? "all" : "specific");
-      note.textContent = (c.allNodes ? "Applies throughout the graph. " : "Highlighted techniques use or counter this principle. ") +
-        "Both sides are included: top and bottom, attacking and defending. Showing the current gi/no-gi graph.";
-      list.appendChild(note);
-    }
     if (doc) {
       const sec = document.createElement("div");
-      sec.className = "ng-doc-body";
+      sec.className = "ng-doc-body" + (principle ? " ng-principle-body" : "");
       sec.setAttribute("data-concept-body", c.id);
       sec.innerHTML = doc;
       list.appendChild(sec);
     }
 
-    // The full authored page. A REAL anchor, because it leaves the app: the .md prose behind it is
-    // the reading surface this pane is not, and the panel must say so rather than imply it is all
-    // there is.
-    const page = document.createElement("a");
-    page.className = "ng-concept-page";
-    page.setAttribute("data-concept-page", c.id);
-    page.href = c.url;
-    page.style.pointerEvents = "auto";
-    page.innerHTML = "<span>Read the full page</span><i aria-hidden=\"true\">\u2197</i>";
-    list.appendChild(page);
+    if (!principle) {
+      const page = document.createElement("a");
+      page.className = "ng-concept-page";
+      page.setAttribute("data-concept-page", c.id);
+      page.href = c.url;
+      page.style.pointerEvents = "auto";
+      page.innerHTML = "<span>Read the full page</span><i aria-hidden=\"true\">\u2197</i>";
+      list.appendChild(page);
+    }
 
-    // ── the techniques this concept names, with the authored reason each one is here. The glue
-    //    is the same idea a System carries: a lit constellation with no reason attached is what
-    //    the six search shortcuts already were.
-    if (idxs.length) {
-      const head = document.createElement("div");
-      head.className = "ng-system-members-head";
-      head.innerHTML = '<span class="ng-system-kicker">On the graph</span><b>' + idxs.length + " lit</b>";
-      list.appendChild(head);
-      const roleFor = new Map();
-      for (const g of (body && Array.isArray(body.glue) ? body.glue : [])) {
-        for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
+    const renderRelated = () => {
+      const related = (body && Array.isArray(body.related) ? body.related : []).filter((rid) => this._conceptsById && this._conceptsById[rid]);
+      if (!related.length) return;
+      const section = document.createElement("section");
+      section.setAttribute("data-concept-related", c.id);
+      if (principle) {
+        section.className = "ng-concept-related";
+        section.innerHTML = "<h3>Related concepts</h3>";
+      } else section.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">Related concepts</span>', 12));
+      for (const rid of related) {
+        const r = this._conceptsById[rid];
+        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + E(r.name) + "</span>", principle ? 0 : 22, () => this.openConcept(rid));
+        row.setAttribute("data-concept-link", rid);
+        row.style.pointerEvents = "auto";
+        section.appendChild(row);
       }
-      const evidence = body && body.evidence;
-      if (evidence && Array.isArray(evidence.matches)) for (const [ordinal, mask] of evidence.matches) {
-        const nid = this._ordinalIndex().get(ordinal);
-        if (nid && !roleFor.has(nid)) {
-          const terms = (evidence.terms || []).filter((_, bit) => mask & (1 << bit));
-          roleFor.set(nid, terms.length ? "Uses or counters: " + terms.join(", ") + "." : "References this principle in its instruction.");
-        }
+      list.appendChild(section);
+    };
+    if (principle) renderRelated();
+
+    // Graph membership stays complete; the optional list only batches its navigation rows.
+    if (idxs.length) {
+      let members = list;
+      if (principle) {
+        members = document.createElement("details");
+        members.className = "ng-concept-techniques";
+        members.setAttribute("data-concept-disclosure", "techniques");
+        members.innerHTML = '<summary style="pointer-events:auto;">Explore techniques <span>(' + idxs.length + ")</span></summary>";
+        list.appendChild(members);
+      } else {
+        const head = document.createElement("div");
+        head.className = "ng-system-members-head";
+        head.innerHTML = '<span class="ng-system-kicker">On the graph</span><b>' + idxs.length + " lit</b>";
+        list.appendChild(head);
+      }
+      const roleFor = new Map();
+      for (const g of (!principle && body && Array.isArray(body.glue) ? body.glue : [])) {
+        for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
       }
       // Bound DOM work even when a principle covers the whole graph. The highlight always
       // contains every member; this limit only batches the browsable list.
       const limit = this._conceptMemberLimit || 60;
       for (const i of idxs.slice(0, limit)) {
         const n = this.nodes[i], qual = this.nodeQual(n);
-        const role = roleFor.get(n.id) || (body && body.applicability) || "";
+        const role = principle ? "" : roleFor.get(n.id) || (body && body.applicability) || "";
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
-            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + E(this.graphName(n)) +
             (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
-          22,
+          principle ? 0 : 22,
           () => this.openDossier(i),
         );
         row.setAttribute("data-concept-node", n.id);
         row.style.pointerEvents = "auto";
-        list.appendChild(row);
+        members.appendChild(row);
       }
       if (idxs.length > limit) {
         const more = document.createElement("button");
         more.type = "button";
-        more.className = "ng-concept-page";
+        more.className = principle ? "ng-concept-more" : "ng-concept-page";
         more.setAttribute("data-concept-more", c.id);
         more.textContent = "Show more techniques (" + limit + " of " + idxs.length + ")";
         more.style.pointerEvents = "auto";
@@ -9726,23 +9802,22 @@ class Component extends DCLogic {
           this.renderExplorer();
           list.scrollTop = scroll;
         };
-        list.appendChild(more);
+        members.appendChild(more);
       }
     }
 
-    // ── concept-to-concept links. These are the ~440 references build_systems could only count
-    //    and discard (they are pages, never graph nodes); here they are the navigation a reader
-    //    actually follows, and the emitter resolved each one against the payload it emitted, so
-    //    a link can never point at a row that does not exist.
-    const related = (body && Array.isArray(body.related) ? body.related : []).filter((rid) => this._conceptsById && this._conceptsById[rid]);
-    if (related.length) {
-      list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">Related concepts</span>', 12));
-      for (const rid of related) {
-        const r = this._conceptsById[rid];
-        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + E(r.name) + "</span>", 22, () => this.openConcept(rid));
-        row.setAttribute("data-concept-link", rid);
-        row.style.pointerEvents = "auto";
-        list.appendChild(row);
+    if (!principle) renderRelated();
+    if (principle) {
+      // Hydration, ruleset changes and pagination can rebuild this pane. Keep each fold's
+      // current choice until openConcept starts a new reading visit.
+      const open = this._conceptDisclosureOpen || (this._conceptDisclosureOpen = {});
+      for (const details of list.querySelectorAll("[data-concept-disclosure]")) {
+        const key = details.getAttribute("data-concept-disclosure");
+        details._conceptDisclosureState = open;
+        details.open = !!open[key];
+        details.ontoggle = () => {
+          if (details.isConnected && this._conceptId === id) open[key] = details.open;
+        };
       }
     }
 
@@ -9770,6 +9845,7 @@ class Component extends DCLogic {
   isMobile() { return (this.W || window.innerWidth) <= 640; }
   openDossier(idx, skipCam) {
     this._stopSystemPreview();
+    this._stopConceptFilm();
     this._dropExpiryEvent(); // reading a node — the expiry sentence lets go (v1.138.0)
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away

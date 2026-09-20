@@ -155,6 +155,18 @@ for path in files:
 wire = json.loads((root/'source/quartz/static/neural/graph-data.json').read_text())
 with contextlib.redirect_stdout(io.StringIO()):
     index, bodies = build_concepts([n['id'] for n in wire['nodes']])
+# The card and its disclosures must retain all of the concise authored reading content.
+by_name = {c['name']: c for c in index['concepts'] if c['cat'] == 'Principle'}
+for path in files:
+    data = json.loads(path.read_text())
+    concept = by_name[data['name']]
+    body = bodies[concept['key']]
+    assert concept['summary'] == data['summary'], path
+    assert body['overview'] == data['overview'], path
+    assert body['points'] == data['key_principles'], path
+    assert body['contexts'] == [{'c': x['context'], 'how': x['how_applied']} for x in data['application_contexts']], path
+    assert body['errors'] == [{'err': x['error'], 'why': x['consequence'], 'fix': x['correction']} for x in data['common_errors']], path
+    assert body['drills'] == [{'name': x['approach_name'], 'how': x['description'], 'focus': x['focus']} for x in data['training_approaches']], path
 raw = lambda d: len(json.dumps(d, ensure_ascii=False, separators=(',', ':')).encode())
 systems = json.loads((root/'source/quartz/static/neural/systems.json').read_text())
 assert raw(index) + raw(systems) <= 500000, raw(index) + raw(systems)

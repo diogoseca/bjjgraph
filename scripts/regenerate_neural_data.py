@@ -2044,6 +2044,13 @@ def _concept_body(data: dict, cat: str) -> dict:
     """The readable dossier for one concept, normalised out of whichever template authored it."""
     spec = CONCEPT_FIELDS[cat]
     body: dict = {}
+    if cat == "Principle":
+        from _neural_content import _clips
+        # Keep videos in the body fetched on demand, never in the concept index. Stable
+        # ordering puts Shorts first without disturbing the curator's order within a format.
+        clips = sorted(_clips(data.get("clips")), key=lambda c: not c.get("vertical", False))
+        if clips:
+            body["clips"] = clips
     ov = _clip((data.get("overview") or "").strip(), OVERVIEW_CAP)
     if ov:
         body["overview"] = ov
@@ -2287,7 +2294,8 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             "name": name,
             "cat": cat,
             "url": f"/{page}",
-            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            # Principle definitions fit their authoring schema and must reach the card whole.
+            "summary": _clip(data.get("summary") or data.get("description") or "", 260 if cat == "Principle" else SUMMARY_CAP),
             "meta": _clip(" · ".join(
                 x for x in ((data.get("application_level") or "").strip(),
                             (data.get("complexity_level") or "").strip(),

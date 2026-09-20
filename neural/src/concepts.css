@@ -120,8 +120,7 @@
   font-style: normal;
 }
 
-/* The way OUT of the pane. The pane holds the concept's spine; the authored page holds ~40KB of
-   prose per principle that no payload here carries, and the panel has to say so. */
+/* Legacy Learning page link and its pagination control. */
 .ng-concept-page {
   display: flex;
   align-items: center;
@@ -158,6 +157,203 @@
   color: #8b97b0;
   font-size: 11px;
   line-height: 1.45;
+}
+
+/* Principle pages: group each explanation with its label, and separate whole sections. */
+.ng-concept-detail[data-concept-cat="Principle"] {
+  hyphens: none;
+  gap: 12px;
+  margin: 4px 3px 18px;
+  padding: 18px 15px;
+  background: rgba(102, 204, 238, 0.035);
+  border-color: rgba(102, 204, 238, 0.18);
+}
+
+.ng-concept-detail[data-concept-cat="Principle"] h2 {
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+.ng-concept-detail[data-concept-cat="Principle"] p {
+  color: #c4cde0;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.ng-concept-detail[data-concept-cat="Principle"] .ng-concept-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.ng-concept-detail[data-concept-cat="Principle"] .ng-concept-meta span {
+  padding: 4px 7px;
+  border-radius: 5px;
+  background: rgba(102, 204, 238, 0.075);
+}
+
+.ng-principle-body {
+  hyphens: none;
+  margin: 0 8px;
+  color: #a9b5cb;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.ng-concept-film {
+  min-width: 0;
+  margin: 0 8px 20px;
+}
+
+.ng-concept-film .ng-cliprow {
+  position: relative;
+  overscroll-behavior-x: contain;
+}
+
+.ng-concept-film .ng-clip:focus-visible {
+  outline: 2px solid #66ccee;
+  outline-offset: -3px;
+}
+
+.ng-principle-body > p {
+  margin: 0 0 22px;
+}
+
+.ng-doc-section,
+.ng-concept-related,
+.ng-concept-techniques {
+  margin: 22px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(150, 170, 210, 0.17);
+}
+
+.ng-principle-body .ng-doc-section h3,
+.ng-concept-related h3 {
+  margin: 0 0 12px;
+  color: #e0e7f3;
+  font: 700 14px/1.35 "Plus Jakarta Sans", sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.ng-principle-body ul {
+  gap: 9px;
+}
+
+.ng-principle-body dl {
+  gap: 15px;
+}
+
+.ng-principle-body dt {
+  font-size: 13px;
+}
+
+.ng-principle-body dd {
+  margin: 4px 0 0;
+  color: #a6b2c8;
+  font-size: 12.5px;
+  line-height: 1.6;
+}
+
+.ng-principle-body dd em {
+  color: #8e9bb3;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.ng-doc-more {
+  margin-top: 5px;
+}
+
+.ng-doc-more > summary,
+.ng-concept-techniques > summary,
+.ng-concept-more {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 4px 0;
+  color: #91cde4;
+  font: 600 12px/1.4 "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.ng-doc-more > summary::-webkit-details-marker,
+.ng-concept-techniques > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ng-doc-more > summary::after,
+.ng-concept-techniques > summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.ng-doc-more[open] > summary::after,
+.ng-concept-techniques[open] > summary::after {
+  content: "−";
+}
+
+.ng-doc-more > summary:hover,
+.ng-concept-techniques > summary:hover,
+.ng-concept-more:hover {
+  color: #d5f2ff;
+}
+
+.ng-doc-more > summary:focus-visible,
+.ng-concept-techniques > summary:focus-visible,
+.ng-concept-more:focus-visible {
+  outline: 2px solid #91cde4;
+  outline-offset: 3px;
+}
+
+.ng-doc-more .ng-doc-collapse,
+.ng-doc-more[open] .ng-doc-expand {
+  display: none;
+}
+
+.ng-doc-more[open] .ng-doc-collapse {
+  display: inline;
+}
+
+.ng-doc-more[open] > ul,
+.ng-doc-more[open] > dl {
+  margin-top: 7px;
+}
+
+.ng-concept-related,
+.ng-concept-techniques {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.ng-concept-related [data-concept-link] {
+  min-height: 36px;
+}
+
+.ng-concept-techniques > summary {
+  color: #c4cde0;
+  font-size: 13px;
+}
+
+.ng-concept-techniques > summary > span {
+  color: #8e9bb3;
+  font-weight: 400;
+}
+
+.ng-concept-more {
+  margin-top: 8px;
+  border: 0;
+  background: transparent;
+  text-align: left;
 }
 
 /* On a phone a principle is read alongside its graph. The marker is removed by clearFocus
