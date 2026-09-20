@@ -287,7 +287,7 @@ into `source/public/static/neural/`; the loader uses `/static/neural/` as the da
 | `flashcards/<hash>.json` | Cards for a requested deck | On demand |
 | `content/<hash>.json` | Technique/position dossier or reference-page body | On demand |
 | `submission-details/<hash>.json` | Submission responses and explanations | On submission entry |
-| `systems.json`, `concepts.json` | Reference indexes and graph memberships | On first use |
+| `systems.json`, `concepts.json` | Reference indexes, graph memberships, and compact System previews | On first use |
 | `aliases.json` | Exact site ID to own and family alias metadata | Explore/search intent |
 
 Chunk addressing uses `fnv1a32` in [_neural_content.py](../scripts/_neural_content.py), matching
@@ -563,7 +563,7 @@ These are available commands, not a claim that every workflow runs every check:
 | `npm run validate:curriculum` / `validate:mc` | Curriculum integrity and multiple-choice viability |
 | `npm run validate:schema` / `validate:seo` | Schema-markup parsing and built crawlable-surface checks |
 | `npm run validate:headers` / `validate:payload` | Emitted headers and payload budgets |
-| `npm run validate:affiliate` | Disclosure and verified-link surface rules |
+| `npm run validate:affiliate` | Verified links, referral state, and retired-notice removal |
 | `npm run validate:analytics` / `validate:analytics:nokey` | Built analytics injection and the independent keyless fixture |
 | `npm run validate:forward` | Catalog fixture rendering |
 | `npm run test:units` | Root Node unit suites |

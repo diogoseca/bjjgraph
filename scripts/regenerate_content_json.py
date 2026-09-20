@@ -1145,8 +1145,11 @@ summary. Optional alternatives use exact existing System names and specific reas
 Preserve source evidence and verification dates unless actually rechecked. Sources render last.
 Optional legacy sections and flashcards have no quotas; delete unsupported repetitive scaffolding.
 Do not add/remove/modify products; omit them from output (the save path restores curated data).
-Preview is optional: exact official allowlisted URL, autoplay/preload disabled, no guessed IDs.
-Only actual playback checks justify playback_verified_on. Page access is not playback evidence.
+Preview is optional: use the exact official product introduction or primary trailer, never a
+guessed ID or an unrelated sample. Preserve the published allowlisted embed URL; the player
+applies muted autoplay. When no exact intro is available, keep the verified product cover.
+Only actual playback checks justify playback_verified_on; it is audit evidence, not a player
+visibility gate. Page access is not playback evidence.
 
 Valid references:
 Positions: {positions_list}

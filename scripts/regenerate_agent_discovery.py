@@ -72,10 +72,9 @@ def render(node, canonical, pre=False):
         return ''
     text = "".join(render(child, canonical, pre or tag == "pre") for child in children)
     if tag == 'a' and (attrs.get('data-course-url') or attrs.get('data-source-url')):
-        from apply_affiliate_ref import tag_html, disclosure
-        note = '<p class="affiliate-disclosure">' + escape(disclosure()) + '</p>' if attrs.get('data-affiliate') == 'true' else ''
+        from apply_affiliate_ref import tag_html
         label = ' '.join(re.sub(r'(?m)^#{1,6}\s+', '', text.strip()).split())
-        return '\n\n<section data-course-container>' + note + tag_html('a', attrs) + escape(label) + '</a></section>\n\n'
+        return '\n\n<section data-course-container>' + tag_html('a', attrs) + escape(label) + '</a></section>\n\n'
 
     if tag in {"h1", "h2", "h3", "h4", "h5", "h6"}:
         return f"\n\n{'#' * int(tag[1])} {text.strip()}\n\n"

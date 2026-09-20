@@ -34,8 +34,8 @@ generated+committed static asset):
     addressed by `key` = "<Name>|<Principle|Learning>", so the app reads it through the same
     _ngc() cache as a node dossier. Deferred: nothing on the roll path fetches it.
   - systems.json : compact searchable Systems library with stable names/IDs, display titles,
-    aliases, graph membership and neutral verified products. Rich guide evidence/media and
-    resolvable non-graph references live only in deferred System dossiers. Referral activation
+    aliases, graph membership, neutral verified products and compact opening-preview metadata.
+    Rich guide evidence and non-graph references live only in deferred System dossiers. Referral activation
     is an emitted-artifact postbuild step, never source content.
   - aliases.json : deferred exact site-id -> {aka:[], family?:{name,aka:[]}} index.
     Own aliases and inherited family aliases retain provenance; no graph wire changes.
@@ -51,7 +51,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from _system_guides import canonical_course_url, related_references, resolved_guide
+from _system_guides import canonical_course_url, compact_preview, related_references, resolved_guide
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
@@ -1660,7 +1660,7 @@ def _products(data: dict, sys_name: str) -> list[dict]:
             "affiliate": False,
             "id": (p.get("id") or "").strip(),
             "vendor": (p.get("vendor") or "BJJFanatics").strip(),
-            **{field: p[field].strip() for field in ("blurb", "best_for", "study_focus", "practice_tip")
+            **{field: p[field].strip() for field in ("image", "blurb", "best_for", "study_focus", "practice_tip")
                if isinstance(p.get(field), str) and p[field].strip()},
         })
     return out
@@ -1675,11 +1675,11 @@ def _products(data: dict, sys_name: str) -> list[dict]:
 #
 # It ships the SAME WAY a concept body does (build_concepts, below), for the same reason: the
 # INDEX (systems.json, deferred, shared 500,000-byte ceiling with concepts.json) carries what the
-# LIST and the graph HIGHLIGHT need, and everything only the OPEN PANEL reads rides in a dossier
+# LIST and the graph HIGHLIGHT need, plus the compact preview needed immediately on opening.
+# Other fields only the OPEN PANEL reads ride in a dossier
 # chunk in the per-node content/ chunk space, keyed "<Name>|System" and fetched through the SAME
 # window.NG_CONTENT chunk cache a node dossier uses (app.src.jsx `_docBody` -> `_hydrateContent`).
-# So systems.json grows by the `key` that addresses the body and by nothing else (+2,124 B across
-# the 47), and the boot payload does not grow at all.
+# Rich source evidence stays in that body; media cannot wait for its fetch to finish.
 #
 # `|System` keeps the key out of the technique key space (bare display names) and out of the
 # concepts' `|Principle` / `|Learning` space; write_ng_chunks() refuses a collision rather than
@@ -1903,6 +1903,7 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
         ]
 
         prods = _products(data, name)
+        preview = compact_preview(data) if prods else None
         n_products += len(prods)
         # THE BODY, and the same duplicate-key rule the concept bodies carry: two files authoring
         # one `name` would share this slot and last-write-wins would ship one System's prose under
@@ -1931,6 +1932,7 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
             "glue": glue,
             "unresolved": unresolved,
             "products": prods,
+            **({"preview": preview} if preview else {}),
         })
 
     return {

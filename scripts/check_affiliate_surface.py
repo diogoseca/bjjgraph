@@ -6,7 +6,6 @@ keyless builds. This offline gate checks declared verification, not vendor avail
 """
 import argparse
 import datetime as dt
-from html import unescape
 import json
 from pathlib import Path
 import re
@@ -15,26 +14,18 @@ from urllib.parse import parse_qs, urlsplit
 from _system_guides import canonical_course_url, is_bjjfanatics_url
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DOC = PROJECT_ROOT / 'CLAUDE.md'
 SYSTEMS_DIR = PROJECT_ROOT / 'content/Systems'
 GRAPH = PROJECT_ROOT / 'graph.json'
 PUBLIC = PROJECT_ROOT / 'source/public'
-DOC_START = '<!-- CANONICAL-DISCLOSURE:START -->'
-DOC_END = '<!-- CANONICAL-DISCLOSURE:END -->'
 STALE_DAYS = 180
-
-
-def canonical_disclosure():
-    return DOC.read_text().split(DOC_START)[1].split(DOC_END)[0].strip()
 
 
 def check_html(text, label, errors, built=False, ref=''):
     from apply_affiliate_ref import read_tag, affiliate_url, neutral_legacy_url, is_system_guide_html
-    canon = canonical_disclosure()
     system_guide = is_system_guide_html(text)
     if re.search(r'(?:href|data-(?:course|source)-url)\s*=\s*["\'][^"\']*REPLACE_ME', text, re.I):
         errors.append(f'{label}: displayed placeholder URL')
-    marked = active_count = 0
+    marked = 0
     for match in re.finditer(r'<a\b[^>]*>', text, re.I):
         attrs = read_tag(match[0])
         canonical = attrs.get('data-course-url') or attrs.get('data-source-url')
@@ -58,15 +49,9 @@ def check_html(text, label, errors, built=False, ref=''):
                 errors.append(f'{label}: unmarked outgoing link carries tracking')
         if not active and ('sponsored' in attrs.get('rel', '').split() or attrs.get('data-affiliate') == 'true'):
             errors.append(f'{label}: affiliate promotion without configured canonical link')
-        if active:
-            active_count += 1
-            before = text[:match.start()]
-            notice = re.search(r'<span class="affiliate-disclosure">([^<]*)</span>\s*$', before)
-            if not notice or unescape(notice[1]) != canon:
-                errors.append(f'{label}: active link lacks proximate canonical disclosure')
     notices = re.findall(r'<(?:span|p)\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>', text)
-    if len(notices) != active_count or (canon in text and not active_count):
-        errors.append(f'{label}: disclosure count disagrees with active links')
+    if notices:
+        errors.append(f'{label}: retired affiliate disclosure remains')
     return marked
 
 

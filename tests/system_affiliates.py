@@ -19,6 +19,8 @@ import regenerate_neural_data as neural
 import check_affiliate_surface as gate
 from regenerate_agent_discovery import ArticleParser, render as discovery_render
 
+LEGACY_DISCLOSURE = 'Affiliate link — BJJGraph may earn a commission.'
+
 
 class SystemAffiliates(unittest.TestCase):
     def setUp(self):
@@ -32,6 +34,7 @@ class SystemAffiliates(unittest.TestCase):
     def assert_gate(self, text, ref=''):
         errors=[]; count=gate.check_html(text, 'fixture', errors, bool(ref), ref)
         self.assertGreater(count,0); self.assertEqual(errors,[])
+        self.assertNotIn('affiliate-disclosure',text);self.assertNotIn(LEGACY_DISCLOSURE,text)
 
     def test_neutral_source_course_order_and_single_overview(self):
         text=self.render()
@@ -73,7 +76,6 @@ class SystemAffiliates(unittest.TestCase):
                 self.assert_gate(page.read_text(),ref)
                 self.assertEqual(gzip.decompress(sibling.read_bytes()).decode(),page.read_text())
                 before=page.read_bytes(); self.assertEqual(affiliate.stamp(page,ref),0); self.assertEqual(page.read_bytes(),before)
-                self.assertEqual(page.read_text().count(gate.canonical_disclosure()),3 if ref else 0)
             sibling.write_bytes(gzip.compress(b'stale'))
             self.assertEqual(affiliate.stamp(page,''),1)
             self.assertEqual(gzip.decompress(sibling.read_bytes()).decode(),page.read_text())
@@ -88,7 +90,7 @@ class SystemAffiliates(unittest.TestCase):
             url=urlsplit(attrs['href']); self.assertEqual(url.path,urlsplit(canonical).path)
             query=parse_qs(url.query);self.assertEqual(query['rfsn'],['12345.test']);self.assertEqual(query['utm_content'],['gordon-ryan-mount-control-system'])
             for param in ('ref','rfsn'):
-                stale=f'<section data-system-guide><p class="affiliate-disclosure">{gate.canonical_disclosure()}</p><a data-affiliate="true" rel="sponsored" href="{canonical}?{param}=REPLACE_ME">Course</a></section>'
+                stale=f'<section data-system-guide><p class="affiliate-disclosure">{LEGACY_DISCLOSURE}</p><a data-affiliate="true" rel="sponsored" href="{canonical}?{param}=REPLACE_ME">Course</a></section>'
                 for ref in ('','12345.test'):
                     route.write_text(stale); affiliate.stamp(route,ref)
                     output=route.read_text();self.assertNotIn('REPLACE_ME',output);self.assert_gate(output,ref)
@@ -110,13 +112,29 @@ class SystemAffiliates(unittest.TestCase):
 
     def test_discovery_export_after_stamp_remains_resolvable(self):
         html=affiliate.resolve_html(self.render(),'12345.test')
+        # Discovery may read an old stamped page before the final resolver runs.
+        html=f'<p class="affiliate-disclosure">{LEGACY_DISCLOSURE}</p>'+html+f'<span class="affiliate-disclosure">{LEGACY_DISCLOSURE}</span>'
         parser=ArticleParser();parser.feed('<article>'+html+'</article>')
         markdown=discovery_render(parser.article,'https://bjjgraph.org/Systems/Fixture-System')
-        self.assertIn('data-course-url',markdown);self.assertIn(gate.canonical_disclosure(),markdown)
+        self.assertIn('data-course-url',markdown);self.assertNotIn(LEGACY_DISCLOSURE,markdown)
         self.assertNotIn('Start here:',markdown);self.assertIn('Sources',markdown);self.assertIn('data-source-url',markdown)
         for ref in ('12345.test','67890.rotated',''):
             markdown=affiliate.resolve_html(markdown,ref);self.assert_gate(markdown,ref)
-            self.assertEqual(markdown.count(gate.canonical_disclosure()),3*int(bool(ref)))
+
+    def test_static_player_assets_are_published_with_fresh_gzip(self):
+        assets={'system-guide-media.js':'scripts/system_guide_media.js',
+                'system-preview.js':'neural/src/system-preview.src.js',
+                'system-guide.css':'scripts/system_guide.css'}
+        with tempfile.TemporaryDirectory() as tmp:
+            public=Path(tmp);static=public/'static';static.mkdir()
+            for name in assets:
+                (static/(name+'.gz')).write_bytes(gzip.compress(b'stale'))
+            with patch.object(affiliate,'PUBLIC_DIR',public),patch.object(affiliate,'targets',return_value=[]),patch.object(affiliate,'configured_ref',return_value=''),patch.object(sys,'argv',['apply_affiliate_ref.py']):
+                affiliate.main()
+            for name,source in assets.items():
+                expected=(ROOT/source).read_bytes()
+                self.assertEqual((static/name).read_bytes(),expected)
+                self.assertEqual(gzip.decompress((static/(name+'.gz')).read_bytes()),expected)
 
     def test_built_gate_checks_final_discovery_markdown_and_json_with_positive_coverage(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -186,7 +204,7 @@ class SystemAffiliates(unittest.TestCase):
         for marker in ('data-course-url','data-source-url'):
             copied=plain.replace('rel="noopener"',f'{marker}="{canonical}" rel="noopener"')
             active=affiliate.resolve_html(copied,'12345.test');self.assert_gate(active,'12345.test')
-            self.assertIn('rfsn=12345.test',active);self.assertIn(gate.canonical_disclosure(),active)
+            self.assertIn('rfsn=12345.test',active);self.assertNotIn(LEGACY_DISCLOSURE,active)
         system=plain.replace('<article>','<article data-system-guide>')
         active=affiliate.resolve_html(system,'12345.test');self.assert_gate(active,'12345.test')
         self.assertIn('data-source-url=',active);self.assertIn('variant=7',active)
@@ -200,17 +218,18 @@ class SystemAffiliates(unittest.TestCase):
         data['guide']['preview']={'provider':'youtube','embed_url':'https://www.youtube-nocookie.com/embed/abcdefghijk?autoplay=0','source_id':'listing','title':'Official sample','kind':'sample','checked_on':'2026-09-01','content_reviewed':False,'playback_verified_on':['https://bjjgraph.org']}
         data['related_content']=[{'name':'Guard','content_type':'Position','relationship':'Related position reference; graph linkage does not establish inclusion in the course.'}, {'name':'Sweep','content_type':'Transition','relationship':'Distinct context for the published sweep chapter.'}]
         html=self.render(data)
-        self.assertEqual(html.count('data-course-url='),3)
+        self.assertEqual(html.count('data-course-url='),2)
         self.assertNotIn('graph linkage does not establish',html);self.assertIn('Distinct context',html)
         self.assertIn('2 related references (techniques and positions)',html)
         self.assertIn('<details><summary>Sources',html);self.assertIn('Expand for evidence',html)
         html=affiliate.resolve_html(html,'12345.test');self.assert_gate(html,'12345.test')
         anchors=[affiliate.read_tag(a) for a in re.findall(r'<a\b[^>]*>',html) if 'data-course-url=' in a]
         self.assertEqual(len({a['href'] for a in anchors}),1)
-        self.assertEqual([a['data-placement'] for a in anchors],['top','mid','end'])
+        self.assertEqual([a['data-placement'] for a in anchors],['top','end'])
         top=re.search(r'<a[^>]*data-placement="top"[^>]*>(.*?)</a>',html,re.S)[1]
-        self.assertIn('<h2>'+data['products'][0]['title']+'</h2>',top)
-        self.assertEqual(html.count(gate.canonical_disclosure()),4) # three CTAs and one source
+        self.assertEqual(top,'View course on BJJ Fanatics')
+        course=re.search(r'<section[^>]*data-course-placement="top"[^>]*>(.*?)</section>',html,re.S)[1]
+        self.assertIn('<h2>'+data['products'][0]['title']+'</h2>',course)
 
     def test_static_related_guides_filter_stock_text_and_keep_editorial_links(self):
         refs=[{'name':'Half guard: positional overview','source_name':'Andrew Wiltse Half Guard System','type':'System','url':'/Systems/Andrew-Wiltse-Half-Guard-System','relationship':'Andrew Wiltse Half Guard System: related system study, separate from the source syllabus.'}, {'name':'Frames','source_name':'Frames','type':'Principle','url':'/Principles/Frames','relationship':'Specific framing context for the underhook sequence.'}]
@@ -244,7 +263,7 @@ class SystemAffiliates(unittest.TestCase):
 
     def test_gate_rejects_mutants_and_requires_positive_built_coverage(self):
         html=affiliate.resolve_html(self.render(),'12345.test')
-        for mutant in (html+'<a href="https://bjjfanatics.com/blogs/post">Unstamped</a>',html.replace(gate.canonical_disclosure(),'Changed sentence'),html.replace('sponsored nofollow noopener','noopener'),html.replace('rfsn=12345.test','rfsn=REPLACE_ME')):
+        for mutant in (html+'<a href="https://bjjfanatics.com/blogs/post">Unstamped</a>',html+f'<span class="affiliate-disclosure">{LEGACY_DISCLOSURE}</span>',html.replace('sponsored nofollow noopener','noopener'),html.replace('rfsn=12345.test','rfsn=REPLACE_ME')):
             errors=[];gate.check_html(mutant,'mutant',errors,True,'12345.test');self.assertTrue(errors)
         errors=[]
         with patch.object(affiliate,'targets',return_value=[]):gate.check_built(errors,'')

@@ -332,6 +332,8 @@ mkdirSync(R("dist"), { recursive: true });
 await build({
   entryPoints: [R("build/.tmp/entry.tsx")],
   bundle: true,
+  // Load the shared player only when a System is opened.
+  external: ["/static/system-preview.js"],
   format: "iife",
   target: "es2019",
   minify: true,

@@ -30,11 +30,6 @@ REF_RE = re.compile(r'[A-Za-z0-9][A-Za-z0-9._~-]{0,63}')
 PLACEHOLDER_RE = re.compile(r'REPLACE_ME', re.I)
 
 
-def disclosure():
-    text = (PROJECT_ROOT / 'CLAUDE.md').read_text()
-    return text.split('<!-- CANONICAL-DISCLOSURE:START -->')[1].split('<!-- CANONICAL-DISCLOSURE:END -->')[0].strip()
-
-
 def configured_ref():
     if 'AFFILIATE_REF' in os.environ:
         return os.environ['AFFILIATE_REF']
@@ -126,6 +121,7 @@ def resolve_html(text, ref):
     # markers still resolve in copied snippets and discovery on any surface.
     system_guide = is_system_guide_html(text)
     text = neutralize_unmarked_text(text)
+    # Clean pages emitted before inline commission notices were retired.
     text = re.sub(r'<(p|span)\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>.*?</\1>', '', text, flags=re.S | re.I)
     def anchor(match):
         raw = match[0]; attrs = read_tag(raw)
@@ -140,8 +136,7 @@ def resolve_html(text, ref):
                 raise ValueError('Invalid canonical outbound URL in emitted anchor')
             attrs.update(href=url, rel='sponsored nofollow noopener' if active else 'noopener')
             attrs['data-affiliate'] = 'true' if active else 'false'
-            notice = '<span class="affiliate-disclosure">' + escape(disclosure()) + '</span>' if active else ''
-            return notice + tag_html('a', attrs)
+            return tag_html('a', attrs)
         if PLACEHOLDER_RE.search(href) or attrs.get('data-affiliate') == 'true':
             attrs['href'] = neutral_legacy_url(href)
             attrs['data-affiliate'] = 'false'; attrs['rel'] = 'noopener'
@@ -234,6 +229,9 @@ def main():
             destination.parent.mkdir(parents=True, exist_ok=True)
             atomic_write_text(destination, (PROJECT_ROOT / 'scripts/system_guide_media.js').read_text())
             stamp(destination, ref)  # Refresh an existing compressed sibling after copying.
+            preview = PUBLIC_DIR / 'static/system-preview.js'
+            atomic_write_text(preview, (PROJECT_ROOT / 'neural/src/system-preview.src.js').read_text())
+            stamp(preview, ref)
             stylesheet = PUBLIC_DIR / 'static/system-guide.css'
             atomic_write_text(stylesheet, (PROJECT_ROOT / 'scripts/system_guide.css').read_text())
             stamp(stylesheet, ref)
