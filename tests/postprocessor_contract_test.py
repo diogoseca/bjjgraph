@@ -2,9 +2,19 @@
 
 Kills: every one of the eleven index literal shapes; SVG/document-title confusion;
 missing/duplicate articles; sitemap zero/below-floor/missing target; missing noindex
-and missing source coverage; unknown article-free artifacts. No surviving seeded
-mutants. Marker preservation belongs to system_affiliates.py, not this gate.
+and missing source coverage; unknown article-free artifacts. Claims refer to the
+named seeded cases; exclusions and non-kills follow. Marker preservation belongs
+to system_affiliates.py, not this gate.
 The unchanged share-shell is also executed; this is not a copied renderer.
+
+Publication classifier scope: BOTH dates remain required. Partial publication
+absence is a real failure; sole source-pinned whole-corpus absence is pending (2),
+never conformity (0). The original eleven-row index assertions remain required.
+Known limitations/NON-KILLS: an exact revert of the pinned producer bytes can
+reactivate pending until X-01 DELETES that branch. Source-index completeness is
+B's contract; jointly removing an index key and its page metadata is outside this
+F gate. Date value correctness and provenance belong to Head/date tests. These
+limitations are not claimed as mutation kills or end-state acceptance.
 
 D-51 scope: PostprocessorFreshOutputTest drives tiny fresh-output fixtures through
 unchanged headers/redirects/llms scripts, and discovery's actual error branches.
@@ -25,6 +35,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECK = ROOT / 'scripts/check_postprocessor_contract.py'
+sys.path.insert(0, str(ROOT / 'scripts'))
+import check_postprocessor_contract as postprocessor_contract
 INDEX = '''<!DOCTYPE html><html><head><meta charset="utf-8"/>
 <title>Study BJJ</title><link rel="canonical" href="https://bjjgraph.org/"/>
 <meta property="og:title" content="Study BJJ"/>
@@ -37,6 +49,11 @@ INDEX = '''<!DOCTYPE html><html><head><meta charset="utf-8"/>
 <meta property="article:published_time" content="2026-09-20T00:00:00Z"/>
 <meta property="article:modified_time" content="2026-09-20T01:00:00Z"/>
 </head><body><svg><title>Search</title></svg><article>Study.</article></body></html>'''
+
+
+PUBLISHED_TAG = '<meta property="article:published_time" content="2026-09-20T00:00:00Z"/>'
+MODIFIED_TAG = '<meta property="article:modified_time" content="2026-09-20T01:00:00Z"/>'
+DATED_HEAD = '<head>' + PUBLISHED_TAG + MODIFIED_TAG + '</head>'
 
 
 class PostprocessorContractTest(unittest.TestCase):
@@ -52,15 +69,19 @@ class PostprocessorContractTest(unittest.TestCase):
         for stem in ('Game Over', 'Tree'):
             (cls.content / (stem + '.md')).write_text('\n---\nnoindex: true\n---\nPrivate')
             (cls.public / (stem.replace(' ', '-') + '.html')).write_text(
-                '<meta name="robots" content="noindex, follow"/><article>Private</article>')
+                DATED_HEAD.replace('</head>', '<meta name="robots" content="noindex, follow"/></head>') + '<article>Private</article>')
         cls.urls = ['https://bjjgraph.org/']
         (cls.public / 'Positions').mkdir()
         for n in range(3999):
             relative = f'Positions/P{n}'
-            (cls.public / (relative + '.html')).write_text('<article>A position</article>')
+            (cls.public / (relative + '.html')).write_text(DATED_HEAD + '<article>A position</article>')
             cls.urls.append('https://bjjgraph.org/' + relative)
         cls.sitemap = '<urlset>' + ''.join(f'<url><loc>{url}</loc></url>' for url in cls.urls) + '</urlset>'
         (cls.public / 'sitemap.xml').write_text(cls.sitemap)
+        cls.source_slugs = ['index', 'Tree', 'Game-Over'] + [f'Positions/P{n}' for n in range(3999)]
+        cls.eligible_paths = [cls.public / (slug + '.html') for slug in cls.source_slugs]
+        (cls.public / 'static').mkdir()
+        (cls.public / 'static/contentIndex.json').write_text(json.dumps({slug: {} for slug in cls.source_slugs}))
 
     @classmethod
     def tearDownClass(cls):
@@ -87,6 +108,290 @@ class PostprocessorContractTest(unittest.TestCase):
         for count in ('11 literal shapes', '4000 sitemap URLs', '4002 article pages', '2 noindex pages'):
             self.assertIn(count, result.stdout)
         self.assertIn('check_affiliate_surface.py --built', result.stdout)
+
+    def test_all_eligible_publications_absent_is_expected_pending(self):
+        originals = {path: path.read_text() for path in self.eligible_paths}
+        try:
+            for path, original in originals.items():
+                self.assertEqual(original.count(MODIFIED_TAG), 1)
+                self.assertEqual(original.count(PUBLISHED_TAG), 1)
+                path.write_text(original.replace(PUBLISHED_TAG, ''))
+            result = self.run_gate()
+            self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
+            self.assertIn('POSTPROCESSOR_CONTRACT_RESULT=pending', result.stdout.splitlines())
+            self.assertIn('EXPECTED PENDING', result.stderr)
+            self.assertIn('pending git-derived publication', result.stderr)
+            self.assertIn('10/11', result.stderr)
+            self.assertIn('0/4002', result.stdout)
+            self.assertIn('modified: 4002/4002', result.stdout)
+            self.assertNotIn('REAL FAILURE', result.stderr)
+        finally:
+            for path, original in originals.items():
+                path.write_text(original)
+
+    def assert_classifier(self, result, state):
+        code = {'conforms': 0, 'failure': 1, 'pending': 2}[state]
+        self.assertEqual(result.returncode, code, result.stdout + result.stderr)
+        verdicts = [line for line in result.stdout.splitlines()
+                    if line.startswith('POSTPROCESSOR_CONTRACT_RESULT=')]
+        self.assertEqual(verdicts, ['POSTPROCESSOR_CONTRACT_RESULT=' + state])
+        if state == 'failure':
+            self.assertIn('REAL FAILURE', result.stderr)
+            self.assertNotIn('EXPECTED PENDING', result.stderr)
+        elif state == 'pending':
+            self.assertIn('EXPECTED PENDING', result.stderr)
+            self.assertNotIn('REAL FAILURE', result.stderr)
+        else:
+            self.assertEqual(result.stderr, '')
+
+    def without_all_publications(self):
+        originals = {path: path.read_text() for path in self.eligible_paths}
+        for path, original in originals.items():
+            self.assertEqual(original.count(PUBLISHED_TAG), 1)
+            path.write_text(original.replace(PUBLISHED_TAG, ''))
+        return originals
+
+    def restore_pages(self, originals):
+        for path, original in originals.items():
+            path.write_text(original)
+
+    def test_all_publications_present_is_conforming(self):
+        result = self.run_gate()
+        self.assert_classifier(result, 'conforms')
+        self.assertIn('11 literal shapes', result.stdout)
+        self.assertIn('4002/4002', result.stdout)
+        self.assertIn('modified: 4002/4002', result.stdout)
+
+    def test_partial_publication_in_either_direction_is_real_failure(self):
+        for relative in ('index.html', 'Positions/P0.html'):
+            with self.subTest(missing_only=relative):
+                path = self.public / relative
+                original = path.read_text()
+                try:
+                    path.write_text(original.replace(PUBLISHED_TAG, ''))
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'failure')
+                    self.assertIn('publication-coverage', result.stderr)
+                    self.assertIn('4001/4002', result.stdout)
+                finally:
+                    path.write_text(original)
+        originals = self.without_all_publications()
+        try:
+            (self.public / 'index.html').write_text(originals[self.public / 'index.html'])
+            result = self.run_gate()
+            self.assert_classifier(result, 'failure')
+            self.assertIn('publication-coverage', result.stderr)
+            self.assertIn('1/4002', result.stdout)
+        finally:
+            self.restore_pages(originals)
+
+    def test_pending_cannot_hide_charset_article_noindex_or_sitemap_failure(self):
+        originals = self.without_all_publications()
+        mutations = (
+            ('index.html', lambda text: text.replace('<meta charset="utf-8"/>', ''), 'charset'),
+            ('Positions/P0.html', lambda text: text.replace('<article>', '<main>'), 'article-count'),
+            ('Tree.html', lambda text: text.replace('noindex, follow', 'index, follow'), 'frontmatter-noindex'),
+            ('sitemap.xml', lambda text: text.replace('<url><loc>' + self.urls[-1] + '</loc></url>', ''), 'sitemap-floor'),
+        )
+        try:
+            for relative, mutate, diagnostic in mutations:
+                with self.subTest(extra_failure=diagnostic):
+                    path = self.public / relative
+                    pending_text = path.read_text()
+                    try:
+                        path.write_text(mutate(pending_text))
+                        result = self.run_gate()
+                        self.assert_classifier(result, 'failure')
+                        self.assertIn(diagnostic, result.stderr)
+                        self.assertIn('0/4002', result.stdout)
+                    finally:
+                        path.write_text(pending_text)
+        finally:
+            self.restore_pages(originals)
+
+    def test_missing_modified_is_real_failure_in_both_publication_states(self):
+        target = self.public / 'Positions/P0.html'
+        for all_absent in (False, True):
+            originals = self.without_all_publications() if all_absent else {}
+            original = target.read_text()
+            try:
+                with self.subTest(all_publications_absent=all_absent):
+                    target.write_text(original.replace(MODIFIED_TAG, ''))
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'failure')
+                    self.assertIn('publication-modified', result.stderr)
+                    self.assertIn('modified: 4001/4002', result.stdout)
+            finally:
+                target.write_text(original)
+                self.restore_pages(originals)
+        original = target.read_text()
+        try:
+            target.write_text(original.replace(MODIFIED_TAG, '').replace(PUBLISHED_TAG, ''))
+            result = self.run_gate()
+            self.assert_classifier(result, 'failure')
+            self.assertIn('publication-modified', result.stderr)
+            self.assertIn('4001/4002', result.stdout)
+        finally:
+            target.write_text(original)
+
+    def test_malformed_duplicate_unknown_timestamps_cannot_be_pending(self):
+        originals = self.without_all_publications()
+        target = self.public / 'Positions/P0.html'
+        pending_text = target.read_text()
+        malformed = {
+            'not-self-closing': PUBLISHED_TAG.replace('/>', '>'),
+            'attribute-order': '<meta content="2026-09-20T00:00:00Z" property="article:published_time"/>',
+            'single-quotes': PUBLISHED_TAG.replace('"', "'"),
+            'duplicate-property-overwritten': PUBLISHED_TAG.replace('/>', ' property="og:title"/>'),
+            'duplicate-content': PUBLISHED_TAG.replace('/>', ' content="another"/>'),
+            'name-instead-of-property': PUBLISHED_TAG.replace('property=', 'name='),
+            'duplicate-published': PUBLISHED_TAG + PUBLISHED_TAG,
+            'unknown-article-time': PUBLISHED_TAG.replace('published_time', 'created_time'),
+            'duplicate-modified': MODIFIED_TAG,
+            'uppercase-tag': PUBLISHED_TAG.replace('<meta ', '<META '),
+            'uppercase-property': PUBLISHED_TAG.replace('article:published_time', 'ARTICLE:PUBLISHED_TIME'),
+            'extra-attribute': PUBLISHED_TAG.replace('/>', ' data-extra="1"/>'),
+            'unterminated': '<meta property="article:published_time" content="broken',
+        }
+        self.assertEqual(len(malformed), 13)
+        try:
+            for label, tag in malformed.items():
+                with self.subTest(mutant=label):
+                    target.write_text(pending_text.replace('</head>', tag + '</head>'))
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'failure')
+                    self.assertIn('publication-', result.stderr)
+        finally:
+            self.restore_pages(originals)
+
+    def test_misplaced_publication_cannot_be_pending(self):
+        originals = self.without_all_publications()
+        target = self.public / 'Positions/P0.html'
+        pending_text = target.read_text()
+        try:
+            for label, suffix in (
+                ('body', '<body>' + PUBLISHED_TAG + '</body>'),
+                ('second-head', '<head>' + PUBLISHED_TAG + '</head>'),
+            ):
+                with self.subTest(misplaced=label):
+                    target.write_text(pending_text + suffix)
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'failure')
+                    self.assertIn('publication-', result.stderr)
+        finally:
+            self.restore_pages(originals)
+
+    def test_nonsemantic_publication_outside_head_remains_absent(self):
+        originals = self.without_all_publications()
+        target = self.public / 'Positions/P0.html'
+        pending_text = target.read_text()
+        try:
+            for label, suffix in (
+                ('comment', '<!--' + PUBLISHED_TAG + '-->'),
+                ('script', '<script>' + PUBLISHED_TAG + '</script>'),
+                ('escaped-code', '<pre><code>' + PUBLISHED_TAG.replace('<', '&lt;').replace('>', '&gt;') + '</code></pre>'),
+            ):
+                with self.subTest(nonsemantic=label):
+                    target.write_text(pending_text + suffix)
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'pending')
+                    self.assertIn('0/4002', result.stdout)
+        finally:
+            self.restore_pages(originals)
+
+    def test_missing_or_empty_content_index_is_real_failure(self):
+        path = self.public / 'static/contentIndex.json'
+        original = path.read_text()
+        try:
+            for payload in (None, '{}'):
+                with self.subTest(payload=payload):
+                    if payload is None:
+                        path.unlink()
+                    else:
+                        path.write_text(payload)
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'failure')
+                    self.assertIn('contentIndex.json' if payload is None else 'publication-index', result.stderr)
+        finally:
+            path.write_text(original)
+
+    def test_source_backed_folder_copy_cannot_lose_dates_or_disappear(self):
+        source_index = self.public / 'static/contentIndex.json'
+        original_index = source_index.read_text()
+        folder = self.public / 'Positions/P0'
+        folder.mkdir()
+        child = folder / 'Child.html'
+        copy = folder / 'index.html'
+        page = DATED_HEAD + '<article>Source-backed folder fixture</article>'
+        child.write_text(page)
+        copy.write_text(page)
+        data = json.loads(original_index)
+        data['Positions/P0/Child'] = {}
+        source_index.write_text(json.dumps(data))
+        try:
+            result = self.run_gate()
+            self.assert_classifier(result, 'conforms')
+            self.assertIn('4004/4004', result.stdout)
+            self.assertIn('1 additional folder copies', result.stdout)
+            for label, mutant in (
+                ('publication-missing', page.replace(PUBLISHED_TAG, '')),
+                ('both-dates-missing', page.replace(PUBLISHED_TAG, '').replace(MODIFIED_TAG, '')),
+                ('entire-copy-missing', None),
+            ):
+                with self.subTest(mutant=label):
+                    if mutant is None:
+                        copy.unlink()
+                    else:
+                        copy.write_text(mutant)
+                    result = self.run_gate()
+                    self.assert_classifier(result, 'failure')
+                    self.assertIn('publication-', result.stderr)
+                    self.assertIn('4003/4004', result.stdout)
+                    copy.write_text(page)
+        finally:
+            source_index.write_text(original_index)
+            shutil.rmtree(folder)
+
+    def test_cli_pending_requires_each_source_pin_and_exact_revert_restores_it(self):
+        originals = self.without_all_publications()
+        try:
+            with tempfile.TemporaryDirectory(prefix='quartz-pending-source-cli-') as tmp:
+                root = Path(tmp)
+                (root / 'scripts').mkdir()
+                for name in ('check_postprocessor_contract.py', 'regenerate_agent_discovery.py'):
+                    shutil.copyfile(ROOT / 'scripts' / name, root / 'scripts' / name)
+                producers = ('source/quartz/components/Head.tsx', 'source/quartz/plugins/transformers/lastmod.ts')
+                producer_bytes = {}
+                for relative in producers:
+                    target = root / relative
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    producer_bytes[target] = (ROOT / relative).read_bytes()
+                    target.write_bytes(producer_bytes[target])
+                command = [sys.executable, '-B', str(root / 'scripts/check_postprocessor_contract.py'),
+                           '--public', str(self.public), '--content', str(self.content)]
+
+                def run_copied_gate():
+                    return subprocess.run(command, cwd=root, capture_output=True, text=True)
+
+                self.assert_classifier(run_copied_gate(), 'pending')
+                for relative in producers:
+                    with self.subTest(changed_producer=relative):
+                        target = root / relative
+                        try:
+                            target.write_bytes(producer_bytes[target] + b'\n// fixture source-pin mutation\n')
+                            result = run_copied_gate()
+                            self.assert_classifier(result, 'failure')
+                            self.assertIn('publication-pending-source', result.stderr)
+                            self.assertIn(relative, result.stderr)
+                            self.assertNotIn('ImportError', result.stderr)
+                            self.assertNotIn('ModuleNotFoundError', result.stderr)
+                        finally:
+                            target.write_bytes(producer_bytes[target])
+                        # Intentional, documented non-kill until X-01 removes pending:
+                        # restoring the exact reviewed source restores eligibility.
+                        self.assert_classifier(run_copied_gate(), 'pending')
+        finally:
+            self.restore_pages(originals)
 
     def test_each_of_eleven_literal_shapes_is_required(self):
         cases = [
@@ -199,6 +504,112 @@ class PostprocessorContractTest(unittest.TestCase):
             self.assertIn('<title data-share-title="1">', shell)
             self.assertIn('<svg><title>Search</title></svg>', shell)
             self.assertEqual(shell.count('data-share-og='), 5)
+
+
+class PostprocessorPublicationEligibilityTest(unittest.TestCase):
+    """Tiny API fixtures; eligibility comes from source keys, never date presence."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory(prefix='quartz-publication-eligibility-')
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        self.public = self.root / 'public'
+        (self.public / 'static').mkdir(parents=True)
+
+    def source_index(self, slugs):
+        (self.public / 'static/contentIndex.json').write_text(json.dumps({slug: {} for slug in slugs}))
+
+    def test_parent_source_with_child_requires_its_folder_copy(self):
+        self.source_index(['index', 'foo', 'foo/child'])
+        paths, slugs, copies = postprocessor_contract._publication_paths(self.public)
+        self.assertEqual(paths, {'index.html', 'foo.html', 'foo/child.html', 'foo/index.html'})
+        self.assertEqual((slugs, copies), (3, 1))
+
+    def test_authored_folder_index_is_counted_once(self):
+        for include_flat in (False, True):
+            with self.subTest(include_flat=include_flat):
+                keys = ['index', 'foo/index', 'foo/child'] + (['foo'] if include_flat else [])
+                self.source_index(keys)
+                paths, slugs, copies = postprocessor_contract._publication_paths(self.public)
+                expected = {'index.html', 'foo/index.html', 'foo/child.html'}
+                if include_flat:
+                    expected.add('foo.html')
+                self.assertEqual(paths, expected)
+                self.assertEqual((slugs, copies), (len(keys), 0))
+
+    def test_pure_folder_and_share_output_do_not_invent_source_eligibility(self):
+        self.source_index(['index', 'foo/child'])
+        (self.public / 'foo').mkdir()
+        (self.public / 'foo/index.html').write_text('<article>Pure folder</article>')
+        (self.public / 'l.html').write_text('<article>Share shell</article>')
+        paths, slugs, copies = postprocessor_contract._publication_paths(self.public)
+        self.assertEqual(paths, {'index.html', 'foo/child.html'})
+        self.assertEqual((slugs, copies), (2, 0))
+
+    def test_literal_dates_inside_comments_or_scripts_do_not_supply_coverage(self):
+        for wrapper in ('<!--{}-->', '<script>{}</script>'):
+            with self.subTest(wrapper=wrapper):
+                errors = []
+                status = postprocessor_contract._check_publication_page(
+                    '<head>' + wrapper.format(MODIFIED_TAG + PUBLISHED_TAG) + '</head>',
+                    'foo/index.html', errors)
+                self.assertEqual(status, (False, False))
+                self.assertTrue(any('publication-modified' in error for error in errors), errors)
+
+    def test_semantic_publication_outside_first_head_is_real_error(self):
+        baseline = '<head>' + MODIFIED_TAG + '</head><article>Fixture</article>'
+        for label, suffix in (
+            ('body', '<body>' + PUBLISHED_TAG + '</body>'),
+            ('second-head', '<head>' + PUBLISHED_TAG + '</head>'),
+        ):
+            with self.subTest(misplaced=label):
+                errors = []
+                result = postprocessor_contract._check_publication_page(
+                    baseline + suffix, 'fixture.html', errors)
+                self.assertEqual(result, (True, False))
+                self.assertTrue(errors, 'misplaced publication cannot masquerade as absence')
+                self.assertTrue(any('publication-' in error for error in errors), errors)
+
+    def test_nonsemantic_publication_outside_head_is_ignored(self):
+        baseline = '<head>' + MODIFIED_TAG + '</head><article>Fixture</article>'
+        for label, suffix in (
+            ('comment', '<!--' + PUBLISHED_TAG + '-->'),
+            ('script', '<script>' + PUBLISHED_TAG + '</script>'),
+            ('escaped-code', '<pre><code>' + PUBLISHED_TAG.replace('<', '&lt;').replace('>', '&gt;') + '</code></pre>'),
+        ):
+            with self.subTest(nonsemantic=label):
+                errors = []
+                result = postprocessor_contract._check_publication_page(
+                    baseline + suffix, 'fixture.html', errors)
+                self.assertEqual(result, (True, False))
+                self.assertEqual(errors, [])
+
+    def test_unterminated_publication_is_malformed_not_absent(self):
+        errors = []
+        text = '<head>' + MODIFIED_TAG + '<meta property="article:published_time" content="broken</head>'
+        result = postprocessor_contract._check_publication_page(text, 'fixture.html', errors)
+        self.assertEqual(result, (True, False))
+        self.assertTrue(any('publication-shape' in error for error in errors), errors)
+
+    def test_pending_source_pin_rejects_each_changed_producer(self):
+        producers = ('source/quartz/components/Head.tsx', 'source/quartz/plugins/transformers/lastmod.ts')
+        originals = {}
+        for relative in producers:
+            target = self.root / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            originals[target] = (ROOT / relative).read_bytes()
+            target.write_bytes(originals[target])
+        self.assertEqual(postprocessor_contract._pending_source_errors(self.root), [])
+        for relative in producers:
+            with self.subTest(changed_producer=relative):
+                target = self.root / relative
+                try:
+                    target.write_bytes(originals[target] + b'\n// fixture source-pin mutation\n')
+                    errors = postprocessor_contract._pending_source_errors(self.root)
+                    self.assertTrue(errors)
+                    self.assertTrue(any(relative in error and 'pending is unavailable' in error for error in errors), errors)
+                finally:
+                    target.write_bytes(originals[target])
 
 
 class PostprocessorFreshOutputTest(unittest.TestCase):
@@ -397,6 +808,108 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
 
     def test_discovery_rejects_missing_target(self):
         self.assert_discovery_error_then_valid_homepage('https://bjjgraph.org/Positions/Missing', 'Sitemap target missing:')
+
+
+class PostprocessorWorkflowWrapperTest(unittest.TestCase):
+    """Execute the checked-in e2e wrapper, not a copied shell implementation.
+
+    Fourteen stub results exercise status/marker agreement and exact uniqueness.
+    A separate real-Python missing-file control proves interpreter exit 2 cannot
+    masquerade as pending. These are tiny shell fixtures, not site builds.
+    """
+
+    def setUp(self):
+        import yaml
+
+        workflow = yaml.safe_load(
+            (ROOT / '.github/workflows/e2e-full.yml').read_text(encoding='utf-8'))
+        matches = [
+            step
+            for job in workflow['jobs'].values()
+            for step in job.get('steps', [])
+            if step.get('name') == 'Postprocessor input contract'
+        ]
+        self.assertEqual(len(matches), 1, 'expected exactly one contract workflow step')
+        step = matches[0]
+        self.assertNotIn('continue-on-error', step)
+        self.wrapper = step['run']
+        self.assertIsInstance(self.wrapper, str)
+        for marker in ('POSTPROCESSOR_CONTRACT_RESULT=',
+                       'POSTPROCESSOR_CONTRACT_RESULT=conforms',
+                       'POSTPROCESSOR_CONTRACT_RESULT=pending'):
+            self.assertIn(marker, self.wrapper)
+        self.tmp = tempfile.TemporaryDirectory(prefix='quartz-contract-wrapper-')
+        self.addCleanup(self.tmp.cleanup)
+        self.cwd = Path(self.tmp.name)
+        self.assertFalse((self.cwd / 'scripts').exists())
+
+    def run_wrapper(self, status=None, output=''):
+        import os
+
+        environment = dict(os.environ)
+        prefix = ''
+        if status is not None:
+            environment['F_CONTRACT_STUB_STATUS'] = str(status)
+            environment['F_CONTRACT_STUB_OUTPUT'] = output
+            prefix = '''python3() {
+  printf '%s' "$F_CONTRACT_STUB_OUTPUT"
+  return "$F_CONTRACT_STUB_STATUS"
+}
+'''
+        return subprocess.run(
+            ['bash', '-e', '-o', 'pipefail', '-c', prefix + self.wrapper],
+            cwd=self.cwd, env=environment, capture_output=True, text=True,
+            timeout=10)
+
+    def test_literal_workflow_accepts_only_matching_unique_results(self):
+        conforms = 'POSTPROCESSOR_CONTRACT_RESULT=conforms'
+        pending = 'POSTPROCESSOR_CONTRACT_RESULT=pending'
+        cases = [
+            ('conforms', 0, conforms + '\n', 0),
+            ('pending', 2, pending + '\n', 0),
+            ('failure-even-with-pending-marker', 1, pending + '\n', 1),
+            ('exit-two-without-marker', 2, 'Python did not start\n', 1),
+            ('exit-zero-without-marker', 0, 'No classification\n', 1),
+            ('unexpected-exit-three', 3, conforms + '\n', 1),
+            ('zero-with-wrong-pending-marker', 0, pending + '\n', 1),
+            ('two-with-wrong-conforms-marker', 2, conforms + '\n', 1),
+            ('duplicate-marker', 0, conforms + '\n' + conforms + '\n', 1),
+            ('unknown-marker', 0, 'POSTPROCESSOR_CONTRACT_RESULT=unknown\n', 1),
+            ('leading-whitespace-marker', 2, ' ' + pending + '\n', 1),
+            ('trailing-whitespace-marker', 2, pending + ' \n', 1),
+            ('partial-marker', 2, 'POSTPROCESSOR_CONTRACT_RESUL=pending\n', 1),
+            ('conforms-without-final-newline', 0, conforms, 0),
+        ]
+        self.assertEqual(len(cases), 14)
+        for name, status, output, expected in cases:
+            with self.subTest(case=name):
+                result = self.run_wrapper(status, output)
+                diagnostic = result.stdout + result.stderr
+                self.assertEqual(result.returncode, expected, diagnostic)
+                self.assertIn(output, result.stdout, 'combined gate log must be retained')
+                if name == 'pending':
+                    self.assertIn('::notice::', result.stdout)
+                    self.assertNotIn('::error::', result.stdout)
+                elif expected == 0:
+                    self.assertNotIn('::notice::', result.stdout)
+                    self.assertNotIn('::error::', result.stdout)
+                else:
+                    self.assertIn('::error::', result.stdout)
+                    self.assertNotIn('::notice::', result.stdout)
+
+    def test_literal_workflow_rejects_real_python_missing_file_exit_two(self):
+        python = shutil.which('python3')
+        self.assertIsNotNone(python)
+        control = subprocess.run(
+            [python, 'scripts/check_postprocessor_contract.py'],
+            cwd=self.cwd, capture_output=True, text=True, timeout=10)
+        self.assertEqual(control.returncode, 2, control.stdout + control.stderr)
+        self.assertNotIn('POSTPROCESSOR_CONTRACT_RESULT=',
+                         control.stdout + control.stderr)
+        result = self.run_wrapper()
+        self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
+        self.assertIn('::error::', result.stdout)
+        self.assertNotIn('::notice::', result.stdout)
 
 
 if __name__ == '__main__':

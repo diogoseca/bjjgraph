@@ -486,6 +486,31 @@ async function instrumentWorkerIdentity(f, mutant) {
     }
 `;
         source = source.replace(emitNeedle, mutation + emitNeedle);
+        const corruptions = {
+          missingTarget:
+            "if (shard.content.length > shard.renderCount) shard.content.pop()",
+          emptyShard: "shard.renderCount = 0",
+          missingMetadata: "shard.allFiles.pop()",
+          missingGuard: "shard.omittedTrees = []",
+        };
+        if (corruptions[mutant]) {
+          const needle = "  const bytes = serialize(shard)";
+          assert.equal(source.split(needle).length, 2);
+          source = source.replace(
+            needle,
+            `  ${corruptions[mutant]}\n${needle}`,
+          );
+        }
+        if (mutant === "fullCorpus") {
+          const needle =
+            "const resident = new Set(owned.map((_, offset) => start + offset))";
+          assert.equal(source.split(needle).length, 2);
+          source = source.replace(
+            needle,
+            needle +
+              "\n    for (let index = 0; index < content.length; index++) resident.add(index)",
+          );
+        }
         return { contents: source, loader: "ts" };
       });
       build.onLoad({ filter: /\/quartz\/worker\.ts$/ }, (args) => {
@@ -505,6 +530,7 @@ import { threadId as fixtureThreadId } from "node:worker_threads"
           workerNeedle,
           `
   if (init.phase === "emit") {
+    ${mutant === "unknownRead" ? "void allFiles[shard.omittedTrees[0].index].htmlAst" : ""}
     const witness = { rendered: shard.renderCount, pages: 0, metadata: allFiles.length, blocks: 0, dates: 0, lateMutations: 0, guardedTrees: 0 }
     for (const [tree, file] of content) {
       fixtureAssert.ok(allFiles.includes(file.data), "resident tuple data must alias its roster entry")
@@ -761,6 +787,83 @@ test("emit transport partitions trees before native worker hydration", (t) => {
   );
 });
 
+test("four emit workers hydrate four owned trees, with a complete roll roster in each", (t) => {
+  const f = fixture(t);
+  f.put("content/index.md", `${frontmatter("Home")}\n# Home\n`);
+  f.put(
+    "content/Positions/Mount/Bottom.md",
+    `${frontmatter("Mount Bottom", "tags: [fixture]\n")}\n# Bottom\n`,
+  );
+  const result = runBuild(f, 4);
+  assert.equal(result.status, 0, result.log);
+  assert.equal(
+    [
+      ...result.log.matchAll(
+        /\[emit:hydrate:ready\] thread=\d+ renderPages=1 residentPages=1 metadataPages=4/g,
+      ),
+    ].length,
+    4,
+  );
+  assert.match(
+    result.log,
+    /\[emit:coverage:plan\] owned=4\/4 shards=4 residentTuples=4 duplication=1\.000/,
+  );
+  for (const page of [
+    "index",
+    "Positions/Mount",
+    "Positions/Mount/Top",
+    "Positions/Mount/Bottom",
+  ]) {
+    const html = fs.readFileSync(
+      path.join(f.source, "public", page + ".html"),
+      "utf8",
+    );
+    const roster = html.match(/window\.__rollPositions=(\[[^\n]*?\])/);
+    assert.ok(roster, `${page}: roll roster must be present`);
+    assert.deepEqual(
+      JSON.parse(roster[1]).map((entry) => entry.s),
+      ["Positions/Mount/Bottom", "Positions/Mount/Top"],
+    );
+  }
+  console.log(
+    "Four-worker coverage: 4 owned/resident trees total (old handoff 16); 4 eager metadata entries and complete 2-role roster in each worker",
+  );
+});
+
+test("authored tag and folder-index routes keep incumbent overlapping-write behavior", (t) => {
+  const f = fixture(t);
+  f.put(
+    "content/tags/fixture.md",
+    `${frontmatter("Authored tag")}\n# Authored\n\nauthored tag description marker\n`,
+  );
+  f.put(
+    "content/Extra/index.md",
+    `${frontmatter("Authored folder")}\n# Folder\n\nauthored folder description marker\n`,
+  );
+  const serial = runBuild(f, 1, "public-serial");
+  const parallel = runBuild(f, 4, "public-parallel");
+  assert.equal(serial.status, 0, serial.log);
+  assert.equal(parallel.status, 0, parallel.log);
+  const a = path.join(f.source, "public-serial");
+  const b = path.join(f.source, "public-parallel");
+  const files = emittedFiles(a);
+  assert.deepEqual(emittedFiles(b), files);
+  for (const file of files)
+    assert.deepEqual(
+      fs.readFileSync(path.join(a, file)),
+      fs.readFileSync(path.join(b, file)),
+      file,
+    );
+  assert.match(parallel.log, /\[emit:plan\] shardEmitters=0 mainEmitters=7/);
+  assert.match(
+    fs.readFileSync(path.join(b, "tags/index.html"), "utf8"),
+    /authored tag description marker/,
+  );
+  console.log(
+    `Authored description coverage: ${files.length} byte-identical artifacts; overlapping tag/folder routes stay on main`,
+  );
+});
+
 test("native emit workers preserve live AST, block identity and Dates", async (t) => {
   for (const mutant of [undefined, "htmlAst", "blocks"]) {
     await t.test(
@@ -819,6 +922,86 @@ test("native emit workers preserve live AST, block identity and Dates", async (t
       },
     );
   }
+});
+
+test("native shard boundary rejects missing, extra and unplanned data", async (t) => {
+  for (const [mutant, expected] of [
+    ["missingTarget", /missing existing transclusion target/],
+    [
+      "emptyShard",
+      /owned output identities must be nonempty|owned tuple count/,
+    ],
+    ["missingMetadata", /metadata roster length/],
+    ["missingGuard", /missing omitted-tree descriptor/],
+    ["fullCorpus", /extra resident tuple/],
+    ["unknownRead", /Unplanned shard tree read/],
+  ]) {
+    await t.test(mutant, async (t) => {
+      const f = fixture(t);
+      await instrumentWorkerIdentity(f, mutant);
+      const result = runBuild(f, 2);
+      assert.notEqual(result.status, 0, `shard corruption survived: ${mutant}`);
+      assert.match(result.log, expected, result.log);
+      console.log(
+        `Shard mutant killed: ${mutant}; actual native build exit ${result.status}`,
+      );
+    });
+  }
+});
+
+test("shards retain cross-boundary heading, page and nested transclusion targets", (t) => {
+  const f = fixture(t);
+  f.put(
+    "content/library/Target.md",
+    `${frontmatter("Target")}\n# Intro\n\noutside selected heading\n\n## Selected\n\nheading target marker\n\n![[library/Nested]]\n\n## After\n\nnot inside selected heading\n`,
+  );
+  f.put(
+    "content/library/Nested.md",
+    `${frontmatter("Nested")}\n# Nested\n\nnested target marker\n`,
+  );
+  f.put(
+    "content/library/Whole.md",
+    `${frontmatter("Whole")}\n# Whole\n\nwhole page marker\n`,
+  );
+  f.put(
+    "content/index.md",
+    `${frontmatter("Reference home")}\n# Home\n\n![[Positions/Mount#^fixture-block]]\n\n![[library/Target#Selected]]\n\n![[library/Whole]]\n\n![[missing-target]]\n`,
+  );
+  const serial = runBuild(f, 1, "public-serial");
+  const parallel = runBuild(f, 4, "public-parallel");
+  assert.equal(serial.status, 0, serial.log);
+  assert.equal(parallel.status, 0, parallel.log);
+  assert.match(
+    parallel.log,
+    /\[emit:coverage:shard\].*targets=[1-9]\d*\/[1-9]\d*/,
+  );
+  assert.match(parallel.log, /\[emit:coverage:shard\].*missing=1/);
+  const a = path.join(f.source, "public-serial");
+  const b = path.join(f.source, "public-parallel");
+  const files = emittedFiles(a);
+  assert.deepEqual(emittedFiles(b), files);
+  for (const file of files)
+    assert.deepEqual(
+      fs.readFileSync(path.join(a, file)),
+      fs.readFileSync(path.join(b, file)),
+      file,
+    );
+  const html = fs.readFileSync(path.join(b, "index.html"), "utf8");
+  for (const marker of [
+    "Cross-page fixture marker",
+    "heading target marker",
+    "nested target marker",
+    "whole page marker",
+  ]) {
+    assert.ok(html.includes(marker), `transclusion missing: ${marker}`);
+  }
+  assert.ok(
+    !html.includes("not inside selected heading"),
+    "heading range must end at its next sibling heading",
+  );
+  console.log(
+    `Transclusion closure coverage: ${files.length} byte-identical artifacts; block, heading, whole-page, nested and genuine-missing targets`,
+  );
 });
 
 test("global main tag listings retain other pages' tags, titles, links and date ordering", (t) => {

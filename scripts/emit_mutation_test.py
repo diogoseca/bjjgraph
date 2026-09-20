@@ -124,13 +124,13 @@ def date_cardinality_suite():
         for field in ('property=article:published_time', 'property=article:modified_time'):
             assert field not in base['distinct_values'], 'capture would re-seed ' + field
         print('PASS dates: capture omits both retired cardinalities')
-        legacy = copy.deepcopy(base); cur = copy.deepcopy(base)
-        legacy['distinct_values'].update({'property=article:published_time': 1077,
-                                          'property=article:modified_time': 28})
-        cur['distinct_values'].update({'property=article:published_time': 888,
-                                       'property=article:modified_time': 17})
-        assert not gate.check_census(legacy, cur), 'arbitrary cardinalities still compared'
-        print('PASS dates: legacy 1077/28 versus 888/17 is not a parity contract')
+        for field, value in (('property=article:published_time', 888),
+                             ('property=article:modified_time', 28)):
+            restored = copy.deepcopy(base); restored['distinct_values'][field] = value
+            problems = gate.check_census(restored, base)
+            assert any('retired date row' in p and field in p for p in problems), (
+                'clean JSON merge silently restored retired row', field, problems)
+            print('PASS dates: restored baseline ' + field + ' is RED')
         for tag, name in ((published, 'published'), (modified, 'modified')):
             page.write_text(html.replace(tag, ''))
             problems = gate.check_census(base, gate.capture(1, root))
@@ -139,7 +139,24 @@ def date_cardinality_suite():
         cur = copy.deepcopy(base); cur['distinct_values']['name=description'] = 999
         assert any('name=description' in p for p in gate.check_census(base, cur))
         print('PASS dates: unrelated distinct-value row remains RED')
-        print('PASS coverage: 5 date-cardinality cases; spread and provenance unasserted')
+        baseline = root / 'baseline.json'
+        for label, key, value in [('valid', None, None),
+                                  ('published row restored', 'property=article:published_time', 888),
+                                  ('modified row restored', 'property=article:modified_time', 28)]:
+            observed = copy.deepcopy(base)
+            if key:
+                observed['distinct_values'][key] = value
+            baseline.write_text(json.dumps(observed))
+            proc = subprocess.run([sys.executable, str(Path(gate.__file__)), '--check-baseline',
+                                   '--baseline', str(baseline), '--tree', str(root / 'NO-BUILT-TREE')],
+                                  capture_output=True, text=True)
+            assert proc.returncode == (1 if key else 0), (label, proc.stdout, proc.stderr)
+            if key:
+                assert 'retired date row ' + key in proc.stdout, proc.stdout
+            else:
+                assert 'app covered_files=1' in proc.stdout and 'built_tree_files_scanned=0' in proc.stdout
+            print(f'PASS baseline CLI {label}: exit={proc.returncode}, no tree required')
+        print('PASS coverage: 9 date-cardinality cases; spread and provenance unasserted')
 
 
 def capture_driver_suite():
