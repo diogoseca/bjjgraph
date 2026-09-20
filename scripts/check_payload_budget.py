@@ -71,6 +71,7 @@ wrong for them and answering it wrongly is how a gate gets worked around:
 import argparse
 import gzip
 import json
+import os
 import subprocess
 import sys
 from datetime import date
@@ -82,6 +83,42 @@ import _payload_policy as policy  # noqa: E402  (stdlib-only sibling, same direc
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "source/public"
 BUDGET = ROOT / "tests/artifacts/budget_site.json"
+
+# The census comes from the SAME walk check_build_fingerprint.py uses. This gate must not
+# grow a second way to count pages: the moment two counters exist, the one that drifts
+# quietly is the one a gate is trusting (CLAUDE.md 6.5).
+from emit_fingerprint import coverage as _emit_coverage, scan_tree as _emit_scan  # noqa: E402
+
+# ---------------------------------------------------------------------------
+# TIER 0 -- NON-TRIVIALITY FLOORS.
+#
+# Every other number in this file is a CEILING: shrinking passes. That is right for bytes
+# and catastrophic for counts, and until now the counts were not checked at all --
+# `html_file_count` was measured at measure() and only ever INTERPOLATED into two f-strings.
+# Nothing compared it. Combined with check_seo_parity.py sampling 10 routes and scoping to
+# the <article>, a build that emitted a TENTH of the site passed this gate, that gate and
+# the byte ratchet simultaneously, because a tenth of the site is comfortably under every
+# ceiling.
+#
+# Measured proof that the number was unwatched: the committed `observed.html_file_count`
+# in budget_site.json read 6182 while a fresh build of HEAD emits 6149. A 33-page
+# disagreement sat in a committed baseline and no run cared, because nothing read it.
+#
+# These floors are HAND-SET and deliberately ~10-15% below the real figures: they catch a
+# collapse, not drift. --update must never touch them -- a floor that re-seeds itself from
+# the current build is a check that can never fail (CLAUDE.md 8: "a self-advancing baseline
+# is a delta check that never runs"). Move one with --set-floors --reason "...".
+# ---------------------------------------------------------------------------
+FLOOR_KEYS = ("html_file_count", "jsonld_blocks", "article_links", "static_files")
+DEFAULT_FLOORS = {
+    "html_file_count": 5800,    # 6,149 emitted at v1.192.3
+    "jsonld_blocks": 31000,     # 33,438
+    "article_links": 200000,    # 212,983
+    "static_files": 4600,       # 4,957
+}
+# If a build exceeds ROT_FACTOR x the floor, the floor has stopped meaning anything.
+# Say so: a floor nobody revisits is how "we have a check" becomes untrue quietly.
+ROT_FACTOR = 2.0
 GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the policy file
 
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
@@ -225,6 +262,24 @@ def measure() -> dict:
         count += 1
     out["html_total_bytes"] = total
     out["html_file_count"] = count
+
+    cov = _emit_coverage(_emit_scan(PUBLIC, jobs=min(6, (os.cpu_count() or 4))))
+    out["census"] = {
+        "html_file_count": cov["html_pages"],
+        "jsonld_blocks": cov["jsonld_blocks"],
+        "article_links": cov["article_links"],
+        "static_files": cov["static_files"],
+        "pages_with_canonical": cov["pages_with_canonical"],
+        "html_parse_errors": cov["html_parse_errors"],
+    }
+    # Cross-check the two independent page counts. This gate's rglob and the shared
+    # parser's walk must agree; if they ever do not, one of them is wrong and no floor
+    # derived from either is trustworthy.
+    if cov["html_pages"] != count:
+        print(f"ERROR: page count disagreement — rglob says {count:,}, the shared walk "
+              f"says {cov['html_pages']:,}. One of the two is wrong; refusing to gate.",
+              file=sys.stderr)
+        sys.exit(1)
     out["neural"] = measure_neural()
 
     if missing:
@@ -352,11 +407,96 @@ def _accept_baseline(metric: str, reason: str, cur: dict) -> None:
     print(f"  ref {spec['baseline_ref']} · reason: {reason}")
 
 
+def _floors() -> dict:
+    """The committed floors, falling back to the defaults if the baseline predates them.
+
+    A MISSING floors block is not silently treated as "no floors to check" -- that is the
+    absence-reads-as-a-pass failure this whole change exists to remove. It falls back to
+    DEFAULT_FLOORS and says so.
+    """
+    if BUDGET.exists():
+        try:
+            f = (json.loads(BUDGET.read_text()) or {}).get("floors")
+            if isinstance(f, dict) and all(k in f for k in FLOOR_KEYS):
+                return {k: int(f[k]) for k in FLOOR_KEYS}
+        except json.JSONDecodeError:
+            pass
+    print("  · no committed floors in budget_site.json — using the built-in defaults; "
+          "seed them with --set-floors --reason \"...\"", file=sys.stderr)
+    return dict(DEFAULT_FLOORS)
+
+
+def check_floors(cur: dict) -> int:
+    """Tier 0. Runs BEFORE the ceilings and hard-fails. Returns the number of breaches."""
+    floors = _floors()
+    census = cur.get("census") or {}
+    breaches, rotted = [], []
+    for k in FLOOR_KEYS:
+        got, floor = census.get(k, 0), floors[k]
+        if got < floor:
+            breaches.append(f"{k}: {got:,} is BELOW the floor {floor:,} ({got - floor:+,})")
+        elif floor and got > floor * ROT_FACTOR:
+            rotted.append(f"{k}: {got:,} is more than {ROT_FACTOR:g}x the floor {floor:,}")
+
+    if census.get("html_parse_errors"):
+        breaches.append(f"html_parse_errors: {census['html_parse_errors']:,} page(s) did "
+                        f"not parse; their contents were not counted, so every count "
+                        f"above is an undercount of unknown size")
+
+    print("  · tier-0 floors (counts, not ceilings — smaller FAILS):")
+    for k in FLOOR_KEYS:
+        got, floor = census.get(k, 0), floors[k]
+        mark = "FAIL" if got < floor else "ok"
+        print(f"      {k:22s} {got:>10,}  floor {floor:>10,}  {mark}")
+
+    for r in rotted:
+        print(f"    ⚠ floor has rotted — {r}. It no longer represents this site; "
+              f"re-set it with --set-floors --reason \"...\".", file=sys.stderr)
+
+    if breaches:
+        print("\n✗ TIER-0 FLOOR BREACH — this build did not emit a whole site:",
+              file=sys.stderr)
+        for b in breaches:
+            print(f"    - {b}", file=sys.stderr)
+        print("\n  Every other number in this gate is a MAX, so a shrinking site passes "
+              "all of them.\n  check_seo_parity.py samples 10 routes and would also pass. "
+              "This check is the\n  only one that sees a whole-site shortfall.",
+              file=sys.stderr)
+    return len(breaches)
+
+
+def _set_floors(cur: dict, reason: str) -> None:
+    if not reason:
+        print("ERROR: --set-floors requires --reason; a floor is a judgement and the "
+              "judgement has to be recorded next to the number.", file=sys.stderr)
+        sys.exit(1)
+    budget = json.loads(BUDGET.read_text()) if BUDGET.exists() else {}
+    census = cur["census"]
+    # Deliberately NOT the observed value: a floor seeded at today's figure fails the very
+    # next legitimate content deletion, so it gets raised-by-lowering until it means
+    # nothing. Seed ~8% below and let the operator hand-edit if they want tighter.
+    new = {k: int(census[k] * 0.92) for k in FLOOR_KEYS}
+    prev = budget.get("floors")
+    budget["floors"] = new
+    budget.setdefault("_meta", {})["floors_note"] = (
+        "TIER-0 non-triviality floors. Counts, not ceilings: a build BELOW one of these "
+        "fails. Seeded ~8% under the observed figures so ordinary content churn does not "
+        "trip them; they exist to catch a build that emitted a fraction of the site, "
+        "which every ceiling in this file passes by definition. `--update` must never "
+        "touch them. Last set: " + reason)
+    BUDGET.write_text(json.dumps(budget, indent=1, sort_keys=True) + "\n")
+    print(f"floors set in {BUDGET.relative_to(ROOT)}  (reason: {reason})")
+    for k in FLOOR_KEYS:
+        was = f"{prev[k]:,}" if isinstance(prev, dict) and k in prev else "unset"
+        print(f"  {k:22s} observed {census[k]:>10,}  floor {was} -> {new[k]:,}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--update", action="store_true", help="(re)seed the RATCHET ceilings from this build (never the policy)")
     ap.add_argument("--accept-baseline", metavar="METRIC", help="advance one policy metric's delta baseline to the current figure")
-    ap.add_argument("--reason", default="", help="why the baseline moved; required with --accept-baseline, recorded in the policy file")
+    ap.add_argument("--reason", default="", help="why the baseline moved; required with --accept-baseline or --set-floors, recorded next to the number")
+    ap.add_argument("--set-floors", action="store_true", help="(re)set the TIER-0 non-triviality floors; requires --reason")
     args = ap.parse_args()
 
     if not PUBLIC.exists():
@@ -364,6 +504,15 @@ def main() -> None:
         sys.exit(1)
 
     cur = measure()
+
+    if args.set_floors:
+        _set_floors(cur, args.reason)
+        return
+
+    # TIER 0 FIRST. A gate whose non-triviality check runs after its ceilings can report
+    # "budget OK" on a build with no pages in it before it ever gets to the floor.
+    if check_floors(cur) and not args.update:
+        sys.exit(1)
 
     if args.accept_baseline:
         _accept_baseline(args.accept_baseline, args.reason, cur)

@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.192.3",
+  "version": "1.193.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -20,6 +20,8 @@
     "validate:seats": "python3 scripts/validate_seat_decks.py",
     "validate:headers": "python3 scripts/check_headers_cache.py",
     "validate:payload": "python3 scripts/check_payload_budget.py",
+    "validate:build-shape": "python3 scripts/check_build_fingerprint.py",
+    "validate:build-shape:update": "python3 scripts/check_build_fingerprint.py --update",
     "validate:seo": "python3 scripts/check_seo_parity.py",
     "validate:affiliate": "python3 scripts/check_affiliate_surface.py",
     "validate:analytics:nokey": "node scripts/check_analytics_nokey.mjs",

@@ -1,5 +1,6 @@
 {
  "_meta": {
+  "floors_note": "TIER-0 non-triviality floors. Counts, not ceilings: a build BELOW one of these fails. Seeded ~8% under the observed figures so ordinary content churn does not trip them; they exist to catch a build that emitted a fraction of the site, which every ceiling in this file passes by definition. `--update` must never touch them. Last set: v1.192.4 \u2014 Tier-0 non-triviality floors; seeded from a fresh HEAD build (6,149 pages) so a whole-site shortfall can no longer pass a gate made entirely of MAX ceilings",
   "format": 2,
   "neural_note": "neural.* are hand-set TARGETS from the field data (LCP P75 13,764ms / 39.3MB raw to first move), not seeded observations. --update never raises them: _neural_ceilings() takes min(committed, NEURAL_TARGET), so a hand-tightened ceiling is never loosened by a re-seed, and raising one is a hand edit of NEURAL_TARGET in scripts/check_payload_budget.py. eager_gzip_bytes IS DELIBERATELY ABSENT SINCE v1.189.0: it moved to the three-band policy in tests/artifacts/payload_policy.json, and check_payload_budget.py HARD-FAILS if the key reappears here (POLICY_OWNED) - a stale hard ceiling beside a soft policy shadows it silently, because only the stricter of the two is ever seen. Why it had to move: on the tree v1.189.0 was written against, the eager set gzips to 329,808 against the 330,000 ceiling it replaced - 192 bytes - so the next neural feature of any size was going red on arrival and the only move available was to raise the ceiling again.",
   "note": "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling means the payload grew \u2014 justify it in the commit body.",
@@ -9,6 +10,12 @@
   "index.css": 50598,
   "postscript.js": 85627,
   "prescript.js": 3055
+ },
+ "floors": {
+  "article_links": 195944,
+  "html_file_count": 5657,
+  "jsonld_blocks": 30762,
+  "static_files": 4560
  },
  "html_total_bytes": 453015270,
  "neural": {

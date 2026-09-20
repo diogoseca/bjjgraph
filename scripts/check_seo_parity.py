@@ -49,7 +49,59 @@ SAMPLE = [
     # it to this sample would not help: `content_floor` derives from `content_len`, so a
     # zero-length article ratchets against zero. Do not assume this route covers /Game-Over.
     "game-over.html",
+    # ── WIDENED (with the tier-0 floors) ──────────────────────────────────────
+    # The sample above is 10 routes covering 4 archetypes. Everything below is an
+    # archetype that had NO representative, which is how a defect in one page class
+    # stayed invisible: the gate cannot regress on a shape it never looks at. Kept to one
+    # route per archetype, because the content bot edits pages daily and a wide sample
+    # makes its PRs noisy for no extra coverage (the recon's option (b)).
+    "404.html",                              # its own emitter (404.tsx); baseDir differs in Head.tsx
+    "Positions/index.html",                  # FolderPage — a whole emitter, previously unsampled
+    "tags/beginner.html",                    # TagPage — a whole emitter, previously unsampled
+    "Principles.html",                       # Principles hub
+    "Principles/Action-and-Reaction.html",   # Principles leaf — a reference page, not a graph node
+    "Learning.html",                         # Learning hub
+    "Learning/Asymmetric-Warfare.html",      # Learning leaf
+    "Submissions/Achilles-Lock.html",        # submission FAMILY hub — the only CollectionPage @type
+    # The terminal page. The caveat on `game-over.html` above is explicit that the 380-byte
+    # ALIAS stub is what was sampled and that the REAL page was not, which is why nobody
+    # noticed it emitting a zero-character <article> after v1.80.0. Adding it does not fix
+    # the content_floor problem named there (a zero length still ratchets against zero),
+    # but it does pin its <head> and JSON-LD, which were never pinned at all.
+    "Game-Over.html",
 ]
+
+# ── WHOLE-SITE GUARD (added with the tier-0 floors) ───────────────────────────
+# This gate's verdict is about SAMPLE (below), and a sample cannot see the size of the
+# site it was drawn from. Measured: a build with 624 of 6,149 pages, every sampled route
+# still present, printed "✓ SEO parity OK — 10 routes" — while check_payload_budget.py
+# printed "✓ payload budget OK ... across 624 files", because every figure there is a MAX.
+# Two green gates on a site missing 90% of itself.
+#
+# So this gate no longer issues a verdict without first establishing that the emit is
+# whole. The count is not re-implemented here: it comes from the same walk
+# check_payload_budget.py and check_build_fingerprint.py use.
+SITE_FLOOR_KEY = "html_file_count"
+
+
+def _site_is_whole() -> tuple[bool, str]:
+    """(ok, message). Reads the committed tier-0 floor rather than carrying its own."""
+    try:
+        budget = json.loads((ROOT / "tests/artifacts/budget_site.json").read_text())
+        floor = int((budget.get("floors") or {})[SITE_FLOOR_KEY])
+    except Exception:
+        return True, ("  · no tier-0 floor committed in budget_site.json — whole-site "
+                      "guard SKIPPED (seed it with "
+                      "`check_payload_budget.py --set-floors --reason \"...\"`)")
+    count = sum(1 for _ in PUBLIC.rglob("*.html"))
+    if count < floor:
+        return False, (
+            f"WHOLE-SITE SHORTFALL: {count:,} HTML files emitted, tier-0 floor is "
+            f"{floor:,}. This gate samples {{n}} routes, so it cannot see this and its "
+            f"verdict would be meaningless. Refusing to report SEO parity on a partial "
+            f"build.")
+    return True, f"  · whole-site guard: {count:,} HTML files (tier-0 floor {floor:,})"
+
 
 # Scope note, since two findings have now hidden in it: `_extract()` narrows to the <article>
 # when there is one, so ANYTHING outside it is invisible to this gate — including
@@ -227,6 +279,15 @@ def main():
     if not PUBLIC.exists():
         print(f"ERROR: {PUBLIC} not found — run `npm run build` first", file=sys.stderr)
         sys.exit(1)
+
+    # Establish the emit is WHOLE before saying anything about its SEO surface. A sample
+    # of 10 routes is a statement about 10 routes; without this, it reads as a statement
+    # about the site.
+    whole, msg = _site_is_whole()
+    if not whole:
+        print("✗ " + msg.format(n=len(SAMPLE)), file=sys.stderr)
+        sys.exit(1)
+    print(msg)
 
     cur = snapshot()
     if args.update:

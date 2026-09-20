@@ -1,0 +1,139 @@
+{
+ "_meta": {
+  "format": 2
+ },
+ "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update whenever the emit legitimately changes (content edits move article_links and the @type histogram), and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
+ "bundle_tokens": {
+  "postscript.js": {
+   "__bjjAuth": 2
+  }
+ },
+ "bundles": {
+  "index.css": {
+   "bytes": 46769,
+   "sha256": "9fe37fe7a42ff65478009d53f9627f500e84a0b5e3df96ebde4728c4903fba9d"
+  },
+  "postscript.js": {
+   "bytes": 75657,
+   "sha256": "3d1811bebd07c54010b5a162b5e2caa73a0b6bafcee08714b1d48174c5a991dd"
+  },
+  "prescript.js": {
+   "bytes": 2518,
+   "sha256": "7ec261fd5f4346585423f90ebbab06484af9608811347db544fd1a420b2cada3"
+  }
+ },
+ "by_class": {
+  "binary": 12,
+  "css": 15,
+  "gzip": 1,
+  "html": 6149,
+  "js": 31,
+  "json_opaque": 4945,
+  "json_semantic": 5,
+  "text_opaque": 4602,
+  "text_semantic": 7,
+  "xml": 2
+ },
+ "by_dir": {
+  ".well-known": 1,
+  "<root>": 29,
+  "Learning": 27,
+  "Positions": 541,
+  "Principles": 63,
+  "Submissions": 1298,
+  "Systems": 84,
+  "Transitions": 4101,
+  "dev": 59,
+  "markdown": 4598,
+  "static": 4957,
+  "tags": 11
+ },
+ "census": {
+  "article_headings": 94141,
+  "article_links": 212983,
+  "files": 15769,
+  "gzip_files": 1,
+  "head_links": 36979,
+  "html_pages": 6149,
+  "jsonld_blocks": 33438,
+  "meta_tags": 122760,
+  "outside_links": 149195,
+  "pages_with_article": 6138,
+  "pages_with_canonical": 6141,
+  "pages_with_description": 6144,
+  "pages_with_og_title": 6138,
+  "pages_with_outside_links": 6145,
+  "pages_with_title": 6149,
+  "semantic_json": 5,
+  "semantic_text": 7,
+  "semantic_xml": 2,
+  "static_files": 4957
+ },
+ "distinct_values": {
+  "name=description": 4562,
+  "property=article:modified_time": 28,
+  "property=article:published_time": 1077,
+  "property=og:title": 4612
+ },
+ "jsonld_types": {
+  "Article": 23,
+  "BreadcrumbList": 6025,
+  "CollectionPage": 126,
+  "DefinedTerm": 3107,
+  "FAQPage": 3117,
+  "HowTo": 2968,
+  "ItemList": 5969,
+  "Organization": 6138,
+  "WebApplication": 2,
+  "WebPage": 5961,
+  "WebSite": 2
+ },
+ "markers": {
+  "body:data-current-role": 6138,
+  "body:data-slug": 6138,
+  "class:category-nav": 6138,
+  "class:popover-hint": 6138,
+  "class:search": 6138,
+  "id:page-graph-data": 4544,
+  "id:quartz-body": 6138,
+  "id:quartz-root": 6138,
+  "id:sidebar-overlay": 6138,
+  "js:__rollPositions": 6138,
+  "meta:robots": 12,
+  "tag:article": 6138,
+  "tag:footer": 6138,
+  "tag:main": 6101,
+  "tag:nav": 6139
+ },
+ "meta_keys": {
+  "charset=UTF-8": 6,
+  "charset=utf-8": 6143,
+  "http-equiv=refresh": 3,
+  "name=description": 6144,
+  "name=generator": 6138,
+  "name=robots": 12,
+  "name=twitter:card": 6138,
+  "name=twitter:description": 6138,
+  "name=twitter:image": 6138,
+  "name=twitter:image:alt": 6138,
+  "name=twitter:title": 6138,
+  "name=viewport": 6146,
+  "property=article:modified_time": 6118,
+  "property=article:published_time": 6118,
+  "property=og:description": 6138,
+  "property=og:height": 6138,
+  "property=og:image": 6138,
+  "property=og:locale": 6138,
+  "property=og:site_name": 6138,
+  "property=og:title": 6138,
+  "property=og:type": 6138,
+  "property=og:url": 6138,
+  "property=og:width": 6138
+ },
+ "zeros": {
+  "gzip_decompress_errors": 0,
+  "html_parse_errors": 0,
+  "jsonld_unparseable": 0,
+  "read_errors": 0
+ }
+}

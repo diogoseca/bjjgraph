@@ -42,6 +42,21 @@ jobs:
       - name: Build production site and Forward libraries
         run: npm run build
 
+      # THE BUILD'S SHAPE, AND THE ONLY PR JOB THAT CAN CHECK IT.
+      # `npm run build` above already ran validate:payload, whose TIER-0 FLOORS reject a
+      # build that emitted a fraction of the site — those run on both deploys too. This
+      # step adds the half that must NOT run on a deploy: exact census equality against
+      # tests/artifacts/build_fingerprint.json (page counts per archetype, the JSON-LD
+      # @type histogram, the structural markers, the three bundle hashes, and the
+      # distinct-value counts that catch a field which stopped varying).
+      #
+      # It belongs on a PR and not on a deploy because a legitimate content edit MOVES
+      # these numbers, and the correct response is to re-seed in the same PR — the same
+      # contract tests/corpus_census.test.mjs already has with `npm run census:update`.
+      # On a deploy there is no such opportunity, so it would only ever be a tripwire.
+      - name: Build shape (tier-0 floors + committed census)
+        run: npm run validate:build-shape
+
       # THE KEYLESS HALF OF THE ANALYTICS CONTRACT, AND THE ONLY PLACE ON A PR IT CAN RUN.
       # `validate:analytics` grades the built site against the key its build ran with, and every
       # deploy carries POSTHOG_API_KEY — so the deploys only ever prove the WITH-key direction, and
