@@ -419,6 +419,7 @@ walk(args.output)
 const ledgerDir = process.env.BJJ_EMIT_LEDGER_DIR
 const parts = []
 const claimSets = {}
+const returnSets = {}
 const dupes = []
 if (ledgerDir && fs.existsSync(ledgerDir)) {
   for (const name of fs.readdirSync(ledgerDir).filter((f) => f.endsWith(".ndjson")).sort()) {
@@ -434,6 +435,13 @@ if (ledgerDir && fs.existsSync(ledgerDir)) {
     for (const line of lines) {
       const rec = JSON.parse(line)
       if (rec.part) { head = rec; continue }
+      if (rec.returns) {
+        const rset = (returnSets[rec.returns] ||= new Set())
+        for (const abs of rec.paths) {
+          rset.add(path.relative(args.output, abs).split(path.sep).join("/"))
+        }
+        continue
+      }
       const set = (claimSets[rec.emitter] ||= new Set())
       for (const rel of rec.paths) {
         // A path claimed by two THREADS is a real finding, not a merge detail: two shards wrote
@@ -447,6 +455,11 @@ if (ledgerDir && fs.existsSync(ledgerDir)) {
   }
 }
 const claims = Object.fromEntries(Object.entries(claimSets).map(([k, v]) => [k, [...v]]))
+const returns = Object.fromEntries(Object.entries(returnSets).map(([k, v]) => [k, [...v]]))
+// EVERY CONFIGURED EMITTER BY NAME, so a record can be written for one that claimed nothing.
+// An emitter that produced no output and an emitter that never ran are different facts and were
+// previously the same absence: 8 records for 9 configured emitters, with Assets simply missing.
+const configuredEmitters = config.plugins.emitters.map((e) => e.name)
 
 // Cross-check: main's part must agree with main's memory. Disagreement means the append path
 // dropped or duplicated something, which would otherwise look like an emitter behaving oddly.
@@ -456,7 +469,7 @@ const mainMemoryPaths = Object.values(memory).reduce((n, v) => n + v.length, 0)
 
 console.log(
   "__JSON__" + JSON.stringify({
-    ledgerEnabled, claims, census, parts, dupes,
+    ledgerEnabled, claims, returns, configuredEmitters, census, parts, dupes,
     main_part: mainPart ? mainPart.name : null,
     main_memory_paths: mainMemoryPaths,
     discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
@@ -545,15 +558,22 @@ function joinRecords(captured, outDir, opts) {
   const emitterShaped = unclaimed.filter((p) => p.endsWith(".html") && !p.startsWith("dev/"))
 
   const head = gitHead()
+  // ONE RECORD PER CONFIGURED EMITTER, including those that produced nothing. Previously the
+  // records were derived from the CLAIMS, so an emitter that emitted zero paths had no record at
+  // all — 8 records for 9 configured emitters, Assets silently absent. "Produced nothing" and
+  // "never ran" then look identical, which is the defect this whole seam exists to catch.
+  const returns = captured.returns ?? {}
+  const names = [...new Set([...(captured.configuredEmitters ?? []), ...Object.keys(claims)])].sort()
   const per = {}
-  for (const [emitter, paths] of Object.entries(claims)) {
+  for (const emitter of names) {
     const files = {}
-    for (const rel of paths.slice().sort()) if (census[rel]) files[rel] = census[rel]
+    for (const rel of (claims[emitter] ?? []).slice().sort()) if (census[rel]) files[rel] = census[rel]
     per[emitter] = files
   }
   fs.mkdirSync(outDir, { recursive: true })
   for (const [emitter, files] of Object.entries(per)) {
-    const data = { emitter, files, returned_paths: [] }
+    const returned = (returns[emitter] ?? []).slice().sort()
+    const data = { emitter, files, returned_paths: returned }
     const record = {
       schema: SCHEMA, seam: SEAM, key: emitter, data,
       data_sha256: crypto.createHash("sha256").update(canonical(data), "utf8").digest("hex"),
@@ -563,7 +583,7 @@ function joinRecords(captured, outDir, opts) {
         )
         const seeded = Object.keys(files).filter((p) => seededPrefixes.some((pre) => p.startsWith(pre))).length
         return {
-          files: Object.keys(files).length, returned_paths: 0,
+          files: Object.keys(files).length, returned_paths: returned.length,
           seeded_files: seeded, parity_files: Object.keys(files).length - seeded, emitter_runs: 1,
         }
       })(),

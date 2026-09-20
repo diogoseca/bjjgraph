@@ -116,6 +116,15 @@ function appendDelta(emitter: string) {
   }
 }
 
+/** Record what an emitter RETURNED, kept separate from what it WROTE. */
+function appendReturn(emitter: string, paths: string[]) {
+  if (!OUT_DIR) return
+  fs.appendFileSync(
+    path.join(OUT_DIR, PART_NAME),
+    JSON.stringify({ returns: emitter, paths: paths.map(String) }) + "\n",
+  )
+}
+
 /** Write this thread's part even if it claimed nothing, so the join can count parts exactly. */
 export function openPart() {
   if (!OUT_DIR || partStarted) return
@@ -145,6 +154,12 @@ export function track<T>(emitter: string, fn: () => Promise<T>): Promise<T> {
   // emitter fails the build, and a partial ledger from a failed build must not look complete.
   return store.run({ emitter }, fn).then((value) => {
     appendDelta(emitter)
+    // THE EMITTER'S OWN RETURN, recorded rather than fabricated. V found every joined record
+    // carrying `returned_paths: []`, which is not "this emitter returned nothing" — it was a
+    // hard-coded literal, so the field said the same thing for Static (returns 9 while copying
+    // 4,952) as for an emitter that genuinely returned none. The gap between what an emitter
+    // RETURNS and what it WRITES is the whole reason this seam exists; a constant cannot show it.
+    if (Array.isArray(value)) appendReturn(emitter, value as unknown as string[])
     return value
   })
 }
