@@ -2,6 +2,8 @@
 """Mutation proofs for V's instruments, using actual entry points and emitted bytes.
 
   python3 scripts/emit_mutation_test.py --capture-driver
+  python3 scripts/emit_mutation_test.py --app-assets
+  python3 scripts/emit_mutation_test.py --date-cardinality
 
 The capture-driver suite uses tiny local command fixtures, never npm/network or a
 site build. It pins supplied step order/cwd, fail-fast execution, positive output,
@@ -13,7 +15,17 @@ The recon's 15-regression corpus table is not yet implemented here; no kill clai
 for those cases follows from the driver suite. Per-page and value-rule mutants live
 in seam_golden_selftest.py. Empty emit observations do not prove unexercised output
 branches: positive emitter fixtures belong to B.
+
+The app-assets suite drives check_build_fingerprint.capture on real tiny filesystem
+trees. It pins named additions, removals, same-count renames, same-size JS/CSS edits,
+recursive discovery, and rejection of empty or corrupt inventories. It does not
+prove browser behavior or generation of seeded assets. The golden's app region has
+two files and no deferred asset yet; fixtures exercise those absent branches.
+The date-cardinality suite pins retirement of BOTH exact timestamp counts without
+forgiving missing meta tags or changes to unrelated fields. It does not assert date
+spread or validate git provenance; that remains an explicit X-01 integration gap.
 """
+import copy
 import argparse
 import hashlib
 import json
@@ -23,6 +35,111 @@ import shutil
 import subprocess
 import sys
 import tempfile
+
+
+def app_assets_suite():
+    import check_build_fingerprint as gate
+    with tempfile.TemporaryDirectory(prefix='v-app-assets-') as tmp:
+        root = Path(tmp)
+        app = root / 'static/neural/app'
+        app.mkdir(parents=True)
+        js = app / 'neural.js'; js.write_bytes(b'let fixture=1;')
+        css = app / 'neural.css'; css.write_bytes(b'.fixture{color:red}')
+        base = gate.capture(1, root)
+        assert base.get('app_assets', {}).get('count') == 2, 'app/ files were not inventoried'
+        assert set(base['app_assets']['files']) == {
+            'static/neural/app/neural.js', 'static/neural/app/neural.css'}
+        for path in (js, css):
+            record = base['app_assets']['files'][path.relative_to(root).as_posix()]
+            assert record == {'bytes': path.stat().st_size,
+                              'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
+        checked = 0
+        def expect(label, cur, *needles):
+            nonlocal checked
+            problems = gate.check_census(base, cur)
+            if needles:
+                for needle in needles:
+                    assert any(needle in p for p in problems), (label, needle, problems)
+            else:
+                assert not problems, (label, problems)
+            checked += 1
+            print(f'PASS app {label}: covered_files={cur["app_assets"]["count"]}')
+        expect('identical', gate.capture(1, root))
+        for path in (js, css):
+            old = path.read_bytes()
+            path.write_bytes(bytes([old[0] ^ 1]) + old[1:])
+            expect('same-size edit ' + path.name, gate.capture(1, root),
+                   'app asset ' + path.relative_to(root).as_posix() + ': CHANGED')
+            path.write_bytes(old)
+        deferred = app / 'reading.css'; deferred.write_bytes(b'.reading{}')
+        expect('new deferred CSS', gate.capture(1, root),
+               'app asset static/neural/app/reading.css: ADDED', 'app asset count: 2 -> 3')
+        deferred.unlink()
+        renamed = app / 'reference.css'; css.rename(renamed)
+        expect('same-count rename', gate.capture(1, root),
+               'app asset static/neural/app/neural.css: REMOVED',
+               'app asset static/neural/app/reference.css: ADDED')
+        renamed.rename(css)
+        old = css.read_bytes(); css.unlink()
+        expect('removed CSS', gate.capture(1, root),
+               'app asset static/neural/app/neural.css: REMOVED')
+        css.write_bytes(old)
+        nested = app / 'chunks/.future.bin'; nested.parent.mkdir()
+        nested.write_bytes(b'\x00\x01')
+        expect('new nested arbitrary extension', gate.capture(1, root),
+               'app asset static/neural/app/chunks/.future.bin: ADDED')
+        nested.unlink()
+        # A malformed baseline must fail too, including empty compared to empty.
+        for label, value in (
+            ('zero', {'count': 0, 'files': {}}),
+            ('invented count', {**base['app_assets'], 'count': 3}),
+            ('missing block', None),
+            ('bad hash', {'count': 1, 'files': {'static/neural/app/bad.js':
+                                               {'bytes': 1, 'sha256': 'bad'}}}),
+        ):
+            bad = copy.deepcopy(base); bad['app_assets'] = value
+            assert gate.check_app_assets(bad, 'candidate'), label
+            assert gate.check_census(bad, bad), label + ' matched itself cleanly'
+            checked += 1; print(f'PASS app invalid {label}')
+        shutil.rmtree(app)
+        (root / 'unrelated.txt').write_text('the tree exists, the app region does not')
+        empty = gate.capture(1, root)
+        assert any('app assets' in p for p in gate.check_floors(empty))
+        checked += 1; print('PASS app missing region: covered_files=0 rejected')
+        print(f'PASS coverage: {checked} app-assets cases; real filesystem mutations, no build')
+
+
+def date_cardinality_suite():
+    import check_build_fingerprint as gate
+    with tempfile.TemporaryDirectory(prefix='v-date-cardinality-') as tmp:
+        root = Path(tmp)
+        (root / 'static/neural/app').mkdir(parents=True)
+        (root / 'static/neural/app/fixture.js').write_text('fixture')
+        page = root / 'index.html'
+        published = '<meta property="article:published_time" content="2026-09-20T17:15:14.688Z">'
+        modified = '<meta property="article:modified_time" content="2026-07-16T13:14:23.000Z">'
+        html = '<html><head>' + published + modified + '</head><body></body></html>'
+        page.write_text(html)
+        base = gate.capture(1, root)
+        for field in ('property=article:published_time', 'property=article:modified_time'):
+            assert field not in base['distinct_values'], 'capture would re-seed ' + field
+        print('PASS dates: capture omits both retired cardinalities')
+        legacy = copy.deepcopy(base); cur = copy.deepcopy(base)
+        legacy['distinct_values'].update({'property=article:published_time': 1077,
+                                          'property=article:modified_time': 28})
+        cur['distinct_values'].update({'property=article:published_time': 888,
+                                       'property=article:modified_time': 17})
+        assert not gate.check_census(legacy, cur), 'arbitrary cardinalities still compared'
+        print('PASS dates: legacy 1077/28 versus 888/17 is not a parity contract')
+        for tag, name in ((published, 'published'), (modified, 'modified')):
+            page.write_text(html.replace(tag, ''))
+            problems = gate.check_census(base, gate.capture(1, root))
+            assert any('meta key property=article:' + name + '_time' in p for p in problems), problems
+            print('PASS dates: missing ' + name + ' tag remains RED')
+        cur = copy.deepcopy(base); cur['distinct_values']['name=description'] = 999
+        assert any('name=description' in p for p in gate.check_census(base, cur))
+        print('PASS dates: unrelated distinct-value row remains RED')
+        print('PASS coverage: 5 date-cardinality cases; spread and provenance unasserted')
 
 
 def capture_driver_suite():
@@ -101,7 +218,14 @@ def capture_driver_suite():
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--capture-driver', action='store_true')
+    ap.add_argument('--app-assets', action='store_true')
+    ap.add_argument('--date-cardinality', action='store_true')
     args = ap.parse_args()
-    if not args.capture_driver:
-        ap.error('select --capture-driver; no empty test run')
-    capture_driver_suite()
+    if not (args.capture_driver or args.app_assets or args.date_cardinality):
+        ap.error('select --capture-driver, --app-assets or --date-cardinality; no empty test run')
+    if args.capture_driver:
+        capture_driver_suite()
+    if args.app_assets:
+        app_assets_suite()
+    if args.date_cardinality:
+        date_cardinality_suite()
