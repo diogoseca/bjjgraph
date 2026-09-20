@@ -95,6 +95,7 @@ import { ComponentResources } from ${q("quartz/plugins/emitters/componentResourc
 import { FolderPage } from ${q("quartz/plugins/emitters/folderPage")}
 import { TagPage } from ${q("quartz/plugins/emitters/tagPage")}
 import { NotFoundPage } from ${q("quartz/plugins/emitters/404")}
+import { ContentPage } from ${q("quartz/plugins/emitters/contentPage")}
 import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
 import realConfig from ${q("quartz.config")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
@@ -192,6 +193,22 @@ if (args.kind === "folderpage") {
   ctx.cfg.configuration = realConfig.configuration
   ctx.cfg.plugins = { transformers: [], filters: [], emitters: [] }
   out.returned = await FolderPage().emit(ctx, content, emptyResources)
+}
+
+if (args.kind === "contentpage") {
+  const content = args.pages.map((p) => defaultProcessedContent(p))
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = realConfig.configuration
+  ctx.cfg.plugins = { transformers: [], filters: [], emitters: [] }
+  const warnings = []
+  const realWarn = console.log
+  console.log = (...a) => warnings.push(a.join(" "))
+  try {
+    out.returned = await ContentPage().emit(ctx, content, emptyResources)
+  } finally {
+    console.log = realWarn
+  }
+  out.warnings = warnings
 }
 
 if (args.kind === "tagpage" || args.kind === "404") {
@@ -1052,5 +1069,93 @@ test("404Page emits one file whose RESOURCE base is root-absolute while its nav 
   console.log(
     `  [coverage] 404Page: 1 file, ${rootAbsolute} root-absolute resource URLs alongside ` +
       `${relativeNav} depth-relative nav links — two bases on one page, deliberately`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// ContentPage
+// ---------------------------------------------------------------------------------------------
+
+// 4,600 pages: 74.8% of everything the build emits. It carries two project-authored
+// optimisations that are NOT upstream — a slugMap built once for transclusion lookups, and writes
+// flushed in batches of 64 — and the batching is the interesting one, because a lost final flush
+// drops every page after the last full batch and NOTHING IN THE REPO NOTICES: every figure in
+// check_payload_budget.py is a MAX, so shrinking always passes, and `html_file_count` is recorded
+// and never compared (recon §2.1 calls this the worst blind spot in the repo). The fixture
+// therefore uses a page count that is deliberately NOT a multiple of 64.
+//
+// NON-KILLS, recorded:
+//   - Dropping `slugMap` from the props is byte-invisible: renderPage falls back to
+//     `allFiles.find`, which resolves the same page data. It is an O(n)→O(1) optimisation, not a
+//     behaviour, and no assertion here can distinguish it. MEASURED: that mutant was run and it
+//     SURVIVED, as predicted. Recorded rather than papered over — the right response is not a
+//     stricter assertion, because an assertion that failed on it would be asserting a
+//     performance choice as though it were output.
+//   - This asserts the page SET, the resource base, the batching and the case-variant pairs. It
+//     does not assert rendered body bytes; per-page byte parity is the render seam's job.
+
+test("ContentPage writes every page including the partial final batch, at pathToRoot resources", () => {
+  const root = tmp("bjj-contentpage-")
+  const output = path.join(root, "out")
+
+  // 70 pages: one full batch of 64 plus a remainder of 6. If the final flush is lost, exactly
+  // those 6 vanish and every existing gate in the repo still passes.
+  const pages = Array.from({ length: 70 }, (_, i) => ({
+    slug: `Section/Page-${String(i).padStart(2, "0")}`,
+    frontmatter: { title: `Page ${i}`, tags: [] },
+  }))
+  // The 9 case-variant pairs in build0 are distinct indexable URLs with identical content on a
+  // case-sensitive host (recon R6). Inherited under D-03 — both must still be emitted.
+  pages.push({ slug: "Positions/X-Guard/Top", frontmatter: { title: "X-Guard Top", tags: [] } })
+  pages.push({ slug: "Positions/X-Guard/top", frontmatter: { title: "X-Guard top", tags: [] } })
+
+  const { value } = probe(SNIPPET, {
+    env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "contentpage", root, output, pages }) },
+    cwd: root,
+  })
+
+  const emitted = walk(output)
+  assert.ok(emitted.length > 0, "coverage floor: ContentPage emitted nothing")
+  assert.equal(
+    emitted.length,
+    pages.length,
+    `ContentPage wrote ${emitted.length} of ${pages.length} pages. If the shortfall is 6, the ` +
+      `final partial batch was never flushed — and no payload, SEO or byte gate in this repo ` +
+      `would have caught it, because every one of them is a maximum`,
+  )
+  assert.deepEqual(
+    emitted.slice().sort(),
+    pages.map((p) => `${p.slug}.html`).sort(),
+    "ContentPage emitted a different page set",
+  )
+
+  // Case-variant pair: two distinct files, not one overwriting the other.
+  assert.ok(
+    emitted.includes("Positions/X-Guard/Top.html") && emitted.includes("Positions/X-Guard/top.html"),
+    "the case-variant pair collapsed to one file; the build host is case-sensitive and build0 ships both",
+  )
+
+  // Resources are page-relative here — the opposite of 404Page's root-absolute base, and the
+  // reason both are pinned: a replacement that unifies them breaks one of the two.
+  const deep = fs.readFileSync(path.join(output, "Positions", "X-Guard", "Top.html"), "utf8")
+  assert.ok(
+    deep.includes('"../../../index.css"'),
+    "a 3-deep content page no longer loads ../../../index.css; the pathToRoot resource base is gone",
+  )
+  assert.ok(!deep.includes('"/index.css"'), "a content page is loading /index.css root-absolutely")
+
+  // The missing-index warning is a real signal, not decoration: no page here has the slug
+  // `index`, so it must fire.
+  assert.ok(
+    value.warnings.some((w) => w.includes("index.md")),
+    `ContentPage did not warn about the missing index page. Logs: ${JSON.stringify(value.warnings).slice(0, 300)}`,
+  )
+
+  const returned = value.returned ?? []
+  assert.equal(returned.length, emitted.length, "ContentPage's return value and its output disagree")
+  console.log(
+    `  [coverage] ContentPage: ${emitted.length} pages written (${Math.floor(pages.length / 64)} ` +
+      `full batch of 64 + ${pages.length % 64} in the final flush), 1 case-variant pair kept ` +
+      `distinct, resources page-relative`,
   )
 })
