@@ -111,6 +111,12 @@ const REAL_IGNORE_PATTERNS = [
 ]
 
 // One bundle, driven against many fixtures through the environment.
+//
+// NOTE FOR ANYONE EDITING BELOW: this is a TEMPLATE LITERAL. A backtick or a ${...} inside it —
+// including inside a COMMENT — terminates or interpolates the outer string, and the failure
+// surfaces as a SyntaxError from the bundled output with a line number that points nowhere near
+// the comment you wrote. Use plain quotes and string concatenation inside the snippet. Cost me
+// three separate debugging rounds before I wrote this down.
 const SNIPPET = `
 import { Static } from ${q("quartz/plugins/emitters/static")}
 import { Assets } from ${q("quartz/plugins/emitters/assets")}
@@ -265,6 +271,91 @@ if (args.kind === "contentpage") {
     console.log = realWarn
   }
   out.warnings = warnings
+}
+
+if (args.kind === "contentpage-shard") {
+  const content = args.pages.map((p) => {
+    const tuple = defaultProcessedContent(p)
+    if (p.transcludes) {
+      // A real block transclusion, hand-built as HAST. renderPage resolves the target through
+      // componentData.slugMap and - critically - there is NO fallback when the map is PRESENT
+      // and MISSES: renderPage.tsx:455 does an early return, silently dropping it. So a
+      // shard that builds its slugMap from its OWN pages instead of the complete roster loses
+      // every cross-shard transclusion without a word. This is what makes the roster load-bearing
+      // rather than merely present, and it is the one thing the byte comparison could not see
+      // until this page existed.
+      tuple[0].children = [
+        {
+          type: "element",
+          tagName: "blockquote",
+          properties: { className: ["transclude"], dataBlock: "#^intro" },
+          children: [
+            {
+              type: "element",
+              tagName: "a",
+              properties: { "data-slug": p.transcludes, href: "./" + p.transcludes },
+              children: [],
+            },
+          ],
+        },
+      ]
+    }
+    if (p.providesBlock) {
+      tuple[1].data.blocks = {
+        intro: {
+          type: "element",
+          tagName: "p",
+          properties: {},
+          children: [{ type: "text", value: "TRANSCLUDED-MARKER-9f2a" }],
+        },
+      }
+    }
+    return tuple
+  })
+  const mk = (output) => {
+    const c = mkctx({ ...args, output })
+    c.cfg.configuration = realConfig.configuration
+    c.cfg.plugins = { transformers: [], filters: [], emitters: [] }
+    return c
+  }
+  const instance = ContentPage()
+  const allFiles = content.map(([, file]) => file.data)
+
+  // A: the ordinary 3-arg ABI over the whole corpus.
+  const warnA = []
+  let realLog = console.log
+  console.log = (...a) => warnA.push(a.join(" "))
+  try {
+    out.returnedA = await instance.emit(mk(args.outputA), content, emptyResources)
+  } finally {
+    console.log = realLog
+  }
+
+  // B: the same corpus through emitShard, split into contiguous OWNED slices, every shard
+  // receiving the COMPLETE ordered roster — which is what the driver does
+  // (worker.ts slices content to renderCount; allFiles is the full corpus map).
+  const size = Math.ceil(content.length / args.shards)
+  out.warnB = []
+  out.returnedB = []
+  for (let i = 0, start = 0; start < content.length; i++, start += size) {
+    const owned = content.slice(start, start + size)
+    const w = []
+    realLog = console.log
+    console.log = (...a) => w.push(a.join(" "))
+    try {
+      // The 5th argument is the shard index. It is ignored by an adapter that elects by value
+      // and used by one that elects by index, so this gate drives BOTH without changing.
+      out.returnedB.push(
+        await instance.emitShard(mk(args.outputB), owned, emptyResources, allFiles, i),
+      )
+    } finally {
+      console.log = realLog
+    }
+    out.warnB.push(w)
+  }
+  out.warnA = warnA
+  out.customLayoutHasShard =
+    ContentPage({ pageBody: instance.getQuartzComponents()[0] }).emitShard !== undefined
 }
 
 if (args.kind === "tagpage" || args.kind === "404") {
@@ -1439,3 +1530,117 @@ test("ComponentResources collects components in first-seen order across emitters
       `deduped to ${positions.length}, first-seen order preserved`,
   )
 })
+
+// ---------------------------------------------------------------------------------------------
+// ContentPage — the SHARDED ABI must be byte-identical to the un-sharded one
+// ---------------------------------------------------------------------------------------------
+
+// `quartz.config.ts` calls `Plugin.ContentPage()` with no arguments, so `userOpts` is undefined,
+// `emitShard` is defined, and PRODUCTION SHARDS. Every other ContentPage assertion in this file
+// drives the 3-arg `emit()`, so without this test the path production actually runs is ungated —
+// which is the same class of hole the selection/order audit was looking for, arriving in a patch.
+//
+// The assertion is the byte-parity discipline in one test: split the corpus into owned slices,
+// render each through `emitShard` with the COMPLETE roster, and require the union to equal the
+// un-sharded output byte for byte. Anything the shard transport loses — a dropped page, a
+// different slugMap, a roster that is a copy rather than the corpus — shows up here.
+//
+// The warning is elected to exactly ONE shard. A diagnostic that fires N times is noise; one that
+// fires zero times is worse, because its absence reads as health. This asserts exactly one.
+
+test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning fires exactly once", () => {
+  const root = tmp("bjj-cp-shard-")
+  const outputA = path.join(root, "out-whole")
+  const outputB = path.join(root, "out-sharded")
+
+  // 20 pages over 3 shards, so slices are uneven (7/7/6) and at least one shard is short. No page
+  // has the slug `index`, so the missing-home-page warning is armed.
+  const pages = Array.from({ length: 20 }, (_, i) => ({
+    slug: `Section/Page-${String(i).padStart(2, "0")}`,
+    frontmatter: { title: `Page ${i}`, tags: [] },
+    // Page 0 is in shard 0; page 19 is in the LAST shard. The transclusion therefore CROSSES a
+    // shard boundary, which is the only configuration in which the complete roster matters.
+    ...(i === 0 ? { transcludes: "Section/Page-19" } : {}),
+    ...(i === 19 ? { providesBlock: true } : {}),
+  }))
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({
+        kind: "contentpage-shard",
+        root,
+        outputA,
+        outputB,
+        output: outputA,
+        pages,
+        shards: 3,
+      }),
+    },
+  })
+
+  const whole = walk(outputA)
+  const sharded = walk(outputB)
+  assert.ok(whole.length > 0, "coverage floor: the un-sharded run emitted nothing")
+  assert.deepEqual(
+    sharded,
+    whole,
+    "the union of the shards is a different file set than the un-sharded emit",
+  )
+  assert.equal(whole.length, pages.length, "the un-sharded emit lost or duplicated a page")
+
+  let compared = 0
+  for (const rel of whole) {
+    assert.deepEqual(
+      fs.readFileSync(path.join(outputB, rel)),
+      fs.readFileSync(path.join(outputA, rel)),
+      `${rel} differs between the sharded and un-sharded emit`,
+    )
+    compared++
+  }
+  assert.ok(compared > 0, "coverage floor: zero files byte-compared across the two ABIs")
+
+  // Exactly one shard warns. Count across all shards, not per shard: N warnings is noise and
+  // zero is a diagnostic that has silently stopped working.
+  const warned = value.warnB.filter((w) => w.some((line) => line.includes("index.md"))).length
+  assert.equal(
+    warned,
+    1,
+    `the missing-index warning fired in ${warned} of ${value.warnB.length} shards; exactly one shard must own it`,
+  )
+  assert.ok(
+    value.warnA.some((line) => line.includes("index.md")),
+    "the un-sharded path stopped warning about the missing index page",
+  )
+
+  // FINDING 3 from the review, pinned: the custom-layout opt-out is a selection rule, and a
+  // selection rule with no assertion flips silently on the next refactor.
+  assert.equal(
+    value.customLayoutHasShard,
+    false,
+    "a custom-layout ContentPage now exposes emitShard — custom layouts may read arbitrary " +
+      "other-page trees that the shard transport omits with throwing accessors",
+  )
+
+  // THE ROSTER IS LOAD-BEARING, not merely present. Page 0 transcludes a block from page 19,
+  // which a 3-way split puts in a different shard. If the marker is absent the transclusion was
+  // dropped, which is exactly what a shard-local slugMap does — silently.
+  const wholeSrc = fs.readFileSync(path.join(outputA, "Section", "Page-00.html"), "utf8")
+  const shardedSrc = fs.readFileSync(path.join(outputB, "Section", "Page-00.html"), "utf8")
+  assert.ok(
+    wholeSrc.includes("TRANSCLUDED-MARKER-9f2a"),
+    "the un-sharded run did not resolve the transclusion, so this fixture proves nothing",
+  )
+  assert.ok(
+    shardedSrc.includes("TRANSCLUDED-MARKER-9f2a"),
+    "the sharded run lost a CROSS-SHARD transclusion — the slugMap was built from the shard's " +
+      "own pages instead of the complete roster, and renderPage drops an unresolved transclude " +
+      "silently (no fallback when slugMap is present and misses)",
+  )
+
+  console.log(
+    `  [coverage] ContentPage shard parity: ${compared} files byte-compared across ${value.warnB.length} ` +
+      `shards vs one un-sharded run, warning fired in exactly ${warned}, 1 cross-shard ` +
+      `transclusion resolved, custom layout opts out`,
+  )
+})
+
