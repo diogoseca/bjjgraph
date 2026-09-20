@@ -739,11 +739,13 @@ def walk(root: str):
 # "never looked". emit_diff.py hard-fails on a zero here.
 # ---------------------------------------------------------------------------
 
-# Fields whose DISTINCT-VALUE COUNT is tracked site-wide. Keep this short: it is a
-# detector for "this stopped varying", not a general census.
+# Observed cardinalities only, NOT date-provenance or spread assertions (D-106).
+# 1,077 checkout timestamps inside 1.557 seconds are not a healthy distribution.
+# check_build_fingerprint excludes the two date counts from baseline equality;
+# X-01's spread gate must use distinct_days, span_days and max_day_share instead.
 DISTINCT_TRACK = (
-    "property=article:modified_time",   # git commit date -- collapses if git lookup fails
-    "property=article:published_time",  # birthtime -- collapses if the fs loses birthtime
+    "property=article:modified_time",
+    "property=article:published_time",
     "name=description",
     "property=og:title",
 )
@@ -927,7 +929,7 @@ def main():
         print(f"    {m:28s} {n:,}")
     print(f"  by_class                 {cov['by_class']}")
     print(f"  jsonld @types            {cov['distinct_jsonld_types']}")
-    print("  distinct values (a collapse here means a field stopped varying):")
+    print("  distinct values (observations only; timestamp cardinality does NOT prove date spread):")
     for k, n in cov["distinct_values"].items():
         print(f"    {k:34s} {n:,}")
     print(f"  meta keys                {len(cov['distinct_meta_keys'])} distinct")

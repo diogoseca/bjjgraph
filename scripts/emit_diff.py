@@ -78,9 +78,10 @@ source, and each rule must carry a `reason`. The rules live in a JSON file passe
 Each rule prints the number of differences it suppressed. A rule that suppresses
 everything is visible as a large number, not as a clean report.
 
-D-75/D-86 retire the Head publication fallback: BOTH Head fields stay strict,
-including their deliberate removal on the authored-publication-date fix. Retaining
-old Head value_proofs in a manifest cannot reactivate that retired allowance.
+D-75/D-86 retire the Head publication fallback: BOTH Head fields stay strict through
+the temporary authored-only absence and X-01's planned git-derived restoration.
+Neither state is normalized or silently promoted into a baseline. Retaining old
+Head value_proofs in a manifest cannot reactivate that retired allowance.
 D-35's footer-year rule is explicitly supplied. Date rules are confined to exactly
 sitemap.xml lastmod and index.xml pubDate, with presence/count/calendar format pinned.
 
