@@ -33,6 +33,8 @@ class ArticleParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        # Inherited pages vary tag closing syntax and noindex/follow spacing.
+        # Preserve those emitted forms; inspect parsed attributes, not literal tags.
         if tag == "meta" and attrs.get("name", "").lower() == "robots":
             self.noindex |= "noindex" in attrs.get("content", "").lower()
         node = [tag, attrs, []]
