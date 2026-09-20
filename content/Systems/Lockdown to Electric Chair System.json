@@ -168,7 +168,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes combining lockdown attacks, recovery and top-side escapes.",
-      "best_for": "Half-guard players interested in lockdown offense and its defensive problems."
+      "best_for": "Half-guard players interested in lockdown offense and its defensive problems.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/TheLockdownBlueprintbyTomDeBlass_FRONTCover.jpg?v=1762459692"
     }
   ],
   "guide": {
@@ -199,8 +200,8 @@
         "url": "https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass",
         "title": "The Lockdown Blueprint by Tom DeBlass",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Tom DeBlass, exact title and both electric-chair attack and escape headings verified. Listings support the role comparison; no stretch, extension or submission-execution instructions inspected."
+        "checked_on": "2026-09-19",
+        "note": "Tom DeBlass, exact title and both electric-chair attack and escape headings verified. Listings support the role comparison; no stretch, extension or submission-execution instructions inspected. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -213,15 +214,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/df4ca4cf-34c4-4ed5-9562-7bfaeb5c84b2?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/15ee87cd-eff8-41dd-b025-26cb606365bb?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Tom DeBlass / The Lockdown Blueprint",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Lockdown Blueprint by Tom DeBlass",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     }
   }

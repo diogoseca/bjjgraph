@@ -7,6 +7,7 @@ description: "John Connors and Jon Grayzel’s published approach to explaining 
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Teaching BJJ: Explanation, Recall and Application","description":"John Connors and Jon Grayzel’s published approach to explaining BJJ techniques, checking recall and moving into partner practice."}
 </script>
@@ -19,6 +20,7 @@ description: "John Connors and Jon Grayzel’s published approach to explaining 
 <p class="system-reference-count">10 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 In Teaching BJJ to Kids, John Connors and Jon Grayzel describe lessons built around purpose, identification, execution and application. The final phase is students trying the technique with partners against gradually increasing resistance. Connors says he uses the presentation format in adult classes as well.
@@ -26,7 +28,6 @@ In Teaching BJJ to Kids, John Connors and Jon Grayzel describe lessons built aro
 During explanations, he asks students to recall the next step and offers hints or the answer when they struggle. The article also describes positional practice followed by free grappling. It is a concrete account of one teaching approach, rather than a standardized instructor curriculum.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

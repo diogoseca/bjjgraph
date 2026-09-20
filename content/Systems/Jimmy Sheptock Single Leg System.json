@@ -84,7 +84,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four parts covering single-leg setups, finishes and common wrestling defenses.",
-      "best_for": "Grapplers seeking wrestling-specific depth on the single-leg takedown."
+      "best_for": "Grapplers seeking wrestling-specific depth on the single-leg takedown.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JimmySheptock_TheSingleLegTakedown_FRONTCover.jpg?v=1762459114"
     }
   ],
   "guide": {
@@ -115,8 +116,8 @@
         "url": "https://bjjfanatics.com/products/the-single-leg-takedown-by-jimmy-sheptock",
         "title": "The Single Leg Takedown by Jimmy Sheptock",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Jimmy Sheptock and exact title verified. The public listing identifies wrestling scope, tie-clearing and upright/low finishing topics; no BJJ adaptation or physical drill inferred."
+        "checked_on": "2026-09-19",
+        "note": "Jimmy Sheptock and exact title verified. The public listing identifies wrestling scope, tie-clearing and upright/low finishing topics; no BJJ adaptation or physical drill inferred. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -132,6 +133,18 @@
         "system": "Aaron Benzrihem Ankle Pick System",
         "reason": "Basics To Advanced: Ankle Picks For Jiu Jitsu covers a different takedown family with standing, seated-guard and gi-grip entries."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/d23efc8e-f4c1-4c6e-9058-5edfc93dd8e3?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "course",
+      "title": "Official course introduction — The Single Leg Takedown by Jimmy Sheptock",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   }
 }

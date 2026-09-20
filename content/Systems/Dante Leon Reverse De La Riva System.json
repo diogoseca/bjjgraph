@@ -92,8 +92,8 @@
         "url": "https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon",
         "title": "No Gi Reverse De La Riva by Dante Leon",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified knee-slice recovery, knee-shield branches, upper-body attacks and a separate standing-opponent section. Listing and official sample iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified knee-slice recovery, knee-shield branches, upper-body attacks and a separate standing-opponent section. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "leon-wrestling-listing",
@@ -106,15 +106,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c14b2498-be7c-4078-ae1e-2c4abee0e75e?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/450ac28b-6599-488b-8cd4-593ea1e744b9?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "leon-rdlr-listing",
-      "title": "Official sample — Dante Leon / No Gi Reverse De La Riva",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — No Gi Reverse De La Riva by Dante Leon",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -134,7 +133,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes of reverse-De-La-Riva recovery and offense against different opponent postures.",
-      "best_for": "You want to develop reverse De La Riva beyond recovery, including inversion-based offense."
+      "best_for": "You want to develop reverse De La Riva beyond recovery, including inversion-based offense.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/DanteLeon_No-GiReverseDeLaRiva_CoverFRONT.jpg?v=1762462014"
     }
   ],
   "flashcards": []

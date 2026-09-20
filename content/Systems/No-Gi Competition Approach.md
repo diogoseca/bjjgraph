@@ -7,6 +7,7 @@ description: "Differences in IBJJF and ADCC positional scores, match phases and 
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"No-Gi Competition: IBJJF and ADCC","description":"Differences in IBJJF and ADCC positional scores, match phases and division restrictions."}
 </script>
@@ -19,6 +20,7 @@ description: "Differences in IBJJF and ADCC positional scores, match phases and 
 <p class="system-reference-count">18 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 No-gi competition does not have a single scoring model. A qualifying mount is worth four points in IBJJF and two in the cited ADCC championship rules. ADCC also separates match phases by when points apply and includes negative points for specified actions.
@@ -26,7 +28,6 @@ No-gi competition does not have a single scoring model. A qualifying mount is wo
 Division matters as much as the event name. ADCC’s beginner/intermediate supplement changes technique permissions and timing, while IBJJF uses age, belt and format categories. Professional championship rules therefore cannot stand in for every no-gi division.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

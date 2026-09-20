@@ -84,7 +84,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Five parts on foot sweeps, clinch throws, grip fighting and shot defense.",
-      "best_for": "Grapplers adding sweeps and trips to an upright clinch game."
+      "best_for": "Grapplers adding sweeps and trips to an upright clinch game.",
+      "image": "https://bjjfanatics.com/cdn/shop/files/SamuraiFootSweeps_LegTripsbyKentaIwamotofront.jpg?v=1762467331"
     }
   ],
   "guide": {
@@ -113,8 +114,8 @@
         "url": "https://bjjfanatics.com/products/samurai-foot-sweeps-leg-trips-by-kenta-iwamoto",
         "title": "Samurai Foot Sweeps & Leg Trips by Kenta Iwamoto",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Kenta Iwamoto attribution, title and five-volume contents verified. The situation lesson and clinch/defense scope are advertised topics; historical marketing and effectiveness claims are not adopted. Sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Kenta Iwamoto attribution, title and five-volume contents verified. The situation lesson and clinch/defense scope are advertised topics; historical marketing and effectiveness claims are not adopted. Sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -127,15 +128,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/15add3f7-9f26-42fc-b1ba-7186dd45d16e?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/85cb3ec8-95a5-4c3a-aa5e-7dc979f66ab3?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Kenta Iwamoto / Samurai Foot Sweeps & Leg Trips",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Samurai Foot Sweeps & Leg Trips by Kenta Iwamoto",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

@@ -93,8 +93,8 @@
         "url": "https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher",
         "title": "Triangles Enter The System by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and syllabus covering front, opposite, rear, side and reverse triangles, entries and submission connections. Chapter labels identify coverage, not execution details."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and syllabus covering front, opposite, rear, side and reverse triangles, entries and submission connections. Chapter labels identify coverage, not execution details. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "ryan-triangle",
@@ -107,15 +107,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/b8066616-53a3-49d5-bc89-fb6bdeeb668d?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/7ea4a2c8-ca55-4cc2-9851-882449795557?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "danaher-triangles",
-      "title": "Official sample — John Danaher / Triangles Enter The System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Triangles Enter The System by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -135,7 +134,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eight volumes covering triangle configurations, entries across positions and connections to other submissions.",
-      "best_for": "Grapplers expanding a front-triangle game into other orientations and top-position attacks."
+      "best_for": "Grapplers expanding a front-triangle game into other orientations and top-position attacks.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JohnDanaher_TrianglesEnterTheSystem_FRONTCover1.jpg?v=1762458507"
     }
   ]
 }

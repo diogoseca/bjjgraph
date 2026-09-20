@@ -185,7 +185,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Eight volumes covering front-headlock entries, control, submissions and positional advances.",
       "best_for": "Grapplers building a front-headlock game beyond a single guillotine finish.",
-      "course_url": "https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher"
+      "course_url": "https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JohnDanaher_TheFrontHeadlockSystem_FRONTCover1psd.jpg?v=1762458383"
     }
   ],
   "guide": {
@@ -214,8 +215,8 @@
         "url": "https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher",
         "title": "The Front Headlock System by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, John Danaher attribution and eight-volume outline covering standing, kneeling, seated and passing contexts. The page labels an embedded sample; sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, John Danaher attribution and eight-volume outline covering standing, kneeling, seated and passing contexts. The page labels an embedded sample; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "jones-power-ride",
@@ -228,15 +229,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/a0db0855-0668-4056-934d-95606522065f?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/b6ebeee7-bfee-4144-b1ad-170373f4e486?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "danaher-front-headlock",
-      "title": "Official sample — John Danaher / The Front Headlock System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Front Headlock System by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

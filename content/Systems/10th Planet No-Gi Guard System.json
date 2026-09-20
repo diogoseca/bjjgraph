@@ -179,8 +179,8 @@
         "url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
         "title": "The Ultimate Rubber Guard by Eddie Bravo",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "garcia-xguard-listing",
@@ -192,14 +192,16 @@
       }
     ],
     "preview": {
-      "provider": "youtube",
-      "embed_url": "https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0",
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0321d180-42f0-4969-8608-07bb82d411af?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "bravo-rubber-listing",
-      "title": "Official trailer — Eddie Bravo / The Ultimate Rubber Guard",
+      "title": "Official course introduction — The Ultimate Rubber Guard by Eddie Bravo",
       "kind": "trailer",
-      "checked_on": "2026-09-16",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
     },
     "alternatives": []
   },
@@ -213,7 +215,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eddie Bravo’s rubber-guard course, including its history and selected half-guard material.",
-      "best_for": "You want Bravo’s historical context as well as his rubber-guard instruction."
+      "best_for": "You want Bravo’s historical context as well as his rubber-guard instruction.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/EddieBravo_TheUltimateRubberGuard_FRONTCover.jpg?v=1762459321"
     }
   ],
   "flashcards": []

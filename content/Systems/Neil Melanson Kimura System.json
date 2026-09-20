@@ -93,8 +93,8 @@
         "url": "https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson",
         "title": "The Filthy Kimura by Neil Melanson",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and four-volume syllabus, including double-wrist-lock foundations, frame counters, guard sequences and half-guard material."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and four-volume syllabus, including double-wrist-lock foundations, frame counters, guard sequences and half-guard material. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "danaher-kimura",
@@ -110,7 +110,19 @@
         "system": "Kimura Trap System",
         "reason": "John Danaher’s eight-volume course expands dorsal and T kimuras into positional switches and back takes."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/3e3d1a37-6ba8-4293-95e5-350ffa2c3032?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "melanson-kimura",
+      "title": "Official course introduction — The Filthy Kimura by Neil Melanson",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   },
   "products": [
     {
@@ -122,7 +134,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes of kimura variations, counters and connected arm attacks, including guard and half-guard sequences.",
-      "best_for": "Grapplers who want alternative arm-lock configurations and countering material around the kimura."
+      "best_for": "Grapplers who want alternative arm-lock configurations and countering material around the kimura.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/TheFilthyKimurabyNeilMelanson_FRONTCover.jpg?v=1762458380"
     }
   ]
 }

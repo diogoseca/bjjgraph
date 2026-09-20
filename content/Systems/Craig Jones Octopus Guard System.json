@@ -91,8 +91,8 @@
         "url": "https://bjjfanatics.com/products/octopus-guard-2-0-by-craig-jones",
         "title": "Octopus Guard 2.0 by Craig Jones",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Listing inspected: instructor, no-gi focus, four-volume outline, lesson labels/times and official free-sample iframe. Sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Listing inspected: instructor, no-gi focus, four-volume outline, lesson labels/times and official free-sample iframe. Sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "telles-octopus-listing",
@@ -105,15 +105,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/70f6a194-5a06-4114-b450-292e1373dff8?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/9059915e-ab2f-4336-baf0-cfcf47f38248?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "craig-octopus-listing",
-      "title": "Official sample — Craig Jones / Octopus Guard 2.0",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Octopus Guard 2.0 by Craig Jones",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -133,7 +132,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes of no-gi octopus, headlock responses and turtle offense.",
-      "best_for": "You want no-gi octopus material that continues into headlock and turtle exchanges."
+      "best_for": "You want no-gi octopus material that continues into headlock and turtle exchanges.",
+      "image": "https://bjjfanatics.com/cdn/shop/files/CraigJonesOctopusGuard2CoverFront.jpg?v=1766766183"
     }
   ],
   "flashcards": []

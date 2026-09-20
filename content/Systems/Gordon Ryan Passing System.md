@@ -7,6 +7,7 @@ description: "Systematically Attacking The Guard by Gordon Ryan covers split squ
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Gordon Ryan: No-Gi Guard Passing","description":"Systematically Attacking The Guard by Gordon Ryan covers split squat, half guard, half butterfly, body locks and leg-entanglement positions, plus rolling."}
 </script>
@@ -19,8 +20,18 @@ description: "Systematically Attacking The Guard by Gordon Ryan covers split squ
 <p class="system-reference-count">12 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Systematically Attacking The Guard by Gordon Ryan" data-system-preview data-system-key="Gordon Ryan Passing System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c3917e87-3df1-4642-82b5-f93bdaec2f04?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Systematically Attacking The Guard by Gordon Ryan">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/GordonRyan_SystematicallyAttackingTheGuard_FRONTCover1.jpg?v=1762458535" alt="Systematically Attacking The Guard course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Systematically Attacking The Guard</h2><span class="system-course__instructor">By Gordon Ryan</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Systematically Attacking The Guard</h2><p class="system-course__instructor">By Gordon Ryan</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ Systematically Attacking The Guard by Gordon Ryan builds its no-gi passing appro
 Sparring footage and rolling commentary accompany the technical material. It is a broad option for passers who need responses to several guards, rather than depth in only one pass.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Gordon Ryan Passing System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c3917e87-3df1-4642-82b5-f93bdaec2f04?autoplay=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official trailer — Gordon Ryan / Systematically Attacking The Guard">
-<h2>Official trailer</h2>
-<p>Official trailer — Gordon Ryan / Systematically Attacking The Guard</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the trailer on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Systematically Attacking The Guard · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -82,6 +79,7 @@ Sparring footage and rolling commentary accompany the technical material. It is 
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Systematically Attacking The Guard</a>
 </section>
 
@@ -137,10 +135,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/gordon-ryan-passing-system" data-product-id="ryan-guard" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity, eight-volume outline, split-squat/half-guard/half-butterfly framing, and rolling/commentary volumes. Listing inspected; trailer content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/gordon-ryan-passing-system" data-product-id="ryan-guard" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-19. Verified course identity, eight-volume outline, split-squat/half-guard/half-butterfly framing, and rolling/commentary volumes. Listing inspected; trailer content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

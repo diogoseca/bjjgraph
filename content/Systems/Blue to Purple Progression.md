@@ -7,6 +7,7 @@ description: "Technical development and belt recognition, explained through Step
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Blue to Purple: Development and Promotion","description":"Technical development and belt recognition, explained through Stephan Kesting’s positional framework and IBJJF graduation rules."}
 </script>
@@ -19,6 +20,7 @@ description: "Technical development and belt recognition, explained through Step
 <p class="system-reference-count">14 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Technical breadth includes what happens on both sides of a position. Stephan Kesting’s Roadmap separates submissions, top transitions and bottom transitions: for closed guard, that includes passing from top and sweeping from bottom. His examples describe a personal repertoire, not a compulsory purple-belt syllabus.
@@ -26,7 +28,6 @@ Technical breadth includes what happens on both sides of a position. Stephan Kes
 Promotion is a separate decision. The IBJJF graduation rules leave its timing to the professor while setting minimum periods and exceptions for recognition. Completing a minimum period does not itself establish readiness for the next belt.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

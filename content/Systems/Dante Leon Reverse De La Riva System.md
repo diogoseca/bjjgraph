@@ -7,6 +7,7 @@ description: "Reverse De La Riva offense against kneeling and standing opponents
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Dante Leon: No-Gi Reverse De La Riva","description":"Reverse De La Riva offense against kneeling and standing opponents, with knee-shield and inversion options."}
 </script>
@@ -19,8 +20,18 @@ description: "Reverse De La Riva offense against kneeling and standing opponents
 <p class="system-reference-count">6 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — No Gi Reverse De La Riva by Dante Leon" data-system-preview data-system-key="Dante Leon Reverse De La Riva System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/450ac28b-6599-488b-8cd4-593ea1e744b9?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — No Gi Reverse De La Riva by Dante Leon">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/DanteLeon_No-GiReverseDeLaRiva_CoverFRONT.jpg?v=1762462014" alt="No Gi Reverse De La Riva course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>No Gi Reverse De La Riva</h2><span class="system-course__instructor">By Dante Leon</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>No Gi Reverse De La Riva</h2><p class="system-course__instructor">By Dante Leon</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "Reverse De La Riva offense against kneeling and standing opponents
 No Gi Reverse De La Riva develops the position from knee-slice interception and recovery into attacks. Dante Leon includes kiss-of-the-dragon back takes, shin-to-shin changes and entries to X guard and leg entanglements. Upper-body submissions and attacks against standing opponents round out the four-volume course.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Dante Leon Reverse De La Riva System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c14b2498-be7c-4078-ae1e-2c4abee0e75e?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Dante Leon / No Gi Reverse De La Riva">
-<h2>Official sample</h2>
-<p>Official sample — Dante Leon / No Gi Reverse De La Riva</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">No Gi Reverse De La Riva · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -77,6 +74,7 @@ No Gi Reverse De La Riva develops the position from knee-slice interception and 
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: No Gi Reverse De La Riva</a>
 </section>
 
@@ -114,10 +112,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-source-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-affiliate="false" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-product-id="leon-rdlr-listing" target="_blank" rel="noopener">No Gi Reverse De La Riva by Dante Leon</a> — official listing; checked 2026-09-16. Verified knee-slice recovery, knee-shield branches, upper-body attacks and a separate standing-opponent section. Listing and official sample iframe inspected; player content and playback not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-source-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-affiliate="false" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-product-id="leon-rdlr-listing" target="_blank" rel="noopener">No Gi Reverse De La Riva by Dante Leon</a> — official listing; checked 2026-09-19. Verified knee-slice recovery, knee-shield branches, upper-body attacks and a separate standing-opponent section. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

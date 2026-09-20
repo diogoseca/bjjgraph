@@ -93,8 +93,8 @@
         "url": "https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau",
         "title": "Dynamic Ankle Locks by Jason Rau",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "danaher-leglocks",
@@ -107,15 +107,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/235333b7-8542-4846-b54b-83726ffe04e4?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/f67ac1b9-2411-40c0-a082-5f16d3f0ba7b?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "rau-ankles",
-      "title": "Official sample — Jason Rau / Dynamic Ankle Locks",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Dynamic Ankle Locks by Jason Rau",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -135,7 +134,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Three volumes of ankle-lock mechanics, posture-specific attacks and alternatives when the finish is unavailable.",
-      "best_for": "Grapplers building around ankle attacks while adding Aoki, heel-hook and back-taking options."
+      "best_for": "Grapplers building around ankle attacks while adding Aoki, heel-hook and back-taking options.",
+      "image": "https://bjjfanatics.com/cdn/shop/files/JasonRau_DynamicAnkleLocks_CoverFRONT.jpg?v=1762466069"
     }
   ]
 }

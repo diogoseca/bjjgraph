@@ -7,6 +7,7 @@ description: "How IBJJF guard-pass scoring, continuous positional progression an
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"IBJJF Points, Control and Tiebreakers","description":"How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work."}
 </script>
@@ -19,6 +20,7 @@ description: "How IBJJF guard-pass scoring, continuous positional progression an
 <p class="system-reference-count">17 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Side control is not automatically a three-point guard pass. IBJJF requires a guard to have been passed and the specified control to be established. Submission holds can affect when the stabilization count starts or whether it is interrupted.
@@ -26,7 +28,6 @@ Side control is not automatically a three-point guard pass. IBJJF requires a gua
 Continuous progression can also score cumulatively. Article 3.4 gives a pass followed by mount as a seven-point example, with the final three-second count continuing the earlier control. At regulation time, equal points are separated by advantages, then fewer penalties, and finally a referee decision if the tie remains.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

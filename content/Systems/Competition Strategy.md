@@ -7,6 +7,7 @@ description: "The distinction between a developing repertoire and an event-speci
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Competition Game Plans","description":"The distinction between a developing repertoire and an event-specific game plan in Watson BJJ’s published strategy map."}
 </script>
@@ -19,6 +20,7 @@ description: "The distinction between a developing repertoire and an event-speci
 <p class="system-reference-count">17 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 A repertoire contains techniques a student uses and techniques still being developed. Watson BJJ’s Gameplan / Strategy Map makes the tournament plan narrower: it focuses on the game intended for the next event.
@@ -26,7 +28,6 @@ A repertoire contains techniques a student uses and techniques still being devel
 The map includes standing choices, top and bottom guard positions, pins, turtle and leg attacks. It also gives defensive situations their own place, including being mounted or having the back taken. The published resource is a planning worksheet; its examples do not amount to a complete tactical curriculum.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

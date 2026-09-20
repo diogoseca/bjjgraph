@@ -7,6 +7,7 @@ description: "The limits of sport-grappling assumptions in Stephan Kesting’s d
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Sport Grappling and Self-Defense","description":"The limits of sport-grappling assumptions in Stephan Kesting’s discussion of self-defense."}
 </script>
@@ -19,6 +20,7 @@ description: "The limits of sport-grappling assumptions in Stephan Kesting’s d
 <p class="system-reference-count">13 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Stephan Kesting’s Grappling for Self Defense argues that familiar sparring habits depend on both explicit and unspoken rules. His example of an inexperienced partner grabbing individual fingers illustrates how an unexpected action can fall outside those habits.
@@ -26,7 +28,6 @@ Stephan Kesting’s Grappling for Self Defense argues that familiar sparring hab
 The distinction is about context: permitted attacks, clothing and the number of people involved can differ from an ordinary round. This discussion explains why recognizing a familiar position does not settle every self-defense question.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

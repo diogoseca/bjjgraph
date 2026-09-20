@@ -102,8 +102,8 @@
         "url": "https://bjjfanatics.com/products/the-guard-retention-anthology-by-lachlan-giles-ariel-tabak",
         "title": "The guard Retention Anthology: Around and Under by Lachlan Giles & Ariel Tabak",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing and official sample iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "giles-kguard-listing",
@@ -116,15 +116,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/b81f75fb-7594-4cfa-ab47-e7790033ae50?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/ff25bd24-411a-4b5a-9b32-a77f8d4e70ee?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "giles-tabak-retention-listing",
-      "title": "Official sample — Lachlan Giles & Ariel Tabak / When To Sit Up Escape",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The guard Retention Anthology: Around and Under by Lachlan Giles & Ariel Tabak",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -144,7 +143,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eight parts on retaining guard against around- and under-the-legs passes.",
-      "best_for": "You lose guard to torreandos, leg drags, movement toward north-south or under-the-legs passing."
+      "best_for": "You lose guard to torreandos, leg drags, movement toward north-south or under-the-legs passing.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/LachlanGiles_ArielTabak_TheguardRetentionAnthologyAroundandUnder_FRONTCover2.jpg?v=1762459707"
     }
   ],
   "flashcards": []

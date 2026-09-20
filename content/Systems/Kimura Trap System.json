@@ -160,8 +160,8 @@
         "url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher",
         "title": "Kimura: Enter The System by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "melanson-kimura",
@@ -174,15 +174,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0bda12ef-75ce-4bf2-9ee5-faf562111c34?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/cfffef3c-14e7-474b-ae73-cc3b7e381292?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "danaher-kimura",
-      "title": "Official sample — John Danaher / Kimura: Enter The System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Kimura: Enter The System by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -202,7 +201,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "An eight-volume course connecting kimura control and finishing to back takes, positional changes and other submissions.",
-      "best_for": "Grapplers developing a kimura game that continues beyond a blocked direct finish."
+      "best_for": "Grapplers developing a kimura game that continues beyond a blocked direct finish.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JohnDanaher_KimuraEnterTheSystem_FRONTCover1.jpg?v=1762458439"
     }
   ]
 }

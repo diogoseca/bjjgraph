@@ -7,6 +7,7 @@ description: "Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wr
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Garry Tonon: Wrestling, Scrambles and Submissions","description":"Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wrestling setups, back access, ashi entries, front headlocks and scrambles."}
 </script>
@@ -19,8 +20,18 @@ description: "Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wr
 <p class="system-reference-count">22 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon" data-system-preview data-system-key="Garry Tonon Leg Lock to Back System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c11bc1b3-715e-4589-b1d4-7310ee05d867?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/GarryTonon_ShootToKillWrestle_Scramble_Submit_FRONTCover1.jpg?v=1762459421" alt="Shoot To Kill: Wrestle, Scramble, Submit course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-course-url="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Shoot To Kill: Wrestle, Scramble, Submit</h2><span class="system-course__instructor">By Garry Tonon</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Shoot To Kill: Wrestle, Scramble, Submit</h2><p class="system-course__instructor">By Garry Tonon</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-course-url="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wr
 Shoot To Kill: Wrestle, Scramble, Submit covers Garry Tonon’s connections between wrestling and submission grappling. Singles, doubles and body locks sit alongside leg entanglements, front-headlock attacks and scrambling positions. Back takes and leg locks are part of this broader curriculum, which also includes demonstrations through drills and rolling footage.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Garry Tonon Leg Lock to Back System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/z4ooLe74j0I?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Garry Tonon / Shoot To Kill: Wrestle, Scramble, Submit">
-<h2>Official sample</h2>
-<p>Official sample — Garry Tonon / Shoot To Kill: Wrestle, Scramble, Submit</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-course-url="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Shoot To Kill: Wrestle, Scramble, Submit · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -84,6 +81,7 @@ Shoot To Kill: Wrestle, Scramble, Submit covers Garry Tonon’s connections betw
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-course-url="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-product-id="shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Shoot To Kill: Wrestle, Scramble, Submit</a>
 </section>
 
@@ -169,10 +167,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-source-url="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-affiliate="false" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-product-id="course" target="_blank" rel="noopener">Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon</a> — official listing; checked 2026-09-16. Official listing inspected: Garry Tonon attribution, exact title and wrestling, leg-entry, upper-body and scramble sections verified. Public sample content not reviewed. The official page embeds the selected sample under “Ashi Otoshi”; its video content has not been reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-source-url="https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon" data-affiliate="false" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-product-id="course" target="_blank" rel="noopener">Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon</a> — official listing; checked 2026-09-19. Official listing inspected: Garry Tonon attribution, exact title and wrestling, leg-entry, upper-body and scramble sections verified. Public sample content not reviewed. The official page embeds an additional sample under “Ashi Otoshi”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

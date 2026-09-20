@@ -150,8 +150,8 @@
         "url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia",
         "title": "The Complete Butterfly Guard by Marcelo Garcia",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "garcia-xguard-listing",
@@ -163,14 +163,16 @@
       }
     ],
     "preview": {
-      "provider": "youtube",
-      "embed_url": "https://www.youtube.com/embed/C5zVTEbR5PQ?autoplay=0",
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/844eef7d-661a-41b1-be3b-911a9ddf78b8?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "garcia-butterfly-listing",
-      "title": "Official sample — Marcelo Garcia / Shoulder Clamp Sweep",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Complete Butterfly Guard by Marcelo Garcia",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
     },
     "alternatives": [
       {
@@ -189,7 +191,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes of butterfly positioning, sweeps, submissions and engagement.",
-      "best_for": "You want seated butterfly offense with ways to engage opponents who stand, retreat or pressure forward."
+      "best_for": "You want seated butterfly offense with ways to engage opponents who stand, retreat or pressure forward.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/MarceloGarcia_TheCompleteButterflyGuard_FRONTCover.jpg?v=1762459269"
     }
   ],
   "flashcards": []

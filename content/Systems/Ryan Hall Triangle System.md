@@ -7,6 +7,7 @@ description: "Ryan Hall’s current triangle course addresses frames, posture an
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Ryan Hall: The Modern Triangle","description":"Ryan Hall’s current triangle course addresses frames, posture and pressure alongside submissions and sweeps from the triangle."}
 </script>
@@ -19,6 +20,7 @@ description: "Ryan Hall’s current triangle course addresses frames, posture an
 <p class="system-reference-count">22 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 The Modern Triangle develops the triangle as a position with finishing, arm-attack and scoring options. Ryan Hall covers acquisition and locking, then addresses defensive frames, posture, pressure and rotation.
@@ -26,7 +28,6 @@ The Modern Triangle develops the triangle as a position with finishing, arm-atta
 The curriculum includes opponents who stand, wrap the leg or bury across, as well as reverse configurations, sweeps and connections with fundamental submissions. It fits grapplers who want more options from an established triangle, especially when the choke is being defended.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

@@ -92,8 +92,8 @@
         "url": "https://bjjfanatics.com/products/the-no-gi-deep-half-guard-2-0-by-jeff-glover",
         "title": "The No Gi Deep Half Guard 2.0 by Jeff Glover",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified three volumes, named exit routes, entries from bottom positions, underhook/chin-strap troubleshooting and drill section labels. Listing inspected; course video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified three volumes, named exit routes, entries from bottom positions, underhook/chin-strap troubleshooting and drill section labels. Listing inspected; course video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "glick-half-butterfly-listing",
@@ -109,7 +109,19 @@
         "system": "Brian Glick Half Butterfly System",
         "reason": "Choose Glick for half-butterfly positioning and offense, including sweeps, kimuras and leg entanglements."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/59980bee-2418-4178-ba57-8e9a8888f5e5?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "glover-deep-half-listing",
+      "title": "Official course introduction — The No Gi Deep Half Guard 2.0 by Jeff Glover",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   },
   "products": [
     {
@@ -121,7 +133,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Three volumes of deep-half entries, exits, troubleshooting and drills.",
-      "best_for": "You want deep half as a route out of bottom positions and need answers to upper-body control."
+      "best_for": "You want deep half as a route out of bottom positions and need answers to upper-body control.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JeffGlover_TheNoGiDeepHalfGuard2.0_FRONTCover.jpg?v=1762459109"
     }
   ],
   "flashcards": []

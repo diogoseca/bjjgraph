@@ -83,7 +83,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Eight volumes on retaining and attacking from side control and north-south, including sparring and commentary.",
       "best_for": "No-gi top players developing pin retention and attacks after passing.",
-      "course_url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan"
+      "course_url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan",
+      "image": "https://bjjfanatics.com/cdn/shop/products/GordonRyan_SystematicallyattackingfromtoppinsSideControl.jpg?v=1762460785"
     }
   ],
   "guide": {
@@ -112,8 +113,8 @@
         "url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan",
         "title": "Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "danaher-side-crucifix",
@@ -134,15 +135,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/e1c8dfbb-6291-48a9-8523-7cc1e656c1f1?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/13192d2b-531d-4059-bc82-bfa5158c526d?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "ryan-side-north-south",
-      "title": "Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control & North South",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

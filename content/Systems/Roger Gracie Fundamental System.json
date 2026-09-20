@@ -163,7 +163,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four parts covering closed-guard maintenance, submissions, sweeps and back attacks.",
-      "best_for": "Gi players seeking a concentrated closed-guard offense course."
+      "best_for": "Gi players seeking a concentrated closed-guard offense course.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/RogerGracie_ClosedGuardSystem_FrontCover.jpg?v=1762460177"
     }
   ],
   "guide": {
@@ -194,8 +195,8 @@
         "url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie",
         "title": "The Roger Gracie Closed Guard System by Roger Gracie",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Official listing inspected: Roger Gracie attribution, exact title and maintenance, collar/lapel, sweep and back-attack coverage verified. Starting lesson identified by its published label; public sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Official listing inspected: Roger Gracie attribution, exact title and maintenance, collar/lapel, sweep and back-attack coverage verified. Starting lesson identified by its published label; public sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -208,15 +209,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/77c53d6a-78b9-4e54-9754-160d7504c485?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/ad589909-1002-408f-a4ce-614010042f44?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Roger Gracie / The Roger Gracie Closed Guard System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Roger Gracie Closed Guard System by Roger Gracie",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

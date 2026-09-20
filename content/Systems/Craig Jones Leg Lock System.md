@@ -7,6 +7,7 @@ description: "Craig Jones’s Down Under Leg Attacks covers single-leg X, saddle
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Craig Jones: Down Under Leg Attacks","description":"Craig Jones’s Down Under Leg Attacks covers single-leg X, saddle, 50/50, escape-response topics and back-taking branches."}
 </script>
@@ -19,8 +20,14 @@ description: "Craig Jones’s Down Under Leg Attacks covers single-leg X, saddle
 <p class="system-reference-count">20 related references (techniques and positions)</p>
 </header>
 
+<div class="system-preview system-preview--cover">
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/CraigJones_DownUnderLegAttacks_FRONTCover.jpg?v=1762457848" alt="Down Under Leg Attacks course cover" decoding="async" fetchpriority="high">
+</div>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-course-url="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-product-id="down-under-leg-attacks-by-craig-jones" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Down Under Leg Attacks</h2><span class="system-course__instructor">By Craig Jones</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Down Under Leg Attacks</h2><p class="system-course__instructor">By Craig Jones</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-course-url="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-product-id="down-under-leg-attacks-by-craig-jones" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,7 +35,6 @@ description: "Craig Jones’s Down Under Leg Attacks covers single-leg X, saddle
 Down Under Leg Attacks covers Craig Jones’s entries and attacks across several leg entanglements. Heel exposure and finishing sit alongside common escape responses, while back takes provide another direction from leg-control positions. Its four volumes also connect leg attacks to existing submissions and guard entries.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -66,6 +72,7 @@ Down Under Leg Attacks covers Craig Jones’s entries and attacks across several
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-course-url="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-product-id="down-under-leg-attacks-by-craig-jones" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Down Under Leg Attacks</a>
 </section>
 
@@ -148,7 +155,7 @@ These related references are not a claim about what the course teaches or eviden
 
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-source-url="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-leg-lock-system" data-product-id="course" target="_blank" rel="noopener">Down Under Leg Attacks by Craig Jones</a> — official listing; checked 2026-09-16. Official listing inspected: Craig Jones attribution, exact title, single-leg X, saddle, 50/50, escape-response and back-taking topics verified. The starting lesson range is published in Volume 1. Video content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-source-url="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-leg-lock-system" data-product-id="course" target="_blank" rel="noopener">Down Under Leg Attacks by Craig Jones</a> — official listing; checked 2026-09-19. Official listing inspected: Craig Jones attribution, exact title, single-leg X, saddle, 50/50, escape-response and back-taking topics verified. The starting lesson range is published in Volume 1. Video content not reviewed. On 2026-09-19 UTC, inspected the product banner and course cover image; no public introductory player is present on the listing.</p>
 </section>
 
 <section class="system-source" data-source-container>

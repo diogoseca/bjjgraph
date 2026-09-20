@@ -7,6 +7,7 @@ description: "Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Neiman Gracie: Jiu-Jitsu for MMA","description":"Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries, open-floor and cage takedowns, guard passing and ground offense."}
 </script>
@@ -19,8 +20,18 @@ description: "Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries
 <p class="system-reference-count">7 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Modern Jiu-Jitsu For MMA by Neiman Gracie" data-system-preview data-system-key="Cage Clinch to Ground System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/3beb32b3-cc90-4360-b445-2501e413a3f1?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Modern Jiu-Jitsu For MMA by Neiman Gracie">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/ModernJiu-JitsuForMMAbyNeimanGracie_FRONTCover.jpg?v=1762459864" alt="Modern Jiu-Jitsu For MMA course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-course-url="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-product-id="gracie-modern-jiu-jitsu-mma" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Modern Jiu-Jitsu For MMA</h2><span class="system-course__instructor">By Neiman Gracie</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Modern Jiu-Jitsu For MMA</h2><p class="system-course__instructor">By Neiman Gracie</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-course-url="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-product-id="gracie-modern-jiu-jitsu-mma" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries
 Modern Jiu-Jitsu For MMA connects Neiman Gracie’s clinch and takedown material with passing and submissions. Its standing section distinguishes open-floor attacks from cage work, while the ground section includes striking-assisted passing and defensive guard. The cage and striking context is the main reason to choose it over a sport-grappling takedown course.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Cage Clinch to Ground System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c4b12885-f860-41ea-a2a7-858b129971d4?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Neiman Gracie / Modern Jiu-Jitsu For MMA">
-<h2>Official sample</h2>
-<p>Official sample — Neiman Gracie / Modern Jiu-Jitsu For MMA</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-course-url="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-product-id="gracie-modern-jiu-jitsu-mma" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Modern Jiu-Jitsu For MMA · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -84,6 +81,7 @@ Modern Jiu-Jitsu For MMA connects Neiman Gracie’s clinch and takedown material
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-course-url="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-product-id="gracie-modern-jiu-jitsu-mma" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Modern Jiu-Jitsu For MMA</a>
 </section>
 
@@ -124,10 +122,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-source-url="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-affiliate="false" data-system-slug="systems/cage-clinch-to-ground-system" data-product-id="course" target="_blank" rel="noopener">Modern Jiu-Jitsu For MMA by Neiman Gracie</a> — official listing; checked 2026-09-16. Verified Neiman Gracie, exact title and the separate open-floor/cage Kosoto lessons. The listing also establishes striking and guard coverage; no striking or takedown execution inspected. The official page embeds the selected sample under “Check out a free sample”; its video content has not been reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-source-url="https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie" data-affiliate="false" data-system-slug="systems/cage-clinch-to-ground-system" data-product-id="course" target="_blank" rel="noopener">Modern Jiu-Jitsu For MMA by Neiman Gracie</a> — official listing; checked 2026-09-19. Verified Neiman Gracie, exact title and the separate open-floor/cage Kosoto lessons. The listing also establishes striking and guard coverage; no striking or takedown execution inspected. The official page embeds an additional sample under “Check out a free sample”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

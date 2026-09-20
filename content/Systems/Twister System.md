@@ -7,6 +7,7 @@ description: "Twister and truck coverage in two Mastering The System episodes, b
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Twister and Truck Entries","description":"Twister and truck coverage in two Mastering The System episodes, based on Eddie Bravo’s official descriptions."}
 </script>
@@ -19,6 +20,7 @@ description: "Twister and truck coverage in two Mastering The System episodes, b
 <p class="system-reference-count">20 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Eddie Bravo’s description of Mastering The System episode 85, Killa B part 3, centers on Twister work from the back and side-control scrambles, including paths to the truck. Episode 99, Twister Side Control, covers a back take and a truck entry from that side-control position.
@@ -26,7 +28,6 @@ Eddie Bravo’s description of Mastering The System episode 85, Killa B part 3, 
 Together, the descriptions connect Twister attacks with the positional routes around them. They are relevant to grapplers interested in those parts of the 10th Planet game.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

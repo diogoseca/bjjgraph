@@ -154,7 +154,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "An eight-volume foundation course covering berimbolo entries and subsequent positional options.",
-      "best_for": "Guard players interested in the foundations of Musumeci’s berimbolo approach."
+      "best_for": "Guard players interested in the foundations of Musumeci’s berimbolo approach.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/MikeyMusumeci_TheBerimboloSystem_FRONTCover1.jpg?v=1762459799"
     }
   ],
   "guide": {
@@ -185,21 +186,20 @@
         "url": "https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci",
         "title": "The Berimbolo System Part 1: The Foundation by Mikey Musumeci",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Mikey Musumeci attribution and Part 1 title verified on the official listing. Double-pull opening and later branch headings inspected; no inversion instruction or mobility claims verified. The official page embeds the selected sample under “Basic Berimbolo Only Leg Drills”; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Mikey Musumeci attribution and Part 1 title verified on the official listing. Double-pull opening and later branch headings inspected; no inversion instruction or mobility claims verified. The official page embeds an additional sample under “Basic Berimbolo Only Leg Drills”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       }
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/922f0a04-4b6e-43fb-9cec-ef466bb9cf1c?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/1a20ddd1-0165-462b-b493-102b5f32fcf3?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Mikey Musumeci / The Berimbolo System Part 1: The Foundation",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Berimbolo System Part 1: The Foundation by Mikey Musumeci",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

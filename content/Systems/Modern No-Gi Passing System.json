@@ -151,7 +151,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Gordon Ryan’s broad no-gi passing course, covering several guard families with sparring and commentary.",
       "best_for": "Passers who want breadth across guards rather than exclusive coverage of one passing family.",
-      "course_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan"
+      "course_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan",
+      "image": "https://bjjfanatics.com/cdn/shop/products/GordonRyan_SystematicallyAttackingTheGuard_FRONTCover1.jpg?v=1762458535"
     }
   ],
   "guide": {
@@ -178,8 +179,8 @@
         "url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan",
         "title": "Systematically Attacking The Guard by Gordon Ryan",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified course identity and eight-volume outline, including split squat, half guard, half butterfly, rolling and commentary. Listing inspected; video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified course identity and eight-volume outline, including split squat, half guard, half butterfly, rolling and commentary. Listing inspected; video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "giles-body-lock",
@@ -219,6 +220,18 @@
         "system": "Vagner Rocha Float Passing System",
         "reason": "For float-position exits alongside separate knee-cut and standing-passing volumes."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c3917e87-3df1-4642-82b5-f93bdaec2f04?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "ryan-guard",
+      "title": "Official course introduction — Systematically Attacking The Guard by Gordon Ryan",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   }
 }

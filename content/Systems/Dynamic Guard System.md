@@ -7,6 +7,7 @@ description: "An introduction to deliberate guard changes, passer-forced changes
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Understanding Guard Changes","description":"An introduction to deliberate guard changes, passer-forced changes and the differences between open guards."}
 </script>
@@ -19,12 +20,12 @@ description: "An introduction to deliberate guard changes, passer-forced changes
 <p class="system-reference-count">15 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Opening the legs can be a deliberate choice or the result of a passer breaking closed guard. Once open, the guard can change as grips and leg positions change. Stephan Kesting and Elliott Bayev’s glossary describes this variety, including spider, butterfly and De La Riva, and explains why no single guard suits every setting.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

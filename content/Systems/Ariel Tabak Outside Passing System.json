@@ -90,7 +90,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Four volumes on outside-passing entries and finishes, leg traps and cross-grip variations.",
       "best_for": "Passers whose outside entries outpace their ability to finish, especially in the gi.",
-      "course_url": "https://bjjfanatics.com/products/outside-passing-compendium-by-ariel-tabak"
+      "course_url": "https://bjjfanatics.com/products/outside-passing-compendium-by-ariel-tabak",
+      "image": "https://bjjfanatics.com/cdn/shop/files/OutsidePassingCompendiumbyArielTabakFrontCover.png?v=1784084485"
     }
   ],
   "guide": {
@@ -119,8 +120,8 @@
         "url": "https://bjjfanatics.com/products/outside-passing-compendium-by-ariel-tabak",
         "title": "Outside Passing Compendium by Ariel Tabak",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, Ariel Tabak attribution and four-volume outline: flanking, high-pummel responses, leg traps and cross-grip passing. The outline names collar, pant and sleeve grips. Listing inspected; video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Ariel Tabak attribution and four-volume outline: flanking, high-pummel responses, leg traps and cross-grip passing. The outline names collar, pant and sleeve grips. Listing inspected; video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "giles-body-lock",
@@ -133,11 +134,11 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/670d0820-d608-4dc1-a2f6-41b6f8a14683?autoplay=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/670d0820-d608-4dc1-a2f6-41b6f8a14683?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "tabak-outside",
-      "title": "Official trailer — Ariel Tabak / Outside Passing Compendium",
+      "title": "Official course introduction — Outside Passing Compendium by Ariel Tabak",
       "kind": "trailer",
-      "checked_on": "2026-09-16",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
         "https://bjjgraph.org",

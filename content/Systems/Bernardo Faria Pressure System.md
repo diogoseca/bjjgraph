@@ -7,6 +7,7 @@ description: "Bernardo Faria’s No Gi Pressure Passing centers on over/under en
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Bernardo Faria: No-Gi Pressure Passing","description":"Bernardo Faria’s No Gi Pressure Passing centers on over/under entries and troubleshooting, with double-under, folding and half-guard passes."}
 </script>
@@ -19,8 +20,18 @@ description: "Bernardo Faria’s No Gi Pressure Passing centers on over/under en
 <p class="system-reference-count">20 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — No Gi Pressure Passing by Bernardo Faria" data-system-preview data-system-key="Bernardo Faria Pressure System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/d2d4f266-dd9b-453e-a6f7-7ad43baf37f2?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — No Gi Pressure Passing by Bernardo Faria">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/NoGiPressurePassingbyBernardoFaria_FRONTCover.jpg?v=1762458397" alt="No Gi Pressure Passing course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>No Gi Pressure Passing</h2><span class="system-course__instructor">By Bernardo Faria</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>No Gi Pressure Passing</h2><p class="system-course__instructor">By Bernardo Faria</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ No Gi Pressure Passing by Bernardo Faria develops an over/under-centered passing
 The four-volume series devotes sustained attention to over/under troubleshooting before expanding into other pressure passes and positional follow-ups. It suits no-gi passers who want depth in that approach without limiting the whole course to a single pass.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Bernardo Faria Pressure System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/d2d4f266-dd9b-453e-a6f7-7ad43baf37f2?autoplay=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official trailer — Bernardo Faria / No Gi Pressure Passing">
-<h2>Official trailer</h2>
-<p>Official trailer — Bernardo Faria / No Gi Pressure Passing</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the trailer on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">No Gi Pressure Passing · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -81,6 +78,7 @@ The four-volume series devotes sustained attention to over/under troubleshooting
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: No Gi Pressure Passing</a>
 </section>
 
@@ -160,10 +158,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/bernardo-faria-pressure-system" data-product-id="faria-pressure" target="_blank" rel="noopener">No Gi Pressure Passing by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline, including over/under entries, troubleshooting and other pressure passes. Listing inspected; trailer content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/bernardo-faria-pressure-system" data-product-id="faria-pressure" target="_blank" rel="noopener">No Gi Pressure Passing by Bernardo Faria</a> — official listing; checked 2026-09-19. Verified title, instructor and four-volume outline, including over/under entries, troubleshooting and other pressure passes. Listing inspected; trailer content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

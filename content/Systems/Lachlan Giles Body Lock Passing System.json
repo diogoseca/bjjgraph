@@ -90,7 +90,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Six volumes devoted to body-lock passing, with counters, closed-guard opening and narrated rolling.",
       "best_for": "No-gi passers looking for depth in one close-contact passing family.",
-      "course_url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles"
+      "course_url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles",
+      "image": "https://bjjfanatics.com/cdn/shop/products/LachlanGiles_TheBodyLockPass_FRONTCover.jpg?v=1762458976"
     }
   ],
   "guide": {
@@ -119,8 +120,8 @@
         "url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles",
         "title": "The Body Lock Pass by Lachlan Giles",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org, https://dev.bjjgraph.pages.dev by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "ryan-guard",
@@ -141,14 +142,17 @@
       }
     ],
     "preview": {
-      "provider": "youtube",
-      "embed_url": "https://www.youtube.com/embed/YEO21xIVZm4?autoplay=0",
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/e1871b57-d13a-489d-8376-65abd177cd96?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "giles-body-lock",
-      "title": "Official sample — Lachlan Giles / The Body Lock Pass",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Body Lock Pass by Lachlan Giles",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org",
+        "https://dev.bjjgraph.pages.dev"
+      ]
     },
     "alternatives": [
       {

@@ -185,8 +185,8 @@
         "url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
         "title": "The Marcelo X Guard by Marcelo Garcia",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing and official sample iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "wardzinski-slx-listing",
@@ -199,15 +199,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/1ce98d2d-6285-4a0a-afa4-71b95ad1510e?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/2bfd1c7a-e7dd-40d2-ba3b-87c04325b38e?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "garcia-xguard-listing",
-      "title": "Official sample — Marcelo Garcia / The Marcelo X Guard",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Marcelo X Guard by Marcelo Garcia",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -227,7 +226,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes covering X-guard entries, sweeps, counters and transitions.",
-      "best_for": "You want an X-guard course covering both getting underneath an opponent and completing sweeps."
+      "best_for": "You want an X-guard course covering both getting underneath an opponent and completing sweeps.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/MarceloGarcia_TheMarceloX-Guard_CoverFRONT.jpg?v=1762462231"
     }
   ],
   "flashcards": []
