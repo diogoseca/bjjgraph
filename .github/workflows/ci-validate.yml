@@ -53,7 +53,10 @@ on:
       - "CLAUDE.md"
       - "docs/**"
       - "tests/artifacts/budget_docs.json"
-      - ".github/workflows/ci-validate.yml"
+      # The chain/provisioning gate reads every workflow and reachable Python input.
+      - ".github/workflows/**"
+      - "source/package.json"
+      - "**/*.py"
   push:
     branches: [dev]
   workflow_dispatch:
@@ -88,7 +91,13 @@ jobs:
           node-version: "22"
 
       - name: Install Python dependencies
-        run: pip install jsonschema jinja2
+        run: pip install jsonschema jinja2 PyYAML
+
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
+
+      - name: Postprocessor contract mutation specs
+        run: python3 -B tests/postprocessor_contract_test.py
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
