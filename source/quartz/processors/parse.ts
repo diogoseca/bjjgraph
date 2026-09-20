@@ -1,4 +1,3 @@
-import esbuild from "esbuild"
 import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
 import { Processor, unified } from "unified"
@@ -7,11 +6,11 @@ import { Root as HTMLRoot } from "hast"
 import { ProcessedContent } from "../plugins/vfile"
 import { PerfTimer } from "../util/perf"
 import { read } from "to-vfile"
-import { FilePath, QUARTZ, slugifyFilePath } from "../util/path"
+import { FilePath, slugifyFilePath } from "../util/path"
 import path from "path"
-import workerpool, { Promise as WorkerPromise } from "workerpool"
 import { QuartzLogger } from "../util/log"
-import { trace } from "../util/trace"
+import { VFile } from "vfile"
+import { runWorkerTasks, workerCount } from "./workerPool"
 import { BuildCtx } from "../util/ctx"
 
 export type QuartzProcessor = Processor<MDRoot, MDRoot, HTMLRoot>
@@ -22,6 +21,8 @@ export function createProcessor(ctx: BuildCtx): QuartzProcessor {
     unified()
       // base Markdown -> MD AST
       .use(remarkParse)
+      // D-57: register EVERY markdown plugin before processor.parse(), below. Some
+      // (remarkFrontmatter) extend tokenization; post-parse registration treats YAML as body.
       // MD AST -> MD AST transforms
       .use(
         transformers
@@ -39,38 +40,6 @@ function* chunks<T>(arr: T[], n: number) {
   for (let i = 0; i < arr.length; i += n) {
     yield arr.slice(i, i + n)
   }
-}
-
-async function transpileWorkerScript() {
-  // transpile worker script
-  const cacheFile = "./.quartz-cache/transpiled-worker.mjs"
-  const fp = "./quartz/worker.ts"
-  return esbuild.build({
-    entryPoints: [fp],
-    outfile: path.join(QUARTZ, cacheFile),
-    bundle: true,
-    keepNames: true,
-    platform: "node",
-    format: "esm",
-    packages: "external",
-    sourcemap: true,
-    sourcesContent: false,
-    plugins: [
-      {
-        name: "css-and-scripts-as-text",
-        setup(build) {
-          build.onLoad({ filter: /\.scss$/ }, (_) => ({
-            contents: "",
-            loader: "text",
-          }))
-          build.onLoad({ filter: /\.inline\.(ts|js)$/ }, (_) => ({
-            contents: "",
-            loader: "text",
-          }))
-        },
-      },
-    ],
-  })
 }
 
 export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
@@ -103,7 +72,7 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
           console.log(`[process] ${fp} -> ${file.data.slug} (${perf.timeSince()})`)
         }
       } catch (err) {
-        trace(`\nFailed to process \`${fp}\``, err as Error)
+        throw new Error(`Failed to process \`${fp}\``, { cause: err })
       }
     }
 
@@ -111,50 +80,44 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
   }
 }
 
-const clamp = (num: number, min: number, max: number) =>
-  Math.min(Math.max(Math.round(num), min), max)
+/** Rehydrate VFile methods after native structured cloning; preserve AST/Data aliases and Dates. */
+export function restoreContent(content: ProcessedContent[]): ProcessedContent[] {
+  return content.map(([tree, file]) => [tree, new VFile(file)])
+}
+
 export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<ProcessedContent[]> {
-  const { argv } = ctx
   const perf = new PerfTimer()
-  const log = new QuartzLogger(argv.verbose)
-
-  // rough heuristics: 128 gives enough time for v8 to JIT and optimize parsing code paths
-  const CHUNK_SIZE = 128
-  const concurrency = ctx.argv.concurrency ?? clamp(fps.length / CHUNK_SIZE, 1, 4)
-
-  let res: ProcessedContent[] = []
-  log.start(`Parsing input files using ${concurrency} threads`)
-  if (concurrency === 1) {
-    try {
-      const processor = createProcessor(ctx)
-      const parse = createFileParser(ctx, fps)
-      res = await parse(processor)
-    } catch (error) {
-      log.end()
-      throw error
+  const log = new QuartzLogger(ctx.argv.verbose)
+  // D-17/D-24: default = clamp(round(files/128), 1, 4), exactly as before. Deploy omits
+  // --concurrency while root build passes 4; on this corpus both must select workers.
+  // Explicit 1 uses the MAIN resource loader; workers use D-22's empty-text loader.
+  const concurrency = workerCount(ctx.argv, fps.length)
+  console.log(
+    `[parse] path=${concurrency === 1 ? "main" : "workers"} concurrency=${concurrency} files=${fps.length}`,
+  )
+  log.start(`Parsing input files`)
+  let summary: string | undefined
+  try {
+    let result: ProcessedContent[]
+    if (concurrency === 1) {
+      result = await createFileParser(ctx, fps)(createProcessor(ctx))
+    } else {
+      const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
+      const groups = [...chunks(fps, size)]
+      const results = await runWorkerTasks<ProcessedContent[]>(
+        { phase: "parse", buildId: ctx.buildId, argv: ctx.argv, allSlugs: ctx.allSlugs },
+        groups,
+        concurrency,
+      )
+      result = restoreContent(results.flat())
     }
-  } else {
-    await transpileWorkerScript()
-    const pool = workerpool.pool("./quartz/bootstrap-worker.mjs", {
-      minWorkers: "max",
-      maxWorkers: concurrency,
-      workerType: "thread",
-    })
-
-    const childPromises: WorkerPromise<ProcessedContent[]>[] = []
-    for (const chunk of chunks(fps, CHUNK_SIZE)) {
-      childPromises.push(pool.exec("parseFiles", [ctx.buildId, argv, chunk, ctx.allSlugs]))
+    if (result.length !== fps.length) {
+      throw new Error(`Parse coverage ${result.length}/${fps.length}: refusing a partial site`)
     }
-
-    const results: ProcessedContent[][] = await WorkerPromise.all(childPromises).catch((err) => {
-      const errString = err.toString().slice("Error:".length)
-      console.error(errString)
-      process.exit(1)
-    })
-    res = results.flat()
-    await pool.terminate()
+    summary = `Parsed ${result.length}/${fps.length} Markdown files in ${perf.timeSince()}`
+    return result
+  } finally {
+    // Serve mode can recover from parse failures; its terminal spinner must not survive one.
+    log.end(summary)
   }
-
-  log.end(`Parsed ${res.length} Markdown files in ${perf.timeSince()}`)
-  return res
 }
