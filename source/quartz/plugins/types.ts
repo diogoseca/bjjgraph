@@ -101,6 +101,7 @@ export type QuartzEmitterPluginInstance = {
     content: ProcessedContent[],
     resources: StaticResources,
     allFiles: QuartzPluginData[],
+    shardIndex: number,
   ): Promise<FilePath[]>
   getQuartzComponents(ctx: BuildCtx): QuartzComponent[]
 }
