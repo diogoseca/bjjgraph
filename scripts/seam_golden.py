@@ -9,6 +9,10 @@
 
 Exit 0: exact parity; 1: comparable candidate differs; 2: no trustworthy verdict
 (missing/empty/unparseable input, blind golden, or invalid instrument).
+Current content is asserted cumulatively at every verify. Legacy records need
+--artifact-only: that green concerns artifact bytes, not current-source parity.
+In particular build0's four unnamed dirty capture paths remain UNVERIFIED.
+A git_head alone does not attest clean inputs. See golden_provenance_selftest.py.
 One record is loaded per verification, never the full-site fingerprint. JSON seams
 compare their `data` values exactly (object key order is not a JSON contract; array
 order, AST positions, metadata, and all string bytes are). Render records retain
@@ -46,6 +50,7 @@ import time
 
 from emit_diff import diff_record
 from emit_fingerprint import fingerprint_html, sha
+from golden_provenance import ContentGuard, add_arguments
 
 SCHEMA = 'quartz-seam-v1'
 
@@ -220,6 +225,7 @@ def extract_render(args):
 
 def verify(args):
     golden = load_record(args.golden)
+    guard = ContentGuard(golden, args)
     print(f'coverage: golden={json.dumps(golden["coverage"], sort_keys=True)}; selected=1; seam={golden["seam"]}; key={golden["key"]}')
     if not args.candidate.is_file():
         print('FAIL candidate files=0: missing candidate')
@@ -240,6 +246,7 @@ def verify(args):
         return 2
     # Python considers True == 1, including inside dicts/lists. JSON does not.
     if encoded(golden['data']) == encoded(candidate):
+        guard.finish()
         print('PASS NO DIFFERENCES; compared=1')
         return 0
     if golden['seam'] == 'render':
@@ -264,6 +271,7 @@ def main():
     p = sub.add_parser('verify')
     p.add_argument('--golden', type=Path, required=True)
     p.add_argument('--candidate', type=Path, required=True)
+    add_arguments(p)
     p.set_defaults(run=verify)
     args = ap.parse_args()
     try:
