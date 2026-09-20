@@ -35,6 +35,14 @@
 //   (CLAUDE.md §7 says 681 for the same claim; measured here as 668 — the figure has drifted.)
 //
 // ── WHAT THIS FILE DOES NOT COVER (CLAUDE.md §6.9) ────────────────────────────────────────────
+//  · **OUT OF SCOPE, AND IT IS THE MOST IMPORTANT LINE IN THIS HEADER (D-44):** nothing here — and
+//    nothing anywhere in stream A — can detect `AliasRedirects` changing. That emitter is stream
+//    B's (`plugins/emitters/aliases.ts`) and it is the ONLY reason `[[game-over]]` works:
+//    `golden/build0/game-over.html` is a **380-byte stub** it produced. If it stops emitting that
+//    route, 668 files' most common link breaks while every assertion in this file stays GREEN,
+//    because from `path.ts`'s perspective nothing changed. The ownership split that stops two
+//    streams colliding is exactly what hides this, so it is written down rather than assumed.
+//    quartz-cto has told B not to touch `AliasRedirects` without telling A.
 //  · It does not prove any emitted link RESOLVES to a real page. That needs the emitters and the
 //    alias routes, which are stream B's; a link can be perfectly transformed and still be dead.
 //  · It does not cover `"absolute"` or `"relative"`, which this site does not instantiate.

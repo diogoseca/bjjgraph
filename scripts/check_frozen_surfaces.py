@@ -49,7 +49,7 @@ bands and `check_payload_budget.py`'s tier-0 floors, and for the same reason: a 
 baseline is a check that never runs. A legitimate change is accepted one file at a time, with a
 written reason that lands in the baseline and stays there:
 
-    python3 scripts/check_transformer_freeze.py --accept source/quartz/plugins/transformers/ofm.ts \\
+    python3 scripts/check_frozen_surfaces.py --accept source/quartz/plugins/transformers/ofm.ts \\
         --reason "D-A-07: port stripDangerousHtml verbatim into the new driver's htmlPlugins list"
 
 An ABSOLUTE freeze would be worse than no gate: it blocks the first legitimate change and then gets
@@ -258,7 +258,7 @@ def check() -> int:
         print(f"  MISSING {rel}  (was in the baseline and is gone)", file=sys.stderr)
     print(
         "\nP1-P4 reproduces exactly and improves nothing (D-03). If this change is deliberate, "
-        "record it:\n  python3 scripts/check_transformer_freeze.py --accept <path> --reason \"...\"",
+        "record it:\n  python3 scripts/check_frozen_surfaces.py --accept <path> --reason \"...\"",
         file=sys.stderr,
     )
     return 1
