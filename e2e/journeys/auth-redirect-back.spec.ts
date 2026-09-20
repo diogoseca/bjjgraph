@@ -59,13 +59,22 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  *
  * ── WHY EACH TEST EARNS ITS PLACE (the mutants, in tests/artifacts/_presentation_mutants.sh) ──
  *
- *   M1 `(isAuthenticated()||hasAuthRedirectParams())` → `isAuthenticated()`   → 1,2 RED · 3 GREEN
- *   M2 regex narrowed to `code` only                                         → 2 RED · 1,3 GREEN
- *   M3 the `isAuthenticated()` arm dropped                                   → 3 RED · 1,2 GREEN
- *   M4 `detectSessionInUrl: false`                                           → 1 RED
- *   M5 the whole `nav` listener removed                                      → 1,2,3 RED
- * Each mutant names what must STAY GREEN. A mutant that reddens everything proves only that
- * the file runs; the discrimination is the evidence.
+ * MEASURED, not predicted. Each mutant declares what must go red AND what must stay green, and
+ * the script counts a mutant that reddens everything as a failure rather than a kill:
+ *
+ *   M1 `||hasAuthRedirectParams()` dropped (R4's exact defect)  → 1,2 RED · 3 GREEN
+ *   M2 regex narrowed to `code` only                            → 2 RED · 1,3 GREEN
+ *   M3 `isAuthenticated()||` dropped                            → 3 RED · 1,2 GREEN
+ *   M4 `detectSessionInUrl: false`                              → 1 RED · 3 GREEN (2 unconstrained:
+ *                                                                 it counts clients, not options)
+ *   M5 the whole `nav` listener removed                         → 1,2,3 RED
+ *
+ * TWO OF THESE SURVIVED THE FIRST TIME, AND THAT IS RECORDED HERE BECAUSE IT CHANGED THE SPEC.
+ * Against the page with the neural bundle running, M3 and M5 both left test 3 GREEN: the Neural
+ * app independently calls ensureClientInitialized() on the signed-in path, so test 3 was passing
+ * on a build with authUI's entire listener deleted. Test 3 now blocks the bundle. A third mutant
+ * (an earlier M1 that turned the `||` into `&&`) was mis-written rather than survived — it is a
+ * different defect and legitimately reddens test 3 too.
  *
  * ── NON-KILLS. What this spec does NOT cover (CLAUDE.md §6.9) ───────────────────────────
  *

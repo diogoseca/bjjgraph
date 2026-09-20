@@ -53,11 +53,18 @@ import { test, expect, type Browser } from "@playwright/test"
  *
  * ── WHY EACH TEST EARNS ITS PLACE (mutants in tests/artifacts/_presentation_mutants.sh) ──
  *
+ * MEASURED, not predicted. Each mutant declares what must go red AND what must stay green:
+ *
  *   M6  the nav element removed from the emitted page       → 1,2,3,4 RED
- *   M7  one category dropped (five links, not six)          → 1,2 RED · 4 GREEN
+ *   M7  one category dropped (five links, not six)          → 2,3,4 RED · 1 GREEN
  *   M8  `class="category-nav"` renamed by a replacement     → 1,2,3,4 RED
  *   M9  the six hrefs point at a path that does not exist   → 3 RED · 1,2,4 GREEN
  *   M10 the nav emitted but display:none at desktop         → 1 RED · 2,3,4 GREEN
+ *
+ * M9 IS WORTH READING BEFORE YOU WRITE A SIMILAR MUTANT. The obvious version — prefixing the
+ * existing href with a junk segment — SURVIVED, because the hrefs are `../../../Learning/` and
+ * `__gone__/../../../Learning/` normalises straight back to a real page. The mutant has to
+ * replace the href, not decorate it. A self-cancelling mutant reads exactly like a missing gate.
  *
  * ── NON-KILLS (CLAUDE.md §6.9) ──────────────────────────────────────────────────────────
  *

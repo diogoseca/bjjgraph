@@ -70,8 +70,14 @@ FAILURES=0
 # run <mutant-id> <spec> <expect-red-regex> <expect-green-regex>
 #   expect-red   : test titles (grep -E) that MUST fail under this mutant
 #   expect-green : test titles that MUST still pass — this is what makes the mutant discriminating
+# ONLY=M1  (or ONLY='M1|M9') runs a subset. Each mutant is independent and the tree is restored
+# after every one, so a subset is a real result for the mutants it names — it is only the
+# ten-of-ten completeness claim at the bottom that a filtered run cannot make, and it says so.
 run() {
   local id="$1" spec="$2" red="$3" green="$4"
+  if [ -n "${ONLY:-}" ] && ! echo "$id" | grep -qE "^(${ONLY})$"; then
+    restore; echo "  [skip ] $id (ONLY=${ONLY})"; return
+  fi
   local json="$TMPDIR/mut-$id.json"
   PLAYWRIGHT_JSON_OUTPUT_NAME="$json" npx playwright test -c "$CONFIG" "$spec" \
     --reporter=json >"$json" 2>"$TMPDIR/mut-$id.err" || true
@@ -291,6 +297,6 @@ run M10 "$NAV_SPEC" 'category nav is emitted' 'carries all six|every category li
 
 echo
 echo "── ${APPLIED} mutants applied · ${KILLS} killed with the right discrimination · ${FAILURES} bad ──"
-[ "$APPLIED" -eq 10 ] || { echo "EXPECTED 10 MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }
+if [ -z "${ONLY:-}" ]; then [ "$APPLIED" -eq 10 ] || { echo "EXPECTED 10 MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }; else echo "   (filtered run: ONLY=${ONLY} — this is NOT a ten-of-ten claim)"; fi
 [ "$FAILURES" -eq 0 ] || exit 1
 echo "── tree restored ──"
