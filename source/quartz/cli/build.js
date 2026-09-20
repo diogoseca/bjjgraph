@@ -112,48 +112,50 @@ export async function handleBuild(argv) {
   console.log(chalk.bgGreen.black(`\n Quartz v${version} \n`))
   const { main: ctx, parse: parseCtx } = await createBuildContexts()
   const buildMutex = new Mutex()
-  let lastBuildMs = 0
+  // A hard rebuild owns the whole watcher lifetime, including cleanup and replacement.
+  // Keep this separate from buildMutex: cleanup waits for content rebuilds that need it.
+  const hardBuildMutex = new Mutex()
+  let latestBuild = 0
   let cleanupBuild = null
-  const build = async (clientRefresh) => {
-    const buildStart = new Date().getTime()
-    lastBuildMs = buildStart
-    if (cleanupBuild) {
-      await cleanupBuild()
-      cleanupBuild = null
-      console.log(chalk.yellow("Detected a source code change, doing a hard rebuild..."))
-    }
-    const release = await buildMutex.acquire()
-    if (lastBuildMs > buildStart) {
-      release()
-      return
-    }
+  const build = (clientRefresh) => {
+    const generation = ++latestBuild
+    return hardBuildMutex.runExclusive(async () => {
+      // Source events can arrive in the same millisecond; use a generation, not a timestamp.
+      if (generation !== latestBuild) return
+      if (cleanupBuild) {
+        await cleanupBuild()
+        cleanupBuild = null
+        console.log(chalk.yellow("Detected a source code change, doing a hard rebuild..."))
+      }
+      const release = await buildMutex.acquire()
 
-    let result
-    try {
-      result = await ctx.rebuild()
-      await parseCtx.rebuild()
-    } finally {
-      release()
-    }
+      let result
+      try {
+        result = await ctx.rebuild()
+        await parseCtx.rebuild()
+      } finally {
+        release()
+      }
 
-    if (argv.bundleInfo) {
-      const outputFileName = "quartz/.quartz-cache/transpiled-build.mjs"
-      const meta = result.metafile.outputs[outputFileName]
-      console.log(
-        `Successfully transpiled ${Object.keys(meta.inputs).length} files (${prettyBytes(
-          meta.bytes,
-        )})`,
-      )
-      console.log(await esbuild.analyzeMetafile(result.metafile, { color: true }))
-    }
+      if (argv.bundleInfo) {
+        const outputFileName = "quartz/.quartz-cache/transpiled-build.mjs"
+        const meta = result.metafile.outputs[outputFileName]
+        console.log(
+          `Successfully transpiled ${Object.keys(meta.inputs).length} files (${prettyBytes(
+            meta.bytes,
+          )})`,
+        )
+        console.log(await esbuild.analyzeMetafile(result.metafile, { color: true }))
+      }
 
-    // bypass module cache
-    // https://github.com/nodejs/modules/issues/307
-    const { default: buildQuartz } = await import(`../../${cacheFile}?update=${randomUUID()}`)
-    // ^ this import is relative, so base "cacheFile" path can't be used
+      // bypass module cache
+      // https://github.com/nodejs/modules/issues/307
+      const { default: buildQuartz } = await import(`../../${cacheFile}?update=${randomUUID()}`)
+      // ^ this import is relative, so base "cacheFile" path can't be used
 
-    cleanupBuild = await buildQuartz(argv, buildMutex, clientRefresh)
-    clientRefresh()
+      cleanupBuild = await buildQuartz(argv, buildMutex, clientRefresh)
+      clientRefresh()
+    })
   }
 
   if (argv.serve) {
@@ -183,21 +185,24 @@ export async function handleBuild(argv) {
 
       const serve = async () => {
         const release = await buildMutex.acquire()
-        await serveHandler(req, res, {
-          public: argv.output,
-          directoryListing: false,
-          headers: [
-            {
-              source: "**/*.*",
-              headers: [{ key: "Content-Disposition", value: "inline" }],
-            },
-          ],
-        })
-        const status = res.statusCode
-        const statusString =
-          status >= 200 && status < 300 ? chalk.green(`[${status}]`) : chalk.red(`[${status}]`)
-        console.log(statusString + chalk.grey(` ${argv.baseDir}${req.url}`))
-        release()
+        try {
+          await serveHandler(req, res, {
+            public: argv.output,
+            directoryListing: false,
+            headers: [
+              {
+                source: "**/*.*",
+                headers: [{ key: "Content-Disposition", value: "inline" }],
+              },
+            ],
+          })
+          const status = res.statusCode
+          const statusString =
+            status >= 200 && status < 300 ? chalk.green(`[${status}]`) : chalk.red(`[${status}]`)
+          console.log(statusString + chalk.grey(` ${argv.baseDir}${req.url}`))
+        } finally {
+          release()
+        }
       }
 
       const redirect = (newFp) => {
@@ -263,8 +268,10 @@ export async function handleBuild(argv) {
       .watch(["**/*.ts", "**/*.tsx", "**/*.scss", "package.json"], {
         ignoreInitial: true,
       })
-      .on("all", async () => {
-        build(clientRefresh)
+      .on("all", () => {
+        void build(clientRefresh).catch((error) => {
+          console.error("[build] Source rebuild failed; waiting for a source change", error)
+        })
       })
   } else {
     try {

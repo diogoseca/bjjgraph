@@ -94,22 +94,28 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
     `[parse] path=${concurrency === 1 ? "main" : "workers"} concurrency=${concurrency} files=${fps.length}`,
   )
   log.start(`Parsing input files`)
-  let result: ProcessedContent[]
-  if (concurrency === 1) {
-    result = await createFileParser(ctx, fps)(createProcessor(ctx))
-  } else {
-    const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
-    const groups = [...chunks(fps, size)]
-    const results = await runWorkerTasks<ProcessedContent[]>(
-      { phase: "parse", buildId: ctx.buildId, argv: ctx.argv, allSlugs: ctx.allSlugs },
-      groups,
-      concurrency,
-    )
-    result = restoreContent(results.flat())
+  let summary: string | undefined
+  try {
+    let result: ProcessedContent[]
+    if (concurrency === 1) {
+      result = await createFileParser(ctx, fps)(createProcessor(ctx))
+    } else {
+      const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
+      const groups = [...chunks(fps, size)]
+      const results = await runWorkerTasks<ProcessedContent[]>(
+        { phase: "parse", buildId: ctx.buildId, argv: ctx.argv, allSlugs: ctx.allSlugs },
+        groups,
+        concurrency,
+      )
+      result = restoreContent(results.flat())
+    }
+    if (result.length !== fps.length) {
+      throw new Error(`Parse coverage ${result.length}/${fps.length}: refusing a partial site`)
+    }
+    summary = `Parsed ${result.length}/${fps.length} Markdown files in ${perf.timeSince()}`
+    return result
+  } finally {
+    // Serve mode can recover from parse failures; its terminal spinner must not survive one.
+    log.end(summary)
   }
-  if (result.length !== fps.length) {
-    throw new Error(`Parse coverage ${result.length}/${fps.length}: refusing a partial site`)
-  }
-  log.end(`Parsed ${result.length}/${fps.length} Markdown files in ${perf.timeSince()}`)
-  return result
 }

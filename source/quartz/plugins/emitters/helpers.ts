@@ -12,6 +12,7 @@ type WriteOptions = {
 
 // Build-local: the driver removes output directories before every full/watch rebuild.
 // A module-level Set outlives that cleanup and skips required mkdirs on the second build.
+// Keys use ctx object identity: {...ctx} gets a fresh cache. This is only an optimization.
 const createdDirs = new WeakMap<BuildCtx, Set<string>>()
 
 export const write = async ({ ctx, slug, ext, content }: WriteOptions): Promise<FilePath> => {

@@ -6,6 +6,9 @@ import { getRenderCoverage, resetRenderState } from "../components/renderPage"
 import { EmitResult, runWorkerTasks, workerCount } from "./workerPool"
 
 export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
+  // D-49: components read OTHER pages through allFiles (dates/title for sorting, tags
+  // for indexes, slugs for navigation). Every entry must be fully transformed before emit;
+  // never lazily fill metadata only for the page currently rendering.
   const { argv, cfg } = ctx
   const resources = getStaticResourcesFromPlugins(ctx)
   const required = ["ComponentResources", "Static"]
@@ -15,16 +18,14 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     if (matches !== 1) throw new Error(`Expected exactly one ${name} emitter, received ${matches}`)
   }
 
-  const run = async (index: number): Promise<EmitResult> => {
+  const run = async (index: number) => {
     const emitter = cfg.plugins.emitters[index]
-    resetRenderState()
     const start = performance.now()
     const files = await emitter.emit(ctx, content, resources)
-    const coverage = getRenderCoverage()
     console.log(
-      `[emit:${emitter.name}] ${files.length} reported paths, ${(performance.now() - start).toFixed(1)}ms, rendered=${coverage.rendered} graphPayloads=${coverage.graphPayloads}`,
+      `[emit:${emitter.name}] ${files.length} reported paths, ${(performance.now() - start).toFixed(1)}ms`,
     )
-    return { files, coverage }
+    return files
   }
 
   const ordered = cfg.plugins.emitters.map((_, index) => index)
@@ -36,7 +37,8 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   for (const index of ordered.filter((index) =>
     required.includes(cfg.plugins.emitters[index].name),
   )) {
-    results.push(await run(index))
+    resetRenderState()
+    results.push({ files: await run(index), coverage: getRenderCoverage() })
   }
   const remaining = ordered.filter((index) => !required.includes(cfg.plugins.emitters[index].name))
   const concurrency = workerCount(argv, content.length)
@@ -44,12 +46,20 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     `[emit] path=${concurrency === 1 ? "main" : "workers"} concurrency=${concurrency} emitters=${remaining.length}`,
   )
   if (concurrency === 1) {
-    // Keep the explicit single-thread mode useful for fixtures and parity diagnosis.
-    // Parallel I/O is unnecessary here; deterministic complete emitter calls share no counters.
-    for (const index of remaining) results.push(await run(index))
+    // One JavaScript thread still starts every phase-two emitter concurrently, as the
+    // frozen ABI requires. Counters belong to the phase, not overlapping emitter calls.
+    resetRenderState()
+    const settled = await Promise.allSettled(remaining.map(run))
+    // Join every writer before a failure releases the build lock or permits cleanup.
+    const failure = settled.find((result) => result.status === "rejected")
+    if (failure?.status === "rejected") throw failure.reason
+    const files = settled.flatMap((result) => (result.status === "fulfilled" ? result.value : []))
+    results.push({ files, coverage: getRenderCoverage() })
   } else {
     // Serialize once into shared bytes, then deserialize once per bounded emitter worker.
     // JSON would erase Dates and AST aliases; N postMessage copies duplicate host memory.
+    // D-50: htmlAst === tree and blocks refer into that SAME tree, including later plugin
+    // mutations. V8 serializes the whole object graph; independent field copies break it.
     const bytes = serialize(content)
     const shared = new SharedArrayBuffer(bytes.length)
     Buffer.from(shared).set(bytes)

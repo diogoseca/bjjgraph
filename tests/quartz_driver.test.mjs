@@ -95,7 +95,24 @@ function fixture(t) {
     "source/run.mjs",
     `import build from "./quartz/.quartz-cache/transpiled-build.mjs"
 import { Mutex } from "async-mutex"
-await build(JSON.parse(process.argv[2]), new Mutex(), () => {})
+import assert from "node:assert/strict"
+import fs from "node:fs"
+import path from "node:path"
+${emittedFiles.toString()}
+const argv = JSON.parse(process.argv[2])
+const rounds = Number(process.argv[3] ?? "1")
+const mutex = new Mutex()
+let firstOutput
+for (let round = 0; round < rounds; round++) {
+  await build(argv, mutex, () => {})
+  if (rounds > 1) {
+    const snapshot = new Map(emittedFiles(argv.output).map((file) => [file, fs.readFileSync(path.join(argv.output, file))]))
+    assert.ok(snapshot.size > 0, "repeat comparison must cover emitted artifacts")
+    if (round === 0) firstOutput = snapshot
+    else assert.deepEqual(snapshot, firstOutput, "same-process rebuild changed emitted paths or bytes")
+  }
+}
+if (rounds > 1) console.log("[repeat:coverage] rounds=" + rounds + " files=" + firstOutput.size)
 `,
   );
   put(
@@ -178,7 +195,7 @@ await build(JSON.parse(process.argv[2]), new Mutex(), () => {})
   return { root, source, put };
 }
 
-function runBuild(f, concurrency, output = "public") {
+function runBuild(f, concurrency, output = "public", rounds = 1) {
   const argv = {
     directory: "../content",
     output,
@@ -191,7 +208,7 @@ function runBuild(f, concurrency, output = "public") {
   };
   const result = spawnSync(
     process.execPath,
-    [path.join(f.source, "run.mjs"), JSON.stringify(argv)],
+    [path.join(f.source, "run.mjs"), JSON.stringify(argv), String(rounds)],
     {
       cwd: f.source,
       encoding: "utf8",
@@ -220,6 +237,40 @@ function emittedFiles(directory, relative = "") {
       return entry.isDirectory() ? emittedFiles(directory, name) : [name];
     })
     .sort();
+}
+
+async function isolatedModule(t, options) {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "bjj-quartz-seam-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+  fs.symlinkSync(
+    path.join(SOURCE, "node_modules"),
+    path.join(root, "node_modules"),
+    "dir",
+  );
+  const output = path.join(root, "subject.mjs");
+  await bundle({
+    ...options,
+    outfile: output,
+    bundle: true,
+    platform: "node",
+    format: "esm",
+    packages: "external",
+    jsx: "automatic",
+    jsxImportSource: "preact",
+    plugins: [
+      ...(options.plugins ?? []),
+      {
+        name: "seam-client-resources",
+        setup(build) {
+          build.onLoad({ filter: /\.scss$|\.inline\.(?:ts|js)$/ }, () => ({
+            contents: "",
+            loader: "text",
+          }));
+        },
+      },
+    ],
+  });
+  return { root, module: await import(pathToFileURL(output).href) };
 }
 
 test("real build fails when graph.json is missing", (t) => {
@@ -371,6 +422,214 @@ test("real build emits identical bytes with one and two workers", (t) => {
   console.log(
     `Worker transport coverage: ${files.length} byte-identical files at concurrency 1 and 2`,
   );
+});
+
+test("real build can clean and rebuild twice in one process", (t) => {
+  const f = fixture(t);
+  const result = runBuild(f, 1, "public", 2);
+  assert.equal(result.status, 0, result.log);
+  assert.equal(
+    result.log.match(/\[render:coverage\] rendered=8 graphPayloads=2/g)?.length,
+    2,
+    "both builds must complete rendering over the full fixture",
+  );
+  assert.match(result.log, /\[repeat:coverage\] rounds=2 files=17/);
+});
+
+test("workerCount preserves incumbent default thresholds and explicit overrides", async () => {
+  const result = await bundle({
+    entryPoints: [path.join(SOURCE, "quartz/processors/workerPool.ts")],
+    bundle: true,
+    write: false,
+    platform: "node",
+    format: "esm",
+    packages: "external",
+  });
+  const { workerCount } = await import(
+    `data:text/javascript;base64,${Buffer.from(result.outputFiles[0].contents).toString("base64")}`
+  );
+  const thresholds = [
+    [0, 1],
+    [127, 1],
+    [128, 1],
+    [191, 1],
+    [192, 2],
+    [319, 2],
+    [320, 3],
+    [447, 3],
+    [448, 4],
+    [4600, 4],
+  ];
+  for (const [files, expected] of thresholds) {
+    assert.equal(
+      workerCount({}, files),
+      expected,
+      `default concurrency for ${files} files`,
+    );
+    for (const concurrency of [1, 4]) {
+      assert.equal(
+        workerCount({ concurrency }, files),
+        concurrency,
+        `explicit concurrency ${concurrency} must override the default for ${files} files`,
+      );
+    }
+  }
+  console.log(
+    "Worker-count coverage: 10 default thresholds and 20 explicit overrides",
+  );
+});
+
+test("main-thread emit starts phase-two emitters concurrently after shared outputs finish", async (t) => {
+  const {
+    module: { emitContent },
+  } = await isolatedModule(t, {
+    entryPoints: [path.join(SOURCE, "quartz/processors/emit.ts")],
+  });
+  const events = [];
+  let componentsDone = false;
+  let staticDone = false;
+  let bStarted = false;
+  const emitter = (name, emit) => ({
+    name,
+    emit,
+    getQuartzComponents: () => [],
+  });
+  const emitters = [
+    emitter("A", async () => {
+      assert.ok(
+        componentsDone && staticDone,
+        "shared outputs must finish before A starts",
+      );
+      events.push("A:start");
+      await Promise.resolve();
+      assert.ok(
+        bStarted,
+        "B must start before A's pending asynchronous work completes",
+      );
+      events.push("A:end");
+      return [];
+    }),
+    emitter("ComponentResources", async () => {
+      events.push("ComponentResources:start");
+      await Promise.resolve();
+      componentsDone = true;
+      events.push("ComponentResources:end");
+      return [];
+    }),
+    emitter("B", async () => {
+      assert.ok(
+        componentsDone && staticDone,
+        "shared outputs must finish before B starts",
+      );
+      events.push("B:start");
+      bStarted = true;
+      await Promise.resolve();
+      events.push("B:end");
+      return [];
+    }),
+    emitter("Static", async () => {
+      assert.ok(
+        componentsDone,
+        "ComponentResources must finish before Static starts",
+      );
+      events.push("Static:start");
+      await Promise.resolve();
+      staticDone = true;
+      events.push("Static:end");
+      return [];
+    }),
+  ];
+  await emitContent(
+    {
+      buildId: "overlap-fixture",
+      allSlugs: [],
+      argv: { concurrency: 1, serve: false, verbose: false, output: "unused" },
+      cfg: {
+        configuration: {},
+        plugins: { transformers: [], filters: [], emitters },
+      },
+    },
+    [],
+  );
+  assert.deepEqual(events.slice(0, 4), [
+    "ComponentResources:start",
+    "ComponentResources:end",
+    "Static:start",
+    "Static:end",
+  ]);
+  assert.ok(events.indexOf("B:start") < events.indexOf("A:end"));
+  assert.ok(events.includes("A:end") && events.includes("B:end"));
+  console.log(
+    "Emit scheduling coverage: 2 ordered shared emitters and 2 overlapping main emitters",
+  );
+});
+
+test("parseMarkdown ends its logger once on main and worker failure", async (t) => {
+  const parsePath = path.join(SOURCE, "quartz/processors/parse.ts");
+  const logPath = path.join(SOURCE, "quartz/util/log.ts");
+  const poolPath = path.join(SOURCE, "quartz/processors/workerPool.ts");
+  const {
+    root,
+    module: { parseMarkdown, events },
+  } = await isolatedModule(t, {
+    stdin: {
+      contents: `export { parseMarkdown } from ${JSON.stringify(parsePath)};
+export { events } from ${JSON.stringify(logPath)};`,
+      loader: "ts",
+      resolveDir: SOURCE,
+    },
+    plugins: [
+      {
+        name: "parser-lifecycle-observers",
+        setup(build) {
+          build.onLoad({ filter: /\/quartz\/util\/log\.ts$/ }, () => ({
+            contents: `export const events = [];
+export class QuartzLogger {
+  start() { events.push("start") }
+  end() { events.push("end") }
+}`,
+            loader: "js",
+          }));
+          // This case isolates lifecycle around a rejecting transport. Native-worker byte/date
+          // transport is covered by the real-entry test above; it is deliberately not rerun here.
+          build.onResolve({ filter: /^\.\/workerPool$/ }, (args) =>
+            args.importer === parsePath
+              ? { path: "worker-task-rejection", namespace: "fixture" }
+              : undefined,
+          );
+          build.onLoad({ filter: /.*/, namespace: "fixture" }, () => ({
+            contents: `export { workerCount } from ${JSON.stringify(poolPath)};
+export async function runWorkerTasks() { throw new Error("fixture worker rejection") }`,
+            loader: "js",
+            resolveDir: SOURCE,
+          }));
+        },
+      },
+    ],
+  });
+  for (const concurrency of [1, 2]) {
+    await t.test(`concurrency ${concurrency}`, async () => {
+      events.length = 0;
+      const ctx = {
+        buildId: "logger-fixture",
+        allSlugs: [],
+        argv: { concurrency, directory: root, verbose: false },
+        cfg: {
+          configuration: {},
+          plugins: { transformers: [], filters: [], emitters: [] },
+        },
+      };
+      await assert.rejects(
+        parseMarkdown(ctx, [path.join(root, "missing.md")]),
+        concurrency === 1 ? /Failed to process/ : /fixture worker rejection/,
+      );
+      assert.deepEqual(
+        events,
+        ["start", "end"],
+        "failure must stop the logger exactly once",
+      );
+    });
+  }
 });
 
 test("actual CLI compiler keeps full main and emit resources but blank parse resources", (t) => {
