@@ -16,11 +16,15 @@ const defaultOptions: Options = {
 // of noise per file, and this repo builds 4,618 of them. Say it in full a few times, then count.
 const UNTRACKED_WARN_LIMIT = 5
 
+// Each parser worker loads this module once, even though it creates a transformer per
+// chunk. Report the missing provenance once rather than once for every undated page.
+let reportedMissingPublicationDate = false
+
 // libgit2 pathspecs are always "/"-separated. `fullFp` below is assembled with `path.posix.join`,
 // so this is a no-op on posix and repairs the mixed separators on Windows.
 const toPosix = (p: string) => p.split(path.sep).join("/")
 
-function coerceDate(fp: string, d: any): Date {
+function coerceDate(fp: string, d: any): Date | undefined {
   const dt = new Date(d)
   const invalidDate = isNaN(dt.getTime()) || dt.getTime() === 0
   if (invalidDate && d !== undefined) {
@@ -31,7 +35,7 @@ function coerceDate(fp: string, d: any): Date {
     )
   }
 
-  return invalidDate ? new Date() : dt
+  return invalidDate ? undefined : dt
 }
 
 type MaybeDate = undefined | string | number
@@ -62,7 +66,8 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 modified ||= file.data.frontmatter.lastmod as MaybeDate
                 modified ||= file.data.frontmatter.updated as MaybeDate
                 modified ||= file.data.frontmatter["last-modified"] as MaybeDate
-                published ||= file.data.frontmatter.publishDate as MaybeDate
+                published ||= (file.data.frontmatter.publishDate ??
+                  file.data.frontmatter.date) as MaybeDate
               } else if (source === "git") {
                 if (!repo) {
                   // Get a reference to the main git repo.
@@ -136,10 +141,23 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
               }
             }
 
+            // Git supplies modification history, not a first-publication record. Filesystem
+            // birthtime is checkout time in BOTH clones and worktrees. Neither belongs in
+            // article:published_time or JSON-LD datePublished. Keep publication unknown
+            // unless authored; substituting the build clock here would recreate the bug.
+            // Pinned through the real transformer and Head by published_time.test.mjs.
+            const publicationDate = coerceDate(fp, published)
+            if (!publicationDate && !reportedMissingPublicationDate) {
+              reportedMissingPublicationDate = true
+              console.log(
+                `Publication dates: no valid authored date for ${fp}; undated pages omit ` +
+                  `article:published_time and datePublished (reported once per worker)`,
+              )
+            }
             file.data.dates = {
-              created: coerceDate(fp, created),
-              modified: coerceDate(fp, modified),
-              published: coerceDate(fp, published),
+              created: coerceDate(fp, created) ?? new Date(),
+              modified: coerceDate(fp, modified) ?? new Date(),
+              published: publicationDate,
             }
           }
         },
@@ -153,7 +171,7 @@ declare module "vfile" {
     dates: {
       created: Date
       modified: Date
-      published: Date
+      published?: Date
     }
   }
 }

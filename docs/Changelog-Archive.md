@@ -7437,3 +7437,52 @@ numbers is not tested there.
 
 **Validation:** 287 unit tests (283 + 4 new), `validate:payload` green with one warning,
 `validate:claudemd` green (CLAUDE.md 80,645 / 82,000), `payload-first-hand` green.
+
+## v1.195.1 — Publication dates require publication evidence
+
+`CreatedModifiedDate` successfully discovers linked worktrees and normal clones. Its git
+source populates **modified only**; the creation fallback is the file's checkout birthtime.
+`Head` published that creation value as both `article:published_time` and JSON-LD
+`datePublished`. Complete git history in both deploy workflows therefore did not prevent
+this defect. The missing-workdir warning never applied: the git workdir and modification
+lookup were healthy. Separately, an absent `publishDate` became the build clock through
+`coerceDate(undefined)`, so merely switching Head's field would also have been wrong.
+
+None of the 4,600 Markdown sources supplies `date`, `created`, or `publishDate`; the JSON
+sources likewise carry no publication dates. Git's first/last commit does not prove first
+public deployment. Publication now comes from authored `publishDate` (then `date`), with
+missing or invalid dates omitted in both metadata surfaces. A worker reports the omission
+once. Git-backed modification metadata and the existing internal creation-date policy
+remain unchanged. A future authored backfill belongs in JSON and templates, with evidence.
+
+The pre-fix build reproduced exactly one census delta: 1,077 distinct publication values
+in the committed baseline versus 901 in this checkout. That count encoded filesystem
+history, not editorial history. The committed census and gate are deliberately unchanged;
+removing fabricated metadata necessarily changes its publication count, total meta-tag
+count, and publication meta-key count. Comparing independent corrected builds is a separate
+reproducibility check, not permission to silently re-seed the existing gate.
+
+`tests/published_time.test.mjs` executes the real transformer and rendered Head against
+normal, linked, full-clone and shallow-clone repositories, untracked notes, explicit dates,
+invalid dates, and precedence. Both new tests were red before the fix; restoring Head's
+creation-date source, restoring the build-clock fallback, dropping authored dates, and
+leaving an empty publication meta tag are killed by these assertions.
+`e2e/journeys/published-time.spec.ts` is tagged `@curated`, runs
+those fixtures on deploys, and inspects OG/JSON-LD on four served page archetypes. Both
+curated cases also failed against the original implementation/build.
+
+This establishes a production **metadata correctness** defect: the current production
+branch has identical relevant source, and both deployment paths execute it. It does not
+establish search-ranking/traffic harm; direct live-site requests in this investigation
+returned HTTP 403. The two completed emits also retain differing sitemap `lastmod` and RSS
+`pubDate` values because their reader still uses internal creation dates. Creation-date
+sorting/feed behavior, historical publication recovery, and general whole-site byte
+reproducibility are outside this change; Head publication parity does not justify removing
+every date-normalization rule from a whole-site comparison.
+
+**Validation:** 300 root unit tests passed; focused date tests passed again after the empty-tag
+assertion was strengthened. Quartz TypeScript/format checks and both new curated cases passed.
+Complete builds in a linked worktree and independent full clone used two parser workers and
+passed payload checks. Their censuses matched in all 13 dimensions; all 6,149 per-page OG and
+JSON-LD publication/modification maps matched exactly without normalization. Both unchanged
+baseline gates remained red with the same three expected publication-metadata deltas above.

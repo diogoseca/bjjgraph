@@ -62,7 +62,9 @@ export default (() => {
       name: "BJJ Graph",
       url: `https://${cfg.baseUrl}`,
     }
-    const published = fileData.dates?.created?.toISOString()
+    // Creation may come from checkout birthtime. Only an authored publication date is
+    // evidence for publication metadata; unknown dates stay absent in OG and JSON-LD.
+    const published = fileData.dates?.published?.toISOString()
     const modified = fileData.dates?.modified?.toISOString()
     // Stamp page-level entities with publisher + dates (signals AI answer engines
     // use). CollectionPage covers the submission family hubs.
@@ -101,9 +103,7 @@ export default (() => {
         <meta property="og:type" content="article" />
         <meta property="og:site_name" content="BJJ Graph" />
         <meta property="og:locale" content="en_US" />
-        {fileData.dates?.created && (
-          <meta property="article:published_time" content={fileData.dates.created.toISOString()} />
-        )}
+        {published && <meta property="article:published_time" content={published} />}
         {fileData.dates?.modified && (
           <meta property="article:modified_time" content={fileData.dates.modified.toISOString()} />
         )}
