@@ -49,10 +49,33 @@ import os from "node:os"
 
 export const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const SRC = path.join(REPO, "source")
-const OUT = path.join(SRC, ".quartz-cache", "a-pipeline-harness.mjs")
+// PER-PROCESS OUTPUT PATH, AND THE REASON IS A BUG THIS HARNESS ALREADY HAD.
+// `node --test a.test.mjs b.test.mjs` runs each FILE IN ITS OWN PROCESS, CONCURRENTLY. With a
+// single shared output path, four test files esbuild-wrote the same bundle at the same time and
+// imported it mid-write: measured as 5 of 19 tests failing in one run and 0 of 19 in the next, on
+// an unchanged tree. An INTERMITTENT gate is worse than no gate — it teaches the next person to
+// re-run instead of to read. The pid makes each process's bundle its own, and the exit hook keeps
+// `.quartz-cache/` from accumulating one per run.
+const OUT = path.join(SRC, ".quartz-cache", `a-pipeline-harness-${process.pid}.mjs`)
 
 // Every npm package below is a dependency of the Quartz sub-package, not of the root one, so it
 // resolves through source/package.json exactly the way tests/lastmod_git_path.test.mjs does.
+const toClean = new Set()
+function cleanupOnExit(file) {
+  if (toClean.size === 0) {
+    process.on("exit", () => {
+      for (const f of toClean) {
+        try {
+          fs.rmSync(f, { force: true })
+        } catch {
+          /* a leftover bundle in a gitignored cache dir is harmless; never fail a test over it */
+        }
+      }
+    })
+  }
+  toClean.add(file)
+}
+
 let req = null
 function sourceRequire() {
   if (!req) req = createRequire(path.join(SRC, "package.json"))
@@ -121,7 +144,8 @@ export function loadConfig() {
       plugins: [sassPlugin({ type: "css-text", cssImports: true }), inlineScriptLoader],
     })
     // Output must live under source/ so `packages: "external"` resolves against source/node_modules.
-    return (await import(`${OUT}?t=${process.pid}`)).default
+    cleanupOnExit(OUT)
+    return (await import(OUT)).default
   })()
   return configPromise
 }
@@ -249,6 +273,37 @@ export async function externalResourcesOf(pluginName) {
   const p = cfg.plugins.transformers.find((t) => t.name === pluginName)
   if (!p) throw new Error(`no transformer named ${pluginName} — name-keyed lookup matched nothing`)
   return p.externalResources ? p.externalResources({ argv: {}, cfg }) : {}
+}
+
+// Bundle one frozen utility module on its own, so a test can call its exports directly instead of
+// only observing them through the pipeline. Used for the indexed-vs-linear differential in
+// `quartz_wikilink_contract.test.mjs`. `util/path.ts` is FROZEN VERBATIM (D-01) — this reads it,
+// never writes it, and deliberately does not encode `util/path.test.ts`'s expectations, which are
+// 5-of-17 red and describe the OLD contract (recon R15).
+const moduleCache = new Map()
+export async function loadQuartzModule(relPath) {
+  if (moduleCache.has(relPath)) return moduleCache.get(relPath)
+  const r = sourceRequire()
+  const esbuild = r("esbuild")
+  const outfile = path.join(
+    SRC,
+    ".quartz-cache",
+    `a-pipeline-${relPath.replace(/[\/.]/g, "_")}-${process.pid}.mjs`,
+  )
+  await esbuild.build({
+    absWorkingDir: SRC,
+    entryPoints: [path.join(SRC, "quartz", relPath)],
+    outfile,
+    bundle: true,
+    platform: "node",
+    format: "esm",
+    packages: "external",
+    sourcemap: false,
+  })
+  cleanupOnExit(outfile)
+  const mod = await import(outfile)
+  moduleCache.set(relPath, mod)
+  return mod
 }
 
 /** Every content Markdown file, for the corpus half. Sorted, the way build.ts feeds the parser. */

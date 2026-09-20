@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
-"""Byte-freeze the markdown pipeline for phases P1-P4 of the Quartz replacement.
+"""Byte-freeze the Quartz replacement's frozen surfaces. ONE GATE, TWO SCOPES.
+
+    scope `pipeline`  plugins/transformers/** + plugins/filters/**   (D-27, stream A)
+    scope `keeplist`  INTERFACE.md section 7's retained-file inventory (D-01, contributed by D)
+
+Both scopes exist because two different decisions froze two DISJOINT sets for the same reason, and
+two scripts doing one job is the `readers.css` / `reading.css` shape this programme has already
+paid for once (D-41: quartz-cto ruled one gate, two scopes, owned here; `mgr-cl-3` contributed the
+keep-list scope from `qz/d-presentation/tests/artifacts/_presentation_keeplist_check.py`).
 
 WHAT THIS IS NOT. It is not `check_build_fingerprint.py` (stream V's, which censuses the BUILT
 site), it is not `emit_diff.py` (V's, which diffs emitted bytes against the golden), and it is not
@@ -20,6 +28,21 @@ the moment the edit lands rather than two days later.
   Recompute the decoupling claim:
     cd source/quartz && grep -nE 'require\\(|import\\(' plugins/transformers/*.ts plugins/filters/*.ts
     # 1 hit, and it is a browser-bound CDN import inside a template string (ofm.ts:751)
+
+WHY THE KEEP-LIST SCOPE EXISTS (D-01). The replacement keeps every component, stylesheet, i18n
+module and utility VERBATIM while the engine around them is swapped. INTERFACE.md section 7
+enumerates that set, and a hand-maintained enumeration can fail in TWO ways, so both are checked:
+
+  1. THE LIST IS INCOMPLETE — a tracked file the list does not name is a file the replacement may
+     change with nothing reporting it. That is CLAUDE.md 6.7's defect class: a new member is
+     missing by default. Checked by set-comparing the enumeration against `git ls-files` for the
+     directory the contract covers exhaustively.
+  2. THE LIST IS COMPLETE BUT NO LONGER TRUE — a file drifted and "byte-for-byte unchanged"
+     quietly stopped holding. Checked with `git show <base>:<path>`.
+
+The keep-list is PARSED out of the contract rather than copied into this file, deliberately: if
+section 7's heading or fence moves, this gate fails loudly instead of silently checking a stale
+copy. That is the right failure (mgr-cl-3's call, kept).
 
 HOW IT MOVES. Never automatically, and never by itself — the same rule as `payload_policy.json`'s
 bands and `check_payload_budget.py`'s tier-0 floors, and for the same reason: a self-advancing
@@ -56,6 +79,8 @@ from __future__ import annotations
 
 import argparse
 import datetime as _dt
+import re
+import subprocess
 import hashlib
 import json
 import sys
@@ -69,6 +94,16 @@ WATCHED_GLOBS = (
     "source/quartz/plugins/transformers/*.ts",
     "source/quartz/plugins/filters/*.ts",
 )
+
+# ── keeplist scope ─────────────────────────────────────────────────────────────────────────────
+INTERFACE = Path("/home/user/bjj-orchestrator/quartz/INTERFACE.md")
+BASE_REF = "f649801a9"          # the programme's base commit; D-01 freezes against it
+QZ_PREFIX = "source/quartz/"
+# components/ is the one directory INTERFACE.md section 7 claims to cover EXHAUSTIVELY, so it is
+# the only one a set-difference can be asserted on. The others are listed selectively by the
+# contract, so they are byte-checked but not completeness-checked — stated here rather than
+# silently applying an exhaustive check to a non-exhaustive list.
+EXHAUSTIVE_DIR = "components"
 
 # A floor, not an exact count: new transformers are legitimate, a collapse to nothing is not.
 # 12 files today (10 transformers incl. index.ts, 2 filters). Recompute:
@@ -206,7 +241,7 @@ def check() -> int:
             missing.append(rel)
 
     # ALWAYS print the positive count, green or red.
-    print(f"transformer freeze: compared {len(files)} files against {BASELINE.relative_to(REPO)}")
+    print(f"pipeline scope: compared {len(files)} files against {BASELINE.relative_to(REPO)}")
     accepted_total = sum(len(e.get("accepted", [])) for e in recorded.values())
     if accepted_total:
         print(f"  {accepted_total} previously accepted change(s) on record")
@@ -229,11 +264,113 @@ def check() -> int:
     return 1
 
 
+# ── SCOPE 2: the D-01 keep-list ────────────────────────────────────────────────────────────────
+
+
+def parse_keeplist() -> list[str]:
+    """Pull the retained-file inventory out of the contract. Never copy it into this file: a stale
+    copy would check itself. If the heading or fence moves, this raises rather than returning []."""
+    if not INTERFACE.exists():
+        raise FileNotFoundError(f"no interface contract at {INTERFACE}")
+    txt = INTERFACE.read_text(encoding="utf8")
+    m = re.search(r"Exact retained-file inventory.*?```text\n(.*?)```", txt, re.S)
+    if not m:
+        raise ValueError(
+            "could not find the keep-list block in the contract — the heading or fence moved"
+        )
+    listed = [ln.strip() for ln in m.group(1).splitlines() if ln.strip()]
+    if not listed:
+        # A matcher that matches nothing reports clean (CLAUDE.md §6.6). Refuse instead.
+        raise ValueError("the keep-list block parsed to ZERO entries")
+    return listed
+
+
+def check_keeplist(accepted: dict) -> int:
+    try:
+        listed = parse_keeplist()
+    except (FileNotFoundError, ValueError) as exc:
+        print(f"FAIL: {exc}", file=sys.stderr)
+        return 2
+
+    # 1. COMPLETENESS, only for the directory the contract claims to cover exhaustively.
+    listed_dir = sorted(x for x in listed if x.startswith(EXHAUSTIVE_DIR + "/"))
+    tracked = subprocess.run(
+        ["git", "ls-files", QZ_PREFIX + EXHAUSTIVE_DIR],
+        capture_output=True, text=True, cwd=REPO,
+    )
+    if tracked.returncode != 0:
+        print("FAIL: git ls-files failed — not a repo?", file=sys.stderr)
+        return 2
+    on_disk = sorted(x[len(QZ_PREFIX):] for x in tracked.stdout.split())
+    if not on_disk:
+        print(f"FAIL: git ls-files {QZ_PREFIX}{EXHAUSTIVE_DIR} returned nothing", file=sys.stderr)
+        return 2
+    unfrozen = [x for x in on_disk if x not in listed_dir]
+    phantom = [x for x in listed_dir if x not in on_disk]
+
+    # 2. BYTE IDENTITY against the programme base.
+    compared, drifted, accepted_drift = 0, [], []
+    for rel in listed:
+        full = QZ_PREFIX + rel
+        disk = REPO / full
+        if not disk.exists():
+            drifted.append((full, "ABSENT FROM WORKING TREE"))
+            continue
+        r = subprocess.run(["git", "show", f"{BASE_REF}:{full}"], capture_output=True, cwd=REPO)
+        if r.returncode != 0:
+            drifted.append((full, f"NOT IN {BASE_REF}"))
+            continue
+        compared += 1
+        if disk.read_bytes() != r.stdout:
+            # Same moveability rule as the pipeline scope: a recorded reason downgrades a failure
+            # to a reported, accepted delta. An absolute freeze gets switched off wholesale the
+            # first time a legitimate change needs it.
+            (accepted_drift if full in accepted else drifted).append((full, "BYTES DIFFER"))
+
+    print(f"keep-list scope: {len(listed)} entries, {len(listed_dir)} under {EXHAUSTIVE_DIR}/")
+    print(f"  tracked under {QZ_PREFIX}{EXHAUSTIVE_DIR}/ : {len(on_disk)}")
+    print(f"  byte-compared against {BASE_REF}      : {compared}   <- positive coverage count")
+    if accepted_drift:
+        print(f"  accepted deltas                    : {len(accepted_drift)}")
+        for f, _ in accepted_drift:
+            print(f"      {f}  — {accepted[f]['accepted'][-1]['reason']}")
+
+    # A run that compared nothing proved nothing, and must not exit 0.
+    if compared == 0:
+        print("FAIL: byte-compared ZERO files — this run proved nothing", file=sys.stderr)
+        return 2
+    bad = False
+    for rel in unfrozen:
+        print(f"  ON DISK BUT NOT FROZEN  {rel}  (the replacement may change it; nothing would report it)", file=sys.stderr)
+        bad = True
+    for rel in phantom:
+        print(f"  FROZEN BUT NOT TRACKED  {rel}", file=sys.stderr)
+        bad = True
+    for f, why in drifted:
+        print(f"  {why:24} {f}", file=sys.stderr)
+        bad = True
+    if bad:
+        print(
+            "\nD-01 says these are verbatim. If a change is deliberate:\n"
+            '  python3 scripts/check_frozen_surfaces.py --accept <path> --reason "..."',
+            file=sys.stderr,
+        )
+        return 1
+    print("  clean — keep-list complete and byte-identical")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--seed", action="store_true", help="create the baseline from the current tree (once ever)")
     ap.add_argument("--force", action="store_true", help="allow --seed to overwrite an existing baseline")
     ap.add_argument("--note", default="Stream A byte-freeze, phases P1-P4 (D-27).")
+    ap.add_argument(
+        "--scope",
+        choices=("pipeline", "keeplist", "all"),
+        default="all",
+        help="which frozen surface to check (default: both)",
+    )
     ap.add_argument("--accept", metavar="PATH", help="accept ONE file's current bytes")
     ap.add_argument("--reason", help="why that change is legitimate; required with --accept")
     args = ap.parse_args()
@@ -245,7 +382,16 @@ def main() -> int:
             print("FAIL: --accept requires --reason", file=sys.stderr)
             return 2
         return accept(args.accept, args.reason)
-    return check()
+
+    data = load_baseline()
+    accepted = {k: v for k, v in data.get("files", {}).items() if v.get("accepted")}
+    codes = []
+    if args.scope in ("pipeline", "all"):
+        codes.append(check())
+    if args.scope in ("keeplist", "all"):
+        codes.append(check_keeplist(accepted))
+    # The worst outcome wins: 2 (unusable instrument) beats 1 (drift) beats 0.
+    return max(codes) if 2 not in codes else 2
 
 
 if __name__ == "__main__":
