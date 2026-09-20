@@ -130,7 +130,7 @@ jobs:
         run: python3 scripts/apply_affiliate_ref.py
 
       # Budget the final emitted bytes, after Forward, discovery export, and referral
-      # resolution have added their artifacts, URLs, disclosures, and media loader.
+      # resolution have added their artifacts, URLs, and media loader.
       # Keep the committed ceilings; raising them requires a separate justified change.
       - name: Payload budget (gate)
         run: npm run validate:payload
@@ -141,10 +141,9 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_systems_payload.py
 
-      # The disclosure is a legal claim rendered from two hand-maintained copies, and only a
-      # human-verified URL may render at all. Both are asserted here (plus: the committed
-      # graph.json carries no affiliate URL). Validate neutral source and built output.
-      - name: Affiliate compliance gate (disclosure drift + unverified links)
+      # Validate neutral source links, configured referrals, and removal of retired notices.
+      # Only verified product links render; graph.json must carry no affiliate URL.
+      - name: Affiliate surface gate (referral state + verified links)
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_affiliate_surface.py --built

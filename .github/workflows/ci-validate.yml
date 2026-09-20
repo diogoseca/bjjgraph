@@ -176,8 +176,7 @@ jobs:
       # CLAUDE.md is loaded into EVERY session, so its size is a standing tax and its
       # references are acted on. Two cheap stdlib gates, no deps:
       #   budget — a char ratchet, plus the structural checks that make the file work at all
-      #            (the CANONICAL-DISCLOSURE block two other gates parse out of it, no
-      #            @-imports which would auto-load the archive straight back in, and a trap
+      #            (no @-imports which would auto-load the archive straight back in, and a trap
       #            catalogue that still has entries in it).
       #   refs   — every repo path, `npm run` script and symbol@line citation it names must
       #            resolve. Every line citation in the pre-split file was wrong, six for six.
