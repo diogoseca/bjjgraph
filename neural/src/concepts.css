@@ -120,8 +120,7 @@
   font-style: normal;
 }
 
-/* The way OUT of the pane. The pane holds the concept's spine; the authored page holds ~40KB of
-   prose per principle that no payload here carries, and the panel has to say so. */
+/* The legacy Principle page link and the shared technique pagination control. */
 .ng-concept-page {
   display: flex;
   align-items: center;
@@ -159,6 +158,139 @@
   font-size: 11px;
   line-height: 1.45;
 }
+
+/* Learning is a complete read. Group labels with explanations and give sections room,
+   while keeping the established pane and graph geometry. */
+.ng-concept-detail[data-concept-cat="Learning"] {
+  gap: 13px;
+  margin: 8px 3px 22px;
+  padding: 6px 10px 20px;
+  border: 0;
+  border-bottom: 1px solid rgba(126, 224, 168, 0.22);
+  border-radius: 0;
+  background: none;
+  overflow-wrap: anywhere;
+  hyphens: none;
+}
+
+.ng-concept-detail[data-concept-cat="Learning"] h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.ng-concept-detail[data-concept-cat="Learning"] .ng-concept-meta {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.ng-concept-detail[data-concept-cat="Learning"] p {
+  color: #d0d9e7;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.ng-learning-body,
+.ng-learning-related,
+.ng-learning-techniques,
+.ng-learning-sources,
+.ng-learning-status {
+  margin: 0 13px 24px;
+  color: #b9c5d8;
+  font-size: 14px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  hyphens: none;
+}
+
+/* Quartz assigns prose styles directly, so inherited reader styles cannot override them. */
+.ng-concept-detail[data-concept-cat="Learning"] *,
+.ng-learning-body *, .ng-learning-related *, .ng-learning-techniques *, .ng-learning-sources * {
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+.ng-learning-body p, .ng-learning-body li { color: #b9c5d8; }
+.ng-learning-body > p { margin: 0 0 24px; }
+
+.ng-learning-body .ng-doc-section,
+.ng-learning-related,
+.ng-learning-techniques,
+.ng-learning-sources {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(150, 170, 210, 0.16);
+}
+
+.ng-learning-body h3,
+.ng-learning-related h3 {
+  margin: 0 0 13px;
+  color: #e3eaf4;
+  font: 650 16px/1.35 "Space Grotesk", sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.ng-learning-body ul { gap: 11px; }
+.ng-learning-body dl { gap: 18px; }
+.ng-learning-body dt { color: #e0e7f0; font-size: 14px; }
+.ng-learning-body dd { margin: 5px 0 0; color: #b9c5d8; font-size: 14px; line-height: 1.7; }
+.ng-learning-body dd em,
+.ng-learning-body .ng-doc-outcome { display: block; margin: 6px 0 0; color: #9eafc6; font-size: 13px; line-height: 1.6; }
+.ng-learning-body dd em:first-child { margin: 0 0 5px; }
+
+.ng-learning-body summary,
+.ng-learning-techniques > summary,
+.ng-learning-sources > summary {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  padding: 3px 0;
+  color: #a8dfbd;
+  font: 600 13px/1.5 "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 4px;
+}
+
+.ng-learning-body summary::-webkit-details-marker,
+.ng-learning-techniques > summary::-webkit-details-marker,
+.ng-learning-sources > summary::-webkit-details-marker { display: none; }
+.ng-learning-body summary::after,
+.ng-learning-techniques > summary::after,
+.ng-learning-sources > summary::after { content: "+"; margin-left: auto; flex: none; font-size: 18px; font-weight: 400; }
+.ng-learning-body details[open] > summary::after,
+.ng-learning-techniques[open] > summary::after,
+.ng-learning-sources[open] > summary::after { content: "−"; }
+.ng-learning-body summary:hover,
+.ng-learning-related a:hover,
+.ng-learning-sources a:hover { color: #e0f8e9; }
+.ng-learning-body summary:focus-visible,
+.ng-learning-techniques summary:focus-visible,
+.ng-learning-sources summary:focus-visible,
+.ng-learning-related a:focus-visible,
+.ng-learning-sources a:focus-visible,
+.ng-learning-status button:focus-visible { outline: 2px solid #a8dfbd; outline-offset: 3px; }
+.ng-learning-body .ng-doc-collapse,
+.ng-learning-body details[open] > summary .ng-doc-expand { display: none; }
+.ng-learning-body details[open] > summary .ng-doc-collapse { display: inline; }
+.ng-learning-body .ng-doc-more { margin-top: 5px; }
+.ng-learning-body .ng-doc-more[open] > ul,
+.ng-learning-body .ng-doc-more[open] > dl { margin-top: 9px; }
+.ng-learning-body .ng-doc-question { margin-bottom: 8px; }
+.ng-learning-body .ng-doc-question summary { color: #d0d9e7; font-size: 14px; }
+.ng-learning-body .ng-doc-question p { margin: 6px 0 16px; }
+.ng-learning-related a { display: block; padding: 9px 0; color: #b9e6ca; text-decoration: none; }
+.ng-learning-techniques > summary,
+.ng-learning-sources > summary { color: #ced8e5; font-size: 14px; }
+.ng-learning-techniques > summary span,
+.ng-learning-sources > summary span { color: #9eafc6; font-weight: 400; }
+.ng-learning-sources ul { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 16px; }
+.ng-learning-sources a { color: #b9e6ca; text-underline-offset: 3px; }
+.ng-learning-sources small { display: block; color: #9eafc6; font-size: 12px; }
+.ng-learning-status button { padding: 10px 14px; border: 1px solid #698676; border-radius: 6px; background: #233b30; color: #d9f4e3; font: inherit; cursor: pointer; }
 
 /* On a phone a principle is read alongside its graph. The marker is removed by clearFocus
    and when another library opens, so the ordinary Explore and study panes retain their layout. */

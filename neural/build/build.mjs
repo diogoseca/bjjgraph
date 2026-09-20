@@ -358,9 +358,10 @@ const cssJoined = [
   challengeCSS,
   challengeCollectionCSS,
   challengeFeedbackCSS,
-  systemsCSS,
-  conceptsCSS,
 ].join("\n");
+// Reference-page styles are requested with their deferred indexes. The game boot should not
+// pay for a reader it never opens. Both local refresh commands copy every built app asset.
+writeFileSync(R("dist/readers.css"), (await transform(systemsCSS + "\n" + conceptsCSS, { loader: "css", minify: true })).code);
 
 // ── CSS COMMENTS ARE PAYLOAD UNLESS SOMETHING STRIPS THEM, AND NOTHING DID ──────────────────
 // The JS above goes through esbuild, which drops comments — so "documentation at the code is

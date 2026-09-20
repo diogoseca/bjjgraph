@@ -143,7 +143,7 @@ const NG_CHUNK_TRIES = 3;
 // table is the contract, not a default, so a System's `metrics` can never leak into a principle.
 const NG_DOC_LABELS = {
   Principle: { points: "Key principles", contexts: "Where it applies", errors: "What goes wrong", drills: "How to train it" },
-  Learning: { points: "Key takeaways", contexts: "Where it applies", errors: "What goes wrong", drills: "How to train it" },
+  Learning: { points: "Key takeaways", contexts: "In practice", errors: "Common mistakes", drills: "Try it in training" },
   System: {
     points: "Key principles", contexts: "What it is made of", errors: "What gets in the way",
     mistakes: "Common mistakes", drills: "How to train it", metrics: "How you know it is working",
@@ -3106,7 +3106,17 @@ class Component extends DCLogic {
     } else this._ensureAliases();
   }
   // ── deferred Systems payload (324KB, read only by Explore + the system buckets) ──
+  _ensureReaderStyles() {
+    if (this._readerStyles) return;
+    const sheet = document.createElement("link");
+    sheet.rel = "stylesheet"; sheet.href = this._dataBase() + "app/readers.css";
+    sheet.setAttribute("data-reader-styles", "");
+    sheet.onerror = () => { sheet.remove(); if (this._readerStyles === sheet) this._readerStyles = null; };
+    this._readerStyles = sheet;
+    document.head.appendChild(sheet);
+  }
   _ensureSystems() {
+    this._ensureReaderStyles();
     if (this._systemsWait) return this._systemsWait;
     this._systemsWait = fetch(this._dataBase() + "systems.json")
       .then((sr) => (sr.ok ? sr.json() : null))
@@ -3122,6 +3132,7 @@ class Component extends DCLogic {
   // so boot must not pay for one. The index carries only what the LIST and the graph HIGHLIGHT
   // need; each concept's readable body is a dossier chunk fetched when the panel opens.
   _ensureConcepts() {
+    this._ensureReaderStyles();
     if (this._conceptsWait) return this._conceptsWait;
     this._conceptsWait = fetch(this._dataBase() + "concepts.json")
       .then((cr) => (cr.ok ? cr.json() : null))
@@ -3221,6 +3232,7 @@ class Component extends DCLogic {
     const idxs = this.conceptNodeIdxs(c);
     this._conceptId = id;
     this._conceptMemberLimit = 60;
+    this._conceptReadState = { id, open: {} };
     this._conceptBody(c);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_concept_opened", { concept: c.name, cat: c.cat, nodes: idxs.length });
     this._pushUrl("/" + id, { ngPage: id });
@@ -7105,6 +7117,17 @@ class Component extends DCLogic {
     // arrival reposition is pending (v1.98.1)
     const keepScroll =
       this._viewMode === "challenges" && !this._challengeScrollPending ? list.scrollTop : null;
+    // Snapshot native disclosure state before replacing the DOM. A toggle event can still be
+    // queued when hydration or a ruleset change arrives; reading the DOM avoids losing it.
+    const reading = this._conceptReadState;
+    const sameReading = this._viewMode === "explore" && reading && this._conceptViewState === reading && reading.id === this._conceptId &&
+      this._conceptsById && this._conceptsById[reading.id]?.cat === "Learning" &&
+      list.querySelector("[data-concept-detail]")?.getAttribute("data-concept-detail") === reading.id;
+    const readScroll = sameReading ? list.scrollTop : 0;
+    const readFocus = sameReading && document.activeElement?.closest("[data-concept-disclosure]")?.getAttribute("data-concept-disclosure");
+    if (sameReading) for (const fold of list.querySelectorAll("[data-concept-disclosure]")) {
+      reading.open[fold.getAttribute("data-concept-disclosure")] = fold.open;
+    }
     this._stopSystemPreview();
     list.innerHTML = "";
     if (this.renderTabSubtitles) this.renderTabSubtitles();
@@ -7143,6 +7166,13 @@ class Component extends DCLogic {
     // selection, and typing is the only thing that can arm one (v1.152.0).
     if (this._conceptId && !q && this._conceptsById && this._conceptsById[this._conceptId]) {
       this.renderConceptDetail(list, this._conceptId, mk);
+      if (this._conceptsById[this._conceptId].cat === "Learning") {
+        this._conceptViewState = reading;
+        for (const fold of list.querySelectorAll("[data-concept-disclosure]")) {
+          if (fold.getAttribute("data-concept-disclosure") === readFocus) fold.querySelector("summary")?.focus({ preventScroll: true });
+        }
+        list.scrollTop = readScroll;
+      }
       return;
     }
     const aliasActive = () => this.deckShown && this._viewMode === "explore" && !this._paneStudyActive();
@@ -7251,7 +7281,7 @@ class Component extends DCLogic {
       list.appendChild(hdr);
       if (!open) return;
       for (const c of all) {
-        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
+        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.title || c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
         row.style.paddingRight = "12px";
         row.setAttribute("data-concept-row", c.id);
         row.setAttribute("data-concept-cat", c.cat);
@@ -9593,12 +9623,23 @@ class Component extends DCLogic {
     const L = NG_DOC_LABELS[cat] || NG_DOC_LABELS.Principle;
     const arr = (k) => (Array.isArray(body[k]) ? body[k] : []);
     const head = (k) => "<h3>" + E(L[k]) + "</h3>";
-    let h = body.overview ? "<p>" + E(body.overview) + "</p>" : "";
-    const dl = (k, rows) => head(k) + '<dl data-doc-' + k + '="' + rows.length + '">' + rows.join("") + "</dl>";
-    const ul = (k, rows) => head(k) + '<ul data-doc-' + k + '="' + rows.length + '">' + rows.map((t) => "<li>" + E(t) + "</li>").join("") + "</ul>";
+    let h = body.overview ? "<p>" + E(body.overview).replace(/\n\s*\n/g, "</p><p>") + "</p>" : "";
+    const block = (k, rows, tag) => {
+      const items = (r) => "<" + tag + ' data-doc-' + k + '="' + r.length + '">' + r.join("") + "</" + tag + ">";
+      if (cat !== "Learning") return head(k) + items(rows);
+      const preview = { points: 3, contexts: 2, errors: 2, drills: 1 }[k] || rows.length;
+      const rest = rows.slice(preview);
+      return '<section class="ng-doc-section" data-doc-section="' + k + '">' + head(k) + items(rows.slice(0, preview)) +
+        (rest.length ? '<details class="ng-doc-more" data-concept-disclosure="' + k + '"><summary style="pointer-events:auto;">' +
+          '<span class="ng-doc-expand">Show ' + rest.length + ' more<span class="ng-sr-only">: ' + E(L[k]) + '</span></span>' +
+          '<span class="ng-doc-collapse">Show less<span class="ng-sr-only">: ' + E(L[k]) + '</span></span></summary>' + items(rest) + '</details>' : "") + '</section>';
+    };
+    const dl = (k, rows) => block(k, cat === "Learning" ? rows.map((r) => '<div class="ng-doc-item">' + r + '</div>') : rows, "dl");
+    const ul = (k, rows) => block(k, rows.map((t) => "<li>" + E(t) + "</li>"), "ul");
     if (L.points && arr("points").length) h += ul("points", arr("points"));
     if (L.contexts && arr("contexts").length)
-      h += dl("contexts", arr("contexts").map((x) => "<dt>" + E(x.c) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.how) + "</dd>"));
+      h += dl("contexts", arr("contexts").map((x) => "<dt>" + E(x.c) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.how) +
+        (x.outcome ? '<span class="ng-doc-outcome">' + E(x.outcome) + '</span>' : "") + "</dd>"));
     if (L.errors && arr("errors").length)
       h += dl("errors", arr("errors").map((x) => "<dt>" + E(x.err) + "</dt><dd>" + (x.why ? "<em>" + E(x.why) + "</em>" : "") + E(x.fix) + "</dd>"));
     if (L.mistakes && arr("mistakes").length) h += ul("mistakes", arr("mistakes"));
@@ -9607,6 +9648,11 @@ class Component extends DCLogic {
     if (L.metrics && arr("metrics").length)
       h += dl("metrics", arr("metrics").map((x) => "<dt>" + E(x.name) + "</dt><dd>" + E(x.how) +
         (Array.isArray(x.signs) && x.signs.length ? "<ul>" + x.signs.map((g) => "<li>" + E(g) + "</li>").join("") + "</ul>" : "") + "</dd>"));
+    if (cat === "Learning" && arr("assessment").length) {
+      h += '<section class="ng-doc-section" data-doc-assessment="' + arr("assessment").length + '"><h3>Self-assessment</h3>' +
+        arr("assessment").map((x, i) => '<details class="ng-doc-question" data-concept-disclosure="question-' + i + '">' +
+          '<summary style="pointer-events:auto;">' + E(x.question) + '</summary><p>' + E(x.answer) + '</p></details>').join("") + '</section>';
+    }
     return h;
   }
   /** THE PANEL THE CLICK WAS ALWAYS MEANT TO OPEN.
@@ -9621,10 +9667,11 @@ class Component extends DCLogic {
    *  Learning (authored by two different templates, saying the same things in different words)
    *  draw through ONE renderer: overview, points, contexts, errors, drills.
    *
-   *  NOT here, deliberately: the full authored prose (content/Principles/*.md is ~2.4MB) and the
-   *  concept flashcards, which still reach no deck. The page link is how a reader gets the rest. */
+   *  Learning includes its complete edited body, assessment and sources. Assessment is a read,
+   *  not a scored deck. Principles retain their existing body contract. */
   renderConceptDetail(list, id, mk) {
     const c = this._conceptsById[id]; if (!c) return;
+    const learning = c.cat === "Learning";
     const E = (v) => this.escHTML(v);
     const body = this._conceptBody(c);
     const idxs = this.conceptNodeIdxs(c);
@@ -9637,11 +9684,11 @@ class Component extends DCLogic {
     card.className = "ng-concept-detail";
     card.setAttribute("data-concept-detail", c.id);
     card.setAttribute("data-concept-cat", c.cat);
-    card.setAttribute("aria-label", c.name + " " + c.cat.toLowerCase());
+    card.setAttribute("aria-label", (c.title || c.name) + " " + c.cat.toLowerCase());
     const meta = [c.cat === "Learning" ? "Learning" : "Principle"];
     if (c.meta) meta.push(E(c.meta));
-    if (idxs.length) meta.push(idxs.length + " lit on the graph");
-    card.innerHTML = "<h2>" + E(c.name) + '</h2><div class="ng-concept-meta">' + meta.join(" \u00b7 ") + "</div>" +
+    if (!learning && idxs.length) meta.push(idxs.length + " lit on the graph");
+    card.innerHTML = "<h2>" + E(c.title || c.name) + '</h2><div class="ng-concept-meta">' + meta.join(" \u00b7 ") + "</div>" +
       (c.summary ? "<p>" + E(c.summary) + "</p>" : "");
     list.appendChild(card);
 
@@ -9658,31 +9705,91 @@ class Component extends DCLogic {
     }
     if (doc) {
       const sec = document.createElement("div");
-      sec.className = "ng-doc-body";
+      sec.className = "ng-doc-body" + (learning ? " ng-learning-body" : "");
       sec.setAttribute("data-concept-body", c.id);
       sec.innerHTML = doc;
       list.appendChild(sec);
     }
 
-    // The full authored page. A REAL anchor, because it leaves the app: the .md prose behind it is
-    // the reading surface this pane is not, and the panel must say so rather than imply it is all
-    // there is.
-    const page = document.createElement("a");
-    page.className = "ng-concept-page";
-    page.setAttribute("data-concept-page", c.id);
-    page.href = c.url;
-    page.style.pointerEvents = "auto";
-    page.innerHTML = "<span>Read the full page</span><i aria-hidden=\"true\">\u2197</i>";
-    list.appendChild(page);
+    if (learning && !body) {
+      const status = document.createElement("section");
+      status.className = "ng-learning-status";
+      status.setAttribute("data-concept-loading", id);
+      const exhausted = (window.NG_CONTENT && window.NG_CONTENT.decks || {})[c.key] === null && (this._docRetried || {})[c.key];
+      status.innerHTML = '<p role="status">' + (exhausted ? "This article could not be loaded." : "Loading article…") + '</p>';
+      if (exhausted) {
+        const retry = document.createElement("button");
+        retry.type = "button"; retry.textContent = "Retry article";
+        retry.style.pointerEvents = "auto"; retry.setAttribute("data-concept-retry", id);
+        retry.onclick = () => {
+          delete (window.NG_CONTENT && window.NG_CONTENT.decks || {})[c.key];
+          delete (this._docRetried || {})[c.key]; delete (this._contentWaits || {})[c.key]; delete (this._contentFails || {})[c.key];
+          this.renderExplorer();
+        };
+        status.appendChild(retry);
+      }
+      list.appendChild(status);
+    }
+    if (!learning) {
+      const page = document.createElement("a");
+      page.className = "ng-concept-page";
+      page.setAttribute("data-concept-page", c.id);
+      page.href = c.url;
+      page.style.pointerEvents = "auto";
+      page.innerHTML = "<span>Read the full page</span><i aria-hidden=\"true\">\u2197</i>";
+      list.appendChild(page);
+    }
+    if (learning && body) {
+      const readings = Array.isArray(body.relatedReadings) ? body.relatedReadings :
+        (body.related || []).map((rid) => this._conceptsById[rid]).filter(Boolean).map((r) => ({ ...r, title: r.title || r.name }));
+      if (readings.length) {
+        const related = document.createElement("section");
+        related.className = "ng-learning-related"; related.setAttribute("data-concept-related", id);
+        related.innerHTML = '<h3>Related reading</h3>';
+        for (const r of readings) {
+          const link = document.createElement("a");
+          // Only emitted reference-page routes are allowed in these in-app links.
+          if (!/^(Learning|Principles|Systems)\/[^?#]+$/.test(r.id)) continue;
+          link.href = "/" + r.id; link.textContent = r.title;
+          link.setAttribute("data-concept-link", r.id); link.style.pointerEvents = "auto";
+          link.onclick = async (event) => {
+            event.stopPropagation(); // Quartz's page router does not inspect defaultPrevented.
+            if (event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+            event.preventDefault();
+            if (r.cat === "System") {
+              const visit = this._conceptReadState;
+              const navigation = this._conceptReadNavigation = {};
+              await this._ensureSystems();
+              if (this._conceptId === id && this._conceptReadState === visit && this._conceptReadNavigation === navigation &&
+                this.deckShown && this._viewMode === "explore") {
+                if (this._systemsById && this._systemsById[r.id]) this.openSystem(r.id);
+                else window.location.assign(link.href);
+              }
+            } else this.openConcept(r.id);
+          };
+          related.appendChild(link);
+        }
+        list.appendChild(related);
+      }
+    }
 
     // ── the techniques this concept names, with the authored reason each one is here. The glue
     //    is the same idea a System carries: a lit constellation with no reason attached is what
     //    the six search shortcuts already were.
     if (idxs.length) {
-      const head = document.createElement("div");
-      head.className = "ng-system-members-head";
-      head.innerHTML = '<span class="ng-system-kicker">On the graph</span><b>' + idxs.length + " lit</b>";
-      list.appendChild(head);
+      let members = list;
+      if (learning) {
+        members = document.createElement("details");
+        members.className = "ng-learning-techniques";
+        members.setAttribute("data-concept-disclosure", "techniques");
+        members.innerHTML = '<summary style="pointer-events:auto;">Explore techniques <span>(' + idxs.length + ')</span></summary>';
+        list.appendChild(members);
+      } else {
+        const head = document.createElement("div");
+        head.className = "ng-system-members-head";
+        head.innerHTML = '<span class="ng-system-kicker">On the graph</span><b>' + idxs.length + " lit</b>";
+        list.appendChild(head);
+      }
       const roleFor = new Map();
       for (const g of (body && Array.isArray(body.glue) ? body.glue : [])) {
         for (const nid of g.nodes || []) if (g.role && !roleFor.has(nid)) roleFor.set(nid, g.role);
@@ -9700,18 +9807,18 @@ class Component extends DCLogic {
       const limit = this._conceptMemberLimit || 60;
       for (const i of idxs.slice(0, limit)) {
         const n = this.nodes[i], qual = this.nodeQual(n);
-        const role = roleFor.get(n.id) || (body && body.applicability) || "";
+        const role = learning ? "" : roleFor.get(n.id) || (body && body.applicability) || "";
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
-            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
+            '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + E(this.graphName(n)) +
             (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
-          22,
+          learning ? 0 : 22,
           () => this.openDossier(i),
         );
         row.setAttribute("data-concept-node", n.id);
         row.style.pointerEvents = "auto";
-        list.appendChild(row);
+        members.appendChild(row);
       }
       if (idxs.length > limit) {
         const more = document.createElement("button");
@@ -9726,7 +9833,7 @@ class Component extends DCLogic {
           this.renderExplorer();
           list.scrollTop = scroll;
         };
-        list.appendChild(more);
+        members.appendChild(more);
       }
     }
 
@@ -9735,11 +9842,11 @@ class Component extends DCLogic {
     //    actually follows, and the emitter resolved each one against the payload it emitted, so
     //    a link can never point at a row that does not exist.
     const related = (body && Array.isArray(body.related) ? body.related : []).filter((rid) => this._conceptsById && this._conceptsById[rid]);
-    if (related.length) {
+    if (!learning && related.length) {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">Related concepts</span>', 12));
       for (const rid of related) {
         const r = this._conceptsById[rid];
-        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + E(r.name) + "</span>", 22, () => this.openConcept(rid));
+        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + E(r.title || r.name) + "</span>", 22, () => this.openConcept(rid));
         row.setAttribute("data-concept-link", rid);
         row.style.pointerEvents = "auto";
         list.appendChild(row);
@@ -9748,6 +9855,30 @@ class Component extends DCLogic {
 
     const missing = (Array.isArray(c.unresolved) ? c.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " technique" + (missing === 1 ? "" : "s") + " named here aren\u2019t on the map yet</span>", 22));
+    if (learning) {
+      const refs = body && Array.isArray(body.references) ? body.references : [];
+      if (refs.length) {
+        const sources = document.createElement("details");
+        sources.className = "ng-learning-sources"; sources.setAttribute("data-concept-disclosure", "sources");
+        sources.innerHTML = '<summary style="pointer-events:auto;">Sources <span>(' + refs.length + ')</span></summary><ul></ul>';
+        for (const ref of refs) {
+          const item = document.createElement("li");
+          const title = document.createElement(/^https?:\/\//i.test(ref.url || "") ? "a" : "span");
+          title.textContent = ref.title;
+          if (title.tagName === "A") { title.href = ref.url; title.target = "_blank"; title.rel = "noopener noreferrer"; title.style.pointerEvents = "auto"; }
+          item.appendChild(title);
+          if (ref.author) { const by = document.createElement("small"); by.textContent = ref.author; item.appendChild(by); }
+          sources.querySelector("ul").appendChild(item);
+        }
+        list.appendChild(sources);
+      }
+      const state = this._conceptReadState;
+      if (state && state.id === id) for (const fold of list.querySelectorAll("[data-concept-disclosure]")) {
+        const key = fold.getAttribute("data-concept-disclosure");
+        fold.open = !!state.open[key];
+        fold.ontoggle = () => { if (fold.isConnected && this._conceptReadState === state) state.open[key] = fold.open; };
+      }
+    }
   }
   locateNode(idx) {
     // pure camera flight — the pane sits on the LEFT (v1.94.0; this comment used to say right),

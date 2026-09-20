@@ -688,7 +688,7 @@ Omit unsupported legacy sections. Preserve curated products without modification
     elif category == "Learning":
         return f"""REQUIRED NAME FIELD:
 - Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
-- DO NOT include 'title' field (auto-generated from name)
+- Optional display_title simplifies the reader-facing title; never rename the canonical name or file
 
 CATEGORY FIELD:
 - category: Must be one of "Strategy", "Training", or "Competition"
@@ -699,12 +699,14 @@ REFERENCES:
 - references[] -> Optional array of external citations with title/author/url
 
 KEY FIELDS:
-- overview: 2-3 paragraphs, 400+ characters, BJJ-specific (not generic self-help)
-- key_takeaways: 5-8 actionable bullet points specific to BJJ
-- bjj_applications: 3-6 items with scenario/application/outcome (concrete mat situations)
-- common_mistakes: 3-5 items with mistake/consequence/correction
-- training_exercises: 2-4 items with name/description (50+ chars)/focus
-- flashcards: 4-6 Q&A pairs for self-assessment"""
+- summary: One practical sentence, at most 260 characters
+- overview: One or two sentences, 30-450 characters, adding context or a useful limitation
+- key_takeaways: 3-5 distinct, specific points; omit motivational padding
+- bjj_applications: 2-4 recognizable mat situations with scenario/application/outcome; no guaranteed results
+- common_mistakes: 1-3 items with mistake/consequence/correction
+- training_exercises: 1-2 items with name/description/focus; specify setup, action, reset or stop conditions
+- knowledge_assessment: Optional, at most 4 useful question/answer pairs; not a scored deck
+- references: Only relevant sources actually checked; omit decorative or unverifiable citations"""
 
     return f"Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)"
 
@@ -1160,7 +1162,7 @@ Return only JSON with fixed_content (complete updated source) and changes_summar
 '''
 
 
-LEARNING_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+LEARNING_PROMPT = '''Edit a concise BJJ learning article for regular practitioners. Keep introductory guides accessible to beginners. Use plain language and specific situations; do not invent an author persona, credentials, evidence, or training experience.
 
 ## Learning Article: {file_path}
 
@@ -1191,9 +1193,12 @@ LEARNING_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 - Write original content — do NOT copy from external sources
 
 ### 3. Review Content Quality
-- overview must be 400+ characters with substantive BJJ-specific analysis
-- training_exercises descriptions must be 50+ characters each
-- key_takeaways should be actionable, specific BJJ advice (not generic self-help)
+- Organize the article around one practical question. Give overlapping topics distinct purposes.
+- Summary states the useful point; the short overview adds a situation or limitation rather than repeating a definition.
+- Takeaways identify decisions and observable actions, without generic motivation or padding.
+- Exercises describe setup, action, and reset or stop conditions. Do not prescribe unsupported progression timelines or arbitrary success percentages.
+- Remove rigid promises, invented precision, guaranteed outcomes, and unsupported claims. Preserve relevant checked sources; never invent citations or claim you reviewed material you did not inspect.
+- Keep the complete content within the schema's editorial limits. There is no minimum article length to fill.
 
 ## Valid References by Category (ONLY use names from these lists):
 

@@ -55,9 +55,8 @@ import { journey } from "../dsl";
  * were CORRECT for their contract and are deliberately inverted below.
  *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
- *  · the .md-only Learning pages (3 today, `_meta.mdOnlyPages`) are deliberately NOT rows — this
- *    spec asserts the count matches the JSON-authored set, so deleting the .md skip would not
- *    turn it red.
+ *  · Learning's complete 26-page inventory, native disclosures and three migrated guide routes
+ *    are covered by learning-reader.spec.ts and tests/learning_content.py.
  *  · nothing here asserts the concept flashcards reach a deck. They still do not — that is the
  *    UNACCOUNTED figure the emitter prints every run, and it is untouched by this surface.
  */

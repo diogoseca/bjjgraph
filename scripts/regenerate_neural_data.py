@@ -52,6 +52,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from _system_guides import canonical_course_url, related_references, resolved_guide
+from _learning import reading_index, related_readings
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
@@ -1975,11 +1976,9 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
 #                              The app's `_ngc()` fetches, caches and renders it with no new
 #                              machinery — one seam, not two (CLAUDE.md section 6.5).
 #
-# WHAT IS DELIBERATELY NOT HERE. The full prose (content/Principles/*.md is ~2.4MB of authored
-# reading) needs a reading surface this pane is not, and the flashcards these files carry still
-# reach no deck — that is the UNACCOUNTED figure build_flashcards() prints every run, and it is
-# unchanged by this. What ships is the concept's own spine: summary, overview, the key points,
-# where it applies, what goes wrong, and how to train it.
+# Principle dossiers keep their established reading spine. Learning dossiers carry the complete
+# edited article, including outcomes, self-assessment and sources. These questions remain reader
+# content, not scored decks. Rich bodies stay deferred in the shared content chunk space.
 PRINCIPLES_DIR = ROOT / "content/Principles"
 LEARNING_DIR = ROOT / "content/Learning"
 
@@ -2042,6 +2041,23 @@ CONCEPT_FIELDS = {
 
 def _concept_body(data: dict, cat: str) -> dict:
     """The readable dossier for one concept, normalised out of whichever template authored it."""
+    if cat == "Learning":
+        # Learning's authoring schema bounds content. Never silently truncate an author's final
+        # sentence: the static page and the in-app reading surface must contain the same text.
+        return {
+            "overview": data.get("overview", ""),
+            "points": list(data.get("key_takeaways") or []),
+            "contexts": [{"c": x["scenario"], "how": x["application"], "outcome": x["outcome"]}
+                         for x in data.get("bjj_applications") or []],
+            "errors": [{"err": x["mistake"], "why": x["consequence"], "fix": x["correction"]}
+                       for x in data.get("common_mistakes") or []],
+            "drills": [{"name": x["name"], "how": x["description"], "focus": x["focus"]}
+                       for x in data.get("training_exercises") or []],
+            "assessment": [{"question": x["question"], "answer": x["answer"]}
+                           for x in data.get("knowledge_assessment") or []],
+            "references": [{key: x[key] for key in ("title", "author", "url") if key in x}
+                           for x in data.get("references") or []],
+        }
     spec = CONCEPT_FIELDS[cat]
     body: dict = {}
     ov = _clip((data.get("overview") or "").strip(), OVERVIEW_CAP)
@@ -2152,6 +2168,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 f"cross-reference to it would resolve to one of them arbitrarily."
             )
         by_slug[sl] = page
+    readings_index = reading_index(ROOT / "content", quartz_slug)
 
     # A REFERENCE AUTHORED AS A PAGE PATH IS THE SAME REFERENCE, SPELLED DIFFERENTLY.
     # Most files write a bare display name ("Side Control"); at least one writes the page path
@@ -2162,7 +2179,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     # of concept cross-links. Same class as `_tech_keys` (CLAUDE.md section 6.6): try every
     # spelling, then COUNT how often the extra rung fired so it can never rot in silence.
     PATH_CTYPE = {v: k for k, v in GRAPH_REF_PREFIX.items()}      # "Positions" -> "Position"
-    CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}  # "Principles", "Learning"
+    CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}
 
     concepts, dossiers = [], {}
     principle_sources = [(ctype, path, source, _principle_instructions(source))
@@ -2181,15 +2198,14 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             if not ref:
                 continue
             pre, sep, tail = ref.partition("/")
-            if sep and tail and (pre in PATH_CTYPE or pre in CONCEPT_PREFIXES):
+            if sep and tail and (pre in PATH_CTYPE or pre in CONCEPT_PREFIXES or (cat == "Learning" and pre == "Systems")):
                 ref = tail.strip()
                 if pre in PATH_CTYPE:
                     ctype = ctype or PATH_CTYPE[pre]
                 path_spelled += 1
             if ctype and ctype not in GRAPH_REF_PREFIX:
-                # a concept-to-concept (or concept-to-system) link. Kept when it names a page in
-                # THIS payload; a System is a page too but lives in systems.json, so it is counted
-                # and dropped rather than linked to a row that does not exist here.
+                # Preserve the legacy concept-only IDs. Learning's complete typed reading links
+                # are resolved below, including Systems from their separate index.
                 non_graph += 1
                 hit = by_slug.get(slugify(ref))
                 if hit and hit != page and hit not in related:
@@ -2259,6 +2275,11 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
         # is bare display names — two libraries authoring "Base" would otherwise share a slot.
         key = f"{name}|{cat}"
         body = _concept_body(data, cat)
+        if cat == "Learning":
+            readings, missing_readings = related_readings(data, readings_index)
+            if missing_readings:
+                raise ValueError(f"{name}: unresolved related reading: {', '.join(missing_readings)}")
+            body["relatedReadings"] = [r for r in readings if r["id"] != page]
         # THE INDEX/BODY LINE, and it is a byte budget, not a taste call. `concepts.json` is
         # DEFERRED and shares a 500,000-byte ceiling with systems.json (323,544). Everything the
         # LIST and the graph HIGHLIGHT need stays in the index so a click lights up instantly;
@@ -2285,9 +2306,11 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             "id": page,
             "key": key,
             "name": name,
+            **({"title": data["display_title"]} if cat == "Learning" and data.get("display_title") else {}),
             "cat": cat,
             "url": f"/{page}",
-            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            "summary": (data.get("summary") or data.get("description") or "") if cat == "Learning"
+                       else _clip(data.get("summary") or data.get("description") or ""),
             "meta": _clip(" · ".join(
                 x for x in ((data.get("application_level") or "").strip(),
                             (data.get("complexity_level") or "").strip(),

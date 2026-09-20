@@ -77,7 +77,9 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 #     renders one of those two sections. Its readable BODIES are not here at all — they live in
 #     the per-node content/ chunk space, so they are already scored as on-demand chunks.
 #   · aliases.json — exact-site naming metadata, fetched when Explore/search is used.
-DEFERRED = ("systems.json", "concepts.json", "aliases.json")
+#   · app/readers.css — reference styles requested alongside those indexes; the real-browser
+#     first-hand journey asserts this stylesheet is never requested by a normal game boot.
+DEFERRED = ("systems.json", "concepts.json", "aliases.json", "app/readers.css")
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
