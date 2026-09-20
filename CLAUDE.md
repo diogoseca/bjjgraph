@@ -213,7 +213,13 @@ Long explanations belong in each script's own docstring, where they cannot drift
 
 **Validate** — `validate:json` schemas (hard) · `validate:graph` integrity (ratchets on
 `tests/artifacts/graph_validation_baseline.json`, `max_errors` 0) · `validate:ordinals` share-link
-lockfile (hard) · `validate:payload` byte ratchets PLUS the soft gzip bands (§8) · `validate:seo`
+lockfile (hard) · `validate:payload` byte ratchets PLUS the soft gzip bands (§8) PLUS the **tier-0 count
+floors** (pages · JSON-LD blocks · in-article links · static files — every other figure there is
+a MAX, so until v1.192.4 a build emitting a tenth of the site passed it, `validate:seo` and the
+byte ratchet at once; `--set-floors --reason` moves one, `--update` never touches them) ·
+`validate:build-shape` the committed build census + bundle hashes + the distinct-value collapse
+detector (PR only, via `e2e-full.yml`: a content edit legitimately moves it, so re-seed in the same
+PR with `validate:build-shape:update`) · `validate:seo`
 crawlable-surface ratchet ·
 `validate:headers` cache/security headers · `validate:affiliate` the product-link surface (neutral
 source, verified links) · `validate:analytics` the BUILT PostHog injection against the key its
@@ -672,6 +678,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; `--update` reseeds it but can only ever TIGHTEN a `neural.*` ceiling |
 | `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight from a real browser: raw bytes, and the boot's chunk-request COUNT |
 | `tests/artifacts/payload_policy.json` | both of those | **the two gzip figures are SOFT** — over `target` warns and passes, over `action` fails, and any one change growing more than `delta_cap` fails whatever the absolute figure. Bands are hand-set; a baseline moves ONLY via `--accept-baseline <metric> --reason "…"`, never by itself (a self-advancing baseline is a delta check that never runs) |
+| `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved |
 | `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
