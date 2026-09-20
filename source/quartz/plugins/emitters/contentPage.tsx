@@ -35,6 +35,8 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
   ) => {
     // Wrapped HERE rather than at each entry point, so emit() and emitShard() are both
     // attributed by one line and a future third caller cannot forget.
+    // The shard index is passed to the ledger, not just used for the warning. Returns must be
+    // concatenated by explicit shard index at join time, and thread-id order is not shard order.
     return track("ContentPage", async () => {
       const cfg = ctx.cfg.configuration
 
@@ -121,7 +123,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       }
 
       return fps
-    })
+    }, { shard: shardIndex })
   }
 
   return {

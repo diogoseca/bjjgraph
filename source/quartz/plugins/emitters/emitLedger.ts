@@ -74,7 +74,16 @@ import path from "path"
  * "no part" and "an empty part" stay distinguishable — absence must not be able to look like zero.
  */
 
-type Ledger = Map<string, Set<string>>
+/**
+ * ORDERED, DUPLICATE-PRESERVING. Not a Set, and that is the point (V's finding 3 and 6).
+ *
+ * Resource order is BYTE-SIGNIFICANT: first-seen order across `getQuartzComponents` drives
+ * deduplication and therefore bundle bytes. A Set collapses the duplicates and a sort destroys
+ * the first-seen order, so a join built on either silently discards the exact property the
+ * emitter contract turns on — and reports a tidy, plausible list while doing it. A repeated write
+ * to the same path is likewise a FINDING, not noise to be folded away.
+ */
+type Ledger = Map<string, string[]>
 
 const store = new AsyncLocalStorage<{ emitter: string }>()
 const ledger: Ledger = new Map()
@@ -96,9 +105,8 @@ let partStarted = false
 /** Append this emitter's not-yet-written paths. Cheap, ordered, and safe to call often. */
 function appendDelta(emitter: string) {
   if (!OUT_DIR) return
-  const set = ledger.get(emitter)
-  if (!set) return
-  const all = [...set]
+  const all = ledger.get(emitter)
+  if (!all) return
   const from = appended.get(emitter) ?? 0
   if (all.length <= from && partStarted) return
   fs.mkdirSync(OUT_DIR, { recursive: true })
@@ -117,11 +125,35 @@ function appendDelta(emitter: string) {
 }
 
 /** Record what an emitter RETURNED, kept separate from what it WROTE. */
-function appendReturn(emitter: string, paths: string[]) {
+/**
+ * What an emitter RETURNED, with the shard it ran as and a per-thread sequence number.
+ *
+ * Both identifiers are load-bearing for the join. Returns must be concatenated by explicit SHARD
+ * INDEX, and thread-id file order is NOT shard-index order — a worker with a lower threadId may
+ * have run a higher shard. `seq` orders the calls within one thread. Paths are written exactly as
+ * returned: same order, duplicates intact.
+ */
+function appendReturn(emitter: string, shard: number | null, seq: number, paths: string[]) {
   if (!OUT_DIR) return
   fs.appendFileSync(
     path.join(OUT_DIR, PART_NAME),
-    JSON.stringify({ returns: emitter, paths: paths.map(String) }) + "\n",
+    JSON.stringify({ returns: emitter, shard, seq, paths: paths.map(String) }) + "\n",
+  )
+}
+
+/**
+ * A COMPLETED-EXECUTION RECEIPT, written only after the emitter's promise resolves.
+ *
+ * `emitter_runs: 1` was previously a literal assigned to every configured name, so it said the
+ * same thing for an emitter that ran and produced nothing as for one that never ran at all —
+ * which is the distinction the whole seam exists to make. A receipt is observed: no receipt means
+ * no completed run, and an empty result with a receipt is a legitimate zero.
+ */
+function appendReceipt(emitter: string, shard: number | null, seq: number, wrote: number, returned: number) {
+  if (!OUT_DIR) return
+  fs.appendFileSync(
+    path.join(OUT_DIR, PART_NAME),
+    JSON.stringify({ receipt: emitter, shard, seq, wrote, returned, threadId }) + "\n",
   )
 }
 
@@ -137,29 +169,41 @@ export function openPart() {
 }
 
 function claim(emitter: string, rel: string) {
-  let set = ledger.get(emitter)
-  if (!set) ledger.set(emitter, (set = new Set()))
-  set.add(rel)
+  let arr = ledger.get(emitter)
+  if (!arr) ledger.set(emitter, (arr = []))
+  arr.push(rel)
 }
 
 /**
  * Run an emitter's body inside its own attribution context. Every `record*` call made underneath
  * it — however deeply, however interleaved with other emitters — is attributed to `emitter`.
  */
-export function track<T>(emitter: string, fn: () => Promise<T>): Promise<T> {
+let seqCounter = 0
+
+export function track<T>(
+  emitter: string,
+  fn: () => Promise<T>,
+  opts: { shard?: number } = {},
+): Promise<T> {
   if (!enabled) return fn()
   openPart()
+  const seq = seqCounter++
+  const shard = opts.shard ?? null
+  const before = (ledger.get(emitter) ?? []).length
   // The delta is appended when the body RESOLVES, which precedes the worker's postMessage and so
   // precedes any terminate(). Deliberately not in a `finally` on the sync path: a rejecting
   // emitter fails the build, and a partial ledger from a failed build must not look complete.
   return store.run({ emitter }, fn).then((value) => {
     appendDelta(emitter)
+    const wrote = (ledger.get(emitter) ?? []).length - before
     // THE EMITTER'S OWN RETURN, recorded rather than fabricated. V found every joined record
     // carrying `returned_paths: []`, which is not "this emitter returned nothing" — it was a
     // hard-coded literal, so the field said the same thing for Static (returns 9 while copying
     // 4,952) as for an emitter that genuinely returned none. The gap between what an emitter
     // RETURNS and what it WRITES is the whole reason this seam exists; a constant cannot show it.
-    if (Array.isArray(value)) appendReturn(emitter, value as unknown as string[])
+    const returned = Array.isArray(value) ? (value as unknown as string[]) : []
+    if (Array.isArray(value)) appendReturn(emitter, shard, seq, returned)
+    appendReceipt(emitter, shard, seq, wrote, returned.length)
     return value
   })
 }
@@ -195,7 +239,7 @@ export function recordPaths(rels: string[]) {
 /** What this process attributed, as plain data. Empty when disabled. */
 export function snapshot(): Record<string, string[]> {
   const out: Record<string, string[]> = {}
-  for (const [emitter, set] of ledger) out[emitter] = [...set]
+  for (const [emitter, arr] of ledger) out[emitter] = [...arr]
   return out
 }
 
