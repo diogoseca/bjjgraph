@@ -1,4 +1,9 @@
-"""Offline fixture checks of neutral generation and actual emitted referral resolution."""
+"""Offline fixture checks of neutral generation and actual emitted referral resolution.
+
+Marker-preservation mutants: deleting one entire guide or one anchor, changing a
+canonical URL, changing its marker kind, duplicating an anchor, and removing every
+source marker must fail the --built gate. No surviving seeded marker mutants.
+"""
 import copy
 import gzip
 import json
@@ -268,5 +273,58 @@ class SystemAffiliates(unittest.TestCase):
         errors=[]
         with patch.object(affiliate,'targets',return_value=[]):gate.check_built(errors,'')
         self.assertTrue(errors)
+
+    def test_built_marker_contract_kills_missing_guide_or_anchor(self):
+        from contextlib import redirect_stdout, redirect_stderr
+        from io import StringIO
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            systems = root / 'content/Systems'; systems.mkdir(parents=True)
+            public = root / 'public'; (public / 'Systems').mkdir(parents=True)
+            original = self.render()
+            for name in ('First Guide', 'Second Guide'):
+                (systems / (name + '.md')).write_text(original)
+                (systems / (name + '.json')).write_text(json.dumps(self.data))
+                (public / 'Systems' / (name.replace(' ', '-') + '.html')).write_text(original)
+            (public / 'systems.json').write_text(json.dumps({'systems': [{'name': self.data['name'], 'products': neural._products(self.data, self.data['name'])}]}))
+            with patch.object(gate, 'SYSTEMS_DIR', systems), patch.object(gate, 'PUBLIC', public), patch.object(gate, 'PROJECT_ROOT', root), patch.object(gate, 'GRAPH', root / 'absent.json'), patch.object(affiliate, 'PUBLIC_DIR', public), patch.object(affiliate, 'NEURAL_SYSTEMS', root / 'absent.json'), patch.object(affiliate, 'configured_ref', return_value=''), patch.object(sys, 'argv', ['check_affiliate_surface.py', '--built']):
+                with redirect_stdout(StringIO()), redirect_stderr(StringIO()):
+                    gate.main()
+                page = public / 'Systems/First-Guide.html'
+                # All other links/products still satisfy the existing positive-coverage gate.
+                mutations = {
+                    'missing-guide': None,
+                    'missing-anchor': re.sub(r'<a\b[^>]*data-course-url[^>]*>.*?</a>', '', original, count=1, flags=re.S),
+                    'changed-canonical': original.replace('https://bjjfanatics.com/products/', 'https://bjjfanatics.com/products/different-'),
+                    'changed-marker-kind': original.replace('data-course-url=', 'data-source-url=', 1),
+                    'duplicate-anchor': original + re.search(r'<a\b[^>]*data-course-url[^>]*>.*?</a>', original, flags=re.S)[0],
+                }
+                for name, mutant in mutations.items():
+                    with self.subTest(mutant=name):
+                        if mutant is None:
+                            page.unlink()
+                        else:
+                            page.write_text(mutant)
+                        output = StringIO()
+                        try:
+                            with redirect_stdout(StringIO()), redirect_stderr(output), self.assertRaises(SystemExit) as failure:
+                                gate.main()
+                            self.assertEqual(failure.exception.code, 1)
+                            self.assertIn('marker preservation', output.getvalue())
+                        finally:
+                            page.write_text(original)
+                output = StringIO()
+                with redirect_stdout(output), redirect_stderr(StringIO()):
+                    gate.main()
+                self.assertIn('2 marker pages', output.getvalue())
+                self.assertIn('6 canonical markers', output.getvalue())
+
+    def test_marker_preservation_rejects_zero_source_coverage(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            with patch.object(gate, 'SYSTEMS_DIR', root / 'missing'), patch.object(gate, 'PUBLIC', root / 'public'):
+                errors = []
+                self.assertEqual(gate.check_marker_preservation(errors), (0, 0))
+                self.assertIn('zero source marker pages/anchors checked', errors[0])
 
 if __name__=='__main__':unittest.main()

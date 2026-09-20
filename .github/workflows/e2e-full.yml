@@ -33,6 +33,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Python gate dependency
+        run: python3 -m pip install PyYAML
+
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
+
       - name: Install dependencies
         run: npm ci
 
@@ -41,6 +47,9 @@ jobs:
 
       - name: Build production site and Forward libraries
         run: npm run build
+
+      - name: Postprocessor input contract
+        run: python3 scripts/check_postprocessor_contract.py
 
       # THE BUILD'S SHAPE, AND THE ONLY PR JOB THAT CAN CHECK IT.
       # `npm run build` above already ran validate:payload, whose TIER-0 FLOORS reject a
