@@ -215,12 +215,18 @@ def read_capture_receipt(args, tree, *, files=None, require_output_hash=False):
 
 
 def receipt_from(artifact):
+    if not isinstance(artifact, dict):
+        raise ProvenanceError('artifact must be an object')
     if artifact.get('content_provenance') is not None:
         return artifact['content_provenance']
     meta = artifact.get('provenance', artifact.get('_meta', {}))
+    if not isinstance(meta, dict):
+        raise ProvenanceError('provenance metadata must be an object')
     if meta.get('content_provenance') is not None:
         return meta['content_provenance']
     if meta.get('content_receipt'):
+        if not isinstance(meta['content_receipt'], str) or not isinstance(meta.get('capture_id'), str):
+            raise ProvenanceError('content receipt reference requires a path string and capture ID string')
         receipt = read_receipt(meta['content_receipt'])
         if meta.get('capture_id') != receipt.get('capture_id'):
             raise ProvenanceError('record and content receipt capture IDs differ')
@@ -236,7 +242,7 @@ def receipt_from(artifact):
             try:
                 fields = dict(parts for line in env.read_text().splitlines()
                               if len(parts := line.split(None, 1)) == 2)
-            except OSError as e:
+            except (OSError, UnicodeError) as e:
                 raise ProvenanceError(f'cannot inspect legacy capture metadata {env}: {e}') from e
             legacy_head = fields.get('git_head', legacy_head)
             dirty = fields.get('git_dirty', fields.get('git_status_paths', 'unrecorded'))

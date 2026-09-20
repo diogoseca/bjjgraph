@@ -103,6 +103,14 @@ def cli_legacy(root):
                              capture_output=True, text=True)
     assert control.returncode == 0 and 'PASS NO DIFFERENCES; compared=1' in control.stdout
     assert 'current-source parity NOT asserted' in control.stdout
+    before = golden.read_bytes()
+    malformed = json.loads(before); malformed['provenance'] = []
+    golden.write_text(json.dumps(malformed))
+    broken = subprocess.run([sys.executable, str(SCRIPTS / 'seam_golden.py'), 'verify',
+                             '--artifact-only', '--golden', str(golden), '--candidate', str(page)],
+                            capture_output=True, text=True)
+    assert broken.returncode == 2 and 'provenance metadata must be an object' in broken.stdout, (broken.returncode, broken.stdout, broken.stderr)
+    golden.write_bytes(before); assert golden.read_bytes() == before
     from golden_provenance import receipt_from, inspect_content
     retained = root / 'retained-build'
     Path(str(retained) + '.env.txt').write_text('git_head ' + '1' * 40 + '\ngit_dirty 4 path(s)\n')
