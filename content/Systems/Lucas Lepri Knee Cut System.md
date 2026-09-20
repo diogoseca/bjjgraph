@@ -7,6 +7,7 @@ description: "Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard ent
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Lucas Lepri: Knee-Cut Passing","description":"Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard entries, knee-cut variations and responses to lasso, underhooks, deep half and X guard."}
 </script>
@@ -19,8 +20,18 @@ description: "Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard ent
 <p class="system-reference-count">7 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Precision Knee Cut Passes by Lucas Lepri" data-system-preview data-system-key="Lucas Lepri Knee Cut System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/2c2a82e4-27f9-445c-890c-841b0176a58d?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Precision Knee Cut Passes by Lucas Lepri">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/LucasLepri_PrecisionKneeCutpasses_FRONTCover.jpg?v=1762459422" alt="Precision Knee Cut Passes course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Precision Knee Cut Passes</h2><span class="system-course__instructor">By Lucas Lepri</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Precision Knee Cut Passes</h2><p class="system-course__instructor">By Lucas Lepri</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ Precision Knee Cut Passes by Lucas Lepri develops the knee cut across De La Riva
 Its focus is useful for gi players who already favor the knee cut and want more options when the initial entry meets resistance. Passing remains centered on that technique, with substantial attention to gi-specific guards.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Lucas Lepri Knee Cut System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/hMyxGPLUdkM?autoplay=0&amp;preload=none" data-verified-origins="[]" data-preview-title="Official sample — Lucas Lepri / Precision Knee Cut Passes">
-<h2>Official sample</h2>
-<p>Official sample — Lucas Lepri / Precision Knee Cut Passes</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Precision Knee Cut Passes · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -81,6 +78,7 @@ Its focus is useful for gi players who already favor the knee cut and want more 
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Precision Knee Cut Passes</a>
 </section>
 
@@ -121,10 +119,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-source-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-affiliate="false" data-system-slug="systems/lucas-lepri-knee-cut-system" data-product-id="lepri-knee-cut" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-source-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-affiliate="false" data-system-slug="systems/lucas-lepri-knee-cut-system" data-product-id="lepri-knee-cut" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a> — official listing; checked 2026-09-19. Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

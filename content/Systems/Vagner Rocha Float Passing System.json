@@ -79,7 +79,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Three volumes of no-gi passing: knee cuts, float-position exits and standing passes.",
       "best_for": "No-gi passers who want float passing alongside other passing options.",
-      "course_url": "https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha"
+      "course_url": "https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha",
+      "image": "https://bjjfanatics.com/cdn/shop/products/VagnerRocha_FloatPassingSystems_Coverfront.jpg?v=1762460456"
     }
   ],
   "guide": {
@@ -107,8 +108,8 @@
         "url": "https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha",
         "title": "Float Passing System by Vagner Rocha",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified Float Passing System by Vagner Rocha and three-volume outline organized into knee cut, float and standing passing. Official page labels an embedded free sample; sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified Float Passing System by Vagner Rocha and three-volume outline organized into knee cut, float and standing passing. Official page labels an embedded free sample; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "giles-body-lock",
@@ -121,15 +122,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/279427f5-be4e-431d-8e40-f6dba29b458d?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/1ab29709-9400-4c63-acc0-0d31c7495da9?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "rocha-float",
-      "title": "Official sample — Vagner Rocha / Float Passing System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Float Passing System by Vagner Rocha BJJ",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

@@ -7,6 +7,7 @@ description: "A butterfly course combining upper-body controls and sweeps with d
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Marcelo Garcia: Butterfly Guard","description":"A butterfly course combining upper-body controls and sweeps with distance management and pressure responses."}
 </script>
@@ -19,8 +20,18 @@ description: "A butterfly course combining upper-body controls and sweeps with d
 <p class="system-reference-count">13 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — The Complete Butterfly Guard by Marcelo Garcia" data-system-preview data-system-key="Marcelo Garcia Butterfly Guard System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/844eef7d-661a-41b1-be3b-911a9ddf78b8?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — The Complete Butterfly Guard by Marcelo Garcia">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/MarceloGarcia_TheCompleteButterflyGuard_FRONTCover.jpg?v=1762459269" alt="The Complete Butterfly Guard course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Complete Butterfly Guard</h2><span class="system-course__instructor">By Marcelo Garcia</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>The Complete Butterfly Guard</h2><p class="system-course__instructor">By Marcelo Garcia</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "A butterfly course combining upper-body controls and sweeps with d
 Marcelo Garcia’s The Complete Butterfly Guard develops seated posture and sweeping before expanding into upper-body attacks and engagement. The four volumes include elbow control, shoulder-clamp sweeps, armlocks and the Marcelotine. Distance-closing and standing-opponent material address exchanges where the passer does not stay in front of the butterfly hooks.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Marcelo Garcia Butterfly Guard System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/C5zVTEbR5PQ?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Marcelo Garcia / Shoulder Clamp Sweep">
-<h2>Official sample</h2>
-<p>Official sample — Marcelo Garcia / Shoulder Clamp Sweep</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Complete Butterfly Guard · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -77,6 +74,7 @@ Marcelo Garcia’s The Complete Butterfly Guard develops seated posture and swee
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Complete Butterfly Guard</a>
 </section>
 
@@ -135,10 +133,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-product-id="garcia-butterfly-listing" target="_blank" rel="noopener">The Complete Butterfly Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content and playback not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-product-id="garcia-butterfly-listing" target="_blank" rel="noopener">The Complete Butterfly Guard by Marcelo Garcia</a> — official listing; checked 2026-09-19. Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

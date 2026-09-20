@@ -7,6 +7,7 @@ description: "The Body Lock Pass by Lachlan Giles covers no-gi entries, pinning,
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Lachlan Giles: Body-Lock Passing","description":"The Body Lock Pass by Lachlan Giles covers no-gi entries, pinning, knee clearance and finishes, with counters, closed-guard opening and narrated rolling."}
 </script>
@@ -19,8 +20,18 @@ description: "The Body Lock Pass by Lachlan Giles covers no-gi entries, pinning,
 <p class="system-reference-count">7 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — The Body Lock Pass by Lachlan Giles" data-system-preview data-system-key="Lachlan Giles Body Lock Passing System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/e1871b57-d13a-489d-8376-65abd177cd96?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — The Body Lock Pass by Lachlan Giles">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/LachlanGiles_TheBodyLockPass_FRONTCover.jpg?v=1762458976" alt="The Body Lock Pass course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-product-id="the-body-lock-pass-by-lachlan-giles" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-system-name="Lachlan Giles Body Lock Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Body Lock Pass</h2><span class="system-course__instructor">By Lachlan Giles</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>The Body Lock Pass</h2><p class="system-course__instructor">By Lachlan Giles</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-product-id="the-body-lock-pass-by-lachlan-giles" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-system-name="Lachlan Giles Body Lock Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ The Body Lock Pass by Lachlan Giles follows one passing family in depth across s
 The course also includes the Sao Paulo closed-guard break and narrated rolling. That combination suits passers who want both the mechanics of the body lock and examples of its use in sparring, rather than a collection of unrelated passes.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Lachlan Giles Body Lock Passing System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/YEO21xIVZm4?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Lachlan Giles / The Body Lock Pass">
-<h2>Official sample</h2>
-<p>Official sample — Lachlan Giles / The Body Lock Pass</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-product-id="the-body-lock-pass-by-lachlan-giles" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-system-name="Lachlan Giles Body Lock Passing System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Body Lock Pass · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -81,6 +78,7 @@ The course also includes the Sao Paulo closed-guard break and narrated rolling. 
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-product-id="the-body-lock-pass-by-lachlan-giles" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-system-name="Lachlan Giles Body Lock Passing System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Body Lock Pass</a>
 </section>
 
@@ -121,10 +119,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-product-id="giles-body-lock" target="_blank" rel="noopener">The Body Lock Pass by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-product-id="giles-body-lock" target="_blank" rel="noopener">The Body Lock Pass by Lachlan Giles</a> — official listing; checked 2026-09-19. Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org, https://dev.bjjgraph.pages.dev by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

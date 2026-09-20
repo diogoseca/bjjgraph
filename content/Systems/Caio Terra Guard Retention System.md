@@ -7,6 +7,7 @@ description: "Caio Terra Online's public defense archive includes one-legged X a
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Caio Terra: Guard Recovery","description":"Caio Terra Online's public defense archive includes one-legged X against the toreando pass and half-guard recovery lessons."}
 </script>
@@ -19,12 +20,12 @@ description: "Caio Terra Online's public defense archive includes one-legged X a
 <p class="system-reference-count">18 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Caio Terra Online's defense archive includes guard-recovery material for two specific situations: one-legged X against a toreando pass, and half-guard recovery. A separate half-guard Q&A is also listed. These are individual lessons within the online library, whose full instructional videos require membership. This page covers those named subjects rather than attributing a complete guard-retention system to Caio Terra.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

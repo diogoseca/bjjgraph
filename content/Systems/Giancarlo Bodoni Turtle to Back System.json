@@ -78,7 +78,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eight volumes on turtle breakdowns, back-control transitions and rear-mount offense.",
-      "best_for": "Grapplers who reach the rear of turtle but lose control before establishing back attacks."
+      "best_for": "Grapplers who reach the rear of turtle but lose control before establishing back attacks.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/GiancarloBodoni_Essentialconnections-chesttoback-behindtheelbows_CoverFRONT.jpg?v=1762463194"
     }
   ],
   "guide": {
@@ -107,8 +108,8 @@
         "url": "https://bjjfanatics.com/products/essential-connections-chest-to-back-behind-the-elbows-by-giancarlo-bodoni",
         "title": "Essential Connections: Chest To Back - Behind The Elbows by Giancarlo Bodoni",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Listing inspected: Giancarlo Bodoni attribution, exact title, turtle/four-point/standing coverage and the named turtle comparison lesson verified. Public sample content not reviewed. The official page embeds the selected sample under “Check out a free sample”; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Listing inspected: Giancarlo Bodoni attribution, exact title, turtle/four-point/standing coverage and the named turtle comparison lesson verified. Public sample content not reviewed. The official page embeds an additional sample under “Check out a free sample”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -121,15 +122,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/593412fe-96cd-4ee0-9492-a6d830d20e57?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/5aa796bf-aa59-4bc3-bd74-77a8e16798a4?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Giancarlo Bodoni / Essential Connections: Chest To Back - Behind The Elbows",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Essential Connections: Chest To Back - Behind The Elbows by Giancarlo Bodoni",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

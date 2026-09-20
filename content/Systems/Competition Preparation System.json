@@ -167,8 +167,8 @@
         "url": "https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino",
         "title": "Competition Preparation Masterclass by Matt D'Aquino",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified course identity and four-volume syllabus, including packing, travel, competition strategy, coach communication and post-event review. The listing describes coverage; it does not supply the lessons themselves."
+        "checked_on": "2026-09-19",
+        "note": "Verified course identity and four-volume syllabus, including packing, travel, competition strategy, coach communication and post-event review. The listing describes coverage; it does not supply the lessons themselves. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       }
     ],
     "alternatives": [
@@ -180,7 +180,19 @@
         "system": "IBJJF Strategy Guide",
         "reason": "For IBJJF registration, uniforms and division-specific requirements."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/00a95d51-1ef5-4410-9227-fce8f75bab70?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "daquino-preparation",
+      "title": "Official course introduction — Competition Preparation Masterclass by Matt D'Aquino",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   },
   "products": [
     {
@@ -192,7 +204,8 @@
       "link_checked": "2026-09-16",
       "blurb": "A four-volume course on training preparation, tournament logistics, strategy and the athlete-coach relationship.",
       "best_for": "Competitors who want a preparation routine covering both practical arrangements and match-day decisions.",
-      "course_url": "https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino"
+      "course_url": "https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino",
+      "image": "https://bjjfanatics.com/cdn/shop/products/CompetitionPreparationMasterclassbyMattD_Aquino_FRONTCover.jpg?v=1762459154"
     }
   ]
 }

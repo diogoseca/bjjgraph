@@ -47,6 +47,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 from regenerate_graph import quartz_slug  # same page-path transform the emitter uses
 from _neural_content import fnv1a32          # the chunk address's OWN constructor, never a copy
+from _system_guides import preview_errors
 
 SYSTEMS_DIR = PROJECT_ROOT / "content" / "Systems"
 PAYLOAD = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "systems.json"
@@ -284,6 +285,13 @@ def check(payload: dict, node_ids: set[str], expected_ids: set[str]) -> list[str
             errors.append(f"{sid}: url {s.get('url')!r} does not match the page path /{sid}")
         if len(s.get("summary") or "") > SUMMARY_CAP:
             errors.append(f"{sid}: summary is {len(s['summary'])} chars (cap {SUMMARY_CAP})")
+        if "preview" in s:
+            preview = s["preview"]
+            if not isinstance(preview, dict) or set(preview) != {"provider", "embed_url", "title", "kind"}:
+                errors.append(f"{sid}: preview must carry only compact opening media metadata")
+            elif (preview_errors(preview) or preview.get("kind") not in ("trailer", "sample")
+                  or not isinstance(preview.get("title"), str) or not preview["title"].strip()):
+                errors.append(f"{sid}: preview requires an allowlisted player, title and kind")
 
         unknown = [n for n in s["nodes"] if n not in node_ids]
         if unknown:
@@ -364,6 +372,28 @@ def check_concept_membership(payload: dict, nodes_by_id: dict) -> tuple[list[str
     return errors, total
 
 
+def check_media(systems, sources):
+    """An omitted preview is a regression even when every remaining URL is valid."""
+    errors, previews, covers = [], 0, 0
+    emitted = {entry['id']: entry for entry in systems}
+    for sid, source in sources.items():
+        entry = emitted.get(sid, {})
+        products = [p for p in source.get('products') or [] if p.get('link_status') == 'live']
+        preview = (source.get('guide') or {}).get('preview') if products else None
+        expected = {key: preview.get(key) for key in ('provider', 'embed_url', 'title', 'kind')} if preview else None
+        if entry.get('preview') != expected:
+            errors.append(f'{sid}: opening preview differs from the authored course intro')
+        previews += bool(expected)
+        indexed = {p.get('id'): p for p in entry.get('products') or []}
+        for product in products:
+            image = product.get('image')
+            if image:
+                covers += 1
+                if indexed.get(product.get('id'), {}).get('image') != image:
+                    errors.append(f'{sid}: course cover missing or different in Systems index')
+    return errors, previews, covers
+
+
 def main() -> None:
     for path in (PAYLOAD, GRAPH_DATA):
         if not path.exists():
@@ -379,8 +409,13 @@ def main() -> None:
         print(f"[check_systems_payload] ERROR: unreadable payload — {exc}", file=sys.stderr)
         sys.exit(1)
 
-    expected_ids = {f"Systems/{quartz_slug(p.stem)}" for p in SYSTEMS_DIR.glob("*.json")}
+    sources = {f"Systems/{quartz_slug(p.stem)}": json.loads(p.read_text()) for p in SYSTEMS_DIR.glob("*.json")}
+    expected_ids = set(sources)
     errors = check(payload, node_ids, expected_ids)
+    media_errors, previews, covers = check_media(payload.get("systems") or [], sources)
+    errors.extend(media_errors)
+    if not previews or not covers:
+        errors.append("Systems media coverage is empty; audit must include intros and course covers")
 
     panel_errors, fam_refs = check_panel(payload.get("systems") or [], nodes_by_id)
     errors.extend(panel_errors)
@@ -462,6 +497,7 @@ def main() -> None:
           f"(all present in graph-data.json), {unres}/{UNRESOLVED_CEILING} unresolved refs, "
           f"{prods} product(s) across {sum(1 for s in systems if s['products'])} system(s), "
           f"{meta.get('nonGraphRefs', '?')} non-graph cross-refs skipped")
+    print(f"[check_systems_payload] media OK — {previews} course intros, {covers} exact course covers matched to source")
     print(f"[check_systems_payload] panel OK — {fam_refs} family-expanded ref(s) checked "
           f"(floor {FAM_REF_FLOOR}), each collapsing to one row with a matching variant count; "
           f"every member node is claimed by a glue entry")

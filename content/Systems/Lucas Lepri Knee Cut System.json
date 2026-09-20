@@ -79,7 +79,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Four volumes of knee-cut entries, variations and troubleshooting across gi open guards and half guard.",
       "best_for": "Gi players building their passing around the knee cut.",
-      "course_url": "https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri"
+      "course_url": "https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri",
+      "image": "https://bjjfanatics.com/cdn/shop/products/LucasLepri_PrecisionKneeCutpasses_FRONTCover.jpg?v=1762459422"
     }
   ],
   "guide": {
@@ -108,8 +109,8 @@
         "url": "https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri",
         "title": "Precision Knee Cut Passes by Lucas Lepri",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "lepri-half-guard",
@@ -121,14 +122,16 @@
       }
     ],
     "preview": {
-      "provider": "youtube",
-      "embed_url": "https://www.youtube.com/embed/hMyxGPLUdkM?autoplay=0&preload=none",
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/2c2a82e4-27f9-445c-890c-841b0176a58d?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "lepri-knee-cut",
-      "title": "Official sample — Lucas Lepri / Precision Knee Cut Passes",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Precision Knee Cut Passes by Lucas Lepri",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
     },
     "alternatives": [
       {

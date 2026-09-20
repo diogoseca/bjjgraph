@@ -7,6 +7,7 @@ description: "Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offens
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Lachlan Giles: 50/50 Leg Locks and Defense","description":"Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offense with prevention, counters, knee recovery and disengagement."}
 </script>
@@ -19,8 +20,18 @@ description: "Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offens
 <p class="system-reference-count">19 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Leg Lock Anthology: 50/50 by Lachlan Giles" data-system-preview data-system-key="Lachlan Giles Leg Lock Defense Framework" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/106d6f68-39bf-4dc5-a112-01f1b3bb8643?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Leg Lock Anthology: 50/50 by Lachlan Giles">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/LachlanGiles_LegLockAnthology5050_FRONTCover1.jpg?v=1762459003" alt="Leg Lock Anthology: 50/50 course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Leg Lock Anthology: 50/50</h2><span class="system-course__instructor">By Lachlan Giles</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Leg Lock Anthology: 50/50</h2><p class="system-course__instructor">By Lachlan Giles</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offens
 Leg Lock Anthology: 50/50 places defense inside a larger attacking game. Lachlan Giles covers heel-hook prevention and counters, reclaiming the knee and leaving 50/50, alongside entries, finishing mechanics, sweeps and back takes. The eight-volume series also includes narrated training and competition rounds. It suits someone who wants both sides of leg-lock exchanges, with a strong emphasis on 50/50 and outside sankaku.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Lachlan Giles Leg Lock Defense Framework" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/Pl_2oDznYKc?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Lachlan Giles / Keeping the knee line">
-<h2>Official sample</h2>
-<p>Official sample — Lachlan Giles / Keeping the knee line</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -79,6 +76,7 @@ Leg Lock Anthology: 50/50 places defense inside a larger attacking game. Lachlan
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Leg Lock Anthology: 50/50</a>
 </section>
 
@@ -155,10 +153,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-product-id="lachlan-listing" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-product-id="lachlan-listing" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 by Lachlan Giles</a> — official listing; checked 2026-09-19. Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

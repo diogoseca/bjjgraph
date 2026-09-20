@@ -7,6 +7,7 @@ description: "John Danaher’s Back Attacks Enter The System includes straightja
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Straightjacket Back Attacks","description":"John Danaher’s Back Attacks Enter The System includes straightjacket control, grip configurations, hand fighting and strangles from both sides."}
 </script>
@@ -19,8 +20,18 @@ description: "John Danaher’s Back Attacks Enter The System includes straightja
 <p class="system-reference-count">23 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Back Attacks Enter The System by John Danaher" data-system-preview data-system-key="Danaher Straight Jacket System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/cee79c48-bf98-488d-848b-3e0aa245e65a?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Back Attacks Enter The System by John Danaher">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/JohnDanaher_BackAttacksEnterTheSystem_FRONTCover1.jpg?v=1762458261" alt="Back Attacks Enter The System course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Back Attacks Enter The System</h2><span class="system-course__instructor">By John Danaher</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Back Attacks Enter The System</h2><p class="system-course__instructor">By John Danaher</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "John Danaher’s Back Attacks Enter The System includes straightja
 Back Attacks Enter The System gives the straightjacket approach a substantial place in its treatment of back control and finishing. Danaher covers alignment, the roles of the two hands, grip configurations and attacks from the underarm and overarm sides. This focus suits someone who reaches the back but struggles to get past the defender’s hands.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Danaher Straight Jacket System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/570b8d9b-f781-4267-9dcc-133834580372?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Back Attacks Enter The System">
-<h2>Official sample</h2>
-<p>Official sample — John Danaher / Back Attacks Enter The System</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Back Attacks Enter The System · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -84,6 +81,7 @@ Back Attacks Enter The System gives the straightjacket approach a substantial pl
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Back Attacks Enter The System</a>
 </section>
 
@@ -172,10 +170,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/danaher-straight-jacket-system" data-product-id="course" target="_blank" rel="noopener">Back Attacks Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Listing inspected: John Danaher attribution, exact title, limitations lesson and control/finishing topics verified. Official sample content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/danaher-straight-jacket-system" data-product-id="course" target="_blank" rel="noopener">Back Attacks Enter The System by John Danaher</a> — official listing; checked 2026-09-19. Listing inspected: John Danaher attribution, exact title, limitations lesson and control/finishing topics verified. Official sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 </details>

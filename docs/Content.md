@@ -304,13 +304,14 @@ That is not permission to publish placeholders.
   `audience.consider_alternative_if` may be empty; named comparisons belong in alternatives.
   Source-free topic guides require root review; never fabricate evidence to fill them.
   Preserve source IDs, URLs and verification dates unless actually rechecked; report corrections.
-  Optional previews use exact allowlisted official YouTube/Bunny URLs, autoplay/preload disabled.
-  `playback_verified_on` requires actual playback checks. Verified-origin players mount immediately
-  without a load button; unverified origins retain the official course/source fallback. A page 200
-  never proves playback or instruction review. Unreviewed notes belong quietly in Sources.
-  Static/app order: title and distinct pills/count, actual course/instructor CTA, overview, preview
-  and middle CTA if available, audience, coverage, final CTA, related guides/cards, compact Sources.
-  Top/middle/end CTAs share one primary product; no preview means top/end only. Related guide labels use the target editorial title; emitted `source_name` keeps stable
+  Optional previews use exact allowlisted official YouTube/Bunny URLs and mount inline with muted
+  autoplay and visible player controls. Compact preview metadata in the Systems index allows immediate
+  mounting while the full guide loads. `playback_verified_on` records actual playback checks; it does
+  not gate playback by the visitor's origin. Browser-blocked autoplay leaves normal player controls.
+  A page 200 never proves playback or instruction review. Unreviewed notes belong quietly in Sources.
+  Static/app order: title and distinct pills/count, official preview, actual course/instructor CTA,
+  overview, audience, coverage, final CTA, related guides/cards, compact Sources.
+  Top/end CTAs share one primary product, with or without a preview. Related guide labels use the target editorial title; emitted `source_name` keeps stable
   identity and the URL stays unchanged. Related references
   include positions and are not proficiency evidence; render a shared qualifier, not one per node.
   Products use verified canonical `course_url` without tracking/query placeholders; only live
@@ -318,7 +319,7 @@ That is not permission to publish placeholders.
   time with valid `AFFILIATE_REF`; other hosts remain ordinary sources. Evidence URLs may retain
   nontracking query semantics. Rich BJJFanatics sources emit `canonical_url`, resolved `url` and
   boolean `affiliate`. Source Markdown stays neutral with course/source markers; built links get
-  sponsored attributes and the exact notice from CLAUDE.md. Missing ref is neutral, invalid ref
+  sponsored attributes without inline commission notices. Missing ref is neutral, invalid ref
   fails; rotation/removal recomputes canonical links and refreshes gzip/discovery copies. Never
   expose root `.env` values. Source and emitted gates run separately after the final resolver.
 - **Principles:** author application and complexity levels, development timeline, component skills,

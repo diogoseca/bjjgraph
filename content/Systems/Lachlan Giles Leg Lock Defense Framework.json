@@ -181,7 +181,8 @@
       "link_checked": "2026-09-16",
       "blurb": "An eight-volume 50/50 anthology combining offense, defense, entries and narrated rolling.",
       "best_for": "Grapplers who want a 50/50 attacking game with prevention, counters and escape options included.",
-      "course_url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles"
+      "course_url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles",
+      "image": "https://bjjfanatics.com/cdn/shop/products/LachlanGiles_LegLockAnthology5050_FRONTCover1.jpg?v=1762459003"
     }
   ],
   "guide": {
@@ -210,8 +211,8 @@
         "url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles",
         "title": "Leg Lock Anthology: 50/50 by Lachlan Giles",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "danaher-listing",
@@ -223,14 +224,16 @@
       }
     ],
     "preview": {
-      "provider": "youtube",
-      "embed_url": "https://www.youtube.com/embed/Pl_2oDznYKc?autoplay=0",
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/106d6f68-39bf-4dc5-a112-01f1b3bb8643?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "lachlan-listing",
-      "title": "Official sample — Lachlan Giles / Keeping the knee line",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Leg Lock Anthology: 50/50 by Lachlan Giles",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
     },
     "alternatives": [
       {

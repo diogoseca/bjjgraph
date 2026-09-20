@@ -184,7 +184,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "An eight-volume course on kimura control, finishing and positional or submission transitions.",
-      "best_for": "Grapplers seeking several attacking options from kimura control."
+      "best_for": "Grapplers seeking several attacking options from kimura control.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JohnDanaher_KimuraEnterTheSystem_FRONTCover1.jpg?v=1762458439"
     }
   ],
   "guide": {
@@ -213,8 +214,8 @@
         "url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher",
         "title": "Kimura: Enter The System by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "John Danaher, Kimura: Enter The System and the paired switching lessons verified. Dorsal/T-kimura and positional scope inspected; no execution or universal response chain verified. The official page embeds the selected sample under “Check Out a Free Technique”; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "John Danaher, Kimura: Enter The System and the paired switching lessons verified. Dorsal/T-kimura and positional scope inspected; no execution or universal response chain verified. The official page embeds an additional sample under “Check Out a Free Technique”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -227,15 +228,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0bda12ef-75ce-4bf2-9ee5-faf562111c34?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/cfffef3c-14e7-474b-ae73-cc3b7e381292?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — John Danaher / Kimura: Enter The System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Kimura: Enter The System by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

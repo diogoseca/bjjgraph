@@ -8,8 +8,12 @@ description: {{ description | jsonstr }}
 {% set primary = live.products[0] if live.products else none %}
 {% macro course_cta(placement) %}
 <section class="system-course system-course--{{ placement }}" data-course-container data-course-placement="{{ placement }}"{% if placement == 'top' %} id="unlock-this-system"{% endif %}>
-<a class="system-course__link" href="{{ primary.course_url | e }}" data-course-url="{{ primary.course_url | e }}" data-product-id="{{ primary.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ primary.vendor | default('') | lower | e }}" data-placement="{{ placement }}" data-affiliate="false" target="_blank" rel="noopener">{% if placement == 'top' %}<h2>{{ primary.title | e }}</h2>{% if primary.instructor %}<span class="system-course__instructor">By {{ primary.instructor | e }}</span>{% endif %} <span class="system-course__button">View course{% if primary.course_url is bjjfanatics %} on BJJ Fanatics{% endif %}</span>{% elif placement == 'mid' %}{{ primary.title | e }} · View course{% else %}Go to this course: {{ primary.title | e }}{% endif %}</a>
+{% if placement == 'top' %}<div class="system-course__identity"><h2>{{ primary.title | e }}</h2>{% if primary.instructor %}<p class="system-course__instructor">By {{ primary.instructor | e }}</p>{% endif %}</div>{% endif %}
+<a class="system-course__link" href="{{ primary.course_url | e }}" data-course-url="{{ primary.course_url | e }}" data-product-id="{{ primary.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ primary.vendor | default('') | lower | e }}" data-placement="{{ placement }}" data-affiliate="false" target="_blank" rel="noopener">{% if placement == 'top' %}View course{% if primary.course_url is bjjfanatics %} on BJJ Fanatics{% endif %}{% else %}Go to this course: {{ primary.title | e }}{% endif %}</a>
 </section>
+{% endmacro %}
+{% macro cover() %}
+{% if primary and primary.image %}<img class="system-cover" src="{{ primary.image | e }}" alt="{{ primary.title | e }} course cover" decoding="async" fetchpriority="high">{% endif %}
 {% endmacro %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":{{ (guide.display_title if guide else name) | jsonstr }},"description":{{ description | jsonstr }}}
@@ -22,22 +26,21 @@ description: {{ description | jsonstr }}
 {% set graph_refs = related_content | selectattr('content_type', 'in', ['Position', 'Transition', 'Submission']) | map(attribute='name') | unique | list %}
 <p class="system-reference-count">{{ graph_refs | length }} related references (techniques and positions)</p>
 </header>
+{% if primary and guide and guide.preview %}
+{% set preview = guide.preview %}
+<section id="official-preview" class="system-preview" aria-label="{{ preview.title | e }}" data-system-preview data-system-key="{{ name | e }}" data-provider="{{ preview.provider | e }}" data-embed-url="{{ preview.embed_url | e }}" data-preview-title="{{ preview.title | e }}">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>{{ cover() }}{% if not primary or not primary.image %}<p>Watch the official {{ 'intro' if preview.kind == 'trailer' else 'sample' }} on the course page{% if not primary %} linked in <a href="#sources">Sources</a>{% endif %}.</p>{% endif %}</div>
+</section>
+{% elif primary and primary.image %}
+<div class="system-preview system-preview--cover">{{ cover() }}</div>
+{% endif %}
 {% if primary %}{{ course_cta('top') }}{% endif %}
 <section id="overview" class="system-overview">
 
 {{ overview }}
 
 </section>
-{% if guide and guide.preview %}
-{% set preview = guide.preview %}
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="{{ name | e }}" data-provider="{{ preview.provider | e }}" data-embed-url="{{ preview.embed_url | e }}" data-verified-origins="{{ preview.playback_verified_on | tojson | forceescape }}" data-preview-title="{{ preview.title | e }}">
-<h2>{{ 'Official trailer' if preview.kind == 'trailer' else 'Official sample' }}</h2>
-<p>{{ preview.title | e }}</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the {{ preview.kind | e }} on the official page{% if not primary %} linked in <a href="#sources">Sources</a>{% endif %}.</p>
-</section>
-{% if primary %}{{ course_cta('mid') }}{% endif %}
-{% endif %}
 {% if guide %}
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -108,7 +111,7 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-{% if guide and guide.preview and not guide.preview.content_reviewed %}<p>The sample's instructional content has not been reviewed by BJJGraph.</p>{% endif %}
+{% if primary and guide and guide.preview and not guide.preview.content_reviewed %}<p>The preview's content has not been reviewed by BJJGraph.</p>{% endif %}
 {% if guide %}{% for source in guide.sources %}
 <section class="system-source" data-source-container>
 <p><a href="{{ source.url | e }}"{% if source.url is bjjfanatics %} data-source-url="{{ source.url | e }}" data-affiliate="false" data-system-slug="systems/{{ name | slugify }}" data-product-id="{{ source.id | e }}"{% endif %} target="_blank" rel="noopener">{{ source.title | e }}</a> — {{ source.kind | replace('_', ' ') | e }}; checked {{ source.checked_on | e }}. {{ source.note | e }}{% if source.viewed_range %} Inspected: {{ source.viewed_range | e }}{% endif %}</p>

@@ -92,8 +92,8 @@
         "url": "https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick",
         "title": "Under Pressure: Half Butterfly Mastery by Brian Glick",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org, https://dev.bjjgraph.pages.dev by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "garcia-butterfly-listing",
@@ -109,7 +109,20 @@
         "system": "Marcelo Garcia Butterfly Guard System",
         "reason": "Choose Garcia for seated butterfly posture, upper-body controls and sweeps against pressure or standing opponents."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/7d1bec64-7485-4f01-9bf7-8130aac9c56c?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "glick-half-butterfly-listing",
+      "title": "Official course introduction — Under Pressure: Half Butterfly Mastery by Brian Glick",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org",
+        "https://dev.bjjgraph.pages.dev"
+      ]
+    }
   },
   "products": [
     {
@@ -121,7 +134,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Half-butterfly positioning and entries, two attack groups and a condensed review volume.",
-      "best_for": "You want half butterfly as an attacking guard, including both sweeping and leg-entry options."
+      "best_for": "You want half butterfly as an attacking guard, including both sweeping and leg-entry options.",
+      "image": "https://bjjfanatics.com/cdn/shop/files/BrianGlick_UnderPressure-HalfButterflyMastery_Cover.jpg?v=1762464022"
     }
   ],
   "flashcards": []

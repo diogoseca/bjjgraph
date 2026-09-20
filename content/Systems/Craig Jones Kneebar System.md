@@ -7,6 +7,7 @@ description: "Craig Jones’s You Can't Knee bahh covers kneebar categories, hal
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Craig Jones: Kneebars","description":"Craig Jones’s You Can't Knee bahh covers kneebar categories, half-guard entries, 50/50, rolling entries and ride-based attacks."}
 </script>
@@ -19,8 +20,18 @@ description: "Craig Jones’s You Can't Knee bahh covers kneebar categories, hal
 <p class="system-reference-count">8 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — You Can&#39;t Knee bahh by Craig Jones" data-system-preview data-system-key="Craig Jones Kneebar System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c8a07015-a049-4cc7-93f7-20184b50633c?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — You Can&#39;t Knee bahh by Craig Jones">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/files/CraigJones_YouCan_tKneeBahh_CoverFRONT.jpg?v=1762464088" alt="You Can&#39;t Knee bahh course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-course-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>You Can&#39;t Knee bahh</h2><span class="system-course__instructor">By Craig Jones</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>You Can&#39;t Knee bahh</h2><p class="system-course__instructor">By Craig Jones</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-course-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,7 +39,6 @@ description: "Craig Jones’s You Can't Knee bahh covers kneebar categories, hal
 You Can’t Knee bahh organizes Craig Jones’s kneebar material around different leg configurations and the positions that lead to them. Half guard, 50/50, standing entries and top rides all receive attention. Toe holds and other leg attacks appear as combinations around the central kneebar focus.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -66,6 +76,7 @@ You Can’t Knee bahh organizes Craig Jones’s kneebar material around differen
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-course-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: You Can&#39;t Knee bahh</a>
 </section>
 
@@ -109,10 +120,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-source-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-kneebar-system" data-product-id="course" target="_blank" rel="noopener">You Can&#39;t Knee bahh by Craig Jones</a> — official listing; checked 2026-09-16. Listing inspected: exact title You Can&#39;t Knee bahh, Craig Jones attribution and four-volume contents verified, including the separate top and bottom half-guard lessons. Video content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-source-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-kneebar-system" data-product-id="course" target="_blank" rel="noopener">You Can&#39;t Knee bahh by Craig Jones</a> — official listing; checked 2026-09-19. Listing inspected: exact title You Can&#39;t Knee bahh, Craig Jones attribution and four-volume contents verified, including the separate top and bottom half-guard lessons. Video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

@@ -168,8 +168,8 @@
         "url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie",
         "title": "The Roger Gracie Closed Guard System by Roger Gracie",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and four-volume outline: closed-guard maintenance, collar and lapel attacks, arm attacks and sweeps. The page labels a free sample; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and four-volume outline: closed-guard maintenance, collar and lapel attacks, arm attacks and sweeps. The page labels a free sample; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "ibjjf-rules",
@@ -183,15 +183,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/77c53d6a-78b9-4e54-9754-160d7504c485?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/ad589909-1002-408f-a4ce-614010042f44?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "roger-closed-guard",
-      "title": "Official sample — Roger Gracie / The Roger Gracie Closed Guard System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — The Roger Gracie Closed Guard System by Roger Gracie",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -218,7 +217,8 @@
       "link_checked": "2026-09-16",
       "blurb": "A four-volume gi closed-guard course combining maintenance, chokes, arm attacks and sweeps.",
       "best_for": "Gi players who want a fuller attacking game from closed guard.",
-      "course_url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie"
+      "course_url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie",
+      "image": "https://bjjfanatics.com/cdn/shop/products/RogerGracie_ClosedGuardSystem_FrontCover.jpg?v=1762460177"
     }
   ]
 }

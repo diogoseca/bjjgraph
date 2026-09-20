@@ -5,7 +5,12 @@ import { journey } from "../dsl";
 // The DSL still serves the real graph/deck manifest. These tests do NOT certify provider
 // playback, the authored corpus, or static-page generation; those are integration checks.
 const COURSE = "https://bjjfanatics.com/products/fixture-course";
-const CANONICAL_DISCLOSURE = "Affiliate link — BJJGraph may earn a commission.";
+const COVER = "https://cdn.shopify.com/s/files/1/fixture-course-cover.png";
+const preview = (provider: "bunny" | "youtube" = "bunny") => ({ provider,
+  embed_url: provider === "bunny" ? "https://iframe.mediadelivery.net/embed/123456/11111111-1111-1111-1111-111111111111?autoplay=false&preload=false&responsive=true" :
+    "https://www.youtube-nocookie.com/embed/abcdefghijk?autoplay=1",
+  title: "Official fixture intro", kind: "trailer", source_id: "listing", checked_on: "2026-09-16",
+  content_reviewed: false, playback_verified_on: [] as string[] });
 const product = () => ({ name: "Exact Fixture Course", instructor: "Fixture Instructor", id: "fixture-course", vendor: "bjjfanatics",
   course_url: COURSE, url: COURSE, affiliate: false });
 const catalog = () => ({ _meta: { count: 3 }, systems: [
@@ -33,6 +38,43 @@ const body = (): any => ({
   points: ["LEGACY REPETITION MUST NOT RENDER"], sequence: [{ phase: "OLD PHASE", detail: "OLD DETAIL" }],
 });
 const watchErrors = (page: Page) => { const errors: string[] = []; page.on("pageerror", e => errors.push(e.message)); return errors; };
+// Synthetic media certifies requests, autoplay configuration and lifecycle, never provider playback.
+const stubPreviews = async (page: Page) => {
+  const activity = { requests: 0, sdkRequests: 0 };
+  await page.route(/https:\/\/(iframe\.mediadelivery\.net|player\.mediadelivery\.net|www\.youtube(?:-nocookie)?\.com)\/embed\//, route => {
+    activity.requests++;
+    return route.fulfill({ contentType: "text/html", body: "<p>Synthetic official player fixture.</p>" });
+  });
+  await page.route("https://assets.mediadelivery.net/playerjs/player-0.1.0.min.js", route => {
+    activity.sdkRequests++;
+    return route.fulfill({ contentType: "application/javascript", body: `
+      window.playerjs = { Player: class {
+        constructor() { this.callbacks = {}; }
+        on(name, callback) {
+          this.callbacks[name] = callback;
+          if (name === "ready") Promise.resolve().then(() => { if (this.callbacks[name] === callback) callback(); });
+        }
+        off(name) { delete this.callbacks[name]; }
+        destroy() { this.callbacks = {}; }
+      } };
+    ` });
+  });
+  await page.evaluate(() => {
+    (window as any).__systemYTEvents = [];
+    (window as any).YT = { Player: class {
+      constructor(_frame: unknown, options: any) {
+        (window as any).__systemYTCallbacks = options.events;
+        Promise.resolve().then(() => options.events.onReady({ target: this }));
+      }
+      mute() { (window as any).__systemYTEvents.push("mute"); }
+      playVideo() { (window as any).__systemYTEvents.push("play"); }
+      destroy() { (window as any).__systemYTEvents.push("destroy"); }
+    } };
+  });
+  return activity;
+};
+const stubCover = (page: Page) => page.route(COVER, route => route.fulfill({ contentType: "image/svg+xml",
+  body: '<svg xmlns="http://www.w3.org/2000/svg" width="160" height="90"><rect width="160" height="90" fill="#59406d"/></svg>' }));
 const bootFixtures = async (page: Page, j = journey(page), data = catalog(), dossier = body()) => {
   await j.boot("/");
   // Register after the DSL routes so authored fixtures override its intentionally empty chunks.
@@ -214,21 +256,16 @@ for (const mode of ["canonical", "legacy-placeholder", "legacy-ref-placeholder",
     await expect(link).toHaveCount(1);
     const href = new URL((await link.getAttribute("href"))!);
     expect(href.href).not.toContain("REPLACE_ME");
+    await expect(page.locator("[data-affiliate-disclosure]")).toHaveCount(0);
+    await expect(page.locator(".ng-learning-list")).not.toContainText("commission");
     if (mode === "active") {
       await expect(link).toHaveAttribute("data-affiliate", "true");
       await expect(link).toHaveAttribute("rel", "sponsored nofollow noopener");
-      await expect(page.locator("[data-affiliate-disclosure]")).toHaveText([CANONICAL_DISCLOSURE, CANONICAL_DISCLOSURE]);
       expect(href.searchParams.get("rfsn")).toBe("123456.test");
       expect(href.searchParams.get("utm_source")).toBe("bjjgraph");
       expect(href.searchParams.get("utm_medium")).toBe("affiliate");
       expect(href.searchParams.get("utm_content")).toBe("fixture-octopus");
       await link.scrollIntoViewIfNeeded();
-      const near = await link.evaluate(a => {
-        const d = a.closest("[data-system-courses]")!.querySelector("[data-affiliate-disclosure]")!;
-        return { after: !!(a.compareDocumentPosition(d) & 4), gap: d.getBoundingClientRect().top - a.getBoundingClientRect().bottom,
-          font: parseFloat(getComputedStyle(d).fontSize) };
-      });
-      expect(near.after).toBe(true); expect(near.gap).toBeLessThan(40); expect(near.font).toBeGreaterThanOrEqual(11);
       await page.evaluate(() => {
         (window as any).__caps = [];
         (window as any).posthog = { capture: (event: any, props: any) => (window as any).__caps.push({ event, props }) };
@@ -294,41 +331,35 @@ test("legacy cached bodies remain readable; no course is invented for a topic gu
 });
 
 for (const provider of ["bunny", "youtube"] as const) {
-  for (const verified of [false, true]) {
-    test(`${provider} sample ${verified ? "mounts immediately" : "uses an honest course fallback"} and stops on navigation`, async ({ page }) => {
+  for (const history of ["none", "production"] as const) {
+    test(`${provider} intro mounts with ${history} verification history and stops on navigation`, async ({ page }) => {
       const dossier = body();
-      dossier.guide.preview = { provider, embed_url: provider === "bunny" ?
-        "https://iframe.mediadelivery.net/embed/123456/11111111-1111-1111-1111-111111111111?autoplay=true&preload=true&responsive=true" :
-        "https://www.youtube-nocookie.com/embed/abcdefghijk?autoplay=1", title: "Official fixture sample", kind: "sample", source_id: "listing",
-        checked_on: "2026-09-16", content_reviewed: false, playback_verified_on: [] };
+      dossier.guide.preview = preview(provider);
+      if (history === "production") dossier.guide.preview.playback_verified_on = ["https://bjjgraph.org"];
       const j = await bootFixtures(page, journey(page), catalog(), dossier);
-      // Synthetic origin/player fixtures certify lifecycle, never real provider playback.
-      if (verified) dossier.guide.preview.playback_verified_on = [new URL(page.url()).origin];
-      let requests = 0;
-      await page.route(/https:\/\/(iframe\.mediadelivery\.net|www\.youtube-nocookie\.com)\//, r => {
-        requests++; return r.fulfill({ contentType: "text/html", body: "<p>Synthetic player fixture, not playback verification.</p>" });
-      });
-      expect(requests).toBe(0);
+      const activity = await stubPreviews(page);
       await openFirst(page);
       await expect(page.locator("[data-system-coverage]")).toBeVisible();
       await expect(page.locator("[data-system-preview-load]")).toHaveCount(0);
-      await expect(page.locator("[data-system-cta]")).toHaveCount(3);
-      expect(await page.locator("[data-system-cta]").evaluateAll(links => links.map(a => a.getAttribute("href")))).toEqual([COURSE, COURSE, COURSE]);
+      await expect(page.locator("[data-system-cta]")).toHaveCount(2);
+      expect(await page.locator("[data-system-cta]").evaluateAll(links => links.map(a => a.getAttribute("href")))).toEqual([COURSE, COURSE]);
+      await expect(page.locator("[data-affiliate-disclosure]")).toHaveCount(0);
       await expect(page.locator("[data-system-sources] [data-system-preview-review]")).toContainText("BJJGraph has not reviewed this preview’s instructional content");
-      if (!verified) {
-        await expect(page.locator("[data-system-player]")).toHaveCount(0);
-        await expect(page.locator("[data-system-preview]")).toHaveCount(0);
-        await expect(page.locator("[data-system-preview-fallback] a")).toHaveAttribute("href", COURSE);
-        expect(requests).toBe(0); return;
-      }
       const player = page.locator("[data-system-player]");
-      await expect(player).toHaveCount(1); await expect.poll(() => requests).toBe(1);
-      await expect(player).toHaveAttribute("title", "Official fixture sample");
+      await expect(player).toHaveCount(1); await expect.poll(() => activity.requests).toBe(1);
+      await expect(player).toHaveAttribute("title", "Official fixture intro");
       await expect(player).toHaveAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+      await expect(player).toHaveAttribute("allow", /autoplay/);
       const url = new URL((await player.getAttribute("src"))!);
-      expect(url.searchParams.get("autoplay")).toBe(provider === "bunny" ? "false" : "0");
+      expect(url.searchParams.get("autoplay")).toBe(provider === "bunny" ? "true" : "0");
       if (provider === "bunny") {
-        expect(url.searchParams.get("preload")).toBe("false"); expect(url.searchParams.get("responsive")).toBe("true");
+        for (const key of ["muted", "preload", "playsinline", "responsive"]) expect(url.searchParams.get(key)).toBe("true");
+      } else {
+        expect(url.searchParams.get("enablejsapi")).toBe("1"); expect(url.searchParams.get("playsinline")).toBe("1");
+        await expect.poll(() => page.evaluate(() => (window as any).__systemYTEvents)).toEqual(["mute", "play"]);
+        // Autoplay denial keeps the ready player and its native controls usable.
+        await page.evaluate(() => (window as any).__systemYTCallbacks.onAutoplayBlocked());
+        await expect(player).toBeVisible();
       }
       expect(await player.evaluate(el => !!el.closest(".ng-learning-list"))).toBe(true);
       const alternative = '[data-system-reference="Systems/Fixture-Alternative"]';
@@ -338,6 +369,7 @@ for (const provider of ["bunny", "youtube"] as const) {
       await expect(page.locator('[data-system-detail="Systems/Fixture-Alternative"]')).toBeVisible();
       await expect(player).toHaveCount(0);
       expect(await page.evaluate(() => (window as any).__neural._systemPlayer)).toBeNull();
+      if (provider === "youtube") expect(await page.evaluate(() => (window as any).__systemYTEvents)).toEqual(["mute", "play", "destroy"]);
     });
   }
 }
@@ -392,6 +424,105 @@ test("opening a System from scrolled search results starts at the top", async ({
   expect(await list.evaluate(el => el.querySelector("[data-system-back]")!.getBoundingClientRect().top - el.getBoundingClientRect().top)).toBeGreaterThanOrEqual(0);
 });
 
+test("index preview starts before its guide loads and survives hydration and unrelated renders @curated", async ({ page }) => {
+  const data = catalog(), dossier = body();
+  dossier.guide.preview = preview();
+  (data.systems[0] as any).preview = { ...dossier.guide.preview };
+  const j = await bootFixtures(page, journey(page), data, dossier);
+  const activity = await stubPreviews(page);
+  let release!: () => void, dossierRequests = 0;
+  const held = new Promise<void>(resolve => { release = resolve; });
+  await page.route("**/static/neural/content/*.json", async route => {
+    dossierRequests++; await held;
+    await route.fulfill({ json: { [data.systems[0].key]: dossier } });
+  });
+  try {
+    await openExplore(page);
+    await expect(page.locator("[data-system-row]")).toHaveCount(3);
+    // Rendering a catalog with preview metadata must not start any video requests.
+    await expect(page.locator("[data-system-player]")).toHaveCount(0);
+    expect(activity.requests).toBe(0);
+    expect(activity.sdkRequests).toBe(0);
+    const row = '[data-system-row="Systems/Fixture-Octopus"]';
+    await page.locator(row).scrollIntoViewIfNeeded(); await j.clickByMouse(row);
+    await expect.poll(() => dossierRequests).toBe(1);
+    await expect(page.locator("[data-system-loading]")).toContainText("Loading guide");
+    const player = page.locator("[data-system-player]");
+    await expect(player).toBeVisible(); await expect.poll(() => activity.requests).toBe(1);
+    const original = (await player.elementHandle())!;
+    release();
+    await expect(page.locator("[data-system-coverage]")).toContainText("Advertised seated-guard topics");
+    await expect(page.locator("[data-system-loading]")).toHaveCount(0);
+    await expect(page.locator("[data-system-cta]")).toHaveCount(2);
+    expect(await original.evaluate(el => el.isConnected && el === document.querySelector("[data-system-player]"))).toBe(true);
+    await page.evaluate(() => (window as any).__neural.renderExplorer());
+    await expect(page.locator("[data-system-coverage]")).toBeVisible();
+    expect(await original.evaluate(el => el.isConnected && el === document.querySelector("[data-system-player]"))).toBe(true);
+    expect(activity.requests).toBe(1);
+  } finally { release(); }
+});
+
+test("cover-only System uses its exact primary course and never requests a video", async ({ page }) => {
+  const data = catalog(); Object.assign(data.systems[0].products[0], { image: COVER });
+  data.systems[0].products.push({ ...product(), name: "Different course", course_url: COURSE + "-different", url: COURSE + "-different" });
+  await bootFixtures(page, journey(page), data);
+  const activity = await stubPreviews(page); await stubCover(page);
+  await openFirst(page);
+  await expect(page.locator("[data-system-coverage]")).toBeVisible();
+  const image = page.locator("[data-system-media] img");
+  await expect(image).toHaveAttribute("src", COVER); await expect(image).toHaveAttribute("alt", "Exact Fixture Course cover");
+  await expect(image).toBeVisible();
+  await expect.poll(() => image.evaluate(el => (el as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+  await expect(page.locator("[data-system-player], [data-system-preview-load]")).toHaveCount(0);
+  await expect(page.locator("[data-system-cta]")).toHaveCount(2);
+  expect(await page.locator("[data-system-cta]").evaluateAll(links => links.map(a => a.getAttribute("href")))).toEqual([COURSE, COURSE]);
+  await expect(page.locator("[data-system-course-title]")).toHaveText("Exact Fixture Course");
+  expect(activity.requests).toBe(0);
+});
+
+test("a provider error restores the exact course cover and keeps the course link usable", async ({ page }) => {
+  const data = catalog(), dossier = body();
+  Object.assign(data.systems[0].products[0], { image: COVER });
+  dossier.guide.preview = preview("youtube");
+  await bootFixtures(page, journey(page), data, dossier);
+  await stubPreviews(page); await stubCover(page);
+  await openFirst(page);
+  await expect.poll(() => page.evaluate(() => (window as any).__systemYTEvents)).toEqual(["mute", "play"]);
+  await expect(page.locator("[data-system-player]")).toBeVisible();
+  await page.evaluate(() => (window as any).__systemYTCallbacks.onError({ data: 101 }));
+  await expect(page.locator("[data-system-player]")).toHaveCount(0);
+  await expect(page.locator("[data-system-preview-fallback] img")).toBeVisible();
+  await expect(page.locator("[data-system-preview-fallback] img")).toHaveAttribute("src", COVER);
+  await expect(page.locator('[data-course-placement="overview"] [data-system-cta]')).toHaveAttribute("href", COURSE);
+  await expect(page.locator("[data-system-cta]")).toHaveCount(2);
+  expect(await page.evaluate(() => (window as any).__systemYTEvents)).toEqual(["mute", "play", "destroy"]);
+});
+
+for (const exit of ["back", "pane-close", "hidden", "pagehide"] as const) {
+  test(`System preview is destroyed on ${exit}`, async ({ page }) => {
+    const dossier = body(); dossier.guide.preview = preview();
+    const j = await bootFixtures(page, journey(page), catalog(), dossier);
+    const activity = await stubPreviews(page);
+    await openFirst(page);
+    const player = page.locator("[data-system-player]");
+    await expect(player).toHaveCount(1); await expect.poll(() => activity.requests).toBe(1);
+    const original = (await player.elementHandle())!;
+    if (exit === "back") await j.clickByMouse("[data-system-back]");
+    else if (exit === "pane-close") await page.keyboard.press("Escape");
+    else if (exit === "pagehide") await page.evaluate(() => window.dispatchEvent(new PageTransitionEvent("pagehide")));
+    else await page.evaluate(() => {
+      // Model browser tab hiding explicitly; headless focus does not consistently change visibility.
+      Object.defineProperty(document, "visibilityState", { configurable: true, get: () => "hidden" });
+      Object.defineProperty(document, "hidden", { configurable: true, get: () => true });
+      document.dispatchEvent(new Event("visibilitychange"));
+    });
+    await expect(player).toHaveCount(0);
+    expect(await original.evaluate(el => el.isConnected)).toBe(false);
+    expect(await page.evaluate(() => ({ player: (window as any).__neural._systemPlayer, media: (window as any).__neural._systemMedia }))).toEqual({ player: null, media: null });
+    expect(activity.requests).toBe(1);
+  });
+}
+
 test("late Concepts hydration preserves the same System preview until navigation", async ({ page }) => {
   const dossier = body();
   dossier.guide.preview = { provider: "bunny",
@@ -402,7 +533,8 @@ test("late Concepts hydration preserves the same System preview until navigation
   dossier.guide.preview.playback_verified_on = [new URL(page.url()).origin];
   let release!: () => void;
   const held = new Promise<void>(resolve => { release = resolve; });
-  let conceptsRequested = 0, playerRequests = 0;
+  let conceptsRequested = 0;
+  const activity = await stubPreviews(page);
   await page.route("**/concepts.json", async route => {
     conceptsRequested++;
     await held;
@@ -410,19 +542,15 @@ test("late Concepts hydration preserves the same System preview until navigation
       { id: "Principles/Fixture-Frames", key: "Fixture Frames|Principle", name: "Frames reference", cat: "Principle", nodes: [] },
     ] } });
   });
-  await page.route("https://iframe.mediadelivery.net/**", route => {
-    playerRequests++;
-    return route.fulfill({ contentType: "text/html", body: "<p>Synthetic player fixture.</p>" });
-  });
   try {
     await openFirst(page);
     await expect.poll(() => conceptsRequested).toBe(1);
     const player = page.locator("[data-system-player]");
     await expect(player).toHaveCount(1);
-    await expect.poll(() => playerRequests).toBe(1);
+    await expect.poll(() => activity.requests).toBe(1);
     const originalPlayer = (await player.elementHandle())!;
     const list = page.locator(".ng-learning-list");
-    await list.hover();
+    await list.hover({ position: { x: 10, y: 10 } });
     const beforeWheel = await list.evaluate(el => el.scrollTop);
     await page.mouse.wheel(0, 120);
     await expect.poll(() => list.evaluate(el => el.scrollTop)).toBeGreaterThan(beforeWheel);
@@ -435,7 +563,7 @@ test("late Concepts hydration preserves the same System preview until navigation
     await expect(player).toHaveCount(1);
     expect(await originalPlayer.evaluate(el => el.isConnected && el === (window as any).__neural._systemPlayer)).toBe(true);
     expect(await list.evaluate(el => el.scrollTop)).toBe(readingScroll);
-    expect(playerRequests).toBe(1);
+    expect(activity.requests).toBe(1);
     // The newly hydrated concept remains navigable, and leaving the System removes its player.
     const principle = '[data-system-reference="Principles/Fixture-Frames"]';
     await page.locator(principle).scrollIntoViewIfNeeded();
@@ -447,17 +575,23 @@ test("late Concepts hydration preserves the same System preview until navigation
   } finally { release(); }
 });
 
-for (const rejected of ["host", "provider", "origin"]) {
-  test(`preview rejects wrong ${rejected} while retaining the official fallback`, async ({ page }) => {
+for (const rejected of ["host", "provider"]) {
+  test(`preview rejects wrong ${rejected} while retaining the exact course cover and CTA`, async ({ page }) => {
+    const data = catalog(); Object.assign(data.systems[0].products[0], { image: COVER });
     const dossier = body(); dossier.guide.preview = { provider: rejected === "provider" ? "arbitrary" : "bunny",
       embed_url: "https://" + (rejected === "host" ? "iframe.mediadelivery.net.attacker.invalid" : "iframe.mediadelivery.net") + "/embed/123/11111111-1111-1111-1111-111111111111",
       source_id: "listing", title: "Official sample", playback_verified_on: [] };
-    await bootFixtures(page, journey(page), catalog(), dossier);
-    dossier.guide.preview.playback_verified_on = [rejected === "origin" ? "https://bjjgraph.org" : new URL(page.url()).origin];
+    await bootFixtures(page, journey(page), data, dossier);
+    const activity = await stubPreviews(page); await stubCover(page);
     await openFirst(page);
-    await expect(page.locator("[data-system-preview-fallback] a")).toHaveAttribute("href", COURSE);
+    await expect(page.locator("[data-system-coverage]")).toBeVisible();
+    await expect(page.locator("[data-system-preview-fallback] img")).toHaveAttribute("src", COVER);
+    await expect(page.locator("[data-system-preview-fallback] img")).toBeVisible();
+    await expect(page.locator('[data-course-placement="overview"] [data-system-cta]')).toHaveAttribute("href", COURSE);
+    await expect(page.locator("[data-system-cta]")).toHaveCount(2);
     await expect(page.locator("[data-system-preview-load]")).toHaveCount(0);
     await expect(page.locator("[data-system-player]")).toHaveCount(0);
+    expect(activity.requests).toBe(0);
   });
 }
 
@@ -489,31 +623,41 @@ for (const legacy of [false, true]) {
 }
 
 for (const width of [390, 1440]) {
-  test(`course-first hierarchy, wrapping chips and Sources last at ${width}px @curated`, async ({ page }) => {
+  test(`video-first hierarchy, wrapping chips and Sources last at ${width}px @curated`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     const data = catalog();
     data.systems[0].type = "Guard transitions and positional connections";
     data.systems[0].difficulty = "Intermediate to advanced";
-    const j = await bootFixtures(page, journey(page), data);
+    const dossier = body(); dossier.guide.preview = preview();
+    (data.systems[0] as any).preview = dossier.guide.preview;
+    const j = await bootFixtures(page, journey(page), data, dossier);
+    const activity = await stubPreviews(page);
     await openFirst(page);
     await expect(page.locator("[data-system-coverage]")).toBeVisible();
     const list = page.locator(".ng-learning-list");
     await expect(page.locator("[data-system-overview]")).toHaveText("About this course" + body().overview);
     await expect(list).not.toContainText(data.systems[0].summary);
     await expect(list).not.toContainText("Course reference");
-    await expect(page.locator("[data-system-start], [data-system-preview-load], [data-system-player], [data-system-preview]")).toHaveCount(0);
+    await expect(page.locator("[data-system-start], [data-system-preview-load]")).toHaveCount(0);
+    await expect(page.locator("[data-system-player]")).toBeVisible();
+    await expect.poll(() => activity.requests).toBe(1);
+    await expect(page.locator("[data-system-cta]")).toHaveCount(2);
     await expect(page.locator(".ng-system-chip")).toHaveText([data.systems[0].type, data.systems[0].difficulty!]);
     await expect(page.locator(".ng-system-graph-count")).toHaveText("1 techniques and positions on the graph");
     const result = await list.evaluate(el => {
-      const order = ["[data-system-detail]", '[data-course-placement="overview"]', "[data-system-overview]", "[data-system-fit]", "[data-system-alternatives]", "[data-system-coverage]", '[data-course-placement="conclusion"]', "[data-system-references]", "[data-system-drill]", "[data-system-sources]"];
+      const order = ["[data-system-detail]", "[data-system-media]", '[data-course-placement="overview"]', "[data-system-overview]", "[data-system-fit]", "[data-system-alternatives]", "[data-system-coverage]", '[data-course-placement="conclusion"]', "[data-system-references]", "[data-system-drill]", "[data-system-sources]"];
       const title = el.querySelector("h2")!, meta = el.querySelector(".ng-system-meta")!;
+      const video = el.querySelector("[data-system-player]")!.getBoundingClientRect();
+      const course = el.querySelector('[data-course-placement="overview"]')!.getBoundingClientRect();
       return { ordered: order.every((selector, i) => !i || !!(el.querySelector(order[i - 1])!.compareDocumentPosition(el.querySelector(selector)!) & Node.DOCUMENT_POSITION_FOLLOWING)),
+        videoFirst: video.bottom <= course.top, videoWidth: video.width, videoRatio: video.width / video.height,
         last: el.lastElementChild!.hasAttribute("data-system-sources"), font: parseFloat(getComputedStyle(title).fontSize),
         stacked: meta.getBoundingClientRect().top >= title.getBoundingClientRect().bottom,
         chips: Array.from(el.querySelectorAll(".ng-system-chip")).every(chip => parseFloat(getComputedStyle(chip).borderRadius) >= 10 && chip.scrollWidth <= chip.clientWidth && chip.getBoundingClientRect().right <= el.getBoundingClientRect().right),
         overflow: el.scrollWidth > el.clientWidth };
     });
-    expect(result).toMatchObject({ ordered: true, last: true, stacked: true, chips: true, overflow: false });
+    expect(result).toMatchObject({ ordered: true, last: true, stacked: true, chips: true, overflow: false, videoFirst: true });
+    expect(result.videoWidth).toBeGreaterThan(200); expect(result.videoRatio).toBeCloseTo(16 / 9, 1);
     expect(result.font).toBeGreaterThanOrEqual(24);
     await page.locator("[data-system-sources] summary").scrollIntoViewIfNeeded();
     await j.clickByMouse("[data-system-sources] summary");
@@ -555,11 +699,11 @@ for (const state of ["active-topic", "neutral-source-active-product", "placehold
     await j.clickByMouse("[data-system-sources] summary");
     const source = page.locator('[data-system-source="blog"] a');
     await expect(source).toHaveAttribute("href", active ? dossier.guide.sources[0].url : blog);
-    await expect(page.locator('[data-system-source="blog"] [data-affiliate-disclosure]')).toHaveCount(active ? 1 : 0);
+    await expect(page.locator("[data-affiliate-disclosure]")).toHaveCount(0);
+    await expect(page.locator("[data-system-sources]")).not.toContainText("commission");
     if (active) {
       await expect(source).toHaveAttribute("data-affiliate", "true");
       await expect(source).toHaveAttribute("rel", "sponsored nofollow noopener");
-      await expect(page.locator('[data-system-source="blog"] [data-affiliate-disclosure]')).toHaveText(CANONICAL_DISCLOSURE);
     } else await expect(source).not.toHaveAttribute("data-affiliate");
     await expect(page.locator('[data-system-source="independent"] a')).toHaveAttribute("href", "https://example.org/guide");
     await expect(page.locator('[data-system-source="independent"] a')).not.toHaveAttribute("data-affiliate");

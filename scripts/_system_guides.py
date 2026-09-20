@@ -18,25 +18,38 @@ def canonical_course_url(value):
 
 
 def preview_errors(preview):
+    """Check player identity; playback preferences belong to the rendering surface."""
     errors = []
     try:
         u = urlsplit(preview.get('embed_url', ''))
-        q = parse_qs(u.query)
         provider = preview.get('provider')
-        valid = u.scheme == 'https' and not (u.username or u.password or u.fragment)
+        valid = u.scheme == 'https' and not (u.username or u.password or u.fragment) and not re.search(r'\s', preview.get('embed_url', ''))
         if provider == 'youtube':
             valid &= u.netloc in ('www.youtube.com', 'www.youtube-nocookie.com') and bool(re.fullmatch(r'/embed/[A-Za-z0-9_-]{11}', u.path))
-            valid &= q.get('autoplay') == ['0']
         elif provider == 'bunny':
-            valid &= u.netloc == 'iframe.mediadelivery.net' and bool(re.fullmatch(r'/embed/\d+/[a-fA-F0-9-]{36}', u.path))
-            valid &= q.get('autoplay') == ['false'] and q.get('preload') == ['false']
+            valid &= u.netloc in ('iframe.mediadelivery.net', 'player.mediadelivery.net') and bool(re.fullmatch(r'/embed/\d+/[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}', u.path))
         else:
             valid = False
         if not valid:
-            errors.append('guide.preview: official allowlisted player required with autoplay/preload disabled')
-    except ValueError:
+            errors.append('guide.preview: exact official allowlisted player URL required')
+    except (TypeError, ValueError):
         errors.append('guide.preview: invalid embed URL')
     return errors
+
+
+def compact_preview(data):
+    """Media needed before the full guide arrives; evidence remains in its dossier."""
+    guide = data.get('guide') or {}
+    preview = guide.get('preview')
+    if not isinstance(preview, dict) or preview_errors(preview):
+        return None
+    if preview.get('kind') not in ('trailer', 'sample') or not isinstance(preview.get('title'), str) or not preview['title'].strip():
+        return None
+    source = next((s for s in guide.get('sources') or []
+                   if isinstance(s, dict) and s.get('id') == preview.get('source_id')), {})
+    if source.get('kind') not in ('official_listing', 'public_instruction'):
+        return None
+    return {field: preview[field] for field in ('provider', 'embed_url', 'title', 'kind')}
 
 
 def validate_guide(data, content_root=None, emitted=False):

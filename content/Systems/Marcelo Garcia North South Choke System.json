@@ -80,7 +80,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes on north-south choke mechanics, defensive problems and entries.",
-      "best_for": "Top players seeking a detailed course on one choke."
+      "best_for": "Top players seeking a detailed course on one choke.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/MarceloGarcia_TheCompleteNorthSouthChoke_FRONTCover.jpg?v=1762459369"
     }
   ],
   "guide": {
@@ -109,8 +110,8 @@
         "url": "https://bjjfanatics.com/products/the-complete-north-south-choke-by-marcelo-garcia",
         "title": "The Complete North South Choke by Marcelo Garcia",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Marcelo Garcia, exact course title, alignment lesson, frame-clearing chapters and multiple top-entry contexts verified on the listing. Video mechanics not inspected."
+        "checked_on": "2026-09-19",
+        "note": "Marcelo Garcia, exact course title, alignment lesson, frame-clearing chapters and multiple top-entry contexts verified on the listing. Video mechanics not inspected. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -120,6 +121,18 @@
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/729d065f-9f3e-496d-bdb6-0d9acfe7d246?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "course",
+      "title": "Official course introduction — The Complete North South Choke by Marcelo Garcia",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   }
 }

@@ -92,8 +92,8 @@
         "url": "https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas",
         "title": "Double Sleeve Guard by Jonathan Thomas",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified basic control, De La Riva, lasso/spider defenses, Spider-X and opponent-posture sections. Listing inspected; course video content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified basic control, De La Riva, lasso/spider defenses, Spider-X and opponent-posture sections. Listing inspected; course video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "wardzinski-slx-listing",
@@ -109,7 +109,19 @@
         "system": "Adam Wardzinski Single Leg X System",
         "reason": "Choose Wardzinski for gi single-leg-X entries and sweeps, including sleeve and lapel variations."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c518dada-f387-4b0f-89f1-a32ab3416b21?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "thomas-double-sleeve-listing",
+      "title": "Official course introduction — Double Sleeve Guard by Jonathan Thomas",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   },
   "products": [
     {
@@ -121,7 +133,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes connecting double-sleeve control to gi sweeps, submissions and guard transitions.",
-      "best_for": "You want a gi open guard built around sleeve control, lasso and spider variations."
+      "best_for": "You want a gi open guard built around sleeve control, lasso and spider variations.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JonathanThomas_DoubleSleeveOpenGuard_FRONTCover.jpg?v=1762459310"
     }
   ],
   "flashcards": []

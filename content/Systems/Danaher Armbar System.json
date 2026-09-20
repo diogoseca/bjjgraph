@@ -80,7 +80,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "An eight-volume armbar course covering control, hand separation, finishing and positional entries.",
-      "best_for": "Grapplers seeking detailed armbar control and entry coverage."
+      "best_for": "Grapplers seeking detailed armbar control and entry coverage.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JohnDanaher_ArmBarsEnterTheSystem_FRONTCover1.jpg?v=1762458620"
     }
   ],
   "guide": {
@@ -111,8 +112,8 @@
         "url": "https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher",
         "title": "Arm Bars: Enter The System by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Official listing inspected: John Danaher attribution, exact Arm Bars title, phase headings and positional coverage verified. The starting reference follows the published control-lesson label. Video content not reviewed. The official page embeds the selected sample under “Check Out Sample”; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Official listing inspected: John Danaher attribution, exact Arm Bars title, phase headings and positional coverage verified. The starting reference follows the published control-lesson label. Video content not reviewed. The official page embeds an additional sample under “Check Out Sample”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -125,15 +126,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/f83fb91d-801b-41f2-b528-28a33de87812?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/a88a538b-a14d-412f-bafd-fc3e1b18b089?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — John Danaher / Arm Bars: Enter The System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Arm Bars: Enter The System by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

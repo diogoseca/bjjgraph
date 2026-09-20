@@ -84,7 +84,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Six volumes on side-crucifix entries, arm isolation and submission branches.",
       "best_for": "Top players seeking a focused arm-isolation and submission course from side control.",
-      "course_url": "https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher"
+      "course_url": "https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher",
+      "image": "https://bjjfanatics.com/cdn/shop/files/JohnDanaher_MASTERTHEMOVE-TheSideCrucifix_CoverFRONT.jpg?v=1762467297"
     }
   ],
   "guide": {
@@ -113,8 +114,8 @@
         "url": "https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher",
         "title": "Master The Move: The Side Crucifix by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "ryan-side-north-south",
@@ -127,15 +128,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/8d930722-9091-499b-89bf-03bf6852e6ff?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/70227f00-7295-41ef-a3b2-6bb5cfa2d481?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "danaher-side-crucifix",
-      "title": "Official sample — John Danaher / Master The Move: The Side Crucifix",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Master The Move: The Side Crucifix by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

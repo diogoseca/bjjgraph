@@ -255,6 +255,7 @@ class Component extends DCLogic {
 
   componentDidMount() { this.boot(); }
   componentWillUnmount() {
+    this._stopSystemPreview();
     // Q001: SPA soft-navs never fire pagehide, so without this the 400ms-debounced save is
     // lost on teardown AND the orphaned timer clobbers the next instance's storage ~400ms in.
     // _flushSave also clears _saveT, killing that late writer. Guarded so a (hypothetical)
@@ -3600,8 +3601,11 @@ class Component extends DCLogic {
     // back down to the end of boot() and it flips to false, which is what the structural test pins.
     if (this._cs) this._cs.armedBefore = this._cs.at.app_ready == null;
     const flush = () => { try { if (this._progressLoaded) this._flushSave(); } catch (e) { /* durability is best-effort */ } };
-    this._onPageHide = () => { flush(); this._csAbandon("pagehide"); };
-    this._onVisHide = () => { if (document.visibilityState === "hidden") { flush(); this._csAbandon("hidden"); } };
+    this._onPageHide = () => { flush(); this._stopSystemPreview(); this._csAbandon("pagehide"); };
+    this._onVisHide = () => {
+      if (document.visibilityState === "hidden") { flush(); this._stopSystemPreview(); this._csAbandon("hidden"); }
+      else if (this._systemId && this.deckShown) this._renderPaneBody();
+    };
     window.addEventListener("pagehide", this._onPageHide);
     document.addEventListener("visibilitychange", this._onVisHide);
   }
@@ -7103,10 +7107,14 @@ class Component extends DCLogic {
     // corridor re-renders (evidence beats, pin/select/fold clicks) must not yank the
     // scroll while the user reads (the History-body gate precedent) — keep it unless an
     // arrival reposition is pending (v1.98.1)
-    const keepScroll =
-      this._viewMode === "challenges" && !this._challengeScrollPending ? list.scrollTop : null;
-    this._stopSystemPreview();
-    list.innerHTML = "";
+    const keepSystem = this._viewMode === "explore" && !this._exQ && this._systemId &&
+      this._systemMedia && this._systemMedia.key === this._systemId && this._systemMedia.el.parentNode === list;
+    const keepScroll = keepSystem || (this._viewMode === "challenges" && !this._challengeScrollPending) ? list.scrollTop : null;
+    // Leave the connected media section in place: even detaching and reattaching
+    // the same iframe reloads it in Safari. Hydrate the surrounding prose only.
+    if (keepSystem) {
+      for (const child of [...list.children]) if (child !== this._systemMedia.el) child.remove();
+    } else { this._stopSystemPreview(); list.innerHTML = ""; }
     if (this.renderTabSubtitles) this.renderTabSubtitles();
     this._syncExploreTools();
     if (this._viewMode === "challenges") {
@@ -7136,6 +7144,7 @@ class Component extends DCLogic {
     // BEFORE the reset below (which is what drops the highlight when you leave the view).
     if (this._systemId && !q && this._systemsById && this._systemsById[this._systemId]) {
       this.renderSystemDetail(list, this._systemId, mk);
+      if (keepScroll != null) list.scrollTop = keepScroll;
       return;
     }
     // Same contract for a concept: it owns the list AND the focus set, so it renders ahead of
@@ -9214,22 +9223,53 @@ class Component extends DCLogic {
     return u.href;
   }
   _stopSystemPreview() {
-    if (this._systemPlayer) this._systemPlayer.remove();
+    if (this._systemMedia) {
+      this._systemMedia.handle?.destroy();
+      this._systemMedia.el.remove();
+    }
+    this._systemMedia = null;
     this._systemPlayer = null;
   }
-  _systemPreviewURL(preview) {
-    const u = this._systemURL(preview && preview.embed_url);
-    if (!u || u.port) return null;
-    const youtube = preview.provider === "youtube" &&
-      ["www.youtube.com", "www.youtube-nocookie.com"].includes(u.hostname) && /^\/embed\/[\w-]{11}$/.test(u.pathname);
-    const bunny = preview.provider === "bunny" && u.hostname === "iframe.mediadelivery.net" &&
-      /^\/embed\/\d+\/[a-f0-9-]{36}$/i.test(u.pathname);
-    if (!youtube && !bunny) return null;
-    // Preserve official player parameters; only override playback flags and disallow playlists.
-    u.searchParams.delete("list"); u.searchParams.delete("playlist");
-    u.searchParams.set("autoplay", bunny ? "false" : "0");
-    if (bunny) { u.searchParams.set("preload", "false"); u.searchParams.set("loop", "false"); }
-    return u.href;
+  _renderSystemMedia(list, s, preview, product) {
+    if (!product || document.hidden) { this._stopSystemPreview(); return; }
+    const url = this._systemURL(preview?.embed_url)?.href || null;
+    const image = this._systemURL(product.image)?.href || "";
+    if (!url && !image) { this._stopSystemPreview(); return; }
+    const current = this._systemMedia;
+    if (current && current.key === s.id && current.url === url && current.image === image && current.el.parentNode === list) return;
+    this._stopSystemPreview();
+    const el = document.createElement("section"); el.className = "ng-system-media";
+    el.setAttribute("data-system-media", "1");
+    el.setAttribute("aria-label", url ? (preview.title || "Official course intro") : (product.name || "Course") + " cover");
+    const fallback = document.createElement("div"); fallback.className = "ng-system-cover";
+    fallback.setAttribute("data-system-preview-fallback", "1");
+    if (image) {
+      const img = document.createElement("img"); img.src = image; img.alt = (product.name || "Course") + " cover";
+      img.onerror = () => { img.remove(); fallback.textContent = "View the course below"; };
+      fallback.appendChild(img);
+    } else fallback.textContent = "Official course intro";
+    el.appendChild(fallback);
+    const target = document.createElement("div"); target.className = "ng-system-player-wrap";
+    if (url) el.appendChild(target);
+    list.appendChild(el);
+    const media = { key: s.id, url, image, el, handle: null };
+    this._systemMedia = media;
+    if (url) {
+      // Media is only read by Systems. Keep its provider adapter off the roll's
+      // boot payload; the cover is already visible while this local module loads.
+      import("/static/system-preview.js").then(({ ngMountSystemPreview }) => {
+        if (this._systemMedia !== media || !el.isConnected || document.hidden) return;
+        media.handle = ngMountSystemPreview(target, preview, {
+          onReady: () => { fallback.hidden = true; },
+          onError: () => { target.hidden = true; fallback.hidden = false; if (this._systemMedia === media) this._systemPlayer = null; },
+        });
+        if (media.handle) {
+          el.setAttribute("data-system-preview", "1");
+          this._systemPlayer = media.handle.frame;
+          this._systemPlayer.setAttribute("data-system-player", "1");
+        }
+      }).catch(() => {}); // Keep the course cover if the module cannot load.
+    }
   }
   _systemOutboundAnchor(s, p, resolved, label, placement, source = false) {
     const a = document.createElement("a");
@@ -9244,27 +9284,20 @@ class Component extends DCLogic {
     }
     return a;
   }
-  _systemDisclosure(parent) {
-    const note = document.createElement("p"); note.className = "ng-system-disclosure";
-    note.setAttribute("data-affiliate-disclosure", "1");
-    note.textContent = "Affiliate link — BJJGraph may earn a commission."; parent.appendChild(note);
-  }
   _renderSystemCourse(list, s, p, placement) {
     const course = p && this._systemCourse(p); if (!course) return;
     const shelf = document.createElement("section"); shelf.className = "ng-system-courses";
     shelf.setAttribute("data-system-courses", "1"); shelf.setAttribute("data-course-placement", placement);
     const vendor = new URL(course.canonical).hostname.replace(/^www\./, "") === "bjjfanatics.com" ? "BJJ Fanatics" : (p.vendor || "the official site");
     if (placement === "overview") {
-      const label = document.createElement("p"); label.className = "ng-system-eyebrow"; label.textContent = "The course"; shelf.appendChild(label);
       const title = this._systemOutboundAnchor(s, p, course, p.name || "Official course", placement);
       title.className = "ng-system-course-title"; title.setAttribute("data-system-course-title", "1"); shelf.appendChild(title);
       if (p.instructor) { const by = document.createElement("p"); by.className = "ng-system-instructor"; by.textContent = "By " + p.instructor; shelf.appendChild(by); }
     }
-    const label = placement === "conclusion" ? "Go to this course" : placement === "preview" ? "Explore the full course" : "View course on " + vendor;
+    const label = placement === "conclusion" ? "Explore the full course" : "View course on " + vendor;
     const a = this._systemOutboundAnchor(s, p, course, label + " ↗", placement);
     a.className = "ng-system-cta"; a.setAttribute("data-system-cta", "1");
     a.setAttribute("aria-label", label + ": " + (p.name || "Official course")); shelf.appendChild(a);
-    if (course.active) this._systemDisclosure(shelf);
     list.appendChild(shelf);
   }
   _renderSystemGuide(list, s, body, product) {
@@ -9279,31 +9312,6 @@ class Component extends DCLogic {
       (title ? "<h4>" + E(title) + "</h4>" : "") + "<ul>" + values.map((v) => "<li>" + E(v) + "</li>").join("") + "</ul>" : "";
     const sources = Array.isArray(guide.sources) ? guide.sources : [];
     const preview = guide.preview;
-    if (preview) {
-      const source = sources.find((x) => x.id === preview.source_id);
-      const url = this._systemPreviewURL(preview);
-      const verified = Array.isArray(preview.playback_verified_on) && preview.playback_verified_on.includes(location.origin);
-      if (url && verified && source && this._systemURL(source.url)) {
-        const el = section("Official " + (preview.kind === "trailer" ? "trailer" : "sample"), '<div class="ng-system-player-wrap"></div>', "data-system-preview");
-        const frame = document.createElement("iframe"); frame.title = preview.title || "Official course sample";
-        frame.referrerPolicy = "strict-origin-when-cross-origin";
-        frame.allow = "fullscreen; encrypted-media; picture-in-picture"; frame.allowFullscreen = true;
-        frame.src = url; frame.setAttribute("data-system-player", "1");
-        this._systemPlayer = frame; el.querySelector(".ng-system-player-wrap").appendChild(frame);
-        this._renderSystemCourse(list, s, product, "preview");
-      } else {
-        // A verified listing is not a verified player. Offer the resolved course/source link, no empty video box.
-        const el = section("Official " + (preview.kind === "trailer" ? "trailer" : "sample"), "<p>Watch on the official course page.</p>", "data-system-preview-fallback");
-        if (product) this._renderSystemCourse(el, s, product, "preview");
-        else if (source) {
-          const resolved = this._systemCourse(source, true);
-          if (resolved && ["bjjfanatics.com", "www.bjjfanatics.com"].includes(new URL(resolved.canonical).hostname)) {
-            el.appendChild(this._systemOutboundAnchor(s, source, resolved, "Open official sample ↗", "preview", true));
-            if (resolved.active) this._systemDisclosure(el);
-          } else el.remove();
-        } else el.remove();
-      }
-    }
     const audience = guide.audience || {};
     section("Is this for you?", bullets("", audience.fits) + bullets("Consider another approach if", audience.consider_alternative_if) +
       bullets("Before you begin", audience.prerequisites), "data-system-fit");
@@ -9328,7 +9336,6 @@ class Component extends DCLogic {
           const resolved = this._systemCourse(source, true);
           if (resolved) record.appendChild(this._systemOutboundAnchor(s, source, resolved, source.title || "Official source", "source", true));
           else { const title = document.createElement("span"); title.textContent = source.title || "Source"; record.appendChild(title); }
-          if (resolved && resolved.active) this._systemDisclosure(record);
           const meta = document.createElement("p"); meta.textContent = String(source.kind || "").replace(/_/g, " ") + (source.checked_on ? " · Checked " + source.checked_on : ""); record.appendChild(meta);
           for (const text of [source.note, source.viewed_range && "Viewed: " + source.viewed_range]) if (text) {
             const note = document.createElement("p"); note.textContent = text; record.appendChild(note);
@@ -9384,15 +9391,17 @@ class Component extends DCLogic {
     const back = mk('<span style="color:#9ab0e0;font-size:12.5px;font-weight:600;">\u2039 Back to systems</span>', 12, () => this.closeSystem());
     back.setAttribute("data-system-back", "1");
     back.style.pointerEvents = "auto";
-    list.appendChild(back);
+    const mediaAnchor = this._systemMedia && this._systemMedia.el.parentNode === list ? this._systemMedia.el : null;
+    list.insertBefore(back, mediaAnchor);
     const card = document.createElement("header"); card.className = "ng-system-detail";
     card.setAttribute("data-system-detail", s.id); card.setAttribute("aria-label", s.name + " system");
     card.innerHTML = "<h2>" + E((systemBody && systemBody.guide && systemBody.guide.display_title) || s.display_title || s.name) +
       '</h2><div class="ng-system-meta">' + [s.type, s.difficulty].filter(Boolean).map((v) => '<span class="ng-system-chip">' + E(v) + "</span>").join("") +
       '</div><p class="ng-system-graph-count">' + idxs.length + " techniques and positions on the graph</p>";
-    list.appendChild(card);
+    list.insertBefore(card, mediaAnchor);
     const guide = systemBody && systemBody.guide;
     const product = (Array.isArray(s.products) ? s.products : []).find((p) => p && this._systemCourse(p));
+    this._renderSystemMedia(list, s, s.preview || (guide && guide.preview), product);
     this._renderSystemCourse(list, s, product, "overview");
     const overview = systemBody && systemBody.overview || s.summary;
     if (overview) {

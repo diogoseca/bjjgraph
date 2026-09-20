@@ -137,21 +137,20 @@
         "url": "https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney",
         "title": "Champions Stay Present by Josh McKinney",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and six-volume outline, including goal setting, training camp, competition day and post-competition analysis. The embedded promotional video is labeled a trailer."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and six-volume outline, including goal setting, training camp, competition day and post-competition analysis. The embedded promotional video is labeled a trailer. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       }
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/fc474ada-42ac-44f5-9c0b-04325c7642ee?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/7999e60d-db80-4381-ab28-6296ebb1f72b?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "mckinney-present",
-      "title": "Official trailer — Josh McKinney / Champions Stay Present",
+      "title": "Official course introduction — Champions Stay Present by Josh McKinney",
       "kind": "trailer",
-      "checked_on": "2026-09-16",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -171,7 +170,8 @@
       "link_checked": "2026-09-16",
       "blurb": "A six-volume mindset course spanning preparation, competition-day focus and post-event analysis.",
       "best_for": "BJJ competitors seeking help with nerves, self-doubt and staying focused under pressure.",
-      "course_url": "https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney"
+      "course_url": "https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney",
+      "image": "https://bjjfanatics.com/cdn/shop/files/ChampionsStayPresentbyJoshMcKinneyFront.jpg?v=1762467723"
     }
   ]
 }

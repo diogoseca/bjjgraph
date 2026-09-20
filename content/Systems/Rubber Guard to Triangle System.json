@@ -171,8 +171,8 @@
         "url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
         "title": "The Ultimate Rubber Guard by Eddie Bravo",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "ryan-triangle",
@@ -192,7 +192,19 @@
         "system": "Rubber Guard to Omoplata System",
         "reason": "A closer look at the omoplata route explicitly included in the same Eddie Bravo course."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0321d180-42f0-4969-8608-07bb82d411af?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "bravo-rubber",
+      "title": "Official course introduction — The Ultimate Rubber Guard by Eddie Bravo",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   },
   "products": [
     {
@@ -204,7 +216,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eddie Bravo’s broad rubber-guard course includes an omoplata route, full rubber guard and bottom half guard.",
-      "best_for": "Grapplers interested in rubber guard broadly; the syllabus does not name a triangle-specific route."
+      "best_for": "Grapplers interested in rubber guard broadly; the syllabus does not name a triangle-specific route.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/EddieBravo_TheUltimateRubberGuard_FRONTCover.jpg?v=1762459321"
     }
   ]
 }

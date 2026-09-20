@@ -7,6 +7,7 @@ description: "What Keenan Cornelius’s public lapel-denial discussion reveals a
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Lapel Guard: What Stops the Entry","description":"What Keenan Cornelius’s public lapel-denial discussion reveals about the setup a guard player needs."}
 </script>
@@ -19,12 +20,12 @@ description: "What Keenan Cornelius’s public lapel-denial discussion reveals a
 <p class="system-reference-count">20 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 A guard player can hold a lapel and still lack enough loose fabric to form the intended entanglement. Jiu Jitsu X’s article featuring Keenan Cornelius explains that distinction from the passer’s side. It also covers approaches outside the legs and foot control, showing how a passer can obstruct the setup before a lapel guard develops.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

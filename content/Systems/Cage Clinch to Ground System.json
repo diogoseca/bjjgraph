@@ -91,7 +91,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Three parts spanning clinch entries, takedowns, passing and submissions for MMA.",
-      "best_for": "Grapplers looking for offense that accounts for the cage and strikes."
+      "best_for": "Grapplers looking for offense that accounts for the cage and strikes.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/ModernJiu-JitsuForMMAbyNeimanGracie_FRONTCover.jpg?v=1762459864"
     }
   ],
   "guide": {
@@ -122,8 +123,8 @@
         "url": "https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie",
         "title": "Modern Jiu-Jitsu For MMA by Neiman Gracie",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified Neiman Gracie, exact title and the separate open-floor/cage Kosoto lessons. The listing also establishes striking and guard coverage; no striking or takedown execution inspected. The official page embeds the selected sample under “Check out a free sample”; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified Neiman Gracie, exact title and the separate open-floor/cage Kosoto lessons. The listing also establishes striking and guard coverage; no striking or takedown execution inspected. The official page embeds an additional sample under “Check out a free sample”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -136,15 +137,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c4b12885-f860-41ea-a2a7-858b129971d4?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/3beb32b3-cc90-4360-b445-2501e413a3f1?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Neiman Gracie / Modern Jiu-Jitsu For MMA",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Modern Jiu-Jitsu For MMA by Neiman Gracie",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

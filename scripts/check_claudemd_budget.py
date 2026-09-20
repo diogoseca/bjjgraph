@@ -27,22 +27,15 @@ What it measures, and why it is not only a size check:
      a MAX, so shrinking always passes; --update RAISES it and belongs in its own justified
      commit.
 
-  2. THE MACHINE-READ DISCLOSURE BLOCK. CLAUDE.md is a build input, not inert prose. Both
-     scripts/check_affiliate_surface.py and e2e/journeys/systems-surface.spec.ts read the
-     CANONICAL-DISCLOSURE markers out of it and compare the enclosed sentence byte-for-byte
-     against templates/Systems.md.jinja2 and neural/src/app.src.jsx. Losing the markers
-     throws; rewording the sentence fails a legal-compliance gate on deploy. Checked here so
-     the failure lands at edit time rather than at deploy time.
-
-  3. NO `@`-PREFIXED IMPORTS. Claude Code auto-loads `@path` imports recursively, so one
+  2. NO `@`-PREFIXED IMPORTS. Claude Code auto-loads `@path` imports recursively, so one
      such line silently re-attaches everything this split moved out and the budget becomes
      a lie while still reading green.
 
-  4. THE TRAP CATALOGUE IS STILL THERE, AND IS STILL BIG. Section 6 is the whole point of
+  3. THE TRAP CATALOGUE IS STILL THERE, AND IS STILL BIG. Section 6 is the whole point of
      the file; a rewrite that quietly drops it would otherwise sail through on size alone —
      the budget would in fact look BETTER.
 
-On (4), and on why every check prints a positive count: this repo's single largest failure
+On (3), and on why every check prints a positive count: this repo's single largest failure
 class is "absence produces a plausible answer" — a check that never ran reads as a pass. It
 has 17 recorded instances in 5 vocabularies (a NameError swallowed by a bare except that
 reported 0 disagreements; a harness rule naming a URL the app never fetches; two build
@@ -70,9 +63,6 @@ BUDGET = ROOT / "tests" / "artifacts" / "budget_docs.json"
 # CLAUDE.md" cannot be satisfied by moving weight into a file nobody is watching.
 COMPANIONS = ("docs/Neural.md", "docs/Changelog-Archive.md")
 
-DISCLOSURE_START = "<!-- CANONICAL-DISCLOSURE:START -->"
-DISCLOSURE_END = "<!-- CANONICAL-DISCLOSURE:END -->"
-
 # A trap entry opens with its trigger in backticks or bold caps, under a "### N." group
 # heading inside the catalogue. Counting the group headings is the stable signal; counting
 # entries is the useful one.
@@ -94,22 +84,7 @@ def structural_checks(text: str) -> tuple[list[str], dict]:
     errors: list[str] = []
     counts: dict = {}
 
-    # (2) the machine-read block
-    if DISCLOSURE_START not in text or DISCLOSURE_END not in text:
-        errors.append(
-            "CLAUDE.md has lost its CANONICAL-DISCLOSURE markers. "
-            "scripts/check_affiliate_surface.py and e2e/journeys/systems-surface.spec.ts "
-            "both parse that block out of this file; without it they throw, and the "
-            "affiliate disclosure has no single source of truth."
-        )
-        counts["disclosure_chars"] = 0
-    else:
-        body = text.split(DISCLOSURE_START, 1)[1].split(DISCLOSURE_END, 1)[0].strip()
-        counts["disclosure_chars"] = len(body)
-        if not body:
-            errors.append("the CANONICAL-DISCLOSURE block is present but EMPTY")
-
-    # (3) auto-loading imports
+    # (2) auto-loading imports
     imports = [
         ln for ln in text.splitlines()
         if re.match(r"^\s*@[A-Za-z0-9_./-]+\s*$", ln)
@@ -123,7 +98,7 @@ def structural_checks(text: str) -> tuple[list[str], dict]:
               "canon/changelog split moved out and makes this budget meaningless."
         )
 
-    # (4) the catalogue
+    # (3) the catalogue
     counts["trap_sections"] = len(TRAP_SECTION_RE.findall(text))
     if counts["trap_sections"] == 0:
         errors.append(
@@ -218,7 +193,6 @@ def main() -> None:
         print(f"    {name:<32} {fmt(size):>9} / {fmt(cap):<9} ({fmt(head)} spare)")
     print(f"    sections {counts['sections']} · trap groups {counts['trap_sections']} · "
           f"trap entries {counts['trap_entries']} · "
-          f"disclosure {counts['disclosure_chars']} chars · "
           f"@-imports {counts['at_imports']}")
 
 

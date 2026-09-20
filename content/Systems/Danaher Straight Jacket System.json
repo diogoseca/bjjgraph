@@ -173,7 +173,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Back control, hand fighting and strangles, followed by auxiliary attacks and entry methods.",
-      "best_for": "Back attackers looking for detailed hand-fighting and finishing coverage."
+      "best_for": "Back attackers looking for detailed hand-fighting and finishing coverage.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/JohnDanaher_BackAttacksEnterTheSystem_FRONTCover1.jpg?v=1762458261"
     }
   ],
   "guide": {
@@ -204,21 +205,20 @@
         "url": "https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher",
         "title": "Back Attacks Enter The System by John Danaher",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Listing inspected: John Danaher attribution, exact title, limitations lesson and control/finishing topics verified. Official sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Listing inspected: John Danaher attribution, exact title, limitations lesson and control/finishing topics verified. Official sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       }
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/570b8d9b-f781-4267-9dcc-133834580372?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/cee79c48-bf98-488d-848b-3e0aa245e65a?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — John Danaher / Back Attacks Enter The System",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Back Attacks Enter The System by John Danaher",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

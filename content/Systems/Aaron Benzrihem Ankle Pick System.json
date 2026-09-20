@@ -84,7 +84,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four parts on ankle-pick setups and finishes across standing and guard positions.",
-      "best_for": "Grapplers building an ankle-pick attack across several starting positions."
+      "best_for": "Grapplers building an ankle-pick attack across several starting positions.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/AaronBenzrihem_AnklePicksForJiu-Jitsu_CoverFRONT.jpg?v=1762462000"
     }
   ],
   "guide": {
@@ -113,8 +114,8 @@
         "url": "https://bjjfanatics.com/products/basics-to-advanced-ankle-picks-for-jiu-jitsu-by-aaron-benzrihem",
         "title": "Basics To Advanced: Ankle Picks For Jiu Jitsu by Aaron Benzrihem",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Listing inspected: Aaron Benzrihem, exact title, four-part structure, starting contexts and comparison lesson verified. Sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Listing inspected: Aaron Benzrihem, exact title, four-part structure, starting contexts and comparison lesson verified. Sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -127,15 +128,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/6dc631f6-7fa8-4008-8229-bda9d1d173eb?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/3b34bdae-6c79-44fe-86b3-9384d914a8ec?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Aaron Benzrihem / Basics To Advanced: Ankle Picks For Jiu Jitsu",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Basics To Advanced: Ankle Picks For Jiu Jitsu by Aaron Benzrihem",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

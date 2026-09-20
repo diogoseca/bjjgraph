@@ -172,7 +172,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eight volumes connecting wrestling, scrambles, back attacks and submissions.",
-      "best_for": "Submission grapplers looking to connect their wrestling and ground offense."
+      "best_for": "Submission grapplers looking to connect their wrestling and ground offense.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/GarryTonon_ShootToKillWrestle_Scramble_Submit_FRONTCover1.jpg?v=1762459421"
     }
   ],
   "guide": {
@@ -203,8 +204,8 @@
         "url": "https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon",
         "title": "Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Official listing inspected: Garry Tonon attribution, exact title and wrestling, leg-entry, upper-body and scramble sections verified. Public sample content not reviewed. The official page embeds the selected sample under “Ashi Otoshi”; its video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Official listing inspected: Garry Tonon attribution, exact title and wrestling, leg-entry, upper-body and scramble sections verified. Public sample content not reviewed. The official page embeds an additional sample under “Ashi Otoshi”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "comparison",
@@ -216,14 +217,16 @@
       }
     ],
     "preview": {
-      "provider": "youtube",
-      "embed_url": "https://www.youtube.com/embed/z4ooLe74j0I?autoplay=0",
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c11bc1b3-715e-4589-b1d4-7310ee05d867?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "course",
-      "title": "Official sample — Garry Tonon / Shoot To Kill: Wrestle, Scramble, Submit",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
     },
     "alternatives": [
       {

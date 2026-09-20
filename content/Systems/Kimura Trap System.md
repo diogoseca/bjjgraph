@@ -7,6 +7,7 @@ description: "John Danaher’s eight-volume kimura course covers dorsal and T ki
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Kimura — Enter The System","description":"John Danaher’s eight-volume kimura course covers dorsal and T kimuras, defensive grip problems and applications from top, bottom and standing."}
 </script>
@@ -19,8 +20,18 @@ description: "John Danaher’s eight-volume kimura course covers dorsal and T ki
 <p class="system-reference-count">15 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Kimura: Enter The System by John Danaher" data-system-preview data-system-key="Kimura Trap System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/cfffef3c-14e7-474b-ae73-cc3b7e381292?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Kimura: Enter The System by John Danaher">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/JohnDanaher_KimuraEnterTheSystem_FRONTCover1.jpg?v=1762458439" alt="Kimura: Enter The System course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Kimura: Enter The System</h2><span class="system-course__instructor">By John Danaher</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Kimura: Enter The System</h2><p class="system-course__instructor">By John Danaher</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ Kimura: Enter The System treats the kimura as an attack with several possible ou
 Applications extend from side control and half guard to turtle, standing takedowns and scrambles. The course is especially relevant to grapplers who want back-taking and submission connections around the kimura as well as the direct finish.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Kimura Trap System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/0bda12ef-75ce-4bf2-9ee5-faf562111c34?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Kimura: Enter The System">
-<h2>Official sample</h2>
-<p>Official sample — John Danaher / Kimura: Enter The System</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Kimura: Enter The System · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -79,6 +76,7 @@ Applications extend from side control and half guard to turtle, standing takedow
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Kimura: Enter The System</a>
 </section>
 
@@ -143,10 +141,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/kimura-trap-system" data-product-id="danaher-kimura" target="_blank" rel="noopener">Kimura: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing.</p>
+<p><a href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/kimura-trap-system" data-product-id="danaher-kimura" target="_blank" rel="noopener">Kimura: Enter The System by John Danaher</a> — official listing; checked 2026-09-19. Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

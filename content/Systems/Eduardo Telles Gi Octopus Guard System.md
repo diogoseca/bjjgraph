@@ -7,6 +7,7 @@ description: "A compact gi octopus course with sleeve entries, sweep variations 
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Eduardo Telles: Octopus Guard in the Gi","description":"A compact gi octopus course with sleeve entries, sweep variations and counters."}
 </script>
@@ -19,8 +20,18 @@ description: "A compact gi octopus course with sleeve entries, sweep variations 
 <p class="system-reference-count">6 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Octopus With Pajamas by Eduardo Telles" data-system-preview data-system-key="Eduardo Telles Gi Octopus Guard System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/25fcc7bb-a36c-486e-a7c4-12390924c982?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Octopus With Pajamas by Eduardo Telles">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/files/EduardoTelles_OctopuswithPajamas_CoverFRONT.jpg?v=1762465351" alt="Octopus With Pajamas course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-course-url="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-product-id="octopus-with-pajamas-by-eduardo-telles" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-system-name="Eduardo Telles Gi Octopus Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Octopus With Pajamas</h2><span class="system-course__instructor">By Eduardo Telles</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Octopus With Pajamas</h2><p class="system-course__instructor">By Eduardo Telles</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-course-url="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-product-id="octopus-with-pajamas-by-eduardo-telles" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-system-name="Eduardo Telles Gi Octopus Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "A compact gi octopus course with sleeve entries, sweep variations 
 Octopus With Pajamas presents Eduardo Telles’s gi approach in one volume. Sweeps and back takes recur across several starting guards, including a closed-guard sleeve entry. The course also covers counters using kata gatame and Ezekiel before closing with reverse-half options.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Eduardo Telles Gi Octopus Guard System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/2b1e1176-7135-469e-a934-c702c20d6808?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Eduardo Telles / Octopus With Pajamas">
-<h2>Official sample</h2>
-<p>Official sample — Eduardo Telles / Octopus With Pajamas</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-course-url="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-product-id="octopus-with-pajamas-by-eduardo-telles" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-system-name="Eduardo Telles Gi Octopus Guard System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Octopus With Pajamas · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -77,6 +74,7 @@ Octopus With Pajamas presents Eduardo Telles’s gi approach in one volume. Swee
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-course-url="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-product-id="octopus-with-pajamas-by-eduardo-telles" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-system-name="Eduardo Telles Gi Octopus Guard System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Octopus With Pajamas</a>
 </section>
 
@@ -114,10 +112,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-source-url="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-affiliate="false" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-product-id="telles-octopus-listing" target="_blank" rel="noopener">Octopus With Pajamas by Eduardo Telles</a> — official listing; checked 2026-09-16. Listing inspected: instructor, gi focus, single-volume outline, sleeve and reverse-half entries, lesson labels/times and official free-sample iframe. Sample content not reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-source-url="https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles" data-affiliate="false" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-product-id="telles-octopus-listing" target="_blank" rel="noopener">Octopus With Pajamas by Eduardo Telles</a> — official listing; checked 2026-09-19. Listing inspected: instructor, gi focus, single-volume outline, sleeve and reverse-half entries, lesson labels/times and official free-sample iframe. Sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

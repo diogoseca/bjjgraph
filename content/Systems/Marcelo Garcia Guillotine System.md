@@ -7,6 +7,7 @@ description: "Marcelo Garcia’s guillotine course includes takedown counters, g
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Marcelo Garcia: The Marcelotine","description":"Marcelo Garcia’s guillotine course includes takedown counters, guard attacks, passing-position entries and recovery when an opponent passes."}
 </script>
@@ -19,8 +20,18 @@ description: "Marcelo Garcia’s guillotine course includes takedown counters, g
 <p class="system-reference-count">20 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — The Marcelotine by Marcelo Garcia" data-system-preview data-system-key="Marcelo Garcia Guillotine System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/52ba90d5-0f63-4b72-8830-cc67e22d5225?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — The Marcelotine by Marcelo Garcia">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/MarceloGarcia_TheMarcelotine_CoverFRONT.jpg?v=1762462041" alt="The Marcelotine course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Marcelotine</h2><span class="system-course__instructor">By Marcelo Garcia</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>The Marcelotine</h2><p class="system-course__instructor">By Marcelo Garcia</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ The Marcelotine concentrates on Marcelo Garcia’s guillotine attacks, including
 Other sections address guillotines from guard, against sit-up guard and from side control or mount. This is a focused submission course for grapplers who want the guillotine to connect their standing and ground attacks.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Marcelo Garcia Guillotine System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/2b169d64-978b-476e-84ef-ee4a9f31dfa6?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Marcelo Garcia / The Marcelotine">
-<h2>Official sample</h2>
-<p>Official sample — Marcelo Garcia / The Marcelotine</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Marcelotine · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -79,6 +76,7 @@ Other sections address guillotines from guard, against sit-up guard and from sid
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Marcelotine</a>
 </section>
 
@@ -158,10 +156,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-guillotine-system" data-product-id="marcelotine" target="_blank" rel="noopener">The Marcelotine by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline organized around standing, grounded, guard and passing positions, with recovery against passing defenses.</p>
+<p><a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-guillotine-system" data-product-id="marcelotine" target="_blank" rel="noopener">The Marcelotine by Marcelo Garcia</a> — official listing; checked 2026-09-19. Verified title, instructor and four-volume outline organized around standing, grounded, guard and passing positions, with recovery against passing defenses. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

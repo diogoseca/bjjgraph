@@ -7,6 +7,7 @@ description: "Josh McKinney’s Champions Stay Present addresses nerves, focus, 
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Champions Stay Present: Competition Mindset","description":"Josh McKinney’s Champions Stay Present addresses nerves, focus, competition preparation and performance review."}
 </script>
@@ -19,8 +20,18 @@ description: "Josh McKinney’s Champions Stay Present addresses nerves, focus, 
 <p class="system-reference-count">5 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Champions Stay Present by Josh McKinney" data-system-preview data-system-key="Mental Game Framework" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/7999e60d-db80-4381-ab28-6296ebb1f72b?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Champions Stay Present by Josh McKinney">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/files/ChampionsStayPresentbyJoshMcKinneyFront.jpg?v=1762467723" alt="Champions Stay Present course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-course-url="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-product-id="mckinney-champions-stay-present" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Champions Stay Present</h2><span class="system-course__instructor">By Josh McKinney</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Champions Stay Present</h2><p class="system-course__instructor">By Josh McKinney</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-course-url="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-product-id="mckinney-champions-stay-present" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ Champions Stay Present is Josh McKinney’s course on the mental side of BJJ com
 Its six volumes span goals and training camp, over-training, competitors’ perspectives, competition day and post-event analysis. The emphasis is on the competitor’s attention and preparation, making it a different purchase from a technical course on positions or submissions.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Mental Game Framework" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/fc474ada-42ac-44f5-9c0b-04325c7642ee?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official trailer — Josh McKinney / Champions Stay Present">
-<h2>Official trailer</h2>
-<p>Official trailer — Josh McKinney / Champions Stay Present</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the trailer on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-course-url="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-product-id="mckinney-champions-stay-present" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Champions Stay Present · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -81,6 +78,7 @@ Its six volumes span goals and training camp, over-training, competitors’ pers
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-course-url="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-product-id="mckinney-champions-stay-present" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Champions Stay Present</a>
 </section>
 
@@ -115,10 +113,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-source-url="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-affiliate="false" data-system-slug="systems/mental-game-framework" data-product-id="mckinney-present" target="_blank" rel="noopener">Champions Stay Present by Josh McKinney</a> — official listing; checked 2026-09-16. Verified title, instructor and six-volume outline, including goal setting, training camp, competition day and post-competition analysis. The embedded promotional video is labeled a trailer.</p>
+<p><a href="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-source-url="https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney" data-affiliate="false" data-system-slug="systems/mental-game-framework" data-product-id="mckinney-present" target="_blank" rel="noopener">Champions Stay Present by Josh McKinney</a> — official listing; checked 2026-09-19. Verified title, instructor and six-volume outline, including goal setting, training camp, competition day and post-competition analysis. The embedded promotional video is labeled a trailer. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 </details>

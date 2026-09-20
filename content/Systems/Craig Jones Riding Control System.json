@@ -90,7 +90,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Six volumes on leg rides, upper-body control, turtle riding and attacks from top.",
       "best_for": "Grapplers interested in riding and pinning across several top positions.",
-      "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones"
+      "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones",
+      "image": "https://bjjfanatics.com/cdn/shop/products/CraigJones_PowerRide-ANewPhilosophyonPinning_CoverFRONT.jpg?v=1762462065"
     }
   ],
   "guide": {
@@ -119,8 +120,8 @@
         "url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones",
         "title": "Power Ride: A New Philosophy on Pinning by Craig Jones",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, Craig Jones attribution and six-volume outline separating leg control, upper-body tools, turtle, entries and submissions. Official page labels an embedded free sample; sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Craig Jones attribution and six-volume outline separating leg control, upper-body tools, turtle, entries and submissions. Official page labels an embedded free sample; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "ryan-mount",
@@ -133,15 +134,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/7e803878-bff1-4dff-b09b-6a97989480d5?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/e741d56d-76b1-41df-b113-1e8428c4129b?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "jones-power-ride",
-      "title": "Official sample — Craig Jones / Power Ride: A New Philosophy on Pinning",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Power Ride: A New Philosophy on Pinning by Craig Jones",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

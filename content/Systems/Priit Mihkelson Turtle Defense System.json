@@ -82,7 +82,8 @@
       "link_checked": "2026-09-16",
       "blurb": "A four-volume turtle course covering posture, attacking threats and exits to guard or standing.",
       "best_for": "Grapplers who regularly reach turtle and want both defensive options and exits.",
-      "course_url": "https://bjjfanatics.com/products/protecting-generating-dynamic-offense-from-the-turtle-by-priit-mihkelson"
+      "course_url": "https://bjjfanatics.com/products/protecting-generating-dynamic-offense-from-the-turtle-by-priit-mihkelson",
+      "image": "https://bjjfanatics.com/cdn/shop/products/Protecting_GeneratingDynamicOffenseFromTheTurtlebyPriitMihkelson_FRONTCover.jpg?v=1762458686"
     }
   ],
   "guide": {
@@ -111,8 +112,8 @@
         "url": "https://bjjfanatics.com/products/protecting-generating-dynamic-offense-from-the-turtle-by-priit-mihkelson",
         "title": "Protecting & Generating Dynamic Offense From The Turtle by Priit Mihkelson",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified Priit Mihkelson as instructor, four volumes, and the published posture, threat-response and exit lesson titles and times. These times refer to the course volumes. The official page labels its preview as a trailer; video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified Priit Mihkelson as instructor, four volumes, and the published posture, threat-response and exit lesson titles and times. These times refer to the course volumes. The official page labels its preview as a trailer; video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "glick-listing",
@@ -125,11 +126,11 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0d5be7b3-02ae-488b-b3c2-786fd416adf2?autoplay=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0d5be7b3-02ae-488b-b3c2-786fd416adf2?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "priit-listing",
-      "title": "Official trailer — Priit Mihkelson / Protecting & Generating Dynamic Offense From The Turtle",
+      "title": "Official course introduction — Protecting & Generating Dynamic Offense From The Turtle by Priit Mihkelson",
       "kind": "trailer",
-      "checked_on": "2026-09-16",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
         "https://bjjgraph.org",

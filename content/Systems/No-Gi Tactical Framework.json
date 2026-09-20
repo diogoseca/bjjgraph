@@ -198,21 +198,20 @@
         "url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones",
         "title": "Power Ride: A New Philosophy on Pinning by Craig Jones",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and six-volume outline covering leg control, upper-body tools, turtle control, entries and submissions. The page labels a free sample; only the page and outline were inspected."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and six-volume outline covering leg control, upper-body tools, turtle control, entries and submissions. The page labels a free sample; only the page and outline were inspected. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       }
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/7e803878-bff1-4dff-b09b-6a97989480d5?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/e741d56d-76b1-41df-b113-1e8428c4129b?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "jones-power-ride",
-      "title": "Official sample — Craig Jones / Power Ride: A New Philosophy on Pinning",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Power Ride: A New Philosophy on Pinning by Craig Jones",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -232,7 +231,8 @@
       "link_checked": "2026-09-16",
       "blurb": "A six-volume pinning course combining leg rides, upper-body control, turtle breakdowns and submissions.",
       "best_for": "No-gi grapplers who can reach top position and want to keep opponents there.",
-      "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones"
+      "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones",
+      "image": "https://bjjfanatics.com/cdn/shop/products/CraigJones_PowerRide-ANewPhilosophyonPinning_CoverFRONT.jpg?v=1762462065"
     }
   ]
 }

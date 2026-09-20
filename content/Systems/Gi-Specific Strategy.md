@@ -7,6 +7,7 @@ description: "The Roger Gracie Closed Guard System covers guard maintenance, col
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Roger Gracie’s Closed Guard","description":"The Roger Gracie Closed Guard System covers guard maintenance, collar and lapel attacks, arm attacks and sweeps in the gi."}
 </script>
@@ -19,8 +20,18 @@ description: "The Roger Gracie Closed Guard System covers guard maintenance, col
 <p class="system-reference-count">14 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — The Roger Gracie Closed Guard System by Roger Gracie" data-system-preview data-system-key="Gi-Specific Strategy" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/ad589909-1002-408f-a4ce-614010042f44?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — The Roger Gracie Closed Guard System by Roger Gracie">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/RogerGracie_ClosedGuardSystem_FrontCover.jpg?v=1762460177" alt="The Roger Gracie Closed Guard System course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-course-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Roger Gracie Closed Guard System</h2><span class="system-course__instructor">By Roger Gracie</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>The Roger Gracie Closed Guard System</h2><p class="system-course__instructor">By Roger Gracie</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-course-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ The Roger Gracie Closed Guard System is a focused gi course on maintaining close
 The sweep material includes scissor and hook sweeps, attacks against an opponent with both knees down and omoplata sweeps. This is a choice for someone who wants more from closed guard; it does not attempt to cover every gi guard or the whole standing and passing game.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Gi-Specific Strategy" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/77c53d6a-78b9-4e54-9754-160d7504c485?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Roger Gracie / The Roger Gracie Closed Guard System">
-<h2>Official sample</h2>
-<p>Official sample — Roger Gracie / The Roger Gracie Closed Guard System</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-course-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Roger Gracie Closed Guard System · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -82,6 +79,7 @@ The sweep material includes scissor and hook sweeps, attacks against an opponent
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-course-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Roger Gracie Closed Guard System</a>
 </section>
 
@@ -143,10 +141,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-source-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-affiliate="false" data-system-slug="systems/gi-specific-strategy" data-product-id="roger-closed-guard" target="_blank" rel="noopener">The Roger Gracie Closed Guard System by Roger Gracie</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline: closed-guard maintenance, collar and lapel attacks, arm attacks and sweeps. The page labels a free sample; its video content has not been reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-source-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-affiliate="false" data-system-slug="systems/gi-specific-strategy" data-product-id="roger-closed-guard" target="_blank" rel="noopener">The Roger Gracie Closed Guard System by Roger Gracie</a> — official listing; checked 2026-09-19. Verified title, instructor and four-volume outline: closed-guard maintenance, collar and lapel attacks, arm attacks and sweeps. The page labels a free sample; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

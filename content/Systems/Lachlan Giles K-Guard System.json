@@ -92,8 +92,8 @@
         "url": "https://bjjfanatics.com/products/no-gi-open-guard-volume-1-k-guard-by-lachlan-giles",
         "title": "No Gi Open Guard Volume 1: K Guard by Lachlan Giles",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified eight player volumes within this titled release, positional overview, posture-specific entries, offense and troubleshooting. Only unambiguous timestamps used. Listing and official sample iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified eight player volumes within this titled release, positional overview, posture-specific entries, offense and troubleshooting. Only unambiguous timestamps used. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "giles-tabak-retention-listing",
@@ -106,15 +106,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/1728a3b4-d8cb-4dc8-ba46-c79213329baa?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/3eb178da-cda1-4d02-a51a-9c4ad06bf40b?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "giles-kguard-listing",
-      "title": "Official sample — Lachlan Giles / No Gi Open Guard Volume 1: K Guard",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — No Gi Open Guard Volume 1: K Guard by Lachlan Giles",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -134,7 +133,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Eight parts covering open-guard context, K-guard entries, offense and troubleshooting.",
-      "best_for": "You want a detailed no-gi K-guard course with entries, leg entanglements and offensive follow-ups."
+      "best_for": "You want a detailed no-gi K-guard course with entries, leg entanglements and offensive follow-ups.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/LachlanGiles_KGUARD_Coverfront.jpg?v=1762460572"
     }
   ],
   "flashcards": []

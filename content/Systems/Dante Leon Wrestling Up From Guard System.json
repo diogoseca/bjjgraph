@@ -92,8 +92,8 @@
         "url": "https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon",
         "title": "Wrestling Up From Guard by Dante Leon",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified distance-management lesson and three volumes covering X/De La Riva, reverse De La Riva and butterfly starts. Listing and official sample iframe inspected; player content and playback not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified distance-management lesson and three volumes covering X/De La Riva, reverse De La Riva and butterfly starts. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "leon-rdlr-listing",
@@ -106,15 +106,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/8de85d9b-4dee-4338-983d-64715767cfc7?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/361fd58d-ea46-41dd-9750-f6b0dcdd7afd?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "leon-wrestling-listing",
-      "title": "Official sample — Dante Leon / Wrestling Up From Guard",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Wrestling Up From Guard by Dante Leon",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
@@ -134,7 +133,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Three volumes on coming up from guard, including distance management and opponent responses.",
-      "best_for": "You want to attack by coming up from guard, with options from several starting positions."
+      "best_for": "You want to attack by coming up from guard, with options from several starting positions.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/DanteLeon_WrestlingUpFromGuard_Coverfront.jpg?v=1762460541"
     }
   ],
   "flashcards": []

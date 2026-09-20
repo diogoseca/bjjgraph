@@ -1,7 +1,7 @@
 /* The System reader owns these styles; pane, footer and graph geometry stay shared. */
 .ng-system-detail {
   display: block;
-  margin: 8px 3px 20px;
+  margin: 8px 3px 16px;
   padding: 0 10px;
   overflow-wrap: anywhere;
   hyphens: none;
@@ -33,7 +33,6 @@
   display: grid;
   gap: 9px;
 }
-.ng-system-eyebrow { margin: 0; font-size: 11px; line-height: 1.4; color: #b7adc9; }
 .ng-system-course-title {
   color: #ece4ff;
   font: 600 18px/1.35 "Space Grotesk", sans-serif;
@@ -59,13 +58,11 @@
   hyphens: none;
 }
 .ng-system-cta:hover { background: #dfd0ff; border-color: #dfd0ff; }
-.ng-system-courses[data-course-placement="preview"] { margin: -8px 3px 25px; }
-.ng-system-courses[data-course-placement="preview"] .ng-system-cta {
-  padding: 8px 0; border: 0; border-radius: 0; background: transparent; color: #d6c5ff;
-  text-align: left; text-decoration: underline; text-underline-offset: 4px;
-}
+/* One prominent link below the intro; a quiet reminder after the guide. */
 .ng-system-courses[data-course-placement="conclusion"] { margin-top: 5px; margin-bottom: 30px; }
-.ng-system-disclosure { margin: 0; color: #c2b9d1; font-size: 11px; line-height: 1.6; }
+.ng-system-courses[data-course-placement="conclusion"] .ng-system-cta {
+  background: transparent; border-color: #514466; color: #d6c5ff;
+}
 .ng-system-overview {
   margin: 0 3px 25px;
   padding: 18px 10px 0;
@@ -93,12 +90,22 @@
 .ng-system-guide li::marker { color: #9c89c0; }
 .ng-system-guide a { color: #cdbcfa; text-decoration: underline; text-underline-offset: 3px; }
 .ng-system-guide button { margin: 8px 0; padding: 10px 12px; font: inherit; color: #eef1f6; background: #26334b; border: 1px solid #7384a4; border-radius: 6px; cursor: pointer; }
-.ng-system-player-wrap { border-radius: 9px; overflow: hidden; background: #11101b; }
-.ng-system-player-wrap iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; }
-[data-system-preview-fallback] { padding-top: 12px; border-top: 1px solid #302e41; }
-[data-system-preview-fallback] h3 { font-size: 14px; margin-bottom: 5px; }
-[data-system-preview-fallback] p { margin: 0 0 8px; }
-[data-system-preview-fallback] .ng-system-courses { margin: 0; padding: 0; }
+.ng-system-media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 0 13px 18px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #11101b;
+}
+.ng-system-cover {
+  height: 100%; display: flex; align-items: center; justify-content: center;
+  color: #b7c0d2; font-size: 12px;
+}
+.ng-system-cover[hidden], .ng-system-player-wrap[hidden] { display: none; }
+.ng-system-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.ng-system-player-wrap { position: absolute; inset: 0; }
+.ng-system-player-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
 [data-system-alternatives] { padding-top: 18px; border-top: 1px solid #302e41; }
 [data-system-alternatives] h3 { font-size: 15px; }
 [data-system-alternatives] > a, [data-system-references] > a { font-weight: 600; }
@@ -113,7 +120,6 @@
   hyphens: none;
 }
 .ng-system-sources p { margin: 0 0 10px; }
-.ng-system-sources summary { cursor: pointer; padding: 8px 0; color: #d4c6ef; font-size: 12px; }
 .ng-system-sources a { color: #c0b5d6; text-decoration: underline; text-underline-offset: 3px; }
 [data-system-source] { padding: 15px 0 4px; }
 [data-system-source] + [data-system-source] { border-top: 1px solid #302e41; }
@@ -192,6 +198,9 @@
   hyphens: none;
 }
 .ng-system-sources summary {
+  cursor: pointer;
+  color: #d4c6ef;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -89,7 +89,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Three volumes of gi half-guard passes, counters and submissions across coyote, single-leg half and deep half.",
       "best_for": "Gi passers seeking several ways to deal with active half-guard players.",
-      "course_url": "https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri"
+      "course_url": "https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri",
+      "image": "https://bjjfanatics.com/cdn/shop/products/PreciseHalfGuardPassingbyLucasLepri_FRONTCover.jpg?v=1762459867"
     }
   ],
   "guide": {
@@ -119,8 +120,8 @@
         "url": "https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri",
         "title": "Precise Half Guard Passing by Lucas Lepri",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "lepri-knee-cut",
@@ -141,15 +142,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/1e4b83ea-9ce6-4932-996b-3326ded42238?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/47403da6-1f12-4890-8a31-215afcf3323f?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "lepri-half-guard",
-      "title": "Official sample — Lucas Lepri / Precise Half Guard Passing",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Precise Half Guard Passing by Lucas Lepri",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [

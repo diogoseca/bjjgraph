@@ -7,6 +7,7 @@ description: "Jason Rau’s ankle-lock course includes seated and kneeling finis
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Jason Rau: Dynamic Ankle Locks","description":"Jason Rau’s ankle-lock course includes seated and kneeling finishes, Aoki locks, heel hooks and routes to the back."}
 </script>
@@ -19,8 +20,18 @@ description: "Jason Rau’s ankle-lock course includes seated and kneeling finis
 <p class="system-reference-count">8 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Dynamic Ankle Locks by Jason Rau" data-system-preview data-system-key="Jason Rau Ankle Lock System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/f67ac1b9-2411-40c0-a082-5f16d3f0ba7b?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Dynamic Ankle Locks by Jason Rau">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/files/JasonRau_DynamicAnkleLocks_CoverFRONT.jpg?v=1762466069" alt="Dynamic Ankle Locks course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-course-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-product-id="dynamic-ankle-locks-by-jason-rau" data-system-slug="systems/jason-rau-ankle-lock-system" data-system-name="Jason Rau Ankle Lock System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Dynamic Ankle Locks</h2><span class="system-course__instructor">By Jason Rau</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Dynamic Ankle Locks</h2><p class="system-course__instructor">By Jason Rau</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-course-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-product-id="dynamic-ankle-locks-by-jason-rau" data-system-slug="systems/jason-rau-ankle-lock-system" data-system-name="Jason Rau Ankle Lock System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -30,20 +41,6 @@ Jason Rau starts Dynamic Ankle Locks with grips, leg positions and finishing mec
 The final volume covers alternatives when the ankle lock fails, including heel hooks, a bear trap and back takes. The course centers on the ankle lock while carrying the attack into other outcomes.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Jason Rau Ankle Lock System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/235333b7-8542-4846-b54b-83726ffe04e4?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Jason Rau / Dynamic Ankle Locks">
-<h2>Official sample</h2>
-<p>Official sample — Jason Rau / Dynamic Ankle Locks</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-course-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-product-id="dynamic-ankle-locks-by-jason-rau" data-system-slug="systems/jason-rau-ankle-lock-system" data-system-name="Jason Rau Ankle Lock System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Dynamic Ankle Locks · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -79,6 +76,7 @@ The final volume covers alternatives when the ankle lock fails, including heel h
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-course-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-product-id="dynamic-ankle-locks-by-jason-rau" data-system-slug="systems/jason-rau-ankle-lock-system" data-system-name="Jason Rau Ankle Lock System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Dynamic Ankle Locks</a>
 </section>
 
@@ -122,10 +120,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-source-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-affiliate="false" data-system-slug="systems/jason-rau-ankle-lock-system" data-product-id="rau-ankles" target="_blank" rel="noopener">Dynamic Ankle Locks by Jason Rau</a> — official listing; checked 2026-09-16. Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives.</p>
+<p><a href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-source-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-affiliate="false" data-system-slug="systems/jason-rau-ankle-lock-system" data-product-id="rau-ankles" target="_blank" rel="noopener">Dynamic Ankle Locks by Jason Rau</a> — official listing; checked 2026-09-19. Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

@@ -7,6 +7,7 @@ description: "IBJJF membership, division, uniform and rules requirements that sh
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"IBJJF Competition Requirements","description":"IBJJF membership, division, uniform and rules requirements that shape tournament participation."}
 </script>
@@ -19,6 +20,7 @@ description: "IBJJF membership, division, uniform and rules requirements that sh
 <p class="system-reference-count">20 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 An IBJJF entry depends on more than a preferred weight class. Membership must reflect the athlete’s current belt and academy, and the event defines its available age and belt divisions. Published weight limits include the competition uniform.
@@ -26,7 +28,6 @@ An IBJJF entry depends on more than a preferred weight class. Membership must re
 Age, belt and gi/no-gi format also matter to technique restrictions. Uniform inspection and the rules on lack of combativeness remain relevant regardless of a competitor’s intended style. The event page supplies its correction deadlines, weight chart and schedule; those details are not universal across tournaments.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

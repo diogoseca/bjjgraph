@@ -7,6 +7,7 @@ description: "How IBJJF rules distinguish escaping a submission from earning pos
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Defensive Priorities Under IBJJF Rules","description":"How IBJJF rules distinguish escaping a submission from earning positional points, including verbal submission and stabilization requirements."}
 </script>
@@ -19,12 +20,12 @@ description: "How IBJJF rules distinguish escaping a submission from earning pos
 <p class="system-reference-count">11 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 A better position does not necessarily mean a submission has ended. Under IBJJF Article 3.3, an athlete who reaches a scoring position while caught in a submission must escape the attack and stabilize the position for three seconds before receiving points. This distinction matters when a positional gain happens during an ongoing hold. Submission can also be verbal: Article 2.1 recognizes a request to stop the match.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

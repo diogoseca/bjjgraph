@@ -7,6 +7,7 @@ description: "Mikey Musumeci’s Berimbolo foundation course develops stacking, 
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Mikey Musumeci: Berimbolo Variations","description":"Mikey Musumeci’s Berimbolo foundation course develops stacking, pulling, twister-hook, uninverting and top-bolo variations."}
 </script>
@@ -19,8 +20,18 @@ description: "Mikey Musumeci’s Berimbolo foundation course develops stacking, 
 <p class="system-reference-count">13 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — The Berimbolo System Part 1: The Foundation by Mikey Musumeci" data-system-preview data-system-key="Mikey Musumeci Berimbolo System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/1a20ddd1-0165-462b-b493-102b5f32fcf3?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — The Berimbolo System Part 1: The Foundation by Mikey Musumeci">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/MikeyMusumeci_TheBerimboloSystem_FRONTCover1.jpg?v=1762459799" alt="The Berimbolo System Part 1: The Foundation course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-course-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Berimbolo System Part 1: The Foundation</h2><span class="system-course__instructor">By Mikey Musumeci</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>The Berimbolo System Part 1: The Foundation</h2><p class="system-course__instructor">By Mikey Musumeci</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-course-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "Mikey Musumeci’s Berimbolo foundation course develops stacking, 
 The Berimbolo System Part 1: The Foundation develops the basic inversion into several ways of advancing position. Mikey Musumeci covers stacking and pulling variations, twister hooks, uninverting and top-bolo situations. This guide emphasizes those variations for someone interested in what follows the initial berimbolo entry.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Mikey Musumeci Berimbolo System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/922f0a04-4b6e-43fb-9cec-ef466bb9cf1c?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Mikey Musumeci / The Berimbolo System Part 1: The Foundation">
-<h2>Official sample</h2>
-<p>Official sample — Mikey Musumeci / The Berimbolo System Part 1: The Foundation</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-course-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Berimbolo System Part 1: The Foundation · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -79,6 +76,7 @@ The Berimbolo System Part 1: The Foundation develops the basic inversion into se
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-course-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Berimbolo System Part 1: The Foundation</a>
 </section>
 
@@ -137,10 +135,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-source-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-affiliate="false" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-product-id="course" target="_blank" rel="noopener">The Berimbolo System Part 1: The Foundation by Mikey Musumeci</a> — official listing; checked 2026-09-16. Verified exact Part 1 title, Mikey Musumeci attribution, stacking/pulling organization and combination lesson. Branch names are advertised coverage, not independently inspected mechanics. The official page embeds the selected sample under “Basic Berimbolo Only Leg Drills”; its video content has not been reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-source-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-affiliate="false" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-product-id="course" target="_blank" rel="noopener">The Berimbolo System Part 1: The Foundation by Mikey Musumeci</a> — official listing; checked 2026-09-19. Verified exact Part 1 title, Mikey Musumeci attribution, stacking/pulling organization and combination lesson. Branch names are advertised coverage, not independently inspected mechanics. The official page embeds an additional sample under “Basic Berimbolo Only Leg Drills”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 </details>

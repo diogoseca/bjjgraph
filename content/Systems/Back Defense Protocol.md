@@ -7,6 +7,7 @@ description: "Brian Glick's Only Way Out: Dynamic Back Escapes covers hand fight
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Brian Glick: Dynamic Back Escapes","description":"Brian Glick's Only Way Out: Dynamic Back Escapes covers hand fighting, hooks, body triangles and strangle defense from rear control."}
 </script>
@@ -19,8 +20,18 @@ description: "Brian Glick's Only Way Out: Dynamic Back Escapes covers hand fight
 <p class="system-reference-count">14 related references (techniques and positions)</p>
 </header>
 
+
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Only Way Out: Dynamic Back Escapes by Brian Glick" data-system-preview data-system-key="Back Defense Protocol" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/77947440-8986-4d69-91f7-e90ba6804292?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Only Way Out: Dynamic Back Escapes by Brian Glick">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/files/Brian_Glick_Dynamic_Back_Escapes_Cover_FRONT.jpg?v=1762467061" alt="Only Way Out: Dynamic Back Escapes course cover" decoding="async" fetchpriority="high">
+</div>
+</section>
+
+
 <section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
-<a class="system-course__link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-course-url="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Only Way Out: Dynamic Back Escapes</h2><span class="system-course__instructor">By Brian Glick</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+<div class="system-course__identity"><h2>Only Way Out: Dynamic Back Escapes</h2><p class="system-course__instructor">By Brian Glick</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-course-url="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
 </section>
 
 <section id="overview" class="system-overview">
@@ -28,20 +39,6 @@ description: "Brian Glick's Only Way Out: Dynamic Back Escapes covers hand fight
 Brian Glick devotes this seven-volume course to the problems that arise once an opponent controls your back. It combines defensive hand fighting with escapes from either side and from the body triangle, including routes to closed guard, half guard and ashi garami. Separate material addresses crucifix control, standing back control and strangle defenses at different stages.
 
 </section>
-
-
-<section id="official-preview" class="system-preview" data-system-preview data-system-key="Back Defense Protocol" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/cf8327f2-3c87-48d1-b3a8-4a6ab0c31e83?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Only Way Out: Dynamic Back Escapes by Brian Glick">
-<h2>Official sample</h2>
-<p>Official sample — Only Way Out: Dynamic Back Escapes by Brian Glick</p>
-<div id="system-preview-player" data-preview-player data-persist></div>
-<p data-preview-fallback>Watch the sample on the official page.</p>
-</section>
-
-<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
-<a class="system-course__link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-course-url="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Only Way Out: Dynamic Back Escapes · View course</a>
-</section>
-
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">
@@ -79,6 +76,7 @@ Brian Glick devotes this seven-volume course to the problems that arise once an 
 
 
 <section class="system-course system-course--end" data-course-container data-course-placement="end">
+
 <a class="system-course__link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-course-url="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Only Way Out: Dynamic Back Escapes</a>
 </section>
 
@@ -140,10 +138,10 @@ These related references are not a claim about what the course teaches or eviden
 <section id="sources" class="system-sources">
 <details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
 <p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
-<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
 <section class="system-source" data-source-container>
-<p><a href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-source-url="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-affiliate="false" data-system-slug="systems/back-defense-protocol" data-product-id="glick-listing" target="_blank" rel="noopener">Only Way Out: Dynamic Back Escapes by Brian Glick</a> — official listing; checked 2026-09-16. Verified Brian Glick as instructor, the seven-volume outline, the hand-fighting start time and the distinct rear-control and strangle-defense sections. The page explicitly embeds a free sample; video content has not been reviewed.</p>
+<p><a href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-source-url="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick" data-affiliate="false" data-system-slug="systems/back-defense-protocol" data-product-id="glick-listing" target="_blank" rel="noopener">Only Way Out: Dynamic Back Escapes by Brian Glick</a> — official listing; checked 2026-09-19. Verified Brian Glick as instructor, the seven-volume outline, the hand-fighting start time and the distinct rear-control and strangle-defense sections. The page explicitly embeds a free sample; video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
 <section class="system-source" data-source-container>

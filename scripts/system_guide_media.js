@@ -1,19 +1,7 @@
-// Official samples mount immediately on verified origins; video never autoplays.
-// One shared controller survives Quartz's repeated module evaluation during navigation.
+import { ngSystemPreviewURL, ngMountSystemPreview } from "./system-preview.js"
+
+// One controller owns the visible static guide across Quartz navigation.
 const controllerKey = '__bjjStaticSystemPreview'
-function validPlayer(section) {
-  try {
-    const url = new URL(section.dataset.embedUrl)
-    if (url.protocol !== 'https:' || url.username || url.password || url.hash) return null
-    if (!JSON.parse(section.dataset.verifiedOrigins).includes(location.origin)) return null
-    if (section.dataset.provider === 'bunny') {
-      if (url.host !== 'iframe.mediadelivery.net' || !/^\/embed\/\d+\/[a-f0-9-]{36}$/i.test(url.pathname) || url.searchParams.get('autoplay') !== 'false' || url.searchParams.get('preload') !== 'false') return null
-    } else if (section.dataset.provider === 'youtube') {
-      if (!['www.youtube.com', 'www.youtube-nocookie.com'].includes(url.host) || !/^\/embed\/[\w-]{11}$/.test(url.pathname) || url.searchParams.get('autoplay') !== '0') return null
-    } else return null
-    return url.href
-  } catch { return null }
-}
 if (!window[controllerKey]) {
   let active = null
   let suspended = false
@@ -27,7 +15,7 @@ if (!window[controllerKey]) {
   })
   function stop() {
     if (!active) return
-    active.frame.remove()
+    active.handle.destroy()
     if (active.fallback) active.fallback.hidden = false
     active = null
   }
@@ -39,32 +27,35 @@ if (!window[controllerKey]) {
     for (const section of sections) {
       if (!watched.has(section)) { watched.add(section); visibility.observe(section) }
     }
-    const section = sections.find(el => el.getClientRects().length)
-    const url = section && validPlayer(section)
+    const section = !document.hidden && sections.find(el => el.getClientRects().length)
+    const preview = section && { provider: section.dataset.provider, embed_url: section.dataset.embedUrl, title: section.dataset.previewTitle }
+    const url = preview && ngSystemPreviewURL(preview)
     const target = section && section.querySelector('[data-preview-player]')
     const fallback = section && section.querySelector('[data-preview-fallback]')
     if (!url || !target) { stop(); return }
     const key = section.dataset.systemKey || location.pathname
-    if (active && active.key === key && active.url === url) {
-      if (active.frame.parentNode !== target) {
+    if (active && active.key === key && active.url === url && (active.frame.isConnected || active.target === target)) {
+      if (active.failed) return
+      if (active.frame.isConnected && active.frame.parentNode !== target) {
         if (target.moveBefore && active.frame.isConnected) target.moveBefore(active.frame, null)
         else target.appendChild(active.frame)
       }
-      if (fallback) fallback.hidden = true
+      if (fallback) fallback.hidden = active.ready
       active.fallback = fallback
+      active.target = target
       return
     }
     stop()
-    const frame = document.createElement('iframe')
-    frame.title = section.dataset.previewTitle || 'Official course sample'
-    frame.referrerPolicy = 'strict-origin-when-cross-origin'
-    frame.allow = 'fullscreen; picture-in-picture; encrypted-media'
-    frame.allowFullscreen = true
-    frame.style.cssText = 'width:100%;aspect-ratio:16/9;border:0;pointer-events:auto'
-    frame.src = url
-    target.appendChild(frame)
-    if (fallback) fallback.hidden = true
-    active = { key, url, frame, fallback, path: location.pathname }
+    const state = { key, url, target, fallback, ready: false, failed: false }
+    const handle = ngMountSystemPreview(target, preview, {
+      onReady() { state.ready = true; if (state.fallback) state.fallback.hidden = true },
+      onError() { state.failed = true; if (state.fallback) state.fallback.hidden = false; target.hidden = true },
+    })
+    if (!handle) return
+    target.hidden = false
+    // Keep callbacks and reconciliation on the same state object.
+    Object.assign(state, { frame: handle.frame, handle })
+    active = state
   }
   function init() {
     currentPath = location.pathname
@@ -81,6 +72,7 @@ if (!window[controllerKey]) {
   document.addEventListener('nav', init)
   window.addEventListener('pagehide', pause)
   window.addEventListener('pageshow', init)
+  document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); else init() })
   window.addEventListener('popstate', () => {
     if (currentPath !== location.pathname) pause()
   })

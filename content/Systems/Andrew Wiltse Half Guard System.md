@@ -7,6 +7,7 @@ description: "A short explanation of half-to-closed-guard recovery based on Step
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Half Guard: Recovering Closed Guard","description":"A short explanation of half-to-closed-guard recovery based on Stephan Kesting’s public article."}
 </script>
@@ -19,12 +20,12 @@ description: "A short explanation of half-to-closed-guard recovery based on Step
 <p class="system-reference-count">18 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Half guard offers sweeps and submissions, but an opponent may shut down those attacks. Stephan Kesting’s article on returning to closed guard presents changing position as a useful response. It describes a butterfly-hook recovery demonstrated by Roberto “Gordo” Correia, making recovery part of the half-guard discussion rather than treating another attack as the only answer.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

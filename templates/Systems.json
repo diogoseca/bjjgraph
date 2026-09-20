@@ -427,7 +427,9 @@
           },
           "image": {
             "type": "string",
-            "description": "Cover image URL"
+            "format": "uri",
+            "pattern": "^https://[^\\s]+$",
+            "description": "Verified cover image from this exact official product listing; shown while its intro loads or when no intro is available."
           },
           "blurb": {
             "type": "string",
@@ -597,6 +599,7 @@
         },
         "preview": {
           "type": "object",
+          "description": "Exact official product introduction, preferably its primary trailer. Preserve the published embed URL; renderers apply muted autoplay and inline controls. Omit when no exact intro is available and use the verified product cover instead.",
           "additionalProperties": false,
           "properties": {
             "provider": {
@@ -634,6 +637,7 @@
             },
             "playback_verified_on": {
               "type": "array",
+              "description": "Historical playback audit evidence only. An empty array does not prevent embedding a valid official player.",
               "uniqueItems": true,
               "items": {
                 "type": "string",

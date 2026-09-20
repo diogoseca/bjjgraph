@@ -93,8 +93,8 @@
         "url": "https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria",
         "title": "Omoplata Everyone by Bernardo Faria",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option."
+        "checked_on": "2026-09-19",
+        "note": "Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "bravo-rubber",
@@ -110,7 +110,19 @@
         "system": "Rubber Guard to Omoplata System",
         "reason": "Eddie Bravo’s broader rubber-guard course includes a specifically named omoplata route."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/7d82a108-5452-4d05-b1f5-87004e9ab414?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "faria-omoplata",
+      "title": "Official course introduction — Omoplata Everyone by Bernardo Faria",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    }
   },
   "products": [
     {
@@ -122,7 +134,8 @@
       "link_status": "live",
       "link_checked": "2026-09-16",
       "blurb": "Four volumes of omoplata entries, defensive reactions and positional alternatives, with several gi-grip setups.",
-      "best_for": "Gi players who want answers to standing, rolling and hand-connection defenses."
+      "best_for": "Gi players who want answers to standing, rolling and hand-connection defenses.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/OmoplataEveryonebyBernardoFaria_FRONTCover_1.jpg?v=1762457828"
     }
   ]
 }

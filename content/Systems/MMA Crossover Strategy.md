@@ -7,6 +7,7 @@ description: "How the cited ABC MMA rules treat positional offense, grounded-fig
 
 
 
+
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Grappling Under MMA Rules","description":"How the cited ABC MMA rules treat positional offense, grounded-fighter status and contact with the fence."}
 </script>
@@ -19,6 +20,7 @@ description: "How the cited ABC MMA rules treat positional offense, grounded-fig
 <p class="system-reference-count">22 related references (techniques and positions)</p>
 </header>
 
+
 <section id="overview" class="system-overview">
 
 Holding a dominant grappling position does not by itself establish dominance in the ABC’s July 2025 judging clarification. Its distinction is between simply occupying the position and offensive work that continually forces an opponent to defend potentially fight-ending attacks.
@@ -26,7 +28,6 @@ Holding a dominant grappling position does not by itself establish dominance in 
 The Unified Rules also distinguish placing a hand on the fence from grabbing it, and define when a fighter counts as grounded for the prohibition on knees and kicks to the head. These rules explain part of the difference between sport-BJJ positions and their MMA context; they do not teach the physical adaptations.
 
 </section>
-
 
 <span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
 <section id="fit" class="system-section">

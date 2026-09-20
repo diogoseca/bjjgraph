@@ -179,7 +179,8 @@
       "link_checked": "2026-09-16",
       "blurb": "Wrestling defense from the initial shot through established leg grips and upper-body ties.",
       "best_for": "Grapplers developing takedown defense and responses to wrestling control ties.",
-      "course_url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez"
+      "course_url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez",
+      "image": "https://bjjfanatics.com/cdn/shop/files/1_5_5520d7f3-ef9c-4485-846d-a9820905a5a3.png?v=1762465349"
     }
   ],
   "guide": {
@@ -208,8 +209,8 @@
         "url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez",
         "title": "Wrestling Takedown Defense For Grappling by Alex Enriquez",
         "kind": "official_listing",
-        "checked_on": "2026-09-16",
-        "note": "Verified Alex Enriquez as instructor and the published stance, leg-attack and tie-clearing topics. The page explicitly embeds a free sample; video content has not been reviewed."
+        "checked_on": "2026-09-19",
+        "note": "Verified Alex Enriquez as instructor and the published stance, leg-attack and tie-clearing topics. The page explicitly embeds a free sample; video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
       },
       {
         "id": "danaher-listing",
@@ -222,15 +223,14 @@
     ],
     "preview": {
       "provider": "bunny",
-      "embed_url": "https://iframe.mediadelivery.net/embed/596460/adac62c9-a256-4624-a0d7-4c1eb3af82f1?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/e265af58-dd03-4164-bc4f-84e122ddff98?autoplay=false&muted=false&preload=true&responsive=true",
       "source_id": "enriquez-listing",
-      "title": "Official sample — Wrestling Takedown Defense For Grappling by Alex Enriquez",
-      "kind": "sample",
-      "checked_on": "2026-09-16",
+      "title": "Official course introduction — Wrestling Takedown Defense For Grappling by Alex Enriquez",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://bjjgraph.org",
-        "https://dev.bjjgraph.pages.dev"
+        "https://bjjgraph.org"
       ]
     },
     "alternatives": [
