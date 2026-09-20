@@ -124,6 +124,7 @@ def xml_date_proofs(tree, other_feed_path=None):
         assert (not remaining) == want, (name, differences)
         claims += 1
         print('PASS XML', name, 'allowed' if want else 'REJECTED')
+        return differences
     stamp = re.search(rb'<lastmod>([^<]+)</lastmod>', sitemap).group(1)
     check('sitemap value', sitemap.replace(stamp, b'2026-09-21T01:02:03.004Z'), 'sitemap.xml', sitemap, True)
     for label, replacement in [('empty', b''), ('malformed', b'never'), ('invalid calendar', b'2026-02-30T01:02:03.004Z')]:
@@ -131,6 +132,12 @@ def xml_date_proofs(tree, other_feed_path=None):
     check('sitemap missing date', re.sub(rb'<lastmod>[^<]+</lastmod>', b'', sitemap, count=1), 'sitemap.xml', sitemap, False)
     check('sitemap unrelated URL', sitemap.replace(b'/Learning</loc>', b'/MISSING</loc>', 1), 'sitemap.xml', sitemap, False)
     check('sitemap dropped URL', re.sub(rb'<url>.*?</url>', b'', sitemap, count=1, flags=re.S), 'sitemap.xml', sitemap, False)
+    blocks = list(re.finditer(rb'<url>.*?</url>', sitemap, re.S))
+    a, b = blocks[:2]
+    reordered = sitemap[:a.start()] + b.group() + sitemap[a.end():b.start()] + a.group() + sitemap[b.end():]
+    order_rows = check('sitemap order stays strict beside allowed dates',
+                       reordered.replace(stamp, b'2026-09-21T01:02:03.004Z'), 'sitemap.xml', sitemap, False)
+    assert any(r[1] == 'order_sha' for r in order_rows), order_rows
     check('RSS pubDate only', feed.replace(b'Sun, 20 Sep 2026', b'Mon, 21 Sep 2026'), 'index.xml', feed, True)
     check('RSS independent checkout selection' if other_feed_path else 'RSS eligible selection fixture', other_feed, 'index.xml', feed, True)
     for label, raw in [
@@ -161,6 +168,20 @@ def xml_date_proofs(tree, other_feed_path=None):
     allow=Allow(rules)
     assert any(not allow.suppress('index.xml',r[1],r[2],r[3]) for r in differences)
     claims+=1; print('PASS XML RSS missing cross-artifact context REJECTED')
+    from emit_fingerprint import fingerprint_json
+    index_raw = (tree/'static/contentIndex.json').read_bytes()
+    index_data = json.loads(index_raw)
+    reordered_index = json.dumps(dict(reversed(list(index_data.items()))),
+                                 ensure_ascii=False, separators=(',', ':')).encode()
+    def index_record(raw):
+        return {'cls': 'json_semantic', 'sha': sha(raw), 'size': len(raw),
+                'fp': fingerprint_json(raw, 'static/contentIndex.json')}
+    gi, ci = index_record(index_raw), index_record(reordered_index)
+    assert gi['fp']['canon_sha'] == ci['fp']['canon_sha'] and gi['sha'] != ci['sha']
+    differences = diff_record('static/contentIndex.json', gi, ci)
+    allow = Allow(rules)
+    assert any(not allow.suppress('static/contentIndex.json',r[1],r[2],r[3]) for r in differences)
+    claims+=1; print('PASS contentIndex key order REJECTED independently of RSS')
     # Existing manifests with old Head value proofs must no longer activate the fallback.
     from emit_fingerprint import fingerprint_html, html_value_proofs
     page=(tree/'Positions/Mount.html').read_bytes()

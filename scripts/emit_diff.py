@@ -95,7 +95,11 @@ report prints their counts and links. B's deterministic-date ContentIndex fixtur
 must gate selection/sort; a normalized whole-emit green does not cover those branches.
 No dates, RSS content or footer bytes are normalized without an explicit --allow.
 Re-fingerprint both trees with the current extractor for these proofs; old manifests
-remain strict. Pinned by seam_golden_selftest.py --values --xml-dates (11 + 28 proofs).
+remain strict. Pinned by seam_golden_selftest.py --values --xml-dates (11 + 30 proofs),
+including independent sitemap-order and contentIndex-key-order rejection. Neither
+ordering inherits the RSS selection allowance. B's replacement selection gate is
+tests/emitter_filesystem.test.mjs, added in b97c1bda4: ordered ten links, two tie
+pairs, four mutant kills and the explicitly recorded positive-comparator non-kill.
 """
 
 from __future__ import annotations
