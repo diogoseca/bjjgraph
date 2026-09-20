@@ -1931,9 +1931,22 @@ test("emit ledger: attribution partitions the output, under the real concurrent 
   const base = tmp("bjj-ledger-")
   const root = path.join(base, "work")
   const output = path.join(root, "out")
-  fs.mkdirSync(path.join(root, "quartz", "static", "sub"), { recursive: true })
+  fs.mkdirSync(path.join(root, "quartz", "static", "payload"), { recursive: true })
   fs.writeFileSync(path.join(root, "quartz", "static", "a.txt"), "a")
-  fs.writeFileSync(path.join(root, "quartz", "static", "sub", "b.txt"), "b")
+  fs.writeFileSync(path.join(root, "quartz", "static", "payload", "b.txt"), "b")
+  // WHAT THIS FIXTURE MUST CONTAIN FOR THE GLOB-ONLY MUTANT TO BE ABLE TO DIE — do not trim it.
+  // Static COPIES with fs.cp and REPORTS with a filtered glob, and the whole point of the seam is
+  // that those are different sets: 9 reported against 4,952 copied in production. A fixture whose
+  // glob returns everything cannot distinguish "claim what you copied" from "claim what you
+  // reported", so the mutant dies for the wrong reason or not at all. These .json files are what
+  // the glob misses — `**/!(bjj-graph).json` in the real ignorePatterns removes them, exactly as
+  // it removes the 4,943-file neural payload in production.
+  //
+  // Measured before adding them: with only a.txt and payload/b.txt the glob returned BOTH, and
+  // the glob-only mutant SURVIVED. An earlier run appeared to kill it — that was a false kill
+  // caused by a previous mutant surviving its own revert.
+  fs.writeFileSync(path.join(root, "quartz", "static", "payload", "big.json"), '{"generated":1}')
+  fs.writeFileSync(path.join(root, "quartz", "static", "payload", "more.json"), '{"generated":2}')
   // A minimal graph with a positive entry count: loadGraphData also throws on zero coverage, so
   // an empty object would fail for a second, different reason.
   fs.writeFileSync(
