@@ -4,6 +4,7 @@
   python3 scripts/emit_mutation_test.py --capture-driver
   python3 scripts/emit_mutation_test.py --app-assets
   python3 scripts/emit_mutation_test.py --date-cardinality
+  python3 scripts/emit_mutation_test.py --phantom-controls
 
 The capture-driver suite uses tiny local command fixtures, never npm/network or a
 site build. It pins supplied step order/cwd, fail-fast execution, positive output,
@@ -24,6 +25,12 @@ two files and no deferred asset yet; fixtures exercise those absent branches.
 The date-cardinality suite pins retirement of BOTH exact timestamp counts without
 forgiving missing meta tags or changes to unrelated fields. It does not assert date
 spread or validate git provenance; that remains an explicit X-01 integration gap.
+
+The phantom-controls suite runs the real JS/TS gate's selftest from isolated module
+copies. It kills empty, duplicated and token-remapped parser results. Exact counts
+and exact specifiers supplement positive execution; quoted structural siblings and
+a malformed-quote fixture pin the token path. No product source is changed or
+reverted; its SHA-256 is asserted unchanged in finally (COORDINATION 7I/7K).
 """
 import copy
 import argparse
@@ -35,6 +42,52 @@ import shutil
 import subprocess
 import sys
 import tempfile
+
+
+def phantom_controls_suite():
+    source = Path(__file__).resolve().with_name('check_phantom_imports.mjs')
+    before = source.read_bytes()
+    before_sha = hashlib.sha256(before).hexdigest()
+    original = before.decode()
+    root = source.parent.parent
+    # Relocate only dependency resolution for the isolated copy; parser/assertions
+    # remain the actual implementation. Every replacement must hit exactly once.
+    def change(text, needle, replacement):
+        assert text.count(needle) == 1, ('mutant anchor count', needle, text.count(needle))
+        return text.replace(needle, replacement)
+    code = change(original,
+                  "const toolRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');",
+                  'const toolRoot = ' + json.dumps(str(root)) + ';')
+    code = change(code, "createRequire(new URL('../source/package.json', import.meta.url))",
+                  "createRequire(path.join(toolRoot, 'source/package.json'))")
+    cases = [
+        ('clean', code, 0, None),
+        ('matches-nothing', change(code, 'return rows;', 'return [];'), 2, 'zero import specifiers'),
+        ('matches-too-much', change(code, 'return rows;', 'return rows.concat(rows);'),
+         2, 'exact specifier count'),
+        ('wrong-token', change(code, 'if (ts.isStringLiteralLike(n)) return n.text;',
+                              'if (ts.isStringLiteralLike(n)) return n.text.replace("preact", "@scope/pkg");'),
+         2, 'exact specifier identity'),
+    ]
+    try:
+        with tempfile.TemporaryDirectory(prefix='v-phantom-controls-') as tmp:
+            for name, text, want, reason in cases:
+                module = Path(tmp) / (name + '.mjs')
+                module.write_text(text)
+                proc = subprocess.run(['node', str(module), '--selftest'],
+                                      capture_output=True, text=True, timeout=30)
+                assert proc.returncode == want, (name, proc.returncode, want, proc.stdout, proc.stderr)
+                if reason:
+                    assert reason in proc.stderr, (name, 'wrong failure', proc.stderr)
+                else:
+                    clean_stdout = proc.stdout
+                print(f'PASS phantom control {name}: exit={proc.returncode}')
+            assert 'quoted structural siblings' in clean_stdout, clean_stdout
+            assert 'malformed quoted import is not absence' in clean_stdout, clean_stdout
+        print('PASS coverage: 4 phantom CLI controls, 3/3 parser mutants killed; no site build')
+    finally:
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == before_sha, 'phantom source changed during mutant run'
+        print('PASS phantom source SHA-256 unchanged; source reverts=0')
 
 
 def app_assets_suite():
@@ -237,12 +290,15 @@ if __name__ == '__main__':
     ap.add_argument('--capture-driver', action='store_true')
     ap.add_argument('--app-assets', action='store_true')
     ap.add_argument('--date-cardinality', action='store_true')
+    ap.add_argument('--phantom-controls', action='store_true')
     args = ap.parse_args()
-    if not (args.capture_driver or args.app_assets or args.date_cardinality):
-        ap.error('select --capture-driver, --app-assets or --date-cardinality; no empty test run')
+    if not (args.capture_driver or args.app_assets or args.date_cardinality or args.phantom_controls):
+        ap.error('select --capture-driver, --app-assets, --date-cardinality or --phantom-controls; no empty test run')
     if args.capture_driver:
         capture_driver_suite()
     if args.app_assets:
         app_assets_suite()
     if args.date_cardinality:
         date_cardinality_suite()
+    if args.phantom_controls:
+        phantom_controls_suite()
