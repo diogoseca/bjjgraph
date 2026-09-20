@@ -54,13 +54,32 @@ FILES=(
   "Positions/Mount/Top.html"
 )
 
+# M11-M13 mutate COMPONENT SOURCE rather than emitted artifacts, because their subject is an
+# option branch that emits NOTHING today - there is no artifact to patch. Same backup/restore
+# discipline, same BAKDIR, same trap. (These files are a FROZEN surface: a mutation that escapes
+# the trap is a real edit to a frozen file, so the restore covers them before any mutant runs.)
+SRC_FILES=(
+  "source/quartz/components/TableOfContents.tsx"
+  "source/quartz/components/Footer.tsx"
+  "source/quartz/components/pages/TagContent.tsx"
+)
+OPT_SPEC=tests/presentation_option_branches.test.mjs
+
 BAKDIR=$(mktemp -d "$TMPDIR/presentation-mutants.XXXXXX")
+for f in "${SRC_FILES[@]}"; do
+  [ -f "$f" ] || { echo "FATAL: $f missing" >&2; exit 2; }
+  mkdir -p "$BAKDIR/src/$(dirname "$f")"
+  cp "$f" "$BAKDIR/src/$f"
+done
 for f in "${FILES[@]}"; do
   [ -f "$SITE_DIR/$f" ] || { echo "FATAL: $SITE_DIR/$f missing" >&2; exit 2; }
   mkdir -p "$BAKDIR/$(dirname "$f")"
   cp "$SITE_DIR/$f" "$BAKDIR/$f"
 done
-restore() { for f in "${FILES[@]}"; do cp "$BAKDIR/$f" "$SITE_DIR/$f"; done; }
+restore() {
+  for f in "${FILES[@]}"; do cp "$BAKDIR/$f" "$SITE_DIR/$f"; done
+  for f in "${SRC_FILES[@]}"; do cp "$BAKDIR/src/$f" "$f"; done
+}
 trap 'restore; rm -rf "$BAKDIR"' EXIT INT TERM
 
 APPLIED=0
@@ -126,6 +145,33 @@ PY
   else
     FAILURES=$((FAILURES + 1))
     echo "  [GREEN] $id — $verdict   <<< MUTANT SURVIVED OR MIS-DISCRIMINATED"
+  fi
+  restore
+}
+
+# run_node <mutant-id> <expect-red-test-name-substring>
+#   The option-branch fixture is `node --test`, not Playwright, so it needs its own reader.
+#   Same contract as run(): the NAMED test must fail, and the suite must actually have run.
+run_node() {
+  local id="$1" red="$2"
+  if [ -n "${ONLY:-}" ] && ! echo "$id" | grep -qE "^(${ONLY})$"; then
+    restore; echo "  [skip ] $id (ONLY=${ONLY})"; return
+  fi
+  local out="$TMPDIR/mut-$id.txt"
+  node --test "$OPT_SPEC" >"$out" 2>&1 || true
+  APPLIED=$((APPLIED + 1))
+  local verdict
+  if ! grep -q "^# fail " "$out"; then
+    verdict="BAD the suite did not run at all (no TAP summary)"
+  elif grep -qE "^not ok [0-9]+ - .*${red}" "$out"; then
+    verdict="OK the named test went red"
+  else
+    verdict="BAD SURVIVED: no test matching /${red}/ failed"
+  fi
+  if [[ "$verdict" == OK* ]]; then
+    KILLS=$((KILLS + 1)); echo "  [RED  ] $id - $verdict"
+  else
+    FAILURES=$((FAILURES + 1)); echo "  [GREEN] $id - $verdict   <<< MUTANT SURVIVED"
   fi
   restore
 }
@@ -296,7 +342,43 @@ PY
 run M10 "$NAV_SPEC" 'category nav is emitted' 'carries all six|every category link resolves|still in the HTML'
 
 echo
+# ===========================================================================================
+# OPTION BRANCHES (M11-M13). Subject: tests/presentation_option_branches.test.mjs. These mutate
+# the component's own option handling - the thing no emitted byte can witness, which is why the
+# fixture is the ONLY possible gate there (D-51 rule 2).
+# ===========================================================================================
+
+echo "-- M11: TableOfContents ignores layout and always returns the modern component --"
+python3 - source/quartz/components/TableOfContents.tsx <<'MUTM11'
+import sys
+p=sys.argv[1]; s=open(p,encoding="utf8").read()
+old='return layout === "modern" ? TableOfContents : LegacyTableOfContents'
+assert old in s, "M11 anchor missing"
+open(p,"w",encoding="utf8").write(s.replace(old,'return TableOfContents'))
+MUTM11
+run_node M11 "TableOfContents layout"
+
+echo "-- M12: Footer ignores its links map --"
+python3 - source/quartz/components/Footer.tsx <<'MUTM12'
+import sys
+p=sys.argv[1]; s=open(p,encoding="utf8").read()
+old='const links = opts?.links ?? {}'
+assert old in s, "M12 anchor missing"
+open(p,"w",encoding="utf8").write(s.replace(old,'const links = {}'))
+MUTM12
+run_node M12 "Footer renders its links map"
+
+echo "-- M13: TagContent ignores opts so numPages is stuck at the default --"
+python3 - source/quartz/components/pages/TagContent.tsx <<'MUTM13'
+import sys
+p=sys.argv[1]; s=open(p,encoding="utf8").read()
+old='const options: TagContentOptions = { ...defaultOptions, ...opts }'
+assert old in s, "M13 anchor missing"
+open(p,"w",encoding="utf8").write(s.replace(old,'const options: TagContentOptions = { ...defaultOptions }'))
+MUTM13
+run_node M13 "TagContent numPages limits"
+
 echo "── ${APPLIED} mutants applied · ${KILLS} killed with the right discrimination · ${FAILURES} bad ──"
-if [ -z "${ONLY:-}" ]; then [ "$APPLIED" -eq 10 ] || { echo "EXPECTED 10 MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }; else echo "   (filtered run: ONLY=${ONLY} — this is NOT a ten-of-ten claim)"; fi
+if [ -z "${ONLY:-}" ]; then [ "$APPLIED" -eq 13 ] || { echo "EXPECTED 13 MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }; else echo "   (filtered run: ONLY=${ONLY} — this is NOT a ten-of-ten claim)"; fi
 [ "$FAILURES" -eq 0 ] || exit 1
 echo "── tree restored ──"
