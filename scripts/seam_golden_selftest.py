@@ -6,6 +6,7 @@ These tests do not render a second implementation. They mutate actual emitted by
 They do not cover browser behavior, the complete corpus, or keyed deploy behavior.
 """
 import argparse
+import copy
 import json
 from pathlib import Path
 import subprocess
@@ -67,16 +68,49 @@ def value_proofs(tree):
     print(f'PASS coverage: {len(cases)} value-normalization proofs; presence, format and unrelated bytes remain pinned')
 
 
+def emit_record_proofs():
+    from seam_golden import envelope, encoded, load_record
+    base = envelope('emit', 'Assets', {'emitter': 'Assets', 'files': {}, 'returned_paths': []},
+                    {'files': 0, 'returned_paths': 0, 'seeded_files': 0, 'parity_files': 0, 'emitter_runs': 1},
+                    {'empty_output': {'reason': 'no eligible fixture input', 'evidence': 'fixture discovery'},
+                     'corpus': {'discovered_all': 8}, 'seeded_regions': []})
+    cases = [('completed empty emitter observation', base, True)]
+    for name, mutate in [
+        ('emitter never ran', lambda r: r['coverage'].update(emitter_runs=0)),
+        ('empty output undeclared', lambda r: r['provenance'].pop('empty_output')),
+        ('zero discovered input corpus', lambda r: r['provenance']['corpus'].update(discovered_all=0)),
+        ('invented positive file count', lambda r: r['coverage'].update(files=1)),
+        ('return count mismatch', lambda r: r['coverage'].update(returned_paths=1)),
+        ('unmatched seeded declaration', lambda r: r['provenance'].update(seeded_regions=[{
+            'path': 'static/neural/', 'files': 1, 'reason': 'fixture', 'evidence': 'fixture'}])),
+    ]:
+        r = copy.deepcopy(base); mutate(r); cases.append((name, r, False))
+    with tempfile.TemporaryDirectory(prefix='emit-record-proof-') as d:
+        path = Path(d) / 'record.json'
+        for name, record, want in cases:
+            path.write_bytes(encoded(record))
+            try:
+                load_record(path); valid = True
+            except (ValueError, KeyError, TypeError):
+                valid = False
+            assert valid == want, (name, valid, want)
+            print(f'PASS {name}: record valid={valid}')
+    print(f'PASS coverage: {len(cases)} emitter-record instrument assertions; zero files never means positive file parity')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--tree', type=Path, required=True)
     ap.add_argument('--seeded', action='store_true')
     ap.add_argument('--values', action='store_true')
+    ap.add_argument('--emit', action='store_true')
     args = ap.parse_args()
     if args.seeded:
         seeded_region_proofs()
     if args.values:
         value_proofs(args.tree)
+    if args.emit:
+        emit_record_proofs()
     runner = Path(__file__).with_name('seam_golden.py')
     page = 'Positions/Mount.html'
     raw = (args.tree / page).read_bytes()

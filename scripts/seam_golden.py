@@ -27,6 +27,11 @@ secret-bearing deploy not represented by the golden. AST equality does not prove
 render equality. Keyless build0 cannot prove keyed PostHog/affiliate behavior.
 An emit manifest sees output bytes, not which source operation produced them.
 Use emit_diff.py for the complete file set; keep browser and keyed-environment gates.
+An explicitly completed empty emitter observation may pass with files=0 ONLY when
+emitter_runs=1, discovered input coverage is positive, and emptiness has a reason
+and evidence. This is evidence of observed emptiness, not of an unexercised output
+branch. Never-ran, undeclared emptiness and inconsistent counts remain exit 2.
+Pinned by seam_golden_selftest.py --emit (D-65).
 """
 from __future__ import annotations
 
@@ -97,6 +102,42 @@ def write_record(path, record):
         f.write(raw)
 
 
+def validate_emit_record(record):
+    data, counts, provenance = record['data'], record['coverage'], record.get('provenance', {})
+    files, returned = data.get('files'), data.get('returned_paths')
+    if data.get('emitter') != record['key'] or not isinstance(files, dict) or not isinstance(returned, list):
+        raise ValueError('invalid emitter identity/file inventory/return list')
+    for name, item in files.items():
+        relative_path(name)
+        if not isinstance(item, dict) or type(item.get('size')) is not int or item['size'] < 0 or not re.fullmatch('[0-9a-f]{64}', str(item.get('sha256', ''))):
+            raise ValueError(f'{name}: invalid filesystem size/hash')
+    for name in returned:
+        relative_path(name)
+    for name in ('files', 'returned_paths', 'seeded_files', 'parity_files', 'emitter_runs'):
+        if type(counts.get(name)) is not int or counts[name] < 0:
+            raise ValueError(f'{name}: missing/noninteger emitter coverage')
+    if counts['emitter_runs'] != 1 or counts['files'] != len(files) or counts['returned_paths'] != len(returned):
+        raise ValueError('emitter execution or inventory count mismatch')
+    regions = provenance.get('seeded_regions')
+    if not isinstance(regions, list):
+        raise ValueError('seeded_regions must be an explicit list')
+    seeded = set()
+    for region in regions:
+        prefix = region.get('path', '')
+        relative_path(prefix.rstrip('/'))
+        matched = {p for p in files if p.startswith(prefix) if prefix.endswith('/')} if prefix.endswith('/') else ({prefix} & files.keys())
+        if not region.get('reason') or not region.get('evidence') or not matched or type(region.get('files')) is not int or region['files'] != len(matched):
+            raise ValueError(f'{prefix}: seeded declaration must count this output record')
+        seeded.update(matched)
+    if counts['seeded_files'] != len(seeded) or counts['parity_files'] != len(files) - len(seeded):
+        raise ValueError('seeded/parity coverage mismatch')
+    if not files:
+        empty = provenance.get('empty_output', {})
+        discovered = provenance.get('corpus', {}).get('discovered_all', 0)
+        if returned or not empty.get('reason') or not empty.get('evidence') or type(discovered) is not int or discovered < 1:
+            raise ValueError('empty emitter needs completed execution, reason/evidence and positive discovered corpus')
+
+
 def load_record(path):
     raw = path.read_bytes()
     record = json.loads(gzip.decompress(raw) if raw.startswith(b'\x1f\x8b') else raw)
@@ -104,9 +145,11 @@ def load_record(path):
         raise ValueError(f'{path}: invalid golden schema')
     if record.get('seam') not in ('render', 'parse', 'transform', 'emit', 'post-process'):
         raise ValueError(f'{path}: unknown seam')
-    if not record.get('key') or not record.get('data') or not record.get('coverage'):
+    if not record.get('key') or not isinstance(record.get('data'), dict) or not record['data'] or not isinstance(record.get('coverage'), dict) or not record['coverage']:
         raise ValueError(f'{path}: empty golden data/coverage')
-    if record['coverage'].get('files', 0) < 1:
+    if record['seam'] == 'emit':
+        validate_emit_record(record)
+    elif type(record['coverage'].get('files')) is not int or record['coverage']['files'] < 1:
         raise ValueError(f'{path}: zero golden file coverage')
     if record.get('data_sha256') != sha(encoded(record['data'])):
         raise ValueError(f'{path}: golden data digest mismatch')
