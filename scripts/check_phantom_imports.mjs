@@ -29,7 +29,7 @@
 import assert from 'node:assert/strict';
 import { builtinModules, createRequire } from 'node:module';
 import { execFileSync } from 'node:child_process';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
@@ -56,6 +56,24 @@ function parse(file, text) {
     ts.forEachChild(n, collect);
   }
   collect(ast);
+  // Resolve imported literal constants (e.g. the incumbent bootstrap's cacheFile)
+  // from source text, without executing or consulting node_modules.
+  for (const n of ast.statements) {
+    if (!ts.isImportDeclaration(n) || !n.moduleSpecifier.text.startsWith('.') || !n.importClause?.namedBindings || !ts.isNamedImports(n.importClause.namedBindings)) continue;
+    const stem = path.resolve(path.dirname(file), n.moduleSpecifier.text);
+    const target = [stem, stem + '.ts', stem + '.js', path.join(stem, 'index.ts')].find(p => existsSync(p) && statSync(p).isFile());
+    if (!target) continue;
+    const other = ts.createSourceFile(target, readFileSync(target, 'utf8'), ts.ScriptTarget.Latest, true);
+    for (const s of other.statements) {
+      if (!ts.isVariableStatement(s) || !s.modifiers?.some(m => m.kind === ts.SyntaxKind.ExportKeyword)) continue;
+      for (const d of s.declarationList.declarations) {
+        if (!ts.isIdentifier(d.name) || !d.initializer || !ts.isStringLiteralLike(d.initializer)) continue;
+        for (const binding of n.importClause.namedBindings.elements) {
+          if ((binding.propertyName || binding.name).text === d.name.text) constants.set(binding.name.text, d.initializer);
+        }
+      }
+    }
+  }
 
   function evaluate(n, seen = new Set()) {
     if (!n) return undefined;
@@ -75,6 +93,7 @@ function parse(file, text) {
       if (args.some(a => a === undefined)) return undefined;
       if (name === 'URL') return new URL(...args).href;
       if (name === 'fileURLToPath') return fileURLToPath(args[0]);
+      if (name === 'pathToFileURL') return pathToFileURL(args[0]).href;
       if (name === 'dirname') return path.dirname(args[0]);
       if (name === 'resolve') return path.resolve(...args);
       if (name === 'join') return path.join(...args);
