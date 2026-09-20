@@ -141,9 +141,10 @@ From a strategic standpoint, the 50-50 entry from standing bypasses many traditi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/50-50 Guard]] | 60% |
-| Failure | [[Positions/Standing Position]] | 30% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Open Guard]] | 22% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 50% |
+| Counter | [[Positions/Front Headlock]] | 8% |
 
 
 </section>

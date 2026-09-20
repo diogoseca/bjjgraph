@@ -319,9 +319,11 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 45% |
 | Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
+| Counter | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 12% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 8% |
 
 
 </section>

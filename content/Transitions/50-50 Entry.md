@@ -160,9 +160,12 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
-| Failure | [[Positions/Inverted Guard]] | 25% |
-| Counter | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Inverted Guard]] | 20% |
+| Counter | [[Positions/Side Control]] | 8% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 44% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
+| Failure | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Turtle]] | 6% |
 
 
 </section>

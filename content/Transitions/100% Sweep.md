@@ -160,9 +160,11 @@ This sweep is essential for advanced practitioners developing a sophisticated cl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 50% |
-| Failure | [[Positions/Closed Guard]] | 35% |
+| Success | [[Positions/Mount]] | 40% |
+| Failure | [[Positions/Closed Guard]] | 20% |
 | Counter | [[Positions/Side Control]] | 15% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Open Guard]] | 15% |
 
 
 </section>
