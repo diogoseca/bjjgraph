@@ -16,6 +16,9 @@
  * and import-equals are parsed with TypeScript, not regex. Nonliteral imports are
  * statically evaluated, or explicitly fail. Generated local cache imports are
  * counted and disclosed; their producers are themselves in the scanned source set.
+ * PID/thread-id substitutions use a representative integer only to classify a
+ * generated LOCAL path; arbitrary dynamic package names still fail closed. @types
+ * may justify only imports erased by TypeScript, never emitted runtime imports.
  * Disk resolution is diagnostic ONLY: a disk-resolving undeclared import still fails.
  *
  * Partially pinned - JS/TS only; Python provisioning is F's check_build_chains.py.
@@ -50,6 +53,19 @@ function parse(file, text) {
   if (ast.parseDiagnostics.length) throw new Error(`${file}: JS/TS parse errors=${ast.parseDiagnostics.length}`);
   const constants = new Map();
   const requireBases = new Map([['require', file]]);
+  const integerImports = new Set();
+  for (const n of ast.statements) {
+    if (ts.isImportDeclaration(n) && ['node:worker_threads', 'worker_threads'].includes(n.moduleSpecifier.text) && n.importClause?.namedBindings && ts.isNamedImports(n.importClause.namedBindings)) {
+      for (const b of n.importClause.namedBindings.elements) if ((b.propertyName || b.name).text === 'threadId') integerImports.add(b.name.text);
+    }
+  }
+  const runtimeModules = new Set();
+  const emitted = ts.createSourceFile(file + '.js', ts.transpileModule(text, { compilerOptions: {
+    module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ESNext,
+  }, fileName: file }).outputText, ts.ScriptTarget.Latest, true);
+  for (const n of emitted.statements) {
+    if ((ts.isImportDeclaration(n) || ts.isExportDeclaration(n)) && n.moduleSpecifier) runtimeModules.add(n.moduleSpecifier.text);
+  }
   const rows = [];
   function collect(n) {
     if (ts.isVariableDeclaration(n) && ts.isIdentifier(n.name) && n.initializer) constants.set(n.name.text, n.initializer);
@@ -78,6 +94,9 @@ function parse(file, text) {
   function evaluate(n, seen = new Set()) {
     if (!n) return undefined;
     if (ts.isStringLiteralLike(n)) return n.text;
+    if (ts.isNumericLiteral(n)) return n.text;
+    if (n.getText(ast) === 'process.pid' && !constants.has('process')) return '<integer>';
+    if (ts.isIdentifier(n) && integerImports.has(n.text) && !constants.has(n.text)) return '<integer>';
     if (ts.isIdentifier(n) && constants.has(n.text) && !seen.has(n.text)) {
       return evaluate(constants.get(n.text), new Set([...seen, n.text]));
     }
@@ -125,7 +144,7 @@ function parse(file, text) {
   }
   function visit(n) {
     if (ts.isImportDeclaration(n) || ts.isExportDeclaration(n)) {
-      if (n.moduleSpecifier) add(n, n.moduleSpecifier, 'esm');
+      if (n.moduleSpecifier) add(n, n.moduleSpecifier, runtimeModules.has(n.moduleSpecifier.text) ? 'esm' : 'type');
     } else if (ts.isImportEqualsDeclaration(n) && ts.isExternalModuleReference(n.moduleReference)) {
       add(n, n.moduleReference.expression, 'import-equals');
     } else if (ts.isImportTypeNode(n) && ts.isLiteralTypeNode(n.argument)) {
@@ -165,9 +184,10 @@ function audit(rows, manifests, repoRoot) {
       spec = target.slice(at + marker.length).split(path.sep).join('/');
     }
     const pkg = packageName(spec);
+    if (pkg.includes('<integer>')) { unresolved.push({ ...row, reason: 'runtime integer cannot select a dependency package' }); continue; }
     const typePkg = '@types/' + (pkg.startsWith('@') ? pkg.slice(1).replace('/', '__') : pkg);
     const eligible = manifests.filter(m => issuer === m.file || path.dirname(issuer).startsWith(path.dirname(m.file) + path.sep) || path.dirname(issuer) === path.dirname(m.file));
-    const allowed = eligible.some(m => m.deps.has(pkg) || (row.kind !== 'require' && m.deps.has(typePkg)));
+    const allowed = eligible.some(m => m.deps.has(pkg) || (row.kind === 'type' && m.deps.has(typePkg)));
     if (allowed) { counts.declared++; continue; }
     let onDisk = false;
     try { createRequire(issuer).resolve(spec); onDisk = true; } catch { /* diagnostic only */ }
@@ -196,6 +216,11 @@ function selftest() {
   proof('unknown dynamic fails closed', 'await import(process.env.PACKAGE)', 2);
   proof('type-only phantom', 'import type { X } from "toml"; type Y = import("toml").Y', 1);
   proof('declared type package', 'import type {Root} from "hast"', 0);
+  proof('inferred type-only import', 'import {Root} from "hast"; export const x: Root = {} as Root', 0);
+  proof('runtime import cannot borrow @types', 'import {Root} from "hast"; console.log(Root)', 1);
+  proof('side-effect import cannot borrow @types', 'import "hast"', 1);
+  proof('bounded generated cache path', 'import {threadId} from "node:worker_threads"; await import(`./.quartz-cache/probe-${process.pid}-${threadId}.mjs`)', 0);
+  proof('unknown generated cache path still fails', 'await import(`./.quartz-cache/probe-${process.env.MODULE}.mjs`)', 2);
   proof('require phantom', 'const t = require("toml")', 1);
   proof('explicit createRequire source boundary', 'import {createRequire} from "node:module"; const r=createRequire(new URL("./source/package.json", import.meta.url)); r("preact")', 0, `${base}/tool.mjs`);
   proof('node_modules path is no bypass', 'import "../node_modules/toml/index.js"', 1);

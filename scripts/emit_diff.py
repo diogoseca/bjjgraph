@@ -29,7 +29,10 @@ FEATURE EXERCISE (D-51/D-54)
 ---------------------------
 Before citing a green differ for a feature, measure how many corpus files exercise
 that feature. Zero exercised files means the differ is not evidence; a fixture must
-exercise the missing branch. Reports must carry that measured blind-spot table.
+exercise a branch whose loss is both SILENT and INVISIBLE (D-58). SILENT means the
+build does not fail or warn; INVISIBLE means the artifact differ cannot observe a
+change on the selected corpus. They are separate axes: this tool owns INVISIBLE,
+not build diagnostics. Reports must carry that measured blind-spot table.
 Do not substitute a consumer identifier for evidence of its producer: build0's
 postscript.js has four __SUPABASE_URL references and ZERO window.__SUPABASE_URL
 assignments. Count occurrences, not lines in a minified bundle, and match the
