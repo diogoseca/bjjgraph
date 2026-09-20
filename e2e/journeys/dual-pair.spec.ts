@@ -1,3 +1,27 @@
+// == HARNESS CONSTRAINT: THE FLAT DOCUMENT IS UNREACHABLE THROUGH THIS HARNESS (D-D-05) ==
+//
+// This spec requests 1 route(s) that exist TWICE in the emitted tree - as `X.html` AND as
+// `X/index.html` - and the two are DIFFERENT DOCUMENTS, not copies (different `data-slug`; the
+// folder copy usually lacks `#page-graph-data`).
+//
+//   production   /X -> FLAT      /X/ -> FOLDER                   both 200, NEITHER redirects
+//   serve (here) /X -> FOLDER    /X/ -> FOLDER    /X.html -> 301 to /X -> FOLDER
+//
+// All TEN Playwright configs use `serve`, whose DEFAULT `cleanUrls` 301s the `.html` form (there
+// is no serve.json in this repo). So the FLAT document - the one production serves at the bare,
+// CANONICAL url, and 0 of 4,598 sitemap entries use a trailing slash - CANNOT BE SERVED HERE AT
+// ANY URL FORM. This is not "choose the right form": no form reaches it.
+//
+// SO THE ASSERTIONS BELOW RUN AGAINST THE FOLDER COPY, a strictly degraded clone - 1,506 of 1,518
+// folder copies carry no `#page-graph-data` and pair deltas reach 35,637 bytes. No exposed spec
+// references `#page-graph-data` or `__rollPositions`, so the known-missing block is asserted
+// nowhere; but the documents still differ by 6-25 KB, so anything asserting layout, element counts
+// or positions could move if the resolver changes.
+//
+// Affected route(s) here: /Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard
+// THE FIX IS A RESOLVER CHANGE, NOT A SPEC CHANGE - `scripts/dev-serve.mjs` already implements
+// production's rule exactly. Escalated to quartz-cto. Do NOT "fix" this by adding a trailing
+// slash or a `.html` suffix; both still land on the folder copy.
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
