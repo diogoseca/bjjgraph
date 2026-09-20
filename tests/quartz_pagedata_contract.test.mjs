@@ -72,6 +72,17 @@
 //    So a page can carry perfect `blocks` and emit no transclusion at all, and nothing in stream A
 //    would see it. Covered by B's shard spec, not by this one. Stated rather than left implicit,
 //    because "the inputs are correct" reads like "the output is correct" to anyone in a hurry.
+//
+//    **AND THIS IS NOT AN INHERITED DEFECT — OUR OWN FEATURE MAKES IT REACHABLE.** Verified:
+//    `contentPage.tsx:46-48` builds `slugMap` by iterating `allFiles`, and `contentPage` is the
+//    ONLY emitter that passes one (`:77`). So UN-SHARDED the two sets are identical and a
+//    present-and-misses CANNOT HAPPEN. The shard ABI is the first thing able to hand `renderPage`
+//    a narrower `slugMap` than `allFiles`.
+//    The consequence for this file: the assertions below are newly LOAD-BEARING. `blocks` and
+//    `htmlAst` being populated was previously a producer-side nicety with no reachable consumer
+//    failure behind it; it is now the precondition for a consumer path that CAN fail, silently,
+//    on exactly the pages a shard does not hold. Same assertions, different weight — which is
+//    worth knowing before anyone decides they are redundant.
 import { test } from "node:test"
 import assert from "node:assert/strict"
 import fs from "node:fs"
