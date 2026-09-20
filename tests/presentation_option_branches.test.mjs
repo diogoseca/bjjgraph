@@ -29,7 +29,12 @@
 // incumbent already has them dead and nothing in the replacement makes them reachable, so under
 // D-03 they are reproduced exactly. They are post-parity cleanup, not programme work.
 //
-// ── AND ONE FALSE DEFECT I ALMOST FILED ───────────────────────────────────────────────────────
+// ── NEAR MISS: A FALSE DEFECT I ALMOST FILED ──────────────────────────────────────────────────
+//
+// Recorded as a NEAR MISS rather than a footnote, because a FALSE DEFECT FILED IS MORE EXPENSIVE
+// THAN A REAL ONE MISSED — someone fixes it. A missed defect waits; a filed one that does not
+// exist consumes a seat, and under D-03 the "fix" would have changed emitted bytes for a
+// requirement nobody has.
 //
 // `TagContent.numPages` measured INERT at first — 14 items rendered at `numPages` 2, 10 and 20
 // alike. The code was fine and my fixture was wrong: `options.numPages` is read only at `:85`,
