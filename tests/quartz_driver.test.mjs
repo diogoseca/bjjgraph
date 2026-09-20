@@ -720,6 +720,22 @@ test("real build emits identical bytes with one and two workers", (t) => {
   );
 });
 
+test("emit transport partitions trees before native worker hydration", (t) => {
+  const f = fixture(t);
+  const result = runBuild(f, 2);
+  assert.equal(result.status, 0, result.log);
+  const shards = [...result.log.matchAll(
+    /\[emit:hydrate:ready\] thread=\d+ renderPages=(\d+) residentPages=(\d+) metadataPages=(\d+)/g,
+  )].map(([, render, resident, metadata]) => ({
+    render: Number(render), resident: Number(resident), metadata: Number(metadata),
+  }));
+  assert.equal(shards.length, 2, "both native workers must attest their actual hydrated shard");
+  assert.deepEqual(shards.map((s) => s.render).sort(), [1, 2]);
+  assert.deepEqual(shards.map((s) => s.resident).sort(), [2, 2]);
+  assert.ok(shards.every((s) => s.metadata === 3), "every shard needs the full metadata roster");
+  console.log("Shard coverage: 3 owned pages once; 4 resident trees including 1 cross-shard target; 3 metadata entries per worker (was 6 full trees)");
+});
+
 test("native emit workers preserve live AST, block identity and Dates", async (t) => {
   for (const mutant of [undefined, "htmlAst", "blocks"]) {
     await t.test(
