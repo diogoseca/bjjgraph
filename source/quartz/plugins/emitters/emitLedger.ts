@@ -1,4 +1,5 @@
 import { AsyncLocalStorage } from "node:async_hooks"
+import { threadId } from "node:worker_threads"
 import fs from "fs"
 import path from "path"
 
@@ -41,18 +42,90 @@ import path from "path"
  * `BJJ_EMIT_LEDGER_DIR` is set, so an ordinary build pays essentially nothing and no emitted byte
  * changes either way — this module never touches content, only observes paths.
  *
- * WORKERS: each worker thread has its own module instance and therefore its own ledger, so each
- * flushes a partial file named by thread. The join merges them per emitter.
+ * WORKERS: THREE DEFECTS, ONE MEASURED FIX (V's review + D-B-08).
+ *
+ * The first version of this module flushed once, from `process.on("exit")`, to a file named
+ * `ledger-<pid>-<tag>.json`. Every clause of that sentence was wrong for the environment it runs
+ * in, and the three faults compound in the direction that hides them:
+ *
+ *   1. NAME COLLISION. `processors/workerPool.ts` uses `node:worker_threads`, so workers are
+ *      THREADS and share `process.pid`. Every thread wrote the SAME filename. Records are not
+ *      merged by that — they are destroyed, before anything can count them, and the shortfall
+ *      reads as "an emitter wrote less" rather than "the ledger lost data".
+ *   2. THE JOIN READ ONLY THE MAIN SNAPSHOT — an in-memory `snapshot()` call, so even parts that
+ *      did survive on disk were never opened.
+ *   3. AND THE ONE THAT MAKES THE FIRST TWO MOOT: `runWorkerTasks` ends every worker with
+ *      `worker.terminate()`, which is FORCEFUL. **Measured, not assumed: a worker's
+ *      `process.on("exit")` handler does not run under terminate() — 0 files written of 1
+ *      expected.** So worker claims were never persisted AT ALL. Fixing the name alone would have
+ *      changed nothing, and would have looked like a fix.
+ *
+ * THE FIX IS STRUCTURAL, NOT A BETTER FLUSH POINT. There is no moment this module owns that is
+ * guaranteed to precede a forceful terminate, so it must never depend on one:
+ *
+ *   * each thread appends to ITS OWN part, keyed by pid AND threadId (0 is main);
+ *   * the part is APPEND-ONLY NDJSON, written as claims accrue. A rewrite-the-whole-map flush is
+ *     O(paths) per call and therefore O(paths^2) over a build; appending a delta is O(new paths);
+ *   * a delta is appended when each `track()` COMPLETES, which is strictly before the worker posts
+ *     its result and therefore strictly before the host can terminate it. Nothing is in flight at
+ *     the moment of termination because nothing waits for exit.
+ *
+ * The join reads every part and merges. A thread that claimed nothing still writes its part, so
+ * "no part" and "an empty part" stay distinguishable — absence must not be able to look like zero.
  */
 
 type Ledger = Map<string, Set<string>>
 
 const store = new AsyncLocalStorage<{ emitter: string }>()
 const ledger: Ledger = new Map()
+/** How much of each emitter's set is already on disk, so an append writes only the delta. */
+const appended: Map<string, number> = new Map()
 
 /** Set once at module load: an ordinary build must not pay for a feature it is not using. */
 const OUT_DIR = process.env.BJJ_EMIT_LEDGER_DIR
 export const enabled = Boolean(OUT_DIR)
+
+/**
+ * This thread's part. pid AND threadId: threads share a pid, and a pid alone collides across every
+ * worker in the build. threadId is 0 on the main thread and unique per worker within the process.
+ */
+export const PART_NAME = `ledger-p${process.pid}-t${threadId}.ndjson`
+
+let partStarted = false
+
+/** Append this emitter's not-yet-written paths. Cheap, ordered, and safe to call often. */
+function appendDelta(emitter: string) {
+  if (!OUT_DIR) return
+  const set = ledger.get(emitter)
+  if (!set) return
+  const all = [...set]
+  const from = appended.get(emitter) ?? 0
+  if (all.length <= from && partStarted) return
+  fs.mkdirSync(OUT_DIR, { recursive: true })
+  const fp = path.join(OUT_DIR, PART_NAME)
+  // The header line makes an EMPTY part distinguishable from a MISSING one — the whole point of
+  // the exercise is that absence must never be able to read as zero.
+  if (!partStarted) {
+    fs.appendFileSync(fp, JSON.stringify({ part: PART_NAME, pid: process.pid, threadId }) + "\n")
+    partStarted = true
+  }
+  const delta = all.slice(from)
+  if (delta.length) {
+    fs.appendFileSync(fp, JSON.stringify({ emitter, paths: delta }) + "\n")
+    appended.set(emitter, all.length)
+  }
+}
+
+/** Write this thread's part even if it claimed nothing, so the join can count parts exactly. */
+export function openPart() {
+  if (!OUT_DIR || partStarted) return
+  fs.mkdirSync(OUT_DIR, { recursive: true })
+  fs.appendFileSync(
+    path.join(OUT_DIR, PART_NAME),
+    JSON.stringify({ part: PART_NAME, pid: process.pid, threadId }) + "\n",
+  )
+  partStarted = true
+}
 
 function claim(emitter: string, rel: string) {
   let set = ledger.get(emitter)
@@ -66,7 +139,14 @@ function claim(emitter: string, rel: string) {
  */
 export function track<T>(emitter: string, fn: () => Promise<T>): Promise<T> {
   if (!enabled) return fn()
-  return store.run({ emitter }, fn)
+  openPart()
+  // The delta is appended when the body RESOLVES, which precedes the worker's postMessage and so
+  // precedes any terminate(). Deliberately not in a `finally` on the sync path: a rejecting
+  // emitter fails the build, and a partial ledger from a failed build must not look complete.
+  return store.run({ emitter }, fn).then((value) => {
+    appendDelta(emitter)
+    return value
+  })
 }
 
 /**

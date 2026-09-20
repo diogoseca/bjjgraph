@@ -384,9 +384,48 @@ const walk = (dir) => {
 }
 walk(args.output)
 
+// ATTRIBUTION IS READ FROM THE PARTS ON DISK, NOT FROM THIS THREAD'S MEMORY (V's finding).
+// \`ledgerSnapshot()\` is the MAIN thread's map. Emit shards across worker THREADS, so the main
+// thread's memory holds only what main emitted — every sharded ContentPage claim lives in a
+// worker's part and was silently absent from the join. It is still read below, but only as a
+// cross-check against main's own part, never as the answer.
+const ledgerDir = process.env.BJJ_EMIT_LEDGER_DIR
+const parts = []
+const claimSets = {}
+const dupes = []
+if (ledgerDir && fs.existsSync(ledgerDir)) {
+  for (const name of fs.readdirSync(ledgerDir).filter((f) => f.endsWith(".ndjson")).sort()) {
+    const lines = fs.readFileSync(path.join(ledgerDir, name), "utf8").split("\n").filter(Boolean)
+    let head = null
+    let n = 0
+    for (const line of lines) {
+      const rec = JSON.parse(line)
+      if (rec.part) { head = rec; continue }
+      const set = (claimSets[rec.emitter] ||= new Set())
+      for (const rel of rec.paths) {
+        // A path claimed by two THREADS is a real finding, not a merge detail: two shards wrote
+        // the same output. Collect it rather than let the Set quietly absorb it.
+        if (set.has(rel)) dupes.push({ emitter: rec.emitter, path: rel, part: name })
+        set.add(rel)
+      }
+      n += rec.paths.length
+    }
+    parts.push({ name, pid: head ? head.pid : null, threadId: head ? head.threadId : null, paths: n })
+  }
+}
+const claims = Object.fromEntries(Object.entries(claimSets).map(([k, v]) => [k, [...v]]))
+
+// Cross-check: main's part must agree with main's memory. Disagreement means the append path
+// dropped or duplicated something, which would otherwise look like an emitter behaving oddly.
+const mainPart = parts.find((pt) => pt.threadId === 0)
+const memory = ledgerSnapshot()
+const mainMemoryPaths = Object.values(memory).reduce((n, v) => n + v.length, 0)
+
 console.log(
   "__JSON__" + JSON.stringify({
-    ledgerEnabled, claims: ledgerSnapshot(), census,
+    ledgerEnabled, claims, census, parts, dupes,
+    main_part: mainPart ? mainPart.name : null,
+    main_memory_paths: mainMemoryPaths,
     discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
     parse_ms: tParse,
     parse_concurrency_actual: ctx.argv.concurrency,
@@ -407,6 +446,56 @@ console.log(
  */
 function joinRecords(captured, outDir, opts) {
   const { claims, census } = captured
+
+  // ---- PART COMPLETENESS, BEFORE ANY ATTRIBUTION IS BELIEVED -------------------------------
+  // The ledger's own failure mode is silent incompleteness, so it is checked first and the
+  // figures are EXACT, not floors (7K part 2). A merged ledger missing a worker's part produces
+  // a perfectly consistent, perfectly wrong answer: every path it does know about is attributed
+  // correctly, and the paths it lost simply appear unclaimed — which reads as a post-processor
+  // surface, the one bucket we already expect to be non-empty.
+  const parts = captured.parts ?? []
+  const problems = []
+  const workerParts = parts.filter((pt) => pt.threadId !== null && pt.threadId > 0)
+  // EXACT where it applies, and SAID OUT LOUD where it does not. A run that did not shard has one
+  // part legitimately, and a blanket `concurrency + 1` would red-flag it; but "no worker parts"
+  // is also precisely what a total ledger loss looks like, so it can never pass silently.
+  const expected =
+    opts.expectParts ?? (workerParts.length > 0 ? opts.concurrency + 1 : null)
+  if (expected !== null && parts.length !== expected) {
+    problems.push(
+      `expected exactly ${expected} ledger parts (1 main + ${expected - 1} worker threads), got ` +
+        `${parts.length}: ${parts.map((pt) => pt.name).join(", ") || "none"}`,
+    )
+  }
+  if (expected === null) {
+    problems.push(
+      `NOT ASSERTED: no worker parts were written, so the "1 main + N workers" count could not be ` +
+        `checked. This is correct for an unsharded run and is ALSO what a total worker-ledger loss ` +
+        `looks like — the two are indistinguishable from the part count alone. Confirm from the ` +
+        `build log whether [emit:plan] shardEmitters was 0, or pass --expect-parts N.`,
+    )
+  }
+  const mains = parts.filter((pt) => pt.threadId === 0)
+  if (mains.length !== 1) {
+    problems.push(`expected exactly 1 main-thread part (threadId 0), got ${mains.length}`)
+  }
+  // threadIds must be DISTINCT. Before D-B-08 every thread wrote one filename, so a collision
+  // presented as a smaller corpus rather than as an error; this is the check that would have
+  // caught it, and it is exact rather than "more than one part exists".
+  const ids = parts.map((pt) => `${pt.pid}/${pt.threadId}`)
+  if (new Set(ids).size !== ids.length) {
+    problems.push(`ledger parts collide on pid/threadId: ${ids.join(", ")}`)
+  }
+  const headless = parts.filter((pt) => pt.threadId === null)
+  if (headless.length) {
+    problems.push(`${headless.length} part(s) carry no header line: ${headless.map((pt) => pt.name).join(", ")}`)
+  }
+  if ((captured.dupes ?? []).length) {
+    problems.push(
+      `${captured.dupes.length} path(s) claimed by the same emitter from two threads, e.g. ` +
+        `${captured.dupes[0].emitter} -> ${captured.dupes[0].path}`,
+    )
+  }
   const owner = new Map()
   const conflicts = []
   for (const [emitter, paths] of Object.entries(claims)) {
@@ -464,7 +553,35 @@ function joinRecords(captured, outDir, opts) {
     }
     fs.writeFileSync(path.join(outDir, `${emitter}.json`), JSON.stringify(record, null, 1), "utf8")
   }
-  return { per, conflicts, claimMissing, unclaimed, emitterShaped, censusSize: Object.keys(census).length }
+  // 7M AT THE ARTIFACT LEVEL. joined-sample2 was reviewed against code eight minutes newer than
+  // the capture, because the DIRECTORY did not say what it was taken at — the commit was inside
+  // each record's provenance, which is not where a reviewer looks before starting. A capture that
+  // cannot state its own commit is not reviewable, so the directory now says it first.
+  fs.writeFileSync(
+    path.join(outDir, "_CAPTURE.json"),
+    JSON.stringify(
+      {
+        capture_commit: head,
+        captured_by: "scripts/emit_seam_capture.mjs --join",
+        partial: opts.limit > 0,
+        limit: opts.limit || null,
+        concurrency: opts.concurrency ?? null,
+        ledger_parts: parts,
+        expected_parts: expected,
+        problems,
+        records: Object.keys(per).sort(),
+        review_note:
+          "Re-review is only valid against code at capture_commit. If HEAD has moved, re-capture.",
+      },
+      null,
+      1,
+    ),
+    "utf8",
+  )
+  return {
+    per, conflicts, claimMissing, unclaimed, emitterShaped, parts, problems,
+    censusSize: Object.keys(census).length,
+  }
 }
 
 
@@ -478,6 +595,7 @@ function runJoin(val, has) {
     return 2
   }
   const concurrency = Number(val("--concurrency", "1"))
+  const expectParts = has("--expect-parts") ? Number(val("--expect-parts")) : null
   const work = path.resolve(val("--work", trackTemp(fs.mkdtempSync(path.join(os.tmpdir(), "bjj-join-")))))
   const output = path.join(work, "public")
   const ledgerDir = path.join(work, "ledger")
@@ -507,12 +625,21 @@ function runJoin(val, has) {
     return 2
   }
 
-  const r = joinRecords(captured, outDir, { limit, seeded: seededRegions(captured.census ?? {}) })
+  const r = joinRecords(captured, outDir, {
+    limit, concurrency, expectParts,
+    seeded: seededRegions(captured.census ?? {}),
+  })
   console.log(`\njoined ${Object.keys(r.per).length} emitter record(s) -> ${outDir}`)
   for (const [emitter, files] of Object.entries(r.per).sort()) {
     console.log(`  ${emitter.padEnd(20)} ${String(Object.keys(files).length).padStart(6)} files`)
   }
   console.log(`  census: ${r.censusSize} files after all raw emitters, before any post-processor`)
+  // LEDGER COMPLETENESS FIRST: attribution figures mean nothing if a part is missing.
+  console.log(
+    `  ledger parts: ${r.parts.length} (` +
+      r.parts.map((pt) => `t${pt.threadId}:${pt.paths}`).join(" ") +
+      `)`,
+  )
   // Three disagreements, NAMED AND COUNTED SEPARATELY — they have three different causes.
   console.log(`  claim-with-no-file : ${r.claimMissing.length} ${r.claimMissing.slice(0, 3).join(", ")}`)
   console.log(`  file-with-no-claim : ${r.unclaimed.length} ${r.unclaimed.slice(0, 3).join(", ")}`)
@@ -520,6 +647,14 @@ function runJoin(val, has) {
   console.log(`  EMITTER-SHAPED yet unclaimed: ${r.emitterShaped.length} ${r.emitterShaped.slice(0, 3).join(", ")}`)
 
   let rc = 0
+  for (const problem of r.problems) {
+    // A ledger problem is reported BEFORE the attribution disagreements, because it explains
+    // them: a missing part makes its paths look unclaimed, which is the bucket we expect to be
+    // non-empty. Read in the other order, a lost worker reads as a post-processor surface.
+    const soft = problem.startsWith("NOT ASSERTED")
+    console.error(`  ${soft ? "WARN" : "FAIL"}: ${problem}`)
+    if (!soft) rc = 1
+  }
   if (r.claimMissing.length) { console.error("  FAIL: a claim with no file — the ledger recorded intent, not result"); rc = 1 }
   if (r.conflicts.length) { console.error("  FAIL: a path claimed by two emitters — attribution is not a partition"); rc = 1 }
   if (r.emitterShaped.length) { console.error("  FAIL: an emitter-shaped path nobody claimed"); rc = 1 }
