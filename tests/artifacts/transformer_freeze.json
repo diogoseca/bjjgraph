@@ -1,5 +1,19 @@
 {
   "files": {
+    "source/quartz/components/renderPage.tsx": {
+      "accepted": [
+        {
+          "date": "2026-09-20",
+          "from": "9cbebd6e988e3615d7f9ba043f8034678825b80b203ac07daa9fded4b1c92004",
+          "reason": "INTERFACE.md section 7's single named exception: S1's renderer integration and loadGraphData failure handling (64c058b61). Required by quartz-cto at D-49/D-50; INTERFACE.md:335 deferred it until review, and review happened. Bare catch becomes a throw; zero-entry coverage throws; adds getRenderCoverage/resetRenderState. AUTHORIZATION ONLY - byte-neutrality is EXPECTED BUT UNPROVEN: S1's build1 emitted zero HTML before dying so renderPage never ran. Confirm against build0 on the first completed build.",
+          "scope": "keeplist",
+          "to": "85b93291bfe9d563f198c0fb771035be32d1ee89030ac41838071dab35ccbfa7"
+        }
+      ],
+      "bytes": 26444,
+      "scope": "keeplist",
+      "sha256": "85b93291bfe9d563f198c0fb771035be32d1ee89030ac41838071dab35ccbfa7"
+    },
     "source/quartz/plugins/filters/draft.ts": {
       "bytes": 273,
       "scope": "pipeline",
