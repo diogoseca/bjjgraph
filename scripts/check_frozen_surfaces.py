@@ -64,6 +64,19 @@ POSITIVE COVERAGE, HARD-FAILING ON ZERO. It always prints how many files it comp
 non-zero if that count is below a floor. "Found no problems" and "never looked" must not produce
 the same output (CLAUDE.md §6.6 — 17 recorded instances in this repo).
 
+**BUT A FLOOR IS ONLY HALF A CONTROL, AND THE SET COMPARISON IS THE OTHER HALF.** A minimum catches
+MATCHES-NOTHING and is blind to MATCHES-TOO-MUCH: an over-scoped glob returns MORE files and sails
+past `>= MIN_FILES`. What actually guards that here is the SET comparison — every discovered file
+must appear in the baseline, so extras surface as `UNKNOWN` and the gate exits 1.
+MEASURED, not argued: broadening `transformers/*.ts` to `plugins/**/*.ts` makes this exit 1 and
+name each extra file (`emitters/aliases.ts`, `assets.ts`, `componentResources.ts`, …).
+**Re-run that check if you ever change `WATCHED_GLOBS`.**
+
+The distinction matters because the floor is the thing that LOOKS like the control, so anyone
+tightening or loosening `MIN_FILES` would believe they were adjusting the guard. An above-floor
+count proves the matcher finds something; it does not prove the matcher is scoped correctly, and
+those are two different failure modes. **A control you cannot fail is a comment.**
+
 BLIND SPOTS, stated so a green here is not read as more than it is:
   · Source identity is not behavioural identity. An npm version bump under `source/package.json`
     changes what remark/rehype/shiki emit with these files untouched; that is the payload and
