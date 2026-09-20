@@ -2,6 +2,11 @@ import matter from "gray-matter"
 import remarkFrontmatter from "remark-frontmatter"
 import { QuartzTransformerPlugin } from "../types"
 import yaml from "js-yaml"
+// toml is pinned >=4.2.0 in source/package.json. 3.0.0 carries two high-severity advisories:
+// GHSA-v5mp-jgw5-2x6j (prototype pollution via __proto__ key-path desync, fixed 4.1.2) and
+// GHSA-82x6-q7mm-w9cf (uncontrolled recursion, fixed 4.2.0). The 4.x major keeps the same CJS
+// shape and the same `parse(input)` signature — the second argument is optional — so this call
+// site is unchanged by the bump. Do not relax the pin back to ^3.
 import toml from "toml"
 import { slugTag } from "../../util/path"
 import { QuartzPluginData } from "../vfile"
