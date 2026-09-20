@@ -1,5 +1,19 @@
 {
   "files": {
+    "source/quartz/components/Head.tsx": {
+      "accepted": [
+        {
+          "date": "2026-09-20",
+          "from": "cff299113432ae3f14bf7484b9787156ee344c52aa5a8baeb8a9055e3f025248",
+          "reason": "Incoming from dev, NOT a programme change: published-time's production date fix (e81f18f06, v1.193.3), merged into the programme base. Head.tsx switches article:published_time and JSON-LD datePublished from dates.created (which is checkout birthtime) to dates.published (authored publishDate only); lastmod.ts documents that git supplies modification history, not a first-publication record. 0 of 4,600 files carry publishDate, so BOTH FIELDS NOW VANISH FROM ~6,118 PAGES. That is correct \u2014 the previous values were false \u2014 and it is why the fix reaches 13/13 across checkouts. The frozen baseline f649801a9 predates it.",
+          "scope": "keeplist",
+          "to": "31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0"
+        }
+      ],
+      "bytes": 7071,
+      "scope": "keeplist",
+      "sha256": "31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0"
+    },
     "source/quartz/components/renderPage.tsx": {
       "accepted": [
         {
@@ -45,9 +59,17 @@
       "sha256": "42e096302b495a1e40459847d9171ef86aecd4546f0cbe1795efd18d827168ef"
     },
     "source/quartz/plugins/transformers/lastmod.ts": {
-      "bytes": 7362,
+      "accepted": [
+        {
+          "date": "2026-09-20",
+          "from": "82fad748eb7b461516d1a8b384fc18ac15c8782442eaaf53cde52437ee639b90",
+          "reason": "Incoming from dev, NOT a programme change: published-time's production date fix (e81f18f06, v1.193.3), merged into the programme base. Head.tsx switches article:published_time and JSON-LD datePublished from dates.created (which is checkout birthtime) to dates.published (authored publishDate only); lastmod.ts documents that git supplies modification history, not a first-publication record. 0 of 4,600 files carry publishDate, so BOTH FIELDS NOW VANISH FROM ~6,118 PAGES. That is correct \u2014 the previous values were false \u2014 and it is why the fix reaches 13/13 across checkouts. The frozen baseline f649801a9 predates it.",
+          "to": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0"
+        }
+      ],
+      "bytes": 8534,
       "scope": "pipeline",
-      "sha256": "82fad748eb7b461516d1a8b384fc18ac15c8782442eaaf53cde52437ee639b90"
+      "sha256": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0"
     },
     "source/quartz/plugins/transformers/links.ts": {
       "bytes": 6208,
