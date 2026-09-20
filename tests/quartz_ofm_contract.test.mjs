@@ -231,6 +231,26 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
   }
   console.log(`  siblings: ${Object.entries(siblings).map(([k, v]) => `${k.split(" ")[0]}=${v}`).join(" ")}`)
 
+  // ── A CONTROL HAS ITS OWN POPULATION, AND A POPULATION OF 1 HAS AN EXPIRY NOBODY SET ────────
+  // `mermaid` and `labelled fences` can only be sibling-ed by "any fence", and EXACTLY ONE content
+  // file carries one (`Learning/BJJ Position Hierarchy Explained.md`). The sibling reaches, so the
+  // zero it validates is real today. But `content/` is edited by a WEEKLY LLM CONTENT BOT, so that
+  // population can be driven to zero by routine activity nobody would connect to this control —
+  // at which point the assertion above turns red for a reason that is not a defect in the code
+  // under test, and the zero it was validating becomes uninterpretable.
+  // The assertion still FAILS rather than going quiet, which is right. This warns BEFORE that, so
+  // the expiry is visible while there is still time to pick a better sibling rather than at the
+  // moment someone is tempted to weaken the control to get green.
+  const fragile = Object.entries(siblings).filter(([, v]) => v <= 1)
+  if (fragile.length) {
+    console.log(
+      `  WARNING: ${fragile.length} sibling(s) at population <= 1 — ` +
+        fragile.map(([k, v]) => `${k}=${v}`).join(", ") +
+        ". A control this thin expires the moment one content file changes, and content/ is " +
+        "edited weekly by an LLM bot. Pick a broader sibling before it goes to zero.",
+    )
+  }
+
   for (const [k, n] of Object.entries(counts)) {
     assert.equal(
       n,
