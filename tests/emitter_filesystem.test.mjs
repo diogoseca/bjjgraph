@@ -45,6 +45,14 @@
 //      "not"; both hold today, and only `dot:false` is general. The fixture now carries a dot
 //      directory that is not in ignorePatterns.)
 //   - `assets.ts`: drop `"**/*.md"` from `filesToCopy`'s ignore list     … kills "exclusions"
+//   - `contentIndex.ts`: `.slice(0, limit-1)`, i.e. one fewer item        … kills "feed order"
+//   - `contentIndex.ts`: `.slice(1, limit+1)`, i.e. a different ten       … kills "feed order"
+//   - `contentIndex.ts`: reverse the date comparator                      … kills "feed order"
+//   - `contentIndex.ts`: return -1 for equal dates (reverses ties)        … kills "feed order"
+//     NON-KILL, and the direction matters: returning +1 for equal dates SURVIVES. V8 uses
+//     insertion sort below ~22 elements, and a positive result for a tie means "leave it where
+//     it is", so that mutant is a behavioural no-op on ties. Only the -1 direction actually
+//     reorders them. A tie-mutant in the wrong direction proves nothing — use -1.
 //   - `helpers.ts`: append `"\n"` to the written content                 … kills "byte-exact write"
 //   - `helpers.ts`: return the path before awaiting `writeFile`          … kills "completed write"
 //
@@ -760,6 +768,49 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
 
   const items = (value.rss.match(/<item>/g) ?? []).length
   assert.equal(items, 10, "rssLimit is 10; the feed carried a different number of items")
+
+  // WHICH TEN, AND IN WHAT ORDER. Requested by V, and the division of labour is the point:
+  // in production the feed's selection is genuinely nondeterministic, because the sort key is
+  // `created`, which on this host is the source file's checkout mtime (D-71) — so the whole-emit
+  // differ has to normalise the RSS set and therefore stops being evidence for selection and
+  // order. In a FIXTURE the dates are ours, so both are fully determined and assertable. That is
+  // D-51 exactly: where the differ cannot see it, the fixture is the gate.
+  //
+  // Derived from the spec, not copied from a run: `contentIndex.ts` sorts DESC by date, a tie
+  // returns 0, `Array#sort` is stable so ties keep insertion order, then `.slice(0, 10)`. The
+  // fixture's page i has month (i % 9) + 1, so months run 1..9 then 1,2,3 again — which puts two
+  // TIE PAIRS inside the window on purpose (Page-02/Page-11 at month 3, Page-01/Page-10 at
+  // month 2). Those pairs are what pin the stable-sort behaviour; a comparator that returns 0
+  // hands the decision to insertion order, and that has bitten this repo before.
+  const EXPECTED_FEED_ORDER = [
+    "Section/Page-08", // month 9
+    "Section/Page-07",
+    "Section/Page-06",
+    "Section/Page-05",
+    "Section/Page-04",
+    "Section/Page-03",
+    "Section/Page-02", // month 3, first of the tie pair by insertion order
+    "Section/Page-11", // month 3, second
+    "Section/Page-01", // month 2, first of the tie pair
+    "Section/Page-10", // month 2, second — Page-00 and Page-09 (month 1) fall outside the ten
+  ]
+  // The channel's own <link> is `https://bjjgraph.org` with no trailing path, so this pattern —
+  // which requires a slash after the host — matches item links only. (It is worth saying because
+  // the obvious defensive `.slice(1)` to "drop the channel link" silently ate the first ITEM.)
+  const feedLinks = [...value.rss.matchAll(/<link>https:\/\/bjjgraph\.org\/([^<]*)<\/link>/g)].map(
+    (m) => m[1],
+  )
+  assert.match(value.rss, /<link>https:\/\/bjjgraph\.org<\/link>/, "the channel link is missing")
+  assert.deepEqual(
+    feedLinks,
+    EXPECTED_FEED_ORDER,
+    "the RSS feed selected a different set of items, or the same set in a different order",
+  )
+  assert.equal(
+    new Set(feedLinks).size,
+    feedLinks.length,
+    "the feed repeated an item",
+  )
   const locs = (value.sitemap.match(/<loc>/g) ?? []).length
   assert.equal(locs, pages.length, "the sitemap must carry every indexed page, not the RSS subset")
 
@@ -777,7 +828,8 @@ test("ContentIndex emits four artifacts, strips description/date from the JSON, 
   console.log(
     `  [coverage] ContentIndex: 4 artifacts, ${keys.length} index entries all stripped of ` +
       `description+date, ${items} RSS items from ${pages.length} pages, ${locs} sitemap locs, ` +
-      `1 truncation at 3,000 chars, gzip MTIME=0`,
+      `1 truncation at 3,000 chars, gzip MTIME=0, ${feedLinks.length} feed links pinned in order ` +
+      `(2 tie pairs inside the window)`,
   )
 })
 
