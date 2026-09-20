@@ -159,6 +159,23 @@ const PARITY_INPUTS = [
  * If the inputs HAVE moved, this is not automatically a failure — the seam may simply need
  * re-capturing (GOLDEN-RECAPTURE.md). It is a verdict the reader must see either way.
  */
+/**
+ * Object ids for the input set. Changing ANY watched path changes its id, so one comparison at the
+ * start and one at the end answers "did the thing I am measuring move under me".
+ */
+function stampInputs() {
+  try {
+    return PARITY_INPUTS.map((pth) =>
+      execFileSync("git", ["rev-parse", `HEAD:${pth.replace(/\/$/, "")}`], {
+        cwd: REPO,
+        encoding: "utf8",
+      }).trim(),
+    ).join(" ")
+  } catch {
+    return null
+  }
+}
+
 function reportInputProvenance() {
   let changed
   try {
@@ -231,6 +248,17 @@ async function main() {
     .readdirSync(path.join(TRANSFORM, all[0]))
     .map((f) => f.replace(/\.json\.gz$/, ""))
     .sort()
+
+  // ── STAMP AT LAUNCH, ASSERT AT COMPLETION (COORDINATION §7M) ──────────────────────────────
+  // CLAUDE.md §6.4: a result taken while another process could write the tree under test is not a
+  // result. Holding merges is DISCIPLINE; this is the mechanism, and the difference is real — this
+  // script's own author committed THREE TIMES into the tree during a 45-minute run, having held
+  // merges scrupulously the whole time. `tests/` and `scripts/` only, so nothing the run reads
+  // moved, but that was the luck of what happened to be committed and not a property of the run.
+  // An assertion at completion converts "I think nothing moved" into "nothing moved, OR THIS RUN
+  // IS VOID". Only the INPUT SET is stamped, not HEAD: an unrelated commit must not void a valid
+  // run, and an assertion stricter than its own claim goes red on a correct build (CLAUDE.md §6.3).
+  const inputStamp = stampInputs()
 
   let files = 0
   let comparisons = 0
@@ -372,6 +400,18 @@ async function main() {
         `stage, so the transformer that introduced it is the one that owns that stage.`,
     )
     process.exit(1)
+  }
+  const finalStamp = stampInputs()
+  if (inputStamp === null || finalStamp === null) {
+    console.log("  input stability : UNKNOWN — could not stamp; treat this verdict with care")
+  } else if (inputStamp !== finalStamp) {
+    console.error(
+      "\nFAIL: THE INPUT SET MOVED WHILE THIS RUN WAS READING IT. The comparison spans two " +
+        "different trees and cannot be repaired afterwards, only discarded. Re-run on a still tree.",
+    )
+    process.exit(2)
+  } else {
+    console.log("  input stability : inputs UNCHANGED for the whole run (stamped at launch, asserted here)")
   }
   console.log("  clean — every compared stage is identical to the incumbent driver's output")
   process.exit(0)
