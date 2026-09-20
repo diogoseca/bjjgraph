@@ -18,7 +18,7 @@ function partitionContent(content: ProcessedContent[], concurrency: number): Emi
     visit(tree, "element", (node: Element) => {
       if (
         node.tagName === "blockquote" &&
-        (node.properties.className as string[] | undefined)?.includes("transclude")
+        (node.properties?.className as string[] | undefined)?.includes("transclude")
       ) {
         const target = (node.children[0] as Element | undefined)?.properties?.["data-slug"]
         const index = bySlug.get(target as FullSlug)
@@ -59,7 +59,7 @@ function partitionContent(content: ProcessedContent[], concurrency: number): Emi
   return shards
 }
 
-function serializeShard(shard: EmitShard, emitter: number): EmitTask {
+function serializeShard(shard: EmitShard, emitter: number, shardIndex: number): EmitTask {
   // One shard graph preserves tree === data.htmlAst, blocks and roster/tuple identity.
   // Partition BEFORE serialization: no worker first hydrates the complete corpus.
   const bytes = serialize(shard)
@@ -68,7 +68,7 @@ function serializeShard(shard: EmitShard, emitter: number): EmitTask {
   console.log(
     `[emit:transport:shard] emitter=${emitter} renderPages=${shard.renderCount} residentPages=${shard.content.length} metadataPages=${shard.allFiles.length} sharedBytes=${bytes.length}`,
   )
-  return { emitter, content: shared }
+  return { emitter, content: shared, shardIndex }
 }
 
 export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
@@ -146,7 +146,9 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
       `[emit:transport:start] pages=${content.length} memory=${JSON.stringify(process.memoryUsage())}`,
     )
     const tasks = sharded.flatMap((index) =>
-      partitionContent(content, concurrency).map((shard) => serializeShard(shard, index)),
+      partitionContent(content, concurrency).map((shard, shardIndex) =>
+        serializeShard(shard, index, shardIndex),
+      ),
     )
     const totalBytes = tasks.reduce((sum, task) => sum + task.content.byteLength, 0)
     const maxBytes = tasks.reduce((max, task) => Math.max(max, task.content.byteLength), 0)

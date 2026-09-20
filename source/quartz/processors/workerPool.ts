@@ -20,7 +20,7 @@ export type EmitShard = {
   omittedTrees: { index: number; fields: ("htmlAst" | "blocks")[] }[]
 }
 
-export type EmitTask = { emitter: number; content: SharedArrayBuffer }
+export type EmitTask = { emitter: number; content: SharedArrayBuffer; shardIndex: number }
 
 export type RenderCoverage = { rendered: number; graphPayloads: number }
 export type EmitResult = { files: FilePath[]; coverage: RenderCoverage }
