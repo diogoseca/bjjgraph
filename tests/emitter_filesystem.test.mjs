@@ -127,6 +127,7 @@ import { FolderPage } from ${q("quartz/plugins/emitters/folderPage")}
 import { TagPage } from ${q("quartz/plugins/emitters/tagPage")}
 import { NotFoundPage } from ${q("quartz/plugins/emitters/404")}
 import { ContentPage } from ${q("quartz/plugins/emitters/contentPage")}
+import * as AllEmitters from ${q("quartz/plugins/emitters/index")}
 import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
 import { resetRenderState } from ${q("quartz/components/renderPage")}
 import realConfig from ${q("quartz.config")}
@@ -193,6 +194,26 @@ if (args.kind === "contentindex") {
   // those two steps is observable only in the emitted bytes.
   out.sitemap = fs.readFileSync(path.join(args.output, "sitemap.xml"), "utf8")
   out.rss = fs.readFileSync(path.join(args.output, "index.xml"), "utf8")
+}
+
+if (args.kind === "sole-registrant") {
+  // Drive ComponentResources over the REAL configured emitter list, then over the same list with
+  // one emitter removed. Whatever disappears from the bundles was registered by that emitter and
+  // by nothing else.
+  const build = async (output, exclude) => {
+    const emitters = realConfig.plugins.emitters.filter((e) => e.name !== exclude)
+    const ctx = mkctx({ ...args, output })
+    ctx.cfg.configuration = realConfig.configuration
+    ctx.cfg.plugins = { transformers: [], filters: [], emitters }
+    await ComponentResources().emit(ctx, [], emptyResources)
+    return {
+      css: fs.readFileSync(path.join(output, "index.css"), "utf8"),
+      post: fs.readFileSync(path.join(output, "postscript.js"), "utf8"),
+      emitters: emitters.length,
+    }
+  }
+  out.withAll = await build(args.outputA, null)
+  out.without = await build(args.outputB, args.exclude)
 }
 
 if (args.kind === "componentresources") {
@@ -1780,6 +1801,93 @@ test("ComponentResources: bundle order — SPA router last in postscript, theme 
     `  [coverage] ComponentResources order: 4 afterDOMLoaded blocks in push order ` +
       `(popover<posthog<supabase<spa), 3 css sections in concatenation order ` +
       `(component<custom<:root)`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// 404Page is the SOLE registrant of NotFound's css and script
+// ---------------------------------------------------------------------------------------------
+
+// `404.tsx:16` is the only `pageBody: NotFound()` in any emitter, so 404Page alone puts
+// notFound.scss (2,365 B) into index.css and notFound.inline.ts (9,121 B) into postscript.js —
+// two bundles it never writes itself and that every one of the 6,149 pages loads.
+//
+// That makes it CLAUDE.md §6.7's "deleting a component deletes a capability", but with a BYTE
+// SIGNATURE: the loss is catchable from the bundles rather than only from a component census,
+// which is a stronger gate because it does not depend on anyone maintaining a census.
+//
+// The test removes 404Page from the REAL configured emitter list and requires the markers to
+// vanish. That is two claims at once: 404Page contributes them, and nothing else puts them back.
+// A census can only ever assert the first.
+//
+// MUTANTS, AND ONE THAT WAS A FALSE KILL — worth keeping because the shape is easy to repeat:
+//   - 404Page stops registering its pageBody                      … kills (capability lost)
+//   - a SECOND emitter also registers NotFound                    … kills (sole-registrant lost)
+//
+// My first attempt at the second mutant added `const NotFoundDup = NotFound()` to contentPage.tsx
+// WITHOUT importing NotFound. The suite went red — and proved nothing, because the mutant did not
+// compile. A red from a broken build looks exactly like a red from a violated claim. The real
+// mutant imports NotFound into folderPage.tsx and adds it to getQuartzComponents: `tsc --noEmit`
+// then exits 0 and the failure message is the claim itself, ".did-you-mean is still in index.css
+// without 404Page". VERIFY A MUTANT COMPILES BEFORE COUNTING ITS KILL.
+
+test("404Page is the sole registrant of NotFound's css and script, and its removal is visible in the bundles", () => {
+  const root = tmp("bjj-sole-")
+  const outputA = path.join(root, "with-404")
+  const outputB = path.join(root, "without-404")
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({
+        kind: "sole-registrant",
+        root,
+        outputA,
+        outputB,
+        output: outputA,
+        exclude: "404Page",
+      }),
+    },
+  })
+
+  assert.equal(
+    value.without.emitters,
+    value.withAll.emitters - 1,
+    "the fixture did not actually remove exactly one emitter",
+  )
+
+  // Markers taken from the two source files, not from a previous run's output.
+  const cssMarkers = [".did-you-mean", ".home-fallback", ".action-button"]
+  const jsMarkers = ["not-found-title", "did-you-mean-link", "create-page-link"]
+
+  let checked = 0
+  for (const m of cssMarkers) {
+    assert.ok(value.withAll.css.includes(m), `index.css never contained ${m} even WITH 404Page`)
+    assert.ok(
+      !value.without.css.includes(m),
+      `${m} is still in index.css without 404Page — either another emitter registers NotFound ` +
+        `(so 404Page is not the sole registrant) or the marker is not unique to notFound.scss`,
+    )
+    checked++
+  }
+  for (const m of jsMarkers) {
+    assert.ok(value.withAll.post.includes(m), `postscript.js never contained ${m} even WITH 404Page`)
+    assert.ok(!value.without.post.includes(m), `${m} is still in postscript.js without 404Page`)
+    checked++
+  }
+  assert.ok(checked > 0, "coverage floor: no markers checked")
+
+  // And the loss has a SIZE, which is the part a census cannot give you.
+  const cssLost = value.withAll.css.length - value.without.css.length
+  const jsLost = value.withAll.post.length - value.without.post.length
+  assert.ok(
+    cssLost > 0 && jsLost > 0,
+    `removing 404Page changed no bundle bytes (css ${cssLost}, js ${jsLost}) — the capability ` +
+      `would be deletable with no byte signature at all`,
+  )
+
+  console.log(
+    `  [coverage] 404Page sole registrant: ${checked} markers present-with and absent-without ` +
+      `across 2 bundles; removing it costs ${cssLost} css bytes and ${jsLost} js bytes`,
   )
 })
 
