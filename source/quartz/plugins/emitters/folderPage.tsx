@@ -19,7 +19,6 @@ import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.lay
 import { FolderContent } from "../../components"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
-import DepGraph from "../../depgraph"
 
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
@@ -52,22 +51,6 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (user
         ...right,
         Footer,
       ]
-    },
-    async getDependencyGraph(_ctx, content, _resources) {
-      // Example graph:
-      // nested/file.md --> nested/index.html
-      // nested/file2.md ------^
-      const graph = new DepGraph<FilePath>()
-
-      content.map(([_tree, vfile]) => {
-        const slug = vfile.data.slug
-        const folderName = path.dirname(slug ?? "") as SimpleSlug
-        if (slug && folderName !== "." && folderName !== "tags") {
-          graph.addEdge(vfile.data.filePath!, joinSegments(folderName, "index.html") as FilePath)
-        }
-      })
-
-      return graph
     },
     async emit(ctx, content, resources): Promise<FilePath[]> {
       const fps: FilePath[] = []

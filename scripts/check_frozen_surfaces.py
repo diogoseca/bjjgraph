@@ -111,6 +111,23 @@ EXHAUSTIVE_DIR = "components"
 MIN_FILES = 10
 
 
+def scope_of(entry: dict) -> str:
+    """Which scope a baseline entry belongs to.
+
+    ONE BASELINE FILE SERVES TWO SCOPES, and the first version of `--accept` for the keep-list
+    wrote its entry into the same `files` map without a tag. The pipeline pass walks its own 12-file
+    glob and then checks the baseline for entries with no corresponding watched file — so the
+    freshly-accepted `renderPage.tsx` appeared as **"MISSING … (was in the baseline and is gone)"**
+    and the gate still exited 1, on a tree where nothing had been deleted. A confusing red is worse
+    than an understood one: that message would have sent five streams hunting a deletion that never
+    happened. quartz-cto reverted the baseline rather than leave it in the tree, which was right.
+
+    Entries written before scope tagging existed are pipeline entries; that is the only thing the
+    untagged format was ever used for.
+    """
+    return entry.get("scope", "pipeline")
+
+
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -167,7 +184,13 @@ def seed(note: str, force: bool = False) -> int:
             "into the replaced engine. Under D-03 the correct number of behavioural changes here "
             "during P1-P4 is zero. Moved one file at a time via --accept --reason, never automatically."
         ),
-        "files": {rel: {"sha256": sha256(p), "bytes": p.stat().st_size} for rel, p in files.items()},
+        # EVERY ENTRY CARRIES ITS SCOPE. One baseline file serves two scopes, and without a tag
+        # the pipeline pass walks keep-list entries it has no watched file for and reports them
+        # MISSING — see `scope_of` below for the incident.
+        "files": {
+            rel: {"sha256": sha256(p), "bytes": p.stat().st_size, "scope": "pipeline"}
+            for rel, p in files.items()
+        },
     }
     write_baseline(data)
     print(f"seeded {len(files)} files into {BASELINE.relative_to(REPO)}")
@@ -175,12 +198,36 @@ def seed(note: str, force: bool = False) -> int:
 
 
 def accept(target: str, reason: str) -> int:
+    """Record ONE authorized change, in EITHER scope.
+
+    D-82: this originally reached only the `pipeline` scope, so an authorized change to a
+    keep-list file — S1's `loadGraphData` fix in `renderPage.tsx`, INTERFACE.md section 7's single
+    named exception — could not be recorded at all, and `--accept` answered "not one of the 12
+    watched files". A gate that fires correctly but cannot record the authorized answer pushes the
+    authorization into `DECISIONS.md`, where the gate cannot see it, and leaves five streams
+    hitting a red that has to be waved through by hand. That is worse than no gate: it teaches
+    people to ignore this one.
+    """
     if not reason.strip():
         print("FAIL: --reason may not be empty; that is the whole point of the gate", file=sys.stderr)
         return 2
     files = discover()
     if target not in files:
-        print(f"FAIL: {target} is not one of the {len(files)} watched files", file=sys.stderr)
+        # Not in the pipeline scope — try the keep-list, whose entries are relative to
+        # `source/quartz/` in the contract but are addressed here by their repo-relative path.
+        try:
+            keeplist = {QZ_PREFIX + rel for rel in parse_keeplist()}
+        except (FileNotFoundError, ValueError) as exc:
+            print(f"FAIL: {target} is not a watched pipeline file, and the keep-list is "
+                  f"unreadable so it cannot be checked either: {exc}", file=sys.stderr)
+            return 2
+        if target in keeplist:
+            return accept_keeplist(target, reason)
+        print(
+            f"FAIL: {target} is in neither scope — not one of the {len(files)} pipeline files, "
+            f"and not one of the {len(keeplist)} keep-list entries",
+            file=sys.stderr,
+        )
         return 2
     data = load_baseline()
     if not data:
@@ -204,10 +251,59 @@ def accept(target: str, reason: str) -> int:
     data["files"][target] = {
         "sha256": new,
         "bytes": files[target].stat().st_size,
+        "scope": "pipeline",
         "accepted": history,
     }
     write_baseline(data)
     print(f"accepted {target}\n  {old[:12]} -> {new[:12]}\n  reason: {reason.strip()}")
+    return 0
+
+
+def accept_keeplist(target: str, reason: str) -> int:
+    """Accept a keep-list delta. The recorded sha PINS THE EXACT BYTES accepted, so a LATER change
+    to the same file is a new, unaccepted drift rather than being tolerated forever by one prior
+    approval. Without that, `--accept` would silently convert a frozen file into an unfrozen one."""
+    disk = REPO / target
+    if not disk.exists():
+        print(f"FAIL: {target} is not in the working tree", file=sys.stderr)
+        return 2
+    base = subprocess.run(["git", "show", f"{BASE_REF}:{target}"], capture_output=True, cwd=REPO)
+    if base.returncode != 0:
+        print(f"FAIL: {target} is not in {BASE_REF}, so there is no baseline to move from",
+              file=sys.stderr)
+        return 2
+    new = sha256(disk)
+    if disk.read_bytes() == base.stdout:
+        print(f"nothing to accept: {target} is byte-identical to {BASE_REF}")
+        return 0
+
+    data = load_baseline()
+    if not data:
+        print("FAIL: no baseline to move; run --seed first", file=sys.stderr)
+        return 2
+    entry = data["files"].get(target, {})
+    if entry.get("sha256") == new:
+        print(f"nothing to accept: {target}'s current bytes are already recorded")
+        return 0
+    history = entry.get("accepted", [])
+    history.append(
+        {
+            "date": _dt.date.today().isoformat(),
+            "scope": "keeplist",
+            "from": hashlib.sha256(base.stdout).hexdigest(),
+            "to": new,
+            "reason": reason.strip(),
+        }
+    )
+    data["files"][target] = {
+        "sha256": new,
+        "bytes": disk.stat().st_size,
+        "scope": "keeplist",
+        "accepted": history,
+    }
+    write_baseline(data)
+    print(f"accepted (keep-list) {target}\n  differs from {BASE_REF}, now recorded at {new[:12]}"
+          f"\n  reason: {reason.strip()}")
     return 0
 
 
@@ -217,7 +313,8 @@ def check() -> int:
         print(f"FAIL: no baseline at {BASELINE.relative_to(REPO)} — run --seed", file=sys.stderr)
         return 2
     files = discover()
-    recorded = data.get("files", {})
+    # Only this scope's entries. A keep-list entry here is not a missing pipeline file.
+    recorded = {k: v for k, v in data.get("files", {}).items() if scope_of(v) == "pipeline"}
 
     # A matcher that matches nothing reads exactly like a clean result, so refuse to report at all
     # below the floor rather than printing a reassuring zero.
@@ -325,7 +422,16 @@ def check_keeplist(accepted: dict) -> int:
             # Same moveability rule as the pipeline scope: a recorded reason downgrades a failure
             # to a reported, accepted delta. An absolute freeze gets switched off wholesale the
             # first time a legitimate change needs it.
-            (accepted_drift if full in accepted else drifted).append((full, "BYTES DIFFER"))
+            # An acceptance pins the EXACT bytes approved. If the file has moved again since,
+            # that is a new, unapproved drift — one prior approval must never license every
+            # future edit to the same file (the self-advancing property D-27 forbids).
+            rec = accepted.get(full)
+            if rec and rec.get("sha256") == sha256(disk):
+                accepted_drift.append((full, "BYTES DIFFER"))
+            else:
+                drifted.append(
+                    (full, "BYTES DIFFER (re-drifted since acceptance)" if rec else "BYTES DIFFER")
+                )
 
     print(f"keep-list scope: {len(listed)} entries, {len(listed_dir)} under {EXHAUSTIVE_DIR}/")
     print(f"  tracked under {QZ_PREFIX}{EXHAUSTIVE_DIR}/ : {len(on_disk)}")
@@ -356,7 +462,12 @@ def check_keeplist(accepted: dict) -> int:
             file=sys.stderr,
         )
         return 1
-    print("  clean — keep-list complete and byte-identical")
+    # Say which it is. "byte-identical" while reporting an accepted delta is a false statement in
+    # the gate's own success message, and a success message nobody can trust is a gate nobody reads.
+    if accepted_drift:
+        print(f"  clean — complete, {len(accepted_drift)} recorded exception(s), no unapproved drift")
+    else:
+        print("  clean — keep-list complete and byte-identical")
     return 0
 
 
@@ -384,7 +495,11 @@ def main() -> int:
         return accept(args.accept, args.reason)
 
     data = load_baseline()
-    accepted = {k: v for k, v in data.get("files", {}).items() if v.get("accepted")}
+    accepted = {
+        k: v
+        for k, v in data.get("files", {}).items()
+        if v.get("accepted") and scope_of(v) == "keeplist"
+    }
     codes = []
     if args.scope in ("pipeline", "all"):
         codes.append(check())
