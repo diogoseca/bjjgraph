@@ -29,12 +29,25 @@
  *
  * WHERE IT DELIBERATELY DIFFERS FROM A BUILD, AND WHY THAT IS SAFE
  *
- *   * `concurrency: 1`, so parse runs in-process instead of in `workerpool` workers. The worker
- *     bundle empties `.scss` and `*.inline.ts` imports (`parse.ts:58-71`) while the main-thread
- *     bundle keeps their real text, so the two paths are only equivalent while no transformer
- *     imports either. Measured: none does —
- *       grep -rn '\.scss\|\.inline"' source/quartz/plugins/transformers/*.ts | grep import   # 0
- *     Re-run that grep before trusting a capture taken after stream A lands.
+ *   * `concurrency: 1` by default, so parse runs in-process instead of in `workerpool` workers.
+ *     The parse-worker bundle empties `.scss` and `*.inline.ts` imports (`parse.ts:58-71`) while
+ *     the main-thread bundle keeps their real text.
+ *
+ *     CORRECTED (V, D-58): an earlier version of this comment claimed no transformer imports
+ *     either, "measured" with `grep -rn '\.scss\|\.inline"' …`. That pattern required a quote
+ *     immediately after `.inline` and the real specifiers end `.inline.ts"`, so it matched
+ *     nothing and read as clean — the matcher-that-matches-nothing defect, in a comment claiming
+ *     to have measured. **`ofm.ts` DOES import two of them**, `callout.inline.ts:11` and
+ *     `checkbox.inline.ts:13`.
+ *
+ *     The equivalence still holds, for a different and checkable reason: both are consumed ONLY
+ *     inside `externalResources()` (`ofm.ts:731`, `:739`), as `script:` values on JSResources.
+ *     `externalResources` is never called by the parse worker — `createProcessor` uses only
+ *     `markdownPlugins`/`htmlPlugins` — it is collected by `getStaticResourcesFromPlugins` on the
+ *     MAIN thread, which is the path this capture uses. So the worker's empty strings never reach
+ *     an AST or an emitted byte. Re-check with:
+ *       grep -rn 'components/scripts/\|\.scss"' source/quartz/plugins/transformers/*.ts
+ *       # 2 hits, both ofm.ts, both used only under externalResources
  *   * Each emitter writes into its OWN output directory, and they run one at a time. That is what
  *     makes per-emitter attribution exact. It cannot change any emitter's file set — they write to
  *     disjoint roots — but it does mean this capture does not exercise the real build's phase-two
@@ -279,6 +292,10 @@ for (const emitter of config.plugins.emitters) {
     files,
     error,
     ms: elapsed,
+    // Counted AFTER emit() returned. This is what distinguishes a completed observation of an
+    // empty output from an extractor that never ran (V's addendum, D-58).
+    emitter_runs: error ? 0 : 1,
+    output_root: outRoot,
   })
 }
 
@@ -294,6 +311,11 @@ console.log(
       copy_source_root: path.relative(process.cwd(), staticSource).split(path.sep).join("/"),
       discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
       parse_ms: tParse,
+      // The concurrency parseMarkdown ACTUALLY used, computed the way parse.ts:123 computes it,
+      // not the value that was requested.
+      parse_concurrency_actual:
+        ctx.argv.concurrency ?? Math.min(Math.max(Math.round(fps.length / 128), 1), 4),
+      parse_path: (ctx.argv.concurrency ?? 4) === 1 ? "main-thread" : "workerpool",
     }),
 )
 `
@@ -433,6 +455,7 @@ function seededRegions(staticSourceFiles) {
   }
   return [
     {
+      // Output-relative, because each record scopes this against its own data.files paths.
       path: "static/neural/",
       reason: m.note,
       evidence: `${m.seeded_from} · manifest_sha256 ${m.manifest_sha256} · ${SEED_MANIFEST}`,
@@ -578,11 +601,28 @@ function main() {
 
   fs.mkdirSync(outDir, { recursive: true })
   const head = gitHead()
-  const seeded = seededRegions(captured.copy_source_files)
-  const seededPrefixes = seeded.map((s) => s.path.replace(/^static\//, "").replace(/\/$/, "") + "/")
+  // The GLOBAL input seeding (what was seeded into source/quartz/static). Each record then scopes
+  // it to the paths that actually appear in that record's own output.
+  const inputSeeded = seededRegions(captured.copy_source_files)
 
   let failures = 0
   const summary = []
+
+  // Emptiness that is a MEASURED PROPERTY OF THIS CORPUS rather than a failed capture. Assets
+  // copies every non-markdown file under content/ and the corpus has none that survive the
+  // ignorePatterns: 1,807 non-.md files, of which 1,679 are .json killed by
+  // `**/!(bjj-graph).json` and 128 are dot-paths held out by globby's dot:false. Any OTHER
+  // emitter returning zero is a failed capture, not an observation.
+  const EXPECTED_EMPTY = {
+    Assets:
+      "Measured property of this corpus, not a failed capture: Assets copies non-markdown files " +
+      "from content/ and every candidate is excluded — the .json files by the " +
+      '"**/!(bjj-graph).json" ignorePattern and the dot-paths by globby\'s dot:false default. ' +
+      "The emitter ran to completion and wrote nothing. This observation does NOT prove the " +
+      "emitter's file-producing branch still works; that branch has no corpus witness and is " +
+      "covered by the positive-floor fixture in tests/emitter_filesystem.test.mjs (D-51).",
+  }
+
   for (const r of captured.results) {
     if (r.error) {
       console.error(`emit_seam_capture: emitter ${r.emitter} THREW — ${r.error.message}`)
@@ -590,26 +630,39 @@ function main() {
       continue
     }
     const data = { emitter: r.emitter, files: r.files, returned_paths: r.returned_paths }
-    if (r.emitter === "Static") {
-      data.copy_source_files = captured.copy_source_files
-      data.copy_source_root = captured.copy_source_root
-    }
+    if (r.emitter === "Static") data.copy_source_files = captured.copy_source_files
 
     let mutantNote = null
     if (mutant) mutantNote = applyMutant(data, mutant)
 
     const fileCount = Object.keys(data.files).length
-    const seededFiles = Object.keys(data.files).filter((p) =>
-      seededPrefixes.some((pre) => p.startsWith("static/" + pre)),
-    ).length
 
-    // A capture that produced nothing is not a passing capture. Assets legitimately emits zero
-    // against this corpus, so it is the one emitter allowed an empty set — and the emptiness is
-    // stated rather than inferred.
-    if (fileCount === 0 && r.emitter !== "Assets") {
+    // seeded_regions is PER OUTPUT RECORD: each entry's count is the paths of that region present
+    // in THIS record's data.files, not the global input seeding. Only Static copies the neural
+    // payload into an output, so every other record carries an empty list. The global input
+    // provenance is retained separately as input_seeded_regions.
+    const recordSeeded = inputSeeded
+      .map((region) => {
+        const prefix = region.path.replace(/\/$/, "") + "/"
+        const files = Object.keys(data.files).filter((p) => p.startsWith(prefix)).length
+        return { ...region, files }
+      })
+      .filter((region) => region.files > 0)
+    const seededFiles = recordSeeded.reduce((n, region) => n + region.files, 0)
+
+    if (fileCount === 0 && !(r.emitter in EXPECTED_EMPTY)) {
       console.error(
-        `emit_seam_capture: ${r.emitter} produced ZERO files. That is a failed capture, not a ` +
-          `clean one — refusing to write a record that would read like coverage.`,
+        `emit_seam_capture: ${r.emitter} produced ZERO files and is not a known-empty emitter. ` +
+          `That is a failed capture, not an observation — refusing to write a record that would ` +
+          `read like coverage.`,
+      )
+      failures++
+      continue
+    }
+    if (fileCount === 0 && captured.discovered.all <= 0) {
+      console.error(
+        `emit_seam_capture: ${r.emitter} produced zero files AND discovery found nothing. ` +
+          `An empty result is only an observation when there is proof that work happened.`,
       )
       failures++
       continue
@@ -626,25 +679,45 @@ function main() {
         returned_paths: data.returned_paths.length,
         seeded_files: seededFiles,
         parity_files: fileCount - seededFiles,
+        // Counted after this emitter's emit() resolved. A completed empty observation carries
+        // emitter_runs: 1; a capture that never ran carries no record at all.
+        emitter_runs: r.emitter_runs,
       },
       provenance: {
         git_head: head,
         producer: `scripts/emit_seam_capture.mjs (stream B, D-26) -> ${r.emitter}.emit`,
         execution:
           "real cfg.plugins.emitters instance, invoked in-process from a bundle built with " +
-          "Quartz's own esbuild config (cli/handlers.js handleBuild); parse concurrency 1; " +
-          "each emitter writes to its own output root and runs one at a time so attribution is " +
-          "by actual execution, not path shape",
+          "Quartz's own esbuild config (cli/handlers.js handleBuild); parse ran at concurrency " +
+          `${captured.parse_concurrency_actual} on the ${captured.parse_path} path; each emitter ` +
+          "writes to its own output root and runs one at a time so attribution is by actual " +
+          "execution, not path shape",
         inventory: "filesystem walk + read + sha256 after this emitter's emit() promise resolved",
-        seeded_regions: seeded,
+        output_root: r.output_root,
+        seeded_regions: recordSeeded,
+        input_seeded_regions: inputSeeded,
         corpus: {
           discovered_all: captured.discovered.all,
           discovered_md: captured.discovered.md,
           parsed: captured.discovered.parsed,
           published: captured.discovered.published,
           partial: limit > 0,
-          parse_concurrency: concurrency,
+          parse_concurrency: captured.parse_concurrency_actual,
         },
+        ...(r.emitter === "Static" ? { copy_source_root: captured.copy_source_root } : {}),
+        ...(fileCount === 0
+          ? {
+              empty_output: {
+                reason: EXPECTED_EMPTY[r.emitter],
+                evidence:
+                  `emitter_runs=1 after emit() resolved; discovery found ` +
+                  `${captured.discovered.all} input files and ${captured.discovered.published} ` +
+                  `published pages in the same run, so the pipeline did work and this emitter ` +
+                  `chose to write nothing. Recompute: node scripts/emit_seam_capture.mjs ` +
+                  `--out DIR --emitter ${r.emitter} --limit 8 --plain --list`,
+              },
+            }
+          : {}),
         ...(mutantNote ? { mutant: `${mutant}: ${mutantNote}` } : {}),
       },
     }
@@ -655,7 +728,8 @@ function main() {
     summary.push(
       `${r.emitter.padEnd(20)} files=${String(fileCount).padStart(6)} ` +
         `returned=${String(data.returned_paths.length).padStart(6)} ` +
-        `seeded=${String(seededFiles).padStart(6)} parity=${String(fileCount - seededFiles).padStart(6)}`,
+        `seeded=${String(seededFiles).padStart(6)} parity=${String(fileCount - seededFiles).padStart(6)}` +
+        `${fileCount === 0 ? "  [completed-empty, attested]" : ""}`,
     )
   }
 
