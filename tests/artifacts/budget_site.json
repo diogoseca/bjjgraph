@@ -1,7 +1,7 @@
 {
  "_meta": {
   "format": 2,
-  "neural_note": "neural.* are hand-set TARGETS from the field data (LCP P75 13,764ms / 39.3MB raw to first move), not seeded observations. --update never raises them.",
+  "neural_note": "neural.* are hand-set TARGETS from the field data (LCP P75 13,764ms / 39.3MB raw to first move), not seeded observations. --update never raises them: _neural_ceilings() takes min(committed, NEURAL_TARGET), so a hand-tightened ceiling is never loosened by a re-seed, and raising one is a hand edit of NEURAL_TARGET in scripts/check_payload_budget.py. eager_gzip_bytes IS DELIBERATELY ABSENT SINCE v1.189.0: it moved to the three-band policy in tests/artifacts/payload_policy.json, and check_payload_budget.py HARD-FAILS if the key reappears here (POLICY_OWNED) - a stale hard ceiling beside a soft policy shadows it silently, because only the stricter of the two is ever seen. Why it had to move: on the tree v1.189.0 was written against, the eager set gzips to 329,808 against the 330,000 ceiling it replaced - 192 bytes - so the next neural feature of any size was going red on arrival and the only move available was to raise the ceiling again.",
   "note": "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling means the payload grew \u2014 justify it in the commit body.",
   "seed_headroom": 1.1
  },
@@ -14,7 +14,6 @@
  "neural": {
   "chunk_max_bytes": 40000,
   "deferred_raw_bytes": 500000,
-  "eager_gzip_bytes": 330000,
   "eager_raw_bytes": 1600000
  },
  "observed": {
