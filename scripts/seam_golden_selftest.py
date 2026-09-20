@@ -31,13 +31,48 @@ def seeded_region_proofs():
     print('PASS coverage: 4 seeded-region proofs; declarations never suppress copy differences')
 
 
+def value_proofs(tree):
+    from emit_fingerprint import fingerprint_html, html_value_proofs, sha
+    from emit_diff import diff_record, Allow
+    raw = (tree / 'Positions/Mount.html').read_bytes()
+    def record(b):
+        return {'cls': 'html', 'sha': sha(b), 'size': len(b), 'fp': fingerprint_html(b, 'page.html'),
+                'value_proofs': html_value_proofs(b)}
+    g = record(raw)
+    allow = Allow({'rules': [{'id': 'date-fallback', 'field': r'html\.value\.published-time',
+                             'reason': 'selftest only', 'evidence': 'actual emitted fixture'},
+                            {'id': 'year', 'field': r'html\.value\.footer-year',
+                             'reason': 'selftest only', 'evidence': 'actual emitted fixture'}]})
+    import re
+    old = re.search(rb'"datePublished":"([^"]+)"', raw).group(1)
+    cases = [
+        ('date value', raw.replace(old, b'2026-09-21T12:34:56.789Z'), True),
+        ('footer year', raw.replace('BJJGraph.org © 2026'.encode(), 'BJJGraph.org © 2027'.encode()), True),
+        ('missing date', raw.replace(b'"datePublished":"' + old + b'",', b''), False),
+        ('malformed date', raw.replace(old, b'not-a-date'), False),
+        ('invalid calendar date', raw.replace(old, b'2026-02-30T12:34:56.789Z'), False),
+        ('date plus unextracted body change', raw.replace(old, b'2026-09-21T12:34:56.789Z').replace(b'under active development', b'under silent corruption'), False),
+        ('year plus unextracted body change', raw.replace('BJJGraph.org © 2026'.encode(), 'BJJGraph.org © 2027'.encode()).replace(b'under active development', b'under silent corruption'), False),
+    ]
+    for name, candidate, accepted in cases:
+        assert candidate != raw, name
+        rows = diff_record('page.html', g, record(candidate))
+        assert rows, name
+        remaining = [r for r in rows if not allow.suppress('page.html', r[1], r[2], r[3])]
+        assert (not remaining) == accepted, (name, rows)
+    print(f'PASS coverage: {len(cases)} value-normalization proofs; presence, format and unrelated bytes remain pinned')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--tree', type=Path, required=True)
     ap.add_argument('--seeded', action='store_true')
+    ap.add_argument('--values', action='store_true')
     args = ap.parse_args()
     if args.seeded:
         seeded_region_proofs()
+    if args.values:
+        value_proofs(args.tree)
     runner = Path(__file__).with_name('seam_golden.py')
     page = 'Positions/Mount.html'
     raw = (args.tree / page).read_bytes()

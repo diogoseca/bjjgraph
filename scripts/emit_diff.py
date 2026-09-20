@@ -292,6 +292,24 @@ def diff_record(rel, gr, cr):
     out = []
     gfp, cfp = gr.get("fp"), cr.get("fp")
 
+    # A valid proof establishes that ONLY declared token VALUES moved; it does not
+    # accept them. Without an explicit --allow rule they remain named differences.
+    # Unlike suppressing head_raw_sha/jsonld/sha separately, the masked whole-page
+    # SHA cannot hide an unrelated byte change next to an allowed timestamp change.
+    if cls == 'html' and gr.get('sha') != cr.get('sha'):
+        gp, cp = gr.get('value_proofs', {}), cr.get('value_proofs', {})
+        for key in ('published-time', 'footer-year', 'published-time+footer-year'):
+            g, c = gp.get(key), cp.get(key)
+            if not g or not c or not g.get('valid') or not c.get('valid'):
+                continue
+            if g['sha'] != c['sha'] or g['counts'] != c['counts']:
+                continue
+            changed = [(name, g['values'][name], c['values'][name]) for name in g['values']
+                       if g['values'][name] != c['values'][name]]
+            if changed:
+                return [('S1_SEO_HEAD' if name == 'published-time' else 'S3_SHELL',
+                         'html.value.' + name, gv, cv) for name, gv, cv in changed]
+
     if cls == "html":
         if gfp is None or cfp is None:
             if gr["sha"] != cr["sha"]:
