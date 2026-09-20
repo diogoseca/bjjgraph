@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """D-01's "prove they do not move" check: the frozen keep-list is COMPLETE and HONOURED.
 
+SUPERSEDED BY A's GATE — D-41. quartz-cto ruled that A already owns a byte-freeze gate
+(D-27, covering plugins/transformers/**) with an identical mechanism on a disjoint set, and
+that two scripts doing one job is the readers.css / reading.css shape this programme has
+already paid for once. This file has been handed to mgr-cl-1 to fold in as a second scope.
+IT IS KEPT HERE ONLY AS THE HANDOVER SOURCE and is deleted once A confirms the fold-in.
+Do not extend it; extend A's gate.
+
 NOT a permanent gate and NOT scripts/check_*.py. This is a programme-lifetime probe for the
 Quartz replacement: D-01 keeps every file under source/quartz/components/ (plus the styles, i18n
 and util modules) verbatim while the engine around them is replaced, and INTERFACE.md section 7
