@@ -10,15 +10,18 @@ type WriteOptions = {
   content: string | Buffer
 }
 
-// Cache of directories already created this build (avoids redundant mkdir syscalls)
-const createdDirs = new Set<string>()
+// Build-local: the driver removes output directories before every full/watch rebuild.
+// A module-level Set outlives that cleanup and skips required mkdirs on the second build.
+const createdDirs = new WeakMap<BuildCtx, Set<string>>()
 
 export const write = async ({ ctx, slug, ext, content }: WriteOptions): Promise<FilePath> => {
   const pathToPage = joinSegments(ctx.argv.output, slug + ext) as FilePath
   const dir = path.dirname(pathToPage)
-  if (!createdDirs.has(dir)) {
+  let dirs = createdDirs.get(ctx)
+  if (!dirs) createdDirs.set(ctx, (dirs = new Set()))
+  if (!dirs.has(dir)) {
     await fs.promises.mkdir(dir, { recursive: true })
-    createdDirs.add(dir)
+    dirs.add(dir)
   }
   await fs.promises.writeFile(pathToPage, content)
   return pathToPage
