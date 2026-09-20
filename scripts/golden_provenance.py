@@ -136,6 +136,8 @@ def inspect_content(receipt, repo):
     if not isinstance(receipt, dict):
         return {**result, 'reason': 'no capture-time content attestation; a commit alone cannot prove what the build read'}
     result['capture_git_head'] = receipt.get('capture_git_head')
+    if receipt.get('schema') == 'legacy-input-unverified':
+        return {**result, 'reason': receipt['reason']}
     required = ('content_files', 'content_md')
     if (receipt.get('schema') != SCHEMA or receipt.get('state') != 'complete'
             or receipt.get('content_clean_at_start') is not True or receipt.get('content_clean_at_end') is not True
@@ -223,6 +225,25 @@ def receipt_from(artifact):
         if meta.get('capture_id') != receipt.get('capture_id'):
             raise ProvenanceError('record and content receipt capture IDs differ')
         return receipt
+    # Context only, NEVER a reconstructed proof. In particular a retained build0
+    # .env.txt names 308d6f577 and four dirty paths, but cannot name their identities.
+    legacy_head = meta.get('git_head')
+    tree = artifact.get('tree', meta.get('tree'))
+    reason = 'recorded commit alone is not a capture-time clean-content attestation'
+    if isinstance(tree, str):
+        env = Path(tree + '.env.txt')
+        if env.exists():
+            try:
+                fields = dict(parts for line in env.read_text().splitlines()
+                              if len(parts := line.split(None, 1)) == 2)
+            except OSError as e:
+                raise ProvenanceError(f'cannot inspect legacy capture metadata {env}: {e}') from e
+            legacy_head = fields.get('git_head', legacy_head)
+            dirty = fields.get('git_dirty', fields.get('git_status_paths', 'unrecorded'))
+            reason = (f'legacy capture metadata reports dirty={dirty}, without an attested content input set; '
+                      'matching committed content cannot recover unknown dirty bytes')
+    if legacy_head:
+        return {'schema': 'legacy-input-unverified', 'capture_git_head': legacy_head, 'reason': reason}
     return None
 
 

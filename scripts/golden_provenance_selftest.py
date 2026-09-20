@@ -96,6 +96,12 @@ def cli_legacy(root):
                              capture_output=True, text=True)
     assert control.returncode == 0 and 'PASS NO DIFFERENCES; compared=1' in control.stdout
     assert 'current-source parity NOT asserted' in control.stdout
+    from golden_provenance import receipt_from, inspect_content
+    retained = root / 'retained-build'
+    Path(str(retained) + '.env.txt').write_text('git_head ' + '1' * 40 + '\ngit_dirty 4 path(s)\n')
+    legacy = inspect_content(receipt_from({'tree': str(retained)}), root)
+    assert legacy['state'] == 'UNVERIFIED' and legacy['capture_git_head'] == '1' * 40
+    assert 'dirty=4 path(s)' in legacy['reason']
     print('PASS legacy CLI: identical bytes cannot attest unknown capture inputs')
 
 
