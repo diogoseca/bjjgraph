@@ -29,7 +29,9 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
 
   const ordered = cfg.plugins.emitters.map((_, index) => index)
   const results: EmitResult[] = []
-  // Load-bearing: Static copies a WHOLE directory and can overwrite contentIndex.json.
+  // D-35: fs.cp merges; it does not delete generated contentIndex files. This barrier
+  // preserves incumbent scheduling and prevents concurrent writes under output/static/.
+  // That race is currently dormant: cdnCaching:true avoids ComponentResources' font writes.
   // Preserve the config-relative order of these two, and finish BOTH before parallel emit.
   for (const index of ordered.filter((index) =>
     required.includes(cfg.plugins.emitters[index].name),

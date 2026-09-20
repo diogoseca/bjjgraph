@@ -36,8 +36,8 @@ async function buildOnce(argv: Argv) {
       rimraf(path.join(argv.output, "*"), { glob: true, maxRetries: 3, backoff: 1.5 }),
     )
     const files = await phase("discover", () =>
-      // util/glob keeps globby's dot:false directory exclusion. The bare ignore token
-      // '.obsidian' does NOT exclude its descendants; git ls-files/dot:true leaks a plugin.
+      // D-35: dot:false and the '.obsidian' ignore pattern independently exclude that
+      // directory. Only dot:false also protects future hidden directories such as .vscode.
       glob("**/*.*", argv.directory, cfg.configuration.ignorePatterns),
     )
     const markdown = files.filter((file) => file.endsWith(".md")).sort()
