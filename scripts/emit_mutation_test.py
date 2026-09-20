@@ -304,7 +304,7 @@ def capture_driver_suite():
         root = Path(tmp) / 'repo'; root.mkdir()
         for d in ('scripts', 'source', 'content', 'bin'):
             (root / d).mkdir()
-        for name in ('emit_golden.sh', 'emit_fingerprint.py'):
+        for name in ('emit_golden.sh', 'emit_fingerprint.py', 'golden_provenance.py'):
             shutil.copyfile(original / name, root / 'scripts' / name)
         (root / 'source/package-lock.json').write_text('{}')
         (root / 'content/page.md').write_text('fixture')
@@ -343,6 +343,12 @@ def capture_driver_suite():
         assert (dest / 'complete/index.html').read_text() == html
         meta = (dest / 'complete.env.txt').read_text()
         assert 'capture_year' in meta and 'capture_id' in meta and 'steps_sha256' in meta
+        receipt = json.loads((dest / 'complete.content.json').read_text())
+        assert receipt['state'] == 'complete' and receipt['content_files'] == 1 and receipt['content_md'] == 1
+        assert receipt['content_clean_at_start'] and receipt['content_clean_at_end']
+        assert 'scripts/emit_golden.sh' in {r['path'] for r in receipt['dirty_paths_start']}
+        assert all('kind' in row for row in receipt['dirty_paths_start'])
+        assert receipt['output_identity']['files'] == 1 and len(receipt['output_identity']['sha256']) == 64
         events = json.loads((dest / 'complete.steps-run.json').read_text())
         assert len(events) == 3 and all(e['exit_code'] == 0 for e in events)
         run('complete', 2)
@@ -366,6 +372,17 @@ def capture_driver_suite():
         assert not (dest / 'zero-output').exists()
         wrong_env = {**plan, 'environment': {'SHOW_BREADCRUMBS': 'fixture'}}
         steps.write_text(json.dumps(wrong_env)); run('wrong-environment', 2)
+        changed = {**plan, 'steps': [{'cwd': 'repo', 'argv': [sys.executable, '-c',
+                   "from pathlib import Path; Path('content/page.md').write_text('owner edit'); Path('source/public').mkdir(exist_ok=True); Path('source/public/index.html').write_text(" + repr(html) + ")"]}]}
+        steps.write_text(json.dumps(changed)); before = (root / 'content/page.md').read_bytes()
+        result = run('content-moved', 2)
+        assert 'capture inputs moved' in result.stderr and not (dest / 'content-moved').exists()
+        (root / 'content/page.md').write_bytes(before)
+        assert (root / 'content/page.md').read_bytes() == before
+        (root / 'content/added.md').write_text('untracked new input')
+        result = run('untracked-content', 2)
+        assert 'fully tracked content' in result.stderr and not (dest / 'untracked-content').exists()
+        (root / 'content/added.md').unlink()
         steps.write_text(json.dumps(plan)); (root / 'source/.env').write_text('FIXTURE=not-secret')
         run('ambient-dotenv', 2)
         print(f'PASS coverage: {checked} capture-driver cases; no full build or network command executed')

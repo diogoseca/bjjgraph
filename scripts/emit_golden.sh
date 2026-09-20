@@ -24,6 +24,11 @@
 # pairs can hold birthtime and Footer year fixed (D-59). F owns workflow/order and
 # Python-provisioning validation; V owns JS/TS specifiers. No normalization is applied.
 # Capture-year metadata makes Footer rollover visible, not automatically forgiven.
+# .capture-inputs.json names/hashes every Git-dirty path at both boundaries. Content
+# must be clean and fully tracked (including no ignored extras); a changed HEAD or
+# content during the chain prevents publication. .content.json binds the completed
+# content proof to the emitted tree's named bytes. Old build0 has neither proof:
+# its four unnamed dirty paths remain permanently input-unverified.
 # Pinned by: python3 scripts/emit_mutation_test.py --capture-driver (tiny local steps).
 set -euo pipefail
 TASK_CAPTURE_REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -42,6 +47,8 @@ import time
 import uuid
 
 repo = Path(sys.argv[1])
+sys.path.insert(0, str(repo / 'scripts'))
+from golden_provenance import begin_capture, finish_capture, ProvenanceError
 parser = argparse.ArgumentParser(description='Execute and attest a supplied emit chain; never overwrite a golden.')
 parser.add_argument('dest', type=Path)
 parser.add_argument('label')
@@ -104,7 +111,7 @@ def main():
         print('PASS step list validated; executed_steps=0 (validation only)')
         return 0
     dest = args.dest.resolve()
-    suffixes = ('', '.json.gz', '.env.txt', '.steps.json', '.steps-run.json', '.build.log', '.inputs.json')
+    suffixes = ('', '.json.gz', '.env.txt', '.steps.json', '.steps-run.json', '.build.log', '.inputs.json', '.capture-inputs.json', '.content.json')
     if any((dest / (args.label + suffix)).exists() for suffix in suffixes):
         raise ValueError('capture label already exists; choose a new label, never overwrite')
     if (repo / 'source/.env').exists():
@@ -128,10 +135,17 @@ def main():
     os.environ.setdefault('TMPDIR', '/home/user/tmp-pw')
     runtime = json.loads(command(['node', '-e', 'process.stdout.write(JSON.stringify({year:new Date().getFullYear(),timezone:Intl.DateTimeFormat().resolvedOptions().timeZone,versions:process.versions}))']))
     capture_id = uuid.uuid4().hex
+    source_receipt = begin_capture(repo, capture_id)
     dest.mkdir(parents=True, exist_ok=True)
     prefix = dest / args.label
     def artifact(suffix):
         return Path(str(prefix) + suffix)
+    source_receipt['output_roots'] = [str((repo / 'source/public').resolve()), str(prefix)]
+    artifact('.capture-inputs.json').write_text(json.dumps(source_receipt, ensure_ascii=False, indent=2) + '\n')
+    # Observer records may reference this receipt and capture ID. It is incomplete
+    # until the full chain and input guard succeed; a failed run cannot attest inputs.
+    os.environ['BJJ_CONTENT_RECEIPT'] = str(artifact('.capture-inputs.json'))
+    os.environ['BJJ_CAPTURE_ID'] = capture_id
     plan_raw = (json.dumps(plan, ensure_ascii=False, indent=2) + '\n').encode()
     artifact('.steps.json').write_bytes(plan_raw)
     inputs = {}
@@ -150,6 +164,7 @@ def main():
     dirty_sha = digest(subprocess.check_output(['git', 'diff', '--binary', 'HEAD'], cwd=repo))
     metadata = [f'label {args.label}', f'capture_id {capture_id}', f'repo {repo}', f'git_head {head}',
         f'git_dirty_diff_sha256 {dirty_sha}', f'git_status_paths {len(command(["git", "status", "--porcelain"]).splitlines())}',
+        f'git_dirty_paths_json {json.dumps(source_receipt["dirty_paths_start"], ensure_ascii=False)}',
         f'capture_start_utc {utc()}', f'capture_year {runtime["year"]}', f'footer_rollover_year {runtime["year"] + 1}',
         f'timezone {runtime["timezone"]}', f'node_versions {json.dumps(runtime["versions"], sort_keys=True)}',
         f'python {sys.version.split()[0]}', f'steps_sha256 {digest(plan_raw)}',
@@ -190,18 +205,27 @@ def main():
     pages = sum(p.suffix == '.html' for p in files)
     if not files or not pages:
         raise ValueError(f'zero output coverage: files={len(files)}, html={pages}')
+    completed_receipt = finish_capture(source_receipt, repo)
     # Keep a staging directory if copy is interrupted; never publish a partial golden.
     staging = dest / ('.' + args.label + '.capture-' + capture_id)
     shutil.copytree(tree, staging, symlinks=False)
+    # Copying also takes time: assert again before publishing, not just before copy.
+    completed_receipt = finish_capture(source_receipt, repo)
     staging.rename(prefix)
+    receipt_tmp = artifact('.capture-inputs.json.tmp')
+    receipt_tmp.write_text(json.dumps(completed_receipt, ensure_ascii=False, indent=2) + '\n')
+    receipt_tmp.replace(artifact('.capture-inputs.json'))
     with artifact('.env.txt').open('a') as f:
         f.write(f'capture_end_utc {utc()}\ncapture_year_end {datetime.now().year}\n')
         f.write(f'git_head_end {command(["git", "rev-parse", "HEAD"])}\n')
         f.write(f'git_dirty_diff_sha256_end {digest(subprocess.check_output(["git", "diff", "--binary", "HEAD"], cwd=repo))}\n')
+        f.write(f'git_dirty_paths_end_json {json.dumps(completed_receipt["dirty_paths_end"], ensure_ascii=False)}\n')
         f.write(f'completed_steps {len(steps)}\ncompleted_preflight_steps {len(preflight)}\nsnapshot_files {len(files)}\nsnapshot_html {pages}\n')
     print(f'PASS executed_steps={len(steps)}, snapshot_files={len(files)}, html={pages}', flush=True)
     return subprocess.call([sys.executable, str(repo / 'scripts/emit_fingerprint.py'), str(prefix),
-                            '--out', str(artifact('.json.gz')), '--jobs', '1', '--label', f'{args.label} capture={capture_id} @ {head}'])
+                            '--out', str(artifact('.json.gz')), '--jobs', '1', '--label', f'{args.label} capture={capture_id} @ {head}',
+                            '--source-repo', str(repo), '--content-receipt', str(artifact('.capture-inputs.json')),
+                            '--write-content-receipt', str(artifact('.content.json'))])
 
 try:
     raise SystemExit(main())

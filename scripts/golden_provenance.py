@@ -165,6 +165,47 @@ def read_receipt(path):
     return value
 
 
+def output_identity(files):
+    """Bind the receipt to named output bytes, not just to an output directory."""
+    if not files:
+        raise ProvenanceError('zero output files in capture receipt')
+    rows = []
+    for name, record in sorted(files.items()):
+        size, digest = record.get('size'), record.get('sha', record.get('sha256'))
+        if type(size) is not int or size < 0 or not re.fullmatch(r'[0-9a-f]{64}', str(digest)):
+            raise ProvenanceError(f'cannot bind unreadable output: {name}')
+        rows.append([name, size, digest])
+    raw = json.dumps(rows, ensure_ascii=False, separators=(',', ':')).encode()
+    return {'files': len(rows), 'sha256': hashlib.sha256(raw).hexdigest()}
+
+
+def read_capture_receipt(args, tree, *, files=None, require_output_hash=False):
+    if not args.content_receipt:
+        raise ProvenanceError('capture/re-seed requires --content-receipt from the actual completed build')
+    receipt = read_receipt(args.content_receipt)
+    verdict = inspect_content(receipt, args.source_repo)
+    if verdict['state'] != 'MATCH':
+        raise ProvenanceError(f'capture inputs {verdict["state"]}: {verdict["reason"]}')
+    roots = receipt.get('output_roots', [])
+    if str(Path(tree).resolve()) not in roots:
+        raise ProvenanceError('receipt does not name this emitted tree; cannot stamp current HEAD onto old output')
+    if require_output_hash:
+        if not receipt.get('output_identity'):
+            raise ProvenanceError('re-seed requires a receipt bound to the actual emitted bytes')
+        if files is None:
+            files = {}
+            for path in sorted(Path(tree).rglob('*')):
+                if path.is_file():
+                    h = hashlib.sha256()
+                    with path.open('rb') as f:
+                        for block in iter(lambda: f.read(1024 * 1024), b''):
+                            h.update(block)
+                    files[path.relative_to(tree).as_posix()] = {'size': path.stat().st_size, 'sha': h.hexdigest()}
+        if output_identity(files) != receipt['output_identity']:
+            raise ProvenanceError('emitted tree differs from the build receipt; refusing a self-advancing baseline')
+    return receipt
+
+
 def receipt_from(artifact):
     if artifact.get('content_provenance') is not None:
         return artifact['content_provenance']

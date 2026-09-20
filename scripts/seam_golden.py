@@ -50,7 +50,7 @@ import time
 
 from emit_diff import diff_record
 from emit_fingerprint import fingerprint_html, sha
-from golden_provenance import ContentGuard, add_arguments
+from golden_provenance import ContentGuard, add_arguments, read_capture_receipt
 
 SCHEMA = 'quartz-seam-v1'
 
@@ -207,6 +207,8 @@ def first_differences(g, c, path='data', limit=12):
 
 def extract_render(args):
     tree = args.tree.resolve(strict=True)
+    receipt = None if args.artifact_only else read_capture_receipt(args, tree, require_output_hash=True)
+    guard = ContentGuard({'content_provenance': receipt}, args, 'render extraction')
     pages = sorted(set(args.page)) if args.page else sorted(p.relative_to(tree).as_posix() for p in tree.rglob('*.html'))
     if not pages:
         raise ValueError('zero HTML pages selected')
@@ -216,9 +218,10 @@ def extract_render(args):
         raw = (tree / key).read_bytes()
         data = render_data(raw, key)
         counts = render_coverage(data)
-        record = envelope('render', key, data, counts, dict(tree=str(tree)))
+        record = envelope('render', key, data, counts, dict(tree=str(tree), content_provenance=receipt))
         write_record(args.out / (key + '.json'), record)
         coverage.update(counts)
+    guard.finish()
     print(f'PASS coverage: {json.dumps(dict(coverage), sort_keys=True)}; render goldens={args.out}')
     return 0
 
@@ -267,6 +270,7 @@ def main():
     p.add_argument('--tree', type=Path, required=True)
     p.add_argument('--out', type=Path, required=True)
     p.add_argument('--page', action='append', default=[])
+    add_arguments(p, capture=True)
     p.set_defaults(run=extract_render)
     p = sub.add_parser('verify')
     p.add_argument('--golden', type=Path, required=True)
