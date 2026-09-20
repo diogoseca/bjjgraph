@@ -21,10 +21,32 @@ import { resolve } from "node:path"
  * is precisely what starves the visitor's connection and wrecks their LCP. Everything the page
  * asked for before the hand is on the bill.
  *
- * Ceilings live in tests/artifacts/budget_neural.json. Shrinking passes; raising a ceiling is a
- * deliberate, separately justified commit. The companion browserless ratchet is
- * scripts/check_payload_budget.py ("neural eager set"), which measures the same weight off the
- * built tree so CI gates without a browser.
+ * THE GZIP FIGURE IS NO LONGER A CEILING (v1.189.0, owner's call). It is governed by the
+ * three-band policy in tests/artifacts/payload_policy.json — a target it may sit above, an action
+ * threshold it may not cross, and a cap on how much ONE change may add. scripts/_payload_policy.py
+ * carries the rationale and the owner's own words; scripts/_payload_policy.js is the twin this
+ * spec calls, and tests/payload_policy.test.mjs pins the two equal. `first_hand_raw_bytes` and
+ * `boot_chunk_requests` stay plain hard ceilings in budget_neural.json.
+ *
+ * WHAT THE DELTA IS MEASURED ON, AND WHY IT IS NOT THE TOTAL. The bands judge every byte. The
+ * delta cap judges `first_hand_gzip_core_bytes` = the total MINUS /postscript.js MINUS the
+ * per-node chunks, because those two are the only parts of this number that move without anybody
+ * changing any code, and a cap that charges for them is a cap that false-reds — which here means
+ * a skipped deploy and a stale preview, measured twice already (v1.173.1, v1.175.1).
+ *   · /postscript.js — the deploy bakes the PostHog snippet into it and no local or PR build does:
+ *     78,095 B there against 75,641 keyless, ~1,060 B of it in gzip. Its own hard ceiling lives in
+ *     budget_site.json (bundles), so removing it from the DELTA loses no coverage.
+ *   · the per-node chunks — which decks and dossier the pinned start draw pulls. Not hypothetical:
+ *     between v1.175.0 and v1.177.0 the pinned start moved from "Gogoplata Control Top" to
+ *     "K-Guard Top" and this measurement swung by ~12,900 B gzip with 6 fewer requests, for
+ *     reasons that had nothing to do with payload weight. Their size is ratcheted by
+ *     check_payload_budget.py (chunk_max_bytes) and their COUNT by `boot_chunk_requests` below,
+ *     so removing them from the delta leaves nothing unwatched.
+ * Both exclusions are COUNTED and asserted non-empty rather than silently filtered: a rule that
+ * matches nothing must not read the same as a rule that matched and found nothing (CLAUDE.md §6.6).
+ *
+ * The companion browserless ratchet is scripts/check_payload_budget.py ("neural eager set"), which
+ * measures the same weight off the built tree so CI gates without a browser.
  *
  * A LOCAL PASS IS NOT EVIDENCE OF A CI PASS (v1.139.3). This gate measures ~1KB LIGHTER on a
  * developer machine than in CI for the SAME commit, because the CI build bakes configuration a
@@ -46,7 +68,20 @@ import { resolve } from "node:path"
 
 const BUDGET = resolve(__dirname, "../../tests/artifacts/budget_neural.json")
 const REPORT = resolve(__dirname, "../../tests/artifacts/first_hand_payload.json")
+const POLICY = resolve(__dirname, "../../tests/artifacts/payload_policy.json")
 const budget = JSON.parse(readFileSync(BUDGET, "utf8"))
+// CommonJS on purpose — the repo has no `"type": "module"`, so Playwright transpiles this file's
+// imports to require() and an .mjs twin would fail at collection time.
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const bands = require("../../scripts/_payload_policy.js")
+const GATE = "e2e/journeys/payload-first-hand.spec.ts" // how this gate names itself in the policy
+
+// The chunk space, spelled the same way scripts/check_payload_budget.py spells it (CHUNK_DIRS),
+// minus the `_`-prefixed manifests, which the app cannot boot without and which are therefore
+// EAGER on both sides. Three spellings of one rule would be two too many; if a fourth chunk
+// directory is ever added it must be added in both places, and corpus_census will not catch it.
+const CHUNK_RE = /^\/static\/neural\/(?:flashcards|content|submission-details)\/(?!_)[^/]+$/
+const POSTSCRIPT = "/postscript.js"
 
 // Payloads that must NEVER be on the boot path again. The ceilings alone are not enough of a
 // guard: they are numbers and numbers drift, whereas "the 16MB monolith is back" is a fact.
@@ -150,18 +185,40 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   const raw = rows.reduce((s, r) => s + r.raw, 0)
   const gzip = rows.reduce((s, r) => s + r.gzip, 0)
 
+  // ── the CORE subtotal the delta cap is measured on (see the header) ────────────────────────
+  const bare = (u: string) => path(u).split("?")[0]
+  const chunkRows = rows.filter((r) => CHUNK_RE.test(bare(r.url)))
+  const postRows = rows.filter((r) => bare(r.url) === POSTSCRIPT)
+  const excluded = [...chunkRows, ...postRows].reduce((s, r) => s + r.gzip, 0)
+  const coreGzip = gzip - excluded
+
   mkdirSync(resolve(REPORT, ".."), { recursive: true })
   writeFileSync(
     REPORT,
     JSON.stringify(
       {
         _meta: {
-          note: "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
+          note:
+            "Written by e2e/journeys/payload-first-hand.spec.ts. OBSERVED ONLY — nothing here is a " +
+            "threshold. first_hand_raw_bytes and boot_chunk_requests are ceilinged in " +
+            "budget_neural.json; first_hand_gzip_bytes is judged by the three-band policy in " +
+            "payload_policy.json, whose delta cap reads first_hand_gzip_core_bytes from this file " +
+            "when a baseline is accepted.",
           measured_at: new Date().toISOString(),
         },
         request_count: rows.length,
         first_hand_raw_bytes: raw,
         first_hand_gzip_bytes: gzip,
+        // total minus /postscript.js (analytics injection differs local vs deploy) minus the
+        // per-node chunks (which ones depends on where the pinned draw lands). The figure the
+        // delta cap compares; the bands still judge first_hand_gzip_bytes above.
+        first_hand_gzip_core_bytes: coreGzip,
+        excluded_from_core: {
+          postscript_gzip: postRows.reduce((s, r) => s + r.gzip, 0),
+          chunk_gzip: chunkRows.reduce((s, r) => s + r.gzip, 0),
+          chunk_requests: chunkRows.length,
+          paths: [...postRows, ...chunkRows].map((r) => bare(r.url)).sort(),
+        },
         start_position: startPosition,
         charged_from_disk: estimated,
         heaviest: rows.slice(0, 15).map((r) => ({ path: path(r.url), raw: r.raw, gzip: r.gzip })),
@@ -177,6 +234,8 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
     .join(", ")
   console.log(
     `[first-hand] start "${startPosition}" · ${rows.length} requests · raw ${raw.toLocaleString()} B · gzip ${gzip.toLocaleString()} B\n` +
+      `[first-hand] core (delta basis) ${coreGzip.toLocaleString()} B — excludes ${postRows.length} postscript + ` +
+      `${chunkRows.length} per-node chunk request(s), ${excluded.toLocaleString()} B\n` +
       `[first-hand] heaviest: ${heaviest}` +
       (estimated.length ? `\n[first-hand] charged from disk: ${estimated.join(", ")}` : ""),
   )
@@ -217,5 +276,42 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   expect(raw, `raw bytes to first hand (heaviest: ${heaviest})`).toBeLessThanOrEqual(
     budget.first_hand_raw_bytes,
   )
-  expect(gzip, "gzip bytes to first hand").toBeLessThanOrEqual(budget.first_hand_gzip_bytes)
+
+  // ── THE EXCLUSIONS, COUNTED ───────────────────────────────────────────────────────────────
+  // Both subtractions above are asserted to have matched something. A filter that matches nothing
+  // subtracts zero and reads exactly like a filter that matched and found nothing on the boot
+  // path — the failure class with 17 recorded instances in this repo (CLAUDE.md §6.6). If either
+  // count is 0 the core subtotal is not the number this spec says it is, whatever it sums to.
+  expect(postRows.map((r) => bare(r.url)), "the boot path must fetch /postscript.js exactly once — the core subtotal subtracts it by name").toEqual([POSTSCRIPT])
+  expect(chunkRows.length, "the boot path fetched NO per-node chunk — either the app stopped warming decks, or CHUNK_RE stopped matching the chunk space and the core subtotal is silently the total").toBeGreaterThan(0)
+  // The COUNT of chunk requests is the piece the delta cap cannot see, so it gets its own hard
+  // ceiling: a regression that warmed 30 decks at boot would add ~60 KB gzip, and the delta cap
+  // — which excludes chunks by design — would report nothing. 12 = NG_PREFETCH_CAP (10, the deck
+  // warm-up cap in app.src.jsx) plus the two non-deck chunk kinds a boot can pull (content,
+  // submission-details). Observed: 4 today, 6 before the v1.177.0 start-position move.
+  expect(typeof budget.boot_chunk_requests, "budget_neural.json must carry boot_chunk_requests — deleting it would leave the chunk-count guard comparing against undefined, which is a guard nobody can read").toBe("number")
+  expect(chunkRows.length, `per-node chunk requests on the boot path (${chunkRows.map((r) => bare(r.url)).join(", ")})`).toBeLessThanOrEqual(budget.boot_chunk_requests)
+
+  // ── THE THREE-BAND POLICY ─────────────────────────────────────────────────────────────────
+  // budget_neural.json must NOT carry a gzip ceiling any more: a stale hard ceiling beside a soft
+  // policy is silent shadowing — only the stricter of the two is ever seen, and which one that is
+  // changes with every ship.
+  expect(budget.first_hand_gzip_bytes, "first_hand_gzip_bytes moved to payload_policy.json; a ceiling left in budget_neural.json would shadow the policy").toBeUndefined()
+
+  const doc = bands.load(POLICY)
+  const mine = bands.metricsFor(doc, GATE)
+  expect(Object.keys(mine), "the policy must assign exactly this metric to this gate").toEqual([
+    "first_hand_gzip_bytes",
+  ])
+  const verdict = bands.evaluate("first_hand_gzip_bytes", mine.first_hand_gzip_bytes, gzip, coreGzip)
+  // A warn is an indication, not a gate — it prints and passes, which is the whole point of the
+  // soft ceiling. Anything in `failures` is the action threshold or the delta cap, both hard.
+  for (const line of verdict.lines) console.log(`[first-hand] ${line}`)
+  console.log(
+    `[first-hand] policy: 1 metric checked against a committed baseline · verdict ${verdict.verdict}`,
+  )
+  expect(verdict.failures, "the payload policy").toEqual([])
+  expect(verdict.delta, "the delta cap must have run against a real baseline, not been skipped").toEqual(
+    expect.any(Number),
+  )
 })

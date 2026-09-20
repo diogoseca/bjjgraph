@@ -213,7 +213,8 @@ Long explanations belong in each script's own docstring, where they cannot drift
 
 **Validate** — `validate:json` schemas (hard) · `validate:graph` integrity (ratchets on
 `tests/artifacts/graph_validation_baseline.json`, `max_errors` 0) · `validate:ordinals` share-link
-lockfile (hard) · `validate:payload` byte ratchet · `validate:seo` crawlable-surface ratchet ·
+lockfile (hard) · `validate:payload` byte ratchets PLUS the soft gzip bands (§8) · `validate:seo`
+crawlable-surface ratchet ·
 `validate:headers` cache/security headers · `validate:affiliate` disclosure parity (reads §7 of this
 file) · `validate:analytics` the BUILT PostHog injection against the key its build ran with, plus
 `validate:analytics:nokey`, which builds its own keyless one-file fixture because no deploy can
@@ -671,8 +672,9 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 
 | baseline | gate | rule |
 |---|---|---|
-| `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; raising a ceiling needs `--update` in its own justified commit |
-| `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight measured from a real browser |
+| `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; `--update` reseeds it but can only ever TIGHTEN a `neural.*` ceiling |
+| `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight from a real browser: raw bytes, and the boot's chunk-request COUNT |
+| `tests/artifacts/payload_policy.json` | both of those | **the two gzip figures are SOFT** — over `target` warns and passes, over `action` fails, and any one change growing more than `delta_cap` fails whatever the absolute figure. Bands are hand-set; a baseline moves ONLY via `--accept-baseline <metric> --reason "…"`, never by itself (a self-advancing baseline is a delta check that never runs) |
 | `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |

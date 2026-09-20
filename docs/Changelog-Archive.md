@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.189.0** — [THE CEILING BECOMES A POLICY: TARGET, ACTION, AND A CAP ON THE STEP](#v11890--the-ceiling-becomes-a-policy-target-action-and-a-cap-on-the-step)
 - **v1.182.12**: [README and linked documentation describe dev](#v118212-readme-and-linked-documentation-describe-dev)
 - **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
 - **v1.176.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-176-0-three-positions-that-existed-twice-the-k)
@@ -7337,3 +7338,102 @@ the double-paid gap each turns it red at both widths.
 
 Validation: 283 unit tests. Bundle +5 bytes gzip on neural.js, +5 on neural.css, measured by
 building the same tree at HEAD and here.
+
+
+## v1.189.0 — THE CEILING BECOMES A POLICY: TARGET, ACTION, AND A CAP ON THE STEP
+
+**The owner's call, verbatim:**
+
+> "wrt ceiling, it's a soft ceiling, moore an indication so let's add another rule like, target is
+> <300k, but we take action when it reaches >400k otherwise, small additions are ok as
+> functionality improves right? i think that's a great way to go about things long term since the
+> app will inevitably add more features and progress, but we want to avoid bloating too much makes
+> sense?"
+
+**What a hard ceiling on a growing payload actually cost.** `budget_neural.json`'s
+`raising_a_ceiling` note is three post-mortems long. Two of them are raises of ~1,000 bytes —
+385,000 -> 386,400 (v1.173.1) and 386,400 -> 387,400 (v1.175.1) — and each cost a CI round trip.
+The second one went red in CI by 353 bytes with 217 curated journeys green, and a red curated gate
+SKIPS the deploy step, so it presented as a stale dev preview rather than as a failing test. The
+measured position when this change was written is the argument in one line: **the neural eager set
+gzips to 329,808 against a 330,000 ceiling — 192 bytes — and first_hand stood at 387,117 against
+387,400, i.e. 283.** Both gates were one ordinary feature from red, and the only move either
+offered was to raise the number again.
+
+**The three bands.** `value <= target` is a silent pass · `target < value <= action` WARNS and
+passes · `value > action` is a hard fail · **and `delta > delta_cap` is a hard fail whatever the
+absolute figure.** The delta cap is the part that does the work: a flat "act at 400k" lets one
+commit add 70,000 bytes and pass in silence, which is exactly the fat-wire regression the ceiling
+was ratcheted DOWN in v1.107.1 to catch.
+
+**The numbers, and why they are not shared between the two metrics.**
+`neural.eager_gzip_bytes` — target 300,000 / action 400,000 / delta cap 5,000, the owner's own
+figures, leaving ~70,200 of room against a measured 329,808. `first_hand_gzip_bytes` — target
+365,000 / action 465,000 / delta cap 6,000, DERIVED rather than copied: a 400,000 action threshold
+there would have left ~13,000 against a measured 387,117, which is nothing. first_hand = the eager
+set as requested + the shared Quartz bundles (postscript 27,776 + index.css 9,896 + / 7,590 +
+prescript 1,181 = 46,443 local, ~47,500 on a deploy) + the boot's per-node chunks (p95, 3 decks +
+1 dossier = 3x3,370 + 6,741 = 16,851). 48,000 + 17,000 = 65,000, added to each of the eager bands.
+The delta cap is 5,000 vs 6,000 because first_hand's core subtotal also counts `/index.css` and `/`
+— ~17,500 gzip of Quartz surface the neural set never sees.
+
+**What the baseline is, and the trap avoided on the way.** Nothing in CI or in a local build can
+measure a previous ref without rebuilding it (~11 min), so the baseline is committed STATE: the
+last figure somebody accepted, with the previous value, the ref, the date and a required reason,
+in `tests/artifacts/payload_policy.json`. The first design had the gate rewrite that baseline on
+every green run, which is self-maintaining and completely wrong: **the author commits the refreshed
+baseline, CI then measures a delta of 0, and the cap is vacuous while still reading as a check that
+ran.** A SELF-ADVANCING BASELINE IS A DELTA CHECK THAT NEVER RUNS. So it moves only via
+`--accept-baseline <metric> --reason "..."`, which refuses a figure already over the action
+threshold. The cost, stated in the policy file rather than discovered later: growth ACCUMULATES, so
+three innocent +2,000 ships against a 5,000 cap turn the third one red — that is the policy asking
+for a checkpoint every ~5,000 bytes of drift, not an accusation.
+
+**Why first_hand's delta is measured on a subtotal.** Two parts of that number move with no code
+change at all. `/postscript.js` carries the deploy's injected PostHog snippet (78,095 B there
+against 75,641 keyless, ~1,060 in gzip) — the documented local-vs-CI gap. And the per-node chunks
+depend on where the pinned `start-pos:[0]` draw lands: **measured from the committed reports,
+between v1.175.0 and v1.177.0 the pinned start moved from "Gogoplata Control Top" to "K-Guard Top"
+and this measurement swung ~12,900 B gzip with 6 fewer requests**, for reasons having nothing to do
+with weight. So the bands judge every byte and the delta judges `first_hand_gzip_core_bytes` = total
+− postscript − chunks. Both exclusions are COUNTED and asserted non-empty; neither is unwatched
+(postscript has its own bundle ceiling, chunk SIZE has `chunk_max_bytes`, and chunk COUNT now has
+`boot_chunk_requests` = 12, derived as NG_PREFETCH_CAP 10 + the two non-deck chunk kinds — observed
+4 today, 6 before v1.177.0). Verified in the other direction too: **0 of the eager set's 5 files
+change under a deploy `AFFILIATE_REF`**, so the eager delta needs no environment allowance at all.
+
+**Two implementations, pinned equal.** The python gate and the browser gate cannot call each
+other's language, so the band logic lives in `scripts/_payload_policy.py` and
+`scripts/_payload_policy.js`, and `tests/payload_policy.test.mjs` runs both over the same committed
+22-case table (`tests/artifacts/payload_policy_cases.json`), checks every verdict against the
+table's own `expect`, and fails on the first disagreement. Boundaries are inclusive on the safe side
+and each has a pair of cases one byte apart.
+
+**Mutants, all killed** (12 of 12; the gate under test is production code, only the committed
+artifacts were doctored):
+
+| mutant | dies in |
+|---|---|
+| JS delta cap disabled (`delta > cap*100`) | `payload_policy.test.mjs` — 3 cases |
+| python warn band collapsed (`> target` -> `> action`) | `payload_policy.test.mjs` — cross-language diff |
+| JS accepts a non-integer baseline | `payload_policy.test.mjs` — 2 cases + diff |
+| target above action in the policy | `payload_policy.test.mjs` — policy-error case |
+| eager over action | `validate:payload` exit 1 |
+| eager delta over cap, absolute under target | `validate:payload` exit 1 |
+| eager baseline null | `validate:payload` exit 1 (and it fired for real, in the build that seeded it) |
+| policy file deleted | `validate:payload` exit 1 |
+| `eager_gzip_bytes` put back in `budget_site.json` | `validate:payload` exit 1 (shadowing) |
+| policy metric reassigned to a gate that does not run | `validate:payload` exit 1 (zero coverage) |
+| `first_hand_gzip_bytes` put back in `budget_neural.json` | `payload-first-hand.spec.ts` |
+| `CHUNK_RE` / `POSTSCRIPT` matching nothing | `payload-first-hand.spec.ts` — the counted exclusions |
+
+**NOT covered, said plainly.** No CI run has exercised this yet: every figure above is from a local
+build, and the deploy is the only build that carries the PostHog key and the affiliate ref. The
+first_hand BAND figure will read ~1,060 B heavier there (the core figure will not). The delta cap
+reads "growth since the last accepted checkpoint", not "growth in this commit" — a weaker claim
+than a per-commit delta and the only one anything can actually measure without a rebuild. And
+`tests/payload_policy.test.mjs` measures no payload: whether either gate feeds `evaluate` the right
+numbers is not tested there.
+
+**Validation:** 287 unit tests (283 + 4 new), `validate:payload` green with one warning,
+`validate:claudemd` green (CLAUDE.md 80,645 / 82,000), `payload-first-hand` green.

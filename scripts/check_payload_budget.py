@@ -46,16 +46,43 @@ justified commit — never a way to make a regression green. The neural ceilings
 exception to "seed from a build": they are TARGETS, set by hand from the field data
 (Cloudflare Observatory LCP P75 13,764ms) and deliberately left RED until the code meets
 them, so --update never lowers them silently — see NEURAL_TARGET below.
+
+ONE OF THOSE CEILINGS IS NO LONGER A CEILING (v1.189.0, owner's call). `eager_gzip_bytes`
+left this file for the three-band policy in tests/artifacts/payload_policy.json: a target it
+may sit above, an action threshold it may not cross, and a cap on how much ONE change may
+add. scripts/_payload_policy.py carries the full rationale and the owner's own words. Why it
+had to move, in one measurement: on the tree this change was written against the eager set
+gzips to 329,808 against a 330,000 ceiling — 192 BYTES — so the next neural feature of any
+size was going to go red on arrival, and the only move available was to raise the ceiling
+again. budget_neural.json's `raising_a_ceiling` note is three such raises long, and one of
+them skipped a deploy.
+
+HOW THE POLICY NUMBERS ARE SET, because the old answer ("--update in its own commit") is
+wrong for them and answering it wrongly is how a gate gets worked around:
+  · target / action / delta_cap — BY HAND, in tests/artifacts/payload_policy.json, with the
+    reasoning in that file's own _comment. There is no flag; they are a judgement, not a
+    measurement, and --update refuses to touch them (it says so out loud).
+  · baseline — `--accept-baseline <metric> --reason "..."`, which measures, checks the new
+    figure is not itself over the action threshold, and records the previous value, the ref,
+    the date and the reason. Never automatic: a baseline that advanced itself on every green
+    run would make the delta cap vacuous (delta always 0) while still reading as a check that
+    ran. See _payload_policy.py.
 """
 import argparse
 import gzip
 import json
+import subprocess
 import sys
+from datetime import date
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import _payload_policy as policy  # noqa: E402  (stdlib-only sibling, same directory)
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "source/public"
 BUDGET = ROOT / "tests/artifacts/budget_site.json"
+GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the policy file
 
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
@@ -85,12 +112,21 @@ DEFERRED = ("systems.json", "concepts.json", "aliases.json")
 # Ratcheted DOWN in v1.107.1 after the graph-data wire compaction (v1.107.0) landed the eager
 # set at 1,302,636 raw / 271,124 gzip: the new ceilings hold ~20% headroom for content growth
 # while making a return of the fat wire (or any new eager payload of that class) a hard red.
+#
+# `eager_gzip_bytes` IS DELIBERATELY ABSENT (v1.189.0) — it is governed by the three-band policy
+# in tests/artifacts/payload_policy.json, not by a ceiling here. Putting it back would SHADOW the
+# policy silently (a stale hard ceiling and a soft one enforce different things and only the
+# stricter is ever seen), so POLICY_OWNED below turns that mistake into a hard, named failure
+# rather than a quiet reversion.
 NEURAL_TARGET = {
     "eager_raw_bytes": 1_600_000,
-    "eager_gzip_bytes": 330_000,
     "chunk_max_bytes": 40_000,
     "deferred_raw_bytes": 500_000,
 }
+
+# Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
+# of these is not harmless leftover state: it re-imposes the hard rule the owner replaced.
+POLICY_OWNED = ("eager_gzip_bytes",)
 
 # Shared bundles fetched by every page. postscript.js is the one that carried the whole
 # legacy client stack (pixi.js + d3 + tween via the two graph scripts).
@@ -202,7 +238,14 @@ def fmt(n: int) -> str:
 
 def _neural_ceilings() -> dict:
     """The neural ceilings to write on --update: whatever is already committed (so a
-    hand-tightened ceiling is never loosened by a re-seed), else the hand-set target."""
+    hand-tightened ceiling is never loosened by a re-seed), else the hand-set target.
+
+    min(committed, target) is why --update can only ever TIGHTEN these three, and why the brief
+    for v1.189.0 could truthfully say "--update cannot raise a neural ceiling". That is correct
+    for a ratchet and was wrong for eager_gzip_bytes, whose only escape was a hand edit of the
+    committed JSON: the three-band policy is where that number lives now, and this function does
+    not emit it (POLICY_OWNED). Raising one of the three that remain is still a hand edit of
+    NEURAL_TARGET, deliberately."""
     prev = {}
     if BUDGET.exists():
         try:
@@ -212,9 +255,108 @@ def _neural_ceilings() -> dict:
     return {k: min(int(prev.get(k, v)), v) for k, v in NEURAL_TARGET.items()}
 
 
+def _measured(metric: str, cur: dict):
+    """The live (value, delta_value) for a policy metric THIS gate measures.
+
+    Returns (None, None) for a name it does not know, and the caller turns that into a hard
+    failure rather than a skip: a metric the policy assigns to this gate that this gate cannot
+    measure is a rule nothing enforces, which is the failure class this repo keeps re-finding
+    (CLAUDE.md §6.6 — absence produces a plausible answer)."""
+    if metric == "neural.eager_gzip_bytes":
+        v = cur["neural"]["eager_gzip_bytes"]
+        return v, v
+    return None, None
+
+
+def _tree_ref() -> str:
+    """A human-readable stamp for a baseline: the version in package.json plus the short sha, so
+    the growth log in the policy file says WHICH tree each accepted figure was measured on."""
+    ver = "?"
+    try:
+        ver = json.loads((ROOT / "package.json").read_text()).get("version", "?")
+    except (OSError, json.JSONDecodeError):
+        pass
+    sha = ""
+    try:
+        sha = subprocess.run(
+            ["git", "-C", str(ROOT), "rev-parse", "--short", "HEAD"],
+            capture_output=True, text=True, timeout=10,
+        ).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        pass
+    return f"v{ver}" + (f" ({sha})" if sha else "")
+
+
+def _accept_baseline(metric: str, reason: str, cur: dict) -> None:
+    """Advance one metric's delta baseline, deliberately and on the record.
+
+    This is the ONLY way a baseline moves. It is not run by the gate, by a build or by CI — see
+    scripts/_payload_policy.py for why a self-advancing baseline is a delta check that never runs.
+    It refuses a figure that is itself over the action threshold: that band is a hard stop, and
+    accepting a baseline must never be a way round it."""
+    doc = policy.load()
+    spec = doc["metrics"].get(metric)
+    if spec is None:
+        raise SystemExit(
+            f"ERROR: {metric!r} is not in {policy.POLICY_PATH.relative_to(ROOT)} — "
+            f"known metrics: {', '.join(sorted(doc['metrics']))}"
+        )
+    if not reason:
+        raise SystemExit("ERROR: --accept-baseline requires --reason; an unexplained baseline move is the thing this file exists to prevent")
+
+    src_note = ""
+    if spec.get("gate") == GATE:
+        value, delta_value = _measured(metric, cur)
+        if value is None:
+            raise SystemExit(f"ERROR: {metric!r} is assigned to {GATE} but this gate cannot measure it")
+        src_note = "measured from the built tree by this script"
+    else:
+        # a metric another gate measures (today: the browser gate). Its observed figures are
+        # written to a committed report on every run; we read that, and record WHEN it was
+        # measured so a stale accept is visible in the diff rather than invisible in the number.
+        src = ROOT / spec.get("accept_from", "")
+        if not spec.get("accept_from") or not src.exists():
+            raise SystemExit(
+                f"ERROR: {metric!r} is measured by {spec.get('gate')} and its `accept_from` report "
+                f"({spec.get('accept_from') or 'unset'}) is not on disk — run that gate first"
+            )
+        rep = json.loads(src.read_text())
+        field = spec.get("delta_measured_on")
+        band_field = spec.get("value_field", metric)
+        if field not in rep or band_field not in rep:
+            raise SystemExit(
+                f"ERROR: {src.relative_to(ROOT)} carries no {field!r}/{band_field!r} — it predates "
+                f"the policy; re-run {spec.get('gate')} to refresh it"
+            )
+        value, delta_value = rep[band_field], rep[field]
+        src_note = f"read from {spec['accept_from']} measured at {rep.get('_meta', {}).get('measured_at', 'unknown')}"
+
+    if value > spec["action"]:
+        raise SystemExit(
+            f"ERROR: refusing to accept {policy.fmt(value)} for {metric} — it is over the "
+            f"{policy.fmt(spec['action'])} action threshold, which is a hard stop. Shed bytes, or "
+            f"change the threshold by hand in {policy.POLICY_PATH.relative_to(ROOT)} with a reason."
+        )
+
+    prev = spec.get("baseline")
+    spec["previous_baseline"] = prev
+    spec["baseline"] = int(delta_value)
+    spec["baseline_ref"] = _tree_ref()
+    spec["baseline_at"] = date.today().isoformat()
+    spec["baseline_reason"] = reason
+    spec["baseline_source"] = src_note
+    policy.POLICY_PATH.write_text(json.dumps(doc, indent=1, ensure_ascii=False) + "\n")
+    moved = "seeded" if not isinstance(prev, int) else f"{prev:,} -> {int(delta_value):,} ({int(delta_value) - prev:+,})"
+    print(f"baseline accepted: {metric} {moved}")
+    print(f"  band figure {policy.fmt(value)} · delta figure {policy.fmt(delta_value)} · {src_note}")
+    print(f"  ref {spec['baseline_ref']} · reason: {reason}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--update", action="store_true", help="(re)seed the ceilings from this build")
+    ap.add_argument("--update", action="store_true", help="(re)seed the RATCHET ceilings from this build (never the policy)")
+    ap.add_argument("--accept-baseline", metavar="METRIC", help="advance one policy metric's delta baseline to the current figure")
+    ap.add_argument("--reason", default="", help="why the baseline moved; required with --accept-baseline, recorded in the policy file")
     args = ap.parse_args()
 
     if not PUBLIC.exists():
@@ -223,16 +365,51 @@ def main() -> None:
 
     cur = measure()
 
+    if args.accept_baseline:
+        _accept_baseline(args.accept_baseline, args.reason, cur)
+        return
+
     if args.update:
-        budget = {
-            "_meta": {
+        # SAY WHAT THIS FLAG DOES NOT DO. The old one-line rule ("raising a ceiling needs --update
+        # in its own justified commit") was already false for the neural ceilings — _neural_ceilings()
+        # takes min(committed, target) so --update can only tighten them — and is now false for the
+        # policy metrics in a second way. A flag that silently declines to do the thing its name
+        # implies is how a number ends up hand-edited without a record.
+        try:
+            skipped = sorted(policy.load()["metrics"])
+            print(
+                "  · --update does NOT touch the three-band policy "
+                f"({policy.POLICY_PATH.relative_to(ROOT)}): {', '.join(skipped)}. "
+                "target/action/delta_cap are hand-set; move a baseline with "
+                "`--accept-baseline <metric> --reason \"...\"`.",
+                file=sys.stderr,
+            )
+        except policy.PolicyError as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            sys.exit(1)
+        # PRESERVE the _meta keys this seeder does not own. It used to rebuild _meta from
+        # scratch, which silently deleted `neural_note` — the paragraph explaining WHY
+        # eager_gzip_bytes is absent from this file. The POLICY_OWNED guard would still have
+        # fired, but the reader would have met a bare failure with no explanation anywhere,
+        # which is how a correct gate gets "fixed" by putting the ceiling back.
+        prev_meta = {}
+        if BUDGET.exists():
+            try:
+                prev_meta = dict((json.loads(BUDGET.read_text()) or {}).get("_meta") or {})
+            except json.JSONDecodeError:
+                prev_meta = {}
+        prev_meta.update(
+            {
                 "format": FORMAT,
                 "seed_headroom": SEED_HEADROOM,
                 "note": (
                     "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling "
                     "means the payload grew — justify it in the commit body."
                 ),
-            },
+            }
+        )
+        budget = {
+            "_meta": prev_meta,
             "bundles": {k: int(v * SEED_HEADROOM) for k, v in cur["bundles"].items()},
             "pages": {k: int(v * SEED_HEADROOM) for k, v in cur["pages"].items()},
             "html_total_bytes": int(cur["html_total_bytes"] * SEED_HEADROOM),
@@ -314,6 +491,52 @@ def main() -> None:
         f"on-demand chunks: {nc.get('chunk_count', 0):,} files, "
         f"{fmt(nc.get('chunk_raw_bytes', 0))} (not fetched at boot)"
     )
+    for field in POLICY_OWNED:
+        if field in nb:
+            failures.append(
+                f"neural.{field} still carries a hard ceiling in {BUDGET.relative_to(ROOT)} "
+                f"({fmt(nb[field])}). It moved to the three-band policy in "
+                f"{policy.POLICY_PATH.relative_to(ROOT)}; a ceiling left here shadows the policy "
+                f"silently, because only the stricter of the two is ever seen. Delete the key."
+            )
+
+    # ── THE THREE-BAND POLICY: target · action · delta cap ──────────────────────────────────
+    # Everything above this line is a ratchet — a MAX, red the moment it is crossed. This block
+    # is the soft ceiling the owner asked for: growth is allowed, a cliff is not. The bands print
+    # a warning and pass; the action threshold and the delta cap are hard.
+    #
+    # COVERAGE, not silence: `checked` counts the metrics that actually reached a verdict against
+    # a committed baseline, and a shortfall is a FAILURE. This gate must never be able to report
+    # "payload budget OK" because it found nothing to look at.
+    warnings: list[str] = []
+    checked = 0
+    try:
+        pol = policy.load()
+        mine = policy.metrics_for(pol, GATE)
+        if not mine:
+            failures.append(
+                f"{policy.POLICY_PATH.relative_to(ROOT)} assigns NO metric to {GATE} — this gate "
+                f"would enforce the policy over nothing and still exit 0"
+            )
+        for name, spec in mine.items():
+            value, delta_value = _measured(name, cur)
+            if value is None:
+                failures.append(
+                    f"{name}: the policy assigns it to {GATE}, but this gate has no measurement "
+                    f"for that name (see _measured) — the rule is unenforced, not satisfied"
+                )
+                continue
+            r = policy.evaluate(name, spec, value, delta_value)
+            checked += 1
+            (notes if r["verdict"] == policy.PASS else warnings).extend(r["lines"])
+            failures.extend(r["failures"])
+        if checked < len(mine):
+            failures.append(
+                f"policy coverage: {checked} of {len(mine)} metric(s) owned by this gate reached "
+                f"a verdict — the rest were not checked at all"
+            )
+    except policy.PolicyError as e:
+        failures.append(f"payload policy unreadable: {e}")
 
     total_ceiling = budget.get("html_total_bytes")
     if total_ceiling is not None and cur["html_total_bytes"] > total_ceiling:
@@ -324,15 +547,22 @@ def main() -> None:
 
     for n in notes:
         print("  ·", n)
+    for w in warnings:
+        print("  ", w)
     if failures:
         print(f"✗ PAYLOAD BUDGET EXCEEDED — {len(failures)} over budget:")
         for f in failures:
             print("  -", f)
         sys.exit(1)
+    # The policy count is printed on the GREEN path too, and deliberately: a reader must be able
+    # to tell "the delta cap ran and passed" from "the delta cap did not run", which is the one
+    # distinction this repo has lost seventeen recorded times (CLAUDE.md §6.6).
     print(
         f"✓ payload budget OK — {len(budget.get('bundles', {}))} bundles, "
         f"{len(budget.get('pages', {}))} sampled pages, "
-        f"{fmt(cur['html_total_bytes'])} total HTML across {cur['html_file_count']} files"
+        f"{fmt(cur['html_total_bytes'])} total HTML across {cur['html_file_count']} files · "
+        f"policy: {checked} metric(s) checked against a committed baseline, "
+        f"{len(warnings)} over target"
     )
 
 

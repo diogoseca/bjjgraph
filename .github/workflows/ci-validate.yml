@@ -31,6 +31,11 @@ on:
       - "neural/src/**"
       - "neural/src/lists-codec.src.js"
       - "tests/*.test.mjs"
+      # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
+      # lines below: a gate behind a filter that excludes its own subject never runs on the PR
+      # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.
+      - "tests/artifacts/payload_policy.json"
+      - "tests/artifacts/payload_policy_cases.json"
       # tests/analytics_surface_gate.test.mjs pins its fixtures VERBATIM to the PostHog snippet in
       # this emitter, so that a vendor-snippet change cannot leave the analytics deploy gate
       # matching bytes the build no longer produces. Without this line a PR touching only the
