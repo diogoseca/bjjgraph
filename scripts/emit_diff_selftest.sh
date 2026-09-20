@@ -92,6 +92,8 @@ Path(sys.argv[2]).write_text(text.replace(before, 'if stype == "application/ld+j
 PY
 [ $? -eq 0 ] || exit 3
 for t in base mutant; do
+  # The deliberately sabotaged copy still uses the real provenance implementation.
+  cp "$REPO/scripts/golden_provenance.py" "$WORK/golden_provenance.py" || exit 3
   python3 "$WORK/blind_fingerprint.py" "$WORK/$t" --out "$WORK/blind-$t.json.gz" \
     --jobs 1 --label "blind $t" > "$WORK/fingerprint-blind-$t.log" 2>&1
   status=$?
@@ -116,7 +118,7 @@ cat > "$WORK/presence-rule.json" <<'JSON'
   "evidence":"selftest fixture"}]}
 JSON
 
-D="python3 $REPO/scripts/emit_diff.py"
+D="python3 $REPO/scripts/emit_diff.py --artifact-only"
 echo
 echo "--- proofs --------------------------------------------------------------"
 

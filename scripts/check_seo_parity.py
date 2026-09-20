@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """SEO-parity gate for the Neural Graph variant work.
 
+Content provenance is checked at use and completion. Default comparisons exit 2 for
+missing/stale proof; --artifact-only explicitly compares historical SEO contracts,
+without claiming current-source parity. The content ratchet is otherwise unchanged.
+--update requires the actual completed build's --content-receipt and matching output
+hashes, so a copied old source/public cannot silently re-arm the baseline. Controls:
+golden_provenance_selftest.py. Content identity does not prove code/date/environment identity.
+
 The Neural variant must NEVER regress the crawlable/indexable surface: the static HTML a
 crawler (or a no-JS visitor) receives has to stay as rich as the pre-Neural baseline. The
 variant switch + app mount happen entirely client-side, so the emitted `<head>` + JSON-LD
@@ -13,7 +20,7 @@ source/public/ and compares it to a committed baseline (tests/artifacts/seo_base
   - a hash of the main crawlable article text + internal-link targets
 
 Usage:
-  python3 scripts/check_seo_parity.py --update   # (re)capture the baseline from a build
+  python3 scripts/check_seo_parity.py --update --content-receipt BUILD.content.json
   python3 scripts/check_seo_parity.py            # gate: exit 1 on any SEO-surface drift
 
 Run after `npm run build`. Stdlib only.
@@ -272,9 +279,16 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
 
 
 def main():
+    from golden_provenance import ContentGuard, add_arguments, read_capture_receipt
+    global PUBLIC, BASELINE
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--update", action="store_true", help="(re)capture the baseline")
+    ap.add_argument('--tree', type=Path, default=PUBLIC)
+    ap.add_argument('--baseline', type=Path, default=BASELINE)
+    add_arguments(ap, capture=True)
     args = ap.parse_args()
+    PUBLIC, BASELINE = args.tree, args.baseline
+    receipt = read_capture_receipt(args, PUBLIC, require_output_hash=True) if args.update else None
 
     if not PUBLIC.exists():
         print(f"ERROR: {PUBLIC} not found — run `npm run build` first", file=sys.stderr)
@@ -298,7 +312,9 @@ def main():
             "floor_ratio": CONTENT_FLOOR_RATIO,
             "volatile_meta": list(VOLATILE_META),
             "volatile_jsonld_keys": list(VOLATILE_JSONLD_KEYS),
+            "content_provenance": receipt,
         }
+        ContentGuard(cur, args, 'updated SEO baseline').finish()
         BASELINE.parent.mkdir(parents=True, exist_ok=True)
         BASELINE.write_text(json.dumps(cur, indent=1, ensure_ascii=False, sort_keys=True))
         print(f"baseline written: {len(cur) - 1} routes -> {BASELINE}")
@@ -321,7 +337,9 @@ def main():
         )
         sys.exit(1)
 
+    guard = ContentGuard(base, args, 'SEO baseline')
     failures, notes = diff(base, cur)
+    guard.finish()
     routes = len([r for r in base if not r.startswith("_")])
     for n in notes:
         print("  ·", n)
@@ -338,4 +356,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from golden_provenance import ProvenanceError
+    try:
+        main()
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)

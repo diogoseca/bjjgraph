@@ -12,8 +12,72 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+from contextlib import redirect_stdout
+from io import StringIO
 
 SCRIPTS = Path(__file__).resolve().parent
+
+
+def baseline_bindings(repo, root, receipt):
+    """Real baseline entry points; site-size floors reduced for this authored fixture.
+
+    This proves receipt/update/compare wiring, not the production site-size floors.
+    No product source or production artifact is changed.
+    """
+    import check_build_fingerprint as build
+    import check_seo_parity as seo
+    from emit_fingerprint import scan_tree
+    from golden_provenance import output_identity, ProvenanceError
+    public = root / 'public'; public.mkdir()
+    raw = (root / 'index.html').read_bytes()
+    for rel in seo.SAMPLE:
+        p = public / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(raw)
+    for rel in ('static/neural/app/neural.js', 'static/neural/app/neural.css', *build.BUNDLES):
+        p = public / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_text('fixture')
+    receipt = {**receipt, 'output_roots': [str(public)], 'output_identity': output_identity(scan_tree(public, 1))}
+    rp = root / 'built.content.json'; rp.write_text(json.dumps(receipt))
+    budget = root / 'tests/artifacts/budget_site.json'; budget.parent.mkdir(parents=True)
+    budget.write_text(json.dumps({'floors': {seo.SITE_FLOOR_KEY: 1}}))
+    originals = (build.FLOORS, seo.ROOT, seo.PUBLIC, seo.BASELINE, sys.argv)
+    build.FLOORS = {'files': 1, 'html_pages': 1}; seo.ROOT = root
+    try:
+        for name, module in [('build', build), ('seo', seo)]:
+            baseline = root / (name + '-baseline.json')
+            argv = ['fixture', '--source-repo', str(repo), '--tree', str(public), '--baseline', str(baseline)]
+            if name == 'build': argv += ['--jobs', '1']
+            sys.argv = [*argv, '--update', '--content-receipt', str(rp)]
+            with redirect_stdout(StringIO()) as log:
+                module.main()
+            assert 'MATCH' in log.getvalue(), log.getvalue()
+            baseline_before = baseline.read_bytes()
+            sys.argv = argv
+            with redirect_stdout(StringIO()) as log:
+                module.main()
+            assert 'MATCH' in log.getvalue() and ('OK' in log.getvalue()), log.getvalue()
+            data = json.loads(baseline_before); del data['_meta']['content_provenance']
+            baseline.write_text(json.dumps(data))
+            try:
+                with redirect_stdout(StringIO()): module.main()
+                raise AssertionError(f'{name} accepted legacy current-content claim')
+            except ProvenanceError as e:
+                assert e.state == 'UNVERIFIED'
+            sys.argv = [*argv, '--artifact-only']
+            with redirect_stdout(StringIO()) as log: module.main()
+            assert 'current-source parity NOT asserted' in log.getvalue()
+            baseline.write_bytes(baseline_before); assert baseline.read_bytes() == baseline_before
+            original = (public / 'index.html').read_bytes()
+            (public / 'index.html').write_bytes(original + b'\n')
+            sys.argv = [*argv, '--update', '--content-receipt', str(rp)]
+            try:
+                with redirect_stdout(StringIO()): module.main()
+                raise AssertionError(f'{name} re-seeded stale output')
+            except ProvenanceError as e:
+                assert 'self-advancing baseline' in str(e)
+            assert baseline.read_bytes() == baseline_before
+            (public / 'index.html').write_bytes(original); assert (public / 'index.html').read_bytes() == original
+            print(f'PASS {name} baseline entry: attested update + compare; legacy strict refusal + explicit artifact control; stale-tree update rejected without changing baseline')
+    finally:
+        build.FLOORS, seo.ROOT, seo.PUBLIC, seo.BASELINE, sys.argv = originals
 
 
 def cli_legacy(root):
@@ -27,6 +91,11 @@ def cli_legacy(root):
                         '--golden', str(golden), '--candidate', str(page)], capture_output=True, text=True)
     assert p.returncode == 2, ('unattested legacy capture must not imply current-source parity', p.returncode, p.stdout)
     assert 'UNVERIFIED' in p.stdout, p.stdout
+    control = subprocess.run([sys.executable, str(SCRIPTS / 'seam_golden.py'), 'verify',
+                              '--artifact-only', '--golden', str(golden), '--candidate', str(page)],
+                             capture_output=True, text=True)
+    assert control.returncode == 0 and 'PASS NO DIFFERENCES; compared=1' in control.stdout
+    assert 'current-source parity NOT asserted' in control.stdout
     print('PASS legacy CLI: identical bytes cannot attest unknown capture inputs')
 
 
@@ -54,12 +123,25 @@ def main():
         assert complete['dirty_paths_end'] == start['dirty_paths_start']
         assert inspect_content(complete, repo)['state'] == 'MATCH'
         assert complete['content_files'] == 1 and complete['content_md'] == 1
+        baseline_bindings(repo, root, complete)
+        record_path = root / 'legacy.json'
+        record = json.loads(record_path.read_text())
+        record['provenance']['content_provenance'] = complete
+        record_path.write_text(json.dumps(record))
+        def seam(want, token):
+            p = subprocess.run([sys.executable, str(SCRIPTS / 'seam_golden.py'), 'verify',
+                                '--source-repo', str(repo), '--golden', str(record_path),
+                                '--candidate', str(root / 'index.html')], capture_output=True, text=True)
+            assert p.returncode == want and token in p.stdout, (want, token, p.stdout, p.stderr)
+        seam(0, 'CONTENT golden: MATCH')
         git('add', dirty.name); git('commit', '-qm', 'unrelated code commit')
         assert inspect_content(complete, repo)['state'] == 'MATCH', 'HEAD alone is over-scoped'
+        seam(0, 'PASS NO DIFFERENCES; compared=1')
         # Cumulative comparison must see an old content change through a later no-op integration.
         page.write_text('owner edit'); git('add', 'content'); git('commit', '-qm', 'owner content edit')
         (repo / 'later.txt').write_text('unrelated'); git('add', 'later.txt'); git('commit', '-qm', 'later integration')
         assert inspect_content(complete, repo)['state'] == 'DRIFTED'
+        seam(2, 'EXIT 2 CONTENT_PROVENANCE_DRIFTED')
         current = finish_capture(begin_capture(repo, 'new'), repo)
         before = page.read_bytes(); page.write_text('uncommitted owner edit')
         assert inspect_content(current, repo)['state'] == 'DRIFTED'
@@ -90,6 +172,26 @@ def main():
             pass
         page.write_bytes(before); assert page.read_bytes() == before
         assert inspect_content(current, repo)['state'] == 'MATCH'
+        # Same named files, changed emitted bytes: a receipt cannot license --update.
+        from golden_provenance import output_identity, read_capture_receipt
+        from types import SimpleNamespace
+        html = root / 'index.html'; raw = html.read_bytes()
+        import hashlib
+        current['output_roots'] = [str(root)]
+        current['output_identity'] = output_identity({'index.html': {'size': len(raw), 'sha': hashlib.sha256(raw).hexdigest()}})
+        receipt_path = root / 'receipt.json'; receipt_path.write_text(json.dumps(current))
+        args = SimpleNamespace(content_receipt=receipt_path, source_repo=repo)
+        actual = {'index.html': {'size': len(raw), 'sha': hashlib.sha256(raw).hexdigest()}}
+        assert read_capture_receipt(args, root, files=actual, require_output_hash=True) == current
+        actual['index.html']['sha'] = '0' * 64
+        try:
+            read_capture_receipt(args, root, files=actual, require_output_hash=True)
+            raise AssertionError('re-seed accepted wrong tree bytes')
+        except ProvenanceError as e:
+            assert 'self-advancing baseline' in str(e)
+        (repo / 'content/link.md').symlink_to(dirty)
+        git('add', 'content/link.md'); git('commit', '-qm', 'unsupported external content link')
+        assert inspect_content(current, repo)['state'] == 'UNVERIFIED'
         print('PASS content contracts: exact one-file corpus; unrelated commit accepted; cumulative/dirty/new/ignored drift rejected; unknown and hidden Git inputs unverified')
 
 

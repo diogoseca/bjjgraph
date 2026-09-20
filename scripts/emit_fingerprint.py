@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """Fingerprint an emitted static site tree, exhaustively and without guessing.
 
+Without --content-receipt, capture inputs remain explicitly UNVERIFIED. Fingerprinting
+an existing tree must never stamp the caller's HEAD onto bytes built elsewhere.
+The capture driver supplies completed input proof; --write-content-receipt binds it
+to the measured output paths/sizes/hashes for later baseline updates. This does not
+recover build0's four unnamed dirty paths or prove browser/code/environment parity.
+Receipt and stale-output controls live in golden_provenance_selftest.py.
+
 WHY THIS EXISTS
 ---------------
 The project is replacing its vendored Quartz SSG with its own emitter. The loud failure

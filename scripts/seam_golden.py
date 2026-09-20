@@ -50,7 +50,7 @@ import time
 
 from emit_diff import diff_record
 from emit_fingerprint import fingerprint_html, sha
-from golden_provenance import ContentGuard, add_arguments, read_capture_receipt
+from golden_provenance import ContentGuard, add_arguments, read_capture_receipt, ProvenanceError
 
 SCHEMA = 'quartz-seam-v1'
 
@@ -248,8 +248,8 @@ def verify(args):
         print(f'FAIL candidate coverage invalid: {e}')
         return 2
     # Python considers True == 1, including inside dicts/lists. JSON does not.
+    guard.finish()
     if encoded(golden['data']) == encoded(candidate):
-        guard.finish()
         print('PASS NO DIFFERENCES; compared=1')
         return 0
     if golden['seam'] == 'render':
@@ -280,6 +280,9 @@ def main():
     args = ap.parse_args()
     try:
         result = args.run(args)
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        result = 2
     except (ValueError, KeyError, OSError, TypeError) as e:
         print(f'ERROR instrument coverage invalid: {e}', file=sys.stdout)
         result = 2

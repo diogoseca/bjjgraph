@@ -38,6 +38,9 @@ DEFAULT_REPO = Path(__file__).resolve().parent.parent
 
 class ProvenanceError(ValueError):
     """Unavailable or contradictory input evidence, not an implementation error."""
+    def __init__(self, message, state='UNVERIFIED'):
+        super().__init__(message)
+        self.state = state
 
 
 def git(repo, *args):
@@ -54,7 +57,10 @@ def names(raw):
 @lru_cache(maxsize=32)
 def committed_content(repo, head):
     tree = git(repo, 'rev-parse', '--verify', f'{head}:content').decode().strip()
-    paths = names(git(repo, 'ls-tree', '-r', '-z', '--name-only', tree))
+    entries = names(git(repo, 'ls-tree', '-r', '-z', tree))
+    if any(not row.startswith(('100644 blob ', '100755 blob ')) for row in entries):
+        raise ProvenanceError('content contains symlinks/submodules; a Git tree does not attest their external target bytes')
+    paths = [row.split('\t', 1)[1] for row in entries]
     count = sum(p.endswith('.md') for p in paths)
     if not paths or not count:
         raise ProvenanceError('zero committed content coverage')
@@ -247,7 +253,7 @@ class ContentGuard:
 
     def require(self):
         if not self.artifact_only and self.verdict['state'] != 'MATCH':
-            raise ProvenanceError('no current-content verdict; use --artifact-only explicitly for historical byte/contract comparisons')
+            raise ProvenanceError('no current-content verdict; use --artifact-only explicitly for historical byte/contract comparisons', self.verdict['state'])
 
     def finish(self):
         # Recheck the enumerated input set. An unrelated commit remains acceptable.
@@ -267,7 +273,7 @@ def main():
         guard = ContentGuard({'content_provenance': read_receipt(args.receipt)}, args)
         guard.finish()
     except ProvenanceError as e:
-        print(f'EXIT 2 content provenance: {e}')
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
         return 2
     return 0
 
