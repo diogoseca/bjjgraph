@@ -321,6 +321,212 @@ console.log(
 )
 `
 
+
+// ---------------------------------------------------------------------------------------------
+// The JOINED form: one build, one census, attribution from the ledger (D-B-05 + V's addendum)
+// ---------------------------------------------------------------------------------------------
+
+const JOIN_ENTRY = `
+import config from ${q("quartz.config")}
+import { parseMarkdown } from ${q("quartz/processors/parse")}
+import { filterContent } from ${q("quartz/processors/filter")}
+import { emitContent } from ${q("quartz/processors/emit")}
+import { glob } from ${q("quartz/util/glob")}
+import { joinSegments, slugifyFilePath } from ${q("quartz/util/path")}
+import { snapshot as ledgerSnapshot, enabled as ledgerEnabled } from ${q("quartz/plugins/emitters/emitLedger")}
+import fs from "node:fs"
+import path from "node:path"
+import crypto from "node:crypto"
+
+const args = JSON.parse(process.env.BJJ_EMIT_CAPTURE_ARGS)
+const directory = args.directory
+const allFiles = await glob("**/*.*", directory, config.configuration.ignorePatterns)
+const fpsAll = allFiles.filter((fp) => fp.endsWith(".md")).sort()
+const fps = args.limit > 0 ? fpsAll.slice(0, args.limit) : fpsAll
+
+const ctx = {
+  buildId: "emit-seam-join",
+  argv: {
+    directory, output: args.output, verbose: false, serve: false, fastRebuild: false,
+    port: 0, wsPort: 0, concurrency: args.concurrency,
+  },
+  cfg: config,
+  allSlugs: allFiles.map((fp) => slugifyFilePath(fp)),
+}
+
+const t0 = Date.now()
+const parsed = await parseMarkdown(ctx, fps.map((fp) => joinSegments(directory, fp)))
+const tParse = Date.now() - t0
+const content = filterContent(ctx, parsed)
+
+// ONE build into ONE output directory — the production shape, including concurrent phase two.
+await emitContent(ctx, content)
+
+// THE CENSUS RUNS HERE: after every raw emitter has settled and BEFORE any post-processor.
+// V's correction, and it is not a precaution — regenerate_agent_discovery.py rewrites sitemap.xml
+// and apply_affiliate_ref.py rewrites emitted HTML in place. A census taken at the END of the
+// deploy chain would hash a post-processor's bytes and attribute them to the emitter that
+// originally wrote that path: a correctly-claimed path with a wrong hash, and the join reports
+// success. Nothing looks wrong, which is what makes it the dangerous case.
+const sha = (b) => crypto.createHash("sha256").update(b).digest("hex")
+const census = {}
+const walk = (dir) => {
+  for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fp = path.join(dir, ent.name)
+    if (ent.isDirectory()) walk(fp)
+    else {
+      const buf = fs.readFileSync(fp)
+      census[path.relative(args.output, fp).split(path.sep).join("/")] = {
+        size: buf.length, sha256: sha(buf),
+      }
+    }
+  }
+}
+walk(args.output)
+
+console.log(
+  "__JSON__" + JSON.stringify({
+    ledgerEnabled, claims: ledgerSnapshot(), census,
+    discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
+    parse_ms: tParse,
+    parse_concurrency_actual: ctx.argv.concurrency,
+  }),
+)
+`
+
+/**
+ * Join the in-build ledger with the post-emit census into per-emitter records.
+ *
+ * Each half comes from the source that can supply it: ATTRIBUTION from the ledger, because a
+ * finished tree cannot say which emitter wrote a path; INVENTORY from the census, because a
+ * producer-side record says what it DID, not what EXISTS.
+ *
+ * The three disagreements are NAMED AND COUNTED SEPARATELY, never summed into one number
+ * (V's addendum): a claim with no file, a file with no claim, and a path claimed by two emitters
+ * are three different defects with three different causes.
+ */
+function joinRecords(captured, outDir, opts) {
+  const { claims, census } = captured
+  const owner = new Map()
+  const conflicts = []
+  for (const [emitter, paths] of Object.entries(claims)) {
+    for (const rel of paths) {
+      if (owner.has(rel)) conflicts.push({ path: rel, emitters: [owner.get(rel), emitter] })
+      else owner.set(rel, emitter)
+    }
+  }
+  const claimMissing = [...owner.keys()].filter((p) => !(p in census)).sort()
+  const unclaimed = Object.keys(census).filter((p) => !owner.has(p)).sort()
+
+  // SHAPE, not membership (D-B-05): the unclaimed set is F's post-processor surface and moves.
+  // What must never appear in it is an EMITTER-SHAPED path.
+  const emitterShaped = unclaimed.filter((p) => p.endsWith(".html") && !p.startsWith("dev/"))
+
+  const head = gitHead()
+  const per = {}
+  for (const [emitter, paths] of Object.entries(claims)) {
+    const files = {}
+    for (const rel of paths.slice().sort()) if (census[rel]) files[rel] = census[rel]
+    per[emitter] = files
+  }
+  fs.mkdirSync(outDir, { recursive: true })
+  for (const [emitter, files] of Object.entries(per)) {
+    const data = { emitter, files, returned_paths: [] }
+    const record = {
+      schema: SCHEMA, seam: SEAM, key: emitter, data,
+      data_sha256: crypto.createHash("sha256").update(canonical(data), "utf8").digest("hex"),
+      coverage: (() => {
+        const seededPrefixes = (emitter === "Static" ? opts.seeded : []).map(
+          (r2) => r2.path.replace(/\/$/, "") + "/",
+        )
+        const seeded = Object.keys(files).filter((p) => seededPrefixes.some((pre) => p.startsWith(pre))).length
+        return {
+          files: Object.keys(files).length, returned_paths: 0,
+          seeded_files: seeded, parity_files: Object.keys(files).length - seeded, emitter_runs: 1,
+        }
+      })(),
+      provenance: {
+        git_head: head,
+        producer: `scripts/emit_seam_capture.mjs --join (stream B, D-B-05) -> ${emitter}`,
+        execution:
+          "ONE build through the real emitContent; ATTRIBUTION from the in-build AsyncLocalStorage " +
+          "ledger, INVENTORY from a census taken after all raw emitters settled and BEFORE any " +
+          "post-processor ran",
+          inventory:
+          "in-build ledger (attribution) joined by path with a post-emit filesystem walk (size+sha256)",
+        // Required by seam_golden as an EXPLICIT list — an absent field is rejected rather than
+        // read as empty, which is the right call: "no seeded regions" and "nobody said" must not
+        // look the same. Found by running V's verifier against a joined record in preflight.
+        seeded_regions: emitter === "Static" ? opts.seeded : [],
+        input_seeded_regions: opts.seeded,
+        corpus: { ...captured.discovered, partial: opts.limit > 0 },
+      },
+    }
+    fs.writeFileSync(path.join(outDir, `${emitter}.json`), JSON.stringify(record, null, 1), "utf8")
+  }
+  return { per, conflicts, claimMissing, unclaimed, emitterShaped, censusSize: Object.keys(census).length }
+}
+
+
+/** `--join`: one build into one output dir, ledger on, census before any post-processor. */
+function runJoin(val, has) {
+  const outDir = val("--out")
+  if (!outDir) { console.error("emit_seam_capture --join: --out DIR is required"); return 2 }
+  const limit = Number(val("--limit", "0"))
+  if (!limit && !has("--full")) {
+    console.error("emit_seam_capture --join: pass --limit N, or --full under the build mutex.")
+    return 2
+  }
+  const concurrency = Number(val("--concurrency", "1"))
+  const work = path.resolve(val("--work", trackTemp(fs.mkdtempSync(path.join(os.tmpdir(), "bjj-join-")))))
+  const output = path.join(work, "public")
+  const ledgerDir = path.join(work, "ledger")
+  fs.mkdirSync(output, { recursive: true })
+
+  const contentDir = path.relative(SOURCE_DIR, path.join(REPO_ROOT, "content")) || "../content"
+  const directory = contentDir.startsWith(".") ? contentDir : "./" + contentDir
+
+  const bundle = bundleQuartzEntry(JOIN_ENTRY)
+  const stdout = execFileSync(process.execPath, ["--max-old-space-size=6144", bundle], {
+    cwd: SOURCE_DIR,
+    env: {
+      ...process.env,
+      BJJ_EMIT_LEDGER_DIR: ledgerDir,
+      BJJ_EMIT_CAPTURE_ARGS: JSON.stringify({ directory, limit, output, concurrency }),
+    },
+    stdio: ["ignore", "pipe", "inherit"],
+    encoding: "utf8",
+    maxBuffer: 2048 * 1024 * 1024,
+    timeout: 3_600_000,
+  })
+  const line = stdout.split("\n").find((l) => l.startsWith("__JSON__"))
+  if (!line) { console.error("emit_seam_capture --join: no __JSON__ line — no verdict"); return 2 }
+  const captured = JSON.parse(line.slice("__JSON__".length))
+  if (!captured.ledgerEnabled) {
+    console.error("emit_seam_capture --join: the ledger did not activate — no attribution, no verdict")
+    return 2
+  }
+
+  const r = joinRecords(captured, outDir, { limit, seeded: seededRegions(captured.census ?? {}) })
+  console.log(`\njoined ${Object.keys(r.per).length} emitter record(s) -> ${outDir}`)
+  for (const [emitter, files] of Object.entries(r.per).sort()) {
+    console.log(`  ${emitter.padEnd(20)} ${String(Object.keys(files).length).padStart(6)} files`)
+  }
+  console.log(`  census: ${r.censusSize} files after all raw emitters, before any post-processor`)
+  // Three disagreements, NAMED AND COUNTED SEPARATELY — they have three different causes.
+  console.log(`  claim-with-no-file : ${r.claimMissing.length} ${r.claimMissing.slice(0, 3).join(", ")}`)
+  console.log(`  file-with-no-claim : ${r.unclaimed.length} ${r.unclaimed.slice(0, 3).join(", ")}`)
+  console.log(`  claimed-twice      : ${r.conflicts.length} ${r.conflicts.slice(0, 3).map((c) => c.path).join(", ")}`)
+  console.log(`  EMITTER-SHAPED yet unclaimed: ${r.emitterShaped.length} ${r.emitterShaped.slice(0, 3).join(", ")}`)
+
+  let rc = 0
+  if (r.claimMissing.length) { console.error("  FAIL: a claim with no file — the ledger recorded intent, not result"); rc = 1 }
+  if (r.conflicts.length) { console.error("  FAIL: a path claimed by two emitters — attribution is not a partition"); rc = 1 }
+  if (r.emitterShaped.length) { console.error("  FAIL: an emitter-shaped path nobody claimed"); rc = 1 }
+  if (!Object.keys(r.per).length) { console.error("  NO VERDICT: nothing attributed"); return 2 }
+  return rc
+}
+
 // ---------------------------------------------------------------------------------------------
 // CLI
 // ---------------------------------------------------------------------------------------------
@@ -585,6 +791,8 @@ function main() {
 
   const provenanceDir = val("--check-provenance")
   if (provenanceDir) return checkProvenance(path.resolve(provenanceDir))
+
+  if (has("--join")) return runJoin(val, has)
 
   const outDir = val("--out")
   if (!outDir) {
