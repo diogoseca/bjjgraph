@@ -261,6 +261,23 @@ function profile(values) {
   }
 }
 
+// ── THIS GATE IS NOT published-ONLY. IT IS THE STANDING GUARD FOR THE DORMANT FALLBACK. ──────
+// Written as the acceptance condition for git-derived publication dates — but it catches the
+// `modified` collapse too, corpus-wide, and that convergence is worth stating so the next reader
+// does not scope it narrowly.
+//
+// If `"filesystem"` is ever dropped from `quartz.config.ts`'s priority array, the dormant
+// `?? new Date()` at `lastmod.ts:159` goes live and `modified` becomes BUILD TIME on every page.
+// Run the three parts against that and ALL THREE FAIL: distinct_days 1, span ~0, max_day_share
+// 100% — the exact profile the pre-fix `datePublished` control exhibits below.
+//
+// So there are two independent guards on the same failure, catching it at different scales:
+//   · the fixture test above    — exact mtime equality, one file, fails immediately on the edit
+//   · this census               — corpus-wide, fails even if that 2ms discriminator is ever
+//                                 weakened, or if the config edit happens somewhere nobody
+//                                 thought to add a fixture
+// Neither subsumes the other. The fixture is fast and precise; the census cannot be evaded by
+// making one file look right.
 test("GOLDEN CENSUS — SPREAD, not cardinality: three parts, all of which must hold", async (t) => {
   if (skip) return t.skip("harness unavailable")
   if (!fs.existsSync(GOLDEN)) {
