@@ -60,10 +60,17 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     // JSON would erase Dates and AST aliases; N postMessage copies duplicate host memory.
     // D-50: htmlAst === tree and blocks refer into that SAME tree, including later plugin
     // mutations. V8 serializes the whole object graph; independent field copies break it.
+    const transportStart = performance.now()
+    console.log(
+      `[emit:transport:start] pages=${content.length} memory=${JSON.stringify(process.memoryUsage())}`,
+    )
     const bytes = serialize(content)
     const shared = new SharedArrayBuffer(bytes.length)
     Buffer.from(shared).set(bytes)
     console.log(`[emit:transport] ${content.length} complete pages, ${bytes.length} shared bytes`)
+    console.log(
+      `[emit:transport:ready] ${(performance.now() - transportStart).toFixed(1)}ms memory=${JSON.stringify(process.memoryUsage())}`,
+    )
     results.push(
       ...(await runWorkerTasks<EmitResult>(
         {

@@ -1,5 +1,5 @@
 import sourceMapSupport from "source-map-support"
-import { parentPort, workerData } from "node:worker_threads"
+import { parentPort, workerData, threadId } from "node:worker_threads"
 import { deserialize } from "node:v8"
 import cfg from "../quartz.config"
 import { Argv, BuildCtx } from "./util/ctx"
@@ -34,10 +34,22 @@ if (parentPort && workerData) {
   }
   // V8 serialization preserves Dates and the shared tree/htmlAst/block references.
   // Every emitter receives ALL content. Chunking it would poison allFiles and roll positions.
+  const hydrateStart = performance.now()
+  if (init.phase === "emit") {
+    console.log(
+      `[emit:hydrate:start] thread=${threadId} sharedBytes=${init.content.byteLength} memory=${JSON.stringify(process.memoryUsage())}`,
+    )
+  }
   const content =
     init.phase === "emit"
       ? restoreContent(deserialize(Buffer.from(init.content)) as ProcessedContent[])
       : []
+  if (init.phase === "emit") {
+    // rss covers this whole Node process; heapUsed/heapTotal describe this worker isolate.
+    console.log(
+      `[emit:hydrate:ready] thread=${threadId} pages=${content.length} ${(performance.now() - hydrateStart).toFixed(1)}ms memory=${JSON.stringify(process.memoryUsage())}`,
+    )
+  }
   parentPort.on("message", async ({ id, task }) => {
     try {
       if (init.phase === "parse") {

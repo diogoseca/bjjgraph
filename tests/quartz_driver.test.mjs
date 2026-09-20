@@ -20,6 +20,188 @@ const requireFromSource = createRequire(path.join(SOURCE, "package.json"));
 const { build: bundle } = requireFromSource("esbuild");
 const bundles = new Map();
 
+test("actual CLI serializes overlapping source rebuild watcher lifetimes", async (t) => {
+  // Retrospective RED on pre-fix 64c058b61: two overlapping source changes installed
+  // watchers [1,2,3] but cleaned only [1], leaving [2,3] active. Real CLI control flow
+  // runs below; compiler work, content watchers and network listeners are tiny fakes.
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "quartz-cli-watch-race-"));
+  const stateKey = `__quartzCliWatchRace_${path.basename(root)}`;
+  t.after(() => {
+    delete globalThis[stateKey];
+    fs.rmSync(root, { recursive: true, force: true });
+  });
+  const accessState = `globalThis[${JSON.stringify(stateKey)}]`;
+  const cliPath = path.join(SOURCE, "quartz/cli/build.js");
+  const source = fs.readFileSync(cliPath, "utf8");
+  // The production CLI is unbundled. Preserve its native computed import in this test
+  // bundle: esbuild otherwise substitutes a glob dispatcher before the fixture exists.
+  // String(string) changes neither the import value nor the rebuild control flow.
+  const importExpression =
+    "import(`../../${cacheFile}?update=${randomUUID()}`)";
+  assert.equal(
+    source.split(importExpression).length,
+    2,
+    "expected exactly one CLI build import",
+  );
+  const bundleSource = source.replace(
+    importExpression,
+    "import(String(`../../${cacheFile}?update=${randomUUID()}`))",
+  );
+  const tick = () => new Promise((resolve) => setImmediate(resolve));
+  const waitFor = async (predicate, label) => {
+    const until = Date.now() + 3000;
+    while (!predicate()) {
+      assert.ok(Date.now() < until, `timed out waiting for ${label}`);
+      await new Promise((resolve) => setTimeout(resolve, 5));
+    }
+  };
+  let releaseFirstSourceBundle;
+  const firstSourceBundle = new Promise((resolve) => {
+    releaseFirstSourceBundle = resolve;
+  });
+  const state = (globalThis[stateKey] = {
+    contexts: 0,
+    mainBundles: 0,
+    parseBundles: 0,
+    installs: [],
+    cleanup: [],
+    active: new Set(),
+    sourceChanged: undefined,
+    async context() {
+      const main = this.contexts++ === 0;
+      return {
+        async rebuild() {
+          if (main) {
+            state.mainBundles++;
+            if (state.mainBundles === 2) await firstSourceBundle;
+          } else {
+            state.parseBundles++;
+          }
+          return { metafile: { outputs: {} } };
+        },
+        async dispose() {},
+      };
+    },
+    async buildQuartz(_argv, mutex) {
+      await mutex.runExclusive(tick);
+      const id = this.installs.length + 1;
+      this.installs.push(id);
+      this.active.add(id);
+      return async () => {
+        this.cleanup.push(id);
+        this.active.delete(id);
+        await tick();
+      };
+    },
+  });
+  const stubs = {
+    esbuild: `export default { context: (...args) => ${accessState}.context(...args) }`,
+    chalk:
+      "const color = (value) => value; for (const key of ['bgGreen', 'black', 'yellow', 'cyan', 'red', 'grey', 'green']) color[key] = color; export default color",
+    "esbuild-sass-plugin": "export const sassPlugin = () => ({})",
+    chokidar: `export default { watch() { return { on(_event, handler) { ${accessState}.sourceChanged = handler; return this } } } }`,
+    "pretty-bytes": "export default (value) => String(value)",
+    http: "export default { createServer() { return { listen() {} } } }",
+    "serve-handler": "export default async () => {}",
+    ws: "export class WebSocketServer { on() {} }",
+    "./constants.js":
+      "export const version = 'fixture'; export const fp = './quartz/build.ts'; export const cacheFile = 'quartz/.quartz-cache/transpiled-build.mjs'",
+  };
+  const out = path.join(root, "source/quartz/cli/build.mjs");
+  await bundle({
+    entryPoints: [cliPath],
+    outfile: out,
+    bundle: true,
+    platform: "node",
+    format: "esm",
+    plugins: [
+      {
+        name: "actual-cli-with-lightweight-dependencies",
+        setup(build) {
+          build.onResolve({ filter: /.*/ }, (args) => {
+            if (Object.hasOwn(stubs, args.path)) {
+              return { path: args.path, namespace: "probe-stub" };
+            }
+            if (args.path === "async-mutex") {
+              return { path: requireFromSource.resolve("async-mutex") };
+            }
+          });
+          build.onLoad({ filter: /.*/, namespace: "probe-stub" }, (args) => ({
+            contents: stubs[args.path],
+            loader: "js",
+          }));
+          build.onLoad({ filter: /quartz\/cli\/build\.js$/ }, () => ({
+            contents: bundleSource,
+            loader: "js",
+            resolveDir: path.dirname(cliPath),
+          }));
+        },
+      },
+    ],
+  });
+  const entry = path.join(
+    root,
+    "source/quartz/.quartz-cache/transpiled-build.mjs",
+  );
+  fs.mkdirSync(path.dirname(entry), { recursive: true });
+  fs.writeFileSync(
+    entry,
+    `export default (...args) => ${accessState}.buildQuartz(...args)\n`,
+  );
+  const { handleBuild } = await import(pathToFileURL(out).href);
+  await handleBuild({
+    serve: true,
+    output: path.join(root, "public"),
+    port: 0,
+    wsPort: 0,
+    baseDir: "",
+    bundleInfo: false,
+  });
+  assert.deepEqual(
+    state.installs,
+    [1],
+    "initial build must install exactly one content watcher",
+  );
+  assert.equal(
+    typeof state.sourceChanged,
+    "function",
+    "actual CLI must register its source callback",
+  );
+  state.sourceChanged();
+  await waitFor(
+    () => state.mainBundles === 2,
+    "first source rebuild to reach delayed bundling",
+  );
+  assert.deepEqual(
+    state.cleanup,
+    [1],
+    "first rebuild must clean the initial watcher",
+  );
+  state.sourceChanged();
+  await tick();
+  releaseFirstSourceBundle();
+  await waitFor(
+    () => state.installs.length === 3,
+    "both source rebuilds to install their watchers",
+  );
+  await tick();
+  assert.deepEqual(
+    [...state.active],
+    [3],
+    "overlapping source changes must leave only the newest content watcher active",
+  );
+  assert.deepEqual(
+    state.cleanup,
+    [1, 2],
+    "each replaced watcher must be cleaned exactly once",
+  );
+  assert.equal(state.mainBundles, 3);
+  assert.equal(state.parseBundles, 3);
+  console.log(
+    "CLI watcher coverage: 1 initial build, 2 overlapping source changes, 3 watcher installations, 2 cleanups, 1 active watcher",
+  );
+});
+
 before(async () => {
   await Promise.all(
     ["build", "worker"].map(async (entry) => {
@@ -273,6 +455,120 @@ async function isolatedModule(t, options) {
   return { root, module: await import(pathToFileURL(output).href) };
 }
 
+async function instrumentWorkerIdentity(f, mutant) {
+  const emitNeedle = "    const bytes = serialize(content)";
+  const workerNeedle = '  parentPort.on("message", async ({ id, task }) => {';
+  const instrument = {
+    name: "worker-identity-witness",
+    setup(build) {
+      build.onLoad({ filter: /\/processors\/emit\.ts$/ }, (args) => {
+        let source = fs.readFileSync(args.path, "utf8");
+        assert.equal(
+          source.split(emitNeedle).length,
+          2,
+          "identity witness must match the real serialization site exactly once",
+        );
+        // Mutate via nodes reached from the live tree AFTER the parser has finished. The
+        // transport and receiver must preserve that late mutation through the blocks alias.
+        const mutation = `
+    for (const [fixtureTree, fixtureFile] of content) {
+      const walk = (node) => {
+        const id = node.properties?.id
+        if (id && Object.hasOwn(fixtureFile.data.blocks ?? {}, id)) {
+          node.properties["data-fixture-late"] = "late:" + fixtureFile.data.slug + "#" + id
+        }
+        for (const child of node.children ?? []) walk(child)
+      }
+      walk(fixtureTree)
+      ${mutant === "htmlAst" ? "fixtureFile.data.htmlAst = structuredClone(fixtureTree)" : ""}
+      ${mutant === "blocks" ? `fixtureFile.data.blocks = Object.fromEntries(Object.entries(fixtureFile.data.blocks ?? {}).map(([id, node]) => [id, structuredClone(node)]))` : ""}
+    }
+`;
+        source = source.replace(emitNeedle, mutation + emitNeedle);
+        return { contents: source, loader: "ts" };
+      });
+      build.onLoad({ filter: /\/quartz\/worker\.ts$/ }, (args) => {
+        let source = fs.readFileSync(args.path, "utf8");
+        assert.equal(
+          source.split(workerNeedle).length,
+          2,
+          "identity witness must match the real restored-content receiver exactly once",
+        );
+        source =
+          `import fixtureAssert from "node:assert/strict"
+import { writeFileSync as fixtureWrite } from "node:fs"
+import { join as fixtureJoin } from "node:path"
+import { threadId as fixtureThreadId } from "node:worker_threads"
+` + source;
+        source = source.replace(
+          workerNeedle,
+          `
+  if (init.phase === "emit") {
+    const witness = { pages: 0, blocks: 0, dates: 0, lateMutations: 0 }
+    for (const [tree, file] of content) {
+      fixtureAssert.strictEqual(file.data.htmlAst, tree, "htmlAst must alias the live worker tree")
+      witness.pages++
+      const liveNodes = new Set()
+      const walk = (node) => {
+        liveNodes.add(node)
+        for (const child of node.children ?? []) walk(child)
+      }
+      walk(tree)
+      for (const [id, block] of Object.entries(file.data.blocks ?? {})) {
+        fixtureAssert.ok(liveNodes.has(block), "block must alias a node in the live worker tree")
+        fixtureAssert.equal(block.properties["data-fixture-late"], "late:" + file.data.slug + "#" + id)
+        witness.blocks++
+        witness.lateMutations++
+      }
+      for (const key of ["created", "modified", "published"]) {
+        fixtureAssert.ok(file.data.dates?.[key] instanceof Date, key + " must remain a Date in the emit worker")
+        witness.dates++
+      }
+    }
+    fixtureAssert.ok(witness.blocks > 0, "the identity fixture must exercise an authored block")
+    // Test witnesses stay outside public: they are not production emitter artifacts.
+    fixtureWrite(fixtureJoin(ctx.argv.output, "..", "worker-identity-" + fixtureThreadId + ".json"), JSON.stringify(witness))
+  }
+` + workerNeedle,
+        );
+        return { contents: source, loader: "ts" };
+      });
+    },
+  };
+  // Leave the parse worker unchanged. Both main and emit-worker bundles below are the actual
+  // implementation with observers added around its real V8/shared-buffer/restoreContent path.
+  for (const [entry, output] of [
+    ["build", "transpiled-build"],
+    ["worker", "transpiled-emit-worker"],
+  ]) {
+    await bundle({
+      entryPoints: [path.join(SOURCE, "quartz", entry + ".ts")],
+      outfile: path.join(f.source, "quartz/.quartz-cache", output + ".mjs"),
+      bundle: true,
+      platform: "node",
+      format: "esm",
+      target: "node22",
+      packages: "external",
+      sourcemap: true,
+      sourcesContent: false,
+      jsx: "automatic",
+      jsxImportSource: "preact",
+      plugins: [
+        instrument,
+        {
+          name: "identity-fixture-client-resources",
+          setup(build) {
+            build.onLoad({ filter: /\.scss$|\.inline\.(?:ts|js)$/ }, () => ({
+              contents: "",
+              loader: "text",
+            }));
+          },
+        },
+      ],
+    });
+  }
+}
+
 test("real build fails when graph.json is missing", (t) => {
   const f = fixture(t);
   fs.unlinkSync(path.join(f.root, "graph.json"));
@@ -421,6 +717,115 @@ test("real build emits identical bytes with one and two workers", (t) => {
   }
   console.log(
     `Worker transport coverage: ${files.length} byte-identical files at concurrency 1 and 2`,
+  );
+});
+
+test("native emit workers preserve live AST, block identity and Dates", async (t) => {
+  for (const mutant of [undefined, "htmlAst", "blocks"]) {
+    await t.test(
+      mutant ? `kills detached ${mutant} clone` : "real worker handoff",
+      async (t) => {
+        const f = fixture(t);
+        await instrumentWorkerIdentity(f, mutant);
+        const result = runBuild(f, 2);
+        assert.match(
+          result.log,
+          /\[emit\] path=workers concurrency=2 emitters=7/,
+        );
+        if (mutant) {
+          assert.notEqual(
+            result.status,
+            0,
+            `detached ${mutant} clone survived the identity gate`,
+          );
+          assert.match(
+            result.log,
+            mutant === "htmlAst"
+              ? /htmlAst must alias the live worker tree/
+              : /block must alias a node in the live worker tree/,
+          );
+          console.log(
+            `Identity mutant killed: detached ${mutant} clone; actual worker build exited ${result.status}`,
+          );
+        } else {
+          assert.equal(result.status, 0, result.log);
+          const witnesses = fs
+            .readdirSync(f.source)
+            .filter((name) => /^worker-identity-\d+\.json$/.test(name));
+          assert.equal(
+            witnesses.length,
+            2,
+            "both native emit workers must attest their reconstructed graph",
+          );
+          for (const file of witnesses) {
+            assert.deepEqual(
+              JSON.parse(fs.readFileSync(path.join(f.source, file), "utf8")),
+              {
+                pages: 3,
+                blocks: 1,
+                dates: 9,
+                lateMutations: 1,
+              },
+            );
+          }
+          console.log(
+            "Worker identity coverage: 2 native emit workers; 6 live-tree aliases, 2 block aliases, 18 Dates, 2 late mutations",
+          );
+        }
+      },
+    );
+  }
+});
+
+test("worker tag listings retain other pages' tags, titles, links and date ordering", (t) => {
+  const f = fixture(t);
+  // This fixture alone gives Top a later created date; the shared parity fixture stays fixed.
+  // Without corpus-wide dates the alphabetical fallback would put Mount before Mount Top.
+  f.put(
+    "content/Positions/Mount/Top.md",
+    `${frontmatter("Mount Top", "tags: [fixture]\n").replace(
+      "date: 2024-01-02T03:04:05Z",
+      "date: 2025-01-02T03:04:05Z",
+    )}\n# Top\n\n[[Positions/Mount]]\n`,
+  );
+  const result = runBuild(f, 2);
+  assert.equal(result.status, 0, result.log);
+  assert.match(result.log, /\[emit\] path=workers concurrency=2 emitters=7/);
+  const html = fs.readFileSync(
+    path.join(f.source, "public/tags/fixture.html"),
+    "utf8",
+  );
+  const lists = [...html.matchAll(/<ul class="section-ul">([\s\S]*?)<\/ul>/g)];
+  assert.equal(
+    lists.length,
+    1,
+    "the synthetic tag page must render exactly one PageList",
+  );
+  const entries = [
+    ...lists[0][1].matchAll(/<li class="section-li">([\s\S]*?)<\/li>/g),
+  ];
+  assert.equal(
+    entries.length,
+    2,
+    "both other source pages must retain their fixture tag",
+  );
+  const rows = entries.map(([, markup]) => {
+    const link = markup.match(/<a\b[^>]*href="([^"]+)"[^>]*>([^<]*)<\/a>/);
+    const date = markup.match(/<p class="meta">([^<]+)<\/p>/);
+    assert.ok(link, "each listed page needs a title and link");
+    assert.ok(date, "each listed page needs its created date");
+    return { title: link[2], href: link[1], date: date[1] };
+  });
+  assert.deepEqual(rows, [
+    {
+      title: "Mount Top",
+      href: "../../Positions/Mount/Top",
+      date: "Jan 02, 2025",
+    },
+    { title: "Mount", href: "../../Positions/Mount", date: "Jan 02, 2024" },
+  ]);
+  console.log(
+    "Other-page metadata coverage: 1 synthetic tag page lists 2 source pages with titles, links and distinct dates in descending order",
   );
 });
 

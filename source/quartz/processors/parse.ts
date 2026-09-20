@@ -21,6 +21,8 @@ export function createProcessor(ctx: BuildCtx): QuartzProcessor {
     unified()
       // base Markdown -> MD AST
       .use(remarkParse)
+      // D-57: register EVERY markdown plugin before processor.parse(), below. Some
+      // (remarkFrontmatter) extend tokenization; post-parse registration treats YAML as body.
       // MD AST -> MD AST transforms
       .use(
         transformers
