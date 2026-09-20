@@ -52,6 +52,7 @@ import sys
 from concurrent.futures import ProcessPoolExecutor
 from html.parser import HTMLParser
 from pathlib import Path
+from datetime import datetime
 
 # ---------------------------------------------------------------------------
 # File classification
@@ -585,6 +586,84 @@ def fingerprint_text(raw: bytes, rel: str) -> dict:
 # Per-file driver
 # ---------------------------------------------------------------------------
 
+def html_value_proofs(raw: bytes) -> dict:
+    """Optional D-35/D-37 value-only proof, never a default normalization.
+
+    Retain raw SHA and exact bytes everywhere else. A proof hash masks ONLY valid
+    ISO-millisecond datePublished values on Head's three enriched entity types,
+    their article:published_time meta twin, and/or the exact Footer copyright year.
+    Missing/malformed fields cannot obtain the same proof. Calendar dates are parsed,
+    not merely regex-matched. Any unrelated byte defeats the proof, even if no semantic
+    extractor sees it. The date rule is a HELD fallback (D-37), not adopted by default.
+    Pinned by seam_golden_selftest.py --values, including simultaneous hidden-byte drift.
+    This proves only token-value drift, not that a date is true or a browser works.
+    """
+    text = raw.decode('utf-8')
+    spans = {'published-time': [], 'footer-year': []}
+    values = {'published-time': [], 'footer-year': []}
+    valid = {'published-time': True, 'footer-year': True}
+
+    def timestamp(s):
+        if not re.fullmatch(r'\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{3}Z', s):
+            return False
+        try:
+            datetime.fromisoformat(s[:-1] + '+00:00')
+            return True
+        except ValueError:
+            return False
+
+    head = re.search(r'<head\b[^>]*>(.*?)</head>', text, re.S)
+    if head:
+        h = head.group(1)
+        for script in re.finditer(r'<script\b[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', h, re.S):
+            try:
+                obj = json.loads(script.group(1))
+            except ValueError:
+                valid['published-time'] = False
+                continue
+            if not isinstance(obj, dict) or obj.get('@type') not in ('WebPage', 'Article', 'CollectionPage') or 'datePublished' not in obj:
+                continue
+            date = obj['datePublished']
+            hits = list(re.finditer(r'(?<!\\)"datePublished"\s*:\s*"([^"\\]*)"', script.group(1)))
+            if not isinstance(date, str) or not timestamp(date) or len(hits) != 1 or hits[0].group(1) != date:
+                valid['published-time'] = False
+                continue
+            hit = hits[0]
+            base = head.start(1) + script.start(1)
+            spans['published-time'].append((base + hit.start(1), base + hit.end(1)))
+            values['published-time'].append(['jsonld.datePublished', date])
+        for meta in re.finditer(r'<meta\b[^>]*>', h):
+            if not re.search(r'\bproperty="article:published_time"', meta.group()):
+                continue
+            value = re.search(r'\bcontent="([^"]*)"', meta.group())
+            if not value or not timestamp(value.group(1)):
+                valid['published-time'] = False
+                continue
+            base = head.start(1) + meta.start()
+            spans['published-time'].append((base + value.start(1), base + value.end(1)))
+            values['published-time'].append(['meta.article:published_time', value.group(1)])
+    for footer in re.finditer(r'<footer\b[^>]*>.*?</footer>', text, re.S):
+        for hit in re.finditer(r'<p class="footer-copyright">BJJGraph\.org © (\d{4})</p>', footer.group()):
+            spans['footer-year'].append((footer.start() + hit.start(1), footer.start() + hit.end(1)))
+            values['footer-year'].append(hit.group(1))
+    proofs = {}
+    for names in [('published-time',), ('footer-year',), ('published-time', 'footer-year')]:
+        selected = sorted(span for name in names for span in spans[name])
+        if not selected:
+            continue
+        masked, previous = [], 0
+        for start, end in selected:
+            masked.extend((text[previous:start], '<DECLARED-VALUE>'))
+            previous = end
+        masked.append(text[previous:])
+        proofs['+'.join(names)] = {
+            'sha': shas(''.join(masked)), 'valid': all(valid[name] for name in names),
+            'values': {name: values[name] for name in names},
+            'counts': {name: len(spans[name]) for name in names},
+        }
+    return proofs
+
+
 def fingerprint_file(args):
     root, rel = args
     p = os.path.join(root, rel)
@@ -597,6 +676,7 @@ def fingerprint_file(args):
     try:
         if cls == "html":
             rec["fp"] = fingerprint_html(raw, rel)
+            rec['value_proofs'] = html_value_proofs(raw)
         elif cls == "xml":
             rec["fp"] = fingerprint_xml(raw, rel)
         elif cls == "json_semantic":
