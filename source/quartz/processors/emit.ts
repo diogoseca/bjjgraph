@@ -182,8 +182,15 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
       (index) => cfg.plugins.emitters[index].name === "ContentPage",
     )
     const uniqueSlugs = new Set(content.map(([, file]) => file.data.slug)).size === content.length
+    // These authored routes overlap FolderPage/TagPage/404 outputs. Shard timing can
+    // change their last writer: this is a replacement-induced defect, not inherited
+    // behavior to preserve. Keep the incumbent main-thread scheduling for that corpus.
+    const sharedPageRoutes = content.some(([, file]) => {
+      const slug = file.data.slug ?? ""
+      return slug.startsWith("tags/") || slug.endsWith("/index") || slug === "404"
+    })
     const sharded =
-      contentPages.length === 1 && uniqueSlugs && content.length > 0
+      contentPages.length === 1 && uniqueSlugs && !sharedPageRoutes && content.length > 0
         ? contentPages.filter(
             (index) => typeof cfg.plugins.emitters[index].emitShard === "function",
           )
@@ -192,7 +199,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     // layouts without the audited tree-read capability also retain full-content emit().
     const main = remaining.filter((index) => !sharded.includes(index))
     console.log(
-      `[emit:plan] shardEmitters=${sharded.length} mainEmitters=${main.length} uniqueSlugs=${uniqueSlugs}`,
+      `[emit:plan] shardEmitters=${sharded.length} mainEmitters=${main.length} uniqueSlugs=${uniqueSlugs} sharedPageRoutes=${sharedPageRoutes}`,
     )
     const transportStart = performance.now()
     console.log(

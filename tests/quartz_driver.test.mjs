@@ -502,11 +502,13 @@ async function instrumentWorkerIdentity(f, mutant) {
           );
         }
         if (mutant === "fullCorpus") {
-          const needle = "new Set(owned.map((_, offset) => start + offset))";
+          const needle =
+            "const resident = new Set(owned.map((_, offset) => start + offset))";
           assert.equal(source.split(needle).length, 2);
           source = source.replace(
             needle,
-            "new Set(content.map((_, index) => index))",
+            needle +
+              "\n    for (let index = 0; index < content.length; index++) resident.add(index)",
           );
         }
         return { contents: source, loader: "ts" };
@@ -782,6 +784,83 @@ test("emit transport partitions trees before native worker hydration", (t) => {
   );
   console.log(
     "Shard coverage: 3 owned pages once; 4 resident trees including 1 cross-shard target; 3 metadata entries per worker (was 6 full trees)",
+  );
+});
+
+test("four emit workers hydrate four owned trees, with a complete roll roster in each", (t) => {
+  const f = fixture(t);
+  f.put("content/index.md", `${frontmatter("Home")}\n# Home\n`);
+  f.put(
+    "content/Positions/Mount/Bottom.md",
+    `${frontmatter("Mount Bottom", "tags: [fixture]\n")}\n# Bottom\n`,
+  );
+  const result = runBuild(f, 4);
+  assert.equal(result.status, 0, result.log);
+  assert.equal(
+    [
+      ...result.log.matchAll(
+        /\[emit:hydrate:ready\] thread=\d+ renderPages=1 residentPages=1 metadataPages=4/g,
+      ),
+    ].length,
+    4,
+  );
+  assert.match(
+    result.log,
+    /\[emit:coverage:plan\] owned=4\/4 shards=4 residentTuples=4 duplication=1\.000/,
+  );
+  for (const page of [
+    "index",
+    "Positions/Mount",
+    "Positions/Mount/Top",
+    "Positions/Mount/Bottom",
+  ]) {
+    const html = fs.readFileSync(
+      path.join(f.source, "public", page + ".html"),
+      "utf8",
+    );
+    const roster = html.match(/window\.__rollPositions=(\[[^\n]*?\])/);
+    assert.ok(roster, `${page}: roll roster must be present`);
+    assert.deepEqual(
+      JSON.parse(roster[1]).map((entry) => entry.s),
+      ["Positions/Mount/Bottom", "Positions/Mount/Top"],
+    );
+  }
+  console.log(
+    "Four-worker coverage: 4 owned/resident trees total (old handoff 16); 4 eager metadata entries and complete 2-role roster in each worker",
+  );
+});
+
+test("authored tag and folder-index routes keep incumbent overlapping-write behavior", (t) => {
+  const f = fixture(t);
+  f.put(
+    "content/tags/fixture.md",
+    `${frontmatter("Authored tag")}\n# Authored\n\nauthored tag description marker\n`,
+  );
+  f.put(
+    "content/Extra/index.md",
+    `${frontmatter("Authored folder")}\n# Folder\n\nauthored folder description marker\n`,
+  );
+  const serial = runBuild(f, 1, "public-serial");
+  const parallel = runBuild(f, 4, "public-parallel");
+  assert.equal(serial.status, 0, serial.log);
+  assert.equal(parallel.status, 0, parallel.log);
+  const a = path.join(f.source, "public-serial");
+  const b = path.join(f.source, "public-parallel");
+  const files = emittedFiles(a);
+  assert.deepEqual(emittedFiles(b), files);
+  for (const file of files)
+    assert.deepEqual(
+      fs.readFileSync(path.join(a, file)),
+      fs.readFileSync(path.join(b, file)),
+      file,
+    );
+  assert.match(parallel.log, /\[emit:plan\] shardEmitters=0 mainEmitters=7/);
+  assert.match(
+    fs.readFileSync(path.join(b, "tags/index.html"), "utf8"),
+    /authored tag description marker/,
+  );
+  console.log(
+    `Authored description coverage: ${files.length} byte-identical artifacts; overlapping tag/folder routes stay on main`,
   );
 });
 
