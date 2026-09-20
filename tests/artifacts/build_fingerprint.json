@@ -24,7 +24,7 @@
  },
  "by_class": {
   "binary": 12,
-  "css": 15,
+  "css": 16,
   "gzip": 1,
   "html": 6149,
   "js": 31,
@@ -45,13 +45,13 @@
   "Transitions": 4101,
   "dev": 59,
   "markdown": 4598,
-  "static": 4957,
+  "static": 4958,
   "tags": 11
  },
  "census": {
   "article_headings": 94141,
   "article_links": 212983,
-  "files": 15769,
+  "files": 15770,
   "gzip_files": 1,
   "head_links": 36979,
   "html_pages": 6149,
@@ -67,12 +67,12 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 4957
+  "static_files": 4958
  },
  "distinct_values": {
   "name=description": 4562,
   "property=article:modified_time": 28,
-  "property=article:published_time": 1077,
+  "property=article:published_time": 888,
   "property=og:title": 4612
  },
  "jsonld_types": {
