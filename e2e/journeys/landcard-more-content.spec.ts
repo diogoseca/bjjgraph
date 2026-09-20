@@ -1,27 +1,38 @@
-// == HARNESS CONSTRAINT: THE FLAT DOCUMENT IS UNREACHABLE THROUGH THIS HARNESS (D-D-05) ==
+// == HARNESS CONSTRAINT: NO TESTED CONFIGURATION REPRODUCES PRODUCTION (D-D-05, corrected D-D-06) ==
 //
-// This spec requests 2 route(s) that exist TWICE in the emitted tree - as `X.html` AND as
-// `X/index.html` - and the two are DIFFERENT DOCUMENTS, not copies (different `data-slug`; the
-// folder copy usually lacks `#page-graph-data`).
+// This spec requests 2 route(s) emitted TWICE - as `X.html` AND `X/index.html` - and the two are
+// DIFFERENT DOCUMENTS, not copies (different `data-slug`; the folder copy usually lacks
+// `#page-graph-data`). Which one you get depends on the server, and NO server we have tested
+// serves what production serves:
 //
-//   production   /X -> FLAT      /X/ -> FOLDER                   both 200, NEITHER redirects
-//   serve (here) /X -> FOLDER    /X/ -> FOLDER    /X.html -> 301 to /X -> FOLDER
+//   production                  /X -> FLAT     /X/ -> FOLDER    both 200, NEITHER redirects
+//   `serve` (ALL TEN configs)   /X -> FOLDER   /X/ -> FOLDER    /X.html -> 301 to /X -> FOLDER
+//   `dev-serve.mjs`, NORMALLY   /X -> FOLDER   /X/ -> FOLDER    IDENTICAL - see below
+//   `dev-serve.mjs`, PAIRED     /X -> FLAT     /X/ -> FOLDER    only while a paired session runs
 //
-// All TEN Playwright configs use `serve`, whose DEFAULT `cleanUrls` 301s the `.html` form (there
-// is no serve.json in this repo). So the FLAT document - the one production serves at the bare,
-// CANONICAL url, and 0 of 4,598 sitemap entries use a trailing slash - CANNOT BE SERVED HERE AT
-// ANY URL FORM. This is not "choose the right form": no form reaches it.
+// DEV-SERVE DOES NOT MATCH PRODUCTION, AND READING ITS SOURCE SUGGESTS IT DOES. `resolveHtml`
+// (`scripts/dev-serve.mjs:352-363`) really does try `X.html` first for a bare route - but it has
+// exactly ONE call site, `:387`, inside the paired-session branch guarded by `pairedToken()`. The
+// normal static path is `:415`, `serveHandler(req, res, {public: STATIC_ROOT, etag: true})` -
+// serve-handler, the SAME library `serve` uses, with cleanUrls left at default on purpose
+// (`:412-413`: "cleanUrls and directoryListing are already serve-handler defaults - don't
+// override"). THREE PEOPLE READ THAT FUNCTION AND NONE CHECKED WHETHER IT RUNS. CLAUDE.md 6.8:
+// verifying that code says the right thing is not verifying that it executes.
 //
 // SO THE ASSERTIONS BELOW RUN AGAINST THE FOLDER COPY, a strictly degraded clone - 1,506 of 1,518
 // folder copies carry no `#page-graph-data` and pair deltas reach 35,637 bytes. No exposed spec
 // references `#page-graph-data` or `__rollPositions`, so the known-missing block is asserted
-// nowhere; but the documents still differ by 6-25 KB, so anything asserting layout, element counts
-// or positions could move if the resolver changes.
+// nowhere; but the documents differ by 6-25 KB, so anything asserting layout, element counts or
+// positions could move if the resolver changes.
 //
 // Affected route(s) here: /Submissions/Ezekiel-Choke/from-Mount, /Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame
-// THE FIX IS A RESOLVER CHANGE, NOT A SPEC CHANGE - `scripts/dev-serve.mjs` already implements
-// production's rule exactly. Escalated to quartz-cto. Do NOT "fix" this by adding a trailing
-// slash or a `.html` suffix; both still land on the folder copy.
+//
+// DO NOT "FIX" THIS BY ADDING A TRAILING SLASH OR A `.html` SUFFIX. Under the CURRENT config both
+// still land on the folder copy. Under `cleanUrls:false` the `.html` form DOES reach the flat file
+// (200, no redirect) - but bare `/X` and `/X/` then return a DIRECTORY LISTING (~19 KB, "Files
+// within ..."), trading an unreachable document for a canonical URL that serves a file index. A
+// faithful harness needs rewrite rules, a different server, or a tree without the duplicates.
+// None of those is measured yet; quartz-cto is not naming a fix until one is.
 import { test, expect, type Page } from "@playwright/test"
 import { readFileSync } from "node:fs"
 import { resolve } from "node:path"
