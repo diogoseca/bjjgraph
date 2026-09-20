@@ -1582,8 +1582,20 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     ...(i === 19 ? { providesBlock: true } : {}),
   }))
   // ROSTER-ELIGIBLE PAGES. renderPage inlines `window.__rollPositions` into EVERY page, built by
-  // filtering allFiles for `positions/…/top|bottom` — 18,759 bytes and 68.9% of 404.html in
-  // production. Appended last, so a 3-way split puts them in the FINAL shard while page 0 renders
+  // filtering allFiles for `positions/`-prefixed slugs ending `/top` or `/bottom`.
+  //
+  // ITS SIZE, WITH THE SET DEFINITION, because quartz-cto and I measured two different numbers
+  // and both were right (CLAUDE.md §6.9 — the failure is a measurement of the wrong set, not a
+  // bad measurement). On `golden/build0/404.html`, which is 27,233 bytes:
+  //     the JSON array alone                 18,759 B   68.88%
+  //     the `window.__rollPositions=…` expr  18,782 B   68.97%
+  //     the whole <script> element           18,842 B   69.19%
+  // The 115.1 MB figure behind the post-cutover emit-size cut is the ARRAY boundary
+  // (18,759 x 6,138 pages = 115.1 MB), so that is the one to quote when discussing the cut.
+  //
+  // AND THAT CUT IS WHY THIS IS GATED NOW RATHER THAN LATER: the roster is slated for deletion
+  // post-cutover, which makes it the thing most at risk of silent corruption BEFORE then — if we
+  // corrupt it pre-cutover and delete it post-cutover, we never learn that we corrupted it. Appended last, so a 3-way split puts them in the FINAL shard while page 0 renders
   // in the first: a shard handed a narrower allFiles then emits a shorter roster on every page it
   // owns. Without these the filter matches nothing, the roster is empty for every shard, and a
   // narrowed-allFiles mutant is invisible — measured, it survived until these existed.
