@@ -66,6 +66,7 @@ import assert from "node:assert/strict"
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
+import zlib from "node:zlib"
 import { probe, SOURCE_DIR } from "./_emitter_probe.mjs"
 
 const q = (p) => JSON.stringify(path.join(SOURCE_DIR, p))
@@ -89,7 +90,13 @@ const SNIPPET = `
 import { Static } from ${q("quartz/plugins/emitters/static")}
 import { Assets } from ${q("quartz/plugins/emitters/assets")}
 import { AliasRedirects } from ${q("quartz/plugins/emitters/aliases")}
+import { ContentIndex } from ${q("quartz/plugins/emitters/contentIndex")}
+import { ComponentResources } from ${q("quartz/plugins/emitters/componentResources")}
+import realConfig from ${q("quartz.config")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
+
+import fs from "node:fs"
+import path from "node:path"
 
 const args = JSON.parse(process.env.BJJ_PROBE_ARGS)
 const emptyResources = { css: [], js: [] }
@@ -131,6 +138,46 @@ if (args.kind === "aliases") {
   // plain page data rather than a parsed VFile. It is the REAL emitter and the REAL write().
   const content = args.pages.map((p) => [null, { data: p }])
   out.returned = await AliasRedirects().emit(mkctx(args), content, emptyResources)
+}
+
+if (args.kind === "contentindex") {
+  // The real factory with the real configured options, and the real site configuration so that
+  // baseUrl, locale and pageTitle are production's. Page data is synthetic because ContentIndex
+  // reads only slug/frontmatter/text/links/description/dates off it — no AST, no render.
+  const content = args.pages.map((p) => [
+    null,
+    { data: { ...p, dates: p.created ? { created: new Date(p.created), modified: new Date(p.created), published: new Date(p.created) } : undefined } },
+  ])
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = realConfig.configuration
+  out.returned = await ContentIndex(args.options).emit(ctx, content, emptyResources)
+  // Read back what the emitter left in memory-visible form: the RSS and sitemap are generated
+  // BEFORE the emitter deletes description/date off the very objects it indexed, so the order of
+  // those two steps is observable only in the emitted bytes.
+  out.sitemap = fs.readFileSync(path.join(args.output, "sitemap.xml"), "utf8")
+  out.rss = fs.readFileSync(path.join(args.output, "index.xml"), "utf8")
+}
+
+if (args.kind === "componentresources") {
+  // The real emitter, with a configuration whose env-guarded fields are SET. The golden build ran
+  // keyless (POSTHOG_API_KEY and SUPABASE_URL both unset), so the keyed direction of both
+  // injections cannot be observed anywhere in build0 — only a fixture can reach it.
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = { ...realConfig.configuration, ...args.configuration }
+  // Deliberately no emitters: the injections come from addGlobalPageResources, not from any
+  // component, so an empty component set keeps this about the injection rather than the bundle.
+  ctx.cfg.plugins = { transformers: [], filters: [], emitters: [] }
+  const logs = []
+  const realLog = console.log
+  console.log = (...a) => logs.push(a.join(" "))
+  try {
+    out.returned = await ComponentResources().emit(ctx, [], emptyResources)
+  } finally {
+    console.log = realLog
+  }
+  out.logs = logs
+  out.postscript = fs.readFileSync(path.join(args.output, "postscript.js"), "utf8")
+  out.prescript = fs.readFileSync(path.join(args.output, "prescript.js"), "utf8")
 }
 
 if (args.kind === "write") {
@@ -560,5 +607,210 @@ test("AliasRedirects reproduces the golden stub byte-for-byte, and covers the fo
   console.log(
     `  [coverage] AliasRedirects: ${emitted.length} stubs from ${pages.length} fixture pages ` +
       `(1 corpus-witnessed byte-exact, 4 branches with no corpus witness, 1 negative case)`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// ContentIndex
+// ---------------------------------------------------------------------------------------------
+
+test("ContentIndex emits four artifacts, strips description/date from the JSON, truncates at 3,000, and generates RSS BEFORE that strip", () => {
+  const root = tmp("bjj-contentindex-")
+  const output = path.join(root, "out")
+
+  // 12 pages so the rssLimit of 10 is exercised as a limit rather than as "everything".
+  const pages = Array.from({ length: 12 }, (_, i) => ({
+    slug: `Section/Page-${String(i).padStart(2, "0")}`,
+    frontmatter: { title: `Page ${i}`, tags: i % 2 ? ["alpha"] : [] },
+    // Page 0 is 4,000 characters: longer than the 3,000-char truncation, which exists to keep
+    // contentIndex.json under Cloudflare Pages' 25 MB file limit. In production that truncation
+    // is load-bearing — the file is 16.4 MB WITH it.
+    text: i === 0 ? "x".repeat(4000) : `body of page ${i}`,
+    links: i === 0 ? ["Section/Page-01"] : [],
+    description: `description of page ${i}`,
+    created: `2026-0${(i % 9) + 1}-01T00:00:00.000Z`,
+  }))
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({
+        kind: "contentindex",
+        root,
+        output,
+        pages,
+        options: { enableSiteMap: true, enableRSS: true }, // exactly what quartz.config.ts passes
+      }),
+    },
+    cwd: root,
+  })
+
+  const emitted = walk(output)
+  assert.deepEqual(
+    emitted,
+    ["index.xml", "sitemap.xml", "static/contentIndex.json", "static/contentIndex.json.gz"],
+    "ContentIndex emitted a different artifact set",
+  )
+
+  const idx = JSON.parse(fs.readFileSync(path.join(output, "static", "contentIndex.json"), "utf8"))
+  const keys = Object.keys(idx)
+  assert.equal(keys.length, pages.length, "one contentIndex entry per published page")
+  assert.ok(keys.length > 0, "coverage floor: contentIndex is empty")
+
+  // description and date are DELETED from the JSON. They exist in the in-memory index only so the
+  // RSS feed can use them; shipping them would grow the 16.4 MB file for no consumer.
+  for (const k of keys) {
+    assert.ok(!("description" in idx[k]), `${k} still carries description in contentIndex.json`)
+    assert.ok(!("date" in idx[k]), `${k} still carries date in contentIndex.json`)
+  }
+
+  // …and the RSS, generated BEFORE that delete, still has both. This is the ordering dependence:
+  // move the delete above generateRSSFeed and the feed silently loses every pubDate and
+  // description while every other assertion here stays green.
+  assert.match(value.rss, /<pubDate>[^<]+<\/pubDate>/, "RSS lost its pubDate — the strip ran before the feed")
+  assert.match(value.rss, /<description>description of page/, "RSS lost its descriptions — the strip ran before the feed")
+
+  assert.equal(
+    idx["Section/Page-00"].content.length,
+    3000,
+    "the 3,000-character truncation is gone; contentIndex.json is the largest artifact the build emits",
+  )
+
+  const items = (value.rss.match(/<item>/g) ?? []).length
+  assert.equal(items, 10, "rssLimit is 10; the feed carried a different number of items")
+  const locs = (value.sitemap.match(/<loc>/g) ?? []).length
+  assert.equal(locs, pages.length, "the sitemap must carry every indexed page, not the RSS subset")
+
+  // The gzip is a real gzip OF THE JUST-WRITTEN JSON, and it is deterministic: node's zlib writes
+  // MTIME=0 into the header, which is why two builds of identical source produce identical bytes.
+  const jsonBytes = fs.readFileSync(path.join(output, "static", "contentIndex.json"))
+  const gzBytes = fs.readFileSync(path.join(output, "static", "contentIndex.json.gz"))
+  assert.deepEqual(
+    zlib.gunzipSync(gzBytes),
+    jsonBytes,
+    "contentIndex.json.gz does not decompress to contentIndex.json",
+  )
+  assert.equal(gzBytes.readUInt32LE(4), 0, "the gzip header carries a non-zero MTIME; the .gz is no longer reproducible")
+
+  console.log(
+    `  [coverage] ContentIndex: 4 artifacts, ${keys.length} index entries all stripped of ` +
+      `description+date, ${items} RSS items from ${pages.length} pages, ${locs} sitemap locs, ` +
+      `1 truncation at 3,000 chars, gzip MTIME=0`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// ComponentResources — the two env-guarded injections
+// ---------------------------------------------------------------------------------------------
+
+// Both the PostHog block and the Supabase block are guarded on a value that comes from the
+// environment: `cfg.analytics.apiKey` (from `POSTHOG_API_KEY || ""`) and `cfg.supabase?.url`
+// (from `SUPABASE_URL || ""`). **The golden build ran with both unset**, so build0's postscript.js
+// contains NEITHER, and no golden-tree comparison can ever assert that the keyed direction still
+// works. That is the hole this test fills, and it is why the fixture supplies the CONFIG and then
+// asserts the emitter's OUTPUT — never the other way round.
+//
+// The distinction matters concretely. `e2e/journeys/auth-redirect-back.spec.ts` gates the
+// Supabase LOGIC, but it installs `window.__SUPABASE_URL` itself via `addInitScript`, so a
+// replacement that stops EMITTING the injection leaves that spec green (D-40).
+// `tests/analytics_surface_gate.test.mjs` pins the PostHog snippet as a verbatim substring of
+// this emitter's SOURCE and runs the real python gate over a synthetic build output — it never
+// executes the emitter. Neither covers "did the emitter put these bytes in postscript.js".
+//
+// NON-KILL, recorded: this drives ComponentResources with an EMPTY emitter list, so it asserts
+// nothing about component CSS/JS ordering or bundle bytes. Resource order is byte-significant and
+// is not covered here.
+
+const PH_STUB = "(window.posthog=e,e._i=[],e.init=function("
+const PH_LOADER = '.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js"'
+
+function runComponentResources(configuration, label) {
+  const root = tmp(`bjj-cr-${label}-`)
+  const output = path.join(root, "out")
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({ kind: "componentresources", root, output, configuration }),
+    },
+    cwd: root,
+  })
+  return { ...value, output }
+}
+
+test("ComponentResources EMITS the PostHog and Supabase injections when the env supplies them", () => {
+  const r = runComponentResources(
+    {
+      analytics: {
+        provider: "posthog",
+        apiKey: "phc_FIXTUREKEY",
+        host: "https://us.i.posthog.com",
+        uiHost: "https://us.i.posthog.com",
+      },
+      supabase: { url: "https://fixture.supabase.co", anonKey: "anon_FIXTUREKEY" },
+    },
+    "keyed",
+  )
+
+  let checked = 0
+  for (const needle of [
+    PH_STUB,
+    PH_LOADER,
+    'posthog.init("phc_FIXTUREKEY"',
+    "__SUPABASE_URL",
+    "https://fixture.supabase.co",
+    "__SUPABASE_ANON_KEY",
+    "anon_FIXTUREKEY",
+  ]) {
+    assert.ok(
+      r.postscript.includes(needle),
+      `postscript.js does not contain ${JSON.stringify(needle)} — the emitter stopped emitting it`,
+    )
+    checked++
+  }
+  assert.ok(checked > 0, "coverage floor: nothing was checked against the emitted bundle")
+  assert.ok(r.postscript.length > 0, "coverage floor: postscript.js is empty")
+  console.log(
+    `  [coverage] ComponentResources keyed: ${checked} emitted substrings confirmed in a ` +
+      `${r.postscript.length}-byte postscript.js`,
+  )
+})
+
+test("ComponentResources emits NEITHER injection without the env, and SAYS SO", () => {
+  const r = runComponentResources(
+    {
+      analytics: { provider: "posthog", apiKey: "", host: undefined, uiHost: "https://us.i.posthog.com" },
+      supabase: { url: "", anonKey: "" },
+    },
+    "keyless",
+  )
+
+  let checked = 0
+  for (const needle of [PH_STUB, PH_LOADER, "posthog.init(", "__SUPABASE_URL", "__SUPABASE_ANON_KEY"]) {
+    assert.ok(
+      !r.postscript.includes(needle),
+      `keyless postscript.js still contains ${JSON.stringify(needle)}`,
+    )
+    checked++
+  }
+
+  // THE SKIP PRINTS. Without this line, "no analytics in the bundle" and "analytics silently
+  // misconfigured in CI" produce identical build output — the defect class this repo has hit
+  // seventeen times. The emitter already does it; this makes removing it a red test.
+  assert.ok(
+    r.logs.some((l) => l.includes("PostHog disabled") && l.includes("POSTHOG_API_KEY")),
+    `the keyless build did not print the PostHog skip line. Logs: ${JSON.stringify(r.logs)}`,
+  )
+
+  // …and the emitter still ran: the absence must be an absence of the INJECTION, not of the
+  // emitter. postscript.js is non-empty even keyless because the SPA router and the nav event go
+  // in unconditionally. prescript.js IS empty here and that is the fixture's doing, not a defect —
+  // beforeDOMLoaded content comes from components, and this fixture deliberately has none.
+  assert.ok(r.postscript.length > 0, "coverage floor: keyless postscript.js is empty")
+  assert.deepEqual(
+    walk(r.output).sort(),
+    ["index.css", "postscript.js", "prescript.js"],
+    "ComponentResources must emit all three bundle files even when a bundle has no content",
+  )
+  console.log(
+    `  [coverage] ComponentResources keyless: ${checked} substrings confirmed ABSENT from a ` +
+      `${r.postscript.length}-byte postscript.js, and the skip line printed`,
   )
 })
