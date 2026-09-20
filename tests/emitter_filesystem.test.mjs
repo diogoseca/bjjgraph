@@ -128,6 +128,7 @@ import { TagPage } from ${q("quartz/plugins/emitters/tagPage")}
 import { NotFoundPage } from ${q("quartz/plugins/emitters/404")}
 import { ContentPage } from ${q("quartz/plugins/emitters/contentPage")}
 import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
+import { resetRenderState } from ${q("quartz/components/renderPage")}
 import realConfig from ${q("quartz.config")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
 
@@ -327,6 +328,21 @@ if (args.kind === "contentpage-shard") {
   let realLog = console.log
   console.log = (...a) => warnA.push(a.join(" "))
   try {
+    // MIRROR THE DRIVER. emit.ts calls resetRenderState() before each phase and worker.ts before
+    // each shard task, because renderPage memoises _rollPositionsJson — 18,759 bytes of EVERY
+    // page in production — from the FIRST caller's allFiles. Without this the whole-corpus run
+    // warms the memo and every shard inherits it, so the harness would be more forgiving than
+    // production, which is a harness that certifies production defects.
+    //
+    // HONEST NOTE ON WHAT THIS DID AND DID NOT FIX: I added these two calls believing the memo
+    // was why a narrowed-allFiles mutant survived. It was not — the mutant survived BOTH before
+    // and after. The real cause was that the fixture had no roster-eligible pages at all
+    // (the filter wants positions/ prefixed slugs ending /top or /bottom), so the roster was
+    // empty either way and narrowing allFiles changed nothing. The Positions pages below are
+    // the actual fix. These
+    // resets stay because the driver does them and a divergent harness is its own hazard, but
+    // they are not what kills that mutant.
+    resetRenderState()
     out.returnedA = await instance.emit(mk(args.outputA), content, emptyResources)
   } finally {
     console.log = realLog
@@ -344,6 +360,7 @@ if (args.kind === "contentpage-shard") {
     realLog = console.log
     console.log = (...a) => w.push(a.join(" "))
     try {
+      resetRenderState()
       // The 5th argument is the shard index. It is ignored by an adapter that elects by value
       // and used by one that elects by index, so this gate drives BOTH without changing.
       out.returnedB.push(
@@ -1564,6 +1581,22 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     ...(i === 0 ? { transcludes: "Section/Page-19" } : {}),
     ...(i === 19 ? { providesBlock: true } : {}),
   }))
+  // ROSTER-ELIGIBLE PAGES. renderPage inlines `window.__rollPositions` into EVERY page, built by
+  // filtering allFiles for `positions/…/top|bottom` — 18,759 bytes and 68.9% of 404.html in
+  // production. Appended last, so a 3-way split puts them in the FINAL shard while page 0 renders
+  // in the first: a shard handed a narrower allFiles then emits a shorter roster on every page it
+  // owns. Without these the filter matches nothing, the roster is empty for every shard, and a
+  // narrowed-allFiles mutant is invisible — measured, it survived until these existed.
+  for (const [pos, role] of [
+    ["Mount", "Top"],
+    ["Mount", "Bottom"],
+    ["Guard", "Top"],
+  ]) {
+    pages.push({
+      slug: `Positions/${pos}/${role}`,
+      frontmatter: { title: `${pos} ${role} | BJJ`, tags: [] },
+    })
+  }
 
   const { value } = probe(SNIPPET, {
     env: {
@@ -1588,6 +1621,25 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     "the union of the shards is a different file set than the un-sharded emit",
   )
   assert.equal(whole.length, pages.length, "the un-sharded emit lost or duplicated a page")
+
+  // The roster must be COMPLETE on a page rendered in a different shard from the roster pages.
+  // This is what makes a narrowed allFiles visible: shard 0 owns Page-00 and the last shard owns
+  // the Positions pages, so only a complete roster puts all three into Page-00's bytes.
+  const rosterOf = (html) => {
+    const m = html.match(/window\.__rollPositions=(\[.*?\])/)
+    return m ? JSON.parse(m[1].replace(/\\"/g, '"')) : null
+  }
+  const rosterWhole = rosterOf(fs.readFileSync(path.join(outputA, "Section", "Page-00.html"), "utf8"))
+  const rosterShard = rosterOf(fs.readFileSync(path.join(outputB, "Section", "Page-00.html"), "utf8"))
+  assert.ok(Array.isArray(rosterWhole) && rosterWhole.length === 3,
+    `the un-sharded run put ${rosterWhole ? rosterWhole.length : "no"} entries in __rollPositions; ` +
+      "expected the 3 Positions pages, so this fixture proves nothing")
+  assert.deepEqual(
+    rosterShard,
+    rosterWhole,
+    "a shard emitted a different __rollPositions roster than the un-sharded run — the shard was " +
+      "handed a narrower allFiles, and this roster is inlined into every page",
+  )
 
   let compared = 0
   for (const rel of whole) {
