@@ -7,9 +7,9 @@
 // it on pages where the value was non-empty** — a per-key presence assertion is cheaper, sharper
 // and fires on the fixture instead of two days later at integration.
 //
-//   Recompute the inventory:
-//     grep -rhoE 'fileData\??\.[a-zA-Z_]+' source/quartz/components/ --include=*.tsx --include=*.ts \
-//       | sort | uniq -c | sort -rn
+//   Recompute the inventory: `deriveComponentReads()` below IS the recompute — it runs on every
+//   test invocation, so the number in the log can never drift from the source it describes.
+//   Current result: 17 leaf paths, 78 reads, across 23 build-time component files.
 //
 // ── THREE OF THE INVENTORY'S KEYS ARE A DIFFERENT OBJECT (corrected, D-43 → verified) ─────────
 // The raw grep also reports `fileData.title`, `fileData.tags` and `fileData.content`. **None of
@@ -34,6 +34,11 @@
 //   P-C  toc never set (minEntries raised)           -> test 1 RED         ✓
 //   P-E  description stops writing `text`            -> test 3 RED         ✓
 //   P-F  schemaExtractor stops REMOVING from body    -> test 2 RED         ✓
+//   P-G  ofm stops assigning `htmlAst`               -> test 1 RED         ✓
+//   P-H  ofm stops assigning `blocks`                -> test 1 RED         ✓
+//   NEG  a component starts reading a NEW key        -> test 2 RED         ✓
+//        (seeded by adding `fileData.links` to Head.tsx — proves the derived-set check is
+//         self-maintaining and that a new component read cannot slip past this contract)
 //   P-D  frontmatter drops the `cssclasses` coalesce -> **survives THIS file**, killed by
 //        `quartz_frontmatter_contract.test.mjs` CONTRACT 3. Covered, but not here — recorded so
 //        nobody reads this file as gating the normalisation.
@@ -60,7 +65,9 @@
 //  · It does not assert the components RENDER correctly with these keys. That is stream D's.
 import { test } from "node:test"
 import assert from "node:assert/strict"
-import { harnessAvailable, runPipeline } from "./_quartz_pipeline.mjs"
+import fs from "node:fs"
+import path from "node:path"
+import { REPO, harnessAvailable, runPipeline } from "./_quartz_pipeline.mjs"
 
 const skip = !harnessAvailable()
 if (skip) console.log("SKIP: source/node_modules is absent — this file asserted NOTHING")
@@ -68,28 +75,93 @@ if (skip) console.log("SKIP: source/node_modules is absent — this file asserte
 // The contract, as DATA — so the coverage count below is DERIVED from the table rather than being
 // a number typed into a log line that can drift away from what actually ran.
 const CONTRACT = [
-  // key path                    reads  writer                      expected shape
-  ["slug", 15, "processors/parse.ts (DRIVER)", (v) => typeof v === "string" && v.length > 0],
-  ["filePath", 3, "processors/parse.ts (DRIVER)", (v) => typeof v === "string" && v.length > 0],
-  ["dates.created", 4, "lastmod.ts", (v) => v instanceof Date && Number.isFinite(v.getTime())],
-  ["dates.modified", 4, "lastmod.ts", (v) => v instanceof Date && Number.isFinite(v.getTime())],
-  ["toc", 4, "toc.ts", (v) => Array.isArray(v) && v.every((e) => typeof e.slug === "string")],
-  ["collapseToc", 1, "toc.ts", (v) => typeof v === "boolean"],
-  ["frontmatter.title", 2, "frontmatter.ts", (v) => typeof v === "string" && v.length > 0],
-  ["frontmatter.cssclasses", 3, "frontmatter.ts", (v) => Array.isArray(v)],
-  ["frontmatter.noindex", 1, "frontmatter.ts", (v) => v !== undefined],
-  ["frontmatter.lang", 1, "frontmatter.ts", (v) => typeof v === "string"],
-  ["description", 3, "description.ts", (v) => typeof v === "string" && v.length > 0],
-  ["schemas", 1, "schemaExtractor.ts", (v) => Array.isArray(v)],
+  // leaf path                  writer                         expected shape
+  ["slug", "processors/parse.ts (DRIVER)", (v) => typeof v === "string" && v.length > 0],
+  ["filePath", "processors/parse.ts (DRIVER)", (v) => typeof v === "string" && v.length > 0],
+  ["dates", "lastmod.ts", (v) => v && typeof v === "object"],
+  ["dates.created", "lastmod.ts", (v) => v instanceof Date && Number.isFinite(v.getTime())],
+  ["dates.modified", "lastmod.ts", (v) => v instanceof Date && Number.isFinite(v.getTime())],
+  ["toc", "toc.ts", (v) => Array.isArray(v) && v.every((e) => typeof e.slug === "string")],
+  ["collapseToc", "toc.ts", (v) => typeof v === "boolean"],
+  ["frontmatter", "frontmatter.ts", (v) => v && typeof v === "object"],
+  ["frontmatter.title", "frontmatter.ts", (v) => typeof v === "string" && v.length > 0],
+  ["frontmatter.cssclasses", "frontmatter.ts", (v) => Array.isArray(v)],
+  ["frontmatter.noindex", "frontmatter.ts", (v) => v !== undefined],
+  ["frontmatter.lang", "frontmatter.ts", (v) => typeof v === "string"],
+  ["frontmatter.tags", "frontmatter.ts", (v) => Array.isArray(v)],
+  ["description", "description.ts", (v) => typeof v === "string" && v.length > 0],
+  ["schemas", "schemaExtractor.ts", (v) => Array.isArray(v)],
+  ["blocks", "ofm.ts", (v) => v && typeof v === "object"],
+  ["htmlAst", "ofm.ts", (v) => v && v.type === "root" && Array.isArray(v.children)],
 ]
 
-// A fixture that exercises EVERY key above. It must carry: a title, cssclasses, noindex, lang, a
-// description, >1 heading (TOC needs `length > minEntries`, default 1), and a JSON-LD block.
+// ── THE SET IS DERIVED FROM THE COMPONENTS, NOT TYPED IN HERE ────────────────────────────────
+// Three of us produced three different counts for this contract (14, 11, 8-or-12) and ALL THREE
+// were wrong, because every one of us anchored the grep on the receiver name `fileData`. Measured:
+// `fileData` is only 43 of the reads; components also reach page data through `page`, `f`, `f1`,
+// `f2`, `file`, `data`, `currentFile`, `contentPage` and `m`. Anchoring on a variable NAME
+// undercounts the contract — the mirror image of D-46, where a name MATCHED something it should
+// not have. Both are the same lesson: the selector is not the thing.
+// So this derives the set from source at test time and fails if CONTRACT does not cover it.
+const PAGE_DATA_KEYS = [
+  "slug", "filePath", "relativePath", "frontmatter", "dates", "toc", "collapseToc",
+  "links", "schemas", "description", "text", "blocks", "htmlAst",
+]
+// Receivers that merely SHARE a key name with page data. Read the enclosing TYPE, not the matching
+// line (D-48) — this is the trap that cost two streams an afternoon between them.
+const NOT_PAGE_DATA = {
+  tocEntry: "TocEntry — its `.slug` is a HEADING ANCHOR, as toc.ts:24's own comment says",
+  propertyDefaults: "the i18n locale table",
+  cfg: "GlobalConfiguration",
+  opts: "component options",
+  props: "component props",
+}
+const CHAINED_METHODS = new Set([
+  "trim", "split", "map", "flatMap", "filter", "join", "includes", "length",
+  "toISOString", "slice", "at", "children",
+])
+
+function deriveComponentReads() {
+  const dir = path.join(REPO, "source", "quartz", "components")
+  const out = new Map()
+  const walk = (d) => {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const p = path.join(d, e.name)
+      // components/scripts/ is CLIENT-side, where the same identifier can be a different object.
+      if (e.isDirectory()) {
+        if (e.name !== "scripts") walk(p)
+      } else if (/\.tsx?$/.test(e.name)) {
+        const src = fs.readFileSync(p, "utf8")
+        const re = new RegExp(
+          String.raw`\b([A-Za-z_][A-Za-z0-9_]*)\??\.(${PAGE_DATA_KEYS.join("|")})\b(?:\??\.([A-Za-z_][A-Za-z0-9_]*))?`,
+          "g",
+        )
+        for (const m of src.matchAll(re)) {
+          const [, recv, key, sub] = m
+          if (recv in NOT_PAGE_DATA) continue
+          const leaf = !sub || CHAINED_METHODS.has(sub) ? key : `${key}.${sub}`
+          out.set(leaf, (out.get(leaf) ?? 0) + 1)
+        }
+      }
+    }
+  }
+  walk(dir)
+  return out
+}
+
+// A fixture that exercises EVERY key in CONTRACT — which is the point: the derived-set test below
+// proves the TABLE is complete, and this fixture proves the PIPELINE fills it. It carries a title,
+// cssclasses, tags, noindex, lang, a description, >1 heading (TOC needs `length > minEntries`,
+// default 1) and a JSON-LD block. `tags` was added after the derived check caught its absence —
+// exactly the kind of gap a hand-written fixture has by default.
 const FIXTURE = `---
 title: Contract Fixture
 description: A page that exercises every key the components read.
 cssclasses:
   - hide-content
+tags:
+  - contract
+  - fixture
 noindex: true
 lang: en-US
 ---
@@ -113,20 +185,42 @@ test("EVERY KEY THE COMPONENTS READ IS PRESENT AND WELL-SHAPED AFTER THE PIPELIN
 
   const missing = []
   const malformed = []
-  for (const [keyPath, , writer, shape] of CONTRACT) {
+  for (const [keyPath, writer, shape] of CONTRACT) {
     const v = dig(file.data, keyPath)
     if (v === undefined) missing.push(`${keyPath}  (written by ${writer})`)
     else if (!shape(v)) malformed.push(`${keyPath} = ${JSON.stringify(v)}  (written by ${writer})`)
   }
 
-  // POSITIVE COVERAGE COUNT, derived from the table, hard-failing on zero (CLAUDE.md §6.6).
-  const totalReads = CONTRACT.reduce((n, [, reads]) => n + reads, 0)
-  console.log(
-    `  coverage: ${CONTRACT.length} page-data keys asserted, covering ${totalReads} component reads`,
-  )
-  assert.ok(CONTRACT.length >= 12, "the contract table must not be empty or truncated")
+  console.log(`  coverage: ${CONTRACT.length} page-data leaf paths asserted`)
+  assert.ok(CONTRACT.length >= 17, "the contract table must not be empty or truncated")
   assert.deepEqual(missing, [], "a key the components read was never written")
   assert.deepEqual(malformed, [], "a key was written with the wrong shape")
+})
+
+test("THE CONTRACT TABLE COVERS EVERY KEY THE COMPONENTS ACTUALLY READ", async (t) => {
+  if (skip) return t.skip("harness unavailable")
+  const derived = deriveComponentReads()
+  const covered = new Set(CONTRACT.map(([k]) => k))
+  const uncovered = [...derived.keys()].filter((k) => !covered.has(k)).sort()
+  const totalReads = [...derived.values()].reduce((a, b) => a + b, 0)
+
+  // POSITIVE COVERAGE COUNT, hard-failing on zero (CLAUDE.md §6.6). A derivation that matched
+  // nothing would otherwise report a perfectly clean "0 uncovered".
+  console.log(
+    `  coverage: ${derived.size} leaf paths derived from the components, ${totalReads} reads`,
+  )
+  assert.ok(
+    derived.size >= 15,
+    `derived only ${derived.size} leaf paths — the regex or the directory is wrong, and a ` +
+      "derivation that finds nothing reports clean",
+  )
+  assert.deepEqual(
+    uncovered,
+    [],
+    "a build-time component reads a page-data key this contract does not assert. Add it to " +
+      "CONTRACT with its shape, or — if it is a same-name-different-object — to NOT_PAGE_DATA " +
+      "with the reason.",
+  )
 })
 
 test("schemas HAS EXACTLY ONE READER — losing it silently empties every <head>", async (t) => {
