@@ -28,9 +28,8 @@ archive · a measured number about a past run → archive · an owner quote → 
 *is* the rule · a mutation-kill table → archive · a trap with no greppable trigger token → rewrite
 it until it has one.
 
-**Pointer direction.** This file points **out**. Nothing points in, with one exception: the
-`CANONICAL-DISCLOSURE` block in §7 is parsed by two gates, so its markers and its wording are load
-bearing (see §7).
+**Pointer direction.** This file points **out** to the implementation and its gates. Nothing
+points in.
 
 **Before you touch app code or write a spec, read §6.** It is the reason this file is loaded at all.
 
@@ -43,15 +42,16 @@ bearing (see §7).
 | action | why | do instead |
 |---|---|---|
 | Edit generated `.md` in `content/` | Overwritten on the next regeneration. **These files carry no do-not-edit banner** — that is exactly why this rule is first | Edit the `.json` beside it (data) or `templates/` (structure), then regenerate |
-| Commit a secret or API key | Public repo | `.env`; the affiliate ref is stamped at deploy time (§7) |
+| Commit a secret or API key | Public repo | `.env`; deploy-time values are stamped by CI (§7) |
 | Guess a wikilink target | Broken link, silently | Verify the file exists first |
 | Skip validation before a content commit | Breaks the build | `npm run regenerate:build` |
 | Add a doc without indexing it | Orphaned | Link it from §0's table |
 | Put emojis in content files | Inconsistent styling | Docs only, sparingly |
 
-**This repo is PUBLIC.** No secrets, no partner terms, no commercial strategy in any committed
-file — `docs/` included. It is why there is no separate affiliate doc, why `affiliate_url` never
-reaches `graph.json`, and why the vendor ref is a deploy-time secret.
+**This repo is PUBLIC, and so is this file.** No secrets, no partner terms, no commercial
+strategy in any committed file — `docs/` and CLAUDE.md included. Anything of that kind belongs in
+the untracked `CLAUDE.local.md`, which is ignored and cannot reach a commit; do not move it back.
+It is why `affiliate_url` never reaches `graph.json` and why deploy-time values are secrets.
 
 **There is no maximum file size.** `neural/src/app.src.jsx` is deliberately ONE imperative
 component of ~13,000 lines and must not be split; several tracked files exceed 1,000 lines by
@@ -215,8 +215,9 @@ Long explanations belong in each script's own docstring, where they cannot drift
 `tests/artifacts/graph_validation_baseline.json`, `max_errors` 0) · `validate:ordinals` share-link
 lockfile (hard) · `validate:payload` byte ratchets PLUS the soft gzip bands (§8) · `validate:seo`
 crawlable-surface ratchet ·
-`validate:headers` cache/security headers · `validate:affiliate` disclosure parity (reads §7 of this
-file) · `validate:analytics` the BUILT PostHog injection against the key its build ran with, plus
+`validate:headers` cache/security headers · `validate:affiliate` the product-link surface (neutral
+source, verified links) · `validate:analytics` the BUILT PostHog injection against the key its
+build ran with, plus
 `validate:analytics:nokey`, which builds its own keyless one-file fixture because no deploy can
 exercise that direction (they all carry a key, and the mutant that shipped `posthog.init("")`
 changes nothing when one is present). Neither runs in `ci-validate.yml`, which never builds; the
@@ -585,10 +586,10 @@ symbol to every version that touched it.
 - **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). The `e2e:gen` red baseline is worse: it exists ONLY as prose — `e2e/gen/ledger.json` holds 179 rows and **every one is `"status": "accepted"`**, and no config, script or workflow carries a known-red list — so "the same 13 names" was unfalsifiable across four versions and has since drifted to 14. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
   <br>_(3)_
 
-- **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still earned, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
+- **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still worked, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
   <br>_(5)_
 
-- **A new file under `neural/src/` is INVISIBLE to git unless its name matches the allow-list.** `.gitignore:87` ignores `neural/src/*` and re-admits only `*.src.js`, `*.src.jsx`, `*.css`, `xdc-template.html`, `helmet.html`, `props.json`, `technique-content.js` — deliberately, because that directory also holds untracked design dumps. Add a new `.js` file there and CI checks out without it, so `node neural/build/build.mjs` either throws or quietly ships a bundle missing the feature: **green locally, broken in production.** Any new build input carries the `.src.` infix or is `.css`; verify with `git check-ignore -v neural/src/<file>`.
+- **A new file under `neural/src/` is INVISIBLE to git unless its name matches the allow-list.** `.gitignore`'s `neural/src/*` rule re-admits only `*.src.js`, `*.src.jsx`, `*.css`, `xdc-template.html`, `helmet.html`, `props.json`, `technique-content.js` — deliberately, because that directory also holds untracked design dumps. Add a new `.js` file there and CI checks out without it, so `node neural/build/build.mjs` either throws or quietly ships a bundle missing the feature: **green locally, broken in production.** Any new build input carries the `.src.` infix or is `.css`; verify with `git check-ignore -v neural/src/<file>`.
   <br>_(1 documented in .gitignore, 0 caught by any gate)_
 
 - **Scope every selector to a marker you OWN and assert it appears exactly once.** A query that resolves to the wrong object returns plausible data, not an error: `body[data-share-cue]` collided with the cue BUTTON's own attribute, so `querySelector` returned `<body>` and every "where is the cue" measurement silently became the whole 390x844 viewport (three journeys red); `HTMLRewriter.on("title", …)` matches by element NAME and the shell carries a second `<title>` inside an inline SVG (fixed with `title[data-share-title]`, written and asserted once by `build_share_shell.mjs`). Never query by a shape another object can have — element name, a bare attribute, or a computed dimension (a CSS-border triangle computes to `width: 8px`, not 0). Bundle corollary: `lists.src.js` and `lists-codec.src.js` share ONE scope in the IIFE, so no top-level name may collide, and `build.mjs`'s duplicate-name scan must cover `function|const|let|var|class` — it used to scan only `function|const`, so a colliding `let` walked past the guard into the SyntaxError it exists to prevent.
@@ -618,7 +619,7 @@ symbol to every version that touched it.
 
 
 
-## 7. Content standards, and the affiliate disclosure
+## 7. Content standards and product links
 
 Full rules in `docs/Content.md`. The parts you can break:
 
@@ -645,24 +646,20 @@ previews mount immediately without autoplay. Alternatives resolve exact System n
   Only `link_status: live` renders; `link_checked` records actual listing verification.
 - Committed graph products omit URLs. The index adds `course_url` and `affiliate` to existing
   app product fields; rich `guide` evidence and non-graph `references` stay in deferred dossiers.
-- Source Markdown is neutral, marked with `data-course-url` / `data-source-url`. All Systems BJJFanatics
-  clickouts participate, including sources/blogs; other hosts stay neutral. Evidence emits
-  `canonical_url`, resolved `url`, boolean `affiliate`; nontracking queries are preserved.
-  `scripts/apply_affiliate_ref.py` activates emitted links only with valid `AFFILIATE_REF`:
-  `rfsn`, `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems`, system/product IDs,
-  and `sponsored nofollow noopener`. Missing ref stays neutral; invalid ref fails the build.
-  Root `.env` is ignored; CI environment wins. Never print the ref. Resolution is idempotent,
-  refreshes gzip siblings, and runs again after agent-discovery export.
-- The canonical disclosure below appears verbatim, proximate and visible with each active link
-  (including inside expanded Sources). App click tracking uses `a[data-affiliate="true"]` and `affiliate_clickout`.
-  `scripts/check_affiliate_surface.py --built` checks source neutrality and emitted activation;
-  `tests/system_affiliates.py` covers fixture resolution. Browser behavior has its own suite.
-
-The markers and wording below are machine-read; preserve them.
-
-<!-- CANONICAL-DISCLOSURE:START -->
-Affiliate link — BJJGraph may earn a commission.
-<!-- CANONICAL-DISCLOSURE:END -->
+- **Source Markdown stays neutral.** An outbound link carries no query of its own and is marked
+  with `data-course-url` / `data-source-url`; evidence emits `canonical_url`, the resolved `url`
+  and boolean `affiliate`, and a non-tracking query is preserved. Which hosts resolve and which
+  stay neutral is decided in code (`scripts/_system_guides.py`), never by the author.
+- **The resolved form is stamped at deploy time** by `scripts/apply_affiliate_ref.py`, from an
+  environment variable CI supplies. Absent, every link ships neutral; malformed, the build fails.
+  A root `.env` is ignored, the CI environment wins, and the value is never printed. Resolution is
+  idempotent and runs a second time after the agent-discovery export — a new build step must not
+  land between the two.
+- **No inline notice is rendered** — not in a guide body, not in Sources, not in the discovery
+  export — and `validate:affiliate` fails if one comes back. The site's standing disclosure is
+  `content/terms.md`. `scripts/check_affiliate_surface.py --built` checks source neutrality and
+  emitted output; `tests/system_affiliates.py` covers fixture resolution. Browser behavior has its
+  own suite.
 
 ---
 
@@ -702,7 +699,7 @@ content are inputs to what the bots write, and a change here changes their outpu
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
 | `e2e-full.yml` | PR, weekly, manual | the full core Playwright suite, four shards |
-| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp the affiliate ref, all gates, Cloudflare Pages, Lighthouse, IndexNow |
+| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |
 | `analytics-content-improvement.yml` † | Sun 06:00 UTC | PostHog-driven content work |
 | `proofread-bot.yml` | Sun 18:00 UTC | LLM audit of graph edges and probabilities |
@@ -742,8 +739,8 @@ config; a rule about the repo rather than about a file.
 a story. At budget, admission requires eviction in the same commit; the default demotion criterion
 is *the trap now has a gate that fails loudly and names it*.
 
-`scripts/check_claudemd_budget.py` enforces the ceiling, the disclosure block, the absence of
-`@`-imports and the presence of the catalogue. `scripts/check_claudemd_refs.py` checks every path,
+`scripts/check_claudemd_budget.py` enforces the ceiling, the absence of `@`-imports and the
+presence of the catalogue. `scripts/check_claudemd_refs.py` checks every path,
 `npm run` script and symbol citation resolves. Both run in `ci-validate.yml`.
 
 ---
