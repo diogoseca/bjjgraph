@@ -5,6 +5,7 @@
  *   node scripts/emit_seam_capture.mjs --out DIR --full | --limit N  [--emitter NAME]...
  *        [--work DIR] [--concurrency N] [--plain] [--keep] [--mutant omit-file|flip-byte] [--list]
  *   node scripts/emit_seam_capture.mjs --seed-static /path/to/golden/static/neural
+ *   node scripts/emit_seam_capture.mjs --check-provenance /path/to/records   # still valid?
  *
  * Stream B produces these records under D-26; stream V owns the `quartz-seam-v1` envelope
  * (`reports/quartz-v-record-format.md`) and reviews them. Exit 0 on a complete capture, 2 when no
@@ -440,6 +441,87 @@ function seedStatic(goldenStaticNeural) {
   return 0
 }
 
+// Every input an emit-seam record's bytes depend on. Maintained HERE, beside the producer, so it
+// cannot drift from what the capture actually reads — a list of paths kept in a report drifts the
+// first time an emitter gains an import.
+const RECORD_INPUTS = [
+  "source/quartz/plugins/emitters",
+  "source/quartz/plugins/transformers",
+  "source/quartz/components",
+  "source/quartz/util",
+  "source/quartz/i18n",
+  "source/quartz/processors",
+  "source/quartz.config.ts",
+  "source/quartz.layout.ts",
+  "content",
+  "graph.json",
+]
+
+/**
+ * Is an existing record set still valid against HEAD?
+ *
+ * THE POINT, and it is not the obvious check (quartz-cto D-95, from A). The tempting version is
+ * "did the last integration touch my inputs" — and a SEQUENCE of integrations can each touch
+ * nothing while the cumulative tree has drifted, because a per-merge window only sees forward
+ * from a point already downstream of the damage. So this diffs from THE COMMIT THE RECORD WAS
+ * CAPTURED AT, which the record itself carries, to HEAD.
+ *
+ * It exists as a command rather than a note because a provenance claim that depends on being
+ * told is not a provenance claim. Run it; do not remember it.
+ *
+ * Exit 0 = inputs unchanged, records still describe HEAD. 1 = inputs changed, records are stale
+ * (which under GOLDEN-RECAPTURE rule 3 is EXPECTED until the batched re-capture, not a
+ * regression). 2 = no verdict.
+ */
+function checkProvenance(dir) {
+  const files = [
+    ...fs.readdirSync(dir).filter((f) => f.endsWith(".json") || f.endsWith(".json.gz")),
+  ]
+  if (!files.length) {
+    console.error(`NO VERDICT: no records in ${dir}`)
+    return 2
+  }
+  const heads = new Map()
+  for (const f of files) {
+    const raw = fs.readFileSync(path.join(dir, f))
+    const rec = JSON.parse((f.endsWith(".gz") ? zlib.gunzipSync(raw) : raw).toString("utf8"))
+    const head = rec.provenance?.git_head
+    if (!head) {
+      console.error(`NO VERDICT: ${f} carries no provenance.git_head`)
+      return 2
+    }
+    heads.set(head, (heads.get(head) ?? 0) + 1)
+  }
+  const now = execFileSync("git", ["rev-parse", "HEAD"], { cwd: REPO_ROOT, encoding: "utf8" }).trim()
+  let stale = 0
+  for (const [head, count] of heads) {
+    let stat
+    try {
+      stat = execFileSync("git", ["diff", "--stat", `${head}..${now}`, "--", ...RECORD_INPUTS], {
+        cwd: REPO_ROOT,
+        encoding: "utf8",
+      }).trim()
+    } catch {
+      console.error(`NO VERDICT: cannot diff ${head}..${now} — is the capture commit still present?`)
+      return 2
+    }
+    console.log(`\n${count} record(s) captured at ${head.slice(0, 9)}; HEAD is ${now.slice(0, 9)}`)
+    if (!stat) {
+      console.log("  inputs UNCHANGED — these records still describe HEAD")
+      continue
+    }
+    stale++
+    console.log(stat.split("\n").map((l) => "  " + l).join("\n"))
+    console.log(
+      "  inputs CHANGED — these records are STALE. Under GOLDEN-RECAPTURE rule 3 that delta is\n" +
+        "  EXPECTED until the batched re-capture, so a red you can attribute to it is not a\n" +
+        "  finding. Cite the capture commit above in any report that uses them.",
+    )
+  }
+  console.log(`\nchecked ${heads.size} capture commit(s) over ${RECORD_INPUTS.length} input paths`)
+  return stale ? 1 : 0
+}
+
 function seededRegions(staticSourceFiles) {
   if (!fs.existsSync(SEED_MANIFEST)) return []
   const m = JSON.parse(fs.readFileSync(SEED_MANIFEST, "utf8"))
@@ -500,6 +582,9 @@ function main() {
 
   const seedFrom = val("--seed-static")
   if (seedFrom) return seedStatic(path.resolve(seedFrom))
+
+  const provenanceDir = val("--check-provenance")
+  if (provenanceDir) return checkProvenance(path.resolve(provenanceDir))
 
   const outDir = val("--out")
   if (!outDir) {
