@@ -2011,9 +2011,33 @@ test("emit ledger: attribution partitions the output, under the real concurrent 
 
   // 1. the emitters that produced output are the ones with entries.
   assert.ok(owner.size >= walked.size, "coverage floor: fewer claims than files")
+
+  // 4. AND THE ATTRIBUTION IS CORRECT, not merely total. A partition says every path is claimed
+  //    exactly once; it does NOT say by the right emitter. A ledger that attributed every path to
+  //    a wrong-but-consistent owner would satisfy 1-3 completely. Measured: the ALS mutant dies on
+  //    the coverage floor rather than on misattribution, so without these four the test proves
+  //    less than it appears to.
+  const expectedOwner = {
+    "404.html": "404Page",
+    "index.xml": "ContentIndex",
+    "static/a.txt": "Static",
+    "tags/index.html": "TagPage",
+  }
+  let owners = 0
+  for (const [rel, emitter] of Object.entries(expectedOwner)) {
+    assert.ok(walked.has(rel), `fixture did not produce ${rel}, so its ownership proves nothing`)
+    assert.equal(
+      owner.get(rel),
+      emitter,
+      `${rel} was attributed to ${owner.get(rel)}, not ${emitter} — attribution is total but wrong`,
+    )
+    owners++
+  }
+  assert.equal(owners, 4, "coverage floor: no ownerships checked")
   console.log(
     `  [coverage] emit ledger: ${walked.size} files written by ${emitters.length} emitters under ` +
-      `the real emitContent, partition exact (0 double-claims, 0 unclaimed, 0 phantom)`,
+      `the real emitContent, partition exact (0 double-claims, 0 unclaimed, 0 phantom), ` +
+      `${owners} ownerships pinned by name`,
   )
 })
 
