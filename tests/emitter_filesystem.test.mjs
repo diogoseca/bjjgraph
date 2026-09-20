@@ -127,7 +127,9 @@ import { FolderPage } from ${q("quartz/plugins/emitters/folderPage")}
 import { TagPage } from ${q("quartz/plugins/emitters/tagPage")}
 import { NotFoundPage } from ${q("quartz/plugins/emitters/404")}
 import { ContentPage } from ${q("quartz/plugins/emitters/contentPage")}
+import * as AllEmitters from ${q("quartz/plugins/emitters/index")}
 import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
+import { resetRenderState } from ${q("quartz/components/renderPage")}
 import realConfig from ${q("quartz.config")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
 
@@ -194,6 +196,26 @@ if (args.kind === "contentindex") {
   out.rss = fs.readFileSync(path.join(args.output, "index.xml"), "utf8")
 }
 
+if (args.kind === "sole-registrant") {
+  // Drive ComponentResources over the REAL configured emitter list, then over the same list with
+  // one emitter removed. Whatever disappears from the bundles was registered by that emitter and
+  // by nothing else.
+  const build = async (output, exclude) => {
+    const emitters = realConfig.plugins.emitters.filter((e) => e.name !== exclude)
+    const ctx = mkctx({ ...args, output })
+    ctx.cfg.configuration = realConfig.configuration
+    ctx.cfg.plugins = { transformers: [], filters: [], emitters }
+    await ComponentResources().emit(ctx, [], emptyResources)
+    return {
+      css: fs.readFileSync(path.join(output, "index.css"), "utf8"),
+      post: fs.readFileSync(path.join(output, "postscript.js"), "utf8"),
+      emitters: emitters.length,
+    }
+  }
+  out.withAll = await build(args.outputA, null)
+  out.without = await build(args.outputB, args.exclude)
+}
+
 if (args.kind === "componentresources") {
   // The real emitter, with a configuration whose env-guarded fields are SET. The golden build ran
   // keyless (POSTHOG_API_KEY and SUPABASE_URL both unset), so the keyed direction of both
@@ -214,6 +236,7 @@ if (args.kind === "componentresources") {
   out.logs = logs
   out.postscript = fs.readFileSync(path.join(args.output, "postscript.js"), "utf8")
   out.prescript = fs.readFileSync(path.join(args.output, "prescript.js"), "utf8")
+  out.css = fs.readFileSync(path.join(args.output, "index.css"), "utf8")
 }
 
 if (args.kind === "folderpage") {
@@ -326,6 +349,21 @@ if (args.kind === "contentpage-shard") {
   let realLog = console.log
   console.log = (...a) => warnA.push(a.join(" "))
   try {
+    // MIRROR THE DRIVER. emit.ts calls resetRenderState() before each phase and worker.ts before
+    // each shard task, because renderPage memoises _rollPositionsJson — 18,759 bytes of EVERY
+    // page in production — from the FIRST caller's allFiles. Without this the whole-corpus run
+    // warms the memo and every shard inherits it, so the harness would be more forgiving than
+    // production, which is a harness that certifies production defects.
+    //
+    // HONEST NOTE ON WHAT THIS DID AND DID NOT FIX: I added these two calls believing the memo
+    // was why a narrowed-allFiles mutant survived. It was not — the mutant survived BOTH before
+    // and after. The real cause was that the fixture had no roster-eligible pages at all
+    // (the filter wants positions/ prefixed slugs ending /top or /bottom), so the roster was
+    // empty either way and narrowing allFiles changed nothing. The Positions pages below are
+    // the actual fix. These
+    // resets stay because the driver does them and a divergent harness is its own hazard, but
+    // they are not what kills that mutant.
+    resetRenderState()
     out.returnedA = await instance.emit(mk(args.outputA), content, emptyResources)
   } finally {
     console.log = realLog
@@ -343,6 +381,7 @@ if (args.kind === "contentpage-shard") {
     realLog = console.log
     console.log = (...a) => w.push(a.join(" "))
     try {
+      resetRenderState()
       // The 5th argument is the shard index. It is ignored by an adapter that elects by value
       // and used by one that elects by index, so this gate drives BOTH without changing.
       out.returnedB.push(
@@ -1563,6 +1602,34 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     ...(i === 0 ? { transcludes: "Section/Page-19" } : {}),
     ...(i === 19 ? { providesBlock: true } : {}),
   }))
+  // ROSTER-ELIGIBLE PAGES. renderPage inlines `window.__rollPositions` into EVERY page, built by
+  // filtering allFiles for `positions/`-prefixed slugs ending `/top` or `/bottom`.
+  //
+  // ITS SIZE, WITH THE SET DEFINITION, because quartz-cto and I measured two different numbers
+  // and both were right (CLAUDE.md §6.9 — the failure is a measurement of the wrong set, not a
+  // bad measurement). On `golden/build0/404.html`, which is 27,233 bytes:
+  //     the JSON array alone                 18,759 B   68.88%
+  //     the `window.__rollPositions=…` expr  18,782 B   68.97%
+  //     the whole <script> element           18,842 B   69.19%
+  // The 115.1 MB figure behind the post-cutover emit-size cut is the ARRAY boundary
+  // (18,759 x 6,138 pages = 115.1 MB), so that is the one to quote when discussing the cut.
+  //
+  // AND THAT CUT IS WHY THIS IS GATED NOW RATHER THAN LATER: the roster is slated for deletion
+  // post-cutover, which makes it the thing most at risk of silent corruption BEFORE then — if we
+  // corrupt it pre-cutover and delete it post-cutover, we never learn that we corrupted it. Appended last, so a 3-way split puts them in the FINAL shard while page 0 renders
+  // in the first: a shard handed a narrower allFiles then emits a shorter roster on every page it
+  // owns. Without these the filter matches nothing, the roster is empty for every shard, and a
+  // narrowed-allFiles mutant is invisible — measured, it survived until these existed.
+  for (const [pos, role] of [
+    ["Mount", "Top"],
+    ["Mount", "Bottom"],
+    ["Guard", "Top"],
+  ]) {
+    pages.push({
+      slug: `Positions/${pos}/${role}`,
+      frontmatter: { title: `${pos} ${role} | BJJ`, tags: [] },
+    })
+  }
 
   const { value } = probe(SNIPPET, {
     env: {
@@ -1587,6 +1654,25 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     "the union of the shards is a different file set than the un-sharded emit",
   )
   assert.equal(whole.length, pages.length, "the un-sharded emit lost or duplicated a page")
+
+  // The roster must be COMPLETE on a page rendered in a different shard from the roster pages.
+  // This is what makes a narrowed allFiles visible: shard 0 owns Page-00 and the last shard owns
+  // the Positions pages, so only a complete roster puts all three into Page-00's bytes.
+  const rosterOf = (html) => {
+    const m = html.match(/window\.__rollPositions=(\[.*?\])/)
+    return m ? JSON.parse(m[1].replace(/\\"/g, '"')) : null
+  }
+  const rosterWhole = rosterOf(fs.readFileSync(path.join(outputA, "Section", "Page-00.html"), "utf8"))
+  const rosterShard = rosterOf(fs.readFileSync(path.join(outputB, "Section", "Page-00.html"), "utf8"))
+  assert.ok(Array.isArray(rosterWhole) && rosterWhole.length === 3,
+    `the un-sharded run put ${rosterWhole ? rosterWhole.length : "no"} entries in __rollPositions; ` +
+      "expected the 3 Positions pages, so this fixture proves nothing")
+  assert.deepEqual(
+    rosterShard,
+    rosterWhole,
+    "a shard emitted a different __rollPositions roster than the un-sharded run — the shard was " +
+      "handed a narrower allFiles, and this roster is inlined into every page",
+  )
 
   let compared = 0
   for (const rel of whole) {
@@ -1641,6 +1727,167 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     `  [coverage] ContentPage shard parity: ${compared} files byte-compared across ${value.warnB.length} ` +
       `shards vs one un-sharded run, warning fired in exactly ${warned}, 1 cross-shard ` +
       `transclusion resolved, custom layout opts out`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// ComponentResources — the ORDER WITHIN the bundles
+// ---------------------------------------------------------------------------------------------
+
+// INTERFACE.md says "resource order is byte-significant" twice and gated it nowhere. The
+// first-seen COMPONENT order is covered above; this covers the order WITHIN the two bundles,
+// which is decided by fixed concatenation rather than by component collection:
+//
+//   afterDOMLoaded, in push order: popover -> analytics -> supabase -> SPA router
+//   index.css, via joinStyles:     component css -> custom.scss -> the :root theme block LAST
+//
+// This is the PostHog surface (recon R8), pinned verbatim by three gates and a paths: filter, so
+// a reordering here moves bytes that other people's gates assert on.
+//
+// THE SPA POSITION IS SEMANTIC, NOT COSMETIC. componentResources.ts says it in place: the router
+// is pushed last because the "nav" event fires from it and every other script must have had the
+// chance to register a listener first. Move it earlier and the bundle still works on most pages
+// and silently loses listeners on the rest — so this assertion is about behaviour that only
+// shows up as a byte order.
+
+test("ComponentResources: bundle order — SPA router last in postscript, theme block last in css", () => {
+  const r = runComponentResources(
+    {
+      analytics: {
+        provider: "posthog",
+        apiKey: "phc_ORDERKEY",
+        host: "https://us.i.posthog.com",
+        uiHost: "https://us.i.posthog.com",
+      },
+      supabase: { url: "https://order.supabase.co", anonKey: "anon_ORDERKEY" },
+    },
+    "order",
+  )
+
+  // ---- postscript.js: the push order of addGlobalPageResources ----
+  const at = (needle, where) => {
+    const i = where.indexOf(needle)
+    assert.ok(i >= 0, `bundle does not contain ${JSON.stringify(needle)} at all`)
+    return i
+  }
+  const popover = at("popover", r.postscript)
+  const posthog = at("window.posthog", r.postscript)
+  const supabase = at("__SUPABASE_URL", r.postscript)
+  const spa = at("spaNavigate", r.postscript)
+
+  assert.ok(popover < posthog, "the popover script no longer precedes the analytics block")
+  assert.ok(posthog < supabase, "the Supabase block no longer follows the analytics block")
+  assert.ok(
+    supabase < spa,
+    "the SPA router no longer comes last in afterDOMLoaded. It is pushed last on purpose: the " +
+      "'nav' event fires from it and every other script must have registered its listener first. " +
+      "Moving it earlier works on most pages and silently drops listeners on the rest.",
+  )
+
+  // ---- index.css: joinStyles' fixed concatenation ----
+  // joinStyles(theme, ...stylesheet) emits the STYLESHEETS FIRST and the :root theme block LAST —
+  // the opposite of what the argument order suggests, which is why this is pinned by measurement
+  // rather than by reading the call site.
+  const popoverCss = at(".popover", r.css)
+  const customCss = at(".entity-relations", r.css) // unique to styles/custom.scss
+  const themeBlock = at("--graphPosition", r.css) // inside the generated :root block
+  assert.ok(popoverCss < customCss, "component css no longer precedes custom.scss")
+  assert.ok(
+    customCss < themeBlock,
+    "the :root theme block is no longer last; joinStyles appends it after every stylesheet",
+  )
+
+  console.log(
+    `  [coverage] ComponentResources order: 4 afterDOMLoaded blocks in push order ` +
+      `(popover<posthog<supabase<spa), 3 css sections in concatenation order ` +
+      `(component<custom<:root)`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// 404Page is the SOLE registrant of NotFound's css and script
+// ---------------------------------------------------------------------------------------------
+
+// `404.tsx:16` is the only `pageBody: NotFound()` in any emitter, so 404Page alone puts
+// notFound.scss (2,365 B) into index.css and notFound.inline.ts (9,121 B) into postscript.js —
+// two bundles it never writes itself and that every one of the 6,149 pages loads.
+//
+// That makes it CLAUDE.md §6.7's "deleting a component deletes a capability", but with a BYTE
+// SIGNATURE: the loss is catchable from the bundles rather than only from a component census,
+// which is a stronger gate because it does not depend on anyone maintaining a census.
+//
+// The test removes 404Page from the REAL configured emitter list and requires the markers to
+// vanish. That is two claims at once: 404Page contributes them, and nothing else puts them back.
+// A census can only ever assert the first.
+//
+// MUTANTS, AND ONE THAT WAS A FALSE KILL — worth keeping because the shape is easy to repeat:
+//   - 404Page stops registering its pageBody                      … kills (capability lost)
+//   - a SECOND emitter also registers NotFound                    … kills (sole-registrant lost)
+//
+// My first attempt at the second mutant added `const NotFoundDup = NotFound()` to contentPage.tsx
+// WITHOUT importing NotFound. The suite went red — and proved nothing, because the mutant did not
+// compile. A red from a broken build looks exactly like a red from a violated claim. The real
+// mutant imports NotFound into folderPage.tsx and adds it to getQuartzComponents: `tsc --noEmit`
+// then exits 0 and the failure message is the claim itself, ".did-you-mean is still in index.css
+// without 404Page". VERIFY A MUTANT COMPILES BEFORE COUNTING ITS KILL.
+
+test("404Page is the sole registrant of NotFound's css and script, and its removal is visible in the bundles", () => {
+  const root = tmp("bjj-sole-")
+  const outputA = path.join(root, "with-404")
+  const outputB = path.join(root, "without-404")
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({
+        kind: "sole-registrant",
+        root,
+        outputA,
+        outputB,
+        output: outputA,
+        exclude: "404Page",
+      }),
+    },
+  })
+
+  assert.equal(
+    value.without.emitters,
+    value.withAll.emitters - 1,
+    "the fixture did not actually remove exactly one emitter",
+  )
+
+  // Markers taken from the two source files, not from a previous run's output.
+  const cssMarkers = [".did-you-mean", ".home-fallback", ".action-button"]
+  const jsMarkers = ["not-found-title", "did-you-mean-link", "create-page-link"]
+
+  let checked = 0
+  for (const m of cssMarkers) {
+    assert.ok(value.withAll.css.includes(m), `index.css never contained ${m} even WITH 404Page`)
+    assert.ok(
+      !value.without.css.includes(m),
+      `${m} is still in index.css without 404Page — either another emitter registers NotFound ` +
+        `(so 404Page is not the sole registrant) or the marker is not unique to notFound.scss`,
+    )
+    checked++
+  }
+  for (const m of jsMarkers) {
+    assert.ok(value.withAll.post.includes(m), `postscript.js never contained ${m} even WITH 404Page`)
+    assert.ok(!value.without.post.includes(m), `${m} is still in postscript.js without 404Page`)
+    checked++
+  }
+  assert.ok(checked > 0, "coverage floor: no markers checked")
+
+  // And the loss has a SIZE, which is the part a census cannot give you.
+  const cssLost = value.withAll.css.length - value.without.css.length
+  const jsLost = value.withAll.post.length - value.without.post.length
+  assert.ok(
+    cssLost > 0 && jsLost > 0,
+    `removing 404Page changed no bundle bytes (css ${cssLost}, js ${jsLost}) — the capability ` +
+      `would be deletable with no byte signature at all`,
+  )
+
+  console.log(
+    `  [coverage] 404Page sole registrant: ${checked} markers present-with and absent-without ` +
+      `across 2 bundles; removing it costs ${cssLost} css bytes and ${jsLost} js bytes`,
   )
 })
 
