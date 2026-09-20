@@ -1922,6 +1922,15 @@ test("404Page is the sole registrant of NotFound's css and script, and its remov
 //      if the ledger used a module-level "current emitter" instead of AsyncLocalStorage, because
 //      phase two runs emitters concurrently through one shared write().
 
+// MUTANTS, ALL RUN THROUGH quartz/mutate.sh SO THE REVERT IS HASH-VERIFIED:
+//   - ALS replaced by a module-global               … kills, but on the COVERAGE FLOOR: nothing
+//     is attributed at all, so it does not exercise misattribution. That is why (4) exists.
+//   - Static claims its reporting glob, not the copy … kills, naming static/payload/*.json
+//   - recorders ignore ALS and attribute everything to one emitter … kills on (4), with
+//     "404.html was attributed to ContentPage, not 404Page — attribution is total but wrong"
+//   - DISCARDED AS A NO-OP: changing only the `if (!ctx) return` FALLBACK. ALS never fails, so
+//     the fallback never runs and the mutation changes nothing. A mutation that cannot execute
+//     is not a surviving mutant; it is not a mutant.
 test("emit ledger: attribution partitions the output, under the real concurrent driver", () => {
   // TWO cwd-relative dependencies pull in opposite directions and the fixture has to satisfy both:
   //   static.ts resolves its source as `quartz/static` relative to cwd
