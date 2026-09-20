@@ -54,7 +54,7 @@ jobs:
       # public dev preview, which carries the same secrets as prod.
       - name: Validate content (gate)
         run: |
-          pip install jsonschema
+          pip install jsonschema PyYAML
           python3 scripts/validate_json.py --all
           python3 scripts/validate_graph_integrity.py
           # Share-link ordinal lockfile (node_ordinals.json): every live graph node must
@@ -65,6 +65,10 @@ jobs:
           # HEAD^1, not HEAD: in CI the checked-out HEAD *is* the commit under test, so a
           # HEAD baseline would compare it to itself and prove nothing.
           python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
+
+      # Compare the actual local/production/preview chains before any emit.
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
 
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
