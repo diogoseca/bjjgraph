@@ -93,6 +93,8 @@ import { AliasRedirects } from ${q("quartz/plugins/emitters/aliases")}
 import { ContentIndex } from ${q("quartz/plugins/emitters/contentIndex")}
 import { ComponentResources } from ${q("quartz/plugins/emitters/componentResources")}
 import { FolderPage } from ${q("quartz/plugins/emitters/folderPage")}
+import { TagPage } from ${q("quartz/plugins/emitters/tagPage")}
+import { NotFoundPage } from ${q("quartz/plugins/emitters/404")}
 import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
 import realConfig from ${q("quartz.config")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
@@ -190,6 +192,15 @@ if (args.kind === "folderpage") {
   ctx.cfg.configuration = realConfig.configuration
   ctx.cfg.plugins = { transformers: [], filters: [], emitters: [] }
   out.returned = await FolderPage().emit(ctx, content, emptyResources)
+}
+
+if (args.kind === "tagpage" || args.kind === "404") {
+  const content = args.pages.map((p) => defaultProcessedContent(p))
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = realConfig.configuration
+  ctx.cfg.plugins = { transformers: [], filters: [], emitters: [] }
+  const emitter = args.kind === "tagpage" ? TagPage() : NotFoundPage()
+  out.returned = await emitter.emit(ctx, content, emptyResources)
 }
 
 if (args.kind === "write") {
@@ -920,5 +931,126 @@ test("FolderPage mints one index per folder, and keeps the authored slug on a pa
   console.log(
     `  [coverage] FolderPage: ${emitted.length} folder indexes from ${pages.length} pages ` +
       `(1 authored-replacement, 1 pure synthetic, 1 nested; '.' and 'tags' correctly minted none)`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// TagPage
+// ---------------------------------------------------------------------------------------------
+
+// 11 pages in production: 10 tags plus `tags/index.html`. UNGATED before this (recon §2.1).
+// The 11 ship indexable zero-character <article>s with no `meta robots` — the same soft-404 shape
+// Head.tsx documents as deliberately fixed for /Game-Over (recon R6). Inherited under D-03; this
+// test pins the SET and the minting rules, and asserts nothing about that emptiness in either
+// direction so that fixing it later is not reported as a regression.
+
+test("TagPage mints a page per tag plus the index, expanding nested tags to every prefix", () => {
+  const root = tmp("bjj-tagpage-")
+  const output = path.join(root, "out")
+
+  const pages = [
+    { slug: "P1", frontmatter: { title: "P1", tags: ["alpha"] } },
+    // A nested tag mints EVERY prefix: "beta" and "beta/deep", not just the leaf.
+    { slug: "P2", frontmatter: { title: "P2", tags: ["beta/deep"] } },
+    { slug: "P3", frontmatter: { title: "P3", tags: ["alpha", "gamma"] } },
+    { slug: "P4", frontmatter: { title: "P4", tags: [] } },
+    // An authored tags/ page replaces the synthetic tuple for that tag.
+    { slug: "tags/alpha", frontmatter: { title: "The Authored Alpha Tag", tags: [] } },
+  ]
+
+  const { value } = probe(SNIPPET, {
+    env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "tagpage", root, output, pages }) },
+    cwd: root,
+  })
+
+  const emitted = walk(output)
+  assert.ok(emitted.length > 0, "coverage floor: TagPage emitted nothing")
+  assert.deepEqual(
+    emitted,
+    [
+      "tags/alpha.html",
+      "tags/beta.html", // minted by the PREFIX of beta/deep, though nothing is tagged plain "beta"
+      "tags/beta/deep.html",
+      "tags/gamma.html",
+      "tags/index.html", // always minted, by tags.add("index")
+    ],
+    "TagPage minted a different tag set",
+  )
+
+  const alpha = fs.readFileSync(path.join(output, "tags", "alpha.html"), "utf8")
+  assert.ok(
+    alpha.includes("The Authored Alpha Tag"),
+    "the authored tags/alpha page did not replace the synthetic tuple",
+  )
+  const gamma = fs.readFileSync(path.join(output, "tags", "gamma.html"), "utf8")
+  assert.ok(gamma.includes("gamma"), "the synthetic tag page lost its tag title")
+
+  const returned = value.returned ?? []
+  assert.equal(returned.length, emitted.length, "TagPage's return value and its output disagree")
+  console.log(
+    `  [coverage] TagPage: ${emitted.length} pages from ${pages.length} sources ` +
+      `(1 nested tag expanded to 2 prefixes, 1 authored replacement, 1 always-minted index)`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// 404Page
+// ---------------------------------------------------------------------------------------------
+
+// One file, 27,233 bytes in build0, UNGATED (recon §2.1) and carrying no byte ceiling anywhere —
+// `budget_site.json`'s `pages` block has nine keys and none of them is 404.html.
+//
+// THE THING A REPLACEMENT GETS WRONG BY DEFAULT: this page alone computes its resource base from
+// `new URL("https://" + baseUrl).pathname`, i.e. "/", NOT from `pathToRoot(slug)`. So its
+// stylesheet and script URLs are ROOT-ABSOLUTE while CategoryNav on the very same page uses
+// `pathToRoot("404")` = ".." for its links. The page deliberately mixes two bases — it has to,
+// because a 404 is served from an arbitrary depth — and D-03 requires reproducing that exactly.
+// Switching it to pathToRoot is a 10-byte change that looks like a tidy-up.
+
+test("404Page emits one file whose RESOURCE base is root-absolute while its nav base is relative", () => {
+  const root = tmp("bjj-404-")
+  const output = path.join(root, "out")
+  const pages = [
+    { slug: "Positions/Mount", frontmatter: { title: "Mount", tags: [] } },
+    { slug: "Learning/Intro", frontmatter: { title: "Intro", tags: [] } },
+  ]
+
+  const { value } = probe(SNIPPET, {
+    env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "404", root, output, pages }) },
+    cwd: root,
+  })
+
+  const emitted = walk(output)
+  assert.deepEqual(emitted, ["404.html"], "404Page must emit exactly one file, at the output root")
+
+  const html = fs.readFileSync(path.join(output, "404.html"), "utf8")
+  assert.ok(html.length > 0, "coverage floor: 404.html is empty")
+
+  let rootAbsolute = 0
+  for (const asset of ["/index.css", "/prescript.js", "/postscript.js"]) {
+    assert.ok(
+      html.includes(`"${asset}"`),
+      `404.html no longer loads ${asset} root-absolutely — the resource base was switched to ` +
+        `pathToRoot, which is a one-line tidy-up that breaks a 404 served from any depth`,
+    )
+    rootAbsolute++
+  }
+  assert.ok(
+    !html.includes('"../index.css"'),
+    "404.html is loading ../index.css; the root-absolute resource base is gone",
+  )
+
+  // …and the nav on the same page is relative, which is the mismatch worth pinning as deliberate.
+  const relativeNav = (html.match(/href="\.\.\/[A-Z]/g) ?? []).length
+  assert.ok(
+    relativeNav > 0,
+    "404.html has no ../ nav links; both bases became the same, which is not what production ships",
+  )
+
+  const returned = value.returned ?? []
+  assert.equal(returned.length, 1, "404Page must resolve exactly one written path")
+  console.log(
+    `  [coverage] 404Page: 1 file, ${rootAbsolute} root-absolute resource URLs alongside ` +
+      `${relativeNav} depth-relative nav links — two bases on one page, deliberately`,
   )
 })
