@@ -49,8 +49,12 @@ def value_proofs(tree):
         ('date value', raw.replace(old, b'2026-09-21T12:34:56.789Z'), True),
         ('footer year', raw.replace('BJJGraph.org © 2026'.encode(), 'BJJGraph.org © 2027'.encode()), True),
         ('missing date', raw.replace(b'"datePublished":"' + old + b'",', b''), False),
+        ('missing published meta', re.sub(rb'<meta\b[^>]*property="article:published_time"[^>]*>', b'', raw), False),
         ('malformed date', raw.replace(old, b'not-a-date'), False),
         ('invalid calendar date', raw.replace(old, b'2026-02-30T12:34:56.789Z'), False),
+        ('missing footer year', raw.replace('BJJGraph.org © 2026'.encode(), b'BJJGraph.org'), False),
+        ('malformed footer year', raw.replace('BJJGraph.org © 2026'.encode(), 'BJJGraph.org © unknown'.encode()), False),
+        ('date and year together', raw.replace(old, b'2026-09-21T12:34:56.789Z').replace('BJJGraph.org © 2026'.encode(), 'BJJGraph.org © 2027'.encode()), True),
         ('date plus unextracted body change', raw.replace(old, b'2026-09-21T12:34:56.789Z').replace(b'under active development', b'under silent corruption'), False),
         ('year plus unextracted body change', raw.replace('BJJGraph.org © 2026'.encode(), 'BJJGraph.org © 2027'.encode()).replace(b'under active development', b'under silent corruption'), False),
     ]
@@ -117,6 +121,16 @@ def main():
         empty = tmp / 'empty'
         empty.mkdir()
         run(2, 'zero-page extraction', 'extract-render', '--tree', empty, '--out', tmp / 'none')
+        from seam_golden import envelope, encoded
+        typed = tmp / 'typed-golden.json'
+        typed.write_bytes(encoded(envelope('transform', 'typed', {'flag': True, 'items': [1, 2]},
+                                          {'files': 1}, {'fixture': 'JSON value types'})))
+        candidate.write_text('{"flag":1,"items":[1,2]}')
+        run(1, 'JSON boolean is not number', 'verify', '--golden', typed, '--candidate', candidate)
+        candidate.write_text('{"items":[1,2],"flag":true}')
+        run(0, 'object key order is immaterial', 'verify', '--golden', typed, '--candidate', candidate)
+        candidate.write_text('{"flag":true,"items":[2,1]}')
+        run(1, 'array order remains pinned', 'verify', '--golden', typed, '--candidate', candidate)
     print(f'PASS coverage: {claims} seam assertions; all mutants killed')
 
 

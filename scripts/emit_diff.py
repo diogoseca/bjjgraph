@@ -25,6 +25,22 @@ Pinned by seam_golden_selftest.py --seeded: counts, omissions, dead/empty declar
 Blind spots: byte parity does not prove browser behavior, production routing, analytics
 ingestion, or keyed deployment behavior absent from the compared environments.
 
+FEATURE EXERCISE (D-51/D-54)
+---------------------------
+Before citing a green differ for a feature, measure how many corpus files exercise
+that feature. Zero exercised files means the differ is not evidence; a fixture must
+exercise the missing branch. Reports must carry that measured blind-spot table.
+Do not substitute a consumer identifier for evidence of its producer: build0's
+postscript.js has four __SUPABASE_URL references and ZERO window.__SUPABASE_URL
+assignments. Count occurrences, not lines in a minified bundle, and match the
+assignment when the claim is injection. A normalization must preserve the producer's
+presence/count, not merely the identifier's presence. The differ checks bytes; it
+cannot infer branch exercise from those bytes or prove unexecuted behavior.
+
+Two same-checkout builds only measure the inputs varied by that experiment. Source
+birthtime and the copyright year can stay identical across both; a green pair is not
+an exhaustive nondeterminism sweep or a cross-checkout/calendar-boundary proof.
+
     1 and 2 are kept apart on purpose. If a candidate that genuinely dropped canonicals
     also exited 2, then "2" would mean "something is wrong" in general, the operator
     would learn to wave it through, and the instrument check would stop being one.
@@ -58,6 +74,13 @@ source, and each rule must carry a `reason`. The rules live in a JSON file passe
 
 Each rule prints the number of differences it suppressed. A rule that suppresses
 everything is visible as a large number, not as a clean report.
+
+The D-37 datePublished value rule is a HELD, opt-in fallback pending the dates fix;
+it is not an adopted default. D-35's footer-year rule is also explicitly supplied.
+Value proofs hash the WHOLE page with only valid, present target values masked.
+Missing/malformed fields or unrelated byte drift cannot use that proof. Re-fingerprint
+both trees with the current extractor to use it; old manifests remain strict.
+Pinned by seam_golden_selftest.py --values (11 positive and negative fixtures).
 """
 
 from __future__ import annotations

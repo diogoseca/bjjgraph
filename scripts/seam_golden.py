@@ -17,7 +17,9 @@ existing fingerprint's diagnostics. No normalization is applied, including dates
 
 Pinned by seam_golden_selftest.py: actual incumbent page passes in <1s; byte-only
 drift and lost CategoryNav exit 1; absent/empty candidate exits 2; blind golden and
-empty extraction fail. The corpus mutation table lives in emit_mutation_test.py.
+empty extraction fail; JSON booleans cannot compare equal to numbers, object keys
+are unordered and array order is pinned. The corpus mutation table lives in
+emit_mutation_test.py.
 
 BLIND SPOTS: one-file success cannot see omitted sibling pages, emitter scheduling,
 browser execution, layout, network/Cloudflare behavior, analytics ingestion, or a
@@ -121,7 +123,7 @@ def first_differences(g, c, path='data', limit=12):
     out = []
 
     def walk(a, b, key):
-        if len(out) >= limit or a == b:
+        if len(out) >= limit or encoded(a) == encoded(b):
             return
         if type(a) is not type(b):
             out.append(f'{key}: {type(a).__name__} -> {type(b).__name__}')
@@ -186,7 +188,8 @@ def verify(args):
     except (ValueError, KeyError, OSError) as e:
         print(f'FAIL candidate coverage invalid: {e}')
         return 2
-    if golden['data'] == candidate:
+    # Python considers True == 1, including inside dicts/lists. JSON does not.
+    if encoded(golden['data']) == encoded(candidate):
         print('PASS NO DIFFERENCES; compared=1')
         return 0
     if golden['seam'] == 'render':
