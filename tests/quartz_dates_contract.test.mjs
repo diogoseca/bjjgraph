@@ -82,8 +82,9 @@
 import { test } from "node:test"
 import assert from "node:assert/strict"
 import fs from "node:fs"
+import { execFileSync } from "node:child_process"
 import path from "node:path"
-import { harnessAvailable, runPipeline, commitFixture } from "./_quartz_pipeline.mjs"
+import { REPO, harnessAvailable, runPipeline, commitFixture } from "./_quartz_pipeline.mjs"
 
 const skip = !harnessAvailable()
 if (skip) console.log("SKIP: source/node_modules is absent — this file asserted NOTHING")
@@ -284,6 +285,57 @@ test("GOLDEN CENSUS — SPREAD, not cardinality: three parts, all of which must 
     console.log(`  SKIP: golden tree absent at ${GOLDEN} — census NOT run, nothing asserted here`)
     return
   }
+  // ── ASSERT THE GOLDEN'S CONTENT PROVENANCE AT USE TIME (COORDINATION §7N) ──────────────────
+  // RECORDING PROVENANCE IS NOT ASSERTING IT. `golden/build0.env.txt` records git_head
+  // 308d6f577 — a DIFFERENT commit from the seams' f649801a9 — and also `git_dirty 4 path(s)`.
+  // This census reads that golden and asserts a property of the corpus, so if `content/` has moved
+  // since capture it is comparing across two trees and the verdict is meaningless.
+  //
+  // Six scheduled workflows commit to this repo across a ~40-hour weekend window (votes-refresh,
+  // seo-monitor, validation-fixer, content-improvement-bot, analytics-content-improvement,
+  // proofread-bot) and ALL SIX PUSH DIRECTLY — none opens a PR. So content expires on a CLOCK, not
+  // on a change anyone makes deliberately, and there is no merge step at which to hold it.
+  //
+  // Comparing the `content/` TREE OBJECT rather than the commit is what makes this survive: two
+  // different capture commits can describe an identical corpus, and here they do.
+  // CAVEAT, stated because the recorded provenance carries one: build0 was captured from a DIRTY
+  // tree. A matching tree id is therefore necessary but not sufficient — it cannot see an
+  // uncommitted edit that was present at capture. Nothing available now can.
+  const buildEnv = "/home/user/bjj-orchestrator/golden/build0.env.txt"
+  if (fs.existsSync(buildEnv)) {
+    const head = (fs.readFileSync(buildEnv, "utf8").match(/git_head\s+(\S+)/) || [])[1]
+    let goldenContent = null
+    let hereContent = null
+    try {
+      goldenContent = execFileSync("git", ["rev-parse", `${head}:content`], { cwd: REPO, encoding: "utf8" }).trim()
+      hereContent = execFileSync("git", ["rev-parse", "HEAD:content"], { cwd: REPO, encoding: "utf8" }).trim()
+    } catch (err) {
+      // DO NOT SWALLOW A PROGRAMMING ERROR AS A DATA VERDICT. The first version of this block had
+      // a bare `catch` and an undefined `REPO`, so a ReferenceError in MY OWN CODE was reported as
+      // the calm, plausible sentence "provenance: UNKNOWN — cannot resolve <sha>:content", which
+      // reads exactly like a legitimately unreachable commit. It took a shell comparison to notice
+      // the commit resolved fine. A catch that cannot tell "the data is absent" from "this check is
+      // broken" will always report the former (CLAUDE.md §6.6).
+      if (err instanceof ReferenceError || err instanceof TypeError) throw err
+      console.log(`  provenance: UNKNOWN — git could not resolve ${head}:content (${err.message.split("\n")[0]})`)
+    }
+    if (goldenContent && hereContent) {
+      console.log(
+        `  provenance: golden captured at ${head.slice(0, 9)}, content tree ` +
+          `${goldenContent.slice(0, 12)} vs HEAD ${hereContent.slice(0, 12)}`,
+      )
+      assert.equal(
+        hereContent,
+        goldenContent,
+        "content/ has MOVED since this golden was captured, so the census is comparing two " +
+          "different corpora and its verdict is meaningless. Six scheduled bots push to content/ " +
+          "directly every weekend; re-capture (GOLDEN-RECAPTURE.md) rather than reinterpreting.",
+      )
+    }
+  } else {
+    console.log(`  provenance: UNKNOWN — ${buildEnv} absent, cannot check the golden's corpus`)
+  }
+
   const modified = []
   const published = []
   let pages = 0
