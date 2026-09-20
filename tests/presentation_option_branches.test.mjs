@@ -54,6 +54,27 @@
 //   M12 Footer ignores `links`                                                     -> test 2 RED
 //   M13 TagContent ignores `numPages` (hard-codes the default)                     -> test 3 RED
 //
+// ── WHAT THE FIXTURE CORPUS MUST CONTAIN FOR EACH BRANCH TO BE ENTERED AT ALL ────────────────
+//
+// From B, learned twice in one gate: A FIXTURE GATE'S COVERAGE IS BOUNDED BY WHICH FEATURES ITS
+// CORPUS EXERCISES, AND THAT BOUND IS INVISIBLE FROM A GREEN RUN. B's shard assertion compared
+// two EMPTY rosters and passed, because no fixture page matched `renderPage.tsx:36-39`'s
+// `positions/…/top|bottom` shape. It bites here hardest of all, because these branches have ZERO
+// corpus exercise by definition — the fixture corpus is the ONLY place the feature exists.
+//
+// So each precondition is stated here AND asserted separately from the behaviour, so a red names
+// the real cause instead of blaming the option:
+//
+//   TableOfContents  `fileData.toc` must be DEFINED. Measured: with `toc: undefined` BOTH layouts
+//                    render the empty string and are IDENTICAL — B's exact failure, and the
+//                    `notEqual` below would then fail while blaming the layout option. An empty
+//                    ARRAY is fine and still differs (111 B vs 82 B); it is `undefined` that
+//                    collapses them. Asserted: toc is an array AND both renders are non-empty.
+//   Footer           the links map must be NON-EMPTY, or both arms are the default and identical.
+//   TagContent       the page must be the ALL-TAGS page (`tags/index`, i.e. tag === "/"), and the
+//                    corpus must hold MORE pages than `numPages`, or the limit cannot bind.
+//                    Asserted: corpus size > default numPages, and the control branch differs.
+//
 // NON-KILLS, recorded so nobody reads this file as covering them: nothing here asserts the three
 // DEAD options above, by choice. Nothing here renders a full page — these are component-level
 // renders with hand-built props, so they cannot catch an emitter that stops passing an option.
@@ -162,10 +183,23 @@ test("TableOfContents layout:'legacy' renders a DIFFERENT component, not a varia
       collapseToc: false,
     },
   }
+  // PRECONDITION, asserted before the behaviour (B's rule). `toc: undefined` makes both layouts
+  // render "" and compare equal, which would redden the assertion below while blaming the option.
+  assert.ok(
+    Array.isArray(props.fileData.toc),
+    "fixture corpus precondition lost: fileData.toc must be DEFINED or both layouts render empty " +
+      "and identical, and this test would blame the layout option for a corpus defect",
+  )
   const modern = makeToc()
   const legacy = makeToc({ layout: "legacy" })
   const modernHtml = render(modern(props))
   const legacyHtml = render(legacy(props))
+
+  assert.ok(
+    modernHtml.length > 0 && legacyHtml.length > 0,
+    `both layouts must actually render something (modern ${modernHtml.length} B, legacy ` +
+      `${legacyHtml.length} B) — two empty strings would compare equal for a corpus reason`,
+  )
 
   // CONDITION 2: assert the output DIFFERS, not merely that it renders. A stub that returned the
   // modern component for both values would satisfy "it renders" and fail this.
@@ -194,8 +228,14 @@ test("Footer renders its links map, and the SHIPPING call site passes the empty 
   // earlier report and am pinning the measured direction here.)
   const makeFooter = await loadComponent("Footer.tsx")
   const props = { ...baseProps, fileData: page("Note", "Note") }
+  const LINKS = { Example: "https://example.invalid" }
+  assert.ok(
+    Object.keys(LINKS).length > 0,
+    "fixture corpus precondition lost: the links map must be NON-EMPTY or both arms are the " +
+      "default and this test compares a value with itself",
+  )
   const empty = render(makeFooter({ links: {} })(props))
-  const withLinks = render(makeFooter({ links: { Example: "https://example.invalid" } })(props))
+  const withLinks = render(makeFooter({ links: LINKS })(props))
 
   assert.notEqual(withLinks, empty, "a non-empty links map produced identical HTML to the default")
   assert.ok(
@@ -217,8 +257,16 @@ test("TagContent numPages limits the ALL-TAGS listing (and only that one)", asyn
       ).match(/section-li/g) ?? []
     ).length
 
+  // PRECONDITION: the limit can only bind if the corpus is LARGER than it, and `numPages` is read
+  // only on the all-tags page. Either miss makes every arm equal for a corpus reason.
+  const DEFAULT_NUM_PAGES = 10
+  assert.ok(
+    many.length > DEFAULT_NUM_PAGES,
+    `fixture corpus precondition lost: ${many.length} pages cannot exercise a limit of ` +
+      `${DEFAULT_NUM_PAGES} — the limit would never bind and every arm would match`,
+  )
   const dflt = rows(undefined)
-  assert.equal(dflt, 10, `default numPages should list 10 of 14, listed ${dflt}`)
+  assert.equal(dflt, DEFAULT_NUM_PAGES, `default numPages should list 10 of 14, listed ${dflt}`)
   assert.equal(rows({ numPages: 2 }), 2, "numPages:2 should list 2 rows")
   assert.equal(rows({ numPages: 20 }), 14, "numPages above the corpus should list all 14")
 
