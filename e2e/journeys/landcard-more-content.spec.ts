@@ -628,3 +628,583 @@ test("@curated a shared technique dossier arriving after a seat switch reads the
   await expect(page.locator(BODY)).not.toContainText("ATTACKER ONLY")
   await expect(page.locator(`${BODY} [data-land-steps], ${BODY} [data-land-outcomes], ${BODY} [data-land-counters]`)).toHaveCount(0)
 })
+
+/* ══════════════════════════════════════════════════════════════════════════════════════════
+ * THE READING SYSTEM AND ITS CONTENTS ROW (v1.194.0)
+ *
+ * Every assertion below is @curated on purpose: `test:curated` is `--grep @curated`, so an
+ * untagged test is invisible to the deployment gate. An earlier draft of this work had eleven
+ * claims gated on paper and four in reality — absence reporting as success, on the plan that
+ * cites that failure class more than any other.
+ *
+ * Each test names the mutant that must turn it red, so a later reader can check the claim is
+ * gated rather than described. All of them were run against their mutant before shipping.
+ * ════════════════════════════════════════════════════════════════════════════════════════ */
+
+const NAV = "[data-read-nav]"
+
+/** The rhythm is a RATIO of the card's own padding, never a pixel literal — the owner sizes
+ *  spacing that way ("50% more of the left padding"), so the test pins the ratio. */
+test("@curated the reading rhythm is a ratio, not a pixel", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  const r = await page.locator(BODY).evaluate((body) => {
+    const px = (el: Element, prop: string) => parseFloat(getComputedStyle(el)[prop as any] as string)
+    const section = body.querySelector("[data-land-principles]")!
+    const list = section.querySelector("ul")!
+    return {
+      section: px(section, "marginBottom"),   // s4 = 2u
+      item: px(list, "rowGap"),               // s2 = u/2
+      fontSize: px(section, "fontSize"),
+    }
+  })
+  // MUTANT: change any one gap token in reading.css -> this goes red.
+  expect(r.fontSize, "the reading size is unchanged at 13px").toBe(13)
+  expect(r.section / r.item, "section gap is 4x the item gap (s4 = 24, s2 = 6)").toBe(4)
+  expect(r.section, "s4 is 2u where u is the card's own 12px padding").toBe(24)
+})
+
+/** The landmark used to be the smallest, dimmest text on a column up to 8.4 phone screens. */
+test("@curated the section heading is the largest and brightest thing in its section", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  const r = await page.locator(BODY).evaluate((body) => {
+    const lum = (c: string) => {
+      const [r, g, b] = c.match(/\d+/g)!.slice(0, 3).map((n) => {
+        const v = +n / 255
+        return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)
+      })
+      return 0.2126 * r + 0.7152 * g + 0.0722 * b
+    }
+    const section = body.querySelector("[data-land-principles]")!
+    const h3 = section.querySelector("h3")!
+    const cs = getComputedStyle(section), ch = getComputedStyle(h3)
+    return {
+      headSize: parseFloat(ch.fontSize), bodySize: parseFloat(cs.fontSize),
+      headLum: lum(ch.color), bodyLum: lum(cs.color),
+    }
+  })
+  // MUTANT: swap the title and body colour tokens, or drop the h3 size -> this goes red.
+  expect(r.headSize, "the heading is larger than the prose it heads").toBeGreaterThan(r.bodySize)
+  expect(r.headLum, "the heading is brighter than the prose it heads").toBeGreaterThan(r.bodyLum)
+})
+
+/** 9,087 of 9,090 steps are authored "<action>: <description>". The renderer used to print the
+ *  join as one <li> — the worst is 804 characters. Splitting must not drop the description. */
+test("@curated a split step keeps its 804-character description", async ({ page }) => {
+  const j = journey(page)
+  await j.boot("/Submissions/Ezekiel-Choke/from-Mount")
+  await j.advance(8000)
+  await j.landSettled()
+  const LONG = "Extend the hips progressively ".padEnd(44, "-") + "X".repeat(760)
+  const base = technique()
+  await seedCurrent(page, {
+    ...base,
+    perspectives: {
+      ...base.perspectives,
+      attacker: {
+        ...base.perspectives.attacker,
+        steps: [`Extend hips for the finish: ${LONG}`, "Plain step with no shape"],
+      },
+    },
+  })
+  await openMore(page, j)
+  const steps = page.locator(`${BODY} [data-land-steps]`)
+  await expect(steps).toHaveCount(1)
+  const r = await steps.evaluate((el) => {
+    const items = Array.from(el.querySelectorAll("li"))
+    return {
+      n: items.length,
+      firstAction: items[0].querySelector("b")?.textContent ?? null,
+      firstText: items[0].textContent ?? "",
+      secondHasAction: !!items[1].querySelector("b"),
+      secondText: items[1].textContent ?? "",
+    }
+  })
+  // MUTANT: drop the description after the split -> firstText collapses and this goes red.
+  expect(r.n).toBe(2)
+  expect(r.firstAction, "the authored action becomes its own line, delimiter and all").toBe("Extend hips for the finish:")
+  expect(r.firstText, "and the whole description survives").toContain(LONG)
+  expect(r.firstText.length, "nothing is clipped").toBeGreaterThan(800)
+  expect(r.secondHasAction, "a step with no authored shape is not guessed at").toBe(false)
+  expect(r.secondText).toBe("Plain step with no shape")
+})
+
+/** The owner's model is a Quartz TOC: a long list of the document. An index that cannot address
+ *  the first thing in the document is not one — `def` is present on 100% of seats. */
+test("@curated the contents row addresses every section", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  const r = await page.locator("[data-read-bar]").evaluate((bar) => {
+    const body = document.querySelector("[data-land-more-body]")!
+    const keyOf = (el: Element) =>
+      (Array.from(el.attributes).find((a) => a.name.startsWith("data-land-")) || { name: "" }).name.slice(10)
+    return {
+      sections: Array.from(body.children).map(keyOf).filter(Boolean),
+      entries: Array.from(bar.querySelectorAll("[data-read-to]")).map((b) => b.getAttribute("data-read-to")!),
+      labels: Array.from(bar.querySelectorAll("[data-read-to]")).map((b) => (b.textContent || "").trim()),
+    }
+  })
+  // MUTANT: filter the nav to sections that carry a label, or delete one entry -> red.
+  expect(r.entries, "one entry per section, in document order, none omitted").toEqual(r.sections)
+  expect(r.entries, "the unlabelled opening sections are addressable too").toContain("def")
+  expect(r.labels.every((l) => l.length > 0), "no entry is blank").toBe(true)
+  const targets = await page.locator(BODY).evaluate((b, keys) =>
+    (keys as string[]).every((k) => !!b.querySelector(`[data-land-${k}]`)), r.entries)
+  expect(targets, "every entry resolves to a real section, not a wrong one").toBe(true)
+})
+
+/** ONE EMITTER. A late dossier is the ordinary case, not an edge one: the chunk is fetched on a
+ *  miss, so the first landing on any node renders, then re-renders. If the body and the index
+ *  are written in two places, the index can describe a document the body no longer shows. */
+test("@curated a delayed dossier leaves no stale contents entry", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  const before = await page.locator("[data-read-bar]").evaluate((bar) =>
+    Array.from(bar.querySelectorAll("[data-read-to]")).map((b) => b.getAttribute("data-read-to")))
+  expect(before.length).toBeGreaterThan(2)
+
+  // the same node gains a section while More is OPEN — exactly what a late chunk does
+  await seedCurrent(page, { ...position("Top"), drills: undefined, metrics: undefined, confuse: [] })
+  await j.advance(250)
+  const after = await page.locator("[data-read-bar]").evaluate((bar) => {
+    const body = document.querySelector("[data-land-more-body]")!
+    const keyOf = (el: Element) =>
+      (Array.from(el.attributes).find((a) => a.name.startsWith("data-land-")) || { name: "" }).name.slice(10)
+    return {
+      sections: Array.from(body.children).map(keyOf).filter(Boolean),
+      entries: Array.from(bar.querySelectorAll("[data-read-to]")).map((b) => b.getAttribute("data-read-to")!),
+      navs: bar.querySelectorAll("[data-read-nav]").length,
+    }
+  })
+  // MUTANT: let _refreshReadingContent repaint the body without repainting the nav -> red.
+  expect(after.entries, "the index still describes the document the body is showing").toEqual(after.sections)
+  expect(after.navs, "the row is replaced, never stacked").toBe(1)
+})
+
+/** A control inside a fixed overlay is dead to the MOUSE unless the overlay is guarded and the
+ *  control re-enables hit-testing inline. `locator.click()` passes either way — that is the
+ *  entire point, and why this uses the mouse contract. */
+test("@curated the contents row is reachable by mouse", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  await expect(page.locator(`${NAV} [data-read-to]`).first()).toBeVisible()
+  const target = await page.locator(NAV).evaluate((nav) =>
+    `[data-read-to="${nav.querySelectorAll("[data-read-to]")[1].getAttribute("data-read-to")}"]`)
+  // MUTANT: remove the buttons' inline pointer-events AND the row's at _readApply's
+  // `row.style.pointerEvents = "auto"` (children inherit it, so one alone proves nothing).
+  await j.clickByMouse(target, "a contents entry")
+})
+
+/** `scrollIntoView` does nothing on this surface: the fold is overflow:visible and reading
+ *  TRANSLATES the column. The jump must drive `_readApply`. */
+test("@curated a contents click lands its section under the head", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  // A MID-DOCUMENT target, deliberately. `_readApply` clamps to `_readMax`, so a near-end
+  // section physically cannot come to rest under the head — the column has run out of travel.
+  // Asserting the pin on the LAST entry tests the clamp, not the jump. The clamped case is a
+  // separate claim, asserted below.
+  const key = await page.locator(NAV).evaluate((nav) =>
+    nav.querySelectorAll("[data-read-to]")[2].getAttribute("data-read-to")!)
+  // THE HEAD PINS IN THIS SHIPMENT (plan D.4's counter-translate, v1.194.1), so the resting
+  // place is the head's PINNED line and not the geometry before the jump — the head no longer
+  // travels with the column. That also makes this the stronger statement of the same claim:
+  // it is measured against where the head IS when the jump settles, so it cannot be satisfied
+  // by a head that has walked off the screen.
+  const before = await page.evaluate(() => ({ read: (window as any).__neural._readS || 0 }))
+  // The row scrolls horizontally BY DESIGN, so the last entry starts off-screen and
+  // `clickByMouse` rightly refuses an off-screen centre. Flick the row first, exactly as a
+  // reader does — this is the gesture, not a workaround for it.
+  await page.locator(NAV).evaluate((nav, k) => {
+    const b = nav.querySelector(`[data-read-to="${k}"]`) as HTMLElement
+    nav.scrollLeft = b.offsetLeft - nav.clientWidth / 2 + b.clientWidth / 2
+  }, key)
+  await j.advance(150)
+  await j.clickByMouse(`[data-read-to="${key}"]`, "a mid-document contents entry")
+  await j.advance(250)
+  const r = await page.evaluate((k) => {
+    const a = (window as any).__neural
+    const el = document.querySelector(`[data-land-${k}]`)!
+    const pin = document.querySelector("[data-read-pin]") as HTMLElement
+    return {
+      read: a._readS || 0, max: a._readMax || 0, top: el.getBoundingClientRect().top,
+      head: pin.getBoundingClientRect().bottom, pinned: pin.classList.contains("pinned"),
+    }
+  }, key)
+  // MUTANT: no-op the jump handler -> the read never moves and this goes red.
+  expect(r.read, "the read travelled").toBeGreaterThan(before.read)
+  expect(r.read, "and it did not have to clamp to get there, so the landing below is the jump's own")
+    .toBeLessThan(r.max)
+  // MUTANT: aim `_navJump` at `_navPin()` (the head's LIVE line) instead of `_navRest()` — the
+  // head is still in flow when the click lands, so the column overshoots by the head's home top
+  // and the section ends up far above the head.
+  expect(r.pinned, "the jump left the head floating, where the reader can still reach it").toBe(true)
+  expect(r.top - r.head, "the section came to rest UNDER the head, not behind it").toBeGreaterThanOrEqual(0)
+  expect(r.top - r.head, "and within one rhythm unit of it").toBeLessThan(24)
+
+  // AND THE CLAMPED CASE, stated as its own claim: the last section cannot reach the pin
+  // because the column runs out of travel, so what is owed is that it is ON SCREEN.
+  const lastKey = await page.locator(NAV).evaluate((nav) => {
+    const all = Array.from(nav.querySelectorAll("[data-read-to]"))
+    return all[all.length - 1].getAttribute("data-read-to")!
+  })
+  await page.locator(NAV).evaluate((nav, k) => {
+    const b = nav.querySelector(`[data-read-to="${k}"]`) as HTMLElement
+    nav.scrollLeft = b.offsetLeft - nav.clientWidth / 2 + b.clientWidth / 2
+  }, lastKey)
+  await j.advance(150)
+  await j.clickByMouse(`[data-read-to="${lastKey}"]`, "the last contents entry")
+  await j.advance(250)
+  const last = await page.evaluate((k) => {
+    const a = (window as any).__neural
+    const el = document.querySelector(`[data-land-${k}]`)!.getBoundingClientRect()
+    return { top: el.top, bottom: el.bottom, h: window.innerHeight, read: a._readS || 0, max: a._readMax || 0 }
+  }, lastKey)
+  // Whether the clamp actually binds depends on the document and the viewport — on this seat
+  // at 1440x900 the last section is still reachable. So the claim is not "it clamps", it is
+  // the one that must hold either way: the column never travels past its limit, and the
+  // section the reader asked for is ON SCREEN when it stops.
+  expect(last.read, "the column never travels past `_readMax`").toBeLessThanOrEqual(last.max)
+  expect(last.read, "and it travelled further than the mid-document jump").toBeGreaterThan(r.read)
+  expect(last.bottom > 0 && last.top < last.h, "the last section is on screen when it stops").toBe(true)
+})
+
+/** The keyboard has to follow the eye. The emitted sections carry tabindex="-1" for this. */
+test("@curated a contents click moves focus to its section", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  const key = await page.locator(NAV).evaluate((nav) =>
+    nav.querySelectorAll("[data-read-to]")[2].getAttribute("data-read-to")!)
+  await j.clickByMouse(`[data-read-to="${key}"]`, "a contents entry")
+  // MUTANT: remove tabindex="-1" from the emitted section -> focus stays on <body> and this reds.
+  const focused = await page.evaluate(() => {
+    const a = document.activeElement
+    if (!a) return null
+    const attr = Array.from(a.attributes).find((x) => x.name.startsWith("data-land-"))
+    return attr ? attr.name.slice(10) : a.tagName
+  })
+  expect(focused, "focus moved to the section the reader asked for").toBe(key)
+})
+
+/** The head reserves height, height is `_readMax`, and `_readMax` is how far the player's hand
+ *  is pushed down the screen while they read. The row must not add to that beyond the body. */
+test("@curated the contents row leaves the tray where the body put it", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  await j.advance(250)
+  const withRow = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const tray = a.optionsRef && a.optionsRef.current
+    return { readMax: a._readMax || 0, tray: tray ? tray.getBoundingClientRect().bottom : null }
+  })
+  // the SAME body, with the row removed — the differential the claim is actually about
+  const withoutRow = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const nav = document.querySelector("[data-read-nav]")!
+    nav.remove()
+    a._dockLandMore(a._landEl)
+    const tray = a.optionsRef && a.optionsRef.current
+    return { readMax: a._readMax || 0, tray: tray ? tray.getBoundingClientRect().bottom : null }
+  })
+  // MUTANT: give .r-toc a height (e.g. make the row 12px taller) -> the two diverge and this reds.
+  expect(withRow.readMax, "the row rides inside the head's existing 38px, adding no travel")
+    .toBe(withoutRow.readMax)
+  expect(withRow.tray, "so the hand does not move because the index exists").toBe(withoutRow.tray)
+})
+
+/* ══════════════════════════════════════════════════════════════════════════════════════════
+ * THE PINNED HEAD (v1.194.1)
+ *
+ * Plan D.4, which v1.194.0 designed and did not implement: the contents row holds while the
+ * document travels under it. The fold is not a scrollport — reading is ONE transform on the
+ * whole column — so `position:sticky` is dead here, measured dead by three independent seats.
+ * `_readPin` counter-translates the INNER bar by exactly what `_readApply` took away, from the
+ * offset where the head would otherwise cross the card's own side padding.
+ *
+ * Each test names the mutant that must turn it red; every one was run against its mutant, RED
+ * first, before this shipped.
+ *
+ * NOT COVERED, DECLARED: real-device touch. Every gesture below is CDP-driven headless
+ * Chromium, and `touch-action` is a compositor hint CDP does not exercise — "the head holds
+ * while a thumb drags the card" needs one check on a real phone.
+ * ════════════════════════════════════════════════════════════════════════════════════════ */
+
+const PIN = "[data-read-pin]"
+
+/** A phone-sized seat with a document long enough that the head HAS to pin, plus the geometry
+ *  the claims are stated against. The floor is not decoration: on a document with no travel
+ *  every assertion below would pass for the wrong reason. */
+async function openTallRead(page: Page, j: ReturnType<typeof journey>) {
+  await page.setViewportSize({ width: 390, height: 844 })
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  await j.advance(250)
+  // SETTLE THE ENTRY ANIMATION IN REAL TIME, and not with `advance`. The open fold carries
+  // `ngCardInX .28s` (helmet.html:191) whose first keyframe is `translate(-50%, 8px)`, the DSL's
+  // clock is PUMPED so `advance` does not drive a CSS animation at all, and `_readApply` only
+  // kills the animation once the offset is non-zero. So the HOME frame here can be sampled
+  // mid-ease while every frame measured after a scroll cannot, and "the head came home" then
+  // compares the two against each other. Measured: 0px in isolation, 3.27px under the full
+  // suite — the shape of a flake, caught by the full suite and fixed at the cause rather than
+  // by widening the tolerance. The browser's own animation promise is the signal; the race is
+  // there so an ambient infinite animation could never hang the journey.
+  await page.locator(".ng-landmore").evaluate((el) => Promise.race([
+    Promise.all((el as HTMLElement).getAnimations({ subtree: true }).map((a) => a.finished.catch(() => {}))),
+    new Promise((r) => setTimeout(r, 1000)),
+  ]))
+  const room = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const inset = a._readPinInset || 12
+    return {
+      max: a._readMax || 0,
+      inset,
+      start: Math.max(0, (a._readPinTop || 0) - inset),
+      cap: a._readPinCap || 0,
+    }
+  })
+  expect(room.max, "this seat's document is long enough to need a pinned head")
+    .toBeGreaterThan(room.start + 120)
+  return room
+}
+
+/** Everything the claims below measure, in one read of the real frame. */
+async function readFrame(page: Page) {
+  return page.evaluate(() => {
+    const a = (window as any).__neural
+    const pin = document.querySelector("[data-read-pin]") as HTMLElement
+    const nav = document.querySelector("[data-read-nav]") as HTMLElement
+    const body = document.querySelector("[data-land-more-body]") as HTMLElement
+    const tray = a.optionsRef && a.optionsRef.current
+    const pr = pin.getBoundingClientRect(), nr = nav.getBoundingClientRect()
+    return {
+      read: a._readS || 0,
+      max: a._readMax || 0,
+      pinTop: pr.top, pinBottom: pr.bottom,
+      pinned: pin.classList.contains("pinned"),
+      navTop: nr.top, navBottom: nr.bottom,
+      first: body.children[0].getBoundingClientRect().top,
+      // Opaque means alpha 1. A floating head with a see-through background lets the prose read
+      // straight through the index, which is the whole failure mode a pinned head introduces.
+      opaque: (() => {
+        const m = /^rgba?\(([^)]+)\)$/.exec(getComputedStyle(pin).backgroundColor || "")
+        const p = m ? m[1].split(",").map(Number) : []
+        return p.length >= 3 && (p.length < 4 || p[3] === 1)
+      })(),
+      tray: tray ? tray.getBoundingClientRect().bottom : null,
+      h: window.innerHeight,
+    }
+  })
+}
+
+/** The wheel is a document-level capture listener, so this is the reader's own gesture and not
+ *  a call into the app: the same path a mouse takes over the open fold. */
+async function wheelRead(page: Page, j: ReturnType<typeof journey>, times: number) {
+  const at = await page.locator(BODY).evaluate((b) => {
+    const r = b.getBoundingClientRect()
+    return { x: Math.round(r.left + r.width / 2), y: Math.round(Math.min(r.top + 60, window.innerHeight - 40)) }
+  })
+  await page.mouse.move(at.x, at.y)
+  for (let i = 0; i < times; i++) await page.mouse.wheel(0, 240)
+  await j.advance(400)
+}
+
+test("@curated the pinned head holds while the document travels under it", async ({ page }) => {
+  const j = journey(page)
+  const room = await openTallRead(page, j)
+  const home = await readFrame(page)
+  expect(home.pinned, "at rest the head stands in its own place, not floating").toBe(false)
+  expect(home.opaque, "and at rest it is transparent, exactly as it was before it could pin").toBe(false)
+
+  await wheelRead(page, j, 8)
+  const moved = await readFrame(page)
+
+  // THE CONTROL: the document itself travelled, by exactly the offset, so the differential
+  // below is about the head and not about a frame that never moved.
+  expect(moved.read, "the column travelled past the pinning offset").toBeGreaterThan(room.start + 100)
+  // A LOOSE tolerance ON PURPOSE. This line is the CONTROL — "the document travelled" — not the
+  // claim, and `_readApply` rounds the offset to an integer while the section's own top is
+  // fractional (measured: 1.22px on a correct build, 3.28 with the pin deleted). A tight control
+  // makes the test red on the wrong line under its own mutant, which proves nothing; the claim
+  // below is where the strictness belongs (§6.3).
+  expect(Math.abs((home.first - moved.first) - moved.read),
+    "the document moved up by the read offset").toBeLessThanOrEqual(6)
+
+  // MUTANT: delete `this._readPin(s)` from `_readApply` — the head travels with the column and
+  // both of these go red (the class never arrives; the head leaves the top of the screen).
+  expect(moved.pinned, "the head is floating").toBe(true)
+  expect(Math.abs(moved.pinTop - room.inset),
+    "and it is held at the card's own side-padding inset").toBeLessThanOrEqual(1)
+  // MUTANT: rename the `.r-pin.pinned` rule in reading.css so the floating head keeps no
+  // background — the prose reads straight through the index and this goes red.
+  expect(moved.opaque, "and it is opaque, so the document does not read through it").toBe(true)
+  expect(moved.navTop >= 0 && moved.navBottom <= moved.h,
+    `the whole contents row is on screen (${Math.round(moved.navTop)}..${Math.round(moved.navBottom)} of ${moved.h})`).toBe(true)
+
+  // AND IT COMES HOME. Reading back to the top puts the head exactly where it started, so the
+  // pin is a lift the column can take back and not a one-way write.
+  await page.mouse.wheel(0, -4000)
+  await j.advance(400)
+  const back = await readFrame(page)
+  expect(back.read, "the read returned to the top").toBe(0)
+  expect(Math.abs(back.pinTop - home.pinTop), "and the head with it").toBeLessThanOrEqual(1)
+  expect(back.pinned, "no longer floating").toBe(false)
+})
+
+test("@curated the pinned head costs the hand nothing", async ({ page }) => {
+  const j = journey(page)
+  const room = await openTallRead(page, j)
+  const offsets = [0, Math.round(room.start + 60), Math.round(room.max / 2), room.max]
+
+  // (a) the LIFT costs nothing: the same body, swept at the same offsets, with the head's travel
+  // live and then flattened. `_readPinCap = 0` is the pin's own off switch, so what is left is
+  // the same head in flow — variant A's head.
+  const sweep = async () =>
+    page.evaluate((list) => {
+      const a = (window as any).__neural
+      const tray = a.optionsRef && a.optionsRef.current
+      const pin = document.querySelector("[data-read-pin]") as HTMLElement
+      return list.map((s: number) => {
+        a._readApply(s)
+        return { s: a._readS, tray: tray ? Math.round(tray.getBoundingClientRect().bottom) : null, pin: Math.round(pin.getBoundingClientRect().top) }
+      })
+    }, offsets)
+
+  const pinned = await sweep()
+  await page.evaluate(() => { (window as any).__neural._readPinCap = 0 })
+  const flat = await sweep()
+
+  // NON-TRIVIALITY FIRST: without this the whole test passes on a build with no pin in it.
+  expect(pinned.some((r, i) => r.pin !== flat[i].pin), "the head actually moved between the two sweeps").toBe(true)
+  // MUTANT: add the lift to `_readApply`'s `push`, or write the transform on the row instead of
+  // the inner bar — the hand moves under the reader and this goes red.
+  expect(pinned.map((r) => r.tray), "the hand sits in the same place at every offset")
+    .toEqual(flat.map((r) => r.tray))
+
+  // (b) AND THE INNER BAR COSTS NO HEIGHT: unwrap it and re-dock, which is the same document
+  // with variant A's head exactly.
+  //
+  // NON-KILL, RECORDED so nobody later reads this half as coverage: I could not write a mutant
+  // that turns it red. The outer bar's height is `38px` INLINE and the inner bar is inside it,
+  // so an inner bar cannot add row height whatever you do to it — `.r-pin{height:50px}` and
+  // `.r-pin.pinned{padding:12px 0}` both leave `_readMax` untouched, and `height:auto` on the
+  // OUTER bar moves both sides of the comparison equally. This is a structural check that the
+  // structure has not changed out from under the claim, not a gate on it. The gate on the claim
+  // is (a) above and the 38px head is (c) below.
+  const before = await readFrame(page)
+  const after = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const pin = document.querySelector("[data-read-pin]") as HTMLElement
+    while (pin.firstChild) pin.parentNode!.insertBefore(pin.firstChild, pin)
+    pin.remove()
+    a._dockLandMore(a._landEl)
+    const tray = a.optionsRef && a.optionsRef.current
+    return { max: a._readMax || 0, tray: tray ? Math.round(tray.getBoundingClientRect().bottom) : null }
+  })
+  expect(before.max, "the inner bar rides inside the head's existing 38px").toBe(after.max)
+  expect(Math.round(before.tray!), "so the hand does not move because the head can pin").toBe(after.tray)
+})
+
+/** The head's BOX is what `_readMax` is measured from, and the pin must not change it — not at
+ *  rest, not floating. This is the half of "no displacement" that has a mutant. */
+test("@curated the head keeps the same box whether it is floating or at rest", async ({ page }) => {
+  const j = journey(page)
+  const room = await openTallRead(page, j)
+  const box = () => page.evaluate(() => {
+    const bar = document.querySelector("[data-read-bar]") as HTMLElement
+    const row = document.querySelector(".ng-landmore") as HTMLElement
+    return { bar: Math.round(bar.getBoundingClientRect().height), row: row.offsetHeight }
+  })
+  const rest = await box()
+  await page.evaluate((s) => (window as any).__neural._readApply(s), Math.round(room.start + 400))
+  const afloat = await box()
+  const pinnedNow = await page.evaluate(() =>
+    (document.querySelector("[data-read-pin]") as HTMLElement).classList.contains("pinned"))
+  expect(pinnedNow, "the head is floating, which is the case under test").toBe(true)
+  // MUTANT: change the outer bar's inline `height:38px` to `height:auto` — the 9px the open fold
+  // adds as padding stops being absorbed, the bar becomes 47, the row grows with it and both of
+  // these go red.
+  expect(afloat.bar, "the head's box is the same 38px floating as at rest").toBe(rest.bar)
+  expect(afloat.bar, "and that box is the 38px head `_readMax` has always been measured from").toBe(38)
+  expect(afloat.row, "so the row the hand is pushed by does not change either").toBe(rest.row)
+})
+
+/** A dock mid-read is the ordinary case, not an edge one: a late dossier re-renders the body and
+ *  every resize re-docks. Each one measures in the HOME frame, which is why `_readClear` has to
+ *  bring the head home before it measures. */
+test("@curated a re-dock in the middle of a read leaves the head where it was", async ({ page }) => {
+  const j = journey(page)
+  const room = await openTallRead(page, j)
+  await wheelRead(page, j, 8)
+  const before = await readFrame(page)
+  expect(before.pinned, "the head is floating before the dock, which is the case under test").toBe(true)
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a._dockLandCard(a._landEl)   // the same entry point a late dossier and a resize both use
+  })
+  await j.advance(250)
+  const after = await readFrame(page)
+  // MUTANT: delete `this._readPin(0)` from `_readClear` — the dock then measures the head through
+  // its own lift, `_readPinTop` jumps by that lift, and the head lands somewhere else entirely.
+  expect(after.read, "the reader kept their place").toBe(before.read)
+  expect(after.pinned, "the head is still floating").toBe(true)
+  expect(Math.abs(after.pinTop - room.inset),
+    "and still held at the inset, not at wherever the dock found it").toBeLessThanOrEqual(1)
+})
+
+test("@curated the pinned contents row is reachable by mouse where it floats", async ({ page }) => {
+  const j = journey(page)
+  await openTallRead(page, j)
+  await wheelRead(page, j, 8)
+  // The entry the READER can see: `_navMark` recentres the row on the section being read, so
+  // "the second entry" is not necessarily on screen after a long read — and `clickByMouse`
+  // rightly refuses an off-screen centre. Ask the row which of its entries is showing.
+  const state = await page.evaluate(() => {
+    const pin = document.querySelector("[data-read-pin]") as HTMLElement
+    const nav = document.querySelector("[data-read-nav]") as HTMLElement
+    const nr = nav.getBoundingClientRect()
+    const seen = Array.from(nav.querySelectorAll("[data-read-to]")).filter((b) => {
+      const r = b.getBoundingClientRect()
+      return r.left >= nr.left - 1 && r.right <= nr.right + 1 && r.top >= 0 && r.bottom <= window.innerHeight
+    })
+    return {
+      pinned: pin.classList.contains("pinned"),
+      showing: seen.length,
+      key: seen.length ? seen[0].getAttribute("data-read-to") : null,
+    }
+  })
+  expect(state.pinned, "the head is floating over the document, which is the case under test").toBe(true)
+  expect(state.showing, "the floating head is still showing entries to click").toBeGreaterThan(0)
+  // TWO MUTANTS, and it takes both to prove the claim: (a) remove the entries' inline
+  // `pointer-events` AND the row's at `_readApply`'s `row.style.pointerEvents = "auto"` —
+  // children inherit it, so one alone proves nothing; (b) drop `position:relative` from the
+  // outer bar, and the body — a later in-flow sibling — paints over the floating head, so
+  // `elementFromPoint` returns a section and this reds on an ANCESTOR interception.
+  await j.clickByMouse(`[data-read-to="${state.key}"]`, "a contents entry on the floating head")
+})

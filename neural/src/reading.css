@@ -1,0 +1,213 @@
+/* THE READING SYSTEM — the More fold and the option-detail sheet (v1.194.0)
+   ============================================================================================
+   WHY THIS FILE EXISTS, AND WHY IT IS NOT IN neural.css
+   ============================================================================================
+   `_readingHTML` used to emit one inline-styled template for all 24 section kinds:
+   `font-size:13px;line-height:1.55;color:#cdd5e6;overflow-wrap:anywhere;margin:0 0 18px`, with a
+   single conditional (an amber rule on safety). So a one-line definition and a 28-item safety
+   document carried identical visual weight. Owner: "it's really unreadable and looks like AI
+   slop". Measured: the fold's contrast range was 1.56x where the app's own ramp is 4.9x, and the
+   section heading — the only landmark on a column up to 7,082px / 8.4 phone screens — was the
+   smallest, dimmest text on it. Four of its colours appeared exactly once each in 17,938 lines.
+
+   THIS FILE IS DELIBERATELY NOT PART OF `cssJoined` IN build.mjs. It is emitted as its own
+   artifact (`dist/reading.css` -> `static/neural/app/reading.css`), declared in
+   `check_payload_budget.py`'s DEFERRED tuple, and fetched by `_ensureReadCSS()` on the first
+   deliberate press of More — which is always after the first hand is dealt. That keeps ~237 gzip
+   bytes of rules off the eager boot payload, which matters because the eager ceiling had 196
+   bytes of headroom when this shipped.
+     - A <link> in the shell is NOT an alternative: `payload-first-hand.spec.ts`'s BANNED_ON_BOOT
+       fails on a boot-time request for this file, deliberately.
+     - Do NOT prefetch it at landing either. `app.src.jsx`'s deck-prefetch comment says it: a
+       prefetch is on the first-hand payload bill, which would defeat the whole point.
+     - build.mjs asserts BOTH halves: these rules present here AND absent from neural.css.
+       Absence alone is also satisfied by an empty file, which is why both are checked.
+
+   ============================================================================================
+   THE SYSTEM
+   ============================================================================================
+   TYPE — three sizes plus a micro tier. Both faces are already in the boot font request
+   (helmet.html), so this costs no font bytes.
+       15px Space Grotesk 600   section title   (was 11px: the landmark was the smallest text)
+       13px Plus Jakarta 400    the prose you read                     <- does not move
+       11px Plus Jakarta 400    the second line: why / when / a note
+       10px Space Grotesk 700   a micro-label, not content
+   13px does not move on purpose: at the measured 344px column it sets ~58 characters a line,
+   inside the 45-75 band, and every extra px costs ~8% of a document already 8.4 screens tall.
+
+   VALUE — five steps, every one already used elsewhere in app.src.jsx (60/24/15/41/29 uses).
+   Range 4.0x, up from 1.56x. The body sits deliberately BELOW the ceiling so a term and a title
+   have somewhere brighter to go, which is the headroom the old palette did not have.
+       #eef1f6  title            #dbe2f0  term          #c4cde0  read
+       #8b97b0  support          #6b7691  meta
+
+   ACCENTS — replacing three colours that appeared exactly once each in the whole app.
+       #e8956b  the mistake      #7ee0a8  the correction     #ffb45a  hazard
+
+   RHYTHM — 1 : 2 : 4 : 8 on u = 12px = the card's own phone side padding (helmet.html), so it is
+   a ratio of a token already on screen rather than a new number. THE TEST PINS THE RATIO, NOT
+   THE PX (e2e/journeys/landcard-more-content.spec.ts).
+       s1  3px  u/4   a term to its own second line
+       s2  6px  u/2   between items in one list
+       s3 12px  1u    between compound items; a title to its body
+       s4 24px  2u    BETWEEN SECTIONS
+   Delivered as `display:grid; gap:` on containers, never margin-bottom on children, so a section
+   never carries a trailing margin. Same discipline as concepts.css's .ng-doc-body.
+
+   PRIMARY vs SUPPORTING — the rule the panel upheld against the winning proposal:
+   TEXT THAT DETERMINES A CHOICE THE PLAYER IS ABOUT TO MAKE IS PRIMARY; TEXT THAT EXPLAINS A
+   CHOICE ALREADY MADE IS SUPPORTING. So `options.when` (.r-p) and a decision branch's actions
+   take the reading tier, while `mistakes.why`, a variation note and a drill duration (.r-d) stay
+   supporting. This matters because defender seats are 45.4% of all seats and their `when`
+   conditions are the decision content, not commentary.                                          */
+
+/* ── the section ────────────────────────────────────────────────────────────────────────── */
+/* `overflow-wrap:anywhere` was on every section and broke ordinary prose mid-word to protect a
+   handful of long technique names. `break-word` + `hyphens` breaks only what cannot fit, at the
+   word level. */
+.r-s {
+  margin: 0 0 24px;
+  color: #c4cde0;
+  font-size: 13px;
+  line-height: 1.55;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+.r-s:last-child { margin-bottom: 0; }
+
+/* the landmark: was 11px/#9cacc7, the dimmest smallest thing on the page */
+.r-s h3 {
+  margin: 0 0 12px;
+  color: #eef1f6;
+  font: 600 15px/1.25 "Space Grotesk", sans-serif;
+}
+
+/* THE SHIPPED HIERARCHY WAS INVERTED HERE: safety's <h4> was font-size:13px under an <h3> of
+   11px, i.e. the sub-head was 18% LARGER than the heading above it, on 580 of 2,896 seats. */
+.r-s h4 {
+  margin: 0 0 6px;
+  color: #dbe2f0;
+  font: 700 10px/1.3 "Space Grotesk", sans-serif;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+/* the hazard rule: safety + the safety notice */
+.r-w { border-left: 2px solid #ffb45a; padding-left: 12px; }
+
+/* ── lists ──────────────────────────────────────────────────────────────────────────────── */
+.r-s ul, .r-s ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.r-s li { margin: 0; }
+
+/* steps: the emitter authors "<action>: <description>" on 9,087 of 9,090 (100.0%), action median
+   28 chars and description median 333, and the renderer used to join them into one <li> — the
+   worst is 804 characters, about nine lines at phone width, a paragraph wearing a bullet. The
+   structure was in the data the whole time. */
+.r-steps { display: grid; gap: 12px; }
+.r-steps b { display: block; color: #dbe2f0; font-weight: 600; }
+
+/* ── the note: a name and its second line ───────────────────────────────────────────────── */
+.r-n { display: grid; gap: 3px; }
+.r-n + .r-n { margin-top: 12px; }
+.r-n strong { color: #dbe2f0; font-weight: 600; }
+
+.r-d { color: #8b97b0; font-size: 11px; line-height: 1.5; }   /* supporting */
+.r-p { color: #c4cde0; font-size: 13px; line-height: 1.55; }  /* PRIMARY — see the rule above */
+.r-g { color: #9ab0e0; font-size: 11px; }                     /* a destination you can be sent to */
+
+/* ── compound blocks: a mistake, a defensive option, a safety group ─────────────────────── */
+.r-b { display: grid; gap: 3px; }
+.r-b + .r-b { margin-top: 12px; }
+/* the kicker: a label, not content. Same micro tier as a safety sub-head. It names the role of
+   the line so the structure does not rest on colour alone. */
+.r-k {
+  margin-right: 5px;
+  color: #6b7691;
+  font: 700 10px/1.3 "Space Grotesk", sans-serif;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.r-e { color: #e8956b; }                                      /* the mistake */
+.r-f { color: #7ee0a8; }                                      /* the correction */
+
+/* ── facts (position profile, submission classification) ────────────────────────────────── */
+.r-s dl { display: flex; flex-wrap: wrap; gap: 6px 12px; margin: 0; }
+.r-s dt { display: inline; color: #6b7691; font-size: 11px; }
+.r-s dd { display: inline; margin: 0; color: #dbe2f0; }
+
+/* A contents click moves focus to its section so the keyboard follows the eye. The emitted
+   sections carry tabindex="-1" for exactly this; without it focus() moves nothing. */
+.r-s:focus { outline: none; }
+.r-s:focus-visible { outline: 2px solid #7e9bff; outline-offset: 4px; }
+
+/* ── THE CONTENTS ROW ───────────────────────────────────────────────────────────────────── */
+/* The owner's model, in his words: "a long list like it used to happen with quartz. the toc
+   clicks would scroll to the appropriate position ... in mobile that will probably mean tabs in
+   a single row, with horizontal scrolling". One continuous document; nothing is paged or hidden.
+
+   ONE ROW AT EVERY WIDTH. Not a left rail: at >=1024 the fold shifts to left:28vw and
+   width:calc(56vw - 40px), so a rail that fits at one width eats the column at another, and
+   761-1023 is a third layout again.
+
+   `touch-action:pan-x` is load-bearing, not a hint — the fold sets `touch-action:none` and the
+   row needs its own axis back. `_readTouch`'s axis lock already drops the column drag once
+   |dx| > |dy|, so the row and the read do not fight. */
+.r-toc {
+  display: flex;
+  gap: 14px;
+  margin: 0;
+  padding: 0 0 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+}
+.r-toc::-webkit-scrollbar { height: 0; display: none; }
+
+/* A real <button>, not the settings strip's bare <span> — that has no role, no aria-selected and
+   no tabindex, and copying it would put a keyboard-inaccessible control inside a fixed overlay.
+   `pointer-events:auto` is ALSO set inline by the renderer: a control inside a root-plane overlay
+   must re-enable hit-testing inline or it is dead to a real mouse while locator.click() passes. */
+.r-t {
+  flex: 0 0 auto;
+  padding: 0 0 4px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: none;
+  color: #6b7691;
+  font: 700 10px/1.3 "Space Grotesk", sans-serif;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.r-t:hover { color: #c4cde0; }
+.r-t[aria-current="location"] { color: #eef1f6; border-bottom-color: #7e9bff; }
+.r-t:focus-visible { outline: 2px solid #7e9bff; outline-offset: 2px; }
+
+/* the head that carries the row and the close control */
+.r-bar { display: flex; align-items: center; gap: 12px; height: 38px; }
+/* `order` cannot right-align this under the parent's centring; margin-left:auto can. The close
+   lives on the INNER bar now, so this selector must too — and the button keeps its own inline
+   colour (NG_LAND_MORE_COL): never clear it to "". */
+.r-pin > [data-land-more] { margin-left: auto; }
+
+/* ── THE PINNED HEAD ────────────────────────────────────────────────────────────────────── */
+/* The INNER bar, the one `_readPin` counter-translates so the contents row holds while the
+   document travels under it. `position:sticky` cannot do this — the fold is not a scrollport,
+   and a sticky child of a transform-moved fixed card travels the full offset with it — and the
+   OUTER bar cannot carry the transform either, because helmet.html:243 writes
+   `transform:none!important` on `.ng-landmore.open > div:first-child` and `!important` beats an
+   inline style. These rules are a mirror of what `_renderLandMore` already writes inline: the
+   stylesheet is deferred and the collapsed More pill is drawn before it arrives. */
+.r-pin { display: flex; align-items: center; gap: 12px; flex: 1 1 auto; min-width: 0; }
+
+/* Standing in its own place at the top of the card the head is transparent, exactly as it was.
+   FLOATING, it is in front of the prose it indexes, so it has to be opaque and it has to say so.
+   The first shadow is not decoration: with no blur and a -20px offset it paints the same solid
+   over the strip between the card's top edge and the head, which is otherwise a sliver of text
+   peeking above a floating bar. The second is the only thing that says "this is in front". */
+.r-pin.pinned {
+  background: #1b2034;
+  box-shadow: 0 -20px 0 #1b2034, 0 14px 16px -12px rgba(0, 0, 0, .8);
+}
