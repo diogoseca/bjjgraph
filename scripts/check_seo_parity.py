@@ -279,7 +279,7 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
 
 
 def main():
-    from golden_provenance import ContentGuard, add_arguments, read_capture_receipt
+    from golden_provenance import ContentGuard, add_arguments, read_capture_receipt, ProvenanceError
     global PUBLIC, BASELINE
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--update", action="store_true", help="(re)capture the baseline")
@@ -287,6 +287,8 @@ def main():
     ap.add_argument('--baseline', type=Path, default=BASELINE)
     add_arguments(ap, capture=True)
     args = ap.parse_args()
+    if args.update and args.artifact_only:
+        raise ProvenanceError('--artifact-only cannot authorize a baseline update')
     PUBLIC, BASELINE = args.tree, args.baseline
     receipt = read_capture_receipt(args, PUBLIC, require_output_hash=True) if args.update else None
 

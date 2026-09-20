@@ -337,6 +337,8 @@ def main() -> None:
                                    "use it to gate a snapshot rather than the live tree")
     add_arguments(ap, capture=True)
     a = ap.parse_args()
+    if a.update and a.artifact_only:
+        raise ProvenanceError('--artifact-only cannot authorize a baseline update')
 
     base = None
     if not a.update and not a.floors_only:

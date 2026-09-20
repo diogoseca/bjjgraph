@@ -75,6 +75,13 @@ def baseline_bindings(repo, root, receipt):
                 assert 'self-advancing baseline' in str(e)
             assert baseline.read_bytes() == baseline_before
             (public / 'index.html').write_bytes(original); assert (public / 'index.html').read_bytes() == original
+            sys.argv = [*argv, '--update', '--artifact-only', '--content-receipt', str(rp)]
+            try:
+                with redirect_stdout(StringIO()): module.main()
+                raise AssertionError(f'{name} allowed artifact-only baseline update')
+            except ProvenanceError as e:
+                assert '--artifact-only cannot authorize' in str(e)
+            assert baseline.read_bytes() == baseline_before
             print(f'PASS {name} baseline entry: attested update + compare; legacy strict refusal + explicit artifact control; stale-tree update rejected without changing baseline')
     finally:
         build.FLOORS, seo.ROOT, seo.PUBLIC, seo.BASELINE, sys.argv = originals
