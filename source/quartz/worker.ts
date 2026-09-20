@@ -37,7 +37,7 @@ if (parentPort && workerData) {
         const result = await parseFiles(init.buildId, init.argv, task, init.allSlugs)
         parentPort!.postMessage({ id, result })
       } else {
-        const { emitter: index, content: shared } = task as EmitTask
+        const { emitter: index, content: shared, shardIndex } = task as EmitTask
         const emitter = cfg.plugins.emitters[index]
         if (!emitter?.emitShard)
           throw new Error(`Missing shard emitter at configured index ${index}`)
@@ -73,6 +73,7 @@ if (parentPort && workerData) {
           content.slice(0, shard.renderCount),
           init.resources,
           allFiles,
+          shardIndex,
         )
         const coverage = getRenderCoverage()
         console.log(
