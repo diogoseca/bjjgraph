@@ -1988,7 +1988,22 @@ test("emit ledger: attribution partitions the output, under the real concurrent 
 
   const claims = value.claims
   const emitters = Object.keys(claims)
-  assert.ok(emitters.length > 0, "coverage floor: the ledger attributed nothing at all")
+
+  // EXACT, not non-zero (COORDINATION 7K part 2). `emitters.length > 0` proves the ledger RAN; it
+  // does not prove WHAT ran. If an emitter silently stopped emitting, the partition below would
+  // still hold perfectly — every remaining path claimed exactly once, nothing unclaimed, nothing
+  // phantom — and this gate would stay green while the build lost a whole archetype. The two
+  // floors this replaces could not tell a correct ledger from a diminished one.
+  //
+  // AliasRedirects and Assets are absent BY CONSTRUCTION, not by accident: the fixture authors no
+  // `aliases` frontmatter and no non-markdown assets, so both emit zero paths and never appear as
+  // keys. Naming them here is the point — if either starts claiming, this set changes and the
+  // gate says so.
+  assert.deepEqual(
+    emitters.slice().sort(),
+    ["404Page", "ComponentResources", "ContentIndex", "ContentPage", "FolderPage", "Static", "TagPage"],
+    "the set of emitters that produced output is not the expected one",
+  )
 
   // 3. PARTITION: no path claimed by two emitters.
   const owner = new Map()
@@ -2018,8 +2033,25 @@ test("emit ledger: attribution partitions the output, under the real concurrent 
       `records intent rather than result is the defect the post-build walk exists to prevent`,
   )
 
-  // 1. the emitters that produced output are the ones with entries.
-  assert.ok(owner.size >= walked.size, "coverage floor: fewer claims than files")
+  // 1. EXACT corpus size, for the same reason as the emitter set above. `owner.size >= walked.size`
+  //    is satisfied by any tree, including an empty one (0 >= 0) — it is a tautology dressed as a
+  //    floor, since the partition checks already prove the two sets are equal. 18 is the fixture's
+  //    whole output and it decomposes as:
+  //      ContentPage        3  index.html, Section/One.html, Section/Two.html
+  //      FolderPage         1  Section/index.html
+  //      TagPage            2  tags/index.html, tags/alpha.html
+  //      404Page            1  404.html
+  //      ContentIndex       3  index.xml, sitemap.xml, static/contentIndex.json
+  //      ComponentResources 4  index.css, prescript.js, postscript.js, and the SPA router asset
+  //      Static             4  static/a.txt, static/payload/{b.txt,big.json,more.json}
+  //    A change to any line above must move this number, which is exactly the property the old
+  //    floor lacked.
+  assert.equal(
+    walked.size,
+    18,
+    `the fixture emitted ${walked.size} files, not 18 — an archetype gained or lost output`,
+  )
+  assert.equal(owner.size, walked.size, "claims and files disagree in count")
 
   // 4. AND THE ATTRIBUTION IS CORRECT, not merely total. A partition says every path is claimed
   //    exactly once; it does NOT say by the right emitter. A ledger that attributed every path to
