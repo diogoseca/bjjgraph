@@ -7486,3 +7486,128 @@ Complete builds in a linked worktree and independent full clone used two parser 
 passed payload checks. Their censuses matched in all 13 dimensions; all 6,149 per-page OG and
 JSON-LD publication/modification maps matched exactly without normalization. Both unchanged
 baseline gates remained red with the same three expected publication-metadata deltas above.
+
+
+## v1.195.2 — Recover publication dates through Git renames and copies
+
+Publication now prefers authored `publishDate` / `date`, then the earliest recorded
+Markdown page history. Missing, invalid, shallow, or unavailable history stays absent.
+Both Head readers use this publication field; filesystem birthtime and the build clock
+remain forbidden publication fallbacks. This supersedes the deliberate absence policy
+in v1.195.1 with the owner's chosen Git provenance policy.
+
+The source choice is page Markdown lineage, even though Markdown is generated. Only
+1,679 of 4,600 Markdown files have adjacent JSON. `100% Sweep.md` follows history back
+to 2025-06-15, whereas its JSON begins on 2025-10-28; a naive Markdown first-add returns
+2026-02-09. Mount's two sources agree. Using JSON would discard known older page history
+and leave role pages without an adjacent source. Git author dates are recorded provenance,
+not independently observed first CDN deployments.
+
+The complete 4,600-file `git log --follow` oracle took 1,142.717 seconds with four workers.
+It produced **31 timestamps on 19 UTC days**, spanning 703.201689815 days, with 37.4348%
+on the busiest day. The expectation of hundreds of publication days was refuted by this
+full-corpus measurement. A naive first-add walk has 14 days. The day floor of 18 therefore
+remains load-bearing; timestamp cardinality is diagnostic only.
+
+The implementation selects Markdown-add commits, then runs one batched rename/copy-aware
+`diff-tree`, including unchanged copy sources. Its Markdown-only walk took 58.524 seconds
+and its production parser matched every one of the 4,600 independent `--follow` results.
+Plain renames and ordinary copy detection were faster but incorrect; unchanged-source
+copy detection is required. A single lookup is prepared before parser workers and shared
+with them. Both deploy paths fetch full history. The rebase preserves dev’s PR workflow
+unchanged at the owner’s instruction: its shallow build/test checkouts cannot recover
+publication history, so that CI path still requires a separate full-history decision.
+No generated content or fingerprint baseline is rewritten.
+
+The standing `validate:publication-dates` gate checks both publication surfaces and both
+modification surfaces, with positive page coverage and separately calibrated day, span,
+and largest-day-share thresholds. Policy JSON records the measured basis beside every
+floor. Healthy modified dates occupy 17 OG / 16 JSON-LD days; their legitimate 37.7% peak
+requires the 50% ceiling, not 25%. Modified checks guard the dormant final clock fallback:
+running the transformer shows disabling filesystem preserves tracked Git dates, but a
+file without authored/Git modification data then takes build time.
+
+The actual pre-fix emitted corpus fails all three publication spread checks on both
+surfaces: 901 timestamps occur on one day within 0.904 seconds. An isolated modified-clock
+control fails all three modified checks while publication remains healthy. All eight final
+threshold-policy mutants (including both JSON-LD overrides) are killed by the health units. Real transformer/Head fixtures
+pin rename, recreation, both forms of copy, independent checkouts, authored overrides,
+untracked/no-Git/shallow absence, invalid dates, all enriched schema types, exact tag counts,
+and unchanged modification behavior. Removing unchanged-source copy detection turns its
+fixture red. The three publication journeys are collected by the normal `@curated` gate.
+
+RSS/sitemap creation-date readers are unchanged and remain outside this metadata fix.
+
+A second coverage distinction matters to publication calibration: the original emitted
+JSON-LD coverage excludes the homepage (the only 2024 provenance date) and three guides
+(the only 2025-10-14 day). Its 4,593 covered primary pages therefore have 28 timestamps on
+17 days, spanning 450.928020833 days. JSON-LD publication gets its own minimum of 16 days
+and 405 days of span (90% of those measured values); OG keeps 18 days and 632 days. The
+50% share ceiling and all three checks remain. This is an explicit surface override in
+the publication policy, with its measured basis, not an unrecorded shared-floor relaxation.
+
+**Validation before rebasing:** 307 root units and Quartz TypeScript/format checks passed. The health
+units passed again after the surface calibration, and all eight final policy mutations
+were killed. Normal deployment collection finds all three publication `@curated` cases.
+A completed red run against the interim absent-date emit failed the two emitted-output
+assertions while its fixture passed; all three then passed on the corrected tree. An
+earlier 120-second corpus timeout is recorded separately and is not counted as red proof;
+the complete scan now has a 300-second subprocess / 360-second test budget and prints
+its actual failure diagnostics. No semantic assertion was removed.
+
+Two complete independent builds (linked worktree and full clone) match in **13/13**
+fingerprint dimensions and all **6,149** per-page publication/modification maps, without
+date normalization. Both emit publication on **6,118 OG / 6,110 JSON-LD pages**; the
+distributions are 31 timestamps / 19 days / 703.201689815-day span / 37.561295% largest day
+for OG and 28 / 17 / 450.928020833 / 37.610475% for JSON-LD. All 4,600 primary OG dates
+and 4,593 primary JSON-LD dates match the independent complete `--follow` oracle. Existing
+modification maps are unchanged on all 6,149 pages. A further control preserves the real
+fixed publication fields and collapses only modification; all three modified checks fail
+on both surfaces and publication stays green.
+
+Whole-pipeline timing with identical two-worker/memory settings: e81f18f06 full-clone
+baseline **1,059.936s (17m39.9s)**; fixed worktree **1,335.388s (22m15.4s)**; fixed same
+clone **722.243s (12m02.2s)**. Shared-host load varied substantially; these wall differences
+are not a causal speedup/regression estimate. Same-clone child CPU increased from
+1,390.931s to 1,416.648s (+25.717s, about 1.85%). The added cold Git stage itself measured
+**59.24s / 60.85s** in the two actual builds. That minute remains material to a three-minute
+build target, even after batching replaces the 19-minute per-file oracle. Queueing,
+prerequisite neural regeneration and post-build tests are outside the pipeline timings.
+
+Before rebasing, the unchanged committed census remained red with one historical delta:
+**1,077 checkout publication values → 31 Git values**. Publication-tag counts are restored.
+Its baseline is not reseeded and its implementation is not weakened; the PR shape gate
+needs a separate baseline decision. RSS/sitemap creation-date values still differ between
+the two outputs (4,598 sitemap dates and 10 RSS dates), as previously scoped and routed.
+
+**Rebased verification on dev 91afaf618:** the reading redesign, accepted eager-payload
+baseline, all ten new E2E server configurations, harness-resolution spec, and existing
+workflow are preserved. Two full builds of the rebased tree again match in **13/13**
+fingerprint dimensions and all **6,149** per-page publication/modification maps without
+normalization. Coverage remains **6,118 OG / 6,110 JSON-LD** publication fields with the
+same varied Git dates and per-field spread checks. All 4,600 primary OG and 4,593 JSON-LD
+fields match the complete independent `git log --follow` oracle; content and relevant
+history inputs were verified unchanged before reusing that oracle.
+
+Quartz checks, 307 root units, and all five publication/harness curated cases passed.
+Both bare and explicit routes in the publication sample resolve to the flat document
+under the new harness, with both publication fields correct. The actual pre-fix capture
+still fails all three publication checks on both surfaces; collapsing only modification
+in the newly built output fails all three modified checks while publication stays green.
+No assertion or protected dev file was changed to obtain these results.
+
+Rebased full-pipeline timings (two parser workers): worktree **829.236s**, clone
+**923.416s**. Cold Git preparation took **73.81s / 57.54s**.
+Eager payload is **332,302 / 332,274 bytes**: **+12 / -16** against the retained
+**332,290-byte** accepted baseline. The 28-byte gzip difference is confined to curriculum
+score-weight array ordering; keyed weights agree, and the Neural JS/CSS artifacts match.
+That generator remains unchanged. The 2,099-byte reading stylesheet remains deferred. Wall times on the
+shared host are observations, not a causal before/after speed claim.
+
+The preserved dev census has exactly one historical mismatch: **888 checkout publication
+values -> 31 Git values**. It is not reseeded. Preserving dev's E2E workflow also retains
+shallow build/test checkouts, which cannot supply this policy's publication history;
+that CI integration issue remains explicit. Deploy workflows already fetch full history.
+The optional `gitPublicationDates?: Record<string, string>` field on `BuildCtx` is
+prepared once and forwarded to workers; if the field is absent, only CreatedModifiedDate performs its
+cached lazy Git lookup. An empty map is authoritative and suppresses that fallback.

@@ -3,6 +3,7 @@ import path from "path"
 import { Repository } from "@napi-rs/simple-git"
 import { QuartzTransformerPlugin } from "../types"
 import chalk from "chalk"
+import { gitPublicationDates } from "../../util/publication"
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -43,11 +44,12 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
   const opts = { ...defaultOptions, ...userOpts }
   return {
     name: "CreatedModifiedDate",
-    markdownPlugins() {
+    markdownPlugins(ctx) {
       return [
         () => {
           let repo: Repository | undefined = undefined
           let repoWorkdir: string | undefined = undefined
+          let gitUnavailable = false
           let untracked = 0
           return async (_tree, file) => {
             let created: MaybeDate = undefined
@@ -69,11 +71,17 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 published ||= (file.data.frontmatter.publishDate ??
                   file.data.frontmatter.date) as MaybeDate
               } else if (source === "git") {
-                if (!repo) {
+                if (!repo && !gitUnavailable) {
                   // Get a reference to the main git repo.
                   // It's either the same as the workdir,
                   // or 1+ level higher in case of a submodule/subtree setup
-                  repo = Repository.discover(file.cwd)
+                  try {
+                    repo = Repository.discover(file.cwd)
+                  } catch {
+                    gitUnavailable = true
+                    console.warn("Git repository unavailable; unauthored publication stays absent")
+                    continue
+                  }
                   repoWorkdir = repo.workdir() ?? undefined
                   if (!repoWorkdir) {
                     // A bare repo has no workdir to resolve a pathspec against, so every lookup
@@ -88,6 +96,7 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                     )
                   }
                 }
+                if (!repo) continue
 
                 // ── THE PATH GIT WANTS IS WORKDIR-RELATIVE, NOT THE ONE QUARTZ CARRIES ──
                 //
@@ -118,6 +127,11 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                   ? path.posix.relative(toPosix(repoWorkdir), toPosix(fullFp))
                   : fp
 
+                if (published === undefined && repoWorkdir) {
+                  const dates = ctx.gitPublicationDates ?? (await gitPublicationDates(repoWorkdir))
+                  published = dates[gitFp]
+                }
+
                 try {
                   modified ||= await repo.getFileLatestModifiedDateAsync(gitFp)
                 } catch {
@@ -141,16 +155,15 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
               }
             }
 
-            // Git supplies modification history, not a first-publication record. Filesystem
-            // birthtime is checkout time in BOTH clones and worktrees. Neither belongs in
-            // article:published_time or JSON-LD datePublished. Keep publication unknown
-            // unless authored; substituting the build clock here would recreate the bug.
+            // Publication is authored or the earliest recorded page history across Git
+            // renames/copies. Unknown Git history must remain absent: filesystem birthtime
+            // and the build clock are never publication evidence.
             // Pinned through the real transformer and Head by published_time.test.mjs.
             const publicationDate = coerceDate(fp, published)
             if (!publicationDate && !reportedMissingPublicationDate) {
               reportedMissingPublicationDate = true
               console.log(
-                `Publication dates: no valid authored date for ${fp}; undated pages omit ` +
+                `Publication dates: no authored or complete Git date for ${fp}; undated pages omit ` +
                   `article:published_time and datePublished (reported once per worker)`,
               )
             }

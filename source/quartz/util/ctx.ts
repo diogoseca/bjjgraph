@@ -18,4 +18,5 @@ export interface BuildCtx {
   argv: Argv
   cfg: QuartzConfig
   allSlugs: FullSlug[]
+  gitPublicationDates?: Record<string, string>
 }

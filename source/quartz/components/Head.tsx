@@ -62,8 +62,8 @@ export default (() => {
       name: "BJJ Graph",
       url: `https://${cfg.baseUrl}`,
     }
-    // Creation may come from checkout birthtime. Only an authored publication date is
-    // evidence for publication metadata; unknown dates stay absent in OG and JSON-LD.
+    // Creation may come from checkout birthtime. Publication uses authored dates or
+    // rename-following Git history; unknown dates stay absent in OG and JSON-LD.
     const published = fileData.dates?.published?.toISOString()
     const modified = fileData.dates?.modified?.toISOString()
     // Stamp page-level entities with publisher + dates (signals AI answer engines
