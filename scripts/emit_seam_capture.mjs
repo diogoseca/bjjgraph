@@ -558,7 +558,7 @@ function joinRecords(captured, outDir, opts) {
   const emitterShaped = unclaimed.filter((p) => p.endsWith(".html") && !p.startsWith("dev/"))
 
   const head = gitHead()
-  const contentProv = contentFingerprint()
+  const contentProv = inputFingerprint()
   // ONE RECORD PER CONFIGURED EMITTER, including those that produced nothing. Previously the
   // records were derived from the CLAIMS, so an emitter that emitted zero paths had no record at
   // all — 8 records for 9 configured emitters, Assets silently absent. "Produced nothing" and
@@ -590,8 +590,9 @@ function joinRecords(captured, outDir, opts) {
       })(),
       provenance: {
         git_head: head,
-        // ASSERTED at use time by --check-provenance, not merely recorded.
-        content: contentProv,
+        // ASSERTED at use time by --check-provenance, not merely recorded. Covers every path in
+        // RECORD_INPUTS, so the assertion is exactly as wide as the diagnosis beside it.
+        inputs: contentProv,
         producer: `scripts/emit_seam_capture.mjs --join (stream B, D-B-05) -> ${emitter}`,
         execution:
           "ONE build through the real emitContent; ATTRIBUTION from the in-build AsyncLocalStorage " +
@@ -625,7 +626,7 @@ function joinRecords(captured, outDir, opts) {
     JSON.stringify(
       {
         capture_commit: head,
-        content_provenance: contentProv,
+        input_provenance: contentProv,
         captured_by: "scripts/emit_seam_capture.mjs --join",
         partial: opts.limit > 0,
         limit: opts.limit || null,
@@ -849,51 +850,6 @@ function seedStatic(goldenStaticNeural) {
 // Every input an emit-seam record's bytes depend on. Maintained HERE, beside the producer, so it
 // cannot drift from what the capture actually reads — a list of paths kept in a report drifts the
 // first time an emitter gains an import.
-/**
- * A BYTE FINGERPRINT OF THE CONTENT CORPUS, so a golden can ASSERT its content provenance at use
- * time rather than merely record a commit (quartz-cto's ruling, from A's finding).
- *
- * WHY A COMMIT IS NOT ENOUGH, and this is the whole point. `checkProvenance` below already diffs
- * `capture_commit..HEAD` over RECORD_INPUTS, which includes `content`. That catches a content
- * change **that is an ancestor of my branch's HEAD**. It cannot catch either of the two ways
- * content actually moves here:
- *
- *   * SIX CRON WORKFLOWS PUSH DIRECTLY TO dev across a ~40-hour weekend window, and none of them
- *     opens a pull request. Until one of those commits is merged down, it is not in this branch's
- *     history at all, so `git diff capture..HEAD` reports NOTHING while the corpus has moved. The
- *     expiry is cron-gated, not review-gated — there is no merge step to hold.
- *   * An UNCOMMITTED working-tree edit is not a commit, so the diff cannot see it by construction.
- *
- * A digest over the bytes is immune to both: it does not care which branch a change arrived on,
- * whether it was committed, or which side of a Saturday the capture fell on. The commit diff is
- * kept as well, because the two answer different questions — the digest says WHETHER the corpus
- * moved (the assertion), the diff says WHICH files (the diagnosis). Neither substitutes.
- *
- * The exact file count travels with the digest, per 7K part 2: a walk that silently scoped itself
- * differently would otherwise produce a different digest and read as "content changed", sending
- * the reader to look for a content change that never happened.
- */
-export function contentFingerprint(root = path.join(REPO_ROOT, "content")) {
-  const lines = []
-  const walk = (dir) => {
-    for (const ent of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => (a.name < b.name ? -1 : 1))) {
-      const fp = path.join(dir, ent.name)
-      if (ent.isDirectory()) walk(fp)
-      else {
-        const rel = path.relative(root, fp).split(path.sep).join("/")
-        lines.push(rel + "\u0000" + crypto.createHash("sha256").update(fs.readFileSync(fp)).digest("hex"))
-      }
-    }
-  }
-  if (!fs.existsSync(root)) return { root: "content", files: 0, sha256: null, missing: true }
-  walk(root)
-  return {
-    root: "content",
-    files: lines.length,
-    sha256: crypto.createHash("sha256").update(lines.join("\n"), "utf8").digest("hex"),
-  }
-}
-
 const RECORD_INPUTS = [
   "source/quartz/plugins/emitters",
   "source/quartz/plugins/transformers",
@@ -906,6 +862,74 @@ const RECORD_INPUTS = [
   "content",
   "graph.json",
 ]
+
+/**
+ * A BYTE FINGERPRINT OF THE PARITY INPUTS, so a golden can ASSERT its provenance at use time
+ * rather than merely record a commit (quartz-cto's ruling, from A's finding).
+ *
+ * WHY A COMMIT DIFF IS NOT ENOUGH. `checkProvenance` already diffs `capture_commit..HEAD` over
+ * RECORD_INPUTS, so this looked covered. It is not, in three ways:
+ *
+ *   * A commit that is not an ANCESTOR of this branch's HEAD is invisible to the diff. The bots
+ *     open PRs against `main`; this worktree is on a feature branch off `dev`. A merged bot PR
+ *     changes the corpus without ever appearing in `capture..HEAD` until it is merged down here.
+ *   * AN UNCOMMITTED WORKING-TREE EDIT IS NOT A COMMIT, so the diff cannot see it at all. This is
+ *     the common case, not the exotic one — it is how every one of my own edits looks.
+ *   * AND THE QUIET WINDOW IS NOT QUIET: content/ took three OWNER commits inside the cron-quiet
+ *     weekend just closed. No schedule predicts those, which is why the assertion is the
+ *     protection and the timing is only a preference.
+ *
+ * SCOPE: every path in RECORD_INPUTS, not just `content/`. An earlier version digested `content/`
+ * alone, which left `graph.json` asserted by nothing — and `votes-refresh.yml` (Sat 02:00) stages
+ * exactly `templates/votes.json graph.json`, so the ONE input a weekly bot rewrites was the one
+ * the digest could not see. The digest now covers the same set the diff diagnoses; anything less
+ * means the assertion is narrower than the claim it backs.
+ *
+ * Per-root digests are kept alongside the combined one so a mismatch can NAME which root moved.
+ * Exact file counts travel with them (7K part 2): a walk that silently rescoped itself would
+ * otherwise read as "the corpus changed" and send the reader hunting a change that never was.
+ */
+export function inputFingerprint(roots = RECORD_INPUTS) {
+  const perRoot = {}
+  const combined = []
+  for (const rel of roots) {
+    const abs = path.join(REPO_ROOT, rel)
+    const lines = []
+    const hashFile = (fp) => {
+      const key = path.relative(REPO_ROOT, fp).split(path.sep).join("/")
+      lines.push(key + "\u0000" + crypto.createHash("sha256").update(fs.readFileSync(fp)).digest("hex"))
+    }
+    const walk = (dir) => {
+      for (const ent of fs
+        .readdirSync(dir, { withFileTypes: true })
+        .sort((a, b) => (a.name < b.name ? -1 : 1))) {
+        const fp = path.join(dir, ent.name)
+        if (ent.isDirectory()) walk(fp)
+        else hashFile(fp)
+      }
+    }
+    if (!fs.existsSync(abs)) {
+      perRoot[rel] = { files: 0, sha256: null, missing: true }
+      combined.push(rel + "\u0000MISSING")
+      continue
+    }
+    if (fs.statSync(abs).isDirectory()) walk(abs)
+    else hashFile(abs)
+    const sha = crypto.createHash("sha256").update(lines.join("\n"), "utf8").digest("hex")
+    perRoot[rel] = { files: lines.length, sha256: sha }
+    combined.push(rel + "\u0000" + sha)
+  }
+  return {
+    roots: perRoot,
+    files: Object.values(perRoot).reduce((n, r) => n + r.files, 0),
+    sha256: crypto.createHash("sha256").update(combined.join("\n"), "utf8").digest("hex"),
+  }
+}
+
+/** Back-compat alias: the content corpus alone. */
+export const contentFingerprint = (root = "content") => inputFingerprint([root]).roots[root]
+
+
 
 /**
  * Is an existing record set still valid against HEAD?
@@ -957,14 +981,16 @@ function checkProvenance(dir) {
   //     cron-quiet weekend. Scheduling around cron buys less than it appears to, which is why
   //     this assertion is the protection and the schedule is only a preference.
   // A byte digest is indifferent to all of it: branch, merge status, author, and calendar.
-  const nowContent = contentFingerprint()
+  const nowContent = inputFingerprint()
   const claimed = new Map()
+  const byKey = new Map()
   for (const f of files) {
     const raw = fs.readFileSync(path.join(dir, f))
     const rec = JSON.parse((f.endsWith(".gz") ? zlib.gunzipSync(raw) : raw).toString("utf8"))
-    const c = rec.provenance?.content
+    const c = rec.provenance?.inputs
     const key = c && c.sha256 ? `${c.files}:${c.sha256}` : "ABSENT"
     claimed.set(key, (claimed.get(key) ?? 0) + 1)
+    if (c) byKey.set(key, c)
   }
   let contentStale = 0
   for (const [key, count] of claimed) {
@@ -984,15 +1010,37 @@ function checkProvenance(dir) {
         `now ${nowContent.files} files @ ${String(nowContent.sha256).slice(0, 9)}`,
     )
     if (same) {
-      console.log("  content UNCHANGED — the corpus these records describe is the corpus on disk")
+      console.log(
+        `  inputs UNCHANGED across all ${Object.keys(nowContent.roots).length} parity roots — ` +
+          "the corpus these records describe is the corpus on disk",
+      )
     } else {
       contentStale++
       const delta =
         Number(cFiles) === nowContent.files
           ? "same file count, different bytes"
           : `${nowContent.files - Number(cFiles)} file(s)`
+      // NAME THE ROOT THAT MOVED. A bare "something changed" sends the reader to diff the whole
+      // corpus; the per-root digests make it one line, and they distinguish a content edit from
+      // a graph.json regeneration, which are different problems with different owners.
+      const was = byKey.get(key)
+      const moved = was
+        ? Object.keys(nowContent.roots).filter(
+            (r) => (was.roots?.[r]?.sha256 ?? null) !== nowContent.roots[r].sha256,
+          )
+        : []
+      if (moved.length) {
+        for (const r of moved) {
+          const a = was.roots?.[r]
+          const b = nowContent.roots[r]
+          console.log(
+            `    ${r}: ${a ? `${a.files} files @ ${String(a.sha256).slice(0, 9)}` : "not recorded"}` +
+              ` -> ${b.files} files @ ${String(b.sha256).slice(0, 9)}`,
+          )
+        }
+      }
       console.log(
-        `  content CHANGED (${delta}) — these records are EXPIRED.` +
+        `  inputs CHANGED (${delta}) — these records are EXPIRED.` +
           "\n  Fires on a corpus edit that reached disk by ANY route: a weekend bot pushing" +
           "\n  straight to dev, a merge, an owner edit, or an uncommitted change — none of which" +
           "\n  the commit diff below can see unless it landed in THIS branch's history.",
@@ -1028,7 +1076,8 @@ function checkProvenance(dir) {
   }
   console.log(
     `\nchecked ${heads.size} capture commit(s) over ${RECORD_INPUTS.length} input paths, and ` +
-      `${claimed.size} distinct content fingerprint(s) against ${nowContent.files} files on disk`,
+      `${claimed.size} distinct input fingerprint(s) against ${nowContent.files} files ` +
+        `across ${Object.keys(nowContent.roots).length} parity roots on disk`,
   )
   // The digest is the ASSERTION (sound: it sees any byte change by any route); the commit diff is
   // the DIAGNOSIS (informative: it names which files). Neither substitutes for the other, so a
