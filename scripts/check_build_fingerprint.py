@@ -49,6 +49,9 @@ distinct values within one day do not prove date provenance. Presence remains in
 meta_keys; emit_diff.py still compares the actual Head fields. This gate does NOT yet
 assert date spread. X-01 must replace that gap with per-field distinct_days, span_days
 and max_day_share assertions; no threshold may be fitted to a baseline update.
+Restoring either retired row inside distinct_values is an INVALID baseline, even
+if a clean git merge produced it. --check-baseline checks this contract and the app
+inventory before any tree walk; it does not claim that a built site matches it.
 
 WHAT THIS IS NOT
 ----------------
@@ -65,6 +68,7 @@ USAGE
   python3 scripts/check_build_fingerprint.py --update   # (re)seed the committed census
   python3 scripts/check_build_fingerprint.py            # gate
   python3 scripts/check_build_fingerprint.py --floors-only   # Tier 0 only, no baseline
+  python3 scripts/check_build_fingerprint.py --check-baseline # merge/schema check, no build
 Stdlib only. Run after a build.
 """
 
@@ -170,6 +174,22 @@ def check_app_assets(record: dict, label: str) -> list[str]:
     return problems
 
 
+def check_baseline(base: dict) -> list[str]:
+    if not isinstance(base, dict):
+        return ["baseline must be a JSON object"]
+    problems = check_app_assets(base, "baseline")
+    if base.get("_meta", {}).get("format") != FORMAT:
+        problems.append(f"baseline format must be {FORMAT}; requires a reviewed migration")
+    values = base.get("distinct_values")
+    if not isinstance(values, dict):
+        problems.append("baseline distinct_values must be an object")
+    else:
+        for key in sorted(RETIRED_DATE_CARDINALITIES & values.keys()):
+            problems.append(f"baseline retired date row {key} reappeared in distinct_values; "
+                            "remove it, never re-seed its arbitrary cardinality")
+    return problems
+
+
 def capture(jobs: int, tree: Path = None) -> dict:
     tree = tree or PUBLIC
     if not tree.exists():
@@ -228,7 +248,7 @@ def check_floors(cur: dict) -> list[str]:
 
 
 def check_census(base: dict, cur: dict) -> list[str]:
-    problems = check_app_assets(base, "baseline") + check_app_assets(cur, "candidate")
+    problems = check_baseline(base) + check_app_assets(cur, "candidate")
     if not problems:
         b_app, c_app = base["app_assets"], cur["app_assets"]
         if b_app["count"] != c_app["count"]:
@@ -277,7 +297,7 @@ def check_census(base: dict, cur: dict) -> list[str]:
 
     for k in sorted(set(base.get("distinct_values", {})) | set(cur.get("distinct_values", {}))):
         if k in RETIRED_DATE_CARDINALITIES:
-            continue  # Legacy observations cannot become equality contracts again.
+            continue  # check_baseline rejects restoration; never compare these numbers.
         bv, cv = base.get("distinct_values", {}).get(k, 0), cur.get("distinct_values", {}).get(k, 0)
         if bv != cv:
             problems.append(f"distinct values of {k}: {bv:,} -> {cv:,}")
@@ -294,13 +314,35 @@ def check_census(base: dict, cur: dict) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--update", action="store_true", help="(re)seed the committed census")
-    ap.add_argument("--floors-only", action="store_true",
-                    help="Tier 0 only; needs no baseline")
+    modes = ap.add_mutually_exclusive_group()
+    modes.add_argument("--update", action="store_true", help="(re)seed the committed census")
+    modes.add_argument("--floors-only", action="store_true",
+                       help="Tier 0 only; needs no baseline")
+    modes.add_argument("--check-baseline", action="store_true",
+                       help="validate baseline format/app inventory/retired rows only; no tree walk")
+    ap.add_argument("--baseline", type=Path, default=BASELINE,
+                    help="baseline to check or update (default committed census)")
     ap.add_argument("--jobs", type=int, default=min(8, (os.cpu_count() or 4)))
     ap.add_argument("--tree", help="emit directory to inspect (default source/public); "
                                    "use it to gate a snapshot rather than the live tree")
     a = ap.parse_args()
+
+    base = None
+    if not a.update and not a.floors_only:
+        try:
+            base = json.loads(a.baseline.read_text())
+        except (OSError, ValueError) as e:
+            sys.exit(f"ERROR: cannot read baseline {a.baseline}: {e}")
+        invalid = check_baseline(base)
+        if invalid:
+            for problem in invalid:
+                print("FAIL baseline:", problem)
+            sys.exit(1)
+        print(f"baseline contract: format={FORMAT}, app covered_files={base['app_assets']['count']}, "
+              f"retired_date_keys_absent={len(RETIRED_DATE_CARDINALITIES)}")
+        if a.check_baseline:
+            print("PASS baseline contract only; built_tree_files_scanned=0 (not site parity)")
+            return
 
     cur = capture(a.jobs, Path(a.tree) if a.tree else None)
     c = cur["census"]
@@ -325,29 +367,21 @@ def main() -> None:
         return
 
     if a.update:
-        BASELINE.parent.mkdir(parents=True, exist_ok=True)
+        a.baseline.parent.mkdir(parents=True, exist_ok=True)
         cur["_note"] = (
             "Committed census for scripts/check_build_fingerprint.py. Re-seed with "
             "--update whenever the emit legitimately changes (content edits move "
             "article_links and the @type histogram), and say in the commit message what "
             "moved and why. This is the cheap shape gate; per-page byte/field comparison "
             "is scripts/emit_diff.py against an external golden snapshot.")
-        BASELINE.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
-        print(f"\n✓ census captured -> {BASELINE} "
-              f"({BASELINE.stat().st_size:,} B)")
+        a.baseline.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
+        print(f"\n✓ census captured -> {a.baseline} "
+              f"({a.baseline.stat().st_size:,} B)")
         for name in BUNDLES:
             b = cur["bundles"][name]
             if b:
                 print(f"    {name}: {b['bytes']:,} B  {b['sha256'][:12]}")
         return
-
-    if not BASELINE.exists():
-        sys.exit(f"ERROR: no baseline at {BASELINE}; run --update first "
-                 f"(or --floors-only to check Tier 0 alone)")
-    base = json.loads(BASELINE.read_text())
-    if base.get("_meta", {}).get("format") != FORMAT:
-        sys.exit(f"ERROR: baseline format {base.get('_meta', {}).get('format')} != {FORMAT}; "
-                 f"requires a reviewed baseline migration, not an automatic --update")
 
     problems = check_census(base, cur)
     if problems:
