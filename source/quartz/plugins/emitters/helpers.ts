@@ -2,6 +2,7 @@ import path from "path"
 import fs from "fs"
 import { BuildCtx } from "../../util/ctx"
 import { FilePath, FullSlug, joinSegments } from "../../util/path"
+import { recordWrite } from "./emitLedger"
 
 type WriteOptions = {
   ctx: BuildCtx
@@ -25,5 +26,9 @@ export const write = async ({ ctx, slug, ext, content }: WriteOptions): Promise<
     dirs.add(dir)
   }
   await fs.promises.writeFile(pathToPage, content)
+  // ATTRIBUTION ONLY (D-B-05): records WHICH emitter wrote this path, never whether it exists.
+  // Existence, size and sha256 come from the post-build walk; a producer-side record cannot
+  // prove coverage. No-ops unless BJJ_EMIT_LEDGER_DIR is set.
+  recordWrite(ctx.argv.output, pathToPage)
   return pathToPage
 }
