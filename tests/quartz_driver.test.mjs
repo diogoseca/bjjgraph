@@ -456,8 +456,8 @@ async function isolatedModule(t, options) {
 }
 
 async function instrumentWorkerIdentity(f, mutant) {
-  const emitNeedle = "    const bytes = serialize(content)";
-  const workerNeedle = '  parentPort.on("message", async ({ id, task }) => {';
+  const emitNeedle = "    const tasks = sharded.flatMap((index) =>";
+  const workerNeedle = "        resetRenderState()";
   const instrument = {
     name: "worker-identity-witness",
     setup(build) {
@@ -472,6 +472,7 @@ async function instrumentWorkerIdentity(f, mutant) {
         // transport and receiver must preserve that late mutation through the blocks alias.
         const mutation = `
     for (const [fixtureTree, fixtureFile] of content) {
+      fixtureFile.data.fixtureUnknown = { nested: { owner: fixtureFile.data.slug, flag: true } }
       const walk = (node) => {
         const id = node.properties?.id
         if (id && Object.hasOwn(fixtureFile.data.blocks ?? {}, id)) {
@@ -504,8 +505,9 @@ import { threadId as fixtureThreadId } from "node:worker_threads"
           workerNeedle,
           `
   if (init.phase === "emit") {
-    const witness = { pages: 0, blocks: 0, dates: 0, lateMutations: 0 }
+    const witness = { rendered: shard.renderCount, pages: 0, metadata: allFiles.length, blocks: 0, dates: 0, lateMutations: 0, guardedTrees: 0 }
     for (const [tree, file] of content) {
+      fixtureAssert.ok(allFiles.includes(file.data), "resident tuple data must alias its roster entry")
       fixtureAssert.strictEqual(file.data.htmlAst, tree, "htmlAst must alias the live worker tree")
       witness.pages++
       const liveNodes = new Set()
@@ -520,9 +522,19 @@ import { threadId as fixtureThreadId } from "node:worker_threads"
         witness.blocks++
         witness.lateMutations++
       }
+    }
+    for (const data of allFiles) {
+      fixtureAssert.deepEqual(data.fixtureUnknown, { nested: { owner: data.slug, flag: true } }, "unknown metadata remains eager")
+      fixtureAssert.ok(data.frontmatter.title, "every metadata entry has its title")
       for (const key of ["created", "modified", "published"]) {
-        fixtureAssert.ok(file.data.dates?.[key] instanceof Date, key + " must remain a Date in the emit worker")
+        fixtureAssert.ok(data.dates?.[key] instanceof Date, key + " must remain a Date in the emit worker")
         witness.dates++
+      }
+    }
+    for (const { index, fields } of shard.omittedTrees) {
+      for (const field of fields) {
+        fixtureAssert.throws(() => allFiles[index][field], /Unplanned shard tree read/)
+        witness.guardedTrees++
       }
     }
     fixtureAssert.ok(witness.blocks > 0, "the identity fixture must exercise an authored block")
@@ -724,16 +736,29 @@ test("emit transport partitions trees before native worker hydration", (t) => {
   const f = fixture(t);
   const result = runBuild(f, 2);
   assert.equal(result.status, 0, result.log);
-  const shards = [...result.log.matchAll(
-    /\[emit:hydrate:ready\] thread=\d+ renderPages=(\d+) residentPages=(\d+) metadataPages=(\d+)/g,
-  )].map(([, render, resident, metadata]) => ({
-    render: Number(render), resident: Number(resident), metadata: Number(metadata),
+  const shards = [
+    ...result.log.matchAll(
+      /\[emit:hydrate:ready\] thread=\d+ renderPages=(\d+) residentPages=(\d+) metadataPages=(\d+)/g,
+    ),
+  ].map(([, render, resident, metadata]) => ({
+    render: Number(render),
+    resident: Number(resident),
+    metadata: Number(metadata),
   }));
-  assert.equal(shards.length, 2, "both native workers must attest their actual hydrated shard");
+  assert.equal(
+    shards.length,
+    2,
+    "both native workers must attest their actual hydrated shard",
+  );
   assert.deepEqual(shards.map((s) => s.render).sort(), [1, 2]);
   assert.deepEqual(shards.map((s) => s.resident).sort(), [2, 2]);
-  assert.ok(shards.every((s) => s.metadata === 3), "every shard needs the full metadata roster");
-  console.log("Shard coverage: 3 owned pages once; 4 resident trees including 1 cross-shard target; 3 metadata entries per worker (was 6 full trees)");
+  assert.ok(
+    shards.every((s) => s.metadata === 3),
+    "every shard needs the full metadata roster",
+  );
+  console.log(
+    "Shard coverage: 3 owned pages once; 4 resident trees including 1 cross-shard target; 3 metadata entries per worker (was 6 full trees)",
+  );
 });
 
 test("native emit workers preserve live AST, block identity and Dates", async (t) => {
@@ -773,19 +798,22 @@ test("native emit workers preserve live AST, block identity and Dates", async (t
             2,
             "both native emit workers must attest their reconstructed graph",
           );
-          for (const file of witnesses) {
-            assert.deepEqual(
-              JSON.parse(fs.readFileSync(path.join(f.source, file), "utf8")),
-              {
-                pages: 3,
-                blocks: 1,
-                dates: 9,
-                lateMutations: 1,
-              },
-            );
+          const records = witnesses.map((file) =>
+            JSON.parse(fs.readFileSync(path.join(f.source, file), "utf8")),
+          );
+          assert.deepEqual(records.map((r) => r.rendered).sort(), [1, 2]);
+          for (const { rendered, ...record } of records) {
+            assert.deepEqual(record, {
+              pages: 2,
+              metadata: 3,
+              blocks: 1,
+              dates: 9,
+              lateMutations: 1,
+              guardedTrees: 2,
+            });
           }
           console.log(
-            "Worker identity coverage: 2 native emit workers; 6 live-tree aliases, 2 block aliases, 18 Dates, 2 late mutations",
+            "Worker identity coverage: 2 native emit workers; 3 owned pages once, 4 live-tree aliases, 2 block aliases, 18 metadata Dates, 2 late mutations, 4 guarded nonresident tree reads",
           );
         }
       },
@@ -793,7 +821,7 @@ test("native emit workers preserve live AST, block identity and Dates", async (t
   }
 });
 
-test("worker tag listings retain other pages' tags, titles, links and date ordering", (t) => {
+test("global main tag listings retain other pages' tags, titles, links and date ordering", (t) => {
   const f = fixture(t);
   // This fixture alone gives Top a later created date; the shared parity fixture stays fixed.
   // Without corpus-wide dates the alphabetical fallback would put Mount before Mount Top.
