@@ -44,6 +44,20 @@ class SystemAffiliates(unittest.TestCase):
         self.assertGreater(count,0); self.assertEqual(errors,[])
         self.assertNotIn('affiliate-disclosure',text);self.assertNotIn(LEGACY_DISCLOSURE,text)
 
+    def test_exact_marker_control_rejects_under_and_over_counting(self):
+        control = self.render()
+        # Independently authored expectation: one live product rendered in two
+        # course placements plus one guide source. Do not derive it via the gate.
+        self.assert_gate(control)
+        anchor = re.search(r'<a\b[^>]*data-course-url[^>]*>.*?</a>', control, re.S)[0]
+        for label, text in (
+            ('missing-one', control.replace(anchor, '', 1)),
+            ('extra-one', control + anchor),
+        ):
+            with self.subTest(control=label):
+                with self.assertRaisesRegex(AssertionError, 'exact marker control'):
+                    self.assert_gate(text)
+
     def test_neutral_source_course_order_and_single_overview(self):
         text=self.render()
         self.assertEqual(text.count('data-course-url='),2)
