@@ -12,6 +12,8 @@ actual bytes and SHA-256 before mutation; restore those bytes and verify the
 original digest before reuse. Restoration failures abort the run, even inside
 subTest or an expected mutant AssertionError. Commit test changes before running
 mutants; no git checkout is used to restore fixtures.
+COORDINATION §7K: calibration compares exact parsed counts from complete, unique
+summary lines, with synthetic over/under-count and malformed-sibling controls.
 
 Publication classifier scope: BOTH dates remain required. Partial publication
 absence is a real failure; sole source-pinned whole-corpus absence is pending (2),
@@ -34,6 +36,7 @@ Run just these tiny cases: python3 -B tests/postprocessor_contract_test.py Postp
 from pathlib import Path
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -62,6 +65,89 @@ INDEX = '''<!DOCTYPE html><html><head><meta charset="utf-8"/>
 PUBLISHED_TAG = '<meta property="article:published_time" content="2026-09-20T00:00:00Z"/>'
 MODIFIED_TAG = '<meta property="article:modified_time" content="2026-09-20T01:00:00Z"/>'
 DATED_HEAD = '<head>' + PUBLISHED_TAG + MODIFIED_TAG + '</head>'
+
+
+BASELINE_CONTRACT_COUNTS = dict(
+    shapes=11, sitemap=4000, articles=4002, exceptions=0, noindex=2, sources=2,
+    published=4002, eligible=4002, modified=4002, modified_eligible=4002,
+    source_slugs=4002, folder_copies=0,
+)
+
+
+def assert_contract_counts(output, **expected):
+    """Use complete lines and exact integers; 14002 must never stand in for 4002."""
+    formats = (
+        ('[postprocessor-contract] checked ',
+         r'(?P<shapes>[0-9]+) literal shapes; (?P<sitemap>[0-9]+) sitemap URLs; '
+         r'(?P<articles>[0-9]+) article pages; (?P<exceptions>[0-9]+) named article exceptions; '
+         r'(?P<noindex>[0-9]+) noindex pages from (?P<sources>[0-9]+) source files'),
+        ('[postprocessor-contract] publication: ',
+         r'(?P<published>[0-9]+)/(?P<eligible>[0-9]+) pages; '
+         r'modified: (?P<modified>[0-9]+)/(?P<modified_eligible>[0-9]+); '
+         r'(?P<source_slugs>[0-9]+) source slugs \+ (?P<folder_copies>[0-9]+) additional folder copies'),
+    )
+    actual = {}
+    for prefix, pattern in formats:
+        lines = [line for line in output.splitlines() if line.startswith(prefix)]
+        if len(lines) != 1:
+            raise AssertionError(f'contract summary requires exactly one {prefix!r} line, found {len(lines)}')
+        match = re.fullmatch(re.escape(prefix) + pattern, lines[0])
+        if match is None:
+            raise AssertionError(f'malformed contract summary: {lines[0]!r}')
+        actual.update({name: int(value) for name, value in match.groupdict().items()})
+    observed = {name: actual[name] for name in expected}
+    if observed != expected:
+        raise AssertionError(f'contract counts: expected {expected}, found {observed}')
+
+
+class ContractCountControlTest(unittest.TestCase):
+    # Independent, literal sibling of the real CLI's two summary lines. The same
+    # parser/assertion below is called by every real-fixture count control.
+    SUMMARY = ('[postprocessor-contract] checked 11 literal shapes; 4000 sitemap URLs; '
+               '4002 article pages; 0 named article exceptions; 2 noindex pages from 2 source files\n'
+               '[postprocessor-contract] publication: 4002/4002 pages; modified: 4002/4002; '
+               '4002 source slugs + 0 additional folder copies\n')
+
+    def test_correctly_shaped_sibling_satisfies_exact_fixture_counts(self):
+        assert_contract_counts(self.SUMMARY, **BASELINE_CONTRACT_COUNTS)
+
+    def test_extra_and_missing_counts_cannot_satisfy_the_same_control(self):
+        # Select each complete numeric field, including both ratio denominators.
+        fields = (
+            ('11 literal shapes', '11'), ('4000 sitemap URLs', '4000'),
+            ('4002 article pages', '4002'), ('0 named article exceptions', '0'),
+            ('2 noindex pages', '2'), ('2 source files', '2'),
+            ('publication: 4002/', '4002'), ('/4002 pages', '4002'),
+            ('modified: 4002/', '4002'), ('/4002;', '4002'),
+            ('4002 source slugs', '4002'), ('0 additional folder copies', '0'),
+        )
+        self.assertEqual(len(fields), 12)
+        for field, count in fields:
+            for replacement in ('1' + count, str(int(count) - 1) if int(count) else ''):
+                with self.subTest(field=field, replacement=replacement):
+                    self.assertEqual(self.SUMMARY.count(field), 1)
+                    changed = self.SUMMARY.replace(field, field.replace(count, replacement, 1), 1)
+                    self.assertNotEqual(changed, self.SUMMARY)
+                    with self.assertRaises(AssertionError):
+                        assert_contract_counts(changed, **BASELINE_CONTRACT_COUNTS)
+        # Repaired sibling goes through the very same assertion after the mutants.
+        assert_contract_counts(self.SUMMARY, **BASELINE_CONTRACT_COUNTS)
+
+    def test_missing_duplicate_or_malformed_summary_is_rejected(self):
+        first, second = self.SUMMARY.splitlines()
+        malformed = (
+            first + '\n', second + '\n', self.SUMMARY + first + '\n',
+            self.SUMMARY + second + '\n',
+            self.SUMMARY.replace('literal shapes', 'literal shape'),
+            self.SUMMARY.replace('4002/4002 pages', '4002/4002 pages extra'),
+            self.SUMMARY.replace('4000 sitemap URLs; ', ''),
+        )
+        self.assertEqual(len(malformed), 7)
+        for output in malformed:
+            with self.subTest(output=output):
+                with self.assertRaises(AssertionError):
+                    assert_contract_counts(output, **BASELINE_CONTRACT_COUNTS)
+        assert_contract_counts(self.SUMMARY, **BASELINE_CONTRACT_COUNTS)
 
 
 class FixtureRestorationError(KeyboardInterrupt):
@@ -224,8 +310,7 @@ class PostprocessorContractTest(unittest.TestCase):
     def test_complete_fixture_accepts_svg_title_and_reports_positive_counts(self):
         result = self.run_gate()
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        for count in ('11 literal shapes', '4000 sitemap URLs', '4002 article pages', '2 noindex pages'):
-            self.assertIn(count, result.stdout)
+        assert_contract_counts(result.stdout, **BASELINE_CONTRACT_COUNTS)
         self.assertIn('check_affiliate_surface.py --built', result.stdout)
 
     def test_all_eligible_publications_absent_is_expected_pending(self):
@@ -241,9 +326,12 @@ class PostprocessorContractTest(unittest.TestCase):
             self.assertIn('POSTPROCESSOR_CONTRACT_RESULT=pending', result.stdout.splitlines())
             self.assertIn('EXPECTED PENDING', result.stderr)
             self.assertIn('pending git-derived publication', result.stderr)
-            self.assertIn('10/11', result.stderr)
-            self.assertIn('0/4002', result.stdout)
-            self.assertIn('modified: 4002/4002', result.stdout)
+            self.assertEqual(
+                [line for line in result.stderr.splitlines() if line.startswith('[postprocessor-contract] EXPECTED PENDING:')],
+                ['[postprocessor-contract] EXPECTED PENDING: publication is absent on EVERY '
+                 'eligible page, pending git-derived publication work; known producer verified. '
+                 '10/11 required literal shapes match; contract still requires both timestamps; exit 2.'])
+            assert_contract_counts(result.stdout, **dict(BASELINE_CONTRACT_COUNTS, shapes=10, published=0))
             self.assertNotIn('REAL FAILURE', result.stderr)
         finally:
             originals.restore()
@@ -282,9 +370,7 @@ class PostprocessorContractTest(unittest.TestCase):
     def test_all_publications_present_is_conforming(self):
         result = self.run_gate()
         self.assert_classifier(result, 'conforms')
-        self.assertIn('11 literal shapes', result.stdout)
-        self.assertIn('4002/4002', result.stdout)
-        self.assertIn('modified: 4002/4002', result.stdout)
+        assert_contract_counts(result.stdout, **BASELINE_CONTRACT_COUNTS)
 
     def test_partial_publication_in_either_direction_is_real_failure(self):
         for relative in ('index.html', 'Positions/P0.html'):
@@ -296,7 +382,7 @@ class PostprocessorContractTest(unittest.TestCase):
                     result = self.run_gate()
                     self.assert_classifier(result, 'failure')
                     self.assertIn('publication-coverage', result.stderr)
-                    self.assertIn('4001/4002', result.stdout)
+                    assert_contract_counts(result.stdout, published=4001, eligible=4002)
                 finally:
                     snapshot.restore()
         originals = self.without_all_publications()
@@ -305,7 +391,7 @@ class PostprocessorContractTest(unittest.TestCase):
             result = self.run_gate()
             self.assert_classifier(result, 'failure')
             self.assertIn('publication-coverage', result.stderr)
-            self.assertIn('1/4002', result.stdout)
+            assert_contract_counts(result.stdout, published=1, eligible=4002)
         finally:
             self.restore_pages(originals)
 
@@ -327,7 +413,7 @@ class PostprocessorContractTest(unittest.TestCase):
                         result = self.run_gate()
                         self.assert_classifier(result, 'failure')
                         self.assertIn(diagnostic, result.stderr)
-                        self.assertIn('0/4002', result.stdout)
+                        assert_contract_counts(result.stdout, published=0, eligible=4002)
                     finally:
                         snapshot.restore()
         finally:
@@ -344,7 +430,7 @@ class PostprocessorContractTest(unittest.TestCase):
                         result = self.run_gate()
                         self.assert_classifier(result, 'failure')
                         self.assertIn('publication-modified', result.stderr)
-                        self.assertIn('modified: 4001/4002', result.stdout)
+                        assert_contract_counts(result.stdout, modified=4001, modified_eligible=4002)
             finally:
                 self.restore_pages(originals)
         snapshot = FixtureSnapshot(target)
@@ -353,7 +439,7 @@ class PostprocessorContractTest(unittest.TestCase):
             result = self.run_gate()
             self.assert_classifier(result, 'failure')
             self.assertIn('publication-modified', result.stderr)
-            self.assertIn('4001/4002', result.stdout)
+            assert_contract_counts(result.stdout, published=4001, eligible=4002)
         finally:
             snapshot.restore()
 
@@ -421,7 +507,7 @@ class PostprocessorContractTest(unittest.TestCase):
                         target.write_text(pending_text + suffix)
                         result = self.run_gate()
                         self.assert_classifier(result, 'pending')
-                        self.assertIn('0/4002', result.stdout)
+                        assert_contract_counts(result.stdout, published=0, eligible=4002)
         finally:
             self.restore_pages(originals)
 
@@ -454,8 +540,9 @@ class PostprocessorContractTest(unittest.TestCase):
             source_index.write_text(json.dumps(data))
             result = self.run_gate()
             self.assert_classifier(result, 'conforms')
-            self.assertIn('4004/4004', result.stdout)
-            self.assertIn('1 additional folder copies', result.stdout)
+            assert_contract_counts(result.stdout, **dict(
+                BASELINE_CONTRACT_COUNTS, articles=4004, published=4004, eligible=4004,
+                modified=4004, modified_eligible=4004, source_slugs=4003, folder_copies=1))
             for label, mutant in (
                 ('publication-missing', page.replace(PUBLISHED_TAG, '')),
                 ('both-dates-missing', page.replace(PUBLISHED_TAG, '').replace(MODIFIED_TAG, '')),
@@ -470,7 +557,7 @@ class PostprocessorContractTest(unittest.TestCase):
                         result = self.run_gate()
                         self.assert_classifier(result, 'failure')
                         self.assertIn('publication-', result.stderr)
-                        self.assertIn('4003/4004', result.stdout)
+                        assert_contract_counts(result.stdout, published=4003, eligible=4004)
         finally:
             baseline.restore()
             try:
@@ -587,7 +674,7 @@ class PostprocessorContractTest(unittest.TestCase):
                 path.write_text(sources.text(path).replace('noindex: true', 'noindex: false'))
             result = self.run_gate()
             self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
-            self.assertIn('2 sources/0 noindex', result.stderr)
+            assert_contract_counts(result.stdout, sources=2, noindex=0)
         finally:
             sources.restore()
 
@@ -598,7 +685,7 @@ class PostprocessorContractTest(unittest.TestCase):
             path.write_text('<html>Catalog</html>')
             result = self.run_gate()
             self.assertEqual(result.returncode, 0, result.stderr)
-            self.assertIn('1 named article exception', result.stdout)
+            assert_contract_counts(result.stdout, **dict(BASELINE_CONTRACT_COUNTS, exceptions=1))
             unknown = path.with_name('unknown.html')
             with FixtureSnapshot(unknown):
                 unknown.write_text('<html>Unexpected missing article</html>')
@@ -830,9 +917,11 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
         result = self.kill_fresh_write_mutants(
             script, '    OUTPUT.write_text("\\n".join(rules) + "\\n")\n', '_redirects',
             lambda actual: self.assertEqual(actual.splitlines(), expected))
-        self.assertIn('3 authored rule(s)', result.stdout)
-        self.assertIn('1 alias 301 rule(s)', result.stdout)
-        self.assertIn('Wrote 5 301 rules', result.stdout)
+        self.assertEqual(result.stdout.splitlines(), [
+            '[regenerate_redirects] 3 authored rule(s) carried over',
+            '[regenerate_redirects] 1 alias 301 rule(s)',
+            f'[regenerate_redirects] Wrote 5 301 rules to {self.public / "_redirects"}',
+        ])
 
     def test_redirect_limit_accepts_2000_rejects_2001_and_kills_removed_guard(self):
         # 2,001 short lines in ONE input file; no corpus-sized filesystem fixture.
@@ -851,8 +940,11 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
         def assert_overflow_rejected():
             result = self.run_script(script)
             self.assertEqual(result.returncode, 1, 'overflow guard must reject 2001 rules')
-            self.assertIn('2001 rules exceeds', result.stderr)
-            self.assertIn('2000-static-rule limit', result.stderr)
+            self.assertEqual(result.stderr.splitlines(), [
+                "[regenerate_redirects] ERROR: 2001 rules exceeds Cloudflare's "
+                '2000-static-rule limit — Cloudflare would silently ignore the overflow. '
+                'Reduce rules (e.g. fold case-correction into a Cloudflare redirect rule) before shipping.',
+            ])
             self.assertFalse((self.public / '_redirects').exists())
 
         with FixtureSnapshot(canonical):
@@ -869,7 +961,10 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
             result = self.run_script(script)
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
             self.assertEqual(len((self.public / '_redirects').read_text().splitlines()), 2000)
-            self.assertIn('Wrote 2000 301 rules', result.stdout)
+            self.assertEqual(result.stdout.splitlines(), [
+                '[regenerate_redirects] 2000 authored rule(s) carried over',
+                f'[regenerate_redirects] Wrote 2000 301 rules to {self.public / "_redirects"}',
+            ])
         with FixtureSnapshot(canonical):
             populate(2001)
             assert_overflow_rejected()
@@ -906,7 +1001,9 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
             self.copy_script('regenerate_llms_txt.py'),
             '    OUTPUT.write_text("\\n".join(lines).rstrip() + "\\n", encoding="utf-8")\n',
             'llms.txt', verify)
-        self.assertIn('4 listed pages + hubs', result.stdout)
+        self.assertEqual(result.stdout.splitlines(), [
+            f'[regenerate_llms_txt] Wrote {self.public / "llms.txt"} (4 listed pages + hubs)',
+        ])
 
     def assert_discovery_error_then_valid_homepage(self, url, diagnostic):
         self.write_input('source/public/index.html', '<title>Fixture home</title><article>Public study.</article>')
@@ -925,7 +1022,9 @@ class PostprocessorFreshOutputTest(unittest.TestCase):
         # was the selected validation branch, not missing assets or a bad harness.
         green = self.run_script(script)
         self.assertEqual(green.returncode, 0, green.stdout + green.stderr)
-        self.assertIn('1 public Markdown pages', green.stdout)
+        self.assertEqual(green.stdout.splitlines(), [
+            '[agent_discovery] 1 public Markdown pages; 0 noindex sitemap entries removed; root discovery files published',
+        ])
         self.assertIn('Public study.', (self.public / 'markdown/index.md').read_text())
         records = json.loads((self.public / 'site-index.json').read_text())['pages']
         self.assertEqual(len(records), 1)
