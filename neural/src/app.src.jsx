@@ -7,6 +7,10 @@
 // `def` is present on 100% of seats and `safety-notice` is first on every submission.
 const NG_READ_NAV = { def: "Definition", aka: "Names", "safety-notice": "Safety notice" };
 const NG_LAND_MORE_COL = "#7e8aa3";
+// The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
+// the collapsed More pill is drawn before the stylesheet arrives and its `margin-left:auto`
+// needs a flex parent. One string so the two cannot drift.
+const NG_READ_BAR_CSS = "display:flex;align-items:center;gap:12px;";
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
 // count line = 40px from the padding-box top; the question starts at the card's padding-top
@@ -13391,10 +13395,24 @@ class Component extends DCLogic {
     // `row.firstChild.firstChild` in expandLandCard — put anything beside the button and that
     // expression returns the wrapper, and the `textContent` write below it deletes the button
     // AND the contents row. Reproduced during review: 0 buttons and 0 navs survived opening.
-    moreRow.innerHTML = '<div class=r-bar data-read-bar><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div>' +
+    // THE HEAD IS TWO BARS, AND THE INNER ONE IS THE ONE THAT PINS (v1.194.1). The OUTER bar
+    // owns the row's 38px and the collapsed dock's `translateX(90px)`; the INNER bar owns the
+    // counter-translate that holds the contents row still while the document travels under it
+    // (`_readPin`). It cannot be one element: `helmet.html:243` writes `transform:none!important`
+    // on `.ng-landmore.open > div:first-child` — that is what clears the collapsed dock's nudge
+    // when the fold opens — and an `!important` stylesheet declaration beats an inline style.
+    // WHAT PUTS THE FLOATING HEAD IN FRONT OF THE PROSE is the inner bar's own transform: a
+    // transformed element makes a stacking context and paints as if positioned at z-index 0,
+    // above the body's in-flow content. NOT the outer bar's `position:relative` — dropping that
+    // was tried as a mutant and the mouse gate stayed green, so it is not what carries this.
+    moreRow.innerHTML = '<div class=r-bar data-read-bar><div class=r-pin data-read-pin><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div></div>' +
       '<div id="ng-land-more" data-land-more-body role="region" aria-label="More about this state" tabindex="0" style="display:none;outline-offset:4px;"></div>';
     const moreHead = moreRow.querySelector("[data-read-bar]"), more = moreRow.querySelector("[data-land-more]");
-    moreHead.style.cssText = "position:relative;height:38px;display:flex;align-items:center;gap:12px;";
+    moreHead.style.cssText = "position:relative;height:38px;" + NG_READ_BAR_CSS;
+    // Held on the element, not on `this`: the row is rebuilt whenever the seat changes, and a
+    // cached node on the app outlives the row it was read from.
+    moreRow._ngPin = moreRow.querySelector("[data-read-pin]");
+    moreRow._ngPin.style.cssText = "flex:1 1 auto;min-width:0;" + NG_READ_BAR_CSS;
     moreRow.querySelector("[data-land-more-body]")._ngMoreSections = sections;
     // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
     more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;margin-left:auto;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
@@ -13558,6 +13576,7 @@ class Component extends DCLogic {
   /** The home frame: every column member where its dock put it, the hand at the tray datum. */
   _readClear() {
     for (const t of this._landSurfaces()) t.style.transform = "translateX(-50%)";
+    this._readPin(0);   // the head comes home with the column, or the docks measure a lifted rect
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = this._landDatum().tray + "px";   // WRITE the template's value, never delete it (§6.1)
   }
@@ -13580,10 +13599,43 @@ class Component extends DCLogic {
       const middle = (Math.max(16, top) + Math.min(H - 16, top + height)) / 2 - top;
       nav.style.setProperty("--guide-y", Math.max(22, Math.min(height - 22, middle)) + "px");
     }
+    this._readPin(s);  // ...and the head stays where the reader can reach it
     this._navMark();   // the column moved: the contents row says where the reader now is
     const push = max - s;
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = (this._landDatum().tray - push) + "px";
+  }
+  /**
+   * THE PINNED HEAD (v1.194.1) — the contents row holds while the document travels under it.
+   *
+   * `position:sticky` is dead on this surface and it was measured three separate times: the fold
+   * is not a scrollport, so a sticky child of a `transform`-moved fixed card travels the full
+   * offset with it. What holds instead is arithmetic. The head is counter-translated by exactly
+   * what `_readApply` just took away, starting the moment its natural top would cross the card's
+   * own side padding — the token `reading.css`'s whole rhythm is already built on, rather than a
+   * new number — and it never travels past the bottom of the card it indexes.
+   *
+   * It is the INNER bar that moves; see `_renderLandMore` for why it cannot be the outer one.
+   *
+   * THIS IS THE ONE WRITER of the head's transform: `_readApply` for a frame of the read,
+   * `_readClear` for the home frame every dock measures in. The three inputs are measured once
+   * per dock in `_dockLandMore`, in that same home frame, so no frame of the read pays a layout
+   * read for it and no rect is ever read through its own translation.
+   *
+   * IT ADDS NO DISPLACEMENT. `_readMax` is `rowBottom - limit` off the row's own `offsetHeight`,
+   * which a transform does not change, so the hand is pushed exactly as far as the same body
+   * unpinned would push it (`landcard-more-content.spec.ts`, "the pinned head costs the hand
+   * nothing").
+   */
+  _readPin(s) {
+    const pin = this._landMoreEl && this._landMoreEl._ngPin;
+    if (!pin) return;
+    const start = Math.max(0, (this._readPinTop || 0) - (this._readPinInset || 12));
+    const lift = Math.max(0, Math.min(this._readPinCap || 0, s - start));
+    pin.style.transform = lift ? "translateY(" + lift + "px)" : "";
+    // Floating over the prose it indexes, the head has to be opaque; standing in its own place at
+    // the top of the card it must not be. The class is the only thing that says which it is.
+    pin.classList.toggle("pinned", lift > 0);
   }
   _readScrollBy(dy) {
     if (this._landHidden() || !this._readMax) return false;
@@ -13888,10 +13940,21 @@ class Component extends DCLogic {
     btn.insertAdjacentHTML("beforebegin", this._readingNav(sections));
     this._navMark();
   }
-  /** Where a jumped-to section should come to rest: just under the head, plus one rhythm unit. */
+  /** Where the head is STANDING, plus one rhythm unit — the line `_navMark` calls "being read".
+   *  It measures the inner bar because that is the one the pin moves; the outer one stays put. */
   _navPin() {
-    const bar = this._landMoreEl && this._landMoreEl.querySelector("[data-read-bar]");
-    return bar ? Math.round(bar.getBoundingClientRect().bottom) + 12 : 0;
+    const pin = this._landMoreEl && this._landMoreEl._ngPin;
+    return pin ? Math.round(pin.getBoundingClientRect().bottom) + 12 : 0;
+  }
+  /**
+   * Where a jumped-to section comes to REST — the head's pinned line, not wherever it is standing
+   * when the click lands. The two differ, and aiming at the live one misses: every entry's target
+   * offset is at or past the offset where the head pins (the FIRST entry's lands exactly on it,
+   * since the head is one head-height plus one unit above it), so the head is always pinned by
+   * the time the jump settles. Aiming at a line that is about to move is the fixed-point bug.
+   */
+  _navRest() {
+    return this._readPinH ? (this._readPinInset || 12) + this._readPinH + 12 : this._navPin();
   }
   /**
    * `scrollIntoView` DOES NOTHING HERE. The open fold is `overflow:visible` with no scrollport —
@@ -13903,7 +13966,7 @@ class Component extends DCLogic {
     const body = row.querySelector("[data-land-more-body]");
     const el = body && body.querySelector("[data-land-" + key + "]"); if (!el) return;
     this._readStop();
-    this._readApply((this._readS || 0) + el.getBoundingClientRect().top - this._navPin());
+    this._readApply((this._readS || 0) + el.getBoundingClientRect().top - this._navRest());
     if (el.focus) try { el.focus({ preventScroll: true }); } catch (e) {}
     this._navMark();
   }
@@ -14238,6 +14301,25 @@ class Component extends DCLogic {
       moreRow.style.top = top + "px";
       moreRow.style.bottom = "auto";
       const rowBottom = top + moreRow.offsetHeight;
+      // THE PINNED HEAD's home geometry, read in the home frame `_readClear` restored above:
+      // where the head rests at offset 0, how far it may travel inside its own card, and the
+      // inset it pins to — the card's own side padding, measured rather than assumed because it
+      // is 12 on a phone and 15 above it.
+      const pin = moreRow._ngPin;
+      if (pin) {
+        // AND LAYOUT HERE TOO, for the same reason as the two edges above — but expressed as a
+        // DIFFERENCE of rects, which is the cheapest way to get it: `ngCardInX`'s first keyframe
+        // translates the whole row by 8px, and a transform on the row moves the row's rect and
+        // the head's rect by the same amount, so `pinTop - rowTop` is immune to it while
+        // `pinTop` alone is not. Measured on the frame the class lands: 645 by the raw rect
+        // against 637 by this, i.e. the head pinned 8px above the inset it was asked for.
+        const rr = moreRow.getBoundingClientRect(), pr = pin.getBoundingClientRect();
+        const home = top + (pr.top - rr.top);
+        this._readPinInset = Math.round(parseFloat(getComputedStyle(moreRow).paddingLeft)) || 12;
+        this._readPinTop = Math.round(home);
+        this._readPinH = Math.round(pr.height);
+        this._readPinCap = Math.max(0, Math.round(rowBottom - home - pr.height));
+      }
       let limit = H - 16;
       if (this._handShown()) {
         const choiceRow = this.optionsRef.current;
@@ -14262,6 +14344,7 @@ class Component extends DCLogic {
     // hand both controls share that band, so move only the pill inside its full-width inert row;
     // expanded More resets this transform in CSS.
     const head = moreRow.firstChild;
+    this._readPinCap = 0;   // nothing to pin while the fold is shut: the head IS the row
     const dockSharesBand = this._handShown() && NG_LAYER_ORDER.some((l) => !this._layerOn(l));
     head.style.transform = dockSharesBand ? "translateX(90px)" : "";
     this._readApply(this._readS || 0);

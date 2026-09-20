@@ -187,6 +187,27 @@
 
 /* the head that carries the row and the close control */
 .r-bar { display: flex; align-items: center; gap: 12px; height: 38px; }
-/* justify-content:center on the parent means `order` cannot right-align this; margin-left:auto
-   can. The button keeps its own inline colour (NG_LAND_MORE_COL) — never clear it to "". */
-.r-bar > [data-land-more] { margin-left: auto; }
+/* `order` cannot right-align this under the parent's centring; margin-left:auto can. The close
+   lives on the INNER bar now, so this selector must too — and the button keeps its own inline
+   colour (NG_LAND_MORE_COL): never clear it to "". */
+.r-pin > [data-land-more] { margin-left: auto; }
+
+/* ── THE PINNED HEAD ────────────────────────────────────────────────────────────────────── */
+/* The INNER bar, the one `_readPin` counter-translates so the contents row holds while the
+   document travels under it. `position:sticky` cannot do this — the fold is not a scrollport,
+   and a sticky child of a transform-moved fixed card travels the full offset with it — and the
+   OUTER bar cannot carry the transform either, because helmet.html:243 writes
+   `transform:none!important` on `.ng-landmore.open > div:first-child` and `!important` beats an
+   inline style. These rules are a mirror of what `_renderLandMore` already writes inline: the
+   stylesheet is deferred and the collapsed More pill is drawn before it arrives. */
+.r-pin { display: flex; align-items: center; gap: 12px; flex: 1 1 auto; min-width: 0; }
+
+/* Standing in its own place at the top of the card the head is transparent, exactly as it was.
+   FLOATING, it is in front of the prose it indexes, so it has to be opaque and it has to say so.
+   The first shadow is not decoration: with no blur and a -20px offset it paints the same solid
+   over the strip between the card's top edge and the head, which is otherwise a sliver of text
+   peeking above a floating bar. The second is the only thing that says "this is in front". */
+.r-pin.pinned {
+  background: #1b2034;
+  box-shadow: 0 -20px 0 #1b2034, 0 14px 16px -12px rgba(0, 0, 0, .8);
+}
