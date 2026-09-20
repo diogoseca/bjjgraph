@@ -607,6 +607,10 @@ function joinRecords(captured, outDir, opts) {
   if (conflicts.length) problems.push(`${conflicts.length} path(s) claimed by two emitters — attribution is not a partition`)
   if (repeats.length) problems.push(`${repeats.length} path(s) written more than once by the same emitter`)
 
+  // Returns are validated LATER, against each record's OWN data.returned_paths, not against
+  // this intermediate map — see "RETURNS VALIDATED ON THE PUBLISHED VALUE" below.
+  const returnEntries = captured.return_entries ?? []
+
   const head = gitHead()
   const contentProv = inputFingerprint()
 
@@ -629,6 +633,14 @@ function joinRecords(captured, outDir, opts) {
     problems.push(`Static: ${staticJoin.byte_mismatch.length} file(s) differ in bytes between source and output`)
 
   const names = [...new Set([...(captured.configuredEmitters ?? []), ...Object.keys(claims)])].sort()
+  // A CONFIGURED NAME IS NOT A COMPLETED RUN. Publishing a record for an emitter that never
+  // returned is exactly the "literal 1" defect in another costume, so the receipt is required
+  // before the record exists at all.
+  for (const name of names) {
+    if (!receipts.some((r) => r.receipt === name)) {
+      problems.push(`${name}: configured but NO completed-execution receipt — cannot publish a record for a run that never finished`)
+    }
+  }
   const per = {}
   for (const emitter of names) {
     const files = {}
@@ -646,6 +658,7 @@ function joinRecords(captured, outDir, opts) {
              shardRoster, staticJoin, published: false, censusSize: Object.keys(census).length }
   }
 
+  const built = []
   fs.mkdirSync(outDir, { recursive: true })
   const witnessDir = path.join(outDir, "_raw")
   fs.mkdirSync(witnessDir, { recursive: true })
@@ -674,26 +687,43 @@ function joinRecords(captured, outDir, opts) {
           returned_paths: returned.length,
           seeded_files: seeded,
           parity_files: Object.keys(files).length - seeded,
-          // OBSERVED, not a literal 1. No receipt means no completed run — which is exactly the
-          // fact an empty record has to be able to state.
-          emitter_runs: rcpts.length,
-          ...(empty
-            ? {
-                empty_output: true,
-                empty_reason:
-                  `${emitter} completed ${rcpts.length} run(s) and wrote no file. This corpus ` +
-                  `contains nothing in its scope; the result is empty BY SCOPE, not by failure.`,
-                empty_evidence: {
-                  receipts: rcpts.map((r) => ({ shard: r.shard, seq: r.seq, wrote: r.wrote, returned: r.returned })),
-                  discovered_all: captured.discovered?.all ?? 0,
-                },
-              }
-            : {}),
+          // ONE LOGICAL EMITTER RUN per record, which is what the format means — a sharded
+          // emitter is still one emitter. The literal is not the defect V found; publishing it
+          // WITHOUT EVIDENCE was. The backing receipts live in provenance.execution_receipts and
+          // a record with zero completed receipts is refused above, so this 1 is now attested
+          // rather than assumed.
+          emitter_runs: 1,
         }
       })(),
       provenance: {
         git_head: head,
         inputs: contentProv,
+        // THE RECEIPTS BEHIND `emitter_runs: 1`. One per completed shard for a sharded emitter,
+        // one for a main-thread emitter; written only after the emitter's promise resolved.
+        return_entries: returnEntries
+          .filter((e) => e.emitter === emitter)
+          .sort((a, b) => (a.shard ?? -1) - (b.shard ?? -1) || a.seq - b.seq)
+          .map((e) => ({ shard: e.shard, seq: e.seq, threadId: e.threadId, count: e.paths.length })),
+        execution_receipts: rcpts.map((r) => ({
+          shard: r.shard, seq: r.seq, threadId: r.threadId, wrote: r.wrote, returned: r.returned,
+        })),
+        ...(empty
+          ? {
+              // An empty result is allowed, an UNEVIDENCED one is not (R9). This says which run
+              // completed and why nothing came of it, so "produced nothing" can never be read
+              // off the same absence as "never ran".
+              empty_output: {
+                reason:
+                  `${emitter} completed ${rcpts.length} run(s) and wrote no file: this corpus ` +
+                  `contains nothing in its scope. Empty BY SCOPE, not by failure.`,
+                evidence: {
+                  receipts: rcpts.map((r) => ({ shard: r.shard, seq: r.seq, wrote: r.wrote, returned: r.returned })),
+                  discovered_all: captured.discovered?.all ?? 0,
+                  output_root: captured.output_root,
+                },
+              },
+            }
+          : {}),
         // WHERE THE BYTES CAME FROM, so a reader can re-derive this record independently instead
         // of taking its word for the inventory.
         output_root: captured.output_root,
@@ -719,8 +749,65 @@ function joinRecords(captured, outDir, opts) {
           : {}),
       },
     }
-    const fp = path.join(outDir, `${emitter}.json`)
-    fs.writeFileSync(fp, JSON.stringify(record, null, 1), { encoding: "utf8", flag: "wx" })
+    built.push({ emitter, record })
+  }
+
+  // ---- RETURNS VALIDATED ON THE PUBLISHED VALUE, NOT ON AN INTERMEDIATE --------------------
+  // The first version of this check read the `returns` map and passed while a mutant collapsed
+  // the value at its USE site, so a Set+sort reached the record with the gate green. Two places
+  // answered "what did this emitter return" and only one was checked. The check now reads
+  // `record.data.returned_paths` — the bytes that actually ship — so nothing downstream of it
+  // can alter the answer without failing.
+  //
+  // Both halves come from a DIFFERENT record than the one under test: per-shard `returned`
+  // counts from the execution receipts, ordering from the return entries. A de-duplication
+  // shortens the list below the receipt sum; a sort breaks shard-block alignment.
+  //
+  // DECLARED NON-KILL (7D), so nobody reads this as covering both halves. Mutants run at
+  // limit 64 / concurrency 4:
+  //   [KILLED] `[...new Set(x)].sort()` at the record's use site -> 5 emitters diverge at a
+  //            named index. This is the exact defect V found.
+  //   [KILLED] one shard receipt suppressed -> roster MISSING 2, and the length check fires too.
+  //   [SURVIVED] `[...new Set(x)]` with no sort. MEASURED: this corpus contains 0 duplicate
+  //            returned paths across 107 total, so there is nothing for a dedupe to remove and
+  //            the mutant is a no-op. The length check WOULD fire if a duplicate existed; it is
+  //            UNEXERCISED here, not absent. Killing it needs a fixture where an emitter
+  //            genuinely returns the same path twice.
+  for (const { emitter, record } of built) {
+    const published = record.data.returned_paths
+    const rcpts = receipts.filter((r) => r.receipt === emitter)
+    const expectedLen = rcpts.reduce((n, r) => n + (r.returned ?? 0), 0)
+    if (published.length !== expectedLen) {
+      problems.push(
+        `${emitter}: published returned_paths has ${published.length} entries but the execution ` +
+          `receipts account for ${expectedLen} — de-duplication or loss between join and record`,
+      )
+    }
+    const ordered = returnEntries
+      .filter((e) => e.emitter === emitter)
+      .sort((x, y) => (x.shard ?? -1) - (y.shard ?? -1) || x.seq - y.seq)
+    let k = 0
+    let bad = -1
+    for (const e of ordered) {
+      for (const pth of e.paths) {
+        if (published[k] !== pth && bad < 0) bad = k
+        k++
+      }
+    }
+    if (bad >= 0) {
+      problems.push(
+        `${emitter}: published returned_paths diverges from the shard-ordered receipts at index ` +
+          `${bad} — resource order is BYTE-SIGNIFICANT and has been resorted`,
+      )
+    }
+  }
+
+  if (problems.length && !opts.publishAnyway) {
+    return { per, conflicts, repeats, claimMissing, unclaimed, orphans, parts, problems,
+             shardRoster, staticJoin, published: false, censusSize: Object.keys(census).length }
+  }
+  for (const { emitter, record } of built) {
+    fs.writeFileSync(path.join(outDir, `${emitter}.json`), JSON.stringify(record, null, 1), { encoding: "utf8", flag: "wx" })
   }
 
   fs.writeFileSync(
