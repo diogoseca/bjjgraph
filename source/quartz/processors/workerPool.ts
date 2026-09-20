@@ -10,7 +10,15 @@ export type WorkerInit = {
   buildId: string
   argv: Argv
   allSlugs: FullSlug[]
-} & ({ phase: "parse" } | { phase: "emit"; resources: StaticResources })
+} & (
+  | { phase: "parse" }
+  | {
+      phase: "emit"
+      resources: StaticResources
+      // Original filtered corpus, independently of the shard planner and its payload.
+      corpus: { slug: FullSlug; treeFields: ("htmlAst" | "blocks")[] }[]
+    }
+)
 
 export type EmitShard = {
   // Owned tuples first, then complete transclusion-target tuples, all in ONE alias graph.
@@ -20,7 +28,13 @@ export type EmitShard = {
   omittedTrees: { index: number; fields: ("htmlAst" | "blocks")[] }[]
 }
 
-export type EmitTask = { emitter: number; content: SharedArrayBuffer; shardIndex: number }
+export type EmitTask = {
+  emitter: number
+  content: SharedArrayBuffer
+  shardIndex: number
+  // Output identities assigned by the host, outside the serialized shard graph.
+  owned: FullSlug[]
+}
 
 export type RenderCoverage = { rendered: number; graphPayloads: number }
 export type EmitResult = { files: FilePath[]; coverage: RenderCoverage }

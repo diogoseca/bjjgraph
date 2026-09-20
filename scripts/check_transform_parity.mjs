@@ -50,10 +50,13 @@ import { fileURLToPath } from "node:url"
 import path from "node:path"
 import fs from "node:fs"
 import zlib from "node:zlib"
+import { execFileSync } from "node:child_process"
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const SRC = path.join(REPO, "source")
 const SEAM = "/home/user/bjj-orchestrator/golden/seams-v1"
+// The commit V captured the seam at. Must match check_frozen_surfaces.py's BASE_REF.
+const BASE_REF = "f649801a9"
 const TRANSFORM = path.join(SEAM, "transform")
 
 const argv = process.argv.slice(2)
@@ -133,6 +136,53 @@ function diverseSample(all, n) {
     if (all.includes(special) && !picked.includes(special)) picked.push(special)
   }
   return picked
+}
+
+// The four paths this comparison is ABOUT. Everything else in the tree can move without changing
+// the answer, which is why a full run is not owed to every integration.
+const PARITY_INPUTS = [
+  "content/",
+  "source/quartz/plugins/transformers/",
+  "source/quartz/util/path.ts",
+  "source/quartz.config.ts",
+]
+
+/**
+ * Print whether this tree's parity inputs still match the commit the seam was captured at.
+ *
+ * DERIVED AND PRINTED ON EVERY RUN, rather than left as a command someone remembers. The criterion
+ * — "re-run parity only when an integration touches these four paths" — is sound, and a sound
+ * criterion nobody can see the result of is indistinguishable from one that was skipped. Today's
+ * evidence is that norms decay and tools do not: the same reason `staleness.sh` exists instead of
+ * telling six people to merge down.
+ *
+ * If the inputs HAVE moved, this is not automatically a failure — the seam may simply need
+ * re-capturing (GOLDEN-RECAPTURE.md). It is a verdict the reader must see either way.
+ */
+function reportInputProvenance() {
+  let changed
+  try {
+    const out = execFileSync(
+      "git",
+      ["diff", "--name-only", BASE_REF, "HEAD", "--", ...PARITY_INPUTS],
+      { cwd: REPO, encoding: "utf8" },
+    )
+    changed = out.split("\n").filter(Boolean)
+  } catch {
+    // A skip PRINTS (CLAUDE.md §6.6): "could not look" must not read like "looked and found none".
+    console.log("  input provenance : UNKNOWN — git comparison failed; treat the verdict with care")
+    return
+  }
+  if (changed.length === 0) {
+    console.log(`  input provenance : parity inputs UNCHANGED since ${BASE_REF} (${PARITY_INPUTS.length} paths checked)`)
+  } else {
+    console.log(
+      `  input provenance : ${changed.length} parity input(s) CHANGED since ${BASE_REF} — the seam ` +
+        "may no longer describe this tree (GOLDEN-RECAPTURE.md):",
+    )
+    for (const f of changed.slice(0, 10)) console.log(`      ${f}`)
+    if (changed.length > 10) console.log(`      … and ${changed.length - 10} more`)
+  }
 }
 
 async function main() {
@@ -305,6 +355,7 @@ async function main() {
   const mode = pipelineMeta.provenance?.mode ?? {}
   console.log(`transform parity vs ${path.relative(REPO, TRANSFORM)}`)
   console.log(`  seam captured on : ${mode.path ?? "(unstated)"}, concurrency ${mode.concurrency ?? "?"}`)
+  reportInputProvenance()
   console.log(`  files compared   : ${files} of ${all.length} in the seam`)
   console.log(`  comparisons made : ${comparisons}   <- positive coverage count`)
   console.log(`  dates            : SKIPPED by design (git history); gated by quartz_dates_contract`)

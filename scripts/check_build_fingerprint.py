@@ -14,16 +14,8 @@ being a gate:
     "6,149 files changed bytes", which is equally true of a correct migration and a
     catastrophic one.
 
-It also had no non-triviality floor, which is the gap that matters most, because the
-other gates do not have one either:
-
-  * check_payload_budget.py computes html_file_count and only INTERPOLATES it into
-    f-strings -- it is never compared against anything, and every ceiling is a MAX;
-  * check_seo_parity.py samples 10 routes and scopes to the <article>.
-
-So a build that emitted a tenth of its pages passes the payload gate, the SEO gate and a
-byte ratchet simultaneously. Nothing in this repo currently says "you emitted 600 pages
-and you used to emit 6,149".
+It also had no non-triviality floor. The payload gate now has its own floors, and
+check_seo_parity.py samples 19 routes; neither replaces this named census.
 
 THIS FILE IS NOW THAT CHECK. It keeps the original's bundle-hash purpose, drops the
 duplicated tree walk (it now shares scripts/emit_fingerprint.py's one implementation, so
@@ -37,7 +29,29 @@ TIERS
           seeing pages, the floor fires instead of the comparison passing vacuously.
   Tier 1  CENSUS EQUALITY against the committed baseline: page count, per-archetype
           counts, JSON-LD blocks and their @type histogram, in-article links, the
-          structural markers, static/** count, and the three bundle hashes.
+          structural markers, static/** count, the three root bundle hashes, and
+          every static/neural/app/** file's name, byte size and SHA-256.
+
+APP INVENTORY AND BLIND SPOTS
+----------------------------
+The app inventory is derived from the shared filesystem walk, recursively and with
+no filename or extension allow-list. Its printed positive count must equal the number
+of named records. A rename is reported as REMOVED old name + ADDED new name, even if
+the count and bytes are unchanged. Empty, missing or malformed inventories fail.
+This asserts emitted copy integrity, not generation of golden-seeded files, runtime
+behavior, or byte parity outside these explicitly hashed regions. See
+emit_mutation_test.py --app-assets for same-size JS/CSS, add/remove/rename, nested-file
+and empty/corrupt-inventory controls. Browser behavior remains structurally INVISIBLE.
+
+Exact timestamp cardinalities for article:published_time and article:modified_time
+are retired (D-106), never re-seeded: checkout milliseconds are arbitrary, and many
+distinct values within one day do not prove date provenance. Presence remains in
+meta_keys; emit_diff.py still compares the actual Head fields. This gate does NOT yet
+assert date spread. X-01 must replace that gap with per-field distinct_days, span_days
+and max_day_share assertions; no threshold may be fitted to a baseline update.
+Restoring either retired row inside distinct_values is an INVALID baseline, even
+if a clean git merge produced it. --check-baseline checks this contract and the app
+inventory before any tree walk; it does not claim that a built site matches it.
 
 WHAT THIS IS NOT
 ----------------
@@ -54,6 +68,7 @@ USAGE
   python3 scripts/check_build_fingerprint.py --update   # (re)seed the committed census
   python3 scripts/check_build_fingerprint.py            # gate
   python3 scripts/check_build_fingerprint.py --floors-only   # Tier 0 only, no baseline
+  python3 scripts/check_build_fingerprint.py --check-baseline # merge/schema check, no build
 Stdlib only. Run after a build.
 """
 
@@ -63,6 +78,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -77,7 +93,11 @@ PUBLIC = ROOT / "source" / "public"
 BASELINE = ROOT / "tests" / "artifacts" / "build_fingerprint.json"
 
 BUNDLES = ("index.css", "prescript.js", "postscript.js")
-FORMAT = 2
+APP_PREFIX = "static/neural/app/"
+FORMAT = 3
+RETIRED_DATE_CARDINALITIES = frozenset((
+    "property=article:published_time", "property=article:modified_time",
+))
 
 # Capabilities that live INSIDE a bundle rather than in any page's markup, so no per-page
 # marker can see them. The bundle sha already catches any change, but a sha says only
@@ -127,6 +147,49 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
+def app_inventory(files: dict) -> dict:
+    """Project names and raw-byte proofs from the one filesystem scan, not a glob return."""
+    records = {name: {"bytes": rec.get("size"), "sha256": rec.get("sha")}
+               for name, rec in sorted(files.items()) if name.startswith(APP_PREFIX)}
+    return {"count": len(records), "files": records}
+
+
+def check_app_assets(record: dict, label: str) -> list[str]:
+    block = record.get("app_assets")
+    if not isinstance(block, dict) or not isinstance(block.get("files"), dict):
+        return [f"{label} app assets: missing or malformed inventory"]
+    files, count = block["files"], block.get("count")
+    problems = []
+    if type(count) is not int or count <= 0 or count != len(files):
+        problems.append(f"{label} app assets: count {count!r}, named files {len(files)}; "
+                        "must be equal and positive")
+    for name, item in files.items():
+        if (not name.startswith(APP_PREFIX) or not name[len(APP_PREFIX):]
+                or any(p in ("", ".", "..") for p in name.split("/"))):
+            problems.append(f"{label} app assets: invalid path {name!r}")
+        if (not isinstance(item, dict) or type(item.get("bytes")) is not int
+                or item["bytes"] < 0 or not isinstance(item.get("sha256"), str)
+                or not re.fullmatch(r"[0-9a-f]{64}", item["sha256"])):
+            problems.append(f"{label} app assets: invalid byte/hash proof for {name}")
+    return problems
+
+
+def check_baseline(base: dict) -> list[str]:
+    if not isinstance(base, dict):
+        return ["baseline must be a JSON object"]
+    problems = check_app_assets(base, "baseline")
+    if base.get("_meta", {}).get("format") != FORMAT:
+        problems.append(f"baseline format must be {FORMAT}; requires a reviewed migration")
+    values = base.get("distinct_values")
+    if not isinstance(values, dict):
+        problems.append("baseline distinct_values must be an object")
+    else:
+        for key in sorted(RETIRED_DATE_CARDINALITIES & values.keys()):
+            problems.append(f"baseline retired date row {key} reappeared in distinct_values; "
+                            "remove it, never re-seed its arbitrary cardinality")
+    return problems
+
+
 def capture(jobs: int, tree: Path = None) -> dict:
     tree = tree or PUBLIC
     if not tree.exists():
@@ -155,11 +218,13 @@ def capture(jobs: int, tree: Path = None) -> dict:
     return {
         "_meta": {"format": FORMAT},
         "bundles": bundles,
+        "app_assets": app_inventory(files),
         "bundle_tokens": bundle_tokens,
         "census": {k: cov.get(k, 0) for k in CENSUS_KEYS},
         "zeros": {k: cov.get(k, 0) for k in ZEROS},
         "markers": cov.get("markers", {}),
-        "distinct_values": cov.get("distinct_values", {}),
+        "distinct_values": {k: v for k, v in cov.get("distinct_values", {}).items()
+                            if k not in RETIRED_DATE_CARDINALITIES},
         "jsonld_types": cov.get("distinct_jsonld_types", {}),
         "meta_keys": cov.get("distinct_meta_keys", {}),
         "by_class": cov.get("by_class", {}),
@@ -168,15 +233,13 @@ def capture(jobs: int, tree: Path = None) -> dict:
 
 
 def check_floors(cur: dict) -> list[str]:
-    problems = []
+    problems = check_app_assets(cur, "candidate")
     for k, floor in FLOORS.items():
         got = cur["census"].get(k, 0)
         if got < floor:
             problems.append(
                 f"TIER 0: {k} = {got:,} is below the absolute floor {floor:,}. "
-                f"This build did not emit a whole site (or the walk stopped seeing it). "
-                f"No other gate in this repo reports this: check_payload_budget.py never "
-                f"compares its html_file_count, and check_seo_parity.py samples 10 routes.")
+                f"This build did not emit a whole site (or the walk stopped seeing it).")
     for k in ZEROS:
         got = cur["zeros"].get(k, 0)
         if got:
@@ -185,7 +248,22 @@ def check_floors(cur: dict) -> list[str]:
 
 
 def check_census(base: dict, cur: dict) -> list[str]:
-    problems = []
+    problems = check_baseline(base) + check_app_assets(cur, "candidate")
+    if not problems:
+        b_app, c_app = base["app_assets"], cur["app_assets"]
+        if b_app["count"] != c_app["count"]:
+            problems.append(f"app asset count: {b_app['count']} -> {c_app['count']}")
+        for name in sorted(set(b_app["files"]) | set(c_app["files"])):
+            b, c = b_app["files"].get(name), c_app["files"].get(name)
+            if b == c:
+                continue
+            if b is None:
+                problems.append(f"app asset {name}: ADDED ({c['bytes']:,} B; sha {c['sha256']})")
+            elif c is None:
+                problems.append(f"app asset {name}: REMOVED ({b['bytes']:,} B; sha {b['sha256']})")
+            else:
+                problems.append(f"app asset {name}: CHANGED — {b['bytes']:,} -> {c['bytes']:,} B; "
+                                f"sha {b['sha256']} -> {c['sha256']}")
     for name in BUNDLES:
         b, c = base["bundles"].get(name), cur["bundles"].get(name)
         if b == c:
@@ -218,12 +296,11 @@ def check_census(base: dict, cur: dict) -> list[str]:
             problems.append(f"marker {k}: on {bv:,} pages -> {cv:,} ({cv - bv:+,})")
 
     for k in sorted(set(base.get("distinct_values", {})) | set(cur.get("distinct_values", {}))):
+        if k in RETIRED_DATE_CARDINALITIES:
+            continue  # check_baseline rejects restoration; never compare these numbers.
         bv, cv = base.get("distinct_values", {}).get(k, 0), cur.get("distinct_values", {}).get(k, 0)
         if bv != cv:
-            extra = ("  <-- a COLLAPSE here means the field stopped varying; for "
-                     "article:modified_time that is the git-date lookup falling back to "
-                     "filesystem mtime" if cv < bv else "")
-            problems.append(f"distinct values of {k}: {bv:,} -> {cv:,}{extra}")
+            problems.append(f"distinct values of {k}: {bv:,} -> {cv:,}")
 
     for label, key in (("jsonld @type", "jsonld_types"), ("meta key", "meta_keys"),
                        ("file class", "by_class"), ("top-level dir", "by_dir")):
@@ -237,19 +314,46 @@ def check_census(base: dict, cur: dict) -> list[str]:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--update", action="store_true", help="(re)seed the committed census")
-    ap.add_argument("--floors-only", action="store_true",
-                    help="Tier 0 only; needs no baseline")
+    modes = ap.add_mutually_exclusive_group()
+    modes.add_argument("--update", action="store_true", help="(re)seed the committed census")
+    modes.add_argument("--floors-only", action="store_true",
+                       help="Tier 0 only; needs no baseline")
+    modes.add_argument("--check-baseline", action="store_true",
+                       help="validate baseline format/app inventory/retired rows only; no tree walk")
+    ap.add_argument("--baseline", type=Path, default=BASELINE,
+                    help="baseline to check or update (default committed census)")
     ap.add_argument("--jobs", type=int, default=min(8, (os.cpu_count() or 4)))
     ap.add_argument("--tree", help="emit directory to inspect (default source/public); "
                                    "use it to gate a snapshot rather than the live tree")
     a = ap.parse_args()
+
+    base = None
+    if not a.update and not a.floors_only:
+        try:
+            base = json.loads(a.baseline.read_text())
+        except (OSError, ValueError) as e:
+            sys.exit(f"ERROR: cannot read baseline {a.baseline}: {e}")
+        invalid = check_baseline(base)
+        if invalid:
+            for problem in invalid:
+                print("FAIL baseline:", problem)
+            sys.exit(1)
+        print(f"baseline contract: format={FORMAT}, app covered_files={base['app_assets']['count']}, "
+              f"retired_date_keys_absent={len(RETIRED_DATE_CARDINALITIES)}")
+        if a.check_baseline:
+            print("PASS baseline contract only; built_tree_files_scanned=0 (not site parity)")
+            return
 
     cur = capture(a.jobs, Path(a.tree) if a.tree else None)
     c = cur["census"]
     print(f"emit: {c['files']:,} files · {c['html_pages']:,} pages · "
           f"{c['jsonld_blocks']:,} JSON-LD blocks · {c['article_links']:,} in-article links "
           f"· {c['static_files']:,} static files")
+    print(f"app assets: covered_files={cur['app_assets']['count']} "
+          f"under {APP_PREFIX} (recursive names + bytes + SHA-256)")
+    print("  UNASSERTED: date spread for article:published_time and article:modified_time; "
+          "exact timestamp cardinality retired, awaiting X-01 spread gate. "
+          "Meta presence is still counted.")
 
     floors = check_floors(cur)
     if floors:
@@ -263,29 +367,21 @@ def main() -> None:
         return
 
     if a.update:
-        BASELINE.parent.mkdir(parents=True, exist_ok=True)
+        a.baseline.parent.mkdir(parents=True, exist_ok=True)
         cur["_note"] = (
             "Committed census for scripts/check_build_fingerprint.py. Re-seed with "
             "--update whenever the emit legitimately changes (content edits move "
             "article_links and the @type histogram), and say in the commit message what "
             "moved and why. This is the cheap shape gate; per-page byte/field comparison "
             "is scripts/emit_diff.py against an external golden snapshot.")
-        BASELINE.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
-        print(f"\n✓ census captured -> {BASELINE} "
-              f"({BASELINE.stat().st_size:,} B)")
+        a.baseline.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
+        print(f"\n✓ census captured -> {a.baseline} "
+              f"({a.baseline.stat().st_size:,} B)")
         for name in BUNDLES:
             b = cur["bundles"][name]
             if b:
                 print(f"    {name}: {b['bytes']:,} B  {b['sha256'][:12]}")
         return
-
-    if not BASELINE.exists():
-        sys.exit(f"ERROR: no baseline at {BASELINE}; run --update first "
-                 f"(or --floors-only to check Tier 0 alone)")
-    base = json.loads(BASELINE.read_text())
-    if base.get("_meta", {}).get("format") != FORMAT:
-        sys.exit(f"ERROR: baseline format {base.get('_meta', {}).get('format')} != {FORMAT}; "
-                 f"re-run --update")
 
     problems = check_census(base, cur)
     if problems:
@@ -302,7 +398,8 @@ def main() -> None:
     print(f"✓ build fingerprint OK — census equal on {len(CENSUS_KEYS)} counts, "
           f"{len(cur['markers'])} structural markers, "
           f"{len(cur['jsonld_types'])} JSON-LD @types, {len(cur['by_dir'])} top-level dirs, "
-          f"and {len(BUNDLES)} bundles byte-for-byte")
+          f"{len(BUNDLES)} root bundles and {cur['app_assets']['count']} named app assets "
+          f"byte-for-byte")
 
 
 # ---------------------------------------------------------------------------
