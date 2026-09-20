@@ -88,6 +88,7 @@ const REAL_IGNORE_PATTERNS = [
 const SNIPPET = `
 import { Static } from ${q("quartz/plugins/emitters/static")}
 import { Assets } from ${q("quartz/plugins/emitters/assets")}
+import { AliasRedirects } from ${q("quartz/plugins/emitters/aliases")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
 
 const args = JSON.parse(process.env.BJJ_PROBE_ARGS)
@@ -123,6 +124,13 @@ if (args.kind === "static") {
 if (args.kind === "assets") {
   process.chdir(args.root)
   out.returned = await Assets().emit(mkctx(args), [], emptyResources)
+}
+
+if (args.kind === "aliases") {
+  // AliasRedirects reads only slug, filePath and frontmatter off each tuple, so the fixture is
+  // plain page data rather than a parsed VFile. It is the REAL emitter and the REAL write().
+  const content = args.pages.map((p) => [null, { data: p }])
+  out.returned = await AliasRedirects().emit(mkctx(args), content, emptyResources)
 }
 
 if (args.kind === "write") {
@@ -397,5 +405,160 @@ test("write() materialises exact bytes at output/slug+ext, and resolves only onc
   console.log(
     `  [coverage] write(): ${checked} writes checked byte-for-byte, including one compound ` +
       `extension, one empty extension and one 5-level-deep new directory`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// AliasRedirects
+// ---------------------------------------------------------------------------------------------
+
+// The exact bytes of the one alias stub the corpus produces, lifted from
+// golden/build0/game-over.html: 380 bytes, sha256 8cd80df6285b67031a64929f62cd8333c2c61d035a9e0dc7
+// fe5b6ae6d2c151c4. The leading newline, the 12-space indentation and the unterminated trailing
+// line are all IN the emitted file — they come from the template literal in `aliases.ts` — so any
+// reformat of that literal silently changes the bytes this repo ships. Inlined rather than read
+// from the golden tree so the gate runs anywhere the repo is checked out.
+const GOLDEN_GAME_OVER_STUB =
+  "\n            <!DOCTYPE html>" +
+  "\n            <html lang=\"en-us\">" +
+  "\n            <head>" +
+  "\n            <title>Game-Over</title>" +
+  '\n            <link rel="canonical" href="../Game-Over">' +
+  '\n            <meta name="robots" content="noindex">' +
+  '\n            <meta charset="utf-8">' +
+  '\n            <meta http-equiv="refresh" content="0; url=../Game-Over">' +
+  "\n            </head>" +
+  "\n            </html>" +
+  "\n            "
+
+test("AliasRedirects reproduces the golden stub byte-for-byte, and covers the four branches the corpus never exercises", () => {
+  const root = tmp("bjj-aliases-")
+  const output = path.join(root, "out")
+  const contentDir = path.join(root, "content")
+
+  // One page per branch. Only the first has a witness in the real corpus: `content/Game Over.md`
+  // is the ONLY file in 4,600 carrying aliases or permalink, so permalink support, the
+  // trailing-slash rewrite and the directory prefix are contract (D-03) with no corpus evidence.
+  // A whole-tree diff against build0 therefore cannot see them break — measured by the contract
+  // pass: 5 of 10 one-line mutants of this emitter leave build0 byte-identical.
+  const pages = [
+    {
+      slug: "Game-Over",
+      filePath: path.join(contentDir, "Game Over.md"),
+      frontmatter: { title: "Game Over", aliases: ["game-over"] },
+    },
+    {
+      slug: "Deep/Nested/Page",
+      filePath: path.join(contentDir, "Deep", "Nested", "Page.md"),
+      frontmatter: { title: "Nested", aliases: ["sibling"] },
+    },
+    {
+      slug: "Perma",
+      filePath: path.join(contentDir, "Perma.md"),
+      frontmatter: { title: "Perma", permalink: "vanity/url" },
+    },
+    {
+      slug: "Slashy",
+      filePath: path.join(contentDir, "Slashy.md"),
+      frontmatter: { title: "Slashy", aliases: ["folder/"] },
+    },
+    {
+      slug: "Multi",
+      filePath: path.join(contentDir, "Multi.md"),
+      frontmatter: { title: "Multi", aliases: ["one", "two"] },
+    },
+    {
+      // permalink is declared `unknown` and AliasRedirects accepts ONLY strings. A number must
+      // emit nothing rather than a file called "42.html".
+      slug: "NotAString",
+      filePath: path.join(contentDir, "NotAString.md"),
+      frontmatter: { title: "NotAString", permalink: 42 },
+    },
+    {
+      // The <title> and the canonical are `simplifySlug(slug)`, not the raw slug. The two differ
+      // only when the slug ends in `/index`, which nothing in the corpus that carries an alias
+      // does — so without this page the `simplifySlug` call is a no-op everywhere it is observed
+      // and the mutant that deletes it survives. Measured: it did.
+      slug: "Section/index",
+      filePath: path.join(contentDir, "Section", "index.md"),
+      frontmatter: { title: "Section", aliases: ["sec-alias"] },
+    },
+    {
+      slug: "Plain",
+      filePath: path.join(contentDir, "Plain.md"),
+      frontmatter: { title: "Plain" },
+    },
+  ]
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({ kind: "aliases", root, directory: contentDir, output, pages }),
+    },
+    cwd: root,
+  })
+
+  const emitted = walk(output)
+  assert.ok(emitted.length > 0, "coverage floor: AliasRedirects emitted nothing from a fixture with six aliases")
+
+  assert.deepEqual(
+    emitted,
+    [
+      "Deep/Nested/sibling.html", // the alias is resolved relative to the aliasing FILE's directory
+      "Section/sec-alias.html", // simplifySlug() strips the trailing /index from the TARGET
+      "folder/index.html", // a trailing-slash alias becomes folder/index, not "folder/.html"
+      "game-over.html", // the one case the real corpus witnesses
+      "one.html", // two aliases on one page emit two stubs
+      "two.html",
+      "vanity/url.html", // a string permalink emits; the numeric one on NotAString does not
+    ],
+    "AliasRedirects emitted a different set than its branches predict",
+  )
+
+  // THE BYTE GATE: the real corpus case, reproduced exactly.
+  const stub = fs.readFileSync(path.join(output, "game-over.html"), "utf8")
+  assert.equal(
+    stub,
+    GOLDEN_GAME_OVER_STUB,
+    "the alias stub no longer matches golden/build0/game-over.html byte-for-byte",
+  )
+  assert.equal(Buffer.byteLength(stub, "utf8"), 380, "the alias stub is no longer 380 bytes")
+
+  // The redirect target climbs back out by the right number of levels. Note this repo's
+  // `util/path.ts` patches `pathToRoot` to emit one extra `..` versus upstream Quartz — measured,
+  // `pathToRoot("game-over") === ".."` where upstream gives "." — so the golden's `../Game-Over`
+  // is only correct because of that local patch. An upstream `pathToRoot` emits `./Game-Over` and
+  // a 378-byte stub, and the byte assertion above is what catches it.
+  const nested = fs.readFileSync(path.join(output, "Deep", "Nested", "sibling.html"), "utf8")
+  assert.match(
+    nested,
+    /href="\.\.\/\.\.\/\.\.\/Deep\/Nested\/Page"/,
+    "the 3-deep alias did not climb back to the site root before naming its target",
+  )
+  assert.equal(
+    (nested.match(/\.\.\//g) ?? []).length,
+    6,
+    "the nested stub no longer carries exactly two 3-level climbs (canonical + refresh)",
+  )
+
+  // The trailing-slash rewrite: `folder/` becomes `folder/index`, not a file literally named
+  // `folder/.html`.
+  assert.ok(fs.existsSync(path.join(output, "folder", "index.html")), "a trailing-slash alias did not become folder/index.html")
+
+  // simplifySlug is applied to the target, so an /index page's stub names the FOLDER, never
+  // `Section/index`. Deleting that call is invisible on every other page.
+  const sec = fs.readFileSync(path.join(output, "Section", "sec-alias.html"), "utf8")
+  assert.ok(
+    !sec.includes("Section/index"),
+    "the /index page's alias stub still names Section/index; simplifySlug() was lost on the target",
+  )
+
+  // A non-string permalink emits nothing at all.
+  assert.ok(!emitted.some((p) => p.includes("42")), "a numeric permalink produced a file")
+
+  const returned = value.returned ?? []
+  assert.equal(returned.length, emitted.length, "AliasRedirects' return value and its output disagree")
+  console.log(
+    `  [coverage] AliasRedirects: ${emitted.length} stubs from ${pages.length} fixture pages ` +
+      `(1 corpus-witnessed byte-exact, 4 branches with no corpus witness, 1 negative case)`,
   )
 })
