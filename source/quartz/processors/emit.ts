@@ -68,7 +68,60 @@ function serializeShard(shard: EmitShard, emitter: number, shardIndex: number): 
   console.log(
     `[emit:transport:shard] emitter=${emitter} renderPages=${shard.renderCount} residentPages=${shard.content.length} metadataPages=${shard.allFiles.length} sharedBytes=${bytes.length}`,
   )
-  return { emitter, content: shared, shardIndex }
+  return {
+    emitter,
+    content: shared,
+    shardIndex,
+    owned: shard.content.slice(0, shard.renderCount).map(([, file]) => file.data.slug!),
+  }
+}
+
+function validateShards(content: ProcessedContent[], shards: EmitShard[], concurrency: number) {
+  const originals = new Set(content)
+  const owned = new Set<ProcessedContent>()
+  if (shards.length === 0 || shards.length > concurrency) throw new Error("Invalid shard count")
+  for (const shard of shards) {
+    if (
+      !Number.isInteger(shard.renderCount) ||
+      shard.renderCount <= 0 ||
+      shard.renderCount > shard.content.length
+    ) {
+      throw new Error("Shard ownership coverage is zero or invalid")
+    }
+    const resident = new Set(shard.content)
+    if (
+      resident.size !== shard.content.length ||
+      shard.content.some((tuple) => !originals.has(tuple))
+    ) {
+      throw new Error("Shard resident tuples do not match the original corpus")
+    }
+    for (const tuple of shard.content.slice(0, shard.renderCount)) {
+      if (owned.has(tuple)) throw new Error("Duplicate shard output ownership")
+      owned.add(tuple)
+    }
+    if (shard.allFiles.length !== content.length)
+      throw new Error("Shard metadata coverage is incomplete")
+    for (const [index, tuple] of content.entries()) {
+      const original = tuple[1].data
+      const metadata = shard.allFiles[index]
+      const omitted = resident.has(tuple) ? [] : ["htmlAst", "blocks"]
+      const keys = Object.keys(original).filter((key) => !omitted.includes(key))
+      if (
+        Object.keys(metadata).length !== keys.length ||
+        keys.some((key) => !Object.is(metadata[key], original[key]))
+      ) {
+        throw new Error(`Shard metadata changed at corpus index ${index}`)
+      }
+      if (resident.has(tuple) && metadata !== original)
+        throw new Error("Shard roster lost tuple identity")
+    }
+  }
+  if (owned.size !== content.length)
+    throw new Error(`Shard ownership coverage ${owned.size}/${content.length}`)
+  const resident = shards.reduce((count, shard) => count + shard.content.length, 0)
+  console.log(
+    `[emit:coverage:plan] owned=${owned.size}/${content.length} shards=${shards.length} residentTuples=${resident} duplication=${(resident / content.length).toFixed(3)}`,
+  )
 }
 
 export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
@@ -145,11 +198,11 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     console.log(
       `[emit:transport:start] pages=${content.length} memory=${JSON.stringify(process.memoryUsage())}`,
     )
-    const tasks = sharded.flatMap((index) =>
-      partitionContent(content, concurrency).map((shard, shardIndex) =>
-        serializeShard(shard, index, shardIndex),
-      ),
-    )
+    const tasks = sharded.flatMap((index) => {
+      const shards = partitionContent(content, concurrency)
+      validateShards(content, shards, concurrency)
+      return shards.map((shard, shardIndex) => serializeShard(shard, index, shardIndex))
+    })
     const totalBytes = tasks.reduce((sum, task) => sum + task.content.byteLength, 0)
     const maxBytes = tasks.reduce((max, task) => Math.max(max, task.content.byteLength), 0)
     console.log(
@@ -166,6 +219,14 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
           buildId: ctx.buildId,
           argv,
           allSlugs: ctx.allSlugs,
+          // Independent filtered-corpus manifest: allSlugs includes drafts/assets and
+          // must not stand in for this exact ordered publication set.
+          corpus: content.map(([, file]) => ({
+            slug: file.data.slug!,
+            treeFields: (["htmlAst", "blocks"] as const).filter(
+              (field) => file.data[field] !== undefined,
+            ),
+          })),
           resources,
         },
         tasks,
