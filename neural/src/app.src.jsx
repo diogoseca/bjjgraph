@@ -1,6 +1,11 @@
 // Resting colour of the landing card's More/Less toggle. ONE source, because the two sites that
 // write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
 // once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
+// THE CONTENTS ROW'S LABELS FOR THE SECTIONS THAT HAVE NONE (v1.194.0). `def`, `aka` and
+// `safety-notice` are emitted without an <h3> — they are the document's opening voice — but a
+// contents list that cannot address the first thing in the document is not a contents list.
+// `def` is present on 100% of seats and `safety-notice` is first on every submission.
+const NG_READ_NAV = { def: "Definition", aka: "Names", "safety-notice": "Safety notice" };
 const NG_LAND_MORE_COL = "#7e8aa3";
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
@@ -3514,7 +3519,7 @@ class Component extends DCLogic {
         const top = anchor && anchor.getBoundingClientRect().top;
         body._ngMoreSections = sections;
         // A collapsed body is invalidated without doing the long render nobody asked for.
-        body.innerHTML = this._landOpen ? this._readingHTML(sections, "land") : "";
+        if (this._landOpen) this._paintRead(row, body); else body.innerHTML = "";
         this._dockLandMore(owner.card);
         if (this._landOpen) {
           this._readApply(offset);
@@ -4772,6 +4777,12 @@ class Component extends DCLogic {
       head.querySelector("[data-sheet-alias-slot]").innerHTML = aliases.length ? this._readingHTML([{ key: "aka", kind: "aliases", value: aliases }], "sheet") : "";
     };
     renderBody();
+    // THE SHEET IS THE SECOND CONSUMER OF THE READING RENDERER, so it needs the same deferred
+    // stylesheet (v1.194.0). It is reached mid-roll by tapping a move in the hand, which may
+    // happen before the fold has ever been opened — the shared `_ensureReadCSS` guard means one
+    // fetch serves both surfaces whichever is opened first. The sheet has its own scroller and
+    // its own close, so it gets the reading SYSTEM but not the fold's contents row.
+    this._ensureReadCSS();
     scroller.appendChild(body);
     // film-first: auto-open the first Short (muted) once the sheet settles — the film row is
     // the sheet's hero now that the clip corpus is triaged. Journeys drive watchShort()
@@ -13376,17 +13387,31 @@ class Component extends DCLogic {
     if (!sections.length) return;
     const moreRow = document.createElement("div");
     moreRow.className = "ng-landmore";
-    moreRow.innerHTML = '<div><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div>' +
+    // THE HEAD IS NAMED, AND EVERY LOOKUP RESOLVES BY ATTRIBUTE (v1.194.0). It used to be
+    // `row.firstChild.firstChild` in expandLandCard — put anything beside the button and that
+    // expression returns the wrapper, and the `textContent` write below it deletes the button
+    // AND the contents row. Reproduced during review: 0 buttons and 0 navs survived opening.
+    moreRow.innerHTML = '<div class=r-bar data-read-bar><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div>' +
       '<div id="ng-land-more" data-land-more-body role="region" aria-label="More about this state" tabindex="0" style="display:none;outline-offset:4px;"></div>';
-    const moreHead = moreRow.firstChild, more = moreHead.firstChild;
-    moreHead.style.cssText = "position:relative;height:38px;display:flex;justify-content:center;";
-    moreRow.lastChild._ngMoreSections = sections;
+    const moreHead = moreRow.querySelector("[data-read-bar]"), more = moreRow.querySelector("[data-land-more]");
+    moreHead.style.cssText = "position:relative;height:38px;display:flex;align-items:center;gap:12px;";
+    moreRow.querySelector("[data-land-more-body]")._ngMoreSections = sections;
     // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
-    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;margin-left:auto;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
     more.onclick = (e) => {
       e.stopPropagation(); this.expandLandCard();
-      if (e.detail === 0 && this._landOpen) moreRow.lastChild.focus({ preventScroll: true });
+      if (e.detail === 0 && this._landOpen) moreRow.querySelector("[data-land-more-body]").focus({ preventScroll: true });
     };
+    // ONE DELEGATED LISTENER on the row itself. The row is already in `_landSurfaces()`, so
+    // `attachInput`'s pointerdown guard covers everything inside it — a control on a NEW
+    // root-plane sibling would be dead to a real mouse while `locator.click()` still passed.
+    // The buttons also carry `pointer-events:auto` inline, because the row rests at "none".
+    moreRow.addEventListener("click", (e) => {
+      const t = e.target && e.target.closest && e.target.closest("[data-read-to]");
+      if (!t) return;
+      e.stopPropagation();
+      this._navJump(t.getAttribute("data-read-to"));
+    });
     (this.__ngRoot || document.body).appendChild(moreRow);
     this._landMoreEl = moreRow;
     this._readTouch(moreRow);   // a phone reads by dragging the card it is reading
@@ -13463,12 +13488,20 @@ class Component extends DCLogic {
   expandLandCard(open) {
     const el = this._landEl, row = this._landMoreEl;
     if (!el || !row) return false;
-    const body = row.lastChild, btn = row.firstChild.firstChild;
+    const body = row.querySelector("[data-land-more-body]"), btn = row.querySelector("[data-land-more]");
+    if (!body || !btn) return false;
     const want = open == null ? !this._landOpen : !!open;
     if (want && !this._landOpen) this._readS = 0;   // a fresh read starts at the top; a rebuild keeps its place
     this._landOpen = want;
     row.classList.toggle("open", want);
-    if (want && !body.firstChild && body._ngMoreSections) body.innerHTML = this._readingHTML(body._ngMoreSections, "land");
+    // AWAIT THE DEFERRED STYLESHEET BEFORE WRITING THE BODY, or the reader gets a frame of
+    // browser-default 16px black text on a dark card. Re-check on resolve: the reader may have
+    // closed, or the seat may have changed, while the fetch was in flight.
+    if (want && !body.firstChild && body._ngMoreSections) this._ensureReadCSS().then(() => {
+      if (!this._landOpen || body.firstChild || !body._ngMoreSections || row !== this._landMoreEl) return;
+      this._paintRead(row, body);
+      this._dockLandCard(this._landEl);
+    });
     body.style.display = want ? "block" : "none";
     row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
     if (want) {
@@ -13482,7 +13515,11 @@ class Component extends DCLogic {
       if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
     }
     btn.setAttribute("aria-expanded", String(want));
-    btn.textContent = want ? "Less" : "More";
+    // Named for the CONTENT, not for what pressing it does to itself. Owner: "The Less button
+    // sounds weird." The words live in the accessible name; the glyph is the app's one close
+    // idiom, the same ghost ✕ the question card's own corner uses.
+    btn.textContent = want ? "\u2715" : "More";
+    btn.setAttribute("aria-label", want ? "Close the reading panel" : "Read more about this state");
     // Restore the declared resting colour rather than deleting the inline declaration.
     btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
     this._dockLandCard(el);
@@ -13543,6 +13580,7 @@ class Component extends DCLogic {
       const middle = (Math.max(16, top) + Math.min(H - 16, top + height)) / 2 - top;
       nav.style.setProperty("--guide-y", Math.max(22, Math.min(height - 22, middle)) + "px");
     }
+    this._navMark();   // the column moved: the contents row says where the reader now is
     const push = max - s;
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = (this._landDatum().tray - push) + "px";
@@ -13716,29 +13754,182 @@ class Component extends DCLogic {
     if (family && family.aka && family.aka.length) rows.push([family.name + " family · also known as", family.aka]);
     return rows;
   }
+  /**
+   * THE READING RENDERER. Styles live in neural/src/reading.css, which is DEFERRED — see the
+   * note at the top of that file. Everything here emits classes; nothing emits a style
+   * attribute, because 24 kinds sharing one inline template is what made this read as slop.
+   *
+   * `prim` on note() is the panel's upheld rule: TEXT THAT DETERMINES A CHOICE THE PLAYER IS
+   * ABOUT TO MAKE IS PRIMARY (.r-p); TEXT THAT EXPLAINS A CHOICE ALREADY MADE IS SUPPORTING
+   * (.r-d). So a defensive option's `when` and a decision branch's actions are primary — they
+   * are the decision content on the defender seat, which is 45.4% of all seats — while a
+   * mistake's consequence, a variation note and a drill duration are not.
+   */
   _readingHTML(sections, prefix) {
     const E = (x) => this.escHTML(x);
-    const list = (xs, ordered) => '<' + (ordered ? 'ol' : 'ul') + ' style="margin:0;padding-left:20px;">' + xs.map((x) => '<li style="margin:0 0 7px;">' + E(x) + '</li>').join('') + '</' + (ordered ? 'ol' : 'ul') + '>';
-    const note = (name, text) => '<div style="margin-bottom:9px;"><strong>' + E(name) + '</strong>' + (text ? '<div style="color:#aeb9d4;margin-top:3px;">' + E(text) + '</div>' : '') + '</div>';
+    const list = (xs, ordered) => '<' + (ordered ? 'ol' : 'ul') + '>' + xs.map((x) => '<li>' + E(x) + '</li>').join('') + '</' + (ordered ? 'ol' : 'ul') + '>';
+    const note = (name, text, prim) => '<div class=r-n><strong>' + E(name) + '</strong>' + (text ? '<div class=' + (prim ? 'r-p' : 'r-d') + '>' + E(text) + '</div>' : '') + '</div>';
     return sections.map((s) => {
       const v = s.value;
       let body = '';
       if (s.kind === "text") body = E(v).replace(/\n+/g, '<br>');
-      else if (s.kind === "list" || s.kind === "steps") body = list(v, s.kind === "steps");
-      else if (s.kind === "aliases") body = v.map((x) => '<div><span style="color:#aeb9d4;">' + E(x[0]) + ': </span><strong>' + x[1].map(E).join(' · ') + '</strong></div>').join('');
-      else if (s.kind === "facts") body = '<dl style="display:flex;flex-wrap:wrap;gap:8px 16px;margin:0;">' + v.map((x) => '<div><dt style="display:inline;color:#aeb9d4;">' + E(x[0]) + ': </dt><dd style="display:inline;margin:0;">' + E(x[1]) + '</dd></div>').join('') + '</dl>';
+      else if (s.kind === "list") body = list(v, false);
+      // THE STRUCTURE WAS IN THE DATA THE WHOLE TIME. `_neural_content.py` joins an authored
+      // action and description with ": " on 9,087 of 9,090 steps (100.0%), action median 28
+      // chars and description median 333 — and this used to print the join as one <li>. The
+      // worst is 804 characters, ~9 lines at phone width. Split it back; fall through to the
+      // raw string on the 3 that do not carry the shape, never a guess.
+      else if (s.kind === "steps") body = '<ol class=r-steps>' + v.map((x) => {
+        const m = String(x).match(/^([^:]{3,80}): ([\s\S]+)$/);
+        // THE DELIMITER IS CONTENT, NOT PUNCTUATION THE LAYOUT CAN EAT. A first cut emitted
+        // `<b>action</b>description` and silently dropped ": " from every step on every
+        // technique seat — three existing specs caught it by asserting the authored string.
+        // Reconstructing "<action>: <description>" exactly keeps the text a reader can copy.
+        return '<li>' + (m ? '<b>' + E(m[1]) + ':</b> ' + E(m[2]) : E(x)) + '</li>';
+      }).join('') + '</ol>';
+      else if (s.kind === "aliases") body = v.map((x) => '<div><span class=r-d>' + E(x[0]) + ': </span><strong>' + x[1].map(E).join(' · ') + '</strong></div>').join('');
+      else if (s.kind === "facts") body = '<dl>' + v.map((x) => '<div><dt>' + E(x[0]) + ': </dt><dd>' + E(x[1]) + '</dd></div>').join('') + '</dl>';
       else if (s.kind === "confuse") body = v.map((x) => note((x.family ? x.family + ' family: ' : '') + x.n, x.why)).join('');
       else if (s.kind === "notes") body = v.map((x) => note(x[0], x[1])).join('');
-      else if (s.kind === "tree") body = v.map((d) => note('If ' + d.cond + ':', (d.acts || []).map((a) => a[0] + (a[2] ? ' → ' + a[2] : '')).join(' · '))).join('');
-      else if (s.kind === "options") body = v.map((o) => '<div style="margin-bottom:12px;">' + note(o.move, o.when) + (o.leadsTo ? '<div>→ ' + E(o.leadsTo) + '</div>' : '') + '</div>').join('');
+      // THE DOUBLED "If", AND IT IS THREE CLASSES NOT ONE. Measured over 1,161 authored
+      // branches: 1,049 (90.4%) already start "If " and used to render "If If ..."; 70 (6.0%)
+      // start "Else if " and rendered "If Else if ..."; 42 (3.6%) are bare statements where
+      // this prefix is CORRECT AND REQUIRED. Deleting the prefix outright fixes 1,049 and
+      // breaks 42, which is why neither single fix works. "Or if" is honest for the 70 without
+      // claiming the sequence the flattened render cannot express.
+      else if (s.kind === "tree") body = v.map((d) => {
+        const c = String(d.cond || '').replace(/^\s*else\s+if\s+/i, 'Or if ').replace(/^\s*if\s+/i, 'If ');
+        return note((/^(?:If|Or if)\b/.test(c) ? c : 'If ' + c) + ':', (d.acts || []).map((a) => a[0] + (a[2] ? ' → ' + a[2] : '')).join(' · '), 1);
+      }).join('');
+      else if (s.kind === "options") body = v.map((o) => '<div class=r-b>' + note(o.move, o.when, 1) + (o.leadsTo ? '<div class=r-g>→ ' + E(o.leadsTo) + '</div>' : '') + '</div>').join('');
       else if (s.kind === "outcomes") body = v.map((o) => note(o.result + (o.position ? ' → ' + o.position : ''), o.prob != null ? o.prob + '%' : '')).join('');
-      else if (s.kind === "mistakes") body = v.map((m) => '<div style="margin-bottom:12px;"><div style="color:#e8b89c;">' + E(m.err) + '</div>' + (m.why ? '<div><strong>Why it matters:</strong> ' + E(m.why) + '</div>' : '') + '<div style="color:#a4d8bc;"><strong>Correction:</strong> ' + E(m.fix) + '</div></div>').join('');
+      // The kickers stay. The shipped render labelled these "Why it matters:" and "Correction:"
+      // in body-weight bold, which competed with the sentence; dropping them entirely would make
+      // the reader infer three roles from colour alone, and colour is the one channel a
+      // colour-blind reader does not have. They become micro-caps: present, and not shouting.
+      else if (s.kind === "mistakes") body = v.map((m) => '<div class=r-b><div class=r-e>' + E(m.err) + '</div>' + (m.why ? '<div class=r-d><b class=r-k>Why</b>' + E(m.why) + '</div>' : '') + '<div class=r-f><b class=r-k>Fix</b>' + E(m.fix) + '</div></div>').join('');
       else if (s.kind === "safety") {
         const labels = { risks: "Injury risks", speed: "Application", tap: "Tap signals", release: "Release protocol", restrictions: "Training restrictions" };
-        body = v.map(([k, values]) => '<div data-safety-' + k + ' style="margin-bottom:12px;"><h4 style="font-size:13px;margin:0 0 7px;">' + labels[k] + '</h4>' + (k === "speed" ? E(values) : (k === "risks" ? list(values.map((r) => r.i + ' — ' + r.sev)) : list(values, k === "release"))) + '</div>').join('');
+        body = v.map(([k, values]) => '<div class=r-b data-safety-' + k + '><h4>' + labels[k] + '</h4>' + (k === "speed" ? E(values) : (k === "risks" ? list(values.map((r) => r.i + ' — ' + r.sev)) : list(values, k === "release"))) + '</div>').join('');
       }
-      return '<section data-' + prefix + '-' + s.key + '="1" style="font-size:13px;line-height:1.55;color:#cdd5e6;overflow-wrap:anywhere;margin:0 0 18px;' + (s.key === "safety" || s.key === "safety-notice" ? 'border-left:2px solid #b98b63;padding-left:12px;' : '') + '">' + (s.label ? '<h3 style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#9cacc7;margin:0 0 8px;">' + E(s.label) + '</h3>' : '') + body + '</section>';
+      // tabindex="-1" is load-bearing: a contents click calls focus({preventScroll:true}) on
+      // the section, and without it focus moves nothing. The data-<prefix>-<key> hook stays
+      // exactly as it was — `_refreshReadingContent` reads that attribute NAME to keep the
+      // reader's place across a late dossier, so renaming or nesting it breaks place-keeping.
+      return '<section class="r-s' + (s.key === "safety" || s.key === "safety-notice" ? ' r-w' : '') + '" tabindex="-1" data-' + prefix + '-' + s.key + '="1">' + (s.label ? '<h3>' + E(s.label) + '</h3>' : '') + body + '</section>';
     }).join('');
+  }
+  /**
+   * THE DEFERRED READING STYLESHEET'S LOADER.
+   *
+   * reading.css is not in the boot payload (see neural/src/reading.css). This fetches it on the
+   * first deliberate press of More, which is always after the first hand.
+   *
+   * IT DOES NOT COPY `_ensureSystems`/`_ensureConcepts`, WHICH CACHE FAILURE: those guard on a
+   * stored promise and fold a failed fetch into a resolved one, so a single network blip makes
+   * the fold unstyled for the rest of the session. This copies `_hydrateContent`'s posture
+   * instead — a failure DROPS the wait so the next open refetches. An answer and a failure must
+   * not look the same (§6.6).
+   *
+   * HONEST ABOUT THE COST: the dossier is already warm by this point (it is read at landing and
+   * cached on the body when the More control is built), so this is a genuinely NEW wait on the
+   * first press, not one hidden behind an existing fetch. It is one small same-origin file, and
+   * awaiting it is what buys no unstyled frame. Prefetching it at landing would put it back on
+   * the first-hand payload bill, which is the whole thing the deferral exists to avoid.
+   */
+  _ensureReadCSS() {
+    if (this._readCssP) return this._readCssP;
+    return (this._readCssP = new Promise((res) => {
+      const l = document.createElement("link");
+      l.rel = "stylesheet";
+      l.href = this._dataBase() + "app/reading.css";
+      l.setAttribute("spa-preserve", "");   // survive head-patching across SPA navs
+      l.onload = () => res(1);
+      l.onerror = () => { l.remove(); this._readCssP = null; res(0); };
+      document.head.appendChild(l);
+    }));
+  }
+  /**
+   * THE CONTENTS ROW — one emitter, beside the body's.
+   *
+   * The owner's model, verbatim: "a long list like it used to happen with quartz. the toc clicks
+   * would scroll to the appropriate position ... in mobile that will probably mean tabs in a
+   * single row, with horizontal scrolling". One continuous document; nothing is paged or hidden.
+   *
+   * ONE ENTRY PER TOP-LEVEL SECTION, NO OMISSIONS. Filtering to sections that happen to carry a
+   * label drops `def` (100% of seats) and a submission's `safety-notice`, i.e. the first thing
+   * the reader sees. `safety`'s five subgroups stay INSIDE safety rather than competing in this
+   * row — five more entries would make a submission's contents 40% safety.
+   *
+   * WHY THIS LIVES HERE AND NOT IN `expandLandCard`: "what are this document's sections" must be
+   * answered in ONE place. `_refreshReadingContent` re-renders the body when a late dossier
+   * lands; it calls this too, so the index can never describe a document the body no longer
+   * shows, and no handler is left on a detached node. Collapse before the third caller (§6.5).
+   */
+  _readingNav(sections) {
+    if (sections.length < 3) return "";
+    return '<nav class=r-toc data-read-nav aria-label="Guide contents">' + sections.map((x) =>
+      '<button class=r-t type=button data-read-to="' + this.escHTML(x.key) + '" style="pointer-events:auto;">' +
+      this.escHTML(x.label || NG_READ_NAV[x.key] || x.key) + "</button>").join("") + "</nav>";
+  }
+  /**
+   * THE ONE PAINT. The body and its index are written together, from the same section list, by
+   * this function and nothing else — `expandLandCard` on first open and `_refreshReadingContent`
+   * when a late dossier lands. Two writers would let the index describe a document the body no
+   * longer shows; a delayed chunk that adds a section is the ordinary case, not an edge one.
+   */
+  _paintRead(row, body) {
+    const sections = body._ngMoreSections || [];
+    body.innerHTML = this._readingHTML(sections, "land");
+    const bar = row.querySelector("[data-read-bar]"), btn = row.querySelector("[data-land-more]");
+    if (!bar || !btn) return;
+    const old = bar.querySelector("[data-read-nav]");
+    if (old) old.remove();
+    btn.insertAdjacentHTML("beforebegin", this._readingNav(sections));
+    this._navMark();
+  }
+  /** Where a jumped-to section should come to rest: just under the head, plus one rhythm unit. */
+  _navPin() {
+    const bar = this._landMoreEl && this._landMoreEl.querySelector("[data-read-bar]");
+    return bar ? Math.round(bar.getBoundingClientRect().bottom) + 12 : 0;
+  }
+  /**
+   * `scrollIntoView` DOES NOTHING HERE. The open fold is `overflow:visible` with no scrollport —
+   * reading TRANSLATES the whole landing column via `_readApply`. This is the same arithmetic
+   * `_refreshReadingContent` already uses to keep the reader's place, with a click on it.
+   */
+  _navJump(key) {
+    const row = this._landMoreEl; if (!row) return;
+    const body = row.querySelector("[data-land-more-body]");
+    const el = body && body.querySelector("[data-land-" + key + "]"); if (!el) return;
+    this._readStop();
+    this._readApply((this._readS || 0) + el.getBoundingClientRect().top - this._navPin());
+    if (el.focus) try { el.focus({ preventScroll: true }); } catch (e) {}
+    this._navMark();
+  }
+  /**
+   * Which section is being read. Quartz's own TOC does this by weighting each entry's opacity by
+   * how much of its section is on screen; that is its reference and the idea is the same, but the
+   * implementation cannot be — Quartz listens to `scroll` and this column has no scroll events,
+   * only a transform. So it is driven from `_readApply`, off rects the frame already settled.
+   */
+  _navMark() {
+    const row = this._landMoreEl; if (!row) return;
+    const nav = row.querySelector("[data-read-nav]"), body = row.querySelector("[data-land-more-body]");
+    if (!nav || !body) return;
+    const pin = this._navPin();
+    let best = null, bestTop = -Infinity;
+    for (const sec of body.children) {
+      const t = sec.getBoundingClientRect().top;
+      if (t <= pin + 4 && t > bestTop) { bestTop = t; best = sec; }
+    }
+    const attr = best && Array.from(best.attributes).find((a) => a.name.indexOf("data-land-") === 0);
+    const key = attr ? attr.name.slice(10) : null;
+    for (const b of nav.children) {
+      b.setAttribute("aria-current", key && b.getAttribute("data-read-to") === key ? "location" : "false");
+    }
+    const on = nav.querySelector('[aria-current="location"]');
+    if (on) nav.scrollLeft = on.offsetLeft - nav.clientWidth / 2 + on.clientWidth / 2;
   }
   _landMoreSections(node, side) { return this._readingSections(node, this.ngContentFor(node), side, false); }
   _landMoreHTML(node, side) { return this._readingHTML(this._landMoreSections(node, side), "land"); }

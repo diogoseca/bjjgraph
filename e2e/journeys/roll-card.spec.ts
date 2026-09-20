@@ -262,7 +262,12 @@ test("More grows into a long second card and the whole column scrolls, hand push
   expect(open.S, "a fresh read starts at the top").toBe(0)
   expect(open.detailDisplay).toBe("block")
   expect(open.detailText, "with real content").toBeGreaterThan(0)
-  expect(open.label).toContain("Less")
+  // v1.194.0: the control is no longer labelled for the ACTION. Owner: "The Less button sounds
+  // weird and is weirdly placed there." The glyph is now the app's one close idiom and the words
+  // moved to the accessible name — which is the contract worth gating, and which nothing gated
+  // before. Asserting the visible string "Less" would pin the very thing he asked to remove.
+  await expect(page.locator("[data-land-more]"), "the close control says what it does, to a screen reader")
+    .toHaveAttribute("aria-label", "Close the reading panel")
   expect(open.aria).toBe("true")
   expect(open.card, "More does not move, resize or scroll the landing card").toEqual(before.card)
   expect(open.cardScrollTop).toBe(before.cardScrollTop)

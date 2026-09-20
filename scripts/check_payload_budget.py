@@ -141,7 +141,20 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 #     renders one of those two sections. Its readable BODIES are not here at all — they live in
 #     the per-node content/ chunk space, so they are already scored as on-demand chunks.
 #   · aliases.json — exact-site naming metadata, fetched when Explore/search is used.
-DEFERRED = ("systems.json", "concepts.json", "aliases.json")
+#   · app/reading.css — the More fold's stylesheet (v1.194.0): fetched by `_ensureReadCSS()` on
+#     the first deliberate press of More, which is always after the first hand. Never imported
+#     at boot, never prefetched — a prefetch would put it back on the first-hand bill. The
+#     browser gate bans it from boot by name (payload-first-hand.spec.ts BANNED_ON_BOOT), and
+#     neural/build/build.mjs asserts its rules are present there AND absent from neural.css.
+# ONE ENTRY PER LINE, and the trailing comma is load-bearing: every branch that defers a new
+# artifact then ADDS a line instead of rewriting the one line everybody else also rewrote.
+# Two branches invented a deferred stylesheet a week apart and collided here on nothing.
+DEFERRED = (
+    "systems.json",
+    "concepts.json",
+    "aliases.json",
+    "app/reading.css",
+)
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
