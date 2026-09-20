@@ -195,6 +195,37 @@ if (args.kind === "folderpage") {
   out.returned = await FolderPage().emit(ctx, content, emptyResources)
 }
 
+if (args.kind === "resourceorder") {
+  // Fake emitters returning fake components, so the ORDER and DEDUP rules are observable without
+  // pinning any real component's bytes — D is actively changing those, and a hash pin would go
+  // red on their work rather than on a regression here.
+  // PRODUCTION SHAPE, and it is the whole point of this fixture. Each emitter factory calls its
+  // own HeaderConstructor()/BodyConstructor(), so the SAME component appears as DIFFERENT OBJECTS
+  // carrying identical css - while quartz.layout.ts sharedPageComponents are constructed once and
+  // are the same object everywhere. Both cases exist, so the fixture builds both: "shared" is one
+  // object reused, everything else is a fresh object per sighting.
+  const mk = (name, css) => Object.assign(() => null, { css, __name: name })
+  const sharedInstances = {}
+  const comp = (name) => {
+    const css = args.components[name]
+    if (name === "shared") return (sharedInstances[name] ||= mk(name, css))
+    return mk(name, css)
+  }
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = realConfig.configuration
+  ctx.cfg.plugins = {
+    transformers: [],
+    filters: [],
+    emitters: args.emitterComponents.map((names, i) => ({
+      name: "Fake" + i,
+      getQuartzComponents: () => names.map((n) => comp(n)),
+      emit: async () => [],
+    })),
+  }
+  out.returned = await ComponentResources().emit(ctx, [], emptyResources)
+  out.css = fs.readFileSync(path.join(args.output, "index.css"), "utf8")
+}
+
 if (args.kind === "contentpage") {
   const content = args.pages.map((p) => defaultProcessedContent(p))
   const ctx = mkctx(args)
@@ -1157,5 +1188,94 @@ test("ContentPage writes every page including the partial final batch, at pathTo
     `  [coverage] ContentPage: ${emitted.length} pages written (${Math.floor(pages.length / 64)} ` +
       `full batch of 64 + ${pages.length % 64} in the final flush), 1 case-variant pair kept ` +
       `distinct, resources page-relative`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// ComponentResources — first-seen order and dedup across getQuartzComponents
+// ---------------------------------------------------------------------------------------------
+
+// "Resource order is byte-significant" is stated in INTERFACE.md §4 and §5 and is not gated
+// anywhere. It is the rule that decides index.css and postscript.js byte-for-byte: components are
+// collected by walking EVERY configured emitter's getQuartzComponents in configured order and
+// adding them to a Set, so a component reached by two emitters contributes ONCE, at the position
+// of its FIRST appearance.
+//
+// This asserts the PROPERTY with fake components rather than pinning real bytes. A hash of the
+// real index.css would be red every time stream D touches a stylesheet, which is their job — the
+// thing that must not change is the rule, not today's output of it.
+//
+// DECLARED NON-KILL, and it took three mutants to understand rather than one:
+// replacing the component-identity `Set<QuartzComponent>` with a plain array — i.e. removing the
+// first dedup layer entirely — leaves this test GREEN, and that is correct. There are TWO dedup
+// layers and only the second is observable: `componentResources.css` / `.beforeDOMLoaded` /
+// `.afterDOMLoaded` are `Set<string>`, so identical css dedups by VALUE no matter how many times
+// its component is collected. Removing THAT layer does turn this red (mutant RO4).
+//
+// The identity Set is in fact near-useless in production, which is the part worth writing down:
+// every emitter factory calls its OWN `HeaderConstructor()` / `BodyConstructor()`, so "the Header
+// component" is a DIFFERENT OBJECT in ContentPage and in FolderPage and the identity Set never
+// matches them. It only ever dedups `quartz.layout.ts`'s `sharedPageComponents` singletons — which
+// the string Set would dedup anyway. The fixture reproduces both shapes deliberately ("shared" is
+// one reused object, "gamma" is two distinct objects with identical css) so the claim rests on the
+// layer that actually does the work.
+
+test("ComponentResources collects components in first-seen order across emitters, once each", () => {
+  const root = tmp("bjj-resorder-")
+  const output = path.join(root, "out")
+
+  const components = {
+    shared: ".ord-shared{color:#101010}", // one object, reused — the sharedPageComponents case
+    beta: ".ord-beta{color:#202020}",
+    gamma: ".ord-gamma{color:#303030}", // fresh object per sighting — the HeaderConstructor case
+    delta: ".ord-delta{color:#404040}",
+  }
+  // `shared` is sighted by all three emitters as ONE object; `gamma` by two emitters as TWO
+  // DISTINCT objects with identical css. Both must appear exactly once, at the position of their
+  // first sighting: emitter 0 for shared, emitter 1 for gamma.
+  const emitterComponents = [
+    ["shared", "beta"],
+    ["gamma", "shared"],
+    ["shared", "delta", "gamma"],
+  ]
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({ kind: "resourceorder", root, output, components, emitterComponents }),
+    },
+    cwd: root,
+  })
+
+  const css = value.css
+  assert.ok(css.length > 0, "coverage floor: index.css is empty")
+
+  const positions = Object.keys(components).map((name) => ({
+    name,
+    at: css.indexOf(`.ord-${name}`),
+    count: (css.match(new RegExp(`\\.ord-${name}\\b`, "g")) ?? []).length,
+  }))
+
+  for (const p of positions) {
+    assert.ok(p.at >= 0, `component ${p.name}'s css never reached index.css`)
+    assert.equal(
+      p.count,
+      1,
+      `component ${p.name} appears ${p.count} times in index.css; the Set dedup by component ` +
+        `identity is gone, and every duplicated component is now paying for itself twice in the bundle`,
+    )
+  }
+
+  const order = positions.slice().sort((a, b) => a.at - b.at).map((p) => p.name)
+  assert.deepEqual(
+    order,
+    ["shared", "beta", "gamma", "delta"],
+    "components are no longer collected in first-seen order across emitters; resource order is " +
+      "byte-significant, so this changes index.css and postscript.js for every page",
+  )
+
+  console.log(
+    `  [coverage] ComponentResources order: ${positions.length} components across ` +
+      `${emitterComponents.length} emitters, ${emitterComponents.flat().length} sightings ` +
+      `deduped to ${positions.length}, first-seen order preserved`,
   )
 })
