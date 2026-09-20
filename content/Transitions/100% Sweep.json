@@ -16,26 +16,42 @@
     {
       "to": "Mount/Top",
       "probability": {
-        "gi": 50,
-        "nogi": 50
+        "gi": 40,
+        "nogi": 40
       },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
       "probability": {
-        "gi": 35,
-        "nogi": 35
+        "gi": 28,
+        "nogi": 20
       },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
       "probability": {
-        "gi": 15,
+        "gi": 12,
         "nogi": 15
       },
       "result": "counter"
+    },
+    {
+      "to": "Side Control/Top",
+      "probability": {
+        "gi": 8,
+        "nogi": 10
+      },
+      "result": "success"
+    },
+    {
+      "to": "Open Guard/Bottom",
+      "probability": {
+        "gi": 12,
+        "nogi": 15
+      },
+      "result": "failure"
     }
   ],
   "success_rate": {

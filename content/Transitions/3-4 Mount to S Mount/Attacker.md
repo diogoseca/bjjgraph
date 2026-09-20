@@ -311,7 +311,8 @@ From the attacker's perspective, the 3-4 Mount to S Mount transition is a calcul
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Mount/S Mount]] | 55% |
-| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 5% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
 

@@ -16,26 +16,34 @@
     {
       "to": "Aoki Lock from Aoki Lock Control",
       "probability": {
-        "gi": 65,
-        "nogi": 65
+        "gi": 56,
+        "nogi": 50
       },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 22,
+        "nogi": 20
       },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
       "probability": {
-        "gi": 10,
-        "nogi": 10
+        "gi": 9,
+        "nogi": 15
       },
       "result": "counter"
+    },
+    {
+      "to": "Back Control/Top",
+      "probability": {
+        "gi": 13,
+        "nogi": 15
+      },
+      "result": "failure"
     }
   ],
   "success_rate": {

@@ -320,9 +320,10 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Crucifix]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Turtle]] | 10% |
+| Success | [[Positions/Crucifix]] | 50% |
+| Failure | [[Positions/Aoki Lock Control]] | 28% |
+| Counter | [[Positions/Turtle]] | 7% |
+| Failure | [[Positions/Turtle]] | 15% |
 
 
 </section>

@@ -141,9 +141,10 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Aoki Lock/from Aoki Lock Control]] | 65% |
-| Failure | [[Positions/Aoki Lock Control]] | 25% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Success | [[Submissions/Aoki Lock/from Aoki Lock Control]] | 50% |
+| Failure | [[Positions/Aoki Lock Control]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 15% |
 
 
 </section>

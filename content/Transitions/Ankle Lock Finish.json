@@ -14,18 +14,10 @@
   "from_position": "Ushiro Ashi-Garami/Top",
   "outcomes": [
     {
-      "to": "Straight Ankle Lock Control/Bottom",
-      "probability": {
-        "gi": 65,
-        "nogi": 65
-      },
-      "result": "success"
-    },
-    {
       "to": "Ushiro Ashi-Garami/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 26,
+        "nogi": 30
       },
       "result": "failure"
     },
@@ -33,9 +25,33 @@
       "to": "Ushiro Ashi-Garami/Bottom",
       "probability": {
         "gi": 10,
-        "nogi": 10
+        "nogi": 8
       },
       "result": "counter"
+    },
+    {
+      "to": "Straight Ankle Lock",
+      "probability": {
+        "gi": 36,
+        "nogi": 35
+      },
+      "result": "success"
+    },
+    {
+      "to": "Straight Ankle Lock Control/Top",
+      "probability": {
+        "gi": 16,
+        "nogi": 15
+      },
+      "result": "success"
+    },
+    {
+      "to": "Turtle/Top",
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
+      "result": "failure"
     }
   ],
   "success_rate": {
