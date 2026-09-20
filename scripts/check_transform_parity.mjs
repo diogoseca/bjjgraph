@@ -12,7 +12,9 @@
  * holds, per file per stage, the full AST and the VFile data as the REAL driver produced them —
  * captured on the worker path at concurrency 4, which `provenance.mode` in each record declares.
  * This script rebuilds the same phase-major schedule (INTERFACE.md §4 steps 1-5) with a snapshot
- * interleaved after every transformer's plugin group, so the stage boundaries line up exactly.
+ * interleaved after every transformer's plugin group, so the stage boundaries line up exactly and a
+ * difference is attributed to the transformer that INTRODUCED it. Only the FIRST divergence per
+ * file is reported: every stage after it is a consequence, not an independent finding.
  *
  *   node scripts/check_transform_parity.mjs                 # a diverse sample (default)
  *   node scripts/check_transform_parity.mjs --all           # all 4,600 files, ~17 min, ONE core
@@ -217,19 +219,56 @@ async function main() {
       file.data.relativePath = rel
       file.data.slug = final.data.file.data.slug
 
-      const mdPlugins = transformers
-        .filter((p) => p.markdownPlugins)
-        .flatMap((p) => p.markdownPlugins(ctx))
-      const htmlPlugins = transformers.filter((p) => p.htmlPlugins).flatMap((p) => p.htmlPlugins(ctx))
-      const processor = unified()
-        .use(remarkParse)
-        .use(mdPlugins)
-        .use(remarkRehype, { allowDangerousHtml: true })
-        .use(htmlPlugins)
+      // ── PER-TRANSFORMER SNAPSHOTS ─────────────────────────────────────────────────────────
+      // This is what makes the script per-TRANSFORMER rather than end-to-end. A snapshot plugin is
+      // interleaved after EACH transformer's plugin group, so the boundaries line up with the
+      // seam's own 14 stages and a difference is attributed to the transformer that introduced it
+      // instead of to "the pipeline". The clone is eager because later plugins mutate the tree in
+      // place — `htmlAst` aliases it by design (INTERFACE.md §2), so a lazy reference would
+      // compare the FINAL tree at every stage and report a spurious all-clean.
+      const snapshots = new Map()
+      const snapshot = (stage) => () => (tree) => {
+        snapshots.set(stage, JSON.parse(JSON.stringify(tree)))
+      }
+      const mdProviders = transformers.filter((p) => p.markdownPlugins)
+      const htmlProviders = transformers.filter((p) => p.htmlPlugins)
+      const stageFor = (phase, name) =>
+        stageNames.find((s) => s.includes(`-${phase}-`) && s.endsWith(`-${name}`))
+
+      let processor = unified().use(remarkParse)
+      for (const p of mdProviders) {
+        processor = processor.use(p.markdownPlugins(ctx))
+        const st = stageFor("markdown", p.name)
+        if (st) processor = processor.use(snapshot(st))
+      }
+      processor = processor.use(remarkRehype, { allowDangerousHtml: true })
+      const bridge = stageNames.find((s) => s.includes("-bridge-"))
+      if (bridge) processor = processor.use(snapshot(bridge))
+      for (const p of htmlProviders) {
+        processor = processor.use(p.htmlPlugins(ctx))
+        const st = stageFor("html", p.name)
+        if (st) processor = processor.use(snapshot(st))
+      }
       const tree = await processor.run(processor.parse(file), file)
 
+      // Compare EVERY captured stage, in order, and report the FIRST divergence per file — the
+      // stages after it are consequences, not independent findings.
+      let firstBad = null
+      for (const st of stageNames) {
+        if (!snapshots.has(st)) continue
+        comparisons += 1
+        const golden = loadStage(rel, st)
+        // CreatedModifiedDate does not modify the tree; its dates live in file.data and are
+        // excluded by design (see the header), so its stage is compared for the TREE only.
+        if (norm(snapshots.get(st)) !== norm(golden.data.tree)) {
+          firstBad = st
+          diffs.push(`${rel} :: ${st}  <- FIRST divergence; this transformer introduced it`)
+          break
+        }
+      }
+
       comparisons += 1
-      if (norm(tree) !== norm(final.data.tree)) diffs.push(`${rel} :: final tree`)
+      if (!firstBad && norm(tree) !== norm(final.data.tree)) diffs.push(`${rel} :: final tree`)
 
       // Every page-data key, which is what the emitters and components actually read.
       const mine = file.data
