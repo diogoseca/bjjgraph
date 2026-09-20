@@ -2,7 +2,7 @@
 /**
  * Capture the EMIT seam: what each emitter actually put on the filesystem, per emitter.
  *
- *   node scripts/emit_seam_capture.mjs --out DIR [--emitter NAME]... [--limit N]
+ *   node scripts/emit_seam_capture.mjs --out DIR --full | --limit N  [--emitter NAME]...
  *        [--work DIR] [--concurrency N] [--plain] [--keep] [--mutant omit-file|flip-byte] [--list]
  *   node scripts/emit_seam_capture.mjs --seed-static /path/to/golden/static/neural
  *
@@ -485,12 +485,54 @@ function main() {
   }
   const limit = Number(val("--limit", "0"))
   const concurrency = Number(val("--concurrency", "1"))
+
+  // A full-corpus capture renders 4,600 pages and is mutex-scale (~25 min of the whole box). The
+  // dangerous default is that OMITTING --limit means "do the expensive thing", so it has to be
+  // asked for explicitly. Written after doing exactly that twice by accident while another seat
+  // held the build mutex: the job started both times and nothing in the tool objected.
+  if (!limit && !has("--full")) {
+    console.error(
+      "emit_seam_capture: a full-corpus capture renders 4,600 pages and takes ~25 minutes of the " +
+        "whole box. Pass --full to mean it, and take the build mutex first:\n" +
+        "  source /home/user/bjj-orchestrator/quartz/acquire-build-lock.sh <agent> 'emit capture'\n" +
+        "Otherwise pass --limit N for a partial capture (records are marked partial and are not " +
+        "comparable to a full golden).",
+    )
+    return 2
+  }
   const emitters = many("--emitter")
   const mutant = val("--mutant")
   const plain = has("--plain")
   const workRoot = path.resolve(
     val("--work", trackTemp(fs.mkdtempSync(path.join(os.tmpdir(), "bjj-emit-seam-")))),
   )
+
+  // A full capture writes every emitter's output into its own root: ~370 MB of ContentPage HTML,
+  // ~85 MB of FolderPage, ~46 MB of Static's copy. os.tmpdir() honours TMPDIR, and on this host
+  // the DEFAULT /tmp is the 25 GB ROOT volume at 77% full, not the 98 GB /home one the repo sits
+  // on (CLAUDE.md §6.4). A full root does not fail loudly — it fails as a truncated write partway
+  // through, and those missing files would read as an emitter defect. So check first, and refuse.
+  // Verified by raising NEEDED_MB above any real free space: the branch fires and exits 2.
+  const NEEDED_MB = limit > 0 ? 64 : 2048
+  try {
+    const df = execFileSync("df", ["-Pm", workRoot], { encoding: "utf8" }).trim().split("\n")
+    const freeMb = Number(df[df.length - 1].split(/\s+/)[3])
+    if (Number.isFinite(freeMb)) {
+      if (freeMb < NEEDED_MB) {
+        console.error(
+          `emit_seam_capture: only ${freeMb} MB free on the volume holding ${workRoot}, and a ` +
+            `${limit > 0 ? "limited" : "full-corpus"} capture needs about ${NEEDED_MB} MB. ` +
+            `Set TMPDIR to a directory on the roomy volume (e.g. TMPDIR=/home/user/tmp-pw) or ` +
+            `pass --work. Refusing: a capture that runs out of disk halfway produces a record ` +
+            `whose missing files look like an emitter defect.`,
+        )
+        return 2
+      }
+      console.log(`emit_seam_capture: work dir ${workRoot} (${freeMb} MB free, need ~${NEEDED_MB})`)
+    }
+  } catch {
+    console.log(`emit_seam_capture: work dir ${workRoot} (free space unknown — df unavailable)`)
+  }
   if (has("--keep")) process.env.BJJ_KEEP_PROBE_TEMP = "1"
 
   const contentDir = path.relative(SOURCE_DIR, path.join(REPO_ROOT, "content")) || "../content"
