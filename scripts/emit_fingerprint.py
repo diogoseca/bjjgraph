@@ -587,81 +587,115 @@ def fingerprint_text(raw: bytes, rel: str) -> dict:
 # ---------------------------------------------------------------------------
 
 def html_value_proofs(raw: bytes) -> dict:
-    """Optional D-35/D-37 value-only proof, never a default normalization.
+    """D-35 Footer year only. D-75 leaves BOTH Head publication fields strict.
 
-    Retain raw SHA and exact bytes everywhere else. A proof hash masks ONLY valid
-    ISO-millisecond datePublished values on Head's three enriched entity types,
-    their article:published_time meta twin, and/or the exact Footer copyright year.
-    Missing/malformed fields cannot obtain the same proof. Calendar dates are parsed,
-    not merely regex-matched. Any unrelated byte defeats the proof, even if no semantic
-    extractor sees it. The date rule is a HELD fallback (D-37), not adopted by default.
-    Pinned by seam_golden_selftest.py --values, including simultaneous hidden-byte drift.
-    This proves only token-value drift, not that a date is true or a browser works.
+    Mask only the exact present copyright token; all other bytes are hashed. No
+    browser/calendar behavior is proven. Missing/malformed tokens cannot match.
+    Pinned by seam_golden_selftest.py --values and --xml-dates.
     """
     text = raw.decode('utf-8')
-    spans = {'published-time': [], 'footer-year': []}
-    values = {'published-time': [], 'footer-year': []}
-    valid = {'published-time': True, 'footer-year': True}
-
-    def timestamp(s):
-        if not re.fullmatch(r'\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{3}Z', s):
-            return False
-        try:
-            datetime.fromisoformat(s[:-1] + '+00:00')
-            return True
-        except ValueError:
-            return False
-
-    head = re.search(r'<head\b[^>]*>(.*?)</head>', text, re.S)
-    if head:
-        h = head.group(1)
-        for script in re.finditer(r'<script\b[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', h, re.S):
-            try:
-                obj = json.loads(script.group(1))
-            except ValueError:
-                valid['published-time'] = False
-                continue
-            if not isinstance(obj, dict) or obj.get('@type') not in ('WebPage', 'Article', 'CollectionPage') or 'datePublished' not in obj:
-                continue
-            date = obj['datePublished']
-            hits = list(re.finditer(r'(?<!\\)"datePublished"\s*:\s*"([^"\\]*)"', script.group(1)))
-            if not isinstance(date, str) or not timestamp(date) or len(hits) != 1 or hits[0].group(1) != date:
-                valid['published-time'] = False
-                continue
-            hit = hits[0]
-            base = head.start(1) + script.start(1)
-            spans['published-time'].append((base + hit.start(1), base + hit.end(1)))
-            values['published-time'].append(['jsonld.datePublished', date])
-        for meta in re.finditer(r'<meta\b[^>]*>', h):
-            if not re.search(r'\bproperty="article:published_time"', meta.group()):
-                continue
-            value = re.search(r'\bcontent="([^"]*)"', meta.group())
-            if not value or not timestamp(value.group(1)):
-                valid['published-time'] = False
-                continue
-            base = head.start(1) + meta.start()
-            spans['published-time'].append((base + value.start(1), base + value.end(1)))
-            values['published-time'].append(['meta.article:published_time', value.group(1)])
+    spans, values = [], []
     for footer in re.finditer(r'<footer\b[^>]*>.*?</footer>', text, re.S):
         for hit in re.finditer(r'<p class="footer-copyright">BJJGraph\.org © (\d{4})</p>', footer.group()):
-            spans['footer-year'].append((footer.start() + hit.start(1), footer.start() + hit.end(1)))
-            values['footer-year'].append(hit.group(1))
-    proofs = {}
-    for names in [('published-time',), ('footer-year',), ('published-time', 'footer-year')]:
-        selected = sorted(span for name in names for span in spans[name])
-        if not selected:
-            continue
-        masked, previous = [], 0
-        for start, end in selected:
-            masked.extend((text[previous:start], '<DECLARED-VALUE>'))
-            previous = end
-        masked.append(text[previous:])
-        proofs['+'.join(names)] = {
-            'sha': shas(''.join(masked)), 'valid': all(valid[name] for name in names),
-            'values': {name: values[name] for name in names},
-            'counts': {name: len(spans[name]) for name in names},
+            spans.append((footer.start() + hit.start(1), footer.start() + hit.end(1)))
+            values.append(hit.group(1))
+    if not spans:
+        return {}
+    return {'footer-year': {'sha': masked_sha(text, spans), 'valid': True,
+                            'values': {'footer-year': values}, 'counts': {'footer-year': len(spans)}}}
+
+
+def masked_sha(text, spans):
+    parts, previous = [], 0
+    for start, end in sorted(spans):
+        if start < previous:
+            raise ValueError('overlapping normalization tokens')
+        parts.extend((text[previous:start], '<DECLARED-VALUE>'))
+        previous = end
+    parts.append(text[previous:])
+    return shas(''.join(parts))
+
+
+def xml_value_proofs(raw: bytes, rel: str) -> dict:
+    """D-75: typed date values on sitemap/RSS only; raw fingerprints stay intact.
+
+    RSS selection proof retains channel bytes, item count/layout, distinct links,
+    valid dates and each item's date-masked bytes. The DIFFER must additionally
+    check each selected item's title/description against its actual HTML and its
+    membership in contentIndex. This cannot prove which ten items were selected or
+    their order; a separate emitter fixture owns that intentionally unasserted scope.
+    No proof licenses dropped fields, malformed dates or arbitrary XML changes.
+    Pinned by seam_golden_selftest.py --xml-dates; no browser or whole-site claim.
+    """
+    if rel not in ('sitemap.xml', 'index.xml'):
+        return {}
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime, format_datetime
+    try:
+        text = raw.decode('utf-8')
+        if '<!DOCTYPE' in text or '<!ENTITY' in text:
+            return {}
+        root = ET.fromstring(text)
+        if rel == 'sitemap.xml':
+            ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
+            if root.tag != ns + 'urlset':
+                return {}
+            entries = root.findall(ns + 'url')
+            if not entries or len(entries) != len(root):
+                return {}
+            dates, keys = [], []
+            for entry in entries:
+                d, loc = entry.findall(ns + 'lastmod'), entry.findall(ns + 'loc')
+                if len(d) != 1 or len(loc) != 1 or len(d[0]) or not loc[0].text:
+                    return {}
+                value = d[0].text or ''
+                if not re.fullmatch(r'\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{3}Z', value):
+                    return {}
+                datetime.fromisoformat(value[:-1] + '+00:00')
+                dates.append(value); keys.append(loc[0].text)
+            hits = list(re.finditer(r'<lastmod>([^<]+)</lastmod>', text))
+            if len(set(keys)) != len(keys) or [m.group(1) for m in hits] != dates:
+                return {}
+            return {'sitemap-lastmod': {'valid': True, 'sha': masked_sha(text, [m.span(1) for m in hits]),
+                                        'count': len(dates), 'values': dates}}
+        if root.tag != 'rss' or len(root.findall('channel')) != 1:
+            return {}
+        channel = root.find('channel')
+        entries = channel.findall('item')
+        blocks = list(re.finditer(r'<item>(.*?)</item>', text, re.S))
+        if not entries or len(blocks) != len(entries) or len(root.findall('.//item')) != len(entries):
+            return {}
+        links, items, layouts, spans, dates = [], [], [], [], []
+        fields = ['title', 'link', 'guid', 'description', 'pubDate']
+        for entry, block in zip(entries, blocks):
+            if [child.tag for child in entry] != fields or any(len(child) or child.attrib for child in entry):
+                return {}
+            item = {child.tag: child.text or '' for child in entry}
+            if any(not item[k] for k in fields):
+                return {}
+            date = parsedate_to_datetime(item['pubDate'])
+            if date.tzinfo is None or format_datetime(date, usegmt=True) != item['pubDate']:
+                return {}
+            if item['guid'] != item['link']:
+                return {}
+            hits = list(re.finditer(r'<(title|link|guid|description|pubDate)>([^<]*)</\1>', block.group()))
+            if [m.group(1) for m in hits] != fields:
+                return {}
+            date_hit = hits[-1]
+            item['stable_sha'] = masked_sha(block.group(), [date_hit.span(2)])
+            layouts.append(masked_sha(block.group(), [m.span(2) for m in hits]))
+            spans.append((block.start() + date_hit.start(2), block.start() + date_hit.end(2)))
+            links.append(item['link']); dates.append(item['pubDate']); items.append(item)
+        if len(set(links)) != len(links) or len(set(layouts)) != 1:
+            return {}
+        return {
+            'rss-pubdate': {'valid': True, 'sha': masked_sha(text, spans), 'count': len(entries), 'values': dates},
+            'rss-selection': {'valid': True, 'sha': masked_sha(text, [m.span() for m in blocks]),
+                              'count': len(entries), 'layout_sha': layouts[0], 'items': items,
+                              'channel_link': channel.findtext('link')},
         }
-    return proofs
+    except (ValueError, TypeError, OverflowError, UnicodeError, ET.ParseError):
+        return {}
 
 
 def fingerprint_file(args):
@@ -679,6 +713,7 @@ def fingerprint_file(args):
             rec['value_proofs'] = html_value_proofs(raw)
         elif cls == "xml":
             rec["fp"] = fingerprint_xml(raw, rel)
+            rec["value_proofs"] = xml_value_proofs(raw, rel)
         elif cls == "json_semantic":
             rec["fp"] = fingerprint_json(raw, rel)
         elif cls == "text_semantic":

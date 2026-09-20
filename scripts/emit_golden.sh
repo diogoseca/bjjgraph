@@ -4,8 +4,7 @@
 #   bash scripts/emit_golden.sh DEST LABEL --steps STEPS.json [--check-steps]
 #
 # The caller schedules the real run and holds the programme mutex in THIS invocation:
-#   source /home/user/bjj-orchestrator/quartz/acquire-build-lock.sh mgr-cx-3 'Env B capture'
-#   bash scripts/emit_golden.sh DEST LABEL --steps STEPS.json
+#   source /home/user/bjj-orchestrator/quartz/acquire-build-lock.sh mgr-cx-3 'Env B capture' && bash scripts/emit_golden.sh DEST LABEL --steps STEPS.json
 # Never source the helper in a separate tool call: its EXIT trap releases the lock.
 #
 # --steps is the COMPLETE ordered chain; no implicit Neural or npm build prelude.
