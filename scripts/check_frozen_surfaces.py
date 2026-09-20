@@ -111,6 +111,23 @@ EXHAUSTIVE_DIR = "components"
 MIN_FILES = 10
 
 
+def scope_of(entry: dict) -> str:
+    """Which scope a baseline entry belongs to.
+
+    ONE BASELINE FILE SERVES TWO SCOPES, and the first version of `--accept` for the keep-list
+    wrote its entry into the same `files` map without a tag. The pipeline pass walks its own 12-file
+    glob and then checks the baseline for entries with no corresponding watched file — so the
+    freshly-accepted `renderPage.tsx` appeared as **"MISSING … (was in the baseline and is gone)"**
+    and the gate still exited 1, on a tree where nothing had been deleted. A confusing red is worse
+    than an understood one: that message would have sent five streams hunting a deletion that never
+    happened. quartz-cto reverted the baseline rather than leave it in the tree, which was right.
+
+    Entries written before scope tagging existed are pipeline entries; that is the only thing the
+    untagged format was ever used for.
+    """
+    return entry.get("scope", "pipeline")
+
+
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -167,7 +184,13 @@ def seed(note: str, force: bool = False) -> int:
             "into the replaced engine. Under D-03 the correct number of behavioural changes here "
             "during P1-P4 is zero. Moved one file at a time via --accept --reason, never automatically."
         ),
-        "files": {rel: {"sha256": sha256(p), "bytes": p.stat().st_size} for rel, p in files.items()},
+        # EVERY ENTRY CARRIES ITS SCOPE. One baseline file serves two scopes, and without a tag
+        # the pipeline pass walks keep-list entries it has no watched file for and reports them
+        # MISSING — see `scope_of` below for the incident.
+        "files": {
+            rel: {"sha256": sha256(p), "bytes": p.stat().st_size, "scope": "pipeline"}
+            for rel, p in files.items()
+        },
     }
     write_baseline(data)
     print(f"seeded {len(files)} files into {BASELINE.relative_to(REPO)}")
@@ -228,6 +251,7 @@ def accept(target: str, reason: str) -> int:
     data["files"][target] = {
         "sha256": new,
         "bytes": files[target].stat().st_size,
+        "scope": "pipeline",
         "accepted": history,
     }
     write_baseline(data)
@@ -271,7 +295,12 @@ def accept_keeplist(target: str, reason: str) -> int:
             "reason": reason.strip(),
         }
     )
-    data["files"][target] = {"sha256": new, "bytes": disk.stat().st_size, "accepted": history}
+    data["files"][target] = {
+        "sha256": new,
+        "bytes": disk.stat().st_size,
+        "scope": "keeplist",
+        "accepted": history,
+    }
     write_baseline(data)
     print(f"accepted (keep-list) {target}\n  differs from {BASE_REF}, now recorded at {new[:12]}"
           f"\n  reason: {reason.strip()}")
@@ -284,7 +313,8 @@ def check() -> int:
         print(f"FAIL: no baseline at {BASELINE.relative_to(REPO)} — run --seed", file=sys.stderr)
         return 2
     files = discover()
-    recorded = data.get("files", {})
+    # Only this scope's entries. A keep-list entry here is not a missing pipeline file.
+    recorded = {k: v for k, v in data.get("files", {}).items() if scope_of(v) == "pipeline"}
 
     # A matcher that matches nothing reads exactly like a clean result, so refuse to report at all
     # below the floor rather than printing a reassuring zero.
@@ -465,7 +495,11 @@ def main() -> int:
         return accept(args.accept, args.reason)
 
     data = load_baseline()
-    accepted = {k: v for k, v in data.get("files", {}).items() if v.get("accepted")}
+    accepted = {
+        k: v
+        for k, v in data.get("files", {}).items()
+        if v.get("accepted") and scope_of(v) == "keeplist"
+    }
     codes = []
     if args.scope in ("pipeline", "all"):
         codes.append(check())
