@@ -170,8 +170,22 @@ function trackTemp(dir) {
  * directory carrying a `node_modules` symlink, so `packages: "external"` still resolves.
  * @returns {string} path to the runnable ESM bundle
  */
-export function bundleQuartzEntry(entryTs) {
-  const key = crypto.createHash("sha256").update(entryTs).digest("hex")
+/**
+ * Bundle one entry, and optionally the WORKER entries beside it.
+ *
+ * WHY THE WORKERS MATTER TO A CAPTURE (D-B-08). `workerPool.ts` spawns
+ * `new Worker(new URL("./transpiled-worker.mjs", import.meta.url))`, which resolves relative to
+ * the RUNNING BUNDLE. In a real build that is `source/quartz/.quartz-cache/`, where the build
+ * has already written both worker bundles. A capture bundles a single entry into a temp
+ * directory, so those siblings did not exist and every worker died with MODULE_NOT_FOUND.
+ *
+ * That is not a cosmetic harness gap. It meant EVERY capture this script has ever taken ran emit
+ * ENTIRELY ON THE MAIN THREAD — so the preflight could not have observed the worker-ledger defect
+ * V found, no matter how carefully it was read. A harness that silently cannot reach a code path
+ * reports that path as clean: CLAUDE.md 6.4, and the reason the sample looked fine.
+ */
+export function bundleQuartzEntry(entryTs, { withWorkers = false } = {}) {
+  const key = crypto.createHash("sha256").update(entryTs + (withWorkers ? "+w" : "")).digest("hex")
   const hit = bundleCache.get(key)
   if (hit) return hit
 
@@ -188,6 +202,19 @@ export function bundleQuartzEntry(entryTs) {
     encoding: "utf8",
     timeout: 600_000,
   })
+  if (withWorkers) {
+    // Both names are built from quartz/worker.ts, which is the worker-side entry for both phases
+    // (it exports the parse path and handles emit tasks); workerPool only chooses between the
+    // two FILENAMES. They must land in the same directory as `out`, because that is what
+    // import.meta.url resolves against.
+    for (const name of ["transpiled-worker.mjs", "transpiled-emit-worker.mjs"]) {
+      execFileSync(
+        process.execPath,
+        [bundler, path.join(dir, name), path.join(SOURCE_DIR, "quartz/worker.ts"), SOURCE_DIR],
+        { cwd: SOURCE_DIR, stdio: ["ignore", "pipe", "pipe"], encoding: "utf8", timeout: 600_000 },
+      )
+    }
+  }
   bundleCache.set(key, out)
   return out
 }
@@ -395,7 +422,13 @@ const claimSets = {}
 const dupes = []
 if (ledgerDir && fs.existsSync(ledgerDir)) {
   for (const name of fs.readdirSync(ledgerDir).filter((f) => f.endsWith(".ndjson")).sort()) {
-    const lines = fs.readFileSync(path.join(ledgerDir, name), "utf8").split("\n").filter(Boolean)
+    // NOTE: the newline escape below is DOUBLED on purpose. This line lives inside the
+    // JOIN_ENTRY template literal, so a single escape is consumed HERE and the generated
+    // entry.ts receives a raw line break inside a string literal, which fails the bundle with
+    // "Unterminated string literal". CLAUDE.md 6.3's SNIPPET trap, in a second file. Writing
+    // this warning with a literal escape in it broke the bundle a second time, so it is spelled
+    // out in words instead.
+    const lines = fs.readFileSync(path.join(ledgerDir, name), "utf8").split("\\n").filter(Boolean)
     let head = null
     let n = 0
     for (const line of lines) {
@@ -604,7 +637,7 @@ function runJoin(val, has) {
   const contentDir = path.relative(SOURCE_DIR, path.join(REPO_ROOT, "content")) || "../content"
   const directory = contentDir.startsWith(".") ? contentDir : "./" + contentDir
 
-  const bundle = bundleQuartzEntry(JOIN_ENTRY)
+  const bundle = bundleQuartzEntry(JOIN_ENTRY, { withWorkers: true })
   const stdout = execFileSync(process.execPath, ["--max-old-space-size=6144", bundle], {
     cwd: SOURCE_DIR,
     env: {
