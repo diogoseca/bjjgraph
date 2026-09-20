@@ -53,7 +53,13 @@ const budget = JSON.parse(readFileSync(BUDGET, "utf8"))
 // NB `flashcards.json` has not existed since v1.80.4 — the ban is on the MONOLITH ever
 // coming back under any name, so it lists the retired filename AND the shape that would
 // replace it. A pattern that can never match is not a gate.
-const BANNED_ON_BOOT = [/\/flashcards\.json(\?|$)/, /\/technique-content\.js(\?|$)/, /\/app\/readers\.css(\?|$)/]
+// ONE PATTERN PER LINE, for the same reason `check_payload_budget.py`'s DEFERRED tuple is:
+// the next branch that defers an artifact adds a line here rather than rewriting this one.
+const BANNED_ON_BOOT = [
+  /\/flashcards\.json(\?|$)/,
+  /\/technique-content\.js(\?|$)/,
+  /\/app\/reference\.css(\?|$)/,
+]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({
   page,

@@ -34,7 +34,7 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
 | `concepts.json` | first read | the Principles + Learning index. Same posture as `systems.json` |
-| `app/readers.css` | first reference read | shared Systems and concept reader styles; excluded from the game boot |
+| `app/reference.css` | first reference read | shared Systems and concept reference-page styles; excluded from the game boot |
 | `aliases.json` | Explore/search intent | exact site IDs, own aliases and attributed family aliases; versioned URL, shared request and bounded retries |
 
 Chunks are addressed by `fnv1a32(key)` — the app's own `qhash`, ported byte-identically into

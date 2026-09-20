@@ -3106,17 +3106,17 @@ class Component extends DCLogic {
     } else this._ensureAliases();
   }
   // ── deferred Systems payload (324KB, read only by Explore + the system buckets) ──
-  _ensureReaderStyles() {
+  _ensureReferenceCSS() {
     if (this._readerStyles) return;
     const sheet = document.createElement("link");
-    sheet.rel = "stylesheet"; sheet.href = this._dataBase() + "app/readers.css";
+    sheet.rel = "stylesheet"; sheet.href = this._dataBase() + "app/reference.css";
     sheet.setAttribute("data-reader-styles", "");
     sheet.onerror = () => { sheet.remove(); if (this._readerStyles === sheet) this._readerStyles = null; };
     this._readerStyles = sheet;
     document.head.appendChild(sheet);
   }
   _ensureSystems() {
-    this._ensureReaderStyles();
+    this._ensureReferenceCSS();
     if (this._systemsWait) return this._systemsWait;
     this._systemsWait = fetch(this._dataBase() + "systems.json")
       .then((sr) => (sr.ok ? sr.json() : null))
@@ -3132,7 +3132,7 @@ class Component extends DCLogic {
   // so boot must not pay for one. The index carries only what the LIST and the graph HIGHLIGHT
   // need; each concept's readable body is a dossier chunk fetched when the panel opens.
   _ensureConcepts() {
-    this._ensureReaderStyles();
+    this._ensureReferenceCSS();
     if (this._conceptsWait) return this._conceptsWait;
     this._conceptsWait = fetch(this._dataBase() + "concepts.json")
       .then((cr) => (cr.ok ? cr.json() : null))

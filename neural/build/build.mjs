@@ -361,7 +361,15 @@ const cssJoined = [
 ].join("\n");
 // Reference-page styles are requested with their deferred indexes. The game boot should not
 // pay for a reader it never opens. Both local refresh commands copy every built app asset.
-writeFileSync(R("dist/readers.css"), (await transform(systemsCSS + "\n" + conceptsCSS, { loader: "css", minify: true })).code);
+//
+// NAMED `reference.css`, NOT `readers.css` (renamed before either branch merged). The More
+// fold's own deferred stylesheet is `reading.css`, emitted a few lines below by
+// `discuss/readinghtml-landmore-reading-panel-redesign-neural`. Two files one letter apart in
+// one directory, serving surfaces that share no selector, no class name and no declaration
+// set, is a wrong-file edit waiting to happen (CLAUDE.md 6.7). `reference.css` also says what
+// it holds: Systems, Principles and Learning are REFERENCE PAGES, the owner's own words in
+// CLAUDE.md 5. The assessment is reports/integrate-stylesheet-collision.md.
+writeFileSync(R("dist/reference.css"), (await transform(systemsCSS + "\n" + conceptsCSS, { loader: "css", minify: true })).code);
 
 // ── CSS COMMENTS ARE PAYLOAD UNLESS SOMETHING STRIPS THEM, AND NOTHING DID ──────────────────
 // The JS above goes through esbuild, which drops comments — so "documentation at the code is
