@@ -8,9 +8,15 @@
 const NG_READ_NAV = { def: "Definition", aka: "Names", "safety-notice": "Safety notice" };
 const NG_LAND_MORE_COL = "#7e8aa3";
 // The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
-// the collapsed More pill is drawn before the stylesheet arrives and its `margin-left:auto`
-// needs a flex parent. One string so the two cannot drift.
-const NG_READ_BAR_CSS = "display:flex;align-items:center;gap:12px;";
+// the collapsed More pill is drawn before the stylesheet arrives. One string so the two cannot
+// drift. `justify-content:center` is what centres the COLLAPSED pill (v1.195.7): shut, the inner
+// bar holds the pill alone, and a lone flex item with `margin-left:auto` is pushed to the far
+// edge whatever the bar's own alignment says — the owner: "the More button, when it's collapsed,
+// seems to show too much to the right. It doesn't seem to be centered." Measured before the fix:
+// pill centre 114px right of the row's at 390 wide, 251px at 1440. The auto margin therefore
+// exists ONLY while the fold is open (`_landMoreAlign`), where it right-aligns the ✕ past the
+// contents row; the collapsed pill is centred by this bar, exactly as it was before v1.194.0.
+const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;gap:12px;";
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
 // count line = 40px from the padding-box top; the question starts at the card's padding-top
@@ -13415,7 +13421,8 @@ class Component extends DCLogic {
     moreRow._ngPin.style.cssText = "flex:1 1 auto;min-width:0;" + NG_READ_BAR_CSS;
     moreRow.querySelector("[data-land-more-body]")._ngMoreSections = sections;
     // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
-    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;margin-left:auto;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+    this._landMoreAlign(more, false);   // shut: centred by the bar. Open: `expandLandCard` right-aligns it.
     more.onclick = (e) => {
       e.stopPropagation(); this.expandLandCard();
       if (e.detail === 0 && this._landOpen) moreRow.querySelector("[data-land-more-body]").focus({ preventScroll: true });
@@ -13549,6 +13556,7 @@ class Component extends DCLogic {
     // idiom, the same ghost ✕ the question card's own corner uses.
     btn.textContent = want ? "\u2715" : "More";
     btn.setAttribute("aria-label", want ? "Close the reading panel" : "Read more about this state");
+    this._landMoreAlign(btn, want);
     // Restore the declared resting colour rather than deleting the inline declaration.
     btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
     this._dockLandCard(el);
@@ -13963,6 +13971,15 @@ class Component extends DCLogic {
     btn.insertAdjacentHTML("beforebegin", this._readingNav(body._ngMoreSections || []));
     this._navMark();
   }
+  /**
+   * The More control's alignment inside the inner bar, ONE writer for both states (§6.1: a value
+   * two sites restore is a constant, and `style.x = ""` deletes rather than restores). Open, the
+   * ✕ right-aligns past the contents row on its own auto margin — `order` cannot do that under
+   * the bar's centring, measured 131px each side. Shut, the margin is WRITTEN back to 0 so the
+   * bar's `justify-content:center` centres the lone pill; the stylesheet mirror in reading.css
+   * is scoped to `.ng-landmore.open` for the same reason.
+   */
+  _landMoreAlign(btn, open) { btn.style.marginLeft = open ? "auto" : "0"; }
   /** Where the head is STANDING, plus one rhythm unit — the line `_navMark` calls "being read".
    *  It measures the inner bar because that is the one the pin moves; the outer one stays put. */
   _navPin() {

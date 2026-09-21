@@ -186,11 +186,15 @@
 .r-t:focus-visible { outline: 2px solid #7e9bff; outline-offset: 2px; }
 
 /* the head that carries the row and the close control */
-.r-bar { display: flex; align-items: center; gap: 12px; height: 38px; }
-/* `order` cannot right-align this under the parent's centring; margin-left:auto can. The close
-   lives on the INNER bar now, so this selector must too — and the button keeps its own inline
-   colour (NG_LAND_MORE_COL): never clear it to "". */
-.r-pin > [data-land-more] { margin-left: auto; }
+.r-bar { display: flex; align-items: center; justify-content: center; gap: 12px; height: 38px; }
+/* THE CLOSE CONTROL'S ALIGNMENT IS NOT DECIDED HERE (v1.195.7). This file used to carry
+   `.r-pin > [data-land-more] { margin-left: auto }` — `order` cannot right-align under the bar's
+   centring, an auto margin can — but shut, the inner bar holds the More pill ALONE, and an auto
+   margin on a lone flex item pushes it to the far edge whatever the bar's centring says. That is
+   the collapsed pill the owner saw "too much to the right". The margin now exists only while the
+   fold is open and is written INLINE by `_landMoreAlign` in app.src.jsx, one writer for both
+   states; a stylesheet copy would be a second decision that can drift, so there is none. The
+   button also keeps its own inline colour (NG_LAND_MORE_COL): never clear it to "". */
 
 /* ── THE PINNED HEAD ────────────────────────────────────────────────────────────────────── */
 /* The INNER bar, the one `_readPin` counter-translates so the contents row holds while the
@@ -200,7 +204,7 @@
    `transform:none!important` on `.ng-landmore.open > div:first-child` and `!important` beats an
    inline style. These rules are a mirror of what `_renderLandMore` already writes inline: the
    stylesheet is deferred and the collapsed More pill is drawn before it arrives. */
-.r-pin { display: flex; align-items: center; gap: 12px; flex: 1 1 auto; min-width: 0; }
+.r-pin { display: flex; align-items: center; justify-content: center; gap: 12px; flex: 1 1 auto; min-width: 0; }
 
 /* Standing in its own place at the top of the card the head is transparent, exactly as it was.
    FLOATING, it is in front of the prose it indexes, so it has to be opaque and it has to say so.
