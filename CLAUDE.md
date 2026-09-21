@@ -632,7 +632,9 @@ Full rules in `docs/Content.md`. The parts you can break:
 - **Wikilinks are path-prefixed**: `[[Positions/Mount]]`, `[[Transitions/Knee Slice Pass]]`,
   `[[Submissions/Rear Naked Choke]]`. Case-sensitive, must match the filename, no `.md`.
   **One exception:** `[[game-over]]`, which resolves via the frontmatter alias on
-  `content/Game Over.md` (681 files use the bare form; none use `[[Game Over]]`).
+  `content/Game Over.md`. Measured 2026-09-21: 668 files carry the bare form (821 occurrences)
+  and 0 use `[[Game Over]]` — recompute with
+  `grep -rl '\[\[game-over\]\]' content --include='*.md' | wc -l` (files; `-ro` for occurrences).
 - **Success rates are `{gi, nogi}` maps in source** and render as a single folded no-gi percent
   (`**Success Rate**: N%`). There is no Beginner/Intermediate/Advanced tri-level format — nothing
   authors it and no validator checks it.
