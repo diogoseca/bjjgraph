@@ -1,10 +1,10 @@
 {
   "name": "bjjgraph",
-  "version": "1.195.8",
+  "version": "1.195.9",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
-    "bootstrap": "npm install && npx playwright install chromium && npm run regenerate:neural && echo 'bootstrap done \u2014 unit suites + census can run now; e2e also needs `npm run build` (~10min) then `npm run dev:neural:app`'",
+    "bootstrap": "npm install && (cd source && npm ci) && npx playwright install chromium && npm run regenerate:neural && echo 'bootstrap done \u2014 unit suites + census can run now; e2e also needs `npm run build` (~10min) then `npm run dev:neural:app`'",
     "serve": "node scripts/dev-serve.mjs",
     "build:forward": "node scripts/build_forward_components.mjs",
     "validate:forward": "node scripts/check_forward_catalog.mjs",
