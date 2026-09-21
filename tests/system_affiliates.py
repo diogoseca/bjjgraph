@@ -3,9 +3,15 @@
 Marker-preservation mutants: deleting one entire guide or one anchor, changing a
 canonical URL, changing its marker kind, duplicating an anchor, and removing every
 source marker must fail the --built gate. No surviving seeded marker mutants.
+All mutations use disposable fixtures. Reused files are snapshotted as bytes and
+SHA-256 checked after restoration, outside subTest so a bad restore aborts the loop.
+Marker controls require caller-specified exact counts: three for the one-product /
+one-source guide (two course placements plus one source), five when two extra
+sources are introduced, and one for the single-anchor fixtures.
 """
 import copy
 import gzip
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -36,10 +42,40 @@ class SystemAffiliates(unittest.TestCase):
     def render(self, data=None):
         return pages.generate_markdown(data or self.data, self.template, resolve_fn=lambda name: name)
 
-    def assert_gate(self, text, ref=''):
+    def assert_gate(self, text, ref='', *, expected_markers):
         errors=[]; count=gate.check_html(text, 'fixture', errors, bool(ref), ref)
-        self.assertGreater(count,0); self.assertEqual(errors,[])
+        self.assertEqual(count, expected_markers, 'exact marker control')
+        self.assertEqual(errors,[])
         self.assertNotIn('affiliate-disclosure',text);self.assertNotIn(LEGACY_DISCLOSURE,text)
+
+    def test_exact_marker_control_rejects_under_and_over_counting(self):
+        control = self.render()
+        # Independently authored expectation: one live product rendered in two
+        # course placements plus one guide source. Do not derive it via the gate.
+        self.assert_gate(control, expected_markers=3)
+        anchor = re.search(r'<a\b[^>]*data-course-url[^>]*>.*?</a>', control, re.S)[0]
+        for label, text in (
+            ('missing-one', control.replace(anchor, '', 1)),
+            ('extra-one', control + anchor),
+        ):
+            with self.subTest(control=label):
+                with self.assertRaisesRegex(AssertionError, 'exact marker control'):
+                    self.assert_gate(text, expected_markers=3)
+
+    def test_quoted_marker_siblings_have_exact_authored_identity(self):
+        canonical = 'https://bjjfanatics.com/products/example'
+        # Both attribute forms traverse the same HTMLParser path, without shell
+        # quoting. A count alone would miss a backslash corrupting the URL value.
+        for marker in ('data-course-url', 'data-source-url'):
+            with self.subTest(marker=marker):
+                control = (f'<a {marker}="{canonical}" href="{canonical}" '
+                           'data-affiliate="false">Control</a>')
+                expected = {(marker, canonical): 1}
+                self.assertEqual(gate.canonical_markers(control), expected)
+                self.assert_gate(control, expected_markers=1)
+                mangled = control.replace(marker + '=', marker + '=' + chr(92))
+                with self.assertRaises(AssertionError):
+                    self.assertEqual(gate.canonical_markers(mangled), expected)
 
     def test_neutral_source_course_order_and_single_overview(self):
         text=self.render()
@@ -56,7 +92,7 @@ class SystemAffiliates(unittest.TestCase):
         self.assertNotIn('Start here',text)
         markers=['Back to Systems','system-heading','data-course-placement="top"','id="overview"','id="fit"','id="coverage"','data-course-placement="end"','id="related-content"','id="sources"']
         self.assertEqual(sorted(text.index(m) for m in markers),[text.index(m) for m in markers])
-        self.assert_gate(text)
+        self.assert_gate(text, expected_markers=3)
 
     def test_unavailable_courses_do_not_render(self):
         for status in ('dead','unverified',None):
@@ -78,7 +114,7 @@ class SystemAffiliates(unittest.TestCase):
             self.assertEqual(affiliate.stamp(page,'12345.test',True),1); self.assertEqual(page.read_text(),original)
             for ref in ('12345.test','98765.rotated',''):
                 affiliate.stamp(page,ref)
-                self.assert_gate(page.read_text(),ref)
+                self.assert_gate(page.read_text(), ref, expected_markers=3)
                 self.assertEqual(gzip.decompress(sibling.read_bytes()).decode(),page.read_text())
                 before=page.read_bytes(); self.assertEqual(affiliate.stamp(page,ref),0); self.assertEqual(page.read_bytes(),before)
             sibling.write_bytes(gzip.compress(b'stale'))
@@ -90,7 +126,7 @@ class SystemAffiliates(unittest.TestCase):
         d=copy.deepcopy(self.data); d['name']='Gordon Ryan Mount Control System'; d['products'][0]['course_url']=canonical
         with tempfile.TemporaryDirectory() as tmp:
             route=Path(tmp)/'Systems/Gordon-Ryan-Mount-Control-System.html';route.parent.mkdir();route.write_text(self.render(d))
-            affiliate.stamp(route,'12345.test'); html=route.read_text(); self.assert_gate(html,'12345.test')
+            affiliate.stamp(route,'12345.test'); html=route.read_text(); self.assert_gate(html, '12345.test', expected_markers=3)
             anchor=re.search(r'<a\b[^>]*data-course-url[^>]*>',html)[0]; attrs=affiliate.read_tag(anchor)
             url=urlsplit(attrs['href']); self.assertEqual(url.path,urlsplit(canonical).path)
             query=parse_qs(url.query);self.assertEqual(query['rfsn'],['12345.test']);self.assertEqual(query['utm_content'],['gordon-ryan-mount-control-system'])
@@ -98,7 +134,7 @@ class SystemAffiliates(unittest.TestCase):
                 stale=f'<section data-system-guide><p class="affiliate-disclosure">{LEGACY_DISCLOSURE}</p><a data-affiliate="true" rel="sponsored" href="{canonical}?{param}=REPLACE_ME">Course</a></section>'
                 for ref in ('','12345.test'):
                     route.write_text(stale); affiliate.stamp(route,ref)
-                    output=route.read_text();self.assertNotIn('REPLACE_ME',output);self.assert_gate(output,ref)
+                    output=route.read_text();self.assertNotIn('REPLACE_ME',output);self.assert_gate(output, ref, expected_markers=1)
                     if not ref:self.assertNotIn('commission',output);self.assertIn(f'href="{canonical}"',output)
                 payload=Path(tmp)/'legacy.json';payload.write_text(json.dumps({'products':[{'url':canonical+f'?{param}=REPLACE_ME'}]}));affiliate.stamp(payload,'')
                 self.assertFalse(json.loads(payload.read_text())['products'][0]['affiliate'])
@@ -124,7 +160,7 @@ class SystemAffiliates(unittest.TestCase):
         self.assertIn('data-course-url',markdown);self.assertNotIn(LEGACY_DISCLOSURE,markdown)
         self.assertNotIn('Start here:',markdown);self.assertIn('Sources',markdown);self.assertIn('data-source-url',markdown)
         for ref in ('12345.test','67890.rotated',''):
-            markdown=affiliate.resolve_html(markdown,ref);self.assert_gate(markdown,ref)
+            markdown=affiliate.resolve_html(markdown,ref);self.assert_gate(markdown, ref, expected_markers=3)
 
     def test_static_player_assets_are_published_with_fresh_gzip(self):
         assets={'system-guide-media.js':'scripts/system_guide_media.js',
@@ -155,9 +191,18 @@ class SystemAffiliates(unittest.TestCase):
                     affiliate.stamp(article,ref)
                     errors=[];counts=gate.check_built(errors,ref)
                     self.assertEqual(errors,[]);self.assertEqual(counts,(2,6,1))
-                    good=article.read_text();article.write_text(good.replace('data-affiliate="'+str(bool(ref)).lower()+'"','data-affiliate="wrong"'))
-                    errors=[];gate.check_built(errors,ref);self.assertTrue(any('Fixture-System.md' in e for e in errors))
-                    article.write_text(good)
+                    saved = article.read_bytes()
+                    before = hashlib.sha256(saved).hexdigest()
+                    try:
+                        article.write_text(saved.decode('utf-8').replace(
+                            'data-affiliate="' + str(bool(ref)).lower() + '"', 'data-affiliate="wrong"'))
+                        errors = []
+                        gate.check_built(errors, ref)
+                        self.assertTrue(any('Fixture-System.md' in e for e in errors))
+                    finally:
+                        article.write_bytes(saved)
+                        self.assertEqual(hashlib.sha256(article.read_bytes()).hexdigest(), before,
+                                         f'mutant restore changed bytes: {article}')
                 stale=public/'feed.txt';stale.write_text('https://bjjfanatics.com/products/example?rfsn=old.token&utm_source=bjjgraph')
                 affiliate.stamp(stale,'');self.assertEqual(stale.read_text(),'https://bjjfanatics.com/products/example')
 
@@ -195,7 +240,7 @@ class SystemAffiliates(unittest.TestCase):
             # Include an unmarked blog reference: all vendor clickouts must participate.
             html+='<a href="https://bjjfanatics.com/blogs/news/example?variant=7#part">Blog</a>'
             for ref in ('12345.test','98765.rotated',''):
-                html=affiliate.resolve_html(html,ref);self.assert_gate(html,ref)
+                html=affiliate.resolve_html(html,ref);self.assert_gate(html, ref, expected_markers=5)
                 self.assertEqual(affiliate.resolve_html(html,ref),html)
                 self.assertIn('variant=7',html);self.assertIn('#part',html)
 
@@ -208,12 +253,12 @@ class SystemAffiliates(unittest.TestCase):
         self.assertEqual(affiliate.resolve_json(source,'12345.test'),source)
         for marker in ('data-course-url','data-source-url'):
             copied=plain.replace('rel="noopener"',f'{marker}="{canonical}" rel="noopener"')
-            active=affiliate.resolve_html(copied,'12345.test');self.assert_gate(active,'12345.test')
+            active=affiliate.resolve_html(copied,'12345.test');self.assert_gate(active, '12345.test', expected_markers=1)
             self.assertIn('rfsn=12345.test',active);self.assertNotIn(LEGACY_DISCLOSURE,active)
         system=plain.replace('<article>','<article data-system-guide>')
-        active=affiliate.resolve_html(system,'12345.test');self.assert_gate(active,'12345.test')
+        active=affiliate.resolve_html(system,'12345.test');self.assert_gate(active, '12345.test', expected_markers=1)
         self.assertIn('data-source-url=',active);self.assertIn('variant=7',active)
-        neutral=affiliate.resolve_html(active,'');self.assert_gate(neutral)
+        neutral=affiliate.resolve_html(active,'');self.assert_gate(neutral, expected_markers=1)
         self.assertNotIn('commission',neutral)
         errors=[];gate.check_html(system,'System',errors,True,'12345.test')
         self.assertTrue(any('unstamped' in e for e in errors))
@@ -227,7 +272,7 @@ class SystemAffiliates(unittest.TestCase):
         self.assertNotIn('graph linkage does not establish',html);self.assertIn('Distinct context',html)
         self.assertIn('2 related references (techniques and positions)',html)
         self.assertIn('<details><summary>Sources',html);self.assertIn('Expand for evidence',html)
-        html=affiliate.resolve_html(html,'12345.test');self.assert_gate(html,'12345.test')
+        html=affiliate.resolve_html(html,'12345.test');self.assert_gate(html, '12345.test', expected_markers=3)
         anchors=[affiliate.read_tag(a) for a in re.findall(r'<a\b[^>]*>',html) if 'data-course-url=' in a]
         self.assertEqual(len({a['href'] for a in anchors}),1)
         self.assertEqual([a['data-placement'] for a in anchors],['top','end'])
@@ -300,24 +345,52 @@ class SystemAffiliates(unittest.TestCase):
                     'duplicate-anchor': original + re.search(r'<a\b[^>]*data-course-url[^>]*>.*?</a>', original, flags=re.S)[0],
                 }
                 for name, mutant in mutations.items():
-                    with self.subTest(mutant=name):
-                        if mutant is None:
-                            page.unlink()
-                        else:
-                            page.write_text(mutant)
-                        output = StringIO()
-                        try:
+                    saved = page.read_bytes()
+                    before = hashlib.sha256(saved).hexdigest()
+                    try:
+                        with self.subTest(mutant=name):
+                            if mutant is None:
+                                page.unlink()
+                            else:
+                                page.write_text(mutant)
+                            output = StringIO()
                             with redirect_stdout(StringIO()), redirect_stderr(output), self.assertRaises(SystemExit) as failure:
                                 gate.main()
                             self.assertEqual(failure.exception.code, 1)
                             self.assertIn('marker preservation', output.getvalue())
-                        finally:
-                            page.write_text(original)
+                    finally:
+                        # Outside subTest: a failed revert must stop reuse of this fixture.
+                        page.write_bytes(saved)
+                        self.assertEqual(hashlib.sha256(page.read_bytes()).hexdigest(), before,
+                                         f'mutant restore changed bytes: {page}')
                 output = StringIO()
                 with redirect_stdout(output), redirect_stderr(StringIO()):
                     gate.main()
                 self.assertIn('2 marker pages', output.getvalue())
                 self.assertIn('6 canonical markers', output.getvalue())
+
+    def test_mutant_restore_verification_rejects_silent_wrong_writes(self):
+        # Exercise both real restoration call sites. Every target is in their
+        # disposable temp tree; no tracked source file is mutated.
+        real_write = Path.write_bytes
+        cases = (
+            ('Fixture-System.md', self.test_built_gate_checks_final_discovery_markdown_and_json_with_positive_coverage),
+            ('First-Guide.html', self.test_built_marker_contract_kills_missing_guide_or_anchor),
+        )
+        for filename, exercise in cases:
+            calls = []
+
+            def wrong_restore(path, data):
+                if path.name == filename:
+                    calls.append(path)
+                    return real_write(path, b'wrong prior committed bytes')
+                return real_write(path, data)
+
+            with self.subTest(restored_file=filename):
+                with patch.object(Path, 'write_bytes', wrong_restore):
+                    with self.assertRaisesRegex(AssertionError, 'mutant restore changed bytes'):
+                        exercise()
+                self.assertEqual(len(calls), 1, 'a failed restore must abort before the next case')
 
     def test_marker_preservation_rejects_zero_source_coverage(self):
         with tempfile.TemporaryDirectory() as tmp:

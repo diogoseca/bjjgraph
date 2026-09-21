@@ -260,7 +260,8 @@ def main():
         def run(want, name, *argv):
             nonlocal claims
             start = time.perf_counter()
-            p = subprocess.run([sys.executable, str(runner), *map(str, argv)],
+            # These proofs compare authored/retained artifacts, not a current-source build.
+            p = subprocess.run([sys.executable, str(runner), *map(str, argv), '--artifact-only'],
                                capture_output=True, text=True)
             elapsed = time.perf_counter() - start
             assert p.returncode == want, (name, p.returncode, p.stdout, p.stderr)

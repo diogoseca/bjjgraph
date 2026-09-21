@@ -21,8 +21,21 @@ export async function parseFiles(
   argv: Argv,
   fps: FilePath[],
   allSlugs: FullSlug[],
+  gitPublicationDates?: Record<string, string>,
+  gitModifiedDates?: Record<string, string>,
+  gitModifiedDatesFromMerge?: Record<string, true>,
 ) {
-  const ctx: BuildCtx = { buildId, cfg, argv, allSlugs }
+  // Legacy four-argument callers leave these undefined and retain transformer fallbacks.
+  // Native parse workers receive the host's complete maps, including merge-origin flags.
+  const ctx: BuildCtx = {
+    buildId,
+    cfg,
+    argv,
+    allSlugs,
+    gitPublicationDates,
+    gitModifiedDates,
+    gitModifiedDatesFromMerge,
+  }
   return createFileParser(ctx, fps)(createProcessor(ctx))
 }
 
@@ -126,17 +139,27 @@ function validateEmitShard(
   const expectedTargets = new Set<FullSlug>()
   const resolvedTargets = new Set<FullSlug>()
   let missing = 0
+  let inspectedTrees = 0
+  let inspectedNodes = 0
+  let references = 0
   for (const slug of reachable) {
     const tuple = residentBySlug.get(slug)
     if (!tuple) fail(`missing owned or reachable tuple ${slug}`)
-    visit(tuple[0], "element", (node: Element) => {
+    inspectedTrees++
+    // Count the root too: empty Markdown still has an inspected tree. A target
+    // count of 0/0 is meaningful only with evidence that the scan actually ran.
+    visit(tuple[0], (node) => {
+      inspectedNodes++
+      if (node.type !== "element") return
+      const element = node as Element
       if (
-        node.tagName !== "blockquote" ||
-        !((node.properties?.className ?? []) as string[]).includes("transclude")
+        element.tagName !== "blockquote" ||
+        !((element.properties?.className ?? []) as string[]).includes("transclude")
       ) {
         return
       }
-      const target = (node.children[0] as Element | undefined)?.properties?.[
+      references++
+      const target = (element.children[0] as Element | undefined)?.properties?.[
         "data-slug"
       ] as FullSlug
       if (!corpusBySlug.has(target)) {
@@ -150,6 +173,11 @@ function validateEmitShard(
       resolvedTargets.add(target)
       reachable.add(target)
     })
+  }
+  if (inspectedTrees !== reachable.size || inspectedNodes < inspectedTrees) {
+    fail(
+      `transclusion scan incomplete: trees=${inspectedTrees}/${reachable.size} nodes=${inspectedNodes}`,
+    )
   }
   for (const slug of residentBySlug.keys()) {
     if (!reachable.has(slug)) fail(`extra resident tuple ${slug} is neither owned nor reachable`)
@@ -197,8 +225,14 @@ function validateEmitShard(
       })
     }
   }
+  const targetStatus =
+    expectedTargets.size > 0
+      ? "resolved"
+      : references === 0
+        ? "none:no-transclusion-references"
+        : "none:all-references-unresolved"
   console.log(
-    `[emit:coverage:shard] shard=${task.shardIndex} owned=${shard.renderCount}/${task.owned.length} tuples=${residentBySlug.size}/${reachable.size} targets=${resolvedTargets.size}/${expectedTargets.size} missing=${missing}`,
+    `[emit:coverage:shard] shard=${task.shardIndex} owned=${shard.renderCount}/${task.owned.length} tuples=${residentBySlug.size}/${reachable.size} targets=${resolvedTargets.size}/${expectedTargets.size} missing=${missing} inspectedTrees=${inspectedTrees}/${reachable.size} inspectedNodes=${inspectedNodes} references=${references} targetStatus=${targetStatus}`,
   )
 }
 
@@ -213,7 +247,15 @@ if (parentPort && workerData) {
   parentPort.on("message", async ({ id, task }) => {
     try {
       if (init.phase === "parse") {
-        const result = await parseFiles(init.buildId, init.argv, task, init.allSlugs)
+        const result = await parseFiles(
+          init.buildId,
+          init.argv,
+          task,
+          init.allSlugs,
+          init.gitPublicationDates,
+          init.gitModifiedDates,
+          init.gitModifiedDatesFromMerge,
+        )
         parentPort!.postMessage({ id, result })
       } else {
         const emitTask = task as EmitTask

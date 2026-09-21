@@ -5,19 +5,22 @@
 // byte parity belongs to the whole-site emitter gates. The application components still render.
 // RED observed before the fix: "real build fails when graph.json is missing" caught status 0
 // after the incumbent entry parsed four inputs, filtered one draft and emitted seventeen files.
-import { before, test } from "node:test";
-import assert from "node:assert/strict";
+import { before } from "node:test";
 import { spawnSync, execFileSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { createRequire } from "node:module";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs";
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.join(REPO, "source");
-const requireFromSource = createRequire(path.join(SOURCE, "package.json"));
-const { build: bundle } = requireFromSource("esbuild");
+const deps = depsPromised(import.meta.url, {
+  ...SOURCE_DEPS,
+  modules: ["esbuild"],
+});
+const { test, assert, require: requireFromSource } = deps;
+const { build: bundle } = await deps.setup(() => requireFromSource("esbuild"));
 const bundles = new Map();
 
 test("actual CLI serializes overlapping source rebuild watcher lifetimes", async (t) => {
@@ -203,6 +206,7 @@ test("actual CLI serializes overlapping source rebuild watcher lifetimes", async
 });
 
 before(async () => {
+  if (!deps.ok) return;
   await Promise.all(
     ["build", "worker"].map(async (entry) => {
       const result = await bundle({
@@ -515,6 +519,12 @@ async function instrumentWorkerIdentity(f, mutant) {
       });
       build.onLoad({ filter: /\/quartz\/worker\.ts$/ }, (args) => {
         let source = fs.readFileSync(args.path, "utf8");
+        if (mutant === "skippedTargetScan") {
+          const scan = "visit(tuple[0], (node) => {";
+          assert.equal(source.split(scan).length, 2);
+          // In-memory bundle mutation only: the tracked worker is never rewritten.
+          source = source.replace(scan, "if (false) " + scan);
+        }
         assert.equal(
           source.split(workerNeedle).length,
           2,
@@ -621,9 +631,13 @@ test("real build fails when graph.json is missing", (t) => {
     /graph\.json/i,
     "failure must identify the graph input",
   );
+  console.log(
+    "Graph rejection coverage: 1 missing-file case rejected with the graph input named",
+  );
 });
 
 test("real build fails for malformed and empty graph.json", async (t) => {
+  let checked = 0;
   for (const [name, graph] of [
     ["malformed", "{broken"],
     ["empty", "{}"],
@@ -652,8 +666,17 @@ test("real build fails for malformed and empty graph.json", async (t) => {
         /graph\.json/i,
         "failure must identify the graph input",
       );
+      checked++;
     });
   }
+  assert.equal(
+    checked,
+    3,
+    "every malformed or empty graph case must reach its assertions",
+  );
+  console.log(
+    `Graph rejection coverage: ${checked} malformed or empty graph cases rejected with the graph input named`,
+  );
 });
 
 test("real build preserves discovery, draft filtering, trim, transclusions and cleanup", (t) => {
@@ -782,6 +805,11 @@ test("emit transport partitions trees before native worker hydration", (t) => {
     shards.every((s) => s.metadata === 3),
     "every shard needs the full metadata roster",
   );
+  assert.equal(
+    [...result.log.matchAll(/targets=1\/1 missing=0 inspectedTrees=2\/2 inspectedNodes=[1-9]\d* references=1 targetStatus=resolved/g)].length,
+    1,
+    "the cross-shard target must report an executed scan and a resolved reference",
+  );
   console.log(
     "Shard coverage: 3 owned pages once; 4 resident trees including 1 cross-shard target; 3 metadata entries per worker (was 6 full trees)",
   );
@@ -808,6 +836,12 @@ test("four emit workers hydrate four owned trees, with a complete roll roster in
     result.log,
     /\[emit:coverage:plan\] owned=4\/4 shards=4 residentTuples=4 duplication=1\.000/,
   );
+  // The corpus has no embeds: 0/0 alone cannot distinguish absence from a skipped
+  // traversal. Pin every shard's executed scan and its explicit empty-set reason.
+  assert.equal(
+    [...result.log.matchAll(/targets=0\/0 missing=0 inspectedTrees=1\/1 inspectedNodes=[1-9]\d* references=0 targetStatus=none:no-transclusion-references/g)].length,
+    4,
+  );
   for (const page of [
     "index",
     "Positions/Mount",
@@ -827,6 +861,37 @@ test("four emit workers hydrate four owned trees, with a complete roll roster in
   }
   console.log(
     "Four-worker coverage: 4 owned/resident trees total (old handoff 16); 4 eager metadata entries and complete 2-role roster in each worker",
+  );
+});
+
+test("target coverage distinguishes no references from all references unresolved", (t) => {
+  const f = fixture(t);
+  f.put("content/index.md", `${frontmatter("Home")}\n![[absent-page]]\n`);
+  const result = runBuild(f, 2);
+  assert.equal(result.status, 0, result.log);
+  assert.equal(
+    [...result.log.matchAll(/targets=0\/0 missing=1 inspectedTrees=1\/1 inspectedNodes=[1-9]\d* references=1 targetStatus=none:all-references-unresolved/g)].length,
+    1,
+  );
+  assert.equal(
+    [...result.log.matchAll(/targets=0\/0 missing=0 inspectedTrees=2\/2 inspectedNodes=[1-9]\d* references=0 targetStatus=none:no-transclusion-references/g)].length,
+    1,
+  );
+  console.log(
+    "Target coverage: 2 worker reports asserted, 1 unresolved reference and 1 shard without references, 3 owned trees inspected",
+  );
+});
+
+test("native target scan rejects a skipped traversal", async (t) => {
+  const f = fixture(t);
+  await instrumentWorkerIdentity(f, "skippedTargetScan");
+  const result = runBuild(f, 2);
+  assert.notEqual(result.status, 0, "unexecuted target scan must fail even without a target");
+  // Either worker may report the first failure; its reachable set was not expanded
+  // because the scan was skipped. Both possible ownership counts are explicit.
+  assert.match(result.log, /transclusion scan incomplete: trees=(?:1\/1|2\/2) nodes=0/);
+  console.log(
+    "Target scan coverage: 1 skipped-traversal mutant rejected with nodes=0",
   );
 });
 
@@ -1066,6 +1131,9 @@ test("real build can clean and rebuild twice in one process", (t) => {
     "both builds must complete rendering over the full fixture",
   );
   assert.match(result.log, /\[repeat:coverage\] rounds=2 files=17/);
+  console.log(
+    "Repeat-build coverage: 2 same-process builds, 17 artifacts compared byte-for-byte, 2 render coverage receipts",
+  );
 });
 
 test("workerCount preserves incumbent default thresholds and explicit overrides", async () => {
@@ -1239,6 +1307,7 @@ export async function runWorkerTasks() { throw new Error("fixture worker rejecti
       },
     ],
   });
+  let checked = 0;
   for (const concurrency of [1, 2]) {
     await t.test(`concurrency ${concurrency}`, async () => {
       events.length = 0;
@@ -1260,8 +1329,17 @@ export async function runWorkerTasks() { throw new Error("fixture worker rejecti
         ["start", "end"],
         "failure must stop the logger exactly once",
       );
+      checked++;
     });
   }
+  assert.equal(
+    checked,
+    2,
+    "both parser failure paths must reach their lifecycle assertions",
+  );
+  console.log(
+    `Parser logger coverage: ${checked} failure paths (main and worker), 1 start and 1 end asserted in each`,
+  );
 });
 
 test("actual CLI compiler keeps full main and emit resources but blank parse resources", (t) => {

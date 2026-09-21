@@ -1,5 +1,5 @@
 import { Worker } from "node:worker_threads"
-import type { Argv } from "../util/ctx"
+import type { Argv, BuildCtx } from "../util/ctx"
 import type { FilePath, FullSlug } from "../util/path"
 import type { StaticResources } from "../util/resources"
 import type { ProcessedContent, QuartzPluginData } from "../plugins/vfile"
@@ -11,7 +11,10 @@ export type WorkerInit = {
   argv: Argv
   allSlugs: FullSlug[]
 } & (
-  | { phase: "parse" }
+  | ({ phase: "parse" } & Pick<
+      BuildCtx,
+      "gitPublicationDates" | "gitModifiedDates" | "gitModifiedDatesFromMerge"
+    >)
   | {
       phase: "emit"
       resources: StaticResources

@@ -28,6 +28,12 @@
  * Python provisioning. A selected-file pass says nothing about unselected files.
  * --selftest pins disk-only toml, scoped/subpath imports, ancestor boundaries,
  * type imports, dynamic-import absence, empty coverage, and comment false positives.
+ * Every fixture asserts exact specifier count AND identity (COORDINATION 7K).
+ * Quoted structural siblings pass through the same TypeScript parser as inputs;
+ * malformed quoting is an instrument error, never measured absence. The companion
+ * emit_mutation_test.py --phantom-controls kills empty/duplicated/remapped parser
+ * results in temporary copies and checks source hashes; none survives. These
+ * controls prove parser fixtures, not the scope of every future build invocation.
  */
 import assert from 'node:assert/strict';
 import { builtinModules, createRequire } from 'node:module';
@@ -200,36 +206,47 @@ function selftest() {
   const base = '/fixture', source = `${base}/source`, deps = new Set(['preact', '@scope/pkg', '@types/hast']);
   const manifests = [{ file: `${base}/package.json`, deps: new Set() }, { file: `${source}/package.json`, deps }];
   let checked = 0;
-  const proof = (name, text, want, file = `${source}/case.ts`) => {
-    const result = audit(parse(file, text), manifests, base);
+  const proof = (name, text, want, specs, file = `${source}/case.ts`) => {
+    const rows = parse(file, text);
+    const result = audit(rows, manifests, base);
     assert.equal(result.exit, want, name);
-    assert.ok(result.counts.specifiers > 0);
+    assert.equal(result.counts.specifiers, specs.length, name + ': exact specifier count');
+    assert.deepEqual(rows.map(r => r.spec), specs, name + ': exact specifier identity');
     checked++;
     console.log(`PASS ${name}: coverage=${result.counts.specifiers}, exit=${want}`);
     return result;
   };
-  proof('declared scoped/subpath/builtins', 'import "preact/jsx-runtime"; export {} from "@scope/pkg/sub"; import "node:fs"', 0);
-  proof('phantom toml', 'import toml from "toml"', 1);
-  proof('comment/string are not imports', '// import "toml"\nconst x="require(\\"toml\\")"; import "preact"', 0);
-  proof('root cannot borrow source manifest', 'import "preact"', 1, `${base}/script.mjs`);
-  proof('dynamic literal phantom', 'await import("toml")', 1);
-  proof('unknown dynamic fails closed', 'await import(process.env.PACKAGE)', 2);
-  proof('type-only phantom', 'import type { X } from "toml"; type Y = import("toml").Y', 1);
-  proof('declared type package', 'import type {Root} from "hast"', 0);
-  proof('declaration-file imports are types', 'import {Root} from "hast"; export declare const root: Root', 0, `${source}/case.d.ts`);
-  proof('inferred type-only import', 'import {Root} from "hast"; export const x: Root = {} as Root', 0);
-  proof('runtime import cannot borrow @types', 'import {Root} from "hast"; console.log(Root)', 1);
-  proof('side-effect import cannot borrow @types', 'import "hast"', 1);
-  proof('bounded generated cache path', 'import {threadId} from "node:worker_threads"; await import(`./.quartz-cache/probe-${process.pid}-${threadId}.mjs`)', 0);
-  proof('unknown generated cache path still fails', 'await import(`./.quartz-cache/probe-${process.env.MODULE}.mjs`)', 2);
-  proof('require phantom', 'const t = require("toml")', 1);
-  proof('explicit createRequire source boundary', 'import {createRequire} from "node:module"; const r=createRequire(new URL("./source/package.json", import.meta.url)); r("preact")', 0, `${base}/tool.mjs`);
-  proof('node_modules path is no bypass', 'import "../node_modules/toml/index.js"', 1);
+  proof('declared scoped/subpath/builtins', 'import "preact/jsx-runtime"; export {} from "@scope/pkg/sub"; import "node:fs"', 0,
+    ['preact/jsx-runtime', '@scope/pkg/sub', 'node:fs']);
+  proof('phantom toml', 'import toml from "toml"', 1, ['toml']);
+  proof('comment/string are not imports', '// import "toml"\nconst x="require(\\"toml\\")"; import "preact"', 0, ['preact']);
+  proof('root cannot borrow source manifest', 'import "preact"', 1, ['preact'], `${base}/script.mjs`);
+  proof('dynamic literal phantom', 'await import("toml")', 1, ['toml']);
+  proof('unknown dynamic fails closed', 'await import(process.env.PACKAGE)', 2, [undefined]);
+  proof('type-only phantom', 'import type { X } from "toml"; type Y = import("toml").Y', 1, ['toml', 'toml']);
+  proof('declared type package', 'import type {Root} from "hast"', 0, ['hast']);
+  proof('declaration-file imports are types', 'import {Root} from "hast"; export declare const root: Root', 0, ['hast'], `${source}/case.d.ts`);
+  proof('inferred type-only import', 'import {Root} from "hast"; export const x: Root = {} as Root', 0, ['hast']);
+  proof('runtime import cannot borrow @types', 'import {Root} from "hast"; console.log(Root)', 1, ['hast']);
+  proof('side-effect import cannot borrow @types', 'import "hast"', 1, ['hast']);
+  proof('bounded generated cache path', 'import {threadId} from "node:worker_threads"; await import(`./.quartz-cache/probe-${process.pid}-${threadId}.mjs`)', 0,
+    ['node:worker_threads', './.quartz-cache/probe-<integer>-<integer>.mjs']);
+  proof('unknown generated cache path still fails', 'await import(`./.quartz-cache/probe-${process.env.MODULE}.mjs`)', 2, [undefined]);
+  proof('require phantom', 'const t = require("toml")', 1, ['toml']);
+  proof('explicit createRequire source boundary', 'import {createRequire} from "node:module"; const r=createRequire(new URL("./source/package.json", import.meta.url)); r("preact")', 0,
+    ['node:module', 'preact'], `${base}/tool.mjs`);
+  proof('node_modules path is no bypass', 'import "../node_modules/toml/index.js"', 1, ['../node_modules/toml/index.js']);
+  proof('quoted structural siblings', 'import "preact"; import \'preact\'; await import(`preact`); require("preact")', 0,
+    ['preact', 'preact', 'preact', 'preact']);
+  assert.throws(() => parse(`${source}/malformed.ts`, String.raw`import \"preact\";`), /JS\/TS parse errors/);
+  checked++; console.log('PASS malformed quoted import is not absence: syntax error');
   assert.throws(() => audit([], manifests, base), /zero/); checked++;
   const realManifest = JSON.parse(readFileSync(path.join(toolRoot, 'source/package.json')));
   const actual = [{ file: path.join(toolRoot, 'source/package.json'), deps: new Set(Object.keys({ ...realManifest.dependencies, ...realManifest.devDependencies })) }];
   const real = audit(parse(path.join(toolRoot, 'source/phantom-proof.ts'), 'import "toml"'), actual, toolRoot);
   assert.equal(real.exit, 1);
+  assert.equal(real.counts.specifiers, 1, 'actual manifest fixture exact specifier count');
+  assert.equal(real.problems.length, 1);
   assert.equal(real.problems[0].package, 'toml');
   console.log(`PASS actual toml: disk=${real.problems[0].onDisk}, manifest=undeclared, exit=1`); checked++;
   console.log(`PASS coverage: ${checked} phantom-import assertions`);

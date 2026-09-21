@@ -20,7 +20,8 @@ export interface Argv {
 }
 
 /**
- * S1-1 freezes the incumbent context shape. allFiles belongs to component props:
+ * S1-1 freezes the context boundary; X-01 adds host-prepared Git date maps.
+ * allFiles belongs to component props:
  * emitters derive it from their filtered ProcessedContent[] input. There is no
  * ctx.allFiles or ctx.baseDir; directory bases are specified by Argv above.
  */
@@ -30,4 +31,10 @@ export interface BuildCtx {
   cfg: QuartzConfig
   /** Pre-filter discovery order, including non-Markdown inputs; do not re-sort. */
   allSlugs: FullSlug[]
+  // Git-relative forward-slash Markdown paths; ISO UTC dates. Missing entries are unknown.
+  gitPublicationDates?: Record<string, string>
+  gitModifiedDates?: Record<string, string>
+  // True when gitModifiedDates[path] came from a combined merge diff. Same path keys.
+  // Missing field = flags not supplied; within a supplied map, unlisted entries are unflagged.
+  gitModifiedDatesFromMerge?: Record<string, true>
 }

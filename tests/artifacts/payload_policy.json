@@ -9,12 +9,12 @@
    "target": 300000,
    "action": 400000,
    "delta_cap": 5000,
-   "baseline": 329808,
-   "baseline_ref": "v1.188.2 (e5d3fbeb2)",
+   "baseline": 332290,
+   "baseline_ref": "v1.194.3 (218be9bdf)",
    "baseline_at": "2026-09-20",
-   "baseline_reason": "Seeding the policy at the tree it was written against (v1.188.2). 329,808 B gzip, measured from a full local build; the eager set carries no affiliate-stamped or analytics-injected file, so this figure is identical on a deploy (verified: 0 of its 5 files change under AFFILIATE_REF). The hard ceiling this replaces was 330,000 - 192 bytes of headroom.",
+   "baseline_reason": "The More fold reading redesign and its pinned contents head (v1.194.0-v1.194.3, merged 218be9bdf). Deliberate, owner-chosen emit change: app/neural.js 571,664 -> 574,845 raw, plus a NEW deferred artifact app/reading.css (2,099 B) that is off the boot path. Accepted so the next change measures against this tree rather than accumulating with it against one 5,000 B delta cap; X-01 (git-derived publication dates) lands next and must be measured fresh. Tree verified four independent ways before accepting: X-02's committed first_hand_payload.json carries 574,845 and not 570,846; a net-add cannot shrink the tree it adds to; a fresh build at programme HEAD reproduced the 571,664/45,754 pre-change baseline byte-for-byte, proving the bundle build deterministic; and this post-merge dev build emits 574,845.",
    "_comment": "TARGET 300,000 is the owner's figure verbatim ('target is <300k'). Measured at v1.188.2 the eager set is ~329,800, so this metric SITS IN THE WARN BAND ON ARRIVAL and is expected to keep warning until the payload is trimmed. That is intended - a target is an aspiration you are measured against, not a line you are currently inside - but it is worth saying plainly, because a gate that warns on every single run is a gate people learn to scroll past. ACTION 400,000 is the owner's figure verbatim, and it is ~70,000 above today: on the tree this policy was written against the OLD hard ceiling was 330,000 against a measured 329,808, i.e. 192 BYTES of headroom, so the next neural feature of any size was going red on arrival. DELTA CAP 5,000 is the number that keeps the 70,000 of new room honest. It is ~1.5% of the current figure and ~2.6x the largest ordinary single-ship growth on record (the three measured neural.js bumps in budget_neural.json's history: +626, +1,929, +581 gzip), so an ordinary feature never trips it; and it is 14x smaller than the 70,000 cliff it exists to catch. RECOMPUTE THE CURRENT FIGURE: `npm run validate:payload` prints it, or `python3 scripts/check_payload_budget.py` after a build.",
-   "previous_baseline": null,
+   "previous_baseline": 329808,
    "baseline_source": "measured from the built tree by this script"
   },
   "first_hand_gzip_bytes": {

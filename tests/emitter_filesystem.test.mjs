@@ -128,6 +128,8 @@ import { TagPage } from ${q("quartz/plugins/emitters/tagPage")}
 import { NotFoundPage } from ${q("quartz/plugins/emitters/404")}
 import { ContentPage } from ${q("quartz/plugins/emitters/contentPage")}
 import * as AllEmitters from ${q("quartz/plugins/emitters/index")}
+import { emitContent } from ${q("quartz/processors/emit")}
+import { snapshot as ledgerSnapshot, enabled as ledgerEnabled } from ${q("quartz/plugins/emitters/emitLedger")}
 import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
 import { resetRenderState } from ${q("quartz/components/renderPage")}
 import realConfig from ${q("quartz.config")}
@@ -194,6 +196,19 @@ if (args.kind === "contentindex") {
   // those two steps is observable only in the emitted bytes.
   out.sitemap = fs.readFileSync(path.join(args.output, "sitemap.xml"), "utf8")
   out.rss = fs.readFileSync(path.join(args.output, "index.xml"), "utf8")
+}
+
+if (args.kind === "ledger") {
+  // Drive the REAL emitContent with the REAL configured emitters into ONE output directory —
+  // the production shape, including the concurrent phase two — and read the ledger afterwards.
+  process.chdir(args.root)
+  const content = args.pages.map((p) => defaultProcessedContent(p))
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = realConfig.configuration
+  ctx.cfg.plugins = { transformers: [], filters: [], emitters: realConfig.plugins.emitters }
+  await emitContent(ctx, content)
+  out.enabled = ledgerEnabled
+  out.claims = ledgerSnapshot()
 }
 
 if (args.kind === "sole-registrant") {
@@ -1888,6 +1903,182 @@ test("404Page is the sole registrant of NotFound's css and script, and its remov
   console.log(
     `  [coverage] 404Page sole registrant: ${checked} markers present-with and absent-without ` +
       `across 2 bundles; removing it costs ${cssLost} css bytes and ${jsLost} js bytes`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// The in-build emit ledger: attribution must be a PARTITION of what was written
+// ---------------------------------------------------------------------------------------------
+
+// D-B-05. The batched re-capture is one build, so attribution has to be observed DURING it —
+// a finished tree says what exists, not which emitter wrote it. This gates the observer itself.
+//
+// Three properties, and the third is the one a count cannot give you:
+//   1. every emitter that wrote anything has a ledger entry (no silent gap)
+//   2. the union of claims equals the filesystem walk (no unclaimed path, in a fixture where no
+//      post-processor runs — in a real build the unclaimed set is F's output and is asserted by
+//      shape, never by membership)
+//   3. NO PATH IS CLAIMED TWICE. Attribution must PARTITION the output. This is what would break
+//      if the ledger used a module-level "current emitter" instead of AsyncLocalStorage, because
+//      phase two runs emitters concurrently through one shared write().
+
+// MUTANTS, ALL RUN THROUGH quartz/mutate.sh SO THE REVERT IS HASH-VERIFIED:
+//   - ALS replaced by a module-global               … kills, but on the COVERAGE FLOOR: nothing
+//     is attributed at all, so it does not exercise misattribution. That is why (4) exists.
+//   - Static claims its reporting glob, not the copy … kills, naming static/payload/*.json
+//   - recorders ignore ALS and attribute everything to one emitter … kills on (4), with
+//     "404.html was attributed to ContentPage, not 404Page — attribution is total but wrong"
+//   - DISCARDED AS A NO-OP: changing only the `if (!ctx) return` FALLBACK. ALS never fails, so
+//     the fallback never runs and the mutation changes nothing. A mutation that cannot execute
+//     is not a surviving mutant; it is not a mutant.
+test("emit ledger: attribution partitions the output, under the real concurrent driver", () => {
+  // TWO cwd-relative dependencies pull in opposite directions and the fixture has to satisfy both:
+  //   static.ts resolves its source as `quartz/static` relative to cwd
+  //   renderPage's loadGraphData reads `<cwd>/../graph.json` and now THROWS if it is missing
+  //     (S1's authorised change — the bare catch became a hard failure)
+  // So cwd is a NESTED directory with graph.json in its parent.
+  const base = tmp("bjj-ledger-")
+  const root = path.join(base, "work")
+  const output = path.join(root, "out")
+  fs.mkdirSync(path.join(root, "quartz", "static", "payload"), { recursive: true })
+  fs.writeFileSync(path.join(root, "quartz", "static", "a.txt"), "a")
+  fs.writeFileSync(path.join(root, "quartz", "static", "payload", "b.txt"), "b")
+  // WHAT THIS FIXTURE MUST CONTAIN FOR THE GLOB-ONLY MUTANT TO BE ABLE TO DIE — do not trim it.
+  // Static COPIES with fs.cp and REPORTS with a filtered glob, and the whole point of the seam is
+  // that those are different sets: 9 reported against 4,952 copied in production. A fixture whose
+  // glob returns everything cannot distinguish "claim what you copied" from "claim what you
+  // reported", so the mutant dies for the wrong reason or not at all. These .json files are what
+  // the glob misses — `**/!(bjj-graph).json` in the real ignorePatterns removes them, exactly as
+  // it removes the 4,943-file neural payload in production.
+  //
+  // Measured before adding them: with only a.txt and payload/b.txt the glob returned BOTH, and
+  // the glob-only mutant SURVIVED. An earlier run appeared to kill it — that was a false kill
+  // caused by a previous mutant surviving its own revert.
+  fs.writeFileSync(path.join(root, "quartz", "static", "payload", "big.json"), '{"generated":1}')
+  fs.writeFileSync(path.join(root, "quartz", "static", "payload", "more.json"), '{"generated":2}')
+  // A minimal graph with a positive entry count: loadGraphData also throws on zero coverage, so
+  // an empty object would fail for a second, different reason.
+  fs.writeFileSync(
+    path.join(base, "graph.json"),
+    JSON.stringify({ positions: { "fixture-node": { title: "Fixture" } } }),
+  )
+
+  // filePath is required: AliasRedirects reads `path.dirname(file.data.filePath!)` to resolve an
+  // alias relative to its own file's directory. defaultProcessedContent assigns only what it is
+  // given, so a synthetic page without it throws — which is a fixture gap, not an emitter defect.
+  const mkPage = (slug, title, tags) => ({
+    slug,
+    filePath: path.join(root, "content", `${slug}.md`),
+    frontmatter: { title, tags },
+  })
+  const pages = [
+    mkPage("index", "Home", ["alpha"]),
+    mkPage("Section/One", "One", ["alpha"]),
+    mkPage("Section/Two", "Two", []),
+  ]
+
+  const { value } = probe(SNIPPET, {
+    env: {
+      BJJ_PROBE_ARGS: JSON.stringify({ kind: "ledger", root, output, pages, directory: path.join(root, "content") }),
+      BJJ_EMIT_LEDGER_DIR: path.join(root, "ledger"),
+    },
+  })
+
+  assert.ok(value.enabled, "the ledger did not activate; BJJ_EMIT_LEDGER_DIR was not seen")
+
+  const claims = value.claims
+  const emitters = Object.keys(claims)
+
+  // EXACT, not non-zero (COORDINATION 7K part 2). `emitters.length > 0` proves the ledger RAN; it
+  // does not prove WHAT ran. If an emitter silently stopped emitting, the partition below would
+  // still hold perfectly — every remaining path claimed exactly once, nothing unclaimed, nothing
+  // phantom — and this gate would stay green while the build lost a whole archetype. The two
+  // floors this replaces could not tell a correct ledger from a diminished one.
+  //
+  // AliasRedirects and Assets are absent BY CONSTRUCTION, not by accident: the fixture authors no
+  // `aliases` frontmatter and no non-markdown assets, so both emit zero paths and never appear as
+  // keys. Naming them here is the point — if either starts claiming, this set changes and the
+  // gate says so.
+  assert.deepEqual(
+    emitters.slice().sort(),
+    ["404Page", "ComponentResources", "ContentIndex", "ContentPage", "FolderPage", "Static", "TagPage"],
+    "the set of emitters that produced output is not the expected one",
+  )
+
+  // 3. PARTITION: no path claimed by two emitters.
+  const owner = new Map()
+  const doubles = []
+  for (const [emitter, paths] of Object.entries(claims)) {
+    for (const rel of paths) {
+      if (owner.has(rel)) doubles.push(`${rel} claimed by both ${owner.get(rel)} and ${emitter}`)
+      else owner.set(rel, emitter)
+    }
+  }
+  assert.deepEqual(doubles, [], "attribution is not a partition — a path was claimed twice")
+
+  // 2. every written path is claimed, and every claim exists.
+  const walked = new Set(walk(output))
+  const unclaimed = [...walked].filter((p) => !owner.has(p)).sort()
+  const phantom = [...owner.keys()].filter((p) => !walked.has(p)).sort()
+  assert.deepEqual(
+    unclaimed,
+    [],
+    `paths exist that no emitter claimed: ${unclaimed.slice(0, 5).join(", ")} — in this fixture no ` +
+      `post-processor runs, so every file must be attributable`,
+  )
+  assert.deepEqual(
+    phantom,
+    [],
+    `the ledger claimed paths that do not exist: ${phantom.slice(0, 5).join(", ")} — a ledger that ` +
+      `records intent rather than result is the defect the post-build walk exists to prevent`,
+  )
+
+  // 1. EXACT corpus size, for the same reason as the emitter set above. `owner.size >= walked.size`
+  //    is satisfied by any tree, including an empty one (0 >= 0) — it is a tautology dressed as a
+  //    floor, since the partition checks already prove the two sets are equal. 18 is the fixture's
+  //    whole output and it decomposes as:
+  //      ContentPage        3  index.html, Section/One.html, Section/Two.html
+  //      FolderPage         1  Section/index.html
+  //      TagPage            2  tags/index.html, tags/alpha.html
+  //      404Page            1  404.html
+  //      ContentIndex       3  index.xml, sitemap.xml, static/contentIndex.json
+  //      ComponentResources 4  index.css, prescript.js, postscript.js, and the SPA router asset
+  //      Static             4  static/a.txt, static/payload/{b.txt,big.json,more.json}
+  //    A change to any line above must move this number, which is exactly the property the old
+  //    floor lacked.
+  assert.equal(
+    walked.size,
+    18,
+    `the fixture emitted ${walked.size} files, not 18 — an archetype gained or lost output`,
+  )
+  assert.equal(owner.size, walked.size, "claims and files disagree in count")
+
+  // 4. AND THE ATTRIBUTION IS CORRECT, not merely total. A partition says every path is claimed
+  //    exactly once; it does NOT say by the right emitter. A ledger that attributed every path to
+  //    a wrong-but-consistent owner would satisfy 1-3 completely. Measured: the ALS mutant dies on
+  //    the coverage floor rather than on misattribution, so without these four the test proves
+  //    less than it appears to.
+  const expectedOwner = {
+    "404.html": "404Page",
+    "index.xml": "ContentIndex",
+    "static/a.txt": "Static",
+    "tags/index.html": "TagPage",
+  }
+  let owners = 0
+  for (const [rel, emitter] of Object.entries(expectedOwner)) {
+    assert.ok(walked.has(rel), `fixture did not produce ${rel}, so its ownership proves nothing`)
+    assert.equal(
+      owner.get(rel),
+      emitter,
+      `${rel} was attributed to ${owner.get(rel)}, not ${emitter} — attribution is total but wrong`,
+    )
+    owners++
+  }
+  assert.equal(owners, 4, "coverage floor: no ownerships checked")
+  console.log(
+    `  [coverage] emit ledger: ${walked.size} files written by ${emitters.length} emitters under ` +
+      `the real emitContent, partition exact (0 double-claims, 0 unclaimed, 0 phantom), ` +
+      `${owners} ownerships pinned by name`,
   )
 })
 

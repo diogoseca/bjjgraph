@@ -56,6 +56,7 @@ import { fileURLToPath } from "node:url"
 import path from "node:path"
 import fs from "node:fs"
 import os from "node:os"
+import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs"
 
 export const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const SRC = path.join(REPO, "source")
@@ -96,17 +97,35 @@ export function sourceRequire() {
   return req
 }
 
-/** True when the Quartz sub-package's node_modules is present. Callers PRINT and skip; a skip that
- *  is silent reads exactly like a pass (CLAUDE.md §6.6). */
-export function harnessAvailable() {
-  try {
-    sourceRequire().resolve("esbuild")
-    sourceRequire().resolve("unified")
-    return true
-  } catch {
-    return false
-  }
-}
+/** Every package this bridge resolves at runtime from code outside node_modules: its own requires
+ *  (esbuild, esbuild-sass-plugin, unified, remark-parse, remark-rehype, vfile, hast-util-to-html)
+ *  plus everything the esbuild bundle of quartz.config.ts pulls in with `packages: "external"` —
+ *  every transformer's imports, which no grep of tests/ can see. TRACED, NOT GREPPED: with only
+ *  @napi-rs/simple-git hidden, a two-sentinel guard stayed silent and 4 of 5 sanitizer cases
+ *  went red inside the pipeline with a raw module error (measured 2026-09-21). Recompute with
+ *    TRACE_OUT=/tmp/t.json node --import tests/artifacts/_promised_deps_trace.mjs tests/quartz_sanitizer_ping.test.mjs
+ *  (the tracer lands with fix/promised-deps-manifests-traced); re-trace after any change to the
+ *  config or to what a transformer imports. */
+export const HARNESS_MODULES = Object.freeze([
+  "@napi-rs/simple-git", "chalk", "dotenv", "esbuild", "esbuild-sass-plugin", "github-slugger",
+  "globby", "gray-matter", "hast-util-to-html", "hast-util-to-jsx-runtime", "hast-util-to-string",
+  "is-absolute-url", "js-yaml", "lightningcss", "mdast-util-find-and-replace", "mdast-util-to-hast",
+  "mdast-util-to-string", "preact", "preact-render-to-string", "rehype-autolink-headings",
+  "rehype-pretty-code", "rehype-raw", "rehype-slug", "remark-frontmatter", "remark-gfm",
+  "remark-parse", "remark-rehype", "remark-smartypants", "rfdc", "unified", "unist-util-visit",
+  "vfile", "workerpool",
+])
+
+/** True when the Quartz sub-package's node_modules is present — decided by the ONE promised-deps
+ *  guard, tests/_deps_promised.mjs (v1.195.9), never by a second copy of the check. Under CI an
+ *  absent module THROWS from this call naming it and the install step, so a spec that consults it
+ *  fails rather than skips; at home it returns false after printing one SKIP line. Memoised per
+ *  caller, so eleven specs asking is one decision. A spec that also wants the asserted-count line
+ *  calls depsPromised(import.meta.url, { ...SOURCE_DEPS, modules: [...HARNESS_MODULES, …] })
+ *  itself and registers through its `test`/`assert`, the way tests/quartz_sanitizer_ping.test.mjs
+ *  does. */
+export const harnessAvailable = () =>
+  depsPromised(import.meta.url, { ...SOURCE_DEPS, modules: HARNESS_MODULES }).ok
 
 let configPromise = null
 /** The REAL instantiated QuartzConfig. Bundled once per process. */

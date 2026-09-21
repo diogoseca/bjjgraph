@@ -76,9 +76,41 @@ for f in "${FILES[@]}"; do
   mkdir -p "$BAKDIR/$(dirname "$f")"
   cp "$SITE_DIR/$f" "$BAKDIR/$f"
 done
+# A REVERT THAT CANNOT FAIL LOUDLY IS NOT A REVERT (COORDINATION 7I). This harness never used
+# `git checkout`, so it is immune to B's two failure modes by construction - it copies real bytes,
+# so an UNTRACKED file is restored and UNCOMMITTED work is preserved. But copying without checking
+# still leaves the third mode: a revert that silently did not happen. So every file's sha256 is
+# recorded BEFORE any mutant runs, and every restore is verified against it. A mismatch means
+# either the copy failed or something mutated the file outside this script's trap - which has
+# happened here once already, when a nested heredoc leaked fragments into bash.
+: > "$BAKDIR/manifest.sha"
+for f in "${FILES[@]}";     do sha256sum "$SITE_DIR/$f" >> "$BAKDIR/manifest.sha"; done
+for f in "${SRC_FILES[@]}"; do sha256sum "$f"           >> "$BAKDIR/manifest.sha"; done
+echo "   revert guard armed: $(wc -l < "$BAKDIR/manifest.sha") file hashes recorded"
+
+RESTORE_FAILED=0
+verify_restore() {
+  local bad=0 want f got
+  while read -r want f; do
+    got=$(sha256sum "$f" 2>/dev/null | cut -d" " -f1)
+    if [ "$got" != "$want" ]; then
+      echo "  FATAL: RESTORE DID NOT RESTORE $f" >&2
+      echo "         expected $want" >&2
+      echo "         got      ${got:-<file missing>}" >&2
+      bad=1
+    fi
+  done < "$BAKDIR/manifest.sha"
+  return $bad
+}
+
 restore() {
   for f in "${FILES[@]}"; do cp "$BAKDIR/$f" "$SITE_DIR/$f"; done
   for f in "${SRC_FILES[@]}"; do cp "$BAKDIR/src/$f" "$f"; done
+  if ! verify_restore; then
+    echo "  A REVERT THAT CANNOT FAIL LOUDLY IS NOT A REVERT (7I) - every result after this" >&2
+    echo "  point was measured against a tree that is NOT the pre-mutation tree." >&2
+    RESTORE_FAILED=1
+  fi
 }
 trap 'restore; rm -rf "$BAKDIR"' EXIT INT TERM
 
@@ -380,5 +412,6 @@ run_node M13 "TagContent numPages limits"
 
 echo "── ${APPLIED} mutants applied · ${KILLS} killed with the right discrimination · ${FAILURES} bad ──"
 if [ -z "${ONLY:-}" ]; then [ "$APPLIED" -eq 13 ] || { echo "EXPECTED 13 MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }; else echo "   (filtered run: ONLY=${ONLY} — this is NOT a ten-of-ten claim)"; fi
+[ "${RESTORE_FAILED:-0}" -eq 0 ] || { echo "RESTORE VERIFICATION FAILED - results above are UNRELIABLE"; exit 1; }
 [ "$FAILURES" -eq 0 ] || exit 1
 echo "── tree restored ──"

@@ -1,0 +1,23 @@
+{
+  "published": {
+    "min_pages": 6000,
+    "min_distinct_days": 18,
+    "min_span_days": 632,
+    "max_day_share": 0.5,
+    "basis": "All 4600 content Markdown files at e81f18f06 were individually checked with git log --follow --format='%H %aI' HEAD -- <path>. Their oldest records give 31 timestamps, 19 UTC days, span 703.201689815 days (2024-10-05T20:02:41Z through 2026-09-09T00:53:07Z), and peak 1722/4600 = 37.434782609%. Both batching implementations match every individual result. Min days = ceil(0.9 * 19) = 18; min span = floor(0.9 * 703.201689815) = 632. A whole-corpus naive first-add walk has only 14 days and fails the day floor. Timestamp cardinality is diagnostic only. Use 50% max day share: legitimate Git bulk work clusters dates; compare the healthy 37.7% modification cluster below. Recompute via the complete emitted-tree validator and the Git oracle before changing these bounds. Corrected real worktree emit: 6118 article:published_time pages, 31 timestamps, 19 UTC days, span 703.201689815 days, largest day 2298/6118 = 37.561294541%; all checks pass.",
+    "surfaces": {
+      "datePublished": {
+        "min_distinct_days": 16,
+        "min_span_days": 405,
+        "basis": "The independent 4600-file --follow oracle intersected with the original actual emitted JSON-LD coverage has 4593 primary pages, 28 timestamps on 17 UTC days, span 450.928020833 days (2025-06-15T02:36:46Z through 2026-09-09T00:53:07Z). The homepage holds the sole 2024 date but has no enriched JSON-LD entity; three guides likewise remove the sole 2025-10-14 day from this surface. Min days = ceil(0.9 * 17) = 16; min span = floor(0.9 * 450.928020833) = 405. Inherit 6000 emitted-page coverage and 50% day-share ceiling. A shared OG span/day calibration would falsely reject healthy JSON-LD. Validate against the complete corrected emit, including aliases, before changing these values. Confirmed by the complete corrected real emit: 6110 pages including aliases, 28 timestamps, 17 UTC days, span 450.928020833 days, largest day 2298/6110 = 37.610474632%; all checks pass."
+      }
+    }
+  },
+  "modified": {
+    "min_pages": 6000,
+    "min_distinct_days": 16,
+    "min_span_days": 104,
+    "max_day_share": 0.5,
+    "basis": "Real pre-fix build of f649801a9: OG on 6118 pages, 28 timestamps across 17 UTC days, span 116.425046296 days. JSON-LD covers 6110 pages, 25 timestamps and 16 days, span 116.425023148 days. Min days = ceil(0.9 * 17) = 16, also the measured JSON-LD day count; min span = floor(0.9 * 116.425023148) = 104. Legitimate peak 2307/6118 = 37.708401438% on 2026-07-16 (37.757774% in JSON-LD); second OG day 2169/6118 = 35.452762341%. A 25% ceiling is a false red; use 50%. These are standing guards against lastmod's dormant build-clock fallback, not publication-only bookkeeping. Corrected real worktree emit: 6118 article:modified_time pages, 28 timestamps, 17 UTC days, span 116.425046296 days, largest day 2307/6118 = 37.708401438%; all checks pass."
+  }
+}
