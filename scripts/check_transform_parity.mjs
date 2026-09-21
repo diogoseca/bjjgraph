@@ -54,14 +54,22 @@ import { execFileSync } from "node:child_process"
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const SRC = path.join(REPO, "source")
-const SEAM = "/home/user/bjj-orchestrator/golden/seams-v1"
-// The commit V captured the seam at. Must match check_frozen_surfaces.py's BASE_REF.
-const BASE_REF = "f649801a9"
-const TRANSFORM = path.join(SEAM, "transform")
-
 const argv = process.argv.slice(2)
 const has = (f) => argv.includes(f)
 const val = (f, d) => (argv.indexOf(f) >= 0 ? argv[argv.indexOf(f) + 1] : d)
+
+// WHERE THE GOLDEN SEAM LIVES, and why it is a variable rather than the literal it used to be.
+// The default is stream V's capture path on this box: OUTSIDE the repository, 1.09 GB, untracked.
+// That is the whole reason this script cannot be a `ci-validate.yml` step — a GitHub checkout has
+// no such directory, so the job would be permanently red for a reason unrelated to the code under
+// test (D-205: it runs as an integration gate in `quartz/` instead). Made overridable so the SAME
+// script serves CI unchanged the day the golden is publishable, and so a re-captured golden can be
+// compared against without editing source: `--seam <dir>` beats `QZ_SEAM` beats the default.
+// With neither set the value is byte-identical to the literal it replaced — no behaviour change.
+const SEAM = val("--seam", process.env.QZ_SEAM || "/home/user/bjj-orchestrator/golden/seams-v1")
+// The commit V captured the seam at. Must match check_frozen_surfaces.py's BASE_REF.
+const BASE_REF = "f649801a9"
+const TRANSFORM = path.join(SEAM, "transform")
 
 const die = (code, msg) => {
   console.error(`FAIL: ${msg}`)
