@@ -15,7 +15,7 @@
 //     embeds  ![[x]]                    0     NO
 //     block references  ^id             0     NO
 //     mermaid fences                    0     NO
-//     labelled code fences              0     NO   (1 file has 14 fences; ALL are UNLABELLED)
+//     labelled code fences              0     NO
 //
 // Every one of these could be DELETED from `ofm.ts` and the site would emit byte-identical output.
 // `emit_diff` would report 0. So would a golden seam. This fixture is the whole gate.
@@ -172,8 +172,7 @@ test("MERMAID AND SYNTAX HIGHLIGHTING — the two fence branches", async (t) => 
   assert.doesNotMatch(
     bare.html,
     /data-language|data-theme/,
-    "and gains no shiki attributes — which is why all 14 corpus fences emit nothing, and why " +
-      "deleting SyntaxHighlighting entirely would be invisible to emit_diff",
+    "an unlabelled fixture gains no shiki attributes; live feature exposure is checked separately",
   )
 
   const branches = ["mermaid fence", "bare fence"]
@@ -186,28 +185,62 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
   // The claim "the differ cannot see this" is only true while the corpus stays empty of it. If a
   // content file ever starts using one of these, emit_diff DOES become evidence and this file
   // stops being the sole gate — so the claim is re-measured on every run rather than asserted once.
-  // ── THE THREE-PART CONTROL (COORDINATION §7K) ────────────────────────────────────────────
-  // Each of these zeros is acted on: D-51 rests on them, and so does this whole file's claim to
-  // be the only instrument. A zero needs all three controls, because each catches a mode the
-  // others cannot:
-  //   NON-ZERO CONTROL    proves the matcher RUNS       -> the `files > 4000` floor below
-  //   EXACT-COUNT CONTROL proves its SCOPE              -> the per-pattern expectations below
-  //   STRUCTURAL SIBLING  proves the TOKEN              -> `sibling` on each row
-  // The sibling is the part that is easy to omit and impossible to substitute: a control
-  // validates the MATCHER, not the TOKEN, and both other controls use a DIFFERENT pattern from
-  // the one under test — so a malformed pattern under test is invisible to them BY CONSTRUCTION.
-  // A sibling is the SAME SHAPE through the SAME path with a known non-zero count, so if the
-  // shape could not reach the corpus at all, the sibling reads zero and says so.
+  // The control population belongs to this test, not to content/. X-09 removed the last
+  // live fence and expired the old "any fence" sibling without changing either matcher.
+  // Each target AND sibling regex must match its own authored positive string and reject
+  // the same plain negative string. Exact [true, false] results catch both a broken regex
+  // and one that matches everything. These are document-presence controls, not token counts.
+  // The live zero-exposure census and its positive file-count check remain separate below.
   const pats = {
-    "comments %%x%%": { re: /%%[\s\S]*?%%/, sibling: /<!--[\s\S]*?-->/, siblingName: "html comments" },
-    "highlights ==x==": { re: /==[^=\n]+==/, sibling: /\*\*[^*\n]+\*\*/, siblingName: "bold **x**" },
-    "embeds ![[x]]": { re: /!\[\[[^\]]+\]\]/, sibling: /(?<!!)\[\[[^\]]+\]\]/, siblingName: "wikilinks [[x]]" },
-    "block refs ^id": { re: /^\^[-_A-Za-z0-9]+$/m, sibling: /^#{1,6} /m, siblingName: "headings" },
-    "mermaid fences": { re: /```mermaid/, sibling: /```/, siblingName: "any fence" },
-    "labelled fences": { re: /^```[a-zA-Z]+/m, sibling: /^```/m, siblingName: "any fence at line start" },
+    "comments %%x%%": {
+      re: /%%[\s\S]*?%%/, fixture: "%%owned comment%%",
+      sibling: /<!--[\s\S]*?-->/, siblingFixture: "<!-- owned comment -->",
+      siblingName: "html comments",
+    },
+    "highlights ==x==": {
+      re: /==[^=\n]+==/, fixture: "==owned highlight==",
+      sibling: /\*\*[^*\n]+\*\*/, siblingFixture: "**owned bold**",
+      siblingName: "bold **x**",
+    },
+    "embeds ![[x]]": {
+      re: /!\[\[[^\]]+\]\]/, fixture: "![[Owned embed]]",
+      sibling: /(?<!!)\[\[[^\]]+\]\]/, siblingFixture: "[[Owned link]]",
+      siblingName: "wikilinks [[x]]",
+    },
+    "block refs ^id": {
+      re: /^\^[-_A-Za-z0-9]+$/m, fixture: "^owned-block",
+      sibling: /^#{1,6} /m, siblingFixture: "## Owned heading",
+      siblingName: "headings",
+    },
+    "mermaid fences": {
+      re: /```mermaid/, fixture: "```mermaid\ngraph TD; A-->B;\n```",
+      sibling: /```/, siblingFixture: "```\nowned plain fence\n```",
+      siblingName: "any fence",
+    },
+    "labelled fences": {
+      re: /^```[a-zA-Z]+/m, fixture: "```js\nconst owned = 1\n```",
+      sibling: /^```/m, siblingFixture: "```\nowned plain fence\n```",
+      siblingName: "any fence at line start",
+    },
   }
+  const plain = "Owned plain text without markup"
+  let calibrated = 0
+  for (const [k, spec] of Object.entries(pats)) {
+    assert.deepEqual(
+      [spec.fixture, plain].map((text) => spec.re.test(text)),
+      [true, false],
+      `${k}: owned feature fixture must match and plain fixture must not; the matcher is broken`,
+    )
+    assert.deepEqual(
+      [spec.siblingFixture, plain].map((text) => spec.sibling.test(text)),
+      [true, false],
+      `${k}: owned sibling fixture (${spec.siblingName}) must match and plain fixture must not`,
+    )
+    calibrated += 2
+  }
+  assert.equal(calibrated, 12, "all six feature matchers and all six siblings must be calibrated")
+  console.log(`  fixture controls: ${calibrated} patterns, each matches 1 of 2 authored strings`)
   const counts = Object.fromEntries(Object.keys(pats).map((k) => [k, 0]))
-  const siblings = Object.fromEntries(Object.keys(pats).map((k) => [k, 0]))
   let files = 0
   const walk = (d) => {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
@@ -218,7 +251,6 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
         const s = fs.readFileSync(p, "utf8")
         for (const [k, spec] of Object.entries(pats)) {
           if (spec.re.test(s)) counts[k] += 1
-          if (spec.sibling.test(s)) siblings[k] += 1
         }
       }
     }
@@ -229,38 +261,6 @@ test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on
   // would report every count as 0 and look like a perfect confirmation of the claim.
   console.log(`  coverage: ${files} content files scanned · ${JSON.stringify(counts)}`)
   assert.ok(files > 4000, `expected the real corpus, walked ${files} files`)
-  // STRUCTURAL SIBLING: prove each pattern's SHAPE reaches the corpus at all. Without this, a
-  // malformed pattern and a genuinely absent feature are indistinguishable — both read zero.
-  for (const [k, spec] of Object.entries(pats)) {
-    assert.ok(
-      siblings[k] > 0,
-      `the structural sibling for "${k}" (${spec.siblingName}) matched ZERO files, so this ` +
-        "pattern's SHAPE cannot be shown to reach the corpus and its zero proves nothing. " +
-        "A control validates the matcher, not the token (COORDINATION §7K).",
-    )
-  }
-  console.log(`  siblings: ${Object.entries(siblings).map(([k, v]) => `${k.split(" ")[0]}=${v}`).join(" ")}`)
-
-  // ── A CONTROL HAS ITS OWN POPULATION, AND A POPULATION OF 1 HAS AN EXPIRY NOBODY SET ────────
-  // `mermaid` and `labelled fences` can only be sibling-ed by "any fence", and EXACTLY ONE content
-  // file carries one (`Learning/BJJ Position Hierarchy Explained.md`). The sibling reaches, so the
-  // zero it validates is real today. But `content/` is edited by a WEEKLY LLM CONTENT BOT, so that
-  // population can be driven to zero by routine activity nobody would connect to this control —
-  // at which point the assertion above turns red for a reason that is not a defect in the code
-  // under test, and the zero it was validating becomes uninterpretable.
-  // The assertion still FAILS rather than going quiet, which is right. This warns BEFORE that, so
-  // the expiry is visible while there is still time to pick a better sibling rather than at the
-  // moment someone is tempted to weaken the control to get green.
-  const fragile = Object.entries(siblings).filter(([, v]) => v <= 1)
-  if (fragile.length) {
-    console.log(
-      `  WARNING: ${fragile.length} sibling(s) at population <= 1 — ` +
-        fragile.map(([k, v]) => `${k}=${v}`).join(", ") +
-        ". A control this thin expires the moment one content file changes, and content/ is " +
-        "edited weekly by an LLM bot. Pick a broader sibling before it goes to zero.",
-    )
-  }
-
   for (const [k, n] of Object.entries(counts)) {
     assert.equal(
       n,
