@@ -38,13 +38,13 @@ const STAGES = [
   "14-html-Description",
 ];
 const EMITTERS = [
+  "404Page",
   "AliasRedirects",
   "Assets",
   "ComponentResources",
   "ContentIndex",
   "ContentPage",
   "FolderPage",
-  "NotFoundPage",
   "Static",
   "TagPage",
 ];
