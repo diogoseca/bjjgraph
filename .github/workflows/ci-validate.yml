@@ -30,7 +30,10 @@ on:
       # test:units pins the neural sources, not just the codec file
       - "neural/src/**"
       - "neural/src/lists-codec.src.js"
-      - "tests/*.test.mjs"
+      # every unit suite AND the helpers they import (tests/_census.mjs, tests/_deps_promised.mjs):
+      # a helper is an input of every gate that imports it, so a PR that edits only the helper
+      # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
+      - "tests/*.mjs"
       # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
       # lines below: a gate behind a filter that excludes its own subject never runs on the PR
       # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.
@@ -46,6 +49,15 @@ on:
       # the line above: the gate's own subject must be in the filter, or the PR that breaks it is
       # the one PR that never runs it.
       - "source/quartz/plugins/transformers/lastmod.ts"
+      # Since v1.195.1 (published_time) and v1.195.3 (git_date_maps) two unit suites EXECUTE the
+      # real transformer, parser, worker and Head through tsx, so every Quartz source they reach
+      # transitively is an input — a closure no hand-kept list can track (CLAUDE.md §6.7). The
+      # whole tree is the derived answer; the explicit lines above keep their own reasons. The
+      # sub-package's manifest and lockfile are inputs too: the suites resolve their modules
+      # from source/node_modules, which the job installs from exactly these two files.
+      - "source/quartz/**"
+      - "source/package.json"
+      - "source/package-lock.json"
       # the CLAUDE.md budget + reference gates. Listing these is load-bearing, not tidiness:
       # a gate wired behind a path filter that excludes its own subject never runs on the PR
       # that breaks it, which is this repo's "absence produces a plausible answer" class in
@@ -86,6 +98,12 @@ jobs:
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: "22"
+          # The npm store, keyed on the ONE lockfile this job installs from (the source/ install
+          # below). Root node_modules is deliberately not installed here: its devDependencies are
+          # Playwright and the dev server, and no unit suite imports either — the pure-unit step
+          # ran 301 of 303 files without them.
+          cache: npm
+          cache-dependency-path: source/package-lock.json
 
       - name: Install Python dependencies
         run: pip install jsonschema jinja2
@@ -154,8 +172,26 @@ jobs:
       - name: Public article export and crawler rules
         run: python3 -B tests/agent_discovery_test.py
 
+      # THE UNIT SUITES ARE PROMISED source/node_modules (v1.195.9). tests/git_date_maps.test.mjs,
+      # tests/published_time.test.mjs and tests/lastmod_git_path.test.mjs execute the real Quartz
+      # transformer, and resolve tsx, esbuild, preact-render-to-string and @napi-rs/simple-git
+      # from source/package.json. Until this step existed the job installed NOTHING from npm:
+      # run 35577916246 on dev failed 2 of 303 files with a bare `Cannot find module
+      # 'tsx/esm/api'`, and the third file caught the same absence and printed a SKIP line —
+      # green, its libgit2 assertion never made. Three merges cited local "units 314/314".
+      # `npm ci`, never `npm install`: the lockfile is the promise. Removing or reordering this
+      # step does not bring the skip back — tests/_deps_promised.mjs reads CI (set on every
+      # GitHub Actions step, and pinned on the next step so the contract is visible here) and
+      # FAILS each guarded file with the name of this step.
+      - name: Install source/ dependencies (promised to the unit suites)
+        run: npm ci --no-audit --no-fund
+        working-directory: source
+
       - name: Pure unit suites
         run: node --test tests/*.test.mjs
+        env:
+          # tests/_deps_promised.mjs: a promised module that is absent is a failure, never a skip.
+          CI: "true"
 
       # Per-ruleset exclusion (v1.149.0). MUST stay below the payload emit: its headline check is
       # WIRE PARITY — that every `cal.avail` the app filters on equals the reachability walk. Every

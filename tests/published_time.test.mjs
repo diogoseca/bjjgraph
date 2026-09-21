@@ -5,31 +5,39 @@
 // remain, now applied to genuinely unknown history rather than tracked full-history files.
 // Not covered: observed first CDN deployment or shallow-history modification-date fidelity.
 // The companion @curated journey guards the real corpus, including per-field date spread.
-import { test } from "node:test";
-import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
+import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const require = createRequire(path.join(ROOT, "source/package.json"));
-const { tsImport } = require("tsx/esm/api");
+// source/node_modules is PROMISED by ci-validate.yml (v1.195.9). Under CI an absent module
+// fails this file on this line with the install step named; at home it skips every case
+// below with the same reason, and the count line at the end says what ran.
+const deps = depsPromised(import.meta.url, {
+  ...SOURCE_DEPS,
+  modules: ["tsx/esm/api", "preact-render-to-string"],
+});
+const { test, assert, require } = deps;
 const options = {
   parentURL: import.meta.url,
   tsconfig: path.join(ROOT, "source/tsconfig.json"),
 };
-const { CreatedModifiedDate } = await tsImport(
-  "../source/quartz/plugins/transformers/lastmod.ts",
-  options,
-);
-const { default: makeHead } = await tsImport(
-  "../source/quartz/components/Head.tsx",
-  options,
-);
-const { render } = require("preact-render-to-string");
+const { tsImport, CreatedModifiedDate, makeHead, render } = await deps.setup(async () => {
+  const { tsImport } = require("tsx/esm/api");
+  const { CreatedModifiedDate } = await tsImport(
+    "../source/quartz/plugins/transformers/lastmod.ts",
+    options,
+  );
+  const { default: makeHead } = await tsImport(
+    "../source/quartz/components/Head.tsx",
+    options,
+  );
+  const { render } = require("preact-render-to-string");
+  return { tsImport, CreatedModifiedDate, makeHead, render };
+});
 
 const COMMITTED = "2020-02-03T04:05:06.000Z";
 const AUTHORED = "2018-06-07T08:09:10.000Z";

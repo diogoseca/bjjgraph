@@ -20,40 +20,36 @@
 //    untracked-warning cap, the bare-repo warning) is NOT executed here. Those are unguarded.
 //  · NON-KILL, recorded so nobody later reads this as broader than it is: a mutant that swaps
 //    `repo.workdir()` for a hard-coded correct path would survive both tests.
-import { test } from "node:test"
-import assert from "node:assert/strict"
 import { execFileSync } from "node:child_process"
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
-import { createRequire } from "node:module"
 import { fileURLToPath } from "node:url"
+import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs"
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const LASTMOD = path.join(REPO, "source/quartz/plugins/transformers/lastmod.ts")
+
+// @napi-rs/simple-git is a dependency of the Quartz sub-package, not of the root one, and
+// source/node_modules is PROMISED by ci-validate.yml (v1.195.9). Until then this file caught
+// the absence itself and printed `SKIP … run npm install first` — green in CI, with the libgit2
+// assertion never made. Under CI the guard fails the file on this line naming the install
+// step; at home the libgit2 case skips with the same reason and the source-text pin still runs.
+const deps = depsPromised(import.meta.url, {
+  ...SOURCE_DEPS,
+  modules: ["@napi-rs/simple-git"],
+})
+const { test, assert } = deps
 
 // Same derivation lastmod.ts performs, kept here only so the throwaway-repo test can state the
 // expected spelling. The call site itself is pinned separately below.
 const toPosix = (p) => p.split(path.sep).join("/")
 const gitRelative = (workdir, fullFp) => path.posix.relative(toPosix(workdir), toPosix(fullFp))
 
-function loadRepositoryCtor() {
-  // @napi-rs/simple-git is a dependency of the Quartz sub-package, not of the root one.
-  try {
-    const requireFromSource = createRequire(path.join(REPO, "source/package.json"))
-    return requireFromSource("@napi-rs/simple-git").Repository
-  } catch (err) {
-    return null
-  }
-}
-
 test("libgit2 resolves a workdir-relative pathspec and rejects a directory-prefixed one", () => {
-  const Repository = loadRepositoryCtor()
-  if (!Repository) {
-    // A skip path PRINTS (CLAUDE.md §6.6): "never looked" must not read like "found no problems".
-    console.log("SKIP: @napi-rs/simple-git not installed under source/ — run `npm install` first")
-    return
-  }
+  // No try/catch and no early return: a binding that resolves but fails to load is a red test
+  // with its own error, never a quiet pass.
+  const { Repository } = deps.require("@napi-rs/simple-git")
 
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "bjj-lastmod-"))
   try {
@@ -95,7 +91,8 @@ test("libgit2 resolves a workdir-relative pathspec and rejects a directory-prefi
   }
 })
 
-test("lastmod.ts asks git with a workdir-derived path, not file.data.filePath", () => {
+// A source-text pin needs no install, so it runs — and is counted — either way.
+test.always("lastmod.ts asks git with a workdir-derived path, not file.data.filePath", () => {
   const src = fs.readFileSync(LASTMOD, "utf8")
 
   assert.match(

@@ -134,11 +134,21 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
 
                 try {
                   // D-202/D-195: the driver walks git ONCE for the whole corpus and hands the
-                  // result down as `ctx.gitModifiedDates`. This transformer is 90.4% of parse cost
-                  // — 444 ms/file, measured at N=300 against the real phase-major schedule, with
-                  // every other transformer plus the parser making up the remaining 9.6% — and
-                  // effectively all of it is the per-file libgit2 lookup on the next line. Taking
-                  // the batched value is the single largest saving available on this surface.
+                  // result down as `ctx.gitModifiedDates`. This transformer dominates parse cost,
+                  // and effectively all of it is the per-file libgit2 lookup on the next line, so
+                  // taking the batched value is the single largest saving on this surface.
+                  //
+                  // THE SHARE, with the correction that matters if anyone plans against it. The
+                  // first figure here was 90.4% / 444 ms per file at N=300 — and that sample
+                  // STRIDED across the sorted corpus, which is pessimal for git's pack cache while
+                  // a real build walks the list in order. Measured directly, the same native
+                  // lookup costs 266.3 ms/file strided and 86.3 ms/file contiguous: a 3.09x
+                  // penalty belonging to the SAMPLING, not to the transformer. Corrected share
+                  // ~75%, and the corrected model predicts a post-fix parse of 3.94 min against
+                  // 4.00 measured on a full incumbent build (D-221) — a 1.4% residual, where the
+                  // uncorrected model was out by 1.87 min. A stride is the right shape for
+                  // comparing transformers to each other and the wrong one for the absolute cost
+                  // of a cache-sensitive one.
                   //
                   // ONE EXCEPTION, which is why this is a conditional and not a substitution: a
                   // path whose date came from a COMBINED MERGE DIFF is named in

@@ -9,27 +9,35 @@
 // worker propagation. A flagged path must never take the batched value: that is what keeps
 // the owner's merge-resolution dates (Kimura, Americana) untouched.
 // This does not assert universal equivalence to libgit2 on arbitrary merged histories.
-import { test } from "node:test";
-import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
+import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const require = createRequire(path.join(ROOT, "source/package.json"));
-const { tsImport } = require("tsx/esm/api");
+// source/node_modules is PROMISED by ci-validate.yml (v1.195.9). Under CI an absent module
+// fails this file on this line with the install step named; at home it skips every case
+// below with the same reason, and the count line at the end says what ran.
+const deps = depsPromised(import.meta.url, {
+  ...SOURCE_DEPS,
+  modules: ["tsx/esm/api", "esbuild"],
+});
+const { test, assert, require } = deps;
 const opts = {
   parentURL: import.meta.url,
   tsconfig: path.join(ROOT, "source/tsconfig.json"),
 };
-const api = await tsImport("../source/quartz/util/publication.ts", opts);
-const { CreatedModifiedDate } = await tsImport(
-  "../source/quartz/plugins/transformers/lastmod.ts",
-  opts,
-);
+const { tsImport, api, CreatedModifiedDate } = await deps.setup(async () => {
+  const { tsImport } = require("tsx/esm/api");
+  const api = await tsImport("../source/quartz/util/publication.ts", opts);
+  const { CreatedModifiedDate } = await tsImport(
+    "../source/quartz/plugins/transformers/lastmod.ts",
+    opts,
+  );
+  return { tsImport, api, CreatedModifiedDate };
+});
 const gitBinary = execFileSync("which", ["git"], { encoding: "utf8" }).trim();
 const iso = (year) => `${year}-02-03T04:05:06.000Z`;
 function fixture(t) {
