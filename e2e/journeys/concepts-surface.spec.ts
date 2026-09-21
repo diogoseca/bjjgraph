@@ -1132,3 +1132,88 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     expect(errors).toEqual([]);
   });
 }
+
+/**
+ * THE PRESSED EXPLORE TAB IS THE WAY HOME (v1.195.8). Owner: "this is also affecting every
+ * systems page, principles page, and every page that renders on the sidebar. If I click the
+ * Explore tab even though it's open, it should go to the Explore root. Right now clicking the
+ * Explore tab doesn't do anything if the Explore is already open."
+ *
+ * `setViewMode` early-returns on the current tab by design — it is the transition seam, and a
+ * transition to where you already are is nothing — so a page owning the pane had no way home but
+ * its own ‹ Back. The tab CLICK now decides (`_paneTabClick`): the pressed Explore tab goes home
+ * (`_exploreHome`: clear the selection and the search rail, re-list), any other tab is the
+ * transition it always was. RED first on the shipped bundle: the detail stayed up and the root
+ * stayed absent after a mouse click on the pressed tab.
+ *
+ * Mouse, never `locator.click()`: the pane is a fixed overlay (CLAUDE.md §6.1). Named mutant:
+ * route the tab click straight back to `setViewMode` -> every root claim below reds.
+ *
+ * ALSO ASSERTED, as controls: going home starts nothing (reference law — the roll state is
+ * byte-identical before and after), and the pressed Challenges tab is still the no-op it was.
+ * A LIT LIST SURVIVES GOING HOME — pinned by share-lists.spec.ts ("a saved or dismissed link
+ * stops asking"), whose helper clicks the pressed tab over a freshly saved class: the first cut
+ * of `_exploreHome` cleared every focus source and un-lit it. Home clears only what a PAGE owns.
+ * NOT COVERED, declared: the address bar. Like ‹ Back, going home leaves the page path where the
+ * page put it; a reload reopens the page. The swipe path is untouched and not re-asserted here.
+ */
+test("clicking the pressed Explore tab returns a drilled Principle, then a System, to the Explore root @curated", async ({ page }) => {
+  const errors = watchErrors(page);
+  const principles = of("Principle");
+  const j = journey(page);
+  await j.boot("/");
+  await serveConceptChunks(page);
+  await j.land("Mount Top");
+  await awaitConcepts(page);
+  await openSection(page, "Principles");
+  const tab = "[data-view='explore']";
+  const rows = page.locator('[data-concept-row][data-concept-cat="Principle"]');
+  const searchRow = page.locator(".ng-explorer-tools");
+
+  // ── a Principle owns the pane ──
+  const first = [...principles].sort((a, b) => a.id.localeCompare(b.id))[0];
+  await j.clickByMouse(`[data-concept-row="${first.id}"]`, `the ${first.name} principle row`);
+  await expect(page.locator(`[data-concept-detail="${first.id}"]`), "premise: the principle owns the pane").toBeVisible();
+  await expect(searchRow, "premise: and the root's search row is gone with it").toBeHidden();
+  await expect(page.locator(tab), "premise: Explore is the pressed tab").toHaveAttribute("aria-pressed", "true");
+  const before = await principleStudyState(page);
+
+  await j.clickByMouse(tab, "the pressed Explore tab");
+  await expect(page.locator("[data-concept-detail]"), "the drilled body is gone").toHaveCount(0);
+  await expect(rows, "the root list is back, whole").toHaveCount(principles.length);
+  await expect(searchRow, "with its search row").toBeVisible();
+  const s = await searchState(page);
+  expect(s.exQ, "home is unfiltered: no query on the rail").toBe("");
+  expect(s.input, "and none in the box").toBe("");
+  expect(await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return { concept: a._conceptId, system: a._systemId, view: a._viewMode, pane: !!a.deckShown, beat: (a.beats || []).filter((b: any) => b.beat === "pane_tab_home").length };
+  }), "no page owns the list, the tab and the pane are as they were, and the way home left its beat").toEqual({ concept: null, system: null, view: "explore", pane: true, beat: 1 });
+  expect(await principleStudyState(page), "going home starts nothing: the roll state is untouched").toEqual(before);
+
+  // ── a System owns the pane ──
+  await page.evaluate(() => (window as any).__neural._ensureSystems());
+  await expect.poll(() => page.evaluate(() => Object.keys((window as any).__neural._systemsById || {}).length), { timeout: 20_000, message: "systems.json reached the app" }).toBeGreaterThan(0);
+  const sysId = await page.evaluate(() => { const a = (window as any).__neural; const id = a.systems[0].id; a.openSystem(id); return id; });
+  await expect(page.locator("[data-system-back]"), `premise: System ${sysId} owns the pane`).toBeVisible();
+  await expect(rows, "premise: the root list is gone with it").toHaveCount(0);
+  await j.clickByMouse(tab, "the pressed Explore tab, from a System");
+  await expect(page.locator("[data-system-back]"), "the System's body is gone").toHaveCount(0);
+  await expect(rows, "the root list is back").toHaveCount(principles.length);
+  expect(await page.evaluate(() => (window as any).__neural._systemId), "no System owns the list").toBeNull();
+
+  // ── the other tabs did not change: the pressed Challenges tab is still a no-op ──
+  await j.clickByMouse("[data-view='challenges']", "the Challenges tab");
+  await expect(page.locator("[data-view='challenges']")).toHaveAttribute("aria-pressed", "true");
+  await page.evaluate(() => {
+    const a = (window as any).__neural;
+    (window as any).__paneRenders = 0;
+    const orig = a._renderPaneBody.bind(a);
+    a._renderPaneBody = () => { (window as any).__paneRenders++; return orig(); };
+  });
+  await j.clickByMouse("[data-view='challenges']", "the pressed Challenges tab");
+  await j.advance(200);
+  expect(await page.evaluate(() => ({ renders: (window as any).__paneRenders, view: (window as any).__neural._viewMode })),
+    "a pressed tab other than Explore is the no-op it always was").toEqual({ renders: 0, view: "challenges" });
+  expect(errors, "no page errors along the way").toEqual([]);
+});

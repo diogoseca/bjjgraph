@@ -33,6 +33,9 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
+- **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
+- **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
 - **v1.189.0** — [THE CEILING BECOMES A POLICY: TARGET, ACTION, AND A CAP ON THE STEP](#v11890--the-ceiling-becomes-a-policy-target-action-and-a-cap-on-the-step)
 - **v1.182.12**: [README and linked documentation describe dev](#v118212-readme-and-linked-documentation-describe-dev)
 - **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
@@ -7641,3 +7644,44 @@ The complete 4,600-file comparison preserves every publication date and matches 
 modification on 4,598 paths. Americana and Kimura have later merge resolutions: the new
 map agrees with `git log -1 --format=%cI -- <path>` on each; the native reader skips them.
 This difference is documented for future consumers, not applied to current page metadata.
+
+
+## v1.195.6 — THE GHOST CONTENTS ROW ATE CLICKS
+
+Owner: after closing More, "those tabs remain there like ghosts … I can't click them either".
+`_paintRead` inserted the contents row into the head and nothing removed it on close: it stayed
+laid out beside the collapsed pill at opacity 1 (not even invisible — §6.1's trap in its loud
+form), and because each entry re-enables `pointer-events` inline under a row reset to `none`,
+it ATE clicks: `elementFromPoint` at an entry returned the entry and one mouse click ran
+`_navJump` (spy 0 → 1) against a `display:none` body — swallowed, nothing to show. `_readClear`
+DID reset the inner bar's transform on close; the stale-pin hypothesis was checked and ruled
+out. Fix: `_paintNav` is the one writer, called from `_paintRead` and `expandLandCard` in both
+directions, so close REMOVES the row and reopen restores it over the reused body. Gate:
+`landcard-more-content.spec.ts` "shutting the fold removes the contents row…", RED first (1 ≠
+0); mutants: no call → same red; remove-without-restore → "reopened … back" 0 ≠ 1. Full numbers:
+the commit message and `bjj-orchestrator/reports/more-fold-close.md`.
+
+## v1.195.7 — THE COLLAPSED MORE PILL, CENTRED AGAIN
+
+Owner: the collapsed More "seems to show too much to the right". v1.194.1's `margin-left:auto`
+on the close control also acted on the SHUT pill, the bar's lone child: measured +114px off
+centre at 390, +251 at 1440. Fix: the bars centre (`justify-content:center` in
+`NG_READ_BAR_CSS`), `_landMoreAlign` is the one writer of the margin ("auto" open, "0" shut,
+written not cleared), and reading.css's copy of the rule is deleted. Ordered AFTER v1.195.6,
+measured: with the ghost row still in the head the two centred together and the pill sat
+114 / 205px off after a close. Gate: "390px / 1440px: shut, the More pill is centred…";
+mutants: shut-state auto margin → 114 / 251; open writes "0" → 38.5px off the edge at 1440.
+That mutant SURVIVES at 390 (a 3-entry row already fills the bar there) — recorded in the spec.
+
+## v1.195.8 — THE PRESSED EXPLORE TAB IS THE WAY HOME
+
+Owner: "If I click the Explore tab even though it's open, it should go to the Explore root."
+`setViewMode` early-returns on the current tab by design (the transition seam), and the tab
+click called it directly, so a Principle, Learning entry or System owning the pane had no way
+home but ‹ Back. Fix: `_paneTabClick` decides at the click — pressed Explore → `_exploreHome`
+(clear the PAGE selection + search rail, re-list, beat `pane_tab_home`; a lit list survives —
+the first cut un-lit a saved shared class, caught by share-lists.spec.ts:640 in the full curated
+run); anything else → `setViewMode` unchanged (Challenges/History, swipe path). Starts
+nothing; leaves the address bar where ‹ Back does (declared, not covered). Gate:
+`concepts-surface.spec.ts` "clicking the pressed Explore tab returns a drilled Principle, then a
+System…", by mouse, RED first (1 ≠ 0); mutant: route the click back to `setViewMode` → same red.

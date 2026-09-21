@@ -6638,6 +6638,50 @@ class Component extends DCLogic {
     this._renderPaneBody();
   }
   /**
+   * A CLICK on a tab, as distinct from a swipe (v1.195.8). `setViewMode` is the TRANSITION seam
+   * and early-returns on the current tab by design — a transition to where you already are is
+   * nothing — which left the pressed Explore tab a dead click while a Principle, a Learning entry
+   * or a System owned the pane. Owner: "If I click the Explore tab even though it's open, it
+   * should go to the Explore root. Right now clicking the Explore tab doesn't do anything if the
+   * Explore is already open." So the click handler decides: the pressed Explore tab goes HOME
+   * (`_exploreHome`), everything else is the transition it always was. The other two tabs keep
+   * their no-op, and the swipe path (`_paneTabPageTo`) never targets the pressed tab at all, so
+   * neither changes here.
+   */
+  _paneTabClick(view) {
+    if (view === "collection") view = "challenges"; // retired tab, as setViewMode reads it
+    if (view === "explore" && this._viewMode === "explore") { this._exploreHome(); return; }
+    this.setViewMode(view);
+  }
+  /**
+   * THE EXPLORE ROOT: the top-level list, un-drilled and unfiltered. A Principle, a Learning entry
+   * or a System is a PAGE rendered in the list's place (reference law, CLAUDE.md §5): `_conceptId`
+   * / `_systemId` own the list while set and `renderExplorer` hands it back the moment they are
+   * null. This is what the pages' own "‹ Back" does (`closeConcept`, `closeSystem`: clear the
+   * selection, re-list) plus the search rail, because a query also hides the root
+   * (`_exploreDetailOwnsList` defers to it). The address bar is left where ‹ Back leaves it.
+   * It STARTS NOTHING — no seat, no hand, no roll: a reference page closed is still not a place,
+   * and the pane law is untouched (no open, no close, no pause changes hands).
+   *
+   * A LIT LIST SURVIVES. `clearFocus` drops every focus source at once, and the first cut called
+   * it unconditionally — which un-lit a shared class the reader had just saved, because the
+   * arrival spec's helper clicks the pressed tab (share-lists.spec.ts, "a saved link ... lights
+   * up": received [] for the three ids). A list highlight is a selection INSIDE the root's own
+   * Lists section — `renderExplorer` keeps `_listFocusId` across every re-render for the same
+   * reason — so home leaves it lit and clears only what a PAGE owns.
+   */
+  _exploreHome() {
+    if (!this.deckShown || this._paneStudyActive() || this._viewMode !== "explore") return false;
+    const inp = this.explorerSearchRef.current;
+    this._exQ = ""; if (inp) inp.value = "";
+    if (this._conceptId || this._systemId) this.clearFocus();   // a page owned the list; a lit list is not a page
+    this.showExplorerList();
+    { const l = this.explorerListRef.current; if (l) l.scrollTop = 0; } // home is the top of the list
+    this.fx("pane_tab_home", { tab: "explore" });
+    this.lastInteract = this.now;
+    return true;
+  }
+  /**
    * PAGE THE PANE'S TABS BY GESTURE (v1.147.0, owner: "users try to scroll left and right").
    * ONE seam for every non-click way to change tab — `dir` is in NAV SPACE: +1 is the tab drawn
    * to the RIGHT of the active one, -1 the one to its left. Callers hand over a gesture and the
@@ -7028,7 +7072,7 @@ class Component extends DCLogic {
     if (vt && !vt._wired) {
       vt._wired = true;
       vt.addEventListener("pointerdown", (e) => e.stopPropagation());
-      vt.querySelectorAll("[data-view]").forEach((s) => s.addEventListener("click", () => this.setViewMode(s.getAttribute("data-view"))));
+      vt.querySelectorAll("[data-view]").forEach((s) => s.addEventListener("click", () => this._paneTabClick(s.getAttribute("data-view"))));
     }
     this.styleViewToggle();
   }
