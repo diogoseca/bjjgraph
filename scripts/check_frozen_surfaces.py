@@ -50,7 +50,13 @@ baseline is a check that never runs. A legitimate change is accepted one file at
 written reason that lands in the baseline and stays there:
 
     python3 scripts/check_frozen_surfaces.py --accept source/quartz/plugins/transformers/ofm.ts \\
-        --reason "D-A-07: port stripDangerousHtml verbatim into the new driver's htmlPlugins list"
+        --reason "D-A-NN: <why this change is legitimate>"   # D-A-NN, never a well-formed id: see below
+
+The example id above is deliberately UNPARSEABLE. It used to be a WELL-FORMED id in this
+stream's namespace that does not exist (deliberately not spelled here — see below) — and a reference scanner cannot tell an example from a citation, BECAUSE THEY ARE
+THE SAME BYTES. That one string was then cited three more times by three other seats, each
+explaining the previous one. A realistic example is a hostile input to your own tools
+(COORDINATION §7U).
 
 An ABSOLUTE freeze would be worse than no gate: it blocks the first legitimate change and then gets
 disabled wholesale, which is how a gate stops existing. A reason is cheap; silence is what costs.
