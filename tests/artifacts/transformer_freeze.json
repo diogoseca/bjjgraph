@@ -117,6 +117,20 @@
       "bytes": 2027,
       "scope": "pipeline",
       "sha256": "127731bef4f383ef1e73aedd1849f4eeec6906723d2312540981c48c7bc21023"
+    },
+    "source/quartz/styles/custom.scss": {
+      "accepted": [
+        {
+          "date": "2026-09-21",
+          "from": "05c38765148a0a74335bbb647cf9f6e8eca7e0000f62cfcf9fc58d1344ecc6cc",
+          "reason": "dev d07d9c95d (X-09 learning-merge b99f04958): Learning complete-read styles \u2014 owner-landed, byte-equal to edc84a35b",
+          "scope": "keeplist",
+          "to": "98567706e1b7d096773cd3b28e399be1380dde2b72d57b9e5fef688b3312a9f9"
+        }
+      ],
+      "bytes": 31413,
+      "scope": "keeplist",
+      "sha256": "98567706e1b7d096773cd3b28e399be1380dde2b72d57b9e5fef688b3312a9f9"
     }
   },
   "note": "Stream A byte-freeze, phases P1-P4 (D-27). Every entry declares its scope: `pipeline` (the 12-file markdown glob) or `keeplist` (INTERFACE.md section 7). One store serves both scopes and an untagged entry is what made an accepted keep-list change read as a MISSING pipeline file.",
