@@ -21,4 +21,7 @@ export interface BuildCtx {
   // Git-relative forward-slash Markdown paths; ISO UTC dates. Missing entries are unknown.
   gitPublicationDates?: Record<string, string>
   gitModifiedDates?: Record<string, string>
+  // True when gitModifiedDates[path] came from a combined merge diff. Same path keys.
+  // Missing field = flags not supplied; within a supplied map, unlisted entries are unflagged.
+  gitModifiedDatesFromMerge?: Record<string, true>
 }

@@ -6,10 +6,12 @@ const exec = promisify(execFile)
 export interface GitDateMaps {
   published: Record<string, string>
   modified: Record<string, string>
+  // Sparse flags for the selected modified entry, never for an older merge.
+  modifiedFromMerge: Record<string, true>
 }
 
 const pending = new Map<string, Promise<GitDateMaps>>()
-const emptyDates = (): GitDateMaps => ({ published: {}, modified: {} })
+const emptyDates = (): GitDateMaps => ({ published: {}, modified: {}, modifiedFromMerge: {} })
 
 async function git(cwd: string, args: string[], input?: string): Promise<string> {
   if (input === undefined) {
@@ -67,8 +69,11 @@ async function collect(cwd: string, head: string): Promise<GitDateMaps> {
     "--",
     "*.md",
   ])
-  const { modified, additionCommits } = modificationDatesFromHistory(changes, paths)
-  if (!additionCommits.length) return { published: {}, modified }
+  const { modified, modifiedFromMerge, additionCommits } = modificationDatesFromHistory(
+    changes,
+    paths,
+  )
+  if (!additionCommits.length) return { published: {}, modified, modifiedFromMerge }
   const history = await git(
     cwd,
     [
@@ -96,7 +101,7 @@ async function collect(cwd: string, head: string): Promise<GitDateMaps> {
       `${new Set(Object.values(dates)).size} publication timestamps; ` +
       `${Object.keys(modified).length} modification dates in ${((performance.now() - started) / 1000).toFixed(2)}s`,
   )
-  return { published: dates, modified }
+  return { published: dates, modified, modifiedFromMerge }
 }
 
 /**
@@ -111,6 +116,7 @@ async function collect(cwd: string, head: string): Promise<GitDateMaps> {
 function modificationDatesFromHistory(history: string, paths: string[]) {
   const tracked = new Set(paths)
   const modified: Record<string, string> = {}
+  const modifiedFromMerge: Record<string, true> = {}
   const additionCommits = new Set<string>()
   let commit = ""
   let date = ""
@@ -126,13 +132,19 @@ function modificationDatesFromHistory(history: string, paths: string[]) {
       date = parsed.toISOString()
     } else if (/^[AMDT]+$/.test(token)) {
       const name = tokens[i++]
-      if (tracked.has(name) && !Object.hasOwn(modified, name)) modified[name] = date
+      if (tracked.has(name) && !Object.hasOwn(modified, name)) {
+        modified[name] = date
+        // Combined diffs carry one status per parent (e.g. MM). Native-parity callers
+        // can use the native reader for these paths without repeating the graph walk.
+        // Keep this inside the selection guard: an older merge must not taint a later edit.
+        if (token.length > 1) modifiedFromMerge[name] = true
+      }
       if (token === "A") additionCommits.add(commit)
     } else {
       throw new Error(`Unexpected Git modification record: ${token}`)
     }
   }
-  return { modified, additionCommits: [...additionCommits] }
+  return { modified, modifiedFromMerge, additionCommits: [...additionCommits] }
 }
 
 export function publicationDatesFromHistory(
@@ -210,4 +222,9 @@ export async function gitPublicationDates(directory: string): Promise<Record<str
 
 export async function gitModifiedDates(directory: string): Promise<Record<string, string>> {
   return (await gitDateMaps(directory)).modified
+}
+
+/** Sparse merge-origin flags, sharing the same collection as both date getters. */
+export async function gitModifiedDatesFromMerge(directory: string): Promise<Record<string, true>> {
+  return (await gitDateMaps(directory)).modifiedFromMerge
 }

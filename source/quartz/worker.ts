@@ -14,6 +14,7 @@ export async function parseFiles(
   allSlugs: FullSlug[],
   gitPublicationDates?: Record<string, string>,
   gitModifiedDates?: Record<string, string>,
+  gitModifiedDatesFromMerge?: Record<string, true>,
 ) {
   const ctx: BuildCtx = {
     buildId,
@@ -22,6 +23,7 @@ export async function parseFiles(
     allSlugs,
     gitPublicationDates,
     gitModifiedDates,
+    gitModifiedDatesFromMerge,
   }
   const processor = createProcessor(ctx)
   const parse = createFileParser(ctx, fps)

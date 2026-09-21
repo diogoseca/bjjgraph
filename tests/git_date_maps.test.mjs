@@ -2,6 +2,9 @@
 // add-only history, author/committer confusion, oldest-as-latest, repeated cold walks,
 // and fabricated unknown dates. Merge resolutions are pinned explicitly: the batched
 // map includes them; the existing native modified reader does not and stays unchanged.
+// Sparse merge-origin flags identify ONLY the selected modified entry, not any older
+// merge in a path's history. RED controls also cover missing/stale flags and lost driver /
+// worker propagation. Native-parity consumers can use the native reader for flagged paths.
 // This does not assert universal equivalence to libgit2 on arbitrary merged histories.
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -55,6 +58,23 @@ function fixture(t) {
   };
   return { cwd, git, write, commit };
 }
+function mergedFixture(t) {
+  const f = fixture(t);
+  f.write("Note.md", "base\n");
+  f.write("Other.md", "untouched\n");
+  f.commit("base", 2020);
+  f.git("checkout", "-b", "side");
+  f.write("Note.md", "side\n");
+  f.commit("side", 2021);
+  f.git("checkout", "main");
+  f.write("Note.md", "main\n");
+  f.commit("main", 2022);
+  assert.throws(() => f.git("merge", "--no-ff", "side"));
+  f.write("Note.md", "resolved\n");
+  f.commit("resolve", 2023);
+  return f;
+}
+
 async function maps(cwd) {
   assert.equal(
     typeof api.gitDateMaps,
@@ -122,23 +142,22 @@ test("rename/copy publication lineage stays oldest while modifications retain ea
 });
 
 test("merge does not restamp unchanged files but records a resolution that changes both parents", async (t) => {
-  const f = fixture(t);
-  f.write("Note.md", "base\n");
-  f.write("Other.md", "untouched\n");
-  f.commit("base", 2020);
-  f.git("checkout", "-b", "side");
-  f.write("Note.md", "side\n");
-  f.commit("side", 2021);
-  f.git("checkout", "main");
-  f.write("Note.md", "main\n");
-  f.commit("main", 2022);
-  assert.throws(() => f.git("merge", "--no-ff", "side"));
-  f.write("Note.md", "resolved\n");
-  f.commit("resolve", 2023);
+  const f = mergedFixture(t);
   const result = await maps(f.cwd);
   assert.equal(result.modified["content/Note.md"], iso(2023));
   assert.equal(result.modified["content/Other.md"], iso(2020));
   assert.equal(result.published["content/Note.md"], iso(2020));
+  assert.deepEqual(result.modifiedFromMerge, { "content/Note.md": true });
+  f.write("Note.md", "later non-merge edit\n");
+  f.commit("edit after resolution", 2024);
+  const later = await maps(f.cwd);
+  assert.equal(later.modified["content/Note.md"], iso(2024));
+  assert.equal(later.published["content/Note.md"], iso(2020));
+  assert.deepEqual(
+    later.modifiedFromMerge,
+    {},
+    "an older merge must not flag a newer non-merge date",
+  );
 });
 
 test("concurrent driver and legacy getters share exactly one history walk and one copy-detection batch", async (t) => {
@@ -159,13 +178,20 @@ test("concurrent driver and legacy getters share exactly one history walk and on
       "function",
       "sibling getter must share the cache",
     );
-    const [both, published, modified] = await Promise.all([
+    assert.equal(
+      typeof api.gitModifiedDatesFromMerge,
+      "function",
+      "merge-origin getter must share the cache",
+    );
+    const [both, published, modified, modifiedFromMerge] = await Promise.all([
       maps(f.cwd),
       api.gitPublicationDates(f.cwd),
       api.gitModifiedDates(f.cwd),
+      api.gitModifiedDatesFromMerge(f.cwd),
     ]);
     assert.strictEqual(published, both.published);
     assert.strictEqual(modified, both.modified);
+    assert.strictEqual(modifiedFromMerge, both.modifiedFromMerge);
     const calls = fs
       .readFileSync(trace, "utf8")
       .trim()
@@ -188,23 +214,33 @@ test("concurrent driver and legacy getters share exactly one history walk and on
 
 test("shallow, unavailable and unborn history supplies neither date map", async (t) => {
   const f = fixture(t);
-  assert.deepEqual(await maps(f.cwd), { published: {}, modified: {} });
+  assert.deepEqual(await maps(f.cwd), {
+    published: {},
+    modified: {},
+    modifiedFromMerge: {},
+  });
   f.write("Note.md", "note\n");
   f.commit("base", 2020);
   f.write("Note.md", "edited\n");
   f.commit("later", 2021);
   const shallow = path.join(f.cwd, "shallow");
   f.git("clone", "--depth=1", `file://${f.cwd}`, shallow);
-  assert.deepEqual(await maps(shallow), { published: {}, modified: {} });
+  assert.deepEqual(await maps(shallow), {
+    published: {},
+    modified: {},
+    modifiedFromMerge: {},
+  });
   const outside = fs.mkdtempSync(path.join(os.tmpdir(), "no-git-dates-"));
   t.after(() => fs.rmSync(outside, { recursive: true, force: true }));
-  assert.deepEqual(await maps(outside), { published: {}, modified: {} });
+  assert.deepEqual(await maps(outside), {
+    published: {},
+    modified: {},
+    modifiedFromMerge: {},
+  });
 });
 
-test("driver preparation exposes both maps to a real Markdown plugin", async (t) => {
-  const f = fixture(t);
-  f.write("Note.md", "# Note\n");
-  f.commit("add", 2020, 2021);
+test("driver preparation exposes both maps and merge-origin flags to a real Markdown plugin", async (t) => {
+  const f = mergedFixture(t);
   const { parseMarkdown } = await tsImport(
     "../source/quartz/processors/parse.ts",
     opts,
@@ -216,6 +252,7 @@ test("driver preparation exposes both maps to a real Markdown plugin", async (t)
         file.data.seen = {
           published: ctx.gitPublicationDates,
           modified: ctx.gitModifiedDates,
+          modifiedFromMerge: ctx.gitModifiedDatesFromMerge,
         };
       },
     ],
@@ -235,12 +272,13 @@ test("driver preparation exposes both maps to a real Markdown plugin", async (t)
   ]);
   assert.equal(result.length, 1);
   assert.deepEqual(result[0][1].data.seen, {
-    published: { "content/Note.md": iso(2020) },
-    modified: { "content/Note.md": iso(2021) },
+    published: { "content/Note.md": iso(2020), "content/Other.md": iso(2020) },
+    modified: { "content/Note.md": iso(2023), "content/Other.md": iso(2020) },
+    modifiedFromMerge: { "content/Note.md": true },
   });
 });
 
-test("real worker forwards the optional sixth map to plugins and accepts the old five arguments", async (t) => {
+test("real worker forwards the seventh merge-origin map and accepts old five/six argument calls", async (t) => {
   const f = fixture(t);
   f.write("Note.md", "# Note\n");
   // Replace only site configuration, so the real worker, processor and file parser run.
@@ -264,7 +302,7 @@ test("real worker forwards the optional sixth map to plugins and accepts the old
             namespace: "fixture",
           }));
           build.onLoad({ filter: /.*/, namespace: "fixture" }, () => ({
-            contents: `export default {plugins:{transformers:[{name:'Observer',markdownPlugins:ctx=>[()=> (_tree,file)=>{file.data.seen={published:ctx.gitPublicationDates,modified:ctx.gitModifiedDates}}]}]}}`,
+            contents: `export default {plugins:{transformers:[{name:'Observer',markdownPlugins:ctx=>[()=> (_tree,file)=>{file.data.seen={published:ctx.gitPublicationDates,modified:ctx.gitModifiedDates,modifiedFromMerge:ctx.gitModifiedDatesFromMerge}}]}]}}`,
           }));
         },
       },
@@ -283,7 +321,30 @@ test("real worker forwards the optional sixth map to plugins and accepts the old
     published,
     modified,
   );
-  assert.deepEqual(result[0][1].data.seen, { published, modified });
+  assert.deepEqual(result[0][1].data.seen, {
+    published,
+    modified,
+    modifiedFromMerge: undefined,
+  });
   const legacy = await parseFiles("fixture", argv, paths, [], published);
-  assert.deepEqual(legacy[0][1].data.seen, { published, modified: undefined });
+  assert.deepEqual(legacy[0][1].data.seen, {
+    published,
+    modified: undefined,
+    modifiedFromMerge: undefined,
+  });
+  const modifiedFromMerge = { "content/Note.md": true };
+  const flagged = await parseFiles(
+    "fixture",
+    argv,
+    paths,
+    [],
+    published,
+    modified,
+    modifiedFromMerge,
+  );
+  assert.deepEqual(flagged[0][1].data.seen, {
+    published,
+    modified,
+    modifiedFromMerge,
+  });
 });

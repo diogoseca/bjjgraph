@@ -128,6 +128,7 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
     const dates = await gitDateMaps(path.resolve(argv.directory))
     ctx.gitPublicationDates = dates.published
     ctx.gitModifiedDates = dates.modified
+    ctx.gitModifiedDatesFromMerge = dates.modifiedFromMerge
   }
 
   let res: ProcessedContent[] = []
@@ -159,6 +160,7 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
           ctx.allSlugs,
           ctx.gitPublicationDates,
           ctx.gitModifiedDates,
+          ctx.gitModifiedDatesFromMerge,
         ]),
       )
     }
