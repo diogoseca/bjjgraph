@@ -50,7 +50,13 @@ baseline is a check that never runs. A legitimate change is accepted one file at
 written reason that lands in the baseline and stays there:
 
     python3 scripts/check_frozen_surfaces.py --accept source/quartz/plugins/transformers/ofm.ts \\
-        --reason "D-A-07: port stripDangerousHtml verbatim into the new driver's htmlPlugins list"
+        --reason "D-A-NN: <why this change is legitimate>"   # D-A-NN, never a well-formed id: see below
+
+The example id above is deliberately UNPARSEABLE. It used to be a WELL-FORMED id in this
+stream's namespace that does not exist (deliberately not spelled here — see below) — and a reference scanner cannot tell an example from a citation, BECAUSE THEY ARE
+THE SAME BYTES. That one string was then cited three more times by three other seats, each
+explaining the previous one. A realistic example is a hostile input to your own tools
+(COORDINATION §7U).
 
 An ABSOLUTE freeze would be worse than no gate: it blocks the first legitimate change and then gets
 disabled wholesale, which is how a gate stops existing. A reason is cheap; silence is what costs.
@@ -63,6 +69,19 @@ defect class, and `.ng-seemore` was missing from it for its entire existence).
 POSITIVE COVERAGE, HARD-FAILING ON ZERO. It always prints how many files it compared and exits
 non-zero if that count is below a floor. "Found no problems" and "never looked" must not produce
 the same output (CLAUDE.md §6.6 — 17 recorded instances in this repo).
+
+**BUT A FLOOR IS ONLY HALF A CONTROL, AND THE SET COMPARISON IS THE OTHER HALF.** A minimum catches
+MATCHES-NOTHING and is blind to MATCHES-TOO-MUCH: an over-scoped glob returns MORE files and sails
+past `>= MIN_FILES`. What actually guards that here is the SET comparison — every discovered file
+must appear in the baseline, so extras surface as `UNKNOWN` and the gate exits 1.
+MEASURED, not argued: broadening `transformers/*.ts` to `plugins/**/*.ts` makes this exit 1 and
+name each extra file (`emitters/aliases.ts`, `assets.ts`, `componentResources.ts`, …).
+**Re-run that check if you ever change `WATCHED_GLOBS`.**
+
+The distinction matters because the floor is the thing that LOOKS like the control, so anyone
+tightening or loosening `MIN_FILES` would believe they were adjusting the guard. An above-floor
+count proves the matcher finds something; it does not prove the matcher is scoped correctly, and
+those are two different failure modes. **A control you cannot fail is a comment.**
 
 BLIND SPOTS, stated so a green here is not read as more than it is:
   · Source identity is not behavioural identity. An npm version bump under `source/package.json`
