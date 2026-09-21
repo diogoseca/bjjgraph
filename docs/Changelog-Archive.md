@@ -7722,3 +7722,25 @@ run); anything else → `setViewMode` unchanged (Challenges/History, swipe path)
 nothing; leaves the address bar where ‹ Back does (declared, not covered). Gate:
 `concepts-surface.spec.ts` "clicking the pressed Explore tab returns a drilled Principle, then a
 System…", by mouse, RED first (1 ≠ 0); mutant: route the click back to `setViewMode` → same red.
+
+## v1.196.0 — Pane-aware gameplay layout
+
+The landing column now follows the choices into the pane's remaining space, keeping readable
+widths and painting overlap below the pane. Card, film, More and deck guides share its stacking
+context; paused/manual/leased cameras carry the same animated inset. Exposed controls retain
+pointer input while the pane owns keyboard shortcuts. Pane, More and replay transfer pause
+ownership on close.
+
+`pane-layout.spec.ts` pins measured reflow and overlap with authored film/More fixtures;
+`pane-camera.spec.ts` pins actual projected framing. Five integration mutants fail direct
+assertions: zero horizontal movement, zero camera inset, the card winning the phone overlap
+hit-test, early resume after pane-to-More handoff, and landing takeover of the pane's answer
+slot. The pane retains its suppression holder for keys; exposed pointers bypass only that holder.
+
+Finished on the original base as v1.189.0 (4f41a4ccc): 30 pane journeys, 283 units. Integrated
+onto dev v1.195.14 (15d8dc456), retaining its More-fold fixes, real git dates and payload policy:
+319 units, 30 pane journeys and all 326 curated cases pass; emit, full build, canon and payload
+gates pass. Boot bundles add 675 B gzip against an isolated build of that dev. Eager payload
+333,203 B gzip (+913 B vs policy baseline); first hand 389,764 B, core 352,526 B (+3,486 B).
+Both remain in the existing warning band, within their delta caps. Local evidence, not CI;
+external video playback, physical pinch/pan and owner visual acceptance remain unverified.
