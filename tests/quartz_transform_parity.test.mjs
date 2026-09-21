@@ -76,7 +76,7 @@ test("PROVENANCE REF — print the seam's own ref and exact changed paths, witho
 
 test("PROVENANCE REF — missing or malformed git_head is refused before comparisons, with no fallback", (t) => {
   const f = fixture(t)
-  const invalid = [undefined, {}, { git_head: null }, { git_head: "" }, { git_head: "   " }, { git_head: 42 }]
+  const invalid = [undefined, {}, { git_head: null }, { git_head: "" }, { git_head: "   " }, { git_head: 42 }, { git_head: "HEAD" }, { git_head: "not-a-commit" }]
   for (const provenance of invalid) {
     f.meta(provenance)
     // Normal mode too: the fixture deliberately has no transformer dependency installation.

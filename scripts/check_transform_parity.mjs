@@ -19,6 +19,7 @@
  *   node scripts/check_transform_parity.mjs                 # a diverse sample (default)
  *   node scripts/check_transform_parity.mjs --all           # all 4,600 files, ~17 min, ONE core
  *   node scripts/check_transform_parity.mjs --sample 200
+ *   node scripts/check_transform_parity.mjs --seam <dir> --provenance-only  # metadata, no parity claim
  *   node scripts/check_transform_parity.mjs --file "Positions/Mount.md" --verbose
  *
  * THE COMPARATOR IS ITSELF UNTESTED CODE, AND IT WAS THE BUG THREE TIMES BEFORE THIS SCRIPT
@@ -36,14 +37,15 @@
  *
  * POSITIVE COVERAGE, HARD-FAILING ON ZERO (CLAUDE.md §6.6). It always prints how many files and
  * how many stage comparisons it made, and exits 2 rather than 0 if that number is zero — a
- * comparator that compared nothing otherwise reports a perfect result.
+ * comparator that compared nothing otherwise reports a perfect result. The explicitly labelled
+ * --provenance-only mode reports capture attribution without making stage comparisons.
  *
  * KNOWN AND DELIBERATE EXCLUSION: `dates`. `CreatedModifiedDate` reads real git history and the
  * filesystem, so it cannot be reproduced outside the captured checkout. Stage 04 is compared for
  * its TREE (which it does not modify) and its date VALUES are skipped, loudly, in the output.
  * `tests/quartz_dates_contract.test.mjs` is what gates the dates themselves.
  *
- * Exit 0 parity · 1 a real difference · 2 the instrument could not produce a verdict.
+ * Exit 0 parity (or the requested provenance-only report) · 1 difference · 2 no verdict.
  */
 import { createRequire } from "node:module"
 import { fileURLToPath } from "node:url"
@@ -67,8 +69,6 @@ const val = (f, d) => (argv.indexOf(f) >= 0 ? argv[argv.indexOf(f) + 1] : d)
 // compared against without editing source: `--seam <dir>` beats `QZ_SEAM` beats the default.
 // With neither set the value is byte-identical to the literal it replaced — no behaviour change.
 const SEAM = val("--seam", process.env.QZ_SEAM || "/home/user/bjj-orchestrator/golden/seams-v1")
-// The commit V captured the seam at. Must match check_frozen_surfaces.py's BASE_REF.
-const BASE_REF = "f649801a9"
 const TRANSFORM = path.join(SEAM, "transform")
 
 const die = (code, msg) => {
@@ -146,20 +146,22 @@ function diverseSample(all, n) {
   return picked
 }
 
-// The four paths this comparison is ABOUT. Everything else in the tree can move without changing
-// the answer, which is why a full run is not owed to every integration.
+// The transformer inputs plus the seam's parse producer: producer drift such as D-237 must
+// remain visible even when it changes no compared transform stage. This is capture attribution,
+// not a substitute for V's content receipt/attestation.
 const PARITY_INPUTS = [
   "content/",
   "source/quartz/plugins/transformers/",
   "source/quartz/util/path.ts",
   "source/quartz.config.ts",
+  "source/quartz/processors/parse.ts",
 ]
 
 /**
  * Print whether this tree's parity inputs still match the commit the seam was captured at.
  *
  * DERIVED AND PRINTED ON EVERY RUN, rather than left as a command someone remembers. The criterion
- * — "re-run parity only when an integration touches these four paths" — is sound, and a sound
+ * — "re-run parity when an integration touches these inputs" — is sound, and a sound
  * criterion nobody can see the result of is indistinguishable from one that was skipped. Today's
  * evidence is that norms decay and tools do not: the same reason `staleness.sh` exists instead of
  * telling six people to merge down.
@@ -184,33 +186,51 @@ function stampInputs() {
   }
 }
 
-function reportInputProvenance() {
+function reportInputProvenance(baseRef) {
   let changed
   try {
     const out = execFileSync(
       "git",
-      ["diff", "--name-only", BASE_REF, "HEAD", "--", ...PARITY_INPUTS],
+      ["diff", "--name-only", baseRef, "HEAD", "--", ...PARITY_INPUTS],
       { cwd: REPO, encoding: "utf8" },
     )
     changed = out.split("\n").filter(Boolean)
   } catch {
     // A skip PRINTS (CLAUDE.md §6.6): "could not look" must not read like "looked and found none".
-    console.log("  input provenance : UNKNOWN — git comparison failed; treat the verdict with care")
+    console.log(`  input provenance : UNKNOWN since ${baseRef} — git comparison failed; treat the verdict with care`)
     return
   }
   if (changed.length === 0) {
-    console.log(`  input provenance : parity inputs UNCHANGED since ${BASE_REF} (${PARITY_INPUTS.length} paths checked)`)
+    console.log(`  input provenance : parity inputs UNCHANGED since ${baseRef} (${PARITY_INPUTS.length} paths checked)`)
   } else {
     console.log(
-      `  input provenance : ${changed.length} parity input(s) CHANGED since ${BASE_REF} — the seam ` +
+      `  input provenance : ${changed.length} parity input(s) CHANGED since ${baseRef} — the seam ` +
         "may no longer describe this tree (GOLDEN-RECAPTURE.md):",
     )
-    for (const f of changed.slice(0, 10)) console.log(`      ${f}`)
-    if (changed.length > 10) console.log(`      … and ${changed.length - 10} more`)
+    for (const f of changed) console.log(`      ${f}`)
   }
 }
 
 async function main() {
+  // The selected seam owns its capture ref. The byte-freeze's historical ref is unrelated.
+  // Validate before loading dependencies so missing attribution cannot hide behind another error.
+  const pipelinePath = path.join(SEAM, "pipeline.json")
+  let pipelineMeta
+  try {
+    pipelineMeta = JSON.parse(fs.readFileSync(pipelinePath, "utf8"))
+  } catch (err) {
+    die(2, `cannot read ${pipelinePath}: ${err.message}`)
+  }
+  const baseRef = pipelineMeta?.provenance?.git_head
+  if (typeof baseRef !== "string" || !/^(?:[0-9a-f]{40}|[0-9a-f]{64})$/i.test(baseRef)) {
+    die(2, "pipeline.json requires a full commit id in provenance.git_head; no fallback reference is permitted")
+  }
+  if (has("--provenance-only")) {
+    console.log("input provenance only — no transformer comparisons requested; this is not a parity verdict")
+    reportInputProvenance(baseRef)
+    return
+  }
+
   const { unified } = req("unified")
   const remarkParse = req("remark-parse").default
   const remarkRehype = req("remark-rehype").default
@@ -221,7 +241,6 @@ async function main() {
   const cfg = await loadConfig()
   const transformers = cfg.plugins.transformers
 
-  const pipelineMeta = JSON.parse(fs.readFileSync(path.join(SEAM, "pipeline.json"), "utf8"))
   const allSlugs = pipelineMeta.allSlugs
   if (!Array.isArray(allSlugs) || allSlugs.length === 0) {
     die(2, "pipeline.json carries no allSlugs — LinkProcessing cannot be compared without it")
@@ -391,7 +410,7 @@ async function main() {
   const mode = pipelineMeta.provenance?.mode ?? {}
   console.log(`transform parity vs ${path.relative(REPO, TRANSFORM)}`)
   console.log(`  seam captured on : ${mode.path ?? "(unstated)"}, concurrency ${mode.concurrency ?? "?"}`)
-  reportInputProvenance()
+  reportInputProvenance(baseRef)
   console.log(`  files compared   : ${files} of ${all.length} in the seam`)
   console.log(`  comparisons made : ${comparisons}   <- positive coverage count`)
   console.log(`  dates            : SKIPPED by design (git history); gated by quartz_dates_contract`)
