@@ -260,4 +260,48 @@ test("LINK DECORATION — classes, the external icon, prettyLinks and the outgoi
     allSlugs: SLUGS,
   })
   assert.deepEqual(empty.file.data.links, [], "a page with no links records an EMPTY array, not undefined")
+
+  // prettyLinks — NAMED IN THIS TEST'S TITLE AND, UNTIL NOW, NOT ASSERTED.
+  // Measured: deleting `node.children[0].value = path.basename(...)` (links.ts:139) left this
+  // whole file and quartz_pagedata green (9/9), while it changes the VISIBLE LABEL of 46,869
+  // un-aliased wikilinks across 4,421 of 4,600 content files. A title that names a behaviour
+  // invites the reader to infer coverage the assertions do not have (CLAUDE.md §6.9) — so the
+  // four branches of the condition at links.ts:132-139 are each pinned below.
+  //
+  // MUTANTS RUN, with the one that does NOT kill recorded so nobody reads this as total coverage:
+  //   L1  delete the basename rewrite (links.ts:139)        -> RED   (it was GREEN before this)
+  //   L3  prettyLinks default true -> false                 -> RED
+  //   L2  delete the `isInternal &&` guard                  -> GREEN, and it is EQUIVALENT here.
+  //       `externalLinkIcon: true` appends the SVG as a SECOND child, so `children.length === 1`
+  //       already excludes every external link and `isInternal` is redundant GIVEN that. Proven,
+  //       not reasoned: dropping `isInternal` AND setting `externalLinkIcon: false` together DOES
+  //       turn this test red. Two defaults are load-bearing for one behaviour, and neither names
+  //       the other at its own site.
+  const labelOf = (h, cls = "internal") => {
+    const a = h.match(new RegExp(`<a[^>]*class="${cls}[^>]*>([\\s\\S]*?)</a>`))
+    return a ? a[1].replace(/<svg[\s\S]*?<\/svg>/g, "") : null
+  }
+  let pinned = 0
+  for (const [md, cls, want, why] of [
+    [`[[Positions/Guard]]`, "internal", "Guard",
+      "an un-aliased wikilink is displayed by BASENAME, not by its authored path"],
+    [`[Positions/Guard](./Positions/Guard)`, "internal", "Guard",
+      "a markdown link with slashed text takes the same rewrite — it is not wikilink-specific"],
+    [`[[Positions/Guard|renamed]]`, "internal", "renamed",
+      "an alias with no slash is its own basename and survives untouched"],
+    [`[[Positions/Guard|Some/Label]]`, "internal", "Label",
+      "INCUMBENT AND SURPRISING: prettyLinks rewrites the AUTHOR'S alias too when it contains a " +
+        "slash. The condition tests the link's TEXT, not whether the text was authored"],
+    [`[a/b](https://example.com/x)`, "external", "a/b",
+      "an EXTERNAL link keeps its slashed text — `isInternal` gates the rewrite"],
+  ]) {
+    const { html: h } = await runPipeline(`---\ntitle: T\n---\n\n${md}\n`, {
+      slug: "Positions/Mount",
+      allSlugs: SLUGS,
+    })
+    assert.equal(labelOf(h, cls), want, why)
+    pinned += 1
+  }
+  console.log(`  coverage: ${pinned} prettyLinks branches pinned`)
+  assert.equal(pinned, 5, "a branch count of zero or a short loop would assert nothing")
 })
