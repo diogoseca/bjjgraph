@@ -15,9 +15,67 @@ import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs";
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SOURCE = path.join(REPO, "source");
+// This is the DRIVER'S runtime manifest, separate from HARNESS_MODULES. Traced through
+// the real subjects, spawned fixture builds and native workers (D-S1-14), not inferred
+// from imports or copied from the transformer bridge. The direct parent trace alone
+// sees 33 packages; the complete 93-receipt trace sees 43. Recompute from a fresh directory:
+//   mkdir /tmp/driver-trace
+//   DRIVER_TRACE_DIR=/tmp/driver-trace NODE_OPTIONS="--import=$(pwd)/tests/artifacts/_driver_trace_transport.mjs" \
+//     TRACE_OUT=/tmp/driver-trace/parent.json CI=true node --import ./tests/artifacts/_promised_deps_trace.mjs tests/quartz_driver.test.mjs
+// Union the package keys of every receipt. NEVER node --test for this trace: its child
+// omits the CLI --import. The transport delegates to the existing dev tracer and also
+// covers this spec's spawnSync children; PID + thread IDs prevent receipt overwrites.
+const DRIVER_MODULES = Object.freeze([
+  "@napi-rs/simple-git",
+  // D-240 blind site: the CLI race fixture's onResolve calls
+  // requireFromSource.resolve("async-mutex") and esbuild bundles the absolute path.
+  // Keep it explicit here; the spawned run.mjs also independently traces its bare import.
+  "async-mutex",
+  "chalk",
+  "chokidar",
+  "cli-spinner",
+  "dotenv",
+  "esbuild",
+  "esbuild-sass-plugin",
+  "github-slugger",
+  "globby",
+  "gray-matter",
+  "hast-util-to-html",
+  "hast-util-to-jsx-runtime",
+  "hast-util-to-string",
+  "is-absolute-url",
+  "js-yaml",
+  "lightningcss",
+  "mdast-util-find-and-replace",
+  "mdast-util-to-hast",
+  "mdast-util-to-string",
+  "preact",
+  "preact-render-to-string",
+  "pretty-bytes",
+  "pretty-time",
+  "rehype-autolink-headings",
+  "rehype-pretty-code",
+  "rehype-raw",
+  "rehype-slug",
+  "remark-frontmatter",
+  "remark-gfm",
+  "remark-parse",
+  "remark-rehype",
+  "remark-smartypants",
+  "rfdc",
+  "rimraf",
+  "serve-handler",
+  "source-map-support",
+  "to-vfile",
+  "unified",
+  "unist-util-visit",
+  "vfile",
+  "workerpool",
+  "ws",
+]);
 const deps = depsPromised(import.meta.url, {
   ...SOURCE_DEPS,
-  modules: ["esbuild"],
+  modules: DRIVER_MODULES,
 });
 const { test, assert, require: requireFromSource } = deps;
 const { build: bundle } = await deps.setup(() => requireFromSource("esbuild"));
