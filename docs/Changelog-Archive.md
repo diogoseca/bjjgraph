@@ -7722,3 +7722,25 @@ run); anything else → `setViewMode` unchanged (Challenges/History, swipe path)
 nothing; leaves the address bar where ‹ Back does (declared, not covered). Gate:
 `concepts-surface.spec.ts` "clicking the pressed Explore tab returns a drilled Principle, then a
 System…", by mouse, RED first (1 ≠ 0); mutant: route the click back to `setViewMode` → same red.
+
+
+## v1.195.15 — Complete Learning reads integrated with the current readers
+
+Merged the three authored `fix-learning-too` commits onto dev `15d8dc456`, retaining the
+More fold's pinned contents head, its centered collapsed pill and close/reopen behavior,
+and the pressed Explore tab's return to the library root. Principles retain their previews,
+film study and disclosure state; Systems retain their connected video during hydration.
+Learning's 26 JSON-authored entries now carry their complete reading, optional assessment,
+sources and related pages, including the three guides migrated from Markdown-only sources.
+Opening a reference still starts no roll. `reference.css` is deferred for the reference
+pages; the More fold keeps its separate `reading.css`.
+
+Kept dev's payload policy and all accepted baselines and ceilings. The eager set measures
+331,429 B gzip, 861 B below its accepted 332,290 B checkpoint. The browser's pinned K-Guard
+first hand requests 13 resources: 1,622,527 B raw / 388,218 B gzip, with a 350,980 B core
+subtotal, +1,940 B against its 349,040 B checkpoint and 6,000 B delta cap. Both gzip metrics
+warn above their targets and pass. Against a fresh bundle from the pinned dev inputs, the
+JavaScript adds 1,043 B gzip while the eager CSS loses 2,140 B; reference styles cost 3,437 B
+only when requested. Both calibration joins reach 100%; JSON, graph, 320 unit tests, docs,
+the full build and 318 curated journeys pass. The docs budget file is unchanged, including
+the archive's 667,773-character ceiling and the already-raised 58,000 for Neural.md.
