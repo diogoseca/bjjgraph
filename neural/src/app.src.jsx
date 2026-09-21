@@ -13520,6 +13520,17 @@ class Component extends DCLogic {
       this._paintRead(row, body);
       this._dockLandCard(this._landEl);
     });
+    // THE CONTENTS ROW EXISTS ONLY WHILE THE FOLD IS OPEN (v1.195.6). It used to be left in the
+    // head on close: laid out beside the collapsed pill at opacity 1, its entries still carrying
+    // their inline `pointer-events:auto` under a row reset to `none` — CLAUDE.md §6.1's trap, in
+    // its click-EATING form. Measured: `elementFromPoint` at an entry returned the entry, and a
+    // mouse click there ran `_navJump` against a `display:none` body (no visible effect, the
+    // click swallowed). Owner: "those tabs remain there like ghosts … I can't click them either".
+    // Removal, not `visibility:hidden`: a collapsed strip holds the pill and nothing else, so
+    // there is nothing to keep laid out. `_paintNav` puts the row back on reopen from the same
+    // section list the body was painted from, WITHOUT repainting the body (which is built once
+    // and reused — `landcard-more-content.spec.ts`, "builds its HTML on first open").
+    this._paintNav(row, body);
     body.style.display = want ? "block" : "none";
     row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
     if (want) {
@@ -13933,11 +13944,23 @@ class Component extends DCLogic {
   _paintRead(row, body) {
     const sections = body._ngMoreSections || [];
     body.innerHTML = this._readingHTML(sections, "land");
+    this._paintNav(row, body);
+  }
+  /**
+   * THE ONE WRITER OF THE CONTENTS ROW (v1.195.6). The row is derived from `body._ngMoreSections`
+   * — the list the body was last painted from — so the index can never describe a document the
+   * body does not show, whichever of its two callers ran: `_paintRead` when the body is written,
+   * `expandLandCard` when the fold opens or shuts. It is PRESENT only while the fold is open AND
+   * the body is painted: a shut fold gets its row removed (never faded — §6.1), and an open fold
+   * still awaiting `reading.css` gets nothing yet, so no unstyled row flashes before the body.
+   */
+  _paintNav(row, body) {
     const bar = row.querySelector("[data-read-bar]"), btn = row.querySelector("[data-land-more]");
     if (!bar || !btn) return;
     const old = bar.querySelector("[data-read-nav]");
     if (old) old.remove();
-    btn.insertAdjacentHTML("beforebegin", this._readingNav(sections));
+    if (!this._landOpen || !body.firstChild) return;
+    btn.insertAdjacentHTML("beforebegin", this._readingNav(body._ngMoreSections || []));
     this._navMark();
   }
   /** Where the head is STANDING, plus one rhythm unit — the line `_navMark` calls "being read".

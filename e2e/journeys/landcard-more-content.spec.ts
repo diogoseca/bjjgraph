@@ -1208,3 +1208,84 @@ test("@curated the pinned contents row is reachable by mouse where it floats", a
   // `elementFromPoint` returns a section and this reds on an ANCESTOR interception.
   await j.clickByMouse(`[data-read-to="${state.key}"]`, "a contents entry on the floating head")
 })
+
+/* ══════════════════════════════════════════════════════════════════════════════════════════
+ * THE HEAD WHEN THE FOLD IS SHUT (v1.195.6) — an owner report against the pinned head.
+ *
+ *  "when I click to close it … those tabs remain there like ghosts … I can't click them either".
+ *  The contents row was never removed on close: laid out beside the collapsed pill at opacity 1,
+ *  its entries still `pointer-events:auto` inline under a row reset to `none`. It was the
+ *  click-EATING ghost of CLAUDE.md §6.1, not an inert one — measured, a mouse click on an entry
+ *  ran `_navJump` against a `display:none` body, swallowing the click to no effect.
+ *
+ * Every claim names its mutant. `clickByMouse` and `elementFromPoint` are the only evidence of
+ * reachability and inertness here; `locator.click()` passes either way.
+ * ════════════════════════════════════════════════════════════════════════════════════════ */
+
+test("@curated shutting the fold removes the contents row from the strip; reopening restores it over the same body", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  await j.advance(250)
+  const live = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const body = document.querySelector("[data-land-more-body]") as HTMLElement
+    const first = document.querySelector("[data-read-nav] [data-read-to]") as HTMLElement
+    const r = first.getBoundingClientRect()
+    ;(body.children[0] as HTMLElement).setAttribute("data-ng-probe", "1")   // mark the painted body
+    ;(window as any).__navJumps = 0
+    const orig = a._navJump.bind(a)
+    a._navJump = (k: string) => { (window as any).__navJumps++; return orig(k) }
+    return { x: r.left + r.width / 2, y: r.top + r.height / 2, entries: document.querySelectorAll("[data-read-to]").length, key: first.getAttribute("data-read-to") }
+  })
+  expect(live.entries).toBeGreaterThan(2)
+
+  await j.clickByMouse("[data-land-more]", "the close ✕")
+  await expect(page.locator(".ng-landmore")).not.toHaveClass(/\bopen\b/)
+  await j.advance(250)
+  const shut = await page.evaluate(({ x, y }) => {
+    const top = document.elementFromPoint(x, y) as HTMLElement | null
+    return {
+      navs: document.querySelectorAll("[data-read-nav]").length,
+      entries: document.querySelectorAll("[data-read-to]").length,
+      hitIsEntry: !!(top && top.closest("[data-read-to]")),
+      hit: top ? `<${top.tagName.toLowerCase()}${top.className ? " ." + String(top.className).replace(/\s+/g, ".") : ""}>` : "nothing",
+    }
+  }, live)
+  // MUTANT: drop the `_paintNav(row, body)` call from `expandLandCard` -> the row is left in the
+  // head, laid out beside the collapsed pill, and every line below reds.
+  expect(shut.navs, "shut, no contents row is in the strip").toBe(0)
+  expect(shut.entries, "not one entry survives, hidden or otherwise").toBe(0)
+  expect(shut.hitIsEntry, `where an entry stood, a hit-test finds no entry (it finds ${shut.hit})`).toBe(false)
+
+  // reopen: the row comes back describing the same document, and the body is the one already built
+  await j.clickByMouse("[data-land-more]", "More again")
+  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "true")
+  await j.advance(250)
+  const back = await page.evaluate(() => {
+    const body = document.querySelector("[data-land-more-body]") as HTMLElement
+    const keyOf = (el: Element) => (Array.from(el.attributes).find((a) => a.name.startsWith("data-land-")) || { name: "" }).name.slice(10)
+    return {
+      navs: document.querySelectorAll("[data-read-nav]").length,
+      entries: Array.from(document.querySelectorAll("[data-read-to]")).map((b) => b.getAttribute("data-read-to")),
+      sections: Array.from(body.children).map(keyOf).filter(Boolean),
+      reused: (body.children[0] as HTMLElement).getAttribute("data-ng-probe") === "1",
+    }
+  })
+  // MUTANT: remove the row on close but never put it back (make `_paintNav` insert only from
+  // `_paintRead`) -> reopening a built body shows no contents row and this reds.
+  expect(back.navs, "reopened, the contents row is back").toBe(1)
+  expect(back.entries, "describing the document the body shows").toEqual(back.sections)
+  expect(back.reused, "over the body built on the first open, not a repaint").toBe(true)
+
+  // THE GHOST'S CLASS, asserted: it ATE clicks. Shut once more, a mouse click where an entry
+  // stood must not be a contents jump — whatever else it is, it is not swallowed by the row.
+  await j.clickByMouse("[data-land-more]", "the close ✕, once more")
+  await expect(page.locator(".ng-landmore")).not.toHaveClass(/\bopen\b/)
+  await j.advance(250)
+  await page.mouse.click(live.x, live.y)
+  await j.advance(250)
+  expect(await page.evaluate(() => (window as any).__navJumps), "a click where the row stood is not a contents jump").toBe(0)
+})
