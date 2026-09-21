@@ -33,6 +33,9 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
+- **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
+- **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
 - **v1.189.0** — [THE CEILING BECOMES A POLICY: TARGET, ACTION, AND A CAP ON THE STEP](#v11890--the-ceiling-becomes-a-policy-target-action-and-a-cap-on-the-step)
 - **v1.182.12**: [README and linked documentation describe dev](#v118212-readme-and-linked-documentation-describe-dev)
 - **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
@@ -7437,3 +7440,285 @@ numbers is not tested there.
 
 **Validation:** 287 unit tests (283 + 4 new), `validate:payload` green with one warning,
 `validate:claudemd` green (CLAUDE.md 80,645 / 82,000), `payload-first-hand` green.
+
+## v1.195.1 — Publication dates require publication evidence
+
+`CreatedModifiedDate` successfully discovers linked worktrees and normal clones. Its git
+source populates **modified only**; the creation fallback is the file's checkout birthtime.
+`Head` published that creation value as both `article:published_time` and JSON-LD
+`datePublished`. Complete git history in both deploy workflows therefore did not prevent
+this defect. The missing-workdir warning never applied: the git workdir and modification
+lookup were healthy. Separately, an absent `publishDate` became the build clock through
+`coerceDate(undefined)`, so merely switching Head's field would also have been wrong.
+
+None of the 4,600 Markdown sources supplies `date`, `created`, or `publishDate`; the JSON
+sources likewise carry no publication dates. Git's first/last commit does not prove first
+public deployment. Publication now comes from authored `publishDate` (then `date`), with
+missing or invalid dates omitted in both metadata surfaces. A worker reports the omission
+once. Git-backed modification metadata and the existing internal creation-date policy
+remain unchanged. A future authored backfill belongs in JSON and templates, with evidence.
+
+The pre-fix build reproduced exactly one census delta: 1,077 distinct publication values
+in the committed baseline versus 901 in this checkout. That count encoded filesystem
+history, not editorial history. The committed census and gate are deliberately unchanged;
+removing fabricated metadata necessarily changes its publication count, total meta-tag
+count, and publication meta-key count. Comparing independent corrected builds is a separate
+reproducibility check, not permission to silently re-seed the existing gate.
+
+`tests/published_time.test.mjs` executes the real transformer and rendered Head against
+normal, linked, full-clone and shallow-clone repositories, untracked notes, explicit dates,
+invalid dates, and precedence. Both new tests were red before the fix; restoring Head's
+creation-date source, restoring the build-clock fallback, dropping authored dates, and
+leaving an empty publication meta tag are killed by these assertions.
+`e2e/journeys/published-time.spec.ts` is tagged `@curated`, runs
+those fixtures on deploys, and inspects OG/JSON-LD on four served page archetypes. Both
+curated cases also failed against the original implementation/build.
+
+This establishes a production **metadata correctness** defect: the current production
+branch has identical relevant source, and both deployment paths execute it. It does not
+establish search-ranking/traffic harm; direct live-site requests in this investigation
+returned HTTP 403. The two completed emits also retain differing sitemap `lastmod` and RSS
+`pubDate` values because their reader still uses internal creation dates. Creation-date
+sorting/feed behavior, historical publication recovery, and general whole-site byte
+reproducibility are outside this change; Head publication parity does not justify removing
+every date-normalization rule from a whole-site comparison.
+
+**Validation:** 300 root unit tests passed; focused date tests passed again after the empty-tag
+assertion was strengthened. Quartz TypeScript/format checks and both new curated cases passed.
+Complete builds in a linked worktree and independent full clone used two parser workers and
+passed payload checks. Their censuses matched in all 13 dimensions; all 6,149 per-page OG and
+JSON-LD publication/modification maps matched exactly without normalization. Both unchanged
+baseline gates remained red with the same three expected publication-metadata deltas above.
+
+
+## v1.195.2 — Recover publication dates through Git renames and copies
+
+Publication now prefers authored `publishDate` / `date`, then the earliest recorded
+Markdown page history. Missing, invalid, shallow, or unavailable history stays absent.
+Both Head readers use this publication field; filesystem birthtime and the build clock
+remain forbidden publication fallbacks. This supersedes the deliberate absence policy
+in v1.195.1 with the owner's chosen Git provenance policy.
+
+The source choice is page Markdown lineage, even though Markdown is generated. Only
+1,679 of 4,600 Markdown files have adjacent JSON. `100% Sweep.md` follows history back
+to 2025-06-15, whereas its JSON begins on 2025-10-28; a naive Markdown first-add returns
+2026-02-09. Mount's two sources agree. Using JSON would discard known older page history
+and leave role pages without an adjacent source. Git author dates are recorded provenance,
+not independently observed first CDN deployments.
+
+The complete 4,600-file `git log --follow` oracle took 1,142.717 seconds with four workers.
+It produced **31 timestamps on 19 UTC days**, spanning 703.201689815 days, with 37.4348%
+on the busiest day. The expectation of hundreds of publication days was refuted by this
+full-corpus measurement. A naive first-add walk has 14 days. The day floor of 18 therefore
+remains load-bearing; timestamp cardinality is diagnostic only.
+
+The implementation selects Markdown-add commits, then runs one batched rename/copy-aware
+`diff-tree`, including unchanged copy sources. Its Markdown-only walk took 58.524 seconds
+and its production parser matched every one of the 4,600 independent `--follow` results.
+Plain renames and ordinary copy detection were faster but incorrect; unchanged-source
+copy detection is required. A single lookup is prepared before parser workers and shared
+with them. Both deploy paths fetch full history. The rebase preserves dev’s PR workflow
+unchanged at the owner’s instruction: its shallow build/test checkouts cannot recover
+publication history, so that CI path still requires a separate full-history decision.
+No generated content or fingerprint baseline is rewritten.
+
+The standing `validate:publication-dates` gate checks both publication surfaces and both
+modification surfaces, with positive page coverage and separately calibrated day, span,
+and largest-day-share thresholds. Policy JSON records the measured basis beside every
+floor. Healthy modified dates occupy 17 OG / 16 JSON-LD days; their legitimate 37.7% peak
+requires the 50% ceiling, not 25%. Modified checks guard the dormant final clock fallback:
+running the transformer shows disabling filesystem preserves tracked Git dates, but a
+file without authored/Git modification data then takes build time.
+
+The actual pre-fix emitted corpus fails all three publication spread checks on both
+surfaces: 901 timestamps occur on one day within 0.904 seconds. An isolated modified-clock
+control fails all three modified checks while publication remains healthy. All eight final
+threshold-policy mutants (including both JSON-LD overrides) are killed by the health units. Real transformer/Head fixtures
+pin rename, recreation, both forms of copy, independent checkouts, authored overrides,
+untracked/no-Git/shallow absence, invalid dates, all enriched schema types, exact tag counts,
+and unchanged modification behavior. Removing unchanged-source copy detection turns its
+fixture red. The three publication journeys are collected by the normal `@curated` gate.
+
+RSS/sitemap creation-date readers are unchanged and remain outside this metadata fix.
+
+A second coverage distinction matters to publication calibration: the original emitted
+JSON-LD coverage excludes the homepage (the only 2024 provenance date) and three guides
+(the only 2025-10-14 day). Its 4,593 covered primary pages therefore have 28 timestamps on
+17 days, spanning 450.928020833 days. JSON-LD publication gets its own minimum of 16 days
+and 405 days of span (90% of those measured values); OG keeps 18 days and 632 days. The
+50% share ceiling and all three checks remain. This is an explicit surface override in
+the publication policy, with its measured basis, not an unrecorded shared-floor relaxation.
+
+**Validation before rebasing:** 307 root units and Quartz TypeScript/format checks passed. The health
+units passed again after the surface calibration, and all eight final policy mutations
+were killed. Normal deployment collection finds all three publication `@curated` cases.
+A completed red run against the interim absent-date emit failed the two emitted-output
+assertions while its fixture passed; all three then passed on the corrected tree. An
+earlier 120-second corpus timeout is recorded separately and is not counted as red proof;
+the complete scan now has a 300-second subprocess / 360-second test budget and prints
+its actual failure diagnostics. No semantic assertion was removed.
+
+Two complete independent builds (linked worktree and full clone) match in **13/13**
+fingerprint dimensions and all **6,149** per-page publication/modification maps, without
+date normalization. Both emit publication on **6,118 OG / 6,110 JSON-LD pages**; the
+distributions are 31 timestamps / 19 days / 703.201689815-day span / 37.561295% largest day
+for OG and 28 / 17 / 450.928020833 / 37.610475% for JSON-LD. All 4,600 primary OG dates
+and 4,593 primary JSON-LD dates match the independent complete `--follow` oracle. Existing
+modification maps are unchanged on all 6,149 pages. A further control preserves the real
+fixed publication fields and collapses only modification; all three modified checks fail
+on both surfaces and publication stays green.
+
+Whole-pipeline timing with identical two-worker/memory settings: e81f18f06 full-clone
+baseline **1,059.936s (17m39.9s)**; fixed worktree **1,335.388s (22m15.4s)**; fixed same
+clone **722.243s (12m02.2s)**. Shared-host load varied substantially; these wall differences
+are not a causal speedup/regression estimate. Same-clone child CPU increased from
+1,390.931s to 1,416.648s (+25.717s, about 1.85%). The added cold Git stage itself measured
+**59.24s / 60.85s** in the two actual builds. That minute remains material to a three-minute
+build target, even after batching replaces the 19-minute per-file oracle. Queueing,
+prerequisite neural regeneration and post-build tests are outside the pipeline timings.
+
+Before rebasing, the unchanged committed census remained red with one historical delta:
+**1,077 checkout publication values → 31 Git values**. Publication-tag counts are restored.
+Its baseline is not reseeded and its implementation is not weakened; the PR shape gate
+needs a separate baseline decision. RSS/sitemap creation-date values still differ between
+the two outputs (4,598 sitemap dates and 10 RSS dates), as previously scoped and routed.
+
+**Rebased verification on dev 91afaf618:** the reading redesign, accepted eager-payload
+baseline, all ten new E2E server configurations, harness-resolution spec, and existing
+workflow are preserved. Two full builds of the rebased tree again match in **13/13**
+fingerprint dimensions and all **6,149** per-page publication/modification maps without
+normalization. Coverage remains **6,118 OG / 6,110 JSON-LD** publication fields with the
+same varied Git dates and per-field spread checks. All 4,600 primary OG and 4,593 JSON-LD
+fields match the complete independent `git log --follow` oracle; content and relevant
+history inputs were verified unchanged before reusing that oracle.
+
+Quartz checks, 307 root units, and all five publication/harness curated cases passed.
+Both bare and explicit routes in the publication sample resolve to the flat document
+under the new harness, with both publication fields correct. The actual pre-fix capture
+still fails all three publication checks on both surfaces; collapsing only modification
+in the newly built output fails all three modified checks while publication stays green.
+No assertion or protected dev file was changed to obtain these results.
+
+Rebased full-pipeline timings (two parser workers): worktree **829.236s**, clone
+**923.416s**. Cold Git preparation took **73.81s / 57.54s**.
+Eager payload is **332,302 / 332,274 bytes**: **+12 / -16** against the retained
+**332,290-byte** accepted baseline. The 28-byte gzip difference is confined to curriculum
+score-weight array ordering; keyed weights agree, and the Neural JS/CSS artifacts match.
+That generator remains unchanged. The 2,099-byte reading stylesheet remains deferred. Wall times on the
+shared host are observations, not a causal before/after speed claim.
+
+The preserved dev census has exactly one historical mismatch: **888 checkout publication
+values -> 31 Git values**. It is not reseeded. Preserving dev's E2E workflow also retains
+shallow build/test checkouts, which cannot supply this policy's publication history;
+that CI integration issue remains explicit. Deploy workflows already fetch full history.
+The optional `gitPublicationDates?: Record<string, string>` field on `BuildCtx` is
+prepared once and forwarded to workers; if the field is absent, only CreatedModifiedDate performs its
+cached lazy Git lookup. An empty map is authoritative and suppresses that fallback.
+
+
+### v1.195.3 — Share publication and modification history in the driver
+
+The driver prepares `gitPublicationDates?: Record<string, string>` and the optional
+sibling `gitModifiedDates?: Record<string, string>` from one cached collection. One
+unfiltered Markdown history walk records latest committer dates and addition-commit IDs;
+the existing batched rename/copy diff retains publication's earliest author-date policy.
+Keys remain repository-relative Markdown paths with forward slashes. Shallow/unavailable
+history yields empty maps, with no filesystem or clock fabrication. The publication API,
+authored precedence and rendered fields are unchanged. CreatedModifiedDate still uses
+its native per-file modification reader; the new sibling is data for future consumers.
+
+The modified index takes the first path change in reverse topological order, not the
+maximum timestamp (commit clocks may go backward). Combined merge diffs include a
+resolution that changes every parent's version without stamping unchanged merged files.
+This is deliberately explicit: the native reader ignores such resolutions, so universal
+native-reader equivalence is not claimed. No current plugin consumes the new sibling.
+The worker accepts an optional sixth argument while preserving the fifth publication map.
+
+Both complete-E2E checkouts now fetch full history, which the provenance policy and
+curated Git oracle need. The committed fingerprint census remains unchanged.
+Seven real-Git/driver fixtures cover modification-only commits, author/committer clock
+skew, rename/copy lineage, merge resolutions, shared-cache call counts, missing history,
+and context propagation. Original publication and per-field spread assertions remain.
+
+The complete 4,600-file comparison preserves every publication date and matches native
+modification on 4,598 paths. Americana and Kimura have later merge resolutions: the new
+map agrees with `git log -1 --format=%cI -- <path>` on each; the native reader skips them.
+This difference is documented for future consumers, not applied to current page metadata.
+
+## v1.195.6 — Systems section rhythm as a ratio; the "missing trailer" was a stale public dir
+
+Three items from one owner report on his own :8080, all on the 10th Planet Systems pages.
+
+**1. "No video, but the product page has a trailer."** Reproduced on dev's tip in headless
+Chromium with nothing aborted (the e2e DSL aborts non-localhost requests, so it could not be the
+instrument): the Bunny trailer mounts on both surfaces — Neural pane SDK 2.06s, iframe 2.6s,
+visible 4.7s; static article (bundle refused) 0.35s / 0.9s / 1.9s; 52 mediadelivery requests, 0
+page errors. With the SDK blocked the designed contract holds (no iframe, cover, no affordance),
+which is the owner's symptom, so it was measured rather than assumed; the default ad-block lists
+name only `rum.js` and `/.metrics/`. Cause: his :8080 served `source/public` built 2026-09-18
+17:33 (pre-v1.190.0 pages, payload with `preview: null` and `course_url: null`, the retired
+`data-verified-origins` gate) under a bundle from 2026-09-20 — `dev:neural:app` refreshes the
+bundle and the adapter, never the payload or the pages. Fix: `npm run build`. Production has no
+inline preview at all (origin/main 1.182.15).
+
+**2. Craig Jones Leg Lock System.** Down Under Leg Attacks carries no player: 0 mediadelivery
+server-side, 0 video media in the Shopify JSON, 0 media requests in a real browser after 16s.
+The guide's second source has four Bunny GUIDs for a different course. Nothing authored.
+
+**3. "Not much space between the sections."** Measured first. Neural pane, body 12px × 1.8 =
+21.6px: the five separating margins were 22/25/28/30/26px (1.0–1.4 lines). Static article, body
+16px × 1.65 = 26.4px: 32/40/40/40/48px (1.2–1.8 lines). The owner sizes spacing as a ratio of a
+token already on the page, so the rule is one ratio against each surface's own line-height:
+every top-level block from the course block down to Sources starts TWO LINES below the block
+before it (43.2px pane, 52.8px article); the hero keeps its own grouping. One owner per surface:
+`--ng-system-gap` (neural/src/systems.css) and `--system-gap` (scripts/system_guide.css). The
+drill button's stray 4px bottom margin is zeroed: a button is inline-level, so it added to the
+Sources gap (47.2 for a 43.2 rule) instead of collapsing.
+
+Pinned by `e2e/journeys/systems-rhythm.spec.ts` and `system-static-rhythm.spec.ts` (@curated,
+1440 and 390): gap ÷ computed line-height = 2 from the rendered boxes, never the px, a positive
+boundary count, then the token moved inline and re-measured. Red-first: static 1.21, Neural
+1.02. Mutants: a hard-coded px gap on either surface dies on the moved token (1.37 / 1.50).
+Byte-neutral to non-Systems pages: build-shape census equal, 3 bundles byte-for-byte; 83 pages
+link `system-guide.css`, 0 outside `Systems/`; neural.css +44 B gzip inside the delta cap.
+Units 314/314, systems-surface 44/44, curated 308 passed, 0 failed (20.7 min) on the rebuilt tree (scratch config on :8172; the gate ports belong to other sessions).
+
+## v1.195.6 — THE GHOST CONTENTS ROW ATE CLICKS
+
+Owner: after closing More, "those tabs remain there like ghosts … I can't click them either".
+`_paintRead` inserted the contents row into the head and nothing removed it on close: it stayed
+laid out beside the collapsed pill at opacity 1 (not even invisible — §6.1's trap in its loud
+form), and because each entry re-enables `pointer-events` inline under a row reset to `none`,
+it ATE clicks: `elementFromPoint` at an entry returned the entry and one mouse click ran
+`_navJump` (spy 0 → 1) against a `display:none` body — swallowed, nothing to show. `_readClear`
+DID reset the inner bar's transform on close; the stale-pin hypothesis was checked and ruled
+out. Fix: `_paintNav` is the one writer, called from `_paintRead` and `expandLandCard` in both
+directions, so close REMOVES the row and reopen restores it over the reused body. Gate:
+`landcard-more-content.spec.ts` "shutting the fold removes the contents row…", RED first (1 ≠
+0); mutants: no call → same red; remove-without-restore → "reopened … back" 0 ≠ 1. Full numbers:
+the commit message and `bjj-orchestrator/reports/more-fold-close.md`.
+
+## v1.195.7 — THE COLLAPSED MORE PILL, CENTRED AGAIN
+
+Owner: the collapsed More "seems to show too much to the right". v1.194.1's `margin-left:auto`
+on the close control also acted on the SHUT pill, the bar's lone child: measured +114px off
+centre at 390, +251 at 1440. Fix: the bars centre (`justify-content:center` in
+`NG_READ_BAR_CSS`), `_landMoreAlign` is the one writer of the margin ("auto" open, "0" shut,
+written not cleared), and reading.css's copy of the rule is deleted. Ordered AFTER v1.195.6,
+measured: with the ghost row still in the head the two centred together and the pill sat
+114 / 205px off after a close. Gate: "390px / 1440px: shut, the More pill is centred…";
+mutants: shut-state auto margin → 114 / 251; open writes "0" → 38.5px off the edge at 1440.
+That mutant SURVIVES at 390 (a 3-entry row already fills the bar there) — recorded in the spec.
+
+## v1.195.8 — THE PRESSED EXPLORE TAB IS THE WAY HOME
+
+Owner: "If I click the Explore tab even though it's open, it should go to the Explore root."
+`setViewMode` early-returns on the current tab by design (the transition seam), and the tab
+click called it directly, so a Principle, Learning entry or System owning the pane had no way
+home but ‹ Back. Fix: `_paneTabClick` decides at the click — pressed Explore → `_exploreHome`
+(clear the PAGE selection + search rail, re-list, beat `pane_tab_home`; a lit list survives —
+the first cut un-lit a saved shared class, caught by share-lists.spec.ts:640 in the full curated
+run); anything else → `setViewMode` unchanged (Challenges/History, swipe path). Starts
+nothing; leaves the address bar where ‹ Back does (declared, not covered). Gate:
+`concepts-surface.spec.ts` "clicking the pressed Explore tab returns a drilled Principle, then a
+System…", by mouse, RED first (1 ≠ 0); mutant: route the click back to `setViewMode` → same red.

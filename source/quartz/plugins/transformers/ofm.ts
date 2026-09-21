@@ -568,10 +568,23 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 continue
               }
               if (URL_ATTRS.has(lower)) {
+                // hast stores a space-separated attribute as an ARRAY of tokens, and `ping` is
+                // the one URL_ATTRS member property-information marks that way (asserted from
+                // the package by tests/quartz_sanitizer_ping.test.mjs, not from a list). Until
+                // v1.195.6 this branch was `typeof val === "string"`, so an array never reached
+                // the regex and `<a ping="javascript:…">` survived to the emitted HTML — 11 of
+                // 12 members stripped, ping did not. Test EVERY token after the same
+                // control-character strip, and drop the WHOLE attribute on any match: keeping
+                // the safe tokens would still emit a ping, and a partially sanitised ping is
+                // still a ping. A scalar takes the same path as a one-token array.
                 const val = props[key]
+                const tokens: unknown[] = Array.isArray(val) ? val : [val]
                 if (
-                  typeof val === "string" &&
-                  DANGEROUS_URL.test(val.replace(/[\u0000-\u0020]/g, ""))
+                  tokens.some(
+                    (tok) =>
+                      typeof tok === "string" &&
+                      DANGEROUS_URL.test(tok.replace(/[\u0000-\u0020]/g, "")),
+                  )
                 ) {
                   delete props[key]
                 }

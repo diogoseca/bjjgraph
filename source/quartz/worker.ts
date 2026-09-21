@@ -21,8 +21,21 @@ export async function parseFiles(
   argv: Argv,
   fps: FilePath[],
   allSlugs: FullSlug[],
+  gitPublicationDates?: Record<string, string>,
+  gitModifiedDates?: Record<string, string>,
+  gitModifiedDatesFromMerge?: Record<string, true>,
 ) {
-  const ctx: BuildCtx = { buildId, cfg, argv, allSlugs }
+  // Legacy four-argument callers leave these undefined and retain transformer fallbacks.
+  // Native parse workers receive the host's complete maps, including merge-origin flags.
+  const ctx: BuildCtx = {
+    buildId,
+    cfg,
+    argv,
+    allSlugs,
+    gitPublicationDates,
+    gitModifiedDates,
+    gitModifiedDatesFromMerge,
+  }
   return createFileParser(ctx, fps)(createProcessor(ctx))
 }
 
@@ -234,7 +247,15 @@ if (parentPort && workerData) {
   parentPort.on("message", async ({ id, task }) => {
     try {
       if (init.phase === "parse") {
-        const result = await parseFiles(init.buildId, init.argv, task, init.allSlugs)
+        const result = await parseFiles(
+          init.buildId,
+          init.argv,
+          task,
+          init.allSlugs,
+          init.gitPublicationDates,
+          init.gitModifiedDates,
+          init.gitModifiedDatesFromMerge,
+        )
         parentPort!.postMessage({ id, result })
       } else {
         const emitTask = task as EmitTask

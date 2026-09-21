@@ -12,6 +12,7 @@ import { QuartzLogger } from "../util/log"
 import { VFile } from "vfile"
 import { runWorkerTasks, workerCount } from "./workerPool"
 import { BuildCtx } from "../util/ctx"
+import { gitDateMaps } from "../util/publication"
 
 export type QuartzProcessor = Processor<MDRoot, MDRoot, HTMLRoot>
 export function createProcessor(ctx: BuildCtx): QuartzProcessor {
@@ -98,6 +99,14 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
   log.start(`Parsing input files`)
   let summary: string | undefined
   try {
+    // X-01: collect once on the host for both paths (including rebuilds). Repeating
+    // history walks in workers reintroduces per-worker Git contention (D-197).
+    if (ctx.cfg.plugins.transformers.some((plugin) => plugin.name === "CreatedModifiedDate")) {
+      const dates = await gitDateMaps(path.resolve(ctx.argv.directory))
+      ctx.gitPublicationDates = dates.published
+      ctx.gitModifiedDates = dates.modified
+      ctx.gitModifiedDatesFromMerge = dates.modifiedFromMerge
+    }
     let result: ProcessedContent[]
     if (concurrency === 1) {
       result = await createFileParser(ctx, fps)(createProcessor(ctx))
@@ -105,7 +114,15 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
       const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
       const groups = [...chunks(fps, size)]
       const results = await runWorkerTasks<ProcessedContent[]>(
-        { phase: "parse", buildId: ctx.buildId, argv: ctx.argv, allSlugs: ctx.allSlugs },
+        {
+          phase: "parse",
+          buildId: ctx.buildId,
+          argv: ctx.argv,
+          allSlugs: ctx.allSlugs,
+          gitPublicationDates: ctx.gitPublicationDates,
+          gitModifiedDates: ctx.gitModifiedDates,
+          gitModifiedDatesFromMerge: ctx.gitModifiedDatesFromMerge,
+        },
         groups,
         concurrency,
       )

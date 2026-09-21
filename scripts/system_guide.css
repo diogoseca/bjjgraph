@@ -1,18 +1,25 @@
 /* Static guide presentation, copied into emitted assets by the resolver. */
 body:has([data-system-guide]) .article-title { display: none; }
-.system-guide { max-width: 760px; margin-inline: auto; line-height: 1.65; }
+/* Section rhythm — ONE owner. Every top-level block from the overview down to Sources sits TWO
+   LINES of the guide body below the block before it: the token is the body line-height
+   (--system-body-lh) and the ratio is the rule; 1rem because the guide body is 1rem (an em would
+   re-resolve inside the 1.08rem overview). The Neural pane carries the same rule against its own
+   token (neural/src/systems.css, --ng-system-gap). Pinned by e2e/journeys/system-static-rhythm.spec.ts,
+   which asserts gap ÷ line-height = 2 and re-measures after moving the token. The hero (title →
+   intro → View course) is one unit and stays on its own tighter spacing. */
+.system-guide { --system-body-lh: 1.65; --system-gap: calc(2 * var(--system-body-lh) * 1rem); max-width: 760px; margin-inline: auto; line-height: var(--system-body-lh); }
 .system-guide .system-back { display: inline-block; margin: 0 0 1.4rem; }
 .system-guide .system-heading h1 { margin: 0 0 1rem; font-size: clamp(2rem, 5vw, 3.1rem); line-height: 1.12; text-wrap: balance; }
 .system-guide .system-tags { display: flex; gap: .55rem; flex-wrap: wrap; }
 .system-guide .system-tags span { border: 1px solid var(--lightgray, #aaa); border-radius: 99px; padding: .3rem .8rem; font-size: .875rem; line-height: 1.4; }
 .system-guide .system-reference-count { font-size: .9rem; color: var(--gray, #666); margin: .75rem 0 1.25rem; }
-.system-guide .system-course { margin: 1rem 0 1.7rem; }
+.system-guide .system-course { margin: 1rem 0 var(--system-gap); }
 .system-guide .system-course--top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .system-guide .system-course__identity { min-width: 0; }
 .system-guide .system-course h2 { margin: 0; font-size: 1.1rem; line-height: 1.35; }
 .system-guide .system-course__instructor { margin: .25rem 0 0; font-size: .9rem; color: var(--gray, #666); }
 .system-guide .system-course__link { display: inline-block; flex-shrink: 0; font-weight: 650; padding: .7rem 1rem; border-radius: .45rem; background: var(--secondary, #284f69); color: var(--light, #fff); text-decoration: none; }
-.system-guide .system-overview { font-size: 1.08rem; margin: 2rem 0; }
+.system-guide .system-overview { font-size: 1.08rem; margin: var(--system-gap) 0; }
 .system-guide .system-preview { position: relative; aspect-ratio: 16 / 9; margin: 1.25rem 0 0; border-radius: .75rem; overflow: hidden; background: var(--lightgray, #e6e6e6); }
 .system-guide [data-preview-player], .system-guide [data-preview-fallback] { position: absolute; inset: 0; }
 .system-guide .system-preview iframe, .system-guide .system-cover { display: block; width: 100%; height: 100%; border: 0; }
@@ -20,8 +27,8 @@ body:has([data-system-guide]) .article-title { display: none; }
 .system-guide [data-preview-fallback] { pointer-events: none; }
 .system-guide [data-preview-fallback] p { margin: 0; padding: 1rem; }
 .system-guide [data-preview-fallback][hidden] { display: none; }
-.system-guide .system-section { margin: 2.5rem 0; }
-.system-guide .system-sources { font-size: .86rem; margin-top: 3rem; border-top: 1px solid var(--lightgray, #aaa); padding-top: 1rem; }
+.system-guide .system-section { margin: var(--system-gap) 0; }
+.system-guide .system-sources { font-size: .86rem; margin-top: var(--system-gap); border-top: 1px solid var(--lightgray, #aaa); padding-top: 1rem; }
 .system-guide a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 @media (max-width: 600px) { .system-guide .system-course--top { align-items: stretch; flex-direction: column; gap: .8rem; } .system-guide .system-course__link { display: block; text-align: center; } }
 
