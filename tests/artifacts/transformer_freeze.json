@@ -9,11 +9,18 @@
           "reason": "Incoming from dev, NOT a programme change: published-time's production date fix (e81f18f06, v1.193.3), merged into the programme base. Head.tsx switches article:published_time and JSON-LD datePublished from dates.created (which is checkout birthtime) to dates.published (authored publishDate only); lastmod.ts documents that git supplies modification history, not a first-publication record. 0 of 4,600 files carry publishDate, so BOTH FIELDS NOW VANISH FROM ~6,118 PAGES. That is correct \u2014 the previous values were false \u2014 and it is why the fix reaches 13/13 across checkouts. The frozen baseline f649801a9 predates it.",
           "scope": "keeplist",
           "to": "31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0"
+        },
+        {
+          "date": "2026-09-21",
+          "from": "cff299113432ae3f14bf7484b9787156ee344c52aa5a8baeb8a9055e3f025248",
+          "reason": "dev abbbb8873: git-derived publication dates",
+          "scope": "keeplist",
+          "to": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82"
         }
       ],
-      "bytes": 7071,
+      "bytes": 7064,
       "scope": "keeplist",
-      "sha256": "31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0"
+      "sha256": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82"
     },
     "source/quartz/components/renderPage.tsx": {
       "accepted": [
@@ -66,11 +73,17 @@
           "from": "82fad748eb7b461516d1a8b384fc18ac15c8782442eaaf53cde52437ee639b90",
           "reason": "Incoming from dev, NOT a programme change: published-time's production date fix (e81f18f06, v1.193.3), merged into the programme base. Head.tsx switches article:published_time and JSON-LD datePublished from dates.created (which is checkout birthtime) to dates.published (authored publishDate only); lastmod.ts documents that git supplies modification history, not a first-publication record. 0 of 4,600 files carry publishDate, so BOTH FIELDS NOW VANISH FROM ~6,118 PAGES. That is correct \u2014 the previous values were false \u2014 and it is why the fix reaches 13/13 across checkouts. The frozen baseline f649801a9 predates it.",
           "to": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0"
+        },
+        {
+          "date": "2026-09-21",
+          "from": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0",
+          "reason": "dev e462a169d: X-01 batched git dates + gitModifiedDatesFromMerge flag (parity default)",
+          "to": "80c1aec5fe5de9e07183ade64433311b561c578487683d690f938a695109e30a"
         }
       ],
-      "bytes": 8534,
+      "bytes": 12185,
       "scope": "pipeline",
-      "sha256": "56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0"
+      "sha256": "80c1aec5fe5de9e07183ade64433311b561c578487683d690f938a695109e30a"
     },
     "source/quartz/plugins/transformers/links.ts": {
       "bytes": 6208,
@@ -78,9 +91,17 @@
       "sha256": "73eb56814f8b4ac392a0d540d1e522d29f5b913051f1844dded8f7d1d8973303"
     },
     "source/quartz/plugins/transformers/ofm.ts": {
-      "bytes": 28754,
+      "accepted": [
+        {
+          "date": "2026-09-21",
+          "from": "1dd1353ecd8a451dafa61eb71ec648a8b370376f1ae1043a2f3595a31e1d5f48",
+          "reason": "dev 601c521e9: ping sanitizer",
+          "to": "5dda6a8fa4fe1bd9f13fdfc9be32fc601e1067ccf7ba5e91a134d85b65124f61"
+        }
+      ],
+      "bytes": 29761,
       "scope": "pipeline",
-      "sha256": "1dd1353ecd8a451dafa61eb71ec648a8b370376f1ae1043a2f3595a31e1d5f48"
+      "sha256": "5dda6a8fa4fe1bd9f13fdfc9be32fc601e1067ccf7ba5e91a134d85b65124f61"
     },
     "source/quartz/plugins/transformers/schemaExtractor.ts": {
       "bytes": 2693,
