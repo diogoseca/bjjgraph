@@ -2,6 +2,13 @@
 """Diff a candidate emitted site tree against the GOLDEN emit, and classify every
 difference by what it costs.
 
+Content provenance is asserted cumulatively at use and completion on BOTH manifests.
+Missing/expired capture proof is EXIT 2 CONTENT_PROVENANCE_UNVERIFIED/DRIFTED.
+Use --artifact-only explicitly for historical comparisons, including permanently
+input-unverified build0 (308d6f577; four unnamed dirty paths). Its result concerns
+artifact bytes only. This content check does not validate code, dates, environment
+or generated inputs. See golden_provenance_selftest.py; normalizations cannot bypass it.
+
     python3 scripts/emit_diff.py GOLDEN.json.gz CANDIDATE.json.gz \
         [--allow normalization.json] [--json report.json] [--examples 5]
 
@@ -106,6 +113,7 @@ pairs, four mutant kills and the explicitly recorded positive-comparator non-kil
 from __future__ import annotations
 
 import argparse
+from golden_provenance import ContentGuard, add_arguments, ProvenanceError
 import gzip
 import json
 import re
@@ -629,6 +637,7 @@ def main():
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("golden")
     ap.add_argument("candidate")
+    add_arguments(ap)
     ap.add_argument("--allow", help="JSON file of declared normalization rules")
     ap.add_argument("--seeded", help="JSON file declaring golden-seeded input regions; never suppresses differences")
     ap.add_argument("--json", help="write the full machine-readable report here")
@@ -638,6 +647,7 @@ def main():
     a = ap.parse_args()
 
     G, C = load(a.golden), load(a.candidate)
+    guards = [ContentGuard(G, a, 'golden'), ContentGuard(C, a, 'candidate')]
     gs, cs = G.get("schema"), C.get("schema")
     if gs != cs:
         sys.exit(f"EXIT 2 -- manifest schema mismatch: golden={gs} candidate={cs}. These "
@@ -809,6 +819,11 @@ def main():
 
     print("=" * W)
     verdict_problems = list(problems)
+    for guard in guards:
+        try:
+            guard.finish()
+        except ProvenanceError as e:
+            verdict_problems.append(f'CONTENT_PROVENANCE_{e.state}: {e}')
     if dead_rules:
         verdict_problems.append(
             f"normalization rule(s) matched nothing: {', '.join(dead_rules)}. A rule that "
@@ -848,6 +863,8 @@ def main():
     if a.json:
         json.dump({
             "golden": a.golden, "candidate": a.candidate,
+            "content_provenance": {g.label: g.verdict for g in guards},
+            "artifact_only": a.artifact_only,
             "coverage": {"golden": gcov, "candidate": ccov,
                          "regressions": cov_regressions},
             "missing": missing, "extra": extra,
@@ -871,4 +888,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)

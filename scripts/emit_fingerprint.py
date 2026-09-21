@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """Fingerprint an emitted static site tree, exhaustively and without guessing.
 
+Without --content-receipt, capture inputs remain explicitly UNVERIFIED. Fingerprinting
+an existing tree must never stamp the caller's HEAD onto bytes built elsewhere.
+The capture driver supplies completed input proof; --write-content-receipt binds it
+to the measured output paths/sizes/hashes for later baseline updates. This does not
+recover build0's four unnamed dirty paths or prove browser/code/environment parity.
+Receipt and stale-output controls live in golden_provenance_selftest.py.
+
 WHY THIS EXISTS
 ---------------
 The project is replacing its vendored Quartz SSG with its own emitter. The loud failure
@@ -878,17 +885,28 @@ def coverage(files: dict) -> dict:
 
 
 def main():
+    from golden_provenance import add_arguments, read_capture_receipt, ContentGuard, output_identity
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("tree")
     ap.add_argument("--out", required=True, help="manifest path (.json.gz)")
     ap.add_argument("--jobs", type=int, default=min(8, (os.cpu_count() or 4)))
     ap.add_argument("--label", default="", help="free-text note stored in the manifest")
+    add_arguments(ap, capture=True)
+    ap.add_argument('--write-content-receipt', type=Path,
+                    help='write a compact completed receipt bound to these output bytes')
     a = ap.parse_args()
 
     root = os.path.abspath(a.tree)
     if not os.path.isdir(root):
         sys.exit(f"not a directory: {root}")
+    if a.write_content_receipt and not a.content_receipt:
+        raise ValueError('--write-content-receipt requires --content-receipt')
+    receipt = read_capture_receipt(a, root) if a.content_receipt else None
+    guard = ContentGuard({'content_provenance': receipt}, a, 'fingerprinted tree') if receipt else None
+    if receipt is None:
+        print('CONTENT: UNVERIFIED; fingerprinting bytes does not attest capture inputs. '
+              'No current HEAD will be imputed to this tree.')
 
     rels = walk(root)
     if not rels:
@@ -899,6 +917,9 @@ def main():
     files = scan_tree(root, a.jobs)
 
     cov = coverage(files)
+    if guard:
+        guard.finish()
+        receipt = {**receipt, 'output_identity': output_identity(files)}
     manifest = {
         # Bump whenever a fingerprint FIELD is added, removed or changes meaning.
         # emit_diff.py refuses to compare across versions: two manifests built by
@@ -909,10 +930,16 @@ def main():
         "label": a.label,
         "coverage": cov,
         "files": files,
+        "content_provenance": receipt,
     }
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     with gzip.open(a.out, "wt", encoding="utf-8") as fh:
         json.dump(manifest, fh)
+    if a.write_content_receipt:
+        # Exclusive publication: capture labels and their proof cannot be overwritten.
+        with a.write_content_receipt.open('x', encoding='utf8') as fh:
+            json.dump(receipt, fh, ensure_ascii=False, indent=2)
+            fh.write('\n')
 
     print(f"\nwrote {a.out} ({os.path.getsize(a.out):,} bytes)")
     print("COVERAGE")

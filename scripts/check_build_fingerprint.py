@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """check_build_fingerprint.py — refuse a build that emitted the wrong SHAPE of site.
 
+Default baseline comparison asserts captured content against current content at use
+and completion. Missing/stale proof exits 2 with a named CONTENT_PROVENANCE state;
+--artifact-only is an explicit historical census comparison, not current-source parity.
+--check-baseline is only the schema/retirement guard and needs no built tree; --floors-only
+uses no golden. --update requires --content-receipt from the completed build AND
+matching named output bytes; it never infers build identity from current HEAD.
+Pinned by golden_provenance_selftest.py; code, dates and environment are outside that proof.
+
 WHAT CHANGED AND WHY (this file was rewritten; see the history note at the bottom)
 ---------------------------------------------------------------------------------
 The original version (v1.77.0) was written to prove the Quartz fork prune changed no
@@ -81,6 +89,7 @@ import os
 import re
 import sys
 from pathlib import Path
+from golden_provenance import ContentGuard, add_arguments, read_capture_receipt, ProvenanceError
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 # ONE implementation of "walk the emit and describe it". This file used to carry its own
@@ -190,12 +199,13 @@ def check_baseline(base: dict) -> list[str]:
     return problems
 
 
-def capture(jobs: int, tree: Path = None) -> dict:
+def capture(jobs: int, tree: Path = None, *, receipt_args=None) -> dict:
     tree = tree or PUBLIC
     if not tree.exists():
         sys.exit(f"ERROR: {tree} not found — run `npm run build` first")
 
     files = scan_tree(tree, jobs)
+    receipt = read_capture_receipt(receipt_args, tree, files=files, require_output_hash=True) if receipt_args else None
     cov = coverage(files)
 
     bundles = {}
@@ -216,7 +226,7 @@ def capture(jobs: int, tree: Path = None) -> dict:
             by_dir.get(rel.split("/")[0] if "/" in rel else "<root>", 0) + 1
 
     return {
-        "_meta": {"format": FORMAT},
+        "_meta": {"format": FORMAT, **({'content_provenance': receipt} if receipt else {})},
         "bundles": bundles,
         "app_assets": app_inventory(files),
         "bundle_tokens": bundle_tokens,
@@ -325,7 +335,10 @@ def main() -> None:
     ap.add_argument("--jobs", type=int, default=min(8, (os.cpu_count() or 4)))
     ap.add_argument("--tree", help="emit directory to inspect (default source/public); "
                                    "use it to gate a snapshot rather than the live tree")
+    add_arguments(ap, capture=True)
     a = ap.parse_args()
+    if a.update and a.artifact_only:
+        raise ProvenanceError('--artifact-only cannot authorize a baseline update')
 
     base = None
     if not a.update and not a.floors_only:
@@ -344,7 +357,10 @@ def main() -> None:
             print("PASS baseline contract only; built_tree_files_scanned=0 (not site parity)")
             return
 
-    cur = capture(a.jobs, Path(a.tree) if a.tree else None)
+    guard = ContentGuard(base, a, 'committed census') if base is not None else None
+    if a.update and not a.content_receipt:
+        raise ProvenanceError('--update requires the actual completed build receipt, never fingerprint-time HEAD')
+    cur = capture(a.jobs, Path(a.tree) if a.tree else None, receipt_args=a if a.update else None)
     c = cur["census"]
     print(f"emit: {c['files']:,} files · {c['html_pages']:,} pages · "
           f"{c['jsonld_blocks']:,} JSON-LD blocks · {c['article_links']:,} in-article links "
@@ -367,6 +383,7 @@ def main() -> None:
         return
 
     if a.update:
+        ContentGuard(cur, a, 'updated census').finish()
         a.baseline.parent.mkdir(parents=True, exist_ok=True)
         cur["_note"] = (
             "Committed census for scripts/check_build_fingerprint.py. Re-seed with "
@@ -384,6 +401,7 @@ def main() -> None:
         return
 
     problems = check_census(base, cur)
+    guard.finish()
     if problems:
         print(f"\n✗ BUILD CENSUS CHANGED ({len(problems)} difference(s)):")
         for p in problems[:80]:
@@ -413,4 +431,8 @@ def main() -> None:
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)

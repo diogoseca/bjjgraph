@@ -21,11 +21,12 @@
  * array order, positions and all values are. No normalization is permitted.
  *
  * Partially pinned: --selftest in seam_golden_selftest.py covers render records;
- * pipeline red proofs are in emit_mutation_test.py. A one-file/boundary pass does
+ * record/writer red proofs are in seam_record_selftest.mjs. A one-file/boundary pass does
  * not prove siblings, final render bytes, emitter scheduling, browser behavior or
  * keyed deployment. This parse-only bundle deliberately empties CSS/inline-script
  * imports like the incumbent parse worker; it MUST NOT be used to render/emit.
  * --mutant modifies only the temporary bundle, never product source or goldens.
+ * Build observers import seam_record.mjs, not this standalone discovery CLI.
  */
 import { createRequire } from 'node:module';
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, statSync } from 'node:fs';
@@ -33,13 +34,12 @@ import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
-import { gzipSync } from 'node:zlib';
 import { Worker, isMainThread, workerData, parentPort, threadId } from 'node:worker_threads';
+import { serial, countNodes, createRecordWriter } from './seam_record.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const source = path.join(root, 'source');
 const sourceRequire = createRequire(new URL('../source/package.json', import.meta.url));
-const { build } = sourceRequire('esbuild');
 const args = process.argv.slice(2);
 const value = name => { const i = args.indexOf(name); return i < 0 ? undefined : args[i + 1]; };
 const sha = x => createHash('sha256').update(x).digest('hex');
@@ -49,31 +49,12 @@ const mutant = value('--mutant');
 const compressed = !args.includes('--plain');
 const NativeDate = Date;
 const maxBytes = Number(value('--max-bytes') || 10 * 1024 ** 3);
-const budget = workerData ? new BigInt64Array(workerData.budget) : null;
-
-function serial(value) {
-  if (value === undefined) return { $undefined: true };
-  if (value instanceof NativeDate) return { $date: value.toISOString() };
-  if (Array.isArray(value)) return value.map(serial);
-  if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map(k => [k, serial(value[k])]));
-  if (typeof value === 'function' || typeof value === 'symbol' || typeof value === 'bigint') throw new Error(`unsupported seam value: ${typeof value}`);
-  return value;
-}
-
-function countNodes(tree) {
-  let n = 0;
-  function walk(v) {
-    if (!v || typeof v !== 'object') return;
-    if (typeof v.type === 'string') n++;
-    for (const child of v.children || []) walk(child);
-  }
-  walk(tree);
-  return n;
-}
+const budget = workerData?.budget ? new BigInt64Array(workerData.budget) : undefined;
 
 async function main() {
   if (args[0] !== 'parse' || !output) throw new Error('usage: seam_capture.mjs parse --out DIR [--file RELATIVE.md] [--limit N]');
   if (mutant && !['no-trim', 'yaml-default'].includes(mutant)) throw new Error('unknown mutant');
+  const { build } = sourceRequire('esbuild');
   const start = performance.now();
   if (isMainThread) process.chdir(source);
   // These are inputs, not normalization: the captured incumbent config is keyless.
@@ -136,22 +117,11 @@ async function main() {
     const mode = { path: isMainThread ? 'main-thread' : 'worker-thread', entry: 'incumbent createFileParser/createProcessor', inline_ts_and_scss: 'empty string, exactly as transpileWorkerScript', concurrency: workerData?.concurrency || 1, worker: workerData?.slot ?? null, chunk_size: 128 };
     const versions = Object.fromEntries(['js-yaml', 'gray-matter', 'unified', 'remark-parse', 'remark-rehype'].map(n => [n, packageVersion(n)]));
     const provenance = { git_head: execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim(), source_hashes: sourceHashes, mode, versions, mutant: mutant || null };
-    let records = 0, storedBytes = 0, rawBytes = 0, nodes = 0, active;
+    let nodes = 0, active;
     const stages = [], coverage = {};
-    function write(seam, key, data, counts) {
-      const payload = serial(data), dataBytes = JSON.stringify(payload);
-      const record = { schema: 'quartz-seam-v1', seam, key, data: payload, data_sha256: sha(dataBytes), coverage: { files: 1, ...counts }, provenance: { git_head: provenance.git_head, capture: 'pipeline.json', mode, versions, mutant: mutant || null } };
-      const bytes = Buffer.from(JSON.stringify(record) + '\n');
-      const dest = path.join(output, seam, key + (compressed ? '.json.gz' : '.json'));
-      const stored = compressed ? gzipSync(bytes, { level: 6 }) : bytes;
-      // Reserve allocated blocks plus directory overhead BEFORE writing, across workers.
-      const cost = BigInt((Math.ceil(stored.length / 4096) + 1) * 4096);
-      if (budget && Atomics.add(budget, 0, cost) + cost > BigInt(maxBytes)) throw new Error(`hard stop: capture storage budget exceeds ${maxBytes} bytes`);
-      mkdirSync(path.dirname(dest), { recursive: true });
-      if (existsSync(dest)) throw new Error(`refusing to overwrite golden ${dest}`);
-      writeFileSync(dest, stored, { flag: 'wx' });
-      records++; storedBytes += stored.length; rawBytes += bytes.length;
-    }
+    const writer = createRecordWriter({ output, compressed, maxBytes, budget,
+      provenance: { git_head: provenance.git_head, capture: 'pipeline.json', mode, versions, mutant: mutant || null } });
+    const { write } = writer;
     function stage(phase, name, kind) {
       const id = `${String(stages.length + 1).padStart(2, '0')}-${phase}-${name}`;
       stages.push({ id, phase, name, kind }); coverage[id] = 0; return id;
@@ -229,8 +199,17 @@ async function main() {
       inputManifest[key].clock = active.clock;
       if (result.length !== 1) throw new Error(`${key}: parser coverage=${result.length}, expected 1`);
       if (Object.values(coverage).some(n => n !== Object.keys(inputManifest).length)) throw new Error(`${key}: incomplete stage coverage`);
-      if (Object.keys(inputManifest).length % 100 === 0) console.log(`coverage: files=${Object.keys(inputManifest).length}/${selected.length}, snapshots=${records}, bytes=${storedBytes}`);
+      if (Object.keys(inputManifest).length % 100 === 0) {
+        const receipt = writer.receipt();
+        console.log(`coverage: files=${Object.keys(inputManifest).length}/${selected.length}, snapshots=${receipt.coverage.snapshots}, bytes=${receipt.storage.bytes}`);
+      }
     }
+    const receipt = writer.receipt();
+    const { snapshots: records } = receipt.coverage;
+    const { bytes: storedBytes, uncompressed_bytes: rawBytes } = receipt.storage;
+    if (receipt.coverage.parse !== selected.length || receipt.coverage.transform !== selected.length * stages.length ||
+        Object.keys(receipt.coverage.by_stage).length !== stages.length ||
+        stages.some(({ id }) => receipt.coverage.by_stage[id] !== coverage[id])) throw new Error('writer and observer coverage disagree');
     const manifest = { schema: 'quartz-pipeline-capture-v1', provenance, stages, allSlugs: ctx.allSlugs, inputs: inputManifest, coverage: { files: selected.length, corpus_files: allMarkdown.length, snapshots: records, nodes, by_stage: coverage }, storage: { bytes: storedBytes, uncompressed_bytes: rawBytes }, elapsed_seconds: (performance.now() - start) / 1000 };
     mkdirSync(output, { recursive: true });
     writeFileSync(path.join(output, workerData ? `pipeline-worker-${workerData.slot}.json` : 'pipeline.json'), JSON.stringify(manifest, null, 2) + '\n', { flag: 'wx' });
@@ -280,4 +259,7 @@ async function coordinator() {
   } finally { await Promise.all(workers.map(w => w.terminate())); }
 }
 
-(isMainThread ? coordinator() : main()).catch(e => { console.error(`ERROR instrument coverage incomplete: ${e.stack || e}`); process.exitCode = 2; });
+// Worker entry argv[1] is this file too; importing from a running build is inert.
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  (isMainThread ? coordinator() : main()).catch(e => { console.error(`ERROR instrument coverage incomplete: ${e.stack || e}`); process.exitCode = 2; });
+}
