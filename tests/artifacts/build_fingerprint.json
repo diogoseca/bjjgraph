@@ -72,7 +72,7 @@
  "distinct_values": {
   "name=description": 4562,
   "property=article:modified_time": 28,
-  "property=article:published_time": 888,
+  "property=article:published_time": 31,
   "property=og:title": 4612
  },
  "jsonld_types": {
