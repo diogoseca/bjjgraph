@@ -18,5 +18,7 @@ export interface BuildCtx {
   argv: Argv
   cfg: QuartzConfig
   allSlugs: FullSlug[]
+  // Git-relative forward-slash Markdown paths; ISO UTC dates. Missing entries are unknown.
   gitPublicationDates?: Record<string, string>
+  gitModifiedDates?: Record<string, string>
 }

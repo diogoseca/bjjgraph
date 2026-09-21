@@ -18,7 +18,7 @@ const matter = requireFromSource("gray-matter");
 test("@curated publication provenance survives clones and worktrees in the real renderer", () => {
   const output = execFileSync(
     process.execPath,
-    ["--test", "tests/published_time.test.mjs"],
+    ["--test", "tests/published_time.test.mjs", "tests/git_date_maps.test.mjs"],
     {
       cwd: ROOT,
       encoding: "utf8",

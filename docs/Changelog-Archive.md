@@ -7611,3 +7611,33 @@ that CI integration issue remains explicit. Deploy workflows already fetch full 
 The optional `gitPublicationDates?: Record<string, string>` field on `BuildCtx` is
 prepared once and forwarded to workers; if the field is absent, only CreatedModifiedDate performs its
 cached lazy Git lookup. An empty map is authoritative and suppresses that fallback.
+
+
+### v1.195.3 — Share publication and modification history in the driver
+
+The driver prepares `gitPublicationDates?: Record<string, string>` and the optional
+sibling `gitModifiedDates?: Record<string, string>` from one cached collection. One
+unfiltered Markdown history walk records latest committer dates and addition-commit IDs;
+the existing batched rename/copy diff retains publication's earliest author-date policy.
+Keys remain repository-relative Markdown paths with forward slashes. Shallow/unavailable
+history yields empty maps, with no filesystem or clock fabrication. The publication API,
+authored precedence and rendered fields are unchanged. CreatedModifiedDate still uses
+its native per-file modification reader; the new sibling is data for future consumers.
+
+The modified index takes the first path change in reverse topological order, not the
+maximum timestamp (commit clocks may go backward). Combined merge diffs include a
+resolution that changes every parent's version without stamping unchanged merged files.
+This is deliberately explicit: the native reader ignores such resolutions, so universal
+native-reader equivalence is not claimed. No current plugin consumes the new sibling.
+The worker accepts an optional sixth argument while preserving the fifth publication map.
+
+Both complete-E2E checkouts now fetch full history, which the provenance policy and
+curated Git oracle need. The committed fingerprint census remains unchanged.
+Seven real-Git/driver fixtures cover modification-only commits, author/committer clock
+skew, rename/copy lineage, merge resolutions, shared-cache call counts, missing history,
+and context propagation. Original publication and per-field spread assertions remain.
+
+The complete 4,600-file comparison preserves every publication date and matches native
+modification on 4,598 paths. Americana and Kimura have later merge resolutions: the new
+map agrees with `git log -1 --format=%cI -- <path>` on each; the native reader skips them.
+This difference is documented for future consumers, not applied to current page metadata.
