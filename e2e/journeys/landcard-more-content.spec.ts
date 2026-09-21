@@ -1208,3 +1208,163 @@ test("@curated the pinned contents row is reachable by mouse where it floats", a
   // `elementFromPoint` returns a section and this reds on an ANCESTOR interception.
   await j.clickByMouse(`[data-read-to="${state.key}"]`, "a contents entry on the floating head")
 })
+
+/* ══════════════════════════════════════════════════════════════════════════════════════════
+ * THE HEAD WHEN THE FOLD IS SHUT (v1.195.6, v1.195.7) — two owner reports against the pinned head.
+ *
+ *  1. (v1.195.6) "when I click to close it … those tabs remain there like ghosts … I can't click
+ *     them either". The contents row was never removed on close: laid out beside the collapsed
+ *     pill at opacity 1, its entries still `pointer-events:auto` inline under a row reset to
+ *     `none`. It was the click-EATING ghost of CLAUDE.md §6.1, not an inert one — measured, a
+ *     mouse click on an entry ran `_navJump` against a `display:none` body, swallowing the click.
+ *  2. (v1.195.7) "the More button, when it's collapsed, seems to show too much to the right. It
+ *     doesn't seem to be centered." The pinned head right-aligned the ✕ with `margin-left:auto`,
+ *     and a shut head holds the pill ALONE, so the same margin pushed the lone pill to the
+ *     strip's far edge. Measured before the fix: pill centre 114px right of the strip's at 390,
+ *     251 at 1440. It needed the ghost row gone first: with the row still in the head, the two
+ *     were centred TOGETHER and the pill sat 114 / 205px off after a close, measured on the
+ *     centring fix alone.
+ *
+ * Every claim names its mutant. `clickByMouse` and `elementFromPoint` are the only evidence of
+ * reachability and inertness here; `locator.click()` passes either way.
+ * ════════════════════════════════════════════════════════════════════════════════════════ */
+
+test("@curated shutting the fold removes the contents row from the strip; reopening restores it over the same body", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+  await j.land("Mount Top")
+  await seedCurrent(page, position("Top"))
+  await openMore(page, j)
+  await j.advance(250)
+  const live = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const body = document.querySelector("[data-land-more-body]") as HTMLElement
+    const first = document.querySelector("[data-read-nav] [data-read-to]") as HTMLElement
+    const r = first.getBoundingClientRect()
+    ;(body.children[0] as HTMLElement).setAttribute("data-ng-probe", "1")   // mark the painted body
+    ;(window as any).__navJumps = 0
+    const orig = a._navJump.bind(a)
+    a._navJump = (k: string) => { (window as any).__navJumps++; return orig(k) }
+    return { x: r.left + r.width / 2, y: r.top + r.height / 2, entries: document.querySelectorAll("[data-read-to]").length, key: first.getAttribute("data-read-to") }
+  })
+  expect(live.entries).toBeGreaterThan(2)
+
+  await j.clickByMouse("[data-land-more]", "the close ✕")
+  await expect(page.locator(".ng-landmore")).not.toHaveClass(/\bopen\b/)
+  await j.advance(250)
+  const shut = await page.evaluate(({ x, y }) => {
+    const top = document.elementFromPoint(x, y) as HTMLElement | null
+    return {
+      navs: document.querySelectorAll("[data-read-nav]").length,
+      entries: document.querySelectorAll("[data-read-to]").length,
+      hitIsEntry: !!(top && top.closest("[data-read-to]")),
+      hit: top ? `<${top.tagName.toLowerCase()}${top.className ? " ." + String(top.className).replace(/\s+/g, ".") : ""}>` : "nothing",
+    }
+  }, live)
+  // MUTANT: drop the `_paintNav(row, body)` call from `expandLandCard` -> the row is left in the
+  // head, laid out beside the collapsed pill, and every line below reds.
+  expect(shut.navs, "shut, no contents row is in the strip").toBe(0)
+  expect(shut.entries, "not one entry survives, hidden or otherwise").toBe(0)
+  expect(shut.hitIsEntry, `where an entry stood, a hit-test finds no entry (it finds ${shut.hit})`).toBe(false)
+
+  // reopen: the row comes back describing the same document, and the body is the one already built
+  await j.clickByMouse("[data-land-more]", "More again")
+  await expect(page.locator("[data-land-more]")).toHaveAttribute("aria-expanded", "true")
+  await j.advance(250)
+  const back = await page.evaluate(() => {
+    const body = document.querySelector("[data-land-more-body]") as HTMLElement
+    const keyOf = (el: Element) => (Array.from(el.attributes).find((a) => a.name.startsWith("data-land-")) || { name: "" }).name.slice(10)
+    return {
+      navs: document.querySelectorAll("[data-read-nav]").length,
+      entries: Array.from(document.querySelectorAll("[data-read-to]")).map((b) => b.getAttribute("data-read-to")),
+      sections: Array.from(body.children).map(keyOf).filter(Boolean),
+      reused: (body.children[0] as HTMLElement).getAttribute("data-ng-probe") === "1",
+    }
+  })
+  // MUTANT: remove the row on close but never put it back (make `_paintNav` insert only from
+  // `_paintRead`) -> reopening a built body shows no contents row and this reds.
+  expect(back.navs, "reopened, the contents row is back").toBe(1)
+  expect(back.entries, "describing the document the body shows").toEqual(back.sections)
+  expect(back.reused, "over the body built on the first open, not a repaint").toBe(true)
+
+  // THE GHOST'S CLASS, asserted: it ATE clicks. Shut once more, a mouse click where an entry
+  // stood must not be a contents jump — whatever else it is, it is not swallowed by the row.
+  await j.clickByMouse("[data-land-more]", "the close ✕, once more")
+  await expect(page.locator(".ng-landmore")).not.toHaveClass(/\bopen\b/)
+  await j.advance(250)
+  await page.mouse.click(live.x, live.y)
+  await j.advance(250)
+  expect(await page.evaluate(() => (window as any).__navJumps), "a click where the row stood is not a contents jump").toBe(0)
+})
+
+/** A seat whose contents row is SHORTER than its bar. On a row that overflows, flex shrinking
+ *  parks the ✕ at the edge whether or not anything right-aligns it, so the claim would be a
+ *  consequence of overflow and not of the alignment under test. Three sections is the row's
+ *  minimum (`_readingNav` emits nothing below it). */
+const shortPosition = (): Dossier => ({
+  cat: "Position", role: "Top",
+  lead: "Top authored summary.", def: "Master this position.",
+  principles: ["Keep a connected frame."],
+  mistakes: [{ err: "Reaching without a base", why: "It exposes the supporting arm.", fix: "Establish the base first." }],
+})
+
+/** The head's geometry in one read: the inner bar the pill and the ✕ live in, and the row. */
+const headGeo = (page: Page) => page.evaluate(() => {
+  const q = (s: string) => document.querySelector(s) as HTMLElement | null
+  const pin = q("[data-read-pin]")!, btn = q("[data-land-more]")!, nav = q("[data-read-nav]")
+  const p = pin.getBoundingClientRect(), b = btn.getBoundingClientRect(), n = nav ? nav.getBoundingClientRect() : null
+  return {
+    pinLeft: p.left, pinRight: p.right, pinCx: p.left + p.width / 2,
+    btnLeft: b.left, btnRight: b.right, btnCx: b.left + b.width / 2,
+    navLeft: n ? n.left : null, navRight: n ? n.right : null, navWidth: n ? n.width : 0,
+    navs: document.querySelectorAll("[data-read-nav]").length,
+    entries: document.querySelectorAll("[data-read-to]").length,
+    open: !!(window as any).__neural._landOpen,
+  }
+})
+
+for (const width of [390, 1440]) {
+  test(`@curated ${width}px: shut, the More pill is centred; open, the ✕ sits right and the contents row fills between`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width < 700 ? 844 : 900 })
+    const j = journey(page)
+    await j.boot()
+    await j.land("Mount Top")
+    await seedCurrent(page, shortPosition())
+    await j.advance(250)
+    await page.waitForTimeout(300)
+    const shut = await headGeo(page)
+    expect(shut.open).toBe(false)
+    expect(shut.navs, "shut, the strip holds the pill alone").toBe(0)
+    // MUTANT: put `margin-left:auto` back in the pill's creation cssText (or make `_landMoreAlign`
+    // write "auto" for the shut state) -> the lone pill goes to the strip's far edge and this reds.
+    expect(Math.abs(shut.btnCx - shut.pinCx), "shut, the pill is centred on the strip").toBeLessThanOrEqual(1)
+
+    await openMore(page, j)
+    await j.advance(250)
+    await page.waitForTimeout(300)
+    const open = await headGeo(page)
+    expect(open.entries, "premise: a contents row exists").toBeGreaterThanOrEqual(3)
+    // THE KILL IS CARRIED BY THE DESKTOP CASE. Measured: the three-entry row is 292px wide at
+    // 390, which is every pixel beside the ✕ (344 - 40 - 12), so at phone width even the shortest
+    // row overflows and flex shrinking parks the ✕ at the edge with or without its margin. At
+    // 1440 the same row has 236px of slack, and there the claim below is about the alignment.
+    if (width >= 700) expect(open.navWidth, "premise: the row is shorter than the room beside the ✕, so alignment is a claim")
+      .toBeLessThan(open.pinRight - open.pinLeft - (open.btnRight - open.btnLeft) - 12 - 40)
+    // MUTANT (1440): make `_landMoreAlign` write "0" for the open state -> under the bar's centring
+    // the row and the ✕ share the slack and the ✕ leaves the edge (measured 38.5px in). At 390
+    // this mutant SURVIVES the same lines, for the reason above — recorded, not claimed.
+    expect(Math.abs(open.btnRight - open.pinRight), "open, the ✕ sits at the bar's right edge").toBeLessThanOrEqual(1)
+    expect(Math.abs(open.navLeft! - open.pinLeft), "and the contents row starts at its left edge").toBeLessThanOrEqual(1)
+    expect(open.navRight!, "clear of the ✕ by the bar's own gap").toBeLessThanOrEqual(open.btnLeft - 11)
+
+    // shut again, by mouse, with reading.css now loaded — the state the owner was looking at
+    await j.clickByMouse("[data-land-more]", "the close ✕")
+    await expect(page.locator(".ng-landmore")).not.toHaveClass(/\bopen\b/)
+    await j.advance(250)
+    await page.waitForTimeout(300)
+    const again = await headGeo(page)
+    expect(again.navs, "shut again, the strip holds the pill alone").toBe(0)
+    expect(Math.abs(again.btnCx - again.pinCx), "and the pill is centred again").toBeLessThanOrEqual(1)
+  })
+}
+

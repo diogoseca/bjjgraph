@@ -8,9 +8,15 @@
 const NG_READ_NAV = { def: "Definition", aka: "Names", "safety-notice": "Safety notice" };
 const NG_LAND_MORE_COL = "#7e8aa3";
 // The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
-// the collapsed More pill is drawn before the stylesheet arrives and its `margin-left:auto`
-// needs a flex parent. One string so the two cannot drift.
-const NG_READ_BAR_CSS = "display:flex;align-items:center;gap:12px;";
+// the collapsed More pill is drawn before the stylesheet arrives. One string so the two cannot
+// drift. `justify-content:center` is what centres the COLLAPSED pill (v1.195.7): shut, the inner
+// bar holds the pill alone, and a lone flex item with `margin-left:auto` is pushed to the far
+// edge whatever the bar's own alignment says — the owner: "the More button, when it's collapsed,
+// seems to show too much to the right. It doesn't seem to be centered." Measured before the fix:
+// pill centre 114px right of the row's at 390 wide, 251px at 1440. The auto margin therefore
+// exists ONLY while the fold is open (`_landMoreAlign`), where it right-aligns the ✕ past the
+// contents row; the collapsed pill is centred by this bar, exactly as it was before v1.194.0.
+const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;gap:12px;";
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
 // count line = 40px from the padding-box top; the question starts at the card's padding-top
@@ -6632,6 +6638,50 @@ class Component extends DCLogic {
     this._renderPaneBody();
   }
   /**
+   * A CLICK on a tab, as distinct from a swipe (v1.195.8). `setViewMode` is the TRANSITION seam
+   * and early-returns on the current tab by design — a transition to where you already are is
+   * nothing — which left the pressed Explore tab a dead click while a Principle, a Learning entry
+   * or a System owned the pane. Owner: "If I click the Explore tab even though it's open, it
+   * should go to the Explore root. Right now clicking the Explore tab doesn't do anything if the
+   * Explore is already open." So the click handler decides: the pressed Explore tab goes HOME
+   * (`_exploreHome`), everything else is the transition it always was. The other two tabs keep
+   * their no-op, and the swipe path (`_paneTabPageTo`) never targets the pressed tab at all, so
+   * neither changes here.
+   */
+  _paneTabClick(view) {
+    if (view === "collection") view = "challenges"; // retired tab, as setViewMode reads it
+    if (view === "explore" && this._viewMode === "explore") { this._exploreHome(); return; }
+    this.setViewMode(view);
+  }
+  /**
+   * THE EXPLORE ROOT: the top-level list, un-drilled and unfiltered. A Principle, a Learning entry
+   * or a System is a PAGE rendered in the list's place (reference law, CLAUDE.md §5): `_conceptId`
+   * / `_systemId` own the list while set and `renderExplorer` hands it back the moment they are
+   * null. This is what the pages' own "‹ Back" does (`closeConcept`, `closeSystem`: clear the
+   * selection, re-list) plus the search rail, because a query also hides the root
+   * (`_exploreDetailOwnsList` defers to it). The address bar is left where ‹ Back leaves it.
+   * It STARTS NOTHING — no seat, no hand, no roll: a reference page closed is still not a place,
+   * and the pane law is untouched (no open, no close, no pause changes hands).
+   *
+   * A LIT LIST SURVIVES. `clearFocus` drops every focus source at once, and the first cut called
+   * it unconditionally — which un-lit a shared class the reader had just saved, because the
+   * arrival spec's helper clicks the pressed tab (share-lists.spec.ts, "a saved link ... lights
+   * up": received [] for the three ids). A list highlight is a selection INSIDE the root's own
+   * Lists section — `renderExplorer` keeps `_listFocusId` across every re-render for the same
+   * reason — so home leaves it lit and clears only what a PAGE owns.
+   */
+  _exploreHome() {
+    if (!this.deckShown || this._paneStudyActive() || this._viewMode !== "explore") return false;
+    const inp = this.explorerSearchRef.current;
+    this._exQ = ""; if (inp) inp.value = "";
+    if (this._conceptId || this._systemId) this.clearFocus();   // a page owned the list; a lit list is not a page
+    this.showExplorerList();
+    { const l = this.explorerListRef.current; if (l) l.scrollTop = 0; } // home is the top of the list
+    this.fx("pane_tab_home", { tab: "explore" });
+    this.lastInteract = this.now;
+    return true;
+  }
+  /**
    * PAGE THE PANE'S TABS BY GESTURE (v1.147.0, owner: "users try to scroll left and right").
    * ONE seam for every non-click way to change tab — `dir` is in NAV SPACE: +1 is the tab drawn
    * to the RIGHT of the active one, -1 the one to its left. Callers hand over a gesture and the
@@ -7022,7 +7072,7 @@ class Component extends DCLogic {
     if (vt && !vt._wired) {
       vt._wired = true;
       vt.addEventListener("pointerdown", (e) => e.stopPropagation());
-      vt.querySelectorAll("[data-view]").forEach((s) => s.addEventListener("click", () => this.setViewMode(s.getAttribute("data-view"))));
+      vt.querySelectorAll("[data-view]").forEach((s) => s.addEventListener("click", () => this._paneTabClick(s.getAttribute("data-view"))));
     }
     this.styleViewToggle();
   }
@@ -13415,7 +13465,8 @@ class Component extends DCLogic {
     moreRow._ngPin.style.cssText = "flex:1 1 auto;min-width:0;" + NG_READ_BAR_CSS;
     moreRow.querySelector("[data-land-more-body]")._ngMoreSections = sections;
     // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
-    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;margin-left:auto;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
+    this._landMoreAlign(more, false);   // shut: centred by the bar. Open: `expandLandCard` right-aligns it.
     more.onclick = (e) => {
       e.stopPropagation(); this.expandLandCard();
       if (e.detail === 0 && this._landOpen) moreRow.querySelector("[data-land-more-body]").focus({ preventScroll: true });
@@ -13520,6 +13571,17 @@ class Component extends DCLogic {
       this._paintRead(row, body);
       this._dockLandCard(this._landEl);
     });
+    // THE CONTENTS ROW EXISTS ONLY WHILE THE FOLD IS OPEN (v1.195.6). It used to be left in the
+    // head on close: laid out beside the collapsed pill at opacity 1, its entries still carrying
+    // their inline `pointer-events:auto` under a row reset to `none` — CLAUDE.md §6.1's trap, in
+    // its click-EATING form. Measured: `elementFromPoint` at an entry returned the entry, and a
+    // mouse click there ran `_navJump` against a `display:none` body (no visible effect, the
+    // click swallowed). Owner: "those tabs remain there like ghosts … I can't click them either".
+    // Removal, not `visibility:hidden`: a collapsed strip holds the pill and nothing else, so
+    // there is nothing to keep laid out. `_paintNav` puts the row back on reopen from the same
+    // section list the body was painted from, WITHOUT repainting the body (which is built once
+    // and reused — `landcard-more-content.spec.ts`, "builds its HTML on first open").
+    this._paintNav(row, body);
     body.style.display = want ? "block" : "none";
     row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
     if (want) {
@@ -13538,6 +13600,7 @@ class Component extends DCLogic {
     // idiom, the same ghost ✕ the question card's own corner uses.
     btn.textContent = want ? "\u2715" : "More";
     btn.setAttribute("aria-label", want ? "Close the reading panel" : "Read more about this state");
+    this._landMoreAlign(btn, want);
     // Restore the declared resting colour rather than deleting the inline declaration.
     btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
     this._dockLandCard(el);
@@ -13933,13 +13996,34 @@ class Component extends DCLogic {
   _paintRead(row, body) {
     const sections = body._ngMoreSections || [];
     body.innerHTML = this._readingHTML(sections, "land");
+    this._paintNav(row, body);
+  }
+  /**
+   * THE ONE WRITER OF THE CONTENTS ROW (v1.195.6). The row is derived from `body._ngMoreSections`
+   * — the list the body was last painted from — so the index can never describe a document the
+   * body does not show, whichever of its two callers ran: `_paintRead` when the body is written,
+   * `expandLandCard` when the fold opens or shuts. It is PRESENT only while the fold is open AND
+   * the body is painted: a shut fold gets its row removed (never faded — §6.1), and an open fold
+   * still awaiting `reading.css` gets nothing yet, so no unstyled row flashes before the body.
+   */
+  _paintNav(row, body) {
     const bar = row.querySelector("[data-read-bar]"), btn = row.querySelector("[data-land-more]");
     if (!bar || !btn) return;
     const old = bar.querySelector("[data-read-nav]");
     if (old) old.remove();
-    btn.insertAdjacentHTML("beforebegin", this._readingNav(sections));
+    if (!this._landOpen || !body.firstChild) return;
+    btn.insertAdjacentHTML("beforebegin", this._readingNav(body._ngMoreSections || []));
     this._navMark();
   }
+  /**
+   * The More control's alignment inside the inner bar, ONE writer for both states (§6.1: a value
+   * two sites restore is a constant, and `style.x = ""` deletes rather than restores). Open, the
+   * ✕ right-aligns past the contents row on its own auto margin — `order` cannot do that under
+   * the bar's centring, measured 131px each side. Shut, the margin is WRITTEN back to 0 so the
+   * bar's `justify-content:center` centres the lone pill; the stylesheet mirror in reading.css
+   * is scoped to `.ng-landmore.open` for the same reason.
+   */
+  _landMoreAlign(btn, open) { btn.style.marginLeft = open ? "auto" : "0"; }
   /** Where the head is STANDING, plus one rhythm unit — the line `_navMark` calls "being read".
    *  It measures the inner bar because that is the one the pin moves; the outer one stays put. */
   _navPin() {
