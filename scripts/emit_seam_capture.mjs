@@ -170,8 +170,22 @@ function trackTemp(dir) {
  * directory carrying a `node_modules` symlink, so `packages: "external"` still resolves.
  * @returns {string} path to the runnable ESM bundle
  */
-export function bundleQuartzEntry(entryTs) {
-  const key = crypto.createHash("sha256").update(entryTs).digest("hex")
+/**
+ * Bundle one entry, and optionally the WORKER entries beside it.
+ *
+ * WHY THE WORKERS MATTER TO A CAPTURE (D-B-08). `workerPool.ts` spawns
+ * `new Worker(new URL("./transpiled-worker.mjs", import.meta.url))`, which resolves relative to
+ * the RUNNING BUNDLE. In a real build that is `source/quartz/.quartz-cache/`, where the build
+ * has already written both worker bundles. A capture bundles a single entry into a temp
+ * directory, so those siblings did not exist and every worker died with MODULE_NOT_FOUND.
+ *
+ * That is not a cosmetic harness gap. It meant EVERY capture this script has ever taken ran emit
+ * ENTIRELY ON THE MAIN THREAD — so the preflight could not have observed the worker-ledger defect
+ * V found, no matter how carefully it was read. A harness that silently cannot reach a code path
+ * reports that path as clean: CLAUDE.md 6.4, and the reason the sample looked fine.
+ */
+export function bundleQuartzEntry(entryTs, { withWorkers = false } = {}) {
+  const key = crypto.createHash("sha256").update(entryTs + (withWorkers ? "+w" : "")).digest("hex")
   const hit = bundleCache.get(key)
   if (hit) return hit
 
@@ -188,6 +202,19 @@ export function bundleQuartzEntry(entryTs) {
     encoding: "utf8",
     timeout: 600_000,
   })
+  if (withWorkers) {
+    // Both names are built from quartz/worker.ts, which is the worker-side entry for both phases
+    // (it exports the parse path and handles emit tasks); workerPool only chooses between the
+    // two FILENAMES. They must land in the same directory as `out`, because that is what
+    // import.meta.url resolves against.
+    for (const name of ["transpiled-worker.mjs", "transpiled-emit-worker.mjs"]) {
+      execFileSync(
+        process.execPath,
+        [bundler, path.join(dir, name), path.join(SOURCE_DIR, "quartz/worker.ts"), SOURCE_DIR],
+        { cwd: SOURCE_DIR, stdio: ["ignore", "pipe", "pipe"], encoding: "utf8", timeout: 600_000 },
+      )
+    }
+  }
   bundleCache.set(key, out)
   return out
 }
@@ -321,9 +348,567 @@ console.log(
 )
 `
 
+
 // ---------------------------------------------------------------------------------------------
-// CLI
+// The JOINED form: one build, one census, attribution from the ledger (D-B-05 + V's addendum)
 // ---------------------------------------------------------------------------------------------
+
+const JOIN_ENTRY = `
+import config from ${q("quartz.config")}
+import { parseMarkdown } from ${q("quartz/processors/parse")}
+import { filterContent } from ${q("quartz/processors/filter")}
+import { emitContent } from ${q("quartz/processors/emit")}
+import { glob } from ${q("quartz/util/glob")}
+import { joinSegments, slugifyFilePath } from ${q("quartz/util/path")}
+import { snapshot as ledgerSnapshot, enabled as ledgerEnabled } from ${q("quartz/plugins/emitters/emitLedger")}
+import fs from "node:fs"
+import path from "node:path"
+import crypto from "node:crypto"
+
+const args = JSON.parse(process.env.BJJ_EMIT_CAPTURE_ARGS)
+const directory = args.directory
+const allFiles = await glob("**/*.*", directory, config.configuration.ignorePatterns)
+const fpsAll = allFiles.filter((fp) => fp.endsWith(".md")).sort()
+const fps = args.limit > 0 ? fpsAll.slice(0, args.limit) : fpsAll
+
+const ctx = {
+  buildId: "emit-seam-join",
+  argv: {
+    directory, output: args.output, verbose: false, serve: false, fastRebuild: false,
+    port: 0, wsPort: 0, concurrency: args.concurrency,
+  },
+  cfg: config,
+  allSlugs: allFiles.map((fp) => slugifyFilePath(fp)),
+}
+
+const t0 = Date.now()
+const parsed = await parseMarkdown(ctx, fps.map((fp) => joinSegments(directory, fp)))
+const tParse = Date.now() - t0
+const content = filterContent(ctx, parsed)
+
+// ONE build into ONE output directory — the production shape, including concurrent phase two.
+await emitContent(ctx, content)
+
+// THE CENSUS RUNS HERE: after every raw emitter has settled and BEFORE any post-processor.
+// V's correction, and it is not a precaution — regenerate_agent_discovery.py rewrites sitemap.xml
+// and apply_affiliate_ref.py rewrites emitted HTML in place. A census taken at the END of the
+// deploy chain would hash a post-processor's bytes and attribute them to the emitter that
+// originally wrote that path: a correctly-claimed path with a wrong hash, and the join reports
+// success. Nothing looks wrong, which is what makes it the dangerous case.
+const sha = (b) => crypto.createHash("sha256").update(b).digest("hex")
+const census = {}
+const walk = (dir) => {
+  for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fp = path.join(dir, ent.name)
+    if (ent.isDirectory()) walk(fp)
+    else {
+      const buf = fs.readFileSync(fp)
+      census[path.relative(args.output, fp).split(path.sep).join("/")] = {
+        size: buf.length, sha256: sha(buf),
+      }
+    }
+  }
+}
+walk(args.output)
+
+// ATTRIBUTION IS READ FROM THE PARTS ON DISK, NOT FROM THIS THREAD'S MEMORY (V finding 2).
+// ledgerSnapshot() is the MAIN thread's map; emit shards across worker THREADS, so every sharded
+// ContentPage claim lives in a worker's part. It is still read below, but only as a cross-check.
+//
+// ORDER AND DUPLICATES ARE PRESERVED THROUGHOUT (V findings 3 and 6). Resource order is
+// BYTE-SIGNIFICANT — first-seen order across getQuartzComponents drives dedup and bundle bytes —
+// so a Set collapses the very property the emitter contract turns on, and a sort finishes the
+// job. Nothing here uses a Set for a path list.
+const ledgerDir = process.env.BJJ_EMIT_LEDGER_DIR
+const parts = []
+const claimLists = {}
+const returnEntries = []
+const receipts = []
+const rawWitness = []
+const relOut = (abs) => path.relative(args.output, abs).split(path.sep).join("/")
+if (ledgerDir && fs.existsSync(ledgerDir)) {
+  for (const name of fs.readdirSync(ledgerDir).filter((f) => f.endsWith(".ndjson")).sort()) {
+    const fpart = path.join(ledgerDir, name)
+    const buf = fs.readFileSync(fpart)
+    // RAW WITNESS: the part's own bytes and digest, so a reader can re-derive attribution from
+    // the retained ledger rather than taking this record's word for it.
+    rawWitness.push({ file: name, bytes: buf.length, sha256: sha(buf) })
+    let head = null
+    let n = 0
+    for (const line of buf.toString("utf8").split(String.fromCharCode(10))) {
+      if (!line) continue
+      const rec = JSON.parse(line)
+      if (rec.part) { head = rec; continue }
+      if (rec.receipt) { receipts.push(rec); continue }
+      if (rec.returns) {
+        returnEntries.push({
+          emitter: rec.returns, shard: rec.shard, seq: rec.seq,
+          threadId: head ? head.threadId : null, paths: rec.paths.map(relOut),
+        })
+        continue
+      }
+      const arr = (claimLists[rec.emitter] ||= [])
+      for (const rel of rec.paths) arr.push(rel)
+      n += rec.paths.length
+    }
+    parts.push({ name, pid: head ? head.pid : null, threadId: head ? head.threadId : null, paths: n })
+  }
+}
+const claims = claimLists
+
+// RETURNS CONCATENATED BY EXPLICIT SHARD INDEX, then by per-thread sequence within a shard.
+// NOT by file order: thread-id order is not shard-index order, and a worker with a lower threadId
+// may have run a higher shard. Duplicates and intra-shard order survive.
+const returns = {}
+for (const e of returnEntries.slice().sort((a, b) => (a.shard ?? -1) - (b.shard ?? -1) || a.seq - b.seq)) {
+  ;(returns[e.emitter] ||= []).push(...e.paths)
+}
+
+// STATIC'S SOURCE SET (V finding 4). Static must be attributed from what it COPIED, not from a
+// destination walk of output/static — a destination walk credits Static with any path another
+// producer left there. B's own brief turned on the harness: static.ts returns 9 paths for
+// thousands of copied files, so a returned count proves nothing about coverage either.
+const staticSourceRoot = path.join(process.cwd(), "quartz", "static")
+const copySource = {}
+const walkSrc = (dir) => {
+  for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fsrc = path.join(dir, ent.name)
+    if (ent.isDirectory()) walkSrc(fsrc)
+    else {
+      const b = fs.readFileSync(fsrc)
+      copySource[path.relative(staticSourceRoot, fsrc).split(path.sep).join("/")] = {
+        size: b.length, sha256: sha(b),
+      }
+    }
+  }
+}
+if (fs.existsSync(staticSourceRoot)) walkSrc(staticSourceRoot)
+
+const configuredEmitters = config.plugins.emitters.map((e) => e.name)
+const mainPart = parts.find((pt) => pt.threadId === 0)
+const memory = ledgerSnapshot()
+const mainMemoryPaths = Object.values(memory).reduce((n, v) => n + v.length, 0)
+
+console.log(
+  "__JSON__" + JSON.stringify({
+    ledgerEnabled, claims, returns, return_entries: returnEntries, receipts,
+    configuredEmitters, census, parts, raw_witness: rawWitness,
+    output_root: args.output,
+    ledger_dir: ledgerDir,
+    copy_source_files: copySource,
+    copy_source_root: path.relative(process.cwd(), staticSourceRoot).split(path.sep).join("/"),
+    main_part: mainPart ? mainPart.name : null,
+    main_memory_paths: mainMemoryPaths,
+    discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
+    parse_ms: tParse,
+    parse_concurrency_actual: ctx.argv.concurrency,
+  }),
+)
+`
+
+/**
+ * Join the in-build ledger with the post-emit census into per-emitter records.
+ *
+ * Each half comes from the source that can supply it: ATTRIBUTION from the ledger, because a
+ * finished tree cannot say which emitter wrote a path; INVENTORY from the census, because a
+ * producer-side record says what it DID, not what EXISTS.
+ *
+ * The three disagreements are NAMED AND COUNTED SEPARATELY, never summed into one number
+ * (V's addendum): a claim with no file, a file with no claim, and a path claimed by two emitters
+ * are three different defects with three different causes.
+ */
+function joinRecords(captured, outDir, opts) {
+  const { claims, census } = captured
+  const returns = captured.returns ?? {}
+  const receipts = captured.receipts ?? []
+  const problems = []
+
+  // ---- 1. LEDGER COMPLETENESS, BEFORE ANY ATTRIBUTION IS BELIEVED --------------------------
+  // A merged ledger missing a part produces a perfectly consistent, perfectly wrong answer:
+  // everything it knows is attributed correctly and everything it lost looks unclaimed — which
+  // is the one bucket we already expect to be non-empty.
+  const parts = captured.parts ?? []
+  const workerParts = parts.filter((pt) => pt.threadId !== null && pt.threadId > 0)
+  const expected = opts.expectParts ?? (workerParts.length > 0 ? opts.concurrency + 1 : null)
+  if (expected !== null && parts.length !== expected) {
+    problems.push(
+      `expected exactly ${expected} ledger parts (1 main + ${expected - 1} worker threads), got ` +
+        `${parts.length}: ${parts.map((pt) => pt.name).join(", ") || "none"}`,
+    )
+  }
+  if (expected === null) {
+    problems.push(
+      "NOT ASSERTED: no worker parts were written, so the part count could not be checked. " +
+        "Correct for an unsharded run and ALSO what a total worker-ledger loss looks like.",
+    )
+  }
+  const mains = parts.filter((pt) => pt.threadId === 0)
+  if (mains.length !== 1) problems.push(`expected exactly 1 main part (threadId 0), got ${mains.length}`)
+  const ids = parts.map((pt) => `${pt.pid}/${pt.threadId}`)
+  if (new Set(ids).size !== ids.length) problems.push(`ledger parts collide on pid/threadId: ${ids.join(", ")}`)
+  const headless = parts.filter((pt) => pt.threadId === null)
+  if (headless.length) problems.push(`${headless.length} part(s) carry no header line`)
+
+  // ---- 2. SHARD ROSTER FROM DISPATCH, NOT FROM SURVIVORS -----------------------------------
+  // Deriving the expected shard set from whichever receipts arrived makes a lost shard
+  // unfalsifiable: the roster shrinks to fit the evidence and always agrees with it. The roster
+  // is therefore {0 .. concurrency-1}, taken from the DISPATCH PARAMETER this capture passed to
+  // the build, and a missing shard is a shortfall against that.
+  const shardedNames = [...new Set(receipts.filter((r) => r.shard !== null && r.shard !== undefined).map((r) => r.receipt))]
+  const shardRoster = {}
+  for (const name of shardedNames) {
+    const got = receipts.filter((r) => r.receipt === name && r.shard !== null).map((r) => r.shard).sort((x, y) => x - y)
+    const want = Array.from({ length: opts.concurrency }, (_, i) => i)
+    shardRoster[name] = { expected: want, observed: got }
+    const missing = want.filter((i) => !got.includes(i))
+    const extra = got.filter((i) => !want.includes(i))
+    const dupes = got.filter((v, i) => got.indexOf(v) !== i)
+    if (missing.length) problems.push(`${name}: shard receipt(s) MISSING ${missing.join(",")} — dispatch sent ${opts.concurrency}`)
+    if (extra.length) problems.push(`${name}: unexpected shard receipt(s) ${extra.join(",")}`)
+    if (dupes.length) problems.push(`${name}: duplicate shard receipt(s) ${[...new Set(dupes)].join(",")}`)
+  }
+
+  // ---- 3. PARTITION, WITH REPEATS NAMED RATHER THAN FOLDED AWAY ----------------------------
+  // claims are ORDERED ARRAYS WITH DUPLICATES. A repeated write to one path by one emitter is a
+  // finding (last writer wins, so it is a silent content decision); a path claimed by two
+  // emitters is a different finding. They are counted separately and neither is absorbed.
+  const owner = new Map()
+  const conflicts = []
+  const repeats = []
+  for (const [emitter, paths] of Object.entries(claims)) {
+    const seenHere = new Map()
+    for (const rel of paths) {
+      const n = (seenHere.get(rel) ?? 0) + 1
+      seenHere.set(rel, n)
+      if (n === 2) repeats.push({ emitter, path: rel })
+      if (n > 1) continue
+      if (owner.has(rel)) conflicts.push({ path: rel, emitters: [owner.get(rel), emitter] })
+      else owner.set(rel, emitter)
+    }
+  }
+  const claimMissing = [...owner.keys()].filter((p) => !(p in census)).sort()
+  const unclaimed = Object.keys(census).filter((p) => !owner.has(p)).sort()
+
+  // ---- 4. EVERY ORPHAN NEEDS A PRODUCER, WHATEVER ITS EXTENSION ----------------------------
+  // Previously only emitter-shaped HTML failed. No post-processor has run at this boundary, so
+  // there is nothing else that could have written ANY file here — a CSS orphan is exactly as
+  // impossible as an HTML one, and treating it as acceptable is how the seam stops being a
+  // partition. `dev/` is the one declared exception and it is named, not inferred.
+  const orphans = unclaimed.filter((p) => !p.startsWith("dev/"))
+  if (orphans.length) {
+    const byExt = {}
+    for (const o of orphans) byExt[path.extname(o) || "(none)"] = (byExt[path.extname(o) || "(none)"] ?? 0) + 1
+    problems.push(
+      `${orphans.length} unclaimed file(s) at the RAW boundary, by extension ` +
+        `${Object.entries(byExt).map(([k, v]) => `${k}:${v}`).join(" ")} — e.g. ${orphans.slice(0, 3).join(", ")}`,
+    )
+  }
+  if (claimMissing.length) problems.push(`${claimMissing.length} claim(s) with no file — the ledger recorded intent, not result`)
+  if (conflicts.length) problems.push(`${conflicts.length} path(s) claimed by two emitters — attribution is not a partition`)
+  if (repeats.length) problems.push(`${repeats.length} path(s) written more than once by the same emitter`)
+
+  // Returns are validated LATER, against each record's OWN data.returned_paths, not against
+  // this intermediate map — see "RETURNS VALIDATED ON THE PUBLISHED VALUE" below.
+  const returnEntries = captured.return_entries ?? []
+
+  const head = gitHead()
+  const contentProv = inputFingerprint()
+
+  // ---- 5. STATIC IS ATTRIBUTED FROM THE COPIED SOURCE SET, NOT A DESTINATION WALK ----------
+  const copySource = captured.copy_source_files ?? {}
+  const staticJoin = (() => {
+    const src = Object.keys(copySource)
+    const dst = (claims.Static ?? []).filter((p) => p.startsWith("static/"))
+    const dstSet = new Set(dst.map((p) => p.slice("static/".length)))
+    const missing = src.filter((r) => !dstSet.has(r))
+    const extra = [...dstSet].filter((r) => !(r in copySource))
+    const mismatched = src.filter((r) => dstSet.has(r) && census["static/" + r] && census["static/" + r].sha256 !== copySource[r].sha256)
+    return { source_files: src.length, output_files: dstSet.size, missing_in_output: missing, not_in_source: extra, byte_mismatch: mismatched }
+  })()
+  if (staticJoin.missing_in_output.length)
+    problems.push(`Static: ${staticJoin.missing_in_output.length} source file(s) never reached the output`)
+  if (staticJoin.not_in_source.length)
+    problems.push(`Static: ${staticJoin.not_in_source.length} output path(s) have no source — a destination walk would have credited these to Static`)
+  if (staticJoin.byte_mismatch.length)
+    problems.push(`Static: ${staticJoin.byte_mismatch.length} file(s) differ in bytes between source and output`)
+
+  const names = [...new Set([...(captured.configuredEmitters ?? []), ...Object.keys(claims)])].sort()
+  // A CONFIGURED NAME IS NOT A COMPLETED RUN. Publishing a record for an emitter that never
+  // returned is exactly the "literal 1" defect in another costume, so the receipt is required
+  // before the record exists at all.
+  for (const name of names) {
+    if (!receipts.some((r) => r.receipt === name)) {
+      problems.push(`${name}: configured but NO completed-execution receipt — cannot publish a record for a run that never finished`)
+    }
+  }
+  const per = {}
+  for (const emitter of names) {
+    const files = {}
+    for (const rel of (claims[emitter] ?? [])) if (census[rel] && !files[rel]) files[rel] = census[rel]
+    per[emitter] = files
+  }
+
+  // ---- 6. VALIDATE BEFORE PUBLISHING ------------------------------------------------------
+  // Records used to be written first and checked afterwards, with overwrite-capable writes, so a
+  // failed join still left a directory of authoritative-looking records behind. Nothing is
+  // written until the join is clean, and each record is created with wx — an existing file is an
+  // error, never a silent overwrite of someone's evidence.
+  if (problems.length && !opts.publishAnyway) {
+    return { per, conflicts, repeats, claimMissing, unclaimed, orphans, parts, problems,
+             shardRoster, staticJoin, published: false, censusSize: Object.keys(census).length }
+  }
+
+  const built = []
+  fs.mkdirSync(outDir, { recursive: true })
+  const witnessDir = path.join(outDir, "_raw")
+  fs.mkdirSync(witnessDir, { recursive: true })
+  // Retained raw bytes, COPIED not hardlinked, so the witness cannot change under the record.
+  for (const w of captured.raw_witness ?? []) {
+    const from = path.join(captured.ledger_dir, w.file)
+    if (fs.existsSync(from)) fs.copyFileSync(from, path.join(witnessDir, w.file))
+  }
+  const censusPath = path.join(witnessDir, "census.json")
+  fs.writeFileSync(censusPath, JSON.stringify(census, null, 0), "utf8")
+  const censusSha = crypto.createHash("sha256").update(fs.readFileSync(censusPath)).digest("hex")
+
+  for (const [emitter, files] of Object.entries(per)) {
+    const returned = returns[emitter] ?? []
+    const rcpts = receipts.filter((r) => r.receipt === emitter)
+    const empty = Object.keys(files).length === 0
+    const data = { emitter, files, returned_paths: returned }
+    const record = {
+      schema: SCHEMA, seam: SEAM, key: emitter, data,
+      data_sha256: crypto.createHash("sha256").update(canonical(data), "utf8").digest("hex"),
+      coverage: (() => {
+        const seededPrefixes = (emitter === "Static" ? opts.seeded : []).map((r2) => r2.path.replace(/\/$/, "") + "/")
+        const seeded = Object.keys(files).filter((p) => seededPrefixes.some((pre) => p.startsWith(pre))).length
+        return {
+          files: Object.keys(files).length,
+          returned_paths: returned.length,
+          seeded_files: seeded,
+          parity_files: Object.keys(files).length - seeded,
+          // ONE LOGICAL EMITTER RUN per record, which is what the format means — a sharded
+          // emitter is still one emitter. The literal is not the defect V found; publishing it
+          // WITHOUT EVIDENCE was. The backing receipts live in provenance.execution_receipts and
+          // a record with zero completed receipts is refused above, so this 1 is now attested
+          // rather than assumed.
+          emitter_runs: 1,
+        }
+      })(),
+      provenance: {
+        git_head: head,
+        inputs: contentProv,
+        // THE RECEIPTS BEHIND `emitter_runs: 1`. One per completed shard for a sharded emitter,
+        // one for a main-thread emitter; written only after the emitter's promise resolved.
+        return_entries: returnEntries
+          .filter((e) => e.emitter === emitter)
+          .sort((a, b) => (a.shard ?? -1) - (b.shard ?? -1) || a.seq - b.seq)
+          .map((e) => ({ shard: e.shard, seq: e.seq, threadId: e.threadId, count: e.paths.length })),
+        execution_receipts: rcpts.map((r) => ({
+          shard: r.shard, seq: r.seq, threadId: r.threadId, wrote: r.wrote, returned: r.returned,
+        })),
+        ...(empty
+          ? {
+              // An empty result is allowed, an UNEVIDENCED one is not (R9). This says which run
+              // completed and why nothing came of it, so "produced nothing" can never be read
+              // off the same absence as "never ran".
+              empty_output: {
+                reason:
+                  `${emitter} completed ${rcpts.length} run(s) and wrote no file: this corpus ` +
+                  `contains nothing in its scope. Empty BY SCOPE, not by failure.`,
+                evidence: {
+                  receipts: rcpts.map((r) => ({ shard: r.shard, seq: r.seq, wrote: r.wrote, returned: r.returned })),
+                  discovered_all: captured.discovered?.all ?? 0,
+                  output_root: captured.output_root,
+                },
+              },
+            }
+          : {}),
+        // WHERE THE BYTES CAME FROM, so a reader can re-derive this record independently instead
+        // of taking its word for the inventory.
+        output_root: captured.output_root,
+        inventory: {
+          method: "in-build AsyncLocalStorage ledger (attribution) joined by path with a post-emit filesystem walk (size+sha256)",
+          capture_commit: head,
+          ledger_parts: (captured.raw_witness ?? []).map((w) => ({ file: "_raw/" + w.file, bytes: w.bytes, sha256: w.sha256 })),
+          census: { file: "_raw/census.json", entries: Object.keys(census).length, sha256: censusSha },
+          hardlinks: false,
+        },
+        producer: `scripts/emit_seam_capture.mjs --join (stream B, D-B-05) -> ${emitter}`,
+        execution:
+          "ONE build through the real emitContent; ATTRIBUTION from the in-build ledger, " +
+          "INVENTORY from a census taken after all raw emitters settled and BEFORE any post-processor ran",
+        seeded_regions: (emitter === "Static" ? opts.seeded : []).map((r2) => {
+          const pre = r2.path.replace(/\/$/, "") + "/"
+          return { ...r2, files: Object.keys(files).filter((p2) => p2.startsWith(pre)).length }
+        }),
+        input_seeded_regions: opts.seeded,
+        corpus: { ...captured.discovered, discovered_all: captured.discovered?.all ?? 0, partial: opts.limit > 0 },
+        ...(emitter === "Static"
+          ? { copy_source_root: captured.copy_source_root, copy_source_files: copySource, source_output_join: staticJoin }
+          : {}),
+      },
+    }
+    built.push({ emitter, record })
+  }
+
+  // ---- RETURNS VALIDATED ON THE PUBLISHED VALUE, NOT ON AN INTERMEDIATE --------------------
+  // The first version of this check read the `returns` map and passed while a mutant collapsed
+  // the value at its USE site, so a Set+sort reached the record with the gate green. Two places
+  // answered "what did this emitter return" and only one was checked. The check now reads
+  // `record.data.returned_paths` — the bytes that actually ship — so nothing downstream of it
+  // can alter the answer without failing.
+  //
+  // Both halves come from a DIFFERENT record than the one under test: per-shard `returned`
+  // counts from the execution receipts, ordering from the return entries. A de-duplication
+  // shortens the list below the receipt sum; a sort breaks shard-block alignment.
+  //
+  // DECLARED NON-KILL (7D), so nobody reads this as covering both halves. Mutants run at
+  // limit 64 / concurrency 4:
+  //   [KILLED] `[...new Set(x)].sort()` at the record's use site -> 5 emitters diverge at a
+  //            named index. This is the exact defect V found.
+  //   [KILLED] one shard receipt suppressed -> roster MISSING 2, and the length check fires too.
+  //   [SURVIVED] `[...new Set(x)]` with no sort. MEASURED: this corpus contains 0 duplicate
+  //            returned paths across 107 total, so there is nothing for a dedupe to remove and
+  //            the mutant is a no-op. The length check WOULD fire if a duplicate existed; it is
+  //            UNEXERCISED here, not absent. Killing it needs a fixture where an emitter
+  //            genuinely returns the same path twice.
+  for (const { emitter, record } of built) {
+    const published = record.data.returned_paths
+    const rcpts = receipts.filter((r) => r.receipt === emitter)
+    const expectedLen = rcpts.reduce((n, r) => n + (r.returned ?? 0), 0)
+    if (published.length !== expectedLen) {
+      problems.push(
+        `${emitter}: published returned_paths has ${published.length} entries but the execution ` +
+          `receipts account for ${expectedLen} — de-duplication or loss between join and record`,
+      )
+    }
+    const ordered = returnEntries
+      .filter((e) => e.emitter === emitter)
+      .sort((x, y) => (x.shard ?? -1) - (y.shard ?? -1) || x.seq - y.seq)
+    let k = 0
+    let bad = -1
+    for (const e of ordered) {
+      for (const pth of e.paths) {
+        if (published[k] !== pth && bad < 0) bad = k
+        k++
+      }
+    }
+    if (bad >= 0) {
+      problems.push(
+        `${emitter}: published returned_paths diverges from the shard-ordered receipts at index ` +
+          `${bad} — resource order is BYTE-SIGNIFICANT and has been resorted`,
+      )
+    }
+  }
+
+  if (problems.length && !opts.publishAnyway) {
+    return { per, conflicts, repeats, claimMissing, unclaimed, orphans, parts, problems,
+             shardRoster, staticJoin, published: false, censusSize: Object.keys(census).length }
+  }
+  for (const { emitter, record } of built) {
+    fs.writeFileSync(path.join(outDir, `${emitter}.json`), JSON.stringify(record, null, 1), { encoding: "utf8", flag: "wx" })
+  }
+
+  fs.writeFileSync(
+    path.join(outDir, "_CAPTURE.json"),
+    JSON.stringify(
+      { capture_commit: head, input_provenance: contentProv, output_root: captured.output_root,
+        captured_by: "scripts/emit_seam_capture.mjs --join", partial: opts.limit > 0,
+        limit: opts.limit || null, concurrency: opts.concurrency ?? null,
+        ledger_parts: parts, expected_parts: expected, shard_roster: shardRoster,
+        census: { file: "_raw/census.json", entries: Object.keys(census).length, sha256: censusSha },
+        problems, records: Object.keys(per).sort(),
+        review_note: "Re-review is only valid against code at capture_commit. If HEAD has moved, re-capture." },
+      null, 1,
+    ),
+    { encoding: "utf8", flag: "wx" },
+  )
+  return { per, conflicts, repeats, claimMissing, unclaimed, orphans, parts, problems,
+           shardRoster, staticJoin, published: true, censusSize: Object.keys(census).length }
+}
+
+/** `--join`: one build into one output dir, ledger on, census before any post-processor. */
+function runJoin(val, has) {
+  const outDir = val("--out")
+  if (!outDir) { console.error("emit_seam_capture --join: --out DIR is required"); return 2 }
+  const limit = Number(val("--limit", "0"))
+  if (!limit && !has("--full")) {
+    console.error("emit_seam_capture --join: pass --limit N, or --full under the build mutex.")
+    return 2
+  }
+  const concurrency = Number(val("--concurrency", "1"))
+  const expectParts = has("--expect-parts") ? Number(val("--expect-parts")) : null
+  const work = path.resolve(val("--work", trackTemp(fs.mkdtempSync(path.join(os.tmpdir(), "bjj-join-")))))
+  const output = path.join(work, "public")
+  const ledgerDir = path.join(work, "ledger")
+  fs.mkdirSync(output, { recursive: true })
+
+  const contentDir = path.relative(SOURCE_DIR, path.join(REPO_ROOT, "content")) || "../content"
+  const directory = contentDir.startsWith(".") ? contentDir : "./" + contentDir
+
+  const bundle = bundleQuartzEntry(JOIN_ENTRY, { withWorkers: true })
+  const stdout = execFileSync(process.execPath, ["--max-old-space-size=6144", bundle], {
+    cwd: SOURCE_DIR,
+    env: {
+      ...process.env,
+      BJJ_EMIT_LEDGER_DIR: ledgerDir,
+      BJJ_EMIT_CAPTURE_ARGS: JSON.stringify({ directory, limit, output, concurrency }),
+    },
+    stdio: ["ignore", "pipe", "inherit"],
+    encoding: "utf8",
+    maxBuffer: 2048 * 1024 * 1024,
+    timeout: 3_600_000,
+  })
+  const line = stdout.split("\n").find((l) => l.startsWith("__JSON__"))
+  if (!line) { console.error("emit_seam_capture --join: no __JSON__ line — no verdict"); return 2 }
+  const captured = JSON.parse(line.slice("__JSON__".length))
+  if (!captured.ledgerEnabled) {
+    console.error("emit_seam_capture --join: the ledger did not activate — no attribution, no verdict")
+    return 2
+  }
+
+  const r = joinRecords(captured, outDir, {
+    limit, concurrency, expectParts,
+    publishAnyway: has("--publish-anyway"),
+    seeded: seededRegions(captured.copy_source_files ?? {}),
+  })
+  console.log(`\n${r.published ? "joined" : "WITHHELD"} ${Object.keys(r.per).length} emitter record(s) -> ${outDir}`)
+  for (const [emitter, files] of Object.entries(r.per).sort()) {
+    const ret = (captured.returns?.[emitter] ?? []).length
+    console.log(`  ${emitter.padEnd(20)} wrote ${String(Object.keys(files).length).padStart(6)}  returned ${String(ret).padStart(6)}`)
+  }
+  console.log(`  census: ${r.censusSize} files after all raw emitters, before any post-processor`)
+  console.log(`  ledger parts: ${r.parts.length} (${r.parts.map((pt) => `t${pt.threadId}:${pt.paths}`).join(" ")})`)
+  for (const [name, roster] of Object.entries(r.shardRoster)) {
+    console.log(`  shard roster ${name}: dispatch expected [${roster.expected.join(",")}] observed [${roster.observed.join(",")}]`)
+  }
+  // Six disagreements, NAMED AND COUNTED SEPARATELY — they have different causes.
+  console.log(`  claim-with-no-file : ${r.claimMissing.length}`)
+  console.log(`  file-with-no-claim : ${r.unclaimed.length}  (orphans outside dev/: ${r.orphans.length})`)
+  console.log(`  claimed-twice      : ${r.conflicts.length}`)
+  console.log(`  written-twice      : ${r.repeats.length}`)
+  console.log(
+    `  static source->output: ${r.staticJoin.source_files} src / ${r.staticJoin.output_files} out, ` +
+      `missing ${r.staticJoin.missing_in_output.length}, not-in-source ${r.staticJoin.not_in_source.length}, ` +
+      `byte-mismatch ${r.staticJoin.byte_mismatch.length}`,
+  )
+
+  let rc = 0
+  for (const problem of r.problems) {
+    const soft = problem.startsWith("NOT ASSERTED")
+    console.error(`  ${soft ? "WARN" : "FAIL"}: ${problem}`)
+    if (!soft) rc = 1
+  }
+  if (!r.published) {
+    console.error("  NOTHING WAS WRITTEN. The join is validated before it publishes, so a failed")
+    console.error("  run leaves no directory of authoritative-looking records behind.")
+    return rc || 1
+  }
+  if (!Object.keys(r.per).length) { console.error("  NO VERDICT: nothing attributed"); return 2 }
+  return rc
+
+}
 
 function canonical(data) {
   const sortDeep = (v) => {
@@ -458,6 +1043,74 @@ const RECORD_INPUTS = [
 ]
 
 /**
+ * A BYTE FINGERPRINT OF THE PARITY INPUTS, so a golden can ASSERT its provenance at use time
+ * rather than merely record a commit (quartz-cto's ruling, from A's finding).
+ *
+ * WHY A COMMIT DIFF IS NOT ENOUGH. `checkProvenance` already diffs `capture_commit..HEAD` over
+ * RECORD_INPUTS, so this looked covered. It is not, in three ways:
+ *
+ *   * A commit that is not an ANCESTOR of this branch's HEAD is invisible to the diff. The bots
+ *     open PRs against `main`; this worktree is on a feature branch off `dev`. A merged bot PR
+ *     changes the corpus without ever appearing in `capture..HEAD` until it is merged down here.
+ *   * AN UNCOMMITTED WORKING-TREE EDIT IS NOT A COMMIT, so the diff cannot see it at all. This is
+ *     the common case, not the exotic one — it is how every one of my own edits looks.
+ *   * AND THE QUIET WINDOW IS NOT QUIET: content/ took three OWNER commits inside the cron-quiet
+ *     weekend just closed. No schedule predicts those, which is why the assertion is the
+ *     protection and the timing is only a preference.
+ *
+ * SCOPE: every path in RECORD_INPUTS, not just `content/`. An earlier version digested `content/`
+ * alone, which left `graph.json` asserted by nothing — and `votes-refresh.yml` (Sat 02:00) stages
+ * exactly `templates/votes.json graph.json`, so the ONE input a weekly bot rewrites was the one
+ * the digest could not see. The digest now covers the same set the diff diagnoses; anything less
+ * means the assertion is narrower than the claim it backs.
+ *
+ * Per-root digests are kept alongside the combined one so a mismatch can NAME which root moved.
+ * Exact file counts travel with them (7K part 2): a walk that silently rescoped itself would
+ * otherwise read as "the corpus changed" and send the reader hunting a change that never was.
+ */
+export function inputFingerprint(roots = RECORD_INPUTS) {
+  const perRoot = {}
+  const combined = []
+  for (const rel of roots) {
+    const abs = path.join(REPO_ROOT, rel)
+    const lines = []
+    const hashFile = (fp) => {
+      const key = path.relative(REPO_ROOT, fp).split(path.sep).join("/")
+      lines.push(key + "\u0000" + crypto.createHash("sha256").update(fs.readFileSync(fp)).digest("hex"))
+    }
+    const walk = (dir) => {
+      for (const ent of fs
+        .readdirSync(dir, { withFileTypes: true })
+        .sort((a, b) => (a.name < b.name ? -1 : 1))) {
+        const fp = path.join(dir, ent.name)
+        if (ent.isDirectory()) walk(fp)
+        else hashFile(fp)
+      }
+    }
+    if (!fs.existsSync(abs)) {
+      perRoot[rel] = { files: 0, sha256: null, missing: true }
+      combined.push(rel + "\u0000MISSING")
+      continue
+    }
+    if (fs.statSync(abs).isDirectory()) walk(abs)
+    else hashFile(abs)
+    const sha = crypto.createHash("sha256").update(lines.join("\n"), "utf8").digest("hex")
+    perRoot[rel] = { files: lines.length, sha256: sha }
+    combined.push(rel + "\u0000" + sha)
+  }
+  return {
+    roots: perRoot,
+    files: Object.values(perRoot).reduce((n, r) => n + r.files, 0),
+    sha256: crypto.createHash("sha256").update(combined.join("\n"), "utf8").digest("hex"),
+  }
+}
+
+/** Back-compat alias: the content corpus alone. */
+export const contentFingerprint = (root = "content") => inputFingerprint([root]).roots[root]
+
+
+
+/**
  * Is an existing record set still valid against HEAD?
  *
  * THE POINT, and it is not the obvious check (quartz-cto D-95, from A). The tempting version is
@@ -474,8 +1127,13 @@ const RECORD_INPUTS = [
  * regression). 2 = no verdict.
  */
 function checkProvenance(dir) {
+  // `_`-prefixed files are capture METADATA (_CAPTURE.json), not seam records. Excluded by name
+  // rather than by "has provenance", so a real record that lost its provenance still fails loudly
+  // instead of being quietly reclassified as metadata.
   const files = [
-    ...fs.readdirSync(dir).filter((f) => f.endsWith(".json") || f.endsWith(".json.gz")),
+    ...fs.readdirSync(dir).filter(
+      (f) => !f.startsWith("_") && (f.endsWith(".json") || f.endsWith(".json.gz")),
+    ),
   ]
   if (!files.length) {
     console.error(`NO VERDICT: no records in ${dir}`)
@@ -492,6 +1150,83 @@ function checkProvenance(dir) {
     }
     heads.set(head, (heads.get(head) ?? 0) + 1)
   }
+  // ---- CONTENT PROVENANCE, ASSERTED BEFORE ANYTHING ELSE IS BELIEVED ------------------------
+  // Recording a commit is not asserting it. The question is not "did this integration move
+  // content", it is "HAS CONTENT MOVED SINCE MY CAPTURE" — and only the second survives a clock.
+  // Two clocks, neither of which the commit diff below can see on its own:
+  //   * SIX CRON WORKFLOWS PUSH DIRECTLY TO dev with no PR to hold, so a golden expires on a
+  //     SCHEDULE. Until such a commit is merged down it is not in this branch's history at all.
+  //   * AND THE QUIET WINDOW IS NOT QUIET: content/ took three OWNER commits inside the last
+  //     cron-quiet weekend. Scheduling around cron buys less than it appears to, which is why
+  //     this assertion is the protection and the schedule is only a preference.
+  // A byte digest is indifferent to all of it: branch, merge status, author, and calendar.
+  const nowContent = inputFingerprint()
+  const claimed = new Map()
+  const byKey = new Map()
+  for (const f of files) {
+    const raw = fs.readFileSync(path.join(dir, f))
+    const rec = JSON.parse((f.endsWith(".gz") ? zlib.gunzipSync(raw) : raw).toString("utf8"))
+    const c = rec.provenance?.inputs
+    const key = c && c.sha256 ? `${c.files}:${c.sha256}` : "ABSENT"
+    claimed.set(key, (claimed.get(key) ?? 0) + 1)
+    if (c) byKey.set(key, c)
+  }
+  let contentStale = 0
+  for (const [key, count] of claimed) {
+    if (key === "ABSENT") {
+      contentStale++
+      console.log(
+        `\n${count} record(s) carry NO content fingerprint — captured before this check existed.` +
+          "\n  NO VERDICT on those: a golden that cannot state the corpus it was taken against" +
+          "\n  cannot be shown fresh, and 'no fingerprint' must not read as 'fingerprint matches'.",
+      )
+      continue
+    }
+    const [cFiles, cSha] = key.split(":")
+    const same = Number(cFiles) === nowContent.files && cSha === nowContent.sha256
+    console.log(
+      `\n${count} record(s) captured against content/ ${cFiles} files @ ${cSha.slice(0, 9)}; ` +
+        `now ${nowContent.files} files @ ${String(nowContent.sha256).slice(0, 9)}`,
+    )
+    if (same) {
+      console.log(
+        `  inputs UNCHANGED across all ${Object.keys(nowContent.roots).length} parity roots — ` +
+          "the corpus these records describe is the corpus on disk",
+      )
+    } else {
+      contentStale++
+      const delta =
+        Number(cFiles) === nowContent.files
+          ? "same file count, different bytes"
+          : `${nowContent.files - Number(cFiles)} file(s)`
+      // NAME THE ROOT THAT MOVED. A bare "something changed" sends the reader to diff the whole
+      // corpus; the per-root digests make it one line, and they distinguish a content edit from
+      // a graph.json regeneration, which are different problems with different owners.
+      const was = byKey.get(key)
+      const moved = was
+        ? Object.keys(nowContent.roots).filter(
+            (r) => (was.roots?.[r]?.sha256 ?? null) !== nowContent.roots[r].sha256,
+          )
+        : []
+      if (moved.length) {
+        for (const r of moved) {
+          const a = was.roots?.[r]
+          const b = nowContent.roots[r]
+          console.log(
+            `    ${r}: ${a ? `${a.files} files @ ${String(a.sha256).slice(0, 9)}` : "not recorded"}` +
+              ` -> ${b.files} files @ ${String(b.sha256).slice(0, 9)}`,
+          )
+        }
+      }
+      console.log(
+        `  inputs CHANGED (${delta}) — these records are EXPIRED.` +
+          "\n  Fires on a corpus edit that reached disk by ANY route: a weekend bot pushing" +
+          "\n  straight to dev, a merge, an owner edit, or an uncommitted change — none of which" +
+          "\n  the commit diff below can see unless it landed in THIS branch's history.",
+      )
+    }
+  }
+
   const now = execFileSync("git", ["rev-parse", "HEAD"], { cwd: REPO_ROOT, encoding: "utf8" }).trim()
   let stale = 0
   for (const [head, count] of heads) {
@@ -518,8 +1253,15 @@ function checkProvenance(dir) {
         "  finding. Cite the capture commit above in any report that uses them.",
     )
   }
-  console.log(`\nchecked ${heads.size} capture commit(s) over ${RECORD_INPUTS.length} input paths`)
-  return stale ? 1 : 0
+  console.log(
+    `\nchecked ${heads.size} capture commit(s) over ${RECORD_INPUTS.length} input paths, and ` +
+      `${claimed.size} distinct input fingerprint(s) against ${nowContent.files} files ` +
+        `across ${Object.keys(nowContent.roots).length} parity roots on disk`,
+  )
+  // The digest is the ASSERTION (sound: it sees any byte change by any route); the commit diff is
+  // the DIAGNOSIS (informative: it names which files). Neither substitutes for the other, so a
+  // failure of either expires the records.
+  return stale || contentStale ? 1 : 0
 }
 
 function seededRegions(staticSourceFiles) {
@@ -585,6 +1327,8 @@ function main() {
 
   const provenanceDir = val("--check-provenance")
   if (provenanceDir) return checkProvenance(path.resolve(provenanceDir))
+
+  if (has("--join")) return runJoin(val, has)
 
   const outDir = val("--out")
   if (!outDir) {
