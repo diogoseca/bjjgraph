@@ -4,9 +4,13 @@
 //     35,927,532 bytes of `<script type="application/ld+json">` in `<head>`
 //     = 8.93% of the build's 402,368,193 emitted HTML bytes
 //     33,438 blocks across 6,138 of 6,149 pages
-//   Recompute: `python3 /home/user/tmp-pw/byteshare.py` (prints every transformer's row with the
-//   pattern it counts). That census reproduces the gfm audit's INDEPENDENT figure to the byte —
-//   41,658,803 / 10.35% — which is the control on the method.
+//   Recompute: `python3 reports/quartz-a-byteshare.py` in the orchestrator tree (prints every
+//   transformer's row with the pattern it counts; `BUILD=<dir>` to census a different build, and
+//   it hard-fails rather than printing an empty table). That census reproduces the gfm audit's
+//   INDEPENDENT figure to the byte — 41,658,803 / 10.35% — which is the control on the method.
+//   The first version of this citation pointed into `/home/user/tmp-pw`: a recompute command that
+//   names a tmp directory is one that vanishes, which makes the number unreproducible and the
+//   claim worthless (§6.9, and the reason §7S exists).
 //
 // WHY THIS FILE EXISTS, established by MUTATION rather than by reading the specs (§6.9). Before
 // it, five mutants of `schemaExtractor.ts` were run against every stream-A spec. TWO died:
