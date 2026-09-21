@@ -157,13 +157,14 @@
   @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
-     (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and
+     (pane 8, tray/backs 4, landing card/film/More/guides 5, logo 9) never compete out here;
+     landing content stays below the pane even when More is expanded. The wrap paints at level 0 and
      any root-level sibling with z ≥ 1 covers ALL of it. Bands, bottom to top:
-        1-9    ambient state chrome beside gameplay   — landcard 5 · momentum 6 · tut/cue 7 ·
+        1-9    ambient state chrome beside gameplay   — momentum 6 · tut/cue 7 ·
                                                         replay bar 8
         10-49  ambient attention fx                   — reward toast 14 · vignette 44
         50-79  coaching                               — coach 70 · combo pop 72
-        90-99  DELIBERATE temporary screens           — More reading card + account menu 90 ·
+        90-99  DELIBERATE temporary screens           — account menu 90 ·
                modal (settings/legal/auth/search) + roll-from confirm 95
      Principle (third stacking bug of this family — menu-under-landcard, coach-over-card,
      landcard-over-Settings): a screen the user asked for must NEVER be underdrawn by an
@@ -239,7 +240,7 @@
      this card, the pushed-down hand — translates together (`_readApply`). touch-action:none so a
      phone drag reaches that column instead of rubber-banding the document. */
   .ng-landmore{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;}
-  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;z-index:90!important;touch-action:none;}
+  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;touch-action:none;}
   .ng-landmore.open>div:first-child{padding-bottom:9px;transform:none!important;}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */

@@ -7337,3 +7337,17 @@ the double-paid gap each turns it red at both widths.
 
 Validation: 283 unit tests. Bundle +5 bytes gzip on neural.js, +5 on neural.css, measured by
 building the same tree at HEAD and here.
+
+## v1.189.0 — Pane-aware gameplay layout
+
+The landing column now follows the choices into the pane's remaining space, keeping readable
+widths and painting overlap below the pane. Card, film, More and deck guides share its stacking
+context; paused/manual/leased cameras carry the same animated inset. Exposed controls retain
+pointer input while the pane owns keyboard shortcuts. Pane, More and replay transfer pause
+ownership on close.
+
+`pane-layout.spec.ts` pins measured reflow and overlap with authored film/More fixtures;
+`pane-camera.spec.ts` pins actual projected framing. Against an isolated HEAD build, the new
+1440px test fails on zero movement and the 390px test fails on hidden content. This verifies
+the original regressions; individual stacking/ownership mutants were not run.
+The pane retains its suppression holder for keys; exposed pointer input bypasses only that holder.
