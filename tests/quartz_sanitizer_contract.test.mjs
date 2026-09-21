@@ -30,9 +30,16 @@
 //    is not asserted here.
 //  · MEASURED NON-KILL, recorded: removing `noscript` from the tag check leaves every assertion
 //    below green except the one that names it. There is no corpus `<noscript>` to catch it.
+//  · HISTORICAL GAP, found by the sweep at the foot of this file and closed on dev in
+//    601c521e9: array-valued `ping` now receives the same dangerous-URL check as scalar attrs.
+//    Test 5 requires no survivors while retaining the array-valued and per-probe controls.
+//    This owner-landed fix is inherited here; it does not authorize other P1-P4 byte changes.
 import { test } from "node:test"
 import assert from "node:assert/strict"
-import { harnessAvailable, runPipeline } from "./_quartz_pipeline.mjs"
+import fs from "node:fs/promises"
+import path from "node:path"
+import { pathToFileURL } from "node:url"
+import { harnessAvailable, runPipeline, sourceRequire, REPO } from "./_quartz_pipeline.mjs"
 
 const skip = !harnessAvailable()
 if (skip) {
@@ -103,6 +110,10 @@ test("INLINE EVENT HANDLERS ARE REMOVED, and the element survives", async (t) =>
   // red on a correct build — CLAUDE.md §6.3. The claim is "a safe URL survives sanitising", so
   // that is what is asserted: the attribute is present and still addresses the same file.
   assert.match(html, /src="[^"]*ok\.png"/, "a safe URL must survive the sanitizer")
+
+  const handlers = ["onerror", "ONCLICK"]
+  console.log(`  coverage: ${handlers.length} handler spellings removed, 3 benign attributes kept`)
+  assert.equal(handlers.length, 2, "both the lower and upper spellings must be driven")
 })
 
 test("DANGEROUS URL SCHEMES ARE REMOVED across every URL-bearing attribute", async (t) => {
@@ -162,4 +173,121 @@ test("QUARTZ'S OWN MARKUP SURVIVES — the regression that would break every pag
   assert.match(html, /data-keep="1"/, "data-* attributes must survive")
   assert.match(html, /class="text-highlight"/, "classes must survive")
   assert.match(html, /data-callout="note"/, "the callout pipeline's own data attributes survive")
+
+  console.log("  coverage: 6 pipeline-own markup facts kept (svg, viewBox, path, data-*, class, callout)")
+})
+
+// ── THE 12-MEMBER SWEEP, including array-valued attributes ───────────────────────────────────
+//
+// The hand-written dangerous-URL cases omitted the original `ping` defect. This sweep derives
+// URL_ATTRS from the producer and checks both fixture directions: a new member needs a case,
+// and deleting a member cannot silently delete its case. Every probe element must survive so
+// a missing element cannot masquerade as a successfully stripped attribute.
+//
+// HISTORICAL FINDING: hast represents `ping` as an array, which the old string-only guard never
+// examined. The original sweep observed 11 of 12 attrs stripped and `ping` surviving. Dev
+// 601c521e9 fixed that path. The merge-down deliberately first ran the old spec and observed
+// test 5 fail with actual [] versus expected ["ping"], after the 12-of-12 coverage line.
+// Value shape must no longer decide which dangerous URL survives. The array-valued population
+// and each probe-present assertion remain controls against a vacuous zero.
+//
+// HISTORICAL MUTANT RESULTS (before dev 601c521e9; not re-run by this merge-down):
+//   M1  repair `ping`                         -> formerly RED; now shipped dev behaviour
+//   M2  drop "cite" from URL_ATTRS            -> RED; fixture-superset guard retained
+//   M3  add an unfixtured array member "rel"  -> RED; missing-fixture guard retained
+//   M4  drop "ping" from URL_ATTRS            -> RED; fixture-superset guard retained
+// The old corpus-absence observation is not remeasured or used to justify this contract update.
+test("EVERY `URL_ATTRS` MEMBER IS SWEPT — scalar and array values leave no dangerous URL survivors", async (t) => {
+  if (skip) return t.skip("harness unavailable")
+
+  const ofmSrc = await fs.readFile(
+    path.join(REPO, "source/quartz/plugins/transformers/ofm.ts"),
+    "utf8",
+  )
+  const block = ofmSrc.match(/const URL_ATTRS = new Set\(\[([\s\S]*?)\]\)/)
+  assert.ok(
+    block,
+    "URL_ATTRS is no longer a literal Set in ofm.ts — this sweep can no longer derive its members " +
+      "and would otherwise cover NOTHING while still passing",
+  )
+  const names = [...block[1].matchAll(/"([^"]+)"/g)].map((m) => m[1])
+  assert.ok(names.length > 0, "a derived member list of zero would assert nothing")
+
+  // One fixture per member, each carrying the probe id so the element can be found again.
+  const FIXTURES = {
+    href: `<a id="P" href="javascript:1">x</a>`,
+    src: `<img id="P" src="javascript:1" alt="k">`,
+    srcset: `<img id="P" src="/ok.png" srcset="javascript:1" alt="k">`,
+    xlinkhref: `<svg><use id="P" xlink:href="javascript:1"/></svg>`,
+    poster: `<video id="P" poster="javascript:1"></video>`,
+    action: `<form id="P" action="javascript:1"></form>`,
+    formaction: `<form><button id="P" formaction="javascript:1">b</button></form>`,
+    background: `<table id="P" background="javascript:1"><tr><td>c</td></tr></table>`,
+    longdesc: `<img id="P" src="/ok.png" longdesc="javascript:1" alt="k">`,
+    cite: `<blockquote id="P" cite="javascript:1">x</blockquote>`,
+    ping: `<a id="P" href="/ok" ping="javascript:1">x</a>`,
+    data: `<object id="P" data="javascript:1"></object>`,
+  }
+  const missing = names.filter((n) => !(n in FIXTURES))
+  assert.deepEqual(
+    missing,
+    [],
+    `URL_ATTRS gained ${missing.join(", ")} — add a fixture. An attribute nobody wrote a case ` +
+      "for is an attribute nobody checked, and it reads exactly like one that passed",
+  )
+
+  // THE OTHER DIRECTION, and it is the one that nearly got away. This sweep derives its member
+  // list from the very Set it is testing, so DELETING a member deletes its own test case with it:
+  // measured, dropping `"cite"` from URL_ATTRS left this test GREEN (the hand-written case above
+  // caught it, which is the only reason it surfaced). A derived enumeration protects against
+  // growth and is blind to shrinkage. FIXTURES is the independent record of what the set held
+  // when this was written, so compare against it and name the loss.
+  const dropped = Object.keys(FIXTURES).filter((n) => !names.includes(n))
+  assert.deepEqual(
+    dropped,
+    [],
+    `URL_ATTRS no longer sanitises ${dropped.join(", ")} — a member was removed from the Set, ` +
+      "which un-sanitises that attribute across all 4,600 pages AND silently removes this " +
+      "sweep's case for it. If the removal is deliberate, delete its fixture in the same commit",
+  )
+  assert.ok(
+    names.length >= 12,
+    `URL_ATTRS is down to ${names.length} members; it held 12 when this sweep was written`,
+  )
+
+  const survivors = []
+  let probed = 0
+  for (const [i, name] of names.entries()) {
+    const html = await emit(FIXTURES[name], `UrlAttr${i}`)
+    const el = (html.match(/<[a-zA-Z:-]+[^>]*id="P"[^>]*>/) || [null])[0]
+    // POSITIVE CONTROL, per case. A probe element that never reached the output reads EXACTLY
+    // like a clean strip (CLAUDE.md §6.6) — the absence must fail, not pass.
+    assert.ok(el, `${name}: the probe element is absent from the output, so this case proves nothing`)
+    probed += 1
+    if (/javascript:/i.test(el)) survivors.push(name)
+  }
+  console.log(`  coverage: ${probed} of ${names.length} URL_ATTRS members swept end-to-end`)
+  assert.equal(probed, names.length, "every derived member must actually have been driven")
+
+  // The array-valued path must still be exercised: zero survivors is meaningless if the
+  // sweep stopped reaching that value shape. Its members must receive the same protection
+  // as scalar values; the per-case probe-present control above proves the elements survived.
+  const { html: propertyInfo } = await import(
+    pathToFileURL(sourceRequire().resolve("property-information")).href
+  )
+  const arrayValued = names.filter((n) => {
+    const info = propertyInfo.property[n]
+    return !!info && (info.spaceSeparated || info.commaSeparated || info.commaOrSpaceSeparated)
+  })
+  assert.ok(arrayValued.length > 0, "the sweep must exercise at least one array-valued URL attribute")
+  assert.deepEqual(
+    survivors.filter((name) => arrayValued.includes(name)),
+    [],
+    "array-valued URL attributes must be sanitised too; value shape cannot exempt a dangerous URL",
+  )
+  assert.deepEqual(
+    survivors,
+    [],
+    "dev 601c521e9 contract: no URL_ATTRS member may retain its dangerous URL",
+  )
 })
