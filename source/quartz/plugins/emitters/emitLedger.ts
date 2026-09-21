@@ -149,7 +149,13 @@ function appendReturn(emitter: string, shard: number | null, seq: number, paths:
  * which is the distinction the whole seam exists to make. A receipt is observed: no receipt means
  * no completed run, and an empty result with a receipt is a legitimate zero.
  */
-function appendReceipt(emitter: string, shard: number | null, seq: number, wrote: number, returned: number) {
+function appendReceipt(
+  emitter: string,
+  shard: number | null,
+  seq: number,
+  wrote: number,
+  returned: number,
+) {
   if (!OUT_DIR) return
   fs.appendFileSync(
     path.join(OUT_DIR, PART_NAME),
