@@ -60,8 +60,8 @@
 // **distinct_days**, **span_days**, and **no single day holding more than a fraction**.
 //
 // FLOORS ARE PER-FIELD AND COME FROM MEASUREMENT. A 25% single-day floor sounds generous and is a
-// FALSE RED on correct data: healthy `modified` has 37.7% on one day because content lands in
-// batches. And the floors cannot be shared — healthy `modified` has ~17 distinct days, healthy
+// FALSE RED on correct data: healthy `modified` has 37.8% on one day because content lands in
+// batches. And the floors cannot be shared — healthy `modified` has 16 distinct days, healthy
 // `published` should have hundreds, so one floor would make the other field's rule useless.
 //
 // ── WHAT THIS FILE DOES NOT COVER (CLAUDE.md §6.9) ────────────────────────────────────────────
@@ -229,7 +229,7 @@ test("TIER ORDER — frontmatter beats git (closes the reordering non-kill)", as
 // false red waiting to happen, and one was: a 25% single-day floor sounds generous and FAILS on
 // data everyone agrees is correct, because content legitimately lands in batches.
 const FLOORS = {
-  // MEASURED on golden/build0: 6,110 pages, 17 distinct days, 116-day span, busiest day 37.7%.
+  // MEASURED on golden/build0: 6,110 pages, 16 distinct days, 116.4-day span, busiest day 37.8%.
   // Floors set with real headroom below the measurement, not just under it.
   modified: { minDistinctDays: 12, minSpanDays: 30, maxDayShare: 0.5 },
   // DELIBERATELY EMPTY SLOT. `published` is absent today, so there is nothing to measure and any
