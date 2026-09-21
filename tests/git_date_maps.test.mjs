@@ -1,13 +1,14 @@
 // Real Git histories exercise the shared driver index. RED controls: missing sibling,
 // add-only history, author/committer confusion, oldest-as-latest, repeated cold walks,
 // and fabricated unknown dates. Merge resolutions are pinned explicitly: the batched
-// map includes them; the native modified reader does not. Since D-195 / D-208 (v1.195.8)
-// the transformer's git tier READS the batched map for unflagged paths and DEFERS to the
-// native per-file reader for merge-flagged ones; both directions are pinned below.
+// map includes them; the native modified reader does not. The frozen transformer's git
+// tier READS the batched map for unflagged paths and DEFERS to the native per-file reader
+// for explicitly flagged ones; both compatibility directions are pinned below.
 // Sparse merge-origin flags identify ONLY the selected modified entry, not any older
-// merge in a path's history. RED controls also cover missing/stale flags and lost driver /
-// worker propagation. A flagged path must never take the batched value: that is what keeps
-// the owner's merge-resolution dates (Kimura, Americana) untouched.
+// merge in a path's history. D-237 changes the PROGRAMME driver policy: it supplies an
+// empty fallback-flag map so the batched merge-resolution date is authoritative. Tests
+// below distinguish raw collector flags and legacy explicit-flag compatibility from
+// programme main/worker preparation, including real-transformer date assertions.
 // This does not assert universal equivalence to libgit2 on arbitrary merged histories.
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
@@ -285,7 +286,7 @@ test("shallow, unavailable and unborn history supplies neither date map", async 
   });
 });
 
-test("driver preparation exposes both maps and merge-origin flags to a real Markdown plugin", async (t) => {
+test("programme main-thread preparation makes merge-resolution dates authoritative", async (t) => {
   const f = mergedFixture(t);
   const { parseMarkdown } = await tsImport(
     "../source/quartz/processors/parse.ts",
@@ -320,8 +321,29 @@ test("driver preparation exposes both maps and merge-origin flags to a real Mark
   assert.deepEqual(result[0][1].data.seen, {
     published: { "content/Note.md": iso(2020), "content/Other.md": iso(2020) },
     modified: { "content/Note.md": iso(2023), "content/Other.md": iso(2020) },
-    modifiedFromMerge: { "content/Note.md": true },
+    modifiedFromMerge: {},
   });
+  let checkedDates = 0;
+  for (const [name, expectedDate] of [
+    ["Note.md", iso(2023)],
+    ["Other.md", iso(2020)],
+  ]) {
+    const file = {
+      cwd: path.join(f.cwd, "source"),
+      data: { filePath: `../content/${name}` },
+    };
+    await CreatedModifiedDate().markdownPlugins(ctx)[0]()({}, file);
+    assert.equal(
+      file.data.dates.modified.toISOString(),
+      expectedDate,
+      `the real transformer consumes the programme policy for ${name}`,
+    );
+    checkedDates += 1;
+  }
+  assert.equal(checkedDates, 2);
+  console.log(
+    "Main date policy coverage: 2/2 dates, 1 merge-resolution date, 1 unchanged page",
+  );
 });
 
 async function bundledDateDriver(t) {
@@ -419,7 +441,7 @@ test("real worker forwards the seventh merge-origin map and accepts old four/fiv
   });
 });
 
-test("native parse workers receive every prepared date map for every parsed page", async (t) => {
+test("native parse workers receive the authoritative programme date policy for every parsed page", async (t) => {
   const f = mergedFixture(t);
   const { parseMarkdown } = await bundledDateDriver(t);
   const ctx = {
@@ -435,7 +457,7 @@ test("native parse workers receive every prepared date map for every parsed page
   const expected = {
     published: { "content/Note.md": iso(2020), "content/Other.md": iso(2020) },
     modified: { "content/Note.md": iso(2023), "content/Other.md": iso(2020) },
-    modifiedFromMerge: { "content/Note.md": true },
+    modifiedFromMerge: {},
   };
   const files = ["Note.md", "Other.md"].map((name) =>
     path.join(f.cwd, "content", name),
@@ -456,6 +478,7 @@ test("native parse workers receive every prepared date map for every parsed page
     "the host must prepare all three maps before dispatch",
   );
   const threads = new Set();
+  let checkedDates = 0;
   for (const [, file] of result) {
     assert.deepEqual(
       file.data.seen,
@@ -467,13 +490,31 @@ test("native parse workers receive every prepared date map for every parsed page
       "the observer must run in a native worker",
     );
     threads.add(file.data.observerThreadId);
+    const name = path.basename(file.data.filePath);
+    const transformed = {
+      cwd: path.join(f.cwd, "source"),
+      data: { filePath: `../content/${name}` },
+    };
+    const received = file.data.seen;
+    await CreatedModifiedDate().markdownPlugins({
+      gitPublicationDates: received.published,
+      gitModifiedDates: received.modified,
+      gitModifiedDatesFromMerge: received.modifiedFromMerge,
+    })[0]()({}, transformed);
+    assert.equal(
+      transformed.data.dates.modified.toISOString(),
+      name === "Note.md" ? iso(2023) : iso(2020),
+      `the real transformer consumes the worker-received policy for ${name}`,
+    );
+    checkedDates += 1;
   }
   assert.equal(
     threads.size,
     2,
     "both worker initializations must receive the maps",
   );
+  assert.equal(checkedDates, 2);
   console.log(
-    "Date transport coverage: 3 host maps, 2/2 worker pages, 2/2 worker threads, 1 merge-origin flag",
+    "Date transport coverage: 3 host maps, 2/2 worker pages, 2/2 worker threads, 2/2 dates, 1 merge-resolution date, 1 unchanged page, 0 fallback flags by programme policy",
   );
 });

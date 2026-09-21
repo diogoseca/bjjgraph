@@ -133,7 +133,10 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
       const dates = await gitDateMaps(path.resolve(ctx.argv.directory))
       ctx.gitPublicationDates = dates.published
       ctx.gitModifiedDates = dates.modified
-      ctx.gitModifiedDatesFromMerge = dates.modifiedFromMerge
+      // D-237: programme Git dates include merge resolutions. Lastmod's frozen
+      // true flags request NATIVE fallback, so send an empty exception map on both
+      // main/worker paths. Keep the collector's raw merge provenance unchanged.
+      ctx.gitModifiedDatesFromMerge = {}
     }
     let result: ProcessedContent[]
     if (concurrency === 1) {
