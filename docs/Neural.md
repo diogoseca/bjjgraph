@@ -33,7 +33,8 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `flashcards/<hash>.json` | on demand | one deck's cards |
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
-| `concepts.json` | first read | the Principles + Learning index (82). Same posture as `systems.json` |
+| `concepts.json` | first read | the Principles + Learning index. Same posture as `systems.json` |
+| `app/reference.css` | first reference read | shared Systems and concept reference-page styles; excluded from the game boot |
 | `aliases.json` | Explore/search intent | exact site IDs, own aliases and attributed family aliases; versioned URL, shared request and bounded retries |
 
 Chunks are addressed by `fnv1a32(key)` — the app's own `qhash`, ported byte-identically into
@@ -597,6 +598,13 @@ Principles with curated clips show Film study immediately below the title and su
 arrive with the deferred body, use the shared thumbnail row/player, and put Shorts first. They
 play only on activation, award no study credit, and stop when the reading panel is rebuilt or
 left. A principle without clips has no empty Film study section.
+Learning pages carry their complete edited content in that deferred body: application outcomes,
+optional self-assessment and sources included. Independent disclosures initially show 3 takeaways,
+2 examples, 2 mistakes and 1 exercise. Related reading precedes the collapsed technique browser;
+sources come last. There is no link back to the same page to obtain missing content. Disclosures
+and scroll survive background hydration and ruleset changes; a new reading visit starts at the top.
+Loading failures show an explicit retry. Optional `title` labels are editorial: canonical `name`,
+route, dossier key and analytics identity remain unchanged. Self-assessment does not score a deck.
 Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
 techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
 `_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
