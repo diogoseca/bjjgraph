@@ -89,7 +89,7 @@ import { REPO, harnessAvailable, runPipeline, commitFixture } from "./_quartz_pi
 const skip = !harnessAvailable()
 if (skip) console.log("SKIP: source/node_modules is absent — this file asserted NOTHING")
 
-const GOLDEN = "/home/user/bjj-orchestrator/golden/build0"
+const LEGACY_GOLDEN = "/home/user/bjj-orchestrator/golden/build0"
 
 test("PRESENCE — created and modified are real Dates. THOSE TWO AND ONLY THOSE TWO.", async (t) => {
   if (skip) return t.skip("harness unavailable")
@@ -309,60 +309,34 @@ function profile(values) {
 // making one file look right.
 test("GOLDEN CENSUS — SPREAD, not cardinality: three parts, all of which must hold", async (t) => {
   if (skip) return t.skip("harness unavailable")
+  // CTO CAPTURE-TIP / RECOVERY-RULING: the committed census names the actual new
+  // snapshot and carries its completed input receipt. Use V's canonical guard at
+  // both read boundaries. The old build0 is retained ONLY as a known-bad control;
+  // its four unnamed dirty paths remain permanently input-unverified.
+  const baselinePath = path.join(REPO, "tests/artifacts/build_fingerprint.json")
+  const baseline = JSON.parse(fs.readFileSync(baselinePath, "utf8"))
+  const GOLDEN = baseline._meta?.capture_tree
+  assert.equal(typeof GOLDEN, "string", "re-captured census must name its emitted tree")
   if (!fs.existsSync(GOLDEN)) {
-    console.log(`  SKIP: golden tree absent at ${GOLDEN} — census NOT run, nothing asserted here`)
-    return
+    console.log(`  SKIP: attested golden absent at ${GOLDEN} — census asserted NOTHING`)
+    return t.skip("external golden is unavailable; fixture assertions still run")
   }
-  // ── ASSERT THE GOLDEN'S CONTENT PROVENANCE AT USE TIME (COORDINATION §7N) ──────────────────
-  // RECORDING PROVENANCE IS NOT ASSERTING IT. `golden/build0.env.txt` records git_head
-  // 308d6f577 — a DIFFERENT commit from the seams' f649801a9 — and also `git_dirty 4 path(s)`.
-  // This census reads that golden and asserts a property of the corpus, so if `content/` has moved
-  // since capture it is comparing across two trees and the verdict is meaningless.
-  //
-  // Six scheduled workflows commit to this repo across a ~40-hour weekend window (votes-refresh,
-  // seo-monitor, validation-fixer, content-improvement-bot, analytics-content-improvement,
-  // proofread-bot) and ALL SIX PUSH DIRECTLY — none opens a PR. So content expires on a CLOCK, not
-  // on a change anyone makes deliberately, and there is no merge step at which to hold it.
-  //
-  // Comparing the `content/` TREE OBJECT rather than the commit is what makes this survive: two
-  // different capture commits can describe an identical corpus, and here they do.
-  // CAVEAT, stated because the recorded provenance carries one: build0 was captured from a DIRTY
-  // tree. A matching tree id is therefore necessary but not sufficient — it cannot see an
-  // uncommitted edit that was present at capture. Nothing available now can.
-  const buildEnv = "/home/user/bjj-orchestrator/golden/build0.env.txt"
-  if (fs.existsSync(buildEnv)) {
-    const head = (fs.readFileSync(buildEnv, "utf8").match(/git_head\s+(\S+)/) || [])[1]
-    let goldenContent = null
-    let hereContent = null
-    try {
-      goldenContent = execFileSync("git", ["rev-parse", `${head}:content`], { cwd: REPO, encoding: "utf8" }).trim()
-      hereContent = execFileSync("git", ["rev-parse", "HEAD:content"], { cwd: REPO, encoding: "utf8" }).trim()
-    } catch (err) {
-      // DO NOT SWALLOW A PROGRAMMING ERROR AS A DATA VERDICT. The first version of this block had
-      // a bare `catch` and an undefined `REPO`, so a ReferenceError in MY OWN CODE was reported as
-      // the calm, plausible sentence "provenance: UNKNOWN — cannot resolve <sha>:content", which
-      // reads exactly like a legitimately unreachable commit. It took a shell comparison to notice
-      // the commit resolved fine. A catch that cannot tell "the data is absent" from "this check is
-      // broken" will always report the former (CLAUDE.md §6.6).
-      if (err instanceof ReferenceError || err instanceof TypeError) throw err
-      console.log(`  provenance: UNKNOWN — git could not resolve ${head}:content (${err.message.split("\n")[0]})`)
-    }
-    if (goldenContent && hereContent) {
-      console.log(
-        `  provenance: golden captured at ${head.slice(0, 9)}, content tree ` +
-          `${goldenContent.slice(0, 12)} vs HEAD ${hereContent.slice(0, 12)}`,
-      )
-      assert.equal(
-        hereContent,
-        goldenContent,
-        "content/ has MOVED since this golden was captured, so the census is comparing two " +
-          "different corpora and its verdict is meaningless. Six scheduled bots push to content/ " +
-          "directly every weekend; re-capture (GOLDEN-RECAPTURE.md) rather than reinterpreting.",
-      )
-    }
-  } else {
-    console.log(`  provenance: UNKNOWN — ${buildEnv} absent, cannot check the golden's corpus`)
+  const assertContent = () => {
+    const script = `import json,sys
+from pathlib import Path
+from types import SimpleNamespace
+sys.path.insert(0,str(Path(sys.argv[1])/'scripts'))
+from golden_provenance import ContentGuard
+artifact=json.loads(Path(sys.argv[2]).read_text())
+guard=ContentGuard(artifact,SimpleNamespace(source_repo=Path(sys.argv[1]),artifact_only=False),'golden census')
+guard.finish()
+`
+    const output = execFileSync("python3", ["-B", "-c", script, REPO, baselinePath],
+      { cwd: REPO, encoding: "utf8" })
+    console.log(output.trim())
+    assert.match(output, /CONTENT golden census: MATCH;/)
   }
+  assertContent()
 
   const modified = []
   const published = []
@@ -406,32 +380,37 @@ test("GOLDEN CENSUS — SPREAD, not cardinality: three parts, all of which must 
     `max_day_share ${mp.maxDayShare.toFixed(3)} <= ${f.maxDayShare} (busiest ${mp.busiestDay})`,
   )
 
-  // ── `published`: the golden is the PRE-FIX CONTROL, not a candidate ─────────────────────────
-  // golden/build0 predates c55735dc4 (GOLDEN-RECAPTURE.md), so its datePublished is the OLD shape:
-  // 1,077 distinct values inside 1.557 seconds, 100% on one day. Asserting the floors against it
-  // would fail for a reason that is not a regression. Instead it is used as the CONTROL — every
-  // part MUST fail on it, because a control the assertion passes is not a control.
-  if (published.length) {
-    const pp = profile(published)
-    console.log(
-      `  published: ${pp.pages} pages · ${pp.distinctValues} distinct values (NOT the test) · ` +
-        `${pp.distinctDays} days · ${pp.spanDays.toFixed(3)}d span · ` +
-        `busiest ${(100 * pp.maxDayShare).toFixed(1)}% on ${pp.busiestDay}  [PRE-FIX CONTROL]`,
-    )
-    assert.ok(
-      pp.distinctDays < FLOORS.modified.minDistinctDays &&
-        pp.spanDays < FLOORS.modified.minSpanDays &&
-        pp.maxDayShare > FLOORS.modified.maxDayShare,
-      "the pre-fix golden must FAIL all three parts — if it passes any, the floors are too weak " +
-        "to detect the very collapse they exist for",
-    )
-  } else {
-    // COORDINATION §7B: "I looked and found nothing" and "I could not look" must not render the
-    // same. An absent field is NOT a clean spread result.
-    console.log(
-      "  published: NO VERDICT — not emitted on any golden page. Nothing to measure the spread of.",
-    )
+  const currentPublished = profile(published)
+  assert.ok(published.length > 6000, "git-derived publication must have positive corpus coverage")
+  console.log(
+    `  current published: ${currentPublished.pages} pages · ${currentPublished.distinctDays} days · ` +
+      `${currentPublished.spanDays.toFixed(1)}d span; no new publication spread threshold calibrated here`,
+  )
+
+  // Keep the pre-fix negative control separate from the current-content verdict.
+  // It is historical/input-UNVERIFIED, not a second attested build. Its exact 6110
+  // matching pages pins the token/scope control as well as the collapsed profile.
+  assert.ok(fs.existsSync(LEGACY_GOLDEN), "the pre-fix control must be retained")
+  const oldPublished = []
+  const walkLegacy = (dir) => {
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      const p = path.join(dir, e.name)
+      if (e.isDirectory()) walkLegacy(p)
+      else if (e.name.endsWith(".html")) {
+        const match = fs.readFileSync(p, "utf8").match(/"datePublished":"([^"]*)"/)
+        if (match) oldPublished.push(match[1])
+      }
+    }
   }
+  walkLegacy(LEGACY_GOLDEN)
+  assert.equal(oldPublished.length, 6110, "historical control must match its exact measured scope")
+  const pp = profile(oldPublished)
+  assert.ok(
+    pp.distinctDays < f.minDistinctDays && pp.spanDays < f.minSpanDays && pp.maxDayShare > f.maxDayShare,
+    "the pre-fix control must FAIL all three spread parts",
+  )
+  console.log(`  legacy publication control: ${pp.pages} matches, all 3 spread parts fail; input-UNVERIFIED`)
+  assertContent()
 
   // The census walks the golden tree; if that walk ever returns few or no pages the three spread
   // parts above become vacuously satisfiable, so the walked total is the coverage number here.

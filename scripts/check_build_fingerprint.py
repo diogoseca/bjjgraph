@@ -54,9 +54,10 @@ and empty/corrupt-inventory controls. Browser behavior remains structurally INVI
 Exact timestamp cardinalities for article:published_time and article:modified_time
 are retired (D-106), never re-seeded: checkout milliseconds are arbitrary, and many
 distinct values within one day do not prove date provenance. Presence remains in
-meta_keys; emit_diff.py still compares the actual Head fields. This gate does NOT yet
-assert date spread. X-01 must replace that gap with per-field distinct_days, span_days
-and max_day_share assertions; no threshold may be fitted to a baseline update.
+meta_keys; emit_diff.py still compares the actual Head fields. This census does NOT
+assert date spread. scripts/check_publication_dates.py owns the per-field spread
+gate, invoked by e2e/journeys/published-time.spec.ts in the curated suite; no spread
+threshold is fitted to this baseline update.
 Restoring either retired row inside distinct_values is an INVALID baseline, even
 if a clean git merge produced it. --check-baseline checks this contract and the app
 inventory before any tree walk; it does not claim that a built site matches it.
@@ -226,7 +227,8 @@ def capture(jobs: int, tree: Path = None, *, receipt_args=None) -> dict:
             by_dir.get(rel.split("/")[0] if "/" in rel else "<root>", 0) + 1
 
     return {
-        "_meta": {"format": FORMAT, **({'content_provenance': receipt} if receipt else {})},
+        "_meta": {"format": FORMAT, "capture_tree": str(tree.resolve()),
+                  **({'content_provenance': receipt} if receipt else {})},
         "bundles": bundles,
         "app_assets": app_inventory(files),
         "bundle_tokens": bundle_tokens,
@@ -367,9 +369,9 @@ def main() -> None:
           f"· {c['static_files']:,} static files")
     print(f"app assets: covered_files={cur['app_assets']['count']} "
           f"under {APP_PREFIX} (recursive names + bytes + SHA-256)")
-    print("  UNASSERTED: date spread for article:published_time and article:modified_time; "
-          "exact timestamp cardinality retired, awaiting X-01 spread gate. "
-          "Meta presence is still counted.")
+    print("  UNASSERTED BY THIS CENSUS: date spread for article:published_time and "
+          "article:modified_time; exact timestamp cardinality retired. "
+          "scripts/check_publication_dates.py owns spread; meta presence is still counted here.")
 
     floors = check_floors(cur)
     if floors:
