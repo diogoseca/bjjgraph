@@ -87,7 +87,11 @@ function cleanupOnExit(file) {
 }
 
 let req = null
-function sourceRequire() {
+/** `require` resolved against `source/package.json`, so a spec can locate a package that only
+ *  the Quartz sub-package depends on (e.g. `property-information`). Exported because the
+ *  sanitizer contract needs hast's own property table to assert a MECHANISM rather than a
+ *  hard-coded list of attribute names. */
+export function sourceRequire() {
   if (!req) req = createRequire(path.join(SRC, "package.json"))
   return req
 }
