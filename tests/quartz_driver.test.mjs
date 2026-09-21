@@ -515,6 +515,12 @@ async function instrumentWorkerIdentity(f, mutant) {
       });
       build.onLoad({ filter: /\/quartz\/worker\.ts$/ }, (args) => {
         let source = fs.readFileSync(args.path, "utf8");
+        if (mutant === "skippedTargetScan") {
+          const scan = "visit(tuple[0], (node) => {";
+          assert.equal(source.split(scan).length, 2);
+          // In-memory bundle mutation only: the tracked worker is never rewritten.
+          source = source.replace(scan, "if (false) " + scan);
+        }
         assert.equal(
           source.split(workerNeedle).length,
           2,
@@ -782,6 +788,11 @@ test("emit transport partitions trees before native worker hydration", (t) => {
     shards.every((s) => s.metadata === 3),
     "every shard needs the full metadata roster",
   );
+  assert.equal(
+    [...result.log.matchAll(/targets=1\/1 missing=0 inspectedTrees=2\/2 inspectedNodes=[1-9]\d* references=1 targetStatus=resolved/g)].length,
+    1,
+    "the cross-shard target must report an executed scan and a resolved reference",
+  );
   console.log(
     "Shard coverage: 3 owned pages once; 4 resident trees including 1 cross-shard target; 3 metadata entries per worker (was 6 full trees)",
   );
@@ -808,6 +819,12 @@ test("four emit workers hydrate four owned trees, with a complete roll roster in
     result.log,
     /\[emit:coverage:plan\] owned=4\/4 shards=4 residentTuples=4 duplication=1\.000/,
   );
+  // The corpus has no embeds: 0/0 alone cannot distinguish absence from a skipped
+  // traversal. Pin every shard's executed scan and its explicit empty-set reason.
+  assert.equal(
+    [...result.log.matchAll(/targets=0\/0 missing=0 inspectedTrees=1\/1 inspectedNodes=[1-9]\d* references=0 targetStatus=none:no-transclusion-references/g)].length,
+    4,
+  );
   for (const page of [
     "index",
     "Positions/Mount",
@@ -828,6 +845,31 @@ test("four emit workers hydrate four owned trees, with a complete roll roster in
   console.log(
     "Four-worker coverage: 4 owned/resident trees total (old handoff 16); 4 eager metadata entries and complete 2-role roster in each worker",
   );
+});
+
+test("target coverage distinguishes no references from all references unresolved", (t) => {
+  const f = fixture(t);
+  f.put("content/index.md", `${frontmatter("Home")}\n![[absent-page]]\n`);
+  const result = runBuild(f, 2);
+  assert.equal(result.status, 0, result.log);
+  assert.equal(
+    [...result.log.matchAll(/targets=0\/0 missing=1 inspectedTrees=1\/1 inspectedNodes=[1-9]\d* references=1 targetStatus=none:all-references-unresolved/g)].length,
+    1,
+  );
+  assert.equal(
+    [...result.log.matchAll(/targets=0\/0 missing=0 inspectedTrees=2\/2 inspectedNodes=[1-9]\d* references=0 targetStatus=none:no-transclusion-references/g)].length,
+    1,
+  );
+});
+
+test("native target scan rejects a skipped traversal", async (t) => {
+  const f = fixture(t);
+  await instrumentWorkerIdentity(f, "skippedTargetScan");
+  const result = runBuild(f, 2);
+  assert.notEqual(result.status, 0, "unexecuted target scan must fail even without a target");
+  // Either worker may report the first failure; its reachable set was not expanded
+  // because the scan was skipped. Both possible ownership counts are explicit.
+  assert.match(result.log, /transclusion scan incomplete: trees=(?:1\/1|2\/2) nodes=0/);
 });
 
 test("authored tag and folder-index routes keep incumbent overlapping-write behavior", (t) => {
