@@ -9,6 +9,7 @@ import cfg from "../quartz.config"
 import { parseMarkdown } from "./processors/parse"
 import { filterContent } from "./processors/filter"
 import { emitContent } from "./processors/emit"
+import { createEmitObserver } from "./processors/emitObserver"
 import { FilePath, joinSegments, slugifyFilePath } from "./util/path"
 import { Argv, BuildCtx } from "./util/ctx"
 import { glob, toPosixPath } from "./util/glob"
@@ -29,6 +30,7 @@ async function buildOnce(argv: Argv) {
     }
   }
   const ctx: BuildCtx = { buildId: randomUUID(), argv, cfg, allSlugs: [] }
+  const emitObserver = process.env.BJJ_EMIT_LEDGER_DIR ? await createEmitObserver(ctx) : undefined
   try {
     // The FIRST output mutation, before discovery/parse/emit. Never clean after emit:
     // that would delete post-processor output or leave stale routes from an earlier build.
@@ -49,7 +51,21 @@ async function buildOnce(argv: Argv) {
     const parsed = await phase("parse", () => parseMarkdown(ctx, paths))
     const content = await phase("filter", () => filterContent(ctx, parsed))
     if (content.length === 0) throw new Error("No published pages after filtering")
-    await phase("emit", () => emitContent(ctx, content))
+    const schedule = await phase("emit", () => emitContent(ctx, content))
+    // D-V-14: all raw writers have settled here; caller/CLI post-processors have not
+    // started. The observer copies and hashes the same bytes before this boundary opens.
+    if (emitObserver) {
+      await emitObserver.finish(
+        schedule,
+        {
+          all: files.length,
+          md: markdown.length,
+          parsed: parsed.length,
+          published: content.length,
+        },
+        timings.parse,
+      )
+    }
     console.log(`[build:coverage] parsed=${parsed.length} published=${content.length}`)
   } finally {
     console.log(`[phase:total] ${(performance.now() - start).toFixed(1)}ms`)

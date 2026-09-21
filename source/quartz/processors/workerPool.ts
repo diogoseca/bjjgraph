@@ -2,6 +2,7 @@ import { Worker } from "node:worker_threads"
 import type { Argv, BuildCtx } from "../util/ctx"
 import type { FilePath, FullSlug } from "../util/path"
 import type { StaticResources } from "../util/resources"
+import type { ParseObserverInit, ParseObserverReceipt } from "./parseObserver"
 import type { ProcessedContent, QuartzPluginData } from "../plugins/vfile"
 
 // HOST SIDE only. quartz/worker.ts is the worker-side entry (D-18).
@@ -11,7 +12,7 @@ export type WorkerInit = {
   argv: Argv
   allSlugs: FullSlug[]
 } & (
-  | ({ phase: "parse" } & Pick<
+  | ({ phase: "parse"; observer?: ParseObserverInit } & Pick<
       BuildCtx,
       "gitPublicationDates" | "gitModifiedDates" | "gitModifiedDatesFromMerge"
     >)
@@ -56,6 +57,7 @@ export async function runWorkerTasks<T>(
   init: WorkerInit,
   tasks: unknown[],
   concurrency = workerCount(init.argv),
+  onObserverReceipt?: (receipt: ParseObserverReceipt | undefined, id: number) => void,
 ): Promise<T[]> {
   if (tasks.length === 0) return []
   const count = Math.min(concurrency, tasks.length)
@@ -95,6 +97,12 @@ export async function runWorkerTasks<T>(
             }
             if (message.error) {
               reject(new Error(message.error))
+              return
+            }
+            try {
+              onObserverReceipt?.(message.observerReceipt, message.id)
+            } catch (error) {
+              reject(error)
               return
             }
             results[message.id] = message.result as T
