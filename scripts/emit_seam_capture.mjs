@@ -354,6 +354,8 @@ console.log(
 // ---------------------------------------------------------------------------------------------
 
 const JOIN_ENTRY = `
+const collectorUrl = ${JSON.stringify(pathToFileURL(path.join(REPO_ROOT, "scripts/emit_seam_capture.mjs")).href)}
+const { collectEmitCensus } = await import(collectorUrl)
 import config from ${q("quartz.config")}
 import { parseMarkdown } from ${q("quartz/processors/parse")}
 import { filterContent } from ${q("quartz/processors/filter")}
@@ -387,7 +389,7 @@ const tParse = Date.now() - t0
 const content = filterContent(ctx, parsed)
 
 // ONE build into ONE output directory — the production shape, including concurrent phase two.
-await emitContent(ctx, content)
+const schedule = await emitContent(ctx, content)
 
 // THE CENSUS RUNS HERE: after every raw emitter has settled and BEFORE any post-processor.
 // V's correction, and it is not a precaution — regenerate_agent_discovery.py rewrites sitemap.xml
@@ -395,116 +397,129 @@ await emitContent(ctx, content)
 // deploy chain would hash a post-processor's bytes and attribute them to the emitter that
 // originally wrote that path: a correctly-claimed path with a wrong hash, and the join reports
 // success. Nothing looks wrong, which is what makes it the dangerous case.
-const sha = (b) => crypto.createHash("sha256").update(b).digest("hex")
-const census = {}
-const walk = (dir) => {
-  for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
-    const fp = path.join(dir, ent.name)
-    if (ent.isDirectory()) walk(fp)
-    else {
-      const buf = fs.readFileSync(fp)
-      census[path.relative(args.output, fp).split(path.sep).join("/")] = {
-        size: buf.length, sha256: sha(buf),
+const captured = collectEmitCensus({
+  output: args.output, ledgerDir: process.env.BJJ_EMIT_LEDGER_DIR,
+  staticSourceRoot: path.join(process.cwd(), "quartz", "static"),
+  configuredEmitters: config.plugins.emitters.map((e) => e.name),
+  discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
+  ledgerEnabled, mainMemoryPaths: Object.values(ledgerSnapshot()).reduce((n, v) => n + v.length, 0),
+  parseMs: tParse, concurrency: ctx.argv.concurrency, schedule,
+})
+console.log("__JSON__" + JSON.stringify(captured))
+`
+
+/** Read the raw-emitter boundary already produced by the scheduled build; never emits. */
+export function collectEmitCensus({
+  output, ledgerDir, staticSourceRoot, configuredEmitters, discovered, ledgerEnabled,
+  mainMemoryPaths, parseMs, concurrency, schedule, rawOutput,
+}) {
+  const sha = (b) => crypto.createHash("sha256").update(b).digest("hex")
+  const census = {}
+  const walk = (dir) => {
+    for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+      const fp = path.join(dir, ent.name)
+      if (ent.isDirectory()) walk(fp)
+      else {
+        const buf = fs.readFileSync(fp)
+        const rel = path.relative(output, fp).split(path.sep).join("/")
+        // Copy from the bytes just hashed, not a hardlink: later in-place post-processors
+        // must not mutate the retained raw-emitter witness (D-V-14).
+        if (rawOutput) {
+          const destination = path.join(rawOutput, rel)
+          fs.mkdirSync(path.dirname(destination), { recursive: true })
+          fs.writeFileSync(destination, buf, { flag: "wx", mode: 0o444 })
+        }
+        census[rel] = {
+          size: buf.length, sha256: sha(buf),
+        }
       }
     }
   }
-}
-walk(args.output)
+  walk(output)
 
-// ATTRIBUTION IS READ FROM THE PARTS ON DISK, NOT FROM THIS THREAD'S MEMORY (V finding 2).
-// ledgerSnapshot() is the MAIN thread's map; emit shards across worker THREADS, so every sharded
-// ContentPage claim lives in a worker's part. It is still read below, but only as a cross-check.
-//
-// ORDER AND DUPLICATES ARE PRESERVED THROUGHOUT (V findings 3 and 6). Resource order is
-// BYTE-SIGNIFICANT — first-seen order across getQuartzComponents drives dedup and bundle bytes —
-// so a Set collapses the very property the emitter contract turns on, and a sort finishes the
-// job. Nothing here uses a Set for a path list.
-const ledgerDir = process.env.BJJ_EMIT_LEDGER_DIR
-const parts = []
-const claimLists = {}
-const returnEntries = []
-const receipts = []
-const rawWitness = []
-const relOut = (abs) => path.relative(args.output, abs).split(path.sep).join("/")
-if (ledgerDir && fs.existsSync(ledgerDir)) {
-  for (const name of fs.readdirSync(ledgerDir).filter((f) => f.endsWith(".ndjson")).sort()) {
-    const fpart = path.join(ledgerDir, name)
-    const buf = fs.readFileSync(fpart)
-    // RAW WITNESS: the part's own bytes and digest, so a reader can re-derive attribution from
-    // the retained ledger rather than taking this record's word for it.
-    rawWitness.push({ file: name, bytes: buf.length, sha256: sha(buf) })
-    let head = null
-    let n = 0
-    for (const line of buf.toString("utf8").split(String.fromCharCode(10))) {
-      if (!line) continue
-      const rec = JSON.parse(line)
-      if (rec.part) { head = rec; continue }
-      if (rec.receipt) { receipts.push(rec); continue }
-      if (rec.returns) {
-        returnEntries.push({
-          emitter: rec.returns, shard: rec.shard, seq: rec.seq,
-          threadId: head ? head.threadId : null, paths: rec.paths.map(relOut),
-        })
-        continue
+  // ATTRIBUTION IS READ FROM THE PARTS ON DISK, NOT FROM THIS THREAD'S MEMORY (V finding 2).
+  // ledgerSnapshot() is the MAIN thread's map; emit shards across worker THREADS, so every sharded
+  // ContentPage claim lives in a worker's part. It is still read below, but only as a cross-check.
+  //
+  // ORDER AND DUPLICATES ARE PRESERVED THROUGHOUT (V findings 3 and 6). Resource order is
+  // BYTE-SIGNIFICANT — first-seen order across getQuartzComponents drives dedup and bundle bytes —
+  // so a Set collapses the very property the emitter contract turns on, and a sort finishes the
+  // job. Nothing here uses a Set for a path list.
+  const parts = []
+  const claimLists = {}
+  const returnEntries = []
+  const receipts = []
+  const rawWitness = []
+  const relOut = (abs) => path.relative(output, abs).split(path.sep).join("/")
+  if (ledgerDir && fs.existsSync(ledgerDir)) {
+    for (const name of fs.readdirSync(ledgerDir).filter((f) => f.endsWith(".ndjson")).sort()) {
+      const fpart = path.join(ledgerDir, name)
+      const buf = fs.readFileSync(fpart)
+      // RAW WITNESS: the part's own bytes and digest, so a reader can re-derive attribution from
+      // the retained ledger rather than taking this record's word for it.
+      rawWitness.push({ file: name, bytes: buf.length, sha256: sha(buf) })
+      let head = null
+      let n = 0
+      for (const line of buf.toString("utf8").split(String.fromCharCode(10))) {
+        if (!line) continue
+        const rec = JSON.parse(line)
+        if (rec.part) { head = rec; continue }
+        if (rec.receipt) { receipts.push(rec); continue }
+        if (rec.returns) {
+          returnEntries.push({
+            emitter: rec.returns, shard: rec.shard, seq: rec.seq,
+            threadId: head ? head.threadId : null, paths: rec.paths.map(relOut),
+          })
+          continue
+        }
+        const arr = (claimLists[rec.emitter] ||= [])
+        for (const rel of rec.paths) arr.push(rel)
+        n += rec.paths.length
       }
-      const arr = (claimLists[rec.emitter] ||= [])
-      for (const rel of rec.paths) arr.push(rel)
-      n += rec.paths.length
+      parts.push({ name, pid: head ? head.pid : null, threadId: head ? head.threadId : null, paths: n })
     }
-    parts.push({ name, pid: head ? head.pid : null, threadId: head ? head.threadId : null, paths: n })
   }
-}
-const claims = claimLists
+  const claims = claimLists
 
-// RETURNS CONCATENATED BY EXPLICIT SHARD INDEX, then by per-thread sequence within a shard.
-// NOT by file order: thread-id order is not shard-index order, and a worker with a lower threadId
-// may have run a higher shard. Duplicates and intra-shard order survive.
-const returns = {}
-for (const e of returnEntries.slice().sort((a, b) => (a.shard ?? -1) - (b.shard ?? -1) || a.seq - b.seq)) {
-  ;(returns[e.emitter] ||= []).push(...e.paths)
-}
+  // RETURNS CONCATENATED BY EXPLICIT SHARD INDEX, then by per-thread sequence within a shard.
+  // NOT by file order: thread-id order is not shard-index order, and a worker with a lower threadId
+  // may have run a higher shard. Duplicates and intra-shard order survive.
+  const returns = {}
+  for (const e of returnEntries.slice().sort((a, b) => (a.shard ?? -1) - (b.shard ?? -1) || a.seq - b.seq)) {
+    ;(returns[e.emitter] ||= []).push(...e.paths)
+  }
 
-// STATIC'S SOURCE SET (V finding 4). Static must be attributed from what it COPIED, not from a
-// destination walk of output/static — a destination walk credits Static with any path another
-// producer left there. B's own brief turned on the harness: static.ts returns 9 paths for
-// thousands of copied files, so a returned count proves nothing about coverage either.
-const staticSourceRoot = path.join(process.cwd(), "quartz", "static")
-const copySource = {}
-const walkSrc = (dir) => {
-  for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
-    const fsrc = path.join(dir, ent.name)
-    if (ent.isDirectory()) walkSrc(fsrc)
-    else {
-      const b = fs.readFileSync(fsrc)
-      copySource[path.relative(staticSourceRoot, fsrc).split(path.sep).join("/")] = {
-        size: b.length, sha256: sha(b),
+  // STATIC'S SOURCE SET (V finding 4). Static must be attributed from what it COPIED, not from a
+  // destination walk of output/static — a destination walk credits Static with any path another
+  // producer left there. B's own brief turned on the harness: static.ts returns 9 paths for
+  // thousands of copied files, so a returned count proves nothing about coverage either.
+  const copySource = {}
+  const walkSrc = (dir) => {
+    for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+      const fsrc = path.join(dir, ent.name)
+      if (ent.isDirectory()) walkSrc(fsrc)
+      else {
+        const b = fs.readFileSync(fsrc)
+        copySource[path.relative(staticSourceRoot, fsrc).split(path.sep).join("/")] = {
+          size: b.length, sha256: sha(b),
+        }
       }
     }
   }
-}
-if (fs.existsSync(staticSourceRoot)) walkSrc(staticSourceRoot)
+  if (fs.existsSync(staticSourceRoot)) walkSrc(staticSourceRoot)
 
-const configuredEmitters = config.plugins.emitters.map((e) => e.name)
-const mainPart = parts.find((pt) => pt.threadId === 0)
-const memory = ledgerSnapshot()
-const mainMemoryPaths = Object.values(memory).reduce((n, v) => n + v.length, 0)
+  const mainPart = parts.find((pt) => pt.threadId === 0)
 
-console.log(
-  "__JSON__" + JSON.stringify({
+  return {
     ledgerEnabled, claims, returns, return_entries: returnEntries, receipts,
     configuredEmitters, census, parts, raw_witness: rawWitness,
-    output_root: args.output,
-    ledger_dir: ledgerDir,
+    output_root: rawOutput ?? output, ledger_dir: ledgerDir,
     copy_source_files: copySource,
-    copy_source_root: path.relative(process.cwd(), staticSourceRoot).split(path.sep).join("/"),
-    main_part: mainPart ? mainPart.name : null,
-    main_memory_paths: mainMemoryPaths,
-    discovered: { all: allFiles.length, md: fpsAll.length, parsed: fps.length, published: content.length },
-    parse_ms: tParse,
-    parse_concurrency_actual: ctx.argv.concurrency,
-  }),
-)
-`
+    copy_source_root: path.relative(SOURCE_DIR, staticSourceRoot).split(path.sep).join("/"),
+    main_part: mainPart ? mainPart.name : null, main_memory_paths: mainMemoryPaths,
+    discovered, parse_ms: parseMs, parse_concurrency_actual: concurrency, schedule,
+  }
+}
 
 /**
  * Join the in-build ledger with the post-emit census into per-emitter records.
@@ -517,7 +532,7 @@ console.log(
  * (V's addendum): a claim with no file, a file with no claim, and a path claimed by two emitters
  * are three different defects with three different causes.
  */
-function joinRecords(captured, outDir, opts) {
+export function joinRecords(captured, outDir, opts) {
   const { claims, census } = captured
   const returns = captured.returns ?? {}
   const receipts = captured.receipts ?? []
@@ -529,7 +544,7 @@ function joinRecords(captured, outDir, opts) {
   // is the one bucket we already expect to be non-empty.
   const parts = captured.parts ?? []
   const workerParts = parts.filter((pt) => pt.threadId !== null && pt.threadId > 0)
-  const expected = opts.expectParts ?? (workerParts.length > 0 ? opts.concurrency + 1 : null)
+  const expected = opts.expectParts ?? (captured.schedule ? 1 + captured.schedule.workerThreads : workerParts.length > 0 ? opts.concurrency + 1 : null)
   if (expected !== null && parts.length !== expected) {
     problems.push(
       `expected exactly ${expected} ledger parts (1 main + ${expected - 1} worker threads), got ` +
@@ -552,13 +567,14 @@ function joinRecords(captured, outDir, opts) {
   // ---- 2. SHARD ROSTER FROM DISPATCH, NOT FROM SURVIVORS -----------------------------------
   // Deriving the expected shard set from whichever receipts arrived makes a lost shard
   // unfalsifiable: the roster shrinks to fit the evidence and always agrees with it. The roster
-  // is therefore {0 .. concurrency-1}, taken from the DISPATCH PARAMETER this capture passed to
-  // the build, and a missing shard is a shortfall against that.
-  const shardedNames = [...new Set(receipts.filter((r) => r.shard !== null && r.shard !== undefined).map((r) => r.receipt))]
+  // is taken from the real dispatch schedule when the driver supplies it. The legacy isolated
+  // capture falls back to {0 .. concurrency-1}. Neither roster is inferred from survivors;
+  // the schedule also handles a tiny corpus dispatching fewer shards than its concurrency.
+  const shardedNames = [...new Set([...Object.keys(captured.schedule?.shards ?? {}), ...receipts.filter((r) => r.shard !== null && r.shard !== undefined).map((r) => r.receipt)])]
   const shardRoster = {}
   for (const name of shardedNames) {
     const got = receipts.filter((r) => r.receipt === name && r.shard !== null).map((r) => r.shard).sort((x, y) => x - y)
-    const want = Array.from({ length: opts.concurrency }, (_, i) => i)
+    const want = captured.schedule ? (captured.schedule.shards[name] ?? []) : Array.from({ length: opts.concurrency }, (_, i) => i)
     shardRoster[name] = { expected: want, observed: got }
     const missing = want.filter((i) => !got.includes(i))
     const extra = got.filter((i) => !want.includes(i))
@@ -707,6 +723,7 @@ function joinRecords(captured, outDir, opts) {
       provenance: {
         git_head: head,
         inputs: contentProv,
+        ...(opts.provenance ?? {}),
         // THE RECEIPTS BEHIND `emitter_runs: 1`. One per completed shard for a sharded emitter,
         // one for a main-thread emitter; written only after the emitter's promise resolved.
         return_entries: returnEntries
@@ -754,11 +771,14 @@ function joinRecords(captured, outDir, opts) {
         inventory: {
           method: "in-build AsyncLocalStorage ledger (attribution) joined by path with a post-emit filesystem walk (size+sha256)",
           capture_commit: head,
+          boundary: "after all raw emitters settle, before post-processors",
+          capture_id: captured.capture_id ?? null,
+          schedule: captured.schedule ?? null,
           ledger_parts: (captured.raw_witness ?? []).map((w) => ({ file: "_raw/" + w.file, bytes: w.bytes, sha256: w.sha256 })),
           census: { file: "_raw/census.json", entries: Object.keys(census).length, sha256: censusSha },
           hardlinks: false,
         },
-        producer: `scripts/emit_seam_capture.mjs --join (stream B, D-B-05) -> ${emitter}`,
+        producer: `${opts.producer ?? "scripts/emit_seam_capture.mjs --join (stream B, D-B-05)"} -> ${emitter}`,
         execution:
           "ONE build through the real emitContent; ATTRIBUTION from the in-build ledger, " +
           "INVENTORY from a census taken after all raw emitters settled and BEFORE any post-processor ran",
@@ -839,7 +859,7 @@ function joinRecords(captured, outDir, opts) {
     JSON.stringify(
       { capture_commit: head, input_provenance: contentProv, output_root: captured.output_root,
         output_root_retained: Boolean(opts.retainOutput),
-        captured_by: "scripts/emit_seam_capture.mjs --join", partial: opts.limit > 0,
+        captured_by: opts.producer ?? "scripts/emit_seam_capture.mjs --join", partial: opts.limit > 0,
         limit: opts.limit || null, concurrency: opts.concurrency ?? null,
         ledger_parts: parts, expected_parts: expected, shard_roster: shardRoster,
         census: { file: "_raw/census.json", entries: Object.keys(census).length, sha256: censusSha },
@@ -1394,7 +1414,7 @@ function checkProvenance(dir) {
   return stale || contentStale ? 1 : 0
 }
 
-function seededRegions(staticSourceFiles) {
+export function seededRegions(staticSourceFiles) {
   if (!fs.existsSync(SEED_MANIFEST)) return []
   const m = JSON.parse(fs.readFileSync(SEED_MANIFEST, "utf8"))
   const present = Object.keys(staticSourceFiles).filter((p) => p.startsWith("neural/")).length

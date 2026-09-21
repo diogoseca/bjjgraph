@@ -13,9 +13,10 @@ import { VFile } from "vfile"
 import { runWorkerTasks, workerCount } from "./workerPool"
 import { BuildCtx } from "../util/ctx"
 import { gitDateMaps } from "../util/publication"
+import type { ParseObserver, ParseObserverReceipt } from "./parseObserver"
 
 export type QuartzProcessor = Processor<MDRoot, MDRoot, HTMLRoot>
-export function createProcessor(ctx: BuildCtx): QuartzProcessor {
+export function createProcessor(ctx: BuildCtx, observer?: ParseObserver): QuartzProcessor {
   const transformers = ctx.cfg.plugins.transformers
 
   return (
@@ -28,12 +29,23 @@ export function createProcessor(ctx: BuildCtx): QuartzProcessor {
       .use(
         transformers
           .filter((p) => p.markdownPlugins)
-          .flatMap((plugin) => plugin.markdownPlugins!(ctx)),
+          .flatMap((plugin) => [
+            ...plugin.markdownPlugins!(ctx),
+            ...(observer ? [observer.after("markdown", plugin.name)] : []),
+          ]),
       )
       // MD AST -> HTML AST
       .use(remarkRehype, { allowDangerousHtml: true })
+      .use(observer ? [observer.after("bridge", "remark-rehype")] : [])
       // HTML AST -> HTML AST transforms
-      .use(transformers.filter((p) => p.htmlPlugins).flatMap((plugin) => plugin.htmlPlugins!(ctx)))
+      .use(
+        transformers
+          .filter((p) => p.htmlPlugins)
+          .flatMap((plugin) => [
+            ...plugin.htmlPlugins!(ctx),
+            ...(observer ? [observer.after("html", plugin.name)] : []),
+          ]),
+      )
   )
 }
 
@@ -43,12 +55,14 @@ function* chunks<T>(arr: T[], n: number) {
   }
 }
 
-export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
+export function createFileParser(ctx: BuildCtx, fps: FilePath[], observer?: ParseObserver) {
   const { argv, cfg } = ctx
   return async (processor: QuartzProcessor) => {
     const res: ProcessedContent[] = []
     for (const fp of fps) {
+      let observedComplete = false
       try {
+        observer?.begin(fp)
         const perf = new PerfTimer()
         const file = await read(fp)
 
@@ -58,6 +72,7 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         // Text -> Text transforms
         for (const plugin of cfg.plugins.transformers.filter((p) => p.textTransform)) {
           file.value = plugin.textTransform!(ctx, file.value.toString())
+          observer?.text(plugin.name, file.value)
         }
 
         // base data properties that plugins may use
@@ -66,14 +81,18 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         file.data.slug = slugifyFilePath(file.data.relativePath)
 
         const ast = processor.parse(file)
+        observer?.parsed(ast, file)
         const newAst = await processor.run(ast, file)
         res.push([newAst, file])
+        observedComplete = true
 
         if (argv.verbose) {
           console.log(`[process] ${fp} -> ${file.data.slug} (${perf.timeSince()})`)
         }
       } catch (err) {
         throw new Error(`Failed to process \`${fp}\``, { cause: err })
+      } finally {
+        observer?.end(observedComplete)
       }
     }
 
@@ -99,6 +118,15 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
   log.start(`Parsing input files`)
   let summary: string | undefined
   try {
+    // Disabled observers do not load the writer, inspect inputs, or touch capture storage.
+    const observation = process.env.BJJ_PARSE_OBSERVER ? await import("./parseObserver") : undefined
+    const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
+    const observerInit = observation?.prepareParseObserver(
+      ctx,
+      concurrency,
+      concurrency === 1 ? fps.length : size,
+    )
+    const receipts: ParseObserverReceipt[] = []
     // X-01: collect once on the host for both paths (including rebuilds). Repeating
     // history walks in workers reintroduces per-worker Git contention (D-197).
     if (ctx.cfg.plugins.transformers.some((plugin) => plugin.name === "CreatedModifiedDate")) {
@@ -109,13 +137,17 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
     }
     let result: ProcessedContent[]
     if (concurrency === 1) {
-      result = await createFileParser(ctx, fps)(createProcessor(ctx))
+      const observer = observerInit
+        ? await observation!.createParseObserver(ctx, observerInit, "main")
+        : undefined
+      result = await createFileParser(ctx, fps, observer)(createProcessor(ctx, observer))
+      if (observer) receipts.push(observer.finish())
     } else {
-      const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
       const groups = [...chunks(fps, size)]
       const results = await runWorkerTasks<ProcessedContent[]>(
         {
           phase: "parse",
+          observer: observerInit,
           buildId: ctx.buildId,
           argv: ctx.argv,
           allSlugs: ctx.allSlugs,
@@ -125,12 +157,19 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
         },
         groups,
         concurrency,
+        observerInit
+          ? (receipt, id) => {
+              observation!.assertParseReceipt(observerInit, receipt!, groups[id].length)
+              receipts.push(receipt!)
+            }
+          : undefined,
       )
       result = restoreContent(results.flat())
     }
     if (result.length !== fps.length) {
       throw new Error(`Parse coverage ${result.length}/${fps.length}: refusing a partial site`)
     }
+    if (observerInit) observation!.finishParseObservation(ctx, observerInit, fps.length, receipts)
     summary = `Parsed ${result.length}/${fps.length} Markdown files in ${perf.timeSince()}`
     return result
   } finally {

@@ -124,7 +124,11 @@ function validateShards(content: ProcessedContent[], shards: EmitShard[], concur
   )
 }
 
+export type EmitSchedule = { workerThreads: number; shards: Record<string, number[]> }
+
 export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
+  // Observer expectations come from dispatch, never from whichever receipts survive.
+  const schedule: EmitSchedule = { workerThreads: 0, shards: {} }
   // D-49: components read OTHER pages through allFiles (dates/title for sorting, tags
   // for indexes, slugs for navigation). Every entry must be fully transformed before emit;
   // never lazily fill metadata only for the page currently rendering.
@@ -210,6 +214,11 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
       validateShards(content, shards, concurrency)
       return shards.map((shard, shardIndex) => serializeShard(shard, index, shardIndex))
     })
+    schedule.workerThreads = Math.min(concurrency, tasks.length)
+    for (const task of tasks) {
+      const name = cfg.plugins.emitters[task.emitter].name
+      ;(schedule.shards[name] ??= []).push(task.shardIndex)
+    }
     const totalBytes = tasks.reduce((sum, task) => sum + task.content.byteLength, 0)
     const maxBytes = tasks.reduce((max, task) => Math.max(max, task.content.byteLength), 0)
     console.log(
@@ -261,4 +270,5 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   // requires a positive input-entry count; do not demand graph payloads from 404/tag workers.
   if (content.length > 0 && rendered === 0) throw new Error("Render coverage is zero")
   console.log(`Emitted ${emitted} reported paths to ${argv.output}; filesystem census is separate`)
+  return schedule
 }

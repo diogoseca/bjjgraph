@@ -10,6 +10,7 @@ import { createFileParser, createProcessor, restoreContent } from "./processors/
 import { options } from "./util/sourcemap"
 import type { EmitShard, EmitTask, WorkerInit } from "./processors/workerPool"
 import type { ProcessedContent } from "./plugins/vfile"
+import type { ParseObserver } from "./processors/parseObserver"
 import { getRenderCoverage, resetRenderState } from "./components/renderPage"
 
 sourceMapSupport.install(options)
@@ -24,6 +25,7 @@ export async function parseFiles(
   gitPublicationDates?: Record<string, string>,
   gitModifiedDates?: Record<string, string>,
   gitModifiedDatesFromMerge?: Record<string, true>,
+  observer?: ParseObserver,
 ) {
   // Legacy four-argument callers leave these undefined and retain transformer fallbacks.
   // Native parse workers receive the host's complete maps, including merge-origin flags.
@@ -36,7 +38,7 @@ export async function parseFiles(
     gitModifiedDates,
     gitModifiedDatesFromMerge,
   }
-  return createFileParser(ctx, fps)(createProcessor(ctx))
+  return createFileParser(ctx, fps, observer)(createProcessor(ctx, observer))
 }
 
 function validateEmitShard(
@@ -247,6 +249,13 @@ if (parentPort && workerData) {
   parentPort.on("message", async ({ id, task }) => {
     try {
       if (init.phase === "parse") {
+        // The host provides one shared atomic budget; every part returns counts/bytes only.
+        // Parsed tuples still use the existing native handoff with their live tree aliases.
+        const observer = init.observer
+          ? await (
+              await import("./processors/parseObserver")
+            ).createParseObserver(ctx, init.observer, String(id))
+          : undefined
         const result = await parseFiles(
           init.buildId,
           init.argv,
@@ -255,8 +264,13 @@ if (parentPort && workerData) {
           init.gitPublicationDates,
           init.gitModifiedDates,
           init.gitModifiedDatesFromMerge,
+          observer,
         )
-        parentPort!.postMessage({ id, result })
+        parentPort!.postMessage({
+          id,
+          result,
+          ...(observer ? { observerReceipt: observer.finish() } : {}),
+        })
       } else {
         const emitTask = task as EmitTask
         const { emitter: index, content: shared, shardIndex } = emitTask
