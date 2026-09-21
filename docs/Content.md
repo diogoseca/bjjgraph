@@ -334,9 +334,24 @@ That is not permission to publish placeholders.
   with independent disclosures for the rest. A drill needs setup, action, and a reset or stop
   condition; submission drills emphasize cooperative recognition and control without resisted
   joint or neck finishing pressure. The schema enforces section and entry length limits.
-- **Learning:** author the category, key takeaways, BJJ applications, common mistakes, training
-  exercises, `knowledge_assessment`, and related content. This type uses `knowledge_assessment`,
-  unlike technique role decks. External `references` are optional.
+- **Learning:** answer one practical question for regular practitioners; keep introductory guides
+  accessible to beginners. Use a one-sentence summary (at most 260 characters) and a distinct
+  one- or two-sentence introduction (30–450 characters). Prefer recognizable situations, decisions,
+  and useful limitations to repeated definitions or motivational padding. Overlapping articles
+  need different purposes, not different wording for the same advice.
+  Author 3–5 takeaways, 2–4 examples with observable outcomes, 1–3 mistakes with corrections, and
+  1–2 exercises with setup, action, and reset or stop conditions. Optional `knowledge_assessment`
+  contains at most four question/answer pairs inside the reader; it does not create a scored deck.
+  Remove invented precision, guaranteed results, and unsupported progression promises. Cite only
+  relevant primary sources actually inspected; external `references` are optional, not decoration.
+  Optional `display_title` changes reader labels while `name`, filename, URL and dossier key stay
+  stable. The app and static page share complete edited text, including example outcomes, assessment,
+  sources and resolved related reading links to Learning, Principles and Systems. Never silently clip
+  Learning prose to fit a payload: edit the source within schema limits and preserve payload budgets.
+  Initially show 3 takeaways, 2 examples, 2 mistakes and 1 exercise, with independent native
+  disclosures for the remainder. Self-assessment answers, the technique browser and sources start
+  collapsed. Related reading precedes the technique browser. Omit empty sections; do not send a
+  reader elsewhere to read the full article. Static disclosures must work without JavaScript.
 
 ## Flashcards
 

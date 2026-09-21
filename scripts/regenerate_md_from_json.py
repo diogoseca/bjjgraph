@@ -332,6 +332,7 @@ def _jsonstr(v):
 
 
 from _system_guides import canonical_course_url, related_references, resolved_guide, is_bjjfanatics_url, guide_relationship
+from _learning import reading_index, related_readings
 
 _JINJA_ENV = Environment()
 _JINJA_ENV.filters["canonical_course_url"] = canonical_course_url
@@ -358,6 +359,9 @@ def _quartz_url_slug(name: str) -> str:
     s = s.replace('&', '-and-').replace('%', '-percent').replace('?', '').replace('#', '')
     s = re.sub(r'\s+', '-', s)
     return s
+
+
+_JINJA_ENV.filters["quartz_url_slug"] = _quartz_url_slug
 
 
 def _with_utm(url, system_name='', product_id=''):
@@ -687,6 +691,12 @@ def generate_markdown(json_data, template, resolve_fn=None):
         if json_data.get("guide"):
             kwargs["guide"] = resolved_guide(json_data, Path("content"), _quartz_url_slug)
             kwargs["references"] = related_references(json_data, Path("content"), _quartz_url_slug)
+        if "key_takeaways" in json_data:
+            links, missing = related_readings(json_data, reading_index(Path("content"), _quartz_url_slug))
+            if missing:
+                raise ValueError(f"{json_data.get('name')}: unresolved related reading: {', '.join(missing)}")
+            own_url = "/Learning/" + _quartz_url_slug(json_data.get("name", ""))
+            kwargs["reading_links"] = [link for link in links if link["url"] != own_url]
         if resolve_fn is not None:
             kwargs['resolve'] = resolve_fn
         return template.render(**kwargs)

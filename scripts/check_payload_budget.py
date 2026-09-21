@@ -146,6 +146,8 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 #     at boot, never prefetched — a prefetch would put it back on the first-hand bill. The
 #     browser gate bans it from boot by name (payload-first-hand.spec.ts BANNED_ON_BOOT), and
 #     neural/build/build.mjs asserts its rules are present there AND absent from neural.css.
+#   · app/reference.css — Systems, Principles and Learning styles, fetched only when a
+#     reference index is requested. The browser gate likewise bans this stylesheet at boot.
 # ONE ENTRY PER LINE, and the trailing comma is load-bearing: every branch that defers a new
 # artifact then ADDS a line instead of rewriting the one line everybody else also rewrote.
 # Two branches invented a deferred stylesheet a week apart and collided here on nothing.
@@ -154,6 +156,7 @@ DEFERRED = (
     "concepts.json",
     "aliases.json",
     "app/reading.css",
+    "app/reference.css",
 )
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw

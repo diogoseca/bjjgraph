@@ -29,139 +29,157 @@ description: "Level up your BJJ with strategy, training methods, and competition
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Asymmetric Warfare",
+      "name": "Choose the exchange",
       "url": "https://bjjgraph.org/Learning/asymmetric-warfare"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Committed Techniques",
-      "url": "https://bjjgraph.org/Learning/committed-techniques"
+      "name": "Your first useful steps in BJJ",
+      "url": "https://bjjgraph.org/Learning/bjj-for-beginners-roadmap"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Conscious Mastery",
-      "url": "https://bjjgraph.org/Learning/conscious-mastery"
+      "name": "Choose a guard you can use",
+      "url": "https://bjjgraph.org/Learning/bjj-guard-types-explained"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "Defend With Purpose",
-      "url": "https://bjjgraph.org/Learning/defend-with-purpose"
+      "name": "Understand the position you are in",
+      "url": "https://bjjgraph.org/Learning/bjj-position-hierarchy-explained"
     },
     {
       "@type": "ListItem",
       "position": 5,
-      "name": "Double Down on Strengths",
-      "url": "https://bjjgraph.org/Learning/double-down-on-strengths"
+      "name": "Attack with a fallback",
+      "url": "https://bjjgraph.org/Learning/committed-techniques"
     },
     {
       "@type": "ListItem",
       "position": 6,
-      "name": "Economy of Motion",
-      "url": "https://bjjgraph.org/Learning/economy-of-motion"
+      "name": "Know what you are looking for",
+      "url": "https://bjjgraph.org/Learning/conscious-mastery"
     },
     {
       "@type": "ListItem",
       "position": 7,
-      "name": "Funneling",
-      "url": "https://bjjgraph.org/Learning/funneling"
+      "name": "Give your defense a next step",
+      "url": "https://bjjgraph.org/Learning/defend-with-purpose"
     },
     {
       "@type": "ListItem",
       "position": 8,
-      "name": "Investing in Loss",
-      "url": "https://bjjgraph.org/Learning/investing-in-loss"
+      "name": "Build around a reliable game",
+      "url": "https://bjjgraph.org/Learning/double-down-on-strengths"
     },
     {
       "@type": "ListItem",
       "position": 9,
-      "name": "Layers of Guard",
-      "url": "https://bjjgraph.org/Learning/layers-of-guard"
+      "name": "Make each movement count",
+      "url": "https://bjjgraph.org/Learning/economy-of-motion"
     },
     {
       "@type": "ListItem",
       "position": 10,
-      "name": "Mask Your Intentions",
-      "url": "https://bjjgraph.org/Learning/mask-your-intentions"
+      "name": "Narrow their options",
+      "url": "https://bjjgraph.org/Learning/funneling"
     },
     {
       "@type": "ListItem",
       "position": 11,
-      "name": "Path of Least Resistance",
-      "url": "https://bjjgraph.org/Learning/path-of-least-resistance"
+      "name": "Make a bad round useful",
+      "url": "https://bjjgraph.org/Learning/investing-in-loss"
     },
     {
       "@type": "ListItem",
       "position": 12,
-      "name": "Pattern Interrupts",
-      "url": "https://bjjgraph.org/Learning/pattern-interrupts"
+      "name": "Keep a barrier between you",
+      "url": "https://bjjgraph.org/Learning/layers-of-guard"
     },
     {
       "@type": "ListItem",
       "position": 13,
-      "name": "Phases of Guard",
-      "url": "https://bjjgraph.org/Learning/phases-of-guard"
+      "name": "Hide the next attack",
+      "url": "https://bjjgraph.org/Learning/mask-your-intentions"
     },
     {
       "@type": "ListItem",
       "position": 14,
-      "name": "Phases of Passing",
-      "url": "https://bjjgraph.org/Learning/phases-of-passing"
+      "name": "Work around the defense",
+      "url": "https://bjjgraph.org/Learning/path-of-least-resistance"
     },
     {
       "@type": "ListItem",
       "position": 15,
-      "name": "Position Over Submission",
-      "url": "https://bjjgraph.org/Learning/position-over-submission"
+      "name": "Change the rhythm",
+      "url": "https://bjjgraph.org/Learning/pattern-interrupts"
     },
     {
       "@type": "ListItem",
       "position": 16,
-      "name": "Predictable Responses",
-      "url": "https://bjjgraph.org/Learning/predictable-responses"
+      "name": "Know what your guard needs",
+      "url": "https://bjjgraph.org/Learning/phases-of-guard"
     },
     {
       "@type": "ListItem",
       "position": 17,
-      "name": "Prevention Over Cure",
-      "url": "https://bjjgraph.org/Learning/prevention-over-cure"
+      "name": "Finish the pass you started",
+      "url": "https://bjjgraph.org/Learning/phases-of-passing"
     },
     {
       "@type": "ListItem",
       "position": 18,
-      "name": "Probabilistic Thinking",
-      "url": "https://bjjgraph.org/Learning/probabilistic-thinking"
+      "name": "Keep control while you attack",
+      "url": "https://bjjgraph.org/Learning/position-over-submission"
     },
     {
       "@type": "ListItem",
       "position": 19,
-      "name": "Static vs Dynamic Control",
-      "url": "https://bjjgraph.org/Learning/static-vs-dynamic-control"
+      "name": "Read the response",
+      "url": "https://bjjgraph.org/Learning/predictable-responses"
     },
     {
       "@type": "ListItem",
       "position": 20,
-      "name": "Technique Chaining",
-      "url": "https://bjjgraph.org/Learning/technique-chaining"
+      "name": "Notice trouble earlier",
+      "url": "https://bjjgraph.org/Learning/prevention-over-cure"
     },
     {
       "@type": "ListItem",
       "position": 21,
-      "name": "Timing Windows",
-      "url": "https://bjjgraph.org/Learning/timing-windows"
+      "name": "Choose with the downside in mind",
+      "url": "https://bjjgraph.org/Learning/probabilistic-thinking"
     },
     {
       "@type": "ListItem",
       "position": 22,
-      "name": "Training Intensity",
-      "url": "https://bjjgraph.org/Learning/training-intensity"
+      "name": "Hold when you can, move when you need to",
+      "url": "https://bjjgraph.org/Learning/static-vs-dynamic-control"
     },
     {
       "@type": "ListItem",
       "position": 23,
-      "name": "Training Partner Diversity",
+      "name": "Connect your attacks",
+      "url": "https://bjjgraph.org/Learning/technique-chaining"
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "name": "Recognize the opening",
+      "url": "https://bjjgraph.org/Learning/timing-windows"
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "name": "Choose the right pace",
+      "url": "https://bjjgraph.org/Learning/training-intensity"
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "name": "Learn from different partners",
       "url": "https://bjjgraph.org/Learning/training-partner-diversity"
     }
   ]
@@ -193,96 +211,108 @@ Level up your BJJ with strategy, training methods, and competition tactics. Lear
 
 
 
-### [[Learning/Asymmetric Warfare|Asymmetric Warfare]]
+### [[Learning/Asymmetric Warfare|Choose the exchange]]
 
-Master the BJJ strategy of attacking where your opponent is weakest. Learn to identify defensive gaps, exploit skill imbalances, and funnel the match into your strengths.
+Choose BJJ exchanges that suit the skills you can actually reach and use. Test your read of a partner, plan an entry, and change course when the matchup demands it.
 
-### [[Learning/Committed Techniques|Committed Techniques]]
+### [[Learning/BJJ For Beginners Roadmap|Your first useful steps in BJJ]]
 
-Learn why choosing BJJ techniques with high position retention on failure separates smart grapplers from reckless ones. Favor moves that keep you safe when they do not work.
+Start BJJ with a practical guide to recognizing positions, learning a small set of connected actions, asking useful questions, and reviewing your rounds.
 
-### [[Learning/Conscious Mastery|Conscious Mastery]]
+### [[Learning/BJJ Guard Types Explained|Choose a guard you can use]]
 
-Learn how tiered BJJ flashcards -- family, position, and role level -- plus the knowledge graph build conscious mastery: instant, deliberate recall at grandmaster speed.
+Choose a BJJ guard by the connections you can establish, the passes you meet, and the recovery you can make, with practical examples for gi and no-gi.
 
-### [[Learning/Defend With Purpose|Defend With Purpose]]
+### [[Learning/BJJ Position Hierarchy Explained|Understand the position you are in]]
 
-Why passive survival is not real defense in BJJ. Every defensive action must advance you toward a better position. Defense chains that actually escape bad positions.
+Recognize BJJ positions from both sides, choose a useful next goal, and distinguish practical control from the specific actions rewarded by competition points.
 
-### [[Learning/Double Down on Strengths|Double Down on Strengths]]
+### [[Learning/Committed Techniques|Attack with a fallback]]
 
-Learn why depth beats breadth in BJJ game development. Discover how building a devastating A-game and funneling opponents into your strengths creates consistent winning results.
+Build BJJ attacks that preserve useful control when defended by practicing the entry, the likely response, and the position where you intend to recover.
 
-### [[Learning/Economy of Motion|Economy of Motion]]
+### [[Learning/Conscious Mastery|Know what you are looking for]]
 
-Discover why the most effective BJJ players move less, not more. Learn how minimal movement and maximum efficiency let smaller grapplers dominate larger opponents on the mat.
+Connect BJJ study to live practice by naming a positional cue, choosing a response, and reviewing what actually happened when a partner resisted you.
 
-### [[Learning/Funneling|Funneling]]
+### [[Learning/Defend With Purpose|Give your defense a next step]]
 
-Master BJJ funneling strategy. Systematically reduce opponent options through grips, positions, and sequences that force the fight into your strongest area.
+Turn frames and grip fights into progress toward an escape. Learn to choose a reachable next position, protect it, and recognize when stopping is the right response.
 
-### [[Learning/Investing in Loss|Investing in Loss]]
+### [[Learning/Double Down on Strengths|Build around a reliable game]]
 
-The psychology of being behind in BJJ competition and how to use loss as a systematic improvement tool. Turning bad positions into training advantages.
+Build a BJJ game around positions you can reach and use, then improve the entries, answers, and recoveries that keep your strongest sequence available.
 
-### [[Learning/Layers of Guard|Layers of Guard]]
+### [[Learning/Economy of Motion|Make each movement count]]
 
-Understand guard as a multi-layered defensive system in BJJ. Learn how feet, knees, frames, and underhooks create concentric barriers that must be peeled one at a time.
+Use purposeful grips, frames, and weight shifts in BJJ to reduce repeated effort, while keeping the movement and urgency that a changing position needs.
 
-### [[Learning/Mask Your Intentions|Mask Your Intentions]]
+### [[Learning/Funneling|Narrow their options]]
 
-Learn how feints, misdirection, and setups make BJJ techniques effective. Discover why telegraphing kills submissions and how to disguise your true attacks on the mat.
+Use grips and position to limit a partner’s useful choices without assuming a forced reaction. Practice one clear route and keep control when a different answer appears.
 
-### [[Learning/Path of Least Resistance|Path of Least Resistance]]
+### [[Learning/Investing in Loss|Make a bad round useful]]
 
-Master the BJJ principle of going around obstacles rather than through them. Learn to read defensive barriers, redirect your attacks, and choose efficient routes on the mat.
+Turn a difficult BJJ round into useful practice by finding an earlier decision, setting a narrow task, and testing one adjustment from the same position.
 
-### [[Learning/Pattern Interrupts|Pattern Interrupts]]
+### [[Learning/Layers of Guard|Keep a barrier between you]]
 
-Learn how to break your opponent's pre-programmed BJJ responses with tempo changes, unusual grips, and unexpected angles. Disrupt their automatic reactions to gain advantage.
+Understand how feet, knees, and arm frames protect your guard at different distances, then practice replacing a lost barrier before the passer controls your torso.
 
-### [[Learning/Phases of Guard|Phases of Guard]]
+### [[Learning/Mask Your Intentions|Hide the next attack]]
 
-Understand the three distinct phases of guard play in BJJ: engagement, maintenance, and retention. Learn different strategies and techniques required for each phase of guard work.
+Build attacks that share grips and starting movements so your next choice is harder to read. Use credible threats, controlled changes, and a clear positional fallback.
 
-### [[Learning/Phases of Passing|Phases of Passing]]
+### [[Learning/Path of Least Resistance|Work around the defense]]
 
-Master the three phases of guard passing in BJJ: disentangle, control, and consolidate. Learn why rushing steps causes failure and how to pass systematically against any guard.
+Choose a new angle or target when a BJJ attack meets a strong barrier. Learn what to keep, what to change, and when rebuilding control is better than switching moves.
 
-### [[Learning/Position Over Submission|Position Over Submission]]
+### [[Learning/Pattern Interrupts|Change the rhythm]]
 
-Learn why securing dominant position before attacking submissions is the most reliable path to victory in BJJ. Master the positional hierarchy.
+Use a measured pause, a direction change, or a different entry to test a familiar response. Keep your position sound and judge the change by what it actually opens.
 
-### [[Learning/Predictable Responses|Predictable Responses]]
+### [[Learning/Phases of Guard|Know what your guard needs]]
 
-Learn how to exploit common defensive reactions in BJJ. When you push, they pull. When you pull, they push. Master the action-reaction chains that create openings on the mat.
+Work out when to build connections, attack, or recover your guard. Use concrete cues and positional rounds to change priorities before a pass settles into a pin.
 
-### [[Learning/Prevention Over Cure|Prevention Over Cure]]
+### [[Learning/Phases of Passing|Finish the pass you started]]
 
-Learn why early defense in BJJ is far more effective than late escapes. Discover how hand fighting and proactive positioning prevent bad positions.
+Break down a guard pass into clearing connections, moving beyond the legs, and settling control. Find where your passes fail and practice that part of the exchange.
 
-### [[Learning/Probabilistic Thinking|Probabilistic Thinking]]
+### [[Learning/Position Over Submission|Keep control while you attack]]
 
-Learn probabilistic thinking in BJJ: choose high-percentage techniques, weigh risk against reward, and make smarter decisions on the mat under match pressure.
+Connect BJJ submissions to the controls they need, recognize when an entry gives too much away, and practice keeping position as your partner defends.
 
-### [[Learning/Static vs Dynamic Control|Static vs Dynamic Control]]
+### [[Learning/Predictable Responses|Read the response]]
 
-Understand when to hold position vs when to flow in BJJ. Learn the strategic differences between heavy pinning control and transitional movement-based control on the mat.
+Learn to recognize a partner’s actual response to your attack instead of assuming a reflex. Practice clear cues, two useful follow-ups, and a reset when control is lost.
 
-### [[Learning/Technique Chaining|Technique Chaining]]
+### [[Learning/Prevention Over Cure|Notice trouble earlier]]
 
-Learn why chaining techniques together creates unstoppable offense in BJJ. Master attack sequences, combination principles, and how to flow between sweeps, passes, and submissions.
+Recognize the first useful warning of a BJJ pass, pin, or submission setup, and practice intervening while you still have space and choices to work with.
 
-### [[Learning/Timing Windows|Timing Windows]]
+### [[Learning/Probabilistic Thinking|Choose with the downside in mind]]
 
-Master BJJ timing. Learn to recognize transition moments, weight shifts, and breath cycles that create momentary openings for attacks and escapes.
+Compare BJJ options by the control you have, the responses you expect, and where failure leaves you, without treating a small training sample as certainty.
 
-### [[Learning/Training Intensity|Training Intensity]]
+### [[Learning/Static vs Dynamic Control|Hold when you can, move when you need to]]
 
-How to manage speed, energy, and intensity across BJJ training, competition, and self-defense. The 80% capacity principle and stress inoculation for combat sports.
+Learn when to settle a pin and when to change position as frames appear. Practice staying connected through transitions without turning every escape into a scramble.
 
-### [[Learning/Training Partner Diversity|Training Partner Diversity]]
+### [[Learning/Technique Chaining|Connect your attacks]]
 
-Why training with the same partners creates blind spots in your BJJ game. Seek varied body types, styles, and skill levels to build a complete game.
+Build short BJJ combinations around real defensive cues and shared controls. Practice the handoff between actions, including how to stop when the next move is unavailable.
+
+### [[Learning/Timing Windows|Recognize the opening]]
+
+Find usable moments during a grip change, weight shift, or transition. Practice recognizing when an opening begins and ends without relying on speed or a lucky guess.
+
+### [[Learning/Training Intensity|Choose the right pace]]
+
+Choose a useful pace for BJJ practice by agreeing on resistance, speed, and goals with your partner, then adjusting the round when the task breaks down.
+
+### [[Learning/Training Partner Diversity|Learn from different partners]]
+
+Use different BJJ training partners to test a specific skill, notice which reactions change, and separate a useful adjustment from a familiar shortcut.
 
 

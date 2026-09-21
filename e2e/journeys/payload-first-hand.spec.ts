@@ -98,6 +98,7 @@ const BANNED_ON_BOOT = [
   /\/flashcards\.json(\?|$)/,
   /\/technique-content\.js(\?|$)/,
   /\/reading\.css(\?|$)/,
+  /\/reference\.css(\?|$)/,
 ]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({

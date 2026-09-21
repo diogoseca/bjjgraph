@@ -192,7 +192,8 @@ class CategoryHubPageGenerator:
                     description=description,
                     category=data.get('system_type') if category_name == 'Systems' else inferred_category,
                     file_path=str(json_file),
-                    display_name=data.get('guide', {}).get('display_title') if category_name == 'Systems' else None
+                    display_name=(data.get('guide', {}).get('display_title') if category_name == 'Systems'
+                                  else data.get('display_title') if category_name == 'Learning' else None)
                 )
                 items.append(item)
                 
