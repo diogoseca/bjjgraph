@@ -637,6 +637,15 @@ function joinRecords(captured, outDir, opts) {
   // returned is exactly the "literal 1" defect in another costume, so the receipt is required
   // before the record exists at all.
   for (const name of names) {
+    // An empty emitter with no AUTHORED reason is a failed capture, not an observation — the
+    // same refusal the isolated path has always made. Without this, a generated reason would
+    // explain away any emitter that silently stopped producing.
+    if ((claims[name] ?? []).length === 0 && !(name in EXPECTED_EMPTY_REASONS)) {
+      problems.push(
+        `${name}: produced ZERO files and is not a known-empty emitter. That is a failed capture, ` +
+          `not an observation; refusing to write a record that would read like coverage.`,
+      )
+    }
     if (!receipts.some((r) => r.receipt === name)) {
       problems.push(`${name}: configured but NO completed-execution receipt — cannot publish a record for a run that never finished`)
     }
@@ -714,8 +723,8 @@ function joinRecords(captured, outDir, opts) {
               // off the same absence as "never ran".
               empty_output: {
                 reason:
-                  `${emitter} completed ${rcpts.length} run(s) and wrote no file: this corpus ` +
-                  `contains nothing in its scope. Empty BY SCOPE, not by failure.`,
+                  `${emitter} completed ${rcpts.length} run(s) and wrote no file. ` +
+                  EXPECTED_EMPTY_REASONS[emitter],
                 evidence: {
                   receipts: rcpts.map((r) => ({ shard: r.shard, seq: r.seq, wrote: r.wrote, returned: r.returned })),
                   discovered_all: captured.discovered?.all ?? 0,
@@ -726,7 +735,22 @@ function joinRecords(captured, outDir, opts) {
           : {}),
         // WHERE THE BYTES CAME FROM, so a reader can re-derive this record independently instead
         // of taking its word for the inventory.
+        // DECLARED WITH ITS LIFETIME. Publishing a bare path implies a witness a reader can
+        // stat; the full-corpus capture's work directory was deleted by its own wrapper, so
+        // joined-full1 named an output_root that returned ENOENT to V. A path that may not
+        // outlive the record must say so in the record, not in a wrapper script.
         output_root: captured.output_root,
+        output_root_retained: Boolean(opts.retainOutput),
+        ...(opts.retainOutput
+          ? {}
+          : {
+              output_root_note:
+                "EPHEMERAL: this capture ran into a temporary work directory and did not claim " +
+                "it. Treat output_root as a label, not a witness — independent filesystem " +
+                "re-derivation is NOT possible from this record. The retained ledger parts and " +
+                "census under _raw/ are the durable evidence. Re-run with --retain-output for a " +
+                "capture whose tree survives.",
+            }),
         inventory: {
           method: "in-build AsyncLocalStorage ledger (attribution) joined by path with a post-emit filesystem walk (size+sha256)",
           capture_commit: head,
@@ -814,6 +838,7 @@ function joinRecords(captured, outDir, opts) {
     path.join(outDir, "_CAPTURE.json"),
     JSON.stringify(
       { capture_commit: head, input_provenance: contentProv, output_root: captured.output_root,
+        output_root_retained: Boolean(opts.retainOutput),
         captured_by: "scripts/emit_seam_capture.mjs --join", partial: opts.limit > 0,
         limit: opts.limit || null, concurrency: opts.concurrency ?? null,
         ledger_parts: parts, expected_parts: expected, shard_roster: shardRoster,
@@ -870,6 +895,7 @@ function runJoin(val, has) {
 
   const r = joinRecords(captured, outDir, {
     limit, concurrency, expectParts,
+    retainOutput: has("--retain-output"),
     publishAnyway: has("--publish-anyway"),
     seeded: seededRegions(captured.copy_source_files ?? {}),
   })
@@ -1029,6 +1055,29 @@ function seedStatic(goldenStaticNeural) {
 // Every input an emit-seam record's bytes depend on. Maintained HERE, beside the producer, so it
 // cannot drift from what the capture actually reads — a list of paths kept in a report drifts the
 // first time an emitter gains an import.
+/**
+ * THE ONLY WORDING FOR A LEGITIMATELY EMPTY EMITTER, read by BOTH capture paths.
+ *
+ * V found the joined path had dropped D-67's required clause — that an empty result does NOT
+ * prove the file-producing branch still works — because the joined path GENERATED a reason
+ * instead of reading this one. Two places answered "why is this empty" and the generated one was
+ * reassuring where the authored one is careful (CLAUDE.md 6.5). Worse, a generated reason works
+ * for ANY emitter, so an emitter that unexpectedly produced nothing would have received a
+ * plausible by-scope explanation rather than a refusal.
+ *
+ * An emitter absent from this map that produces zero files is a FAILED CAPTURE, not an
+ * observation, and both paths must refuse to write a record for it.
+ */
+const EXPECTED_EMPTY_REASONS = {
+  Assets:
+    "Measured property of this corpus, not a failed capture: Assets copies non-markdown files " +
+    "from content/ and every candidate is excluded — the .json files by the " +
+    '"**/!(bjj-graph).json" ignorePattern and the dot-paths by globby\'s dot:false default. ' +
+    "The emitter ran to completion and wrote nothing. This observation does NOT prove the " +
+    "emitter's file-producing branch still works; that branch has no corpus witness and is " +
+    "covered by the positive-floor fixture in tests/emitter_filesystem.test.mjs (D-51).",
+}
+
 const RECORD_INPUTS = [
   "source/quartz/plugins/emitters",
   "source/quartz/plugins/transformers",
@@ -1126,6 +1175,87 @@ export const contentFingerprint = (root = "content") => inputFingerprint([root])
  * (which under GOLDEN-RECAPTURE rule 3 is EXPECTED until the batched re-capture, not a
  * regression). 2 = no verdict.
  */
+/**
+ * `--repair-provenance DIR`: a SERIALIZER-ONLY repair of published records.
+ *
+ * WHY THIS EXISTS AND WHY IT IS DELIBERATELY NARROW (V's verdict on joined-full1 and sample5).
+ * Both artifacts carry an `empty_output.reason` that the joined path GENERATED instead of reading
+ * the authored one, so D-67's clause — that an empty result does not prove the emitter's
+ * file-producing branch still works — is missing. V ruled that metadata repair, not another
+ * build: the producer ran correctly and only the serialization of one field is wrong.
+ *
+ * THE RULES A REPAIR MUST OBEY, and they are the reason this is a separate mode rather than a
+ * flag on the capture:
+ *
+ *   * IT NEVER TOUCHES `data`. `data_sha256` is recomputed and asserted EQUAL afterwards — if the
+ *     repair changed a byte of the inventory or the returns, it fails rather than re-hashing. A
+ *     repair that can silently re-issue `data` is a re-capture wearing the original's name.
+ *   * IT NEVER RELABELS CAPTURE IDENTITY. `git_head` remains the PRODUCER-EXECUTION commit; the
+ *     repair adds `serialization_commit` separately, so a reader can tell which code produced the
+ *     bytes and which code wrote the file. V's condition for allowing this at all.
+ *   * IT IS AUDITABLE. Every change appends to `provenance.repairs[]` with the field, the old
+ *     value's digest and the reason, so the repair cannot be mistaken for the original text.
+ *   * IT REPAIRS ONE NAMED FIELD. Not a general JSON patcher.
+ *
+ * Coverage is printed and zero is fatal: a run that matched no record must not report the same
+ * thing as a run that fixed them all.
+ */
+function repairProvenance(dir) {
+  const files = fs.readdirSync(dir).filter((f) => !f.startsWith("_") && f.endsWith(".json"))
+  if (!files.length) {
+    console.error(`NO VERDICT: no records in ${dir}`)
+    return 2
+  }
+  const serialization = gitHead()
+  let examined = 0
+  let repaired = 0
+  const skipped = []
+  for (const f of files) {
+    const fp = path.join(dir, f)
+    const rec = JSON.parse(fs.readFileSync(fp, "utf8"))
+    examined++
+    const empty = rec.provenance?.empty_output
+    if (!empty) continue
+    const authored = EXPECTED_EMPTY_REASONS[rec.key]
+    if (!authored) {
+      skipped.push(`${rec.key}: empty but has no AUTHORED reason — refusing to invent one`)
+      continue
+    }
+    const want = `${rec.key} completed ${(rec.provenance.execution_receipts ?? []).length} run(s) and wrote no file. ${authored}`
+    if (empty.reason === want) continue
+
+    const before = crypto.createHash("sha256").update(rec.data_sha256 + "|" + JSON.stringify(rec.data), "utf8").digest("hex")
+    const oldReason = empty.reason
+    empty.reason = want
+    rec.provenance.serialization_commit = serialization
+    ;(rec.provenance.repairs ??= []).push({
+      field: "provenance.empty_output.reason",
+      why: "the joined path generated a reason instead of reading the authored one, dropping D-67's clause that an empty result does not prove the file-producing branch",
+      old_sha256: crypto.createHash("sha256").update(String(oldReason), "utf8").digest("hex"),
+      producer_execution_commit: rec.provenance.git_head,
+      serialization_commit: serialization,
+    })
+
+    // DATA MUST BE UNTOUCHED. Recompute rather than trust the edit's scope.
+    const after = crypto.createHash("sha256").update(rec.data_sha256 + "|" + JSON.stringify(rec.data), "utf8").digest("hex")
+    const recomputed = crypto.createHash("sha256").update(canonical(rec.data), "utf8").digest("hex")
+    if (after !== before || recomputed !== rec.data_sha256) {
+      console.error(`FAIL ${f}: the repair altered data or its digest — refusing to write`)
+      return 1
+    }
+    fs.writeFileSync(fp, JSON.stringify(rec, null, 1), "utf8")
+    repaired++
+    console.log(`  repaired ${f}: empty_output.reason now carries the authored D-67 text`)
+  }
+  for (const s2 of skipped) console.error(`  REFUSED ${s2}`)
+  console.log(`examined ${examined} record(s), repaired ${repaired}, refused ${skipped.length}`)
+  if (examined === 0) {
+    console.error("COVERAGE ZERO: matched no records")
+    return 2
+  }
+  return skipped.length ? 1 : 0
+}
+
 function checkProvenance(dir) {
   // `_`-prefixed files are capture METADATA (_CAPTURE.json), not seam records. Excluded by name
   // rather than by "has provenance", so a real record that lost its provenance still fails loudly
@@ -1325,6 +1455,9 @@ function main() {
   const seedFrom = val("--seed-static")
   if (seedFrom) return seedStatic(path.resolve(seedFrom))
 
+  const repairDir = val("--repair-provenance")
+  if (repairDir) return repairProvenance(path.resolve(repairDir))
+
   const provenanceDir = val("--check-provenance")
   if (provenanceDir) return checkProvenance(path.resolve(provenanceDir))
 
@@ -1448,7 +1581,8 @@ function main() {
   // ignorePatterns: 1,807 non-.md files, of which 1,679 are .json killed by
   // `**/!(bjj-graph).json` and 128 are dot-paths held out by globby's dot:false. Any OTHER
   // emitter returning zero is a failed capture, not an observation.
-  const EXPECTED_EMPTY = {
+  const EXPECTED_EMPTY = EXPECTED_EMPTY_REASONS
+  const _unused_EXPECTED_EMPTY = {
     Assets:
       "Measured property of this corpus, not a failed capture: Assets copies non-markdown files " +
       "from content/ and every candidate is excluded — the .json files by the " +
