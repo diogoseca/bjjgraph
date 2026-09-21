@@ -1,10 +1,13 @@
 // Real Git histories exercise the shared driver index. RED controls: missing sibling,
 // add-only history, author/committer confusion, oldest-as-latest, repeated cold walks,
 // and fabricated unknown dates. Merge resolutions are pinned explicitly: the batched
-// map includes them; the existing native modified reader does not and stays unchanged.
+// map includes them; the native modified reader does not. Since D-195 / D-208 (v1.195.8)
+// the transformer's git tier READS the batched map for unflagged paths and DEFERS to the
+// native per-file reader for merge-flagged ones; both directions are pinned below.
 // Sparse merge-origin flags identify ONLY the selected modified entry, not any older
 // merge in a path's history. RED controls also cover missing/stale flags and lost driver /
-// worker propagation. Native-parity consumers can use the native reader for flagged paths.
+// worker propagation. A flagged path must never take the batched value: that is what keeps
+// the owner's merge-resolution dates (Kimura, Americana) untouched.
 // This does not assert universal equivalence to libgit2 on arbitrary merged histories.
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -101,18 +104,38 @@ test("latest modifications include M-only commits and use committer dates withou
   const next = await maps(f.cwd);
   assert.equal(next.modified[`content/${name}`], iso(2022));
   assert.equal(next.published[`content/${name}`], iso(2020));
-  const file = {
+  // D-195 / D-208: the git tier now READS the batched sibling. An UNFLAGGED path with a
+  // batched value present takes that value; the 1999 sentinel is read, not ignored. Until
+  // v1.195.8 this assertion expected iso(2022), the native value, as a tripwire for exactly
+  // this migration; the migration is the explicit act it was waiting for.
+  const unflagged = {
     cwd: path.join(f.cwd, "source"),
     data: { filePath: `../content/${name}` },
   };
   await CreatedModifiedDate().markdownPlugins({
     gitPublicationDates: next.published,
     gitModifiedDates: { [`content/${name}`]: iso(1999) },
-  })[0]()({}, file);
+  })[0]()({}, unflagged);
   assert.equal(
-    file.data.dates.modified.toISOString(),
+    unflagged.data.dates.modified.toISOString(),
+    iso(1999),
+    "an unflagged path with a batched value present takes the batched value",
+  );
+  // The reverse tripwire, the direction that still matters: the SAME path flagged as a
+  // merge-origin entry must NOT take the batched value. It defers to the native reader.
+  const flagged = {
+    cwd: path.join(f.cwd, "source"),
+    data: { filePath: `../content/${name}` },
+  };
+  await CreatedModifiedDate().markdownPlugins({
+    gitPublicationDates: next.published,
+    gitModifiedDates: { [`content/${name}`]: iso(1999) },
+    gitModifiedDatesFromMerge: { [`content/${name}`]: true },
+  })[0]()({}, flagged);
+  assert.equal(
+    flagged.data.dates.modified.toISOString(),
     iso(2022),
-    "native modified tier must ignore the new sibling until explicitly migrated",
+    "a merge-flagged path must never take the batched value; it defers to the native reader",
   );
 });
 
