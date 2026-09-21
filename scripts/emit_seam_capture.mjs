@@ -1175,6 +1175,87 @@ export const contentFingerprint = (root = "content") => inputFingerprint([root])
  * (which under GOLDEN-RECAPTURE rule 3 is EXPECTED until the batched re-capture, not a
  * regression). 2 = no verdict.
  */
+/**
+ * `--repair-provenance DIR`: a SERIALIZER-ONLY repair of published records.
+ *
+ * WHY THIS EXISTS AND WHY IT IS DELIBERATELY NARROW (V's verdict on joined-full1 and sample5).
+ * Both artifacts carry an `empty_output.reason` that the joined path GENERATED instead of reading
+ * the authored one, so D-67's clause — that an empty result does not prove the emitter's
+ * file-producing branch still works — is missing. V ruled that metadata repair, not another
+ * build: the producer ran correctly and only the serialization of one field is wrong.
+ *
+ * THE RULES A REPAIR MUST OBEY, and they are the reason this is a separate mode rather than a
+ * flag on the capture:
+ *
+ *   * IT NEVER TOUCHES `data`. `data_sha256` is recomputed and asserted EQUAL afterwards — if the
+ *     repair changed a byte of the inventory or the returns, it fails rather than re-hashing. A
+ *     repair that can silently re-issue `data` is a re-capture wearing the original's name.
+ *   * IT NEVER RELABELS CAPTURE IDENTITY. `git_head` remains the PRODUCER-EXECUTION commit; the
+ *     repair adds `serialization_commit` separately, so a reader can tell which code produced the
+ *     bytes and which code wrote the file. V's condition for allowing this at all.
+ *   * IT IS AUDITABLE. Every change appends to `provenance.repairs[]` with the field, the old
+ *     value's digest and the reason, so the repair cannot be mistaken for the original text.
+ *   * IT REPAIRS ONE NAMED FIELD. Not a general JSON patcher.
+ *
+ * Coverage is printed and zero is fatal: a run that matched no record must not report the same
+ * thing as a run that fixed them all.
+ */
+function repairProvenance(dir) {
+  const files = fs.readdirSync(dir).filter((f) => !f.startsWith("_") && f.endsWith(".json"))
+  if (!files.length) {
+    console.error(`NO VERDICT: no records in ${dir}`)
+    return 2
+  }
+  const serialization = gitHead()
+  let examined = 0
+  let repaired = 0
+  const skipped = []
+  for (const f of files) {
+    const fp = path.join(dir, f)
+    const rec = JSON.parse(fs.readFileSync(fp, "utf8"))
+    examined++
+    const empty = rec.provenance?.empty_output
+    if (!empty) continue
+    const authored = EXPECTED_EMPTY_REASONS[rec.key]
+    if (!authored) {
+      skipped.push(`${rec.key}: empty but has no AUTHORED reason — refusing to invent one`)
+      continue
+    }
+    const want = `${rec.key} completed ${(rec.provenance.execution_receipts ?? []).length} run(s) and wrote no file. ${authored}`
+    if (empty.reason === want) continue
+
+    const before = crypto.createHash("sha256").update(rec.data_sha256 + "|" + JSON.stringify(rec.data), "utf8").digest("hex")
+    const oldReason = empty.reason
+    empty.reason = want
+    rec.provenance.serialization_commit = serialization
+    ;(rec.provenance.repairs ??= []).push({
+      field: "provenance.empty_output.reason",
+      why: "the joined path generated a reason instead of reading the authored one, dropping D-67's clause that an empty result does not prove the file-producing branch",
+      old_sha256: crypto.createHash("sha256").update(String(oldReason), "utf8").digest("hex"),
+      producer_execution_commit: rec.provenance.git_head,
+      serialization_commit: serialization,
+    })
+
+    // DATA MUST BE UNTOUCHED. Recompute rather than trust the edit's scope.
+    const after = crypto.createHash("sha256").update(rec.data_sha256 + "|" + JSON.stringify(rec.data), "utf8").digest("hex")
+    const recomputed = crypto.createHash("sha256").update(canonical(rec.data), "utf8").digest("hex")
+    if (after !== before || recomputed !== rec.data_sha256) {
+      console.error(`FAIL ${f}: the repair altered data or its digest — refusing to write`)
+      return 1
+    }
+    fs.writeFileSync(fp, JSON.stringify(rec, null, 1), "utf8")
+    repaired++
+    console.log(`  repaired ${f}: empty_output.reason now carries the authored D-67 text`)
+  }
+  for (const s2 of skipped) console.error(`  REFUSED ${s2}`)
+  console.log(`examined ${examined} record(s), repaired ${repaired}, refused ${skipped.length}`)
+  if (examined === 0) {
+    console.error("COVERAGE ZERO: matched no records")
+    return 2
+  }
+  return skipped.length ? 1 : 0
+}
+
 function checkProvenance(dir) {
   // `_`-prefixed files are capture METADATA (_CAPTURE.json), not seam records. Excluded by name
   // rather than by "has provenance", so a real record that lost its provenance still fails loudly
@@ -1373,6 +1454,9 @@ function main() {
 
   const seedFrom = val("--seed-static")
   if (seedFrom) return seedStatic(path.resolve(seedFrom))
+
+  const repairDir = val("--repair-provenance")
+  if (repairDir) return repairProvenance(path.resolve(repairDir))
 
   const provenanceDir = val("--check-provenance")
   if (provenanceDir) return checkProvenance(path.resolve(provenanceDir))
