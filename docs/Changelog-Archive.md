@@ -7641,3 +7641,41 @@ The complete 4,600-file comparison preserves every publication date and matches 
 modification on 4,598 paths. Americana and Kimura have later merge resolutions: the new
 map agrees with `git log -1 --format=%cI -- <path>` on each; the native reader skips them.
 This difference is documented for future consumers, not applied to current page metadata.
+
+## v1.195.6 — Systems section rhythm as a ratio; the "missing trailer" was a stale public dir
+
+Three items from one owner report on his own :8080, all on the 10th Planet Systems pages.
+
+**1. "No video, but the product page has a trailer."** Reproduced on dev's tip in headless
+Chromium with nothing aborted (the e2e DSL aborts non-localhost requests, so it could not be the
+instrument): the Bunny trailer mounts on both surfaces — Neural pane SDK 2.06s, iframe 2.6s,
+visible 4.7s; static article (bundle refused) 0.35s / 0.9s / 1.9s; 52 mediadelivery requests, 0
+page errors. With the SDK blocked the designed contract holds (no iframe, cover, no affordance),
+which is the owner's symptom, so it was measured rather than assumed; the default ad-block lists
+name only `rum.js` and `/.metrics/`. Cause: his :8080 served `source/public` built 2026-09-18
+17:33 (pre-v1.190.0 pages, payload with `preview: null` and `course_url: null`, the retired
+`data-verified-origins` gate) under a bundle from 2026-09-20 — `dev:neural:app` refreshes the
+bundle and the adapter, never the payload or the pages. Fix: `npm run build`. Production has no
+inline preview at all (origin/main 1.182.15).
+
+**2. Craig Jones Leg Lock System.** Down Under Leg Attacks carries no player: 0 mediadelivery
+server-side, 0 video media in the Shopify JSON, 0 media requests in a real browser after 16s.
+The guide's second source has four Bunny GUIDs for a different course. Nothing authored.
+
+**3. "Not much space between the sections."** Measured first. Neural pane, body 12px × 1.8 =
+21.6px: the five separating margins were 22/25/28/30/26px (1.0–1.4 lines). Static article, body
+16px × 1.65 = 26.4px: 32/40/40/40/48px (1.2–1.8 lines). The owner sizes spacing as a ratio of a
+token already on the page, so the rule is one ratio against each surface's own line-height:
+every top-level block from the course block down to Sources starts TWO LINES below the block
+before it (43.2px pane, 52.8px article); the hero keeps its own grouping. One owner per surface:
+`--ng-system-gap` (neural/src/systems.css) and `--system-gap` (scripts/system_guide.css). The
+drill button's stray 4px bottom margin is zeroed: a button is inline-level, so it added to the
+Sources gap (47.2 for a 43.2 rule) instead of collapsing.
+
+Pinned by `e2e/journeys/systems-rhythm.spec.ts` and `system-static-rhythm.spec.ts` (@curated,
+1440 and 390): gap ÷ computed line-height = 2 from the rendered boxes, never the px, a positive
+boundary count, then the token moved inline and re-measured. Red-first: static 1.21, Neural
+1.02. Mutants: a hard-coded px gap on either surface dies on the moved token (1.37 / 1.50).
+Byte-neutral to non-Systems pages: build-shape census equal, 3 bundles byte-for-byte; 83 pages
+link `system-guide.css`, 0 outside `Systems/`; neural.css +44 B gzip inside the delta cap.
+Units 314/314, systems-surface 44/44, curated 308 passed, 0 failed (20.7 min) on the rebuilt tree (scratch config on :8172; the gate ports belong to other sessions).

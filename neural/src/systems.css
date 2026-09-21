@@ -27,8 +27,26 @@
 }
 .ng-system-chip + .ng-system-chip { background: #1d2633; color: #bed0df; border-color: #394858; }
 .ng-system-graph-count { margin: 10px 0 0; color: #9ca9bf; font-size: 11px; line-height: 1.5; }
+/* ── Section rhythm: ONE owner ──────────────────────────────────────────────────────────────
+   Every top-level block of an open System's guide body — the course block, the overview, each
+   guide section, the closing course reminder, the references, the technique list and Sources —
+   sits TWO LINES of the guide body below the block before it. The owner sizes spacing as a RATIO
+   of a token already on the page ("50% more of the left padding"), never a raw px: the token is
+   the guide body's line-height (12px × 1.8 = 21.6px) and the ratio is the rule (2 → 43.2px).
+   e2e/journeys/systems-rhythm.spec.ts pins gap ÷ line-height = 2 from the rendered boxes and then
+   MOVES the token and re-measures, so a hard-coded px gap goes red. The hero (title → intro video
+   → View course) is one unit and keeps its own tighter grouping; it is not on this rhythm.
+   Before v1.195.6 these five margins were 22/25/28/30/26px — five answers to one question, all
+   about one line of the body, which is what the owner read as "not much space between the
+   sections". The static guide carries the same rule against its own token in
+   scripts/system_guide.css (`--system-gap`); two surfaces, one ratio. */
+.ng-system-courses, .ng-system-overview, .ng-system-guide, .ng-system-sources {
+  --ng-system-body-fs: 12px;
+  --ng-system-body-lh: 1.8;
+  --ng-system-gap: calc(2 * var(--ng-system-body-fs) * var(--ng-system-body-lh));
+}
 .ng-system-courses {
-  margin: 0 3px 22px;
+  margin: 0 3px var(--ng-system-gap);
   padding: 0 10px;
   display: grid;
   gap: 9px;
@@ -59,12 +77,12 @@
 }
 .ng-system-cta:hover { background: #dfd0ff; border-color: #dfd0ff; }
 /* One prominent link below the intro; a quiet reminder after the guide. */
-.ng-system-courses[data-course-placement="conclusion"] { margin-top: 5px; margin-bottom: 30px; }
+.ng-system-courses[data-course-placement="conclusion"] { margin-top: 5px; margin-bottom: var(--ng-system-gap); }
 .ng-system-courses[data-course-placement="conclusion"] .ng-system-cta {
   background: transparent; border-color: #514466; color: #d6c5ff;
 }
 .ng-system-overview {
-  margin: 0 3px 25px;
+  margin: 0 3px var(--ng-system-gap);
   padding: 18px 10px 0;
   border-top: 1px solid #363044;
   color: #c7cddd;
@@ -74,11 +92,11 @@
 .ng-system-overview h3 { margin: 0 0 10px; font: 600 16px/1.3 "Space Grotesk", sans-serif; color: #e8e9f1; }
 .ng-system-overview p { margin: 0 0 12px; }
 .ng-system-guide {
-  margin: 0 3px 28px;
+  margin: 0 3px var(--ng-system-gap);
   padding: 0 10px;
   color: #bdc7d9;
-  font-size: 12px;
-  line-height: 1.8;
+  font-size: var(--ng-system-body-fs);
+  line-height: var(--ng-system-body-lh);
   overflow-wrap: anywhere;
   hyphens: none;
 }
@@ -110,7 +128,7 @@
 [data-system-alternatives] h3 { font-size: 15px; }
 [data-system-alternatives] > a, [data-system-references] > a { font-weight: 600; }
 .ng-system-sources {
-  margin: 26px 3px 10px;
+  margin: var(--ng-system-gap) 3px 10px;
   padding: 18px 10px 0;
   border-top: 1px solid #363044;
   color: #a3adc0;
@@ -181,7 +199,9 @@
 }
 .ng-system-drill {
   width: calc(100% - 24px);
-  margin: 10px 12px 4px;
+  /* No bottom margin: a button is inline-level, so its margin would ADD to the Sources footer's
+     --ng-system-gap instead of collapsing into it (measured 47.2px for a 43.2px rule, v1.195.6). */
+  margin: 10px 12px 0;
   padding: 10px;
   border: 1px solid rgba(150, 170, 210, 0.28);
   border-radius: 10px;
