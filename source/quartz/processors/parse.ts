@@ -13,6 +13,7 @@ import workerpool, { Promise as WorkerPromise } from "workerpool"
 import { QuartzLogger } from "../util/log"
 import { trace } from "../util/trace"
 import { BuildCtx } from "../util/ctx"
+import { gitDateMaps } from "../util/publication"
 
 export type QuartzProcessor = Processor<MDRoot, MDRoot, HTMLRoot>
 export function createProcessor(ctx: BuildCtx): QuartzProcessor {
@@ -122,6 +123,13 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
   const CHUNK_SIZE = 128
   const concurrency = ctx.argv.concurrency ?? clamp(fps.length / CHUNK_SIZE, 1, 4)
 
+  // Prepare once, including on watch rebuilds; workers must not each walk Git history.
+  if (ctx.cfg.plugins.transformers.some((plugin) => plugin.name === "CreatedModifiedDate")) {
+    const dates = await gitDateMaps(path.resolve(argv.directory))
+    ctx.gitPublicationDates = dates.published
+    ctx.gitModifiedDates = dates.modified
+  }
+
   let res: ProcessedContent[] = []
   log.start(`Parsing input files using ${concurrency} threads`)
   if (concurrency === 1) {
@@ -143,7 +151,16 @@ export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<Pro
 
     const childPromises: WorkerPromise<ProcessedContent[]>[] = []
     for (const chunk of chunks(fps, CHUNK_SIZE)) {
-      childPromises.push(pool.exec("parseFiles", [ctx.buildId, argv, chunk, ctx.allSlugs]))
+      childPromises.push(
+        pool.exec("parseFiles", [
+          ctx.buildId,
+          argv,
+          chunk,
+          ctx.allSlugs,
+          ctx.gitPublicationDates,
+          ctx.gitModifiedDates,
+        ]),
+      )
     }
 
     const results: ProcessedContent[][] = await WorkerPromise.all(childPromises).catch((err) => {
