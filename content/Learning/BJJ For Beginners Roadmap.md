@@ -1,6 +1,7 @@
 ---
 title: "Your first useful steps in BJJ | BJJ Learning | BJJ Graph"
 description: "Start BJJ with a practical guide to recognizing positions, learning a small set of connected actions, asking useful questions, and reviewing your rounds."
+tags: ["bjj", "learning", "beginner", "fundamentals", "practice"]
 ---
 
 <script type="application/ld+json">

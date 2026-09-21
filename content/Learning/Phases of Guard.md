@@ -1,6 +1,7 @@
 ---
 title: "Know what your guard needs | BJJ Learning | BJJ Graph"
 description: "Work out when to build connections, attack, or recover your guard. Use concrete cues and positional rounds to change priorities before a pass settles into a pin."
+tags: ["bjj", "strategy", "guard", "guard-retention", "guard-maintenance", "engagement", "bottom-game", "defense"]
 ---
 
 <script type="application/ld+json">

@@ -1,6 +1,7 @@
 ---
 title: "Learn from different partners | BJJ Learning | BJJ Graph"
 description: "Use different BJJ training partners to test a specific skill, notice which reactions change, and separate a useful adjustment from a familiar shortcut."
+tags: ["bjj", "learning", "training", "training-partner-diversity"]
 ---
 
 <script type="application/ld+json">

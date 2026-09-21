@@ -1,6 +1,7 @@
 ---
 title: "Make each movement count | BJJ Learning | BJJ Graph"
 description: "Use purposeful grips, frames, and weight shifts in BJJ to reduce repeated effort, while keeping the movement and urgency that a changing position needs."
+tags: ["bjj", "learning", "strategy", "economy-of-motion"]
 ---
 
 <script type="application/ld+json">

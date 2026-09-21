@@ -1,6 +1,7 @@
 ---
 title: "Keep control while you attack | BJJ Learning | BJJ Graph"
 description: "Connect BJJ submissions to the controls they need, recognize when an entry gives too much away, and practice keeping position as your partner defends."
+tags: ["bjj", "learning", "strategy", "position-over-submission"]
 ---
 
 <script type="application/ld+json">

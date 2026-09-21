@@ -1,6 +1,7 @@
 ---
 title: "Give your defense a next step | BJJ Learning | BJJ Graph"
 description: "Turn frames and grip fights into progress toward an escape. Learn to choose a reachable next position, protect it, and recognize when stopping is the right response."
+tags: ["bjj", "strategy", "defense", "escapes", "frames", "positional-improvement", "fundamentals"]
 ---
 
 <script type="application/ld+json">

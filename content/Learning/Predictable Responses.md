@@ -1,6 +1,7 @@
 ---
 title: "Read the response | BJJ Learning | BJJ Graph"
 description: "Learn to recognize a partner’s actual response to your attack instead of assuming a reflex. Practice clear cues, two useful follow-ups, and a reset when control is lost."
+tags: ["bjj", "strategy", "reactions", "action-reaction", "setups", "offensive-strategy"]
 ---
 
 <script type="application/ld+json">

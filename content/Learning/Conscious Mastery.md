@@ -1,6 +1,7 @@
 ---
 title: "Know what you are looking for | BJJ Learning | BJJ Graph"
 description: "Connect BJJ study to live practice by naming a positional cue, choosing a response, and reviewing what actually happened when a partner resisted you."
+tags: ["bjj", "learning", "training", "conscious-mastery"]
 ---
 
 <script type="application/ld+json">
