@@ -45,17 +45,22 @@
 //                                                                   array still serialises a ping)
 //   M3  test only the first token                                -> RED (B, C)
 //   M4  drop the per-token control-character strip               -> RED (C)
-import { test } from "node:test"
-import assert from "node:assert/strict"
 import fs from "node:fs/promises"
 import path from "node:path"
 import { pathToFileURL } from "node:url"
-import { harnessAvailable, runPipeline, sourceRequire, REPO } from "./_quartz_pipeline.mjs"
+import { depsPromised, SOURCE_DEPS } from "./_deps_promised.mjs"
+import { HARNESS_MODULES, runPipeline, sourceRequire, REPO } from "./_quartz_pipeline.mjs"
 
-const skip = !harnessAvailable()
-if (skip) {
-  console.log("SKIP: source/node_modules is absent — this file asserted NOTHING")
-}
+// source/node_modules is PROMISED by ci-validate.yml (v1.195.9): under CI an absent module fails
+// this file on this line with the install step named; at home every case below skips with the
+// same reason. The manifest is what the PIPELINE resolves (HARNESS_MODULES, traced — see the
+// bridge) plus property-information, the one package this file resolves itself. The count line
+// at the end says how many of the five cases asserted.
+const deps = depsPromised(import.meta.url, {
+  ...SOURCE_DEPS,
+  modules: [...HARNESS_MODULES, "property-information"],
+})
+const { test, assert } = deps
 
 const page = (body) => `---\ntitle: Ping Fixture\n---\n\n${body}\n`
 
@@ -68,7 +73,6 @@ async function probe(body, slug) {
 }
 
 test("MECHANISM: the URL_ATTRS members hast stores as arrays are exactly the ones fixtured here", async (t) => {
-  if (skip) return t.skip("harness unavailable")
   const ofmSrc = await fs.readFile(
     path.join(REPO, "source/quartz/plugins/transformers/ofm.ts"),
     "utf8",
@@ -101,7 +105,6 @@ test("MECHANISM: the URL_ATTRS members hast stores as arrays are exactly the one
 })
 
 test("CONTROL A: a ping whose only token is javascript: is dropped", async (t) => {
-  if (skip) return t.skip("harness unavailable")
   const el = await probe(`<a id="P" href="/ok" ping="javascript:window.__pwned=1">x</a>`, "PingA")
   assert.doesNotMatch(el, /javascript:/i, `a javascript: ping survived sanitising: ${el}`)
   assert.doesNotMatch(el, /\sping=/i, `the ping attribute must be removed, not emptied: ${el}`)
@@ -109,7 +112,6 @@ test("CONTROL A: a ping whose only token is javascript: is dropped", async (t) =
 })
 
 test("CONTROL B: a ping with one safe and one dangerous token is dropped WHOLE", async (t) => {
-  if (skip) return t.skip("harness unavailable")
   const el = await probe(
     `<a id="P" href="/ok" ping="https://example.com/ok javascript:window.__pwned=1">x</a>`,
     "PingB",
@@ -124,7 +126,6 @@ test("CONTROL B: a ping with one safe and one dangerous token is dropped WHOLE",
 })
 
 test("CONTROL C: a C0-control-obfuscated token is still recognised per token", async (t) => {
-  if (skip) return t.skip("harness unavailable")
   // &#1; decodes to U+0001 inside the token; the URL parser in a browser strips leading C0
   // controls, so this IS a javascript: URL to the browser. Not ASCII whitespace, so hast's
   // tokenizer keeps it inside the token — exactly the case the per-token strip must handle.
@@ -137,7 +138,6 @@ test("CONTROL C: a C0-control-obfuscated token is still recognised per token", a
 })
 
 test("CONTROL D (the spare half): a benign ping and its href survive byte-for-byte", async (t) => {
-  if (skip) return t.skip("harness unavailable")
   const el = await probe(
     `<a id="P" href="https://example.com/ok" ping="https://example.com/beacon https://example.org/b2">x</a>`,
     "PingD",
