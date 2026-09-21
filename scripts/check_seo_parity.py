@@ -8,6 +8,15 @@ without claiming current-source parity. The content ratchet is otherwise unchang
 hashes, so a copied old source/public cannot silently re-arm the baseline. Controls:
 golden_provenance_selftest.py. Content identity does not prove code/date/environment identity.
 
+X09_ASYMMETRIC_TEXT_PENDING is a named provisional exception, not a lowered ratchet:
+the retained floor is 9775 and only the captured 3570-character text/hash may match.
+Every other route and field still gates. A declared exception must match exactly once;
+a later --update preserves it or refuses, never silently lowers the floor. CTO owns
+classification of the text loss versus extraction; tests/quartz_v_seo_exception.test.mjs
+pins the exact exception and kills changed-text, further-loss and unrelated-field mutants.
+The corpus now has zero named tags. tags/index.html retains the TagPage sample;
+B's TagPage fixture in emitter_filesystem.test.mjs is the only named-tag branch gate.
+
 The Neural variant must NEVER regress the crawlable/indexable surface: the static HTML a
 crawler (or a no-JS visitor) receives has to stay as rich as the pre-Neural baseline. The
 variant switch + app mount happen entirely client-side, so the emitted `<head>` + JSON-LD
@@ -64,7 +73,7 @@ SAMPLE = [
     # makes its PRs noisy for no extra coverage (the recon's option (b)).
     "404.html",                              # its own emitter (404.tsx); baseDir differs in Head.tsx
     "Positions/index.html",                  # FolderPage — a whole emitter, previously unsampled
-    "tags/beginner.html",                    # TagPage — a whole emitter, previously unsampled
+    "tags/index.html",                       # X-09 removed all 10 named tags; see scope above
     "Principles.html",                       # Principles hub
     "Principles/Action-and-Reaction.html",   # Principles leaf — a reference page, not a graph node
     "Learning.html",                         # Learning hub
@@ -222,6 +231,33 @@ def snapshot() -> dict:
     return snap
 
 
+PROVISIONAL_NAME = "X09_ASYMMETRIC_TEXT_PENDING"
+PROVISIONAL_ROUTE = "Learning/Asymmetric-Warfare.html"
+PROVISIONAL_TREE = "1b82f2e54300964745f0247494bb80683dc0c5b5"
+
+
+def retain_provisional(base, cur, receipt, requested=False):
+    """An update cannot erase an unresolved exception or fit it to a new observation."""
+    existing = base.get('_meta', {}).get('provisional_exceptions', {})
+    if not requested and not existing:
+        return {}
+    if existing and set(existing) != {PROVISIONAL_NAME}:
+        raise ValueError('unknown provisional SEO exception; classification required')
+    old, new = base.get(PROVISIONAL_ROUTE, {}), cur.get(PROVISIONAL_ROUTE, {})
+    if (old.get('content_floor') != 9775 or new.get('content_len') != 3570
+            or receipt.get('content_tree') != PROVISIONAL_TREE
+            or (existing and existing[PROVISIONAL_NAME].get('content_hash') != new.get('content_hash'))):
+        raise ValueError(f'{PROVISIONAL_NAME}: observation changed; classify/resolve explicitly before re-seeding')
+    new['content_floor'] = 9775
+    return {PROVISIONAL_NAME: {
+        'route': PROVISIONAL_ROUTE, 'field': 'content_len', 'content_len': 3570,
+        'content_floor': 9775, 'content_hash': new['content_hash'],
+        'content_tree': PROVISIONAL_TREE,
+        'reason': 'CTO RECOVERY-RULING: X-09 text loss versus details extraction remains under classification; do not ratchet down.',
+        'evidence': '8eae3a473 checkpoint: 11501 -> 3570 characters; prior floor 9775. Named deltas: quartz-v-capture-8eae3a473/seo-authorized-deltas.json.',
+    }}
+
+
 def diff(base: dict, cur: dict) -> tuple[list, list]:
     """Return (failures, notes).
 
@@ -232,6 +268,11 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
     """
     failures: list[str] = []
     notes: list[str] = []
+    provisional = base.get('_meta', {}).get('provisional_exceptions', {})
+    hits = 0
+    if (not isinstance(provisional, dict) or set(provisional) - {PROVISIONAL_NAME}
+            or (PROVISIONAL_NAME in provisional and not isinstance(provisional[PROVISIONAL_NAME], dict))):
+        return ['INVALID provisional SEO exception inventory'], []
     for route, b in base.items():
         if route.startswith("_"):
             continue
@@ -257,10 +298,21 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
         floor = b.get("content_floor") or int(b.get("content_len", 0) * CONTENT_FLOOR_RATIO)
         cur_len = c.get("content_len", 0)
         if cur_len < floor:
-            failures.append(
-                f"{route}: crawlable text COLLAPSED — {cur_len} chars is below the "
-                f"{floor} floor (baseline {b.get('content_len')})"
-            )
+            e = provisional.get(PROVISIONAL_NAME, {})
+            if (route == PROVISIONAL_ROUTE and e.get('route') == route
+                    and e.get('field') == 'content_len'
+                    and e.get('content_tree') == PROVISIONAL_TREE
+                    and e.get('content_len') == cur_len == 3570
+                    and e.get('content_floor') == floor == 9775
+                    and e.get('content_hash') == b.get('content_hash') == c.get('content_hash')
+                    and e.get('reason') and e.get('evidence')):
+                hits += 1
+                notes.append(f'PROVISIONAL {PROVISIONAL_NAME}: matched=1; {route} length=3570, retained floor=9775; classification unresolved')
+            else:
+                failures.append(
+                    f"{route}: crawlable text COLLAPSED — {cur_len} chars is below the "
+                    f"{floor} floor (baseline {b.get('content_len')})"
+                )
         elif b.get("content_hash") != c.get("content_hash"):
             notes.append(
                 f"{route}: content edited (len {b.get('content_len')} -> {cur_len}, above floor)"
@@ -275,6 +327,8 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
         gained = len(set(c.get("links", [])) - set(b.get("links", [])))
         if gained:
             notes.append(f"{route}: {gained} internal link(s) added")
+    if provisional and hits != 1:
+        failures.append(f'{PROVISIONAL_NAME}: expected exactly 1 provisional match, got {hits}; classify/resolve explicitly')
     return failures, notes
 
 
@@ -285,8 +339,12 @@ def main():
     ap.add_argument("--update", action="store_true", help="(re)capture the baseline")
     ap.add_argument('--tree', type=Path, default=PUBLIC)
     ap.add_argument('--baseline', type=Path, default=BASELINE)
+    ap.add_argument('--provisional-text-exception', choices=[PROVISIONAL_NAME],
+                    help='capture-only CTO-authorized exception; retains the existing 9775 floor')
     add_arguments(ap, capture=True)
     args = ap.parse_args()
+    if args.provisional_text_exception and not args.update:
+        ap.error('--provisional-text-exception requires --update')
     if args.update and args.artifact_only:
         raise ProvenanceError('--artifact-only cannot authorize a baseline update')
     PUBLIC, BASELINE = args.tree, args.baseline
@@ -307,14 +365,23 @@ def main():
 
     cur = snapshot()
     if args.update:
+        if set(cur) != set(SAMPLE):
+            sys.exit('ERROR baseline update refused: every named sample route must exist')
+        previous = json.loads(BASELINE.read_text()) if BASELINE.exists() else {}
         for route, snap in cur.items():
             snap["content_floor"] = int(snap["content_len"] * CONTENT_FLOOR_RATIO)
+        try:
+            provisional = retain_provisional(previous, cur, receipt, bool(args.provisional_text_exception))
+        except ValueError as e:
+            print(f'ERROR baseline update refused: {e}', file=sys.stderr)
+            sys.exit(1)
         cur["_meta"] = {
             "format": BASELINE_FORMAT,
             "floor_ratio": CONTENT_FLOOR_RATIO,
             "volatile_meta": list(VOLATILE_META),
             "volatile_jsonld_keys": list(VOLATILE_JSONLD_KEYS),
             "content_provenance": receipt,
+            **({'provisional_exceptions': provisional} if provisional else {}),
         }
         ContentGuard(cur, args, 'updated SEO baseline').finish()
         BASELINE.parent.mkdir(parents=True, exist_ok=True)
@@ -350,10 +417,16 @@ def main():
         for p in failures:
             print("  -", p)
         sys.exit(1)
+    provisional_hits = sum(note.startswith('PROVISIONAL ') for note in notes)
+    text_verdict = (
+        f"retained text floors checked; provisional exceptions={provisional_hits} "
+        "(classification unresolved)"
+        if provisional_hits else "crawlable text above floor"
+    )
     print(
-        f"✓ SEO parity OK — {routes} routes; head + JSON-LD identical, crawlable text above "
-        f"floor, zero internal links lost"
-        + (f" ({len(notes)} benign change(s) noted)" if notes else "")
+        f"✓ SEO parity OK — {routes} routes; head + JSON-LD identical, {text_verdict}, "
+        "zero internal links lost"
+        + (f" ({len(notes)} change/exception note(s))" if notes else "")
     )
 
 
