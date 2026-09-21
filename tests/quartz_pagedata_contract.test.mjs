@@ -288,6 +288,8 @@ test("schemas HAS EXACTLY ONE READER — losing it silently empties every <head>
     [],
     "a page with no JSON-LD records an EMPTY array, never undefined",
   )
+
+  console.log("  coverage: 1 page with JSON-LD + 1 without; schemas has exactly 1 reader (Head.tsx)")
 })
 
 test("THE A→B SEAM — file.data.text is what becomes contentIndex's `content`", async (t) => {
@@ -303,5 +305,12 @@ test("THE A→B SEAM — file.data.text is what becomes contentIndex's `content`
     file.data.text,
     /ld\+json|<script/,
     "SchemaExtractor runs BEFORE Description precisely so hoisted JSON-LD never enters searchable text",
+  )
+
+  // NOTE the blind spot, named rather than left implied: this regex cannot detect the order swap
+  // on this corpus — quartz_description_contract's sentinel fixture is what actually gates it.
+  console.log(
+    `  coverage: ${file.data.text.length} chars of file.data.text asserted; ` +
+      "order half is NOT gated here (see quartz_description_contract test 7)",
   )
 })

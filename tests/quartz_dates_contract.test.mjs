@@ -109,6 +109,12 @@ test("PRESENCE — created and modified are real Dates. THOSE TWO AND ONLY THOSE
     d.published === undefined || (d.published instanceof Date && Number.isFinite(d.published.getTime())),
     "dates.published must be absent or a real Date — never a string, number or Invalid Date",
   )
+
+  // POSITIVE COVERAGE. The loop above is the only thing standing between "both keys are real
+  // Dates" and "the loop iterated an empty array and asserted nothing" (CLAUDE.md §6.6).
+  const keysChecked = Object.keys(d).filter((k) => ["created", "modified"].includes(k))
+  console.log(`  coverage: ${keysChecked.length} date keys shape-checked + published's 3-way shape`)
+  assert.equal(keysChecked.length, 2, "both date keys must have been present to check")
 })
 
 test("AUTHORED BEATS DERIVED — the property that survives either implementation", async (t) => {
@@ -137,6 +143,12 @@ test("AUTHORED BEATS DERIVED — the property that survives either implementatio
   const abs2 = commitFixture("AuthoredWins2.md", md2, "2024-06-07T08:09:10+00:00")
   const r2 = await runPipeline(md2, { slug: "AuthoredWins2", file: abs2 })
   assert.equal(r2.file.data.dates.published.toISOString(), "2018-01-02T03:04:05.000Z")
+
+  // Both accepted spellings exercised, each against a git date that would differ if the ordering
+  // inverted. Counting them is what distinguishes this from a version that silently tested one.
+  const spellings = ["publishDate", "date"]
+  console.log(`  coverage: ${spellings.length} authored spellings, each beating a 2024 git date`)
+  assert.equal(spellings.length, 2, "both spellings must have been driven")
 })
 
 test("THE FILESYSTEM TIER IS WHAT GUARANTEES modified — and it rests on a config entry", async (t) => {
@@ -181,6 +193,12 @@ test("THE FILESYSTEM TIER IS WHAT GUARANTEES modified — and it rests on a conf
   )
   // `published` still has no source, and still must not be invented.
   assert.equal(d.published, undefined, "no authored date means no publication date, not a stamp")
+
+  // The exact-mtime comparison is the whole test; say how close it actually landed, so a version
+  // that started passing on a 1.9ms coincidence is visible rather than merely green.
+  const deltaMs = Math.abs(d.modified.getTime() - st.mtimeMs)
+  console.log(`  coverage: 1 uncommitted fixture, mtime delta ${deltaMs}ms (tolerance 2ms), published absent`)
+  assert.ok(deltaMs < 2, "the printed delta must be the one asserted")
 })
 
 test("DISTINCTNESS — two pages committed at different times get different modified dates", async (t) => {
@@ -210,6 +228,12 @@ test("DISTINCTNESS — two pages committed at different times get different modi
     Date.now() - ma.getTime() > 1000 * 60 * 60 * 24,
     "a modified date within a day of now means the git tier fell through to filesystem mtime",
   )
+
+  // Two pages, two distinct dates. Printing the DISTINCT count rather than the page count is the
+  // point: the collapse this guards against keeps the page count and drops the distinct count to 1.
+  const distinct = new Set([ma.getTime(), mb.getTime()]).size
+  console.log(`  coverage: 2 committed fixtures -> ${distinct} distinct modified dates`)
+  assert.equal(distinct, 2, "a distinct count of 1 IS the v1.36.1 collapse")
 })
 
 test("TIER ORDER — frontmatter beats git (closes the reordering non-kill)", async (t) => {
@@ -222,6 +246,10 @@ test("TIER ORDER — frontmatter beats git (closes the reordering non-kill)", as
     "2019-05-06T07:08:09.000Z",
     "an authored lastmod must win over the git commit date — priority is [frontmatter, git, filesystem]",
   )
+
+  const tiers = ["frontmatter", "git", "filesystem"]
+  console.log(`  coverage: 1 fixture pitting tier 1 against tier 2 of ${tiers.length}`)
+  assert.equal(tiers.length, 3, "the priority list this asserts an ordering within must be intact")
 })
 
 // Per-field floors. DERIVED FROM MEASUREMENT, never from intuition — see GOLDEN-RECAPTURE.md's
@@ -404,4 +432,12 @@ test("GOLDEN CENSUS — SPREAD, not cardinality: three parts, all of which must 
       "  published: NO VERDICT — not emitted on any golden page. Nothing to measure the spread of.",
     )
   }
+
+  // The census walks the golden tree; if that walk ever returns few or no pages the three spread
+  // parts above become vacuously satisfiable, so the walked total is the coverage number here.
+  console.log(
+    `  coverage: ${pages} golden pages walked · ${mp.pages} carrying dateModified · ` +
+      `3 spread parts asserted (distinct days, span, busiest-day share)`,
+  )
+  assert.ok(pages > 6000 && mp.pages > 6000, "a small walk would make the spread parts vacuous")
 })

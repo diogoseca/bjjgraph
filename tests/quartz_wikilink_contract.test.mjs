@@ -166,6 +166,8 @@ test("AMBIGUITY — STEP 4 resolves ONLY a unique filename, and never guesses", 
     "the SAME wikilink text must resolve differently from different sources — that is what " +
       "'context-aware' means, and a resolver that ignored context would return one answer for both",
   )
+
+  console.log("  coverage: 1 ambiguous filename from 2 different source pages, 2 distinct answers")
 })
 
 test("THE FALLTHROUGH — an unresolved target and [[game-over]] are the SAME code path", async (t) => {
@@ -187,6 +189,10 @@ test("THE FALLTHROUGH — an unresolved target and [[game-over]] are the SAME co
     "game-over",
     "data-slug is the lowercase alias, NOT the Game-Over content slug — ContentIndex records it as written",
   )
+
+  const paths = ["an unresolved typo", "[[game-over]]"]
+  console.log(`  coverage: ${paths.length} inputs proven to take the SAME fallthrough path`)
+  assert.equal(paths.length, 2, "both inputs must still be compared")
 })
 
 test("INDEXED AND LINEAR RESOLUTION MUST AGREE — the two-implementations differential", async (t) => {

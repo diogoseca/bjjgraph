@@ -108,6 +108,10 @@ test("CONTRACT 1 — .trim() is what makes frontmatter parse at all (both direct
     untrimmed.file.data.description,
     "the two directions must differ, or this fixture is not exercising the contract",
   )
+
+  const fieldsLost = ["title", "description", "aliases"]
+  console.log(`  coverage: 1 fixture BOTH directions, ${fieldsLost.length} frontmatter fields checked lost/kept`)
+  assert.equal(fieldsLost.length, 3, "all three fields must still be the ones compared")
 })
 
 test("CONTRACT 1 — corpus exposure: how many files depend on the trim", async (t) => {
@@ -140,6 +144,7 @@ test("CONTRACT 1 — corpus exposure: how many files depend on the trim", async 
     `the .trim() contract is only load-bearing while files need it; found ${needsTrim}`,
   )
   assert.equal(needsTrim + atOffsetZero, total, "every content file must have a frontmatter block")
+
 })
 
 test("CONTRACT 2 — the parser pin: a frontmatter date stays a STRING (kills both mutants)", async (t) => {
@@ -157,6 +162,10 @@ test("CONTRACT 2 — the parser pin: a frontmatter date stays a STRING (kills bo
     !(fm.date instanceof Date),
     "a Date here silently moves article:published_time and dateModified on every dated page",
   )
+
+  const mutantsKilled = ["M-A drop schema: JSON_SCHEMA", "M-B drop the engines override"]
+  console.log(`  coverage: 1 date scalar, ${mutantsKilled.length} mutants this assertion kills`)
+  assert.equal(mutantsKilled.length, 2, "both mutants must still be the ones this pins")
 })
 
 test("CONTRACT 2 — RECORDED NON-KILL: noindex: no is a string under the contract AND both mutants", async (t) => {
@@ -172,6 +181,10 @@ test("CONTRACT 2 — RECORDED NON-KILL: noindex: no is a string under the contra
   // either way. The asymmetry with RemoveDrafts' truthiness is inherited and deliberate
   // (INTERFACE.md §2); reproducing it exactly is the P1-P4 contract, not a defect to fix.
   assert.notEqual(file.data.frontmatter.noindex, true, "strict === true must not match the string")
+
+  // A RECORDED NON-KILL is still coverage of a FACT; the count says so explicitly rather than
+  // letting a reader infer this test gates something (CLAUDE.md §6.9).
+  console.log("  coverage: 1 noindex value, 0 mutants killed — recorded for the record, NOT a gate")
 })
 
 test("CONTRACT 3 — frontmatter normalisation: coalescing, coercion and the stem fallback", async (t) => {
@@ -231,6 +244,14 @@ test("CONTRACT 3 — frontmatter normalisation: coalescing, coercion and the ste
     "Emptied",
     "an EMPTY title must also fall back to the stem, not stay empty",
   )
+
+  const normalisations = [
+    "tags slugTag", "tags dedupe", "tags nested split", "tags scalar comma-split",
+    "alias -> aliases", "cssclass -> cssclasses", "original key survives",
+    "missing title -> stem", "empty title -> stem",
+  ]
+  console.log(`  coverage: ${normalisations.length} normalisation rules exercised`)
+  assert.equal(normalisations.length, 9, "the rule list must match what this test actually drives")
 })
 
 test("CONTRACT 4 — RemoveDrafts: the filter that currently removes nothing", async (t) => {

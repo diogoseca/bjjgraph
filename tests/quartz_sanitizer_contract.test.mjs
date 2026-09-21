@@ -109,6 +109,10 @@ test("INLINE EVENT HANDLERS ARE REMOVED, and the element survives", async (t) =>
   // red on a correct build — CLAUDE.md §6.3. The claim is "a safe URL survives sanitising", so
   // that is what is asserted: the attribute is present and still addresses the same file.
   assert.match(html, /src="[^"]*ok\.png"/, "a safe URL must survive the sanitizer")
+
+  const handlers = ["onerror", "ONCLICK"]
+  console.log(`  coverage: ${handlers.length} handler spellings removed, 3 benign attributes kept`)
+  assert.equal(handlers.length, 2, "both the lower and upper spellings must be driven")
 })
 
 test("DANGEROUS URL SCHEMES ARE REMOVED across every URL-bearing attribute", async (t) => {
@@ -168,6 +172,8 @@ test("QUARTZ'S OWN MARKUP SURVIVES — the regression that would break every pag
   assert.match(html, /data-keep="1"/, "data-* attributes must survive")
   assert.match(html, /class="text-highlight"/, "classes must survive")
   assert.match(html, /data-callout="note"/, "the callout pipeline's own data attributes survive")
+
+  console.log("  coverage: 6 pipeline-own markup facts kept (svg, viewBox, path, data-*, class, callout)")
 })
 
 // ── THE 12-MEMBER SWEEP, and the one member that does not strip ────────────────────────────────

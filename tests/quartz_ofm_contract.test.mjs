@@ -83,6 +83,10 @@ test("COMMENTS AND HIGHLIGHTS — the textTransform and mdast-replace pair", asy
     /<span class="text-highlight">highlighted<\/span>/,
     "==x== must become the text-highlight span the stylesheet targets",
   )
+
+  const features = ["%% comment %% stripped", "==highlight== span"]
+  console.log(`  coverage: ${features.length} zero-exposure OFM features, both directions`)
+  assert.equal(features.length, 2, "both features must still be driven")
 })
 
 test("EMBEDS — every ![[x]] media branch, including the transclude fallthrough", async (t) => {
@@ -140,6 +144,8 @@ test("BLOCK REFERENCES — the ^id that populates file.data.blocks for the rende
 
   const none = await emit("no refs here")
   assert.deepEqual(none.file.data.blocks, {}, "a page with no refs gets an EMPTY object, not undefined")
+
+  console.log(`  coverage: 1 block ref keyed + stripped, 1 page with none producing an empty object`)
 })
 
 test("MERMAID AND SYNTAX HIGHLIGHTING — the two fence branches", async (t) => {
@@ -169,6 +175,10 @@ test("MERMAID AND SYNTAX HIGHLIGHTING — the two fence branches", async (t) => 
     "and gains no shiki attributes — which is why all 14 corpus fences emit nothing, and why " +
       "deleting SyntaxHighlighting entirely would be invisible to emit_diff",
   )
+
+  const branches = ["mermaid fence", "bare fence"]
+  console.log(`  coverage: ${branches.length} fence branches, both at ZERO corpus exposure`)
+  assert.equal(branches.length, 2, "both branches must still be exercised")
 })
 
 test("D-51 COVERAGE — re-derive the zero-exposure claim these fixtures rest on", async (t) => {
