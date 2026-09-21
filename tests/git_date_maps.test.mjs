@@ -20,9 +20,21 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // source/node_modules is PROMISED by ci-validate.yml (v1.195.9). Under CI an absent module
 // fails this file on this line with the install step named; at home it skips every case
 // below with the same reason, and the count line at the end says what ran.
+// THE MANIFEST IS WHAT THE TRANSFORMER PATH RESOLVES, NOT WHAT THIS FILE IMPORTS (v1.195.12).
+// This file requires two packages; lastmod.ts, the util modules, parse.ts and the bundled
+// worker resolve twelve more, none of which a grep of tests/ can see. Listing only the two let
+// a partial install fail INSIDE a case with a raw module error instead of being named here.
+// Traced at runtime (direct resolutions from non-node_modules code); recompute with
+//   TRACE_OUT=/tmp/t.json node --import tests/artifacts/_promised_deps_trace.mjs tests/git_date_maps.test.mjs
 const deps = depsPromised(import.meta.url, {
   ...SOURCE_DEPS,
-  modules: ["tsx/esm/api", "esbuild"],
+  modules: [
+    "tsx/esm/api", "esbuild", // this file
+    "@napi-rs/simple-git", "chalk", "github-slugger", "rfdc", // lastmod.ts, util/path.ts
+    "cli-spinner", "pretty-time", "workerpool", // util/log.ts, util/perf.ts, util/trace.ts
+    "remark-parse", "remark-rehype", "to-vfile", "unified", // processors/parse.ts
+    "source-map-support", // the bundled worker
+  ],
 });
 const { test, assert, require } = deps;
 const opts = {

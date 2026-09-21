@@ -35,6 +35,8 @@ const LASTMOD = path.join(REPO, "source/quartz/plugins/transformers/lastmod.ts")
 // the absence itself and printed `SKIP … run npm install first` — green in CI, with the libgit2
 // assertion never made. Under CI the guard fails the file on this line naming the install
 // step; at home the libgit2 case skips with the same reason and the source-text pin still runs.
+// Traced at runtime on 2026-09-21 (tests/artifacts/_promised_deps_trace.mjs): this file's path
+// resolves exactly one package, so the manifest is complete as written.
 const deps = depsPromised(import.meta.url, {
   ...SOURCE_DEPS,
   modules: ["@napi-rs/simple-git"],

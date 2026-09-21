@@ -16,9 +16,19 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // source/node_modules is PROMISED by ci-validate.yml (v1.195.9). Under CI an absent module
 // fails this file on this line with the install step named; at home it skips every case
 // below with the same reason, and the count line at the end says what ran.
+// THE MANIFEST IS WHAT THE TRANSFORMER PATH RESOLVES, NOT WHAT THIS FILE IMPORTS (v1.195.12).
+// This file requires two packages; lastmod.ts, util/path.ts, Head.tsx and util/resources.tsx
+// resolve five more that no grep of tests/ can see. With only @napi-rs/simple-git hidden, the
+// two-entry guard passed and this file died at import with a raw module error (measured
+// 2026-09-21). Traced at runtime; recompute with
+//   TRACE_OUT=/tmp/t.json node --import tests/artifacts/_promised_deps_trace.mjs tests/published_time.test.mjs
 const deps = depsPromised(import.meta.url, {
   ...SOURCE_DEPS,
-  modules: ["tsx/esm/api", "preact-render-to-string"],
+  modules: [
+    "tsx/esm/api", "preact-render-to-string", // this file
+    "@napi-rs/simple-git", "chalk", "github-slugger", "rfdc", // lastmod.ts, util/path.ts
+    "preact", // components/Head.tsx, util/resources.tsx
+  ],
 });
 const { test, assert, require } = deps;
 const options = {
