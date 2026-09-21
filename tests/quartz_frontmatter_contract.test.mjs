@@ -180,6 +180,36 @@ test("CONTRACT 3 — frontmatter normalisation: coalescing, coercion and the ste
   const { file } = await runPipeline(FIXTURE, { slug: "Norm" })
   const fm = file.data.frontmatter
   assert.deepEqual(fm.tags, ["alpha", "Beta"], "tags survive slugTag without being lower-cased")
+
+  // THE ABOVE IS A RECORDED NON-KILL, AND THESE TWO FIXTURES ARE WHY IT NEEDED COMPANY.
+  // `["alpha","Beta"]` is unchanged by BOTH `slugTag` and the `Set`, so it passes on a build with
+  // either one deleted. The D-212 mutant sweep proved it: removing `slugTag` from the tag map, and
+  // removing the dedupe, both SURVIVED all 82 assertions in this directory. The corpus cannot
+  // catch them either — only 3 of 4,600 files carry a tags key at all and 0 have a per-file
+  // duplicate — so a fixture is the only thing that can (D-51/D-58).
+  const slugged = await runPipeline('---\ntitle: T\ntags: ["knee slice"]\n---\n\nx\n', { slug: "TagSlug" })
+  assert.deepEqual(
+    slugged.file.data.frontmatter.tags,
+    ["knee-slice"],
+    "slugTag turns a space into a hyphen — the fixture above cannot show this because neither of " +
+      "its values changes under slugging",
+  )
+  const deduped = await runPipeline(
+    '---\ntitle: T\ntags: ["knee slice", "knee-slice"]\n---\n\nx\n',
+    { slug: "TagDedupe" },
+  )
+  assert.deepEqual(
+    deduped.file.data.frontmatter.tags,
+    ["knee-slice"],
+    "two authored tags that SLUG TO THE SAME TOKEN collapse to one — the Set runs AFTER slugTag, " +
+      "which is the only reason this pair collides at all",
+  )
+  const nested = await runPipeline('---\ntitle: T\ntags: ["Guard/Half Guard"]\n---\n\nx\n', { slug: "TagNested" })
+  assert.deepEqual(
+    nested.file.data.frontmatter.tags,
+    ["Guard/Half-Guard"],
+    "slugTag splits on `/` and slugs each segment, preserving case and the separator",
+  )
   assert.deepEqual(fm.aliases, ["Another Name"], "the singular `alias` key coalesces into `aliases`")
   assert.deepEqual(fm.cssclasses, ["wide"], "the singular `cssclass` key coalesces into `cssclasses`")
   assert.equal(fm.alias, "Another Name", "the ORIGINAL authored key must survive normalisation")
