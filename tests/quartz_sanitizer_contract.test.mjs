@@ -30,9 +30,10 @@
 //    is not asserted here.
 //  · MEASURED NON-KILL, recorded: removing `noscript` from the tag check leaves every assertion
 //    below green except the one that names it. There is no corpus `<noscript>` to catch it.
-//  · KNOWN INCUMBENT GAP, now swept and pinned at the foot of this file: one of the twelve
-//    `URL_ATTRS` members — `ping` — is NOT sanitised, and this file reproduces that rather than
-//    fixing it (D-03). Read that test before quoting this suite as "dangerous URLs are stripped".
+//  · HISTORICAL GAP, found by the sweep at the foot of this file and closed on dev in
+//    601c521e9: array-valued `ping` now receives the same dangerous-URL check as scalar attrs.
+//    Test 5 requires no survivors while retaining the array-valued and per-probe controls.
+//    This owner-landed fix is inherited here; it does not authorize other P1-P4 byte changes.
 import { test } from "node:test"
 import assert from "node:assert/strict"
 import fs from "node:fs/promises"
@@ -176,32 +177,27 @@ test("QUARTZ'S OWN MARKUP SURVIVES — the regression that would break every pag
   console.log("  coverage: 6 pipeline-own markup facts kept (svg, viewBox, path, data-*, class, callout)")
 })
 
-// ── THE 12-MEMBER SWEEP, and the one member that does not strip ────────────────────────────────
+// ── THE 12-MEMBER SWEEP, including array-valued attributes ───────────────────────────────────
 //
-// The dangerous-URL test above exercises FIVE of `URL_ATTRS`'s members by hand. A hand-maintained
-// enumeration inside a gate is uncovered-by-default for anything added later (CLAUDE.md §6.7) —
-// and here the members it happened to omit included the only one that does not work. This sweep
-// DERIVES the member list from `ofm.ts` every run and refuses to run on a name it has no fixture
-// for, so growing the set turns this RED instead of silently widening the blind spot.
+// The hand-written dangerous-URL cases omitted the original `ping` defect. This sweep derives
+// URL_ATTRS from the producer and checks both fixture directions: a new member needs a case,
+// and deleting a member cannot silently delete its case. Every probe element must survive so
+// a missing element cannot masquerade as a successfully stripped attribute.
 //
-// THE FINDING, pinned as INCUMBENT rather than fixed (D-03, Phase P1–P4). `ping` is the only
-// member of `URL_ATTRS` that `property-information` marks space-separated, so hast stores its
-// value as an ARRAY. `stripDangerousHtml`'s guard is `typeof val === "string"` (`ofm.ts:569`),
-// which is false for an array, so the attribute is never tested and a `javascript:` URL in a
-// `ping` reaches the DOM. Measured end-to-end through the real pipeline: 11 of 12 strip, `ping`
-// does not. Corpus exposure TODAY IS ZERO —
-//   grep -rlE '<[a-zA-Z][^>]*\sping=' content --include='*.md' | wc -l   # 0
-// — so it is latent, not live, on a corpus an LLM content bot writes to daily. Repairing it would
-// change emitted bytes, which makes it a DECISION for the owner and not part of the re-host.
-// This test therefore asserts the gap still exists: if it closes, that is a byte change and this
-// goes red on purpose, naming it.
+// HISTORICAL FINDING: hast represents `ping` as an array, which the old string-only guard never
+// examined. The original sweep observed 11 of 12 attrs stripped and `ping` surviving. Dev
+// 601c521e9 fixed that path. The merge-down deliberately first ran the old spec and observed
+// test 5 fail with actual [] versus expected ["ping"], after the 12-of-12 coverage line.
+// Value shape must no longer decide which dangerous URL survives. The array-valued population
+// and each probe-present assertion remain controls against a vacuous zero.
 //
-// MUTANTS RUN AGAINST THIS TEST, all four killed (ofm.ts restored byte-identical afterwards):
-//   M1  repair `ping` (coerce an array value to a string before the guard)  -> RED
-//   M2  drop `"cite"` from URL_ATTRS                                        -> RED  (see below)
-//   M3  add an unfixtured array-valued member (`"rel"`) to URL_ATTRS        -> RED
-//   M4  drop `"ping"` from URL_ATTRS                                        -> RED
-test("EVERY `URL_ATTRS` MEMBER IS SWEPT — 11 strip, `ping` does not, and that is INCUMBENT", async (t) => {
+// HISTORICAL MUTANT RESULTS (before dev 601c521e9; not re-run by this merge-down):
+//   M1  repair `ping`                         -> formerly RED; now shipped dev behaviour
+//   M2  drop "cite" from URL_ATTRS            -> RED; fixture-superset guard retained
+//   M3  add an unfixtured array member "rel"  -> RED; missing-fixture guard retained
+//   M4  drop "ping" from URL_ATTRS            -> RED; fixture-superset guard retained
+// The old corpus-absence observation is not remeasured or used to justify this contract update.
+test("EVERY `URL_ATTRS` MEMBER IS SWEPT — scalar and array values leave no dangerous URL survivors", async (t) => {
   if (skip) return t.skip("harness unavailable")
 
   const ofmSrc = await fs.readFile(
@@ -273,9 +269,9 @@ test("EVERY `URL_ATTRS` MEMBER IS SWEPT — 11 strip, `ping` does not, and that 
   console.log(`  coverage: ${probed} of ${names.length} URL_ATTRS members swept end-to-end`)
   assert.equal(probed, names.length, "every derived member must actually have been driven")
 
-  // The MECHANISM, asserted rather than described. Pinning the literal list `["ping"]` alone would
-  // be a constant with a test around it; this says WHY, so a future array-valued member added to
-  // URL_ATTRS is predicted by the same rule instead of quietly joining the gap.
+  // The array-valued path must still be exercised: zero survivors is meaningless if the
+  // sweep stopped reaching that value shape. Its members must receive the same protection
+  // as scalar values; the per-case probe-present control above proves the elements survived.
   const { html: propertyInfo } = await import(
     pathToFileURL(sourceRequire().resolve("property-information")).href
   )
@@ -283,18 +279,15 @@ test("EVERY `URL_ATTRS` MEMBER IS SWEPT — 11 strip, `ping` does not, and that 
     const info = propertyInfo.property[n]
     return !!info && (info.spaceSeparated || info.commaSeparated || info.commaOrSpaceSeparated)
   })
+  assert.ok(arrayValued.length > 0, "the sweep must exercise at least one array-valued URL attribute")
   assert.deepEqual(
-    survivors,
-    arrayValued,
-    "the attributes that survive sanitising must be exactly the attributes hast stores as an " +
-      "array — that IS the defect: `typeof val === \"string\"` never fires on them",
+    survivors.filter((name) => arrayValued.includes(name)),
+    [],
+    "array-valued URL attributes must be sanitised too; value shape cannot exempt a dangerous URL",
   )
   assert.deepEqual(
     survivors,
-    ["ping"],
-    "INCUMBENT BEHAVIOUR. 11 of 12 URL_ATTRS members strip a javascript: URL; `ping` does not. " +
-      "If this went red because the list SHRANK, the sanitizer got fixed — that is an emitted-byte " +
-      "change and needs an owner decision, not a silent port. If it GREW, a new array-valued " +
-      "attribute joined the gap",
+    [],
+    "dev 601c521e9 contract: no URL_ATTRS member may retain its dangerous URL",
   )
 })
