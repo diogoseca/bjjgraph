@@ -1,67 +1,23 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/build-env-a-v2-8eae3a473",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/recapture3-programme-5af68d661",
   "content_provenance": {
-   "capture_git_head": "8eae3a4739f1f948d68c18b937c564774f7c6c60",
-   "capture_id": "d04d0df23beb4f15920384cc7c83637d",
-   "completion_scope": "Same scheduled build; initial SEO step 6 stopped, then approved checkpoint re-seed and steps 6-18 completed. Original failed receipt retained.",
+   "capture_git_head": "eec3122be7b5806e9800593dbc1d7d7718bde4c0",
+   "capture_id": "03dca6adc25245c387e63d869c4095d1",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6410,
    "content_md": 4600,
-   "content_tree": "1b82f2e54300964745f0247494bb80683dc0c5b5",
-   "dirty_paths_end": [
-    {
-     "bytes": 21865,
-     "kind": "file",
-     "path": "scripts/check_build_fingerprint.py",
-     "sha256": "16d8a5865f3181d03c49b4ee008fb9305e795e2bdc074fa1de93b3c9399d169f",
-     "status": " M"
-    },
-    {
-     "bytes": 21633,
-     "kind": "file",
-     "path": "scripts/check_seo_parity.py",
-     "sha256": "7165df40895c3989a1e4189aa42c4fc47ff69b9be02783e7b5c0f26fa9b39a63",
-     "status": " M"
-    },
-    {
-     "bytes": 2050,
-     "kind": "file",
-     "path": "tests/artifacts/first_hand_payload.json",
-     "sha256": "2acbf4cd61364a6eff4b08d28ee18adc18f8fb611714239a6e21a80df5be68a1",
-     "status": " M"
-    },
-    {
-     "bytes": 185970,
-     "kind": "file",
-     "path": "tests/artifacts/seo_baseline.json",
-     "sha256": "a965ea2dcddeb870e86371111374dae8c66caea9ffb59183ae6e16406297bcd2",
-     "status": " M"
-    },
-    {
-     "bytes": 26583,
-     "kind": "file",
-     "path": "tests/quartz_dates_contract.test.mjs",
-     "sha256": "6c4d6b33a8cf538d16bd8090ed0b66aeb12e65df38b0c8b96f9d6c1208a2e819",
-     "status": " M"
-    },
-    {
-     "bytes": 2941,
-     "kind": "file",
-     "path": "tests/quartz_v_seo_exception.test.mjs",
-     "sha256": "25efb1de6d2546aafb04fb40154b9f9d97b7ab5e64fe67c863c51b4d0ac797b7",
-     "status": "??"
-    }
-   ],
+   "content_tree": "a95f531ba24b1304a4eaf57962c42dcc611bff69",
+   "dirty_paths_end": [],
    "dirty_paths_start": [],
    "output_identity": {
-    "files": 15764,
-    "sha256": "e6f20ca5c0e54cb1fe6d6c55aee8a82faec8ac79a5aa4c47f6ca569cab4ef65e"
+    "files": 15836,
+    "sha256": "8c012a072cbafcca3af93e33bcdb6db64495e731235b7c44e7c5a9ebb1f9ff90"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/v-harness/source/public",
-    "/home/user/bjj-orchestrator/golden/build-env-a-v2-8eae3a473"
+    "/home/user/bjj-orchestrator/golden/recapture3-programme-5af68d661"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -78,7 +34,7 @@
    },
    "static/neural/app/neural.js": {
     "bytes": 579487,
-    "sha256": "713d69c0eb65f5c2656304022d201e358438cf0cf9d583a77aff4e4e262f125c"
+    "sha256": "164602d1944d774a9907a9dcb95ac0206fb353f57d9265b4579acd7d71c81718"
    },
    "static/neural/app/reading.css": {
     "bytes": 2104,
@@ -113,7 +69,7 @@
   "binary": 12,
   "css": 17,
   "gzip": 1,
-  "html": 6139,
+  "html": 6211,
   "js": 31,
   "json_opaque": 4948,
   "json_semantic": 5,
@@ -133,24 +89,24 @@
   "dev": 59,
   "markdown": 4598,
   "static": 4962,
-  "tags": 1
+  "tags": 73
  },
  "census": {
   "article_headings": 94279,
   "article_links": 213027,
-  "files": 15764,
+  "files": 15836,
   "gzip_files": 1,
-  "head_links": 36919,
-  "html_pages": 6139,
-  "jsonld_blocks": 33440,
-  "meta_tags": 122580,
-  "outside_links": 148861,
-  "pages_with_article": 6128,
-  "pages_with_canonical": 6131,
-  "pages_with_description": 6134,
-  "pages_with_og_title": 6128,
-  "pages_with_outside_links": 6135,
-  "pages_with_title": 6139,
+  "head_links": 37351,
+  "html_pages": 6211,
+  "jsonld_blocks": 33512,
+  "meta_tags": 123876,
+  "outside_links": 149847,
+  "pages_with_article": 6200,
+  "pages_with_canonical": 6203,
+  "pages_with_description": 6206,
+  "pages_with_og_title": 6200,
+  "pages_with_outside_links": 6207,
+  "pages_with_title": 6211,
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
@@ -158,7 +114,7 @@
  },
  "distinct_values": {
   "name=description": 4562,
-  "property=og:title": 4602
+  "property=og:title": 4674
  },
  "jsonld_types": {
   "Article": 26,
@@ -168,52 +124,52 @@
   "FAQPage": 3120,
   "HowTo": 2968,
   "ItemList": 5969,
-  "Organization": 6128,
+  "Organization": 6200,
   "WebApplication": 2,
   "WebPage": 5961,
   "WebSite": 2
  },
  "markers": {
-  "body:data-current-role": 6128,
-  "body:data-slug": 6128,
-  "class:category-nav": 6128,
-  "class:popover-hint": 6128,
-  "class:search": 6128,
+  "body:data-current-role": 6200,
+  "body:data-slug": 6200,
+  "class:category-nav": 6200,
+  "class:popover-hint": 6200,
+  "class:search": 6200,
   "id:page-graph-data": 4544,
-  "id:quartz-body": 6128,
-  "id:quartz-root": 6128,
-  "id:sidebar-overlay": 6128,
-  "js:__rollPositions": 6128,
+  "id:quartz-body": 6200,
+  "id:quartz-root": 6200,
+  "id:sidebar-overlay": 6200,
+  "js:__rollPositions": 6200,
   "meta:robots": 12,
-  "tag:article": 6128,
-  "tag:footer": 6128,
+  "tag:article": 6200,
+  "tag:footer": 6200,
   "tag:main": 6078,
-  "tag:nav": 6129
+  "tag:nav": 6201
  },
  "meta_keys": {
   "charset=UTF-8": 6,
-  "charset=utf-8": 6133,
+  "charset=utf-8": 6205,
   "http-equiv=refresh": 3,
-  "name=description": 6134,
-  "name=generator": 6128,
+  "name=description": 6206,
+  "name=generator": 6200,
   "name=robots": 12,
-  "name=twitter:card": 6128,
-  "name=twitter:description": 6128,
-  "name=twitter:image": 6128,
-  "name=twitter:image:alt": 6128,
-  "name=twitter:title": 6128,
-  "name=viewport": 6136,
+  "name=twitter:card": 6200,
+  "name=twitter:description": 6200,
+  "name=twitter:image": 6200,
+  "name=twitter:image:alt": 6200,
+  "name=twitter:title": 6200,
+  "name=viewport": 6208,
   "property=article:modified_time": 6118,
   "property=article:published_time": 6118,
-  "property=og:description": 6128,
-  "property=og:height": 6128,
-  "property=og:image": 6128,
-  "property=og:locale": 6128,
-  "property=og:site_name": 6128,
-  "property=og:title": 6128,
-  "property=og:type": 6128,
-  "property=og:url": 6128,
-  "property=og:width": 6128
+  "property=og:description": 6200,
+  "property=og:height": 6200,
+  "property=og:image": 6200,
+  "property=og:locale": 6200,
+  "property=og:site_name": 6200,
+  "property=og:title": 6200,
+  "property=og:type": 6200,
+  "property=og:url": 6200,
+  "property=og:width": 6200
  },
  "zeros": {
   "gzip_decompress_errors": 0,

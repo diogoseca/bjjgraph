@@ -8,14 +8,16 @@ without claiming current-source parity. The content ratchet is otherwise unchang
 hashes, so a copied old source/public cannot silently re-arm the baseline. Controls:
 golden_provenance_selftest.py. Content identity does not prove code/date/environment identity.
 
-X09_ASYMMETRIC_TEXT_PENDING is a named provisional exception, not a lowered ratchet:
-the retained floor is 9775 and only the captured 3570-character text/hash may match.
-Every other route and field still gates. A declared exception must match exactly once;
-a later --update preserves it or refuses, never silently lowers the floor. CTO owns
-classification of the text loss versus extraction; tests/quartz_v_seo_exception.test.mjs
-pins the exact exception and kills changed-text, further-loss and unrelated-field mutants.
-The corpus now has zero named tags. tags/index.html retains the TagPage sample;
-B's TagPage fixture in emitter_filesystem.test.mjs is the only named-tag branch gate.
+X09_ASYMMETRIC_TEXT_PENDING is retired from the baseline by dev's reviewed re-arm
+(D-251, floor 3034). Its mechanism is dormant, retained by instruction, and tested by
+tests/quartz_v_seo_exception.test.mjs; a fixture green does not mean it is corpus-active.
+If explicitly declared again, it still requires exactly the historical text/hash/floor.
+
+Tag pages keep an empty article and put their crawlable listing beside it. For the
+two named tag samples, extraction includes the enclosing TagContent popover-hint;
+header/sidebar/footer chrome stays excluded. tests/quartz_v_seo_tag.test.mjs pins
+exact text and links and kills listing/link removal. This is sample coverage, not
+a census of all named tag routes or browser behavior (F owns the tag count floor).
 
 The Neural variant must NEVER regress the crawlable/indexable surface: the static HTML a
 crawler (or a no-JS visitor) receives has to stay as rich as the pre-Neural baseline. The
@@ -41,6 +43,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "source/public"
@@ -73,7 +76,8 @@ SAMPLE = [
     # makes its PRs noisy for no extra coverage (the recon's option (b)).
     "404.html",                              # its own emitter (404.tsx); baseDir differs in Head.tsx
     "Positions/index.html",                  # FolderPage — a whole emitter, previously unsampled
-    "tags/index.html",                       # X-09 removed all 10 named tags; see scope above
+    "tags/index.html",                       # Tag index and its sibling listings
+    "tags/beginner.html",                    # Named TagPage restored by X-12
     "Principles.html",                       # Principles hub
     "Principles/Action-and-Reaction.html",   # Principles leaf — a reference page, not a graph node
     "Learning.html",                         # Learning hub
@@ -119,8 +123,9 @@ def _site_is_whole() -> tuple[bool, str]:
     return True, f"  · whole-site guard: {count:,} HTML files (tier-0 floor {floor:,})"
 
 
-# Scope note, since two findings have now hidden in it: `_extract()` narrows to the <article>
-# when there is one, so ANYTHING outside it is invisible to this gate — including
+# Scope note: ordinary pages narrow to <article>; tag samples use the containing
+# TagContent popover-hint, because their listing is an article sibling. Content outside
+# those regions is invisible to this gate — including
 # `#sidebar-overlay` (CategoryNav's six category links) and every other `body >` sibling of
 # `#quartz-root`. The homepage's baseline links come from authored prose in content/index.md,
 # not from CategoryNav. Layout is likewise out of scope; e2e/journeys/static-article-layout.spec.ts
@@ -170,7 +175,52 @@ def _devolatile(node):
     return node
 
 
-def extract_seo(doc: str) -> dict:
+def _tag_content(body: str) -> str:
+    """Select the one popover-hint containing article, preserving its sibling listing.
+
+    Track div nesting so nested listings cannot truncate the region. Header popovers
+    have no article and cannot supply a false positive. No region means empty content,
+    which fails an armed floor; ambiguous/unclosed regions are an instrument error.
+    """
+    class TagRegion(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=False)
+            self.stack, self.regions = [], []
+            self.offsets = [0]
+            for line in body.splitlines(keepends=True):
+                self.offsets.append(self.offsets[-1] + len(line))
+
+        def absolute_position(self):
+            line, column = self.getpos()
+            return self.offsets[line - 1] + column
+
+        def handle_starttag(self, tag, attrs):
+            if tag == 'div':
+                classes = (dict(attrs).get('class') or '').split()
+                self.stack.append({'start': self.absolute_position(), 'popover': 'popover-hint' in classes,
+                                   'article': False})
+            elif tag == 'article':
+                for parent in reversed(self.stack):
+                    if parent['popover']:
+                        parent['article'] = True
+                        break
+
+        def handle_endtag(self, tag):
+            if tag == 'div' and self.stack:
+                region = self.stack.pop()
+                if region['popover'] and region['article']:
+                    self.regions.append(body[region['start']:self.absolute_position()])
+
+    parser = TagRegion()
+    parser.feed(body)
+    parser.close()
+    if (len(parser.regions) > 1 or
+            any(r['popover'] and r['article'] for r in parser.stack)):
+        raise ValueError('tag content region is ambiguous or unclosed')
+    return parser.regions[0] if parser.regions else ''
+
+
+def extract_seo(doc: str, *, route: str = '') -> dict:
     head = doc.split("</head>", 1)[0]
     out = {"meta": {}, "ldjson": [], "title": None, "canonical": None}
 
@@ -206,7 +256,7 @@ def extract_seo(doc: str) -> dict:
     # crawlable content: strip scripts/styles, take the <article> (or body) text + link targets
     body = doc.split("</head>", 1)[-1]
     art = re.search(r"<article\b[^>]*>(.*?)</article>", body, re.S)
-    region = art.group(1) if art else body
+    region = _tag_content(body) if route.startswith('tags/') else (art.group(1) if art else body)
     links = sorted(set(re.findall(r'<a\b[^>]*href="([^"]+)"', region)))
     text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", region, flags=re.S)
     text = re.sub(r"<[^>]+>", " ", text)
@@ -225,7 +275,7 @@ def snapshot() -> dict:
         if not f.exists():
             missing.append(route)
             continue
-        snap[route] = extract_seo(f.read_text(encoding="utf-8", errors="replace"))
+        snap[route] = extract_seo(f.read_text(encoding="utf-8", errors="replace"), route=route)
     if missing:
         print(f"WARNING: {len(missing)} sample route(s) not built: {missing}", file=sys.stderr)
     return snap
@@ -368,6 +418,9 @@ def main():
         if set(cur) != set(SAMPLE):
             sys.exit('ERROR baseline update refused: every named sample route must exist')
         previous = json.loads(BASELINE.read_text()) if BASELINE.exists() else {}
+        tag_rows = [route for route in SAMPLE if route.startswith('tags/')]
+        if any(cur[route]['content_len'] <= 0 or not cur[route]['links'] for route in tag_rows):
+            raise ValueError('tag baseline update requires positive crawlable text and links for every tag sample')
         for route, snap in cur.items():
             snap["content_floor"] = int(snap["content_len"] * CONTENT_FLOOR_RATIO)
         try:
@@ -381,12 +434,15 @@ def main():
             "volatile_meta": list(VOLATILE_META),
             "volatile_jsonld_keys": list(VOLATILE_JSONLD_KEYS),
             "content_provenance": receipt,
+            "tag_content_region": "popover-hint containing article, including sibling listings",
             **({'provisional_exceptions': provisional} if provisional else {}),
         }
         ContentGuard(cur, args, 'updated SEO baseline').finish()
         BASELINE.parent.mkdir(parents=True, exist_ok=True)
         BASELINE.write_text(json.dumps(cur, indent=1, ensure_ascii=False, sort_keys=True))
         print(f"baseline written: {len(cur) - 1} routes -> {BASELINE}")
+        for route in tag_rows:
+            print(f"  tag coverage: {route} content_len={cur[route]['content_len']} links={len(cur[route]['links'])}")
         print(
             "NOTE: --update re-arms the ratchet. Commit it separately from any deletion, "
             "and say in the commit body WHY the surface legitimately changed."
@@ -436,4 +492,7 @@ if __name__ == "__main__":
         main()
     except ProvenanceError as e:
         print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)
+    except ValueError as e:
+        print(f'EXIT 2 SEO_EXTRACTION_INVALID: {e}')
         sys.exit(2)
