@@ -383,6 +383,23 @@ def capture_driver_suite():
         result = run('untracked-content', 2)
         assert 'fully tracked content' in result.stderr and not (dest / 'untracked-content').exists()
         (root / 'content/added.md').unlink()
+        # Same committed tool, a different engine checkout with NO capture scripts.
+        # A path option that still builds/attests the tool repo must fail this control.
+        foreign = Path(tmp) / 'foreign'; foreign.mkdir()
+        (foreign / 'source').mkdir(); (foreign / 'content').mkdir()
+        (foreign / 'source/package-lock.json').write_text('{}')
+        (foreign / 'content/page.md').write_text('different engine content')
+        subprocess.run(['git', 'init', '-q', str(foreign)], check=True)
+        subprocess.run(['git', '-C', str(foreign), 'add', 'source/package-lock.json', 'content/page.md'], check=True)
+        subprocess.run(['git', '-C', str(foreign), '-c', 'user.name=Fixture', '-c', 'user.email=fixture@example.invalid',
+                        'commit', '-qm', 'external engine fixture'], check=True)
+        steps.write_text(json.dumps(plan))
+        run('external-checkout', 0, '--source-repo', str(foreign))
+        external = json.loads((dest / 'external-checkout.content.json').read_text())
+        assert external['capture_git_head'] == subprocess.check_output(['git','-C',str(foreign),'rev-parse','HEAD'],text=True).strip()
+        assert external['content_tree'] != receipt['content_tree']
+        assert (foreign / 'order').read_text() == '123' and not (foreign / 'scripts').exists()
+        assert (dest / 'external-checkout/index.html').read_text() == html
         steps.write_text(json.dumps(plan)); (root / 'source/.env').write_text('FIXTURE=not-secret')
         run('ambient-dotenv', 2)
         print(f'PASS coverage: {checked} capture-driver cases; no full build or network command executed')

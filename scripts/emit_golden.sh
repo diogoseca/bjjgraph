@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Execute one supplied emit chain, retain its receipt, then snapshot and fingerprint.
 #
-#   bash scripts/emit_golden.sh DEST LABEL --steps STEPS.json [--check-steps]
+#   bash scripts/emit_golden.sh DEST LABEL --steps STEPS.json [--source-repo REPO] [--check-steps]
+# --source-repo builds/attests that checkout using THIS committed capture tool and
+# extractor. It does not copy the tool into or change the checkout's engine.
 #
 # The caller schedules the real run and holds the programme mutex in THIS invocation:
 #   source /home/user/bjj-orchestrator/quartz/acquire-build-lock.sh mgr-cx-3 'Env B capture' && bash scripts/emit_golden.sh DEST LABEL --steps STEPS.json
@@ -46,15 +48,17 @@ import sys
 import time
 import uuid
 
-repo = Path(sys.argv[1])
-sys.path.insert(0, str(repo / 'scripts'))
+tool_repo = Path(sys.argv[1])
+sys.path.insert(0, str(tool_repo / 'scripts'))
 from golden_provenance import begin_capture, finish_capture, ProvenanceError
 parser = argparse.ArgumentParser(description='Execute and attest a supplied emit chain; never overwrite a golden.')
 parser.add_argument('dest', type=Path)
 parser.add_argument('label')
 parser.add_argument('--steps', type=Path)
 parser.add_argument('--check-steps', action='store_true')
+parser.add_argument('--source-repo', type=Path, default=tool_repo)
 args = parser.parse_args(sys.argv[2:])
+repo = args.source_repo.resolve()
 ENV_KEYS = ('POSTHOG_API_KEY', 'POSTHOG_API_HOST', 'SUPABASE_URL', 'SUPABASE_ANON_KEY',
             'AFFILIATE_REF', 'SHOW_BREADCRUMBS', 'CI', 'TZ', 'TMPDIR')
 
@@ -163,6 +167,9 @@ def main():
     head = command(['git', 'rev-parse', 'HEAD'])
     dirty_sha = digest(subprocess.check_output(['git', 'diff', '--binary', 'HEAD'], cwd=repo))
     metadata = [f'label {args.label}', f'capture_id {capture_id}', f'repo {repo}', f'git_head {head}',
+        f'capture_tool_repo {tool_repo}',
+        f'capture_tool_sha256 {digest((tool_repo / "scripts/emit_golden.sh").read_bytes())}',
+        f'extractor_sha256 {digest((tool_repo / "scripts/emit_fingerprint.py").read_bytes())}',
         f'git_dirty_diff_sha256 {dirty_sha}', f'git_status_paths {len(command(["git", "status", "--porcelain"]).splitlines())}',
         f'git_dirty_paths_json {json.dumps(source_receipt["dirty_paths_start"], ensure_ascii=False)}',
         f'capture_start_utc {utc()}', f'capture_year {runtime["year"]}', f'footer_rollover_year {runtime["year"] + 1}',
@@ -222,7 +229,7 @@ def main():
         f.write(f'git_dirty_paths_end_json {json.dumps(completed_receipt["dirty_paths_end"], ensure_ascii=False)}\n')
         f.write(f'completed_steps {len(steps)}\ncompleted_preflight_steps {len(preflight)}\nsnapshot_files {len(files)}\nsnapshot_html {pages}\n')
     print(f'PASS executed_steps={len(steps)}, snapshot_files={len(files)}, html={pages}', flush=True)
-    return subprocess.call([sys.executable, str(repo / 'scripts/emit_fingerprint.py'), str(prefix),
+    return subprocess.call([sys.executable, str(tool_repo / 'scripts/emit_fingerprint.py'), str(prefix),
                             '--out', str(artifact('.json.gz')), '--jobs', '1', '--label', f'{args.label} capture={capture_id} @ {head}',
                             '--source-repo', str(repo), '--content-receipt', str(artifact('.capture-inputs.json')),
                             '--write-content-receipt', str(artifact('.content.json'))])
