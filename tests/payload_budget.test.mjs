@@ -48,6 +48,18 @@ function coverage(r, html, tags) {
   assert.ok(r.out.includes(`tier-0 coverage: 5 floor checks over ${html} HTML files; named tag routes=${tags}`), r.out)
 }
 
+test('coverage summary rejects excess, deficient, absent and duplicated count reports', () => {
+  const line = '  · tier-0 coverage: 5 floor checks over 6 HTML files; named tag routes=2'
+  coverage({ out: line }, 6, 2)
+  for (const wrong of [
+    line.replace('routes=2', 'routes=20'),
+    line.replace('routes=2', 'routes=1'),
+    line.replace('5 floor', '50 floor'),
+    line.replace('6 HTML', '60 HTML'),
+    '', `${line}\n${line}`,
+  ]) assert.throws(() => coverage({ out: wrong }, 6, 2), assert.AssertionError)
+})
+
 test('tag census counts exactly two named routes and excludes index, lookalikes, assets and directories', (t) => {
   const f = fixture(t, { htmlDirectory: true })
   assert.equal(owned.html_paths.length, 6)
