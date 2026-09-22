@@ -37,7 +37,7 @@ function fixture(t, { htmlDirectory = false } = {}) {
     'neural.eager_gzip_bytes': { gate: 'scripts/check_payload_budget.py', target: 100, action: 200, delta_cap: 100, baseline: 0 },
   } }))
   const run = (...args) => {
-    const r = spawnSync('python3', ['-B', path.join(root, 'scripts/check_payload_budget.py'), ...args], { encoding: 'utf8', timeout: 30000 })
+    const r = spawnSync('python3', ['-B', path.join(root, 'scripts/check_payload_budget.py'), '--jobs', '1', ...args], { encoding: 'utf8', timeout: 30000 })
     assert.ifError(r.error)
     return { status: r.status, out: r.stdout + r.stderr }
   }
