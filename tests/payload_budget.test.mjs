@@ -13,7 +13,7 @@ import { createHash } from 'node:crypto'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const owned = JSON.parse(fs.readFileSync(new URL('./artifacts/payload_tag_floor.json', import.meta.url)))
 const sha = (bytes) => createHash('sha256').update(bytes).digest('hex')
-function fixture(t) {
+function fixture(t, { htmlDirectory = false } = {}) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'payload-tag-floor-'))
   t.after(() => fs.rmSync(root, { recursive: true, force: true }))
   const write = (rel, bytes) => {
@@ -25,7 +25,7 @@ function fixture(t) {
     write(`scripts/${script}`, fs.readFileSync(path.join(ROOT, 'scripts', script)))
   for (const rel of owned.html_paths) write(`source/public/${rel}`, owned.html)
   for (const [rel, bytes] of Object.entries(owned.other_files)) write(`source/public/${rel}`, bytes)
-  for (const rel of owned.directories) fs.mkdirSync(path.join(root, 'source/public', rel), { recursive: true })
+  for (const rel of htmlDirectory ? owned.directories : []) fs.mkdirSync(path.join(root, 'source/public', rel), { recursive: true })
   const budgetPath = path.join(root, 'tests/artifacts/budget_site.json')
   const budget = {
     _meta: { format: 2, floors_note: 'Owned fixture: preserve every deliberate floor', tag_routes_floor_note: 'Owned fixture tag floor' },
@@ -49,7 +49,7 @@ function coverage(r, html, tags) {
 }
 
 test('tag census counts exactly two named routes and excludes index, lookalikes, assets and directories', (t) => {
-  const f = fixture(t)
+  const f = fixture(t, { htmlDirectory: true })
   assert.equal(owned.html_paths.length, 6)
   assert.equal(owned.named_tag_routes.length, 2)
   const r = f.run()
