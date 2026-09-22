@@ -1,6 +1,7 @@
 ---
 title: "Change the rhythm | BJJ Learning | BJJ Graph"
 description: "Use a measured pause, a direction change, or a different entry to test a familiar response. Keep your position sound and judge the change by what it actually opens."
+tags: ["bjj", "strategy", "pattern-breaking", "tempo", "unpredictability", "grips", "angles", "adaptation"]
 ---
 
 <script type="application/ld+json">

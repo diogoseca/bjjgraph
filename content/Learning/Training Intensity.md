@@ -1,6 +1,7 @@
 ---
 title: "Choose the right pace | BJJ Learning | BJJ Graph"
 description: "Choose a useful pace for BJJ practice by agreeing on resistance, speed, and goals with your partner, then adjusting the round when the task breaks down."
+tags: ["bjj", "learning", "training", "training-intensity"]
 ---
 
 <script type="application/ld+json">

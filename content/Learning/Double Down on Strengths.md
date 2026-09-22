@@ -1,6 +1,7 @@
 ---
 title: "Build around a reliable game | BJJ Learning | BJJ Graph"
 description: "Build a BJJ game around positions you can reach and use, then improve the entries, answers, and recoveries that keep your strongest sequence available."
+tags: ["bjj", "learning", "strategy", "double-down-on-strengths"]
 ---
 
 <script type="application/ld+json">

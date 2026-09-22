@@ -1,6 +1,7 @@
 ---
 title: "Attack with a fallback | BJJ Learning | BJJ Graph"
 description: "Build BJJ attacks that preserve useful control when defended by practicing the entry, the likely response, and the position where you intend to recover."
+tags: ["bjj", "learning", "strategy", "committed-techniques"]
 ---
 
 <script type="application/ld+json">

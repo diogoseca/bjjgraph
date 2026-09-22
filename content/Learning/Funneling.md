@@ -1,6 +1,7 @@
 ---
 title: "Narrow their options | BJJ Learning | BJJ Graph"
 description: "Use grips and position to limit a partner’s useful choices without assuming a forced reaction. Practice one clear route and keep control when a different answer appears."
+tags: ["bjj", "strategy", "funneling", "control", "game-planning", "option-reduction"]
 ---
 
 <script type="application/ld+json">

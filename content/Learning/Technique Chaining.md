@@ -1,6 +1,7 @@
 ---
 title: "Connect your attacks | BJJ Learning | BJJ Graph"
 description: "Build short BJJ combinations around real defensive cues and shared controls. Practice the handoff between actions, including how to stop when the next move is unavailable."
+tags: ["bjj", "strategy", "technique-chaining", "combinations", "attack-sequences", "offense"]
 ---
 
 <script type="application/ld+json">

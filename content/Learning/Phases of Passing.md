@@ -1,6 +1,7 @@
 ---
 title: "Finish the pass you started | BJJ Learning | BJJ Graph"
 description: "Break down a guard pass into clearing connections, moving beyond the legs, and settling control. Find where your passes fail and practice that part of the exchange."
+tags: ["bjj", "strategy", "guard-passing", "phases", "top-game", "disentangle", "control", "consolidation"]
 ---
 
 <script type="application/ld+json">

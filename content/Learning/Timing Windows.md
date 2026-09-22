@@ -1,6 +1,7 @@
 ---
 title: "Recognize the opening | BJJ Learning | BJJ Graph"
 description: "Find usable moments during a grip change, weight shift, or transition. Practice recognizing when an opening begins and ends without relying on speed or a lucky guess."
+tags: ["bjj", "strategy", "timing", "transitions", "awareness", "offensive-timing"]
 ---
 
 <script type="application/ld+json">
