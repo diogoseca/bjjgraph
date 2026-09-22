@@ -1,6 +1,7 @@
 ---
 title: "Hide the next attack | BJJ Learning | BJJ Graph"
 description: "Build attacks that share grips and starting movements so your next choice is harder to read. Use credible threats, controlled changes, and a clear positional fallback."
+tags: ["bjj", "strategy", "feints", "misdirection", "setups", "deception", "timing", "submissions"]
 ---
 
 <script type="application/ld+json">

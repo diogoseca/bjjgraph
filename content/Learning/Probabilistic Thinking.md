@@ -1,6 +1,7 @@
 ---
 title: "Choose with the downside in mind | BJJ Learning | BJJ Graph"
 description: "Compare BJJ options by the control you have, the responses you expect, and where failure leaves you, without treating a small training sample as certainty."
+tags: ["bjj", "learning", "strategy", "probabilistic-thinking"]
 ---
 
 <script type="application/ld+json">

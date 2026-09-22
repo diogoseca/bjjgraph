@@ -176,6 +176,17 @@ class LearningStatic(unittest.TestCase):
         return pages.load_template("Learning", "Learning.md.jinja2").render(
             **data, reading_links=[{"title": "A focused guide", "url": "/Systems/Target-Guide"}], resolve=lambda name: name)
 
+    def test_frontmatter_preserves_tags_for_quartz_tag_routes(self):
+        # The three migrated beginner guides used to carry handwritten frontmatter.
+        # Losing their tags silently removes /tags/beginner from the Quartz build.
+        data = fixture()
+        data["tags"] = ["learning", "beginner", "label: with # punctuation"]
+        frontmatter = self.render(data).split("---", 2)[1]
+        tags = re.search(r"^tags: (.+)$", frontmatter, re.M)
+        self.assertIsNotNone(tags, "Quartz needs tags in the generated frontmatter")
+        # JSON arrays are valid YAML flow sequences; punctuation must remain quoted.
+        self.assertEqual(json.loads(tags.group(1)), data["tags"])
+
     def test_native_previews_complete_content_and_safe_structured_data(self):
         data = fixture()
         data["display_title"] = 'Questions & "answers" <today>'

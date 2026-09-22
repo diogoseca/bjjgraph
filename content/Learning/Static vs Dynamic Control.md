@@ -1,6 +1,7 @@
 ---
 title: "Hold when you can, move when you need to | BJJ Learning | BJJ Graph"
 description: "Learn when to settle a pin and when to change position as frames appear. Practice staying connected through transitions without turning every escape into a scramble."
+tags: ["bjj", "strategy", "control", "pinning", "transitions", "pressure", "top-game", "movement"]
 ---
 
 <script type="application/ld+json">

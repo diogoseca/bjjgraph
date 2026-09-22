@@ -1,6 +1,7 @@
 ---
 title: "Understand the position you are in | BJJ Learning | BJJ Graph"
 description: "Recognize BJJ positions from both sides, choose a useful next goal, and distinguish practical control from the specific actions rewarded by competition points."
+tags: ["bjj", "learning", "positions", "beginner", "strategy"]
 ---
 
 <script type="application/ld+json">

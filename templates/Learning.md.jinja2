@@ -3,6 +3,7 @@
 ---
 title: {{ (page_title ~ " | BJJ Learning | BJJ Graph") | jsonstr }}
 description: {{ description | jsonstr }}
+tags: [{% for tag in tags %}{{ tag | jsonstr }}{{ ", " if not loop.last else "" }}{% endfor %}]
 ---
 
 <script type="application/ld+json">
