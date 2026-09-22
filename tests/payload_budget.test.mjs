@@ -1,6 +1,8 @@
 // TAG-FLOOR exercises the real payload gate over an owned emitted-tree fixture, not content/.
 // Counts exclude the unconditional tags/index.html and include nested named tag routes.
 // This gates archetype presence, not tag content, authored-tag completeness, or build provenance.
+// Isolated-copy mutants killed: empty matcher, overbroad tags prefix, and counted global index.
+// Coverage assertions also reject deficient/excess counts and missing/duplicate summaries.
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import fs from 'node:fs'
@@ -45,7 +47,8 @@ function fixture(t, { htmlDirectory = false } = {}) {
   return { root, write, budget, saveBudget, budgetPath, named, run }
 }
 function coverage(r, html, tags) {
-  assert.ok(r.out.includes(`tier-0 coverage: 5 floor checks over ${html} HTML files; named tag routes=${tags}`), r.out)
+  const summaries = r.out.split(/\r?\n/).filter((line) => line.includes('tier-0 coverage:'))
+  assert.deepEqual(summaries, [`  · tier-0 coverage: 5 floor checks over ${html} HTML files; named tag routes=${tags}`], r.out)
 }
 
 test('coverage summary rejects excess, deficient, absent and duplicated count reports', () => {
