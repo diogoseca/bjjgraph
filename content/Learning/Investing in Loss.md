@@ -1,6 +1,7 @@
 ---
 title: "Make a bad round useful | BJJ Learning | BJJ Graph"
 description: "Turn a difficult BJJ round into useful practice by finding an earlier decision, setting a narrow task, and testing one adjustment from the same position."
+tags: ["bjj", "learning", "training", "investing-in-loss"]
 ---
 
 <script type="application/ld+json">

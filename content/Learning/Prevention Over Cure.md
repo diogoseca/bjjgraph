@@ -1,6 +1,7 @@
 ---
 title: "Notice trouble earlier | BJJ Learning | BJJ Graph"
 description: "Recognize the first useful warning of a BJJ pass, pin, or submission setup, and practice intervening while you still have space and choices to work with."
+tags: ["bjj", "learning", "strategy", "prevention-over-cure"]
 ---
 
 <script type="application/ld+json">

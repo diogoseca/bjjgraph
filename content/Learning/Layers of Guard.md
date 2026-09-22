@@ -1,6 +1,7 @@
 ---
 title: "Keep a barrier between you | BJJ Learning | BJJ Graph"
 description: "Understand how feet, knees, and arm frames protect your guard at different distances, then practice replacing a lost barrier before the passer controls your torso."
+tags: ["bjj", "strategy", "guard", "guard-layers", "defense-in-depth", "guard-retention", "passing", "bottom-game"]
 ---
 
 <script type="application/ld+json">

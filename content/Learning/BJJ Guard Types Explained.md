@@ -1,6 +1,7 @@
 ---
 title: "Choose a guard you can use | BJJ Learning | BJJ Graph"
 description: "Choose a BJJ guard by the connections you can establish, the passes you meet, and the recovery you can make, with practical examples for gi and no-gi."
+tags: ["bjj", "learning", "guard", "beginner", "strategy"]
 ---
 
 <script type="application/ld+json">

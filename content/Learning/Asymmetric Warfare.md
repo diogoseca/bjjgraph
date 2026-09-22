@@ -1,6 +1,7 @@
 ---
 title: "Choose the exchange | BJJ Learning | BJJ Graph"
 description: "Choose BJJ exchanges that suit the skills you can actually reach and use. Test your read of a partner, plan an entry, and change course when the matchup demands it."
+tags: ["bjj", "strategy", "game-planning", "weakness-exploitation", "asymmetry", "tactical", "matchup"]
 ---
 
 <script type="application/ld+json">

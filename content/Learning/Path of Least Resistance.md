@@ -1,6 +1,7 @@
 ---
 title: "Work around the defense | BJJ Learning | BJJ Graph"
 description: "Choose a new angle or target when a BJJ attack meets a strong barrier. Learn what to keep, what to change, and when rebuilding control is better than switching moves."
+tags: ["bjj", "strategy", "efficiency", "passing", "route-selection", "redirection", "adaptability"]
 ---
 
 <script type="application/ld+json">
