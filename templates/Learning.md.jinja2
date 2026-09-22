@@ -1,27 +1,20 @@
-{# BJJ Learning Article Template V1 - Jinja2 #}
-{# Generates markdown from Learning.json for strategy/training/competition articles #}
-
+{# Complete Learning articles, with native disclosures for the no-JavaScript reader. -#}
+{% set page_title = display_title | default(name, true) -%}
 ---
-title: "{{name}} | BJJ Learning | BJJ Graph"
-description: "{{description}}"
+title: {{ (page_title ~ " | BJJ Learning | BJJ Graph") | jsonstr }}
+description: {{ description | jsonstr }}
+tags: [{% for tag in tags %}{{ tag | jsonstr }}{{ ", " if not loop.last else "" }}{% endfor %}]
 ---
 
-<body data-content-type="learning">
-
-<!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "name": {{ name | jsonstr }},
+  "name": {{ page_title | jsonstr }},
   "description": {{ description | jsonstr }},
   "articleSection": {{ category | jsonstr }},
-  "url": {{ ("https://bjjgraph.org/Learning/" ~ (name.replace(' ', '-'))) | jsonstr }},
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
+  "url": {{ ("https://bjjgraph.org/Learning/" ~ (name | quartz_url_slug)) | jsonstr }},
+  "isPartOf": {"@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org"}
 }
 </script>
 
@@ -32,130 +25,119 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Learning", "item": "https://bjjgraph.org/Learning/"},
-    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": {{ ("https://bjjgraph.org/Learning/" ~ (name.replace(' ', '-'))) | jsonstr }}}
+    {"@type": "ListItem", "position": 3, "name": {{ page_title | jsonstr }}, "item": {{ ("https://bjjgraph.org/Learning/" ~ (name | quartz_url_slug)) | jsonstr }}}
   ]
 }
 </script>
 
+{% if knowledge_assessment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for qa in knowledge_assessment[:6] %}
-    {
-      "@type": "Question",
-      "name": {{ qa.question | jsonstr }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ qa.answer | jsonstr }}
-      }
-    }{{ "," if not loop.last else "" }}
-    {%- endfor %}
+{% for qa in knowledge_assessment %}
+    {"@type": "Question", "name": {{ qa.question | jsonstr }}, "acceptedAnswer": {"@type": "Answer", "text": {{ qa.answer | jsonstr }}}}{{ "," if not loop.last else "" }}
+{% endfor %}
   ]
 }
 </script>
+{% endif %}
 
-{% if summary %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": {{ name | jsonstr }},
+  "name": {{ page_title | jsonstr }},
   "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Learning/"
 }
 </script>
+
+{% macro example(item) -%}
+<div class="learning-example"><h3>{{ item.scenario | e }}</h3><p>{{ item.application | e }}</p><p class="learning-result">{{ item.outcome | e }}</p></div>
+{%- endmacro %}
+{% macro mistake(item) -%}
+<div class="learning-example"><h3>{{ item.mistake | e }}</h3><p>{{ item.consequence | e }}</p><p>{{ item.correction | e }}</p></div>
+{%- endmacro %}
+{% macro exercise(item) -%}
+<div class="learning-exercise"><h3>{{ item.name | e }}</h3><p>{{ item.description | e }}</p><p class="learning-focus">{{ item.focus | e }}</p></div>
+{%- endmacro %}
+
+<div class="learning-reader" data-content-type="learning">
+<p class="learning-category">{{ category | e }}</p>
+<section id="overview" class="learning-section">
+<p class="learning-summary">{{ summary | e }}</p>
+<p>{{ overview | e }}</p>
+</section>
+
+{% if key_takeaways %}
+<section id="key-takeaways" class="learning-section">
+<h2>Key takeaways</h2>
+<ul>{% for item in key_takeaways[:3] %}<li>{{ item | e }}</li>{% endfor %}</ul>
+{% if key_takeaways | length > 3 %}
+<details class="learning-more"><summary>Show {{ key_takeaways | length - 3 }} more {{ "takeaway" if key_takeaways | length == 4 else "takeaways" }}</summary><ul>{% for item in key_takeaways[3:] %}<li>{{ item | e }}</li>{% endfor %}</ul></details>
+{% endif %}
+</section>
 {% endif %}
 
-> **Category**: {{category}}
-
-{# Flexbox wrapper #}
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
-<section id="overview" class="content-section">
-
-## What is {{name}}?
-
-{% if summary %}**{{ summary }}**
-
-{% endif -%}
-{{ overview }}
-
+{% if bjj_applications %}
+<section id="applications" class="learning-section">
+<h2>In practice</h2>
+{% for item in bjj_applications[:2] %}{{ example(item) }}{% endfor %}
+{% if bjj_applications | length > 2 %}
+<details class="learning-more"><summary>Show {{ bjj_applications | length - 2 }} more {{ "example" if bjj_applications | length == 3 else "examples" }}</summary>{% for item in bjj_applications[2:] %}{{ example(item) }}{% endfor %}</details>
+{% endif %}
 </section>
-
-<section id="key-takeaways" class="content-section">
-
-## Key Takeaways
-{% for takeaway in key_takeaways -%}
-- {{takeaway}}
-{% endfor %}
-
-</section>
-
-<section id="applications" class="content-section">
-
-## How It Applies in BJJ
-{% for app in bjj_applications -%}
-**{{app.scenario}}**
-{{app.application}}
-*Outcome: {{app.outcome}}*
-
-{% endfor %}
-
-</section>
-
-<section id="mistakes" class="content-section hide-minimal">
-
-## Common Mistakes
-{% for mistake in common_mistakes -%}
-- **Mistake**: {{mistake.mistake}}
-  - **Consequence**: {{mistake.consequence}}
-  - **Correction**: {{mistake.correction}}
-{% endfor %}
-
-</section>
-
-<section id="exercises" class="content-section">
-
-## Training Exercises
-{% for exercise in training_exercises -%}
-**{{exercise.name}}** (Focus: {{exercise.focus}})
-{{exercise.description}}
-
-{% endfor %}
-
-</section>
-
-<section id="self-assessment" class="content-section hide-minimal">
-
-## Self-Assessment
-{% for qa in knowledge_assessment -%}
-**Q: {{qa.question}}**
-A: {{qa.answer}}
-
-{% endfor %}
-
-</section>
-
-<section id="related" class="content-section">
-
-## Related
-{% for item in related_content -%}
-- [[{{ resolve(item.name) }}|{{ item.name }}]] ({{item.content_type}}) - {{item.relationship}}
-{% endfor %}
-
-{% if references is defined and references %}
-### References
-{% for ref in references -%}
-{% if ref.url -%}
-- [{{ref.title}}]({{ref.url}}) by {{ref.author}}
-{% else -%}
-- *{{ref.title}}* by {{ref.author}}
-{% endif -%}
-{% endfor %}
 {% endif %}
 
+{% if common_mistakes %}
+<section id="mistakes" class="learning-section">
+<h2>Common mistakes</h2>
+{% for item in common_mistakes[:2] %}{{ mistake(item) }}{% endfor %}
+{% if common_mistakes | length > 2 %}
+<details class="learning-more"><summary>Show {{ common_mistakes | length - 2 }} more {{ "mistake" if common_mistakes | length == 3 else "mistakes" }}</summary>{% for item in common_mistakes[2:] %}{{ mistake(item) }}{% endfor %}</details>
+{% endif %}
 </section>
+{% endif %}
 
-</main>
+{% if training_exercises %}
+<section id="exercises" class="learning-section">
+<h2>Try it in training</h2>
+{% for item in training_exercises[:1] %}{{ exercise(item) }}{% endfor %}
+{% if training_exercises | length > 1 %}
+<details class="learning-more"><summary>Show {{ training_exercises | length - 1 }} more {{ "exercise" if training_exercises | length == 2 else "exercises" }}</summary>{% for item in training_exercises[1:] %}{{ exercise(item) }}{% endfor %}</details>
+{% endif %}
+</section>
+{% endif %}
+
+{% if knowledge_assessment %}
+<section id="self-assessment" class="learning-section">
+<h2>Self-assessment</h2>
+{% for qa in knowledge_assessment %}<details class="learning-question"><summary>{{ qa.question | e }}</summary><p>{{ qa.answer | e }}</p></details>{% endfor %}
+</section>
+{% endif %}
+
+{% if reading_links %}
+<section id="related" class="learning-section">
+<h2>Related reading</h2>
+<ul>{% for item in reading_links %}<li><a href="{{ item.url | e }}">{{ item.title | e }}</a></li>{% endfor %}</ul>
+</section>
+{% endif %}
+
+{% set techniques = related_content | selectattr("content_type", "in", ["Position", "Transition", "Submission"]) | list %}
+{% if techniques %}
+<details id="techniques" class="learning-section learning-more"><summary>Explore techniques</summary>
+
+{% for item in techniques %}- [[{{ resolve(item.name) }}|{{ item.name | e }}]]
+{% endfor %}
+
+</details>
+{% endif %}
+
+{% if references %}
+<details id="sources" class="learning-section learning-more"><summary>Sources ({{ references | length }})</summary>
+<ul>{% for ref in references %}<li>{% if ref.url %}<a href="{{ ref.url | e }}">{{ ref.title | e }}</a>{% else %}{{ ref.title | e }}{% endif %}<span class="learning-source-author"> — {{ ref.author | e }}</span></li>{% endfor %}</ul>
+</details>
+{% endif %}
+</div>

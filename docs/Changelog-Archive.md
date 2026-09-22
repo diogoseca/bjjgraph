@@ -7723,6 +7723,122 @@ nothing; leaves the address bar where ‹ Back does (declared, not covered). Gat
 `concepts-surface.spec.ts` "clicking the pressed Explore tab returns a drilled Principle, then a
 System…", by mouse, RED first (1 ≠ 0); mutant: route the click back to `setViewMode` → same red.
 
+
+## v1.195.15 — Complete Learning reads integrated with the current readers
+
+Merged the three authored `fix-learning-too` commits onto dev `15d8dc456`, retaining the
+More fold's pinned contents head, its centered collapsed pill and close/reopen behavior,
+and the pressed Explore tab's return to the library root. Principles retain their previews,
+film study and disclosure state; Systems retain their connected video during hydration.
+Learning's 26 JSON-authored entries now carry their complete reading, optional assessment,
+sources and related pages, including the three guides migrated from Markdown-only sources.
+Opening a reference still starts no roll. `reference.css` is deferred for the reference
+pages; the More fold keeps its separate `reading.css`.
+
+Kept dev's payload policy and all accepted baselines and ceilings. The eager set measures
+331,429 B gzip, 861 B below its accepted 332,290 B checkpoint. The browser's pinned K-Guard
+first hand requests 13 resources: 1,622,527 B raw / 388,218 B gzip, with a 350,980 B core
+subtotal, +1,940 B against its 349,040 B checkpoint and 6,000 B delta cap. Both gzip metrics
+warn above their targets and pass. Against a fresh bundle from the pinned dev inputs, the
+JavaScript adds 1,043 B gzip while the eager CSS loses 2,140 B; reference styles cost 3,437 B
+only when requested. Both calibration joins reach 100%; JSON, graph, 320 unit tests, docs,
+the full build and 318 curated journeys pass. The docs budget file is unchanged, including
+the archive's 667,773-character ceiling and the already-raised 58,000 for Neural.md.
+
+
+## v1.195.16 — Restore Learning tag routes and classify the SEO ratchet
+
+The Learning complete-read merge reproduced ten SEO parity failures on `edc84a35b` (6,139 emitted HTML files). Source and built-article inspection distinguish one vanished route from nine editorial changes. The template now emits the required JSON tags as a quoted YAML list, preserving the three migrated beginner guides’ tag route. The focused regression test failed without tags and passed after the repair. No authored article prose or schema limits were changed.
+
+| # | Regression reproduced on edc84a35b | Classification | Evidence and disposition |
+|---|---|---|---|
+| 1 | `Learning.html: ldjson changed` | LEGITIMATE MOVE | Only `ItemList.itemListElement` changed: 23 → 26 entries, authored `display_title` labels, and the three migrated guides. Other hub schemas and head fields are identical. |
+| 2 | `Learning.html: 23 internal links REMOVED` | LEGITIMATE MOVE | All 23 removals are heading self-links; all 23 article page links remain. Every old heading has a new editorial heading and an unchanged destination (mapping below). The 29 additions are **26 heading anchors + 3 guide links**, not 29 replacement page links. |
+| 3 | `Learning/Asymmetric-Warfare.html: title changed` | LEGITIMATE MOVE | `display_title` = `Choose the exchange`, followed by the existing ` | BJJ Learning | BJJ Graph` suffix. Canonical remains `https://bjjgraph.org/Learning/Asymmetric-Warfare`. |
+| 4 | `Learning/Asymmetric-Warfare.html: ldjson changed` | LEGITIMATE MOVE | Article name/description use `display_title`/`description`; BreadcrumbList leaf name uses `display_title`; DefinedTerm uses `display_title`/`summary`; FAQPage uses the edited `knowledge_assessment` question/answer. All five schema types, including Organization, remain. |
+| 5 | `Learning/Asymmetric-Warfare.html: meta[description] changed` | LEGITIMATE MOVE | Exactly the authored JSON `description`, 164 characters; not a rendering fallback. |
+| 6 | `Learning/Asymmetric-Warfare.html: meta[og:description] changed` | LEGITIMATE MOVE | Exactly the same authored `description` as the standard meta description. |
+| 7 | `Learning/Asymmetric-Warfare.html: meta[og:title] changed` | LEGITIMATE MOVE | Exactly the authored `display_title` plus the existing title suffix, matching `<title>`. |
+| 8 | `Learning/Asymmetric-Warfare.html: crawlable text COLLAPSED (3,570 < 9,775; baseline 11,501)` | LEGITIMATE MOVE — measured correction to the brief's expected diagnosis | The source rewrite in `d07d9c95d` removed the old long-form prose. All 30 current body prose fragments are inside the built `<article>`; across all 26 Learning pages, 826/826 fragments are present. `docs/Content.md:337–353` and `docs/Neural.md:601` specify complete **edited** content with concise limits. No body is outside the article and no disclosure clips prose. Restoring 11,501 characters would undo the editorial rewrite or pad the page, not repair a template omission. Re-arm through `--update`, with this source evidence. |
+| 9 | `Learning/Asymmetric-Warfare.html: 4 internal links REMOVED` | LEGITIMATE MOVE | No section vanished: old heading self-links moved to the concise headings/overview listed below. All 11 non-fragment related page links remain. These were automatic heading permalinks from `gfm.ts`, **not an in-article ToC**; the brief's ToC hypothesis is not supported. |
+| 10 | `tags/beginner.html: MISSING` | REAL BREAK | The three migrated beginner guides retained JSON `tags` but lost their handwritten Markdown frontmatter. The old Learning template also omitted tags. Emit each authored tag as a JSON-quoted YAML flow-sequence entry; regenerate all Markdown. The schema already requires `tags`, so no schema change is needed. Retain the original `tags/beginner.html` baseline row. |
+
+All classifications derive from the unchanged-tree build and source history, rather than from the ratchet's labels alone. The measured result contradicts the initial hypothesis of a rendering omission.
+
+Leaf section correspondence:
+
+| Removed heading self-link | Current section and heading | Evidence |
+|---|---|---|
+| `#how-it-applies-in-bjj` | `#applications`, `#in-practice` | All three current scenarios, applications and outcomes present, including the disclosed example. |
+| `#related` | `#related`, `#related-reading` | The section ID `related` still resolves; its heading self-link changed. Eight related readings plus three technique links remain. |
+| `#training-exercises` | `#exercises`, `#try-it-in-training` | Both complete exercises present, including the disclosed exercise. |
+| `#what-is-asymmetric-warfare` | `#overview` | Complete edited summary and overview remain; the redundant question heading was removed. |
+
+The old heading IDs on the hub and three renamed leaf headings are not compatibility aliases: old external deep links may land at the page top. No article destination or section was deleted. The retained `#related` section is already compatible.
+
+| Removed heading anchor | New heading anchor | Crawlable article link |
+|---|---|---|
+| `#asymmetric-warfare` | `#choose-the-exchange` | `../Learning/Asymmetric-Warfare` (retained) |
+| `#committed-techniques` | `#attack-with-a-fallback` | `../Learning/Committed-Techniques` (retained) |
+| `#conscious-mastery` | `#know-what-you-are-looking-for` | `../Learning/Conscious-Mastery` (retained) |
+| `#defend-with-purpose` | `#give-your-defense-a-next-step` | `../Learning/Defend-With-Purpose` (retained) |
+| `#double-down-on-strengths` | `#build-around-a-reliable-game` | `../Learning/Double-Down-on-Strengths` (retained) |
+| `#economy-of-motion` | `#make-each-movement-count` | `../Learning/Economy-of-Motion` (retained) |
+| `#funneling` | `#narrow-their-options` | `../Learning/Funneling` (retained) |
+| `#investing-in-loss` | `#make-a-bad-round-useful` | `../Learning/Investing-in-Loss` (retained) |
+| `#layers-of-guard` | `#keep-a-barrier-between-you` | `../Learning/Layers-of-Guard` (retained) |
+| `#mask-your-intentions` | `#hide-the-next-attack` | `../Learning/Mask-Your-Intentions` (retained) |
+| `#path-of-least-resistance` | `#work-around-the-defense` | `../Learning/Path-of-Least-Resistance` (retained) |
+| `#pattern-interrupts` | `#change-the-rhythm` | `../Learning/Pattern-Interrupts` (retained) |
+| `#phases-of-guard` | `#know-what-your-guard-needs` | `../Learning/Phases-of-Guard` (retained) |
+| `#phases-of-passing` | `#finish-the-pass-you-started` | `../Learning/Phases-of-Passing` (retained) |
+| `#position-over-submission` | `#keep-control-while-you-attack` | `../Learning/Position-Over-Submission` (retained) |
+| `#predictable-responses` | `#read-the-response` | `../Learning/Predictable-Responses` (retained) |
+| `#prevention-over-cure` | `#notice-trouble-earlier` | `../Learning/Prevention-Over-Cure` (retained) |
+| `#probabilistic-thinking` | `#choose-with-the-downside-in-mind` | `../Learning/Probabilistic-Thinking` (retained) |
+| `#static-vs-dynamic-control` | `#hold-when-you-can-move-when-you-need-to` | `../Learning/Static-vs-Dynamic-Control` (retained) |
+| `#technique-chaining` | `#connect-your-attacks` | `../Learning/Technique-Chaining` (retained) |
+| `#timing-windows` | `#recognize-the-opening` | `../Learning/Timing-Windows` (retained) |
+| `#training-intensity` | `#choose-the-right-pace` | `../Learning/Training-Intensity` (retained) |
+| `#training-partner-diversity` | `#learn-from-different-partners` | `../Learning/Training-Partner-Diversity` (retained) |
+
+
+Full regeneration also exposed unrelated pre-existing output drift: 555 Markdown files
+(261 Positions, 242 Transitions, 46 Principles leaves, 5 Submissions, and the Principles hub).
+Related-System cards still carried older `guide.display_title` labels and relationship text;
+for example, Mount's “John Danaher: Kimura Branches” regenerated as “John Danaher: Kimura Control
+and Attacks”. The Principles hub's 62 descriptions also regenerated from newer concise JSON.
+These are source/output inconsistencies outside Learning, not incidental baseline noise. Their
+patch and the resulting SEO snapshot were retained for review; the unrelated generated files
+were restored from HEAD and the scoped Learning repair rebuilt before final gates. This change
+does not silently re-seed those other routes or commit hundreds of unrelated content updates.
+
+The broad regenerated build specifically made `Principles.html` fall from 11,335 to 8,715
+crawlable characters (floor 9,634). Six other sampled routes moved above their floors:
+Mount 16,469→15,752; Mount/Bottom 14,619→13,902; Mount/Top 14,578→13,861;
+Action and Reaction 10,175→10,133; Armbar from Back Transition 10,797→10,764;
+and its Attacker page 11,481→11,448. These seven baseline rows are retained unchanged in the
+scoped repair; a future full-corpus regeneration needs a separate editorial parity review.
+
+The scoped 6,211-page build restored `tags/beginner.html` with an unchanged baseline row.
+`python3 scripts/check_seo_parity.py --update` changed only `Learning.html` (length 4,438→4,995,
+floor 3,772→4,245; ItemList labels/inventory and heading links) and
+`Learning/Asymmetric-Warfare.html` (length 11,501→3,570, floor 9,775→3,034; authored editorial
+head/schema/body/link changes above). The latter measured 3,570 both before and after the tag
+repair; the complete current read was already inside `<article>`. The script's 0.85 ratio,
+whole-site guard, other 17 route rows and all gate code remain unchanged. SEO parity passed
+against the scoped build after this script-generated refresh.
+
+Final validation: SEO parity green on 19 sampled routes / 6,211 emitted HTML files; all six
+JSON categories valid; `CI=true npm run test:units` 320/320 with zero skips;
+CLAUDE.md budget/references green; payload budget green under unchanged limits (the existing
+soft eager-gzip target warning remains); 318/318 curated journeys in 16.1 minutes; and
+15/15 explicit Learning-related journeys in 20.1 seconds. The latter includes both delayed
+related-System navigations, executable-URL rejection, and direct arrivals at all three migrated
+guide URLs. No final spec failed or was weakened as stale. Nine Learning Python tests also
+passed. Full browser runs used a private port and the shared build lock; this is local evidence,
+not a claim that a remote CI/deploy ran.
+
 ## v1.196.0 — Pane-aware gameplay layout
 
 The landing column now follows the choices into the pane's remaining space, keeping readable
@@ -7744,3 +7860,11 @@ gates pass. Boot bundles add 675 B gzip against an isolated build of that dev. E
 333,203 B gzip (+913 B vs policy baseline); first hand 389,764 B, core 352,526 B (+3,486 B).
 Both remain in the existing warning band, within their delta caps. Local evidence, not CI;
 external video playback, physical pinch/pan and owner visual acceptance remain unverified.
+
+Reintegrated on 2026-09-22 by merging dev v1.195.16 (8356cca78) into the existing pane
+integration, keeping v1.196.0. The complete Learning reader, deferred reference.css and restored
+tag routes are retained. Fresh emit, 320 units, canon, Quartz source check, full build, payload,
+30 pane journeys and all 332 curated cases pass; all five pane mutants still fail their named
+assertions. SEO parity passes on the 6,211-page build, with all measured fields identical across
+the 19 sampled routes and no baseline changes. Boot bundles add 675 B gzip against this dev;
+eager payload is 332,108 B (-182 B vs accepted baseline), first-hand core 351,666 B (+2,626 B).

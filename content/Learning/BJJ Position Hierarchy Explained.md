@@ -1,181 +1,142 @@
 ---
-title: "Position Hierarchy & Decision Trees"
-description: "The BJJ positional ladder, IBJJF point values, and decision trees for attacking and escaping from each major position."
-tags:
-  - learning
-  - hierarchy
-  - strategy
-  - fundamentals
-  - positions
-  - competition
+title: "Understand the position you are in | BJJ Learning | BJJ Graph"
+description: "Recognize BJJ positions from both sides, choose a useful next goal, and distinguish practical control from the specific actions rewarded by competition points."
+tags: ["bjj", "learning", "positions", "beginner", "strategy"]
 ---
 
-# Position Hierarchy & Decision Trees
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "name": "Understand the position you are in",
+  "description": "Recognize BJJ positions from both sides, choose a useful next goal, and distinguish practical control from the specific actions rewarded by competition points.",
+  "articleSection": "Strategy",
+  "url": "https://bjjgraph.org/Learning/BJJ-Position-Hierarchy-Explained",
+  "isPartOf": {"@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org"}
+}
+</script>
 
-BJJ is a game of positional advancement. Certain body configurations give you more control than others, and the IBJJF point system directly rewards climbing this ladder. Understanding the hierarchy tells you *where* to go; decision trees tell you *how* to get there.
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
+    {"@type": "ListItem", "position": 2, "name": "Learning", "item": "https://bjjgraph.org/Learning/"},
+    {"@type": "ListItem", "position": 3, "name": "Understand the position you are in", "item": "https://bjjgraph.org/Learning/BJJ-Position-Hierarchy-Explained"}
+  ]
+}
+</script>
 
-## The Positional Ladder
 
-```
-Level 4: Submission                    → Match ends
-Level 3: Back Control (4 pts) / Mount (4 pts) / Knee on Belly (2 pts)
-Level 2: Side Control (3 pts for the pass that got you here)
-Level 1: Guard positions (0 pts -- neutral, but with offensive potential)
-Level 0: Standing (0 pts -- match start)
-```
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
 
-Higher positions give you:
-- More control over your opponent's movement
-- Better submission opportunities
-- Less energy to maintain (gravity helps the top player)
-- Fewer escape options for the opponent
+    {"@type": "Question", "name": "Why does arriving in side control not always score three points?", "acceptedAnswer": {"@type": "Answer", "text": "IBJJF guard-pass points depend on completing a qualifying pass and control, not simply occupying side control; arriving through a different action is a different scoring situation."}},
 
-### IBJJF Point Values
+    {"@type": "Question", "name": "What should you describe after naming a position?", "acceptedAnswer": {"@type": "Answer", "text": "Your role, the controls each person has, any immediate threat, and the next position or connection you are trying to establish."}}
 
-| Action | Points |
-|--------|--------|
-| Takedown | 2 |
-| Sweep (bottom to top) | 2 |
-| Knee on Belly | 2 |
-| Guard Pass | 3 |
-| Mount | 4 |
-| Back Control (with hooks) | 4 |
+  ]
+}
+</script>
 
-Position must be held for 3 seconds to score. Submissions end the match regardless of score.
 
-**Key implication**: a sweep (2) + pass (3) + mount (4) = 9 points. Systematic advancement wins matches even without submissions.
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Understand the position you are in",
+  "description": "A positional hierarchy is a guide to control and attacking opportunities, interpreted from your role and the connections each person actually holds.",
+  "inDefinedTermSet": "https://bjjgraph.org/Learning/"
+}
+</script>
 
-## The Cooking Effect
 
-The energy asymmetry in dominant positions is your biggest weapon. From [[Positions/Mount]] or [[Positions/Back Control]], maintaining position costs you almost nothing -- gravity does the work. Meanwhile, your opponent burns energy trying to escape.
 
-- **0-30 seconds**: Opponent defends with full energy, still dangerous
-- **30-60 seconds**: Defense becomes reactive, energy depleting
-- **60-90 seconds**: Explosive escapes stop, survival mode
-- **90+ seconds**: Exhaustion sets in, submissions become high-percentage
 
-This is why "position before submission" works. Spending 90 seconds in mount before attacking gives you far better finishing rates than immediately hunting submissions from guard.
 
-## Decision Trees: Attacking
+<div class="learning-reader" data-content-type="learning">
+<p class="learning-category">Strategy</p>
+<section id="overview" class="learning-section">
+<p class="learning-summary">A positional hierarchy is a guide to control and attacking opportunities, interpreted from your role and the connections each person actually holds.</p>
+<p>“We are in half guard” is only the start of the description. Ask who has top position, whose upper body is controlled, and whether the bottom player still has the frames or angle needed to act.</p>
+</section>
 
-These trees show what to do based on how your opponent reacts. The key insight: every defense opens a different attack.
 
-### From Side Control
+<section id="key-takeaways" class="learning-section">
+<h2>Key takeaways</h2>
+<ul><li>In guard, the bottom player uses legs and grips to manage the opponent. The top player tries to move beyond the legs into torso control: a guard pass. Neither role guarantees control.</li><li>After a pass, side control and mount offer ways to pin and attack. The bottom player works to defend immediate threats and recover space, guard, or top position.</li><li>Back control changes the problem because one player is behind the other. The defender must address the attack while working to recover alignment.</li></ul>
 
-```
-From Side Control Top:
-├── Opponent creates frames and pushes
-│   ├── Transition to Mount
-│   └── Switch to North-South
-├── Opponent turns toward you
-│   ├── Attack Kimura
-│   └── Take Back Control
-└── Opponent turns away from you
-    ├── Take Back Control (highest percentage here)
-    └── Gift wrap → Crucifix
-```
+<details class="learning-more"><summary>Show 2 more takeaways</summary><ul><li>Under IBJJF rules, takedowns, sweeps, and knee on belly can score 2; guard passes 3; mount and specified back-control positions 4. Each has qualifying conditions, including stabilization requirements.</li><li>Points describe particular achievements under a ruleset, not a universal ranking of every position. Side control by itself does not award guard-pass points.</li></ul></details>
 
-### From Mount
+</section>
 
-```
-From Mount:
-├── Opponent bridges explosively
-│   ├── Post and ride → Technical Mount
-│   └── Catch the arm → Armbar
-├── Opponent frames defensively (arms up)
-│   ├── Attack collar choke / Ezekiel
-│   └── Advance to S-Mount → Armbar
-└── Opponent turns to side
-    ├── Take Back Control
-    └── Maintain mount with hooks (if back isn't available)
-```
 
-### From Back Control
 
-```
-From Back Control:
-├── Opponent defends collar grip (two hands on your choking arm)
-│   ├── Switch to armbar from back
-│   └── Transition to body triangle, reset choke attempt
-├── Opponent turtles up (hides neck)
-│   ├── Maintain back control, wait for opening
-│   └── Bow and arrow choke (gi)
-└── Opponent hand fights (one hand at a time)
-    ├── Rear naked choke (this is what hand fighting opens)
-    └── Adjust hooks and re-establish control
-```
+<section id="applications" class="learning-section">
+<h2>In practice</h2>
+<div class="learning-example"><h3>You are on top inside closed guard and assume that top means you are already winning the position.</h3><p>Check your posture, trapped limbs, and the opponent’s grips. Your next positional task is to open and pass the guard while addressing attacks, not to behave as though you already have a pin.</p><p class="learning-result">You identify the barriers between being on top and controlling from top.</p></div><div class="learning-example"><h3>You reverse someone from bottom side control and land on top.</h3><p>Recognize the useful improvement, then establish control. In IBJJF scoring, a reversal from a pin is not automatically a sweep: sweep points require the qualifying action to begin from guard or half guard.</p><p class="learning-result">You separate a worthwhile positional change from a specific scoring action.</p></div>
 
-## Decision Trees: Escaping
+<details class="learning-more"><summary>Show 2 more examples</summary><div class="learning-example"><h3>You pass to side control but the opponent immediately inserts a knee.</h3><p>Treat the exchange as unfinished. Control the recovering leg or return to passing rather than reaching for a submission as if the pin were settled.</p><p class="learning-result">Your next action reflects the current control instead of the position you briefly visited.</p></div><div class="learning-example"><h3>You are mounted and think escaping requires one huge movement.</h3><p>First address any immediate submission threat. Then work with the taught escape that fits the opponent’s base, aiming for a concrete next position such as half guard rather than an undefined return to safety.</p><p class="learning-result">The escape has a reachable destination and a way to judge progress.</p></div></details>
 
-Defensive priorities, in order:
-1. **Defend submissions** -- immediate match-ending threat
-2. **Escape pins** -- stop the cooking effect
-3. **Prevent guard pass** -- don't let them advance
-4. **Recover guard** -- get back to a neutral position
+</section>
 
-### Escaping Mount
 
-```
-Mounted by opponent:
-├── Opponent sits high (attacking chokes)
-│   ├── Defend neck immediately
-│   └── Frame on hips → elbow-knee escape to half guard
-├── Opponent controls low mount
-│   ├── Frame with forearms on hips
-│   ├── Trap arm + leg on same side → bridge and roll
-│   └── If bridge fails → elbow-knee escape
-└── Opponent posts hand for balance
-    └── Trap that arm → bridge and roll (best opportunity)
-```
 
-### Escaping Side Control
+<section id="mistakes" class="learning-section">
+<h2>Common mistakes</h2>
+<div class="learning-example"><h3>Reading a positional ladder as an instruction to climb at every opportunity.</h3><p>You may leave useful control for an unstable transition.</p><p>Check the opponent’s response and the connections needed to arrive in the next position.</p></div><div class="learning-example"><h3>Assuming all bottom positions are equally bad.</h3><p>You overlook the difference between an active guard and being pinned without useful leg barriers.</p><p>Describe the actual grips, frames, and attacking options on both sides.</p></div>
 
-```
-Side control bottom:
-├── Opponent has crossface control
-│   ├── Frame on neck and hip
-│   └── Hip escape → insert knee → recover half guard or full guard
-├── Opponent lacks crossface
-│   ├── Establish underhook immediately
-│   └── Come to knees or recover guard
-└── Opponent transitions toward mount
-    └── Bridge into them before mount is established
-```
+<details class="learning-more"><summary>Show 1 more mistake</summary><div class="learning-example"><h3>Counting points from a position name alone.</h3><p>You can misread an event’s score and make the wrong match decision.</p><p>Learn the event’s qualifying actions and stabilization rules; use the official rulebook for scoring details.</p></div></details>
 
-### Escaping Back Control
+</section>
 
-```
-Back control (being controlled):
-├── Opponent has one hook only
-│   ├── Clear the second hook before it's established
-│   └── Turn toward opponent to escape
-├── Opponent has hooks but no choking grip
-│   ├── Protect neck with both hands
-│   ├── Scoot hips down to clear hooks
-│   └── Turn in toward opponent when space opens
-└── Opponent has choking grip established
-    └── Two-on-one grip defense → strip the grip → then escape hooks
-```
 
-## Choosing Your Path Through the Hierarchy
 
-There's no single correct route up the ladder. Your path depends on your skills:
+<section id="exercises" class="learning-section">
+<h2>Try it in training</h2>
+<div class="learning-exercise"><h3>Name both jobs</h3><p>With a partner, visit closed guard, half guard, side control, mount, and back control at a cooperative pace. At each stop, name one immediate goal for each role. Let each person attempt their goal with light, agreed resistance, then reset before changing positions.</p><p class="learning-focus">Describe control from both perspectives.</p></div>
 
-**Systematic path** (safest): Takedown → pass guard → side control → mount → submit.
-Accumulates maximum points (2+3+4 = 9). Best against equally skilled opponents.
+<details class="learning-more"><summary>Show 1 more exercise</summary><div class="learning-exercise"><h3>Escape to a destination</h3><p>Start in side control bottom with a partner applying agreed pressure. Choose a taught recovery to half guard or open guard and attempt to establish it. Reset after that destination is reached, the pin is re-established, or either person taps. Before repeating, identify the connection that changed.</p><p class="learning-focus">Recognize a useful improvement before seeking the next one.</p></div></details>
 
-**Guard player path**: Pull guard → sweep → top position → back take → submit.
-Skips guard passing entirely. Best when your guard is better than your passing.
+</section>
 
-**Fast track** (riskiest): Takedown directly to back control → submit.
-Fewer steps, but each step is harder. Best when you have a big skill advantage or time is short.
 
-The hierarchy isn't a rigid rulebook -- it's a strategic compass. Attack submissions freely from mount (failure just returns you to mount). Attack submissions cautiously from guard (failure risks getting passed). The higher you are, the less you risk by attacking.
 
-## Related Pages
+<section id="self-assessment" class="learning-section">
+<h2>Self-assessment</h2>
+<details class="learning-question"><summary>Why does arriving in side control not always score three points?</summary><p>IBJJF guard-pass points depend on completing a qualifying pass and control, not simply occupying side control; arriving through a different action is a different scoring situation.</p></details><details class="learning-question"><summary>What should you describe after naming a position?</summary><p>Your role, the controls each person has, any immediate threat, and the next position or connection you are trying to establish.</p></details>
+</section>
 
-- [[Positions/Mount]] -- Most dominant pin position
-- [[Positions/Back Control]] -- Highest submission percentage position
-- [[Positions/Side Control]] -- Common transition hub
-- [[Positions/Closed Guard]] -- Foundational guard position
-- [[Positions/Knee on Belly]] -- Mobile pressure position
+
+
+<section id="related" class="learning-section">
+<h2>Related reading</h2>
+<ul><li><a href="/Learning/BJJ-For-Beginners-Roadmap">Your first useful steps in BJJ</a></li><li><a href="/Learning/BJJ-Guard-Types-Explained">Choose a guard you can use</a></li><li><a href="/Learning/Position-Over-Submission">Keep control while you attack</a></li><li><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a></li></ul>
+</section>
+
+
+
+
+<details id="techniques" class="learning-section learning-more"><summary>Explore techniques</summary>
+
+- [[Positions/Closed Guard|Closed Guard]]
+- [[Positions/Half Guard|Half Guard]]
+- [[Positions/Side Control|Side Control]]
+- [[Positions/Mount|Mount]]
+- [[Positions/Back Control|Back Control]]
+- [[Positions/Turtle|Turtle]]
+
+
+</details>
+
+
+
+<details id="sources" class="learning-section learning-more"><summary>Sources (1)</summary>
+<ul><li><a href="https://ibjjf.com/books-videos">IBJJF Rule Book, June 2024: sections 2.5 and 4 on scoring</a><span class="learning-source-author"> — International Brazilian Jiu-Jitsu Federation</span></li></ul>
+</details>
+
+</div>
