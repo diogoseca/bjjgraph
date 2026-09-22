@@ -40,6 +40,12 @@ exercise a branch whose loss is both SILENT and INVISIBLE (D-58). SILENT means t
 build does not fail or warn; INVISIBLE means the artifact differ cannot observe a
 change on the selected corpus. They are separate axes: this tool owns INVISIBLE,
 not build diagnostics. Reports must carry that measured blind-spot table.
+
+FIELD-REPORTING BLIND SPOT (D-256): p.content-meta visible "Last updated" text is
+not extracted as a named field. Raw file hashes still detect it changing; field
+lists need not describe every visible change. A hash-only S5_FORMAT_ONLY row does
+not establish that a change is cosmetic. The report header and JSON repeat this
+limit without changing legacy fingerprint/seam schemas or forgiving any bytes.
 Do not substitute a consumer identifier for evidence of its producer: build0's
 postscript.js has four __SUPABASE_URL references and ZERO window.__SUPABASE_URL
 assignments. Count occurrences, not lines in a minified bundle, and match the
@@ -174,6 +180,12 @@ SEO_META_PREFIXES = (
 
 
 SEMANTIC_CLASSES = ("html", "xml", "json_semantic", "text_semantic", "gzip")
+
+FIELD_REPORTING_BLIND_SPOTS = [
+    'p.content-meta visible Last updated text is not field-extracted; raw file hashes '
+    'still detect changes. Field lists may omit visible changes; a hash-only '
+    'S5_FORMAT_ONLY row does not prove a cosmetic difference.'
+]
 
 
 def severity_for(cls: str, field: str) -> str:
@@ -715,6 +727,8 @@ def main():
     W = 96
     print("=" * W)
     print("GOLDEN EMIT DIFF")
+    for limitation in FIELD_REPORTING_BLIND_SPOTS:
+        print('FIELD-REPORTING BLIND SPOT: ' + limitation)
     print("=" * W)
     print(f"golden    : {a.golden}\n            {G.get('label') or G['tree']}")
     print(f"candidate : {a.candidate}\n            {C.get('label') or C['tree']}")
@@ -865,6 +879,7 @@ def main():
             "golden": a.golden, "candidate": a.candidate,
             "content_provenance": {g.label: g.verdict for g in guards},
             "artifact_only": a.artifact_only,
+            "field_reporting_blind_spots": FIELD_REPORTING_BLIND_SPOTS,
             "coverage": {"golden": gcov, "candidate": ccov,
                          "regressions": cov_regressions},
             "missing": missing, "extra": extra,

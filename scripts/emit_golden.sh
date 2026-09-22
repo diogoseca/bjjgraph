@@ -26,6 +26,10 @@
 # pairs can hold birthtime and Footer year fixed (D-59). F owns workflow/order and
 # Python-provisioning validation; V owns JS/TS specifiers. No normalization is applied.
 # Capture-year metadata makes Footer rollover visible, not automatically forgiven.
+# Every executed capture pins TZ=UTC and records a measured child-Node assertion.
+# A supplied plan that explicitly declares another TZ (including null) is refused;
+# old plans/receipts remain historical evidence, not a UTC capture. A command which
+# overrides its inherited environment remains outside that assertion's scope.
 # .capture-inputs.json names/hashes every Git-dirty path at both boundaries. Content
 # must be clean and fully tracked (including no ignored extras); a changed HEAD or
 # content during the chain prevents publication. .content.json binds the completed
@@ -51,6 +55,7 @@ import uuid
 tool_repo = Path(sys.argv[1])
 sys.path.insert(0, str(tool_repo / 'scripts'))
 from golden_provenance import begin_capture, finish_capture, ProvenanceError
+from capture_environment import utc_capture_environment
 parser = argparse.ArgumentParser(description='Execute and attest a supplied emit chain; never overwrite a golden.')
 parser.add_argument('dest', type=Path)
 parser.add_argument('label')
@@ -92,6 +97,8 @@ def validate_plan(plan):
     env = plan.get('environment', {})
     if not isinstance(env, dict) or any(k not in ENV_KEYS or (v is not None and not isinstance(v, str)) for k, v in env.items()):
         raise ValueError('invalid held-constant environment declaration')
+    if 'TZ' in env and env['TZ'] != 'UTC':
+        raise ValueError('capture requires TZ=UTC; update the supplied plan (including legacy TZ=null)')
     return preflight, steps
 
 def main():
@@ -122,6 +129,10 @@ def main():
         raise ValueError('source/.env present: capture has an undeclared input')
     if (repo / '.env').exists() and not os.environ.get('AFFILIATE_REF'):
         raise ValueError('root .env could supply AFFILIATE_REF; capture requires an explicit environment')
+    capture_env, environment_assertions = utc_capture_environment(cwd=repo)
+    os.environ.update(capture_env)
+    if hasattr(time, 'tzset'):
+        time.tzset()
     for key, value in plan.get('environment', {}).items():
         if os.environ.get(key) != value:
             raise ValueError(f'held-constant environment mismatch: {key} (values not printed)')
@@ -140,6 +151,7 @@ def main():
     runtime = json.loads(command(['node', '-e', 'process.stdout.write(JSON.stringify({year:new Date().getFullYear(),timezone:Intl.DateTimeFormat().resolvedOptions().timeZone,versions:process.versions}))']))
     capture_id = uuid.uuid4().hex
     source_receipt = begin_capture(repo, capture_id)
+    source_receipt['environment_assertions'] = environment_assertions
     dest.mkdir(parents=True, exist_ok=True)
     prefix = dest / args.label
     def artifact(suffix):
@@ -169,11 +181,14 @@ def main():
     metadata = [f'label {args.label}', f'capture_id {capture_id}', f'repo {repo}', f'git_head {head}',
         f'capture_tool_repo {tool_repo}',
         f'capture_tool_sha256 {digest((tool_repo / "scripts/emit_golden.sh").read_bytes())}',
+        f'capture_environment_sha256 {digest((tool_repo / "scripts/capture_environment.py").read_bytes())}',
         f'extractor_sha256 {digest((tool_repo / "scripts/emit_fingerprint.py").read_bytes())}',
         f'git_dirty_diff_sha256 {dirty_sha}', f'git_status_paths {len(command(["git", "status", "--porcelain"]).splitlines())}',
         f'git_dirty_paths_json {json.dumps(source_receipt["dirty_paths_start"], ensure_ascii=False)}',
         f'capture_start_utc {utc()}', f'capture_year {runtime["year"]}', f'footer_rollover_year {runtime["year"] + 1}',
-        f'timezone {runtime["timezone"]}', f'node_versions {json.dumps(runtime["versions"], sort_keys=True)}',
+        f'timezone {runtime["timezone"]}', 'capture_tz UTC',
+        f'environment_assertions {json.dumps(environment_assertions, sort_keys=True)}',
+        f'node_versions {json.dumps(runtime["versions"], sort_keys=True)}',
         f'python {sys.version.split()[0]}', f'steps_sha256 {digest(plan_raw)}',
         f'content_md {len(inputs)}', f'content_inputs_sha256 {digest(artifact(".inputs.json").read_bytes())}',
         f'quartz_lock_sha256 {digest((repo / "source/package-lock.json").read_bytes())}', 'source/.env absent']

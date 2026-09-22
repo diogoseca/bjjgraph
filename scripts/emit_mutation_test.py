@@ -6,11 +6,15 @@
   python3 scripts/emit_mutation_test.py --date-cardinality
   python3 scripts/emit_mutation_test.py --phantom-controls
   python3 scripts/emit_mutation_test.py --extractor-controls
+  python3 scripts/emit_mutation_test.py --visible-date-disclosure
 
 The capture-driver suite uses tiny local command fixtures, never npm/network or a
 site build. It pins supplied step order/cwd, fail-fast execution, positive output,
 immutable labels, authority identity, capture-year provenance and validation-only
-mode. It does not prove the deploy list agrees with workflows (F owns that gate),
+mode. Hostile ambient TZ is pinned to UTC, the child renders exact winter/summer
+dates, contradictory plans fail before execution, and an unpinned environment is
+refused. These are environment controls, not proof of source-date provenance.
+It does not prove the deploy list agrees with workflows (F owns that gate),
 browser behavior, any complete build, keyed injection or dependency closure.
 
 The recon's 15-regression corpus table is not yet implemented here; no kill claim
@@ -37,6 +41,9 @@ decoys containing the same bytes. Exact file/page/field counts catch overscope;
 single/double quoted ID siblings pin the token path. Temporary-copy mutants remove
 JSON-LD, broaden HTML classification and mangle parsed IDs. This is extractor
 evidence, not a full-site parity or feature-exercise claim.
+The visible-date-disclosure suite verifies the explicit field-reporting blind spot:
+an identical 1,000-page fixture exits 0, changing only p.content-meta exits 1 via
+the raw hash, and BOTH reports name the gap. It does not extract visible dates.
 """
 import copy
 import argparse
@@ -304,7 +311,7 @@ def capture_driver_suite():
         root = Path(tmp) / 'repo'; root.mkdir()
         for d in ('scripts', 'source', 'content', 'bin'):
             (root / d).mkdir()
-        for name in ('emit_golden.sh', 'emit_fingerprint.py', 'golden_provenance.py'):
+        for name in ('emit_golden.sh', 'emit_fingerprint.py', 'golden_provenance.py', 'capture_environment.py'):
             shutil.copyfile(original / name, root / 'scripts' / name)
         (root / 'source/package-lock.json').write_text('{}')
         (root / 'content/page.md').write_text('fixture')
@@ -317,13 +324,15 @@ def capture_driver_suite():
         subprocess.run(['git', '-C', str(root), '-c', 'user.name=Fixture', '-c', 'user.email=fixture@example.invalid',
                         'commit', '-qm', 'fixture inputs'], check=True)
         env = os.environ.copy(); env['PATH'] = str(root / 'bin') + os.pathsep + env['PATH']
+        env['TZ'] = 'Pacific/Honolulu'  # hostile inherited zone, never the capture contract
         for k in ('POSTHOG_API_KEY', 'POSTHOG_API_HOST', 'SUPABASE_URL', 'SUPABASE_ANON_KEY', 'AFFILIATE_REF', 'SHOW_BREADCRUMBS'):
             env.pop(k, None)
         html = '<!DOCTYPE html><html><head><title>Fixture</title><link rel="canonical" href="https://example.invalid/"><script type="application/ld+json">{"@type":"WebPage"}</script></head><body><article>fixture</article></body></html>'
         plan = {'schema': 'quartz-capture-steps-v1', 'authority': {
             'path': str(root / 'authority.md'), 'sha256': hashlib.sha256((root / 'authority.md').read_bytes()).hexdigest()},
+            'environment': {'TZ': 'UTC'},
             'steps': [
-                {'cwd': 'repo', 'argv': [sys.executable, '-c', "from pathlib import Path; Path('order').write_text('1'); Path('source/public').mkdir()"]},
+                {'cwd': 'repo', 'argv': [sys.executable, '-c', "import os; assert os.environ['TZ']=='UTC', 'step did not inherit UTC'; from pathlib import Path; Path('order').write_text('1'); Path('source/public').mkdir()"]},
                 {'cwd': 'source', 'argv': [sys.executable, '-c', "from pathlib import Path; p=Path('../order'); p.write_text(p.read_text()+'2'); Path('public/index.html').write_text(" + repr(html) + ")"]},
                 {'cwd': 'repo', 'argv': [sys.executable, '-c', "from pathlib import Path; p=Path('order'); p.write_text(p.read_text()+'3')"]},
             ]}
@@ -344,6 +353,12 @@ def capture_driver_suite():
         meta = (dest / 'complete.env.txt').read_text()
         assert 'capture_year' in meta and 'capture_id' in meta and 'steps_sha256' in meta
         receipt = json.loads((dest / 'complete.content.json').read_text())
+        assert 'environment_assertions' in receipt, 'capture must attest its UTC environment'
+        assert receipt['environment_assertions']['TZ']['observed'] == 'UTC'
+        probes = receipt['environment_assertions']['TZ']['probes']
+        assert [p['offset_minutes'] for p in probes] == [0, 0]
+        assert [p['visible_date'] for p in probes] == ['Jan 01, 2026', 'Jul 01, 2026']
+        assert 'timezone UTC\n' in meta and 'capture_tz UTC\n' in meta
         assert receipt['state'] == 'complete' and receipt['content_files'] == 1 and receipt['content_md'] == 1
         assert receipt['content_clean_at_start'] and receipt['content_clean_at_end']
         assert 'scripts/emit_golden.sh' in {r['path'] for r in receipt['dirty_paths_start']}
@@ -351,6 +366,21 @@ def capture_driver_suite():
         assert receipt['output_identity']['files'] == 1 and len(receipt['output_identity']['sha256']) == 64
         events = json.loads((dest / 'complete.steps-run.json').read_text())
         assert len(events) == 3 and all(e['exit_code'] == 0 for e in events)
+        for tz in (None, 'Europe/Lisbon'):
+            wrong_tz = {**plan, 'environment': {'TZ': tz}}
+            steps.write_text(json.dumps(wrong_tz))
+            p = run('wrong-tz-' + ('unset' if tz is None else 'west'), 2, '--check-steps')
+            assert 'capture requires TZ=UTC' in p.stdout + p.stderr
+            assert (root / 'order').read_text() == '123'
+        steps.write_text(json.dumps(plan))
+        from capture_environment import assert_utc_environment
+        try:
+            assert_utc_environment(env, root)
+        except ValueError as e:
+            assert 'capture timezone assertion failed' in str(e)
+        else:
+            raise AssertionError('an unpinned child environment passed the UTC assertion')
+        print('PASS timezone unpinned control: hostile child rejected; 2 exact UTC date probes')
         run('complete', 2)
         assert (dest / 'complete/index.html').read_text() == html, 'existing golden overwritten'
         failing = json.loads(json.dumps(plan)); failing['steps'][1]['argv'] = [sys.executable, '-c', 'raise SystemExit(7)']
@@ -405,6 +435,51 @@ def capture_driver_suite():
         print(f'PASS coverage: {checked} capture-driver cases; no full build or network command executed')
 
 
+def visible_date_disclosure_suite():
+    scripts = Path(__file__).resolve().parent
+    with tempfile.TemporaryDirectory(prefix='v-visible-date-') as tmp:
+        root = Path(tmp); tree = root / 'public'; tree.mkdir()
+        html = ('<html><head><title>Fixture</title><link rel="canonical" href="https://example.invalid/">'
+                '<meta name="description" content="fixture"><script type="application/ld+json">'
+                '{"@type":"WebPage"}</script></head><body><p class="content-meta">'
+                'Last updated Sep 06, 2026</p><article>fixture</article></body></html>')
+        for i in range(1000):
+            (tree / f'{i}.html').write_text(html)
+        def fingerprint(name):
+            path = root / (name + '.json.gz')
+            proc = subprocess.run([sys.executable, str(scripts / 'emit_fingerprint.py'),
+                                   str(tree), '--out', str(path), '--jobs', '1'],
+                                  capture_output=True, text=True, timeout=30)
+            assert proc.returncode == 0, (proc.stdout, proc.stderr)
+            return path
+        golden = fingerprint('golden')
+        for name, wanted in (('identical', 0), ('visible-date-only', 1)):
+            if wanted:
+                (tree / '0.html').write_text(html.replace('Sep 06', 'Sep 08'))
+            candidate = fingerprint(name) if wanted else golden
+            report = root / (name + '.json')
+            proc = subprocess.run([sys.executable, str(scripts / 'emit_diff.py'), '--artifact-only',
+                                   str(golden), str(candidate), '--json', str(report)],
+                                  capture_output=True, text=True, timeout=30)
+            assert proc.returncode == wanted, (name, proc.stdout, proc.stderr)
+            data = json.loads(report.read_text())
+            assert data['common'] == data['coverage']['golden']['html_pages'] == 1000
+            assert data['identical'] == 1000 - wanted
+            assert not data['missing'] and not data['extra'] and not data['problems']
+            assert not data['normalizations']
+            assert len(data['field_reporting_blind_spots']) == 1
+            assert 'p.content-meta' in data['field_reporting_blind_spots'][0]
+            assert proc.stdout.count('FIELD-REPORTING BLIND SPOT:') == 1
+            assert proc.stdout.index('FIELD-REPORTING BLIND SPOT:') < proc.stdout.index('golden    :')
+            if wanted:
+                assert len(data['rows']) == 1 and data['rows'][0]['field'] == 'sha'
+                assert data['rows'][0]['count'] == 1 and data['rows'][0]['examples'][0]['path'] == '0.html'
+                assert 'DIFFERENCES FOUND: 1' in proc.stdout
+            else:
+                assert not data['rows'] and 'NO DIFFERENCES.' in proc.stdout
+            print(f'PASS visible-date disclosure {name}: exit={wanted}; compared=1000; named gap=1')
+
+
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--capture-driver', action='store_true')
@@ -412,6 +487,7 @@ if __name__ == '__main__':
     ap.add_argument('--date-cardinality', action='store_true')
     ap.add_argument('--phantom-controls', action='store_true')
     ap.add_argument('--extractor-controls', action='store_true')
+    ap.add_argument('--visible-date-disclosure', action='store_true')
     ap.add_argument('--extractor-probe', type=Path, help=argparse.SUPPRESS)
     args = ap.parse_args()
     if not any(vars(args).values()):
@@ -428,3 +504,5 @@ if __name__ == '__main__':
         extractor_controls_suite()
     if args.extractor_probe:
         extractor_control_probe(args.extractor_probe)
+    if args.visible_date_disclosure:
+        visible_date_disclosure_suite()
