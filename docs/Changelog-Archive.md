@@ -7838,3 +7838,33 @@ related-System navigations, executable-URL rejection, and direct arrivals at all
 guide URLs. No final spec failed or was weakened as stale. Nine Learning Python tests also
 passed. Full browser runs used a private port and the shared build lock; this is local evidence,
 not a claim that a remote CI/deploy ran.
+
+## v1.196.0 — Pane-aware gameplay layout
+
+The landing column now follows the choices into the pane's remaining space, keeping readable
+widths and painting overlap below the pane. Card, film, More and deck guides share its stacking
+context; paused/manual/leased cameras carry the same animated inset. Exposed controls retain
+pointer input while the pane owns keyboard shortcuts. Pane, More and replay transfer pause
+ownership on close.
+
+`pane-layout.spec.ts` pins measured reflow and overlap with authored film/More fixtures;
+`pane-camera.spec.ts` pins actual projected framing. Five integration mutants fail direct
+assertions: zero horizontal movement, zero camera inset, the card winning the phone overlap
+hit-test, early resume after pane-to-More handoff, and landing takeover of the pane's answer
+slot. The pane retains its suppression holder for keys; exposed pointers bypass only that holder.
+
+Finished on the original base as v1.189.0 (4f41a4ccc): 30 pane journeys, 283 units. Integrated
+onto dev v1.195.14 (15d8dc456), retaining its More-fold fixes, real git dates and payload policy:
+319 units, 30 pane journeys and all 326 curated cases pass; emit, full build, canon and payload
+gates pass. Boot bundles add 675 B gzip against an isolated build of that dev. Eager payload
+333,203 B gzip (+913 B vs policy baseline); first hand 389,764 B, core 352,526 B (+3,486 B).
+Both remain in the existing warning band, within their delta caps. Local evidence, not CI;
+external video playback, physical pinch/pan and owner visual acceptance remain unverified.
+
+Reintegrated on 2026-09-22 by merging dev v1.195.16 (8356cca78) into the existing pane
+integration, keeping v1.196.0. The complete Learning reader, deferred reference.css and restored
+tag routes are retained. Fresh emit, 320 units, canon, Quartz source check, full build, payload,
+30 pane journeys and all 332 curated cases pass; all five pane mutants still fail their named
+assertions. SEO parity passes on the 6,211-page build, with all measured fields identical across
+the 19 sampled routes and no baseline changes. Boot bundles add 675 B gzip against this dev;
+eager payload is 332,108 B (-182 B vs accepted baseline), first-hand core 351,666 B (+2,626 B).

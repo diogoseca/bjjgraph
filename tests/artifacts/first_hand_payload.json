@@ -1,12 +1,12 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. OBSERVED ONLY — nothing here is a threshold. first_hand_raw_bytes and boot_chunk_requests are ceilinged in budget_neural.json; first_hand_gzip_bytes is judged by the three-band policy in payload_policy.json, whose delta cap reads first_hand_gzip_core_bytes from this file when a baseline is accepted.",
-  "measured_at": "2026-09-21T10:44:05.250Z"
+  "measured_at": "2026-09-22T20:51:39.146Z"
  },
  "request_count": 13,
- "first_hand_raw_bytes": 1622527,
- "first_hand_gzip_bytes": 388218,
- "first_hand_gzip_core_bytes": 350980,
+ "first_hand_raw_bytes": 1624677,
+ "first_hand_gzip_bytes": 388904,
+ "first_hand_gzip_core_bytes": 351666,
  "excluded_from_core": {
   "postscript_gzip": 27676,
   "chunk_gzip": 9562,
@@ -24,8 +24,8 @@
  "heaviest": [
   {
    "path": "/static/neural/app/neural.js",
-   "raw": 579488,
-   "gzip": 175622
+   "raw": 581659,
+   "gzip": 176303
   },
   {
    "path": "/static/neural/graph-data.json",
@@ -40,7 +40,7 @@
   {
    "path": "/static/neural/curriculum.json",
    "raw": 96746,
-   "gzip": 20885
+   "gzip": 20895
   },
   {
    "path": "/postscript.js",
@@ -54,8 +54,8 @@
   },
   {
    "path": "/static/neural/app/neural.css",
-   "raw": 34739,
-   "gzip": 7740
+   "raw": 34718,
+   "gzip": 7735
   },
   {
    "path": "/",

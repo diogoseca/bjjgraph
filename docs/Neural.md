@@ -109,8 +109,8 @@ question. See [Reading delivery](Architecture.md#reading-delivery) for sections 
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
 the answer and try again before committing to a grade. **Space toggles** the live block — the app
 publishes it as `this._recall`, the way `this._mc` carries A/B/C — and refuses one that has left
-the screen or is standing inert behind the pane or the option sheet (`_recallLive`, the same
-predicate A-D uses). Grading releases the key. Space still goes to an open study surface and a
+the screen or is inert behind the pane or option sheet (`_recallLive`). An open pane owns keyboard
+shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`), a stage-2+ card
@@ -548,13 +548,18 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 One pane, anchored left, 360px, opened by the logo. Three tabs: **Explore · Challenges · Last
 rolls**.
 
+The card, videos, More and camera shift beside the pane with the choices. Readable widths stay
+fixed; overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
+retains its two columns. Closing restores the layout without resetting the card or reading position.
+
 **Pane law: the pane is manual-only.** Nothing in the roll loop opens or closes it. **Open = the
 game stops. Close = the game resumes, but only if the pane is what stopped it** — one latch
 (`_paneAutoPaused`) for the whole pane, taken in `applyDeckVisibility` rather than `setDeckOpen`,
 because several study entry points assign `deckOpen` directly. A hand-paused roll stays paused.
 
 Every pauser owns its own latch — `_landAutoPaused`, `_paneAutoPaused`, `_replayAutoPaused`,
-`_dossierAutoPaused` — so releasing gives back only the pause you took.
+`_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
+still-open pane, More read or replay.
 
 On a phone the pane is an 88vw drawer and **is** the screen, so closing it is how you look at the
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
