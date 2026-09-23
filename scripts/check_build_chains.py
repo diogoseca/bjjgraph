@@ -48,7 +48,7 @@ UniqueLoader.add_constructor(yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, uni
 # historically omitted them; retaining that distinction does not authorize deletion
 # from either deployment. Adding another exception requires a reason here and a spec.
 DEPLOY_ONLY = {
-    ('python3', 'scripts/check_seo_parity.py'): 'SEO ratchet against the deployed tree',
+    ('python3', 'scripts/check_seo_parity.py', '--artifact-only'): 'SEO ratchet against the deployed tree',
     ('python3', 'scripts/check_systems_payload.py'): 'resolved Systems payload',
     ('python3', 'scripts/check_affiliate_surface.py', '--built'): 'deploy referral state',
     ('python3', 'scripts/check_analytics_surface.py'): 'deploy PostHog environment',
@@ -632,7 +632,7 @@ def check(root):
                 if seen[args] != needed:
                     errors.append(f'{name}: required deploy-only {shlex.join(args)}: expected {needed}, found {seen[args]}')
             gates = [c for c in deploy if c[1] in required]
-            expected_gates = [(('source' if args == ('python3', 'scripts/check_seo_parity.py') else '.'), args) for args in DEPLOY_ONLY]
+            expected_gates = [(('source' if args == ('python3', 'scripts/check_seo_parity.py', '--artifact-only') else '.'), args) for args in DEPLOY_ONLY]
             expected_gates.extend(curated)
             if gates != expected_gates:
                 errors.append(f'{name}: deploy-only gate cwd/order divergence')
@@ -640,9 +640,9 @@ def check(root):
             # All environment/fixture/journey gates must observe the FINAL output.
             last_shared = max((i for i, c in enumerate(deploy) if c in comparable), default=-1)
             for i, c in enumerate(deploy):
-                if c[1] in required and c[1] != ('python3', 'scripts/check_seo_parity.py') and i <= last_shared:
+                if c[1] in required and c[1] != ('python3', 'scripts/check_seo_parity.py', '--artifact-only') and i <= last_shared:
                     errors.append(f'{name}: deploy-only gate ran before final shared output: {label(c)}')
-            seo = ('source', ('python3', 'scripts/check_seo_parity.py'))
+            seo = ('source', ('python3', 'scripts/check_seo_parity.py', '--artifact-only'))
             headers = ('source', ('python3', 'scripts/check_headers_cache.py'))
             llms = ('source', ('python3', 'scripts/regenerate_llms_txt.py'))
             if headers in deploy and llms in deploy and not (deploy.index(headers) < deploy.index(seo) < deploy.index(llms)):
