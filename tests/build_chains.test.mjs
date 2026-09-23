@@ -14,7 +14,7 @@ import { spawnSync } from 'node:child_process'
 
 const gate = resolve('scripts/check_build_chains.py')
 const shared = ['node emit.mjs', 'node forward.mjs', 'node share.mjs', 'python3 scripts/apply_affiliate_ref.py', 'python3 scripts/regenerate_agent_discovery.py', 'python3 scripts/apply_affiliate_ref.py', 'python3 scripts/check_payload_budget.py']
-const extras = ['cd source && python3 ../scripts/check_seo_parity.py && cd ..', 'python3 scripts/check_systems_payload.py', 'python3 scripts/check_affiliate_surface.py --built', 'python3 scripts/check_analytics_surface.py', 'node scripts/check_analytics_nokey.mjs', 'npm run test:curated']
+const extras = ['cd source && python3 ../scripts/check_seo_parity.py --artifact-only && cd ..', 'python3 scripts/check_systems_payload.py', 'python3 scripts/check_affiliate_surface.py --built', 'python3 scripts/check_analytics_surface.py', 'node scripts/check_analytics_nokey.mjs', 'npm run test:curated']
 function fixture(fn) {
   const root = mkdtempSync(join(tmpdir(), 'build-chains-'))
   mkdirSync(join(root, '.github/workflows'), { recursive: true })
