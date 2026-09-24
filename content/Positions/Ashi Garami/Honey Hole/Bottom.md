@@ -116,6 +116,7 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
   "@type": "WebPage",
   "name": "Honey Hole Bottom",
   "description": "Master Honey Hole defense in BJJ. Escape techniques, heel hook defense, counter-entanglement strategies, and survival protocols for inside leg entanglement.",
+  "disambiguatingDescription": "Often confused with Outside Ashi-Garami \u2014 it captures the leg on the outside line and exposes the outer heel, whereas Honey Hole is an inside-line entanglement (inside sankaku) that turns the inner heel toward the attacker for the inside heel hook. Often confused with 50-50 Guard \u2014 50-50 is a symmetric mutual entanglement where both players share identical control and risk, whereas Honey Hole is strongly asymmetric and heavily favors the entangling player.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -192,6 +193,10 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]]</strong> — it captures the leg on the outside line and exposes the outer heel, whereas Honey Hole is an inside-line entanglement (inside sankaku) that turns the inner heel toward the attacker for the inside heel hook</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/50-50 Guard|50-50 Guard]]</strong> — 50-50 is a symmetric mutual entanglement where both players share identical control and risk, whereas Honey Hole is strongly asymmetric and heavily favors the entangling player</p>
+</aside>
 <section id="overview" class="content-section">
 
 Honey Hole Position Bottom (also called Inside Ashi Garami Bottom, Saddle Bottom, Inside Sankaku Bottom, or 4/11 Bottom) is one of the most dangerous defensive positions in Brazilian Jiu-Jitsu, where your leg is trapped in your opponent's inside ashi garami configuration with your heel exposed for heel hook attacks. This position represents critical defensive challenge because opponent has dominant control of your leg with direct access to inside heel hook - the highest percentage leg lock submission.
