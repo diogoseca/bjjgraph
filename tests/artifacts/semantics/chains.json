@@ -1,0 +1,577 @@
+{
+ "configs": {
+  "gi/shipped": {
+   "expected_steps_per_roll": 11.861209836850335,
+   "game_only": [],
+   "game_top10_positions": [
+    "Side Control|Top",
+    "Half Guard|Bottom",
+    "Side Control|Bottom",
+    "Standing Position|Bottom",
+    "Standing Position|Top",
+    "Half Guard|Top",
+    "Closed Guard|Bottom",
+    "Closed Guard|Top",
+    "Mount|Top",
+    "Open Guard|Bottom"
+   ],
+   "most_underweighted_by_score_walk": [
+    [
+     "Knee Cut from Feet on Hips",
+     211.11124750988188
+    ],
+    [
+     "Pass Feet on Hips Guard",
+     211.11124750988188
+    ],
+    [
+     "Bull Pass from Collar Sleeve",
+     203.76627365079818
+    ],
+    [
+     "Pass Collar Sleeve Guard",
+     203.75178231655332
+    ],
+    [
+     "Push Knee and Reguard from Knee on Belly",
+     193.14948234437776
+    ],
+    [
+     "Frame and Shrimp from Knee on Belly",
+     193.14466769018267
+    ],
+    [
+     "Turn to Turtle from Knee on Belly",
+     193.1340762958149
+    ],
+    [
+     "Level Change Takedown",
+     136.42939824801502
+    ],
+    [
+     "Snap Down from Standing",
+     136.42939824801502
+    ],
+    [
+     "Takedown from Bottom",
+     136.42939824801502
+    ],
+    [
+     "Pull Guard from Standing",
+     136.42910515558245
+    ],
+    [
+     "Standing Guard Pull",
+     136.42847710461027
+    ],
+    [
+     "Butterfly Guard Pull",
+     136.4281892498472
+    ],
+    [
+     "Knee Slice from Deep Half",
+     98.31081398291751
+    ],
+    [
+     "Backstep from Deep Half",
+     98.31028171717134
+    ]
+   ],
+   "positions": {
+    "joined": 266,
+    "only_a": 0,
+    "only_b": 0,
+    "spearman": 0.5988711119457163,
+    "total_variation": 0.32478671716498364
+   },
+   "reachable_game": 266,
+   "reachable_walk": 266,
+   "score_walk_top10_positions": [
+    "Side Control|Top",
+    "Half Guard|Bottom",
+    "Closed Guard|Bottom",
+    "Mount|Top",
+    "Half Guard|Top",
+    "Open Guard|Bottom",
+    "Back Control|Top",
+    "Closed Guard|Top",
+    "Side Control|Bottom",
+    "Open Guard|Top"
+   ],
+   "start": "standing",
+   "techniques": {
+    "joined": 1254,
+    "only_a": 40,
+    "only_b": 0,
+    "spearman": 0.5347064394626371,
+    "total_variation": 0.3764783246432417
+   },
+   "techniques_game_never_plays": [],
+   "walk_only": []
+  },
+  "gi/symmetric": {
+   "expected_steps_per_roll": 9.839020885345475,
+   "game_only": [],
+   "game_top10_positions": [
+    "Side Control|Top",
+    "Side Control|Bottom",
+    "Standing Position|Bottom",
+    "Standing Position|Top",
+    "Half Guard|Top",
+    "Half Guard|Bottom",
+    "Closed Guard|Top",
+    "Closed Guard|Bottom",
+    "Open Guard|Bottom",
+    "Open Guard|Top"
+   ],
+   "most_underweighted_by_score_walk": [
+    [
+     "Push Knee and Reguard from Knee on Belly",
+     137.04762305422364
+    ],
+    [
+     "Frame and Shrimp from Knee on Belly",
+     137.04420685602702
+    ],
+    [
+     "Turn to Turtle from Knee on Belly",
+     137.03669181945892
+    ],
+    [
+     "Level Change Takedown",
+     135.0735778726522
+    ],
+    [
+     "Snap Down from Standing",
+     135.0735778726522
+    ],
+    [
+     "Takedown from Bottom",
+     135.0735778726522
+    ],
+    [
+     "Pull Guard from Standing",
+     135.07328769294006
+    ],
+    [
+     "Standing Guard Pull",
+     135.07266588346945
+    ],
+    [
+     "Butterfly Guard Pull",
+     135.07238088937538
+    ],
+    [
+     "Knee Cut from Feet on Hips",
+     114.94260266387441
+    ],
+    [
+     "Pass Feet on Hips Guard",
+     114.94260266387441
+    ],
+    [
+     "Leg Weave Pass Completion",
+     100.46976618202535
+    ],
+    [
+     "Backstep from Leg Weave",
+     100.46680561607235
+    ],
+    [
+     "Complete Leg Weave Pass",
+     100.46680561607235
+    ],
+    [
+     "Bull Pass from Collar Sleeve",
+     99.3496447807701
+    ]
+   ],
+   "positions": {
+    "joined": 266,
+    "only_a": 0,
+    "only_b": 0,
+    "spearman": 0.5451180253495786,
+    "total_variation": 0.35703450426725075
+   },
+   "reachable_game": 266,
+   "reachable_walk": 266,
+   "score_walk_top10_positions": [
+    "Side Control|Top",
+    "Half Guard|Bottom",
+    "Closed Guard|Bottom",
+    "Mount|Top",
+    "Half Guard|Top",
+    "Open Guard|Bottom",
+    "Back Control|Top",
+    "Closed Guard|Top",
+    "Side Control|Bottom",
+    "Open Guard|Top"
+   ],
+   "start": "standing",
+   "techniques": {
+    "joined": 1254,
+    "only_a": 40,
+    "only_b": 0,
+    "spearman": 0.5521379514311646,
+    "total_variation": 0.36496976536178233
+   },
+   "techniques_game_never_plays": [
+    "Body Triangle Escape to Half Guard",
+    "Body Triangle Escape to Side Control",
+    "Hip Escape to Turtle",
+    "Rolling Back Take Reversal",
+    "Triangle Clear to Side"
+   ],
+   "walk_only": []
+  },
+  "nogi/shipped": {
+   "expected_steps_per_roll": 11.627468786805851,
+   "game_only": [],
+   "game_top10_positions": [
+    "Side Control|Top",
+    "Side Control|Bottom",
+    "Half Guard|Bottom",
+    "Standing Position|Bottom",
+    "Standing Position|Top",
+    "Half Guard|Top",
+    "Closed Guard|Bottom",
+    "Closed Guard|Top",
+    "Open Guard|Bottom",
+    "Mount|Top"
+   ],
+   "most_underweighted_by_score_walk": [
+    [
+     "Pass Feet on Hips Guard",
+     425.46013457272824
+    ],
+    [
+     "Knee Cut from Feet on Hips",
+     425.4601345727282
+    ],
+    [
+     "Push Knee and Reguard from Knee on Belly",
+     195.67644679119317
+    ],
+    [
+     "Turn to Turtle from Knee on Belly",
+     195.67644679119317
+    ],
+    [
+     "Frame and Shrimp from Knee on Belly",
+     195.67644679119311
+    ],
+    [
+     "Pull Guard from Standing",
+     106.44784938327535
+    ],
+    [
+     "Butterfly Guard Pull",
+     106.44780513062426
+    ],
+    [
+     "Takedown from Bottom",
+     106.44780513062426
+    ],
+    [
+     "Standing Guard Pull",
+     106.44755783707477
+    ],
+    [
+     "Snap Down from Standing",
+     106.44744478897769
+    ],
+    [
+     "Level Change Takedown",
+     106.44733802155092
+    ],
+    [
+     "50-50 Entry from Standing",
+     102.33985075280404
+    ],
+    [
+     "Kimura from Standing",
+     102.33985075280404
+    ],
+    [
+     "Osoto Gari",
+     102.33985075280404
+    ],
+    [
+     "Single Leg Entry",
+     102.33926001931705
+    ]
+   ],
+   "positions": {
+    "joined": 266,
+    "only_a": 0,
+    "only_b": 0,
+    "spearman": 0.6461636884150703,
+    "total_variation": 0.3309031361198463
+   },
+   "reachable_game": 244,
+   "reachable_walk": 248,
+   "score_walk_top10_positions": [
+    "Side Control|Top",
+    "Half Guard|Bottom",
+    "Closed Guard|Bottom",
+    "Mount|Top",
+    "Half Guard|Top",
+    "Open Guard|Bottom",
+    "Back Control|Top",
+    "Closed Guard|Top",
+    "Side Control|Bottom",
+    "Open Guard|Top"
+   ],
+   "start": "standing",
+   "techniques": {
+    "joined": 1206,
+    "only_a": 41,
+    "only_b": 0,
+    "spearman": 0.5585918890058533,
+    "total_variation": 0.3916017706707603
+   },
+   "techniques_game_never_plays": [
+    "Armbar Setup from Double Sleeve",
+    "Backstep from Worm Guard",
+    "Balloon Sweep",
+    "Belly Down Armbar from Lasso Guard",
+    "Belly Down Armbar from Spider Guard",
+    "Bolo Sweep",
+    "Bull Pass from Collar Sleeve",
+    "Collar Sleeve to De La Riva",
+    "Collar Sleeve to Spider Guard",
+    "Distance Creation to Reset",
+    "Double Sleeve Sweep",
+    "Double Sleeve to De La Riva",
+    "Double Sleeve to Spider",
+    "Double Sleeve to Spider Guard",
+    "Guard Recovery from Double Sleeve Guard",
+    "Guard Recovery from Spider Guard",
+    "Guard Recovery from Squid Guard",
+    "Kimura from Lasso Guard",
+    "Knee Slice Despite Lapel",
+    "Lasso Guard Backstep Pass",
+    "Lasso Guard Pass",
+    "Lasso Guard Stack Pass",
+    "Lasso Guard to Inverted Lasso Guard",
+    "Lasso Guard to Russian Leg Lasso",
+    "Lasso Sweep",
+    "Leg Drag While Clearing Lapel",
+    "Long Step Around Ringworm",
+    "Omoplata from Double Sleeve Guard",
+    "Omoplata from Lasso",
+    "Omoplata from Russian Leg Lasso",
+    "Omoplata from Spider Guard",
+    "Pass Collar Sleeve Guard",
+    "Pass Double Sleeve Guard",
+    "Pass Inverted Lasso Guard",
+    "Pass Piranha Guard",
+    "Pass Russian Leg Lasso",
+    "Pass Squid Guard",
+    "Pressure Pass Through Squid",
+    "Pressure Through Squid Guard",
+    "Ringworm to Spider Guard",
+    "Russian Lasso Sweep",
+    "Russian Lasso to De La Riva",
+    "Smash Pass Counter",
+    "Spider Guard Pass",
+    "Spider Guard to Omoplata",
+    "Spider Sweep",
+    "Stack Pass Over Lapel Barrier",
+    "Stack Pass from Spider",
+    "Stack from Inverted Lasso",
+    "Standing Guard Pass with Distance Creation",
+    "Standing Reset to Open Guard",
+    "Strip Russian Leg Lasso",
+    "Toreando from Double Sleeve",
+    "Triangle Choke from Spider Guard",
+    "Triangle from Spider Guard"
+   ],
+   "walk_only": [
+    "double-sleeve-guard/bottom",
+    "double-sleeve-guard/top",
+    "spider-guard/bottom",
+    "spider-guard/top"
+   ]
+  },
+  "nogi/symmetric": {
+   "expected_steps_per_roll": 9.613643170313035,
+   "game_only": [],
+   "game_top10_positions": [
+    "Standing Position|Bottom",
+    "Standing Position|Top",
+    "Side Control|Bottom",
+    "Side Control|Top",
+    "Half Guard|Bottom",
+    "Half Guard|Top",
+    "Closed Guard|Top",
+    "Closed Guard|Bottom",
+    "Open Guard|Top",
+    "Open Guard|Bottom"
+   ],
+   "most_underweighted_by_score_walk": [
+    [
+     "Pass Feet on Hips Guard",
+     237.71729992684993
+    ],
+    [
+     "Knee Cut from Feet on Hips",
+     237.7172999268499
+    ],
+    [
+     "Frame and Shrimp from Knee on Belly",
+     131.03924330141382
+    ],
+    [
+     "Push Knee and Reguard from Knee on Belly",
+     131.03924330141382
+    ],
+    [
+     "Turn to Turtle from Knee on Belly",
+     131.03924330141382
+    ],
+    [
+     "Pull Guard from Standing",
+     105.43169803255071
+    ],
+    [
+     "Butterfly Guard Pull",
+     105.43165420233548
+    ],
+    [
+     "Takedown from Bottom",
+     105.43165420233548
+    ],
+    [
+     "Standing Guard Pull",
+     105.43140926945063
+    ],
+    [
+     "Snap Down from Standing",
+     105.43129730051086
+    ],
+    [
+     "Level Change Takedown",
+     105.43119155228614
+    ],
+    [
+     "50-50 Entry from Standing",
+     98.49827736881052
+    ],
+    [
+     "Kimura from Standing",
+     98.49827736881052
+    ],
+    [
+     "Osoto Gari",
+     98.49827736881052
+    ],
+    [
+     "Single Leg Entry",
+     98.49770880993121
+    ]
+   ],
+   "positions": {
+    "joined": 266,
+    "only_a": 0,
+    "only_b": 0,
+    "spearman": 0.6036594628896126,
+    "total_variation": 0.36610100693199465
+   },
+   "reachable_game": 244,
+   "reachable_walk": 248,
+   "score_walk_top10_positions": [
+    "Side Control|Top",
+    "Half Guard|Bottom",
+    "Closed Guard|Bottom",
+    "Mount|Top",
+    "Half Guard|Top",
+    "Open Guard|Bottom",
+    "Back Control|Top",
+    "Closed Guard|Top",
+    "Side Control|Bottom",
+    "Open Guard|Top"
+   ],
+   "start": "standing",
+   "techniques": {
+    "joined": 1206,
+    "only_a": 41,
+    "only_b": 0,
+    "spearman": 0.5767900507074666,
+    "total_variation": 0.38526135890970326
+   },
+   "techniques_game_never_plays": [
+    "Armbar Setup from Double Sleeve",
+    "Backstep from Worm Guard",
+    "Balloon Sweep",
+    "Belly Down Armbar from Lasso Guard",
+    "Belly Down Armbar from Spider Guard",
+    "Body Triangle Escape to Half Guard",
+    "Body Triangle Escape to Side Control",
+    "Bolo Sweep",
+    "Bull Pass from Collar Sleeve",
+    "Collar Sleeve to De La Riva",
+    "Collar Sleeve to Spider Guard",
+    "Distance Creation to Reset",
+    "Double Sleeve Sweep",
+    "Double Sleeve to De La Riva",
+    "Double Sleeve to Spider",
+    "Double Sleeve to Spider Guard",
+    "Guard Recovery from Double Sleeve Guard",
+    "Guard Recovery from Spider Guard",
+    "Guard Recovery from Squid Guard",
+    "Hip Escape to Turtle",
+    "Kimura from Lasso Guard",
+    "Knee Slice Despite Lapel",
+    "Lasso Guard Backstep Pass",
+    "Lasso Guard Pass",
+    "Lasso Guard Stack Pass",
+    "Lasso Guard to Inverted Lasso Guard",
+    "Lasso Guard to Russian Leg Lasso",
+    "Lasso Sweep",
+    "Leg Drag While Clearing Lapel",
+    "Long Step Around Ringworm",
+    "Omoplata from Double Sleeve Guard",
+    "Omoplata from Lasso",
+    "Omoplata from Russian Leg Lasso",
+    "Omoplata from Spider Guard",
+    "Pass Collar Sleeve Guard",
+    "Pass Double Sleeve Guard",
+    "Pass Inverted Lasso Guard",
+    "Pass Piranha Guard",
+    "Pass Russian Leg Lasso",
+    "Pass Squid Guard",
+    "Pressure Pass Through Squid",
+    "Pressure Through Squid Guard",
+    "Ringworm to Spider Guard",
+    "Rolling Back Take Reversal",
+    "Russian Lasso Sweep",
+    "Russian Lasso to De La Riva",
+    "Smash Pass Counter",
+    "Spider Guard Pass",
+    "Spider Guard to Omoplata",
+    "Spider Sweep",
+    "Stack Pass Over Lapel Barrier",
+    "Stack Pass from Spider",
+    "Stack from Inverted Lasso",
+    "Standing Guard Pass with Distance Creation",
+    "Standing Reset to Open Guard",
+    "Strip Russian Leg Lasso",
+    "Toreando from Double Sleeve",
+    "Triangle Choke from Spider Guard",
+    "Triangle Clear to Side",
+    "Triangle from Spider Guard"
+   ],
+   "walk_only": [
+    "double-sleeve-guard/bottom",
+    "double-sleeve-guard/top",
+    "spider-guard/bottom",
+    "spider-guard/top"
+   ]
+  }
+ },
+ "meta": {
+  "graph_sha256": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+  "recompute": "python3 -B scripts/semantics/chains.py --start standing --json tests/artifacts/semantics/chains.json"
+ }
+}

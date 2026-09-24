@@ -1,0 +1,3442 @@
+{
+  "check_floor": 34,
+  "checks": [
+    {
+      "adjusted_rand": 1.0,
+      "name": "planted.map.recovery",
+      "nmi": 0.9999999999999999,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "states_compared": 30,
+      "status": "PASS",
+      "vi": 4.440892098500626e-16
+    },
+    {
+      "adjusted_rand": 1.0,
+      "name": "planted.gpcca.recovery",
+      "nmi": 0.9999999999999999,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "states_compared": 30,
+      "status": "PASS",
+      "vi": 4.440892098500626e-16
+    },
+    {
+      "adjusted_rand": 1.0,
+      "name": "planted.spectral.recovery",
+      "nmi": 0.9999999999999999,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "states_compared": 30,
+      "status": "PASS",
+      "vi": 4.440892098500626e-16
+    },
+    {
+      "L": 3.963871030573143,
+      "analytic_L": 3.963871030573143,
+      "literal_L": 3.9638710305731424,
+      "name": "planted.codelength",
+      "one_module_L": 4.906890595608519,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "saving": 0.9430195650353759,
+      "spread": {
+        "max": 3.963871030573143,
+        "median": 3.963871030573143,
+        "min": 3.963871030573143,
+        "top5_pairwise_nmi": [
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              0,
+              1
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              0,
+              2
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              0,
+              3
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              0,
+              4
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              1,
+              2
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              1,
+              3
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              1,
+              4
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              2,
+              3
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              2,
+              4
+            ]
+          },
+          {
+            "nmi": 0.9999999999999999,
+            "restarts": [
+              3,
+              4
+            ]
+          }
+        ],
+        "top_restart_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "status": "PASS"
+    },
+    {
+      "coarse_error": 9.992007221626409e-16,
+      "crispness": 0.9999999999995985,
+      "diagnostics": {
+        "boundary_gap": 0.8500000000000003,
+        "boundary_tied": false,
+        "coarse_flux_difference": 3.4150460237469815e-13,
+        "coarse_min": 0.0499999999999999,
+        "coarse_row_error": 8.881784197001252e-16,
+        "coarse_stationarity_error": 3.3306690738754696e-16,
+        "invariance_residual": 1.7763568394002505e-15,
+        "membership_invariance_error": 3.3306690738754696e-16,
+        "membership_row_error": 1.1102230246251565e-16,
+        "min_membership": 1.0017830069050936e-13,
+        "orthogonality_residual": 8.881784197001252e-16,
+        "overlap_condition": 1.0000000000006026
+      },
+      "minChi": -6.406835726397973e-16,
+      "name": "planted.memberships_and_coarse",
+      "persistence_excess": 0.8500000000000008,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "status": "PASS"
+    },
+    {
+      "coverage": {
+        "accepted_moves": 1632,
+        "aggregation_passes": 32,
+        "atoms_considered": 5088,
+        "coarse_passes": 32,
+        "fine_passes": 32,
+        "greedy_sweeps": 224,
+        "move_candidates": 28211,
+        "one_module_selections": 0,
+        "positive_links": 900,
+        "restarts": 32,
+        "states": 30,
+        "submodules_considered": 192
+      },
+      "name": "planted.restart_coverage",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "status": "PASS",
+      "top5_min_nmi": 0.9999999999999999
+    },
+    {
+      "adjusted_rand": 1.0,
+      "name": "cycle.map.recovery",
+      "nmi": 1.0,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "states_compared": 40,
+      "status": "PASS",
+      "vi": 0.0
+    },
+    {
+      "adjusted_rand": 1.0,
+      "name": "cycle.gpcca.recovery",
+      "nmi": 1.0,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "states_compared": 40,
+      "status": "PASS",
+      "vi": 0.0
+    },
+    {
+      "adjusted_rand": 1.0,
+      "name": "cycle.spectral.recovery",
+      "nmi": 1.0,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "states_compared": 40,
+      "status": "PASS",
+      "vi": 0.0
+    },
+    {
+      "L": 4.005374780501027,
+      "analytic_L": 4.005374780501027,
+      "literal_L": 4.005374780501027,
+      "name": "cycle.codelength",
+      "one_module_L": 5.321928094887363,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "saving": 1.3165533143863355,
+      "spread": {
+        "max": 4.005374780501027,
+        "median": 4.005374780501027,
+        "min": 4.005374780501027,
+        "top5_pairwise_nmi": [
+          {
+            "nmi": 1.0,
+            "restarts": [
+              0,
+              1
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              0,
+              2
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              0,
+              3
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              0,
+              4
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              1,
+              2
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              1,
+              3
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              1,
+              4
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              2,
+              3
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              2,
+              4
+            ]
+          },
+          {
+            "nmi": 1.0,
+            "restarts": [
+              3,
+              4
+            ]
+          }
+        ],
+        "top_restart_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "status": "PASS"
+    },
+    {
+      "coarse_error": 3.3306690738754696e-16,
+      "crispness": 0.9999999999993961,
+      "diagnostics": {
+        "boundary_gap": 0.8,
+        "boundary_tied": false,
+        "coarse_flux_difference": 5.238032230181489e-13,
+        "coarse_min": -6.383782391598027e-17,
+        "coarse_row_error": 4.440892098500626e-16,
+        "coarse_stationarity_error": 1.1102230246251565e-16,
+        "invariance_residual": 1.9984014443252818e-15,
+        "membership_invariance_error": 8.881784197001252e-16,
+        "membership_row_error": 2.220446049250313e-16,
+        "min_membership": 1.0016987239680457e-13,
+        "orthogonality_residual": 1.1102230246251565e-15,
+        "overlap_condition": 1.0000000000008058
+      },
+      "minChi": -6.661338147750944e-16,
+      "name": "cycle.memberships_and_coarse",
+      "persistence_excess": 0.8666666666666671,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "status": "PASS"
+    },
+    {
+      "coverage": {
+        "accepted_moves": 2176,
+        "aggregation_passes": 32,
+        "atoms_considered": 6784,
+        "coarse_passes": 32,
+        "fine_passes": 32,
+        "greedy_sweeps": 224,
+        "move_candidates": 47543,
+        "one_module_selections": 0,
+        "positive_links": 800,
+        "restarts": 32,
+        "states": 40,
+        "submodules_considered": 256
+      },
+      "name": "cycle.restart_coverage",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "status": "PASS",
+      "top5_min_nmi": 1.0
+    },
+    {
+      "name": "schur.reject_split_pair",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "requested_k": 2,
+      "state_set": "40-state directed four-clique chain; requested k=2 cuts the 0.9 +/- 0.1i pair",
+      "status": "PASS"
+    },
+    {
+      "boundary_gap": 0.05857864376269031,
+      "boundary_tied": false,
+      "invariance_residual": 1.9984014443252818e-15,
+      "name": "schur.keep_whole_pair",
+      "orthogonality_residual": 4.440892098500626e-16,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "selected_eigenvalues": [
+        {
+          "imag": 0.0,
+          "real": 0.9999999999999999
+        },
+        {
+          "imag": 0.09999999999999987,
+          "real": 0.8999999999999997
+        },
+        {
+          "imag": -0.09999999999999987,
+          "real": 0.8999999999999997
+        }
+      ],
+      "state_set": "40-state directed four-clique chain; k=3 includes constant plus complete conjugate pair",
+      "status": "PASS"
+    },
+    {
+      "name": "schur.closest_to_one_not_modulus",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "selected_eigenvalues": [
+        {
+          "imag": 0.0,
+          "real": 1.0000000000000004
+        },
+        {
+          "imag": 0.0,
+          "real": 0.7000000000000004
+        }
+      ],
+      "state_set": "four-state positive chain with spectrum {1,0.7,-0.95,-0.665}; k=2",
+      "status": "PASS"
+    },
+    {
+      "coarse_flux_difference": 0.47500000000006976,
+      "flux_min": 0.1250000000000443,
+      "galerkin_min": -0.050000000000001155,
+      "independently_computed_operator_error": 8.881784197001252e-16,
+      "name": "gpcca.signed_galerkin_is_not_a_chain",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 40 states of the directed four-clique cycle coarsened to k=3 fuzzy sets",
+      "status": "PASS"
+    },
+    {
+      "coarse_error": 3.1086244689504383e-15,
+      "diagnostics": {
+        "boundary_gap": 0.8877502783967809,
+        "boundary_tied": false,
+        "coarse_flux_difference": 4.483080573436382e-13,
+        "coarse_min": 0.009999999999996952,
+        "coarse_row_error": 2.220446049250313e-16,
+        "coarse_stationarity_error": 5.551115123125783e-17,
+        "invariance_residual": 1.0269562977782698e-15,
+        "membership_invariance_error": 6.869504964868156e-16,
+        "membership_row_error": 2.220446049250313e-16,
+        "min_membership": 1.0019720652822871e-13,
+        "orthogonality_residual": 2.220446049250313e-16,
+        "overlap_condition": 1.580645161290321
+      },
+      "name": "gpcca.nonnormal_weighted",
+      "nonnormality": 0.0006452804150518902,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "12-state nonnormal directed three-block chain; four unequal-weight microstates per block",
+      "stationary_max": 0.15555555555555559,
+      "stationary_min": 0.024603174603174603,
+      "status": "PASS"
+    },
+    {
+      "exhaustive_min": 2.1684091863348205,
+      "name": "map.exhaustive_small_global",
+      "partitions_checked": 203,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "route_error": 1.3322676295501878e-15,
+      "search_L": 2.1684091863348205,
+      "state_set": "all 203 partitions of all six states in a two-block size-3 stay=0.9 chain",
+      "status": "PASS"
+    },
+    {
+      "absolute_error": 0.0015149413635962006,
+      "empirical_L": 3.965385971936739,
+      "exact_L": 3.963871030573143,
+      "name": "map.seeded_monte_carlo",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "samples": 200000,
+      "state_set": "200000 independent stationary transition pairs on the 30-state planted chain; seed=8128",
+      "states_visited": 30,
+      "status": "PASS"
+    },
+    {
+      "L": 4.906890595608519,
+      "modules": 1,
+      "name": "uniform.map_one_module",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "saving": 0.0,
+      "state_set": "all 30 states of P_ij=1/30, including self-loops",
+      "status": "PASS"
+    },
+    {
+      "curve": [
+        {
+          "boundary_tied": true,
+          "crispness": 0.9999999999984448,
+          "k": 2,
+          "minChi": -7.397489888083751e-18,
+          "optimiser_iterations": 0,
+          "persistence_excess": -5.551115123125783e-16
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.9883526752902195,
+          "k": 3,
+          "minChi": -5.99418030587456e-18,
+          "optimiser_iterations": 1,
+          "persistence_excess": -2.220446049250313e-16
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.875615789310693,
+          "k": 4,
+          "minChi": -0.00018852988073303609,
+          "optimiser_iterations": 2,
+          "persistence_excess": -2.220446049250313e-16
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.8009232012281039,
+          "k": 6,
+          "minChi": -0.003815136887340123,
+          "optimiser_iterations": 2,
+          "persistence_excess": -4.4408920985006264e-17
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.7748090126565844,
+          "k": 7,
+          "minChi": -0.01319008503662363,
+          "optimiser_iterations": 2,
+          "persistence_excess": -7.401486830834377e-17
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.8955981649116194,
+          "k": 8,
+          "minChi": -0.23815893267185048,
+          "optimiser_iterations": 2,
+          "persistence_excess": 0.0
+        },
+        {
+          "boundary_tied": false,
+          "crispness": 0.9999999999941797,
+          "k": 30,
+          "minChi": -4.771924450072428e-16,
+          "optimiser_iterations": 0,
+          "persistence_excess": 7.656710514656252e-18
+        }
+      ],
+      "inadmissible_dimensions": [
+        {
+          "k": 5,
+          "reason": "k=5 splits a complex conjugate Schur pair; use k=4 or k=6"
+        }
+      ],
+      "k_checked": 7,
+      "name": "uniform.no_persistence",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "uniform 30-state chain; admissible Schur/G-PCCA+ dimensions among k=2..8 and k=30",
+      "status": "PASS"
+    },
+    {
+      "gpcca_k30_crispness": 0.9999999999941797,
+      "k_checked": 29,
+      "max_invariance_error": 0.0,
+      "min_constructed_crispness": 1.0,
+      "name": "uniform.low_crispness_request_refuted",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "requested_low_crispness_criterion": "REFUTED, not satisfied",
+      "state_set": "uniform 30-state chain; explicit crisp invariant membership construction for EVERY k=2..30",
+      "status": "PASS"
+    },
+    {
+      "identical": {
+        "adjusted_rand": 1.0,
+        "nmi": 1.0,
+        "states_compared": 4,
+        "vi": 0.0
+      },
+      "independent": {
+        "adjusted_rand": -0.49999999999999994,
+        "nmi": 0.0,
+        "states_compared": 4,
+        "vi": 2.0
+      },
+      "name": "similarity.known_answers",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "singleton": {
+        "adjusted_rand": 1.0,
+        "nmi": 1.0,
+        "states_compared": 1,
+        "vi": 0.0
+      },
+      "state_set": "four-state balanced independent partitions, relabelled identical partitions, and a singleton",
+      "status": "PASS"
+    },
+    {
+      "coordinates_checked": 6,
+      "max_gradient_error": 1.1101997099416394e-10,
+      "name": "gpcca.objective_gradient",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all six free rotation coordinates for planted-chain k=3; central step=1e-6",
+      "status": "PASS"
+    },
+    {
+      "inputs_rejected": 6,
+      "name": "validation.bad_inputs",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "rejection_floor": 6,
+      "state_set": "six malformed inputs: recurrent classes, periodicity, stationary vector, null, label coverage, restart count",
+      "status": "PASS"
+    },
+    {
+      "gpcca_rejects_zero_pi": true,
+      "map_L": 0.9709505944546688,
+      "name": "validation.zero_mass_transients",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "three-state unichain with one zero-stationary-mass transient; full state set retained by map equation",
+      "status": "PASS"
+    },
+    {
+      "name": "perturb.support_and_reproducibility",
+      "positive_cells": 800,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "row_sum_error": 2.220446049250313e-16,
+      "state_set": "all 40 states and 800 positive cells of the directed cycle; dense/CSR seed=91, eps=0.3 and eps=0",
+      "status": "PASS"
+    },
+    {
+      "name": "search.determinism",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "repeated_runs": 2,
+      "restarts_per_run": 3,
+      "state_set": "two repeated map searches on all 30 planted-chain states; three restarts, seed=811",
+      "status": "PASS"
+    },
+    {
+      "independently_checked_deltas": 70,
+      "name": "map.move_delta_independent",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "required_floor": 40,
+      "state_set": "seven-state dense directed Dirichlet chain, seed=351; unrestricted and submodule-constrained moves",
+      "status": "PASS"
+    },
+    {
+      "name": "perturb.eps_0.1",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "seeds_checked": 20,
+      "state_set": "all 30 planted-chain states; eps=0.1; seeds=0..19; recomputed pi; map restarts=8; k=3",
+      "status": "PASS",
+      "summary": {
+        "crispness": {
+          "max": 0.9879803931730969,
+          "median": 0.985908067565169,
+          "min": 0.9827266629956549
+        },
+        "gpcca_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "map_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "minChi": {
+          "max": -0.0010668671192954767,
+          "median": -0.0024412120434994388,
+          "min": -0.004765404695906844
+        },
+        "spectral_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "name": "perturb.eps_0.3",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "seeds_checked": 20,
+      "state_set": "all 30 planted-chain states; eps=0.3; seeds=0..19; recomputed pi; map restarts=8; k=3",
+      "status": "PASS",
+      "summary": {
+        "crispness": {
+          "max": 0.9656263893875504,
+          "median": 0.9593408084336659,
+          "min": 0.9519162929585083
+        },
+        "gpcca_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "map_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "minChi": {
+          "max": -0.0030054606620204386,
+          "median": -0.0064379332810555225,
+          "min": -0.009706415254032806
+        },
+        "spectral_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "name": "perturb.eps_0.6",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "seeds_checked": 20,
+      "state_set": "all 30 planted-chain states; eps=0.6; seeds=0..19; recomputed pi; map restarts=8; k=3",
+      "status": "PASS",
+      "summary": {
+        "crispness": {
+          "max": 0.9292248014440844,
+          "median": 0.9210622121476901,
+          "min": 0.9021899679790972
+        },
+        "gpcca_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "map_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "minChi": {
+          "max": -0.0006892862087499261,
+          "median": -0.010926716592402567,
+          "min": -0.021479446371464046
+        },
+        "spectral_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "max_coarse_flux_difference": 0.09206544353814117,
+      "max_crispness_gain": 0.023100738354072337,
+      "name": "gpcca.optimisation_exercised",
+      "nontrivial_optimisations": 60,
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "state_set": "all 60 perturbed 30-state planted chains; eps in {0.1,0.3,0.6}; seeds=0..19",
+      "status": "PASS"
+    },
+    {
+      "checks_run": 34,
+      "name": "coverage.floor",
+      "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+      "required_floor": 34,
+      "state_set": "all named synthetic/independent/stability checks executed by this selfcheck",
+      "status": "PASS"
+    }
+  ],
+  "checks_run": 34,
+  "failures": 0,
+  "fixtures": {
+    "cycle": {
+      "gpcca": {
+        "chi": [
+          [
+            0.9999999999996979,
+            1.0025313912365199e-13,
+            1.0086376178719583e-13,
+            1.0091927293842638e-13
+          ],
+          [
+            0.9999999999996959,
+            1.0091927293842678e-13,
+            1.0175194020689565e-13,
+            1.0136336214827674e-13
+          ],
+          [
+            0.999999999999697,
+            1.0075273948473311e-13,
+            1.0130785099704569e-13,
+            1.0089151736281095e-13
+          ],
+          [
+            0.9999999999996972,
+            1.0125233984581436e-13,
+            1.0114131754335185e-13,
+            1.0022538354803592e-13
+          ],
+          [
+            0.9999999999996976,
+            1.0119682869458331e-13,
+            1.0019762797242067e-13,
+            1.0100253966527333e-13
+          ],
+          [
+            0.9999999999996972,
+            1.0064171718227064e-13,
+            1.0119682869458322e-13,
+            1.0086376178719527e-13
+          ],
+          [
+            0.9999999999996972,
+            1.0064171718227064e-13,
+            1.0119682869458322e-13,
+            1.0086376178719527e-13
+          ],
+          [
+            0.9999999999996972,
+            1.0064171718227064e-13,
+            1.0119682869458322e-13,
+            1.0086376178719527e-13
+          ],
+          [
+            0.9999999999996972,
+            1.0064171718227064e-13,
+            1.0119682869458322e-13,
+            1.0086376178719527e-13
+          ],
+          [
+            0.9999999999996972,
+            1.0064171718227064e-13,
+            1.0119682869458322e-13,
+            1.0086376178719527e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0030865027488301e-13,
+            1.0033640585049841e-13,
+            0.9999999999996985,
+            1.0080825063596433e-13
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0036416142611433e-13,
+            1.0016987239680457e-13,
+            1.008637617871953e-13,
+            0.9999999999996985
+          ],
+          [
+            1.0019762797242031e-13,
+            0.999999999999698,
+            1.0108580639212057e-13,
+            1.0075273948473289e-13
+          ],
+          [
+            1.0019762797242031e-13,
+            0.999999999999698,
+            1.0108580639212057e-13,
+            1.0075273948473289e-13
+          ],
+          [
+            1.0019762797242031e-13,
+            0.999999999999698,
+            1.0108580639212057e-13,
+            1.0075273948473289e-13
+          ],
+          [
+            1.0019762797242031e-13,
+            0.999999999999698,
+            1.0108580639212057e-13,
+            1.0075273948473289e-13
+          ],
+          [
+            1.0019762797242031e-13,
+            0.999999999999698,
+            1.0108580639212057e-13,
+            1.0075273948473289e-13
+          ],
+          [
+            1.0019762797242033e-13,
+            0.999999999999698,
+            1.0105805081650492e-13,
+            1.0064171718227039e-13
+          ],
+          [
+            1.0019762797242033e-13,
+            0.999999999999698,
+            1.0105805081650492e-13,
+            1.0064171718227039e-13
+          ],
+          [
+            1.0019762797242033e-13,
+            0.999999999999698,
+            1.0105805081650492e-13,
+            1.0064171718227039e-13
+          ],
+          [
+            1.0019762797242033e-13,
+            0.999999999999698,
+            1.0105805081650492e-13,
+            1.0064171718227039e-13
+          ],
+          [
+            1.0019762797242033e-13,
+            0.999999999999698,
+            1.0105805081650492e-13,
+            1.0064171718227039e-13
+          ]
+        ],
+        "coarse": [
+          [
+            0.9000000000000004,
+            -5.356826093828908e-17,
+            0.1000000000000002,
+            -3.1641356201774816e-17
+          ],
+          [
+            0.09999999999999996,
+            0.9000000000000004,
+            9.270362255625785e-17,
+            -1.998401444326592e-17
+          ],
+          [
+            2.775557561394243e-18,
+            -6.383782391598027e-17,
+            0.9000000000000004,
+            0.09999999999999995
+          ],
+          [
+            2.77555756172872e-18,
+            0.09999999999999995,
+            7.077671781967426e-17,
+            0.9000000000000001
+          ]
+        ],
+        "coarse_flux": [
+          [
+            0.899999999999477,
+            2.009303834426699e-13,
+            0.10000000000012112,
+            2.0122431498843935e-13
+          ],
+          [
+            0.10000000000012049,
+            0.8999999999994774,
+            2.0145579648907365e-13,
+            2.0090124008827324e-13
+          ],
+          [
+            2.0143359202858069e-13,
+            2.0137086442768933e-13,
+            0.8999999999994766,
+            0.100000000000121
+          ],
+          [
+            2.0120211052794641e-13,
+            0.10000000000012034,
+            2.0169921288722215e-13,
+            0.8999999999994769
+          ]
+        ],
+        "coarse_is_stochastic": true,
+        "coarse_mass": [
+          0.24999999999999953,
+          0.24999999999999983,
+          0.25000000000000033,
+          0.2500000000000002
+        ],
+        "coarse_status": "computed",
+        "coverage": {
+          "memberships": 160,
+          "positive_links": 800,
+          "schur_vectors": 4,
+          "states": 40
+        },
+        "crispness": 0.9999999999993961,
+        "diagnostics": {
+          "boundary_gap": 0.8,
+          "boundary_tied": false,
+          "coarse_flux_difference": 5.238032230181489e-13,
+          "coarse_min": -6.383782391598027e-17,
+          "coarse_row_error": 4.440892098500626e-16,
+          "coarse_stationarity_error": 1.1102230246251565e-16,
+          "invariance_residual": 1.9984014443252818e-15,
+          "membership_invariance_error": 8.881784197001252e-16,
+          "membership_row_error": 2.220446049250313e-16,
+          "min_membership": 1.0016987239680457e-13,
+          "orthogonality_residual": 1.1102230246251565e-15,
+          "overlap_condition": 1.0000000000008058
+        },
+        "eigenvalues": [
+          {
+            "imag": 0.0,
+            "real": 0.9999999999999999
+          },
+          {
+            "imag": 0.09999999999999987,
+            "real": 0.8999999999999997
+          },
+          {
+            "imag": -0.09999999999999987,
+            "real": 0.8999999999999997
+          },
+          {
+            "imag": 0.0,
+            "real": 0.8
+          }
+        ],
+        "minChi": -6.661338147750944e-16,
+        "optimisation": {
+          "affine_roundoff_correction": 2.220446049250313e-16,
+          "evaluations": 1,
+          "initial_crispness": 0.9999999999993973,
+          "iterations": 0,
+          "message": "inner simplex attains the global crispness upper bound",
+          "success": true
+        },
+        "persistence_excess": 0.8666666666666671,
+        "persistence_excess_flux": 0.8666666666659691,
+        "rotation": [
+          [
+            0.24999999999999956,
+            0.24999999999999978,
+            0.2500000000000004,
+            0.2500000000000002
+          ],
+          [
+            0.036256900144482476,
+            0.35168940443495383,
+            -0.3516894044349534,
+            -0.03625690014448293
+          ],
+          [
+            -0.35168940443495306,
+            0.0362569001444822,
+            -0.036256900144483115,
+            0.35168940443495394
+          ],
+          [
+            0.2499999999998997,
+            -0.24999999999989908,
+            -0.24999999999989958,
+            0.24999999999989897
+          ]
+        ],
+        "schur_vectors": [
+          [
+            1.0,
+            0.14502760057798822,
+            -1.4067576177403807,
+            1.0000000000000036
+          ],
+          [
+            1.0,
+            0.14502760057798766,
+            -1.4067576177403773,
+            1.0000000000000004
+          ],
+          [
+            1.0,
+            0.14502760057798822,
+            -1.4067576177403793,
+            1.0000000000000016
+          ],
+          [
+            1.0,
+            0.14502760057798927,
+            -1.4067576177403807,
+            1.0000000000000009
+          ],
+          [
+            1.0,
+            0.1450276005779905,
+            -1.4067576177403798,
+            1.0000000000000029
+          ],
+          [
+            1.0,
+            0.14502760057798833,
+            -1.4067576177403798,
+            1.000000000000002
+          ],
+          [
+            1.0,
+            0.14502760057798833,
+            -1.4067576177403798,
+            1.000000000000002
+          ],
+          [
+            1.0,
+            0.14502760057798833,
+            -1.4067576177403798,
+            1.000000000000002
+          ],
+          [
+            1.0,
+            0.14502760057798833,
+            -1.4067576177403798,
+            1.000000000000002
+          ],
+          [
+            1.0,
+            0.14502760057798833,
+            -1.4067576177403798,
+            1.000000000000002
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -1.4067576177403802,
+            -0.1450276005779905,
+            -1.000000000000001
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            -0.14502760057799,
+            1.4067576177403822,
+            0.9999999999999982
+          ],
+          [
+            1.0,
+            1.4067576177403815,
+            0.14502760057798814,
+            -0.9999999999999993
+          ],
+          [
+            1.0,
+            1.4067576177403815,
+            0.14502760057798814,
+            -0.9999999999999993
+          ],
+          [
+            1.0,
+            1.4067576177403815,
+            0.14502760057798814,
+            -0.9999999999999993
+          ],
+          [
+            1.0,
+            1.4067576177403815,
+            0.14502760057798814,
+            -0.9999999999999993
+          ],
+          [
+            1.0,
+            1.4067576177403815,
+            0.14502760057798814,
+            -0.9999999999999993
+          ],
+          [
+            1.0,
+            1.4067576177403818,
+            0.14502760057798797,
+            -0.9999999999999996
+          ],
+          [
+            1.0,
+            1.4067576177403818,
+            0.14502760057798797,
+            -0.9999999999999996
+          ],
+          [
+            1.0,
+            1.4067576177403818,
+            0.14502760057798797,
+            -0.9999999999999996
+          ],
+          [
+            1.0,
+            1.4067576177403818,
+            0.14502760057798797,
+            -0.9999999999999996
+          ],
+          [
+            1.0,
+            1.4067576177403818,
+            0.14502760057798797,
+            -0.9999999999999996
+          ]
+        ],
+        "simplex_vertices": [
+          0,
+          35,
+          10,
+          20
+        ]
+      },
+      "search": {
+        "L": 4.005374780501027,
+        "coverage": {
+          "accepted_moves": 2176,
+          "aggregation_passes": 32,
+          "atoms_considered": 6784,
+          "coarse_passes": 32,
+          "fine_passes": 32,
+          "greedy_sweeps": 224,
+          "move_candidates": 47543,
+          "one_module_selections": 0,
+          "positive_links": 800,
+          "restarts": 32,
+          "states": 40,
+          "submodules_considered": 256
+        },
+        "one_module_L": 5.321928094887363,
+        "partition": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "raw_restart_L": [
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027
+        ],
+        "restart_L": [
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027,
+          4.005374780501027
+        ],
+        "saving": 1.3165533143863355,
+        "seed": 1701,
+        "spread": {
+          "max": 4.005374780501027,
+          "median": 4.005374780501027,
+          "min": 4.005374780501027,
+          "top5_pairwise_nmi": [
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                1
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                2
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                3
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                4
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                1,
+                2
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                1,
+                3
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                1,
+                4
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                2,
+                3
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                2,
+                4
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                3,
+                4
+              ]
+            }
+          ],
+          "top_restart_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "spectral": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "state_set": "all 40 synthetic states; 4 equal size-10 cliques; stay=0.9; cycle=True",
+      "truth": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "planted": {
+      "gpcca": {
+        "chi": [
+          [
+            1.0083774676437685e-13,
+            0.9999999999997985,
+            1.0056181822997944e-13
+          ],
+          [
+            1.0080257298153137e-13,
+            0.9999999999997989,
+            1.0017830069050936e-13
+          ],
+          [
+            1.0088115440690366e-13,
+            0.9999999999997988,
+            1.0020439209571596e-13
+          ],
+          [
+            1.0054837220643665e-13,
+            0.9999999999997988,
+            1.0053717429618297e-13
+          ],
+          [
+            1.0031563462956978e-13,
+            0.9999999999997988,
+            1.0076991187304984e-13
+          ],
+          [
+            1.0070353059101455e-13,
+            0.9999999999997988,
+            1.0038201591160507e-13
+          ],
+          [
+            1.0070353059101455e-13,
+            0.9999999999997988,
+            1.0038201591160507e-13
+          ],
+          [
+            1.0070353059101455e-13,
+            0.9999999999997988,
+            1.0038201591160507e-13
+          ],
+          [
+            1.0070353059101455e-13,
+            0.9999999999997988,
+            1.0038201591160507e-13
+          ],
+          [
+            1.0070353059101455e-13,
+            0.9999999999997988,
+            1.0038201591160507e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.9999999999997989,
+            1.0024539875939243e-13,
+            1.0079787084709968e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            0.999999999999799,
+            1.0024539875939243e-13,
+            1.0070722151673234e-13
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0023028348824284e-13,
+            1.0024539875939243e-13,
+            0.9999999999997995
+          ],
+          [
+            1.0032093281861018e-13,
+            1.0035007158997131e-13,
+            0.9999999999997993
+          ],
+          [
+            1.0032093281861018e-13,
+            1.0035007158997131e-13,
+            0.9999999999997993
+          ]
+        ],
+        "coarse": [
+          [
+            0.9000000000000002,
+            0.0499999999999999,
+            0.05000000000000003
+          ],
+          [
+            0.049999999999999954,
+            0.900000000000001,
+            0.050000000000000044
+          ],
+          [
+            0.04999999999999998,
+            0.049999999999999926,
+            0.9000000000000002
+          ]
+        ],
+        "coarse_flux": [
+          [
+            0.899999999999659,
+            0.05000000000017072,
+            0.05000000000017087
+          ],
+          [
+            0.050000000000170776,
+            0.89999999999966,
+            0.050000000000170644
+          ],
+          [
+            0.05000000000017078,
+            0.05000000000017049,
+            0.8999999999996587
+          ]
+        ],
+        "coarse_is_stochastic": true,
+        "coarse_mass": [
+          0.33333333333333326,
+          0.3333333333333329,
+          0.3333333333333336
+        ],
+        "coarse_status": "computed",
+        "coverage": {
+          "memberships": 90,
+          "positive_links": 900,
+          "schur_vectors": 3,
+          "states": 30
+        },
+        "crispness": 0.9999999999995985,
+        "diagnostics": {
+          "boundary_gap": 0.8500000000000003,
+          "boundary_tied": false,
+          "coarse_flux_difference": 3.4150460237469815e-13,
+          "coarse_min": 0.0499999999999999,
+          "coarse_row_error": 8.881784197001252e-16,
+          "coarse_stationarity_error": 3.3306690738754696e-16,
+          "invariance_residual": 1.7763568394002505e-15,
+          "membership_invariance_error": 3.3306690738754696e-16,
+          "membership_row_error": 1.1102230246251565e-16,
+          "min_membership": 1.0017830069050936e-13,
+          "orthogonality_residual": 8.881784197001252e-16,
+          "overlap_condition": 1.0000000000006026
+        },
+        "eigenvalues": [
+          {
+            "imag": 0.0,
+            "real": 1.0000000000000002
+          },
+          {
+            "imag": 0.0,
+            "real": 0.8500000000000005
+          },
+          {
+            "imag": 0.0,
+            "real": 0.8500000000000003
+          }
+        ],
+        "minChi": -6.406835726397973e-16,
+        "optimisation": {
+          "affine_roundoff_correction": 2.220446049250313e-16,
+          "evaluations": 1,
+          "initial_crispness": 0.9999999999995993,
+          "iterations": 0,
+          "message": "inner simplex attains the global crispness upper bound",
+          "success": true
+        },
+        "persistence_excess": 0.8500000000000008,
+        "persistence_excess_flux": 0.8499999999994889,
+        "rotation": [
+          [
+            0.33333333333333326,
+            0.3333333333333332,
+            0.3333333333333335
+          ],
+          [
+            -0.23570226039544465,
+            0.47140452079088974,
+            -0.2357022603954451
+          ],
+          [
+            0.40824829046374006,
+            -6.409875621276618e-17,
+            -0.40824829046374
+          ]
+        ],
+        "schur_vectors": [
+          [
+            1.0,
+            1.4142135623730938,
+            -1.5929502607751734e-16
+          ],
+          [
+            1.0,
+            1.4142135623730947,
+            2.6733720332985064e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            3.3162408632702616e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -4.835225002979779e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -1.0536108075937388e-15
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -1.0346362876747057e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -1.0346362876747057e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -1.0346362876747057e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -1.0346362876747057e-16
+          ],
+          [
+            1.0,
+            1.4142135623730945,
+            -1.0346362876747057e-16
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865474,
+            1.2247448713915892
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865477,
+            -1.224744871391589
+          ],
+          [
+            1.0,
+            -0.7071067811865475,
+            -1.2247448713915887
+          ],
+          [
+            1.0,
+            -0.7071067811865475,
+            -1.2247448713915887
+          ]
+        ],
+        "simplex_vertices": [
+          10,
+          4,
+          20
+        ]
+      },
+      "search": {
+        "L": 3.963871030573143,
+        "coverage": {
+          "accepted_moves": 1632,
+          "aggregation_passes": 32,
+          "atoms_considered": 5088,
+          "coarse_passes": 32,
+          "fine_passes": 32,
+          "greedy_sweeps": 224,
+          "move_candidates": 28211,
+          "one_module_selections": 0,
+          "positive_links": 900,
+          "restarts": 32,
+          "states": 30,
+          "submodules_considered": 192
+        },
+        "one_module_L": 4.906890595608519,
+        "partition": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "raw_restart_L": [
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143
+        ],
+        "restart_L": [
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143,
+          3.963871030573143
+        ],
+        "saving": 0.9430195650353759,
+        "seed": 1701,
+        "spread": {
+          "max": 3.963871030573143,
+          "median": 3.963871030573143,
+          "min": 3.963871030573143,
+          "top5_pairwise_nmi": [
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                0,
+                1
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                0,
+                2
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                0,
+                3
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                0,
+                4
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                1,
+                2
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                1,
+                3
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                1,
+                4
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                2,
+                3
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                2,
+                4
+              ]
+            },
+            {
+              "nmi": 0.9999999999999999,
+              "restarts": [
+                3,
+                4
+              ]
+            }
+          ],
+          "top_restart_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "spectral": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "state_set": "all 30 synthetic states; 3 equal size-10 cliques; stay=0.9; cycle=False",
+      "truth": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "uniform": {
+      "curve": [
+        {
+          "boundary_tied": true,
+          "crispness": 0.9999999999984448,
+          "k": 2,
+          "minChi": -7.397489888083751e-18,
+          "optimiser_iterations": 0,
+          "persistence_excess": -5.551115123125783e-16
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.9883526752902195,
+          "k": 3,
+          "minChi": -5.99418030587456e-18,
+          "optimiser_iterations": 1,
+          "persistence_excess": -2.220446049250313e-16
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.875615789310693,
+          "k": 4,
+          "minChi": -0.00018852988073303609,
+          "optimiser_iterations": 2,
+          "persistence_excess": -2.220446049250313e-16
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.8009232012281039,
+          "k": 6,
+          "minChi": -0.003815136887340123,
+          "optimiser_iterations": 2,
+          "persistence_excess": -4.4408920985006264e-17
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.7748090126565844,
+          "k": 7,
+          "minChi": -0.01319008503662363,
+          "optimiser_iterations": 2,
+          "persistence_excess": -7.401486830834377e-17
+        },
+        {
+          "boundary_tied": true,
+          "crispness": 0.8955981649116194,
+          "k": 8,
+          "minChi": -0.23815893267185048,
+          "optimiser_iterations": 2,
+          "persistence_excess": 0.0
+        },
+        {
+          "boundary_tied": false,
+          "crispness": 0.9999999999941797,
+          "k": 30,
+          "minChi": -4.771924450072428e-16,
+          "optimiser_iterations": 0,
+          "persistence_excess": 7.656710514656252e-18
+        }
+      ],
+      "inadmissible_dimensions": [
+        {
+          "k": 5,
+          "reason": "k=5 splits a complex conjugate Schur pair; use k=4 or k=6"
+        }
+      ],
+      "limitation": "Crispness alone cannot reject structureless dynamics; requested criterion (c) is false.",
+      "search": {
+        "L": 4.906890595608519,
+        "coverage": {
+          "accepted_moves": 1824,
+          "aggregation_passes": 32,
+          "atoms_considered": 4896,
+          "coarse_passes": 32,
+          "fine_passes": 32,
+          "greedy_sweeps": 224,
+          "move_candidates": 32717,
+          "one_module_selections": 32,
+          "positive_links": 900,
+          "restarts": 32,
+          "states": 30,
+          "submodules_considered": 64
+        },
+        "one_module_L": 4.906890595608519,
+        "partition": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_restart_L": [
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519
+        ],
+        "restart_L": [
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519,
+          4.906890595608519
+        ],
+        "saving": 0.0,
+        "seed": 1701,
+        "spread": {
+          "max": 4.906890595608519,
+          "median": 4.906890595608519,
+          "min": 4.906890595608519,
+          "top5_pairwise_nmi": [
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                1
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                2
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                3
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                0,
+                4
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                1,
+                2
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                1,
+                3
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                1,
+                4
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                2,
+                3
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                2,
+                4
+              ]
+            },
+            {
+              "nmi": 1.0,
+              "restarts": [
+                3,
+                4
+              ]
+            }
+          ],
+          "top_restart_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    }
+  },
+  "perturbations": [
+    {
+      "eps": 0.1,
+      "rows": [
+        {
+          "coarse_flux_difference": 0.01398902415520109,
+          "coarse_min": 0.049510726478029156,
+          "crispness": 0.9851500075619484,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9835318366471929,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0026339849210678216,
+          "optimisation_iterations": 2,
+          "seed": 0,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.011626224425697274,
+          "coarse_min": 0.04969298497115158,
+          "crispness": 0.9876441571785318,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9871315056594779,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.001972079856235614,
+          "optimisation_iterations": 2,
+          "seed": 1,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012958886883534637,
+          "coarse_min": 0.04923460889996367,
+          "crispness": 0.9865266123423081,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9858623346033027,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0029530807555815334,
+          "optimisation_iterations": 2,
+          "seed": 2,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.015544602861951917,
+          "coarse_min": 0.04906891850104002,
+          "crispness": 0.9837773863521398,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9818374691704993,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0037657314278580745,
+          "optimisation_iterations": 2,
+          "seed": 3,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.015127418033298312,
+          "coarse_min": 0.0492741803427228,
+          "crispness": 0.9831746487315888,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9814269996565423,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0010668671192954767,
+          "optimisation_iterations": 2,
+          "seed": 4,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.014310228479012532,
+          "coarse_min": 0.04987030688069494,
+          "crispness": 0.9843938625690473,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9829414716622189,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0024074077349377867,
+          "optimisation_iterations": 2,
+          "seed": 5,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012946981399002633,
+          "coarse_min": 0.04886218351629576,
+          "crispness": 0.9858769501720843,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9833388608742318,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.002954222997585457,
+          "optimisation_iterations": 2,
+          "seed": 6,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.014126170087459311,
+          "coarse_min": 0.05009889549542261,
+          "crispness": 0.9847928999659379,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.982433535585718,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.001865453696990095,
+          "optimisation_iterations": 2,
+          "seed": 7,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012788544584169004,
+          "coarse_min": 0.04948854632096323,
+          "crispness": 0.9854552763135157,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9829364792205783,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.003014207964585155,
+          "optimisation_iterations": 2,
+          "seed": 8,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012834897546846302,
+          "coarse_min": 0.04982506313489628,
+          "crispness": 0.9859403549753831,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9831259557193789,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.002475016352061091,
+          "optimisation_iterations": 2,
+          "seed": 9,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012600686842501152,
+          "coarse_min": 0.04895141014490303,
+          "crispness": 0.9860840792134296,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9848295330301955,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0017014348430650788,
+          "optimisation_iterations": 2,
+          "seed": 10,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.015142550919514108,
+          "coarse_min": 0.049299627894608386,
+          "crispness": 0.983175673324574,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9784149770590725,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0047528351144749854,
+          "optimisation_iterations": 2,
+          "seed": 11,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.013448810248852805,
+          "coarse_min": 0.049455688504075966,
+          "crispness": 0.9854421954567671,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9836704962056722,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.00204713960005671,
+          "optimisation_iterations": 2,
+          "seed": 12,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012016134723768168,
+          "coarse_min": 0.04886144807293687,
+          "crispness": 0.9873068530901546,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.984121599871283,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0034237592779411846,
+          "optimisation_iterations": 2,
+          "seed": 13,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.011024914405028285,
+          "coarse_min": 0.04960421378557499,
+          "crispness": 0.9879803931730969,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.985922489814096,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0020452993838936152,
+          "optimisation_iterations": 2,
+          "seed": 14,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012007429417346227,
+          "coarse_min": 0.049454851580892016,
+          "crispness": 0.9867576229516519,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9826778937734623,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0029915437122205713,
+          "optimisation_iterations": 2,
+          "seed": 15,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.011916419293553804,
+          "coarse_min": 0.04757657279274826,
+          "crispness": 0.9864662068581018,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9850090569493961,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0017864190191261209,
+          "optimisation_iterations": 2,
+          "seed": 16,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.01118070320403075,
+          "coarse_min": 0.048755953827772355,
+          "crispness": 0.9876087038737925,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9871885650366052,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.001721929924606154,
+          "optimisation_iterations": 2,
+          "seed": 17,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.012331569594239533,
+          "coarse_min": 0.049223571902208184,
+          "crispness": 0.9859391849582537,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9841833597254365,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.001788696760021193,
+          "optimisation_iterations": 2,
+          "seed": 18,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.016729340414780136,
+          "coarse_min": 0.049018433336371126,
+          "crispness": 0.9827266629956549,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9799632266643689,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.004765404695906844,
+          "optimisation_iterations": 2,
+          "seed": 19,
+          "spectral_nmi": 0.9999999999999999
+        }
+      ],
+      "summary": {
+        "crispness": {
+          "max": 0.9879803931730969,
+          "median": 0.985908067565169,
+          "min": 0.9827266629956549
+        },
+        "gpcca_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "map_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "minChi": {
+          "max": -0.0010668671192954767,
+          "median": -0.0024412120434994388,
+          "min": -0.004765404695906844
+        },
+        "spectral_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "eps": 0.3,
+      "rows": [
+        {
+          "coarse_flux_difference": 0.03718183304802847,
+          "coarse_min": 0.04844576561351618,
+          "crispness": 0.9585419584202827,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9552297193202293,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.004613850966931222,
+          "optimisation_iterations": 2,
+          "seed": 0,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.030876060730186672,
+          "coarse_min": 0.04877853347922275,
+          "crispness": 0.9656263893875504,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9585816996614603,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.006500924089157756,
+          "optimisation_iterations": 2,
+          "seed": 1,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03575025820665145,
+          "coarse_min": 0.0478444313413029,
+          "crispness": 0.9610094229391523,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9600599452681228,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0068726159547131205,
+          "optimisation_iterations": 2,
+          "seed": 2,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.04063315025640957,
+          "coarse_min": 0.04759743289803977,
+          "crispness": 0.9567574249497413,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9507366982699992,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.009706415254032806,
+          "optimisation_iterations": 2,
+          "seed": 3,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.04255655277749837,
+          "coarse_min": 0.048039016997768864,
+          "crispness": 0.9519162929585083,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9475449978087734,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0032501285958274322,
+          "optimisation_iterations": 2,
+          "seed": 4,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.04386057842292035,
+          "coarse_min": 0.05042137894383225,
+          "crispness": 0.9534135010666711,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9508575262233245,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.003930538177228223,
+          "optimisation_iterations": 2,
+          "seed": 5,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03799056949581148,
+          "coarse_min": 0.04685176303133902,
+          "crispness": 0.95882225610702,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9531742409442417,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.006749952673980183,
+          "optimisation_iterations": 2,
+          "seed": 6,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.04070051670738417,
+          "coarse_min": 0.05053746189814412,
+          "crispness": 0.9560616768333899,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9484612230559044,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0059046573024753995,
+          "optimisation_iterations": 2,
+          "seed": 7,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.039576889904608836,
+          "coarse_min": 0.04826723779626989,
+          "crispness": 0.9559909262260193,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.947693098276757,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.008345808927411269,
+          "optimisation_iterations": 2,
+          "seed": 8,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03610768174351908,
+          "coarse_min": 0.049637988174781385,
+          "crispness": 0.9608363007857967,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9550245932010873,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.005091745898740139,
+          "optimisation_iterations": 2,
+          "seed": 9,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03580188258493566,
+          "coarse_min": 0.047037860019213784,
+          "crispness": 0.9602012002683482,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9559352061388259,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.007555270357577781,
+          "optimisation_iterations": 2,
+          "seed": 10,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.0405929931780874,
+          "coarse_min": 0.048262258983431894,
+          "crispness": 0.9550815969928181,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9481239975267522,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.009103264012469806,
+          "optimisation_iterations": 2,
+          "seed": 11,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.039777895274446085,
+          "coarse_min": 0.048653799625633,
+          "crispness": 0.9585618198590707,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9556704266235453,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0030054606620204386,
+          "optimisation_iterations": 2,
+          "seed": 12,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03381251768648985,
+          "coarse_min": 0.04707961830589161,
+          "crispness": 0.9631309408350495,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9552070071934536,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.008211542549101024,
+          "optimisation_iterations": 2,
+          "seed": 13,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03222044766162768,
+          "coarse_min": 0.04916619695256833,
+          "crispness": 0.9640681086790814,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9575664980453641,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.00637494247295329,
+          "optimisation_iterations": 2,
+          "seed": 14,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.035557194667408254,
+          "coarse_min": 0.04878729625186261,
+          "crispness": 0.9623731266024548,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9508786963485676,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.00952269495403944,
+          "optimisation_iterations": 2,
+          "seed": 15,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03217676786973467,
+          "coarse_min": 0.043108409421871066,
+          "crispness": 0.9625783431581444,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9575956167615511,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.005004096020856105,
+          "optimisation_iterations": 2,
+          "seed": 16,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.033142441641799913,
+          "coarse_min": 0.04647001740994331,
+          "crispness": 0.9640180713841887,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9623787968550954,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.006201578123512067,
+          "optimisation_iterations": 2,
+          "seed": 17,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.03595288037060351,
+          "coarse_min": 0.047839717258173306,
+          "crispness": 0.9598593607603118,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9555899927919045,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.004765140202197024,
+          "optimisation_iterations": 2,
+          "seed": 18,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.04569883452851875,
+          "coarse_min": 0.04676899362910249,
+          "crispness": 0.9523065402144164,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9448598400584401,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.008923078658282593,
+          "optimisation_iterations": 2,
+          "seed": 19,
+          "spectral_nmi": 0.9999999999999999
+        }
+      ],
+      "summary": {
+        "crispness": {
+          "max": 0.9656263893875504,
+          "median": 0.9593408084336659,
+          "min": 0.9519162929585083
+        },
+        "gpcca_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "map_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "minChi": {
+          "max": -0.0030054606620204386,
+          "median": -0.0064379332810555225,
+          "min": -0.009706415254032806
+        },
+        "spectral_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "eps": 0.6,
+      "rows": [
+        {
+          "coarse_flux_difference": 0.06611427836777117,
+          "coarse_min": 0.04654467891926213,
+          "crispness": 0.922429581799291,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9199126389990487,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.005699449074993866,
+          "optimisation_iterations": 2,
+          "seed": 0,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.06332354031318943,
+          "coarse_min": 0.04548907707462526,
+          "crispness": 0.927409671619826,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9154748851829105,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.01767045394740615,
+          "optimisation_iterations": 2,
+          "seed": 1,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07539444888980218,
+          "coarse_min": 0.045448053993255806,
+          "crispness": 0.91904868964179,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9126750073074313,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.01595571004283911,
+          "optimisation_iterations": 2,
+          "seed": 2,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07755928881198404,
+          "coarse_min": 0.045933633946079425,
+          "crispness": 0.9151965427304664,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9043628242981399,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.015301164710551507,
+          "optimisation_iterations": 2,
+          "seed": 3,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.08392975755317467,
+          "coarse_min": 0.046578184826677985,
+          "crispness": 0.9065404172233764,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9044442984346611,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0063794665392288615,
+          "optimisation_iterations": 2,
+          "seed": 4,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.09206544353814117,
+          "coarse_min": 0.053028372734457235,
+          "crispness": 0.903277546591652,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9025576845583175,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.0006892862087499261,
+          "optimisation_iterations": 2,
+          "seed": 5,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07591373177055794,
+          "coarse_min": 0.044644309130415956,
+          "crispness": 0.9202433985835073,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9142256961258539,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.007336423909917017,
+          "optimisation_iterations": 2,
+          "seed": 6,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07775387561605718,
+          "coarse_min": 0.052173345229798905,
+          "crispness": 0.9150113538806478,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.900312913470659,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.011239481744287655,
+          "optimisation_iterations": 2,
+          "seed": 7,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.08484485164542344,
+          "coarse_min": 0.04578236935774526,
+          "crispness": 0.9105854016528562,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.8952338827442298,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.020173367991131976,
+          "optimisation_iterations": 2,
+          "seed": 8,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07009395544253705,
+          "coarse_min": 0.04930232375422412,
+          "crispness": 0.9253704585425039,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9171078751138655,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.01061395144051748,
+          "optimisation_iterations": 2,
+          "seed": 9,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.06814967924044879,
+          "coarse_min": 0.0446471149339978,
+          "crispness": 0.9235704955318768,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9127214004989551,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.018589170556204928,
+          "optimisation_iterations": 2,
+          "seed": 10,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07316457819264233,
+          "coarse_min": 0.04677646386460038,
+          "crispness": 0.920498191588122,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9128454339896045,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.017236432914801043,
+          "optimisation_iterations": 2,
+          "seed": 11,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07533722419710909,
+          "coarse_min": 0.04825486736982083,
+          "crispness": 0.9219843830500407,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9190491541624777,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.00502096664464499,
+          "optimisation_iterations": 2,
+          "seed": 12,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07057651392554787,
+          "coarse_min": 0.045035685340413,
+          "crispness": 0.9216262327072583,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.911288067583568,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.01042426039547736,
+          "optimisation_iterations": 2,
+          "seed": 13,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.06848349163726719,
+          "coarse_min": 0.04912412816298847,
+          "crispness": 0.92480223624869,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9145770731404439,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.01520825973480338,
+          "optimisation_iterations": 2,
+          "seed": 14,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.06776765611451585,
+          "coarse_min": 0.048819540160120356,
+          "crispness": 0.9292248014440844,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.906124063090012,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.021479446371464046,
+          "optimisation_iterations": 2,
+          "seed": 15,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.06748804359636684,
+          "coarse_min": 0.03765475791993758,
+          "crispness": 0.9286841577018615,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9230776282287899,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.008220343617218252,
+          "optimisation_iterations": 2,
+          "seed": 16,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.06577776621561693,
+          "coarse_min": 0.04361391469872681,
+          "crispness": 0.9282716823379157,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9196527231634958,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.011246653684140068,
+          "optimisation_iterations": 2,
+          "seed": 17,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.07525872131209188,
+          "coarse_min": 0.045494269859355695,
+          "crispness": 0.9200315829383837,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9126832893912606,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.006584625084764731,
+          "optimisation_iterations": 2,
+          "seed": 18,
+          "spectral_nmi": 0.9999999999999999
+        },
+        {
+          "coarse_flux_difference": 0.08749105397324553,
+          "coarse_min": 0.04283110502246682,
+          "crispness": 0.9021899679790972,
+          "gpcca_nmi": 0.9999999999999999,
+          "initial_crispness": 0.9006039484189262,
+          "map_nmi": 0.9999999999999999,
+          "minChi": -0.003118580159050796,
+          "optimisation_iterations": 2,
+          "seed": 19,
+          "spectral_nmi": 0.9999999999999999
+        }
+      ],
+      "summary": {
+        "crispness": {
+          "max": 0.9292248014440844,
+          "median": 0.9210622121476901,
+          "min": 0.9021899679790972
+        },
+        "gpcca_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "map_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        },
+        "minChi": {
+          "max": -0.0006892862087499261,
+          "median": -0.010926716592402567,
+          "min": -0.021479446371464046
+        },
+        "spectral_nmi": {
+          "max": 0.9999999999999999,
+          "median": 0.9999999999999999,
+          "min": 0.9999999999999999
+        }
+      }
+    }
+  ],
+  "recompute": "python3 -B scripts/semantics/_territory_methods.py --selfcheck",
+  "scope": "synthetic chains only; no corpus/kernel reads",
+  "source_sha256": {
+    "scripts/semantics/_territory_methods.py": "9317ba5003758781984830e5e20eb04762d76b72793583589c41167a4dd9b1d0"
+  }
+}

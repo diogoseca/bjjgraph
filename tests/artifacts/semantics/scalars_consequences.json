@@ -1,0 +1,1737 @@
+{
+ "checks": {
+  "compared": 54606,
+  "failed": 0,
+  "passed": 35
+ },
+ "part1_folded_rates_in_gi": {
+  "app_in_gi_today": {
+   "cards_valued": 1188,
+   "caveat": "at rest: moveChance = the gi rate with no drilling and no aiMod; aiMod is uniform across a hand and the shift removes its mean, so it re-ranks only by slope (c1 − c̄1)",
+   "gi_cards_with_no_table_value": 70,
+   "hands_compared": 261,
+   "hands_top_card_same_as_frame_solve": 239,
+   "vs_gi_folded_solve": {
+    "abs_diff_histogram": {
+     "0": 333,
+     "1": 433,
+     "2-4": 347,
+     "5-9": 62,
+     ">=10": 13
+    },
+    "max_abs_diff": 23,
+    "mean_abs_diff": 1.590909091
+   },
+   "vs_gi_frame_solve": {
+    "abs_diff_histogram": {
+     "0": 391,
+     "1": 458,
+     "2-4": 294,
+     "5-9": 35,
+     ">=10": 10
+    },
+    "max_abs_diff": 23,
+    "mean_abs_diff": 1.322390572
+   },
+   "what": "the integer the app prints in gi at rest = round(e0 + (p_gi − p0)·c1 − shift) from the no-gi table"
+  },
+  "edge": {
+   "abs_delta_histogram": {
+    "1": 318,
+    "2-4": 151,
+    "5-9": 13,
+    ">=10": 3
+   },
+   "cards_only_folded": 0,
+   "cards_only_frame": 0,
+   "cards_whose_own_odds_changed": 135,
+   "dominant_term_of_changed_integers": {
+    "baseline": 253,
+    "downstream": 160,
+    "own rate": 72
+   },
+   "frame": "gi",
+   "hands": 266,
+   "hands_top_card_changed_integer_order": 13,
+   "hands_top_card_changed_solver_order": 9,
+   "hands_with_any_change": 167,
+   "horizons": [9, 10, 11, 12],
+   "integers_changed": 485,
+   "lambda": 2.0,
+   "max_abs_delta": 12,
+   "pairs_compared": 1259,
+   "patch_calls": {
+    "frame_cell": 14988
+   },
+   "policy": "argmax (the shipped EDGE)",
+   "top20": [
+    {
+     "card": "Counter Leg Attack",
+     "category": "transitions",
+     "delta": -12,
+     "dominant_term": "baseline",
+     "edge_folded": 4,
+     "edge_frame": -8,
+     "odds_folded": 0.35,
+     "odds_frame": 0.28,
+     "rates": {
+      "folded": 35.0,
+      "gi": 28.0,
+      "nogi": 35.0
+     },
+     "state": "inside-sankaku/bottom",
+     "technique": "counter-leg-attack",
+     "term_baseline": -10.56190231,
+     "term_downstream": 6.377687648,
+     "term_own_rate": -7.931774039
+    },
+    {
+     "card": "Standing Escape",
+     "category": "transitions",
+     "delta": 12,
+     "dominant_term": "own rate",
+     "edge_folded": -10,
+     "edge_frame": 2,
+     "odds_folded": 0.36,
+     "odds_frame": 0.41,
+     "rates": {
+      "folded": 36.0,
+      "gi": 41.0,
+      "nogi": 36.0
+     },
+     "state": "invisible-collar/bottom",
+     "technique": "standing-escape",
+     "term_baseline": 2.297409248,
+     "term_downstream": -0.6026055685,
+     "term_own_rate": 9.749749228
+    },
+    {
+     "card": "Heel Hook from Ashi Garami",
+     "category": "submissions",
+     "delta": -11,
+     "dominant_term": "own rate",
+     "edge_folded": -4,
+     "edge_frame": -15,
+     "odds_folded": 0.37,
+     "odds_frame": 0.12,
+     "rates": {
+      "folded": 37.0,
+      "gi": 12.0,
+      "nogi": 37.0
+     },
+     "state": "ashi-garami/bottom",
+     "technique": "heel-hook-from-ashi-garami",
+     "term_baseline": -1.351209174,
+     "term_downstream": 1.283861868,
+     "term_own_rate": -10.96621792
+    },
+    {
+     "card": "Frame and Extract to Half Guard",
+     "category": "transitions",
+     "delta": 9,
+     "dominant_term": "own rate",
+     "edge_folded": -2,
+     "edge_frame": 7,
+     "odds_folded": 0.29,
+     "odds_frame": 0.41,
+     "rates": {
+      "folded": 29.0,
+      "gi": 41.0,
+      "nogi": 29.0
+     },
+     "state": "inside-sankaku/bottom",
+     "technique": "frame-and-extract-to-half-guard",
+     "term_baseline": -10.56190231,
+     "term_downstream": 6.806539113,
+     "term_own_rate": 13.50569084
+    },
+    {
+     "card": "Defensive Roll",
+     "category": "transitions",
+     "delta": 7,
+     "dominant_term": "own rate",
+     "edge_folded": -36,
+     "edge_frame": -29,
+     "odds_folded": 0.304,
+     "odds_frame": 0.376,
+     "rates": {
+      "folded": 30.4,
+      "gi": 37.6,
+      "nogi": 30.4
+     },
+     "state": "twister-control/bottom",
+     "technique": "defensive-roll",
+     "term_baseline": 0.8738473382,
+     "term_downstream": -3.654002228,
+     "term_own_rate": 9.462087799
+    },
+    {
+     "card": "Back Control to Crucifix",
+     "category": "transitions",
+     "delta": -6,
+     "dominant_term": "downstream",
+     "edge_folded": -14,
+     "edge_frame": -20,
+     "odds_folded": 0.44,
+     "odds_frame": 0.39,
+     "rates": {
+      "folded": 44.0,
+      "gi": 39.0,
+      "nogi": 44.0
+     },
+     "state": "back-control/top",
+     "technique": "back-control-to-crucifix",
+     "term_baseline": -1.049688752,
+     "term_downstream": -3.128077996,
+     "term_own_rate": -1.762905516
+    },
+    {
+     "card": "Bow and Arrow Choke from Harness",
+     "category": "submissions",
+     "delta": 6,
+     "dominant_term": "own rate",
+     "edge_folded": -9,
+     "edge_frame": -3,
+     "odds_folded": 0.1,
+     "odds_frame": 0.45,
+     "rates": {
+      "folded": 10.0,
+      "gi": 45.0,
+      "nogi": 10.0
+     },
+     "state": "harness/top",
+     "technique": "bow-and-arrow-choke-from-harness",
+     "term_baseline": -1.638608264,
+     "term_downstream": -0.2651719447,
+     "term_own_rate": 7.966233835
+    },
+    {
+     "card": "Belly Down Armbar from Lasso Guard",
+     "category": "submissions",
+     "delta": -6,
+     "dominant_term": "baseline",
+     "edge_folded": 11,
+     "edge_frame": 5,
+     "odds_folded": 0.5,
+     "odds_frame": 0.5,
+     "rates": {
+      "folded": 50.0,
+      "gi": 50.0,
+      "nogi": 50.0
+     },
+     "state": "lasso-guard/bottom",
+     "technique": "belly-down-armbar-from-lasso-guard",
+     "term_baseline": -5.476484193,
+     "term_downstream": -0.1986650165,
+     "term_own_rate": 0.0
+    },
+    {
+     "card": "Outside Heel Hook from Leg Entanglement",
+     "category": "submissions",
+     "delta": -6,
+     "dominant_term": "own rate",
+     "edge_folded": 3,
+     "edge_frame": -3,
+     "odds_folded": 0.41,
+     "odds_frame": 0.12,
+     "rates": {
+      "folded": 41.0,
+      "gi": 12.0,
+      "nogi": 41.0
+     },
+     "state": "leg-entanglement/top",
+     "technique": "outside-heel-hook-from-leg-entanglement",
+     "term_baseline": 0.8867592135,
+     "term_downstream": -0.260922499,
+     "term_own_rate": -6.845965222
+    },
+    {
+     "card": "Heel Hook from Saddle",
+     "category": "submissions",
+     "delta": -6,
+     "dominant_term": "own rate",
+     "edge_folded": 1,
+     "edge_frame": -5,
+     "odds_folded": 0.45,
+     "odds_frame": 0.11,
+     "rates": {
+      "folded": 45.0,
+      "gi": 11.0,
+      "nogi": 45.0
+     },
+     "state": "saddle/top",
+     "technique": "heel-hook-from-saddle",
+     "term_baseline": -0.03494130125,
+     "term_downstream": 0.1552090513,
+     "term_own_rate": -5.533919567
+    },
+    {
+     "card": "Bow and Arrow Choke from Back Control",
+     "category": "submissions",
+     "delta": 5,
+     "dominant_term": "own rate",
+     "edge_folded": -4,
+     "edge_frame": 1,
+     "odds_folded": 0.1,
+     "odds_frame": 0.45,
+     "rates": {
+      "folded": 10.0,
+      "gi": 45.0,
+      "nogi": 10.0
+     },
+     "state": "back-control/top",
+     "technique": "bow-and-arrow-choke-from-back-control",
+     "term_baseline": -1.049688752,
+     "term_downstream": 0.2624575363,
+     "term_own_rate": 5.417782686
+    },
+    {
+     "card": "Hip Escape to Guard",
+     "category": "transitions",
+     "delta": 5,
+     "dominant_term": "own rate",
+     "edge_folded": -21,
+     "edge_frame": -16,
+     "odds_folded": 0.408,
+     "odds_frame": 0.443,
+     "rates": {
+      "folded": 40.8,
+      "gi": 44.3,
+      "nogi": 40.8
+     },
+     "state": "backside-50-50/bottom",
+     "technique": "hip-escape-to-guard",
+     "term_baseline": 0.303829588,
+     "term_downstream": 0.883648966,
+     "term_own_rate": 3.243499948
+    },
+    {
+     "card": "Standing up in Base",
+     "category": "transitions",
+     "delta": -5,
+     "dominant_term": "downstream",
+     "edge_folded": -7,
+     "edge_frame": -12,
+     "odds_folded": 0.35,
+     "odds_frame": 0.35,
+     "rates": {
+      "folded": 35.0,
+      "gi": 35.0,
+      "nogi": 35.0
+     },
+     "state": "backside-50-50/bottom",
+     "technique": "standing-up-in-base",
+     "term_baseline": 0.303829588,
+     "term_downstream": -4.781557021,
+     "term_own_rate": 0.0
+    },
+    {
+     "card": "Scissor Sweep",
+     "category": "transitions",
+     "delta": 5,
+     "dominant_term": "own rate",
+     "edge_folded": -18,
+     "edge_frame": -13,
+     "odds_folded": 0.23,
+     "odds_frame": 0.35,
+     "rates": {
+      "folded": 23.0,
+      "gi": 35.0,
+      "nogi": 23.0
+     },
+     "state": "closed-guard/bottom",
+     "technique": "scissor-sweep",
+     "term_baseline": -1.455701974,
+     "term_downstream": 0.3942274866,
+     "term_own_rate": 6.643265062
+    },
+    {
+     "card": "High Elbow Guillotine Variation",
+     "category": "transitions",
+     "delta": -5,
+     "dominant_term": "own rate",
+     "edge_folded": -9,
+     "edge_frame": -14,
+     "odds_folded": 0.46,
+     "odds_frame": 0.39,
+     "rates": {
+      "folded": 46.0,
+      "gi": 39.0,
+      "nogi": 46.0
+     },
+     "state": "hindulotine/bottom",
+     "technique": "high-elbow-guillotine-variation",
+     "term_baseline": 2.140373916,
+     "term_downstream": -0.0713770077,
+     "term_own_rate": -6.881624903
+    },
+    {
+     "card": "Lasso Guard to Inverted Lasso Guard",
+     "category": "transitions",
+     "delta": -5,
+     "dominant_term": "baseline",
+     "edge_folded": 9,
+     "edge_frame": 4,
+     "odds_folded": 0.55,
+     "odds_frame": 0.55,
+     "rates": {
+      "folded": 55.0,
+      "gi": 55.0,
+      "nogi": 55.0
+     },
+     "state": "lasso-guard/bottom",
+     "technique": "lasso-guard-to-inverted-lasso-guard",
+     "term_baseline": -5.476484193,
+     "term_downstream": 0.8140246459,
+     "term_own_rate": 0.0
+    },
+    {
+     "card": "Crucifix Choke Defense",
+     "category": "transitions",
+     "delta": 4,
+     "dominant_term": "downstream",
+     "edge_folded": -5,
+     "edge_frame": -1,
+     "odds_folded": 0.45,
+     "odds_frame": 0.45,
+     "rates": {
+      "folded": 45.0,
+      "gi": 45.0,
+      "nogi": 45.0
+     },
+     "state": "crucifix/bottom",
+     "technique": "crucifix-choke-defense",
+     "term_baseline": 1.096650636,
+     "term_downstream": 2.279155533,
+     "term_own_rate": 0.0
+    },
+    {
+     "card": "Roll from Dead Orchard",
+     "category": "transitions",
+     "delta": -4,
+     "dominant_term": "baseline",
+     "edge_folded": 0,
+     "edge_frame": -4,
+     "odds_folded": 0.4,
+     "odds_frame": 0.4,
+     "rates": {
+      "folded": 40.0,
+      "gi": 40.0,
+      "nogi": 40.0
+     },
+     "state": "dead-orchard-control/bottom",
+     "technique": "roll-from-dead-orchard",
+     "term_baseline": -5.093239982,
+     "term_downstream": 1.189168232,
+     "term_own_rate": 0.0
+    },
+    {
+     "card": "Re-pull Half Guard from Dogfight",
+     "category": "transitions",
+     "delta": 4,
+     "dominant_term": "own rate",
+     "edge_folded": -19,
+     "edge_frame": -15,
+     "odds_folded": 0.46,
+     "odds_frame": 0.52,
+     "rates": {
+      "folded": 46.0,
+      "gi": 52.0,
+      "nogi": 46.0
+     },
+     "state": "dogfight-position/bottom",
+     "technique": "re-pull-half-guard-from-dogfight",
+     "term_baseline": -0.2308025743,
+     "term_downstream": -0.08623601411,
+     "term_own_rate": 4.203807715
+    },
+    {
+     "card": "Short Choke from Harness",
+     "category": "submissions",
+     "delta": -4,
+     "dominant_term": "own rate",
+     "edge_folded": 1,
+     "edge_frame": -3,
+     "odds_folded": 0.54,
+     "odds_frame": 0.46,
+     "rates": {
+      "folded": 54.0,
+      "gi": 46.0,
+      "nogi": 54.0
+     },
+     "state": "harness/top",
+     "technique": "short-choke-from-harness",
+     "term_baseline": -1.638608264,
+     "term_downstream": -0.1329034283,
+     "term_own_rate": -1.823690891
+    }
+   ]
+  },
+  "flow": {
+   "H": 11,
+   "backfiring_entering": [],
+   "backfiring_folded": 24,
+   "backfiring_frame": 21,
+   "backfiring_leaving": ["De La Riva to Lapel Guard|Attacker", "Double Sleeve to Lasso|Attacker", "Inverted Lasso to Lasso Guard|Attacker"],
+   "browser_flow_for_a_gi_player": {
+    "decks_common": 1446,
+    "decks_only_gi": 74,
+    "decks_only_nogi": 18,
+    "gi_frame_top40_not_in_nogi_top40": ["Bow and Arrow Choke from Back Control|Attacker", "Cross Collar Choke from Mount|Attacker", "Elbow Escape from Mount|Attacker", "Knee on Belly|Top", "Toreando Pass|Attacker"],
+    "spearman_linear_gain_common": {
+     "distinct_values": [1429, 1437],
+     "n": 1446,
+     "spearman": 0.941302125,
+     "undefined_reason": null
+    },
+    "top40_overlap": 35,
+    "v0_gi_frame": 0.07888342207,
+    "v0_nogi": 0.0755265726,
+    "what": "the browser FLOW for a gi player uses cal.ev (no-gi hands) and cal.successRate (folded) — i.e. the no-gi FLOW; compared with a frame-correct gi FLOW"
+   },
+   "decks": 1520,
+   "entering_top40": [
+    {
+     "deck": "Toreando Pass|Attacker",
+     "exact_gain": 0.003069903863,
+     "lin_gain_folded": 0.003022857376,
+     "lin_gain_frame": 0.003108060343,
+     "rates": {
+      "folded": 42.0,
+      "gi": 27.0,
+      "nogi": 42.0
+     }
+    }
+   ],
+   "frame": "gi",
+   "lambda": 2.0,
+   "leaving_top40": [
+    {
+     "deck": "Armbar from Side Control|Attacker",
+     "exact_gain": 0.003180925355,
+     "lin_gain_folded": 0.003194543482,
+     "lin_gain_frame": 0.003076875154,
+     "rates": {
+      "folded": 62.0,
+      "gi": 62.0,
+      "nogi": 62.0
+     }
+    }
+   ],
+   "route": "solve_flow.main(['--frame', 'gi', '--top', '40', '--json', <scratch>]) in-process, once plain and once inside frame_rate_patch",
+   "spearman_linear_gain_all_decks": {
+    "distinct_values": [1509, 1509],
+    "n": 1520,
+    "spearman": 0.9988354404,
+    "undefined_reason": null
+   },
+   "top40_overlap": 39,
+   "v0_folded": 0.07673611279,
+   "v0_frame": 0.07888342207
+  },
+  "nogi_control": {
+   "cards": 1224,
+   "integers_identical": true,
+   "max_abs_dq": 0.0
+  },
+  "patch_check": {
+   "patch_calls": {
+    "frame_cell": 3747
+   }
+  },
+  "v0_mechanism_prop_A": {
+   "delta": 0.002444395408,
+   "n_cards_nonzero": 268,
+   "remainder_other_cards": 0.006512828339,
+   "set": "uniform over live role-nodes, my turn; value q_W − 2·q_L at H = ∞ (FLOW solves H = 11)",
+   "top10_cards": [
+    {
+     "actor_role_node": "back-control/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 13,
+      "nogi": null
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 45.0,
+      "nogi": 10.0
+     },
+     "category": "submissions",
+     "contribution": -0.01420917561,
+     "folded_success_rate": 10.0,
+     "name": "Bow and Arrow Choke from Back Control",
+     "new_dealt": 1,
+     "new_p": 0.45,
+     "new_pi": 0.1625,
+     "old_dealt": 1,
+     "old_p": 0.1,
+     "old_pi": 0.1625,
+     "performer": "them",
+     "reason": "success rate 0.1000 -> 0.4500",
+     "state": "back-control/bottom@T",
+     "technique": "bow-and-arrow-choke-from-back-control"
+    },
+    {
+     "actor_role_node": "back-control/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 13,
+      "nogi": null
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 45.0,
+      "nogi": 10.0
+     },
+     "category": "submissions",
+     "contribution": 0.01005441825,
+     "folded_success_rate": 10.0,
+     "name": "Bow and Arrow Choke from Back Control",
+     "new_dealt": 1,
+     "new_p": 0.45,
+     "new_pi": 0.1625,
+     "old_dealt": 1,
+     "old_p": 0.1,
+     "old_pi": 0.1625,
+     "performer": "me",
+     "reason": "success rate 0.1000 -> 0.4500",
+     "state": "back-control/top@M",
+     "technique": "bow-and-arrow-choke-from-back-control"
+    },
+    {
+     "actor_role_node": "open-guard/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 19,
+      "nogi": 15
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 27.0,
+      "nogi": 42.0
+     },
+     "category": "transitions",
+     "contribution": -0.004179753846,
+     "folded_success_rate": 42.0,
+     "name": "Toreando Pass",
+     "new_dealt": 1,
+     "new_p": 0.27,
+     "new_pi": 0.3392857143,
+     "old_dealt": 1,
+     "old_p": 0.42,
+     "old_pi": 0.3392857143,
+     "performer": "me",
+     "reason": "success rate 0.4200 -> 0.2700",
+     "state": "open-guard/top@M",
+     "technique": "toreando-pass"
+    },
+    {
+     "actor_role_node": "closed-guard/bottom",
+     "authored_attempt_by_ruleset": {
+      "gi": 12,
+      "nogi": 8
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 35.0,
+      "nogi": 23.0
+     },
+     "category": "transitions",
+     "contribution": 0.002959682742,
+     "folded_success_rate": 23.0,
+     "name": "Scissor Sweep",
+     "new_dealt": 1,
+     "new_p": 0.35,
+     "new_pi": 0.125,
+     "old_dealt": 1,
+     "old_p": 0.23,
+     "old_pi": 0.125,
+     "performer": "me",
+     "reason": "success rate 0.2300 -> 0.3500",
+     "state": "closed-guard/bottom@M",
+     "technique": "scissor-sweep"
+    },
+    {
+     "actor_role_node": "open-guard/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 19,
+      "nogi": 15
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 27.0,
+      "nogi": 42.0
+     },
+     "category": "transitions",
+     "contribution": 0.002929821966,
+     "folded_success_rate": 42.0,
+     "name": "Toreando Pass",
+     "new_dealt": 1,
+     "new_p": 0.27,
+     "new_pi": 0.3392857143,
+     "old_dealt": 1,
+     "old_p": 0.42,
+     "old_pi": 0.3392857143,
+     "performer": "them",
+     "reason": "success rate 0.4200 -> 0.2700",
+     "state": "open-guard/bottom@T",
+     "technique": "toreando-pass"
+    },
+    {
+     "actor_role_node": "closed-guard/bottom",
+     "authored_attempt_by_ruleset": {
+      "gi": 8,
+      "nogi": 0
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 20.0,
+      "nogi": 10.0
+     },
+     "category": "submissions",
+     "contribution": -0.002422175522,
+     "folded_success_rate": 10.0,
+     "name": "Cross Collar Choke from Closed Guard",
+     "new_dealt": 1,
+     "new_p": 0.2,
+     "new_pi": 0.08333333333,
+     "old_dealt": 1,
+     "old_p": 0.1,
+     "old_pi": 0.08333333333,
+     "performer": "them",
+     "reason": "success rate 0.1000 -> 0.2000",
+     "state": "closed-guard/top@T",
+     "technique": "cross-collar-choke-from-closed-guard"
+    },
+    {
+     "actor_role_node": "closed-guard/bottom",
+     "authored_attempt_by_ruleset": {
+      "gi": 8,
+      "nogi": 0
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 20.0,
+      "nogi": 10.0
+     },
+     "category": "submissions",
+     "contribution": 0.002321440647,
+     "folded_success_rate": 10.0,
+     "name": "Cross Collar Choke from Closed Guard",
+     "new_dealt": 1,
+     "new_p": 0.2,
+     "new_pi": 0.08333333333,
+     "old_dealt": 1,
+     "old_p": 0.1,
+     "old_pi": 0.08333333333,
+     "performer": "me",
+     "reason": "success rate 0.1000 -> 0.2000",
+     "state": "closed-guard/bottom@M",
+     "technique": "cross-collar-choke-from-closed-guard"
+    },
+    {
+     "actor_role_node": "side-control/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 23,
+      "nogi": 23
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 51.1,
+      "nogi": 46.7
+     },
+     "category": "transitions",
+     "contribution": 0.001920991962,
+     "folded_success_rate": 46.7,
+     "name": "Side Control to Mount",
+     "new_dealt": 1,
+     "new_p": 0.511,
+     "new_pi": 0.23,
+     "old_dealt": 1,
+     "old_p": 0.467,
+     "old_pi": 0.23,
+     "performer": "me",
+     "reason": "success rate 0.4670 -> 0.5110",
+     "state": "side-control/top@M",
+     "technique": "side-control-to-mount"
+    },
+    {
+     "actor_role_node": "closed-guard/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 11,
+      "nogi": 11
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 41.6,
+      "nogi": 51.3
+     },
+     "category": "transitions",
+     "contribution": -0.001834656208,
+     "folded_success_rate": 51.3,
+     "name": "Stack Pass",
+     "new_dealt": 1,
+     "new_p": 0.416,
+     "new_pi": 0.11,
+     "old_dealt": 1,
+     "old_p": 0.513,
+     "old_pi": 0.11,
+     "performer": "me",
+     "reason": "success rate 0.5130 -> 0.4160",
+     "state": "closed-guard/top@M",
+     "technique": "stack-pass"
+    },
+    {
+     "actor_role_node": "closed-guard/top",
+     "authored_attempt_by_ruleset": {
+      "gi": 25,
+      "nogi": 27
+     },
+     "authored_success_rate_by_ruleset": {
+      "gi": 56.3,
+      "nogi": 62.3
+     },
+     "category": "transitions",
+     "contribution": -0.001609027305,
+     "folded_success_rate": 62.3,
+     "name": "Posture Recovery",
+     "new_dealt": 1,
+     "new_p": 0.563,
+     "new_pi": 0.25,
+     "old_dealt": 1,
+     "old_p": 0.623,
+     "old_pi": 0.25,
+     "performer": "me",
+     "reason": "success rate 0.6230 -> 0.5630",
+     "state": "closed-guard/top@M",
+     "technique": "posture-recovery"
+    }
+   ],
+   "v0_proxy_folded": 0.09630118806,
+   "v0_proxy_frame": 0.09874558346
+  }
+ },
+ "part2_zero_wire_byte_route": {
+  "kernel_compared": "load_kernel('nogi', rule, 'shipped') (origin on) — the wire's hands are cal.ev, solved in no-gi",
+  "recompute": "python3 -B scripts/semantics/scalars.py --consequences (runs `node scripts/semantics/wire_semantics.mjs` four times: rule x ruleset mask; needs node on PATH and the emitted wire from `python3 scripts/regenerate_neural_data.py`)",
+  "runs": {
+   "shipped/nogi": {
+    "attempt_share_rounding": {
+     "cards_compared": 1169,
+     "max_abs_share_diff": 0.00900090009
+    },
+    "flow_v0": {
+     "authored_kernel_H11": 0.07296598447,
+     "browser_minus_wire_share": -8.326672685e-17,
+     "browser_ngFlowV0": 0.07475472672,
+     "kimura_trap_bottom_cards": {
+      "authored_listings": 12,
+      "kernel": 6,
+      "wire": 6
+     },
+     "permille_max_abs_dq": 0.0004787154834,
+     "permille_wire_kernel_H11": 0.07306541029,
+     "relative_gap_browser_vs_authored": 0.02451474152,
+     "relative_gap_permille_vs_authored": 0.001362632509,
+     "rounding_attribution_H_inf_proxy": {
+      "cards_nonzero": 1905,
+      "delta": 0.002701754742,
+      "remainder": 0.001414030768,
+      "top8": [
+       {
+        "actor_role_node": "half-guard/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": 0.002414723455,
+        "folded_success_rate": 60.0,
+        "name": "Suloev Stretch from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.02040816327,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.025,
+        "performer": "them",
+        "reason": "attempt share 0.0250 -> 0.0204",
+        "state": "half-guard/bottom@T",
+        "technique": "suloev-stretch-from-half-guard"
+       },
+       {
+        "actor_role_node": "half-guard/bottom",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": 0.001149079847,
+        "folded_success_rate": 60.0,
+        "name": "Kneebar from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.03333333333,
+        "performer": "them",
+        "reason": "attempt share 0.0333 -> 0.0300",
+        "state": "half-guard/top@T",
+        "technique": "kneebar-from-half-guard"
+       },
+       {
+        "actor_role_node": "half-guard/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": -0.001143656473,
+        "folded_success_rate": 60.0,
+        "name": "Suloev Stretch from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.02040816327,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.025,
+        "performer": "me",
+        "reason": "attempt share 0.0250 -> 0.0204",
+        "state": "half-guard/top@M",
+        "technique": "suloev-stretch-from-half-guard"
+       },
+       {
+        "actor_role_node": "mount/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 5,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 58.0,
+         "nogi": 58.0
+        },
+        "category": "submissions",
+        "contribution": -0.001039901868,
+        "folded_success_rate": 58.0,
+        "name": "Ezekiel Choke from Mount",
+        "new_dealt": 1,
+        "new_p": 0.58,
+        "new_pi": 0.02,
+        "old_dealt": 1,
+        "old_p": 0.58,
+        "old_pi": 0.02469135802,
+        "performer": "me",
+        "reason": "attempt share 0.0247 -> 0.0200",
+        "state": "mount/top@M",
+        "technique": "ezekiel-choke-from-mount"
+       },
+       {
+        "actor_role_node": "half-guard/bottom",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": -0.001038629874,
+        "folded_success_rate": 60.0,
+        "name": "Kneebar from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.03333333333,
+        "performer": "me",
+        "reason": "attempt share 0.0333 -> 0.0300",
+        "state": "half-guard/bottom@M",
+        "technique": "kneebar-from-half-guard"
+       },
+       {
+        "actor_role_node": "mount/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 5,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 58.0,
+         "nogi": 58.0
+        },
+        "category": "submissions",
+        "contribution": 0.0008958202783,
+        "folded_success_rate": 58.0,
+        "name": "Ezekiel Choke from Mount",
+        "new_dealt": 1,
+        "new_p": 0.58,
+        "new_pi": 0.02,
+        "old_dealt": 1,
+        "old_p": 0.58,
+        "old_pi": 0.02469135802,
+        "performer": "them",
+        "reason": "attempt share 0.0247 -> 0.0200",
+        "state": "mount/bottom@T",
+        "technique": "ezekiel-choke-from-mount"
+       },
+       {
+        "actor_role_node": "half-guard/bottom",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 52.0,
+         "nogi": 52.0
+        },
+        "category": "submissions",
+        "contribution": 0.0008277766869,
+        "folded_success_rate": 52.0,
+        "name": "Buggy Choke from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.52,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.52,
+        "old_pi": 0.03333333333,
+        "performer": "them",
+        "reason": "attempt share 0.0333 -> 0.0300",
+        "state": "half-guard/top@T",
+        "technique": "buggy-choke-from-half-guard"
+       },
+       {
+        "actor_role_node": "back-control/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 58.0,
+         "nogi": 58.0
+        },
+        "category": "submissions",
+        "contribution": -0.0007774880785,
+        "folded_success_rate": 58.0,
+        "name": "Short Choke from Back Control",
+        "new_dealt": 1,
+        "new_p": 0.58,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.58,
+        "old_pi": 0.02597402597,
+        "performer": "them",
+        "reason": "attempt share 0.0260 -> 0.0300",
+        "state": "back-control/bottom@T",
+        "technique": "short-choke-from-back-control"
+       }
+      ]
+     },
+     "set": "uniform over the wire's states, my turn, V = P(win in 11 plies) − 2·P(loss in 11 plies) (FLOW's V0 at zero drilling)",
+     "wire_share_kernel_H11": 0.07475472672
+    },
+    "kernel_role_nodes_not_on_wire": ["collar-sleeve-guard/bottom", "collar-sleeve-guard/top", "inverted-lasso-guard/bottom", "inverted-lasso-guard/top", "lapel-guard/bottom", "lapel-guard/top", "lasso-guard/bottom", "lasso-guard/top", "piranha-guard/bottom", "piranha-guard/top", "ringworm-guard/bottom", "ringworm-guard/top", "russian-leg-lasso/bottom", "russian-leg-lasso/top", "squid-guard/bottom", "squid-guard/top", "worm-guard/bottom", "worm-guard/top"],
+    "lost_destination_cells": 0,
+    "membership_differences": {
+     "cards_only_in_kernel": 0,
+     "cards_only_on_wire": 0,
+     "examples": [],
+     "states": 0
+    },
+    "node": {
+     "control_myHorizon11_vs_ngFlowBackward": 4.440892099e-16,
+     "coverage": {
+      "cardsOutsideClamp": 0,
+      "cells": 7374,
+      "cellsCompared": 3687,
+      "dropped": 0,
+      "evKeys": 530,
+      "handsCards": 1169,
+      "n": 248,
+      "oppNoHand": 0,
+      "rsDropped": 34,
+      "rsHandDropped": 0,
+      "states": 248,
+      "taggedFinisherCells": 279,
+      "unresolved": 0,
+      "unresolvedDuringSolve": 0
+     },
+     "iterations": {
+      "finalDeltaGS": 9.769962617e-14,
+      "gaussSeidelTo1e12": 137,
+      "gaussSeidelToTol": 157,
+      "jacobiTo1e12": 263,
+      "jacobiToTol": 296,
+      "residualGS": 7.638334409e-14,
+      "tol": 1e-13
+     },
+     "node": "v22.22.0",
+     "yaglom": {
+      "H": 60,
+      "max": 0.6977382904,
+      "mean": 0.6977382904,
+      "min": 0.6977382904,
+      "n": 496
+     }
+    },
+    "reweight_counts": {
+     "actor_not_on_wire": 108
+    },
+    "states": 248,
+    "vs_authored_kernel": {
+     "max_abs_dE_plies": 0.1283131349,
+     "max_abs_dq": 0.006586789552,
+     "max_exit_by_class_TV": 0.008051999171,
+     "mean_abs_dE_plies": 0.04358143848,
+     "mean_abs_dq": 0.0009955517752,
+     "mean_exit_by_class_TV": 0.004271062815,
+     "spearman_q": {
+      "distinct_values": [496, 496],
+      "n": 496,
+      "spearman": 0.9999746278,
+      "undefined_reason": null
+     },
+     "worst_states": [
+      ["front-headlock/bottom@T", 0.006586789552],
+      ["half-guard/top@T", 0.004301777668],
+      ["50-50-guard/bottom@T", 0.003850789489],
+      ["deep-half-guard/top@T", 0.003187791665],
+      ["flattened-half-guard/bottom@T", 0.002908375859]
+     ]
+    },
+    "vs_wire_share_kernel": {
+     "max_err_E_plies": 4.31654712e-13,
+     "max_err_committor": 3.730349363e-14,
+     "max_err_exit_by_class": 1.648681192e-14
+    },
+    "yaglom": {
+     "browser_H60_max": 0.6977382904,
+     "browser_H60_min": 0.6977382904,
+     "limit_wire_kernel": 0.6977382905,
+     "max_abs_browser_vs_limit": 7.355183129e-11,
+     "n": 487
+    }
+   },
+   "shipped/none": {
+    "attempt_share_rounding": {
+     "cards_compared": 1217,
+     "max_abs_share_diff": 0.00900090009
+    },
+    "flow_v0": {
+     "authored_kernel_H11": 0.0755265726,
+     "browser_minus_wire_share": 1.387778781e-17,
+     "browser_ngFlowV0": 0.07732939349,
+     "kimura_trap_bottom_cards": {
+      "authored_listings": 12,
+      "kernel": 6,
+      "wire": 6
+     },
+     "permille_max_abs_dq": 0.0004787154834,
+     "permille_wire_kernel_H11": 0.0756310456,
+     "relative_gap_browser_vs_authored": 0.02387002117,
+     "relative_gap_permille_vs_authored": 0.001383261431,
+     "rounding_attribution_H_inf_proxy": {
+      "cards_nonzero": 1929,
+      "delta": 0.0027224156,
+      "remainder": -0.0001322935571,
+      "top8": [
+       {
+        "actor_role_node": "half-guard/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": 0.002415327052,
+        "folded_success_rate": 60.0,
+        "name": "Suloev Stretch from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.02040816327,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.025,
+        "performer": "them",
+        "reason": "attempt share 0.0250 -> 0.0204",
+        "state": "half-guard/bottom@T",
+        "technique": "suloev-stretch-from-half-guard"
+       },
+       {
+        "actor_role_node": "half-guard/bottom",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": 0.001159721297,
+        "folded_success_rate": 60.0,
+        "name": "Kneebar from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.03333333333,
+        "performer": "them",
+        "reason": "attempt share 0.0333 -> 0.0300",
+        "state": "half-guard/top@T",
+        "technique": "kneebar-from-half-guard"
+       },
+       {
+        "actor_role_node": "half-guard/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": -0.001150678003,
+        "folded_success_rate": 60.0,
+        "name": "Suloev Stretch from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.02040816327,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.025,
+        "performer": "me",
+        "reason": "attempt share 0.0250 -> 0.0204",
+        "state": "half-guard/top@M",
+        "technique": "suloev-stretch-from-half-guard"
+       },
+       {
+        "actor_role_node": "mount/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 5,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 58.0,
+         "nogi": 58.0
+        },
+        "category": "submissions",
+        "contribution": -0.001048177953,
+        "folded_success_rate": 58.0,
+        "name": "Ezekiel Choke from Mount",
+        "new_dealt": 1,
+        "new_p": 0.58,
+        "new_pi": 0.02,
+        "old_dealt": 1,
+        "old_p": 0.58,
+        "old_pi": 0.02469135802,
+        "performer": "me",
+        "reason": "attempt share 0.0247 -> 0.0200",
+        "state": "mount/top@M",
+        "technique": "ezekiel-choke-from-mount"
+       },
+       {
+        "actor_role_node": "half-guard/bottom",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 60.0,
+         "nogi": 60.0
+        },
+        "category": "submissions",
+        "contribution": -0.001035793997,
+        "folded_success_rate": 60.0,
+        "name": "Kneebar from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.6,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.6,
+        "old_pi": 0.03333333333,
+        "performer": "me",
+        "reason": "attempt share 0.0333 -> 0.0300",
+        "state": "half-guard/bottom@M",
+        "technique": "kneebar-from-half-guard"
+       },
+       {
+        "actor_role_node": "mount/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 5,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 58.0,
+         "nogi": 58.0
+        },
+        "category": "submissions",
+        "contribution": 0.0008981202127,
+        "folded_success_rate": 58.0,
+        "name": "Ezekiel Choke from Mount",
+        "new_dealt": 1,
+        "new_p": 0.58,
+        "new_pi": 0.02,
+        "old_dealt": 1,
+        "old_p": 0.58,
+        "old_pi": 0.02469135802,
+        "performer": "them",
+        "reason": "attempt share 0.0247 -> 0.0200",
+        "state": "mount/bottom@T",
+        "technique": "ezekiel-choke-from-mount"
+       },
+       {
+        "actor_role_node": "half-guard/bottom",
+        "authored_attempt_by_ruleset": {
+         "gi": 1,
+         "nogi": 2
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 52.0,
+         "nogi": 52.0
+        },
+        "category": "submissions",
+        "contribution": 0.0008354425982,
+        "folded_success_rate": 52.0,
+        "name": "Buggy Choke from Half Guard",
+        "new_dealt": 1,
+        "new_p": 0.52,
+        "new_pi": 0.03,
+        "old_dealt": 1,
+        "old_p": 0.52,
+        "old_pi": 0.03333333333,
+        "performer": "them",
+        "reason": "attempt share 0.0333 -> 0.0300",
+        "state": "half-guard/top@T",
+        "technique": "buggy-choke-from-half-guard"
+       },
+       {
+        "actor_role_node": "half-guard/top",
+        "authored_attempt_by_ruleset": {
+         "gi": 13,
+         "nogi": 14
+        },
+        "authored_success_rate_by_ruleset": {
+         "gi": 40.0,
+         "nogi": 40.0
+        },
+        "category": "transitions",
+        "contribution": 0.0007807479504,
+        "folded_success_rate": 40.0,
+        "name": "Underhook Pass",
+        "new_dealt": 1,
+        "new_p": 0.4,
+        "new_pi": 0.1836734694,
+        "old_dealt": 1,
+        "old_p": 0.4,
+        "old_pi": 0.175,
+        "performer": "me",
+        "reason": "attempt share 0.1750 -> 0.1837",
+        "state": "half-guard/top@M",
+        "technique": "underhook-pass"
+       }
+      ]
+     },
+     "set": "uniform over the wire's states, my turn, V = P(win in 11 plies) − 2·P(loss in 11 plies) (FLOW's V0 at zero drilling)",
+     "wire_share_kernel_H11": 0.07732939349
+    },
+    "kernel_role_nodes_not_on_wire": ["lapel-guard/bottom", "lapel-guard/top"],
+    "lost_destination_cells": 0,
+    "membership_differences": {
+     "cards_only_in_kernel": 0,
+     "cards_only_on_wire": 0,
+     "examples": [],
+     "states": 0
+    },
+    "node": {
+     "control_myHorizon11_vs_ngFlowBackward": 4.440892099e-16,
+     "coverage": {
+      "cardsOutsideClamp": 0,
+      "cells": 7690,
+      "cellsCompared": 3845,
+      "dropped": 0,
+      "evKeys": 530,
+      "handsCards": 1217,
+      "n": 264,
+      "oppNoHand": 1,
+      "rsDropped": 0,
+      "rsHandDropped": 0,
+      "states": 264,
+      "taggedFinisherCells": 282,
+      "unresolved": 0,
+      "unresolvedDuringSolve": 0
+     },
+     "iterations": {
+      "finalDeltaGS": 9.769962617e-14,
+      "gaussSeidelTo1e12": 137,
+      "gaussSeidelToTol": 157,
+      "jacobiTo1e12": 263,
+      "jacobiToTol": 296,
+      "residualGS": 7.815970093e-14,
+      "tol": 1e-13
+     },
+     "node": "v22.22.0",
+     "yaglom": {
+      "H": 60,
+      "max": 0.6977382904,
+      "mean": 0.6977382904,
+      "min": 0.6977382904,
+      "n": 528
+     }
+    },
+    "reweight_counts": {
+     "actor_not_on_wire": 12
+    },
+    "states": 264,
+    "vs_authored_kernel": {
+     "max_abs_dE_plies": 0.1283131349,
+     "max_abs_dq": 0.006586789552,
+     "max_exit_by_class_TV": 0.008051999171,
+     "mean_abs_dE_plies": 0.04371452839,
+     "mean_abs_dq": 0.0009954943541,
+     "mean_exit_by_class_TV": 0.004263652317,
+     "spearman_q": {
+      "distinct_values": [528, 528],
+      "n": 528,
+      "spearman": 0.9999735865,
+      "undefined_reason": null
+     },
+     "worst_states": [
+      ["front-headlock/bottom@T", 0.006586789552],
+      ["half-guard/top@T", 0.004301777668],
+      ["50-50-guard/bottom@T", 0.003850789489],
+      ["deep-half-guard/top@T", 0.003187791665],
+      ["flattened-half-guard/bottom@T", 0.002908375859]
+     ]
+    },
+    "vs_wire_share_kernel": {
+     "max_err_E_plies": 4.31654712e-13,
+     "max_err_committor": 3.730349363e-14,
+     "max_err_exit_by_class": 1.648681192e-14
+    },
+    "yaglom": {
+     "browser_H60_max": 0.6977382904,
+     "browser_H60_min": 0.6977382904,
+     "limit_wire_kernel": 0.6977382905,
+     "max_abs_browser_vs_limit": 7.355183129e-11,
+     "n": 487
+    }
+   },
+   "symmetric/nogi": {
+    "attempt_share_rounding": {
+     "cards_compared": 1169,
+     "max_abs_share_diff": 0.00900090009
+    },
+    "flow_v0": {},
+    "kernel_role_nodes_not_on_wire": ["collar-sleeve-guard/bottom", "collar-sleeve-guard/top", "inverted-lasso-guard/bottom", "inverted-lasso-guard/top", "lapel-guard/bottom", "lapel-guard/top", "lasso-guard/bottom", "lasso-guard/top", "piranha-guard/bottom", "piranha-guard/top", "ringworm-guard/bottom", "ringworm-guard/top", "russian-leg-lasso/bottom", "russian-leg-lasso/top", "squid-guard/bottom", "squid-guard/top", "worm-guard/bottom", "worm-guard/top"],
+    "lost_destination_cells": 0,
+    "membership_differences": {
+     "cards_only_in_kernel": 0,
+     "cards_only_on_wire": 0,
+     "examples": [],
+     "states": 0
+    },
+    "node": {
+     "control_myHorizon11_vs_ngFlowBackward": null,
+     "coverage": {
+      "cardsOutsideClamp": 0,
+      "cells": 7374,
+      "cellsCompared": 3687,
+      "dropped": 0,
+      "evKeys": 530,
+      "handsCards": 1169,
+      "n": 248,
+      "oppNoHand": 0,
+      "rsDropped": 34,
+      "rsHandDropped": 0,
+      "states": 248,
+      "taggedFinisherCells": 279,
+      "unresolved": 0,
+      "unresolvedDuringSolve": 0
+     },
+     "iterations": {
+      "finalDeltaGS": 9.769962617e-14,
+      "gaussSeidelTo1e12": 116,
+      "gaussSeidelToTol": 135,
+      "jacobiTo1e12": 211,
+      "jacobiToTol": 243,
+      "residualGS": 7.638334409e-14,
+      "tol": 1e-13
+     },
+     "node": "v22.22.0",
+     "yaglom": {
+      "H": 60,
+      "max": 0.5,
+      "mean": 0.5,
+      "min": 0.5,
+      "n": 496
+     }
+    },
+    "reweight_counts": {
+     "actor_not_on_wire": 108
+    },
+    "states": 248,
+    "vs_authored_kernel": {
+     "max_abs_dE_plies": 0.1069902081,
+     "max_abs_dq": 0.003815253798,
+     "max_exit_by_class_TV": 0.006753875562,
+     "mean_abs_dE_plies": 0.02765446163,
+     "mean_abs_dq": 0.0004178661217,
+     "mean_exit_by_class_TV": 0.003590145908,
+     "spearman_q": {
+      "distinct_values": [496, 496],
+      "n": 496,
+      "spearman": 0.9999632202,
+      "undefined_reason": null
+     },
+     "worst_states": [
+      ["front-headlock/top@M", -0.003815253798],
+      ["front-headlock/bottom@T", 0.003815253798],
+      ["kimura-trap/top@T", -0.001730539463],
+      ["kimura-trap/bottom@M", 0.001730539463],
+      ["50-50-guard/top@M", -0.001669466583]
+     ]
+    },
+    "vs_wire_share_kernel": {
+     "max_err_E_plies": 3.819167205e-13,
+     "max_err_committor": 2.337019467e-14,
+     "max_err_exit_by_class": 1.021405183e-14
+    },
+    "yaglom": {
+     "browser_H60_max": 0.5,
+     "browser_H60_min": 0.5,
+     "limit_wire_kernel": 0.5,
+     "max_abs_browser_vs_limit": 3.491973377e-11,
+     "n": 486
+    }
+   },
+   "symmetric/none": {
+    "attempt_share_rounding": {
+     "cards_compared": 1217,
+     "max_abs_share_diff": 0.00900090009
+    },
+    "flow_v0": {},
+    "kernel_role_nodes_not_on_wire": ["lapel-guard/bottom", "lapel-guard/top"],
+    "lost_destination_cells": 0,
+    "membership_differences": {
+     "cards_only_in_kernel": 0,
+     "cards_only_on_wire": 0,
+     "examples": [],
+     "states": 0
+    },
+    "node": {
+     "control_myHorizon11_vs_ngFlowBackward": null,
+     "coverage": {
+      "cardsOutsideClamp": 0,
+      "cells": 7690,
+      "cellsCompared": 3845,
+      "dropped": 0,
+      "evKeys": 530,
+      "handsCards": 1217,
+      "n": 264,
+      "oppNoHand": 1,
+      "rsDropped": 0,
+      "rsHandDropped": 0,
+      "states": 264,
+      "taggedFinisherCells": 282,
+      "unresolved": 0,
+      "unresolvedDuringSolve": 0
+     },
+     "iterations": {
+      "finalDeltaGS": 8.526512829e-14,
+      "gaussSeidelTo1e12": 116,
+      "gaussSeidelToTol": 136,
+      "jacobiTo1e12": 212,
+      "jacobiToTol": 243,
+      "residualGS": 6.572520306e-14,
+      "tol": 1e-13
+     },
+     "node": "v22.22.0",
+     "yaglom": {
+      "H": 60,
+      "max": 0.5,
+      "mean": 0.5,
+      "min": 0.5,
+      "n": 528
+     }
+    },
+    "reweight_counts": {
+     "actor_not_on_wire": 12
+    },
+    "states": 264,
+    "vs_authored_kernel": {
+     "max_abs_dE_plies": 0.1069902081,
+     "max_abs_dq": 0.003815253798,
+     "max_exit_by_class_TV": 0.006753875562,
+     "mean_abs_dE_plies": 0.02756797297,
+     "mean_abs_dq": 0.0004040045456,
+     "mean_exit_by_class_TV": 0.003565840749,
+     "spearman_q": {
+      "distinct_values": [528, 528],
+      "n": 528,
+      "spearman": 0.9999655972,
+      "undefined_reason": null
+     },
+     "worst_states": [
+      ["front-headlock/top@M", -0.003815253798],
+      ["front-headlock/bottom@T", 0.003815253798],
+      ["kimura-trap/top@T", -0.001730539463],
+      ["kimura-trap/bottom@M", 0.001730539463],
+      ["50-50-guard/top@M", -0.001669466583]
+     ]
+    },
+    "vs_wire_share_kernel": {
+     "max_err_E_plies": 3.304023721e-13,
+     "max_err_committor": 2.03725925e-14,
+     "max_err_exit_by_class": 8.826273046e-15
+    },
+    "yaglom": {
+     "browser_H60_max": 0.5,
+     "browser_H60_min": 0.5,
+     "limit_wire_kernel": 0.5,
+     "max_abs_browser_vs_limit": 2.771805008e-11,
+     "n": 486
+    }
+   }
+  },
+  "wall_times": "not in this artifact (non-deterministic); written to <work dir>/wire_timings.json"
+ },
+ "part3_payload": {
+  "base_gzip": 107447,
+  "eager_file": "graph-data.json",
+  "gs2_rows": [
+   {
+    "candidate": "body-region class per submission, INJECTIVE 1-char code",
+    "gzip_delta": 356,
+    "nodes_touched": 290,
+    "note": "the probe's c[0] maps SHOULDER and SPINE/COMPRESSION to the same 'S'"
+   },
+   {
+    "candidate": "gi hands for the in-browser route (node indexes + attempt %, no EDGE)",
+    "gzip_delta": 2924,
+    "nodes_touched": 266,
+    "note": "cal.ev is solved in no-gi only (evFrame); a gi committor from the wire needs gi hands"
+   },
+   {
+    "candidate": "gi EDGE table at frame rates (cal.ev's layout, 3 lambdas) — the full fix",
+    "gzip_delta": 12727,
+    "nodes_touched": 266,
+    "note": "what shipping a gi table would cost; includes the gi hands"
+   },
+   {
+    "candidate": "cal.ev attempt shares in permille instead of percent (every hand re-joined and verified)",
+    "gzip_delta": 835,
+    "nodes_touched": 265,
+    "note": "the rounding fix; its effect on FLOW V0 is measured in part 2"
+   },
+   {
+    "candidate": "the clock constant P(I finish | long roll), both rules, one file-level pair",
+    "gzip_delta": 14,
+    "nodes_touched": 1,
+    "note": "optional: the browser recovers it by a 60-ply recursion (part 2) for zero bytes"
+   },
+   {
+    "candidate": "expected plies per seat, my turn (2 ints per position hub, precomputed)",
+    "gzip_delta": 415,
+    "nodes_touched": 133,
+    "note": "only needed if the browser does NOT iterate; the zero-byte route computes it"
+   }
+  ],
+  "gzip_level": 9,
+  "lead_probe": [
+   {
+    "candidate": "committor per seat, both frames (0-100)",
+    "gzip_delta": 1318,
+    "nodes_touched": 133,
+    "note": "P(I finish | my turn here), H=inf, symmetric rule; 2 ints x 2 frames per position hub"
+   },
+   {
+    "candidate": "body-region class per submission (1 char)",
+    "gzip_delta": 356,
+    "nodes_touched": 290,
+    "note": "enables an in-browser exit-law / territory computation from cal.ev + cal.outcomes"
+   },
+   {
+    "candidate": "territory label per position hub + names table",
+    "gzip_delta": 146,
+    "nodes_touched": 27,
+    "note": "precomputed at build time from the exit law; 4 names"
+   },
+   {
+    "candidate": "full exit profile by raw submission type x performer per seat (upper bound)",
+    "gzip_delta": 5180,
+    "nodes_touched": 133,
+    "note": "28 raw types x 2 performers x 2 seats per hub, nogi only"
+   }
+  ],
+  "lead_probe_skipped": [],
+  "recompute": "python3 -B scripts/semantics/payload_probe.py; python3 -B scripts/semantics/scalars.py --consequences"
+ },
+ "part3_show_candidates": [
+  {
+   "browser_vs_kernel_max_abs": 0.003815253798,
+   "card": "whose position is this",
+   "gi_hands_bytes": 2924,
+   "precomputed_both_frames_bytes": 1318,
+   "quantity": "q̄(r) = ½[q_W(r,M) + q_W(r,T)], H = ∞, symmetric rule",
+   "recompute": "python3 -B scripts/semantics/scalars.py --state <role-node>",
+   "route_gi": "NOT available from today's wire (cal.ev is solved in no-gi): gi hands",
+   "route_nogi": "zero wire bytes: rebuilt in the browser from cal.ev + cal.outcomes (part 2)",
+   "set": "live role-nodes; no-gi",
+   "with_permille_shares_bytes": 835
+  },
+  {
+   "browser_vs_kernel_max_abs_plies": 0.1283131349,
+   "card": "how fast this ends",
+   "precomputed_bytes": 415,
+   "quantity": "E[plies to the finish] per seat and turn (stay-put miss = 0 plies)",
+   "recompute": "python3 -B scripts/semantics/scalars.py --state <role-node>",
+   "route_nogi": "zero wire bytes (same iteration, one extra column)",
+   "set": "live role-nodes; no-gi"
+  },
+  {
+   "browser_vs_kernel_max_exit_TV": 0.006753875562,
+   "card": "what ends rolls here",
+   "class_code_bytes_injective": 356,
+   "class_code_bytes_lead_probe": 356,
+   "precomputed_profile_bytes_upper_bound": 5180,
+   "quantity": "exit law by body region x performer (K.exit_law grouped by gs-5's lexicon)",
+   "recompute": "python3 -B scripts/semantics/scalars.py --state <role-node> --lexicon tests/artifacts/semantics/vocabulary.json",
+   "route_nogi": "one char per submission, then computed in the browser",
+   "set": "live role-nodes; no-gi"
+  },
+  {
+   "card": "the clock's effect",
+   "constant_bytes": 14,
+   "quantity": "Yaglom limit P(I finish | the roll outlasts H plies), Prop F",
+   "recompute": "python3 -B scripts/semantics/scalars.py --json (clock.<cfg>.yaglom_prop_F)",
+   "route": "zero bytes (60-ply recursion in the browser) or a file-level constant",
+   "set": "transient states reachable from standing",
+   "value_shipped_browser_wire": 0.6977382905,
+   "value_shipped_nogi_kernel": 0.6966930353,
+   "value_symmetric": 0.5
+  }
+ ],
+ "recompute": "python3 -B scripts/semantics/scalars.py --consequences",
+ "schema": "gs-2/scalars_consequences/v1 (item S3)",
+ "source_sha256": {
+  "graph.json": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+  "neural/src/app.src.jsx": "e43a9f449d5948cef63a4a4c2ec5df73c0ad6c3050420bb35b926c1af24c2cc0",
+  "neural/src/flow.src.js": "4fb2c0c84e593b344878884d5ae938c5bd6ea6834cf180873a167668bbba6b0d",
+  "scripts/semantics/_kernel.py": "eaf98ff4da81a524fdc4a6b27aa24a399c56d31ebae5fdda76ef810620beae1d",
+  "scripts/semantics/scalars.py": "9bfbca19ca942344dd6990aca3174cb01303714a5ea6a3f329315b2b3775d785",
+  "scripts/semantics/wire_semantics.mjs": "208e017a9266d1ce615b3efbfd5c37e41da63e06f8c45ced2bd3152f4d9f6af5",
+  "scripts/solve_edge_values.py": "708c13f6e67b4e9a41e6aeb30c862b56404b325e3d0e1b3fcf1eea76fe5e385f",
+  "scripts/solve_flow.py": "3f3e015aa8b2db47d68044d7cad08f84dbee9033a4eabd7c46f5d7e07190aef7",
+  "source/quartz/static/neural/graph-data.json": "3162723e0fdd1606eb5df48f76d19d41a3f944e22871d978a5ec8356802c6f09",
+  "tests/artifacts/semantics/vocabulary.json": "c7b915deaebd40f44a32347776526ab2a34375f9cced7b4649a87094ce76a801"
+ },
+ "which_game": "the corpus's game (gs-shared.md §3); the browser route rebuilds THE SAME game from the wire"
+}

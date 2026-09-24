@@ -1,0 +1,23 @@
+{
+  "labels": {
+    "empty": [],
+    "outside-pair": ["e", "f"],
+    "overlap": ["a", "b", "e"]
+  },
+  "note": "Synthetic selfcheck only: these are not BJJ regions or labels.",
+  "regions": {
+    "first-four": ["a", "b", "c", "d"],
+    "outside-two": ["e", "f"]
+  },
+  "universe": ["a", "b", "c", "d", "e", "f", "g", "h"],
+  "weights": {
+    "a": 1,
+    "b": 2,
+    "c": 3,
+    "d": 4,
+    "e": 5,
+    "f": 6,
+    "g": 7,
+    "h": 8
+  }
+}

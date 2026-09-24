@@ -19,6 +19,7 @@ It is deliberately **not**:
 | the data pipeline in depth | `docs/Architecture.md` |
 | the full content standards | `docs/Content.md` |
 | schema markup, keywords, analytics | `docs/SEO.md` |
+| what the map MEANS: the Markov kernel, territories, committors, names | `docs/GraphSemantics.md` |
 | an API reference for `neural/src/app.src.jsx` | the code, which carries ~400k chars of comments |
 
 **The admission test.** A line belongs here if *a reader could break something by not knowing it,

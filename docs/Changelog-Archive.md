@@ -42,6 +42,8 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.196.1** — [YOUR LISTS FOLDS LIKE ITS NEIGHBOURS](#v11961--your-lists-folds-like-its-neighbours)
 
 - **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
+
+- **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8253,3 +8255,87 @@ this commit, so it must stay reachable from dev (merge, do not squash).
 
 **Open, for the owner:** Microing is the only Principle of 63 with no Principle-typed
 `related_content`, so its app pane has no "Related concepts" (the static page lists all 13).
+
+## v1.206.0 — WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL
+
+Owner: "improve explainability of the graph and graph math … like it would be great to say leg
+lock territory … respecting edges probabilities, graph flows". A six-seat research cell (one lead,
+five workers) answered it in `docs/GraphSemantics.md` and `scripts/semantics/` with no change to the
+app, the content, a probability or an emitter.
+
+**The object.** `scripts/semantics/_kernel.py` writes the corpus's game down once as an absorbing
+chain: 532 transient states plus W, L and D.
+- It is a thin layer over `solve_edge_values.Model`, gated at 59 checks by reproducing
+  `solve(policy="sample")` to <1e-15.
+- `scripts/semantics/independent_sim.py` is a Monte Carlo and exact solve that imports nothing from
+  the repo (gated at import). It agrees with the kernel on every figure: absorption to ≤ 2e-15,
+  and the largest z of 3.16 replicates away.
+
+**What came out, in one line each (numbers and proofs in the doc; no-gi, player-neutral rule, no
+clock unless stated):**
+- **No region traps a roll.** No region holding at most half of a long fight's time keeps the walk
+  longer than 7.7–8.5 steps (a certified Cheeger/P3 bound). Real spells last 2.4–4.4 steps, against
+  a 9.6-step roll.
+- **A place therefore means where it leads:** its exit law. Exit-law TV is proved to be the
+  worst-case disagreement on any yes/no question about how the roll ends.
+- **Leg-lock territory is 22 positions.** Averaged over them, 38.0% of the rolls that end, end in a
+  leg lock, against 6.6% from standing (26.2% against 7.2% time-weighted).
+  - Three methods find it up to its edges.
+  - The ending territory and the dynamics' leg set differ by four positions, and their union is
+    exactly the 3× enrichment region.
+- **There is no interior choke point** (one SCC of the net winning current). Passage replaces it.
+- **FLOW and EDGE.** FLOW is exactly the clocked, λ-weighted, uniform-start instance of the
+  success-rate gradient. EDGE departs from the corpus's advantage almost entirely through its
+  argmax continuation.
+- **The shipped map already carries the meaning** (ρ 0.45). A 9% median move would reach 0.86
+  within ±115 wire bytes; the cost is visual.
+
+**Things found in the tree that nobody had compared (each measured, none changed):**
+- CLAUDE.md §5's "opponentDefend has no role or origin filter, ~12%" is stale since v1.176.0.
+  - The opponent draws from `optionsFor` and differs by policy.
+  - The app's game is far harder than the corpus's: P(I finish) 0.35 vs 0.72 from standing, under
+    the shipped rule (`app_game.py`, 46 checks, reviewed twice against the source).
+- `gameScore` weights a one-player damped walk: Spearman 0.53–0.58 against the game EDGE and FLOW
+  price (`chains.py`).
+- The origin filter drops 48% of authored attempt points and orphans 41 techniques. But 98.9% of
+  dropped listings would TELEPORT if restored: their miss lands on the canonical origin. The coherent
+  fix is per-listing outcome tables, not a filter flip.
+- gi players are shown no-gi EDGE (70 gi cards have none) and no-gi FLOW.
+- `frame_reachable` admits Spider/Double-Sleeve Guard in no-gi through a teleporting Tripod Sweep
+  listing.
+- `tests/flow.test.mjs`'s V0-tolerance comment blames a Kimura Trap move-set difference. The
+  measured cause is attempt-share rounding.
+
+**Traps the cell fell into, and how they were caught:**
+1. **A relaxation time compared with the roll length** overstated the no-trap margin ~2.5× (the
+   lead's first claim). A metastability refuter caught it. The exact form: τ_lin = 1/(1 − λ*) is
+   half the harmonic mean of the two residences. The lead later quoted τ_log beside that identity,
+   and the territories lane caught it.
+2. **Symmetric-rule "who wins barely moves" is a tautology.** Under the player-swap symmetry any
+   change applied to both seats pins P(I finish) at ½ from a fair start, so it is not evidence. The
+   real evidence is the shipped rule. A hostile doc review caught five such overclaims.
+3. **A non-injective one-char class code** (SHOULDER and SPINE both "S") priced an undecodable
+   field. The scalars lane caught it.
+4. **Two clocks behind one word.** The kernel's 9–12-ply clock leaves 29–31% of rolls undecided;
+   the app's own `moveCount` clock leaves 35%. The doc's first draft quoted one as the other.
+5. **A summary statistic read as a block property.** G-PCCA+'s crispness 0.54 is the MEAN of two
+   blocks' self-overlaps (0.92 and 0.15). "Nothing beyond two blocks" hid that the second block is
+   the fuzzy leg cluster.
+6. **A maximum printed as a two-sided bound.** "Within 1.34× of the gi baseline" was true only
+   upward: one class sits 1.40× below.
+7. **A verification that never ran printed a pass (§6.6).** The lead's own byte-identity check of
+   `atlas.py` piped the run through a `/usr/bin/time` that does not exist on the host. `cmp` then
+   compared an untouched file with its copy and said identical. It was caught by reading the output,
+   and re-run properly.
+8. **Seat swap mid-run.** The five worker seats moved from Codex to Claude after the first item.
+   Three handovers survived and two lanes (territories, flux) lost their context. Re-briefs split
+   each predecessor's work into ACCEPTED (re-run by the lead) and unverified.
+
+**Durability.**
+- Every artifact computed on graph.json records graph.json's sha256. The derived ones also record
+  their inputs' and producers' hashes, and the naming writers refuse an input computed on a
+  different graph.
+- `atlas.py` runs 43 cross-lane differentials (0 failures).
+- `verify_all.py` discovers and re-runs every lane gate, checks every recorded hash, and registers
+  each number in the doc against its artifact (`claims.json`). `--heavy` regenerates the heavy
+  artifacts and diffs them.
