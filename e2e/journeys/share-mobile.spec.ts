@@ -68,8 +68,9 @@ const pickClassNodes = (page: Page, n: number) =>
 const codeFor = (page: Page, ids: string[]) =>
   page.evaluate((list: string[]) => {
     const a = (window as any).__neural;
-    for (const id of list) a.addToList(id);
-    return a.listShareCode(a.activeListId);
+    const lid = a.newList(); // a list is always NAMED by its writer — there is no default list
+    for (const id of list) a.addToList(id, lid);
+    return a.listShareCode(lid);
   }, ids);
 
 /** Where a control REALLY is, and whether a thumb could reach it: the box, whether it is inside
@@ -404,7 +405,7 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
 
   const after = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const id = a.activeListId;
+    const id = a.listsArray()[0]; // the list just created or picked is the most recently touched
     const items = ((a.lists[id] || {}).items || []) as string[];
     return {
       items,
@@ -714,7 +715,8 @@ test("the unresolved-techniques notice is grammatical for one and for many", asy
   const good = await page.evaluate(() => {
     const a = (window as any).__neural;
     const nodes = a.nodes.filter((n: any) => typeof n.o === "number").slice(0, 2);
-    for (const n of nodes) a.addToList(n.id);
+    const lid = a.newList();
+    for (const n of nodes) a.addToList(n.id, lid);
     return nodes.map((n: any) => a.nodes[a._idIndex.get(n.id)].o);
   });
 

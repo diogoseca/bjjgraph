@@ -67,7 +67,7 @@ test("live white.commit completion ticks; coin mints voice exactly once, mint-on
     }
   }
   const s0 = await snap()
-  await page.locator(`[data-tech="${chosen}"]`).first().click()
+  await page.locator(`[data-tech="${chosen}"]`).first().locator("[data-choice-inspect]").click()
   const dSheet = await delta(s0)
   expect(count(dSheet.beats, "challenge_completed"), "white.sheet completed live").toBe(1)
   expect(

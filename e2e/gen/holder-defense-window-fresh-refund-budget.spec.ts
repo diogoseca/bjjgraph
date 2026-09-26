@@ -38,7 +38,7 @@ test("attack window exhausts both refunds (t,t,f) → caught opens a fresh defen
   // ── open the expand sheet WITHOUT executing: card click only (pick() would auto-Go) ──
   const options = await j.optionTitles()
   expect(options.length, "a live hand was dealt").toBeGreaterThanOrEqual(1)
-  await page.locator(`[data-tech="${options[0]}"]`).first().click()
+  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
 
   // ── EXHAUST the attack window's budget: 3 grades; the block re-renders after each,

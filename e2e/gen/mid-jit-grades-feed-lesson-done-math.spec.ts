@@ -97,7 +97,7 @@ test("three JIT grades complete a not-yet-studied unit's lesson — unit stays i
 
   // ── open the expand sheet on the tray card (real click); the JIT block keys on the
   // technique's OWN deck — jit_opened.deck_key proves the _posKey fallback was NOT taken ──
-  await page.locator(`[data-tech="${title}"]`).first().click()
+  await page.locator(`[data-tech="${title}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
   const jitOpens = (await j.beats()).filter((b) => b.beat === "jit_opened")
   expect(jitOpens, "exactly one sheet opened").toHaveLength(1)

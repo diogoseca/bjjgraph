@@ -2686,7 +2686,7 @@
    "L": "first-roll-day1",
    "F": "share-lists",
    "B": "happy-path",
-   "invariant": "Adding from an Explore result and from the node dossier lands BOTH techniques in ONE list (activeListId), emits list_item_added, persists under `lists` in the SAME v2 progress blob (no version bump), and survives a preserveStorage reload.",
+   "invariant": "Adding from an Explore result and from the node dossier lands BOTH techniques in ONE list (the one the first capture named, then picked — there is no default list), emits list_item_added, persists under `lists` in the SAME v2 progress blob (no version bump), and survives a preserveStorage reload.",
    "origin": "core",
    "status": "accepted"
   },

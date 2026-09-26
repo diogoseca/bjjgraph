@@ -223,7 +223,7 @@ test("cold start: a payload arriving behind the expand sheet renders BEHIND it, 
       if (a.nodes[i].ty === "transitions") return a.nodes[i].t;
     return a.nodes[(a.optionIdxs || [])[0]].t;
   });
-  await page.locator(`[data-tech="${target}"]`).first().click(); // open the sheet, do NOT execute
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click(); // open the sheet, do NOT execute
   await expect(page.locator("[data-go]").first()).toBeVisible();
 
   await decksArrive(page); // the payload lands while the sheet is up

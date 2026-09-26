@@ -74,7 +74,7 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   void clockBefore;
 
   // ── 4. peek the move, then execute; the needle decides it ──
-  await page.locator(`[data-tech="${target}"]`).first().click();
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click();
   await expect(
     page.locator("[data-go]"),
     "the sheet, with what it wins you",

@@ -98,7 +98,7 @@ async function exploreThenCommit(j: any, page: any, grade = true) {
       if (a.nodes[i].ty === "transitions") return a.nodes[i].t;
     return a.nodes[(a.optionIdxs || [])[0]].t;
   });
-  await page.locator(`[data-tech="${target}"]`).first().click(); // panel 2
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click(); // panel 2
   await expect(page.locator("[data-go]").first()).toBeVisible();
   if (grade) await j.drill(1); // panel 3, first half: grade a flashcard in the sheet
   await page.locator("[data-go]").first().click(); // panel 3, second half: Execute

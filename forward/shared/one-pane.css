@@ -800,10 +800,6 @@
   text-align: left;
 }
 
-.list-picker button[data-picker-default] {
-  background: rgba(255, 255, 255, 0.05);
-}
-
 .list-picker b {
   color: #7ee0a8;
 }

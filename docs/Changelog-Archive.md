@@ -29,10 +29,19 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
+
 Newest first. Where a narrative's own label disagrees with git, the real shipping version is
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.196.1** — [THE SETTINGS TABS FIT THE PANEL, AND A SIXTH CANNOT BREAK THEM](#v11961--the-settings-tabs-fit-the-panel-and-a-sixth-cannot-break-them)
+
+- **v1.196.1** — [THERE IS NO DEFAULT LIST](#v11961--there-is-no-default-list)
+
+- **v1.196.1** — [YOUR LISTS FOLDS LIKE ITS NEIGHBOURS](#v11961--your-lists-folds-like-its-neighbours)
+
+- **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -260,8 +269,8 @@ by `grep` and does not need an index row.
 - `_traySup` — v1.129.5, v1.109.0
 - `_updateHover` — v1.127.0, v1.114.3
 - `_warmMcPool` — v1.104.8, v1.80.4
-- `activeListId` — v1.101.0, v1.99.4
-- `addToList` — v1.126.0, v1.99.4
+- `activeListId` — v1.196.1, v1.101.0, v1.99.4
+- `addToList` — v1.196.1, v1.126.0, v1.99.4
 - `attempt_probability` — v1.121.0, v1.68.0
 - `badges` — v1.109.0, v1.68.0
 - `bottom` — v1.125.0, v1.81.3
@@ -355,7 +364,9 @@ tried.**
   integer reads as a bug (in 98 of 272 hands the best-EDGE card is not the best-odds card);
   **reversed v1.129.1** in favour of the category word. *Do not silently reinstate it.*
 - **Capture filed into a default list** (v1.99.5) — **reversed v1.102.0**: the picker always
-  opens, because "one list" is only unambiguous the first time.
+  opens, because "one list" is only unambiguous the first time. Its last trace — the picker's
+  "DEFAULT" chip and `activeListId` itself — **retired v1.196.1**. *Do not reinstate a
+  privileged list, a marked row, or a write that falls back to one.*
 - **The list-row ▶** (v1.103.6) — **deleted v1.103.7**: ▶ means *make this the current state and
   roll*, which you cannot do to a collection.
 - **The in-node dossier** (v1.100.0) — **retired v1.101.0**: the game's own card is the one
@@ -390,6 +401,22 @@ tried.**
   ingest cost and deliberately NOT done, because it changes the emitted geometry.
 - **Role-splitting `adj`** — the suite found it: several readers walk it role-agnostically on
   purpose. *Do not role-split `adj`.*
+- **The pane's equal-column grid for the Settings tabs** (v1.196.1) — `.ng-learning-nav`'s
+  `repeat(N,1fr)` gives five tabs ~65px each on a phone, while "Notifications" is ~82px at
+  13.5px. So it fits only by shrinking the type or truncating the label, and a sixth tab makes it
+  worse. The scrolling row cannot overflow at any count.
+
+- **Renaming `activeListId` to `lastListId`** (v1.196.1) — rejected: a second persisted recency
+  signal beside every list's own `t`, which the Lists panel already sorts by; the two disagree
+  after a removal, a rename, an undo or a merge, and it would mint a settings key that can never
+  be deleted. **Keeping `activeListId` with explicit-id writes** — rejected: every app writer
+  already passed an id; the field's only living job was to name the chip's row.
+
+- **A folded Your lists that stays shut after an add, trusting the toast and the header count**
+  (v1.196.1) — the header counts LISTS, so an add to a list you already have moves nothing on it,
+  and the toast is the single `setEvent` slot the roll overwrites within seconds. It would have
+  broken "I should be able to see the listed techniques after adding" to satisfy the fold. The
+  shipped answer is a session reveal (`_revealLists`). *Do not re-propose.*
 
 
 ---
@@ -7868,3 +7895,310 @@ tag routes are retained. Fresh emit, 320 units, canon, Quartz source check, full
 assertions. SEO parity passes on the 6,211-page build, with all measured fields identical across
 the 19 sampled routes and no baseline changes. Boot bundles add 675 B gzip against this dev;
 eager payload is 332,108 B (-182 B vs accepted baseline), first-hand core 351,666 B (+2,626 B).
+
+## v1.196.1 — The feedback modal loses its privacy hint, and closes over the hole
+
+Owner, 2026-09-24: remove "Please don't include personal information." from the feedback modal
+(`openFeedback`). Surveyed first: nothing else referenced the string, including no spec, the
+Forward mock, `content/terms.md` and `content/privacy.md`. The hint was the third of four children
+in a flex column with `gap:10px` (textarea, "about:" row, hint, Send), so the element is DELETED,
+not emptied or hidden. Measured by mutation: an emptied div leaves Send 20px below the "about:" row
+and a `visibility:hidden` one leaves it 31px below. Both are against the 10px control gap
+(textarea to "about:"). Gate: `e2e/journeys/feedback-modal.spec.ts` (`@curated`, 390 and 1440),
+which opens the modal from BOTH pane-foot entry points and pins the titles and placeholders
+verbatim. It asserts no "personal information" text and "Send one column gap below the control
+above it" as a differential, and it drives every control with `j.clickByMouse`: entry, textarea,
+checkbox, Send, close. It went RED first on the hint. Killed 8 of 9 mutants: hint restored, emptied,
+`visibility:hidden`, issue title changed, the card's pointerdown `stopPropagation` removed, the
+checkbox listener removed, the close listener removed, and `pointer-events:none` on the feedback
+row. The survivor is `display:none` on a re-added hint, which is invisible and outside the flow; it
+is recorded in the spec header. Added `data-feedback-title` and `data-feedback-close` as owned
+markers. The modal portals to the app root, outside the wrap that `attachInput` captures on, so it
+needs no early-return entry; the mouse journey is what keeps that true.
+
+## v1.196.2 — Invite graph improvements and record feedback session state
+
+The issue entry now reads "Help improve it", with "Help improve the graph" in the modal and
+"Reports like this decide what gets fixed next" after Send. Its placeholder asks what is wrong,
+missing or confusing and where it happened. The technique request copy and both event names stay
+the same. Both feedback events carry only a `signed_in` boolean in addition to their existing
+properties. Mouse journeys pin the copy, announcer, one-line issue entry at 390, and both boolean
+values through the existing session seam. The updated spec failed before implementation; eight
+mutants fail their named assertions. The Forward mock carries the same entry label.
+
+## v1.196.1 — THE SETTINGS TABS FIT THE PANEL, AND A SIXTH CANNOT BREAK THEM
+
+Owner, with a desktop screenshot: "settings doesnt have room for all tabs … and this is in
+desktop, not working right. i wonder if this will also work right on phone or tablet".
+`renderSettings` hand-built the row as five `<span>`s (`.t-fc .t-rl .t-md .t-nt .t-kb`), 22px apart,
+with five listeners, no overflow behaviour, and nothing focusable. Measured on the served bundle
+(the card is `min(440px,92vw)`, `overflow:hidden`):
+- at 768, 1024 and 1440, "Shortcuts" ran 22.5px past the content box and 0.5px past the card's
+  edge, which clips it;
+- at 390 it sat 81.7px OUTSIDE the card, invisible even while it was the active tab. That is
+  exactly what the account menu's "Keyboard shortcuts" row opens;
+- hit boxes were 28px tall.
+
+**Fix.** `NG_SETTINGS_TABS` is one list, and `_settingsTabRow` is one seam that owns:
+- a delegated click handler;
+- ←/→ that wrap, and Home/End, all stopping propagation so `_onKey` never pages the landing card
+  behind the modal;
+- focus on open, and focus kept across the rebuild after every change;
+- the row centred on the active tab at open, and a glide to it on a tab change;
+- a vertical wheel that scrolls an overflowing row sideways;
+- `data-fade`, re-derived on scroll, render and resize (by ONE app-lifetime ResizeObserver).
+
+The styles, `.ng-stabs` / `.ng-stab` in helmet.html, are the More fold's contents-row idiom (one
+row, horizontal scroll, `_navMark`'s centring), plus what that row lacks:
+- a 44px `<button>` around the old visual span;
+- `space-between`, so a row that fits is flush with the column;
+- a mask fade only on a side that hides a tab;
+- `role=tablist/tab/tabpanel` and a roving tabindex.
+
+The five fit at 440px (~18px gaps), and a phone scrolls. `.t-nt` and `.t-rl` in two journeys and
+`_owner_shoot.mjs` moved to `[data-settings-tab="…"]`.
+
+**Gate.** `settings-tabs.spec.ts` holds 9 `@curated` journeys. They were RED first against the old
+spans given tab semantics only, 8 of 8, and at 1440 the failure was
+`"Shortcuts" label [876.1, 940.5] inside the content box [523.0, 917.0]`. Mutation: 20 mutants,
+19 killed. The survivor is the inline `pointer-events:auto`, which is recorded in the spec header:
+the modal is portaled out of the wrap, so `attachInput` never sees it. Two harness lessons live in
+the spec's `settled`:
+- a scroll event lands on the next rendering frame, which can take >120ms under SwiftShader;
+- a smooth `scrollTo` held still for two frames before gliding.
+
+Payload: the eager set is 332,095 → 332,832 B gzip, +737 B against dev's own bundle and measured
+by `validate:payload` on one build tree (raw +1,590 B). That is +542 B against the accepted
+baseline, inside the 5,000 B cap.
+
+## v1.196.1 — The layer dock and the replay bar centre on the column, not the viewport
+
+Owner, 2026-09-23: "when i click close on some element like the flashcard/landcard after i
+opened/expanded the More container, i see the dock icons but they're not rightly centered since i
+have the left side panel open, so they should be centered like the rest." v1.196.0 moved the card,
+its stack, nav, More and the film to the measured centre of the space the pane leaves
+(`_paneLayout` → `_layoutLandHorizontal`, every frame). `_renderLayerDock` still wrote a literal
+`left:50%` into its `cssText`. Measured with a 360px pane: dock 720 vs card 900 at 1440, 512 vs
+692 at 1024, 400 vs 524 (film) at 800 — half a pane-width off. The survey of every other
+`left:50%` found one more member of the same bug: the replay bar, which already docks VERTICALLY
+where the card docks and is started from the pane's Last rolls tab, sat at 720 vs 900, and at 1024
+it overlapped the pane by 108px and painted over it (root plane, z:8; `elementFromPoint` returned
+the bar).
+
+Fix: both join `_layoutLandHorizontal` as the column's chrome and take its centre on every frame,
+which is what carries them through the pane's open and close animation (the close runs on the width
+`_paneLayout` retains after `display:none`) and through a resize. The dock's `cssText` no longer
+carries a `left`, and `_renderLayerDock` lays itself out once so its first frame is placed. In the
+short-landscape composition the deck column sits under an open pane, so there the chrome centres on
+the free area (the viewport's centre when the pane is shut, i.e. unchanged). All widths are read
+before any `left` is written. +169 B raw / +99 B gzip on neural.js.
+
+Not the same bug, reported and left: the announcer (`.ng-evtoast`, top, `left:50%`) is covered by
+the pane at ≤1024 (118px at 1024) and does not follow the node, but it is not column chrome and
+`rollCamTarget` reads its rect for the camera band; the option-detail sheet (`margin:0 auto`) and the
+state-choice preview (`left:50%`) are deliberate z:50 sheets; `.ng-combo-pop` cannot fire while the
+pane pauses the roll; the card/nav/stack/More/film `left:50%` are first-frame CSS the seam overwrites.
+Found on the phone and not touched: the v1.171.0 share-cue step-aside (−34px) avoids nothing
+today (the cue rides at bottom:84, above the dock's band) and puts the first glyph's 44px hit
+box 375 px² over the win bar.
+
+`e2e/journeys/layer-dock-centre.spec.ts`: 9 journeys (owner path at 1440/1024/800 including the
+no-member state, frame-by-frame open and close, resize, short landscape, replay at 1440/1024,
+phone with the cue); 7 red on the pre-fix bundle; 11 of 11 mutants killed by named assertions
+(table in the spec header).
+
+## v1.196.1 — THERE IS NO DEFAULT LIST
+
+Owner, 2026-09-23: *"abolish the 'default' list annotation, why is there a default in the first
+place? what's the mechanism? i mean we always select the list to add/favorite something to
+right?"* — yes, since v1.102.0; the annotation had outlived its reason by a year.
+
+**What the owner saw was a pseudo-element.** No `.css` file carried it: `neural/src/helmet.html`
+drew `.ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default"}`
+— 8.5px, uppercase, `rgb(126,138,163)` — after the picker's first row name. Measured on the
+HEAD bundle: first row `after: "default"`, `innerText: "Tuesday takedowns\n0"`. textContent and
+innerText cannot see it, which is why the old spec pinned the attribute and the new one reads
+`getComputedStyle(name, "::after").content`.
+
+**The mechanism.** `activeListId` — a persisted per-key LWW setting, "the list last created or
+filed into", repaired at load, at pull and on delete. Its readers: `targetList()` (the picker's
+first row and its `data-picker-default` stamp), the `listId || this.activeListId` fallback in
+`addToList` / `removeFromList` / `removeListItem`, and `activeList()` / `activeListHas()`, whose
+only caller was `toggleListItem()` ("Added to today’s list"). Since v1.101.9 `captureNode` opens
+the picker unconditionally and every app writer names its list (`pickList`, `createListWith`,
+`saveSharedList`, the expanded row's ×); `toggleListItem` had zero app callers and one spec. The
+v1.99.5 comment still described 0-list and 1-list ONE-TAP paths that no longer existed, and it
+misled the brief for this very change — it is now marked SUPERSEDED at the code.
+
+**Decision: retire it, don't rename it.** Read by nothing and written by nothing; the key stays
+dormant in old blobs (§6.6). The picker's rows are `listsArray()` — the Lists panel's own order,
+most recently touched first — and none is marked. `addToList` refuses a write with no list
+(`reason: "no_list"`); both removal paths refuse too. The toast names the list, always.
+`toggleListItem`, `activeList`, `activeListHas`, `targetList`, `_pickerOrder` are deleted.
+
+**The order had to become strict.** Recency is each list's `t`, stamped `Date.now()`, so two
+lists touched in one millisecond TIED and fell back to key-insertion order — oldest first. The
+RED run hit it on the existing premise: after seeding two lists in one evaluate, `listsArray()[0]`
+returned `…d1` (older) where `…d2` (newer) was expected. `_listStamp()` is never below the wall
+clock and always above every stamp held (a Lamport-style bump, which is also the causal answer
+under peer clock skew in `ngMergeLists`).
+
+**Behaviour that moved.** After a removal, a rename or a merge, the picker's first row is the
+list touched last — the panel's first row. After Undo of a delete, the list returns at its old
+recency, not first. Nothing else: `_openSharedListFromUrl`, `openListSession` and
+`saveSharedList` are untouched (the saved class leads recency exactly as it led `activeListId`).
+Boot bundle: JS −1,417 B raw / −287 B gzip, CSS −195 B / −33 B gzip.
+
+**Red-proof.** `lists-picker.spec.ts` test 6 (rewritten from "offers a default FIRST") and test
+1/2 carry it. Nine mutants, nine kills: picker in key-insertion order (T6+T1), alphabetical
+(T6), creation-order newest-first (T6, the "order follows use" half), non-strict stamp (T6,
+frozen-clock seed), marker attribute restored (T6+T1), chip restored by CSS alone with no
+attribute (T6, the `::after` read), `addToList` fallback (T6), `removeListItem` fallback (T6),
+"today’s list" removal toast (T2).
+
+**Gates (local, 1 worker, private port).** 320 units; `@curated` 330/332, whose two reds were
+`learning-static` reading a stale page copy in the harness, re-run green on a same-commit build;
+`validate:payload` OK with the eager set −495 B gzip against its baseline; `validate:surfaces`,
+`validate:forward`, `validate:claudemd` OK. Noticed on the way, not caused here:
+`share-lists.spec.ts` "the + works at 390px inside the drawer" went red 3 times inside long
+sequential runs and 0 of 20 times isolated on either the HEAD or the new bundle — an unexplained
+timing flake, not a gate (it is not `@curated`); and two emits of one commit write
+`curriculum.json`'s `scoreWeightsByRuleset` with tied entries in a different order
+(mapping-equal), so its bytes can move with no content change.
+
+## v1.196.1 — YOUR LISTS FOLDS LIKE ITS NEIGHBOURS
+
+Owner, 2026-09-23: "fix Your lists being collapsed pls … like other categories where it's collapsed
+by default unless we expand it." Explore's six category sections had folded through the persisted
+`exploreOpenSections` map since v1.99.3. `renderLists` built its header outside that map, so Your
+lists was always open.
+
+It now folds through the same map under the key `Your lists` (`NG_LISTS_SECTION`), and its toggle
+wears the same handle (`data-explore-section`, `aria-expanded`, plus `aria-controls` on the new
+`[data-lists-body]`). An absent key is closed, so existing users get the fold with no migration and
+nothing written at boot. The toggle is a real button (label + count); the + stays live on the
+folded header with its 44px box untouched. The caret sits outside the button, since a button may
+not hold the + button, and the row forwards any press but the + to the toggle. `margin-right:-8px`
+on the + puts that caret in the other headers' caret column (measured x 326–335, same for all
+three). `(0)` still shows at zero. A received class and a live undo render above the header,
+outside the fold. `_toggleExploreSection` now hands focus back to any header that held it (all
+seven, `preventScroll`), so Enter and Space work twice in a row.
+
+THE TENSION. The older rule (v1.99.4) — "I should be able to see the listed techniques after adding
+under Your lists" — was met by `_expandList` opening the list you added to, which shows nothing
+inside a shut section. Resolved with a SESSION reveal, `_revealLists` / `_listsRevealed`. These
+open the section for the rest of the session: making, adding to or restoring a list (all
+`_expandList`), a saved-class share arrival (`_offerShare` opens the pane precisely so "the list is
+read first"), and both halves of the share cue. The reveal never writes the map; a header press
+clears it and persists; the next add reveals again. The rejected alternative is in Index C. A
+`focusList` reveal was written, found unreachable (its one caller is a row inside an open section)
+and deleted.
+
+`lists-section-fold.spec.ts`: 7 journeys, 3 `@curated`. Against the pre-change bundle all 7 fail,
+but on the missing handle alone, so the behaviour is proved by 21 mutants, all killed; the table
+is in the spec header. M4 (the reveal written to the map) dies at a reload premise rather than at
+its own "wrote nothing" line. Four existing specs follow the fold: two `share-lists` reads of the
+empty line, `lists-rename`'s inert blur click (the head is a control now) and gallery shot,
+`lists-disclosure`'s reload step. `explore-sections` now lists seven sections.
+
+`neural.js` +1,746 B raw, +414 B gzip-9; CSS unchanged. Not covered: the reveal on a phone, the
+Undo path's reveal (rides the M3 seam, no journey restores a list), and the `forward/` catalog
+mock, which still prints the header without `(0)` and has no parity gate.
+
+## v1.197.0 — THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH
+
+Owner, 2026-09-23: "when we click to play / roll from a technique we found in the side bar it says
+we start on top, but what if i wanted to start on bottom?" `confirmPlayFrom` — the sheet behind an
+Explore/list ▶, the option sheet's "Play from here" and a Last-rolls ▶ — DECIDED the seat (the
+technique's `fromRole`, flipped by the global `_perspective`; a position's title-derived side,
+which is the constant `top` — all 266 position members on the wire carry a "… Top" title, the
+BOTTOM member included) and printed it inside the title: "Roll from Half Guard, attacking?" /
+"…with you on the top." No per-roll way to take the other side existed.
+
+Now: "Roll from Half Guard?" · "PLAY AS [Attacker | Defender]" (technique) or "[Top | Bottom]"
+(position), the derived seat preselected, a hint for a technique — "You play Knee Slice Pass." /
+"You defend against Knee Slice Pass — the other side of the same position." — and the body's side
+word follows the choice. Start passes an explicit role; `_seatMember` (now also the one answer
+inside `techniqueOrigin`, §6.5) seats you on the orb that plays it, so the URL reads
+`/Positions/Half-Guard/Bottom` and a reload re-seats you — before, a defender-perspective roll sat
+on the TOP member at `/Positions/Half-Guard`. Positions read their side from the member's `role`;
+`roleLabelOf` survives only for the pre-split graph.
+
+Three defects found on the way, all fixed and pinned: (1) Esc did nothing to this sheet — it had
+no rung on the ladder; it is now first, and returns so the pane does not close in the same press.
+(2) ⏎ with the sheet open over the option sheet reached the window ladder's ⏎/X branch and
+COMMITTED the move underneath (measured on the old bundle, `commit` 0 → 1); the sheet now owns its
+keys (everything but Esc stops at it) and takes focus on open, returning it to the ▶ on close.
+(3) `close()` set `opacity:0` and removed the node 160ms later with no transition declared — an
+invisible z:95 scrim (§6.1), and a sheet reopened inside that window was the second `.ng-cf-yes`
+under the dead one's box (found by `clickByMouse`); it is removed at once.
+
+Entry points: covered by the one sheet — Explore/list rows, "Play from here", Last rolls. Left
+alone deliberately — a graph tap (the pair's two orbs ARE the seat), the search modal (positions
+already carry "Play as Bottom/Top"; techniques there have no play control), the in-roll log's
+▶ (replays the recorded side without a sheet), URL arrivals (`/…/Bottom`, `/…/Defender` name the
+seat). The landing card has had no play control since v1.132.0; `dsRoll` is dead code (§6.8).
+
+Gate: `e2e/journeys/roll-seat-choice.spec.ts`, 6 journeys (3 `@curated`), RED on the old bundle
+(all six), every control by `clickByMouse`, every gameplay rng tag rigged. Fixtures chosen so the
+fall-through to `top` kills both headline journeys: Knee Slice Pass (top-authored, Defender =
+bottom) and Deep Half Entry (bottom-authored). 19 mutants: 17 killed; non-kills M4b (role dropped
+alone — equivalent on the paired graph, the member carries the side) and M17 (sheets stacking — no
+UI path reaches it). Table in the spec header. Payload: `neural.js` +2,911 B raw, +838 B gzip;
+eager 332,117 → 332,955 B (5,000 B delta cap), measured against a HEAD-source build of the same
+tree.
+
+## Integrated Roll documentation consolidation (v1.198.0 candidate)
+
+Unpublished integration housekeeping: the current behavior spec is condensed without changing its contracts. The replaced explanatory passages below preserve their historical rationale. No gate ceiling was increased.
+
+### The option sheet preserves the inspected card's anatomy
+
+The sheet head keeps the option card's EXACT anatomy — the numbered category glyph (the tray
+digit rides along via `catGlyph`), the category word whispering at 10px/.05em, EDGE — and the
+technique's OWN name as the 27px title (`splitName().main` + the `from …` qualifier line). The
+from→to decomposition is deleted ("it should definitely not be decomposed into this made-up
+title", owner). The EDGE explainer paragraph became a `title` tooltip on the number itself
+(`cursor:help`; aria-label shrank to the NAME per the title-is-the-description convention; the
+by-the-book-opponent caveat rides inside — canon for any EDGE copy). The "on success, advances
+to" line stays gated on `titleParts` being null: `opt.res` is a deal-time first-neighbor
+heuristic, measured wrong for 188 of 323 "X to Y"-named transitions when that gate was briefly
+widened. **The sheet is PORTALLED to the root plane at z:50 (coaching band)** — it was
+`absolute z:6` inside the wrap, trapped at plane 0 under the root-plane landing card (§6.1's
+ladder trap, caught by an adversarial pass before shipping) — and **the landing card is no
+longer hidden on expand**: it stays visible BEHIND the sheet (the old opacity hide-site, §6.1's
+last leaky one, is deleted outright). Paint order is asserted with `elementFromPoint`, never
+z-index arithmetic. Pinned by `option-edge.spec.ts` + `coldstart-backfill.spec.ts`.
+
+
+### The turn-based shell (v1.134.0)
+
+**The transport is retired.** With the hesitation branch gone nothing ever advances without a
+commit, so play/pause/restart controlled nothing — the buttons are deleted, Space no longer
+toggles anything (the Shortcuts tab row went with it), the Last-rolls CURRENT row lost its
+pause/resume toggle (archived rows keep "roll from here"; the live row carries no button), and
+`setPaused` survives only as internal MOTION state (staging pauses,
+committing unpauses; the pane law still freezes travel). **The background ladder** (owner):
+click empty sky once — the card closes (question declined, free) and the hand stays; click again
+— **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
+centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
+roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
+✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
+accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
+`_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
+PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
+to the pair label that already names it. **The escaping orb rushes on click**: arriving on (or
+clicking) the defending side enters the defense immediately — vignette, drill clock, escape
+hand — with the stale landing card declined and cleared first. The Win–Lose meter reads
+**Win (blue) left · Lose (red) right** (the writer mirrors `adv.cur`; the model is untouched),
+and the option-card category tracking dropped to .05em so SUBMISSION never truncates.
+
+
+---
+
+
+Historical roll-history regression note moved from the behavior spec:
+
+Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
+ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
+tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
