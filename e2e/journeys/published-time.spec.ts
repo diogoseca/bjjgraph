@@ -62,11 +62,16 @@ test("@curated served publication metadata matches authored or followed Git evid
             },
           )
         : undefined;
-    const oldest = authored === undefined
-      ? followedHistory!.trim().split("\n").at(-1)
-      : authored;
+    const oldest =
+      authored === undefined
+        ? followedHistory!.trim().split("\n").at(-1)
+        : authored;
     const expected = oldest ? new Date(oldest).toISOString() : undefined;
-    const response = await request.get(`/${route}.html`);
+    // Each page is independent; synchronous Git probes can outlive the server's
+    // idle keep-alive window between requests. Do not retain those connections.
+    const response = await request.get(`/${route}.html`, {
+      headers: { Connection: "close" },
+    });
     expect(response.ok(), route).toBeTruthy();
     const html = await response.text();
     const publication = html.match(
@@ -77,7 +82,10 @@ test("@curated served publication metadata matches authored or followed Git evid
     expect(publicationTags.length, `${route}: publication tag count`).toBe(
       expected === undefined ? 0 : 1,
     );
-    if (publication?.[1] !== expected || process.env.PUBLICATION_GIT_DIAGNOSTIC === "1") {
+    if (
+      publication?.[1] !== expected ||
+      process.env.PUBLICATION_GIT_DIAGNOSTIC === "1"
+    ) {
       // The manual job logs every sample. Normal gates capture mismatches only.
       // Keep the independent --follow oracle and exact date equality intact.
       const inspectGit = (args: string[]) => {
@@ -87,41 +95,88 @@ test("@curated served publication metadata matches authored or followed Git evid
           timeout: 10_000,
         });
         return {
-          args, status: result.status, stdout: result.stdout,
-          stderr: result.stderr, error: result.error?.message,
+          args,
+          status: result.status,
+          stdout: result.stdout,
+          stderr: result.stderr,
+          error: result.error?.message,
         };
       };
       const gitPathEnvironment = (key: "GIT_DIR" | "GIT_WORK_TREE") => {
         const value = process.env[key];
         if (value === undefined) return { present: false };
         const relative = path.relative(ROOT, path.resolve(ROOT, value));
-        const outside = relative === ".." || relative.startsWith(`..${path.sep}`) || path.isAbsolute(relative);
+        const outside =
+          relative === ".." ||
+          relative.startsWith(`..${path.sep}`) ||
+          path.isAbsolute(relative);
         // Never dump environment values or external paths into an artifact.
-        return { present: true, path: outside ? "<outside-checkout>" : relative || "." };
+        return {
+          present: true,
+          path: outside ? "<outside-checkout>" : relative || ".",
+        };
       };
       const evidence = {
-        route, source, authored: authored ?? null, followedHistory: followedHistory ?? null, oldest, expected, received: publication?.[1],
+        route,
+        source,
+        authored: authored ?? null,
+        followedHistory: followedHistory ?? null,
+        oldest,
+        expected,
+        received: publication?.[1],
         gitEnvironment: {
           GIT_DIR: gitPathEnvironment("GIT_DIR"),
           GIT_WORK_TREE: gitPathEnvironment("GIT_WORK_TREE"),
         },
         git: [
           inspectGit(["--version"]),
-          inspectGit(["rev-parse", "--show-toplevel", "--is-shallow-repository", "HEAD"]),
+          inspectGit([
+            "rev-parse",
+            "--show-toplevel",
+            "--is-shallow-repository",
+            "HEAD",
+          ]),
           inspectGit(["show", "-s", "--format=%H %P %aI %cI", "HEAD"]),
           inspectGit(["status", "--porcelain", "--", `content/${source}.md`]),
           // Replay the oracle's exact original command, including its format.
-          inspectGit(["log", "--follow", "--format=%aI", "--", `content/${source}.md`]),
-          inspectGit(["log", "--follow", "--format=%H %aI %P", "--", `content/${source}.md`]),
-          inspectGit(["-c", "core.commitGraph=false", "log", "--follow", "--format=%H %aI %P", "--", `content/${source}.md`]),
+          inspectGit([
+            "log",
+            "--follow",
+            "--format=%aI",
+            "--",
+            `content/${source}.md`,
+          ]),
+          inspectGit([
+            "log",
+            "--follow",
+            "--format=%H %aI %P",
+            "--",
+            `content/${source}.md`,
+          ]),
+          inspectGit([
+            "-c",
+            "core.commitGraph=false",
+            "log",
+            "--follow",
+            "--format=%H %aI %P",
+            "--",
+            `content/${source}.md`,
+          ]),
           inspectGit(["replace", "-l"]),
-          inspectGit(["config", "--show-origin", "--get-regexp", "^(core\\.(commitgraph|ignorecase)|diff\\.(renames|renamelimit)|log\\.follow)$"]),
+          inspectGit([
+            "config",
+            "--show-origin",
+            "--get-regexp",
+            "^(core\\.(commitgraph|ignorecase)|diff\\.(renames|renamelimit)|log\\.follow)$",
+          ]),
         ],
       };
       // CI uploads test-results; body-only attachments live in the HTML report.
-      const evidencePath = test.info().outputPath(
-        `publication-git-evidence-${source.replace(/[^a-zA-Z0-9_-]/g, "_")}.json`,
-      );
+      const evidencePath = test
+        .info()
+        .outputPath(
+          `publication-git-evidence-${source.replace(/[^a-zA-Z0-9_-]/g, "_")}.json`,
+        );
       fs.mkdirSync(path.dirname(evidencePath), { recursive: true });
       fs.writeFileSync(evidencePath, JSON.stringify(evidence, null, 2), "utf8");
       console.log("PUBLICATION_GIT_EVIDENCE " + JSON.stringify(evidence));

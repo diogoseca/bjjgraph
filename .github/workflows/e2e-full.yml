@@ -231,7 +231,7 @@ jobs:
           if-no-files-found: ignore
 
   publication-diagnostic:
-    name: Publication shard diagnostic (verified PR217 site)
+    name: Publication transport diagnostic (verified PR217 site)
     if: ${{ github.event_name == 'workflow_dispatch' && inputs.publication_only }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -324,10 +324,10 @@ jobs:
       - name: Install the locked Chromium version
         run: npx playwright install --with-deps chromium
 
-      - name: Reproduce only the original failing shard with publication diagnostics
+      - name: Verify publication transport fix with persisted diagnostics
         env:
           PUBLICATION_GIT_DIAGNOSTIC: "1"
-        run: npm test -- --shard=3/4
+        run: npm test -- e2e/journeys/published-time.spec.ts --grep 'served publication metadata matches authored'
 
       - name: Retain publication evidence
         if: always()
