@@ -231,10 +231,10 @@ jobs:
           if-no-files-found: ignore
 
   publication-diagnostic:
-    name: Publication-only diagnostic (verified PR217 site)
+    name: Publication shard diagnostic (verified PR217 site)
     if: ${{ github.event_name == 'workflow_dispatch' && inputs.publication_only }}
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     permissions:
       contents: read
       actions: read
@@ -246,10 +246,10 @@ jobs:
       TESTED_BASE: "aa80296361ee9d500a5bef3799d0f5a8fa6e56de"
       DISPATCH_SHA: ${{ github.sha }}
     steps:
-      - name: Checkout the exact previously tested PR merge
+      - name: Checkout the original PR merge ref with exact SHA guard
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          ref: "718126b048b0ef6371d831309da9590d87e0d946"
+          ref: "refs/pull/217/merge"
           fetch-depth: 0
 
       - name: Verify artifact provenance and the tests-only overlay
@@ -324,10 +324,10 @@ jobs:
       - name: Install the locked Chromium version
         run: npx playwright install --with-deps chromium
 
-      - name: Run publication provenance fixture then unchanged equality with diagnostics
+      - name: Reproduce only the original failing shard with publication diagnostics
         env:
           PUBLICATION_GIT_DIAGNOSTIC: "1"
-        run: npm test -- e2e/journeys/published-time.spec.ts --grep 'publication provenance survives clones and worktrees|served publication metadata matches authored'
+        run: npm test -- --shard=3/4
 
       - name: Retain publication evidence
         if: always()
