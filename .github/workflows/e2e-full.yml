@@ -6,6 +6,12 @@ on:
   schedule:
     - cron: "0 3 * * 6"
   workflow_dispatch:
+    inputs:
+      publication_only:
+        description: "Diagnose PR217 publication against its verified existing site; no build or full suite"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -16,6 +22,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.publication_only) }}
     name: Build tested site
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -103,6 +110,7 @@ jobs:
           retention-days: 1
 
   test:
+    if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.publication_only) }}
     name: E2E shard ${{ matrix.shard }}/4
     needs: build
     runs-on: ubuntu-latest
@@ -221,3 +229,112 @@ jobs:
             e2e/test-results/
             test-results/
           if-no-files-found: ignore
+
+  publication-diagnostic:
+    name: Publication-only diagnostic (verified PR217 site)
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.publication_only }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: read
+    env:
+      ARTIFACT_RUN: "36237655834"
+      ARTIFACT_ID: "10904812270"
+      ARTIFACT_HEAD: "f99bbf84792baab76a64f8f6a4cc10d3f00d48ec"
+      TESTED_MERGE: "718126b048b0ef6371d831309da9590d87e0d946"
+      TESTED_BASE: "aa80296361ee9d500a5bef3799d0f5a8fa6e56de"
+      DISPATCH_SHA: ${{ github.sha }}
+    steps:
+      - name: Checkout the exact previously tested PR merge
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: "718126b048b0ef6371d831309da9590d87e0d946"
+          fetch-depth: 0
+
+      - name: Verify artifact provenance and the tests-only overlay
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$ARTIFACT_RUN" > "$RUNNER_TEMP/publication-run.json"
+          gh api "repos/$GITHUB_REPOSITORY/actions/runs/$ARTIFACT_RUN/jobs?per_page=100" > "$RUNNER_TEMP/publication-jobs.json"
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/$ARTIFACT_ID" > "$RUNNER_TEMP/publication-artifact.json"
+          python3 - <<'PYVERIFY'
+          import json, os, pathlib, subprocess
+          def require(condition, message):
+              if not condition:
+                  raise SystemExit(message)
+          tmp = pathlib.Path(os.environ["RUNNER_TEMP"])
+          run = json.loads((tmp / "publication-run.json").read_text())
+          jobs = json.loads((tmp / "publication-jobs.json").read_text())["jobs"]
+          artifact = json.loads((tmp / "publication-artifact.json").read_text())
+          require(run["id"] == int(os.environ["ARTIFACT_RUN"]), "Wrong artifact run")
+          require(run["head_sha"] == os.environ["ARTIFACT_HEAD"], "Wrong tested PR head")
+          require(run["path"].split("@")[0] == ".github/workflows/e2e-full.yml", "Wrong build workflow")
+          require(run["event"] == "pull_request" and run["status"] == "completed", "Expected completed PR run")
+          build = [job for job in jobs if job["name"] == "Build tested site"]
+          require(len(build) == 1 and build[0]["conclusion"] == "success", "Fresh tested-site build was not green")
+          require(artifact["id"] == int(os.environ["ARTIFACT_ID"]) and not artifact["expired"], "Missing or expired site artifact")
+          require(artifact["name"] == "complete-e2e-site", "Wrong artifact name")
+          require(artifact["workflow_run"]["id"] == run["id"] and artifact["workflow_run"]["head_sha"] == run["head_sha"], "Artifact/run provenance mismatch")
+          require(artifact["digest"] == "sha256:d5a30c6bb6c8341ae0b1d144e48eab54d6ad26d1d549c8c957fbfb7df26bba79", "Artifact digest drift")
+          def git(*args):
+              return subprocess.check_output(["git", *args], text=True).strip()
+          require(git("rev-parse", "HEAD") == os.environ["TESTED_MERGE"], "Wrong checkout HEAD")
+          require(git("rev-parse", "--is-shallow-repository") == "false", "Incomplete Git history")
+          require(git("show", "-s", "--format=%P", "HEAD").split() == [os.environ["TESTED_BASE"], os.environ["ARTIFACT_HEAD"]], "Tested merge parent drift")
+          require(git("rev-parse", "HEAD^{tree}") == git("rev-parse", os.environ["ARTIFACT_HEAD"] + "^{tree}"), "PR merge is not the reviewed head tree")
+          changed = set(git("diff", "--name-only", os.environ["ARTIFACT_HEAD"], os.environ["DISPATCH_SHA"]).splitlines())
+          require(changed <= {".github/workflows/e2e-full.yml", "e2e/journeys/published-time.spec.ts"}, "Diagnostic branch includes changes beyond workflow and oracle instrumentation")
+          spec = "e2e/journeys/published-time.spec.ts"
+          pathlib.Path(spec).write_bytes(subprocess.check_output(["git", "show", os.environ["DISPATCH_SHA"] + ":" + spec]))
+          print(json.dumps({"artifact_run": run["id"], "artifact_id": artifact["id"], "artifact_digest": artifact["digest"], "pr_head": run["head_sha"], "checkout_head": git("rev-parse", "HEAD"), "tree": git("rev-parse", "HEAD^{tree}"), "test_overlay_from": os.environ["DISPATCH_SHA"], "changed_paths": sorted(changed)}))
+          PYVERIFY
+
+      - name: Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install test dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Install source dependencies for publication journeys
+        run: npm ci --no-audit --no-fund
+        working-directory: source
+
+      - name: Download the previously tested site
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: complete-e2e-site
+          run-id: "36237655834"
+          github-token: ${{ github.token }}
+
+      - name: Extract and verify the original emitted assets
+        run: |
+          tar -xzf complete-e2e-site.tgz
+          for built in neural/dist/*; do
+            test -f "$built"
+            cmp "$built" "source/public/static/neural/app/$(basename "$built")"
+          done
+          cmp source/quartz/static/neural/graph-data.json source/public/static/neural/graph-data.json
+          test "$(git rev-parse HEAD)" = "$TESTED_MERGE"
+
+      - name: Install the locked Chromium version
+        run: npx playwright install --with-deps chromium
+
+      - name: Run only the unchanged publication equality with diagnostics
+        env:
+          PUBLICATION_GIT_DIAGNOSTIC: "1"
+        run: npm test -- e2e/journeys/published-time.spec.ts:32
+
+      - name: Retain publication evidence
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: publication-diagnostic-${{ github.run_id }}
+          path: |
+            e2e/test-results/
+            test-results/
+          if-no-files-found: warn
