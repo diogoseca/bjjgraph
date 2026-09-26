@@ -376,8 +376,8 @@
       {
         "transition": "Aoki Lock from Aoki Lock Control",
         "attempt_probability": {
-          "gi": 26,
-          "nogi": 26
+          "gi": 33,
+          "nogi": 31
         }
       },
       {
@@ -406,13 +406,6 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 15
-        }
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 5
         }
       }
     ],
