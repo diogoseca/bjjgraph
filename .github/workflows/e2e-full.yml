@@ -143,6 +143,13 @@ jobs:
       - name: Install test dependencies
         run: npm ci --ignore-scripts
 
+      # Publication journeys import the real Quartz parser/renderer and its native Git
+      # oracle. Root --ignore-scripts intentionally skips the source/ postinstall.
+      # Install their locked dependencies explicitly; keep serving the build job's artifact.
+      - name: Install source dependencies for publication journeys
+        run: npm ci --no-audit --no-fund
+        working-directory: source
+
       # download-artifact v8 fails the job on a digest mismatch (v4 only warned), and it
       # skips decompressing a non-zip payload. Both are fine here — the `build` job above
       # uploads a normal (archived) artifact — but upload- and download-artifact must be
