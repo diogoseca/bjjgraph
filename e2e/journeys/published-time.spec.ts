@@ -77,6 +77,77 @@ test("@curated served publication metadata matches authored or followed Git evid
     expect(publicationTags.length, `${route}: publication tag count`).toBe(
       expected === undefined ? 0 : 1,
     );
+    if (publication?.[1] !== expected) {
+      // Keep the independent --follow oracle and date equality intact. Capture the
+      // actual runner's history on failure so its cause is reproducible off CI.
+      const inspectGit = (args: string[]) => {
+        const result = spawnSync("git", args, {
+          cwd: ROOT,
+          encoding: "utf8",
+          timeout: 10_000,
+        });
+        return {
+          args,
+          status: result.status,
+          stdout: result.stdout,
+          stderr: result.stderr,
+          error: result.error?.message,
+        };
+      };
+      await test.info().attach("publication-git-evidence", {
+        contentType: "application/json",
+        body: JSON.stringify(
+          {
+            route,
+            source,
+            authored,
+            oldest,
+            expected,
+            received: publication?.[1],
+            git: [
+              inspectGit(["--version"]),
+              inspectGit([
+                "rev-parse",
+                "--show-toplevel",
+                "--is-shallow-repository",
+                "HEAD",
+              ]),
+              inspectGit(["show", "-s", "--format=%H %P %aI %cI", "HEAD"]),
+              inspectGit([
+                "status",
+                "--porcelain",
+                "--",
+                `content/${source}.md`,
+              ]),
+              inspectGit([
+                "log",
+                "--follow",
+                "--format=%H %aI %P",
+                "--",
+                `content/${source}.md`,
+              ]),
+              inspectGit([
+                "-c",
+                "core.commitGraph=false",
+                "log",
+                "--follow",
+                "--format=%H %aI %P",
+                "--",
+                `content/${source}.md`,
+              ]),
+              inspectGit([
+                "config",
+                "--show-origin",
+                "--get-regexp",
+                "^(core\\.(commitgraph|ignorecase)|diff\\.(renames|renamelimit)|log\\.follow)$",
+              ]),
+            ],
+          },
+          null,
+          2,
+        ),
+      });
+    }
     expect(publication?.[1], `${route}: publication`).toBe(expected);
     const modified = html.match(
       /<meta property="article:modified_time" content="([^"]+)"/,

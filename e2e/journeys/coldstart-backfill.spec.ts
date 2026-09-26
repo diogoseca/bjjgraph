@@ -196,6 +196,10 @@ test("cold start: the dossier payload landing mid-turn gives the current state i
     "the backfill gives the card its More affordance",
   ).toHaveCount(1);
   await page.evaluate(() => (window as any).__neural.expandLandCard());
+  await expect(
+    page.locator("[data-land-def]").first(),
+    "the deferred reading surface paints the backfilled definition",
+  ).toContainText("A one-line definition of where you are.");
   const after = await read(page);
   expect(after.hasDef, "the definition backfills onto the live card").toBe(
     true,
@@ -363,6 +367,10 @@ test("cold start: the dossier payload backfills a definition onto a question not
     "the second payload gives the card its More affordance",
   ).toHaveCount(1);
   await page.evaluate(() => (window as any).__neural.expandLandCard());
+  await expect(
+    page.locator("[data-land-def]").first(),
+    "the deferred reading surface paints while the question stays mounted",
+  ).toContainText("Knee-through pin; hips heavy, elbows in.");
   expect(
     (await read(page)).hasDef,
     "the definition arrives on the card being read",
