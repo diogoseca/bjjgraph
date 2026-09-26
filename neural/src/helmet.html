@@ -86,6 +86,42 @@
   .ng-histctl:active{transform:translateY(1px);}
   .ng-histctl:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
   .ng-histctl[data-replaying]{background:rgba(126,224,168,.16);color:#9fe8c0;}
+  /* ---------- Settings: the tab row (v1.196.1) ----------
+     Owner, with a desktop screenshot: "settings doesnt have room for all tabs". The row was five
+     bare spans with NO overflow behaviour, so "Shortcuts" ran 22.5px past the 440px card's
+     content box and was clipped by its edge; at 390 it sat wholly outside the card.
+     THE IDIOM IS THE MORE FOLD'S CONTENTS ROW (`.r-toc` in reading.css, the owner's "tabs in a
+     single row, with horizontal scrolling"): one row, scroll when it must, the active entry
+     centred. It is NOT shared by class because reading.css is deferred and this is boot chrome.
+     What `.r-toc` lacks and this row needs is added here, and only here:
+       - HIT BOX vs LABEL: the <button> is the 44px hit area; its <span> is exactly the old visual
+         tab (text, 11px, 2px underline). The button pads 16px UP into the gap above the row and
+         7px each side, and the row takes a matching -7px margin, so the labels still align with
+         the title while every pixel between two labels belongs to one tab or the other. The
+         wrapper that carries the hairline keeps the content width (see renderSettings).
+       - THE FADE IS EARNED: `data-fade` is written by `_settingsTabRow` from the live scroll
+         position ("l", "r", both, or absent), so an edge dims only while something is actually
+         hidden past it. A fade over a complete row would read as a clipped one, which is the bug
+         this replaces. mask-image, not an overlay: the card's background is a gradient.
+       - SPACE-BETWEEN, so a row that fits is flush with BOTH edges of the content column (the
+         title's left edge, the notice box's right edge) and the leftover goes into the gaps. It
+         cannot cause overflow: free space that is negative makes space-between act as
+         flex-start, and the row scrolls from its first tab. The 14px `.r-toc` rhythm is the
+         FLOOR, set by the hit padding.
+     At 440px (every viewport >= 478) the five labels fit with ~18px gaps, so desktop and tablet
+     never scroll; a phone does. That is one design, and only the content decides between the
+     two outcomes. A sixth tab changes the outcome, never the layout. */
+  .ng-stabs{position:relative;display:flex;justify-content:space-between;margin:0 -7px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;}
+  .ng-stabs::-webkit-scrollbar{display:none;}
+  .ng-stabs[data-fade]{-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--fl,0px),#000 calc(100% - var(--fr,0px)),transparent);mask-image:linear-gradient(90deg,transparent,#000 var(--fl,0px),#000 calc(100% - var(--fr,0px)),transparent);}
+  .ng-stabs[data-fade~=l]{--fl:40px;}
+  .ng-stabs[data-fade~=r]{--fr:40px;}
+  .ng-stab{flex:none;min-height:44px;padding:16px 7px 0;border:none;border-radius:8px;background:transparent;cursor:pointer;font:inherit;font-size:13.5px;font-weight:600;color:#8b97b0;white-space:nowrap;transition:color .15s ease;}
+  .ng-stab>span{display:block;padding-bottom:11px;border-bottom:2px solid transparent;}
+  .ng-stab:hover{color:#c4cde0;}
+  .ng-stab[aria-selected=true]{color:#eef1f6;}
+  .ng-stab[aria-selected=true]>span{border-bottom-color:#7e9bff;}
+  .ng-stab:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}
@@ -317,7 +353,10 @@
   .ng-listpicker-row[aria-checked="true"] .ng-listpicker-box{background:#7ee0a8;border-color:#7ee0a8;}
   .ng-listpicker-name{flex:1;min-width:0;font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .ng-listpicker-n{flex:none;font-size:10.5px;font-weight:700;color:#7e8aa3;}
-  .ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default";margin-left:7px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;}
+  /* NO "DEFAULT" CHIP. A `[data-picker-default="1"] .ng-listpicker-name::after{content:"default"}`
+     rule drew one here after the first row's name — the only place the retired default list was
+     ever VISIBLE, and invisible to textContent. Owner, 2026-09-23: "abolish the 'default' list
+     annotation". The rows are recency order (`listsArray()`), and no row is marked. */
   .ng-listpicker-newrow{margin-top:2px;border-top:1px solid rgba(150,170,210,.13);border-radius:0 0 9px 9px;color:#9db4ff;}
   .ng-listpicker-newrow .ng-listpicker-box{border-style:dashed;color:#9db4ff;}
   .ng-listpicker-new{display:flex;align-items:center;gap:6px;margin-top:4px;padding-top:6px;border-top:1px solid rgba(150,170,210,.13);}

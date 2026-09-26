@@ -201,7 +201,7 @@ test("cold start: a spine step that arrives too EARLY is stamped out of order", 
   await j.rig("resolve", [0.01]);
   await j.rig("outcome", [0.01]);
   const target = await firstTransition(page);
-  await page.locator(`[data-tech="${target}"]`).first().click();
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click();
   await expect(page.locator("[data-go]").first()).toBeVisible();
   await page.locator("[data-go]").first().click();
   await j.advanceUntil("sweep_land", 20000);
@@ -467,7 +467,7 @@ test("cold start: a payload that never arrives leaves a playable app, not a brok
   await j.rig("resolve", [0.01]);
   await j.rig("outcome", [0.01]);
   const target = await firstTransition(page);
-  await page.locator(`[data-tech="${target}"]`).first().click();
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click();
   await expect(page.locator("[data-go]").first()).toBeVisible();
   await page.locator("[data-go]").first().click();
   await j.advanceUntil("sweep_land", 20000);

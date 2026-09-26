@@ -890,14 +890,21 @@ export class Journey {
     });
   }
 
-  /** Pick an option like a user: click its tray card (expand sheet opens), then confirm Go. */
+  /** Commit an own option through its tray card. Inspection is a separate action. */
   async pick(technique: string) {
     const card = this.page.locator(`[data-tech="${technique}"]`).first();
     await expect(card, `option card for "${technique}" visible`).toBeVisible();
     await card.click();
+    return this;
+  }
+
+  /** Open the existing detail sheet without committing the move. */
+  async inspect(technique: string) {
+    const card = this.page.locator(`[data-tech="${technique}"]`).first();
+    await expect(card, `option card for "${technique}" visible`).toBeVisible();
+    await card.locator("[data-choice-inspect]").click();
     const go = this.page.locator("[data-go]").first();
     await expect(go, "expand-sheet Execute button visible").toBeVisible();
-    await go.click();
     return this;
   }
 

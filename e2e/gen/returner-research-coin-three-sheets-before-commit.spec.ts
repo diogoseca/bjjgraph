@@ -12,10 +12,10 @@ import { lapsedReturner } from "./personas"
  * when the counter is >=3, then resets it. Mint-once rides the existing-coin guard at
  * challenge-engine.src.js:142 (`if (nextCoins[id]) continue`).
  *
- * SIZING FACT the whole spec is built on: j.pick() itself opens the expand sheet before
- * clicking [data-go], so every commit CONTRIBUTES one sheet_opened. Through real UI:
- *   "two sheets then commit"   = 1 open/close cycle  + pick
- *   "three sheets then commit" = 2 open/close cycles + pick
+ * Inspection is explicit: the final j.inspect() opens one sheet before [data-go] commits.
+ * A direct j.pick() contributes no sheet-open. Through real UI:
+ *   "two sheets then commit"   = 1 open/close cycle  + Inspect + Execute
+ *   "three sheets then commit" = 2 open/close cycles + Inspect + Execute
  * Asserted arc: cumulative sheet_opened 2 → 5 → 8 across three commits; research-position
  * coin_earned 0 after the 2-sheet commit, exactly 1 after the 3-sheet commit (live in
  * __neural.coins AND persisted in the bjj-neural-progress blob — isTest() saves are
@@ -56,7 +56,7 @@ const transitionTech = (page: Page) =>
 async function openAndClose(page: Page, technique: string, label: string) {
   const card = page.locator(`[data-tech="${technique}"]`).first()
   await expect(card, `${label}: option card for "${technique}" visible`).toBeVisible()
-  await card.click()
+  await card.locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-go]").first(), `${label}: expand-sheet Execute visible`).toBeVisible()
   await page.keyboard.press("Escape")
   // opacity:0 hide → visibility assertions lie; wait for the detail ctx to clear AND the
@@ -108,31 +108,33 @@ test("returner researches a hand: two sheets mint nothing, three since land mint
   expect(virgin.liveCoin, "returner blob seeds coins:{} — ledger starts empty").toBe(false)
   expect(virgin.persisted, "nothing persisted before play").toBe(false)
 
-  // ── commit 1: only TWO sheets since land (1 open/close + pick's own open) — no mint ──
+  // ── commit 1: only TWO sheets since land (1 open/close + final Inspect) — no mint ──
   const t1 = await transitionTech(page)
   expect(t1, "hand 1: a transition to research and commit").toBeTruthy()
   await openAndClose(page, t1, "hand 1, research open")
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(t1)
+  await j.inspect(t1)
+  await page.locator("[data-go]").click()
   const two = await snap(page, baseline)
-  expect(two.sheets, "commit 1: exactly two sheet_opened since land (close-only + pick's open)").toBe(2)
+  expect(two.sheets, "commit 1: exactly two sheet_opened since land (close-only + final Inspect)").toBe(2)
   expect(two.commits, "commit 1: the commit beat landed").toBe(1)
   expect(two.researchMints, "commit 1: two sheets is NOT research — zero mints").toBe(0)
   expect(two.liveCoin, "commit 1: coin ledger still empty").toBe(false)
   expect(two.persisted, "commit 1: nothing persisted").toBe(false)
   await j.nextHand()
 
-  // ── commit 2: THREE sheets since the new landing (2 open/close + pick) — exactly one mint.
+  // ── commit 2: THREE sheets since the new landing (2 open/close + final Inspect) — exactly one mint.
   //    The counter demonstrably restarted: 2 stale sheets + 2 fresh opens would already be
-  //    past threshold BEFORE pick's own open if anything had carried over. ──
+  //    past threshold BEFORE the final Inspect if anything had carried over. ──
   const t2 = await transitionTech(page)
   expect(t2, "hand 2: a transition to research and commit").toBeTruthy()
   await openAndClose(page, t2, "hand 2, research open 1")
   await openAndClose(page, t2, "hand 2, research open 2") // SAME sheet again — raw events count
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(t2)
+  await j.inspect(t2)
+  await page.locator("[data-go]").click()
   const minted = await snap(page, baseline)
   expect(minted.sheets, "commit 2: five sheet_opened cumulative (2 + 3 this landing)").toBe(5)
   expect(minted.commits, "commit 2: second commit landed").toBe(2)
@@ -148,7 +150,8 @@ test("returner researches a hand: two sheets mint nothing, three since land mint
   await openAndClose(page, t3, "hand 3, research open 2")
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(t3)
+  await j.inspect(t3)
+  await page.locator("[data-go]").click()
   const after = await snap(page, baseline)
   expect(after.sheets, "commit 3: eight sheet_opened cumulative — opens still count").toBe(8)
   expect(after.commits, "commit 3: third commit landed").toBe(3)

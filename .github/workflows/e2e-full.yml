@@ -43,6 +43,7 @@ jobs:
         run: npm run regenerate:neural
 
       - name: Build production site and Forward libraries
+        id: site-build
         run: npm run build
 
       # THE BUILD'S SHAPE, AND THE ONLY PR JOB THAT CAN CHECK IT.
@@ -72,6 +73,9 @@ jobs:
         run: npm run validate:analytics:nokey
 
       - name: Package tested site
+        # Preserve a successfully built site when a later census/analytics gate fails.
+        # Shards still require the entire build job to pass.
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         # THE WHOLE TREE, NOT AN ALLOW-LIST (v1.104.6). The list below used to name six paths, and
         # it predated every spec that reads a seventh: share-camera/share-lists/share-mobile
         # readFileSync `public/l.html`, `_redirects` and `l-manifest.json`; legacy-gone and
@@ -80,9 +84,18 @@ jobs:
         # so the full sharded suite — the PR gate for BOTH main and dev — could not pass, and
         # nothing reported the drift because an allow-list rots silently. If size ever bites, use
         # --exclude: a new emitted path must be packaged by DEFAULT.
-        run: tar -czf complete-e2e-site.tgz -C source public
+        # Fresh-asset journeys compare HTTP responses with the original emitted bytes.
+        # Keep those build inputs beside the public tree on every clean shard.
+        run: |
+          for built in neural/dist/*; do
+            test -f "$built"
+            cmp "$built" "source/public/static/neural/app/$(basename "$built")"
+          done
+          cmp source/quartz/static/neural/graph-data.json source/public/static/neural/graph-data.json
+          tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json
 
       - name: Upload tested site
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: complete-e2e-site
@@ -130,6 +143,13 @@ jobs:
       - name: Install test dependencies
         run: npm ci --ignore-scripts
 
+      # Publication journeys import the real Quartz parser/renderer and its native Git
+      # oracle. Root --ignore-scripts intentionally skips the source/ postinstall.
+      # Install their locked dependencies explicitly; keep serving the build job's artifact.
+      - name: Install source dependencies for publication journeys
+        run: npm ci --no-audit --no-fund
+        working-directory: source
+
       # download-artifact v8 fails the job on a digest mismatch (v4 only warned), and it
       # skips decompressing a non-zip payload. Both are fine here — the `build` job above
       # uploads a normal (archived) artifact — but upload- and download-artifact must be
@@ -141,8 +161,7 @@ jobs:
 
       - name: Extract tested site
         run: |
-          mkdir -p source
-          tar -xzf complete-e2e-site.tgz -C source
+          tar -xzf complete-e2e-site.tgz
 
       # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
       # This repo bumps package.json on every commit and package-lock.json mirrors that

@@ -24,12 +24,14 @@ import { journey } from "../dsl";
  *  4. REMOVE (×, addressed at THAT list) persists, updates the count, and re-lights the
  *     reduced set on the graph when that list is the lit one.
  *  5. AUTO-EXPAND. The list + just made, and any list just added to, is already open — that
- *     is literally the ask ("see the listed techniques AFTER ADDING").
+ *     is literally the ask ("see the listed techniques AFTER ADDING"). Since v1.196.1 the Your
+ *     lists SECTION around it folds by default and opens with it for the session
+ *     (lists-section-fold.spec.ts pins that half).
  *  6. THE EMPTY LIST says so, and says how.
  *  7. It works in the 390px drawer: names truncate, controls stay thumb-sized, no scroll trap.
  *  8. Expansion is SESSION state (a Set, not a settings map) — a reload comes back collapsed.
  *
- * Rails: __neural.lists, .activeListId, ._listExpanded(id), ._focusIdxSet, ._dossierIdx,
+ * Rails: __neural.lists, .listsArray(), ._listExpanded(id), ._focusIdxSet, ._dossierIdx,
  *        .addToList, .removeListItem
  * Handles: [data-list-open] (the toggle), [data-list-items], [data-list-item],
  *          [data-list-item-remove], [data-list-empty], [data-list-count], [data-list-chevron]
@@ -340,7 +342,7 @@ test("the list you just made, and the list you just added to, are already open @
   // (a) the newborn from + — open, and saying what to do next
   await j.clickByMouse("[data-lists-new]", "the New list +");
   await page.keyboard.press("Enter"); // keep the default name (the v1.99.3 "+ then rename" flow)
-  const id = await page.evaluate(() => (window as any).__neural.activeListId);
+  const id = await page.evaluate(() => (window as any).__neural.listsArray()[0]); // the newborn
   await expect(
     page.locator(`[data-list-items="${id}"]`),
     "a list you just made opens itself — there is nothing to fold away",
@@ -379,7 +381,7 @@ test("an empty list says it is empty, and says which star fills it", async ({ pa
 
   await j.clickByMouse("[data-lists-new]", "the New list +");
   await page.keyboard.press("Enter");
-  const id = await page.evaluate(() => (window as any).__neural.activeListId);
+  const id = await page.evaluate(() => (window as any).__neural.listsArray()[0]); // the newborn
 
   const empty = page.locator(`[data-list-empty="${id}"]`);
   await expect(empty, "the newborn explains itself instead of showing a bare 0").toBeVisible();
@@ -522,6 +524,9 @@ test("expansion is a reading posture, not a preference: it lives for the session
 
   await reloadKeepingStorage(page);
   await openExplore(page);
+  // v1.196.1: the SECTION folds too, and a reload comes back to it closed (the reveal an add
+  // earns is session posture, lists-section-fold.spec.ts) — open it to read the list's own fold.
+  await page.locator('[data-explore-section="Your lists"]').click();
 
   await expect(
     page.locator(`[data-list-row="${id}"]`),
@@ -540,6 +545,6 @@ test("expansion is a reading posture, not a preference: it lives for the session
       )) || {},
     ),
     "and nothing about a list leaked into Explore's section-fold map (whose keys are a " +
-      "fixed vocabulary of six section labels)",
+      "fixed vocabulary of seven section labels — Your lists joined in v1.196.1)",
   ).not.toContain(id);
 });

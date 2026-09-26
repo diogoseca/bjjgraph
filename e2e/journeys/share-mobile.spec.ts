@@ -68,8 +68,9 @@ const pickClassNodes = (page: Page, n: number) =>
 const codeFor = (page: Page, ids: string[]) =>
   page.evaluate((list: string[]) => {
     const a = (window as any).__neural;
-    for (const id of list) a.addToList(id);
-    return a.listShareCode(a.activeListId);
+    const lid = a.newList(); // a list is always NAMED by its writer — there is no default list
+    for (const id of list) a.addToList(id, lid);
+    return a.listShareCode(lid);
   }, ids);
 
 /** Where a control REALLY is, and whether a thumb could reach it: the box, whether it is inside
@@ -340,17 +341,19 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
   // Option cards lost their own `+`: a 150px card on a running clock is a CHOICE, and eight
   // copies of one control is clutter the owner asked to be rid of. The capability this journey
   // guards is unchanged — a coach takes a note on a TECHNIQUE, mid-roll, with a real tap, and it
-  // must not commit the move — but the surface is the sheet a card tap already opens, which is
-  // the phone's reading surface anyway.
+  // must not commit the move. Inspect opens the sheet; tapping the card body executes it.
   await expect(
     page.locator('[data-list-add][data-list-surface="option"]'),
     "no per-card capture on the hand any more",
   ).toHaveCount(0);
 
-  // tap the CARD (a real tap, at measured coordinates) — that opens the sheet
-  const cardBox = await page.locator(`[data-tech="${hand[0].name}"]`).first().boundingBox();
-  expect(cardBox, "the first technique's card is on a 390x844 screen").not.toBeNull();
-  await page.touchscreen.tap(cardBox!.x + cardBox!.width / 2, cardBox!.y + 24);
+  // Tap Inspect at its real touch coordinates without scrolling or invoking an app method.
+  const inspect = await reach(page, `[data-tech="${hand[0].name}"] [data-choice-inspect]`);
+  expect(inspect.found, "the first technique has an Inspect control").toBe(true);
+  expect(inspect.visible, "Inspect is visibly available on the phone").toBe(true);
+  expect(inspect.inViewport, `Inspect is reachable (${JSON.stringify(inspect)})`).toBe(true);
+  expect(inspect.hit, "the thumb reaches Inspect itself").toBe("the control");
+  await page.touchscreen.tap(inspect.x, inspect.y);
 
   // the sheet animates open over ~420ms — poll for the control, don't guess
   let sheetAdd = await reach(page, '[data-list-add][data-list-surface="sheet"]');
@@ -404,7 +407,7 @@ test("a coach captures a TECHNIQUE from the live hand with a real tap at real co
 
   const after = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const id = a.activeListId;
+    const id = a.listsArray()[0]; // the list just created or picked is the most recently touched
     const items = ((a.lists[id] || {}).items || []) as string[];
     return {
       items,
@@ -714,7 +717,8 @@ test("the unresolved-techniques notice is grammatical for one and for many", asy
   const good = await page.evaluate(() => {
     const a = (window as any).__neural;
     const nodes = a.nodes.filter((n: any) => typeof n.o === "number").slice(0, 2);
-    for (const n of nodes) a.addToList(n.id);
+    const lid = a.newList();
+    for (const n of nodes) a.addToList(n.id, lid);
     return nodes.map((n: any) => a.nodes[a._idIndex.get(n.id)].o);
   });
 

@@ -39,13 +39,12 @@ const CLASSIFY = `(el) => {
 async function seedList(page: any) {
   return page.evaluate(() => {
     const a: any = (window as any).__neural;
-    a.newList();
-    a.renameList(a.activeListId, "Tuesday takedowns");
-    a.addToList("Positions/Mount");
+    const lid = a.newList("Tuesday takedowns");
+    a.addToList("Positions/Mount", lid);
     const tr = a.nodes.find((n: any) => n.ty === "transitions");
     const sb = a.nodes.find((n: any) => n.ty === "submissions" && !n.isFamily);
-    if (tr) a.addToList(tr.id);
-    if (sb) a.addToList(sb.id);
+    if (tr) a.addToList(tr.id, lid);
+    if (sb) a.addToList(sb.id, lid);
     a.openPane("explore");
     return { tr: tr && tr.id, sb: sb && sb.id };
   });
