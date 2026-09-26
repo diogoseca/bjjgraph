@@ -324,10 +324,10 @@ jobs:
       - name: Install the locked Chromium version
         run: npx playwright install --with-deps chromium
 
-      - name: Run only the unchanged publication equality with diagnostics
+      - name: Run publication provenance fixture then unchanged equality with diagnostics
         env:
           PUBLICATION_GIT_DIAGNOSTIC: "1"
-        run: npm test -- e2e/journeys/published-time.spec.ts:32
+        run: npm test -- e2e/journeys/published-time.spec.ts --grep 'publication provenance survives clones and worktrees|served publication metadata matches authored'
 
       - name: Retain publication evidence
         if: always()
