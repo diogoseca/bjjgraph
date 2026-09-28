@@ -44,6 +44,15 @@
 /postscript.js
   Cache-Control: public, max-age=14400, stale-while-revalidate=86400
 
+# Install metadata and Android ownership: always revalidate these fixed URLs.
+# Exact paths keep their Cache-Control disjoint from /static/* and the HTML tiers.
+/manifest.webmanifest
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: application/manifest+json; charset=utf-8
+/.well-known/assetlinks.json
+  Cache-Control: public, max-age=0, must-revalidate
+  Content-Type: application/json; charset=utf-8
+
 # Tier 2 — content HTML: short freshness so a deploy propagates fast, 1h SWR so the
 # edge answers instantly and revalidates behind the request. This is the tier that
 # moves TTFB P75, since RUM TTFB measures the navigation document.

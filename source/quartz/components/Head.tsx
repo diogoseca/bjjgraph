@@ -4,6 +4,7 @@ import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { escapeScriptContent } from "../util/escape"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import pwaManifest from "../../../pwa/manifest.json"
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
@@ -114,6 +115,13 @@ export default (() => {
         <meta name="twitter:image:alt" content={`BJJ Graph - ${title}`} />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         <link rel="icon" href={iconPath} />
+        <link rel="manifest" href={joinSegments(baseDir, "manifest.webmanifest")} />
+        <meta name="theme-color" content={pwaManifest.theme_color} />
+        <link
+          rel="apple-touch-icon"
+          sizes="192x192"
+          href={joinSegments(baseDir, "static/pwa/icon-192.png")}
+        />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         <script
