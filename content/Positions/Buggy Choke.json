@@ -1,8 +1,18 @@
 {
   "name": "Buggy Choke",
   "slug": "buggy-choke",
+  "bot_metadata": {
+    "last_improved": "2026-07-04",
+    "optimization_pass": "ai_seo_v1"
+  },
   "description": "Master the Buggy Choke position in BJJ. Strategic guide covering the arm-trap self-strangle, leg-over-shoulder clamp, and finishing mechanics with complete attacker and defender perspective analysis.",
   "variant_uniqueness": "Opponent's own trapped arm becomes the choke",
+  "disambiguations": [
+    {
+      "name": "Arm Triangle",
+      "reason": "the arm triangle is a top-position strangle you finish with your own arm and shoulder pinning the opponent's neck, whereas the buggy choke is finished from the bottom or side by clamping a leg over the opponent's shoulder to compress their own trapped arm into their carotid"
+    }
+  ],
   "summary": "The Buggy Choke is a control position where the attacker traps the opponent's near arm against the neck and clamps a leg over the shoulder, compressing that arm into the opponent's own carotid for a self-arm strangle and branching into scrambles when defended.",
   "overview": "The Buggy Choke position represents one of modern jiu-jitsu's most counterintuitive submission systems, popularized in competition around 2021. Its defining characteristic is that the choke is finished with the opponent's own arm: the attacker traps the opponent's near arm tight across the neck, then throws a leg over the opponent's shoulder to clamp that arm in place, driving the opponent's own bicep and shoulder into their carotid. Because the entry so often comes from a pin the defender believes is winning, the choke frequently materializes before the opponent recognizes the danger.\n\nFrom the attacking perspective, the buggy choke rewards calm, structured movement over scrambling. The attacker frames the opponent's near arm across the neck, swings the same-side leg up and over the shoulder, and connects the legs in a figure-four or shin grip to seal the trapped arm. The strangle then comes from turning the hips and torso toward the opponent and extending, not from upper-body strength. When the choke is defended, the same control branches into sweeps, scrambles, and follow-up entanglements rather than collapsing back to neutral, which is what makes the position a genuine attack hub rather than a single-path submission.\n\nFrom the defending perspective, surviving the buggy choke requires immediate recognition that the exchange has become a trap the instant the near arm is framed across the neck. The defender must extract the threatened arm before the attacker's leg clamps the shoulder, posture the head up and away, and resist the instinct to muscle deeper, which only feeds the strangle. Once the leg is over the shoulder and the legs connect, escape percentages drop sharply, and the defender must clear the entanglement or concede position to recover safe distance. Understanding both perspectives is essential for developing comprehensive attacking and defensive systems that account for this position across gi and no-gi competition formats.",
   "key_principles": [
