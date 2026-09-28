@@ -116,6 +116,7 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
   "@type": "WebPage",
   "name": "Honey Hole Top",
   "description": "Master Honey Hole Top in BJJ. Advanced leg entanglement control with direct heel hook access, kneebar chains, and systematic submission progressions.",
+  "disambiguatingDescription": "Often confused with Outside Ashi-Garami \u2014 it captures the leg on the outside line and exposes the outer heel, whereas Honey Hole is an inside-line entanglement (inside sankaku) that turns the inner heel toward the attacker for the inside heel hook. Often confused with 50-50 Guard \u2014 50-50 is a symmetric mutual entanglement where both players share identical control and risk, whereas Honey Hole is strongly asymmetric and heavily favors the entangling player.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -203,6 +204,10 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]]</strong> — it captures the leg on the outside line and exposes the outer heel, whereas Honey Hole is an inside-line entanglement (inside sankaku) that turns the inner heel toward the attacker for the inside heel hook</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/50-50 Guard|50-50 Guard]]</strong> — 50-50 is a symmetric mutual entanglement where both players share identical control and risk, whereas Honey Hole is strongly asymmetric and heavily favors the entangling player</p>
+</aside>
 <section id="overview" class="content-section">
 
 Honey Hole Position Top, also known as Inside Sankaku or 411 position, is an advanced leg entanglement where the top player traps one of opponent's legs between their own legs while facing their opponent. This position is highly offensive, providing direct access to heel hooks, kneebars, and toe holds while limiting opponent's escape options. The position creates a powerful control system through hip pressure and leg configuration, making it one of the most dangerous positions in modern no-gi BJJ.
