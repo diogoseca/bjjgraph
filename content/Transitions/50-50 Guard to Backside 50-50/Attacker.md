@@ -322,9 +322,11 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/Backside 50-50]] | 60% |
-| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
-| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Backside 50-50]] | 45% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 28% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 12% |
+| Counter | [[Positions/Ashi Garami/Backside 50-50]] | 10% |
+| Failure | [[Positions/Open Guard]] | 5% |
 
 
 </section>

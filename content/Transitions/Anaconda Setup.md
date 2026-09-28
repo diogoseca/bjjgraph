@@ -160,9 +160,11 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Anaconda Control]] | 65% |
+| Success | [[Positions/Anaconda Control]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 20% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 12% |
+| Failure | [[Positions/Turtle]] | 8% |
+| Counter | [[Positions/Open Guard]] | 5% |
 
 
 </section>
