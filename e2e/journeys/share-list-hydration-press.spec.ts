@@ -198,3 +198,35 @@ for (const kind of ["systems", "concepts"] as const) {
     }
   });
 }
+
+// THE SECOND WAY A LATE PAYLOAD ATE THE +, and the one CI actually hit (v1.198.3). With the press
+// guard in, share-lists.spec.ts's 390px + still went red in CI: "Loading aliases…" was Explore's
+// FIRST child, one line above Your lists, and the alias index landing ~100ms after the tab opened
+// deleted it and lifted the whole tree ~30px. `clickByMouse` measured the + before and pressed after,
+// 30px below it (reproduced 1 in 8-12 at 4x CPU throttle; 16 of 16 green once the line moved to the
+// tree's foot). A layout shift moves a thumb's target too, so this holds the genuine aliases.json
+// and asserts the + does not move when it lands. MUTANT: the v1.198.3 bundle with the note left on
+// top → RED at the premise (the line at y=176, above the + at y=208). The unmoved-box assertion
+// behind it was not separately mutated.
+test("390px: the alias index landing does not move the New list +", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  const j = journey(page);
+  await j.boot("/", { payloads: { "aliases.json": { never: true } } });
+  await j.land("Mount Top");
+  await page.locator(".ng-logo").click();
+  await expect(page.locator(".ng-drill")).toBeVisible();
+  await page.locator('.ng-learning-nav [data-view="explore"]').click();
+  const note = page.locator('.ng-learning-list [data-alias-status="loading"]');
+  await expect(note, "the alias index is genuinely still in flight").toHaveCount(1);
+  expect(j.payloadTimeline().filter((row) => row.pattern === "aliases.json").length,
+    "the genuine aliases.json request is the one being held").toBe(1);
+  const before = await j.boxOf("[data-lists-new]", "the New list +");
+  const line = await j.boxOf('.ng-learning-list [data-alias-status="loading"]', "the loading line");
+  expect(line.y, "the loading line sits under the tree, not above Your lists").toBeGreaterThan(before.y);
+  j.releasePayload("aliases.json");
+  await expect.poll(() => page.evaluate(() => !!(window as any).__neural._aliasesReady)).toBe(true);
+  await expect(note, "the index landed and the line is gone").toHaveCount(0);
+  const after = await j.boxOf("[data-lists-new]", "the New list +");
+  expect({ x: after.x, y: after.y }, "the + stays where the eye found it").toEqual({ x: before.x, y: before.y });
+  j.releasePayload();
+});

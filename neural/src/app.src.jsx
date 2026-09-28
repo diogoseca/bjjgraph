@@ -7675,6 +7675,17 @@ class Component extends DCLogic {
     renderConcepts("Principle", "Principles");
     for (const pair of data.order) renderGraphGroup(pair);
     renderConcepts("Learning", "Learning");
+    // THE ALIAS LINE GOES UNDER THE TREE, NEVER OVER IT (v1.198.3). `_aliasStatus` ran before the
+    // tree existed, so "Loading aliases…" was the list's FIRST child — one ~30px line above Your
+    // lists — and the alias index landing ~100ms after Explore opened deleted it, lifting every
+    // control in the pane by that line. A press aimed at the `+` came down 30px below it: measured
+    // on the 390px drawer at 4x CPU throttle (the + drawn at y=230, the index lands, the + at y=200,
+    // the press at 230 hits the divider), which is the CI shard 4/4 red that survived the press
+    // guard above — and it moves a thumb's target exactly as it moves a mouse's. Browse gains only
+    // quiet "aka" lines from the index, so its status (and the failure Retry) belongs at the foot;
+    // a search keeps it on top, where its results are what is loading.
+    const aliasNote = list.querySelector(":scope > [data-alias-status]");
+    if (aliasNote) list.appendChild(aliasNote);
   }
   // ---------- focus set: the node selection the graph lights up ----------
   // General by design: a System lights its member techniques today, a shareable List will light

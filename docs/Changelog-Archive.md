@@ -8203,13 +8203,14 @@ Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls tha
 ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
 tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
 
-## v1.198.2 — A LATE PAYLOAD NO LONGER EATS A MOUSE CLICK
+## v1.198.2–3 — A LATE PAYLOAD NO LONGER EATS A CLICK
 
 PR #217's three red shards. **4/4** (`Your lists(0)+` at 390px) was an app defect: systems.json,
 concepts.json and the alias index each rebuild Explore when they land; a rebuild between mouse
 down and up leaves no common target, so no click fires. Measured with the payload held and
 landed mid-press: touch survived, mouse lost the list. `_afterPress` holds those repaints until
-release + one task. **1/4**: the countdown journey's start was unrigged, and from Front Headlock
+release + one task. CI still went red: "Loading aliases…" sat above Your lists and its removal
+lifted the + 30px between measure and press. It now renders at the tree's foot. **1/4**: the countdown journey's start was unrigged, and from Front Headlock
 its ruleset-blind picker chose masked Guillotine Control; start pinned, picker filtered. **3/4**:
 Playwright's PR-event git diff capture ran `git fetch <base> --depth=1` in the repo, shallowing
 it under the publication oracle; `captureGitInfo.diff` is off.
