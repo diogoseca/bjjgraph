@@ -32,6 +32,14 @@ test("@curated publication provenance survives clones and worktrees in the real 
 test("@curated served publication metadata matches authored or followed Git evidence", async ({
   request,
 }) => {
+  // THE ORACLE NEEDS THE WHOLE HISTORY (v1.198.2). On a shallow repository `--follow` stops at the
+  // boundary and "expects" the boundary's date, so the failure read as the BUILD being wrong. That
+  // is what PR #217 shard 3/4 showed until Playwright's own PR-event base fetch was switched off
+  // (`captureGitInfo` in e2e/playwright.config.ts). Name the precondition before comparing dates.
+  expect(
+    execFileSync("git", ["rev-parse", "--is-shallow-repository"], { cwd: ROOT, encoding: "utf8" }).trim(),
+    "the --follow oracle runs on complete history (shallow here = a depth-limited fetch after checkout; see captureGitInfo in e2e/playwright.config.ts)",
+  ).toBe("false");
   const pages = [
     ["Positions/Mount/Top", "Positions/Mount/Top"],
     ["Principles", "Principles"],

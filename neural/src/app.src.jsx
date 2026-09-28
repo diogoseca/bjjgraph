@@ -965,6 +965,35 @@ class Component extends DCLogic {
           wAcc = 0;
         }
       }, { passive: true });
+      // A PAYLOAD MUST NOT REBUILD THE BUTTON UNDER A MOUSE PRESS (v1.198.2). systems.json,
+      // concepts.json and the alias index land whenever the network delivers them, and each one
+      // rebuilds the whole Explore body — every control in it is destroyed and made again. A mouse
+      // click is dispatched only when pointerdown and pointerup share a target, so a rebuild landing
+      // between the two destroys the pressed button and NO click is dispatched at all: the press
+      // simply vanishes. Measured on the 390px "+ on Your lists" (CI shard 4/4 red, received
+      // `Your lists(0)+`) and reproduced with the genuine payloads held and one landed mid-press
+      // (e2e/journeys/share-list-hydration-press.spec.ts). A TOUCH tap is immune — Chromium
+      // re-hit-tests the tap at release and clicks the rebuilt button (measured, same payload, same
+      // press) — so it is the mouse, pen and trackpad user who lost it, at any width, on any
+      // Explore control. So a press that begins in the pane holds every payload repaint
+      // (`_afterPress`) until the pointer is released, and the repaint runs one task later — after
+      // the click that press produced has reached the button it was aimed at. The two orders are
+      // the whole fix: a mouse's click is dispatched in the same task as its pointerup, so
+      // `setTimeout(0)` cannot overtake it. A lost pointerup (a release outside a window that kept
+      // no capture) only defers the repaint to the next release anywhere; nothing is dropped.
+      drill.addEventListener("pointerdown", () => { this._panePress = true; }, true);
+      const release = () => {
+        if (!this._panePress) return;
+        this._panePress = false;
+        setTimeout(() => {
+          if (this._panePress) return; // a new press already began; it releases the owed work
+          const owed = this._paneOwed || [];
+          this._paneOwed = null;
+          for (const job of owed) job();
+        }, 0);
+      };
+      window.addEventListener("pointerup", release, true);
+      window.addEventListener("pointercancel", release, true);
     }
     this.mastered = new Set();
     this.prep = {};
@@ -3138,7 +3167,7 @@ class Component extends DCLogic {
     })().then((ok) => {
       const readers = [...(this._aliasReaders || new Map()).values()];
       if (this._aliasReaders) this._aliasReaders.clear();
-      for (const refresh of readers) refresh();
+      for (const refresh of readers) this._afterPress(refresh); // each re-asks whether it still shows
       return ok;
     });
     return this._aliasesWait;
@@ -3215,7 +3244,15 @@ class Component extends DCLogic {
       this._conceptsById[c.id] = c;
     }
     // Hydrate Explore's concept list without rebuilding an open System and destroying its player.
-    if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody();
+    this._afterPress(() => { if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody(); });
+  }
+  // THE ONE SEAM A LATE PAYLOAD REPAINTS THROUGH (v1.198.2): now, or — while a press that began in
+  // the pane is still down — after it is released and its click delivered (the press guard in the
+  // pane setup says why). Each job re-asks its own condition when it runs, because the click it
+  // waited for may have closed the pane, changed tab or opened a System in the meantime.
+  _afterPress(job) {
+    if (this._panePress) (this._paneOwed || (this._paneOwed = [])).push(job);
+    else job();
   }
   // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
   // is the same shape one payload over — a concept lights the techniques its author linked).
@@ -7671,7 +7708,7 @@ class Component extends DCLogic {
     this.systems = this.systems.slice().sort((a, b) => String(a.name || "").localeCompare(String(b.name || "")));
     this._systemsById = {};
     for (const s of this.systems) if (s && s.id) this._systemsById[s.id] = s;
-    if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is already up
+    this._afterPress(() => { if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); }); // payload can land after the pane is already up
   }
   // member graph nodes, resolved once per system against the ingested id index
   systemNodeIdxs(s) {

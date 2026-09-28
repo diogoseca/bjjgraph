@@ -128,6 +128,22 @@ test("BOTH opponent branches use the same verb — a submission attempt is not y
 test("@curated a Decide countdown does not survive staging another node", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
+  // THE START IS RIGGED (v1.198.2, §6.3). Left to `rng("start-pos")` this journey opened somewhere
+  // new every run and so clicked a different node every run. From Front Headlock its old picker —
+  // "any position inside the box", ruleset-blind — chose Guillotine Control, which the no-gi mask
+  // removes from the hit test: the click staged nothing, the countdown stood, and CI shard 1/4
+  // went red on a correct build (it passed on the previous commit, whose draw opened elsewhere).
+  // Front Headlock stays the start BECAUSE it is the case that picker got wrong. Measured over
+  // every position as a start: the picker below finds an exposed alternative from 126 of 133;
+  // the 7 it cannot are submission holds (Guillotine/Darce/Aoki/Anaconda/Kneebar/Omoplata/Estima
+  // Lock Control), which is why the start is pinned rather than left to the draw.
+  await j.rig("role", [0]);
+  await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    const idx = a.nodes.findIndex((n: any) => n.id === "Positions/Front-Headlock");
+    if (idx < 0) throw new Error("position not found: Positions/Front-Headlock");
+    a.rigStart(idx);
+  });
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
@@ -143,20 +159,50 @@ test("@curated a Decide countdown does not survive staging another node", async 
   );
   expect(shown, "and visible").toBe("1");
 
-  // click a node we are NOT standing on — the owner's gesture
+  // Select a real, exposed alternative POSITION, not merely a projected point.
+  // The live pointerup hit test uses all ruleset-visible node types, so reject
+  // coincident/nearby competitors and DOM overlays before performing the gesture.
   const target = await page.evaluate(() => {
     const a: any = (window as any).__neural;
+    const rect = a.canvas.getBoundingClientRect();
     const scale = a.W / a.cam.vw;
+    const visible = a._rulesetMask();
     for (const n of a.nodes) {
-      if (n.idx === a.focusIdx || n.ty !== "positions") continue;
-      const sx = (n.x - a.cam.cx) * scale + a.W / 2;
-      const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2;
-      if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340) return { sx, sy };
+      if (n.idx === a.currentPos || n.idx === a.focusIdx || n.ty !== "positions"
+        || !visible[n.idx] || !a.rsAllowsIdx(n.idx)) continue;
+      const x = (n.x - a.cam.cx) * scale + a.W / 2;
+      const y = (a._LY(n) - a.cam.cy) * scale + a.H / 2;
+      if (!(x > 120 && x < a.W - 320 && y > 90 && y < a.H - 340)) continue;
+      const sx = rect.left + x, sy = rect.top + y;
+      if (document.elementFromPoint(sx, sy) !== a.canvas) continue;
+      // Avoid float-rounded ties and the pointermove-only seat-star affordance.
+      if (a.nodes.some((m: any) => m.idx !== n.idx && visible[m.idx]
+        && Math.hypot(m.x - n.x, a._LY(m) - a._LY(n)) * scale < 2)) continue;
+      if ((a._seatStarAnchors || []).some((p: any) =>
+        x >= p.roleX - 36 && x <= p.x + 22 && Math.abs(y - p.y) <= 22)) continue;
+      return { idx:n.idx, id:n.id, from:a.currentPos, sx, sy };
     }
     return null;
   });
-  expect(target, "there is another node to click").not.toBeNull();
+  expect(target, "an exposed alternative playable position exists").not.toBeNull();
+  await page.mouse.move(target!.sx, target!.sy);
+  const premise = await page.evaluate((t) => {
+    const a: any = (window as any).__neural;
+    return { hit:a._hover?.idx, from:a.currentPos,
+      exposed:document.elementFromPoint(t.sx,t.sy) === a.canvas,
+      hot:a._evCountdown === a._decision && a._evCountdown != null,
+      kicker:a.evKickerRef.current?.textContent, opacity:a.evRef.current?.style.opacity };
+  }, target!);
+  expect(premise, "the real pointer reaches the alternative node while the old countdown is live")
+    .toEqual({ hit:target!.idx, from:target!.from, exposed:true,
+      hot:true, kicker:"Answer", opacity:"1" });
   await page.mouse.click(target!.sx, target!.sy);
+  const staged = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    return { current:a.currentPos, focus:a.focusIdx, staged:a._staged, paused:!!a.paused };
+  });
+  expect(staged, "the real click admitted staging at the selected position")
+    .toEqual({ current:target!.idx, focus:target!.idx, staged:target!.idx, paused:true });
   await j.advance(1500);
 
   const after = await page.evaluate(() => {
