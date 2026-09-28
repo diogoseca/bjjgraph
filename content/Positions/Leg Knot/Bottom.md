@@ -116,6 +116,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
   "@type": "WebPage",
   "name": "Leg Knot Bottom",
   "description": "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with systematic escape routes, counter-attack options, and reversal pathways for advanced practitioners.",
+  "disambiguatingDescription": "Often confused with Saddle \u2014 Leg Knot is a contested, mutual entanglement where neither player owns the inside position, whereas Saddle is a finished controlling position with the leg trapped between the attacker\u0027s thighs. Often confused with 50-50 Guard \u2014 50-50 is symmetric, with each player\u0027s inside leg mirroring the other, while Leg Knot is an asymmetric weave whose leg configurations do not mirror.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -203,6 +204,10 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+<aside class="entity-relations">
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/Saddle|Saddle]]</strong> — Leg Knot is a contested, mutual entanglement where neither player owns the inside position, whereas Saddle is a finished controlling position with the leg trapped between the attacker&#39;s thighs</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Positions/Ashi Garami/50-50 Guard|50-50 Guard]]</strong> — 50-50 is symmetric, with each player&#39;s inside leg mirroring the other, while Leg Knot is an asymmetric weave whose leg configurations do not mirror</p>
+</aside>
 <section id="overview" class="content-section">
 
 Leg Knot Bottom Position represents a defensive leg entanglement scenario where the bottom practitioner's leg is controlled in a compromised configuration, typically with the opponent threatening leg lock submissions. This position occurs when the top player has successfully entangled the bottom player's leg but has not yet achieved a dominant attacking position like the Saddle or full Ashi Garami. The bottom player faces immediate submission threats while simultaneously having defensive frames and escape opportunities that distinguish this from more dire leg lock positions.
