@@ -450,7 +450,7 @@ test("@curated a cold option sheet gains its own dossier without replacing the d
     await held
     await route.fulfill({ json: { [target.key]: dossier } })
   })
-  await j.clickByMouse("[data-more-test-option]", "the first real technique in the hand")
+  await j.clickByMouse("[data-more-test-option] [data-choice-inspect]", "Inspect on the first real technique in the hand")
   await expect.poll(() => requests, { message: "the sheet's own dossier request is held" }).toBe(1)
   await expect(page.locator("[data-jit]")).toBeVisible()
   const before = await page.evaluate(() => {

@@ -145,7 +145,8 @@ export function shareCue({ count = 5, lit = true, broken = false } = {}) {
  * straight into `activeListId` whenever there were 0 or 1 lists — but from the second list
  * onward that id is whichever list was last touched, not a destination anyone chose, and the
  * ✓ that followed announced a filing the user never made. It is anchored chrome, not a
- * screen: the clock keeps running, and it closes on pick.
+ * screen: the clock keeps running, and it closes on pick. NO ROW IS A DEFAULT (the app retired
+ * its `data-picker-default` stamp and "default" chip, 2026-09-23): rows are in recency order.
  */
 export function listPicker({
   lists = classLists,
@@ -157,8 +158,8 @@ export function listPicker({
     <small>ADD ${escapeHtml(node.main).toUpperCase()} TO…</small>
     ${lists
       .map(
-        (list, index) =>
-          `<button type="button" role="menuitemcheckbox" aria-checked="${member.includes(list.id)}" data-list-pick="${list.id}" ${index === 0 ? 'data-picker-default="1"' : ""}><span>${escapeHtml(list.name)}</span>${member.includes(list.id) ? "<b>✓</b>" : ""}</button>`,
+        (list) =>
+          `<button type="button" role="menuitemcheckbox" aria-checked="${member.includes(list.id)}" data-list-pick="${list.id}"><span>${escapeHtml(list.name)}</span>${member.includes(list.id) ? "<b>✓</b>" : ""}</button>`,
       )
       .join("")}
     ${

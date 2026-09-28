@@ -436,7 +436,7 @@ test("a card picked from the foot of the read closes the column and opens its sh
     return c ? c.getAttribute("data-tech") : null
   })
   expect(tech, "premise: a dealt card to pick up").toBeTruthy()
-  await j.clickByMouse(`[data-tech="${tech}"]`, "the first dealt card, at the foot of the read")
+  await j.clickByMouse(`[data-tech="${tech}"] [data-choice-inspect]`, "Inspect at the foot of the read")
   await expect(page.locator("[data-go]"), "its sheet opens").toBeVisible()
   const after = await column(page)
   expect(after.open, "the read closed first").toBe(false)

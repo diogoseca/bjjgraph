@@ -303,7 +303,7 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   await expect(page.locator(".ng-gi-toggle"), "no pill on Explore").toHaveCount(0)
 
   await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
-  await j.clickByMouse(".t-rl", "the Rolling tab")
+  await j.clickByMouse('[data-settings-tab="rolling"]', "the Rolling tab")
   const gi = page.locator("[data-settings-gi]")
   await expect(gi, "the one home: Settings → Rolling").toBeVisible()
   // placement only — the same behavior seam still flips the whole app's frame

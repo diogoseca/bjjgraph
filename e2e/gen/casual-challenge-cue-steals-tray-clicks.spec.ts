@@ -83,7 +83,7 @@ test("tutorial challenge cue never captures clicks aimed at live option cards", 
   // two behaviours a real mouse does not have. `clickByMouse` refuses to scroll, refuses an
   // off-screen centre, and fails naming whatever `document.elementFromPoint` really has under the
   // cursor (an intercepting ANCESTOR included), which is exactly this bug's shape.
-  await j.clickByMouse(`[data-tech="${titles[0]}"]`, "the leftmost option card")
+  await j.clickByMouse(`[data-tech="${titles[0]}"] [data-choice-inspect]`, "Inspect on the leftmost option card")
   await expect(page.locator("[data-go]").first(), "expand sheet opened for the clicked move").toBeVisible()
   await expect(page.locator(".ng-explorer"), "no teleport into the Challenges explorer").not.toBeVisible()
 })

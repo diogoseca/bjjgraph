@@ -161,6 +161,10 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
   ).toBe(false);
 
   await j.clickByMouse("[data-land-more]", "the independent More control");
+  await expect(
+    page.locator("[data-land-more-body]"),
+    "the deferred reading surface paints its fuller rows",
+  ).toContainText("Seeded principle");
   const opened = await page.evaluate(() => {
     const a = (window as any).__neural;
     const card = a._landEl as HTMLElement;

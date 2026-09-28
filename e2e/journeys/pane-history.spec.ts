@@ -185,8 +185,7 @@ test("a short roll archives both the opening position and the submission it fini
   })).toBe(sub)
   const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
   await expect(finish).toHaveCount(1)
-  await finish.click()
-  await page.locator("[data-go]").click()
+  await finish.click() // own-card click commits Finish
 
   // pump the verdict hold (6.6s) and the 0.8s hand-off that runs startRoll, which is where a
   // finished roll is filed
@@ -293,8 +292,7 @@ test("a direct submission finish archives its one-state roll", async ({ page }) 
   await j.rig("max-moves", [0.5])
   const finish = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
   await expect(finish).toHaveCount(1)
-  await finish.click()
-  await page.locator("[data-go]").click()
+  await finish.click() // own-card click commits Finish
   await j.advanceUntil("roll_archived", 20000, 500)
   const past = await page.evaluate(() => {
     const a = (window as any).__neural, p = a._pastRolls[0]

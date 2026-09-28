@@ -42,7 +42,7 @@ test("sharpness decays per landing, mastery persists", async ({ page }) => {
   }, target)
 
   const before = await j.displayedOdds(target)
-  await page.locator(`[data-tech="${target}"]`).first().click()
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
   await j.jitGrade()
 
   // one grade = +0.03 mastery (permanent) + 0.10 sharpness (fresh)
@@ -185,7 +185,7 @@ test("film-study first look: +4% once per technique, never stacking", async ({ p
   const options = await j.optionTitles()
   const target = options[0]
   const before = await j.displayedOdds(target)
-  await page.locator(`[data-tech="${target}"]`).first().click()
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
   await page.evaluate(() => {
     ;(window as any).YT = { Player: function (this: any) { this.destroy = () => {} }, PlayerState: { ENDED: 0 } }
   })

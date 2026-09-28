@@ -8,9 +8,10 @@ import { journey } from "../dsl";
  * already expanded — "showing all categories should be collapsed").
  *
  * The contract:
- *  - EVERY top-level Explore section — Systems, Principles, Positions, Transitions,
- *    Submissions, Learning — starts COLLAPSED on a fresh profile. Collapse is
- *    presentation only; nothing locks.
+ *  - EVERY top-level Explore section — Your lists, Systems, Principles, Positions,
+ *    Transitions, Submissions, Learning — starts COLLAPSED on a fresh profile. Collapse is
+ *    presentation only; nothing locks. (Your lists joined in v1.196.1; its own contract — the
+ *    session reveal an add earns — is lists-section-fold.spec.ts.)
  *  - Expanding persists per section, reload-stable, in ONE settings map
  *    (`exploreOpenSections` — the challengeOpenSections pattern).
  *  - Search must never hide a match behind a fold: a query renders FLAT ranked results
@@ -30,6 +31,7 @@ const SHOTS = resolve(__dirname, "../../tests/artifacts/chrome");
 mkdirSync(SHOTS, { recursive: true });
 
 const SECTIONS = [
+  "Your lists",
   "Systems",
   "Principles",
   "Positions",
@@ -38,7 +40,7 @@ const SECTIONS = [
   "Learning",
 ];
 
-/** THREE of these six sections are DEFERRED payloads, and the header only exists once the
+/** THREE of these seven sections are DEFERRED payloads, and the header only exists once the
  *  payload lands — Systems (systems.json) and, since v1.152.0, Principles AND Learning, which
  *  are both rendered from concepts.json (they used to be hardcoded literals that needed no
  *  fetch, which is exactly why this helper only ever named Systems). Each arrival re-renders the

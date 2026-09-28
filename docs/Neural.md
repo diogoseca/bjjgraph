@@ -82,7 +82,8 @@ vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
 **Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
 film row, the timed card and the hand each collapse from their own ghost ✕ and come back from a
 dock at bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed
-layer and nothing when all are open. The choice is a setting — `landFilm` · `landCard` ·
+layer and nothing when all are open. Its centre is the column's, not the viewport's: with the
+pane open it sits under the card, as does the replay bar (`_layoutLandHorizontal`, v1.196.1). The choice is a setting — `landFilm` · `landCard` ·
 `landHand`, mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A
 collapsed card is **not built**: no question, no clock, no miss,
 `land_q_skipped {reason:"collapsed"}` (the panic drill skips the same way, `panic_skipped`);
@@ -214,31 +215,51 @@ and the beacon, never credit), so a graded card counts once; closing the sheet h
 back (`_handBackMc`, the dossier's idiom). Gated by `e2e/journeys/jit-format.spec.ts`; the economy
 journeys grade format-agnostically through the DSL's `jitGrade()`.
 
-### The option sheet is the card you pressed (v1.136.0)
+### Executing and inspecting an option
 
-The sheet head keeps the option card's EXACT anatomy — the numbered category glyph (the tray
-digit rides along via `catGlyph`), the category word whispering at 10px/.05em, EDGE — and the
-technique's OWN name as the 27px title (`splitName().main` + the `from …` qualifier line). The
-from→to decomposition is deleted ("it should definitely not be decomposed into this made-up
-title", owner). The EDGE explainer paragraph became a `title` tooltip on the number itself
-(`cursor:help`; aria-label shrank to the NAME per the title-is-the-description convention; the
-by-the-book-opponent caveat rides inside — canon for any EDGE copy). The "on success, advances
-to" line stays gated on `titleParts` being null: `opt.res` is a deal-time first-neighbor
-heuristic, measured wrong for 188 of 323 "X to Y"-named transitions when that gate was briefly
-widened. **The sheet is PORTALLED to the root plane at z:50 (coaching band)** — it was
-`absolute z:6` inside the wrap, trapped at plane 0 under the root-plane landing card (§6.1's
-ladder trap, caught by an adversarial pass before shipping) — and **the landing card is no
-longer hidden on expand**: it stays visible BEHIND the sheet (the old opacity hide-site, §6.1's
-last leaky one, is deleted outright). Paint order is asserted with `elementFromPoint`, never
-z-index arithmetic. Pinned by `option-edge.spec.ts` + `coldstart-backfill.spec.ts`.
+Clicking an own option or pressing its plain digit (1–9) commits it once. The focusable
+**Inspect** button and **Shift+1–9** open its existing detail sheet without committing;
+shifted keys use their physical Digit code so keyboard layouts do not lose inspection.
+Enter/X still executes from that sheet. Threats and escape cards retain their preview route.
+Hidden hands, checkpoints, text entry and the visible quiz retain keyboard priority. Closing
+Inspect restores the pause state it found.
+
+After commit, the live hand is cleared and a non-actionable copy of the chosen card remains.
+It keeps the displayed odds and shows Executing, then the actual Landed, Failed or Countered
+result. Submission entry shows Entering and remains deterministic; it does not acquire a roll
+or a new interpretation of its printed odds. The existing sweep lasts **1.08 seconds** and
+uses the same probability and conditional outcome draws. Its band and needle use the drawn
+orb coordinate, and its progress pauses with its verdict timer.
+
+The execution owns the existing announcer slot and camera framing through the result. The
+camera frames the technique and then the actual destination within measured free space;
+reduced motion snaps that framing, and a deliberate pan, pinch, wheel or other camera action
+releases it. Arrival, opponent handoff, round end, restaging and teardown clear the retained
+card and announcer ownership. Replay temporarily borrows the announcer. Source behavior is
+covered by `tests/roll_execution.test.mjs`; real input and geometry cases are collected in
+`e2e/journeys/roll-execution.spec.ts` and require browser validation.
+
+### The option sheet preserves the inspected card's anatomy
+
+The sheet keeps the tray digit/category glyph, 10px category label and EDGE, with the
+technique's own 27px name and separate `from …` qualifier (`catGlyph`, `splitName`). EDGE's
+explanation is a `title` tooltip with the model-opponent caveat; the accessible name remains
+the technique name. The "on success, advances to" line appears only when `titleParts` is null:
+`opt.res` is a deal-time first-neighbor heuristic, not an authoritative destination.
+
+The sheet is portalled to the root coaching plane at z:50. The landing card stays visible
+behind it. Verify actual paint order with `elementFromPoint`; `option-edge.spec.ts` and
+`coldstart-backfill.spec.ts` pin this behavior. Historical layout failures are in the archive.
 
 ### The commit hands the camera to the roll (v1.135.1)
 
 `userActiveNow()` (4 game-seconds since `lastInteract`) is the ONE condition that suppresses the
 follow-cam — and the pick's own click wrote it, so the camera stood still while the pulse left.
-`enterAttempt` now ages the latch out and releases any focus lease: committing is the ownership
-doctrine's "asking to go somewhere else is a decision" case, and the follow-cam tracks the
-travel from its first frame. Pinned by `roll-card.spec.ts`.
+`enterAttempt` ages the latch out and releases any focus lease: committing is the ownership
+doctrine's "asking to go somewhere else is a decision" case. Execution framing then owns the
+technique and result until handoff or a deliberate camera gesture. The previous follow-cam
+regression remains covered by `roll-card.spec.ts`; the execution cases live in
+`roll-execution.spec.ts`.
 
 ### The panic drill is multiple choice (v1.135.0)
 
@@ -261,27 +282,23 @@ stack. At merge scale `richLabel` preserves the same short headline plus qualifi
 recomposes `from …` into the title. Geometry is published through `_lastPairLabel` and
 `_lastRichLabel`; the pair behavior is pinned by `dual-pair.spec.ts` and `graph-naming.spec.ts`.
 
-### The turn-based shell (v1.134.0)
+### The turn-based shell
 
-**The transport is retired.** With the hesitation branch gone nothing ever advances without a
-commit, so play/pause/restart controlled nothing — the buttons are deleted, Space no longer
-toggles anything (the Shortcuts tab row went with it), the Last-rolls CURRENT row lost its
-pause/resume toggle (archived rows keep "roll from here"; the live row carries no button), and
-`setPaused` survives only as internal MOTION state (staging pauses,
-committing unpauses; the pane law still freezes travel). **The background ladder** (owner):
-click empty sky once — the card closes (question declined, free) and the hand stays; click again
-— **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
-centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
-roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
-✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
-accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
-`_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
-PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
-to the pair label that already names it. **The escaping orb rushes on click**: arriving on (or
-clicking) the defending side enters the defense immediately — vignette, drill clock, escape
-hand — with the stale landing card declined and cleared first. The Win–Lose meter reads
-**Win (blue) left · Lose (red) right** (the writer mirrors `adv.cur`; the model is untouched),
-and the option-card category tracking dropped to .05em so SUBMISSION never truncates.
+A move needs an explicit commit. There is no transport or Space-to-pause control; live history
+rows have no pause button. `setPaused` controls internal motion: staging pauses, committing
+unpauses, and an open pane freezes travel.
+
+Click empty sky once to decline the card freely while retaining the hand; click again to
+archive a played roll, clear the tray and enter free roam centred on the current position
+(`_enterRoam`, `roam_entered`). A node click stages fresh. This gesture affects only the current
+landing (`clearLandCard`); the layer ✕ handles persist preferences through `setLayer`.
+
+A staged technique's own option gets the action accent and commit verb ("Finish it" for a
+submission, "Execute" otherwise), with its deal position preserved (`_highlightStagedCard`).
+Commit executes in place with pulse path `[tech, tech]`; the pair label names the action.
+Arriving on or clicking the defending orb immediately enters defense: clear the stale landing
+card, then show the vignette, drill clock and escape hand. The meter reads Win (blue) left and
+Lose (red) right, mirroring `adv.cur`; category tracking is .05em so SUBMISSION fits.
 
 ### The hand
 
@@ -584,7 +601,11 @@ has an explicit end.
 
 **Explore** — sections start collapsed and persist their folds. Search ranks results before sections;
 filter to `rep` to avoid duplicates. Lists sit first and use the
-shared three-rung indent. Systems have counted topic branches and indented leaves, like position
+shared three-rung indent. Your lists folds like the other six (v1.196.1, key `Your lists` in
+`exploreOpenSections`; an absent key is closed, so existing users need no migration). The one
+difference is `_revealLists`: making, adding to or restoring a list, or a saved class lit by a
+share arrival or the cue, opens the section for the session without writing the map — the older
+rule that you SEE a technique land after adding it. Systems have counted topic branches and indented leaves, like position
 families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
 section folds for the session.
 
@@ -638,8 +659,20 @@ registry with the rows it indexes and re-opens the deck that was open, on the ca
 `_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
 rather than a dead one.
 
+**Every ▶ asks, and the seat is the player's** (v1.197.0, owner: "it says we start on top, but what
+if i wanted to start on bottom?"). `confirmPlayFrom` — behind an Explore or list row's ▶, the option
+sheet's "Play from here" and a Last-rolls ▶ — offers both seats with the derived one preselected,
+so an untouched Start plays what it always did: Attacker / Defender for a technique (Defender is the
+other side of the same origin position, and the sheet says so), Top / Bottom for a position. The
+title names only the place ("Roll from Half Guard?"); the seat is the "Play as" control plus the
+body's side word. Start passes an explicit role and `_seatMember` seats you on the orb that plays
+it, so the URL (`…/Bottom`) re-seats you on reload. Esc closes the sheet alone, and keys pressed
+inside it stay there (⏎ used to reach the option sheet below and commit its move). A graph tap
+needs no sheet: the pair's two orbs are the seat choice.
+
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
-the side it was played, clock held) and ⟲ (replay). History is in memory and has never persisted.
+the side it was played unless you pick the other, clock held) and ⟲ (replay). History is in memory
+and has never persisted.
 
 **Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
 `_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,
@@ -648,9 +681,7 @@ refreshes the tab through `_refreshHistoryRows()`. A roll counts if it ran (`_pl
 visited two states, reached a verdict, or had a move committed in it (`_rollActed`): so the
 one-exchange roll — you finish from the state you opened in, or get caught there — is kept and
 titled by its FINISH via `replayEnds`, while a board that was only staged and abandoned still
-files nothing. Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
-ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
-tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
+files nothing. The archive records the earlier missing-history and stale-tab defects.
 
 **A replay is a film of a roll you already rolled.** It credits nothing — `_replayBeat()` pushes to
 the beat stream and stops, deliberately not through `fx()`, which is the challenge-evidence seam.
@@ -779,6 +810,14 @@ sets a 24px row's layout box. Flex `gap` measures between **margin** boxes, so c
 account for negative margins. `title` is not an accessible name — use `aria-label`. Hover, active
 and focus-visible states belong in CSS, never JS hover painting, which cannot express
 `:focus-visible`.
+
+**A row of tabs never decides its panel's width** (v1.196.1). Settings' tabs are one declared list
+(`NG_SETTINGS_TABS`), rendered as a real tablist by `_settingsTabRow`. ←/→ wrap and Home/End jump,
+each selecting on arrival, and none of these keys reaches `_onKey`. Opening Settings focuses the
+active tab, and Esc still closes it. The row is the More fold's single scrolling row: all five tabs
+fit the 440px card, and a phone scrolls, centring the active tab. An edge fade (`data-fade`) dims
+a side only while a tab is hidden past it. A new tab row copies this, not the pane's fixed
+three-column grid, which cannot take a sixth tab.
 
 **Voice.** Never the words *lambda*, *EV*, *MDP*, *utility* or *optimization* on a player-facing
 surface — the axis a white belt has is sport ↔ self-defence. Never render a technique's short name

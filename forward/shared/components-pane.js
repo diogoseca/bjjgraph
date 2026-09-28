@@ -295,7 +295,7 @@ function paneFoot({
             <div class="ng-anchor-alt" data-anchor-alt><span>Already have one?</span> <button type="button" data-anchor-login>Log in</button></div>
           </div>`
     }
-    <div class="pane-feedback"><span data-feedback="technique">Request a technique</span><i></i><span data-feedback="issue">Report an issue</span><i></i><span data-gh-chip>${icon("book", 11)} GitHub</span></div>
+    <div class="pane-feedback"><span data-feedback="technique">Request a technique</span><i></i><span data-feedback="issue">Help improve it</span><i></i><span data-gh-chip>${icon("book", 11)} GitHub</span></div>
     <div class="pane-legal">${icon("gear", 13)}<i></i><span>Terms</span><i></i><span>Privacy</span></div>
   </div>`;
 }
