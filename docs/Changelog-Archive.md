@@ -8231,3 +8231,25 @@ A submission now always loses a belt test; only a no-tap ending is judged on poi
 The no-tap banner reads "No submission / Roll complete". Edge lighting joins moves
 by `target`, so Kneebar and Aoki Lock light their submissions. The wire differs from
 dev in those 3 `ew` entries only. 3 of 3 mutants killed.
+
+## v1.205.0 — MICROING LANDS: ONE PAGE, ONE HUB ROW, ONE GRAPH RECORD
+
+The owner-accepted Principle (2026-09-25), landed without rewriting it; its page regenerates
+byte-identical to the Codex render. **Held back on purpose:** a full hub regenerate also rewrites
+62 description lines (the generated-md-drift report's Cause 3) and `regenerate_graph.py` adds ~70
+System product `image` fields, so both files take only Microing's hunk (hub: 688 vs 688 lines, 62
+differing, all prose; graph.json: `principles.microing` and `principleCount` 62→63). The custody
+commit's `models.env` default-model change is dropped (owner's call).
+
+Measured on the guarded capture (accepted; the reused build checkout kept 6,409 content files'
+stamps): +1 page and nothing else. 3 of 6,212 HTML files differ from PR 220's golden: the page,
+the hub and its folder twin (+2 links each). A fresh worktree also reorders four tag pages (a
+D-253 tie: two Learning pages share one git date); non-failing, and absent from the capture.
+This change moves `neural.js` only by its baked version string. The eager set is byte-identical to a dev
+emit (Microing reaches only deferred `concepts.json` and one on-demand chunk), so first-hand cannot
+move. Arriving on `/Principles/Microing` seats, stages and deals nothing; clicking a technique it
+lists starts the roll. The SEO and census re-seeds come from a guarded capture whose receipt names
+this commit, so it must stay reachable from dev (merge, do not squash).
+
+**Open, for the owner:** Microing is the only Principle of 63 with no Principle-typed
+`related_content`, so its app pane has no "Related concepts" (the static page lists all 13).
