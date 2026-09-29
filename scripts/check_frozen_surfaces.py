@@ -2,7 +2,7 @@
 """Byte-freeze the Quartz replacement's frozen surfaces. ONE GATE, TWO SCOPES.
 
     scope `pipeline`  plugins/transformers/** + plugins/filters/**   (D-27, stream A)
-    scope `keeplist`  INTERFACE.md section 7's retained-file inventory (D-01, contributed by D)
+    scope `keeplist`  the D-01 retained-file inventory, tests/artifacts/keeplist.txt (contributed by D)
 
 Both scopes exist because two different decisions froze two DISJOINT sets for the same reason, and
 two scripts doing one job is the `readers.css` / `reading.css` shape this programme has already
@@ -38,11 +38,17 @@ enumerates that set, and a hand-maintained enumeration can fail in TWO ways, so 
      missing by default. Checked by set-comparing the enumeration against `git ls-files` for the
      directory the contract covers exhaustively.
   2. THE LIST IS COMPLETE BUT NO LONGER TRUE — a file drifted and "byte-for-byte unchanged"
-     quietly stopped holding. Checked with `git show <base>:<path>`.
+     quietly stopped holding. Checked against each file's RECORDED sha in the baseline: its bytes
+     at the base, or the bytes an --accept pinned.
 
-The keep-list is PARSED out of the contract rather than copied into this file, deliberately: if
-section 7's heading or fence moves, this gate fails loudly instead of silently checking a stale
-copy. That is the right failure (mgr-cl-3's call, kept).
+BOTH INPUTS ARE TRACKED (v1.205.2), so this scope runs in ci-validate. The inventory used to be
+parsed out of the programme's INTERFACE.md section 7, which lives outside the repository. The base
+bytes used to come from `git show f649801a9:<path>`, which is beyond CI's fetch depth. So CI could
+only assert this scope's REFUSAL, and PR #228's first head went green in CI while breaking every
+seat's local test:units. The inventory is now tests/artifacts/keeplist.txt, never copied into this
+file, because a copy here would check itself. Each file's expected sha is recorded in the baseline
+(scope "keeplist"), seeded once from the base by --seed-keeplist. The gate compares bytes to those
+records and never needs history.
 
 HOW IT MOVES. Never automatically, and never by itself — the same rule as `payload_policy.json`'s
 bands and `check_payload_budget.py`'s tier-0 floors, and for the same reason: a self-advancing
@@ -115,7 +121,9 @@ WATCHED_GLOBS = (
 )
 
 # ── keeplist scope ─────────────────────────────────────────────────────────────────────────────
-INTERFACE = Path("/home/user/bjj-orchestrator/quartz/INTERFACE.md")
+# THE INVENTORY IS TRACKED (v1.205.2). It used to be parsed out of the programme's INTERFACE.md,
+# which lives OUTSIDE the repository, so the keep-list half of this gate could not run in CI.
+KEEPLIST = REPO / "tests" / "artifacts" / "keeplist.txt"
 BASE_REF = "f649801a9"          # the programme's base commit; D-01 freezes against it
 BASE_REF_FULL = "f649801a9d3b7acdb21dc3c67968294fa38e9fcf"
 QZ_PREFIX = "source/quartz/"
@@ -288,35 +296,35 @@ def accept(target: str, reason: str) -> int:
 def accept_keeplist(target: str, reason: str) -> int:
     """Accept a keep-list delta. The recorded sha PINS THE EXACT BYTES accepted, so a LATER change
     to the same file is a new, unaccepted drift rather than being tolerated forever by one prior
-    approval. Without that, `--accept` would silently convert a frozen file into an unfrozen one."""
+    approval. Without that, `--accept` would silently convert a frozen file into an unfrozen one.
+
+    "from" is the file's RECORDED sha (v1.205.2). With no record, it is the base's sha where history
+    is available, or "(new)" for a file that postdates the base: list it in keeplist.txt first.
+    Before v1.205.2 a new keep-list file could not be accepted at all (PR #228's first head)."""
     disk = REPO / target
     if not disk.exists():
         print(f"FAIL: {target} is not in the working tree", file=sys.stderr)
         return 2
-    base = subprocess.run(["git", "show", f"{BASE_REF}:{target}"], capture_output=True, cwd=REPO)
-    if base.returncode != 0:
-        print(f"FAIL: {target} is not in {BASE_REF}, so there is no baseline to move from",
-              file=sys.stderr)
-        return 2
-    new = sha256(disk)
-    if disk.read_bytes() == base.stdout:
-        print(f"nothing to accept: {target} is byte-identical to {BASE_REF}")
-        return 0
-
     data = load_baseline()
     if not data:
         print("FAIL: no baseline to move; run --seed first", file=sys.stderr)
         return 2
+    new = sha256(disk)
     entry = data["files"].get(target, {})
     if entry.get("sha256") == new:
         print(f"nothing to accept: {target}'s current bytes are already recorded")
         return 0
+    if entry:
+        frm = entry["sha256"]
+    else:
+        base = base_bytes(target)
+        frm = hashlib.sha256(base).hexdigest() if base is not None else "(new)"
     history = entry.get("accepted", [])
     history.append(
         {
             "date": _dt.date.today().isoformat(),
             "scope": "keeplist",
-            "from": hashlib.sha256(base.stdout).hexdigest(),
+            "from": frm,
             "to": new,
             "reason": reason.strip(),
         }
@@ -328,7 +336,7 @@ def accept_keeplist(target: str, reason: str) -> int:
         "accepted": history,
     }
     write_baseline(data)
-    print(f"accepted (keep-list) {target}\n  differs from {BASE_REF}, now recorded at {new[:12]}"
+    print(f"accepted (keep-list) {target}\n  {frm[:12]} -> {new[:12]}"
           f"\n  reason: {reason.strip()}")
     return 0
 
@@ -391,21 +399,65 @@ def check() -> int:
 
 
 def parse_keeplist() -> list[str]:
-    """Pull the retained-file inventory out of the contract. Never copy it into this file: a stale
-    copy would check itself. If the heading or fence moves, this raises rather than returning []."""
-    if not INTERFACE.exists():
-        raise FileNotFoundError(f"no interface contract at {INTERFACE}")
-    txt = INTERFACE.read_text(encoding="utf8")
-    m = re.search(r"Exact retained-file inventory.*?```text\n(.*?)```", txt, re.S)
-    if not m:
-        raise ValueError(
-            "could not find the keep-list block in the contract — the heading or fence moved"
-        )
-    listed = [ln.strip() for ln in m.group(1).splitlines() if ln.strip()]
+    """The retained-file inventory, from the TRACKED list (tests/artifacts/keeplist.txt): one
+    source/quartz-relative path per line, `#` comments allowed. Never copied into this file, because
+    a copy here would check itself. Missing, empty or duplicated entries raise rather than return."""
+    if not KEEPLIST.exists():
+        raise FileNotFoundError(f"no keep-list inventory at {KEEPLIST.relative_to(REPO)}")
+    listed = [ln.strip() for ln in KEEPLIST.read_text(encoding="utf8").splitlines()
+              if ln.strip() and not ln.lstrip().startswith("#")]
     if not listed:
         # A matcher that matches nothing reports clean (CLAUDE.md §6.6). Refuse instead.
-        raise ValueError("the keep-list block parsed to ZERO entries")
+        raise ValueError("the keep-list inventory parsed to ZERO entries")
+    dupes = sorted({x for x in listed if listed.count(x) > 1})
+    if dupes:
+        raise ValueError(f"the keep-list inventory lists {dupes} more than once")
     return listed
+
+
+def base_bytes(full: str) -> bytes | None:
+    """The file's bytes at the programme base, or None where history is unavailable (a shallow CI
+    checkout) or the file postdates the base. Used ONLY by local, one-off operations (--seed-keeplist,
+    --accept); the gate itself compares against RECORDED shas and never needs history."""
+    r = subprocess.run(["git", "show", f"{BASE_REF}:{full}"], capture_output=True, cwd=REPO)
+    return r.stdout if r.returncode == 0 else None
+
+
+def seed_keeplist() -> int:
+    """ONE-TIME MIGRATION (v1.205.2): record the base sha of every listed keep-list file that has no
+    record yet, so the gate can compare against the baseline instead of `git show <base>`. It needs
+    history, so run it locally. It REFUSES to record a file whose bytes already differ from the base
+    without an acceptance: that would launder drift into the baseline."""
+    data = load_baseline()
+    if not data:
+        print("FAIL: no baseline; run --seed first", file=sys.stderr)
+        return 2
+    try:
+        listed = parse_keeplist()
+    except (FileNotFoundError, ValueError) as exc:
+        print(f"FAIL: {exc}", file=sys.stderr)
+        return 2
+    added, kept, refused = 0, 0, []
+    for rel in listed:
+        full = QZ_PREFIX + rel
+        if scope_of(data["files"].get(full, {"scope": "pipeline"})) == "keeplist":
+            kept += 1
+            continue
+        base = base_bytes(full)
+        disk = REPO / full
+        if base is None or not disk.exists() or disk.read_bytes() != base:
+            refused.append(full)
+            continue
+        data["files"][full] = {"sha256": hashlib.sha256(base).hexdigest(), "bytes": len(base),
+                               "scope": "keeplist"}
+        added += 1
+    if refused:
+        print(f"FAIL: {len(refused)} listed file(s) cannot be recorded as base bytes (no base, absent, "
+              f"or drifted without an acceptance): {refused}", file=sys.stderr)
+        return 1
+    write_baseline(data)
+    print(f"keep-list records: {added} base sha(s) added, {kept} already recorded, {len(listed)} listed")
+    return 0
 
 
 def verify_provenance(data: dict) -> int | None:
@@ -434,14 +486,17 @@ def verify_provenance(data: dict) -> int | None:
     return None
 
 
-def check_keeplist(accepted: dict) -> int:
+def check_keeplist(records: dict) -> int:
+    """`records`: every scope-"keeplist" baseline entry, i.e. the expected sha of each listed file.
+    The comparison needs NEITHER the programme's INTERFACE.md NOR git history (v1.205.2), so it runs
+    in a shallow CI checkout exactly as it runs locally."""
     try:
         listed = parse_keeplist()
     except (FileNotFoundError, ValueError) as exc:
         print(f"FAIL: {exc}", file=sys.stderr)
         return 2
 
-    # 1. COMPLETENESS, only for the directory the contract claims to cover exhaustively.
+    # 1. COMPLETENESS, only for the directory the list claims to cover exhaustively.
     listed_dir = sorted(x for x in listed if x.startswith(EXHAUSTIVE_DIR + "/"))
     tracked = subprocess.run(
         ["git", "ls-files", QZ_PREFIX + EXHAUSTIVE_DIR],
@@ -457,41 +512,38 @@ def check_keeplist(accepted: dict) -> int:
     unfrozen = [x for x in on_disk if x not in listed_dir]
     phantom = [x for x in listed_dir if x not in on_disk]
 
-    # 2. BYTE IDENTITY against the programme base.
+    # 2. BYTE IDENTITY against the RECORDED sha: the base bytes, or the bytes an --accept pinned.
     compared, drifted, accepted_drift = 0, [], []
     for rel in listed:
         full = QZ_PREFIX + rel
         disk = REPO / full
+        rec = records.get(full)
         if not disk.exists():
             drifted.append((full, "ABSENT FROM WORKING TREE"))
             continue
-        r = subprocess.run(["git", "show", f"{BASE_REF}:{full}"], capture_output=True, cwd=REPO)
-        if r.returncode != 0:
-            drifted.append((full, f"NOT IN {BASE_REF}"))
+        if rec is None:
+            drifted.append((full, "NOT RECORDED"))
             continue
         compared += 1
-        if disk.read_bytes() != r.stdout:
-            # Same moveability rule as the pipeline scope: a recorded reason downgrades a failure
-            # to a reported, accepted delta. An absolute freeze gets switched off wholesale the
-            # first time a legitimate change needs it.
-            # An acceptance pins the EXACT bytes approved. If the file has moved again since,
-            # that is a new, unapproved drift — one prior approval must never license every
-            # future edit to the same file (the self-advancing property D-27 forbids).
-            rec = accepted.get(full)
-            if rec and rec.get("sha256") == sha256(disk):
-                accepted_drift.append((full, "BYTES DIFFER"))
-            else:
-                drifted.append(
-                    (full, "BYTES DIFFER (re-drifted since acceptance)" if rec else "BYTES DIFFER")
-                )
+        if sha256(disk) != rec["sha256"]:
+            # An acceptance pins the EXACT bytes approved. If the file has moved again since, that
+            # is a new, unapproved drift: one prior approval must never license every future edit
+            # (the self-advancing property D-27 forbids).
+            drifted.append((full, "BYTES DIFFER (re-drifted since acceptance)" if rec.get("accepted")
+                            else "BYTES DIFFER"))
+        elif rec.get("accepted"):
+            accepted_drift.append((full, "ACCEPTED"))
+    # A record for a file the list no longer names would pin bytes nothing checks.
+    stale = sorted(f for f in records if f[len(QZ_PREFIX):] not in listed)
 
-    print(f"keep-list scope: {len(listed)} entries, {len(listed_dir)} under {EXHAUSTIVE_DIR}/")
+    print(f"keep-list scope: {len(listed)} entries, {len(listed_dir)} under {EXHAUSTIVE_DIR}/ "
+          f"(inventory: {KEEPLIST.relative_to(REPO)})")
     print(f"  tracked under {QZ_PREFIX}{EXHAUSTIVE_DIR}/ : {len(on_disk)}")
-    print(f"  byte-compared against {BASE_REF}      : {compared}   <- positive coverage count")
+    print(f"  byte-compared against recorded shas : {compared}   <- positive coverage count")
     if accepted_drift:
         print(f"  accepted deltas                    : {len(accepted_drift)}")
         for f, _ in accepted_drift:
-            print(f"      {f}  — {accepted[f]['accepted'][-1]['reason']}")
+            print(f"      {f}  — {records[f]['accepted'][-1]['reason']}")
 
     # A run that compared nothing proved nothing, and must not exit 0.
     if compared == 0:
@@ -499,10 +551,14 @@ def check_keeplist(accepted: dict) -> int:
         return 2
     bad = False
     for rel in unfrozen:
-        print(f"  ON DISK BUT NOT FROZEN  {rel}  (the replacement may change it; nothing would report it)", file=sys.stderr)
+        print(f"  ON DISK BUT NOT FROZEN  {rel}  (list it in tests/artifacts/keeplist.txt and --accept it)",
+              file=sys.stderr)
         bad = True
     for rel in phantom:
         print(f"  FROZEN BUT NOT TRACKED  {rel}", file=sys.stderr)
+        bad = True
+    for f in stale:
+        print(f"  RECORDED BUT NOT LISTED {f}  (remove its record, or list it again)", file=sys.stderr)
         bad = True
     for f, why in drifted:
         print(f"  {why:24} {f}", file=sys.stderr)
@@ -534,12 +590,16 @@ def main() -> int:
         default="all",
         help="which frozen surface to check (default: both)",
     )
+    ap.add_argument("--seed-keeplist", action="store_true",
+                    help="one-time: record the base sha of every listed keep-list file (needs history)")
     ap.add_argument("--accept", metavar="PATH", help="accept ONE file's current bytes")
     ap.add_argument("--reason", help="why that change is legitimate; required with --accept")
     args = ap.parse_args()
 
     if args.seed:
         return seed(args.note, args.force)
+    if args.seed_keeplist:
+        return seed_keeplist()
     if args.accept:
         if not args.reason:
             print("FAIL: --accept requires --reason", file=sys.stderr)
@@ -550,16 +610,12 @@ def main() -> int:
     bad = verify_provenance(data) if data else None
     if bad is not None:
         return bad
-    accepted = {
-        k: v
-        for k, v in data.get("files", {}).items()
-        if v.get("accepted") and scope_of(v) == "keeplist"
-    }
+    records = {k: v for k, v in data.get("files", {}).items() if scope_of(v) == "keeplist"}
     codes = []
     if args.scope in ("pipeline", "all"):
         codes.append(check())
     if args.scope in ("keeplist", "all"):
-        codes.append(check_keeplist(accepted))
+        codes.append(check_keeplist(records))
     # The worst outcome wins: 2 (unusable instrument) beats 1 (drift) beats 0.
     return max(codes) if 2 not in codes else 2
 

@@ -1,6 +1,56 @@
 {
   "base_ref": "f649801a9d3b7acdb21dc3c67968294fa38e9fcf",
   "files": {
+    "source/quartz/cfg.ts": {
+      "bytes": 2757,
+      "scope": "keeplist",
+      "sha256": "11983c2cc96b55b44690eff1f4d6f4bd86b16efe8569ca20349e61a95936af80"
+    },
+    "source/quartz/components/ArticleTitle.tsx": {
+      "bytes": 2187,
+      "scope": "keeplist",
+      "sha256": "87bd60522ba4d58c096694c00e497843b501309552ce0a49f90dee1b89ceedb7"
+    },
+    "source/quartz/components/AuthUI.tsx": {
+      "bytes": 554,
+      "scope": "keeplist",
+      "sha256": "2eaba035f71daa658c5ee3a098103950aedabc0b1b706be43bfc04bbd1344036"
+    },
+    "source/quartz/components/Body.tsx": {
+      "bytes": 470,
+      "scope": "keeplist",
+      "sha256": "9ffa8a1f5225ebee0ccc320caedfee7eef57f5f882d56c910c40768284bdfd9e"
+    },
+    "source/quartz/components/Breadcrumbs.tsx": {
+      "bytes": 4732,
+      "scope": "keeplist",
+      "sha256": "f87b504a1f38a155796df8643c4c8baa9391904ecd1f60fa51806ee54ec38492"
+    },
+    "source/quartz/components/CategoryNav.tsx": {
+      "bytes": 1700,
+      "scope": "keeplist",
+      "sha256": "810ca36954af71e831c16d3e4a0c8094f04ebb347b06383f49f3279e97c3730e"
+    },
+    "source/quartz/components/ContentMeta.tsx": {
+      "bytes": 1161,
+      "scope": "keeplist",
+      "sha256": "1bd30ce1304c9b17ad670545cd42734b5cd73b7a9f5f4f54b697076776278178"
+    },
+    "source/quartz/components/Date.tsx": {
+      "bytes": 919,
+      "scope": "keeplist",
+      "sha256": "6c73f6b47e86ec13a81bda8735081cdf693845b4f4b242aa4f9e60af540cab67"
+    },
+    "source/quartz/components/DesktopOnly.tsx": {
+      "bytes": 654,
+      "scope": "keeplist",
+      "sha256": "84b3a21906273574272ba83e998918c8bd96740b5bd8323910f08b3ca74edece"
+    },
+    "source/quartz/components/Footer.tsx": {
+      "bytes": 1495,
+      "scope": "keeplist",
+      "sha256": "59fce6eec78e504b4bda6459dc85073e66d8900e880e642eadb8dcc6f1374ed3"
+    },
     "source/quartz/components/Head.tsx": {
       "accepted": [
         {
@@ -22,6 +72,11 @@
       "scope": "keeplist",
       "sha256": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82"
     },
+    "source/quartz/components/Header.tsx": {
+      "bytes": 470,
+      "scope": "keeplist",
+      "sha256": "88844f8b79ee0f1cb081e5d39f7a4a68c5631d17c547da1cc9fde15367004fe6"
+    },
     "source/quartz/components/NeuralMount.tsx": {
       "accepted": [
         {
@@ -35,6 +90,51 @@
       "bytes": 2060,
       "scope": "keeplist",
       "sha256": "3b7b691147a37fdc0b5d81044fce7b81b2512a355bc727695595a7a6d0ba8764"
+    },
+    "source/quartz/components/PageList.tsx": {
+      "bytes": 2536,
+      "scope": "keeplist",
+      "sha256": "91ad0c0d78090ae1de5a20bacfaedd2056d73a67e6584242956ec6e13a0f68ff"
+    },
+    "source/quartz/components/Search.tsx": {
+      "bytes": 792,
+      "scope": "keeplist",
+      "sha256": "9f57cdc538505ab6d90ebc78a1a92f732111137b057a02d4cfeac7c313e36f74"
+    },
+    "source/quartz/components/SnapshotButton.tsx": {
+      "bytes": 764,
+      "scope": "keeplist",
+      "sha256": "8b73996a84a22b9c8e31bee8e0f245dc8e1b98308ff1a135df5f81ba8cf7b38e"
+    },
+    "source/quartz/components/TableOfContents.tsx": {
+      "bytes": 2008,
+      "scope": "keeplist",
+      "sha256": "0e238448845ee308aaddc5a0c9ddd110cd8f451b55d0f0d20bfe4eae9735ccb4"
+    },
+    "source/quartz/components/index.ts": {
+      "bytes": 1313,
+      "scope": "keeplist",
+      "sha256": "3649360b8a467170e0c219f4206638e2d1eed907c7da2e1aeede95ba35796090"
+    },
+    "source/quartz/components/pages/404.tsx": {
+      "bytes": 2901,
+      "scope": "keeplist",
+      "sha256": "23e6ae78e8f2905346ce6d929c28a786e1bf030165d14a1414f5c5db175e4f7f"
+    },
+    "source/quartz/components/pages/Content.tsx": {
+      "bytes": 529,
+      "scope": "keeplist",
+      "sha256": "0c54f3b6911e42e4364e27dbe6ce1c551fd88976206ea423b4c859e95368c606"
+    },
+    "source/quartz/components/pages/FolderContent.tsx": {
+      "bytes": 2366,
+      "scope": "keeplist",
+      "sha256": "b7a7174591af34f62176d8038fdd6b80deff559981ce5015ab3844b7f53a361a"
+    },
+    "source/quartz/components/pages/TagContent.tsx": {
+      "bytes": 4274,
+      "scope": "keeplist",
+      "sha256": "7fe718dc0099f072f1673b622dbce99298e5efe4514a028bcd9ed02997e69ac6"
     },
     "source/quartz/components/renderPage.tsx": {
       "accepted": [
@@ -50,6 +150,76 @@
       "scope": "keeplist",
       "sha256": "85b93291bfe9d563f198c0fb771035be32d1ee89030ac41838071dab35ccbfa7"
     },
+    "source/quartz/components/scripts/authUI.inline.ts": {
+      "bytes": 3047,
+      "scope": "keeplist",
+      "sha256": "0df8e0a770460b14adc2c52bda5da0e8af88e855047a5961900f17244015088e"
+    },
+    "source/quartz/components/scripts/callout.inline.ts": {
+      "bytes": 1440,
+      "scope": "keeplist",
+      "sha256": "12c70d32a179b0257b0456be74895589cc669d23cc513779b315b7f46322ca31"
+    },
+    "source/quartz/components/scripts/checkbox.inline.ts": {
+      "bytes": 754,
+      "scope": "keeplist",
+      "sha256": "9a4767d38a7031f43c5a6a81af767f307e3fee8d97e06a4fcdbeacdc18b4b6f0"
+    },
+    "source/quartz/components/scripts/clipboard.inline.ts": {
+      "bytes": 1979,
+      "scope": "keeplist",
+      "sha256": "93a118aa730ae4c1bdca999ba5666c55b6249b24d62bebd26f4855f1c648e776"
+    },
+    "source/quartz/components/scripts/consoleTap.inline.ts": {
+      "bytes": 1989,
+      "scope": "keeplist",
+      "sha256": "0b225655337ef63c9130a2a2e1059fe927751ce42fe32b400fa05c9c6126ea0f"
+    },
+    "source/quartz/components/scripts/notFound.inline.ts": {
+      "bytes": 9121,
+      "scope": "keeplist",
+      "sha256": "fe740d7d130b5e472e598d75748f797940a2c6b21cb56203d1832b1a8bb3b39a"
+    },
+    "source/quartz/components/scripts/popover.inline.ts": {
+      "bytes": 4614,
+      "scope": "keeplist",
+      "sha256": "1dccf449fb6b490d6f376d263b41ece9f76ca8d6db4a28f7fe65774c2a9649c5"
+    },
+    "source/quartz/components/scripts/search.inline.ts": {
+      "bytes": 20390,
+      "scope": "keeplist",
+      "sha256": "733e4f3c86daaf002bc48fc6019eb8426812947182728ed3afff6dd723c7078f"
+    },
+    "source/quartz/components/scripts/snapshotButton.inline.ts": {
+      "bytes": 10757,
+      "scope": "keeplist",
+      "sha256": "d2d12a503c97e5a4c26b2437d8fe253b70d516a4d0930f9d66b05e09ef92baad"
+    },
+    "source/quartz/components/scripts/snapshotState.ts": {
+      "bytes": 4994,
+      "scope": "keeplist",
+      "sha256": "3280c0e7db19e33de1565fbdbc0c7383bb253b153a2ba979c06470fb848fd438"
+    },
+    "source/quartz/components/scripts/spa.inline.ts": {
+      "bytes": 5515,
+      "scope": "keeplist",
+      "sha256": "23a254ad5f599abcde769b91b8ed6917aa19241f4415e06920f1b2b4458ed2bd"
+    },
+    "source/quartz/components/scripts/supabase.ts": {
+      "bytes": 13518,
+      "scope": "keeplist",
+      "sha256": "6e211ac780c968e3300be81656ae9a9f47223d16eb0a9549497ea5884a5f481d"
+    },
+    "source/quartz/components/scripts/toc.inline.ts": {
+      "bytes": 4776,
+      "scope": "keeplist",
+      "sha256": "3e61ddb5bbef472a8b8c322e1d554790c95d225ae2740d80ef8c53a6ed343fa4"
+    },
+    "source/quartz/components/scripts/util.ts": {
+      "bytes": 1561,
+      "scope": "keeplist",
+      "sha256": "ffa5b6b018ef5529cf465f647a111edc10673742d97c5be989aa81298dfec299"
+    },
     "source/quartz/components/scripts/variant.inline.ts": {
       "accepted": [
         {
@@ -63,6 +233,76 @@
       "bytes": 9373,
       "scope": "keeplist",
       "sha256": "12c0e00366315f58ecd844509da2337441e4f00cb268850a9d91d3c1b5921565"
+    },
+    "source/quartz/components/styles/breadcrumbs.scss": {
+      "bytes": 952,
+      "scope": "keeplist",
+      "sha256": "dc31ca82a2125954c34b09d6692facd2c39a3e107c9520f9da81df097e2feab6"
+    },
+    "source/quartz/components/styles/clipboard.scss": {
+      "bytes": 546,
+      "scope": "keeplist",
+      "sha256": "fa6391dd120a8da501050f6a1b59e40fc983d0b253875a4efe4ef160ead9e203"
+    },
+    "source/quartz/components/styles/contentMeta.scss": {
+      "bytes": 196,
+      "scope": "keeplist",
+      "sha256": "6ff0bd6f056d19e7329e1f3b0a74d314d3c3c60abc5aca53c0104b68193518a8"
+    },
+    "source/quartz/components/styles/footer.scss": {
+      "bytes": 1147,
+      "scope": "keeplist",
+      "sha256": "0b3c63a4c6995e3e44c0ae41b840c5eb90696e869b5ced5a232ccb95b6dad6e5"
+    },
+    "source/quartz/components/styles/legacyToc.scss": {
+      "bytes": 379,
+      "scope": "keeplist",
+      "sha256": "79af855a0c38eca48a2a652fb9e58f4a98975fe97ffce3f8569ed458bb4b8a5d"
+    },
+    "source/quartz/components/styles/listPage.scss": {
+      "bytes": 630,
+      "scope": "keeplist",
+      "sha256": "15d4caa77789e05efd7f24c44797b6f2f755baae0f3d926c7435ab172aea7b9b"
+    },
+    "source/quartz/components/styles/notFound.scss": {
+      "bytes": 2365,
+      "scope": "keeplist",
+      "sha256": "915fbf4c54cdaae349742f3288e3dabdfb9d60edc6744a7c413ea800f2af3b35"
+    },
+    "source/quartz/components/styles/popover.scss": {
+      "bytes": 1516,
+      "scope": "keeplist",
+      "sha256": "6a651290f50c86c5476d55266335f343de09311496899616e1be19910e85d013"
+    },
+    "source/quartz/components/styles/search.scss": {
+      "bytes": 5371,
+      "scope": "keeplist",
+      "sha256": "032aced9072df3206a6cff94d0ed08a508220a128003b6e1fe341d5cf1cdd2ab"
+    },
+    "source/quartz/components/styles/toc.scss": {
+      "bytes": 2137,
+      "scope": "keeplist",
+      "sha256": "b13f4477d26b02195147d28d3f19f9154964b86f450f593ed3a411ea3f4ecf1e"
+    },
+    "source/quartz/components/types.ts": {
+      "bytes": 975,
+      "scope": "keeplist",
+      "sha256": "a47df3797b5eaae1d77586c92fa69b4371c5386bc498e13b504eea6644181259"
+    },
+    "source/quartz/i18n/index.ts": {
+      "bytes": 678,
+      "scope": "keeplist",
+      "sha256": "c141bd80acb9ea2a2a5e55abaff393779c78529928af085e3c246da587d5b0b4"
+    },
+    "source/quartz/i18n/locales/definition.ts": {
+      "bytes": 1733,
+      "scope": "keeplist",
+      "sha256": "1af259e7e6609f16df401395179aec3d7917ccdb1c63f1fb7083bcc9f65d3936"
+    },
+    "source/quartz/i18n/locales/en-US.ts": {
+      "bytes": 2153,
+      "scope": "keeplist",
+      "sha256": "68be5d4254beea38c732860dd3c342b26acf163bb0b7481a07278ae247be2fdc"
     },
     "source/quartz/plugins/filters/draft.ts": {
       "bytes": 273,
@@ -146,6 +386,21 @@
       "scope": "pipeline",
       "sha256": "127731bef4f383ef1e73aedd1849f4eeec6906723d2312540981c48c7bc21023"
     },
+    "source/quartz/plugins/vfile.ts": {
+      "bytes": 387,
+      "scope": "keeplist",
+      "sha256": "03506f0bf7e21f65f1f42682a37735b4fb91cfce059fa7c5adaf6ad4ba0f783b"
+    },
+    "source/quartz/styles/base.scss": {
+      "bytes": 12804,
+      "scope": "keeplist",
+      "sha256": "6beae4f50ea828e10727e38cc125e60b666855e003048f4cc02e10bf9f2b49d5"
+    },
+    "source/quartz/styles/callouts.scss": {
+      "bytes": 8806,
+      "scope": "keeplist",
+      "sha256": "3a0f867d9d51f62090af4209267495f17dc4f95de55d8269919d844235d08c06"
+    },
     "source/quartz/styles/custom.scss": {
       "accepted": [
         {
@@ -159,6 +414,76 @@
       "bytes": 31413,
       "scope": "keeplist",
       "sha256": "98567706e1b7d096773cd3b28e399be1380dde2b72d57b9e5fef688b3312a9f9"
+    },
+    "source/quartz/styles/syntax.scss": {
+      "bytes": 358,
+      "scope": "keeplist",
+      "sha256": "f76569760f857fe72c23d74c89e8ab83bc3f0db24b453a4d15842a1435bfb66a"
+    },
+    "source/quartz/styles/variables.scss": {
+      "bytes": 1658,
+      "scope": "keeplist",
+      "sha256": "11ce93ae7a1a04643da62c752defc7f7452834f84d68a629c1dc6ec070a6cdaa"
+    },
+    "source/quartz/util/escape.ts": {
+      "bytes": 883,
+      "scope": "keeplist",
+      "sha256": "84aed66640be242b2d3ade9fa457e51345f949721b26b171851c835891fba57b"
+    },
+    "source/quartz/util/glob.ts": {
+      "bytes": 462,
+      "scope": "keeplist",
+      "sha256": "fce246da1c409f254375ea5b2be8c6ee03e018dafc9460805c0ae76a5fbe4db5"
+    },
+    "source/quartz/util/jsx.tsx": {
+      "bytes": 720,
+      "scope": "keeplist",
+      "sha256": "b013f4479e9fe8fe380834d88d970b4d2d76ec85ec640ac748951a2abb22abf3"
+    },
+    "source/quartz/util/lang.ts": {
+      "bytes": 547,
+      "scope": "keeplist",
+      "sha256": "0ad6974ec63640c82ec7c28bb09b1d1c7af35072ba97d6117b62f08bddaeeb13"
+    },
+    "source/quartz/util/log.ts": {
+      "bytes": 530,
+      "scope": "keeplist",
+      "sha256": "110947339c89d60be92d52199031077defa19267857becdf0e7c1604ca61aeb5"
+    },
+    "source/quartz/util/path.test.ts": {
+      "bytes": 10201,
+      "scope": "keeplist",
+      "sha256": "a7047cc129accb634524c32c4f511a220e0d43d21adf12058c94cfbeb36f8786"
+    },
+    "source/quartz/util/path.ts": {
+      "bytes": 14816,
+      "scope": "keeplist",
+      "sha256": "407a1cee28f5dafd1b798d5cd0c4bdcf64ca4e74fc770b76f8de3955ba22491d"
+    },
+    "source/quartz/util/perf.ts": {
+      "bytes": 401,
+      "scope": "keeplist",
+      "sha256": "40cc86aa3c39430d05fa3cee68ff68330f896109970fd52c0fb3e8ce9b5c45b3"
+    },
+    "source/quartz/util/resources.tsx": {
+      "bytes": 1035,
+      "scope": "keeplist",
+      "sha256": "b8d64294dea89e23c8a7b97b4ee9a25dc54ddcdfc3df200223b7eeb85e7bee95"
+    },
+    "source/quartz/util/sourcemap.ts": {
+      "bytes": 493,
+      "scope": "keeplist",
+      "sha256": "077e6f2e5c0b332f8b4c6e62093bbe9d15c2ffb5232db5dad466b30cf631a126"
+    },
+    "source/quartz/util/theme.ts": {
+      "bytes": 3874,
+      "scope": "keeplist",
+      "sha256": "8e38e188a9fc98f64f0680743e8b2e0cb4cf50e29b416df7a0b0684182c40dd0"
+    },
+    "source/quartz/util/trace.ts": {
+      "bytes": 944,
+      "scope": "keeplist",
+      "sha256": "18b102860b250aa6e3aa85f46ac43c92b69dadee99473ab666b55699ddd55084"
     }
   },
   "note": "Stream A byte-freeze, phases P1-P4 (D-27). Every entry declares its scope: `pipeline` (the 12-file markdown glob) or `keeplist` (INTERFACE.md section 7). One store serves both scopes and an untagged entry is what made an accepted keep-list change read as a MISSING pipeline file.",
