@@ -32,7 +32,7 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `curriculum.json` | boot | `scoreWeightsByOrd` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
-| `systems-index.json` | first read | the Systems list; a system's record (`content/system-records/<sha>.json`) on selection; `systems.json` is build-internal |
+| `systems-index.json` | first read | the Systems list, then a system's record (`content/system-records/<sha>.json`); `systems.json` is build-internal |
 | `concepts.json` | first read | the Principles + Learning index. Same posture as the Systems list |
 | `app/reference.css` | first reference read | shared Systems and concept reference-page styles; excluded from the game boot |
 | `aliases.json` | Explore/search intent | exact site IDs, own aliases and attributed family aliases; versioned URL, shared request and bounded retries |
@@ -680,7 +680,7 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 first load adopts the old unowned `bjj-neural-progress` and its markers once, keeping the bytes; an
 account imports it only on request (`progress-owner.src.js`). **Local-only** (v1.207.8): a signed-in
 device whose sign-in SDK cannot load plays that account's local copy under a banner, never pulls or
-pushes, and on re-verify (Try again, `online`) pulls and merges before any push (`_renderLocalOnly`).
+pushes, and on re-verify (Try again, `online`) merges before a push (`_renderLocalOnly`).
 
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution
