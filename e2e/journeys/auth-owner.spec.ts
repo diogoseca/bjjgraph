@@ -335,6 +335,10 @@ test('@curated local-only: an unreachable SDK plays on this device, pushes nothi
     const row = Object.values(cloud.lists)[0] as any
     cloud.lists['lotherdevice1'] = { ...row, name: 'Other device list' }
     f.seedCloud(i, cloud); f.blockSdk()
+    // Keep this device's storage across the reload (the harness wipes it otherwise): the stored
+    // session and the account's local copy ARE the scenario.
+    const a = (window as any).__neural; a.setPaused(true); a.clearTimers(); a._flushSave()
+    sessionStorage.setItem('__ng_keep', '1')
   }, id)
   await page.reload({ waitUntil: 'domcontentloaded' })
   const state = () => page.evaluate(() => {

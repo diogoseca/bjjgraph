@@ -6529,8 +6529,9 @@ class Component extends DCLogic {
   // never read or written (`_pullAndMerge` and `_pushCloud` refuse) until `_initAuth` verifies the
   // account again: the host clears the flag on that verified answer, the pull merges cloud with
   // this device's play, and only then does a push run. "Try again" and the browser's `online`
-  // event re-verify. The banner lives outside the app wrap (like the recovery notice), so
-  // `attachInput`'s pointer capture never touches its button.
+  // event re-verify. The banner is portalled to the APP ROOT, outside the input wrap, so
+  // `attachInput`'s pointer capture never touches its button; a body-level element would be hidden
+  // by the neural variant's static-shell rule. z 9: ambient state on the helmet.html ladder.
   _renderLocalOnly() {
     const on = !!this._progressLocalOnly && !this.__ngDestroyed;
     if (!on) {
@@ -6541,7 +6542,7 @@ class Component extends DCLogic {
     if (!this._localOnlyEl) {
       const bar = this._localOnlyEl = document.createElement("section");
       bar.setAttribute("data-local-only", "1"); bar.setAttribute("role", "status"); bar.setAttribute("aria-live", "polite");
-      bar.style.cssText = "position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:10000;box-sizing:border-box;width:min(560px,calc(100vw - 32px));display:flex;align-items:center;gap:12px;padding:8px 8px 8px 14px;border-radius:12px;background:#2a2412;border:1px solid #b89a4a;color:#f3e7c4;font:13px/1.4 system-ui,sans-serif;";
+      bar.style.cssText = "position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:9;box-sizing:border-box;width:min(560px,calc(100vw - 32px));display:flex;align-items:center;gap:12px;padding:8px 8px 8px 14px;border-radius:12px;background:#2a2412;border:1px solid #b89a4a;color:#f3e7c4;font:13px/1.4 system-ui,sans-serif;";
       const text = document.createElement("div"); text.style.cssText = "flex:1;min-width:0;";
       const head = document.createElement("b"); head.textContent = "Can’t reach your account. ";
       text.append(head, "You’re playing on this device: your progress is saved here and won’t sync until you’re back online.");
@@ -6550,7 +6551,7 @@ class Component extends DCLogic {
       retry.style.cssText = "flex:none;min-height:44px;min-width:88px;padding:8px 12px;border-radius:9px;border:1px solid #b89a4a;background:#3a3218;color:#f3e7c4;font:inherit;cursor:pointer;";
       retry.addEventListener("click", () => { this._retryOnline(); });
       bar.append(text, retry);
-      document.body.appendChild(bar);
+      (this.__ngRoot || document.body).appendChild(bar);
     }
     if (!this._localOnlyOnline) { this._localOnlyOnline = () => { this._retryOnline(); }; window.addEventListener("online", this._localOnlyOnline); }
   }
