@@ -1,5 +1,19 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "node neural/build/build.mjs",
+   "esbuild": "0.27.0",
+   "git_head": "0b64eb1056e6b8722e41b59d305e7efb030d95c0",
+   "inputs": {
+    "neural/build": "31bdcda65f2e292c440c2a50d37713410d571f38",
+    "neural/src": "05edd7f62124c0447da1eaa3de9f9b0a8ac7370b",
+    "package.json": "963c75aff11e6dfdb599d872832b7de5ac8c9c53",
+    "source/package-lock.json": "dceb6bf642cbf74f80c8df78abd388a6f25e4fd8"
+   },
+   "package_version": "1.204.3",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v1"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/golden/pr220-payload-diet-e79729eab",
   "content_provenance": {
    "capture_git_head": "e79729eab6c122f90f01773f471fbf32e24a92d5",
@@ -42,9 +56,9 @@
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
   },
-  "format": 3
+  "format": 4
  },
- "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update whenever the emit legitimately changes (content edits move article_links and the @type histogram), and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
+ "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
   "count": 4,
   "files": {
@@ -53,8 +67,9 @@
     "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
    },
    "static/neural/app/neural.js": {
-    "bytes": 592708,
-    "sha256": "f2b6e577a80cf8e941a91ead9723030f1d7fecee578e2067ad53bf927c1d6c22"
+    "bytes": 592723,
+    "sha256": "12aad39787c63a091132db739588db0432af4d4481ac539ea41ef9d281fc7b79",
+    "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
     "bytes": 2104,

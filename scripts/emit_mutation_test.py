@@ -189,16 +189,20 @@ def app_assets_suite():
         root = Path(tmp)
         app = root / 'static/neural/app'
         app.mkdir(parents=True)
-        js = app / 'neural.js'; js.write_bytes(b'let fixture=1;')
+        # The versioned file carries its one baked literal, as neural/build/build.mjs emits it.
+        js = app / 'neural.js'; js.write_bytes(b'let fixture=1;globalThis.NG_APP_VERSION="1.0.0";')
         css = app / 'neural.css'; css.write_bytes(b'.fixture{color:red}')
         base = gate.capture(1, root)
         assert base.get('app_assets', {}).get('count') == 2, 'app/ files were not inventoried'
         assert set(base['app_assets']['files']) == {
             'static/neural/app/neural.js', 'static/neural/app/neural.css'}
-        for path in (js, css):
-            record = base['app_assets']['files'][path.relative_to(root).as_posix()]
-            assert record == {'bytes': path.stat().st_size,
-                              'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
+        stood_in = js.read_bytes().replace(b'NG_APP_VERSION="1.0.0"', gate.VERSION_STAND_IN)
+        assert base['app_assets']['files']['static/neural/app/neural.js'] == {
+            'bytes': len(stood_in), 'sha256': hashlib.sha256(stood_in).hexdigest(),
+            'version_token': 'normalised'}, 'the versioned row is not the stand-in hash'
+        assert base['app_assets']['files']['static/neural/app/neural.css'] == {
+            'bytes': css.stat().st_size, 'sha256': hashlib.sha256(css.read_bytes()).hexdigest()}
+        assert base['_app_baked'] == {'static/neural/app/neural.js': ['1.0.0']}
         checked = 0
         def expect(label, cur, *needles):
             nonlocal checked
@@ -210,13 +214,46 @@ def app_assets_suite():
                 assert not problems, (label, problems)
             checked += 1
             print(f'PASS app {label}: covered_files={cur["app_assets"]["count"]}')
+        def expect_version(label, cur, version, needle):
+            nonlocal checked
+            problems = gate.check_app_version(cur['_app_baked'], version)
+            assert (any(needle in p for p in problems) if needle else not problems), (label, problems)
+            checked += 1
+            print(f'PASS app version {label}')
         expect('identical', gate.capture(1, root))
+        expect_version('matches package.json', gate.capture(1, root), '1.0.0', None)
         for path in (js, css):
             old = path.read_bytes()
             path.write_bytes(bytes([old[0] ^ 1]) + old[1:])
             expect('same-size edit ' + path.name, gate.capture(1, root),
                    'app asset ' + path.relative_to(root).as_posix() + ': CHANGED')
             path.write_bytes(old)
+        # FORMAT 4. A version-only bump moves no row; the version itself is still asserted.
+        old = js.read_bytes()
+        js.write_bytes(old.replace(b'"1.0.0"', b'"1.0.10"'))
+        bumped = gate.capture(1, root)
+        expect('version-only bump (1.0.0 -> 1.0.10, a different length)', bumped)
+        expect_version('bumped bundle vs bumped package.json', bumped, '1.0.10', None)
+        expect_version('stale bundle vs bumped package.json', gate.capture(1, root), '1.0.11',
+                       "baked at version '1.0.10' but package.json says '1.0.11'")
+        # An edit adjacent to the literal is NOT inside it, so it still moves the row.
+        js.write_bytes(old.replace(b';globalThis.', b':globalThis.'))
+        expect('edit next to the version literal', gate.capture(1, root),
+               'app asset static/neural/app/neural.js: CHANGED')
+        js.write_bytes(old.replace(b'NG_APP_VERSION="1.0.0";', b''))
+        expect_version('literal absent', gate.capture(1, root), '1.0.0', 'bakes NG_APP_VERSION 0 time(s)')
+        js.write_bytes(old + b'NG_APP_VERSION="1.0.0";')
+        expect_version('literal twice', gate.capture(1, root), '1.0.0', 'bakes NG_APP_VERSION 2 time(s)')
+        js.write_bytes(old)
+        # Only the NAMED file is normalised: the same literal in any other file is ordinary bytes.
+        oldcss = css.read_bytes()
+        css.write_bytes(oldcss + b'/*NG_APP_VERSION="1.0.0"*/')
+        cur = gate.capture(1, root)
+        css.write_bytes(oldcss + b'/*NG_APP_VERSION="1.0.1"*/')
+        problems = gate.check_census(cur, gate.capture(1, root))
+        assert any('neural.css: CHANGED' in p for p in problems), problems
+        checked += 1; print('PASS app literal outside the named file is not normalised')
+        css.write_bytes(oldcss)
         deferred = app / 'reading.css'; deferred.write_bytes(b'.reading{}')
         expect('new deferred CSS', gate.capture(1, root),
                'app asset static/neural/app/reading.css: ADDED', 'app asset count: 2 -> 3')
@@ -226,22 +263,30 @@ def app_assets_suite():
                'app asset static/neural/app/neural.css: REMOVED',
                'app asset static/neural/app/reference.css: ADDED')
         renamed.rename(css)
-        old = css.read_bytes(); css.unlink()
+        oldcss = css.read_bytes(); css.unlink()
         expect('removed CSS', gate.capture(1, root),
                'app asset static/neural/app/neural.css: REMOVED')
-        css.write_bytes(old)
+        css.write_bytes(oldcss)
         nested = app / 'chunks/.future.bin'; nested.parent.mkdir()
         nested.write_bytes(b'\x00\x01')
         expect('new nested arbitrary extension', gate.capture(1, root),
                'app asset static/neural/app/chunks/.future.bin: ADDED')
         nested.unlink()
         # A malformed baseline must fail too, including empty compared to empty.
+        js_row = base['app_assets']['files']['static/neural/app/neural.js']
+        css_row = base['app_assets']['files']['static/neural/app/neural.css']
         for label, value in (
             ('zero', {'count': 0, 'files': {}}),
             ('invented count', {**base['app_assets'], 'count': 3}),
             ('missing block', None),
             ('bad hash', {'count': 1, 'files': {'static/neural/app/bad.js':
                                                {'bytes': 1, 'sha256': 'bad'}}}),
+            ('format-3 raw row for the versioned file', {'count': 2, 'files': {
+                'static/neural/app/neural.js': {k: v for k, v in js_row.items() if k != 'version_token'},
+                'static/neural/app/neural.css': css_row}}),
+            ('stand-in claimed on an unversioned file', {'count': 2, 'files': {
+                'static/neural/app/neural.js': js_row,
+                'static/neural/app/neural.css': {**css_row, 'version_token': 'normalised'}}}),
         ):
             bad = copy.deepcopy(base); bad['app_assets'] = value
             assert gate.check_app_assets(bad, 'candidate'), label
@@ -253,6 +298,87 @@ def app_assets_suite():
         assert any('app assets' in p for p in gate.check_floors(empty))
         checked += 1; print('PASS app missing region: covered_files=0 rejected')
         print(f'PASS coverage: {checked} app-assets cases; real filesystem mutations, no build')
+    app_reseed_suite()
+
+
+def app_reseed_suite():
+    """--update-app-assets in a throwaway git repo, with a stand-in bundle build."""
+    import check_build_fingerprint as gate
+    def fake_build(bake):
+        return ('python3', '-c', 'import pathlib; d = pathlib.Path("neural/dist"); '
+                'd.mkdir(parents=True, exist_ok=True); '
+                f'(d / "neural.js").write_bytes(b\'let a=1;globalThis.NG_APP_VERSION="{bake}";\'); '
+                '(d / "neural.css").write_bytes(b".a{}")')
+    with tempfile.TemporaryDirectory(prefix='v-app-reseed-') as tmp:
+        root = Path(tmp)
+        def run(*cmd):
+            subprocess.run(cmd, cwd=root, check=True, capture_output=True)
+        (root / 'neural/src').mkdir(parents=True); (root / 'neural/build').mkdir()
+        (root / 'source').mkdir()
+        (root / 'package.json').write_text('{"version": "2.0.0"}\n')
+        (root / 'source/package-lock.json').write_text('{}\n')
+        (root / 'neural/src/app.src.jsx').write_text('x\n')
+        (root / 'neural/build/build.mjs').write_text('// stand-in\n')
+        (root / '.gitignore').write_text('neural/dist/\n')
+        run('git', 'init', '-q'); run('git', 'add', '-A')
+        run('git', '-c', 'user.name=t', '-c', 'user.email=t@t', 'commit', '-qm', 'fixture')
+        head = subprocess.run(('git', 'rev-parse', 'HEAD'), cwd=root, check=True,
+                              capture_output=True, text=True).stdout.strip()
+        receipt = {'schema': 'fixture-receipt', 'capture_id': 'untouched'}
+        base = {'_meta': {'format': 3, 'content_provenance': receipt}, '_note': 'old',
+                'census': {'files': 123}, 'bundles': {'postscript.js': {'bytes': 1, 'sha256': '0' * 64}},
+                'distinct_values': {}, 'markers': {'tag:main': 7},
+                'app_assets': {'count': 1, 'files': {'static/neural/app/neural.js':
+                                                     {'bytes': 1, 'sha256': 'a' * 64}}}}
+        bl = root.parent / (root.name + '-baseline.json')
+        checked = 0
+        def refuse(label, needle, build):
+            nonlocal checked
+            bl.write_text(json.dumps(base))
+            before = bl.read_bytes()
+            try:
+                gate.update_app_assets(bl, root, build)
+            except SystemExit as e:
+                assert needle in str(e.code) or needle == 'exit 1' and e.code == 1, (label, e.code)
+            else:
+                raise AssertionError(f'{label}: re-seeded instead of refusing')
+            assert bl.read_bytes() == before, f'{label}: baseline was written anyway'
+            checked += 1; print(f'PASS app re-seed refused: {label}')
+        try:
+            (root / 'neural/dist').mkdir()
+            (root / 'neural/dist/leftover.js').write_text('an older build')
+            bl.write_text(json.dumps(base))
+            new = gate.update_app_assets(bl, root, fake_build('2.0.0'))
+            assert json.loads(bl.read_text()) == new, 'written baseline differs from the returned one'
+            assert new['_meta']['format'] == gate.FORMAT
+            assert new['_meta']['content_provenance'] == receipt, 'the content receipt was touched'
+            prov = new['_meta']['app_provenance']
+            assert prov['git_head'] == head and prov['package_version'] == '2.0.0', prov
+            assert set(prov['inputs']) == set(gate.APP_INPUTS), prov['inputs']
+            for key in set(base) | set(new):
+                if key not in ('app_assets', '_meta', '_note'):
+                    assert new.get(key) == base.get(key), f'{key} changed'
+            rows = new['app_assets']['files']
+            assert set(rows) == {'static/neural/app/neural.js', 'static/neural/app/neural.css'}, \
+                'a leftover dist file from an older build was seeded'
+            assert rows['static/neural/app/neural.js']['version_token'] == 'normalised'
+            checked += 1; print('PASS app re-seed: only app rows + app provenance moved; leftover not seeded')
+            refuse('bundle baked at a stale version', 'exit 1', fake_build('1.9.9'))
+            (root / 'neural/src/app.src.jsx').write_text('y\n')
+            refuse('dirty tracked input', 'not clean committed bytes', fake_build('2.0.0'))
+            run('git', 'checkout', '-q', '--', 'neural/src/app.src.jsx')
+            (root / 'neural/src/new.src.js').write_text('untracked\n')
+            refuse('untracked input', 'not clean committed bytes', fake_build('2.0.0'))
+            (root / 'neural/src/new.src.js').unlink()
+            touching = fake_build('2.0.0')[:2] + (fake_build('2.0.0')[2] +
+                                                  '; pathlib.Path("neural/src/app.src.jsx").write_text("z")',)
+            refuse('build rewrote its own input', 'modified its own inputs', touching)
+            run('git', 'checkout', '-q', '--', 'neural/src/app.src.jsx')
+            base['_meta']['format'] = 2
+            refuse('unknown baseline format', 'format 2', fake_build('2.0.0'))
+        finally:
+            bl.unlink(missing_ok=True)
+        print(f'PASS coverage: {checked} app re-seed cases; a real git repo, a stand-in build')
 
 
 def date_cardinality_suite():

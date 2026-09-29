@@ -126,6 +126,14 @@ jobs:
       - name: Postprocessor contract mutation specs
         run: python3 -B tests/postprocessor_contract_test.py
 
+      # build_fingerprint.json's APP ROWS (format 4). neural.js is hashed with its one baked
+      # NG_APP_VERSION literal normalised, so a version bump moves no row; these fixtures are the
+      # only proof the normalisation cannot swallow a real bundle change, a stale bundle or a
+      # second literal, and that --update-app-assets refuses dirty inputs. Before this step no
+      # workflow ran them: a suite nothing runs is a note, not a gate (CLAUDE.md §6.4). <1 s.
+      - name: Build-shape app-row controls (fixtures, no build)
+        run: python3 -B scripts/emit_mutation_test.py --app-assets
+
       # THE MARKDOWN PIPELINE IS BYTE-FROZEN FOR THE DURATION OF THE QUARTZ REPLACEMENT (D-27).
       # Stream A is a RE-HOST, not a rewrite: the correct number of behavioural changes to
       # plugins/transformers/** and plugins/filters/** during P1-P4 is ZERO, so a drive-by cleanup

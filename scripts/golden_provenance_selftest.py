@@ -34,6 +34,9 @@ def baseline_bindings(repo, root, receipt):
         p = public / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(raw)
     for rel in ('static/neural/app/neural.js', 'static/neural/app/neural.css', *build.BUNDLES):
         p = public / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_text('fixture')
+    # Format 4: the versioned bundle must bake exactly one NG_APP_VERSION, equal to package.json's.
+    (public / 'static/neural/app/neural.js').write_text(
+        f'fixture;NG_APP_VERSION="{build.package_version()}";')
     receipt = {**receipt, 'output_roots': [str(public)], 'output_identity': output_identity(scan_tree(public, 1))}
     rp = root / 'built.content.json'; rp.write_text(json.dumps(receipt))
     budget = root / 'tests/artifacts/budget_site.json'; budget.parent.mkdir(parents=True)
