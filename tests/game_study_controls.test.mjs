@@ -46,3 +46,15 @@ test('source expiry before Compare cannot use stale playable state',()=>{const f
 test('missing service is explicit and does not replace declaration',()=>{const f=fixture();scope(f,'current-position');keyButton(f.root,'Mount|Top').dispatch('click');f.app._requestGameplanStudy=null;control(f.root,'compare').dispatch('click');assert.equal(f.app._gameplanStudyDeclaration,undefined);assert.match(control(f.root,'message').textContent,/service is unavailable/);});
 test('eligibility matches producer giAllows including playable-mask alias difference',()=>{const f=fixture();f.app.nodes[0].cal.stateAlias='Some canonical node';assert.equal(f.app.rsAllowsIdx(0),false);assert.equal(f.app.giAllows(f.app.nodes[0]),true);ngGameplanStudyControls(f.app,{document:f.doc});assert.equal(keyButton(f.root,'Mount|Top').disabled,false);assert.equal(keyButton(f.root,'Mount|Bottom').disabled,false);f.app.nodes[0].cal.avail.gi=false;ngGameplanStudyControls(f.app,{document:f.doc});assert.equal(keyButton(f.root,'Mount|Top').disabled,true);});
 test('player copy uses technique role labels and percentages while retaining exact declaration keys',async()=>{const f=fixture();scope(f,'current-position');const choose=keyButton(f.root,'Mount|Bottom');assert.equal(choose.textContent,'Select: Mount · Bottom');choose.dispatch('click');assert.match(control(f.root,'selected').textContent,/Mount · Bottom/);assert.match(f.root.textContent,/10% sharpness bonus/);assert.match(f.root.textContent,/simulated win chance/);assert.doesNotMatch(f.root.textContent,/manifest|input producer|hypothetical|0\.10|source eligibility|\|/i);control(f.root,'compare').dispatch('click');await settle();assert.deepEqual(f.app._gameplanStudyDeclaration.targets.deckKeys,['Mount|Bottom']);});
+test('an external repaint that changes nothing keeps the very same row buttons; a real change rebuilds them',()=>{
+ // The app repaints this panel whenever study priority moves, including every Win-chance paint. A
+ // rebuilt-but-identical row swapped a button out between pointerdown and pointerup and lost the
+ // click (v1.207.8). Mutant, recorded 2026-09-29: rebuilding unconditionally turns the identity half red.
+ const f=fixture();search(f,'Mount');const before=keyButton(f.root,'Mount|Top');
+ assert.equal(ngGameplanStudyControls(f.app,{document:f.doc}),f.root);
+ assert.equal(keyButton(f.root,'Mount|Top'),before,'an unchanged repaint keeps the same button object');
+ before.dispatch('click');const after=keyButton(f.root,'Mount|Top');
+ assert.notEqual(after,before,'selecting changes the row, so it is rebuilt');assert.equal(after.textContent,'Selected: Mount · Top');
+ delete f.app.flashcards.decks['Mount|Top'];ngGameplanStudyControls(f.app,{document:f.doc});
+ assert.match(control(f.root,'selected').textContent,/No longer available/,'a manifest change still reaches the rows');
+});

@@ -18,6 +18,13 @@ export async function installNeuralAuthSDK(page: Page) {
       .sort().map(key => [key, localStorage.getItem(key)]))
     let user: any = null, failReads = false, clientsCreated = 0
     let failSessions = sessionStorage.getItem(sessionFailureKey) === '1'
+    // Like the real SDK, a reload restores the session this device stored (local-only play needs
+    // the same account to verify again when the SDK comes back). A token with no user restores none.
+    try { const stored = JSON.parse(localStorage.getItem(tokenKey) || 'null'); if (stored?.user?.id) user = stored.user } catch {}
+    // LOCAL-ONLY PLAY: an UNREACHABLE SDK. While blocked, `window.supabase` is never defined, so the
+    // real facade injects the CDN script, which the journey harness aborts (non-localhost).
+    const sdkBlockedKey = '__authOwnerSdkBlocked'
+    const order: string[] = []
     const session = () => user ? { user: copy(user), access_token: 'synthetic-token-only' } : null
     const emit = (event: string, id: string | null, profile?: { email?: string, name?: string }) => {
       user = id ? { id, email: profile?.email || id + '@example.invalid', user_metadata: { full_name: profile?.name || id } } : null
@@ -55,7 +62,7 @@ export async function installNeuralAuthSDK(page: Page) {
             return query
           },
           maybeSingle: async () => {
-            reads.push({ userId, failed: failReads })
+            reads.push({ userId, failed: failReads }); order.push('read')
             if (failReads) return { data: null, error: { message: 'Synthetic offline read' } }
             return { data: userId && cloud.has(userId) ? { neural: copy(cloud.get(userId)) } : null, error: null }
           },
@@ -66,7 +73,7 @@ export async function installNeuralAuthSDK(page: Page) {
           },
           single: async () => {
             if (!pendingWrite) throw new Error('Unexpected fixture write completion')
-            writes.push(copy(pendingWrite)); cloud.set(pendingWrite.user_id, copy(pendingWrite.neural))
+            writes.push(copy(pendingWrite)); order.push('write'); cloud.set(pendingWrite.user_id, copy(pendingWrite.neural))
             return { data: null, error: null }
           },
         }
@@ -78,7 +85,8 @@ export async function installNeuralAuthSDK(page: Page) {
     Object.defineProperty(w, '__SUPABASE_URL', { configurable: true, get: () => 'https://auth-owner-fixture.supabase.invalid', set: () => {} })
     Object.defineProperty(w, '__SUPABASE_ANON_KEY', { configurable: true, get: () => 'synthetic-public-key', set: () => {} })
     // Counted: a signed-out guest must never create a client (QREV7 M1, auth-owner.spec.ts).
-    w.supabase = { createClient: () => { clientsCreated++; return client } }
+    const sdk = { createClient: () => { clientsCreated++; return client } }
+    if (sessionStorage.getItem(sdkBlockedKey) !== '1') w.supabase = sdk
     w.__authOwnerFixture = {
       emit,
       seedCloud: (id: string, blob: any) => { cloud.set(id, copy(blob)) },
@@ -88,7 +96,11 @@ export async function installNeuralAuthSDK(page: Page) {
         if (value) sessionStorage.setItem(sessionFailureKey, '1')
         else sessionStorage.removeItem(sessionFailureKey)
       },
-      snapshot: () => copy({ reads, writes, events, sessionReads, initialProgress, userId: user?.id || null, clients: clientsCreated }),
+      // Blocks the SDK for the NEXT document (a reload); unblocking makes it reachable now.
+      blockSdk: () => sessionStorage.setItem(sdkBlockedKey, '1'),
+      unblockSdk: () => { sessionStorage.removeItem(sdkBlockedKey); w.supabase = sdk },
+      cloudOf: (id: string) => cloud.has(id) ? copy(cloud.get(id)) : null,
+      snapshot: () => copy({ reads, writes, events, sessionReads, initialProgress, order, userId: user?.id || null, clients: clientsCreated }),
     }
   })
 }

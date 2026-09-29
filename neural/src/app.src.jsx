@@ -297,6 +297,7 @@ class Component extends DCLogic {
     this._destroyGameplanStudy();
     if (this._systemsLoader) this._systemsLoader.dispose();
     this._authDisposed = true;
+    this._renderLocalOnly();   // __ngDestroyed: removes the banner and its `online` listener
     clearTimeout(this._saveT); clearTimeout(this._flowSaveT);
     if (this._onAffiliateClick) document.removeEventListener("click", this._onAffiliateClick);
     if (this._onNeuralPopstate) window.removeEventListener("popstate", this._onNeuralPopstate);
@@ -1066,6 +1067,7 @@ class Component extends DCLogic {
     };
     document.addEventListener("click", this._onAffiliateClick);
     try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
+    this._renderLocalOnly(); // local-only play: the banner first, then one re-verify attempt
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
@@ -6521,6 +6523,48 @@ class Component extends DCLogic {
   openAuth(mode) { this._authMode = mode || "create"; this.openModal(); this.renderAuth(); }
   // ---------- real auth via the page's Supabase facade (window.__bjjAuth, see supabase.ts) ----------
   _auth() { const A = window.__bjjAuth; return (A && typeof A.isAuthenticated === "function") ? A : null; }
+  // LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1). The progress host restored this account's
+  // copy ON THIS DEVICE without verified identity, because the sign-in SDK could not load
+  // (`_progressLocalOnly`, set by the host's bind). Play and local saves work as ever; the cloud is
+  // never read or written (`_pullAndMerge` and `_pushCloud` refuse) until `_initAuth` verifies the
+  // account again: the host clears the flag on that verified answer, the pull merges cloud with
+  // this device's play, and only then does a push run. "Try again" and the browser's `online`
+  // event re-verify. The banner lives outside the app wrap (like the recovery notice), so
+  // `attachInput`'s pointer capture never touches its button.
+  _renderLocalOnly() {
+    const on = !!this._progressLocalOnly && !this.__ngDestroyed;
+    if (!on) {
+      if (this._localOnlyEl) { this._localOnlyEl.remove(); this._localOnlyEl = null; }
+      if (this._localOnlyOnline) { window.removeEventListener("online", this._localOnlyOnline); this._localOnlyOnline = null; }
+      return;
+    }
+    if (!this._localOnlyEl) {
+      const bar = this._localOnlyEl = document.createElement("section");
+      bar.setAttribute("data-local-only", "1"); bar.setAttribute("role", "status"); bar.setAttribute("aria-live", "polite");
+      bar.style.cssText = "position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:10000;box-sizing:border-box;width:min(560px,calc(100vw - 32px));display:flex;align-items:center;gap:12px;padding:8px 8px 8px 14px;border-radius:12px;background:#2a2412;border:1px solid #b89a4a;color:#f3e7c4;font:13px/1.4 system-ui,sans-serif;";
+      const text = document.createElement("div"); text.style.cssText = "flex:1;min-width:0;";
+      const head = document.createElement("b"); head.textContent = "Can’t reach your account. ";
+      text.append(head, "You’re playing on this device: your progress is saved here and won’t sync until you’re back online.");
+      const retry = document.createElement("button"); retry.type = "button"; retry.textContent = "Try again";
+      retry.setAttribute("data-local-only-retry", "1");
+      retry.style.cssText = "flex:none;min-height:44px;min-width:88px;padding:8px 12px;border-radius:9px;border:1px solid #b89a4a;background:#3a3218;color:#f3e7c4;font:inherit;cursor:pointer;";
+      retry.addEventListener("click", () => { this._retryOnline(); });
+      bar.append(text, retry);
+      document.body.appendChild(bar);
+    }
+    if (!this._localOnlyOnline) { this._localOnlyOnline = () => { this._retryOnline(); }; window.addEventListener("online", this._localOnlyOnline); }
+  }
+  _retryOnline() {
+    if (!this._progressLocalOnly || this.__ngDestroyed) return null;
+    if (this._localOnlyRetry) return this._localOnlyRetry;
+    const button = this._localOnlyEl && this._localOnlyEl.querySelector("[data-local-only-retry]");
+    if (button) { button.disabled = true; button.textContent = "Trying…"; }
+    return this._localOnlyRetry = Promise.resolve(this._initAuth()).finally(() => {
+      this._localOnlyRetry = null;
+      if (button && button.isConnected) { button.disabled = false; button.textContent = "Try again"; }
+      this._renderLocalOnly(); this.updateAccountUI();
+    });
+  }
   _invalidateCloudSync() {
     this._authEpoch = (this._authEpoch || 0) + 1;
     this._pulled = false; this._pulledUserId = null; this._pullToken = null;
@@ -6717,7 +6761,7 @@ class Component extends DCLogic {
   async _pullAndMerge() {
     const A = this._auth(), userId = this._authUserId;
     // An older cached facade cannot distinguish a failed read from an empty account.
-    if (!A || A.neuralSyncVersion !== 2 || !A.pullNeural || !userId || this._authDisposed || !this._progressCurrent() || this._pullToken) return false;
+    if (!A || A.neuralSyncVersion !== 2 || !A.pullNeural || !userId || this._authDisposed || !this._progressCurrent() || this._pullToken || this._progressLocalOnly) return false;
     const token = { epoch: this._authEpoch || 0, userId };
     this._pullToken = token; this._pulled = false; this._pulledUserId = null;
     clearTimeout(this._pushT); this._pushT = null;
@@ -6753,7 +6797,9 @@ class Component extends DCLogic {
   }
   _pushCloud() {
     const A = this._auth(), userId = this._authUserId;
-    if (!A || A.neuralSyncVersion !== 2 || !A.pushNeural || !userId || this._authDisposed || !this._progressCurrent()) return;
+    // Local-only play never writes the cloud (owner, 2026-09-29): it can never overwrite cloud
+    // progress. Belt-and-braces with the verified-user gate (`userId` is null while local-only).
+    if (!A || A.neuralSyncVersion !== 2 || !A.pushNeural || !userId || this._authDisposed || !this._progressCurrent() || this._progressLocalOnly) return;
     try { if (!A.isAuthenticated()) return; } catch (e) { return; }
     if (!this._pulled || this._pulledUserId !== userId) { this._pullAndMerge(); return; }
     const epoch = this._authEpoch || 0;
@@ -6775,9 +6821,15 @@ class Component extends DCLogic {
     }, 500);
   }
   updateAccountUI() {
+    this._renderLocalOnly();
     const chip = this.acctChipRef.current; if (!chip) return;
     const cta = this.acctCtaRef.current;
-    if (this.user) {
+    if (!this.user && this._progressLocalOnly) {
+      // An account's progress, played unverified: never "Guest", and no create-account nudge.
+      chip.children[0].textContent = "Offline";
+      chip.children[1].textContent = "!";
+      if (cta) cta.style.display = "none";
+    } else if (this.user) {
       chip.children[0].textContent = this.user.name;
       const av = chip.children[1]; av.textContent = this.user.initial;
       av.style.background = "linear-gradient(135deg,#1f8a5b,#2a6fdb)";

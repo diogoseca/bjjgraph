@@ -115,10 +115,28 @@ function loadSDK(): Promise<void> {
     script.src = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"
     script.async = true
     script.onload = () => resolve()
-    script.onerror = () => reject(new Error("Failed to load Supabase SDK"))
+    // A failed load must not stay cached for the page's life: local-only play (owner, 2026-09-29)
+    // re-tries it when the player asks or the browser comes back online. The code lets the Neural
+    // progress host tell "the SDK is unreachable" from "the account could not be verified".
+    script.onerror = () => {
+      _sdkLoading = null
+      script.remove()
+      reject(Object.assign(new Error("Failed to load Supabase SDK"), { code: "sdk-unavailable" }))
+    }
     document.head.appendChild(script)
   })
   return _sdkLoading
+}
+
+/** The account id the stored session names, UNVERIFIED (no SDK to check it). Used only to pick
+ * this device's local cache for local-only play, never to read or write the cloud. */
+function storedSessionUserId(): string | null {
+  try {
+    const id = JSON.parse(localStorage.getItem(authStorageKey()) || "null")?.user?.id
+    return typeof id === "string" && id ? id : null
+  } catch {
+    return null
+  }
 }
 
 async function getClient(): Promise<SupabaseClient> {
@@ -227,7 +245,20 @@ export async function resolveNeuralUser(): Promise<AuthUser | null> {
   // arm. Loading the SDK to learn "guest" put a third-party fetch on every visitor's boot, with mount
   // waiting on it (QREV7 M1; auth-redirect-back.spec.ts test 1's control counts 0 clients).
   if (!isAuthenticated() && !_sdkLoading) return null
-  const client = await getClient()
+  let client: SupabaseClient
+  try {
+    client = await getClient()
+  } catch (error) {
+    // LOCAL-ONLY PLAY (owner, 2026-09-29): this device holds a session but the SDK cannot load.
+    // Say so, with the account the stored session names, so the app plays on this device's copy
+    // and pushes nothing until identity is verified again. Any other failure is unchanged.
+    if ((error as { code?: string })?.code === "sdk-unavailable")
+      throw Object.assign(new Error("Account service unreachable"), {
+        code: "sdk-unavailable",
+        storedUserId: storedSessionUserId(),
+      })
+    throw error
+  }
   for (let attempt = 0; attempt < 3; attempt++) {
     const revision = _neuralAuthRevision
     const { data, error } = await client.auth.getSession()
