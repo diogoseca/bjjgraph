@@ -18,7 +18,7 @@
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { ngWireDecks, ngWireScoreWeights } from "../../neural/src/wire-keys.src.js";
+import { knowledgeSource } from "../_knowledge_profile_harness.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, "../..");
@@ -26,8 +26,9 @@ const [oldDir, newDir] = process.argv.slice(2);
 if (!oldDir || !newDir) { console.error("usage: _wire_keys_differential.mjs <old emit dir> <new emit dir>"); process.exit(2); }
 const load = (dir, f) => JSON.parse(readFileSync(resolve(dir, f), "utf8"));
 const src = readFileSync(resolve(ROOT, "neural/src/app.src.jsx"), "utf8");
-const Component = new Function("DCLogic", "React", "ngWireDecks", "ngWireScoreWeights", `${src}\nreturn Component;`)(
-  class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights);
+// The bundle's prelude (wire-keys + knowledge-profile) above the class, from the one shared harness.
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
+  class DCLogic {}, { createRef: () => ({ current: null }) });
 
 function boot(dir) {
   const a = Object.create(Component.prototype);

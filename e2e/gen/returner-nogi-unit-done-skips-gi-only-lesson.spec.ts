@@ -127,7 +127,7 @@ function unitTruth(page: Page) {
       const a = (window as any).__neural
       const belt = a.curriculum.belts.find((b: any) => b.id === beltId)
       const unit = belt.units.find((u: any) => u.id === unitId)
-      const stored = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+      const stored = JSON.parse(window.__ngGuestProgressRaw() || "{}")
       return {
         giPrep: (a.prep && a.prep[giKey]) || 0,
         complete: !!a.unitComplete(beltId, unit),

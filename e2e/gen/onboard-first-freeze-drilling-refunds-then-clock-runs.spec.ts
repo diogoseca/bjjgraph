@@ -23,7 +23,7 @@ import { firstRollDay1 } from "./personas"
  *      pick()s → enterAttempt → fx("commit") (:4342) — a narrated advance, never a silent teleport.
  *
  * Persona validity: firstRollDay1 seeds prep (a day-1 card graded) but NOT
- * localStorage["bjj-neural-coached"], so the rigStart rail's enterLand(true) → maybeStartCoach()
+ * localStorage["bjj-neural-owner:guest:coached"], so the rigStart rail's enterLand(true) → maybeStartCoach()
  * DOES fire the coach; land() then dismisses it. Post-land a._coach===null, a._coachDone===true —
  * exactly the "coach auto-dismissed" hand-off the invariant is about. A boot read proves prep
  * ingested + the coach actually ran-then-cleared, so this isn't a plain fresh boot masquerading

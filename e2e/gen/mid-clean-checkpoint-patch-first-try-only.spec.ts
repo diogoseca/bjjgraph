@@ -54,7 +54,7 @@ const cleanCheckpointState = (page: any) =>
       passes: beats.filter((b) => b.beat === "checkpoint_passed").map((b: any) => ({ unit: b.unit, firstTry: b.firstTry, of: b.of })),
       badged: Object.prototype.hasOwnProperty.call(a.badges || {}, "clean-checkpoint"),
       storedBadged: Object.prototype.hasOwnProperty.call(
-        (JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}").badges) || {},
+        (JSON.parse(window.__ngGuestProgressRaw() || "{}").badges) || {},
         "clean-checkpoint",
       ),
     }

@@ -184,7 +184,21 @@ def targets():
         found += [p for p in sorted(content_chunks.glob('*.json')) if p.is_file() and not p.is_symlink()]
     if PUBLIC_DIR.is_dir():
         found += [p for p in sorted(PUBLIC_DIR.rglob('*')) if p.is_file() and not p.is_symlink() and p.suffix in TEXT_SUFFIXES]
-    return found
+    # Immutable demand records are addressed by byte hash. Never rewrite them in place.
+    demand_roots = {NEURAL_SYSTEMS.parent, PUBLIC_DIR / 'static/neural'}
+    return [p for p in found if not any(
+        p.parent == root / 'content/system-records' or p == root / 'systems-index.json'
+        for root in demand_roots)]
+
+
+def refresh_systems_demand():
+    # Apply the existing URL policy to the legacy response first, then publish a NEW
+    # matching index/record generation. Prior cached index hashes remain available.
+    from _systems_demand import write_systems_demand
+    for root in (NEURAL_SYSTEMS.parent, PUBLIC_DIR / 'static/neural'):
+        legacy = root / 'systems.json'
+        if legacy.is_file() and (root / 'systems-index.json').is_file():
+            write_systems_demand(root, json.loads(legacy.read_text(encoding='utf-8')))
 
 
 def stamp(path, ref, dry_run=False):
@@ -224,6 +238,8 @@ def main():
         validate_ref(ref)
         paths = targets()
         count = sum(stamp(p, ref, args.dry_run) for p in paths)
+        if not args.dry_run:
+            refresh_systems_demand()
         if PUBLIC_DIR.is_dir() and not args.dry_run:
             destination = PUBLIC_DIR / 'static/system-guide-media.js'
             destination.parent.mkdir(parents=True, exist_ok=True)

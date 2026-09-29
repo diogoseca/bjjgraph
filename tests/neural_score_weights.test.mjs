@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Pure-unit contract for THE SCORE TABLE (v1.145.13).
 //
 // Game Knowledge used to weight only the attacking third of the corpus: all 1,326 Defender decks
@@ -30,14 +31,13 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
-import { ngWireDecks, ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const src = readFileSync(resolve(HERE, "../neural/src/app.src.jsx"), "utf8");
-// The bundle concatenates neural/src/wire-keys.src.js above the class (the manifest and score-table
-// decoder, v1.204.3), so a headless harness injects the same two names — the flow.test.mjs pattern.
-const Component = new Function("DCLogic", "React", "ngWireDecks", "ngWireScoreWeights", `${src}\nreturn Component;`)(
-  class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights);
+// The bundle concatenates neural/src/wire-keys.src.js and knowledge-profile.src.js above the class;
+// `knowledgeSource` (tests/_knowledge_profile_harness.mjs) is that same prelude, export-stripped.
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
+  class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const DIV = 10000000;
 const WIRE = {

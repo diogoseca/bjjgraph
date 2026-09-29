@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Real wire + real state-machine methods. Rendering is stubbed only in execution tests;
 // browser interaction and threat preview are covered by submission-choices.spec.ts.
 // Mutation checks: removing Finish fails tests 1/5; forcing Bottom escape seats fails 1/4.
@@ -5,7 +6,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 const read = p => readFileSync(new URL('../'+p, import.meta.url), 'utf8');
-const Component = new Function('DCLogic','React', read('neural/src/app.src.jsx')+'\nreturn Component;')(class {}, {createRef:()=>({current:null})});
+const Component = new Function('DCLogic','React', knowledgeSource+'\n'+read('neural/src/app.src.jsx')+'\nreturn Component;')(class {}, {createRef:()=>({current:null})});
 const wire = JSON.parse(read('source/quartz/static/neural/graph-data.json'));
 async function boot() {
   const a = Object.create(Component.prototype);

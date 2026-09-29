@@ -523,6 +523,12 @@ test("arriving on the defending side brings the red rush — no play button in b
   // arriving on) the ESCAPING side IS choosing to be caught. No setPaused, no latch.
   await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
   await j.advance(8000)
+  // The sim clock cannot finish the real submission-choices fetch. Wait for its
+  // automatic defense handoff; no click or direct state mutation may start it.
+  await page.waitForFunction(() => {
+    const a = (window as W).__neural
+    return a?._defendSub != null && !a._waitingSubmission
+  }, null, { timeout: 20000 })
   const s = await page.evaluate(() => {
     const a = (window as W).__neural
     return {

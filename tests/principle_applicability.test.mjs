@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -12,7 +13,7 @@ const source = readFileSync(
 const Component = new Function(
   "DCLogic",
   "React",
-  `${source}\nreturn Component;`,
+  `${knowledgeSource}\n${source}\nreturn Component;`,
 )(class {}, { createRef: () => ({ current: null }) });
 const wire = read("source/quartz/static/neural/graph-data.json");
 const concepts = read("source/quartz/static/neural/concepts.json");

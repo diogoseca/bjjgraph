@@ -46,7 +46,7 @@ test("boot() leaves no in-flight progress write, even when curriculum.json lands
       const setItem = proto.setItem;
       (window as any).__progressWrites = [];
       proto.setItem = function (k: string, v: string) {
-        if (k === "bjj-neural-progress")
+        if (k === "bjj-neural-owner:guest:progress")
           (window as any).__progressWrites.push({
             len: v.length,
             stack: new Error().stack?.split("\n").slice(1, 5).join(" | "),

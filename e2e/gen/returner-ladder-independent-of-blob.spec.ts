@@ -11,7 +11,7 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  *
  * Seams under test (probe-verified twice in the real app, ~36-44s/run, deterministic):
  *   - ladderState()/ladderMove() (neural/src/app.src.jsx ~4115-4130) read/write ONLY
- *     "bjj-neural-ladder"; ladderState() defaults to rank 1 when the store is absent and
+ *     "bjj-neural-owner:guest:ladder"; ladderState() defaults to rank 1 when the store is absent and
  *     never writes on read (the intro-roll stakes read during land() creates no store).
  *   - _progressBlob() (app.src.jsx ~1108) emits v/prep/rec/stage/units/belts/days/settings/
  *     settingsAt/updatedAt — NO ladder field, so the two stores are structurally independent.
@@ -39,7 +39,7 @@ test("returner ladder: rank 1 despite full blob, win to rank 2, own-store persis
     const a = (window as any).__neural
     return {
       rank: a.ladderState().rank,
-      ladderStore: localStorage.getItem("bjj-neural-ladder"),
+      ladderStore: localStorage.getItem("bjj-neural-owner:guest:ladder"),
       beltWon: !!(a.belts && a.belts.won && a.belts.won[whiteId as string]),
     }
   }, WHITE_ID)
@@ -71,8 +71,8 @@ test("returner ladder: rank 1 despite full blob, win to rank 2, own-store persis
   const post = await page.evaluate((whiteId) => {
     const a = (window as any).__neural
     a._flushSave() // pin the app's OWN blob serialization (not the seed) before reading it back
-    const ladderRaw = localStorage.getItem("bjj-neural-ladder")
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+    const ladderRaw = localStorage.getItem("bjj-neural-owner:guest:ladder")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
     return {
       rank: a.ladderState().rank,
       ladderParsed: ladderRaw ? JSON.parse(ladderRaw) : null,

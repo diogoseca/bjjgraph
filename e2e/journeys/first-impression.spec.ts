@@ -190,7 +190,7 @@ test("a returning player's opening draw is uniform over the playable pool", asyn
       if (NAMES.indexOf(a.nodes[got].t) >= 0) nameable++;
     }
     return {
-      returning: !!localStorage.getItem("bjj-neural-progress"),
+      returning: !!window.__ngGuestProgressRaw(),
       poolSize: pool.length,
       mismatch: mismatch.slice(0, 5),
       mismatches: mismatch.length,

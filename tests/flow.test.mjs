@@ -17,6 +17,7 @@
 // Regenerate the fixture: python3 scripts/solve_flow.py --reference
 // Run: node --test tests/flow.test.mjs
 import { test } from "node:test";
+import { gameplanAppSource, gameplanRuntime } from "./_gameplan_harness.mjs";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -29,7 +30,7 @@ import { ngWireDecks, ngWireScoreWeights } from "../neural/src/wire-keys.src.js"
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
-const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
+const src = gameplanAppSource;
 const REF = JSON.parse(readFileSync(R("tests/artifacts/flow_reference.json"), "utf8"));
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 
@@ -293,19 +294,15 @@ test("one entry per family, and every row is a deck the user can actually open",
   for (const r of w.ranked) assert.ok(a.flashcards.decks[r.deck], `${r.deck} is in the manifest`);
 });
 
-test("the dose is a CARD budget and maintenance takes precedence", () => {
+// Dose/grade/debt invariants now live in gameplan*.test.mjs, against the shared
+// planner. A FLOW action/deck score alone must not fabricate the new provider.
+test("FLOW alone does not pretend to be a complete learning-opportunity provider", () => {
   const a = fullApp();
-  a.dueCount = () => 0;
-  const fresh = a.newTechniques();
-  const cards = fresh.reduce((s, k) => s + (a._deckCardCount(a.flashcards.decks[k]) || 0), 0);
-  assert.ok(fresh.length > 0, "an empty day deals something");
-  assert.ok(cards <= a.get("dailyGoal", 30), `${cards} cards must fit the 30-card budget`);
-  // owner's rule: "if we only have maintenance to do, we can't afford to waste the daily goal"
-  a.dueCount = () => 30;
-  assert.deepEqual(a.newTechniques(), [], "maintenance owning the day leaves no room");
-  a.dueCount = () => 24;
-  const squeezed = a.newTechniques();
-  assert.ok(squeezed.length >= 1 && squeezed.length < fresh.length, "a partial day deals less");
+  a._refreshGameplanUI = () => {};
+  a.setGameplanRuntime(gameplanRuntime);
+  assert.ok(a.weakSpots().ranked.length > 0);
+  assert.equal(a.planSummary().status, "unavailable");
+  assert.deepEqual(a.newTechniques(), []);
 });
 
 test("a missing kernel degrades LOUDLY to the old rule, never to a table of zeros", () => {
@@ -334,7 +331,7 @@ test("the ledger reaches the score: recorded rolls move the ranking", () => {
   const led = {};
   const pk = K.deckKeys[K.posDeck[st]];
   led[pk] = {};
-  for (const a2 of K.hands[st].slice(0, 3)) if (a2.ord >= 0) led[pk][a2.ord] = [40, 2];  // tried a lot, landed little
+  for (const a2 of K.hands[st].slice(0, 3)) if (a2.ord >= 0) led[pk][a2.ord] = [40, 2, base._epochDay()];  // persisted rows include their observation day
   const warm = fullApp({ flow: { dev1: led } });
   assert.ok(warm.flowN() > 0, `the ledger reads back, got ${warm.flowN()}`);
   const hot = warm.weakSpots();

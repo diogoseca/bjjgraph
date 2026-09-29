@@ -140,7 +140,7 @@ test("failing a retake of a passed checkpoint: pass survives, rows stay done, no
     a._flushSave() // durability capstone: the fail branch itself never calls this
     const live = a.units[uk]
     const blob = a._progressBlob().units[uk]
-    const stored = (JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}").units || {})[uk]
+    const stored = (JSON.parse(window.__ngGuestProgressRaw() || "{}").units || {})[uk]
     const norm = (u: any) => (u ? { checkpoint: !!u.checkpoint, t: u.t } : null)
     return { live: norm(live), blob: norm(blob), stored: norm(stored), ckptOpen: !!a._checkpoint }
   }, UK)
