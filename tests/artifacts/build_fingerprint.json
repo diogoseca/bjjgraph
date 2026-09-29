@@ -1,9 +1,9 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-microing-6c81ebd19",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-skew-912b3e164/pr-skew-912b3e164",
   "content_provenance": {
-   "capture_git_head": "6c81ebd19289fcd0e6599eb42c391614d2122d96",
-   "capture_id": "be656bc7cf554ed9adc60f4cad2e64d8",
+   "capture_git_head": "912b3e164d763abf27a42d7b1e8d9e77e8d23f0e",
+   "capture_id": "9941f3469bf74fa49e6488f6fbbb7120",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -33,16 +33,16 @@
    },
    "output_identity": {
     "files": 15839,
-    "sha256": "54a843b2064b55f3685f3e7090d214ae4dbc3125cf34058b6985ed4558ae8671"
+    "sha256": "cbf89f0e24349a6f48edc904edbf2d4e32384976e86c6f4a9e8cd31115d63e1e"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-microing-6c81ebd19"
+    "/home/user/bjj-orchestrator/qz/capture-skew/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-skew-912b3e164/pr-skew-912b3e164"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
   },
-  "format": 4
+  "format": 5
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
@@ -53,8 +53,8 @@
     "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
    },
    "static/neural/app/neural.js": {
-    "bytes": 592733,
-    "sha256": "e4ac16c07ca3c1f06d677f4fc4a52d5190634333c31a4ddc00114265e0cea6df",
+    "bytes": 592863,
+    "sha256": "fcbc8b8dba0ca664596b16eb00b8bfaf311276a753fef93603829f9f9bf21d8a",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -78,12 +78,13 @@
    "sha256": "487514594cda7b0558c2ee0cf1e6b8e8c1e8e3a29148b4c544b7765c6d333314"
   },
   "postscript.js": {
-   "bytes": 75657,
-   "sha256": "3d1811bebd07c54010b5a162b5e2caa73a0b6bafcee08714b1d48174c5a991dd"
+   "bytes": 75720,
+   "sha256": "c7a1b5112c56a61fa80243ee8f7ddef60c62cd5a8288192bdf644f5b399a6dda",
+   "version_token": "normalised"
   },
   "prescript.js": {
-   "bytes": 2518,
-   "sha256": "7ec261fd5f4346585423f90ebbab06484af9608811347db544fd1a420b2cada3"
+   "bytes": 2734,
+   "sha256": "db2bf906f5122725ce91dc1c39ae7e760dcf804fcb0ccc0e5c59cf84249bf882"
   }
  },
  "by_class": {
