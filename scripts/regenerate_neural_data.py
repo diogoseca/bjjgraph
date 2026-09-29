@@ -376,6 +376,8 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                     out[role] = [
                         {
                             "technique": t.get("technique"),
+                            "target": t.get("target"),
+                            "isSubmission": bool(t.get("isSubmission")),
                             "attemptProbability": t.get("attemptProbability"),
                             "successRate": t.get("successRate"),
                         }
@@ -542,27 +544,27 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     print(f"  availability: {len(_seats) // 2} position hubs, both seats agree in both frames")
 
     # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
-    # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:
-    #   byName  : technique title -> FIRST non-position node (array order), same as the app's
-    #   weight  : attemptProbability/100 x successRate/100, MAX across roles/duplicate titles
+    #   join    : the move's graph.json `target` -> its node, through `tech_idx` below
+    #   weight  : attemptProbability/100 x successRate/100, MAX across roles/duplicate moves
     # emitted as [nodeIdx, round(w*10000)] pairs (the consumer divides by 10000; the value
     # only scales edge lighting alpha/width, where 1e-4 is far below one alpha step).
-    by_name = {}
-    for i, nd in enumerate(nodes):
-        if nd["ty"] != "positions" and nd["t"] not in by_name:
-            by_name[nd["t"]] = i
+    # JOIN BY TARGET, NEVER BY DISPLAY NAME (v1.204.5). The move's `technique` is a short name:
+    # "Kneebar" at backside-50-50/top TARGETS the submission Kneebar from Backside 50-50, and
+    # "Aoki Lock" at aoki-lock-control/top targets Aoki Lock from Aoki Lock Control. Matched by
+    # title, both lit the unrelated TRANSITION of the same short name instead of the move.
 
     # THE INVERSE OF THE `cal` JOIN. `enrich` walks layout node -> graph.json key; `build_move_edge`
     # needs graph.json key -> layout node INDEX, because the EDGE solver's actions are named by
     # graph.json `target` slugs while the app's hand is a list of node indices. Same `_tech_keys`
     # ladder in reverse, so the two directions can never drift apart: if a spelling is added to the
-    # ladder, both joins learn it at once. First node wins (array order), matching `by_name`.
+    # ladder, both joins learn it at once. First node wins (array order).
     tech_idx = {}
     for i, nd in enumerate(nodes):
         if nd["ty"] == "positions":
             continue
         for c in _tech_keys(_slug_from_id(nd["id"]), nd.get("t")):
             tech_idx.setdefault((nd["ty"], c), i)
+    _ew_moves, _ew_lost = 0, []
     for nd in nodes:
         cal = nd.get("cal")
         if not cal or "_moves_stash" not in cal:
@@ -571,8 +573,11 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         best = {}
         for role in ("top", "bottom"):
             for m in moves.get(role) or []:
-                ti = by_name.get(m.get("technique"))
+                _ew_moves += 1
+                kind = "submissions" if m.get("isSubmission") else "transitions"
+                ti = tech_idx.get((kind, m.get("target")))
                 if ti is None:
+                    _ew_lost.append(f"{nd['id']}/{role}: {kind}/{m.get('target')}")
                     continue
                 w = max(0.0, (m.get("attemptProbability") or 0) / 100.0) * max(0.0, (m.get("successRate") or 0) / 100.0)
                 if w > best.get(ti, 0.0):
@@ -582,6 +587,13 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             cal["ew"] = ew
         if not cal.get("ew") and not cal.get("avail"):
             nd.pop("cal", None)
+    # POSITIVE COVERAGE (CLAUDE.md §6.6): a move whose target joins nothing would light nothing,
+    # silently. Every authored move resolves today, so one that does not is a content or ladder
+    # regression, and the wire is refused rather than shipped with a dark edge.
+    print(f"  edge weights: {_ew_moves - len(_ew_lost)}/{_ew_moves} position moves joined by target")
+    if not _ew_moves or _ew_lost:
+        raise SystemExit(f"[neural] edge weights: {len(_ew_lost)} of {_ew_moves} move(s) joined no node by "
+                         f"target (first: {_ew_lost[:3]}) — refusing to emit unlit edges.")
 
     from submission_choices import compile_choices
     compile_choices(ROOT, nodes)

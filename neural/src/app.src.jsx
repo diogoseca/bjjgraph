@@ -12327,7 +12327,11 @@ class Component extends DCLogic {
     if (this._beltTest) {
       const bt = this._beltTest; this._beltTest = null;
       const dominance = Math.round(this.myVal(this.nodes[this.currentPos]) * 100) / 100;
-      const wonByPoints = kind !== "win" && dominance >= bt.pointsWin;
+      // A SUBMISSION IS ALWAYS A LOSS (owner, 2026-09-29). Only a roll that ended with nobody
+      // tapped — "reset": the move limit ran out, or no move was left — can be won on points;
+      // `kind !== "win"` also let a player who had just been submitted collect the belt as
+      // "Won on points" whenever the board had favoured them a moment earlier.
+      const wonByPoints = kind === "reset" && dominance >= bt.pointsWin;
       if (kind === "win" || wonByPoints) {
         this.belts.won = this.belts.won || {};
         this.belts.won[bt.beltId] = { t: Date.now(), moves: this.moveCount || 0, byPoints: wonByPoints };
@@ -12369,7 +12373,9 @@ class Component extends DCLogic {
       // so the wait reads as a timer, not a hang. Was 4.4 / 3.8 / 2.8.
       win: { k: "Submission", big: "You finished it", tone: "good", hold: 6.6 },
       lose: { k: "Tapped out", big: "You got caught", tone: "bad", hold: 5.7 },
-      reset: { k: "Scramble", big: "Roll reset", tone: "muted", hold: 4.2 },
+      // "reset" is a roll that ended with nobody tapped (the move limit, or no move left):
+      // name the OUTCOME, not a scramble the player never saw.
+      reset: { k: "No submission", big: "Roll complete", tone: "muted", hold: 4.2 },
     };
     const m = map[kind] || map.reset;
     if (this.evRef.current) this.evRef.current.style.opacity = "0";

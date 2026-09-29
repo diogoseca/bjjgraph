@@ -8224,3 +8224,10 @@ The deck manifest (format 4) and curriculum's score table key by share ordinal;
 Old vs new ingest is bit-identical (`tests/artifacts/_wire_keys_differential.mjs`); 20/20 mutants in
 `neural_wire_keys.test.mjs`. Score ties rank the shipped integers, name as tiebreak: byte-equal
 across seeds (`_emit_determinism.sh`); dev's `curriculum_order.test.mjs` is ported to the ordinal wire.
+
+## v1.204.5 — Three fixes from the parked threats-order work
+
+A submission now always loses a belt test; only a no-tap ending is judged on points.
+The no-tap banner reads "No submission / Roll complete". Edge lighting joins moves
+by `target`, so Kneebar and Aoki Lock light their submissions. The wire differs from
+dev in those 3 `ew` entries only. 3 of 3 mutants killed.
