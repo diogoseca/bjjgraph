@@ -1,0 +1,2630 @@
+{
+ "configuration": {"frame": "nogi", "initiative": "symmetric", "origin_filter": true, "rates": "shipped"},
+ "copy_rules": [
+  {"check": "text", "id": "R01-which-game", "rule": "Every sentence says which game it describes: 'in the corpus's game', or 'in the app's game' for numbers computed with app_game.py."},
+  {"check": "text", "id": "R02-no-promises", "rule": "Describe how rolls end among the rolls the corpus describes; never promise the reader an outcome ('you will', 'you should', 'guaranteed')."},
+  {"check": "text", "id": "R03-share-of-what", "rule": "Every percentage names its population: of the rolls that end, of the rolls I win or lose, of all endings, or of a long fight's time."},
+  {"check": "text", "id": "R04-territory-carries-its-number", "rule": "A territory or place name always carries its number: the class share here against the share from standing."},
+  {"check": "text", "id": "R05-robustness-in-words", "rule": "State robustness in words (holds in k of 200 perturbations, and under which alternatives); never a 'confidence %', 'certain', 'significant', 'proven' or a p/q value."},
+  {"check": "context", "id": "R06-seat-names-need-their-facts", "rule": "A seat qualifier ('for the top player') is shown only with its robustness clause; where it fails one of the four facts, the sentence says so. Short copy without the clause may carry a seat only when it holds on all four facts."},
+  {"check": "text", "id": "R07-middle-game-not-no-data", "rule": "An unnamed place is 'middle game' (its rolls end the way rolls from standing do), never 'no data', 'unknown' or 'N/A'."},
+  {"check": "text", "id": "R08-no-printed-zero", "rule": "Never print a share as 0% or 0.0%: small shares get two significant figures, exact zeros are 'never', and unreachable positions are 'not reachable from standing'."},
+  {"check": "context", "id": "R09-gi-figures-from-gi-kernels", "rule": "A figure labelled gi comes from a gi kernel (and says so); a no-gi figure is never shown to a gi player as if it were theirs."},
+  {"check": "text", "id": "R10-gi-comparisons-name-the-baseline", "rule": "A gi-vs-no-gi comparison of a territory's size names the baseline it holds fixed."},
+  {"check": "text", "id": "R11-default-endings", "rule": "Never call a place 'not a choke position' or 'not a shoulder-lock position' because it has no choke or shoulder-lock territory; say that chokes (or shoulder locks) are the default ending there."},
+  {"check": "text", "id": "R12-no-edge-sums", "rule": "Never total, average or rank EDGE (or any advantage) across a hand or a position; only the order of cards within one hand means anything."},
+  {"check": "text", "id": "R13-no-interior-choke-points", "rule": "Never call a position a 'choke point' or 'bottleneck' of the map; describe it by passage (the share of won and lost rolls that pass through it)."},
+  {"check": "text", "id": "R14-current-is-not-passage", "rule": "Shares of the winning current or of the finisher law are not shares of rolls passing through: say 'end with' for finishes and 'are in' for passage; never '% of rolls go through'."},
+  {"check": "text", "id": "R15-time-has-units", "rule": "Durations are in steps (cards) or plies (one card, 0 for a stay-put miss: the kernel's time unit), never bare 'moves' or 'turns', and say whether a clock is on. The one exception is the app's own move clock, whose unit is the app's move count, named as such."},
+  {"check": "text", "id": "R16-seat-means-starting-seat", "rule": "Top and bottom name the seat the finisher STARTED in at this position ('the player who started on top'), not where they are at the moment of the finish."},
+  {"check": "text", "id": "R17-descriptive-not-advice", "rule": "Names describe how rolls end; they are not instructions. No 'go to', 'hunt', 'aim for' built on a territory name."},
+  {"check": "construction", "id": "R18-numbers-from-the-artifact", "rule": "Every number in a generated sentence is fetched by path from the artifact and verified; nothing is hand-typed."},
+  {"check": "text", "id": "R19-small-classes-carry-their-share", "rule": "Hip/groin and spine names always carry their percentage; their classes rest on 3 and 9 submissions."},
+  {"check": "review", "id": "R20-regions-say-how-positions-are-weighted", "rule": "A name for a large region says how its positions were weighted, or uses the time-weighted share when the two readings differ."},
+  {"check": "text", "id": "R21-no-stale-canon", "rule": "Never describe the app's opponent with CLAUDE.md 5's 'no role or origin filter, ~12%'."},
+  {"check": "review", "id": "R22-say-whether-the-clock-is-on", "rule": "A finish probability says whether a clock is on and which one, a 9-12-ply clock (the app's clock length) or the app's own move clock; with a clock, say how many rolls run out of time."},
+  {"check": "text", "id": "R23-two-clocks", "rule": "Name a clock by what it counts: 'a 9-12-ply clock (the app's clock length)' for the kernel's horizon in plies, 'the app's own move clock' for the app's move count (moveCount); never give the app's clock a ply unit or the ply an app unit."}
+ ],
+ "coverage": {"copy_rules_card_sentences_linted": 154, "copy_rules_violations": 0, "hub_cards": 122, "not_evaluable_cards": 11, "numbers_verified": 1051, "sentences_verified": 154, "territory_cards": 18, "tv_region_cards": 3},
+ "graph_inputs_checked": [
+  ["tests/artifacts/semantics/naming.json", "graph_sha256"],
+  ["tests/artifacts/semantics/vocabulary.json", "source_sha256"]
+ ],
+ "graph_sha256": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+ "hubs": {
+  "3-4-mount": {
+   "class": "SHOULDER",
+   "hub": "3-4-mount",
+   "name": null,
+   "numbers": [
+    ["hubs/3-4-mount/share/SHOULDER", 0.35801, "35.8%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/3-4-mount/seat_share/TOP/SHOULDER", 0.253057, "25.3%"],
+    ["hubs/3-4-mount/seat_share/BOTTOM/SHOULDER", 0.104953, "10.5%"],
+    ["hubs/3-4-mount/robustness_n3/perturbation_hits", 140, "140"],
+    ["hubs/3-4-mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/3-4-mount/mu_time", 0.004075, "0.41%"]
+   ],
+   "phrase": "middle game",
+   "position": "3-4 Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), 3-4 Mount is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 35.8% of the rolls that end, vs 28.1% from standing — 25.3% by the player who started on top, 10.5% by the one who started underneath; being unnamed holds in 140/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.41% of a long fight's time."
+  },
+  "50-50-guard": {
+   "class": "LEG",
+   "hub": "50-50-guard",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/50-50-guard/share/LEG", 0.471998, "47.2%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/50-50-guard/seat_share/TOP/LEG", 0.283552, "28.4%"],
+    ["hubs/50-50-guard/seat_share/BOTTOM/LEG", 0.188446, "18.8%"],
+    ["hubs/50-50-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/50-50-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/50-50-guard/mu_time", 0.000961, "0.096%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "50-50 Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), 50-50 Guard is leg-lock territory for both players: 47.2% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 28.4% by the player who started on top, 18.8% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.096% of a long fight's time."
+  },
+  "anaconda-control": {
+   "class": "CHOKE",
+   "hub": "anaconda-control",
+   "name": null,
+   "numbers": [
+    ["hubs/anaconda-control/share/CHOKE", 0.620899, "62.1%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/anaconda-control/seat_share/TOP/CHOKE", 0.456475, "45.6%"],
+    ["hubs/anaconda-control/seat_share/BOTTOM/CHOKE", 0.164425, "16.4%"],
+    ["hubs/anaconda-control/robustness_n3/perturbation_hits", 142, "142"],
+    ["hubs/anaconda-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/anaconda-control/mu_time", 0.000623, "0.062%"]
+   ],
+   "phrase": "middle game",
+   "position": "Anaconda Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Anaconda Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 62.1% of the rolls that end, vs 46.4% from standing — 45.6% by the player who started on top, 16.4% by the one who started underneath; being unnamed holds in 142/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.062% of a long fight's time."
+  },
+  "aoki-lock-control": {
+   "class": "LEG",
+   "hub": "aoki-lock-control",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/aoki-lock-control/share/LEG", 0.145893, "14.6%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/aoki-lock-control/seat_share/TOP/LEG", 0.123637, "12.4%"],
+    ["hubs/aoki-lock-control/seat_share/BOTTOM/LEG", 0.022256, "2.2%"],
+    ["hubs/aoki-lock-control/robustness_n3/perturbation_hits", 198, "198"],
+    ["hubs/aoki-lock-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/aoki-lock-control/mu_time", 0.000389, "0.039%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Aoki Lock Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Aoki Lock Control is leg-lock territory for the top player: 14.6% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 12.4% by the player who started on top, 2.2% by the one who started underneath; it deals leg locks itself (core); the name holds in 198/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.039% of a long fight's time."
+  },
+  "armbar-control": {
+   "class": "ARM",
+   "hub": "armbar-control",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/armbar-control/share/ARM", 0.401325, "40.1%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/armbar-control/seat_share/TOP/ARM", 0.338307, "33.8%"],
+    ["hubs/armbar-control/seat_share/BOTTOM/ARM", 0.063017, "6.3%"],
+    ["hubs/armbar-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/armbar-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/armbar-control/mu_time", 0.010152, "1.0%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "Armbar Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Armbar Control is arm-lock territory for the top player: 40.1% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 33.8% by the player who started on top, 6.3% by the one who started underneath; it deals arm locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 1.0% of a long fight's time."
+  },
+  "ashi-garami": {
+   "class": "LEG",
+   "hub": "ashi-garami",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/ashi-garami/share/LEG", 0.432526, "43.3%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/ashi-garami/seat_share/TOP/LEG", 0.150021, "15.0%"],
+    ["hubs/ashi-garami/seat_share/BOTTOM/LEG", 0.282505, "28.3%"],
+    ["hubs/ashi-garami/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/ashi-garami/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/ashi-garami/mu_time", 0.000562, "0.056%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Ashi Garami",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Ashi Garami is leg-lock territory for both players: 43.3% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 15.0% by the player who started on top, 28.3% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.056% of a long fight's time."
+  },
+  "back-control": {
+   "class": "CHOKE",
+   "hub": "back-control",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/back-control/share/CHOKE", 0.612055, "61.2%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/back-control/seat_share/TOP/CHOKE", 0.482701, "48.3%"],
+    ["hubs/back-control/seat_share/BOTTOM/CHOKE", 0.129354, "12.9%"],
+    ["hubs/back-control/robustness_n3/perturbation_hits", 162, "162"],
+    ["hubs/back-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/back-control/mu_time", 0.040481, "4.0%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Back Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Back Control is choke territory for the top player: 61.2% of the rolls that end from here end in a choke, vs 46.4% from standing — 48.3% by the player who started on top, 12.9% by the one who started underneath; it deals chokes itself (core); the name holds in 162/200 perturbations; with the origin filter off it is middle game; under the shipped initiative rule it is middle game; in gi it is middle game; it holds 4.0% of a long fight's time."
+  },
+  "backside-50-50": {
+   "class": "LEG",
+   "hub": "backside-50-50",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/backside-50-50/share/LEG", 0.738532, "73.9%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/backside-50-50/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/backside-50-50/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/backside-50-50/mu_time", 6e-05, "0.006%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Backside 50-50",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Backside 50-50 is leg-lock territory for both players: 73.9% of the rolls that end from here end in a leg lock, vs 6.6% from standing; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off and under the shipped initiative rule; in gi it is leg-lock territory for the top player; it holds 0.006% of a long fight's time."
+  },
+  "body-lock": {
+   "class": "CHOKE",
+   "hub": "body-lock",
+   "name": null,
+   "numbers": [
+    ["hubs/body-lock/share/CHOKE", 0.483241, "48.3%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/body-lock/seat_share/TOP/CHOKE", 0.296057, "29.6%"],
+    ["hubs/body-lock/seat_share/BOTTOM/CHOKE", 0.187184, "18.7%"],
+    ["hubs/body-lock/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/body-lock/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/body-lock/mu_time", 0.000527, "0.053%"]
+   ],
+   "phrase": "middle game",
+   "position": "Body Lock",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Body Lock is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 48.3% of the rolls that end, vs 46.4% from standing — 29.6% by the player who started on top, 18.7% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.053% of a long fight's time."
+  },
+  "body-triangle": {
+   "class": "CHOKE",
+   "hub": "body-triangle",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/body-triangle/share/CHOKE", 0.760439, "76.0%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/body-triangle/seat_share/TOP/CHOKE", 0.534974, "53.5%"],
+    ["hubs/body-triangle/seat_share/BOTTOM/CHOKE", 0.225465, "22.5%"],
+    ["hubs/body-triangle/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/body-triangle/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/body-triangle/mu_time", 0.000259, "0.026%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Body Triangle",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Body Triangle is choke territory for the top player: 76.0% of the rolls that end from here end in a choke, vs 46.4% from standing — 53.5% by the player who started on top, 22.5% by the one who started underneath; it deals chokes itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.026% of a long fight's time."
+  },
+  "buggy-choke": {
+   "class": "CHOKE",
+   "hub": "buggy-choke",
+   "name": null,
+   "numbers": [
+    ["hubs/buggy-choke/share/CHOKE", 0.526569, "52.7%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/buggy-choke/seat_share/TOP/CHOKE", 0.346875, "34.7%"],
+    ["hubs/buggy-choke/seat_share/BOTTOM/CHOKE", 0.179694, "18.0%"],
+    ["hubs/buggy-choke/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/buggy-choke/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/buggy-choke/mu_time", 0.003644, "0.36%"]
+   ],
+   "phrase": "middle game",
+   "position": "Buggy Choke",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Buggy Choke is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 52.7% of the rolls that end, vs 46.4% from standing — 34.7% by the player who started on top, 18.0% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.36% of a long fight's time."
+  },
+  "butterfly-guard": {
+   "class": "SHOULDER",
+   "hub": "butterfly-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/butterfly-guard/share/SHOULDER", 0.325394, "32.5%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/butterfly-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/butterfly-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/butterfly-guard/mu_time", 0.004644, "0.46%"]
+   ],
+   "phrase": "middle game",
+   "position": "Butterfly Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Butterfly Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 32.5% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.46% of a long fight's time."
+  },
+  "butterfly-half-guard": {
+   "class": "SHOULDER",
+   "hub": "butterfly-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/butterfly-half-guard/share/SHOULDER", 0.316232, "31.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/butterfly-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/butterfly-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/butterfly-half-guard/mu_time", 0.000294, "0.029%"]
+   ],
+   "phrase": "middle game",
+   "position": "Butterfly Half Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Butterfly Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 31.6% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.029% of a long fight's time."
+  },
+  "butterfly-hook-control": {
+   "class": "SHOULDER",
+   "hub": "butterfly-hook-control",
+   "name": null,
+   "numbers": [
+    ["hubs/butterfly-hook-control/share/SHOULDER", 0.322925, "32.3%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/butterfly-hook-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/butterfly-hook-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/butterfly-hook-control/mu_time", 0.000196, "0.02%"]
+   ],
+   "phrase": "middle game",
+   "position": "Butterfly Hook Control",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Butterfly Hook Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 32.3% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.02% of a long fight's time."
+  },
+  "carni": {
+   "class": "LEG",
+   "hub": "carni",
+   "name": "LEG|BOTTOM",
+   "numbers": [
+    ["hubs/carni/share/LEG", 0.344222, "34.4%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/carni/seat_share/TOP/LEG", 0.066372, "6.6%"],
+    ["hubs/carni/seat_share/BOTTOM/LEG", 0.27785, "27.8%"],
+    ["hubs/carni/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/carni/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/carni/mu_time", 1.5e-05, "0.0015%"]
+   ],
+   "phrase": "leg-lock territory for the bottom player",
+   "position": "Carni",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Carni is leg-lock territory for the bottom player: 34.4% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 6.6% by the player who started on top, 27.8% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0015% of a long fight's time."
+  },
+  "chill-dog": {
+   "class": "ARM",
+   "hub": "chill-dog",
+   "name": null,
+   "numbers": [
+    ["hubs/chill-dog/share/ARM", 0.192182, "19.2%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/chill-dog/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/chill-dog/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/chill-dog/mu_time", 2.9e-05, "0.0029%"]
+   ],
+   "phrase": "middle game",
+   "position": "Chill Dog",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Chill Dog is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 19.2% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0029% of a long fight's time."
+  },
+  "clamp-guard": {
+   "class": "ARM",
+   "hub": "clamp-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/clamp-guard/share/ARM", 0.248583, "24.9%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/clamp-guard/seat_share/TOP/ARM", 0.096253, "9.6%"],
+    ["hubs/clamp-guard/seat_share/BOTTOM/ARM", 0.15233, "15.2%"],
+    ["hubs/clamp-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/clamp-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/clamp-guard/mu_time", 0.001134, "0.11%"]
+   ],
+   "phrase": "middle game",
+   "position": "Clamp Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Clamp Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 24.9% of the rolls that end, vs 18.1% from standing — 9.6% by the player who started on top, 15.2% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.11% of a long fight's time."
+  },
+  "clinch": {
+   "class": "CHOKE",
+   "hub": "clinch",
+   "name": null,
+   "numbers": [
+    ["hubs/clinch/share/CHOKE", 0.51144, "51.1%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/clinch/seat_share/TOP/CHOKE", 0.286779, "28.7%"],
+    ["hubs/clinch/seat_share/BOTTOM/CHOKE", 0.224661, "22.5%"],
+    ["hubs/clinch/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/clinch/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/clinch/mu_time", 0.001812, "0.18%"]
+   ],
+   "phrase": "middle game",
+   "position": "Clinch",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Clinch is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 51.1% of the rolls that end, vs 46.4% from standing — 28.7% by the player who started on top, 22.5% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.18% of a long fight's time."
+  },
+  "closed-guard": {
+   "class": "ARM",
+   "hub": "closed-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/closed-guard/share/ARM", 0.225316, "22.5%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/closed-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/closed-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/closed-guard/mu_time", 0.100564, "10.1%"]
+   ],
+   "phrase": "middle game",
+   "position": "Closed Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Closed Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 22.5% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 10.1% of a long fight's time."
+  },
+  "combat-base": {
+   "class": "ARM",
+   "hub": "combat-base",
+   "name": null,
+   "numbers": [
+    ["hubs/combat-base/share/ARM", 0.208611, "20.9%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/combat-base/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/combat-base/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/combat-base/mu_time", 0.02368, "2.4%"]
+   ],
+   "phrase": "middle game",
+   "position": "Combat Base",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Combat Base is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 20.9% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 2.4% of a long fight's time."
+  },
+  "crab-ride": {
+   "class": "CHOKE",
+   "hub": "crab-ride",
+   "name": null,
+   "numbers": [
+    ["hubs/crab-ride/share/CHOKE", 0.589493, "58.9%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/crab-ride/seat_share/TOP/CHOKE", 0.406409, "40.6%"],
+    ["hubs/crab-ride/seat_share/BOTTOM/CHOKE", 0.183084, "18.3%"],
+    ["hubs/crab-ride/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/crab-ride/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/crab-ride/mu_time", 2.9e-05, "0.0029%"]
+   ],
+   "phrase": "middle game",
+   "position": "Crab Ride",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Crab Ride is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 58.9% of the rolls that end, vs 46.4% from standing — 40.6% by the player who started on top, 18.3% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0029% of a long fight's time."
+  },
+  "crackhead-control": {
+   "class": "SHOULDER",
+   "hub": "crackhead-control",
+   "name": null,
+   "numbers": [
+    ["hubs/crackhead-control/share/SHOULDER", 0.293962, "29.4%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/crackhead-control/seat_share/TOP/SHOULDER", 0.117882, "11.8%"],
+    ["hubs/crackhead-control/seat_share/BOTTOM/SHOULDER", 0.17608, "17.6%"],
+    ["hubs/crackhead-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/crackhead-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/crackhead-control/mu_time", 4.2e-05, "0.0042%"]
+   ],
+   "phrase": "middle game",
+   "position": "Crackhead Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Crackhead Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 29.4% of the rolls that end, vs 28.1% from standing — 11.8% by the player who started on top, 17.6% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0042% of a long fight's time."
+  },
+  "cross-ashi-garami": {
+   "class": "LEG",
+   "hub": "cross-ashi-garami",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/cross-ashi-garami/share/LEG", 0.50551, "50.6%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/cross-ashi-garami/seat_share/TOP/LEG", 0.457519, "45.8%"],
+    ["hubs/cross-ashi-garami/seat_share/BOTTOM/LEG", 0.04799, "4.8%"],
+    ["hubs/cross-ashi-garami/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/cross-ashi-garami/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/cross-ashi-garami/mu_time", 0.000128, "0.013%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Cross Ashi-Garami",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Cross Ashi-Garami is leg-lock territory for the top player: 50.6% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 45.8% by the player who started on top, 4.8% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is leg-lock territory for both players; it holds 0.013% of a long fight's time."
+  },
+  "cross-body-ride": {
+   "class": "CHOKE",
+   "hub": "cross-body-ride",
+   "name": null,
+   "numbers": [
+    ["hubs/cross-body-ride/share/CHOKE", 0.526162, "52.6%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/cross-body-ride/seat_share/TOP/CHOKE", 0.369716, "37.0%"],
+    ["hubs/cross-body-ride/seat_share/BOTTOM/CHOKE", 0.156446, "15.6%"],
+    ["hubs/cross-body-ride/robustness_n3/perturbation_hits", 115, "115"],
+    ["hubs/cross-body-ride/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/cross-body-ride/mu_time", 0.000533, "0.053%"]
+   ],
+   "phrase": "middle game",
+   "position": "Cross Body Ride",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Cross Body Ride is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 52.6% of the rolls that end, vs 46.4% from standing — 37.0% by the player who started on top, 15.6% by the one who started underneath; being unnamed holds in 115/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.053% of a long fight's time."
+  },
+  "crucifix": {
+   "class": "CHOKE",
+   "hub": "crucifix",
+   "name": null,
+   "numbers": [
+    ["hubs/crucifix/share/CHOKE", 0.553664, "55.4%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/crucifix/seat_share/TOP/CHOKE", 0.42377, "42.4%"],
+    ["hubs/crucifix/seat_share/BOTTOM/CHOKE", 0.129894, "13.0%"],
+    ["hubs/crucifix/robustness_n3/perturbation_hits", 183, "183"],
+    ["hubs/crucifix/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/crucifix/mu_time", 0.001316, "0.13%"]
+   ],
+   "phrase": "middle game",
+   "position": "Crucifix",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Crucifix is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 55.4% of the rolls that end, vs 46.4% from standing — 42.4% by the player who started on top, 13.0% by the one who started underneath; being unnamed holds in 183/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.13% of a long fight's time."
+  },
+  "darce-control": {
+   "class": "CHOKE",
+   "hub": "darce-control",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/darce-control/share/CHOKE", 0.619378, "61.9%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/darce-control/seat_share/TOP/CHOKE", 0.473068, "47.3%"],
+    ["hubs/darce-control/seat_share/BOTTOM/CHOKE", 0.146311, "14.6%"],
+    ["hubs/darce-control/robustness_n3/perturbation_hits", 121, "121"],
+    ["hubs/darce-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/darce-control/mu_time", 0.000927, "0.093%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Darce Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Darce Control is choke territory for the top player: 61.9% of the rolls that end from here end in a choke, vs 46.4% from standing — 47.3% by the player who started on top, 14.6% by the one who started underneath; it deals chokes itself (core); the name holds in 121/200 perturbations; with the origin filter off it is middle game; under the shipped initiative rule it is middle game; in gi it is middle game; it holds 0.093% of a long fight's time."
+  },
+  "de-la-riva-guard": {
+   "class": "LEG",
+   "hub": "de-la-riva-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/de-la-riva-guard/share/LEG", 0.083399, "8.3%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/de-la-riva-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/de-la-riva-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/de-la-riva-guard/mu_time", 0.006396, "0.64%"]
+   ],
+   "phrase": "middle game",
+   "position": "De La Riva Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), De La Riva Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 8.3% of the rolls that end, vs 6.6% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.64% of a long fight's time."
+  },
+  "dead-orchard-control": {
+   "class": "CHOKE",
+   "hub": "dead-orchard-control",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/dead-orchard-control/share/CHOKE", 0.633671, "63.4%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/dead-orchard-control/seat_share/TOP/CHOKE", 0.490789, "49.1%"],
+    ["hubs/dead-orchard-control/seat_share/BOTTOM/CHOKE", 0.142883, "14.3%"],
+    ["hubs/dead-orchard-control/robustness_n3/perturbation_hits", 177, "177"],
+    ["hubs/dead-orchard-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/dead-orchard-control/mu_time", 5.1e-05, "0.0051%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Dead Orchard Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Dead Orchard Control is choke territory for the top player: 63.4% of the rolls that end from here end in a choke, vs 46.4% from standing — 49.1% by the player who started on top, 14.3% by the one who started underneath; it deals chokes itself (core); the name holds in 177/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.0051% of a long fight's time."
+  },
+  "deep-half-guard": {
+   "class": "LEG",
+   "hub": "deep-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/deep-half-guard/share/LEG", 0.102735, "10.3%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/deep-half-guard/robustness_n3/perturbation_hits", 183, "183"],
+    ["hubs/deep-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/deep-half-guard/mu_time", 0.012941, "1.3%"]
+   ],
+   "phrase": "middle game",
+   "position": "Deep Half Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Deep Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 10.3% of the rolls that end, vs 6.6% from standing; being unnamed holds in 183/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 1.3% of a long fight's time."
+  },
+  "diamond-guard": {
+   "class": "ARM",
+   "hub": "diamond-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/diamond-guard/share/ARM", 0.217516, "21.8%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/diamond-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/diamond-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/diamond-guard/mu_time", 0.000385, "0.038%"]
+   ],
+   "phrase": "middle game",
+   "position": "Diamond Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Diamond Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 21.8% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.038% of a long fight's time."
+  },
+  "dogfight-position": {
+   "class": "SHOULDER",
+   "hub": "dogfight-position",
+   "name": null,
+   "numbers": [
+    ["hubs/dogfight-position/share/SHOULDER", 0.313693, "31.4%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/dogfight-position/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/dogfight-position/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/dogfight-position/mu_time", 0.006169, "0.62%"]
+   ],
+   "phrase": "middle game",
+   "position": "Dogfight Position",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Dogfight Position is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 31.4% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.62% of a long fight's time."
+  },
+  "double-jump": {
+   "class": "SHOULDER",
+   "hub": "double-jump",
+   "name": null,
+   "numbers": [
+    ["hubs/double-jump/share/SHOULDER", 0.326052, "32.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/double-jump/seat_share/TOP/SHOULDER", 0.194332, "19.4%"],
+    ["hubs/double-jump/seat_share/BOTTOM/SHOULDER", 0.131721, "13.2%"],
+    ["hubs/double-jump/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/double-jump/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/double-jump/mu_time", 0.001126, "0.11%"]
+   ],
+   "phrase": "middle game",
+   "position": "Double Jump",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Double Jump is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 32.6% of the rolls that end, vs 28.1% from standing — 19.4% by the player who started on top, 13.2% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.11% of a long fight's time."
+  },
+  "double-unders": {
+   "class": "SHOULDER",
+   "hub": "double-unders",
+   "name": null,
+   "numbers": [
+    ["hubs/double-unders/share/SHOULDER", 0.307549, "30.8%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/double-unders/seat_share/TOP/SHOULDER", 0.181839, "18.2%"],
+    ["hubs/double-unders/seat_share/BOTTOM/SHOULDER", 0.12571, "12.6%"],
+    ["hubs/double-unders/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/double-unders/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/double-unders/mu_time", 0.001353, "0.14%"]
+   ],
+   "phrase": "middle game",
+   "position": "Double Unders",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Double Unders is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 30.8% of the rolls that end, vs 28.1% from standing — 18.2% by the player who started on top, 12.6% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.14% of a long fight's time."
+  },
+  "electric-chair": {
+   "class": "HIP/GROIN",
+   "hub": "electric-chair",
+   "name": "HIP/GROIN|BOTTOM",
+   "numbers": [
+    ["hubs/electric-chair/share/HIP/GROIN", 0.08908, "8.9%"],
+    ["baselines/primary/standing_me/HIP/GROIN", 0.000929, "0.093%"],
+    ["hubs/electric-chair/seat_share/TOP/HIP/GROIN", 0.000636, "0.064%"],
+    ["hubs/electric-chair/seat_share/BOTTOM/HIP/GROIN", 0.088445, "8.8%"],
+    ["hubs/electric-chair/robustness_n3/perturbation_hits", 198, "198"],
+    ["hubs/electric-chair/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/electric-chair/mu_time", 0.001098, "0.11%"]
+   ],
+   "phrase": "hip/groin-lock territory for the bottom player",
+   "position": "Electric Chair",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Electric Chair is hip/groin-lock territory for the bottom player: 8.9% of the rolls that end from here end in a hip or groin lock, vs 0.093% from standing — 0.064% by the player who started on top, 8.8% by the one who started underneath; it deals hip and groin locks itself (core); the name holds in 198/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.11% of a long fight's time."
+  },
+  "estima-lock-control": {
+   "class": "LEG",
+   "hub": "estima-lock-control",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/estima-lock-control/share/LEG", 0.305034, "30.5%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/estima-lock-control/seat_share/TOP/LEG", 0.255297, "25.5%"],
+    ["hubs/estima-lock-control/seat_share/BOTTOM/LEG", 0.049737, "5.0%"],
+    ["hubs/estima-lock-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/estima-lock-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/estima-lock-control/mu_time", 0.000262, "0.026%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Estima Lock Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Estima Lock Control is leg-lock territory for the top player: 30.5% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 25.5% by the player who started on top, 5.0% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.026% of a long fight's time."
+  },
+  "feet-on-hips-guard": {
+   "class": "SHOULDER",
+   "hub": "feet-on-hips-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/feet-on-hips-guard/share/SHOULDER", 0.298365, "29.8%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/feet-on-hips-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/feet-on-hips-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/feet-on-hips-guard/mu_time", 0.007502, "0.75%"]
+   ],
+   "phrase": "middle game",
+   "position": "Feet on Hips Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Feet on Hips Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 29.8% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.75% of a long fight's time."
+  },
+  "flattened-half-guard": {
+   "class": "SHOULDER",
+   "hub": "flattened-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/flattened-half-guard/share/SHOULDER", 0.352287, "35.2%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/flattened-half-guard/seat_share/TOP/SHOULDER", 0.229772, "23.0%"],
+    ["hubs/flattened-half-guard/seat_share/BOTTOM/SHOULDER", 0.122515, "12.3%"],
+    ["hubs/flattened-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/flattened-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/flattened-half-guard/mu_time", 0.013296, "1.3%"]
+   ],
+   "phrase": "middle game",
+   "position": "Flattened Half Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Flattened Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 35.2% of the rolls that end, vs 28.1% from standing — 23.0% by the player who started on top, 12.3% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 1.3% of a long fight's time."
+  },
+  "front-headlock": {
+   "class": "CHOKE",
+   "hub": "front-headlock",
+   "name": null,
+   "numbers": [
+    ["hubs/front-headlock/share/CHOKE", 0.604769, "60.5%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/front-headlock/seat_share/TOP/CHOKE", 0.408648, "40.9%"],
+    ["hubs/front-headlock/seat_share/BOTTOM/CHOKE", 0.19612, "19.6%"],
+    ["hubs/front-headlock/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/front-headlock/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/front-headlock/mu_time", 0.006847, "0.68%"]
+   ],
+   "phrase": "middle game",
+   "position": "Front Headlock",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Front Headlock is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 60.5% of the rolls that end, vs 46.4% from standing — 40.9% by the player who started on top, 19.6% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.68% of a long fight's time."
+  },
+  "gift-wrap": {
+   "class": "CHOKE",
+   "hub": "gift-wrap",
+   "name": null,
+   "numbers": [
+    ["hubs/gift-wrap/share/CHOKE", 0.576045, "57.6%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/gift-wrap/seat_share/TOP/CHOKE", 0.431311, "43.1%"],
+    ["hubs/gift-wrap/seat_share/BOTTOM/CHOKE", 0.144734, "14.5%"],
+    ["hubs/gift-wrap/robustness_n3/perturbation_hits", 183, "183"],
+    ["hubs/gift-wrap/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/gift-wrap/mu_time", 0.004571, "0.46%"]
+   ],
+   "phrase": "middle game",
+   "position": "Gift Wrap",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Gift Wrap is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 57.6% of the rolls that end, vs 46.4% from standing — 43.1% by the player who started on top, 14.5% by the one who started underneath; being unnamed holds in 183/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.46% of a long fight's time."
+  },
+  "gogoplata-control": {
+   "class": "CHOKE",
+   "hub": "gogoplata-control",
+   "name": null,
+   "numbers": [
+    ["hubs/gogoplata-control/share/CHOKE", 0.509513, "51.0%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/gogoplata-control/seat_share/TOP/CHOKE", 0.196032, "19.6%"],
+    ["hubs/gogoplata-control/seat_share/BOTTOM/CHOKE", 0.313481, "31.3%"],
+    ["hubs/gogoplata-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/gogoplata-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/gogoplata-control/mu_time", 3.5e-05, "0.0035%"]
+   ],
+   "phrase": "middle game",
+   "position": "Gogoplata Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Gogoplata Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 51.0% of the rolls that end, vs 46.4% from standing — 19.6% by the player who started on top, 31.3% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0035% of a long fight's time."
+  },
+  "grasshopper-guard": {
+   "class": "LEG",
+   "hub": "grasshopper-guard",
+   "name": "LEG|BOTTOM",
+   "numbers": [
+    ["hubs/grasshopper-guard/share/LEG", 0.175101, "17.5%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/grasshopper-guard/seat_share/TOP/LEG", 0.050338, "5.0%"],
+    ["hubs/grasshopper-guard/seat_share/BOTTOM/LEG", 0.124763, "12.5%"],
+    ["hubs/grasshopper-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/grasshopper-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/grasshopper-guard/mu_time", 6.8e-05, "0.0068%"]
+   ],
+   "phrase": "leg-lock territory for the bottom player",
+   "position": "Grasshopper Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Grasshopper Guard is leg-lock territory for the bottom player: 17.5% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 5.0% by the player who started on top, 12.5% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0068% of a long fight's time."
+  },
+  "guillotine-control": {
+   "class": "CHOKE",
+   "hub": "guillotine-control",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/guillotine-control/share/CHOKE", 0.612482, "61.2%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/guillotine-control/seat_share/TOP/CHOKE", 0.468397, "46.8%"],
+    ["hubs/guillotine-control/seat_share/BOTTOM/CHOKE", 0.144086, "14.4%"],
+    ["hubs/guillotine-control/robustness_n3/perturbation_hits", 125, "125"],
+    ["hubs/guillotine-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/guillotine-control/mu_time", 0.001108, "0.11%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Guillotine Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Guillotine Control is choke territory for the top player: 61.2% of the rolls that end from here end in a choke, vs 46.4% from standing — 46.8% by the player who started on top, 14.4% by the one who started underneath; it deals chokes itself (core); the name holds in 125/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 0.11% of a long fight's time."
+  },
+  "half-butterfly": {
+   "class": "SHOULDER",
+   "hub": "half-butterfly",
+   "name": null,
+   "numbers": [
+    ["hubs/half-butterfly/share/SHOULDER", 0.313567, "31.4%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/half-butterfly/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/half-butterfly/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/half-butterfly/mu_time", 0.000308, "0.031%"]
+   ],
+   "phrase": "middle game",
+   "position": "Half Butterfly",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Half Butterfly is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 31.4% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.031% of a long fight's time."
+  },
+  "half-guard": {
+   "class": "LEG",
+   "hub": "half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/half-guard/share/LEG", 0.093737, "9.4%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/half-guard/mu_time", 0.208411, "20.8%"]
+   ],
+   "phrase": "middle game",
+   "position": "Half Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 9.4% of the rolls that end, vs 6.6% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 20.8% of a long fight's time."
+  },
+  "harness": {
+   "class": "CHOKE",
+   "hub": "harness",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/harness/share/CHOKE", 0.667999, "66.8%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/harness/seat_share/TOP/CHOKE", 0.529763, "53.0%"],
+    ["hubs/harness/seat_share/BOTTOM/CHOKE", 0.138237, "13.8%"],
+    ["hubs/harness/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/harness/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/harness/mu_time", 0.002551, "0.26%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Harness",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Harness is choke territory for the top player: 66.8% of the rolls that end from here end in a choke, vs 46.4% from standing — 53.0% by the player who started on top, 13.8% by the one who started underneath; it deals chokes itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 0.26% of a long fight's time."
+  },
+  "headquarters-position": {
+   "class": "LEG",
+   "hub": "headquarters-position",
+   "name": null,
+   "numbers": [
+    ["hubs/headquarters-position/share/LEG", 0.112183, "11.2%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/headquarters-position/robustness_n3/perturbation_hits", 178, "178"],
+    ["hubs/headquarters-position/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/headquarters-position/mu_time", 0.00773, "0.77%"]
+   ],
+   "phrase": "middle game",
+   "position": "Headquarters Position",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Headquarters Position is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 11.2% of the rolls that end, vs 6.6% from standing; being unnamed holds in 178/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.77% of a long fight's time."
+  },
+  "high-mount": {
+   "class": "ARM",
+   "hub": "high-mount",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/high-mount/share/ARM", 0.255338, "25.5%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/high-mount/seat_share/TOP/ARM", 0.204204, "20.4%"],
+    ["hubs/high-mount/seat_share/BOTTOM/ARM", 0.051134, "5.1%"],
+    ["hubs/high-mount/robustness_n3/perturbation_hits", 183, "183"],
+    ["hubs/high-mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/high-mount/mu_time", 0.007864, "0.79%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "High Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), High Mount is arm-lock territory for the top player: 25.5% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 20.4% by the player who started on top, 5.1% by the one who started underneath; it deals arm locks itself (core); the name holds in 183/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 0.79% of a long fight's time."
+  },
+  "hindulotine": {
+   "class": "CHOKE",
+   "hub": "hindulotine",
+   "name": null,
+   "numbers": [
+    ["hubs/hindulotine/share/CHOKE", 0.62396, "62.4%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/hindulotine/seat_share/TOP/CHOKE", 0.370501, "37.1%"],
+    ["hubs/hindulotine/seat_share/BOTTOM/CHOKE", 0.25346, "25.3%"],
+    ["hubs/hindulotine/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/hindulotine/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/hindulotine/mu_time", 0.000401, "0.04%"]
+   ],
+   "phrase": "middle game",
+   "position": "Hindulotine",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Hindulotine is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 62.4% of the rolls that end, vs 46.4% from standing — 37.1% by the player who started on top, 25.3% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.04% of a long fight's time."
+  },
+  "honey-hole": {
+   "class": "LEG",
+   "hub": "honey-hole",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/honey-hole/share/LEG", 0.534064, "53.4%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/honey-hole/seat_share/TOP/LEG", 0.479289, "47.9%"],
+    ["hubs/honey-hole/seat_share/BOTTOM/LEG", 0.054775, "5.5%"],
+    ["hubs/honey-hole/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/honey-hole/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/honey-hole/mu_time", 0.000301, "0.03%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Honey Hole",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Honey Hole is leg-lock territory for the top player: 53.4% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 47.9% by the player who started on top, 5.5% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.03% of a long fight's time."
+  },
+  "inside-ashi-garami": {
+   "class": "LEG",
+   "hub": "inside-ashi-garami",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/inside-ashi-garami/share/LEG", 0.388051, "38.8%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/inside-ashi-garami/seat_share/TOP/LEG", 0.324558, "32.5%"],
+    ["hubs/inside-ashi-garami/seat_share/BOTTOM/LEG", 0.063493, "6.3%"],
+    ["hubs/inside-ashi-garami/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/inside-ashi-garami/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/inside-ashi-garami/mu_time", 0.002656, "0.27%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Inside Ashi-Garami",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Inside Ashi-Garami is leg-lock territory for the top player: 38.8% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 32.5% by the player who started on top, 6.3% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is leg-lock territory for both players; it holds 0.27% of a long fight's time."
+  },
+  "inside-sankaku": {
+   "class": "LEG",
+   "hub": "inside-sankaku",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/inside-sankaku/share/LEG", 0.524401, "52.4%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/inside-sankaku/seat_share/TOP/LEG", 0.448096, "44.8%"],
+    ["hubs/inside-sankaku/seat_share/BOTTOM/LEG", 0.076305, "7.6%"],
+    ["hubs/inside-sankaku/robustness_n3/perturbation_hits", 162, "162"],
+    ["hubs/inside-sankaku/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/inside-sankaku/mu_time", 0.000583, "0.058%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Inside Sankaku",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Inside Sankaku is leg-lock territory for the top player: 52.4% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 44.8% by the player who started on top, 7.6% by the one who started underneath; it deals leg locks itself (core); the name holds in 162/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.058% of a long fight's time."
+  },
+  "inverted-guard": {
+   "class": "SHOULDER",
+   "hub": "inverted-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/inverted-guard/share/SHOULDER", 0.332092, "33.2%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/inverted-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/inverted-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/inverted-guard/mu_time", 0.00026, "0.026%"]
+   ],
+   "phrase": "middle game",
+   "position": "Inverted Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Inverted Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 33.2% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.026% of a long fight's time."
+  },
+  "invisible-collar": {
+   "class": "CHOKE",
+   "hub": "invisible-collar",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/invisible-collar/share/CHOKE", 0.768647, "76.9%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/invisible-collar/seat_share/TOP/CHOKE", 0.685708, "68.6%"],
+    ["hubs/invisible-collar/seat_share/BOTTOM/CHOKE", 0.082939, "8.3%"],
+    ["hubs/invisible-collar/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/invisible-collar/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/invisible-collar/mu_time", 2.4e-05, "0.0024%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Invisible Collar",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Invisible Collar is choke territory for the top player: 76.9% of the rolls that end from here end in a choke, vs 46.4% from standing — 68.6% by the player who started on top, 8.3% by the one who started underneath; it deals chokes itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0024% of a long fight's time."
+  },
+  "jailbreak": {
+   "class": "SHOULDER",
+   "hub": "jailbreak",
+   "name": null,
+   "numbers": [
+    ["hubs/jailbreak/share/SHOULDER", 0.29212, "29.2%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/jailbreak/seat_share/TOP/SHOULDER", 0.176538, "17.7%"],
+    ["hubs/jailbreak/seat_share/BOTTOM/SHOULDER", 0.115581, "11.6%"],
+    ["hubs/jailbreak/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/jailbreak/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/jailbreak/mu_time", 0.003388, "0.34%"]
+   ],
+   "phrase": "middle game",
+   "position": "Jailbreak",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Jailbreak is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 29.2% of the rolls that end, vs 28.1% from standing — 17.7% by the player who started on top, 11.6% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.34% of a long fight's time."
+  },
+  "k-guard": {
+   "class": "LEG",
+   "hub": "k-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/k-guard/share/LEG", 0.115852, "11.6%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/k-guard/robustness_n3/perturbation_hits", 199, "199"],
+    ["hubs/k-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/k-guard/mu_time", 0.006871, "0.69%"]
+   ],
+   "phrase": "middle game",
+   "position": "K-Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), K-Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 11.6% of the rolls that end, vs 6.6% from standing; being unnamed holds in 199/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.69% of a long fight's time."
+  },
+  "kesa-gatame": {
+   "class": "SHOULDER",
+   "hub": "kesa-gatame",
+   "name": null,
+   "numbers": [
+    ["hubs/kesa-gatame/share/SHOULDER", 0.346486, "34.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/kesa-gatame/seat_share/TOP/SHOULDER", 0.259633, "26.0%"],
+    ["hubs/kesa-gatame/seat_share/BOTTOM/SHOULDER", 0.086853, "8.7%"],
+    ["hubs/kesa-gatame/robustness_n3/perturbation_hits", 183, "183"],
+    ["hubs/kesa-gatame/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/kesa-gatame/mu_time", 0.005448, "0.54%"]
+   ],
+   "phrase": "middle game",
+   "position": "Kesa Gatame",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Kesa Gatame is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 34.6% of the rolls that end, vs 28.1% from standing — 26.0% by the player who started on top, 8.7% by the one who started underneath; being unnamed holds in 183/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.54% of a long fight's time."
+  },
+  "kimura-trap": {
+   "class": "SHOULDER",
+   "hub": "kimura-trap",
+   "name": "SHOULDER|BOTTOM",
+   "numbers": [
+    ["hubs/kimura-trap/share/SHOULDER", 0.403023, "40.3%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/kimura-trap/seat_share/TOP/SHOULDER", 0.119625, "12.0%"],
+    ["hubs/kimura-trap/seat_share/BOTTOM/SHOULDER", 0.283398, "28.3%"],
+    ["hubs/kimura-trap/robustness_n3/perturbation_hits", 102, "102"],
+    ["hubs/kimura-trap/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/kimura-trap/mu_time", 0.006819, "0.68%"]
+   ],
+   "phrase": "shoulder-lock territory for the bottom player",
+   "position": "Kimura Trap",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Kimura Trap is shoulder-lock territory for the bottom player: 40.3% of the rolls that end from here end in a shoulder lock, vs 28.1% from standing — 12.0% by the player who started on top, 28.3% by the one who started underneath; it deals shoulder locks itself (core); the name holds in 102/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.68% of a long fight's time."
+  },
+  "knee-on-belly": {
+   "class": "ARM",
+   "hub": "knee-on-belly",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/knee-on-belly/share/ARM", 0.26768, "26.8%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/knee-on-belly/seat_share/TOP/ARM", 0.191589, "19.2%"],
+    ["hubs/knee-on-belly/seat_share/BOTTOM/ARM", 0.076092, "7.6%"],
+    ["hubs/knee-on-belly/robustness_n3/perturbation_hits", 173, "173"],
+    ["hubs/knee-on-belly/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/knee-on-belly/mu_time", 0.015723, "1.6%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "Knee on Belly",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Knee on Belly is arm-lock territory for the top player: 26.8% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 19.2% by the player who started on top, 7.6% by the one who started underneath; it deals arm locks itself (core); the name holds in 173/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 1.6% of a long fight's time."
+  },
+  "knee-shield-half-guard": {
+   "class": "SHOULDER",
+   "hub": "knee-shield-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/knee-shield-half-guard/share/SHOULDER", 0.361688, "36.2%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/knee-shield-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/knee-shield-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/knee-shield-half-guard/mu_time", 0.005129, "0.51%"]
+   ],
+   "phrase": "middle game",
+   "position": "Knee Shield Half Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Knee Shield Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 36.2% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.51% of a long fight's time."
+  },
+  "kneebar-control": {
+   "class": "LEG",
+   "hub": "kneebar-control",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/kneebar-control/share/LEG", 0.487222, "48.7%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/kneebar-control/seat_share/TOP/LEG", 0.303171, "30.3%"],
+    ["hubs/kneebar-control/seat_share/BOTTOM/LEG", 0.184051, "18.4%"],
+    ["hubs/kneebar-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/kneebar-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/kneebar-control/mu_time", 0.001448, "0.14%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Kneebar Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Kneebar Control is leg-lock territory for both players: 48.7% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 30.3% by the player who started on top, 18.4% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off and under the shipped initiative rule; in gi it is leg-lock territory for the top player; it holds 0.14% of a long fight's time."
+  },
+  "kuzure-kesa-gatame": {
+   "class": "SHOULDER",
+   "hub": "kuzure-kesa-gatame",
+   "name": "SHOULDER|TOP",
+   "numbers": [
+    ["hubs/kuzure-kesa-gatame/share/SHOULDER", 0.390665, "39.1%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/kuzure-kesa-gatame/seat_share/TOP/SHOULDER", 0.301047, "30.1%"],
+    ["hubs/kuzure-kesa-gatame/seat_share/BOTTOM/SHOULDER", 0.089618, "9.0%"],
+    ["hubs/kuzure-kesa-gatame/robustness_n3/perturbation_hits", 175, "175"],
+    ["hubs/kuzure-kesa-gatame/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/kuzure-kesa-gatame/mu_time", 0.002347, "0.23%"]
+   ],
+   "phrase": "shoulder-lock territory for the top player",
+   "position": "Kuzure Kesa Gatame",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Kuzure Kesa Gatame is shoulder-lock territory for the top player: 39.1% of the rolls that end from here end in a shoulder lock, vs 28.1% from standing — 30.1% by the player who started on top, 9.0% by the one who started underneath; it deals shoulder locks itself (core); the name holds in 175/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 0.23% of a long fight's time."
+  },
+  "leg-drag-control": {
+   "class": "LEG",
+   "hub": "leg-drag-control",
+   "name": null,
+   "numbers": [
+    ["hubs/leg-drag-control/share/LEG", 0.075453, "7.5%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/leg-drag-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/leg-drag-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/leg-drag-control/mu_time", 0.001436, "0.14%"]
+   ],
+   "phrase": "middle game",
+   "position": "Leg Drag Control",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Leg Drag Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 7.5% of the rolls that end, vs 6.6% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.14% of a long fight's time."
+  },
+  "leg-entanglement": {
+   "class": "LEG",
+   "hub": "leg-entanglement",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/leg-entanglement/share/LEG", 0.349944, "35.0%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/leg-entanglement/seat_share/TOP/LEG", 0.306822, "30.7%"],
+    ["hubs/leg-entanglement/seat_share/BOTTOM/LEG", 0.043122, "4.3%"],
+    ["hubs/leg-entanglement/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/leg-entanglement/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/leg-entanglement/mu_time", 6.7e-05, "0.0067%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Leg Entanglement",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Leg Entanglement is leg-lock territory for the top player: 35.0% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 30.7% by the player who started on top, 4.3% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0067% of a long fight's time."
+  },
+  "leg-hook": {
+   "class": "SHOULDER",
+   "hub": "leg-hook",
+   "name": null,
+   "numbers": [
+    ["hubs/leg-hook/share/SHOULDER", 0.318989, "31.9%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/leg-hook/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/leg-hook/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/leg-hook/mu_time", 0.001434, "0.14%"]
+   ],
+   "phrase": "middle game",
+   "position": "Leg Hook",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Leg Hook is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 31.9% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.14% of a long fight's time."
+  },
+  "leg-knot": {
+   "class": "LEG",
+   "hub": "leg-knot",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/leg-knot/share/LEG", 0.210343, "21.0%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/leg-knot/seat_share/TOP/LEG", 0.13772, "13.8%"],
+    ["hubs/leg-knot/seat_share/BOTTOM/LEG", 0.072623, "7.3%"],
+    ["hubs/leg-knot/robustness_n3/perturbation_hits", 195, "195"],
+    ["hubs/leg-knot/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/leg-knot/mu_time", 3.8e-05, "0.0038%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Leg Knot",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Leg Knot is leg-lock territory for the top player: 21.0% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 13.8% by the player who started on top, 7.3% by the one who started underneath; it deals no leg lock itself; its share is inherited from nearby positions that do (halo); the name holds in 195/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0038% of a long fight's time."
+  },
+  "leg-weave": {
+   "class": "SHOULDER",
+   "hub": "leg-weave",
+   "name": null,
+   "numbers": [
+    ["hubs/leg-weave/share/SHOULDER", 0.30741, "30.7%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/leg-weave/seat_share/TOP/SHOULDER", 0.189451, "18.9%"],
+    ["hubs/leg-weave/seat_share/BOTTOM/SHOULDER", 0.117959, "11.8%"],
+    ["hubs/leg-weave/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/leg-weave/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/leg-weave/mu_time", 0.004738, "0.47%"]
+   ],
+   "phrase": "middle game",
+   "position": "Leg Weave",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Leg Weave is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 30.7% of the rolls that end, vs 28.1% from standing — 18.9% by the player who started on top, 11.8% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.47% of a long fight's time."
+  },
+  "lockdown": {
+   "class": "SHOULDER",
+   "hub": "lockdown",
+   "name": null,
+   "numbers": [
+    ["hubs/lockdown/share/SHOULDER", 0.331422, "33.1%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/lockdown/robustness_n3/perturbation_hits", 191, "191"],
+    ["hubs/lockdown/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/lockdown/mu_time", 0.000481, "0.048%"]
+   ],
+   "phrase": "middle game",
+   "position": "Lockdown",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Lockdown is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 33.1% of the rolls that end, vs 28.1% from standing; being unnamed holds in 191/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.048% of a long fight's time."
+  },
+  "matrix": {
+   "class": "CHOKE",
+   "hub": "matrix",
+   "name": null,
+   "numbers": [
+    ["hubs/matrix/share/CHOKE", 0.547982, "54.8%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/matrix/seat_share/TOP/CHOKE", 0.313525, "31.4%"],
+    ["hubs/matrix/seat_share/BOTTOM/CHOKE", 0.234458, "23.4%"],
+    ["hubs/matrix/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/matrix/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/matrix/mu_time", 0.000478, "0.048%"]
+   ],
+   "phrase": "middle game",
+   "position": "Matrix",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Matrix is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 54.8% of the rolls that end, vs 46.4% from standing — 31.4% by the player who started on top, 23.4% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.048% of a long fight's time."
+  },
+  "meathook": {
+   "class": "ARM",
+   "hub": "meathook",
+   "name": null,
+   "numbers": [
+    ["hubs/meathook/share/ARM", 0.198595, "19.9%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/meathook/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/meathook/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/meathook/mu_time", 5.6e-05, "0.0056%"]
+   ],
+   "phrase": "middle game",
+   "position": "Meathook",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Meathook is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 19.9% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0056% of a long fight's time."
+  },
+  "mission-control": {
+   "class": "ARM",
+   "hub": "mission-control",
+   "name": null,
+   "numbers": [
+    ["hubs/mission-control/share/ARM", 0.254096, "25.4%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/mission-control/seat_share/TOP/ARM", 0.088926, "8.9%"],
+    ["hubs/mission-control/seat_share/BOTTOM/ARM", 0.16517, "16.5%"],
+    ["hubs/mission-control/robustness_n3/perturbation_hits", 173, "173"],
+    ["hubs/mission-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/mission-control/mu_time", 0.000269, "0.027%"]
+   ],
+   "phrase": "middle game",
+   "position": "Mission Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Mission Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 25.4% of the rolls that end, vs 18.1% from standing — 8.9% by the player who started on top, 16.5% by the one who started underneath; being unnamed holds in 173/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.027% of a long fight's time."
+  },
+  "modified-mount": {
+   "class": "SHOULDER",
+   "hub": "modified-mount",
+   "name": "SHOULDER|TOP",
+   "numbers": [
+    ["hubs/modified-mount/share/SHOULDER", 0.469147, "46.9%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/modified-mount/seat_share/TOP/SHOULDER", 0.372643, "37.3%"],
+    ["hubs/modified-mount/seat_share/BOTTOM/SHOULDER", 0.096504, "9.7%"],
+    ["hubs/modified-mount/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/modified-mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/modified-mount/mu_time", 0.002069, "0.21%"]
+   ],
+   "phrase": "shoulder-lock territory for the top player",
+   "position": "Modified Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Modified Mount is shoulder-lock territory for the top player: 46.9% of the rolls that end from here end in a shoulder lock, vs 28.1% from standing — 37.3% by the player who started on top, 9.7% by the one who started underneath; it deals shoulder locks itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.21% of a long fight's time."
+  },
+  "mount": {
+   "class": "ARM",
+   "hub": "mount",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/mount/share/ARM", 0.251259, "25.1%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/mount/seat_share/TOP/ARM", 0.18867, "18.9%"],
+    ["hubs/mount/seat_share/BOTTOM/ARM", 0.062589, "6.3%"],
+    ["hubs/mount/robustness_n3/perturbation_hits", 146, "146"],
+    ["hubs/mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/mount/mu_time", 0.076948, "7.7%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Mount is arm-lock territory for the top player: 25.1% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 18.9% by the player who started on top, 6.3% by the one who started underneath; it deals arm locks itself (core); the name holds in 146/200 perturbations; with the origin filter off it is middle game; under the shipped initiative rule it is middle game; in gi it is middle game; it holds 7.7% of a long fight's time."
+  },
+  "mounted-crucifix": {
+   "class": "ARM",
+   "hub": "mounted-crucifix",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/mounted-crucifix/share/ARM", 0.269986, "27.0%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/mounted-crucifix/seat_share/TOP/ARM", 0.220393, "22.0%"],
+    ["hubs/mounted-crucifix/seat_share/BOTTOM/ARM", 0.049593, "5.0%"],
+    ["hubs/mounted-crucifix/robustness_n3/perturbation_hits", 198, "198"],
+    ["hubs/mounted-crucifix/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/mounted-crucifix/mu_time", 0.000293, "0.029%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "Mounted Crucifix",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Mounted Crucifix is arm-lock territory for the top player: 27.0% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 22.0% by the player who started on top, 5.0% by the one who started underneath; it deals arm locks itself (core); the name holds in 198/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.029% of a long fight's time."
+  },
+  "mounted-triangle": {
+   "class": "CHOKE",
+   "hub": "mounted-triangle",
+   "name": null,
+   "numbers": [
+    ["hubs/mounted-triangle/share/CHOKE", 0.550739, "55.1%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/mounted-triangle/seat_share/TOP/CHOKE", 0.43348, "43.3%"],
+    ["hubs/mounted-triangle/seat_share/BOTTOM/CHOKE", 0.117259, "11.7%"],
+    ["hubs/mounted-triangle/robustness_n3/perturbation_hits", 147, "147"],
+    ["hubs/mounted-triangle/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/mounted-triangle/mu_time", 0.000691, "0.069%"]
+   ],
+   "phrase": "middle game",
+   "position": "Mounted Triangle",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Mounted Triangle is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 55.1% of the rolls that end, vs 46.4% from standing — 43.3% by the player who started on top, 11.7% by the one who started underneath; being unnamed holds in 147/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.069% of a long fight's time."
+  },
+  "new-york": {
+   "class": "ARM",
+   "hub": "new-york",
+   "name": null,
+   "numbers": [
+    ["hubs/new-york/share/ARM", 0.216732, "21.7%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/new-york/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/new-york/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/new-york/mu_time", 0.000174, "0.017%"]
+   ],
+   "phrase": "middle game",
+   "position": "New York",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), New York is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 21.7% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.017% of a long fight's time."
+  },
+  "new-york-control": {
+   "class": "SHOULDER",
+   "hub": "new-york-control",
+   "name": null,
+   "numbers": [
+    ["hubs/new-york-control/share/SHOULDER", 0.403435, "40.3%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/new-york-control/seat_share/TOP/SHOULDER", 0.133454, "13.3%"],
+    ["hubs/new-york-control/seat_share/BOTTOM/SHOULDER", 0.269981, "27.0%"],
+    ["hubs/new-york-control/robustness_n3/perturbation_hits", 147, "147"],
+    ["hubs/new-york-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/new-york-control/mu_time", 6e-05, "0.006%"]
+   ],
+   "phrase": "middle game",
+   "position": "New York Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), New York Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 40.3% of the rolls that end, vs 28.1% from standing — 13.3% by the player who started on top, 27.0% by the one who started underneath; being unnamed holds in 147/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.006% of a long fight's time."
+  },
+  "north-south": {
+   "class": "CHOKE",
+   "hub": "north-south",
+   "name": null,
+   "numbers": [
+    ["hubs/north-south/share/CHOKE", 0.494563, "49.5%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/north-south/seat_share/TOP/CHOKE", 0.342453, "34.2%"],
+    ["hubs/north-south/seat_share/BOTTOM/CHOKE", 0.152109, "15.2%"],
+    ["hubs/north-south/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/north-south/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/north-south/mu_time", 0.009214, "0.92%"]
+   ],
+   "phrase": "middle game",
+   "position": "North-South",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), North-South is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 49.5% of the rolls that end, vs 46.4% from standing — 34.2% by the player who started on top, 15.2% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.92% of a long fight's time."
+  },
+  "old-school": {
+   "class": "ARM",
+   "hub": "old-school",
+   "name": null,
+   "numbers": [
+    ["hubs/old-school/share/ARM", 0.210973, "21.1%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/old-school/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/old-school/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/old-school/mu_time", 0.003077, "0.31%"]
+   ],
+   "phrase": "middle game",
+   "position": "Old School",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Old School is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 21.1% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.31% of a long fight's time."
+  },
+  "omoplata-control": {
+   "class": "SHOULDER",
+   "hub": "omoplata-control",
+   "name": null,
+   "numbers": [
+    ["hubs/omoplata-control/share/SHOULDER", 0.425874, "42.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/omoplata-control/robustness_n3/perturbation_hits", 196, "196"],
+    ["hubs/omoplata-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/omoplata-control/mu_time", 0.001032, "0.1%"]
+   ],
+   "phrase": "middle game",
+   "position": "Omoplata Control",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Omoplata Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 42.6% of the rolls that end, vs 28.1% from standing; being unnamed holds in 196/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.1% of a long fight's time."
+  },
+  "open-guard": {
+   "class": "ARM",
+   "hub": "open-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/open-guard/share/ARM", 0.196521, "19.7%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/open-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/open-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/open-guard/mu_time", 0.068106, "6.8%"]
+   ],
+   "phrase": "middle game",
+   "position": "Open Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Open Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 19.7% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 6.8% of a long fight's time."
+  },
+  "outside-ashi-garami": {
+   "class": "LEG",
+   "hub": "outside-ashi-garami",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/outside-ashi-garami/share/LEG", 0.449062, "44.9%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/outside-ashi-garami/seat_share/TOP/LEG", 0.174401, "17.4%"],
+    ["hubs/outside-ashi-garami/seat_share/BOTTOM/LEG", 0.274661, "27.5%"],
+    ["hubs/outside-ashi-garami/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/outside-ashi-garami/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/outside-ashi-garami/mu_time", 0.000271, "0.027%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Outside Ashi-Garami",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Outside Ashi-Garami is leg-lock territory for both players: 44.9% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 17.4% by the player who started on top, 27.5% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.027% of a long fight's time."
+  },
+  "overhook-control": {
+   "class": "SHOULDER",
+   "hub": "overhook-control",
+   "name": null,
+   "numbers": [
+    ["hubs/overhook-control/share/SHOULDER", 0.366357, "36.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/overhook-control/seat_share/TOP/SHOULDER", 0.243265, "24.3%"],
+    ["hubs/overhook-control/seat_share/BOTTOM/SHOULDER", 0.123092, "12.3%"],
+    ["hubs/overhook-control/robustness_n3/perturbation_hits", 184, "184"],
+    ["hubs/overhook-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/overhook-control/mu_time", 0.002746, "0.27%"]
+   ],
+   "phrase": "middle game",
+   "position": "Overhook Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Overhook Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 36.6% of the rolls that end, vs 28.1% from standing — 24.3% by the player who started on top, 12.3% by the one who started underneath; being unnamed holds in 184/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.27% of a long fight's time."
+  },
+  "overhook-guard": {
+   "class": "SHOULDER",
+   "hub": "overhook-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/overhook-guard/share/SHOULDER", 0.389072, "38.9%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/overhook-guard/seat_share/TOP/SHOULDER", 0.125785, "12.6%"],
+    ["hubs/overhook-guard/seat_share/BOTTOM/SHOULDER", 0.263287, "26.3%"],
+    ["hubs/overhook-guard/robustness_n3/perturbation_hits", 166, "166"],
+    ["hubs/overhook-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/overhook-guard/mu_time", 0.002104, "0.21%"]
+   ],
+   "phrase": "middle game",
+   "position": "Overhook Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Overhook Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 38.9% of the rolls that end, vs 28.1% from standing — 12.6% by the player who started on top, 26.3% by the one who started underneath; being unnamed holds in 166/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.21% of a long fight's time."
+  },
+  "pocket-half-guard": {
+   "class": "SHOULDER",
+   "hub": "pocket-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/pocket-half-guard/share/SHOULDER", 0.322988, "32.3%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/pocket-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/pocket-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/pocket-half-guard/mu_time", 0.001318, "0.13%"]
+   ],
+   "phrase": "middle game",
+   "position": "Pocket Half Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Pocket Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 32.3% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.13% of a long fight's time."
+  },
+  "quarter-guard": {
+   "class": "SHOULDER",
+   "hub": "quarter-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/quarter-guard/share/SHOULDER", 0.378199, "37.8%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/quarter-guard/seat_share/TOP/SHOULDER", 0.254265, "25.4%"],
+    ["hubs/quarter-guard/seat_share/BOTTOM/SHOULDER", 0.123934, "12.4%"],
+    ["hubs/quarter-guard/robustness_n3/perturbation_hits", 194, "194"],
+    ["hubs/quarter-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/quarter-guard/mu_time", 0.002987, "0.3%"]
+   ],
+   "phrase": "middle game",
+   "position": "Quarter Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Quarter Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 37.8% of the rolls that end, vs 28.1% from standing — 25.4% by the player who started on top, 12.4% by the one who started underneath; being unnamed holds in 194/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.3% of a long fight's time."
+  },
+  "rear-triangle": {
+   "class": "CHOKE",
+   "hub": "rear-triangle",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/rear-triangle/share/CHOKE", 0.638537, "63.9%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/rear-triangle/seat_share/TOP/CHOKE", 0.516319, "51.6%"],
+    ["hubs/rear-triangle/seat_share/BOTTOM/CHOKE", 0.122219, "12.2%"],
+    ["hubs/rear-triangle/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/rear-triangle/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/rear-triangle/mu_time", 0.000307, "0.031%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Rear Triangle",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Rear Triangle is choke territory for the top player: 63.9% of the rolls that end from here end in a choke, vs 46.4% from standing — 51.6% by the player who started on top, 12.2% by the one who started underneath; it deals chokes itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.031% of a long fight's time."
+  },
+  "reverse-de-la-riva-guard": {
+   "class": "CHOKE",
+   "hub": "reverse-de-la-riva-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/reverse-de-la-riva-guard/share/CHOKE", 0.501197, "50.1%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/reverse-de-la-riva-guard/seat_share/TOP/CHOKE", 0.220646, "22.1%"],
+    ["hubs/reverse-de-la-riva-guard/seat_share/BOTTOM/CHOKE", 0.280551, "28.1%"],
+    ["hubs/reverse-de-la-riva-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/reverse-de-la-riva-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/reverse-de-la-riva-guard/mu_time", 0.000134, "0.013%"]
+   ],
+   "phrase": "middle game",
+   "position": "Reverse De La Riva Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Reverse De La Riva Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 50.1% of the rolls that end, vs 46.4% from standing — 22.1% by the player who started on top, 28.1% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.013% of a long fight's time."
+  },
+  "reverse-half-guard": {
+   "class": "CHOKE",
+   "hub": "reverse-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/reverse-half-guard/share/CHOKE", 0.48677, "48.7%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/reverse-half-guard/seat_share/TOP/CHOKE", 0.325953, "32.6%"],
+    ["hubs/reverse-half-guard/seat_share/BOTTOM/CHOKE", 0.160816, "16.1%"],
+    ["hubs/reverse-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/reverse-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/reverse-half-guard/mu_time", 0.000581, "0.058%"]
+   ],
+   "phrase": "middle game",
+   "position": "Reverse Half Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Reverse Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 48.7% of the rolls that end, vs 46.4% from standing — 32.6% by the player who started on top, 16.1% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.058% of a long fight's time."
+  },
+  "reverse-mount": {
+   "class": "ARM",
+   "hub": "reverse-mount",
+   "name": null,
+   "numbers": [
+    ["hubs/reverse-mount/share/ARM", 0.218682, "21.9%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/reverse-mount/seat_share/TOP/ARM", 0.150008, "15.0%"],
+    ["hubs/reverse-mount/seat_share/BOTTOM/ARM", 0.068674, "6.9%"],
+    ["hubs/reverse-mount/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/reverse-mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/reverse-mount/mu_time", 0.000659, "0.066%"]
+   ],
+   "phrase": "middle game",
+   "position": "Reverse Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Reverse Mount is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 21.9% of the rolls that end, vs 18.1% from standing — 15.0% by the player who started on top, 6.9% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.066% of a long fight's time."
+  },
+  "reverse-x-guard": {
+   "class": "LEG",
+   "hub": "reverse-x-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/reverse-x-guard/share/LEG", 0.112425, "11.2%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/reverse-x-guard/robustness_n3/perturbation_hits", 196, "196"],
+    ["hubs/reverse-x-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/reverse-x-guard/mu_time", 0.000104, "0.01%"]
+   ],
+   "phrase": "middle game",
+   "position": "Reverse X-Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Reverse X-Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 11.2% of the rolls that end, vs 6.6% from standing; being unnamed holds in 196/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.01% of a long fight's time."
+  },
+  "rodeo-ride": {
+   "class": "CHOKE",
+   "hub": "rodeo-ride",
+   "name": null,
+   "numbers": [
+    ["hubs/rodeo-ride/share/CHOKE", 0.578818, "57.9%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/rodeo-ride/seat_share/TOP/CHOKE", 0.426164, "42.6%"],
+    ["hubs/rodeo-ride/seat_share/BOTTOM/CHOKE", 0.152654, "15.3%"],
+    ["hubs/rodeo-ride/robustness_n3/perturbation_hits", 198, "198"],
+    ["hubs/rodeo-ride/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/rodeo-ride/mu_time", 0.000748, "0.075%"]
+   ],
+   "phrase": "middle game",
+   "position": "Rodeo Ride",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Rodeo Ride is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 57.9% of the rolls that end, vs 46.4% from standing — 42.6% by the player who started on top, 15.3% by the one who started underneath; being unnamed holds in 198/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.075% of a long fight's time."
+  },
+  "rubber-guard": {
+   "class": "SHOULDER",
+   "hub": "rubber-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/rubber-guard/share/SHOULDER", 0.341015, "34.1%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/rubber-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/rubber-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/rubber-guard/mu_time", 0.001326, "0.13%"]
+   ],
+   "phrase": "middle game",
+   "position": "Rubber Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Rubber Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 34.1% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.13% of a long fight's time."
+  },
+  "russian-cowboy": {
+   "class": "SPINE/COMPRESSION",
+   "hub": "russian-cowboy",
+   "name": "SPINE/COMPRESSION|TOP",
+   "numbers": [
+    ["hubs/russian-cowboy/share/SPINE/COMPRESSION", 0.069495, "6.9%"],
+    ["baselines/primary/standing_me/SPINE/COMPRESSION", 0.006903, "0.69%"],
+    ["hubs/russian-cowboy/seat_share/TOP/SPINE/COMPRESSION", 0.066608, "6.7%"],
+    ["hubs/russian-cowboy/seat_share/BOTTOM/SPINE/COMPRESSION", 0.002887, "0.29%"],
+    ["hubs/russian-cowboy/robustness_n3/perturbation_hits", 158, "158"],
+    ["hubs/russian-cowboy/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/russian-cowboy/mu_time", 0.000282, "0.028%"]
+   ],
+   "phrase": "spine-lock territory for the top player",
+   "position": "Russian Cowboy",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Russian Cowboy is spine-lock territory for the top player: 6.9% of the rolls that end from here end in a spine lock or neck crank, vs 0.69% from standing — 6.7% by the player who started on top, 0.29% by the one who started underneath; it deals spine locks and neck cranks itself (core); the name holds in 158/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 0.028% of a long fight's time."
+  },
+  "s-mount": {
+   "class": "ARM",
+   "hub": "s-mount",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/s-mount/share/ARM", 0.340945, "34.1%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/s-mount/seat_share/TOP/ARM", 0.279932, "28.0%"],
+    ["hubs/s-mount/seat_share/BOTTOM/ARM", 0.061013, "6.1%"],
+    ["hubs/s-mount/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/s-mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/s-mount/mu_time", 0.003669, "0.37%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "S Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), S Mount is arm-lock territory for the top player: 34.1% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 28.0% by the player who started on top, 6.1% by the one who started underneath; it deals arm locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.37% of a long fight's time."
+  },
+  "saddle": {
+   "class": "LEG",
+   "hub": "saddle",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/saddle/share/LEG", 0.474447, "47.4%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/saddle/seat_share/TOP/LEG", 0.427014, "42.7%"],
+    ["hubs/saddle/seat_share/BOTTOM/LEG", 0.047433, "4.7%"],
+    ["hubs/saddle/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/saddle/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/saddle/mu_time", 0.000916, "0.092%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Saddle",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Saddle is leg-lock territory for the top player: 47.4% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 42.7% by the player who started on top, 4.7% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.092% of a long fight's time."
+  },
+  "seat-belt-control-back": {
+   "class": "CHOKE",
+   "hub": "seat-belt-control-back",
+   "name": "CHOKE|TOP",
+   "numbers": [
+    ["hubs/seat-belt-control-back/share/CHOKE", 0.722143, "72.2%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/seat-belt-control-back/seat_share/TOP/CHOKE", 0.615595, "61.6%"],
+    ["hubs/seat-belt-control-back/seat_share/BOTTOM/CHOKE", 0.106548, "10.7%"],
+    ["hubs/seat-belt-control-back/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/seat-belt-control-back/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/seat-belt-control-back/mu_time", 0.00181, "0.18%"]
+   ],
+   "phrase": "choke territory for the top player",
+   "position": "Seat Belt Control Back",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Seat Belt Control Back is choke territory for the top player: 72.2% of the rolls that end from here end in a choke, vs 46.4% from standing — 61.6% by the player who started on top, 10.7% by the one who started underneath; it deals chokes itself (core); the name holds in 200/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.18% of a long fight's time."
+  },
+  "seated-guard": {
+   "class": "LEG",
+   "hub": "seated-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/seated-guard/share/LEG", 0.090132, "9.0%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/seated-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/seated-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/seated-guard/mu_time", 0.003295, "0.33%"]
+   ],
+   "phrase": "middle game",
+   "position": "Seated Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Seated Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 9.0% of the rolls that end, vs 6.6% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.33% of a long fight's time."
+  },
+  "shin-to-shin-guard": {
+   "class": "LEG",
+   "hub": "shin-to-shin-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/shin-to-shin-guard/share/LEG", 0.104907, "10.5%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/shin-to-shin-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/shin-to-shin-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/shin-to-shin-guard/mu_time", 0.000717, "0.072%"]
+   ],
+   "phrase": "middle game",
+   "position": "Shin-to-Shin Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Shin-to-Shin Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the leg lock, is 10.5% of the rolls that end, vs 6.6% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.072% of a long fight's time."
+  },
+  "shoulder-of-justice": {
+   "class": "SHOULDER",
+   "hub": "shoulder-of-justice",
+   "name": null,
+   "numbers": [
+    ["hubs/shoulder-of-justice/share/SHOULDER", 0.370731, "37.1%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/shoulder-of-justice/seat_share/TOP/SHOULDER", 0.276249, "27.6%"],
+    ["hubs/shoulder-of-justice/seat_share/BOTTOM/SHOULDER", 0.094482, "9.4%"],
+    ["hubs/shoulder-of-justice/robustness_n3/perturbation_hits", 121, "121"],
+    ["hubs/shoulder-of-justice/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/shoulder-of-justice/mu_time", 0.003704, "0.37%"]
+   ],
+   "phrase": "middle game",
+   "position": "Shoulder of Justice",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Shoulder of Justice is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 37.1% of the rolls that end, vs 28.1% from standing — 27.6% by the player who started on top, 9.4% by the one who started underneath; being unnamed holds in 121/200 perturbations and with the origin filter off and under the shipped initiative rule; in gi it is shoulder-lock territory for the top player; it holds 0.37% of a long fight's time."
+  },
+  "side-control": {
+   "class": "ARM",
+   "hub": "side-control",
+   "name": null,
+   "numbers": [
+    ["hubs/side-control/share/ARM", 0.201593, "20.2%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/side-control/seat_share/TOP/ARM", 0.140994, "14.1%"],
+    ["hubs/side-control/seat_share/BOTTOM/ARM", 0.0606, "6.1%"],
+    ["hubs/side-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/side-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/side-control/mu_time", 0.163801, "16.4%"]
+   ],
+   "phrase": "middle game",
+   "position": "Side Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Side Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 20.2% of the rolls that end, vs 18.1% from standing — 14.1% by the player who started on top, 6.1% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 16.4% of a long fight's time."
+  },
+  "single-leg-x-guard": {
+   "class": "LEG",
+   "hub": "single-leg-x-guard",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/single-leg-x-guard/share/LEG", 0.187816, "18.8%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/single-leg-x-guard/robustness_n3/perturbation_hits", 129, "129"],
+    ["hubs/single-leg-x-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/single-leg-x-guard/mu_time", 0.006819, "0.68%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Single Leg X-Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Single Leg X-Guard is leg-lock territory for both players: 18.8% of the rolls that end from here end in a leg lock, vs 6.6% from standing; it deals leg locks itself (core); the name holds in 129/200 perturbations and under the shipped initiative rule; with the origin filter off it is leg-lock territory shared between the players; in gi it is leg-lock territory shared between the players; it holds 0.68% of a long fight's time."
+  },
+  "standing-back-control": {
+   "class": "CHOKE",
+   "hub": "standing-back-control",
+   "name": null,
+   "numbers": [
+    ["hubs/standing-back-control/share/CHOKE", 0.596335, "59.6%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/standing-back-control/seat_share/TOP/CHOKE", 0.410637, "41.1%"],
+    ["hubs/standing-back-control/seat_share/BOTTOM/CHOKE", 0.185698, "18.6%"],
+    ["hubs/standing-back-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/standing-back-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/standing-back-control/mu_time", 0.000474, "0.047%"]
+   ],
+   "phrase": "middle game",
+   "position": "Standing Back Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Standing Back Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 59.6% of the rolls that end, vs 46.4% from standing — 41.1% by the player who started on top, 18.6% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.047% of a long fight's time."
+  },
+  "standing-guard": {
+   "class": "ARM",
+   "hub": "standing-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/standing-guard/share/ARM", 0.206924, "20.7%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/standing-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/standing-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/standing-guard/mu_time", 4.8e-05, "0.0048%"]
+   ],
+   "phrase": "middle game",
+   "position": "Standing Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Standing Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 20.7% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0048% of a long fight's time."
+  },
+  "standing-position": {
+   "class": "ARM",
+   "hub": "standing-position",
+   "name": null,
+   "numbers": [
+    ["hubs/standing-position/share/ARM", 0.180792, "18.1%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/standing-position/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/standing-position/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/standing-position/mu_time", 0.025659, "2.6%"]
+   ],
+   "phrase": "middle game",
+   "position": "Standing Position",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Standing Position is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 18.1% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 2.6% of a long fight's time."
+  },
+  "standing-rear-clinch": {
+   "class": "CHOKE",
+   "hub": "standing-rear-clinch",
+   "name": null,
+   "numbers": [
+    ["hubs/standing-rear-clinch/share/CHOKE", 0.572694, "57.3%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/standing-rear-clinch/seat_share/TOP/CHOKE", 0.377917, "37.8%"],
+    ["hubs/standing-rear-clinch/seat_share/BOTTOM/CHOKE", 0.194777, "19.5%"],
+    ["hubs/standing-rear-clinch/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/standing-rear-clinch/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/standing-rear-clinch/mu_time", 6.4e-05, "0.0064%"]
+   ],
+   "phrase": "middle game",
+   "position": "Standing Rear Clinch",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Standing Rear Clinch is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 57.3% of the rolls that end, vs 46.4% from standing — 37.8% by the player who started on top, 19.5% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0064% of a long fight's time."
+  },
+  "straight-ankle-lock-control": {
+   "class": "LEG",
+   "hub": "straight-ankle-lock-control",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/straight-ankle-lock-control/share/LEG", 0.425175, "42.5%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/straight-ankle-lock-control/seat_share/TOP/LEG", 0.128426, "12.8%"],
+    ["hubs/straight-ankle-lock-control/seat_share/BOTTOM/LEG", 0.296749, "29.7%"],
+    ["hubs/straight-ankle-lock-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/straight-ankle-lock-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/straight-ankle-lock-control/mu_time", 9e-06, "0.0009%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Straight Ankle Lock Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Straight Ankle Lock Control is leg-lock territory for both players: 42.5% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 12.8% by the player who started on top, 29.7% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0009% of a long fight's time."
+  },
+  "technical-mount": {
+   "class": "ARM",
+   "hub": "technical-mount",
+   "name": "ARM|TOP",
+   "numbers": [
+    ["hubs/technical-mount/share/ARM", 0.289897, "29.0%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/technical-mount/seat_share/TOP/ARM", 0.230054, "23.0%"],
+    ["hubs/technical-mount/seat_share/BOTTOM/ARM", 0.059842, "6.0%"],
+    ["hubs/technical-mount/robustness_n3/perturbation_hits", 199, "199"],
+    ["hubs/technical-mount/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/technical-mount/mu_time", 0.009597, "0.96%"]
+   ],
+   "phrase": "arm-lock territory for the top player",
+   "position": "Technical Mount",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Technical Mount is arm-lock territory for the top player: 29.0% of the rolls that end from here end in an arm lock, vs 18.1% from standing — 23.0% by the player who started on top, 6.0% by the one who started underneath; it deals arm locks itself (core); the name holds in 199/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.96% of a long fight's time."
+  },
+  "toe-hold-control": {
+   "class": "LEG",
+   "hub": "toe-hold-control",
+   "name": "LEG|TOP",
+   "numbers": [
+    ["hubs/toe-hold-control/share/LEG", 0.511284, "51.1%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/toe-hold-control/seat_share/TOP/LEG", 0.436502, "43.7%"],
+    ["hubs/toe-hold-control/seat_share/BOTTOM/LEG", 0.074782, "7.5%"],
+    ["hubs/toe-hold-control/robustness_n3/perturbation_hits", 174, "174"],
+    ["hubs/toe-hold-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/toe-hold-control/mu_time", 1.4e-05, "0.0014%"]
+   ],
+   "phrase": "leg-lock territory for the top player",
+   "position": "Toe Hold Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Toe Hold Control is leg-lock territory for the top player: 51.1% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 43.7% by the player who started on top, 7.5% by the one who started underneath; it deals leg locks itself (core); the name holds in 174/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0014% of a long fight's time."
+  },
+  "triangle-control": {
+   "class": "CHOKE",
+   "hub": "triangle-control",
+   "name": null,
+   "numbers": [
+    ["hubs/triangle-control/share/CHOKE", 0.535708, "53.6%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/triangle-control/seat_share/TOP/CHOKE", 0.144208, "14.4%"],
+    ["hubs/triangle-control/seat_share/BOTTOM/CHOKE", 0.3915, "39.1%"],
+    ["hubs/triangle-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/triangle-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/triangle-control/mu_time", 0.005379, "0.54%"]
+   ],
+   "phrase": "middle game",
+   "position": "Triangle Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Triangle Control is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 53.6% of the rolls that end, vs 46.4% from standing — 14.4% by the player who started on top, 39.1% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.54% of a long fight's time."
+  },
+  "triangle-escape-position": {
+   "class": "ARM",
+   "hub": "triangle-escape-position",
+   "name": null,
+   "numbers": [
+    ["hubs/triangle-escape-position/share/ARM", 0.217993, "21.8%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/triangle-escape-position/seat_share/TOP/ARM", 0.081645, "8.2%"],
+    ["hubs/triangle-escape-position/seat_share/BOTTOM/ARM", 0.136348, "13.6%"],
+    ["hubs/triangle-escape-position/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/triangle-escape-position/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/triangle-escape-position/mu_time", 0.001383, "0.14%"]
+   ],
+   "phrase": "middle game",
+   "position": "Triangle Escape Position",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Triangle Escape Position is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 21.8% of the rolls that end, vs 18.1% from standing — 8.2% by the player who started on top, 13.6% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.14% of a long fight's time."
+  },
+  "truck": {
+   "class": "HIP/GROIN",
+   "hub": "truck",
+   "name": "HIP/GROIN|TOP",
+   "numbers": [
+    ["hubs/truck/share/HIP/GROIN", 0.062598, "6.3%"],
+    ["baselines/primary/standing_me/HIP/GROIN", 0.000929, "0.093%"],
+    ["hubs/truck/seat_share/TOP/HIP/GROIN", 0.062089, "6.2%"],
+    ["hubs/truck/seat_share/BOTTOM/HIP/GROIN", 0.000509, "0.051%"],
+    ["hubs/truck/robustness_n3/perturbation_hits", 160, "160"],
+    ["hubs/truck/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/truck/mu_time", 0.000984, "0.098%"]
+   ],
+   "phrase": "hip/groin-lock territory for the top player",
+   "position": "Truck",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Truck is hip/groin-lock territory for the top player: 6.3% of the rolls that end from here end in a hip or groin lock, vs 0.093% from standing — 6.2% by the player who started on top, 0.051% by the one who started underneath; it deals hip and groin locks itself (core); the name holds in 160/200 perturbations and under the shipped initiative rule; with the origin filter off it is leg-lock territory for the top player; in gi it is leg-lock territory for the top player; it holds 0.098% of a long fight's time."
+  },
+  "turtle": {
+   "class": "CHOKE",
+   "hub": "turtle",
+   "name": null,
+   "numbers": [
+    ["hubs/turtle/share/CHOKE", 0.527902, "52.8%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["hubs/turtle/seat_share/TOP/CHOKE", 0.357609, "35.8%"],
+    ["hubs/turtle/seat_share/BOTTOM/CHOKE", 0.170292, "17.0%"],
+    ["hubs/turtle/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/turtle/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/turtle/mu_time", 0.034696, "3.5%"]
+   ],
+   "phrase": "middle game",
+   "position": "Turtle",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Turtle is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the choke, is 52.8% of the rolls that end, vs 46.4% from standing — 35.8% by the player who started on top, 17.0% by the one who started underneath; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 3.5% of a long fight's time."
+  },
+  "twister-control": {
+   "class": "SPINE/COMPRESSION",
+   "hub": "twister-control",
+   "name": "SPINE/COMPRESSION|TOP",
+   "numbers": [
+    ["hubs/twister-control/share/SPINE/COMPRESSION", 0.182856, "18.3%"],
+    ["baselines/primary/standing_me/SPINE/COMPRESSION", 0.006903, "0.69%"],
+    ["hubs/twister-control/seat_share/TOP/SPINE/COMPRESSION", 0.178905, "17.9%"],
+    ["hubs/twister-control/seat_share/BOTTOM/SPINE/COMPRESSION", 0.003951, "0.4%"],
+    ["hubs/twister-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/twister-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/twister-control/mu_time", 3.6e-05, "0.0036%"]
+   ],
+   "phrase": "spine-lock territory for the top player",
+   "position": "Twister Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Twister Control is spine-lock territory for the top player: 18.3% of the rolls that end from here end in a spine lock or neck crank, vs 0.69% from standing — 17.9% by the player who started on top, 0.4% by the one who started underneath; it deals spine locks and neck cranks itself (core); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0036% of a long fight's time."
+  },
+  "twister-side-control": {
+   "class": "SPINE/COMPRESSION",
+   "hub": "twister-side-control",
+   "name": "SPINE/COMPRESSION|TOP",
+   "numbers": [
+    ["hubs/twister-side-control/share/SPINE/COMPRESSION", 0.059362, "5.9%"],
+    ["baselines/primary/standing_me/SPINE/COMPRESSION", 0.006903, "0.69%"],
+    ["hubs/twister-side-control/seat_share/TOP/SPINE/COMPRESSION", 0.056129, "5.6%"],
+    ["hubs/twister-side-control/seat_share/BOTTOM/SPINE/COMPRESSION", 0.003233, "0.32%"],
+    ["hubs/twister-side-control/robustness_n3/perturbation_hits", 120, "120"],
+    ["hubs/twister-side-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/twister-side-control/mu_time", 6.7e-05, "0.0067%"]
+   ],
+   "phrase": "spine-lock territory for the top player",
+   "position": "Twister Side Control",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Twister Side Control is spine-lock territory for the top player: 5.9% of the rolls that end from here end in a spine lock or neck crank, vs 0.69% from standing — 5.6% by the player who started on top, 0.32% by the one who started underneath; it deals spine locks and neck cranks itself (core); the name holds in 120/200 perturbations and under the shipped initiative rule; with the origin filter off it is middle game; in gi it is middle game; it holds 0.0067% of a long fight's time."
+  },
+  "ushiro-ashi-garami": {
+   "class": "LEG",
+   "hub": "ushiro-ashi-garami",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["hubs/ushiro-ashi-garami/share/LEG", 0.367918, "36.8%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/ushiro-ashi-garami/seat_share/TOP/LEG", 0.278427, "27.8%"],
+    ["hubs/ushiro-ashi-garami/seat_share/BOTTOM/LEG", 0.089491, "8.9%"],
+    ["hubs/ushiro-ashi-garami/robustness_n3/perturbation_hits", 178, "178"],
+    ["hubs/ushiro-ashi-garami/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/ushiro-ashi-garami/mu_time", 0.000116, "0.012%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "position": "Ushiro Ashi-Garami",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Ushiro Ashi-Garami is leg-lock territory for both players: 36.8% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 27.8% by the player who started on top, 8.9% by the one who started underneath; it deals leg locks itself (core); the name holds in 178/200 perturbations and with the origin filter off and under the shipped initiative rule; in gi it is leg-lock territory for the top player; it holds 0.012% of a long fight's time."
+  },
+  "ushiro-kesa-gatame": {
+   "class": "SHOULDER",
+   "hub": "ushiro-kesa-gatame",
+   "name": "SHOULDER|TOP",
+   "numbers": [
+    ["hubs/ushiro-kesa-gatame/share/SHOULDER", 0.390084, "39.0%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/ushiro-kesa-gatame/seat_share/TOP/SHOULDER", 0.299887, "30.0%"],
+    ["hubs/ushiro-kesa-gatame/seat_share/BOTTOM/SHOULDER", 0.090197, "9.0%"],
+    ["hubs/ushiro-kesa-gatame/robustness_n3/perturbation_hits", 152, "152"],
+    ["hubs/ushiro-kesa-gatame/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/ushiro-kesa-gatame/mu_time", 0.00091, "0.091%"]
+   ],
+   "phrase": "shoulder-lock territory for the top player",
+   "position": "Ushiro Kesa Gatame",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Ushiro Kesa Gatame is shoulder-lock territory for the top player: 39.0% of the rolls that end from here end in a shoulder lock, vs 28.1% from standing — 30.0% by the player who started on top, 9.0% by the one who started underneath; it deals shoulder locks itself (core); the name holds in 152/200 perturbations and under the shipped initiative rule and in gi; with the origin filter off it is middle game; it holds 0.091% of a long fight's time."
+  },
+  "vaporizer": {
+   "class": "SHOULDER",
+   "hub": "vaporizer",
+   "name": null,
+   "numbers": [
+    ["hubs/vaporizer/share/SHOULDER", 0.293407, "29.3%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/vaporizer/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/vaporizer/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/vaporizer/mu_time", 2.1e-05, "0.0021%"]
+   ],
+   "phrase": "middle game",
+   "position": "Vaporizer",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Vaporizer is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 29.3% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0021% of a long fight's time."
+  },
+  "williams-guard": {
+   "class": "SHOULDER",
+   "hub": "williams-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/williams-guard/share/SHOULDER", 0.390799, "39.1%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/williams-guard/seat_share/TOP/SHOULDER", 0.121757, "12.2%"],
+    ["hubs/williams-guard/seat_share/BOTTOM/SHOULDER", 0.269042, "26.9%"],
+    ["hubs/williams-guard/robustness_n3/perturbation_hits", 106, "106"],
+    ["hubs/williams-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/williams-guard/mu_time", 4e-05, "0.004%"]
+   ],
+   "phrase": "middle game",
+   "position": "Williams Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), Williams Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 39.1% of the rolls that end, vs 28.1% from standing — 12.2% by the player who started on top, 26.9% by the one who started underneath; being unnamed holds in 106/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.004% of a long fight's time."
+  },
+  "x-guard": {
+   "class": "LEG",
+   "hub": "x-guard",
+   "name": "LEG|BOTTOM",
+   "numbers": [
+    ["hubs/x-guard/share/LEG", 0.152886, "15.3%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["hubs/x-guard/seat_share/TOP/LEG", 0.047529, "4.8%"],
+    ["hubs/x-guard/seat_share/BOTTOM/LEG", 0.105357, "10.5%"],
+    ["hubs/x-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/x-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/x-guard/mu_time", 0.012574, "1.3%"]
+   ],
+   "phrase": "leg-lock territory for the bottom player",
+   "position": "X-Guard",
+   "seat_asymmetry_material": true,
+   "sentence": "In the corpus's game (no-gi), X-Guard is leg-lock territory for the bottom player: 15.3% of the rolls that end from here end in a leg lock, vs 6.6% from standing — 4.8% by the player who started on top, 10.5% by the one who started underneath; it deals leg locks itself (core); the name holds in 200/200 perturbations and with the origin filter off and under the shipped initiative rule; in gi it is leg-lock territory shared between the players; it holds 1.3% of a long fight's time."
+  },
+  "z-guard": {
+   "class": "SHOULDER",
+   "hub": "z-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/z-guard/share/SHOULDER", 0.312729, "31.3%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/z-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/z-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/z-guard/mu_time", 0.000349, "0.035%"]
+   ],
+   "phrase": "middle game",
+   "position": "Z-Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Z-Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 31.3% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.035% of a long fight's time."
+  },
+  "z-lock-half-guard": {
+   "class": "SHOULDER",
+   "hub": "z-lock-half-guard",
+   "name": null,
+   "numbers": [
+    ["hubs/z-lock-half-guard/share/SHOULDER", 0.315894, "31.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["hubs/z-lock-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/z-lock-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/z-lock-half-guard/mu_time", 3e-05, "0.003%"]
+   ],
+   "phrase": "middle game",
+   "position": "Z-Lock Half Guard",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Z-Lock Half Guard is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the shoulder lock, is 31.6% of the rolls that end, vs 28.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.003% of a long fight's time."
+  },
+  "zombie": {
+   "class": "ARM",
+   "hub": "zombie",
+   "name": null,
+   "numbers": [
+    ["hubs/zombie/share/ARM", 0.198948, "19.9%"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["hubs/zombie/robustness_n3/perturbation_hits", 200, "200"],
+    ["hubs/zombie/robustness_n3/perturbation_seeds", 200, "200"],
+    ["hubs/zombie/mu_time", 4.7e-05, "0.0047%"]
+   ],
+   "phrase": "middle game",
+   "position": "Zombie",
+   "seat_asymmetry_material": false,
+   "sentence": "In the corpus's game (no-gi), Zombie is middle game: its rolls end much as rolls from standing do; its most over-represented ending, the arm lock, is 19.9% of the rolls that end, vs 18.1% from standing; being unnamed holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.0047% of a long fight's time."
+  }
+ },
+ "legend": {"long fight's time": "Q-process mu: where a roll that has not yet ended spends its time.", "numbers": "every number in a sentence is listed in `numbers` as [artifact path, value, text]; the builder refuses any other number.", "perturbations": "K.perturbed(0.2, 0.2, seed), seeds 0..199; robustness, not a probability of being right.", "rolls that end": "decided rolls; a hub start is uniform over its two seats and both turns.", "top / bottom": "the seat the finisher STARTED in at this position (the corpus's role labels)."},
+ "not_evaluable": {"collar-sleeve-guard": {"hub": "collar-sleeve-guard", "position": "Collar Sleeve Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Collar Sleeve Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "double-sleeve-guard": {"hub": "double-sleeve-guard", "position": "Double Sleeve Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Double Sleeve Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "inverted-lasso-guard": {"hub": "inverted-lasso-guard", "position": "Inverted Lasso Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Inverted Lasso Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "lapel-guard": {"hub": "lapel-guard", "position": "Lapel Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Lapel Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "lasso-guard": {"hub": "lasso-guard", "position": "Lasso Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Lasso Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "piranha-guard": {"hub": "piranha-guard", "position": "Piranha Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Piranha Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "ringworm-guard": {"hub": "ringworm-guard", "position": "Ringworm Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Ringworm Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "russian-leg-lasso": {"hub": "russian-leg-lasso", "position": "Russian Leg Lasso", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Russian Leg Lasso is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "spider-guard": {"hub": "spider-guard", "position": "Spider Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Spider Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "squid-guard": {"hub": "squid-guard", "position": "Squid Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Squid Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}, "worm-guard": {"hub": "worm-guard", "position": "Worm Guard", "reason": "UNREACHABLE_FROM_STANDING", "sentence": "In the corpus's game (no-gi), Worm Guard is not reachable from standing, so it has no exit law to name (UNREACHABLE_FROM_STANDING)."}},
+ "producer_sha256": {"scripts/semantics/naming.py": "c9ff18949b15524402dc012eac6174b638a6698817981d6bc4576f36478d6fe8"},
+ "recompute": "python3 -B scripts/semantics/naming.py --cards",
+ "schema": "graph-semantics.naming-cards.v1",
+ "source": "tests/artifacts/semantics/naming.json",
+ "source_sha256": "b323bc4894c030abe5f7e6467c5d15f558d8d9a9ad89ac926627d22005f647ee",
+ "territories": {
+  "ARM|1.5": {
+   "class": "ARM",
+   "key": "standing_me|ratio|1.5",
+   "members": ["armbar-control", "s-mount", "technical-mount"],
+   "numbers": [
+    ["territories/ARM/standing_me|ratio|1.5/theta", 1.5, "1.5"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/hubs", 3, "3"],
+    ["territories/ARM/standing_me|ratio|1.5/core/#len", 3, "3"],
+    ["territories/ARM/standing_me|ratio|1.5/halo/#len", 0, "0"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/x_uniform", 0.344055, "34.4%"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/y_standing_me", 0.180792, "18.1%"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/x_finished_by_top_starter", 0.282764, "28.3%"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/x_finished_by_bottom_starter", 0.061291, "6.1%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/x_clocked", 0.392638, "39.3%"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/y_clocked", 0.172686, "17.3%"],
+    ["territories/ARM/standing_me|ratio|1.5/headline/mu_time_share", 0.023418, "2.3%"],
+    ["territories/ARM/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/ARM/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/min", 0.3018, "30.2%"],
+    ["territories/ARM/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/max", 0.3846, "38.5%"],
+    ["territories/ARM/standing_me|ratio|1.5/robustness/jaccard_to_unperturbed/median", 0.6667, "0.67"]
+   ],
+   "sentence": "In the corpus's game (no-gi), arm-lock territory at 1.5x is 3 positions (3 deal arm locks themselves, 0 inherit their share): from them 34.4% of the rolls that end, end in an arm lock, vs 18.1% from standing (28.3% by the player who started on top, 6.1% by the one underneath); under the 9-12-ply clock 39.3% vs 17.3%; they hold 2.3% of a long fight's time; across 200 perturbations the share on this fixed set stays within 30.2%-38.5% and the member set keeps a median Jaccard of 0.67.",
+   "status": "ok"
+  },
+  "ARM|2.0": {
+   "class": "ARM",
+   "key": "standing_me|ratio|2.0",
+   "members": ["armbar-control"],
+   "numbers": [
+    ["territories/ARM/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/hubs", 1, "1"],
+    ["territories/ARM/standing_me|ratio|2.0/core/#len", 1, "1"],
+    ["territories/ARM/standing_me|ratio|2.0/halo/#len", 0, "0"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/x_uniform", 0.401325, "40.1%"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/y_standing_me", 0.180792, "18.1%"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/x_finished_by_top_starter", 0.338307, "33.8%"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/x_finished_by_bottom_starter", 0.063017, "6.3%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/x_clocked", 0.469315, "46.9%"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/y_clocked", 0.172686, "17.3%"],
+    ["territories/ARM/standing_me|ratio|2.0/headline/mu_time_share", 0.010152, "1.0%"],
+    ["territories/ARM/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/ARM/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/min", 0.3403, "34.0%"],
+    ["territories/ARM/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/max", 0.4618, "46.2%"],
+    ["territories/ARM/standing_me|ratio|2.0/robustness/jaccard_to_unperturbed/median", 1.0, "1.00"]
+   ],
+   "sentence": "In the corpus's game (no-gi), arm-lock territory at 2x is 1 positions (1 deals arm locks itself, 0 inherit their share): from them 40.1% of the rolls that end, end in an arm lock, vs 18.1% from standing (33.8% by the player who started on top, 6.3% by the one underneath); under the 9-12-ply clock 46.9% vs 17.3%; they hold 1.0% of a long fight's time; across 200 perturbations the share on this fixed set stays within 34.0%-46.2% and the member set keeps a median Jaccard of 1.00.",
+   "status": "ok"
+  },
+  "ARM|3.0": {
+   "class": "ARM",
+   "key": "standing_me|ratio|3.0",
+   "members": [],
+   "numbers": [
+    ["territories/ARM/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["territories/ARM/standing_me|ratio|3.0/threshold_share", 0.542376, "54.2%"],
+    ["territories/ARM/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["baselines/primary/standing_me/ARM", 0.180792, "18.1%"],
+    ["territories/ARM/standing_me|ratio|3.0/max_share", 0.401325, "40.1%"]
+   ],
+   "sentence": "In the corpus's game (no-gi), there is no arm-lock territory at 3x: a position would need 54.2% of its rolls that end to end in an arm lock (3 times the 18.1% from standing), and the most arm-lock-heavy position, Armbar Control, reaches 40.1%.",
+   "status": "EMPTY"
+  },
+  "CHOKE|1.5": {
+   "class": "CHOKE",
+   "key": "standing_me|ratio|1.5",
+   "members": ["body-triangle", "invisible-collar", "seat-belt-control-back"],
+   "numbers": [
+    ["territories/CHOKE/standing_me|ratio|1.5/theta", 1.5, "1.5"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/hubs", 3, "3"],
+    ["territories/CHOKE/standing_me|ratio|1.5/core/#len", 3, "3"],
+    ["territories/CHOKE/standing_me|ratio|1.5/halo/#len", 0, "0"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/x_uniform", 0.750409, "75.0%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/y_standing_me", 0.464312, "46.4%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/x_finished_by_top_starter", 0.612092, "61.2%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/x_finished_by_bottom_starter", 0.138317, "13.8%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/x_clocked", 0.809818, "81.0%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/y_clocked", 0.47851, "47.9%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/headline/mu_time_share", 0.002093, "0.21%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/CHOKE/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/min", 0.7094, "70.9%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/max", 0.7791, "77.9%"],
+    ["territories/CHOKE/standing_me|ratio|1.5/robustness/jaccard_to_unperturbed/median", 1.0, "1.00"]
+   ],
+   "sentence": "In the corpus's game (no-gi), choke territory at 1.5x is 3 positions (3 deal chokes themselves, 0 inherit their share): from them 75.0% of the rolls that end, end in a choke, vs 46.4% from standing (61.2% by the player who started on top, 13.8% by the one underneath); under the 9-12-ply clock 81.0% vs 47.9%; they hold 0.21% of a long fight's time; across 200 perturbations the share on this fixed set stays within 70.9%-77.9% and the member set keeps a median Jaccard of 1.00.",
+   "status": "ok"
+  },
+  "CHOKE|2.0": {
+   "class": "CHOKE",
+   "key": "standing_me|ratio|2.0",
+   "members": [],
+   "numbers": [
+    ["territories/CHOKE/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["territories/CHOKE/standing_me|ratio|2.0/threshold_share", 0.928624, "92.9%"],
+    ["territories/CHOKE/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["territories/CHOKE/standing_me|ratio|2.0/max_share", 0.768647, "76.9%"]
+   ],
+   "sentence": "In the corpus's game (no-gi), there is no choke territory at 2x: a position would need 92.9% of its rolls that end to end in a choke (2 times the 46.4% from standing), and the most choke-heavy position, Invisible Collar, reaches 76.9%.",
+   "status": "EMPTY"
+  },
+  "CHOKE|3.0": {
+   "class": "CHOKE",
+   "key": "standing_me|ratio|3.0",
+   "members": [],
+   "numbers": [
+    ["territories/CHOKE/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["territories/CHOKE/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["territories/CHOKE/standing_me|ratio|3.0/threshold_share", 1.392936, "139.3%"]
+   ],
+   "sentence": "In the corpus's game (no-gi), choke territory at 3x cannot exist: chokes are already 46.4% of all endings from standing, and 3 times that is 139.3%, more than every roll.",
+   "status": "IMPOSSIBLE_THRESHOLD"
+  },
+  "HIP/GROIN|1.5": {
+   "class": "HIP/GROIN",
+   "key": "standing_me|ratio|1.5",
+   "members": ["buggy-choke", "deep-half-guard", "electric-chair", "flattened-half-guard", "half-guard", "jailbreak", "leg-weave", "lockdown", "matrix", "modified-mount", "russian-cowboy", "standing-back-control", "truck", "turtle", "twister-side-control", "vaporizer", "z-guard"],
+   "numbers": [
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/theta", 1.5, "1.5"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/hubs", 17, "17"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/core/#len", 3, "3"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/halo/#len", 14, "14"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/x_uniform", 0.014975, "1.5%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/y_standing_me", 0.000929, "0.093%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/x_finished_by_top_starter", 0.006048, "0.6%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/x_finished_by_bottom_starter", 0.008927, "0.89%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/x_clocked", 0.020222, "2.0%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/y_clocked", 0.000663, "0.066%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/headline/mu_time_share", 0.287415, "28.7%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/min", 0.0104, "1.0%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/max", 0.0213, "2.1%"],
+    ["territories/HIP/GROIN/standing_me|ratio|1.5/robustness/jaccard_to_unperturbed/median", 0.9412, "0.94"]
+   ],
+   "sentence": "In the corpus's game (no-gi), hip/groin-lock territory at 1.5x is 17 positions (3 deal hip and groin locks themselves, 14 inherit their share): from them 1.5% of the rolls that end, end in a hip or groin lock, vs 0.093% from standing (0.6% by the player who started on top, 0.89% by the one underneath); under the 9-12-ply clock 2.0% vs 0.066%; they hold 28.7% of a long fight's time; across 200 perturbations the share on this fixed set stays within 1.0%-2.1% and the member set keeps a median Jaccard of 0.94.",
+   "status": "ok"
+  },
+  "HIP/GROIN|2.0": {
+   "class": "HIP/GROIN",
+   "key": "standing_me|ratio|2.0",
+   "members": ["buggy-choke", "deep-half-guard", "electric-chair", "jailbreak", "lockdown", "modified-mount", "russian-cowboy", "standing-back-control", "truck", "turtle", "twister-side-control", "vaporizer", "z-guard"],
+   "numbers": [
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/hubs", 13, "13"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/core/#len", 3, "3"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/halo/#len", 10, "10"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/x_uniform", 0.019104, "1.9%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/y_standing_me", 0.000929, "0.093%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/x_finished_by_top_starter", 0.007726, "0.77%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/x_finished_by_bottom_starter", 0.011378, "1.1%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/x_clocked", 0.025836, "2.6%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/y_clocked", 0.000663, "0.066%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/headline/mu_time_share", 0.060492, "6.0%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/min", 0.0132, "1.3%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/max", 0.0271, "2.7%"],
+    ["territories/HIP/GROIN/standing_me|ratio|2.0/robustness/jaccard_to_unperturbed/median", 1.0, "1.00"]
+   ],
+   "sentence": "In the corpus's game (no-gi), hip/groin-lock territory at 2x is 13 positions (3 deal hip and groin locks themselves, 10 inherit their share): from them 1.9% of the rolls that end, end in a hip or groin lock, vs 0.093% from standing (0.77% by the player who started on top, 1.1% by the one underneath); under the 9-12-ply clock 2.6% vs 0.066%; they hold 6.0% of a long fight's time; across 200 perturbations the share on this fixed set stays within 1.3%-2.7% and the member set keeps a median Jaccard of 1.00.",
+   "status": "ok"
+  },
+  "HIP/GROIN|3.0": {
+   "class": "HIP/GROIN",
+   "key": "standing_me|ratio|3.0",
+   "members": ["buggy-choke", "deep-half-guard", "electric-chair", "lockdown", "modified-mount", "russian-cowboy", "truck", "turtle", "twister-side-control", "vaporizer"],
+   "numbers": [
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/hubs", 10, "10"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/core/#len", 3, "3"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/halo/#len", 7, "7"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/x_uniform", 0.02408, "2.4%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/y_standing_me", 0.000929, "0.093%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/x_finished_by_top_starter", 0.009699, "0.97%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/x_finished_by_bottom_starter", 0.014381, "1.4%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/x_clocked", 0.032542, "3.3%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/y_clocked", 0.000663, "0.066%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/headline/mu_time_share", 0.056281, "5.6%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/min", 0.0167, "1.7%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/max", 0.0342, "3.4%"],
+    ["territories/HIP/GROIN/standing_me|ratio|3.0/robustness/jaccard_to_unperturbed/median", 0.9091, "0.91"]
+   ],
+   "sentence": "In the corpus's game (no-gi), hip/groin-lock territory at 3x is 10 positions (3 deal hip and groin locks themselves, 7 inherit their share): from them 2.4% of the rolls that end, end in a hip or groin lock, vs 0.093% from standing (0.97% by the player who started on top, 1.4% by the one underneath); under the 9-12-ply clock 3.3% vs 0.066%; they hold 5.6% of a long fight's time; across 200 perturbations the share on this fixed set stays within 1.7%-3.4% and the member set keeps a median Jaccard of 0.91.",
+   "status": "ok"
+  },
+  "LEG|1.5": {
+   "class": "LEG",
+   "key": "standing_me|ratio|1.5",
+   "members": ["50-50-guard", "aoki-lock-control", "ashi-garami", "backside-50-50", "carni", "cross-ashi-garami", "deep-half-guard", "estima-lock-control", "grasshopper-guard", "headquarters-position", "honey-hole", "inside-ashi-garami", "inside-sankaku", "k-guard", "kneebar-control", "leg-entanglement", "leg-knot", "outside-ashi-garami", "reverse-x-guard", "russian-cowboy", "saddle", "shin-to-shin-guard", "single-leg-x-guard", "straight-ankle-lock-control", "toe-hold-control", "truck", "twister-control", "twister-side-control", "ushiro-ashi-garami", "x-guard"],
+   "numbers": [
+    ["territories/LEG/standing_me|ratio|1.5/theta", 1.5, "1.5"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/hubs", 30, "30"],
+    ["territories/LEG/standing_me|ratio|1.5/core/#len", 25, "25"],
+    ["territories/LEG/standing_me|ratio|1.5/halo/#len", 5, "5"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/x_uniform", 0.307964, "30.8%"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/y_standing_me", 0.06601, "6.6%"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/x_finished_by_top_starter", 0.200044, "20.0%"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/x_finished_by_bottom_starter", 0.107921, "10.8%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/x_clocked", 0.39134, "39.1%"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/y_clocked", 0.064387, "6.4%"],
+    ["territories/LEG/standing_me|ratio|1.5/headline/mu_time_share", 0.057988, "5.8%"],
+    ["territories/LEG/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/LEG/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/min", 0.29, "29.0%"],
+    ["territories/LEG/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/max", 0.3226, "32.3%"],
+    ["territories/LEG/standing_me|ratio|1.5/robustness/jaccard_to_unperturbed/median", 0.9667, "0.97"]
+   ],
+   "sentence": "In the corpus's game (no-gi), leg-lock territory at 1.5x is 30 positions (25 deal leg locks themselves, 5 inherit their share): from them 30.8% of the rolls that end, end in a leg lock, vs 6.6% from standing (20.0% by the player who started on top, 10.8% by the one underneath); under the 9-12-ply clock 39.1% vs 6.4%; they hold 5.8% of a long fight's time; across 200 perturbations the share on this fixed set stays within 29.0%-32.3% and the member set keeps a median Jaccard of 0.97.",
+   "status": "ok"
+  },
+  "LEG|2.0": {
+   "class": "LEG",
+   "key": "standing_me|ratio|2.0",
+   "members": ["50-50-guard", "aoki-lock-control", "ashi-garami", "backside-50-50", "carni", "cross-ashi-garami", "estima-lock-control", "grasshopper-guard", "honey-hole", "inside-ashi-garami", "inside-sankaku", "kneebar-control", "leg-entanglement", "leg-knot", "outside-ashi-garami", "saddle", "single-leg-x-guard", "straight-ankle-lock-control", "toe-hold-control", "truck", "ushiro-ashi-garami", "x-guard"],
+   "numbers": [
+    ["territories/LEG/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/hubs", 22, "22"],
+    ["territories/LEG/standing_me|ratio|2.0/core/#len", 21, "21"],
+    ["territories/LEG/standing_me|ratio|2.0/halo/#len", 1, "1"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/x_uniform", 0.379696, "38.0%"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/y_standing_me", 0.06601, "6.6%"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/x_finished_by_top_starter", 0.24986, "25.0%"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/x_finished_by_bottom_starter", 0.129836, "13.0%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/x_clocked", 0.483785, "48.4%"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/y_clocked", 0.064387, "6.4%"],
+    ["territories/LEG/standing_me|ratio|2.0/headline/mu_time_share", 0.029241, "2.9%"],
+    ["territories/LEG/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/LEG/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/min", 0.3615, "36.1%"],
+    ["territories/LEG/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/max", 0.3953, "39.5%"],
+    ["territories/LEG/standing_me|ratio|2.0/robustness/jaccard_to_unperturbed/median", 0.9565, "0.96"]
+   ],
+   "sentence": "In the corpus's game (no-gi), leg-lock territory at 2x is 22 positions (21 deal leg locks themselves, 1 inherits its share): from them 38.0% of the rolls that end, end in a leg lock, vs 6.6% from standing (25.0% by the player who started on top, 13.0% by the one underneath); under the 9-12-ply clock 48.4% vs 6.4%; they hold 2.9% of a long fight's time; across 200 perturbations the share on this fixed set stays within 36.1%-39.5% and the member set keeps a median Jaccard of 0.96.",
+   "status": "ok"
+  },
+  "LEG|3.0": {
+   "class": "LEG",
+   "key": "standing_me|ratio|3.0",
+   "members": ["50-50-guard", "ashi-garami", "backside-50-50", "carni", "cross-ashi-garami", "estima-lock-control", "honey-hole", "inside-ashi-garami", "inside-sankaku", "kneebar-control", "leg-entanglement", "leg-knot", "outside-ashi-garami", "saddle", "straight-ankle-lock-control", "toe-hold-control", "ushiro-ashi-garami"],
+   "numbers": [
+    ["territories/LEG/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/hubs", 17, "17"],
+    ["territories/LEG/standing_me|ratio|3.0/core/#len", 16, "16"],
+    ["territories/LEG/standing_me|ratio|3.0/halo/#len", 1, "1"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/x_uniform", 0.442337, "44.2%"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/y_standing_me", 0.06601, "6.6%"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/x_finished_by_top_starter", 0.296781, "29.7%"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/x_finished_by_bottom_starter", 0.145556, "14.6%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/x_clocked", 0.559471, "55.9%"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/y_clocked", 0.064387, "6.4%"],
+    ["territories/LEG/standing_me|ratio|3.0/headline/mu_time_share", 0.008407, "0.84%"],
+    ["territories/LEG/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/LEG/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/min", 0.4248, "42.5%"],
+    ["territories/LEG/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/max", 0.4638, "46.4%"],
+    ["territories/LEG/standing_me|ratio|3.0/robustness/jaccard_to_unperturbed/median", 0.9444, "0.94"]
+   ],
+   "sentence": "In the corpus's game (no-gi), leg-lock territory at 3x is 17 positions (16 deal leg locks themselves, 1 inherits its share): from them 44.2% of the rolls that end, end in a leg lock, vs 6.6% from standing (29.7% by the player who started on top, 14.6% by the one underneath); under the 9-12-ply clock 55.9% vs 6.4%; they hold 0.84% of a long fight's time; across 200 perturbations the share on this fixed set stays within 42.5%-46.4% and the member set keeps a median Jaccard of 0.94.",
+   "status": "ok"
+  },
+  "SHOULDER|1.5": {
+   "class": "SHOULDER",
+   "key": "standing_me|ratio|1.5",
+   "members": ["modified-mount", "omoplata-control"],
+   "numbers": [
+    ["territories/SHOULDER/standing_me|ratio|1.5/theta", 1.5, "1.5"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/hubs", 2, "2"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/core/#len", 2, "2"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/halo/#len", 0, "0"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/x_uniform", 0.447511, "44.8%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/y_standing_me", 0.281053, "28.1%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/x_finished_by_top_starter", 0.303243, "30.3%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/x_finished_by_bottom_starter", 0.144267, "14.4%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/x_clocked", 0.497944, "49.8%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/y_clocked", 0.277247, "27.7%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/headline/mu_time_share", 0.003101, "0.31%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/min", 0.3784, "37.8%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/max", 0.491, "49.1%"],
+    ["territories/SHOULDER/standing_me|ratio|1.5/robustness/jaccard_to_unperturbed/median", 0.5, "0.50"]
+   ],
+   "sentence": "In the corpus's game (no-gi), shoulder-lock territory at 1.5x is 2 positions (2 deal shoulder locks themselves, 0 inherit their share): from them 44.8% of the rolls that end, end in a shoulder lock, vs 28.1% from standing (30.3% by the player who started on top, 14.4% by the one underneath); under the 9-12-ply clock 49.8% vs 27.7%; they hold 0.31% of a long fight's time; across 200 perturbations the share on this fixed set stays within 37.8%-49.1% and the member set keeps a median Jaccard of 0.50.",
+   "status": "ok"
+  },
+  "SHOULDER|2.0": {
+   "class": "SHOULDER",
+   "key": "standing_me|ratio|2.0",
+   "members": [],
+   "numbers": [
+    ["territories/SHOULDER/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["territories/SHOULDER/standing_me|ratio|2.0/threshold_share", 0.562106, "56.2%"],
+    ["territories/SHOULDER/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["territories/SHOULDER/standing_me|ratio|2.0/max_share", 0.469147, "46.9%"]
+   ],
+   "sentence": "In the corpus's game (no-gi), there is no shoulder-lock territory at 2x: a position would need 56.2% of its rolls that end to end in a shoulder lock (2 times the 28.1% from standing), and the most shoulder-lock-heavy position, Modified Mount, reaches 46.9%.",
+   "status": "EMPTY"
+  },
+  "SHOULDER|3.0": {
+   "class": "SHOULDER",
+   "key": "standing_me|ratio|3.0",
+   "members": [],
+   "numbers": [
+    ["territories/SHOULDER/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["territories/SHOULDER/standing_me|ratio|3.0/threshold_share", 0.84316, "84.3%"],
+    ["territories/SHOULDER/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["territories/SHOULDER/standing_me|ratio|3.0/max_share", 0.469147, "46.9%"]
+   ],
+   "sentence": "In the corpus's game (no-gi), there is no shoulder-lock territory at 3x: a position would need 84.3% of its rolls that end to end in a shoulder lock (3 times the 28.1% from standing), and the most shoulder-lock-heavy position, Modified Mount, reaches 46.9%.",
+   "status": "EMPTY"
+  },
+  "SPINE/COMPRESSION|1.5": {
+   "class": "SPINE/COMPRESSION",
+   "key": "standing_me|ratio|1.5",
+   "members": ["closed-guard", "cross-body-ride", "diamond-guard", "meathook", "mission-control", "mounted-crucifix", "new-york", "overhook-guard", "russian-cowboy", "truck", "turtle", "twister-control", "twister-side-control"],
+   "numbers": [
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/theta", 1.5, "1.5"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/hubs", 13, "13"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/core/#len", 8, "8"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/halo/#len", 5, "5"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/x_uniform", 0.039505, "4.0%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/y_standing_me", 0.006903, "0.69%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/x_finished_by_top_starter", 0.035988, "3.6%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/x_finished_by_bottom_starter", 0.003516, "0.35%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/x_clocked", 0.051463, "5.1%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/y_clocked", 0.006507, "0.65%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/headline/mu_time_share", 0.140443, "14.0%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/min", 0.0304, "3.0%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/robustness/headline_x_on_fixed_set/max", 0.0514, "5.1%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|1.5/robustness/jaccard_to_unperturbed/median", 0.9231, "0.92"]
+   ],
+   "sentence": "In the corpus's game (no-gi), spine-lock territory at 1.5x is 13 positions (8 deal spine locks and neck cranks themselves, 5 inherit their share): from them 4.0% of the rolls that end, end in a spine lock or neck crank, vs 0.69% from standing (3.6% by the player who started on top, 0.35% by the one underneath); under the 9-12-ply clock 5.1% vs 0.65%; they hold 14.0% of a long fight's time; across 200 perturbations the share on this fixed set stays within 3.0%-5.1% and the member set keeps a median Jaccard of 0.92.",
+   "status": "ok"
+  },
+  "SPINE/COMPRESSION|2.0": {
+   "class": "SPINE/COMPRESSION",
+   "key": "standing_me|ratio|2.0",
+   "members": ["closed-guard", "cross-body-ride", "mounted-crucifix", "russian-cowboy", "truck", "twister-control", "twister-side-control"],
+   "numbers": [
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/theta", 2.0, "2"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/hubs", 7, "7"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/core/#len", 7, "7"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/halo/#len", 0, "0"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/x_uniform", 0.062952, "6.3%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/y_standing_me", 0.006903, "0.69%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/x_finished_by_top_starter", 0.059463, "5.9%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/x_finished_by_bottom_starter", 0.003489, "0.35%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/x_clocked", 0.080877, "8.1%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/y_clocked", 0.006507, "0.65%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/headline/mu_time_share", 0.102759, "10.3%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/min", 0.0481, "4.8%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/robustness/headline_x_on_fixed_set/max", 0.0805, "8.1%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|2.0/robustness/jaccard_to_unperturbed/median", 1.0, "1.00"]
+   ],
+   "sentence": "In the corpus's game (no-gi), spine-lock territory at 2x is 7 positions (7 deal spine locks and neck cranks themselves, 0 inherit their share): from them 6.3% of the rolls that end, end in a spine lock or neck crank, vs 0.69% from standing (5.9% by the player who started on top, 0.35% by the one underneath); under the 9-12-ply clock 8.1% vs 0.65%; they hold 10.3% of a long fight's time; across 200 perturbations the share on this fixed set stays within 4.8%-8.1% and the member set keeps a median Jaccard of 1.00.",
+   "status": "ok"
+  },
+  "SPINE/COMPRESSION|3.0": {
+   "class": "SPINE/COMPRESSION",
+   "key": "standing_me|ratio|3.0",
+   "members": ["cross-body-ride", "mounted-crucifix", "russian-cowboy", "truck", "twister-control", "twister-side-control"],
+   "numbers": [
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/theta", 3.0, "3"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/hubs", 6, "6"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/core/#len", 6, "6"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/halo/#len", 0, "0"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/x_uniform", 0.070429, "7.0%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/y_standing_me", 0.006903, "0.69%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/x_finished_by_top_starter", 0.067018, "6.7%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/x_finished_by_bottom_starter", 0.003411, "0.34%"],
+    ["clock_plies/0", 9, "9"],
+    ["clock_plies/-1", 12, "12"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/x_clocked", 0.089895, "9.0%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/y_clocked", 0.006507, "0.65%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/headline/mu_time_share", 0.002195, "0.22%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/n", 200, "200"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/min", 0.0539, "5.4%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/robustness/headline_x_on_fixed_set/max", 0.0898, "9.0%"],
+    ["territories/SPINE/COMPRESSION/standing_me|ratio|3.0/robustness/jaccard_to_unperturbed/median", 1.0, "1.00"]
+   ],
+   "sentence": "In the corpus's game (no-gi), spine-lock territory at 3x is 6 positions (6 deal spine locks and neck cranks themselves, 0 inherit their share): from them 7.0% of the rolls that end, end in a spine lock or neck crank, vs 0.69% from standing (6.7% by the player who started on top, 0.34% by the one underneath); under the 9-12-ply clock 9.0% vs 0.65%; they hold 0.22% of a long fight's time; across 200 perturbations the share on this fixed set stays within 5.4%-9.0% and the member set keeps a median Jaccard of 1.00.",
+   "status": "ok"
+  }
+ },
+ "tv_regions": {
+  "tv:anaconda-control": {
+   "class": "CHOKE",
+   "name": null,
+   "numbers": [
+    ["tv_regions/fit/tv:anaconda-control/best_by_kind/origin/precision", 0.9, "0.90"],
+    ["tv_regions/fit/tv:anaconda-control/best_by_kind/origin/recall", 0.5745, "0.57"],
+    ["tv_regions/regions/tv:anaconda-control/seat_share/TOP/CHOKE", 0.422925, "42.3%"],
+    ["tv_regions/regions/tv:anaconda-control/seat_share/BOTTOM/CHOKE", 0.151439, "15.1%"],
+    ["tv_regions/regions/tv:anaconda-control/size", 30, "30"],
+    ["tv_regions/regions/tv:anaconda-control/share/CHOKE", 0.574364, "57.4%"],
+    ["baselines/primary/standing_me/CHOKE", 0.464312, "46.4%"],
+    ["tv_regions/regions/tv:anaconda-control/robustness_n3/perturbation_hits", 200, "200"],
+    ["tv_regions/regions/tv:anaconda-control/robustness_n3/perturbation_seeds", 200, "200"],
+    ["tv_regions/regions/tv:anaconda-control/mu_time_share", 0.117122, "11.7%"]
+   ],
+   "phrase": "middle game by its endings",
+   "region": "tv:anaconda-control",
+   "sentence": "In the corpus's game (no-gi), gs-3's exit-TV territory around Anaconda Control (30 positions) is middle game by its endings: 57.4% of the rolls that end from it end in a choke, vs 46.4% from standing (42.3% by the player who started on top, 15.1% by the one underneath); as a set it matches the corpus's choke-origin positions (precision 0.90, recall 0.57); the verdict holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 11.7% of a long fight's time."
+  },
+  "tv:butterfly-half-guard": {
+   "class": "SHOULDER",
+   "name": null,
+   "numbers": [
+    ["tv_regions/regions/tv:butterfly-half-guard/seat_share/TOP/SHOULDER", 0.168657, "16.9%"],
+    ["tv_regions/regions/tv:butterfly-half-guard/seat_share/BOTTOM/SHOULDER", 0.136938, "13.7%"],
+    ["tv_regions/regions/tv:butterfly-half-guard/size", 76, "76"],
+    ["tv_regions/regions/tv:butterfly-half-guard/share/SHOULDER", 0.305594, "30.6%"],
+    ["baselines/primary/standing_me/SHOULDER", 0.281053, "28.1%"],
+    ["tv_regions/regions/tv:butterfly-half-guard/robustness_n3/perturbation_hits", 200, "200"],
+    ["tv_regions/regions/tv:butterfly-half-guard/robustness_n3/perturbation_seeds", 200, "200"],
+    ["tv_regions/regions/tv:butterfly-half-guard/mu_time_share", 0.874509, "87.5%"]
+   ],
+   "phrase": "middle game by its endings",
+   "region": "tv:butterfly-half-guard",
+   "sentence": "In the corpus's game (no-gi), gs-3's exit-TV territory around Butterfly Half Guard (76 positions) is middle game by its endings: 30.6% of the rolls that end from it end in a shoulder lock, vs 28.1% from standing (16.9% by the player who started on top, 13.7% by the one underneath); the verdict holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 87.5% of a long fight's time."
+  },
+  "tv:inside-ashi-garami": {
+   "class": "LEG",
+   "name": "LEG|BOTH",
+   "numbers": [
+    ["tv_regions/fit/tv:inside-ashi-garami/best_by_kind/origin/precision", 1.0, "1.00"],
+    ["tv_regions/fit/tv:inside-ashi-garami/best_by_kind/origin/recall", 0.5333, "0.53"],
+    ["tv_regions/regions/tv:inside-ashi-garami/seat_share/TOP/LEG", 0.306722, "30.7%"],
+    ["tv_regions/regions/tv:inside-ashi-garami/seat_share/BOTTOM/LEG", 0.150115, "15.0%"],
+    ["tv_regions/regions/tv:inside-ashi-garami/size", 16, "16"],
+    ["tv_regions/regions/tv:inside-ashi-garami/share/LEG", 0.456837, "45.7%"],
+    ["baselines/primary/standing_me/LEG", 0.06601, "6.6%"],
+    ["tv_regions/regions/tv:inside-ashi-garami/robustness_n3/perturbation_hits", 200, "200"],
+    ["tv_regions/regions/tv:inside-ashi-garami/robustness_n3/perturbation_seeds", 200, "200"],
+    ["tv_regions/regions/tv:inside-ashi-garami/mu_time_share", 0.008369, "0.84%"]
+   ],
+   "phrase": "leg-lock territory for both players",
+   "region": "tv:inside-ashi-garami",
+   "sentence": "In the corpus's game (no-gi), gs-3's exit-TV territory around Inside Ashi-Garami (16 positions) is leg-lock territory for both players: 45.7% of the rolls that end from it end in a leg lock, vs 6.6% from standing (30.7% by the player who started on top, 15.0% by the one underneath); as a set it matches the corpus's leg-lock-origin positions (precision 1.00, recall 0.53); the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi; it holds 0.84% of a long fight's time."
+  }
+ },
+ "which_game": "The CORPUS's game (shared kernel: both seats sample authored attempt shares, origin filter as configured, no round clock unless stated). Not the app's game."
+}

@@ -1,0 +1,677 @@
+{
+ "copy_rules": [
+  {"breaks": "From standing you finish 72% of your rolls.", "check": "text", "complies": "In the corpus's game (no-gi, shipped initiative), 72.3% of the rolls that end from standing end with my finish, with no clock.", "id": "R01-which-game", "reason": "The two games differ a lot: P(I finish) from standing is 0.7225 in the corpus's game and 0.3489 in the app's game (no-gi, shipped initiative; doc 1.3, app_game.py).", "rule": "Every sentence says which game it describes: 'in the corpus's game', or 'in the app's game' for numbers computed with app_game.py."},
+  {"breaks": "Get to side control and you will win.", "check": "text", "complies": "In the corpus's game (no-gi), side control on top is in 59.6% of the rolls I win and 28.7% of the rolls I lose.", "id": "R02-no-promises", "reason": "Every figure is a probability over the corpus's population of rolls, and the app's opponent plays differently (R01); a share is not a forecast for one player.", "rule": "Describe how rolls end among the rolls the corpus describes; never promise the reader an outcome ('you will', 'you should', 'guaranteed')."},
+  {"breaks": "Leg locks here: 38%.", "check": "text", "complies": "In the corpus's game (no-gi), 38.0% of the rolls that end from these positions end in a leg lock, vs 6.6% from standing.", "id": "R03-share-of-what", "reason": "A bare percentage is ambiguous between decided rolls, all rolls, clocked rolls and time share, and these differ (38.0% of decided rolls vs 2.9% of a long fight's time for leg-lock territory; naming.json territories).", "rule": "Every percentage names its population: of the rolls that end, of the rolls I win or lose, of all endings, or of a long fight's time."},
+  {"breaks": "In the corpus's game (no-gi), Saddle is leg-lock territory.", "check": "text", "complies": "In the corpus's game (no-gi), Saddle is leg-lock territory for the top player: 47.4% of the rolls that end from here end in a leg lock, vs 6.6% from standing; the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi.", "id": "R04-territory-carries-its-number", "reason": "A name is a claim about a set, with a measured fit (N2R); without the number 'leg-lock territory' could mean 10% or 70%.", "rule": "A territory or place name always carries its number: the class share here against the share from standing."},
+  {"breaks": "In the corpus's game (no-gi), Back Control is choke territory (97% confidence).", "check": "text", "complies": "In the corpus's game (no-gi), Back Control is choke territory for the top player: 61.2% of the rolls that end from here end in a choke, vs 46.4% from standing; the name holds in 162/200 perturbations; with the origin filter off it is middle game; under the shipped initiative rule it is middle game; in gi it is middle game.", "id": "R05-robustness-in-words", "reason": "Exit shares are exact functionals of the authored numbers; there is no sample, so a confidence percentage would be invented (ruling 1). Set-fit q values are exploratory (ruling 2).", "rule": "State robustness in words (holds in k of 200 perturbations, and under which alternatives); never a 'confidence %', 'certain', 'significant', 'proven' or a p/q value."},
+  {"breaks": "In the corpus's game (no-gi), Back Control is choke territory for the top player: 61.2% of the rolls that end from here end in a choke, vs 46.4% from standing.", "check": "context", "complies": "In the corpus's game (no-gi), Armbar Control is arm-lock territory for the top player: 40.1% of the rolls that end from here end in an arm lock, vs 18.1% from standing; the name holds in 200/200 perturbations and with the origin filter off, under the shipped initiative rule and in gi.", "id": "R06-seat-names-need-their-facts", "reason": "Seat names are finer claims than pooled names: 78 of 122 names hold on all four facts against 115 for pooled names; most new seat names sit at the 2x seat gate (back-control 2.08x, 162/200, fails all three alternatives; naming.json seat_names).", "rule": "A seat qualifier ('for the top player') is shown only with its robustness clause; where it fails one of the four facts, the sentence says so. Short copy without the clause may carry a seat only when it holds on all four facts."},
+  {"breaks": "In the corpus's game (no-gi), Half Guard: no territory data.", "check": "text", "complies": "In the corpus's game (no-gi), Half Guard is middle game: its most over-represented ending, the leg lock, is 9.4% of the rolls that end, vs 6.6% from standing.", "id": "R07-middle-game-not-no-data", "reason": "Unnamed is a measured result, not an absence: 76 of 122 positions, and their exit laws are computed like every other (naming.json unnamed_ground, seat_names.unnamed).", "rule": "An unnamed place is 'middle game' (its rolls end the way rolls from standing do), never 'no data', 'unknown' or 'N/A'."},
+  {"breaks": "In the corpus's game (no-gi), Lapel Guard: 0.0% of the rolls that end, end in a leg lock.", "check": "text", "complies": "In the corpus's game (no-gi), Lapel Guard is not reachable from standing, so it has no exit law to name.", "id": "R08-no-printed-zero", "reason": "A rounded zero reads as 'never happens' when the value may be 0.0036% (twister-control's time share), and an unreachable position has no exit law at all (naming.json not_evaluable).", "rule": "Never print a share as 0% or 0.0%: small shares get two significant figures, exact zeros are 'never', and unreachable positions are 'not reachable from standing'."},
+  {"breaks": "In the corpus's game (gi), 38.0% of the rolls that end from these positions end in a leg lock, vs 6.6% from standing.", "check": "context", "complies": "In the corpus's game (gi), 28.0% of the rolls that end from these positions end in a leg lock, vs 3.5% from standing.", "id": "R09-gi-figures-from-gi-kernels", "reason": "The frames differ in how rolls end: the leg-lock baseline halves in gi (3.5% vs 6.6%) and the finisher law moves by total variation 0.20; the shipped EDGE table exists in no-gi only (naming.json gi_vs_nogi; doc 8).", "rule": "A figure labelled gi comes from a gi kernel (and says so); a no-gi figure is never shown to a gi player as if it were theirs."},
+  {"breaks": "In the corpus's game, leg-lock territory is just as big in gi (23 positions).", "check": "text", "complies": "In the corpus's game, leg-lock territory shrinks from 22 positions in no-gi to 17 in gi when both are measured against the no-gi baseline.", "id": "R10-gi-comparisons-name-the-baseline", "reason": "Against its own gi baseline leg-lock territory looks stable (23 positions); against the fixed no-gi baseline it shrinks to 17 (naming.json gi_vs_nogi.territories).", "rule": "A gi-vs-no-gi comparison of a territory's size names the baseline it holds fixed."},
+  {"breaks": "In the corpus's game (no-gi), Back Control is not a choke position.", "check": "text", "complies": "In the corpus's game (no-gi), chokes are the default ending everywhere (46.4% of all endings from standing); from Back Control they are 61.2% of the rolls that end.", "id": "R11-default-endings", "reason": "The ratio rule cannot name a class that is already the default ending: chokes are 46.4% of all endings from standing, so no place can double them (enrichment <= 1/b; naming.json territories.CHOKE).", "rule": "Never call a place 'not a choke position' or 'not a shoulder-lock position' because it has no choke or shoulder-lock territory; say that chokes (or shoulder locks) are the default ending there."},
+  {"breaks": "In the corpus's game (no-gi), Mount's total EDGE is +3.", "check": "text", "complies": "In the corpus's game (no-gi), EDGE orders the cards within this one hand; the order is all it says.", "id": "R12-no-edge-sums", "reason": "Both EDGE and the policy-gradient advantage average to zero over every hand by construction, so a sum is identically zero and ranking it ranks rounding noise (CLAUDE.md 6.6; gs-4 Proposition b1).", "rule": "Never total, average or rank EDGE (or any advantage) across a hand or a position; only the order of cards within one hand means anything."},
+  {"breaks": "In the corpus's game (no-gi), side control is the choke point of the map.", "check": "text", "complies": "In the corpus's game (no-gi), side control on top is in 59.6% of the rolls I win and 28.7% of the rolls I lose.", "id": "R13-no-interior-choke-points", "reason": "The net winning current's support is one strongly connected component, so the only minimum cut is the finishing layer: no interior choke point exists (gs-4 Theorem d; flux.json configs.headline.flux).", "rule": "Never call a position a 'choke point' or 'bottleneck' of the map; describe it by passage (the share of won and lost rolls that pass through it)."},
+  {"breaks": "In the corpus's game (no-gi), 9.3% of wins pass through Back Control.", "check": "text", "complies": "In the corpus's game (no-gi), 9.3% of the rolls I win end with Rear Naked Choke from Back Control.", "id": "R14-current-is-not-passage", "reason": "Current counts expected traversals (a roll can cross an edge more than once) and the finisher law counts endings; passage is the only trajectory statement (gs-4 (c), (g)).", "rule": "Shares of the winning current or of the finisher law are not shares of rolls passing through: say 'end with' for finishes and 'are in' for passage; never '% of rolls go through'."},
+  {"breaks": "In the corpus's game (no-gi), rolls from standing last 11 moves.", "check": "text", "complies": "In the corpus's game (no-gi, shipped initiative), rolls from standing last 11.3 steps (9.0 plies) on average when no clock stops them.", "id": "R15-time-has-units", "reason": "Steps overcount plies by 25% under the shipped rule (11.32 vs 9.04 from standing; kernel --structure), and the app's move count is neither: it charges some moves differently from a ply (app_game.py).", "rule": "Durations are in steps (cards) or plies (one card, 0 for a stay-put miss: the kernel's time unit), never bare 'moves' or 'turns', and say whether a clock is on. The one exception is the app's own move clock, whose unit is the app's move count, named as such."},
+  {"breaks": "In the corpus's game (no-gi), from Back Control the player on top finishes 48.3% of the rolls that end by choke.", "check": "text", "complies": "In the corpus's game (no-gi), from Back Control 48.3% of the rolls that end are finished by a choke from the player who started on top.", "id": "R16-seat-means-starting-seat", "reason": "Seat shares are computed from the starting seat (hub start law); rolls move through sweeps and reversals before they end (naming.json definitions.seat_share).", "rule": "Top and bottom name the seat the finisher STARTED in at this position ('the player who started on top'), not where they are at the moment of the finish."},
+  {"breaks": "Go to 50-50 Guard to hit heel hooks.", "check": "text", "complies": "In the corpus's game (no-gi), 47.2% of the rolls that end from 50-50 Guard end in a leg lock, vs 6.6% from standing.", "id": "R17-descriptive-not-advice", "reason": "A territory is a property of the corpus's rolls, not an optimal policy; advice belongs to EDGE / FLOW, which answer different questions (doc 5.4).", "rule": "Names describe how rolls end; they are not instructions. No 'go to', 'hunt', 'aim for' built on a territory name."},
+  {"breaks": "In the corpus's game (no-gi), leg-lock territory at 2x: 40% of the rolls that end, end in a leg lock.", "check": "construction", "complies": "(generated by CardText: every number listed in the card's `numbers` as [path, value, text])", "id": "R18-numbers-from-the-artifact", "reason": "Canon numbers in this repo drifted because they were typed (CLAUDE.md 6.9); the N2R lane itself wrote 36.2% where the stored value prints as 36.1%.", "rule": "Every number in a generated sentence is fetched by path from the artifact and verified; nothing is hand-typed."},
+  {"breaks": "In the corpus's game (no-gi), Truck is hip/groin-lock territory.", "check": "text", "complies": "In the corpus's game (no-gi), Truck is hip/groin-lock territory for the top player: 6.3% of the rolls that end from here end in a hip or groin lock, vs 0.093% from standing; the name holds in 160/200 perturbations; with the origin filter off it is leg-lock territory for the top player; in gi it is leg-lock territory for the top player.", "id": "R19-small-classes-carry-their-share", "reason": "Tiny baselines make huge enrichments from small shares: the literal naming rule would call Turtle hip/groin territory on 0.31% (naming.json names.variants.literal_delta0).", "rule": "Hip/groin and spine names always carry their percentage; their classes rest on 3 and 9 submissions."},
+  {"breaks": "In the corpus's game (no-gi), the guard/standing game is leg-lock territory.", "check": "review", "complies": "In the corpus's game (no-gi), counting every guard/standing position equally, 16.1% of the rolls that end end in a leg lock; weighted by where fights spend their time, 8.0%.", "id": "R20-regions-say-how-positions-are-weighted", "reason": "Counting every position equally, the guard/standing half of the map reads as leg-lock territory (16.1%); weighted by where fights spend time it is middle game (8.0%) (naming_gs1.json regions.phase:guard/standing).", "rule": "A name for a large region says how its positions were weighted, or uses the time-weighted share when the two readings differ."},
+  {"breaks": "The app's opponent uses no role or origin filter, so only 12% of its moves match the corpus.", "check": "text", "complies": "In the app's game, the opponent draws from the same role- and origin-filtered candidates and chooses among them by its own rule.", "id": "R21-no-stale-canon", "reason": "Stale since v1.176.0: the opponent draws from the role- and origin-filtered candidates and picks by its own rule (doc 1.3; gs-shared ruling 3).", "rule": "Never describe the app's opponent with CLAUDE.md 5's 'no role or origin filter, ~12%'."},
+  {"breaks": "In the corpus's game (no-gi), I finish 55.3% of rolls from standing.", "check": "review", "complies": "In the corpus's game (no-gi, player-neutral initiative), I finish 55.3% of rolls from standing with no clock; under a 9-12-ply clock (the app's clock length) I finish 39.6% and 31.4% run out of time.", "id": "R22-say-whether-the-clock-is-on", "reason": "A clock takes finishes and never gives them (gs-2 Proposition B): from standing (no-gi, player-neutral) P(I finish) is 0.553 with no clock but 0.396 under a 9-12-ply clock, with 0.314 running out of time (kernel --structure); the two clocks leave different shares of rolls undecided (doc 1.3).", "rule": "A finish probability says whether a clock is on and which one, a 9-12-ply clock (the app's clock length) or the app's own move clock; with a clock, say how many rolls run out of time."},
+  {"breaks": "In the corpus's game (no-gi), under the app's 9-12-ply clock I finish 39.6% of rolls from standing and 31.4% run out of time.", "check": "text", "complies": "In the corpus's game (no-gi, player-neutral initiative), under a 9-12-ply clock (the app's clock length) I finish 39.6% of rolls from standing and 31.4% run out of time.", "id": "R23-two-clocks", "reason": "The two clocks count different things: the app's move count charges my missed submission 2 and their finish attempt 0 and ends a roll only on some moves (app_game.py, THE CLOCK), and they leave different shares of rolls undecided (doc 1.3).", "rule": "Name a clock by what it counts: 'a 9-12-ply clock (the app's clock length)' for the kernel's horizon in plies, 'the app's own move clock' for the app's move count (moveCount); never give the app's clock a ply unit or the ply an app unit."}
+ ],
+ "glossary": [
+  {
+   "grappler": "A position is a place like mount; it has two seats, top and bottom, and the maths always tracks which seat you are in.",
+   "keys": ["position", "seat"],
+   "precise": "A position is a hub h (133 authored); a seat is one of its two role-nodes h/top, h/bottom (266). Only role-nodes carry techniques; hubs aggregate them.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/vocabulary.json",
+     ["position_hubs", "back-control"]
+    ],
+    [
+     "tests/artifacts/semantics/vocabulary.json",
+     ["position_role_nodes", "back-control/top"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py"],
+   "term": "position and seat"
+  },
+  {
+   "grappler": "Mount-your-move and mount-their-move are different situations, so each is its own state.",
+   "keys": ["state"],
+   "precise": "A transient state is (my seat, my move | their move), always written from MY side: 532 states (266 seats x 2).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["states", "nogi/symmetric/shipped/origin=on", "set_definition"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py"],
+   "term": "state (whose move it is)"
+  },
+  {
+   "grappler": "One step is one technique attempt by whoever's move it is.",
+   "keys": ["step", "steps"],
+   "precise": "One card: the mover draws a technique by its authored attempt share, it succeeds with its success rate, and one authored outcome cell of that branch decides where the pair lands (the kernel's cell table).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["meta", "units", "step"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py"],
+   "term": "step"
+  },
+  {
+   "grappler": "After a technique works, who moves next? In the app's version the player keeps the move after a success and the opponent never does; the player-neutral version lets whoever succeeded keep it.",
+   "keys": ["initiative", "player-neutral", "shipped rule"],
+   "precise": "shipped: my success keeps my move, their card always hands the move back; symmetric (player-neutral, the headline): whoever's card succeeds keeps the move, which makes the game exactly symmetric under swapping the players.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["configurations", "primary", "initiative"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py"],
+   "term": "initiative rule (shipped vs player-neutral)"
+  },
+  {
+   "grappler": "A ply is one technique attempt as the kernel counts time, except that a missed attempt which leaves you exactly where you were costs nothing. The app's own move counter counts differently, so a ply is not one of its moves.",
+   "keys": ["ply", "plies"],
+   "precise": "A step that costs 1 on the kernel's horizon (K.Q1); the kernel's stay-put miss cells (K.Q0) cost 0 plies, so steps >= plies, with equality under the player-neutral initiative rule, which has no stay-put cells. The app's move count (moveCount) is a different count: it charges 2 for my missed submission and 0 for their finish attempt, for example (app_game.py).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["meta", "units", "ply"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/app_game.py"],
+   "term": "ply"
+  },
+  {
+   "grappler": "A roll is one round from the start until somebody taps; 'rolls that end' means rolls that end in a submission.",
+   "keys": ["roll", "rolls", "decided", "draw"],
+   "precise": "A run of the absorbing chain until W (I finish them), L (they finish me) or D (a draw: an optionless hand, which no roll started on the feet ever meets when rolls are left to run); a decided roll ends in W or L.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["states", "nogi/symmetric/shipped/origin=on", "columns"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/scalars.py"],
+   "term": "roll, decided roll, draw"
+  },
+  {
+   "grappler": "Gi and no-gi are two different games on the same positions, each with its own attempt shares and success rates.",
+   "keys": ["frame", "gi", "no-gi"],
+   "precise": "Two chains on the same 532 states that differ only in attempt shares, success rates (133 dealt techniques fork) and the 62 no-gi null cells; the headline is no-gi. rates='shipped' prices both at the folded no-gi rate, rates='frame' uses the gi rate in gi.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["gi_vs_nogi", "baselines"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py"],
+   "term": "frame (gi / no-gi)"
+  },
+  {
+   "grappler": "A technique is dealt only from the position it is written for, even where other positions also list it; that throws away about half of the listed attempt entries.",
+   "keys": ["origin filter", "origin=false"],
+   "precise": "build_hand / optionsFor deal a listed card only at its canonical origin (fromPositionId): 48.4% of authored role-matching attempt points dropped and 41 techniques orphaned in no-gi; origin=False deals every listing (the comparison run).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux_origin.json",
+     ["restore"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/flux.py"],
+   "term": "origin filter"
+  },
+  {
+   "grappler": "The corpus's game is the sport as the written content describes it, both players choosing the way the curriculum says; the app's game is the harder product version the player actually faces.",
+   "keys": ["corpus's game", "app's game"],
+   "note": "app_game.py prints its layer table (optional --json <path>); it writes no committed artifact. Doc section 1.3.",
+   "precise": "corpus's game = the kernel: both seats sample the authored attempt shares with the origin filter on, no resistance, no horizon unless stated; app's game = the app's opponent rule, escape resolution, aiMod resistance and move limit on top (P(I finish) for a roll started on the feet 0.7225 -> 0.3489, no-gi, shipped initiative).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["which_game"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/app_game.py"],
+   "term": "the corpus's game vs the app's game"
+  },
+  {
+   "grappler": "Most numbers let a roll run until someone taps; clocked numbers stop it after 9 to 12 plies, the app's clock length. The app's own move clock is a different count.",
+   "keys": ["the clock", "clocked", "h = inf", "h = ∞"],
+   "precise": "H = inf is absorption with no horizon; 'clocked' is the uniform mixture over H in {9, 10, 11, 12} plies (the app's clock length, maxMoves) of P(ends within H plies), computed by the kernel's finite-horizon recursion (gated against the repo's existing value solver). It is not the app's own move clock, which counts the app's move count (moveCount) and ends a roll only on some moves (app_game.py).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["territories", "LEG", "standing_me|ratio|2.0", "headline", "x_clocked"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/scalars.py", "scripts/semantics/app_game.py"],
+   "term": "the clock (H = inf vs clocked)"
+  },
+  {
+   "grappler": "Every submission is sorted by what it attacks: leg, arm, shoulder, neck (choke), spine, hip/groin.",
+   "keys": ["finish class", "body region"],
+   "precise": "The lexicon maps each of the 290 submission attackers to exactly one class by its structured type + targetArea, never its name: LEG 74, ARM 36, SHOULDER 63, CHOKE 105, SPINE/COMPRESSION 9, HIP/GROIN 3.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/vocabulary.json",
+     ["techniques", "armbar-from-mount/attacker", "body_region", "class"]
+    ],
+    [
+     "tests/artifacts/semantics/vocabulary.json",
+     ["class_counts"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/vocabulary.py"],
+   "term": "finish class (body region)"
+  },
+  {
+   "grappler": "Every number starts somewhere; 'from standing' means on the feet with me to move, and that is the average every place is compared with.",
+   "keys": ["start law", "baseline", "from standing"],
+   "precise": "A distribution over states where rolls begin: standing = K.start('standing', 'me'); a position's own start is uniform over its 4 states (2 seats x 2 moves); the baseline b_C is the class-C share of decided rolls from standing.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["baselines", "primary", "standing_me"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/naming.py"],
+   "term": "start law and the standing baseline"
+  },
+  {
+   "grappler": "Positions a roll that starts on the feet can never get to are left out and said to be unreachable, never scored as zero.",
+   "keys": ["reachable", "universe"],
+   "precise": "Seats reachable from the standing seeds in the configuration's kernel (244 no-gi, 266 gi); naming's universe is the 122 no-gi positions with both seats reachable, and the other 11 are 'not reachable from standing'.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["not_evaluable", "lapel-guard"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/naming.py"],
+   "term": "reachable universe"
+  },
+  {
+   "grappler": "The authored numbers are estimates, so every claim about one place is re-tested on 200 slightly different versions of them and under three alternative model choices.",
+   "keys": ["perturbation", "four facts", "robust"],
+   "precise": "A claim's robustness is the fraction of K.perturbed(0.2, 0.2, seed), seeds 0..199 (log attempt shares and logit success rates jittered, landing cells fixed) in which it still holds, plus whether it holds with origin=False, under the other initiative rule and in the other frame: four facts, never a probability of being right.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["hubs", "back-control", "robustness_n3"]
+    ],
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["definitions", "robustness"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/naming.py"],
+   "term": "perturbation robustness and the four facts"
+  },
+  {
+   "grappler": "From here, what are the chances that I am the one who finishes?",
+   "keys": ["committor"],
+   "precise": "q(s) = P(I finish them before they finish me | the roll starts at state s), no horizon; q-bar is the average of a seat's two states (my move, their move).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["definitions", "q_W"]
+    ],
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["definitions", "q_bar"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/scalars.py"],
+   "term": "committor"
+  },
+  {
+   "grappler": "How fast rolls from here end.",
+   "keys": ["tempo"],
+   "precise": "Expected plies (and steps) to the end of the roll from a state.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["tempo", "nogi/symmetric/shipped/origin=on"]
+    ],
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["definitions", "E_plies"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/scalars.py"],
+   "term": "tempo"
+  },
+  {
+   "grappler": "The full list of ways rolls from here end (which submission, by which player, how often); 'of the rolls that end, 38% end in a leg lock' is one line of it.",
+   "keys": ["exit law", "harmonic measure", "class share", "rolls that end"],
+   "precise": "E_s(c) = P(the roll from state s ends by finisher column c = (finishing technique, who)), the rows of (I - Q)^-1 R_fin; the class share s_C(nu) = nu.h_C / nu.d is the class-C share of decided rolls from start law nu.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["hubs", "back-control", "share"]
+    ],
+    [
+     "tests/artifacts/semantics/geometry.json",
+     ["definitions", "exit_law"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py", "scripts/semantics/naming.py"],
+   "term": "exit law (harmonic measure) and class share"
+  },
+  {
+   "grappler": "How differently two places end: 0 means no question about the ending can tell them apart, 1 means they never end the same way.",
+   "keys": ["exit-law tv", "total variation"],
+   "precise": "TV(E_x, E_y) = half the sum of |E_x - E_y| over (seat x raw submission type) plus draw; it is exactly the largest difference the two places give to any event about the ending (gs-3 Proposition 1).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/geometry.json",
+     ["definitions", "exit_tv"]
+    ],
+    [
+     "tests/artifacts/semantics/geometry.json",
+     ["cases", "nogi/symmetric/shipped", "clusterings", "exit_tv"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/geometry.py"],
+   "term": "exit-law TV"
+  },
+  {
+   "grappler": "How many times more likely this ending is here than from standing.",
+   "keys": ["enrichment", "times as likely", "x the standing"],
+   "precise": "E_C(h) = s_C(h) / b_C; it can never exceed 1/b_C, so chokes (b = 46.4% in no-gi) cannot pass 2.15x; the odds ratio is reported as an alternative.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["hubs", "back-control", "enrichment"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py"],
+   "term": "enrichment"
+  },
+  {
+   "grappler": "Leg-lock territory is the set of places from which leg locks end rolls at least twice as often as from standing.",
+   "keys": ["territory", "territories"],
+   "precise": "R_C(theta) = the reachable positions with E_C >= theta, theta in {1.5, 2, 3}; IMPOSSIBLE when theta.b_C > 1, EMPTY when attainable but not attained.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["territories", "LEG", "standing_me|ratio|2.0", "members"]
+    ],
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["territories", "CHOKE", "standing_me|ratio|3.0", "status"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py"],
+   "term": "territory R_C(theta)"
+  },
+  {
+   "grappler": "The core of leg-lock territory is where a leg lock is actually on the menu; the halo is nearby places that only inherit a leg-lock share by leading into the core.",
+   "keys": ["core", "halo"],
+   "precise": "core_C = the states whose own hand finishes in class C within one card (directly or via a chained submission); by the maximum principle (gs-5 N2R Propositions 1-3, gs-2 Proposition C) a class share peaks on the core and a halo state gets at most P(reach core) x the best core value.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["max_principle", "primary", "LEG"]
+    ],
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["territories", "LEG", "standing_me|ratio|2.0", "halo"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py", "scripts/semantics/scalars.py"],
+   "term": "core and halo"
+  },
+  {
+   "grappler": "'Pooled' counts a finish whoever does it; the seat share asks whether it was the player who started on top or the one who started underneath.",
+   "keys": ["pooled", "seat share", "started on top", "per-player"],
+   "precise": "S^sigma_C = P(class-C finish by the player who STARTED on seat sigma at this position | decided); S^TOP + S^BOTTOM = the pooled share; the per-player baseline is b_C / 2.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["hubs", "back-control", "seat_share"]
+    ],
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["seat_names", "baseline_per_player"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py"],
+   "term": "seat share vs pooled share"
+  },
+  {
+   "grappler": "A place gets a name only when one ending is both twice as common as from standing and at least five points more common; everywhere else is middle game, where rolls end the way they end everywhere.",
+   "keys": ["middle game", "named", "unnamed"],
+   "precise": "Pooled name = the class with the largest enrichment among those with E_C >= 2 and s_C - b_C >= 0.05; the seat rule refines it (BOTH / TOP / BOTTOM / SHARED) or gives an unnamed position 'C for the sigma player' when one seat passes the same gates against b_C / 2; no passing class = middle game (76 of the 122 reachable positions).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["hubs", "back-control", "name_n3"]
+    ],
+    [
+     "tests/artifacts/semantics/naming_cards.json",
+     ["hubs", "half-guard", "sentence"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py"],
+   "term": "name and middle game"
+  },
+  {
+   "grappler": "How well a derived region matches a set the corpus already names, such as the positions that list a leg lock.",
+   "keys": ["precision", "recall", "f1", "set fit"],
+   "precise": "For region R and label set S inside the universe: precision |R and S|/|R|, recall |R and S|/|S|, F1, lift, and a hypergeometric upper-tail p with Benjamini-Hochberg q over the whole family: exploratory, because graph-derived sets are dependent.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["fit", "primary", "summary", "R:LEG:2.0"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py"],
+   "term": "set fit (precision, recall, F1, q)"
+  },
+  {
+   "grappler": "The clock only ever takes finishes away, and a roll that outlasts it is a coin toss.",
+   "keys": ["yaglom", "outlasts"],
+   "precise": "0 <= q(s) - V_H(s) <= P_s(roll longer than H) (gs-2 Proposition B); under the player-neutral rule P(I finish | the roll outlasts H) -> exactly 1/2 at every state as H grows (Proposition F; 0.697 under the shipped rule).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/scalars.json",
+     ["clock", "nogi/symmetric/shipped/origin=on", "yaglom_prop_F"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/scalars.py"],
+   "term": "the Yaglom limit"
+  },
+  {
+   "grappler": "Imagine a fight that never ends: the Q-process is where such a fight spends its time.",
+   "keys": ["q-process", "long fight"],
+   "precise": "The chain conditioned never to finish, on the states reachable from standing (Perron vectors of Q); mu = its stationary law, and 'a long fight's time' in a set = its mu mass.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming.json",
+     ["hubs", "half-guard", "mu_time"]
+    ],
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "spectrum", "hub", "lambda2_R"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_kernel.py"],
+   "term": "Q-process and a long fight's time"
+  },
+  {
+   "grappler": "Once the fight is in a region, how many steps it stays before leaving.",
+   "keys": ["residence", "holding", "sojourn"],
+   "precise": "For a set S of the Q-process: holding h(S) = P(still in S next step | in S), exit rate e(S) = 1 - h(S), residence r(S) = 1/e(S) steps; the real-roll sojourn is measured on the actual (killable) roll from standing.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "splits", "phase", "levels", "hub", "residence_steps"]
+    ],
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "real_roll_sojourn", "localized"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "residence"
+  },
+  {
+   "grappler": "How quickly the fight forgets which side of a divide it started on.",
+   "keys": ["relaxation", "lambda*"],
+   "precise": "For a split S | S-complement of the Q-process, lambda*(S) = h(S) + h(S-complement) - 1 is the two-block chain's non-unit eigenvalue; tau_lin = 1/(1 - lambda*) is exactly half the harmonic mean of the two residences (gs-1 P2').",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "splits", "phase", "levels", "hub", "two_block_eigenvalue"]
+    ],
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "splits", "phase", "levels", "hub", "tau_lin_steps"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "relaxation time and lambda*"
+  },
+  {
+   "grappler": "No part of the map gets a roll stuck: no region holding at most half the fight keeps it much longer than eight steps.",
+   "keys": ["no trap", "certificate", "cheeger"],
+   "precise": "lambda*(S) <= lambda_2 of the additive reversibilisation (P + P*)/2 of the Q-process, so no set of its states with mu(S) <= 1/2 has residence above 1/((1 - lambda_2)(1 - mu(S))): 7.7-8.5 steps across the five configurations.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "gi/shipped/origin-on", "spectrum", "state", "cheeger_ceiling_residence"]
+    ],
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "spectrum", "state", "cheeger_ceiling_residence"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "no trap (the certificate)"
+  },
+  {
+   "grappler": "The two slowest divides in the map are 'who is on top' and 'are we still in the guard or standing game, or already passed and pinned'.",
+   "keys": ["seat split", "phase split", "phase"],
+   "precise": "Seat split = every /bottom seat vs every /top seat; phase split = the union of positions maximising lambda* with both sides holding mu >= 0.1 (guard/standing 64 positions vs passed/pinned 58); under the player-neutral rule the two are exactly orthogonal slow modes.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "splits", "phase", "guard_side_hubs"]
+    ],
+    [
+     "tests/artifacts/semantics/naming_gs1.json",
+     ["seat_split", "proposition_6_max_pooled_diff"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py", "scripts/semantics/naming.py"],
+   "term": "seat split and phase split"
+  },
+  {
+   "grappler": "The most self-contained region of the map is a 14-position leg-entanglement cluster: rarely entered, but half the spells in it end the roll there.",
+   "keys": ["localized"],
+   "precise": "The lighter side of the unconstrained lambda* optimum: 14 positions, lambda* 0.6768, entered by 2.8% of rolls from standing, 48% of its spells ending the roll.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "splits", "localized", "hubs"]
+    ],
+    [
+     "tests/artifacts/semantics/naming_gs1.json",
+     ["regions", "localized:localized", "name_n3"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "the localized leg set"
+  },
+  {
+   "grappler": "An attempt to carve the map into a few regions that each hold the fight: it finds only one soft region, the leg entanglements, and the rest of the map is one piece.",
+   "keys": ["g-pcca", "metastable"],
+   "precise": "G-PCCA+ fuzzy k-block decomposition of the position-lumped Q-process from its real Schur vectors, blocks by argmax membership. At k = 2 the lighter block is an 11-position leg-entanglement cluster (a different set from the localized leg set) with fuzzy memberships, self-overlap 0.15, while the rest of the map is one block of 111 positions holding 92% of the mass crisply (membership >= 0.9); the decomposition's crispness, 0.54, is the mean of the two self-overlaps. At every computable k from 3 to 8 (k = 7 would split a complex-conjugate Schur pair), at most 0.7% of the mass is held crisply.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "gpcca_k2_blocks"]
+    ],
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["configs", "nogi/symmetric/origin-on", "gpcca", "hub"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "metastable decomposition (G-PCCA+)"
+  },
+  {
+   "grappler": "Grouping positions so that describing where the fight goes takes the fewest words: a module is a set the fight moves around inside before leaving it.",
+   "keys": ["module", "map equation", "map-equation"],
+   "precise": "The two-level map equation (Rosvall-Bergstrom) minimised on the position-lumped Q-process: 40 modules, 3.73 against 4.36 bits per step for one module (a 14.5% saving).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["map_equation", "nogi/symmetric/origin-on", "module_table"]
+    ],
+    [
+     "tests/artifacts/semantics/naming_gs1.json",
+     ["regions", "module:M17 inside-ashi-garami", "name_n3"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "map-equation module"
+  },
+  {
+   "grappler": "The techniques that carry the fight from one module to another: passes, pin-to-pin transitions, escapes, back takes.",
+   "keys": ["road", "border-crossing", "crossing"],
+   "precise": "A technique whose success lands in a different module from its origin position's, weighted by its Q-process stationary flow (2.65 expected crossings per roll from standing).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/territories.json",
+     ["technique_territories", "nogi/symmetric/origin-on", "top"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/territories.py"],
+   "term": "road (border-crossing technique)"
+  },
+  {
+   "grappler": "How far apart two places are by how the fight moves between them, rather than by how it ends.",
+   "keys": ["diffusion", "commute"],
+   "precise": "Diffusion distance D_t on the mu-weighted position lump of the Q-process after t in {1, 2, 4} steps; commute time m(x,y) + m(y,x) in steps.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/geometry.json",
+     ["definitions", "diffusion"]
+    ],
+    [
+     "tests/artifacts/semantics/geometry.json",
+     ["definitions", "commute"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/geometry.py"],
+   "term": "diffusion distance and commute time"
+  },
+  {
+   "grappler": "How much two ways of carving the map agree.",
+   "keys": ["nmi", "purity"],
+   "precise": "Normalised mutual information (arithmetic normalisation) between two labelings of the same positions; mu-purity of A in B = the sum over A's blocks of the largest mu overlap with one B block.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/naming_gs1.json",
+     ["nmi_purity", "map_modules ~ tv_regions"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/naming.py"],
+   "term": "NMI and purity"
+  },
+  {
+   "grappler": "The share of the rolls I win, or lose, that ever pass through a place: side control on top is in 59.6% of the rolls I win and 28.7% of those I lose.",
+   "keys": ["passage"],
+   "precise": "P(I finish AND the roll ever visits set C) / P(I finish), from standing (me first), no horizon; exact by redirecting C's mass to a marked exit (Woodbury on one fundamental matrix).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["configs", "headline", "passage_roles"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/flux.py", "scripts/semantics/_tpt.py"],
+   "term": "passage"
+  },
+  {
+   "grappler": "The net flow of winning rolls along each technique: how much of 'I finish' moves across it after cancelling rolls that come back.",
+   "keys": ["reactive current", "winning current", "current"],
+   "precise": "f_ij = g_i Q_ij h_j with g the expected visits from the start and h the committor; the net current is max(f_ij - f_ji, 0), and its throughput equals P(I finish) (gs-4 Proposition c).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["configs", "headline", "flux", "W", "probability"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/_tpt.py", "scripts/semantics/flux.py"],
+   "term": "reactive current"
+  },
+  {
+   "grappler": "A choke point would be a set of moves every winning roll must cross; in the corpus's game the only one is the finish itself.",
+   "keys": ["choke point", "minimum cut", "finishing layer"],
+   "precise": "A minimum cut of the net winning current; its support is one strongly connected component holding both standing seeds, so the only admissible minimum cut is the finishing layer (gs-4 Theorem d): no interior choke point exists.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["configs", "headline", "flux", "W", "cut_capacity_equals_probability"]
+    ],
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["configs", "headline", "flux", "W", "scc"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/flux.py"],
+   "term": "choke point (minimum cut) and the finishing layer"
+  },
+  {
+   "grappler": "Which written success rate matters most: how often the technique is played times how much a hit is worth over a miss.",
+   "keys": ["sensitivity", "leverage", "traffic"],
+   "precise": "dP(I finish)/dp_t = E[plays of t per roll] x the play-weighted mean of (A - B), A and B the committors after success and after a miss; exact by one adjoint solve.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["configs", "headline", "grad_me_top30"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/flux.py"],
+   "term": "sensitivity (traffic x leverage)"
+  },
+  {
+   "grappler": "How much better one move is than your usual choice here: A-inf assumes you keep playing like the corpus, EDGE assumes you play perfectly afterwards.",
+   "keys": ["a-inf", "edge", "policy gradient", "advantage"],
+   "precise": "A-inf(s,a) = q_after(s,a) - q(s) is exactly the policy gradient at s (gs-4 Proposition b2); EDGE = 100 (Q(s,a) - sum_b pi_b Q(s,b)) on an 11-ply, lambda = 2, argmax-continuation Q; both average to zero over a hand, so only the order within one hand means anything.",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["edge_bridge", "within_hand"]
+    ]
+   ],
+   "scripts": ["scripts/semantics/flux.py", "scripts/solve_edge_values.py"],
+   "term": "advantage A-inf (the policy gradient) vs EDGE"
+  },
+  {
+   "grappler": "The FLOW ranking is the app's what-to-drill-next list: which deck, if you got better at it, would raise your finish rate most.",
+   "keys": ["flow ranking", "solve_flow"],
+   "precise": "solve_flow's adjoint gradient of P(W) - 2 P(L) over 11 plies, from a uniform start over live seats, in my deck-mastery parameters: exactly the clocked, lambda-weighted, drill-parameterised instance of the sensitivity (the whole vector reproduced to machine precision, <= 3e-16).",
+   "refs": [
+    [
+     "tests/artifacts/semantics/flux.json",
+     ["flow_bridge", "nogi", "reproduction_max_abs_diff"]
+    ]
+   ],
+   "scripts": ["scripts/solve_flow.py", "neural/src/flow.src.js", "scripts/semantics/flux.py"],
+   "term": "FLOW"
+  }
+ ],
+ "graph_inputs_checked": [
+  ["tests/artifacts/semantics/flux.json", "graph_sha256"],
+  ["tests/artifacts/semantics/flux_origin.json", "graph_sha256"],
+  ["tests/artifacts/semantics/geometry.json", "sources_sha256.graph.json"],
+  ["tests/artifacts/semantics/naming.json", "graph_sha256"],
+  ["tests/artifacts/semantics/naming_cards.json", "graph_sha256"],
+  ["tests/artifacts/semantics/naming_gs1.json", "graph_sha256"],
+  ["tests/artifacts/semantics/scalars.json", "source_sha256.graph.json"],
+  ["tests/artifacts/semantics/territories.json", "meta.graph_sha256"],
+  ["tests/artifacts/semantics/vocabulary.json", "source_sha256"]
+ ],
+ "graph_sha256": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+ "recompute": "python3 -B scripts/semantics/naming.py --glossary",
+ "schema": "graph-semantics.naming-glossary.v1",
+ "source_sha256": {"scripts/semantics/naming.py": "c9ff18949b15524402dc012eac6174b638a6698817981d6bc4576f36478d6fe8"},
+ "validation": {"cards": {"card_sentences_linted": 154, "violations": 0}, "copy_rules": {"checkable_rules": 20, "construction_rules": 1, "review_rules": 2, "rules_total": 23, "two_clocks_known_answers": 14, "two_clocks_strings_swept": 175}, "glossary": {"json_refs_resolved": 63, "order_pairs_checked": 861, "scripts_found": 59, "symbols_found": 45, "terms": 42}},
+ "which_game": "The CORPUS's game (shared kernel: both seats sample authored attempt shares, origin filter as configured, no round clock unless stated). Not the app's game."
+}

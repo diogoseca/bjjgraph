@@ -1,0 +1,36 @@
+{
+ "base_gzip": 107447,
+ "level": 9,
+ "meta": {
+  "graph_sha256": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+  "recompute": "python3 scripts/regenerate_neural_data.py && python3 -B scripts/semantics/payload_probe.py --json tests/artifacts/semantics/payload.json",
+  "wire_sha256": "3162723e0fdd1606eb5df48f76d19d41a3f944e22871d978a5ec8356802c6f09"
+ },
+ "rows": [
+  {
+   "candidate": "committor per seat, both frames (0-100)",
+   "gzip_delta": 1318,
+   "nodes_touched": 133,
+   "note": "P(I finish | my turn here), H=inf, symmetric rule; 2 ints x 2 frames per position hub"
+  },
+  {
+   "candidate": "body-region class per submission (1 char)",
+   "gzip_delta": 356,
+   "nodes_touched": 290,
+   "note": "enables an in-browser exit-law / territory computation from cal.ev + cal.outcomes"
+  },
+  {
+   "candidate": "territory label per position hub + names table",
+   "gzip_delta": 146,
+   "nodes_touched": 27,
+   "note": "precomputed at build time from the exit law; 4 names"
+  },
+  {
+   "candidate": "full exit profile by raw submission type x performer per seat (upper bound)",
+   "gzip_delta": 5180,
+   "nodes_touched": 133,
+   "note": "28 raw types x 2 performers x 2 seats per hub, nogi only"
+  }
+ ],
+ "skipped": []
+}

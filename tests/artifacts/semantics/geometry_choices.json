@@ -1,0 +1,6516 @@
+{
+ "candidates": {
+  "knee": {
+   "diffusion_t4_continuity_at5": 0.844622,
+   "diffusion_t4_jaccard_at10": 0.1836,
+   "diffusion_t4_spearman": 0.32147,
+   "diffusion_t4_trustworthiness_at5": 0.64721,
+   "exit_tv_continuity_at5": 0.886022,
+   "exit_tv_jaccard_at10": 0.323888,
+   "exit_tv_spearman": 0.86042,
+   "exit_tv_trustworthiness_at5": 0.888208,
+   "fidelity_with_null": {
+    "diffusion_t4": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": 0.00448704,
+      "null_p025": -0.0911436,
+      "null_p975": 0.104577,
+      "null_replicates": 200,
+      "null_sd": 0.0535208,
+      "observed": 0.32147,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.506122,
+      "null_p025": 0.483957,
+      "null_p975": 0.527614,
+      "null_replicates": 200,
+      "null_sd": 0.0114835,
+      "observed": 0.64721,
+      "permutation_p": 0.00497512
+     }
+    },
+    "exit_tv": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00383607,
+      "null_p025": -0.101029,
+      "null_p975": 0.0848672,
+      "null_replicates": 200,
+      "null_sd": 0.0459334,
+      "observed": 0.86042,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.50741,
+      "null_p025": 0.483564,
+      "null_p975": 0.533793,
+      "null_replicates": 200,
+      "null_sd": 0.0130617,
+      "observed": 0.888208,
+      "permutation_p": 0.00497512
+     }
+    },
+    "unweighted_hops": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00181011,
+      "null_p025": -0.0610169,
+      "null_p975": 0.0505086,
+      "null_replicates": 200,
+      "null_sd": 0.0283704,
+      "observed": 0.416278,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.507869,
+      "null_p025": 0.478289,
+      "null_p975": 0.538614,
+      "null_replicates": 200,
+      "null_sd": 0.0149813,
+      "observed": 0.737834,
+      "permutation_p": 0.00497512
+     }
+    }
+   },
+   "ground_coordinates": {
+    "3-4-mount": [
+     -367.5,
+     -111.3
+    ],
+    "50-50-guard": [
+     754.1,
+     136.9
+    ],
+    "anaconda-control": [
+     -105.2,
+     314.4
+    ],
+    "aoki-lock-control": [
+     -238.1,
+     350.1
+    ],
+    "armbar-control": [
+     -455.3,
+     -186.4
+    ],
+    "ashi-garami": [
+     703.3,
+     -79.3
+    ],
+    "back-control": [
+     -179.8,
+     361.9
+    ],
+    "backside-50-50": [
+     1273.2,
+     367.2
+    ],
+    "body-lock": [
+     32.3,
+     58.8
+    ],
+    "body-triangle": [
+     -29.8,
+     657.5
+    ],
+    "buggy-choke": [
+     -86.5,
+     189.7
+    ],
+    "butterfly-guard": [
+     75.9,
+     -323.8
+    ],
+    "butterfly-half-guard": [
+     8.8,
+     -358.9
+    ],
+    "butterfly-hook-control": [
+     93.0,
+     -329.6
+    ],
+    "carni": [
+     469.5,
+     167.5
+    ],
+    "chill-dog": [
+     -61.3,
+     -26.9
+    ],
+    "clamp-guard": [
+     -118.5,
+     -175.6
+    ],
+    "clinch": [
+     48.5,
+     31.7
+    ],
+    "closed-guard": [
+     -154.8,
+     -262.5
+    ],
+    "combat-base": [
+     24.4,
+     -120.6
+    ],
+    "crab-ride": [
+     -191.2,
+     242.2
+    ],
+    "crackhead-control": [
+     -136.8,
+     -322.4
+    ],
+    "cross-ashi-garami": [
+     897.3,
+     1.4
+    ],
+    "cross-body-ride": [
+     -220.6,
+     247.1
+    ],
+    "crucifix": [
+     -152.9,
+     411.3
+    ],
+    "darce-control": [
+     -88.1,
+     351.5
+    ],
+    "de-la-riva-guard": [
+     104.1,
+     -144.6
+    ],
+    "dead-orchard-control": [
+     -115.6,
+     377.6
+    ],
+    "deep-half-guard": [
+     -56.7,
+     -310.1
+    ],
+    "diamond-guard": [
+     -202.5,
+     -319.4
+    ],
+    "dogfight-position": [
+     23.6,
+     -363.9
+    ],
+    "double-jump": [
+     61.8,
+     -363.0
+    ],
+    "double-unders": [
+     25.5,
+     -243.5
+    ],
+    "electric-chair": [
+     -130.4,
+     -399.6
+    ],
+    "estima-lock-control": [
+     515.2,
+     38.6
+    ],
+    "feet-on-hips-guard": [
+     80.0,
+     -128.8
+    ],
+    "flattened-half-guard": [
+     30.3,
+     -420.3
+    ],
+    "front-headlock": [
+     -35.2,
+     243.0
+    ],
+    "gift-wrap": [
+     -275.0,
+     238.6
+    ],
+    "gogoplata-control": [
+     -292.0,
+     -351.9
+    ],
+    "grasshopper-guard": [
+     240.9,
+     -131.9
+    ],
+    "guillotine-control": [
+     -30.3,
+     365.1
+    ],
+    "half-butterfly": [
+     53.1,
+     -328.3
+    ],
+    "half-guard": [
+     0.7,
+     -349.8
+    ],
+    "harness": [
+     -82.1,
+     521.3
+    ],
+    "headquarters-position": [
+     121.9,
+     -142.3
+    ],
+    "high-mount": [
+     -404.8,
+     -13.8
+    ],
+    "hindulotine": [
+     -8.8,
+     289.1
+    ],
+    "honey-hole": [
+     976.7,
+     116.8
+    ],
+    "inside-ashi-garami": [
+     645.3,
+     14.7
+    ],
+    "inside-sankaku": [
+     911.5,
+     182.0
+    ],
+    "inverted-guard": [
+     133.9,
+     -180.3
+    ],
+    "invisible-collar": [
+     -124.8,
+     846.8
+    ],
+    "jailbreak": [
+     -70.6,
+     -253.9
+    ],
+    "k-guard": [
+     144.9,
+     -247.2
+    ],
+    "kesa-gatame": [
+     -442.7,
+     19.2
+    ],
+    "kimura-trap": [
+     -337.3,
+     75.6
+    ],
+    "knee-on-belly": [
+     -140.0,
+     -73.0
+    ],
+    "knee-shield-half-guard": [
+     37.1,
+     -373.7
+    ],
+    "kneebar-control": [
+     791.7,
+     -4.7
+    ],
+    "kuzure-kesa-gatame": [
+     -506.9,
+     30.3
+    ],
+    "leg-drag-control": [
+     -47.1,
+     -3.8
+    ],
+    "leg-entanglement": [
+     596.0,
+     -6.5
+    ],
+    "leg-hook": [
+     -0.8,
+     -283.6
+    ],
+    "leg-knot": [
+     379.4,
+     -94.8
+    ],
+    "leg-weave": [
+     -27.4,
+     -275.1
+    ],
+    "lockdown": [
+     -35.4,
+     -408.3
+    ],
+    "matrix": [
+     -119.1,
+     137.7
+    ],
+    "meathook": [
+     -154.3,
+     -306.2
+    ],
+    "mission-control": [
+     -183.3,
+     -364.3
+    ],
+    "modified-mount": [
+     -507.0,
+     -106.6
+    ],
+    "mount": [
+     -288.1,
+     -88.6
+    ],
+    "mounted-crucifix": [
+     -222.0,
+     405.1
+    ],
+    "mounted-triangle": [
+     -386.5,
+     161.4
+    ],
+    "new-york": [
+     -66.4,
+     -174.7
+    ],
+    "new-york-control": [
+     -161.7,
+     -154.4
+    ],
+    "north-south": [
+     -279.3,
+     80.9
+    ],
+    "old-school": [
+     -44.5,
+     -394.3
+    ],
+    "omoplata-control": [
+     -120.0,
+     -191.9
+    ],
+    "open-guard": [
+     24.0,
+     -156.0
+    ],
+    "outside-ashi-garami": [
+     736.7,
+     -135.8
+    ],
+    "overhook-control": [
+     -58.7,
+     59.1
+    ],
+    "overhook-guard": [
+     -37.4,
+     -180.4
+    ],
+    "pocket-half-guard": [
+     -0.4,
+     -407.8
+    ],
+    "quarter-guard": [
+     -8.6,
+     -400.3
+    ],
+    "rear-triangle": [
+     -174.9,
+     537.9
+    ],
+    "reverse-de-la-riva-guard": [
+     150.8,
+     -123.6
+    ],
+    "reverse-half-guard": [
+     -153.7,
+     -351.9
+    ],
+    "reverse-mount": [
+     -226.2,
+     40.0
+    ],
+    "reverse-x-guard": [
+     198.6,
+     -233.9
+    ],
+    "rodeo-ride": [
+     -192.0,
+     331.0
+    ],
+    "rubber-guard": [
+     -73.3,
+     -214.9
+    ],
+    "russian-cowboy": [
+     -322.0,
+     504.7
+    ],
+    "s-mount": [
+     -384.9,
+     -118.8
+    ],
+    "saddle": [
+     845.5,
+     87.7
+    ],
+    "seat-belt-control-back": [
+     -54.8,
+     692.0
+    ],
+    "seated-guard": [
+     103.9,
+     -88.7
+    ],
+    "shin-to-shin-guard": [
+     110.4,
+     -203.1
+    ],
+    "shoulder-of-justice": [
+     -424.3,
+     157.6
+    ],
+    "side-control": [
+     -150.9,
+     9.4
+    ],
+    "single-leg-x-guard": [
+     239.3,
+     -214.8
+    ],
+    "standing-back-control": [
+     -12.2,
+     324.6
+    ],
+    "standing-guard": [
+     65.0,
+     -77.8
+    ],
+    "standing-position": [
+     51.0,
+     -51.7
+    ],
+    "standing-rear-clinch": [
+     33.0,
+     220.9
+    ],
+    "straight-ankle-lock-control": [
+     606.6,
+     217.5
+    ],
+    "technical-mount": [
+     -336.9,
+     14.2
+    ],
+    "toe-hold-control": [
+     885.9,
+     105.6
+    ],
+    "triangle-control": [
+     -352.8,
+     -403.8
+    ],
+    "triangle-escape-position": [
+     -282.0,
+     -283.5
+    ],
+    "truck": [
+     -387.7,
+     374.9
+    ],
+    "turtle": [
+     -151.7,
+     154.2
+    ],
+    "twister-control": [
+     -465.5,
+     417.4
+    ],
+    "twister-side-control": [
+     -408.6,
+     328.0
+    ],
+    "ushiro-ashi-garami": [
+     621.4,
+     -119.1
+    ],
+    "ushiro-kesa-gatame": [
+     -451.7,
+     137.7
+    ],
+    "vaporizer": [
+     -41.0,
+     -317.4
+    ],
+    "williams-guard": [
+     -248.7,
+     -288.5
+    ],
+    "x-guard": [
+     184.4,
+     -247.5
+    ],
+    "z-guard": [
+     3.0,
+     -371.1
+    ],
+    "z-lock-half-guard": [
+     -20.9,
+     -378.2
+    ],
+    "zombie": [
+     78.8,
+     49.2
+    ]
+   },
+   "kappa": 0.251189,
+   "lambda": 30.3938,
+   "leg_nn_purity": 1.0,
+   "max_move_share": 0.505942,
+   "median_move_share": 0.0918531,
+   "p90_move_share": 0.172122,
+   "technique_translated": {
+    "mean_ratio": 0.14265,
+    "median_ratio": 0.0409717,
+    "origin_is_nearest_share": 0.620532,
+    "ratio_above_one": 21,
+    "techniques": 1315
+   },
+   "territory_nn_purity": 0.934426,
+   "unweighted_hops_continuity_at5": 0.620765,
+   "unweighted_hops_jaccard_at10": 0.107981,
+   "unweighted_hops_spearman": 0.416278,
+   "unweighted_hops_trustworthiness_at5": 0.737834,
+   "wire_price_positions_only": {
+    "copy": "<scratch>/wire_copies/graph-data.knee.positions.json",
+    "gzip9_after": 107528,
+    "gzip9_before": 107447,
+    "gzip9_delta": 81,
+    "nodes_changed": 122,
+    "raw_bytes_after": 564475,
+    "raw_bytes_before": 564474,
+    "raw_delta": 1,
+    "within_delta_cap_5000": true
+   },
+   "wire_price_with_techniques": {
+    "copy": "<scratch>/wire_copies/graph-data.knee.all.json",
+    "gzip9_after": 107458,
+    "gzip9_before": 107447,
+    "gzip9_delta": 11,
+    "nodes_changed": 1351,
+    "raw_bytes_after": 564492,
+    "raw_bytes_before": 564474,
+    "raw_delta": 18,
+    "within_delta_cap_5000": true
+   }
+  },
+  "move_10pct": {
+   "diffusion_t4_continuity_at5": 0.845513,
+   "diffusion_t4_jaccard_at10": 0.18416,
+   "diffusion_t4_spearman": 0.333577,
+   "diffusion_t4_trustworthiness_at5": 0.647656,
+   "exit_tv_continuity_at5": 0.894147,
+   "exit_tv_jaccard_at10": 0.342328,
+   "exit_tv_spearman": 0.8797,
+   "exit_tv_trustworthiness_at5": 0.890423,
+   "fidelity_with_null": {
+    "diffusion_t4": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": 0.00469243,
+      "null_p025": -0.094199,
+      "null_p975": 0.107827,
+      "null_replicates": 200,
+      "null_sd": 0.0541765,
+      "observed": 0.333577,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.506798,
+      "null_p025": 0.484678,
+      "null_p975": 0.528141,
+      "null_replicates": 200,
+      "null_sd": 0.0116578,
+      "observed": 0.647656,
+      "permutation_p": 0.00497512
+     }
+    },
+    "exit_tv": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00388868,
+      "null_p025": -0.104587,
+      "null_p975": 0.0869319,
+      "null_replicates": 200,
+      "null_sd": 0.0469131,
+      "observed": 0.8797,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.507473,
+      "null_p025": 0.48311,
+      "null_p975": 0.534638,
+      "null_replicates": 200,
+      "null_sd": 0.0136638,
+      "observed": 0.890423,
+      "permutation_p": 0.00497512
+     }
+    },
+    "unweighted_hops": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00157116,
+      "null_p025": -0.0604127,
+      "null_p975": 0.0515906,
+      "null_replicates": 200,
+      "null_sd": 0.0286494,
+      "observed": 0.414586,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.508211,
+      "null_p025": 0.481204,
+      "null_p975": 0.539254,
+      "null_replicates": 200,
+      "null_sd": 0.0151804,
+      "observed": 0.728732,
+      "permutation_p": 0.00497512
+     }
+    }
+   },
+   "ground_coordinates": {
+    "3-4-mount": [
+     -364.2,
+     -118.6
+    ],
+    "50-50-guard": [
+     762.9,
+     139.7
+    ],
+    "anaconda-control": [
+     -101.2,
+     319.4
+    ],
+    "aoki-lock-control": [
+     -229.4,
+     344.4
+    ],
+    "armbar-control": [
+     -469.5,
+     -195.6
+    ],
+    "ashi-garami": [
+     711.7,
+     -94.0
+    ],
+    "back-control": [
+     -171.7,
+     371.5
+    ],
+    "backside-50-50": [
+     1301.6,
+     379.0
+    ],
+    "body-lock": [
+     22.3,
+     48.9
+    ],
+    "body-triangle": [
+     -31.2,
+     662.1
+    ],
+    "buggy-choke": [
+     -82.7,
+     181.2
+    ],
+    "butterfly-guard": [
+     71.2,
+     -317.2
+    ],
+    "butterfly-half-guard": [
+     7.6,
+     -340.7
+    ],
+    "butterfly-hook-control": [
+     88.2,
+     -327.0
+    ],
+    "carni": [
+     473.5,
+     171.1
+    ],
+    "chill-dog": [
+     -57.5,
+     -38.9
+    ],
+    "clamp-guard": [
+     -110.0,
+     -183.2
+    ],
+    "clinch": [
+     42.9,
+     20.8
+    ],
+    "closed-guard": [
+     -144.3,
+     -279.5
+    ],
+    "combat-base": [
+     20.2,
+     -128.0
+    ],
+    "crab-ride": [
+     -177.9,
+     241.8
+    ],
+    "crackhead-control": [
+     -129.8,
+     -334.8
+    ],
+    "cross-ashi-garami": [
+     908.1,
+     6.5
+    ],
+    "cross-body-ride": [
+     -208.9,
+     244.5
+    ],
+    "crucifix": [
+     -154.7,
+     410.4
+    ],
+    "darce-control": [
+     -84.6,
+     357.6
+    ],
+    "de-la-riva-guard": [
+     100.0,
+     -152.1
+    ],
+    "dead-orchard-control": [
+     -108.6,
+     387.2
+    ],
+    "deep-half-guard": [
+     -55.1,
+     -286.3
+    ],
+    "diamond-guard": [
+     -197.7,
+     -334.8
+    ],
+    "dogfight-position": [
+     21.7,
+     -348.6
+    ],
+    "double-jump": [
+     54.8,
+     -346.7
+    ],
+    "double-unders": [
+     16.9,
+     -226.4
+    ],
+    "electric-chair": [
+     -121.9,
+     -385.0
+    ],
+    "estima-lock-control": [
+     512.7,
+     28.4
+    ],
+    "feet-on-hips-guard": [
+     72.8,
+     -139.3
+    ],
+    "flattened-half-guard": [
+     28.1,
+     -402.7
+    ],
+    "front-headlock": [
+     -34.7,
+     245.9
+    ],
+    "gift-wrap": [
+     -268.1,
+     247.8
+    ],
+    "gogoplata-control": [
+     -301.7,
+     -359.5
+    ],
+    "grasshopper-guard": [
+     234.2,
+     -132.8
+    ],
+    "guillotine-control": [
+     -32.1,
+     371.2
+    ],
+    "half-butterfly": [
+     49.2,
+     -318.2
+    ],
+    "half-guard": [
+     5.8,
+     -331.0
+    ],
+    "harness": [
+     -79.9,
+     522.7
+    ],
+    "headquarters-position": [
+     115.5,
+     -136.7
+    ],
+    "high-mount": [
+     -410.9,
+     -11.9
+    ],
+    "hindulotine": [
+     -4.0,
+     288.6
+    ],
+    "honey-hole": [
+     983.8,
+     118.0
+    ],
+    "inside-ashi-garami": [
+     650.0,
+     16.5
+    ],
+    "inside-sankaku": [
+     916.7,
+     190.8
+    ],
+    "inverted-guard": [
+     123.3,
+     -185.7
+    ],
+    "invisible-collar": [
+     -125.6,
+     857.6
+    ],
+    "jailbreak": [
+     -68.0,
+     -225.1
+    ],
+    "k-guard": [
+     142.4,
+     -246.2
+    ],
+    "kesa-gatame": [
+     -428.3,
+     11.8
+    ],
+    "kimura-trap": [
+     -330.7,
+     61.3
+    ],
+    "knee-on-belly": [
+     -143.6,
+     -80.1
+    ],
+    "knee-shield-half-guard": [
+     32.8,
+     -361.3
+    ],
+    "kneebar-control": [
+     804.1,
+     -3.8
+    ],
+    "kuzure-kesa-gatame": [
+     -494.4,
+     24.5
+    ],
+    "leg-drag-control": [
+     -48.8,
+     -8.6
+    ],
+    "leg-entanglement": [
+     594.3,
+     -8.3
+    ],
+    "leg-hook": [
+     -3.4,
+     -264.4
+    ],
+    "leg-knot": [
+     363.2,
+     -98.8
+    ],
+    "leg-weave": [
+     -30.1,
+     -247.6
+    ],
+    "lockdown": [
+     -31.3,
+     -396.6
+    ],
+    "matrix": [
+     -113.4,
+     129.4
+    ],
+    "meathook": [
+     -151.3,
+     -339.3
+    ],
+    "mission-control": [
+     -168.4,
+     -389.8
+    ],
+    "modified-mount": [
+     -513.9,
+     -112.3
+    ],
+    "mount": [
+     -293.3,
+     -94.7
+    ],
+    "mounted-crucifix": [
+     -236.7,
+     396.9
+    ],
+    "mounted-triangle": [
+     -377.7,
+     194.1
+    ],
+    "new-york": [
+     -62.8,
+     -162.7
+    ],
+    "new-york-control": [
+     -177.8,
+     -159.3
+    ],
+    "north-south": [
+     -262.0,
+     78.8
+    ],
+    "old-school": [
+     -39.1,
+     -376.2
+    ],
+    "omoplata-control": [
+     -139.0,
+     -188.8
+    ],
+    "open-guard": [
+     17.0,
+     -153.6
+    ],
+    "outside-ashi-garami": [
+     743.4,
+     -148.8
+    ],
+    "overhook-control": [
+     -68.5,
+     59.4
+    ],
+    "overhook-guard": [
+     -141.1,
+     -252.6
+    ],
+    "pocket-half-guard": [
+     0.8,
+     -384.3
+    ],
+    "quarter-guard": [
+     -7.5,
+     -395.3
+    ],
+    "rear-triangle": [
+     -168.9,
+     538.4
+    ],
+    "reverse-de-la-riva-guard": [
+     145.1,
+     -122.4
+    ],
+    "reverse-half-guard": [
+     -170.6,
+     -276.8
+    ],
+    "reverse-mount": [
+     -216.4,
+     33.0
+    ],
+    "reverse-x-guard": [
+     188.4,
+     -233.4
+    ],
+    "rodeo-ride": [
+     -178.9,
+     335.5
+    ],
+    "rubber-guard": [
+     -70.5,
+     -208.9
+    ],
+    "russian-cowboy": [
+     -313.2,
+     510.4
+    ],
+    "s-mount": [
+     -391.5,
+     -122.1
+    ],
+    "saddle": [
+     849.4,
+     90.6
+    ],
+    "seat-belt-control-back": [
+     -57.4,
+     700.4
+    ],
+    "seated-guard": [
+     94.2,
+     -98.5
+    ],
+    "shin-to-shin-guard": [
+     103.9,
+     -201.3
+    ],
+    "shoulder-of-justice": [
+     -415.7,
+     151.3
+    ],
+    "side-control": [
+     -156.2,
+     10.0
+    ],
+    "single-leg-x-guard": [
+     238.8,
+     -212.5
+    ],
+    "standing-back-control": [
+     -16.3,
+     318.5
+    ],
+    "standing-guard": [
+     55.6,
+     -92.4
+    ],
+    "standing-position": [
+     45.9,
+     -62.5
+    ],
+    "standing-rear-clinch": [
+     26.6,
+     216.8
+    ],
+    "straight-ankle-lock-control": [
+     608.8,
+     239.4
+    ],
+    "technical-mount": [
+     -334.5,
+     12.9
+    ],
+    "toe-hold-control": [
+     897.0,
+     106.3
+    ],
+    "triangle-control": [
+     -344.0,
+     -440.7
+    ],
+    "triangle-escape-position": [
+     -281.0,
+     -305.9
+    ],
+    "truck": [
+     -388.7,
+     372.2
+    ],
+    "turtle": [
+     -145.3,
+     151.3
+    ],
+    "twister-control": [
+     -464.4,
+     421.1
+    ],
+    "twister-side-control": [
+     -401.2,
+     326.1
+    ],
+    "ushiro-ashi-garami": [
+     619.8,
+     -113.2
+    ],
+    "ushiro-kesa-gatame": [
+     -442.0,
+     127.6
+    ],
+    "vaporizer": [
+     -35.7,
+     -293.4
+    ],
+    "williams-guard": [
+     -233.9,
+     -389.9
+    ],
+    "x-guard": [
+     179.4,
+     -245.0
+    ],
+    "z-guard": [
+     2.2,
+     -350.7
+    ],
+    "z-lock-half-guard": [
+     -16.4,
+     -358.5
+    ],
+    "zombie": [
+     68.6,
+     23.3
+    ]
+   },
+   "kappa": 0.205353,
+   "lambda": 24.8477,
+   "leg_nn_purity": 1.0,
+   "max_move_share": 0.525964,
+   "median_move_share": 0.0999047,
+   "p90_move_share": 0.183315,
+   "technique_translated": {
+    "mean_ratio": 0.142434,
+    "median_ratio": 0.0410925,
+    "origin_is_nearest_share": 0.626616,
+    "ratio_above_one": 20,
+    "techniques": 1315
+   },
+   "territory_nn_purity": 0.95082,
+   "unweighted_hops_continuity_at5": 0.615142,
+   "unweighted_hops_jaccard_at10": 0.105279,
+   "unweighted_hops_spearman": 0.414586,
+   "unweighted_hops_trustworthiness_at5": 0.728732,
+   "wire_price_positions_only": {
+    "copy": "<scratch>/wire_copies/graph-data.move_10pct.positions.json",
+    "gzip9_after": 107554,
+    "gzip9_before": 107447,
+    "gzip9_delta": 107,
+    "nodes_changed": 122,
+    "raw_bytes_after": 564475,
+    "raw_bytes_before": 564474,
+    "raw_delta": 1,
+    "within_delta_cap_5000": true
+   },
+   "wire_price_with_techniques": {
+    "copy": "<scratch>/wire_copies/graph-data.move_10pct.all.json",
+    "gzip9_after": 107334,
+    "gzip9_before": 107447,
+    "gzip9_delta": -113,
+    "nodes_changed": 1351,
+    "raw_bytes_after": 564520,
+    "raw_bytes_before": 564474,
+    "raw_delta": 46,
+    "within_delta_cap_5000": true
+   }
+  },
+  "move_2.5pct": {
+   "diffusion_t4_continuity_at5": 0.837921,
+   "diffusion_t4_jaccard_at10": 0.206495,
+   "diffusion_t4_spearman": 0.195388,
+   "diffusion_t4_trustworthiness_at5": 0.669025,
+   "exit_tv_continuity_at5": 0.822606,
+   "exit_tv_jaccard_at10": 0.257574,
+   "exit_tv_spearman": 0.586653,
+   "exit_tv_trustworthiness_at5": 0.854185,
+   "fidelity_with_null": {
+    "diffusion_t4": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": 0.0012008,
+      "null_p025": -0.0803414,
+      "null_p975": 0.0755095,
+      "null_replicates": 200,
+      "null_sd": 0.0439149,
+      "observed": 0.195388,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.506457,
+      "null_p025": 0.484914,
+      "null_p975": 0.526335,
+      "null_replicates": 200,
+      "null_sd": 0.0107361,
+      "observed": 0.669025,
+      "permutation_p": 0.00497512
+     }
+    },
+    "exit_tv": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00275995,
+      "null_p025": -0.0778624,
+      "null_p975": 0.0615648,
+      "null_replicates": 200,
+      "null_sd": 0.0356951,
+      "observed": 0.586653,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.507343,
+      "null_p025": 0.480993,
+      "null_p975": 0.533532,
+      "null_replicates": 200,
+      "null_sd": 0.0140948,
+      "observed": 0.854185,
+      "permutation_p": 0.00497512
+     }
+    },
+    "unweighted_hops": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00256986,
+      "null_p025": -0.042169,
+      "null_p975": 0.0447681,
+      "null_replicates": 200,
+      "null_sd": 0.0240556,
+      "observed": 0.41249,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.507684,
+      "null_p025": 0.481267,
+      "null_p975": 0.531977,
+      "null_replicates": 200,
+      "null_sd": 0.0142863,
+      "observed": 0.767659,
+      "permutation_p": 0.00497512
+     }
+    }
+   },
+   "ground_coordinates": {
+    "3-4-mount": [
+     -426.5,
+     -27.7
+    ],
+    "50-50-guard": [
+     608.3,
+     81.0
+    ],
+    "anaconda-control": [
+     -115.6,
+     267.9
+    ],
+    "aoki-lock-control": [
+     -283.1,
+     416.2
+    ],
+    "armbar-control": [
+     -283.8,
+     -72.4
+    ],
+    "ashi-garami": [
+     580.6,
+     -43.3
+    ],
+    "back-control": [
+     -219.6,
+     278.6
+    ],
+    "backside-50-50": [
+     775.1,
+     191.0
+    ],
+    "body-lock": [
+     137.7,
+     188.3
+    ],
+    "body-triangle": [
+     -19.7,
+     589.9
+    ],
+    "buggy-choke": [
+     -115.0,
+     314.0
+    ],
+    "butterfly-guard": [
+     148.4,
+     -397.5
+    ],
+    "butterfly-half-guard": [
+     40.7,
+     -521.9
+    ],
+    "butterfly-hook-control": [
+     166.1,
+     -386.0
+    ],
+    "carni": [
+     422.0,
+     111.4
+    ],
+    "chill-dog": [
+     -105.6,
+     130.2
+    ],
+    "clamp-guard": [
+     -161.0,
+     -101.3
+    ],
+    "clinch": [
+     104.6,
+     170.3
+    ],
+    "closed-guard": [
+     -218.9,
+     -215.9
+    ],
+    "combat-base": [
+     60.3,
+     -22.8
+    ],
+    "crab-ride": [
+     -293.4,
+     279.2
+    ],
+    "crackhead-control": [
+     -160.7,
+     -313.2
+    ],
+    "cross-ashi-garami": [
+     710.4,
+     -29.3
+    ],
+    "cross-body-ride": [
+     -308.8,
+     298.4
+    ],
+    "crucifix": [
+     -152.9,
+     425.0
+    ],
+    "darce-control": [
+     -94.8,
+     287.1
+    ],
+    "de-la-riva-guard": [
+     175.5,
+     -75.3
+    ],
+    "dead-orchard-control": [
+     -144.1,
+     275.3
+    ],
+    "deep-half-guard": [
+     -41.7,
+     -444.2
+    ],
+    "diamond-guard": [
+     -230.2,
+     -254.7
+    ],
+    "dogfight-position": [
+     62.2,
+     -518.3
+    ],
+    "double-jump": [
+     156.7,
+     -502.2
+    ],
+    "double-unders": [
+     104.4,
+     -332.0
+    ],
+    "electric-chair": [
+     -137.1,
+     -498.6
+    ],
+    "estima-lock-control": [
+     576.4,
+     107.2
+    ],
+    "feet-on-hips-guard": [
+     163.3,
+     -21.3
+    ],
+    "flattened-half-guard": [
+     95.7,
+     -592.8
+    ],
+    "front-headlock": [
+     -22.3,
+     214.4
+    ],
+    "gift-wrap": [
+     -304.3,
+     173.4
+    ],
+    "gogoplata-control": [
+     -220.3,
+     -207.8
+    ],
+    "grasshopper-guard": [
+     337.4,
+     -100.3
+    ],
+    "guillotine-control": [
+     1.6,
+     285.7
+    ],
+    "half-butterfly": [
+     114.7,
+     -422.5
+    ],
+    "half-guard": [
+     -6.4,
+     -495.0
+    ],
+    "harness": [
+     -89.6,
+     504.8
+    ],
+    "headquarters-position": [
+     198.1,
+     -134.4
+    ],
+    "high-mount": [
+     -345.1,
+     8.2
+    ],
+    "hindulotine": [
+     -21.4,
+     297.0
+    ],
+    "honey-hole": [
+     856.0,
+     88.9
+    ],
+    "inside-ashi-garami": [
+     575.4,
+     -5.2
+    ],
+    "inside-sankaku": [
+     797.2,
+     109.4
+    ],
+    "inverted-guard": [
+     266.6,
+     -119.5
+    ],
+    "invisible-collar": [
+     -109.1,
+     671.7
+    ],
+    "jailbreak": [
+     -81.3,
+     -398.0
+    ],
+    "k-guard": [
+     197.7,
+     -256.4
+    ],
+    "kesa-gatame": [
+     -597.9,
+     141.2
+    ],
+    "kimura-trap": [
+     -425.3,
+     217.7
+    ],
+    "knee-on-belly": [
+     -135.5,
+     30.3
+    ],
+    "knee-shield-half-guard": [
+     94.4,
+     -502.4
+    ],
+    "kneebar-control": [
+     581.4,
+     -34.4
+    ],
+    "kuzure-kesa-gatame": [
+     -652.5,
+     129.2
+    ],
+    "leg-drag-control": [
+     -40.6,
+     76.4
+    ],
+    "leg-entanglement": [
+     636.2,
+     7.0
+    ],
+    "leg-hook": [
+     35.5,
+     -399.6
+    ],
+    "leg-knot": [
+     640.1,
+     -38.8
+    ],
+    "leg-weave": [
+     2.8,
+     -415.4
+    ],
+    "lockdown": [
+     -35.8,
+     -519.9
+    ],
+    "matrix": [
+     -171.9,
+     259.9
+    ],
+    "meathook": [
+     -146.6,
+     -226.0
+    ],
+    "mission-control": [
+     -144.0,
+     -268.3
+    ],
+    "modified-mount": [
+     -410.4,
+     -14.7
+    ],
+    "mount": [
+     -280.0,
+     -7.8
+    ],
+    "mounted-crucifix": [
+     -185.6,
+     430.5
+    ],
+    "mounted-triangle": [
+     -382.1,
+     -86.3
+    ],
+    "new-york": [
+     -79.9,
+     -239.2
+    ],
+    "new-york-control": [
+     -117.4,
+     -147.2
+    ],
+    "north-south": [
+     -475.2,
+     146.5
+    ],
+    "old-school": [
+     -58.7,
+     -566.4
+    ],
+    "omoplata-control": [
+     -72.5,
+     -144.0
+    ],
+    "open-guard": [
+     72.2,
+     -139.5
+    ],
+    "outside-ashi-garami": [
+     619.7,
+     -77.6
+    ],
+    "overhook-control": [
+     9.0,
+     57.4
+    ],
+    "overhook-guard": [
+     -29.1,
+     -75.0
+    ],
+    "pocket-half-guard": [
+     21.9,
+     -610.4
+    ],
+    "quarter-guard": [
+     36.2,
+     -474.3
+    ],
+    "rear-triangle": [
+     -208.7,
+     538.2
+    ],
+    "reverse-de-la-riva-guard": [
+     234.9,
+     -105.4
+    ],
+    "reverse-half-guard": [
+     -198.6,
+     -605.9
+    ],
+    "reverse-mount": [
+     -344.3,
+     155.4
+    ],
+    "reverse-x-guard": [
+     345.1,
+     -237.9
+    ],
+    "rodeo-ride": [
+     -254.0,
+     316.0
+    ],
+    "rubber-guard": [
+     -104.1,
+     -214.1
+    ],
+    "russian-cowboy": [
+     -358.7,
+     460.8
+    ],
+    "s-mount": [
+     -336.9,
+     -55.6
+    ],
+    "saddle": [
+     770.1,
+     56.8
+    ],
+    "seat-belt-control-back": [
+     -35.0,
+     559.3
+    ],
+    "seated-guard": [
+     209.2,
+     31.9
+    ],
+    "shin-to-shin-guard": [
+     194.3,
+     -196.5
+    ],
+    "shoulder-of-justice": [
+     -493.9,
+     226.7
+    ],
+    "side-control": [
+     -109.5,
+     24.0
+    ],
+    "single-leg-x-guard": [
+     262.1,
+     -225.1
+    ],
+    "standing-back-control": [
+     26.8,
+     399.1
+    ],
+    "standing-guard": [
+     156.6,
+     88.3
+    ],
+    "standing-position": [
+     106.1,
+     78.2
+    ],
+    "standing-rear-clinch": [
+     110.2,
+     270.1
+    ],
+    "straight-ankle-lock-control": [
+     508.8,
+     53.0
+    ],
+    "technical-mount": [
+     -379.0,
+     67.5
+    ],
+    "toe-hold-control": [
+     707.0,
+     65.7
+    ],
+    "triangle-control": [
+     -208.1,
+     -148.4
+    ],
+    "triangle-escape-position": [
+     -237.1,
+     -142.9
+    ],
+    "truck": [
+     -400.2,
+     397.5
+    ],
+    "turtle": [
+     -209.1,
+     217.8
+    ],
+    "twister-control": [
+     -452.8,
+     381.9
+    ],
+    "twister-side-control": [
+     -474.8,
+     373.7
+    ],
+    "ushiro-ashi-garami": [
+     648.9,
+     -130.7
+    ],
+    "ushiro-kesa-gatame": [
+     -544.7,
+     258.3
+    ],
+    "vaporizer": [
+     -63.5,
+     -479.4
+    ],
+    "williams-guard": [
+     -67.6,
+     -75.2
+    ],
+    "x-guard": [
+     271.0,
+     -262.5
+    ],
+    "z-guard": [
+     31.5,
+     -550.5
+    ],
+    "z-lock-half-guard": [
+     -28.1,
+     -554.4
+    ],
+    "zombie": [
+     181.5,
+     334.2
+    ]
+   },
+   "kappa": 2.5483,
+   "lambda": 308.344,
+   "leg_nn_purity": 0.967213,
+   "max_move_share": 0.161585,
+   "median_move_share": 0.024999,
+   "p90_move_share": 0.0473024,
+   "technique_translated": {
+    "mean_ratio": 0.13902,
+    "median_ratio": 0.0370944,
+    "origin_is_nearest_share": 0.628897,
+    "ratio_above_one": 24,
+    "techniques": 1315
+   },
+   "territory_nn_purity": 0.877049,
+   "unweighted_hops_continuity_at5": 0.677107,
+   "unweighted_hops_jaccard_at10": 0.115169,
+   "unweighted_hops_spearman": 0.41249,
+   "unweighted_hops_trustworthiness_at5": 0.767659,
+   "wire_price_positions_only": {
+    "copy": "<scratch>/wire_copies/graph-data.move_2.5pct.positions.json",
+    "gzip9_after": 107495,
+    "gzip9_before": 107447,
+    "gzip9_delta": 48,
+    "nodes_changed": 122,
+    "raw_bytes_after": 564475,
+    "raw_bytes_before": 564474,
+    "raw_delta": 1,
+    "within_delta_cap_5000": true
+   },
+   "wire_price_with_techniques": {
+    "copy": "<scratch>/wire_copies/graph-data.move_2.5pct.all.json",
+    "gzip9_after": 107460,
+    "gzip9_before": 107447,
+    "gzip9_delta": 13,
+    "nodes_changed": 1351,
+    "raw_bytes_after": 564492,
+    "raw_bytes_before": 564474,
+    "raw_delta": 18,
+    "within_delta_cap_5000": true
+   }
+  },
+  "move_5pct": {
+   "diffusion_t4_continuity_at5": 0.844061,
+   "diffusion_t4_jaccard_at10": 0.206843,
+   "diffusion_t4_spearman": 0.247268,
+   "diffusion_t4_trustworthiness_at5": 0.658829,
+   "exit_tv_continuity_at5": 0.842623,
+   "exit_tv_jaccard_at10": 0.277801,
+   "exit_tv_spearman": 0.706677,
+   "exit_tv_trustworthiness_at5": 0.864984,
+   "fidelity_with_null": {
+    "diffusion_t4": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": 0.00265042,
+      "null_p025": -0.0795422,
+      "null_p975": 0.0937226,
+      "null_replicates": 200,
+      "null_sd": 0.0476671,
+      "observed": 0.247268,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.506168,
+      "null_p025": 0.487428,
+      "null_p975": 0.525623,
+      "null_replicates": 200,
+      "null_sd": 0.010455,
+      "observed": 0.658829,
+      "permutation_p": 0.00497512
+     }
+    },
+    "exit_tv": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00333184,
+      "null_p025": -0.0818282,
+      "null_p975": 0.0712718,
+      "null_replicates": 200,
+      "null_sd": 0.0390962,
+      "observed": 0.706677,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.506671,
+      "null_p025": 0.479376,
+      "null_p975": 0.532157,
+      "null_replicates": 200,
+      "null_sd": 0.013844,
+      "observed": 0.864984,
+      "permutation_p": 0.00497512
+     }
+    },
+    "unweighted_hops": {
+     "spearman": {
+      "alternative": "greater",
+      "null_mean": -0.00233562,
+      "null_p025": -0.044751,
+      "null_p975": 0.0437359,
+      "null_replicates": 200,
+      "null_sd": 0.0255363,
+      "observed": 0.420408,
+      "permutation_p": 0.00497512
+     },
+     "trustworthiness_at5": {
+      "alternative": "greater",
+      "null_mean": 0.507429,
+      "null_p025": 0.480828,
+      "null_p975": 0.536744,
+      "null_replicates": 200,
+      "null_sd": 0.0145597,
+      "observed": 0.764251,
+      "permutation_p": 0.00497512
+     }
+    }
+   },
+   "ground_coordinates": {
+    "3-4-mount": [
+     -407.6,
+     -64.3
+    ],
+    "50-50-guard": [
+     671.7,
+     103.1
+    ],
+    "anaconda-control": [
+     -119.0,
+     282.1
+    ],
+    "aoki-lock-control": [
+     -268.2,
+     392.6
+    ],
+    "armbar-control": [
+     -331.0,
+     -107.4
+    ],
+    "ashi-garami": [
+     629.8,
+     -48.6
+    ],
+    "back-control": [
+     -215.7,
+     301.4
+    ],
+    "backside-50-50": [
+     998.0,
+     264.8
+    ],
+    "body-lock": [
+     100.7,
+     141.4
+    ],
+    "body-triangle": [
+     -21.7,
+     618.5
+    ],
+    "buggy-choke": [
+     -105.8,
+     264.0
+    ],
+    "butterfly-guard": [
+     118.0,
+     -369.5
+    ],
+    "butterfly-half-guard": [
+     24.9,
+     -462.9
+    ],
+    "butterfly-hook-control": [
+     135.2,
+     -362.9
+    ],
+    "carni": [
+     439.1,
+     126.6
+    ],
+    "chill-dog": [
+     -90.0,
+     74.9
+    ],
+    "clamp-guard": [
+     -148.0,
+     -129.7
+    ],
+    "clinch": [
+     84.2,
+     122.5
+    ],
+    "closed-guard": [
+     -194.2,
+     -232.3
+    ],
+    "combat-base": [
+     48.3,
+     -59.4
+    ],
+    "crab-ride": [
+     -264.6,
+     259.5
+    ],
+    "crackhead-control": [
+     -155.7,
+     -314.5
+    ],
+    "cross-ashi-garami": [
+     791.3,
+     -21.4
+    ],
+    "cross-body-ride": [
+     -285.0,
+     275.6
+    ],
+    "crucifix": [
+     -153.4,
+     417.6
+    ],
+    "darce-control": [
+     -99.2,
+     308.6
+    ],
+    "de-la-riva-guard": [
+     146.8,
+     -99.2
+    ],
+    "dead-orchard-control": [
+     -146.0,
+     308.5
+    ],
+    "deep-half-guard": [
+     -50.9,
+     -400.8
+    ],
+    "diamond-guard": [
+     -218.6,
+     -273.3
+    ],
+    "dogfight-position": [
+     44.1,
+     -461.5
+    ],
+    "double-jump": [
+     118.4,
+     -450.1
+    ],
+    "double-unders": [
+     73.4,
+     -305.6
+    ],
+    "electric-chair": [
+     -140.8,
+     -457.5
+    ],
+    "estima-lock-control": [
+     546.8,
+     97.3
+    ],
+    "feet-on-hips-guard": [
+     132.5,
+     -58.5
+    ],
+    "flattened-half-guard": [
+     68.2,
+     -525.3
+    ],
+    "front-headlock": [
+     -31.3,
+     221.4
+    ],
+    "gift-wrap": [
+     -299.1,
+     186.0
+    ],
+    "gogoplata-control": [
+     -242.6,
+     -245.8
+    ],
+    "grasshopper-guard": [
+     296.1,
+     -113.4
+    ],
+    "guillotine-control": [
+     -11.9,
+     313.8
+    ],
+    "half-butterfly": [
+     88.7,
+     -387.6
+    ],
+    "half-guard": [
+     -10.6,
+     -443.8
+    ],
+    "harness": [
+     -90.6,
+     510.6
+    ],
+    "headquarters-position": [
+     165.0,
+     -143.0
+    ],
+    "high-mount": [
+     -361.0,
+     -3.2
+    ],
+    "hindulotine": [
+     -23.2,
+     292.5
+    ],
+    "honey-hole": [
+     908.3,
+     99.2
+    ],
+    "inside-ashi-garami": [
+     604.1,
+     0.1
+    ],
+    "inside-sankaku": [
+     849.1,
+     129.6
+    ],
+    "inverted-guard": [
+     215.2,
+     -139.5
+    ],
+    "invisible-collar": [
+     -116.7,
+     746.7
+    ],
+    "jailbreak": [
+     -80.8,
+     -358.0
+    ],
+    "k-guard": [
+     172.6,
+     -252.7
+    ],
+    "kesa-gatame": [
+     -541.6,
+     96.0
+    ],
+    "kimura-trap": [
+     -397.7,
+     174.1
+    ],
+    "knee-on-belly": [
+     -133.5,
+     -8.8
+    ],
+    "knee-shield-half-guard": [
+     70.1,
+     -453.1
+    ],
+    "kneebar-control": [
+     674.7,
+     -24.7
+    ],
+    "kuzure-kesa-gatame": [
+     -596.8,
+     91.1
+    ],
+    "leg-drag-control": [
+     -43.5,
+     44.7
+    ],
+    "leg-entanglement": [
+     619.4,
+     5.5
+    ],
+    "leg-hook": [
+     19.2,
+     -362.2
+    ],
+    "leg-knot": [
+     522.7,
+     -61.7
+    ],
+    "leg-weave": [
+     -10.8,
+     -372.7
+    ],
+    "lockdown": [
+     -40.6,
+     -474.1
+    ],
+    "matrix": [
+     -155.0,
+     212.0
+    ],
+    "meathook": [
+     -142.1,
+     -246.3
+    ],
+    "mission-control": [
+     -148.7,
+     -283.7
+    ],
+    "modified-mount": [
+     -448.3,
+     -50.4
+    ],
+    "mount": [
+     -276.5,
+     -36.7
+    ],
+    "mounted-crucifix": [
+     -189.9,
+     422.7
+    ],
+    "mounted-triangle": [
+     -406.9,
+     -42.2
+    ],
+    "new-york": [
+     -73.8,
+     -228.3
+    ],
+    "new-york-control": [
+     -117.8,
+     -154.2
+    ],
+    "north-south": [
+     -412.3,
+     115.8
+    ],
+    "old-school": [
+     -57.7,
+     -501.2
+    ],
+    "omoplata-control": [
+     -74.9,
+     -162.6
+    ],
+    "open-guard": [
+     54.8,
+     -151.1
+    ],
+    "outside-ashi-garami": [
+     669.4,
+     -88.3
+    ],
+    "overhook-control": [
+     -9.8,
+     52.6
+    ],
+    "overhook-guard": [
+     -27.5,
+     -105.8
+    ],
+    "pocket-half-guard": [
+     8.5,
+     -531.9
+    ],
+    "quarter-guard": [
+     19.5,
+     -438.0
+    ],
+    "rear-triangle": [
+     -202.5,
+     536.4
+    ],
+    "reverse-de-la-riva-guard": [
+     198.4,
+     -115.3
+    ],
+    "reverse-half-guard": [
+     -186.2,
+     -515.3
+    ],
+    "reverse-mount": [
+     -304.2,
+     110.2
+    ],
+    "reverse-x-guard": [
+     285.6,
+     -235.8
+    ],
+    "rodeo-ride": [
+     -241.8,
+     317.3
+    ],
+    "rubber-guard": [
+     -92.6,
+     -219.2
+    ],
+    "russian-cowboy": [
+     -354.0,
+     473.6
+    ],
+    "s-mount": [
+     -346.9,
+     -79.6
+    ],
+    "saddle": [
+     804.5,
+     66.2
+    ],
+    "seat-belt-control-back": [
+     -41.6,
+     613.9
+    ],
+    "seated-guard": [
+     169.5,
+     -11.3
+    ],
+    "shin-to-shin-guard": [
+     159.8,
+     -200.7
+    ],
+    "shoulder-of-justice": [
+     -469.4,
+     197.9
+    ],
+    "side-control": [
+     -121.2,
+     15.6
+    ],
+    "single-leg-x-guard": [
+     246.1,
+     -223.4
+    ],
+    "standing-back-control": [
+     11.0,
+     372.4
+    ],
+    "standing-guard": [
+     124.8,
+     30.9
+    ],
+    "standing-position": [
+     86.5,
+     31.7
+    ],
+    "standing-rear-clinch": [
+     80.3,
+     252.3
+    ],
+    "straight-ankle-lock-control": [
+     556.2,
+     82.9
+    ],
+    "technical-mount": [
+     -363.2,
+     45.9
+    ],
+    "toe-hold-control": [
+     782.9,
+     83.8
+    ],
+    "triangle-control": [
+     -258.2,
+     -204.9
+    ],
+    "triangle-escape-position": [
+     -239.9,
+     -178.5
+    ],
+    "truck": [
+     -394.7,
+     388.8
+    ],
+    "turtle": [
+     -191.8,
+     189.6
+    ],
+    "twister-control": [
+     -462.7,
+     394.0
+    ],
+    "twister-side-control": [
+     -452.9,
+     352.4
+    ],
+    "ushiro-ashi-garami": [
+     637.7,
+     -134.6
+    ],
+    "ushiro-kesa-gatame": [
+     -509.4,
+     214.3
+    ],
+    "vaporizer": [
+     -62.6,
+     -424.8
+    ],
+    "williams-guard": [
+     -68.6,
+     -104.7
+    ],
+    "x-guard": [
+     233.1,
+     -257.5
+    ],
+    "z-guard": [
+     16.7,
+     -485.0
+    ],
+    "z-lock-half-guard": [
+     -30.4,
+     -490.0
+    ],
+    "zombie": [
+     147.0,
+     240.0
+    ]
+   },
+   "kappa": 0.957745,
+   "lambda": 115.887,
+   "leg_nn_purity": 0.991803,
+   "max_move_share": 0.314589,
+   "median_move_share": 0.0501744,
+   "p90_move_share": 0.0913693,
+   "technique_translated": {
+    "mean_ratio": 0.141269,
+    "median_ratio": 0.0386085,
+    "origin_is_nearest_share": 0.636502,
+    "ratio_above_one": 23,
+    "techniques": 1315
+   },
+   "territory_nn_purity": 0.885246,
+   "unweighted_hops_continuity_at5": 0.65893,
+   "unweighted_hops_jaccard_at10": 0.11429,
+   "unweighted_hops_spearman": 0.420408,
+   "unweighted_hops_trustworthiness_at5": 0.764251,
+   "wire_price_positions_only": {
+    "copy": "<scratch>/wire_copies/graph-data.move_5pct.positions.json",
+    "gzip9_after": 107525,
+    "gzip9_before": 107447,
+    "gzip9_delta": 78,
+    "nodes_changed": 122,
+    "raw_bytes_after": 564475,
+    "raw_bytes_before": 564474,
+    "raw_delta": 1,
+    "within_delta_cap_5000": true
+   },
+   "wire_price_with_techniques": {
+    "copy": "<scratch>/wire_copies/graph-data.move_5pct.all.json",
+    "gzip9_after": 107450,
+    "gzip9_before": 107447,
+    "gzip9_delta": 3,
+    "nodes_changed": 1351,
+    "raw_bytes_after": 564493,
+    "raw_bytes_before": 564474,
+    "raw_delta": 19,
+    "within_delta_cap_5000": true
+   }
+  }
+ },
+ "diameter_all_nodes": 1534.28,
+ "frontier": {
+  "median_move_monotone_violations": 0,
+  "penalty_monotone_violations": 0,
+  "points": [
+   {
+    "diffusion_t4_continuity_at5": 0.831162,
+    "diffusion_t4_jaccard_at10": 0.205327,
+    "diffusion_t4_spearman": 0.140205,
+    "diffusion_t4_trustworthiness_at5": 0.664438,
+    "exit_tv_continuity_at5": 0.803854,
+    "exit_tv_jaccard_at10": 0.237598,
+    "exit_tv_spearman": 0.453102,
+    "exit_tv_trustworthiness_at5": 0.831277,
+    "iterations": 3,
+    "kappa": 1000.0,
+    "lambda": 121000.0,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.000439766,
+    "median_move_share": 7.76559e-05,
+    "objective": 745318000.0,
+    "p90_move_share": 0.000156486,
+    "penalty": 2.9839,
+    "stress": 744957000.0,
+    "stress1": 0.482016,
+    "technique_translated": {
+     "mean_ratio": 0.135843,
+     "median_ratio": 0.0361951,
+     "origin_is_nearest_share": 0.656274,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.695298,
+    "unweighted_hops_jaccard_at10": 0.117413,
+    "unweighted_hops_spearman": 0.394193,
+    "unweighted_hops_trustworthiness_at5": 0.765732,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.831148,
+    "diffusion_t4_jaccard_at10": 0.205327,
+    "diffusion_t4_spearman": 0.14031,
+    "diffusion_t4_trustworthiness_at5": 0.664438,
+    "exit_tv_continuity_at5": 0.803883,
+    "exit_tv_jaccard_at10": 0.237598,
+    "exit_tv_spearman": 0.453351,
+    "exit_tv_trustworthiness_at5": 0.831277,
+    "iterations": 2,
+    "kappa": 630.957,
+    "lambda": 76345.8,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.000697045,
+    "median_move_share": 0.000123036,
+    "objective": 745107000.0,
+    "p90_move_share": 0.000247954,
+    "penalty": 7.49059,
+    "stress": 744535000.0,
+    "stress1": 0.481879,
+    "technique_translated": {
+     "mean_ratio": 0.13585,
+     "median_ratio": 0.0361951,
+     "origin_is_nearest_share": 0.656274,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.695211,
+    "unweighted_hops_jaccard_at10": 0.117413,
+    "unweighted_hops_spearman": 0.394238,
+    "unweighted_hops_trustworthiness_at5": 0.765732,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.831205,
+    "diffusion_t4_jaccard_at10": 0.205327,
+    "diffusion_t4_spearman": 0.140477,
+    "diffusion_t4_trustworthiness_at5": 0.664265,
+    "exit_tv_continuity_at5": 0.803998,
+    "exit_tv_jaccard_at10": 0.237598,
+    "exit_tv_spearman": 0.453739,
+    "exit_tv_trustworthiness_at5": 0.831263,
+    "iterations": 3,
+    "kappa": 398.107,
+    "lambda": 48171.0,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.0011049,
+    "median_move_share": 0.000194897,
+    "objective": 744772000.0,
+    "p90_move_share": 0.000392828,
+    "penalty": 18.7972,
+    "stress": 743867000.0,
+    "stress1": 0.481663,
+    "technique_translated": {
+     "mean_ratio": 0.135861,
+     "median_ratio": 0.0361952,
+     "origin_is_nearest_share": 0.655513,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.695154,
+    "unweighted_hops_jaccard_at10": 0.117413,
+    "unweighted_hops_spearman": 0.394315,
+    "unweighted_hops_trustworthiness_at5": 0.765703,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.831248,
+    "diffusion_t4_jaccard_at10": 0.205327,
+    "diffusion_t4_spearman": 0.140732,
+    "diffusion_t4_trustworthiness_at5": 0.664826,
+    "exit_tv_continuity_at5": 0.804113,
+    "exit_tv_jaccard_at10": 0.237598,
+    "exit_tv_spearman": 0.454363,
+    "exit_tv_trustworthiness_at5": 0.831464,
+    "iterations": 3,
+    "kappa": 251.189,
+    "lambda": 30393.8,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.00175153,
+    "median_move_share": 0.000308637,
+    "objective": 744243000.0,
+    "p90_move_share": 0.000622208,
+    "penalty": 47.1433,
+    "stress": 742810000.0,
+    "stress1": 0.481321,
+    "technique_translated": {
+     "mean_ratio": 0.135878,
+     "median_ratio": 0.0361952,
+     "origin_is_nearest_share": 0.656274,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.695197,
+    "unweighted_hops_jaccard_at10": 0.117413,
+    "unweighted_hops_spearman": 0.394414,
+    "unweighted_hops_trustworthiness_at5": 0.766523,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.831349,
+    "diffusion_t4_jaccard_at10": 0.204426,
+    "diffusion_t4_spearman": 0.141122,
+    "diffusion_t4_trustworthiness_at5": 0.665761,
+    "exit_tv_continuity_at5": 0.804257,
+    "exit_tv_jaccard_at10": 0.237598,
+    "exit_tv_spearman": 0.455328,
+    "exit_tv_trustworthiness_at5": 0.831464,
+    "iterations": 3,
+    "kappa": 158.489,
+    "lambda": 19177.2,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.00277691,
+    "median_move_share": 0.000488518,
+    "objective": 743406000.0,
+    "p90_move_share": 0.000985176,
+    "penalty": 118.128,
+    "stress": 741141000.0,
+    "stress1": 0.48078,
+    "technique_translated": {
+     "mean_ratio": 0.135905,
+     "median_ratio": 0.0361953,
+     "origin_is_nearest_share": 0.655513,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.695168,
+    "unweighted_hops_jaccard_at10": 0.118447,
+    "unweighted_hops_spearman": 0.394589,
+    "unweighted_hops_trustworthiness_at5": 0.766192,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.831493,
+    "diffusion_t4_jaccard_at10": 0.205206,
+    "diffusion_t4_spearman": 0.141775,
+    "diffusion_t4_trustworthiness_at5": 0.667371,
+    "exit_tv_continuity_at5": 0.804429,
+    "exit_tv_jaccard_at10": 0.237039,
+    "exit_tv_spearman": 0.45688,
+    "exit_tv_trustworthiness_at5": 0.834412,
+    "iterations": 3,
+    "kappa": 100.0,
+    "lambda": 12100.0,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.00440325,
+    "median_move_share": 0.000772653,
+    "objective": 742084000.0,
+    "p90_move_share": 0.001559,
+    "penalty": 295.575,
+    "stress": 738507000.0,
+    "stress1": 0.479925,
+    "technique_translated": {
+     "mean_ratio": 0.135948,
+     "median_ratio": 0.0362113,
+     "origin_is_nearest_share": 0.655513,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.695024,
+    "unweighted_hops_jaccard_at10": 0.118926,
+    "unweighted_hops_spearman": 0.394854,
+    "unweighted_hops_trustworthiness_at5": 0.767875,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.83168,
+    "diffusion_t4_jaccard_at10": 0.20592,
+    "diffusion_t4_spearman": 0.142797,
+    "diffusion_t4_trustworthiness_at5": 0.666868,
+    "exit_tv_continuity_at5": 0.804789,
+    "exit_tv_jaccard_at10": 0.239025,
+    "exit_tv_spearman": 0.459346,
+    "exit_tv_trustworthiness_at5": 0.83608,
+    "iterations": 3,
+    "kappa": 63.0957,
+    "lambda": 7634.58,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.00698342,
+    "median_move_share": 0.00122059,
+    "objective": 739998000.0,
+    "p90_move_share": 0.00246488,
+    "penalty": 737.894,
+    "stress": 734365000.0,
+    "stress1": 0.478577,
+    "technique_translated": {
+     "mean_ratio": 0.136014,
+     "median_ratio": 0.0362644,
+     "origin_is_nearest_share": 0.655513,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.694852,
+    "unweighted_hops_jaccard_at10": 0.118625,
+    "unweighted_hops_spearman": 0.395282,
+    "unweighted_hops_trustworthiness_at5": 0.767731,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.831867,
+    "diffusion_t4_jaccard_at10": 0.20592,
+    "diffusion_t4_spearman": 0.144373,
+    "diffusion_t4_trustworthiness_at5": 0.666408,
+    "exit_tv_continuity_at5": 0.805234,
+    "exit_tv_jaccard_at10": 0.239025,
+    "exit_tv_spearman": 0.463182,
+    "exit_tv_trustworthiness_at5": 0.836943,
+    "iterations": 4,
+    "kappa": 39.8107,
+    "lambda": 4817.1,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.0110775,
+    "median_move_share": 0.0019246,
+    "objective": 736719000.0,
+    "p90_move_share": 0.00388141,
+    "penalty": 1835.54,
+    "stress": 727877000.0,
+    "stress1": 0.476458,
+    "technique_translated": {
+     "mean_ratio": 0.136118,
+     "median_ratio": 0.0362976,
+     "origin_is_nearest_share": 0.655513,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.901639,
+    "unweighted_hops_continuity_at5": 0.694435,
+    "unweighted_hops_jaccard_at10": 0.118625,
+    "unweighted_hops_spearman": 0.395916,
+    "unweighted_hops_trustworthiness_at5": 0.768421,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.832212,
+    "diffusion_t4_jaccard_at10": 0.206456,
+    "diffusion_t4_spearman": 0.146801,
+    "diffusion_t4_trustworthiness_at5": 0.666091,
+    "exit_tv_continuity_at5": 0.805997,
+    "exit_tv_jaccard_at10": 0.239025,
+    "exit_tv_spearman": 0.469177,
+    "exit_tv_trustworthiness_at5": 0.837446,
+    "iterations": 4,
+    "kappa": 25.1189,
+    "lambda": 3039.38,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.0175726,
+    "median_move_share": 0.00302584,
+    "objective": 731587000.0,
+    "p90_move_share": 0.0060791,
+    "penalty": 4540.29,
+    "stress": 717787000.0,
+    "stress1": 0.473144,
+    "technique_translated": {
+     "mean_ratio": 0.136279,
+     "median_ratio": 0.0362952,
+     "origin_is_nearest_share": 0.655513,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.909836,
+    "unweighted_hops_continuity_at5": 0.693773,
+    "unweighted_hops_jaccard_at10": 0.118371,
+    "unweighted_hops_spearman": 0.396911,
+    "unweighted_hops_trustworthiness_at5": 0.768076,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.832959,
+    "diffusion_t4_jaccard_at10": 0.205472,
+    "diffusion_t4_spearman": 0.150659,
+    "diffusion_t4_trustworthiness_at5": 0.661677,
+    "exit_tv_continuity_at5": 0.807276,
+    "exit_tv_jaccard_at10": 0.242263,
+    "exit_tv_spearman": 0.478523,
+    "exit_tv_trustworthiness_at5": 0.837475,
+    "iterations": 5,
+    "kappa": 15.8489,
+    "lambda": 1917.72,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.0279048,
+    "median_move_share": 0.00473606,
+    "objective": 723612000.0,
+    "p90_move_share": 0.00946325,
+    "penalty": 11137.6,
+    "stress": 702253000.0,
+    "stress1": 0.467996,
+    "technique_translated": {
+     "mean_ratio": 0.136523,
+     "median_ratio": 0.0363081,
+     "origin_is_nearest_share": 0.652471,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.909836,
+    "unweighted_hops_continuity_at5": 0.692378,
+    "unweighted_hops_jaccard_at10": 0.11941,
+    "unweighted_hops_spearman": 0.398438,
+    "unweighted_hops_trustworthiness_at5": 0.768421,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.833664,
+    "diffusion_t4_jaccard_at10": 0.205595,
+    "diffusion_t4_spearman": 0.156569,
+    "diffusion_t4_trustworthiness_at5": 0.66195,
+    "exit_tv_continuity_at5": 0.809103,
+    "exit_tv_jaccard_at10": 0.242045,
+    "exit_tv_spearman": 0.493014,
+    "exit_tv_trustworthiness_at5": 0.840178,
+    "iterations": 6,
+    "kappa": 10.0,
+    "lambda": 1210.0,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.0450585,
+    "median_move_share": 0.00736226,
+    "objective": 711303000.0,
+    "p90_move_share": 0.0146985,
+    "penalty": 27139.3,
+    "stress": 678465000.0,
+    "stress1": 0.460002,
+    "technique_translated": {
+     "mean_ratio": 0.136887,
+     "median_ratio": 0.0364771,
+     "origin_is_nearest_share": 0.654753,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.909836,
+    "unweighted_hops_continuity_at5": 0.690221,
+    "unweighted_hops_jaccard_at10": 0.118548,
+    "unweighted_hops_spearman": 0.400684,
+    "unweighted_hops_trustworthiness_at5": 0.77006,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.83493,
+    "diffusion_t4_jaccard_at10": 0.205812,
+    "diffusion_t4_spearman": 0.165484,
+    "diffusion_t4_trustworthiness_at5": 0.662928,
+    "exit_tv_continuity_at5": 0.812439,
+    "exit_tv_jaccard_at10": 0.246208,
+    "exit_tv_spearman": 0.514612,
+    "exit_tv_trustworthiness_at5": 0.844334,
+    "iterations": 6,
+    "kappa": 6.30957,
+    "lambda": 763.458,
+    "leg_nn_purity": 0.983607,
+    "max_move_share": 0.0708356,
+    "median_move_share": 0.0113344,
+    "objective": 692656000.0,
+    "p90_move_share": 0.0223874,
+    "penalty": 64219.0,
+    "stress": 643627000.0,
+    "stress1": 0.448036,
+    "technique_translated": {
+     "mean_ratio": 0.137411,
+     "median_ratio": 0.0366158,
+     "origin_is_nearest_share": 0.652471,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.909836,
+    "unweighted_hops_continuity_at5": 0.687345,
+    "unweighted_hops_jaccard_at10": 0.117337,
+    "unweighted_hops_spearman": 0.4038,
+    "unweighted_hops_trustworthiness_at5": 0.771182,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.836626,
+    "diffusion_t4_jaccard_at10": 0.208384,
+    "diffusion_t4_spearman": 0.178265,
+    "diffusion_t4_trustworthiness_at5": 0.672304,
+    "exit_tv_continuity_at5": 0.81694,
+    "exit_tv_jaccard_at10": 0.249734,
+    "exit_tv_spearman": 0.545913,
+    "exit_tv_trustworthiness_at5": 0.84918,
+    "iterations": 9,
+    "kappa": 3.98107,
+    "lambda": 481.71,
+    "leg_nn_purity": 0.97541,
+    "max_move_share": 0.109368,
+    "median_move_share": 0.0170594,
+    "objective": 665277000.0,
+    "p90_move_share": 0.0332194,
+    "penalty": 147397.0,
+    "stress": 594274000.0,
+    "stress1": 0.430516,
+    "technique_translated": {
+     "mean_ratio": 0.13813,
+     "median_ratio": 0.0366678,
+     "origin_is_nearest_share": 0.641065,
+     "ratio_above_one": 24,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.885246,
+    "unweighted_hops_continuity_at5": 0.683247,
+    "unweighted_hops_jaccard_at10": 0.116385,
+    "unweighted_hops_spearman": 0.407863,
+    "unweighted_hops_trustworthiness_at5": 0.768565,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.838093,
+    "diffusion_t4_jaccard_at10": 0.206429,
+    "diffusion_t4_spearman": 0.196006,
+    "diffusion_t4_trustworthiness_at5": 0.670003,
+    "exit_tv_continuity_at5": 0.822821,
+    "exit_tv_jaccard_at10": 0.257825,
+    "exit_tv_spearman": 0.588127,
+    "exit_tv_trustworthiness_at5": 0.854616,
+    "iterations": 10,
+    "kappa": 2.51189,
+    "lambda": 303.938,
+    "leg_nn_purity": 0.967213,
+    "max_move_share": 0.163519,
+    "median_move_share": 0.0253032,
+    "objective": 626695000.0,
+    "p90_move_share": 0.0478184,
+    "penalty": 319319.0,
+    "stress": 529641000.0,
+    "stress1": 0.406431,
+    "technique_translated": {
+     "mean_ratio": 0.139052,
+     "median_ratio": 0.0370995,
+     "origin_is_nearest_share": 0.628897,
+     "ratio_above_one": 24,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.877049,
+    "unweighted_hops_continuity_at5": 0.676877,
+    "unweighted_hops_jaccard_at10": 0.114738,
+    "unweighted_hops_spearman": 0.412652,
+    "unweighted_hops_trustworthiness_at5": 0.767486,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.840595,
+    "diffusion_t4_jaccard_at10": 0.208014,
+    "diffusion_t4_spearman": 0.218381,
+    "diffusion_t4_trustworthiness_at5": 0.6631,
+    "exit_tv_continuity_at5": 0.831234,
+    "exit_tv_jaccard_at10": 0.269653,
+    "exit_tv_spearman": 0.641511,
+    "exit_tv_trustworthiness_at5": 0.858499,
+    "iterations": 14,
+    "kappa": 1.58489,
+    "lambda": 191.772,
+    "leg_nn_purity": 0.983607,
+    "max_move_share": 0.231804,
+    "median_move_share": 0.036121,
+    "objective": 575718000.0,
+    "p90_move_share": 0.0664444,
+    "penalty": 647329.0,
+    "stress": 451578000.0,
+    "stress1": 0.375286,
+    "technique_translated": {
+     "mean_ratio": 0.140122,
+     "median_ratio": 0.037302,
+     "origin_is_nearest_share": 0.624335,
+     "ratio_above_one": 24,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.893443,
+    "unweighted_hops_continuity_at5": 0.669428,
+    "unweighted_hops_jaccard_at10": 0.113578,
+    "unweighted_hops_spearman": 0.41701,
+    "unweighted_hops_trustworthiness_at5": 0.764668,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.843716,
+    "diffusion_t4_jaccard_at10": 0.206062,
+    "diffusion_t4_spearman": 0.244694,
+    "diffusion_t4_trustworthiness_at5": 0.659635,
+    "exit_tv_continuity_at5": 0.84153,
+    "exit_tv_jaccard_at10": 0.276559,
+    "exit_tv_spearman": 0.701009,
+    "exit_tv_trustworthiness_at5": 0.865531,
+    "iterations": 21,
+    "kappa": 1.0,
+    "lambda": 121.0,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.307399,
+    "median_move_share": 0.0489531,
+    "objective": 513658000.0,
+    "p90_move_share": 0.0890086,
+    "penalty": 1189030.0,
+    "stress": 369785000.0,
+    "stress1": 0.339602,
+    "technique_translated": {
+     "mean_ratio": 0.141178,
+     "median_ratio": 0.0384554,
+     "origin_is_nearest_share": 0.634221,
+     "ratio_above_one": 23,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.893443,
+    "unweighted_hops_continuity_at5": 0.659951,
+    "unweighted_hops_jaccard_at10": 0.11429,
+    "unweighted_hops_spearman": 0.420216,
+    "unweighted_hops_trustworthiness_at5": 0.764366,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.84583,
+    "diffusion_t4_jaccard_at10": 0.203805,
+    "diffusion_t4_spearman": 0.271316,
+    "diffusion_t4_trustworthiness_at5": 0.656989,
+    "exit_tv_continuity_at5": 0.854961,
+    "exit_tv_jaccard_at10": 0.293434,
+    "exit_tv_spearman": 0.760162,
+    "exit_tv_trustworthiness_at5": 0.874389,
+    "iterations": 27,
+    "kappa": 0.630957,
+    "lambda": 76.3458,
+    "leg_nn_purity": 0.991803,
+    "max_move_share": 0.382663,
+    "median_move_share": 0.0634727,
+    "objective": 445140000.0,
+    "p90_move_share": 0.116329,
+    "penalty": 1979720.0,
+    "stress": 293996000.0,
+    "stress1": 0.302808,
+    "technique_translated": {
+     "mean_ratio": 0.142023,
+     "median_ratio": 0.0395057,
+     "origin_is_nearest_share": 0.625856,
+     "ratio_above_one": 22,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.918033,
+    "unweighted_hops_continuity_at5": 0.648332,
+    "unweighted_hops_jaccard_at10": 0.118312,
+    "unweighted_hops_spearman": 0.420859,
+    "unweighted_hops_trustworthiness_at5": 0.755076,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.847397,
+    "diffusion_t4_jaccard_at10": 0.199778,
+    "diffusion_t4_spearman": 0.29574,
+    "diffusion_t4_trustworthiness_at5": 0.65046,
+    "exit_tv_continuity_at5": 0.86996,
+    "exit_tv_jaccard_at10": 0.303705,
+    "exit_tv_spearman": 0.813505,
+    "exit_tv_trustworthiness_at5": 0.881334,
+    "iterations": 102,
+    "kappa": 0.398107,
+    "lambda": 48.171,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.450403,
+    "median_move_share": 0.077031,
+    "objective": 376582000.0,
+    "p90_move_share": 0.146901,
+    "penalty": 3003830.0,
+    "stress": 231885000.0,
+    "stress1": 0.268925,
+    "technique_translated": {
+     "mean_ratio": 0.142539,
+     "median_ratio": 0.0402076,
+     "origin_is_nearest_share": 0.622814,
+     "ratio_above_one": 22,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.934426,
+    "unweighted_hops_continuity_at5": 0.634771,
+    "unweighted_hops_jaccard_at10": 0.112583,
+    "unweighted_hops_spearman": 0.41913,
+    "unweighted_hops_trustworthiness_at5": 0.746937,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.844622,
+    "diffusion_t4_jaccard_at10": 0.1836,
+    "diffusion_t4_spearman": 0.32147,
+    "diffusion_t4_trustworthiness_at5": 0.64721,
+    "exit_tv_continuity_at5": 0.886022,
+    "exit_tv_jaccard_at10": 0.323888,
+    "exit_tv_spearman": 0.86042,
+    "exit_tv_trustworthiness_at5": 0.888208,
+    "iterations": 172,
+    "kappa": 0.251189,
+    "lambda": 30.3938,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.505942,
+    "median_move_share": 0.0918531,
+    "objective": 312800000.0,
+    "p90_move_share": 0.172122,
+    "penalty": 4300450.0,
+    "stress": 182093000.0,
+    "stress1": 0.23831,
+    "technique_translated": {
+     "mean_ratio": 0.14265,
+     "median_ratio": 0.0409717,
+     "origin_is_nearest_share": 0.620532,
+     "ratio_above_one": 21,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.934426,
+    "unweighted_hops_continuity_at5": 0.620765,
+    "unweighted_hops_jaccard_at10": 0.107981,
+    "unweighted_hops_spearman": 0.416278,
+    "unweighted_hops_trustworthiness_at5": 0.737834,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.841171,
+    "diffusion_t4_jaccard_at10": 0.175798,
+    "diffusion_t4_spearman": 0.346061,
+    "diffusion_t4_trustworthiness_at5": 0.652775,
+    "exit_tv_continuity_at5": 0.904185,
+    "exit_tv_jaccard_at10": 0.349983,
+    "exit_tv_spearman": 0.901437,
+    "exit_tv_trustworthiness_at5": 0.897527,
+    "iterations": 406,
+    "kappa": 0.158489,
+    "lambda": 19.1772,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.548006,
+    "median_move_share": 0.108505,
+    "objective": 255918000.0,
+    "p90_move_share": 0.201639,
+    "penalty": 6017630.0,
+    "stress": 140517000.0,
+    "stress1": 0.209343,
+    "technique_translated": {
+     "mean_ratio": 0.141991,
+     "median_ratio": 0.0408699,
+     "origin_is_nearest_share": 0.622053,
+     "ratio_above_one": 20,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.95082,
+    "unweighted_hops_continuity_at5": 0.609563,
+    "unweighted_hops_jaccard_at10": 0.103605,
+    "unweighted_hops_spearman": 0.411474,
+    "unweighted_hops_trustworthiness_at5": 0.716322,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.833765,
+    "diffusion_t4_jaccard_at10": 0.16134,
+    "diffusion_t4_spearman": 0.361948,
+    "diffusion_t4_trustworthiness_at5": 0.64547,
+    "exit_tv_continuity_at5": 0.929551,
+    "exit_tv_jaccard_at10": 0.394523,
+    "exit_tv_spearman": 0.929671,
+    "exit_tv_trustworthiness_at5": 0.909563,
+    "iterations": 173,
+    "kappa": 0.1,
+    "lambda": 12.1,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.578045,
+    "median_move_share": 0.134251,
+    "objective": 207333000.0,
+    "p90_move_share": 0.220409,
+    "penalty": 7779930.0,
+    "stress": 113196000.0,
+    "stress1": 0.187894,
+    "technique_translated": {
+     "mean_ratio": 0.140534,
+     "median_ratio": 0.0409495,
+     "origin_is_nearest_share": 0.643346,
+     "ratio_above_one": 18,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.95082,
+    "unweighted_hops_continuity_at5": 0.596319,
+    "unweighted_hops_jaccard_at10": 0.101534,
+    "unweighted_hops_spearman": 0.404725,
+    "unweighted_hops_trustworthiness_at5": 0.716695,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.829451,
+    "diffusion_t4_jaccard_at10": 0.163291,
+    "diffusion_t4_spearman": 0.368688,
+    "diffusion_t4_trustworthiness_at5": 0.646894,
+    "exit_tv_continuity_at5": 0.950029,
+    "exit_tv_jaccard_at10": 0.434988,
+    "exit_tv_spearman": 0.946057,
+    "exit_tv_trustworthiness_at5": 0.91973,
+    "iterations": 188,
+    "kappa": 0.0630957,
+    "lambda": 7.63458,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.59876,
+    "median_move_share": 0.151062,
+    "objective": 169198000.0,
+    "p90_move_share": 0.250494,
+    "penalty": 9358840.0,
+    "stress": 97746700.0,
+    "stress1": 0.174601,
+    "technique_translated": {
+     "mean_ratio": 0.139035,
+     "median_ratio": 0.040686,
+     "origin_is_nearest_share": 0.626616,
+     "ratio_above_one": 18,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.959016,
+    "unweighted_hops_continuity_at5": 0.587734,
+    "unweighted_hops_jaccard_at10": 0.102573,
+    "unweighted_hops_spearman": 0.3973,
+    "unweighted_hops_trustworthiness_at5": 0.710224,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.825856,
+    "diffusion_t4_jaccard_at10": 0.162685,
+    "diffusion_t4_spearman": 0.372689,
+    "diffusion_t4_trustworthiness_at5": 0.65256,
+    "exit_tv_continuity_at5": 0.962036,
+    "exit_tv_jaccard_at10": 0.472976,
+    "exit_tv_spearman": 0.954827,
+    "exit_tv_trustworthiness_at5": 0.930242,
+    "iterations": 366,
+    "kappa": 0.0398107,
+    "lambda": 4.8171,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.61283,
+    "median_move_share": 0.161633,
+    "objective": 141020000.0,
+    "p90_move_share": 0.262636,
+    "penalty": 10610400.0,
+    "stress": 89909100.0,
+    "stress1": 0.167455,
+    "technique_translated": {
+     "mean_ratio": 0.138232,
+     "median_ratio": 0.0407758,
+     "origin_is_nearest_share": 0.623574,
+     "ratio_above_one": 18,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.581004,
+    "unweighted_hops_jaccard_at10": 0.0983141,
+    "unweighted_hops_spearman": 0.390281,
+    "unweighted_hops_trustworthiness_at5": 0.710181,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.8218,
+    "diffusion_t4_jaccard_at10": 0.156028,
+    "diffusion_t4_spearman": 0.373877,
+    "diffusion_t4_trustworthiness_at5": 0.647181,
+    "exit_tv_continuity_at5": 0.968004,
+    "exit_tv_jaccard_at10": 0.504633,
+    "exit_tv_spearman": 0.958933,
+    "exit_tv_trustworthiness_at5": 0.93516,
+    "iterations": 253,
+    "kappa": 0.0251189,
+    "lambda": 3.03938,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.622211,
+    "median_move_share": 0.169529,
+    "objective": 121360000.0,
+    "p90_move_share": 0.276205,
+    "penalty": 11479800.0,
+    "stress": 86469000.0,
+    "stress1": 0.16422,
+    "technique_translated": {
+     "mean_ratio": 0.137579,
+     "median_ratio": 0.0407098,
+     "origin_is_nearest_share": 0.618251,
+     "ratio_above_one": 16,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.97541,
+    "unweighted_hops_continuity_at5": 0.575252,
+    "unweighted_hops_jaccard_at10": 0.101672,
+    "unweighted_hops_spearman": 0.385029,
+    "unweighted_hops_trustworthiness_at5": 0.705565,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.818392,
+    "diffusion_t4_jaccard_at10": 0.153665,
+    "diffusion_t4_spearman": 0.374351,
+    "diffusion_t4_trustworthiness_at5": 0.633463,
+    "exit_tv_continuity_at5": 0.971153,
+    "exit_tv_jaccard_at10": 0.518719,
+    "exit_tv_spearman": 0.960834,
+    "exit_tv_trustworthiness_at5": 0.935605,
+    "iterations": 314,
+    "kappa": 0.0158489,
+    "lambda": 1.91772,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.628314,
+    "median_move_share": 0.173524,
+    "objective": 108129000.0,
+    "p90_move_share": 0.28682,
+    "penalty": 12087600.0,
+    "stress": 84948200.0,
+    "stress1": 0.162769,
+    "technique_translated": {
+     "mean_ratio": 0.137105,
+     "median_ratio": 0.0407916,
+     "origin_is_nearest_share": 0.621293,
+     "ratio_above_one": 16,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.97541,
+    "unweighted_hops_continuity_at5": 0.571743,
+    "unweighted_hops_jaccard_at10": 0.101325,
+    "unweighted_hops_spearman": 0.381534,
+    "unweighted_hops_trustworthiness_at5": 0.704717,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.807981,
+    "diffusion_t4_jaccard_at10": 0.154325,
+    "diffusion_t4_spearman": 0.373847,
+    "diffusion_t4_trustworthiness_at5": 0.631593,
+    "exit_tv_continuity_at5": 0.976028,
+    "exit_tv_jaccard_at10": 0.537667,
+    "exit_tv_spearman": 0.962693,
+    "exit_tv_trustworthiness_at5": 0.946189,
+    "iterations": 333,
+    "kappa": 0.01,
+    "lambda": 1.21,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.632234,
+    "median_move_share": 0.175966,
+    "objective": 99118600.0,
+    "p90_move_share": 0.303762,
+    "penalty": 12689100.0,
+    "stress": 83764800.0,
+    "stress1": 0.161632,
+    "technique_translated": {
+     "mean_ratio": 0.136582,
+     "median_ratio": 0.0407588,
+     "origin_is_nearest_share": 0.612167,
+     "ratio_above_one": 15,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.572419,
+    "unweighted_hops_jaccard_at10": 0.100599,
+    "unweighted_hops_spearman": 0.379075,
+    "unweighted_hops_trustworthiness_at5": 0.695873,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.806687,
+    "diffusion_t4_jaccard_at10": 0.152885,
+    "diffusion_t4_spearman": 0.374478,
+    "diffusion_t4_trustworthiness_at5": 0.640408,
+    "exit_tv_continuity_at5": 0.976733,
+    "exit_tv_jaccard_at10": 0.548146,
+    "exit_tv_spearman": 0.963279,
+    "exit_tv_trustworthiness_at5": 0.950777,
+    "iterations": 638,
+    "kappa": 0.00630957,
+    "lambda": 0.763458,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.634981,
+    "median_move_share": 0.181345,
+    "objective": 93261700.0,
+    "p90_move_share": 0.311197,
+    "penalty": 13038200.0,
+    "stress": 83307600.0,
+    "stress1": 0.16119,
+    "technique_translated": {
+     "mean_ratio": 0.136384,
+     "median_ratio": 0.0407662,
+     "origin_is_nearest_share": 0.61749,
+     "ratio_above_one": 15,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.567702,
+    "unweighted_hops_jaccard_at10": 0.0964292,
+    "unweighted_hops_spearman": 0.376747,
+    "unweighted_hops_trustworthiness_at5": 0.698433,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.805853,
+    "diffusion_t4_jaccard_at10": 0.152885,
+    "diffusion_t4_spearman": 0.374429,
+    "diffusion_t4_trustworthiness_at5": 0.640955,
+    "exit_tv_continuity_at5": 0.977366,
+    "exit_tv_jaccard_at10": 0.549642,
+    "exit_tv_spearman": 0.963531,
+    "exit_tv_trustworthiness_at5": 0.950661,
+    "iterations": 453,
+    "kappa": 0.00398107,
+    "lambda": 0.48171,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.636631,
+    "median_move_share": 0.182006,
+    "objective": 89561200.0,
+    "p90_move_share": 0.315902,
+    "penalty": 13230500.0,
+    "stress": 83188000.0,
+    "stress1": 0.161074,
+    "technique_translated": {
+     "mean_ratio": 0.136252,
+     "median_ratio": 0.0407731,
+     "origin_is_nearest_share": 0.61597,
+     "ratio_above_one": 15,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.566437,
+    "unweighted_hops_jaccard_at10": 0.0963058,
+    "unweighted_hops_spearman": 0.375435,
+    "unweighted_hops_trustworthiness_at5": 0.696506,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.805349,
+    "diffusion_t4_jaccard_at10": 0.152787,
+    "diffusion_t4_spearman": 0.37442,
+    "diffusion_t4_trustworthiness_at5": 0.638496,
+    "exit_tv_continuity_at5": 0.977552,
+    "exit_tv_jaccard_at10": 0.55485,
+    "exit_tv_spearman": 0.963676,
+    "exit_tv_trustworthiness_at5": 0.951064,
+    "iterations": 346,
+    "kappa": 0.00251189,
+    "lambda": 0.303938,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.637676,
+    "median_move_share": 0.182383,
+    "objective": 87198200.0,
+    "p90_move_share": 0.318017,
+    "penalty": 13355600.0,
+    "stress": 83138900.0,
+    "stress1": 0.161027,
+    "technique_translated": {
+     "mean_ratio": 0.136169,
+     "median_ratio": 0.0407786,
+     "origin_is_nearest_share": 0.612167,
+     "ratio_above_one": 15,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.565804,
+    "unweighted_hops_jaccard_at10": 0.0968416,
+    "unweighted_hops_spearman": 0.374605,
+    "unweighted_hops_trustworthiness_at5": 0.695787,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.805982,
+    "diffusion_t4_jaccard_at10": 0.15262,
+    "diffusion_t4_spearman": 0.374428,
+    "diffusion_t4_trustworthiness_at5": 0.636727,
+    "exit_tv_continuity_at5": 0.978271,
+    "exit_tv_jaccard_at10": 0.557032,
+    "exit_tv_spearman": 0.963834,
+    "exit_tv_trustworthiness_at5": 0.95,
+    "iterations": 271,
+    "kappa": 0.00158489,
+    "lambda": 0.191772,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.638357,
+    "median_move_share": 0.182686,
+    "objective": 85635000.0,
+    "p90_move_share": 0.318989,
+    "penalty": 13474600.0,
+    "stress": 83051000.0,
+    "stress1": 0.160941,
+    "technique_translated": {
+     "mean_ratio": 0.136147,
+     "median_ratio": 0.0407462,
+     "origin_is_nearest_share": 0.619011,
+     "ratio_above_one": 15,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.565516,
+    "unweighted_hops_jaccard_at10": 0.0988907,
+    "unweighted_hops_spearman": 0.373944,
+    "unweighted_hops_trustworthiness_at5": 0.696232,
+    "worst_increase_relative_to_start": 0.0
+   },
+   {
+    "diffusion_t4_continuity_at5": 0.805853,
+    "diffusion_t4_jaccard_at10": 0.15214,
+    "diffusion_t4_spearman": 0.374378,
+    "diffusion_t4_trustworthiness_at5": 0.635476,
+    "exit_tv_continuity_at5": 0.978243,
+    "exit_tv_jaccard_at10": 0.556371,
+    "exit_tv_spearman": 0.963874,
+    "exit_tv_trustworthiness_at5": 0.950115,
+    "iterations": 109,
+    "kappa": 0.001,
+    "lambda": 0.121,
+    "leg_nn_purity": 1.0,
+    "max_move_share": 0.638771,
+    "median_move_share": 0.182803,
+    "objective": 84679600.0,
+    "p90_move_share": 0.319507,
+    "penalty": 13525200.0,
+    "stress": 83043100.0,
+    "stress1": 0.160934,
+    "technique_translated": {
+     "mean_ratio": 0.136114,
+     "median_ratio": 0.040742,
+     "origin_is_nearest_share": 0.621293,
+     "ratio_above_one": 15,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.967213,
+    "unweighted_hops_continuity_at5": 0.565171,
+    "unweighted_hops_jaccard_at10": 0.0988907,
+    "unweighted_hops_spearman": 0.373578,
+    "unweighted_hops_trustworthiness_at5": 0.695499,
+    "worst_increase_relative_to_start": 0.0
+   }
+  ],
+  "scale_rms_matched_from": 2793.24,
+  "scale_s": 2364.84,
+  "shipped": {
+   "diffusion_t4_continuity_at5": 0.831133,
+   "diffusion_t4_jaccard_at10": 0.205327,
+   "diffusion_t4_spearman": 0.140018,
+   "diffusion_t4_trustworthiness_at5": 0.664438,
+   "exit_tv_continuity_at5": 0.803796,
+   "exit_tv_jaccard_at10": 0.237598,
+   "exit_tv_spearman": 0.452668,
+   "exit_tv_trustworthiness_at5": 0.831277,
+   "kappa": null,
+   "lambda": "infinity (the shipped layout)",
+   "leg_nn_purity": 0.991803,
+   "max_move_share": 0.0,
+   "median_move_share": 0.0,
+   "p90_move_share": 0.0,
+   "stress1": 0.482249,
+   "technique_translated": {
+    "mean_ratio": 0.135832,
+    "median_ratio": 0.0361951,
+    "origin_is_nearest_share": 0.655513,
+    "ratio_above_one": 23,
+    "techniques": 1315
+   },
+   "territory_nn_purity": 0.901639,
+   "unweighted_hops_continuity_at5": 0.695269,
+   "unweighted_hops_jaccard_at10": 0.117413,
+   "unweighted_hops_spearman": 0.39411,
+   "unweighted_hops_trustworthiness_at5": 0.765732
+  },
+  "unanchored_endpoint": {
+   "diffusion_t4_continuity_at5": 0.805421,
+   "diffusion_t4_jaccard_at10": 0.152084,
+   "diffusion_t4_spearman": 0.374288,
+   "diffusion_t4_trustworthiness_at5": 0.635979,
+   "exit_tv_continuity_at5": 0.978343,
+   "exit_tv_jaccard_at10": 0.558173,
+   "exit_tv_spearman": 0.963948,
+   "exit_tv_trustworthiness_at5": 0.949425,
+   "gauge": "unanchored stress solution, rigidly (O(2)+translation) aligned to the shipped hubs",
+   "iterations": 142,
+   "kappa": 0.0,
+   "lambda": 0.0,
+   "leg_nn_purity": 1.0,
+   "max_move_share": 0.639603,
+   "median_move_share": 0.183283,
+   "objective": 83035100.0,
+   "p90_move_share": 0.320299,
+   "penalty": 13708600.0,
+   "stress": 83035100.0,
+   "stress1": 0.160926,
+   "technique_translated": {
+    "mean_ratio": 0.136059,
+    "median_ratio": 0.0407366,
+    "origin_is_nearest_share": 0.628137,
+    "ratio_above_one": 15,
+    "techniques": 1315
+   },
+   "territory_nn_purity": 0.97541,
+   "unweighted_hops_continuity_at5": 0.564869,
+   "unweighted_hops_jaccard_at10": 0.0993137,
+   "unweighted_hops_spearman": 0.372753,
+   "unweighted_hops_trustworthiness_at5": 0.69386,
+   "worst_increase_relative_to_start": 0.0
+  }
+ },
+ "g2r_crosscheck": {
+  "exit_tv_median": 0.224925,
+  "hub_ids_equal": true,
+  "territories_equal": true,
+  "territory_medoids": [
+   "anaconda-control",
+   "butterfly-half-guard",
+   "inside-ashi-garami"
+  ]
+ },
+ "game": "the corpus's game (both seats sample authored attempt shares); primary configuration nogi / symmetric initiative / shipped rates / origin filter ON / H = infinity",
+ "mechanism": {
+  "hops_distinct_values": {
+   "2": 3337,
+   "3": 3,
+   "4": 4041
+  },
+  "hops_spearman_ceiling_vs_exit_tv": {
+   "exact_for_these_tie_classes": 0.862255,
+   "share_of_pairs_at_2_hops": 0.452107,
+   "two_class_bound_sqrt_3p_1mp": 0.862043
+  },
+  "neighbour_cosine_distance": {
+   "exit_tv": {
+    "alternative": "greater",
+    "null_mean": 0.00161922,
+    "null_p025": -0.0595314,
+    "null_p975": 0.0625858,
+    "null_replicates": 200,
+    "null_sd": 0.0334938,
+    "observed": 0.424345,
+    "permutation_p": 0.00497512
+   },
+   "shipped_distance": {
+    "alternative": "greater",
+    "null_mean": -0.00114489,
+    "null_p025": -0.0404947,
+    "null_p975": 0.0440051,
+    "null_replicates": 200,
+    "null_sd": 0.0219075,
+    "observed": 0.471593,
+    "permutation_p": 0.00497512
+   }
+  },
+  "two_step_cosine_distance": {
+   "exit_tv": {
+    "alternative": "greater",
+    "null_mean": -5.78567e-05,
+    "null_p025": -0.0815774,
+    "null_p975": 0.0886258,
+    "null_replicates": 200,
+    "null_sd": 0.045293,
+    "observed": 0.659068,
+    "permutation_p": 0.00497512
+   },
+   "shipped_distance": {
+    "alternative": "greater",
+    "null_mean": 0.000146929,
+    "null_p025": -0.0499594,
+    "null_p975": 0.0601927,
+    "null_replicates": 200,
+    "null_sd": 0.0279165,
+    "observed": 0.554916,
+    "permutation_p": 0.00497512
+   }
+  },
+  "unweighted_hops": {
+   "exit_tv": {
+    "alternative": "greater",
+    "null_mean": 0.00154845,
+    "null_p025": -0.0689495,
+    "null_p975": 0.0693106,
+    "null_replicates": 200,
+    "null_sd": 0.0364761,
+    "observed": 0.351455,
+    "permutation_p": 0.00497512
+   },
+   "shipped_distance": {
+    "alternative": "greater",
+    "null_mean": -0.000823997,
+    "null_p025": -0.0417187,
+    "null_p975": 0.049631,
+    "null_replicates": 200,
+    "null_sd": 0.0242506,
+    "observed": 0.39411,
+    "permutation_p": 0.00497512
+   }
+  }
+ },
+ "overlay": {
+  "bandwidth_rule": "h = median over the 133 shipped position hubs of the distance to the 5th-nearest hub",
+  "hellinger_k2_leg_set_vs_tv_leg_territory": {
+   "hellinger_smaller_set": [
+    "50-50-guard",
+    "ashi-garami",
+    "backside-50-50",
+    "cross-ashi-garami",
+    "estima-lock-control",
+    "honey-hole",
+    "inside-ashi-garami",
+    "inside-sankaku",
+    "kneebar-control",
+    "leg-entanglement",
+    "outside-ashi-garami",
+    "saddle",
+    "toe-hold-control",
+    "ushiro-ashi-garami"
+   ],
+   "subset": true,
+   "tv_leg_territory": [
+    "50-50-guard",
+    "ashi-garami",
+    "backside-50-50",
+    "carni",
+    "cross-ashi-garami",
+    "estima-lock-control",
+    "honey-hole",
+    "inside-ashi-garami",
+    "inside-sankaku",
+    "kneebar-control",
+    "leg-entanglement",
+    "outside-ashi-garami",
+    "saddle",
+    "straight-ankle-lock-control",
+    "toe-hold-control",
+    "ushiro-ashi-garami"
+   ],
+   "tv_only": [
+    "carni",
+    "straight-ankle-lock-control"
+   ]
+  },
+  "leg_vs_rest": {
+   "alpha_r1h": {
+    "hubs_inside_a_foreign_region": [],
+    "overlap_share_of_union": 0.0,
+    "pairwise_area_jaccard": {
+     "rest & leg (inside-ashi-garami)": 0.0
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 623804.0,
+      "foreign_hubs_inside": 0,
+      "hubs": 106,
+      "own_hubs_inside": 104,
+      "own_hubs_outside": 2,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.932983,
+      "territory": "rest",
+      "unassigned_zero_mass_hubs_inside": 8
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 44808.5,
+      "foreign_hubs_inside": 0,
+      "hubs": 16,
+      "own_hubs_inside": 16,
+      "own_hubs_outside": 0,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.0670171,
+      "territory": "leg (inside-ashi-garami)",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "alpha_r2h": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "outside-ashi-garami",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     }
+    ],
+    "overlap_share_of_union": 0.00646189,
+    "pairwise_area_jaccard": {
+     "rest & leg (inside-ashi-garami)": 0.00646189
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.00684744,
+      "area_raster": 765251.0,
+      "foreign_hubs_inside": 1,
+      "hubs": 106,
+      "own_hubs_inside": 106,
+      "own_hubs_outside": 0,
+      "purity_inside": 0.990654,
+      "share_of_union_area": 0.943695,
+      "territory": "rest",
+      "unassigned_zero_mass_hubs_inside": 11
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.102951,
+      "area_raster": 50898.3,
+      "foreign_hubs_inside": 0,
+      "hubs": 16,
+      "own_hubs_inside": 16,
+      "own_hubs_outside": 0,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.0627669,
+      "territory": "leg (inside-ashi-garami)",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "convex": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "50-50-guard",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "ashi-garami",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "backside-50-50",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "carni",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "cross-ashi-garami",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "inside-ashi-garami",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "kneebar-control",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "leg-entanglement",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "outside-ashi-garami",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "straight-ankle-lock-control",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     },
+     {
+      "hub": "toe-hold-control",
+      "inside": [
+       "rest"
+      ],
+      "own": "leg (inside-ashi-garami)"
+     }
+    ],
+    "overlap_share_of_union": 0.0363536,
+    "pairwise_area_jaccard": {
+     "rest & leg (inside-ashi-garami)": 0.0363536
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.0367569,
+      "area_raster": 1104280.0,
+      "foreign_hubs_inside": 11,
+      "hubs": 106,
+      "own_hubs_inside": 106,
+      "own_hubs_outside": 0,
+      "purity_inside": 0.905983,
+      "share_of_union_area": 0.989026,
+      "territory": "rest",
+      "unassigned_zero_mass_hubs_inside": 11
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.768131,
+      "area_raster": 52842.7,
+      "foreign_hubs_inside": 0,
+      "hubs": 16,
+      "own_hubs_inside": 16,
+      "own_hubs_outside": 0,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.0473273,
+      "territory": "leg (inside-ashi-garami)",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "exact_checks": {
+    "alpha_r1h_area": [
+     623799.0,
+     44822.7
+    ],
+    "alpha_r2h_area": [
+     765268.0,
+     50926.5
+    ],
+    "convex_area": [
+     1104280.0,
+     52834.2
+    ],
+    "convex_intersection_area": {
+     "rest & leg (inside-ashi-garami)": 40585.7
+    }
+   },
+   "kde90": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "leg-knot",
+      "inside": [
+       "leg (inside-ashi-garami)"
+      ],
+      "own": "rest"
+     }
+    ],
+    "overlap_share_of_union": 0.0,
+    "pairwise_area_jaccard": {
+     "rest & leg (inside-ashi-garami)": 0.0
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 728976.0,
+      "foreign_hubs_inside": 0,
+      "hubs": 106,
+      "own_hubs_inside": 95,
+      "own_hubs_outside": 11,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.881645,
+      "territory": "rest",
+      "unassigned_zero_mass_hubs_inside": 11
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 97860.7,
+      "foreign_hubs_inside": 1,
+      "hubs": 16,
+      "own_hubs_inside": 14,
+      "own_hubs_outside": 2,
+      "purity_inside": 0.933333,
+      "share_of_union_area": 0.118355,
+      "territory": "leg (inside-ashi-garami)",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "kde_bandwidth": 112.533,
+   "kde_dominance": {
+    "count": 1,
+    "drawn_outside_own_colour": [
+     {
+      "drawn_as": "leg (inside-ashi-garami)",
+      "hub": "leg-knot",
+      "own": "rest"
+     }
+    ],
+    "point_purity": 0.991803
+   },
+   "kde_levels_10pct_of_own_points": [
+    5.62618,
+    4.7045
+   ],
+   "raster_vs_exact_convex_area_max_relative_error": 0.000160741
+  },
+  "pam_k2_split": {
+   "equals_leg_vs_rest": false,
+   "medoids": [
+    "anaconda-control",
+    "seated-guard"
+   ],
+   "sizes": [
+    30,
+    92
+   ]
+  },
+  "raster_spacing": 1.53428,
+  "three_territories": {
+   "alpha_r1h": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "matrix",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     }
+    ],
+    "overlap_share_of_union": 0.0,
+    "pairwise_area_jaccard": {
+     "anaconda-control & butterfly-half-guard": 0.0,
+     "anaconda-control & inside-ashi-garami": 0.0,
+     "butterfly-half-guard & inside-ashi-garami": 0.0
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 146532.0,
+      "foreign_hubs_inside": 1,
+      "hubs": 30,
+      "own_hubs_inside": 28,
+      "own_hubs_outside": 2,
+      "purity_inside": 0.965517,
+      "share_of_union_area": 0.280184,
+      "territory": "anaconda-control",
+      "unassigned_zero_mass_hubs_inside": 0
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 331644.0,
+      "foreign_hubs_inside": 0,
+      "hubs": 76,
+      "own_hubs_inside": 70,
+      "own_hubs_outside": 6,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.634137,
+      "territory": "butterfly-half-guard",
+      "unassigned_zero_mass_hubs_inside": 8
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 44808.5,
+      "foreign_hubs_inside": 0,
+      "hubs": 16,
+      "own_hubs_inside": 16,
+      "own_hubs_outside": 0,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.0856784,
+      "territory": "inside-ashi-garami",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "alpha_r2h": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "anaconda-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "back-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "darce-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "dead-orchard-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "front-headlock",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "gift-wrap",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "guillotine-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "hindulotine",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "kimura-trap",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "matrix",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "modified-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "north-south",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "outside-ashi-garami",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "reverse-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "shoulder-of-justice",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "standing-rear-clinch",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "technical-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "turtle",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     }
+    ],
+    "overlap_share_of_union": 0.134897,
+    "pairwise_area_jaccard": {
+     "anaconda-control & butterfly-half-guard": 0.13613,
+     "anaconda-control & inside-ashi-garami": 0.0,
+     "butterfly-half-guard & inside-ashi-garami": 0.00770818
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.476227,
+      "area_raster": 213188.0,
+      "foreign_hubs_inside": 5,
+      "hubs": 30,
+      "own_hubs_inside": 30,
+      "own_hubs_outside": 0,
+      "purity_inside": 0.857143,
+      "share_of_union_area": 0.26936,
+      "territory": "anaconda-control",
+      "unassigned_zero_mass_hubs_inside": 0
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.168363,
+      "area_raster": 634140.0,
+      "foreign_hubs_inside": 13,
+      "hubs": 76,
+      "own_hubs_inside": 76,
+      "own_hubs_outside": 0,
+      "purity_inside": 0.853933,
+      "share_of_union_area": 0.801228,
+      "territory": "butterfly-half-guard",
+      "unassigned_zero_mass_hubs_inside": 11
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.102951,
+      "area_raster": 50898.3,
+      "foreign_hubs_inside": 0,
+      "hubs": 16,
+      "own_hubs_inside": 16,
+      "own_hubs_outside": 0,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.0643093,
+      "territory": "inside-ashi-garami",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "convex": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "50-50-guard",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "anaconda-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "ashi-garami",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "back-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "backside-50-50",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "buggy-choke",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "carni",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "chill-dog",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "crab-ride",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "cross-ashi-garami",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "cross-body-ride",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "darce-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "dead-orchard-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "front-headlock",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "gift-wrap",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "guillotine-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "high-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "hindulotine",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "inside-ashi-garami",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "kimura-trap",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "kneebar-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "leg-entanglement",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "matrix",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "modified-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "mounted-triangle",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "north-south",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "outside-ashi-garami",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "reverse-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "rodeo-ride",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "s-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "shoulder-of-justice",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "standing-rear-clinch",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "straight-ankle-lock-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "technical-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "toe-hold-control",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "inside-ashi-garami"
+     },
+     {
+      "hub": "turtle",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     }
+    ],
+    "overlap_share_of_union": 0.19969,
+    "pairwise_area_jaccard": {
+     "anaconda-control & butterfly-half-guard": 0.164655,
+     "anaconda-control & inside-ashi-garami": 0.0,
+     "butterfly-half-guard & inside-ashi-garami": 0.0400762
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.670402,
+      "area_raster": 267391.0,
+      "foreign_hubs_inside": 9,
+      "hubs": 30,
+      "own_hubs_inside": 30,
+      "own_hubs_outside": 0,
+      "purity_inside": 0.769231,
+      "share_of_union_area": 0.242872,
+      "territory": "anaconda-control",
+      "unassigned_zero_mass_hubs_inside": 0
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.219725,
+      "area_raster": 1000570.0,
+      "foreign_hubs_inside": 28,
+      "hubs": 76,
+      "own_hubs_inside": 76,
+      "own_hubs_outside": 0,
+      "purity_inside": 0.730769,
+      "share_of_union_area": 0.908821,
+      "territory": "butterfly-half-guard",
+      "unassigned_zero_mass_hubs_inside": 11
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.768131,
+      "area_raster": 52842.7,
+      "foreign_hubs_inside": 0,
+      "hubs": 16,
+      "own_hubs_inside": 16,
+      "own_hubs_outside": 0,
+      "purity_inside": 1.0,
+      "share_of_union_area": 0.0479972,
+      "territory": "inside-ashi-garami",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "exact_checks": {
+    "alpha_r1h_area": [
+     146522.0,
+     331650.0,
+     44822.7
+    ],
+    "alpha_r2h_area": [
+     213179.0,
+     634145.0,
+     50926.5
+    ],
+    "convex_area": [
+     267404.0,
+     1000570.0,
+     52834.2
+    ],
+    "convex_intersection_area": {
+     "anaconda-control & butterfly-half-guard": 179266.0,
+     "anaconda-control & inside-ashi-garami": 0.0,
+     "butterfly-half-guard & inside-ashi-garami": 40585.7
+    }
+   },
+   "kde90": {
+    "hubs_inside_a_foreign_region": [
+     {
+      "hub": "chill-dog",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "front-headlock",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "gift-wrap",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "kimura-trap",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "leg-knot",
+      "inside": [
+       "inside-ashi-garami"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "matrix",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     },
+     {
+      "hub": "mounted-triangle",
+      "inside": [
+       "butterfly-half-guard"
+      ],
+      "own": "anaconda-control"
+     },
+     {
+      "hub": "reverse-mount",
+      "inside": [
+       "anaconda-control"
+      ],
+      "own": "butterfly-half-guard"
+     }
+    ],
+    "overlap_share_of_union": 0.0431664,
+    "pairwise_area_jaccard": {
+     "anaconda-control & butterfly-half-guard": 0.0479632,
+     "anaconda-control & inside-ashi-garami": 0.0,
+     "butterfly-half-guard & inside-ashi-garami": 0.0
+    },
+    "territories": [
+     {
+      "area_overlapped_by_other_territories_share": 0.167848,
+      "area_raster": 251643.0,
+      "foreign_hubs_inside": 4,
+      "hubs": 30,
+      "own_hubs_inside": 27,
+      "own_hubs_outside": 3,
+      "purity_inside": 0.870968,
+      "share_of_union_area": 0.257175,
+      "territory": "anaconda-control",
+      "unassigned_zero_mass_hubs_inside": 0
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.0629265,
+      "area_raster": 671225.0,
+      "foreign_hubs_inside": 3,
+      "hubs": 76,
+      "own_hubs_inside": 68,
+      "own_hubs_outside": 8,
+      "purity_inside": 0.957746,
+      "share_of_union_area": 0.68598,
+      "territory": "butterfly-half-guard",
+      "unassigned_zero_mass_hubs_inside": 11
+     },
+     {
+      "area_overlapped_by_other_territories_share": 0.0,
+      "area_raster": 97860.7,
+      "foreign_hubs_inside": 1,
+      "hubs": 16,
+      "own_hubs_inside": 14,
+      "own_hubs_outside": 2,
+      "purity_inside": 0.933333,
+      "share_of_union_area": 0.100012,
+      "territory": "inside-ashi-garami",
+      "unassigned_zero_mass_hubs_inside": 0
+     }
+    ]
+   },
+   "kde_bandwidth": 112.533,
+   "kde_dominance": {
+    "count": 9,
+    "drawn_outside_own_colour": [
+     {
+      "drawn_as": "anaconda-control",
+      "hub": "chill-dog",
+      "own": "butterfly-half-guard"
+     },
+     {
+      "drawn_as": "anaconda-control",
+      "hub": "kimura-trap",
+      "own": "butterfly-half-guard"
+     },
+     {
+      "drawn_as": "inside-ashi-garami",
+      "hub": "leg-knot",
+      "own": "butterfly-half-guard"
+     },
+     {
+      "drawn_as": "anaconda-control",
+      "hub": "matrix",
+      "own": "butterfly-half-guard"
+     },
+     {
+      "drawn_as": "butterfly-half-guard",
+      "hub": "mounted-triangle",
+      "own": "anaconda-control"
+     },
+     {
+      "drawn_as": "butterfly-half-guard",
+      "hub": "north-south",
+      "own": "anaconda-control"
+     },
+     {
+      "drawn_as": "anaconda-control",
+      "hub": "reverse-mount",
+      "own": "butterfly-half-guard"
+     },
+     {
+      "drawn_as": "butterfly-half-guard",
+      "hub": "standing-rear-clinch",
+      "own": "anaconda-control"
+     },
+     {
+      "drawn_as": "anaconda-control",
+      "hub": "ushiro-kesa-gatame",
+      "own": "butterfly-half-guard"
+     }
+    ],
+    "fragile_claims_among_drawn_outside": {
+     "claims_from": "tests/artifacts/semantics/geometry.json /per_hub_claims/records",
+     "count": 5,
+     "definition": "fragile = G2R's per-hub claim 'h is exit-law-TV-nearest to its territory medoid among the three primary medoids' fails at least one of ruling 1's four facts: holds in >= 90% of 200 K.perturbed(0.2, 0.2) seeds; holds under the other initiative (nogi/shipped); holds in the other frame (gi/symmetric); holds under origin=False. Joined with this object's drawn_outside_own_colour on hub id.",
+     "drawn_outside_count": 9,
+     "facts_failed": {
+      "chill-dog": [
+       "origin_off"
+      ],
+      "leg-knot": [
+       "origin_off"
+      ],
+      "matrix": [
+       "perturbation_share_ge_0.9"
+      ],
+      "north-south": [
+       "perturbation_share_ge_0.9",
+       "other_frame"
+      ],
+      "ushiro-kesa-gatame": [
+       "perturbation_share_ge_0.9",
+       "origin_off"
+      ]
+     },
+     "fragile_claims_total": 12,
+     "hubs": [
+      "chill-dog",
+      "leg-knot",
+      "matrix",
+      "north-south",
+      "ushiro-kesa-gatame"
+     ],
+     "hubs_total": 122,
+     "robust_hubs_drawn_outside": [
+      "kimura-trap",
+      "mounted-triangle",
+      "reverse-mount",
+      "standing-rear-clinch"
+     ]
+    },
+    "point_purity": 0.92623
+   },
+   "kde_levels_10pct_of_own_points": [
+    3.67195,
+    3.44589,
+    4.7045
+   ],
+   "raster_vs_exact_convex_area_max_relative_error": 0.000160741
+  },
+  "unassigned_zero_mass_hubs": 11,
+  "wire_encodings": {
+   "leg_flag_only": {
+    "copy": "<scratch>/wire_copies/graph-data.leg_flag_only.json",
+    "gzip9_after": 107513,
+    "gzip9_before": 107447,
+    "gzip9_delta": 66,
+    "nodes_changed": 16,
+    "raw_bytes_after": 564602,
+    "raw_bytes_before": 564474,
+    "raw_delta": 128,
+    "within_delta_cap_5000": true
+   },
+   "ter_id_only": {
+    "copy": "<scratch>/wire_copies/graph-data.ter_id_only.json",
+    "gzip9_after": 107597,
+    "gzip9_before": 107447,
+    "gzip9_delta": 150,
+    "nodes_changed": 122,
+    "raw_bytes_after": 565450,
+    "raw_bytes_before": 564474,
+    "raw_delta": 976,
+    "within_delta_cap_5000": true
+   },
+   "ter_id_plus_robust_flag": {
+    "copy": "<scratch>/wire_copies/graph-data.ter_id_plus_robust_flag.json",
+    "gzip9_after": 107657,
+    "gzip9_before": 107447,
+    "gzip9_delta": 210,
+    "nodes_changed": 122,
+    "raw_bytes_after": 566440,
+    "raw_bytes_before": 564474,
+    "raw_delta": 1966,
+    "within_delta_cap_5000": true
+   },
+   "ter_signed_single_field": {
+    "copy": "<scratch>/wire_copies/graph-data.ter_signed_single_field.json",
+    "gzip9_after": 107625,
+    "gzip9_before": 107447,
+    "gzip9_delta": 178,
+    "nodes_changed": 122,
+    "raw_bytes_after": 565462,
+    "raw_bytes_before": 564474,
+    "raw_delta": 988,
+    "within_delta_cap_5000": true
+   }
+  }
+ },
+ "recompute": "python3 -B scripts/semantics/_geometry_choices.py --scratch <dir>",
+ "relayout": {
+  "by_variant": {
+   "authored_share": {
+    "diffusion_t4_spearman": {
+     "max": 0.185208,
+     "min": 0.144429,
+     "values": [
+      0.144429,
+      0.185208
+     ]
+    },
+    "exit_tv_spearman": {
+     "max": 0.373591,
+     "min": 0.342293,
+     "values": [
+      0.342293,
+      0.373591
+     ]
+    },
+    "exit_tv_trustworthiness_at5": {
+     "max": 0.762683,
+     "min": 0.754602,
+     "values": [
+      0.754602,
+      0.762683
+     ]
+    },
+    "layouts": [
+     "layout_authored_share_seed42",
+     "layout_authored_share_seed43"
+    ],
+    "territory_nn_purity": {
+     "max": 0.811475,
+     "min": 0.803279,
+     "values": [
+      0.803279,
+      0.811475
+     ]
+    },
+    "unweighted_hops_spearman": {
+     "max": 0.25994,
+     "min": 0.249759,
+     "values": [
+      0.249759,
+      0.25994
+     ]
+    }
+   },
+   "kernel_flow": {
+    "diffusion_t4_spearman": {
+     "max": 0.0356368,
+     "min": 0.0113514,
+     "values": [
+      0.0113514,
+      0.0356368
+     ]
+    },
+    "exit_tv_spearman": {
+     "max": 0.165308,
+     "min": 0.104233,
+     "values": [
+      0.104233,
+      0.165308
+     ]
+    },
+    "exit_tv_trustworthiness_at5": {
+     "max": 0.699669,
+     "min": 0.675856,
+     "values": [
+      0.699669,
+      0.675856
+     ]
+    },
+    "layouts": [
+     "layout_kernel_flow_seed42",
+     "layout_kernel_flow_seed43"
+    ],
+    "territory_nn_purity": {
+     "max": 0.754098,
+     "min": 0.721311,
+     "values": [
+      0.754098,
+      0.721311
+     ]
+    },
+    "unweighted_hops_spearman": {
+     "max": 0.167531,
+     "min": 0.162223,
+     "values": [
+      0.162223,
+      0.167531
+     ]
+    }
+   },
+   "unweighted": {
+    "diffusion_t4_spearman": {
+     "max": 0.205558,
+     "min": 0.114753,
+     "values": [
+      0.114753,
+      0.205558
+     ]
+    },
+    "exit_tv_spearman": {
+     "max": 0.40982,
+     "min": 0.400915,
+     "values": [
+      0.400915,
+      0.40982
+     ]
+    },
+    "exit_tv_trustworthiness_at5": {
+     "max": 0.830774,
+     "min": 0.824547,
+     "values": [
+      0.824547,
+      0.830774
+     ]
+    },
+    "layouts": [
+     "layout_unweighted_seed42",
+     "layout_unweighted_seed43"
+    ],
+    "territory_nn_purity": {
+     "max": 0.918033,
+     "min": 0.885246,
+     "values": [
+      0.885246,
+      0.918033
+     ]
+    },
+    "unweighted_hops_spearman": {
+     "max": 0.385327,
+     "min": 0.374509,
+     "values": [
+      0.385327,
+      0.374509
+     ]
+    }
+   }
+  },
+  "layouts": {
+   "layout_authored_share_seed42": {
+    "fidelity": {
+     "diffusion_t1": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0455522,
+       "null_p025": 0.0351204,
+       "null_p975": 0.0547919,
+       "null_replicates": 200,
+       "null_sd": 0.0052788,
+       "observed": 0.0772647,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00247614,
+       "null_p025": -0.101844,
+       "null_p975": 0.0925679,
+       "null_replicates": 200,
+       "null_sd": 0.0512602,
+       "observed": 0.122488,
+       "permutation_p": 0.00995025
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507065,
+       "null_p025": 0.486562,
+       "null_p975": 0.52791,
+       "null_replicates": 200,
+       "null_sd": 0.0110637,
+       "observed": 0.558801,
+       "permutation_p": 0.00497512
+      }
+     },
+     "diffusion_t4": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0457966,
+       "null_p025": 0.0374067,
+       "null_p975": 0.0567216,
+       "null_replicates": 200,
+       "null_sd": 0.00491908,
+       "observed": 0.208353,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00294633,
+       "null_p025": -0.0976094,
+       "null_p975": 0.0907145,
+       "null_replicates": 200,
+       "null_sd": 0.0489528,
+       "observed": 0.144429,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507068,
+       "null_p025": 0.484114,
+       "null_p975": 0.528308,
+       "null_replicates": 200,
+       "null_sd": 0.0115532,
+       "observed": 0.678271,
+       "permutation_p": 0.00497512
+      }
+     },
+     "exit_tv": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0453159,
+       "null_p025": 0.0367804,
+       "null_p975": 0.0552686,
+       "null_replicates": 200,
+       "null_sd": 0.00494136,
+       "observed": 0.182987,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00507138,
+       "null_p025": -0.0876753,
+       "null_p975": 0.0798591,
+       "null_replicates": 200,
+       "null_sd": 0.0441003,
+       "observed": 0.342293,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508371,
+       "null_p025": 0.488042,
+       "null_p975": 0.535506,
+       "null_replicates": 200,
+       "null_sd": 0.0125438,
+       "observed": 0.754602,
+       "permutation_p": 0.00497512
+      }
+     },
+     "unweighted_hops": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0453101,
+       "null_p025": 0.0369337,
+       "null_p975": 0.0534823,
+       "null_replicates": 200,
+       "null_sd": 0.00446769,
+       "observed": 0.100731,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00116487,
+       "null_p025": -0.0518259,
+       "null_p975": 0.0523168,
+       "null_replicates": 200,
+       "null_sd": 0.0276795,
+       "observed": 0.249759,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508182,
+       "null_p025": 0.481461,
+       "null_p975": 0.533924,
+       "null_replicates": 200,
+       "null_sd": 0.0141356,
+       "observed": 0.708312,
+       "permutation_p": 0.00497512
+      }
+     }
+    },
+    "first_step_entropy": {
+     "position": {
+      "median": 0.873583,
+      "nodes": 184,
+      "p10": 0.785005
+     },
+     "technique": {
+      "median": 0.888105,
+      "nodes": 1315,
+      "p10": 0.288986
+     }
+    },
+    "layout_sha256": "c899509b5313f48c6364f3b500cfe9c2aa2f24efd1f3924a3e5dc126bc365052",
+    "leg_nn_purity": 0.934426,
+    "procrustes_vs_shipped": 1.02043,
+    "seconds": 721.8,
+    "technique_origin": {
+     "mean_ratio": 0.112222,
+     "median_ratio": 0.0168889,
+     "origin_is_nearest_share": 0.78251,
+     "ratio_above_one": 35,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.803279,
+    "weights": {
+     "edges": 5714,
+     "edges_floored": 661,
+     "edges_with_kernel_flow": 5053,
+     "floor": 5e-06,
+     "flow_pairs_in_kernel": 4862,
+     "flow_terms": {
+      "attempt_terms": 2433,
+      "null_nogi_attempt_cells_skipped": 62,
+      "outcome_terms": 3820
+     },
+     "kernel": {
+      "source": "graph.json authored no-gi attempt shares + outcome probabilities"
+     },
+     "kernel_flow_mass_on_layout_edges": 1419.15,
+     "kernel_flow_mass_total": 1297.73,
+     "smallest_positive_flow": 0.005
+    },
+    "weights_coverage": {
+     "edges_touching_a_compound_position_twin": 937,
+     "flow_mass_without_a_layout_edge": 42.69,
+     "flow_pairs_without_a_layout_edge": 251,
+     "largest_missing": [
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "cross-collar-choke-from-knee-on-belly"
+        ]
+       ],
+       0.32
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "baseball-bat-choke-from-knee-on-belly"
+        ]
+       ],
+       0.32
+      ],
+      [
+       [
+        [
+         "position",
+         "half-guard"
+        ],
+        [
+         "technique",
+         "kneebar-from-leg-entanglement"
+        ]
+       ],
+       0.32
+      ],
+      [
+       [
+        [
+         "position",
+         "open-guard"
+        ],
+        [
+         "technique",
+         "can-opener-from-closed-guard"
+        ]
+       ],
+       0.31
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "bow-and-arrow-choke-from-back-control"
+        ]
+       ],
+       0.31
+      ]
+     ]
+    }
+   },
+   "layout_authored_share_seed43": {
+    "fidelity": {
+     "diffusion_t1": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0457224,
+       "null_p025": 0.0346133,
+       "null_p975": 0.0546536,
+       "null_replicates": 200,
+       "null_sd": 0.00553297,
+       "observed": 0.0795148,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00451337,
+       "null_p025": -0.0939366,
+       "null_p975": 0.098038,
+       "null_replicates": 200,
+       "null_sd": 0.0487194,
+       "observed": 0.124732,
+       "permutation_p": 0.0149254
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.506645,
+       "null_p025": 0.486531,
+       "null_p975": 0.526218,
+       "null_replicates": 200,
+       "null_sd": 0.0105638,
+       "observed": 0.572879,
+       "permutation_p": 0.00497512
+      }
+     },
+     "diffusion_t4": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0457393,
+       "null_p025": 0.0368218,
+       "null_p975": 0.0563393,
+       "null_replicates": 200,
+       "null_sd": 0.00474767,
+       "observed": 0.216435,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00256655,
+       "null_p025": -0.096346,
+       "null_p975": 0.0926211,
+       "null_replicates": 200,
+       "null_sd": 0.0467331,
+       "observed": 0.185208,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.506977,
+       "null_p025": 0.486521,
+       "null_p975": 0.527865,
+       "null_replicates": 200,
+       "null_sd": 0.0108446,
+       "observed": 0.704803,
+       "permutation_p": 0.00497512
+      }
+     },
+     "exit_tv": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0454888,
+       "null_p025": 0.0375575,
+       "null_p975": 0.0558448,
+       "null_replicates": 200,
+       "null_sd": 0.00508428,
+       "observed": 0.163287,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00164529,
+       "null_p025": -0.080844,
+       "null_p975": 0.0923211,
+       "null_replicates": 200,
+       "null_sd": 0.0424282,
+       "observed": 0.373591,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507823,
+       "null_p025": 0.481406,
+       "null_p975": 0.537123,
+       "null_replicates": 200,
+       "null_sd": 0.0135353,
+       "observed": 0.762683,
+       "permutation_p": 0.00497512
+      }
+     },
+     "unweighted_hops": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.045798,
+       "null_p025": 0.0377868,
+       "null_p975": 0.0559983,
+       "null_replicates": 200,
+       "null_sd": 0.00499134,
+       "observed": 0.102853,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00118115,
+       "null_p025": -0.0511411,
+       "null_p975": 0.0519936,
+       "null_replicates": 200,
+       "null_sd": 0.0271815,
+       "observed": 0.25994,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507702,
+       "null_p025": 0.475427,
+       "null_p975": 0.53873,
+       "null_replicates": 200,
+       "null_sd": 0.0159865,
+       "observed": 0.724547,
+       "permutation_p": 0.00497512
+      }
+     }
+    },
+    "first_step_entropy": {
+     "position": {
+      "median": 0.873583,
+      "nodes": 184,
+      "p10": 0.785005
+     },
+     "technique": {
+      "median": 0.888105,
+      "nodes": 1315,
+      "p10": 0.288986
+     }
+    },
+    "layout_sha256": "c5411083b34674c1fcca4f68ed490b9870bf004d6fed2055c93d747b1176edbc",
+    "leg_nn_purity": 0.959016,
+    "procrustes_vs_shipped": 1.00725,
+    "seconds": 728.8,
+    "technique_origin": {
+     "mean_ratio": 0.0988075,
+     "median_ratio": 0.0158171,
+     "origin_is_nearest_share": 0.780228,
+     "ratio_above_one": 18,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.811475,
+    "weights": {
+     "edges": 5714,
+     "edges_floored": 661,
+     "edges_with_kernel_flow": 5053,
+     "floor": 5e-06,
+     "flow_pairs_in_kernel": 4862,
+     "flow_terms": {
+      "attempt_terms": 2433,
+      "null_nogi_attempt_cells_skipped": 62,
+      "outcome_terms": 3820
+     },
+     "kernel": {
+      "source": "graph.json authored no-gi attempt shares + outcome probabilities"
+     },
+     "kernel_flow_mass_on_layout_edges": 1419.15,
+     "kernel_flow_mass_total": 1297.73,
+     "smallest_positive_flow": 0.005
+    },
+    "weights_coverage": {
+     "edges_touching_a_compound_position_twin": 937,
+     "flow_mass_without_a_layout_edge": 42.69,
+     "flow_pairs_without_a_layout_edge": 251,
+     "largest_missing": [
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "cross-collar-choke-from-knee-on-belly"
+        ]
+       ],
+       0.32
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "baseball-bat-choke-from-knee-on-belly"
+        ]
+       ],
+       0.32
+      ],
+      [
+       [
+        [
+         "position",
+         "half-guard"
+        ],
+        [
+         "technique",
+         "kneebar-from-leg-entanglement"
+        ]
+       ],
+       0.32
+      ],
+      [
+       [
+        [
+         "position",
+         "open-guard"
+        ],
+        [
+         "technique",
+         "can-opener-from-closed-guard"
+        ]
+       ],
+       0.31
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "bow-and-arrow-choke-from-back-control"
+        ]
+       ],
+       0.31
+      ]
+     ]
+    }
+   },
+   "layout_kernel_flow_seed42": {
+    "fidelity": {
+     "diffusion_t1": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0444869,
+       "null_p025": 0.0358471,
+       "null_p975": 0.0515438,
+       "null_replicates": 200,
+       "null_sd": 0.00404819,
+       "observed": 0.087309,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": 0.00234189,
+       "null_p025": -0.102866,
+       "null_p975": 0.107751,
+       "null_replicates": 200,
+       "null_sd": 0.0550122,
+       "observed": 0.0192266,
+       "permutation_p": 0.383085
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507915,
+       "null_p025": 0.482691,
+       "null_p975": 0.529575,
+       "null_replicates": 200,
+       "null_sd": 0.0125497,
+       "observed": 0.556845,
+       "permutation_p": 0.00497512
+      }
+     },
+     "diffusion_t4": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0451784,
+       "null_p025": 0.0368112,
+       "null_p975": 0.0539149,
+       "null_replicates": 200,
+       "null_sd": 0.00464015,
+       "observed": 0.157105,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": 0.00580944,
+       "null_p025": -0.0944974,
+       "null_p975": 0.116429,
+       "null_replicates": 200,
+       "null_sd": 0.0550077,
+       "observed": 0.0113514,
+       "permutation_p": 0.41791
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508129,
+       "null_p025": 0.483682,
+       "null_p975": 0.533573,
+       "null_replicates": 200,
+       "null_sd": 0.0130795,
+       "observed": 0.650331,
+       "permutation_p": 0.00497512
+      }
+     },
+     "exit_tv": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0454305,
+       "null_p025": 0.037088,
+       "null_p975": 0.0550222,
+       "null_replicates": 200,
+       "null_sd": 0.00501831,
+       "observed": 0.12986,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": 0.00306168,
+       "null_p025": -0.0762645,
+       "null_p975": 0.0751059,
+       "null_replicates": 200,
+       "null_sd": 0.0426763,
+       "observed": 0.104233,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508623,
+       "null_p025": 0.482662,
+       "null_p975": 0.541347,
+       "null_replicates": 200,
+       "null_sd": 0.0143251,
+       "observed": 0.699669,
+       "permutation_p": 0.00497512
+      }
+     },
+     "unweighted_hops": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0451402,
+       "null_p025": 0.0359554,
+       "null_p975": 0.0538417,
+       "null_replicates": 200,
+       "null_sd": 0.00457243,
+       "observed": 0.0883798,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00261571,
+       "null_p025": -0.0586048,
+       "null_p975": 0.0569857,
+       "null_replicates": 200,
+       "null_sd": 0.0291309,
+       "observed": 0.162223,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508087,
+       "null_p025": 0.479809,
+       "null_p975": 0.533358,
+       "null_replicates": 200,
+       "null_sd": 0.0134279,
+       "observed": 0.70591,
+       "permutation_p": 0.00497512
+      }
+     }
+    },
+    "first_step_entropy": null,
+    "layout_sha256": "a6fb0aea4c09fdb71ea019ae840d8992f479c184a7cf238ce213e092c3150135",
+    "leg_nn_purity": 0.918033,
+    "procrustes_vs_shipped": 1.31918,
+    "seconds": 550.7,
+    "technique_origin": {
+     "mean_ratio": 0.0851366,
+     "median_ratio": 0.00776384,
+     "origin_is_nearest_share": 0.876046,
+     "ratio_above_one": 46,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.754098,
+    "weights": {
+     "edges": 5714,
+     "edges_floored": 2315,
+     "edges_with_kernel_flow": 3399,
+     "floor": 1.22217e-11,
+     "flow_pairs_in_kernel": 3221,
+     "flow_terms": {
+      "attempt_terms": 2294,
+      "chain_terms": 40,
+      "landing_terms": 6682
+     },
+     "kernel": {
+      "mu_sum": 1.0,
+      "qprocess_states": 486
+     },
+     "kernel_flow_mass_on_layout_edges": 2.00313,
+     "kernel_flow_mass_total": 1.90468,
+     "smallest_positive_flow": 1.22217e-08
+    },
+    "weights_coverage": {
+     "edges_touching_a_compound_position_twin": 937,
+     "flow_mass_without_a_layout_edge": 0.0249715,
+     "flow_pairs_without_a_layout_edge": 234,
+     "largest_missing": [
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "kimura-from-half-guard"
+        ]
+       ],
+       0.00238013
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "kimura-from-side-control"
+        ]
+       ],
+       0.00120839
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "arm-triangle-from-side-control"
+        ]
+       ],
+       0.00112208
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "rear-naked-choke-from-back-control"
+        ]
+       ],
+       0.000961353
+      ],
+      [
+       [
+        [
+         "position",
+         "side-control"
+        ],
+        [
+         "technique",
+         "triangle-choke-from-open-guard"
+        ]
+       ],
+       0.000948014
+      ]
+     ]
+    }
+   },
+   "layout_kernel_flow_seed43": {
+    "fidelity": {
+     "diffusion_t1": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0456551,
+       "null_p025": 0.0347976,
+       "null_p975": 0.0561193,
+       "null_replicates": 200,
+       "null_sd": 0.00567578,
+       "observed": 0.0843473,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": 0.00195708,
+       "null_p025": -0.102627,
+       "null_p975": 0.103223,
+       "null_replicates": 200,
+       "null_sd": 0.0557539,
+       "observed": 0.0395865,
+       "permutation_p": 0.268657
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507735,
+       "null_p025": 0.486494,
+       "null_p975": 0.529783,
+       "null_replicates": 200,
+       "null_sd": 0.0111082,
+       "observed": 0.533247,
+       "permutation_p": 0.0149254
+      }
+     },
+     "diffusion_t4": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0460975,
+       "null_p025": 0.0377354,
+       "null_p975": 0.0565566,
+       "null_replicates": 200,
+       "null_sd": 0.00477926,
+       "observed": 0.134458,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": 0.00347552,
+       "null_p025": -0.0964815,
+       "null_p975": 0.118037,
+       "null_replicates": 200,
+       "null_sd": 0.0552226,
+       "observed": 0.0356368,
+       "permutation_p": 0.258706
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508827,
+       "null_p025": 0.487789,
+       "null_p975": 0.530352,
+       "null_replicates": 200,
+       "null_sd": 0.0119905,
+       "observed": 0.616997,
+       "permutation_p": 0.00497512
+      }
+     },
+     "exit_tv": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0451903,
+       "null_p025": 0.0355695,
+       "null_p975": 0.0558825,
+       "null_replicates": 200,
+       "null_sd": 0.00531846,
+       "observed": 0.111268,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": 0.00318956,
+       "null_p025": -0.0821006,
+       "null_p975": 0.0892375,
+       "null_replicates": 200,
+       "null_sd": 0.0479189,
+       "observed": 0.165308,
+       "permutation_p": 0.00995025
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.509163,
+       "null_p025": 0.484071,
+       "null_p975": 0.536112,
+       "null_replicates": 200,
+       "null_sd": 0.0143479,
+       "observed": 0.675856,
+       "permutation_p": 0.00497512
+      }
+     },
+     "unweighted_hops": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0452143,
+       "null_p025": 0.0366213,
+       "null_p975": 0.0549386,
+       "null_replicates": 200,
+       "null_sd": 0.00482894,
+       "observed": 0.0806272,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.000281779,
+       "null_p025": -0.0692702,
+       "null_p975": 0.05428,
+       "null_replicates": 200,
+       "null_sd": 0.0316173,
+       "observed": 0.167531,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.509419,
+       "null_p025": 0.47804,
+       "null_p975": 0.535381,
+       "null_replicates": 200,
+       "null_sd": 0.0141616,
+       "observed": 0.641401,
+       "permutation_p": 0.00497512
+      }
+     }
+    },
+    "first_step_entropy": {
+     "position": {
+      "median": 0.697471,
+      "nodes": 184,
+      "p10": 0.534064
+     },
+     "technique": {
+      "median": 0.754861,
+      "nodes": 1315,
+      "p10": 0.182682
+     }
+    },
+    "layout_sha256": "115035f79ca181dcb4b855ffa41785a2cde450fd0df50fe687d70b683177a168",
+    "leg_nn_purity": 0.893443,
+    "procrustes_vs_shipped": 1.1218,
+    "seconds": 689.3,
+    "technique_origin": {
+     "mean_ratio": 0.0676434,
+     "median_ratio": 0.0077802,
+     "origin_is_nearest_share": 0.872243,
+     "ratio_above_one": 17,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.721311,
+    "weights": {
+     "edges": 5714,
+     "edges_floored": 2315,
+     "edges_with_kernel_flow": 3399,
+     "floor": 1.22217e-11,
+     "flow_pairs_in_kernel": 3221,
+     "flow_terms": {
+      "attempt_terms": 2294,
+      "chain_terms": 40,
+      "landing_terms": 6682
+     },
+     "kernel": {
+      "mu_sum": 1.0,
+      "qprocess_states": 486
+     },
+     "kernel_flow_mass_on_layout_edges": 2.00313,
+     "kernel_flow_mass_total": 1.90468,
+     "smallest_positive_flow": 1.22217e-08
+    },
+    "weights_coverage": {
+     "edges_touching_a_compound_position_twin": 937,
+     "flow_mass_without_a_layout_edge": 0.0249715,
+     "flow_pairs_without_a_layout_edge": 234,
+     "largest_missing": [
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "kimura-from-half-guard"
+        ]
+       ],
+       0.00238013
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "kimura-from-side-control"
+        ]
+       ],
+       0.00120839
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "arm-triangle-from-side-control"
+        ]
+       ],
+       0.00112208
+      ],
+      [
+       [
+        [
+         "position",
+         "closed-guard"
+        ],
+        [
+         "technique",
+         "rear-naked-choke-from-back-control"
+        ]
+       ],
+       0.000961353
+      ],
+      [
+       [
+        [
+         "position",
+         "side-control"
+        ],
+        [
+         "technique",
+         "triangle-choke-from-open-guard"
+        ]
+       ],
+       0.000948014
+      ]
+     ]
+    }
+   },
+   "layout_unweighted_seed42": {
+    "fidelity": {
+     "diffusion_t1": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0450811,
+       "null_p025": 0.0358068,
+       "null_p975": 0.0549193,
+       "null_replicates": 200,
+       "null_sd": 0.00472504,
+       "observed": 0.0809557,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00173673,
+       "null_p025": -0.0730069,
+       "null_p975": 0.0667834,
+       "null_replicates": 200,
+       "null_sd": 0.0373047,
+       "observed": 0.0673309,
+       "permutation_p": 0.0298507
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.50702,
+       "null_p025": 0.485877,
+       "null_p975": 0.528845,
+       "null_replicates": 200,
+       "null_sd": 0.0115598,
+       "observed": 0.546276,
+       "permutation_p": 0.00497512
+      }
+     },
+     "diffusion_t4": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0455053,
+       "null_p025": 0.0370374,
+       "null_p975": 0.0536184,
+       "null_replicates": 200,
+       "null_sd": 0.00463051,
+       "observed": 0.216706,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.000293074,
+       "null_p025": -0.0662925,
+       "null_p975": 0.0652342,
+       "null_replicates": 200,
+       "null_sd": 0.0368752,
+       "observed": 0.114753,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507241,
+       "null_p025": 0.487088,
+       "null_p975": 0.529151,
+       "null_replicates": 200,
+       "null_sd": 0.0114991,
+       "observed": 0.675726,
+       "permutation_p": 0.00497512
+      }
+     },
+     "exit_tv": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0451167,
+       "null_p025": 0.0358937,
+       "null_p975": 0.057165,
+       "null_replicates": 200,
+       "null_sd": 0.00533427,
+       "observed": 0.226515,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.0023111,
+       "null_p025": -0.0706178,
+       "null_p975": 0.0510768,
+       "null_replicates": 200,
+       "null_sd": 0.0307328,
+       "observed": 0.400915,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507964,
+       "null_p025": 0.478336,
+       "null_p975": 0.53535,
+       "null_replicates": 200,
+       "null_sd": 0.0147681,
+       "observed": 0.824547,
+       "permutation_p": 0.00497512
+      }
+     },
+     "unweighted_hops": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0456857,
+       "null_p025": 0.0371614,
+       "null_p975": 0.0560061,
+       "null_replicates": 200,
+       "null_sd": 0.00484417,
+       "observed": 0.116691,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00278744,
+       "null_p025": -0.0379941,
+       "null_p975": 0.0415425,
+       "null_replicates": 200,
+       "null_sd": 0.0209186,
+       "observed": 0.385327,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508067,
+       "null_p025": 0.478922,
+       "null_p975": 0.537932,
+       "null_replicates": 200,
+       "null_sd": 0.0144457,
+       "observed": 0.777811,
+       "permutation_p": 0.00497512
+      }
+     }
+    },
+    "first_step_entropy": null,
+    "layout_sha256": "383b13c4b11c1fc7daaeeb78ee8a5ad801cd69c7946dcf6352958237536ad9c0",
+    "leg_nn_purity": 0.991803,
+    "procrustes_vs_shipped": 0.249065,
+    "seconds": 644.3,
+    "technique_origin": {
+     "mean_ratio": 0.13397,
+     "median_ratio": 0.0360465,
+     "origin_is_nearest_share": 0.662357,
+     "ratio_above_one": 27,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.885246,
+    "weights": null,
+    "weights_coverage": null
+   },
+   "layout_unweighted_seed43": {
+    "fidelity": {
+     "diffusion_t1": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.045159,
+       "null_p025": 0.0367691,
+       "null_p975": 0.0534836,
+       "null_replicates": 200,
+       "null_sd": 0.00429516,
+       "observed": 0.080747,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00222074,
+       "null_p025": -0.0773022,
+       "null_p975": 0.073439,
+       "null_replicates": 200,
+       "null_sd": 0.0408942,
+       "observed": 0.127359,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507097,
+       "null_p025": 0.488356,
+       "null_p975": 0.526355,
+       "null_replicates": 200,
+       "null_sd": 0.0102402,
+       "observed": 0.559448,
+       "permutation_p": 0.00497512
+      }
+     },
+     "diffusion_t4": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0451952,
+       "null_p025": 0.0360534,
+       "null_p975": 0.0542777,
+       "null_replicates": 200,
+       "null_sd": 0.00471534,
+       "observed": 0.218856,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.000163739,
+       "null_p025": -0.0758267,
+       "null_p975": 0.0720949,
+       "null_replicates": 200,
+       "null_sd": 0.0394208,
+       "observed": 0.205558,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.50722,
+       "null_p025": 0.486932,
+       "null_p975": 0.526808,
+       "null_replicates": 200,
+       "null_sd": 0.00984262,
+       "observed": 0.681349,
+       "permutation_p": 0.00497512
+      }
+     },
+     "exit_tv": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0449836,
+       "null_p025": 0.0351419,
+       "null_p975": 0.0549634,
+       "null_replicates": 200,
+       "null_sd": 0.00525232,
+       "observed": 0.228308,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00336662,
+       "null_p025": -0.0767984,
+       "null_p975": 0.0629211,
+       "null_replicates": 200,
+       "null_sd": 0.0343057,
+       "observed": 0.40982,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.507319,
+       "null_p025": 0.479077,
+       "null_p975": 0.536035,
+       "null_replicates": 200,
+       "null_sd": 0.0144665,
+       "observed": 0.830774,
+       "permutation_p": 0.00497512
+      }
+     },
+     "unweighted_hops": {
+      "jaccard_at10": {
+       "alternative": "greater",
+       "null_mean": 0.0454873,
+       "null_p025": 0.0358103,
+       "null_p975": 0.0556096,
+       "null_replicates": 200,
+       "null_sd": 0.00483548,
+       "observed": 0.120416,
+       "permutation_p": 0.00497512
+      },
+      "spearman": {
+       "alternative": "greater",
+       "null_mean": -0.00225708,
+       "null_p025": -0.0413821,
+       "null_p975": 0.0423917,
+       "null_replicates": 200,
+       "null_sd": 0.0224777,
+       "observed": 0.374509,
+       "permutation_p": 0.00497512
+      },
+      "trustworthiness_at5": {
+       "alternative": "greater",
+       "null_mean": 0.508169,
+       "null_p025": 0.48294,
+       "null_p975": 0.534992,
+       "null_replicates": 200,
+       "null_sd": 0.0140584,
+       "observed": 0.785246,
+       "permutation_p": 0.00497512
+      }
+     }
+    },
+    "first_step_entropy": null,
+    "layout_sha256": "edce8dd49bcacc0270cbeb76800e45ef393b3e5e0e11887bc2a8eb79a954d68c",
+    "leg_nn_purity": 0.97541,
+    "procrustes_vs_shipped": 0.567738,
+    "seconds": 593.2,
+    "technique_origin": {
+     "mean_ratio": 0.135925,
+     "median_ratio": 0.0353568,
+     "origin_is_nearest_share": 0.659316,
+     "ratio_above_one": 30,
+     "techniques": 1315
+    },
+    "territory_nn_purity": 0.918033,
+    "weights": null,
+    "weights_coverage": null
+   }
+  }
+ },
+ "schema": "geometry-choices-g3-v1",
+ "selfcheck_assertions": 28,
+ "set_definition": "the 122 positive-mass hubs of G2R's primary configuration; the 11 zero-mass (gi-only cloth) position hubs keep their shipped coordinates; technique hubs move rigidly with their canonical origin hub",
+ "shipped_fidelity": {
+  "diffusion_t1": {
+   "continuity_at10": {
+    "alternative": "greater",
+    "null_mean": 0.517512,
+    "null_p025": 0.446259,
+    "null_p975": 0.590606,
+    "null_replicates": 200,
+    "null_sd": 0.0401681,
+    "observed": 0.671477,
+    "permutation_p": 0.00497512
+   },
+   "continuity_at5": {
+    "alternative": "greater",
+    "null_mean": 0.510577,
+    "null_p025": 0.418886,
+    "null_p975": 0.602688,
+    "null_replicates": 200,
+    "null_sd": 0.0501466,
+    "observed": 0.681162,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at10": {
+    "alternative": "greater",
+    "null_mean": 0.0449408,
+    "null_p025": 0.0368663,
+    "null_p975": 0.0545838,
+    "null_replicates": 200,
+    "null_sd": 0.00452313,
+    "observed": 0.079906,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at5": {
+    "alternative": "greater",
+    "null_mean": 0.0232213,
+    "null_p025": 0.0166041,
+    "null_p975": 0.0318932,
+    "null_replicates": 200,
+    "null_sd": 0.00415558,
+    "observed": 0.0730874,
+    "permutation_p": 0.00497512
+   },
+   "spearman": {
+    "alternative": "greater",
+    "null_mean": -0.00127688,
+    "null_p025": -0.0842634,
+    "null_p975": 0.0839614,
+    "null_replicates": 200,
+    "null_sd": 0.0428256,
+    "observed": 0.104713,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at10": {
+    "alternative": "greater",
+    "null_mean": 0.516763,
+    "null_p025": 0.498166,
+    "null_p975": 0.536291,
+    "null_replicates": 200,
+    "null_sd": 0.00974218,
+    "observed": 0.547418,
+    "permutation_p": 0.00995025
+   },
+   "trustworthiness_at5": {
+    "alternative": "greater",
+    "null_mean": 0.506771,
+    "null_p025": 0.487226,
+    "null_p975": 0.528625,
+    "null_replicates": 200,
+    "null_sd": 0.0111097,
+    "observed": 0.549108,
+    "permutation_p": 0.00497512
+   }
+  },
+  "diffusion_t4": {
+   "continuity_at10": {
+    "alternative": "greater",
+    "null_mean": 0.51836,
+    "null_p025": 0.47788,
+    "null_p975": 0.559848,
+    "null_replicates": 200,
+    "null_sd": 0.0222183,
+    "observed": 0.776333,
+    "permutation_p": 0.00497512
+   },
+   "continuity_at5": {
+    "alternative": "greater",
+    "null_mean": 0.509443,
+    "null_p025": 0.466865,
+    "null_p975": 0.547053,
+    "null_replicates": 200,
+    "null_sd": 0.0212961,
+    "observed": 0.831133,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at10": {
+    "alternative": "greater",
+    "null_mean": 0.0450188,
+    "null_p025": 0.0359835,
+    "null_p975": 0.0530219,
+    "null_replicates": 200,
+    "null_sd": 0.00456038,
+    "observed": 0.205327,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at5": {
+    "alternative": "greater",
+    "null_mean": 0.0231634,
+    "null_p025": 0.0147939,
+    "null_p975": 0.0318761,
+    "null_replicates": 200,
+    "null_sd": 0.0044351,
+    "observed": 0.186313,
+    "permutation_p": 0.00497512
+   },
+   "spearman": {
+    "alternative": "greater",
+    "null_mean": -0.000222424,
+    "null_p025": -0.0816702,
+    "null_p975": 0.0728061,
+    "null_replicates": 200,
+    "null_sd": 0.0416067,
+    "observed": 0.140018,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at10": {
+    "alternative": "greater",
+    "null_mean": 0.517031,
+    "null_p025": 0.499566,
+    "null_p975": 0.536544,
+    "null_replicates": 200,
+    "null_sd": 0.0102945,
+    "observed": 0.651889,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at5": {
+    "alternative": "greater",
+    "null_mean": 0.506901,
+    "null_p025": 0.487306,
+    "null_p975": 0.534382,
+    "null_replicates": 200,
+    "null_sd": 0.0117904,
+    "observed": 0.664438,
+    "permutation_p": 0.00497512
+   }
+  },
+  "exit_tv": {
+   "continuity_at10": {
+    "alternative": "greater",
+    "null_mean": 0.517801,
+    "null_p025": 0.495116,
+    "null_p975": 0.541985,
+    "null_replicates": 200,
+    "null_sd": 0.012476,
+    "observed": 0.790895,
+    "permutation_p": 0.00497512
+   },
+   "continuity_at5": {
+    "alternative": "greater",
+    "null_mean": 0.508099,
+    "null_p025": 0.482756,
+    "null_p975": 0.540422,
+    "null_replicates": 200,
+    "null_sd": 0.0148371,
+    "observed": 0.803796,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at10": {
+    "alternative": "greater",
+    "null_mean": 0.0450047,
+    "null_p025": 0.0341815,
+    "null_p975": 0.0554289,
+    "null_replicates": 200,
+    "null_sd": 0.00524847,
+    "observed": 0.237598,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at5": {
+    "alternative": "greater",
+    "null_mean": 0.0234008,
+    "null_p025": 0.0136441,
+    "null_p975": 0.0341668,
+    "null_replicates": 200,
+    "null_sd": 0.00540473,
+    "observed": 0.172717,
+    "permutation_p": 0.00497512
+   },
+   "spearman": {
+    "alternative": "greater",
+    "null_mean": -0.00192222,
+    "null_p025": -0.0696815,
+    "null_p975": 0.0594081,
+    "null_replicates": 200,
+    "null_sd": 0.0344916,
+    "observed": 0.452668,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at10": {
+    "alternative": "greater",
+    "null_mean": 0.517551,
+    "null_p025": 0.496248,
+    "null_p975": 0.540126,
+    "null_replicates": 200,
+    "null_sd": 0.0116113,
+    "observed": 0.819103,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at5": {
+    "alternative": "greater",
+    "null_mean": 0.508024,
+    "null_p025": 0.478974,
+    "null_p975": 0.533093,
+    "null_replicates": 200,
+    "null_sd": 0.0145644,
+    "observed": 0.831277,
+    "permutation_p": 0.00497512
+   }
+  },
+  "unweighted_hops": {
+   "continuity_at10": {
+    "alternative": "greater",
+    "null_mean": 0.518153,
+    "null_p025": 0.462894,
+    "null_p975": 0.571737,
+    "null_replicates": 200,
+    "null_sd": 0.026569,
+    "observed": 0.703386,
+    "permutation_p": 0.00497512
+   },
+   "continuity_at5": {
+    "alternative": "greater",
+    "null_mean": 0.509063,
+    "null_p025": 0.440154,
+    "null_p975": 0.579863,
+    "null_replicates": 200,
+    "null_sd": 0.0359001,
+    "observed": 0.695269,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at10": {
+    "alternative": "greater",
+    "null_mean": 0.045121,
+    "null_p025": 0.0368575,
+    "null_p975": 0.0545426,
+    "null_replicates": 200,
+    "null_sd": 0.00464432,
+    "observed": 0.117413,
+    "permutation_p": 0.00497512
+   },
+   "jaccard_at5": {
+    "alternative": "greater",
+    "null_mean": 0.0230217,
+    "null_p025": 0.0147939,
+    "null_p975": 0.0318875,
+    "null_replicates": 200,
+    "null_sd": 0.00425195,
+    "observed": 0.064663,
+    "permutation_p": 0.00497512
+   },
+   "spearman": {
+    "alternative": "greater",
+    "null_mean": -0.0027211,
+    "null_p025": -0.0401759,
+    "null_p975": 0.0443268,
+    "null_replicates": 200,
+    "null_sd": 0.0234748,
+    "observed": 0.39411,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at10": {
+    "alternative": "greater",
+    "null_mean": 0.517377,
+    "null_p025": 0.495322,
+    "null_p975": 0.54163,
+    "null_replicates": 200,
+    "null_sd": 0.0112684,
+    "observed": 0.769884,
+    "permutation_p": 0.00497512
+   },
+   "trustworthiness_at5": {
+    "alternative": "greater",
+    "null_mean": 0.507645,
+    "null_p025": 0.476484,
+    "null_p975": 0.536043,
+    "null_replicates": 200,
+    "null_sd": 0.0149377,
+    "observed": 0.765732,
+    "permutation_p": 0.00497512
+   }
+  }
+ },
+ "sources_sha256": {
+  "graph.json": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+  "scripts/regenerate_graph_layout.py": "6094b2a2d1abfbce37fe06a35cb32dfaeacc63d71b83df0d4f6da5718f2d0d60",
+  "scripts/semantics/_geometry_choices.py": "3dedd9ffb7cfe8dcb018d564cc368f3e1ddd0ed60112a358f6d558977e4854e7",
+  "scripts/semantics/_geometry_relayout.py": "f3b98b113a9ce8ad7d799be5a809a842731f2c9388059c4b991ea86945172899",
+  "scripts/semantics/_kernel.py": "eaf98ff4da81a524fdc4a6b27aa24a399c56d31ebae5fdda76ef810620beae1d",
+  "scripts/semantics/geometry.py": "7d975e02e417d9a0381b7d0b380e6c61c12950f6a719d289ac18cfe8e7eed6f3",
+  "source/quartz/static/globalGraphLayout.json": "0c6503ec878b9606a694a38ce61f7eacb5efa826d1762c6cb65cf231c18609b4",
+  "source/quartz/static/neural/graph-data.json": "3162723e0fdd1606eb5df48f76d19d41a3f944e22871d978a5ec8356802c6f09",
+  "tests/artifacts/semantics/geometry.json": "7d25c8937d99f9064a85582842c751021a6a1255b6984865193644c5e9c5a036"
+ },
+ "wire": {
+  "control_no_op": {
+   "copy": "<scratch>/wire_copies/graph-data.control.json",
+   "gzip9_after": 107447,
+   "gzip9_before": 107447,
+   "gzip9_delta": 0,
+   "nodes_changed": 0,
+   "raw_bytes_after": 564474,
+   "raw_bytes_before": 564474,
+   "raw_delta": 0,
+   "within_delta_cap_5000": true
+  },
+  "delta_cap": 5000,
+  "file": "source/quartz/static/neural/graph-data.json",
+  "gzip_rule": "gzip.compress(bytes, 9), one file",
+  "nodes": 1448,
+  "nodes_with_layout_xy": 1448,
+  "process_cost": "regenerate_graph_layout.py is PRESERVE-COORDS by default: it reuses every prior (x, y) keyed by canonical id and embeds only NEW nodes; --fresh re-embeds everything. A relayout therefore ships as a one-off rewrite of globalGraphLayout.json coordinates (which later runs then preserve) followed by regenerate:neural; globalGraphLayout.json itself is an emitter input, not a fetched payload."
+ }
+}

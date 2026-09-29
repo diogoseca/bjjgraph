@@ -19,6 +19,7 @@ It is deliberately **not**:
 | the data pipeline in depth | `docs/Architecture.md` |
 | the full content standards | `docs/Content.md` |
 | schema markup, keywords, analytics | `docs/SEO.md` |
+| what the map MEANS: the Markov kernel, territories, committors, names | `docs/GraphSemantics.md` |
 | an API reference for `neural/src/app.src.jsx` | the code, which carries ~400k chars of comments |
 
 **The admission test.** A line belongs here if *a reader could break something by not knowing it,
@@ -342,10 +343,12 @@ tray the player is reaching into. The clock times the QUESTION, never the hand (
 deck warm-up is capped at `NG_PREFETCH_CAP`.
 
 **EDGE** = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
-where you stand, counting where a miss leaves you. `0` is normal, not "no value". **Two honesty
-gaps, one still open:** the shipped `opponentDefend` picks from hub adjacency with no role or origin
-filter, so only ~12% of what it may play is a move the model's opponent would consider — EDGE
-describes a better-behaved opponent than the one you face. Say so in any copy explaining EDGE.
+where you stand, counting where a miss leaves you. `0` is normal, not "no value". **The honesty
+gap is the opponent's POLICY:** since v1.176.0 `opponentDefend` draws from `optionsFor` (role- and
+origin-filtered) but never reads attempt shares — it finishes w.p. clamp(0.34 + 0.55·adv), else
+picks among the top 3 by landing value — and resists your odds (aiMod). From standing (no-gi,
+shipped rule) P(I finish) is 0.35 against the corpus's 0.72 (`scripts/semantics/app_game.py`). EDGE
+describes the corpus's opponent, not the one you face. Say so in any copy explaining EDGE.
 
 **The pair.** Every state draws as two orbs (merged → mitosis → split, gated by `kLOD`). It is
 **derived at ingest** (`_deriveDualPairs`), costs zero wire bytes, and is UNCONDITIONAL — the
