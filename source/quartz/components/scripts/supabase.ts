@@ -222,6 +222,11 @@ export async function getUser(): Promise<AuthUser | null> {
 // forgiving public getSession helper cannot establish that an account signed out.
 export async function resolveNeuralUser(): Promise<AuthUser | null> {
   if (!isConfigured()) return null
+  // No stored session and no SDK load in flight = a guest, by the SDK's own rule: getSession reads
+  // this same storage key, and an OAuth return has already started loadSDK in authUI's redirect-back
+  // arm. Loading the SDK to learn "guest" put a third-party fetch on every visitor's boot, with mount
+  // waiting on it (QREV7 M1; auth-redirect-back.spec.ts test 1's control counts 0 clients).
+  if (!isAuthenticated() && !_sdkLoading) return null
   const client = await getClient()
   for (let attempt = 0; attempt < 3; attempt++) {
     const revision = _neuralAuthRevision

@@ -16,7 +16,7 @@ export async function installNeuralAuthSDK(page: Page) {
     const initialProgress = Object.fromEntries(Object.keys(localStorage)
       .filter(key => key.startsWith('bjj-neural-owner:') || key === 'bjj-neural-progress')
       .sort().map(key => [key, localStorage.getItem(key)]))
-    let user: any = null, failReads = false
+    let user: any = null, failReads = false, clientsCreated = 0
     let failSessions = sessionStorage.getItem(sessionFailureKey) === '1'
     const session = () => user ? { user: copy(user), access_token: 'synthetic-token-only' } : null
     const emit = (event: string, id: string | null, profile?: { email?: string, name?: string }) => {
@@ -77,7 +77,8 @@ export async function installNeuralAuthSDK(page: Page) {
     // build config later; these setters keep every identity/data operation synthetic.
     Object.defineProperty(w, '__SUPABASE_URL', { configurable: true, get: () => 'https://auth-owner-fixture.supabase.invalid', set: () => {} })
     Object.defineProperty(w, '__SUPABASE_ANON_KEY', { configurable: true, get: () => 'synthetic-public-key', set: () => {} })
-    w.supabase = { createClient: () => client }
+    // Counted: a signed-out guest must never create a client (QREV7 M1, auth-owner.spec.ts).
+    w.supabase = { createClient: () => { clientsCreated++; return client } }
     w.__authOwnerFixture = {
       emit,
       seedCloud: (id: string, blob: any) => { cloud.set(id, copy(blob)) },
@@ -87,7 +88,7 @@ export async function installNeuralAuthSDK(page: Page) {
         if (value) sessionStorage.setItem(sessionFailureKey, '1')
         else sessionStorage.removeItem(sessionFailureKey)
       },
-      snapshot: () => copy({ reads, writes, events, sessionReads, initialProgress, userId: user?.id || null }),
+      snapshot: () => copy({ reads, writes, events, sessionReads, initialProgress, userId: user?.id || null, clients: clientsCreated }),
     }
   })
 }

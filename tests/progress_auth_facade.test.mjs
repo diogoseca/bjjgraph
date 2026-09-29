@@ -31,10 +31,14 @@ function authHarness() {
       return query;
     },
   };
-  const window = { __SUPABASE_URL: 'https://synthetic.supabase.invalid', __SUPABASE_ANON_KEY: 'synthetic-public-key', supabase: { createClient: () => client } };
+  let clients = 0;
+  const window = { __SUPABASE_URL: 'https://synthetic.supabase.invalid', __SUPABASE_ANON_KEY: 'synthetic-public-key', supabase: { createClient: () => { clients++; return client; } } };
+  // Like the real SDK, a signed-in user leaves its session token under the facade's own storage key
+  // (isAuthenticated reads it). A guest has none (QREV7 M1: then no client is ever created).
   const js = stripTypeScriptTypes(authSource).replace(/^export /gm, '');
-  const api = new Function('window', 'localStorage', 'console', `${js}\nreturn window.__bjjAuth;`)(window, { getItem: () => null }, { error() {} });
-  return { api, writes, reads, emit: (...args) => sdkListener(...args),
+  const storage = { getItem: key => /-auth-token$/.test(key) && userId ? JSON.stringify({ access_token: 'synthetic-token' }) : null };
+  const api = new Function('window', 'localStorage', 'console', `${js}\nreturn window.__bjjAuth;`)(window, storage, { error() {} });
+  return { api, writes, reads, emit: (...args) => sdkListener(...args), clients: () => clients,
     setSessionRead: fn => { sessionRead = fn; }, setUser: id => { userId = id; }, setRead: value => { read = value; }, setSessionError: error => { sessionError = error; } };
 }
 
@@ -69,6 +73,11 @@ test('real facade refuses account change during read and pins accepted writes to
 });
 
 
+test('QREV7 M1: a guest with no stored session and no SDK load resolves null without creating a client', async () => {
+  const h=authHarness();h.setUser(null);
+  assert.equal(await h.api.resolveNeuralUser(),null);assert.equal(h.clients(),0,'a guest never loads or creates the SDK client');
+  h.setUser('account-a');assert.deepEqual(await h.api.resolveNeuralUser(),{id:'account-a'});assert.equal(h.clients(),1,'a stored session takes the strict SDK path');
+});
 test('strict owner resolver distinguishes explicit signout from unreadable identity', async () => {
   const h=authHarness();assert.deepEqual(await h.api.resolveNeuralUser(),{id:'account-a'});
   h.setUser(null);assert.equal(await h.api.resolveNeuralUser(),null);

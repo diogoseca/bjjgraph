@@ -283,3 +283,41 @@ test("the real app's first card can render with no value-module globals at all",
   a.setChoiceValueRuntime({}, "loading");
   assert.equal(a.choiceValueView(opt).status, "error");
 });
+
+// THE TOOLTIP (owner, 2026-09-29): the engine's landed/missed regrouping is shown only when it adds
+// back up to the card's own total; an inconsistent split is dropped, never displayed.
+test("a reconciling split becomes the plain-words tooltip; an inconsistent one is dropped", () => {
+  const good = record(A, .6, .2, { split: { lands: .8, winIfLands: .7, winIfMisses: .2 } });  // .8*.7+.2*.2 = .6
+  const bad = record(B, .4, .2, { split: { lands: .5, winIfLands: .9, winIfMisses: .9 } });   // .9 != .4
+  const s = ready([good, bad]);
+  const a = s.actions.find(r => r.actionId === A), b = s.actions.find(r => r.actionId === B);
+  assert.deepEqual(a.split, { lands: .8, winIfLands: .7, winIfMisses: .2 });
+  assert.equal(b.split, null, "a split that does not reconcile is never shown");
+  const v = ngChoiceValueView(a, s);
+  assert.deepEqual(v.split, [
+    "The move lands (80%): then you win 70%.",
+    "The move misses (20%): then you win 20%.",
+    "80% × 70% + 20% × 20% ≈ 60% win chance.",
+    "You get submitted 20% · nobody taps 20%.",
+  ]);
+  assert.match(v.tooltip, /^Win chance 60%\n/);
+  assert.match(ngChoiceValueHTML(v, true), /data-choice-split/);
+  assert.equal(ngChoiceValueView(b, s).tooltip, undefined);
+});
+
+test("escape and entry wording name the two cases the player actually faces", () => {
+  const esc = record(A, .3, .7, { immediateExecutionKind: "escape", split: { lands: .3, winIfLands: 1, winIfMisses: 0 } });
+  const entry = record(B, .5, .3, { immediateExecutionKind: "entry", split: { lands: 1, winIfLands: .5, winIfMisses: null } });
+  const s = ready([esc, entry]);
+  const ve = ngChoiceValueView(s.actions.find(r => r.actionId === A), s), vn = ngChoiceValueView(s.actions.find(r => r.actionId === B), s);
+  assert.equal(ve.split[0], "The escape works (30%): you win.");
+  assert.equal(ve.split[1], "The escape fails (70%): you are submitted.");
+  assert.deepEqual(vn.split.slice(0, 1), ["Entry is automatic (100%): then you win 50%."]);
+  assert.equal(vn.split.length, 2, "no misses line and no sum for an automatic entry");
+});
+
+// SORT ONCE (owner, 2026-09-29): bounded values sort when their bins are distinct (certified ties: choice_certified.test.mjs).
+test("bounded values with distinct bins sort by win chance", () => {
+  const s = ready(certify(response(request(), [record(B, .4), record(A, .6)])).actions, request());
+  assert.deepEqual(ngChoiceValueOrder([B, A], s), [A, B]);
+});

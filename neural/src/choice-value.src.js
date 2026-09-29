@@ -138,6 +138,21 @@ function ngChoiceValueUnavailable(actionId, reason, immediate) {
 
 // A small lifecycle controller: generation ownership is separate from content identity.
 // Superseded work may physically finish, but can never repaint the new/committed hand.
+// The engine's landed/missed regrouping of the card's own rows (mdp-model `ngMdpSplit`). It is shown
+// only if it adds back up to the card's total within the result's own error bound; a split that
+// does not reconcile is dropped, never displayed as an explanation of a number it does not make.
+function ngChoiceValueSplit(r, quality) {
+  const s = r && r.split;
+  if (!s || !ngChoiceValueProbability(s.lands) || !ngChoiceValueVector(r.outcomes)) return null;
+  const landsOk = s.lands > 0 ? ngChoiceValueProbability(s.winIfLands) : s.winIfLands == null;
+  const missesOk = s.lands < 1 ? ngChoiceValueProbability(s.winIfMisses) : s.winIfMisses == null;
+  if (!landsOk || !missesOk) return null;
+  const total = (s.lands > 0 ? s.lands * s.winIfLands : 0) + (s.lands < 1 ? (1 - s.lands) * s.winIfMisses : 0);
+  const tolerance = 1e-9 + (ngChoiceValueProbability(quality && quality.maxWinError) ? quality.maxWinError : 0);
+  return Math.abs(total - r.outcomes.win) <= tolerance
+    ? { lands: s.lands, winIfLands: s.lands > 0 ? s.winIfLands : null, winIfMisses: s.lands < 1 ? s.winIfMisses : null } : null;
+}
+
 export function ngChoiceValueController({ publish = () => {}, isCurrent = () => true, cancel = () => {} } = {}) {
   let active = null, sequence = 0, destroyed = false, snapshot = null;
   const emit = value => { snapshot = ngChoiceValueCopy(value); publish(snapshot); return snapshot; };
@@ -193,7 +208,7 @@ export function ngChoiceValueController({ publish = () => {}, isCurrent = () => 
           || (r.immediateExecutionChance != null && !ngChoiceValueProbability(r.immediateExecutionChance))) return ngChoiceValueUnavailable(id, "invalid-result", immediate);
         if (response.root.selectedActionId === id && ["win", "loss", "explicitNoResult", "nontermination"].some(k => certified ? Math.max(r.outcomeBounds[k][0], response.root.outcomeBounds[k][0]) > Math.min(r.outcomeBounds[k][1], response.root.outcomeBounds[k][1]) : Math.abs(r.outcomes[k] - response.root.outcomes[k]) > 1e-7)) return ngChoiceValueUnavailable(id, "invalid-result", immediate);
         const winBounds = r.winBounds || (quality.maxWinError > 0 ? [Math.max(0, r.outcomes.win - quality.maxWinError), Math.min(1, r.outcomes.win + quality.maxWinError)] : undefined);
-        return { ...immediate, ...r, ...(winBounds ? { winBounds } : {}), primaryCertified: certified };
+        return { ...immediate, ...r, split: ngChoiceValueSplit(r, quality), ...(winBounds ? { winBounds } : {}), primaryCertified: certified };
       });
       const ready = actions.filter(r => ["ready", "bounded"].includes(r.status));
       emit({ status: ready.length === actions.length ? (ready.some(r => r.status === "bounded") ? "bounded" : "ready") : ready.length ? "partial" : "unavailable",
@@ -220,8 +235,9 @@ export function ngChoiceValueController({ publish = () => {}, isCurrent = () => 
 // match the visible headline; equal rounded values are ties for presentation, never an
 // assertion of exact Bellman equality. Ambiguous intervals retain their existing order.
 export function ngChoiceValueOrder(ids, snapshot) {
-  // Bounded values retain the authored/dealt order; suggestion is a separate badge.
-  if ((snapshot?.actions || []).some(r => r.status === "bounded")) return [...ids];
+  // Bounded (certified) values sort too (owner, 2026-09-29: "sort once automatically when the values
+  // arrive"). Their enclosures are ~1e-14 wide, so they almost never straddle a display bin; one that
+  // does returns no key below, and an unkeyed option keeps the whole hand in its dealt order.
   const byId = new Map((snapshot?.actions || []).map(r => [r.actionId, r]));
   const key = id => {
     const r = byId.get(id);
@@ -232,9 +248,14 @@ export function ngChoiceValueOrder(ids, snapshot) {
   // Unknown scores do not earn last place. Ranking a partial hand would imply evidence
   // against the missing options; wait until every displayed option can be compared.
   if (ids.some(id => key(id) == null)) return [...ids];
+  // Equal display bins keep their DEALT order. Only an exact result may lift its verified
+  // recommendation within a tie: a certified suggestion is within the regret bound of its peers,
+  // not proven better, so promoting it would reorder cards the evidence cannot separate.
+  const exact = snapshot?.quality?.numericalStatus === "exact-rational", selected = snapshot?.root?.selectedActionId;
+  const dealt = new Map(ids.map((id, i) => [id, i]));
   return [...ids].sort((a, b) => key(b) - key(a)
-    || Number(snapshot?.root?.selectedActionId === b) - Number(snapshot?.root?.selectedActionId === a)
-    || (a < b ? -1 : a > b ? 1 : 0));
+    || (exact ? Number(selected === b) - Number(selected === a) : 0)
+    || dealt.get(a) - dealt.get(b));
 }
 
 export function ngChoiceValueKnowledge(explanation, kind) {
@@ -287,6 +308,21 @@ export function ngChoiceValueView(record, snapshot) {
   view.notes.push("Win, loss and no result describe that same future play. Percentages are rounded.");
   view.notes.push("No additional study is assumed before later moves. A new answer recalculates the values.");
   if (certified ? r.outcomeBounds.explicitNoResult[1] > 0 || r.outcomeBounds.nontermination[1] > 0 : o.explicitNoResult > 0 || o.nontermination > 0) view.notes.push("No result: " + ngChoiceValuePercent(o.explicitNoResult, certified ? r.outcomeBounds.explicitNoResult : undefined) + " game reset; " + ngChoiceValuePercent(o.nontermination, certified ? r.outcomeBounds.nontermination : undefined) + " play that never ends.");
+  // THE TOOLTIP (owner, 2026-09-29): how the card number is made, in plain words. Q = P(lands) x
+  // [win if it lands] + P(misses) x [win if it misses], from the engine's own rows (ngMdpSplit).
+  const sp = r.split, kind = view.immediateLabel;
+  if (sp) {
+    const pct = ngChoiceValuePercent, lines = [];
+    const landWord = { Entry: "Entry is automatic", Finish: "The finish lands", Escape: "The escape works", Move: "The move lands" }[kind] || "The move lands";
+    const missWord = { Finish: "The finish misses", Escape: "The escape fails", Move: "The move misses" }[kind] || "The move misses";
+    const then = w => w === 1 ? "you win" : w === 0 ? (kind === "Escape" ? "you are submitted" : "you do not win") : "then you win " + pct(w);
+    if (sp.lands > 0) lines.push(landWord + " (" + pct(sp.lands) + "): " + then(sp.winIfLands) + ".");
+    if (sp.lands < 1) lines.push(missWord + " (" + pct(1 - sp.lands) + "): " + then(sp.winIfMisses) + ".");
+    if (sp.lands > 0 && sp.lands < 1) lines.push(pct(sp.lands) + " × " + pct(sp.winIfLands) + " + " + pct(1 - sp.lands) + " × " + pct(sp.winIfMisses) + " ≈ " + view.value + " win chance.");
+    lines.push("You get submitted " + view.outcomes[1].value + " · nobody taps " + view.outcomes[2].value + ".");
+    view.split = lines;
+    view.tooltip = "Win chance " + view.value + "\n" + lines.join("\n");
+  }
   const h = snapshot?.request?.horizon;
   if (h?.kind === "actual-roll") view.notes.push("Move counter " + h.moveCount + " / " + h.episodeCap + ". Includes any final response the game allows at the limit.");
   // Evidence must be supplied by the solver, not inferred from odds or node strength.
@@ -319,6 +355,7 @@ export function ngChoiceValueHTML(view, detail = false) {
   return '<section class="ngcv-detail" aria-label="Expected roll outcomes"><div class="ngcv-line"><span>Win chance <small>· ' + esc(view.state) + '</small></span><strong data-choice-win>' + esc(view.value) + '</strong></div>'
     + '<p>' + esc(view.detail) + '</p>'
     + '<p><b>' + esc(view.immediateLabel) + ' chance now: ' + esc(view.immediate) + '</b></p>'
+    + (view.split ? '<div class="ngcv-split" data-choice-split><b>How the win chance is made</b>' + view.split.map(line => '<p>' + esc(line) + '</p>').join("") + '</div>' : '')
     + (view.outcomes.length ? '<dl class="ngcv-outcomes">' + view.outcomes.map(o => '<div><dt>' + esc(o.label) + '</dt><dd>' + esc(o.value) + '</dd></div>').join("") + '</dl>' : '')
     + '<p><b>' + esc(view.knowledge.summary) + '</b></p>'
     + view.knowledge.lines.map(line => '<p>' + esc(line) + '</p>').join("")
