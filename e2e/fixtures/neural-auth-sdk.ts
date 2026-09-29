@@ -7,7 +7,11 @@ export async function installNeuralAuthSDK(page: Page) {
     const w = window as any
     const copy = (value: any) => JSON.parse(JSON.stringify(value))
     const sdkListeners = new Set<(event: string, session: any) => void>()
-    const cloud = new Map<string, any>()
+    // The synthetic backend outlives a reload, as a real one does (sessionStorage, like the failure
+    // switches); reads/writes/order below are still per document.
+    const cloudKey = '__authOwnerCloud'
+    const cloud = new Map<string, any>(Object.entries(JSON.parse(sessionStorage.getItem(cloudKey) || '{}')))
+    const persistCloud = () => sessionStorage.setItem(cloudKey, JSON.stringify(Object.fromEntries(cloud)))
     const reads: any[] = [], writes: any[] = [], events: any[] = [], sessionReads: { failed: boolean }[] = []
     const tokenKey = 'sb-auth-owner-fixture-auth-token'
     const sessionFailureKey = '__authOwnerFailSessions'
@@ -73,7 +77,7 @@ export async function installNeuralAuthSDK(page: Page) {
           },
           single: async () => {
             if (!pendingWrite) throw new Error('Unexpected fixture write completion')
-            writes.push(copy(pendingWrite)); order.push('write'); cloud.set(pendingWrite.user_id, copy(pendingWrite.neural))
+            writes.push(copy(pendingWrite)); order.push('write'); cloud.set(pendingWrite.user_id, copy(pendingWrite.neural)); persistCloud()
             return { data: null, error: null }
           },
         }
@@ -89,7 +93,7 @@ export async function installNeuralAuthSDK(page: Page) {
     if (sessionStorage.getItem(sdkBlockedKey) !== '1') w.supabase = sdk
     w.__authOwnerFixture = {
       emit,
-      seedCloud: (id: string, blob: any) => { cloud.set(id, copy(blob)) },
+      seedCloud: (id: string, blob: any) => { cloud.set(id, copy(blob)); persistCloud() },
       failReads: (value: boolean) => { failReads = value },
       failSessions: (value: boolean) => {
         failSessions = value
