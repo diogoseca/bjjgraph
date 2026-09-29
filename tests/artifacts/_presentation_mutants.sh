@@ -9,6 +9,9 @@
 #   npm run build            # or any built site at $SITE_DIR
 #   bash tests/artifacts/_presentation_mutants.sh
 #
+# 13 mutants on a keyless build; 14 on a KEYED one (M14 needs the injection a keyless build
+# never emits, and says so when it skips).
+#
 # WHY THIS ONE MUTATES THE BUILT ARTIFACT, NOT THE SOURCE.
 #
 # Its siblings (_hand_mutants.sh, _overflow_mutants.sh, _lossaversion_mutants.sh) patch
@@ -299,6 +302,34 @@ open(p, "w", encoding="utf8").write(s.replace(old, "void 0"))
 PY
 run M5 "$AUTH_SPEC" 'redirect-back arrival creates|three redirect-back shapes|already-signed-in' ''
 
+echo "── M14: a KEYED build's config injection lands after the first nav (keyed builds only) ──"
+# The late-injection defect: componentResources.ts pushing the Supabase config AFTER the SPA
+# router, whose synchronous notifyNav() then fires authUI's listener before any config exists.
+# No real visitor of that deploy would get a client. The spec's fallback config keeps every
+# client-count assertion green under this mutant, so only its ordering check can kill it.
+# Only a KEYED build emits an injection to move. On a keyless build this mutant is SKIPPED,
+# loudly, and the expected count stays 13. Measured shape (keyed build of 6469abc49, values
+# elided): `(function(){window.__SUPABASE_URL="…",window.__SUPABASE_ANON_KEY="…"})(),` inside
+# the comma sequence of IIFEs, before the router's `new CustomEvent("nav"`.
+EXPECTED=13
+if grep -q 'window\.__SUPABASE_URL=' "$SITE_DIR/postscript.js"; then
+  EXPECTED=14
+  python3 - "$SITE_DIR/postscript.js" <<'PY'
+import re, sys
+p = sys.argv[1]; s = open(p, encoding="utf8").read()
+m = re.search(r'\(function\(\)\{window\.__SUPABASE_URL="[^"]*",window\.__SUPABASE_ANON_KEY="[^"]*"\}\)\(\),', s)
+assert m and len(re.findall(r'window\.__SUPABASE_URL=', s)) == 1, "M14 anchor missing"
+nav = s.find('new CustomEvent("nav"')
+assert nav > m.end(), "M14 anchor: the injection is not before the router's nav dispatch"
+s = s[:m.start()] + s[m.end():]
+open(p, "w", encoding="utf8").write(s.rstrip("\n") + "\n" + m.group(0)[:-1] + ";\n")
+PY
+  run M14 "$AUTH_SPEC" 'redirect-back arrival creates|three redirect-back shapes|already-signed-in' ''
+else
+  restore
+  echo "  [skip ] M14 — KEYLESS build: postscript.js carries no window.__SUPABASE_URL assignment, so there is no injection to move. This run is NOT evidence about M14."
+fi
+
 # ═══════════════════════════════════════════════════════════════════════════════════════════
 # CATEGORY NAV: emitted into every page's #sidebar-overlay by renderPage.tsx.
 # Shipped shape: <nav class="category-nav desktop-only" aria-label="Categories"><ul><li>
@@ -411,7 +442,7 @@ MUTM13
 run_node M13 "TagContent numPages limits"
 
 echo "── ${APPLIED} mutants applied · ${KILLS} killed with the right discrimination · ${FAILURES} bad ──"
-if [ -z "${ONLY:-}" ]; then [ "$APPLIED" -eq 13 ] || { echo "EXPECTED 13 MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }; else echo "   (filtered run: ONLY=${ONLY} — this is NOT a ten-of-ten claim)"; fi
+if [ -z "${ONLY:-}" ]; then [ "$APPLIED" -eq "$EXPECTED" ] || { echo "EXPECTED $EXPECTED MUTANTS, APPLIED $APPLIED — the run was truncated"; exit 1; }; else echo "   (filtered run: ONLY=${ONLY} — this is NOT a ten-of-ten claim)"; fi
 [ "${RESTORE_FAILED:-0}" -eq 0 ] || { echo "RESTORE VERIFICATION FAILED - results above are UNRELIABLE"; exit 1; }
 [ "$FAILURES" -eq 0 ] || exit 1
 echo "── tree restored ──"
