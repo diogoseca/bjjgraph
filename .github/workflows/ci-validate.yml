@@ -134,25 +134,20 @@ jobs:
       - name: Build-shape app-row controls (fixtures, no build)
         run: python3 -B scripts/emit_mutation_test.py --app-assets
 
-      # THE MARKDOWN PIPELINE IS BYTE-FROZEN FOR THE DURATION OF THE QUARTZ REPLACEMENT (D-27).
-      # Stream A is a RE-HOST, not a rewrite: the correct number of behavioural changes to
-      # plugins/transformers/** and plugins/filters/** during P1-P4 is ZERO, so a drive-by cleanup
-      # and a migration defect are indistinguishable once the differ is 4,600 files wide. 0.2s.
-      #
-      # `--scope pipeline`, NOT the default `--scope all`, and the reason is load-bearing rather
-      # than a preference. The gate's OTHER scope (D-01's keep-list) reads two inputs that a
-      # GitHub checkout does not have: the programme's INTERFACE.md, which lives outside the
-      # repository, and `git show <base>:<path>` against the programme base commit, which is
-      # unreachable at this job's fetch-depth. Both of those fail LOUDLY — measured: keep-list
-      # reports `byte-compared … : 0` and then `FAIL: byte-compared ZERO files — this run proved
-      # nothing`, exit 2 — so running the default here would be permanently red for a reason that
-      # has nothing to do with the code under test. The pipeline scope is entirely
-      # repo-self-contained (baseline file + globbed sources) and was verified green with both of
-      # those inputs removed. The keep-list half therefore stays a LOCAL gate, `npm run
-      # validate:frozen-surfaces`, and this comment is where that gap is declared rather than
-      # discovered.
-      - name: Markdown pipeline byte-freeze (D-27, pipeline scope)
-        run: npm run validate:frozen-surfaces:pipeline
+      # THE FROZEN SURFACES, BOTH SCOPES (v1.205.2).
+      #   pipeline (D-27): plugins/transformers/** + plugins/filters/**, a RE-HOST with zero
+      #     intended behavioural changes, so a drive-by cleanup and a migration defect are
+      #     indistinguishable once the differ is 4,600 files wide.
+      #   keeplist (D-01): the 70 source/quartz files the engine replacement kept verbatim.
+      #     components/ is covered exhaustively, so a new file there must be listed and accepted.
+      # Until v1.205.2 this step ran `--scope pipeline` only. The keep-list read two inputs a
+      # GitHub checkout lacks: the programme's INTERFACE.md, outside the repository, and
+      # `git show f649801a9:<path>`, beyond this job's fetch depth. So PR #228's first head went
+      # green here while breaking every seat's local test:units. Both inputs are tracked now:
+      # tests/artifacts/keeplist.txt, and a recorded sha per file in transformer_freeze.json. So the
+      # whole gate runs here, and it prints a positive count for each scope. About 0.3 s.
+      - name: Frozen surfaces byte-freeze (D-27 pipeline + D-01 keep-list)
+        run: npm run validate:frozen-surfaces
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
