@@ -110,8 +110,15 @@ export async function waitNeuralAuthOwner(page: Page, id: string | null) {
   await expect(page.locator('#neural-progress-recovery')).toHaveCount(0)
 }
 
+// A real in-page sign-in goes through the facade (account menu -> signIn / Google), which loads
+// the SDK first. Since QREV7 M1 a guest boot creates no client, so an SDK event fired with no
+// client has no listener: initialise through the REAL facade, exactly as signIn does, then emit.
 export async function signInNeuralAuthSDK(page: Page, id: string, profile?: { email?: string, name?: string }) {
-  await page.evaluate(({ id, profile }) => (window as any).__authOwnerFixture.emit('SIGNED_IN', id, profile), { id, profile })
+  await page.evaluate(async ({ id, profile }) => {
+    const w = window as any
+    await w.__bjjAuth.ensureClientInitialized()
+    w.__authOwnerFixture.emit('SIGNED_IN', id, profile)
+  }, { id, profile })
   await waitNeuralAuthOwner(page, id)
   await expect.poll(() => page.evaluate(() => (window as any).__neural._pulledUserId)).toBe(id)
 }

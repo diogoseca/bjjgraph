@@ -12998,7 +12998,8 @@ class Component extends DCLogic {
     queueMicrotask(() => {
       if (this._choiceValueQueued !== queued || this.__ngDestroyed || this._execution) return;
       this._choiceValueQueued = null;
-      const cards = (this._optionCards || []).filter(c => !c.opt.threat);
+      const dealt = this._choiceDealt, at = c => (dealt && dealt.has(c.opt) ? dealt.get(c.opt) : Infinity);
+      const cards = (this._optionCards || []).filter(c => !c.opt.threat).sort((x, y) => at(x) - at(y));
       if (!cards.length) return;
       this._ensureGameValues();
       const runtime = this.choiceValueRuntime();
@@ -13185,6 +13186,11 @@ class Component extends DCLogic {
     };
     add("Your options", own, false);
     add("Opponent threats", threats, true);
+    // THE DEALT ORDER IS THE VALUE REQUEST'S ORDER (v1.207.7). A sort (the automatic one, or the
+    // button) reorders the tray, and the request is keyed by action order, so capturing in TRAY order
+    // re-solved an unchanged hand after every sort — seconds of worker time on a phone, for the same
+    // numbers. `refreshChoiceValues` captures in this order; the tray order is presentation only.
+    this._choiceDealt = new Map(own.map((o, i) => [o, i]));
     // SORT ONCE, WHILE UNTOUCHED (owner, 2026-09-29). When every own card has its Win chance, the
     // hand re-orders itself by it exactly once — unless the player has already reached into it
     // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
@@ -13913,7 +13919,7 @@ class Component extends DCLogic {
   }
   // the film strip is an INDEPENDENT layer sibling (v1.171.0)
   _clearLandFilm() {
-    if (this._landFilmEl) { this.clearClipLoops(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
+    if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   /** Full card-slot teardown. A normal teardown closes the independent reading card and returns
    * only its owned pause; `renderLandCard` passes `true` to this method on the one same-landing
@@ -15436,6 +15442,16 @@ class Component extends DCLogic {
     film.appendChild(xb);
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
+    // `_dockLandFilm`'s top clamp reads this strip's HEIGHT, so a height change without a dock left
+    // it stale: a rotation resizes `.ng-clip` via a media rule while its inline .34s height
+    // transition runs, the resize dock measured it mid-flight (98 of a settled 70 at 844x390),
+    // clamped it 16px from the top and parked it 4px inside the hand for good (v1.207.7, exposed by
+    // the full game's 18px-taller hand). Re-dock on the strip's own resize — except while a clip
+    // plays (collapseClip re-docks that). A dock moves the strip, never resizes it: no loop.
+    if (typeof ResizeObserver !== "undefined") {
+      film._ngRO = new ResizeObserver(() => { if (this._landFilmEl === film && !this._expandedClip) this._dockLandFilm(); });
+      film._ngRO.observe(film);
+    }
     this.wireClips(film, filmClips);
     this._readTouch(film);   // the strip rides the reading column too (v1.175.0)
     return film;

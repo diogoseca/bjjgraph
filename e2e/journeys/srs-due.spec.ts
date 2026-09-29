@@ -20,6 +20,8 @@ import { journey } from "../dsl";
  *     header all print `dueCount()` (distinct CARDS); `bucketTechniques("due")` is a COVER of
  *     those cards — a deck copy of an already-covered card never adds a row — so the technique
  *     count is <= the card count and lives in the tooltip / section note.
+ *     Since v1.207.0 the due cell opens the EAGER "Due reviews" queue (header "0/<cards>") before
+ *     the lazy planner loads, and the plan surface's Maintenance section carries the cover.
  *
  * Tests seed past-due schedules via the blob (`initialState`) instead of moving a clock —
  * `_epochDay()` is only read at grade/pool time, so a `last` of yesterday is all it takes.
@@ -294,27 +296,55 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
 
   await j.clickByMouse('.ngStat[data-b="due"]', "the maintenance cell");
   await page.waitForTimeout(400);
-  // ONE SURFACE, TWO DOORS (v1.138.0). Both study cells open the same queue — Maintenance, then
-  // Learn next, then the rest of the ranking — and the door only decides the anchor. The header
-  // repeats the cell's number in the cell's unit; the MAINTENANCE SECTION is the cover.
-  expect(
-    await page.evaluate(() => {
-      const a = (window as any).__neural;
-      const s = a._session;
-      return { session: !!s, label: s && s.label, sub: s && s.sub, anchor: s && s.anchor, dueRows: s && s.dueUntil, first: s && s.keys[0] };
-    }),
-    "the header repeats the stat's own arithmetic back",
-  ).toEqual({ session: true, label: "2 cards due today", sub: "1 technique · maintenance first", anchor: "due", dueRows: 1, first: r.other });
-  await expect(page.locator('[data-session-section="Maintenance"]')).toBeVisible();
-  await expect(page.locator('[data-session-section="Maintenance"]')).toContainText("2 cards owed across 1 technique");
-  // ...and the maintenance row is narrowed to what is OWED — both cards, not its whole deck.
-  expect(await page.evaluate(() => {
+  // THE EAGER REVIEW QUEUE (v1.207.0, full game). The due cell no longer waits for a planner:
+  // before `app/gameplan.js` has loaded, `openPlanSession("due")` opens the review debt at once
+  // as "Due reviews" (`openSession("due")` + a frozen `review` snapshot), and the planner's
+  // arrival NEVER replaces a queue that still owes cards (gameplan-learning-loop.spec.ts pins
+  // that). v1.138.0's "N cards due today · N techniques · maintenance first" header and its
+  // "Maintenance" section belong to the PLAN surface now, asserted further down. What this
+  // queue must still do is the v1.172.0 contract: repeat the cell's CARD count, and list a COVER.
+  const { header, ...queue } = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const k = a._session.keys[0];
-    const due = a._entryForKey(k, "due").cards.length;
-    const whole = a._entryForKey(k, null).cards.length;
-    return { due: due, narrowed: whole > due };
-  }), "the maintenance row is its due cards, not its whole deck").toEqual({ due: 2, narrowed: true });
+    const s = a._session;
+    return {
+      session: !!s, label: s && s.label, anchor: s && s.anchor, keys: s && s.keys,
+      review: s && s.review && { count: s.review.count, rows: s.review.rows.map((x: any) => [x.key, x.count]) },
+      header: a.drillHeadRef.current.innerText as string,
+    };
+  });
+  expect(queue, "the queue is the review debt, and its rows are the cover").toEqual({
+    session: true, label: "Due reviews", anchor: "due", keys: [r.other],
+    review: { count: 2, rows: [[r.other, 2]] },
+  });
+  // the RENDERED header repeats the cell's number in the cell's unit: 0 of 2 cards reviewed
+  expect(header, "the header names the queue").toContain("Due reviews");
+  expect(header.split("\n").map((l) => l.trim()), "the header's figure is 0/<cards>, the cell's 2").toContain("0/2");
+  await expect(page.locator("[data-gameplan-current]"), "the live line prints the same card count").toContainText("2 cards due now");
+  // ...and the one row is narrowed to what is OWED — both cards, not its whole deck. Read off
+  // what the row EMITTED: its progress figure, its reason, and one progress tick per card dealt.
+  const rows = page.locator("[data-session-row]");
+  await expect(rows, "one row: the cover, not one row per deck copy").toHaveCount(1);
+  await expect(rows.first()).toHaveAttribute("data-session-row", r.other);
+  await expect(rows.first().locator("[data-session-prog]")).toHaveText("0/2");
+  await expect(page.locator(`[data-gameplan-reason="${r.other}"]`)).toContainText("2 distinct cards");
+  await expect(page.locator(`[data-mini-deck="${r.other}"] .mt`), "the open deck deals exactly the 2 owed cards").toHaveCount(2);
+  expect(await page.evaluate((k) => {
+    const a = (window as any).__neural;
+    return a._cardsOf(a.flashcards.decks[k]).length;
+  }, r.other), "and that is a narrowing: the whole deck is larger").toBeGreaterThan(2);
+
+  // THE PLAN SURFACE (the other door's destination, and the queue's own "Open / retry study
+  // plan" button): the MAINTENANCE SECTION is still the cover, headed by the same card count.
+  await j.clickByMouse("[data-gameplan-load]", "Open / retry study plan");
+  await expect(page.locator('[data-session-section="Maintenance"]')).toBeVisible();
+  await expect(page.locator('[data-session-section="Maintenance"]')).toContainText("2 distinct cards owed");
+  expect(await page.evaluate(() => {
+    const s = (window as any).__neural._session;
+    return { plan: !!s.plan, label: s.label, anchor: s.anchor, dueRows: s.dueUntil, first: s.keys[0], dueCards: s.plan && s.plan.dueCards };
+  }), "the plan's maintenance head is the same cover and the same card count").toEqual({
+    plan: true, label: "Your gameplan", anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
+  });
+  await expect(page.locator("[data-gameplan-summary]").first()).toContainText("2 cards due ·");
 
   // and the Challenges band prints the SAME number while something is owed
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));

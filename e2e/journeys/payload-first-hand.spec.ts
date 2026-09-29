@@ -131,6 +131,19 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
       "max-moves": [0.5],
     }
   })
+  // THE PAGE STAMPS ITS OWN FIRST HAND (v1.207.7). `frozen` below flips when Playwright NOTICES the
+  // card, a poll later than the card attached, and the full game starts its deferred value modules
+  // one frame after the hand (`_ensureGameValues`: rAF, then a task). Those requests landed in that
+  // gap and read as "before the hand". A MutationObserver fires before that frame, on the page's
+  // own clock, which is also the clock of its resource timing.
+  await page.addInitScript(() => {
+    performance.setResourceTimingBufferSize(4000)
+    new MutationObserver((_, obs) => {
+      if (!document.querySelector("[data-tech]")) return
+      ;(window as any).__firstHandAt = performance.now()
+      obs.disconnect()
+    }).observe(document, { childList: true, subtree: true })
+  })
 
   // hermetic, and honest about it: only localhost bytes are counted, so blocking third parties
   // (PostHog/Supabase/Google Fonts are baked into CI builds) cannot flatter the number. Fonts
@@ -176,6 +189,17 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
 
   // let the in-flight bodies (counted above) resolve before we add them up
   await page.waitForTimeout(2_000)
+  // A URL leaves the "before the hand" set ONLY when the page's own resource timing proves it
+  // STARTED after the page's own first-hand stamp. No entry (still in flight, or not reported) =
+  // it stays counted: the correction can only remove a request it has evidence for.
+  const pageSide = await page.evaluate(() => ({
+    handAt: (window as any).__firstHandAt as number,
+    entries: performance.getEntriesByType("resource").map((e) => [e.name, e.startTime] as [string, number]),
+  }))
+  expect(pageSide.handAt, "the page stamped its own first hand").toBeGreaterThan(0)
+  const startedAfterHand = [...requested].filter((u) => pageSide.entries.some(([n, t]) => n === u && t > pageSide.handAt))
+  for (const u of startedAfterHand) requested.delete(u)
+  console.log("[first-hand] started after the page's own first hand, not counted:", JSON.stringify(startedAfterHand.map((u) => new URL(u).pathname)))
   const settled = (await Promise.all(bodies)).filter((r): r is Rec => !!r)
 
   // one row per URL, and only URLs the page asked for before the hand existed

@@ -68,14 +68,28 @@ test("@curated an alias response cannot replace a newer modal or reopen closed s
   await page.route(ALIASES, async (route) => { await held; await route.fulfill({ json: aliases }); });
   await page.evaluate(() => (window as any).__neural.openSearch());
   await expect(page.locator("[data-alias-status]")).toHaveAttribute("data-alias-status", "loading");
-  const settings = await page.evaluate(() => {
+  // Settings is a DEFERRED bundle since v1.207.0: `openSettings()` paints "Loading settings…"
+  // synchronously and swaps in the real UI when `app/settings-ui.js` lands. That swap is the
+  // modal's OWN legitimate repaint, so the snapshot is taken only after it settles (awaiting the
+  // promise `openSettings` returns). The one async left in flight is then the held alias
+  // response, which is what this test is about. (A late SETTINGS module vs a newer modal is
+  // settings-lazy.spec.ts's claim, not this one's.)
+  const modal = () => page.evaluate(() => {
     const a = (window as any).__neural;
-    a.closeModal(); a.openSettings();
-    return a.modalCardRef.current.textContent;
+    const card = a.modalCardRef.current;
+    return { text: card.textContent, tabs: card.querySelectorAll("[data-settings-tab]").length, generation: a._modalGeneration };
   });
+  const shown = await page.evaluate(async () => {
+    const a = (window as any).__neural;
+    a.closeModal();
+    return await a.openSettings();
+  });
+  expect(shown, "the real Settings UI rendered").toBe(true);
+  const settings = await modal();
+  expect(settings.tabs, "the snapshot is the loaded Settings, not its loading state").toBeGreaterThan(0);
   release();
   await expect.poll(() => page.evaluate(() => !!(window as any).__neural._aliasesReady)).toBe(true);
-  expect(await page.evaluate(() => (window as any).__neural.modalCardRef.current.textContent)).toBe(settings);
+  expect(await modal(), "the alias response left the newer modal exactly as it was").toEqual(settings);
   await expect(page.locator("[data-search-input]")).toHaveCount(0);
 });
 

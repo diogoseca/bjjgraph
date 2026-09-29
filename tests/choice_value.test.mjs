@@ -343,3 +343,15 @@ test("threat records are validated like cards, viewed as your win chance, and so
   assert.deepEqual(ngChoiceValueThreatOrder(["T-escape", "T-sweep"], snap), ["T-sweep", "T-escape"]);
   assert.deepEqual(ngChoiceValueThreatOrder(["T-escape", "T-sweep", "T-alien"], snap), ["T-escape", "T-sweep", "T-alien"], "an unvalued threat keeps the dealt order");
 });
+
+test("Inspect renders the app's pre-values view (runtime loaded, values still preparing) without throwing", () => {
+  // The app builds this short view itself while the model prepares (app.src.jsx choiceValueView)
+  // and still hands it to this renderer: no outcomes, knowledge or notes. Found by
+  // announcer-coherence / option-edge on the first full-suite run of the full game.
+  const view = { label: "Win chance", value: "—", status: "pending", state: "Preparing…", recommended: false,
+    detail: "Preparing win chances. You can choose a move now.", immediate: "38%", immediateLabel: "Move" };
+  const html = ngChoiceValueHTML(view, true);
+  assert.match(html, /data-choice-win>—</);
+  assert.match(html, /Move chance now: 38%/);
+  assert.doesNotMatch(html, /ngcv-outcomes|undefined/);
+});

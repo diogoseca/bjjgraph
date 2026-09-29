@@ -55,9 +55,17 @@ test("dashboard and opened plan share counts, target overrun and keyboard-access
   await expect(page.locator('[data-gameplan-summary]')).toContainText(fixture.newCount + " suggested decks");
   await expect(page.locator('[data-gameplan-summary]')).toContainText("exceed it by");
   await expect(page.locator('[data-gameplan-current]')).toContainText("2 cards due now");
-  const summary = page.locator('[data-gameplan-summary] summary');
+  // The summary box holds TWO folds: "Why these decks?" (this test's keyboard-accessible
+  // reasons) and the study panel's "Study comparison coverage" (_gameStudyPanel). A bare
+  // `summary` / `details` selector matches both, so scope to the reasons fold by its own text
+  // and assert it is there exactly once (CLAUDE.md §6.7).
+  const reasons = page.locator('[data-gameplan-summary] details', { has: page.locator("summary", { hasText: /^Why these decks\?$/ }) });
+  await expect(reasons, "exactly one reasons fold").toHaveCount(1);
+  await expect(reasons).not.toHaveAttribute("open", "");
+  const summary = reasons.locator("summary");
   await summary.focus(); await page.keyboard.press("Enter");
-  await expect(page.locator('[data-gameplan-summary] details')).toHaveAttribute("open", "");
+  await expect(reasons).toHaveAttribute("open", "");
+  await expect(reasons, "opening it shows the reasons").toContainText("Reviews follow your memory schedule");
   const geometry = await page.locator('[data-gameplan-summary]').evaluate((el) => {
     const r = el.getBoundingClientRect(); return { left: r.left, right: r.right, width: innerWidth };
   });

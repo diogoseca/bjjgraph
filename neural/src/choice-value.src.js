@@ -399,10 +399,11 @@ export function ngChoiceValueHTML(view, detail = false) {
     + '<p>' + esc(view.detail) + '</p>'
     + '<p><b>' + esc(view.immediateLabel) + ' chance now: ' + esc(view.immediate) + '</b></p>'
     + (view.split ? '<div class="ngcv-split" data-choice-split><b>How the win chance is made</b>' + view.split.map(line => '<p>' + esc(line) + '</p>').join("") + '</div>' : '')
-    + (view.outcomes.length ? '<dl class="ngcv-outcomes">' + view.outcomes.map(o => '<div><dt>' + esc(o.label) + '</dt><dd>' + esc(o.value) + '</dd></div>').join("") + '</dl>' : '')
-    + '<p><b>' + esc(view.knowledge.summary) + '</b></p>'
-    + view.knowledge.lines.map(line => '<p>' + esc(line) + '</p>').join("")
-    + view.notes.map(line => '<p class="ngcv-note">' + esc(line) + '</p>').join("") + '</section>';
+    // The app's own pre-values view (runtime loaded, values still preparing) carries no outcomes,
+    // knowledge or notes; opening Inspect then must render it, never throw (found v1.207.7).
+    + ((view.outcomes || []).length ? '<dl class="ngcv-outcomes">' + view.outcomes.map(o => '<div><dt>' + esc(o.label) + '</dt><dd>' + esc(o.value) + '</dd></div>').join("") + '</dl>' : '')
+    + (view.knowledge ? '<p><b>' + esc(view.knowledge.summary) + '</b></p>' + (view.knowledge.lines || []).map(line => '<p>' + esc(line) + '</p>').join("") : '')
+    + (view.notes || []).map(line => '<p class="ngcv-note">' + esc(line) + '</p>').join("") + '</section>';
 }
 
 // The standalone verification bundle installs this namespace eagerly. Production may

@@ -194,7 +194,10 @@ test('@curated completed MC updates immediate odds, requests one new value snaps
   expect(await page.locator('[data-choice-group="you"] .ngodds').allTextContents()).not.toEqual(chance)
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(1))
   await expect.poll(() => wins(page)).toContain('65%')
-  expect(await names(page)).toEqual(before)
+  // SORT ONCE (owner, 2026-09-29): the first values to arrive on an untouched hand re-order it by
+  // Win chance, once; answering the question is not touching the hand. The fixture values the
+  // dealt second card 65% and the first 35%, the rest 20% (a tie, so they keep the dealt order).
+  expect(await names(page)).toEqual([before[1], before[0], ...before.slice(2)])
 })
 
 for (const mutate of ['role', 'ruleset', 'clock', 'profile']) {
@@ -221,7 +224,12 @@ for (const width of [390, 1440]) {
     const labels = await names(page)
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
     await expect.poll(() => wins(page)).toContain('65%')
+    // Both escapes carry the SAME data-tech (one technique, two defenses), so identity is the
+    // card's title. The hand sorted itself once: the fixture's 65% escape (dealt second) leads.
+    const tray = await page.locator('[data-choice-group="you"] .ngchoice-title').allTextContents()
+    expect(tray.map(t => t.trim()), 'sorted once: the 65% escape first').toEqual(['Stack escape', 'Posture up'])
     await page.keyboard.press('Shift+Digit1')
+    await expect(page.locator('[data-choice-preview]')).toContainText('Stack escape')
     await expect(page.locator('[data-choice-value-detail]')).toContainText('Win chance')
     await expect(page.locator('[data-choice-value-detail]')).toContainText('Loss')
     await expect(page.locator('[data-choice-value-detail]')).toContainText('No result')
@@ -236,9 +244,14 @@ for (const width of [390, 1440]) {
     expect(await names(page)).toEqual(labels)
     await j.rig('escape', [0])
     await page.keyboard.press('Shift+Digit1')
+    // At phone height the sheet is its own scroll surface (the collectible banner sits above it):
+    // a player scrolls it. clickByMouse refuses to scroll, so scroll the SHEET, then prove nothing
+    // covers the button where it then sits.
+    await page.locator('[data-choice-go]').scrollIntoViewIfNeeded()
     await j.clickByMouse('[data-choice-go]', 'execute the inspected escape')
     await j.advance(4000)
-    expect(await page.evaluate(() => (window as any).__neural.nodes[(window as any).__neural.currentPos].posId)).toBe('open-guard')
+    // Stack escape's authored destination; Posture up would have landed in open-guard.
+    expect(await page.evaluate(() => (window as any).__neural.nodes[(window as any).__neural.currentPos].posId)).toBe('half-guard')
   })
 }
 
@@ -277,6 +290,8 @@ for (const defense of [false, true]) {
       a.refreshOptionOdds(); a.refreshEscapeOdds(); a.refreshChoiceValues()
     })
     await expect.poll(() => own.locator('.ngodds').allTextContents()).toEqual(before)
+    // Mutant, recorded 2026-09-29: capturing in TRAY order (before v1.207.7) turns this red — the
+    // sort-once reordered the tray, so an unchanged refresh re-solved the hand (2 requests).
     expect(await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(1)
     await page.keyboard.press('Shift+Digit1')
     await expect(page.locator('[data-choice-value-detail]')).toContainText('chance now: ' + before[0])
