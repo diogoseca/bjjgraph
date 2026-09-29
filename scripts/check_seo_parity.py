@@ -1,6 +1,24 @@
 #!/usr/bin/env python3
 """SEO-parity gate for the Neural Graph variant work.
 
+Content provenance is checked at use and completion. Default comparisons exit 2 for
+missing/stale proof; --artifact-only explicitly compares historical SEO contracts,
+without claiming current-source parity. The content ratchet is otherwise unchanged.
+--update requires the actual completed build's --content-receipt and matching output
+hashes, so a copied old source/public cannot silently re-arm the baseline. Controls:
+golden_provenance_selftest.py. Content identity does not prove code/date/environment identity.
+
+X09_ASYMMETRIC_TEXT_PENDING is retired from the baseline by dev's reviewed re-arm
+(D-251, floor 3034). Its mechanism is dormant, retained by instruction, and tested by
+tests/quartz_v_seo_exception.test.mjs; a fixture green does not mean it is corpus-active.
+If explicitly declared again, it still requires exactly the historical text/hash/floor.
+
+Tag pages keep an empty article and put their crawlable listing beside it. For the
+two named tag samples, extraction includes the enclosing TagContent popover-hint;
+header/sidebar/footer chrome stays excluded. tests/quartz_v_seo_tag.test.mjs pins
+exact text and links and kills listing/link removal. This is sample coverage, not
+a census of all named tag routes or browser behavior (F owns the tag count floor).
+
 The Neural variant must NEVER regress the crawlable/indexable surface: the static HTML a
 crawler (or a no-JS visitor) receives has to stay as rich as the pre-Neural baseline. The
 variant switch + app mount happen entirely client-side, so the emitted `<head>` + JSON-LD
@@ -13,7 +31,7 @@ source/public/ and compares it to a committed baseline (tests/artifacts/seo_base
   - a hash of the main crawlable article text + internal-link targets
 
 Usage:
-  python3 scripts/check_seo_parity.py --update   # (re)capture the baseline from a build
+  python3 scripts/check_seo_parity.py --update --content-receipt BUILD.content.json
   python3 scripts/check_seo_parity.py            # gate: exit 1 on any SEO-surface drift
 
 Run after `npm run build`. Stdlib only.
@@ -25,6 +43,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "source/public"
@@ -57,7 +76,8 @@ SAMPLE = [
     # makes its PRs noisy for no extra coverage (the recon's option (b)).
     "404.html",                              # its own emitter (404.tsx); baseDir differs in Head.tsx
     "Positions/index.html",                  # FolderPage — a whole emitter, previously unsampled
-    "tags/beginner.html",                    # TagPage — a whole emitter, previously unsampled
+    "tags/index.html",                       # Tag index and its sibling listings
+    "tags/beginner.html",                    # Named TagPage restored by X-12
     "Principles.html",                       # Principles hub
     "Principles/Action-and-Reaction.html",   # Principles leaf — a reference page, not a graph node
     "Learning.html",                         # Learning hub
@@ -103,8 +123,9 @@ def _site_is_whole() -> tuple[bool, str]:
     return True, f"  · whole-site guard: {count:,} HTML files (tier-0 floor {floor:,})"
 
 
-# Scope note, since two findings have now hidden in it: `_extract()` narrows to the <article>
-# when there is one, so ANYTHING outside it is invisible to this gate — including
+# Scope note: ordinary pages narrow to <article>; tag samples use the containing
+# TagContent popover-hint, because their listing is an article sibling. Content outside
+# those regions is invisible to this gate — including
 # `#sidebar-overlay` (CategoryNav's six category links) and every other `body >` sibling of
 # `#quartz-root`. The homepage's baseline links come from authored prose in content/index.md,
 # not from CategoryNav. Layout is likewise out of scope; e2e/journeys/static-article-layout.spec.ts
@@ -154,7 +175,52 @@ def _devolatile(node):
     return node
 
 
-def extract_seo(doc: str) -> dict:
+def _tag_content(body: str) -> str:
+    """Select the one popover-hint containing article, preserving its sibling listing.
+
+    Track div nesting so nested listings cannot truncate the region. Header popovers
+    have no article and cannot supply a false positive. No region means empty content,
+    which fails an armed floor; ambiguous/unclosed regions are an instrument error.
+    """
+    class TagRegion(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=False)
+            self.stack, self.regions = [], []
+            self.offsets = [0]
+            for line in body.splitlines(keepends=True):
+                self.offsets.append(self.offsets[-1] + len(line))
+
+        def absolute_position(self):
+            line, column = self.getpos()
+            return self.offsets[line - 1] + column
+
+        def handle_starttag(self, tag, attrs):
+            if tag == 'div':
+                classes = (dict(attrs).get('class') or '').split()
+                self.stack.append({'start': self.absolute_position(), 'popover': 'popover-hint' in classes,
+                                   'article': False})
+            elif tag == 'article':
+                for parent in reversed(self.stack):
+                    if parent['popover']:
+                        parent['article'] = True
+                        break
+
+        def handle_endtag(self, tag):
+            if tag == 'div' and self.stack:
+                region = self.stack.pop()
+                if region['popover'] and region['article']:
+                    self.regions.append(body[region['start']:self.absolute_position()])
+
+    parser = TagRegion()
+    parser.feed(body)
+    parser.close()
+    if (len(parser.regions) > 1 or
+            any(r['popover'] and r['article'] for r in parser.stack)):
+        raise ValueError('tag content region is ambiguous or unclosed')
+    return parser.regions[0] if parser.regions else ''
+
+
+def extract_seo(doc: str, *, route: str = '') -> dict:
     head = doc.split("</head>", 1)[0]
     out = {"meta": {}, "ldjson": [], "title": None, "canonical": None}
 
@@ -190,7 +256,7 @@ def extract_seo(doc: str) -> dict:
     # crawlable content: strip scripts/styles, take the <article> (or body) text + link targets
     body = doc.split("</head>", 1)[-1]
     art = re.search(r"<article\b[^>]*>(.*?)</article>", body, re.S)
-    region = art.group(1) if art else body
+    region = _tag_content(body) if route.startswith('tags/') else (art.group(1) if art else body)
     links = sorted(set(re.findall(r'<a\b[^>]*href="([^"]+)"', region)))
     text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", region, flags=re.S)
     text = re.sub(r"<[^>]+>", " ", text)
@@ -209,10 +275,37 @@ def snapshot() -> dict:
         if not f.exists():
             missing.append(route)
             continue
-        snap[route] = extract_seo(f.read_text(encoding="utf-8", errors="replace"))
+        snap[route] = extract_seo(f.read_text(encoding="utf-8", errors="replace"), route=route)
     if missing:
         print(f"WARNING: {len(missing)} sample route(s) not built: {missing}", file=sys.stderr)
     return snap
+
+
+PROVISIONAL_NAME = "X09_ASYMMETRIC_TEXT_PENDING"
+PROVISIONAL_ROUTE = "Learning/Asymmetric-Warfare.html"
+PROVISIONAL_TREE = "1b82f2e54300964745f0247494bb80683dc0c5b5"
+
+
+def retain_provisional(base, cur, receipt, requested=False):
+    """An update cannot erase an unresolved exception or fit it to a new observation."""
+    existing = base.get('_meta', {}).get('provisional_exceptions', {})
+    if not requested and not existing:
+        return {}
+    if existing and set(existing) != {PROVISIONAL_NAME}:
+        raise ValueError('unknown provisional SEO exception; classification required')
+    old, new = base.get(PROVISIONAL_ROUTE, {}), cur.get(PROVISIONAL_ROUTE, {})
+    if (old.get('content_floor') != 9775 or new.get('content_len') != 3570
+            or receipt.get('content_tree') != PROVISIONAL_TREE
+            or (existing and existing[PROVISIONAL_NAME].get('content_hash') != new.get('content_hash'))):
+        raise ValueError(f'{PROVISIONAL_NAME}: observation changed; classify/resolve explicitly before re-seeding')
+    new['content_floor'] = 9775
+    return {PROVISIONAL_NAME: {
+        'route': PROVISIONAL_ROUTE, 'field': 'content_len', 'content_len': 3570,
+        'content_floor': 9775, 'content_hash': new['content_hash'],
+        'content_tree': PROVISIONAL_TREE,
+        'reason': 'CTO RECOVERY-RULING: X-09 text loss versus details extraction remains under classification; do not ratchet down.',
+        'evidence': '8eae3a473 checkpoint: 11501 -> 3570 characters; prior floor 9775. Named deltas: quartz-v-capture-8eae3a473/seo-authorized-deltas.json.',
+    }}
 
 
 def diff(base: dict, cur: dict) -> tuple[list, list]:
@@ -225,6 +318,11 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
     """
     failures: list[str] = []
     notes: list[str] = []
+    provisional = base.get('_meta', {}).get('provisional_exceptions', {})
+    hits = 0
+    if (not isinstance(provisional, dict) or set(provisional) - {PROVISIONAL_NAME}
+            or (PROVISIONAL_NAME in provisional and not isinstance(provisional[PROVISIONAL_NAME], dict))):
+        return ['INVALID provisional SEO exception inventory'], []
     for route, b in base.items():
         if route.startswith("_"):
             continue
@@ -250,10 +348,21 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
         floor = b.get("content_floor") or int(b.get("content_len", 0) * CONTENT_FLOOR_RATIO)
         cur_len = c.get("content_len", 0)
         if cur_len < floor:
-            failures.append(
-                f"{route}: crawlable text COLLAPSED — {cur_len} chars is below the "
-                f"{floor} floor (baseline {b.get('content_len')})"
-            )
+            e = provisional.get(PROVISIONAL_NAME, {})
+            if (route == PROVISIONAL_ROUTE and e.get('route') == route
+                    and e.get('field') == 'content_len'
+                    and e.get('content_tree') == PROVISIONAL_TREE
+                    and e.get('content_len') == cur_len == 3570
+                    and e.get('content_floor') == floor == 9775
+                    and e.get('content_hash') == b.get('content_hash') == c.get('content_hash')
+                    and e.get('reason') and e.get('evidence')):
+                hits += 1
+                notes.append(f'PROVISIONAL {PROVISIONAL_NAME}: matched=1; {route} length=3570, retained floor=9775; classification unresolved')
+            else:
+                failures.append(
+                    f"{route}: crawlable text COLLAPSED — {cur_len} chars is below the "
+                    f"{floor} floor (baseline {b.get('content_len')})"
+                )
         elif b.get("content_hash") != c.get("content_hash"):
             notes.append(
                 f"{route}: content edited (len {b.get('content_len')} -> {cur_len}, above floor)"
@@ -268,13 +377,28 @@ def diff(base: dict, cur: dict) -> tuple[list, list]:
         gained = len(set(c.get("links", [])) - set(b.get("links", [])))
         if gained:
             notes.append(f"{route}: {gained} internal link(s) added")
+    if provisional and hits != 1:
+        failures.append(f'{PROVISIONAL_NAME}: expected exactly 1 provisional match, got {hits}; classify/resolve explicitly')
     return failures, notes
 
 
 def main():
+    from golden_provenance import ContentGuard, add_arguments, read_capture_receipt, ProvenanceError
+    global PUBLIC, BASELINE
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--update", action="store_true", help="(re)capture the baseline")
+    ap.add_argument('--tree', type=Path, default=PUBLIC)
+    ap.add_argument('--baseline', type=Path, default=BASELINE)
+    ap.add_argument('--provisional-text-exception', choices=[PROVISIONAL_NAME],
+                    help='capture-only CTO-authorized exception; retains the existing 9775 floor')
+    add_arguments(ap, capture=True)
     args = ap.parse_args()
+    if args.provisional_text_exception and not args.update:
+        ap.error('--provisional-text-exception requires --update')
+    if args.update and args.artifact_only:
+        raise ProvenanceError('--artifact-only cannot authorize a baseline update')
+    PUBLIC, BASELINE = args.tree, args.baseline
+    receipt = read_capture_receipt(args, PUBLIC, require_output_hash=True) if args.update else None
 
     if not PUBLIC.exists():
         print(f"ERROR: {PUBLIC} not found — run `npm run build` first", file=sys.stderr)
@@ -291,17 +415,34 @@ def main():
 
     cur = snapshot()
     if args.update:
+        if set(cur) != set(SAMPLE):
+            sys.exit('ERROR baseline update refused: every named sample route must exist')
+        previous = json.loads(BASELINE.read_text()) if BASELINE.exists() else {}
+        tag_rows = [route for route in SAMPLE if route.startswith('tags/')]
+        if any(cur[route]['content_len'] <= 0 or not cur[route]['links'] for route in tag_rows):
+            raise ValueError('tag baseline update requires positive crawlable text and links for every tag sample')
         for route, snap in cur.items():
             snap["content_floor"] = int(snap["content_len"] * CONTENT_FLOOR_RATIO)
+        try:
+            provisional = retain_provisional(previous, cur, receipt, bool(args.provisional_text_exception))
+        except ValueError as e:
+            print(f'ERROR baseline update refused: {e}', file=sys.stderr)
+            sys.exit(1)
         cur["_meta"] = {
             "format": BASELINE_FORMAT,
             "floor_ratio": CONTENT_FLOOR_RATIO,
             "volatile_meta": list(VOLATILE_META),
             "volatile_jsonld_keys": list(VOLATILE_JSONLD_KEYS),
+            "content_provenance": receipt,
+            "tag_content_region": "popover-hint containing article, including sibling listings",
+            **({'provisional_exceptions': provisional} if provisional else {}),
         }
+        ContentGuard(cur, args, 'updated SEO baseline').finish()
         BASELINE.parent.mkdir(parents=True, exist_ok=True)
         BASELINE.write_text(json.dumps(cur, indent=1, ensure_ascii=False, sort_keys=True))
         print(f"baseline written: {len(cur) - 1} routes -> {BASELINE}")
+        for route in tag_rows:
+            print(f"  tag coverage: {route} content_len={cur[route]['content_len']} links={len(cur[route]['links'])}")
         print(
             "NOTE: --update re-arms the ratchet. Commit it separately from any deletion, "
             "and say in the commit body WHY the surface legitimately changed."
@@ -321,7 +462,9 @@ def main():
         )
         sys.exit(1)
 
+    guard = ContentGuard(base, args, 'SEO baseline')
     failures, notes = diff(base, cur)
+    guard.finish()
     routes = len([r for r in base if not r.startswith("_")])
     for n in notes:
         print("  ·", n)
@@ -330,12 +473,26 @@ def main():
         for p in failures:
             print("  -", p)
         sys.exit(1)
+    provisional_hits = sum(note.startswith('PROVISIONAL ') for note in notes)
+    text_verdict = (
+        f"retained text floors checked; provisional exceptions={provisional_hits} "
+        "(classification unresolved)"
+        if provisional_hits else "crawlable text above floor"
+    )
     print(
-        f"✓ SEO parity OK — {routes} routes; head + JSON-LD identical, crawlable text above "
-        f"floor, zero internal links lost"
-        + (f" ({len(notes)} benign change(s) noted)" if notes else "")
+        f"✓ SEO parity OK — {routes} routes; head + JSON-LD identical, {text_verdict}, "
+        "zero internal links lost"
+        + (f" ({len(notes)} change/exception note(s))" if notes else "")
     )
 
 
 if __name__ == "__main__":
-    main()
+    from golden_provenance import ProvenanceError
+    try:
+        main()
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)
+    except ValueError as e:
+        print(f'EXIT 2 SEO_EXTRACTION_INVALID: {e}')
+        sys.exit(2)

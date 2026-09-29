@@ -36,6 +36,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Python gate dependency
+        run: python3 -m pip install PyYAML
+
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
+
       - name: Install dependencies
         run: npm ci
 
@@ -45,6 +51,44 @@ jobs:
       - name: Build production site and Forward libraries
         id: site-build
         run: npm run build
+
+      - name: Postprocessor input contract
+        # Exit 2 is pending only with the exact completed-verdict marker.
+        # Python also exits 2 before execution (missing file/bad arguments).
+        run: |
+          contract_log=$(mktemp)
+          trap 'rm -f -- "$contract_log"' EXIT
+
+          if python3 scripts/check_postprocessor_contract.py >"$contract_log" 2>&1; then
+            contract_status=0
+          else
+            contract_status=$?
+          fi
+          cat "$contract_log"
+
+          contract_marker_count=0
+          contract_marker=
+          while IFS= read -r contract_line || [[ -n "$contract_line" ]]; do
+            case "$contract_line" in
+              POSTPROCESSOR_CONTRACT_RESULT=*)
+                contract_marker_count=$((contract_marker_count + 1))
+                contract_marker=$contract_line
+                ;;
+            esac
+          done < "$contract_log"
+
+          if [[ "$contract_marker_count" -ne 1 ]]; then
+            echo "::error::Expected exactly one gate result marker; exit $contract_status."
+            exit 1
+          fi
+
+          case "$contract_status:$contract_marker" in
+            0:POSTPROCESSOR_CONTRACT_RESULT=conforms) ;;
+            *)
+              echo "::error::Gate failure or inconsistent result; exit $contract_status."
+              exit 1
+              ;;
+          esac
 
       # THE BUILD'S SHAPE, AND THE ONLY PR JOB THAT CAN CHECK IT.
       # `npm run build` above already ran validate:payload, whose TIER-0 FLOORS reject a

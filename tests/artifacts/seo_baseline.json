@@ -1727,8 +1727,50 @@
   "title": "Armbar from Back Transition Attacker | BJJ Technique Guide | BJJ Graph"
  },
  "_meta": {
+  "content_provenance": {
+   "capture_git_head": "e700f10f3d32367b245528019e24ae56d500420a",
+   "capture_id": "b80134332deb4aaaae3c4fb30d2b26bc",
+   "content_clean_at_end": true,
+   "content_clean_at_start": true,
+   "content_files": 6410,
+   "content_md": 4600,
+   "content_tree": "a95f531ba24b1304a4eaf57962c42dcc611bff69",
+   "dirty_paths_end": [],
+   "dirty_paths_start": [],
+   "environment_assertions": {
+    "TZ": {
+     "expected": "UTC",
+     "node_timezone": "UTC",
+     "observed": "UTC",
+     "probes": [
+      {
+       "iso": "2026-01-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jan 01, 2026"
+      },
+      {
+       "iso": "2026-07-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jul 01, 2026"
+      }
+     ],
+     "scope": "inherited build environment; child Node observed before execution"
+    }
+   },
+   "output_identity": {
+    "files": 15836,
+    "sha256": "9aae7e318e98ca327453ecef712b6affb2ae375318eecdd1737d0f4987381d62"
+   },
+   "output_roots": [
+    "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
+    "/home/user/bjj-orchestrator/golden/post11-programme-e700f10f3"
+   ],
+   "schema": "quartz-content-provenance-v1",
+   "state": "complete"
+  },
   "floor_ratio": 0.85,
   "format": 2,
+  "tag_content_region": "popover-hint containing article, including sibling listings",
   "volatile_jsonld_keys": [
    "datePublished",
    "dateModified",
@@ -1797,13 +1839,17 @@
  },
  "tags/beginner.html": {
   "canonical": "https://bjjgraph.org/tags/beginner",
-  "content_floor": 0,
-  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "content_len": 0,
+  "content_floor": 199,
+  "content_hash": "e22cd109b724ef36e9898b336097eaf5e6c63f8f69c0f0c4d12612ea17b1f611",
+  "content_len": 235,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
-  "links": [],
+  "links": [
+   "../../Learning/BJJ-For-Beginners-Roadmap",
+   "../../Learning/BJJ-Guard-Types-Explained",
+   "../../Learning/BJJ-Position-Hierarchy-Explained"
+  ],
   "meta": {
    "description": "No description provided",
    "og:description": "No description provided",
@@ -1817,5 +1863,127 @@
    "og:width": "1200"
   },
   "title": "Tag: beginner"
+ },
+ "tags/index.html": {
+  "canonical": "https://bjjgraph.org/tags/",
+  "content_floor": 8840,
+  "content_hash": "3c8ed754a2b853ef599624311582509d7931d9d50c6712db3951fc3651189de4",
+  "content_len": 10400,
+  "ldjson": [
+   "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
+  ],
+  "links": [
+   "../Learning/Asymmetric-Warfare",
+   "../Learning/BJJ-For-Beginners-Roadmap",
+   "../Learning/BJJ-Guard-Types-Explained",
+   "../Learning/BJJ-Position-Hierarchy-Explained",
+   "../Learning/Committed-Techniques",
+   "../Learning/Conscious-Mastery",
+   "../Learning/Defend-With-Purpose",
+   "../Learning/Double-Down-on-Strengths",
+   "../Learning/Economy-of-Motion",
+   "../Learning/Funneling",
+   "../Learning/Investing-in-Loss",
+   "../Learning/Layers-of-Guard",
+   "../Learning/Mask-Your-Intentions",
+   "../Learning/Path-of-Least-Resistance",
+   "../Learning/Pattern-Interrupts",
+   "../Learning/Phases-of-Guard",
+   "../Learning/Phases-of-Passing",
+   "../Learning/Position-Over-Submission",
+   "../Learning/Predictable-Responses",
+   "../Learning/Prevention-Over-Cure",
+   "../Learning/Probabilistic-Thinking",
+   "../Learning/Static-vs-Dynamic-Control",
+   "../Learning/Technique-Chaining",
+   "../Learning/Timing-Windows",
+   "../Learning/Training-Intensity",
+   "../Learning/Training-Partner-Diversity",
+   "../tags/action-reaction",
+   "../tags/adaptability",
+   "../tags/adaptation",
+   "../tags/angles",
+   "../tags/asymmetry",
+   "../tags/attack-sequences",
+   "../tags/awareness",
+   "../tags/beginner",
+   "../tags/bjj",
+   "../tags/bottom-game",
+   "../tags/combinations",
+   "../tags/committed-techniques",
+   "../tags/conscious-mastery",
+   "../tags/consolidation",
+   "../tags/control",
+   "../tags/deception",
+   "../tags/defense",
+   "../tags/defense-in-depth",
+   "../tags/disentangle",
+   "../tags/double-down-on-strengths",
+   "../tags/economy-of-motion",
+   "../tags/efficiency",
+   "../tags/engagement",
+   "../tags/escapes",
+   "../tags/feints",
+   "../tags/frames",
+   "../tags/fundamentals",
+   "../tags/funneling",
+   "../tags/game-planning",
+   "../tags/grips",
+   "../tags/guard",
+   "../tags/guard-layers",
+   "../tags/guard-maintenance",
+   "../tags/guard-passing",
+   "../tags/guard-retention",
+   "../tags/investing-in-loss",
+   "../tags/learning",
+   "../tags/matchup",
+   "../tags/misdirection",
+   "../tags/movement",
+   "../tags/offense",
+   "../tags/offensive-strategy",
+   "../tags/offensive-timing",
+   "../tags/option-reduction",
+   "../tags/passing",
+   "../tags/pattern-breaking",
+   "../tags/phases",
+   "../tags/pinning",
+   "../tags/position-over-submission",
+   "../tags/positional-improvement",
+   "../tags/positions",
+   "../tags/practice",
+   "../tags/pressure",
+   "../tags/prevention-over-cure",
+   "../tags/probabilistic-thinking",
+   "../tags/reactions",
+   "../tags/redirection",
+   "../tags/route-selection",
+   "../tags/setups",
+   "../tags/strategy",
+   "../tags/submissions",
+   "../tags/tactical",
+   "../tags/technique-chaining",
+   "../tags/tempo",
+   "../tags/timing",
+   "../tags/top-game",
+   "../tags/training",
+   "../tags/training-intensity",
+   "../tags/training-partner-diversity",
+   "../tags/transitions",
+   "../tags/unpredictability",
+   "../tags/weakness-exploitation"
+  ],
+  "meta": {
+   "description": "No description provided",
+   "og:description": "No description provided",
+   "og:height": "675",
+   "og:image": "https://bjjgraph.org/static/og-image.png",
+   "og:locale": "en_US",
+   "og:site_name": "BJJ Graph",
+   "og:title": "Tag Index",
+   "og:type": "article",
+   "og:url": "https://bjjgraph.org/tags/",
+   "og:width": "1200"
+  },
+  "title": "Tag Index"
  }
 }
