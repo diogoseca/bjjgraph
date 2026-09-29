@@ -143,13 +143,16 @@ function* ngMdpExposureBind(input,M,math,A,limits) {
   return {kernel,source:supplied.rows,nativePolicy:source.rows,supportHash,policyId:nativePolicyId,stamp,starts,startDistributionHash,distributionRoot};
 }
 function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity:M,request,lawHashes}) {
-  // Adapter pin moved in v1.207.0 (05e954…, from cff41e…): threat probes were added (`threats`,
-  // never enumerated for a study), `endpoint`/`finishMove` were hoisted unchanged, and the forced
-  // opponent action's rows now come from `opponentPositionalRows` — the same rows in the same order,
-  // and opponent rows read no player knowledge, so no study-read label moves. Evidence: the
-  // live-routing corpus replay (mdp_corpus), the metadata differential (mdp_data_corpus) and
-  // tests/mdp_threats.test.mjs (root and cards bit-identical with and without probes).
-  const expected={adapter:'05e954e0efb216e43819844f754d24e724c18a95482a0fff894c99e4f25d2bf4',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
+  // Adapter pin moved in v1.207.0 (from cff41e…), for four label-neutral changes:
+  //   - threat probes were added (`threats`), never enumerated for a study;
+  //   - `endpoint` / `finishMove` were hoisted unchanged;
+  //   - the forced opponent action's rows come from `opponentPositionalRows`: the same rows in the
+  //     same order, and opponent rows read no player knowledge;
+  //   - classify mirrors the v1.204.5 belt verdict (a submission always loses; only a no-tap reset is
+  //     judged on points), a terminal classification that carries no study read.
+  // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
+  // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
+  const expected={adapter:'f79abb07b14ba2ec8c661a614f19a6f0430f7a3e69253ed0556f1f4b1e76f368',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);
