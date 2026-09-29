@@ -105,38 +105,34 @@ test("the JS kernel scores the same deck set as the Python reference", () => {
   assert.deepEqual([...K.deckKeys].sort(), [...REF.decks].sort());
 });
 
-// 0.03, not 0.01, and the reason is NOT rounding — the header's rounding story explains the
-// per-deck magnitudes (test below, still pinned) but no longer explains this scalar.
+// 0.03, not 0.01, and the reason IS rounding: the wire's attempt shares are whole percents.
 //
-// MEASURED, v1.156.0. The two sides build from different move sets: Python reads graph.json's
-// full per-state transition list, the JS rebuilds from `cal.ev` in the wire, which carries only
-// the (state, move) pairs the EDGE solver scored — 1,248 pairs over 272 states. Kimura
-// Trap/Bottom is authored with ten moves and all ten survive the nogi reachability walk, but its
-// wire `ev` block carries four. That disagreement was WEIGHTLESS while the state was
-// unreachable-by-success, so this assertion was green at 1% without ever having looked at it.
+// MEASURED on v1.205.2 (re-measured when the graph-semantics research landed as v1.206.0):
+//     js  V0 0.0773294  (this file's own ingest + ngFlowAdjoint)
+//     py  V0 0.0755266  (REF.v0, solve_flow.py on graph.json)          rel 2.387%
+//   - The JS value IS the authored kernel with each state's attempt shares rounded to whole
+//     percents exactly as the emitter rounds them: equal to 1.4e-17. That the wire's shares are
+//     exactly those rounded shares is checked over 1,217 cards (max |diff| 0).
+//   - The two sides hold the SAME move sets: 0 cards differ over 264 states, and Kimura
+//     Trap/Bottom carries 6 cards on the wire and 6 in the kernel (12 authored listings; the
+//     origin filter applies to both). So nothing structural is left; the whole gap is the
+//     rounding.
+//   - Shipping permille shares instead (+835 B gzip) cuts the gap to 0.14%.
+//   Recompute: python3 -B scripts/semantics/scalars.py --consequences, then read
+//   tests/artifacts/semantics/scalars_consequences.json
+//   part2_zero_wire_byte_route.runs["shipped/none"].flow_v0.
 //
-// v1.156.0 restored the success arrival into that state (`Half Guard to Kimura Trap`), and the
-// disagreement immediately acquired weight: js 0.078299 vs py 0.076493, rel 2.362%. Attribution,
-// by rebuilding graph.json three times and re-solving:
-//     neither new move dealt : V0 0.079070  (bit-equal to the previous committed reference)
-//     + Achilles Lock only   : V0 0.079162  (+0.12%)
-//     + the Kimura Trap entry: V0 0.077247  (-2.42%)  <- all of it
-// (v1.157.0 then moved the Kimura finish to the Bottom seat under the owner's ruling, taking py
-//  to 0.076847; the js/py gap is unchanged in cause and size.)
-// Python prices that state as a value sink because you cannot finish from it (no submission is
-// dealt from Kimura Trap/Bottom) and three of its ten moves loop straight back into it. The JS's
-// four-move view of the same state does not price it the same way.
+// HISTORY. At v1.156.0 the gap WAS structural: the wire's `ev` block for Kimura Trap/Bottom
+// carried four of its authored moves where Python dealt ten, and restoring the success arrival
+// into that state (`Half Guard to Kimura Trap`) moved py to 0.076493 against js 0.078299 (2.362%).
+// That difference is gone, and the "rounding-only gap is ~0.05%" figure written then does not
+// hold: rounding alone is the 2.4%. If the shares ever ship at finer precision, this bound should
+// come down with them.
 //
-// OPEN, and the owner's: whether `solve_flow.py` should build from the same reduced move set the
-// wire ships, or the emitter should carry the full list into `cal.ev`. Until that is decided this
-// bound tolerates a KNOWN structural gap, not noise — so it is stated with its measurement rather
-// than rounded up for comfort. The rounding-only gap is ~0.05%; if this reads much below 2.3%
-// again, the underlying disagreement has been fixed and the bound should come back down.
-//
-// MUTATION, and its blind spot: because the live gap is already 2.391% in one direction, this
-// bound is ONE-SIDED. Scaling REF.v0 by 0.99 kills it (rel 3.425%) and by 0.90 kills it, but
-// +0.5% / +2% survive — an upward drift of the reference moves it TOWARD the JS value and
-// shrinks rel. Read this green as coverage of downward drift only.
+// MUTATION, and its blind spot: because the live gap is already 2.387% in one direction, this
+// bound is ONE-SIDED. Scaling REF.v0 by 0.99 kills it (rel 3.42%) and by 0.90 kills it, but
+// +0.5% / +2% survive: an upward drift of the reference moves it TOWARD the JS value and shrinks
+// rel. Read this green as coverage of downward drift only.
 test("V0 agrees with the reference within the wire's own rounding", () => {
   const rel = Math.abs(RUN.V0 - REF.v0) / Math.abs(REF.v0);
   assert.ok(rel < 0.03, `V0 js ${RUN.V0} vs py ${REF.v0} (rel ${(rel * 100).toFixed(3)}%)`);

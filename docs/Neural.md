@@ -434,11 +434,11 @@ live spot — the crack, its seat, and where the roll opens — from the same wi
 toast reads "Your weak spot: &lt;crack&gt;". Pinned by `e2e/journeys/start-from.spec.ts`
 (10 journeys, 8 `@curated`).
 
-**The honesty gap, still open.** The shipped `opponentDefend` iterates hub adjacency with **no role
-filter and no origin filter** and never reads `attemptProbability`. Only ~12% of what it may play
-is a move the model's opponent would consider; the modelled set is a strict subset in all 272
-states. EDGE therefore describes a better-behaved opponent than the one you actually face. Any copy
-explaining EDGE should say so. Reproduce with `tests/artifacts/_opponent_gap_measure.py`.
+**The honesty gap, still open.** Since v1.176.0 `opponentDefend` draws from `optionsFor` (role-
+and origin-filtered) but never reads `attemptProbability`: it picks by its own rule (finish odds
+from dominance, else the top 3 by landing value) and resists your odds (aiMod). From standing
+(no-gi, shipped rule) P(I finish) is 0.35 vs the corpus's 0.72. EDGE describes the corpus's
+opponent, not yours; copy explaining EDGE should say so. See `scripts/semantics/app_game.py`.
 
 Three choices that are choices, not facts: the zero point is the authored occurrence distribution;
 the chain performer is label-driven; the wire is the horizon mixture while published tables quote a

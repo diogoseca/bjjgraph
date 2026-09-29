@@ -1080,7 +1080,10 @@ prices.
       The measured cause is attempt-share rounding (and permille shares, +835 B, would cut it to
       0.14%).
 
-    Proposed replacement text is in the cell's report; nothing was edited.
+    CLAUDE.md §5, `docs/Neural.md` §4 and the test's comment were corrected in v1.206.1.
+    `_opponent_gap_measure.py` was left as it is; it no longer runs on this graph (a null attempt
+    cell). CLAUDE.md §6.6 still says `opponentDefend` walks `adj` with no role filter, which is
+    stale by the same evidence and is not yet corrected.
 14. **The initiative rule** (§1.3, §3.2). The shipped asymmetric initiative is worth about 17 points
     of P(I finish) to the player from standing (0.72 against 0.55). Under it, a roll that outlasts
     the clock would have gone ~70% to the side with initiative.
