@@ -213,11 +213,18 @@
           "reason": "full-game v1.207.0 (account-scoped progress, owner-ruled 2026-09-29): adds resolveNeuralUser (a strict owner read that retries across an auth-state change and throws rather than guessing signed-out), returns an unsubscribe from onAuthChange, and makes cloud pull/push fail loudly instead of returning null on a session error; the Neural progress host needs all three to keep one account's practice out of another's. pullNeural/pushNeural become a v2 API (window.__bjjAuth.neuralSyncVersion = 2): both take the expected account id, and pullNeural returns {userId, blob} and THROWS when unconfigured, on a session error, an account change or a failed read, where v1 returned null; its only caller is the Neural app, updated in the same change. Every other export is unchanged.",
           "scope": "keeplist",
           "to": "47af0bc0f403ed3407d486ca940585aa0b5b8d2ba0ba9082a6abd7653995c28e"
+        },
+        {
+          "date": "2026-09-29",
+          "from": "6e211ac780c968e3300be81656ae9a9f47223d16eb0a9549497ea5884a5f481d",
+          "reason": "QREV7 M1 (quartz-cto review, 2026-09-29): resolveNeuralUser returns null for a guest (no stored session and no SDK load in flight) before getClient, so a signed-out visitor never loads the SDK or waits on it; the strict path is unchanged for a stored session and for an OAuth return, which authUI has already started loading. Supersedes the previous acceptance of this file's v2 pull/push API, which QREV7 approved in direction.",
+          "scope": "keeplist",
+          "to": "dc1118f2180706dd90395c5503e68943006f1ec795f2e9a31556db3f6b61434a"
         }
       ],
-      "bytes": 15130,
+      "bytes": 15582,
       "scope": "keeplist",
-      "sha256": "47af0bc0f403ed3407d486ca940585aa0b5b8d2ba0ba9082a6abd7653995c28e"
+      "sha256": "dc1118f2180706dd90395c5503e68943006f1ec795f2e9a31556db3f6b61434a"
     },
     "source/quartz/components/scripts/toc.inline.ts": {
       "bytes": 4776,

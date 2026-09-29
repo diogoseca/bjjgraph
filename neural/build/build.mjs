@@ -393,6 +393,10 @@ const __progressHost = ngProgressCreateHost({
       if (!window.__SUPABASE_URL && !window.__SUPABASE_ANON_KEY) return null
       throw new Error("Account service is not ready")
     }
+    // Guests are decided here first (ngAuthIsGuest, app.src.jsx): a cached v1 façade has no
+    // resolveNeuralUser, and holding a signed-out visitor on it is QREV7 M2. Only a stored session
+    // or an OAuth return on a v1 façade still holds.
+    if (ngAuthIsGuest(auth)) return null
     if (typeof auth.resolveNeuralUser !== "function") throw new Error("Account service must be refreshed")
     return auth.resolveNeuralUser()
   },

@@ -91,6 +91,45 @@ async function addList(page: Page, name: string) {
 const names = (page: Page) => page.evaluate(() => Object.values((window as any).__neural.lists || {}).map((row: any) => row.name).sort())
 const fixture = (page: Page) => page.evaluate(() => (window as any).__authOwnerFixture.snapshot())
 
+// QREV7 M1 (quartz-cto, 2026-09-29): a GUEST NEVER LOADS THE SDK. The fixture supplies a keyed
+// config, so `isConfigured()` is true exactly as on a deploy; a signed-out arrival must still create
+// no client, because loading the SDK to learn "guest" put a third-party fetch on every visitor's
+// boot with mount waiting on it. Mutant, recorded: dropping the `!isAuthenticated() && !_sdkLoading`
+// gate in supabase.ts `resolveNeuralUser` turns this red on `clients` (0 -> 1).
+test('@curated a signed-out guest on a keyed config never creates an SDK client', async ({ page }) => {
+  await bootOwner(page)
+  expect((await fixture(page)).clients, 'a guest boot must not load or create the Supabase client').toBe(0)
+})
+
+// QREV7 M2: VERSION SKEW. postscript.js and neural.js are both cached 4 h + 1 d SWR at stable names,
+// so a fresh neural.js can meet a cached v1 façade with no `resolveNeuralUser`. A guest is decided
+// on the neural side (`ngAuthIsGuest`: `isAuthenticated()`, present on v1, plus authUI's redirect
+// rule) and boots the app; only a stored session on a v1 façade may hold. Mutant, recorded: dropping
+// `if (ngAuthIsGuest(auth)) return null` from build.mjs's resolveUser turns this red on the hold screen.
+test('@curated a guest meeting a cached v1 facade boots the app, never the hold screen', async ({ page }) => {
+  const seen = { errors: [] as string[], forbidden: [] as string[] }
+  observed.set(page, seen)
+  page.on('pageerror', error => seen.errors.push(error.message))
+  page.on('request', request => { if (/supabase|\/app\/game-model\.worker\.js(?:\?|$)/.test(request.url())) seen.forbidden.push(request.url()) })
+  const j = journey(page)
+  await j.boot('/', {
+    keepTutorial: true,
+    beforeNavigate: async page => {
+      await installNeuralAuthSDK(page)
+      await page.route(/\/app\/game-values\.js(?:\?|$)/, route => route.abort('failed'))
+      // The v1 façade shape: the real emitted façade, minus its two v2 members.
+      await page.addInitScript(() => {
+        let v1: any
+        Object.defineProperty(window, '__bjjAuth', { configurable: true, get: () => v1,
+          set: (value: any) => { const { resolveNeuralUser, neuralSyncVersion, ...rest } = value; v1 = rest } })
+      })
+    },
+  })
+  await waitOwner(page, null)
+  expect(await page.evaluate(() => typeof (window as any).__bjjAuth?.resolveNeuralUser), 'v1 façade in force').toBe('undefined')
+  expect((await fixture(page)).clients).toBe(0)
+})
+
 test('@curated guest boots through the real facade and persists only a guest-owned cache', async ({ page }) => {
   await bootOwner(page)
   await expect(page.locator('.ngAcctChip')).toContainText('Guest')

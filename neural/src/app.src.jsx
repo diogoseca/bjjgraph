@@ -1,3 +1,16 @@
+// A GUEST, DECIDED WITHOUT THE SDK (QREV7 M1/M2, v1.207.0). No stored Supabase session and no OAuth
+// redirect-back to process means a signed-out visitor, and that needs neither the SDK nor the v2
+// façade: `isAuthenticated()` exists on every façade version, so a fresh neural.js meeting a cached
+// v1 postscript.js (both are max-age 4h + 1d stale-while-revalidate at stable names) still boots a
+// guest. Only a stored session or a redirect needs the strict v2 `resolveNeuralUser`. The redirect
+// rule is authUI.inline.ts `hasAuthRedirectParams`'s, which cannot be imported into this bundle.
+const NG_AUTH_REDIRECT = /[?&#](code|access_token|error_description)=/;
+function ngAuthIsGuest(auth) {
+  if (!auth || typeof auth.isAuthenticated !== "function") return false;
+  let redirect = false;
+  try { redirect = NG_AUTH_REDIRECT.test(window.location.search + window.location.hash); } catch (e) { /* no location */ }
+  try { return !redirect && !auth.isAuthenticated(); } catch (e) { return false; }
+}
 // Resting colour of the landing card's More/Less toggle. ONE source, because the two sites that
 // write it (the button's own cssText, and expandLandCard restoring it on collapse) drifted apart
 // once already — see v1.104.2. NB `build.mjs` throws on duplicated top-level names.
@@ -1947,12 +1960,10 @@ class Component extends DCLogic {
     if (d > -0.55) return "Losing";
     return "In trouble";
   }
+  // The legend marker is the current decision's WIN CHANCE (`_paintWinThermometer`, v1.207.0), not
+  // this node's dominance. A landing only means the shown value belongs to the previous decision.
   setStatus(node) {
-    const val = this.myVal(node);
-    const wasShown = this.adv.shown;
-    this.adv.target = Math.max(2, Math.min(98, (val + 1) * 50));
-    this.adv.shown = true;
-    if (!wasShown) this.adv.cur = this.adv.target; // snap on first appearance, glide thereafter
+    if (this.adv.shown) this.adv.stale = true;
   }
   toneColor(tone) {    return { neutral: "#cfe0ff", info: "#9bb6ff", good: "#7ee0a8", bad: "#ff8b8b", muted: "#8ba0c0" }[tone] || "#cfe0ff";
   }
@@ -6543,6 +6554,7 @@ class Component extends DCLogic {
     }
     const revision = this._authEventRevision || 0, epoch = this._authEpoch || 0;
     try {
+      if (ngAuthIsGuest(A)) { this._clearAuthUser(); return; }   // no SDK load, any façade version
       if (typeof A.resolveNeuralUser !== "function") throw new Error("Verified identity is unavailable");
       const user = await A.resolveNeuralUser();
       if (this._authDisposed || !this._progressCurrent() || this._auth() !== A || revision !== (this._authEventRevision || 0) || epoch !== (this._authEpoch || 0)) return;
@@ -12396,9 +12408,8 @@ class Component extends DCLogic {
 
   flashFx(delta) {
     if (Math.abs(delta) < 0.02) return;
-    // primary attention cue: glow + move the lose-win marker
-    this.adv.glow = 1; this.adv.sign = delta > 0 ? 1 : -1; this.adv.glowMag = Math.min(1, Math.abs(delta) * 1.4);
-    // secondary: a gentle, capped global tint (never overwhelming)
+    // The legend marker's glow belongs to win-chance changes (`_paintWinThermometer`): one meaning on
+    // that bar. This outcome cue keeps only the gentle, capped global tint (never overwhelming).
     const el = this.fxRef.current; if (!el) return;
     const inten = Math.min(0.26, 0.08 + Math.abs(delta) * 0.5);
     const col = delta > 0 ? "64,132,255" : "232,64,64";
@@ -12420,7 +12431,7 @@ class Component extends DCLogic {
     const dt = this._mdt || 0.016;
     this.adv.cur += (this.adv.target - this.adv.cur) * (1 - Math.exp(-dt / 0.26));
     m.style.left = (100 - this.adv.cur).toFixed(2) + "%"; // v1.134.0 (owner): Win rides LEFT now — the scale is mirrored at the writer, the model is untouched
-    m.style.opacity = this.adv.shown ? "1" : "0";
+    m.style.opacity = this.adv.shown ? (this.adv.stale ? "0.35" : "1") : "0";
     if (this.adv.glow > 0) this.adv.glow = Math.max(0, this.adv.glow - dt / 0.95);
     const g = this.adv.glow * (this.adv.glowMag || 1);
     const col = this.adv.sign >= 0 ? "64,132,255" : "232,64,64";
@@ -12657,6 +12668,7 @@ class Component extends DCLogic {
     // PANE LAW: a round ending does NOT hide the pane (deckReady stays a data-readiness flag).
     this.applyDeckVisibility();
     if (this.adv) this.adv.shown = false;
+    this._winNow = null;
     this.pulse = null; this.optionIdxs = [];
     const map = {
       // round(hold x 1.5), owner (v1.168.0): "it's too fast in between game end and new roll".
@@ -13047,7 +13059,7 @@ class Component extends DCLogic {
       if (value) {
         value.innerHTML = this.choiceValueHTML(view);
         value.dataset.status = view.status;
-        value.title = view.state + ". " + view.detail;
+        value.title = view.tooltip || (view.state + ". " + view.detail);
       }
       const chance = oc.card.querySelector(".ngodds"), label = oc.card.querySelector("[data-immediate-label]");
       if (chance) chance.textContent = view.immediate;
@@ -13072,10 +13084,42 @@ class Component extends DCLogic {
       const html = this.choiceValueHTML(this.choiceValueView(this._detailCtx.opt), true);
       if (detail.innerHTML !== html) detail.innerHTML = html;
     }
+    const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
+      && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
+    this._paintWinThermometer(complete ? snapshot : null);
+    if (complete && !this._handTouched && this._autoSortedHand !== this._choiceHandId) {
+      this._autoSortedHand = this._choiceHandId;
+      this.sortChoiceValues(true);
+    }
   }
-  sortChoiceValues() {
-    // Explicit player action is a safe reorder boundary. Worker callbacks never enter
-    // here. Keep the exact opt objects/pick closures and update digits together with DOM.
+  // V(s) ON THE LEGEND THERMOMETER (owner, 2026-09-29). The Win<->Lose bar shows the current
+  // decision's own win chance — the root of the same solve the cards come from — and nothing
+  // else: never the position's dominance, never a stale value dressed as current. INVARIANT: under
+  // max-win the best card's Win chance IS this number (root = backup of the selected action); it
+  // holds only when every own card has a value, which is why `complete` gates the call. Between
+  // decisions the marker keeps the last value, dimmed, until the next one arrives.
+  _paintWinThermometer(snapshot) {
+    if (!this.adv) return;
+    const root = snapshot && snapshot.root, runtime = this.choiceValueRuntime();
+    const label = this.legendRef.current && this.legendRef.current.querySelector("[data-legend-win]");
+    if (!root || !runtime || !root.outcomes || typeof root.outcomes.win !== "number") {
+      if (this.adv.shown) this.adv.stale = true;
+      if (label) { label.textContent = "Win"; label.removeAttribute("data-win-chance"); }
+      return;
+    }
+    const win = root.outcomes.win, text = runtime.ngChoiceValuePercent(win, root.winBounds);
+    const prev = this._winNow;
+    this._winNow = win;
+    this.adv.target = Math.max(2, Math.min(98, win * 100));
+    if (!this.adv.shown) this.adv.cur = this.adv.target;
+    this.adv.shown = true; this.adv.stale = false;
+    if (prev != null && Math.abs(win - prev) >= 0.02) { this.adv.glow = 1; this.adv.sign = win > prev ? 1 : -1; this.adv.glowMag = Math.min(1, Math.abs(win - prev) * 2.8); }
+    if (label) { label.textContent = "Win " + text; label.setAttribute("data-win-chance", text); }
+  }
+  sortChoiceValues(auto = false) {
+    // An explicit player action is a safe reorder boundary, and so is the ONE automatic sort when
+    // values arrive on an untouched hand (paintChoiceValues). Keep the exact opt objects/pick
+    // closures and update digits together with DOM. The automatic sort never moves focus.
     const runtime = this.choiceValueRuntime();
     if (!runtime || this._detailCtx || this._execution || !this._optList || !this._choiceValueBindings) return;
     const cards = (this._optionCards || []).filter(c => !c.opt.threat);
@@ -13095,7 +13139,7 @@ class Component extends DCLogic {
     this._optionCards = sorted.concat(this._optionCards.filter(c => c.opt.threat));
     if (this._decision) this._decision.opts = this._optList;
     this.paintChoiceValues();
-    sorted[0]?.card.querySelector("[data-choice-execute]")?.focus({ preventScroll: true });
+    if (!auto) sorted[0]?.card.querySelector("[data-choice-execute]")?.focus({ preventScroll: true });
   }
   renderChoiceGroups(el, own, threats, pick, seconds, escape) {
     this.cancelChoiceValues("new-hand");
@@ -13135,6 +13179,14 @@ class Component extends DCLogic {
     };
     add("Your options", own, false);
     add("Opponent threats", threats, true);
+    // SORT ONCE, WHILE UNTOUCHED (owner, 2026-09-29). When every own card has its Win chance, the
+    // hand re-orders itself by it exactly once — unless the player has already reached into it
+    // (pointer, key, wheel, focus, or an activate via a shortcut), because moving a card the player
+    // is aiming at is the one thing a hand must never do (frozen deal order, CLAUDE.md §5). After
+    // that it never re-sorts; the "Sort by win chance" button stays for a hand that was touched.
+    this._handTouched = false;
+    const touched = () => { this._handTouched = true; };
+    for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
     this.refreshChoiceValues();
   }
@@ -17405,6 +17457,7 @@ class Component extends DCLogic {
   }
   activateOption(opt, pick, card, inspect) {
     if (!opt || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
+    this._handTouched = true;
     if (inspect || opt.threat || opt.action === "escape") this.expandOption(opt, pick, card);
     else if (pick) pick(opt);
   }

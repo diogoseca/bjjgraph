@@ -251,3 +251,31 @@ test('independent rational determinant oracle matches cyclic model, selected pol
   }
   assert.equal(checked,80); console.log('MDP independent oracle: 80 state comparisons, 20 complete policy enumerations');
 });
+
+// THE CARD TOOLTIP (v1.207.0, owner 2026-09-29): Win chance = P(lands) x [win | lands] + P(misses) x
+// [win | misses], an exact regrouping of the card's own rows by their adapter event label.
+test('the landed/missed split regroups the backup exactly, and an unlabelled row makes it null', () => {
+  const ev = (row, ...events) => ({ ...row, events });
+  const r = solve([
+    state('root',
+      action('move', ev(to('1/4', 'good'), 'commit', 'success'), ev(W('1/8'), 'commit', 'success', 'terminal'),
+        ev(to('1/2', 'bad'), 'commit', 'same-state-miss'), ev(L('1/8'), 'commit', 'changed-state-miss', 'terminal')),
+      action('escape', ev(to('2/5', 'good'), 'commit', 'escape'), ev(L('3/5'), 'commit', 'failed-escape', 'terminal')),
+      action('entry', ev(to(1, 'good'), 'commit', 'entry')),
+      action('blind', to('1/2', 'good'), L('1/2'))),
+    state('good', action('w', W('3/4'), L('1/4'))),
+    state('bad', action('w', W('1/5'), L('4/5')))]);
+  assert.equal(r.status, undefined);
+  const byId = Object.fromEntries(r.actions.map(a => [a.actionId, a]));
+  // move: lands 3/8 -> (1/4*3/4 + 1/8*1) / (3/8) = 5/6 ; misses 5/8 -> (1/2*1/5) / (5/8) = 4/25
+  assert.equal(byId.move.split.lands, 3 / 8);
+  assert.ok(Math.abs(byId.move.split.winIfLands - 5 / 6) < 1e-15);
+  assert.ok(Math.abs(byId.move.split.winIfMisses - 4 / 25) < 1e-15);
+  for (const a of ['move', 'escape', 'entry']) {
+    const s = byId[a].split, total = (s.lands > 0 ? s.lands * s.winIfLands : 0) + (s.lands < 1 ? (1 - s.lands) * s.winIfMisses : 0);
+    assert.ok(Math.abs(total - byId[a].outcomes.win) < 1e-15, a + ' reconciles with its own total');
+  }
+  assert.deepEqual(byId.escape.split, { lands: 2 / 5, winIfLands: 3 / 4, winIfMisses: 0 });
+  assert.deepEqual(byId.entry.split, { lands: 1, winIfLands: 3 / 4, winIfMisses: null });
+  assert.equal(byId.blind.split, null, 'a row with no landed/missed label is never guessed into a group');
+});
