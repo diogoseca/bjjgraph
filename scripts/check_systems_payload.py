@@ -50,7 +50,9 @@ from _neural_content import fnv1a32          # the chunk address's OWN construct
 from _system_guides import preview_errors
 
 SYSTEMS_DIR = PROJECT_ROOT / "content" / "Systems"
-PAYLOAD = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "systems.json"
+from _systems_demand import SYSTEMS_SOURCE
+# The full library, build-internal since v1.207.0 (never served; see _systems_demand.py).
+PAYLOAD = SYSTEMS_SOURCE
 GRAPH_DATA = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "graph-data.json"
 CONCEPTS = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "concepts.json"
 CHUNKS = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "content"

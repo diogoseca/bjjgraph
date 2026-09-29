@@ -7,7 +7,9 @@ import { readFileSync } from 'node:fs';
 const sha = (bytes: Buffer) => createHash('sha256').update(bytes).digest('hex');
 const staticRoot = 'source/quartz/static/neural/';
 const catalogue = JSON.parse(readFileSync(staticRoot + 'systems-index.json', 'utf8'));
-const legacyBytes = readFileSync(staticRoot + 'systems.json');
+// The full library is build-internal since v1.207.0 (never served); the served route is the index
+// plus per-system records, whose bytes must reproduce it exactly.
+const legacyBytes = readFileSync('source/quartz/.neural-internal/systems.json');
 const legacy = JSON.parse(legacyBytes.toString('utf8'));
 const chosen = catalogue.systems[0];
 const recordPath = 'content/system-records/' + chosen.detailHash + '.json';
@@ -23,9 +25,9 @@ test.beforeAll(async ({ request }) => {
   expect(catalogue.systems.map((s: any) => s.id).sort()).toEqual(legacy.systems.map((s: any) => s.id).sort());
   expect(sha(recordBytes)).toBe(chosen.detailHash);
   expect(record).toEqual(legacy.systems.find((s: any) => s.id === chosen.id));
-  // API requests are separate from page traffic: retained old-client compatibility
-  // is tested without making the new browser download the legacy monolith.
-  for (const [path, bytes] of [['systems.json', legacyBytes], ['systems-index.json', readFileSync(staticRoot + 'systems-index.json')],
+  // RETIRED (owner ruling 2026-09-29): the legacy monolith is no longer served at all.
+  expect((await request.get('/static/neural/systems.json')).ok(), 'retired systems.json is not served').toBe(false);
+  for (const [path, bytes] of [['systems-index.json', readFileSync(staticRoot + 'systems-index.json')],
     ['app/neural.js', readFileSync('neural/dist/neural.js')]] as [string, Buffer][]) {
     const response = await request.get('/static/neural/' + path);
     expect(response.ok(), path).toBe(true);

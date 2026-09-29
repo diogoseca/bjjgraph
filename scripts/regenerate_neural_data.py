@@ -2659,7 +2659,12 @@ def main() -> None:
     # a node the graph does not have. Built BEFORE the chunk write for the same reason concepts
     # are: the System BODIES share that chunk space (see write_ng_chunks(extra=...)).
     sysd, system_dossiers = build_systems(graph, gd["nodes"])
-    (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    # The full library is the build-internal source (scripts/_systems_demand.py SYSTEMS_SOURCE),
+    # never served; a copy left in the static tree by an older emit is removed so no build serves it.
+    from _systems_demand import SYSTEMS_SOURCE
+    SYSTEMS_SOURCE.parent.mkdir(parents=True, exist_ok=True)
+    SYSTEMS_SOURCE.write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    (OUT_DIR / "systems.json").unlink(missing_ok=True)
     sm = sysd["_meta"]
     print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
           f"{sm['unresolved']} unresolved refs, {sm['famRefs']} family refs, "
@@ -2691,7 +2696,7 @@ def main() -> None:
     print(f"content/: {n_ng} node dossiers in {n_files} chunks"
           + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
 
-    # Additive demand route; keep systems.json above unchanged for cached clients.
+    # The served Systems route: the index plus one immutable record per system, from the same data.
     from _systems_demand import write_systems_demand
     write_systems_demand(OUT_DIR, sysd)
 

@@ -24,7 +24,11 @@ from _slug import slugify
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = PROJECT_ROOT / 'content'
 PUBLIC_DIR = PROJECT_ROOT / 'source/public'
-NEURAL_SYSTEMS = PROJECT_ROOT / 'source/quartz/static/neural/systems.json'
+from _systems_demand import SYSTEMS_SOURCE
+# The full library is build-internal since v1.207.0 (never served): stamp it here, then regenerate
+# the served index and records from it. The static neural root is named on its own now.
+NEURAL_SYSTEMS = SYSTEMS_SOURCE
+NEURAL_STATIC = PROJECT_ROOT / 'source/quartz/static/neural'
 TEXT_SUFFIXES = {'.html', '.json', '.xml', '.txt', '.md', '.js', '.css'}
 REF_RE = re.compile(r'[A-Za-z0-9][A-Za-z0-9._~-]{0,63}')
 PLACEHOLDER_RE = re.compile(r'REPLACE_ME', re.I)
@@ -179,26 +183,28 @@ def resolve_json(value, ref, system=''):
 
 def targets():
     found = [NEURAL_SYSTEMS] if NEURAL_SYSTEMS.is_file() else []
-    content_chunks = NEURAL_SYSTEMS.parent / 'content'
+    content_chunks = NEURAL_STATIC / 'content'
     if content_chunks.is_dir():
         found += [p for p in sorted(content_chunks.glob('*.json')) if p.is_file() and not p.is_symlink()]
     if PUBLIC_DIR.is_dir():
         found += [p for p in sorted(PUBLIC_DIR.rglob('*')) if p.is_file() and not p.is_symlink() and p.suffix in TEXT_SUFFIXES]
     # Immutable demand records are addressed by byte hash. Never rewrite them in place.
-    demand_roots = {NEURAL_SYSTEMS.parent, PUBLIC_DIR / 'static/neural'}
+    demand_roots = {NEURAL_STATIC, PUBLIC_DIR / 'static/neural'}
     return [p for p in found if not any(
         p.parent == root / 'content/system-records' or p == root / 'systems-index.json'
         for root in demand_roots)]
 
 
 def refresh_systems_demand():
-    # Apply the existing URL policy to the legacy response first, then publish a NEW
-    # matching index/record generation. Prior cached index hashes remain available.
+    # The build-internal full library was stamped above; publish a NEW matching index/record
+    # generation into every served root that carries the demand route. Prior records remain.
     from _systems_demand import write_systems_demand
-    for root in (NEURAL_SYSTEMS.parent, PUBLIC_DIR / 'static/neural'):
-        legacy = root / 'systems.json'
-        if legacy.is_file() and (root / 'systems-index.json').is_file():
-            write_systems_demand(root, json.loads(legacy.read_text(encoding='utf-8')))
+    if not NEURAL_SYSTEMS.is_file():
+        return
+    library = json.loads(NEURAL_SYSTEMS.read_text(encoding='utf-8'))
+    for root in (NEURAL_STATIC, PUBLIC_DIR / 'static/neural'):
+        if (root / 'systems-index.json').is_file():
+            write_systems_demand(root, library)
 
 
 def stamp(path, ref, dry_run=False):
