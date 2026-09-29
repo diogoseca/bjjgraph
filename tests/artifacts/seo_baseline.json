@@ -1730,13 +1730,13 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "6c81ebd19289fcd0e6599eb42c391614d2122d96",
-   "capture_id": "be656bc7cf554ed9adc60f4cad2e64d8",
+   "capture_git_head": "6a18ddbbf557d30abd417f68f8786c0f5a7cbc29",
+   "capture_id": "103771ffe764422793d9de829368f608",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "5fbb364b6c1162c7c51088cb9d8fbae8c033e690",
+   "content_tree": "9eb1a190410375b32ec0c02b001fc6374dabea89",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1761,11 +1761,11 @@
    },
    "output_identity": {
     "files": 15839,
-    "sha256": "54a843b2064b55f3685f3e7090d214ae4dbc3125cf34058b6985ed4558ae8671"
+    "sha256": "a7bd5a792cfc748bc21e12805c477d45b99c9602b1e8f1bf97fafcf9e21c8a57"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-microing-6c81ebd19"
+    "/home/user/bjj-orchestrator/golden/pr-microing-related-6a18ddbbf"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
