@@ -8350,3 +8350,36 @@ clock unless stated):**
 - `verify_all.py` discovers and re-runs every lane gate, checks every recorded hash, and registers
   each number in the doc against its artifact (`claims.json`). `--heavy` regenerates the heavy
   artifacts and diffs them.
+
+## v1.207.0–v1.207.x — THE FULL GAME: WIN CHANCE ON EVERY CARD
+
+The Codex full-game programme (custody commit `86e40365a`), re-integrated onto the post-cutover dev
+by replaying only its own delta against the base it was built on (tree `b0c4229a4`). Owner rulings
+of 2026-09-29 folded in. What a player sees:
+
+- **Win chance** replaces EDGE as the one number on own cards AND threat cards (threat probes), from
+  an MDP solved in a deferred worker over the live rules. The immediate chance sits beside it. It
+  decomposes exactly in its tooltip, `P(lands)·[win|lands] + P(misses)·[win|misses]`. The hand sorts
+  once on an untouched hand. The legend thermometer shows V(s): best card = V(s) whenever every card
+  has a value.
+- Measured on the real corpus (gi, 11 moves, opponent skill .13, no study):
+  - Mount/top: Kimura from Mount 90.3%.
+  - Closed Guard/bottom: Kimura from Guard 83.9%; the Ezekiel threat leaves you 36.3%.
+  - Back Control/top: Rear Naked Choke 90.3%.
+  - K-Guard/top: Backstep 70.7% (moves 37.8% → 51% and Win chance → 72.4% after one correct MC).
+  - These reproduce the Codex browser receipt exactly. Threat probes add 0–107 states, and the root
+    is bit-identical with and without them.
+  - Reproduce with `bjj-orchestrator/scratch/full-game/tools/win_chance_probe.mjs` (outside the repo).
+- **Retired:** "Winning vs not losing" (the key is kept, unread; the wire ships λ = 2 only). This
+  takes graph-data.json from 107,451 to 100,191 B gzip on the boot path, and the MDP metadata from
+  6 variants to 2. Also retired: the served `systems.json` (build-internal now; it was 376,491 of
+  the 500,000 B deferred cap).
+- **Adopted automatically:** a guest's old unowned progress, on first load. This inverts the Codex
+  seats' "legacy is not loaded", which would have shown every returning player a white belt.
+- **QREV7** (quartz-cto): a guest never loads the SDK, and a guest meeting a cached v1 façade boots.
+- **PR 220 port:** one decoder. `study-bundles.mjs` read format-3 `decks` and would have broken
+  every Neural build. `ngWireDeckIndex` is the single canonical index; the app and the study
+  producer fingerprint it.
+- **Belt:** the MDP's `classify` mirrors v1.204.5.
+
+Full narrative, gates and owner screen: `bjj-orchestrator/reports/full-game-reintegrate.md`.
