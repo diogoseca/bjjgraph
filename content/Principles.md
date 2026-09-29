@@ -293,108 +293,114 @@ description: "Master fundamental BJJ principles and concepts. Complete guide to 
     {
       "@type": "ListItem",
       "position": 45,
+      "name": "Microing",
+      "url": "https://bjjgraph.org/Principles/microing"
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
       "name": "Position Chains",
       "url": "https://bjjgraph.org/Principles/position-chains"
     },
     {
       "@type": "ListItem",
-      "position": 46,
+      "position": 47,
       "name": "Position-Over-Submission Approach",
       "url": "https://bjjgraph.org/Principles/position-over-submission-approach"
     },
     {
       "@type": "ListItem",
-      "position": 47,
+      "position": 48,
       "name": "Positional Hierarchy",
       "url": "https://bjjgraph.org/Principles/positional-hierarchy"
     },
     {
       "@type": "ListItem",
-      "position": 48,
+      "position": 49,
       "name": "Positional Sparring",
       "url": "https://bjjgraph.org/Principles/positional-sparring"
     },
     {
       "@type": "ListItem",
-      "position": 49,
+      "position": 50,
       "name": "Posts",
       "url": "https://bjjgraph.org/Principles/posts"
     },
     {
       "@type": "ListItem",
-      "position": 50,
+      "position": 51,
       "name": "Posture",
       "url": "https://bjjgraph.org/Principles/posture"
     },
     {
       "@type": "ListItem",
-      "position": 51,
+      "position": 52,
       "name": "Pressure",
       "url": "https://bjjgraph.org/Principles/pressure"
     },
     {
       "@type": "ListItem",
-      "position": 52,
+      "position": 53,
       "name": "Rotational Breaks",
       "url": "https://bjjgraph.org/Principles/rotational-breaks"
     },
     {
       "@type": "ListItem",
-      "position": 53,
+      "position": 54,
       "name": "Shoulder Pressure",
       "url": "https://bjjgraph.org/Principles/shoulder-pressure"
     },
     {
       "@type": "ListItem",
-      "position": 54,
+      "position": 55,
       "name": "Sleeve Control",
       "url": "https://bjjgraph.org/Principles/sleeve-control"
     },
     {
       "@type": "ListItem",
-      "position": 55,
+      "position": 56,
       "name": "Structure",
       "url": "https://bjjgraph.org/Principles/structure"
     },
     {
       "@type": "ListItem",
-      "position": 56,
+      "position": 57,
       "name": "Submission Chains",
       "url": "https://bjjgraph.org/Principles/submission-chains"
     },
     {
       "@type": "ListItem",
-      "position": 57,
+      "position": 58,
       "name": "Submission Defense",
       "url": "https://bjjgraph.org/Principles/submission-defense"
     },
     {
       "@type": "ListItem",
-      "position": 58,
+      "position": 59,
       "name": "Timing and Rhythm",
       "url": "https://bjjgraph.org/Principles/timing-and-rhythm"
     },
     {
       "@type": "ListItem",
-      "position": 59,
+      "position": 60,
       "name": "Torque",
       "url": "https://bjjgraph.org/Principles/torque"
     },
     {
       "@type": "ListItem",
-      "position": 60,
+      "position": 61,
       "name": "Transition Management",
       "url": "https://bjjgraph.org/Principles/transition-management"
     },
     {
       "@type": "ListItem",
-      "position": 61,
+      "position": 62,
       "name": "Wedges",
       "url": "https://bjjgraph.org/Principles/wedges"
     },
     {
       "@type": "ListItem",
-      "position": 62,
+      "position": 63,
       "name": "Whizzer Control",
       "url": "https://bjjgraph.org/Principles/whizzer-control"
     }
@@ -602,6 +608,10 @@ Master Making Smaller Circles in BJJ. Learn depth-before-breadth training — re
 ### [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]]
 
 Master the principle of maximum efficiency with minimum effort in BJJ. Learn leverage mechanics, force redirection, and energy conservation for sustainable technique execution.
+
+### [[Principles/Microing|Microing]]
+
+Use small changes in grip, angle, and weight to establish a working contact and keep it effective as the opponent moves.
 
 ### [[Principles/Position Chains|Position Chains]]
 
