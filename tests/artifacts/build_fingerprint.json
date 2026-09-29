@@ -1,9 +1,9 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/post11-programme-e700f10f3",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr220-payload-diet-e79729eab",
   "content_provenance": {
-   "capture_git_head": "e700f10f3d32367b245528019e24ae56d500420a",
-   "capture_id": "b80134332deb4aaaae3c4fb30d2b26bc",
+   "capture_git_head": "e79729eab6c122f90f01773f471fbf32e24a92d5",
+   "capture_id": "f20fb5e792ff49d79db002d077571a57",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6410,
@@ -33,11 +33,11 @@
    },
    "output_identity": {
     "files": 15836,
-    "sha256": "9aae7e318e98ca327453ecef712b6affb2ae375318eecdd1737d0f4987381d62"
+    "sha256": "9623059b098bafe4bba95efe20c4053bfe8628e10221a3ae8383c6b38de90c4e"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
-    "/home/user/bjj-orchestrator/golden/post11-programme-e700f10f3"
+    "/home/user/bjj-orchestrator/golden/pr220-payload-diet-e79729eab"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -53,8 +53,8 @@
     "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
    },
    "static/neural/app/neural.js": {
-    "bytes": 590717,
-    "sha256": "b9e1588029b48914474f64b3c3e1b308f694c84d3ddda067da282e328368a13e"
+    "bytes": 592708,
+    "sha256": "f2b6e577a80cf8e941a91ead9723030f1d7fecee578e2067ad53bf927c1d6c22"
    },
    "static/neural/app/reading.css": {
     "bytes": 2104,

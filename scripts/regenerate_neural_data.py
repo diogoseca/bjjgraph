@@ -22,11 +22,15 @@ generated+committed static asset):
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>": [cat, n]}, shared}
-    resolving each deck key -> its card count (the "what decks exist" list; the chunk address is
-    derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
-    question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
-    cross-deck credit does not depend on which chunks have landed.
+  - flashcards/_index.json : manifest format 4 {_meta:{format}, deckOrd:{o, n}, shared} — every
+    deck and its card count (the "what decks exist" list), keyed by its node's permanent share
+    ORDINAL rather than spelled "<Name>|<Role>" (v1.204.3; see write_flashcards). The reader
+    derives the key from the node the ordinal names, and the chunk address from the key.
+    `shared` maps fnv1a32(question) -> the deck indexes (NAME order) carrying that question, for
+    the questions the blended hierarchy duplicates across decks, so the app's cross-deck credit
+    does not depend on which chunks have landed.
+  - curriculum.json : the Belt Path plus `scoreWeightsByOrd`, the belt-score table, keyed by
+    ordinal the same way (see _compact_score_weights).
   - concepts.json : the Principles + Learning libraries — the INDEX only ({_meta,
     concepts:[{id,key,name,cat,url,summary,meta,nodes,unresolved}]}), i.e. exactly what the list
     and the graph highlight need. Each concept's READABLE BODY (overview, points, contexts,
@@ -1142,8 +1146,81 @@ def build_flashcards(graph: dict) -> dict:
     return decks
 
 
-def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
-    """Write one chunk file per deck + a manifest. Returns (deck_count, card_count)."""
+def _seat_index(nodes: list) -> tuple[dict, set]:
+    """'<Name>|<Seat>' -> (ordinal, seat slot, cat, ty) for every seat of every graph-data node,
+    named by the READER's rule (scripts/_neural_decks.py node_deck_name == the app's deckKeyFor
+    `fam`), plus the keys two nodes both derive. A collided key is only an error where a deck or a
+    weight actually needs it — the caller decides, because a collision nothing ships is harmless."""
+    import _neural_decks as ND
+    idx: dict[str, tuple] = {}
+    collided: set[str] = set()
+    for n in nodes:
+        name = ND.node_deck_name(n)
+        for slot, seat in enumerate(ND.node_seats(n)):
+            key = f"{name}|{seat}"
+            if key in idx:
+                collided.add(key)
+                continue
+            idx[key] = (n["o"], slot, ND.node_cat(n), n.get("ty"))
+    return idx, collided
+
+
+def _encode_deck_manifest(decks: dict, nodes: list) -> dict:
+    """The format-4 deck table: {"o": delta-coded ascending ordinals, "n": [rep n, partner n] per
+    ordinal}. See neural/src/wire-keys.src.js for the wire, and write_flashcards for why.
+
+    REFUSES — never reports-and-continues — when a deck key does not resolve to exactly one
+    node's seat, when the category the node implies differs from the deck's, when a deck is empty
+    (0 means "no deck in this seat" on the wire, so an empty deck would silently vanish), or when
+    a key leaves the Basic Multilingual Plane (the app re-sorts decoded keys by UTF-16 code unit,
+    which agrees with sorted()'s code-point order only inside the BMP)."""
+    idx, collided = _seat_index(nodes)
+    per_ord: dict[int, list] = {}
+    errs = []
+    for key in sorted(decks):
+        hit = idx.get(key)
+        if hit is None or key in collided:
+            errs.append(f"deck {key!r} {'is claimed by two nodes' if hit else 'names no node seat'}")
+            continue
+        o, slot, cat, _ty = hit
+        n = len(decks[key]["cards"])
+        if cat != decks[key]["cat"]:
+            errs.append(f"deck {key!r}: node implies {cat!r}, deck says {decks[key]['cat']!r}")
+        if n < 1:
+            errs.append(f"deck {key!r} is empty — 0 is the wire's 'no deck' and it would vanish")
+        if any(ord(ch) > 0xFFFF for ch in key):
+            errs.append(f"deck {key!r} leaves the BMP — the app's sort would disagree with sorted()")
+        per_ord.setdefault(o, [0, 0])[slot] = n
+    if errs:
+        raise SystemExit("[neural] deck manifest REFUSING TO EMIT — the ordinal wire cannot carry "
+                         f"{len(errs)} deck(s):\n    " + "\n    ".join(errs[:20]))
+    ords = sorted(per_ord)
+    deltas, prev = [], -1
+    for o in ords:
+        deltas.append(o - prev - 1)
+        prev = o
+    return {"o": deltas, "n": [x for o in ords for x in per_ord[o]]}
+
+
+def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]:
+    """Write one chunk file per deck + a manifest. Returns (deck_count, card_count).
+
+    THE MANIFEST IS KEYED BY SHARE ORDINAL (format 4, v1.204.3). It is the one deck file every
+    visitor fetches before the first hand, and format 3 spelled every key — 2,896 "<Name>|<Role>"
+    strings, 15,427 of its 20,552 gzip bytes — when graph-data.json, fetched first, already
+    carries every one of those names on the node that owns the deck. `nodes` is graph-data's node
+    list: each deck is written as its node's permanent ordinal (node_ordinals.json, append-only,
+    hard-gated) plus a seat slot, and the reader (neural/src/wire-keys.src.js in the browser,
+    scripts/_neural_decks.py here) derives the name back from the node. Never an array index:
+    graph-data's node ORDER renumbers when one content file is added (CLAUDE.md section 6.6).
+
+    Nothing is trusted to the encoder: the manifest is decoded through the READER's direction
+    (ordinal -> node -> name, a different path from the encoder's name -> ordinal map) and must
+    reproduce every deck's key, category, card count AND position in the name order `shared`
+    indexes into — or nothing is written. The coverage line prints every run.
+
+    `_meta` is `{format}` and nothing else: its prose used to ride the boot path (486 B gzip) and
+    nothing ever read it. The documentation lives here, where it costs nothing."""
     fc_dir = out_dir / "flashcards"
     # clean stale chunks so removed decks don't linger
     if fc_dir.exists():
@@ -1194,24 +1271,32 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
             shared.setdefault(fnv1a32(q), []).extend(idxs)
     shared = {h: sorted(set(v)) for h, v in shared.items()}
 
-    (fc_dir / "_index.json").write_text(json.dumps({
-        "_meta": {
-            "status": "generated",
-            "format": 3,
-            "note": "Generated by scripts/regenerate_neural_data.py from graph.json. The app boots "
-                    "from this file alone and fetches a deck's chunk on demand; a chunk is "
-                    "<fnv1a32(deckKey)>.json beside this manifest, holding {deckKey: {cat, role, "
-                    "cards}} (a map, so a hash collision shares a file instead of losing a deck).",
-            "keyFormat": "<Name>|<Role>  (Top|Bottom for positions, Attacker|Defender for techniques)",
-            "entry": "[cat, n] — category, card count",
-            "cardShape": {"q": "question", "a": "answer"},
-            "shared": "fnv1a32(question) -> indexes into `decks` (in this file's order) for every "
-                      "question carried by 2+ decks — the blended hierarchy's shared cards. Makes "
-                      "cross-deck credit residency-independent (see noteCardDone).",
-        },
-        "decks": {k: manifest[k] for k in sorted(manifest)},
+    # The app boots from this file alone and fetches a deck's chunk on demand: a chunk is
+    # <fnv1a32(deckKey)>.json beside it, holding {deckKey: {cat, role, cards:[{q, a}]}} (a map, so
+    # a hash collision shares a file instead of losing a deck). `shared` is fnv1a32(question) ->
+    # indexes into the decks in NAME order, for every question carried by 2+ decks — the blended
+    # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
+    out = {
+        "_meta": {"format": 4},
+        "deckOrd": _encode_deck_manifest(decks, nodes),
         "shared": {h: shared[h] for h in sorted(shared)},
-    }, ensure_ascii=False, separators=(",", ":")))
+    }
+    import _neural_decks as ND
+    back, unresolved = ND.decode_manifest(out, nodes)
+    want = {k: {"cat": manifest[k][0], "n": manifest[k][1]} for k in sorted(manifest)}
+    if unresolved or list(back.items()) != list(want.items()):
+        diff = [k for k in set(back) | set(want) if back.get(k) != want.get(k)]
+        order = list(back) != list(want)
+        raise SystemExit(
+            f"[neural] deck manifest REFUSING TO EMIT — the ordinal wire does not read back: "
+            f"{unresolved} unresolved ordinal(s), {len(diff)} deck(s) differ "
+            f"(e.g. {sorted(diff)[:3]}), name order {'BROKEN' if order else 'intact'}. `shared` "
+            f"indexes into that order, so a reshuffle would credit the wrong decks.")
+    (fc_dir / "_index.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    n_ord = len(out["deckOrd"]["o"])
+    print(f"  deck manifest: {len(back)}/{len(manifest)} deck keys carried by {n_ord} ordinals "
+          f"({len(manifest) - len(back)} unresolved); read back exact — key, category, card count "
+          f"and name order")
     if collisions:
         print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")
     return len(decks), sum(len(d["cards"]) for d in decks.values())
@@ -1392,10 +1477,29 @@ def build_score_weights(graph: dict, frame: str) -> dict:
 WEIGHT_DIV = 10_000_000
 
 
-def _compact_score_weights(tables: dict) -> dict:
-    """The wire for `build_score_weights`, BOTH RULESETS: position keys once, technique names
-    once, one integer per frame each — {div, p:{k, gi, nogi}, t:{k, gi, nogi}} — where every `t`
-    name carries both seats at the same value.
+def _compact_score_weights(tables: dict, nodes: list) -> dict:
+    """The wire for `build_score_weights`, BOTH RULESETS: each position seat once, each technique
+    once, one integer per frame each — {div, p:{o, r, gi, nogi}, t:{o, gi, nogi}} — where every
+    `t` entry carries both seats at the same value. Written under `scoreWeightsByOrd`.
+
+    KEYED BY SHARE ORDINAL, NOT BY NAME (v1.204.3). Until now `p.k` spelled 266 "<Position>|<Role>"
+    keys and `t.k` 1,310 technique names — about 9,600 B of this file's 20,800 gzip, on the boot
+    path, every one of them a name graph-data.json already carries on the node it belongs to.
+    `p.o[i]` / `t.o[i]` are those nodes' permanent ordinals (node_ordinals.json) and `p.r[i]` the
+    position's seat (0 Top, 1 Bottom); the reader derives the name from the node
+    (neural/src/wire-keys.src.js, scripts/_neural_decks.py). The weights are NOT rounded any
+    further — that would move belt scores, which is the owner's call.
+
+    ORDER: WEIGHT DESCENDING ON THE SHIPPED INTEGERS, NAME AS THE TIEBREAK. The keys were once
+    sorted by `-max(weight)` over a Python SET alone, so every exact tie (253 of the 1,310
+    techniques and 10 of the 266 position seats share their maximum float with another) fell in
+    PYTHONHASHSEED order and the same inputs emitted a different file each run — 20,871-20,910 B
+    gzip, more noise than the first-hand gate's headroom at v1.198.3 (15 B). v1.198.4 (PR #221)
+    added the name tiebreak on the floats; v1.204.3 ranks the INTEGERS the wire actually ships, so
+    two weights that differ below 1/WEIGHT_DIV but ship equal are ordered by name too, and the
+    order is a function of the file's own contents (checkable from it, which the ORDER test in
+    tests/neural_wire_keys.test.mjs does). It is carried to the app on purpose, because gameScore
+    and startPosTraffic SUM in key order.
 
     WHY KEYS ONCE. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and
     lands the first hand at 382,197 of a 385,000 ceiling. The key strings are the entire cost, and
@@ -1403,9 +1507,9 @@ def _compact_score_weights(tables: dict) -> dict:
     and hanging one integer array per frame off it means the SECOND ruleset costs only integers.
 
     WHY THE UNION, AND WHY A ZERO IS MEANINGFUL. The two frames do not span the same techniques:
-    52 are attemptable only in gi and 16 only in no-gi. `k` is therefore the union and a ZERO in a
-    frame's array means "not attemptable in this ruleset" — the app skips it rather than storing a
-    key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
+    52 are attemptable only in gi and 16 only in no-gi. The key list is therefore the union, and a
+    ZERO in a frame's array means "not attemptable in this ruleset" — the app skips it rather than
+    storing a key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
     this divisor means something else entirely and is refused below, not shipped.
 
     THE MIRROR IS A CONSTRUCTION, NOT AN ESTIMATE, so it is safe to spell once: the defender block
@@ -1426,15 +1530,43 @@ def _compact_score_weights(tables: dict) -> dict:
         att = {k[: -len("|Attacker")]: v for k, v in t.items() if k.endswith("|Attacker")}
         return pos, att
     parts = {fr: split(tables[fr]) for fr in frames}
-    # The key breaks ties on the KEY itself. Sorting these sets by weight alone left tied keys in
-    # set-iteration order, which follows the per-process PYTHONHASHSEED: eight seeds gave eight byte
-    # streams of curriculum.json, and it sits on the first-hand payload path, where one draw in eight
-    # breached the delta cap (v1.198.4). Pinned by tests/curriculum_order.test.mjs.
-    pk = sorted({k for fr in frames for k in parts[fr][0]},
-                key=lambda k: (-max(parts[fr][0].get(k, 0.0) for fr in frames), k))
-    tk = sorted({k for fr in frames for k in parts[fr][1]},
-                key=lambda k: (-max(parts[fr][1].get(k, 0.0) for fr in frames), k))
-    wire = {"div": WEIGHT_DIV, "p": {"k": pk}, "t": {"k": tk}}
+    # The sort breaks ties on the KEY itself (v1.198.4, PR #221). Sorting these sets by weight
+    # alone left tied keys in set-iteration order, which follows the per-process PYTHONHASHSEED:
+    # eight seeds gave eight byte streams of curriculum.json, on the first-hand payload path. And it
+    # sorts on the INTEGERS the wire ships, not the floats behind them (v1.204.3 payload diet): two
+    # weights can differ below 1/WEIGHT_DIV and ship equal, and an order decided by a difference the
+    # file cannot show is an order nobody can check from the file. Pinned by
+    # tests/curriculum_order.test.mjs (bytes across seeds) and tests/neural_wire_keys.test.mjs (the
+    # emitted file is weight-descending with ties in name order).
+    def rank(block):
+        return lambda k: (-max(round(parts[fr][block].get(k, 0.0) * WEIGHT_DIV) for fr in frames), k)
+    pk = sorted({k for fr in frames for k in parts[fr][0]}, key=rank(0))
+    tk = sorted({k for fr in frames for k in parts[fr][1]}, key=rank(1))
+    # name -> ordinal (+ seat), through the same seat index the deck manifest uses. A key that
+    # names no node's seat — or names a node of the wrong kind — is REFUSED, never dropped: a
+    # weight that silently leaves the table leaves gameScore's denominator with it.
+    idx, collided = _seat_index(nodes)
+    unresolved = []
+    p_o, p_r, t_o = [], [], []
+    for k in pk:
+        hit = idx.get(k)
+        if hit is None or k in collided or hit[3] != "positions":
+            unresolved.append(k)
+            continue
+        p_o.append(hit[0])
+        p_r.append(hit[1])
+    for k in tk:
+        hit = idx.get(f"{k}|Attacker")
+        if hit is None or f"{k}|Attacker" in collided or hit[3] == "positions":
+            unresolved.append(k)
+            continue
+        t_o.append(hit[0])
+    if unresolved:
+        raise SystemExit(
+            f"[neural] score weights REFUSING TO EMIT — {len(unresolved)} of {len(pk) + len(tk)} "
+            f"key(s) resolve to no graph-data node seat, e.g. {unresolved[:5]}. The wire is keyed "
+            f"by ordinal, so an unresolvable key has no way onto it.")
+    wire = {"div": WEIGHT_DIV, "p": {"o": p_o, "r": p_r}, "t": {"o": t_o}}
     for fr in frames:
         pos, att = parts[fr]
         for slot, keys, src in (("p", pk, pos), ("t", tk, att)):
@@ -1449,18 +1581,18 @@ def _compact_score_weights(tables: dict) -> dict:
                     f"Raise WEIGHT_DIV rather than shipping a silent hole."
                 )
             wire[slot][fr] = vals
-    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does and compare to the
-    # table it was built from. A compaction that silently drops or halves a block is the same
-    # defect class this whole ledger exists for, so it is checked, every run, for both rulesets.
+    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does — through the
+    # READER, ordinal -> node -> name (scripts/_neural_decks.py), never back through the name ->
+    # ordinal map that built it, so a remapped ordinal cannot agree with itself — and compare to
+    # the table it was built from. A compaction that silently drops, halves or re-homes a block is
+    # the same defect class this whole ledger exists for, so it is checked, every run, for both.
+    import _neural_decks as ND
     for fr in frames:
         full = tables[fr]
-        back = {}
-        for k, v in zip(wire["p"]["k"], wire["p"][fr]):
-            if v:
-                back[k] = v / WEIGHT_DIV
-        for k, v in zip(wire["t"]["k"], wire["t"][fr]):
-            if v:
-                back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
+        back, unres = ND.decode_score_weights({"scoreWeightsByOrd": wire}, fr, nodes)
+        if unres:
+            raise SystemExit(f"[neural] score weights ({fr}): {unres} ordinal(s) do not read back "
+                             f"to a node of the right kind. Refusing to emit.")
         lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
         drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
         if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
@@ -1472,12 +1604,12 @@ def _compact_score_weights(tables: dict) -> dict:
                 f"assumption that it equals the attacker seat; if that stopped being true, spell "
                 f"both. Refusing to emit."
             )
-    print(f"  score weights wire: {len(pk)} position + {len(tk)} technique keys x {len(frames)} "
-          f"frames at 1/{WEIGHT_DIV:,} ("
+    print(f"  score weights wire: {len(p_o)}/{len(pk)} position + {len(t_o)}/{len(tk)} technique "
+          f"keys carried by ordinal x {len(frames)} frames at 1/{WEIGHT_DIV:,}, read back exact ("
           + ", ".join(f"{fr} {sum(1 for v in wire['t'][fr] if v)} tech" for fr in frames) + ")")
     return wire
 
-def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
+def build_curriculum(out_dir: Path, graph: dict, decks: dict, wire_nodes: list) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
     which is legal — the app falls back to tree view).
 
@@ -1502,7 +1634,9 @@ def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
     tables = {fr: build_score_weights(graph, fr) for fr in ("gi", "nogi")}
-    cur["scoreWeightsByRuleset"] = _compact_score_weights(tables)
+    # `wire_nodes` is graph-data.json's node list (the ordinals the reader resolves against), NOT
+    # the curriculum index `nodes` above — two different node sets under one word.
+    cur["scoreWeightsByOrd"] = _compact_score_weights(tables, wire_nodes)
     # PRINTED EVERY RUN, never fatal here — `validate_score_coverage.py` owns the definition and
     # this is the same call the standalone check makes, so the two can never report different
     # numbers. It is handed the REAL per-frame pair: until v1.146.0 both arguments were the one
@@ -2470,7 +2604,7 @@ def main() -> None:
             print(f"removed retired payload: {stale}")
 
     decks = build_flashcards(graph)
-    n_decks, n_cards = write_flashcards(decks, OUT_DIR)
+    n_decks, n_cards = write_flashcards(decks, OUT_DIR, gd["nodes"])
     # The 16.4MB flashcards.json monolith is GONE (v1.80.4). It was the app's deck payload and it
     # shipped every card for all 2,924 decks before the visitor could make a move; the app now
     # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
@@ -2544,7 +2678,7 @@ def main() -> None:
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR, graph, decks)
+    n_belts = build_curriculum(OUT_DIR, graph, decks, gd["nodes"])
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 

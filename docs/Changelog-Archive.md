@@ -8214,3 +8214,13 @@ lifted the + 30px between measure and press. It now renders at the tree's foot. 
 its ruleset-blind picker chose masked Guillotine Control; start pinned, picker filtered. **3/4**:
 Playwright's PR-event git diff capture ran `git fetch <base> --depth=1` in the repo, shallowing
 it under the publication oracle; `captureGitInfo.diff` is off.
+
+## v1.204.3 — THE BOOT WIRE STOPS SPELLING NAMES
+
+The deck manifest (format 4) and curriculum's score table key by share ordinal;
+`neural/src/wire-keys.src.js` derives the names. On the post-cutover engine (keyless build of
+6469abc49 + this change, before = dev's own emit swapped into the same tree): first-hand core
+355,018 → 334,074 (−20,944), eager 335,456 → 314,744 (−20,712); both baselines re-accepted there.
+Old vs new ingest is bit-identical (`tests/artifacts/_wire_keys_differential.mjs`); 20/20 mutants in
+`neural_wire_keys.test.mjs`. Score ties rank the shipped integers, name as tiebreak: byte-equal
+across seeds (`_emit_determinism.sh`); dev's `curriculum_order.test.mjs` is ported to the ordinal wire.

@@ -85,6 +85,10 @@ const listsStore = stripExports("lists.src.js");
 // the identical source, so the browser kernel and `tests/flow.test.mjs` can never drift
 // apart, and the Python reference (`scripts/solve_flow.py`) gates ONE implementation.
 const flowKernel = stripExports("flow.src.js");
+// wire-keys.src.js joins them: the ONE decoder of the ordinal-keyed eager wire (the deck
+// manifest and the score table, v1.204.3). The digest Worker and the unit suite import the
+// identical source, so the app and the mail allow-list can never decode two different ways.
+const wireKeys = stripExports("wire-keys.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -95,7 +99,7 @@ const flowKernel = stripExports("flow.src.js");
         (m) => m[1],
       ),
     );
-  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel]];
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys]];
   const clash = [];
   for (let a = 0; a < groups.length; a++) {
     for (let b = a + 1; b < groups.length; b++) {
@@ -212,6 +216,10 @@ ${listsStore}
 /* ---- begin flow.src.js (the FLOW kernel: policy evaluation + adjoint) ---- */
 ${flowKernel}
 /* ---- end flow.src.js ---- */
+
+/* ---- begin wire-keys.src.js (the ordinal-keyed eager wire: deck manifest + score table) ---- */
+${wireKeys}
+/* ---- end wire-keys.src.js ---- */
 // Reachable, greppable, and safe from tree-shaking: both files are pure and stateless, so
 // exposing them costs nothing and lets the list UI, the /l recipient path, the unit suite and
 // a paired debugging session all use the SAME functions. Both naming styles are published:

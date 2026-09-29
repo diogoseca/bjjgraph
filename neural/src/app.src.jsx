@@ -2866,7 +2866,8 @@ class Component extends DCLogic {
 
   // ─────────────────────────── ON-DEMAND DECK RESIDENCY (v1.80.4) ───────────────────────────
   // The deck payload is no longer one 16.4MB file. Boot reads flashcards/_index.json (a
-  // manifest: every deck key -> [chunk file, category, card count]) and each deck's cards
+  // manifest: every deck and its card count — keyed by share ordinal since v1.204.3, decoded by
+  // `_ingestDeckManifest` back into "<Name>|<Role>" keys) and each deck's cards
   // arrive when something needs them. Three rules make that safe:
   //
   //   1. A stub is a deck we KNOW about but whose cards are absent. `_cardsOf` is the only
@@ -2880,16 +2881,15 @@ class Component extends DCLogic {
   //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
   _ingestDeckManifest(j) {
-    const src = (j && j.decks) || {};
-    const decks = {};
-    for (const k in src) {
-      const e = src[k];
-      // Formats, oldest to newest — a stale manifest on a CDN edge must never break a fresh
-      // bundle: {file,cat,role,n} (1) · [file,cat,n] (2) · [cat,n] (3, the address is derived).
-      decks[k] = Array.isArray(e)
-        ? (e.length >= 3 ? { file: e[0], cat: e[1], n: e[2] || 0 } : { cat: e[0], n: e[1] || 0 })
-        : { file: e.file, cat: e.cat, n: e.n || 0 };
-    }
+    // EVERY FORMAT DECODES THROUGH ONE READER, `ngWireDecks` (neural/src/wire-keys.src.js) — the
+    // digest Worker, e2e/decks.ts and the unit suite call the same function. Format 4 (v1.204.3)
+    // keys each deck by its node's permanent share ORDINAL instead of spelling "<Name>|<Role>"
+    // (15,427 -> ~1,200 B gzip on the boot path), so it needs the nodes `ingest` built: boot
+    // fetches this file only after ingest has run. Older formats still decode — a stale manifest
+    // on a CDN edge must never break a fresh bundle. The decoded map is in NAME order, exactly as
+    // format 3 shipped it, which is what `shared`'s deck indexes below point into.
+    const dec = ngWireDecks(j, this.nodes);
+    const decks = dec.decks;
     this.flashcards = { decks: decks, manifest: true };
     this._deckWaits = {};
     this._qkDecks = null;
@@ -2913,6 +2913,10 @@ class Component extends DCLogic {
       this._sharedQ = m;
     }
     this._bumpStageVer();
+    // An ordinal that names no node was SKIPPED, not guessed — so the decks it carried are
+    // missing, and that must be audible rather than read as "fewer decks" (§6.6).
+    if (dec.unresolved || dec.dupes)
+      this.fx("wire_key_unresolved", { file: "flashcards/_index.json", unresolved: dec.unresolved, dupes: dec.dupes });
   }
   /** Is every deck's cards present? (A monolith/test boot has no manifest flag.) */
   _deckResident(key) { return !!this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]); }
@@ -7012,9 +7016,10 @@ class Component extends DCLogic {
     for (const g of graded) sum += g;
     return Math.min(1, sum / n);   // clamp: belt AND braces
   }
-  // THE ONE READER OF THE SCORE TABLE, and the only place the wire is expanded (v1.145.13).
-  // `scoreWeights` is `{div, p:{k,v}, t:{k,v}}`: position deck keys once, technique NAMES once,
-  // integers scaled by `div`. Every `t` name carries BOTH seats at the same value — the defender
+  // THE ONE READER OF THE SCORE TABLE (v1.145.13); since v1.204.3 it hands the expansion to
+  // `ngWireScoreWeights`, the one function every consumer shares. The v1.145.13 shape was
+  // `{div, p:{k,v}, t:{k,v}}`: position deck keys once, technique NAMES once (now ordinals),
+  // integers scaled by `div`. Every `t` entry carries BOTH seats at the same value — the defender
   // block IS the attacker block re-keyed, so spelling it twice on the wire bought nothing and
   // cost 9,048 gzip; the emitter round-trips this expansion and refuses if it ever stops holding.
   // Memoised on the payload object, not on a version: `curriculum` is assigned once, at fetch.
@@ -7033,25 +7038,23 @@ class Component extends DCLogic {
   // one table and silently wrong for two: the first read would pin whichever ruleset happened to
   // be active and serve it to the other forever.
   //
-  // Reads the old shapes where it finds them — `scoreWeights` (v1.145.13) and a flat `weights`
-  // before it — so every fixture carrying one still scores.
+  // Reads the old shapes where it finds them — `scoreWeightsByRuleset` (v1.146.0), `scoreWeights`
+  // (v1.145.13) and a flat `weights` before them — so every fixture carrying one still scores.
+  //
+  // THE EXPANSION ITSELF LIVES IN `ngWireScoreWeights` (neural/src/wire-keys.src.js, v1.204.3),
+  // because the wire now keys each weight by its node's permanent share ORDINAL rather than
+  // spelling 1,576 names (curriculum.json 20,809 -> ~14,700 B gzip), and e2e/gen/personas.ts and
+  // the unit suite need the SAME expansion — they used to carry a copy of this function. Key
+  // ORDER is the wire's and is preserved: gameScore and startPosTraffic sum in it.
   scoreWeights(frame) {
     const fr = frame || (this._giMode === "nogi" ? "nogi" : "gi");
     const c = this.curriculum; if (!c) return null;
     const memo = this._scoreW || (this._scoreW = {});
     if (memo[fr]) return memo[fr];
-    const br = c.scoreWeightsByRuleset;
-    const sw = (br && br.t && br.t[fr]) ? br : c.scoreWeights;
-    if (!sw || !sw.t) return (memo[fr] = c.weights || null);
-    const pv = sw.p[fr] || sw.p.v, tv = sw.t[fr] || sw.t.v;
-    if (!pv || !tv) return (memo[fr] = c.weights || null);
-    const d = sw.div || 1e7, o = {};
-    for (let i = 0; i < sw.p.k.length; i++) if (pv[i]) o[sw.p.k[i]] = pv[i] / d;
-    for (let i = 0; i < sw.t.k.length; i++) {
-      const v = tv[i] / d;
-      if (tv[i]) { o[sw.t.k[i] + "|Attacker"] = v; o[sw.t.k[i] + "|Defender"] = v; }
-    }
-    return (memo[fr] = o);
+    const dec = ngWireScoreWeights(c, fr, this.nodes);
+    // skipped, never guessed — announced so a remapped wire cannot pass as a lighter table (§6.6)
+    if (dec.unresolved) this.fx("wire_key_unresolved", { file: "curriculum.json", frame: fr, unresolved: dec.unresolved });
+    return (memo[fr] = dec.w);
   }
   gameScore() {
     const ver = this._stageVer || 0;

@@ -39,6 +39,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { ngWireDecks } from "../neural/src/wire-keys.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
@@ -61,7 +62,12 @@ function app(mutate) {
 }
 
 const APP = app();
-const DECKS = MANIFEST.decks;
+// The manifest keys decks by share ordinal (format 4, v1.204.3); decode it with the ONE reader the
+// app, the digest Worker and e2e/decks.ts share, against the raw wire's nodes. A decode that
+// dropped an ordinal would shrink `shipped` below and read as "fewer decks", so it is refused here.
+const DECODED = ngWireDecks(MANIFEST, WIRE.nodes);
+if (DECODED.unresolved || DECODED.dupes) throw new Error(`manifest decode: ${DECODED.unresolved} unresolved, ${DECODED.dupes} dupes`);
+const DECKS = DECODED.decks;
 const SITES = APP.nodes.filter((n) => n.rep);
 
 // ── 1: THE BIJECTION ────────────────────────────────────────────────────────────────────────

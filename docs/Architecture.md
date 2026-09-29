@@ -282,7 +282,7 @@ into `source/public/static/neural/`; the loader uses `/static/neural/` as the da
 | --- | --- | --- |
 | `app/neural.js`, `app/neural.css` | Browser runtime and styles | Boot |
 | `graph-data.json` | Compact nodes, links, rates, outcomes, availability and value tables | Boot |
-| `flashcards/_index.json` | Deck inventory, card counts and shared-question credit index | Boot |
+| `flashcards/_index.json` | Deck inventory (keyed by share ordinal), card counts and shared-question credit index | Boot |
 | `curriculum.json` | Lessons, checkpoints, content tracks and modeled score weights | Boot |
 | `flashcards/<hash>.json` | Cards for a requested deck | On demand |
 | `content/<hash>.json` | Technique/position dossier or reference-page body | On demand |

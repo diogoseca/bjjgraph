@@ -28,8 +28,8 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 |---|---|---|
 | `graph-data.json` | boot | the graph IS the game. A **compact wire**; `ingest()` expands it to the legacy shapes |
 | `app/neural.js` + `.css` | boot | the bundle |
-| `flashcards/_index.json` | boot | the deck **manifest**: `{deckKey: [category, n]}` |
-| `curriculum.json` | boot | `curriculum.weights` is what `gameScore` sums |
+| `flashcards/_index.json` | boot | the deck **manifest**: card counts by node **ordinal** + seat |
+| `curriculum.json` | boot | `scoreWeightsByOrd` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
@@ -712,12 +712,12 @@ Control|Top` leads).
 because time passed. Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
-**Wire.** `curriculum.scoreWeightsByRuleset` is `{div, p:{k,gi,nogi}, t:{k,gi,nogi}}` — position
-keys once, technique NAMES once, one int array **per ruleset**, each `t` name carrying **both
-seats**. `scoreWeights(frame)` is the one expander; the emitter
+**Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
+once by node **ordinal** (v1.204.3), one int array **per ruleset**, each `t` entry carrying **both
+seats**. `ngWireScoreWeights` (`wire-keys.src.js`) is the one expander; the emitter
 round-trips it per frame and refuses if the mirror stops holding. Per ruleset (v1.146.0): 52
 techniques are attemptable only in gi — the default — and 16 only in no-gi, so a folded no-gi solve
-scored them 0 in both seats (**104 decks, 739 cards**). `k` is the union, a **zero means "not
+scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **zero means "not
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 

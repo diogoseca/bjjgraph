@@ -32,9 +32,10 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  * ── THE CONFIGURATION TRAP, which is WHY this branch was never gated ────────────────────
  *
  * `componentResources.ts:194` guards the config injection on `cfg.supabase?.url`, and
- * `quartz.config.ts:23` reads `process.env.SUPABASE_URL || ""`. Every local build, every dev
- * build and the programme's golden tree run with SUPABASE_URL unset, so
+ * `quartz.config.ts:23` reads `process.env.SUPABASE_URL || ""`. Every local build, the PR
+ * gate's build (e2e-full.yml) and the programme's golden trees run with SUPABASE_URL unset, so
  * `window.__SUPABASE_URL` is NEVER EMITTED and the listener above early-returns on line 41.
+ * (Both DEPLOYS build keyed, from secrets, and there it IS emitted: see THE KEYED DIRECTION.)
  * Measured on the golden page: `grep -c '__SUPABASE_URL' build0/Positions/Mount/Top.html` → 0.
  *
  * DO NOT CONFIRM THIS AGAINST THE BUNDLE WITH THE OBVIOUS GREP — IT LIES (D-54). On the golden
@@ -56,8 +57,31 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  * The branch is therefore UNREACHABLE on the build a test normally runs against. That is the
  * whole reason nobody could gate it, and it is the same shape as `validate:analytics:nokey`:
  * a direction no ordinary run can exercise, so it needs a fixture that supplies it. THIS SPEC
- * SUPPLIES THE CONFIG ITSELF, via addInitScript, before any page script runs. It therefore
- * gates `authUI.inline.ts`'s LOGIC on any build, keyed or keyless.
+ * SUPPLIES THE CONFIG ITSELF, via addInitScript, before any page script runs.
+ *
+ * ── THE KEYED DIRECTION, and the false red it produced (v1.204.3) ──────────────────────
+ *
+ * This file used to say that supplying the config "gates authUI's LOGIC on any build, keyed or
+ * keyless". On a KEYED build that was false. The init script runs first and the build's own
+ * `window.__SUPABASE_URL = …` in postscript.js runs after it, so the page ends up configured
+ * for the REAL project. `authStorageKey()` then derives `sb-<real ref>-auth-token`, the session
+ * this spec had stored under `sb-authspec-auth-token` is invisible, and the signed-in test
+ * reads 0 clients. That happened on deploy-dev run 36586966681, which was this file's FIRST
+ * keyed run: it reached dev with the engine cutover (PR #222), so no earlier keyed deploy ever
+ * ran it, and every run before that was keyless. A real signed-in visitor was never affected,
+ * because their session sits under the key their own deploy's config derives.
+ *
+ * So the config now FOLLOWS THE BUILD, and the session follows the config. `__SUPABASE_URL` is
+ * an accessor. A keyless build never writes it, so the spec's value stands and nothing differs
+ * from before. A keyed build's write goes through, and a signed-in visitor's session is filed
+ * under the key that write derives, as it is for a real returning user of that deploy. The
+ * accessor also records whether the build's write came BEFORE the page first read the config.
+ * A keyed build that injects late would leave real users with no client at all: the listener's
+ * `!window.__SUPABASE_URL` guard returns before the injection lands. The spec's own fallback
+ * config would hide that, so the ordering is asserted directly (`expectBuildConfigFirst`).
+ * Which direction a run exercised is annotated on every test as `supabase-config`, so a keyless
+ * green is never read as keyed coverage. The build's values never leave the page: only
+ * booleans and counts are returned to the runner, so no log can print a deploy's config.
  *
  * ── WHAT THE HARNESS DOES AND DOES NOT SERVE (CLAUDE.md §6.4) ───────────────────────────
  *
@@ -84,6 +108,9 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  *   M4 `detectSessionInUrl: false`                              → 1 RED · 3 GREEN (2 unconstrained:
  *                                                                 it counts clients, not options)
  *   M5 the whole `nav` listener removed                         → 1,2,3 RED
+ *   M14 KEYED build only: the config injection moved after the  → 1,2,3 RED (only the ordering
+ *       router's nav dispatch                                     check can see it; skipped,
+ *                                                                 loudly, on a keyless build)
  *
  * TWO OF THESE SURVIVED THE FIRST TIME, AND THAT IS RECORDED HERE BECAUSE IT CHANGED THE SPEC.
  * Against the page with the neural bundle running, M3 and M5 both left test 3 GREEN: the Neural
@@ -94,10 +121,12 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  *
  * ── NON-KILLS. What this spec does NOT cover (CLAUDE.md §6.9) ───────────────────────────
  *
- *  1. THE INJECTION SITE ITSELF IS STILL UNGATED. This spec supplies `window.__SUPABASE_URL`,
- *     so a replacement that drops `componentResources.ts:194-199` — never emitting the config
- *     on a REAL deploy — keeps this spec green. That surface belongs to the emitter stream and
- *     cannot be gated from a keyless build at all. Do not read this file as covering it.
+ *  1. THE INJECTION SITE'S PRESENCE IS STILL UNGATED; ONLY ITS ORDER IS. On a keyed build, an
+ *     injection that lands after the page first reads the config goes red here. An injection
+ *     that is DROPPED does not: a keyed build that stops emitting `componentResources.ts:194-199`
+ *     looks exactly like a keyless build to this spec, whose fallback config keeps it green.
+ *     This spec cannot tell which kind of build it was served, so it asserts no presence. Do
+ *     not read this file as covering it.
  *  2. Nothing here proves the code is actually exchanged for a session: that is the SDK's job
  *     and the stub replaces the SDK. The claim is "a client exists, with the exchanging option
  *     set, at redirect-back time", which is the part this repo owns.
@@ -155,6 +184,10 @@ type Arrival = {
   /** the options the FIRST createClient call was given, or null */
   options: { auth?: Record<string, unknown> } | null
   facade: string
+  /** how many times the BUILD wrote window.__SUPABASE_URL: 0 on a keyless build, 1 on a keyed one */
+  buildWrites: number
+  /** page reads of window.__SUPABASE_URL that happened before the build's write */
+  readsBeforeBuildWrite: number
 }
 
 /**
@@ -162,6 +195,9 @@ type Arrival = {
  *
  * `signedIn` writes the session blob `isAuthenticated()` reads (supabase.ts:245-256) — that is
  * the OTHER arm of the `||`, and giving it its own switch is what lets a mutant be told apart.
+ * On a keyed build the session is ALSO filed under the key the build's config derives (see THE
+ * KEYED DIRECTION in the header). That derivation is restated here on purpose rather than read
+ * from supabase.ts: a mutant of authStorageKey() must disagree with it and go red.
  */
 async function arrive(
   ctx: BrowserContext,
@@ -171,14 +207,28 @@ async function arrive(
   const page: Page = await ctx.newPage()
 
   await page.addInitScript(`
-    window.__SUPABASE_URL = ${JSON.stringify(SUPABASE_URL)};
-    window.__SUPABASE_ANON_KEY = ${JSON.stringify(SUPABASE_ANON_KEY)};
-    window.__authSpec = { createClient: [] };
-    ${
-      signedIn
-        ? `try { localStorage.setItem(${JSON.stringify(SESSION_KEY)}, JSON.stringify({ access_token: "auth-spec-token" })) } catch (e) {}`
-        : ""
-    }
+    (function () {
+      var rec = (window.__authSpec = { createClient: [], buildWrites: 0, readsBeforeBuildWrite: 0 });
+      var signedIn = ${signedIn};
+      var session = JSON.stringify({ access_token: "auth-spec-token" });
+      function file(key) { if (signedIn) try { localStorage.setItem(key, session) } catch (e) {} }
+      file(${JSON.stringify(SESSION_KEY)});
+      var url = ${JSON.stringify(SUPABASE_URL)};
+      Object.defineProperty(window, "__SUPABASE_URL", {
+        configurable: true,
+        enumerable: true,
+        get: function () {
+          if (rec.buildWrites === 0) rec.readsBeforeBuildWrite++;
+          return url;
+        },
+        set: function (v) {
+          url = v;
+          rec.buildWrites++;
+          file("sb-" + String(v || "").replace("https://", "").split(".")[0] + "-auth-token");
+        },
+      });
+      window.__SUPABASE_ANON_KEY = ${JSON.stringify(SUPABASE_ANON_KEY)};
+    })();
   `)
 
   // ORDER IS LOAD-BEARING. Playwright matches routes LAST-REGISTERED-FIRST, so the broad
@@ -214,16 +264,52 @@ async function arrive(
     .toBeGreaterThanOrEqual(0)
   await page.waitForTimeout(2_000)
 
+  // Only counts, options and a typeof leave the page. The recorder also holds the url and key
+  // createClient() was given, and on a keyed build those are the deploy's own config.
   const out = await page.evaluate(() => {
-    const rec = (window as any).__authSpec.createClient as Array<{ options: unknown }>
+    const spec = (window as any).__authSpec
+    const rec = spec.createClient as Array<{ options: unknown }>
     return {
       clients: rec.length,
       options: (rec[0]?.options ?? null) as Arrival["options"],
       facade: typeof (window as any).__bjjAuth,
+      buildWrites: spec.buildWrites as number,
+      readsBeforeBuildWrite: spec.readsBeforeBuildWrite as number,
     }
   })
   await page.close()
-  return { ...out, sdkFetched }
+  const arrival = { ...out, sdkFetched }
+  noteConfig(arrival)
+  expectBuildConfigFirst(arrival, url.replace(/^https?:\/\/[^/]+/, "") || "/")
+  return arrival
+}
+
+/** Records which direction this run exercised, on the test and in the log. */
+function noteConfig(a: Arrival) {
+  const description =
+    a.buildWrites > 0
+      ? "KEYED build: the page's own injected config was used"
+      : "KEYLESS build: the spec supplied the config"
+  const annotations = test.info().annotations
+  if (annotations.some((x) => x.type === "supabase-config" && x.description === description)) return
+  annotations.push({ type: "supabase-config", description })
+  console.log(`# supabase-config: ${description}`)
+}
+
+/**
+ * On a keyed build, the build's config must be in place before the page first reads it. If it
+ * is not, the nav listener's `!window.__SUPABASE_URL` guard returns first, and on a real deploy
+ * nobody gets a client. The spec's fallback config would otherwise hide that. On a keyless build
+ * there is no build write, so there is nothing to order.
+ */
+function expectBuildConfigFirst(a: Arrival, where: string) {
+  if (a.buildWrites === 0) return
+  expect(
+    a.readsBeforeBuildWrite,
+    `${where}: the page read window.__SUPABASE_URL ${a.readsBeforeBuildWrite} time(s) before this ` +
+      "KEYED build's own injection ran. On the real deploy the nav listener finds no config and " +
+      "returns, so no visitor gets a Supabase client (componentResources.ts must inject first)",
+  ).toBe(0)
 }
 
 test("@curated a redirect-back arrival creates the Supabase client and a plain arrival does not", async ({
@@ -339,9 +425,11 @@ test("@curated an already-signed-in visitor still gets a client with no neural b
   const returning = await arrive(ctx, `${baseURL}/`, { signedIn: true, blockNeural: true })
   expect(
     returning.clients,
-    `a visitor holding a session in ${SESSION_KEY} got no client — either the isAuthenticated() ` +
-      "arm of authUI.inline.ts:47 is gone, or authStorageKey() no longer derives that key from " +
-      "window.__SUPABASE_URL, and cloud sync is dead for signed-in users",
+    "a visitor holding a session for the configured project (" +
+      (returning.buildWrites > 0 ? "the KEYED build's own" : SESSION_KEY) +
+      ") got no client — either the isAuthenticated() arm of authUI.inline.ts:47 is gone, or " +
+      "authStorageKey() no longer derives that key from window.__SUPABASE_URL, and cloud sync " +
+      "is dead for signed-in users",
   ).toBe(1)
   await ctx.close()
 })

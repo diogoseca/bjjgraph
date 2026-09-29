@@ -25,6 +25,7 @@ import {
   ngFlowBuild, ngFlowAdjoint, ngFlowV0, ngFlowExactGain, ngFlowScore, ngFlowPersonal,
   NG_FLOW_H, NG_FLOW_MCAP,
 } from "../neural/src/flow.src.js";
+import { ngWireDecks, ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
@@ -32,8 +33,10 @@ const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
 const REF = JSON.parse(readFileSync(R("tests/artifacts/flow_reference.json"), "utf8"));
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
-  class DCLogic {}, { createRef: () => ({ current: null }) },
+// Built WITHOUT the flow functions (test 15 needs exactly that), but WITH the wire decoder the
+// bundle concatenates above the class — the deck manifest cannot be ingested without it (v1.204.3).
+const Component = new Function("DCLogic", "React", "ngWireDecks", "ngWireScoreWeights", `${src}\nreturn Component;`)(
+  class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights,
 );
 
 /** The real `ingest`, on the real payload — never a spec-side re-implementation (§6.3). */
@@ -248,10 +251,10 @@ test("the horizon the kernel ships at is the one the reference was solved at", (
 
 const MANIFEST = JSON.parse(readFileSync(R("source/quartz/static/neural/flashcards/_index.json"), "utf8"));
 const FlowComponent = new Function(
-  "DCLogic", "React", "ngFlowBuild", "ngFlowScore", "ngFlowPersonal",
+  "DCLogic", "React", "ngFlowBuild", "ngFlowScore", "ngFlowPersonal", "ngWireDecks", "ngWireScoreWeights",
   `${src}\nreturn Component;`,
 )(class DCLogic {}, { createRef: () => ({ current: null }) },
-  ngFlowBuild, ngFlowScore, ngFlowPersonal);
+  ngFlowBuild, ngFlowScore, ngFlowPersonal, ngWireDecks, ngWireScoreWeights);
 
 function fullApp(opts = {}) {
   const a = Object.create(FlowComponent.prototype);
