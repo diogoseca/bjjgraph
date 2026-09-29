@@ -1426,10 +1426,14 @@ def _compact_score_weights(tables: dict) -> dict:
         att = {k[: -len("|Attacker")]: v for k, v in t.items() if k.endswith("|Attacker")}
         return pos, att
     parts = {fr: split(tables[fr]) for fr in frames}
+    # The key breaks ties on the KEY itself. Sorting these sets by weight alone left tied keys in
+    # set-iteration order, which follows the per-process PYTHONHASHSEED: eight seeds gave eight byte
+    # streams of curriculum.json, and it sits on the first-hand payload path, where one draw in eight
+    # breached the delta cap (v1.198.4). Pinned by tests/curriculum_order.test.mjs.
     pk = sorted({k for fr in frames for k in parts[fr][0]},
-                key=lambda k: -max(parts[fr][0].get(k, 0.0) for fr in frames))
+                key=lambda k: (-max(parts[fr][0].get(k, 0.0) for fr in frames), k))
     tk = sorted({k for fr in frames for k in parts[fr][1]},
-                key=lambda k: -max(parts[fr][1].get(k, 0.0) for fr in frames))
+                key=lambda k: (-max(parts[fr][1].get(k, 0.0) for fr in frames), k))
     wire = {"div": WEIGHT_DIV, "p": {"k": pk}, "t": {"k": tk}}
     for fr in frames:
         pos, att = parts[fr]
