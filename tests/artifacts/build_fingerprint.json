@@ -3,14 +3,14 @@
   "app_provenance": {
    "command": "node neural/build/build.mjs",
    "esbuild": "0.27.0",
-   "git_head": "0b64eb1056e6b8722e41b59d305e7efb030d95c0",
+   "git_head": "4a0c313bd4b270b58b3260ac72869fd468a2ce5a",
    "inputs": {
     "neural/build": "31bdcda65f2e292c440c2a50d37713410d571f38",
-    "neural/src": "05edd7f62124c0447da1eaa3de9f9b0a8ac7370b",
-    "package.json": "963c75aff11e6dfdb599d872832b7de5ac8c9c53",
+    "neural/src": "fdbaf28ebef644caf08f1197ca32ff7c0ba01553",
+    "package.json": "c48c10145a81b15176c1138284e11dd1f995aaf5",
     "source/package-lock.json": "dceb6bf642cbf74f80c8df78abd388a6f25e4fd8"
    },
-   "package_version": "1.204.3",
+   "package_version": "1.204.5",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v1"
   },
@@ -67,8 +67,8 @@
     "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
    },
    "static/neural/app/neural.js": {
-    "bytes": 592723,
-    "sha256": "12aad39787c63a091132db739588db0432af4d4481ac539ea41ef9d281fc7b79",
+    "bytes": 592733,
+    "sha256": "e4ac16c07ca3c1f06d677f4fc4a52d5190634333c31a4ddc00114265e0cea6df",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
