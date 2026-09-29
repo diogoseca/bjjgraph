@@ -108,8 +108,13 @@ function ngGameValueCreateProvider(deps) {
       rollRevision: ngGameValueInteger(app._gameValueRollRevision, 'missing-roll-revision'),
       contextRevision: ngGameValueInteger(app._gameValueContextRevision, 'missing-context-revision'),
       invalidation };
+    // THREAT CARDS (v1.207.0, owner 2026-09-29): the opponent's options from here, the same list the
+    // threat cards render (`opponentThreats`), valued by the worker as probes (adapter `threats`).
+    // None while you are defending a submission: that card is the finish you are already in.
+    const threatIds = sub ? [] : [...new Set((app.opponentThreats ? app.opponentThreats(app.currentPos) : [])
+      .map(o => o && o.node && o.node.id).filter(id => typeof id === 'string' && id))];
     return { reg: ngGameValueCopy(reg), key, projection, profile, runtime, snapshot, horizon,
-      challenge, aiSkill: app.aiSkill, host, options, handId, app };
+      challenge, aiSkill: app.aiSkill, host, options, handId, app, threatIds };
   }
   function snapshotPayload(d) {
     // Native transport derives/validates snapshotHash; this content-derived ID
@@ -123,7 +128,8 @@ function ngGameValueCreateProvider(deps) {
       opponentPolicyHash: d.reg.opponentPolicyHash, ruleset: d.reg.ruleset,
       objective: 'max-win/min-loss/min-nontermination', futureStudyPolicy: 'no-additional-study-events',
       horizon: d.horizon, state: { id: M.ngMdpStateId(d.snapshot), snapshot: d.snapshot,
-        snapshotId: payload.id, snapshotHash: payload.id, aiSkill: d.aiSkill, challenge: d.challenge, host: d.host } };
+        snapshotId: payload.id, snapshotHash: payload.id, aiSkill: d.aiSkill, challenge: d.challenge, host: d.host },
+      ...(d.threatIds && d.threatIds.length ? { threatIds: d.threatIds.slice() } : {}) };
   }
   function actionRecords(d) {
     const stateId = M.ngMdpStateId(d.snapshot), used = new Set();

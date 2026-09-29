@@ -117,27 +117,22 @@ test('selecting an alternative submission enters its state without ending the ro
   const before=a.currentPos; a.enterAttempt({...o,threat:true}); assert.equal(a.currentPos,before); assert.equal(lands,1);
 });
 
-test('opponent threat points follow the future player seat, with neutral and favorable outcomes allowed',async()=>{
+// The threat card's positional MARK (`threatMark`) was retired in v1.207.0 by owner ruling
+// (2026-09-29): a threat card now shows YOUR Win chance if the opponent tries that move, from the
+// same solve as your own cards (engine threat probes; tests/mdp_threats.test.mjs). What stays true
+// of a preview is its authored immediate rate, which our practice never improves.
+test('opponent previews keep their authored immediate rate; our practice never improves their base',async()=>{
   const a=await boot(),s=find(a,'Triangle Choke from Triangle Control');
   a.playerRole='bottom';a.currentPos=s.idx;
   const threats=a.opponentThreats(s.idx);
-  for(const [label,dest] of [['Posture up','open-guard'],['Stack escape','half-guard']]) {
-    const o=threats.find(o=>o.label===label),p=a.nodes.find(n=>n.ty==='positions'&&n.posId===dest);
-    assert.equal(a.threatMark(o).i,Math.round(p.s[1]*100)+0,label);
+  for(const label of ['Posture up','Stack escape']) {
+    const o=threats.find(o=>o.label===label);
     assert.equal(a.choiceChance(o),1-a.calSuccess(s),label);
   }
-  assert.notEqual(a.threatMark(threats[0]).col,a.threatMark(threats[1]).col);
-  const mount=a.nodes.find(n=>n.ty==='positions'&&n.posId==='mount');
   const turn={threat:true,node:{ty:'transitions',cal:{successRate:60,outcomes:[{result:'success',to:'mount/top'}]}}};
   a.playerRole='top';
-  assert.equal(a.threatMark(turn).i,Math.round(mount.s[1]*100)); // opponent takes top: we become bottom
-  turn.node.cal.outcomes[0].to='mount/bottom';
-  assert.equal(a.threatMark(turn).i,Math.round(mount.s[0]*100));
-  assert.ok(a.threatMark(turn).i>0); // opponent ownership alone must never force red
-  turn.node.cal.outcomes[0].to='armbar-control/top';
-  assert.equal(a.threatMark(turn).i,Math.round(find(a,'Armbar from Armbar Control').s[1]*100));
   assert.equal(a.choiceChance(turn),0.6);
   a.stateBonus=()=>0.9;a.userMods=[{on:true,name:turn.node.t,pct:95}];
   assert.equal(a.choiceChance(turn),0.6); // our improvements do not improve their base rate
-  assert.equal(a.threatMark({threat:true,action:'finish',node:s}).i,-100);
+  assert.equal(typeof a.threatMark,'undefined','the retired positional mark stays retired');
 });

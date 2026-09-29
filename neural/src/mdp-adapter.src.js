@@ -227,15 +227,55 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     });
     handCache.set(cacheKey,result);return result;
   }
+  function endpointOf(request, probability, next, events, terminal) {
+    return { probability: ngMdpFraction(probability), ...(terminal || { next: normalize(next, request) }), events };
+  }
+  function finishMoveOf(request, p, next, events) {
+    return cap(next, request)
+      ? endpointOf(request, p, null, events.concat('cap-check', 'terminal'), classify(next, 'reset', 'cap-reset', request))
+      : endpointOf(request, p, arrive(next), events.concat('cap-check', 'arrival'));
+  }
+  // The live opponent's resolution of ONE positional technique `a` from state `s` (dev's
+  // opponentDefend: the whole outcome table is drawn; a terminal row leaves you in place), each row
+  // scaled by `weight`. The forced opponent action weights it by the policy's choice mass; a threat
+  // probe weights it 1. One implementation for both, so a threat card and the game cannot disagree.
+  function opponentPositionalRows(s, a, weight, request) {
+    const out = [], act = node(a.techniqueId);
+    for (const row of rows(act, null, s)) {
+      const r = destination(row.out), dest = r.terminal ? s.nodeId : r.nodeId || a.destinationId || s.nodeId;
+      const target = node(dest), caught = sub(target);
+      const role = caught ? flip(caught.fromRole) : r.role ? flip(r.role) : act.fallbackRole ? flip(act.fallbackRole) : s.role;
+      out.push(finishMoveOf(request, ngMdpMul(weight, row.p), { ...s, nodeId: dest, role, moveCount: s.moveCount + 1 }, ['opponent-positional', 'increment']));
+    }
+    return out;
+  }
+  // THREAT PROBES (v1.207.0; owner 2026-09-29: a threat card shows YOUR win chance if the opponent
+  // tries that move). From the current decision's node, with the opponent to move now: a submission
+  // enters your defense; a positional move resolves exactly as the forced opponent action resolves
+  // a chosen technique (`opponentPositionalRows`), without the policy's choice weight. Probes are
+  // evaluation seeds (ngMdpExpandSteps), never player actions, and change no root value: optimal
+  // values are per state. While you are already defending a submission there is no separate threat
+  // to value, so those probes are unavailable with that reason.
+  function threats(input, request, ids) {
+    if (graph.ruleset !== request.ruleset) throw new Error('stale-graph-ruleset');
+    const s = { ...normalize(input, request), phase: 'opponent' }, here = node(s.nodeId), out = [];
+    const options = sub(here) ? new Map() : new Map(hand(s, flip(s.role), request).map(a => [a.techniqueId, a]));
+    for (const id of ids) {
+      const a = options.get(id);
+      if (!a) { out.push({ techniqueId: id, status: 'unavailable', reason: sub(here) ? 'defending-now' : 'not-an-opponent-option' }); continue; }
+      const act = node(a.techniqueId);
+      const branches = act.ty === 'submissions'
+        ? [endpointOf(request, ngMdpRat(1), defend(s, act), ['opponent-submission', 'enter-defense'])]
+        : opponentPositionalRows(s, a, ngMdpRat(1), request);
+      out.push({ techniqueId: id, status: 'ready', branches });
+    }
+    return out;
+  }
   function enumerate(input, request) {
     if (graph.ruleset !== request.ruleset) throw new Error('stale-graph-ruleset');
     const s = normalize(input, request), stateId = ngMdpStateId(s), n = node(s.nodeId), submission = sub(n);
     const out = { id: stateId, snapshot: s, actions: [] };
-    const endpoint = (probability, next, events, terminal) => ({ probability: ngMdpFraction(probability),
-      ...(terminal || { next: normalize(next, request) }), events });
-    const finishMove = (p, next, events) => cap(next, request)
-      ? endpoint(p, null, events.concat('cap-check', 'terminal'), classify(next, 'reset', 'cap-reset', request))
-      : endpoint(p, arrive(next), events.concat('cap-check', 'arrival'));
+    const endpoint = (...args) => endpointOf(request, ...args), finishMove = (...args) => finishMoveOf(request, ...args);
     if (s.phase === 'opponent') {
       const branches = [], actionId = ngMdpActionId(stateId, n.id, 'forced', null, 'actual-opponent');
       out.actions.push({ id: actionId, branches });
@@ -264,13 +304,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       for (const a of subs) branches.push(endpoint(ngMdpDiv(pf, ngMdpRat(subs.length)), defend(s, node(a.techniqueId)), ['opponent-submission', 'enter-defense']));
       trans.sort((a,b) => value(node(b.destinationId || b.techniqueId), s.role, true) - value(node(a.destinationId || a.techniqueId), s.role, true));
       const fallback = (trans.length ? trans : subs).slice(0, 3);
-      for (const a of fallback) for (const row of rows(node(a.techniqueId), null, s)) {
-        const r = destination(row.out), dest = r.terminal ? s.nodeId : r.nodeId || a.destinationId || s.nodeId;
-        const target = node(dest), caught = sub(target), act = node(a.techniqueId);
-        const role = caught ? flip(caught.fromRole) : r.role ? flip(r.role) : act.fallbackRole ? flip(act.fallbackRole) : s.role;
-        const p = ngMdpMul(ngMdpDiv(ngMdpSub(ngMdpRat(1), pf), ngMdpRat(fallback.length)), row.p);
-        branches.push(finishMove(p, { ...s, nodeId: dest, role, moveCount: s.moveCount + 1 }, ['opponent-positional', 'increment']));
-      }
+      for (const a of fallback) branches.push(...opponentPositionalRows(s, a, ngMdpDiv(ngMdpSub(ngMdpRat(1), pf), ngMdpRat(fallback.length)), request));
       return out;
     }
     const actions = hand(s, s.role, request);
@@ -329,7 +363,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       s.panicKey==null?null:bonusTotal(s.panicKey,s.arrivalAge)]);
   }
   const behaviorKey=(input,request)=>normalizedBehaviorKey(normalize(input,request));
-  return { normalize, enumerate, behaviorKey, normalizedBehaviorKey,normalizedStateId:ngMdpStateId,
+  return { normalize, enumerate, threats, behaviorKey, normalizedBehaviorKey,normalizedStateId:ngMdpStateId,
     stateId: (s, request) => ngMdpStateId(normalize(s, request)), graphCoverage: graph.coverage,
     semantics: { clock: 'live-selective-checks', futureStudy: 'no-additional-study-events', futureContent: 'snapshot-residency', counterSaturation: 'at-cap-equivalence', sharpnessAgeCap: ageCap, stateEquivalence:'same-mechanical-context+current-deck-effects+residency', equivalenceScope:'terminal-outcomes-only', exposureLabelsPreserved:false } };
 }
@@ -349,6 +383,30 @@ function* ngMdpExpandSteps(adapter, request, options) {
   if (request.state.id !== expected) throw new Error('stale-state-identity');
   seen.set(expected,expected);classes.set(classKey(pending[0]),expected); let branchCount = 0,aliases=0;
   const failure=reason=>{const error=new Error(reason);error.coverage={status:'INCOMPLETE',states:states.length,discoveredStates:seen.size,branches:branchCount};throw error;};
+  // One linker for every row, action branch or threat-probe row alike: count it, drop a zero row's
+  // successor, map the successor to its canonical (behaviour-class) ID and queue it once.
+  const link=b=>{
+    branchCount++; if (branchCount > limits.maxBranches) failure('expansion-branch-budget');
+    if(!positive.has(b.probability))positive.set(b.probability,!!ngMdpRat(b.probability)[0]);
+    if (!b.next || !positive.get(b.probability)) { delete b.next; return; }
+    const identity=stateId(b.next),behavior=classKey(b.next);
+    b.to=classes.get(behavior)||identity;if(b.to!==identity)aliases++;
+    if (!seen.has(b.to)) {
+      if (seen.size >= limits.maxStates) failure('expansion-state-budget');
+      seen.set(b.to,b.to);classes.set(behavior,b.to);pending.push(b.next);
+    }
+    b.to=seen.get(b.to); // reuse canonical ID strings instead of per-branch JSON copies
+    delete b.next;
+  };
+  // THREAT PROBES seed the expansion (adapter `threats`): their successors are expanded and solved
+  // like any reachable state, so each threat card can be backed up with the same Σ P·V as a card.
+  // Adding states cannot change the root's value (optimal values are per state); it costs states.
+  const threatIds=Array.isArray(request.threatIds)?request.threatIds:[];
+  if(threatIds.length){
+    if(typeof adapter.threats!=='function')throw new Error('threat-probes-unsupported');
+    model.probes=adapter.threats(request.state.snapshot,request,threatIds);
+    for(const probe of model.probes)for(const b of probe.branches||[])link(b);
+  }
   for (let i = 0; i < pending.length; i++) {
     if (limits.cancelled && limits.cancelled()) throw new Error('cancelled');
     if (Date.now() - started > limits.maxMilliseconds) failure('expansion-time-budget');
@@ -356,19 +414,7 @@ function* ngMdpExpandSteps(adapter, request, options) {
     let state;
     try { state = adapter.enumerate(snapshot, request); }
     catch (error) { states.push({ id, actions: [{ id: 'unavailable', status: 'unavailable', reason: error.message }] }); yield; continue; }
-    for (const a of state.actions) for (const b of a.branches) {
-      branchCount++; if (branchCount > limits.maxBranches) failure('expansion-branch-budget');
-      if(!positive.has(b.probability))positive.set(b.probability,!!ngMdpRat(b.probability)[0]);
-      if (!b.next || !positive.get(b.probability)) { delete b.next; continue; }
-      const identity=stateId(b.next),behavior=classKey(b.next);
-      b.to=classes.get(behavior)||identity;if(b.to!==identity)aliases++;
-      if (!seen.has(b.to)) {
-        if (seen.size >= limits.maxStates) failure('expansion-state-budget');
-        seen.set(b.to,b.to);classes.set(behavior,b.to);pending.push(b.next);
-      }
-      b.to=seen.get(b.to); // reuse canonical ID strings instead of per-branch JSON copies
-      delete b.next;
-    }
+    for (const a of state.actions) for (const b of a.branches) link(b);
     delete state.snapshot; states.push(state); yield;
   }
   model.adapterCoverage = { states: states.length, branches: branchCount, equivalentDestinationRedirects:aliases, graph: adapter.graphCoverage, semantics: {...adapter.semantics,behaviorCompression:limits.behaviorCompression!==false} };
