@@ -680,7 +680,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; `--update` reseeds it but can only ever TIGHTEN a `neural.*` ceiling |
 | `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight from a real browser: raw bytes, and the boot's chunk-request COUNT |
 | `tests/artifacts/payload_policy.json` | both of those | **the two gzip figures are SOFT** — over `target` warns and passes, over `action` fails, and any one change growing more than `delta_cap` fails whatever the absolute figure. Bands are hand-set; a baseline moves ONLY via `--accept-baseline <metric> --reason "…"`, never by itself (a self-advancing baseline is a delta check that never runs) |
-| `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved |
+| `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved. A version bump moves nothing (neural.js's baked version is normalised and asserted); a bundle-only change re-seeds with `validate:build-shape:app`, no capture |
 | `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
