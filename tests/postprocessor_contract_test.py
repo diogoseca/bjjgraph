@@ -15,12 +15,13 @@ mutants; no git checkout is used to restore fixtures.
 COORDINATION §7K: calibration compares exact parsed counts from complete, unique
 summary lines, with synthetic over/under-count and malformed-sibling controls.
 
-Publication classifier scope: BOTH dates remain required. Partial publication
-absence is a real failure; sole source-pinned whole-corpus absence is pending (2),
-never conformity (0). The original eleven-row index assertions remain required.
-Known limitations/NON-KILLS: an exact revert of the pinned producer bytes can
-reactivate pending until X-01 DELETES that branch. Source-index completeness is
-B's contract; jointly removing an index key and its page metadata is outside this
+Publication classifier scope: BOTH dates are required. Any publication absence,
+partial or whole-corpus, is a real failure (1); there is no pending verdict. The
+source-pinned "whole-corpus absence is pending (2)" branch and its documented
+non-kill (an exact revert of the pinned producer bytes reactivated it) were deleted
+on X-01 acceptance, as the checker's own docstring required. The original
+eleven-row index assertions remain required. Known limitations/NON-KILLS:
+source-index completeness is B's contract; jointly removing an index key and its page metadata is outside this
 F gate. Date value correctness and provenance belong to Head/date tests. These
 limitations are not claimed as mutation kills or end-state acceptance.
 
@@ -313,7 +314,11 @@ class PostprocessorContractTest(unittest.TestCase):
         assert_contract_counts(result.stdout, **BASELINE_CONTRACT_COUNTS)
         self.assertIn('check_affiliate_surface.py --built', result.stdout)
 
-    def test_all_eligible_publications_absent_is_expected_pending(self):
+    def test_all_eligible_publications_absent_is_a_real_failure(self):
+        # Until X-01 this exact state was an "expected pending" verdict (exit 2), available only while
+        # Head.tsx and lastmod.ts matched the reviewed omission producer c55735dc4. X-01 made the
+        # producers EMIT publication, so that branch is deleted: absent publication on every eligible
+        # page is a plain real failure under ANY producer, and it names both missing requirements.
         originals = FixtureSnapshot(*self.eligible_paths)
         try:
             for path in originals.before:
@@ -322,22 +327,21 @@ class PostprocessorContractTest(unittest.TestCase):
                 self.assertEqual(original.count(PUBLISHED_TAG), 1)
                 path.write_text(original.replace(PUBLISHED_TAG, ''))
             result = self.run_gate()
-            self.assertEqual(result.returncode, 2, result.stdout + result.stderr)
-            self.assertIn('POSTPROCESSOR_CONTRACT_RESULT=pending', result.stdout.splitlines())
-            self.assertIn('EXPECTED PENDING', result.stderr)
-            self.assertIn('pending git-derived publication', result.stderr)
-            self.assertEqual(
-                [line for line in result.stderr.splitlines() if line.startswith('[postprocessor-contract] EXPECTED PENDING:')],
-                ['[postprocessor-contract] EXPECTED PENDING: publication is absent on EVERY '
-                 'eligible page, pending git-derived publication work; known producer verified. '
-                 '10/11 required literal shapes match; contract still requires both timestamps; exit 2.'])
+            self.assert_classifier(result, 'failure')
+            failures = [line for line in result.stderr.splitlines()
+                        if line.startswith('[postprocessor-contract] FAIL: ')]
+            eligible = BASELINE_CONTRACT_COUNTS['eligible']
+            self.assertIn('[postprocessor-contract] FAIL: publication-coverage: '
+                          f'require {eligible} published pages, found 0', failures)
+            self.assertIn('[postprocessor-contract] FAIL: index-article-times: '
+                          'require one published and one modified timestamp', failures)
             assert_contract_counts(result.stdout, **dict(BASELINE_CONTRACT_COUNTS, shapes=10, published=0))
-            self.assertNotIn('REAL FAILURE', result.stderr)
+            self.assertNotIn('pending', (result.stdout + result.stderr).lower())
         finally:
             originals.restore()
 
     def assert_classifier(self, result, state):
-        code = {'conforms': 0, 'failure': 1, 'pending': 2}[state]
+        code = {'conforms': 0, 'failure': 1}[state]
         self.assertEqual(result.returncode, code, result.stdout + result.stderr)
         verdicts = [line for line in result.stdout.splitlines()
                     if line.startswith('POSTPROCESSOR_CONTRACT_RESULT=')]
@@ -345,9 +349,6 @@ class PostprocessorContractTest(unittest.TestCase):
         if state == 'failure':
             self.assertIn('REAL FAILURE', result.stderr)
             self.assertNotIn('EXPECTED PENDING', result.stderr)
-        elif state == 'pending':
-            self.assertIn('EXPECTED PENDING', result.stderr)
-            self.assertNotIn('REAL FAILURE', result.stderr)
         else:
             self.assertEqual(result.stderr, '')
 
@@ -493,10 +494,13 @@ class PostprocessorContractTest(unittest.TestCase):
             self.restore_pages(originals)
 
     def test_nonsemantic_publication_outside_head_remains_absent(self):
+        # A publication tag inside a comment, a script or escaped code is not publication: the count
+        # stays 0 (the discriminating assertion), so with every real tag removed the verdict is a
+        # real failure (it was "pending" until the pending branch was deleted on X-01 acceptance).
         originals = self.without_all_publications()
         try:
             target = self.public / 'Positions/P0.html'
-            pending_text = target.read_text()
+            absent_text = target.read_text()
             for label, suffix in (
                 ('comment', '<!--' + PUBLISHED_TAG + '-->'),
                 ('script', '<script>' + PUBLISHED_TAG + '</script>'),
@@ -504,9 +508,9 @@ class PostprocessorContractTest(unittest.TestCase):
             ):
                 with self.subTest(nonsemantic=label):
                     with FixtureSnapshot(target):
-                        target.write_text(pending_text + suffix)
+                        target.write_text(absent_text + suffix)
                         result = self.run_gate()
-                        self.assert_classifier(result, 'pending')
+                        self.assert_classifier(result, 'failure')
                         assert_contract_counts(result.stdout, published=0, eligible=4002)
         finally:
             self.restore_pages(originals)
@@ -568,47 +572,17 @@ class PostprocessorContractTest(unittest.TestCase):
             if folder.exists():
                 raise FixtureRestorationError(f'fixture folder cleanup failed: {folder}')
 
-    def test_cli_pending_requires_each_source_pin_and_exact_revert_restores_it(self):
-        originals = self.without_all_publications()
-        try:
-            with tempfile.TemporaryDirectory(prefix='quartz-pending-source-cli-') as tmp:
-                root = Path(tmp)
-                (root / 'scripts').mkdir()
-                for name in ('check_postprocessor_contract.py', 'regenerate_agent_discovery.py'):
-                    shutil.copyfile(ROOT / 'scripts' / name, root / 'scripts' / name)
-                producers = ('source/quartz/components/Head.tsx', 'source/quartz/plugins/transformers/lastmod.ts')
-                producer_bytes = {}
-                for relative in producers:
-                    target = root / relative
-                    target.parent.mkdir(parents=True, exist_ok=True)
-                    producer_bytes[target] = (ROOT / relative).read_bytes()
-                    target.write_bytes(producer_bytes[target])
-                command = [sys.executable, '-B', str(root / 'scripts/check_postprocessor_contract.py'),
-                           '--public', str(self.public), '--content', str(self.content)]
-
-                def run_copied_gate():
-                    return subprocess.run(command, cwd=root, capture_output=True, text=True)
-
-                self.assert_classifier(run_copied_gate(), 'pending')
-                for relative in producers:
-                    with self.subTest(changed_producer=relative):
-                        target = root / relative
-                        snapshot = FixtureSnapshot(target)
-                        try:
-                            target.write_bytes(snapshot.before[target] + b'\n// fixture source-pin mutation\n')
-                            result = run_copied_gate()
-                            self.assert_classifier(result, 'failure')
-                            self.assertIn('publication-pending-source', result.stderr)
-                            self.assertIn(relative, result.stderr)
-                            self.assertNotIn('ImportError', result.stderr)
-                            self.assertNotIn('ModuleNotFoundError', result.stderr)
-                        finally:
-                            snapshot.restore()
-                        # Intentional, documented non-kill until X-01 removes pending:
-                        # restoring the exact reviewed source restores eligibility.
-                        self.assert_classifier(run_copied_gate(), 'pending')
-        finally:
-            self.restore_pages(originals)
+    def test_pending_verdict_is_retired_from_checker_and_workflow(self):
+        # The pin-gated pending branch was deleted on X-01 acceptance. Guard the retirement at both
+        # ends: the checker's only verdict markers are conforms and failure and it never chooses exit
+        # 2, and the e2e wrapper cannot accept a pending marker (PostprocessorWorkflowWrapperTest runs it).
+        source = CHECK.read_text(encoding='utf-8')
+        self.assertEqual(sorted(set(re.findall(r'POSTPROCESSOR_CONTRACT_RESULT=([a-z]+)', source))),
+                         ['conforms', 'failure'])
+        self.assertNotIn('return 2', source)
+        self.assertNotIn('_pending_source_errors', source)
+        workflow = (ROOT / '.github/workflows/e2e-full.yml').read_text(encoding='utf-8')
+        self.assertNotIn('POSTPROCESSOR_CONTRACT_RESULT=pending', workflow)
 
     def test_each_of_eleven_literal_shapes_is_required(self):
         cases = [
@@ -805,26 +779,6 @@ class PostprocessorPublicationEligibilityTest(unittest.TestCase):
         self.assertEqual(result, (True, False))
         self.assertTrue(any('publication-shape' in error for error in errors), errors)
 
-    def test_pending_source_pin_rejects_each_changed_producer(self):
-        producers = ('source/quartz/components/Head.tsx', 'source/quartz/plugins/transformers/lastmod.ts')
-        originals = {}
-        for relative in producers:
-            target = self.root / relative
-            target.parent.mkdir(parents=True, exist_ok=True)
-            originals[target] = (ROOT / relative).read_bytes()
-            target.write_bytes(originals[target])
-        self.assertEqual(postprocessor_contract._pending_source_errors(self.root), [])
-        for relative in producers:
-            with self.subTest(changed_producer=relative):
-                target = self.root / relative
-                snapshot = FixtureSnapshot(target)
-                try:
-                    target.write_bytes(snapshot.before[target] + b'\n// fixture source-pin mutation\n')
-                    errors = postprocessor_contract._pending_source_errors(self.root)
-                    self.assertTrue(errors)
-                    self.assertTrue(any(relative in error and 'pending is unavailable' in error for error in errors), errors)
-                finally:
-                    snapshot.restore()
 
 
 class PostprocessorFreshOutputTest(unittest.TestCase):
@@ -1045,7 +999,8 @@ class PostprocessorWorkflowWrapperTest(unittest.TestCase):
 
     Fourteen stub results exercise status/marker agreement and exact uniqueness.
     A separate real-Python missing-file control proves interpreter exit 2 cannot
-    masquerade as pending. These are tiny shell fixtures, not site builds.
+    masquerade as a verdict, and the retired pending verdict is rejected outright.
+    These are tiny shell fixtures, not site builds.
     """
 
     def setUp(self):
@@ -1065,9 +1020,9 @@ class PostprocessorWorkflowWrapperTest(unittest.TestCase):
         self.wrapper = step['run']
         self.assertIsInstance(self.wrapper, str)
         for marker in ('POSTPROCESSOR_CONTRACT_RESULT=',
-                       'POSTPROCESSOR_CONTRACT_RESULT=conforms',
-                       'POSTPROCESSOR_CONTRACT_RESULT=pending'):
+                       'POSTPROCESSOR_CONTRACT_RESULT=conforms'):
             self.assertIn(marker, self.wrapper)
+        self.assertNotIn('POSTPROCESSOR_CONTRACT_RESULT=pending', self.wrapper)
         self.tmp = tempfile.TemporaryDirectory(prefix='quartz-contract-wrapper-')
         self.addCleanup(self.tmp.cleanup)
         self.cwd = Path(self.tmp.name)
@@ -1096,7 +1051,7 @@ class PostprocessorWorkflowWrapperTest(unittest.TestCase):
         pending = 'POSTPROCESSOR_CONTRACT_RESULT=pending'
         cases = [
             ('conforms', 0, conforms + '\n', 0),
-            ('pending', 2, pending + '\n', 0),
+            ('retired-pending-is-rejected', 2, pending + '\n', 1),
             ('failure-even-with-pending-marker', 1, pending + '\n', 1),
             ('exit-two-without-marker', 2, 'Python did not start\n', 1),
             ('exit-zero-without-marker', 0, 'No classification\n', 1),
@@ -1117,10 +1072,7 @@ class PostprocessorWorkflowWrapperTest(unittest.TestCase):
                 diagnostic = result.stdout + result.stderr
                 self.assertEqual(result.returncode, expected, diagnostic)
                 self.assertIn(output, result.stdout, 'combined gate log must be retained')
-                if name == 'pending':
-                    self.assertIn('::notice::', result.stdout)
-                    self.assertNotIn('::error::', result.stdout)
-                elif expected == 0:
+                if expected == 0:
                     self.assertNotIn('::notice::', result.stdout)
                     self.assertNotIn('::error::', result.stdout)
                 else:

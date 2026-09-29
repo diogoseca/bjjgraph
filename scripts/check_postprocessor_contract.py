@@ -10,19 +10,24 @@ Marker preservation (contract item 5) belongs to the existing affiliate gate:
     python3 scripts/check_affiliate_surface.py --built
 This gate neither stamps output nor maintains a rival affiliate baseline.
 
-Both timestamps remain required. Outcomes are 0=conforms, 1=real failure, and
-2=expected pending ONLY when every eligible page lacks publication, all other
-checks conform, and the known omission-producing Head/lastmod bytes still match.
-CI must require the exact verdict marker as well as the exit code: Python itself
-also exits 2 for a missing script or invalid arguments. All eleven index checks
-remain required; pending honestly reports ten matches, not eleven.
+Both timestamps are required on every eligible page. Outcomes are 0=conforms and
+1=real failure; there is no third verdict. CI must require the exact verdict marker
+as well as the exit code: Python itself exits 2 for a missing script or invalid
+arguments, so a bare 2 is never a verdict. All eleven index checks are required.
 
 Eligible paths come from static/contentIndex.json source keys plus source-backed
 folder copies, independently of timestamp presence. Completeness of that index is
 B's contract: jointly dropping an index key and its page metadata is not proved by
-this gate. Timestamp values/provenance belong to Head/date tests. The temporary
-source pin can reactivate on an exact source revert; X-01 acceptance must DELETE
-the pending branch, per GOLDEN-RECAPTURE.md. No calendar, flag or ancestry machinery.
+this gate. Timestamp values/provenance belong to Head/date tests. The interim
+"expected pending" verdict -- all-absent publication accepted while Head.tsx and
+lastmod.ts still matched the reviewed omission producer c55735dc4 -- is DELETED, as
+this docstring required on X-01 acceptance: dev's git-derived publication dates
+(abbbb8873, 962064a49, e462a169d) reached the programme at its sixth integration,
+and the cutover candidate's real build carries publication on 6,118/6,118 eligible
+pages. Absent publication is a real failure under any producer, and moving the pin
+to the current producers would have been a weakening: they EMIT publication, so
+pinning them as an omission producer would let an all-absent site pass. No calendar,
+flag or ancestry machinery.
 
 Run after the emitter, or against the completed read-only golden tree:
     python3 scripts/check_postprocessor_contract.py --public /path/to/build
@@ -32,7 +37,6 @@ from __future__ import annotations
 import argparse
 from html.parser import HTMLParser
 from pathlib import Path, PurePosixPath
-import hashlib
 import json
 import re
 import sys
@@ -70,18 +74,6 @@ LITERAL_SHAPES = (
 )
 
 
-# Reviewed omission producer c55735dc4; this is an interim source witness, not a
-# mutable baseline. Retire the entire pending branch when X-01 is accepted.
-_PENDING_PRODUCER = {
-    'source/quartz/components/Head.tsx':
-        '31bf630ff3ca633b5a4b249f065fe530c7d01f5d0f468139e2f196a4a1d5f7e0',
-    'source/quartz/plugins/transformers/lastmod.ts':
-        '56bf63e28a16fbf9f13753a28a5a89e20b92cc8c74f492dbfbe5ade76b01e3e0',
-}
-_EXPECTED_INDEX_ERRORS = (
-    'index-article-times: expected 2 literal matches, found 1',
-    'index-article-times: require one published and one modified timestamp',
-)
 
 
 class TitleParser(HTMLParser):
@@ -214,19 +206,6 @@ def _check_publication_page(text, relative, errors):
     return modified == 1, published == 1
 
 
-def _pending_source_errors(root=ROOT):
-    errors = []
-    for relative, expected in _PENDING_PRODUCER.items():
-        try:
-            actual = hashlib.sha256((root / relative).read_bytes()).hexdigest()
-        except OSError:
-            actual = None
-        if actual != expected:
-            errors.append(f'publication-pending-source: {relative} differs from reviewed omission '
-                          'producer c55735dc4; pending is unavailable')
-    return errors
-
-
 def _publication_error(eligible, published):
     return f'publication-coverage: require {eligible} published pages, found {published}'
 
@@ -274,8 +253,6 @@ def check_contract(public, content):
         errors.append(f'publication-page: required output missing: {relative}')
     if published_pages != len(eligible):
         errors.append(_publication_error(len(eligible), published_pages))
-    pending_source_errors = _pending_source_errors() if published_pages == 0 else []
-    errors.extend(pending_source_errors)
     if not articles:
         errors.append('article-coverage: zero article pages checked')
 
@@ -333,8 +310,7 @@ def check_contract(public, content):
     counts = dict(shapes=shapes, sitemap=len(locs), articles=articles, exceptions=exceptions,
                   sources=len(sources), noindex=noindex, eligible=len(eligible),
                   published=published_pages, modified=modified_pages,
-                  source_slugs=source_slugs, folder_copies=folder_copies,
-                  pending_source_matches=not pending_source_errors)
+                  source_slugs=source_slugs, folder_copies=folder_copies)
     return errors, counts
 
 
@@ -357,28 +333,12 @@ def main():
           f"modified: {counts['modified']}/{counts['eligible']}; "
           f"{counts['source_slugs']} source slugs + {counts['folder_copies']} additional folder copies")
     if errors:
-        expected = list(_EXPECTED_INDEX_ERRORS) + [_publication_error(counts['eligible'], 0)]
-        # Full-list equality: an additional failure can NEVER hide behind pending.
-        pending = (counts['published'] == 0 and counts['eligible'] > 0
-                   and counts['modified'] == counts['eligible']
-                   and sorted(errors) == sorted(expected))
-        if pending:
-            print('[postprocessor-contract] EXPECTED PENDING: publication is absent on EVERY '
-                  'eligible page, pending git-derived publication work; known producer verified. '
-                  f"{counts['shapes']}/{len(LITERAL_SHAPES)} required literal shapes match; "
-                  'contract still requires both timestamps; exit 2.', file=sys.stderr)
-        else:
-            if counts['published'] == 0 and counts['pending_source_matches']:
-                print('[postprocessor-contract] EXPECTED ABSENCE: no eligible page carries '
-                      'publication under the known producer, but other deviations prevent pending.',
-                      file=sys.stderr)
-            print('[postprocessor-contract] REAL FAILURE: deviations exceed the exact '
-                  'all-absent, known-producer pending state; exit 1.', file=sys.stderr)
+        print(f'[postprocessor-contract] REAL FAILURE: {len(errors)} deviation(s) below; exit 1.',
+              file=sys.stderr)
         for error in errors:
-            print('[postprocessor-contract] ' + ('DEVIATION: ' if pending else 'FAIL: ') + error,
-                  file=sys.stderr)
-        print('POSTPROCESSOR_CONTRACT_RESULT=' + ('pending' if pending else 'failure'))
-        return 2 if pending else 1
+            print('[postprocessor-contract] FAIL: ' + error, file=sys.stderr)
+        print('POSTPROCESSOR_CONTRACT_RESULT=failure')
+        return 1
     print('[postprocessor-contract] OK; markers delegated to scripts/check_affiliate_surface.py --built')
     print('POSTPROCESSOR_CONTRACT_RESULT=conforms')
     return 0

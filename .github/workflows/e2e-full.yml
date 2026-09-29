@@ -84,9 +84,6 @@ jobs:
 
           case "$contract_status:$contract_marker" in
             0:POSTPROCESSOR_CONTRACT_RESULT=conforms) ;;
-            2:POSTPROCESSOR_CONTRACT_RESULT=pending)
-              echo "::notice::Publication contract pending on every eligible page."
-              ;;
             *)
               echo "::error::Gate failure or inconsistent result; exit $contract_status."
               exit 1
