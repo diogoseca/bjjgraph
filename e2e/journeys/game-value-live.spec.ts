@@ -61,6 +61,18 @@ for (const width of [1440, 390]) {
     const displayed = await own.locator('[data-choice-win]').allTextContents()
     expect(displayed.length).toBe(receipt.ids.length)
     expect(displayed.every(value => value !== '—' && /%/.test(value))).toBe(true)
+    // V(s) ON THE LEGEND (owner, 2026-09-29): the Win/Lose label prints this decision's own win
+    // chance, and the suggested card (the root's selected action) prints the same number. Both read
+    // off the DOM the player sees. Mutant, recorded 2026-09-29: looking the label up inside the
+    // legend key (`legendRef`, which does not contain it) turns this red: the label never gets its
+    // `data-win-chance`.
+    const legend = await page.locator('[data-legend-win]').getAttribute('data-win-chance')
+    expect(legend, 'the legend prints V(s)').toMatch(/%/)
+    await expect(page.locator('[data-legend-win]')).toHaveText('Win ' + legend)
+    const suggested = await own.locator('[data-choice-execute]').evaluateAll(cards => cards
+      .filter(card => (card.querySelector('[data-choice-recommended]')?.textContent || '') !== '')
+      .map(card => card.querySelector('[data-choice-win]')?.textContent))
+    expect(suggested, 'exactly one suggested card, printing V(s)').toEqual([legend])
     await expect(own.locator('[data-choice-value-status]')).toHaveText('This roll · your practice')
     await expect(own.locator('[data-choice-inspect]').first()).toBeEnabled()
     expect(errors).toEqual([])

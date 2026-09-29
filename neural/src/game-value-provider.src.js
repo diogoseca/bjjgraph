@@ -110,9 +110,10 @@ function ngGameValueCreateProvider(deps) {
       invalidation };
     // THREAT CARDS (v1.207.0, owner 2026-09-29): the opponent's options from here, the same list the
     // threat cards render (`opponentThreats`), valued by the worker as probes (adapter `threats`).
-    // None while you are defending a submission: that card is the finish you are already in.
-    const threatIds = sub ? [] : [...new Set((app.opponentThreats ? app.opponentThreats(app.currentPos) : [])
-      .map(o => o && o.node && o.node.id).filter(id => typeof id === 'string' && id))];
+    // While you apply a submission they are the defender's escapes. None while you are DEFENDING
+    // one: that card is the finish you are already in, valued as this decision's own win chance.
+    const threatIds = sub && app.playerRole !== sub.fromRole ? [] : [...new Set((app.opponentThreats ? app.opponentThreats(app.currentPos) : [])
+      .map(o => o && o.node && (typeof app.threatIdOf === 'function' ? app.threatIdOf(o) : o.node.id)).filter(id => typeof id === 'string' && id))];
     return { reg: ngGameValueCopy(reg), key, projection, profile, runtime, snapshot, horizon,
       challenge, aiSkill: app.aiSkill, host, options, handId, app, threatIds };
   }

@@ -250,22 +250,38 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     }
     return out;
   }
+  // A threat's id: its technique, and for an ESCAPE also where it leads. A submission's escapes
+  // share ONE technique id and differ only by destination; two escapes to the same place are the same
+  // single row (`opponentEscapeRow`), so sharing an id there is exact, not a guess. The app mints the
+  // same string from a card (`threatIdOf` in app.src.jsx); a mismatch prints "—", never a wrong number.
+  function ngMdpThreatId(a) { return a.kind === 'escape' ? 'escape:' + a.techniqueId + '>' + a.destinationId : a.techniqueId; }
+  // The defender's ESCAPE `response` from the submission you are applying: they arrive at its
+  // destination, and you with them, one move later. The forced opponent action weights it 1/n (one
+  // equal share per escape); a threat probe weights it 1. One row, one implementation, as above.
+  function opponentEscapeRow(s, response, weight, request) {
+    const target = node(response.destinationId), role = flip(response.destinationRole);
+    const id = target.role === role ? target.id : target.pairId || target.id;
+    return endpointOf(request, weight, arrive({ ...s, nodeId: id, role, moveCount: s.moveCount + 1 }), ['opponent-escape', 'increment', 'arrival']);
+  }
   // THREAT PROBES (v1.207.0; owner 2026-09-29: a threat card shows YOUR win chance if the opponent
   // tries that move). From the current decision's node, with the opponent to move now: a submission
   // enters your defense; a positional move resolves exactly as the forced opponent action resolves
-  // a chosen technique (`opponentPositionalRows`), without the policy's choice weight. Probes are
+  // a chosen technique (`opponentPositionalRows`), without the policy's choice weight; while YOU are
+  // applying a submission, their options are their escapes (`opponentEscapeRow`). Probes are
   // evaluation seeds (ngMdpExpandSteps), never player actions, and change no root value: optimal
-  // values are per state. While you are already defending a submission there is no separate threat
-  // to value, so those probes are unavailable with that reason.
+  // values are per state. While you are DEFENDING a submission there is no separate threat to value
+  // (the model's attacker finishes), so those probes are unavailable with that reason.
   function threats(input, request, ids) {
     if (graph.ruleset !== request.ruleset) throw new Error('stale-graph-ruleset');
     const s = { ...normalize(input, request), phase: 'opponent' }, here = node(s.nodeId), out = [];
-    const options = sub(here) ? new Map() : new Map(hand(s, flip(s.role), request).map(a => [a.techniqueId, a]));
+    const submission = sub(here), defending = !!submission && s.role !== submission.fromRole;
+    const options = defending ? new Map() : new Map(hand(s, flip(s.role), request).map(a => [ngMdpThreatId(a), a]));
     for (const id of ids) {
       const a = options.get(id);
-      if (!a) { out.push({ techniqueId: id, status: 'unavailable', reason: sub(here) ? 'defending-now' : 'not-an-opponent-option' }); continue; }
+      if (!a) { out.push({ techniqueId: id, status: 'unavailable', reason: defending ? 'defending-now' : 'not-an-opponent-option' }); continue; }
       const act = node(a.techniqueId);
-      const branches = act.ty === 'submissions'
+      const branches = submission ? [opponentEscapeRow(s, a, ngMdpRat(1), request)]
+        : act.ty === 'submissions'
         ? [endpointOf(request, ngMdpRat(1), defend(s, act), ['opponent-submission', 'enter-defense'])]
         : opponentPositionalRows(s, a, ngMdpRat(1), request);
       out.push({ techniqueId: id, status: 'ready', branches });
@@ -285,11 +301,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
         else {
           const responses = hand(s, flip(s.role), request);
           if (!responses.length) branches.push(endpoint(ngMdpRat(1), arrive(s), ['arrival']));
-          for (const response of responses) {
-            const target = node(response.destinationId), role = flip(response.destinationRole);
-            const id = target.role === role ? target.id : target.pairId || target.id;
-            branches.push(endpoint(ngMdpRat('1/' + responses.length), arrive({ ...s, nodeId: id, role, moveCount: s.moveCount + 1 }), ['opponent-escape', 'increment', 'arrival']));
-          }
+          for (const response of responses) branches.push(opponentEscapeRow(s, response, ngMdpRat('1/' + responses.length), request));
         }
         return out;
       }

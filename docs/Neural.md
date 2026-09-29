@@ -394,7 +394,7 @@ value through ONE module (`knowledge-profile.src.js`), so a correct answer moves
 - **Order**: dealt by EDGE, **sorted once** by Win chance when every card has one unless touched
   (`_handTouched`), never again; ties keep the dealt order.
 - **Threat cards**: YOUR win chance if the opponent tries that move now (threat probes,
-  `threatIds`), most dangerous first. In the escape tray they show this decision's own number.
+  `threatIds`; on your submission, their escapes), most dangerous first. Defending: V(s).
 - **Legend thermometer** = V(s), the root of the same solve (`_paintWinThermometer`), painted only
   when every card has a value: there **best card = V(s)**. Between decisions it holds, dimmed.
 - **"—"** keeps the move playable: pending, failed, or over admission (40k states, 400k branches,
