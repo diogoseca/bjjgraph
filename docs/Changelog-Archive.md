@@ -8253,3 +8253,14 @@ this commit, so it must stay reachable from dev (merge, do not squash).
 
 **Open, for the owner:** Microing is the only Principle of 63 with no Principle-typed
 `related_content`, so its app pane has no "Related concepts" (the static page lists all 13).
+Status: resolved in v1.205.3 (owner ruling 2026-09-29).
+
+## v1.205.3 — MICROING GETS ITS RELATED CONCEPTS
+
+Owner's ruling on the open item above: six Principle rows lead Microing's `related_content`, the
+placement 43 of the other 62 use: its three prerequisites (Alignment, Base, Connection Principles)
+and the three closest (Making Smaller Circles, Maximum Efficiency Principle, Control Maintenance).
+Each `relationship` is that principle's `description` from Microing's own `principle_relationships`,
+verbatim; no new prose. The page gains six Related Content lines; `concepts.json` cross-links go
+520 → 526, all six resolved, lit nodes unchanged; `graph.json` and the hub do not move (they read
+neither field).

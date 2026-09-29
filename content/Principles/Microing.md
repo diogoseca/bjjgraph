@@ -310,6 +310,12 @@ With qualified supervision and a cooperative partner, start in a secured Saddle.
 
 
 ### Related Content
+- [[Principles/Alignment|Alignment]] (Principle) - Organizes base, posture, and limbs; Microing adjusts a particular contact within that organization.
+- [[Principles/Base|Base]] (Principle) - Provides support; Microing preserves that support while making a local correction.
+- [[Principles/Connection Principles|Connection Principles]] (Principle) - Explains the purpose and continuity of contact; Microing locates and corrects the detail making a chosen contact ineffective.
+- [[Principles/Making Smaller Circles|Making Smaller Circles]] (Principle) - Already teaches refinement and one-detail comparisons; Microing uses that method to recognize and maintain a working contact during an exchange.
+- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Already teaches correcting grip, angle, and timing before adding force; Microing concentrates on the local correction and its immediate effect.
+- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Already names continuous positional micro-adjustments, including guard control; Microing centers the decisive contact within an attack, escape, or hold.
 - [[Submissions/Cross Collar Choke/from Mount|Cross Collar Choke from Mount]] (Submission) - Illustrates wrist orientation within an established collar grip; compare contact without finishing pressure.
 - [[Transitions/Knee Slice from Knee Shield|Knee Slice from Knee Shield]] (Transition) - Illustrates a hip-angle correction after the shield is controlled.
 - [[Positions/Side Control|Side Control]] (Position) - Illustrates supported shoulder loading that follows the opponent’s turn.
