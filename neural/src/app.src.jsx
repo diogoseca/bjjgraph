@@ -2880,6 +2880,12 @@ class Component extends DCLogic {
   //      any surface holding the deck object sees the cards appear. Surfaces that snapshotted
   //      `_cardsOf(d).slice()` are re-rendered by _onDeckHydrated.
   _dataBase() { return (typeof window !== "undefined" && window.__NEURAL_DATA_BASE) || ""; }
+  // The app's own deferred stylesheets, keyed on the bundle's baked version so a new bundle never meets
+  // an old cached sheet (v1.205.1; the loader keys neural.js/.css the same way, variant.inline.ts).
+  _appAsset(name) {
+    const v = typeof NG_APP_VERSION !== "undefined" ? NG_APP_VERSION : "";
+    return this._dataBase() + "app/" + name + (v ? "?v=" + encodeURIComponent(v) : "");
+  }
   _ingestDeckManifest(j) {
     // EVERY FORMAT DECODES THROUGH ONE READER, `ngWireDecks` (neural/src/wire-keys.src.js) — the
     // digest Worker, e2e/decks.ts and the unit suite call the same function. Format 4 (v1.204.3)
@@ -3198,7 +3204,7 @@ class Component extends DCLogic {
   _ensureReferenceCSS() {
     if (this._readerStyles) return;
     const sheet = document.createElement("link");
-    sheet.rel = "stylesheet"; sheet.href = this._dataBase() + "app/reference.css";
+    sheet.rel = "stylesheet"; sheet.href = this._appAsset("reference.css");
     sheet.setAttribute("data-reader-styles", "");
     sheet.onerror = () => { sheet.remove(); if (this._readerStyles === sheet) this._readerStyles = null; };
     this._readerStyles = sheet;
@@ -14496,7 +14502,7 @@ class Component extends DCLogic {
     return (this._readCssP = new Promise((res) => {
       const l = document.createElement("link");
       l.rel = "stylesheet";
-      l.href = this._dataBase() + "app/reading.css";
+      l.href = this._appAsset("reading.css");
       l.setAttribute("spa-preserve", "");   // survive head-patching across SPA navs
       l.onload = () => res(1);
       l.onerror = () => { l.remove(); this._readCssP = null; res(0); };

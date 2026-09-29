@@ -41,8 +41,14 @@
   Cache-Control: public, max-age=14400, stale-while-revalidate=86400
 /prescript.js
   Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+# /postscript.js is REVALIDATED ON EVERY LOAD (v1.205.1): it carries the deploy's build stamp
+# (window.__NEURAL_BUILD), and the app loader requests neural.js?v=<stamp>. A stale postscript would
+# mean a stale stamp, which would bring back the fixed-URL skew of 2026-09-29: the edge served a
+# 28-hour-old neural.js against fresh data. It costs one 304 per full load, off the render path
+# (a deferred module). It also keeps the auth facade in step with the app. Gated by
+# scripts/check_headers_cache.py (STAMP_CARRIER).
 /postscript.js
-  Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 # Tier 2 — content HTML: short freshness so a deploy propagates fast, 1h SWR so the
 # edge answers instantly and revalidates behind the request. This is the tier that

@@ -76,6 +76,11 @@ that bakes a version other than package.json's. Census, bundle and HTML rows are
 touched and keep the guarded capture's receipt. The gate that matters is unchanged:
 e2e-full rebuilds the site and compares every emitted app file to these rows.
 
+Format 5 (v1.205.1) applies the same rule to ONE bundle row: /postscript.js carries the deploy's
+build stamp (window.__NEURAL_BUILD), which the app loader keys neural.js?v= on. Its literal is
+normalised the same way and must equal package.json's version exactly once. Bundle rows still
+re-seed only through the guarded --update; the stamp just stops a bump from moving one.
+
 Exact timestamp cardinalities for article:published_time and article:modified_time
 are retired (D-106), never re-seeded: checkout milliseconds are arbitrary, and many
 distinct values within one day do not prove date provenance. Presence remains in
@@ -132,12 +137,22 @@ BASELINE = ROOT / "tests" / "artifacts" / "build_fingerprint.json"
 
 BUNDLES = ("index.css", "prescript.js", "postscript.js")
 APP_PREFIX = "static/neural/app/"
-FORMAT = 4
-# The app file that bakes the package version, and the literal it bakes (neural/build/build.mjs
-# `(globalThis).NG_APP_VERSION = ${JSON.stringify(APP_VERSION)}`, minified). Format 4: see the
-# docstring. Only this file is normalised, and only this literal in it.
-VERSIONED_APP_ASSETS = {"static/neural/app/neural.js": re.compile(rb'NG_APP_VERSION="([^"\\]*)"')}
-VERSION_STAND_IN = b'NG_APP_VERSION="<package.json version>"'
+FORMAT = 5
+# The files that carry the package version, and the one literal each carries. Group `v` (or `w`) is
+# the version; only that span is replaced by VERSION_STAND_IN, and each file must carry exactly one,
+# equal to package.json's. Only these files are normalised, and only this literal in them.
+#   neural.js      bakes NG_APP_VERSION (neural/build/build.mjs `(globalThis).NG_APP_VERSION = …`).
+#                  Format 4.
+#   postscript.js  carries the deploy's build stamp, which the app loader keys neural.js?v= on
+#                  (source/quartz/components/NeuralMount.tsx afterDOMLoaded). Emitted inline as
+#                  `window.__NEURAL_BUILD="<v>"`; the `var x="<v>";…=x` shape is also read. Format 5 (v1.205.1): without
+#                  this, every version bump would move a BUNDLE row, which only a guarded capture
+#                  may re-seed.
+VERSIONED_APP_ASSETS = {"static/neural/app/neural.js": re.compile(rb'NG_APP_VERSION="(?P<v>[^"\\]*)"')}
+VERSIONED_BUNDLES = {"postscript.js": re.compile(
+    rb'window\.__NEURAL_BUILD="(?P<v>[^"\\]*)"'
+    rb'|(?P<var>[\w$]+)="(?P<w>[^"\\]*)"[;,]\s*window\.__NEURAL_BUILD=(?P=var)(?![\w$])')}
+VERSION_STAND_IN = b"<package.json version>"
 # Everything the bundle build reads, as git pathspecs (--update-app-assets refuses if any is dirty).
 APP_INPUTS = ("neural/src", "neural/build", "package.json", "source/package-lock.json")
 APP_BUILD = ("node", "neural/build/build.mjs")
@@ -193,16 +208,30 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
-def app_row(name: str, body: bytes) -> tuple[dict, list[str]]:
-    """One app file's row, and every version it bakes. A versioned file is hashed with its
-    version literal(s) replaced; the versions come back so the caller can require exactly one."""
-    pat = VERSIONED_APP_ASSETS.get(name)
+def normalise_version(pat: re.Pattern, body: bytes) -> tuple[bytes, list[str]]:
+    """Replace the version span of every match with VERSION_STAND_IN, and return the versions."""
+    out, versions, last = [], [], 0
+    for m in pat.finditer(body):
+        g = "v" if m.group("v") is not None else "w"
+        versions.append(m.group(g).decode("utf-8", "replace"))
+        out += [body[last:m.start(g)], VERSION_STAND_IN]
+        last = m.end(g)
+    out.append(body[last:])
+    return b"".join(out), versions
+
+
+def versioned_row(pat: re.Pattern | None, body: bytes) -> tuple[dict, list[str]]:
+    """One file's row, and every version it carries. A versioned file is hashed with its version
+    literal(s) replaced; the versions come back so the caller can require exactly one."""
     if pat is None:
         return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest()}, []
-    baked = [v.decode("utf-8", "replace") for v in pat.findall(body)]
-    body = pat.sub(VERSION_STAND_IN, body)
+    body, baked = normalise_version(pat, body)
     return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest(),
             "version_token": "normalised"}, baked
+
+
+def app_row(name: str, body: bytes) -> tuple[dict, list[str]]:
+    return versioned_row(VERSIONED_APP_ASSETS.get(name), body)
 
 
 def app_inventory(files: dict, tree: Path) -> tuple[dict, dict]:
@@ -229,11 +258,11 @@ def check_app_version(baked: dict, expected: str | None) -> list[str]:
     problems = []
     for name, got in sorted(baked.items()):
         if len(got) != 1:
-            problems.append(f"app asset {name}: bakes NG_APP_VERSION {len(got)} time(s); exactly 1 "
+            problems.append(f"{name}: carries its version literal {len(got)} time(s); exactly 1 "
                             "is required, or the version cannot be normalised out of its hash")
         elif expected is not None and got[0] != expected:
-            problems.append(f"app asset {name}: baked at version {got[0]!r} but package.json says "
-                            f"{expected!r}: a stale bundle, not rebuilt since the version changed")
+            problems.append(f"{name}: carries version {got[0]!r} but package.json says "
+                            f"{expected!r}: a stale file, not rebuilt since the version changed")
     return problems
 
 
@@ -268,6 +297,15 @@ def check_baseline(base: dict) -> list[str]:
     if not isinstance(base, dict):
         return ["baseline must be a JSON object"]
     problems = check_app_assets(base, "baseline")
+    for name in BUNDLES:
+        row = (base.get("bundles") or {}).get(name)
+        # A raw row for a versioned bundle (a format-4 row merged back in) would compare unequal on
+        # every bump; a normalised row on any other bundle would claim a stand-in never made.
+        if row is not None and (not isinstance(row, dict)
+                                or (row.get("version_token") == "normalised") != (name in VERSIONED_BUNDLES)
+                                or set(row) - {"bytes", "sha256", "version_token"}):
+            problems.append(f"baseline bundle {name}: row must carry version_token "
+                            f"{'normalised' if name in VERSIONED_BUNDLES else 'nowhere'}, and no other key")
     if base.get("_meta", {}).get("format") != FORMAT:
         problems.append(f"baseline format must be {FORMAT}; requires a reviewed migration")
     values = base.get("distinct_values")
@@ -293,8 +331,12 @@ def capture(jobs: int, tree: Path = None, *, receipt_args=None) -> dict:
     bundles = {}
     for name in BUNDLES:
         f = tree / name
-        bundles[name] = ({"sha256": sha256(f), "bytes": f.stat().st_size}
-                         if f.exists() else None)
+        if not f.exists():
+            bundles[name] = None
+        elif name in VERSIONED_BUNDLES:
+            bundles[name], baked[name] = versioned_row(VERSIONED_BUNDLES[name], f.read_bytes())
+        else:
+            bundles[name] = {"sha256": sha256(f), "bytes": f.stat().st_size}
 
     bundle_tokens: dict[str, dict] = {}
     for name, toks in BUNDLE_TOKENS.items():
@@ -429,8 +471,9 @@ def update_app_assets(baseline: Path, root: Path = ROOT, build: tuple = APP_BUIL
     except (OSError, ValueError) as e:
         sys.exit(f"ERROR: cannot read baseline {baseline}: {e}")
     fmt = base.get("_meta", {}).get("format") if isinstance(base, dict) else None
-    if fmt not in (3, FORMAT):  # 3 -> 4 is this mode's one migration: only app rows changed meaning
-        sys.exit(f"ERROR: baseline format {fmt!r}; --update-app-assets reads format 3 or {FORMAT}")
+    if fmt != FORMAT:  # 4 -> 5 changed a BUNDLE row's meaning, which only the guarded --update may re-seed
+        sys.exit(f"ERROR: baseline format {fmt!r}; --update-app-assets reads format {FORMAT} only "
+                 "(migrate with the guarded --update --content-receipt)")
 
     def dirty() -> str:
         return git(root, "status", "--porcelain=v1", "--untracked-files=all", "--", *APP_INPUTS).strip()
@@ -557,7 +600,7 @@ def main() -> None:
     expected = None if a.artifact_only else package_version()
     floors = check_floors(cur) + check_app_version(cur["_app_baked"], expected)
     for name, got in sorted(cur["_app_baked"].items()):
-        print(f"app version: {name} bakes {', '.join(got) or 'NOTHING'}; package.json "
+        print(f"version literal: {name} carries {', '.join(got) or 'NOTHING'}; package.json "
               + (f"{expected} (asserted equal)" if expected else "NOT asserted (--artifact-only)")
               + "; normalised out of its hash")
     if floors:

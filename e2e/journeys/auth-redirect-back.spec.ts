@@ -181,6 +181,8 @@ type Arrival = {
   clients: number
   /** how many times the stubbed SDK URL was actually requested — a POSITIVE coverage count */
   sdkFetched: number
+  /** how many neural.js requests the blockNeural route aborted — a POSITIVE coverage count */
+  neuralBlocked: number
   /** the options the FIRST createClient call was given, or null */
   options: { auth?: Record<string, unknown> } | null
   facade: string
@@ -243,7 +245,15 @@ async function arrive(
     if (u.startsWith("http://localhost") || u.startsWith("http://127.0.0.1")) return route.continue()
     return route.abort()
   })
-  if (blockNeural) await page.route("**/static/neural/app/neural.js", (r) => r.abort())
+  // `*`: the loader requests neural.js?v=<build stamp> since v1.204.6. An exact-URL glob stopped
+  // matching then and would have let the bundle run, silently: test 3 is only a gate while the
+  // block holds, so it COUNTS its hits and test 3 asserts the block fired.
+  let neuralBlocked = 0
+  if (blockNeural)
+    await page.route("**/static/neural/app/neural.js*", (r) => {
+      neuralBlocked++
+      return r.abort()
+    })
   let sdkFetched = 0
   await page.route(SDK_URL, async (route) => {
     sdkFetched++
@@ -278,7 +288,7 @@ async function arrive(
     }
   })
   await page.close()
-  const arrival = { ...out, sdkFetched }
+  const arrival = { ...out, sdkFetched, neuralBlocked }
   noteConfig(arrival)
   expectBuildConfigFirst(arrival, url.replace(/^https?:\/\/[^/]+/, "") || "/")
   return arrival
@@ -423,6 +433,11 @@ test("@curated an already-signed-in visitor still gets a client with no neural b
   // signed-in path WITH the bundle present remains covered by neural's own journeys, not here.
   const ctx = await browser.newContext()
   const returning = await arrive(ctx, `${baseURL}/`, { signedIn: true, blockNeural: true })
+  expect(
+    returning.neuralBlocked,
+    "the neural.js block matched no request — the route pattern drifted from the loader's URL, so the " +
+      "bundle ran and this test no longer isolates authUI (see THE NEURAL BUNDLE IS BLOCKED HERE)",
+  ).toBeGreaterThanOrEqual(1)
   expect(
     returning.clients,
     "a visitor holding a session for the configured project (" +

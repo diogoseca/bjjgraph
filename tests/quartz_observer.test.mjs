@@ -111,6 +111,9 @@ async function fixture(t) {
   ]) {
     put(`source/${name}`, fs.readFileSync(path.join(SOURCE, name)));
   }
+  // The build reads the REPO-ROOT package.json too: NeuralMount.tsx stamps the deploy's version into
+  // /postscript.js (window.__NEURAL_BUILD, v1.205.1), so the fixture carries it where the build looks.
+  put("package.json", fs.readFileSync(path.join(REPO, "package.json")));
   for (const name of ["seam_record.mjs", "emit_seam_capture.mjs"]) {
     put(`scripts/${name}`, fs.readFileSync(path.join(REPO, "scripts", name)));
   }
