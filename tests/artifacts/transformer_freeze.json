@@ -22,6 +22,20 @@
       "scope": "keeplist",
       "sha256": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82"
     },
+    "source/quartz/components/NeuralMount.tsx": {
+      "accepted": [
+        {
+          "date": "2026-09-29",
+          "from": "109601882b3a38e946f5d8cebefada9a8a884fc3b3234833a0b5ea47f5155880",
+          "reason": "QSKEW (quartz-cto, 2026-09-29, v1.205.1): afterDOMLoaded now emits the deploy's build stamp, window.__NEURAL_BUILD = package.json's version, into /postscript.js, which is revalidated on every load. The loader keys neural.js?v= on it, so the app bundle can no longer outlive a deploy: 2026-09-29 production skew, v1.182.15's edge-cached bundle against v1.204.4's format-4 data. Folded into this keep-list file because a new file under components/ has no base bytes to accept.",
+          "scope": "keeplist",
+          "to": "3b7b691147a37fdc0b5d81044fce7b81b2512a355bc727695595a7a6d0ba8764"
+        }
+      ],
+      "bytes": 2060,
+      "scope": "keeplist",
+      "sha256": "3b7b691147a37fdc0b5d81044fce7b81b2512a355bc727695595a7a6d0ba8764"
+    },
     "source/quartz/components/renderPage.tsx": {
       "accepted": [
         {
@@ -35,6 +49,20 @@
       "bytes": 26444,
       "scope": "keeplist",
       "sha256": "85b93291bfe9d563f198c0fb771035be32d1ee89030ac41838071dab35ccbfa7"
+    },
+    "source/quartz/components/scripts/variant.inline.ts": {
+      "accepted": [
+        {
+          "date": "2026-09-29",
+          "from": "a7a8b0c7b3ac901024786d1a07960b3d5c0c7c313f6b295d35ebeea4af69a3bf",
+          "reason": "QSKEW (quartz-cto, 2026-09-29, v1.205.1): the loader requests neural.js and neural.css with ?v=<window.__NEURAL_BUILD> (appAsset) instead of at fixed URLs under /static/*, which were cached 4 h + 1 d SWR and served a bundle ~28 h older than the data. With no stamp (a pre-stamp postscript cached), it falls back to the fixed URL and warns. The fixed files stay served for that transition.",
+          "scope": "keeplist",
+          "to": "12c0e00366315f58ecd844509da2337441e4f00cb268850a9d91d3c1b5921565"
+        }
+      ],
+      "bytes": 9373,
+      "scope": "keeplist",
+      "sha256": "12c0e00366315f58ecd844509da2337441e4f00cb268850a9d91d3c1b5921565"
     },
     "source/quartz/plugins/filters/draft.ts": {
       "bytes": 273,

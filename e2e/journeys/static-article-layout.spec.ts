@@ -251,7 +251,8 @@ test("a failed Neural bundle fetch reveals a correctly laid-out article", async 
     viewport: { width: 1440, height: 900 },
   })
   const p = await ctx.newPage()
-  await p.route("**/static/neural/app/neural.js", (r) => r.abort())
+  // `*`: the loader requests neural.js?v=<build stamp> since v1.204.6 (variant.inline.ts appAsset).
+  await p.route("**/static/neural/app/neural.js*", (r) => r.abort())
 
   await p.goto("/Positions/Mount/Top", { waitUntil: "load" })
   // wait for the loader to give up and un-hide the article

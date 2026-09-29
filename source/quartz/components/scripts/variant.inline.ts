@@ -25,6 +25,28 @@
 const DATA_BASE = "/static/neural/"
 const APP_BASE = "/static/neural/app/"
 
+// THE BUNDLE URL IS KEYED ON THE DEPLOY'S BUILD STAMP (v1.205.1). /static/* is cached for 4 h plus
+// a 1 d stale-while-revalidate, at the edge and in browsers, and the data files are JSON that the
+// edge does not cache. So a bundle at a FIXED URL could outlive a deploy by about 28 h and run
+// against newer data. On 2026-09-29 the edge served v1.182.15's neural.js against v1.204.4's
+// format-4 data, which gave no decks and a white belt. `?v=<stamp>` gives every deploy new cache
+// keys (verified on the live zone: a novel query MISSes and then HITs under its own key). The stamp
+// is set by NeuralMount.tsx's afterDOMLoaded in /postscript.js, which is revalidated on every load, so
+// it is always the deployed build.
+//
+// With no stamp (a /postscript.js cached before the stamp existed), the loader falls back to the
+// fixed URL and says so. The fixed URLs stay served for exactly that transition.
+function appAsset(name: string): string {
+  const build = (window as any).__NEURAL_BUILD
+  if (typeof build === "string" && build) return APP_BASE + name + "?v=" + encodeURIComponent(build)
+  console.warn(
+    "[variant] no build stamp — loading",
+    name,
+    "unversioned (a cached copy may be stale)",
+  )
+  return APP_BASE + name
+}
+
 // one exposure event per full page load (fired post-DOM so the PostHog stub queue exists)
 let exposureFired = false
 function fireExposure(): void {
@@ -85,7 +107,7 @@ function loadNeuralBundle(): Promise<void> {
   bundlePromise = (async () => {
     const css = document.createElement("link")
     css.rel = "stylesheet"
-    css.href = APP_BASE + "neural.css"
+    css.href = appAsset("neural.css")
     css.onerror = () => css.remove()
     css.setAttribute("spa-preserve", "") // survive head-patching across navs
     document.head.appendChild(css)
@@ -96,7 +118,7 @@ function loadNeuralBundle(): Promise<void> {
     // so this loader has nothing left to do but the bundle.
     await new Promise<void>((res) => {
       const el = document.createElement("script")
-      el.src = APP_BASE + "neural.js"
+      el.src = appAsset("neural.js")
       el.defer = true
       el.onload = () => res()
       el.onerror = () => {
