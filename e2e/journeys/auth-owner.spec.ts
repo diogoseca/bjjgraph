@@ -69,8 +69,15 @@ async function waitOwner(page: Page, id: string | null) {
   await expect(page.locator('#neural-progress-recovery')).toHaveCount(0)
 }
 
+// An SDK event reaches the app only through a client the facade created. A real sign-in creates it
+// (signIn / Google load the SDK), and a guest boot no longer does (QREV7 M1), so initialise through
+// the REAL facade first, as signIn would; for a later event the client already exists (a no-op).
 async function emitOwner(page: Page, id: string | null, event = id ? 'SIGNED_IN' : 'SIGNED_OUT') {
-  await page.evaluate(({ id, event }) => (window as any).__authOwnerFixture.emit(event, id), { id, event })
+  await page.evaluate(async ({ id, event }) => {
+    const w = window as any
+    await w.__bjjAuth.ensureClientInitialized()
+    w.__authOwnerFixture.emit(event, id)
+  }, { id, event })
   await waitOwner(page, id)
 }
 
@@ -94,18 +101,32 @@ const fixture = (page: Page) => page.evaluate(() => (window as any).__authOwnerF
 // QREV7 M1 (quartz-cto, 2026-09-29): a GUEST NEVER LOADS THE SDK. The fixture supplies a keyed
 // config, so `isConfigured()` is true exactly as on a deploy; a signed-out arrival must still create
 // no client, because loading the SDK to learn "guest" put a third-party fetch on every visitor's
-// boot with mount waiting on it. Mutant, recorded: dropping the `!isAuthenticated() && !_sdkLoading`
-// gate in supabase.ts `resolveNeuralUser` turns this red on `clients` (0 -> 1).
+// boot with mount waiting on it. Mutant, recorded 2026-09-29 (on the built postscript.js): dropping
+// the `!isAuthenticated() && !_sdkLoading` gate in supabase.ts `resolveNeuralUser` turns this red on
+// the DIRECT facade call below (clients 0 -> 1). NON-KILL, named: the boot half alone cannot kill
+// it. The app's own guest check (`ngAuthIsGuest`, the progress host) answers "guest" before it ever
+// asks the facade, so with these two bundles nothing calls resolveNeuralUser for a guest; the
+// facade's gate is what protects a neural.js that does ask (version skew).
 test('@curated a signed-out guest on a keyed config never creates an SDK client', async ({ page }) => {
   await bootOwner(page)
   expect((await fixture(page)).clients, 'a guest boot must not load or create the Supabase client').toBe(0)
+  // The facade's own contract, whatever the caller: asked directly, a guest is null, no client.
+  expect(await page.evaluate(() => (window as any).__bjjAuth.resolveNeuralUser())).toBeNull()
+  expect((await fixture(page)).clients, 'resolveNeuralUser answers "guest" without loading the SDK').toBe(0)
 })
 
 // QREV7 M2: VERSION SKEW. postscript.js and neural.js are both cached 4 h + 1 d SWR at stable names,
 // so a fresh neural.js can meet a cached v1 façade with no `resolveNeuralUser`. A guest is decided
 // on the neural side (`ngAuthIsGuest`: `isAuthenticated()`, present on v1, plus authUI's redirect
-// rule) and boots the app; only a stored session on a v1 façade may hold. Mutant, recorded: dropping
-// `if (ngAuthIsGuest(auth)) return null` from build.mjs's resolveUser turns this red on the hold screen.
+// rule) and boots the app; only a stored session on a v1 façade may hold. Mutant, recorded 2026-09-29
+// (on the built neural.js): dropping `if (ngAuthIsGuest(auth)) return null` from build.mjs's
+// resolveUser turns this red — the v1 facade throws, the hold screen stays and the app never mounts
+// (it fails as a boot-readiness timeout, 240 s, not a fast assertion).
+// NON-KILL, named (QREV8): the `_initAuth` guest gate (`if (ngAuthIsGuest(A))`, app.src.jsx) is
+// belt-and-braces. On a v2 facade resolveNeuralUser already returns null for a guest (M1); on a v1
+// facade dropping it only sets `_cloudSyncError`, with no hold and no client. Removing it turns
+// nothing red in this file or in auth-redirect-back.spec.ts (run 2026-09-29). It stays: it is free,
+// and it says what the code means (CLAUDE.md §6.3).
 test('@curated a guest meeting a cached v1 facade boots the app, never the hold screen', async ({ page }) => {
   const seen = { errors: [] as string[], forbidden: [] as string[] }
   observed.set(page, seen)
@@ -240,7 +261,11 @@ test('@curated real identity-read failure keeps recovery visible and progress un
   await page.evaluate(() => {
     const w = window as any, a = w.__neural
     a.setPaused(true); a.clearTimers(); a._flushSave()
-    // SDK failure only. The real facade resolves identity on the new document.
+    // SDK failure only. The real facade resolves identity on the new document. Since QREV7 M1 a
+    // guest with no stored session never reads identity at all, so the failure this journey is about
+    // can only meet a device that HOLDS a session: one that signed in and has since gone stale or
+    // offline. Seed that stored session (the SDK's own storage key); the SDK will not confirm it.
+    localStorage.setItem('sb-auth-owner-fixture-auth-token', JSON.stringify({ access_token: 'stale-synthetic-token' }))
     w.__authOwnerFixture.failSessions(true)
     sessionStorage.setItem('__ng_keep', '1')
   })
