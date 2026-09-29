@@ -34,7 +34,7 @@ test("one-beacon law: exactly one highlighted surface at every beat", async ({ p
 
   // PEEK: sheet open — beacon moves INTO the sheet (drill first, since odds are pumpable)
   const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().click()
+  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
   expect(await beaconCount()).toBe(1)
   const inSheet = await beaconTarget()
   expect(["jit", "execute"]).toContain(inSheet)
@@ -121,7 +121,7 @@ test("film study: watchShort fires the beat; player onError falls back without c
   await j.boot("/")
   await j.land("Mount Top")
   const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().click()
+  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
   // stub the YouTube machinery — journeys must never hit youtube.com. The stub captures the
   // player's events config so the test can fire the REAL onError closure.
   await page.evaluate(() => {

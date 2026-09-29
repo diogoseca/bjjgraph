@@ -52,7 +52,7 @@ test("the training-day email row lives on Notifications, and only there @curated
   // 1b. and it is reachable the way a user reaches it — by clicking the tab, not by calling in
   await openTab(page, "flashcards");
   await signIn(page);
-  await j.clickByMouse(".t-nt");
+  await j.clickByMouse('[data-settings-tab="notifications"]');
   await expect(page.locator("[data-digest-setting]")).toBeVisible();
 
   // 3. the key the Worker queries is unchanged — asserted by DRIVING THE RENDERED CONTROL, not

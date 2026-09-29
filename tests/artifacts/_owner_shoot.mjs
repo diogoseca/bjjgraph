@@ -251,7 +251,7 @@ async function run(vp) {
   }
   await clickCentre(".ngAcctChip")
   await clickCentre("[data-menu-settings]")
-  await clickCentre(".t-rl")
+  await clickCentre('[data-settings-tab="rolling"]')
   await sleep(700)
   // READ THE SELECTED RUNG THE WAY THE GATE DOES. `segBtn` marks the active choice with a filled
   // background and a brighter border and sets NO `aria-pressed`, `aria-checked` or data flag — so

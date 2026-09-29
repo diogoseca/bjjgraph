@@ -39,7 +39,7 @@ import { srsVeteran } from "./personas"
 async function openSheet(page: Page, technique: string, cycle: number) {
   const card = page.locator(`[data-tech="${technique}"]`).first()
   await expect(card, `cycle ${cycle}: option card for "${technique}" visible`).toBeVisible()
-  await card.click()
+  await card.locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-go]").first(), `cycle ${cycle}: expand-sheet Execute button visible`).toBeVisible()
 }
 

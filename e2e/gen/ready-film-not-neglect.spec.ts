@@ -138,7 +138,7 @@ test("film with a question pending: +4 mints, _landPending holds, the question s
   })
   const card = page.locator(`[data-tech="${target}"]`).first()
   await expect(card, `option card for "${target}" visible`).toBeVisible()
-  await card.click()
+  await card.locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-go]").first(), "expand sheet open").toBeVisible()
   expect(
     (await state(page)).mcSurface,

@@ -79,7 +79,7 @@ test("a correct landing answer consumes refund #1, the JIT drill gets #2 then is
 
   // ── REFUND #2: first JIT grade in the expand sheet (sheet only — never [data-go]) ──
   const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().click()
+  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
 
   await j.jitGrade()

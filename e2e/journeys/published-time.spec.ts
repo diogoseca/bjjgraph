@@ -32,6 +32,14 @@ test("@curated publication provenance survives clones and worktrees in the real 
 test("@curated served publication metadata matches authored or followed Git evidence", async ({
   request,
 }) => {
+  // THE ORACLE NEEDS THE WHOLE HISTORY (v1.198.2). On a shallow repository `--follow` stops at the
+  // boundary and "expects" the boundary's date, so the failure read as the BUILD being wrong. That
+  // is what PR #217 shard 3/4 showed until Playwright's own PR-event base fetch was switched off
+  // (`captureGitInfo` in e2e/playwright.config.ts). Name the precondition before comparing dates.
+  expect(
+    execFileSync("git", ["rev-parse", "--is-shallow-repository"], { cwd: ROOT, encoding: "utf8" }).trim(),
+    "the --follow oracle runs on complete history (shallow here = a depth-limited fetch after checkout; see captureGitInfo in e2e/playwright.config.ts)",
+  ).toBe("false");
   const pages = [
     ["Positions/Mount/Top", "Positions/Mount/Top"],
     ["Principles", "Principles"],
@@ -51,7 +59,7 @@ test("@curated served publication metadata matches authored or followed Git evid
       fs.readFileSync(path.join(ROOT, "content", `${source}.md`), "utf8"),
     );
     const authored = data.publishDate ?? data.date;
-    const oldest =
+    const followedHistory =
       authored === undefined
         ? execFileSync(
             "git",
@@ -61,12 +69,17 @@ test("@curated served publication metadata matches authored or followed Git evid
               encoding: "utf8",
             },
           )
-            .trim()
-            .split("\n")
-            .at(-1)
+        : undefined;
+    const oldest =
+      authored === undefined
+        ? followedHistory!.trim().split("\n").at(-1)
         : authored;
     const expected = oldest ? new Date(oldest).toISOString() : undefined;
-    const response = await request.get(`/${route}.html`);
+    // Each page is independent; synchronous Git probes can outlive the server's
+    // idle keep-alive window between requests. Do not retain those connections.
+    const response = await request.get(`/${route}.html`, {
+      headers: { Connection: "close" },
+    });
     expect(response.ok(), route).toBeTruthy();
     const html = await response.text();
     const publication = html.match(
@@ -77,6 +90,109 @@ test("@curated served publication metadata matches authored or followed Git evid
     expect(publicationTags.length, `${route}: publication tag count`).toBe(
       expected === undefined ? 0 : 1,
     );
+    if (
+      publication?.[1] !== expected ||
+      process.env.PUBLICATION_GIT_DIAGNOSTIC === "1"
+    ) {
+      // The manual job logs every sample. Normal gates capture mismatches only.
+      // Keep the independent --follow oracle and exact date equality intact.
+      const inspectGit = (args: string[]) => {
+        const result = spawnSync("git", args, {
+          cwd: ROOT,
+          encoding: "utf8",
+          timeout: 10_000,
+        });
+        return {
+          args,
+          status: result.status,
+          stdout: result.stdout,
+          stderr: result.stderr,
+          error: result.error?.message,
+        };
+      };
+      const gitPathEnvironment = (key: "GIT_DIR" | "GIT_WORK_TREE") => {
+        const value = process.env[key];
+        if (value === undefined) return { present: false };
+        const relative = path.relative(ROOT, path.resolve(ROOT, value));
+        const outside =
+          relative === ".." ||
+          relative.startsWith(`..${path.sep}`) ||
+          path.isAbsolute(relative);
+        // Never dump environment values or external paths into an artifact.
+        return {
+          present: true,
+          path: outside ? "<outside-checkout>" : relative || ".",
+        };
+      };
+      const evidence = {
+        route,
+        source,
+        authored: authored ?? null,
+        followedHistory: followedHistory ?? null,
+        oldest,
+        expected,
+        received: publication?.[1],
+        gitEnvironment: {
+          GIT_DIR: gitPathEnvironment("GIT_DIR"),
+          GIT_WORK_TREE: gitPathEnvironment("GIT_WORK_TREE"),
+        },
+        git: [
+          inspectGit(["--version"]),
+          inspectGit([
+            "rev-parse",
+            "--show-toplevel",
+            "--is-shallow-repository",
+            "HEAD",
+          ]),
+          inspectGit(["show", "-s", "--format=%H %P %aI %cI", "HEAD"]),
+          inspectGit(["status", "--porcelain", "--", `content/${source}.md`]),
+          // Replay the oracle's exact original command, including its format.
+          inspectGit([
+            "log",
+            "--follow",
+            "--format=%aI",
+            "--",
+            `content/${source}.md`,
+          ]),
+          inspectGit([
+            "log",
+            "--follow",
+            "--format=%H %aI %P",
+            "--",
+            `content/${source}.md`,
+          ]),
+          inspectGit([
+            "-c",
+            "core.commitGraph=false",
+            "log",
+            "--follow",
+            "--format=%H %aI %P",
+            "--",
+            `content/${source}.md`,
+          ]),
+          inspectGit(["replace", "-l"]),
+          inspectGit([
+            "config",
+            "--show-origin",
+            "--get-regexp",
+            "^(core\\.(commitgraph|ignorecase)|diff\\.(renames|renamelimit)|log\\.follow)$",
+          ]),
+        ],
+      };
+      // CI uploads test-results; body-only attachments live in the HTML report.
+      const evidencePath = test
+        .info()
+        .outputPath(
+          `publication-git-evidence-${source.replace(/[^a-zA-Z0-9_-]/g, "_")}.json`,
+        );
+      fs.mkdirSync(path.dirname(evidencePath), { recursive: true });
+      fs.writeFileSync(evidencePath, JSON.stringify(evidence, null, 2), "utf8");
+      console.log("PUBLICATION_GIT_EVIDENCE " + JSON.stringify(evidence));
+      await test.info().attach("publication-git-evidence", {
+        contentType: "application/json",
+        path: evidencePath,
+      });
+    }
     expect(publication?.[1], `${route}: publication`).toBe(expected);
     const modified = html.match(
       /<meta property="article:modified_time" content="([^"]+)"/,

@@ -38,7 +38,7 @@ test.describe("White Challenges @curated", () => {
     ).toBe(false);
 
     // open a real move sheet: the option cards are the hand, and the sheet is what a card opens
-    await page.locator("[data-tech]").first().click();
+    await page.locator("[data-tech]").first().locator("[data-choice-inspect]").click();
     await page.waitForTimeout(250);
     await j.expectBeat("sheet_opened");
     expect(

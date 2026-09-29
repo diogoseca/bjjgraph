@@ -74,7 +74,7 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
   expect(preNav.filter((b) => b === "auto_pick" || b === "expiry_warning"), "pre-nav: no expiry signal yet").toEqual([])
 
   // ── open the expand sheet (mid-interaction surface; pauses the clock — must still tear down) ──
-  await page.locator(`[data-tech="${hand1[0]}"]`).first().click()
+  await page.locator(`[data-tech="${hand1[0]}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-go]").first(), "expand sheet open at nav time").toBeVisible()
 
   // mark life 1 + stash a window-global ref (window globals survive a SOFT nav — this is
