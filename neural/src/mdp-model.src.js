@@ -218,6 +218,32 @@ function ngMdpCompile(model, request, limits) {
   const compiled = new Map(), pending = [rootId], queued = new Set(pending), subtypeSet = new Set(['nontermination:closed-class']),probabilities=new Map();
   const coverage = { states: 0, actions: 0, branches: 0, excludedActions: 0, unknownActions: 0, zeroDurationBranches: 0 };
   const reasons = [];
+  // Every row list compiles through here: action branches and threat-probe rows alike.
+  const rows = list => {
+    let sum = [0n, 1n]; const branches = [];
+    for (const row of list) {
+      if(!probabilities.has(row.probability))probabilities.set(row.probability,ngMdpProbability(row.probability));
+      const p = probabilities.get(row.probability); sum = ngMdpAdd(sum, p);
+      if (!!row.to === !!row.terminal || (row.terminal && !NG_MDP_OUTCOMES.includes(row.terminal))) throw new Error('invalid-destination');
+      if (row.duration != null && (!Number.isFinite(row.duration) || row.duration < 0)) throw new Error('invalid-duration');
+      if (!p[0]) continue;
+      coverage.branches++; if (coverage.branches > limits.maxBranches) throw new Error('branch-budget');
+      if (row.duration === 0) coverage.zeroDurationBranches++;
+      if (row.to && !queued.has(row.to)) { queued.add(row.to); pending.push(row.to); }
+      const subtype = row.terminal ? row.subtype || 'unspecified' : null;
+      if (row.terminal) subtypeSet.add(row.terminal + ':' + subtype);
+      branches.push({ ...row, subtype, p });
+    }
+    return { branches, sum };
+  };
+  // THREAT PROBES (adapter `threats`): each ready probe is a normalized row list like an action's;
+  // its targets are compiled and solved with everything else. An unavailable probe keeps its reason.
+  const probes = (Array.isArray(model.probes) ? model.probes : []).map(probe => {
+    if (probe.status !== 'ready') return { techniqueId: probe.techniqueId, status: 'unavailable', reason: probe.reason || 'unavailable-threat' };
+    const { branches, sum } = rows(probe.branches || []);
+    if (ngMdpCmp(sum, [1n, 1n])) throw new Error('non-normalized-threat:' + probe.techniqueId);
+    return { techniqueId: probe.techniqueId, status: 'ready', id: 'threat:' + probe.techniqueId, branches };
+  });
   for (let i = 0; i < pending.length; i++) {
     if (pending.length > limits.maxStates) throw new Error('state-budget');
     const id = pending[i], s = states.get(id);
@@ -228,20 +254,7 @@ function ngMdpCompile(model, request, limits) {
       if (typeof a.id !== 'string' || !a.id || actionIds.has(a.id)) throw new Error('duplicate-or-invalid-action');
       actionIds.add(a.id); coverage.actions++;
       if (a.status === 'unavailable' || !a.branches || !a.branches.length) { coverage.unknownActions++; reasons.push(a.reason || 'unknown-action:' + a.id); continue; }
-      let sum = [0n, 1n]; const branches = [];
-      for (const row of a.branches) {
-        if(!probabilities.has(row.probability))probabilities.set(row.probability,ngMdpProbability(row.probability));
-        const p = probabilities.get(row.probability); sum = ngMdpAdd(sum, p);
-        if (!!row.to === !!row.terminal || (row.terminal && !NG_MDP_OUTCOMES.includes(row.terminal))) throw new Error('invalid-destination');
-        if (row.duration != null && (!Number.isFinite(row.duration) || row.duration < 0)) throw new Error('invalid-duration');
-        if (!p[0]) continue;
-        coverage.branches++; if (coverage.branches > limits.maxBranches) throw new Error('branch-budget');
-        if (row.duration === 0) coverage.zeroDurationBranches++;
-        if (row.to && !queued.has(row.to)) { queued.add(row.to); pending.push(row.to); }
-        const subtype = row.terminal ? row.subtype || 'unspecified' : null;
-        if (row.terminal) subtypeSet.add(row.terminal + ':' + subtype);
-        branches.push({ ...row, subtype, p });
-      }
+      const { branches, sum } = rows(a.branches);
       if (ngMdpCmp(sum, [1n, 1n])) throw new Error('non-normalized-row:' + a.id);
       if (a.immediateExecutionChance != null) ngMdpProbability(a.immediateExecutionChance);
       actions.push({ ...a, branches });
@@ -250,7 +263,7 @@ function ngMdpCompile(model, request, limits) {
     actions.sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
     compiled.set(id, { ...s, actions }); coverage.states++;
   }
-  return { states: compiled, rootId, coverage, reasons, subtypes: [...subtypeSet].sort(),stateEquivalence:model.stateEquivalence || null };
+  return { states: compiled, rootId, probes, coverage, reasons, subtypes: [...subtypeSet].sort(),stateEquivalence:model.stateEquivalence || null };
 }
 function ngMdpTerminal(row, subtypes) {
   const v = ngMdpZero(4 + subtypes.length); v[NG_MDP_OUTCOMES.indexOf(row.terminal)] = [1n, 1n];
@@ -488,11 +501,17 @@ function* ngMdpSolveStepsRaw(model, request, options) {
       split: ngMdpSplit(a, values, subtypes),
       ...(a.immediateExecutionChance == null ? {} : { immediateExecutionChance: ngMdpNumber(ngMdpProbability(a.immediateExecutionChance)), immediateExecutionKind: a.immediateExecutionKind || 'execution' }) }));
     const exactQ = new Map(states.get(kernel.rootId).actions.map(a => [a.id, ngMdpBackup(a, values, subtypes)]));
+    // Threat cards: YOUR outcome vector if the opponent tries that move now — the same backup over
+    // the probe's rows, under the same selected future play (adapter `threats`).
+    const threats = (kernel.probes || []).map(pr => pr.status === 'ready'
+      ? { ...record(kernel.rootId, ngMdpBackup(pr, values, subtypes)), techniqueId: pr.techniqueId }
+      : { stateId: kernel.rootId, techniqueId: pr.techniqueId, status: 'unavailable', reason: pr.reason });
     const ranking = allActions.map(a => a.actionId).sort((a, b) => -ngMdpLex(exactQ.get(a), exactQ.get(b)) || (a < b ? -1 : a > b ? 1 : 0));
     for (const a of allActions) { a.rank = ranking.indexOf(a.actionId) + 1; a.selected = policy.get(kernel.rootId).id === a.actionId; }
     const lookup = new Map(allActions.map(a => [a.actionId, a]));
     const actions = (request.requestedActionIds || allActions.map(a => a.actionId)).map(actionId => lookup.get(actionId) || { stateId: kernel.rootId, actionId, status: 'unavailable', reason: 'unknown-or-illegal-action' });
     const result = { ...ngMdpIdentity.ngMdpEnvelope(request), root: { ...record(kernel.rootId, values.get(kernel.rootId)), selectedActionId: policy.get(kernel.rootId).id }, actions, ranking,
+      ...(threats.length ? { threats } : {}),
       policy: policyEntries, ...(limits.includeStateValues ? { states: [...values].map(([id, v]) => ({ ...record(id, v), selectedActionId: policy.get(id).id })) } : {}),
       ...(limits.includeActionValues ? { actionValues: [...states].flatMap(([id, s]) => s.actions.map(a => ({ ...record(id, ngMdpBackup(a, values, subtypes)), actionId: a.id }))) } : {}),
       quality: { numericalStatus: 'exact-rational', maxWinError: 4 * Number.EPSILON, coordinateErrorBound: 4 * Number.EPSILON, policyRegretBound: 0,

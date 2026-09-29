@@ -327,12 +327,19 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
   const ranking = rootActions.map(a => a.id).sort((a,b) => -lex(exactQ.get(a),exactQ.get(b)) || (a<b?-1:a>b?1:0));
   const available = new Map(rootActions.map(a => [a.id,{...actionRecord(rootId,a,exactQ.get(a.id)),rank:ranking.indexOf(a.id)+1}]));
   const actions = (request.requestedActionIds || rootActions.map(a => a.id)).map(actionId => available.get(actionId) || {stateId:rootId,actionId,status:'unavailable',reason:'unknown-or-illegal-action'});
+  // Threat cards: the same enclosure-carrying backup over each probe's rows (adapter `threats`).
+  const threats = (kernel.probes || []).map(pr => {
+    if (pr.status !== 'ready') return { stateId:rootId, techniqueId:pr.techniqueId, status:'unavailable', reason:pr.reason };
+    const { actionId, selected, split: ignored, ...r } = actionRecord(rootId, pr);
+    return { ...r, techniqueId:pr.techniqueId };
+  });
   diagnostics.certificate = (intervalWitness?'outward-interval':'exact-rational')+'-all-action-drift+common-policy-residual+Bellman-supersolution';
   const extra={};
   if(limits.includePolicy || kernel.states.size<=128)extra.policy=ids.map(id=>[id,lifted.get(id).id]);
   if(limits.includeStateValues){extra.states=[];for(const id of ids){check();extra.states.push({...records(id,actual.get(id),errors(id),upper(id)),selectedActionId:lifted.get(id).id});yield;}}
   if(limits.includeActionValues){extra.actionValues=[];for(const id of ids){check();for(const a of all.get(id))extra.actionValues.push(actionRecord(id,a));yield;}}
   const result={ ...envelope(request),root:{...records(rootId,actual.get(rootId),errors(rootId),upper(rootId)),selectedActionId:lifted.get(rootId).id},actions,ranking,...extra,
+    ...(threats.length ? { threats } : {}),
     quality:{numericalStatus:'certified',maxWinError:bound(add(max(regret,maxCoordinateError),floatRat(4*Number.EPSILON)),true),
       coordinateErrorBound:bound(coordinateError,true),policyRegretBound:bound(regret,true),secondaryStatus:'unresolved-primary-ties',tertiaryStatus:'unresolved-primary-loss-ties',
       supportHash,actionCoverage:kernel.coverage.actions,coverage:kernel.coverage,stateEquivalence:kernel.stateEquivalence,

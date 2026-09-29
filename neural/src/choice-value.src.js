@@ -211,8 +211,21 @@ export function ngChoiceValueController({ publish = () => {}, isCurrent = () => 
         return { ...immediate, ...r, split: ngChoiceValueSplit(r, quality), ...(winBounds ? { winBounds } : {}), primaryCertified: certified };
       });
       const ready = actions.filter(r => ["ready", "bounded"].includes(r.status));
+      // THREAT CARDS: your outcome if the opponent tries that move now (engine threat probes). Held
+      // to the same bar as a card: same state, same selected future play as the root, certified
+      // enclosures where certified. A threat that fails it is unavailable, never guessed.
+      const threatRows = new Map((Array.isArray(response.threats) ? response.threats : [])
+        .filter(t => t && typeof t.techniqueId === "string").map(t => [t.techniqueId, t]));
+      const threats = (Array.isArray(request.threatIds) ? request.threatIds : []).map(id => {
+        const t = threatRows.get(id);
+        if (!t) return { techniqueId: id, status: "unavailable", reason: "missing-threat" };
+        if (!["ready", "bounded"].includes(t.status)) return { techniqueId: id, status: "unavailable", reason: t.reason || t.status };
+        if (t.stateId !== request.state.id || !t.policyId || t.policyId !== response.root?.policyId || !ngChoiceValueVector(t.outcomes)
+          || (certified && !ngChoiceValueCertifiedRecord(t, request))) return { techniqueId: id, status: "unavailable", reason: "invalid-result" };
+        return { ...t, primaryCertified: certified };
+      });
       emit({ status: ready.length === actions.length ? (ready.some(r => r.status === "bounded") ? "bounded" : "ready") : ready.length ? "partial" : "unavailable",
-        handId: token.handId, request, quality, root: response.root, actions });
+        handId: token.handId, request, quality, root: response.root, actions, threats });
       return true;
     },
     fail(token, reason = "evaluation-failed") {
@@ -256,6 +269,36 @@ export function ngChoiceValueOrder(ids, snapshot) {
   return [...ids].sort((a, b) => key(b) - key(a)
     || (exact ? Number(selected === b) - Number(selected === a) : 0)
     || dealt.get(a) - dealt.get(b));
+}
+
+// Threat cards sort MOST DANGEROUS FIRST: ascending by YOUR win chance, same display bins and the
+// same rule as own cards — an unkeyed threat keeps the whole group in its dealt order, and equal
+// bins keep the dealt order.
+export function ngChoiceValueThreatOrder(ids, snapshot) {
+  const byId = new Map((snapshot?.threats || []).map(t => [t.techniqueId, t]));
+  const key = id => {
+    const t = byId.get(id);
+    if (!t || !["ready", "bounded"].includes(t.status) || !ngChoiceValueVector(t.outcomes)) return null;
+    if (t.winBounds && ngChoiceValuePercent(t.winBounds[0]) !== ngChoiceValuePercent(t.winBounds[1])) return null;
+    return ngChoiceValueBin(t.outcomes.win);
+  };
+  if (ids.some(id => key(id) == null)) return [...ids];
+  const dealt = new Map(ids.map((id, i) => [id, i]));
+  return [...ids].sort((a, b) => key(a) - key(b) || dealt.get(a) - dealt.get(b));
+}
+
+// A threat card's number is YOUR win chance if the opponent tries that move now — the same kind
+// of number as your own cards, so the hand shows one kind of number (owner, 2026-09-29).
+export function ngChoiceValueThreatView(record, snapshot) {
+  const t = record || { status: "unavailable", reason: "not-wired" };
+  if (!["ready", "bounded"].includes(t.status) || !ngChoiceValueVector(t.outcomes))
+    return { status: t.status || "unavailable", value: "—", tooltip: "Your win chance if they try this is unavailable." };
+  const certified = t.primaryCertified === true && snapshot?.quality?.numericalStatus === "certified";
+  const o = t.outcomes, value = ngChoiceValuePercent(o.win, certified ? t.outcomeBounds.win : t.winBounds);
+  const loss = ngChoiceValuePercent(o.loss, certified ? t.outcomeBounds.loss : undefined);
+  const none = ngChoiceValuePercent(o.explicitNoResult + o.nontermination);
+  return { status: t.status, value,
+    tooltip: "If they try this, you win " + value + " (you get submitted " + loss + ", nobody taps " + none + "), with your best play from there." };
 }
 
 export function ngChoiceValueKnowledge(explanation, kind) {
@@ -364,4 +407,5 @@ export function ngChoiceValueHTML(view, detail = false) {
 
 // The standalone verification bundle installs this namespace eagerly. Production may
 // omit the entire module and pass its imported namespace to setChoiceValueRuntime.
-export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder });
+export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder,
+  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent });

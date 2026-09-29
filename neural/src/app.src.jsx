@@ -12808,25 +12808,8 @@ class Component extends DCLogic {
     const opts = here.ty === "submissions" ? this.submissionOptions(here, role) : this.optionsFor(posIdx, role);
     return opts.map((o) => ({ ...o, threat: true, actor: "opponent" }));
   }
-  // Threat tint is the resulting state scored for US, including any seat reversal.
-  // An opponent move is not automatically a maximally bad state. The group label owns
-  // actor identity; this mark owns the outcome value, on the graph's -100..100 scale.
-  threatMark(opt) {
-    let target = this.nodes[opt.res] || opt.node, role = opt.destinationRole;
-    if (opt.action !== "escape") {
-      const success = (opt.node.cal && opt.node.cal.outcomes || []).find((o) => o.result === "success");
-      const r = success && this.resolveOutcomeTo(success.to);
-      if (opt.action === "finish") return { i: -100, txt: "-100", col: this.hex(this.domColor(-1)) };
-      if (opt.node.ty === "submissions") { target = this.submissionNode(opt.node); role = null; }
-      else if (r && r.idx >= 0) { target = this.nodes[this.canonicalState(r.idx, r.role)]; role = r.role; }
-    }
-    const mine = role ? (role === "top" ? "bottom" : "top") : this.playerRole;
-    const slot = target.ty === "positions" ? (mine === "bottom" ? 1 : 0) : (role && target.fromRole === mine ? 0 : 1);
-    const v = target.s && target.s[slot];
-    if (typeof v !== "number") return null;
-    const i = Math.round(v * 100) + 0;
-    return { i, txt: (i > 0 ? "+" : "") + i, col: this.hex(this.domColor(i / 100)) };
-  }
+  // (`threatMark`, the threat card's positional mark, is retired: v1.207.0, owner 2026-09-29. A
+  // threat card shows YOUR Win chance if they try that move — `_paintThreatValue`.)
   choiceChance(opt) {
     if (!opt.threat) return opt.action === "escape" ? this.escapeChance(opt) : this.moveChance(opt.node);
     // Opponent previews show the authored base, not our practice bonuses. An escape has
@@ -13054,7 +13037,7 @@ class Component extends DCLogic {
     if (this.__ngDestroyed || this._execution) return;
     const snapshot = this._choiceValues && this._choiceValues.snapshot();
     for (const oc of (this._optionCards || [])) {
-      if (oc.opt.threat) continue;
+      if (oc.opt.threat) { this._paintThreatValue(oc, snapshot); continue; }
       const view = this.choiceValueView(oc.opt), value = oc.card.querySelector("[data-choice-value]");
       if (value) {
         value.innerHTML = this.choiceValueHTML(view);
@@ -13091,6 +13074,12 @@ class Component extends DCLogic {
       this._autoSortedHand = this._choiceHandId;
       this.sortChoiceValues(true);
     }
+    const threatsDone = snapshot && snapshot.handId === this._choiceHandId && !this._handEscape && Array.isArray(snapshot.threats)
+      && snapshot.threats.length > 1 && snapshot.threats.every(t => ["ready", "bounded"].includes(t.status));
+    if (threatsDone && !this._handTouched && this._autoSortedThreats !== this._choiceHandId) {
+      this._autoSortedThreats = this._choiceHandId;
+      this.sortThreatValues();
+    }
   }
   // V(s) ON THE LEGEND THERMOMETER (owner, 2026-09-29). The Win<->Lose bar shows the current
   // decision's own win chance — the root of the same solve the cards come from — and nothing
@@ -13107,7 +13096,10 @@ class Component extends DCLogic {
       if (label) { label.textContent = "Win"; label.removeAttribute("data-win-chance"); }
       return;
     }
-    const win = root.outcomes.win, text = runtime.ngChoiceValuePercent(win, root.winBounds);
+    // Formatted by the SAME rule as a card (certified: its outcome enclosure), so the best card and
+    // this number can never print differently at a display-bin edge.
+    const certified = snapshot.quality && snapshot.quality.numericalStatus === "certified";
+    const win = root.outcomes.win, text = runtime.ngChoiceValuePercent(win, certified && root.outcomeBounds ? root.outcomeBounds.win : root.winBounds);
     const prev = this._winNow;
     this._winNow = win;
     this.adv.target = Math.max(2, Math.min(98, win * 100));
@@ -13143,6 +13135,7 @@ class Component extends DCLogic {
   }
   renderChoiceGroups(el, own, threats, pick, seconds, escape) {
     this.cancelChoiceValues("new-hand");
+    this._handEscape = !!escape;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {
       if (!list.length) return;
@@ -13375,10 +13368,11 @@ class Component extends DCLogic {
     const card = document.createElement("div");
     card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
     card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;display:flex;flex-direction:column;flex:0 0 150px;width:150px;height:144px;box-sizing:border-box;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
-    // Player cards use one personalized roll value. Opponent previews retain their
-    // separately labelled positional mark and authored immediate rate.
-    const edge = isThreat ? this.threatMark(opt) : null;
-    const col = edge ? edge.col : "#b3c6ea";
+    // ONE KIND OF NUMBER ON THE HAND (owner, 2026-09-29): player cards show your Win chance, and so
+    // do opponent previews — YOUR win chance if they try that move (engine threat probes), painted by
+    // `_paintThreatValue` when the values arrive. Previews keep their authored immediate rate ("Odds").
+    const edge = null;
+    const col = "#b3c6ea";
     const chance = this.choiceChance(opt), pct = chance == null ? null : Math.round(chance * 100);
     const oddsCol = isThreat ? this.choiceOddsColor(pct, true) : "#d7e2f4";
     const value = !isThreat ? this.choiceValueView(opt) : null;
@@ -13386,7 +13380,7 @@ class Component extends DCLogic {
       '<div data-immediate-label style="font-size:9px;font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
       '<span class="ngodds" style="flex:none;font-size:15px;font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (isThreat ? (pct == null ? '—' : pct + '%') : this.choiceEscape(value.immediate)) + '</span></div>';
     const headMid = isEsc ? "Escape" : n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition";
-    const headVal = edge ? '<span class="ngedge" title="Position value for you after this opponent threat" style="flex:none;font-size:13px;font-weight:700;color:' + edge.col + ';">' + edge.txt + '</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';
+    const headVal = isThreat ? '<span class="ngedge" data-threat-win title="Your win chance if they try this" style="flex:none;font-size:13px;font-weight:700;color:#b3c6ea;">—</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';
     card.innerHTML =
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">' +
         this.catGlyph(n, num, col) +
@@ -13460,12 +13454,46 @@ class Component extends DCLogic {
   // from the same `edgeMark`, so they cannot drift apart between a deal and a refresh.
   _paintEdge(oc) {
     if (!oc || oc.esc || !oc.opt.threat) return;
-    const e = oc.opt.threat ? this.threatMark(oc.opt) : this.edgeMark(oc.opt); if (!e) return;
-    const num = oc.card.querySelector(".ngedge");
-    if (num) { num.textContent = e.txt; num.style.color = e.col; }
+    this._paintThreatValue(oc, this._choiceValues && this._choiceValues.snapshot());
+  }
+  // A threat card's number: YOUR win chance if the opponent tries that move now, from the same solve
+  // as your own cards. While you are defending a submission, the threat IS the finish you are in,
+  // so its number is this decision's own win chance (your best escape's), and the tooltip says so.
+  _paintThreatValue(oc, snapshot) {
+    const el = oc && oc.card.querySelector("[data-threat-win]"); if (!el) return;
+    const runtime = this.choiceValueRuntime(), current = runtime && snapshot && snapshot.handId === this._choiceHandId;
+    let text = "—", tip = "Your win chance if they try this: calculating…", win = null;
+    if (current && this._handEscape && snapshot.root && runtime.ngChoiceValuePercent) {
+      const r = snapshot.root, certified = snapshot.quality && snapshot.quality.numericalStatus === "certified";
+      if (r.outcomes && typeof r.outcomes.win === "number") {
+        win = r.outcomes.win; text = runtime.ngChoiceValuePercent(win, certified && r.outcomeBounds ? r.outcomeBounds.win : r.winBounds);
+        tip = "You are defending this now. Your win chance is your best escape's: " + text + ".";
+      }
+    } else if (current && runtime.ngChoiceValueThreatView) {
+      const record = (snapshot.threats || []).find(t => t.techniqueId === oc.opt.node.id);
+      const view = runtime.ngChoiceValueThreatView(record, snapshot);
+      text = view.value; tip = view.tooltip;
+      if (record && record.outcomes && typeof record.outcomes.win === "number" && view.value !== "—") win = record.outcomes.win;
+    }
+    el.textContent = text; el.title = tip;
+    const col = win == null ? "#b3c6ea" : this.hex(this.domColor(win * 2 - 1));
+    el.style.color = col;
     const g = oc.card.querySelector(".ngglyph");
-    if (g) { g.style.filter = "drop-shadow(0 0 4px " + e.col + "70)"; g.innerHTML = this.catGlyphSvg(oc.node, oc.num, e.col); }
-    if (oc.bar) oc.bar.style.background = e.col;
+    if (g) { g.style.filter = win == null ? "" : "drop-shadow(0 0 4px " + col + "70)"; g.innerHTML = this.catGlyphSvg(oc.node, oc.num, col); }
+    if (oc.bar) oc.bar.style.background = col;
+  }
+  // Threats sort once too — most dangerous first — under the same untouched-hand rule.
+  sortThreatValues() {
+    const runtime = this.choiceValueRuntime(), snapshot = this._choiceValues && this._choiceValues.snapshot();
+    if (!runtime || !runtime.ngChoiceValueThreatOrder || this._detailCtx || this._execution || !snapshot) return;
+    const cards = (this._optionCards || []).filter(c => c.opt.threat);
+    if (cards.length < 2) return;
+    const byId = new Map(cards.map(c => [c.opt.node.id, c]));
+    if (byId.size !== cards.length) return;
+    const order = runtime.ngChoiceValueThreatOrder([...byId.keys()], snapshot).map(id => byId.get(id));
+    if (order.some(c => !c)) return;
+    order.forEach(c => c.card.parentElement.appendChild(c.card));
+    this._optionCards = this._optionCards.filter(c => !c.opt.threat).concat(order);
   }
   // THE NUMBERS MOVE, THE CARDS DO NOT (v1.118.0). Drilling a JIT deck mid-decision raises this
   // move's odds, and EDGE is a function of those odds, so the corner number and its colour MUST

@@ -6,6 +6,7 @@ import { readFileSync } from "node:fs";
 import {
   NG_CHOICE_VALUE, ngChoiceValueController, ngChoiceValueStamp, ngChoiceValuePercent,
   ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder, ngChoiceValueKnowledge,
+  ngChoiceValueThreatView, ngChoiceValueThreatOrder,
 } from "../neural/src/choice-value.src.js";
 
 const action = name => JSON.stringify(["mount/top", name, "transition", "back/top", "branch"]);
@@ -320,4 +321,25 @@ test("escape and entry wording name the two cases the player actually faces", ()
 test("bounded values with distinct bins sort by win chance", () => {
   const s = ready(certify(response(request(), [record(B, .4), record(A, .6)])).actions, request());
   assert.deepEqual(ngChoiceValueOrder([B, A], s), [A, B]);
+});
+
+// THREAT CARDS (owner, 2026-09-29): YOUR win chance if the opponent tries that move, held to the
+// same bar as a card, sorted most dangerous first.
+test("threat records are validated like cards, viewed as your win chance, and sorted most dangerous first", () => {
+  const req = request({ threatIds: ["T-escape", "T-sweep", "T-alien"] });
+  const controller = ngChoiceValueController(), token = controller.begin(req, { handId: "h1" });
+  const threat = (id, win, extra = {}) => ({ techniqueId: id, stateId: "mount/top", policyId: "policy", status: "ready",
+    outcomes: { win, loss: 1 - win - .1, explicitNoResult: .1, nontermination: 0 }, ...extra });
+  const res = response(req);
+  res.threats = [threat("T-escape", .64), threat("T-sweep", .31), threat("T-alien", .5, { policyId: "other-policy" })];
+  assert.ok(controller.accept(token, res));
+  const snap = controller.snapshot();
+  assert.deepEqual(snap.threats.map(t => [t.techniqueId, t.status]), [["T-escape", "ready"], ["T-sweep", "ready"], ["T-alien", "unavailable"]]);
+  assert.equal(snap.threats[2].reason, "invalid-result", "a threat under another policy is never shown");
+  const v = ngChoiceValueThreatView(snap.threats[1], snap);
+  assert.equal(v.value, "31%");
+  assert.equal(v.tooltip, "If they try this, you win 31% (you get submitted 59%, nobody taps 10%), with your best play from there.");
+  assert.equal(ngChoiceValueThreatView(snap.threats[2], snap).value, "—");
+  assert.deepEqual(ngChoiceValueThreatOrder(["T-escape", "T-sweep"], snap), ["T-sweep", "T-escape"]);
+  assert.deepEqual(ngChoiceValueThreatOrder(["T-escape", "T-sweep", "T-alien"], snap), ["T-escape", "T-sweep", "T-alien"], "an unvalued threat keeps the dealt order");
 });

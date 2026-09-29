@@ -8,7 +8,7 @@ const source=readFileSync(new URL('../neural/src/app.src.jsx',import.meta.url),'
 // knowledge module. Missing integrated dependencies fail, never skip a test.
 const knowledgeSource=/\bngKnowledge[A-Z]/.test(source)?readFileSync(new URL('../neural/src/knowledge-profile.src.js',import.meta.url),'utf8').replace(/^export /gm,''):'';
 const Component=new Function('DCLogic','React',knowledgeSource+'\n'+source+'\nreturn Component;')(class {},{createRef:()=>({current:null})});
-const laws={adapter:'cff41e33333f32dd9fc246d899960045c52584a8ae0b2757736e38aec45bf6f1',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
+const laws={adapter:'05e954e0efb216e43819844f754d24e724c18a95482a0fff894c99e4f25d2bf4',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
 const deepFreeze=v=>{if(v&&typeof v==='object'){for(const x of Object.values(v))deepFreeze(x);Object.freeze(v);}return v;};
 function fixture({kind='transition',positionKey='Mount|Top',panicKey=null,override=false,bonus=0,phase='user',lawHashes=laws}={}){
   const snapshot={nodeId:'seat',role:'top',phase,moveCount:9,arrivalAge:0,qMod:0,combo:0,positionKey,panicKey},id=M.ngMdpStateId(snapshot),actionId=M.ngMdpActionId(id,'act',kind,'dest',null);
