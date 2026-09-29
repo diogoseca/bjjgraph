@@ -1728,8 +1728,8 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "eec3122be7b5806e9800593dbc1d7d7718bde4c0",
-   "capture_id": "03dca6adc25245c387e63d869c4095d1",
+   "capture_git_head": "e700f10f3d32367b245528019e24ae56d500420a",
+   "capture_id": "b80134332deb4aaaae3c4fb30d2b26bc",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6410,
@@ -1737,13 +1737,33 @@
    "content_tree": "a95f531ba24b1304a4eaf57962c42dcc611bff69",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
+   "environment_assertions": {
+    "TZ": {
+     "expected": "UTC",
+     "node_timezone": "UTC",
+     "observed": "UTC",
+     "probes": [
+      {
+       "iso": "2026-01-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jan 01, 2026"
+      },
+      {
+       "iso": "2026-07-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jul 01, 2026"
+      }
+     ],
+     "scope": "inherited build environment; child Node observed before execution"
+    }
+   },
    "output_identity": {
     "files": 15836,
-    "sha256": "8c012a072cbafcca3af93e33bcdb6db64495e731235b7c44e7c5a9ebb1f9ff90"
+    "sha256": "9aae7e318e98ca327453ecef712b6affb2ae375318eecdd1737d0f4987381d62"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/v-harness/source/public",
-    "/home/user/bjj-orchestrator/golden/recapture3-programme-5af68d661"
+    "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
+    "/home/user/bjj-orchestrator/golden/post11-programme-e700f10f3"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -1820,7 +1840,7 @@
  "tags/beginner.html": {
   "canonical": "https://bjjgraph.org/tags/beginner",
   "content_floor": 199,
-  "content_hash": "4b272acd7c9a5f208a37803e116e0161ca6e090e989c53e6654e7aa8a81a1ce6",
+  "content_hash": "e22cd109b724ef36e9898b336097eaf5e6c63f8f69c0f0c4d12612ea17b1f611",
   "content_len": 235,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
@@ -1846,9 +1866,9 @@
  },
  "tags/index.html": {
   "canonical": "https://bjjgraph.org/tags/",
-  "content_floor": 8801,
-  "content_hash": "fb182a01b869c85d9b615b7acb5bc799fc3e8ae5e622bb8e5f28237686281c26",
-  "content_len": 10355,
+  "content_floor": 8840,
+  "content_hash": "3c8ed754a2b853ef599624311582509d7931d9d50c6712db3951fc3651189de4",
+  "content_len": 10400,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
