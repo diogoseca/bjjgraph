@@ -9,7 +9,7 @@ the single largest lever on a real-user LCP P75 of ~13.7s.
 Deleting weight once is easy; keeping it deleted is the hard part. This gate is a
 RATCHET on emitted bytes: it measures the built site against ceilings committed in
 tests/artifacts/budget_site.json and fails when the payload grows past them. It is
-deliberately stdlib-only and takes no arguments beyond --update.
+deliberately stdlib-only; see Usage and --help for explicit baseline controls.
 
 WHERE IT RUNS (wired in v1.80.2 — it shipped in v1.80.0 with no caller at all, and an
 unwired ratchet is not a ratchet):
@@ -39,6 +39,8 @@ What it measures:
 Usage:
   python3 scripts/check_payload_budget.py --update   # (re)seed ceilings from a build
   python3 scripts/check_payload_budget.py            # gate: exit 1 if over budget
+  python3 scripts/check_payload_budget.py --public COPY --jobs 1  # inspect a copied emit
+  python3 scripts/check_payload_budget.py --set-floors --floor tag_routes --reason "..."
 
 A ceiling is a MAX, so shrinking always passes. Re-seeding with --update RAISES the
 ceilings to whatever the current build emits, so it must be a deliberate, separately
@@ -46,16 +48,83 @@ justified commit — never a way to make a regression green. The neural ceilings
 exception to "seed from a build": they are TARGETS, set by hand from the field data
 (Cloudflare Observatory LCP P75 13,764ms) and deliberately left RED until the code meets
 them, so --update never lowers them silently — see NEURAL_TARGET below.
+
+ONE OF THOSE CEILINGS IS NO LONGER A CEILING (v1.189.0, owner's call). `eager_gzip_bytes`
+left this file for the three-band policy in tests/artifacts/payload_policy.json: a target it
+may sit above, an action threshold it may not cross, and a cap on how much ONE change may
+add. scripts/_payload_policy.py carries the full rationale and the owner's own words. Why it
+had to move, in one measurement: on the tree this change was written against the eager set
+gzips to 329,808 against a 330,000 ceiling — 192 BYTES — so the next neural feature of any
+size was going to go red on arrival, and the only move available was to raise the ceiling
+again. budget_neural.json's `raising_a_ceiling` note is three such raises long, and one of
+them skipped a deploy.
+
+HOW THE POLICY NUMBERS ARE SET, because the old answer ("--update in its own commit") is
+wrong for them and answering it wrongly is how a gate gets worked around:
+  · target / action / delta_cap — BY HAND, in tests/artifacts/payload_policy.json, with the
+    reasoning in that file's own _comment. There is no flag; they are a judgement, not a
+    measurement, and --update refuses to touch them (it says so out loud).
+  · baseline — `--accept-baseline <metric> --reason "..."`, which measures, checks the new
+    figure is not itself over the action threshold, and records the previous value, the ref,
+    the date and the reason. Never automatic: a baseline that advanced itself on every green
+    run would make the delta cap vacuous (delta always 0) while still reading as a check that
+    ran. See _payload_policy.py.
 """
 import argparse
 import gzip
 import json
+import os
+import subprocess
 import sys
+from datetime import date
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import _payload_policy as policy  # noqa: E402  (stdlib-only sibling, same directory)
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBLIC = ROOT / "source/public"
 BUDGET = ROOT / "tests/artifacts/budget_site.json"
+
+# The census comes from the SAME walk check_build_fingerprint.py uses. This gate must not
+# grow a second way to count pages: the moment two counters exist, the one that drifts
+# quietly is the one a gate is trusting (CLAUDE.md 6.5).
+from emit_fingerprint import coverage as _emit_coverage, scan_tree as _emit_scan  # noqa: E402
+
+# ---------------------------------------------------------------------------
+# TIER 0 -- NON-TRIVIALITY FLOORS.
+#
+# Every other number in this file is a CEILING: shrinking passes. That is right for bytes
+# and catastrophic for counts, and until now the counts were not checked at all --
+# `html_file_count` was measured at measure() and only ever INTERPOLATED into two f-strings.
+# Nothing compared it. Combined with check_seo_parity.py sampling 10 routes and scoping to
+# the <article>, a build that emitted a TENTH of the site passed this gate, that gate and
+# the byte ratchet simultaneously, because a tenth of the site is comfortably under every
+# ceiling.
+#
+# Measured proof that the number was unwatched: the committed `observed.html_file_count`
+# in budget_site.json read 6182 while a fresh build of HEAD emits 6149. A 33-page
+# disagreement sat in a committed baseline and no run cared, because nothing read it.
+#
+# These floors are HAND-SET and deliberately ~10-15% below the real figures: they catch a
+# collapse, not drift. --update must never touch them -- a floor that re-seeds itself from
+# the current build is a check that can never fail (CLAUDE.md 8: "a self-advancing baseline
+# is a delta check that never runs"). Move one with --set-floors --reason "...".
+# ---------------------------------------------------------------------------
+FLOOR_KEYS = ("html_file_count", "jsonld_blocks", "article_links", "static_files", "tag_routes")
+DEFAULT_FLOORS = {
+    "html_file_count": 5800,    # 6,149 emitted at v1.192.3
+    "jsonld_blocks": 31000,     # 33,438
+    "article_links": 200000,    # 212,983
+    "static_files": 4600,       # 4,957
+}
+# tag_routes intentionally has NO default: a current emitted tree must supply its floor
+# through --set-floors --reason. Historical prose is not a measurement. The always-emitted
+# tags/index.html is excluded, because its presence does not prove any named tag survived.
+# If a build exceeds ROT_FACTOR x the floor, the floor has stopped meaning anything.
+# Say so: a floor nobody revisits is how "we have a check" becomes untrue quietly.
+ROT_FACTOR = 2.0
+GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the policy file
 
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
@@ -76,7 +145,24 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 #   · concepts.json — the Principles + Learning index (v1.152.0): read only when the Explore tab
 #     renders one of those two sections. Its readable BODIES are not here at all — they live in
 #     the per-node content/ chunk space, so they are already scored as on-demand chunks.
-DEFERRED = ("systems.json", "concepts.json")
+#   · aliases.json — exact-site naming metadata, fetched when Explore/search is used.
+#   · app/reading.css — the More fold's stylesheet (v1.194.0): fetched by `_ensureReadCSS()` on
+#     the first deliberate press of More, which is always after the first hand. Never imported
+#     at boot, never prefetched — a prefetch would put it back on the first-hand bill. The
+#     browser gate bans it from boot by name (payload-first-hand.spec.ts BANNED_ON_BOOT), and
+#     neural/build/build.mjs asserts its rules are present there AND absent from neural.css.
+#   · app/reference.css — Systems, Principles and Learning styles, fetched only when a
+#     reference index is requested. The browser gate likewise bans this stylesheet at boot.
+# ONE ENTRY PER LINE, and the trailing comma is load-bearing: every branch that defers a new
+# artifact then ADDS a line instead of rewriting the one line everybody else also rewrote.
+# Two branches invented a deferred stylesheet a week apart and collided here on nothing.
+DEFERRED = (
+    "systems.json",
+    "concepts.json",
+    "aliases.json",
+    "app/reading.css",
+    "app/reference.css",
+)
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
@@ -84,12 +170,21 @@ DEFERRED = ("systems.json", "concepts.json")
 # Ratcheted DOWN in v1.107.1 after the graph-data wire compaction (v1.107.0) landed the eager
 # set at 1,302,636 raw / 271,124 gzip: the new ceilings hold ~20% headroom for content growth
 # while making a return of the fat wire (or any new eager payload of that class) a hard red.
+#
+# `eager_gzip_bytes` IS DELIBERATELY ABSENT (v1.189.0) — it is governed by the three-band policy
+# in tests/artifacts/payload_policy.json, not by a ceiling here. Putting it back would SHADOW the
+# policy silently (a stale hard ceiling and a soft one enforce different things and only the
+# stricter is ever seen), so POLICY_OWNED below turns that mistake into a hard, named failure
+# rather than a quiet reversion.
 NEURAL_TARGET = {
     "eager_raw_bytes": 1_600_000,
-    "eager_gzip_bytes": 330_000,
     "chunk_max_bytes": 40_000,
     "deferred_raw_bytes": 500_000,
 }
+
+# Metric names under budget["neural"] that MOVED to the policy file. A ceiling left behind for one
+# of these is not harmless leftover state: it re-imposes the hard rule the owner replaced.
+POLICY_OWNED = ("eager_gzip_bytes",)
 
 # Shared bundles fetched by every page. postscript.js is the one that carried the whole
 # legacy client stack (pixi.js + d3 + tween via the two graph scripts).
@@ -163,7 +258,7 @@ def measure_neural() -> dict:
     return out
 
 
-def measure() -> dict:
+def measure(jobs: int = min(6, (os.cpu_count() or 4))) -> dict:
     out: dict = {"bundles": {}, "pages": {}}
     missing: list[str] = []
 
@@ -184,10 +279,36 @@ def measure() -> dict:
     total = 0
     count = 0
     for f in PUBLIC.rglob("*.html"):
+        if not f.is_file():
+            continue
         total += f.stat().st_size
         count += 1
     out["html_total_bytes"] = total
     out["html_file_count"] = count
+
+    files = _emit_scan(PUBLIC, jobs=jobs)
+    cov = _emit_coverage(files)
+    out["census"] = {
+        "html_file_count": cov["html_pages"],
+        "jsonld_blocks": cov["jsonld_blocks"],
+        "article_links": cov["article_links"],
+        "static_files": cov["static_files"],
+        # Count routes from the SAME emitted-file walk as the existing floors. A tag
+        # index alone survives complete loss of authored tags, so it cannot count.
+        "tag_routes": sum(1 for rel, rec in files.items()
+                          if rec.get("cls") == "html" and rel.startswith("tags/")
+                          and rel != "tags/index.html"),
+        "pages_with_canonical": cov["pages_with_canonical"],
+        "html_parse_errors": cov["html_parse_errors"],
+    }
+    # Cross-check the two independent page counts. This gate's rglob and the shared
+    # parser's walk must agree; if they ever do not, one of them is wrong and no floor
+    # derived from either is trustworthy.
+    if cov["html_pages"] != count:
+        print(f"ERROR: page count disagreement — rglob says {count:,}, the shared walk "
+              f"says {cov['html_pages']:,}. One of the two is wrong; refusing to gate.",
+              file=sys.stderr)
+        sys.exit(1)
     out["neural"] = measure_neural()
 
     if missing:
@@ -201,7 +322,14 @@ def fmt(n: int) -> str:
 
 def _neural_ceilings() -> dict:
     """The neural ceilings to write on --update: whatever is already committed (so a
-    hand-tightened ceiling is never loosened by a re-seed), else the hand-set target."""
+    hand-tightened ceiling is never loosened by a re-seed), else the hand-set target.
+
+    min(committed, target) is why --update can only ever TIGHTEN these three, and why the brief
+    for v1.189.0 could truthfully say "--update cannot raise a neural ceiling". That is correct
+    for a ratchet and was wrong for eager_gzip_bytes, whose only escape was a hand edit of the
+    committed JSON: the three-band policy is where that number lives now, and this function does
+    not emit it (POLICY_OWNED). Raising one of the three that remain is still a hand edit of
+    NEURAL_TARGET, deliberately."""
     prev = {}
     if BUDGET.exists():
         try:
@@ -211,27 +339,305 @@ def _neural_ceilings() -> dict:
     return {k: min(int(prev.get(k, v)), v) for k, v in NEURAL_TARGET.items()}
 
 
-def main() -> None:
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--update", action="store_true", help="(re)seed the ceilings from this build")
-    args = ap.parse_args()
+def _measured(metric: str, cur: dict):
+    """The live (value, delta_value) for a policy metric THIS gate measures.
 
-    if not PUBLIC.exists():
+    Returns (None, None) for a name it does not know, and the caller turns that into a hard
+    failure rather than a skip: a metric the policy assigns to this gate that this gate cannot
+    measure is a rule nothing enforces, which is the failure class this repo keeps re-finding
+    (CLAUDE.md §6.6 — absence produces a plausible answer)."""
+    if metric == "neural.eager_gzip_bytes":
+        v = cur["neural"]["eager_gzip_bytes"]
+        return v, v
+    return None, None
+
+
+def _tree_ref() -> str:
+    """A human-readable stamp for a baseline: the version in package.json plus the short sha, so
+    the growth log in the policy file says WHICH tree each accepted figure was measured on."""
+    ver = "?"
+    try:
+        ver = json.loads((ROOT / "package.json").read_text()).get("version", "?")
+    except (OSError, json.JSONDecodeError):
+        pass
+    sha = ""
+    try:
+        sha = subprocess.run(
+            ["git", "-C", str(ROOT), "rev-parse", "--short", "HEAD"],
+            capture_output=True, text=True, timeout=10,
+        ).stdout.strip()
+    except (OSError, subprocess.SubprocessError):
+        pass
+    return f"v{ver}" + (f" ({sha})" if sha else "")
+
+
+def _accept_baseline(metric: str, reason: str, cur: dict) -> None:
+    """Advance one metric's delta baseline, deliberately and on the record.
+
+    This is the ONLY way a baseline moves. It is not run by the gate, by a build or by CI — see
+    scripts/_payload_policy.py for why a self-advancing baseline is a delta check that never runs.
+    It refuses a figure that is itself over the action threshold: that band is a hard stop, and
+    accepting a baseline must never be a way round it."""
+    doc = policy.load()
+    spec = doc["metrics"].get(metric)
+    if spec is None:
+        raise SystemExit(
+            f"ERROR: {metric!r} is not in {policy.POLICY_PATH.relative_to(ROOT)} — "
+            f"known metrics: {', '.join(sorted(doc['metrics']))}"
+        )
+    if not reason:
+        raise SystemExit("ERROR: --accept-baseline requires --reason; an unexplained baseline move is the thing this file exists to prevent")
+
+    src_note = ""
+    if spec.get("gate") == GATE:
+        value, delta_value = _measured(metric, cur)
+        if value is None:
+            raise SystemExit(f"ERROR: {metric!r} is assigned to {GATE} but this gate cannot measure it")
+        src_note = "measured from the built tree by this script"
+    else:
+        # a metric another gate measures (today: the browser gate). Its observed figures are
+        # written to a committed report on every run; we read that, and record WHEN it was
+        # measured so a stale accept is visible in the diff rather than invisible in the number.
+        src = ROOT / spec.get("accept_from", "")
+        if not spec.get("accept_from") or not src.exists():
+            raise SystemExit(
+                f"ERROR: {metric!r} is measured by {spec.get('gate')} and its `accept_from` report "
+                f"({spec.get('accept_from') or 'unset'}) is not on disk — run that gate first"
+            )
+        rep = json.loads(src.read_text())
+        field = spec.get("delta_measured_on")
+        band_field = spec.get("value_field", metric)
+        if field not in rep or band_field not in rep:
+            raise SystemExit(
+                f"ERROR: {src.relative_to(ROOT)} carries no {field!r}/{band_field!r} — it predates "
+                f"the policy; re-run {spec.get('gate')} to refresh it"
+            )
+        value, delta_value = rep[band_field], rep[field]
+        src_note = f"read from {spec['accept_from']} measured at {rep.get('_meta', {}).get('measured_at', 'unknown')}"
+
+    if value > spec["action"]:
+        raise SystemExit(
+            f"ERROR: refusing to accept {policy.fmt(value)} for {metric} — it is over the "
+            f"{policy.fmt(spec['action'])} action threshold, which is a hard stop. Shed bytes, or "
+            f"change the threshold by hand in {policy.POLICY_PATH.relative_to(ROOT)} with a reason."
+        )
+
+    prev = spec.get("baseline")
+    spec["previous_baseline"] = prev
+    spec["baseline"] = int(delta_value)
+    spec["baseline_ref"] = _tree_ref()
+    spec["baseline_at"] = date.today().isoformat()
+    spec["baseline_reason"] = reason
+    spec["baseline_source"] = src_note
+    policy.POLICY_PATH.write_text(json.dumps(doc, indent=1, ensure_ascii=False) + "\n")
+    moved = "seeded" if not isinstance(prev, int) else f"{prev:,} -> {int(delta_value):,} ({int(delta_value) - prev:+,})"
+    print(f"baseline accepted: {metric} {moved}")
+    print(f"  band figure {policy.fmt(value)} · delta figure {policy.fmt(delta_value)} · {src_note}")
+    print(f"  ref {spec['baseline_ref']} · reason: {reason}")
+
+
+def _floors() -> dict:
+    """Read each committed floor independently; missing tag calibration is a failure.
+
+    The four historical defaults remain available for old baselines. Adding a new key
+    must not discard their committed values, nor fabricate a tag floor from prose.
+    """
+    committed = {}
+    if BUDGET.exists():
+        try:
+            raw = (json.loads(BUDGET.read_text()) or {}).get("floors")
+            if isinstance(raw, dict):
+                committed = raw
+        except json.JSONDecodeError:
+            pass
+    floors = {}
+    for key, default in DEFAULT_FLOORS.items():
+        if key not in committed:
+            print(f"  · no committed {key} floor — using historical default {default}; "
+                  "seed with --set-floors --reason \"...\"", file=sys.stderr)
+        floors[key] = int(committed.get(key, default))
+    tag_floor = committed.get("tag_routes")
+    floors["tag_routes"] = tag_floor if type(tag_floor) is int and tag_floor > 0 else None
+    return floors
+
+
+def check_floors(cur: dict) -> int:
+    """Tier 0. Runs BEFORE the ceilings and hard-fails. Returns the number of breaches."""
+    floors = _floors()
+    census = cur.get("census") or {}
+    breaches, rotted = [], []
+    for k in FLOOR_KEYS:
+        got, floor = census.get(k, 0), floors[k]
+        if floor is None:
+            breaches.append(f"{k}: UNSET — measure a current emit with "
+                            "--set-floors --floor tag_routes --reason \"...\"")
+        elif got < floor:
+            breaches.append(f"{k}: {got:,} is BELOW the floor {floor:,} ({got - floor:+,})")
+        elif floor and got > floor * ROT_FACTOR:
+            rotted.append(f"{k}: {got:,} is more than {ROT_FACTOR:g}x the floor {floor:,}")
+
+    if census.get("html_parse_errors"):
+        breaches.append(f"html_parse_errors: {census['html_parse_errors']:,} page(s) did "
+                        f"not parse; their contents were not counted, so every count "
+                        f"above is an undercount of unknown size")
+
+    print(f"  · tier-0 coverage: {len(FLOOR_KEYS)} floor checks over "
+          f"{census.get('html_file_count', 0)} HTML files; "
+          f"named tag routes={census.get('tag_routes', 0)}")
+    print("  · tier-0 floors (counts, not ceilings — smaller FAILS):")
+    for k in FLOOR_KEYS:
+        got, floor = census.get(k, 0), floors[k]
+        if floor is None:
+            print(f"      {k:22s} {got:>10,}  floor {'UNSET':>10s}  FAIL")
+        else:
+            mark = "FAIL" if got < floor else "ok"
+            print(f"      {k:22s} {got:>10,}  floor {floor:>10,}  {mark}")
+
+    for r in rotted:
+        print(f"    ⚠ floor has rotted — {r}. It no longer represents this site; "
+              f"re-set it with --set-floors --reason \"...\".", file=sys.stderr)
+
+    if breaches:
+        print("\n✗ TIER-0 FLOOR BREACH — this build did not emit a whole site:",
+              file=sys.stderr)
+        for b in breaches:
+            print(f"    - {b}", file=sys.stderr)
+        print("\n  Every other number in this gate is a MAX, so a shrinking site passes "
+              "all of them.\n  A sampled SEO route check cannot measure an archetype count. "
+              "These floors\n  detect a whole-site or named-tag shortfall.",
+              file=sys.stderr)
+    return len(breaches)
+
+
+def _set_floors(cur: dict, reason: str, selected: list[str] | None = None) -> None:
+    if not reason:
+        print("ERROR: --set-floors requires --reason; a floor is a judgement and the "
+              "judgement has to be recorded next to the number.", file=sys.stderr)
+        sys.exit(1)
+    budget = json.loads(BUDGET.read_text()) if BUDGET.exists() else {}
+    census = cur["census"]
+    keys = list(dict.fromkeys(selected or FLOOR_KEYS))
+    if "tag_routes" in keys and census.get("tag_routes", 0) <= 0:
+        print("ERROR: refusing to seed tag_routes from 0 named tag routes; "
+              "tags/index.html does not establish tag emission.", file=sys.stderr)
+        sys.exit(1)
+    # Deliberately below the observation, with a positive minimum for named tags:
+    # int(1 * .92) == 0 would otherwise let complete extinction pass.
+    prev = budget.get("floors")
+    new = dict(prev) if isinstance(prev, dict) else {}
+    for key in keys:
+        new[key] = int(census[key] * 0.92)
+        if key == "tag_routes":
+            new[key] = max(1, new[key])
+    budget["floors"] = new
+    meta = budget.setdefault("_meta", {})
+    if any(key != "tag_routes" for key in keys) or "floors_note" not in meta:
+        meta["floors_note"] = (
+            "TIER-0 non-triviality floors. Counts, not ceilings: a build BELOW one of these "
+            "fails. Seeded ~8% under the observed figures so ordinary content churn does not "
+            "trip them; they exist to catch a build that emitted a fraction of the site, "
+            "which every ceiling in this file passes by definition. `--update` must never "
+            "touch them. Last set: " + reason)
+    if "tag_routes" in keys:
+        meta["tag_routes_floor_note"] = (
+            "X-09 omitted tags: frontmatter and named tag pages disappeared; the SEO sample "
+            "reported one missing route without measuring that archetype's extinction. "
+            "This COUNT FLOOR counts emitted HTML under tags/, excluding the always-emitted "
+            "tags/index.html. Observed " + str(census["tag_routes"]) + " named tag routes "
+            "in " + str(PUBLIC) + "; floor max(1, int(observed * 0.92)). "
+            "--update preserves it. Last set: " + reason)
+    BUDGET.write_text(json.dumps(budget, indent=1, sort_keys=True) + "\n")
+    print(f"floors set in {BUDGET.relative_to(ROOT)}  (reason: {reason})")
+    for key in keys:
+        was = f"{prev[key]:,}" if isinstance(prev, dict) and type(prev.get(key)) is int else "unset"
+        print(f"  {key:22s} observed {census[key]:>10,}  floor {was} -> {new[key]:,}")
+
+
+def _positive_jobs(value: str) -> int:
+    try:
+        jobs = int(value)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError("--jobs must be a positive integer") from exc
+    if jobs < 1:
+        raise argparse.ArgumentTypeError("--jobs must be a positive integer")
+    return jobs
+
+
+def main() -> None:
+    global PUBLIC
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--update", action="store_true", help="(re)seed the RATCHET ceilings from this build (never the policy)")
+    ap.add_argument("--accept-baseline", metavar="METRIC", help="advance one policy metric's delta baseline to the current figure")
+    ap.add_argument("--reason", default="", help="why the baseline moved; required with --accept-baseline or --set-floors, recorded next to the number")
+    ap.add_argument("--set-floors", action="store_true", help="(re)set the TIER-0 non-triviality floors; requires --reason")
+    ap.add_argument("--floor", choices=FLOOR_KEYS, action="append", help="with --set-floors, change only this named floor (repeatable)")
+    ap.add_argument("--public", type=Path, default=PUBLIC, help="emitted tree to measure (may be a safe copy)")
+    ap.add_argument("--jobs", type=_positive_jobs, default=min(6, (os.cpu_count() or 4)), help="positive number of census workers")
+    args = ap.parse_args()
+    if args.floor and not args.set_floors:
+        ap.error("--floor requires --set-floors")
+    PUBLIC = args.public.resolve()
+
+    if not PUBLIC.is_dir():
         print(f"ERROR: {PUBLIC} not found — run `npm run build` first", file=sys.stderr)
         sys.exit(1)
 
-    cur = measure()
+    cur = measure(args.jobs)
+
+    if args.set_floors:
+        _set_floors(cur, args.reason, args.floor)
+        return
+
+    # TIER 0 FIRST. A gate whose non-triviality check runs after its ceilings can report
+    # "budget OK" on a build with no pages in it before it ever gets to the floor.
+    if check_floors(cur) and not args.update:
+        sys.exit(1)
+
+    if args.accept_baseline:
+        _accept_baseline(args.accept_baseline, args.reason, cur)
+        return
 
     if args.update:
-        budget = {
-            "_meta": {
+        # SAY WHAT THIS FLAG DOES NOT DO. The old one-line rule ("raising a ceiling needs --update
+        # in its own justified commit") was already false for the neural ceilings — _neural_ceilings()
+        # takes min(committed, target) so --update can only tighten them — and is now false for the
+        # policy metrics in a second way. A flag that silently declines to do the thing its name
+        # implies is how a number ends up hand-edited without a record.
+        try:
+            skipped = sorted(policy.load()["metrics"])
+            print(
+                "  · --update does NOT touch the three-band policy "
+                f"({policy.POLICY_PATH.relative_to(ROOT)}): {', '.join(skipped)}. "
+                "target/action/delta_cap are hand-set; move a baseline with "
+                "`--accept-baseline <metric> --reason \"...\"`.",
+                file=sys.stderr,
+            )
+        except policy.PolicyError as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            sys.exit(1)
+        # PRESERVE the _meta keys this seeder does not own. It used to rebuild _meta from
+        # scratch, which silently deleted `neural_note` — the paragraph explaining WHY
+        # eager_gzip_bytes is absent from this file. The POLICY_OWNED guard would still have
+        # fired, but the reader would have met a bare failure with no explanation anywhere,
+        # which is how a correct gate gets "fixed" by putting the ceiling back.
+        previous = {}
+        if BUDGET.exists():
+            try:
+                previous = json.loads(BUDGET.read_text()) or {}
+            except json.JSONDecodeError:
+                previous = {}
+        prev_meta = dict(previous.get("_meta") or {})
+        prev_meta.update(
+            {
                 "format": FORMAT,
                 "seed_headroom": SEED_HEADROOM,
-                "note": (
-                    "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling "
-                    "means the payload grew — justify it in the commit body."
-                ),
-            },
+            }
+        )
+        prev_meta.setdefault("note",
+                             "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling "
+                             "means the payload grew — justify it in the commit body.")
+        budget = {
+            "_meta": prev_meta,
             "bundles": {k: int(v * SEED_HEADROOM) for k, v in cur["bundles"].items()},
             "pages": {k: int(v * SEED_HEADROOM) for k, v in cur["pages"].items()},
             "html_total_bytes": int(cur["html_total_bytes"] * SEED_HEADROOM),
@@ -241,6 +647,10 @@ def main() -> None:
             "neural": _neural_ceilings(),
             "observed": cur,
         }
+        # A ceiling refresh must not erase or reseed a deliberate count floor. Preserve
+        # the whole block verbatim, including keys this version does not interpret.
+        if "floors" in previous:
+            budget["floors"] = previous["floors"]
         BUDGET.parent.mkdir(parents=True, exist_ok=True)
         BUDGET.write_text(json.dumps(budget, indent=1, sort_keys=True) + "\n")
         print(f"budget seeded -> {BUDGET}")
@@ -313,6 +723,52 @@ def main() -> None:
         f"on-demand chunks: {nc.get('chunk_count', 0):,} files, "
         f"{fmt(nc.get('chunk_raw_bytes', 0))} (not fetched at boot)"
     )
+    for field in POLICY_OWNED:
+        if field in nb:
+            failures.append(
+                f"neural.{field} still carries a hard ceiling in {BUDGET.relative_to(ROOT)} "
+                f"({fmt(nb[field])}). It moved to the three-band policy in "
+                f"{policy.POLICY_PATH.relative_to(ROOT)}; a ceiling left here shadows the policy "
+                f"silently, because only the stricter of the two is ever seen. Delete the key."
+            )
+
+    # ── THE THREE-BAND POLICY: target · action · delta cap ──────────────────────────────────
+    # Everything above this line is a ratchet — a MAX, red the moment it is crossed. This block
+    # is the soft ceiling the owner asked for: growth is allowed, a cliff is not. The bands print
+    # a warning and pass; the action threshold and the delta cap are hard.
+    #
+    # COVERAGE, not silence: `checked` counts the metrics that actually reached a verdict against
+    # a committed baseline, and a shortfall is a FAILURE. This gate must never be able to report
+    # "payload budget OK" because it found nothing to look at.
+    warnings: list[str] = []
+    checked = 0
+    try:
+        pol = policy.load()
+        mine = policy.metrics_for(pol, GATE)
+        if not mine:
+            failures.append(
+                f"{policy.POLICY_PATH.relative_to(ROOT)} assigns NO metric to {GATE} — this gate "
+                f"would enforce the policy over nothing and still exit 0"
+            )
+        for name, spec in mine.items():
+            value, delta_value = _measured(name, cur)
+            if value is None:
+                failures.append(
+                    f"{name}: the policy assigns it to {GATE}, but this gate has no measurement "
+                    f"for that name (see _measured) — the rule is unenforced, not satisfied"
+                )
+                continue
+            r = policy.evaluate(name, spec, value, delta_value)
+            checked += 1
+            (notes if r["verdict"] == policy.PASS else warnings).extend(r["lines"])
+            failures.extend(r["failures"])
+        if checked < len(mine):
+            failures.append(
+                f"policy coverage: {checked} of {len(mine)} metric(s) owned by this gate reached "
+                f"a verdict — the rest were not checked at all"
+            )
+    except policy.PolicyError as e:
+        failures.append(f"payload policy unreadable: {e}")
 
     total_ceiling = budget.get("html_total_bytes")
     if total_ceiling is not None and cur["html_total_bytes"] > total_ceiling:
@@ -323,15 +779,22 @@ def main() -> None:
 
     for n in notes:
         print("  ·", n)
+    for w in warnings:
+        print("  ", w)
     if failures:
         print(f"✗ PAYLOAD BUDGET EXCEEDED — {len(failures)} over budget:")
         for f in failures:
             print("  -", f)
         sys.exit(1)
+    # The policy count is printed on the GREEN path too, and deliberately: a reader must be able
+    # to tell "the delta cap ran and passed" from "the delta cap did not run", which is the one
+    # distinction this repo has lost seventeen recorded times (CLAUDE.md §6.6).
     print(
         f"✓ payload budget OK — {len(budget.get('bundles', {}))} bundles, "
         f"{len(budget.get('pages', {}))} sampled pages, "
-        f"{fmt(cur['html_total_bytes'])} total HTML across {cur['html_file_count']} files"
+        f"{fmt(cur['html_total_bytes'])} total HTML across {cur['html_file_count']} files · "
+        f"policy: {checked} metric(s) checked against a committed baseline, "
+        f"{len(warnings)} over target"
     )
 
 

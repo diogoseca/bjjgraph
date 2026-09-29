@@ -56,6 +56,10 @@ const challengeFeedbackCSS = readFileSync(
 );
 const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
 const conceptsCSS = readFileSync(R("src/concepts.css"), "utf8");
+// THE READING STYLESHEET IS READ HERE AND DELIBERATELY NOT JOINED INTO `cssJoined` (v1.194.0).
+// It is emitted as its own artifact below and fetched on the first press of More. See the long
+// note at the top of src/reading.css for why, and the both-halves assertion after the emit.
+const readingCSS = readFileSync(R("src/reading.css"), "utf8");
 
 // lists-codec.src.js is a REAL ES module (so `node --test` and a Cloudflare Pages Function
 // can import the identical source — one codec, never a second implementation to drift).
@@ -81,6 +85,10 @@ const listsStore = stripExports("lists.src.js");
 // the identical source, so the browser kernel and `tests/flow.test.mjs` can never drift
 // apart, and the Python reference (`scripts/solve_flow.py`) gates ONE implementation.
 const flowKernel = stripExports("flow.src.js");
+// wire-keys.src.js joins them: the ONE decoder of the ordinal-keyed eager wire (the deck
+// manifest and the score table, v1.204.3). The digest Worker and the unit suite import the
+// identical source, so the app and the mail allow-list can never decode two different ways.
+const wireKeys = stripExports("wire-keys.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -91,7 +99,7 @@ const flowKernel = stripExports("flow.src.js");
         (m) => m[1],
       ),
     );
-  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel]];
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys]];
   const clash = [];
   for (let a = 0; a < groups.length; a++) {
     for (let b = a + 1; b < groups.length; b++) {
@@ -208,6 +216,10 @@ ${listsStore}
 /* ---- begin flow.src.js (the FLOW kernel: policy evaluation + adjoint) ---- */
 ${flowKernel}
 /* ---- end flow.src.js ---- */
+
+/* ---- begin wire-keys.src.js (the ordinal-keyed eager wire: deck manifest + score table) ---- */
+${wireKeys}
+/* ---- end wire-keys.src.js ---- */
 // Reachable, greppable, and safe from tree-shaking: both files are pure and stateless, so
 // exposing them costs nothing and lets the list UI, the /l recipient path, the unit suite and
 // a paired debugging session all use the SAME functions. Both naming styles are published:
@@ -332,6 +344,8 @@ mkdirSync(R("dist"), { recursive: true });
 await build({
   entryPoints: [R("build/.tmp/entry.tsx")],
   bundle: true,
+  // Load the shared player only when a System is opened.
+  external: ["/static/system-preview.js"],
   format: "iife",
   target: "es2019",
   minify: true,
@@ -358,9 +372,18 @@ const cssJoined = [
   challengeCSS,
   challengeCollectionCSS,
   challengeFeedbackCSS,
-  systemsCSS,
-  conceptsCSS,
 ].join("\n");
+// Reference-page styles are requested with their deferred indexes. The game boot should not
+// pay for a reader it never opens. Both local refresh commands copy every built app asset.
+//
+// NAMED `reference.css`, NOT `readers.css` (renamed before either branch merged). The More
+// fold's own deferred stylesheet is `reading.css`, emitted a few lines below by
+// `discuss/readinghtml-landmore-reading-panel-redesign-neural`. Two files one letter apart in
+// one directory, serving surfaces that share no selector, no class name and no declaration
+// set, is a wrong-file edit waiting to happen (CLAUDE.md 6.7). `reference.css` also says what
+// it holds: Systems, Principles and Learning are REFERENCE PAGES, the owner's own words in
+// CLAUDE.md 5. The assessment is reports/integrate-stylesheet-collision.md.
+writeFileSync(R("dist/reference.css"), (await transform(systemsCSS + "\n" + conceptsCSS, { loader: "css", minify: true })).code);
 
 // ── CSS COMMENTS ARE PAYLOAD UNLESS SOMETHING STRIPS THEM, AND NOTHING DID ──────────────────
 // The JS above goes through esbuild, which drops comments — so "documentation at the code is
@@ -398,6 +421,36 @@ if (cssMin.length >= cssStripped.length) {
 }
 const cssMinSaved = Buffer.byteLength(cssStripped) - Buffer.byteLength(cssMin);
 writeFileSync(R("dist/neural.css"), cssMin);
+
+// ── THE DEFERRED READING STYLESHEET (v1.194.0) ─────────────────────────────────────────────
+// Same strip -> minify chain as the eager sheet, emitted as its OWN artifact so the ~237 gzip
+// bytes of reading rules never reach the boot payload. `app/reading.css` is declared in
+// scripts/check_payload_budget.py's DEFERRED tuple and banned from boot by
+// e2e/journeys/payload-first-hand.spec.ts's BANNED_ON_BOOT.
+const readStripped = readingCSS.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\n\s*\n+/g, "\n");
+const readMin = (await transform(readStripped, { loader: "css", minify: true })).code;
+writeFileSync(R("dist/reading.css"), readMin);
+
+// BOTH HALVES, OR THE CLAIM IS NOT CHECKED. "The rules are absent from neural.css" is also
+// satisfied by an empty or missing reading.css, and "present in reading.css" is satisfied by a
+// build that ALSO left them in the eager sheet — which would ship them twice and save nothing.
+// A filename ban cannot see rules embedded in another file; only this can.
+const READ_PROBE = [".r-s", ".r-toc"];
+for (const sel of READ_PROBE) {
+  if (!readMin.includes(sel)) {
+    throw new Error(
+      `[build] reading.css is missing ${sel} — the deferred stylesheet is empty or the selector ` +
+        "was renamed. An absent rule set makes the neural.css assertion below pass for free.",
+    );
+  }
+  if (cssMin.includes(sel)) {
+    throw new Error(
+      `[build] ${sel} is in the EAGER neural.css as well as reading.css — the reading rules were ` +
+        "joined into cssJoined. That ships them twice and charges the eager ceiling for bytes " +
+        "the deferral exists to move. Remove readingCSS from cssJoined.",
+    );
+  }
+}
 // POSITIVE COVERAGE, NOT SILENCE (§6.6): print what was removed, so a build that quietly stops
 // stripping — or one where the pattern matches nothing — is visible instead of looking clean.
 //
@@ -428,4 +481,11 @@ console.log(
     `${cssMinSaved.toLocaleString()} B of CSS whitespace, and ` +
     `${tplCommentBytes.toLocaleString()} B of template comments (${tplComments.length}), ` +
     `from the boot payload`,
+);
+// The deferred artifact reports itself, so a build that silently stopped emitting it is visible
+// rather than looking clean (§6.6). Both halves of its invariant were asserted above.
+console.log(
+  `[build] deferred neural/dist/reading.css written — ${Buffer.byteLength(readMin).toLocaleString()} B ` +
+    `(${(Buffer.byteLength(readingCSS) - Buffer.byteLength(readMin)).toLocaleString()} B of comments and ` +
+    `whitespace stripped), NOT in neural.css and NOT on the boot payload`,
 );

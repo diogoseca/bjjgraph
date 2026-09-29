@@ -86,6 +86,42 @@
   .ng-histctl:active{transform:translateY(1px);}
   .ng-histctl:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
   .ng-histctl[data-replaying]{background:rgba(126,224,168,.16);color:#9fe8c0;}
+  /* ---------- Settings: the tab row (v1.196.1) ----------
+     Owner, with a desktop screenshot: "settings doesnt have room for all tabs". The row was five
+     bare spans with NO overflow behaviour, so "Shortcuts" ran 22.5px past the 440px card's
+     content box and was clipped by its edge; at 390 it sat wholly outside the card.
+     THE IDIOM IS THE MORE FOLD'S CONTENTS ROW (`.r-toc` in reading.css, the owner's "tabs in a
+     single row, with horizontal scrolling"): one row, scroll when it must, the active entry
+     centred. It is NOT shared by class because reading.css is deferred and this is boot chrome.
+     What `.r-toc` lacks and this row needs is added here, and only here:
+       - HIT BOX vs LABEL: the <button> is the 44px hit area; its <span> is exactly the old visual
+         tab (text, 11px, 2px underline). The button pads 16px UP into the gap above the row and
+         7px each side, and the row takes a matching -7px margin, so the labels still align with
+         the title while every pixel between two labels belongs to one tab or the other. The
+         wrapper that carries the hairline keeps the content width (see renderSettings).
+       - THE FADE IS EARNED: `data-fade` is written by `_settingsTabRow` from the live scroll
+         position ("l", "r", both, or absent), so an edge dims only while something is actually
+         hidden past it. A fade over a complete row would read as a clipped one, which is the bug
+         this replaces. mask-image, not an overlay: the card's background is a gradient.
+       - SPACE-BETWEEN, so a row that fits is flush with BOTH edges of the content column (the
+         title's left edge, the notice box's right edge) and the leftover goes into the gaps. It
+         cannot cause overflow: free space that is negative makes space-between act as
+         flex-start, and the row scrolls from its first tab. The 14px `.r-toc` rhythm is the
+         FLOOR, set by the hit padding.
+     At 440px (every viewport >= 478) the five labels fit with ~18px gaps, so desktop and tablet
+     never scroll; a phone does. That is one design, and only the content decides between the
+     two outcomes. A sixth tab changes the outcome, never the layout. */
+  .ng-stabs{position:relative;display:flex;justify-content:space-between;margin:0 -7px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;}
+  .ng-stabs::-webkit-scrollbar{display:none;}
+  .ng-stabs[data-fade]{-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--fl,0px),#000 calc(100% - var(--fr,0px)),transparent);mask-image:linear-gradient(90deg,transparent,#000 var(--fl,0px),#000 calc(100% - var(--fr,0px)),transparent);}
+  .ng-stabs[data-fade~=l]{--fl:40px;}
+  .ng-stabs[data-fade~=r]{--fr:40px;}
+  .ng-stab{flex:none;min-height:44px;padding:16px 7px 0;border:none;border-radius:8px;background:transparent;cursor:pointer;font:inherit;font-size:13.5px;font-weight:600;color:#8b97b0;white-space:nowrap;transition:color .15s ease;}
+  .ng-stab>span{display:block;padding-bottom:11px;border-bottom:2px solid transparent;}
+  .ng-stab:hover{color:#c4cde0;}
+  .ng-stab[aria-selected=true]{color:#eef1f6;}
+  .ng-stab[aria-selected=true]>span{border-bottom-color:#7e9bff;}
+  .ng-stab:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-2px;}
   *{scrollbar-width:thin;scrollbar-color:rgba(120,150,210,.32) transparent;}
   ::-webkit-scrollbar{width:9px;height:9px;}
   ::-webkit-scrollbar-track{background:transparent;}
@@ -157,13 +193,14 @@
   @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
-     (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and
+     (pane 8, tray/backs 4, landing card/film/More/guides 5, logo 9) never compete out here;
+     landing content stays below the pane even when More is expanded. The wrap paints at level 0 and
      any root-level sibling with z ≥ 1 covers ALL of it. Bands, bottom to top:
-        1-9    ambient state chrome beside gameplay   — landcard 5 · momentum 6 · tut/cue 7 ·
+        1-9    ambient state chrome beside gameplay   — momentum 6 · tut/cue 7 ·
                                                         replay bar 8
         10-49  ambient attention fx                   — reward toast 14 · vignette 44
         50-79  coaching                               — coach 70 · combo pop 72
-        90-99  DELIBERATE temporary screens           — More reading card + account menu 90 ·
+        90-99  DELIBERATE temporary screens           — account menu 90 ·
                modal (settings/legal/auth/search) + roll-from confirm 95
      Principle (third stacking bug of this family — menu-under-landcard, coach-over-card,
      landcard-over-Settings): a screen the user asked for must NEVER be underdrawn by an
@@ -189,33 +226,40 @@
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
-  /* One stable viewport for the whole deck, including revealed recall answers. Long content
-     scrolls inside; changing questions never resizes the card or the film row above it. */
-  .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 40px));height:256px;padding:16px 18px;overscroll-behavior:contain;scroll-padding-block:12px;}
-  .ng-land-deck [data-land-q]{padding-bottom:44px;}
-  .ng-land-deck [data-land-nav]{position:absolute;left:0;right:0;bottom:0;height:44px;z-index:3;pointer-events:none;background:linear-gradient(180deg,rgba(17,20,34,0),#111422 40%);}
-  .ng-land-deck [data-land-nav] button{position:absolute;bottom:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;border-radius:12px;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
-  .ng-land-deck [data-land-prev]{left:2px;}
-  .ng-land-deck [data-land-next]{right:2px;}
-  .ng-land-deck [data-land-nav] button[hidden]{display:none;}
-  @media(hover:hover){.ng-land-deck [data-land-nav] button:hover{color:#e0e9ff;background:rgba(126,160,255,.08);}}
+  /* Reserve side gutters for the swipe guides. The face grows with its content; an unusually
+     tall answer moves with the whole reading column, never inside a nested scrollport.
+     THE FOOT IS 1.5x THE SIDE GUTTER (owner: "just a little bit more than the left and right
+     edges ... like 50% more"): 27 of 18 here, 18 of 12 on the phone rule below. min-height is
+     the FIRST FRAME only — `_dockLandStack` rewrites it from NG_LAND_DECK_MIN_H (app.src.jsx),
+     which carries why 236 and why a floor still exists at all. Change one, change the other. */
+  .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 104px))!important;height:auto;min-height:236px;max-height:none!important;padding:16px 18px 27px;overflow:clip;touch-action:none;}
+  .ng-landnav{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;touch-action:none;}
+  .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
+  .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
+  .ng-landnav [data-land-next]{left:calc(100% + 8px);}
+  .ng-landnav button[hidden]{display:none;}
+  .ng-landnav button:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;border-radius:8px;}
+  @media(hover:hover){.ng-landnav button:hover{color:#e0e9ff;}}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
   .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}
-  .ng-land-deck [data-land-recall]{font-size:13px;}
+  .ng-land-deck [data-land-recall]{font-size:13px;overflow-wrap:anywhere;}
+  .ng-land-deck [data-land-recall]>div:last-child{flex-wrap:wrap;}
   .ng-land-deck [data-land-recall] button{min-height:44px!important;}
   .ng-land-deck button:focus-visible{outline:2px solid #9cbcff;outline-offset:2px;}
   @media(max-width:640px){
-    .ng-landcard.ng-land-deck{height:248px;}
+    /* the phone gutter is 12 (`.ng-landcard`'s own !important padding, which outranks the deck
+       rule above), so the foot is 18 — and it needs !important to reach past that same rule */
+    .ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important;}
     .ng-land-deck [data-land-q]>div:first-child{font-size:13px!important;}
   }
   /* Short portrait screens trade thumbnail size for reading space; expanded video keeps its
-     inline important dimensions. Long answers remain scrollable, with full-size touch targets. */
+     inline important dimensions. Answers retain full-size touch targets. */
   @media(max-width:699px) and (max-height:700px){
     .ng-has-land-deck .ng-landfilm .ng-clip{height:64px!important;}
   }
   /* Landscape is a two-column composition, not a cropped portrait layout. */
   @media(min-width:700px) and (max-height:540px){
-    .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 40px);height:calc(100dvh - 112px);padding:12px 14px;}
+    .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 104px)!important;min-height:calc(100dvh - 112px);padding:12px 14px 21px;}
     .ng-has-land-deck .ng-optionrow{left:56vw!important;padding-left:12px!important;padding-right:12px!important;}
     .ng-has-land-deck .ng-landfilm{left:78vw!important;width:calc(44vw - 24px)!important;}
     .ng-has-land-deck .ng-landmore{left:28vw;}
@@ -232,7 +276,7 @@
      this card, the pushed-down hand — translates together (`_readApply`). touch-action:none so a
      phone drag reaches that column instead of rubber-banding the document. */
   .ng-landmore{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;}
-  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;z-index:90!important;touch-action:none;}
+  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;touch-action:none;}
   .ng-landmore.open>div:first-child{padding-bottom:9px;transform:none!important;}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
@@ -309,7 +353,10 @@
   .ng-listpicker-row[aria-checked="true"] .ng-listpicker-box{background:#7ee0a8;border-color:#7ee0a8;}
   .ng-listpicker-name{flex:1;min-width:0;font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .ng-listpicker-n{flex:none;font-size:10.5px;font-weight:700;color:#7e8aa3;}
-  .ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default";margin-left:7px;font-size:8.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;}
+  /* NO "DEFAULT" CHIP. A `[data-picker-default="1"] .ng-listpicker-name::after{content:"default"}`
+     rule drew one here after the first row's name — the only place the retired default list was
+     ever VISIBLE, and invisible to textContent. Owner, 2026-09-23: "abolish the 'default' list
+     annotation". The rows are recency order (`listsArray()`), and no row is marked. */
   .ng-listpicker-newrow{margin-top:2px;border-top:1px solid rgba(150,170,210,.13);border-radius:0 0 9px 9px;color:#9db4ff;}
   .ng-listpicker-newrow .ng-listpicker-box{border-style:dashed;color:#9db4ff;}
   .ng-listpicker-new{display:flex;align-items:center;gap:6px;margin-top:4px;padding-top:6px;border-top:1px solid rgba(150,170,210,.13);}

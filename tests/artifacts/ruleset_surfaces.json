@@ -128,11 +128,11 @@
    "snippet": "this._idIndex.get(",
    "reason": "The DECODE must stay whole or a /l/<code> arrival silently drops members and the recipient's saved copy differs from the sender's. Filtering happens where the list is used, not where it is read."
   },
-  "neural/src/app.src.jsx::famDossierNode::nodes[0]": {
-   "fn": "famDossierNode",
+  "neural/src/app.src.jsx::_ensureAliases::this._idIndex.get(": {
+   "fn": "_ensureAliases",
    "file": "neural/src/app.src.jsx",
-   "snippet": "nodes[0]",
-   "reason": "`nodes[0]` of a family's member list, used to pick a representative for the family dossier's header. The members come from an already-filtered group."
+   "snippet": "this._idIndex.get(",
+   "reason": "SEARCH METADATA, not a displayed or dealt node. This one-time deferred load attaches aliases to both role nodes across rulesets. Filtering during hydration would permanently omit aliases when the player later switches rulesets because _aliasesWait is reused. The consumers apply the mask: renderExplorer filters with rsAllows before nodeMatches, and renderSearch filters representative nodes with rsAllows before matching aliases."
   }
  }
 }

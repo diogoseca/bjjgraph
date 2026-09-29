@@ -19,16 +19,21 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { ngWireDecks, ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const APP = resolve(HERE, "../neural/src/app.src.jsx");
 const src = readFileSync(APP, "utf8");
 
+// The bundle concatenates neural/src/wire-keys.src.js above the class (the manifest and score-table
+// decoder, v1.204.3), so a headless harness injects the same two names — the flow.test.mjs pattern.
 const Component = new Function(
   "DCLogic",
   "React",
+  "ngWireDecks",
+  "ngWireScoreWeights",
   `${src}\nreturn Component;`,
-)(class DCLogic {}, { createRef: () => ({ current: null }) });
+)(class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights);
 
 /** A minimal `this`: the real prototype plus only the state these methods read. */
 function app(decks, opts = {}) {

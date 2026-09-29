@@ -16,7 +16,7 @@ import { journey } from "../dsl";
  * ever adds the social preview (og:title naming the techniques), which no local test can
  * prove — that is a real-deploy check, deliberately not faked here.
  *
- * Rails: __neural.lists, .activeListId, .listShareCode(id), .listShareUrl(id),
+ * Rails: __neural.lists, .listsArray(), .listShareCode(id), .listShareUrl(id),
  *        ._sharedIncoming, ._focusIdxSet, ._listFocusId
  * Beats: list_item_added, list_shared, list_opened
  * Wire:  neural/src/lists-codec.src.js (ordinals from node_ordinals.json, never array indices)
@@ -139,13 +139,17 @@ test("a coach collects today's class into a list from the surfaces they are alre
     "Lists leads Explore's sections (under the stats row) — the acquisition loop runs through it",
   ).toBeVisible();
   await expect(
-    page.locator("[data-lists-empty]"),
-    "an explicit empty state, not a bare header",
-  ).toBeVisible();
-  await expect(
     page.locator("[data-lists-head]"),
     "the header owns its count even at zero — 'Your lists (0)' (owner's call, v1.95.0)",
   ).toContainText(/Your lists\s*\(0\)/);
+  // v1.196.1: Your lists FOLDS like every other Explore section and starts closed (owner: "like
+  // other categories where it's collapsed by default unless we expand it"), so the empty state is
+  // read by opening it. The fold itself is pinned by lists-section-fold.spec.ts.
+  await page.locator('[data-explore-section="Your lists"]').click();
+  await expect(
+    page.locator("[data-lists-empty]"),
+    "an explicit empty state, not a bare header",
+  ).toBeVisible();
 
   // add from an Explore row: search, then the row's + affordance
   const picks = await pickClassNodes(page, 2);
@@ -165,7 +169,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
-      const id = a.activeListId;
+      const id = a.listsArray()[0]; // the list the name field just created
       return { id, items: (a.lists[id] || {}).items };
     }),
     "naming the list is what creates it and puts the technique in it",
@@ -216,9 +220,8 @@ test("a coach collects today's class into a list from the surfaces they are alre
     return {
       v: blob.v,
       lists: blob.lists,
-      active: a.activeListId,
       live: a.lists, // carried into the failure message: which list got which technique
-      count: (a.lists[a.activeListId] || {}).items.length,
+      count: (a.lists[a.listsArray()[0]] || {}).items.length,
     };
   });
   expect(
@@ -346,28 +349,27 @@ test("sharing produces a canonical, WhatsApp-short link that decodes back to the
   await j.land("Mount Top");
 
   const picks = await pickClassNodes(page, 5);
-  await page.evaluate(
+  const listId: string = await page.evaluate(
     (ids: string[]) => {
       const a = (window as any).__neural;
-      for (const id of ids) a.addToList(id);
+      const lid = a.newList();
+      for (const id of ids) a.addToList(id, lid);
+      return lid;
     },
     picks.map((p) => p.id),
   );
 
   await openExplore(page);
-  const listId = await page.evaluate(
-    () => (window as any).__neural.activeListId,
-  );
   await expect(
     page.locator(`[data-list-row="${listId}"] [data-list-count]`),
   ).toHaveText(/5/);
 
   await page.locator(`[data-list-row="${listId}"] [data-list-share]`).click();
 
-  const share = await page.evaluate(() => {
+  const share = await page.evaluate((lid: string) => {
     const a = (window as any).__neural;
     const url = a._lastShareUrl;
-    const code = a.listShareCode(a.activeListId);
+    const code = a.listShareCode(lid);
     const back = (window as any).NGLists.ngListDecodeIds(
       code,
       a._ordinalIndex(),
@@ -379,7 +381,7 @@ test("sharing produces a canonical, WhatsApp-short link that decodes back to the
       unknown: back.unknown,
       shareId: (window as any).NGLists.ngListShareId(code),
     };
-  });
+  }, listId);
 
   expect(share.url, "the link is a /l/<code> URL").toMatch(
     /\/l\/[A-Za-z0-9_-]+$/,
@@ -442,8 +444,9 @@ test("a student opens the WhatsApp link with NO Function deployed and the graph 
   const code = await page.evaluate(
     (ids: string[]) => {
       const a = (window as any).__neural;
-      for (const id of ids) a.addToList(id);
-      return a.listShareCode(a.activeListId);
+      const lid = a.newList();
+      for (const id of ids) a.addToList(id, lid);
+      return a.listShareCode(lid);
     },
     picks.map((p) => p.id),
   );
@@ -547,8 +550,9 @@ test("a student opens the WhatsApp link with NO Function deployed and the graph 
 const codeFor = (page: Page, ids: string[]) =>
   page.evaluate((list: string[]) => {
     const a = (window as any).__neural;
-    for (const id of list) a.addToList(id);
-    return a.listShareCode(a.activeListId);
+    const lid = a.newList(); // a list is always NAMED by its writer — there is no default list
+    for (const id of list) a.addToList(id, lid);
+    return a.listShareCode(lid);
   }, ids);
 
 // ─────────────── 3b. what the recipient can READ, RE-LIGHT and be asked only once
@@ -583,16 +587,20 @@ test("a received technique is named the way a coach named it: WITH the position 
     expect(text, "…without losing the technique's own name").toContain(p.main);
   }
 
-  // the same qualifier must survive into the toast a coach sees when adding/removing
+  // the same qualifier must survive into the toast a coach sees when adding/removing — through
+  // the picker row, the one add path left (`toggleListItem` and its "today's list" are gone)
   const toast = await page.evaluate((id: string) => {
     const a = (window as any).__neural;
-    a.toggleListItem(id, "shared");
+    a.pickList(a.newList("Qualifier check"), id);
     const el = document.querySelector(".ng-event") || document.body;
     return (el.textContent || "").replace(/\s+/g, " ");
   }, picks[0].id);
   expect(toast, `the confirmation names the technique in full (got: ${toast})`).toContain(
     picks[0].from.replace(/^from /, ""),
   );
+  // …and names the LIST the reader chose, never a "today's list" nobody picked
+  expect(toast, "the confirmation names the chosen list").toContain("“Qualifier check”");
+  expect(toast, "no phantom default list in the copy").not.toMatch(/today/i);
 });
 
 test("the recipient can re-light the received class on the graph after the fog clears @curated", async ({
@@ -735,7 +743,7 @@ test("deleting a list asks first, and can be taken back @curated", async ({ page
     picks.map((p) => p.id),
   );
   await openExplore(page);
-  const listId = await page.evaluate(() => (window as any).__neural.activeListId);
+  const listId = await page.evaluate(() => (window as any).__neural.listsArray()[0]); // the only list
   const del = page.locator(`[data-list-row="${listId}"] [data-list-delete]`);
   const share = page.locator(`[data-list-row="${listId}"] [data-list-share]`);
 
@@ -808,9 +816,10 @@ test("a hostile or stale link degrades: nothing crashes, nothing lies", async ({
     const nodes = a.nodes
       .filter((n: any) => typeof n.o === "number")
       .slice(0, 3);
-    for (const n of nodes) a.addToList(n.id);
+    const lid = a.newList();
+    for (const n of nodes) a.addToList(n.id, lid);
     return {
-      code: a.listShareCode(a.activeListId),
+      code: a.listShareCode(lid),
       ids: nodes.map((n: any) => n.id),
     };
   });
@@ -990,6 +999,8 @@ test("the + beside Your lists creates a class list — the one deliberate creati
     head,
     "the old static 'share a class' caption is gone — the + replaced it",
   ).not.toContainText(/share a class/i);
+  // the section starts folded (v1.196.1, lists-section-fold.spec.ts) — open it to read the line
+  await page.locator('[data-explore-section="Your lists"]').click();
   await expect(
     page.locator("[data-lists-empty]"),
     "the empty line explains what custom lists are for",
@@ -1013,11 +1024,12 @@ test("the + beside Your lists creates a class list — the one deliberate creati
   await page.keyboard.press("Enter");
   await expect(row, "the established default name").toContainText(/Class · /);
 
-  // "ready for adding": newList() (the SAME function every implicit path uses) makes the
-  // newborn the active add target, and its row reads as selected
+  // "ready for adding": the newborn is the most recently touched list, so it LEADS the picker's
+  // recency order — an order, not a default: nothing files into it without a pick — and its
+  // row reads as selected
   const state = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const id = a.activeListId;
+    const id = a.listsArray()[0];
     const l = a._listsMap()[id];
     return {
       empty: !!l && l.items.length === 0,
@@ -1025,7 +1037,7 @@ test("the + beside Your lists creates a class list — the one deliberate creati
       focused: a._listFocusId === id,
     };
   });
-  expect(state.empty, "newborn list is the active add target").toBe(true);
+  expect(state.empty, "the newborn leads the recency order, still empty").toBe(true);
   expect(state.name).toMatch(/^Class · /);
   expect(state.focused, "and its row is the selected one").toBe(true);
 

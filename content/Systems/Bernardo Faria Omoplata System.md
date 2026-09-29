@@ -1,374 +1,135 @@
 
-
-
-
 ---
-title: "Bernardo Faria Omoplata System | BJJ System | BJJ Graph"
-description: "Study Bernardo Faria omoplata entries and defensive reactions with a focused course guide, connected guard positions and clear submission-versus-sweep decisions."
+title: "Bernardo Faria: Omoplata Everyone | BJJGraph"
+description: "Bernardo Faria’s omoplata course covers setups from several positions, standing and rolling defenses, and alternatives to the shoulder-lock finish."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Bernardo Faria Omoplata System",
-  "description": "Step-by-step implementation sequence for Bernardo Faria Omoplata System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Choose one gi entry",
-      "text": "Start with the closed-guard sleeve-grip lesson. Note which fabric controls are essential and stop at the intended omoplata position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Confirm retained control",
-      "text": "Have the partner make a small posture adjustment without rolling. Observe whether the arm remains captured before considering the finish.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Study the standing response",
-      "text": "Review the relevant section with a coach and practise recognising the posture change without forcing shoulder pressure.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Compare the rolling defence",
-      "text": "Use a separate cooperative round with an agreed roll and endpoint. Determine whether the attack can be retained or whether a positional result is available.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Choose the outcome",
-      "text": "Repeat the original entry with one of the two agreed reactions. State whether the next goal is continued control, top position or guard recovery.",
-      "position": 5
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Bernardo Faria Omoplata System",
-  "description": "Study Bernardo Faria omoplata entries and defensive reactions with a focused course guide, connected guard positions and clear submission-versus-sweep decisions.",
-  "url": "https://bjjgraph.org/Systems/Bernardo-Faria-Omoplata-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Bernardo Faria Omoplata System", "item": "https://bjjgraph.org/Systems/Bernardo-Faria-Omoplata-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The entry depends on a sleeve grip that the student has not established.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rebuild the entry from its actual grip requirements before opening guard."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Standing and rolling defences are treated as the same reaction.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Practise them in separate rounds and name the change before responding."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The attacker retains a shoulder lock while the partner rolls unpredictably.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reset and use a cooperative, coach-approved rolling drill with no finishing pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: A useful sweep is declined because the original submission did not finish.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Review the positional result as a legitimate branch and practise stabilising top position."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Bernardo Faria Omoplata System",
-  "description": "The Bernardo Faria Omoplata System is a BJJGraph study framework for connecting omoplata entries with control, defensive-reaction recognition and the choice between attacking and taking top position.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Bernardo Faria: Omoplata Everyone","description":"Bernardo Faria’s omoplata course covers setups from several positions, standing and rolling defenses, and alternatives to the shoulder-lock finish."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Bernardo Faria Omoplata System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Bernardo Faria: Omoplata Everyone</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Intermediate</span></div>
+
+<p class="system-reference-count">8 related references (techniques and positions)</p>
+</header>
 
 
-
-<div class="principle-meta">
-<span class="meta-chip">Submission Chain</span>
-<span class="meta-chip">Intermediate difficulty</span>
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Omoplata Everyone by Bernardo Faria" data-system-preview data-system-key="Bernardo Faria Omoplata System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/7d82a108-5452-4d05-b1f5-87004e9ab414?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Omoplata Everyone by Bernardo Faria">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/OmoplataEveryonebyBernardoFaria_FRONTCover_1.jpg?v=1762457828" alt="Omoplata Everyone course cover" decoding="async" fetchpriority="high">
 </div>
+</section>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<div class="system-course__identity"><h2>Omoplata Everyone</h2><p class="system-course__instructor">By Bernardo Faria</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
+</section>
 
-<section id="overview" class="content-section">
+<section id="overview" class="system-overview">
 
-## What is Bernardo Faria Omoplata System?
+Bernardo Faria’s Omoplata Everyone addresses both finding the attack and keeping it useful against resistance. Its four volumes include sleeve and belt entries, responses to standing or rolling opponents, and problems such as connected hands or a knee under the hip.
 
-**The Bernardo Faria Omoplata System is a BJJGraph study framework for connecting omoplata entries with control, defensive-reaction recognition and the choice between attacking and taking top position.**
+The course also covers recovering the omoplata after passing attempts and giving up the submission to score. It is a focused option for gi players whose omoplata game stalls after the entry.
 
-Omoplata Everyone offers a focused instructional destination for this shoulder-lock family. Its contents include gi-grip entries, standing and rolling reactions, related attacks and the decision to give up the submission for a positional result. The title is the course name, not a promise that an omoplata will work on every opponent.
+</section>
 
-BJJGraph's original plan below begins with a closed-guard entry and treats the resulting control as its own skill. A defender standing, rolling or connecting their hands presents a different problem each time. Practise identifying those reactions before choosing a response, and keep a sweep or guard-recovery option available when the original attack no longer fits.
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You reach omoplatas in the gi but struggle when opponents stand, roll or connect their hands.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Eddie Bravo: Rubber Guard to Omoplata</a> — Eddie Bravo’s broader rubber-guard course includes a specifically named omoplata route.</p>
+
+
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Entries from closed guard, butterfly, half guard, lasso and top positions.
+- Standing and rolling defenses, recovery after passing attempts, alternative submissions and a positional scoring option.
+
+
+### Limits
+
+- Sleeve, belt and lapel controls feature in the syllabus; this is not a dedicated no-gi omoplata course.
 
 </section>
 
 
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
 
-
-
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="omoplata-everyone-by-bernardo-faria">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Omoplata Everyone</h3>
-<p class="product-card__instructor">with Bernardo Faria</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Gi students who already know a basic omoplata and want reaction-specific troubleshooting; several setups depend on fabric grips.</p>
-<p class="product-card__blurb">An omoplata-focused course with gi entries, standing and rolling defences, and a positional branch when the finish is unavailable.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-omoplata-system&utm_term=omoplata-everyone-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
-
-</div>
-
+<a class="system-course__link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Omoplata Everyone</a>
 </section>
 
+<section id="related-content" class="system-section">
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+## Related guides and principles
 
-## Unlock this part of the graph
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+<p><a href="/Principles/Sleeve-Control">Sleeve Control</a></p><p><a href="/Principles/Action-and-Reaction">Action and Reaction</a></p><p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Eddie Bravo: Rubber Guard to Omoplata</a> — Compare the explicitly named rubber-guard entry lesson.</p>
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Treat entry and retained omoplata control as different stages.
-- Track the defender's posture before selecting the next response.
-- Recognise the role of sleeve, belt or lapel grips in a chosen gi setup.
-- Distinguish maintaining a shoulder attack from accepting a positional result.
-- Compare standing and rolling reactions in separate drills.
-- Use controlled movement and release shoulder-lock pressure immediately on a partner signal.
+### Review related technique cards
 
 
-</section>
 
-<section id="key-components" class="content-section">
-
-## Key Components
-**Closed-guard entry** (Create a familiar starting sequence for the study plan.)
-Select a sleeve-based entry and identify the point at which the arm is captured in the intended omoplata configuration.
-
-**Posture response** (Choose a response based on posture rather than a memorised continuation.)
-Observe whether the defender remains low or begins to stand and identify how that changes the available connection.
-
-**Roll and grip defence** (Separate distinct obstacles to continued shoulder control.)
-Compare a controlled rolling response with a joined-hands defence without assuming they require the same answer.
-
-**Submission-to-position choice** (Make the positional branch an intentional part of the system.)
-Assess when keeping the attack is useful and when accepting top position gives a clearer outcome.
+- [[Submissions/Omoplata|Omoplata]] (Submission)
 
 
+- [[Positions/Omoplata Control|Omoplata Control]] (Position)
+
+
+- [[Positions/Closed Guard|Closed Guard]] (Position)
+
+
+- [[Positions/Lasso Guard|Lasso Guard]] (Position)
+
+
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
+
+
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+
+- [[Submissions/Monoplata|Monoplata]] (Submission)
 
 </section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Choose one gi entry**: Start with the closed-guard sleeve-grip lesson. Note which fabric controls are essential and stop at the intended omoplata position.
-
-
-2. **Confirm retained control**: Have the partner make a small posture adjustment without rolling. Observe whether the arm remains captured before considering the finish.
-
-
-3. **Study the standing response**: Review the relevant section with a coach and practise recognising the posture change without forcing shoulder pressure.
-
-
-4. **Compare the rolling defence**: Use a separate cooperative round with an agreed roll and endpoint. Determine whether the attack can be retained or whether a positional result is available.
-
-
-5. **Choose the outcome**: Repeat the original entry with one of the two agreed reactions. State whether the next goal is continued control, top position or guard recovery.
-
-
-
-
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/bernardo-faria-omoplata-system" data-product-id="faria-omoplata" target="_blank" rel="noopener">Omoplata Everyone by Bernardo Faria</a> — official listing; checked 2026-09-19. Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Start with the closed-guard sleeve entry, then compare standing reactions with the later rolling-defence and positional-result sections.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-omoplata-system&utm_term=omoplata-everyone-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Omoplata Everyone &rarr;</a></p>
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-source-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-affiliate="false" data-system-slug="systems/bernardo-faria-omoplata-system" data-product-id="bravo-rubber" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **The entry depends on a sleeve grip that the student has not established.**: Rebuild the entry from its actual grip requirements before opening guard.
-- **Standing and rolling defences are treated as the same reaction.**: Practise them in separate rounds and name the change before responding.
-- **The attacker retains a shoulder lock while the partner rolls unpredictably.**: Reset and use a cooperative, coach-approved rolling drill with no finishing pressure.
-- **A useful sweep is declined because the original submission did not finish.**: Review the positional result as a legitimate branch and practise stabilising top position.
-
-
+</details>
 </section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Grip-to-entry clarity**: Assess the relationship between the gi grip and the initial capture.
-Proficiency indicators:
-- Names the essential grip
-- Recognises the captured arm
-- Stops at the control position
-
-
-**Reaction discrimination**: Identify the defender's chosen posture change.
-Proficiency indicators:
-- Distinguishes standing
-- Distinguishes rolling
-- Recognises a joined-hands defence
-
-
-**Control continuity**: Check what remains after a defensive movement.
-Proficiency indicators:
-- Tracks the arm
-- Notices a lost connection
-- Resets before forcing the shoulder
-
-
-**Outcome selection**: Review the chosen goal after the reaction.
-Proficiency indicators:
-- Can retain the attack when appropriate
-- Can accept top position
-- Can choose guard recovery
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-BJJGraph suggests a closed-guard entry followed by two separate reaction rounds. In the first, the partner begins a slow standing response; in the second, use a coach-approved cooperative roll with a clear stopping point. Apply no finishing pressure during the comparison. Name whether the next objective is retained control, a positional result or guard recovery.
-
-### Progression Path
-**Entry** (Focus: Establish the sleeve-based capture from closed guard.)
-**Posture** (Focus: Recognise a slow standing response.)
-**Rolling** (Focus: Compare a cooperative roll with a fixed endpoint.)
-**Choice** (Focus: Select continued attack, top position or guard recovery from the observed reaction.)
-
-
-### Common Mistakes
-- Skipping the gi grips needed for the chosen entry.
-- Forcing the same response against standing and rolling defences.
-- Treating a sweep as a failed submission instead of a useful outcome.
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Submissions/Omoplata|Omoplata]] (Submission) - The primary shoulder-lock reference.
-- [[Positions/Omoplata Control|Omoplata Control]] (Position) - The intended stopping point after entry.
-- [[Positions/Closed Guard|Closed Guard]] (Position) - The first entry context.
-- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Another gi-grip context for later study.
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - A different guard entry context.
-- [[Positions/Half Guard|Half Guard]] (Position) - A further starting position to compare.
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - A related attack with separate control requirements.
-- [[Submissions/Monoplata|Monoplata]] (Submission) - A neighbouring shoulder-lock configuration.
-- [[Principles/Sleeve Control|Sleeve Control]] (Principle) - Explains the role of the initial gi grip.
-- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Frames the decision after a posture change.
-
-
-</section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph suggestion: separate standing and rolling response rounds and name whether your next objective is control or top position.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-omoplata-system&utm_term=omoplata-everyone-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Omoplata Everyone &rarr;</a></p>
-</section>
-
-
-
 </main>

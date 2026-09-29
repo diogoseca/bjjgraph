@@ -1,6 +1,6 @@
 {
   "name": "Lucas Lepri Half Guard Passing System",
-  "description": "Study gi half-guard passing with a focused Lucas Lepri course match, practical partner drills, clear decisions, and ways to review your progress.",
+  "description": "Lucas Lepri’s Precise Half Guard Passing covers lapel-based knee cuts, coyote and single-leg-half responses, deep-half passing and submission counters.",
   "tags": [
     "bjj",
     "system",
@@ -9,255 +9,158 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "summary": "The Lucas Lepri Half Guard Passing System organizes top-half-guard control around lapel grips, responses to the bottom player coming up, and adjustments against deep-half and knee-shield variations.",
-  "overview": "Top half guard is a family of different exchanges. The bottom player may be flattened, building to a single leg, or moving under the hips into deep half. Classifying that change before selecting a pass gives a training partner a clear defensive task and gives you a useful way to review the result.\n\nPrecise Half Guard Passing by Lucas Lepri is the matched instructional. The syllabus covers lapel-assisted knee cuts, coyote and single-leg reactions, deep-half control, and a backstep against Z-guard. The drills, sequence, and assessment criteria below are an original BJJGraph study plan; use them to organize practice alongside the course and feedback from a coach.",
-  "key_principles": [
-    "Identify the half-guard variation before selecting the pass.",
-    "Check what a lapel grip controls rather than merely holding it.",
-    "Respond when the defender starts coming up, not only after standing.",
-    "Re-establish base as the defender moves under the hips.",
-    "Separate passing practice from later submission study."
-  ],
-  "key_components": [
-    {
-      "component_name": "Lapel-based control",
-      "description": "Choose a reviewed lapel connection in top half guard and test whether the defender can turn or establish an underhook before adding the pass.",
-      "purpose": "Examine what the grip changes in the position."
-    },
-    {
-      "component_name": "Coming-up reaction",
-      "description": "Allow the defender to build toward a single leg, then stop at the first lost control point and identify a practiced response.",
-      "purpose": "Recognize the change from guard passing to a wrestling exchange."
-    },
-    {
-      "component_name": "Deep-half entry",
-      "description": "Begin as the defender moves under the hips and rehearse a coach-reviewed base adjustment before attempting leg clearance.",
-      "purpose": "Treat deep-half control as a distinct task."
-    },
-    {
-      "component_name": "Knee-shield branch",
-      "description": "Present a knee shield and compare the planned cutting route with an agreed backstep response at a cooperative pace.",
-      "purpose": "Choose a route that matches the actual barrier."
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Lapel-based control",
-      "description": "BJJGraph study task: Choose a reviewed lapel connection in top half guard and test whether the defender can turn or establish an underhook before adding the pass.",
-      "key_points": [
-        "Examine what the grip changes in the position."
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Coming-up reaction",
-      "description": "BJJGraph study task: Allow the defender to build toward a single leg, then stop at the first lost control point and identify a practiced response.",
-      "key_points": [
-        "Recognize the change from guard passing to a wrestling exchange."
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Deep-half entry",
-      "description": "BJJGraph study task: Begin as the defender moves under the hips and rehearse a coach-reviewed base adjustment before attempting leg clearance.",
-      "key_points": [
-        "Treat deep-half control as a distinct task."
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Knee-shield branch",
-      "description": "BJJGraph study task: Present a knee shield and compare the planned cutting route with an agreed backstep response at a cooperative pace.",
-      "key_points": [
-        "Choose a route that matches the actual barrier."
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Connect and review",
-      "description": "Link the first two practiced tasks in a constrained round, then add the next stage only when both partners can identify the cue and stopping condition. Record the earliest control failure and return to that stage for the next set."
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Every variation receives the same pressure response.",
-      "solution": "Name whether the defender is shielding, coming up, or entering deep half before acting."
-    },
-    {
-      "obstacle": "A lapel grip occupies the hand without limiting movement.",
-      "solution": "Pause and ask a coach to check its purpose and positioning."
-    },
-    {
-      "obstacle": "The defender reaches the knees before you notice the change.",
-      "solution": "Use an early-reaction drill that ends as soon as the coming-up attempt is established."
-    },
-    {
-      "obstacle": "A base switch frees the trapped leg but concedes a reversal.",
-      "solution": "Rehearse the base adjustment with limited resistance before reconnecting the pass."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Lapel-based control",
-      "description": "Examine what the grip changes in the position.",
-      "proficiency_indicators": [
-        "Can describe the starting condition for lapel-based control.",
-        "Recognizes the agreed defensive response without prompting.",
-        "Can identify where the task broke down and select a relevant reset."
-      ]
-    },
-    {
-      "metric_name": "Coming-up reaction",
-      "description": "Recognize the change from guard passing to a wrestling exchange.",
-      "proficiency_indicators": [
-        "Can describe the starting condition for coming-up reaction.",
-        "Recognizes the agreed defensive response without prompting.",
-        "Can identify where the task broke down and select a relevant reset."
-      ]
-    },
-    {
-      "metric_name": "Deep-half entry",
-      "description": "Treat deep-half control as a distinct task.",
-      "proficiency_indicators": [
-        "Can describe the starting condition for deep-half entry.",
-        "Recognizes the agreed defensive response without prompting.",
-        "Can identify where the task broke down and select a relevant reset."
-      ]
-    },
-    {
-      "metric_name": "Knee-shield branch",
-      "description": "Choose a route that matches the actual barrier.",
-      "proficiency_indicators": [
-        "Can describe the starting condition for knee-shield branch.",
-        "Recognizes the agreed defensive response without prompting.",
-        "Can identify where the task broke down and select a relevant reset."
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "BJJGraph practice suggestion: Choose a reviewed lapel connection in top half guard and test whether the defender can turn or establish an underhook before adding the pass. Then connect it to coming-up reaction. Compare the first lost control point after each round. Keep the first repetitions cooperative and agree on resistance, space, and reset conditions. Once the starting task is clear, add one defensive option at a time and compare the result with the intended control objective.",
-    "progression_path": [
-      {
-        "stage": "1. Lapel-based control",
-        "focus": "Examine what the grip changes in the position. Use the corresponding component drill before broadening the defender's choices."
-      },
-      {
-        "stage": "2. Coming-up reaction",
-        "focus": "Recognize the change from guard passing to a wrestling exchange. Use the corresponding component drill before broadening the defender's choices."
-      },
-      {
-        "stage": "3. Deep-half entry",
-        "focus": "Treat deep-half control as a distinct task. Use the corresponding component drill before broadening the defender's choices."
-      },
-      {
-        "stage": "4. Knee-shield branch",
-        "focus": "Choose a route that matches the actual barrier. Use the corresponding component drill before broadening the defender's choices."
-      }
-    ],
-    "common_mistakes": [
-      "Every variation receives the same pressure response.",
-      "A lapel grip occupies the hand without limiting movement.",
-      "The defender reaches the knees before you notice the change.",
-      "A base switch frees the trapped leg but concedes a reversal."
-    ]
-  },
+  "summary": "Gi half-guard passing with lapel and belt controls, responses to opponents coming up, deep-half counters and submissions.",
+  "overview": "Precise Half Guard Passing by Lucas Lepri covers several ways to pass and attack from top half guard. Its three volumes address opponents who come up toward a single leg, move underneath into deep half or threaten sweeps.\n\nLapel and belt controls make this especially relevant to gi players. Passing is accompanied by submission counters and back-taking options, rather than being confined to one knee-cut finish.",
   "related_content": [
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Starting family of top-half exchanges"
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Deep Half Guard",
       "content_type": "Position",
-      "relationship": "Opponent moving beneath the hips"
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Z-Guard",
       "content_type": "Position",
-      "relationship": "Knee-shield context"
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Barrier that changes the passing route"
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Flattened Half Guard",
       "content_type": "Position",
-      "relationship": "Control state to compare with active half guard"
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Passing destination"
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Half Guard Pass",
       "content_type": "Transition",
-      "relationship": "Related final clearance"
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Knee Slice from Half",
       "content_type": "Transition",
-      "relationship": "One available passing route"
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Backstep from Deep Half",
       "content_type": "Transition",
-      "relationship": "Related base-switching problem"
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Cross Face Control",
       "content_type": "Principle",
-      "relationship": "Upper-body alignment in passing"
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Balance across half-guard changes"
+      "relationship": "Related BJJGraph principle."
+    },
+    {
+      "name": "Lucas Lepri Knee Cut System",
+      "content_type": "System",
+      "relationship": "For knee-cut entries and troubleshooting across De La Riva, lasso and other open guards."
+    },
+    {
+      "name": "Lachlan Giles Body Lock Passing System",
+      "content_type": "System",
+      "relationship": "For a dedicated no-gi body-lock course covering entries, knee clearance and finishes."
     }
   ],
-  "flashcards": [
-    {
-      "question": "Why should top half guard be divided into different scenarios?",
-      "answer": "A knee shield, a coming-up attempt, and deep half create different control problems and may require different passing responses."
-    },
-    {
-      "question": "What should a lapel-control drill measure?",
-      "answer": "Measure which movement the grip restricts and whether the defender can turn or establish the next useful connection."
-    },
-    {
-      "question": "When does a coming-up reaction need attention?",
-      "answer": "Recognize it as the defender starts building toward the knees or a single leg, before treating the exchange as a routine pass."
-    },
-    {
-      "question": "What is the first focus when the opponent moves into deep half?",
-      "answer": "Re-establish a usable base and identify the hip control before adding a leg-clearing action."
-    },
-    {
-      "question": "Why practice a backstep cooperatively before increasing resistance?",
-      "answer": "The base changes during the movement, so a slow rehearsal lets both partners identify when control is lost."
-    },
-    {
-      "question": "How does this study plan use the course's submission material?",
-      "answer": "It begins with control and passing; submission sections can be studied later without making them prerequisites for the first positional drills."
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "precise-half-guard-passing-by-lucas-lepri",
       "title": "Precise Half Guard Passing",
       "instructor": "Lucas Lepri",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "The syllabus covers lapel-assisted knee cuts, coyote and single-leg reactions, deep-half control, and a backstep against Z-guard.",
-      "best_for": "Gi passers who already recognize half-guard variants and want a focused response map. The wider course includes submissions; this study starts with positional control and passing.",
-      "study_focus": "Begin with lapel control and coyote reactions, then compare hip control against single-leg half with the deep-half and Z-guard sections.",
-      "practice_tip": "BJJGraph practice suggestion: Choose a reviewed lapel connection in top half guard and test whether the defender can turn or establish an underhook before adding the pass. Then connect it to coming-up reaction. Compare the first lost control point after each round."
+      "link_checked": "2026-09-16",
+      "blurb": "Three volumes of gi half-guard passes, counters and submissions across coyote, single-leg half and deep half.",
+      "best_for": "Gi passers seeking several ways to deal with active half-guard players.",
+      "course_url": "https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri",
+      "image": "https://bjjfanatics.com/cdn/shop/products/PreciseHalfGuardPassingbyLucasLepri_FRONTCover.jpg?v=1762459867"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Lucas Lepri: Gi Half-Guard Passing",
+    "audience": {
+      "fits": [
+        "Your gi half-guard passing stalls when an opponent comes up toward a single leg or enters deep half.",
+        "You want passing and submission options from top half guard, including lapel and belt controls."
+      ],
+      "consider_alternative_if": []
+    },
+    "coverage": {
+      "includes": [
+        "Lapel-crossface knee cutting and choke attacks from top half guard.",
+        "Coyote-guard and single-leg-half responses, including back takes and reverse triangles.",
+        "Deep-half passing, waiter-sweep counters, Z-guard backsteps and further submission options."
+      ],
+      "limits": [
+        "Lapel and belt grips make parts of the material gi-specific.",
+        "The course is concentrated on half-guard situations, rather than knee-cut entries from the full range of open guards."
+      ]
+    },
+    "sources": [
+      {
+        "id": "lepri-half-guard",
+        "url": "https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri",
+        "title": "Precise Half Guard Passing by Lucas Lepri",
+        "kind": "official_listing",
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
+      },
+      {
+        "id": "lepri-knee-cut",
+        "url": "https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri",
+        "title": "Precision Knee Cut Passes by Lucas Lepri",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed."
+      },
+      {
+        "id": "giles-body-lock",
+        "url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles",
+        "title": "The Body Lock Pass by Lachlan Giles",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed."
+      }
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/47403da6-1f12-4890-8a31-215afcf3323f?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "lepri-half-guard",
+      "title": "Official course introduction — Precise Half Guard Passing by Lucas Lepri",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    },
+    "alternatives": [
+      {
+        "system": "Lucas Lepri Knee Cut System",
+        "reason": "For knee-cut entries and troubleshooting across De La Riva, lasso and other open guards."
+      },
+      {
+        "system": "Lachlan Giles Body Lock Passing System",
+        "reason": "For a dedicated no-gi body-lock course covering entries, knee clearance and finishes."
+      }
+    ]
+  }
 }

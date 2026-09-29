@@ -6,21 +6,23 @@ real content everywhere instead of the "cards coming soon" fallback.
 Two dossier shapes the app renders (see neural/src/technique-content.js exemplars):
   - POSITION (single-perspective), keyed "<Name>|<Role>":
       {cat:"Position", role, def, principles[], decisionTree[{cond,acts:[[tech,prob,target]]}],
-       mistakes[{err,fix}], metrics{label:val}}
+       mistakes[{err,fix,why?}], metrics{label:val}, props{pts,type,risk,energy,time},
+       drills[{n,dur}], variations[], varNote{name:context}}
   - TRANSITION/SUBMISSION (dual-perspective), keyed "<Name>":
       {cat, from, target, successRate, def, context, outcomes[{result,position,prob,tone}],
-       variations[], related[],
+       variations[], varNote{name:context}, related[], kind?{cat,type,area},
+       safety?{notice,risks[{i,sev}],speed,tap[],release[],restrictions[]},
        perspectives:{attacker:{summary,recognition[],prerequisites[],steps[],principles[],
                                counters[],mistakes[{err,fix}]},
                      defender:{authored,summary,recognition[],principles[],options[{move,when,leadsTo}],
                                bestOutcomes[],mistakes[{err,fix}]}}}
+Both shapes also carry lead (the node's own summary), aka[] / confuse[{n,why}] for its
+own names, and optional family{name,aka[],confuse[]} for inherited naming metadata.
+Family names are not synonyms of a particular variant. The deferred search index uses
+the SAME metadata resolver, while graph-data.json keeps its existing wire shape.
 Numbers come from the calibrated graph.json (no-gi default frame); prose from content/.
-Dossier enrichment (Slice 4) maps existing content-JSON fields:
-  variations <- variants_and_adaptations[].variant_name (names only), related <-
-  related_content[].name (positions: related_positions[].name), attacker.prerequisites <-
-  attacker.setup_requirements[], attacker.recognition <- top-level conditions[], and
-  attacker.counters gains the first sentence (<=120ch) of common_counters[].your_response.
-Caps are tuned to a size budget: technique-content.js raw growth <= +10%.
+Safety instructions and aliases are complete. Other lists retain their existing dossier
+caps; each on-demand UTF-8 chunk is subject to the payload gate's 40,000-byte ceiling.
 """
 import glob
 import json
@@ -34,6 +36,8 @@ from _ruleset import reduce_to_scalar  # collapse {gi,nogi} -> no-gi default fra
 
 ROOT = Path(__file__).resolve().parent.parent
 TONE = {"success": "good", "failure": "bad", "counter": "mid"}
+POSITION_PROPS = {"pts": "point_value", "type": "position_type", "risk": "risk_level",
+                  "energy": "energy_cost", "time": "time_sustainability"}
 
 
 def _load(path):
@@ -122,7 +126,11 @@ def _mistakes(errs):
             err = e.get("error") or e.get("err") or ""
             fix = e.get("correction") or e.get("fix") or e.get("your_response") or ""
             if err:
-                out.append({"err": err, "fix": fix})
+                item = {"err": err, "fix": fix}
+                why = _clip(e.get("consequence"), 140)
+                if why:
+                    item["why"] = why
+                out.append(item)
         elif isinstance(e, str):
             out.append({"err": e, "fix": ""})
     return out[:6]
@@ -148,17 +156,108 @@ def _first_sentence(text):
     return re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0]
 
 
+def _clip(text, limit):
+    text = _first_sentence(text)
+    return text if len(text) <= limit else text[:limit - 1].rstrip() + "…"
+
+
+def _aliases(values):
+    """Preserve every authored alias, in order, without blank/case-only duplicates."""
+    out, seen = [], set()
+    for value in values or []:
+        if not isinstance(value, str):
+            continue
+        value = value.strip()
+        key = value.casefold()
+        if value and key not in seen:
+            out.append(value)
+            seen.add(key)
+    return out
+
+
+def _confuse(entries):
+    return [{"n": e["name"].strip(), "why": e["reason"].strip()}
+            for e in entries or [] if isinstance(e, dict)
+            and isinstance(e.get("name"), str) and e["name"].strip()
+            and isinstance(e.get("reason"), str) and e["reason"].strip()]
+
+
+def submission_families():
+    """Only explicit root family hubs supply metadata to their directory's variants."""
+    hubs = {}
+    for path in sorted((ROOT / "content/Submissions").glob("*.json")):
+        d = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(d, dict) and d.get("is_family"):
+            hubs[path.stem] = d
+    return hubs
+
+
+def family_for_source(path, hubs):
+    path = Path(path)
+    return hubs.get(path.parent.name) if path.parent != ROOT / "content/Submissions" else None
+
+
+def naming_metadata(d, family=None):
+    """One provenance-preserving resolver for dossiers and the deferred alias index."""
+    out = {}
+    for key, values in (("aka", _aliases(d.get("aliases"))),
+                        ("confuse", _confuse(d.get("disambiguations")))):
+        if values:
+            out[key] = values
+    if family:
+        inherited = naming_metadata(family)
+        if inherited:
+            out["family"] = {"name": family["name"], **inherited}
+    return out
+
+
+def _safety(d):
+    sc = d.get("safety_considerations") or {}
+    risks = [{"i": r["injury"], "sev": r["severity"]}
+             for r in sc.get("injury_risks", [])]
+    # Same source-backed notice as TEMPLATE-DUAL.md.jinja2. Never clip safety text:
+    # later sentences and later list entries contain release/distress restrictions.
+    return {
+        "notice": (f"{d['name']} targets the {d.get('target_area', '')}. "
+                   f"Primary risk: {risks[0]['i']}. Tap early; release immediately on the tap."
+                   if risks else ""),
+        "risks": risks,
+        "speed": sc.get("application_speed", ""),
+        "tap": sc.get("tap_signals", []),
+        "release": sc.get("release_protocol", []),
+        "restrictions": sc.get("training_restrictions", []),
+    }
+
+
 def _variations(va):
-    """variants_and_adaptations[] -> variant names only (when_to_use/description dropped: size budget)."""
+    """Keep the string-list interface across all three authored variation shapes."""
     out = []
     for v in va or []:
         if isinstance(v, str):
             out.append(v)
         elif isinstance(v, dict):
-            name = v.get("variant_name") or v.get("name") or v.get("variation") or ""
+            name = v.get("variant_name") or v.get("variation_name") or v.get("name") or v.get("variation") or ""
             if name:
                 out.append(name)
     return out[:6]
+
+
+def _add_variations(doss, entries):
+    names = _variations(entries)
+    if not names:
+        return
+    doss["variations"] = names
+    notes = {}
+    for entry in entries or []:
+        if not isinstance(entry, dict):
+            continue
+        name = (entry.get("variant_name") or entry.get("variation_name")
+                or entry.get("name") or entry.get("variation"))
+        note = _clip(entry.get("when_to_use") or entry.get("description"), 90)
+        if name in names and note:
+            notes[name] = note
+    if notes:
+        doss["varNote"] = notes
 
 
 def _related(entries, exclude=()):
@@ -215,7 +314,7 @@ def _clips(raw, extra=None):
     return out[:4]
 
 
-def _position_dossier(role_data, role_label, related=None, hub_clips=None):
+def _position_dossier(role_data, role_label, related=None, hub_clips=None, hub=None):
     dt = []
     for node in role_data.get("decision_tree", []) or []:
         if not isinstance(node, dict):
@@ -223,7 +322,9 @@ def _position_dossier(role_data, role_label, related=None, hub_clips=None):
         acts = []
         for a in node.get("actions", []) or []:
             if isinstance(a, dict) and a.get("technique"):
-                acts.append([a.get("technique"), a.get("success_rate") or a.get("probability"), _clean_pos(a.get("to") or a.get("leads_to"))])
+                probability = a["success_rate"] if "success_rate" in a else a.get("probability")
+                acts.append([a["technique"], probability,
+                             _clean_pos(a.get("target") or a.get("to") or a.get("leads_to"))])
         if node.get("condition"):
             dt.append({"cond": node["condition"], "acts": acts[:4]})
     metrics = {}
@@ -251,6 +352,18 @@ def _position_dossier(role_data, role_label, related=None, hub_clips=None):
         "mistakes": _mistakes(role_data.get("common_errors")),
         "metrics": metrics,
     }
+    hub = hub or {}
+    doss.update(naming_metadata(hub))
+    if hub.get("summary"):
+        doss["lead"] = hub["summary"].strip()
+    props = role_data.get("state_properties") or {}
+    doss["props"] = {short: props[source] for short, source in POSITION_PROPS.items()
+                     if source in props}
+    drills = [{"n": drill["name"], "dur": drill.get("duration", "")}
+              for drill in role_data.get("training_drills", []) if drill.get("name")][:3]
+    if drills:
+        doss["drills"] = drills
+    _add_variations(doss, hub.get("variations"))
     rel = _related(related)
     if rel:
         doss["related"] = rel
@@ -301,7 +414,7 @@ def _perspective_defender(dfn):
     return p
 
 
-def _technique_dossier(d, cat, graph):
+def _technique_dossier(d, cat, graph, hub=None):
     name = d.get("name")
     node = _tech_node(graph, name, cat)
     succ = None
@@ -328,9 +441,15 @@ def _technique_dossier(d, cat, graph):
         "context": (d.get("overview") or d.get("description") or "").strip(),
         "outcomes": outcomes,
     }
-    variations = _variations(d.get("variants_and_adaptations"))
-    if variations:
-        doss["variations"] = variations
+    doss.update(naming_metadata(d, hub))
+    if d.get("summary"):
+        doss["lead"] = d["summary"].strip()
+    _add_variations(doss, d.get("variants_and_adaptations") or d.get("variations_and_setups"))
+    if cat == "Submission":
+        doss["kind"] = {short: d[source] for short, source in
+                        (("cat", "submission_category"), ("type", "submission_type"),
+                         ("area", "target_area")) if source in d}
+        doss["safety"] = _safety(d)
     clips = _clips(d.get("clips"))
     if clips:
         doss["clips"] = clips  # general fallback: app renders blk.clips || rc.clips
@@ -345,6 +464,88 @@ def _technique_dossier(d, cat, graph):
     if persp:
         doss["perspectives"] = persp
     return doss
+
+
+def _validate_enrichment(decks, sources):
+    """Required content mappings hard-fail, independently of legacy JOIN_STRICT.
+
+    Compare source-keyed values, not just totals: a complete but wrong family/seat join
+    otherwise looks healthy. Corpus sizes are derived, so legitimate additions need no
+    hard-coded count edits here.
+    """
+    errors = []
+    counts = {"leads": 0, "own aliases": 0, "family aliases": 0, "confusions": 0,
+              "position properties": 0, "submission safety": 0,
+              "submission variations": 0, "decision destinations": 0}
+    for key, (source, role, family) in sources.items():
+        dossier = decks.get(key, {})
+        label = f"{key!r}: "
+        if not source.get("summary") or dossier.get("lead") != source["summary"].strip():
+            errors.append(label + "own summary did not reach lead")
+        else:
+            counts["leads"] += 1
+        metadata = naming_metadata(source, family)
+        for field in ("aka", "confuse", "family"):
+            if dossier.get(field) != metadata.get(field):
+                errors.append(label + f"{field} naming metadata lost its source/provenance")
+        counts["own aliases"] += bool(dossier.get("aka"))
+        counts["family aliases"] += bool(dossier.get("family", {}).get("aka"))
+        counts["confusions"] += bool(dossier.get("confuse") or dossier.get("family", {}).get("confuse"))
+        if role:
+            rd = source[role]
+            props = rd.get("state_properties") or {}
+            expected = {short: props.get(field) for short, field in POSITION_PROPS.items()}
+            if any(v is None for v in expected.values()) or dossier.get("props") != expected:
+                errors.append(label + "role state_properties missing or mapped incorrectly")
+            else:
+                counts["position properties"] += 1
+            expected_tree = [node for node in rd.get("decision_tree", [])
+                             if isinstance(node, dict) and node.get("condition")][:6]
+            emitted_tree = dossier.get("decisionTree", [])
+            if len(expected_tree) != len(emitted_tree):
+                errors.append(label + "decision branches missing")
+            for source_node, emitted_node in zip(expected_tree, emitted_tree):
+                expected_acts = [a for a in source_node.get("actions", [])
+                                 if isinstance(a, dict) and a.get("technique")][:4]
+                acts = emitted_node.get("acts", [])
+                if len(expected_acts) != len(acts):
+                    errors.append(label + "decision actions missing")
+                for action, emitted in zip(expected_acts, acts):
+                    target = _clean_pos(action.get("target") or action.get("to") or action.get("leads_to"))
+                    probability = action["success_rate"] if "success_rate" in action else action.get("probability")
+                    if not target or emitted != [action["technique"], probability, target]:
+                        errors.append(label + "decision action lost its target or probability")
+                    else:
+                        counts["decision destinations"] += 1
+        elif "submission_category" in source:
+            sc = source.get("safety_considerations") or {}
+            safety = dossier.get("safety") or {}
+            fields = {"speed": "application_speed", "tap": "tap_signals",
+                      "release": "release_protocol", "restrictions": "training_restrictions"}
+            bad = [field for field, authored in fields.items()
+                   if not sc.get(authored) or safety.get(field) != sc[authored]]
+            expected_risks = [{"i": r.get("injury"), "sev": r.get("severity")}
+                              for r in sc.get("injury_risks", [])]
+            if (bad or not expected_risks or safety.get("risks") != expected_risks
+                    or not safety.get("notice")):
+                errors.append(label + "submission safety missing or truncated: " + ", ".join(bad))
+            else:
+                counts["submission safety"] += 1
+            variations = source.get("variations_and_setups")
+            if variations:
+                if dossier.get("variations") != _variations(variations):
+                    errors.append(label + "authored submission variations missing")
+                else:
+                    counts["submission variations"] += 1
+    print("  dossier enrichment: " + "; ".join(f"{value} {key}" for key, value in counts.items()))
+    if not sources:
+        errors.append("no source dossiers checked")
+    # These authored features must actually be exercised by the production corpus.
+    for field, count in counts.items():
+        if not count:
+            errors.append(f"{field}: zero enriched dossiers/actions checked")
+    if errors:
+        raise SystemExit("[neural] dossier enrichment REFUSING TO EMIT:\n    " + "\n    ".join(errors))
 
 
 def build_ng_content(graph) -> dict:
@@ -363,6 +564,8 @@ def build_ng_content(graph) -> dict:
     read = 0
     resolved = unresolved = 0
     dual_authored = []         # names that still resolve in BOTH sections (a type error)
+    families = submission_families()
+    sources = {}
 
     def _excl(bucket):
         excluded[bucket] = excluded.get(bucket, 0) + 1
@@ -386,9 +589,10 @@ def build_ng_content(graph) -> dict:
                 if key in decks:
                     collisions.append((key, ("Positions", f), owner[key]))
                 owner[key] = ("Positions", f)
+                sources[key] = (d, role, None)
                 decks[key] = _position_dossier(
                     rd, role.capitalize(), related=d.get("related_positions"),
-                    hub_clips=d.get("clips")
+                    hub_clips=d.get("clips"), hub=d
                 )
         if not got:
             _excl("position-with-no-authored-role")
@@ -412,7 +616,9 @@ def build_ng_content(graph) -> dict:
             if key in decks:
                 collisions.append((key, (section, f), owner[key]))
             owner[key] = (section, f)
-            decks[key] = _technique_dossier(d, cat, graph)
+            family = family_for_source(f, families) if section == "Submissions" else None
+            sources[key] = (d, None, family)
+            decks[key] = _technique_dossier(d, cat, graph, hub=family)
             own = _tech_node(graph, key, cat)          # the node the dossier above used
             other = _tech_node(graph, key)             # section-blind: transitions before submissions
             if own is None:
@@ -462,6 +668,7 @@ def build_ng_content(graph) -> dict:
     if not resolved:
         errs.append("the technique-node join resolved 0 nodes; it cannot fail, so it is not a check.")
     _join_report(errs, "dossier join")
+    _validate_enrichment(decks, sources)
     return decks
 
 

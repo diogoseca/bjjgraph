@@ -4,7 +4,7 @@
 
 ---
 title: "Fork Attacks | BJJ Principle | BJJ Graph"
-description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat construction, binary defensive forcing, and systematic finishing sequences across all positions."
+description: "Fork attacks maintain two credible threats from one control, allowing you to switch when the opponent commits to defending one."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Fork Attacks",
-  "description": "Master Fork Attacks in BJJ. Learn simultaneous multi-threat construction, binary defensive forcing, and systematic finishing sequences across all positions.",
+  "description": "Fork attacks maintain two credible threats from one control, allowing you to switch when the opponent commits to defending one.",
   "url": "https://bjjgraph.org/Principles/Fork-Attacks",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Developing one threat significantly more than the other, creating false dilemma?",
+      "name": "What is a common mistake in Having only one credible threat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent recognizes primary threat through telegraphing and can specialize entire defense on stopping that option, negating the dilemma structure and allowing effective single-focus defense The correction is: Develop both threats to equal readiness with equal mechanical prerequisites established; practice both branches of dilemma equally in training until neither appears as obvious primary option"
+        "text": "The opponent can defend the strong option without respecting the other. The correction is: Practice and secure the weaker branch before linking them."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting dilemma construction from insufficient control positions?",
+      "name": "What is a common mistake in Building the fork without control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Opponent escapes or reverses position during multi-threat development because control wasn't sufficient to maintain dual threats through defensive movements; results in losing dominant position entirely The correction is: Only attempt dilemma-based attacks from positions with strong established control; when control is marginal, prioritize single high-percentage attacks or positional improvement before constructing complex dilemma structures"
+        "text": "The opponent leaves before either threat develops. The correction is: Establish the shared grips and position first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to prepare complete sequences for each defensive option?",
+      "name": "What is a common mistake in Switching before the defense commits?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When opponent chooses the less-developed branch, practitioner has no prepared response and loses offensive momentum; partial dilemmas allow opponent to successfully defend through specialization on under-developed branch The correction is: Drill complete sequences for every possible defensive response including tertiary and quaternary options; ensure every branch of dilemma tree is equally developed with prepared responses extending several moves deep"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Forcing commitment prematurely before both threats are fully established?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent can defend both options simultaneously because mechanical prerequisites weren't completed; results in stalled offense with no clear attacking pathway forward The correction is: Patiently develop both threats to full mechanical readiness before forcing defensive commitment; allow time for proper setup even if it means slower attack execution"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Abandoning positional control to pursue submission finish?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent escapes dominant position during rushed submission attempt, resulting in neutral position or reversal despite having created effective dilemma structure initially The correction is: Maintain strict adherence to position-before-submission hierarchy; if submission isn't immediately available, maintain dominant position and reconstruct dilemma rather than forcing low-percentage finish"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using incompatible threats that don't create genuine binary choice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Opponent can defend both options simultaneously because defensive requirements aren't mutually exclusive; results in ineffective dilemma that opponent nullifies with single defensive action The correction is: Select only genuinely incompatible threats where defensive commitment to one necessarily exposes the other; test dilemma structures in training to verify that successful defense of both simultaneously is biomechanically impossible"
+        "text": "Neither threat creates a useful opening. The correction is: Observe the hand, posture, or weight change before choosing."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Fork Attacks",
-  "description": "Fork attacks are an offensive principle of presenting two or more simultaneous threats that cannot be defended at once, so every defensive choice the opponent makes necessarily exposes a different, equally developed finish.",
+  "description": "A fork attack keeps two credible threats available from the same control, so defending one can create an opening for the other.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Open-elbow and closed-elbow attack dilemma",
+      "description": "Fork Attacks film study: Open-elbow and closed-elbow attack dilemma, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KPs4zToxj74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KPs4zToxj74",
+      "url": "https://www.youtube.com/watch?v=KPs4zToxj74",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "Understanding offense and attack chains from closed guard",
       "description": "Fork Attacks film study: Understanding offense and attack chains from closed guard, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MubbYrvhahY/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "A full closed guard attack system",
       "description": "Fork Attacks film study: A full closed guard attack system, taught by Jon Thomas.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z_FBT8ZDSmo/hqdefault.jpg",
@@ -198,7 +184,7 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 4,
       "name": "Creating dilemmas for your opponent",
       "description": "Fork Attacks film study: Creating dilemmas for your opponent, taught by Be Strong Personal Training.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p8fY7R6Rnu0/hqdefault.jpg",
@@ -216,9 +202,9 @@ description: "Master Fork Attacks in BJJ. Learn simultaneous multi-threat constr
 
 ## What are Fork Attacks?
 
-**Fork attacks are an offensive principle of presenting two or more simultaneous threats that cannot be defended at once, so every defensive choice the opponent makes necessarily exposes a different, equally developed finish.**
+**A fork attack keeps two credible threats available from the same control, so defending one can create an opening for the other.**
 
-Borrowed from the chess idea of forking two pieces with a single move, Fork Attacks—often called dilemma creation—rank among the most sophisticated offensive frameworks in modern BJJ. Unlike simple action-reaction sequences that exploit a single defensive commitment, fork attacks apply across any position where the practitioner has established sufficient control to develop layered, mutually-exclusive attack systems. The framework encompasses the construction of multi-threat structures, the strategic coverage of defensive options, and the systematic exploitation of forced defensive choices through pre-planned branching sequences. Fork Attacks serve as both a finishing mechanism that dramatically increases submission success rates through multiple simultaneous threats, and an efficiency strategy that guarantees a productive outcome regardless of the opponent's defensive choice. Because every escape route the defender selects opens a different prepared attack, the practitioner converts the opponent's own defensive intelligence into the trigger for the next finish. The ability to construct and execute effective forks often determines whether a practitioner can finish elite defensive opponents who rarely succumb to single-threat attacks, making it one of the most powerful offensive concepts available to advanced grapplers.
+Build both options from a position you can hold. Read the opponent’s actual defense before switching; the existence of two threats does not guarantee either will succeed.
 
 </section>
 
@@ -229,6 +215,14 @@ Borrowed from the chess idea of forking two pieces with a single move, Fork Atta
 
 <p class="section-subtitle">Watch Fork Attacks in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=KPs4zToxj74)
+
+<p class="clip-credit"><strong>Open-elbow and closed-elbow attack dilemma</strong> — taught by Gordon Ryan · <a href="https://www.youtube.com/watch?v=KPs4zToxj74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -261,15 +255,10 @@ Borrowed from the chess idea of forking two pieces with a single move, Fork Atta
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Effective dilemmas require multiple simultaneous threats that cannot be defended together
-- Defensive choices must be genuinely binary with clear commitment requirements
-- Each defensive option must lead to a different but equally developed attacking sequence
-- The position must provide sufficient control to maintain multiple threat viability
-- Opponent's defensive commitment to one threat must necessarily expose the alternative
-- Dilemmas can be position-based (movement options) or technique-based (defensive actions)
-- The most efficient dilemmas create situations where defender has no positive outcome regardless of choice
-- Advanced dilemmas include tertiary and quaternary options covering defensive variations
-- System mastery requires pre-planned sequences for every possible defensive response
+- Start with control that supports both threats.
+- Make each branch credible on its own.
+- Read which defense the opponent commits to.
+- Switch without giving away the shared control.
 
 
 </section>
@@ -300,37 +289,13 @@ Borrowed from the chess idea of forking two pieces with a single move, Fork Atta
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Triangle-armbar-omoplata system creates classic dilemma where opponent must choose between defending triangle (exposing arm) or defending armbar (exposing shoulder), with each defensive commitment leading to different but equally developed submission sequence
+**Closed Guard**: Triangle and armbar threats can share arm and posture control, with each defense changing the next opening.
 
-**Back Control**: Rear naked choke-armbar dilemma forces opponent to choose between defending neck (exposing arms) or defending arms (exposing neck), with hand fighting creating continuous binary choices where each defensive hand placement opens alternative attack
+**Back Control**: Hands committed to neck defense may create an arm-control opportunity.
 
-**Mount**: High mount position creates armbar-triangle-mounted guillotine dilemmas where opponent's defensive framing necessarily exposes arms or neck, with each frame position leading to different but prepared submission sequence
+**Mount**: Defensive frames can change whether an arm or the neck is easier to attack.
 
-**Half Guard**: Lockdown-based dilemmas present opponent with choice between defending sweep attempts or defending submission attacks from underneath, with defensive commitment to either option opening alternative attack sequence
-
-**Ashi Garami**: Heel hook-kneebar dilemma from saddle positions forces opponent to choose between defending heel exposure (creating kneebar vulnerability) or defending knee position (exposing heel), with leg positioning determining which submission becomes available
-
-**Side Control**: Near-side armbar-far-side armbar-kimura triangle creates multi-branch dilemma where opponent's defensive arm positioning determines which submission sequence becomes available, with each arm placement leading to different prepared attack
-
-**Turtle**: Clock choke-armbar-back take triangle presents opponent with choice between defending choke (exposing arm and creating back take opportunity) or defending arm/back (allowing choke development), with each defensive priority leading to different attack
-
-**North-South**: North-south choke-kimura-armbar system creates dilemmas where opponent's arm positioning to defend choke necessarily exposes shoulders to kimura or elbows to armbar, with defensive movements triggering prepared counter-sequences
-
-**Deep Half Guard**: Waiter sweep-homer sweep-back take triangle forces opponent to choose between defending sweep directions or defending back exposure, with weight distribution and base adjustments determining which attack sequence becomes available
-
-**X-Guard**: Elevator sweep-technical standup sweep-leg attack dilemma presents opponent with choice between defending sweeps (exposing legs) or defending leg attacks (compromising base), with posture adjustments determining attack path
-
-**De La Riva Guard**: Berimbolo-overhead sweep-leg drag sequences create positional dilemmas where opponent's weight distribution to defend back exposure necessarily compromises balance for sweeps, with each defensive posture leading to different positional outcome
-
-**Spider Guard**: Triangle-omoplata-sweep combinations present opponent with choice between defending upper body submissions or defending sweeps, with grip-breaking attempts creating systematic pathways into prepared attack sequences
-
-**Lasso Guard**: Omoplata-sweep-transition sequences force opponent to choose between defending shoulder attacks or defending positional losses, with posture recovery attempts systematically leading into alternative attack paths
-
-**Knee on Belly**: Armbar-baseball choke-back take triangle creates dilemmas where opponent's defensive framing to prevent mount or submission necessarily exposes alternative attacks, with each frame position leading to prepared sequence
-
-**Butterfly Guard**: Hook sweep-single leg X entry-back take sequences create dilemmas where opponent's base adjustments to prevent sweeps necessarily compromise posture for guard transitions or back exposure
-
-**Front Headlock**: Guillotine-darce-anaconda triangle forces opponent to choose which choke defense to prioritize, with each defensive posture adjustment opening different but equally threatening submission paths
+**Half Guard**: A response to a sweep threat can change the availability of an attack or back-take entry.
 
 
 
@@ -354,30 +319,15 @@ Borrowed from the chess idea of forking two pieces with a single move, Fork Atta
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Developing one threat significantly more than the other, creating false dilemma
-  - **Consequence**: Opponent recognizes primary threat through telegraphing and can specialize entire defense on stopping that option, negating the dilemma structure and allowing effective single-focus defense
-  - **Correction**: Develop both threats to equal readiness with equal mechanical prerequisites established; practice both branches of dilemma equally in training until neither appears as obvious primary option
-- **Mistake**: Attempting dilemma construction from insufficient control positions
-  - **Consequence**: Opponent escapes or reverses position during multi-threat development because control wasn't sufficient to maintain dual threats through defensive movements; results in losing dominant position entirely
-  - **Correction**: Only attempt dilemma-based attacks from positions with strong established control; when control is marginal, prioritize single high-percentage attacks or positional improvement before constructing complex dilemma structures
-- **Mistake**: Failing to prepare complete sequences for each defensive option
-  - **Consequence**: When opponent chooses the less-developed branch, practitioner has no prepared response and loses offensive momentum; partial dilemmas allow opponent to successfully defend through specialization on under-developed branch
-  - **Correction**: Drill complete sequences for every possible defensive response including tertiary and quaternary options; ensure every branch of dilemma tree is equally developed with prepared responses extending several moves deep
-- **Mistake**: Forcing commitment prematurely before both threats are fully established
-  - **Consequence**: Opponent can defend both options simultaneously because mechanical prerequisites weren't completed; results in stalled offense with no clear attacking pathway forward
-  - **Correction**: Patiently develop both threats to full mechanical readiness before forcing defensive commitment; allow time for proper setup even if it means slower attack execution
-- **Mistake**: Abandoning positional control to pursue submission finish
-  - **Consequence**: Opponent escapes dominant position during rushed submission attempt, resulting in neutral position or reversal despite having created effective dilemma structure initially
-  - **Correction**: Maintain strict adherence to position-before-submission hierarchy; if submission isn't immediately available, maintain dominant position and reconstruct dilemma rather than forcing low-percentage finish
-- **Mistake**: Using incompatible threats that don't create genuine binary choice
-  - **Consequence**: Opponent can defend both options simultaneously because defensive requirements aren't mutually exclusive; results in ineffective dilemma that opponent nullifies with single defensive action
-  - **Correction**: Select only genuinely incompatible threats where defensive commitment to one necessarily exposes the other; test dilemma structures in training to verify that successful defense of both simultaneously is biomechanically impossible
-- **Mistake**: Failing to recognize opponent's defensive commitment, hesitating between options
-  - **Consequence**: Window for exploiting defensive commitment closes while practitioner deliberates which branch to pursue; hesitation allows opponent to recover and defend both options again
-  - **Correction**: Develop automatic recognition patterns through repetitive drilling; when defensive commitment is recognized, immediately execute corresponding sequence without conscious deliberation
-- **Mistake**: Neglecting counter-attack coverage within dilemma branches
-  - **Consequence**: Opponent's defensive movements create legitimate counter-attacking opportunities that practitioner hasn't prepared for; results in defensive success for opponent despite being caught in structural dilemma
-  - **Correction**: Drill each dilemma branch with resistant partners attempting maximum counter-attacks; develop prepared responses to neutralize every possible counter-offensive within each branch sequence
+- **Mistake**: Having only one credible threat
+  - **Consequence**: The opponent can defend the strong option without respecting the other.
+  - **Correction**: Practice and secure the weaker branch before linking them.
+- **Mistake**: Building the fork without control
+  - **Consequence**: The opponent leaves before either threat develops.
+  - **Correction**: Establish the shared grips and position first.
+- **Mistake**: Switching before the defense commits
+  - **Consequence**: Neither threat creates a useful opening.
+  - **Correction**: Observe the hand, posture, or weight change before choosing.
 
 
 </section>
@@ -385,23 +335,11 @@ Borrowed from the chess idea of forking two pieces with a single move, Fork Atta
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Systematic Branch Drilling** (Focus: Developing automatic execution of complete dilemma trees without conscious decision-making, building muscle memory for all branches until responses become reflexive)
-Methodically drill each branch of a dilemma system with partner playing specific defensive roles, practicing complete sequences from initial threat presentation through finish for every possible defensive option
+**Two-branch walkthrough** (Focus: Understand what opens each branch.)
+Choose a familiar paired attack with a coach. A cooperative partner gives each agreed defense in turn; move to the matching entry, stop before submission pressure, and reset.
 
-**Progressive Resistance Integration** (Focus: Maintaining dilemma structure effectiveness under realistic resistance while identifying which branches work against maximum defensive effort versus which require positional adjustment)
-Practice dilemma systems with incrementally increasing resistance levels, starting with compliant drilling and gradually adding realistic defensive intensity as proficiency develops
-
-**Single-Position System Development** (Focus: Achieving expert-level proficiency in one positional dilemma system before expanding to other positions, building confidence through deep specialized knowledge)
-Select one dominant position and develop comprehensive dilemma system specific to that position, drilling all possible threat combinations and defensive responses until complete mastery achieved
-
-**Defensive Pattern Recognition Training** (Focus: Developing sensitivity to recognize defensive commitments early and accurately, improving timing and efficiency of counter-sequence execution)
-Train specifically to recognize opponent defensive patterns and tendencies through observation and repetition with multiple partners, learning to predict which dilemma branch opponents will choose based on body mechanics and habits
-
-**Flow Rolling Through Systems** (Focus: Building fluid execution and natural timing while maintaining awareness of position throughout complex branching sequences)
-Practice continuous movement through dilemma systems in flow rolling format where partner provides realistic but non-maximal resistance, focusing on smooth transitions between branches and complete sequence execution
-
-**Competition Simulation with Dilemma Focus** (Focus: Testing dilemma structures under competition conditions while building confidence in system effectiveness and identifying gaps in preparation that require additional drilling)
-Conduct specific sparring rounds where practitioner only attempts finishes through dilemma-based attacks from dominant positions, forcing real-time application against resisting opponents
+**Unannounced response** (Focus: Select the branch from the actual reaction.)
+Repeat the same setup while the partner chooses either agreed defense without announcing it. Read the response, stop at the follow-up control, release, and reset.
 
 
 
@@ -482,29 +420,29 @@ Conduct specific sparring rounds where practitioner only attempts finishes throu
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Core principle where every defensive choice leads to new offensive opportunity</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Strategic principle of forcing no-win defensive choices</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Core methodology for developing interconnected techniques into coherent strategic frameworks where every defense opens an alternative attack</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Core strategic concept making system effective</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Strategic concept of creating no-win defensive scenarios</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Strategic concept of forcing opponent to choose between defending legs or back</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Core strategic principle of forcing opponent to choose between defending multiple simultaneous threats</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Framework for integrating guillotine attacks with sweeps to create unsolvable offensive puzzles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Tactical Framework</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Strategic approach to forcing opponent reactions</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Methodology for forcing opponents to choose between losing options</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic principle for dilemma-based attack selection</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Creating scoring dilemmas that force opponents into lose-lose defensive choices</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic framework for creating multi-attack dilemmas from rubber guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">B-Team Dilemma System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core conceptual framework underlying entire system methodology</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Core offensive principle for forcing opponent errors</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Strategic framework for chaining triangle with alternative attacks that force defensive choices</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Core philosophy of creating multiple bad choices for opponent</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Using Electric Chair threats to force defensive movements that open sweep and back take opportunities</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Conceptual framework for connecting sweep, back take, and submission threats into forced choices</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Strategic decision-making skill requiring mental composure to present opponents with multiple threats</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Decisions</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Branches</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back-Attack Study</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall: The Modern Triangle</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Lock and Kneebar Study</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling into Submission Attacks</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: The Marcelotine</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Tactical-Framework" data-cta="related-system-card" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Top Control: Studying Power Ride</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Further conceptual reading: Fork Attacks.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Choosing a Guard Study Route</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Fork Attacks: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovery Before Attack</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Fork Attacks: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Scoring: Read the Whole Exchange</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Further conceptual reading: Fork Attacks.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Rubber Guard to Omoplata Study</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle and Leg-Lock Dilemmas</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Competition: Compare the Rules First</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Further conceptual reading: Fork Attacks.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Study Choices</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Transitions</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half Study</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Fork Attacks: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Fork Attacks: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Mindset: Champions Stay Present</span><span class="system-card__unlocks-badge">15 related references</span><span class="system-card__blurb">Further conceptual reading: Fork Attacks.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

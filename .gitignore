@@ -152,3 +152,11 @@ HANDOFF.md
 
 # prototype private serve root (hardlink farm; rebuilt by the dual-pair shoot procedure)
 .privserve/
+
+# Local-only instructions and working notes for ONE checkout. This repo is public, so
+# anything commercial, personal or unpublished belongs here and never in a tracked file
+# (CLAUDE.md section 1). The owner's checkout also carries CLAUDE.local.md in
+# .git/info/exclude, which is per-clone: this line is what makes the rule hold in CI and
+# in every worktree, so the file can never be staged by accident from anywhere.
+CLAUDE.local.md
+*.local.md

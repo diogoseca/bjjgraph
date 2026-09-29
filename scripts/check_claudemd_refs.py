@@ -64,10 +64,14 @@ ALLOW_ABSENT = {
     "l.html", "l-manifest.json", "sitemap.xml", "llms.txt", "neural.js", "neural.css",
     "graph-data.json", "sound-catalog.json", "questionBank.json", "graphAdjacency.json",
     "postscript.js", "prescript.js", "index.css", "globalGraphLayout.json",
-    # ...also emitted by regenerate:neural, beside graph-data.json above. A BARE filename
-    # cannot be answered by `_git_ignored` (there is no path to test a rule against), so
-    # emitted files named without their directory still belong on this list.
-    "systems.json",
+    # ...also emitted by regenerate:neural, beside graph-data.json above. These land INSIDE
+    # an ignored directory, so a BARE filename cannot be answered by `_git_ignored`: the rule
+    # is on the directory and there is no path here to test it against. (A bare name matched
+    # by a rule of its own IS answered by git — see the bare-name branch in `check`.) So
+    # emitted files named without their directory still belong on this list. `concepts.json`
+    # was missing from it and had CLAUDE.md's reference gate red on dev; it is the §6.7
+    # hand-maintained-enumeration defect, whose newest member is absent by default.
+    "systems.json", "concepts.json",
     # deleted on purpose (v1.80.0 legacy excision, v1.126.0 prototype retirement)
     "trainingSession.ts", "srs.ts", "settings.ts", "explored.ts", "known.ts",
     "dateUtil.ts", "gameAudio.ts", "explorerGraphExpand.ts", "Graph.tsx",
@@ -183,9 +187,18 @@ def check(doc: Path, generated: set) -> tuple[list[str], dict]:
                 else:
                     errors.append(f"{doc.name}:{line_of(text, off)} dangling path `{tok}`")
         elif tok not in names and tok not in ALLOW_ABSENT:
-            errors.append(
-                f"{doc.name}:{line_of(text, off)} names `{tok}`, which exists nowhere "
-                f"in the tree — renamed or deleted?")
+            # Same question the path branch asks, and for the same reason: a bare filename
+            # that git deliberately ignores is a file the canon names ON PURPOSE because it
+            # is absent — a local-only note, not a rename. Asking git rather than extending
+            # ALLOW_ABSENT keeps this DERIVED (see `_git_ignored`); a name matched by no rule
+            # still fails, which is what stops this becoming a rubber stamp.
+            if _git_ignored(tok):
+                counts["generated"] += 1
+                generated.add(tok)
+            else:
+                errors.append(
+                    f"{doc.name}:{line_of(text, off)} names `{tok}`, which exists nowhere "
+                    f"in the tree — renamed or deleted?")
 
     # Root AND the source/ sub-package: the docs legitimately name commands from both
     # (`cd source && npm run check` is the TypeScript gate), so a name resolving in either

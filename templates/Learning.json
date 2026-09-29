@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BJJ Learning Article Schema V1",
-  "description": "Standardized JSON schema for BJJ learning articles - lightweight article-style structure",
+  "title": "BJJ Learning Article Schema V2",
+  "description": "Concise, practical BJJ reading with complete content available in the app and static page",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -15,7 +15,6 @@
     "bjj_applications",
     "common_mistakes",
     "training_exercises",
-    "knowledge_assessment",
     "related_content"
   ],
   "properties": {
@@ -28,13 +27,19 @@
         "Training Partner Diversity"
       ]
     },
+    "display_title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 90,
+      "description": "Optional reader-facing title. Keep name, filename and URL unchanged."
+    },
     "description": {
       "type": "string",
       "description": "SEO meta description 140-180 characters",
       "minLength": 140,
       "maxLength": 180,
       "examples": [
-        "Learn why chaining techniques together creates unstoppable offense in BJJ. Master attack sequences, combination principles, and flow drilling."
+        "Connect BJJ attacks by noticing the response to the first technique. Practice useful follow-ups, recognize when to reset, and avoid forcing a preset sequence."
       ]
     },
     "tags": {
@@ -65,28 +70,31 @@
     "summary": {
       "type": "string",
       "minLength": 30,
-      "maxLength": 300,
-      "description": "One-sentence, self-contained definition that leads the page (answer-first for AI / featured snippets). ~15-40 words. If present, the overview must NOT repeat it."
+      "maxLength": 260,
+      "description": "One useful sentence that states the article's practical point. The overview adds context instead of repeating it."
     },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph article introduction (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before history/context — AI answer engines quote the first sentence; if a summary field is present, start the overview with context instead.",
-      "minLength": 400
+      "description": "One or two practical sentences: when this matters, what to notice, or a useful limitation. Do not repeat the summary or pad a definition.",
+      "minLength": 30,
+      "maxLength": 450
     },
     "key_takeaways": {
       "type": "array",
-      "description": "5-8 actionable bullet points",
-      "minItems": 5,
-      "maxItems": 8,
+      "description": "3-5 distinct, practical takeaways",
+      "minItems": 3,
+      "maxItems": 5,
       "items": {
-        "type": "string"
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 300
       }
     },
     "bjj_applications": {
       "type": "array",
-      "description": "3-6 specific BJJ scenarios with application and outcome",
-      "minItems": 3,
-      "maxItems": 6,
+      "description": "2-4 recognizable mat situations, actions, and outcomes to look for; avoid guarantees",
+      "minItems": 2,
+      "maxItems": 4,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -98,24 +106,30 @@
         "properties": {
           "scenario": {
             "type": "string",
-            "description": "Specific BJJ situation"
+            "description": "Specific BJJ situation",
+            "minLength": 3,
+            "maxLength": 160
           },
           "application": {
             "type": "string",
-            "description": "How the concept applies"
+            "description": "How the concept applies",
+            "minLength": 10,
+            "maxLength": 600
           },
           "outcome": {
             "type": "string",
-            "description": "Expected result"
+            "description": "An observable result or useful limitation, not a promise",
+            "minLength": 10,
+            "maxLength": 400
           }
         }
       }
     },
     "common_mistakes": {
       "type": "array",
-      "description": "3-5 mistakes with consequences and corrections",
-      "minItems": 3,
-      "maxItems": 5,
+      "description": "1-3 concrete mistakes with consequences and corrections",
+      "minItems": 1,
+      "maxItems": 3,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -126,22 +140,28 @@
         ],
         "properties": {
           "mistake": {
-            "type": "string"
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 200
           },
           "consequence": {
-            "type": "string"
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 400
           },
           "correction": {
-            "type": "string"
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 450
           }
         }
       }
     },
     "training_exercises": {
       "type": "array",
-      "description": "2-4 drills or exercises to practice the concept",
-      "minItems": 2,
-      "maxItems": 4,
+      "description": "1-2 useful exercises with setup, action, and reset or stop conditions",
+      "minItems": 1,
+      "maxItems": 2,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -152,23 +172,27 @@
         ],
         "properties": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 100
           },
           "description": {
             "type": "string",
-            "minLength": 50
+            "minLength": 50,
+            "maxLength": 900
           },
           "focus": {
-            "type": "string"
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 260
           }
         }
       }
     },
     "knowledge_assessment": {
       "type": "array",
-      "description": "4-6 Q&A pairs for self-assessment",
-      "minItems": 4,
-      "maxItems": 6,
+      "description": "Optional self-assessment: at most four useful questions with explanations; not a scored deck",
+      "maxItems": 4,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -178,15 +202,19 @@
         ],
         "properties": {
           "question": {
-            "type": "string"
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
           },
           "answer": {
-            "type": "string"
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 700
           },
           "distractors": {
             "type": "object",
             "additionalProperties": false,
-            "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+            "description": "Legacy optional quiz metadata retained for source compatibility. Learning self-assessment is unscored and shows question/answer only.",
             "properties": {
               "plausible": {
                 "type": "array",
@@ -209,7 +237,7 @@
           "answer_line": {
             "type": "string",
             "maxLength": 60,
-            "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
+            "description": "Legacy optional recall cue retained for source compatibility; the reader shows the full answer."
           }
         }
       }
@@ -250,7 +278,8 @@
     },
     "references": {
       "type": "array",
-      "description": "Optional external citations",
+      "description": "Optional relevant primary sources actually inspected; do not fill a citation quota",
+      "maxItems": 6,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -260,13 +289,19 @@
         ],
         "properties": {
           "title": {
-            "type": "string"
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 240
           },
           "author": {
-            "type": "string"
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 160
           },
           "url": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 1000,
+            "pattern": "^https?://"
           }
         }
       }

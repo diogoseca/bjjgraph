@@ -1,438 +1,154 @@
 
-
-
-
 ---
-title: "Berimbolo | BJJ System | BJJ Graph"
-description: "Introduces Mikey’s berimbolo framework, connecting grips and body position with routes toward the back. Explore the training sequence and course on BJJ Fanatics."
+title: "Berimbolo: Foundations with Mikey Musumeci | BJJGraph"
+description: "Mikey Musumeci’s The Berimbolo System Part 1: The Foundation covers double pull, De La Riva grips, inversion and berimbolo variations."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Berimbolo",
-  "description": "Step-by-step implementation sequence for Berimbolo.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Entry and Grip Establishment",
-      "text": "Begin from De La Riva guard position with inside leg hooked behind opponent's near leg and outside foot controlling their far ankle. Establish collar grip with same-side hand and pant grip on near leg with opposite hand. Create tension by extending legs to break opponent's posture forward while maintaining distance control.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Off-Balancing and Inversion Initiation",
-      "text": "Use the De La Riva hook to pull opponent's near leg toward their centerline while simultaneously pulling on the collar grip to break their base forward. As they post their hands to prevent falling, release the pant grip and begin rotating your hips underneath your own body, initiating the inversion. Your outside leg releases ankle control and begins circling toward the opponent's back.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Rotational Movement and Body Lock",
-      "text": "Continue rotating underneath while maintaining collar control, using your legs to circle behind the opponent's hips. As you complete approximately 180 degrees of rotation, transition from collar grip to body lock around their waist and hips. Your bottom leg (the one that was the De La Riva hook) should thread between their legs while your top leg locks over their hip or lower back.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Hook Insertion and Seat Belt Control",
-      "text": "From the body lock position behind the opponent, begin establishing back control by first inserting your near-side hook (bottom leg) inside their near thigh. Simultaneously transition your grip from body lock to seat belt control - one arm over the shoulder, one arm under the armpit, hands connected. Use the seat belt to pull yourself tight to their back while preparing the second hook.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Back Control Consolidation",
-      "text": "Complete the back take by inserting your far-side hook while maintaining seat belt control and preventing the opponent from rolling or turning. Both hooks should be deep with heels pulling toward their centerline to stretch them out and prevent escape. Establish strong chest-to-back connection and begin working toward submission attacks or maintaining positional dominance for points.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Retention and Re-Entry",
-      "text": "If the opponent begins to defend or counter the Berimbolo, be prepared to return to guard positions and re-initiate the sequence. Common defensive scenarios include opponent sitting back, sprawling, or attempting to circle away from the rotation. Develop the ability to flow back to De La Riva, X-Guard, or Reverse De La Riva and restart the attack sequence based on their defensive reactions.",
-      "position": 6
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Berimbolo",
-  "description": "Introduces Mikey’s berimbolo framework, connecting grips and body position with routes toward the back. Explore the training sequence and course on BJJ Fanatics.",
-  "url": "https://bjjgraph.org/Systems/Berimbolo",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Berimbolo", "item": "https://bjjgraph.org/Systems/Berimbolo"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Insufficient flexibility preventing safe inversion - practitioner cannot rotate hips underneath body without neck strain or inability to complete full rotation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Implement progressive flexibility training focusing on hip mobility, spinal rotation, and shoulder flexibility. Practice static inversion drills without opponent resistance, gradually increasing range of motion. Consider alternative entries like shallow Berimbolo or kiss of the dragon variations that require less extreme inversion until flexibility improves."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent sitting back or disengaging when Berimbolo is initiated - removes forward pressure needed for rotational momentum?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chain Berimbolo with X-Guard sweeps and Single Leg X attacks to create dilemmas. If opponent sits back to counter Berimbolo, transition immediately to X-Guard elevation or Single Leg X sweep. This forces opponent to choose between maintaining forward pressure (vulnerable to Berimbolo) or sitting back (vulnerable to sweeps), making both options threatening."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Losing grip control during inversion phase - collar or body lock control breaks during rotation, allowing opponent to escape or counter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Develop grip endurance through specific training drills. Practice maintaining collar grip during solo inversion exercises. When transitioning from collar to body lock, ensure overlap period where both grips are active. Use grip fighting fundamentals to establish deeper, more secure grips before initiating inversion. Consider using lapel wraps or alternative grip configurations for additional security."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Timing errors causing premature inversion - rotating before opponent is properly off-balanced, allowing them to follow rotation or pressure into side control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focus on reading opponent's weight commitment and base positioning. Only invert when you've successfully pulled their weight forward and they've posted hands to prevent falling. Practice timing drills with compliant partners, gradually adding resistance. Study competition footage to recognize optimal entry windows. Develop patience to wait for correct moment rather than forcing entries."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Berimbolo",
-  "description": "Treat the berimbolo as a sequence of connections rather than a single roll.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Berimbolo: Foundations with Mikey Musumeci","description":"Mikey Musumeci’s The Berimbolo System Part 1: The Foundation covers double pull, De La Riva grips, inversion and berimbolo variations."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Berimbolo">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Berimbolo: Foundations with Mikey Musumeci</h1>
+<div class="system-tags"><span>Attack System</span><span>Advanced</span></div>
+
+<p class="system-reference-count">14 related references (techniques and positions)</p>
+</header>
 
 
-
-<div class="principle-meta">
-<span class="meta-chip">Attack System</span>
-<span class="meta-chip">Advanced difficulty</span>
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — The Berimbolo System Part 1: The Foundation by Mikey Musumeci" data-system-preview data-system-key="Berimbolo" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/1a20ddd1-0165-462b-b493-102b5f32fcf3?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — The Berimbolo System Part 1: The Foundation by Mikey Musumeci">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/MikeyMusumeci_TheBerimboloSystem_FRONTCover1.jpg?v=1762459799" alt="The Berimbolo System Part 1: The Foundation course cover" decoding="async" fetchpriority="high">
 </div>
+</section>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<div class="system-course__identity"><h2>The Berimbolo System Part 1: The Foundation</h2><p class="system-course__instructor">By Mikey Musumeci</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-course-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
+</section>
 
-<section id="overview" class="content-section">
+<section id="overview" class="system-overview">
 
-## What is Berimbolo?
+The Berimbolo System Part 1: The Foundation introduces Mikey Musumeci’s approach through double-pull positioning, De La Riva grips and inversion. It then develops the basic berimbolo into stacking, pulling and uninverting options. This guide emphasizes the starting positions and foundations within that eight-volume release.
 
-**Treat the berimbolo as a sequence of connections rather than a single roll.**
+</section>
 
-Treat the berimbolo as a sequence of connections rather than a single roll. Establish your grips, create the opening to rotate and secure a useful position afterward. Start with one entry that suits your guard and comfortable movement range.
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
+## Is this for you?
+
+- You want a berimbolo course that includes the double-pull and grip-fighting context.
+- You are interested in inversion-based guard attacks toward the back or mount.
+
+
+### Consider an alternative if
+
+- You want guard offense that avoids inversion and double-pull situations.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Mikey-Musumeci-Berimbolo-System">Mikey Musumeci: Berimbolo Variations</a> — The same foundation course viewed through its stacking, pulling and twister-hook variations; no additional course is required.</p>
+
+
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Double-pull positioning, De La Riva hand fighting and inversion.
+- Basic berimbolo entries with leg or hip grips.
+- Stacking, pulling and uninverting options leading toward back control or mount.
+
+
+### Limits
+
+- This is Part 1: The Foundation, not the entire multi-release Berimbolo System. Collar and pant grips feature in its starting-position material.
 
 </section>
 
 
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
 
-
-
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="the-berimbolo-system-by-mikey-musumeci">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">The Berimbolo System Part 1: The Foundation</h3>
-<p class="product-card__instructor">with Mikey Musumeci</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Gi players building a berimbolo foundation before branching into later volumes or no-gi variations.</p>
-<p class="product-card__blurb">Introduces Mikey’s berimbolo framework, connecting grips and body position with routes toward the back.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=berimbolo&utm_term=the-berimbolo-system-by-mikey-musumeci" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
-
-</div>
-
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-course-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Berimbolo System Part 1: The Foundation</a>
 </section>
 
+<section id="related-content" class="system-section">
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+## Related guides and principles
 
-## Unlock this part of the graph
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+<p><a href="/Principles/Timing-and-Rhythm">Timing and Rhythm</a></p><p><a href="/Principles/Dominant-Angles">Dominant Angles</a></p><p><a href="/Principles/Posture">Posture</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a></p><p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Transition-Management">Transition Management</a></p><p><a href="/Systems/Mikey-Musumeci-Berimbolo-System">Mikey Musumeci: Berimbolo Variations</a> — The same foundation course viewed through its stacking, pulling and twister-hook variations; no additional course is required.</p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia: X-Guard Entries and Sweeps</a></p><p><a href="/Systems/Dynamic-Guard-System">Understanding Guard Changes</a></p><p><a href="/Systems/Competition-Preparation-System">Competition Preparation with Matt D’Aquino</a></p>
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Dynamic inversion - use rotation and hip movement to create angles and attack the back
-- Grip dependency - collar and pant grips control opponent posture and enable rotational entries
-- Base disruption - off-balance opponent while inverted to prevent counter-pressure
-- Sequential control - transition through body lock, seat belt, and back control progressively
-- Energy efficiency - use opponent's forward pressure to fuel rotational momentum
-- Flexibility requirement - hip and spine mobility essential for safe inversion mechanics
-- Timing precision - coordinate grip releases and hip rotation to maintain control throughout
-
-
-</section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**De La Riva Hook Control** (Establish foundational control and create the mechanical leverage needed for inversion)
-The De La Riva hook serves as the primary control and launching point for Berimbolo entries. By threading the inside leg behind the opponent's near leg and controlling the far ankle with the other foot, you create a leverage system that prevents the opponent from passing while setting up inversion angles. The hook maintains distance while the collar and pant grips control posture, creating the essential tension needed for rotational entries.
-
-**Inversion Mechanics** (Generate the rotational angle needed to access opponent's back from bottom position)
-The inversion is the core technical movement where you rotate your hips underneath your own body while maintaining control of the opponent. This requires coordinated grip control, core engagement, and precise timing to circle underneath the opponent's base. The inversion creates the angle necessary to access the opponent's back while their weight commitment prevents them from following your rotation. Proper inversion mechanics involve shoulder rolls, not neck pressure, and require significant flexibility development.
-
-**Body Triangle or Body Lock Control** (Secure transitional control during the rotation phase before establishing back control)
-As you invert and begin circling behind the opponent, you transition grip control to a body lock or body triangle around their hips and torso. This intermediate control point prevents the opponent from turning to face you while you complete the back take. The body lock serves as a transitional control that bridges the gap between De La Riva control and full back control with hooks. Maintaining tight connection during this phase is critical to prevent the opponent from escaping or countering.
-
-**Back Take Completion** (Convert transitional control into dominant back control position with full point scoring)
-The final phase involves inserting hooks and establishing seat belt or harness control as you complete the rotation to the opponent's back. This requires precise sequencing - typically inserting the near hook first while maintaining body lock pressure, then transitioning to seat belt grip control, and finally inserting the far hook for full back control. The completion must be deliberate and controlled to prevent the opponent from rolling or escaping during the transition from body lock to back control with hooks.
+### Review related technique cards
 
 
 
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Entry and Grip Establishment**: Begin from De La Riva guard position with inside leg hooked behind opponent's near leg and outside foot controlling their far ankle. Establish collar grip with same-side hand and pant grip on near leg with opposite hand. Create tension by extending legs to break opponent's posture forward while maintaining distance control.
-Key points:
-- Deep collar grip with thumb inside for maximum control
-- Pant grip should be on the knee or upper shin for leverage
-- Extend hooks to create distance and prevent immediate passing
-- Maintain hip mobility and readiness to invert
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
 
 
-
-2. **Off-Balancing and Inversion Initiation**: Use the De La Riva hook to pull opponent's near leg toward their centerline while simultaneously pulling on the collar grip to break their base forward. As they post their hands to prevent falling, release the pant grip and begin rotating your hips underneath your own body, initiating the inversion. Your outside leg releases ankle control and begins circling toward the opponent's back.
-Key points:
-- Pull opponent's leg inward to compromise base width
-- Time inversion with their forward weight commitment
-- Roll over your shoulder, not your neck, during inversion
-- Keep collar grip throughout rotation for control
+- [[Positions/X-Guard|X-Guard]] (Position)
 
 
-
-3. **Rotational Movement and Body Lock**: Continue rotating underneath while maintaining collar control, using your legs to circle behind the opponent's hips. As you complete approximately 180 degrees of rotation, transition from collar grip to body lock around their waist and hips. Your bottom leg (the one that was the De La Riva hook) should thread between their legs while your top leg locks over their hip or lower back.
-Key points:
-- Maintain constant pressure during rotation
-- Body lock should be tight around waist, not loose
-- Keep your hips mobile and ready to adjust position
-- Prevent opponent from turning to face you during rotation
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position)
 
 
-
-4. **Hook Insertion and Seat Belt Control**: From the body lock position behind the opponent, begin establishing back control by first inserting your near-side hook (bottom leg) inside their near thigh. Simultaneously transition your grip from body lock to seat belt control - one arm over the shoulder, one arm under the armpit, hands connected. Use the seat belt to pull yourself tight to their back while preparing the second hook.
-Key points:
-- Near hook should be deep, with your heel pulling toward their centerline
-- Seat belt should be tight with your chest connected to their back
-- Control their posture by pulling on seat belt grips
-- Don't rush the second hook - maintain control first
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position)
 
 
-
-5. **Back Control Consolidation**: Complete the back take by inserting your far-side hook while maintaining seat belt control and preventing the opponent from rolling or turning. Both hooks should be deep with heels pulling toward their centerline to stretch them out and prevent escape. Establish strong chest-to-back connection and begin working toward submission attacks or maintaining positional dominance for points.
-Key points:
-- Both hooks deep with active heel pressure
-- Chest stays connected to prevent space creation
-- Head positioning controls their upper body rotation
-- Transition to submission attacks once position is secure
+- [[Positions/Back Control|Back Control]] (Position)
 
 
-
-6. **Retention and Re-Entry**: If the opponent begins to defend or counter the Berimbolo, be prepared to return to guard positions and re-initiate the sequence. Common defensive scenarios include opponent sitting back, sprawling, or attempting to circle away from the rotation. Develop the ability to flow back to De La Riva, X-Guard, or Reverse De La Riva and restart the attack sequence based on their defensive reactions.
-Key points:
-- Don't force completion if opponent has strong defensive base
-- Maintain guard retention priorities over forcing back takes
-- Use failed attempts to set up alternative sweeps or attacks
-- Chain Berimbolo with other guard attacks for unpredictability
+- [[Positions/Inverted Guard|Inverted Guard]] (Position)
 
 
+- [[Positions/Seated Guard|Seated Guard]] (Position)
 
 
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
+
+
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition)
+
+
+- [[Transitions/Kiss of the Dragon|Kiss of the Dragon]] (Transition)
+
+
+- [[Transitions/De La Riva Sweep|De La Riva Sweep]] (Transition)
+
+
+- [[Transitions/X-Guard Sweep|X-Guard Sweep]] (Transition)
+
+
+- [[Transitions/Rolling Back Take|Rolling Back Take]] (Transition)
+
+
+- [[Transitions/Crab Ride to Back|Crab Ride to Back]] (Transition)
 
 </section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Begin with the foundation material and the entry that matches your guard, then study how to secure the back.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=berimbolo&utm_term=the-berimbolo-system-by-mikey-musumeci" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Berimbolo System Part 1: The Foundation &rarr;</a></p>
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-source-url="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci" data-affiliate="false" data-system-slug="systems/berimbolo" data-product-id="course" target="_blank" rel="noopener">The Berimbolo System Part 1: The Foundation by Mikey Musumeci</a> — official listing; checked 2026-09-19. Mikey Musumeci attribution and Part 1 title verified on the official listing. Double-pull opening and later branch headings inspected; no inversion instruction or mobility claims verified. The official page embeds an additional sample under “Basic Berimbolo Only Leg Drills”; its video content has not been reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Insufficient flexibility preventing safe inversion - practitioner cannot rotate hips underneath body without neck strain or inability to complete full rotation**: Implement progressive flexibility training focusing on hip mobility, spinal rotation, and shoulder flexibility. Practice static inversion drills without opponent resistance, gradually increasing range of motion. Consider alternative entries like shallow Berimbolo or kiss of the dragon variations that require less extreme inversion until flexibility improves.
-- **Opponent sitting back or disengaging when Berimbolo is initiated - removes forward pressure needed for rotational momentum**: Chain Berimbolo with X-Guard sweeps and Single Leg X attacks to create dilemmas. If opponent sits back to counter Berimbolo, transition immediately to X-Guard elevation or Single Leg X sweep. This forces opponent to choose between maintaining forward pressure (vulnerable to Berimbolo) or sitting back (vulnerable to sweeps), making both options threatening.
-- **Losing grip control during inversion phase - collar or body lock control breaks during rotation, allowing opponent to escape or counter**: Develop grip endurance through specific training drills. Practice maintaining collar grip during solo inversion exercises. When transitioning from collar to body lock, ensure overlap period where both grips are active. Use grip fighting fundamentals to establish deeper, more secure grips before initiating inversion. Consider using lapel wraps or alternative grip configurations for additional security.
-- **Timing errors causing premature inversion - rotating before opponent is properly off-balanced, allowing them to follow rotation or pressure into side control**: Focus on reading opponent's weight commitment and base positioning. Only invert when you've successfully pulled their weight forward and they've posted hands to prevent falling. Practice timing drills with compliant partners, gradually adding resistance. Study competition footage to recognize optimal entry windows. Develop patience to wait for correct moment rather than forcing entries.
-
-
+</details>
 </section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Entry Success Rate**: Percentage of attempted Berimbolo entries that successfully initiate the rotation phase with maintained control. This metric tracks ability to establish proper grips, create off-balancing, and begin inversion without opponent countering or escaping.
-Proficiency indicators:
-- Beginner: 20-30% entry success against similar skill opponents
-- Intermediate: 40-60% entry success with improved timing and grip control
-- Advanced: 70%+ entry success with ability to read opponent reactions and chain attacks
-
-
-**Completion to Back Control**: Percentage of initiated Berimbolos that result in established back control with both hooks and seat belt control. Measures ability to maintain control throughout rotation and successfully transition through body lock phase to full back control.
-Proficiency indicators:
-- Beginner: 30-40% completion rate after successful entry
-- Intermediate: 50-70% completion with better body lock control and hook insertion timing
-- Advanced: 80%+ completion with smooth transitions and adaptability to defensive reactions
-
-
-**Inversion Safety and Efficiency**: Quality of inversion mechanics focusing on shoulder roll technique, neck safety, rotational speed, and energy expenditure. Assesses whether practitioner can perform multiple inversions in training or competition without injury or excessive fatigue.
-Proficiency indicators:
-- Beginner: Slow, deliberate inversions with occasional neck strain or improper mechanics
-- Intermediate: Consistent shoulder-based inversions with good speed and minimal energy cost
-- Advanced: Explosive, efficient inversions with perfect mechanics under pressure, sustainable throughout entire match
-
-
-**System Integration and Chaining**: Ability to chain Berimbolo with other guard attacks and retention techniques. Measures how well the system integrates with X-Guard, De La Riva sweeps, and back attack sequences to create comprehensive offensive threats from bottom position.
-Proficiency indicators:
-- Beginner: Isolated Berimbolo attempts without effective backup options
-- Intermediate: Basic chains to X-Guard sweeps or De La Riva attacks when Berimbolo is defended
-- Advanced: Seamless integration creating multiple attack dilemmas, forcing opponent errors regardless of defensive choice
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-Berimbolo development requires progressive drilling starting with solo movement patterns and advancing to live resistance. Begin with static inversion drills without a partner to build flexibility, core strength, and rotational mechanics. Progress to partner drills with staged resistance - partner holds position but doesn't actively counter, allowing repetition of entry, rotation, and completion phases. Next phase involves partner providing intelligent resistance at specific phases (defending entry, defending rotation, or defending back take) to isolate problem areas. Finally, integrate into positional sparring from De La Riva guard with specific goals (must attempt Berimbolo or related attacks). The key is building movement patterns through high-repetition, low-resistance drilling before adding competitive pressure. Record training sessions to analyze technical errors in inversion mechanics, timing, and grip transitions that aren't apparent during live rolling.
-
-### Progression Path
-**Foundation Phase** (Focus: Flexibility development, basic inversion mechanics, De La Riva control fundamentals, understanding theoretical framework) - Months 1-3: Build physical prerequisites and conceptual understanding
-**Technical Development Phase** (Focus: Drilling Berimbolo entries with low resistance, developing grip sequences, practicing rotation mechanics, building core strength for sustained inversion) - Months 3-6: Develop technical proficiency in controlled environments
-**Integration Phase** (Focus: Chaining Berimbolo with X-Guard and De La Riva attacks, adding counters to common defenses, implementing in positional sparring, developing timing against resistance) - Months 6-12: Build system connections and adaptive responses
-**Competition Application Phase** (Focus: Using Berimbolo in live rolling and competition, refining entries against specific defensive strategies, developing match-specific game plans, analyzing footage for continuous improvement) - Month 12+: Apply system under maximum resistance and competitive pressure
-
-
-### Common Mistakes
-- Forcing Berimbolo entries without proper off-balancing, leading to opponent pressure into side control or mount during inversion attempt
-- Rolling over neck instead of shoulder during inversion, creating injury risk and slower, less efficient rotation mechanics
-- Releasing collar grip too early during rotation, losing control and allowing opponent to turn and face you before body lock is established
-- Rushing hook insertion before establishing solid body lock and seat belt control, allowing opponent to escape or roll during transition
-- Neglecting flexibility training and attempting techniques beyond current physical capabilities, risking injury and developing poor movement patterns
-- Failing to chain Berimbolo with other attacks, becoming predictable and allowing opponent to develop specific counter-strategies
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Primary launching position for Berimbolo entries - provides hook and grip control needed for inversion
-- [[Positions/X-Guard|X-Guard]] (Position) - Alternative position to chain with Berimbolo - if opponent sits back to counter Berimbolo, transition to X-Guard sweep
-- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Complementary guard position that creates sweep dilemmas when chained with Berimbolo attacks
-- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position) - Alternative inversion platform when standard De La Riva entry is unavailable or defended
-- [[Positions/Back Control|Back Control]] (Position) - Target destination of successful Berimbolo - dominant position achieved through rotational back take
-- [[Positions/Inverted Guard|Inverted Guard]] (Position) - Intermediate position during Berimbolo rotation - requires similar flexibility and inversion mechanics
-- [[Positions/Seated Guard|Seated Guard]] (Position) - Recovery position if Berimbolo entry fails - allows retention and re-establishment of guard control
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Alternative guard system that can be integrated with Berimbolo for varied attack entries
-- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Specific technical sequence for initiating Berimbolo rotation from De La Riva guard
-- [[Transitions/Kiss of the Dragon|Kiss of the Dragon]] (Transition) - Related inversion-based back take that serves as alternative when Berimbolo is defended
-- [[Transitions/De La Riva Sweep|De La Riva Sweep]] (Transition) - Complementary attack from De La Riva guard that creates entry dilemmas for Berimbolo
-- [[Transitions/X-Guard Sweep|X-Guard Sweep]] (Transition) - Chained attack when opponent sits back to counter Berimbolo - creates offensive dilemma
-- [[Transitions/Rolling Back Take|Rolling Back Take]] (Transition) - Alternative back-taking method that shares similar rotational mechanics and timing principles
-- [[Transitions/Crab Ride to Back|Crab Ride to Back]] (Transition) - Related back-taking technique from turtle that uses similar body lock transitional control
-- [[Principles/Timing and Rhythm|Timing and Rhythm]] (Principle) - Critical for reading opponent's weight commitment and initiating inversion at optimal moment
-- [[Principles/Dominant Angles|Dominant Angles]] (Principle) - Core concept of using rotation to create angles for accessing opponent's back from bottom position
-- [[Principles/Posture|Posture]] (Principle) - Essential prerequisite for successful Berimbolo entries - opponent must be off-balanced and posture disrupted before rotation
-- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Underlying defensive framework that Berimbolo enhances by converting guard retention into offensive back-taking opportunities
-- [[Principles/Hip Escape Mechanics|Hip Escape Mechanics]] (Principle) - Physical prerequisite providing the hip mobility and rotational mechanics essential for safe inversion throughout Berimbolo system
-- [[Principles/Grips|Grips]] (Principle) - Fundamental skill for establishing and maintaining collar and pant grips needed for Berimbolo control
-- [[Principles/Transition Management|Transition Management]] (Principle) - Framework for understanding smooth movement between De La Riva, inversion, and back control phases
-- [[Systems/Mikey Musumeci Berimbolo System|Mikey Musumeci Berimbolo System]] (System) - Specialized expert system focused on modern Berimbolo variations and competition applications
-- [[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia X-Guard System]] (System) - Complementary guard system that integrates effectively with Berimbolo to create comprehensive bottom game
-- [[Systems/Dynamic Guard System|Dynamic Guard System]] (System) - Broader framework that includes Berimbolo as part of modern, movement-based guard approach
-- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Strategic framework for implementing Berimbolo effectively in competitive tournament environments
-
-
-</section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>Work through one entry slowly with a partner. Check that you can move comfortably and retain the connection before increasing resistance.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=berimbolo&utm_term=the-berimbolo-system-by-mikey-musumeci" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-berimbolo-system-by-mikey-musumeci" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Berimbolo System Part 1: The Foundation &rarr;</a></p>
-</section>
-
-
-
 </main>

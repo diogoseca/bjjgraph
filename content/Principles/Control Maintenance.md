@@ -4,7 +4,7 @@
 
 ---
 title: "Control Maintenance | BJJ Principle | BJJ Graph"
-description: "Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions."
+description: "Control maintenance means following an opponent’s escapes with changes in base, pressure, and contact so a useful position stays secure."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Control Maintenance",
-  "description": "Master control maintenance in BJJ. Learn pressure modulation, connection reinforcement, and dynamic positional adjustment across all dominant positions.",
+  "description": "Control maintenance means following an opponent’s escapes with changes in base, pressure, and contact so a useful position stays secure.",
   "url": "https://bjjgraph.org/Principles/Control-Maintenance",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Maintaining static position without dynamic adjustment to opponent's escape attempts?",
+      "name": "What is a common mistake in Holding a fixed shape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates predictable control pattern that opponent can systematically defeat through practiced escape sequences, eventually enabling escape success even against initially dominant position. The correction is: Develop habit of continuous micro-adjustment in response to opponent's movements, treating control maintenance as active process requiring constant attention rather than passive achievement once position is established."
+        "text": "The opponent’s changing angle opens an escape. The correction is: Move the relevant contact as soon as the escape begins."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying maximum pressure constantly without modulating based on opponent's reactions?",
+      "name": "What is a common mistake in Applying maximum pressure constantly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapidly depletes practitioner's energy resources while creating excessive pressure points that opponent can exploit for escape, particularly through bridging or explosive movements that use practitioner's committed pressure against them. The correction is: Learn to vary pressure intensity strategically, applying maximum force only when opponent attempts active escape while moderating to sustainable levels during passive periods, developing 'active rest' within dominant positions."
+        "text": "You tire and become less able to follow movement. The correction is: Use enough pressure for the current threat."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Prioritizing submission attempts over control maintenance before position is secure?",
+      "name": "What is a common mistake in Attacking before control is secure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Creates escape opportunities when practitioner commits to offensive attacks from unstable position, often resulting in position loss and reversal of advantageous situation into neutral or defensive position. The correction is: Internalize position-over-submission approach, ensuring control is sufficiently secure before attempting submissions, accepting that slower offensive progression produces higher success rates and fewer position losses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to recognize and counter escape attempts in their initial stages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent's escape mechanics to develop full momentum before implementing counters, making position retention far more difficult and energy-intensive than early intervention would require. The correction is: Develop pattern recognition for early escape indicators including postural changes, weight shifts, and frame creation attempts, implementing preemptive counters when escape is still in preparation phase rather than execution phase."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Maintaining insufficient connection points or over-relying on single control mechanism?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Creates fragile control structure that collapses completely when opponent defeats single critical connection, enabling rapid escape from what appeared to be dominant position. The correction is: Establish multiple redundant connections distributing control across different body areas, ensuring that loss of any single connection still leaves sufficient control to maintain position while reestablishing broken connection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting base maintenance while focusing on pressure application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Allows opponent to use practitioner's committed pressure and compromised base against them, enabling sweeps or reversals even from inferior positions through exploitation of structural imbalance. The correction is: Coordinate pressure application with base maintenance, ensuring structural stability is preserved even while applying significant control pressure, and recognizing when base must be prioritized over pressure increase."
+        "text": "Releasing a grip or post gives away the position. The correction is: Check the remaining contacts before committing to the attack."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Control Maintenance",
-  "description": "Control Maintenance is the principle of preserving positional dominance through continuous micro-adjustment, pressure modulation, and redundant connection points that neutralize an opponent's escape mechanics before they generate momentum.",
+  "description": "Control maintenance is keeping a useful position by adjusting your base, pressure, and connections as the opponent tries to escape.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Side control maintenance: beating the knee frame",
+      "description": "Control Maintenance film study: Side control maintenance: beating the knee frame, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d50kv5VdpG4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d50kv5VdpG4",
+      "url": "https://www.youtube.com/watch?v=d50kv5VdpG4",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How to maintain and control the mount",
       "description": "Control Maintenance film study: How to maintain and control the mount, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
@@ -187,7 +173,7 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 3,
       "name": "Guard retention: never get your guard passed",
       "description": "Control Maintenance film study: Guard retention: never get your guard passed, taught by Gordon Ryan.",
       "thumbnailUrl": "https://i.ytimg.com/vi/URGwWYwdoAs/hqdefault.jpg",
@@ -205,9 +191,9 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 
 ## What is Control Maintenance?
 
-**Control Maintenance is the principle of preserving positional dominance through continuous micro-adjustment, pressure modulation, and redundant connection points that neutralize an opponent's escape mechanics before they generate momentum.**
+**Control maintenance is keeping a useful position by adjusting your base, pressure, and connections as the opponent tries to escape.**
 
-In the strategic hierarchy of grappling, securing a dominant position is only half the battle—holding it against a resisting, escape-hungry opponent is what separates fleeting position from genuine positional dominance. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.
+Watch the first movement of an escape, then adjust the contact that blocks it. Keep control long enough to choose an attack without committing both hands or your balance too early.
 
 </section>
 
@@ -218,6 +204,14 @@ In the strategic hierarchy of grappling, securing a dominant position is only ha
 
 <p class="section-subtitle">Watch Control Maintenance in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=d50kv5VdpG4)
+
+<p class="clip-credit"><strong>Side control maintenance: beating the knee frame</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=d50kv5VdpG4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -242,15 +236,10 @@ In the strategic hierarchy of grappling, securing a dominant position is only ha
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Apply continuous pressure that prevents opponent's movement without creating escape opportunities through overcommitment
-- Maintain multiple connection points distributing control across different body areas
-- Adjust position dynamically in response to opponent's escape attempts rather than remaining static
-- Prioritize control maintenance over submission attempts until position is secure
-- Recognize and counter opponent's escape mechanics before they generate momentum
-- Conserve energy through efficient pressure application rather than constant maximum force
-- Establish control hierarchy targeting highest-value control points first
-- Coordinate pressure with body positioning to prevent specific escape pathways
-- Maintain awareness of position vulnerabilities and protect them preemptively
+- Respond to the beginning of an escape.
+- Use several contacts that control different directions.
+- Adjust pressure without losing your base.
+- Secure the position before committing to a submission.
 
 
 </section>
@@ -281,35 +270,13 @@ In the strategic hierarchy of grappling, securing a dominant position is only ha
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: Control maintenance in mount requires distributing weight across opponent's torso and hips while maintaining high posture that prevents bridge-and-roll escapes, using gable grip or S-mount configuration to prevent elbow escape mechanics, and continuously adjusting base width and weight distribution as opponent attempts various escape patterns.
+**Mount**: Move your base and weight as the bottom player bridges or begins a hip escape.
 
-**Side Control**: From side control, control maintenance involves establishing crossface and underhook connections while applying shoulder pressure to prevent opponent's hip escape, modulating chest pressure to prevent bridge attempts, and transitioning between various side control configurations as opponent's defensive reactions change.
+**Side Control**: Coordinate upper-body contact and hip control as the opponent frames and turns.
 
-**Back Control**: Back control maintenance centers on maintaining hooks and seatbelt grip configuration while preventing opponent from turning into guard, applying strategic pressure through chest connection to flatten opponent, and continuously adjusting hook depth and body position as opponent attempts various escape sequences.
+**Back Control**: Follow the opponent’s turn with chest contact, a seatbelt, and leg adjustments.
 
-**Knee on Belly**: Knee on belly control requires dynamic weight modulation between knee pressure and posted foot, maintaining grips that control opponent's near arm and far collar, and continuously adjusting position to counter opponent's attempts to create frames or turn into guard.
-
-**North-South**: North-south control maintenance involves applying chest and shoulder pressure to prevent opponent's hip movement while controlling head position, establishing grips that prevent arm-based frames, and shifting weight distribution to counter opponent's directional escape attempts.
-
-**Closed Guard**: Even from bottom closed guard, control maintenance concepts apply to maintaining closed guard itself against opponent's opening attempts, controlling posture through grips and leg pressure, and preventing opponent from establishing stable base for passing attacks.
-
-**Half Guard**: Top half guard control maintenance focuses on establishing crossface and underhook while applying shoulder pressure to flatten opponent, preventing lockdown or deep half guard entries through strategic knee positioning, and maintaining base that enables pass completion or submission attacks.
-
-**Turtle**: Control maintenance from turtle top position requires preventing opponent's stand-up or guard recovery through strategic weight distribution, establishing seatbelt or harness controls, and continuously adjusting to counter opponent's turning and scrambling attempts.
-
-**High Mount**: Specialized mount control variations require position-specific pressure patterns and connection priorities, with grapevine mount emphasizing leg control while high mount prioritizes arm isolation, shoulder pressure, and posture control to set up collar chokes and armbars.
-
-**Crucifix**: Crucifix control requires maintaining arm entrapment through leg and arm configuration while applying back pressure to prevent opponent's escape, continuously adjusting body angle to counter opponent's attempts to free trapped arms or turn into guard.
-
-**Butterfly Guard**: From bottom butterfly guard, control maintenance principles apply to preventing opponent's pass attempts through hook maintenance and upper body control, using underhooks and overhooks to control posture and prevent passing pressure.
-
-**Open Guard**: Open guard control maintenance requires active foot and leg connections that prevent opponent from settling into passing position, combined with grip strategies that break opponent's posture and disrupt passing mechanics before they fully develop.
-
-**X-Guard**: X-guard control maintenance centers on maintaining proper leg entanglement that prevents opponent from stepping out or sitting back, while controlling upper body to prevent postural recovery that could enable escape or counter-attacks.
-
-**Ashi Garami**: Ashi garami control maintenance requires precise leg positioning that prevents opponent's leg extraction, combined with upper body control that prevents postural recovery, while maintaining connection points that enable both control and submission opportunities.
-
-**Kesa Gatame**: Kesa gatame control maintenance represents systematic application of head and arm control with hip-based weight distribution, emphasizing connection establishment and escape prevention through chest pressure and arm entrapment over offensive actions.
+**Knee on Belly**: Shift between the controlling knee and posted foot as the opponent makes space.
 
 
 
@@ -333,27 +300,15 @@ In the strategic hierarchy of grappling, securing a dominant position is only ha
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Maintaining static position without dynamic adjustment to opponent's escape attempts
-  - **Consequence**: Creates predictable control pattern that opponent can systematically defeat through practiced escape sequences, eventually enabling escape success even against initially dominant position.
-  - **Correction**: Develop habit of continuous micro-adjustment in response to opponent's movements, treating control maintenance as active process requiring constant attention rather than passive achievement once position is established.
-- **Mistake**: Applying maximum pressure constantly without modulating based on opponent's reactions
-  - **Consequence**: Rapidly depletes practitioner's energy resources while creating excessive pressure points that opponent can exploit for escape, particularly through bridging or explosive movements that use practitioner's committed pressure against them.
-  - **Correction**: Learn to vary pressure intensity strategically, applying maximum force only when opponent attempts active escape while moderating to sustainable levels during passive periods, developing 'active rest' within dominant positions.
-- **Mistake**: Prioritizing submission attempts over control maintenance before position is secure
-  - **Consequence**: Creates escape opportunities when practitioner commits to offensive attacks from unstable position, often resulting in position loss and reversal of advantageous situation into neutral or defensive position.
-  - **Correction**: Internalize position-over-submission approach, ensuring control is sufficiently secure before attempting submissions, accepting that slower offensive progression produces higher success rates and fewer position losses.
-- **Mistake**: Failing to recognize and counter escape attempts in their initial stages
-  - **Consequence**: Allows opponent's escape mechanics to develop full momentum before implementing counters, making position retention far more difficult and energy-intensive than early intervention would require.
-  - **Correction**: Develop pattern recognition for early escape indicators including postural changes, weight shifts, and frame creation attempts, implementing preemptive counters when escape is still in preparation phase rather than execution phase.
-- **Mistake**: Maintaining insufficient connection points or over-relying on single control mechanism
-  - **Consequence**: Creates fragile control structure that collapses completely when opponent defeats single critical connection, enabling rapid escape from what appeared to be dominant position.
-  - **Correction**: Establish multiple redundant connections distributing control across different body areas, ensuring that loss of any single connection still leaves sufficient control to maintain position while reestablishing broken connection.
-- **Mistake**: Neglecting base maintenance while focusing on pressure application
-  - **Consequence**: Allows opponent to use practitioner's committed pressure and compromised base against them, enabling sweeps or reversals even from inferior positions through exploitation of structural imbalance.
-  - **Correction**: Coordinate pressure application with base maintenance, ensuring structural stability is preserved even while applying significant control pressure, and recognizing when base must be prioritized over pressure increase.
-- **Mistake**: Using exclusively muscular force rather than structural and technical control
-  - **Consequence**: Creates unsustainable control approach that fails as fatigue develops, enabling opponent to escape simply by outlasting practitioner's physical capacity rather than through superior technique.
-  - **Correction**: Develop technical control methods that use body position, weight distribution, and structural alignment rather than muscular force, enabling sustained control throughout extended engagements without excessive energy expenditure.
+- **Mistake**: Holding a fixed shape
+  - **Consequence**: The opponent’s changing angle opens an escape.
+  - **Correction**: Move the relevant contact as soon as the escape begins.
+- **Mistake**: Applying maximum pressure constantly
+  - **Consequence**: You tire and become less able to follow movement.
+  - **Correction**: Use enough pressure for the current threat.
+- **Mistake**: Attacking before control is secure
+  - **Consequence**: Releasing a grip or post gives away the position.
+  - **Correction**: Check the remaining contacts before committing to the attack.
 
 
 </section>
@@ -361,23 +316,11 @@ In the strategic hierarchy of grappling, securing a dominant position is only ha
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Sparring with Escape Focus** (Focus: Developing sustainable control methods and escape recognition through repetitive exposure to opponent's defensive efforts, building both technical skill and psychological comfort with extended position maintenance.)
-Practice control maintenance through positional rounds where bottom player's sole objective is escaping while top player focuses exclusively on position retention without submission attempts. Time-based rounds (2-5 minutes) develop endurance and efficiency in control maintenance.
+**One-escape retention** (Focus: Read the first escape movement.)
+From mount or side control, have a partner repeat one agreed escape gently. Adjust to retain the position, then reset and switch roles; omit submissions.
 
-**Progressive Resistance Drilling** (Focus: Building technical foundation in controlled environment before adding competitive pressure, enabling proper habit formation and technical refinement without the chaos of full resistance training.)
-Partner provides graduated resistance levels from passive (0% resistance) through moderate (50% resistance) to full competition intensity, allowing practitioner to develop control maintenance skills progressively before testing against maximum resistance.
-
-**Control Maintenance Chains** (Focus: Building confidence in control maintenance capabilities while developing energy conservation methods necessary for sustained position retention against multiple opponents or throughout extended matches.)
-Practice maintaining single position against fresh opponents in succession (3-5 partners each attempting 2-minute escape), developing both physical endurance and mental stamina required for extended control maintenance under continuous pressure.
-
-**Transition Maintenance Practice** (Focus: Developing dynamic control maintenance skills that enable safe position transitions and offensive attacks without creating escape windows during transitional movements.)
-Practice maintaining control through deliberate position transitions (mount to technical mount to back control, or side control to knee on belly to mount), ensuring control is preserved throughout transition periods rather than only in static positions.
-
-**Deficit Control Training** (Focus: Building problem-solving capabilities and control recovery skills that enable position salvation when control becomes threatened during live training or competition.)
-Practice control maintenance from deliberately disadvantageous configurations (opponent starts with established frame, practitioner begins with suboptimal connections), requiring skill development in recovering optimal control from compromised starting positions.
-
-**Video Analysis and Pattern Recognition** (Focus: Developing theoretical understanding and pattern recognition capabilities that complement physical practice, enabling conscious understanding of control maintenance principles observed in elite performance.)
-Study video footage of high-level competition matches focusing specifically on control maintenance sequences, identifying patterns in how elite practitioners maintain positions, counter escapes, and transition between control configurations.
+**Control handoff** (Focus: Maintain control while changing position.)
+Move cooperatively between two familiar top controls. Pause before changing grips and check what still limits the opponent’s hips and shoulders; reset if contact is lost.
 
 
 
@@ -462,30 +405,30 @@ Study video footage of high-level competition matches focusing specifically on c
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Core principle for retaining dominant position throughout attack sequences</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Technical principle of maintaining position during attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Principle for consolidating positions after successful passes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Fundamental principle underlying all system control levels - maintaining position before advancing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Essential concept for maintaining position during transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Conceptual framework for smooth positional changes while maintaining offensive pressure</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Essential principle for sustaining dominant positions before attempting submission finishes</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Core principle emphasizing positional security before submission</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia X-Guard System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Hook management and control retention principles applied to X-Guard positioning</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Defines success in system - control quality matters more than position advancement speed</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Foundational principle for maintaining kimura grip throughout transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">The Lockdown as a guard retention tool that prevents passing and maintains bottom position control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia Butterfly Guard System</span><span class="system-card__unlocks-badge">Unlocks 18 techniques</span><span class="system-card__blurb">Core principle for maintaining active hooks and underhook retention throughout exchanges</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak Outside Passing System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Holding progress during recovery attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Riding Control System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Frames the central practice objective.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Armbar-System" data-cta="related-system-card" data-system-slug="systems/danaher-armbar-system" data-system-name="Danaher Armbar System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Armbar System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">The principal objective of the retention drill.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Side Crucifix System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Principle for testing whether the pin survives a grip change or attack.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni Turtle to Back System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Principle for testing whether the pin survives a grip change or attack.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gordon-Ryan-Mount-Control-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-mount-control-system" data-system-name="Gordon Ryan Mount Control System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan Mount Control System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Principle for testing whether the pin survives a grip change or attack.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-Body-Lock-Passing-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-system-name="Lachlan Giles Body Lock Passing System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles Body Lock Passing System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Continuity while changing grips</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia North South Choke System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Frames the choice to retain top position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Decisions</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Branches</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria: No-Gi Over/Under Passing</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back-Attack Study</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Ankle Lock and Kneebar Study</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling into Submission Attacks</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Entries and Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-X-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-x-guard-system" data-system-name="Marcelo Garcia X-Guard System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: X-Guard Entries and Sweeps</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Control Maintenance: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed-Guard Offense</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Transitions</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related concept for organizing study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Bottom Half Study</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Control Maintenance: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Butterfly-Guard-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-member-count="18"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: Butterfly Guard</span><span class="system-card__unlocks-badge">18 related references</span><span class="system-card__blurb">Control Maintenance: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ariel-Tabak-Outside-Passing-System" data-cta="related-system-card" data-system-slug="systems/ariel-tabak-outside-passing-system" data-system-name="Ariel Tabak Outside Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ariel Tabak: Outside Passing and Finishing</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Riding Control with Power Ride</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Armbar-System" data-cta="related-system-card" data-system-slug="systems/danaher-armbar-system" data-system-name="Danaher Armbar System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Armbar Control and Entries</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Side Crucifix and Arm Isolation</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle, Rides and Rear Mount</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Mount-Control-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-mount-control-system" data-system-name="Gordon Ryan Mount Control System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: Mount Maintenance and Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Body-Lock-Passing-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-body-lock-passing-system" data-system-name="Lachlan Giles Body Lock Passing System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: Studying the Body Lock Pass</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia: North-South Choke Study</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

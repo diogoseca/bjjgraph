@@ -1,6 +1,6 @@
 {
   "name": "Base",
-  "description": "Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control.",
+  "description": "Base is the support that keeps you balanced as you resist sweeps, apply pressure, or move between positions in BJJ.",
   "tags": [
     "bjj",
     "principle",
@@ -14,18 +14,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Base is the principle of maintaining a stable platform through optimal weight distribution, skeletal alignment, and connection points, allowing a practitioner to resist sweeps and off-balancing while generating control and pressure.",
-  "overview": "Rooted in the judo concept of a stable foundation, base is among the first principles a beginner is taught and one of the last a competitor fully masters. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ, from standing exchanges to deep submission entanglements. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.",
+  "summary": "Base is the support you create with your contact points and weight distribution to stay balanced while moving or resisting force.",
+  "overview": "Keep your weight supported as your opponent pushes, pulls, or removes a post. Widen your support when you need stability, then adjust it to move.",
   "key_principles": [
-    "Distribute weight optimally across multiple support points",
-    "Maintain proper alignment between base points and center of gravity",
-    "Adapt base configuration dynamically in response to opponent's actions",
-    "Create wide base structures when stability is primary concern",
-    "Transition to narrower, mobile bases when movement is required",
-    "Establish strong connection points with the mat or opponent",
-    "Anticipate and counter opponent's base disruption attempts",
-    "Coordinate base adjustments with technical execution",
-    "Maintain base awareness during transitional movements"
+    "Keep your weight supported by your contact points.",
+    "Adjust your base toward the force you need to resist.",
+    "Use enough width for stability without blocking your movement.",
+    "Establish new support as you move or attack."
   ],
   "component_skills": [
     {
@@ -126,67 +121,19 @@
   "application_contexts": [
     {
       "context": "Closed Guard",
-      "how_applied": "Maintaining wide knee base with proper posture, distributing weight to prevent sweeps while keeping hands ready for grip fighting. Base width prevents hip bump and scissor sweeps."
-    },
-    {
-      "context": "Combat Base",
-      "how_applied": "Establishing tripod structure with one knee down and opposite foot posted, creating stable platform for passing while maintaining mobility. Weight distribution prevents opponent from disrupting base."
+      "how_applied": "The top player adjusts knee position and weight to resist being tipped while grip fighting."
     },
     {
       "context": "Mount",
-      "how_applied": "Creating low, wide base with knees spread and weight distributed through hips and lower body. Base maintenance prevents bridge and roll escapes while enabling effective control and attack initiation."
+      "how_applied": "Move your support points as the bottom player bridges or turns, rather than holding one fixed stance."
     },
     {
-      "context": "Side Control",
-      "how_applied": "Distributing weight through crossface shoulder, hip pressure, and wide base with legs. Proper base maintenance prevents opponent from creating frames and executing escape movements."
+      "context": "Combat Base",
+      "how_applied": "Balance between the posted foot and kneeling leg so you can move without tipping forward."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Balancing weight between posting leg and knee pressure while maintaining mobile base that can adjust to opponent escape attempts. Base allows quick transitions while maintaining control."
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "Creating stable base with free leg posted while preventing opponent from disrupting balance through underhooks or sweeps. Weight distribution enables passing pressure while maintaining defensive stability."
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "Maintaining seated or supine base with proper weight distribution to enable guard retention and sweeping. Base stability allows effective use of feet and grips to control distance."
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "Creating seated base with hooks established, distributing weight to enable elevating sweeps while preventing opponent from driving forward and establishing dominant position."
-    },
-    {
-      "context": "Standing Position",
-      "how_applied": "Maintaining athletic stance with bent knees, proper weight distribution, and lowered center of gravity. Base enables both offensive takedown entries and defensive sprawl responses."
-    },
-    {
-      "context": "Headquarters Position",
-      "how_applied": "Establishing stable kneeling base while controlling opponent's legs, distributing weight to enable passing pressure while preventing opponent from recovering guard or executing sweeps."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "Creating wide base with knees and toes, distributing weight to apply chest pressure while maintaining ability to adjust to opponent escape attempts without being rolled."
-    },
-    {
-      "context": "Back Control",
-      "how_applied": "Maintaining base through hooks and seat belt control, distributing weight to prevent opponent from rolling or standing while keeping structure for submission attacks."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Establishing four-point base structure with hands and knees, distributing weight to resist opponent's attempts to break down position or roll to back control."
-    },
-    {
-      "context": "Spider Guard",
-      "how_applied": "Using foot placement on biceps and collar grips to create connected base that controls distance and prevents opponent from establishing passing base structure."
-    },
-    {
-      "context": "De La Riva Guard",
-      "how_applied": "Maintaining hip mobility and proper hook placement to disrupt opponent's base while preserving own structural integrity for sweeping and off-balancing attacks."
-    },
-    {
-      "context": "X-Guard",
-      "how_applied": "Creating inverted base structure using hooks and upper body connection to elevate and off-balance opponent while maintaining own stability for sweep execution."
+      "how_applied": "Share support between the posted foot and controlling knee, adjusting as the opponent turns."
     }
   ],
   "decision_framework": [
@@ -233,66 +180,31 @@
   ],
   "common_errors": [
     {
-      "error": "Creating excessively wide base that limits mobility",
-      "consequence": "While maximizing stability, overly wide base prevents necessary movement and allows opponent to establish controls or execute techniques unopposed.",
-      "correction": "Calibrate base width to task requirements. Use wider base only when stability is primary concern. Narrow base when mobility is needed for passing, transitioning, or attacking."
+      "error": "Staying too wide",
+      "consequence": "Your legs block the step you need to take.",
+      "correction": "Narrow or reposition your base when the immediate tipping threat passes."
     },
     {
-      "error": "Maintaining too narrow base when stability is required",
-      "consequence": "Insufficient base width makes practitioner vulnerable to sweeps, reversals, and off-balancing. Opponent easily disrupts narrow base with minimal effort.",
-      "correction": "Recognize high-risk situations requiring maximum stability and establish appropriately wide base. Spread knees, widen stance, and create multiple support points."
+      "error": "Leaning beyond your support",
+      "consequence": "The opponent can tip you despite a wide stance.",
+      "correction": "Move your support or bring your weight back over it."
     },
     {
-      "error": "Failing to adjust base in response to opponent pressure",
-      "consequence": "Static base becomes vulnerable when opponent applies directional pressure. Practitioner gets swept or reversed because base wasn't modified to counter force direction.",
-      "correction": "Develop dynamic base adjustment skills. Shift weight and modify base configuration preemptively or reactively based on opponent's pressure application and base attack attempts."
-    },
-    {
-      "error": "Poor weight distribution leaving center of gravity outside stability zone",
-      "consequence": "Even with proper base structure, incorrect weight distribution creates vulnerability. Practitioner tips over despite having appropriate base width.",
-      "correction": "Maintain conscious awareness of weight distribution. Keep center of gravity within area formed by support points. Lower hips to lower center of gravity when needed."
-    },
-    {
-      "error": "Compromising posture to establish base",
-      "consequence": "Leaning forward excessively or rounding spine to widen base creates other vulnerabilities. Poor posture enables opponent to attack neck, establish controls, or break down structure.",
-      "correction": "Maintain proper spinal alignment while establishing base. Keep chest up, shoulders back, and head neutral. Create stable base through leg positioning rather than compromising upper body posture."
-    },
-    {
-      "error": "Losing base awareness during offensive sequences",
-      "consequence": "Focusing entirely on attack execution while neglecting base maintenance makes practitioner vulnerable to counters. Opponent exploits compromised base to reverse position or escape.",
-      "correction": "Maintain dual awareness of offensive objectives and defensive base requirements. Ensure base supports attack and provides safety if technique fails. Never fully commit base to attack."
+      "error": "Forgetting base while attacking",
+      "consequence": "Both hands commit and leave you vulnerable to a reversal.",
+      "correction": "Check which contacts still support you before changing grips."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Static Base Stress Testing",
-      "description": "Partner applies progressively increasing directional pressure while practitioner maintains base without moving. Tests base strength and weight distribution under controlled conditions.",
-      "focus": "Developing awareness of base stability thresholds and understanding how much pressure properly configured base can withstand before requiring adjustment."
+      "approach_name": "Directional balance drill",
+      "description": "Start kneeling or in a familiar top position. A partner gives gentle pushes and pulls; adjust your support before tipping, then reset and change direction.",
+      "focus": "Match your base to the force."
     },
     {
-      "approach_name": "Dynamic Base Drills",
-      "description": "Partner continuously attempts to off-balance practitioner who must maintain base while executing prescribed movements or techniques. Combines base maintenance with technical execution.",
-      "focus": "Building ability to preserve base integrity during active grappling. Develops unconscious base maintenance that persists during complex technical sequences."
-    },
-    {
-      "approach_name": "Base Configuration Transitions",
-      "description": "Practicing movement between different base structures (wide to narrow, high to low) while maintaining continuous stability. Emphasizes never being completely without base during transitions.",
-      "focus": "Developing smooth base transitions that maintain functional stability throughout position changes. Eliminates vulnerable moments between base configurations."
-    },
-    {
-      "approach_name": "Position-Specific Base Analysis",
-      "description": "Systematic study of optimal base configurations for each major position. Involves understanding why particular base structures work for specific positions and what they defend against.",
-      "focus": "Building comprehensive knowledge of base requirements across BJJ position spectrum. Understanding position-specific base priorities and vulnerabilities."
-    },
-    {
-      "approach_name": "Base Recovery Exercises",
-      "description": "Partner disrupts practitioner's base to various degrees of compromise. Practitioner must recognize disruption early and execute appropriate recovery before complete destabilization.",
-      "focus": "Developing sensitivity to base degradation and building reflexive recovery responses. Training ability to restore base from partially compromised positions."
-    },
-    {
-      "approach_name": "Pressure Through Base",
-      "description": "Using stable base as platform for applying controlled pressure on partner. Focuses on understanding how base quality affects pressure effectiveness and sustainability.",
-      "focus": "Learning to utilize base not just for defensive stability but as offensive tool for pressure application and opponent control. Understanding base-pressure relationship."
+      "approach_name": "Moving base drill",
+      "description": "Move between two familiar top positions with a cooperative partner. Pause after each change to check your support; reset if you need to catch yourself.",
+      "focus": "Stay supported through transitions."
     }
   ],
   "developmental_metrics": [
@@ -516,13 +428,21 @@
   ],
   "clips": [
     {
+      "id": "i5UqDfgwn3I",
+      "title": "Base control and sweeping",
+      "by": "Rory Van Vliet",
+      "vertical": true,
+      "channel": "RVV BJJ",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "Fy9h-dF6dcA",
       "title": "What kuzushi is and how it breaks base",
       "by": "Stephan Kesting",
       "vertical": false,
       "channel": "Stephan Kesting",
       "duration": 61,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "azzYS65sqks",
@@ -531,7 +451,7 @@
       "vertical": false,
       "channel": "Joel Snape",
       "duration": 379,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "Wy6Si0FuQaU",
@@ -540,7 +460,7 @@
       "vertical": false,
       "channel": "Roger Gracie TV",
       "duration": 890,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

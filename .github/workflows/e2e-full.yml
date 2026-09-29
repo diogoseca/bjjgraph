@@ -21,6 +21,9 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          # Publication provenance and its curated oracle require complete history.
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
@@ -33,6 +36,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Python gate dependency
+        run: python3 -m pip install PyYAML
+
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
+
       - name: Install dependencies
         run: npm ci
 
@@ -40,7 +49,61 @@ jobs:
         run: npm run regenerate:neural
 
       - name: Build production site and Forward libraries
+        id: site-build
         run: npm run build
+
+      - name: Postprocessor input contract
+        # Exit 2 is pending only with the exact completed-verdict marker.
+        # Python also exits 2 before execution (missing file/bad arguments).
+        run: |
+          contract_log=$(mktemp)
+          trap 'rm -f -- "$contract_log"' EXIT
+
+          if python3 scripts/check_postprocessor_contract.py >"$contract_log" 2>&1; then
+            contract_status=0
+          else
+            contract_status=$?
+          fi
+          cat "$contract_log"
+
+          contract_marker_count=0
+          contract_marker=
+          while IFS= read -r contract_line || [[ -n "$contract_line" ]]; do
+            case "$contract_line" in
+              POSTPROCESSOR_CONTRACT_RESULT=*)
+                contract_marker_count=$((contract_marker_count + 1))
+                contract_marker=$contract_line
+                ;;
+            esac
+          done < "$contract_log"
+
+          if [[ "$contract_marker_count" -ne 1 ]]; then
+            echo "::error::Expected exactly one gate result marker; exit $contract_status."
+            exit 1
+          fi
+
+          case "$contract_status:$contract_marker" in
+            0:POSTPROCESSOR_CONTRACT_RESULT=conforms) ;;
+            *)
+              echo "::error::Gate failure or inconsistent result; exit $contract_status."
+              exit 1
+              ;;
+          esac
+
+      # THE BUILD'S SHAPE, AND THE ONLY PR JOB THAT CAN CHECK IT.
+      # `npm run build` above already ran validate:payload, whose TIER-0 FLOORS reject a
+      # build that emitted a fraction of the site — those run on both deploys too. This
+      # step adds the half that must NOT run on a deploy: exact census equality against
+      # tests/artifacts/build_fingerprint.json (page counts per archetype, the JSON-LD
+      # @type histogram, the structural markers, the three bundle hashes, and the
+      # distinct-value counts that catch a field which stopped varying).
+      #
+      # It belongs on a PR and not on a deploy because a legitimate content edit MOVES
+      # these numbers, and the correct response is to re-seed in the same PR — the same
+      # contract tests/corpus_census.test.mjs already has with `npm run census:update`.
+      # On a deploy there is no such opportunity, so it would only ever be a tripwire.
+      - name: Build shape (tier-0 floors + committed census)
+        run: npm run validate:build-shape
 
       # THE KEYLESS HALF OF THE ANALYTICS CONTRACT, AND THE ONLY PLACE ON A PR IT CAN RUN.
       # `validate:analytics` grades the built site against the key its build ran with, and every
@@ -54,6 +117,9 @@ jobs:
         run: npm run validate:analytics:nokey
 
       - name: Package tested site
+        # Preserve a successfully built site when a later census/analytics gate fails.
+        # Shards still require the entire build job to pass.
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         # THE WHOLE TREE, NOT AN ALLOW-LIST (v1.104.6). The list below used to name six paths, and
         # it predated every spec that reads a seventh: share-camera/share-lists/share-mobile
         # readFileSync `public/l.html`, `_redirects` and `l-manifest.json`; legacy-gone and
@@ -62,9 +128,18 @@ jobs:
         # so the full sharded suite — the PR gate for BOTH main and dev — could not pass, and
         # nothing reported the drift because an allow-list rots silently. If size ever bites, use
         # --exclude: a new emitted path must be packaged by DEFAULT.
-        run: tar -czf complete-e2e-site.tgz -C source public
+        # Fresh-asset journeys compare HTTP responses with the original emitted bytes.
+        # Keep those build inputs beside the public tree on every clean shard.
+        run: |
+          for built in neural/dist/*; do
+            test -f "$built"
+            cmp "$built" "source/public/static/neural/app/$(basename "$built")"
+          done
+          cmp source/quartz/static/neural/graph-data.json source/public/static/neural/graph-data.json
+          tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json
 
       - name: Upload tested site
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: complete-e2e-site
@@ -99,6 +174,9 @@ jobs:
         shard: [1, 2, 3, 4]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          # Publication provenance and its curated oracle require complete history.
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
@@ -108,6 +186,13 @@ jobs:
 
       - name: Install test dependencies
         run: npm ci --ignore-scripts
+
+      # Publication journeys import the real Quartz parser/renderer and its native Git
+      # oracle. Root --ignore-scripts intentionally skips the source/ postinstall.
+      # Install their locked dependencies explicitly; keep serving the build job's artifact.
+      - name: Install source dependencies for publication journeys
+        run: npm ci --no-audit --no-fund
+        working-directory: source
 
       # download-artifact v8 fails the job on a digest mismatch (v4 only warned), and it
       # skips decompressing a non-zip payload. Both are fine here — the `build` job above
@@ -120,8 +205,7 @@ jobs:
 
       - name: Extract tested site
         run: |
-          mkdir -p source
-          tar -xzf complete-e2e-site.tgz -C source
+          tar -xzf complete-e2e-site.tgz
 
       # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
       # This repo bumps package.json on every commit and package-lock.json mirrors that

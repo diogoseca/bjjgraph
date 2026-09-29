@@ -1,0 +1,68 @@
+name: Graph correction
+description: Something in the graph is wrong — a probability, an outcome, a role, or a move that is missing or misfiled.
+title: "Correction: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This is the contribution the project most wants.** The probabilities are authored
+        estimates, and a graph that is internally consistent can still be wrong about jiu-jitsu.
+
+        You do not need to run the project, clone it, or open a pull request. A state, a role,
+        a ruleset and your reasoning are enough for someone to make the change.
+  - type: input
+    id: state
+    attributes:
+      label: State or page URL
+      description: The page you were looking at, or the authored file.
+      placeholder: https://bjjgraph.org/Positions/Mount/Top — or content/Transitions/Knee Slice Pass.json
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      description: Positions have top and bottom. Transitions and submissions have attacker and defender.
+      options:
+        - Top
+        - Bottom
+        - Attacker
+        - Defender
+        - Not specific to one role
+    validations:
+      required: true
+  - type: dropdown
+    id: ruleset
+    attributes:
+      label: Ruleset
+      description: Gi and no-gi carry separate values. Say which one you are correcting.
+      options:
+        - Gi
+        - No-gi
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What the graph says now
+      description: The move, probability, success rate or destination as it stands today.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What it should say
+      description: The corrected value or destination. For an outcome, name the state it should land in.
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning or source
+      description: >
+        The evidence or technical argument that changed your answer: competition footage,
+        instruction, an identified mechanical error, or where the current model breaks down.
+        Experience counts — say what you have seen and from what position.
+    validations:
+      required: true

@@ -21,13 +21,29 @@ export default defineConfig({
   retries: 0, // journeys are deterministic by design — a retry hides a rails bug
   workers: 1, // measured: workers=2 is only ~20% faster locally (CPU-bound frame pumps) and risks re-introducing boot timeouts on 2-core CI runners
   reporter: [["list"], ["html", { outputFolder: "report", open: "never" }]],
+  // NO GIT DIFF CAPTURE — IT MAKES THE CHECKOUT SHALLOW (v1.198.2). Left undefined, Playwright's
+  // git-commit-info plugin captures a diff on CI, and on a GitHub `pull_request` event it first runs
+  // `git fetch origin <pull_request.base.sha> --depth=1` IN THIS REPOSITORY. A depth-1 fetch into a
+  // complete clone writes the base tip into .git/shallow, so from the first test on, the base is a
+  // parentless root and every `git log --follow` stops there. published-time.spec.ts's oracle then
+  // dated every older page to the base tip (Mount/Top 2026-09-23 against the build's correct
+  // 2026-02-09) and PR #217 shard 3/4 went red on every run; push and dispatch runs carry no
+  // `pull_request` and stayed green, which is why only PRs saw it. Reproduced in a scratch clone
+  // with Playwright 1.61.1 and a PR event file: default → shallow, `diff: false` → complete.
+  // Commit metadata is a read (`git log -1`) and stays on.
+  captureGitInfo: { commit: true, diff: false },
   use: {
     baseURL: "http://localhost:8133",
     viewport: { width: 1440, height: 900 },
     screenshot: "only-on-failure",
   },
   webServer: {
-    command: "npx serve ../source/public -l 8133 --no-clipboard",
+    // scripts/e2e-serve.mjs, not `serve`: a BARE route naming a page emitted both as `X.html`
+    // and `X/index.html` must resolve to the FLAT file, the way production does. `serve`
+    // returns the folder copy — the degraded clone without `#page-graph-data` — and 301s
+    // `/X.html` back to the bare form, so under `serve` the flat document is unreachable at
+    // EVERY url. See that file's header and e2e/journeys/harness-resolution.spec.ts.
+    command: "node ../scripts/e2e-serve.mjs ../source/public -l 8133",
     url: "http://localhost:8133",
     reuseExistingServer: false,
     timeout: 30_000,

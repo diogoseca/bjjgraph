@@ -670,34 +670,29 @@ REFERENCES:
 - related_content[] -> Array of objects with name/content_type/relationship (3-15 items, any type)
 
 KEY FIELDS:
-- summary: ONE self-contained definition sentence (~15-40 words, "A {filename} is..." / "{filename} are...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
-- overview: 2-3 paragraphs, 400+ characters
-- key_principles: 6-9 fundamental principles
+- description: One plain sentence describing the principle (70-180 characters), without promotional copy.
+- summary: ONE self-contained definition sentence (~15-35 words, at most 260 characters). Explain what the principle means directly.
+- overview: 1-2 practical sentences (40-320 characters). Add an application cue; do not repeat the summary, introduce history, or praise the principle.
+- key_principles: 3-5 distinct actionable points, at most 160 characters each. Put the most useful first.
+- application_contexts: 3-5 distinct examples; name a position or situation and give one concrete action (at most 240 characters).
+- common_errors: 3-4 distinct mistakes; short label (90 characters), consequence (160), and practical correction (200).
+- training_approaches: 2-3 focused drills; short name (80 characters), setup/action/reset or stop condition (260), and focus (120). Start with the easiest useful drill. Use cooperative recognition and control practice for submissions; do not prescribe resisted joint or neck finishes or near-tap exposure.
 - component_skills: 5-8 discrete sub-skills with 50+ char descriptions
 - decision_framework: 6-8 steps for applying the principle
 - developmental_metrics: Exactly 4 levels (Beginner/Intermediate/Advanced/Expert)"""
 
     elif category == "Systems":
-        return f"""REQUIRED NAME FIELD:
-- Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
-- DO NOT include 'title' field (auto-generated from name)
-
-REFERENCES:
-- related_content[] -> Array of objects with name/content_type/relationship (10-30 items for comprehensive SEO)
-
-KEY FIELDS:
-- summary: ONE self-contained definition sentence (~15-40 words, "The {filename} is...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
-- overview: 2-3 paragraphs, 400+ characters
-- key_principles: 5-8 core principles
-- key_components: 4+ main elements with 50+ char descriptions
-- implementation_sequence: 5+ step-by-step implementation phases
-- training_methodology.drilling_approach: 200+ characters
-- training_methodology.progression_path: 4+ stages of mastery"""
+        return f"""Keep name = '{filename}' and graph references stable. Follow templates/Systems.json.
+Author a concise search summary and one substantive course overview: advertised instruction, fit,
+coverage and limitations. No reader homework, study exercises, start_here or filler quotas.
+Optional alternatives use exact existing System names with a specific reason, never guessed URLs.
+Never invent source checks, media IDs, playback verification, proficiency metrics or timelines.
+Omit unsupported legacy sections. Preserve curated products without modification."""
 
     elif category == "Learning":
         return f"""REQUIRED NAME FIELD:
 - Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
-- DO NOT include 'title' field (auto-generated from name)
+- Optional display_title simplifies the reader-facing title; never rename the canonical name or file
 
 CATEGORY FIELD:
 - category: Must be one of "Strategy", "Training", or "Competition"
@@ -708,12 +703,14 @@ REFERENCES:
 - references[] -> Optional array of external citations with title/author/url
 
 KEY FIELDS:
-- overview: 2-3 paragraphs, 400+ characters, BJJ-specific (not generic self-help)
-- key_takeaways: 5-8 actionable bullet points specific to BJJ
-- bjj_applications: 3-6 items with scenario/application/outcome (concrete mat situations)
-- common_mistakes: 3-5 items with mistake/consequence/correction
-- training_exercises: 2-4 items with name/description (50+ chars)/focus
-- flashcards: 4-6 Q&A pairs for self-assessment"""
+- summary: One practical sentence, at most 260 characters
+- overview: One or two sentences, 30-450 characters, adding context or a useful limitation
+- key_takeaways: 3-5 distinct, specific points; omit motivational padding
+- bjj_applications: 2-4 recognizable mat situations with scenario/application/outcome; no guaranteed results
+- common_mistakes: 1-3 items with mistake/consequence/correction
+- training_exercises: 1-2 items with name/description/focus; specify setup, action, reset or stop conditions
+- knowledge_assessment: Optional, at most 4 useful question/answer pairs; not a scored deck
+- references: Only relevant sources actually checked; omit decorative or unverifiable citations"""
 
     return f"Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)"
 
@@ -1088,15 +1085,17 @@ PRINCIPLES_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instruct
 - principle_relationships[].principle_name MUST reference existing Principles
 
 ### 3. Review Content Quality
-- overview must be 400+ characters with substantive BJJ analysis
+- Follow the concise section counts and length limits in FIELD GUIDANCE and the schema.
+- Write practical, principle-specific copy. Remove generic praise, origin stories, and repeated explanations.
+- Put the most useful points, examples, mistakes, and drills first; the sidebar previews these entries.
 - component_skills descriptions must be 50+ characters each
 - decision_framework should have 6-8 actionable steps
 - developmental_metrics must have exactly 4 levels with 3+ observable behaviors each
 
-### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
-- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the principle, e.g. "A wedge is any body part inserted into a gap to pry space open, redirect force, or block an opponent's movement."
-- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "A {filename} is..." or "{filename} are...".
-- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
+### 4. Define the Principle Directly
+- Write one self-contained `summary` sentence (~15-35 words, at most 260 characters) explaining what the principle means.
+- Use natural wording for the name; do not force every definition into the same sentence pattern.
+- The `overview` adds a practical application cue in 1-2 sentences (40-320 characters), without repeating the definition or adding history.
 
 ### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
 - Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this principle.
@@ -1135,87 +1134,44 @@ Return ONLY valid JSON (no markdown, no explanation):
 ```
 '''
 
-SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+SYSTEMS_PROMPT = '''You are an AI editor preparing an independent BJJGraph course or topic guide, not a credentialed instructor.
+System: {file_path}
+Schema: {template_content}
+Current source: {content}
+Validation errors: {validation_errors}
+Field guidance: {field_guidance}
 
-## System: {file_path}
+Use public primary evidence actually inspected. A listing establishes advertised scope only.
+Do not invent mechanics, drills, resistance ladders, performance rates, mastery timelines,
+source check dates, preview URLs, playback verification, course ownership or human review.
+Do not invent homework, observation tasks or drills; remove start_here without relocating it.
+Sources may be empty only for a topic guide flagged for root review. Do not fabricate evidence
+to satisfy required fields. If evidence cannot be checked, leave the requested rewrite for review.
+Keep stable identity, aliases/family and graph references. Clarify related references are not
+necessarily taught by a linked course. Write one natural substantive overview, not a repeated
+summary. Optional alternatives use exact existing System names and specific reasons; no quotas.
+Preserve source evidence and verification dates unless actually rechecked. Sources render last.
+Optional legacy sections and flashcards have no quotas; delete unsupported repetitive scaffolding.
+Do not add/remove/modify products; omit them from output (the save path restores curated data).
+Preview is optional: use the exact official product introduction or primary trailer, never a
+guessed ID or an unrelated sample. Preserve the published allowlisted embed URL; the player
+applies muted autoplay. When no exact intro is available, keep the verified product cover.
+Only actual playback checks justify playback_verified_on; it is audit evidence, not a player
+visibility gate. Page access is not playback evidence.
 
-## TEMPLATE STRUCTURE (follow this format exactly):
-```json
-{template_content}
-```
-
-## Current Content (fix TODOs and validation errors):
-```json
-{content}
-```
-
-## Validation Errors to Fix:
-{validation_errors}
-
-## FIELD GUIDANCE:
-{field_guidance}
-
-## Tasks:
-
-### 1. Fix All Validation Errors
-{error_guidance}
-
-### 2. Ensure System Completeness
-- key_components[] should reference real techniques and positions
-- implementation_sequence should be logical and progressive
-- related_content[] should have 10-30 items for comprehensive SEO
-- DO NOT add, remove, or modify the `products` field — it is curated affiliate data managed by hand and must be omitted from your output entirely (it is re-merged automatically)
-
-### 3. Review Content Quality
-- overview must be 400+ characters with substantive BJJ analysis
-- key_components descriptions must be 50+ characters each
-- training_methodology.drilling_approach must be 200+ characters
-- training_methodology.progression_path must have 4+ stages
-
-### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
-- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the system, e.g. "The Kimura Trap System is a control-and-submission framework that uses the figure-four grip to chain back takes, sweeps, and kimura finishes."
-- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "The {filename} is...".
-- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
-
-### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
-- Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this system.
-- Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
-
-## Valid References by Category (ONLY use names from these lists):
-
-**Positions ({positions_count} available):**
-{positions_list}
-
-**Transitions ({transitions_count} available):**
-{transitions_list}
-
-**Submissions ({submissions_count} available):**
-{submissions_list}
-
-**Principles ({principles_count} available):**
-{principles_list}
-
-**Systems ({systems_count} available):**
-{systems_list}
-
+Valid references:
+Positions: {positions_list}
+Transitions: {transitions_list}
+Submissions: {submissions_list}
+Principles: {principles_list}
+Systems: {systems_list}
 {reference_format_rules}
 
-{expert_guidelines}
-
-{requirements_section}
-
-## Output Format:
-Return ONLY valid JSON (no markdown, no explanation):
-```json
-{{
-  "fixed_content": {{ ... the complete fixed JSON matching template structure ... }},
-  "changes_summary": ["Change 1", "Change 2"]
-}}
-```
+Return only JSON with fixed_content (complete updated source) and changes_summary (list).
 '''
 
 
-LEARNING_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+LEARNING_PROMPT = '''Edit a concise BJJ learning article for regular practitioners. Keep introductory guides accessible to beginners. Use plain language and specific situations; do not invent an author persona, credentials, evidence, or training experience.
 
 ## Learning Article: {file_path}
 
@@ -1246,9 +1202,12 @@ LEARNING_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 - Write original content — do NOT copy from external sources
 
 ### 3. Review Content Quality
-- overview must be 400+ characters with substantive BJJ-specific analysis
-- training_exercises descriptions must be 50+ characters each
-- key_takeaways should be actionable, specific BJJ advice (not generic self-help)
+- Organize the article around one practical question. Give overlapping topics distinct purposes.
+- Summary states the useful point; the short overview adds a situation or limitation rather than repeating a definition.
+- Takeaways identify decisions and observable actions, without generic motivation or padding.
+- Exercises describe setup, action, and reset or stop conditions. Do not prescribe unsupported progression timelines or arbitrary success percentages.
+- Remove rigid promises, invented precision, guaranteed outcomes, and unsupported claims. Preserve relevant checked sources; never invent citations or claim you reviewed material you did not inspect.
+- Keep the complete content within the schema's editorial limits. There is no minimum article length to fill.
 
 ## Valid References by Category (ONLY use names from these lists):
 

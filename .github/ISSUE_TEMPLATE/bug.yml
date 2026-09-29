@@ -1,0 +1,47 @@
+name: Site or app bug
+description: A page, the canvas app or a share link does not behave the way it should.
+title: "Bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For something that is wrong *about jiu-jitsu* rather than wrong *in the software*,
+        use the graph correction form instead.
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The page you were on when it happened, including any share or list link.
+      placeholder: https://bjjgraph.org/Positions/Mount/Top
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What you did, and what the app did. A screenshot helps more than a description of the screenshot.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Firefox 142 on Android 15 — or Safari 18 on an iPhone 14
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors
+      description: If you can open the browser console, paste anything red. Optional.
+      render: text
+    validations:
+      required: false

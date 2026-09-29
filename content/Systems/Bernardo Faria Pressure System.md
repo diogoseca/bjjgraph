@@ -1,480 +1,173 @@
 
-
-
-
 ---
-title: "Bernardo Faria Pressure System | BJJ System | BJJ Graph"
-description: "Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees. Explore the training sequence and course on BJJ Fanatics."
+title: "Bernardo Faria: No-Gi Pressure Passing | BJJGraph"
+description: "Bernardo Faria’s No Gi Pressure Passing centers on over/under entries and troubleshooting, with double-under, folding and half-guard passes."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Bernardo Faria Pressure System",
-  "description": "Step-by-step implementation sequence for Bernardo Faria Pressure System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Grip Establishment",
-      "text": "Begin standing or from combat base by establishing strategic grips that control opponent's collar, sleeves, or pants. Priority grips include cross collar, sleeve control, or pant grips at the knees.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Pressure",
-      "text": "Drive forward weight onto opponent through strategic positioning, forcing them to carry your bodyweight. Focus on placing pressure on their hips, chest, and shoulders rather than using muscular strength.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Guard Opening",
-      "text": "Systematically open closed guard through posture control, grip breaks, and strategic pressure application. Use knee placement, elbow positioning, and weight distribution to create guard opening opportunities.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Passing Execution",
-      "text": "Execute primary passing techniques including knee slice, over-under, or bodylock based on opponent's guard structure and defensive reactions. Maintain constant pressure throughout passing sequence.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Half Guard Navigation",
-      "text": "When opponent establishes half guard, immediately secure underhook position and crossface control. Focus on flattening opponent through weight placement and clearing bottom leg through systematic technique.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Position Consolidation",
-      "text": "Upon passing to side control or mount, immediately consolidate the position through proper weight distribution, control points, and base management. Prevent immediate escape attempts through strategic pressure.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Submission Attacks",
-      "text": "From consolidated positions, attack high-percentage submissions including ezekiel choke, arm triangle, americana, or kimura. Maintain pressure throughout submission attempts to prevent escapes.",
-      "position": 7
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Bernardo Faria Pressure System",
-  "description": "Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees. Explore the training sequence and course on BJJ Fanatics.",
-  "url": "https://bjjgraph.org/Systems/Bernardo-Faria-Pressure-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Bernardo Faria Pressure System", "item": "https://bjjgraph.org/Systems/Bernardo-Faria-Pressure-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Strong defensive frames prevent pressure application?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Break frames systematically through grip control and angle changes. Use bodylock positions to eliminate frame opportunities. Combine grip breaks with weight drops to collapse defensive structures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent establishes deep half guard during passing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prevent deep half entry through strategic base widening and weight placement. If deep half is established, use systematic escape protocol including limp leg extraction and backstep techniques. Maintain upper body control throughout escape."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Athletic opponents use explosive movement to escape pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Anticipate explosive movements through timing and base management. Use opponent's explosive energy against them by redirecting rather than resisting. Maintain connection points that allow following opponent's movement while reestablishing pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Exhaustion from maintaining constant pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use technique rather than strength for pressure application. Focus on weight distribution and bone alignment to create pressure without muscular effort. Take strategic rest periods in consolidated positions while maintaining control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Difficulty passing flexible opponents with mobile guards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Prioritize controlling opponent's hips rather than legs. Use bodylock and over-under positions that limit flexibility advantages. Apply systematic pressure that exhausts opponent's mobility over time."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Bernardo Faria Pressure System",
-  "description": "Pressure passing depends on connection and weight placement.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Bernardo Faria: No-Gi Pressure Passing","description":"Bernardo Faria’s No Gi Pressure Passing centers on over/under entries and troubleshooting, with double-under, folding and half-guard passes."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Bernardo Faria Pressure System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Bernardo Faria: No-Gi Pressure Passing</h1>
+<div class="system-tags"><span>Passing System</span><span>Intermediate</span></div>
+
+<p class="system-reference-count">20 related references (techniques and positions)</p>
+</header>
 
 
-
-<div class="principle-meta">
-<span class="meta-chip">Passing System</span>
-<span class="meta-chip">Intermediate difficulty</span>
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — No Gi Pressure Passing by Bernardo Faria" data-system-preview data-system-key="Bernardo Faria Pressure System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/d2d4f266-dd9b-453e-a6f7-7ad43baf37f2?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — No Gi Pressure Passing by Bernardo Faria">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/NoGiPressurePassingbyBernardoFaria_FRONTCover.jpg?v=1762458397" alt="No Gi Pressure Passing course cover" decoding="async" fetchpriority="high">
 </div>
+</section>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<div class="system-course__identity"><h2>No Gi Pressure Passing</h2><p class="system-course__instructor">By Bernardo Faria</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
+</section>
 
-<section id="overview" class="content-section">
+<section id="overview" class="system-overview">
 
-## What is Bernardo Faria Pressure System?
+No Gi Pressure Passing by Bernardo Faria develops an over/under-centered passing game, from reaching the position to dealing with defensive reactions and submission threats.
 
-**Pressure passing depends on connection and weight placement.**
+The four-volume series devotes sustained attention to over/under troubleshooting before expanding into other pressure passes and positional follow-ups. It suits no-gi passers who want depth in that approach without limiting the whole course to a single pass.
 
-Pressure passing depends on connection and weight placement. This guide examines how to limit hip movement, advance past the legs and settle into control. The linked instructional focuses on Bernardo’s no-gi approach, including over-under passing.
+</section>
 
-Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You want an over/under-based no-gi passing game.
+- Your over/under attempts stall against hip escapes, pushing defenses or leg hooks.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a> — For a broader no-gi passing course with split squat, half butterfly, knee shields and leg-entanglement positions.</p>
+
+
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Over/under mechanics and entries from guard pulls, open guard, butterfly, closed guard, De La Riva, knee shield and half guard.
+- Over/under troubleshooting, including guillotine, kimura and triangle threats.
+- Double-under, folding and half-guard passes, plus transitions to the back and mount.
+
+
+### Limits
+
+- The course adapts pressure passing to no-gi; it is not a gi collar-and-sleeve passing curriculum.
 
 </section>
 
 
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
 
-
-
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="no-gi-pressure-passing-by-bernardo-faria">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">No Gi Pressure Passing</h3>
-<p class="product-card__instructor">with Bernardo Faria</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Students developing close-range passing. This course focuses on no-gi rather than gi-specific grip details.</p>
-<p class="product-card__blurb">Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-pressure-system&utm_term=no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
-
-</div>
-
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: No Gi Pressure Passing</a>
 </section>
 
+<section id="related-content" class="system-section">
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+## Related guides and principles
 
-## Unlock this part of the graph
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+<p><a href="/Principles/Hip-Pressure">Hip Pressure</a></p><p><a href="/Principles/Center-of-Gravity">Center of Gravity</a></p><p><a href="/Principles/Forward-Pressure">Forward Pressure</a></p><p><a href="/Principles/Cross-Face-Control">Cross Face Control</a></p><p><a href="/Principles/Guard-Passing">Guard Passing</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a></p><p><a href="/Principles/Pressure">Pressure</a></p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a> — For a broader no-gi passing course with split squat, half butterfly, knee shields and leg-entanglement positions.</p><p><a href="/Systems/Roger-Gracie-Fundamental-System">Roger Gracie: Closed Guard</a></p>
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Constant forward pressure forces opponent to work continuously
-- Weight distribution creates exhaustion without requiring strength
-- Systematic passing sequences create multiple attack paths
-- Grip control establishes dominant hand fighting positions
-- Patient pressure beats explosive counters through timing
-- Base management prevents sweeps during passing attempts
-- Position consolidation before advancing to next stage
-
-
-</section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Knee Slice Passing** (Primary guard passing tool that applies maximum pressure while advancing position)
-The foundational passing technique involves driving the knee across opponent's thighs while controlling their upper body with strategic grips. The pass emphasizes weight distribution onto opponent's hips and chest, making them carry your bodyweight while preventing guard retention. Timing the slice with opponent's breathing and movement creates higher success rates.
-
-**Over-Under Control** (Control position that exhausts opponents and creates passing opportunities)
-Establishing one arm over opponent's leg and one arm under creates asymmetric pressure that prevents effective guard retention. The over-under position allows for strategic weight placement onto opponent's chest and hips while limiting their mobility. This control position sets up both passing opportunities and back exposure through systematic pressure application.
-
-**Bodylock Passing** (Eliminates opponent's hand fighting while creating maximum control for passing)
-Connecting hands around opponent's torso creates complete control of their core while eliminating grip fighting. The bodylock allows for strategic weight drops, pressure angles, and position advancement without giving opponent hand fighting opportunities. This position is particularly effective against butterfly and half guard structures where traditional grip fighting proves difficult.
-
-**Half Guard Maintenance** (Control position in half guard that creates passing opportunities through pressure)
-When opponent establishes half guard, the system emphasizes maintaining dominant underhook position, crossface control, and strategic weight placement to flatten opponent. Rather than immediate passing, the focus becomes making opponent carry weight while systematically clearing the bottom leg through precise technique and timing. Patience in this position creates exhaustion and eventual passing opportunities.
-
-**Mount Consolidation** (Dominant position that maximizes points and submission opportunities)
-After passing, the system emphasizes immediate mount consolidation through grapevine control, high mount positioning, and strategic weight distribution. The goal becomes making opponent carry maximum weight while preventing escape opportunities. This position serves as both a scoring position and submission platform within the overall system architecture.
+### Review related technique cards
 
 
 
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Grip Establishment**: Begin standing or from combat base by establishing strategic grips that control opponent's collar, sleeves, or pants. Priority grips include cross collar, sleeve control, or pant grips at the knees.
-Key points:
-- Fight for dominant grips before posture engagement
-- Control opponent's collar to prevent guard pulling
-- Establish sleeve control to limit defensive frames
-- Maintain strong base during grip fighting exchanges
+- [[Positions/Side Control|Side Control]] (Position)
 
 
-
-2. **Pressure**: Drive forward weight onto opponent through strategic positioning, forcing them to carry your bodyweight. Focus on placing pressure on their hips, chest, and shoulders rather than using muscular strength.
-Key points:
-- Drop hips to create downward pressure vector
-- Distribute weight through chest and shoulder contact
-- Maintain forward momentum without losing base
-- Force opponent to work continuously under pressure
+- [[Positions/Mount|Mount]] (Position)
 
 
-
-3. **Guard Opening**: Systematically open closed guard through posture control, grip breaks, and strategic pressure application. Use knee placement, elbow positioning, and weight distribution to create guard opening opportunities.
-Key points:
-- Establish strong posture before attempting guard break
-- Use elbow placement on thighs to create opening
-- Combine grip control with pressure application
-- Transition immediately when guard opens
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position)
 
 
-
-4. **Passing Execution**: Execute primary passing techniques including knee slice, over-under, or bodylock based on opponent's guard structure and defensive reactions. Maintain constant pressure throughout passing sequence.
-Key points:
-- Select passing technique based on guard type
-- Maintain pressure during entire passing sequence
-- Control opponent's hips to prevent guard retention
-- Consolidate position before advancing further
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position)
 
 
-
-5. **Half Guard Navigation**: When opponent establishes half guard, immediately secure underhook position and crossface control. Focus on flattening opponent through weight placement and clearing bottom leg through systematic technique.
-Key points:
-- Win underhook battle immediately
-- Apply crossface pressure to limit mobility
-- Flatten opponent's back to mat
-- Clear bottom leg through precise technique and timing
+- [[Positions/Body Lock|Body Lock]] (Position)
 
 
-
-6. **Position Consolidation**: Upon passing to side control or mount, immediately consolidate the position through proper weight distribution, control points, and base management. Prevent immediate escape attempts through strategic pressure.
-Key points:
-- Establish crossface and underhook in side control
-- Secure grapevine or high mount in mount position
-- Distribute weight to prevent bridging escapes
-- Maintain base while applying submission pressure
+- [[Positions/Headquarters Position|Headquarters Position]] (Position)
 
 
-
-7. **Submission Attacks**: From consolidated positions, attack high-percentage submissions including ezekiel choke, arm triangle, americana, or kimura. Maintain pressure throughout submission attempts to prevent escapes.
-Key points:
-- Attack submissions while maintaining position
-- Use pressure to limit defensive movements
-- Chain submissions when first attempts fail
-- Return to position consolidation if submission escapes occur
+- [[Positions/Mount/High Mount|High Mount]] (Position)
 
 
+- [[Positions/Combat Base|Combat Base]] (Position)
 
 
+- [[Positions/Closed Guard|Closed Guard]] (Position)
+
+
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
+
+
+- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition)
+
+
+- [[Transitions/Over-Under Pass|Over-Under Pass]] (Transition)
+
+
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition)
+
+
+- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition)
+
+
+- [[Transitions/Long Step Pass|Long Step Pass]] (Transition)
+
+
+- [[Transitions/Double Under Pass|Double Under Pass]] (Transition)
+
+
+- [[Transitions/Side Control to Mount|Side Control to Mount]] (Transition)
+
+
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition)
+
+
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission)
+
+
+- [[Submissions/Ezekiel Choke|Ezekiel Choke]] (Submission)
 
 </section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Study the over-under controls first, then the adjustments that keep the opponent from recovering guard.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-pressure-system&utm_term=no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: No Gi Pressure Passing &rarr;</a></p>
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/bernardo-faria-pressure-system" data-product-id="faria-pressure" target="_blank" rel="noopener">No Gi Pressure Passing by Bernardo Faria</a> — official listing; checked 2026-09-19. Verified title, instructor and four-volume outline, including over/under entries, troubleshooting and other pressure passes. Listing inspected; trailer content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Strong defensive frames prevent pressure application**: Break frames systematically through grip control and angle changes. Use bodylock positions to eliminate frame opportunities. Combine grip breaks with weight drops to collapse defensive structures.
-- **Opponent establishes deep half guard during passing**: Prevent deep half entry through strategic base widening and weight placement. If deep half is established, use systematic escape protocol including limp leg extraction and backstep techniques. Maintain upper body control throughout escape.
-- **Athletic opponents use explosive movement to escape pressure**: Anticipate explosive movements through timing and base management. Use opponent's explosive energy against them by redirecting rather than resisting. Maintain connection points that allow following opponent's movement while reestablishing pressure.
-- **Exhaustion from maintaining constant pressure**: Use technique rather than strength for pressure application. Focus on weight distribution and bone alignment to create pressure without muscular effort. Take strategic rest periods in consolidated positions while maintaining control.
-- **Difficulty passing flexible opponents with mobile guards**: Prioritize controlling opponent's hips rather than legs. Use bodylock and over-under positions that limit flexibility advantages. Apply systematic pressure that exhausts opponent's mobility over time.
-
-
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/bernardo-faria-pressure-system" data-product-id="ryan-guard" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity, eight-volume contents, split-squat/half-guard/half-butterfly framing, and rolling/commentary volumes. Listing inspected; videos not reviewed.</p>
 </section>
 
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Guard Passing Success Rate**: Percentage of guard encounters that result in successful passes to side control, mount, or back control
-Proficiency indicators:
-- Beginner: 30-40% passing success in training
-- Intermediate: 50-65% passing success with systematic approach
-- Advanced: 70%+ passing success against comparable opponents
-
-
-**Pressure Maintenance**: Ability to maintain constant forward pressure throughout passing sequences without exhaustion
-Proficiency indicators:
-- Can maintain pressure for 2+ minute passing sequences
-- Opponent shows visible exhaustion before practitioner
-- Technique rather than strength creates pressure effect
-
-
-**Half Guard Dominance**: Success rate in achieving dominant position and passing from half guard top position
-Proficiency indicators:
-- Win underhook battle 80%+ of time
-- Successfully flatten opponent within 30 seconds
-- Pass half guard within 90 seconds average
-
-
-**Position Consolidation Time**: Speed and effectiveness of securing dominant positions after passing
-Proficiency indicators:
-- Establish side control crossface within 3 seconds of passing
-- Secure mount grapevines within 5 seconds of achieving mount
-- Opponent unable to immediately escape consolidated positions
-
-
-**Submission Rate from Top**: Percentage of dominant positions that result in submission attempts or finishes
-Proficiency indicators:
-- Attempt submission from 60%+ of passed positions
-- Finish submissions from top 30%+ of matches
-- Chain 2+ submission attempts before position loss
-
-
-
-
+</details>
 </section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-Begin with static positional drilling focusing on proper weight distribution and pressure application without resistance. Progress to flow drilling where partner provides graduated resistance levels. Emphasize specific position training starting from various guard types, focusing on systematic passing sequences and pressure maintenance. Include conditioning drills that build endurance for sustained pressure application over multiple minute rounds. Use positional sparring with constraints such as 'must pass within 3 minutes' or 'maintain pressure without getting swept' to develop specific skills. Incorporate video analysis of training rounds to identify pressure application gaps and timing improvements. Practice grip fighting scenarios separately to develop automatic dominant grip establishment.
-
-### Progression Path
-**Foundation Building** (Focus: Master basic weight distribution, grip control, and primary passing techniques (knee slice, over-under)) - Months 1-3
-**Pressure Development** (Focus: Develop ability to maintain constant pressure without exhaustion, improve timing and base management) - Months 4-6
-**Half Guard Specialization** (Focus: Master half guard top position, develop systematic passing from half guard, improve underhook control) - Months 7-9
-**System Integration** (Focus: Combine all passing techniques into seamless system, develop passing chains and submission connections) - Months 10-12
-**Competition Application** (Focus: Apply system under tournament conditions, develop match strategies and timing, refine techniques based on competition feedback) - Months 12+
-**Advanced Refinement** (Focus: Develop opponent-specific adaptations, master subtle pressure adjustments, teach system to others to deepen understanding) - Ongoing mastery
-
-
-### Common Mistakes
-- Using muscular strength instead of proper weight distribution for pressure
-- Rushing passing sequences without proper grip control and base establishment
-- Losing patience and attempting explosive movements instead of systematic pressure
-- Failing to consolidate positions immediately after passing
-- Neglecting underhook battle in half guard top position
-- Attempting submissions before establishing dominant control
-- Poor base management leading to sweeps during passing attempts
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Positions/Side Control|Side Control]] (Position) - Primary position achieved through pressure passing system
-- [[Positions/Mount|Mount]] (Position) - Dominant position targeted after successful passing sequences
-- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) - Common defensive structure that system addresses with specific techniques
-- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Defensive position requiring specific escape and passing protocols
-- [[Positions/Body Lock|Body Lock]] (Position) - Key control position used to eliminate grip fighting and create passing opportunities
-- [[Positions/Headquarters Position|Headquarters Position]] (Position) - Strategic position for initiating pressure passing sequences
-- [[Positions/Mount/High Mount|High Mount]] (Position) - Advanced mount position for submission attacks after passing
-- [[Positions/Combat Base|Combat Base]] (Position) - Starting position for establishing grips and initiating passing sequences
-- [[Positions/Closed Guard|Closed Guard]] (Position) - Guard structure requiring systematic opening and passing approach
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Open guard structure addressed with bodylock and over-under techniques
-- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition) - Primary passing technique within the pressure system
-- [[Transitions/Over-Under Pass|Over-Under Pass]] (Transition) - Core passing technique for creating asymmetric pressure
-- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Passing technique that eliminates opponent's grip fighting opportunities
-- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition) - Critical passing skill for system success from half guard top
-- [[Transitions/Long Step Pass|Long Step Pass]] (Transition) - Alternative passing technique used when knee slice is defended
-- [[Transitions/Double Under Pass|Double Under Pass]] (Transition) - Passing variation using bilateral underhook control for pressure application
-- [[Transitions/Side Control to Mount|Side Control to Mount]] (Transition) - Position advancement sequence after successful passing
-- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Fundamental pressure passing movement driving knee across opponent's thighs
-- [[Principles/Hip Pressure|Hip Pressure]] (Principle) - Core pressure principle for applying weight through hips during passing sequences
-- [[Principles/Center of Gravity|Center of Gravity]] (Principle) - Core principle for creating effective pressure without exhaustion
-- [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Fundamental concept of maintaining constant offensive pressure
-- [[Principles/Cross Face Control|Cross Face Control]] (Principle) - Essential control principle for half guard and side control dominance
-- [[Principles/Guard Passing|Guard Passing]] (Principle) - Theoretical framework supporting systematic passing approach
-- [[Principles/Base|Base]] (Principle) - Critical principle for preventing sweeps during passing attempts
-- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Principle for consolidating positions after successful passes
-- [[Principles/Pressure|Pressure]] (Principle) - Technical principle for applying weight effectively during passing
-- [[Systems/Gordon Ryan Passing System|Gordon Ryan Passing System]] (System) - Complementary modern passing system with different technical emphasis
-- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Related fundamental-based system with similar pressure philosophy
-- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) - High-percentage submission from consolidated side control position
-- [[Submissions/Ezekiel Choke|Ezekiel Choke]] (Submission) - Primary submission attack from consolidated mount position
-
-
-</section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>Enter the over-under position cooperatively, then add resistance to retaining the connection. Judge progress by control rather than speed.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=bernardo-faria-pressure-system&utm_term=no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="no-gi-pressure-passing-by-bernardo-faria" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: No Gi Pressure Passing &rarr;</a></p>
-</section>
-
-
-
 </main>

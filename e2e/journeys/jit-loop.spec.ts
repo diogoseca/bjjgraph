@@ -35,7 +35,7 @@ test("JIT sheet drill pumps the odds odometer and the canvas edge", async ({ pag
   expect(before).toBeLessThanOrEqual(70)
 
   // open the expand sheet (real click) — the JIT drill block must exist inside it
-  await page.locator(`[data-tech="${target}"]`).first().click()
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
   const jit = page.locator("[data-jit]")
   await expect(jit, "in-sheet JIT micro-drill visible").toBeVisible()
 
@@ -70,7 +70,7 @@ test("drilling pumps odds and buys NO time — the clock belongs to the question
   await j.boot("/")
   await j.land("Mount Top")
   const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().click()
+  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]")).toBeVisible()
 
   const remaining = () => page.evaluate(() => (window as any).__neural.decisionRemaining())

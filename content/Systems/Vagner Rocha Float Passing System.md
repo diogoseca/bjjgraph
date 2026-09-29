@@ -1,386 +1,130 @@
 
-
-
-
 ---
-title: "Vagner Rocha Float Passing System | BJJ System | BJJ Graph"
-description: "Study float passing with a focused Vagner Rocha course match, practical partner drills, clear decisions, and ways to review your progress in training."
+title: "Vagner Rocha: Float, Knee-Cut and Standing Passing | BJJGraph"
+description: "Vagner Rocha’s Float Passing System combines knee-cut, float and standing passing, including smash passes, reverse knee slices and transitions to mount."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Vagner Rocha Float Passing System",
-  "description": "Step-by-step implementation sequence for Vagner Rocha Float Passing System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Supported float position",
-      "text": "BJJGraph study task: Ask a partner to present hooks cooperatively and identify which posts or contacts let you remain balanced without collapsing onto the legs.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Leg-pummeling task",
-      "text": "BJJGraph study task: Give the defender one hook to replace while you work to clear it without losing the upper-body connection.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Smash-or-slice decision",
-      "text": "BJJGraph study task: From the same float start, alternate a defender who folds toward one side and one who preserves a knee barrier; choose a reviewed branch.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Landing and restart",
-      "text": "BJJGraph study task: After choosing an exit, keep the round going until side control, mount, or guard recovery is clear.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Connect and review",
-      "text": "Link the first two practiced tasks in a constrained round, then add the next stage only when both partners can identify the cue and stopping condition. Record the earliest control failure and return to that stage for the next set.",
-      "position": 5
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Vagner Rocha Float Passing System",
-  "description": "Study float passing with a focused Vagner Rocha course match, practical partner drills, clear decisions, and ways to review your progress in training.",
-  "url": "https://bjjgraph.org/Systems/Vagner-Rocha-Float-Passing-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Vagner Rocha Float Passing System", "item": "https://bjjgraph.org/Systems/Vagner-Rocha-Float-Passing-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Movement ends in a forward fall.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lower the pace and rehearse the starting supports before adding leg movement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: A hook returns during every pummel.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Limit the defender to that hook and study when the space opens."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Every reaction triggers the same knee-slice attempt.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rehearse two different leg arrangements and explain the chosen branch."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The pass looks complete but the defender immediately recovers.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Continue each repetition into a short control-and-recovery exchange."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Vagner Rocha Float Passing System",
-  "description": "The Vagner Rocha Float Passing System uses a mobile top position over the guard to connect leg pummeling with smash passes, knee-slice variations, and changes of passing direction.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Vagner Rocha: Float, Knee-Cut and Standing Passing","description":"Vagner Rocha’s Float Passing System combines knee-cut, float and standing passing, including smash passes, reverse knee slices and transitions to mount."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Vagner Rocha Float Passing System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Vagner Rocha: Float, Knee-Cut and Standing Passing</h1>
+<div class="system-tags"><span>Passing System</span><span>Intermediate</span></div>
+
+<p class="system-reference-count">6 related references (techniques and positions)</p>
+</header>
 
 
-
-<div class="principle-meta">
-<span class="meta-chip">Passing System</span>
-<span class="meta-chip">Intermediate difficulty</span>
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Float Passing System by Vagner Rocha BJJ" data-system-preview data-system-key="Vagner Rocha Float Passing System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/1ab29709-9400-4c63-acc0-0d31c7495da9?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Float Passing System by Vagner Rocha BJJ">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/VagnerRocha_FloatPassingSystems_Coverfront.jpg?v=1762460456" alt="Float Passing System course cover" decoding="async" fetchpriority="high">
 </div>
+</section>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<div class="system-course__identity"><h2>Float Passing System</h2><p class="system-course__instructor">By Vagner Rocha</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha" data-course-url="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha" data-product-id="float-passing-system-by-vagner-rocha" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
+</section>
 
-<section id="overview" class="content-section">
+<section id="overview" class="system-overview">
 
-## What is Vagner Rocha Float Passing System?
+Float Passing System by Vagner Rocha devotes one volume each to knee-cut, float and standing passing. The float material covers entries and several exits, including smash passes, reverse knee slices and transitions to mount.
 
-**The Vagner Rocha Float Passing System uses a mobile top position over the guard to connect leg pummeling with smash passes, knee-slice variations, and changes of passing direction.**
+The course suits readers who want float passing within a wider no-gi passing game. It is not an entire series devoted only to the float position.
 
-Some guard exchanges leave the passer balanced above the legs without a clean route around them. Treat that moment as a position to understand: identify what supports your weight, which leg is obstructing progress, and where the defender can redirect you. Practice should reward a controlled landing as well as movement.
+</section>
 
-Float Passing System by Vagner Rocha is the matched instructional. Rocha connects float entries to smash and knee-slice options. Separate sections cover knee-cut combinations and standing passes. The drills, sequence, and assessment criteria below are an original BJJGraph study plan; use them to organize practice alongside the course and feedback from a coach.
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You want float-position entries and finishes alongside knee-cut and standing-passing options.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Lachlan-Giles-Body-Lock-Passing-System">Lachlan Giles: Body-Lock Passing</a> — For a course devoted to the body lock and its stages, rather than several passing families.</p>
+
+
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Knee-cut variations and connections to backsteps, leg drags and kimura-roll passing.
+- Float entries, smash passes, reverse and double knee slices, hook-clearing passes and mount transitions.
+- Standing passes, over/under and double-under options, plus butterfly and half-guard material.
+
+
+### Limits
+
+- Only the middle volume is devoted to float passing; the full course also covers knee-cut and standing approaches.
 
 </section>
 
 
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
 
-
-
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="float-passing-system-by-vagner-rocha">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Float Passing System</h3>
-<p class="product-card__instructor">with Vagner Rocha</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> No-gi passers comfortable with basic base and knee-slice mechanics who want another response to active hooks. The course also covers passing routes outside this focused float study.</p>
-<p class="product-card__blurb">Rocha connects float entries to smash and knee-slice options. Separate sections cover knee-cut combinations and standing passes.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=vagner-rocha-float-passing-system&utm_term=float-passing-system-by-vagner-rocha" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="float-passing-system-by-vagner-rocha" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
-
-</div>
-
+<a class="system-course__link" href="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha" data-course-url="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha" data-product-id="float-passing-system-by-vagner-rocha" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Float Passing System</a>
 </section>
 
+<section id="related-content" class="system-section">
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+## Related guides and principles
 
-## Unlock this part of the graph
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+<p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Posts">Posts</a></p><p><a href="/Principles/Transition-Management">Transition Management</a></p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a></p><p><a href="/Systems/Lachlan-Giles-Body-Lock-Passing-System">Lachlan Giles: Body-Lock Passing</a> — For a course devoted to the body lock and its stages, rather than several passing families.</p>
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Identify your support before lifting or repositioning a leg.
-- Use the defender's hooks as information about the available exit.
-- Change direction with a defined landing in mind.
-- Rebuild base when the defender changes your weight distribution.
-- Treat a controlled reset as useful feedback when no exit is available.
+### Review related technique cards
 
 
-</section>
 
-<section id="key-components" class="content-section">
-
-## Key Components
-**Supported float position** (Establish a controllable starting position.)
-Ask a partner to present hooks cooperatively and identify which posts or contacts let you remain balanced without collapsing onto the legs.
-
-**Leg-pummeling task** (Make changing leg position a deliberate task.)
-Give the defender one hook to replace while you work to clear it without losing the upper-body connection.
-
-**Smash-or-slice decision** (Connect the exit to the actual leg arrangement.)
-From the same float start, alternate a defender who folds toward one side and one who preserves a knee barrier; choose a reviewed branch.
-
-**Landing and restart** (Measure what the movement achieved.)
-After choosing an exit, keep the round going until side control, mount, or guard recovery is clear.
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
 
 
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Positions/Mount|Mount]] (Position)
+
+
+- [[Positions/Side Control|Side Control]] (Position)
+
+
+- [[Transitions/Knee Slice from Butterfly Half|Knee Slice from Butterfly Half]] (Transition)
+
+
+- [[Transitions/Knee Slice from Half|Knee Slice from Half]] (Transition)
 
 </section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Supported float position**: BJJGraph study task: Ask a partner to present hooks cooperatively and identify which posts or contacts let you remain balanced without collapsing onto the legs.
-Key points:
-- Establish a controllable starting position.
-
-
-
-2. **Leg-pummeling task**: BJJGraph study task: Give the defender one hook to replace while you work to clear it without losing the upper-body connection.
-Key points:
-- Make changing leg position a deliberate task.
-
-
-
-3. **Smash-or-slice decision**: BJJGraph study task: From the same float start, alternate a defender who folds toward one side and one who preserves a knee barrier; choose a reviewed branch.
-Key points:
-- Connect the exit to the actual leg arrangement.
-
-
-
-4. **Landing and restart**: BJJGraph study task: After choosing an exit, keep the round going until side control, mount, or guard recovery is clear.
-Key points:
-- Measure what the movement achieved.
-
-
-
-5. **Connect and review**: Link the first two practiced tasks in a constrained round, then add the next stage only when both partners can identify the cue and stopping condition. Record the earliest control failure and return to that stage for the next set.
-
-
-
-
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha" data-source-url="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha" data-affiliate="false" data-system-slug="systems/vagner-rocha-float-passing-system" data-product-id="rocha-float" target="_blank" rel="noopener">Float Passing System by Vagner Rocha</a> — official listing; checked 2026-09-19. Verified Float Passing System by Vagner Rocha and three-volume outline organized into knee cut, float and standing passing. Official page labels an embedded free sample; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Start with the float-entry explanation, then compare the smash and reverse-knee-slice branches before adding standing combinations.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=vagner-rocha-float-passing-system&utm_term=float-passing-system-by-vagner-rocha" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="float-passing-system-by-vagner-rocha" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Float Passing System &rarr;</a></p>
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/vagner-rocha-float-passing-system" data-product-id="giles-body-lock" target="_blank" rel="noopener">The Body Lock Pass by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed.</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Movement ends in a forward fall.**: Lower the pace and rehearse the starting supports before adding leg movement.
-- **A hook returns during every pummel.**: Limit the defender to that hook and study when the space opens.
-- **Every reaction triggers the same knee-slice attempt.**: Rehearse two different leg arrangements and explain the chosen branch.
-- **The pass looks complete but the defender immediately recovers.**: Continue each repetition into a short control-and-recovery exchange.
-
-
+</details>
 </section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Supported float position**: Establish a controllable starting position.
-Proficiency indicators:
-- Can describe the starting condition for supported float position.
-- Recognizes the agreed defensive response without prompting.
-- Can identify where the task broke down and select a relevant reset.
-
-
-**Leg-pummeling task**: Make changing leg position a deliberate task.
-Proficiency indicators:
-- Can describe the starting condition for leg-pummeling task.
-- Recognizes the agreed defensive response without prompting.
-- Can identify where the task broke down and select a relevant reset.
-
-
-**Smash-or-slice decision**: Connect the exit to the actual leg arrangement.
-Proficiency indicators:
-- Can describe the starting condition for smash-or-slice decision.
-- Recognizes the agreed defensive response without prompting.
-- Can identify where the task broke down and select a relevant reset.
-
-
-**Landing and restart**: Measure what the movement achieved.
-Proficiency indicators:
-- Can describe the starting condition for landing and restart.
-- Recognizes the agreed defensive response without prompting.
-- Can identify where the task broke down and select a relevant reset.
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-BJJGraph practice suggestion: Ask a partner to present hooks cooperatively and identify which posts or contacts let you remain balanced without collapsing onto the legs. Then connect it to leg-pummeling task. Compare the first lost control point after each round. Keep the first repetitions cooperative and agree on resistance, space, and reset conditions. Once the starting task is clear, add one defensive option at a time and compare the result with the intended control objective.
-
-### Progression Path
-**1. Supported float position** (Focus: Establish a controllable starting position. Use the corresponding component drill before broadening the defender's choices.)
-**2. Leg-pummeling task** (Focus: Make changing leg position a deliberate task. Use the corresponding component drill before broadening the defender's choices.)
-**3. Smash-or-slice decision** (Focus: Connect the exit to the actual leg arrangement. Use the corresponding component drill before broadening the defender's choices.)
-**4. Landing and restart** (Focus: Measure what the movement achieved. Use the corresponding component drill before broadening the defender's choices.)
-
-
-### Common Mistakes
-- Movement ends in a forward fall.
-- A hook returns during every pummel.
-- Every reaction triggers the same knee-slice attempt.
-- The pass looks complete but the defender immediately recovers.
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Active hooks beneath a passer
-- [[Positions/Half Guard|Half Guard]] (Position) - Leg position after a partial exit
-- [[Positions/Mount|Mount]] (Position) - One possible stable landing
-- [[Positions/Side Control|Side Control]] (Position) - Another control objective
-- [[Transitions/Knee Slice from Butterfly Half|Knee Slice from Butterfly Half]] (Transition) - Related knee-slice connection
-- [[Transitions/Knee Slice from Half|Knee Slice from Half]] (Transition) - Passing branch to compare
-- [[Principles/Base|Base]] (Principle) - Support while repositioning the legs
-- [[Principles/Posts|Posts]] (Principle) - Contacts that prevent collapse
-- [[Principles/Transition Management|Transition Management]] (Principle) - Continuity between passing choices
-- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Method for testing one float exit
-
-
-</section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph practice suggestion: Ask a partner to present hooks cooperatively and identify which posts or contacts let you remain balanced without collapsing onto the legs. Then connect it to leg-pummeling task. Compare the first lost control point after each round.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=vagner-rocha-float-passing-system&utm_term=float-passing-system-by-vagner-rocha" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="float-passing-system-by-vagner-rocha" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Float Passing System &rarr;</a></p>
-</section>
-
-
-
 </main>

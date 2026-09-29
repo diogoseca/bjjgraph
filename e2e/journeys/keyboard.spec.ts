@@ -7,7 +7,7 @@ import { journey } from "../dsl"
  * The owner's decision was that shortcuts stay in Settings rather than getting their own icon —
  * which makes the Shortcuts tab the ONLY place they are documented, so it had better be true.
  * This spec asserts every key it advertises actually does what it says, and that the two digit
- * families never collide: A–C answer the live question, 1–9 open option sheets.
+ * families never collide: A–C answer the live question, 1–9 execute, Shift+1–9 inspect.
  *
  * Handler: neural/src/app.src.jsx _onKey. Legend: Settings → Shortcuts.
  */
@@ -63,7 +63,7 @@ const deckFace = (page: Page, key: string) =>
     }
   }, key)
 
-test("A-D answer the live question; digits open option sheets", async ({ page }) => {
+test("A-D answer the live question; shifted digits inspect options", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -72,9 +72,9 @@ test("A-D answer the live question; digits open option sheets", async ({ page })
   const mc = await j.landQuestion()
   expect(mc, "a live landing question").toBeTruthy()
 
-  // a digit must NOT answer the landing question — it opens the first option's sheet
-  await page.keyboard.press("1")
-  await expect(page.locator("[data-go]"), "digit 1 opened an option sheet").toBeVisible()
+  // a shifted digit must NOT answer the landing question — it opens the first option's sheet
+  await page.keyboard.press("Shift+Digit1")
+  await expect(page.locator("[data-go]"), "Shift+1 opened an option sheet").toBeVisible()
   const answered0 = (await j.beats()).filter((b) => b.beat === "land_q_answered").length
   expect(answered0, "and answered nothing").toBe(0)
 
@@ -131,7 +131,7 @@ test("Space toggles the roll; Esc unwinds one layer at a time", async ({ page })
 
   // Esc cascade: option sheet first, then the pane — never both at once
   await page.locator(".ng-logo").click()
-  await page.keyboard.press("1")
+  await page.keyboard.press("Shift+Digit1")
   await expect(page.locator("[data-go]")).toBeVisible()
   await page.keyboard.press("Escape")
   expect(await sheetOpen(page), "Esc closed the sheet").toBe(false)
@@ -180,7 +180,7 @@ test("the Shortcuts tab documents the keys that exist", async ({ page }) => {
   for (const key of ["a", "b", "c"]) expect(legend, `${key} is documented`).toContain(key)
   // v1.134.0: the transport is retired — "play / pause roll" left the list with its keys
   expect(legend, "the retired pause row is gone").not.toContain("play / pause roll")
-  for (const phrase of ["multiple-choice", "execute technique", "esc"]) {
+  for (const phrase of ["multiple-choice", "execute option", "inspect option", "execute from detail", "esc"]) {
     expect(legend, `"${phrase}" documented`).toContain(phrase)
   }
 })

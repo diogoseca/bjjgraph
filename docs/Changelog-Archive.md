@@ -29,10 +29,23 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
+
 Newest first. Where a narrative's own label disagrees with git, the real shipping version is
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.196.1** — [THE SETTINGS TABS FIT THE PANEL, AND A SIXTH CANNOT BREAK THEM](#v11961--the-settings-tabs-fit-the-panel-and-a-sixth-cannot-break-them)
+
+- **v1.196.1** — [THERE IS NO DEFAULT LIST](#v11961--there-is-no-default-list)
+
+- **v1.196.1** — [YOUR LISTS FOLDS LIKE ITS NEIGHBOURS](#v11961--your-lists-folds-like-its-neighbours)
+
+- **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
+- **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
+- **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
+- **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
+- **v1.189.0** — [THE CEILING BECOMES A POLICY: TARGET, ACTION, AND A CAP ON THE STEP](#v11890--the-ceiling-becomes-a-policy-target-action-and-a-cap-on-the-step)
 - **v1.182.12**: [README and linked documentation describe dev](#v118212-readme-and-linked-documentation-describe-dev)
 - **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
 - **v1.176.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-176-0-three-positions-that-existed-twice-the-k)
@@ -256,8 +269,8 @@ by `grep` and does not need an index row.
 - `_traySup` — v1.129.5, v1.109.0
 - `_updateHover` — v1.127.0, v1.114.3
 - `_warmMcPool` — v1.104.8, v1.80.4
-- `activeListId` — v1.101.0, v1.99.4
-- `addToList` — v1.126.0, v1.99.4
+- `activeListId` — v1.196.1, v1.101.0, v1.99.4
+- `addToList` — v1.196.1, v1.126.0, v1.99.4
 - `attempt_probability` — v1.121.0, v1.68.0
 - `badges` — v1.109.0, v1.68.0
 - `bottom` — v1.125.0, v1.81.3
@@ -351,7 +364,9 @@ tried.**
   integer reads as a bug (in 98 of 272 hands the best-EDGE card is not the best-odds card);
   **reversed v1.129.1** in favour of the category word. *Do not silently reinstate it.*
 - **Capture filed into a default list** (v1.99.5) — **reversed v1.102.0**: the picker always
-  opens, because "one list" is only unambiguous the first time.
+  opens, because "one list" is only unambiguous the first time. Its last trace — the picker's
+  "DEFAULT" chip and `activeListId` itself — **retired v1.196.1**. *Do not reinstate a
+  privileged list, a marked row, or a write that falls back to one.*
 - **The list-row ▶** (v1.103.6) — **deleted v1.103.7**: ▶ means *make this the current state and
   roll*, which you cannot do to a collection.
 - **The in-node dossier** (v1.100.0) — **retired v1.101.0**: the game's own card is the one
@@ -386,6 +401,22 @@ tried.**
   ingest cost and deliberately NOT done, because it changes the emitted geometry.
 - **Role-splitting `adj`** — the suite found it: several readers walk it role-agnostically on
   purpose. *Do not role-split `adj`.*
+- **The pane's equal-column grid for the Settings tabs** (v1.196.1) — `.ng-learning-nav`'s
+  `repeat(N,1fr)` gives five tabs ~65px each on a phone, while "Notifications" is ~82px at
+  13.5px. So it fits only by shrinking the type or truncating the label, and a sixth tab makes it
+  worse. The scrolling row cannot overflow at any count.
+
+- **Renaming `activeListId` to `lastListId`** (v1.196.1) — rejected: a second persisted recency
+  signal beside every list's own `t`, which the Lists panel already sorts by; the two disagree
+  after a removal, a rename, an undo or a merge, and it would mint a settings key that can never
+  be deleted. **Keeping `activeListId` with explicit-id writes** — rejected: every app writer
+  already passed an id; the field's only living job was to name the chip's row.
+
+- **A folded Your lists that stays shut after an add, trusting the toast and the header count**
+  (v1.196.1) — the header counts LISTS, so an add to a list you already have moves nothing on it,
+  and the toast is the single `setEvent` slot the roll overwrites within seconds. It would have
+  broken "I should be able to see the listed techniques after adding" to satisfy the fold. The
+  shipped answer is a session reveal (`_revealLists`). *Do not re-propose.*
 
 
 ---
@@ -7267,3 +7298,929 @@ zero errors and seven warnings. Availability compared 1,448 wire nodes to the wa
 disagreements. Both README jq examples ran. Link checks resolved 74 relative references;
 six external URLs returned HTTP 200, while LinkedIn returned 999 to curl and was retained as
 requested. Practitioner validation and a full built-site/browser regression run are not claimed.
+
+## v1.188.1 — Course-first Systems, integrated with current dev
+
+Revised all 83 Systems guides around course subject, audience and scope. Removed the
+`start_here` contract, product study homework and six study-log cards. Added 88 exact-name
+internal alternatives; preserved stable identities, graph membership, 68 products and all 52
+preview records. Sources total 165 records, including one independently checked comparison
+listing added to B-Team. Editorial review checked all 83 final source hashes against official
+text or captured official extracts; this is agent editorial review, not firsthand course or
+instructional-video review.
+
+App and static pages now put the actual linked course near the title, repeat its destination
+at intentional CTAs, show fit and coverage, and put expandable Sources last. Verified previews
+mount without an extra load button and never autoplay. Nine unverified YouTube samples retain
+source-page fallback links. Related System labels use editorial titles while retaining stable
+routes. Display filtering removes 1,590 stock relationship captions and keeps specific context.
+Built Systems vendor links carry configured attribution; canonical source data remains neutral.
+
+Final integration caught a static fallback race: a hidden article became visible after the
+media module had initialized. A singleton ResizeObserver now mounts on reveal and cleans up
+on hiding or navigation; seven lifecycle cases cover it. Native provider playback was observed
+for Gordon Ryan and Craig Jones in the app and Gordon in the static fallback, with local built
+assets served through the verified dev origin. This does not certify instructional content.
+
+Preserved concurrent dev commit 4757f684c (external swipe guides and whole-column scrolling).
+Independent three-way merge review found no lost changes. Corrected the inherited ruleset
+surface ledger: removed the absent famDossierNode entry and classified alias hydration as
+cross-ruleset metadata; both displayed search consumers still apply rsAllows.
+
+Combined verification: 283 unit tests, 276 curated browser journeys and 31 additional Systems
+journeys pass. All 83 real app guides and static pages pass section/CTA/link checks: 188 primary
+CTAs, 88 alternatives, 165 sources and 326 attributed static vendor links. Source, graph,
+ordinal, affiliate, SEO, structured-data, seat-deck and MC gates pass within existing baselines.
+Only 53 Systems catalog ItemList names changed in the SEO expectation; URLs, positions, content
+floors and link requirements remain unchanged. Final eager payload is 1,435,815 raw / 329,784
+gzip bytes against unchanged 1,600,000 / 330,000 limits; largest deferred chunk is 31,191 bytes.
+
+## v1.188.2 — Trim the landing deck's foot and its gap over the choices
+
+Owner: "there's this empty space after the last answer of the question … trim … like 50% more of
+the left padding or right padding", and "a lot of space between the land card and the choices, at
+least on desktop … tighter but not go on top of the row that says Your options."
+
+v1.185.2 made the deck face hug its content but kept the retired fixed height as a `min-height` of
+256/248, which `_dockLandStack` also wrote inline every frame. MEASURED, 114 faces over 12 decks at
+1440x900: an MC face is 193.2, 212.8 or 232.4px of content — three values, one per line of question
+text. All were floored to 256, so a two-line card carried ~29px of nothing under its last answer on
+top of its 16px padding. `NG_LAND_DECK_MIN_H = 236` now replaces both constants and both stylesheet
+values, chosen to sit just under the shortest of those faces (193.2 + 16 + 27 + 2 border = 238.2),
+so the floor no longer touches an MC face. It is kept, not deleted: a recall card measures 91.2px
+of content before its reveal and 136.1 after, so unfloored it would show a stub and lurch ~45px on
+"Show answer". The foot is 1.5x the side gutter everywhere: 27/18 desktop, 18/12 phone, 21/14
+landscape.
+
+The gap over the hand was paid twice — the four backs already put 12px of chrome under the face and
+the dock added the bare card's 12/8 on top. A deck keeps 4. `.ng-optionrow`'s 14px top padding is
+the same band: the card docks off that row's MEASURED height while the row is anchored by its own
+`bottom`, so air there pushes the card up while "Your options" does not move; 14 -> 8 closed 6px
+more with nothing else shifting. Face-to-heading 38 -> 24px; face 16px over the tray box, deepest
+back 4px.
+
+Cost, accepted: two cards differing by a line of question now differ by ~20px of height (per-deck
+spread 0 in 2 decks, 19.6 in 9, 39.2 in 1). `landcard-deck.spec.ts`'s wheel test had asserted
+geometry equality across two DIFFERENT cards — only green because the floor equalised them — and
+now walks back to its starting card. A new @curated case at 1440/390 reads the foot against the
+card's own gutter and the height against the box model; restoring the old floor, the old padding or
+the double-paid gap each turns it red at both widths.
+
+Validation: 283 unit tests. Bundle +5 bytes gzip on neural.js, +5 on neural.css, measured by
+building the same tree at HEAD and here.
+
+
+## v1.189.0 — THE CEILING BECOMES A POLICY: TARGET, ACTION, AND A CAP ON THE STEP
+
+**The owner's call, verbatim:**
+
+> "wrt ceiling, it's a soft ceiling, moore an indication so let's add another rule like, target is
+> <300k, but we take action when it reaches >400k otherwise, small additions are ok as
+> functionality improves right? i think that's a great way to go about things long term since the
+> app will inevitably add more features and progress, but we want to avoid bloating too much makes
+> sense?"
+
+**What a hard ceiling on a growing payload actually cost.** `budget_neural.json`'s
+`raising_a_ceiling` note is three post-mortems long. Two of them are raises of ~1,000 bytes —
+385,000 -> 386,400 (v1.173.1) and 386,400 -> 387,400 (v1.175.1) — and each cost a CI round trip.
+The second one went red in CI by 353 bytes with 217 curated journeys green, and a red curated gate
+SKIPS the deploy step, so it presented as a stale dev preview rather than as a failing test. The
+measured position when this change was written is the argument in one line: **the neural eager set
+gzips to 329,808 against a 330,000 ceiling — 192 bytes — and first_hand stood at 387,117 against
+387,400, i.e. 283.** Both gates were one ordinary feature from red, and the only move either
+offered was to raise the number again.
+
+**The three bands.** `value <= target` is a silent pass · `target < value <= action` WARNS and
+passes · `value > action` is a hard fail · **and `delta > delta_cap` is a hard fail whatever the
+absolute figure.** The delta cap is the part that does the work: a flat "act at 400k" lets one
+commit add 70,000 bytes and pass in silence, which is exactly the fat-wire regression the ceiling
+was ratcheted DOWN in v1.107.1 to catch.
+
+**The numbers, and why they are not shared between the two metrics.**
+`neural.eager_gzip_bytes` — target 300,000 / action 400,000 / delta cap 5,000, the owner's own
+figures, leaving ~70,200 of room against a measured 329,808. `first_hand_gzip_bytes` — target
+365,000 / action 465,000 / delta cap 6,000, DERIVED rather than copied: a 400,000 action threshold
+there would have left ~13,000 against a measured 387,117, which is nothing. first_hand = the eager
+set as requested + the shared Quartz bundles (postscript 27,776 + index.css 9,896 + / 7,590 +
+prescript 1,181 = 46,443 local, ~47,500 on a deploy) + the boot's per-node chunks (p95, 3 decks +
+1 dossier = 3x3,370 + 6,741 = 16,851). 48,000 + 17,000 = 65,000, added to each of the eager bands.
+The delta cap is 5,000 vs 6,000 because first_hand's core subtotal also counts `/index.css` and `/`
+— ~17,500 gzip of Quartz surface the neural set never sees.
+
+**What the baseline is, and the trap avoided on the way.** Nothing in CI or in a local build can
+measure a previous ref without rebuilding it (~11 min), so the baseline is committed STATE: the
+last figure somebody accepted, with the previous value, the ref, the date and a required reason,
+in `tests/artifacts/payload_policy.json`. The first design had the gate rewrite that baseline on
+every green run, which is self-maintaining and completely wrong: **the author commits the refreshed
+baseline, CI then measures a delta of 0, and the cap is vacuous while still reading as a check that
+ran.** A SELF-ADVANCING BASELINE IS A DELTA CHECK THAT NEVER RUNS. So it moves only via
+`--accept-baseline <metric> --reason "..."`, which refuses a figure already over the action
+threshold. The cost, stated in the policy file rather than discovered later: growth ACCUMULATES, so
+three innocent +2,000 ships against a 5,000 cap turn the third one red — that is the policy asking
+for a checkpoint every ~5,000 bytes of drift, not an accusation.
+
+**Why first_hand's delta is measured on a subtotal.** Two parts of that number move with no code
+change at all. `/postscript.js` carries the deploy's injected PostHog snippet (78,095 B there
+against 75,641 keyless, ~1,060 in gzip) — the documented local-vs-CI gap. And the per-node chunks
+depend on where the pinned `start-pos:[0]` draw lands: **measured from the committed reports,
+between v1.175.0 and v1.177.0 the pinned start moved from "Gogoplata Control Top" to "K-Guard Top"
+and this measurement swung ~12,900 B gzip with 6 fewer requests**, for reasons having nothing to do
+with weight. So the bands judge every byte and the delta judges `first_hand_gzip_core_bytes` = total
+− postscript − chunks. Both exclusions are COUNTED and asserted non-empty; neither is unwatched
+(postscript has its own bundle ceiling, chunk SIZE has `chunk_max_bytes`, and chunk COUNT now has
+`boot_chunk_requests` = 12, derived as NG_PREFETCH_CAP 10 + the two non-deck chunk kinds — observed
+4 today, 6 before v1.177.0). Verified in the other direction too: **0 of the eager set's 5 files
+change under a deploy `AFFILIATE_REF`**, so the eager delta needs no environment allowance at all.
+
+**Two implementations, pinned equal.** The python gate and the browser gate cannot call each
+other's language, so the band logic lives in `scripts/_payload_policy.py` and
+`scripts/_payload_policy.js`, and `tests/payload_policy.test.mjs` runs both over the same committed
+22-case table (`tests/artifacts/payload_policy_cases.json`), checks every verdict against the
+table's own `expect`, and fails on the first disagreement. Boundaries are inclusive on the safe side
+and each has a pair of cases one byte apart.
+
+**Mutants, all killed** (12 of 12; the gate under test is production code, only the committed
+artifacts were doctored):
+
+| mutant | dies in |
+|---|---|
+| JS delta cap disabled (`delta > cap*100`) | `payload_policy.test.mjs` — 3 cases |
+| python warn band collapsed (`> target` -> `> action`) | `payload_policy.test.mjs` — cross-language diff |
+| JS accepts a non-integer baseline | `payload_policy.test.mjs` — 2 cases + diff |
+| target above action in the policy | `payload_policy.test.mjs` — policy-error case |
+| eager over action | `validate:payload` exit 1 |
+| eager delta over cap, absolute under target | `validate:payload` exit 1 |
+| eager baseline null | `validate:payload` exit 1 (and it fired for real, in the build that seeded it) |
+| policy file deleted | `validate:payload` exit 1 |
+| `eager_gzip_bytes` put back in `budget_site.json` | `validate:payload` exit 1 (shadowing) |
+| policy metric reassigned to a gate that does not run | `validate:payload` exit 1 (zero coverage) |
+| `first_hand_gzip_bytes` put back in `budget_neural.json` | `payload-first-hand.spec.ts` |
+| `CHUNK_RE` / `POSTSCRIPT` matching nothing | `payload-first-hand.spec.ts` — the counted exclusions |
+
+**NOT covered, said plainly.** No CI run has exercised this yet: every figure above is from a local
+build, and the deploy is the only build that carries the PostHog key and the affiliate ref. The
+first_hand BAND figure will read ~1,060 B heavier there (the core figure will not). The delta cap
+reads "growth since the last accepted checkpoint", not "growth in this commit" — a weaker claim
+than a per-commit delta and the only one anything can actually measure without a rebuild. And
+`tests/payload_policy.test.mjs` measures no payload: whether either gate feeds `evaluate` the right
+numbers is not tested there.
+
+**Validation:** 287 unit tests (283 + 4 new), `validate:payload` green with one warning,
+`validate:claudemd` green (CLAUDE.md 80,645 / 82,000), `payload-first-hand` green.
+
+## v1.195.1 — Publication dates require publication evidence
+
+`CreatedModifiedDate` successfully discovers linked worktrees and normal clones. Its git
+source populates **modified only**; the creation fallback is the file's checkout birthtime.
+`Head` published that creation value as both `article:published_time` and JSON-LD
+`datePublished`. Complete git history in both deploy workflows therefore did not prevent
+this defect. The missing-workdir warning never applied: the git workdir and modification
+lookup were healthy. Separately, an absent `publishDate` became the build clock through
+`coerceDate(undefined)`, so merely switching Head's field would also have been wrong.
+
+None of the 4,600 Markdown sources supplies `date`, `created`, or `publishDate`; the JSON
+sources likewise carry no publication dates. Git's first/last commit does not prove first
+public deployment. Publication now comes from authored `publishDate` (then `date`), with
+missing or invalid dates omitted in both metadata surfaces. A worker reports the omission
+once. Git-backed modification metadata and the existing internal creation-date policy
+remain unchanged. A future authored backfill belongs in JSON and templates, with evidence.
+
+The pre-fix build reproduced exactly one census delta: 1,077 distinct publication values
+in the committed baseline versus 901 in this checkout. That count encoded filesystem
+history, not editorial history. The committed census and gate are deliberately unchanged;
+removing fabricated metadata necessarily changes its publication count, total meta-tag
+count, and publication meta-key count. Comparing independent corrected builds is a separate
+reproducibility check, not permission to silently re-seed the existing gate.
+
+`tests/published_time.test.mjs` executes the real transformer and rendered Head against
+normal, linked, full-clone and shallow-clone repositories, untracked notes, explicit dates,
+invalid dates, and precedence. Both new tests were red before the fix; restoring Head's
+creation-date source, restoring the build-clock fallback, dropping authored dates, and
+leaving an empty publication meta tag are killed by these assertions.
+`e2e/journeys/published-time.spec.ts` is tagged `@curated`, runs
+those fixtures on deploys, and inspects OG/JSON-LD on four served page archetypes. Both
+curated cases also failed against the original implementation/build.
+
+This establishes a production **metadata correctness** defect: the current production
+branch has identical relevant source, and both deployment paths execute it. It does not
+establish search-ranking/traffic harm; direct live-site requests in this investigation
+returned HTTP 403. The two completed emits also retain differing sitemap `lastmod` and RSS
+`pubDate` values because their reader still uses internal creation dates. Creation-date
+sorting/feed behavior, historical publication recovery, and general whole-site byte
+reproducibility are outside this change; Head publication parity does not justify removing
+every date-normalization rule from a whole-site comparison.
+
+**Validation:** 300 root unit tests passed; focused date tests passed again after the empty-tag
+assertion was strengthened. Quartz TypeScript/format checks and both new curated cases passed.
+Complete builds in a linked worktree and independent full clone used two parser workers and
+passed payload checks. Their censuses matched in all 13 dimensions; all 6,149 per-page OG and
+JSON-LD publication/modification maps matched exactly without normalization. Both unchanged
+baseline gates remained red with the same three expected publication-metadata deltas above.
+
+
+## v1.195.2 — Recover publication dates through Git renames and copies
+
+Publication now prefers authored `publishDate` / `date`, then the earliest recorded
+Markdown page history. Missing, invalid, shallow, or unavailable history stays absent.
+Both Head readers use this publication field; filesystem birthtime and the build clock
+remain forbidden publication fallbacks. This supersedes the deliberate absence policy
+in v1.195.1 with the owner's chosen Git provenance policy.
+
+The source choice is page Markdown lineage, even though Markdown is generated. Only
+1,679 of 4,600 Markdown files have adjacent JSON. `100% Sweep.md` follows history back
+to 2025-06-15, whereas its JSON begins on 2025-10-28; a naive Markdown first-add returns
+2026-02-09. Mount's two sources agree. Using JSON would discard known older page history
+and leave role pages without an adjacent source. Git author dates are recorded provenance,
+not independently observed first CDN deployments.
+
+The complete 4,600-file `git log --follow` oracle took 1,142.717 seconds with four workers.
+It produced **31 timestamps on 19 UTC days**, spanning 703.201689815 days, with 37.4348%
+on the busiest day. The expectation of hundreds of publication days was refuted by this
+full-corpus measurement. A naive first-add walk has 14 days. The day floor of 18 therefore
+remains load-bearing; timestamp cardinality is diagnostic only.
+
+The implementation selects Markdown-add commits, then runs one batched rename/copy-aware
+`diff-tree`, including unchanged copy sources. Its Markdown-only walk took 58.524 seconds
+and its production parser matched every one of the 4,600 independent `--follow` results.
+Plain renames and ordinary copy detection were faster but incorrect; unchanged-source
+copy detection is required. A single lookup is prepared before parser workers and shared
+with them. Both deploy paths fetch full history. The rebase preserves dev’s PR workflow
+unchanged at the owner’s instruction: its shallow build/test checkouts cannot recover
+publication history, so that CI path still requires a separate full-history decision.
+No generated content or fingerprint baseline is rewritten.
+
+The standing `validate:publication-dates` gate checks both publication surfaces and both
+modification surfaces, with positive page coverage and separately calibrated day, span,
+and largest-day-share thresholds. Policy JSON records the measured basis beside every
+floor. Healthy modified dates occupy 17 OG / 16 JSON-LD days; their legitimate 37.7% peak
+requires the 50% ceiling, not 25%. Modified checks guard the dormant final clock fallback:
+running the transformer shows disabling filesystem preserves tracked Git dates, but a
+file without authored/Git modification data then takes build time.
+
+The actual pre-fix emitted corpus fails all three publication spread checks on both
+surfaces: 901 timestamps occur on one day within 0.904 seconds. An isolated modified-clock
+control fails all three modified checks while publication remains healthy. All eight final
+threshold-policy mutants (including both JSON-LD overrides) are killed by the health units. Real transformer/Head fixtures
+pin rename, recreation, both forms of copy, independent checkouts, authored overrides,
+untracked/no-Git/shallow absence, invalid dates, all enriched schema types, exact tag counts,
+and unchanged modification behavior. Removing unchanged-source copy detection turns its
+fixture red. The three publication journeys are collected by the normal `@curated` gate.
+
+RSS/sitemap creation-date readers are unchanged and remain outside this metadata fix.
+
+A second coverage distinction matters to publication calibration: the original emitted
+JSON-LD coverage excludes the homepage (the only 2024 provenance date) and three guides
+(the only 2025-10-14 day). Its 4,593 covered primary pages therefore have 28 timestamps on
+17 days, spanning 450.928020833 days. JSON-LD publication gets its own minimum of 16 days
+and 405 days of span (90% of those measured values); OG keeps 18 days and 632 days. The
+50% share ceiling and all three checks remain. This is an explicit surface override in
+the publication policy, with its measured basis, not an unrecorded shared-floor relaxation.
+
+**Validation before rebasing:** 307 root units and Quartz TypeScript/format checks passed. The health
+units passed again after the surface calibration, and all eight final policy mutations
+were killed. Normal deployment collection finds all three publication `@curated` cases.
+A completed red run against the interim absent-date emit failed the two emitted-output
+assertions while its fixture passed; all three then passed on the corrected tree. An
+earlier 120-second corpus timeout is recorded separately and is not counted as red proof;
+the complete scan now has a 300-second subprocess / 360-second test budget and prints
+its actual failure diagnostics. No semantic assertion was removed.
+
+Two complete independent builds (linked worktree and full clone) match in **13/13**
+fingerprint dimensions and all **6,149** per-page publication/modification maps, without
+date normalization. Both emit publication on **6,118 OG / 6,110 JSON-LD pages**; the
+distributions are 31 timestamps / 19 days / 703.201689815-day span / 37.561295% largest day
+for OG and 28 / 17 / 450.928020833 / 37.610475% for JSON-LD. All 4,600 primary OG dates
+and 4,593 primary JSON-LD dates match the independent complete `--follow` oracle. Existing
+modification maps are unchanged on all 6,149 pages. A further control preserves the real
+fixed publication fields and collapses only modification; all three modified checks fail
+on both surfaces and publication stays green.
+
+Whole-pipeline timing with identical two-worker/memory settings: e81f18f06 full-clone
+baseline **1,059.936s (17m39.9s)**; fixed worktree **1,335.388s (22m15.4s)**; fixed same
+clone **722.243s (12m02.2s)**. Shared-host load varied substantially; these wall differences
+are not a causal speedup/regression estimate. Same-clone child CPU increased from
+1,390.931s to 1,416.648s (+25.717s, about 1.85%). The added cold Git stage itself measured
+**59.24s / 60.85s** in the two actual builds. That minute remains material to a three-minute
+build target, even after batching replaces the 19-minute per-file oracle. Queueing,
+prerequisite neural regeneration and post-build tests are outside the pipeline timings.
+
+Before rebasing, the unchanged committed census remained red with one historical delta:
+**1,077 checkout publication values → 31 Git values**. Publication-tag counts are restored.
+Its baseline is not reseeded and its implementation is not weakened; the PR shape gate
+needs a separate baseline decision. RSS/sitemap creation-date values still differ between
+the two outputs (4,598 sitemap dates and 10 RSS dates), as previously scoped and routed.
+
+**Rebased verification on dev 91afaf618:** the reading redesign, accepted eager-payload
+baseline, all ten new E2E server configurations, harness-resolution spec, and existing
+workflow are preserved. Two full builds of the rebased tree again match in **13/13**
+fingerprint dimensions and all **6,149** per-page publication/modification maps without
+normalization. Coverage remains **6,118 OG / 6,110 JSON-LD** publication fields with the
+same varied Git dates and per-field spread checks. All 4,600 primary OG and 4,593 JSON-LD
+fields match the complete independent `git log --follow` oracle; content and relevant
+history inputs were verified unchanged before reusing that oracle.
+
+Quartz checks, 307 root units, and all five publication/harness curated cases passed.
+Both bare and explicit routes in the publication sample resolve to the flat document
+under the new harness, with both publication fields correct. The actual pre-fix capture
+still fails all three publication checks on both surfaces; collapsing only modification
+in the newly built output fails all three modified checks while publication stays green.
+No assertion or protected dev file was changed to obtain these results.
+
+Rebased full-pipeline timings (two parser workers): worktree **829.236s**, clone
+**923.416s**. Cold Git preparation took **73.81s / 57.54s**.
+Eager payload is **332,302 / 332,274 bytes**: **+12 / -16** against the retained
+**332,290-byte** accepted baseline. The 28-byte gzip difference is confined to curriculum
+score-weight array ordering; keyed weights agree, and the Neural JS/CSS artifacts match.
+That generator remains unchanged. The 2,099-byte reading stylesheet remains deferred. Wall times on the
+shared host are observations, not a causal before/after speed claim.
+
+The preserved dev census has exactly one historical mismatch: **888 checkout publication
+values -> 31 Git values**. It is not reseeded. Preserving dev's E2E workflow also retains
+shallow build/test checkouts, which cannot supply this policy's publication history;
+that CI integration issue remains explicit. Deploy workflows already fetch full history.
+The optional `gitPublicationDates?: Record<string, string>` field on `BuildCtx` is
+prepared once and forwarded to workers; if the field is absent, only CreatedModifiedDate performs its
+cached lazy Git lookup. An empty map is authoritative and suppresses that fallback.
+
+
+### v1.195.3 — Share publication and modification history in the driver
+
+The driver prepares `gitPublicationDates?: Record<string, string>` and the optional
+sibling `gitModifiedDates?: Record<string, string>` from one cached collection. One
+unfiltered Markdown history walk records latest committer dates and addition-commit IDs;
+the existing batched rename/copy diff retains publication's earliest author-date policy.
+Keys remain repository-relative Markdown paths with forward slashes. Shallow/unavailable
+history yields empty maps, with no filesystem or clock fabrication. The publication API,
+authored precedence and rendered fields are unchanged. CreatedModifiedDate still uses
+its native per-file modification reader; the new sibling is data for future consumers.
+
+The modified index takes the first path change in reverse topological order, not the
+maximum timestamp (commit clocks may go backward). Combined merge diffs include a
+resolution that changes every parent's version without stamping unchanged merged files.
+This is deliberately explicit: the native reader ignores such resolutions, so universal
+native-reader equivalence is not claimed. No current plugin consumes the new sibling.
+The worker accepts an optional sixth argument while preserving the fifth publication map.
+
+Both complete-E2E checkouts now fetch full history, which the provenance policy and
+curated Git oracle need. The committed fingerprint census remains unchanged.
+Seven real-Git/driver fixtures cover modification-only commits, author/committer clock
+skew, rename/copy lineage, merge resolutions, shared-cache call counts, missing history,
+and context propagation. Original publication and per-field spread assertions remain.
+
+The complete 4,600-file comparison preserves every publication date and matches native
+modification on 4,598 paths. Americana and Kimura have later merge resolutions: the new
+map agrees with `git log -1 --format=%cI -- <path>` on each; the native reader skips them.
+This difference is documented for future consumers, not applied to current page metadata.
+
+## v1.195.6 — Systems section rhythm as a ratio; the "missing trailer" was a stale public dir
+
+Three items from one owner report on his own :8080, all on the 10th Planet Systems pages.
+
+**1. "No video, but the product page has a trailer."** Reproduced on dev's tip in headless
+Chromium with nothing aborted (the e2e DSL aborts non-localhost requests, so it could not be the
+instrument): the Bunny trailer mounts on both surfaces — Neural pane SDK 2.06s, iframe 2.6s,
+visible 4.7s; static article (bundle refused) 0.35s / 0.9s / 1.9s; 52 mediadelivery requests, 0
+page errors. With the SDK blocked the designed contract holds (no iframe, cover, no affordance),
+which is the owner's symptom, so it was measured rather than assumed; the default ad-block lists
+name only `rum.js` and `/.metrics/`. Cause: his :8080 served `source/public` built 2026-09-18
+17:33 (pre-v1.190.0 pages, payload with `preview: null` and `course_url: null`, the retired
+`data-verified-origins` gate) under a bundle from 2026-09-20 — `dev:neural:app` refreshes the
+bundle and the adapter, never the payload or the pages. Fix: `npm run build`. Production has no
+inline preview at all (origin/main 1.182.15).
+
+**2. Craig Jones Leg Lock System.** Down Under Leg Attacks carries no player: 0 mediadelivery
+server-side, 0 video media in the Shopify JSON, 0 media requests in a real browser after 16s.
+The guide's second source has four Bunny GUIDs for a different course. Nothing authored.
+
+**3. "Not much space between the sections."** Measured first. Neural pane, body 12px × 1.8 =
+21.6px: the five separating margins were 22/25/28/30/26px (1.0–1.4 lines). Static article, body
+16px × 1.65 = 26.4px: 32/40/40/40/48px (1.2–1.8 lines). The owner sizes spacing as a ratio of a
+token already on the page, so the rule is one ratio against each surface's own line-height:
+every top-level block from the course block down to Sources starts TWO LINES below the block
+before it (43.2px pane, 52.8px article); the hero keeps its own grouping. One owner per surface:
+`--ng-system-gap` (neural/src/systems.css) and `--system-gap` (scripts/system_guide.css). The
+drill button's stray 4px bottom margin is zeroed: a button is inline-level, so it added to the
+Sources gap (47.2 for a 43.2 rule) instead of collapsing.
+
+Pinned by `e2e/journeys/systems-rhythm.spec.ts` and `system-static-rhythm.spec.ts` (@curated,
+1440 and 390): gap ÷ computed line-height = 2 from the rendered boxes, never the px, a positive
+boundary count, then the token moved inline and re-measured. Red-first: static 1.21, Neural
+1.02. Mutants: a hard-coded px gap on either surface dies on the moved token (1.37 / 1.50).
+Byte-neutral to non-Systems pages: build-shape census equal, 3 bundles byte-for-byte; 83 pages
+link `system-guide.css`, 0 outside `Systems/`; neural.css +44 B gzip inside the delta cap.
+Units 314/314, systems-surface 44/44, curated 308 passed, 0 failed (20.7 min) on the rebuilt tree (scratch config on :8172; the gate ports belong to other sessions).
+
+## v1.195.6 — THE GHOST CONTENTS ROW ATE CLICKS
+
+Owner: after closing More, "those tabs remain there like ghosts … I can't click them either".
+`_paintRead` inserted the contents row into the head and nothing removed it on close: it stayed
+laid out beside the collapsed pill at opacity 1 (not even invisible — §6.1's trap in its loud
+form), and because each entry re-enables `pointer-events` inline under a row reset to `none`,
+it ATE clicks: `elementFromPoint` at an entry returned the entry and one mouse click ran
+`_navJump` (spy 0 → 1) against a `display:none` body — swallowed, nothing to show. `_readClear`
+DID reset the inner bar's transform on close; the stale-pin hypothesis was checked and ruled
+out. Fix: `_paintNav` is the one writer, called from `_paintRead` and `expandLandCard` in both
+directions, so close REMOVES the row and reopen restores it over the reused body. Gate:
+`landcard-more-content.spec.ts` "shutting the fold removes the contents row…", RED first (1 ≠
+0); mutants: no call → same red; remove-without-restore → "reopened … back" 0 ≠ 1. Full numbers:
+the commit message and `bjj-orchestrator/reports/more-fold-close.md`.
+
+## v1.195.7 — THE COLLAPSED MORE PILL, CENTRED AGAIN
+
+Owner: the collapsed More "seems to show too much to the right". v1.194.1's `margin-left:auto`
+on the close control also acted on the SHUT pill, the bar's lone child: measured +114px off
+centre at 390, +251 at 1440. Fix: the bars centre (`justify-content:center` in
+`NG_READ_BAR_CSS`), `_landMoreAlign` is the one writer of the margin ("auto" open, "0" shut,
+written not cleared), and reading.css's copy of the rule is deleted. Ordered AFTER v1.195.6,
+measured: with the ghost row still in the head the two centred together and the pill sat
+114 / 205px off after a close. Gate: "390px / 1440px: shut, the More pill is centred…";
+mutants: shut-state auto margin → 114 / 251; open writes "0" → 38.5px off the edge at 1440.
+That mutant SURVIVES at 390 (a 3-entry row already fills the bar there) — recorded in the spec.
+
+## v1.195.8 — THE PRESSED EXPLORE TAB IS THE WAY HOME
+
+Owner: "If I click the Explore tab even though it's open, it should go to the Explore root."
+`setViewMode` early-returns on the current tab by design (the transition seam), and the tab
+click called it directly, so a Principle, Learning entry or System owning the pane had no way
+home but ‹ Back. Fix: `_paneTabClick` decides at the click — pressed Explore → `_exploreHome`
+(clear the PAGE selection + search rail, re-list, beat `pane_tab_home`; a lit list survives —
+the first cut un-lit a saved shared class, caught by share-lists.spec.ts:640 in the full curated
+run); anything else → `setViewMode` unchanged (Challenges/History, swipe path). Starts
+nothing; leaves the address bar where ‹ Back does (declared, not covered). Gate:
+`concepts-surface.spec.ts` "clicking the pressed Explore tab returns a drilled Principle, then a
+System…", by mouse, RED first (1 ≠ 0); mutant: route the click back to `setViewMode` → same red.
+
+
+## v1.195.15 — Complete Learning reads integrated with the current readers
+
+Merged the three authored `fix-learning-too` commits onto dev `15d8dc456`, retaining the
+More fold's pinned contents head, its centered collapsed pill and close/reopen behavior,
+and the pressed Explore tab's return to the library root. Principles retain their previews,
+film study and disclosure state; Systems retain their connected video during hydration.
+Learning's 26 JSON-authored entries now carry their complete reading, optional assessment,
+sources and related pages, including the three guides migrated from Markdown-only sources.
+Opening a reference still starts no roll. `reference.css` is deferred for the reference
+pages; the More fold keeps its separate `reading.css`.
+
+Kept dev's payload policy and all accepted baselines and ceilings. The eager set measures
+331,429 B gzip, 861 B below its accepted 332,290 B checkpoint. The browser's pinned K-Guard
+first hand requests 13 resources: 1,622,527 B raw / 388,218 B gzip, with a 350,980 B core
+subtotal, +1,940 B against its 349,040 B checkpoint and 6,000 B delta cap. Both gzip metrics
+warn above their targets and pass. Against a fresh bundle from the pinned dev inputs, the
+JavaScript adds 1,043 B gzip while the eager CSS loses 2,140 B; reference styles cost 3,437 B
+only when requested. Both calibration joins reach 100%; JSON, graph, 320 unit tests, docs,
+the full build and 318 curated journeys pass. The docs budget file is unchanged, including
+the archive's 667,773-character ceiling and the already-raised 58,000 for Neural.md.
+
+
+## v1.195.16 — Restore Learning tag routes and classify the SEO ratchet
+
+The Learning complete-read merge reproduced ten SEO parity failures on `edc84a35b` (6,139 emitted HTML files). Source and built-article inspection distinguish one vanished route from nine editorial changes. The template now emits the required JSON tags as a quoted YAML list, preserving the three migrated beginner guides’ tag route. The focused regression test failed without tags and passed after the repair. No authored article prose or schema limits were changed.
+
+| # | Regression reproduced on edc84a35b | Classification | Evidence and disposition |
+|---|---|---|---|
+| 1 | `Learning.html: ldjson changed` | LEGITIMATE MOVE | Only `ItemList.itemListElement` changed: 23 → 26 entries, authored `display_title` labels, and the three migrated guides. Other hub schemas and head fields are identical. |
+| 2 | `Learning.html: 23 internal links REMOVED` | LEGITIMATE MOVE | All 23 removals are heading self-links; all 23 article page links remain. Every old heading has a new editorial heading and an unchanged destination (mapping below). The 29 additions are **26 heading anchors + 3 guide links**, not 29 replacement page links. |
+| 3 | `Learning/Asymmetric-Warfare.html: title changed` | LEGITIMATE MOVE | `display_title` = `Choose the exchange`, followed by the existing ` | BJJ Learning | BJJ Graph` suffix. Canonical remains `https://bjjgraph.org/Learning/Asymmetric-Warfare`. |
+| 4 | `Learning/Asymmetric-Warfare.html: ldjson changed` | LEGITIMATE MOVE | Article name/description use `display_title`/`description`; BreadcrumbList leaf name uses `display_title`; DefinedTerm uses `display_title`/`summary`; FAQPage uses the edited `knowledge_assessment` question/answer. All five schema types, including Organization, remain. |
+| 5 | `Learning/Asymmetric-Warfare.html: meta[description] changed` | LEGITIMATE MOVE | Exactly the authored JSON `description`, 164 characters; not a rendering fallback. |
+| 6 | `Learning/Asymmetric-Warfare.html: meta[og:description] changed` | LEGITIMATE MOVE | Exactly the same authored `description` as the standard meta description. |
+| 7 | `Learning/Asymmetric-Warfare.html: meta[og:title] changed` | LEGITIMATE MOVE | Exactly the authored `display_title` plus the existing title suffix, matching `<title>`. |
+| 8 | `Learning/Asymmetric-Warfare.html: crawlable text COLLAPSED (3,570 < 9,775; baseline 11,501)` | LEGITIMATE MOVE — measured correction to the brief's expected diagnosis | The source rewrite in `d07d9c95d` removed the old long-form prose. All 30 current body prose fragments are inside the built `<article>`; across all 26 Learning pages, 826/826 fragments are present. `docs/Content.md:337–353` and `docs/Neural.md:601` specify complete **edited** content with concise limits. No body is outside the article and no disclosure clips prose. Restoring 11,501 characters would undo the editorial rewrite or pad the page, not repair a template omission. Re-arm through `--update`, with this source evidence. |
+| 9 | `Learning/Asymmetric-Warfare.html: 4 internal links REMOVED` | LEGITIMATE MOVE | No section vanished: old heading self-links moved to the concise headings/overview listed below. All 11 non-fragment related page links remain. These were automatic heading permalinks from `gfm.ts`, **not an in-article ToC**; the brief's ToC hypothesis is not supported. |
+| 10 | `tags/beginner.html: MISSING` | REAL BREAK | The three migrated beginner guides retained JSON `tags` but lost their handwritten Markdown frontmatter. The old Learning template also omitted tags. Emit each authored tag as a JSON-quoted YAML flow-sequence entry; regenerate all Markdown. The schema already requires `tags`, so no schema change is needed. Retain the original `tags/beginner.html` baseline row. |
+
+All classifications derive from the unchanged-tree build and source history, rather than from the ratchet's labels alone. The measured result contradicts the initial hypothesis of a rendering omission.
+
+Leaf section correspondence:
+
+| Removed heading self-link | Current section and heading | Evidence |
+|---|---|---|
+| `#how-it-applies-in-bjj` | `#applications`, `#in-practice` | All three current scenarios, applications and outcomes present, including the disclosed example. |
+| `#related` | `#related`, `#related-reading` | The section ID `related` still resolves; its heading self-link changed. Eight related readings plus three technique links remain. |
+| `#training-exercises` | `#exercises`, `#try-it-in-training` | Both complete exercises present, including the disclosed exercise. |
+| `#what-is-asymmetric-warfare` | `#overview` | Complete edited summary and overview remain; the redundant question heading was removed. |
+
+The old heading IDs on the hub and three renamed leaf headings are not compatibility aliases: old external deep links may land at the page top. No article destination or section was deleted. The retained `#related` section is already compatible.
+
+| Removed heading anchor | New heading anchor | Crawlable article link |
+|---|---|---|
+| `#asymmetric-warfare` | `#choose-the-exchange` | `../Learning/Asymmetric-Warfare` (retained) |
+| `#committed-techniques` | `#attack-with-a-fallback` | `../Learning/Committed-Techniques` (retained) |
+| `#conscious-mastery` | `#know-what-you-are-looking-for` | `../Learning/Conscious-Mastery` (retained) |
+| `#defend-with-purpose` | `#give-your-defense-a-next-step` | `../Learning/Defend-With-Purpose` (retained) |
+| `#double-down-on-strengths` | `#build-around-a-reliable-game` | `../Learning/Double-Down-on-Strengths` (retained) |
+| `#economy-of-motion` | `#make-each-movement-count` | `../Learning/Economy-of-Motion` (retained) |
+| `#funneling` | `#narrow-their-options` | `../Learning/Funneling` (retained) |
+| `#investing-in-loss` | `#make-a-bad-round-useful` | `../Learning/Investing-in-Loss` (retained) |
+| `#layers-of-guard` | `#keep-a-barrier-between-you` | `../Learning/Layers-of-Guard` (retained) |
+| `#mask-your-intentions` | `#hide-the-next-attack` | `../Learning/Mask-Your-Intentions` (retained) |
+| `#path-of-least-resistance` | `#work-around-the-defense` | `../Learning/Path-of-Least-Resistance` (retained) |
+| `#pattern-interrupts` | `#change-the-rhythm` | `../Learning/Pattern-Interrupts` (retained) |
+| `#phases-of-guard` | `#know-what-your-guard-needs` | `../Learning/Phases-of-Guard` (retained) |
+| `#phases-of-passing` | `#finish-the-pass-you-started` | `../Learning/Phases-of-Passing` (retained) |
+| `#position-over-submission` | `#keep-control-while-you-attack` | `../Learning/Position-Over-Submission` (retained) |
+| `#predictable-responses` | `#read-the-response` | `../Learning/Predictable-Responses` (retained) |
+| `#prevention-over-cure` | `#notice-trouble-earlier` | `../Learning/Prevention-Over-Cure` (retained) |
+| `#probabilistic-thinking` | `#choose-with-the-downside-in-mind` | `../Learning/Probabilistic-Thinking` (retained) |
+| `#static-vs-dynamic-control` | `#hold-when-you-can-move-when-you-need-to` | `../Learning/Static-vs-Dynamic-Control` (retained) |
+| `#technique-chaining` | `#connect-your-attacks` | `../Learning/Technique-Chaining` (retained) |
+| `#timing-windows` | `#recognize-the-opening` | `../Learning/Timing-Windows` (retained) |
+| `#training-intensity` | `#choose-the-right-pace` | `../Learning/Training-Intensity` (retained) |
+| `#training-partner-diversity` | `#learn-from-different-partners` | `../Learning/Training-Partner-Diversity` (retained) |
+
+
+Full regeneration also exposed unrelated pre-existing output drift: 555 Markdown files
+(261 Positions, 242 Transitions, 46 Principles leaves, 5 Submissions, and the Principles hub).
+Related-System cards still carried older `guide.display_title` labels and relationship text;
+for example, Mount's “John Danaher: Kimura Branches” regenerated as “John Danaher: Kimura Control
+and Attacks”. The Principles hub's 62 descriptions also regenerated from newer concise JSON.
+These are source/output inconsistencies outside Learning, not incidental baseline noise. Their
+patch and the resulting SEO snapshot were retained for review; the unrelated generated files
+were restored from HEAD and the scoped Learning repair rebuilt before final gates. This change
+does not silently re-seed those other routes or commit hundreds of unrelated content updates.
+
+The broad regenerated build specifically made `Principles.html` fall from 11,335 to 8,715
+crawlable characters (floor 9,634). Six other sampled routes moved above their floors:
+Mount 16,469→15,752; Mount/Bottom 14,619→13,902; Mount/Top 14,578→13,861;
+Action and Reaction 10,175→10,133; Armbar from Back Transition 10,797→10,764;
+and its Attacker page 11,481→11,448. These seven baseline rows are retained unchanged in the
+scoped repair; a future full-corpus regeneration needs a separate editorial parity review.
+
+The scoped 6,211-page build restored `tags/beginner.html` with an unchanged baseline row.
+`python3 scripts/check_seo_parity.py --update` changed only `Learning.html` (length 4,438→4,995,
+floor 3,772→4,245; ItemList labels/inventory and heading links) and
+`Learning/Asymmetric-Warfare.html` (length 11,501→3,570, floor 9,775→3,034; authored editorial
+head/schema/body/link changes above). The latter measured 3,570 both before and after the tag
+repair; the complete current read was already inside `<article>`. The script's 0.85 ratio,
+whole-site guard, other 17 route rows and all gate code remain unchanged. SEO parity passed
+against the scoped build after this script-generated refresh.
+
+Final validation: SEO parity green on 19 sampled routes / 6,211 emitted HTML files; all six
+JSON categories valid; `CI=true npm run test:units` 320/320 with zero skips;
+CLAUDE.md budget/references green; payload budget green under unchanged limits (the existing
+soft eager-gzip target warning remains); 318/318 curated journeys in 16.1 minutes; and
+15/15 explicit Learning-related journeys in 20.1 seconds. The latter includes both delayed
+related-System navigations, executable-URL rejection, and direct arrivals at all three migrated
+guide URLs. No final spec failed or was weakened as stale. Nine Learning Python tests also
+passed. Full browser runs used a private port and the shared build lock; this is local evidence,
+not a claim that a remote CI/deploy ran.
+
+## v1.196.0 — Pane-aware gameplay layout
+
+The landing column now follows the choices into the pane's remaining space, keeping readable
+widths and painting overlap below the pane. Card, film, More and deck guides share its stacking
+context; paused/manual/leased cameras carry the same animated inset. Exposed controls retain
+pointer input while the pane owns keyboard shortcuts. Pane, More and replay transfer pause
+ownership on close.
+
+`pane-layout.spec.ts` pins measured reflow and overlap with authored film/More fixtures;
+`pane-camera.spec.ts` pins actual projected framing. Five integration mutants fail direct
+assertions: zero horizontal movement, zero camera inset, the card winning the phone overlap
+hit-test, early resume after pane-to-More handoff, and landing takeover of the pane's answer
+slot. The pane retains its suppression holder for keys; exposed pointers bypass only that holder.
+
+Finished on the original base as v1.189.0 (4f41a4ccc): 30 pane journeys, 283 units. Integrated
+onto dev v1.195.14 (15d8dc456), retaining its More-fold fixes, real git dates and payload policy:
+319 units, 30 pane journeys and all 326 curated cases pass; emit, full build, canon and payload
+gates pass. Boot bundles add 675 B gzip against an isolated build of that dev. Eager payload
+333,203 B gzip (+913 B vs policy baseline); first hand 389,764 B, core 352,526 B (+3,486 B).
+Both remain in the existing warning band, within their delta caps. Local evidence, not CI;
+external video playback, physical pinch/pan and owner visual acceptance remain unverified.
+
+Reintegrated on 2026-09-22 by merging dev v1.195.16 (8356cca78) into the existing pane
+integration, keeping v1.196.0. The complete Learning reader, deferred reference.css and restored
+tag routes are retained. Fresh emit, 320 units, canon, Quartz source check, full build, payload,
+30 pane journeys and all 332 curated cases pass; all five pane mutants still fail their named
+assertions. SEO parity passes on the 6,211-page build, with all measured fields identical across
+the 19 sampled routes and no baseline changes. Boot bundles add 675 B gzip against this dev;
+eager payload is 332,108 B (-182 B vs accepted baseline), first-hand core 351,666 B (+2,626 B).
+
+## v1.196.1 — The feedback modal loses its privacy hint, and closes over the hole
+
+Owner, 2026-09-24: remove "Please don't include personal information." from the feedback modal
+(`openFeedback`). Surveyed first: nothing else referenced the string, including no spec, the
+Forward mock, `content/terms.md` and `content/privacy.md`. The hint was the third of four children
+in a flex column with `gap:10px` (textarea, "about:" row, hint, Send), so the element is DELETED,
+not emptied or hidden. Measured by mutation: an emptied div leaves Send 20px below the "about:" row
+and a `visibility:hidden` one leaves it 31px below. Both are against the 10px control gap
+(textarea to "about:"). Gate: `e2e/journeys/feedback-modal.spec.ts` (`@curated`, 390 and 1440),
+which opens the modal from BOTH pane-foot entry points and pins the titles and placeholders
+verbatim. It asserts no "personal information" text and "Send one column gap below the control
+above it" as a differential, and it drives every control with `j.clickByMouse`: entry, textarea,
+checkbox, Send, close. It went RED first on the hint. Killed 8 of 9 mutants: hint restored, emptied,
+`visibility:hidden`, issue title changed, the card's pointerdown `stopPropagation` removed, the
+checkbox listener removed, the close listener removed, and `pointer-events:none` on the feedback
+row. The survivor is `display:none` on a re-added hint, which is invisible and outside the flow; it
+is recorded in the spec header. Added `data-feedback-title` and `data-feedback-close` as owned
+markers. The modal portals to the app root, outside the wrap that `attachInput` captures on, so it
+needs no early-return entry; the mouse journey is what keeps that true.
+
+## v1.196.2 — Invite graph improvements and record feedback session state
+
+The issue entry now reads "Help improve it", with "Help improve the graph" in the modal and
+"Reports like this decide what gets fixed next" after Send. Its placeholder asks what is wrong,
+missing or confusing and where it happened. The technique request copy and both event names stay
+the same. Both feedback events carry only a `signed_in` boolean in addition to their existing
+properties. Mouse journeys pin the copy, announcer, one-line issue entry at 390, and both boolean
+values through the existing session seam. The updated spec failed before implementation; eight
+mutants fail their named assertions. The Forward mock carries the same entry label.
+
+## v1.196.1 — THE SETTINGS TABS FIT THE PANEL, AND A SIXTH CANNOT BREAK THEM
+
+Owner, with a desktop screenshot: "settings doesnt have room for all tabs … and this is in
+desktop, not working right. i wonder if this will also work right on phone or tablet".
+`renderSettings` hand-built the row as five `<span>`s (`.t-fc .t-rl .t-md .t-nt .t-kb`), 22px apart,
+with five listeners, no overflow behaviour, and nothing focusable. Measured on the served bundle
+(the card is `min(440px,92vw)`, `overflow:hidden`):
+- at 768, 1024 and 1440, "Shortcuts" ran 22.5px past the content box and 0.5px past the card's
+  edge, which clips it;
+- at 390 it sat 81.7px OUTSIDE the card, invisible even while it was the active tab. That is
+  exactly what the account menu's "Keyboard shortcuts" row opens;
+- hit boxes were 28px tall.
+
+**Fix.** `NG_SETTINGS_TABS` is one list, and `_settingsTabRow` is one seam that owns:
+- a delegated click handler;
+- ←/→ that wrap, and Home/End, all stopping propagation so `_onKey` never pages the landing card
+  behind the modal;
+- focus on open, and focus kept across the rebuild after every change;
+- the row centred on the active tab at open, and a glide to it on a tab change;
+- a vertical wheel that scrolls an overflowing row sideways;
+- `data-fade`, re-derived on scroll, render and resize (by ONE app-lifetime ResizeObserver).
+
+The styles, `.ng-stabs` / `.ng-stab` in helmet.html, are the More fold's contents-row idiom (one
+row, horizontal scroll, `_navMark`'s centring), plus what that row lacks:
+- a 44px `<button>` around the old visual span;
+- `space-between`, so a row that fits is flush with the column;
+- a mask fade only on a side that hides a tab;
+- `role=tablist/tab/tabpanel` and a roving tabindex.
+
+The five fit at 440px (~18px gaps), and a phone scrolls. `.t-nt` and `.t-rl` in two journeys and
+`_owner_shoot.mjs` moved to `[data-settings-tab="…"]`.
+
+**Gate.** `settings-tabs.spec.ts` holds 9 `@curated` journeys. They were RED first against the old
+spans given tab semantics only, 8 of 8, and at 1440 the failure was
+`"Shortcuts" label [876.1, 940.5] inside the content box [523.0, 917.0]`. Mutation: 20 mutants,
+19 killed. The survivor is the inline `pointer-events:auto`, which is recorded in the spec header:
+the modal is portaled out of the wrap, so `attachInput` never sees it. Two harness lessons live in
+the spec's `settled`:
+- a scroll event lands on the next rendering frame, which can take >120ms under SwiftShader;
+- a smooth `scrollTo` held still for two frames before gliding.
+
+Payload: the eager set is 332,095 → 332,832 B gzip, +737 B against dev's own bundle and measured
+by `validate:payload` on one build tree (raw +1,590 B). That is +542 B against the accepted
+baseline, inside the 5,000 B cap.
+
+## v1.196.1 — The layer dock and the replay bar centre on the column, not the viewport
+
+Owner, 2026-09-23: "when i click close on some element like the flashcard/landcard after i
+opened/expanded the More container, i see the dock icons but they're not rightly centered since i
+have the left side panel open, so they should be centered like the rest." v1.196.0 moved the card,
+its stack, nav, More and the film to the measured centre of the space the pane leaves
+(`_paneLayout` → `_layoutLandHorizontal`, every frame). `_renderLayerDock` still wrote a literal
+`left:50%` into its `cssText`. Measured with a 360px pane: dock 720 vs card 900 at 1440, 512 vs
+692 at 1024, 400 vs 524 (film) at 800 — half a pane-width off. The survey of every other
+`left:50%` found one more member of the same bug: the replay bar, which already docks VERTICALLY
+where the card docks and is started from the pane's Last rolls tab, sat at 720 vs 900, and at 1024
+it overlapped the pane by 108px and painted over it (root plane, z:8; `elementFromPoint` returned
+the bar).
+
+Fix: both join `_layoutLandHorizontal` as the column's chrome and take its centre on every frame,
+which is what carries them through the pane's open and close animation (the close runs on the width
+`_paneLayout` retains after `display:none`) and through a resize. The dock's `cssText` no longer
+carries a `left`, and `_renderLayerDock` lays itself out once so its first frame is placed. In the
+short-landscape composition the deck column sits under an open pane, so there the chrome centres on
+the free area (the viewport's centre when the pane is shut, i.e. unchanged). All widths are read
+before any `left` is written. +169 B raw / +99 B gzip on neural.js.
+
+Not the same bug, reported and left: the announcer (`.ng-evtoast`, top, `left:50%`) is covered by
+the pane at ≤1024 (118px at 1024) and does not follow the node, but it is not column chrome and
+`rollCamTarget` reads its rect for the camera band; the option-detail sheet (`margin:0 auto`) and the
+state-choice preview (`left:50%`) are deliberate z:50 sheets; `.ng-combo-pop` cannot fire while the
+pane pauses the roll; the card/nav/stack/More/film `left:50%` are first-frame CSS the seam overwrites.
+Found on the phone and not touched: the v1.171.0 share-cue step-aside (−34px) avoids nothing
+today (the cue rides at bottom:84, above the dock's band) and puts the first glyph's 44px hit
+box 375 px² over the win bar.
+
+`e2e/journeys/layer-dock-centre.spec.ts`: 9 journeys (owner path at 1440/1024/800 including the
+no-member state, frame-by-frame open and close, resize, short landscape, replay at 1440/1024,
+phone with the cue); 7 red on the pre-fix bundle; 11 of 11 mutants killed by named assertions
+(table in the spec header).
+
+## v1.196.1 — THERE IS NO DEFAULT LIST
+
+Owner, 2026-09-23: *"abolish the 'default' list annotation, why is there a default in the first
+place? what's the mechanism? i mean we always select the list to add/favorite something to
+right?"* — yes, since v1.102.0; the annotation had outlived its reason by a year.
+
+**What the owner saw was a pseudo-element.** No `.css` file carried it: `neural/src/helmet.html`
+drew `.ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default"}`
+— 8.5px, uppercase, `rgb(126,138,163)` — after the picker's first row name. Measured on the
+HEAD bundle: first row `after: "default"`, `innerText: "Tuesday takedowns\n0"`. textContent and
+innerText cannot see it, which is why the old spec pinned the attribute and the new one reads
+`getComputedStyle(name, "::after").content`.
+
+**The mechanism.** `activeListId` — a persisted per-key LWW setting, "the list last created or
+filed into", repaired at load, at pull and on delete. Its readers: `targetList()` (the picker's
+first row and its `data-picker-default` stamp), the `listId || this.activeListId` fallback in
+`addToList` / `removeFromList` / `removeListItem`, and `activeList()` / `activeListHas()`, whose
+only caller was `toggleListItem()` ("Added to today’s list"). Since v1.101.9 `captureNode` opens
+the picker unconditionally and every app writer names its list (`pickList`, `createListWith`,
+`saveSharedList`, the expanded row's ×); `toggleListItem` had zero app callers and one spec. The
+v1.99.5 comment still described 0-list and 1-list ONE-TAP paths that no longer existed, and it
+misled the brief for this very change — it is now marked SUPERSEDED at the code.
+
+**Decision: retire it, don't rename it.** Read by nothing and written by nothing; the key stays
+dormant in old blobs (§6.6). The picker's rows are `listsArray()` — the Lists panel's own order,
+most recently touched first — and none is marked. `addToList` refuses a write with no list
+(`reason: "no_list"`); both removal paths refuse too. The toast names the list, always.
+`toggleListItem`, `activeList`, `activeListHas`, `targetList`, `_pickerOrder` are deleted.
+
+**The order had to become strict.** Recency is each list's `t`, stamped `Date.now()`, so two
+lists touched in one millisecond TIED and fell back to key-insertion order — oldest first. The
+RED run hit it on the existing premise: after seeding two lists in one evaluate, `listsArray()[0]`
+returned `…d1` (older) where `…d2` (newer) was expected. `_listStamp()` is never below the wall
+clock and always above every stamp held (a Lamport-style bump, which is also the causal answer
+under peer clock skew in `ngMergeLists`).
+
+**Behaviour that moved.** After a removal, a rename or a merge, the picker's first row is the
+list touched last — the panel's first row. After Undo of a delete, the list returns at its old
+recency, not first. Nothing else: `_openSharedListFromUrl`, `openListSession` and
+`saveSharedList` are untouched (the saved class leads recency exactly as it led `activeListId`).
+Boot bundle: JS −1,417 B raw / −287 B gzip, CSS −195 B / −33 B gzip.
+
+**Red-proof.** `lists-picker.spec.ts` test 6 (rewritten from "offers a default FIRST") and test
+1/2 carry it. Nine mutants, nine kills: picker in key-insertion order (T6+T1), alphabetical
+(T6), creation-order newest-first (T6, the "order follows use" half), non-strict stamp (T6,
+frozen-clock seed), marker attribute restored (T6+T1), chip restored by CSS alone with no
+attribute (T6, the `::after` read), `addToList` fallback (T6), `removeListItem` fallback (T6),
+"today’s list" removal toast (T2).
+
+**Gates (local, 1 worker, private port).** 320 units; `@curated` 330/332, whose two reds were
+`learning-static` reading a stale page copy in the harness, re-run green on a same-commit build;
+`validate:payload` OK with the eager set −495 B gzip against its baseline; `validate:surfaces`,
+`validate:forward`, `validate:claudemd` OK. Noticed on the way, not caused here:
+`share-lists.spec.ts` "the + works at 390px inside the drawer" went red 3 times inside long
+sequential runs and 0 of 20 times isolated on either the HEAD or the new bundle — an unexplained
+timing flake, not a gate (it is not `@curated`); and two emits of one commit write
+`curriculum.json`'s `scoreWeightsByRuleset` with tied entries in a different order
+(mapping-equal), so its bytes can move with no content change.
+
+## v1.196.1 — YOUR LISTS FOLDS LIKE ITS NEIGHBOURS
+
+Owner, 2026-09-23: "fix Your lists being collapsed pls … like other categories where it's collapsed
+by default unless we expand it." Explore's six category sections had folded through the persisted
+`exploreOpenSections` map since v1.99.3. `renderLists` built its header outside that map, so Your
+lists was always open.
+
+It now folds through the same map under the key `Your lists` (`NG_LISTS_SECTION`), and its toggle
+wears the same handle (`data-explore-section`, `aria-expanded`, plus `aria-controls` on the new
+`[data-lists-body]`). An absent key is closed, so existing users get the fold with no migration and
+nothing written at boot. The toggle is a real button (label + count); the + stays live on the
+folded header with its 44px box untouched. The caret sits outside the button, since a button may
+not hold the + button, and the row forwards any press but the + to the toggle. `margin-right:-8px`
+on the + puts that caret in the other headers' caret column (measured x 326–335, same for all
+three). `(0)` still shows at zero. A received class and a live undo render above the header,
+outside the fold. `_toggleExploreSection` now hands focus back to any header that held it (all
+seven, `preventScroll`), so Enter and Space work twice in a row.
+
+THE TENSION. The older rule (v1.99.4) — "I should be able to see the listed techniques after adding
+under Your lists" — was met by `_expandList` opening the list you added to, which shows nothing
+inside a shut section. Resolved with a SESSION reveal, `_revealLists` / `_listsRevealed`. These
+open the section for the rest of the session: making, adding to or restoring a list (all
+`_expandList`), a saved-class share arrival (`_offerShare` opens the pane precisely so "the list is
+read first"), and both halves of the share cue. The reveal never writes the map; a header press
+clears it and persists; the next add reveals again. The rejected alternative is in Index C. A
+`focusList` reveal was written, found unreachable (its one caller is a row inside an open section)
+and deleted.
+
+`lists-section-fold.spec.ts`: 7 journeys, 3 `@curated`. Against the pre-change bundle all 7 fail,
+but on the missing handle alone, so the behaviour is proved by 21 mutants, all killed; the table
+is in the spec header. M4 (the reveal written to the map) dies at a reload premise rather than at
+its own "wrote nothing" line. Four existing specs follow the fold: two `share-lists` reads of the
+empty line, `lists-rename`'s inert blur click (the head is a control now) and gallery shot,
+`lists-disclosure`'s reload step. `explore-sections` now lists seven sections.
+
+`neural.js` +1,746 B raw, +414 B gzip-9; CSS unchanged. Not covered: the reveal on a phone, the
+Undo path's reveal (rides the M3 seam, no journey restores a list), and the `forward/` catalog
+mock, which still prints the header without `(0)` and has no parity gate.
+
+## v1.197.0 — THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH
+
+Owner, 2026-09-23: "when we click to play / roll from a technique we found in the side bar it says
+we start on top, but what if i wanted to start on bottom?" `confirmPlayFrom` — the sheet behind an
+Explore/list ▶, the option sheet's "Play from here" and a Last-rolls ▶ — DECIDED the seat (the
+technique's `fromRole`, flipped by the global `_perspective`; a position's title-derived side,
+which is the constant `top` — all 266 position members on the wire carry a "… Top" title, the
+BOTTOM member included) and printed it inside the title: "Roll from Half Guard, attacking?" /
+"…with you on the top." No per-roll way to take the other side existed.
+
+Now: "Roll from Half Guard?" · "PLAY AS [Attacker | Defender]" (technique) or "[Top | Bottom]"
+(position), the derived seat preselected, a hint for a technique — "You play Knee Slice Pass." /
+"You defend against Knee Slice Pass — the other side of the same position." — and the body's side
+word follows the choice. Start passes an explicit role; `_seatMember` (now also the one answer
+inside `techniqueOrigin`, §6.5) seats you on the orb that plays it, so the URL reads
+`/Positions/Half-Guard/Bottom` and a reload re-seats you — before, a defender-perspective roll sat
+on the TOP member at `/Positions/Half-Guard`. Positions read their side from the member's `role`;
+`roleLabelOf` survives only for the pre-split graph.
+
+Three defects found on the way, all fixed and pinned: (1) Esc did nothing to this sheet — it had
+no rung on the ladder; it is now first, and returns so the pane does not close in the same press.
+(2) ⏎ with the sheet open over the option sheet reached the window ladder's ⏎/X branch and
+COMMITTED the move underneath (measured on the old bundle, `commit` 0 → 1); the sheet now owns its
+keys (everything but Esc stops at it) and takes focus on open, returning it to the ▶ on close.
+(3) `close()` set `opacity:0` and removed the node 160ms later with no transition declared — an
+invisible z:95 scrim (§6.1), and a sheet reopened inside that window was the second `.ng-cf-yes`
+under the dead one's box (found by `clickByMouse`); it is removed at once.
+
+Entry points: covered by the one sheet — Explore/list rows, "Play from here", Last rolls. Left
+alone deliberately — a graph tap (the pair's two orbs ARE the seat), the search modal (positions
+already carry "Play as Bottom/Top"; techniques there have no play control), the in-roll log's
+▶ (replays the recorded side without a sheet), URL arrivals (`/…/Bottom`, `/…/Defender` name the
+seat). The landing card has had no play control since v1.132.0; `dsRoll` is dead code (§6.8).
+
+Gate: `e2e/journeys/roll-seat-choice.spec.ts`, 6 journeys (3 `@curated`), RED on the old bundle
+(all six), every control by `clickByMouse`, every gameplay rng tag rigged. Fixtures chosen so the
+fall-through to `top` kills both headline journeys: Knee Slice Pass (top-authored, Defender =
+bottom) and Deep Half Entry (bottom-authored). 19 mutants: 17 killed; non-kills M4b (role dropped
+alone — equivalent on the paired graph, the member carries the side) and M17 (sheets stacking — no
+UI path reaches it). Table in the spec header. Payload: `neural.js` +2,911 B raw, +838 B gzip;
+eager 332,117 → 332,955 B (5,000 B delta cap), measured against a HEAD-source build of the same
+tree.
+
+## Integrated Roll documentation consolidation (v1.198.0 candidate)
+
+Unpublished integration housekeeping: the current behavior spec is condensed without changing its contracts. The replaced explanatory passages below preserve their historical rationale. No gate ceiling was increased.
+
+### The option sheet preserves the inspected card's anatomy
+
+The sheet head keeps the option card's EXACT anatomy — the numbered category glyph (the tray
+digit rides along via `catGlyph`), the category word whispering at 10px/.05em, EDGE — and the
+technique's OWN name as the 27px title (`splitName().main` + the `from …` qualifier line). The
+from→to decomposition is deleted ("it should definitely not be decomposed into this made-up
+title", owner). The EDGE explainer paragraph became a `title` tooltip on the number itself
+(`cursor:help`; aria-label shrank to the NAME per the title-is-the-description convention; the
+by-the-book-opponent caveat rides inside — canon for any EDGE copy). The "on success, advances
+to" line stays gated on `titleParts` being null: `opt.res` is a deal-time first-neighbor
+heuristic, measured wrong for 188 of 323 "X to Y"-named transitions when that gate was briefly
+widened. **The sheet is PORTALLED to the root plane at z:50 (coaching band)** — it was
+`absolute z:6` inside the wrap, trapped at plane 0 under the root-plane landing card (§6.1's
+ladder trap, caught by an adversarial pass before shipping) — and **the landing card is no
+longer hidden on expand**: it stays visible BEHIND the sheet (the old opacity hide-site, §6.1's
+last leaky one, is deleted outright). Paint order is asserted with `elementFromPoint`, never
+z-index arithmetic. Pinned by `option-edge.spec.ts` + `coldstart-backfill.spec.ts`.
+
+
+### The turn-based shell (v1.134.0)
+
+**The transport is retired.** With the hesitation branch gone nothing ever advances without a
+commit, so play/pause/restart controlled nothing — the buttons are deleted, Space no longer
+toggles anything (the Shortcuts tab row went with it), the Last-rolls CURRENT row lost its
+pause/resume toggle (archived rows keep "roll from here"; the live row carries no button), and
+`setPaused` survives only as internal MOTION state (staging pauses,
+committing unpauses; the pane law still freezes travel). **The background ladder** (owner):
+click empty sky once — the card closes (question declined, free) and the hand stays; click again
+— **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
+centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
+roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
+✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
+accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
+`_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
+PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
+to the pair label that already names it. **The escaping orb rushes on click**: arriving on (or
+clicking) the defending side enters the defense immediately — vignette, drill clock, escape
+hand — with the stale landing card declined and cleared first. The Win–Lose meter reads
+**Win (blue) left · Lose (red) right** (the writer mirrors `adv.cur`; the model is untouched),
+and the option-card category tracking dropped to .05em so SUBMISSION never truncates.
+
+
+---
+
+
+Historical roll-history regression note moved from the behavior spec:
+
+Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
+ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
+tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
+
+## v1.198.2–3 — A LATE PAYLOAD NO LONGER EATS A CLICK
+
+PR #217's three red shards. **4/4** (`Your lists(0)+` at 390px) was an app defect: systems.json,
+concepts.json and the alias index each rebuild Explore when they land; a rebuild between mouse
+down and up leaves no common target, so no click fires. Measured with the payload held and
+landed mid-press: touch survived, mouse lost the list. `_afterPress` holds those repaints until
+release + one task. CI still went red: "Loading aliases…" sat above Your lists and its removal
+lifted the + 30px between measure and press. It now renders at the tree's foot. **1/4**: the countdown journey's start was unrigged, and from Front Headlock
+its ruleset-blind picker chose masked Guillotine Control; start pinned, picker filtered. **3/4**:
+Playwright's PR-event git diff capture ran `git fetch <base> --depth=1` in the repo, shallowing
+it under the publication oracle; `captureGitInfo.diff` is off.
+
+## v1.204.3 — THE BOOT WIRE STOPS SPELLING NAMES
+
+The deck manifest (format 4) and curriculum's score table key by share ordinal;
+`neural/src/wire-keys.src.js` derives the names. On the post-cutover engine (keyless build of
+6469abc49 + this change, before = dev's own emit swapped into the same tree): first-hand core
+355,018 → 334,074 (−20,944), eager 335,456 → 314,744 (−20,712); both baselines re-accepted there.
+Old vs new ingest is bit-identical (`tests/artifacts/_wire_keys_differential.mjs`); 20/20 mutants in
+`neural_wire_keys.test.mjs`. Score ties rank the shipped integers, name as tiebreak: byte-equal
+across seeds (`_emit_determinism.sh`); dev's `curriculum_order.test.mjs` is ported to the ordinal wire.

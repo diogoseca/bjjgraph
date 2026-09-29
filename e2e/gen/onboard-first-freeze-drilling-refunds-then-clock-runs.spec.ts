@@ -85,7 +85,7 @@ test("day-1 post-coach: clock drains, one JIT grade refunds >=2s (granted:true),
 
   // ── CLAIM 2: open the expand sheet, drill ONE card, and the grade refunds >=2s + a granted beat. ──
   const options = await j.optionTitles()
-  await page.locator(`[data-tech="${options[0]}"]`).first().click()
+  await page.locator(`[data-tech="${options[0]}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]"), "in-sheet JIT micro-drill visible").toBeVisible()
 
   const r0 = await remaining()

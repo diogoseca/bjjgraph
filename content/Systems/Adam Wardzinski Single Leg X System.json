@@ -1,7 +1,5 @@
 {
   "name": "Adam Wardzinski Single Leg X System",
-  "description": "Build a gi single leg X study plan with Adam Wardzinski course guidance, butterfly entries, sleeve-control choices, sweep directions, and top-position follow-up.",
-  "summary": "The Adam Wardzinski Single Leg X System is an independent BJJGraph guide to single leg x-guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
   "tags": [
     "bjj",
     "system",
@@ -10,237 +8,134 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Intermediate",
-  "overview": "Single leg X isolates a leg while the bottom player works underneath the hips. In the gi, sleeve and fabric connections can change the opponent's ability to post or retreat. The practical challenge is matching the sweep direction to the available grip, then arriving on top without losing the leg connection too early.\n\nThis gi-focused course includes butterfly and shin-to-shin entries, sleeve-assisted sweeps, technical stand-ups, and counters. The guide prioritizes entries and sweeping; its submission material requires separate technique and ruleset study. Single Leg X Reimagined by Adam Wardzinski is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
-  "key_principles": [
-    "Make a leg connection before trying to unbalance the hips.",
-    "Understand what the selected sleeve grip prevents.",
-    "Match the direction to the opponent's available post.",
-    "Keep the standing leg under observation as the opponent changes base.",
-    "Follow a sweep into a balanced top position.",
-    "Treat gi grips as part of the technique rather than an optional detail."
-  ],
-  "key_components": [
-    {
-      "component_name": "Entry bridge",
-      "description": "Connect a familiar butterfly or shin-to-shin start to a controlled single leg X position.",
-      "purpose": "Build an entry that belongs to your existing guard game."
-    },
-    {
-      "component_name": "Grip-dependent control",
-      "description": "Compare a sleeve-assisted configuration with the same lower-body position without that grip.",
-      "purpose": "Identify what stops a post or retreat."
-    },
-    {
-      "component_name": "Directional off-balancing",
-      "description": "Observe how the opponent widens or changes stance as you test a small, controlled disturbance.",
-      "purpose": "Choose the sweep from the base you actually see."
-    },
-    {
-      "component_name": "Top-position follow-up",
-      "description": "Continue the reversal until the legs are organized and your balance survives a light recovery attempt.",
-      "purpose": "Keep the sweep connected to a usable top game."
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Enter from a familiar guard",
-      "description": "Choose butterfly or shin-to-shin and rehearse arriving at single leg X without beginning a submission."
-    },
-    {
-      "step_number": 2,
-      "phase": "Test the grip",
-      "description": "Pause and explain which arm or retreating movement the selected fabric connection controls."
-    },
-    {
-      "step_number": 3,
-      "phase": "Observe the post",
-      "description": "Let the partner defend a gentle off-balance and identify the support they used."
-    },
-    {
-      "step_number": 4,
-      "phase": "Select the direction",
-      "description": "Practise one coached sweep whose grip and direction match that defensive response."
-    },
-    {
-      "step_number": 5,
-      "phase": "Finish on top",
-      "description": "Maintain useful contact while coming up and stabilize before the partner starts the next exchange."
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "The guard is entered but the hips remain too far away.",
-      "solution": "Return to the entry connection and inspect distance before adding a stronger sweep."
-    },
-    {
-      "obstacle": "A sleeve-dependent sweep is attempted without the sleeve.",
-      "solution": "Compare the available posts and choose the appropriate grip or a different direction."
-    },
-    {
-      "obstacle": "The opponent steps freely as the attacker follows a preset motion.",
-      "solution": "Use a pause-and-read drill to identify the new stance before continuing."
-    },
-    {
-      "obstacle": "The sweep reverses position but exposes an immediate counter.",
-      "solution": "Practise the final coming-up stage with controlled resistance separately."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Entry quality",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Arrives with a usable leg connection",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    },
-    {
-      "metric_name": "Grip awareness",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Explains which post the sleeve grip limits",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    },
-    {
-      "metric_name": "Directional choice",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Adapts when the opponent changes stance",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    },
-    {
-      "metric_name": "Sweep completion",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Stabilizes top before releasing useful contact",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "BJJGraph practice plan: Use the same single leg X start with and without the selected sleeve grip. Ask the partner to post normally and compare which sweeping direction remains available. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
-    "progression_path": [
-      {
-        "stage": "Enter from a familiar guard",
-        "focus": "Choose butterfly or shin-to-shin and rehearse arriving at single leg X without beginning a submission."
-      },
-      {
-        "stage": "Test the grip",
-        "focus": "Pause and explain which arm or retreating movement the selected fabric connection controls."
-      },
-      {
-        "stage": "Observe the post",
-        "focus": "Let the partner defend a gentle off-balance and identify the support they used."
-      },
-      {
-        "stage": "Select the direction",
-        "focus": "Practise one coached sweep whose grip and direction match that defensive response."
-      }
-    ],
-    "common_mistakes": [
-      "The guard is entered but the hips remain too far away.",
-      "A sleeve-dependent sweep is attempted without the sleeve.",
-      "The opponent steps freely as the attacker follows a preset motion."
-    ]
-  },
   "related_content": [
     {
       "name": "Single Leg X-Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing single leg x-guard entries, controls, or recovery destinations."
+      "relationship": "Single Leg X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing single leg x-guard entries, controls, or recovery destinations."
+      "relationship": "Butterfly Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Shin-to-Shin Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing single leg x-guard entries, controls, or recovery destinations."
+      "relationship": "Shin-to-Shin Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing single leg x-guard entries, controls, or recovery destinations."
+      "relationship": "X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing single leg x-guard entries, controls, or recovery destinations."
+      "relationship": "De La Riva Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Open Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing single leg x-guard entries, controls, or recovery destinations."
+      "relationship": "Open Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Structures that preserve space during the guard exchange."
+      "relationship": "Frames: related principle study, separate from the source syllabus."
     },
     {
       "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Spacing behind the entry and recovery decisions."
+      "relationship": "Distance Control: related principle study, separate from the source syllabus."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Support to observe before selecting a sweep or coming up."
+      "relationship": "Base: related principle study, separate from the source syllabus."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Connections that give the chosen movement its purpose."
+      "relationship": "Grips: related principle study, separate from the source syllabus."
+    },
+    {
+      "name": "Marcelo Garcia X-Guard System",
+      "content_type": "System",
+      "relationship": "Compare single-leg-X emphasis with a wider X-guard entry and finish collection."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What does a sleeve grip add to single leg X practice?",
-      "answer": "It can change the opponent's ability to post or retreat, so the chosen sweep must account for that upper-body connection."
+  "summary": "Single Leg X Reimagined develops gi entries, sweeps and submissions with Adam Wardzinski.",
+  "description": "A gi single-leg-X course with butterfly and shin-to-shin entries, fabric-grip sweeps and passing counters.",
+  "overview": "Adam Wardzinski’s Single Leg X Reimagined connects butterfly, shin-to-shin and De La Riva entries to sweeping and submission options. Sleeve and lapel variations give it a distinct gi emphasis. The four volumes also cover technical stand-ups, back takes and responses to long-step and pressure passing.",
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Adam Wardzinski: Single Leg X in the Gi",
+    "audience": {
+      "fits": [
+        "You want single-leg-X offense adapted to gi grips, including sleeve and lapel sweep variations."
+      ],
+      "consider_alternative_if": []
     },
-    {
-      "question": "Why compare the same position without the sleeve grip?",
-      "answer": "The comparison shows which defensive support the grip removes and prevents copying a sweep without its required control."
+    "coverage": {
+      "includes": [
+        "Entries from butterfly, shin-to-shin and De La Riva; scissor, hook and overhead sweeps.",
+        "Technical stand-ups, back takes, foot locks and counters to pulling and passing."
+      ],
+      "limits": [
+        "Several attacks depend on fabric grips, so this is not an exclusively no-gi single-leg-X course."
+      ]
     },
-    {
-      "question": "What should you read when the opponent changes stance?",
-      "answer": "Observe the supporting foot and available posts before deciding whether the original sweeping direction is still useful."
+    "sources": [
+      {
+        "id": "wardzinski-slx-listing",
+        "url": "https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski",
+        "title": "Single Leg X Reimagined by Adam Wardzinski",
+        "kind": "official_listing",
+        "checked_on": "2026-09-19",
+        "note": "Verified gi focus, entry families, sleeve/lapel sweep sections, stand-up and counter material. Listing and official sample iframe inspected; player content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
+      },
+      {
+        "id": "garcia-xguard-listing",
+        "url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
+        "title": "The Marcelo X Guard by Marcelo Garcia",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed."
+      }
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/50ac3979-54df-46bc-a886-fb9cd0e0769d?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "wardzinski-slx-listing",
+      "title": "Official course introduction — Single Leg X Reimagined by Adam Wardzinski",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
     },
-    {
-      "question": "Why connect the entry to butterfly or shin-to-shin?",
-      "answer": "A familiar starting guard gives the entry a repeatable context and reveals where connection is lost during the transition."
-    },
-    {
-      "question": "When should useful leg contact be released after a sweep?",
-      "answer": "Keep the relevant connection until your top position is balanced and organized rather than releasing it as soon as the opponent falls."
-    },
-    {
-      "question": "Does a gi-focused course make every submission legal in every match?",
-      "answer": "No. Study the finishing technique separately and check the permitted techniques for the specific training session or competition."
-    }
-  ],
+    "alternatives": [
+      {
+        "system": "Marcelo Garcia X-Guard System",
+        "reason": "Choose Garcia for a course centered on full X guard, with a larger entry collection and a dedicated sweep volume."
+      }
+    ]
+  },
   "products": [
     {
       "id": "single-leg-x-reimagined-by-adam-wardzinski",
       "title": "Single Leg X Reimagined",
       "instructor": "Adam Wardzinski",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "This gi-focused course includes butterfly and shin-to-shin entries, sleeve-assisted sweeps, technical stand-ups, and counters. The guide prioritizes entries and sweeping; its submission material requires separate technique and ruleset study.",
-      "best_for": "Gi guard players with basic positional familiarity who want to study single leg x-guard. This is a focused companion rather than a complete beginner curriculum.",
-      "study_focus": "Choose a butterfly or shin-to-shin entry in volume one, compare the sleeve-assisted sweeps in volume two, then review the technical stand-up material in volume three.",
-      "practice_tip": "BJJGraph drill: Use the same single leg X start with and without the selected sleeve grip. Ask the partner to post normally and compare which sweeping direction remains available."
+      "link_checked": "2026-09-16",
+      "blurb": "Four volumes of gi single-leg-X entries, offense and counters.",
+      "best_for": "You want single-leg-X offense adapted to gi grips, including sleeve and lapel sweep variations.",
+      "image": "https://bjjfanatics.com/cdn/shop/products/AdamWardzinksi_SingleLegXReimaginedFront.jpg?v=1762460037"
     }
-  ]
+  ],
+  "flashcards": []
 }

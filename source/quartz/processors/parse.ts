@@ -1,4 +1,3 @@
-import esbuild from "esbuild"
 import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
 import { Processor, unified } from "unified"
@@ -7,31 +6,46 @@ import { Root as HTMLRoot } from "hast"
 import { ProcessedContent } from "../plugins/vfile"
 import { PerfTimer } from "../util/perf"
 import { read } from "to-vfile"
-import { FilePath, QUARTZ, slugifyFilePath } from "../util/path"
+import { FilePath, slugifyFilePath } from "../util/path"
 import path from "path"
-import workerpool, { Promise as WorkerPromise } from "workerpool"
 import { QuartzLogger } from "../util/log"
-import { trace } from "../util/trace"
+import { VFile } from "vfile"
+import { runWorkerTasks, workerCount } from "./workerPool"
 import { BuildCtx } from "../util/ctx"
+import { gitDateMaps } from "../util/publication"
+import type { ParseObserver, ParseObserverReceipt } from "./parseObserver"
 
 export type QuartzProcessor = Processor<MDRoot, MDRoot, HTMLRoot>
-export function createProcessor(ctx: BuildCtx): QuartzProcessor {
+export function createProcessor(ctx: BuildCtx, observer?: ParseObserver): QuartzProcessor {
   const transformers = ctx.cfg.plugins.transformers
 
   return (
     unified()
       // base Markdown -> MD AST
       .use(remarkParse)
+      // D-57: register EVERY markdown plugin before processor.parse(), below. Some
+      // (remarkFrontmatter) extend tokenization; post-parse registration treats YAML as body.
       // MD AST -> MD AST transforms
       .use(
         transformers
           .filter((p) => p.markdownPlugins)
-          .flatMap((plugin) => plugin.markdownPlugins!(ctx)),
+          .flatMap((plugin) => [
+            ...plugin.markdownPlugins!(ctx),
+            ...(observer ? [observer.after("markdown", plugin.name)] : []),
+          ]),
       )
       // MD AST -> HTML AST
       .use(remarkRehype, { allowDangerousHtml: true })
+      .use(observer ? [observer.after("bridge", "remark-rehype")] : [])
       // HTML AST -> HTML AST transforms
-      .use(transformers.filter((p) => p.htmlPlugins).flatMap((plugin) => plugin.htmlPlugins!(ctx)))
+      .use(
+        transformers
+          .filter((p) => p.htmlPlugins)
+          .flatMap((plugin) => [
+            ...plugin.htmlPlugins!(ctx),
+            ...(observer ? [observer.after("html", plugin.name)] : []),
+          ]),
+      )
   )
 }
 
@@ -41,44 +55,14 @@ function* chunks<T>(arr: T[], n: number) {
   }
 }
 
-async function transpileWorkerScript() {
-  // transpile worker script
-  const cacheFile = "./.quartz-cache/transpiled-worker.mjs"
-  const fp = "./quartz/worker.ts"
-  return esbuild.build({
-    entryPoints: [fp],
-    outfile: path.join(QUARTZ, cacheFile),
-    bundle: true,
-    keepNames: true,
-    platform: "node",
-    format: "esm",
-    packages: "external",
-    sourcemap: true,
-    sourcesContent: false,
-    plugins: [
-      {
-        name: "css-and-scripts-as-text",
-        setup(build) {
-          build.onLoad({ filter: /\.scss$/ }, (_) => ({
-            contents: "",
-            loader: "text",
-          }))
-          build.onLoad({ filter: /\.inline\.(ts|js)$/ }, (_) => ({
-            contents: "",
-            loader: "text",
-          }))
-        },
-      },
-    ],
-  })
-}
-
-export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
+export function createFileParser(ctx: BuildCtx, fps: FilePath[], observer?: ParseObserver) {
   const { argv, cfg } = ctx
   return async (processor: QuartzProcessor) => {
     const res: ProcessedContent[] = []
     for (const fp of fps) {
+      let observedComplete = false
       try {
+        observer?.begin(fp)
         const perf = new PerfTimer()
         const file = await read(fp)
 
@@ -88,6 +72,7 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         // Text -> Text transforms
         for (const plugin of cfg.plugins.transformers.filter((p) => p.textTransform)) {
           file.value = plugin.textTransform!(ctx, file.value.toString())
+          observer?.text(plugin.name, file.value)
         }
 
         // base data properties that plugins may use
@@ -96,14 +81,18 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         file.data.slug = slugifyFilePath(file.data.relativePath)
 
         const ast = processor.parse(file)
+        observer?.parsed(ast, file)
         const newAst = await processor.run(ast, file)
         res.push([newAst, file])
+        observedComplete = true
 
         if (argv.verbose) {
           console.log(`[process] ${fp} -> ${file.data.slug} (${perf.timeSince()})`)
         }
       } catch (err) {
-        trace(`\nFailed to process \`${fp}\``, err as Error)
+        throw new Error(`Failed to process \`${fp}\``, { cause: err })
+      } finally {
+        observer?.end(observedComplete)
       }
     }
 
@@ -111,50 +100,83 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
   }
 }
 
-const clamp = (num: number, min: number, max: number) =>
-  Math.min(Math.max(Math.round(num), min), max)
+/** Rehydrate VFile methods after native structured cloning; preserve AST/Data aliases and Dates. */
+export function restoreContent(content: ProcessedContent[]): ProcessedContent[] {
+  return content.map(([tree, file]) => [tree, new VFile(file)])
+}
+
 export async function parseMarkdown(ctx: BuildCtx, fps: FilePath[]): Promise<ProcessedContent[]> {
-  const { argv } = ctx
   const perf = new PerfTimer()
-  const log = new QuartzLogger(argv.verbose)
-
-  // rough heuristics: 128 gives enough time for v8 to JIT and optimize parsing code paths
-  const CHUNK_SIZE = 128
-  const concurrency = ctx.argv.concurrency ?? clamp(fps.length / CHUNK_SIZE, 1, 4)
-
-  let res: ProcessedContent[] = []
-  log.start(`Parsing input files using ${concurrency} threads`)
-  if (concurrency === 1) {
-    try {
-      const processor = createProcessor(ctx)
-      const parse = createFileParser(ctx, fps)
-      res = await parse(processor)
-    } catch (error) {
-      log.end()
-      throw error
+  const log = new QuartzLogger(ctx.argv.verbose)
+  // D-17/D-24: default = clamp(round(files/128), 1, 4), exactly as before. Deploy omits
+  // --concurrency while root build passes 4; on this corpus both must select workers.
+  // Explicit 1 uses the MAIN resource loader; workers use D-22's empty-text loader.
+  const concurrency = workerCount(ctx.argv, fps.length)
+  console.log(
+    `[parse] path=${concurrency === 1 ? "main" : "workers"} concurrency=${concurrency} files=${fps.length}`,
+  )
+  log.start(`Parsing input files`)
+  let summary: string | undefined
+  try {
+    // Disabled observers do not load the writer, inspect inputs, or touch capture storage.
+    const observation = process.env.BJJ_PARSE_OBSERVER ? await import("./parseObserver") : undefined
+    const size = Math.max(1, Math.min(128, Math.ceil(fps.length / concurrency)))
+    const observerInit = observation?.prepareParseObserver(
+      ctx,
+      concurrency,
+      concurrency === 1 ? fps.length : size,
+    )
+    const receipts: ParseObserverReceipt[] = []
+    // X-01: collect once on the host for both paths (including rebuilds). Repeating
+    // history walks in workers reintroduces per-worker Git contention (D-197).
+    if (ctx.cfg.plugins.transformers.some((plugin) => plugin.name === "CreatedModifiedDate")) {
+      const dates = await gitDateMaps(path.resolve(ctx.argv.directory))
+      ctx.gitPublicationDates = dates.published
+      ctx.gitModifiedDates = dates.modified
+      // D-237: programme Git dates include merge resolutions. Lastmod's frozen
+      // true flags request NATIVE fallback, so send an empty exception map on both
+      // main/worker paths. Keep the collector's raw merge provenance unchanged.
+      ctx.gitModifiedDatesFromMerge = {}
     }
-  } else {
-    await transpileWorkerScript()
-    const pool = workerpool.pool("./quartz/bootstrap-worker.mjs", {
-      minWorkers: "max",
-      maxWorkers: concurrency,
-      workerType: "thread",
-    })
-
-    const childPromises: WorkerPromise<ProcessedContent[]>[] = []
-    for (const chunk of chunks(fps, CHUNK_SIZE)) {
-      childPromises.push(pool.exec("parseFiles", [ctx.buildId, argv, chunk, ctx.allSlugs]))
+    let result: ProcessedContent[]
+    if (concurrency === 1) {
+      const observer = observerInit
+        ? await observation!.createParseObserver(ctx, observerInit, "main")
+        : undefined
+      result = await createFileParser(ctx, fps, observer)(createProcessor(ctx, observer))
+      if (observer) receipts.push(observer.finish())
+    } else {
+      const groups = [...chunks(fps, size)]
+      const results = await runWorkerTasks<ProcessedContent[]>(
+        {
+          phase: "parse",
+          observer: observerInit,
+          buildId: ctx.buildId,
+          argv: ctx.argv,
+          allSlugs: ctx.allSlugs,
+          gitPublicationDates: ctx.gitPublicationDates,
+          gitModifiedDates: ctx.gitModifiedDates,
+          gitModifiedDatesFromMerge: ctx.gitModifiedDatesFromMerge,
+        },
+        groups,
+        concurrency,
+        observerInit
+          ? (receipt, id) => {
+              observation!.assertParseReceipt(observerInit, receipt!, groups[id].length)
+              receipts.push(receipt!)
+            }
+          : undefined,
+      )
+      result = restoreContent(results.flat())
     }
-
-    const results: ProcessedContent[][] = await WorkerPromise.all(childPromises).catch((err) => {
-      const errString = err.toString().slice("Error:".length)
-      console.error(errString)
-      process.exit(1)
-    })
-    res = results.flat()
-    await pool.terminate()
+    if (result.length !== fps.length) {
+      throw new Error(`Parse coverage ${result.length}/${fps.length}: refusing a partial site`)
+    }
+    if (observerInit) observation!.finishParseObservation(ctx, observerInit, fps.length, receipts)
+    summary = `Parsed ${result.length}/${fps.length} Markdown files in ${perf.timeSince()}`
+    return result
+  } finally {
+    // Serve mode can recover from parse failures; its terminal spinner must not survive one.
+    log.end(summary)
   }
-
-  log.end(`Parsed ${res.length} Markdown files in ${perf.timeSince()}`)
-  return res
 }

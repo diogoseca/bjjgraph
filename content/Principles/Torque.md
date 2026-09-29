@@ -4,7 +4,7 @@
 
 ---
 title: "Torque | BJJ Principle | BJJ Graph"
-description: "Master torque and rotational force in BJJ. Learn ratchet mechanics, allen-key leverage, grip fighting rotation, and twisting force for control and submissions."
+description: "Use controlled contact, body rotation, and lever position to redirect an opponent’s balance or understand rotational attack setups."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Torque",
-  "description": "Master torque and rotational force in BJJ. Learn ratchet mechanics, allen-key leverage, grip fighting rotation, and twisting force for control and submissions.",
+  "description": "Use controlled contact, body rotation, and lever position to redirect an opponent’s balance or understand rotational attack setups.",
   "url": "https://bjjgraph.org/Principles/Torque",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Generating torque from the hands and arms rather than the hips and core?",
+      "name": "What is a common mistake in Twisting with the hands while the body stays behind?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Low torque output that is easily resisted by the opponent, combined with rapid grip fatigue. Arm-generated rotation lacks the sustained force needed to finish submissions or complete sweeps against resistance. The practitioner feels like their techniques require impossible grip strength. The correction is: Consciously initiate rotation from the hip. In Kimura finishes, turn your body. In sweeps, rotate your hips before pulling with your arms. Think of your grips as transmission cables that connect the hip engine to the target — they transmit force, they do not generate it."
+        "text": "The grip works without useful support from the torso or hips. The correction is: Bring your body into alignment with the intended movement before turning."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying torque without anchoring the non-rotating side?",
+      "name": "What is a common mistake in Turning without a useful supporting contact?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent's entire body rotates with the applied force, neutralizing the torque on the target joint or balance point. Kimuras fail because the opponent rolls through. Sweeps fail because the opponent turns with the force. The attacker feels like they are spinning the opponent rather than affecting the target. The correction is: Before applying rotation, establish a block that prevents the opponent from turning their body in the direction of the torque. Pin their shoulder for arm attacks. Control their hip line for leg attacks. Use your body weight and positioning to create an anchor against which the rotation works."
+        "text": "The opponent follows the motion without losing balance or position. The correction is: Check the grip, hook, or base point that gives the turn its intended effect."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Applying explosive torque to submissions where controlled rotation is needed?",
+      "name": "What is a common mistake in Adding joint rotation to test the setup?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Joint damage occurs before the opponent can tap. This is especially dangerous in heel hooks and Kimuras where the ligaments can tear before significant pain registers. Training partners refuse to work submission exchanges, stunting development of finishing skills. The correction is: Develop the discipline to finish rotational submissions with progressive, controlled force. Feel the submission tighten incrementally. Give your partner a clear window to tap. In training, the goal is to demonstrate that the submission is locked and the rotation will produce a tap — not to achieve the tap through speed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using a single rotational direction when the opponent is defending that specific angle?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The opponent successfully defends the rotation because they know which direction to resist. The attacker repeatedly applies force against the opponent's strongest resistance rather than finding the angle of least resistance. The exchange becomes a stalemate that favors the defender. The correction is: Develop the ability to change rotational direction. If the Kimura direction is being resisted, can you switch to Americana direction? If one sweep angle is blocked, can you rotate in the opposite direction? Having multiple rotational threats from the same position makes each individual threat more effective."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Breaking structural alignment during torque generation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Force generated at the hips dissipates through structural breaks before reaching the target. Bent arms, collapsed core, or misaligned shoulders act as energy sinks. The practitioner generates significant hip rotation but the target joint barely moves because the force leaks out of the structural chain. The correction is: Maintain rigid structural alignment through the entire kinetic chain during torque application. Lock the elbows against the ribs for arm-length integrity. Engage the core to connect hips to shoulders. Keep the grip tight to the body so the arms transmit rather than absorb the rotational force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Confusing speed of rotation with effectiveness of torque?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fast, uncontrolled rotation that moves the opponent's limb through space without applying meaningful force to the target joint. Speed without structural connection and anchoring produces movement but not submission pressure. The attacker appears to be doing the right technique but cannot produce a tap. The correction is: Slow down and focus on force transmission rather than speed of movement. A slow rotation with perfect structural connection and proper anchoring produces far more torque at the target than a fast rotation with gaps in the chain. Speed should come from hip power, not from rushing the application."
+        "text": "A control drill becomes a loaded submission exchange. The correction is: Inspect the position without finishing rotation, then release and reset."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Torque",
-  "description": "Torque is rotational force applied around a pivot axis, turning grips, limbs, and body positioning into the twisting power that drives Kimuras, heel hooks, collar chokes, sweeps, and grip fighting in BJJ.",
+  "description": "Torque is the turning effect of a force applied away from an axis, shaped by the force’s direction and distance from that axis.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Three Kimura finishing mechanics",
+      "description": "Torque film study: Three Kimura finishing mechanics, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xtwg59n7Yls/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xtwg59n7Yls",
+      "url": "https://www.youtube.com/watch?v=Xtwg59n7Yls",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "The physics behind jiu-jitsu leverage",
       "description": "Torque film study: The physics behind jiu-jitsu leverage, taught by Jan Trauer.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ciV2utFcCPw/hqdefault.jpg",
@@ -194,13 +180,9 @@ description: "Master torque and rotational force in BJJ. Learn ratchet mechanics
 
 ## What is Torque?
 
-**Torque is rotational force applied around a pivot axis, turning grips, limbs, and body positioning into the twisting power that drives Kimuras, heel hooks, collar chokes, sweeps, and grip fighting in BJJ.**
+**Torque is the turning effect of a force applied away from an axis, shaped by the force’s direction and distance from that axis.**
 
-Torque sits among the most universal of BJJ's mechanical principles, surfacing anywhere force needs to rotate rather than travel in a straight line. The Kimura grip acts as a ratchet — you can incrementally rotate the shoulder without losing ground, tightening the submission one click at a time. The heel hook finish uses an allen-key mechanic — a small rotation of the hands translates through the lever system into devastating rotational force on the knee. Even something as simple as a collar grip uses torque when you twist your wrist to tighten the fabric against the opponent's neck.
-
-What distinguishes torque from simple pushing or pulling is the rotational axis. A push applies force in a line. Torque applies force around a pivot point. This rotational quality gives torque a mechanical advantage that linear force cannot match: small rotational inputs at the handle end of a lever produce large rotational outputs at the resistance end. This is why a properly configured Kimura grip can rotate a shoulder that no amount of straight pulling could move.
-
-Torque appears at every level of BJJ, from the white belt's first collar choke (twisting the wrists to tighten the cross collar) to the black belt's leg lock finishing mechanics (precise rotational inputs through complex lever systems). It operates in grip fighting (twisting to break or establish grips), sweeps (rotational off-balancing), passing (rotational hip clearing), and of course submissions (applying rotational force past a joint's limit). Understanding torque as a unifying principle connects techniques that appear unrelated on the surface but share the same underlying rotational mechanics.
+Identify what should turn and which contacts support that movement. For joint attacks, study the setup without adding finishing rotation; use sweeps to explore controlled whole-body turning.
 
 </section>
 
@@ -211,6 +193,14 @@ Torque appears at every level of BJJ, from the white belt's first collar choke (
 
 <p class="section-subtitle">Watch Torque in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=Xtwg59n7Yls)
+
+<p class="clip-credit"><strong>Three Kimura finishing mechanics</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=Xtwg59n7Yls" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -227,15 +217,10 @@ Torque appears at every level of BJJ, from the white belt's first collar choke (
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Generate rotation around a clearly defined axis rather than applying force in a diffuse arc
-- Use lever systems (grips, limb configurations, body positioning) to multiply rotational force at the point of application
-- Apply torque in the direction of the opponent's structural weakness rather than against their strongest resistance
-- Use ratchet mechanics — incremental rotation that captures progress without allowing regression
-- Combine torque with linear force to create compound force vectors that are harder to resist than either alone
-- Anchor one side of the rotational system to prevent the force from dissipating through whole-body movement
-- Generate torque from the hips and core rather than from the hands and arms for sustainable force production
-- Recognize that small rotational inputs at the end of a long lever arm produce large rotational outputs at the joint
-- Control the speed of rotational force application — fast for sweeps and grip breaks, slow and controlled for submission finishing
+- Identify the intended axis and the body segment that will turn.
+- Support the moving contact with a stable grip and body position.
+- Coordinate hip and torso rotation with the grip direction.
+- Keep joint-attack practice at control without finishing rotation.
 
 
 </section>
@@ -264,29 +249,13 @@ Torque appears at every level of BJJ, from the white belt's first collar choke (
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Kimura Trap**: The Kimura grip is the definitive ratchet system in BJJ. The figure-four configuration allows incremental rotation of the shoulder without losing ground. Each small rotational input is captured by the grip geometry, and the configuration prevents the opponent from reversing the rotation. The grip itself generates torque through lever mechanics.
+**Butterfly Guard**: A hook and upper-body grip create turning effects around the opponent’s remaining base as you redirect the sweep.
 
-**Ashi Garami**: Heel hook finishing mechanics use torque applied through the foot and shin to rotate the knee. The allen-key principle applies — small hand rotations at the heel translate through the lever system into large rotational forces at the knee. The leg entanglement anchors the thigh while the hands generate torque at the foot.
+**Clinch**: Use a supported grip and body turn to redirect the opponent’s upper body as their feet adjust.
 
-**Closed Guard**: Cross collar chokes from closed guard use torque generated by wrist rotation to tighten the collar around the neck. Each wrist turn deepens the grip and increases constriction. Guard sweeps use hip torque to rotate the opponent around a pivot point, combining with pulls and pushes for off-balancing.
+**Kimura Trap**: The figure-four grip connects the arm to your body position; recognize how it could rotate the shoulder without applying finishing pressure.
 
-**Clinch**: Grip fighting involves constant torque application — twisting to break grips, rotating to establish dominant grips, spiraling collar grips to create choking pressure. Throws like Harai Goshi use hip torque as the primary force engine, rotating the opponent over the hip fulcrum.
-
-**Side Control**: The crossface uses rotational pressure to turn the opponent's head away, disrupting their structure and posture. The underhook uses rotational force to turn the opponent's body. Side control escapes use hip torque (shrimping, bridging with rotation) to create space and change angles.
-
-**Mount**: Americana and Kimura finishes from mount use body torque to rotate the opponent's shoulder. The attacker turns their hips in the direction of the rotation rather than relying on arm strength. Mount escapes use bridge-and-roll mechanics that combine linear bridging force with rotational rolling torque.
-
-**Back Control**: The seatbelt grip from back control uses torque to rotate the opponent's upper body away from the choking arm, exposing the neck. The body triangle applies rotational compression through leg torque. Back escapes often involve rotational movement to face the attacker and recover guard.
-
-**Half Guard**: The dogfight position involves a torque battle between the top player's crossface rotation and the bottom player's underhook rotation. Whoever generates more rotational force around the central pivot point wins the exchange. The whizzer uses rotational force to counter the underhook.
-
-**Butterfly Guard**: Butterfly sweeps combine hook elevation with rotational torque generated by pulling grips and turning the hips. The sweep does not lift the opponent straight up — it rotates them over the hook by combining upward force with rotational displacement.
-
-**De La Riva Guard**: The De La Riva hook generates rotational force on the opponent's knee and hip, turning their stance and creating angles. Combined with collar and sleeve grips, the rotational force from the hook destabilizes the opponent's base along a rotational axis rather than a linear one.
-
-**Front Headlock**: Guillotine, Darce, and Anaconda chokes from the front headlock all involve rotational mechanics — twisting the neck into the choking configuration, rotating the body to tighten the squeeze, or spiraling the opponent to the mat while maintaining the choke. Torque is the finishing engine for all front headlock submissions.
-
-**North-South**: North-South Kimura uses the body's rotational weight to drive shoulder rotation from the most structurally advantaged position. The attacker can use hip rotation, shoulder rotation, and body turning to generate massive torque through the figure-four grip into the opponent's shoulder joint.
+**Closed Guard**: Coordinate hip rotation and grips to turn the opponent’s upper body while setting up a sweep angle.
 
 
 
@@ -309,24 +278,15 @@ Torque appears at every level of BJJ, from the white belt's first collar choke (
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Generating torque from the hands and arms rather than the hips and core
-  - **Consequence**: Low torque output that is easily resisted by the opponent, combined with rapid grip fatigue. Arm-generated rotation lacks the sustained force needed to finish submissions or complete sweeps against resistance. The practitioner feels like their techniques require impossible grip strength.
-  - **Correction**: Consciously initiate rotation from the hip. In Kimura finishes, turn your body. In sweeps, rotate your hips before pulling with your arms. Think of your grips as transmission cables that connect the hip engine to the target — they transmit force, they do not generate it.
-- **Mistake**: Applying torque without anchoring the non-rotating side
-  - **Consequence**: The opponent's entire body rotates with the applied force, neutralizing the torque on the target joint or balance point. Kimuras fail because the opponent rolls through. Sweeps fail because the opponent turns with the force. The attacker feels like they are spinning the opponent rather than affecting the target.
-  - **Correction**: Before applying rotation, establish a block that prevents the opponent from turning their body in the direction of the torque. Pin their shoulder for arm attacks. Control their hip line for leg attacks. Use your body weight and positioning to create an anchor against which the rotation works.
-- **Mistake**: Applying explosive torque to submissions where controlled rotation is needed
-  - **Consequence**: Joint damage occurs before the opponent can tap. This is especially dangerous in heel hooks and Kimuras where the ligaments can tear before significant pain registers. Training partners refuse to work submission exchanges, stunting development of finishing skills.
-  - **Correction**: Develop the discipline to finish rotational submissions with progressive, controlled force. Feel the submission tighten incrementally. Give your partner a clear window to tap. In training, the goal is to demonstrate that the submission is locked and the rotation will produce a tap — not to achieve the tap through speed.
-- **Mistake**: Using a single rotational direction when the opponent is defending that specific angle
-  - **Consequence**: The opponent successfully defends the rotation because they know which direction to resist. The attacker repeatedly applies force against the opponent's strongest resistance rather than finding the angle of least resistance. The exchange becomes a stalemate that favors the defender.
-  - **Correction**: Develop the ability to change rotational direction. If the Kimura direction is being resisted, can you switch to Americana direction? If one sweep angle is blocked, can you rotate in the opposite direction? Having multiple rotational threats from the same position makes each individual threat more effective.
-- **Mistake**: Breaking structural alignment during torque generation
-  - **Consequence**: Force generated at the hips dissipates through structural breaks before reaching the target. Bent arms, collapsed core, or misaligned shoulders act as energy sinks. The practitioner generates significant hip rotation but the target joint barely moves because the force leaks out of the structural chain.
-  - **Correction**: Maintain rigid structural alignment through the entire kinetic chain during torque application. Lock the elbows against the ribs for arm-length integrity. Engage the core to connect hips to shoulders. Keep the grip tight to the body so the arms transmit rather than absorb the rotational force.
-- **Mistake**: Confusing speed of rotation with effectiveness of torque
-  - **Consequence**: Fast, uncontrolled rotation that moves the opponent's limb through space without applying meaningful force to the target joint. Speed without structural connection and anchoring produces movement but not submission pressure. The attacker appears to be doing the right technique but cannot produce a tap.
-  - **Correction**: Slow down and focus on force transmission rather than speed of movement. A slow rotation with perfect structural connection and proper anchoring produces far more torque at the target than a fast rotation with gaps in the chain. Speed should come from hip power, not from rushing the application.
+- **Mistake**: Twisting with the hands while the body stays behind
+  - **Consequence**: The grip works without useful support from the torso or hips.
+  - **Correction**: Bring your body into alignment with the intended movement before turning.
+- **Mistake**: Turning without a useful supporting contact
+  - **Consequence**: The opponent follows the motion without losing balance or position.
+  - **Correction**: Check the grip, hook, or base point that gives the turn its intended effect.
+- **Mistake**: Adding joint rotation to test the setup
+  - **Consequence**: A control drill becomes a loaded submission exchange.
+  - **Correction**: Inspect the position without finishing rotation, then release and reset.
 
 
 </section>
@@ -334,20 +294,11 @@ Torque appears at every level of BJJ, from the white belt's first collar choke (
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Hip Engine Isolation Drilling** (Focus: Developing the habit of using the hips as the primary torque engine and relegating the arms to their proper role as force transmission elements rather than force generators.)
-Practice generating torque exclusively from hip rotation while keeping hands and arms as passive connectors. Execute Kimura finishes, sweeps, and grip breaks using only hip turning and body rotation. Partner provides feedback on whether they feel the force coming from the body or the arms. Eliminate arm-generated rotation entirely during these drills.
+**Whole-body turning** (Focus: Coordinate the grip with body rotation.)
+Start in a light clinch with a cooperative partner. Use a grip and small torso turn to draw one recovery step, keeping both partners balanced. Release and reset after each direction.
 
-**Ratchet Mechanics Drilling** (Focus: Building proficiency with ratchet-style torque application that captures progress without allowing regression, the key skill that separates effective submission finishing from ineffective cranking.)
-Practice the figure-four grip Kimura as a ratchet system, taking one small rotational increment at a time and pausing to verify that no ground is lost between increments. Partner resists gently between increments to test the ratcheting property. Apply the same ratchet concept to collar grips and other configurations that allow incremental tightening.
-
-**Multi-Directional Rotation Sparring** (Focus: Developing the ability to threaten rotation in multiple directions from the same position, making each individual rotational attack harder to defend because the opponent cannot commit fully to blocking a single direction.)
-Positional sparring from positions with rotational submission options (Kimura Trap, Ashi Garami, mount) where the attacker must attempt at least two different rotational directions during each round. Defender works appropriate defenses for each direction. This forces the attacker to develop versatility in rotational attack direction.
-
-**Torque Sensitivity Training** (Focus: Developing the proprioceptive ability to feel whether applied torque is reaching its target, enabling real-time adjustment of structural alignment, anchoring, and force direction during live rolling.)
-Practice applying rotational force with eyes closed, relying entirely on tactile feedback to determine how much torque is reaching the target joint versus how much is being absorbed by slack, structural breaks, or body rotation. Partner provides verbal feedback to calibrate your internal sense of effective versus wasted rotation.
-
-**Compound Vector Construction** (Focus: Building the ability to create multi-directional force vectors that are harder to resist than pure rotation or pure linear force, developing a more sophisticated approach to force application across all positions.)
-Practice combining rotational torque with linear force in specific techniques. Execute sweeps using both rotational and linear components. Finish submissions using both twist and push/pull. Drill the timing of combining the two force types so they reinforce each other rather than interfering.
+**Sweep-axis check** (Focus: See how the contacts create a turning effect.)
+Set up a familiar butterfly sweep cooperatively. Pause to identify the remaining base and the direction of turn, then gently begin the movement. Lower the partner and reset before completing the sweep.
 
 
 

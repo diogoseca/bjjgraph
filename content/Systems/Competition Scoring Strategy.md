@@ -1,425 +1,141 @@
 
-
-
-
 ---
-title: "Competition Scoring Strategy | BJJ System | BJJ Graph"
-description: "Master BJJ competition scoring with comprehensive tactical framework. Learn point optimization, position hierarchy, and winning game plans for IBJJF formats."
+title: "IBJJF Points, Control and Tiebreakers | BJJGraph"
+description: "How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Competition Scoring Strategy",
-  "description": "Step-by-step implementation sequence for Competition Scoring Strategy.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Pre-Competition Preparation",
-      "text": "Comprehensive opponent research and game plan development form the foundation of competition scoring strategy. Study available footage of opponents to identify their preferred positions, common opening strategies, and defensive weaknesses. Develop primary and secondary game plans based on this intelligence, including specific position targets and point-scoring sequences.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Match Opening Execution",
-      "text": "The opening engagement establishes the tactical framework for the entire match. Execute your prepared opening strategy with commitment while reading opponent reactions. Grip fighting intensity in the first 15 seconds often determines who controls the initial exchange. Be prepared to adapt if opponent shows unexpected opening strategy.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Point Accumulation Phase",
-      "text": "With initial position secured, systematically advance through the positional hierarchy to accumulate points. Use prepared position chains to maximize scoring - for example, guard pass to side control (3 points), transition to knee on belly (2 points), advance to mount (4 points) creates a 9-point sequence. Maintain submission threats throughout to prevent purely defensive opponent reactions.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Lead Consolidation",
-      "text": "After establishing a significant point lead (6+ points), shift strategy to lead preservation while maintaining referee-acceptable activity. Control position and pace without offering scoring opportunities. Understand the specific ruleset's stalling criteria and stay just active enough to avoid penalties while making opponent work for any advancement.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Deficit Recovery Protocol",
-      "text": "When trailing on points, systematic risk escalation becomes necessary. Calculate required point values and identify fastest path to tie or victory. This may require accepting submission risk to pursue sweeps or reversals. Understanding time remaining informs acceptable risk levels - with 2 minutes left, calculated risks become necessary; with 30 seconds, desperation techniques may be required.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Final Minute Tactics",
-      "text": "The last 60 seconds requires specific tactical adjustments based on current score. If ahead, maximize position control while maintaining activity. If behind, execute calculated explosive attempts to generate points or advantages. Understanding referee tendencies for final-minute advantage awards influences whether to pursue risky techniques or play for decision advantages.",
-      "position": 6
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Competition Scoring Strategy",
-  "description": "Master BJJ competition scoring with comprehensive tactical framework. Learn point optimization, position hierarchy, and winning game plans for IBJJF formats.",
-  "url": "https://bjjgraph.org/Systems/Competition-Scoring-Strategy",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Competition Scoring Strategy", "item": "https://bjjgraph.org/Systems/Competition-Scoring-Strategy"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Over-commitment to point accumulation leads to submission vulnerability?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Balance point pursuit with submission awareness by drilling position advancement sequences that maintain defensive integrity. Never sacrifice fundamental defensive principles for point opportunities. Develop position chains that advance systematically while maintaining frame control and preventing submission entries. Practice recognizing when point opportunities create unacceptable submission risk and learn to decline risky advancements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Inability to generate advantages in stalemate situations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drill specific advantage-generating sequences until they become automatic responses. Develop near-submission attacks that create legitimate threats without risking position loss. Practice triangle setups from guard that generate advantages even when not completing. Train toe hold entries from top that force defensive reactions worth advantages. Record competition footage to identify missed advantage opportunities and add those sequences to training focus."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Referee interpretation inconsistency regarding stalling penalties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Study specific referee tendencies when possible and understand tournament-specific stalling enforcement patterns. Develop minimum activity protocols that satisfy most referee interpretations - periodic position adjustment attempts, grip fighting engagement, and verbal communication showing offensive intent. When penalized for stalling, immediately increase activity level to prevent escalating penalties. Practice active position maintenance that appears offensive to referees while actually being primarily defensive."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Energy depletion prevents late-match execution of scoring opportunities?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Implement structured energy management throughout match duration. Identify periods for explosive output versus conservative control phases. Train specifically for late-match intensity by drilling position sequences in fatigued states. Develop efficient movement patterns that minimize unnecessary energy expenditure. Practice identifying when opponent energy is depleting and timing explosive scoring attempts to coincide with their fatigue peaks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Panic decision-making when trailing on points in final minutes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drill specific deficit recovery protocols until they become automatic responses. Create mental frameworks for different point deficits and time remaining combinations. Practice timed rounds where you start with point deficits and must recover within specific time limits. Develop pre-competition visualization routines that include falling behind scenarios and successful recovery sequences. Train breathing and mental composure techniques specifically for high-pressure scoring situations."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Competition Scoring Strategy",
-  "description": "The Competition Scoring Strategy is a tactical framework for Brazilian Jiu-Jitsu tournaments that maximizes point accumulation and positional dominance by combining positional hierarchy, risk-reward calculation, and ruleset-specific game planning.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"IBJJF Points, Control and Tiebreakers","description":"How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Competition Scoring Strategy">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>IBJJF Points, Control and Tiebreakers</h1>
+<div class="system-tags"><span>Competition Strategy</span><span>Intermediate</span></div>
+
+<p class="system-reference-count">17 related references (techniques and positions)</p>
+</header>
+
+
+<section id="overview" class="system-overview">
+
+Side control is not automatically a three-point guard pass. IBJJF requires a guard to have been passed and the specified control to be established. Submission holds can affect when the stabilization count starts or whether it is interrupted.
+
+Continuous progression can also score cumulatively. Article 3.4 gives a pass followed by mount as a seven-point example, with the final three-second count continuing the earlier control. At regulation time, equal points are separated by advantages, then fewer penalties, and finally a referee decision if the tie remains.
+
+</section>
+
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You know the point values but want to understand why a position or a continuous sequence does—or does not—score.
 
 
 
-<div class="principle-meta">
-<span class="meta-chip">Competition Strategy</span>
-<span class="meta-chip">Intermediate difficulty</span>
-</div>
+<h3>Also consider</h3>
+<p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — For the differences between IBJJF and ADCC point values, match phases and division restrictions.</p>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
 
-<section id="overview" class="content-section">
+## Coverage and limits
 
-## What is Competition Scoring Strategy?
+- Guard-pass conditions and the distinction between passing a guard and simply reaching side control.
+- Three-second stabilization, submission interruptions and cumulative points under Article 3.
+- The regulation-time order of points, advantages, penalties and referee decisions.
 
-**The Competition Scoring Strategy is a tactical framework for Brazilian Jiu-Jitsu tournaments that maximizes point accumulation and positional dominance by combining positional hierarchy, risk-reward calculation, and ruleset-specific game planning.**
 
-In modern competitive Brazilian Jiu-Jitsu, the gap between champions and contenders often comes down to tactical scoring decisions rather than raw technique. This system integrates deep understanding of ruleset variations, positional hierarchy, and risk-reward calculations to create winning game plans across all competition formats. The framework addresses both IBJJF point-based competitions and submission-only events, emphasizing intelligent position selection, transition timing, and strategic decision-making under pressure. Practitioners learn to build commanding leads through systematic point accumulation while maintaining submission threats, creating a dual-threat approach that forces opponents into defensive reactions. The system incorporates energy management principles, understanding when to explode for positional advancement versus when to consolidate control and drain opponent resources. Advanced competitors use this framework to construct entire match narratives, dictating pace, position selection, and engagement timing to maximize their competitive advantages while minimizing risk exposure.
+### Limits
+
+- This explanation covers selected IBJJF scoring provisions; stoppage outcomes and other rulebook exceptions remain separate.
 
 </section>
 
 
+<section id="related-content" class="system-section">
+
+## Related guides and principles
+
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+<p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a></p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a></p><p><a href="/Principles/Competition-Mindset">Competition Mindset</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a></p><p><a href="/Principles/Position-Chains">Position Chains</a></p><p><a href="/Systems/Competition-Preparation-System">Competition Preparation with Matt D’Aquino</a> — Tournament preparation, travel and athlete-coach communication.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Competition Requirements</a> — IBJJF eligibility, uniform and division requirements.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a></p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — IBJJF and ADCC scoring differences and division restrictions.</p>
+
+### Review related technique cards
 
 
 
+- [[Positions/Mount|Mount]] (Position)
 
 
-
-<section id="study-this-system" class="content-section system-study-free">
-
-## How do you drill Competition Scoring Strategy?
-
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 24 techniques it strings together.</p>
-
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
-
-</section>
+- [[Positions/Back Control|Back Control]] (Position)
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
-
-## Unlock this part of the graph
-
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
-
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Position before submission - secure dominant positions systematically before hunting finishes
-- Point optimization - maximize scoring opportunities through efficient position transitions
-- Risk-reward calculation - evaluate potential point gain against submission or sweep danger
-- Energy management - balance explosive position advancement with control consolidation phases
-- Ruleset exploitation - understand and leverage specific competition format advantages
-- Positional hierarchy awareness - recognize point values and strategic importance of each position
-- Tempo control - dictate match pace to favor your physical and technical strengths
-- Strategic stalling - legally consolidate winning positions without negative referee intervention
+- [[Positions/Side Control|Side Control]] (Position)
 
 
-</section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Positional Hierarchy Optimization** (Maximize point accumulation through systematic position advancement)
-Understanding the point value system creates the foundation for strategic decision-making. Mount and back control both award 4 points, representing the highest-value positions in IBJJF competition. Guard passing awards 3 points, while knee on belly, sweeps, and takedowns each score 2 points. Advanced competitors develop position chains that maximize point accumulation - for example, passing guard (3 points), transitioning to knee on belly (2 points), then mounting (4 points) generates 9 total points in a single sequence. This hierarchical understanding informs every tactical decision during competition, allowing athletes to calculate which positional advancement yields the greatest return relative to energy investment and risk.
-
-**Opening Strategy Selection** (Establish favorable tactical position from match initiation)
-The match opening determines the entire tactical narrative. Guard pullers sacrifice the potential 2-point takedown to immediately begin their guard game, while takedown specialists invest energy early to establish top position dominance. Understanding your opponent's preferred opening allows strategic countering - if facing a guard puller, consider accepting top position rather than forcing takedown attempts. Some competitors use strategic guard pulls to specific positions (De La Riva, X-Guard, Butterfly Guard) that immediately threaten sweeps, potentially recovering the 2-point deficit. The opening 30 seconds often determines match trajectory, making preparation and opponent research critical components of competition success.
-
-**Point Lead Management** (Preserve winning positions while avoiding penalties or reversals)
-Managing advantages after establishing point leads requires sophisticated understanding of referee interpretation and ruleset nuances. With a significant lead, controlling the pace becomes paramount - using position consolidation, grip fighting, and legal stalling techniques to drain clock time while maintaining activity. Understanding the difference between negative stalling penalties and active position maintenance prevents point deductions. Some positions like closed guard or half guard allow defensive players to stay active through grip attacks and position adjustments without opening scoring opportunities. Elite competitors develop shutdown defensive systems specifically designed to preserve leads in the final minutes of competition.
-
-**Submission Threat Integration** (Force defensive reactions that create additional scoring opportunities)
-Pure point accumulation without submission threats allows opponents to defend predictably. Integrating legitimate submission attempts forces defensive reactions that open additional point-scoring opportunities. The threat of rear naked choke from back control prevents defensive hand fighting, making position maintenance easier. Armbar threats from mount create defensive frames that facilitate transitions to technical mount or back take attempts. Understanding when to genuinely pursue submissions versus when to use submission threats as position advancement tools separates elite competitors from intermediate practitioners. This dual-threat approach creates constant dilemmas for opponents.
-
-**Advantage Point Tactics** (Accumulate tiebreaker advantages through controlled near-scoring sequences)
-In closely contested matches, advantage points determine winners. Understanding what generates advantages - near submissions, sweep attempts that don't complete, almost guard passes - allows strategic advantage accumulation. Some competitors develop specific near-submission sequences designed to generate advantages without risking position loss. Triangle attempts from guard, toe hold entries from top position, and kimura grip attacks all potentially generate advantages while maintaining relatively safe positions. In matches where both competitors are defensively sound, the competitor who better understands advantage generation often wins decisions. This requires drilling specific advantage-generating sequences until they become automatic responses during competition pressure.
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
 
 
+- [[Positions/Closed Guard|Closed Guard]] (Position)
+
+
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
+
+
+- [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]] (Position)
+
+
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
+
+
+- [[Positions/North-South|North-South]] (Position)
+
+
+- [[Transitions/Guard Pull|Guard Pull]] (Transition)
+
+
+- [[Transitions/Back Take|Back Take]] (Transition)
+
+
+- [[Transitions/Ankle Pick|Ankle Pick]] (Transition)
+
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission)
+
+
+- [[Submissions/Americana|Americana]] (Submission)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+
+- [[Submissions/Kimura|Kimura]] (Submission)
 
 </section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Pre-Competition Preparation**: Comprehensive opponent research and game plan development form the foundation of competition scoring strategy. Study available footage of opponents to identify their preferred positions, common opening strategies, and defensive weaknesses. Develop primary and secondary game plans based on this intelligence, including specific position targets and point-scoring sequences.
-Key points:
-- Review opponent match footage for position preferences and tendencies
-- Identify their strongest positions and develop neutralization strategies
-- Create primary game plan with specific point-scoring sequence targets
-- Develop backup strategies for unexpected opponent approaches
-- Drill specific sequences until automatic execution under pressure
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
 
 
-
-2. **Match Opening Execution**: The opening engagement establishes the tactical framework for the entire match. Execute your prepared opening strategy with commitment while reading opponent reactions. Grip fighting intensity in the first 15 seconds often determines who controls the initial exchange. Be prepared to adapt if opponent shows unexpected opening strategy.
-Key points:
-- Execute planned opening strategy with full commitment
-- Win initial grip fighting exchanges to establish control
-- Read opponent's opening strategy and adjust accordingly
-- Secure first positional advantage within 30-45 seconds
-- Establish your preferred pace and engagement distance early
-
-
-
-3. **Point Accumulation Phase**: With initial position secured, systematically advance through the positional hierarchy to accumulate points. Use prepared position chains to maximize scoring - for example, guard pass to side control (3 points), transition to knee on belly (2 points), advance to mount (4 points) creates a 9-point sequence. Maintain submission threats throughout to prevent purely defensive opponent reactions.
-Key points:
-- Execute prepared position advancement sequences systematically
-- Secure each position fully before advancing to next
-- Integrate submission threats to maintain opponent defensive pressure
-- Generate advantages through near submissions when direct points unavailable
-- Monitor energy expenditure to ensure late-match capacity remains
-
-
-
-4. **Lead Consolidation**: After establishing a significant point lead (6+ points), shift strategy to lead preservation while maintaining referee-acceptable activity. Control position and pace without offering scoring opportunities. Understand the specific ruleset's stalling criteria and stay just active enough to avoid penalties while making opponent work for any advancement.
-Key points:
-- Transition to conservative position maintenance strategy
-- Control grips and distance to prevent opponent advancement
-- Maintain minimum activity level to avoid stalling penalties
-- Force opponent to work harder for any position gains
-- Monitor time remaining and adjust defensive intensity accordingly
-
-
-
-5. **Deficit Recovery Protocol**: When trailing on points, systematic risk escalation becomes necessary. Calculate required point values and identify fastest path to tie or victory. This may require accepting submission risk to pursue sweeps or reversals. Understanding time remaining informs acceptable risk levels - with 2 minutes left, calculated risks become necessary; with 30 seconds, desperation techniques may be required.
-Key points:
-- Calculate exact point deficit and required scoring actions
-- Identify highest-percentage paths to needed points
-- Escalate risk acceptance based on time remaining
-- Pursue advantage generation if points unavailable
-- Maintain technical execution even under pressure to score
-
-
-
-6. **Final Minute Tactics**: The last 60 seconds requires specific tactical adjustments based on current score. If ahead, maximize position control while maintaining activity. If behind, execute calculated explosive attempts to generate points or advantages. Understanding referee tendencies for final-minute advantage awards influences whether to pursue risky techniques or play for decision advantages.
-Key points:
-- Execute score-appropriate tactics for final minute
-- If ahead: control pace and position without risky advancement
-- If behind: pursue explosive scoring attempts with calculated risk
-- Monitor referee for advantage-generating opportunities
-- Finish match in most dominant position possible regardless of score
-
-
-
-
-
+<section class="system-source" data-source-container>
+<p><a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book</a> — ruleset; checked 2026-09-16. Read point values, cumulative scoring, guard-pass conditions and the regulation-time tiebreak order. These provisions explain scoring rather than prescribe an attacking sequence. Inspected: Articles 2.5–2.6, 3 and 4.2</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Over-commitment to point accumulation leads to submission vulnerability**: Balance point pursuit with submission awareness by drilling position advancement sequences that maintain defensive integrity. Never sacrifice fundamental defensive principles for point opportunities. Develop position chains that advance systematically while maintaining frame control and preventing submission entries. Practice recognizing when point opportunities create unacceptable submission risk and learn to decline risky advancements.
-- **Inability to generate advantages in stalemate situations**: Drill specific advantage-generating sequences until they become automatic responses. Develop near-submission attacks that create legitimate threats without risking position loss. Practice triangle setups from guard that generate advantages even when not completing. Train toe hold entries from top that force defensive reactions worth advantages. Record competition footage to identify missed advantage opportunities and add those sequences to training focus.
-- **Referee interpretation inconsistency regarding stalling penalties**: Study specific referee tendencies when possible and understand tournament-specific stalling enforcement patterns. Develop minimum activity protocols that satisfy most referee interpretations - periodic position adjustment attempts, grip fighting engagement, and verbal communication showing offensive intent. When penalized for stalling, immediately increase activity level to prevent escalating penalties. Practice active position maintenance that appears offensive to referees while actually being primarily defensive.
-- **Energy depletion prevents late-match execution of scoring opportunities**: Implement structured energy management throughout match duration. Identify periods for explosive output versus conservative control phases. Train specifically for late-match intensity by drilling position sequences in fatigued states. Develop efficient movement patterns that minimize unnecessary energy expenditure. Practice identifying when opponent energy is depleting and timing explosive scoring attempts to coincide with their fatigue peaks.
-- **Panic decision-making when trailing on points in final minutes**: Drill specific deficit recovery protocols until they become automatic responses. Create mental frameworks for different point deficits and time remaining combinations. Practice timed rounds where you start with point deficits and must recover within specific time limits. Develop pre-competition visualization routines that include falling behind scenarios and successful recovery sequences. Train breathing and mental composure techniques specifically for high-pressure scoring situations.
-
-
+</details>
 </section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Point Efficiency Ratio**: Measures total points scored divided by total match time, indicating ability to generate scoring opportunities consistently throughout matches.
-Proficiency indicators:
-- Beginner: 0-2 points per match average with inconsistent scoring timing
-- Intermediate: 4-8 points per match with systematic position advancement
-- Advanced: 10+ points per match through efficient position chain execution
-- Expert: 15+ points per match while maintaining submission threat integration
-
-
-**Advantage Generation Rate**: Tracks total advantages accumulated across competition matches, demonstrating ability to create near-scoring situations and pressure opponents even without completing scores.
-Proficiency indicators:
-- Beginner: 0-1 advantages per match with limited near-scoring sequences
-- Intermediate: 2-4 advantages through deliberate near-submission attacks
-- Advanced: 5-7 advantages with strategic advantage-hunting sequences
-- Expert: 8+ advantages while simultaneously pursuing point accumulation
-
-
-**Lead Preservation Success Rate**: Percentage of matches where competitor maintains point lead from establishment through final buzzer, indicating defensive maturity and position control ability.
-Proficiency indicators:
-- Beginner: Less than 50% lead preservation with frequent reversals
-- Intermediate: 60-70% preservation through improved position control
-- Advanced: 75-85% preservation with sophisticated defensive tactics
-- Expert: 90%+ preservation through elite position management and pace control
-
-
-**Comeback Victory Percentage**: Tracks success rate when trailing on points entering final two minutes, demonstrating mental composure and tactical adaptability under pressure.
-Proficiency indicators:
-- Beginner: Less than 10% comeback success with panic responses
-- Intermediate: 20-30% success through improved deficit protocols
-- Advanced: 35-50% success with systematic recovery strategies
-- Expert: 50%+ success through elite pressure performance and tactical flexibility
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-Competition scoring strategy development requires specific drilling protocols that simulate tournament conditions and scoring pressure. Begin with position chain drilling where partners start in neutral and must execute complete scoring sequences from takedown/pull through guard pass to mount or back control. Track points accumulated during each drill repetition and aim for 9+ point sequences. Progress to timed situational drills where one partner starts with a point advantage and must preserve it while the other works to overcome the deficit. This creates realistic competition pressure and forces development of both lead management and comeback protocols. Include referee-simulated drills where a third training partner acts as referee and calls advantages, stalling warnings, and penalties based on IBJJF rules, forcing athletes to develop awareness of referee perspective. Advanced training includes full competition simulation rounds with scorekeeping and specific scenario assignments like starting rounds down 4 points with 2 minutes remaining.
-
-### Progression Path
-**Foundation Development** (Focus: Master individual scoring positions and understand point values. Drill basic position chains from guard pass to mount. Learn fundamental rules and scoring criteria.) - Months 1-3
-**Sequence Integration** (Focus: Develop multi-position scoring sequences that accumulate 6-9 points. Practice basic lead management from dominant positions. Begin advantage generation drilling.) - Months 4-8
-**Tactical Adaptation** (Focus: Learn deficit recovery protocols and late-match tactics. Develop opponent-specific game planning. Practice strategic stalling and pace control techniques.) - Months 9-15
-**Competition Refinement** (Focus: Compete regularly and analyze match footage for tactical improvements. Refine energy management and mental composure under scoring pressure. Develop referee awareness and advantage hunting.) - Months 16-24
-**Elite Execution** (Focus: Master all aspects of scoring strategy including ruleset exploitation, opponent manipulation through scoring threats, and complete match narrative control.) - Years 2-4
-
-
-### Common Mistakes
-- Pursuing points without submission threats allows predictable defensive responses
-- Ignoring advantage accumulation in closely contested matches loses tiebreakers
-- Over-conservative play when ahead causes stalling penalties and lost momentum
-- Panic scrambling when behind leads to poor position and submission vulnerability
-- Failure to adapt strategy based on current score and time remaining
-- Neglecting referee awareness results in unexpected penalty accumulation
-- Poor energy management prevents late-match execution of scoring opportunities
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Positions/Mount|Mount]] (Position) - Highest value position (4 points) and primary scoring target
-- [[Positions/Back Control|Back Control]] (Position) - Highest value position (4 points) with submission finish potential
-- [[Positions/Side Control|Side Control]] (Position) - Guard pass consolidation position and platform for further advancement
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) - 2-point scoring position with transition advantages to mount or back
-- [[Positions/Closed Guard|Closed Guard]] (Position) - Neutral position for guard players and strategic stalling location
-- [[Positions/Half Guard|Half Guard]] (Position) - Transitional position for bottom players pursuing sweep points
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Active guard for sweep attempts and advantage generation
-- [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]] (Position) - High-percentage sweep position for recovering point deficits
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Explosive sweep position for rapid point accumulation
-- [[Positions/North-South|North-South]] (Position) - Control position for lead preservation and submission threats
-- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Strategic opening that sacrifices takedown points for guard game
-- [[Transitions/Back Take|Back Take]] (Transition) - 4-point scoring transition to highest value position
-- [[Transitions/Ankle Pick|Ankle Pick]] (Transition) - 2-point opening takedown strategy with lower energy investment
-- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Understanding of position value system underlying all scoring strategy
-- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Strategic philosophy prioritizing point accumulation before finishes
-- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Mental framework for tactical planning and scoring decision-making under pressure
-- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Creating scoring dilemmas that force opponents into lose-lose defensive choices
-- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Evaluating defensive risk when assessing point-scoring opportunities
-- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Pacing explosive scoring attempts with conservative control phases
-- [[Principles/Position Chains|Position Chains]] (Principle) - Linking positions into sequences that maximize cumulative point accumulation
-- [[Systems/Competition Preparation System|Competition Preparation System]] (System) - Comprehensive competition readiness including scoring strategy training
-- [[Systems/IBJJF Strategy Guide|IBJJF Strategy Guide]] (System) - Ruleset-specific tactical framework for point-based competition
-- [[Systems/Gordon Ryan Passing System|Gordon Ryan Passing System]] (System) - High-percentage guard passing for consistent 3-point accumulation
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Primary finish threat from back control maintaining opponent defensive pressure
-- [[Submissions/Americana|Americana]] (Submission) - Fundamental mount submission threat creating defensive reactions that open transitions to back take or technical mount
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Guard submission threat generating advantages even when incomplete
-- [[Submissions/Kimura|Kimura]] (Submission) - Versatile submission threat across multiple positions for advantage accumulation
-
-
-</section>
-
-
-
 </main>

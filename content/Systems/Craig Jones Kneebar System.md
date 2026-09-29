@@ -1,374 +1,135 @@
 
-
-
-
 ---
-title: "Craig Jones Kneebar System | BJJ System | BJJ Graph"
-description: "Explore Craig Jones kneebar entries through half guard, leg entanglements and passing contexts, with focused course guidance and clear positional practice goals."
+title: "Craig Jones: Kneebars | BJJGraph"
+description: "Craig Jones’s You Can't Knee bahh covers kneebar categories, half-guard entries, 50/50, rolling entries and ride-based attacks."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Craig Jones Kneebar System",
-  "description": "Step-by-step implementation sequence for Craig Jones Kneebar System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Set the control endpoint",
-      "text": "Review one kneebar configuration with a coach. Both partners should recognise the target leg and the moment at which the drill stops.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Study top half guard",
-      "text": "Use a selected top-half entry and stop at the agreed control position without applying extension.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Compare bottom half guard",
-      "text": "Repeat from the matching bottom context and record which balance and connection problems change.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add one entanglement start",
-      "text": "Choose a familiar entanglement, such as a coached 50/50 context, and investigate whether the target leg can be retained through the transfer.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Review a passing entry",
-      "text": "Compare a selected top entry with continuing the pass. Decide what control must be available before giving up the passing position.",
-      "position": 5
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Craig Jones Kneebar System",
-  "description": "Explore Craig Jones kneebar entries through half guard, leg entanglements and passing contexts, with focused course guidance and clear positional practice goals.",
-  "url": "https://bjjgraph.org/Systems/Craig-Jones-Kneebar-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Craig Jones Kneebar System", "item": "https://bjjgraph.org/Systems/Craig-Jones-Kneebar-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The attacker reaches the leg but cannot stop in control.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shorten the entry and identify where the leg begins to withdraw."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: A top-half entry is applied unchanged from bottom.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Treat the two contexts as separate study tasks and compare balance before speed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Rolling momentum replaces recognition of the endpoint.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use a slower coached entry until both partners can stop in the intended position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: A passing attempt is abandoned for an unsecured kneebar.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Review the cost of the switch and retain top position when the leg is not controlled."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Craig Jones Kneebar System",
-  "description": "The Craig Jones Kneebar System is a BJJGraph study guide for comparing kneebar control and entry decisions across guard, leg-entanglement and top-position contexts.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Craig Jones: Kneebars","description":"Craig Jones’s You Can't Knee bahh covers kneebar categories, half-guard entries, 50/50, rolling entries and ride-based attacks."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Craig Jones Kneebar System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Craig Jones: Kneebars</h1>
+<div class="system-tags"><span>Attack System</span><span>Advanced</span></div>
+
+<p class="system-reference-count">8 related references (techniques and positions)</p>
+</header>
 
 
-
-<div class="principle-meta">
-<span class="meta-chip">Attack System</span>
-<span class="meta-chip">Advanced difficulty</span>
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — You Can&#39;t Knee bahh by Craig Jones" data-system-preview data-system-key="Craig Jones Kneebar System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c8a07015-a049-4cc7-93f7-20184b50633c?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — You Can&#39;t Knee bahh by Craig Jones">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/files/CraigJones_YouCan_tKneeBahh_CoverFRONT.jpg?v=1762464088" alt="You Can&#39;t Knee bahh course cover" decoding="async" fetchpriority="high">
 </div>
+</section>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<div class="system-course__identity"><h2>You Can&#39;t Knee bahh</h2><p class="system-course__instructor">By Craig Jones</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-course-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
+</section>
 
-<section id="overview" class="content-section">
+<section id="overview" class="system-overview">
 
-## What is Craig Jones Kneebar System?
+You Can’t Knee bahh organizes Craig Jones’s kneebar material around different leg configurations and the positions that lead to them. Half guard, 50/50, standing entries and top rides all receive attention. Toe holds and other leg attacks appear as combinations around the central kneebar focus.
 
-**The Craig Jones Kneebar System is a BJJGraph study guide for comparing kneebar control and entry decisions across guard, leg-entanglement and top-position contexts.**
+</section>
 
-You Can't Knee bahh is a dedicated kneebar instructional whose published contents include foundational concepts, top and bottom half guard, 50/50, passing entries and later rolling study. It offers a more focused destination than a general leg-lock course for students investigating the kneebar itself.
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-BJJGraph's original plan below compares two entry contexts before adding more variations. The central distinction is between reaching the leg and retaining the control needed for the selected kneebar configuration. A passing entry also carries a positional cost if the leg becomes free. Use a coach to select an appropriate configuration, agree permitted techniques, and end early drills at control rather than joint extension.
+## Is this for you?
+
+- You want kneebar options from both top and bottom positions.
+- You already encounter half guard or 50/50 and want a course centered on this submission.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones: Down Under Leg Attacks</a> — Down Under Leg Attacks gives more attention to heel hooks, entanglement positions and responses to escapes.</p>
+
+
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Kneebar configurations, finishing mechanics and toe control.
+- Top and bottom half guard, knee-shield and 50/50 entries.
+- Rolling entries, dog bars, crab rides and toe-hold combinations.
+
+
+### Limits
+
+- Its four volumes concentrate on kneebars and nearby attacks, rather than giving equal treatment to all leg-lock families.
 
 </section>
 
 
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
 
-
-
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="you-cant-kneebar-by-craig-jones">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">You Can't Knee bahh</h3>
-<p class="product-card__instructor">with Craig Jones</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Students already comfortable with coached leg-lock practice who want a dedicated kneebar study track; it includes advanced and rolling entries.</p>
-<p class="product-card__blurb">A kneebar-focused course spanning half guard, leg entanglements and passing-related entries.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=craig-jones-kneebar-system&utm_term=you-cant-kneebar-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
-
-</div>
-
+<a class="system-course__link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-course-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: You Can&#39;t Knee bahh</a>
 </section>
 
+<section id="related-content" class="system-section">
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+## Related guides and principles
 
-## Unlock this part of the graph
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+<p><a href="/Principles/Leg-Entanglement">Leg Entanglement</a></p><p><a href="/Principles/Transition-Management">Transition Management</a></p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones: Down Under Leg Attacks</a> — Down Under Leg Attacks gives more attention to heel hooks, entanglement positions and responses to escapes.</p>
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Distinguish a kneebar entry from a retained kneebar control position.
-- Compare top and bottom half-guard entries as different balance problems.
-- Identify which leg is targeted and which movement would release it.
-- Evaluate the top position being surrendered before committing to a passing entry.
-- Treat other leg-lock branches as separate techniques requiring separate agreement.
-- Use controlled catch-and-release practice instead of rapid extension.
+### Review related technique cards
 
 
-</section>
 
-<section id="key-components" class="content-section">
-
-## Key Components
-**Configuration recognition** (Set a shared endpoint for entry practice.)
-Study one demonstrated kneebar configuration and identify how the target leg remains connected before any finishing movement.
-
-**Half-guard entry comparison** (Find the version that best fits the practitioner's current game.)
-Compare an entry from top half guard with one from bottom and describe the different balance demands.
-
-**Entanglement transfer** (Separate a familiar starting position from the new kneebar requirements.)
-Observe how moving from an existing leg entanglement changes access to the targeted leg and surrounding control.
-
-**Passing-to-attack tradeoff** (Keep kneebar opportunities connected to positional judgement.)
-Review whether pursuing the leg from top improves the exchange or simply gives up a useful passing position.
+- [[Transitions/Kneebar|Kneebar]] (Submission)
 
 
+- [[Positions/Kneebar Control|Kneebar Control]] (Position)
+
+
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Positions/Ashi Garami|Ashi Garami]] (Position)
+
+
+- [[Positions/K-Guard|K-Guard]] (Position)
+
+
+- [[Positions/Crab Ride|Crab Ride]] (Position)
+
+
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
+
+
+- [[Submissions/Toe Hold|Toe Hold]] (Submission)
 
 </section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Set the control endpoint**: Review one kneebar configuration with a coach. Both partners should recognise the target leg and the moment at which the drill stops.
-
-
-2. **Study top half guard**: Use a selected top-half entry and stop at the agreed control position without applying extension.
-
-
-3. **Compare bottom half guard**: Repeat from the matching bottom context and record which balance and connection problems change.
-
-
-4. **Add one entanglement start**: Choose a familiar entanglement, such as a coached 50/50 context, and investigate whether the target leg can be retained through the transfer.
-
-
-5. **Review a passing entry**: Compare a selected top entry with continuing the pass. Decide what control must be available before giving up the passing position.
-
-
-
-
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-source-url="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-kneebar-system" data-product-id="course" target="_blank" rel="noopener">You Can&#39;t Knee bahh by Craig Jones</a> — official listing; checked 2026-09-19. Listing inspected: exact title You Can&#39;t Knee bahh, Craig Jones attribution and four-volume contents verified, including the separate top and bottom half-guard lessons. Video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Begin with the configuration concepts, then compare top and bottom half guard before adding an entanglement or passing entry.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=craig-jones-kneebar-system&utm_term=you-cant-kneebar-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: You Can&#39;t Knee bahh &rarr;</a></p>
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-source-url="https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-kneebar-system" data-product-id="comparison" target="_blank" rel="noopener">Down Under Leg Attacks by Craig Jones</a> — official listing; checked 2026-09-16. Official listing inspected to compare the advertised subject and course breadth with this guide.</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **The attacker reaches the leg but cannot stop in control.**: Shorten the entry and identify where the leg begins to withdraw.
-- **A top-half entry is applied unchanged from bottom.**: Treat the two contexts as separate study tasks and compare balance before speed.
-- **Rolling momentum replaces recognition of the endpoint.**: Use a slower coached entry until both partners can stop in the intended position.
-- **A passing attempt is abandoned for an unsecured kneebar.**: Review the cost of the switch and retain top position when the leg is not controlled.
-
-
+</details>
 </section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Endpoint clarity**: Check that both partners recognise the intended kneebar control.
-Proficiency indicators:
-- Names the target leg
-- Stops without extension
-- Identifies leg withdrawal
-
-
-**Half-guard comparison**: Describe the differences between top and bottom entries.
-Proficiency indicators:
-- Names the starting role
-- Recognises balance changes
-- Records a role-specific obstacle
-
-
-**Transfer retention**: Assess whether the leg remains controlled from an entanglement start.
-Proficiency indicators:
-- Identifies the original connection
-- Finds the new endpoint
-- Resets when contact is lost
-
-
-**Passing judgement**: Review the decision to pursue a kneebar from top.
-Proficiency indicators:
-- Identifies the passing advantage
-- States the attack requirement
-- Can choose to continue passing
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-BJJGraph suggests paired half-guard entry rounds: one from top and one from bottom, both ending at a coach-approved kneebar control position. Use no extension pressure. Record which entry lets the target leg withdraw and which disrupts balance. Study passing entries separately so retaining top position remains an explicit alternative.
-
-### Progression Path
-**Endpoint** (Focus: Recognise one kneebar configuration with no finishing pressure.)
-**Half guard** (Focus: Compare top and bottom entry problems.)
-**Entanglement** (Focus: Transfer from one familiar leg-control start.)
-**Top decision** (Focus: Compare a passing entry with maintaining the pass.)
-
-
-### Common Mistakes
-- Counting contact with the leg as completed kneebar control.
-- Using momentum before learning to stop at the endpoint.
-- Giving up a stable top position for a loose leg attack.
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Transitions/Kneebar|Kneebar]] (Submission) - The primary submission reference.
-- [[Positions/Kneebar Control|Kneebar Control]] (Position) - The entry drill's stopping point.
-- [[Positions/Half Guard|Half Guard]] (Position) - Top and bottom contexts for comparison.
-- [[Positions/Ashi Garami|Ashi Garami]] (Position) - A related entanglement family.
-- [[Positions/K-Guard|K-Guard]] (Position) - A further entry context for later study.
-- [[Positions/Crab Ride|Crab Ride]] (Position) - Another positional context listed in the course.
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) - A top-position entry setting.
-- [[Submissions/Toe Hold|Toe Hold]] (Submission) - A separate branch to distinguish from the kneebar.
-- [[Positions/Leg Entanglement|Leg Entanglement]] (Principle) - Background for retained lower-body control.
-- [[Principles/Transition Management|Transition Management]] (Principle) - Frames the cost of moving from passing to an attack.
-
-
-</section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph suggestion: end paired top- and bottom-half repetitions at control and compare where the target leg escapes.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=craig-jones-kneebar-system&utm_term=you-cant-kneebar-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="you-cant-kneebar-by-craig-jones" data-system-slug="systems/craig-jones-kneebar-system" data-system-name="Craig Jones Kneebar System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: You Can&#39;t Knee bahh &rarr;</a></p>
-</section>
-
-
-
 </main>

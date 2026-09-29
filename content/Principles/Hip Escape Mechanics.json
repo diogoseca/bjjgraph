@@ -1,6 +1,6 @@
 {
   "name": "Hip Escape Mechanics",
-  "description": "Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, hip rotation, and guard recovery for space creation across all bottom positions.",
+  "description": "Use frames and coordinated hip movement to make space under a pin and bring your knees back between the bodies.",
   "tags": [
     "bjj",
     "principle",
@@ -22,18 +22,13 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Hip Escape Mechanics are the coordinated bridge-frame-rotate movement system used to create space from beneath an opponent's pressure, generating the distance and angles needed to recover guard or escape inferior positions.",
-  "overview": "Often the first movement pattern taught to a white belt and one of the last fully mastered by a black belt, hip escape mechanics underpins nearly every defensive sequence in Brazilian Jiu-Jitsu. Unlike a specific escape technique tied to a single position, it is a comprehensive conceptual system that applies across all bottom positions where the practitioner must create distance from the opponent's pressure and control. This concept encompasses the coordinated sequence of bridging to create initial space, framing to maintain separation, hip rotation to generate distance, and leg recovery to reestablish defensive positioning. Hip escape mechanics serves as both the primary escape methodology from pins and mounted positions, and the foundational movement pattern for guard recovery and defensive repositioning. The ability to execute effective hip escapes often determines whether a practitioner remains trapped in inferior positions or successfully recovers to neutral or advantageous states, making it one of the most essential survival skills in BJJ.",
+  "summary": "Hip escape mechanics coordinate frames, hip movement, and turning onto your side to create space for guard recovery beneath an opponent.",
+  "overview": "Frames preserve the space your movement creates. If pressure pins your hips, use a bridge or the opponent’s weight shift to start moving, then recover a knee before the gap closes.",
   "key_principles": [
-    "Bridge vertically to create initial separation and unweight the hips for movement",
-    "Frame against opponent's body to maintain created space and prevent pressure recovery",
-    "Rotate hips perpendicular to opponent's centerline to maximize distance generation",
-    "Coordinate bridge-frame-rotate sequence in fluid, continuous motion rather than discrete steps",
-    "Generate multiple successive hip escapes when single escape is insufficient for full recovery",
-    "Time hip movement during opponent's pressure transitions or weight shifts",
-    "Maintain frame integrity throughout escape sequence to prevent space collapse",
-    "Position escaping hip toward opponent's legs rather than head to optimize angle creation",
-    "Recover guard structure immediately after creating sufficient distance"
+    "Establish frames that keep the opponent from following your hips.",
+    "Use a bridge or weight shift to free your hips when they are pinned.",
+    "Turn onto your side and move your hips away from the pressure.",
+    "Insert a knee as space opens; repeat the escape if one movement is not enough."
   ],
   "component_skills": [
     {
@@ -149,67 +144,19 @@
   "application_contexts": [
     {
       "context": "Side Control",
-      "how_applied": "Hip escapes create space between torso and opponent's chest pressure, enabling the practitioner to recover guard by inserting knee shield or establishing full guard after rotating perpendicular to opponent's body."
+      "how_applied": "Frame at the upper body and hip, turn onto your side, and move your hips away to bring the near knee inside."
     },
     {
       "context": "Mount",
-      "how_applied": "Bridging vertically to create separation while framing against opponent's hips or chest, then rotating hips to create angles that enable knee insertion and guard recovery or escape to turtle position."
+      "how_applied": "Frame at the hips and use a bridge to shift the top player’s weight before moving a knee toward the opening."
     },
     {
       "context": "Knee on Belly",
-      "how_applied": "Framing against the knee while executing small incremental hip escapes to progressively move away from the pressure point, eventually creating sufficient space to recover guard or achieve standing position."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "Bridging to create vertical space while framing against opponent's hips, then rotating toward opponent's legs while maintaining frame pressure to prevent opponent from following the movement."
-    },
-    {
-      "context": "Kesa Gatame",
-      "how_applied": "Creating space through repeated small bridges while maintaining frames against opponent's chest and hip, gradually accumulating distance until bottom arm can be extracted and guard recovery becomes possible."
-    },
-    {
-      "context": "Back Control",
-      "how_applied": "Using hip escape mechanics to create separation from opponent's hooks and chest pressure, rotating toward opponent's bottom hook while fighting to create the space necessary for turning into opponent's guard."
+      "how_applied": "Frame against the controlling knee and make small hip movements to bring your legs back between the bodies."
     },
     {
       "context": "Half Guard",
-      "how_applied": "Bridging and framing to prevent being flattened while executing hip escapes to create the angular relationships necessary for recovering full guard or initiating sweep attempts."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Hip escapes enable transitioning from turtle to guard by creating space and angular positioning that allows the practitioner to turn into opponent rather than remaining defensive in turtle structure."
-    },
-    {
-      "context": "High Mount",
-      "how_applied": "Executing hip escapes with frames positioned higher on opponent's body to create space despite elevated pressure position, often requiring smaller incremental movements than standard mount escapes."
-    },
-    {
-      "context": "Closed Guard",
-      "how_applied": "When posture is compromised, hip escapes help recover optimal positioning by creating space and angles that enable posture recovery or transition to more advantageous open guard positions."
-    },
-    {
-      "context": "Kuzure Kesa Gatame",
-      "how_applied": "Coordinating hip escapes with specific arm extraction sequences to escape modified scarf hold positions, using bridging to create initial space before rotating away from opponent's control."
-    },
-    {
-      "context": "S Mount",
-      "how_applied": "Timing hip escapes to coincide with opponent's weight transitions when establishing S-mount positioning, creating space during momentary base instability to prevent full position consolidation."
-    },
-    {
-      "context": "Technical Mount",
-      "how_applied": "Executing hip escapes toward opponent's lower hook while framing against hips to prevent full mount establishment, using rotation to recover guard before opponent secures both hooks."
-    },
-    {
-      "context": "Modified Mount",
-      "how_applied": "Adapting hip escape angles based on opponent's modified positioning, identifying which direction offers optimal escape path despite non-standard mount configuration."
-    },
-    {
-      "context": "Quarter Guard",
-      "how_applied": "Executing incremental hip escapes to create sufficient space for recovering full half guard from quarter guard position, where limited leg entanglement restricts the range of available escape movements."
-    },
-    {
-      "context": "Mounted Crucifix",
-      "how_applied": "Using limited hip mobility to create incremental space while opponent controls arms, focusing escape efforts on recovering arm position before full hip escape sequence becomes possible."
+      "how_applied": "Use upper-body frames to make room for hip movement, then recover your knee shield or bring the trapped leg through."
     }
   ],
   "decision_framework": [
@@ -256,71 +203,31 @@
   ],
   "common_errors": [
     {
-      "error": "Attempting hip rotation without bridging first to create initial space",
-      "consequence": "Hip movement occurs under full opponent pressure, generating minimal distance while expending maximum energy and often resulting in opponent following the movement to maintain control",
-      "correction": "Always initiate with explosive bridge to momentarily unweight hips before attempting rotation, creating the initial separation necessary for rotational movement to generate meaningful distance"
+      "error": "Moving under full pressure without making space",
+      "consequence": "Your hips barely travel and the top player follows easily.",
+      "correction": "Use a frame and a bridge or weight shift to free the hips before moving them away."
     },
     {
-      "error": "Allowing frames to collapse during hip movement execution",
-      "consequence": "Space created through bridging and rotation immediately collapses as opponent's pressure recovers unopposed, negating all progress made and often resulting in more consolidated control",
-      "correction": "Maintain active pushing pressure into frames throughout entire escape sequence, treating frame maintenance as equally important as the hip movement itself"
+      "error": "Letting the frames collapse",
+      "consequence": "The opponent fills the space you just created.",
+      "correction": "Keep your elbows supported and reposition the frames as your hips move."
     },
     {
-      "error": "Rotating hips toward opponent's head rather than legs",
-      "consequence": "Creates poor escape angles that enable opponent to easily follow movement and recover pressure, often leading to progressively worse positions or submission opportunities for opponent",
-      "correction": "Always orient hip escape direction toward opponent's legs or perpendicular to centerline, creating angles that force opponent to rotate entire body to follow rather than simply shifting pressure"
-    },
-    {
-      "error": "Attempting single large escape instead of multiple incremental movements",
-      "consequence": "Large movements are easily anticipated and countered by opponent, frequently failing completely and leaving practitioner exhausted with no progress toward escape",
-      "correction": "Execute series of smaller hip escapes that progressively accumulate distance, making each individual movement difficult to prevent while conserving energy through efficiency"
-    },
-    {
-      "error": "Hesitating or pausing between bridge and rotation phases",
-      "consequence": "Discrete movements allow opponent to recognize and counter each phase separately, preventing the compound effect of unified escape sequence and enabling pressure recovery between movements",
-      "correction": "Flow seamlessly from bridge into rotation in continuous movement, treating entire sequence as unified action rather than separate steps that can be individually countered"
-    },
-    {
-      "error": "Failing to time escapes with opponent's weight transitions",
-      "consequence": "Attempting escapes when opponent has maximum pressure and stable base makes movements significantly less effective, requiring far more strength and energy with lower success probability",
-      "correction": "Wait for moments when opponent shifts weight, adjusts position, or transitions between control points, exploiting temporary base instability to maximize escape effectiveness"
-    },
-    {
-      "error": "Creating space but failing to immediately recover guard structure",
-      "consequence": "Generated space is wasted as opponent recovers pressure before guard is reestablished, often resulting in practitioner being forced to repeat escape sequence multiple times",
-      "correction": "Recognize adequate space immediately and transition decisively from escape execution to guard recovery, inserting knees and establishing hooks without delay once threshold distance is achieved"
+      "error": "Making space without inserting a knee",
+      "consequence": "The gap closes before you recover guard.",
+      "correction": "Bring the near knee into the opening during the hip movement, then rebuild your guard."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Progressive Resistance Solo Drilling",
-      "description": "Practice bridge-frame-rotate sequences without resistance initially, focusing on movement quality, coordination, and fluidity before introducing partner pressure",
-      "focus": "Developing muscle memory for proper movement sequencing and building awareness of correct body positioning throughout escape mechanics"
+      "approach_name": "Frame, move, recover",
+      "description": "Start beneath light side control with frames set. The top partner eases weight as you turn, move your hips, and insert a knee. Reset once the knee is inside; switch roles.",
+      "focus": "Connect hip movement directly to knee recovery."
     },
     {
-      "approach_name": "Static Position Escape Repetitions",
-      "description": "Partner establishes control in specific pin position while practitioner executes predetermined number of hip escapes, gradually increasing resistance level as movement quality improves",
-      "focus": "Building technical proficiency under controlled resistance while developing the persistence required to execute multiple escape attempts when initial efforts are unsuccessful"
-    },
-    {
-      "approach_name": "Incremental Escape Challenge",
-      "description": "Partner allows only small movements per escape attempt, forcing practitioner to accumulate distance through multiple repetitions rather than single large escapes",
-      "focus": "Developing patience and persistence to continue executing small movements while building realistic expectations for escape progression under resistant opponent"
-    },
-    {
-      "approach_name": "Timing Recognition Drills",
-      "description": "Partner alternates between heavy static pressure and dynamic transitional movements, with practitioner executing escapes only during weight shifts or transitions",
-      "focus": "Developing sensitivity to opponent's weight distribution changes and learning to exploit brief windows of opportunity rather than forcing escapes against established pressure"
-    },
-    {
-      "approach_name": "Escape to Guard Recovery Flow",
-      "description": "Complete sequences from pin position through hip escapes to full guard recovery, emphasizing seamless transition from escape mechanics to guard construction without pause",
-      "focus": "Integrating hip escape mechanics with guard recovery skills to ensure created space results in improved position rather than wasted opportunity"
-    },
-    {
-      "approach_name": "Fatigue Resistance Training",
-      "description": "Execute hip escape repetitions while already fatigued from previous training, simulating realistic conditions where escapes must be performed despite exhaustion",
-      "focus": "Building mental toughness and technical consistency under fatigue, ensuring fundamental escape mechanics remain accessible during competition or intense sparring"
+      "approach_name": "Two-step hip escape",
+      "description": "Start in half guard with light pressure. The top partner follows the first hip movement slowly; use a second movement to recover the knee shield. Reset after recovery.",
+      "focus": "Keep frames through repeated movements."
     }
   ],
   "developmental_metrics": [
@@ -586,7 +493,7 @@
       "vertical": false,
       "channel": "Bernardo Faria BJJ Fanatics",
       "duration": 819,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "nHKXx3TDLaA",
@@ -595,7 +502,7 @@
       "vertical": false,
       "channel": "Wim Deputter BJJ",
       "duration": 756,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "qnPzh_CY-Ec",
@@ -604,7 +511,7 @@
       "vertical": false,
       "channel": "Kameron Ross",
       "duration": 59,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

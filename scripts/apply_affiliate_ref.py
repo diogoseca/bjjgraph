@@ -1,193 +1,246 @@
 #!/usr/bin/env python3
-"""apply_affiliate_ref.py — stamp the affiliate tracking ref into BUILT artifacts.
+"""Resolve course and evidence references in emitted artifacts only.
 
-WHY THIS EXISTS: every BJJFanatics product URL in content/Systems/*.json is
-authored with the literal placeholder `?rfsn=REPLACE_ME`. The real tracking id is a
-DEPLOYMENT PARAMETER, not content:
-  * it belongs to one affiliate account and can be rotated without touching a
-    single technique;
-  * this repo is PUBLIC, so committing it would publish a revenue identifier into
-    every fork and into git history forever, where it cannot be un-published;
-  * a fork, a local `npm run build`, and a preview deploy must all work with no
-    secret at all.
-So it lives in exactly one place — the AFFILIATE_REF GitHub secret — and is
-substituted into the build output on its way to Cloudflare Pages.
-
-Rewrites ONLY emitted, gitignored artifacts:
-  source/quartz/static/neural/systems.json   (Neural payload, `npm run regenerate:neural`)
-  source/public/**                           (built site, `npx quartz build` + `build:forward`)
-
-It NEVER rewrites content/Systems/*.json. The placeholder in authored content is
-load-bearing: it keeps the ref out of git, and it is what scripts/validate_json.py
-reports as "placeholder affiliate_url/image not yet replaced".
-
-A missing ref costs attribution on one deploy; a failed build costs the deploy —
-so no AFFILIATE_REF means WARNING and exit 0. A malformed ref exits 1, because it
-would ship a broken href into every product card.
-
-Commercial terms and the ref itself are intentionally NOT documented in this public repo.
-
-Usage:  AFFILIATE_REF=<ref> python3 scripts/apply_affiliate_ref.py [--dry-run]
-Exit:   0 = stamped, or nothing to do, or no ref; 1 = AFFILIATE_REF is unusable.
+Canonical source URLs never carry a referral. Missing configuration restores neutral
+references; invalid configuration fails. Repeated runs recompute from canonical URLs,
+including rotations/removal, and keep compressed siblings synchronized.
 """
-
 from __future__ import annotations
-
 import argparse
 import gzip
+from html import escape, unescape
+from html.parser import HTMLParser
+import json
 import os
+from pathlib import Path
 import re
 import sys
-from pathlib import Path
-
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit, unquote
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _atomic_io import atomic_write_text  # crash-safe writes  # noqa: E402
+from _atomic_io import atomic_write_text
+from _system_guides import canonical_course_url, is_bjjfanatics_url
+from _slug import slugify
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-NEURAL_SYSTEMS = PROJECT_ROOT / "source" / "quartz" / "static" / "neural" / "systems.json"
-PUBLIC_DIR = PROJECT_ROOT / "source" / "public"
-CONTENT_DIR = PROJECT_ROOT / "content"
-
-PLACEHOLDER = "REPLACE_ME"
-PLACEHOLDER_B = PLACEHOLDER.encode()
-
-# Text artifacts a product URL can reach: page HTML, Neural JSON payloads, the
-# search index, feeds, llms.txt, inlined bundles. Everything else under public/ is
-# binary (images, fonts) and is never read.
-TEXT_SUFFIXES = {".html", ".json", ".js", ".css", ".xml", ".txt"}
-
-# The ref is interpolated into href="" inside generated HTML, so an unvalidated
-# value is an HTML-injection primitive. Vendor tracking ids are opaque tokens;
-# anything outside this charset is a mis-set secret, not a ref.
-REF_RE = re.compile(r"\A[A-Za-z0-9._~%-]{1,64}\Z")
+CONTENT_DIR = PROJECT_ROOT / 'content'
+PUBLIC_DIR = PROJECT_ROOT / 'source/public'
+NEURAL_SYSTEMS = PROJECT_ROOT / 'source/quartz/static/neural/systems.json'
+TEXT_SUFFIXES = {'.html', '.json', '.xml', '.txt', '.md', '.js', '.css'}
+REF_RE = re.compile(r'[A-Za-z0-9][A-Za-z0-9._~-]{0,63}')
+PLACEHOLDER_RE = re.compile(r'REPLACE_ME', re.I)
 
 
-def configured_ref() -> str:
-    """CI environment wins; local builds can use the gitignored root .env.
-
-    Read only this setting as data. Never execute or source the file.
-    """
-    if "AFFILIATE_REF" in os.environ:
-        return os.environ["AFFILIATE_REF"].strip()
-    env_file = PROJECT_ROOT / ".env"
-    if env_file.is_file():
-        for line in env_file.read_text(encoding="utf-8").splitlines():
-            key, sep, value = line.strip().partition("=")
-            if sep and key.strip() == "AFFILIATE_REF":
-                return value.strip().strip("\"'")
-    return ""
+def configured_ref():
+    if 'AFFILIATE_REF' in os.environ:
+        return os.environ['AFFILIATE_REF']
+    path = PROJECT_ROOT / '.env'
+    if path.is_file():
+        for line in path.read_text().splitlines():
+            key, sep, value = line.strip().partition('=')
+            if sep and key.strip() == 'AFFILIATE_REF':
+                return value.strip().strip('\"\'')
+    return ''
 
 
-def targets() -> list[Path]:
-    """Emitted files that may carry the placeholder, in deterministic order."""
-    found: list[Path] = []
-    if NEURAL_SYSTEMS.is_file():
-        found.append(NEURAL_SYSTEMS)
+def validate_ref(ref):
+    if ref and (not REF_RE.fullmatch(ref) or PLACEHOLDER_RE.search(ref)):
+        raise ValueError('AFFILIATE_REF is invalid; use a real tracking token (1–64 letters, digits, dot, underscore, tilde or hyphen)')
+
+
+def affiliate_url(canonical, ref, system='', product=''):
+    """Only the supported vendor gets its referral syntax; other references stay neutral."""
+    validate_ref(ref)
+    try:
+        u = urlsplit(canonical)
+        if u.scheme != 'https' or not u.hostname or u.username or u.password or PLACEHOLDER_RE.search(unquote(canonical)):
+            return '', False
+    except (TypeError, ValueError):
+        return '', False
+    canonical = neutral_legacy_url(canonical)
+    u = urlsplit(canonical)
+    active = bool(ref and is_bjjfanatics_url(canonical))
+    if not active:
+        return canonical, False
+    campaign = [('rfsn', ref), ('utm_source', 'bjjgraph'), ('utm_medium', 'affiliate'), ('utm_campaign', 'systems'), ('utm_content', system.removeprefix('systems/')), ('utm_term', product)]
+    return urlunsplit((u.scheme, u.netloc, u.path, urlencode(parse_qsl(u.query, keep_blank_values=True) + campaign), u.fragment)), True
+
+
+def neutral_legacy_url(value):
+    """Strip tracking keys while preserving path, fragment and nontracking query semantics."""
+    value = unescape(value)
+    u = urlsplit(value)
+    # Keep canonical bytes untouched when already clean (e.g. %20 vs +, duplicate
+    # parameters, empty values). Removing tracking also preserves untouched pairs.
+    pairs = u.query.split('&') if u.query else []
+    query = []
+    for pair in pairs:
+        key = unquote(pair.partition('=')[0]).lower()
+        if key not in ('ref', 'rfsn') and not key.startswith('utm_'):
+            query.append(pair)
+    if query == pairs:
+        return value
+    return urlunsplit((u.scheme, u.netloc, u.path, '&'.join(query), u.fragment))
+
+
+
+def legacy_tracking_url(value):
+    try:
+        u = urlsplit(unescape(value))
+        keys = {k.lower() for k, _ in parse_qsl(u.query)}
+        return bool(PLACEHOLDER_RE.search(value) or (u.hostname in ('bjjfanatics.com', 'www.bjjfanatics.com') and keys & {'ref', 'rfsn'}))
+    except ValueError:
+        return False
+
+
+def neutralize_unmarked_text(text):
+    # Normalize previous built URLs before markers reconstruct this build's state.
+    # This also covers old search snippets, XML feeds and plain discovery text.
+    return re.sub(r'https?://[^\s<>"\'\)]+', lambda m: neutral_legacy_url(m[0]) if legacy_tracking_url(m[0]) else m[0], text)
+
+
+class Tag(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        self.tag, self.attrs = tag, dict(attrs)
+
+
+def read_tag(text):
+    parser = Tag(convert_charrefs=True); parser.feed(text)
+    return parser.attrs
+
+
+def tag_html(tag, attrs):
+    return '<' + tag + ''.join(' ' + k + ('' if v is None else '="' + escape(str(v), quote=True) + '"') for k, v in attrs.items()) + '>'
+
+
+def is_system_guide_html(text):
+    return bool(re.search(r'<[^>]+\sdata-system-guide(?:\s|=|>)', text, re.I))
+
+
+def resolve_html(text, ref):
+    # Automatically mark vendor links only in Systems guides. Explicit canonical
+    # markers still resolve in copied snippets and discovery on any surface.
+    system_guide = is_system_guide_html(text)
+    text = neutralize_unmarked_text(text)
+    # Clean pages emitted before inline commission notices were retired.
+    text = re.sub(r'<(p|span)\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>.*?</\1>', '', text, flags=re.S | re.I)
+    def anchor(match):
+        raw = match[0]; attrs = read_tag(raw)
+        href = attrs.get('href', '')
+        canonical = attrs.get('data-course-url') or attrs.get('data-source-url')
+        if canonical is None and system_guide and is_bjjfanatics_url(href):
+            canonical = neutral_legacy_url(href)
+            attrs['data-source-url'] = canonical
+        if canonical is not None:
+            url, active = affiliate_url(canonical, ref, attrs.get('data-system-slug', ''), attrs.get('data-product-id', ''))
+            if not url:
+                raise ValueError('Invalid canonical outbound URL in emitted anchor')
+            attrs.update(href=url, rel='sponsored nofollow noopener' if active else 'noopener')
+            attrs['data-affiliate'] = 'true' if active else 'false'
+            return tag_html('a', attrs)
+        if PLACEHOLDER_RE.search(href) or attrs.get('data-affiliate') == 'true':
+            attrs['href'] = neutral_legacy_url(href)
+            attrs['data-affiliate'] = 'false'; attrs['rel'] = 'noopener'
+            return tag_html('a', attrs)
+        return raw
+    text = re.sub(r'<a\b[^>]*>', anchor, text, flags=re.I)
+    if 'data-system-guide' in text and 'data-system-guide-style' not in text:
+        style = '<link rel="stylesheet" href="/static/system-guide.css" data-system-guide-style>'
+        text = text.replace('</head>', style + '</head>', 1) if '</head>' in text else style + text
+    if 'data-system-preview' in text and 'data-system-media-script' not in text:
+        text += '\n<script type="module" src="/static/system-guide-media.js" data-system-media-script></script>\n'
+    return text
+
+
+def resolve_json(value, ref, system=''):
+    if isinstance(value, dict):
+        system = slugify(value.get('name', '')) if 'products' in value or value.get('cat') == 'System' else system
+        out = {k: resolve_json(v, ref, system) for k, v in value.items()}
+        if 'course_url' in value and ('url' in value or 'affiliate' in value):
+            out['url'], out['affiliate'] = affiliate_url(value['course_url'], ref, system, value.get('id', ''))
+            if not out['url']:
+                raise ValueError('Invalid canonical course_url in emitted product')
+        elif 'url' in value and 'canonical_url' in value:
+            canonical = value.get('canonical_url') or neutral_legacy_url(value['url'])
+            out['canonical_url'] = canonical
+            out['url'], out['affiliate'] = affiliate_url(canonical, ref, system, value.get('id', ''))
+            if not out['url']:
+                raise ValueError('Invalid canonical source URL in emitted evidence')
+        elif isinstance(value.get('url'), str) and legacy_tracking_url(value['url']):
+            out['url'] = neutral_legacy_url(value['url']); out['affiliate'] = False
+        return out
+    if isinstance(value, list):
+        return [resolve_json(v, ref, system) for v in value]
+    if isinstance(value, str):
+        if '<a' in value or 'data-course-' in value or 'data-affiliate=' in value:
+            return resolve_html(value, ref)
+        return neutralize_unmarked_text(value)
+    return value
+
+
+def targets():
+    found = [NEURAL_SYSTEMS] if NEURAL_SYSTEMS.is_file() else []
+    content_chunks = NEURAL_SYSTEMS.parent / 'content'
+    if content_chunks.is_dir():
+        found += [p for p in sorted(content_chunks.glob('*.json')) if p.is_file() and not p.is_symlink()]
     if PUBLIC_DIR.is_dir():
-        found.extend(
-            p
-            for p in sorted(PUBLIC_DIR.rglob("*"))
-            # Symlinks are skipped: following one would write outside the deploy root.
-            if p.is_file() and not p.is_symlink() and p.suffix in TEXT_SUFFIXES
-        )
+        found += [p for p in sorted(PUBLIC_DIR.rglob('*')) if p.is_file() and not p.is_symlink() and p.suffix in TEXT_SUFFIXES]
     return found
 
 
-def stamp(path: Path, ref: str, dry_run: bool) -> int:
-    """Replace every placeholder in `path`; return the number of occurrences."""
-    # Belt and braces: the roots above are emitted-only. This makes a future
-    # refactor that widens them fail loudly instead of silently committing the ref
-    # into authored content.
-    if CONTENT_DIR in path.parents:
-        print(
-            f"[apply_affiliate_ref] ERROR: refusing to rewrite authored content {path}",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    data = path.read_bytes()
-    if PLACEHOLDER_B not in data:
-        return 0
-    hits = data.count(PLACEHOLDER_B)
-    if dry_run:
-        return hits
-
-    try:
-        text = data.decode("utf-8")
-    except UnicodeDecodeError:
-        print(f"[apply_affiliate_ref] WARNING: {path} is not UTF-8 text, skipped")
-        return 0
-    stamped = text.replace(PLACEHOLDER, ref)
-    atomic_write_text(path, stamped)
-
-    # A pre-compressed sibling (contentIndex.json.gz, questionBank.json.gz) is what
-    # Cloudflare serves to gzip-capable clients, so leaving it stale would serve the
-    # placeholder to almost every visitor.
-    sibling = path.with_suffix(path.suffix + ".gz")
-    if sibling.is_file():
-        sibling.write_bytes(gzip.compress(stamped.encode("utf-8"), mtime=0))
-        print(f"[apply_affiliate_ref] recompressed {sibling.relative_to(PROJECT_ROOT)}")
-    return hits
+def stamp(path, ref, dry_run=False):
+    validate_ref(ref)
+    if path.is_symlink() or CONTENT_DIR.resolve() in path.resolve().parents:
+        raise SystemExit('Refusing to rewrite source content or a symlink')
+    original = path.read_text(encoding='utf-8')
+    if path.suffix == '.json':
+        value = json.loads(original)
+        resolved = resolve_json(value, ref)
+        text = json.dumps(resolved, ensure_ascii=False, separators=(',', ':')) if resolved != value else original
+    elif path.suffix in ('.html', '.md'):
+        text = resolve_html(original, ref)
+    else:
+        text = neutralize_unmarked_text(original)
+    changed = int(text != original)
+    if not dry_run:
+        if changed:
+            atomic_write_text(path, text)
+        sibling = path.with_suffix(path.suffix + '.gz')
+        if sibling.is_file() and not sibling.is_symlink():
+            expected = text.encode()
+            try:
+                same = gzip.decompress(sibling.read_bytes()) == expected
+            except (OSError, EOFError):
+                same = False
+            if not same:
+                sibling.write_bytes(gzip.compress(expected, mtime=0))
+                changed = 1
+    return changed
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument(
-        "--dry-run", action="store_true", help="report what would be stamped, write nothing"
-    )
-    args = parser.parse_args()
-
+def main():
+    ap = argparse.ArgumentParser(description=__doc__); ap.add_argument('--dry-run', action='store_true'); args = ap.parse_args()
     ref = configured_ref()
-    if not ref:
-        print(
-            f"[apply_affiliate_ref] WARNING: AFFILIATE_REF is not set — leaving the "
-            f"{PLACEHOLDER} placeholder in place. Affiliate clicks from this build earn "
-            f"NOTHING. Set the AFFILIATE_REF secret ; a local or "
-            f"fork build needs no ref."
-        )
-        sys.exit(0)
-    if not REF_RE.match(ref):
-        print(
-            "[apply_affiliate_ref] ERROR: AFFILIATE_REF is not a plausible tracking id "
-            f"(expected 1-64 chars of A-Z a-z 0-9 . _ ~ % -, got {len(ref)} chars). "
-            "It would land inside an href in every product card.",
-            file=sys.stderr,
-        )
-        sys.exit(1)
-
-    # The ref value itself is never printed: it is a revenue identifier, and CI logs
-    # are the one place it could leak from a secret store into plain text.
-    print(f"[apply_affiliate_ref] AFFILIATE_REF present ({len(ref)} chars)")
-
-    files = targets()
-    if not files:
-        print(
-            f"[apply_affiliate_ref] WARNING: nothing built yet — no {PUBLIC_DIR.name}/ and no "
-            f"{NEURAL_SYSTEMS.name}. Run the build first; nothing to stamp."
-        )
-        sys.exit(0)
-
-    changed: list[tuple[Path, int]] = []
-    for path in files:
-        hits = stamp(path, ref, args.dry_run)
-        if hits:
-            changed.append((path, hits))
-
-    verb = "would stamp" if args.dry_run else "stamped"
-    total = sum(h for _, h in changed)
-    for path, hits in changed:
-        print(f"  · {path.relative_to(PROJECT_ROOT)} ({hits})")
-    if not changed:
-        print(
-            f"[apply_affiliate_ref] WARNING: scanned {len(files)} emitted file(s) and found no "
-            f"{PLACEHOLDER} — already stamped, or no system carries a product URL. Nothing done."
-        )
-        sys.exit(0)
-    print(
-        f"[apply_affiliate_ref] OK — {verb} {total} placeholder(s) in {len(changed)} of "
-        f"{len(files)} emitted file(s)."
-    )
+    try:
+        validate_ref(ref)
+        paths = targets()
+        count = sum(stamp(p, ref, args.dry_run) for p in paths)
+        if PUBLIC_DIR.is_dir() and not args.dry_run:
+            destination = PUBLIC_DIR / 'static/system-guide-media.js'
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            atomic_write_text(destination, (PROJECT_ROOT / 'scripts/system_guide_media.js').read_text())
+            stamp(destination, ref)  # Refresh an existing compressed sibling after copying.
+            preview = PUBLIC_DIR / 'static/system-preview.js'
+            atomic_write_text(preview, (PROJECT_ROOT / 'neural/src/system-preview.src.js').read_text())
+            stamp(preview, ref)
+            stylesheet = PUBLIC_DIR / 'static/system-guide.css'
+            atomic_write_text(stylesheet, (PROJECT_ROOT / 'scripts/system_guide.css').read_text())
+            stamp(stylesheet, ref)
+    except (ValueError, OSError) as exc:
+        # Never include raw URL or configuration values in logs.
+        print('[affiliate] FAIL: ' + ('AFFILIATE_REF invalid' if ref and (not REF_RE.fullmatch(ref) or PLACEHOLDER_RE.search(ref)) else type(exc).__name__ + ' resolving emitted references'), file=sys.stderr)
+        raise SystemExit(1)
+    print(f'[affiliate] {"Configured" if ref else "Neutral"}: {count} changed files / {len(paths)} scanned' + (' (dry run)' if args.dry_run else ''))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

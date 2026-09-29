@@ -2,7 +2,7 @@
 
 The best contribution is a correction to the graph.
 
-If a move is missing, a probability looks wrong or an outcome lands in the wrong state, open a [GitHub issue](https://github.com/diogoseca/bjjgraph/issues) or a pull request against the authored JSON. Include the state, role, ruleset and a source or technical argument. You do not need to run the project to report a correction.
+If a move is missing, a probability looks wrong or an outcome lands in the wrong state, open a [graph correction](https://github.com/diogoseca/bjjgraph/issues/new?template=correction.yml) or a pull request against the authored JSON. Include the state, role, ruleset and a source or technical argument. You do not need to run the project to report a correction.
 
 ## Propose a correction
 
@@ -91,6 +91,13 @@ such as `tmp/` for temporary work, `branding/` for shipped images, and `tests/ar
 referenced test evidence and baselines.
 
 Before touching the app, read [CLAUDE.md](CLAUDE.md) section 6. Use the checks for the area you changed; do not run paid content regeneration for an app-only fix.
+
+## Conduct and security
+
+Participation in this project is covered by the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+Never report a security problem in a public issue or pull request. [SECURITY.md](SECURITY.md) has
+the private route, what is in scope and what belongs in a correction instead.
 
 ## Licence
 

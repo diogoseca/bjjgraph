@@ -4,7 +4,7 @@
 
 ---
 title: "Making Smaller Circles | BJJ Principle | BJJ Graph"
-description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth training — refine core movement patterns until effortless, then expand for accelerated skill development."
+description: "Refine a familiar technique by removing unnecessary movement, testing one adjustment at a time, and then adding related variations."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Making Smaller Circles",
-  "description": "Master Making Smaller Circles in BJJ. Learn depth-before-breadth training — refine core movement patterns until effortless, then expand for accelerated skill development.",
+  "description": "Refine a familiar technique by removing unnecessary movement, testing one adjustment at a time, and then adding related variations.",
   "url": "https://bjjgraph.org/Principles/Making-Smaller-Circles",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Collecting techniques instead of refining them?",
+      "name": "What is a common mistake in Adding techniques before examining failures?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The practitioner knows the name and basic motion of many techniques but cannot execute any of them against a skilled, resisting opponent. Their game is a mile wide and an inch deep, and they default to strength and scrambling when techniques fail. The correction is: Commit to mastering one technique per position before adding the next. When the urge to learn something new arises, channel that energy into another hundred repetitions of the current technique against stiffer resistance."
+        "text": "The same weak grip, angle, or timing follows you into each variation. The correction is: Identify the exact point where a familiar technique stops working and address it first."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Abandoning a technique during the plateau phase?",
+      "name": "What is a common mistake in Repeating without a clear adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The practitioner drills a technique until initial improvement stalls, then switches to a new technique believing they have extracted all the value. They never reach the deep mastery phase where the technique becomes reflexive and truly effective. The correction is: Understand that plateaus are where deep learning happens — the nervous system is integrating the refined movement pattern below conscious awareness. Continue drilling through the plateau with focus on micro-refinements rather than macro changes."
+        "text": "More repetitions reinforce the same unresolved problem. The correction is: Choose one detail to change and ask the partner for specific feedback."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Expanding to variations before the core technique is truly mastered?",
+      "name": "What is a common mistake in Making the movement small at the expense of control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The practitioner builds variations on a shaky foundation. Each variation inherits the imprecisions of the unmastered core, and none of them work reliably against resistance. The entire chain of techniques is fragile. The correction is: Test mastery honestly: can you hit the technique against resisting opponents of varying sizes who know it is coming? If not, the core is not ready for expansion. Return to refinement until the answer is yes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Confusing repetition with refinement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The practitioner drills the technique thousands of times but without conscious attention to what can be improved. They are practicing the same imprecise movement repeatedly, reinforcing bad habits rather than refining toward efficiency. The correction is: Every repetition should have an intentional focus — one element being consciously refined. Mindless repetition builds consistency but not improvement. Focused repetition builds mastery."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Only applying the principle to offensive techniques and ignoring defensive skills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The practitioner has deeply refined attacks but shallow defenses. Their escapes, guard retention, and positional defense remain undeveloped because they never applied the same depth-first approach to defensive skills. The correction is: Apply Making Smaller Circles to one escape per position with the same intensity as attacks. A deeply refined mount escape is as valuable as a deeply refined mount attack, and the depth-first approach produces the same quality of mastery for both."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Failing to recognize when a technique's circle has become genuinely small enough?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The practitioner continues refining a technique past the point of useful return, neglecting to expand their game. They become a one-trick pony whose single technique, while excellent, is too predictable against experienced opponents. The correction is: When a technique works reliably against resisting opponents who know it is coming, it is time to expand. The signal for expansion is not perfection — it is consistent reliability under adversity. Begin the next circle."
+        "text": "The shortened version skips a grip or angle the technique needs. The correction is: Remove only motion that is unnecessary; restore any step that supplies essential control."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Making Smaller Circles",
-  "description": "Making Smaller Circles is a depth-before-breadth learning principle: refine one technique to extreme precision and efficiency until it works reflexively against resistance, then expand outward to variations that share its core mechanics.",
+  "description": "Making smaller circles is a practice method that refines one technique’s essential movements before adding closely related variations.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -205,13 +181,9 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
 
 ## What are Making Smaller Circles?
 
-**Making Smaller Circles is a depth-before-breadth learning principle: refine one technique to extreme precision and efficiency until it works reflexively against resistance, then expand outward to variations that share its core mechanics.**
+**Making smaller circles is a practice method that refines one technique’s essential movements before adding closely related variations.**
 
-Making Smaller Circles is a learning principle popularized by Josh Waitzkin in The Art of Learning, and it maps perfectly onto Brazilian Jiu-Jitsu. The idea is simple but profoundly counterintuitive: instead of learning many techniques at a surface level, take one technique — one movement, one sweep, one pass — and refine it to an absurd degree of precision. Strip it down to its essential mechanics. Practice it until the movement becomes smaller, tighter, and more efficient. Then practice it more until it works against resistance, against speed, against people who know it is coming. Only then expand outward to the next variation.
-
-In BJJ, this principle challenges the common temptation to collect techniques. A white belt who knows fifty sweeps but cannot finish any of them against a resisting opponent has made wide circles — broad but shallow. A blue belt who has drilled one sweep ten thousand times and can hit it from multiple angles against resisting opponents of all sizes has made the circle small — narrow but deep. The small-circle practitioner's single technique is more dangerous than the wide-circle practitioner's entire catalog because it has been pressure-tested, refined, and internalized to the point where it operates below conscious thought.
-
-The process of making smaller circles involves progressive reduction. First, learn the gross motor pattern of the technique. Then eliminate unnecessary movement — every extra inch of motion, every wasted grip adjustment, every telegraphing weight shift. Reduce the setup time. Reduce the space needed. Reduce the energy required. Eventually the technique becomes so refined that it appears effortless and its execution window shrinks to a fraction of a second. At this point, the technique has become a part of you rather than something you do, and you are ready to expand the circle outward — learning variations, combinations, and entries that build on the mastered foundation. This outward expansion is fast because the deep understanding of the core mechanic transfers to every variation.
+Pick a technique you can already attempt and locate the step that fails. Change one detail, test it with a partner, and keep the adjustment only if it helps.
 
 </section>
 
@@ -246,15 +218,10 @@ The process of making smaller circles involves progressive reduction. First, lea
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Master one technique deeply before adding variations — depth before breadth
-- Strip the technique down to its essential mechanical components and eliminate all unnecessary movement
-- Practice against progressive resistance to pressure-test every refinement
-- Reduce the setup time, space, and energy required for the technique with each iteration
-- Recognize that a technique is truly learned when it works against opponents who know it is coming
-- Expand outward to variations only after the core movement pattern is internalized below conscious thought
-- Apply the same depth-first approach to defensive skills, not just offensive techniques
-- Understand that speed comes from efficiency, not from moving faster — smaller circles are naturally faster
-- Trust the process through the plateau phases where refinement is happening but visible progress stalls
+- Work on one clear problem within a familiar technique.
+- Remove movements that do not improve control, angle, or timing.
+- Test each adjustment against a partner’s specific response.
+- Add a related variation when the original mechanics are reliable.
 
 
 </section>
@@ -285,29 +252,13 @@ The process of making smaller circles involves progressive reduction. First, lea
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: Instead of learning fifteen sweeps from closed guard, pick one — the hip bump sweep — and refine it until it works against opponents who know it is coming. Reduce the setup, tighten the angle, minimize the telegraph. Only expand to the kimura and guillotine when the hip bump is automatic.
+**Closed Guard**: Refine the hip bump sweep’s setup and angle, then add a follow-up that uses the opponent’s posting response.
 
-**Mount**: Master the cross collar choke from mount until it requires minimal setup and maximum efficiency. Drill it until the grips are set before the opponent can defend, the angle is perfect, and the finish is tight. Then expand to the armbar and triangle from mount, which share the same high-mount positioning.
+**Side Control**: Improve one guard-recovery escape by adjusting the frames and knee-to-elbow connection before adding another escape.
 
-**Side Control**: Refine one escape — the elbow escape to guard recovery — until it works against heavy pressure from large opponents. Eliminate extra movements, reduce the hip escape distance needed, tighten the knee-to-elbow connection. Then expand to bridge-based escapes that share the same initial framing mechanics.
+**Mount**: Refine the grip entry and body position for a familiar choke without rushing or adding finishing pressure.
 
-**Half Guard**: From bottom half guard, master the underhook-to-dogfight sequence. Drill the underhook entry, the hip escape to seated position, and the sweep or back take until each component is minimal and efficient. Then expand to knee shield, lockdown, and deep half variations.
-
-**Back Control**: From back control, master the rear naked choke. Refine the seatbelt grip, the choking arm insertion, the figure-four lock, and the finish until each step flows seamlessly. Only then expand to collar chokes, armbars from back, and short choke variations.
-
-**Butterfly Guard**: Master the basic butterfly sweep — hook elevation with collar and underhook grips — until the timing, angle, and load are automatic. Reduce the amplitude of the sweep until you can sweep with the smallest possible elevation. Then expand to arm drag entries and single leg entries that share the same off-balancing mechanic.
-
-**Standing Position**: Pick one takedown — the double leg — and refine every detail: level change, penetration step, head position, driving angle, and finish. Drill it until the entry is nearly invisible and the finish is guaranteed. Then expand to the single leg and body lock, which share the same level change and penetration mechanics.
-
-**De La Riva Guard**: Master the basic DLR sweep using the hook and far ankle control before exploring berimbolo, back takes, or transitions to X-guard. The deep understanding of DLR hook placement and balance disruption transfers to all DLR variations once the fundamental sweep is automatic.
-
-**Knee on Belly**: Refine knee on belly maintenance until you can hold the position against aggressive escape attempts with minimal energy. Focus on weight distribution, pressure angles, and hip connection. Then expand to attacks from knee on belly — baseball bat choke, armbar, far side armbar.
-
-**Turtle**: From the attacking position on turtle, master the clock choke or seatbelt-to-back-take as your primary attack. Refine the timing of the entry, the hand placement, and the transition until they are seamless. Then expand to crucifix entries and front headlock transitions that share grip and angle mechanics.
-
-**Open Guard**: Instead of learning six different open guard types, master one — collar-sleeve guard, for instance — and refine the grip fighting, distance management, and primary sweep until they work against passers of all styles. The deep guard understanding then transfers when adding spider guard or lasso guard.
-
-**Combat Base**: Master one guard pass from combat base — the knee cut, for instance — with such refinement that the entry, the weight shift, and the consolidation are seamless. Reduce telegraph, tighten the pass, and minimize the space the guard player has to react. Then expand to leg drag and smash passes.
+**Butterfly Guard**: Repeat one sweep setup and adjust hook position or control of the posting arm to address where it stalls.
 
 
 
@@ -331,24 +282,15 @@ The process of making smaller circles involves progressive reduction. First, lea
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Collecting techniques instead of refining them
-  - **Consequence**: The practitioner knows the name and basic motion of many techniques but cannot execute any of them against a skilled, resisting opponent. Their game is a mile wide and an inch deep, and they default to strength and scrambling when techniques fail.
-  - **Correction**: Commit to mastering one technique per position before adding the next. When the urge to learn something new arises, channel that energy into another hundred repetitions of the current technique against stiffer resistance.
-- **Mistake**: Abandoning a technique during the plateau phase
-  - **Consequence**: The practitioner drills a technique until initial improvement stalls, then switches to a new technique believing they have extracted all the value. They never reach the deep mastery phase where the technique becomes reflexive and truly effective.
-  - **Correction**: Understand that plateaus are where deep learning happens — the nervous system is integrating the refined movement pattern below conscious awareness. Continue drilling through the plateau with focus on micro-refinements rather than macro changes.
-- **Mistake**: Expanding to variations before the core technique is truly mastered
-  - **Consequence**: The practitioner builds variations on a shaky foundation. Each variation inherits the imprecisions of the unmastered core, and none of them work reliably against resistance. The entire chain of techniques is fragile.
-  - **Correction**: Test mastery honestly: can you hit the technique against resisting opponents of varying sizes who know it is coming? If not, the core is not ready for expansion. Return to refinement until the answer is yes.
-- **Mistake**: Confusing repetition with refinement
-  - **Consequence**: The practitioner drills the technique thousands of times but without conscious attention to what can be improved. They are practicing the same imprecise movement repeatedly, reinforcing bad habits rather than refining toward efficiency.
-  - **Correction**: Every repetition should have an intentional focus — one element being consciously refined. Mindless repetition builds consistency but not improvement. Focused repetition builds mastery.
-- **Mistake**: Only applying the principle to offensive techniques and ignoring defensive skills
-  - **Consequence**: The practitioner has deeply refined attacks but shallow defenses. Their escapes, guard retention, and positional defense remain undeveloped because they never applied the same depth-first approach to defensive skills.
-  - **Correction**: Apply Making Smaller Circles to one escape per position with the same intensity as attacks. A deeply refined mount escape is as valuable as a deeply refined mount attack, and the depth-first approach produces the same quality of mastery for both.
-- **Mistake**: Failing to recognize when a technique's circle has become genuinely small enough
-  - **Consequence**: The practitioner continues refining a technique past the point of useful return, neglecting to expand their game. They become a one-trick pony whose single technique, while excellent, is too predictable against experienced opponents.
-  - **Correction**: When a technique works reliably against resisting opponents who know it is coming, it is time to expand. The signal for expansion is not perfection — it is consistent reliability under adversity. Begin the next circle.
+- **Mistake**: Adding techniques before examining failures
+  - **Consequence**: The same weak grip, angle, or timing follows you into each variation.
+  - **Correction**: Identify the exact point where a familiar technique stops working and address it first.
+- **Mistake**: Repeating without a clear adjustment
+  - **Consequence**: More repetitions reinforce the same unresolved problem.
+  - **Correction**: Choose one detail to change and ask the partner for specific feedback.
+- **Mistake**: Making the movement small at the expense of control
+  - **Consequence**: The shortened version skips a grip or angle the technique needs.
+  - **Correction**: Remove only motion that is unnecessary; restore any step that supplies essential control.
 
 
 </section>
@@ -356,23 +298,11 @@ The process of making smaller circles involves progressive reduction. First, lea
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Single Technique Deep Drilling** (Focus: Building the depth-first habit and developing sensitivity to the micro-refinements that separate a drilled technique from a mastered one. Forces the practitioner to find improvement within a single movement rather than escaping to novelty.)
-Dedicate an entire training session (or multiple sessions) to a single technique. Begin with cooperative repetitions, progress to light resistance, then moderate resistance, then full positional sparring with the single technique as the only allowed attack. Track what changes with each round.
+**One-detail comparison** (Focus: Find an adjustment you can explain and repeat.)
+Choose one familiar pass with a cooperative partner. Repeat it with one grip or hip-angle adjustment, then compare the result with the original. Reset to identical starting grips each time.
 
-**Video Self-Analysis** (Focus: Developing the self-assessment skill that drives conscious refinement. Video reveals the gap between what the practitioner thinks they are doing and what they are actually doing, providing objective feedback for the refinement process.)
-Record training sessions and compare the technique execution across different rounds and partners. Look for unnecessary movements, telegraphing, and inefficiencies that are invisible in real-time but obvious on video. Note one refinement target per review session.
-
-**Constraint-Based Drilling** (Focus: Accelerating the refinement process by creating conditions where unnecessary movement is punished and efficiency is rewarded. Constraints bypass the comfort zone and force the kind of technical innovation that makes circles smaller.)
-Practice the technique with artificial constraints that force refinement: execute the sweep without using one hand, complete the pass in a smaller space, finish the submission in under three seconds. Each constraint forces the practitioner to find efficiency gains that they would not discover in unconstrained practice.
-
-**Progressive Resistance Ladder** (Focus: Systematically testing refinements against increasing resistance to ensure that each improvement survives pressure. Builds the realistic confidence that comes from knowing a technique has been validated against genuine opposition at every level.)
-Drill the technique against partners who provide escalating resistance: 20% resistance for ten reps, 40% for ten, 60% for ten, 80% for ten, then live positional sparring. After each resistance level, note what stopped working and adjust before climbing to the next level.
-
-**Teaching-Based Refinement** (Focus: Using the act of teaching as a refinement tool. Verbalizing technique mechanics forces conscious awareness of details that may have become unconscious, revealing opportunities for further refinement.)
-Teach the technique to a less experienced partner, forcing yourself to articulate every detail of its mechanics. Teaching reveals gaps in understanding — if you cannot explain why a detail matters, you may not fully understand it yourself. Use the teaching process to identify blind spots in your own technique.
-
-**Competition Simulation Rounds** (Focus: The ultimate pressure test for Making Smaller Circles. If the refined technique works consistently at competition intensity against prepared opponents, the circle has been made genuinely small. If it breaks down, return to refinement with the specific failure point identified.)
-Set up positional sparring that simulates competition intensity: start from a specific position, use the mastered technique as your primary weapon, and roll at near-competition intensity. Track success rate across multiple rounds to measure whether the technique performs under pressure.
+**Single-response practice** (Focus: Refine against a specific problem.)
+Choose a familiar sweep and one defense. The partner gives that response gently on every repetition while you refine the setup. Reset after the sweep or a clear stall, and discuss what changed.
 
 
 

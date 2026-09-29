@@ -17,6 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _system_guides import validate_guide
 from _slug import slugify as _slugify  # shared single-source slugify
 from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
     RULESETS,
@@ -310,14 +311,14 @@ def validate_products(data, category):
             continue
         loc = f"products[{i}]"
         title = p.get("title", loc)
-        url = str(p.get("affiliate_url", ""))
+        url = str(p.get("course_url", ""))
         image = str(p.get("image", ""))
         if not url:
-            warnings.append(f"{loc} ('{title}'): missing affiliate_url")
+            warnings.append(f"{loc} ('{title}'): missing course_url")
         elif "placehold.co" in image:
             warnings.append(
                 f"{loc} ('{title}'): placeholder cover image; use verified course artwork "
-                f"or omit the image. The referral placeholder is expected until build time."
+                f"or omit the image. Do not author placeholder URLs."
             )
         status = str(p.get("link_status", "")).lower()
         if status and status != "live":
@@ -1251,6 +1252,12 @@ def validate_json_file(json_path, schema, category, strict=False):
         msg = f"Schema validation error: {e.message} at {'.'.join(str(p) for p in e.path)}"
         errors.append(msg)
         categories["blocking"].append(msg)
+
+    if category == "Systems" and not categories["blocking"]:
+        guide_errors, guide_warnings = validate_guide(data)
+        errors.extend(guide_errors)
+        categories["blocking"].extend(guide_errors)
+        warnings.extend(guide_warnings)
 
     # Name mismatch → non_blocking
     name_errors = validate_name_matches_filename(data, json_path, category)

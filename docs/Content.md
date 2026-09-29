@@ -198,7 +198,8 @@ Do not copy a different content type's section list as if it were interchangeabl
 
 ### Answer-First Summary
 
-All schema-backed content types require a root `summary`, with a schema length of 30–300 characters.
+All schema-backed content types require a root `summary`, with a schema length of 30–300 characters
+(Principles cap it at 260).
 Editorially, write one self-contained definition sentence, roughly 15–40 words. Avoid promotional
 claims and keep it distinct from `overview`, which should supply context rather than repeat it.
 Templates render summaries as bold leads and emit `DefinedTerm` JSON-LD on canonical hub/single pages.
@@ -292,17 +293,65 @@ That is not permission to publish placeholders.
 
 ### Systems, Principles, and Learning
 
-- **Systems:** author the system type, difficulty, principles, components, implementation sequence,
-  obstacles, assessment metrics, training methodology, related content, and root flashcards.
-  Curated `products` are optional. Verify a product URL before setting `link_status` to `live`,
-  record `link_checked`, and preserve disclosure in the generated link surface. Never include
-  private affiliate identifiers or commercial terms in content.
+- **Systems:** follow `templates/Systems.json`. Keep identity and graph membership stable.
+  `guide.display_title` is editorial; write one substantive overview of advertised instruction,
+  fit and scope from inspected primary evidence. Listings do not establish technical mechanics.
+  No invented exercises, study tasks, mastery claims or `guide.start_here`; do not move retired
+  tasks into prose. No length quotas or repetitive legacy scaffolding. Summary stays useful for
+  search and is not repeated above the overview. Never invent review credentials or endorsement.
+  Optional `guide.alternatives` entries are `{system,reason}`: exact existing System name and a
+  specific reason, including same-course/topic comparisons when useful. Emission resolves real
+  internal `{system,reason,url,title}` entries in rich dossiers only; unknown names fail.
+  `audience.consider_alternative_if` may be empty; named comparisons belong in alternatives.
+  Source-free topic guides require root review; never fabricate evidence to fill them.
+  Preserve source IDs, URLs and verification dates unless actually rechecked; report corrections.
+  Optional previews use exact allowlisted official YouTube/Bunny URLs and mount inline with muted
+  autoplay and visible player controls. Compact preview metadata in the Systems index allows immediate
+  mounting while the full guide loads. `playback_verified_on` records actual playback checks; it does
+  not gate playback by the visitor's origin. Browser-blocked autoplay leaves normal player controls.
+  A page 200 never proves playback or instruction review. Unreviewed notes belong quietly in Sources.
+  Static/app order: title and distinct pills/count, official preview, actual course/instructor CTA,
+  overview, audience, coverage, final CTA, related guides/cards, compact Sources.
+  Top/end CTAs share one primary product, with or without a preview. Related guide labels use the target editorial title; emitted `source_name` keeps stable
+  identity and the URL stays unchanged. Related references
+  include positions and are not proficiency evidence; render a shared qualifier, not one per node.
+  Products use verified canonical `course_url` without tracking/query placeholders; only live
+  links render. Every Systems BJJFanatics outbound source/blog/preview/course link is attributed at build
+  time with valid `AFFILIATE_REF`; other hosts remain ordinary sources. Evidence URLs may retain
+  nontracking query semantics. Rich BJJFanatics sources emit `canonical_url`, resolved `url` and
+  boolean `affiliate`. Source Markdown stays neutral with course/source markers; built links get
+  sponsored attributes without inline commission notices. Missing ref is neutral, invalid ref
+  fails; rotation/removal recomputes canonical links and refreshes gzip/discovery copies. Never
+  expose root `.env` values. Source and emitted gates run separately after the final resolver.
 - **Principles:** author application and complexity levels, development timeline, component skills,
   relationships, application contexts, decision framework, errors, training approaches,
   developmental metrics, related content, root flashcards, and `graph_applicability`.
-- **Learning:** author the category, key takeaways, BJJ applications, common mistakes, training
-  exercises, `knowledge_assessment`, and related content. This type uses `knowledge_assessment`,
-  unlike technique role decks. External `references` are optional.
+  Keep the reading sections concise: one definition sentence in `summary` (at most 260 characters),
+  then 1–2 practical sentences in `overview` (40–320 characters). Skip origin stories, generic
+  praise, and repeated definitions. Use 3–5 actionable key points, 3–5 distinct examples,
+  3–4 mistakes with brief consequences and corrections, and 2–3 focused drills. Put the most
+  useful entries first: the sidebar previews 3 points, 2 examples, 2 mistakes, and 1 drill,
+  with independent disclosures for the rest. A drill needs setup, action, and a reset or stop
+  condition; submission drills emphasize cooperative recognition and control without resisted
+  joint or neck finishing pressure. The schema enforces section and entry length limits.
+- **Learning:** answer one practical question for regular practitioners; keep introductory guides
+  accessible to beginners. Use a one-sentence summary (at most 260 characters) and a distinct
+  one- or two-sentence introduction (30–450 characters). Prefer recognizable situations, decisions,
+  and useful limitations to repeated definitions or motivational padding. Overlapping articles
+  need different purposes, not different wording for the same advice.
+  Author 3–5 takeaways, 2–4 examples with observable outcomes, 1–3 mistakes with corrections, and
+  1–2 exercises with setup, action, and reset or stop conditions. Optional `knowledge_assessment`
+  contains at most four question/answer pairs inside the reader; it does not create a scored deck.
+  Remove invented precision, guaranteed results, and unsupported progression promises. Cite only
+  relevant primary sources actually inspected; external `references` are optional, not decoration.
+  Optional `display_title` changes reader labels while `name`, filename, URL and dossier key stay
+  stable. The app and static page share complete edited text, including example outcomes, assessment,
+  sources and resolved related reading links to Learning, Principles and Systems. Never silently clip
+  Learning prose to fit a payload: edit the source within schema limits and preserve payload budgets.
+  Initially show 3 takeaways, 2 examples, 2 mistakes and 1 exercise, with independent native
+  disclosures for the remainder. Self-assessment answers, the technique browser and sources start
+  collapsed. Related reading precedes the technique browser. Omit empty sections; do not send a
+  reader elsewhere to read the full article. Static disclosures must work without JavaScript.
 
 ## Flashcards
 
@@ -319,7 +368,7 @@ python3 scripts/rewrite_questions.py --apply
 ```
 
 There is no universal 5–20-card bound. DUAL/SINGLE position role decks use 6–8 cards, technique roles
-have the minima listed above, and Systems/Principles use 6–20. FAMILY position role decks are not
+have the minima listed above, and Principles use 6–20; Systems have no minimum. FAMILY position role decks are not
 required in the same way as DUAL role decks. Follow the selected schema and author useful questions,
 not filler to reach a preferred count.
 
@@ -388,7 +437,7 @@ schedule or imply that elapsed time makes a dangerous technique safe.
 transition names, changed a technique's canonical `from_position`, or dropped existing outcome
 targets. This protects selected structural fields, not every possible editorial invariant.
 
-Curated Systems `products`, root/role `clips`, and flashcard `answer_line`/`distractors` are excluded
+Curated Systems `products` (including canonical course URLs), root/role `clips`, and flashcard `answer_line`/`distractors` are excluded
 from the AI response contract and restored on save. Position attempt probabilities are restored
 from the original by transition name before normalization. Do not describe the current save path
 as freely retuning those authored occurrence estimates. Probability groups are normalized per
@@ -428,7 +477,20 @@ Sourcing uses yt-dlp search results, AI-assisted selection from those results, a
 checks. “Never AI-authored” here means never invent IDs or let general content enrichment replace
 curated clips; it does not mean the sourcing pipeline has no AI step. The generated
 `clips_sourcing/review.html` report supports human inspection. Delete unsuitable selections from
-the content JSON and regenerate the report.
+the content JSON and regenerate the report. Its principle coverage table includes empty pages,
+missing Shorts, and sourcing review notes so gaps remain visible alongside the selected videos.
+
+Principle sourcing prefers focused YouTube Shorts and supplements existing instructionals.
+`python3 scripts/source_clips.py --category Principles --redo-principles` refreshes the searches;
+new selections are deduplicated by video ID, ordered with Shorts first, and capped at four.
+Keep at least one existing longer instructional when Shorts would otherwise fill all four slots.
+An empty search or unsuccessful verification never removes existing selections. A short runtime
+alone is not evidence of the portrait format. Principle sourcing also reads instructor Shorts
+tabs because yt-dlp's ordinary search applies a Videos-only filter; `--shorts-channel HANDLE`
+can override the default instructor handles (repeat the flag for multiple channels). Picks still
+require relevance curation and oEmbed verification. Format comes from portrait-thumbnail checks
+or official Shorts-tab URLs with portrait thumbnail dimensions. Re-verification retains the
+known format when portrait thumbnails are missing or temporarily unavailable.
 
 `validate:json` rejects inverted loop bounds but only warns about duplicate IDs and end times past
 the recorded duration. Network availability checks belong to `verify_clips.py`; neither tool checks

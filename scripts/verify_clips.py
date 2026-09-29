@@ -64,9 +64,12 @@ def main():
             checked += 1
             if v["status"] == "ok":
                 passed += 1
-                if clip.get("verified") != today or clip.get("vertical") != v["vertical"]:
+                # Missing/transient thumbnail evidence cannot turn an established
+                # Short into landscape. Official Shorts-tab metadata may be stronger.
+                vertical = v["vertical"] if isinstance(v["vertical"], bool) else clip.get("vertical", False)
+                if clip.get("verified") != today or clip.get("vertical") != vertical:
                     clip["verified"] = today
-                    clip["vertical"] = v["vertical"]
+                    clip["vertical"] = vertical
                     if v["channel"]:
                         clip["channel"] = v["channel"]
                     changed = True

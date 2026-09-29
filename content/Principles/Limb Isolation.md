@@ -4,7 +4,7 @@
 
 ---
 title: "Limb Isolation | BJJ Principle | BJJ Graph"
-description: "Understand limb isolation in BJJ: separate a target from its supporting structures, deny reconnection, and apply the same ideas to passing, escapes, and submissions."
+description: "Separate a limb from its supports and block its return to create passing, pinning, or submission-entry opportunities."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Understand limb isolation in BJJ: separate a target from its suppo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Limb Isolation",
-  "description": "Understand limb isolation in BJJ: separate a target from its supporting structures, deny reconnection, and apply the same ideas to passing, escapes, and submissions.",
+  "description": "Separate a limb from its supports and block its return to create passing, pinning, or submission-entry opportunities.",
   "url": "https://bjjgraph.org/Principles/Limb-Isolation",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Understand limb isolation in BJJ: separate a target from its suppo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Gripping the hand or foot while the shoulder or hip is free?",
+      "name": "What is a common mistake in Holding only the wrist or ankle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent rotates the proximal joint and brings their whole body behind your grip. The correction is: Travel up the limb and control the shoulder or hip; treat the endpoint as a handle, not the target."
+        "text": "The opponent turns the shoulder or hip and reconnects the limb. The correction is: Control above the joint and use the endpoint as a handle."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Separating the limb without building a barrier?",
+      "name": "What is a common mistake in Separating without blocking the return?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It reconnects during your very next movement, and the attack dies on the transition rather than on the finish. The correction is: Put a knee, shin, shoulder or head on the reconnection route before advancing."
+        "text": "The limb reconnects as soon as you change grips or position. The correction is: Place a structural barrier on the return route before moving on."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Reaching for the limb instead of moving your body to it?",
+      "name": "What is a common mistake in Reaching away from your base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Your base leaves with your arms and the opponent sweeps or reverses into the space you vacated. The correction is: Bring your hips and chest to the isolated side so structure holds the separation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Squeezing continuously to maintain control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effort climbs while the opponent's options stay open, and the grip fails as soon as you fatigue. The correction is: Improve the position of your barriers; a well-placed shin outlasts any grip."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Isolating the limb but ignoring the torso?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The opponent turns into you and the arm simply travels with their body, arriving back on support. The correction is: Deny rotation as well as reconnection — control the hips or pin the far shoulder."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ripping a captured limb straight out on defense?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Withdrawal against a good line loads the joint further and finishes the submission for the attacker. The correction is: Reconnect and re-orient first, change the angle of the joint, and tap when the line is already set."
+        "text": "The opponent uses the gap to reverse or move into your space. The correction is: Bring your hips and chest toward the isolated side instead of extending your arms farther."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Understand limb isolation in BJJ: separate a target from its suppo
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Limb Isolation",
-  "description": "Limb isolation is the separation of one arm or leg from the supports that make it strong — the torso, the opposite limb, and the mat — so that a small part of the opponent must answer for itself.",
+  "description": "Limb isolation separates an arm or leg from the torso, other limbs, or mat supports that help the opponent move and defend it.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -167,34 +143,84 @@ description: "Understand limb isolation in BJJ: separate a target from its suppo
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Limb Isolation \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Isolating the arm for triangle and armbar attacks",
+      "description": "Limb Isolation film study: Isolating the arm for triangle and armbar attacks, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iMrrpT7rLaQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iMrrpT7rLaQ",
+      "url": "https://www.youtube.com/watch?v=iMrrpT7rLaQ",
+      "creator": { "@type": "Person", "name": "Andre Galvao" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount fundamentals and arm isolation",
+      "description": "Limb Isolation film study: Mount fundamentals and arm isolation, taught by Tren Long.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WBX03jm1qFA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WBX03jm1qFA",
+      "url": "https://www.youtube.com/watch?v=WBX03jm1qFA",
+      "creator": { "@type": "Person", "name": "Tren Long" },
+      "duration": "PT278S"
+    }
+  ]
+}
+</script>
+
 
 <section id="overview" class="content-section">
 
 ## What is Limb Isolation?
 
-**Limb isolation is the separation of one arm or leg from the supports that make it strong — the torso, the opposite limb, and the mat — so that a small part of the opponent must answer for itself.**
+**Limb isolation separates an arm or leg from the torso, other limbs, or mat supports that help the opponent move and defend it.**
 
-Nearly every submission in jiu-jitsu is a fight over a single joint, but that joint is never alone. A trapped arm can be rescued by the shoulder, by the opposite hand, by a turn of the torso, or by a post on the mat, and a trapped leg can be rescued by its partner knee. The work of isolation is removing those helpers one at a time until the limb has nothing left to borrow strength from. It starts long before a finishing grip: a passer who staples one knee to the mat has isolated a leg, and a sweeper who occupies one posting arm has isolated a post.
-
-Mechanically, isolation is control of the joint nearer the torso, not control of the endpoint. Gripping a wrist while the elbow is free lets the opponent rotate the shoulder and bring their whole body behind your grip; pinning the elbow, or the knee, changes which structures can be recruited at all. Barriers matter as much as grips — a knee behind the elbow, a shoulder in the hip crease, a leg line across the hips — because a barrier denies the reconnection route without asking your hands to out-muscle anything. Two of your limbs plus a barrier against one of theirs is the arithmetic the principle is built on.
-
-The defender solves the same problem in reverse. Reconnecting the elbow to the ribs or the knee to the chest, re-orienting the joint so the attacker's lever no longer aligns, and rebuilding a post are all faster and safer than pulling a captured limb straight out; withdrawal against a good line usually loads the joint further. Read both sides of the exchange, keep your own base while you separate, and release control rather than chase it once your structure is gone.
+Control the shoulder or hip as well as the wrist or ankle. Place a barrier on the return route before changing grips or advancing position.
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Limb Isolation in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=iMrrpT7rLaQ)
+
+<p class="clip-credit"><strong>Isolating the arm for triangle and armbar attacks</strong> — taught by Andre Galvao · <a href="https://www.youtube.com/watch?v=iMrrpT7rLaQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WBX03jm1qFA)
+
+<p class="clip-credit"><strong>Mount fundamentals and arm isolation</strong> — taught by Tren Long · 4:38 · <a href="https://www.youtube.com/watch?v=WBX03jm1qFA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Isolation removes supports rather than adding force — count the helpers before you commit to a target
-- Control the proximal joint (shoulder, hip) before the endpoint (wrist, ankle)
-- A limb reconnected to the torso is strong; a limb separated from it is a lever
-- Use two or more of your own limbs plus a structural barrier against one of theirs
-- Deny the reconnection route before advancing the attack, never after
-- Isolation serves position as often as submission — one pinned knee opens a pass
-- Keep your own base while separating; reaching for a limb trades position for a grip
-- The defender's first job is reconnection and re-orientation, not withdrawal
+- Identify which contacts support the target limb.
+- Control the shoulder or hip as well as the endpoint.
+- Place a knee, shin, or other barrier on the reconnection route.
+- Keep your own base while moving closer to the isolated limb.
 
 
 </section>
@@ -223,29 +249,13 @@ The defender solves the same problem in reverse. Reconnecting the elbow to the r
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Closed Guard**: The bottom player breaks posture so both hands cannot base wide, then pulls one arm across the centerline where the shoulder, not the wrist, is controlled.
+**High Mount**: Keep an elbow separated from the ribs to remove a defensive frame and prepare an armbar entry.
 
-**High Mount**: Trapping one elbow above the shoulder line separates the arm from the ribs, removing the frame that holds mount off and opening the armbar.
+**Butterfly Guard**: Use an overhook or arm drag to occupy the hand that would post on the sweep side.
 
-**Knee Shield Half Guard**: Both players isolate: the bottom player traps the passer's near arm in the underhook race, the passer kills the shield by isolating the bottom knee.
+**Headquarters Position**: Contain one leg between your own so the guard player cannot easily bring both knees back in front.
 
-**Back Control**: Gift-wrapping one arm removes half the defensive frame around the collar, so the choking arm meets one hand rather than two.
-
-**Front Headlock**: The head and one arm are separated from the hips and the far side; anaconda and darce finishes depend on the far shoulder being unable to reconnect.
-
-**Ashi Garami**: The entanglement isolates one leg from the other leg and from the hips, so the knee line can be attacked without the free leg assisting the defense.
-
-**Knee on Belly**: Pinning the near elbow away from the ribs denies the frame that would create space, feeding the far-side armbar and the transition to mount.
-
-**Butterfly Guard**: An overhook or arm drag occupies the post on the elevation side, so a single hook can lift a body that has nowhere to base.
-
-**Kimura Trap**: Two hands control one shoulder while the trapped torso is denied rotation, which is the cleanest expression of the principle in the whole system.
-
-**Crucifix**: Both arms are isolated separately, one by the legs and one by the upper body, which is why finishes arrive there with almost no pressure applied.
-
-**North-South**: Isolating one arm overhead removes the framing side, enabling the north-south kimura and the far-arm choke that follow it.
-
-**Headquarters Position**: The passer isolates one leg between their own so the guard player's knees cannot track together and re-square to the hips.
+**Back Control**: Trap one arm while maintaining chest contact to reduce the hands available for defensive grip fighting.
 
 
 
@@ -269,24 +279,15 @@ The defender solves the same problem in reverse. Reconnecting the elbow to the r
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Gripping the hand or foot while the shoulder or hip is free
-  - **Consequence**: The opponent rotates the proximal joint and brings their whole body behind your grip.
-  - **Correction**: Travel up the limb and control the shoulder or hip; treat the endpoint as a handle, not the target.
-- **Mistake**: Separating the limb without building a barrier
-  - **Consequence**: It reconnects during your very next movement, and the attack dies on the transition rather than on the finish.
-  - **Correction**: Put a knee, shin, shoulder or head on the reconnection route before advancing.
-- **Mistake**: Reaching for the limb instead of moving your body to it
-  - **Consequence**: Your base leaves with your arms and the opponent sweeps or reverses into the space you vacated.
-  - **Correction**: Bring your hips and chest to the isolated side so structure holds the separation.
-- **Mistake**: Squeezing continuously to maintain control
-  - **Consequence**: Effort climbs while the opponent's options stay open, and the grip fails as soon as you fatigue.
-  - **Correction**: Improve the position of your barriers; a well-placed shin outlasts any grip.
-- **Mistake**: Isolating the limb but ignoring the torso
-  - **Consequence**: The opponent turns into you and the arm simply travels with their body, arriving back on support.
-  - **Correction**: Deny rotation as well as reconnection — control the hips or pin the far shoulder.
-- **Mistake**: Ripping a captured limb straight out on defense
-  - **Consequence**: Withdrawal against a good line loads the joint further and finishes the submission for the attacker.
-  - **Correction**: Reconnect and re-orient first, change the angle of the joint, and tap when the line is already set.
+- **Mistake**: Holding only the wrist or ankle
+  - **Consequence**: The opponent turns the shoulder or hip and reconnects the limb.
+  - **Correction**: Control above the joint and use the endpoint as a handle.
+- **Mistake**: Separating without blocking the return
+  - **Consequence**: The limb reconnects as soon as you change grips or position.
+  - **Correction**: Place a structural barrier on the return route before moving on.
+- **Mistake**: Reaching away from your base
+  - **Consequence**: The opponent uses the gap to reverse or move into your space.
+  - **Correction**: Bring your hips and chest toward the isolated side instead of extending your arms farther.
 
 
 </section>
@@ -294,20 +295,11 @@ The defender solves the same problem in reverse. Reconnecting the elbow to the r
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Support inventory** (Focus: Recognition)
-Pause a live position and have both partners name every contact making the target limb hard to isolate before either is allowed to move again.
+**Elbow reconnection** (Focus: Block the return route with body position.)
+Start in a light top pin. One partner separates an elbow from the ribs while the other gently reconnects it; no submission grips. Reset on separation or reconnection and switch roles.
 
-**Reconnection game** (Focus: Arm control)
-One partner works to separate an elbow from the ribs while the other tries only to reconnect it; reset on either outcome and switch roles.
-
-**Single-leg passing game** (Focus: Leg control)
-The passer controls one leg from Headquarters Position while the guard player tries to bring both knees back in front of the hips.
-
-**Barrier-only rounds** (Focus: Structural control)
-Isolate and hold with structure alone — no finishing grip permitted — so control is measured in seconds held rather than in submissions landed.
-
-**Catch and release** (Focus: Safe control)
-Establish a controlled submission position, confirm the isolation, then release without applying finishing force and re-enter from a neutral start.
+**Single-leg passing control** (Focus: Apply isolation to passing.)
+Start in Headquarters Position. The passer contains one leg while the guard player slowly brings both knees back in front. Reset when the knees reconnect or the pass reaches a stable pin.
 
 
 

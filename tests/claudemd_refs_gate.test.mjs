@@ -81,3 +81,38 @@ test("...but a misspelled path still fails, generated-looking or not", () => {
     assert.match(r.out, new RegExp(needle.replace(/[.]/g, "\\.")), `must name ${needle}`);
   }
 });
+
+// ── BARE FILENAMES ────────────────────────────────────────────────────────────────────
+// The wave-through above only ever consulted git for tokens containing a `/`. A BARE
+// filename took a different branch — "does this basename exist anywhere in the tree?" —
+// which cannot answer for a file that is deliberately absent, so the canon could not name
+// one at all. That is the same v1.136.2 failure in a second coat: the gate is the FOURTH
+// step of a job whose remaining three gates are skipped when it exits non-zero, and here it
+// would have gone red in CI only (`CLAUDE.local.md` is ignored via `.git/info/exclude` on
+// the owner's clone, which no checkout shares — hence the tracked `.gitignore` rule beside
+// this change). The pair below pulls in both directions, exactly as the pair above does.
+
+// Matched by the `*.local.md` rule, and nothing in this repo writes it — so the claim holds
+// identically in a built tree, a fresh checkout and CI. If something ever creates it, that
+// is the bug, not this test.
+const IGNORED_BARE = "__refs_gate_probe_never_written__.local.md";
+
+test("a BARE filename git ignores is waved through, not reported as deleted", () => {
+  const r = runGate(`A local-only file the canon names on purpose: \`${IGNORED_BARE}\`\n`);
+  assert.equal(r.code, 0, `an ignored bare filename must not fail the gate; gate said:\n${r.out}`);
+  assert.match(r.out, /absent-but-gitignored/, "the skip must print what it waved through");
+  assert.match(r.out, /__refs_gate_probe_never_written__/, "...naming it, so the list is readable");
+});
+
+test("...but a bare filename that is neither present nor ignored still fails", () => {
+  // The rubber-stamp guard. `.local.md` is the ignored suffix; `.locall.md` is a typo of it
+  // and matches no rule, so a fix that waves through every bare name turns this green.
+  const r = runGate(
+    "Typo of the ignored suffix: `__refs_gate_probe_never_written__.locall.md`\n" +
+      "An ordinary missing module: `definitelyNotAFile.tsx`\n",
+  );
+  assert.equal(r.code, 1, `dangling bare filenames must fail; gate said:\n${r.out}`);
+  for (const needle of ["locall", "definitelyNotAFile"]) {
+    assert.match(r.out, new RegExp(needle), `must name ${needle}`);
+  }
+});

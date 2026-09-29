@@ -1,3 +1,48 @@
+// == HARNESS CONSTRAINT: NO TESTED CONFIGURATION REPRODUCES PRODUCTION (D-D-05, corrected D-D-06) ==
+//
+// This spec requests 1 route(s) emitted TWICE - as `X.html` AND `X/index.html` - and the two are
+// DIFFERENT DOCUMENTS, not copies (different `data-slug`; the folder copy usually lacks
+// `#page-graph-data`). Which one you get depends on the server, and NO server we have tested
+// serves what production serves:
+//
+//   production                  /X -> FLAT     /X/ -> FOLDER    both 200, NEITHER redirects
+//   `serve` (ALL TEN configs)   /X -> FOLDER   /X/ -> FOLDER    /X.html -> 301 to /X -> FOLDER
+//   `dev-serve.mjs`, NORMALLY   /X -> FOLDER   /X/ -> FOLDER    IDENTICAL - see below
+//   `dev-serve.mjs`, PAIRED     /X -> FLAT     /X/ -> FOLDER    <- this one MATCHES production
+//
+// DEV-SERVE DOES NOT MATCH PRODUCTION, AND READING ITS SOURCE SUGGESTS IT DOES. `resolveHtml`
+// (`scripts/dev-serve.mjs:352-363`) really does try `X.html` first for a bare route - but it has
+// exactly ONE call site, `:387`, inside the paired-session branch guarded by `pairedToken()`. The
+// normal static path is `:415`, `serveHandler(req, res, {public: STATIC_ROOT, etag: true})` -
+// serve-handler, the SAME library `serve` uses, with cleanUrls left at default on purpose
+// (`:412-413`: "cleanUrls and directoryListing are already serve-handler defaults - don't
+// override"). THREE PEOPLE READ THAT FUNCTION AND NONE CHECKED WHETHER IT RUNS. CLAUDE.md 6.8:
+// verifying that code says the right thing is not verifying that it executes.
+//
+// AND IT IS NOT A STABLE PROPERTY OF A MODE - IT IS A LIVE FLIP ON A 2-SECOND POLL.
+// `pairedToken()` (`:211-217`) caches for 2000 ms and re-reads `e2e/paired/.session/bridge-token`
+// on expiry, so dev-serve's URL RESOLUTION CHANGES WITHIN TWO SECONDS of that file appearing or
+// vanishing, on a running server, with no restart. Note the DIRECTION: paired ON -> resolveHtml ->
+// bare serves the FLAT file -> MATCHES PRODUCTION. Paired OFF -> serve-handler -> bare serves the
+// FOLDER copy. SO ATTACHING THE DEBUGGER MAKES THE SERVER MORE FAITHFUL, NOT LESS - a defect that
+// exists only in the folder copy would VANISH the moment someone attached paired debugging to
+// investigate it, and return when they detached. The discrepancy hides from the one tool that
+// would find it.
+//
+// SO THE ASSERTIONS BELOW RUN AGAINST THE FOLDER COPY, a strictly degraded clone - 1,506 of 1,518
+// folder copies carry no `#page-graph-data` and pair deltas reach 35,637 bytes. No exposed spec
+// references `#page-graph-data` or `__rollPositions`, so the known-missing block is asserted
+// nowhere; but the documents differ by 6-25 KB, so anything asserting layout, element counts or
+// positions could move if the resolver changes.
+//
+// Affected route(s) here: /Positions/Side-Control
+//
+// DO NOT "FIX" THIS BY ADDING A TRAILING SLASH OR A `.html` SUFFIX. Under the CURRENT config both
+// still land on the folder copy. Under `cleanUrls:false` the `.html` form DOES reach the flat file
+// (200, no redirect) - but bare `/X` and `/X/` then return a DIRECTORY LISTING (~19 KB, "Files
+// within ..."), trading an unreachable document for a canonical URL that serves a file index. A
+// faithful harness needs rewrite rules, a different server, or a tree without the duplicates.
+// None of those is measured yet; quartz-cto is not naming a fix until one is.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 
@@ -262,7 +307,12 @@ test("More grows into a long second card and the whole column scrolls, hand push
   expect(open.S, "a fresh read starts at the top").toBe(0)
   expect(open.detailDisplay).toBe("block")
   expect(open.detailText, "with real content").toBeGreaterThan(0)
-  expect(open.label).toContain("Less")
+  // v1.194.0: the control is no longer labelled for the ACTION. Owner: "The Less button sounds
+  // weird and is weirdly placed there." The glyph is now the app's one close idiom and the words
+  // moved to the accessible name — which is the contract worth gating, and which nothing gated
+  // before. Asserting the visible string "Less" would pin the very thing he asked to remove.
+  await expect(page.locator("[data-land-more]"), "the close control says what it does, to a screen reader")
+    .toHaveAttribute("aria-label", "Close the reading panel")
   expect(open.aria).toBe("true")
   expect(open.card, "More does not move, resize or scroll the landing card").toEqual(before.card)
   expect(open.cardScrollTop).toBe(before.cardScrollTop)
@@ -431,7 +481,7 @@ test("a card picked from the foot of the read closes the column and opens its sh
     return c ? c.getAttribute("data-tech") : null
   })
   expect(tech, "premise: a dealt card to pick up").toBeTruthy()
-  await j.clickByMouse(`[data-tech="${tech}"]`, "the first dealt card, at the foot of the read")
+  await j.clickByMouse(`[data-tech="${tech}"] [data-choice-inspect]`, "Inspect at the foot of the read")
   await expect(page.locator("[data-go]"), "its sheet opens").toBeVisible()
   const after = await column(page)
   expect(after.open, "the read closed first").toBe(false)

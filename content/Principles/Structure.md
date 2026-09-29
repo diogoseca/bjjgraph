@@ -4,7 +4,7 @@
 
 ---
 title: "Structure | BJJ Principle | BJJ Graph"
-description: "Master skeletal structure in BJJ. Learn bone stacking, joint alignment, and rigid vs flexible configurations for efficient force transmission and resistance."
+description: "Align limbs, torso, and base so frames and pressure remain supported while you adapt to changes in force."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Structure",
-  "description": "Master skeletal structure in BJJ. Learn bone stacking, joint alignment, and rigid vs flexible configurations for efficient force transmission and resistance.",
+  "description": "Align limbs, torso, and base so frames and pressure remain supported while you adapt to changes in force.",
   "url": "https://bjjgraph.org/Principles/Structure",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Using muscular effort to compensate for poor skeletal alignment rather than fixing the alignment?",
+      "name": "What is a common mistake in Holding a collapsing shape with more effort?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rapid fatigue that makes the practitioner feel like they lack conditioning when the real problem is structural inefficiency. Training partners of similar size feel impossibly heavy or strong because the practitioner is fighting their own misalignment in addition to the opponent. The correction is: When you feel muscular fatigue in a position, stop and ask what would make this effortless. The answer is almost always a structural adjustment — straighten an arm, shift a hip, align a shoulder. Practice positions with the goal of minimum muscular effort rather than maximum force output."
+        "text": "Your muscles work harder while the opponent continues to compress the gap. The correction is: Reposition the elbow, shoulder, hip, or base that is no longer supporting the contact."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Maintaining the same structural state (rigid or flexible) regardless of the tactical situation?",
+      "name": "What is a common mistake in Staying rigid as force changes direction?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Always-rigid practitioners get swept and redirected because they cannot absorb or yield to force. Always-flexible practitioners cannot maintain frames or apply pressure because they yield when they need to resist. Both extremes lead to predictable failure patterns. The correction is: Deliberately practice switching between rigid and flexible states. Drill scenarios where the correct response alternates — rigid when the opponent pushes, flexible when they pull, rigid when you apply pressure, flexible when you transition. Build the switching speed until it becomes reflexive."
+        "text": "The opponent redirects the whole body instead of meeting a useful frame. The correction is: Move your supports and change the angle while keeping the contacts you need."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Breaking your own structure during technique execution?",
+      "name": "What is a common mistake in Relaxing a load-bearing connection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Techniques fail not because of opponent defense but because the practitioner's own structural breakdown removes the mechanical advantage the technique requires. Common example: collapsing the arm during an armbar attempt, disconnecting the hips during a sweep. The correction is: Film yourself during drilling and identify moments where your structure breaks during technique execution. Often the fix is small — keeping an elbow connected to the ribs, maintaining hip alignment during a transition, keeping the spine neutral during a pass. Address one structural break at a time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring the ground as a structural anchor point?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Force that should travel through the skeleton into the mat instead dissipates into space. Top pressure feels light because it is not structurally connected to the ground. Bottom frames collapse because they are not braced against the mat. The most powerful anchor point available is being wasted. The correction is: In every position, identify how your structure connects to the mat. In top positions, drive your weight through your bones into the opponent and through them into the mat. In bottom positions, brace your frames and bridges against the mat. Feel the mat as the endpoint of every structural chain."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Attempting techniques while the opponent's structure is intact?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Techniques require significantly more force and have lower success rates when applied against a structurally sound opponent. Sweeps against someone with good base and structure feel impossible. Submissions against someone with connected alignment require overwhelming mechanical advantage. The correction is: Invest in structure disruption before technique application. Use kuzushi, frame breaking, posture disruption, and positional pressure to compromise the opponent's structural integrity. Then apply your technique against their broken structure. This sequence — break structure, then attack — dramatically increases success rates."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Confusing Structure with Posture and only focusing on spinal alignment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Practitioners maintain good spinal posture but have structural breaks in their limbs, hips, or extremities. They keep their back straight but their arms are structurally disconnected, or their hips are misaligned with their shoulders. Partial structural awareness creates partial effectiveness. The correction is: Expand structural awareness beyond the spine to encompass every joint and bone in your body. Assess the alignment of your arms, legs, hips, and shoulders in addition to your spine. Structure is a whole-body concept — every skeletal segment contributes to or detracts from the total structural integrity."
+        "text": "A frame or pin gives way before you can replace it. The correction is: Keep the working segment supported until the next contact is established."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Structure",
-  "description": "Structure is the skeletal alignment of your whole body so that force travels through stacked bone rather than muscle, letting you transmit pressure, resist load, or redirect momentum with minimal energy.",
+  "description": "Structure is the coordinated alignment of your body segments and supports that lets you bear pressure, transfer force, or keep useful space.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,16 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Frames and weight placement",
+      "description": "Structure film study: Frames and weight placement, taught by Rory Van Vliet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SB_RJYRp7jI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SB_RJYRp7jI",
+      "url": "https://www.youtube.com/watch?v=SB_RJYRp7jI",
+      "creator": { "@type": "Person", "name": "Rory Van Vliet" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
       "name": "How base, posture and connection work in BJJ",
       "description": "Structure film study: How base, posture and connection work in BJJ, taught by SBG PDX.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KuZtR1mogvY/hqdefault.jpg",
@@ -194,13 +180,9 @@ description: "Master skeletal structure in BJJ. Learn bone stacking, joint align
 
 ## What is Structure?
 
-**Structure is the skeletal alignment of your whole body so that force travels through stacked bone rather than muscle, letting you transmit pressure, resist load, or redirect momentum with minimal energy.**
+**Structure is the coordinated alignment of your body segments and supports that lets you bear pressure, transfer force, or keep useful space.**
 
-While most practitioners first learn to think about alignment through the narrow lens of Posture — keeping the spine stacked — Structure is the broader whole-body concept that determines whether your skeleton works for you or against you. It encompasses how every bone and joint in your body connects to form a unified system that either transmits force to the opponent or resists force from them. When your structure is sound, you can apply heavy pressure while feeling light, maintain defensive frames that do not collapse, and execute techniques that seem effortless. When your structure breaks, even simple techniques fail and you burn energy fighting against your own misalignment.
-
-The core mechanism is bone stacking — aligning skeletal segments so that force travels through bone rather than requiring muscles to bridge structural gaps. A straight arm frame where the bones are stacked from shoulder to wrist transmits opponent pressure directly to your skeleton, costing almost no energy. A bent arm frame where the bones are not aligned requires your muscles to hold the shape, and those muscles fatigue. Every position in BJJ has structural configurations that are efficient and configurations that are wasteful. Learning to recognize and establish good structure is what separates practitioners who can roll for an hour from those who gas in five minutes.
-
-Structure also has a dynamic dimension. While static bone stacking matters, understanding when to be rigid versus flexible is equally important. A rigid structure resists force effectively but cannot absorb or redirect it. A flexible structure yields to force but can be used to redirect momentum and create openings. The expert practitioner alternates between rigid and flexible structural states depending on whether they need to resist, transmit, redirect, or absorb force in any given moment.
+Trace the load from the contact point back to your base. If a joint folds or the support moves, rebuild the alignment before trying to hold more force.
 
 </section>
 
@@ -211,6 +193,14 @@ Structure also has a dynamic dimension. While static bone stacking matters, unde
 
 <p class="section-subtitle">Watch Structure in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=SB_RJYRp7jI)
+
+<p class="clip-credit"><strong>Frames and weight placement</strong> — taught by Rory Van Vliet · <a href="https://www.youtube.com/watch?v=SB_RJYRp7jI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -227,15 +217,10 @@ Structure also has a dynamic dimension. While static bone stacking matters, unde
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Align skeletal segments so force travels through bone rather than requiring muscular effort to bridge structural gaps
-- Stack bones in straight lines or structurally optimal angles to maximize load-bearing capacity in frames and pressure
-- Maintain joint alignment throughout the kinetic chain — one misaligned joint breaks the entire structural pathway
-- Distinguish between rigid structure (resisting/transmitting force) and flexible structure (absorbing/redirecting force)
-- Use the ground as the foundation of your structural chain — connect your skeleton to the mat for maximum force transmission
-- Recognize that your opponent's broken structure creates submission and sweep opportunities
-- Actively break your opponent's structure before attempting techniques that require them to be structurally compromised
-- Rebuild structural integrity immediately when it is compromised rather than attempting techniques from broken structure
-- Optimize structural alignment for the specific task — the best structure for applying pressure differs from the best structure for framing
+- Connect the contact point to a stable base through supported body segments.
+- Keep frames aligned with the pressure they need to resist.
+- Adjust the structure when force changes direction.
+- Use enough tension to hold the shape while staying able to move.
 
 
 </section>
@@ -266,29 +251,13 @@ Structure also has a dynamic dimension. While static bone stacking matters, unde
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Side Control**: Top side control structure involves stacking the shoulder into the crossface, aligning the core, and driving the hip structure into the mat through the opponent. The entire skeleton forms a connected chain from shoulder through spine to hips. When this chain is intact, the top player feels immovably heavy regardless of body weight.
+**Side Control**: From bottom, support forearm frames with connected elbows and torso position. From top, connect shoulder and hip pressure to your base.
 
-**Mount**: Mount structure varies by objective. For pressure, the hips drop and the skeletal chain connects through the core to the opponent's hips. For submissions, the structure shifts to create leverage while maintaining enough structural connection to prevent the bridge escape. Understanding structural transitions within mount is key to attacking without losing the position.
+**Half Guard**: Support the knee shield with your hip angle and upper-body frames so it preserves useful space.
 
-**Closed Guard**: The top player needs structural integrity through the spine and arms to maintain posture against the guard player's pull. The guard player needs structural alignment in their legs and hips to break the top player's posture. Both players are engaged in a structural battle — whoever maintains their alignment while disrupting the opponent's wins the exchange.
+**Standing Position**: Coordinate head, spine, hips, and feet so grips can transmit force without pulling you beyond your base.
 
-**Half Guard**: The top player structures through the crossface and underhook to flatten the bottom player. The bottom player structures through the knee shield and underhook to create space. The positional battle is fundamentally a structural battle — whose skeletal alignment creates the more effective force transmission wins.
-
-**Standing Position**: Standing structure is foundational for takedowns and takedown defense. Knees over toes, hips under shoulders, chin protected — this alignment creates a structurally sound stance that transmits force from the ground through the skeleton into grip fighting and takedown entries. Broken standing structure leads to easy takedowns.
-
-**Back Control**: The attacking structure in back control aligns the chest against the opponent's back with hooks creating lower body structural connection. The defending structure focuses on aligning the spine to prevent being curled, and creating skeletal connection between the arms and chin to protect against chokes.
-
-**Turtle**: Turtle position is a structural shell — the hands, knees, and tucked elbows create a skeletal dome that distributes attacking force across the entire frame. When the structure is tight with elbows in and weight distributed, the turtle resists breakdown. When structure opens with gaps, the opponent finds handles for attack.
-
-**Knee on Belly**: Knee on belly is an exercise in structural efficiency — the attacker's entire body weight is channeled through the skeletal chain into a single knee point. The structural alignment from the posting foot through the driving hip and down through the knee creates concentrated pressure. Any structural break in the chain reduces the pressure dramatically.
-
-**Open Guard**: Open guard structure creates connected frameworks between feet, knees, hips, and grips that control the distance and angle to the opponent. When the guard player's feet, knees, and hands create a unified structural system, passing is extremely difficult. When the structure disconnects, each limb can be dealt with individually.
-
-**Butterfly Guard**: Butterfly guard structure requires alignment from the hooks through the hips into the upper body grips to generate sweep elevation. If the spine collapses or the hips disconnect from the hooks, sweep attempts fail because force cannot travel from the hooks through the skeleton to the elevation point.
-
-**Combat Base**: Combat base is a transitional structure designed for guard passing. One knee up, one knee down, creates a structural platform that can drive forward for pressure passing or adjust laterally for movement passing. The structural integrity of this stance determines whether the passer can maintain their base against guard player attacks.
-
-**De La Riva Guard**: De La Riva hook creates a structural connection between the guard player's leg and the opponent's far leg. The hook, combined with the collar grip and sleeve grip, forms a three-point structural framework. When all three points are structurally connected through the guard player's body, sweeps and off-balancing are mechanically efficient.
+**Mount**: Adjust the relationship between hips, knees, and upper-body contact as the opponent bridges or turns.
 
 
 
@@ -311,24 +280,15 @@ Structure also has a dynamic dimension. While static bone stacking matters, unde
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Using muscular effort to compensate for poor skeletal alignment rather than fixing the alignment
-  - **Consequence**: Rapid fatigue that makes the practitioner feel like they lack conditioning when the real problem is structural inefficiency. Training partners of similar size feel impossibly heavy or strong because the practitioner is fighting their own misalignment in addition to the opponent.
-  - **Correction**: When you feel muscular fatigue in a position, stop and ask what would make this effortless. The answer is almost always a structural adjustment — straighten an arm, shift a hip, align a shoulder. Practice positions with the goal of minimum muscular effort rather than maximum force output.
-- **Mistake**: Maintaining the same structural state (rigid or flexible) regardless of the tactical situation
-  - **Consequence**: Always-rigid practitioners get swept and redirected because they cannot absorb or yield to force. Always-flexible practitioners cannot maintain frames or apply pressure because they yield when they need to resist. Both extremes lead to predictable failure patterns.
-  - **Correction**: Deliberately practice switching between rigid and flexible states. Drill scenarios where the correct response alternates — rigid when the opponent pushes, flexible when they pull, rigid when you apply pressure, flexible when you transition. Build the switching speed until it becomes reflexive.
-- **Mistake**: Breaking your own structure during technique execution
-  - **Consequence**: Techniques fail not because of opponent defense but because the practitioner's own structural breakdown removes the mechanical advantage the technique requires. Common example: collapsing the arm during an armbar attempt, disconnecting the hips during a sweep.
-  - **Correction**: Film yourself during drilling and identify moments where your structure breaks during technique execution. Often the fix is small — keeping an elbow connected to the ribs, maintaining hip alignment during a transition, keeping the spine neutral during a pass. Address one structural break at a time.
-- **Mistake**: Ignoring the ground as a structural anchor point
-  - **Consequence**: Force that should travel through the skeleton into the mat instead dissipates into space. Top pressure feels light because it is not structurally connected to the ground. Bottom frames collapse because they are not braced against the mat. The most powerful anchor point available is being wasted.
-  - **Correction**: In every position, identify how your structure connects to the mat. In top positions, drive your weight through your bones into the opponent and through them into the mat. In bottom positions, brace your frames and bridges against the mat. Feel the mat as the endpoint of every structural chain.
-- **Mistake**: Attempting techniques while the opponent's structure is intact
-  - **Consequence**: Techniques require significantly more force and have lower success rates when applied against a structurally sound opponent. Sweeps against someone with good base and structure feel impossible. Submissions against someone with connected alignment require overwhelming mechanical advantage.
-  - **Correction**: Invest in structure disruption before technique application. Use kuzushi, frame breaking, posture disruption, and positional pressure to compromise the opponent's structural integrity. Then apply your technique against their broken structure. This sequence — break structure, then attack — dramatically increases success rates.
-- **Mistake**: Confusing Structure with Posture and only focusing on spinal alignment
-  - **Consequence**: Practitioners maintain good spinal posture but have structural breaks in their limbs, hips, or extremities. They keep their back straight but their arms are structurally disconnected, or their hips are misaligned with their shoulders. Partial structural awareness creates partial effectiveness.
-  - **Correction**: Expand structural awareness beyond the spine to encompass every joint and bone in your body. Assess the alignment of your arms, legs, hips, and shoulders in addition to your spine. Structure is a whole-body concept — every skeletal segment contributes to or detracts from the total structural integrity.
+- **Mistake**: Holding a collapsing shape with more effort
+  - **Consequence**: Your muscles work harder while the opponent continues to compress the gap.
+  - **Correction**: Reposition the elbow, shoulder, hip, or base that is no longer supporting the contact.
+- **Mistake**: Staying rigid as force changes direction
+  - **Consequence**: The opponent redirects the whole body instead of meeting a useful frame.
+  - **Correction**: Move your supports and change the angle while keeping the contacts you need.
+- **Mistake**: Relaxing a load-bearing connection
+  - **Consequence**: A frame or pin gives way before you can replace it.
+  - **Correction**: Keep the working segment supported until the next contact is established.
 
 
 </section>
@@ -336,20 +296,11 @@ Structure also has a dynamic dimension. While static bone stacking matters, unde
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Minimum Effort Position Holding** (Focus: Developing proprioceptive awareness of structural efficiency by using muscular fatigue as a diagnostic signal for structural misalignment. Building the habit of solving effort problems with structural adjustments rather than conditioning.)
-Hold each major position (top side control, mount, knee on belly, closed guard) for 2-minute rounds with the explicit goal of using minimum muscular effort. Partner provides feedback on pressure quality. When you feel muscles working hard, adjust your structure until the effort decreases. Track which adjustments produce the biggest efficiency gains.
+**Trace the frame** (Focus: Feel which alignment supports the load.)
+Start under light side control with a forearm frame. Trace the support from wrist to elbow and torso, then adjust one point as the partner gently leans. Release and reset between comparisons.
 
-**Structural Chain Mapping** (Focus: Building conscious awareness of the complete structural chains required for each technique, making structural alignment a deliberate part of technique execution rather than an unconscious variable.)
-For each technique you practice, explicitly trace the force pathway from the point of application back through your skeleton to the anchor point (usually the mat). Identify every joint in the chain and verify its alignment. Have your partner apply resistance while you adjust each joint in the chain to feel how alignment changes force transmission.
-
-**Rigid-Flexible Switching Drills** (Focus: Developing the ability to instantaneously change structural state based on the incoming force direction, eliminating the delay between recognizing the need to switch and executing the structural change.)
-Partner alternates between pushing and pulling in various positions while you practice switching between rigid structure (resisting force) and flexible structure (yielding and redirecting). Start with telegraphed pushes and pulls, then progress to random alternation. The goal is to develop reflexive switching speed.
-
-**Structure Breaking Practice** (Focus: Building the habit of structure disruption as the first step before technique application, and developing the skills to identify and attack the opponent's structural weaknesses.)
-Practice specifically targeting and disrupting your opponent's structure rather than executing techniques. Drill breaking their posture, collapsing their frames, disconnecting their base from their upper body, and misaligning their limbs. Then practice applying techniques immediately after successful structure disruption to feel the difference in resistance.
-
-**Structural Awareness Flow Rolling** (Focus: Extending structural awareness from static positions to dynamic movement, building the ability to maintain bone stacking and joint alignment through transitions and scrambles.)
-Flow roll at 50% intensity with the specific focus of maintaining structural alignment throughout transitions. When you feel your structure break during a transition, pause and identify what happened. Gradually increase intensity while maintaining the structural focus. The goal is structural integrity during movement, not just in static positions.
+**Changing force direction** (Focus: Rebuild structure as the direction changes.)
+Start standing with light grips. One partner slowly pulls in two directions while the other adjusts stance and posture. Reset after each shift and switch roles.
 
 
 

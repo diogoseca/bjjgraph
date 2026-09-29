@@ -1,126 +1,151 @@
-/* Systems: the authored course library inside the Explore tab. The library exists to point a
-   reader at the instructor who teaches the material, so the course CTA is the loudest thing on
-   the card — and it only ever renders for a system that carries an authored product. */
-
+/* The System reader owns these styles; pane, footer and graph geometry stay shared. */
 .ng-system-detail {
-  display: grid;
-  gap: 8px;
-  margin: 4px 3px 12px;
-  padding: 13px 13px 14px;
-  border: 1px solid rgba(169, 139, 255, 0.28);
-  border-radius: 12px;
-  background: linear-gradient(
-    180deg,
-    rgba(169, 139, 255, 0.09),
-    rgba(255, 255, 255, 0.02)
-  );
+  display: block;
+  margin: 8px 3px 16px;
+  padding: 0 10px;
+  overflow-wrap: anywhere;
+  hyphens: none;
 }
-
 .ng-system-detail h2 {
-  margin: 0;
-  color: #eef1f6;
-  font: 750 17px/1.15 "Space Grotesk", sans-serif;
+  margin: 0 0 16px;
+  color: #f4f3fc;
+  font: 650 25px/1.16 "Space Grotesk", sans-serif;
+  letter-spacing: -.035em;
 }
-
-.ng-system-meta {
-  color: #b39bec;
-  font-size: 9px;
-  font-weight: 900;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
+.ng-system-meta { display: flex; flex-wrap: wrap; gap: 7px; }
+.ng-system-chip {
+  display: inline-block;
+  max-width: 100%;
+  padding: 5px 9px;
+  border: 1px solid #46445d;
+  border-radius: 20px;
+  background: #242335;
+  color: #d4c9f5;
+  font: 500 11px/1.4 "Plus Jakarta Sans", sans-serif;
+  overflow-wrap: anywhere;
+  hyphens: none;
 }
-
-.ng-system-detail p {
-  margin: 0;
-  color: #9aa6bd;
-  font-size: 12px;
-  line-height: 1.5;
+.ng-system-chip + .ng-system-chip { background: #1d2633; color: #bed0df; border-color: #394858; }
+.ng-system-graph-count { margin: 10px 0 0; color: #9ca9bf; font-size: 11px; line-height: 1.5; }
+/* ── Section rhythm: ONE owner ──────────────────────────────────────────────────────────────
+   Every top-level block of an open System's guide body — the course block, the overview, each
+   guide section, the closing course reminder, the references, the technique list and Sources —
+   sits TWO LINES of the guide body below the block before it. The owner sizes spacing as a RATIO
+   of a token already on the page ("50% more of the left padding"), never a raw px: the token is
+   the guide body's line-height (12px × 1.8 = 21.6px) and the ratio is the rule (2 → 43.2px).
+   e2e/journeys/systems-rhythm.spec.ts pins gap ÷ line-height = 2 from the rendered boxes and then
+   MOVES the token and re-measures, so a hard-coded px gap goes red. The hero (title → intro video
+   → View course) is one unit and keeps its own tighter grouping; it is not on this rhythm.
+   Before v1.195.6 these five margins were 22/25/28/30/26px — five answers to one question, all
+   about one line of the body, which is what the owner read as "not much space between the
+   sections". The static guide carries the same rule against its own token in
+   scripts/system_guide.css (`--system-gap`); two surfaces, one ratio. */
+.ng-system-courses, .ng-system-overview, .ng-system-guide, .ng-system-sources {
+  --ng-system-body-fs: 12px;
+  --ng-system-body-lh: 1.8;
+  --ng-system-gap: calc(2 * var(--ng-system-body-fs) * var(--ng-system-body-lh));
 }
-
 .ng-system-courses {
+  margin: 0 3px var(--ng-system-gap);
+  padding: 0 10px;
   display: grid;
-  gap: 8px;
-  margin: 0 3px 14px;
+  gap: 9px;
 }
-
+.ng-system-course-title {
+  color: #ece4ff;
+  font: 600 18px/1.35 "Space Grotesk", sans-serif;
+  letter-spacing: -.015em;
+  text-decoration: underline;
+  text-decoration-color: #5b4c76;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+  hyphens: none;
+}
+.ng-system-instructor { margin: 0 0 4px; color: #b7c0d2; font-size: 12px; line-height: 1.5; }
 .ng-system-cta {
-  min-height: 56px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 11px 13px;
-  border: 1px solid rgba(232, 149, 107, 0.5);
-  border-radius: 12px;
-  background: linear-gradient(
-    135deg,
-    rgba(232, 149, 107, 0.2),
-    rgba(232, 149, 107, 0.07)
-  );
-  color: inherit;
+  display: block;
+  padding: 13px 14px;
+  border: 1px solid #b4a0ed;
+  border-radius: 9px;
+  background: #c9b5fa;
+  color: #19112d;
+  font: 700 12px/1.5 "Plus Jakarta Sans", sans-serif;
+  text-align: center;
   text-decoration: none;
+  overflow-wrap: anywhere;
+  hyphens: none;
 }
-
-.ng-system-cta > span {
-  min-width: 0;
-  flex: 1;
-  display: grid;
-  gap: 3px;
+.ng-system-cta:hover { background: #dfd0ff; border-color: #dfd0ff; }
+/* One prominent link below the intro; a quiet reminder after the guide. */
+.ng-system-courses[data-course-placement="conclusion"] { margin-top: 5px; margin-bottom: var(--ng-system-gap); }
+.ng-system-courses[data-course-placement="conclusion"] .ng-system-cta {
+  background: transparent; border-color: #514466; color: #d6c5ff;
 }
-
-.ng-system-cta small {
-  color: #e8956b;
-  font-size: 8px;
-  font-weight: 900;
-  letter-spacing: 0.11em;
+.ng-system-overview {
+  margin: 0 3px var(--ng-system-gap);
+  padding: 18px 10px 0;
+  border-top: 1px solid #363044;
+  color: #c7cddd;
+  font-size: 13px;
+  line-height: 1.8;
 }
-
-.ng-system-cta b {
+.ng-system-overview h3 { margin: 0 0 10px; font: 600 16px/1.3 "Space Grotesk", sans-serif; color: #e8e9f1; }
+.ng-system-overview p { margin: 0 0 12px; }
+.ng-system-guide {
+  margin: 0 3px var(--ng-system-gap);
+  padding: 0 10px;
+  color: #bdc7d9;
+  font-size: var(--ng-system-body-fs);
+  line-height: var(--ng-system-body-lh);
+  overflow-wrap: anywhere;
+  hyphens: none;
+}
+.ng-system-guide h3 { margin: 0 0 12px; color: #eff0f7; font: 600 18px/1.3 "Space Grotesk", sans-serif; letter-spacing: -.02em; }
+.ng-system-guide h4 { margin: 16px 0 6px; color: #e0d9ef; font-size: 12px; font-weight: 600; }
+.ng-system-guide p { margin: 6px 0 14px; }
+.ng-system-guide ul { margin: 0; padding-left: 17px; }
+.ng-system-guide li { padding-left: 3px; margin: 0 0 9px; }
+.ng-system-guide li::marker { color: #9c89c0; }
+.ng-system-guide a { color: #cdbcfa; text-decoration: underline; text-underline-offset: 3px; }
+.ng-system-guide button { margin: 8px 0; padding: 10px 12px; font: inherit; color: #eef1f6; background: #26334b; border: 1px solid #7384a4; border-radius: 6px; cursor: pointer; }
+.ng-system-media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 0 13px 18px;
+  border-radius: 12px;
   overflow: hidden;
-  color: #eef1f6;
-  font-size: 12.5px;
-  line-height: 1.3;
-  text-overflow: ellipsis;
+  background: #11101b;
 }
-
-.ng-system-cta em {
-  color: #9aa6bd;
-  font-size: 10.5px;
-  font-style: normal;
+.ng-system-cover {
+  height: 100%; display: flex; align-items: center; justify-content: center;
+  color: #b7c0d2; font-size: 12px;
 }
-
-.ng-system-cta > i {
-  flex: none;
-  color: #e8956b;
-  font-size: 15px;
-  font-style: normal;
+.ng-system-cover[hidden], .ng-system-player-wrap[hidden] { display: none; }
+.ng-system-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.ng-system-player-wrap { position: absolute; inset: 0; }
+.ng-system-player-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
+[data-system-alternatives] { padding-top: 18px; border-top: 1px solid #302e41; }
+[data-system-alternatives] h3 { font-size: 15px; }
+[data-system-alternatives] > a, [data-system-references] > a { font-weight: 600; }
+.ng-system-sources {
+  margin: var(--ng-system-gap) 3px 10px;
+  padding: 18px 10px 0;
+  border-top: 1px solid #363044;
+  color: #a3adc0;
+  font-size: 11px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+  hyphens: none;
 }
+.ng-system-sources p { margin: 0 0 10px; }
+.ng-system-sources a { color: #c0b5d6; text-decoration: underline; text-underline-offset: 3px; }
+[data-system-source] { padding: 15px 0 4px; }
+[data-system-source] + [data-system-source] { border-top: 1px solid #302e41; }
+.ng-system-guide a:focus-visible, .ng-system-guide button:focus-visible,
+.ng-system-courses a:focus-visible, .ng-system-sources summary:focus-visible, .ng-system-sources a:focus-visible,
+.ng-system-drill:focus-visible { outline: 2px solid #c9b5fa; outline-offset: 4px; }
+.ng-system-recall { font-size: 11px; color: #a4aec0; line-height: 1.7; }
 
-.ng-system-cta:hover,
-.ng-system-cta:focus-visible {
-  border-color: rgba(232, 149, 107, 0.8);
-  background: linear-gradient(
-    135deg,
-    rgba(232, 149, 107, 0.3),
-    rgba(232, 149, 107, 0.12)
-  );
-}
-
-/* Proximate affiliate disclosure — renders above the course cards inside the shelf.
-   Deliberately not visually suppressed: FTC/ASA require it CLEAR and CONSPICUOUS, so it
-   keeps body-text contrast rather than the muted-caption treatment used elsewhere. */
-.ng-system-disclosure {
-  margin: 0 0 9px;
-  /* Body-text size and contrast, matching the member rows (#c4cde0 / 12px). The comment above
-     already said "not visually suppressed", but the rule shipped 10.5px in a dimmer grey than
-     the copy around it — the fine-print treatment regulators name. The e2e journey now asserts
-     a legibility FLOOR (>= 11px, opaque) so this cannot quietly shrink back. */
-  color: #c4cde0;
-  font-size: 12px;
-  line-height: 1.5;
-}
-
-/* ── the glue ── the ordered spine and each member's role. These carry the meaning of a
-   system; the lit nodes alone are just a constellation. */
 .ng-system-sequence {
   margin: 0 0 10px;
   padding: 0 0 0 22px;
@@ -174,7 +199,9 @@
 }
 .ng-system-drill {
   width: calc(100% - 24px);
-  margin: 10px 12px 4px;
+  /* No bottom margin: a button is inline-level, so its margin would ADD to the Sources footer's
+     --ng-system-gap instead of collapsing into it (measured 47.2px for a 43.2px rule, v1.195.6). */
+  margin: 10px 12px 0;
   padding: 10px;
   border: 1px solid rgba(150, 170, 210, 0.28);
   border-radius: 10px;
@@ -184,9 +211,27 @@
   cursor: pointer;
 }
 
-.ng-system-course-note {
-  margin: 0 0 4px;
-  color: #c4cde0;
-  font-size: 12px;
-  line-height: 1.6;
+/* Quartz sets hyphenation directly on prose elements; reset the actual reading nodes too. */
+.ng-system-detail *, .ng-system-overview *, .ng-system-guide *, .ng-system-courses *,
+.ng-system-sources *, [data-system-node] *, [data-system-family] *, .ng-system-recall {
+  -webkit-hyphens: none;
+  hyphens: none;
 }
+.ng-system-sources summary {
+  cursor: pointer;
+  color: #d4c6ef;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  border: 1px solid #484056;
+  border-radius: 8px;
+  background: #211e30;
+  list-style: none;
+}
+.ng-system-sources summary::-webkit-details-marker { display: none; }
+.ng-system-sources summary::after { content: "+"; font: 500 20px/1 "Space Grotesk", sans-serif; }
+.ng-system-sources details[open] > summary::after { content: "−"; }

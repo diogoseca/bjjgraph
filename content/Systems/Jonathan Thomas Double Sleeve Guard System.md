@@ -1,374 +1,127 @@
 
-
-
-
 ---
-title: "Jonathan Thomas Double Sleeve Guard System | BJJ System | BJJ Graph"
-description: "Study Jonathan Thomas double sleeve guard with a gi-focused plan for grip access, leg-barrier changes, opponent posture, sweep decisions, and controlled resets."
+title: "Jonathan Thomas: Double Sleeve Guard | BJJGraph"
+description: "A sleeve-based open-guard course with sweeps, triangles and responses to grip-clearing attempts."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Jonathan Thomas Double Sleeve Guard System",
-  "description": "Step-by-step implementation sequence for Jonathan Thomas Double Sleeve Guard System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Explain the grips",
-      "text": "Begin with double sleeves and name which post or grip each connection limits.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish a leg barrier",
-      "text": "Choose one familiar De La Riva or lasso/spider configuration and check how it supports distance.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Change the passer's height",
-      "text": "Let the partner stand or drop one knee and pause to identify the new base.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Match a sweep",
-      "text": "Practise one coached sweep suited to the current stance and available arm control.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Rebuild after a grip break",
-      "text": "Let one sleeve grip be cleared; recover a playable guard before restarting the original configuration.",
-      "position": 5
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Jonathan Thomas Double Sleeve Guard System",
-  "description": "Study Jonathan Thomas double sleeve guard with a gi-focused plan for grip access, leg-barrier changes, opponent posture, sweep decisions, and controlled resets.",
-  "url": "https://bjjgraph.org/Systems/Jonathan-Thomas-Double-Sleeve-Guard-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Jonathan Thomas Double Sleeve Guard System", "item": "https://bjjgraph.org/Systems/Jonathan-Thomas-Double-Sleeve-Guard-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The player keeps the sleeves while the feet lose contact.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pause the pass and restore a meaningful leg barrier instead of increasing pulling force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: A standing sweep is repeated against a kneeling base.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Separate starting-height rounds and identify the relevant change in support."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Grip strain is treated as necessary control.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reset and review grip mechanics; preserve the hand rather than holding through discomfort."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Every available guard is added before one works.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choose two familiar leg configurations and one transition to study at a time."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Jonathan Thomas Double Sleeve Guard System",
-  "description": "The Jonathan Thomas Double Sleeve Guard System is an independent BJJGraph guide to double sleeve guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Jonathan Thomas: Double Sleeve Guard","description":"A sleeve-based open-guard course with sweeps, triangles and responses to grip-clearing attempts."}
 </script>
+<main class="system-guide" data-system-guide data-system-key="Jonathan Thomas Double Sleeve Guard System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Jonathan Thomas: Double Sleeve Guard</h1>
+<div class="system-tags"><span>Guard System</span><span>Intermediate</span></div>
+
+<p class="system-reference-count">6 related references (techniques and positions)</p>
+</header>
 
 
-
-<div class="principle-meta">
-<span class="meta-chip">Guard System</span>
-<span class="meta-chip">Intermediate difficulty</span>
+<section id="official-preview" class="system-preview" aria-label="Official course introduction — Double Sleeve Guard by Jonathan Thomas" data-system-preview data-system-key="Jonathan Thomas Double Sleeve Guard System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c518dada-f387-4b0f-89f1-a32ab3416b21?autoplay=false&amp;muted=false&amp;preload=true&amp;responsive=true" data-preview-title="Official course introduction — Double Sleeve Guard by Jonathan Thomas">
+<div id="system-preview-player" data-preview-player data-persist></div>
+<div data-preview-fallback>
+<img class="system-cover" src="https://bjjfanatics.com/cdn/shop/products/JonathanThomas_DoubleSleeveOpenGuard_FRONTCover.jpg?v=1762459310" alt="Double Sleeve Guard course cover" decoding="async" fetchpriority="high">
 </div>
+</section>
 
 
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<div class="system-course__identity"><h2>Double Sleeve Guard</h2><p class="system-course__instructor">By Jonathan Thomas</p></div>
+<a class="system-course__link" href="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas" data-course-url="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas" data-product-id="double-sleeve-guard-by-jonathan-thomas" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener">View course on BJJ Fanatics</a>
+</section>
 
-<section id="overview" class="content-section">
+<section id="overview" class="system-overview">
 
-## What is Jonathan Thomas Double Sleeve Guard System?
+Double Sleeve Guard uses two sleeve grips across several open-guard configurations. Jonathan Thomas covers establishing control, De La Riva sweeps, triangles, and maintaining lasso/spider against attempts to clear it. Later material develops Spider-X and attacks against standing, one-knee-up and kneeling opponents.
 
-**The Jonathan Thomas Double Sleeve Guard System is an independent BJJGraph guide to double sleeve guard decisions, connecting positional control, opponent reactions, and a practical route into offense.**
+</section>
 
-Controlling both sleeves can limit the passer's ability to grip or post, but the feet still need to do a job. A player who keeps pulling the sleeves while losing every leg barrier may be passed with both hands still attached. This guide treats the grips and the changing leg configuration as one system, with opponent posture determining the next task.
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-The published course links double-sleeve control with De La Riva, lasso/spider, and posture-specific attacks. This study plan concentrates on grip-and-leg coordination and sweep selection rather than presenting every submission in the course. Double Sleeve Guard by Jonathan Thomas is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.
+## Is this for you?
+
+- You want a gi open guard built around sleeve control, lasso and spider variations.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Adam-Wardzinski-Single-Leg-X-System">Adam Wardzinski: Single Leg X in the Gi</a> — Choose Wardzinski for gi single-leg-X entries and sweeps, including sleeve and lapel variations.</p>
+
+
+</section>
+<span id="key-principles"></span><span id="key-components"></span>
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Double-sleeve setups and control, De La Riva sweeps and triangle entries.
+- Lasso/spider defenses, Spider-X sweeps and attacks against changing opponent postures.
+
+
+### Limits
+
+- Sleeve grips are central throughout; this course is for gi grappling.
 
 </section>
 
 
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
 
-
-
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="double-sleeve-guard-by-jonathan-thomas">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Double Sleeve Guard</h3>
-<p class="product-card__instructor">with Jonathan Thomas</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Gi guard players with basic positional familiarity who want to study double sleeve guard. This is a focused companion rather than a complete beginner curriculum.</p>
-<p class="product-card__blurb">The published course links double-sleeve control with De La Riva, lasso/spider, and posture-specific attacks. This study plan concentrates on grip-and-leg coordination and sweep selection rather than presenting every submission in the course.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=jonathan-thomas-double-sleeve-guard-system&utm_term=double-sleeve-guard-by-jonathan-thomas" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="double-sleeve-guard-by-jonathan-thomas" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
-
-</div>
-
+<a class="system-course__link" href="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas" data-course-url="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas" data-product-id="double-sleeve-guard-by-jonathan-thomas" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Double Sleeve Guard</a>
 </section>
 
+<section id="related-content" class="system-section">
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+## Related guides and principles
 
-## Unlock this part of the graph
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+<p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Distance-Control">Distance Control</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Grips">Grips</a></p><p><a href="/Systems/Adam-Wardzinski-Single-Leg-X-System">Adam Wardzinski: Single Leg X in the Gi</a> — Compare for a gi single-leg-X entry and sweep emphasis.</p>
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Sleeve control and leg barriers must work together.
-- Read the opponent's height before choosing foot placement.
-- Identify what each grip prevents before increasing tension.
-- Release and rebuild a grip when keeping it compromises the hand or position.
-- Use one familiar leg configuration before adding several guards.
-- Select a sweep from the available post and stance.
+### Review related technique cards
 
 
-</section>
 
-<section id="key-components" class="content-section">
-
-## Key Components
-**Grip access** (Give the grip battle a positional purpose.)
-Establish two sleeve connections cooperatively and identify what each hand prevents the passer from doing.
-
-**Leg-barrier coordination** (Prevent sleeve pulling from replacing guard structure.)
-Match a familiar foot or shin contact to the upper-body connection as the passer changes distance.
-
-**Posture response** (Choose an attack from the opponent's actual base.)
-Compare standing and kneeling starts and observe how the available sweep direction changes.
-
-**Guard transition** (Connect the guard without collecting unrelated variations.)
-Move between a small pair of familiar leg configurations while keeping useful sleeve control or rebuilding it.
+- [[Positions/Double Sleeve Guard|Double Sleeve Guard]] (Position)
 
 
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
+
+
+- [[Positions/Spider Guard|Spider Guard]] (Position)
+
+
+- [[Positions/Lasso Guard|Lasso Guard]] (Position)
+
+
+- [[Positions/Seated Guard|Seated Guard]] (Position)
+
+
+- [[Positions/Open Guard|Open Guard]] (Position)
 
 </section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The preview's content has not been reviewed by BJJGraph.</p>
 
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Explain the grips**: Begin with double sleeves and name which post or grip each connection limits.
-
-
-2. **Establish a leg barrier**: Choose one familiar De La Riva or lasso/spider configuration and check how it supports distance.
-
-
-3. **Change the passer's height**: Let the partner stand or drop one knee and pause to identify the new base.
-
-
-4. **Match a sweep**: Practise one coached sweep suited to the current stance and available arm control.
-
-
-5. **Rebuild after a grip break**: Let one sleeve grip be cleared; recover a playable guard before restarting the original configuration.
-
-
-
-
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas" data-source-url="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas" data-affiliate="false" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-product-id="thomas-double-sleeve-listing" target="_blank" rel="noopener">Double Sleeve Guard by Jonathan Thomas</a> — official listing; checked 2026-09-19. Verified basic control, De La Riva, lasso/spider defenses, Spider-X and opponent-posture sections. Listing inspected; course video content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed.</p>
 </section>
 
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Begin with the guard concepts and basic control in part one. Compare lasso/spider defenses in part two before choosing a standing or kneeling response from part four.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=jonathan-thomas-double-sleeve-guard-system&utm_term=double-sleeve-guard-by-jonathan-thomas" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="double-sleeve-guard-by-jonathan-thomas" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Double Sleeve Guard &rarr;</a></p>
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski" data-source-url="https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski" data-affiliate="false" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-product-id="wardzinski-slx-listing" target="_blank" rel="noopener">Single Leg X Reimagined by Adam Wardzinski</a> — official listing; checked 2026-09-16. Verified gi focus, entry families, sleeve/lapel sweep sections, stand-up and counter material. Listing inspected; course video content not reviewed.</p>
 </section>
 
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **The player keeps the sleeves while the feet lose contact.**: Pause the pass and restore a meaningful leg barrier instead of increasing pulling force.
-- **A standing sweep is repeated against a kneeling base.**: Separate starting-height rounds and identify the relevant change in support.
-- **Grip strain is treated as necessary control.**: Reset and review grip mechanics; preserve the hand rather than holding through discomfort.
-- **Every available guard is added before one works.**: Choose two familiar leg configurations and one transition to study at a time.
-
-
+</details>
 </section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Grip purpose**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Explains what each sleeve connection limits
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-**Leg coordination**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Maintains a useful barrier as distance changes
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-**Posture reading**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Adjusts the task when a knee drops
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-**Recovery quality**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Rebuilds guard after one grip is cleared
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-BJJGraph practice plan: Keep the initial sleeve grips fixed while the passer alternates standing and one knee down. Rebuild a suitable foot or shin barrier before selecting a sweep; reset when grips become strained. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.
-
-### Progression Path
-**Explain the grips** (Focus: Begin with double sleeves and name which post or grip each connection limits.)
-**Establish a leg barrier** (Focus: Choose one familiar De La Riva or lasso/spider configuration and check how it supports distance.)
-**Change the passer's height** (Focus: Let the partner stand or drop one knee and pause to identify the new base.)
-**Match a sweep** (Focus: Practise one coached sweep suited to the current stance and available arm control.)
-
-
-### Common Mistakes
-- The player keeps the sleeves while the feet lose contact.
-- A standing sweep is repeated against a kneeling base.
-- Grip strain is treated as necessary control.
-
-
-</section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-- [[Positions/Double Sleeve Guard|Double Sleeve Guard]] (Position) - Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.
-- [[Positions/Spider Guard|Spider Guard]] (Position) - Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.
-- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.
-- [[Positions/Seated Guard|Seated Guard]] (Position) - Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.
-- [[Positions/Open Guard|Open Guard]] (Position) - Positional reference for comparing double sleeve guard entries, controls, or recovery destinations.
-- [[Principles/Frames|Frames]] (Principle) - Structures that preserve space during the guard exchange.
-- [[Principles/Distance Control|Distance Control]] (Principle) - Spacing behind the entry and recovery decisions.
-- [[Principles/Base|Base]] (Principle) - Support to observe before selecting a sweep or coming up.
-- [[Principles/Grips|Grips]] (Principle) - Connections that give the chosen movement its purpose.
-
-
-</section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph drill: Keep the initial sleeve grips fixed while the passer alternates standing and one knee down. Rebuild a suitable foot or shin barrier before selecting a sweep; reset when grips become strained.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=jonathan-thomas-double-sleeve-guard-system&utm_term=double-sleeve-guard-by-jonathan-thomas" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="double-sleeve-guard-by-jonathan-thomas" data-system-slug="systems/jonathan-thomas-double-sleeve-guard-system" data-system-name="Jonathan Thomas Double Sleeve Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Double Sleeve Guard &rarr;</a></p>
-</section>
-
-
-
 </main>

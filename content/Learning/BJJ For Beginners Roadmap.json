@@ -1,0 +1,128 @@
+{
+  "name": "BJJ For Beginners Roadmap",
+  "display_title": "Your first useful steps in BJJ",
+  "description": "Start BJJ with a practical guide to recognizing positions, learning a small set of connected actions, asking useful questions, and reviewing your rounds.",
+  "summary": "Begin by recognizing your position, learning a useful action from it, and practicing that action with a partner who can help you understand the result.",
+  "tags": [
+    "bjj",
+    "learning",
+    "beginner",
+    "fundamentals",
+    "practice"
+  ],
+  "category": "Training",
+  "overview": "A few words help you follow a class: a frame is a barrier, such as a forearm or shin, that helps preserve space; a sweep turns guard into top position; a pass gets beyond the legs into torso control. Follow the lesson your coach is teaching, then carry one small question into the next round.",
+  "key_takeaways": [
+    "Before class, ask how beginners join drilling and sparring, what equipment is needed, and which techniques the academy permits.",
+    "Learn to name both the position and your role: mount top and mount bottom present different jobs.",
+    "Choose a small connected set with your coach: an escape from a common pin, a guard recovery, a sweep or stand-up, and a pass.",
+    "Use clear partner communication. Learn how to signal a stop and release immediately when your partner taps or asks to stop.",
+    "Measure progress through things you can notice: recognizing a position, keeping a frame, or finding the first step without prompting; belt promotion has no timetable here."
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "Your first round is confusing and you cannot remember the techniques.",
+      "application": "Afterward, identify one position you spent time in. Ask your partner or coach what your immediate job was there, and begin the next practice with that question.",
+      "outcome": "You leave with one recognizable problem rather than a list of everything you do not yet know."
+    },
+    {
+      "scenario": "You learned a side-control escape but cannot recover your guard.",
+      "application": "Ask a partner to let you build the starting frames, then gradually defend the recovery. Find the point where you lose the space for your knee instead of restarting the whole technique without feedback.",
+      "outcome": "The drill connects the demonstration to a specific obstacle."
+    },
+    {
+      "scenario": "You know several isolated moves and do not know what follows them.",
+      "application": "Connect one familiar escape to a guard you recognize, then a taught sweep to top position. Let your partner interrupt a single connection so you can practice that part.",
+      "outcome": "Your techniques begin to form a usable route through a round."
+    },
+    {
+      "scenario": "You feel behind because someone who started with you is progressing faster.",
+      "application": "Review a recent exchange against your own earlier attempts. Pick a technical question for your coach rather than making another student’s belt or submissions your deadline.",
+      "outcome": "Your next task stays connected to your own practice."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Trying to memorize an answer for every position at once.",
+      "consequence": "The next class brings more information than you can apply.",
+      "correction": "Keep attending the lessons and choose one detail to test in your extra practice."
+    },
+    {
+      "mistake": "Judging an entire session by how many submissions you got.",
+      "consequence": "You can overlook an improved escape, a clearer decision, or a useful question.",
+      "correction": "Record one thing you recognized and one thing you want help with."
+    },
+    {
+      "mistake": "Copying a video’s finish without understanding the starting control.",
+      "consequence": "You may practice a movement whose required position is missing.",
+      "correction": "Bring the question to your coach and rehearse the setup before the finish."
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Name the position and the job",
+      "description": "With a willing partner, slowly visit closed guard, side control, mount, and back control without submissions. At each stop, name who is controlling whom and one useful goal for each person. Reset whenever either person is unsure and check the answer with your coach.",
+      "focus": "Turn unfamiliar shapes into recognizable situations."
+    },
+    {
+      "name": "A short round with one job",
+      "description": "Choose a taught escape and start before the pin is fully settled, with your coach’s help if needed. The defender works toward guard recovery; the partner applies agreed resistance. Reset after recovery, an established pin, or any tap or request to pause. Review one detail before repeating.",
+      "focus": "Practice an achievable task and a clear reset."
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What is a useful question to ask after getting stuck?",
+      "answer": "Name the position and the first obstacle: for example, “In side control bottom, how can I recover my inside elbow before trying to bring my knee in?”"
+    }
+  ],
+  "related_content": [
+    {
+      "name": "BJJ Position Hierarchy Explained",
+      "content_type": "Learning",
+      "relationship": "Recognize the position and each person’s job."
+    },
+    {
+      "name": "BJJ Guard Types Explained",
+      "content_type": "Learning",
+      "relationship": "Choose a guard to start practicing."
+    },
+    {
+      "name": "Training Intensity",
+      "content_type": "Learning",
+      "relationship": "Agree on a useful practice pace."
+    },
+    {
+      "name": "Investing in Loss",
+      "content_type": "Learning",
+      "relationship": "Review a difficult round."
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Practice different jobs from top and bottom."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Learn a pin and a guard recovery."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Recognize a guard and its controls."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Learn the immediate defensive priorities."
+    }
+  ],
+  "references": [
+    {
+      "title": "Gracie Combatives intro class: partner feedback and progressive resistance",
+      "author": "Ryron Gracie and Rener Gracie",
+      "url": "https://www.gracieuniversity.com/Pages/players/docviewer?enc=rsEvRAsNisycrP8xv8KZjjFXAsllOYzh95Clq%2B8WssY%3D"
+    }
+  ]
+}

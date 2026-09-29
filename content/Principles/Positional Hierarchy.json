@@ -1,6 +1,6 @@
 {
   "name": "Positional Hierarchy",
-  "description": "Master positional hierarchy in BJJ. Learn strategic position ranking by control, submission potential, and competitive value. Build systematic decision-making framework.",
+  "description": "Compare control and available attacks when choosing whether to hold, advance, escape, or trade a position.",
   "tags": [
     "bjj",
     "principle",
@@ -13,18 +13,13 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Positional Hierarchy is the strategic ranking of BJJ positions by control, submission access, escape difficulty, and competitive scoring, guiding which positions to seek, hold, or trade for advantage.",
-  "overview": "Every grappling exchange is governed by an implicit ranking of positions that experienced competitors internalize long before they can articulate it — the difference between a white belt who scrambles randomly and a brown belt who methodically climbs toward dominance. Unlike specific techniques, this framework is a comprehensive strategic guideline determining which positions to seek, which to avoid, and when to trade positions for tactical advantage. It encompasses the game-theoretic understanding that positions exist on a continuum from highly advantageous (mount, back control) to highly disadvantageous (being mounted, back controlled), with intermediate positions (guards, turtle) offering varying degrees of defensive and offensive potential. The concept serves as both a strategic compass guiding position selection and a risk-management tool enabling intelligent position-trading decisions. The ability to apply positional hierarchy consistently — converting it from conscious calculation into reflexive navigation — is what separates strategically sophisticated grapplers from those who merely accumulate techniques without an organizing logic to deploy them.",
+  "summary": "Positional hierarchy compares positions by the control, attack opportunities, and escape options they give each player, helping you choose where to move next.",
+  "overview": "Judge the controls you actually have, along with the opponent’s options. A familiar position can be useful, but its name alone does not tell you whether the next move improves the exchange.",
   "key_principles": [
-    "Recognize that positions have objective value hierarchy independent of personal preference",
-    "Prioritize achieving higher-value positions before attempting submissions from lower-value positions",
-    "Understand that giving up lower-value position to achieve higher-value position is often strategic gain",
-    "Recognize defensive hierarchy where minimizing position loss is priority when offensive position is unavailable",
-    "Apply position-first approach where securing better position typically yields better submission opportunities",
-    "Balance positional advancement with risk assessment avoiding position loss for speculative gains",
-    "Recognize that competition scoring reflects positional hierarchy reinforcing strategic position value",
-    "Understand that transitional moments create position trading opportunities requiring hierarchy assessment",
-    "Apply hierarchy knowledge to decide when to maintain versus when to transition positions"
+    "Compare both players’ control and attack options.",
+    "Reduce immediate threats before seeking a better position.",
+    "Secure an advancement before treating it as an improvement.",
+    "Evaluate a position trade by the control you gain and give up."
   ],
   "component_skills": [
     {
@@ -125,71 +120,19 @@
   "application_contexts": [
     {
       "context": "Mount",
-      "how_applied": "Represents highest offensive position in traditional hierarchy, warranting submission attempts and aggressive attacks due to superior control, minimal escape routes for opponent, and maximum point value in competition."
+      "how_applied": "A stable base and upper-body control can make mount a useful attacking position; loose contact still needs consolidation."
     },
     {
       "context": "Back Control",
-      "how_applied": "Occupies highest hierarchical position alongside mount, justifying submission focus due to exceptional control quality, extremely limited defensive options for opponent, and high point value with submission access to rear naked choke."
+      "how_applied": "Chest contact and hip control limit the opponent’s ability to face you while creating hand-fighting opportunities."
     },
     {
       "context": "Side Control",
-      "how_applied": "Holds high hierarchical position below mount and back control, warranting position consolidation before submission attempts or advancement to mount, representing secure platform for offensive operations with good control and escape prevention."
-    },
-    {
-      "context": "Knee on Belly",
-      "how_applied": "Occupies high hierarchical position with exceptional pressure and submission access but slightly lower control stability than side control, requiring balance between submission attempts and transitional readiness to maintain hierarchical advantage."
+      "how_applied": "Choose between consolidating the pin and advancing to mount according to the frames and hip space available."
     },
     {
       "context": "Half Guard",
-      "how_applied": "Represents medium hierarchical position in defensive context, requiring recognition that sweeps and position improvements should generally precede submission attempts, using hierarchy to guide whether to focus on retention or advancement."
-    },
-    {
-      "context": "Closed Guard",
-      "how_applied": "Occupies neutral to slightly favorable hierarchical position where both offensive and defensive options exist, using hierarchy to determine whether situation warrants aggressive attacks or conservative position maintenance based on opponent skill and context."
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Holds low defensive hierarchical position requiring urgent improvement to prevent back take, using hierarchical understanding to prioritize guard recovery or standing up over attempting offensive techniques from inferior position."
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "Occupies variable hierarchical position depending on specific guard type and control quality, using hierarchy to assess whether current guard justifies offensive attempts or requires advancement to more favorable guard variation."
-    },
-    {
-      "context": "North-South",
-      "how_applied": "Holds high hierarchical position similar to side control, warranting submission attempts or transitions to mount, using hierarchical understanding to determine optimal balance between position maintenance and advancement."
-    },
-    {
-      "context": "Flattened Half Guard",
-      "how_applied": "Represents an emergency low-hierarchy defensive position where the bottom player has been flattened and stripped of frames, requiring immediate positional improvement using hierarchical framework to determine fastest route to guard recovery or re-establishing defensive structure."
-    },
-    {
-      "context": "X-Guard",
-      "how_applied": "Occupies medium-high hierarchical position among open guards, offering excellent sweep opportunities and positional control that justifies aggressive offensive attempts when established with proper grips and hooks."
-    },
-    {
-      "context": "De La Riva Guard",
-      "how_applied": "Represents medium hierarchical position among open guards with strong sweep and back take potential, using hierarchy to determine when to maintain guard for sweeps versus when to transition to higher-percentage positions."
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "Holds medium hierarchical position with excellent sweep mechanics and back take opportunities, using hierarchical understanding to balance between sweep attempts and guard retention when pressure threatens position loss."
-    },
-    {
-      "context": "Clinch",
-      "how_applied": "Occupies neutral hierarchical position where both offensive takedown opportunities and defensive sprawl requirements exist, using hierarchy to determine whether to initiate engagement or maintain distance based on takedown skill differential."
-    },
-    {
-      "context": "Technical Mount",
-      "how_applied": "Occupies highest hierarchical tier with mount variations, providing exceptional control and submission access while maintaining escape prevention, justifying sustained offensive pressure with minimal risk of positional loss."
-    },
-    {
-      "context": "Headquarters Position",
-      "how_applied": "Represents high hierarchical position for guard passing, offering superior passing platform with multiple advancement options, using hierarchy to determine whether to complete pass immediately or maintain headquarters for pressure accumulation."
-    },
-    {
-      "context": "Combat Base",
-      "how_applied": "Holds medium-high hierarchical position when inside opponent's guard, providing stable platform for guard opening and passing initiation, using hierarchy to balance between maintaining base and advancing passing sequence."
+      "how_applied": "From bottom, compare recovering guard with coming up on an underhook; from top, establish control before freeing the trapped leg."
     }
   ],
   "decision_framework": [
@@ -236,71 +179,31 @@
   ],
   "common_errors": [
     {
-      "error": "Attempting submissions from inferior hierarchical positions without first advancing position",
-      "consequence": "Low submission success rate combined with high risk of further hierarchical descent when submission fails, creating compound disadvantage through failed submission attempt and worsened position",
-      "correction": "Prioritize achieving higher hierarchical position before submission attempts, using position-first approach where securing mount or back control substantially increases submission success while reducing defensive options for opponent"
+      "error": "Judging by the position’s name alone",
+      "consequence": "You overlook loose controls or an immediate threat within a nominally strong position.",
+      "correction": "Check base, grips, escape routes, and attacks available to both players."
     },
     {
-      "error": "Failing to recognize when position trading represents net hierarchical gain",
-      "consequence": "Maintaining lower-value position when opportunity exists to trade for higher-value position, missing chances for strategic improvement through intelligent position exchange based on hierarchical calculation",
-      "correction": "Develop position trading calculation skill by systematically evaluating whether surrendering current position for alternative represents hierarchical advancement, considering control quality, submission access, and escape difficulty for both positions"
+      "error": "Advancing without securing the new position",
+      "consequence": "The opponent escapes during the trade and the expected advantage disappears.",
+      "correction": "Identify the landing controls and establish them during the transition."
     },
     {
-      "error": "Ignoring defensive hierarchy when in inferior positions",
-      "consequence": "Attempting offensive techniques from low hierarchical positions instead of prioritizing escape or position improvement, leading to further hierarchical descent and increased submission danger through misallocated defensive effort",
-      "correction": "Apply defensive hierarchy principle where preventing additional hierarchical loss takes absolute priority when in inferior position, focusing exclusively on position improvement until achieving sufficient hierarchical security for offensive attempts"
-    },
-    {
-      "error": "Overvaluing personal position preferences over objective hierarchical value",
-      "consequence": "Seeking preferred positions that offer lower hierarchical value than available alternatives, sacrificing strategic advantage for comfort or familiarity, reducing overall positional effectiveness through subjective decision-making",
-      "correction": "Recognize that hierarchical value is objective and independent of personal preference, developing skill with high-hierarchy positions even if initially uncomfortable, using objective hierarchy as guide rather than subjective comfort"
-    },
-    {
-      "error": "Failing to use hierarchical dominance to create psychological pressure",
-      "consequence": "Achieving superior hierarchical position but not leveraging psychological advantage, missing opportunity to induce defensive errors through sustained hierarchical pressure beyond pure mechanical control",
-      "correction": "Understand that occupying superior hierarchical position creates psychological burden on opponent that compounds over time, maintaining dominant positions strategically to maximize mental pressure alongside physical control"
-    },
-    {
-      "error": "Misunderstanding competition point system relationship to hierarchy",
-      "consequence": "Pursuing positions with lower point values when higher-value positions are accessible, failing to maximize competitive scoring through hierarchical advancement aligned with point system",
-      "correction": "Recognize that competition points directly reflect positional hierarchy, using point values as reinforcement of hierarchical understanding and prioritizing positions that offer both hierarchical advantage and maximum point accumulation"
-    },
-    {
-      "error": "Abandoning hierarchically superior position for speculative submission attempts",
-      "consequence": "Trading secure high-hierarchy position for low-percentage submission that risks hierarchical loss if failed, sacrificing strategic advantage for tactical opportunity with poor risk-reward calculation",
-      "correction": "Maintain hierarchical discipline by ensuring submissions attempted from superior positions are high-percentage with acceptable risk profile, willing to abandon low-percentage submissions to preserve hierarchical advantage"
+      "error": "Holding a position after its advantage is gone",
+      "consequence": "The opponent builds frames or attacks while you resist changing course.",
+      "correction": "Reassess the current controls and choose a realistic recovery or advancement."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Positional Sparring by Hierarchy Level",
-      "description": "Structure positional sparring sessions organized by hierarchical position level, spending dedicated time working from each major hierarchical category (dominant, neutral, defensive) to develop positional understanding and transition skills specific to each hierarchy level.",
-      "focus": "Build experiential understanding of hierarchical positions through repeated exposure to control requirements, submission opportunities, and escape difficulties characteristic of each level, developing intuitive hierarchical assessment through practice."
+      "approach_name": "Compare two positions",
+      "description": "Cooperatively set up side control and mount. In each, name both players’ available frames, escapes, and attacks. Try one slow positional exchange, reset, then switch roles.",
+      "focus": "Assess actual controls rather than labels."
     },
     {
-      "approach_name": "Position Trading Drills",
-      "description": "Practice controlled scenarios where practitioners must decide whether to trade current position for alternative position, calculating hierarchical value before executing trade, developing position trading calculation skill through deliberate practice with feedback.",
-      "focus": "Develop rapid hierarchical assessment and position trading calculation abilities by repeatedly evaluating whether position exchanges represent net hierarchical gain, building decision-making speed and accuracy for position trading situations."
-    },
-    {
-      "approach_name": "Hierarchical Advancement Sequences",
-      "description": "Drill progressive sequences that advance through multiple hierarchical levels systematically, such as guard pass to side control to mount or sweep to mount to back take, building muscle memory for hierarchical climbing through technical chains.",
-      "focus": "Create automatic hierarchical advancement patterns by practicing multi-step sequences that progress up hierarchy, developing smooth transitions between positions while maintaining hierarchical awareness throughout sequence."
-    },
-    {
-      "approach_name": "Defensive Hierarchy Escape Circuits",
-      "description": "Train escape sequences starting from lowest hierarchical positions and working up through defensive hierarchy, practicing mount escapes to side control escapes to guard retention in systematic progression reflecting hierarchical urgency.",
-      "focus": "Build defensive hierarchical understanding by experiencing escape requirements at each defensive level, developing sense for which positions require immediate escape versus gradual improvement based on hierarchical danger."
-    },
-    {
-      "approach_name": "Competition Simulation with Point Tracking",
-      "description": "Conduct sparring sessions with explicit point counting and strategic discussion of hierarchical decisions, analyzing how position choices affected point accumulation and match outcomes through hierarchical lens.",
-      "focus": "Connect hierarchical understanding to competitive reality by tracking how hierarchical positions translate to point advantages, developing strategic sense for using hierarchy to maximize competitive scoring."
-    },
-    {
-      "approach_name": "Hierarchical Flow Rolling",
-      "description": "Practice flow rolling with explicit focus on smooth hierarchical transitions, moving through positions consciously while maintaining awareness of hierarchical value changes, building fluid positional game with hierarchical intelligence.",
-      "focus": "Develop intuitive hierarchical navigation by combining technical fluidity with strategic awareness, creating automatic hierarchical assessment during live movement without sacrificing technical execution quality."
+      "approach_name": "Hold or advance",
+      "description": "Start in side control. The partner slowly alternates between framing and opening a mount entry. Choose to consolidate or advance, then reset once the position is stable.",
+      "focus": "Recognize when a trade improves control."
     }
   ],
   "developmental_metrics": [
@@ -525,7 +428,7 @@
       "vertical": false,
       "channel": "BJJ Fanatics",
       "duration": 1548,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "x_IrC_-zzYU",
@@ -534,7 +437,7 @@
       "vertical": false,
       "channel": "Will Brooks Official",
       "duration": 598,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "duFyN9AoWyE",
@@ -543,7 +446,7 @@
       "vertical": false,
       "channel": "Dark Horse Brazilian Jiu Jitsu",
       "duration": 119,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

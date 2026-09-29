@@ -4,7 +4,7 @@
 
 ---
 title: "Compression Locks | BJJ Principle | BJJ Graph"
-description: "Master compression lock mechanics in BJJ. Learn how crushing muscle and tendon against bone creates calf slicers, bicep slicers, and chest compressions."
+description: "Compression locks fold a limb around a wedge, creating pressure in the surrounding tissue and joint; recognize control before pressure."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Compression Locks",
-  "description": "Master compression lock mechanics in BJJ. Learn how crushing muscle and tendon against bone creates calf slicers, bicep slicers, and chest compressions.",
+  "description": "Compression locks fold a limb around a wedge, creating pressure in the surrounding tissue and joint; recognize control before pressure.",
   "url": "https://bjjgraph.org/Principles/Compression-Locks",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Shallow wedge insertion — positioning the bone on the surface of the muscle rather than deep in the belly?",
+      "name": "What is a common mistake in Applying sudden folding pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The compression creates surface discomfort but insufficient deep tissue compression to force a tap. Tough opponents can endure the surface pressure and eventually escape. The attacker wastes energy applying force that produces pain but not submission. The correction is: Before applying any folding force, focus entirely on driving the wedge bone deep into the soft tissue. Use hip movement and positioning adjustments to seat the bone deeper. Think of it as setting an anchor before pulling — the deeper the anchor, the more effective the force."
+        "text": "The defender has little opportunity to stop the exchange. The correction is: Practice unloaded entries and release immediately on any stop cue."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Losing control of the distal limb segment (foot or hand) during compression?",
+      "name": "What is a common mistake in Losing control of the limb?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent straightens their limb, removing the fold that creates compression. The wedge bone is exposed with no limb wrapped around it, and the attacker has lost both the submission and potentially their position. The correction is: Grip the foot or hand before applying compression and maintain that control throughout. If you feel the limb straightening, abandon the compression force and re-establish distal control before trying again. Control the fold first, compress second."
+        "text": "The wedge shifts and the intended position is lost. The correction is: Reset the setup instead of adding force."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting compression locks in rulesets where they are illegal?",
+      "name": "What is a common mistake in Assuming it is only a pain hold?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediate disqualification in competition. In training, attempting banned techniques creates confusion about rules and may indicate insufficient ruleset knowledge. Even in training, surprising partners with unexpected compression attacks can strain trust. The correction is: Study the specific rules of every competition you enter. In training, communicate with partners about which techniques are in play. Develop the habit of mentally filtering your attack options by ruleset legality before committing to any submission."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using arm strength alone to create the folding force?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Insufficient compression force against a resistant opponent, leading to rapid fatigue and failed submission attempts. The attacker exhausts their grips and arms while the opponent simply endures the moderate pressure. The correction is: Engage your entire body as the compression engine. Sit back with your hips for calf slicers. Use body weight and chest pressure for bicep slicers. The grip and arms maintain the wedge position while the torso, hips, and legs generate the folding force."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Ignoring the compression lock opportunity while fixated on the primary joint lock?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Missing high-percentage submission opportunities that arise naturally from the same control position. The attacker fights for an armbar the opponent is successfully defending while a bicep slicer is readily available. Competition matches are lost by tunnel vision on a single attack. The correction is: Train compression locks alongside their companion joint locks. Drill the armbar-to-bicep-slicer transition and the kneebar-to-calf-slicer transition until recognizing the secondary opportunity becomes automatic. Build a mental model where compression and joint locks form attack pairs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying compression locks explosively without controlled force escalation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While compression locks generally cause less permanent damage than joint locks, explosive application can still cause significant muscle bruising, tendon damage, or bone contusions. Training partners become reluctant to work compression positions. The correction is: Apply compression force gradually, giving the opponent time to feel the pressure building and tap. The goal is to demonstrate the inevitability of the submission through progressive tightening. Controlled application also allows you to feel whether the wedge is properly positioned before committing maximum force."
+        "text": "The defender may wait too long to stop. The correction is: Treat it as a joint-threatening submission and tap early."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Compression Locks",
-  "description": "Compression locks are submissions that crush muscle or tendon against bone by wedging a hard surface — a shin, forearm, or wrist — into the soft tissue and folding the limb around it, as with the calf slicer and bicep slicer.",
+  "description": "Compression locks fold a limb around a hard wedge, such as a forearm or shin, to create pressure in the tissue and joint.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -216,13 +192,9 @@ description: "Master compression lock mechanics in BJJ. Learn how crushing muscl
 
 ## What are Compression Locks?
 
-**Compression locks are submissions that crush muscle or tendon against bone by wedging a hard surface — a shin, forearm, or wrist — into the soft tissue and folding the limb around it, as with the calf slicer and bicep slicer.**
+**Compression locks fold a limb around a hard wedge, such as a forearm or shin, to create pressure in the tissue and joint.**
 
-Within the broader submission landscape, compression locks sit apart from joint locks: where a joint lock attacks the ligaments at a joint's end range of motion, a compression lock attacks the muscle belly itself, trapping a limb segment and driving a bony edge into the tissue on the opposite side until the pain forces a tap. The classic vehicles are the calf slicer (shin driven into the calf against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest or rib compressions that turn an interlocked body triangle into a crushing ring.
-
-Compression locks occupy a unique niche in BJJ because they are frequently available as secondary attacks from positions where other submissions are the primary threat. A failed armbar can transition to a bicep slicer. A leg entanglement that does not yield a heel hook may offer a calf slicer. They are also valuable because many opponents do not train defenses against them, making them high-percentage surprise attacks at the intermediate and advanced levels.
-
-However, compression locks come with significant ruleset considerations. IBJJF rules restrict most compression attacks to brown and black belt divisions. Many local tournaments ban them entirely. No-gi competition rulesets tend to be more permissive, and submission-only formats generally allow all compression attacks. Practitioners must understand which attacks are legal in their competition context and adjust their game accordingly. The mechanics themselves — wedge insertion, scissoring force, angle optimization — transfer across all compression variations once the underlying principle is understood.
+Recognize the wedge and the controlled limb before any folding pressure develops. These are submission threats, not harmless pain holds; practice entries without finishing pressure and release immediately on a stop cue.
 
 </section>
 
@@ -265,15 +237,10 @@ However, compression locks come with significant ruleset considerations. IBJJF r
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Create a wedge by positioning a hard bony surface (shin, forearm, wrist) against the soft tissue side of the opponent's limb
-- Apply scissoring or folding force to compress the limb around the wedge, crushing muscle against bone
-- The deeper the wedge penetrates into the soft tissue before compression begins, the more effective the lock
-- Maintain the wedge position throughout the compression — if it slips, the submission loses effectiveness
-- Use body positioning and limb control to fold the opponent's limb around the wedge rather than trying to push the wedge through the limb
-- Compression locks often work as combination threats with nearby joint locks from the same control position
-- Understand ruleset legality before attempting compression attacks in competition — restrictions vary significantly
-- The pain from compression locks is immediate and intense but typically causes less permanent damage than joint locks when applied with control
-- Angle the wedge bone perpendicular to the long axis of the opponent's limb for maximum crushing surface area
+- Identify the wedge and the limb being controlled.
+- Secure position rather than driving the wedge harder.
+- Do not treat pain tolerance as a defense.
+- Check the agreed training rules and release immediately on any stop signal.
 
 
 </section>
@@ -302,27 +269,13 @@ However, compression locks come with significant ruleset considerations. IBJJF r
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Ashi Garami**: Calf slicer opportunities arise when the attacker's shin is positioned behind the opponent's knee and the opponent's leg can be folded around it. From standard Ashi Garami, controlling the foot and folding the lower leg back compresses the calf muscle against the attacker's shin bone.
+**Ashi Garami**: A shin behind the knee can become the wedge for a calf-slicer setup.
 
-**Armbar Control**: When the opponent defends an armbar by clasping their hands and bending the arm, a bicep slicer opportunity exists. The attacker inserts a forearm or wrist across the crook of the elbow and applies downward pressure to fold the arm around the wedge, compressing the bicep.
+**Armbar Control**: A bent-arm defense can expose space for a biceps-slicer setup.
 
-**Back Control**: Body triangle compression from back control crushes the opponent's torso between the attacker's legs. The interlocked legs create a constricting ring around the midsection. While not always considered a traditional slicer, the chest compression mechanic follows the same principle of crushing soft tissue against a hard surface.
+**Mount**: A bent defensive arm can create a compression-lock entry.
 
-**Mount**: Mounted bicep slicer attacks can emerge when the opponent frames with bent arms. The attacker can thread a forearm through the bend of the elbow and apply body weight to fold the arm, compressing the bicep against the forearm bone.
-
-**Knee on Belly**: The knee itself acts as a compression point against the abdomen. While not typically classified as a slicer, knee on belly demonstrates the compression principle — a hard bony surface (patella) driving into soft tissue with body weight as the force engine.
-
-**Half Guard**: The calf slicer from top half guard emerges when the attacker steps over the trapped leg and positions their shin behind the opponent's knee. By sitting back and controlling the foot, the lower leg folds around the shin, creating a deep calf compression.
-
-**Truck**: The truck position offers both calf slicer and banana split opportunities. The attacker's lockdown configuration can compress the calf while simultaneously threatening groin and hip separation through the banana split. The shared control makes these attacks natural combinations.
-
-**De La Riva Guard**: When the top player attempts to backstep over the De La Riva hook, a calf slicer opportunity can arise as the shin crosses behind the knee. Awareness of this threat is important for both the passer (to use it offensively) and the guard player (to avoid it).
-
-**Closed Guard**: Bicep slicer attacks from closed guard target the opponent's bent arms when they post or frame. The guard player can thread a forearm through the elbow crook and use their guard to create the folding pressure. This is a higher-level attack that surprises opponents unfamiliar with compression threats from guard.
-
-**Kneebar Control**: Failed kneebar attempts naturally transition to calf slicers when the attacker repositions their shin behind the opponent's knee. The control established for the kneebar provides the foundation for the compression lock, making this one of the most natural submission transitions in leg lock systems.
-
-**Crucifix**: The crucifix position can create compression opportunities on the trapped arm when the attacker uses their legs to fold the opponent's arm around a wedge point. The extreme limb isolation of the crucifix makes compression attacks difficult to escape once established.
+**Back Control**: A body triangle also compresses the torso, but it differs from a limb folded around a slicer wedge.
 
 
 
@@ -345,24 +298,15 @@ However, compression locks come with significant ruleset considerations. IBJJF r
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Shallow wedge insertion — positioning the bone on the surface of the muscle rather than deep in the belly
-  - **Consequence**: The compression creates surface discomfort but insufficient deep tissue compression to force a tap. Tough opponents can endure the surface pressure and eventually escape. The attacker wastes energy applying force that produces pain but not submission.
-  - **Correction**: Before applying any folding force, focus entirely on driving the wedge bone deep into the soft tissue. Use hip movement and positioning adjustments to seat the bone deeper. Think of it as setting an anchor before pulling — the deeper the anchor, the more effective the force.
-- **Mistake**: Losing control of the distal limb segment (foot or hand) during compression
-  - **Consequence**: The opponent straightens their limb, removing the fold that creates compression. The wedge bone is exposed with no limb wrapped around it, and the attacker has lost both the submission and potentially their position.
-  - **Correction**: Grip the foot or hand before applying compression and maintain that control throughout. If you feel the limb straightening, abandon the compression force and re-establish distal control before trying again. Control the fold first, compress second.
-- **Mistake**: Attempting compression locks in rulesets where they are illegal
-  - **Consequence**: Immediate disqualification in competition. In training, attempting banned techniques creates confusion about rules and may indicate insufficient ruleset knowledge. Even in training, surprising partners with unexpected compression attacks can strain trust.
-  - **Correction**: Study the specific rules of every competition you enter. In training, communicate with partners about which techniques are in play. Develop the habit of mentally filtering your attack options by ruleset legality before committing to any submission.
-- **Mistake**: Using arm strength alone to create the folding force
-  - **Consequence**: Insufficient compression force against a resistant opponent, leading to rapid fatigue and failed submission attempts. The attacker exhausts their grips and arms while the opponent simply endures the moderate pressure.
-  - **Correction**: Engage your entire body as the compression engine. Sit back with your hips for calf slicers. Use body weight and chest pressure for bicep slicers. The grip and arms maintain the wedge position while the torso, hips, and legs generate the folding force.
-- **Mistake**: Ignoring the compression lock opportunity while fixated on the primary joint lock
-  - **Consequence**: Missing high-percentage submission opportunities that arise naturally from the same control position. The attacker fights for an armbar the opponent is successfully defending while a bicep slicer is readily available. Competition matches are lost by tunnel vision on a single attack.
-  - **Correction**: Train compression locks alongside their companion joint locks. Drill the armbar-to-bicep-slicer transition and the kneebar-to-calf-slicer transition until recognizing the secondary opportunity becomes automatic. Build a mental model where compression and joint locks form attack pairs.
-- **Mistake**: Applying compression locks explosively without controlled force escalation
-  - **Consequence**: While compression locks generally cause less permanent damage than joint locks, explosive application can still cause significant muscle bruising, tendon damage, or bone contusions. Training partners become reluctant to work compression positions.
-  - **Correction**: Apply compression force gradually, giving the opponent time to feel the pressure building and tap. The goal is to demonstrate the inevitability of the submission through progressive tightening. Controlled application also allows you to feel whether the wedge is properly positioned before committing maximum force.
+- **Mistake**: Applying sudden folding pressure
+  - **Consequence**: The defender has little opportunity to stop the exchange.
+  - **Correction**: Practice unloaded entries and release immediately on any stop cue.
+- **Mistake**: Losing control of the limb
+  - **Consequence**: The wedge shifts and the intended position is lost.
+  - **Correction**: Reset the setup instead of adding force.
+- **Mistake**: Assuming it is only a pain hold
+  - **Consequence**: The defender may wait too long to stop.
+  - **Correction**: Treat it as a joint-threatening submission and tap early.
 
 
 </section>
@@ -370,20 +314,11 @@ However, compression locks come with significant ruleset considerations. IBJJF r
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Wedge Depth Drilling** (Focus: Developing the habit and skill of deep wedge positioning as the first step of every compression attack, eliminating the common error of premature compression with shallow insertion.)
-Practice inserting the wedge bone to maximum depth before applying any folding force. Partner provides feedback on where the bone is contacting their limb and how deep the pressure feels. Repeat from multiple positions (behind the knee, through the elbow crook, across the forearm) until deep wedge insertion becomes the default starting point.
+**Unloaded wedge check** (Focus: Recognize the setup before pressure.)
+With a coach and cooperative partner, identify the wedge in a familiar slicer entry without folding or squeezing the limb. Name the controlled segment, release, and reset.
 
-**Joint Lock to Compression Transition Drilling** (Focus: Building the recognition and reaction speed for compression opportunities that arise from joint lock defenses, creating a dual-threat attack system from shared control positions.)
-Start with a standard joint lock attempt (armbar, kneebar) and have the partner defend with the specific defense that opens the compression alternative (bending the arm, bending the knee). Practice recognizing the transition moment and flowing to the compression lock. Drill both directions: compression to joint lock when the opponent straightens.
-
-**Positional Compression Sparring** (Focus: Developing reliable compression lock finishing ability against resistance by removing the option to switch to the more familiar joint lock, forcing genuine compression skill development.)
-Start in specific positions where compression opportunities exist (Ashi Garami, armbar position, truck) and spar with the constraint that only compression attacks are allowed. Defender works escapes. This isolates the compression finishing skill and forces the attacker to solve the problems specific to completing compression submissions.
-
-**Ruleset Scenario Training** (Focus: Developing the mental discipline to filter attack options by ruleset legality and the flexibility to adapt game planning to different competition formats.)
-Run training rounds under different rulesets, explicitly calling out which compression attacks are legal before each round. Practice making real-time decisions about attack selection based on ruleset constraints. Include rounds under IBJJF rules, ADCC rules, and submission-only rules to build versatile ruleset awareness.
-
-**Body Mechanics Compression Finishing** (Focus: Eliminating grip-dependent compression finishing and developing the body mechanics needed to generate sufficient folding force against strong opponents using structural advantage.)
-Practice finishing compression locks using only body weight and positioning, with a specific constraint that grip force stays below 50%. Partner provides feedback on whether they feel the compression coming from body mechanics or grip force. This forces reliance on hip movement, weight distribution, and structural positioning for the finish.
+**Entry recognition** (Focus: Spot the transition without finishing.)
+Walk slowly from a familiar bent-arm or bent-leg defense toward a compression-lock entry. Stop before pressure; the defender names the threat, both release, and reset.
 
 
 

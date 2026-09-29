@@ -4,7 +4,7 @@
 
 ---
 title: "Position-Over-Submission Approach | BJJ Principle | BJJ Graph"
-description: "Master the Position-Over-Submission philosophy in BJJ. Learn strategic dominance through systematic positional advancement. Build control hierarchy before finishing."
+description: "Build and preserve positional control when attacking, and change course when a submission attempt opens an escape."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Position-Over-Submission Approach",
-  "description": "Master the Position-Over-Submission philosophy in BJJ. Learn strategic dominance through systematic positional advancement. Build control hierarchy before finishing.",
+  "description": "Build and preserve positional control when attacking, and change course when a submission attempt opens an escape.",
   "url": "https://bjjgraph.org/Principles/Position-Over-Submission-Approach",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Attempting submissions from neutral or inferior positions without establishing dominant control?",
+      "name": "What is a common mistake in Chasing the limb while losing body contact?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Premature submission attempts from poor positions often result in opponent escaping, countering, or sweeping, negating previous work and potentially reversing positional advantage entirely The correction is: Strictly adhere to the positional hierarchy, refusing submission attempts until reaching dominant positions like mount, back control, or fully secured side control where positional loss risk is minimized"
+        "text": "The opponent escapes as you focus on the finishing grip. The correction is: Restore the pin or entanglement before continuing the submission entry."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Abandoning established positions to chase low-percentage submissions?",
+      "name": "What is a common mistake in Forcing a well-defended attack?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Leaving secure dominant positions for submission attempts that lack proper setup allows opponents to escape, recover guard, or create scrambles that eliminate accumulated positional advantages The correction is: Maintain positional priority by only attempting submissions when control points are fully established and when submission mechanics don't require sacrificing position to execute"
+        "text": "Your base and grips deteriorate while another opening goes unused. The correction is: Follow the defensive reaction into a better position or rebuild the original control."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Failing to recognize when opponent's defense warrants position change rather than submission persistence?",
+      "name": "What is a common mistake in Reaching so far that you cannot recover?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Continuing to force submissions against strong defenses wastes energy, creates scramble opportunities, and prevents capitalizing on alternative positional advancements that opponent's defensive structure has created The correction is: Develop sensitivity to opponent's defensive reactions, using their submission defenses as cues to transition to better positions or alternative submissions rather than forcing single attacks"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Misunderstanding position quality due to superficial position classification?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Treating all instances of a position as equivalent (like attempting submissions from any side control) without recognizing that control point quality varies dramatically within positions leads to premature, low-percentage submission attempts The correction is: Assess position quality based on specific control points achieved within each position, recognizing that side control with cross-face and weight distribution differs fundamentally from side control with minimal control"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Neglecting positional consolidation in favor of continuous advancement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rushing through positions without establishing proper control at each stage creates weak positional foundations that collapse under opponent's defensive efforts, resulting in position loss despite apparent advancement The correction is: Implement deliberate pause points in positional progressions to secure control mechanisms at each stage before advancing, ensuring each position is truly consolidated before pursuing the next"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Applying submission-first mentality in competition contexts that reward positional advancement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Foregoing available positional points to chase submissions in point-scoring competitions sacrifices guaranteed advantages for uncertain finishing attempts, often resulting in strategic disadvantages even when submissions succeed The correction is: Adopt competition-specific strategies that prioritize accumulating positional points before attempting submissions, using point leads to create strategic advantages and reduce submission pressure"
+        "text": "A failed entry leaves no useful connection or fallback. The correction is: Keep an escape-blocking contact and rehearse how to return when the entry is denied."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Position-Over-Submission Approach",
-  "description": "A Position-Over-Submission Approach is the strategy of securing dominant, control-secure positions before attempting submissions, since higher positions yield safer, higher-percentage finishes with far less risk of escapes or reversals.",
+  "description": "A position-over-submission approach prioritizes reliable body control before committing to a finish, so an unsuccessful attack can still leave you in a useful position.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -177,6 +153,27 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
     {
       "@type": "VideoObject",
       "position": 1,
+      "name": "Position before submission explained",
+      "description": "Position-Over-Submission Approach film study: Position before submission explained, taught by Straight Talking Leadership.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MP06_BxtJkU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MP06_BxtJkU",
+      "url": "https://www.youtube.com/watch?v=MP06_BxtJkU",
+      "creator": { "@type": "Person", "name": "Straight Talking Leadership" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "What position over submission means",
+      "description": "Position-Over-Submission Approach film study: What position over submission means, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DmA6Lay6vt4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DmA6Lay6vt4",
+      "url": "https://www.youtube.com/watch?v=DmA6Lay6vt4",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" }
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
       "name": "Position before submission",
       "description": "Position-Over-Submission Approach film study: Position before submission, taught by Marcelo Garcia.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HxLJTGnVsMo/hqdefault.jpg",
@@ -187,7 +184,7 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
     },
     {
       "@type": "VideoObject",
-      "position": 2,
+      "position": 4,
       "name": "Position before submission for beginners",
       "description": "Position-Over-Submission Approach film study: Position before submission for beginners, taught by Budo Brothers.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aJrAulixy9Y/hqdefault.jpg",
@@ -195,17 +192,6 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
       "url": "https://www.youtube.com/watch?v=aJrAulixy9Y",
       "creator": { "@type": "Person", "name": "Budo Brothers" },
       "duration": "PT228S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Position before submission explained",
-      "description": "Position-Over-Submission Approach film study: Position before submission explained, taught by Straight Talking Leadership.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/MP06_BxtJkU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/MP06_BxtJkU",
-      "url": "https://www.youtube.com/watch?v=MP06_BxtJkU",
-      "creator": { "@type": "Person", "name": "Straight Talking Leadership" },
-      "duration": "PT61S"
     }
   ]
 }
@@ -216,13 +202,9 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 
 ## What is Position-Over-Submission Approach?
 
-**A Position-Over-Submission Approach is the strategy of securing dominant, control-secure positions before attempting submissions, since higher positions yield safer, higher-percentage finishes with far less risk of escapes or reversals.**
+**A position-over-submission approach prioritizes reliable body control before committing to a finish, so an unsuccessful attack can still leave you in a useful position.**
 
-Position before submission is one of the oldest pieces of strategic wisdom in Brazilian Jiu-Jitsu, popularized through Gracie-era competition and later reinforced by points-based rulesets that explicitly reward systematic advancement. Rather than treating a match as a hunt for the first available submission, this framework treats it as a campaign to climb the positional hierarchy — guard retention or passing, then side control, mount, and back control — where each rung makes the opponent's escapes harder and your finishes higher-percentage.
-
-This strategic framework guides practitioners to think hierarchically about positions, moving systematically through progressively more dominant positions (guard passing to side control to mount to back control) before committing to submission attempts. By prioritizing positional advancement, practitioners develop better control mechanics, reduce energy expenditure through premature submission attempts, and create psychological pressure on opponents who face continuous positional degradation. The position-first mindset also develops superior defensive awareness, as practitioners learn to recognize when their position is compromised and prioritize recovery over offensive action.
-
-The Position Over Submission philosophy extends beyond individual technique execution to encompass overall match strategy, training methodology, and skill development. It teaches practitioners to view grappling exchanges as strategic campaigns rather than isolated submission attempts, building cumulative advantages through positional chess rather than gambling on low-percentage finishing attempts. This approach proves particularly effective in competition, where positional points reward systematic advancement and where submission attempts from poor positions often result in sweeps, reversals, or position loss that negates earlier work.
+Before attacking, identify the contact that keeps the opponent from escaping. Maintain or replace it during the entry, and recover the position if the finish is no longer available.
 
 </section>
 
@@ -233,6 +215,22 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 <p class="section-subtitle">Watch Position-Over-Submission Approach in action — curated instructionals</p>
 
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=MP06_BxtJkU)
+
+<p class="clip-credit"><strong>Position before submission explained</strong> — taught by Straight Talking Leadership · 1:01 · <a href="https://www.youtube.com/watch?v=MP06_BxtJkU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=DmA6Lay6vt4)
+
+<p class="clip-credit"><strong>What position over submission means</strong> — taught by Stephan Kesting · <a href="https://www.youtube.com/watch?v=DmA6Lay6vt4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
 
 <div class="film-clip">
 
@@ -250,14 +248,6 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </div>
 
-<div class="film-clip film-clip--vertical">
-
-![](https://www.youtube.com/watch?v=MP06_BxtJkU)
-
-<p class="clip-credit"><strong>Position before submission explained</strong> — taught by Straight Talking Leadership · 1:01 · <a href="https://www.youtube.com/watch?v=MP06_BxtJkU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
 
 </section>
 
@@ -265,15 +255,10 @@ The Position Over Submission philosophy extends beyond individual technique exec
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Positional hierarchy dictates that dominant positions create safer, higher-percentage submission opportunities than neutral or inferior positions
-- Each positional improvement compounds control advantages while reducing opponent's offensive options and escape pathways
-- Submission attempts should only be pursued when positional control is sufficiently established to prevent counters or escapes
-- Position loss during failed submission attempts often negates previous positional gains and resets the strategic exchange
-- Point-scoring positions in competition reward systematic advancement and create psychological pressure on opponents
-- Energy efficiency improves when positional control is established before committing to submission mechanics
-- Defensive security requires prioritizing position recovery over offensive submission attempts when position is compromised
-- Long-term skill development benefits from position-focused training that builds control mechanics before submission finishing
-- Strategic patience in advancing through positional hierarchy creates compound advantages and submission opportunities
+- Establish the controls that make the chosen attack available.
+- Keep a base and an escape-blocking contact during the entry.
+- Use defensive reactions to improve position or change the attack.
+- Release a failing submission when recovering position is the better option.
 
 
 </section>
@@ -304,33 +289,13 @@ The Position Over Submission philosophy extends beyond individual technique exec
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Mount**: From mount, the position-over-submission approach emphasizes securing high mount or technical mount control before attempting armbars or chokes, ensuring that submission attempts don't compromise the dominant position and allow opponent to escape back to guard.
+**Mount**: Settle your base and isolate the target arm before changing position for an armbar entry.
 
-**Knee on Belly**: When in knee on belly, practitioners use the position to score points and create submission threats while prioritizing transitions to mount or side control when opponent's defenses create openings, rather than forcing low-percentage submissions.
+**Back Control**: Maintain chest connection and lower-body control while hand fighting, adjusting them as you reach for a choke grip.
 
-**Back Control**: From back control, the approach prioritizes securing both hooks, seat belt grip, and preventing opponent's defensive hand fighting before attempting rear naked chokes, understanding that rushed submission attempts allow opponents to escape the position.
+**Ashi Garami**: Contain the leg and hips before reaching for the foot, and recover your guard if the entanglement is lost.
 
-**North-South**: From north-south, the concept guides practitioners to establish tight chest pressure and arm control before attempting north-south chokes or kimuras, recognizing that positional stability creates better finishing opportunities than rushed attempts.
-
-**Half Guard**: When in bottom half guard, the position-first mindset prioritizes recovering full guard or achieving sweeps to top position rather than attempting submissions from the inferior position, recognizing the hierarchical advantage of positional improvement.
-
-**Closed Guard**: From closed guard, practitioners focus on breaking opponent's posture, establishing grips, and creating angles before attempting triangles or armbars, understanding that submission attempts from poor positions often result in guard passing.
-
-**Open Guard**: In open guard positions like De La Riva or butterfly guard, the approach emphasizes using grips and hooks to off-balance opponent and create sweep opportunities before committing to submission attempts that might compromise guard retention.
-
-**Flattened Half Guard**: When flattened in bottom half guard with opponent applying cross-face and shoulder pressure, the concept mandates that positional escapes and guard recovery are the exclusive priority, completely foregoing submission attempts until a neutral or superior position is reestablished.
-
-**Butterfly Guard**: From butterfly guard, practitioners use hooks and underhooks to create sweep opportunities and positional advancement before considering submission attacks, recognizing that sweeps to top position create superior finishing opportunities.
-
-**De La Riva Guard**: In De La Riva guard, the position-first approach uses the hook and grip system primarily for off-balancing and sweeping opponent to achieve top position, with submissions serving as secondary opportunities when positional advancement stalls.
-
-**Turtle**: From turtle position, the philosophy emphasizes either recovering guard or standing up rather than attempting submissions from the defensive position, recognizing that offensive actions from turtle often result in back takes by the opponent.
-
-**X-Guard**: In X-guard, practitioners prioritize executing sweeps to achieve top position rather than attempting leg locks from the bottom position, understanding that positional advancement creates safer and more dominant finishing opportunities.
-
-**Ashi Garami**: From ashi garami leg entanglements, the approach emphasizes securing proper control positions and breaking opponent's defensive structure before committing to heel hook or kneebar finishing mechanics that might allow positional escapes.
-
-**Clinch**: In standing exchanges, the position-over-submission philosophy prioritizes executing takedowns to achieve top position rather than attempting guillotines or other submissions that might result in guard pulls or failed attempts.
+**Closed Guard**: Control posture and the target limb before opening the legs for an attack, with a plan to rebuild guard if it fails.
 
 
 
@@ -354,27 +319,15 @@ The Position Over Submission philosophy extends beyond individual technique exec
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Attempting submissions from neutral or inferior positions without establishing dominant control
-  - **Consequence**: Premature submission attempts from poor positions often result in opponent escaping, countering, or sweeping, negating previous work and potentially reversing positional advantage entirely
-  - **Correction**: Strictly adhere to the positional hierarchy, refusing submission attempts until reaching dominant positions like mount, back control, or fully secured side control where positional loss risk is minimized
-- **Mistake**: Abandoning established positions to chase low-percentage submissions
-  - **Consequence**: Leaving secure dominant positions for submission attempts that lack proper setup allows opponents to escape, recover guard, or create scrambles that eliminate accumulated positional advantages
-  - **Correction**: Maintain positional priority by only attempting submissions when control points are fully established and when submission mechanics don't require sacrificing position to execute
-- **Mistake**: Failing to recognize when opponent's defense warrants position change rather than submission persistence
-  - **Consequence**: Continuing to force submissions against strong defenses wastes energy, creates scramble opportunities, and prevents capitalizing on alternative positional advancements that opponent's defensive structure has created
-  - **Correction**: Develop sensitivity to opponent's defensive reactions, using their submission defenses as cues to transition to better positions or alternative submissions rather than forcing single attacks
-- **Mistake**: Misunderstanding position quality due to superficial position classification
-  - **Consequence**: Treating all instances of a position as equivalent (like attempting submissions from any side control) without recognizing that control point quality varies dramatically within positions leads to premature, low-percentage submission attempts
-  - **Correction**: Assess position quality based on specific control points achieved within each position, recognizing that side control with cross-face and weight distribution differs fundamentally from side control with minimal control
-- **Mistake**: Neglecting positional consolidation in favor of continuous advancement
-  - **Consequence**: Rushing through positions without establishing proper control at each stage creates weak positional foundations that collapse under opponent's defensive efforts, resulting in position loss despite apparent advancement
-  - **Correction**: Implement deliberate pause points in positional progressions to secure control mechanisms at each stage before advancing, ensuring each position is truly consolidated before pursuing the next
-- **Mistake**: Applying submission-first mentality in competition contexts that reward positional advancement
-  - **Consequence**: Foregoing available positional points to chase submissions in point-scoring competitions sacrifices guaranteed advantages for uncertain finishing attempts, often resulting in strategic disadvantages even when submissions succeed
-  - **Correction**: Adopt competition-specific strategies that prioritize accumulating positional points before attempting submissions, using point leads to create strategic advantages and reduce submission pressure
-- **Mistake**: Misidentifying defensive situations as neutral, leading to offensive actions from inferior positions
-  - **Consequence**: Attempting offensive techniques including submissions when actually in inferior positions diverts energy and focus from necessary defensive actions, often resulting in further positional degradation
-  - **Correction**: Develop clear positional assessment criteria that accurately distinguish defensive situations from neutral or offensive contexts, implementing strict defensive protocols when in inferior hierarchy positions
+- **Mistake**: Chasing the limb while losing body contact
+  - **Consequence**: The opponent escapes as you focus on the finishing grip.
+  - **Correction**: Restore the pin or entanglement before continuing the submission entry.
+- **Mistake**: Forcing a well-defended attack
+  - **Consequence**: Your base and grips deteriorate while another opening goes unused.
+  - **Correction**: Follow the defensive reaction into a better position or rebuild the original control.
+- **Mistake**: Reaching so far that you cannot recover
+  - **Consequence**: A failed entry leaves no useful connection or fallback.
+  - **Correction**: Keep an escape-blocking contact and rehearse how to return when the entry is denied.
 
 
 </section>
@@ -382,23 +335,11 @@ The Position Over Submission philosophy extends beyond individual technique exec
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Positional Sparring with Submission Restrictions** (Focus: Develops positional awareness, control mechanics, and strategic patience while removing the distraction of submission hunting that often undermines positional development)
-Practice rounds where submission attempts are prohibited or heavily restricted, forcing practitioners to focus exclusively on positional advancement, control establishment, and hierarchical progression. Partners start from various positions and work to improve position without finishing.
+**Control before the entry** (Focus: Preserve a position through an attack entry.)
+Start in mount with a cooperative partner. Establish base and arm control, begin an armbar entry, then return to mount without finishing. Reset when mount is stable.
 
-**Point-Based Competition Simulation** (Focus: Builds competition strategy, develops understanding of how positional points compound advantages, and creates realistic scenarios where position-first strategy offers clear strategic benefits)
-Training rounds scored using IBJJF or other competition point systems where positional advancement earns points and positions must be held for specified durations. This creates external motivation to prioritize positions over submissions and rewards systematic advancement.
-
-**Progressive Resistance Positional Drilling** (Focus: Ingrains proper positional progression sequences, develops control point establishment habits, and builds muscle memory for maintaining position under resistance)
-Structured drilling where one partner focuses on advancing and maintaining positions while the other provides graduated resistance from passive to competitive. Emphasis is placed on establishing control points at each stage before advancing to the next position in the hierarchy.
-
-**Submission Opportunity Recognition Training** (Focus: Develops decision-making skills for recognizing when position is sufficiently established for submissions, reducing premature attempts while increasing submission success rate from proper positions)
-Specific training focused on identifying the precise control points and positional indicators that signal high-percentage submission opportunities versus situations requiring further positional work. Partners freeze positions to analyze submission viability based on control quality.
-
-**Position Recovery Emphasis Rounds** (Focus: Builds defensive discipline, develops position recovery mechanics, and reinforces the principle that positional improvement takes priority over offensive attempts when in inferior positions)
-Sparring rounds starting from inferior positions where the practitioner's goal is exclusively to recover position to neutral or superior status before considering any offensive actions. This reinforces the defensive application of position-first philosophy.
-
-**Timed Position Maintenance Challenges** (Focus: Strengthens control maintenance capabilities, builds endurance in maintaining pressure and control, and develops sensitivity to opponent's escape attempts that must be neutralized)
-Training exercises where practitioners must maintain dominant positions for specified durations against opponent's escape attempts, with submission attempts prohibited during the hold period. This develops position retention skills and control mechanics independent of submission finishing.
+**Blocked attack, stable return** (Focus: Respond to defense by rebuilding control.)
+Start in back control. The partner gently blocks a choke-grip entry while you restore chest and lower-body contact. Release and reset after control is recovered.
 
 
 
@@ -480,31 +421,31 @@ Training exercises where practitioners must maintain dominant positions for spec
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Submission Clinic System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Philosophical foundation prioritizing control before finishing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Core tactical principle for IBJJF competition where position secures points before submission attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Strategic philosophy emphasizing positional escape before attempting counter-attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic framework prioritizing dominant position establishment</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple Progression</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic framework emphasizing positional dominance before submission attempts</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Scoring Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic philosophy prioritizing point accumulation before finishes</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Strategy</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Strategic principle prioritizing positional dominance before submission hunting to minimize reversal risk</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching Methodology Framework</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Strategic philosophy emphasizing positional control before attacking submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie Fundamental System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Core philosophy - perfect position makes submission inevitable</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci Berimbolo System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Guides consolidating back control fully before chasing finishes</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Prioritization Framework</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Prioritization principle that informs threat evaluation and risk-reward decisions in the framework</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mental Game Framework</span><span class="system-card__unlocks-badge">Unlocks 15 techniques</span><span class="system-card__blurb">Strategic philosophy requiring mental discipline and patient execution</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Riding Control System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Helps evaluate when to delay an attack.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Octopus-Guard-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-octopus-guard-system" data-system-name="Craig Jones Octopus Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Octopus Guard System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Pin-Escape-Fundamentals-System" data-cta="related-system-card" data-system-slug="systems/danaher-pin-escape-fundamentals-system" data-system-name="Danaher Pin Escape Fundamentals System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Pin Escape Fundamentals System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Beginner</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Side Crucifix System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Eduardo-Telles-Gi-Octopus-Guard-System" data-cta="related-system-card" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-system-name="Eduardo Telles Gi Octopus Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eduardo Telles Gi Octopus Guard System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Edwin-Najmi-Submission-Attack-System" data-cta="related-system-card" data-system-slug="systems/edwin-najmi-submission-attack-system" data-system-name="Edwin Najmi Submission Attack System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Edwin Najmi Submission Attack System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">A useful comparison when evaluating the cost of an attack.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni Turtle to Back System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gordon-Ryan-Mount-Control-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-mount-control-system" data-system-name="Gordon Ryan Mount Control System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan Mount Control System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gordon-Ryan-Side-Control-to-North-South-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan Side Control to North-South System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Priit-Mihkelson-Turtle-Defense-System" data-cta="related-system-card" data-system-slug="systems/priit-mihkelson-turtle-defense-system" data-system-name="Priit Mihkelson Turtle Defense System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Priit Mihkelson Turtle Defense System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Decision rule for retaining or recovering control before chasing an unsupported finish.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Branches</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Strategy: Check Your Event and Division</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Further conceptual reading: Position-Over-Submission Approach.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: Defense Within the 50/50 Anthology</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related principle reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Entries and Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Blue-to-Purple-Progression" data-cta="related-system-card" data-system-slug="systems/blue-to-purple-progression" data-system-name="Blue to Purple Progression" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Blue to Purple: Build a Study Inventory</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Further conceptual reading: Position-Over-Submission Approach.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Scoring: Read the Whole Exchange</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Further conceptual reading: Position-Over-Submission Approach.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-strategy" data-system-name="Competition Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Strategy: Map Your Intended Game</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Further conceptual reading: Position-Over-Submission Approach.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Planning a BJJ Lesson</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Further conceptual reading: Position-Over-Submission Approach.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed-Guard Offense</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Branches</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Priorities: Threat, Control and Score</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related principle reference for defensive decision study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mental-Game-Framework" data-cta="related-system-card" data-system-slug="systems/mental-game-framework" data-system-name="Mental Game Framework" data-member-count="15"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Mindset: Champions Stay Present</span><span class="system-card__unlocks-badge">15 related references</span><span class="system-card__blurb">Further conceptual reading: Position-Over-Submission Approach.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Riding Control with Power Ride</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Octopus-Guard-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-octopus-guard-system" data-system-name="Craig Jones Octopus Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: No-Gi Octopus Guard</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Position-Over-Submission Approach: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Pin-Escape-Fundamentals-System" data-cta="related-system-card" data-system-slug="systems/danaher-pin-escape-fundamentals-system" data-system-name="Danaher Pin Escape Fundamentals System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Pin Escapes and Turtle Escapes</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related principle reference for positional escape study.</span><span class="system-card__chips"><span class="system-card__chip">Beginner</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Side Crucifix and Arm Isolation</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Eduardo-Telles-Gi-Octopus-Guard-System" data-cta="related-system-card" data-system-slug="systems/eduardo-telles-gi-octopus-guard-system" data-system-name="Eduardo Telles Gi Octopus Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eduardo Telles: Octopus Guard in the Gi</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Position-Over-Submission Approach: related principle study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Edwin-Najmi-Submission-Attack-System" data-cta="related-system-card" data-system-slug="systems/edwin-najmi-submission-attack-system" data-system-name="Edwin Najmi Submission Attack System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Edwin Najmi: Darce, Triangle and Estima Lock</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni: Turtle, Rides and Rear Mount</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for framing study questions.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Mount-Control-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-mount-control-system" data-system-name="Gordon Ryan Mount Control System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: Mount Maintenance and Attacks</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Side-Control-to-North-South-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan: Side Control and North-South</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related concept for study notes; not a claim that this course teaches the linked article.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Priit-Mihkelson-Turtle-Defense-System" data-cta="related-system-card" data-system-slug="systems/priit-mihkelson-turtle-defense-system" data-system-name="Priit Mihkelson Turtle Defense System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Priit Mihkelson: Turtle Defense and Exits</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related principle reference for turtle defense and exits.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

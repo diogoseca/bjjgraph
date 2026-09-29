@@ -4,7 +4,7 @@
 
 ---
 title: "Alignment | BJJ Principle | BJJ Graph"
-description: "Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent's across positions, transitions, and submissions."
+description: "Alignment connects your base, posture, and limbs so you can direct force, move, and resist being pulled out of position."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Learn how base, posture, and structure work together in BJJ. Prese
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Alignment",
-  "description": "Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent's across positions, transitions, and submissions.",
+  "description": "Alignment connects your base, posture, and limbs so you can direct force, move, and resist being pulled out of position.",
   "url": "https://bjjgraph.org/Principles/Alignment",
   "isPartOf": {
     "@type": "WebSite",
@@ -92,50 +92,26 @@ description: "Learn how base, posture, and structure work together in BJJ. Prese
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is a common mistake in Trusting the position name instead of the state?",
+      "name": "What is a common mistake in Holding a rigid shape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A dominant-sounding position is defended, held, or advanced from while it is mechanically weak, and the reversal arrives as a surprise. The correction is: Check support points, spinal orientation, and limb connection before advancing; the label tells you nothing about whether force can be delivered."
+        "text": "A useful position stops working when the force changes direction. The correction is: Adjust the relationship between support points, torso, and limbs."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Holding a rigid shape rather than a live relationship?",
+      "name": "What is a common mistake in Reaching beyond your base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent changes the direction of force and the fixed shape stops resisting anything, usually collapsing all at once. The correction is: Treat alignment as a state to be re-read; adjust support points and spine as the direction of force changes."
+        "text": "The grip leaves your body easy to pull or tip. The correction is: Move your support points with the reach."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a common mistake in Reaching for a grip in front of the base?",
+      "name": "What is a common mistake in Repairing only one part?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The arm is left working away from the torso, where an armbar, kimura, or arm-drag isolates it against a fraction of your available strength. The correction is: Move the base to the grip instead of extending to it, and keep the elbow inside the line of the hips."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Repairing one element and ignoring the other two?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Strong frames fail anyway because posture is broken or base is gone, and the effort spent on the frame is wasted. The correction is: Diagnose all three, then fix the cheapest missing one first - it is often not the one that feels most urgent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Demanding the large movement before breaking alignment?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The sweep, pass, or takedown is met by a structurally intact opponent and becomes a strength contest you may lose. The correction is: Break one element first - posture is usually cheapest - and only then ask for the movement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common mistake in Using effort to cover a missing support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fatigue accumulates with no gain in control, and the position collapses later at a worse moment with nothing left in the tank. The correction is: Recover the missing element before adding force; if you cannot recover it, change objectives rather than paying for it in muscle."
+        "text": "A wide base still fails with broken posture or an isolated arm. The correction is: Check base, posture, and structure together."
       }
     }
   ]
@@ -148,7 +124,7 @@ description: "Learn how base, posture, and structure work together in BJJ. Prese
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Alignment",
-  "description": "Alignment coordinates base, posture, and limb structure so you can direct force and move effectively. Preserve or recover your own alignment while disrupting the opponent's, regardless of position or role.",
+  "description": "Alignment is the coordination of your base, posture, and limb positions so your body can support and direct force.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -167,34 +143,66 @@ description: "Learn how base, posture, and structure work together in BJJ. Prese
 
 
 
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Alignment \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Alignment: base, posture and structure",
+      "description": "Alignment film study: Alignment: base, posture and structure, taught by Rob Biernacki and Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5RaxEV9fx8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5RaxEV9fx8",
+      "url": "https://www.youtube.com/watch?v=j5RaxEV9fx8",
+      "creator": { "@type": "Person", "name": "Rob Biernacki and Stephan Kesting" },
+      "duration": "PT702S"
+    }
+  ]
+}
+</script>
+
 
 <section id="overview" class="content-section">
 
 ## What is Alignment?
 
-**Alignment coordinates base, posture, and limb structure so you can direct force and move effectively. Preserve or recover your own alignment while disrupting the opponent's, regardless of position or role.**
+**Alignment is the coordination of your base, posture, and limb positions so your body can support and direct force.**
 
-A recognizable position never guarantees useful alignment. You can hold mount with your weight stacked above your own knees and no way to post, or sit underneath a heavy pin with your inside elbow buried and a clean route back to your hip. What decides the exchange is the relationship between your support points, your spine, and the limbs you are actually trying to use - not the label on the position you are in.
-
-Alignment fails in three separable ways, and they are worth diagnosing separately. Base fails when your support points cannot accept force arriving from the direction it is actually arriving from. Posture fails when head, spine, and pelvis are organized against the direction you need to move. Structure fails when a limb is working away from the torso, where a much smaller local force can isolate it. Most of what feels like being out-muscled at purple and brown belt is one of these three failing quietly while the other two disguise it.
-
-Both players always have an alignment picture, so the real question is comparative: whose is worse, and in which direction. Attacking means stripping one element - posture first is the classic order - and only then demanding the large movement the technique requires. Defending means recovering one support at a time without surrendering the two you still hold, and recovering before you spend effort rather than after.
+When a movement fails, check your support points, torso position, and limb connection before adding effort. Recheck them whenever grips or pressure change.
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Alignment in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5RaxEV9fx8)
+
+<p class="clip-credit"><strong>Alignment: base, posture and structure</strong> — taught by Rob Biernacki and Stephan Kesting · 11:42 · <a href="https://www.youtube.com/watch?v=j5RaxEV9fx8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
 
 
 <section id="building-blocks" class="content-section">
 
 ## Building Blocks
-- Base, posture, and structure are separable failures - diagnose which one is actually broken before adding effort
-- Support points must be able to accept force from the direction it is arriving, not the direction you expected
-- A limb working away from the torso is isolatable; keep elbows, knees, and grips tied back to your center
-- Break alignment before demanding movement - an aligned opponent resists with structure, a broken one resists with muscle
-- Posture usually collapses first and cheapest, and base and structure follow it
-- Recover one support at a time, and never trade a support you still hold for one you are chasing
-- Alignment is a state, not a shape - re-read it on every grip change, angle change, and weight shift
-- Effort spent compensating for a missing support is effort unavailable for the escape or the finish
+- Identify whether base, posture, or limb structure is failing.
+- Keep working limbs connected to your torso.
+- Support force from the direction it actually arrives.
+- Disrupt their alignment before committing to a large movement.
 
 
 </section>
@@ -221,21 +229,13 @@ Both players always have an alignment picture, so the real question is comparati
 <section id="where-to-apply" class="content-section">
 
 ## Where to Apply
-**Clinch**: Move the opponent past a usable support point and break their posture before committing to the entry; your own head stays over your hips so the level change does not become a forward fall.
+**Clinch**: Keep your head supported over your hips while moving the opponent beyond a usable support point.
 
-**Closed Guard**: Attack posture first with collar, sleeve, or head control - a broken-down passer has no base for the pass - while keeping your own knees and elbows connected so the top player cannot isolate an arm.
+**Closed Guard**: Break the passer’s posture while keeping your own elbows and knees connected.
 
-**Butterfly Guard**: Load the opponent onto your hooks to remove one support point, then take the space where their base has just left; your own chest-to-chest connection keeps your torso from falling behind your hips.
+**Butterfly Guard**: Load weight onto your hooks while keeping your chest connected to the opponent.
 
-**Knee Shield Half Guard**: The knee shield is a structural spacer: it holds the passer's chest away from yours. Defend it by keeping the shin connected to the hip, and attack it by flattening the shield rather than out-pressuring it.
-
-**Headquarters Position**: The passer's alignment lives in the trapped-leg wedge and a head that stays above their own base; the guard player attacks by pulling the passer's head past their support line to force a post.
-
-**Mount**: Top keeps weight over stable supports without reaching past base; bottom recovers alignment by rebuilding an inside frame and restoring spinal orientation before bridging into space.
-
-**Back Control**: The attacker breaks the defender's posture to expose the neck; the defender's whole recovery is alignment work - chin down, hands to the collar line, hips back onto the mat toward the trapped side.
-
-**Ashi Garami**: Leg entanglements are structural isolation applied to the leg - the attacker separates the leg from the torso, while the defender's answer is to reconnect the knee and hip line before the finish is available.
+**Knee Shield Half Guard**: Keep the shield connected to your hip so it supports space between your torsos.
 
 
 
@@ -259,24 +259,15 @@ Both players always have an alignment picture, so the real question is comparati
 <section id="mistakes-to-avoid" class="content-section hide-minimal">
 
 ## Mistakes to Avoid
-- **Mistake**: Trusting the position name instead of the state
-  - **Consequence**: A dominant-sounding position is defended, held, or advanced from while it is mechanically weak, and the reversal arrives as a surprise.
-  - **Correction**: Check support points, spinal orientation, and limb connection before advancing; the label tells you nothing about whether force can be delivered.
-- **Mistake**: Holding a rigid shape rather than a live relationship
-  - **Consequence**: The opponent changes the direction of force and the fixed shape stops resisting anything, usually collapsing all at once.
-  - **Correction**: Treat alignment as a state to be re-read; adjust support points and spine as the direction of force changes.
-- **Mistake**: Reaching for a grip in front of the base
-  - **Consequence**: The arm is left working away from the torso, where an armbar, kimura, or arm-drag isolates it against a fraction of your available strength.
-  - **Correction**: Move the base to the grip instead of extending to it, and keep the elbow inside the line of the hips.
-- **Mistake**: Repairing one element and ignoring the other two
-  - **Consequence**: Strong frames fail anyway because posture is broken or base is gone, and the effort spent on the frame is wasted.
-  - **Correction**: Diagnose all three, then fix the cheapest missing one first - it is often not the one that feels most urgent.
-- **Mistake**: Demanding the large movement before breaking alignment
-  - **Consequence**: The sweep, pass, or takedown is met by a structurally intact opponent and becomes a strength contest you may lose.
-  - **Correction**: Break one element first - posture is usually cheapest - and only then ask for the movement.
-- **Mistake**: Using effort to cover a missing support
-  - **Consequence**: Fatigue accumulates with no gain in control, and the position collapses later at a worse moment with nothing left in the tank.
-  - **Correction**: Recover the missing element before adding force; if you cannot recover it, change objectives rather than paying for it in muscle.
+- **Mistake**: Holding a rigid shape
+  - **Consequence**: A useful position stops working when the force changes direction.
+  - **Correction**: Adjust the relationship between support points, torso, and limbs.
+- **Mistake**: Reaching beyond your base
+  - **Consequence**: The grip leaves your body easy to pull or tip.
+  - **Correction**: Move your support points with the reach.
+- **Mistake**: Repairing only one part
+  - **Consequence**: A wide base still fails with broken posture or an isolated arm.
+  - **Correction**: Check base, posture, and structure together.
 
 
 </section>
@@ -284,20 +275,11 @@ Both players always have an alignment picture, so the real question is comparati
 <section id="how-to-practice" class="content-section hide-minimal">
 
 ## How to Practice
-**Three-part freeze check** (Focus: Recognition and comparative reading)
-Roll at conversational pace and stop on a signal. Both players name, out loud, their own and their partner's base, posture, and structure, and say which one they would attack next.
+**Freeze and diagnose** (Focus: Find the missing support.)
+Roll cooperatively and pause on a signal. Each player names their base, posture, and limb structure, then identifies one adjustment before restarting.
 
-**One missing support** (Focus: Isolated recovery under load)
-Start each repetition with exactly one element deliberately compromised - no base, broken posture, or an extended arm - and recover it against progressive resistance without conceding the other two.
-
-**Transition checkpoint drill** (Focus: Continuity through transitions)
-Move through a pass, sweep, or back-take at half speed and pause the moment either player's alignment degrades, then rewind two beats to find the movement that caused it.
-
-**Break-then-move constraint round** (Focus: Sequencing attacks correctly)
-Positional sparring where the advancing player scores only if a named alignment break precedes the movement, and loses the point for reaching the position by strength alone.
-
-**Effort audit** (Focus: Replacing compensation with structure)
-Spar a round with the sole rule that any time you notice yourself straining, you stop applying force and repair the missing support instead, then continue.
+**Transition checkpoints** (Focus: Keep alignment during movement.)
+Walk through a familiar pass or sweep slowly. Pause when either player loses alignment, rewind that movement, and repeat with one adjustment.
 
 
 

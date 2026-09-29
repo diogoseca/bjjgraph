@@ -49,7 +49,7 @@ async function openSheet(page: Page, technique: string) {
   })
   const card = page.locator(`[data-tech="${technique}"]`).first()
   await expect(card, `option card for "${technique}" visible`).toBeVisible()
-  await card.click()
+  await card.locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-go]").first(), "expand-sheet Execute button visible").toBeVisible()
 }
 

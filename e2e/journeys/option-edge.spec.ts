@@ -448,7 +448,7 @@ test("the sheet's enlarged head cannot contradict the card it grew from", async 
 
   const cards = await cardEdges(page);
   const first = cards.find((c: any) => c.edge != null)!;
-  await page.locator(`[data-tech="${first.tech}"]`).first().click();
+  await page.locator(`[data-tech="${first.tech}"]`).first().locator("[data-choice-inspect]").click();
   const big = page.locator(".ngedgebig");
   await expect(big, "the sheet carries the same value").toHaveText(first.edge!);
   const bigCol = await big.evaluate((el: any) => el.style.color);
@@ -782,8 +782,8 @@ test("a real click on the card behind the sheet neither answers it nor destroys 
   const mc = await j.landQuestion()
   expect(mc, "a live landing question to stand down").toBeTruthy()
 
-  await page.keyboard.press("1") // digit opens the first option's sheet
-  await expect(page.locator("[data-go]"), "digit 1 opened an option sheet").toBeVisible()
+  await page.keyboard.press("Shift+Digit1") // shifted digit inspects the first option
+  await expect(page.locator("[data-go]"), "Shift+1 opened an option sheet").toBeVisible()
   await j.advance(300)
   await page.waitForTimeout(400)
 

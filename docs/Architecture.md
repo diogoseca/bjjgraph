@@ -282,12 +282,13 @@ into `source/public/static/neural/`; the loader uses `/static/neural/` as the da
 | --- | --- | --- |
 | `app/neural.js`, `app/neural.css` | Browser runtime and styles | Boot |
 | `graph-data.json` | Compact nodes, links, rates, outcomes, availability and value tables | Boot |
-| `flashcards/_index.json` | Deck inventory, card counts and shared-question credit index | Boot |
+| `flashcards/_index.json` | Deck inventory (keyed by share ordinal), card counts and shared-question credit index | Boot |
 | `curriculum.json` | Lessons, checkpoints, content tracks and modeled score weights | Boot |
 | `flashcards/<hash>.json` | Cards for a requested deck | On demand |
 | `content/<hash>.json` | Technique/position dossier or reference-page body | On demand |
 | `submission-details/<hash>.json` | Submission responses and explanations | On submission entry |
-| `systems.json`, `concepts.json` | Reference indexes and graph memberships | On first use |
+| `systems.json`, `concepts.json` | Reference indexes, graph memberships, and compact System previews | On first use |
+| `aliases.json` | Exact site ID to own and family alias metadata | Explore/search intent |
 
 Chunk addressing uses `fnv1a32` in [_neural_content.py](../scripts/_neural_content.py), matching
 the app's `qhash` over UTF-16 code units. Files contain key-to-value maps, so hash collisions can
@@ -306,6 +307,54 @@ Lazy loading has behavioral consequences:
 - `_docBody` loads reference bodies through the shared content cache. Principles, Learning and
   Systems are pages, not places: opening one displays its body and highlights referenced
   techniques without starting or seating a roll.
+
+### Reading delivery
+
+More selects lightweight section descriptors while folded and builds its body on first opening.
+It uses 13px prose, semantic headings/lists and natural wrapping. Position reads include their
+profile, principles, decision branches without percentages, mistakes, variations and drills.
+Technique reads use the chosen seat's recognition and execution or defense; an unauthored defender
+never borrows attacker mechanics. Submission reads start with the source-backed safety notice,
+then place the complete safety guide after execution/defense. All risk severities, application
+instructions, tap signals, release steps and restrictions survive without truncation. Own aliases
+and inherited family aliases are labeled separately. Position points are retained in data but not
+displayed: their authored values do not establish a scoring rule.
+
+Keyboard opening focuses the reading region. Up/Down move 40px; Page Up/Down and Shift+Space/Space
+move 85% of the viewport; Home/End reach the bounds; Escape closes and returns focus to More.
+Reading keys cannot grade or navigate the question underneath. Content-keyed completion refreshes
+More, film and a matching option sheet independently of question/drill DOM, including after an
+answer. Same-reader updates preserve focus and the visible section's offset. Two hidden reading
+layers request no dossier; restoring a layer loads it. Singleton Explore rows use their known node
+directly and never fetch dossiers merely to render names.
+
+**Dossier enrichment.** `_neural_content.py` resolves own aliases/disambiguations and submission
+family metadata once for both dossiers and the deferred alias index. Families join by parent
+directory to an `is_family` root file; leaf summaries remain authoritative. Additive fields carry
+role properties, drills, submission classification/safety, variation notes and mistake consequences.
+Decision actions read authored `target`, retaining zero probabilities. Enrichment guards enforce
+source/output equality independently of the older report-only join policy.
+
+The content cache holds successful dossiers across app remounts in the same page. Key hashes are
+not content fingerprints: HTTP caching remains four hours fresh plus one day stale-while-revalidate,
+and readers tolerate older additive shapes. The alias URL includes the app version; valid success
+is cached and concurrent requests share a promise. Transport/shape failures remain retryable with
+a bounded automatic attempt sequence and an explicit Retry action.
+
+On-demand does not imply free startup bytes. The browser's first-hand gate charges every request
+started before the hand, including the current state's dossier. Alias data is explicitly deferred;
+its loader and renderers still count in the app bundle. Measure the served tree after `dev:neural`
+when emitter changes are involved: `dev:neural:app` copies only JavaScript and CSS.
+
+**Measured at v1.183.0:** with a fresh browser pinned to K-Guard Top, expanding Explore →
+Positions changed from 241 dossier requests (887,052 raw / 379,853 gzip bytes) to zero. The
+comparison served the original bundle and original-emitter chunks against the updated bundle
+and chunks, with the same corpus and local HTML. First-hand downloads grew from 379,394 to
+381,802 gzip bytes (+0.63%), using the browser gate's gzip measurement. Standalone `gzip -9`
+on the app bundle grew from 165,977 to 167,934 bytes. The new alias index is about 2.8 KB gzip,
+requested only on Explore/search intent. These are local
+measurements, not deploy-build or field latency results; all existing budget ceilings remain.
+
 
 ## Static shell, authentication and navigation
 
@@ -514,7 +563,7 @@ These are available commands, not a claim that every workflow runs every check:
 | `npm run validate:curriculum` / `validate:mc` | Curriculum integrity and multiple-choice viability |
 | `npm run validate:schema` / `validate:seo` | Schema-markup parsing and built crawlable-surface checks |
 | `npm run validate:headers` / `validate:payload` | Emitted headers and payload budgets |
-| `npm run validate:affiliate` | Disclosure and verified-link surface rules |
+| `npm run validate:affiliate` | Verified links, referral state, and retired-notice removal |
 | `npm run validate:analytics` / `validate:analytics:nokey` | Built analytics injection and the independent keyless fixture |
 | `npm run validate:forward` | Catalog fixture rendering |
 | `npm run test:units` | Root Node unit suites |

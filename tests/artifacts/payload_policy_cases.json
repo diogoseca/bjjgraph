@@ -1,0 +1,114 @@
+{
+ "_comment": "The band table for the three-band payload policy, read by BOTH implementations: scripts/_payload_policy.py (--selftest) and scripts/_payload_policy.js. tests/payload_policy.test.mjs runs each side over this table, checks every verdict against `expect`, and fails on the first disagreement between the two. It is deliberately a committed fixture rather than a literal inside either test: a case table that lives in one language is a case table that only one implementation is ever held to. Boundaries are INCLUSIVE on the safe side throughout - value == target passes, value == action warns, delta == delta_cap passes - so each of those has its own pair of cases one byte apart, because an off-by-one in a band is exactly the mutation a round-numbered table cannot see.",
+ "cases": [
+  { "name": "under-target", "expect": "pass",
+    "why": "the silent band: nothing to say",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 249000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "at-target-exactly", "expect": "pass",
+    "why": "target is inclusive - the target is a figure to be AT, not to stay under",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 299500 },
+    "value": 300000, "delta_value": 300000 },
+
+  { "name": "one-byte-over-target", "expect": "warn",
+    "why": "the warn band opens at target+1, and one byte is enough to open it",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 300000 },
+    "value": 300001, "delta_value": 300001 },
+
+  { "name": "mid-warn-band", "expect": "warn",
+    "why": "where neural.eager_gzip_bytes actually lives today: over target, far under action",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 329000 },
+    "value": 330000, "delta_value": 330000 },
+
+  { "name": "at-action-exactly", "expect": "warn",
+    "why": "action is inclusive - 'we take action when it reaches >400k' is strictly greater",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 399000 },
+    "value": 400000, "delta_value": 400000 },
+
+  { "name": "one-byte-over-action", "expect": "fail",
+    "why": "the hard band opens at action+1",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 400000 },
+    "value": 400001, "delta_value": 400001 },
+
+  { "name": "far-over-action", "expect": "fail",
+    "why": "the fat wire coming back",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 900000 },
+    "value": 1200000, "delta_value": 1200000 },
+
+  { "name": "delta-cap-under-target", "expect": "fail",
+    "why": "THE CASE THE WHOLE POLICY EXISTS FOR: 70,000 bytes in one step, absolute figure still comfortably under target. A flat action threshold passes this in silence.",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 150000 },
+    "value": 220000, "delta_value": 220000 },
+
+  { "name": "delta-exactly-at-cap", "expect": "pass",
+    "why": "delta_cap is inclusive: a step OF the cap is allowed, a step OVER it is not",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 245000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "delta-one-byte-over-cap", "expect": "fail",
+    "why": "one byte past the cap is the whole difference between a step and a cliff",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 244999 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "delta-over-cap-inside-warn-band", "expect": "fail",
+    "why": "a warn band figure does not soften a cliff - the delta cap outranks the indication",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 320000 },
+    "value": 330000, "delta_value": 330000 },
+
+  { "name": "shrink-is-always-fine", "expect": "pass",
+    "why": "a negative delta can never trip the cap; shrinking always passes, as it always did",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 299000 },
+    "value": 200000, "delta_value": 200000 },
+
+  { "name": "delta-measured-on-a-different-figure", "expect": "pass",
+    "why": "first_hand's shape: the bands judge the full figure, the delta judges the analytics-free subtotal, and the two are not the same number",
+    "spec": { "gate": "t", "target": 400000, "action": 450000, "delta_cap": 5000, "baseline": 340000 },
+    "value": 390000, "delta_value": 341000 },
+
+  { "name": "baseline-null", "expect": "fail",
+    "why": "a delta check that did not run must not look like one that passed",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": null },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "baseline-absent", "expect": "fail",
+    "why": "same, by omission rather than by null - the commonest way state goes missing",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "baseline-is-a-string", "expect": "fail",
+    "why": "'330000' compares and subtracts differently in python and in JS - refuse it in both",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": "249000" },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "baseline-is-a-float", "expect": "fail",
+    "why": "bytes are integers; a float baseline is a measurement that came from the wrong place",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 249000.5 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "spec-target-above-action", "expect": "policy-error",
+    "why": "the warn band would be empty and every overage would be a hard fail - the old behaviour, reintroduced by a typo",
+    "spec": { "gate": "t", "target": 450000, "action": 400000, "delta_cap": 5000, "baseline": 249000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "spec-delta-cap-zero", "expect": "policy-error",
+    "why": "a zero cap fails every growth, so it would be disabled within a day",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "delta_cap": 0, "baseline": 249000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "spec-delta-cap-missing", "expect": "policy-error",
+    "why": "the loudest way to disable the delta cap is to delete it; that must not read as clean",
+    "spec": { "gate": "t", "target": 300000, "action": 400000, "baseline": 249000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "spec-no-gate", "expect": "policy-error",
+    "why": "a metric no gate claims is a metric nothing enforces",
+    "spec": { "target": 300000, "action": 400000, "delta_cap": 5000, "baseline": 249000 },
+    "value": 250000, "delta_value": 250000 },
+
+  { "name": "spec-target-is-a-bool", "expect": "policy-error",
+    "why": "python's bool is an int and True < 400000 is legal arithmetic there; JS has no such trap, so this case is really a pin on the python side",
+    "spec": { "gate": "t", "target": true, "action": 400000, "delta_cap": 5000, "baseline": 249000 },
+    "value": 250000, "delta_value": 250000 }
+ ]
+}

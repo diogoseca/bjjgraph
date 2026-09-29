@@ -28,9 +28,8 @@ archive · a measured number about a past run → archive · an owner quote → 
 *is* the rule · a mutation-kill table → archive · a trap with no greppable trigger token → rewrite
 it until it has one.
 
-**Pointer direction.** This file points **out**. Nothing points in, with one exception: the
-`CANONICAL-DISCLOSURE` block in §7 is parsed by two gates, so its markers and its wording are load
-bearing (see §7).
+**Pointer direction.** This file points **out** to the implementation and its gates. Nothing
+points in.
 
 **Before you touch app code or write a spec, read §6.** It is the reason this file is loaded at all.
 
@@ -43,15 +42,16 @@ bearing (see §7).
 | action | why | do instead |
 |---|---|---|
 | Edit generated `.md` in `content/` | Overwritten on the next regeneration. **These files carry no do-not-edit banner** — that is exactly why this rule is first | Edit the `.json` beside it (data) or `templates/` (structure), then regenerate |
-| Commit a secret or API key | Public repo | `.env`; the affiliate ref is stamped at deploy time (§7) |
+| Commit a secret or API key | Public repo | `.env`; deploy-time values are stamped by CI (§7) |
 | Guess a wikilink target | Broken link, silently | Verify the file exists first |
 | Skip validation before a content commit | Breaks the build | `npm run regenerate:build` |
 | Add a doc without indexing it | Orphaned | Link it from §0's table |
 | Put emojis in content files | Inconsistent styling | Docs only, sparingly |
 
-**This repo is PUBLIC.** No secrets, no partner terms, no commercial strategy in any committed
-file — `docs/` included. It is why there is no separate affiliate doc, why `affiliate_url` never
-reaches `graph.json`, and why the vendor ref is a deploy-time secret.
+**This repo is PUBLIC, and so is this file.** No secrets, no partner terms, no commercial
+strategy in any committed file — `docs/` and CLAUDE.md included. Anything of that kind belongs in
+the untracked `CLAUDE.local.md`, which is ignored and cannot reach a commit; do not move it back.
+It is why `affiliate_url` never reaches `graph.json` and why deploy-time values are secrets.
 
 **There is no maximum file size.** `neural/src/app.src.jsx` is deliberately ONE imperative
 component of ~13,000 lines and must not be split; several tracked files exceed 1,000 lines by
@@ -213,9 +213,17 @@ Long explanations belong in each script's own docstring, where they cannot drift
 
 **Validate** — `validate:json` schemas (hard) · `validate:graph` integrity (ratchets on
 `tests/artifacts/graph_validation_baseline.json`, `max_errors` 0) · `validate:ordinals` share-link
-lockfile (hard) · `validate:payload` byte ratchet · `validate:seo` crawlable-surface ratchet ·
-`validate:headers` cache/security headers · `validate:affiliate` disclosure parity (reads §7 of this
-file) · `validate:analytics` the BUILT PostHog injection against the key its build ran with, plus
+lockfile (hard) · `validate:payload` byte ratchets PLUS the soft gzip bands (§8) PLUS the **tier-0 count
+floors** (pages · JSON-LD blocks · in-article links · static files — every other figure there is
+a MAX, so until v1.192.4 a build emitting a tenth of the site passed it, `validate:seo` and the
+byte ratchet at once; `--set-floors --reason` moves one, `--update` never touches them) ·
+`validate:build-shape` the committed build census + bundle hashes + the distinct-value collapse
+detector (PR only, via `e2e-full.yml`: a content edit legitimately moves it, so re-seed in the same
+PR with `validate:build-shape:update`) · `validate:seo`
+crawlable-surface ratchet ·
+`validate:headers` cache/security headers · `validate:affiliate` the product-link surface (neutral
+source, verified links) · `validate:analytics` the BUILT PostHog injection against the key its
+build ran with, plus
 `validate:analytics:nokey`, which builds its own keyless one-file fixture because no deploy can
 exercise that direction (they all carry a key, and the mutant that shipped `posthog.init("")`
 changes nothing when one is present). Neither runs in `ci-validate.yml`, which never builds; the
@@ -361,12 +369,12 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
 | the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; More is a separate scroll surface subordinate to the card layer |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
-| starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `stageRollAt` |
+| starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `_seatMember` · `stageRollAt` |
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
 | outcomes | `drawOutcome` · `resolve` · `opponentDefend` · `momentumSkew` |
 | roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
-| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or `aka <alias>` on a position) · `nodeMatches` (search reads the alias too) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
-| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` |
+| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or an own/family alias) · `nodeMatches` (all aliases; `_ensureAliases` defers the index) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
+| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` · `ngWireDecks` · `ngWireScoreWeights` (the ordinal-keyed manifest + score wire) |
 | lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
 | a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
@@ -556,7 +564,7 @@ symbol to every version that touched it.
 - **DO NOT role-split `adj`.** `opponentDefend`, `_mcPool` and `_posIdx` walk `adj[currentPos]` with NO role filter, deliberately — they are asking about the EXCHANGE, not about your hand. A purely role-split adjacency handed the opponent YOUR hand, the belt-test opponent stopped finding submissions, and `content-capstone` went red. Each pair member therefore carries its SITE's technique set (link kind 2, one-way, never drawn). **Precise wording matters here:** the two members' `adj` are NOT byte-identical — measured 136 of 136 differ by exactly the pair tie, and order legitimately differs because a site link is pushed one-way. The design claim holds; a spec written against the retired "byte-for-byte, in the same order" phrasing goes red on a correct build.
   <br>_(1 (found by the suite, not by review) · _re-verify before quoting_)_
 
-- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
+- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`, `activeListId`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
   <br>_(8 across three storage layers)_
 
 - **`startPosTraffic` · `_posSlugIndex` — position traffic is keyed to the TOP MEMBER ONLY, so anything weighted by it scores ZERO for the entire bottom side.** `_posSlugIndex` maps a bare posId to the top member (`app.src.jsx`), while `resolveOutcomeTo` lands you on a bottom member on **2,071 of 3,842 outcome cells**. Measured on a bottom player who had drilled 90 bottom decks: **0 of 90 changed score**, and their "15 weakest spots" came back as fifteen guard-passing techniques — real names, ranked, entirely wrong. The obvious repair does not work either: **136 of 136 hubs give top and bottom IDENTICAL traffic**, so a hub lookup carries no side information at all.
@@ -584,10 +592,10 @@ symbol to every version that touched it.
 - **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). The `e2e:gen` red baseline is worse: it exists ONLY as prose — `e2e/gen/ledger.json` holds 179 rows and **every one is `"status": "accepted"`**, and no config, script or workflow carries a known-red list — so "the same 13 names" was unfalsifiable across four versions and has since drifted to 14. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
   <br>_(3)_
 
-- **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still earned, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
+- **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still worked, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
   <br>_(5)_
 
-- **A new file under `neural/src/` is INVISIBLE to git unless its name matches the allow-list.** `.gitignore:87` ignores `neural/src/*` and re-admits only `*.src.js`, `*.src.jsx`, `*.css`, `xdc-template.html`, `helmet.html`, `props.json`, `technique-content.js` — deliberately, because that directory also holds untracked design dumps. Add a new `.js` file there and CI checks out without it, so `node neural/build/build.mjs` either throws or quietly ships a bundle missing the feature: **green locally, broken in production.** Any new build input carries the `.src.` infix or is `.css`; verify with `git check-ignore -v neural/src/<file>`.
+- **A new file under `neural/src/` is INVISIBLE to git unless its name matches the allow-list.** `.gitignore`'s `neural/src/*` rule re-admits only `*.src.js`, `*.src.jsx`, `*.css`, `xdc-template.html`, `helmet.html`, `props.json`, `technique-content.js` — deliberately, because that directory also holds untracked design dumps. Add a new `.js` file there and CI checks out without it, so `node neural/build/build.mjs` either throws or quietly ships a bundle missing the feature: **green locally, broken in production.** Any new build input carries the `.src.` infix or is `.css`; verify with `git check-ignore -v neural/src/<file>`.
   <br>_(1 documented in .gitignore, 0 caught by any gate)_
 
 - **Scope every selector to a marker you OWN and assert it appears exactly once.** A query that resolves to the wrong object returns plausible data, not an error: `body[data-share-cue]` collided with the cue BUTTON's own attribute, so `querySelector` returned `<body>` and every "where is the cue" measurement silently became the whole 390x844 viewport (three journeys red); `HTMLRewriter.on("title", …)` matches by element NAME and the shell carries a second `<title>` inside an inline SVG (fixed with `title[data-share-title]`, written and asserted once by `build_share_shell.mjs`). Never query by a shape another object can have — element name, a bare attribute, or a computed dimension (a CSS-border triangle computes to `width: 8px`, not 0). Bundle corollary: `lists.src.js` and `lists-codec.src.js` share ONE scope in the IIFE, so no top-level name may collide, and `build.mjs`'s duplicate-name scan must cover `function|const|let|var|class` — it used to scan only `function|const`, so a colliding `let` walked past the guard into the SyntaxError it exists to prevent.
@@ -599,7 +607,7 @@ symbol to every version that touched it.
 - **LOOKS DELETABLE, IS NOT.** `AuthUI.tsx` + `source/quartz/components/scripts/authUI.inline.ts` render NOTHING but are the only static importer of `supabase.ts` (which installs the `window.__bjjAuth` façade at module top-level) and the only code that completes a Google OAuth redirect-back — delete either and signed-in users break while every headless test stays green. `CategoryNav.tsx` is the site's only persistent static nav and **NO gate guards it**: `check_seo_parity.py` extracts from the `<article>` only, and `#sidebar-overlay` is a sibling of `#quartz-root`. `openListSession` has exactly ONE caller left (`[data-shared-drill]`, `app.src.jsx`) and it is the received-class study path.
   <br>_(3)_
 
-- **LOOKS ALIVE, IS DEAD — do not debug through it.** `renderDossier` and its subtree (`dossierSheetRef`, `_renderNodeQuestion`, `nodeQuestionFor`, `askFormat`, `jumpToState`) are unreachable from the app: `_dossierIdx` is assigned `null` at four sites and a node index at NONE, so the guarded call at `app.src.jsx` can never fire and only `first-impression.spec.ts` reaches `renderDossier` directly. `#unlock-graph` / `[data-system-progress]` still ships on all 48 Systems pages with no script to activate it. The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default.
+- **LOOKS ALIVE, IS DEAD — do not debug through it.** `renderDossier` and its subtree (`dossierSheetRef`, `_renderNodeQuestion`, `nodeQuestionFor`, `askFormat`, `jumpToState`) are unreachable from the app: `_dossierIdx` is assigned `null` at four sites and a node index at NONE, so the guarded call at `app.src.jsx` can never fire and only `first-impression.spec.ts` reaches `renderDossier` directly. The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default.
   **And `neural/src/` contains untracked design dumps that grep exactly like the app:** `Neural Graph.dc.html` (288KB, touched as recently as HEAD) still defines `movePopularity`, `_hash01`, `_freqMap` and the retired `orderScore` fork, and `neural/src/graph-data.json` is a stale 1899-node copy of a 1467-node wire. **Scope every "is this gone?" grep to the build inputs, and read the shipped wire from `source/quartz/static/neural/`.**
   <br>_(4)_
 
@@ -617,14 +625,16 @@ symbol to every version that touched it.
 
 
 
-## 7. Content standards, and the affiliate disclosure
+## 7. Content standards and product links
 
 Full rules in `docs/Content.md`. The parts you can break:
 
 - **Wikilinks are path-prefixed**: `[[Positions/Mount]]`, `[[Transitions/Knee Slice Pass]]`,
   `[[Submissions/Rear Naked Choke]]`. Case-sensitive, must match the filename, no `.md`.
   **One exception:** `[[game-over]]`, which resolves via the frontmatter alias on
-  `content/Game Over.md` (681 files use the bare form; none use `[[Game Over]]`).
+  `content/Game Over.md`. Measured 2026-09-21: 668 files carry the bare form (821 occurrences)
+  and 0 use `[[Game Over]]` — recompute with
+  `grep -rl '\[\[game-over\]\]' content --include='*.md' | wc -l` (files; `-ro` for occurrences).
 - **Success rates are `{gi, nogi}` maps in source** and render as a single folded no-gi percent
   (`**Success Rate**: N%`). There is no Beginner/Intermediate/Advanced tri-level format — nothing
   authors it and no validator checks it.
@@ -632,38 +642,32 @@ Full rules in `docs/Content.md`. The parts you can break:
   signals, release protocol, and safety-critical questions in the assessment.
 - **Attempt probabilities sum to 100 per role, per ruleset frame.**
 
-### Systems: product links
+### Systems: guides and product links
 
-Only the mechanics are in this public repo; commercial terms are the owner's, kept out of it
-entirely. `scripts/check_affiliate_surface.py` and `e2e/journeys/systems-surface.spec.ts` gate all
-of the below.
+Follow `templates/Systems.json` and `docs/Content.md`: independent source-grounded guides,
+no filler quotas, unsupported mechanics, mastery timelines or invented review credentials.
+Preserve graph membership; related cards are references, not a proficiency test. No reader
+homework or `start_here`. Course-first layout renders overview once and Sources last; verified
+previews mount immediately without autoplay. Alternatives resolve exact System names to local pages.
 
-- Products live in `content/Systems/<System>.json` → `products[]`. **Never invent a product URL** —
-  every `affiliate_url` is opened and confirmed before it is committed.
-- **Only a verified link renders.** `link_status` (`live`/`dead`/`unverified`) and `link_checked`
-  are schema-required; anything not `live` degrades the system to its free "study this system"
-  surface. `price_usd` is deliberately **not** rendered — vendor prices drift, and a wrong price is
-  the same broken promise as a dead link.
-- **`graph.json` never carries `affiliate_url`** (public repo) — it emits `has_affiliate_url`.
-- One funnel event on both surfaces: `affiliate_clickout`, delegated on `a[data-affiliate="true"]`,
-  with `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=<system-slug>&utm_term=<product-id>`.
-- **The ref is injected at deploy time, never committed.** Content carries the literal
-  `?rfsn=REPLACE_ME`; `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` into emitted
-  artifacts only. Local builds read the gitignored root `.env`; CI environment takes precedence.
-  No ref configured = warning, placeholder kept, exit 0.
-
-**Proximate disclosure is mandatory** (FTC 16 CFR 255, UK ASA/CAP): it renders above the link, in
-the same block, uncollapsed, from two places — the app's CTA shelf and
-`templates/Systems.md.jinja2`. Both must reproduce this sentence **verbatim**.
-
-> **The block below is machine-read.** `scripts/check_affiliate_surface.py` and
-> `e2e/journeys/systems-surface.spec.ts` both extract it by these exact HTML comment markers and
-> compare it byte-for-byte against both render sites. Editing the wording, the markers, or this
-> section's number breaks a deploy gate — five error messages name "section 7".
-
-<!-- CANONICAL-DISCLOSURE:START -->
-BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.
-<!-- CANONICAL-DISCLOSURE:END -->
+- Products use verified canonical `course_url`; never commit tracking queries or placeholders.
+  Only `link_status: live` renders; `link_checked` records actual listing verification.
+- Committed graph products omit URLs. The index adds `course_url` and `affiliate` to existing
+  app product fields; rich `guide` evidence and non-graph `references` stay in deferred dossiers.
+- **Source Markdown stays neutral.** An outbound link carries no query of its own and is marked
+  with `data-course-url` / `data-source-url`; evidence emits `canonical_url`, the resolved `url`
+  and boolean `affiliate`, and a non-tracking query is preserved. Which hosts resolve and which
+  stay neutral is decided in code (`scripts/_system_guides.py`), never by the author.
+- **The resolved form is stamped at deploy time** by `scripts/apply_affiliate_ref.py`, from an
+  environment variable CI supplies. Absent, every link ships neutral; malformed, the build fails.
+  A root `.env` is ignored, the CI environment wins, and the value is never printed. Resolution is
+  idempotent and runs a second time after the agent-discovery export — a new build step must not
+  land between the two.
+- **No inline notice is rendered** — not in a guide body, not in Sources, not in the discovery
+  export — and `validate:affiliate` fails if one comes back. The site's standing disclosure is
+  `content/terms.md`. `scripts/check_affiliate_surface.py --built` checks source neutrality and
+  emitted output; `tests/system_affiliates.py` covers fixture resolution. Browser behavior has its
+  own suite.
 
 ---
 
@@ -673,8 +677,10 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 
 | baseline | gate | rule |
 |---|---|---|
-| `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; raising a ceiling needs `--update` in its own justified commit |
-| `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight measured from a real browser |
+| `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; `--update` reseeds it but can only ever TIGHTEN a `neural.*` ceiling |
+| `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight from a real browser: raw bytes, and the boot's chunk-request COUNT |
+| `tests/artifacts/payload_policy.json` | both of those | **the two gzip figures are SOFT** — over `target` warns and passes, over `action` fails, and any one change growing more than `delta_cap` fails whatever the absolute figure. Bands are hand-set; a baseline moves ONLY via `--accept-baseline <metric> --reason "…"`, never by itself (a self-advancing baseline is a delta check that never runs) |
+| `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved. A version bump moves nothing (neural.js's baked version is normalised and asserted); a bundle-only change re-seeds with `validate:build-shape:app`, no capture |
 | `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
@@ -702,7 +708,7 @@ content are inputs to what the bots write, and a change here changes their outpu
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
 | `e2e-full.yml` | PR, weekly, manual | the full core Playwright suite, four shards |
-| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp the affiliate ref, all gates, Cloudflare Pages, Lighthouse, IndexNow |
+| `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |
 | `analytics-content-improvement.yml` † | Sun 06:00 UTC | PostHog-driven content work |
 | `proofread-bot.yml` | Sun 18:00 UTC | LLM audit of graph edges and probabilities |
@@ -742,8 +748,8 @@ config; a rule about the repo rather than about a file.
 a story. At budget, admission requires eviction in the same commit; the default demotion criterion
 is *the trap now has a gate that fails loudly and names it*.
 
-`scripts/check_claudemd_budget.py` enforces the ceiling, the disclosure block, the absence of
-`@`-imports and the presence of the catalogue. `scripts/check_claudemd_refs.py` checks every path,
+`scripts/check_claudemd_budget.py` enforces the ceiling, the absence of `@`-imports and the
+presence of the catalogue. `scripts/check_claudemd_refs.py` checks every path,
 `npm run` script and symbol citation resolves. Both run in `ci-validate.yml`.
 
 ---

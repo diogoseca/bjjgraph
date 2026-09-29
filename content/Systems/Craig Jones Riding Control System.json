@@ -1,8 +1,8 @@
 {
   "name": "Craig Jones Riding Control System",
-  "description": "Study Craig Jones riding control with a focused Power Ride course guide, positional practice ideas, and links connecting top control, turtle and back attacks.",
-  "summary": "The Craig Jones Riding Control System is a BJJGraph study guide for developing top control through connected rides and pins, with Power Ride as its instructional companion.",
-  "overview": "Craig Jones teaches a riding approach in Power Ride: A New Philosophy on Pinning. Its published syllabus connects lower-body control, upper-body tools, turtle work and submission entries. It is a specific fit for the problem of passing guard and then losing the opponent during their next movement.\n\nThe sequence below is BJJGraph's suggested practice plan, not a transcript of the course or an official Craig Jones curriculum. Choose a familiar position, investigate where control is lost, and test one adjustment with a partner. Learning to retain top position can be useful even when no submission appears. A coach can help select controls appropriate to the pair and connect the material to their existing game.",
+  "description": "Craig Jones’s Power Ride covers leg rides, upper-body controls, turtle breakdowns and submission transitions from several top positions.",
+  "summary": "A top-control course built around leg rides, upper-body controls and turtle riding, with entries and submission follow-ups.",
+  "overview": "Power Ride: A New Philosophy on Pinning by Craig Jones approaches top control through leg rides and upper-body controls, with a dedicated section on turtle riding.\n\nThe six-volume series covers entries from pins and passing positions, then submission follow-ups. It suits grapplers who want to hold and attack an opponent across several top positions, including when the opponent turns toward turtle.",
   "tags": [
     "bjj",
     "system",
@@ -12,260 +12,143 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Intermediate",
-  "key_principles": [
-    "Give each practice round a concrete control objective that both partners understand.",
-    "Notice which connection is lost before adding another grip or changing position.",
-    "Treat a recovered guard or successful stand-up as feedback about the preceding transition.",
-    "Keep a stable base while testing a new control; more pressure cannot replace balance.",
-    "Add submission entries only after partners can practise the underlying position reliably.",
-    "Distinguish holding someone down from meeting the scoring requirements of a particular match."
-  ],
-  "key_components": [
-    {
-      "component_name": "Starting-position selection",
-      "description": "Choose one familiar top position and record how the bottom partner usually begins to escape.",
-      "purpose": "Create a repeatable problem instead of testing every possible ride at once."
-    },
-    {
-      "component_name": "Connection audit",
-      "description": "Identify the contact that prevents a comfortable turn and the contact that can be released without immediately losing balance.",
-      "purpose": "Explain a control in terms that can be checked during slow practice."
-    },
-    {
-      "component_name": "Movement-response practice",
-      "description": "Let the bottom partner change direction within an agreed range while the top partner attempts to remain connected.",
-      "purpose": "Develop recognition of changing movement without prescribing a fixed sequence."
-    },
-    {
-      "component_name": "Recovery decision",
-      "description": "When the original pin fails, choose between a familiar adjacent position and a clean reset.",
-      "purpose": "Avoid interpreting every lost grip as a reason to chase a submission."
-    },
-    {
-      "component_name": "Attack readiness",
-      "description": "Check that a chosen submission entry does not immediately surrender the position established in the previous phase.",
-      "purpose": "Evaluate the tradeoff between control and an attacking opportunity."
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Pick one starting point",
-      "description": "Begin from side control or another position both partners already understand. Agree the bottom partner's escape goal and a reset condition."
-    },
-    {
-      "step_number": 2,
-      "phase": "Describe the escape",
-      "description": "Use a cooperative round to identify when the bottom partner first gains room to turn or recover guard. Stop and name that moment."
-    },
-    {
-      "step_number": 3,
-      "phase": "Study one adjustment",
-      "description": "Select one relevant lesson with a coach. Practise the adjustment slowly and confirm both partners understand its purpose."
-    },
-    {
-      "step_number": 4,
-      "phase": "Test a second direction",
-      "description": "Allow a different escape direction. Check whether the adjustment transfers or whether another familiar position is a better choice."
-    },
-    {
-      "step_number": 5,
-      "phase": "Connect to an attack",
-      "description": "Introduce one agreed submission entry only after the control task is repeatable. Release immediately on any tap or request to stop."
-    },
-    {
-      "step_number": 6,
-      "phase": "Review the tradeoff",
-      "description": "Write down whether the attempted attack improved the situation, preserved control, or allowed an escape. Choose the next round from that result."
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "The drill turns into an unrestricted scramble.",
-      "solution": "Narrow the starting position and reset when either partner reaches the agreed endpoint."
-    },
-    {
-      "obstacle": "The top player squeezes harder as balance deteriorates.",
-      "solution": "Pause before the turnover and identify where base was lost; return to cooperative practice."
-    },
-    {
-      "obstacle": "A successful attack hides repeated positional losses.",
-      "solution": "Record control losses separately from taps so the drill still measures the intended skill."
-    },
-    {
-      "obstacle": "The bottom player gives the same reaction every repetition.",
-      "solution": "Introduce another agreed direction only after the first response is comfortable."
-    },
-    {
-      "obstacle": "The practitioner treats a study guide as full technical instruction.",
-      "solution": "Use the linked course or a coach for detailed demonstrations and use this page to organise practice."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Problem recognition",
-      "description": "Can the practitioner identify the first meaningful loss of control?",
-      "proficiency_indicators": [
-        "Names a specific lost connection",
-        "Locates the moment before the escape completes",
-        "Chooses a relevant adjustment to test"
-      ]
-    },
-    {
-      "metric_name": "Control continuity",
-      "description": "Assess whether changing grips or direction preserves a workable top position.",
-      "proficiency_indicators": [
-        "Maintains balance in cooperative practice",
-        "Recognises when the original pin is gone",
-        "Can select a familiar recovery position"
-      ]
-    },
-    {
-      "metric_name": "Partner response coverage",
-      "description": "Record which agreed escape directions have been tested.",
-      "proficiency_indicators": [
-        "Explores more than one direction",
-        "Adjusts the drill when a new reaction appears",
-        "Can explain the limits of the current solution"
-      ]
-    },
-    {
-      "metric_name": "Attack decision quality",
-      "description": "Review whether an attack was supported by the position.",
-      "proficiency_indicators": [
-        "Can delay an attack when control is weak",
-        "Can stop safely on any partner signal",
-        "Records escapes caused by premature attacks"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "These are BJJGraph practice suggestions rather than course assignments. Start with cooperative movement from one familiar pin. Give the bottom partner a clear escape objective and keep the top player focused on control. Increase resistance only when both partners can stop comfortably and explain what changed. Ask a coach to review uncertain controls before adding submission attempts.",
-    "progression_path": [
-      {
-        "stage": "Identify",
-        "focus": "Describe one recurring escape and the contact lost before it."
-      },
-      {
-        "stage": "Rehearse",
-        "focus": "Practise one selected control with cooperative movement."
-      },
-      {
-        "stage": "Compare",
-        "focus": "Test another escape direction under the same starting conditions."
-      },
-      {
-        "stage": "Integrate",
-        "focus": "Add one agreed attack and track whether top control survives."
-      }
-    ],
-    "common_mistakes": [
-      "Changing several controls at once and losing track of what helped.",
-      "Using a tap count as the only measure of a control drill.",
-      "Continuing through discomfort instead of resetting and asking for feedback."
-    ]
-  },
   "related_content": [
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "A familiar starting point for top-control practice."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Another pin from which to investigate escape reactions."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "A movement context relevant to maintaining contact as an opponent turns."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "A possible control objective after a positional change."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "A connection to compare with other top-control choices."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Cross Body Ride",
       "content_type": "Position",
-      "relationship": "A graph reference for exploring riding positions."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Gift Wrap",
       "content_type": "Position",
-      "relationship": "An upper-body control reference for study."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Balance remains necessary while changing controls."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Provides a vocabulary for describing contact."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Frames the central practice objective."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Helps evaluate when to delay an attack."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Back Attack System",
       "content_type": "System",
-      "relationship": "Further study when back control becomes a consistent destination."
+      "relationship": "Related study guide; its scope should be checked separately from this course."
+    },
+    {
+      "name": "Gordon Ryan Mount Control System",
+      "content_type": "System",
+      "relationship": "For detailed mount maintenance, remounting and attacks organized around the mounted position."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What does this guide ask you to measure before counting submissions?",
-      "answer": "Measure whether top control survives the partner's agreed escape attempt and identify the first connection lost when it fails."
-    },
-    {
-      "question": "Why should a riding-control drill begin from one familiar position?",
-      "answer": "A repeatable starting point makes it easier to compare reactions and see whether a selected adjustment actually improves control."
-    },
-    {
-      "question": "What should happen when the drill becomes an uncontrolled scramble?",
-      "answer": "Reset to the agreed starting position and narrow the available reactions so both partners can recognise the problem being tested."
-    },
-    {
-      "question": "How can an unsuccessful round still provide useful information?",
-      "answer": "Identify the moment control was lost, then use that observation to choose a smaller problem for the next round."
-    },
-    {
-      "question": "When should a submission entry be added to the control task?",
-      "answer": "Add an agreed entry when both partners can practise the underlying control reliably and can stop immediately on any partner signal."
-    },
-    {
-      "question": "Are the practice stages on this page official Power Ride assignments?",
-      "answer": "No. They are BJJGraph study suggestions; use the instructional demonstrations and coaching for detailed technical instruction."
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "power-ride-a-new-philosophy-on-pinning-by-craig-jones",
       "title": "Power Ride: A New Philosophy on Pinning",
       "instructor": "Craig Jones",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Connects leg rides, upper-body controls and turtle breakdowns to submission opportunities.",
-      "best_for": "No-gi players who pass guard but struggle to keep a mobile opponent down; this is a control course, not a complete passing curriculum.",
-      "study_focus": "Begin with the movement principles, then compare one leg-control lesson with an upper-body tool.",
-      "practice_tip": "BJJGraph suggestion: start in an agreed top position and score a controlled recovery after your partner changes direction. Use no submissions initially."
+      "link_checked": "2026-09-16",
+      "blurb": "Six volumes on leg rides, upper-body control, turtle riding and attacks from top.",
+      "best_for": "Grapplers interested in riding and pinning across several top positions.",
+      "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones",
+      "image": "https://bjjfanatics.com/cdn/shop/products/CraigJones_PowerRide-ANewPhilosophyonPinning_CoverFRONT.jpg?v=1762462065"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Craig Jones: Riding Control with Power Ride",
+    "audience": {
+      "fits": [
+        "You can get on top but struggle to keep an opponent down as they turn or build toward turtle.",
+        "You want wrestling-style rides alongside upper-body pinning and submission options."
+      ],
+      "consider_alternative_if": []
+    },
+    "coverage": {
+      "includes": [
+        "Leg splitting, rides, turks, shelves and rear-mount control.",
+        "Crossfaces, claws, handcuffs and half nelsons, plus turtle rides and cradles.",
+        "Entries from pins and passes, followed by arm-triangle, darce, kimura and other submission topics."
+      ],
+      "limits": [
+        "Control across several rides and pins takes priority over a complete guard-passing curriculum or a mount-only treatment."
+      ]
+    },
+    "sources": [
+      {
+        "id": "jones-power-ride",
+        "url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones",
+        "title": "Power Ride: A New Philosophy on Pinning by Craig Jones",
+        "kind": "official_listing",
+        "checked_on": "2026-09-19",
+        "note": "Verified title, Craig Jones attribution and six-volume outline separating leg control, upper-body tools, turtle, entries and submissions. Official page labels an embedded free sample; sample content not reviewed. On 2026-09-19 UTC, verified the introductory player in the product banner and the course cover image. Muted inline autoplay was verified on https://bjjgraph.org by observing advancing video time. The introduction content was not reviewed."
+      },
+      {
+        "id": "ryan-mount",
+        "url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-mount-by-gordon-ryan",
+        "title": "Systematically Attacking From Top Pins: Mount by Gordon Ryan",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, Gordon Ryan attribution and eight-volume outline separating mount entries, maintenance, attacks, rolling and commentary. Official page labels an embedded sample; sample content not reviewed."
+      }
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/e741d56d-76b1-41df-b113-1e8428c4129b?autoplay=false&muted=false&preload=true&responsive=true",
+      "source_id": "jones-power-ride",
+      "title": "Official course introduction — Power Ride: A New Philosophy on Pinning by Craig Jones",
+      "kind": "trailer",
+      "checked_on": "2026-09-19",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org"
+      ]
+    },
+    "alternatives": [
+      {
+        "system": "Gordon Ryan Mount Control System",
+        "reason": "For detailed mount maintenance, remounting and attacks organized around the mounted position."
+      }
+    ]
+  }
 }

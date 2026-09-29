@@ -1,5 +1,8 @@
 import { readFileSync, readdirSync } from "node:fs"
 import { resolve } from "node:path"
+// The app's own manifest decoder (v1.204.3): format 4 keys each deck by its node's share ordinal,
+// so the names come back through the SAME function the browser and the digest Worker run.
+import { ngWireDecks } from "../neural/src/wire-keys.src.js"
 
 /**
  * The whole flashcard corpus, assembled from the per-deck chunks.
@@ -11,6 +14,10 @@ import { resolve } from "node:path"
  * testing) read it through here.
  *
  * The Python equivalent, used by the exhaustive MC-viability audit, is scripts/_neural_decks.py.
+ *
+ * Since v1.204.3 the manifest names no deck: it carries each deck's node ORDINAL and card count,
+ * and `deckIndex()` decodes it against graph-data.json beside it. A decode that could not resolve
+ * every ordinal THROWS here — a corpus with holes in it would quietly shrink every "all decks" test.
  */
 
 const NEURAL = resolve(__dirname, "../source/public/static/neural")
@@ -22,19 +29,30 @@ export type Deck = { cat: string; role: string; cards: Card[]; n?: number }
 let cache: Record<string, Deck> | null = null
 let manifestCache: any = null
 
-/** The boot manifest, verbatim ({_meta, decks:{key:[file,cat,n]}}). */
+/** The boot manifest, verbatim (format 4: {_meta, deckOrd:{o, n}, shared}). */
 export function deckManifest(): any {
   if (!manifestCache) manifestCache = JSON.parse(readFileSync(resolve(FC, "_index.json"), "utf8"))
   return manifestCache
 }
 
+let indexCache: Record<string, { cat: string; n: number; file?: string }> | null = null
+/** The manifest DECODED: {"<Name>|<Role>": {cat, n}} in name order — what the app ingests. */
+export function deckIndex(): Record<string, { cat: string; n: number; file?: string }> {
+  if (indexCache) return indexCache
+  const nodes = JSON.parse(readFileSync(resolve(NEURAL, "graph-data.json"), "utf8")).nodes
+  const dec = ngWireDecks(deckManifest(), nodes)
+  if (dec.unresolved || dec.dupes)
+    throw new Error(`e2e/decks.ts: manifest decode left ${dec.unresolved} ordinal(s) unresolved, ${dec.dupes} duplicate(s) — graph-data.json and _index.json are from different emits`)
+  indexCache = dec.decks
+  return indexCache
+}
+
 /** Every deck, fully hydrated. Built once per worker (2,924 small reads, ~0.3s). */
 export function allDecks(): Record<string, Deck> {
   if (cache) return cache
-  const m = deckManifest()
   const out: Record<string, Deck> = {}
   const blobs: Record<string, any> = {}
-  for (const [key, entry] of Object.entries<any>(m.decks || {})) {
+  for (const [key, entry] of Object.entries<any>(deckIndex())) {
     const file = chunkName(key, entry)
     if (!blobs[file]) blobs[file] = JSON.parse(readFileSync(resolve(FC, file), "utf8"))
     const blob = blobs[file]
@@ -43,7 +61,7 @@ export function allDecks(): Record<string, Deck> {
       cat: deck.cat,
       role: deck.role ?? key.split("|").pop()!,
       cards: deck.cards ?? [],
-      n: Array.isArray(entry) ? (entry.length >= 3 ? entry[2] : entry[1]) : entry?.n,
+      n: entry.n,
     }
   }
   cache = out
@@ -60,16 +78,14 @@ export function fnv1a32(s: string): string {
   return ("0000000" + h.toString(16)).slice(-8)
 }
 
-/** manifest format 3 derives the address; older formats carried a filename. */
+/** format 3+ derives the address from the key; older formats carried a filename. */
 function chunkName(key: string, entry: any): string {
-  if (Array.isArray(entry) && entry.length >= 3) return entry[0]
-  if (entry && !Array.isArray(entry) && entry.file) return entry.file
-  return fnv1a32(key) + ".json"
+  return (entry && entry.file) || fnv1a32(key) + ".json"
 }
 
 /** One deck's chunk, as the app would fetch it. */
 export function deckChunk(key: string): Deck | null {
-  const entry = (deckManifest().decks || {})[key]
+  const entry = deckIndex()[key]
   if (!entry) return null
   const blob = JSON.parse(readFileSync(resolve(FC, chunkName(key, entry)), "utf8"))
   return blob.cards ? blob : blob[key] || null

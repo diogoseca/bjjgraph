@@ -212,7 +212,11 @@ test("clicking a list's name opens the editor and Enter commits — the rename p
   // blur commits too (the other half of "Enter/blur commits")
   await j.clickByMouse(`[data-list-name="${id}"]`, "the list's name again");
   await page.keyboard.type("Monday takedowns");
-  await page.locator("[data-lists-head]").click({ position: { x: 8, y: 8 } });
+  // "click somewhere else" needs an INERT somewhere. It used to be the lists head, which became a
+  // section toggle in v1.196.1 (Your lists folds like its neighbours) — so the section's own bottom
+  // padding, which no handler owns, is the neutral spot now.
+  const secBox = (await page.locator("[data-lists-section]").boundingBox())!;
+  await page.mouse.click(secBox.x + 4, secBox.y + secBox.height - 4);
   await expect(page.locator(`[data-list-rename="${id}"]`)).toHaveCount(0);
   expect(
     await page.evaluate((lid) => (window as any).__neural.lists[lid].name, id),
@@ -226,6 +230,8 @@ test("clicking a list's name opens the editor and Enter commits — the rename p
   ).toBe("Monday takedowns");
 
   await openExplore(page); // the reload landed on a closed pane — reopen before the gallery shot
+  // …and a reload comes back to a FOLDED Your lists (v1.196.1), so open it for the shot
+  await page.locator('[data-explore-section="Your lists"]').click();
   await page
     .locator("[data-lists-section]")
     .screenshot({ path: resolve(SHOTS, "lists-renamed-after.png") });
@@ -311,7 +317,7 @@ test("the newborn list from + opens straight into its name field — the '+ then
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
-      return a.lists[a.activeListId].name;
+      return a.lists[a.listsArray()[0]].name; // the one list — the one just made
     }),
   ).toBe("Tuesday: takedowns");
 });

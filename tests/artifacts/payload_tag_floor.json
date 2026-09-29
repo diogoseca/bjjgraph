@@ -1,0 +1,9 @@
+{
+  "note": "Owned emitted-tree fixture for TAG-FLOOR. The global tag index is not a named tag route; nested tags count, lookalike prefixes and static copies do not.",
+  "html": "<!doctype html><html><head><title>Fixture</title><link rel=\"canonical\" href=\"https://fixture.invalid/page\"><script type=\"application/ld+json\">{\"@type\":\"Article\"}</script></head><body><article><a href=\"/next\">Next</a></article></body></html>",
+  "html_paths": ["index.html", "tags/index.html", "tags/grappling.html", "tags/guard/closed.html", "tags2/decoy.html", "static/tags/decoy.html"],
+  "other_files": {"tags/asset.js": "fixture", "static/data.json": "{}"},
+  "directories": ["tags/empty.html"],
+  "named_tag_routes": ["tags/grappling.html", "tags/guard/closed.html"],
+  "floors": {"html_file_count": 2, "jsonld_blocks": 2, "article_links": 2, "static_files": 1, "tag_routes": 2}
+}

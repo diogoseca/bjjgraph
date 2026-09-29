@@ -1,6 +1,6 @@
 {
   "name": "Energy Conservation",
-  "description": "Master energy conservation in BJJ. Learn strategic resource management, efficient movement patterns, selective resistance, and tactical concessions for sustained performance.",
+  "description": "Energy conservation means using structure, useful grips, and well-timed effort so you can keep making effective decisions through a round.",
   "tags": [
     "bjj",
     "principle",
@@ -11,17 +11,13 @@
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Energy Conservation is the strategic, selective management of physical and mental resources in BJJ, spending effort through efficient movement, frame-based defense, and well-timed explosions so you stay technical and dangerous while your opponent fatigues.",
-  "overview": "In Brazilian Jiu-Jitsu, matches are frequently decided not by who is more skilled in the abstract, but by who can still execute clean technique in the final minutes when both athletes are exhausted. Energy Conservation addresses this reality directly: it recognizes that grappling is fundamentally a war of attrition where the practitioner who maintains effective performance while expending less fuel often prevails. It is not about being passive or lazy; rather, it is about being strategically selective with effort expenditure, using efficient movement patterns, and recognizing when to apply force versus when to redirect or yield. Mastery of this principle allows practitioners to maintain technical proficiency deep into matches when opponents are fatigued, creating decisive advantages in the closing exchanges of competition.",
+  "summary": "Energy conservation means avoiding unnecessary tension and spending effort on movements that improve your position or address an immediate threat.",
+  "overview": "Use frames, weight placement, and timing to reduce constant muscular work. Stay active in defense, and save larger efforts for openings you have prepared.",
   "key_principles": [
-    "Strategic resource allocation throughout match duration",
-    "Efficient movement patterns that minimize wasted energy",
-    "Selective resistance based on positional hierarchy",
-    "Tactical concessions to preserve energy for critical exchanges",
-    "Timing explosive efforts for maximum strategic impact",
-    "Recovery positioning between high-intensity exchanges",
-    "Mental energy management and decision-making efficiency",
-    "Opponent energy exploitation through pressure and pace control"
+    "Relax tension that is not doing a useful job.",
+    "Use frames and weight placement before adding strength.",
+    "Prepare an opening before making a large effort.",
+    "Keep breathing and address threats instead of resting inside them."
   ],
   "component_skills": [
     {
@@ -113,63 +109,19 @@
   "application_contexts": [
     {
       "context": "Closed Guard",
-      "how_applied": "Use leg squeeze and posture breaking intermittently rather than constantly, conserving hip flexor and core energy while maintaining control"
+      "how_applied": "Use grips and leg tension as needed rather than squeezing at full effort throughout."
     },
     {
       "context": "Side Control",
-      "how_applied": "When bottom, frame efficiently and wait for escape opportunities rather than explosive scrambling; when top, use weight distribution not muscle"
+      "how_applied": "The bottom player uses frames; the top player uses weight placement instead of constant muscular force."
     },
     {
       "context": "Mount",
-      "how_applied": "Bottom position allows conservative defense through hip frames and selective bridging; top position maintains control through grapevine and weight placement"
+      "how_applied": "The bottom player prepares a bridge with frames and timing rather than bridging repeatedly without an opening."
     },
     {
       "context": "Back Control",
-      "how_applied": "Defender conserves energy through chin protection and hand fighting rather than explosive escape attempts until optimal moment"
-    },
-    {
-      "context": "Turtle",
-      "how_applied": "Highly efficient defensive position requiring minimal energy to maintain while allowing controlled breathing and recovery between exchanges"
-    },
-    {
-      "context": "Headquarters Position",
-      "how_applied": "Use pressure and patience rather than explosive scrambles, forcing defender to expend energy while passer maintains structural control from standing headquarters"
-    },
-    {
-      "context": "Open Guard",
-      "how_applied": "Strategic guard pulling to avoid high-energy standup exchanges when grappling is preferred or when energy conservation is prioritized"
-    },
-    {
-      "context": "Ashi Garami",
-      "how_applied": "Recognize when to clear entanglements versus when to accept neutral positions to avoid exhausting scrambles"
-    },
-    {
-      "context": "Armbar Control",
-      "how_applied": "Use structural defense and proper hand positioning rather than explosive strength-based resistance against submission attempts"
-    },
-    {
-      "context": "Half Guard",
-      "how_applied": "Bottom player can stall and recover in lockdown or deep half, while top player conserves energy through shoulder pressure and patience"
-    },
-    {
-      "context": "Knee Shield Half Guard",
-      "how_applied": "Efficient barrier position allowing defensive recovery while maintaining frames and preventing pass without constant scrambling"
-    },
-    {
-      "context": "Butterfly Guard",
-      "how_applied": "Active hook control allows sweeping opportunities while seated posture enables breathing and energy recovery between attacks"
-    },
-    {
-      "context": "Deep Half Guard",
-      "how_applied": "Extremely defensive position allowing complete recovery while opponent struggles to advance, forcing attacker to expend energy"
-    },
-    {
-      "context": "De La Riva Guard",
-      "how_applied": "Hook control maintains distance and defensive safety without requiring constant grip fighting or explosive movement"
-    },
-    {
-      "context": "Spider Guard",
-      "how_applied": "Extended legs create distance and control while allowing upper body relaxation and breathing between offensive attempts"
+      "how_applied": "The defender prioritizes the attacking hands while preparing a controlled escape."
     }
   ],
   "decision_framework": [
@@ -216,61 +168,31 @@
   ],
   "common_errors": [
     {
-      "error": "Constant high-intensity effort regardless of positional importance",
-      "consequence": "Premature exhaustion leading to technical degradation and defensive vulnerabilities in critical match moments",
-      "correction": "Develop positional hierarchy awareness and reserve explosive efforts for positions with significant strategic value or decisive submission opportunities"
+      "error": "Working at full effort throughout",
+      "consequence": "Fatigue accumulates without a matching positional gain.",
+      "correction": "Notice which tension can be reduced without losing control."
     },
     {
-      "error": "Explosive escape attempts without proper setup or timing",
-      "consequence": "Wasted energy on low-probability escapes while failing to create actual positional improvements or ending in worse positions",
-      "correction": "Wait for optimal escape timing when opponent weight shifts or makes positional errors rather than forcing constant escape attempts"
+      "error": "Exploding before the setup",
+      "consequence": "A large effort produces little movement.",
+      "correction": "Create the frame, angle, or weight shift first."
     },
     {
-      "error": "Muscular resistance against superior positional pressure",
-      "consequence": "Rapid energy depletion fighting unwinnable battles while opponent maintains control using structural advantages and weight",
-      "correction": "Use frame-based structural defense and accept temporary positional disadvantages to preserve energy for better escape opportunities"
-    },
-    {
-      "error": "Breath-holding during defensive exchanges or submission escapes",
-      "consequence": "Oxygen debt accumulation causing rapid fatigue, reduced cognitive function, and panic responses under continued pressure",
-      "correction": "Maintain conscious breathing awareness during all exchanges and prioritize breathing even while defending difficult positions"
-    },
-    {
-      "error": "Failing to recognize recovery opportunities in neutral positions",
-      "consequence": "Continuous high-intensity engagement without energy restoration leading to progressive performance degradation throughout match",
-      "correction": "Actively seek stable positions allowing partial recovery such as closed guard or turtle when energy levels are depleted"
-    },
-    {
-      "error": "Matching opponent's pace regardless of energy state or strategic position",
-      "consequence": "Loss of strategic control over match tempo and energy expenditure rates, allowing opponent to dictate engagement intensity",
-      "correction": "Implement deliberate pace control through guard pulling, stalling in advantageous positions, and selective engagement"
+      "error": "Confusing conservation with passivity",
+      "consequence": "The opponent improves control while you wait.",
+      "correction": "Keep addressing grips and immediate threats with small actions."
     }
   ],
   "training_approaches": [
     {
-      "approach_name": "Flow Rolling with Energy Awareness",
-      "description": "Practice rolling at reduced intensity while maintaining technical quality, focusing on movement efficiency and identifying unnecessary energy expenditure patterns",
-      "focus": "Developing conscious awareness of energy use patterns and efficient movement pathways through low-intensity technical practice"
+      "approach_name": "Easy flow and review",
+      "description": "Roll cooperatively at a pace where both partners can talk. Pause when someone notices unnecessary tension, relax it without abandoning control, then restart.",
+      "focus": "Find effort that can be removed."
     },
     {
-      "approach_name": "Positional Sparring with Energy Constraints",
-      "description": "Train specific positions with explicit rules about effort levels, such as defending mount using only framing or maintaining guard with minimal grip strength",
-      "focus": "Isolating energy conservation techniques within specific positional contexts to develop efficient defensive and offensive patterns"
-    },
-    {
-      "approach_name": "Timed Rounds with Progressive Fatigue",
-      "description": "Structure training with longer rounds or multiple consecutive rounds to simulate late-match fatigue, forcing energy conservation under accumulating exhaustion",
-      "focus": "Experiencing real fatigue consequences and developing strategic energy management under conditions approximating competition demands"
-    },
-    {
-      "approach_name": "Competition Simulation with Scoring",
-      "description": "Practice matches with authentic scoring rules encouraging tactical stalling and conservative play when ahead, developing strategic energy allocation skills",
-      "focus": "Implementing energy conservation within competitive contexts including tactical stalling, point protection, and risk-averse late-match strategies"
-    },
-    {
-      "approach_name": "Strength Disadvantage Training",
-      "description": "Regular practice against larger or stronger opponents requiring technical efficiency and energy conservation due to strength differential",
-      "focus": "Forcing development of efficient techniques and energy conservation when muscular solutions are insufficient"
+      "approach_name": "Frame-first escape",
+      "description": "From light mount or side control, build frames and wait for an agreed weight shift before escaping. Reset and compare the effort with an unprepared attempt.",
+      "focus": "Spend effort after making an opening."
     }
   ],
   "developmental_metrics": [
@@ -523,13 +445,21 @@
   ],
   "clips": [
     {
+      "id": "5v-0tJzzWI8",
+      "title": "Breathing to manage your energy while rolling",
+      "by": "Nick Albin",
+      "vertical": true,
+      "channel": "Chewjitsu",
+      "verified": "2026-09-20"
+    },
+    {
       "id": "cRLnxkS0N6g",
       "title": "Why white belts gas out and how to fix it",
       "by": "Chewjitsu",
       "vertical": false,
       "channel": "Chewjitsu",
       "duration": 351,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     },
     {
       "id": "bhSpo8fYL7U",
@@ -538,7 +468,7 @@
       "vertical": false,
       "channel": "Josh Saunders ",
       "duration": 407,
-      "verified": "2026-07-15"
+      "verified": "2026-09-20"
     }
   ],
   "graph_applicability": {

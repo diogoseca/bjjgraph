@@ -1,0 +1,131 @@
+{
+  "name": "BJJ Guard Types Explained",
+  "display_title": "Choose a guard you can use",
+  "description": "Choose a BJJ guard by the connections you can establish, the passes you meet, and the recovery you can make, with practical examples for gi and no-gi.",
+  "summary": "Choose a guard you can enter, keep connected, and recover when your first attack is stopped.",
+  "tags": [
+    "bjj",
+    "learning",
+    "guard",
+    "beginner",
+    "strategy"
+  ],
+  "category": "Strategy",
+  "overview": "Guard names describe useful arrangements of legs, grips, and body position. Begin with one you can practice regularly, then add a neighboring guard that answers a problem you actually encounter.",
+  "key_takeaways": [
+    "Closed guard connects your legs around the torso; open guards use changing hooks, frames, and grips; half guard controls one leg while you manage upper-body access.",
+    "Ask how you will enter the guard against the stance your partner uses. A familiar position is less useful if you cannot reach it.",
+    "In the gi, collar and sleeve grips can organize distance; in no-gi, you need available body grips and connections rather than imaginary fabric handles.",
+    "Choose an attack and a recovery alongside the guard itself. Holding its shape is only the beginning.",
+    "Use reach and comfortable movement to adjust a position, without treating body type as a rule about which guards you may learn."
+  ],
+  "bjj_applications": [
+    {
+      "scenario": "You can reach closed guard against a kneeling partner but lose it when they stand.",
+      "application": "Keep closed guard as a starting point and ask your coach for an open-guard connection suited to that standing response, such as a taught foot-on-hip or De La Riva entry. Practice opening deliberately while retaining useful grips.",
+      "outcome": "Your second guard answers a recurring transition rather than expanding a collection of names."
+    },
+    {
+      "scenario": "You keep recovering half guard after a pass attempt, then get flattened.",
+      "application": "Work on the knee shield and inside frames available in that start. Pair your recovery with a taught route to an underhook, a sweep, or a return to open guard.",
+      "outcome": "The position you already reach becomes a place with a next action."
+    },
+    {
+      "scenario": "You move from gi classes to no-gi and your preferred sleeve grip is unavailable.",
+      "application": "Rebuild the connection instead of miming the same grip. A coach may help you explore seated butterfly guard with wrist, arm, or torso control that matches the opponent’s posture.",
+      "outcome": "You choose controls that exist in the equipment you are wearing."
+    },
+    {
+      "scenario": "You want to learn leg entanglements because you see them in matches.",
+      "application": "Choose a coached entry with a clear off-balancing goal, recovery, and exit. Confirm the permitted techniques for your academy and event before adding finishes.",
+      "outcome": "You learn how the position connects to your guard without assuming that every possible attack is part of your training format."
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Assigning yourself a guard solely because you are tall, short, or flexible.",
+      "consequence": "You can miss a position that suits your interests and current training problems.",
+      "correction": "Compare actual entry, control, and recovery over repeated practice."
+    },
+    {
+      "mistake": "Changing guards whenever the first sweep is defended.",
+      "consequence": "You may abandon a useful position before understanding the missing setup.",
+      "correction": "Identify the defense and test an adjustment or a connected second action."
+    },
+    {
+      "mistake": "Holding a named shape after its grips and barriers are gone.",
+      "consequence": "The passer can advance while you try to preserve a position that no longer functions.",
+      "correction": "Recover a usable connection or transition to the next guard."
+    }
+  ],
+  "training_exercises": [
+    {
+      "name": "Entry, attack, return",
+      "description": "Choose one guard and an attack your coach has taught. Start just outside that guard, establish its connections, and attempt the attack against agreed resistance. If it stops, recover your guard or its planned neighbor. Reset after a sweep, pass, recovery, or tap.",
+      "focus": "Test the whole exchange around a guard."
+    },
+    {
+      "name": "One guard, two stances",
+      "description": "Choose a guard that your coach considers suitable for both a kneeling and a standing start. Let your partner choose one of those starts, without surprise attacks. Establish the taught connection and one off-balance, then reset. Stop to ask for help when the entry depends on a connection that is not available.",
+      "focus": "Choose entries from the opponent’s actual posture."
+    }
+  ],
+  "knowledge_assessment": [
+    {
+      "question": "What should you know besides the name of a guard?",
+      "answer": "How to reach it, which connections make it work, one action from it, and where you can recover when those connections change."
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Phases of Guard",
+      "content_type": "Learning",
+      "relationship": "Change priorities as the guard exchange develops."
+    },
+    {
+      "name": "Layers of Guard",
+      "content_type": "Learning",
+      "relationship": "Recognize the barriers that remain."
+    },
+    {
+      "name": "BJJ For Beginners Roadmap",
+      "content_type": "Learning",
+      "relationship": "Connect guard practice to your first training goals."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Begin with a torso connection."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Build from a common recovery."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Explore seated hooks and body connections."
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Work with a standing opponent’s lead leg."
+    },
+    {
+      "name": "Spider Guard",
+      "content_type": "Position",
+      "relationship": "Explore sleeve-based distance control in the gi."
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "content_type": "Position",
+      "relationship": "Connect fabric grips to leg frames."
+    },
+    {
+      "name": "X-Guard",
+      "content_type": "Position",
+      "relationship": "Study a position under the opponent’s base."
+    }
+  ]
+}

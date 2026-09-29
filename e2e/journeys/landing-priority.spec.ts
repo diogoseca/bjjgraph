@@ -33,7 +33,7 @@ test("the landing shows film, then the question — in that order @curated", asy
 
   // DOM order IS the landing card's read order. The graph owns name and side; the definition
   // stays behind More, its own root-plane sibling below the dealt choices; the deck count is a
-  // line inside the corner (v1.175.0). Deck navigation follows the question; deep content
+  // line inside the corner (v1.175.0). Swipe guides sit outside the card; deep content
   // stays behind More.
   const order = await card.evaluate((el) =>
     Array.from(el.children)
@@ -51,7 +51,8 @@ test("the landing shows film, then the question — in that order @curated", asy
   expect(order.indexOf("other"), "nothing unaccounted for above the question").toBe(-1);
   const qi = order.indexOf("q");
   expect(qi, "the question is present, and it is at the top or just under the film").toBeGreaterThanOrEqual(0);
-  expect(order.indexOf("nav"), "deck navigation follows the question").toBeGreaterThan(qi);
+  expect(order.indexOf("nav"), "swipe guides live outside the question card").toBe(-1);
+  await expect(page.locator("[data-land-nav]")).toHaveCount(1);
   // v1.101.1: film is no longer a CHILD of the card — it is its own strip docked immediately
   // above it, so "before the question" is a geometry claim now, not a DOM-order one.
   expect(order.indexOf("film"), "the film row is not inside the card any more").toBe(-1);
@@ -160,6 +161,10 @@ test("everything that is NOT priority stays behind More", async ({ page }) => {
   ).toBe(false);
 
   await j.clickByMouse("[data-land-more]", "the independent More control");
+  await expect(
+    page.locator("[data-land-more-body]"),
+    "the deferred reading surface paints its fuller rows",
+  ).toContainText("Seeded principle");
   const opened = await page.evaluate(() => {
     const a = (window as any).__neural;
     const card = a._landEl as HTMLElement;

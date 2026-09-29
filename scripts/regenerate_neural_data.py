@@ -22,23 +22,27 @@ generated+committed static asset):
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>": [cat, n]}, shared}
-    resolving each deck key -> its card count (the "what decks exist" list; the chunk address is
-    derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
-    question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
-    cross-deck credit does not depend on which chunks have landed.
+  - flashcards/_index.json : manifest format 4 {_meta:{format}, deckOrd:{o, n}, shared} — every
+    deck and its card count (the "what decks exist" list), keyed by its node's permanent share
+    ORDINAL rather than spelled "<Name>|<Role>" (v1.204.3; see write_flashcards). The reader
+    derives the key from the node the ordinal names, and the chunk address from the key.
+    `shared` maps fnv1a32(question) -> the deck indexes (NAME order) carrying that question, for
+    the questions the blended hierarchy duplicates across decks, so the app's cross-deck credit
+    does not depend on which chunks have landed.
+  - curriculum.json : the Belt Path plus `scoreWeightsByOrd`, the belt-score table, keyed by
+    ordinal the same way (see _compact_score_weights).
   - concepts.json : the Principles + Learning libraries — the INDEX only ({_meta,
     concepts:[{id,key,name,cat,url,summary,meta,nodes,unresolved}]}), i.e. exactly what the list
     and the graph highlight need. Each concept's READABLE BODY (overview, points, contexts,
     errors, drills, plus glue and related) is a dossier in the content/ chunk space above,
     addressed by `key` = "<Name>|<Principle|Learning>", so the app reads it through the same
     _ngc() cache as a node dossier. Deferred: nothing on the roll path fetches it.
-  - systems.json : the 47 expert Systems as the app's library + graph-highlight source
-    ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
-    `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
-    part of the graph it teaches; `products` carries the curated BJJFanatics affiliate
-    entries VERBATIM from content (never synthesized — a fabricated affiliate URL is a
-    broken promise to a paying customer).
+  - systems.json : compact searchable Systems library with stable names/IDs, display titles,
+    aliases, graph membership, neutral verified products and compact opening-preview metadata.
+    Rich guide evidence and non-graph references live only in deferred System dossiers. Referral activation
+    is an emitted-artifact postbuild step, never source content.
+  - aliases.json : deferred exact site-id -> {aka:[], family?:{name,aka:[]}} index.
+    Own aliases and inherited family aliases retain provenance; no graph wire changes.
 
 Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `regenerate`.
 Read-only w.r.t. all existing content/graph.
@@ -51,6 +55,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+from _system_guides import canonical_course_url, compact_preview, related_references, resolved_guide
+from _learning import reading_index, related_readings
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
@@ -1140,8 +1146,81 @@ def build_flashcards(graph: dict) -> dict:
     return decks
 
 
-def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
-    """Write one chunk file per deck + a manifest. Returns (deck_count, card_count)."""
+def _seat_index(nodes: list) -> tuple[dict, set]:
+    """'<Name>|<Seat>' -> (ordinal, seat slot, cat, ty) for every seat of every graph-data node,
+    named by the READER's rule (scripts/_neural_decks.py node_deck_name == the app's deckKeyFor
+    `fam`), plus the keys two nodes both derive. A collided key is only an error where a deck or a
+    weight actually needs it — the caller decides, because a collision nothing ships is harmless."""
+    import _neural_decks as ND
+    idx: dict[str, tuple] = {}
+    collided: set[str] = set()
+    for n in nodes:
+        name = ND.node_deck_name(n)
+        for slot, seat in enumerate(ND.node_seats(n)):
+            key = f"{name}|{seat}"
+            if key in idx:
+                collided.add(key)
+                continue
+            idx[key] = (n["o"], slot, ND.node_cat(n), n.get("ty"))
+    return idx, collided
+
+
+def _encode_deck_manifest(decks: dict, nodes: list) -> dict:
+    """The format-4 deck table: {"o": delta-coded ascending ordinals, "n": [rep n, partner n] per
+    ordinal}. See neural/src/wire-keys.src.js for the wire, and write_flashcards for why.
+
+    REFUSES — never reports-and-continues — when a deck key does not resolve to exactly one
+    node's seat, when the category the node implies differs from the deck's, when a deck is empty
+    (0 means "no deck in this seat" on the wire, so an empty deck would silently vanish), or when
+    a key leaves the Basic Multilingual Plane (the app re-sorts decoded keys by UTF-16 code unit,
+    which agrees with sorted()'s code-point order only inside the BMP)."""
+    idx, collided = _seat_index(nodes)
+    per_ord: dict[int, list] = {}
+    errs = []
+    for key in sorted(decks):
+        hit = idx.get(key)
+        if hit is None or key in collided:
+            errs.append(f"deck {key!r} {'is claimed by two nodes' if hit else 'names no node seat'}")
+            continue
+        o, slot, cat, _ty = hit
+        n = len(decks[key]["cards"])
+        if cat != decks[key]["cat"]:
+            errs.append(f"deck {key!r}: node implies {cat!r}, deck says {decks[key]['cat']!r}")
+        if n < 1:
+            errs.append(f"deck {key!r} is empty — 0 is the wire's 'no deck' and it would vanish")
+        if any(ord(ch) > 0xFFFF for ch in key):
+            errs.append(f"deck {key!r} leaves the BMP — the app's sort would disagree with sorted()")
+        per_ord.setdefault(o, [0, 0])[slot] = n
+    if errs:
+        raise SystemExit("[neural] deck manifest REFUSING TO EMIT — the ordinal wire cannot carry "
+                         f"{len(errs)} deck(s):\n    " + "\n    ".join(errs[:20]))
+    ords = sorted(per_ord)
+    deltas, prev = [], -1
+    for o in ords:
+        deltas.append(o - prev - 1)
+        prev = o
+    return {"o": deltas, "n": [x for o in ords for x in per_ord[o]]}
+
+
+def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]:
+    """Write one chunk file per deck + a manifest. Returns (deck_count, card_count).
+
+    THE MANIFEST IS KEYED BY SHARE ORDINAL (format 4, v1.204.3). It is the one deck file every
+    visitor fetches before the first hand, and format 3 spelled every key — 2,896 "<Name>|<Role>"
+    strings, 15,427 of its 20,552 gzip bytes — when graph-data.json, fetched first, already
+    carries every one of those names on the node that owns the deck. `nodes` is graph-data's node
+    list: each deck is written as its node's permanent ordinal (node_ordinals.json, append-only,
+    hard-gated) plus a seat slot, and the reader (neural/src/wire-keys.src.js in the browser,
+    scripts/_neural_decks.py here) derives the name back from the node. Never an array index:
+    graph-data's node ORDER renumbers when one content file is added (CLAUDE.md section 6.6).
+
+    Nothing is trusted to the encoder: the manifest is decoded through the READER's direction
+    (ordinal -> node -> name, a different path from the encoder's name -> ordinal map) and must
+    reproduce every deck's key, category, card count AND position in the name order `shared`
+    indexes into — or nothing is written. The coverage line prints every run.
+
+    `_meta` is `{format}` and nothing else: its prose used to ride the boot path (486 B gzip) and
+    nothing ever read it. The documentation lives here, where it costs nothing."""
     fc_dir = out_dir / "flashcards"
     # clean stale chunks so removed decks don't linger
     if fc_dir.exists():
@@ -1192,24 +1271,32 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
             shared.setdefault(fnv1a32(q), []).extend(idxs)
     shared = {h: sorted(set(v)) for h, v in shared.items()}
 
-    (fc_dir / "_index.json").write_text(json.dumps({
-        "_meta": {
-            "status": "generated",
-            "format": 3,
-            "note": "Generated by scripts/regenerate_neural_data.py from graph.json. The app boots "
-                    "from this file alone and fetches a deck's chunk on demand; a chunk is "
-                    "<fnv1a32(deckKey)>.json beside this manifest, holding {deckKey: {cat, role, "
-                    "cards}} (a map, so a hash collision shares a file instead of losing a deck).",
-            "keyFormat": "<Name>|<Role>  (Top|Bottom for positions, Attacker|Defender for techniques)",
-            "entry": "[cat, n] — category, card count",
-            "cardShape": {"q": "question", "a": "answer"},
-            "shared": "fnv1a32(question) -> indexes into `decks` (in this file's order) for every "
-                      "question carried by 2+ decks — the blended hierarchy's shared cards. Makes "
-                      "cross-deck credit residency-independent (see noteCardDone).",
-        },
-        "decks": {k: manifest[k] for k in sorted(manifest)},
+    # The app boots from this file alone and fetches a deck's chunk on demand: a chunk is
+    # <fnv1a32(deckKey)>.json beside it, holding {deckKey: {cat, role, cards:[{q, a}]}} (a map, so
+    # a hash collision shares a file instead of losing a deck). `shared` is fnv1a32(question) ->
+    # indexes into the decks in NAME order, for every question carried by 2+ decks — the blended
+    # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
+    out = {
+        "_meta": {"format": 4},
+        "deckOrd": _encode_deck_manifest(decks, nodes),
         "shared": {h: shared[h] for h in sorted(shared)},
-    }, ensure_ascii=False, separators=(",", ":")))
+    }
+    import _neural_decks as ND
+    back, unresolved = ND.decode_manifest(out, nodes)
+    want = {k: {"cat": manifest[k][0], "n": manifest[k][1]} for k in sorted(manifest)}
+    if unresolved or list(back.items()) != list(want.items()):
+        diff = [k for k in set(back) | set(want) if back.get(k) != want.get(k)]
+        order = list(back) != list(want)
+        raise SystemExit(
+            f"[neural] deck manifest REFUSING TO EMIT — the ordinal wire does not read back: "
+            f"{unresolved} unresolved ordinal(s), {len(diff)} deck(s) differ "
+            f"(e.g. {sorted(diff)[:3]}), name order {'BROKEN' if order else 'intact'}. `shared` "
+            f"indexes into that order, so a reshuffle would credit the wrong decks.")
+    (fc_dir / "_index.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    n_ord = len(out["deckOrd"]["o"])
+    print(f"  deck manifest: {len(back)}/{len(manifest)} deck keys carried by {n_ord} ordinals "
+          f"({len(manifest) - len(back)} unresolved); read back exact — key, category, card count "
+          f"and name order")
     if collisions:
         print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")
     return len(decks), sum(len(d["cards"]) for d in decks.values())
@@ -1390,10 +1477,29 @@ def build_score_weights(graph: dict, frame: str) -> dict:
 WEIGHT_DIV = 10_000_000
 
 
-def _compact_score_weights(tables: dict) -> dict:
-    """The wire for `build_score_weights`, BOTH RULESETS: position keys once, technique names
-    once, one integer per frame each — {div, p:{k, gi, nogi}, t:{k, gi, nogi}} — where every `t`
-    name carries both seats at the same value.
+def _compact_score_weights(tables: dict, nodes: list) -> dict:
+    """The wire for `build_score_weights`, BOTH RULESETS: each position seat once, each technique
+    once, one integer per frame each — {div, p:{o, r, gi, nogi}, t:{o, gi, nogi}} — where every
+    `t` entry carries both seats at the same value. Written under `scoreWeightsByOrd`.
+
+    KEYED BY SHARE ORDINAL, NOT BY NAME (v1.204.3). Until now `p.k` spelled 266 "<Position>|<Role>"
+    keys and `t.k` 1,310 technique names — about 9,600 B of this file's 20,800 gzip, on the boot
+    path, every one of them a name graph-data.json already carries on the node it belongs to.
+    `p.o[i]` / `t.o[i]` are those nodes' permanent ordinals (node_ordinals.json) and `p.r[i]` the
+    position's seat (0 Top, 1 Bottom); the reader derives the name from the node
+    (neural/src/wire-keys.src.js, scripts/_neural_decks.py). The weights are NOT rounded any
+    further — that would move belt scores, which is the owner's call.
+
+    ORDER: WEIGHT DESCENDING ON THE SHIPPED INTEGERS, NAME AS THE TIEBREAK. The keys were once
+    sorted by `-max(weight)` over a Python SET alone, so every exact tie (253 of the 1,310
+    techniques and 10 of the 266 position seats share their maximum float with another) fell in
+    PYTHONHASHSEED order and the same inputs emitted a different file each run — 20,871-20,910 B
+    gzip, more noise than the first-hand gate's headroom at v1.198.3 (15 B). v1.198.4 (PR #221)
+    added the name tiebreak on the floats; v1.204.3 ranks the INTEGERS the wire actually ships, so
+    two weights that differ below 1/WEIGHT_DIV but ship equal are ordered by name too, and the
+    order is a function of the file's own contents (checkable from it, which the ORDER test in
+    tests/neural_wire_keys.test.mjs does). It is carried to the app on purpose, because gameScore
+    and startPosTraffic SUM in key order.
 
     WHY KEYS ONCE. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and
     lands the first hand at 382,197 of a 385,000 ceiling. The key strings are the entire cost, and
@@ -1401,9 +1507,9 @@ def _compact_score_weights(tables: dict) -> dict:
     and hanging one integer array per frame off it means the SECOND ruleset costs only integers.
 
     WHY THE UNION, AND WHY A ZERO IS MEANINGFUL. The two frames do not span the same techniques:
-    52 are attemptable only in gi and 16 only in no-gi. `k` is therefore the union and a ZERO in a
-    frame's array means "not attemptable in this ruleset" — the app skips it rather than storing a
-    key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
+    52 are attemptable only in gi and 16 only in no-gi. The key list is therefore the union, and a
+    ZERO in a frame's array means "not attemptable in this ruleset" — the app skips it rather than
+    storing a key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
     this divisor means something else entirely and is refused below, not shipped.
 
     THE MIRROR IS A CONSTRUCTION, NOT AN ESTIMATE, so it is safe to spell once: the defender block
@@ -1424,11 +1530,43 @@ def _compact_score_weights(tables: dict) -> dict:
         att = {k[: -len("|Attacker")]: v for k, v in t.items() if k.endswith("|Attacker")}
         return pos, att
     parts = {fr: split(tables[fr]) for fr in frames}
-    pk = sorted({k for fr in frames for k in parts[fr][0]},
-                key=lambda k: -max(parts[fr][0].get(k, 0.0) for fr in frames))
-    tk = sorted({k for fr in frames for k in parts[fr][1]},
-                key=lambda k: -max(parts[fr][1].get(k, 0.0) for fr in frames))
-    wire = {"div": WEIGHT_DIV, "p": {"k": pk}, "t": {"k": tk}}
+    # The sort breaks ties on the KEY itself (v1.198.4, PR #221). Sorting these sets by weight
+    # alone left tied keys in set-iteration order, which follows the per-process PYTHONHASHSEED:
+    # eight seeds gave eight byte streams of curriculum.json, on the first-hand payload path. And it
+    # sorts on the INTEGERS the wire ships, not the floats behind them (v1.204.3 payload diet): two
+    # weights can differ below 1/WEIGHT_DIV and ship equal, and an order decided by a difference the
+    # file cannot show is an order nobody can check from the file. Pinned by
+    # tests/curriculum_order.test.mjs (bytes across seeds) and tests/neural_wire_keys.test.mjs (the
+    # emitted file is weight-descending with ties in name order).
+    def rank(block):
+        return lambda k: (-max(round(parts[fr][block].get(k, 0.0) * WEIGHT_DIV) for fr in frames), k)
+    pk = sorted({k for fr in frames for k in parts[fr][0]}, key=rank(0))
+    tk = sorted({k for fr in frames for k in parts[fr][1]}, key=rank(1))
+    # name -> ordinal (+ seat), through the same seat index the deck manifest uses. A key that
+    # names no node's seat — or names a node of the wrong kind — is REFUSED, never dropped: a
+    # weight that silently leaves the table leaves gameScore's denominator with it.
+    idx, collided = _seat_index(nodes)
+    unresolved = []
+    p_o, p_r, t_o = [], [], []
+    for k in pk:
+        hit = idx.get(k)
+        if hit is None or k in collided or hit[3] != "positions":
+            unresolved.append(k)
+            continue
+        p_o.append(hit[0])
+        p_r.append(hit[1])
+    for k in tk:
+        hit = idx.get(f"{k}|Attacker")
+        if hit is None or f"{k}|Attacker" in collided or hit[3] == "positions":
+            unresolved.append(k)
+            continue
+        t_o.append(hit[0])
+    if unresolved:
+        raise SystemExit(
+            f"[neural] score weights REFUSING TO EMIT — {len(unresolved)} of {len(pk) + len(tk)} "
+            f"key(s) resolve to no graph-data node seat, e.g. {unresolved[:5]}. The wire is keyed "
+            f"by ordinal, so an unresolvable key has no way onto it.")
+    wire = {"div": WEIGHT_DIV, "p": {"o": p_o, "r": p_r}, "t": {"o": t_o}}
     for fr in frames:
         pos, att = parts[fr]
         for slot, keys, src in (("p", pk, pos), ("t", tk, att)):
@@ -1443,18 +1581,18 @@ def _compact_score_weights(tables: dict) -> dict:
                     f"Raise WEIGHT_DIV rather than shipping a silent hole."
                 )
             wire[slot][fr] = vals
-    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does and compare to the
-    # table it was built from. A compaction that silently drops or halves a block is the same
-    # defect class this whole ledger exists for, so it is checked, every run, for both rulesets.
+    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does — through the
+    # READER, ordinal -> node -> name (scripts/_neural_decks.py), never back through the name ->
+    # ordinal map that built it, so a remapped ordinal cannot agree with itself — and compare to
+    # the table it was built from. A compaction that silently drops, halves or re-homes a block is
+    # the same defect class this whole ledger exists for, so it is checked, every run, for both.
+    import _neural_decks as ND
     for fr in frames:
         full = tables[fr]
-        back = {}
-        for k, v in zip(wire["p"]["k"], wire["p"][fr]):
-            if v:
-                back[k] = v / WEIGHT_DIV
-        for k, v in zip(wire["t"]["k"], wire["t"][fr]):
-            if v:
-                back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
+        back, unres = ND.decode_score_weights({"scoreWeightsByOrd": wire}, fr, nodes)
+        if unres:
+            raise SystemExit(f"[neural] score weights ({fr}): {unres} ordinal(s) do not read back "
+                             f"to a node of the right kind. Refusing to emit.")
         lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
         drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
         if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
@@ -1466,12 +1604,12 @@ def _compact_score_weights(tables: dict) -> dict:
                 f"assumption that it equals the attacker seat; if that stopped being true, spell "
                 f"both. Refusing to emit."
             )
-    print(f"  score weights wire: {len(pk)} position + {len(tk)} technique keys x {len(frames)} "
-          f"frames at 1/{WEIGHT_DIV:,} ("
+    print(f"  score weights wire: {len(p_o)}/{len(pk)} position + {len(t_o)}/{len(tk)} technique "
+          f"keys carried by ordinal x {len(frames)} frames at 1/{WEIGHT_DIV:,}, read back exact ("
           + ", ".join(f"{fr} {sum(1 for v in wire['t'][fr] if v)} tech" for fr in frames) + ")")
     return wire
 
-def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
+def build_curriculum(out_dir: Path, graph: dict, decks: dict, wire_nodes: list) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
     which is legal — the app falls back to tree view).
 
@@ -1496,7 +1634,9 @@ def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
     tables = {fr: build_score_weights(graph, fr) for fr in ("gi", "nogi")}
-    cur["scoreWeightsByRuleset"] = _compact_score_weights(tables)
+    # `wire_nodes` is graph-data.json's node list (the ordinals the reader resolves against), NOT
+    # the curriculum index `nodes` above — two different node sets under one word.
+    cur["scoreWeightsByOrd"] = _compact_score_weights(tables, wire_nodes)
     # PRINTED EVERY RUN, never fatal here — `validate_score_coverage.py` owns the definition and
     # this is the same call the standalone check makes, so the two can never report different
     # numbers. It is handed the REAL per-frame pair: until v1.146.0 both arguments were the one
@@ -1631,25 +1771,17 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
 
 
 def _products(data: dict, sys_name: str) -> list[dict]:
-    """The curated BJJFanatics entries, VERBATIM. Content authors them as
-    {title, instructor, affiliate_url}; the Neural contract wants {name, instructor, url}
-    plus {id, vendor} for the affiliate funnel's utm_term / data-vendor.
+    """Neutral verified courses. Existing app fields plus canonical URL and activation flag.
 
-    Two ways an entry is DROPPED rather than shipped:
-      * no name or no URL — a card that links nowhere earns nothing and misleads;
-      * link_status != "live" — the URL was not opened and confirmed to resolve to that exact
-        instructional (or was confirmed DEAD). Verified 2026-08-09: two of the three authored
-        products 404. A 404 CTA earns exactly as much as no CTA and costs the reader's trust,
-        so the system degrades to its no-product surface until a human re-verifies the link.
-        Fail-safe: an entry with no link_status at all is treated as unverified.
-    NOTHING here is ever synthesized — no URL, no product.
+    Rich guide evidence stays in dossiers; products remain compact searchable metadata.
+    Referral activation belongs exclusively to the postbuild resolver.
     """
     out = []
     for p in data.get("products") or []:
         if not isinstance(p, dict):
             continue
         name = (p.get("title") or p.get("name") or "").strip()
-        url = (p.get("affiliate_url") or p.get("url") or "").strip()
+        url = canonical_course_url(p.get("course_url"))
         if not (name and url):
             print(f"  systems: skipped product without name+url in {sys_name}")
             continue
@@ -1663,9 +1795,11 @@ def _products(data: dict, sys_name: str) -> list[dict]:
             "name": name,
             "instructor": (p.get("instructor") or "").strip(),
             "url": url,
+            "course_url": url,
+            "affiliate": False,
             "id": (p.get("id") or "").strip(),
             "vendor": (p.get("vendor") or "BJJFanatics").strip(),
-            **{field: p[field].strip() for field in ("blurb", "best_for", "study_focus", "practice_tip")
+            **{field: p[field].strip() for field in ("image", "blurb", "best_for", "study_focus", "practice_tip")
                if isinstance(p.get(field), str) and p[field].strip()},
         })
     return out
@@ -1680,11 +1814,11 @@ def _products(data: dict, sys_name: str) -> list[dict]:
 #
 # It ships the SAME WAY a concept body does (build_concepts, below), for the same reason: the
 # INDEX (systems.json, deferred, shared 500,000-byte ceiling with concepts.json) carries what the
-# LIST and the graph HIGHLIGHT need, and everything only the OPEN PANEL reads rides in a dossier
+# LIST and the graph HIGHLIGHT need, plus the compact preview needed immediately on opening.
+# Other fields only the OPEN PANEL reads ride in a dossier
 # chunk in the per-node content/ chunk space, keyed "<Name>|System" and fetched through the SAME
 # window.NG_CONTENT chunk cache a node dossier uses (app.src.jsx `_docBody` -> `_hydrateContent`).
-# So systems.json grows by the `key` that addresses the body and by nothing else (+2,124 B across
-# the 47), and the boot payload does not grow at all.
+# Rich source evidence stays in that body; media cannot wait for its fetch to finish.
 #
 # `|System` keeps the key out of the technique key space (bare display names) and out of the
 # concepts' `|Principle` / `|Learning` space; write_ng_chunks() refuses a collision rather than
@@ -1729,6 +1863,9 @@ def _system_body(data: dict) -> dict:
     never emits them, so the renderer's block list is the union and each surface fills its own.
     """
     body: dict = {}
+    if isinstance(data.get("guide"), dict):
+        from regenerate_graph import quartz_slug
+        body["guide"] = resolved_guide(data, SYSTEMS_DIR.parent, quartz_slug)
     ov = _clip((data.get("overview") or "").strip(), SYS_OVERVIEW_CAP)
     if ov:
         body["overview"] = ov
@@ -1905,6 +2042,7 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
         ]
 
         prods = _products(data, name)
+        preview = compact_preview(data) if prods else None
         n_products += len(prods)
         # THE BODY, and the same duplicate-key rule the concept bodies carry: two files authoring
         # one `name` would share this slot and last-write-wins would ship one System's prose under
@@ -1917,11 +2055,14 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
             )
         # Only an open detail reads the ordered spine. Keep its existing caps and all steps,
         # but deliver it with the dossier so catalog growth does not inflate the shared index.
-        dossiers[key] = dict(_system_body(data), sequence=sequence, cat="System", name=name, url=f"/{page}")
+        dossiers[key] = dict(_system_body(data), sequence=sequence, cat="System", name=name, url=f"/{page}",
+                             references=related_references(data, SYSTEMS_DIR.parent, quartz_slug))
         systems.append({
             "id": page,
             "key": key,
             "name": name,
+            "display_title": (data.get("guide") or {}).get("display_title") or name,
+            "aliases": data.get("aliases") or [],
             "url": f"/{page}",
             "summary": _clip(data.get("summary") or data.get("description") or ""),
             "type": (data.get("system_type") or "").strip(),
@@ -1930,6 +2071,7 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
             "glue": glue,
             "unresolved": unresolved,
             "products": prods,
+            **({"preview": preview} if preview else {}),
         })
 
     return {
@@ -1974,11 +2116,9 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
 #                              The app's `_ngc()` fetches, caches and renders it with no new
 #                              machinery — one seam, not two (CLAUDE.md section 6.5).
 #
-# WHAT IS DELIBERATELY NOT HERE. The full prose (content/Principles/*.md is ~2.4MB of authored
-# reading) needs a reading surface this pane is not, and the flashcards these files carry still
-# reach no deck — that is the UNACCOUNTED figure build_flashcards() prints every run, and it is
-# unchanged by this. What ships is the concept's own spine: summary, overview, the key points,
-# where it applies, what goes wrong, and how to train it.
+# Principle dossiers keep their established reading spine. Learning dossiers carry the complete
+# edited article, including outcomes, self-assessment and sources. These questions remain reader
+# content, not scored decks. Rich bodies stay deferred in the shared content chunk space.
 PRINCIPLES_DIR = ROOT / "content/Principles"
 LEARNING_DIR = ROOT / "content/Learning"
 
@@ -2041,8 +2181,32 @@ CONCEPT_FIELDS = {
 
 def _concept_body(data: dict, cat: str) -> dict:
     """The readable dossier for one concept, normalised out of whichever template authored it."""
+    if cat == "Learning":
+        # Learning's authoring schema bounds content. Never silently truncate an author's final
+        # sentence: the static page and the in-app reading surface must contain the same text.
+        return {
+            "overview": data.get("overview", ""),
+            "points": list(data.get("key_takeaways") or []),
+            "contexts": [{"c": x["scenario"], "how": x["application"], "outcome": x["outcome"]}
+                         for x in data.get("bjj_applications") or []],
+            "errors": [{"err": x["mistake"], "why": x["consequence"], "fix": x["correction"]}
+                       for x in data.get("common_mistakes") or []],
+            "drills": [{"name": x["name"], "how": x["description"], "focus": x["focus"]}
+                       for x in data.get("training_exercises") or []],
+            "assessment": [{"question": x["question"], "answer": x["answer"]}
+                           for x in data.get("knowledge_assessment") or []],
+            "references": [{key: x[key] for key in ("title", "author", "url") if key in x}
+                           for x in data.get("references") or []],
+        }
     spec = CONCEPT_FIELDS[cat]
     body: dict = {}
+    if cat == "Principle":
+        from _neural_content import _clips
+        # Keep videos in the body fetched on demand, never in the concept index. Stable
+        # ordering puts Shorts first without disturbing the curator's order within a format.
+        clips = sorted(_clips(data.get("clips")), key=lambda c: not c.get("vertical", False))
+        if clips:
+            body["clips"] = clips
     ov = _clip((data.get("overview") or "").strip(), OVERVIEW_CAP)
     if ov:
         body["overview"] = ov
@@ -2151,6 +2315,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
                 f"cross-reference to it would resolve to one of them arbitrarily."
             )
         by_slug[sl] = page
+    readings_index = reading_index(ROOT / "content", quartz_slug)
 
     # A REFERENCE AUTHORED AS A PAGE PATH IS THE SAME REFERENCE, SPELLED DIFFERENTLY.
     # Most files write a bare display name ("Side Control"); at least one writes the page path
@@ -2161,7 +2326,7 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     # of concept cross-links. Same class as `_tech_keys` (CLAUDE.md section 6.6): try every
     # spelling, then COUNT how often the extra rung fired so it can never rot in silence.
     PATH_CTYPE = {v: k for k, v in GRAPH_REF_PREFIX.items()}      # "Positions" -> "Position"
-    CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}  # "Principles", "Learning"
+    CONCEPT_PREFIXES = {folder for _, folder, _ in CONCEPT_LIBS}
 
     concepts, dossiers = [], {}
     principle_sources = [(ctype, path, source, _principle_instructions(source))
@@ -2180,15 +2345,14 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             if not ref:
                 continue
             pre, sep, tail = ref.partition("/")
-            if sep and tail and (pre in PATH_CTYPE or pre in CONCEPT_PREFIXES):
+            if sep and tail and (pre in PATH_CTYPE or pre in CONCEPT_PREFIXES or (cat == "Learning" and pre == "Systems")):
                 ref = tail.strip()
                 if pre in PATH_CTYPE:
                     ctype = ctype or PATH_CTYPE[pre]
                 path_spelled += 1
             if ctype and ctype not in GRAPH_REF_PREFIX:
-                # a concept-to-concept (or concept-to-system) link. Kept when it names a page in
-                # THIS payload; a System is a page too but lives in systems.json, so it is counted
-                # and dropped rather than linked to a row that does not exist here.
+                # Preserve the legacy concept-only IDs. Learning's complete typed reading links
+                # are resolved below, including Systems from their separate index.
                 non_graph += 1
                 hit = by_slug.get(slugify(ref))
                 if hit and hit != page and hit not in related:
@@ -2258,6 +2422,11 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
         # is bare display names — two libraries authoring "Base" would otherwise share a slot.
         key = f"{name}|{cat}"
         body = _concept_body(data, cat)
+        if cat == "Learning":
+            readings, missing_readings = related_readings(data, readings_index)
+            if missing_readings:
+                raise ValueError(f"{name}: unresolved related reading: {', '.join(missing_readings)}")
+            body["relatedReadings"] = [r for r in readings if r["id"] != page]
         # THE INDEX/BODY LINE, and it is a byte budget, not a taste call. `concepts.json` is
         # DEFERRED and shares a 500,000-byte ceiling with systems.json (323,544). Everything the
         # LIST and the graph HIGHLIGHT need stays in the index so a click lights up instantly;
@@ -2284,9 +2453,12 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
             "id": page,
             "key": key,
             "name": name,
+            **({"title": data["display_title"]} if cat == "Learning" and data.get("display_title") else {}),
             "cat": cat,
             "url": f"/{page}",
-            "summary": _clip(data.get("summary") or data.get("description") or ""),
+            # Preserve complete Learning summaries and the Principle schema limit.
+            "summary": (data.get("summary") or data.get("description") or "") if cat == "Learning"
+                       else _clip(data.get("summary") or data.get("description") or "", 260 if cat == "Principle" else SUMMARY_CAP),
             "meta": _clip(" · ".join(
                 x for x in ((data.get("application_level") or "").strip(),
                             (data.get("complexity_level") or "").strip(),
@@ -2336,6 +2508,66 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     )
 
 
+def build_alias_index(nodes: list[dict]) -> dict:
+    """Resolve aliases to exact emitted sites; the browser never guesses family prefixes.
+
+    Technique display names are canonical within their section, including variants whose
+    name is not prefixed by their directory's family. Positions join by their own slug,
+    just like the existing wire qualifier. Both joins must be unique and total.
+    """
+    from _neural_content import naming_metadata, submission_families, family_for_source
+
+    by_name, by_position = {}, {}
+    for node in nodes:
+        by_name.setdefault((node["ty"], node.get("t")), []).append(node["id"])
+        if node["ty"] == "positions":
+            by_position.setdefault(node.get("posId"), []).append(node["id"])
+    families = submission_families()
+    index, owners, errors = {}, {}, []
+    authored = own = inherited = 0
+    for section in ("Positions", "Transitions", "Submissions"):
+        for path in sorted((ROOT / "content" / section).rglob("*.json")):
+            if "TEMPLATE" in str(path):
+                continue
+            d = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(d, dict) or d.get("is_family"):
+                continue
+            family = family_for_source(path, families) if section == "Submissions" else None
+            metadata = naming_metadata(d, family)
+            aliases = metadata.get("aka", [])
+            parent = metadata.get("family", {})
+            if not aliases and not parent.get("aka"):
+                continue
+            authored += 1
+            if section == "Positions":
+                hits = by_position.get(slugify(d.get("slug") or d.get("name") or path.stem), [])
+            else:
+                hits = by_name.get((section.lower(), d.get("name")), [])
+            if len(hits) != 1:
+                errors.append(f"{path}: expected one alias site, resolved {hits!r}")
+                continue
+            site = hits[0]
+            if site in index:
+                errors.append(f"{site}: aliases collide between {owners[site]} and {path}")
+                continue
+            record = {"aka": aliases}
+            if parent.get("aka"):
+                record["family"] = {"name": parent["name"], "aka": parent["aka"]}
+            index[site] = record
+            owners[site] = path
+            own += bool(aliases)
+            inherited += bool(parent.get("aka"))
+    print(f"  aliases: {len(index)}/{authored} source sites resolved; "
+          f"{own} own aliases, {inherited} inherited family aliases")
+    if not index or not own or not inherited:
+        errors.append("alias coverage is zero for the index, own aliases, or inherited aliases")
+    if len(index) != authored:
+        errors.append(f"{authored} alias-bearing sources produced {len(index)} exact site records")
+    if errors:
+        raise SystemExit("[neural] alias index REFUSING TO EMIT:\n    " + "\n    ".join(errors))
+    return dict(sorted(index.items()))
+
+
 def main() -> None:
     if not LAYOUT.exists() or not GRAPH.exists():
         print(f"ERROR: need {LAYOUT} and {GRAPH} (run regenerate:graph first)", file=sys.stderr)
@@ -2358,6 +2590,9 @@ def main() -> None:
     from submission_choices import write_details
     write_details(ROOT, OUT_DIR)
     (OUT_DIR / "graph-data.json").write_text(json.dumps(gd, ensure_ascii=False, separators=(",", ":")))
+    aliases = build_alias_index(gd["nodes"])
+    (OUT_DIR / "aliases.json").write_text(
+        json.dumps(aliases, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # Retired payloads: delete them if an older tree still has them. These are the two files the
     # whole first-run defect was made of (16.4MB + 21.2MB), the output dir is gitignored, and a
@@ -2369,7 +2604,7 @@ def main() -> None:
             print(f"removed retired payload: {stale}")
 
     decks = build_flashcards(graph)
-    n_decks, n_cards = write_flashcards(decks, OUT_DIR)
+    n_decks, n_cards = write_flashcards(decks, OUT_DIR, gd["nodes"])
     # The 16.4MB flashcards.json monolith is GONE (v1.80.4). It was the app's deck payload and it
     # shipped every card for all 2,924 decks before the visitor could make a move; the app now
     # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
@@ -2416,9 +2651,9 @@ def main() -> None:
           f"{sm['crossTypeRefs']} resolved under a section the author did not type)")
     _smax = max((len(json.dumps(v, ensure_ascii=False, separators=(",", ":")))
                  for v in system_dossiers.values()), default=0)
-    _sfull = sum(1 for v in system_dossiers.values() if v.get("overview") and v.get("points"))
+    _sfull = sum(1 for v in system_dossiers.values() if v.get("guide") or (v.get("overview") and v.get("points")))
     print(f"systems/: {len(system_dossiers)} readable bodies into the content/ chunk space "
-          f"({_sfull} with an overview AND key principles), fattest {_smax} bytes "
+          f"({_sfull} with a guide or legacy overview + principles), fattest {_smax} bytes "
           f"(chunk ceiling 40,000)")
     # POSITIVE COVERAGE, HARD FLOOR (CLAUDE.md section 6.6) — the same floor the concepts carry,
     # for the same reason: 145,746 authored words reached nobody for want of an emit pass, and a
@@ -2426,7 +2661,7 @@ def main() -> None:
     # body silently stopped parsing. A renamed authored field lands here, loudly.
     if _sfull < sm["count"]:
         raise SystemExit(
-            f"[neural] systems: {_sfull}/{sm['count']} carry a readable body (overview + key "
+            f"[neural] systems: {_sfull}/{sm['count']} carry a readable body (guide or overview + key "
             f"principles). A System with no body opens a panel that is a title and a link. Check "
             f"_system_body against the authored template."
         )
@@ -2443,7 +2678,7 @@ def main() -> None:
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR, graph, decks)
+    n_belts = build_curriculum(OUT_DIR, graph, decks, gd["nodes"])
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 
