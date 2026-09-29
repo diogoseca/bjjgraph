@@ -8369,7 +8369,7 @@ of 2026-09-29 folded in. What a player sees:
   - K-Guard/top: Backstep 70.7% (moves 37.8% → 51% and Win chance → 72.4% after one correct MC).
   - These reproduce the Codex browser receipt exactly. Threat probes add 0–107 states, and the root
     is bit-identical with and without them.
-  - Reproduce with `bjj-orchestrator/scratch/full-game/tools/win_chance_probe.mjs` (outside the repo).
+  - Reproduce with `tests/artifacts/_win_chance_probe.mjs` (its header has the two commands).
 - **Retired:** "Winning vs not losing" (the key is kept, unread; the wire ships λ = 2 only). This
   takes graph-data.json from 107,451 to 100,191 B gzip on the boot path, and the MDP metadata from
   6 variants to 2. Also retired: the served `systems.json` (build-internal now; it was 376,491 of
@@ -8382,4 +8382,38 @@ of 2026-09-29 folded in. What a player sees:
   producer fingerprint it.
 - **Belt:** the MDP's `classify` mirrors v1.204.5.
 
-Full narrative, gates and owner screen: `bjj-orchestrator/reports/full-game-reintegrate.md`.
+**The first full core-suite runs (v1.207.6–v1.207.9).** Dev was green on the same suite (PR 227), so
+all 35 reds of the first run were this branch's, and so were the 4 of the second:
+- **App fixes.**
+  - Inspect while values prepared threw: the runtime renderer read fields the app's short view lacks.
+    That took out 11 journeys, every Shift+digit sheet among them.
+  - Value requests followed the tray order, so the sort-once re-solved an unchanged hand. The first
+    fix (dealt order) then met the provider's order-sensitive live-hand check, and a sorted hand went
+    "Win chance unavailable". The check is now set membership.
+  - The film strip was docked mid-transition after a rotation and stayed 4 px inside the hand, which
+    is 18 px taller now. It re-docks on its own resize.
+  - Study-comparison rows were rebuilt on every Win-chance repaint, which could swallow a click. They
+    now rebuild only on change.
+  - An attacker's escape threats had no probe (`opponentEscapeRow`, `ngMdpThreatId`).
+  - The legend label was looked up in the wrong element.
+- **Specs moved to deliberate changes, same claims:**
+  - Sign-in goes through the real facade (a guest boot creates no client, QREV7 M1).
+  - Sort-once order.
+  - Entry is 100%, so the authored rate is checked on Finish cards.
+  - Lazy Settings; the Study plan cell; the due-list header; an empty guest plan.
+  - payload-first-hand: the page stamps its own first hand, instead of relying on Playwright noticing it.
+- **Local-only play** (owner ruling 2026-09-29). A signed-in device whose SDK cannot load plays that
+  account's local copy under a banner, never pulls or pushes, and merges before its first push on
+  re-verify.
+  - Gates: unit tests on the host and the facade, plus an @curated journey.
+  - Mutant: a save that pushes while local-only turns the journey red at "still nothing pushed".
+- **QREV8.** M1 is killed only by a direct facade call: the app's own guest check answers first.
+  M2 is killed by gate 2, as a 240 s boot timeout. The `_initAuth` guest gate is a named non-kill.
+- **Rebased four times** (Microing, PR 228, PR 229, PRs 219/230).
+  - The full game was renumbered twice, each time only in lines dev does not carry: v1.205.x
+    (dev's v1.205.0 is Microing), then v1.206.x (dev's v1.206.0/.1 are graph semantics), now v1.207.x.
+  - Renumbering a comment moves the adapter's law hash, so every commit was re-pinned.
+  - Keep-list files were re-accepted with the freeze tool on each rebase.
+  - PR 219's corrected honesty-gap text is kept: EDGE describes the corpus's opponent, while the MDP
+    plays `opponentDefend` itself.
+
