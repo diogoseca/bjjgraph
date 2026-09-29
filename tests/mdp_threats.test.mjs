@@ -5,7 +5,10 @@
 //   2. a positional threat's rows ARE the forced opponent action's rows for that move, unscaled —
 //      one implementation (`opponentPositionalRows`), so a threat card and the game cannot disagree;
 //   3. seeding probes changes no root or card value (optimal values are per state), bit for bit;
-//   4. every threat record is a proper outcome vector under the root's own selected future play.
+//   4. every threat record is a proper outcome vector under the root's own selected future play;
+//   5. while you APPLY a submission, the defender's escapes are the threats (`opponentEscapeRow`).
+// Mutant, run 2026-09-29: restoring "no probes on any submission node" (the v1.207.2 rule) turns
+// test 2 red on status ('unavailable' for every escape).
 // Mutants, run 2026-09-29 on a scratch copy: halving a threat's row weight in `threats()` -> KILLED
 // (test 3: the compiler refuses a non-normalized probe). Starting the probe in phase 'user' instead
 // of 'opponent' -> SURVIVES, and is EQUIVALENT: `arrive` and `defend` set the successor's phase, so
@@ -64,6 +67,39 @@ test('threat probes value exactly the opponent options, and say why they cannot 
   const req = request(s.id, 'bottom', 5), probe = adapter.threats(req.state.snapshot, req, ['anything'])[0];
   assert.deepEqual({ status: probe.status, reason: probe.reason }, { status: 'unavailable', reason: 'defending-now' });
   assert.ok(ready > 10, 'positive coverage: ' + ready + ' ready probes');
+});
+
+test("while you apply a submission, their escapes are the threats: each the forced escape turn's row, unscaled", () => {
+  // Found by submission-choices.spec.ts on the first full build: with no probe for an escape, an
+  // attacker's threat cards printed "—" forever. At the opponent's turn on your own submission the
+  // forced action gives every escape ONE equal share (1/n); a probe is that same row at weight 1.
+  const s = graph.nodes.find(n => n.ty === 'submissions' && n.t === 'Triangle Choke from Triangle Control' && n.role === 'attacker');
+  assert.ok(s, 'a real applied submission');
+  const role = graph.nodes.find(n => n.id === s.id).fromRole || 'bottom';
+  const escapes = graph.hands[M.ngMdpStable([s.id, flip(role)])] || [];
+  const ids = escapes.map(a => 'escape:' + a.techniqueId + '>' + a.destinationId), req = request(s.id, role, 5);
+  assert.ok(ids.length >= 2 && escapes.every(a => a.kind === 'escape'), 'the defender has real escapes: ' + ids.length);
+  assert.equal(new Set(escapes.map(a => a.techniqueId)).size, 1, 'they share ONE technique id — why an escape id names its destination');
+  assert.equal(new Set(ids).size, ids.length, 'and the ids tell them apart');
+  const key = b => JSON.stringify([b.next ? adapter.stateId(b.next, req) : null, b.terminal || null, b.events]);
+  const forced = adapter.enumerate({ ...req.state.snapshot, phase: 'opponent' }, req).actions[0].branches;
+  assert.equal(forced.length, ids.length, 'one forced row per escape');
+  const probes = adapter.threats(req.state.snapshot, req, ids);
+  for (const p of probes) {
+    assert.equal(p.status, 'ready', p.techniqueId + ' ' + p.reason);
+    assert.equal(p.branches.length, 1);
+    const b = p.branches[0], twin = forced.filter(f => key(f) === key(b));
+    assert.ok(twin.length >= 1, p.techniqueId + ': its row is in the forced escape turn');
+    assert.deepEqual(M.ngMdpMul(M.ngMdpRat(b.probability), M.ngMdpRat('1/' + ids.length)), M.ngMdpRat(twin[0].probability), p.techniqueId + ': 1/n there, 1 here');
+  }
+  const limits = { maxStates: 40000, maxBranches: 400000, maxMilliseconds: 60000 };
+  const plain = request(s.id, role, 5), probed = request(s.id, role, 5, ids);
+  const a = M.ngMdpSolve(M.ngMdpExpand(adapter, plain, limits), plain, limits);
+  const b = M.ngMdpSolve(M.ngMdpExpand(adapter, probed, limits), probed, limits);
+  assert.deepEqual(b.root.outcomes, a.root.outcomes, 'root bit-identical');
+  assert.ok(b.threats.length === ids.length && b.threats.every(t => ['ready', 'bounded'].includes(t.status)), b.threats.map(t => t.status + ' ' + (t.reason || '')).join(', '));
+  const wins = new Set(b.threats.map(t => t.outcomes.win));
+  assert.ok(wins.size >= 2, 'escapes to different places are valued differently: ' + [...wins].join(', '));
 });
 
 test("a positional threat's rows are the forced opponent action's rows for that move, unscaled", () => {

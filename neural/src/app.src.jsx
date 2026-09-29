@@ -12808,6 +12808,15 @@ class Component extends DCLogic {
     const opts = here.ty === "submissions" ? this.submissionOptions(here, role) : this.optionsFor(posIdx, role);
     return opts.map((o) => ({ ...o, threat: true, actor: "opponent" }));
   }
+  // A threat card's id for the value engine: its technique, and for an ESCAPE also where it leads —
+  // a submission's escapes share one technique id and differ only by destination. The worker's
+  // adapter mints the same string (`ngMdpThreatId`); the provider sends these, the paint reads them.
+  threatIdOf(opt) {
+    const id = opt && opt.node && opt.node.id;
+    if (!id || opt.action !== "escape") return id || null;
+    const dest = opt.res >= 0 ? this.nodes[opt.res] : null;
+    return dest ? "escape:" + id + ">" + dest.id : null;
+  }
   // (`threatMark`, the threat card's positional mark, is retired: v1.207.0, owner 2026-09-29. A
   // threat card shows YOUR Win chance if they try that move — `_paintThreatValue`.)
   choiceChance(opt) {
@@ -13090,7 +13099,11 @@ class Component extends DCLogic {
   _paintWinThermometer(snapshot) {
     if (!this.adv) return;
     const root = snapshot && snapshot.root, runtime = this.choiceValueRuntime();
-    const label = this.legendRef.current && this.legendRef.current.querySelector("[data-legend-win]");
+    // The Win/Lose label lives in the marker's own bar (`.ng-winbar`), a SIBLING of the legend key
+    // (`legendRef`), not inside it — looked up from the key, it was never found, and the marker moved
+    // with no number beside it (found by the first full-build run, v1.207.6).
+    const bar = this.legendMarkRef.current && this.legendMarkRef.current.closest(".ng-winbar");
+    const label = bar && bar.querySelector("[data-legend-win]");
     if (!root || !runtime || !root.outcomes || typeof root.outcomes.win !== "number") {
       if (this.adv.shown) this.adv.stale = true;
       if (label) { label.textContent = "Win"; label.removeAttribute("data-win-chance"); }
@@ -13470,7 +13483,7 @@ class Component extends DCLogic {
         tip = "You are defending this now. Your win chance is your best escape's: " + text + ".";
       }
     } else if (current && runtime.ngChoiceValueThreatView) {
-      const record = (snapshot.threats || []).find(t => t.techniqueId === oc.opt.node.id);
+      const tid = this.threatIdOf(oc.opt), record = (snapshot.threats || []).find(t => t.techniqueId === tid);
       const view = runtime.ngChoiceValueThreatView(record, snapshot);
       text = view.value; tip = view.tooltip;
       if (record && record.outcomes && typeof record.outcomes.win === "number" && view.value !== "—") win = record.outcomes.win;
@@ -13488,10 +13501,13 @@ class Component extends DCLogic {
     if (!runtime || !runtime.ngChoiceValueThreatOrder || this._detailCtx || this._execution || !snapshot) return;
     const cards = (this._optionCards || []).filter(c => c.opt.threat);
     if (cards.length < 2) return;
-    const byId = new Map(cards.map(c => [c.opt.node.id, c]));
-    if (byId.size !== cards.length) return;
-    const order = runtime.ngChoiceValueThreatOrder([...byId.keys()], snapshot).map(id => byId.get(id));
-    if (order.some(c => !c)) return;
+    // Two escapes to one place share an id and a value, so ids are ordered once and each id's
+    // cards follow in their dealt order.
+    const keyed = cards.map(c => [this.threatIdOf(c.opt), c]);
+    if (keyed.some(k => !k[0])) return;
+    const order = runtime.ngChoiceValueThreatOrder([...new Set(keyed.map(k => k[0]))], snapshot)
+      .flatMap(id => keyed.filter(k => k[0] === id).map(k => k[1]));
+    if (order.length !== cards.length) return;
     order.forEach(c => c.card.parentElement.appendChild(c.card));
     this._optionCards = this._optionCards.filter(c => !c.opt.threat).concat(order);
   }
