@@ -139,7 +139,7 @@ test('every literal member has equal semantic actions and exact class mass; deck
   assert.equal(c.root.status,'ready',c.root.reason);assert.equal(l.root.status,'ready',l.root.reason);assert.deepEqual(c.root.outcomes,l.root.outcomes);
 });
 
-test('actual source replay agrees with calibrated success/miss routing and belt loss-to-points behavior',()=>{
+test('actual source replay agrees with calibrated success/miss routing and the belt verdict',()=>{
   const {adapter,request,snapshot,graph}=setup();
   const ns=graph.nodes.map((n,idx)=>({...n,idx,pi:graph.nodes.findIndex(x=>x.id===n.pairId)}));
   function appFor(){
@@ -156,12 +156,14 @@ test('actual source replay agrees with calibrated success/miss routing and belt 
     if(a.outcome)assert.equal(b.terminal,'explicitNoResult');else{assert.equal(b.next.nodeId,ns[a.currentPos].id);assert.equal(b.next.role,a.playerRole);assert.equal(b.next.moveCount,a.moveCount);assert.equal(b.next.phase,a.phase);}
   }
   const a=appFor();a.currentPos=2;a.playerRole='top';a._beltTest={pointsWin:.7,names:[],beltId:'test'};a.belts={};a.anim=()=>false;a.after=()=>{};a.evRef={current:null};
-  Component.prototype.endRound.call(a,'lose','caught',2);assert.equal(a._lastOutcome,'win');
+  // v1.204.5 (owner): a submission always loses a belt test, however far ahead the board had you.
+  Component.prototype.endRound.call(a,'lose','caught',2);assert.equal(a._lastOutcome,'lose');
   const belt=setup({snapshot:{nodeId:'sD',role:'top',positionKey:'Submission|Defender',panicKey:'Submission|Defender'},state:{challenge:{pointsWin:.7,names:[]}}});
-  // Same endRound classifier is also exercised on a failed escape when defender
-  // value exceeds points threshold (surprising source behavior, deliberately pinned).
+  // The same verdict in the model: a failed escape is a submission, so it stays a loss even with the
+  // points threshold far below the defender's value (it used to become a points win, v1.204.5 fixed).
   const defended=setup({snapshot:{nodeId:'sD',role:'bottom',positionKey:'Submission|Defender'},state:{challenge:{pointsWin:-.9,names:[]}}});
-  assert.equal(defended.adapter.enumerate(defended.snapshot,defended.request).actions[0].branches.find(b=>b.terminal).subtype,'challenge-points-win');
+  const caught=defended.adapter.enumerate(defended.snapshot,defended.request).actions[0].branches.find(b=>b.terminal);
+  assert.deepEqual([caught.terminal,caught.subtype],['loss','submission-loss']);
   assert.ok(belt.adapter);
 });
 

@@ -156,11 +156,12 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
   }
   function classify(s, kind, subtype, request) {
     const challenge = request.state.challenge || request.state.snapshot && request.state.snapshot.challenge;
-    // Pins the current endRound defect, including lose -> points win. A gameplay
-    // fix must change BOTH consumers and mechanicsHash; never "repair" only here.
+    // Mirrors endRound's belt verdict exactly (v1.204.5, owner 2026-09-29): a submission is ALWAYS a
+    // loss; only a roll that ended with nobody tapped ("reset") is judged on points, both ways. Any
+    // later gameplay change must change BOTH consumers and the mechanicsHash; never only here.
     if (challenge) {
       const dominance = Math.round(value(node(s.nodeId), s.role) * 100) / 100;
-      if (kind !== 'win' && dominance >= challenge.pointsWin) return { terminal: 'win', subtype: 'challenge-points-win' };
+      if (kind === 'reset' && dominance >= challenge.pointsWin) return { terminal: 'win', subtype: 'challenge-points-win' };
       if (kind === 'reset') return { terminal: 'loss', subtype: 'challenge-reset-loss' };
     }
     return { terminal: kind === 'win' ? 'win' : kind === 'lose' ? 'loss' : 'explicitNoResult', subtype };
