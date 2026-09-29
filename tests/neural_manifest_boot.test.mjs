@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Pure-unit contract for the MANIFEST BOOT (v1.80.4).
 //
 // The Neural app no longer downloads a 16.4MB deck monolith before the visitor can move: it boots
@@ -19,21 +20,18 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
-import { ngWireDecks, ngWireScoreWeights } from "../neural/src/wire-keys.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const APP = resolve(HERE, "../neural/src/app.src.jsx");
 const src = readFileSync(APP, "utf8");
 
-// The bundle concatenates neural/src/wire-keys.src.js above the class (the manifest and score-table
-// decoder, v1.204.3), so a headless harness injects the same two names — the flow.test.mjs pattern.
+// The bundle concatenates neural/src/wire-keys.src.js and knowledge-profile.src.js above the class;
+// `knowledgeSource` (tests/_knowledge_profile_harness.mjs) is that same prelude, export-stripped.
 const Component = new Function(
   "DCLogic",
   "React",
-  "ngWireDecks",
-  "ngWireScoreWeights",
-  `${src}\nreturn Component;`,
-)(class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights);
+  `${knowledgeSource}\n${src}\nreturn Component;`,
+)(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 /** A minimal `this`: the real prototype plus only the state these methods read. */
 function app(decks, opts = {}) {

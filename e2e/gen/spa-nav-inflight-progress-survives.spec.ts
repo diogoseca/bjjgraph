@@ -77,15 +77,11 @@ test("card graded right before a soft nav survives into the remounted instance (
     const a = (window as any).__neural
     a.__probeLife = 1 // marker: the remounted instance will not carry this
     // force the PROD save branch — faithful copy of _saveProgress minus the isTest() line
+    const save = a._saveProgress.bind(a)
     a._saveProgress = function () {
-      clearTimeout(this._saveT)
-      const write = () => {
-        try {
-          localStorage.setItem("bjj-neural-progress", JSON.stringify(this._progressBlob()))
-        } catch (e) {}
-        if (this._pushCloud) this._pushCloud()
-      }
-      this._saveT = setTimeout(write, 400)
+      const isTest = this.isTest
+      this.isTest = () => false
+      try { return save() } finally { this.isTest = isTest }
     }
     const key = a.deckKeyFor(a.nodes[a.currentPos]).key
     return { key, prep0: a.prep[key] || 0, beltWon: !!(a.belts?.won || {})[bid] }

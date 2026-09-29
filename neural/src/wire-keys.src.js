@@ -135,6 +135,23 @@ export function ngWireDecks(j, nodes) {
 }
 
 /**
+ * THE CANONICAL DECK INDEX (v1.207.0): `{decks: {"<Name>|<Role>": {cat, n}}, shared}` from an
+ * `ngWireDecks` result plus the manifest's own `shared`. This is the ONE definition of "what the
+ * manifest says" for the two readers that must agree on it byte for byte: the app's knowledge
+ * content revision at ingest, and the Gameplan study-manifest producer, which recomputes that
+ * revision from verified bytes in a worker. Fingerprinting the RAW manifest instead made the
+ * revision a property of the wire format, so format 4 would have changed it with no content change.
+ * Only `cat` and `n` survive per deck (format 2's `file` is transport, not content). `shared` is
+ * passed through as shipped: its indexes point into the NAME order `decks` is decoded in. Fresh
+ * objects, so the app's hydration (`d.cards = …` on ITS deck objects) never reaches this copy.
+ */
+export function ngWireDeckIndex(dec, shared) {
+  const decks = {};
+  for (const k in (dec && dec.decks) || {}) decks[k] = { cat: dec.decks[k].cat, n: dec.decks[k].n };
+  return { decks: decks, shared: shared && typeof shared === "object" ? shared : {} };
+}
+
+/**
  * THE ONE EXPANSION OF THE SCORE TABLE: `{w: {deckKey: weight} | null, unresolved}` for one
  * ruleset frame. Reads, newest first: `scoreWeightsByOrd` (v1.204.3) · `scoreWeightsByRuleset`
  * (v1.146.0) · `scoreWeights` (v1.145.13) · a flat `weights` (the unit fixtures still carry it).

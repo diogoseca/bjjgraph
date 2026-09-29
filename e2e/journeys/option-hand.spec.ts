@@ -215,7 +215,7 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
     page.evaluate(() =>
       [...document.querySelectorAll("[data-tech]")].map((c: any) => ({
         t: c.getAttribute("data-tech"),
-        edge: c.querySelector(".ngedge") ? c.querySelector(".ngedge").textContent : null,
+        valueLabel: c.querySelector("[data-choice-value]")?.textContent || null,
         odds: (c.querySelector(".ngodds") || {}).textContent || null,
       })),
     )
@@ -259,9 +259,9 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
   const moved = after.find((c: any) => c.t === target)!
   const was = before.find((c: any) => c.t === target)!
   expect(parseInt(moved.odds!, 10), "the drilled card's odds moved").toBeGreaterThan(parseInt(was.odds!, 10))
-  expect(parseInt(moved.edge!, 10), "and so did its EDGE — that payoff is the reason to drill").toBeGreaterThan(
-    parseInt(was.edge!, 10),
-  )
+  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win chance")
+  // Numerical future-value updates and stale-profile rejection use controlled solver replies
+  // in choice-value.spec.ts; this legacy fixture exercises the live immediate odds only.
 })
 
 test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback", async ({ page }) => {

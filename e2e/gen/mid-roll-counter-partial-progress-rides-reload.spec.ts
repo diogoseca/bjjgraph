@@ -189,7 +189,7 @@ test("blue.roll-three at 2/3 (one win + one loss — outcome-blind) rides a pres
 
   // _saveProgress is SYNCHRONOUS in test mode: the blob already mirrors the live entry, same t.
   const stored2 = await page.evaluate((id) => {
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
     return (((blob || {}).challenges || {}) as any)[id] || null
   }, CHALLENGE)
   expect(stored2, "stored entry mirrors the live counter exactly (same t, no extra keys)").toEqual({
@@ -202,7 +202,7 @@ test("blue.roll-three at 2/3 (one win + one loss — outcome-blind) rides a pres
   await j.boot("/", { preserveStorage: true })
   const post = await page.evaluate((id) => {
     const a = (window as any).__neural
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
     return {
       live: a.challengeProgress(id),
       stored: (((blob || {}).challenges || {}) as any)[id] || null,
@@ -228,7 +228,7 @@ test("blue.roll-three at 2/3 (one win + one loss — outcome-blind) rides a pres
 
   const final = await page.evaluate((id) => {
     const a = (window as any).__neural
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
     return {
       live: a.challengeProgress(id),
       stored: (((blob || {}).challenges || {}) as any)[id] || null,

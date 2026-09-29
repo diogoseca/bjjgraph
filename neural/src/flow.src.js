@@ -97,9 +97,8 @@ function ngFlowAction(node, resolve, nodeAt) {
 export function ngFlowBuild(app, opts) {
   const nodes = app.nodes || [];
   const ev = app._ev;
-  // the lambda block to read EDGE from: the user's own `lossAversion`, so FLOW's features and
-  // the integers printed on their cards are priced off the same dial (measured: the dial does
-  // not change the FLOW ordering, rho ~0.9998, but it changes the scale 2.4x).
+  // the lambda block to read EDGE from: the app's fixed default (`_evLamIdx`, NG_EDGE_LAM). The
+  // player's loss-aversion dial was retired in v1.207.0 and the wire ships that one block only.
   const lamIdx = (opts && opts.lamIdx != null) ? opts.lamIdx
     : (typeof app._evLamIdx === "function" ? Math.max(0, app._evLamIdx()) : 0);
   const nodeAt = (i) => nodes[i];
@@ -671,6 +670,7 @@ export function ngFlowScore(app, opts) {
 
   // the ledger, if there is one. Never a silent fallback: `personal` is null and says so.
   let personal = null;
+  K.usePersonal = false; // reused kernel must not retain the preceding profile's rates
   if (o.counts && typeof o.counts === "object") {
     personal = ngFlowPersonal(K, o.counts, o);
     K.usePersonal = !!personal;

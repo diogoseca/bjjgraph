@@ -1,3 +1,4 @@
+import { routeSystemsDemand } from "./systems-demand-fixture";
 import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -78,7 +79,7 @@ const stubCover = (page: Page) => page.route(COVER, route => route.fulfill({ con
 const bootFixtures = async (page: Page, j = journey(page), data = catalog(), dossier = body()) => {
   await j.boot("/");
   // Register after the DSL routes so authored fixtures override its intentionally empty chunks.
-  await page.route("**/systems.json", r => r.fulfill({ json: data }));
+  await routeSystemsDemand(page, data);
   await page.route("**/concepts.json", r => r.fulfill({ json: { concepts: [
     { id: "Principles/Fixture-Frames", key: "Fixture Frames|Principle", name: "Frames reference", cat: "Principle", nodes: [] },
   ] } }));

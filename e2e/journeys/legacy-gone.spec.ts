@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test"
+import { beforeNeuralAuthNavigate } from "../fixtures/neural-auth-sdk"
 
 /**
  * LEGACY-VARIANT EXCISION GUARD (v1.80.0) — @curated
@@ -47,6 +48,9 @@ test("@curated legacy surface is gone AND the __bjjAuth seam still works on the 
   const errors: string[] = []
   page.on("pageerror", (e) => errors.push(String(e)))
 
+  // Real emitted facade, synthetic signed-out SDK; no OAuth or database access.
+  await beforeNeuralAuthNavigate(page)
+
   // A content page: the archetype that carried the whole legacy stack.
   await page.goto("/Positions/Mount/Top", { waitUntil: "domcontentloaded" })
 
@@ -87,6 +91,7 @@ test("@curated legacy surface is gone AND the __bjjAuth seam still works on the 
       "ensureClientInitialized",
       "isAuthenticated",
       "getSession",
+      "resolveNeuralUser",
       "signIn",
       "signUp",
       "signInWithGoogle",
@@ -105,21 +110,26 @@ test("@curated legacy surface is gone AND the __bjjAuth seam still works on the 
     expect(ty, `__bjjAuth.${k} is not callable`).toBe("function")
   }
 
-  // …and it actually runs: a signed-out visitor must get a clean `false`, and the neural
-  // pull must resolve (to null when unconfigured/signed out) rather than throw.
+  // A guest resolves to null. An unpinned or unknown-owner pull must reject,
+  // and a push must fail closed without touching the SDK database fixture.
   const live = await page.evaluate(async () => {
     const A = (window as any).__bjjAuth
-    const authed = A.isAuthenticated()
-    let pulled: unknown = "threw"
-    try {
-      pulled = await A.pullNeural()
-    } catch {
-      /* leave the sentinel */
+    const user = await A.resolveNeuralUser()
+    const rejected = []
+    for (const id of [undefined, "unverified-fixture-user"]) {
+      try { await A.pullNeural(id); rejected.push(false) } catch { rejected.push(true) }
     }
-    return { authed, pulled }
+    const pushed = await A.pushNeural({ v: 2 }, "unverified-fixture-user")
+    return { version: A.neuralSyncVersion, authed: A.isAuthenticated(), user, rejected, pushed,
+      sdk: (window as any).__authOwnerFixture.snapshot() }
   })
+  expect(live.version).toBe(2)
   expect(live.authed).toBe(false)
-  expect(live.pulled, "pullNeural threw — the cloud round-trip is broken").not.toBe("threw")
+  expect(live.user).toBeNull()
+  expect(live.rejected, "unverified account reads must reject").toEqual([true, true])
+  expect(live.pushed, "unverified account write must fail closed").toBe(false)
+  expect(live.sdk.reads, "no unpinned database read").toEqual([])
+  expect(live.sdk.writes, "no unpinned database write").toEqual([])
 
   expect(errors, `page errors on the default variant: ${errors.join(" | ")}`).toEqual([])
 })

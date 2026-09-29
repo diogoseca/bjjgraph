@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Pure-unit contract for the graph-data WIRE EXPANSION (v1.144.0).
 //
 // graph-data.json is the largest boot payload, so it ships COMPACT and `ingest()` expands it
@@ -39,7 +40,7 @@ const R = (p) => resolve(HERE, "..", p);
 const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class DCLogic {}, { createRef: () => ({ current: null }) },
 );
 

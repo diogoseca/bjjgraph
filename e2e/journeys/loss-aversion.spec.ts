@@ -296,7 +296,7 @@ const EARNED = `(() => {
  *  onClick adding an explored key → "the rest of the blob is untouched"; the dial writing
  *  `prep` → "belt score, SRS, evidence, rewards — all untouched". */
 const BLOB = `(() => {
-  const raw = localStorage.getItem("bjj-neural-progress");
+  const raw = window.__ngGuestProgressRaw();
   if (!raw) return "";
   const b = JSON.parse(raw);
   if (b.settings) delete b.settings.lossAversion;

@@ -72,6 +72,8 @@ wrong for them and answering it wrongly is how a gate gets worked around:
 """
 import argparse
 import gzip
+import hashlib
+import re
 import json
 import os
 import subprocess
@@ -129,7 +131,7 @@ GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the po
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
 NEURAL_DIR = "static/neural"
-CHUNK_DIRS = ("flashcards", "content", "submission-details")
+CHUNK_DIRS = ("flashcards", "content", "submission-details", "mdp")
 
 # Top-level payloads the app deliberately does NOT fetch at boot. Kept as an explicit, tiny list
 # because the alternative — silently scoring them as eager — makes this gate measure something
@@ -158,11 +160,34 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 # Two branches invented a deferred stylesheet a week apart and collided here on nothing.
 DEFERRED = (
     "systems.json",
+    # The new library list is fetched on reference intent; records are genuine
+    # per-system content chunks. Legacy full response remains counted above.
+    "systems-index.json",
     "concepts.json",
     "aliases.json",
     "app/reading.css",
     "app/reference.css",
+    # Model code is real deferred JS, still charged to the aggregate raw cap.
+    # Mechanics data lives in bounded mdp/ shards; the entire path is boot-banned.
+    "app/game-values.js",
+    "app/game-model.worker.js",
+    "app/choice-values.js",
+    "app/gameplan.js",
+    "app/game-study.js",
+    "app/game-study.worker.js",
+    "app/settings-ui.js",
 )
+
+# Ordinary worker JavaScript, shared between two independently created workers.
+# Count EVERY retained content-hashed generation, not only the current build's file.
+# This is a deferred asset category, never a data chunk or a byte-budget exemption.
+DEFERRED_WORKER_CORE = re.compile(r"app/game-worker-core-([0-9a-f]{64})\.js")
+
+
+def is_deferred_neural_asset(relative: str) -> bool:
+    return relative in DEFERRED or DEFERRED_WORKER_CORE.fullmatch(relative) is not None
+
+
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
@@ -245,7 +270,10 @@ def measure_neural() -> dict:
                 out["chunk_max_bytes"] = size
                 out["chunk_max_file"] = str(rel)
             continue
-        if str(rel) in DEFERRED:
+        if is_deferred_neural_asset(rel.as_posix()):
+            core = DEFERRED_WORKER_CORE.fullmatch(rel.as_posix())
+            if core and hashlib.sha256(f.read_bytes()).hexdigest() != core.group(1):
+                raise ValueError("worker core filename/content hash mismatch: " + rel.as_posix())
             out["deferred_raw_bytes"] += size
             out["deferred_files"].append({"path": str(rel), "raw": size})
             continue

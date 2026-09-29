@@ -777,7 +777,11 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
 # Self-defence (4).  Calling lam=2 "Balanced" -- as this line did until v1.124.0 -- named the
 # default after a posture it does not hold, and it was the one thing about the presets that was
 # actually wrong: the NUMBERS already sat where the owner meant, so nothing was re-emitted.
-EV_LAMBDAS = (1, 2, 4)
+# RETIRED v1.207.0 (owner, 2026-09-29): the full game's card number is pure Win chance and the
+# hand sorts once by it, so the dial is gone and only the default block ships. Measured on the
+# emitted wire: graph-data.json 107,451 -> 100,191 B gzip (-7,260) on the boot path, and the MDP
+# metadata producer, which derives its variants from `evLam`, emits 2 variants instead of 6.
+EV_LAMBDAS = (2,)
 EV_FRAME = "nogi"
 EV_DRILL_SWEEP = (-0.20, -0.10, 0.10, 0.20)   # odds offsets the fidelity check samples
 
@@ -2686,6 +2690,10 @@ def main() -> None:
         graph, OUT_DIR / "content", extra={**concept_dossiers, **system_dossiers})
     print(f"content/: {n_ng} node dossiers in {n_files} chunks"
           + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
+
+    # Additive demand route; keep systems.json above unchanged for cached clients.
+    from _systems_demand import write_systems_demand
+    write_systems_demand(OUT_DIR, sysd)
 
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved

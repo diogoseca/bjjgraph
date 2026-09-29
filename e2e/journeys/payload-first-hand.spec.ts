@@ -80,7 +80,7 @@ const GATE = "e2e/journeys/payload-first-hand.spec.ts" // how this gate names it
 // minus the `_`-prefixed manifests, which the app cannot boot without and which are therefore
 // EAGER on both sides. Three spellings of one rule would be two too many; if a fourth chunk
 // directory is ever added it must be added in both places, and corpus_census will not catch it.
-const CHUNK_RE = /^\/static\/neural\/(?:flashcards|content|submission-details)\/(?!_)[^/]+$/
+const CHUNK_RE = /^\/static\/neural\/(?:flashcards|content|submission-details|mdp)\/(?!_)[^/]+$/
 const POSTSCRIPT = "/postscript.js"
 
 // Payloads that must NEVER be on the boot path again. The ceilings alone are not enough of a
@@ -95,10 +95,21 @@ const POSTSCRIPT = "/postscript.js"
 // ONE PATTERN PER LINE, for the same reason `check_payload_budget.py`'s DEFERRED tuple is:
 // the next branch that defers an artifact adds a line here rather than rewriting this one.
 const BANNED_ON_BOOT = [
+  /\/systems-index\.json(\?|$)/,
+  /\/content\/system-records\//,
   /\/flashcards\.json(\?|$)/,
   /\/technique-content\.js(\?|$)/,
   /\/reading\.css(\?|$)/,
   /\/reference\.css(\?|$)/,
+  /\/static\/neural\/mdp\//,
+  /\/game-values\.js(\?|$)/,
+  /\/game-model\.worker\.js(\?|$)/,
+  /\/game-worker-core-[0-9a-f]{64}\.js(\?|$)/,
+  /\/choice-values\.js(\?|$)/,
+  /\/gameplan\.js(\?|$)/,
+  /\/game-study\.js(\?|$)/,
+  /\/game-study\.worker\.js(\?|$)/,
+  /\/settings-ui\.js(\?|$)/,
 ]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({
