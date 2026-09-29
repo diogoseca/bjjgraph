@@ -32,7 +32,7 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `curriculum.json` | boot | `scoreWeightsByOrd` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
-| `systems-index.json` | first read | the Systems list, then a system's record (`content/system-records/<sha>.json`); `systems.json` is build-internal |
+| `systems-index.json` | first read | the Systems list; a system's record (`content/system-records/<sha>.json`) on selection; `systems.json` is build-internal |
 | `concepts.json` | first read | the Principles + Learning index. Same posture as the Systems list |
 | `app/reference.css` | first reference read | shared Systems and concept reference-page styles; excluded from the game boot |
 | `aliases.json` | Explore/search intent | exact site IDs, own aliases and attributed family aliases; versioned URL, shared request and bounded retries |
@@ -380,11 +380,9 @@ the stamp, and `clearOptions` drops the line only if the stamp still stands.
 ## 4. Win chance — the number on every card (v1.207.0)
 
 **Win chance** is the chance you win this roll if you take this move and then keep choosing the
-best moves, against the game's own opponent, counting what you have studied. One policy of an MDP
-solved in a deferred worker (`game-model.worker.js`, `game-worker-core-<sha>.js`; mechanics
-metadata per ruleset under `static/neural/mdp/`), over the LIVE rules: seats, legal gi/no-gi moves,
-the move counter, momentum, sharpness, the question penalty, the belt verdict and `opponentDefend`
-reproduced exactly. Objective `max-win/min-loss/min-nontermination`. Practice moves odds and forward
+best moves, against the game's own opponent, counting what you have studied: an MDP solved in a
+deferred worker (`game-model.worker.js`; mechanics under `static/neural/mdp/`) over the LIVE rules —
+seats, gi/no-gi, move counter, momentum, sharpness, question penalty, belt verdict, `opponentDefend`. Objective `max-win/min-loss/min-nontermination`. Practice moves odds and forward
 value through ONE module (`knowledge-profile.src.js`), so a correct answer moves the numbers.
 
 - **Card**: Win chance plus the immediate chance (Move / Entry / Finish / Escape); the best card is
@@ -400,8 +398,8 @@ value through ONE module (`knowledge-profile.src.js`), so a correct answer moves
 - **"—"** keeps the move playable: pending, failed, or over admission (40k states, 400k branches,
   10 s build, 15 s solve). Values follow the first hand (5.6 s, measured desktop).
 
-EDGE (`100 × (Q(s,a) − B(s))`, `scripts/solve_edge_values.py`, `cal.ev`) is no longer printed: it
-is the dealt order before values arrive, FLOW's feature and the opponent's tie-break. The wire
+EDGE (`cal.ev`) is no longer printed: it is the dealt order, FLOW's feature and the opponent's
+tie-break. The wire
 ships one block (`evLam = [2]`); **"Winning vs not losing" is retired** (owner) and the stored
 `lossAversion` key is never read (CLAUDE.md §6.6).
 
@@ -679,8 +677,10 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 ## 8. Progress
 
 **Progress is stored per owner** (v1.207.0): `bjj-neural-owner:<guest|account:id>:*`. A guest's
-first load adopts the old unowned `bjj-neural-progress` (and its ladder/first-roll/coached markers)
-once, keeping the old bytes; an account imports it only on request (`progress-owner.src.js`).
+first load adopts the old unowned `bjj-neural-progress` and its markers once, keeping the bytes; an
+account imports it only on request (`progress-owner.src.js`). **Local-only** (v1.207.8): a signed-in
+device whose sign-in SDK cannot load plays that account's local copy under a banner, never pulls or
+pushes, and on re-verify (Try again, `online`) pulls and merges before any push (`_renderLocalOnly`).
 
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution

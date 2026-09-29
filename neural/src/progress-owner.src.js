@@ -237,7 +237,8 @@ export function ngProgressCreateOwnerController({ store, initialOwner = ngProgre
 export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
   if (typeof resolveUser !== "function") throw new TypeError("Authoritative owner resolution is required");
   const store = ngProgressCreateStore(storage);
-  let app = null, recovery = null, resolving = null, resolutionRevision = 0, host;
+  // `localOnly`: the owner this host restored WITHOUT verified identity (see resume's catch).
+  let app = null, recovery = null, resolving = null, resolutionRevision = 0, host, localOnly = null;
   const observed = new Map();
   const semanticMerge = (local, incoming) => {
     if (!app || typeof app._mergeProgressBlobs !== "function") throw new Error("Progress merge is unavailable");
@@ -311,14 +312,29 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
         const nextOwner = ngProgressOwner(user === null ? null : user.id);
         if (!current()) return ngProgressFailure("stale-owner-resolution");
         if (nextOwner.kind === "guest") store.adoptLegacyGuest();
+        localOnly = null;
         // A failed SPA pre-flush still belongs to the outgoing owner, never the SDK's new one.
         if (!recovery && app?._progressStorageError && app._progressLoaded) recovery = { blob: ngProgressClone(app._progressBlob()) };
         const outgoing = controller.recoverySnapshot() || recovery?.blob;
         const result = recovery ? controller.transition(nextOwner, outgoing, true) : controller.restore(nextOwner);
         if (result.status === "ready") { recovery = null; return result; }
         return showHold(result);
-      } catch {
+      } catch (error) {
         if (!current()) return ngProgressFailure("stale-owner-resolution");
+        // LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1). This device holds a session but the
+        // sign-in SDK cannot load (the facade says `sdk-unavailable` and names the stored account,
+        // unverified). Play on THIS DEVICE's copy of that account: the app is flagged local-only,
+        // shows a banner, never pulls or pushes, and re-verifies identity before its first pull,
+        // whose merge runs before any push. Only this failure, only with a named account, and never
+        // over a pending recovery; every other failure still holds exactly as before.
+        const stored = error && error.code === "sdk-unavailable" && typeof error.storedUserId === "string" && error.storedUserId ? error.storedUserId : null;
+        if (stored && !recovery) {
+          localOnly = ngProgressOwner(stored);
+          const result = controller.restore(localOnly);
+          if (result.status === "ready") return { ...result, localOnly: true };
+          localOnly = null;
+          return showHold(result);
+        }
         return showHold({ status: "held", reason: "identity-unavailable" });
       } finally { if (resolving === attempt) resolving = null; }
     });
@@ -332,6 +348,7 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
       app = inst; inst._progressHost = host; inst._progressOwner = boot.owner;
       inst._progressOwnerStamp = { owner: boot.owner, epoch: boot.epoch };
       inst._progressBootBlob = boot.blob === null ? null : ngProgressClone(boot.blob);
+      inst._progressLocalOnly = !!localOnly && ngProgressSameOwner(boot.owner, localOnly);
     },
     mountFailed(inst) {
       if (inst !== app || inst.__ngDestroyed) return;
@@ -363,6 +380,9 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
     authenticate(inst, user) {
       if (!host.current(inst)) return ngProgressFailure("stale-owner");
       resolutionRevision++;
+      // Any VERIFIED answer ends local-only play: the same account stays mounted (the app then
+      // pulls and merges before its first push); another account or a guest switches as usual.
+      localOnly = null; inst._progressLocalOnly = false;
       const nextOwner = ngProgressOwner(user ? user.id : null);
       if (ngProgressSameOwner(inst._progressOwner, nextOwner)) return { status: "unchanged" };
       if (nextOwner.kind === "guest") store.adoptLegacyGuest();

@@ -94,3 +94,33 @@ test('strict owner resolver bounds revision retries and rejects malformed absenc
   await assert.rejects(h.api.resolveNeuralUser());assert.equal(calls,3);
   for(const bad of [{data:{},error:null},{data:{session:undefined},error:null},{data:{session:{user:{}}},error:null}]) {h.setSessionRead(async()=>bad);await assert.rejects(h.api.resolveNeuralUser());}
 });
+
+// LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1): the SDK cannot load on a device that holds a
+// session. The facade must (1) say so with a code and the account the STORED session names, and
+// (2) not cache the failure, so "Try again" / `online` really re-tries. A document whose script
+// element fails until the SDK is "available" stands in for the CDN. Mutant, recorded 2026-09-29:
+// keeping the failed load cached (dropping `_sdkLoading = null` in loadSDK) turns this red on the
+// second attempt.
+function unloadableHarness() {
+  let available = false, appended = 0, clients = 0;
+  const client = { auth: { onAuthStateChange: () => ({ data: { subscription: { unsubscribe() {} } } }),
+    getSession: async () => ({ data: { session: { user: { id: 'account-a' } } }, error: null }) } };
+  const window = { __SUPABASE_URL: 'https://synthetic.supabase.invalid', __SUPABASE_ANON_KEY: 'synthetic-public-key' };
+  const document = { head: { appendChild(script) { appended++; setTimeout(() => {
+    if (available) { window.supabase = { createClient: () => { clients++; return client; } }; script.onload(); } else script.onerror(); }, 0); } },
+    createElement: () => ({ remove() {} }) };
+  const storage = { getItem: key => /-auth-token$/.test(key) ? JSON.stringify({ access_token: 'synthetic-token', user: { id: 'account-a' } }) : null };
+  const js = stripTypeScriptTypes(authSource).replace(/^export /gm, '');
+  const api = new Function('window', 'localStorage', 'console', 'document', `${js}\nreturn window.__bjjAuth;`)(window, storage, { error() {}, warn() {} }, document);
+  return { api, appended: () => appended, clients: () => clients, makeAvailable: () => { available = true; } };
+}
+
+test('local-only: an unloadable SDK names the stored account with a code, and a later attempt really re-tries', async () => {
+  const h = unloadableHarness();
+  await assert.rejects(h.api.resolveNeuralUser(), e => e.code === 'sdk-unavailable' && e.storedUserId === 'account-a');
+  await assert.rejects(h.api.resolveNeuralUser(), e => e.code === 'sdk-unavailable', 'still unreachable');
+  assert.equal(h.appended(), 2, 'the failed load was not cached: the second call loaded again');
+  h.makeAvailable();
+  assert.deepEqual(await h.api.resolveNeuralUser(), { id: 'account-a' }, 'once reachable, the same session verifies');
+  assert.equal(h.clients(), 1);
+});

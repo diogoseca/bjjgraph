@@ -52,9 +52,14 @@ function ngGameValueCreateProvider(deps) {
       || app._choiceValueSource !== provider || app._choiceHandId !== handId
       || typeof app._optPick !== 'function' || !app._decision || !Array.isArray(app._optList)) return false;
     const mounted = (app._optionCards || []).filter(c => !c.opt.threat);
-    return mounted.length === options.length && options.length > 0 && options.every((opt, i) =>
-      !opt.threat && mounted[i].opt === opt && app._optList.includes(opt)
-      && (!mounted[i].card || mounted[i].card.isConnected !== false));
+    // SAME HAND, ANY TRAY ORDER (v1.207.8). The request lists actions in DEALT order
+    // (app.src.jsx refreshChoiceValues), and the tray may have been sorted since (sort-once, or the
+    // button). An order-sensitive check called every refresh after a sort "no current playable hand"
+    // and the hand went "Win chance unavailable". The hand is current when exactly these options are
+    // all mounted, connected and in the live list.
+    return mounted.length === options.length && options.length > 0 && new Set(options).size === options.length
+      && options.every(opt => !opt.threat && app._optList.includes(opt)
+        && mounted.some(c => c.opt === opt && (!c.card || c.card.isConnected !== false)));
   };
   function describe(app, options, handId) {
     if (typeof handId !== 'string' || !activeHand(app, options, handId)) ngGameValueFail('no-current-playable-hand');

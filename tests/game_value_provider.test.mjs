@@ -154,3 +154,21 @@ test('late old-root preparation cannot overwrite the current root projection', a
   const c = p.capture(f.app, f.app._optList, 'hand-1');
   assert.equal(c.request.state.snapshot.nodeId, 'move');
 });
+test('a sorted tray is the same hand: requests in dealt order stay current, a different set does not', () => {
+  // The app captures in DEALT order and the tray may be sorted since (sort-once). Found by the full
+  // suite (v1.207.8): an order-sensitive check made every refresh after the sort "no current
+  // playable hand", and the hand showed "Win chance unavailable". Mutant, recorded 2026-09-29:
+  // restoring `mounted[i].opt === opt` turns this red at the first capture.
+  const f = fixture(); f.app._defendSub = 2;
+  f.nodes[2]._defenseDetails = [{ title: 'First escape' }, { title: 'Second escape' }];
+  const options = [0, 1].map(detail => ({ node: f.nodes[2], idx: 2, res: 0, action: 'escape', defense: { to: 'pos', detail } }));
+  f.setProjection({ ...f.projection, hand: options.map((opt, i) => ({ techniqueId: 'sub', destinationId: 'pos', kind: 'escape',
+    defense: opt.defense, defenseId: M.ngMdpDefenseId(opt.defense, f.nodes[2]._defenseDetails[i]) })) });
+  f.app._optList = options.slice().reverse();                        // the sorted tray
+  f.app._optionCards = options.slice().reverse().map(opt => ({ opt, card: { isConnected: true } }));
+  const c = f.provider.capture(f.app, options, 'hand-1');             // dealt order
+  assert.equal(c.actions.length, 2);
+  assert.equal(f.provider.isCurrent(f.app, c.request, 'hand-1'), true);
+  assert.throws(() => f.provider.capture(f.app, options.slice(0, 1), 'hand-1'), /no-current-playable-hand/, 'a subset is not the hand');
+  assert.throws(() => f.provider.capture(f.app, [options[0], options[0]], 'hand-1'), /no-current-playable-hand/, 'nor a duplicate');
+});

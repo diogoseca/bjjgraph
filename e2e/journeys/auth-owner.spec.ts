@@ -313,3 +313,71 @@ test('@curated real identity-read failure keeps recovery visible and progress un
   expect(await page.evaluate(() => (window as any).__recoveryRealFacade === (window as any).__bjjAuth)).toBe(true)
   expect((await fixture(page)).writes).toEqual([])
 })
+
+// LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1). A signed-in player whose sign-in SDK cannot
+// load gets the app on THIS DEVICE's copy of their account, with a banner. NOTHING is pushed, so it
+// can never overwrite cloud progress. When the SDK is reachable again, "Try again" verifies the
+// account and the ordinary pull-and-merge runs before any push.
+// Mutant, recorded 2026-09-29 (on the built neural.js): a save that pushes the local blob while
+// local-only turns this red at "still nothing pushed" — the SDK is reachable there, so a push lands.
+// NON-KILL, named: dropping only the `_progressLocalOnly` guards in `_pushCloud` / `_pullAndMerge`
+// changes nothing here, because local-only has no VERIFIED user (`_authUserId` is null) and both
+// refuse without one; the guards are belt-and-braces (tests/progress_owner.integration.test.mjs).
+test('@curated local-only: an unreachable SDK plays on this device, pushes nothing, and merges before the first push', async ({ page }) => {
+  const id = 'auth-owner-local'
+  await bootOwner(page)
+  await emitOwner(page, id)
+  await addList(page, 'Cloud list')
+  await expect.poll(async () => (await fixture(page)).writes.length, { message: 'online play reaches the cloud' }).toBeGreaterThan(0)
+  // Another device adds a list to the cloud meanwhile; the reconnect merge must keep it.
+  await page.evaluate(i => {
+    const f = (window as any).__authOwnerFixture, cloud = f.cloudOf(i)
+    const row = Object.values(cloud.lists)[0] as any
+    cloud.lists['lotherdevice1'] = { ...row, name: 'Other device list' }
+    f.seedCloud(i, cloud); f.blockSdk()
+  }, id)
+  await page.reload({ waitUntil: 'domcontentloaded' })
+  const state = () => page.evaluate(() => {
+    const a = (window as any).__neural
+    return { mounted: !!a && !a.__ngDestroyed && !!a._progressLoaded, owner: a?._progressOwner?.id || null,
+      localOnly: !!a?._progressLocalOnly, user: a?._authUserId || null }
+  })
+  await expect.poll(state, { timeout: 30_000 }).toEqual({ mounted: true, owner: id, localOnly: true, user: null })
+  await expect(page.locator('#neural-progress-recovery'), 'local-only is play, never the hold screen').toHaveCount(0)
+  const banner = page.locator('[data-local-only]')
+  await expect(banner).toBeVisible()
+  await expect(banner).toContainText('Can’t reach your account')
+  await expect(banner).toContainText('won’t sync until you’re back online')
+  expect(await names(page), "this device's copy of the account plays").toEqual(['Cloud list'])
+  const before = await fixture(page)
+  expect(before.clients, 'the SDK never loaded').toBe(0)
+  // The SDK's CDN request is the unreachable thing itself; any OTHER backend request still fails the test.
+  const seen = observed.get(page)!
+  expect(seen.forbidden.length, 'the page did try the SDK').toBeGreaterThan(0)
+  expect(seen.forbidden.every(url => /cdn\.jsdelivr\.net\/npm\/@supabase\/supabase-js/.test(url)), JSON.stringify(seen.forbidden)).toBe(true)
+  seen.forbidden.length = 0
+  // Local play and local saves work normally.
+  await addList(page, 'Offline list')
+  expect(await page.evaluate(i => {
+    const raw = localStorage.getItem('bjj-neural-owner:account:' + encodeURIComponent(i) + ':progress')
+    return Object.values(JSON.parse(raw!).blob.lists).map((row: any) => row.name).sort()
+  }, id), 'saved on this device').toEqual(['Cloud list', 'Offline list'])
+  // The SDK becomes reachable, but nobody has re-verified yet: still nothing may be pushed.
+  await page.evaluate(() => (window as any).__authOwnerFixture.unblockSdk())
+  await addList(page, 'Second offline list')
+  await page.waitForTimeout(1500)             // past the push debounce (500 ms) several times over
+  const held = await fixture(page)
+  expect(held.writes.length, 'still nothing pushed while local-only').toBe(before.writes.length)
+  expect(held.reads.length, 'nor pulled').toBe(before.reads.length)
+  // "Try again": the account verifies, the pull merges, and only then a push.
+  await banner.locator('[data-local-only-retry]').scrollIntoViewIfNeeded()
+  await journey(page).clickByMouse('[data-local-only-retry]', 'Try again')
+  await expect.poll(async () => (await fixture(page)).writes.length, { timeout: 30_000 }).toBeGreaterThan(before.writes.length)
+  const after = await fixture(page), tail = after.order.slice(before.order.length)
+  expect(tail[0], 'the first cloud call after reconnecting is the pull').toBe('read')
+  expect(tail.indexOf('write'), 'the push comes after the pull').toBeGreaterThan(tail.indexOf('read'))
+  expect(Object.values(after.writes.at(-1).neural.lists).map((row: any) => row.name).sort(), 'merged, never overwritten')
+    .toEqual(['Cloud list', 'Offline list', 'Other device list', 'Second offline list'])
+  await expect(banner).toHaveCount(0)
+  expect(await state()).toEqual({ mounted: true, owner: id, localOnly: false, user: id })
+})

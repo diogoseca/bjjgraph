@@ -272,3 +272,46 @@ test('old successful host retry cannot restore its account after a newer accepte
   const old=h.host.retry();await Promise.resolve();const b=h.switchTo('B');wait.resolve({id:'A'});
   assert.equal((await old).reason,'stale-owner-resolution');assert.equal(h.get(),b);assert.equal(h.held.length,0);assert.equal(h.host.current(b),true);
 });
+
+// LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1). A signed-in device whose sign-in SDK cannot
+// load plays on ITS OWN copy of that account: nothing is pulled or pushed while local-only, local
+// saves work, and the first verified answer pulls and merges before any push.
+test('local-only: an unreachable SDK restores the stored account locally, pushes nothing, then pulls before pushing', async () => {
+  const mem = memory(), store = ngProgressCreateStore(mem);
+  store.write(ownerA, blob({ 'A|Top': 3 }, { lists: {} }));
+  const h = harness(mem), calls = [];
+  h.facade.resolveNeuralUser = async () => { throw Object.assign(new Error('Account service unreachable'), { code: 'sdk-unavailable', storedUserId: 'A' }); };
+  h.facade.pullNeural = async id => { calls.push('pull:' + id); return { userId: id, blob: blob({ 'A|Top': 1, 'Cloud|Top': 2 }) }; };
+  h.facade.pushNeural = async (b, id) => { calls.push('push:' + id); return true; };
+  const result = await h.boot();
+  assert.equal(result.status, 'ready'); assert.equal(result.localOnly, true);
+  const app = h.get();
+  assert.deepEqual(app._progressOwner, ownerA, "this device's copy of the stored account");
+  assert.equal(app._progressLocalOnly, true); assert.deepEqual(h.held, []);
+  assert.equal(app.prep['A|Top'], 3, 'its local progress is what plays');
+  await app._initAuth();                      // the mount's own re-verify attempt: still unreachable
+  assert.equal(app._progressLocalOnly, true);
+  // Both save paths (the ordinary debounced one runs synchronously under isTest) and both cloud
+  // entry points, called directly. Mutant, recorded 2026-09-29: a save that pushes the local blob
+  // while local-only turns this red on `calls`.
+  app.prep['Offline|Top'] = 4; app._saveProgress(); app._flushSave(); app._pushCloud(); await app._pullAndMerge();
+  assert.deepEqual(calls, [], 'local-only reads and writes nothing in the cloud');
+  assert.equal(JSON.parse(mem.getItem(ngProgressLocalKey(ownerA))).blob.prep['Offline|Top'], 4, 'local saves work');
+  // The SDK is reachable again and verifies the same account.
+  h.facade.resolveNeuralUser = async () => ({ id: 'A', email: 'A@example.invalid' });
+  await app._initAuth();
+  assert.equal(h.get(), app, 'the same account stays mounted'); assert.equal(app._progressLocalOnly, false);
+  await new Promise(r => setTimeout(r, 600));  // the push debounce
+  assert.deepEqual(calls, ['pull:A', 'push:A'], 'the merge-bearing pull runs before the first push');
+  assert.equal(app.prep['Offline|Top'], 4); assert.equal(app.prep['Cloud|Top'], 2, 'cloud and local play merged');
+});
+
+test('local-only is only for an unreachable SDK that names a stored account; every other failure still holds', async () => {
+  for (const error of [Object.assign(new Error('x'), { code: 'sdk-unavailable', storedUserId: null }), new Error('Unable to verify progress owner')]) {
+    const h = harness();
+    h.facade.resolveNeuralUser = async () => { throw error; };
+    const result = await h.boot();
+    assert.equal(result.status, 'held'); assert.equal(h.mounted.length, 0);
+    assert.deepEqual(h.held.map(r => r.reason), ['identity-unavailable']);
+  }
+});
