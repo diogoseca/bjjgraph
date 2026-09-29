@@ -21,20 +21,23 @@ import { journey } from "../dsl";
 // synchronously at pointerup instead of one task later → both kinds RED (the repaint overtakes the
 // click). NOT COVERED: the alias-index repaint (same seam, no held-payload journey here) and pen.
 const PUBLIC = resolve(__dirname, "../../source/public/static/neural");
+// The Systems library arrives as `systems-index.json` since v1.207.0; the full `systems.json` is
+// build-internal and no longer served (scripts/_systems_demand.py), so that is what is held here.
+const PAYLOAD_FILE = { systems: "systems-index.json", concepts: "concepts.json" } as const;
 const digest = (body: Buffer) => createHash("sha256").update(body).digest("hex");
 
 for (const kind of ["systems", "concepts"] as const) {
   test(`390px New list survives ${kind} hydration during a real mouse press`, async ({ page }, testInfo) => {
     await page.setViewportSize({ width: 390, height: 844 });
     const j = journey(page);
-    const file = `${kind}.json`;
+    const file = PAYLOAD_FILE[kind];
     const other = kind === "systems" ? "concepts" : "systems";
     const evidence: Record<string, unknown> = { kind, viewport: { width: 390, height: 844 } };
     let pressed = false;
     let observing = false;
     try {
       await j.boot("/", {
-        payloads: { "systems.json": { never: true }, "concepts.json": { never: true } },
+        payloads: { [PAYLOAD_FILE.systems]: { never: true }, [PAYLOAD_FILE.concepts]: { never: true } },
       });
       await j.land("Mount Top");
       await page.locator(".ng-logo").click();
@@ -43,7 +46,7 @@ for (const kind of ["systems", "concepts"] as const) {
       const plus = page.locator("[data-lists-new]");
       await expect(plus).toBeVisible();
       await expect(page.locator("[data-lists-head]")).toContainText(/Your lists\s*\(0\)/);
-      for (const name of ["systems.json", "concepts.json"]) {
+      for (const name of [PAYLOAD_FILE.systems, PAYLOAD_FILE.concepts]) {
         await expect.poll(() => j.payloadTimeline().filter((row) => row.pattern === name).length,
           { message: `the genuine ${name} request is held` }).toBe(1);
       }
@@ -143,7 +146,7 @@ for (const kind of ["systems", "concepts"] as const) {
       }, kind);
       const during = await page.evaluate(() => (window as any).__listHydrationPress.state("hydrated while mouse is down"));
       evidence.during = during;
-      expect(j.payloadTimeline().find((row) => row.pattern === `${other}.json`)?.releasedAtMs,
+      expect(j.payloadTimeline().find((row) => row.pattern === PAYLOAD_FILE[other])?.releasedAtMs,
         "only the selected response has landed").toBeNull();
       expect(during.listCount, "hydration itself does not create a list").toBe(0);
 

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 source = ROOT / 'scripts/check_payload_budget.py'
 tree = ast.parse(source.read_text())
 # Execute actual isolated measurement/classification code; omit unrelated site gates/imports.
-needed = {'NEURAL_DIR', 'CHUNK_DIRS', 'DEFERRED', 'DEFERRED_WORKER_CORE',
+needed = {'NEURAL_DIR', 'CHUNK_DIRS', 'DEFERRED', 'DEFERRED_WORKER_CORE', 'RETIRED', 'GATE',
           'is_deferred_neural_asset', 'measure_neural'}
 body = [node for node in tree.body if
         (isinstance(node, ast.Assign) and any(isinstance(t, ast.Name) and t.id in needed for t in node.targets)) or
@@ -40,14 +40,21 @@ class Accounting(unittest.TestCase):
     def test_counts_all_generations_with_legacy_and_ordinary_workers(self):
         a = self.core(b'self.a=1;')
         b = self.core(b'self.a=2;')
-        self.write('systems.json', b'{"systems":[]}')
+        self.write('systems-index.json', b'{"systems":[]}')
         self.write('app/game-model.worker.js', b'importScripts("core");')
         self.write('app/neural.js', b'play();')
         got = ns['measure_neural']()
         self.assertEqual(got['deferred_raw_bytes'], 18 + 14 + 22)
-        self.assertEqual({x['path'] for x in got['deferred_files']}, {a,b,'systems.json','app/game-model.worker.js'})
+        self.assertEqual({x['path'] for x in got['deferred_files']}, {a,b,'systems-index.json','app/game-model.worker.js'})
         self.assertEqual(got['chunk_count'], 0)
         self.assertEqual(got['eager_raw_bytes'], 7)
+
+    def test_a_retired_file_served_again_is_refused_by_name(self):
+        # v1.207.0: the full Systems library is build-internal. Served, it would score as eager
+        # boot weight; the gate names it instead of reporting an unexplained eager jump.
+        self.write('systems.json', b'{"systems":[]}')
+        with self.assertRaisesRegex(ValueError, 'retired neural file is served again: systems.json'):
+            ns['measure_neural']()
 
     def test_other_or_malformed_javascript_names_are_eager(self):
         paths = ['app/game-worker-core-latest.js', 'app/game-worker-core-'+('A'*64)+'.js',

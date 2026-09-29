@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from _systems_demand import systems_demand_parts, write_systems_demand
+from _systems_demand import systems_demand_parts, write_systems_demand, SYSTEMS_SOURCE
 
 class SystemsDemandTests(unittest.TestCase):
     def fixture(self):
@@ -30,7 +30,7 @@ class SystemsDemandTests(unittest.TestCase):
         source=self.fixture();source['systems'][0]['extra']='x'*40000
         with self.assertRaises(ValueError):systems_demand_parts(source)
     def test_actual_corpus_exact(self):
-        path=ROOT/'source/quartz/static/neural/systems.json'
+        path=SYSTEMS_SOURCE  # the build-internal full library (v1.207.0: never served)
         if not path.exists():self.skipTest('emitted fixture unavailable')
         original=json.loads(path.read_bytes());index,records=systems_demand_parts(original)
         self.assertEqual({'_meta':index['_meta'],'systems':[json.loads(records[r['detailHash']]) for r in index['systems']]},original)
@@ -44,9 +44,11 @@ class SystemsStampTests(unittest.TestCase):
         source['systems'][0]['products']=[{'id':'p','name':'P','instructor':'I','url':'https://bjjfanatics.com/products/p','course_url':'https://bjjfanatics.com/products/p','affiliate':False}]
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory); public=root/'public'; data=public/'static/neural';data.mkdir(parents=True)
-            legacy=data/'systems.json';legacy.write_text(json.dumps(source))
+            # The full library is the build-internal source (never served); only the demand route
+            # lives in the served root.
+            legacy=root/'internal/systems.json';legacy.parent.mkdir(parents=True);legacy.write_text(json.dumps(source))
             _,old=write_systems_demand(data,source)
-            with patch.object(stamp,'PUBLIC_DIR',public),patch.object(stamp,'NEURAL_SYSTEMS',root/'source/systems.json'):
+            with patch.object(stamp,'PUBLIC_DIR',public),patch.object(stamp,'NEURAL_SYSTEMS',legacy),patch.object(stamp,'NEURAL_STATIC',root/'static-absent'):
                 targets=stamp.targets()
                 self.assertIn(legacy,targets)
                 self.assertFalse(any(p.parent.name=='system-records' or p.name=='systems-index.json' for p in targets))

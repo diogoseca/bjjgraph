@@ -5,6 +5,15 @@ import json
 from pathlib import Path
 from _atomic_io import atomic_write_text
 
+# THE LEGACY FULL LIBRARY IS RETIRED FROM THE SERVED TREE (v1.207.0, owner ruling 2026-09-29).
+# Current apps read `systems-index.json` plus one per-system record on demand; only a tab still
+# running a bundle from before the demand route ever fetched the whole library, and the owner
+# accepted that such a tab loses its Systems panel until it reloads. The full library remains
+# the BUILD-INTERNAL source: the affiliate stamper resolves its links and regenerates the index
+# and records from it, and the validators read it. It lives here, outside `static/`, so no
+# emit, build or copy can serve it (served, it was 376,491 B of the 500,000 B deferred cap).
+SYSTEMS_SOURCE = Path(__file__).resolve().parent.parent / 'source/quartz/.neural-internal/systems.json'
+
 INDEX_FIELDS = ('id', 'name', 'display_title', 'aliases', 'type', 'difficulty')
 
 def systems_demand_parts(original):
