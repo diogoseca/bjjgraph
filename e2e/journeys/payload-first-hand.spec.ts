@@ -192,12 +192,26 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   // A URL leaves the "before the hand" set ONLY when the page's own resource timing proves it
   // STARTED after the page's own first-hand stamp. No entry (still in flight, or not reported) =
   // it stays counted: the correction can only remove a request it has evidence for.
+  // Times are ABSOLUTE (timeOrigin + startTime): a Web Worker keeps its OWN resource timeline, so
+  // what the model worker fetches (its shared core via importScripts, the MDP shards) is invisible to
+  // the page's. On PR 231's slower CI the core request landed before Playwright's `frozen` and could
+  // not be proven late from the page alone. Worker timelines are read too; a worker already gone
+  // leaves its requests counted.
   const pageSide = await page.evaluate(() => ({
+    origin: performance.timeOrigin,
     handAt: (window as any).__firstHandAt as number,
     entries: performance.getEntriesByType("resource").map((e) => [e.name, e.startTime] as [string, number]),
   }))
   expect(pageSide.handAt, "the page stamped its own first hand").toBeGreaterThan(0)
-  const startedAfterHand = [...requested].filter((u) => pageSide.entries.some(([n, t]) => n === u && t > pageSide.handAt))
+  const handAbs = pageSide.origin + pageSide.handAt
+  const starts: [string, number][] = pageSide.entries.map(([n, t]) => [n, pageSide.origin + t])
+  for (const worker of page.workers()) {
+    const side = await worker
+      .evaluate(() => ({ origin: performance.timeOrigin, entries: performance.getEntriesByType("resource").map((e) => [e.name, e.startTime] as [string, number]) }))
+      .catch(() => null)
+    if (side) for (const [n, t] of side.entries) starts.push([n, side.origin + t])
+  }
+  const startedAfterHand = [...requested].filter((u) => starts.some(([n, t]) => n === u && t > handAbs))
   for (const u of startedAfterHand) requested.delete(u)
   console.log("[first-hand] started after the page's own first hand, not counted:", JSON.stringify(startedAfterHand.map((u) => new URL(u).pathname)))
   const settled = (await Promise.all(bodies)).filter((r): r is Rec => !!r)

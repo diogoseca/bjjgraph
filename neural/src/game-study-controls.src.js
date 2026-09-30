@@ -75,34 +75,51 @@ export function ngGameplanStudyControls(app, { document: doc = globalThis.docume
     scopeNote.textContent = state.mode === 'next-roll-current-conditions'
       ? 'Uses your next-roll start setting while keeping this roll’s length and opponent strength the same.'
       : state.mode === 'current-position' ? 'Starts from your current position and role, with the time remaining in this roll.' : 'Choose where you want to compare.';
-    // ROWS ARE REBUILT ONLY WHEN WHAT THEY SHOW CHANGED (v1.207.8). The app repaints this panel on
-    // every study-priority change, including each time Win chance values paint; rebuilding identical
-    // rows swapped a button out between the player's pointerdown and pointerup, and that click was
-    // lost (found as a detached-element flake in gameplan-study-live.spec.ts). Counts, messages and
-    // disabled states below still update on every paint.
-    const rowsSig = JSON.stringify([shown.map(row => [row.key, row.reason, row.cards, state.selected.has(row.key)]), rows.length > 0,
-      [...state.selected].map(key => [key, by.has(key) ? by.get(key).reason : null])]);
-    const rebuild = rowsSig !== state.rowsSig; state.rowsSig = rowsSig;
+    // ROWS ARE BUILT ONLY WHEN THE SET OF ROWS CHANGES, AND UPDATED IN PLACE OTHERWISE (v1.207.8,
+    // widened after PR 231's CI). The app repaints this panel on every study-priority change,
+    // including each time Win chance values paint, and a row's own text moves while the player aims
+    // at it (its card count as decks load, its availability). Replacing the button between the
+    // player's pointerdown and pointerup lost that click: a detached-element flake in
+    // gameplan-study-live.spec.ts, twice. The same key keeps the same button; only its label,
+    // disabled state, pressed state and note are rewritten.
+    const structure = JSON.stringify([shown.map(row => row.key), rows.length > 0,
+      [...state.selected].map(key => [key, !by.has(key) || !!by.get(key).reason])]);
+    const rebuild = structure !== state.rowsStructure; state.rowsStructure = structure;
     const active = doc.activeElement, focusKey = rebuild && box.contains(active) ? active?.getAttribute?.('data-study-key') : null, focusKind = active?.getAttribute?.('data-study-action');
     const focusTargets = new Map();
-    if (rebuild) { results.replaceChildren(); selected.replaceChildren(); }
-    if (rebuild) for (const row of shown) {
-      const item = el('div', null, results); item.style.cssText = 'display:grid;gap:4px;min-width:0;overflow-wrap:anywhere;';
-      const choose = button(`${state.selected.has(row.key) ? 'Selected: ' : 'Select: '}${displayKey(row.key)}`, item, () => {
-        if (!current()) return;
-        if (state.selected.has(row.key)) state.selected.delete(row.key); else state.selected.add(row.key);
-        state.message = ''; paint();
-      });
-      choose.disabled = !!row.reason; choose.setAttribute('aria-pressed', String(state.selected.has(row.key)));
-      choose.setAttribute('data-study-key', row.key); choose.setAttribute('data-study-action', 'select'); focusTargets.set('select:'+row.key, choose);
-      el('small', row.reason || `${row.cards} cards · ${row.role}`, item);
+    if (rebuild) { results.replaceChildren(); selected.replaceChildren(); state.rowEls = new Map(); state.selectedEls = new Map(); }
+    for (const row of shown) {
+      const label = `${state.selected.has(row.key) ? 'Selected: ' : 'Select: '}${displayKey(row.key)}`, note = row.reason || `${row.cards} cards · ${row.role}`;
+      let els = state.rowEls.get(row.key);
+      if (!els) {
+        const item = el('div', null, results); item.style.cssText = 'display:grid;gap:4px;min-width:0;overflow-wrap:anywhere;';
+        const choose = button(label, item, () => {
+          if (!current()) return;
+          if (state.selected.has(row.key)) state.selected.delete(row.key); else state.selected.add(row.key);
+          state.message = ''; paint();
+        });
+        choose.setAttribute('data-study-key', row.key); choose.setAttribute('data-study-action', 'select');
+        els = { choose, small: el('small', note, item) }; state.rowEls.set(row.key, els);
+      }
+      if (els.choose.textContent !== label) els.choose.textContent = label;
+      els.choose.disabled = !!row.reason; els.choose.setAttribute('aria-pressed', String(state.selected.has(row.key)));
+      if (els.small.textContent !== note) els.small.textContent = note;
+      focusTargets.set('select:'+row.key, els.choose);
     }
     if (rebuild && !rows.length) el('p', 'Practice choices are not available yet.', results);
-    if (rebuild) for (const key of state.selected) {
-      const row = by.get(key), item = el('div', null, selected); item.style.cssText = 'display:grid;gap:4px;overflow-wrap:anywhere;';
-      el('span', displayKey(key), item); if (!row || row.reason) el('small', row?.reason || 'No longer available', item);
-      const remove = button('Remove '+displayKey(key), item, () => { if (!current()) return; state.selected.delete(key); state.message = ''; paint(); });
-      remove.setAttribute('data-study-key', key); remove.setAttribute('data-study-action', 'remove'); focusTargets.set('remove:'+key, remove);
+    for (const key of state.selected) {
+      const row = by.get(key);
+      let els = state.selectedEls.get(key);
+      if (!els) {
+        const item = el('div', null, selected); item.style.cssText = 'display:grid;gap:4px;overflow-wrap:anywhere;';
+        el('span', displayKey(key), item);
+        const small = !row || row.reason ? el('small', '', item) : null;
+        const remove = button('Remove '+displayKey(key), item, () => { if (!current()) return; state.selected.delete(key); state.message = ''; paint(); });
+        remove.setAttribute('data-study-key', key); remove.setAttribute('data-study-action', 'remove');
+        els = { small, remove }; state.selectedEls.set(key, els);
+      }
+      if (els.small) { const note = row?.reason || 'No longer available'; if (els.small.textContent !== note) els.small.textContent = note; }
+      focusTargets.set('remove:'+key, els.remove);
     }
     if (rebuild && !state.selected.size) el('p', 'No techniques selected.', selected);
     previous.disabled = state.page === 0; next.disabled = state.page + 1 >= pages;

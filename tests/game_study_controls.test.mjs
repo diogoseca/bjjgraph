@@ -58,3 +58,15 @@ test('an external repaint that changes nothing keeps the very same row buttons; 
  delete f.app.flashcards.decks['Mount|Top'];ngGameplanStudyControls(f.app,{document:f.doc});
  assert.match(control(f.root,'selected').textContent,/No longer available/,'a manifest change still reaches the rows');
 });
+test('a row whose text changes (its card count as decks load) keeps the same button, updated in place',()=>{
+ // Found by gameplan-study-live on PR 231's CI: a deck landing mid-aim changed a row's card count, the
+ // row was rebuilt, and the press in flight was lost. Mutant, recorded 2026-09-30: rebuilding on any
+ // CONTENT change (not only a change in the set of rows) turns this red at the identity check.
+ const f=fixture();search(f,'Mount');const before=keyButton(f.root,'Mount|Top'),note=()=>before.parent.children.find(c=>c.tagName==='small').textContent;
+ assert.equal(note(),'3 cards · Top');
+ f.app.flashcards.decks['Mount|Top']={n:5};ngGameplanStudyControls(f.app,{document:f.doc});
+ assert.equal(keyButton(f.root,'Mount|Top'),before,'same button object');
+ assert.equal(note(),'5 cards · Top','its note updated in place');
+ f.app._giMode='nogi';f.app.nodes[0].cal.avail.nogi=false;ngGameplanStudyControls(f.app,{document:f.doc});
+ assert.equal(keyButton(f.root,'Mount|Top'),before,'still the same button');assert.equal(before.disabled,true,'now disabled in place');
+});
