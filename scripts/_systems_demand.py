@@ -49,9 +49,20 @@ def write_systems_demand(out_dir, original):
         if not path.exists():
             atomic_write_text(path, data.decode("utf-8"))
     # Publish index only after every referenced immutable record exists. Retain old records.
+    # WRITE ONLY ON CHANGE (v1.207.13). The affiliate stamper calls this inside `npm run build`
+    # against source/quartz/static/neural, the build's own generated INPUTS. An unconditional
+    # rewrite gave the identical index a new inode and mtime mid-build, and the guarded capture
+    # refused the build ("generated Static inputs changed"). Same bytes: leave the file alone.
     text = json.dumps(index, ensure_ascii=False, separators=(',', ':'))
-    atomic_write_text(out_dir / 'systems-index.json', text)
+    target = out_dir / 'systems-index.json'
+    if not target.is_file() or target.read_bytes() != text.encode('utf-8'):
+        atomic_write_text(target, text)
     compressed = out_dir / 'systems-index.json.gz'
     if compressed.is_file():
-        compressed.write_bytes(gzip.compress(text.encode('utf-8'), mtime=0))
+        try:
+            same = gzip.decompress(compressed.read_bytes()) == text.encode('utf-8')
+        except (OSError, EOFError):
+            same = False
+        if not same:
+            compressed.write_bytes(gzip.compress(text.encode('utf-8'), mtime=0))
     return index, records
