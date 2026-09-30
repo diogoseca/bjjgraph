@@ -352,6 +352,7 @@ test('@curated local-only: an unreachable SDK plays on this device, pushes nothi
   await expect(banner).toBeVisible()
   await expect(banner).toContainText('Can’t reach your account')
   await expect(banner).toContainText('won’t sync until you’re back online')
+  await expect(page.locator('.ngAcctChip'), 'an account played unverified is never labelled Guest').toContainText('Offline')
   expect(await names(page), "this device's copy of the account plays").toEqual(['Cloud list'])
   const before = await fixture(page)
   expect(before.clients, 'the SDK never loaded').toBe(0)
