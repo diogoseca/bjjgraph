@@ -81,6 +81,12 @@ build stamp (window.__NEURAL_BUILD), which the app loader keys neural.js?v= on. 
 normalised the same way and must equal package.json's version exactly once. Bundle rows still
 re-seed only through the guarded --update; the stamp just stops a bump from moving one.
 
+v1.206.2 normalises the VALUE, not only a named literal: in every file listed as versioned, each
+occurrence of package.json's version is replaced. Each listed file must carry it at least once,
+and every UNLISTED fingerprinted file must carry it zero times; that failure prints the matched
+context. The full game embeds the version in five files (a build id, cache keys, MDP metadata),
+and the format-5 rule, which saw only NG_APP_VERSION, would have let every bump move five rows.
+
 Exact timestamp cardinalities for article:published_time and article:modified_time
 are retired (D-106), never re-seeded: checkout milliseconds are arbitrary, and many
 distinct values within one day do not prove date provenance. Presence remains in
@@ -148,7 +154,24 @@ FORMAT = 5
 #                  `window.__NEURAL_BUILD="<v>"`; the `var x="<v>";…=x` shape is also read. Format 5 (v1.205.1): without
 #                  this, every version bump would move a BUNDLE row, which only a guarded capture
 #                  may re-seed.
-VERSIONED_APP_ASSETS = {"static/neural/app/neural.js": re.compile(rb'NG_APP_VERSION="(?P<v>[^"\\]*)"')}
+# v1.206.2: EVERY occurrence of the version VALUE in a listed file is normalised, not only its
+# anchored literal. An anchor (a pattern) is kept where one exists and still must match exactly once,
+# equal to package.json's version. A listed file with no anchor (None) must carry the value at least
+# once, so a stale file (0) fails by name. Every UNLISTED fingerprinted file must carry it ZERO times
+# (check_version_refs), and the failure prints the matched context.
+# WHY: QFG1 (a) looked for the FORM `NG_APP_VERSION="…"` and not the VALUE, so it missed the
+# full game's other embeddings, and after merge each bump would have moved 5 app rows (FGCAP1).
+VERSIONED_APP_ASSETS = {
+    "static/neural/app/neural.js": re.compile(rb'NG_APP_VERSION="(?P<v>[^"\\]*)"'),
+    # The full game (PR #231) embeds the version in its deferred bundles, and they are real runtime
+    # uses: a build id "<v>:<hash>" that neural.js checks them against (settings-ui.js, and
+    # expectedVersion in neural.js), and MDP metadata `version:"<v>"` (game-*.js). Listed ahead of the
+    # merge; a listed file that is absent is simply not checked.
+    "static/neural/app/settings-ui.js": None,
+    "static/neural/app/game-values.js": None,
+    "static/neural/app/game-study.js": None,
+    "static/neural/app/game-study.worker.js": None,
+}
 VERSIONED_BUNDLES = {"postscript.js": re.compile(
     rb'window\.__NEURAL_BUILD="(?P<v>[^"\\]*)"'
     rb'|(?P<var>[\w$]+)="(?P<w>[^"\\]*)"[;,]\s*window\.__NEURAL_BUILD=(?P=var)(?![\w$])')}
@@ -220,32 +243,74 @@ def normalise_version(pat: re.Pattern, body: bytes) -> tuple[bytes, list[str]]:
     return b"".join(out), versions
 
 
-def versioned_row(pat: re.Pattern | None, body: bytes) -> tuple[dict, list[str]]:
-    """One file's row, and every version it carries. A versioned file is hashed with its version
-    literal(s) replaced; the versions come back so the caller can require exactly one."""
-    if pat is None:
+def version_token(version: str) -> re.Pattern:
+    """The version VALUE as a token: not inside a longer number or dotted run."""
+    return re.compile(rb"(?<![\w.])" + re.escape(version.encode()) + rb"(?![\w.])")
+
+
+def version_refs(body: bytes, version: str | None, limit: int = 3) -> tuple[int, list[str]]:
+    """How many times `version` occurs in `body`, and up to `limit` matched contexts to print."""
+    if not version:
+        return 0, []
+    hits = list(version_token(version).finditer(body))
+    ctx = [body[max(0, m.start() - 40):m.end() + 40].decode("utf-8", "replace").replace("\n", " ")
+           for m in hits[:limit]]
+    return len(hits), ctx
+
+
+def versioned_row(pat: re.Pattern | None, body: bytes, version: str | None = None,
+                  listed: bool | None = None) -> tuple[dict, list[str]]:
+    """One file's row, and the version(s) its ANCHOR carries. A listed (versioned) file is hashed
+    with its anchored literal AND every other occurrence of the version value replaced; an unlisted
+    file is hashed raw. `listed` defaults to "has an anchor", which is the format-5 behaviour."""
+    listed = (pat is not None) if listed is None else listed
+    if not listed:
         return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest()}, []
-    body, baked = normalise_version(pat, body)
+    baked = []
+    if pat is not None:
+        body, baked = normalise_version(pat, body)
+    if version:
+        body = version_token(version).sub(VERSION_STAND_IN, body)
     return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest(),
             "version_token": "normalised"}, baked
 
 
-def app_row(name: str, body: bytes) -> tuple[dict, list[str]]:
-    return versioned_row(VERSIONED_APP_ASSETS.get(name), body)
+def app_row(name: str, body: bytes, version: str | None = None) -> tuple[dict, list[str]]:
+    return versioned_row(VERSIONED_APP_ASSETS.get(name), body, version, name in VERSIONED_APP_ASSETS)
 
 
-def app_inventory(files: dict, tree: Path) -> tuple[dict, dict]:
-    """Project names and byte proofs from the one filesystem scan, not a glob return. Only a
-    VERSIONED file is re-read, to normalise its version literal; the rest reuse the scan's hash."""
-    records, baked = {}, {}
+def tree_version(tree: Path) -> str | None:
+    """The version a tree was built at, read from its anchored literals (for --artifact-only and for
+    fixtures, where package.json is not the tree's own)."""
+    for rel, pat in (("static/neural/app/neural.js", VERSIONED_APP_ASSETS["static/neural/app/neural.js"]),
+                     ("postscript.js", VERSIONED_BUNDLES["postscript.js"])):
+        f = tree / rel
+        if f.exists():
+            m = pat.search(f.read_bytes())
+            if m:
+                v = m.groupdict().get("v") or m.groupdict().get("w")
+                return v.decode("utf-8", "replace")
+    return None
+
+
+def app_inventory(files: dict, tree: Path, version: str | None = None) -> tuple[dict, dict, dict]:
+    """Project names and byte proofs from the one filesystem scan, not a glob return. Every app file
+    is re-read to count the version value (check_version_refs); a listed file is also normalised,
+    and the rest keep the scan's hash."""
+    records, baked, refs = {}, {}, {}
     for name, rec in sorted(files.items()):
         if not name.startswith(APP_PREFIX):
             continue
-        if name in VERSIONED_APP_ASSETS:
-            records[name], baked[name] = app_row(name, (tree / name).read_bytes())
+        body = (tree / name).read_bytes()
+        listed = name in VERSIONED_APP_ASSETS
+        refs[name] = (*version_refs(body, version), listed)
+        if listed:
+            records[name], baked[name] = app_row(name, body, version)
+            if VERSIONED_APP_ASSETS[name] is None:
+                del baked[name]   # no anchor: the value count (refs) is its whole assertion
         else:
             records[name] = {"bytes": rec.get("size"), "sha256": rec.get("sha")}
-    return {"count": len(records), "files": records}, baked
+    return {"count": len(records), "files": records}, baked, refs
 
 
 def package_version(root: Path = ROOT) -> str:
@@ -263,6 +328,29 @@ def check_app_version(baked: dict, expected: str | None) -> list[str]:
         elif expected is not None and got[0] != expected:
             problems.append(f"{name}: carries version {got[0]!r} but package.json says "
                             f"{expected!r}: a stale file, not rebuilt since the version changed")
+    return problems
+
+
+def check_version_refs(refs: dict, version: str | None) -> list[str]:
+    """`refs`: {file: (occurrences of the version value, matched contexts, listed?)} over every
+    fingerprinted file. A LISTED file must carry it at least once: 0 means stale, or it stopped
+    embedding the version (then unlist it). An UNLISTED file must carry it ZERO times, or every bump
+    moves its row. That is the recurrence gate. The failure prints the matched context, so a
+    coincidental digit run is recognisable at a glance instead of being allow-listed."""
+    if not version:
+        return []
+    problems = []
+    for name, (n, ctx, listed) in sorted(refs.items()):
+        if listed and n == 0:
+            problems.append(f"{name}: listed as versioned but carries package.json's version {version!r} 0 "
+                            "times: a stale file not rebuilt since the bump, or it no longer embeds "
+                            "the version (then unlist it)")
+        elif not listed and n:
+            shown = " | ".join(f"…{c}…" for c in ctx)
+            problems.append(f"{name}: embeds the app version {version!r} {n} time(s) but is NOT listed "
+                            "as versioned, so every version bump would move its row. List it in "
+                            "VERSIONED_APP_ASSETS / VERSIONED_BUNDLES (normalised) or stop embedding it. "
+                            f"Matched: {shown}")
     return problems
 
 
@@ -318,7 +406,9 @@ def check_baseline(base: dict) -> list[str]:
     return problems
 
 
-def capture(jobs: int, tree: Path = None, *, receipt_args=None) -> dict:
+def capture(jobs: int, tree: Path = None, *, receipt_args=None, version: str | None = None) -> dict:
+    """`version`: the value normalised in listed files and counted everywhere (check_version_refs).
+    main passes package.json's; left None it is read from the tree's own anchored literals."""
     tree = tree or PUBLIC
     if not tree.exists():
         sys.exit(f"ERROR: {tree} not found — run `npm run build` first")
@@ -326,15 +416,20 @@ def capture(jobs: int, tree: Path = None, *, receipt_args=None) -> dict:
     files = scan_tree(tree, jobs)
     receipt = read_capture_receipt(receipt_args, tree, files=files, require_output_hash=True) if receipt_args else None
     cov = coverage(files)
-    app, baked = app_inventory(files, tree)
+    version = version or tree_version(tree)
+    app, baked, refs = app_inventory(files, tree, version)
 
     bundles = {}
     for name in BUNDLES:
         f = tree / name
         if not f.exists():
             bundles[name] = None
-        elif name in VERSIONED_BUNDLES:
-            bundles[name], baked[name] = versioned_row(VERSIONED_BUNDLES[name], f.read_bytes())
+            continue
+        body = f.read_bytes()
+        listed = name in VERSIONED_BUNDLES
+        refs[name] = (*version_refs(body, version), listed)
+        if listed:
+            bundles[name], baked[name] = versioned_row(VERSIONED_BUNDLES[name], body, version, True)
         else:
             bundles[name] = {"sha256": sha256(f), "bytes": f.stat().st_size}
 
@@ -354,9 +449,11 @@ def capture(jobs: int, tree: Path = None, *, receipt_args=None) -> dict:
                   **({'content_provenance': receipt} if receipt else {})},
         "bundles": bundles,
         "app_assets": app,
-        # Checked by check_app_version, never committed: a baked version in the baseline would
-        # be exactly the per-bump churn format 4 exists to remove.
+        # Checked by check_app_version / check_version_refs, never committed: a baked version in the
+        # baseline would be exactly the per-bump churn format 4 exists to remove.
         "_app_baked": baked,
+        "_version_refs": refs,
+        "_version": version,
         "bundle_tokens": bundle_tokens,
         "census": {k: cov.get(k, 0) for k in CENSUS_KEYS},
         "zeros": {k: cov.get(k, 0) for k in ZEROS},
@@ -491,18 +588,21 @@ def update_app_assets(baseline: Path, root: Path = ROOT, build: tuple = APP_BUIL
     if not built:
         sys.exit(f"ERROR: the bundle build wrote nothing under {dist}")
 
-    rows, baked, raw = {}, {}, {}
+    version = package_version(root)
+    rows, baked, raw, refs = {}, {}, {}, {}
     for path in built:
         name = APP_PREFIX + path.relative_to(dist).as_posix()
         body = path.read_bytes()
-        rows[name], versions = app_row(name, body)
+        rows[name], versions = app_row(name, body, version)
         raw[name] = hashlib.sha256(body).hexdigest()
-        if name in VERSIONED_APP_ASSETS:
+        refs[name] = (*version_refs(body, version), name in VERSIONED_APP_ASSETS)
+        if VERSIONED_APP_ASSETS.get(name) is not None:
             baked[name] = versions
-    version = package_version(root)
-    problems = check_app_version(baked, version)
-    problems += [f"app asset {n}: the bundle build did not produce it" for n in VERSIONED_APP_ASSETS
-                 if n not in baked]
+    problems = check_app_version(baked, version) + check_version_refs(refs, version)
+    # An ANCHORED file is the app's own (neural.js) and must be built; an unanchored listed file (a
+    # deferred bundle) is checked only when present.
+    problems += [f"app asset {n}: the bundle build did not produce it" for n, pat in VERSIONED_APP_ASSETS.items()
+                 if pat is not None and n not in baked]
     esbuild = root / "source" / "node_modules" / "esbuild" / "package.json"
     new = json.loads(json.dumps(base))
     new["app_assets"] = {"count": len(rows), "files": rows}
@@ -586,7 +686,8 @@ def main() -> None:
     guard = ContentGuard(base, a, 'committed census') if base is not None else None
     if a.update and not a.content_receipt:
         raise ProvenanceError('--update requires the actual completed build receipt, never fingerprint-time HEAD')
-    cur = capture(a.jobs, Path(a.tree) if a.tree else None, receipt_args=a if a.update else None)
+    cur = capture(a.jobs, Path(a.tree) if a.tree else None, receipt_args=a if a.update else None,
+                  version=None if a.artifact_only else package_version())
     c = cur["census"]
     print(f"emit: {c['files']:,} files · {c['html_pages']:,} pages · "
           f"{c['jsonld_blocks']:,} JSON-LD blocks · {c['article_links']:,} in-article links "
@@ -598,7 +699,12 @@ def main() -> None:
           "scripts/check_publication_dates.py owns spread; meta presence is still counted here.")
 
     expected = None if a.artifact_only else package_version()
-    floors = check_floors(cur) + check_app_version(cur["_app_baked"], expected)
+    floors = (check_floors(cur) + check_app_version(cur["_app_baked"], expected)
+              + check_version_refs(cur["_version_refs"], cur["_version"]))
+    listed = sorted(n for n, (_, _, is_listed) in cur["_version_refs"].items() if is_listed)
+    print(f"version value {cur['_version']!r}: normalised in {len(listed)} listed file(s) "
+          + ", ".join(f"{n.rsplit('/', 1)[-1]}x{cur['_version_refs'][n][0]}" for n in listed)
+          + f"; asserted absent from the other {len(cur['_version_refs']) - len(listed)} fingerprinted file(s)")
     for name, got in sorted(cur["_app_baked"].items()):
         print(f"version literal: {name} carries {', '.join(got) or 'NOTHING'}; package.json "
               + (f"{expected} (asserted equal)" if expected else "NOT asserted (--artifact-only)")
@@ -616,7 +722,8 @@ def main() -> None:
     if a.update:
         ContentGuard(cur, a, 'updated census').finish()
         a.baseline.parent.mkdir(parents=True, exist_ok=True)
-        cur.pop("_app_baked")
+        for k in ("_app_baked", "_version_refs", "_version"):
+            cur.pop(k)
         cur["_note"] = NOTE
         a.baseline.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
         print(f"\n✓ census captured -> {a.baseline} "

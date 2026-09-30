@@ -300,6 +300,7 @@ def app_assets_suite():
         print(f'PASS coverage: {checked} app-assets cases; real filesystem mutations, no build')
     app_reseed_suite()
     bundle_stamp_suite()
+    version_value_suite()
 
 
 def bundle_stamp_suite():
@@ -359,6 +360,58 @@ def bundle_stamp_suite():
             assert any('baseline bundle' in p for p in gate.check_baseline(bad)), label
             checked += 1; print(f'PASS stamp invalid {label}')
         print(f'PASS coverage: {checked} bundle-stamp cases; real filesystem trees, no build')
+
+
+def version_value_suite():
+    """v1.206.2: the version VALUE is normalised in every listed file, required there at least once,
+    and forbidden (with its context printed) in every other fingerprinted file."""
+    import check_build_fingerprint as gate
+    with tempfile.TemporaryDirectory(prefix='v-version-value-') as tmp:
+        root = Path(tmp)
+        app = root / 'static/neural/app'; app.mkdir(parents=True)
+        nj, st, ot = app / 'neural.js', app / 'settings-ui.js', app / 'other.js'
+        pre, post = root / 'prescript.js', root / 'postscript.js'
+        (root / 'index.css').write_bytes(b'.a{}')
+        def write(v, extra_other=b''):
+            nj.write_bytes(b'globalThis.NG_APP_VERSION="' + v + b'";var Ds="' + v + b':abc";u.set("v","' + v + b'")')
+            st.write_bytes(b'var F="' + v + b':abc";')
+            ot.write_bytes(b'let o=1;' + extra_other)
+            pre.write_bytes(b'loader();')
+            post.write_bytes(b'window.__NEURAL_BUILD="' + v + b'";')
+        write(b'2.0.0')
+        base = gate.capture(1, root, version='2.0.0')
+        assert base['app_assets']['files']['static/neural/app/settings-ui.js']['version_token'] == 'normalised'
+        assert base['_version_refs']['static/neural/app/neural.js'][0] == 3
+        checked = 0
+        def expect(label, version, census_needles=(), version_needles=()):
+            nonlocal checked
+            cur = gate.capture(1, root, version=version)
+            census = gate.check_census(base, cur)
+            vp = gate.check_app_version(cur['_app_baked'], version) + gate.check_version_refs(cur['_version_refs'], version)
+            assert all(any(n in p for p in census) for n in census_needles) if census_needles else not census, (label, census)
+            assert all(any(n in p for p in vp) for n in version_needles) if version_needles else not vp, (label, vp)
+            checked += 1; print(f'PASS value {label}')
+        expect('identical', '2.0.0')
+        write(b'2.0.10')
+        expect('a bump moves NO row, though neural.js carries the value 3x and settings-ui.js 1x', '2.0.10')
+        st.write_bytes(b'var F="2.0.0:abc";')
+        expect('a stale listed bundle (still 2.0.0) is named, and its row moves too', '2.0.10',
+               census_needles=('app asset static/neural/app/settings-ui.js: CHANGED',),
+               version_needles=("settings-ui.js: listed as versioned but carries package.json's version '2.0.10' 0 times",))
+        write(b'2.0.10', extra_other=b'var x="2.0.10:zz";')
+        expect('an UNLISTED app file embedding the version fails, with its context printed', '2.0.10',
+               census_needles=('app asset static/neural/app/other.js: CHANGED',),
+               version_needles=("other.js: embeds the app version '2.0.10' 1 time(s) but is NOT listed", 'Matched: …', 'var x="2.0.10:zz"'))
+        write(b'2.0.10', extra_other=b'var y="12.0.10",z="2.0.101",w="2.0.10.5";')
+        expect('coincidental digit runs are not the version', '2.0.10', census_needles=('app asset static/neural/app/other.js: CHANGED',))
+        write(b'2.0.10')
+        pre.write_bytes(b'loader("2.0.10");')
+        expect('a ROOT bundle embedding the version fails too', '2.0.10', census_needles=('bundle prescript.js: CHANGED',),
+               version_needles=("prescript.js: embeds the app version '2.0.10' 1 time(s) but is NOT listed",))
+        pre.write_bytes(b'loader();')
+        assert 'static/neural/app/game-values.js' in gate.VERSIONED_APP_ASSETS and not (app / 'game-values.js').exists()
+        expect('a listed file that is absent is simply not checked', '2.0.10')
+        print(f'PASS coverage: {checked} version-value cases; real filesystem trees, no build')
 
 
 def app_reseed_suite():
