@@ -1,5 +1,19 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "node neural/build/build.mjs",
+   "esbuild": "0.27.0",
+   "git_head": "bfbc2fef3f6f86b75f9cb74877d835ab684586a8",
+   "inputs": {
+    "neural/build": "fd5aa3521c074d77d0f2060eb6177eaca77d32fa",
+    "neural/src": "bfe2ded86f52c87a9a6eb657da559804c466cfe8",
+    "package.json": "1b03c66f80ba5ab869ad143af4858674c37fcbaf",
+    "source/package-lock.json": "dceb6bf642cbf74f80c8df78abd388a6f25e4fd8"
+   },
+   "package_version": "1.207.11",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v1"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/golden/pr-microing-related-6a18ddbbf",
   "content_provenance": {
    "capture_git_head": "6a18ddbbf557d30abd417f68f8786c0f5a7cbc29",
@@ -46,15 +60,43 @@
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
-  "count": 4,
+  "count": 12,
   "files": {
+   "static/neural/app/choice-values.js": {
+    "bytes": 18220,
+    "sha256": "7db5bb237c090fa893632de0153bc48898a223c1ae03a807f87730559f7d350f"
+   },
+   "static/neural/app/game-model.worker.js": {
+    "bytes": 2657,
+    "sha256": "37ed6c7a774fa7d3ee45e864d0e52860f5b21a4f348217eb2bbf5001ceba9a79"
+   },
+   "static/neural/app/game-study.js": {
+    "bytes": 78289,
+    "sha256": "4414e8b43fb4732f594b738a05733d750178b4789ba00025f4a75e0a8ad5ea1c"
+   },
+   "static/neural/app/game-study.worker.js": {
+    "bytes": 111542,
+    "sha256": "589f8cca56c963d01ef36acc254e07c91821d95a3f715971f4413162fbe35167"
+   },
+   "static/neural/app/game-values.js": {
+    "bytes": 27451,
+    "sha256": "d1bcced38802a3f5476bbb6cd3098d6a3427f241d45a92c92659651eee339f4c"
+   },
+   "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
+    "bytes": 65434,
+    "sha256": "6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b"
+   },
+   "static/neural/app/gameplan.js": {
+    "bytes": 8049,
+    "sha256": "945f1c9e90f62901e6c62913354579bb32a7379c1942b6bd7e3fc1247dd3b9f7"
+   },
    "static/neural/app/neural.css": {
-    "bytes": 35579,
-    "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
+    "bytes": 37339,
+    "sha256": "8b84d852f6a0fc1ab3538acdcdd1c4a731c8e89db484873fcdd3a2fd064ad7f0"
    },
    "static/neural/app/neural.js": {
-    "bytes": 592863,
-    "sha256": "fcbc8b8dba0ca664596b16eb00b8bfaf311276a753fef93603829f9f9bf21d8a",
+    "bytes": 656541,
+    "sha256": "1a7fd20dc961388b46567b91b8520a941c954d07b82561da6c22475a908ddb20",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -64,6 +106,10 @@
    "static/neural/app/reference.css": {
     "bytes": 15360,
     "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
+   },
+   "static/neural/app/settings-ui.js": {
+    "bytes": 19581,
+    "sha256": "12b3704a2498a1bd824a0cd62d8666d42a5d7fdce2145e415b731236fcebefd2"
    }
   }
  },
