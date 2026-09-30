@@ -23,6 +23,17 @@ class SystemsDemandTests(unittest.TestCase):
             self.assertEqual((root/'systems.json').read_bytes(),legacy)
             self.assertEqual(gzip.decompress((root/'systems-index.json.gz').read_bytes()),(root/'systems-index.json').read_bytes())
             for h,b in records.items():self.assertEqual((root/'content/system-records'/f'{h}.json').read_bytes(),b)
+    def test_unchanged_library_leaves_every_file_untouched(self):
+        # The stamper runs this INSIDE `npm run build` against the build's own generated inputs;
+        # the guarded capture refuses a build that changes any of them, by inode and mtime too
+        # (v1.207.13). Mutant, recorded 2026-09-30: an unconditional index write turns this red.
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);write_systems_demand(root,self.fixture());(root/'systems-index.json.gz').write_bytes(gzip.compress((root/'systems-index.json').read_bytes(),mtime=0))
+            before={p:(p.stat().st_ino,p.stat().st_mtime_ns) for p in root.rglob('*') if p.is_file()}
+            write_systems_demand(root,self.fixture())
+            after={p:(p.stat().st_ino,p.stat().st_mtime_ns) for p in root.rglob('*') if p.is_file()}
+            self.assertEqual(after,before)
+            self.assertGreaterEqual(len(before),3)
     def test_duplicate_refused(self):
         source=self.fixture();source['systems']*=2
         with self.assertRaises(ValueError):systems_demand_parts(source)
