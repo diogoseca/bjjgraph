@@ -29,7 +29,7 @@ const cell=(row,bucket)=>row.children.find(e=>e.getAttribute('data-b')===bucket)
 test('absent planner keeps unknown suggestion count and actual due debt while retaining new/due intents',()=>{
  const f=fixture(),row=f.app._exploreStatsRow(),newCell=cell(row,'new');
  assert.equal(newCell.getAttribute('data-new'),null);assert.equal(newCell.getAttribute('data-weak'),null);
- assert.match(row.innerHTML,/Suggestions loading/);assert.doesNotMatch(row.innerHTML,/0 suggested/);
+ assert.match(row.innerHTML,/Suggestions loading/);assert.doesNotMatch(row.innerHTML,/0 new/);
  assert.equal(cell(row,'due').getAttribute('data-due-decks'),'1');assert.match(cell(row,'due').getAttribute('title'),/^1 card due/);
  newCell.click();cell(row,'due').click();assert.deepEqual(f.calls.plans,['new','due']);assert.equal(f.tasks.length,0);
 });
@@ -38,11 +38,11 @@ test('late loaded planner stats refresh reaches the existing review panel withou
  f.app._exploreStatsRow();f.plan({status:'ready',fresh:[{key:'Guard|Top'},{key:'Side Control|Bottom'}],reviewed:[],due:[{key:'Mount|Top'}],dueCards:1});
  f.app._gameStudyState={phase:'idle'};f.app._refreshGameplanUI();f.app._refreshGameplanUI();assert.equal(f.tasks.length,1);
  assert.doesNotThrow(()=>f.tasks.shift()());const row=f.stats.children[0];
- assert.equal(cell(row,'new').getAttribute('data-new'),'2');assert.equal(cell(row,'new').getAttribute('data-weak'),'2');assert.match(row.innerHTML,/>2<\/b> suggested/);
+ assert.equal(cell(row,'new').getAttribute('data-new'),'2');assert.equal(cell(row,'new').getAttribute('data-weak'),'2');assert.match(row.innerHTML,/>2<\/b> new/);
  assert.equal(f.calls.panels,1);assert.equal(f.app._gameplanRefresh,null);assert.equal(f.app._session,f.session);assert.equal(f.session.keys,keys);assert.deepEqual(f.session,before);
 });
 test('loaded empty plan retains loading text while pending and reports assessed zero only when ready',()=>{
  const f=fixture();f.plan({status:'exhausted',fresh:[],reviewed:[],due:[],dueCards:0});
- let row=f.app._exploreStatsRow();assert.match(row.innerHTML,/Suggestions loading/);assert.doesNotMatch(row.innerHTML,/0<\/b> suggested/);
- f.app._gameStudyState={phase:'ready'};row=f.app._exploreStatsRow();assert.equal(cell(row,'new').getAttribute('data-new'),'0');assert.match(row.innerHTML,/>0<\/b> suggested/);
+ let row=f.app._exploreStatsRow();assert.match(row.innerHTML,/Suggestions loading/);assert.doesNotMatch(row.innerHTML,/0<\/b> new/);
+ f.app._gameStudyState={phase:'ready'};row=f.app._exploreStatsRow();assert.equal(cell(row,'new').getAttribute('data-new'),'0');assert.match(row.innerHTML,/>0<\/b> new/);
 });

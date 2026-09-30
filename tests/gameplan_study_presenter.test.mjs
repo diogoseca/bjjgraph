@@ -189,7 +189,7 @@ test("optimal intervals already cover policy regret and unresolved secondary out
   assert.equal(p.study.secondaryUnresolved, true);
   assert.deepEqual(p.study.baseline.quality, input.result.baseline.quality);
   assert.deepEqual(p.study.groups[0].receipts.evaluation.quality, input.receipts[0].evaluation.quality);
-  assert.match(p.assumptions.join(" "), /other game outcomes remain uncertain/);
+  assert.match(p.assumptions.join(" "), /other outcomes stay uncertain/);
 });
 
 test("forged ordering keys, semantics and optimistic interval changes cannot rank", async () => {
@@ -306,7 +306,7 @@ test("valid alternatives rank without erasing uncertain or missing comparisons f
     assert.equal(p.status, "partial"); assert.equal(ranked(p).length, 2);
     assert.equal(p.study.coverage[missing ? "unavailableScenarios" : "uncertainScenarios"], 1);
     assert.equal(frozenRank(changed, p).status, "ready", "frozen consumer coarsens status; root must retain presenter study status");
-    assert.match(p.assumptions.join(" "), /not a complete assessment/);
+    assert.match(p.assumptions.join(" "), /not a full picture/);
   }
 });
 
@@ -343,7 +343,7 @@ test("permanent and joint headroom stay distinct; sharp-only potential at perman
   const p = present(input);
   assert.equal(p.status, "partial"); assert.equal(p.study.groups[0].status, "beneficial"); assert.equal(ranked(p).length, 0);
   assert.ok(p.study.groups[0].members.every(m => m.plannerHeadroom === 0 && m.deck.headroom === .1 && m.withheld === "planner-permanent-headroom-exhausted"));
-  assert.match(p.assumptions.join(" "), /outside the available new-card suggestions/);
+  assert.match(p.assumptions.join(" "), /isn't in today's new cards/);
   assert.doesNotMatch(p.assumptions.join(" "), /mastered/);
 });
 
@@ -375,8 +375,10 @@ test("all four exact roles in both rulesets have plain conditional wording witho
     const p = present(input);
     assert.equal(ranked(p).length, 4); assert.deepEqual(new Set(p.rows.map(r => r.role)), new Set(["Top", "Bottom", "Attacker", "Defender"]));
     const copy = [...p.assumptions, ...p.rows.map(r => r.reason)].join(" ");
-    assert.match(copy, /hypothetical game-input/); assert.match(copy, /do not predict learning success or real BJJ outcomes/);
-    assert.match(copy, /all proposed credit changes/); assert.match(copy, /deck alone does not establish/);
+    // item 9 (owner, 2026-09-30): plain words, the same four caveats, and ONE sentence per card.
+    assert.match(copy, /game effects only/); assert.match(copy, /don't predict how fast you'll learn or how you'll do on the mat/);
+    assert.match(copy, /practise all of its material/); assert.match(copy, /practising only part of it may not have the same effect/);
+    assert.ok(p.rows.every(r => r.reason.split(/(?<=\.)\s+/).length === 1), "one sentence per card");
     assert.doesNotMatch(copy, /[0-9%]|baseline policy|reoptimized|Horizon actual-roll|deck manifest|simulatedWinDelta/);
     assert.ok(p.rows.every(r => r.reason.includes(ruleset === "gi" ? " in gi" : " in no-gi")));
   }

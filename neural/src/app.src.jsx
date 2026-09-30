@@ -4225,7 +4225,7 @@ class Component extends DCLogic {
     const due = plan ? plan.due.length : debt.rows.length;
     const row = document.createElement("div");
     row.setAttribute("data-explore-stats", "1");
-    row.setAttribute("data-flow-cold", !plan || ["unavailable", "pending", "stale"].includes(plan.status) ? "1" : "0");
+    row.setAttribute("data-flow-cold", !plan || ["unavailable", "pending", "stale"].includes(plan.status) || (plan.status === "weak-spots" && this.weakSpots().cold) ? "1" : "0");
     row.setAttribute("data-gameplan-status", this._gameStudyState?.phase || (plan ? plan.status : this._gameplanLoadState || "not-loaded"));
     // SPACE-EVENLY, NOT THIRDS (v1.137.0, owner: "the space between these items is so large that
     // they seem overglued to their edges in a weird way"). The v1.104.5 fix for the OPPOSITE
@@ -5541,13 +5541,17 @@ class Component extends DCLogic {
     this._gameStudyHost?.destroy(); this._gameStudyHost = null;
   }
   _gameStudyStatText(plan, num) {
+    // D1 (owner, 2026-09-30): a weak-spots plan's count is real whatever the comparison is doing, so it
+    // prints; the phase texts below guard only a COMPARISON's count, which is never invented. The word
+    // is dev's own "N new" again (owner, v1.138.0: "new cards that we will study to learn and improve").
+    if (plan && plan.status === "weak-spots") return num(plan.fresh.length) + " new";
     const phase = this._gameStudyState?.phase;
     if (phase === "pending") return "Suggestions loading…";
     if (phase === "queued") return "Suggestions queued";
     if (phase === "error") return "Retry suggestions";
     if (phase === "unavailable") return "Suggestions unavailable";
     if (phase === "partial" && !plan?.fresh.length) return "Partial comparison";
-    if (plan && !["unavailable", "pending", "stale"].includes(plan.status)) return num(plan.fresh.length) + " suggested";
+    if (plan && !["unavailable", "pending", "stale"].includes(plan.status)) return num(plan.fresh.length) + " new";
     return this._gameplanLoadState === "pending" ? "Suggestions loading…" : this._gameplanLoadState === "failed" ? "Retry suggestions" : "Study plan";
   }
   _gameStudyStatusText() {
@@ -5626,7 +5630,29 @@ class Component extends DCLogic {
     return this._gameplanRuntime.ngGameplanBuild({ day: this._epochDay(), ruleset: this._giMode || "gi",
       revision: this._knowledgeRevision || this._stageVer || 0, stamp,
       target: this.get("dailyGoal", 30), decks: this._gameplanDecks(), srs: this.srs,
-      provider: this._gameplanProvider });
+      provider: this._gameplanProvider, fallback: this._gameplanWeakFallback() });
+  }
+  /**
+   * D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so
+   * every player, a new one included, always has a plan". This is that ranking in the planner's
+   * shape: `weakSpots()` rows in order (one per family, ruleset-filtered there), each with ONE plain
+   * sentence (item 9) from its own tier. The cold path (FLOW kernel not built yet) is the loud
+   * `_weakSpotsLegacy` order, and its assumption line says so rather than passing it off as FLOW.
+   */
+  _gameplanWeakFallback() {
+    const w = this.weakSpots();
+    const tierWhy = { leaking: "One of the biggest leaks in your game right now.", loose: "A loose spot in your game, worth tightening.",
+      polish: "Worth polishing once the bigger leaks are closed." };
+    let rows;
+    if (w.cold) {
+      const very = new Set(w.veryWeak || []), weak = new Set(w.weak || []);
+      rows = (w.keys || []).map((key) => ({ key, reason: very.has(key) ? "You've been here in a roll but haven't practised it yet."
+        : weak.has(key) ? "You haven't practised this yet." : "You've practised this fewer than three times." }));
+    } else rows = (w.ranked || []).map((r) => ({ key: r.deck, reason: tierWhy[r.tier] || tierWhy.polish }));
+    return { rows, assumptions: [w.cold
+      ? "Your weak-spots ranking is still loading, so this is the simple order for now: places you've been but not practised, then what you haven't practised, then what you've practised fewer than three times."
+      : "Weak spots rank each technique by how much practising it would change your chances over a whole roll, given what you've practised so far.",
+      "These are game effects; they don't measure improvement on the mat."] };
   }
   // Root's evaluation owner supplies one learning-opportunity result. Late
   // replies cannot replace a changed profile/day/ruleset; a mounted order stays frozen.
@@ -5911,7 +5937,7 @@ class Component extends DCLogic {
     this._ensureGameplanClock();
     if (studyIntent !== false && (anchor !== "due" || studyIntent)) void this._requestGameplanStudy(studyIntent || "open-plan");
     if (!this._gameplanRuntime) {
-      this.openSession("due", "Due reviews");
+      this.openSession("due", this._dueTodayLabel(this.dueCount()));
       const waiting = this._session; waiting.anchor = anchor;
       this._ensureGameplanRuntime().then((ready) => {
         // Runtime arrival never replaces an active review queue. An empty waiting
@@ -5923,14 +5949,21 @@ class Component extends DCLogic {
     const plan = this.planSummary();
     const due = plan.due.map((r) => r.key), fresh = plan.fresh.map((r) => r.key), more = plan.more.map((r) => r.key);
     const keys = due.concat(fresh, more);
+    // D2 (owner, 2026-09-30). The session list (due reviews plus the new-card budget) is headed
+    // "Finish these to unlock more" with its progress, and `more` below it stays LOCKED until that
+    // list is done (renderSession, `_planGoalHead`). Inside the session, dev's own section names
+    // (v1.138.0: maintenance first, then learn next) say why each row is there.
+    const cards = (n) => n + (n === 1 ? " card" : " cards"), techs = (n) => n + (n === 1 ? " technique" : " techniques");
     const sections = [];
-    if (due.length) sections.push({ at: 0, label: "Maintenance", note: plan.dueCards + " distinct cards owed; review dates are protected" });
-    if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: plan.newCards + " additional cards across " + fresh.length + " suggested decks" });
-    if (more.length) sections.push({ at: due.length + fresh.length, label: "Optional practice", note: "outside this session target" });
+    if (due.length) sections.push({ at: 0, label: "Maintenance", note: cards(plan.dueCards) + " owed across " + techs(due.length) });
+    if (fresh.length) sections.push({ at: due.length, label: "Learn next", note: plan.newCards + " new " + (plan.newCards === 1 ? "card" : "cards") + " across " + techs(fresh.length) + ", " +
+      (plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") });
     this._session = {
-      keys, plan, label: "Your gameplan", sub: this._gameplanRuntime.ngGameplanSummary(plan),
+      keys, plan, label: this._dueTodayLabel(plan.dueCards), sub: "",
       idx: anchor === "new" && fresh.length ? due.length : 0,
       filter: null, dueUntil: due.length, anchor, sections, bucket: "plan",
+      // `required` rows are the session; everything after them is the locked extra list, dealt a
+      // page at a time once unlocked (`shown`).
       required: due.length + fresh.length, shown: Math.min(keys.length, due.length + fresh.length + 10),
     };
     const session = this._session;
@@ -5940,7 +5973,8 @@ class Component extends DCLogic {
       s.plan = this._gameplanRuntime.ngGameplanBind(s.plan, this._gameplanDecks());
       if (this._sessionInline()) this.renderSession();
     });
-    this._sessionNodes = keys.slice(0, this._session.shown).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));
+    // camera + rings: the session only, while the extra list is locked (renderSession widens it)
+    this._sessionNodes = keys.slice(0, this._session.required).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));
     this.closeModal(); this.frameNodes(this._sessionNodes);
     this.renderSession();
     this.deckReady = true; this.deckOpen = true; this.applyDeckVisibility();
@@ -5976,29 +6010,80 @@ class Component extends DCLogic {
   _paintGameplanProgress(s) {
     if (this._session !== s || !(s.plan || s.review)) return;
     const p = this._gameplanProgress(s);
-    const note = this.drillListRef.current && this.drillListRef.current.querySelector("[data-gameplan-current]");
+    const list = this.drillListRef.current;
+    // D2 (owner, 2026-09-30): finishing the session unlocks the extra list, in place. renderSession
+    // latches `s.unlocked` and paints this again, so there is no loop.
+    if (s.plan && p.complete && !s.unlocked && list && list.querySelector("[data-plan-locked]")) { this.renderSession(); return; }
+    // The live count is the header's ("N cards due today"); this polite line carries only what the
+    // player must act on (D2: "Order and reasons saved when opened · current review debt below" is gone).
+    const note = list && list.querySelector("[data-gameplan-current]");
     if (note) note.textContent = p.dayChanged
-      ? "A new day has started. Refresh the plan to include today's reviews. " + p.dueCards + " cards are due now."
-      : p.dueCards + " cards due now · " + p.completed + " of " + p.total + " planned cards reviewed." +
-        (p.newDebt.length ? " New review debt arrived; refresh to include it." : "") +
-        (p.blocked.length ? " " + p.blocked.length + " due cards need unavailable content. They remain owed." : "");
+      ? "A new day has started: refresh the plan to include today's reviews."
+      : [p.newDebt.length ? "New reviews came due: refresh the plan to include them." : "",
+        p.blocked.length ? (p.blocked.length === 1 ? "1 due card needs content that isn't available; it stays due." : p.blocked.length + " due cards need content that isn't available; they stay due.") : ""].filter(Boolean).join(" ");
+    if (note) note.style.margin = note.textContent ? "" : "0";   // an empty polite line takes no room
+    this._paintPlanGoal(s);
     for (const paint of Object.values(this._sessionPaint || {})) paint();
     const loading = this.drillListRef.current && this.drillListRef.current.querySelector("[data-gameplan-loading]");
     if (loading) loading.textContent = this._gameplanLoadingText();
     this._paintGameStudyPanel();
-    this.setDrillHeader(s.label, "Order and reasons saved when opened · current review debt below", p.completed + "/" + p.total);
+    this.setDrillHeader(this._dueTodayLabel(p.dueCards), "", "");   // live; the session object is not rewritten
     const foot = this.drillFootRef.current;
     if (foot) { foot.replaceChildren(this._sessionFoot(s)); foot.style.display = "flex"; }
     const complete = this.drillListRef.current && this.drillListRef.current.querySelector("[data-session-complete]");
     if (complete && !p.complete) { complete.remove(); this.renderSession(); }
     if (!complete && p.complete && p.total > 0) this.drillListRef.current.appendChild(this._sessionDoneCard(s));
   }
+  /** D2 (owner, 2026-09-30): the plain due header, "N cards due today", live from the current debt. */
+  _dueTodayLabel(n) { return !n ? "No cards due today" : n + (n === 1 ? " card" : " cards") + " due today"; }
+  /**
+   * D2: THE SESSION LIST IS HEADED BY WHAT FINISHING IT DOES (owner, 2026-09-30: "Finish these to
+   * unlock more", with its progress). Built once per render; `_paintPlanGoal` repaints its two lines
+   * on every grade (through _paintGameplanProgress), so the rows under it are never rebuilt for it.
+   */
+  _planGoalHead(s) {
+    const head = document.createElement("div"); head.setAttribute("data-plan-goal", "1");
+    head.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;padding:2px 2px 10px;";
+    const title = document.createElement("span"); title.setAttribute("data-plan-goal-title", "1");
+    title.style.cssText = "font-size:13.5px;font-weight:700;color:#eef1f6;";
+    const progress = document.createElement("span"); progress.setAttribute("data-plan-goal-progress", "1"); progress.setAttribute("aria-live", "polite");
+    progress.style.cssText = "font-size:11.5px;font-weight:600;color:#9ab0e0;white-space:nowrap;";
+    head.append(title, progress);
+    this._paintPlanGoal(s, head);
+    return head;
+  }
+  _paintPlanGoal(s, head) {
+    head = head || (this.drillListRef.current && this.drillListRef.current.querySelector && this.drillListRef.current.querySelector("[data-plan-goal]"));
+    if (!head || !s.plan) return;
+    const p = s.live || this._gameplanProgress(s), extra = s.keys.length - s.required;
+    head.querySelector("[data-plan-goal-title]").textContent = s.unlocked || p.complete ? "Today's session is done"
+      : extra > 0 ? "Finish these to unlock more" : "Finish today's session";
+    head.querySelector("[data-plan-goal-progress]").textContent = p.total ? p.completed + " of " + p.total + " cards done" : "Nothing left to finish";
+  }
+  /**
+   * D2: the plan's extra list, LOCKED until the session is done and UNLOCKED after ("12 more
+   * techniques unlock when you finish" / "Unlocked: 12 more techniques"). The gate is this list only:
+   * every deck still opens from Explore as before. `count` is the list's real length.
+   */
+  _planLockBlock(count, unlocked) {
+    const el = document.createElement("div");
+    el.setAttribute(unlocked ? "data-plan-unlocked" : "data-plan-locked", String(count));
+    const what = count.toLocaleString("en-US") + " more " + (count === 1 ? "technique" : "techniques");
+    el.style.cssText = "display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;line-height:1.4;border-radius:10px;padding:11px 12px;margin:" +
+      (unlocked ? "14px 0 8px" : "10px 0 2px") + ";" + (unlocked
+        ? "color:#7ee0a8;border:1px solid rgba(110,214,160,.3);background:rgba(28,58,44,.3);"
+        : "color:#8b97b0;border:1px dashed rgba(150,170,210,.3);background:rgba(255,255,255,.02);");
+    el.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex:none;">' +
+      '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="' + (unlocked ? "M8 11V7a4 4 0 0 1 7.6-1.7" : "M8 11V7a4 4 0 0 1 8 0v4") + '"/></svg><span></span>';
+    el.querySelector("span").textContent = unlocked ? "Unlocked: " + what : what + " unlock when you finish";
+    return el;
+  }
   _gameplanWaitingIntro(s) {
     const box = document.createElement("div"); box.setAttribute("data-gameplan-summary", "1");
     const loading = document.createElement("p"); loading.setAttribute("data-gameplan-loading", "1"); loading.textContent = this._gameplanLoadingText(); box.appendChild(loading);
     const current = document.createElement("p"); current.setAttribute("data-gameplan-current", "1"); current.setAttribute("aria-live", "polite"); box.appendChild(current);
     const button = document.createElement("button"); button.type = "button"; button.setAttribute("data-gameplan-load", "1");
-    button.textContent = "Open / retry study plan"; button.style.cssText = "min-height:44px;padding:8px;font:inherit;cursor:pointer;";
+    button.textContent = "Open study plan"; button.style.cssText = "min-height:44px;padding:8px;font:inherit;cursor:pointer;";
     button.addEventListener("click", () => this.openPlanSession(s.anchor || "new", "open-plan")); box.appendChild(button);
     box.appendChild(this._gameStudyPanel());
     box.style.cssText = "font-size:12px;line-height:1.55;color:#aeb9cf;padding:4px 4px 16px;overflow-wrap:anywhere;";
@@ -6013,8 +6098,9 @@ class Component extends DCLogic {
     summary.textContent = "Why these decks?"; summary.style.cssText = "cursor:pointer;min-height:44px;display:flex;align-items:center;";
     details.appendChild(summary);
     const explanation = document.createElement("p");
-    explanation.textContent = "Reviews follow your memory schedule. Suggestions consider remaining practice credit and chances to use this material. " +
-      "Correct answers earn game modifiers; these rewards are not measured improvements in real grappling. Shared questions are counted once. " +
+    // PLAIN COPY (item 9, owner 2026-09-30): what the order means, then the ranking's own caveats.
+    explanation.textContent = "Reviews come back on your memory schedule, so they come first. New techniques are ranked by how much practising them would help your game. " +
+      "Correct answers make your moves more likely to work in the game; that is not a measure of real grappling. A question two decks share counts once. " +
       s.plan.assumptions.join(" ");
     details.appendChild(explanation); box.appendChild(details);
     box.appendChild(this._gameStudyPanel());
@@ -6100,6 +6186,10 @@ class Component extends DCLogic {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const n = s.keys.length;
     if (s.plan || s.review) this._gameplanProgress(s);
+    // D2 (owner, 2026-09-30): the plan's extra list (rows past `required`) is LOCKED until the session
+    // is done; the latch keeps it open for this plan once it has been earned.
+    if (s.plan && s.live.complete) s.unlocked = true;
+    const extra = s.plan ? n - s.required : 0, locked = extra > 0 && !s.unlocked;
     this.setDrillHeader(s.label, s.sub || (n + (n === 1 ? " technique" : " techniques")), n ? this._sessionDone(s) + "/" + n : "");
     list.innerHTML = "";
     // the registry is rebuilt with the rows it indexes, exactly as renderDrillHome does
@@ -6110,7 +6200,7 @@ class Component extends DCLogic {
       const empty = document.createElement("div");
       empty.setAttribute("data-session-empty", "1");
       empty.style.cssText = "padding:26px 8px;font-size:12.5px;line-height:1.6;color:#7e8aa3;";
-      empty.textContent = s.plan ? "No decks in this plan. Review debt and recommendation coverage are shown above." : s.filter === "due"
+      empty.textContent = s.plan ? "Nothing to review or learn right now." : s.filter === "due"
         ? "Nothing due right now. Answer cards anywhere — in a roll or here — and they come back on a spaced-repetition schedule."
         : "No gaps left in this tier. Roll into somewhere new and it will show up here.";
       list.appendChild(empty);
@@ -6124,12 +6214,15 @@ class Component extends DCLogic {
     const wrap = document.createElement("div");
     wrap.setAttribute("data-session", "1");
     wrap.style.cssText = "display:flex;flex-direction:column;";
+    if (s.plan) wrap.appendChild(this._planGoalHead(s));
     const openers = [];
     const secAt = {};
     for (const sec of (s.sections || [])) secAt[sec.at] = sec;
-    const limit = s.shown ? Math.min(s.keys.length, s.shown) : s.keys.length;
+    const limit = locked ? s.required : s.shown ? Math.min(s.keys.length, s.shown) : s.keys.length;
+    if (s.plan) this._sessionNodes = s.keys.slice(0, limit).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // rings follow the unlock
     s.keys.forEach((key, i) => {
       if (i >= limit) { openers.push(null); return; }
+      if (s.plan && i === s.required) wrap.appendChild(this._planLockBlock(extra, true));
       const sec = secAt[i];
       if (sec) {
         const h = document.createElement("div");
@@ -6143,11 +6236,12 @@ class Component extends DCLogic {
       openers.push(r.open);
     });
     list.appendChild(wrap);
+    if (locked) list.appendChild(this._planLockBlock(extra, false));
     this._sessionOpeners = openers;
     // INFINITE SCROLL, one page at a time, and deliberately a BUTTON rather than a scroll
     // listener: the pane's scroller is shared with the open mini-deck, and appending rows under
     // a card the user is mid-answer moves it out from under them.
-    if (limit < s.keys.length) {
+    if (!locked && limit < s.keys.length) {
       const more = document.createElement("button");
       more.type = "button";
       more.setAttribute("data-session-more", String(s.keys.length - limit));
@@ -6210,7 +6304,8 @@ class Component extends DCLogic {
             // the PROGRESS figure, not the card count: "how far to the tick" is the only number
             // this row can print that the tick then explains (§6.6 — a count nobody can act on
             // reads the same for a deck you have half-finished and one you have never opened)
-            : s.plan && !progress ? '<span style="font-size:11px;color:#9aa6bd;">Optional</span>'
+            // an unlocked extra row names its size in words ("8 cards"), not a bare figure
+            : s.plan && !progress ? '<span style="flex:none;font-size:10.5px;color:#69748f;">' + this._deckCountLabel(key) + '</span>'
             : '<span data-session-prog="1" style="flex:none;font-size:10.5px;font-weight:600;color:' + (prep ? "#9ab0e0" : "#69748f") + ';">' + prep + '/' + goal + '</span>') +
         '<span style="flex:none;color:#5d6883;font-size:13px;transition:transform .16s;transform:rotate(' + (open ? "90" : "0") + 'deg);">›</span>';
     };
@@ -6230,18 +6325,21 @@ class Component extends DCLogic {
       // contract) while a "learn next" row shows the whole deck — and the plan queue holds both,
       // so a single session-level `filter` would narrow the wrong half.
       const planned = (s.plan ? s.plan.due.concat(s.plan.fresh) : s.review ? s.review.rows : []).find((r) => r.key === key);
+      const extraRow = !planned && s.plan ? s.plan.more.find((r) => r.key === key) : null;   // an unlocked extra: whole deck, its reason
       const only = planned ? (this._cardsOf(deck) || []).filter((c) => planned.questions.includes(this.qhash(c.q)))
         : (s.filter === "due" || i < (s.dueUntil || 0)) ? this._entryForKey(key, "due").cards : null;
-      if (planned) {
+      if (planned || extraRow) {
         const why = document.createElement("p"); why.setAttribute("data-gameplan-reason", key);
         why.style.cssText = "font-size:12px;line-height:1.5;color:#aab9d5;padding:0 12px;overflow-wrap:anywhere;";
-        why.textContent = planned.kind === "due"
-          ? "Scheduled recall review · " + planned.count + " distinct cards. Old practice credit does not resolve today's debt."
-          : "Suggestion #" + planned.rank + " · " + planned.role + ". " + planned.reason + " Shared questions can credit other roles too.";
+        // ONE PLAIN SENTENCE PER CARD (item 9, owner 2026-09-30); the caveats live once, under
+        // "Why these decks?". The row's own subtitle already names the role.
+        why.textContent = planned && planned.kind === "due"
+          ? planned.count + (planned.count === 1 ? " card" : " cards") + " due for review, so you keep what you've learned."
+          : (planned || extraRow).reason;
         detail.appendChild(why);
-        if (planned.related && planned.related.length) {
+        if (planned && planned.related && planned.related.length) {
           const shared = document.createElement("details"), label = document.createElement("summary");
-          label.textContent = "Shared questions connect " + planned.related.length + " other role decks";
+          label.textContent = "Shares cards with " + planned.related.length + " other " + (planned.related.length === 1 ? "deck" : "decks");
           label.style.cssText = "min-height:44px;cursor:pointer;font-size:11.5px;color:#aab9d5;padding:4px 12px;";
           shared.appendChild(label);
           for (const related of planned.related) {
@@ -6357,8 +6455,10 @@ class Component extends DCLogic {
       '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
       '<div style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (valid ? 'Session complete' : 'Reviews still need attention') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
-      (live ? live.completed + ' of ' + live.total + ' planned cards reviewed. ' : 'The lesson goals in this session are complete. ') +
-      this.dueCount() + ' cards due now. Correct answers earn game modifiers; a missed review is scheduled again.</div>';
+      // PLAIN COPY (item 9 + D2, owner 2026-09-30): what you did, and what finishing unlocked.
+      (live ? 'You finished ' + live.completed + ' of ' + live.total + ' cards. ' : 'The lesson goals in this session are complete. ') +
+      (ses.plan && ses.keys.length > ses.required ? 'More practice is unlocked below. ' : '') +
+      (this.dueCount() ? this.dueCount() + (this.dueCount() === 1 ? ' card is' : ' cards are') + ' due now.' : 'Nothing else is due today.') + '</div>';
     // 7-day progress sparkline — REAL history from the persisted daily counts
     const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
     const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);

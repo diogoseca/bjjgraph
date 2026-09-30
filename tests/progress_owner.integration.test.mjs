@@ -306,8 +306,28 @@ test('local-only: an unreachable SDK restores the stored account locally, pushes
   assert.equal(app.prep['Offline|Top'], 4); assert.equal(app.prep['Cloud|Top'], 2, 'cloud and local play merged');
 });
 
-test('local-only is only for an unreachable SDK that names a stored account; every other failure still holds', async () => {
-  for (const error of [Object.assign(new Error('x'), { code: 'sdk-unavailable', storedUserId: null }), new Error('Unable to verify progress owner')]) {
+// D3 (owner, 2026-09-30): the SDK loaded but its session check failed (`session-unverified`). Same
+// treatment as an unreachable SDK. Mutant, recorded 2026-09-30: dropping "session-unverified" from
+// NG_PROGRESS_LOCAL_ONLY_CODES turns this red (the host holds instead of playing).
+test('local-only D3: a failed session check that names a stored account plays locally and pushes nothing', async () => {
+  const mem = memory(), store = ngProgressCreateStore(mem);
+  store.write(ownerA, blob({ 'A|Top': 3 }, { lists: {} }));
+  const h = harness(mem), calls = [];
+  h.facade.resolveNeuralUser = async () => { throw Object.assign(new Error('Unable to verify progress owner'), { code: 'session-unverified', storedUserId: 'A' }); };
+  h.facade.pullNeural = async id => { calls.push('pull:' + id); return { userId: id, blob: null }; };
+  h.facade.pushNeural = async (b, id) => { calls.push('push:' + id); return true; };
+  const result = await h.boot();
+  assert.equal(result.status, 'ready'); assert.equal(result.localOnly, true); assert.deepEqual(h.held, []);
+  const app = h.get();
+  assert.deepEqual(app._progressOwner, ownerA); assert.equal(app._progressLocalOnly, true);
+  app.prep['Offline|Top'] = 4; app._saveProgress(); app._flushSave(); app._pushCloud(); await app._pullAndMerge();
+  assert.deepEqual(calls, [], 'nothing pulled or pushed while the session is unverified');
+});
+
+test('local-only is only for the named facade failures with a stored account; every other failure still holds', async () => {
+  for (const error of [Object.assign(new Error('x'), { code: 'sdk-unavailable', storedUserId: null }),
+    Object.assign(new Error('x'), { code: 'session-unverified', storedUserId: null }), new Error('Unable to verify progress owner'),
+    Object.assign(new Error('x'), { code: 'something-else', storedUserId: 'A' })]) {
     const h = harness();
     h.facade.resolveNeuralUser = async () => { throw error; };
     const result = await h.boot();

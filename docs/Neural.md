@@ -678,9 +678,9 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 
 **Progress is stored per owner** (v1.207.0): `bjj-neural-owner:<guest|account:id>:*`. A guest's
 first load adopts the old unowned `bjj-neural-progress` and its markers once, keeping the bytes; an
-account imports it only on request (`progress-owner.src.js`). **Local-only** (v1.207.8): a signed-in
-device whose sign-in SDK cannot load plays that account's local copy under a banner, never pulls or
-pushes, and on re-verify (Try again, `online`) merges before a push (`_renderLocalOnly`).
+account imports it only on request (`progress-owner.src.js`). **Local-only** (v1.207.8+): a signed-in
+device whose SDK cannot load, or cannot check its session, plays that account's local copy under a
+banner, never pulls or pushes, and on re-verify merges before a push (`_renderLocalOnly`).
 
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution

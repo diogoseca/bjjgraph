@@ -227,11 +227,18 @@
           "reason": "full-game v1.207.8, LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1): a failed SDK load is no longer cached for the page's life (loadSDK clears _sdkLoading and removes the script), so a later attempt really re-tries; the failure carries code 'sdk-unavailable'; and resolveNeuralUser, on a device that holds a session, rethrows it with the UNVERIFIED account id the stored session names (storedSessionUserId), which the Neural progress host uses only to pick this device's local cache. No cloud read or write depends on that id; every other export and path is unchanged.",
           "scope": "keeplist",
           "to": "060a59fb881cf87b02a89b9bf3ce0e273a612cc75442dd551c3776cb17129a2c"
+        },
+        {
+          "date": "2026-09-30",
+          "from": "060a59fb881cf87b02a89b9bf3ce0e273a612cc75442dd551c3776cb17129a2c",
+          "reason": "D3 (owner 2026-09-30): a failed session check with a stored account raises session-unverified carrying storedUserId, so the host plays local-only as for an unreachable SDK; malformed answers still hold",
+          "scope": "keeplist",
+          "to": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e"
         }
       ],
-      "bytes": 16972,
+      "bytes": 17647,
       "scope": "keeplist",
-      "sha256": "060a59fb881cf87b02a89b9bf3ce0e273a612cc75442dd551c3776cb17129a2c"
+      "sha256": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e"
     },
     "source/quartz/components/scripts/toc.inline.ts": {
       "bytes": 4776,

@@ -81,7 +81,7 @@ test("pending queued unavailable error and partial states never display an inven
   for (const phase of ["pending", "queued", "unavailable", "error", "partial"]) {
     app._gameStudyState = { phase }; assert.doesNotMatch(app._gameStudyStatText(plan, String), /^0/);
   }
-  app._gameStudyState = { phase: "ready" }; assert.equal(app._gameStudyStatText(plan, String), "0 suggested", "a complete assessed result may honestly have no suggestions");
+  app._gameStudyState = { phase: "ready" }; assert.equal(app._gameStudyStatText(plan, String), "0 new", "a complete assessed result may honestly have no suggestions");
 });
 
 test("joint coverage text preserves roles uncertainty and full-group conditions without numeric win promises", () => {

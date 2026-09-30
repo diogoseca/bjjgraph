@@ -259,11 +259,27 @@ export async function resolveNeuralUser(): Promise<AuthUser | null> {
       })
     throw error
   }
+  // LOCAL-ONLY PLAY, the second case (owner, 2026-09-30, D3): the SDK loaded but the session check
+  // itself failed (a flaky network, a refresh that could not reach the server). Same treatment as an
+  // unreachable SDK, so it carries the stored account too. A malformed answer is not a network
+  // failure and still holds.
+  const unverified = () =>
+    Object.assign(new Error("Unable to verify progress owner"), {
+      code: "session-unverified",
+      storedUserId: storedSessionUserId(),
+    })
   for (let attempt = 0; attempt < 3; attempt++) {
     const revision = _neuralAuthRevision
-    const { data, error } = await client.auth.getSession()
+    let read: Awaited<ReturnType<SupabaseClient["auth"]["getSession"]>>
+    try {
+      read = await client.auth.getSession()
+    } catch {
+      throw unverified()
+    }
+    const { data, error } = read
     if (revision !== _neuralAuthRevision) continue
-    if (error || !data || !("session" in data)) throw new Error("Unable to verify progress owner")
+    if (error) throw unverified()
+    if (!data || !("session" in data)) throw new Error("Unable to verify progress owner")
     if (data.session === null) return null
     const user = data.session?.user
     if (!user || typeof user.id !== "string" || !user.id) throw new Error("Invalid progress owner")

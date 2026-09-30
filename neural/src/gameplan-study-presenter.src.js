@@ -6,13 +6,16 @@ export const NG_GAMEPLAN_STUDY_PRESENTER_VERSION = 1;
 const ROLES = ["Top", "Bottom", "Attacker", "Defender"];
 const OUTCOMES = ["win", "loss", "explicitNoResult", "nontermination"];
 const SAME_CONTEXT = ["revision", "mechanicsHash", "graphHash", "opponentPolicyHash", "ruleset", "objective", "horizon", "futureStudyPolicy"];
+// PLAIN COPY (item 9, owner 2026-09-30: the old wording "reads like a disclaimer"). One plain sentence
+// per card in `reason`; each caveat is said ONCE, here, and shown under "Why these decks?". The
+// meaning is unchanged: game effects only, joint practice, and no promise about real grappling.
 const TEXT = {
-  hypothesis: "These are hypothetical game-input possibilities if all proposed practice credit changes applied. They do not predict learning success or real BJJ outcomes.",
-  joint: "A comparison covers all its proposed credit changes together. Practicing only part of that material does not establish the same game effect.",
-  partial: "Some comparisons are uncertain or unavailable; this is not a complete assessment of the material.",
-  limited: "Some comparisons involve material outside the available new-card suggestions. Its possible game effects remain separate from this plan.",
-  secondary: "Some other game outcomes remain uncertain even when the comparison supports a possible win benefit.",
-  unavailable: "Study suggestions are unavailable until the game comparison and material coverage are ready. Due reviews remain available.",
+  hypothesis: "These are game effects only: they don't predict how fast you'll learn or how you'll do on the mat.",
+  joint: "Each comparison assumes you practise all of its material; practising only part of it may not have the same effect.",
+  partial: "Some comparisons are uncertain or unavailable, so this is not a full picture.",
+  limited: "Some compared material isn't in today's new cards; its effect is not counted in this plan.",
+  secondary: "Some other outcomes stay uncertain, even where the comparison shows more wins.",
+  unavailable: "Study suggestions need a finished comparison. Your reviews are still available.",
 };
 const need = (condition, reason) => { if (!condition) throw new Error(reason); };
 const word = (x) => typeof x === "string" && x.trim().length > 0;
@@ -183,9 +186,9 @@ function member(d, exposure, context) {
 function reason(group, m, ruleset) {
   const seat = { Top: "playing on top", Bottom: "playing from bottom", Attacker: "attacking", Defender: "defending" }[m.deck.role];
   const frame = ruleset === "gi" ? "gi" : "no-gi";
-  if (group.status === "uncertain") return `The possible game effect while ${seat} in ${frame} remains uncertain.`;
-  if (group.status === "non-positive") return `This comparison does not establish a positive game effect while ${seat} in ${frame}.`;
-  return `Possible game-input benefit while ${seat} in ${frame}, only if all proposed credit changes for this ${group.members.length > 1 ? "group of material" : "material"} applied. This deck alone does not establish that benefit.`;
+  if (group.status === "uncertain") return `Not clear yet whether practising this helps when ${seat} in ${frame}.`;
+  if (group.status === "non-positive") return `The comparison found no gain when ${seat} in ${frame}.`;
+  return `Practising this${group.members.length > 1 ? " with its group" : ""} could win you more games when ${seat} in ${frame}.`;
 }
 function rankRows(groups, context) {
   const candidates = new Map();

@@ -8417,3 +8417,49 @@ all 35 reds of the first run were this branch's, and so were the 4 of the second
   - PR 219's corrected honesty-gap text is kept: EDGE describes the corpus's opponent, while the MDP
     plays `opponentDefend` itself.
 
+
+**The owner screen's rulings (v1.208.0, 2026-09-30).**
+- **D1: every player has a plan.** With no study comparison (none requested, still computing, or out
+  of date), `ngGameplanBuild` ranks new material by the app's own weak-spots ranking
+  (`_gameplanWeakFallback` → `ngGameplanWeakSpots`), under the same deck gate.
+  - The plan says so: `status: "weak-spots"`, and `comparison` keeps the comparison's own state.
+    FLOW is never presented as a comparison.
+  - This reverses the v1.207.0 contract "FLOW alone deals nothing" (`tests/flow.test.mjs`, inverted
+    with its reason).
+  - The Explore cell reads dev's "N new" again.
+- **D2: the unlock progression.**
+  - Header: the plain, live "N cards due today". The line "Order and reasons saved when opened ·
+    current review debt below" is gone.
+  - The session list (due reviews plus the new-card budget) is headed "Finish these to unlock
+    more", with "3 of 13 cards done".
+  - The rest of the ranking is LOCKED: its rows are not dealt, and the list reads "29 more
+    techniques unlock when you finish". Finishing re-renders it as "Unlocked: 29 more techniques",
+    paged as before. The done card adds "More practice is unlocked below."
+  - The unlock is latched per plan, so a new day does not take it back.
+  - The gate is the plan's list only: a locked deck still opens as a study.
+- **D3: local-only for a failed session check.** The facade raises `session-unverified` with the
+  stored account when `getSession` errors or throws. The host treats it like `sdk-unavailable`
+  (`NG_PROGRESS_LOCAL_ONLY_CODES`). A malformed answer, or a stored session that names no account,
+  still holds.
+- **Item 9: one plain sentence per card.**
+  - Covers due rows, weak-spot tiers, and the model's and the presenter's reasons.
+  - Each caveat (game effects only, joint practice) is said once, under "Why these decks?".
+  - The summary no longer quotes a count that goes stale once the session is done.
+- **Gates.**
+  - Units 1,123/1,123.
+  - 130 targeted journeys green on a private port.
+  - Every new claim has a mutant that turns it red:
+
+  | mutant | red at |
+  |---|---|
+  | no weak-spots fallback (gameplan.js) | D1 journey, "weakest first"; `gameplan.test.mjs` D1 |
+  | extra rows dealt while locked | D2 journey, "locked rows are not dealt" (2 vs 12) |
+  | `s.unlocked` never latched | D2 journey, "Unlocked: 35 more techniques" not found |
+  | no unlock re-render in `_paintGameplanProgress` | D2 journey, same point |
+  | "session-unverified" dropped from the host's codes | D3 journey, first poll (hold screen); host unit |
+  | facade: a returned `error` or a thrown read left unwrapped | `progress_auth_facade.test.mjs` D3 (2 mutants) |
+
+  - A syntax-breaking deletion of the latch was discarded as a non-mutant (the bundle never
+    booted), and re-run as a semantic one.
+- **Payload.** Eager boot +1,186 B gzip (327,480 → 328,666), within the delta cap. Deferred
+  448,798 of 500,000 B.

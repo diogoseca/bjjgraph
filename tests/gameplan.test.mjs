@@ -43,7 +43,7 @@ test("an eight-card first deck with five spaces explicitly exceeds the soft targ
   const decks = { "Side Control|Top": deck(Array.from({ length: 8 }, (_, i) => "q" + i)) };
   const p = build(input({ target: 5, decks, provider: provider([row("Side Control|Top")]) }));
   assert.equal(p.fresh.length, 1); assert.equal(p.newCards, 8); assert.equal(p.overrun, 3);
-  assert.match(summary(p), /exceed it by 3/);
+  assert.match(summary(p), /runs 3 cards over the goal/);
 });
 
 test("reviewed unique questions and uncapped due debt consume the target before new work", () => {
@@ -72,7 +72,7 @@ test("missing, loading, stale, partial defense and genuinely exhausted coverage 
   assert.equal(build(input({ decks, provider: provider([], { stamp: "old" }) })).status, "stale");
   const partial = build(input({ decks, provider: provider([]) }));
   assert.equal(partial.status, "partial"); assert.deepEqual(partial.missing, ["Move|Defender"]);
-  assert.match(summary(partial), /does not mean mastered/);
+  assert.match(summary(partial), /does not mean you've mastered them/);
   assert.equal(build(input({ decks, provider: provider([row("Move|Defender", 0)]) })).status, "exhausted");
 });
 
@@ -158,7 +158,9 @@ test("model consumer ranks a joint scenario without adding its per-deck gain or 
         { deckKey: "Move|Defender", role: "Defender", status: "unavailable", reason: "no defense coverage" }] }] };
   const providerResult = fromModel(result, context);
   assert.equal(providerResult.rows.length, 1); assert.equal(providerResult.rows[0].score, .02);
-  assert.match(providerResult.assumptions.join(" "), /before and after practicing this material together/);
+  assert.match(providerResult.assumptions.join(" "), /before and after practising the material together/);
+  // item 9 (owner, 2026-09-30): ONE plain sentence per card; the caveats are the assumptions' job.
+  assert.equal(providerResult.rows[0].reason, "Practising this could win you more games when attacking, from your chosen starts.");
   assert.equal(providerResult.diagnostics, result, "formal evidence stays in diagnostics");
   const p = build(input({ decks: { "Move|Attacker": deck(["a"]), "Move|Defender": deck(["d"]) }, provider: providerResult }));
   assert.deepEqual(p.missing, ["Move|Defender"]); assert.equal(p.status, "partial");
@@ -166,4 +168,31 @@ test("model consumer ranks a joint scenario without adding its per-deck gain or 
     { exposurePolicyId: "other-policy" }, { policySemantics: "mixed" }]) {
     assert.equal(fromModel({ ...result, ...changed }, context).status, "unavailable");
   }
+});
+
+// D1 (owner, 2026-09-30): "when no study comparison exists, fall back to the weak-spots ranking so every
+// player, a new one included, always has a plan". The fallback ranks ONLY when the comparison cannot
+// (unavailable / pending / stale), keeps its order, passes the same deck gate, and says what it is.
+// Mutant, recorded 2026-09-30: dropping the fallback line in ngGameplanBuild turns this red (a new
+// player's plan is empty again).
+test("D1: with no comparison the weak-spots ranking fills the plan, in order, and says so", () => {
+  const decks = { "Mount|Top": deck(["m1", "m2"]), "Guard|Bottom": deck(["g1"]), "Lapel|Attacker": deck(["l"], { allowed: false }),
+    "Capped|Top": deck(["c"], { headroom: 0 }), "Empty|Top": deck([], { count: 0 }), "Due|Top": deck(["d"]) };
+  const fallback = { rows: ["Guard|Bottom", "Lapel|Attacker", "Capped|Top", "Empty|Top", "Due|Top", "Mount|Top"].map((key) => ({ key, reason: "Weak: " + key })),
+    assumptions: ["Weak spots rank each technique."] };
+  const srs = { "Due|Top": { d: due() } };
+  for (const provided of [undefined, { status: "pending" }, provider([], { stamp: "old" })]) {
+    const p = build(input({ decks, srs, provider: provided, fallback }));
+    assert.equal(p.status, "weak-spots"); assert.ok(["unavailable", "pending", "stale"].includes(p.comparison));
+    assert.deepEqual(p.fresh.map((r) => r.key), ["Guard|Bottom", "Mount|Top"], "ranked order kept; illegal, capped, empty and due decks gated");
+    assert.equal(p.fresh[0].reason, "Weak: Guard|Bottom"); assert.deepEqual(p.assumptions, fallback.assumptions);
+    assert.match(summary(p), /weakest spots first/);
+  }
+  // A comparison that exists, even an empty one, is never replaced by the fallback.
+  const ready = build(input({ decks, provider: provider([row("Mount|Top")]), fallback }));
+  assert.equal(ready.status, "partial", "a comparison that covers only some decks is still a comparison"); assert.deepEqual(ready.fresh.map((r) => r.key), ["Mount|Top"]);
+  assert.equal(build(input({ decks: { "Move|Defender": deck(["x"]) }, provider: provider([row("Move|Defender", 0)]), fallback })).status, "exhausted");
+  // A tight budget sends the rest of the ranking to `more`, the extra list the session keeps locked.
+  const tight = build(input({ target: 2, decks, srs, fallback }));
+  assert.deepEqual(tight.fresh.map((r) => r.key), ["Guard|Bottom"]); assert.deepEqual(tight.more.map((r) => r.key), ["Mount|Top"]);
 });

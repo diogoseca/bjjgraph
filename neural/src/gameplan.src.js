@@ -48,6 +48,21 @@ export function ngGameplanRecommendations(provider, stamp, decks) {
   };
 }
 
+// D1 (owner, 2026-09-30): "every player, a new one included, always has a plan". With no study
+// comparison to rank by (none requested yet, still computing, or out of date), new material is
+// ranked by the weak-spots ranking the app already computes (FLOW, `weakSpots()`). The plan says so
+// (`status: "weak-spots"`, and `comparison` keeps the comparison's own state); it is never passed off
+// as a comparison result. Rows arrive ranked, one per technique family; the same deck gate applies.
+export function ngGameplanWeakSpots(fallback, decks) {
+  const rows = [];
+  for (const r of (fallback && fallback.rows) || []) {
+    const d = decks[r.key];
+    if (!d || d.allowed === false || !d.count || !(d.headroom > 0) || typeof r.reason !== "string" || !r.reason.trim()) continue;
+    rows.push({ key: r.key, role: r.key.split("|")[1] || "", reason: r.reason, source: "weak-spots" });
+  }
+  return { status: "weak-spots", rows, missing: [], assumptions: ((fallback && fallback.assumptions) || []).slice() };
+}
+
 // Consumer of ngMdpEvaluateStudyScenarios (mdp-learning.src.js). Root owns that
 // asynchronous producer and supplies the expected full stamp alongside our local
 // UI stamp. Each scenario was solved jointly; assigning its rank to related decks
@@ -79,8 +94,10 @@ export function ngGameplanFromModel(result, context) {
           !Number.isFinite(deck.headroom) || deck.headroom <= 0 || deck.headroom > 1) continue;
       const r = { key: deck.deckKey, role: deck.role, status: "ready", headroom: deck.headroom,
         exposure: e.value, score: scenario.simulatedWinDelta, scenarioId: scenario.id,
-        reason: "Remaining game practice credit can help with " + (deck.role === "Defender" ? "defense" : deck.role === "Attacker" ? "performing this technique" : "moves from the " + deck.role + " position") +
-          ". The comparison includes chances to use it from your chosen starts after practicing this material together." };
+        // ONE PLAIN SENTENCE PER CARD (item 9, owner 2026-09-30). The caveats (joint practice, game
+        // effects only) live once in `assumptions`, shown under "Why these decks?".
+        reason: "Practising this could win you more games when " + ({ Top: "playing on top", Bottom: "playing from bottom",
+          Attacker: "attacking", Defender: "defending" }[deck.role] || "using it") + ", from your chosen starts." };
       if (!rows.has(r.key) || rows.get(r.key).score < r.score) rows.set(r.key, r);
     }
   }
@@ -88,19 +105,20 @@ export function ngGameplanFromModel(result, context) {
   const horizon = context.modelStamp.horizon || context.horizon;
   if (!["gi", "nogi"].includes(ruleset) || !horizon || !horizon.kind) return unavailable;
   return { kind: "learning-opportunity", stamp: context.stamp, status: result.status, rows: [...rows.values()], diagnostics: result,
-    assumptions: ["Training setting: " + (ruleset === "nogi" ? "no-gi" : "gi") + "; " + start.length + " chosen starting position and role" + (start.length === 1 ? "." : " combinations."),
-      (horizon.kind === "actual-roll" ? "Looks ahead to the end of the current roll." : "Looks ahead without a move limit.") +
-        " Assumes the best available moves before and after practicing this material together.",
-      "These game effects do not measure improvement on the mat."] };
+    assumptions: ["Compared in " + (ruleset === "nogi" ? "no-gi" : "gi") + " from " + start.length + " chosen starting position" + (start.length === 1 ? "" : "s") + ", " +
+        (horizon.kind === "actual-roll" ? "to the end of the current roll" : "with no move limit") + ", assuming the best moves before and after practising the material together.",
+      "These are game effects; they don't measure improvement on the mat."] };
 }
 
 // Deck descriptors: {count, questions:[hash], exact, allowed, headroom}.
 // A manifest supplies shared hashes + stored SRS hashes before hydration. The
 // remainder is counted as pending, never treated as already reviewed.
-export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 30, decks = {}, srs = {}, provider }) {
+export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 30, decks = {}, srs = {}, provider, fallback }) {
   const debt = ngGameplanDebt({ srs, day, decks });
   const reviewed = ngGameplanReviewed(srs, day);
-  const ranking = ngGameplanRecommendations(provider, stamp, decks);
+  let ranking = ngGameplanRecommendations(provider, stamp, decks);
+  const comparison = ranking.status;
+  if (fallback && ["unavailable", "pending", "stale"].includes(comparison)) ranking = ngGameplanWeakSpots(fallback, decks);
   const budget = Math.max(0, Math.floor(Number.isFinite(target) ? target : 30));
   const room = Math.max(0, budget - reviewed.length - debt.count);
   const used = new Set([...reviewed, ...debt.questions]);
@@ -131,7 +149,7 @@ export function ngGameplanBuild({ day, ruleset, revision, stamp, target = 30, de
   return ngGameplanFreeze({
     version: NG_GAMEPLAN_VERSION, day, ruleset, revision, stamp, target: budget,
     reviewed, due: debt.rows, fresh, more, blocked: debt.blocked,
-    dueQuestions: debt.questions, status: ranking.status, assumptions: ranking.assumptions,
+    dueQuestions: debt.questions, status: ranking.status, comparison, assumptions: ranking.assumptions,
     missing: ranking.missing, room, newCards: spent, dueCards: debt.count,
     total: debt.count + spent, overrun: Math.max(0, reviewed.length + debt.count + spent - budget),
   });
@@ -174,17 +192,24 @@ export function ngGameplanProgress(plan, { srs = {}, day, decks = {} }) {
     blocked: ngGameplanUnique(debt.blocked.concat(missing)) };
 }
 
+// PLAIN COPY (item 9 + D2, owner 2026-09-30). The counts live in the session's own headings, so this
+// says only what they cannot: the daily goal, any overrun, and what ranks the new techniques. It is
+// also the Explore cell's tooltip.
 export function ngGameplanSummary(plan) {
-  const status = {
-    unavailable: "Study recommendations unavailable. Review dates still apply.",
-    pending: "Study recommendations loading. Review dates still apply.",
-    stale: "Study recommendations need a refresh. Review dates still apply.",
-    partial: "Some roles could not be assessed. This does not mean mastered.",
-    exhausted: "No further study opportunities found in the material assessed. Reviews still protect recall.",
-    ready: "Ordered by remaining game practice credit and chances to use this material.",
+  const cards = (n) => n + (n === 1 ? " card" : " cards");
+  const source = {
+    "weak-spots": "New techniques are your weakest spots first.",
+    ready: "New techniques are ranked by your study comparison.",
+    partial: "New techniques are ranked by your study comparison. Some could not be compared, which does not mean you've mastered them.",
+    exhausted: "Your study comparison found nothing new worth adding. Reviews still count.",
+    unavailable: "There is no ranking for new techniques yet. Reviews still count.",
+    pending: "The ranking for new techniques is loading. Reviews still count.",
+    stale: "The ranking for new techniques is out of date: refresh the plan. Reviews still count.",
   }[plan.status];
-  return plan.dueCards + " cards due · " + plan.fresh.length + " suggested decks · " + plan.newCards + " additional cards. " +
-    "Soft target: " + plan.target + " cards; " + plan.reviewed.length + " reviewed today." +
-    (plan.overrun ? " Whole decks and protected reviews exceed it by " + plan.overrun + "." : "") +
-    (plan.fresh.some((r) => r.pending) ? " Counts settle when cards load." : "") + " " + status;
+  // Frozen with the plan, so it speaks of the time BEFORE it opened: the session heading below counts
+  // what happens after (a live "you've answered 0 today" read wrong once the session was done).
+  return "Your daily goal is " + cards(plan.target) +
+    (plan.reviewed.length ? "; the " + cards(plan.reviewed.length) + " you'd already answered today count toward it." : ".") +
+    (plan.overrun ? " Techniques come whole, so today's session runs " + cards(plan.overrun) + " over the goal." : "") +
+    (plan.fresh.some((r) => r.pending) ? " Card counts settle as decks load." : "") + " " + source;
 }

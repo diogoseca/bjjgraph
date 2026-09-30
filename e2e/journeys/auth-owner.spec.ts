@@ -386,3 +386,56 @@ test('@curated local-only: an unreachable SDK plays on this device, pushes nothi
   await expect(banner).toHaveCount(0)
   expect(await state()).toEqual({ mounted: true, owner: id, localOnly: false, user: id })
 })
+
+// LOCAL-ONLY PLAY, D3 (owner, 2026-09-30): the SDK LOADS but its session check fails (a flaky network).
+// Same treatment as an unreachable SDK: this device's copy of the account plays, with the banner and
+// the Offline chip, and nothing is pulled or pushed until the account verifies; then the pull-and-merge
+// runs before any push. The identity-read journey above keeps the HOLD for a stored session that names
+// no account (there is no local copy to choose). Mutant, recorded 2026-09-30: dropping
+// "session-unverified" from NG_PROGRESS_LOCAL_ONLY_CODES shows the hold screen instead, red at the
+// first poll.
+test('@curated local-only D3: a failed session check plays on this device and merges before the first push', async ({ page }) => {
+  const id = 'auth-owner-d3'
+  await bootOwner(page)
+  await emitOwner(page, id)
+  await addList(page, 'Cloud list')
+  await expect.poll(async () => (await fixture(page)).writes.length, { message: 'online play reaches the cloud' }).toBeGreaterThan(0)
+  await page.evaluate(() => {
+    const w = window as any, a = w.__neural
+    a.setPaused(true); a.clearTimers(); a._flushSave()
+    w.__authOwnerFixture.failSessions(true)
+    sessionStorage.setItem('__ng_keep', '1')
+  })
+  await page.reload({ waitUntil: 'domcontentloaded' })
+  const state = () => page.evaluate(() => {
+    const a = (window as any).__neural
+    return { mounted: !!a && !a.__ngDestroyed && !!a._progressLoaded, owner: a?._progressOwner?.id || null,
+      localOnly: !!a?._progressLocalOnly, user: a?._authUserId || null }
+  })
+  await expect.poll(state, { timeout: 30_000 }).toEqual({ mounted: true, owner: id, localOnly: true, user: null })
+  await expect(page.locator('#neural-progress-recovery'), 'local-only is play, never the hold screen').toHaveCount(0)
+  const banner = page.locator('[data-local-only]')
+  await expect(banner).toBeVisible()
+  await expect(banner).toContainText('Can’t reach your account')
+  await expect(page.locator('.ngAcctChip')).toContainText('Offline')
+  const before = await fixture(page)
+  expect(before.sessionReads.some((row: any) => row.failed), 'the session check really failed').toBe(true)
+  expect(before.clients, 'the SDK DID load: this is the D3 case, not an unreachable SDK').toBeGreaterThan(0)
+  expect(await names(page)).toEqual(['Cloud list'])
+  await addList(page, 'Offline list')
+  await page.waitForTimeout(1500)             // past the push debounce (500 ms) several times over
+  const held = await fixture(page)
+  expect(held.writes.length, 'nothing pushed while unverified').toBe(before.writes.length)
+  expect(held.reads.length, 'nor pulled').toBe(before.reads.length)
+  await page.evaluate(() => (window as any).__authOwnerFixture.failSessions(false))
+  await banner.locator('[data-local-only-retry]').scrollIntoViewIfNeeded()
+  await journey(page).clickByMouse('[data-local-only-retry]', 'Try again')
+  await expect.poll(async () => (await fixture(page)).writes.length, { timeout: 30_000 }).toBeGreaterThan(before.writes.length)
+  const after = await fixture(page), tail = after.order.slice(before.order.length)
+  expect(tail[0], 'the first cloud call after verifying is the pull').toBe('read')
+  expect(tail.indexOf('write')).toBeGreaterThan(tail.indexOf('read'))
+  expect(Object.values(after.writes.at(-1).neural.lists).map((row: any) => row.name).sort(), 'merged, never overwritten')
+    .toEqual(['Cloud list', 'Offline list'])
+  await expect(banner).toHaveCount(0)
+  expect(await state()).toEqual({ mounted: true, owner: id, localOnly: false, user: id })
+})

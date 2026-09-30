@@ -294,15 +294,22 @@ test("one entry per family, and every row is a deck the user can actually open",
   for (const r of w.ranked) assert.ok(a.flashcards.decks[r.deck], `${r.deck} is in the manifest`);
 });
 
-// Dose/grade/debt invariants now live in gameplan*.test.mjs, against the shared
-// planner. A FLOW action/deck score alone must not fabricate the new provider.
-test("FLOW alone does not pretend to be a complete learning-opportunity provider", () => {
+// Dose/grade/debt invariants now live in gameplan*.test.mjs, against the shared planner.
+// D1 (owner, 2026-09-30) REVERSES the v1.207.0 contract "FLOW alone deals nothing": with no study
+// comparison, the weak-spots ranking fills the plan, so every player, a new one included, has one.
+// The honesty half still holds: FLOW is never passed off as a comparison. The plan says
+// `weak-spots` and its `comparison` stays `unavailable`.
+test("FLOW fills the plan when no comparison exists, and never passes as a comparison", () => {
   const a = fullApp();
   a._refreshGameplanUI = () => {};
   a.setGameplanRuntime(gameplanRuntime);
-  assert.ok(a.weakSpots().ranked.length > 0);
-  assert.equal(a.planSummary().status, "unavailable");
-  assert.deepEqual(a.newTechniques(), []);
+  const ranked = a.weakSpots().ranked.map((r) => r.deck);
+  assert.ok(ranked.length > 0);
+  const plan = a.planSummary();
+  assert.equal(plan.status, "weak-spots"); assert.equal(plan.comparison, "unavailable");
+  assert.ok(plan.fresh.length > 0, "a new player is dealt new techniques");
+  assert.ok(plan.fresh.every((r) => ranked.includes(r.key)), "every dealt deck comes from the ranking");
+  assert.deepEqual(a.newTechniques(), plan.fresh.map((r) => r.key));
 });
 
 test("a missing kernel degrades LOUDLY to the old rule, never to a table of zeros", () => {

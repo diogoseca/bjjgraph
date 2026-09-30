@@ -16,7 +16,7 @@ test('SDK facade emits a User and unsubscribe removes only its listener', async 
   assert.equal(seen.length, 3);
 });
 
-function authHarness() {
+function authHarness({ storedUser = null } = {}) {
   let userId = 'account-a', sdkListener, read = { data: null, error: null }, sessionError = null, sessionRead = null;
   const writes = [], reads = [];
   const client = {
@@ -36,7 +36,9 @@ function authHarness() {
   // Like the real SDK, a signed-in user leaves its session token under the facade's own storage key
   // (isAuthenticated reads it). A guest has none (QREV7 M1: then no client is ever created).
   const js = stripTypeScriptTypes(authSource).replace(/^export /gm, '');
-  const storage = { getItem: key => /-auth-token$/.test(key) && userId ? JSON.stringify({ access_token: 'synthetic-token' }) : null };
+  // `storedUser`: the account the stored session names (the SDK writes `user` into the token), which
+  // local-only play reads when the session cannot be verified.
+  const storage = { getItem: key => /-auth-token$/.test(key) && userId ? JSON.stringify({ access_token: 'synthetic-token', ...(storedUser ? { user: { id: storedUser } } : {}) }) : null };
   const api = new Function('window', 'localStorage', 'console', `${js}\nreturn window.__bjjAuth;`)(window, storage, { error() {} });
   return { api, writes, reads, emit: (...args) => sdkListener(...args), clients: () => clients,
     setSessionRead: fn => { sessionRead = fn; }, setUser: id => { userId = id; }, setRead: value => { read = value; }, setSessionError: error => { sessionError = error; } };
@@ -123,4 +125,25 @@ test('local-only: an unloadable SDK names the stored account with a code, and a 
   h.makeAvailable();
   assert.deepEqual(await h.api.resolveNeuralUser(), { id: 'account-a' }, 'once reachable, the same session verifies');
   assert.equal(h.clients(), 1);
+});
+
+// LOCAL-ONLY PLAY, D3 (owner, 2026-09-30): the SDK LOADED but its session check failed, by returning an
+// error or by throwing (a network that did not answer). The facade says so with its own code and the
+// account the stored session names, so the host plays local-only exactly as for an unreachable SDK. A
+// malformed answer is not a network failure: it carries no code and still holds. Mutants, recorded
+// 2026-09-30: throwing the plain error for a returned `error`, or letting a thrown read escape
+// unwrapped, each turn this red on the code.
+test('local-only D3: a failed session check names the stored account with its own code; a malformed answer does not', async () => {
+  const h = authHarness({ storedUser: 'account-a' });
+  h.setSessionError({ message: 'offline' });
+  await assert.rejects(h.api.resolveNeuralUser(), e => e.code === 'session-unverified' && e.storedUserId === 'account-a');
+  h.setSessionError(null); h.setSessionRead(async () => { throw new TypeError('Failed to fetch'); });
+  await assert.rejects(h.api.resolveNeuralUser(), e => e.code === 'session-unverified' && e.storedUserId === 'account-a');
+  for (const bad of [{ data: {}, error: null }, { data: { session: { user: {} } }, error: null }]) {
+    h.setSessionRead(async () => bad);
+    await assert.rejects(h.api.resolveNeuralUser(), e => e.code === undefined, 'a malformed answer still holds');
+  }
+  h.setSessionRead(null);
+  assert.deepEqual(await h.api.resolveNeuralUser(), { id: 'account-a' }, 'once the check answers, the same account verifies');
+  assert.equal(h.writes.length, 0);
 });

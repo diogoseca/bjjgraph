@@ -3,6 +3,10 @@
 export const NG_PROGRESS_OWNER_FORMAT = "bjj-progress-owner-v1";
 const NG_PROGRESS_OWNER_PREFIX = "bjj-neural-owner:";
 const NG_PROGRESS_LEGACY_KEY = "bjj-neural-progress";
+// The facade's two "cannot verify, but this device names the account" failures, which play
+// local-only instead of holding: the SDK cannot load (FGLOCAL1, 2026-09-29), and the SDK loaded but
+// its session check failed (D3, 2026-09-30). Anything else, a malformed session included, holds.
+const NG_PROGRESS_LOCAL_ONLY_CODES = ["sdk-unavailable", "session-unverified"];
 // The pre-owner markers were `bjj-neural-ladder` / `-firstroll` / `-coached`.
 const NG_PROGRESS_LEGACY_FIELD_PREFIX = "bjj-neural-";
 
@@ -325,9 +329,9 @@ export function ngProgressCreateHost({ storage, mount, hold, resolveUser }) {
         // sign-in SDK cannot load (the facade says `sdk-unavailable` and names the stored account,
         // unverified). Play on THIS DEVICE's copy of that account: the app is flagged local-only,
         // shows a banner, never pulls or pushes, and re-verifies identity before its first pull,
-        // whose merge runs before any push. Only this failure, only with a named account, and never
-        // over a pending recovery; every other failure still holds exactly as before.
-        const stored = error && error.code === "sdk-unavailable" && typeof error.storedUserId === "string" && error.storedUserId ? error.storedUserId : null;
+        // whose merge runs before any push. Only these failures (NG_PROGRESS_LOCAL_ONLY_CODES), only
+        // with a named account, and never over a pending recovery; every other failure still holds.
+        const stored = error && NG_PROGRESS_LOCAL_ONLY_CODES.includes(error.code) && typeof error.storedUserId === "string" && error.storedUserId ? error.storedUserId : null;
         if (stored && !recovery) {
           localOnly = ngProgressOwner(stored);
           const result = controller.restore(localOnly);

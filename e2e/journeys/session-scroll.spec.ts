@@ -69,8 +69,8 @@ test("a session row opened below the fold, then walked with ↓ and ↑, keeps i
   //
   // THE QUEUE'S ROWS ARE SEEDED AS REVIEW DEBT (v1.207.0). Until the full game, `openPlanSession
   // ("new")` dealt a guest the whole FLOW ranking ("Learn next" + "More, in order"), so a fresh
-  // boot overflowed on its own. The Gameplan deals "Learn next" only from a study comparison the
-  // player asks for, so a fresh guest's plan is EMPTY (0 rows) — and the surface under test,
+  // boot overflowed on its own. Since D2 (owner, 2026-09-30) the rows past the session are LOCKED
+  // until it is finished, so a fresh plan deals only its budget — and the surface under test,
   // `renderSession`'s inline rows + `_scrollFocusedDeck`, is the same whatever fills it. So: one
   // card due yesterday in each of 30 decks (the maintenance section is ONE row per covering
   // deck), the planner loaded FIRST through the app's own seam so no deferred swap can rebuild
