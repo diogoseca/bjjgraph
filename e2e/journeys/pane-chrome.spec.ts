@@ -560,7 +560,10 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     ).toBe(false)
     expect(hit.inModal, "the point over the card belongs to the modal/scrim").toBe(true)
 
-    // the modal's own controls take the mouse (clickByMouse refuses intercepted clicks)
+    // the modal's own controls take the mouse (clickByMouse refuses intercepted clicks). Settings
+    // renders lazily (v1.207.0: "Loading settings…" first), and clickByMouse does not wait, so wait
+    // for the control to exist; the reachability claim itself is unchanged.
+    await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings has rendered").toBeVisible()
     await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "Terms inside Settings")
     await expect(page.locator("body")).toContainText("Terms of Use")
     hit = await hitReport(page)

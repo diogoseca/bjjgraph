@@ -1067,7 +1067,7 @@ class Component extends DCLogic {
     };
     document.addEventListener("click", this._onAffiliateClick);
     try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
-    this._renderLocalOnly(); // local-only play: the banner first, then one re-verify attempt
+    this.updateAccountUI();  // local-only play: the banner and the Offline chip first, then one re-verify attempt
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
     this.applyFont();
