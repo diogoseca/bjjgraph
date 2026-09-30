@@ -5,21 +5,29 @@ import { readFileSync } from 'node:fs';
 // Real emitted library, loader, graph and auth facade; no Systems response stubs.
 // Actual app loads the index on explicit Explore/library entry, not a later topic click.
 const sha = (bytes: Buffer) => createHash('sha256').update(bytes).digest('hex');
-const staticRoot = 'source/quartz/static/neural/';
-const catalogue = JSON.parse(readFileSync(staticRoot + 'systems-index.json', 'utf8'));
-// The full library is build-internal since v1.207.0 (never served); the served route is the index
-// plus per-system records, whose bytes must reproduce it exactly.
-const legacyBytes = readFileSync('source/quartz/.neural-internal/systems.json');
-const legacy = JSON.parse(legacyBytes.toString('utf8'));
-const chosen = catalogue.systems[0];
-const recordPath = 'content/system-records/' + chosen.detailHash + '.json';
-const recordBytes = readFileSync(staticRoot + recordPath);
-const record = JSON.parse(recordBytes.toString('utf8'));
+// THE SERVED COPIES, READ IN beforeAll (PR 231 CI, 2026-09-30). This spec used to readFileSync the STATIC input
+// tree (`source/quartz/static/neural/`) at MODULE LOAD. e2e-full ships shards the built
+// `source/public` (whose static/neural IS that tree, copied by the build) plus a few build inputs, so
+// one ENOENT during collection failed all four shards before any test ran. A spec must not depend
+// on a gitignored build input at import (CLAUDE.md §6.4). The build-internal full library is one
+// such input: e2e-full packages it beside the public tree, and a missing copy fails THIS spec, by name.
+const servedRoot = 'source/public/static/neural/';
+const legacyPath = 'source/quartz/.neural-internal/systems.json';
+let catalogue: any, legacyBytes: Buffer, legacy: any, chosen: any, recordPath: string, recordBytes: Buffer, record: any;
 const indexRequest = (url: string) => /\/systems-index\.json(?:\?|$)/.test(url);
 const recordRequest = (url: string) => /\/content\/system-records\/[a-f0-9]{64}\.json(?:\?|$)/.test(url);
 const legacyRequest = (url: string) => /\/systems\.json(?:\?|$)/.test(url);
 
 test.beforeAll(async ({ request }) => {
+  catalogue = JSON.parse(readFileSync(servedRoot + 'systems-index.json', 'utf8'));
+  // The full library is build-internal since v1.207.0 (never served); the served route is the index
+  // plus per-system records, whose bytes must reproduce it exactly.
+  legacyBytes = readFileSync(legacyPath);
+  legacy = JSON.parse(legacyBytes.toString('utf8'));
+  chosen = catalogue.systems[0];
+  recordPath = 'content/system-records/' + chosen.detailHash + '.json';
+  recordBytes = readFileSync(servedRoot + recordPath);
+  record = JSON.parse(recordBytes.toString('utf8'));
   expect(catalogue.systems).toHaveLength(83);
   expect(legacy.systems).toHaveLength(83);
   expect(catalogue.systems.map((s: any) => s.id).sort()).toEqual(legacy.systems.map((s: any) => s.id).sort());
@@ -27,7 +35,7 @@ test.beforeAll(async ({ request }) => {
   expect(record).toEqual(legacy.systems.find((s: any) => s.id === chosen.id));
   // RETIRED (owner ruling 2026-09-29): the legacy monolith is no longer served at all.
   expect((await request.get('/static/neural/systems.json')).ok(), 'retired systems.json is not served').toBe(false);
-  for (const [path, bytes] of [['systems-index.json', readFileSync(staticRoot + 'systems-index.json')],
+  for (const [path, bytes] of [['systems-index.json', readFileSync(servedRoot + 'systems-index.json')],
     ['app/neural.js', readFileSync('neural/dist/neural.js')]] as [string, Buffer][]) {
     const response = await request.get('/static/neural/' + path);
     expect(response.ok(), path).toBe(true);

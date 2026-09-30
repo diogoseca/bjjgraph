@@ -136,7 +136,11 @@ jobs:
             cmp "$built" "source/public/static/neural/app/$(basename "$built")"
           done
           cmp source/quartz/static/neural/graph-data.json source/public/static/neural/graph-data.json
-          tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json
+          # The full Systems library is BUILD-INTERNAL since v1.207.0 (never served): the Systems
+          # journeys prove the served index + records reproduce it exactly, so it rides beside the
+          # public tree like graph-data.json. Absent, those specs fail by name (never at collection).
+          test -f source/quartz/.neural-internal/systems.json
+          tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json source/quartz/.neural-internal/systems.json
 
       - name: Upload tested site
         if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
