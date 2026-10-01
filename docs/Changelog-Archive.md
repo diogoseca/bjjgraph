@@ -55,6 +55,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
 - **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
 - **v1.216.0** — [95 LISTINGS DEAL THEIR OWN OUTCOME TABLE](#v12160--95-listings-deal-their-own-outcome-table)
+- **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9869,3 +9870,46 @@ B2's part is `graph-data.json` (`cal.at` and `absentAt`) and `curriculum.json` (
   451,821 without the stale core.
 - The procedure is now D-285: clean every ignored path except the two dependency symlinks, then prove
   it with `status --ignored`. The content birthtimes survive the clean (6,412 of 6,412 unchanged).
+
+## v1.216.2 — QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE
+
+**Origin coherence follow-up (DEVMV25), 2026-10-01.** This is the report-only finding from B2. The
+queue said `regenerate_graph.quartz_slug` was a third copy of the slug rule. A full survey found
+three copies outside `scripts/_slug.py`, not one:
+- `regenerate_graph.quartz_slug` (`targetPath`);
+- `regenerate_explorer_tree.quartz_slug`;
+- `regenerate_md_from_json._quartz_url_slug` (hrefs, System URLs, `utm_content`).
+
+**The difference.** Each copy stripped the name and collapsed whitespace runs into one `-`.
+Quartz's `sluggify`, which `_slug.quartz_page_path` follows (pinned to `path.ts` since v1.212.7),
+replaces each whitespace character separately and strips nothing. They agreed on today's corpus
+only because no name has a run of whitespace or a space at either end.
+
+**The fold.** All three now read `_slug.quartz_page_path`. `regenerate_graph` keeps the name
+`quartz_slug` as a re-export, because four modules import it from there. One of them is
+`regenerate_neural_data`, which the full-game seat pins; its file is untouched.
+
+**Proof: byte-identical.** Each generator was run with the old rule computed beside the shared one on
+every call:
+
+| generator | calls | mismatches |
+|---|---|---|
+| `regenerate_graph` | 4,455 | 0 |
+| `regenerate_explorer_tree` | 1,378 | 0 |
+| `regenerate_md_from_json` | 11,496 | 0 |
+| `regenerate_neural_data` | 2,083 | 0 |
+| `check_systems_payload` | 83 | 0 |
+
+- `graph.json` differs only by the `strength` that `graph-base` alone always strips, and the
+  timestamp.
+- `explorerTree.json` and the neural emit are identical.
+- The md output of the old and new generators is identical over 4,601 files.
+
+**Gate.** `tests/redirect_targets_test.py` `OneCopy` refuses any copy of the rule in `scripts/`
+outside `_slug.py`, after a positive scan count. It also checks the three emitters use the shared
+function. Both mutants are red on both cases: a local copy back in the explorer, and a local
+`quartz_slug` back in the graph.
+
+**Seen while proving it.** `regenerate:md` on clean dev rewrites the same 507 committed pages under
+both generators, so it is deterministic. Like `content/Principles.md`, the committed pages are
+stale against their generator.

@@ -132,6 +132,28 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  *     set, at redirect-back time", which is the part this repo owns.
  *  3. No assertion about the `redirectTo` origin in `signInWithGoogle` (supabase.ts:197).
  *
+ * ── ONE CLIENT PER PAGE (AUTHDBL1, 2026-10-01) ────────────────────────────────────────────
+ *
+ * The dev deploy's curated gate (run 36926507281, keyed) saw TWO clients on `?error_description=`.
+ * getClient() (supabase.ts) checked `_client`, awaited the SDK and only then created. A redirect-back
+ * routinely has two callers inside that window: authUI's arm, which starts the load, and the Neural
+ * app's resolveNeuralUser(), which proceeds precisely because a load is in flight. Both created a
+ * client. On `?code=` that is the single-use PKCE code exchanged twice. getClient() is now single-
+ * flight. Two tests pin it, both DETERMINISTIC rather than timing-lucky (the unheld race was green
+ * locally 30/30, by a 29-71 ms margin):
+ *   - the held window: the SDK response waits until the app has asked (counted), on all three shapes;
+ *   - the failed load: the first SDK request is aborted, and the next call must retry, not await the
+ *     old failure.
+ * Mutants on the built postscript.js, each killed at its own assertion:
+ *   M-a  check-then-await restored (create on every call while `_client` is unset)
+ *        → held window RED: "2 Supabase clients … must be single-flight"
+ *   M-b  the failed creation promise never cleared
+ *        → failed load RED: "0 Supabase clients after a failed SDK load and one retry"
+ * WHICH DIRECTION PR CI SEES: only KEYLESS. PR builds carry no Supabase config, so the spec supplies
+ * it; both deploys build KEYED. The race does not depend on the direction, because the config exists
+ * in both. Both mutants were killed in both directions: a keyless build, and a local keyed build with
+ * the real config.
+ *
  * These tests deliberately do NOT use the journey() DSL: the subject is the emitted page and
  * its script bundle, not the game loop. They run against the real built site.
  */

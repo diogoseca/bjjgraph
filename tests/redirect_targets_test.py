@@ -12,7 +12,10 @@ MUTANTS (each turns this file red; measured at v1.212.7):
     test_page_path_matches_quartz_by_example;
   - `_page` answering "page" for anything: test_a_missing_target_fails_by_line;
   - the BAD_ESCAPE check removed: test_a_raw_percent_source_fails;
-  - the empty-file floor removed: test_absence_is_not_a_pass.
+  - the empty-file floor removed: test_absence_is_not_a_pass;
+  - a local copy of the rule back in regenerate_explorer_tree.py (v1.216.1): test_no_script_carries_a_copy;
+  - regenerate_graph.quartz_slug defined locally again: test_no_script_carries_a_copy and
+    test_the_emitters_use_the_shared_rule.
 Run by tests/redirect_targets_py.test.mjs, which `test:units` collects.
 """
 
@@ -57,6 +60,38 @@ class QuartzRule(unittest.TestCase):
         self.assertEqual(_slug.quartz_page_path("Positions/Fireman's Carry"), "Positions/Fireman's-Carry")
         # whitespace goes first, so "&" between spaces doubles the hyphens, exactly as Quartz does
         self.assertEqual(_slug.quartz_page_path("A & B?#/"), "A--and--B")
+
+
+# ONE COPY OF THE RULE (v1.216.1). regenerate_graph.py, regenerate_explorer_tree.py and
+# regenerate_md_from_json.py each carried their own copy, which stripped the name and collapsed
+# whitespace runs where Quartz replaces each whitespace character. They agreed on today's corpus
+# (0 mismatches over 4,455 + 1,378 + 11,496 calls) and only by luck; now all three read _slug's.
+COPY = re.compile(r"""replace\(\s*['"]%['"]\s*,\s*['"]-percent['"]|replace\(\s*['"]&['"]\s*,\s*['"]-and-['"]""")
+
+
+class OneCopy(unittest.TestCase):
+    def test_no_script_carries_a_copy(self):
+        scanned, hits = 0, []
+        for p in sorted((ROOT / "scripts").rglob("*.py")):
+            if p.name == "_slug.py":
+                continue
+            scanned += 1
+            for i, line in enumerate(p.read_text(encoding="utf-8").splitlines(), 1):
+                if COPY.search(line):
+                    hits.append(f"{p.relative_to(ROOT)}:{i}: {line.strip()}")
+        self.assertGreater(scanned, 50, "the scan read the scripts")
+        self.assertEqual(hits, [], "a copy of Quartz's page-path rule outside scripts/_slug.py")
+
+    def test_the_emitters_use_the_shared_rule(self):
+        import regenerate_explorer_tree
+        import regenerate_graph
+        self.assertIs(regenerate_graph.quartz_slug, _slug.quartz_page_path)
+        self.assertIs(regenerate_explorer_tree.quartz_page_path, _slug.quartz_page_path)
+        # imported by source, not as a module: regenerate_md_from_json needs jinja2, which test:units
+        # does not promise
+        md = (ROOT / "scripts" / "regenerate_md_from_json.py").read_text(encoding="utf-8")
+        self.assertIn("_quartz_url_slug = quartz_page_path", md)
+        self.assertNotIn("def _quartz_url_slug", md)
 
 
 class Emitter(unittest.TestCase):

@@ -1,25 +1,14 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "60d0bb8b7ae87c26c2d2840d422bbac9b859d9be",
-   "inputs": {
-    "tree": "84e8c10f1023bb83482cc55187ebc8ce0456ffa6"
-   },
-   "package_version": "1.216.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-listing-tables-b2-310cb1311/pr-listing-tables-b2-310cb1311",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-principles-hub-drift-bac9386f0/pr-principles-hub-drift-bac9386f0",
   "content_provenance": {
-   "capture_git_head": "310cb13117ff14aece762db3518bf81bf314c91a",
-   "capture_id": "0a6aaba71d0943dca9ba8673a4c13b21",
+   "capture_git_head": "bac9386f004186d4a14b7c528f7977d74610bbc2",
+   "capture_id": "da4aca6b8c854c7db7d08861e80462f0",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "6c1020b4be401dd3641b603c221d94782030c037",
+   "content_tree": "110d50fcea322d4ddb0857617d043e76d07f7f87",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -44,11 +33,11 @@
    },
    "output_identity": {
     "files": 15996,
-    "sha256": "95cc83f888431501133c4555656a05c9e41319ed6e78898c0093b1ee32fe4208"
+    "sha256": "d261cf8e7d77490f292a325fafb78d245a105c0a452f4e1c4d0f4af6a825a1c0"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-listing-tables-b2-310cb1311/pr-listing-tables-b2-310cb1311"
+    "/home/user/bjj-orchestrator/golden/pr-principles-hub-drift-bac9386f0/pr-principles-hub-drift-bac9386f0"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
