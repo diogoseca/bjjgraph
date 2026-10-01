@@ -600,7 +600,7 @@ class Component extends DCLogic {
     // NOTE: _beltTest is deliberately ABSENT from this list — a belt test SURVIVES the
     // rollFromPosition that starts it. Cancellation is explicit (startRoll / endRound).
     this._decision = null; this._optPick = null; this._optList = null;
-    this._defendSub = null; this._panicKey = null;
+    this._defendSub = null; this._panicKey = null; this._stagedDefense = null;
     this._sweep = null; this._hitStop = null; this._shake = null;
     this.killVignette(false);
   }
@@ -17625,8 +17625,28 @@ class Component extends DCLogic {
     if (pos.ty === "submissions") {
       const sub = this.submissionNode(pos);
       if (this.waitForSubmissionChoices(sub, () => this.enterLand(first, arriving))) return;
-      if (this.playerRole !== sub.fromRole) { this.enterDefense(sub.idx); return; }
-      this.currentPos = sub.idx;
+      if (this.playerRole !== sub.fromRole) {
+        // ── A STAGED TRANSITION KEEPS ITS OWN LANDING (v1.212.3, OCSTAR1) ─────────────────────
+        // A transition authored from a CONTROL ALIAS (Gogoplata Control, Darce Control, …: 12
+        // positions that canonicalise to their submission state) seats you inside that submission.
+        // On the seat that DEFENDS it, this line used to call enterDefense at once, while the roll
+        // was still staged. enterDefense clears `_stagedTech`, unpauses (the Caught rush starts with
+        // nothing pressed), moves the focus to the submission and rewrites the URL to it. So the
+        // transition you opened lost its card, its URL, its focus and its seat star: 74 transition
+        // seats in gi and 73 in no-gi. That is the owner's v1.132.0 rule broken ("you navigate to it
+        // … the landcard is standard"), and their transition rule: "a transition's defending seat is
+        // an ordinary staged landing … play waits for the button".
+        // So a STAGED TRANSITION here gets the ordinary staged landing (its card, URL, focus and
+        // star, the clock held, NO hand: the escapes belong to the rush). The first unpaused frame
+        // runs the rush (`_stagedDefense`, consumed in the frame loop). A submission's own escaping
+        // seat keeps its immediate rush (v1.134.0, rollFromPosition), and an unstaged roll is
+        // already playing, so it still enters the defense here.
+        // `_stagedDefense` LIFTERS, complete: the first unpaused frame (consumes it), enterDefense,
+        // clearEngagement (every new roll, restage and end).
+        const stT = this._stagedTech && this.nodes[this._stagedTech.idx];
+        if (!(stT && stT.ty === "transitions" && this.paused)) { this.enterDefense(sub.idx); return; }
+        this._stagedDefense = sub.idx;
+      } else this.currentPos = sub.idx;
     }
     this._flushLandSkipDebt(); // a new arrival settles the previous landing's deferred verdict
     this._prefetchLandDeck(this.currentPos); // idempotent; covers outcome landings' render window
@@ -17715,6 +17735,15 @@ class Component extends DCLogic {
     this._openLatestOnLand = false;
     this._lastActor = null;
     this.buildDrillPanel(this.currentPos);
+    if (this._stagedDefense != null) {
+      // the deferred catch (above): the chosen transition's card and no hand until play
+      this.optionIdxs = [];
+      this._optList = []; this._optPick = () => {};
+      this._decision = { remaining: null, total: null, warned: 0, pick: this._optPick, opts: [] };
+      const held = this._stagedTech && this.nodes[this._stagedTech.idx];
+      if (held) this.renderLandCard(held, "attempt", null);
+      return;
+    }
     const opts = this.optionsFor(this.currentPos);
     if (!opts.length) { this.after(1.0, () => this.startRoll()); return; }
     this.optionIdxs = opts.map((o) => o.idx);
@@ -18518,7 +18547,16 @@ class Component extends DCLogic {
   }
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
+  /** The first unpaused frame of a staged transition seated as a submission's defender (enterLand's
+   *  deferred catch, v1.212.3): the rush starts now, because the player pressed play. */
+  _runDeferredCatch() {
+    if (this._stagedDefense == null) return false;
+    const sd = this._stagedDefense; this._stagedDefense = null;
+    this.enterDefense(sd);
+    return true;
+  }
   enterDefense(subIdx) {
+    this._stagedDefense = null; // any defense entry supersedes a deferred catch (enterLand)
     this.clearExecution();
     const sub = this.submissionNode(this.nodes[subIdx]);
     if (!sub.cal.defenses) {
@@ -19070,6 +19108,9 @@ class Component extends DCLogic {
         let gdt = this.paused ? 0 : dt;
         // a session exists the moment it runs unpaused with a live hand — before that, a staged
         // roam can be restaged freely and costs nothing
+        // THE DEFERRED CATCH (v1.212.3, enterLand): a staged transition seated as a submission's
+        // defender held its own landing; pressing play runs the rush now.
+        if (gdt > 0) this._runDeferredCatch();
         if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) this._played = true;
         if (this._hitStop) { if (this.now - this._hitStop < 0.09) gdt = 0; else this._hitStop = null; } // 90ms hit-stop
         // A REPLAY RUNS WITH THE GAME CLOCK HELD, and its sweeps are the whole point of it. Travel

@@ -48,6 +48,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
 - **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
+- **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8961,3 +8962,44 @@ so the whole wire was renumbered.
 - In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
   change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
   `handsOverPrefetchCap` and `handsOverWarmCap`.
+
+## v1.212.3 — A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY
+
+**Found by PR 242's seat-star red (OCSTAR1).** Head Extraction to Posture's attacker seat showed
+no seat star on dev. The cause was not the star.
+- Twelve control-alias positions (Gogoplata Control, Darce Control, Straight Ankle Lock Control, …)
+  canonicalise to their submission state. Opening a transition authored from one seats you inside
+  that submission.
+- On the seat that DEFENDS the submission, `enterLand` called `enterDefense` while the roll was
+  still staged. That cleared `_stagedTech`, unpaused (the Caught rush started with nothing
+  pressed), moved the focus to the submission's Defender member and rewrote the URL to it.
+- So the chosen transition lost its card, its URL, its focus and, since the star is drawn beside
+  the focused label, its seat star.
+- That broke the owner's v1.132.0 rule ("you navigate to it … the landcard is standard") and their
+  transition rule ("a transition's defending seat is an ordinary staged landing … play waits for
+  the button").
+
+**Count.** A predicate from the code, checked against a browser sweep of 284 seats per run
+(283/284 agree): 147 transition seats, gi 74 and no-gi 73 (78 attacker, 69 defender). 19 of those
+techniques are dealt somewhere (submission continuations such as Triangle to Armbar); 55 never are.
+In the browser, 73 of the 74 gi seats lost the star. The 74th kept it only because the defense frame
+happened to draw its label. A non-alias control sample: 0 of 80.
+
+**Fix** (owner-approved, OCSTAR2): a STAGED transition seated as a submission's defender gets the
+ordinary staged landing — its card, URL, focus and star, the clock held, no hand.
+`_stagedDefense` holds the catch. `_runDeferredCatch` runs the rush on the first unpaused frame.
+Lifters: that frame, `enterDefense` and `clearEngagement`. A submission's own escaping seat keeps
+its immediate rush (v1.134.0), and an unstaged roll still enters the defense at once.
+
+**Gates.**
+- `tests/seat_staging.test.mjs` stages every seat of every technique in both rulesets (2,630 gi,
+  2,382 no-gi). Focus and URL stay on the chosen node; the clock is held except on a submission's
+  escaping seat (290 / 255). The deferred seats equal the data-derived set exactly (74 / 73).
+- Mutants: no guard (all 3 tests red), a no-op `_runDeferredCatch` (test 2) and no
+  `clearEngagement` lifter (tests 1 and 3).
+- `e2e/journeys/seat-star-coverage.spec.ts` opens every catch seat in gi plus a 40-seat control
+  sample, and asserts focus, URL, clock and a visible star.
+
+**Separate finding, not fixed here:** Counter Entry to Opponent's Leg loses focus on its attacker
+seat too, unlike every other technique from Straight Ankle Lock Control (its id carries an
+apostrophe). See the OCSTAR1 report for its cause.
