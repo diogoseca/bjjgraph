@@ -236,8 +236,20 @@ of the same role is authored and shown, but never dealt there, unless it carries
 listing: a miss must not put the pair back at the technique's origin, a place they never were
 (`validate:graph` rejects a `deal_here` whose miss branch puts at least half its mass there, one on
 the origin itself, and one on the wrong seat). Where a generic move needs a different table from a
-listing, `deal_here` is not the fix. The per-listing outcome tables are the fix (see
-`calibration/listing_tables.json`).
+listing, `deal_here` alone is not the fix: give the listing its **own outcome table**.
+
+**A listing may carry its own table** (`outcomes` and `success_rate`, in a Transition's own shapes),
+used only when the move is played from that listing. Rules:
+- It needs `deal_here: true`, and a table and a rate come together. The schema enforces both.
+- It is for transitions only.
+- Cells must be equal across frames. A `null` frame, in a cell or in the rate, is refused for now:
+  nothing yet says "not dealt at this listing in no-gi". The 10 gi-only panel tables wait for PR B2.
+- The rate is the listing's own. It has no community-vote stream, because votes are keyed by
+  technique name. regenerate_graph rescales the table to it.
+- `validate:graph` checks every one on the built graph (`check_listing_tables`).
+
+The 107 tables the origin-coherence panel elicited live in `calibration/listing_tables.json` (an LLM
+persona panel, not expert data).
 
 ### Transitions and Submission Attempts
 

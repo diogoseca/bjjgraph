@@ -206,7 +206,10 @@ export function ngFlowBuild(app, opts) {
       const tn = nodes[ti];
       if (!tn || tn.ty === "positions") continue;
       if (!rsOk(ti)) { cov.rsHandDropped++; continue; }   // …and a move it cannot deal
-      const a = ngFlowAction(tn, resolve, nodeAt, rateOf);
+      // THE MOVE AS PLAYED FROM THIS STATE (v1.214.0, origin coherence PR B): `app._at` overlays a
+      // listing's own table and is the node itself otherwise. Called on the app, never re-derived
+      // here, so FLOW and the game cannot price the same card two ways.
+      const a = ngFlowAction(app._at(tn, raw[i][2].posId || null), resolve, nodeAt, rateOf);
       if (!a.succ.length && !a.miss.length) continue;
       const er = edgeRow && edgeRow.get(ti);
       const lamRow = (er && er.lam && er.lam[lamIdx]) || null;

@@ -1468,7 +1468,13 @@ class Component extends DCLogic {
       if (c && Array.isArray(c.outcomes)) {
         c.outcomes = c.outcomes.map((o) => Array.isArray(o) ? { to: _to(o[0]), probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
       }
+      // a LISTING's own table (`cal.at[posId]`, v1.214.0) is written in the same tuple form
+      if (c && c.at) for (const h in c.at) {
+        const t = c.at[h];
+        if (t && Array.isArray(t.outcomes)) t.outcomes = t.outcomes.map((o) => Array.isArray(o) ? { to: _to(o[0]), probability: o[1], result: RESULT_WORD[o[2]] || o[2] } : o);
+      }
     }
+    this._atMemo = null;   // overlays of the previous wire's nodes must never survive a re-ingest
     // ── THE PAIR (v1.125.0) ────────────────────────────────────────────────────────────────────
     // Between the outcome expansion (which this READS, to learn which side each technique lands
     // you on) and the EDGE table below (whose `idxs` and map keys are NODE INDEXES, so the split
@@ -2178,7 +2184,7 @@ class Component extends DCLogic {
     return parts.map((x, i) => '<p style="margin:' + (i ? "10px 0 0" : "0") + ';' + (style || "") + '">' + x + '</p>').join("");
   }
   detailHTML(n, cat, neighbors, persp) {
-    const info = this.ngContentFor(n);
+    const info = this._sheetInfo(n, this.ngContentFor(n));
     if (!info) {
       this._curClips = null;
       const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t;
@@ -13838,8 +13844,11 @@ class Component extends DCLogic {
       // `deal_here` (the wire's `alsoFrom`, v1.211.0) because its authored table lands coherently
       // from there. Mirrored by scripts/_mdp_mechanics.py (options) and build_hand.
       if (n.fromPositionId && hereId && n.fromPositionId !== hereId && !(n.alsoFrom && n.alsoFrom.includes(hereId))) continue;
-      const res = this.resultPos(k, posIdx);
-      out.push({ idx: k, node: n, res, ev: evOf ? evOf(k) : null });
+      // THE MOVE AS PLAYED FROM HERE (v1.214.0). `_at` is the node itself unless this listing carries
+      // its own table, so every other card is dealt exactly as before.
+      const node = this._at(n, hereId);
+      const res = node !== n ? this._tableLanding(node, role, k, posIdx) : this.resultPos(k, posIdx);
+      out.push({ idx: k, node, res, ev: evOf ? evOf(k) : null });
     }
     // safety: if role-filtering left nothing, fall back to the best-for-me handful
     if (!out.length) {
@@ -18279,6 +18288,46 @@ class Component extends DCLogic {
   calSuccess(act, frame) {
     return ngKnowledgeCalibrated(act, frame || this._giMode).chance;
   }
+  // ── A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B) ──────────────────────────────────
+  // A transition dealt at an away listing may carry that listing's own rate and outcomes on the
+  // wire (`cal.at[posId]`), because its canonical table would send a miss back to its origin.
+  // `_at` is THE seam: the node itself when the move has no table at `hereId` (every move on a corpus
+  // without listing tables, so nothing changes), else one cached overlay per (node, listing), so a
+  // dealt card keeps one identity. Pure logic is ngKnowledgeCalAt (knowledge-profile.src.js), shared
+  // with the adapter and FLOW. Readers: optionsFor, resolve/tensionSweep (via _actOf), _evShift,
+  // opponentDefend, and the option sheet (_sheetInfo).
+  _at(n, hereId) {
+    const v = ngKnowledgeCalAt(n, hereId);
+    if (v === n) return n;
+    const memo = this._atMemo || (this._atMemo = new Map()), key = n.idx + "|" + hereId;
+    if (!memo.has(key)) memo.set(key, v);
+    return memo.get(key);
+  }
+  // the node an exchange is played with: the dealt overlay when the option carries one, else the
+  // node at its index (all that ever existed before listing tables)
+  _actOf(opt) {
+    const n = this.nodes[opt.idx];
+    return opt.node && opt.node.here != null && opt.node.idx === n.idx ? opt.node : n;
+  }
+  // where a listing's own table lands on success: its first success row that is not a finish,
+  // resolved exactly as _mdp_mechanics.Projection.options resolves it (keep the two identical)
+  _tableLanding(node, role, k, posIdx) {
+    const row = (node.cal.outcomes || []).find((o) => o.result === "success" && o.to !== "game-over");
+    const r = row ? this.resolveOutcomeTo(row.to) : null;
+    return r && r.idx >= 0 ? this.canonicalState(r.idx, r.role || role) : this.resultPos(k, posIdx);
+  }
+  // the option sheet's "Where it leads" is the table you are about to play (owner ruling D4, OCPRB2):
+  // the listing's own when the card was dealt from one, in the dossier's row shape
+  // (_neural_content._technique_dossier); otherwise the dossier, untouched
+  _sheetInfo(n, info) {
+    if (!info || !n || n.here == null || !n.cal || !Array.isArray(n.cal.outcomes)) return info;
+    const tone = { success: "good", failure: "bad", counter: "mid" };
+    const pos = (to) => to === "game-over" ? "Game Over" : String(to || "").split("/")[0];
+    const sr = n.cal.successRate;
+    return { ...info, successRate: typeof sr === "number" ? Math.round(sr) : info.successRate,
+      outcomes: n.cal.outcomes.map((o) => ({ result: o.result ? o.result[0].toUpperCase() + o.result.slice(1) : "Outcome",
+        position: pos(o.to), prob: o.probability, tone: tone[o.result] || "mid" })) };
+  }
   // success = the calibrated base (page==graph==game) shifted by your modifiers (skill + drilling)
   // vs the opponent's resistance. Falls back to the old dominance heuristic only for uncalibrated nodes.
   moveChance(act) {
@@ -18394,8 +18443,10 @@ class Component extends DCLogic {
   _evShift(key, k) {
     const m = this._ev && this._ev.get(key); if (!m) return 0;
     let wsum = 0, acc = 0;
+    // the hand's own state (`<posIdx>/<role>`): a listing table prices its move from there (v1.214.0)
+    const st = this.nodes[parseInt(key, 10)], here = (st && st.posId) || null;
     for (const [j, r] of m) {
-      const c = r.lam[k]; const nd = this.nodes[j];
+      const c = r.lam[k]; const nd = this.nodes[j] && this._at(this.nodes[j], here);
       if (!c || !nd) continue;
       const p0 = this._evP0(nd); if (p0 == null) continue;
       wsum += r.att;
@@ -18537,7 +18588,7 @@ class Component extends DCLogic {
   // moveChance → detonation (in band) or 90ms hit-stop + recoil (out). The resolve draw
   // happens at sweep start, so the needle's landing IS the verdict — no second dice roll. ──
   tensionSweep(opt) {
-    const act = this.nodes[opt.idx];
+    const act = this._actOf(opt);
     const chance = this.moveChance(act);
     const odds = this._execution?.card?.querySelector(".ngodds");
     if (odds) { const pct = Math.round(chance * 100); odds.textContent = pct + "%"; odds.style.color = this.choiceOddsColor(pct, false); }
@@ -18575,7 +18626,7 @@ class Component extends DCLogic {
   // journey consumes the same queue; what changes is which row a mid-band value lands on.
   // This DELIBERATELY re-baselines `replay-digest`: the miss distribution genuinely changed.
   resolve(opt, forced) {
-    const act = this.nodes[opt.idx];
+    const act = this._actOf(opt);
     const success = forced != null ? forced : this.rng("resolve") < this.moveChance(act);   // player-facing, drill-improvable gate
     const out = this.drawOutcome(act, success);
     // THE FLOW LEDGER'S ONE HOOK (v1.137.0). This line is the only place in the app where
@@ -18819,8 +18870,12 @@ class Component extends DCLogic {
     // gather the opponent's adjacent options, split into finishes vs positional counters
     const subs = []; let trans = []; const seen = new Set();
     const rsOk = this._rulesetMask();
+    // a move with its OWN table here (v1.214.0) is played and aimed by that table; every other move
+    // keeps exactly the node and the landing it always had
+    const ownAt = new Map();
     for (const option of this.optionsFor(this.currentPos, this.playerRole === "top" ? "bottom" : "top")) {
       const k = option.idx;
+      if (option.node && option.node.here != null) ownAt.set(k, option);
       const n = this.nodes[k]; if (n.ty === "positions") continue; if (seen.has(n.t)) continue; seen.add(n.t);
       // RULESET (v1.153.0): the opponent is bound by the same garment you are. Deliberately NOT a
       // role filter — `adj` stays per-SITE and this walk stays role-blind on purpose (it asks
@@ -18854,9 +18909,10 @@ class Component extends DCLogic {
     }
 
     // positional counter — prefer moves that improve the opponent most
-    trans.sort((a, b) => this.oppVal(this.nodes[this.resultPos(b, this.currentPos)] || this.nodes[b]) - this.oppVal(this.nodes[this.resultPos(a, this.currentPos)] || this.nodes[a]));
+    const landOf = (k) => ownAt.has(k) ? ownAt.get(k).res : this.resultPos(k, this.currentPos);
+    trans.sort((a, b) => this.oppVal(this.nodes[landOf(b)] || this.nodes[b]) - this.oppVal(this.nodes[landOf(a)] || this.nodes[a]));
     const def = (trans.length ? trans : subs)[(this.rng("opp-pick") * Math.min(3, (trans.length ? trans : subs).length)) | 0];
-    const defNode = this.nodes[def];
+    const defNode = ownAt.has(def) ? ownAt.get(def).node : this.nodes[def];
     this.fx("opponent_move", { technique: defNode.t, idx: def });
     // calibrated destination: draw from the move's own cal.outcomes (encodes the miss distribution),
     // fall back to the legacy resultPos heuristic when the node is uncalibrated.

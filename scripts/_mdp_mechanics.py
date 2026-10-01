@@ -17,7 +17,16 @@ from collections import Counter
 VERSION = 1
 PRODUCER_VERSION = "mdp-metadata-1"
 ROLES = ("top", "bottom")
-CAL_FIELDS = ("successRate", "successRateByRuleset", "outcomes", "stateMoves", "stateAlias")
+CAL_FIELDS = ("successRate", "successRateByRuleset", "outcomes", "stateMoves", "stateAlias", "at")
+
+
+def cal_at(node, here):
+    """A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B): the wire's `cal.at[posId]` for a move
+    played from position `here` ({successRate, successRateByRuleset, outcomes}), or None. The Python
+    twin of the app's `_at` and the adapter's `actAt` (both K.ngKnowledgeCalAt); used by `options`
+    for the card's landing and by `build` to validate the tables and resolve their destinations."""
+    at = (node.get("cal") or {}).get("at") or {}
+    return at.get(here) if here else None
 JS_SAFE_INTEGER = 2 ** 53 - 1
 
 
@@ -178,22 +187,33 @@ class Projection:
             if n.get("ty") not in ("positions", "submissions", "transitions") or not isinstance(n.get("t"), str):
                 raise ValueError("invalid-node-type-or-title")
             cal = n.get("cal") or {}
-            outcomes = []
-            for o in cal.get("outcomes", []):
-                if isinstance(o, list):
-                    if len(o) != 3:
-                        raise ValueError("malformed-outcome-tuple")
-                    target = o[0]
-                    if isinstance(target, int) and not isinstance(target, bool):
-                        if not isinstance(to_tab, list) or target < 0 or target >= len(to_tab):
-                            raise ValueError("invalid-outcome-string-index")
-                        target = to_tab[target]
-                    o = {"to": target, "probability": o[1], "result": {"s": "success", "f": "failure", "c": "counter"}.get(o[2], o[2])}
-                if not isinstance(o, dict):
-                    raise ValueError("malformed-outcome")
-                outcomes.append({k: o[k] for k in ("to", "probability", "result") if k in o})
+
+            def expand(rows):
+                outcomes = []
+                for o in rows:
+                    if isinstance(o, list):
+                        if len(o) != 3:
+                            raise ValueError("malformed-outcome-tuple")
+                        target = o[0]
+                        if isinstance(target, int) and not isinstance(target, bool):
+                            if not isinstance(to_tab, list) or target < 0 or target >= len(to_tab):
+                                raise ValueError("invalid-outcome-string-index")
+                            target = to_tab[target]
+                        o = {"to": target, "probability": o[1], "result": {"s": "success", "f": "failure", "c": "counter"}.get(o[2], o[2])}
+                    if not isinstance(o, dict):
+                        raise ValueError("malformed-outcome")
+                    outcomes.append({k: o[k] for k in ("to", "probability", "result") if k in o})
+                return outcomes
+
             if "outcomes" in cal:
-                cal["outcomes"] = outcomes
+                cal["outcomes"] = expand(cal["outcomes"])
+            if "at" in cal:
+                at = cal["at"]
+                if (not isinstance(at, dict) or n.get("ty") != "transitions"
+                        or any(not isinstance(k, str) or not k or not isinstance(v, dict) for k, v in at.items())):
+                    raise ValueError("malformed-listing-tables")
+                for v in at.values():
+                    v["outcomes"] = expand(v.get("outcomes", []))
             n["cal"] = cal
             if n["ty"] != "positions" and n.get("alsoFrom") is not None:
                 af = n["alsoFrom"]
@@ -400,6 +420,15 @@ class Projection:
                 return nid
         return next((i for i in self.adj[action] if self.by_id[i]["ty"] == "positions"), None)
 
+    def table_landing(self, table, role, action, origin):
+        """A listing table's on-success landing: its first success row that is not a finish, resolved
+        and canonicalised; else the adjacency landing. Mirrors the app's `_tableLanding` exactly."""
+        row = next((o for o in table.get("outcomes", []) if o.get("result") == "success" and o.get("to") != "game-over"), None)
+        r = self.resolve(row["to"]) if row else None
+        if r and r["nodeId"]:
+            return self.canonical(r["nodeId"], r["role"] or role)
+        return self.result_pos(action, origin)
+
     def option(self, n, destination=None, role=None, kind=None, defense=None, relaxed=False, ev=None):
         return {"techniqueId": n["id"], "destinationId": destination, "destinationRole": role,
                 "kind": kind or ("entry" if n["ty"] == "submissions" else "transition"),
@@ -451,7 +480,9 @@ class Projection:
                 if (not relaxed and move["fromPositionId"] and n["posId"] and move["fromPositionId"] != n["posId"]
                         and n["posId"] not in self.also_from.get(move["id"], ())):
                     continue
-                out.append(self.option(move, self.result_pos(k, nid), relaxed=relaxed, ev=ev.get(k)))
+                table = None if relaxed else cal_at(move, n["posId"])
+                dest = self.table_landing(table, role, k, nid) if table else self.result_pos(k, nid)
+                out.append(self.option(move, dest, relaxed=relaxed, ev=ev.get(k)))
             if relaxed:
                 def order(o):
                     m = self.by_id[o["techniqueId"]]
@@ -516,8 +547,25 @@ class Projection:
                     self.issue("missing-continuation", nodeId=n["id"], target=target)
                 else:
                     counts["continuationRows"] += 1
+            if n["role"] == "attacker":
+                for here, tab in sorted((cal.get("at") or {}).items()):
+                    counts["listingTables"] += 1
+                    sr = tab.get("successRate")
+                    if sr is not None and (not number(sr) or not 0 <= sr <= 100):
+                        self.issue("malformed-listing-rate", nodeId=n["id"], listing=here)
+                    for fr, v in (tab.get("successRateByRuleset") or {}).items():
+                        if fr not in ("gi", "nogi") or (v is not None and (not number(v) or not 0 <= v <= 100)):
+                            self.issue("malformed-listing-frame-rate", nodeId=n["id"], listing=here)
+                    rows = tab.get("outcomes", [])
+                    if not rows:
+                        self.issue("missing-listing-outcomes", nodeId=n["id"], listing=here)
+                    for branch in (True, False):
+                        part = [o for o in rows if (o.get("result") == "success") == branch] or rows
+                        if part and not any(number(o.get("probability")) and o["probability"] > 0 for o in part):
+                            self.issue("zero-listing-branch-mass", nodeId=n["id"], listing=here, branch=branch)
+            listing_rows = [row for tab in (cal.get("at") or {}).values() for row in tab.get("outcomes", [])]
             for field in ("outcomes", "defenses"):
-                for row in cal.get(field, []):
+                for row in cal.get(field, []) + (listing_rows if field == "outcomes" else []):
                     counts["outcomeRows" if field == "outcomes" else "defenseRows"] += 1
                     target = row.get("to")
                     if not isinstance(target, str) or not target:

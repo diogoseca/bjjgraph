@@ -98,7 +98,8 @@ export async function buildGameBundles({ root, build }) {
     "ngMdpContractHash", "ngMdpActionId", "ngMdpStateId", "ngMdpNormalizeRootSnapshot",
     "ngMdpDefenseId", "ngMdpEnvelope"];
   const knowledgeNames = ["ngKnowledgeBonus", "ngKnowledgeSharpAfter", "ngKnowledgeAdvance", "ngKnowledgeOutcomeWeights",
-    "ngKnowledgeSkew", "ngKnowledgeExplainMove", "ngKnowledgeExplainEscape"];
+    "ngKnowledgeSkew", "ngKnowledgeExplainMove", "ngKnowledgeExplainEscape",
+    "ngKnowledgeCalAt"];   // a listing's own table (v1.214.0): the adapter's actAt
   // The adapter's injected K namespace must carry every statically named law.
   // A real worker IPC check caught an omitted Bonus export; fail at build time
   // if a future adapter adds a dependency without updating this boundary.

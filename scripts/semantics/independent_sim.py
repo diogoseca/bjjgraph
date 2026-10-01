@@ -250,6 +250,13 @@ class Tables:
                 if tech.get("fromRole") != role:
                     self.stats["role_filtered"] += 1
                     continue
+                if t.get("ownTable"):
+                    # A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B), read from the position
+                    # edge's own fields, not imported (this simulator stays independent of build_hand
+                    # and listing_view, which the differential then checks it against).
+                    tech = {**tech, "successRate": t.get("successRate"),
+                            "successRateByRuleset": t.get("successRateByRuleset"), "outcomes": t.get("outcomes")}
+                    self.stats["listing_tables_dealt_from_edge"] += 1
                 rb = tech.get("successRateByRuleset")
                 if isinstance(rb, dict) and frame in rb and rb[frame] is None:
                     self.stats["rate_null_dropped"] += 1

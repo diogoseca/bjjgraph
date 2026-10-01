@@ -11,7 +11,8 @@ const math = ['NG_MDP_OUTCOMES','ngMdpSolve','ngMdpSolveAsync','ngMdpCompile','n
   'ngMdpSub','ngMdpMul','ngMdpDiv','ngMdpFraction','ngMdpNumber','ngMdpComponents','ngMdpProbability','ngMdpCmp'];
 const knowledge = ['NG_KNOWLEDGE_VERSION','NG_KNOWLEDGE_STUDY_POLICY','ngKnowledgeMastery','ngKnowledgeBonus',
   'ngKnowledgeSharpAfter','ngKnowledgeAdvance','ngKnowledgeOutcomeWeights','ngKnowledgeSkew','ngKnowledgeExplainMove',
-  'ngKnowledgeExplainEscape','ngKnowledgeFingerprint','ngKnowledgeOverride'];
+  'ngKnowledgeExplainEscape','ngKnowledgeFingerprint','ngKnowledgeOverride',
+  'ngKnowledgeCalAt'];   // a listing's own table (v1.214.0): the adapter's actAt
 const runtime = ['ngMdpCreateGameAdapter','ngMdpExpandAsync','ngMdpInstallWorker',
   'ngGameValueRegistrationKey','ngGameValueCreateWorkerHost'];
 const names = [...identity,...math,...knowledge,...runtime];

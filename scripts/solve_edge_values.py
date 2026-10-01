@@ -165,15 +165,19 @@ class Opts:
 class Action:
     """One dealt card: its odds and its two branches, in the ACTOR's frame."""
 
-    __slots__ = ("name", "target", "cat", "weight", "p", "succ", "miss", "empty_branch")
+    __slots__ = ("name", "target", "cat", "weight", "p", "succ", "miss", "empty_branch", "tech")
 
-    def __init__(self, name, target, cat, weight, p, succ, miss, empty_branch):
+    def __init__(self, name, target, cat, weight, p, succ, miss, empty_branch, tech=None):
         self.name, self.target, self.cat = name, target, cat
         self.weight = weight          # attempt share within the dealt hand, 0..1
         self.p = p                    # successRate/100 -- the number drilling moves
         self.succ = succ              # [(w_within_branch, outcome)] summing to 1
         self.miss = miss
         self.empty_branch = empty_branch
+        # The technique AS PRICED: `listing_view(...)` of the edge it was dealt from (v1.214.0).
+        # A reader that needs the table again reads THIS, never `graph[cat][target+"/attacker"]`,
+        # which is the canonical table and silently wrong for a listing with its own.
+        self.tech = tech
 
 
 def _chain_target(graph, to):
@@ -251,6 +255,37 @@ def tech_rate(tech, opts):
     # the frame's own cell is the only honest answer left; it is also what the deferred fix does
     # everywhere, so this branch never disagrees with it.
     return m[opts.frame] if have else None
+
+
+def listing_view(tech, edge):
+    """THE TECHNIQUE AS PLAYED FROM THIS LISTING (v1.214.0, origin coherence PR B). The one Python seam.
+
+    A position edge flagged ``ownTable`` (regenerate_graph ``_listing_table``) carries its own
+    ``successRate``, ``successRateByRuleset`` and ``outcomes``: the move played from THIS listing,
+    whose miss lands here instead of at the technique's canonical origin. This returns the
+    technique with those three fields overlaid, and the technique ITSELF (the same object) for
+    every other edge, so a corpus without listing tables prices every card exactly as before.
+
+    Every graph.json reader that turns a listing into an exchange goes through here: build_hand
+    (so Model, solve_flow, frame_reachable and the EDGE tables), semantics/_kernel.py, app_game.py
+    and independent_sim.py, the score weights and the validators. Its JS twin is the wire's
+    ``cal.at[posId]``, read by the app's ``_at`` and the adapter's ``actAt``.
+    """
+    if tech is None or not edge or not edge.get("ownTable"):
+        return tech
+    return {**tech, "successRate": edge["successRate"],
+            "successRateByRuleset": edge["successRateByRuleset"], "outcomes": edge["outcomes"]}
+
+
+def priced_tech(a):
+    """The technique a dealt card was priced with: ``Action.tech``, set by build_hand from
+    ``listing_view`` (v1.214.0). A reader that needs a card's table again reads THIS, never
+    ``graph[cat][target+"/attacker"]``, which is the canonical table and, for a listing with its own,
+    a different exchange priced silently wrong. An Action without it is a construction bug, never a
+    reason to fall back. Lives here, not in semantics/_kernel.py, so a reader needs no numpy."""
+    if a.tech is None:
+        raise ValueError(f"card {a.name!r} carries no priced technique (Action.tech)")
+    return a.tech
 
 
 def build_action(graph, tech, opts):
@@ -343,7 +378,7 @@ def build_hand(graph, key, opts):
         if att <= 0:                          # it exists here, and is ~never attempted
             continue
         cat = "submissions" if t.get("isSubmission") else "transitions"
-        tech = graph[cat].get(t["target"] + "/attacker")
+        tech = listing_view(graph[cat].get(t["target"] + "/attacker"), t)
         if tech is None:
             continue
         if tech.get("fromRole") != role:      # the role filter is NEVER relaxed
@@ -371,7 +406,7 @@ def build_hand(graph, key, opts):
     for t, att, cat, tech in use:
         p, succ, miss, empty = build_action(graph, tech, opts)
         hand.append(Action(t["technique"], t["target"], cat, att / tot if tot else 0.0,
-                           p, succ, miss, empty))
+                           p, succ, miss, empty, tech=tech))
     return hand, relaxed, absent, bool(ts) and absent == len(ts)
 
 

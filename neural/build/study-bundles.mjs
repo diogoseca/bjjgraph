@@ -39,7 +39,8 @@ export async function buildStudyBundles({ root, build, common, expected, runtime
   // Link the authoritative ESM once, shared with scenario/manifest imports, instead
   // of retaining a second concatenated copy and the unrelated grading API.
   const K=['ngKnowledgeBonus','ngKnowledgeSharpAfter','ngKnowledgeAdvance','ngKnowledgeOutcomeWeights',
-    'ngKnowledgeSkew','ngKnowledgeExplainMove','ngKnowledgeExplainEscape','ngKnowledgeFingerprint','ngKnowledgeOverride'];
+    'ngKnowledgeSkew','ngKnowledgeExplainMove','ngKnowledgeExplainEscape','ngKnowledgeFingerprint','ngKnowledgeOverride',
+    'ngKnowledgeCalAt'];   // a listing's own table (v1.214.0): the adapter's actAt
   const E=['ngMdpCreateExposureAdapter','ngMdpEvaluateFixedPolicyAsync','ngMdpEvaluateExposureAsync','ngMdpExposureProviderRecord'];
   const names=list=>'{'+list.join(',')+'}';
   // All frozen native arithmetic stays in one worker-local scope. ESM wrappers

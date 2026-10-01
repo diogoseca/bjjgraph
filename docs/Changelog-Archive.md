@@ -52,6 +52,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
 - **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
 - **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
+- **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9418,3 +9419,92 @@ stretched so that no long ack was cut off): 135 cancels, all acknowledged.
 - **Suites:** units 1,169/1,169; the hydration gate 3/3; value journeys 73/73 (choice-value,
   game-value-live, option-hand, momentum, gameplan-study-live, option-edge, start-from,
   dual-consumers, game-knowledge).
+
+
+## v1.214.0 — A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)
+
+**Origin coherence PR B1 (OCPRB2), 2026-10-01.** Phase 2's second panel round held 107 per-listing
+outcome tables in `calibration/listing_tables.json`, an LLM persona panel and not expert data. They
+cover 37 moves at 92 listings, all transitions, carrying 1,286 no-gi attempt points that no hand
+deals today. In every one a miss lands back on the listing, while the canonical tables mention their
+listing once in 107. Dealt with the canonical table, each would teleport a miss to the move's origin.
+B1 builds the mechanism and applies **no** table; B2 applies them.
+
+**The orchestrator's rulings (OCPRB2):**
+- the table rides on the listing edge, with one technique node;
+- the listing's own panel rate, with no community-vote stream;
+- the 3 gi-only listings at no-gi-present states get a null no-gi attempt, in B2;
+- the option sheet shows the table you are about to play;
+- B1 then B2, and the full-game seat reviews the pinned diff before it is edited.
+
+**Mechanism:**
+- **Authoring.** A position listing may carry `outcomes` + `success_rate` (all four position
+  schemas). Draft-07 `dependencies` make a table require `deal_here` and the rate, and the rate
+  require the table.
+- **graph.json.** `regenerate_graph._listing_table` puts `ownTable`, `outcomes`, `successRate` and
+  `successRateByRuleset` on the edge. Cells are folded and the table is rescaled to the rate. The
+  edge-rate copy never overwrites it, aliases rewrite its targets, and a submission listing is
+  refused. "Listings with their own outcome table: N" is printed every run.
+- **The wire.** `cal.at[posId]` on the technique, keyed like `alsoFrom`, interned with the rest. It
+  is coverage-gated: the emitter raises unless every table joins, and prints "listing tables: N/N".
+- **One seam per language.**
+  - Python on graph.json: `solve_edge_values.listing_view`, so `build_hand`, `Model`, FLOW and the EDGE
+    tables all inherit it. A card carries its priced technique (`Action.tech`).
+  - JS: the pure `ngKnowledgeCalAt` (knowledge-profile). The app's `_at` / `_actOf` / `_tableLanding` /
+    `_sheetInfo`, the adapter's `actAt` and FLOW (`app._at`) all use it.
+  - The Python twins are `_mdp_mechanics.cal_at` / `table_landing` and `app_game.at` /
+    `table_landing`. `independent_sim` reads the edge's own fields, staying independent.
+- **The two silent joins OCPRB2 named, fixed:**
+  - the adapter's outcome, mass and chance caches key on the listing;
+  - `semantics/_kernel.py` reads `Action.tech` (`_priced`), never `graph[cat][target+"/attacker"]`.
+    `app_game.their_kernel` had the same re-read and now uses `_priced`.
+- **The full-game review (OCPRB1-FG).**
+  - Item 5: the reachability walk keys an own-table card per listing and per frame
+    (`T:<target>@<listing>`), from `build_hand`'s own deal. A gi-only listing's destinations can no
+    longer leak into no-gi. `validate_ruleset_availability.selftest_listing_walk` pins it, and the
+    merge-back mutant is red.
+  - Item 6: the emitter refuses a listing table with a null frame. All 10 gi-only panel tables are
+    refused, and B2 decides the representation.
+  - Its asks: an adapter fixture with one table (`tests/listing_tables_adapter.test.mjs`), and the
+    landing parity, which the app-vs-mechanics differential on a wire with tables now checks.
+- **Pins moved, label-neutral, with a reason in each file:** `mdp-exposure.src.js`'s adapter and
+  knowledge pins and the test's copy, and the three worker knowledge-export lists (game-bundles,
+  worker-core, study-bundles). `mdp_data_corpus.test.mjs`'s mirror of `CAL_FIELDS` gains `at`.
+
+**Byte-identity on today's corpus (zero tables), against a pristine dev 19fe8ea30 emit:**
+- graph.json is identical apart from the `generated` stamp.
+- 5,098 of the emitted neural files are byte-identical: `graph-data.json`, every flashcard, dossier
+  and submission-details file, and every MDP metadata part, in both variants.
+- What moved is code identity only: the app bundles; the manifest's gameplay, law (adapter,
+  knowledge), model, producer, emitter and source hashes; and each variant descriptor's hash, file
+  name and size.
+
+**Gates.**
+
+| gate | result |
+|---|---|
+| `tests/listing_tables_test.py` (via the wrapper) | 6 cases: emitter, rescale, refusals, seam, kernel, "every card is canonical today" |
+| `tests/listing_tables.test.mjs` | dealt, priced, landed, drawn through `resolve`, and the sheet, on 6 injected panel tables at non-alias listings; the app-vs-`_mdp_mechanics` differential on that wire |
+| `tests/listing_tables_adapter.test.mjs` | the adapter, one table: listing vs origin, alternating calls |
+| units | 1,183 / 1,183 |
+| `_kernel --selfcheck`, `app_game --selfcheck` | 59/59, 46/46 |
+| `validate:availability` (both walk selftests), `validate:surfaces`, `validate:graph`, `validate:flow` | pass (FLOW ratchet: 0 new rows) |
+
+**Mutants.**
+- Python, all red: `build_hand` without the overlay; `_priced` falling back; the rescale dropped (on
+  a fixture whose rate sits off its cells: the real tables' pooled cells already equal their no-gi
+  rate, so a real-table fixture could not see it); `deal_here` not required; the merge-back walk.
+- JS, all red: `optionsFor` dealing the bare node; `resolve` on `this.nodes[opt.idx]`;
+  `_tableLanding` as `resultPos`; the mechanics without `table_landing`; `ngKnowledgeCalAt` as the
+  identity; `actAt` without the overlay; `here` dropped from the outcome caches.
+- One survives, and it is equivalent by construction: `here` dropped from the adapter's
+  `moveChance` key. `chanceContextKey` already carries the state, and `here` is a function of it.
+  It is recorded in the test header.
+
+**For B2:**
+- 12 of the 107 tables sit at control-alias positions (armbar, darce, anaconda, Aoki, toe hold,
+  guillotine, straight ankle, omoplata control). The app canonicalises those states into a
+  submission state, so a listing there is never dealt; B2 decides what those 12 become.
+- 10 tables are gi-only and refused (item 6).
+- Two semantics diagnostics still report a canonical rate (`scalars` A/B info,
+  `verify_all frame_forked_dealt_techniques`). They are re-measured in B2.

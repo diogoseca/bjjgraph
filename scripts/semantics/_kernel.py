@@ -116,6 +116,7 @@ from solve_edge_values import (  # noqa: E402
     GRAPH_PATH, L, S, W, Model, Opts, _cell_outcome, _chain_target, flip, is_role, load_graph,
     solve, tech_rate,
 )
+from solve_edge_values import priced_tech as _priced  # noqa: E402  (v1.214.0: the card's priced technique)
 
 ABS = ("W", "L", "D")
 IW, IL, ID = 0, 1, 2
@@ -254,7 +255,10 @@ class Kernel:
                 # renormalise defensively over the cards that survive (rates="frame" can drop one)
                 kept = []
                 for a in hand:
-                    tech = graph[a.cat][a.target + "/attacker"]
+                    # THE TECHNIQUE THE CARD WAS PRICED WITH (v1.214.0). This used to re-read
+                    # graph[a.cat][a.target + "/attacker"]: the canonical table, which for a listing
+                    # with its own (PR B) is a different exchange, priced and expanded silently wrong.
+                    tech = _priced(a)
                     p = card_p(a, tech)
                     if p is None:
                         self._rate_absent += 1
@@ -701,7 +705,7 @@ def _verify_expansion(K):
     for side, hands in (("M", K.model.hands), ("T", K.model.opp_hands)):
         for hand in hands:
             for a in hand:
-                tech = K.graph[a.cat][a.target + "/attacker"]
+                tech = _priced(a)
                 mine = _expand(K.graph, tech, a.p)
                 ref = [(0, w, oc) for w, oc in a.succ] + [(1, w, oc) for w, oc in a.miss]
                 compared += 1
