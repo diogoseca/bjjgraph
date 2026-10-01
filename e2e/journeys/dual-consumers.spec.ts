@@ -173,7 +173,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
     cards += legacy.hands[k].length
     marked += legacy.hands[k].filter((c: Any) => c.mark !== null).length
   }
-  expect(cards, "ordinary position cards compared").toBe(1213) // census:positionChoiceCards
+  expect(cards, "ordinary position cards compared").toBe(1221) // census:positionChoiceCards
   // …and the table is genuinely being read. Without this the test would pass on a build where
   // `_ev` came back empty on BOTH graphs — every mark null, every comparison trivially equal.
   // Preserve the previous 1200/1328 coverage fraction (rounded up to 90.5%) on the

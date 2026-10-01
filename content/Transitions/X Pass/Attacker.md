@@ -16,7 +16,7 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute X Pass in BJJ",
-  "description": "Step-by-step guide for executing X Pass from Half Guard/Top.",
+  "description": "Step-by-step guide for executing X Pass from Open Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -211,7 +211,7 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
 
 The X Pass from the attacker's perspective centers on establishing overwhelming crossface pressure and then driving a diagonal angle across the opponent's body to collapse their guard structure. The passer initiates from top half guard by winning the upper body battle through crossface and shoulder pressure, then creates the signature angular drive by stepping the free leg wide and driving chest and hips diagonally from the opponent's near shoulder toward their far hip. This angular pressure line is what makes the X Pass uniquely effective: it attacks defensive frames from an angle they cannot resist, forces the bottom player to choose between protecting their upper body or retaining their guard, and creates a natural pathway for leg extraction once the opponent is flattened. Mastering this pass requires understanding the relationship between pressure application, timing of the angular step, and patience in waiting for the opponent's structure to collapse before attempting leg extraction.
 
-**From Position**: [[Positions/Half Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -297,9 +297,10 @@ The X Pass from the attacker's perspective centers on establishing overwhelming 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 65% |
-| Failure | [[Positions/Half Guard]] | 20% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 34% |
+| Success | [[Positions/Knee on Belly]] | 7% |
+| Failure | [[Positions/Open Guard]] | 42% |
+| Failure | [[Positions/Half Guard]] | 17% |
 
 
 </section>

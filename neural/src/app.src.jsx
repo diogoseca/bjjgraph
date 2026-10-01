@@ -1270,7 +1270,7 @@ class Component extends DCLogic {
           id: si === 0 ? h.id : h.id + "/" + SUF[role],
           x: h.x, y: h.y, t: h.t, ty: h.ty, s: h.s || null, role: role,
           pairId: si === 0 ? h.id + "/" + SUF[roles[1]] : h.id,
-          posId: h.posId || null, fromPositionId: h.fromPositionId || null,
+          posId: h.posId || null, fromPositionId: h.fromPositionId || null, alsoFrom: h.alsoFrom || null,
           fromRole: h.fromRole || null, familyHub: h.familyHub || null, aka: h.aka || null,
           o: si === 0 ? h.o : null,   // the share ordinal belongs to the hub, and the rep IS the hub
         };
@@ -1296,7 +1296,11 @@ class Component extends DCLogic {
       if (pa === pb) { add(rep(a), rep(b)); continue; }   // tech<->tech rides the attacker layer
       const p = pa ? a : b, t = pa ? b : a, ht = src[t];
       const fr = ht.fromRole;
-      const atOrigin = fr && String(ht.fromPositionId || "").toLowerCase() === String(src[p].posId || "").toLowerCase();
+      // A `dealHere` listing (the wire's `alsoFrom`, v1.211.0) is dealt from this position exactly
+      // like the origin, so it hangs off the performer's member the same way.
+      const pHere = String(src[p].posId || "").toLowerCase();
+      const atOrigin = fr && (String(ht.fromPositionId || "").toLowerCase() === pHere
+        || (Array.isArray(ht.alsoFrom) && ht.alsoFrom.some((x) => String(x).toLowerCase() === pHere)));
       const role = atOrigin ? fr : (lands.get(p * N + t) || fr || "top");
       add(mem(p, role), rep(t));
       // ── AND THE SITE STILL SEES ITS WHOLE NEIGHBOURHOOD (kind 2, ONE-WAY) ──────────────────
@@ -1519,7 +1523,7 @@ class Component extends DCLogic {
       // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
       // filesystem-ordered and one new content file renumbers it, which would silently
       // repoint every share link already posted in a WhatsApp group.
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, aka: n.aka || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, alsoFrom: Array.isArray(n.alsoFrom) && n.alsoFrom.length ? n.alsoFrom : null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, aka: n.aka || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -13719,8 +13723,10 @@ class Component extends DCLogic {
       // The authored role cannot invert; if it is WRONG that is a content bug, and
       // validate_graph_integrity's `from_position_role_mismatch` names all 65 of them.
       if (n.fromRole && n.fromRole !== role) continue;
-      // contextual: exact canonical origin match (data now provides fromPositionId)
-      if (n.fromPositionId && hereId && n.fromPositionId !== hereId) continue;
+      // ORIGIN: dealt at the technique's canonical origin, or where a listing is flagged
+      // `deal_here` (the wire's `alsoFrom`, v1.211.0) because its authored table lands coherently
+      // from there. Mirrored by scripts/_mdp_mechanics.py (options) and build_hand.
+      if (n.fromPositionId && hereId && n.fromPositionId !== hereId && !(n.alsoFrom && n.alsoFrom.includes(hereId))) continue;
       const res = this.resultPos(k, posIdx);
       out.push({ idx: k, node: n, res, ev: evOf ? evOf(k) : null });
     }

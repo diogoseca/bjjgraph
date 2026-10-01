@@ -778,6 +778,76 @@ def check_from_position_validity(position_names):
     return issues
 
 
+def check_deal_here():
+    """The listing-level dealing rule (`deal_here`, v1.211.0) is sound only where it can be.
+
+    A technique is dealt only at its canonical origin; a position listing flagged `deal_here`
+    deals it there too, WITH THE ORIGIN'S OUTCOME TABLE. Three ways that goes wrong, all errors:
+      deal_here_at_origin   the listing IS the origin: the flag says nothing, so it is a typo
+                            for some other listing
+      deal_here_wrong_role  the listing's role is not the technique's performer: the role
+                            filter never relaxes, so the card would still not be dealt
+      deal_here_teleport    at least half of the table's miss branch (failure + counter) lands on
+                            the ORIGIN's position in some frame: a miss from here would put the
+                            pair somewhere they never were (docs/GraphSemantics.md 1.4)
+    Prints how many flags it checked, zero included.
+    """
+    issues, checked = [], 0
+    techs = {}
+    for cat_path in (TRANSITIONS_PATH, SUBMISSIONS_PATH):
+        for path in sorted(cat_path.rglob("*.json")):
+            data = load_json(path)
+            if data and data.get("name") and data["name"] not in techs:
+                techs[data["name"]] = (data, str(path))
+    hub = lambda s: str(s or "").rsplit("/", 1)[0].strip().lower()
+    for path in sorted(POSITIONS_PATH.rglob("*.json")):
+        data = load_json(path)
+        if not data:
+            continue
+        pos_name = data.get("name", path.stem)
+        for role in ("top", "bottom"):
+            for entry in (data.get(role) or {}).get("transitions", []) or []:
+                if entry.get("deal_here") is not True:
+                    continue
+                checked += 1
+                name = entry.get("transition", "")
+                here = f"{pos_name}/{role.capitalize()}"
+                base = {"name": name, "file": str(path), "referencing_position": here}
+                if name not in techs:
+                    issues.append({**base, "type": "deal_here_unknown", "severity": "error",
+                                   "message": f"{here} flags deal_here on '{name}', which has no technique file"})
+                    continue
+                t, tfile = techs[name]
+                origin = str(t.get("from_position", ""))
+                if origin.strip().lower() == here.lower():
+                    issues.append({**base, "type": "deal_here_at_origin", "severity": "error",
+                                   "message": f"{here} flags deal_here on '{name}', but that IS its origin"})
+                    continue
+                if origin.rsplit("/", 1)[-1].strip().lower() != role:
+                    issues.append({**base, "type": "deal_here_wrong_role", "severity": "error",
+                                   "message": f"{here} flags deal_here on '{name}', authored from '{origin}' - another seat"})
+                    continue
+                for fr in ("gi", "nogi"):
+                    miss = home = 0.0
+                    for o in t.get("outcomes") or []:
+                        if o.get("result") == "success":
+                            continue
+                        pr = o.get("probability")
+                        v = pr.get(fr) if isinstance(pr, dict) else pr
+                        if not isinstance(v, (int, float)):
+                            continue
+                        miss += v
+                        if hub(o.get("to")) == hub(origin):
+                            home += v
+                    if miss > 0 and home * 2 >= miss:
+                        issues.append({**base, "type": "deal_here_teleport", "severity": "error",
+                                       "message": (f"{here} flags deal_here on '{name}', but {home:g} of its "
+                                                   f"{miss:g} {fr} miss points land on its origin '{origin}'")})
+                        break
+    print(f"  deal_here listings checked: {checked}")
+    return issues
+
+
 def check_position_type_vs_score():
     """Does the authored dominance word agree with the arithmetic that scores it?
 
@@ -1466,6 +1536,7 @@ def main():
     print(f"[12/{total_steps}] Checking bidirectional from_position consistency...")
     bidir_issues = check_from_position_bidirectional(position_names)
     bidir_issues += check_position_type_vs_score()
+    bidir_issues += check_deal_here()
     bidir_errors = [i for i in bidir_issues if i["severity"] == "error"]
     bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")

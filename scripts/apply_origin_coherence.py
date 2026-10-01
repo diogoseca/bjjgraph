@@ -266,9 +266,22 @@ def read_before(c):
                    "nogi": t["attempt_probability"]["nogi"]} for t in _container(data, c["role"])]
 
 
+def _superseded():
+    """Containers a later phase changed on purpose (calibration/listing_tables.json, phase 2: an
+    old-origin listing removed when its move was re-homed). That phase's own --check covers them."""
+    p2 = ROOT / "calibration/listing_tables.json"
+    return set(json.loads(p2.read_text(encoding="utf-8")).get("supersedes_phase1", [])) if p2.exists() else set()
+
+
 def apply(prov, write, check):
     changed, drift, cells = 0, [], 0
+    later = _superseded()
     for c in prov["containers"]:
+        if c["key"] in later:
+            if check:
+                continue
+            raise SystemExit(f"[origin_coherence] {c['key']} was changed by a later phase "
+                             f"(calibration/listing_tables.json); re-applying phase 1 would revert it")
         data, before = read_before(c)
         want_before = c["before"]
         now = {r["move"]: (r["gi"], r["nogi"]) for r in before}
@@ -298,6 +311,7 @@ def apply(prov, write, check):
             atomic_write_json(ROOT / c["file"], data)
     if check:
         print(f"[origin_coherence] check: {len(prov['containers'])} containers, "
+              f"{len(later)} superseded by a later phase {sorted(later)}, "
               f"{len(drift)} differ from the provenance {drift[:6]}")
         return 1 if drift else 0
     print(f"[origin_coherence] {'wrote' if write else 'would write'} {changed} container(s), "

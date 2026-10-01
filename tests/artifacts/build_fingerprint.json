@@ -1,25 +1,14 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "npm run regenerate:neural",
-   "esbuild": "0.27.0",
-   "git_head": "6a8a35a1e55887a5d52be0ad13a0e591badc04da",
-   "inputs": {
-    "tree": "03c16149b64c52d62d9952c9f92dd1544d4448ab"
-   },
-   "package_version": "1.211.1",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v2"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-origin-coherence-75255f1ef/pr-origin-coherence-75255f1ef",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-80d42a0ec/pr-origin-coherence-p2-80d42a0ec",
   "content_provenance": {
-   "capture_git_head": "75255f1ef37a6db8eb60abb149d3d6dde8757cc3",
-   "capture_id": "62a4172f80884d8bb6c2056f36b1d7c4",
+   "capture_git_head": "80d42a0ecda8d935e0ef1bed8417513dc85a9c9c",
+   "capture_id": "3ca2977eef974119add56aef83036b86",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "03d93dacb3885a7b086645fd5c03e151d26b4fdb",
+   "content_tree": "eb51aecdd81ad6af4995eb7e4ad6362f14d0b7ee",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -44,11 +33,11 @@
    },
    "output_identity": {
     "files": 15995,
-    "sha256": "a5f9cdfea71458a900cadbd50f2e4e34f5dbd2db85d94c87f743301a24b61f33"
+    "sha256": "d731fd7f8ffc274db33bf9c69f1bbb11af3ddae5e960c4280c536bea54e8b3a3"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-2/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-75255f1ef/pr-origin-coherence-75255f1ef"
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-80d42a0ec/pr-origin-coherence-p2-80d42a0ec"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -65,21 +54,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2657,
-    "sha256": "59b000e7cfde8af56d617404015b999b86f654f871606f345faebc4aa1411897"
+    "sha256": "b1560a7724441263523e194fb2c5c4c2a487e6c4fb47b36fd88569116190165a"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
-    "sha256": "1b46471c663470e12ac01063b8f5a3244767e7b0d705edead050344634cfa88b",
+    "sha256": "31ab8e9e4446948be0788704e3e0e8fe474b5c492b6238f61183a7c027095621",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111556,
-    "sha256": "1c320206114d1658eb88ed400741b066aaf28aa9bddeb91dac475dd68465f8fb",
+    "sha256": "905bb09f7a18ac01c5f1b75716aabff8676d3b17987df59445be910539da021c",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 27465,
-    "sha256": "5e0344683a54daf0f0c4deb42a9552381fa7609ab3bd1bb7a7286a6d7ce34b54",
+    "sha256": "01e730543c0b28bd9dc110f43a6a428080af4f886350463b943823bc832fd796",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
@@ -95,8 +84,8 @@
     "sha256": "8b84d852f6a0fc1ab3538acdcdd1c4a731c8e89db484873fcdd3a2fd064ad7f0"
    },
    "static/neural/app/neural.js": {
-    "bytes": 667986,
-    "sha256": "632ee88cd7dbe619f596c6e6b9976455fd71b3a772be1e09e651a0d19560453a",
+    "bytes": 668203,
+    "sha256": "6ffedaf98971cc524f5885ea5af21f676c04b34d1cf71169ba5e787a66764761",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -162,7 +151,7 @@
  },
  "census": {
   "article_headings": 94292,
-  "article_links": 213149,
+  "article_links": 213165,
   "files": 15995,
   "gzip_files": 1,
   "head_links": 37357,

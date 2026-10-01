@@ -47,6 +47,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
+- **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8877,3 +8878,86 @@ and the persisted Challenges pane over a freshly starting roll.
     `injectedReloadAfterGrade`.
 - The full core suite with the tripwire on: 757 passed, 5 skipped, 0 failed. No existing journey
   starts a page-initiated navigation, so none needed declaring.
+
+## v1.212.0 — ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME
+
+**The rule.** The game dealt a listed technique only at its canonical origin. Phase 1 (v1.210.0)
+fixed the orphans. Its panel also judged 13 away-from-origin listings whose authored table does not
+drag a miss back to the origin, and restored 8.
+- A position listing may now carry `"deal_here": true` (all four listing schemas, `const: true`).
+- It reaches graph.json as `dealHere` on the position edge, and the wire as `alsoFrom` (posId
+  strings, never an index) on the technique.
+- Five dealers honour it the same way: `build_hand`; `optionsFor` plus the ingest link-member choice;
+  `_mdp_mechanics.Projection`, which uses a private map so no node column or adapter changed;
+  `app_game.py`; and `independent_sim.py`.
+- `validate:graph` adds `deal_here_at_origin`, `deal_here_wrong_role` and `deal_here_teleport`.
+  The last fires when at least half of the miss branch lands on the origin in some frame.
+- The full-game seat was told the exact pinned lines first. It answered no collision with FGHYD1.
+
+**The 8 listings** take no new number: the authored share and the authored table. They are Back
+Control Maintenance at harness, seat-belt control, body triangle and invisible collar; Knee Shield
+Retention at half guard and z-lock; and Reverse De La Riva Recovery at inverted guard and
+grasshopper. Dealt cards went 1,213 → 1,221.
+
+**The 5 re-homes** follow phase 1's verdicts: X Pass to open guard top; Lumberjack Sweep to seated
+guard; Balloon Sweep to feet on hips; Waiter Sweep to deep half; Elbow Escape to Guard to side
+control bottom.
+- A second panel round wrote each move's new table and rate. It is the same LLM persona panel: 10
+  unnamed archetypes, one round, not expert data. The same round held the 107 per-listing tables
+  for PR B (`calibration/listing_tables.json`, 40 agent runs, every ballot valid).
+- The old-origin listing was removed for 4 (shares spread proportionally) and kept for Waiter Sweep
+  at butterfly guard.
+- **Two schema facts found on the way.** Outcome cells must be equal across frames:
+  regenerate_graph loads a technique through `reduce_to_scalar`, and 4,101 of 4,101 cells already
+  were. So each table is pooled over the frames, and the frame difference lives in the rate.
+- The rate the game publishes is the votes PRIOR, not the content `success_rate`, which only seeds
+  the community count (`_votes.folded_rate`). So the panel's per-frame rate is written as the prior
+  in templates/votes.json and as an override in calibration/overrides.json, so `calibrate:apply`
+  cannot restore the old-origin prior.
+- The long prose still describes the old origin: 40 new `targets_outcome_mismatch` warnings, plus 5
+  `technique_range_low` on small secondary success rows. It is queued for the owner's content pass.
+
+**What moved** (all re-measured; the semantics artifacts stay STALE):
+
+| measure, from standing, no-gi | dev | v1.212.0 |
+|---|---|---|
+| P(I finish), player-neutral | 0.5533 | 0.5533 |
+| P(I finish), shipped | 0.7237 | 0.7230 |
+| P(I finish), the app's game | 0.3440 | 0.3452 |
+| steps to finish, shipped | 11.38 | 11.56 |
+| origin filter drops | 47.80% | 47.21% |
+| leg locks end | 8.08% | 7.78% |
+
+The finisher law moved by TV 0.018 (player-neutral) and 0.022 (shipped). Win chance (blank
+profile, a roll starting there) at body triangle top went 0.778 → 0.812 in no-gi and
+0.781 → 0.832 in gi. Every other seat touched moved by at most 0.25 points.
+
+**Gates and mutants.**
+- tests/mdp_data_corpus.test.mjs kills dropping the rule in Python and in the app (Grasshopper
+  Guard/bottom).
+- validate:json kills the schema without the property.
+- validate:graph kills the at-origin and teleport flags.
+- The link-member mirror's mutant SURVIVES. It is equivalent on today's content, because no flagged
+  table lands on its own listing.
+- FLOW: the wire's whole-percent shares now put half guard bottom's 1-point cards at 1% for
+  1.408%, so Knee Torque Sweep's gradient reads 0.69x.
+  - Fed the exact shares, JS and Python agree to 0.02% L1 with the top-10 exact in all four games.
+    So the worst-deck bounds went 0.30 → 0.35 (no-gi) and the near-tie 1% → 1.5%.
+  - A zero band of 1e-7 holds the one rounding sign flip (10 decks, capped at 12).
+  - The reference built without the rule, against a wire with it, is red in all four games.
+  - The Back Control x0.8 mutant still kills.
+- The FLOW ratchet names kimura-trap/bottom|Kimura Defense (-0.231 → -0.257). Its success lands on
+  a half guard bottom that is worth less now. Seven known rows improved.
+
+**v1.212.2: the layout kept every coordinate and reordered every node.** `regenerate:graph-layout`
+in preserve mode reused all 1,448 coordinates. It still wrote the nodes in graph.json traversal
+order, which had drifted from the committed file. That array becomes graph-data.json's node order,
+so the whole wire was renumbered.
+- e2e-full went red on journeys that take "the first node of a type": seat-star picked Head
+  Extraction to Posture over Knee Slice Pass, and roam-stage picked Gogoplata Control, a control
+  alias.
+- Preserve mode now keeps the prior file's order (`_load_prev_order`), and new nodes append. The
+  wire's order equals dev's again.
+- In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
+  change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
+  `handsOverPrefetchCap` and `handsOverWarmCap`.

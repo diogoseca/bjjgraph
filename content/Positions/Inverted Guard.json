@@ -943,7 +943,8 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 9
-        }
+        },
+        "deal_here": true
       },
       {
         "transition": "Sweep from Inverted Guard",

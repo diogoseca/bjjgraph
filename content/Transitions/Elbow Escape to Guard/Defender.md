@@ -193,7 +193,7 @@ As the buggy choke top player, defending against the Elbow Escape to Guard means
 
 The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip escape, knee insertion—and each phase offers a distinct window for you to counter. Early recognition allows you to tighten grips and increase pressure before the wedge establishes. If the wedge does get in, you can strip it by driving your forearm deeper or follow the hip escape to take the back. The key defensive principle is that you should never allow the bottom player to complete two consecutive phases of the escape without applying a counter. Passive maintenance of the buggy choke position invites escape; active pressure management and transition readiness keep you in control.
 
-**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 

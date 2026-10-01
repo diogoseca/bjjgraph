@@ -311,6 +311,7 @@ class AppPort:
                      "t": h["t"], "ty": h["ty"], "s": h.get("s"), "role": role,
                      "pairId": h["id"] + "/" + roles[1].capitalize() if si == 0 else h["id"],
                      "posId": h.get("posId") or None, "fromPositionId": h.get("fromPositionId") or None,
+                     "alsoFrom": h.get("alsoFrom") or None,
                      "fromRole": h.get("fromRole") or None, "cal": None}
                 s = h.get("s")
                 if isinstance(s, list) and len(s) > si and _num(s[si]):
@@ -339,8 +340,9 @@ class AppPort:
             p, t = (a, b) if pa else (b, a)
             ht = src[t]
             fr = ht.get("fromRole")
-            at_origin = bool(fr) and (str(ht.get("fromPositionId") or "").lower()
-                                      == str(src[p].get("posId") or "").lower())     # L1238
+            p_here = str(src[p].get("posId") or "").lower()
+            at_origin = bool(fr) and (str(ht.get("fromPositionId") or "").lower() == p_here   # L1238
+                                      or any(str(x).lower() == p_here for x in (ht.get("alsoFrom") or ())))
             role = fr if at_origin else (lands.get(p * N + t) or fr or "top")
             add(mem(p, role), rep(t))
             links.append((mem(p, "bottom" if role == "top" else "top"), rep(t), 2))  # L1253 kind 2
@@ -405,6 +407,7 @@ class AppPort:
             nodes.append({"idx": i, "id": n["id"], "t": n["t"], "ty": n["ty"], "s": s, "dom": dom,
                           "posId": n.get("posId") or n.get("fromPositionId") or None,   # L1413
                           "fromPositionId": n.get("fromPositionId") or None,
+                          "alsoFrom": n.get("alsoFrom") or None,
                           "fromRole": n.get("fromRole") or None, "cal": n.get("cal") or None,
                           "role": n.get("role") or None, "pairId": n.get("pairId") or None})
         id_index = {}
@@ -692,7 +695,8 @@ class AppPort:
             seen.add(n["t"])
             if n["fromRole"] and n["fromRole"] != role:                         # L12626 role, READ
                 continue
-            if n["fromPositionId"] and here_id and n["fromPositionId"] != here_id:   # L12628 origin
+            if (n["fromPositionId"] and here_id and n["fromPositionId"] != here_id   # L12628 origin
+                    and here_id not in (n["alsoFrom"] or ())):                      # deal_here
                 continue
             out.append({"idx": k, "node": n, "ev": ev_of(k) if ev_of else None})
         if not out:                                                             # L12633 fallback

@@ -191,7 +191,7 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
 
 Defending the Lumberjack Sweep requires the top player to recognize the setup early and address the two pillars that make the sweep possible: the deep underhook and the angular hip displacement beneath your center of gravity. As the passer in half guard top, your primary defensive framework centers on denying the underhook through aggressive crossface pressure or whizzer control, and preventing the bottom player from creating the 45-degree angle that generates sweeping leverage. When the sweep is already in motion, the defender must act decisively by posting, sprawling, or extracting the trapped leg rather than trying to resist the rotational force directly. Understanding the mechanical triggers of this sweep allows the top player to shut it down before it develops momentum, or to transition to dominant positions when the bottom player overcommits to the sweep attempt.
 
-**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 

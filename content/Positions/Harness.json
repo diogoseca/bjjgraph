@@ -484,7 +484,8 @@
         "attempt_probability": {
           "gi": 19,
           "nogi": 20
-        }
+        },
+        "deal_here": true
       },
       {
         "transition": "Kimura from Back",

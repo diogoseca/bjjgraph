@@ -208,7 +208,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 - **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (7% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
 - **[[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Cross Collar Choke from Closed Guard]]** (0% of attempts)
 
@@ -265,8 +265,6 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 - **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (1% of attempts)
 
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (5% of attempts)
-
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (1% of attempts)
 
 - **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (2% of attempts)
 

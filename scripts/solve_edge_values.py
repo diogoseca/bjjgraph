@@ -314,8 +314,9 @@ def build_action(graph, tech, opts):
 
 def build_hand(graph, key, opts):
     """
-    The dealt hand at a role-node: role-filtered, origin-filtered (relaxing ORIGIN
-    and never ROLE when that empties it), weights renormalised to 1.
+    The dealt hand at a role-node: role-filtered, origin-filtered (a card is dealt at its
+    canonical origin or at a `dealHere` listing; ORIGIN, never ROLE, is relaxed when that
+    empties the hand), weights renormalised to 1.
 
     Returns ``(hand, relaxed, absent, frame_absent)``:
 
@@ -352,7 +353,12 @@ def build_hand(graph, key, opts):
             continue
         picks.append((t, att, cat, tech))
 
-    same = [x for x in picks if x[3].get("fromPositionId") == hub]
+    # ORIGIN: a card is dealt at its canonical origin, or at a listing flagged `dealHere`
+    # (the listing-level dealing rule, v1.211.0: an away listing whose authored table lands
+    # coherently from here). The same rule, read from the wire's `alsoFrom`, is applied by
+    # _mdp_mechanics.Projection.options and the app's optionsFor; mirrored in
+    # semantics/independent_sim.py and semantics/app_game.py.
+    same = [x for x in picks if x[3].get("fromPositionId") == hub or x[0].get("dealHere") is True]
     if same and opts.origin:
         use, relaxed = same, False
     else:

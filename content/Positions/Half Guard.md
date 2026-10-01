@@ -226,13 +226,13 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (11% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (7% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (11% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
@@ -265,8 +265,6 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Submissions/Kimura/from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
 
 - **[[Transitions/Half Guard to Kimura Trap/Attacker|Half Guard to Kimura Trap]]** (5% of attempts)
-
-- **[[Transitions/Lumberjack Sweep/Attacker|Lumberjack Sweep]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -331,7 +329,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (13% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (7% of attempts)
 
@@ -372,8 +370,6 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (5% of attempts)
 
 - **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (3% of attempts)
-
-- **[[Transitions/X Pass/Attacker|X Pass]]** (1% of attempts)
 
 
 ### Common Mistakes

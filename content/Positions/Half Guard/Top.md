@@ -33,7 +33,7 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {

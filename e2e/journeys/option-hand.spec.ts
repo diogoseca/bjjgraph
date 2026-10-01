@@ -42,7 +42,10 @@ const HANDS = `(() => {
         const n = a.nodes[k];
         if (n.ty === "positions" || seen.has(n.t)) continue; seen.add(n.t);
         if (n.fromRole && n.fromRole !== role) continue;
-        if (n.fromPositionId && p.posId && n.fromPositionId !== p.posId) continue;
+        // ORIGIN, with its one authored exception (v1.212.0): a listing flagged deal_here deals the
+        // technique at that position too, carried on the wire as the technique's alsoFrom posIds.
+        if (n.fromPositionId && p.posId && n.fromPositionId !== p.posId
+          && !(Array.isArray(n.alsoFrom) && n.alsoFrom.includes(p.posId))) continue;
         pool.push({ t: n.t, ty: n.ty });
       }
       const dealt = a.optionsFor(pi);
@@ -92,7 +95,8 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
-  // available: this spec's INDEPENDENT copy of the two filters (role, origin) and the app's own
+  // available: this spec's INDEPENDENT copy of the two filters (role, and origin with its
+  // deal_here exception) and the app's own
   // `optionsFor` must agree on the exact SET, every time. Withheld cards and phantom cards are
   // one assertion now, and the category floor is not needed to state it.
   const withheld: string[] = []

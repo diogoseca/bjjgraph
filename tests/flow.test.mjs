@@ -157,12 +157,24 @@ test("both roles carry occupancy — the top-member collapse must never come bac
 //   ONE-SIDED (scaling REF.v0 by 0.99 kills the no-gi row; +0.5% / +2% survive).
 //
 // The TOLERANCES are per game because the rounding lands differently in each, and every figure
-// below is the one MEASURED at v1.210.0 (origin coherence) so a drift is visible against it:
-//   game            V0 gap   top-40 shared   within 5%   worst deck           L1 gap
-//   nogi            2.07%    39/40           85.5%       23.4%                1.60%
-//   gi              1.84%    40/40           87.8%       29.0% Spine Lock/Truck 1.50%
-//   nogi/standing   0.87%    39/40           65.4%       24.7%                2.31%
-//   gi/standing     1.13%    39/40           75.2%       26.5%                1.79%
+// below is the one MEASURED at v1.212.0 (origin coherence phase 2) so a drift is visible against it:
+//   game            V0 gap   top-40 shared   within 5%   worst deck                       L1 gap
+//   nogi            0.84%    39/40           86.6%       31.0% Knee Torque Sweep|Attacker 1.56%
+//   gi              1.78%    39/40           88.7%       29.5% Kneebar from Half Guard    1.55%
+//   nogi/standing   0.18%    40/40           68.6%       31.0% Knee Torque Sweep|Attacker 2.37%
+//   gi/standing     1.10%    39/40           73.9%       29.5% Kneebar from Half Guard    1.79%
+// v1.212.0 raised the no-gi worst-deck bounds 0.30 -> 0.35 and the top-10 near-tie 1% -> 1.5%, and
+// both are ROUNDING, proved rather than assumed: half-guard/bottom now deals Knee Shield Retention
+// (deal_here) and lost Lumberjack Sweep (re-homed), so its 1-point cards are 1.408% of the hand and
+// ship as 1% — Knee Torque Sweep's gradient is 0.69x the reference's. The same kernel fed the EXACT
+// shares (build_hand's, patched into cal.ev / cal.evGi) agrees in all four games: L1 0.00-0.02%,
+// top-40 40/40, top-10 order exact. The gi/standing swap (Closed Guard|Top / Half Guard|Top, 1.30%
+// apart in the reference) is the same hand. MUTATION: the reference built WITHOUT the deal_here rule
+// while the wire keeps it is red in all four games under these bounds (no-gi top-40 37, gi rank 3,
+// no-gi/standing rank 6, gi/standing rank 7).
+// (v1.210.0: nogi 2.07% / 39/40 / 85.5% / 23.4% / 1.60%; gi 1.84% / 40/40 / 87.8% / 29.0% Spine Lock
+// from Truck / 1.50%; nogi/standing 0.87% / 39/40 / 65.4% / 24.7% / 2.31%; gi/standing 1.13% / 39/40 /
+// 75.2% / 26.5% / 1.79%.)
 // (v1.209.0, before the orphaned techniques were listed at their origins: nogi 2.45% / 40/40 / 87.0% /
 // 23.6% / 1.47%; gi 0.68% / 39/40 / 88.7% / 29.0% / 1.44%; nogi/standing 1.05% / 39/40 / 65.1% / 24.6%
 // / 2.19%; gi/standing 0.49% / 40/40 / 75.2% / 23.6% / 1.67%.)
@@ -172,9 +184,9 @@ test("both roles carry occupancy — the top-member collapse must never come bac
 // — the aggregate L1 gap stays under 3% in every game, and the ORDER at the top is exact in all four,
 // up to one adjacent near-tie in no-gi (see the top-10 rule in the test).
 const GAMES = {
-  "nogi":          { frame: "nogi", start: null,     top40: 39, band: 0.85, worst: 0.30 },
+  "nogi":          { frame: "nogi", start: null,     top40: 39, band: 0.85, worst: 0.35 },
   "gi":            { frame: "gi",   start: null,     top40: 39, band: 0.85, worst: 0.35 },
-  "nogi/standing": { frame: "nogi", start: STANDING, top40: 38, band: 0.60, worst: 0.30 },
+  "nogi/standing": { frame: "nogi", start: STANDING, top40: 38, band: 0.60, worst: 0.35 },
   "gi/standing":   { frame: "gi",   start: STANDING, top40: 39, band: 0.70, worst: 0.30 },
 };
 function solveGame(key) {
@@ -203,13 +215,14 @@ for (const key of Object.keys(GAMES)) {
     // the same reasoning as the top-40 boundary swap above. Measured at v1.210.0 (origin coherence):
     // in no-gi `Mount|Top` and `Closed Guard|Bottom` are ranks 5/6 with reference gradients 0.110307 vs
     // 0.110738 (0.39% apart), and the wire puts them 0.02% apart the other way round. A swap is
-    // allowed only between neighbours within 1% in the reference; anything else is a disagreement.
+    // allowed only between neighbours within 1.5% in the reference (1% until v1.212.0; see the
+    // tolerance table above); anything else is a disagreement.
     // MUTATION: `Back Control|Top`'s reference gradient x0.8 drops it below `Closed Guard|Top` (4.7% apart):
     // red, "not a near-tie swap". Non-kill, recorded: x0.9 on `Half Guard|Bottom` crosses no neighbour.
     assert.deepEqual([...jsOrder.slice(0, 10)].sort(), [...pyOrder.slice(0, 10)].sort(), "top-10 set");
     for (let r = 0; r < 10; r++) {
       if (jsOrder[r] === pyOrder[r]) continue;
-      const near = (a, b) => Math.abs(ref.py.get(a) - ref.py.get(b)) / Math.abs(ref.py.get(b)) <= 0.01;
+      const near = (a, b) => Math.abs(ref.py.get(a) - ref.py.get(b)) / Math.abs(ref.py.get(b)) <= 0.015;
       const swapped = (jsOrder[r] === pyOrder[r + 1] && jsOrder[r + 1] === pyOrder[r] && near(pyOrder[r], pyOrder[r + 1]))
         || (r > 0 && jsOrder[r] === pyOrder[r - 1] && jsOrder[r - 1] === pyOrder[r] && near(pyOrder[r], pyOrder[r - 1]));
       assert.ok(swapped, `top-10 order differs at rank ${r + 1}: js ${jsOrder[r]} vs py ${pyOrder[r]}, not a near-tie swap`);
@@ -234,9 +247,18 @@ for (const key of Object.keys(GAMES)) {
     assert.ok(ok / n >= g.band, `${((ok / n) * 100).toFixed(1)}% within 5% (floor ${g.band * 100}%)`);
     assert.ok(worst < g.worst, `worst ${(worst * 100).toFixed(1)}% on ${worstDeck}`);
     assert.ok(l1 / l1d < 0.03, `aggregate L1 gap ${((l1 / l1d) * 100).toFixed(2)}%`);
-    // the sign: the negative set is the reference's, exactly
-    const jsNeg = k.deckKeys.filter((d, i) => run.grad[i] < -1e-12).sort();
-    const pyNeg = ref.decks.filter((d) => ref.py.get(d) < -1e-12).sort();
+    // the sign: the negative set is the reference's, exactly — outside a ZERO band where BOTH kernels
+    // call a deck no effect. Whole-percent rounding flips the sign of a gradient that is zero in all
+    // but the eighth decimal: v1.212.0, gi/standing, `Crackhead Control to New York|Attacker` is
+    // py +3.94e-8 and js -1.03e-9 (exact shares: js +3.94e-8). The band is symmetric, its members
+    // are counted, and a real sign error (any gradient either kernel prices above 1e-7) still fails.
+    const ZERO = 1e-7;
+    const nil = (d) => Math.abs(ref.py.get(d)) < ZERO && Math.abs(run.grad[k.deckIdx.get(d)]) < ZERO;
+    const jsNeg = k.deckKeys.filter((d, i) => run.grad[i] < -1e-12 && !nil(d)).sort();
+    const pyNeg = ref.decks.filter((d) => ref.py.get(d) < -1e-12 && !nil(d)).sort();
+    // Measured at v1.212.0: 0 decks in the band in three games, 10 of 1,560 in gi/standing (2 of them
+    // negative on one side: Vaporizer|Bottom and the deck above). The cap is the measurement plus 2.
+    assert.ok(k.deckKeys.filter(nil).length <= 12, `${k.deckKeys.filter(nil).length} decks in the zero band`);
     assert.deepEqual(jsNeg, pyNeg, "the decks whose drilling LOWERS the score are the reference's");
   });
 }
@@ -264,16 +286,20 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // by deriving it from the source it checks.
   // v1.209.0: this is now the no-gi kernel a no-gi player actually gets (the mask on); the count did
   // not move. The gi count is its own tripwire — 21, the same ladder without the rows gi prices up.
+  // v1.212.0 (origin coherence phase 2): 24 -> 21 in no-gi, 22 -> 21 in gi. Three LEFT, none joined:
+  // Body Triangle Lock and Seat Belt to Body Triangle (both |Attacker), and Vaporizer|Bottom (no-gi
+  // only). Body triangle now deals Back Control Maintenance (a deal_here listing), so it is worth
+  // more than the seat belt it is entered from and entering it stopped costing value.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = NOGI.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 24, "24 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
-  assert.deepEqual(jsNeg, pyNeg, "and they are the same 24");
+  assert.equal(jsNeg.length, 21, "21 decks backfire at lam 2 on a blank no-gi profile"); // census:negDecks
+  assert.deepEqual(jsNeg, pyNeg, "and they are the same 21");
   const gi = SOLVED.gi;
   const giNeg = gi.k.deckKeys.filter((d, i) => gi.run.grad[i] < -1e-12);
   // 22 since v1.210.0 (origin coherence): `De La Riva to Inverted Guard|Attacker` joined once 50-50 Entry
   // was listed at inverted-guard/bottom, its own origin, and inverted guard stopped being worth more than
   // the DLR it is entered from. Nothing left the set, and no-gi stayed at 24.
-  assert.equal(giNeg.length, 22, "22 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
+  assert.equal(giNeg.length, 21, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
   // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
   assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
   assert.ok(jsNeg.includes("New York Control to Invisible Collar|Attacker"));

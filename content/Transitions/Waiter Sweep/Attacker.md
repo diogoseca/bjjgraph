@@ -16,7 +16,7 @@ description: "How to execute the Waiter Sweep from Butterfly Guard in BJJ. Step-
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Waiter Sweep in BJJ",
-  "description": "Step-by-step guide for executing Waiter Sweep from Butterfly Guard/Bottom.",
+  "description": "Step-by-step guide for executing Waiter Sweep from Deep Half Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -211,7 +211,7 @@ description: "How to execute the Waiter Sweep from Butterfly Guard in BJJ. Step-
 
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises the opponent's base and posture. The technique works by using butterfly hooks to elevate the opponent while simultaneously using grips to break their posting ability, creating a clean sweep to side control or mount. Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses leverage and timing to redirect the opponent's weight, making it accessible to practitioners of all sizes and strength levels. The sweep is effective in both gi and no-gi contexts, though the grip variations differ slightly between formats. Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power.
 
-**From Position**: [[Positions/Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -297,9 +297,11 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 68% |
-| Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Success | [[Positions/Half Guard]] | 22% |
+| Success | [[Positions/Side Control]] | 16% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 36% |
+| Failure | [[Positions/Half Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 14% |
 
 
 </section>
@@ -403,7 +405,7 @@ The Waiter Sweep is among the safest techniques in Brazilian Jiu-Jitsu with mini
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovery Before Attack</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Waiter Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Waiter Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

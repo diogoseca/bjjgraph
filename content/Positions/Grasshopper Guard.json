@@ -843,7 +843,8 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 6
-        }
+        },
+        "deal_here": true
       },
       {
         "transition": "Technical Standup from Inversion",

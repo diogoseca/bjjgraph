@@ -148,6 +148,11 @@ class Projection:
         self.stats = Counter()
         self.mask_unknown = []
         self.mask_null = []
+        # THE LISTING-LEVEL DEALING RULE (v1.211.0): technique id -> the posIds where a listing
+        # flagged `deal_here` deals it although its origin is elsewhere (the wire's `alsoFrom`).
+        # Private to the projection on purpose: the rule changes which hands exist, not the
+        # node record, so nodeColumns and the adapter stay as they are.
+        self.also_from = {}
         lambdas = self.wire.get("evLam", [])
         if lambdas and (len(set(lambdas)) != len(lambdas) or any(not number(x) for x in lambdas)):
             raise ValueError("malformed-ev-lambdas")
@@ -190,6 +195,11 @@ class Projection:
             if "outcomes" in cal:
                 cal["outcomes"] = outcomes
             n["cal"] = cal
+            if n["ty"] != "positions" and n.get("alsoFrom") is not None:
+                af = n["alsoFrom"]
+                if not isinstance(af, list) or any(not isinstance(x, str) or not x for x in af):
+                    raise ValueError("malformed-also-from")
+                self.also_from[n["id"]] = frozenset(af)
             if n["ty"] == "positions":
                 pid = (n.get("posId") or "").lower()
                 if pid:
@@ -283,7 +293,9 @@ class Projection:
                 continue
             p, t = (a, b) if a["ty"] == "positions" else (b, a)
             fr = t.get("fromRole")
-            origin = fr and (t.get("fromPositionId") or "").lower() == (p.get("posId") or "").lower()
+            here = (p.get("posId") or "").lower()
+            origin = fr and ((t.get("fromPositionId") or "").lower() == here
+                             or here in {x.lower() for x in self.also_from.get(t["id"], ())})
             role = fr if origin else lands.get((p["id"], t["id"])) or fr or "top"
             member = p["id"] + ("/Bottom" if role == "bottom" else "")
             other = p["id"] + ("/Bottom" if role != "bottom" else "")
@@ -436,7 +448,8 @@ class Projection:
                 seen.add(name)
                 if move["fromRole"] and move["fromRole"] != role:
                     continue
-                if not relaxed and move["fromPositionId"] and n["posId"] and move["fromPositionId"] != n["posId"]:
+                if (not relaxed and move["fromPositionId"] and n["posId"] and move["fromPositionId"] != n["posId"]
+                        and n["posId"] not in self.also_from.get(move["id"], ())):
                     continue
                 out.append(self.option(move, self.result_pos(k, nid), relaxed=relaxed, ev=ev.get(k)))
             if relaxed:

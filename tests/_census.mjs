@@ -62,7 +62,7 @@ export function computeCensus() {
   const positions = reps.filter((n) => n.ty === "positions");
 
   // the dealt hand, over every position seat — the same sweep dual-consumers harvests
-  let dealtCards = 0, positionChoiceCards = 0;
+  let dealtCards = 0, positionChoiceCards = 0, handsOverPrefetchCap = 0, handsOverWarmCap = 0;
   const savedRole = a.playerRole, savedPos = a.currentPos;
   for (const p of positions.filter(n => !n.cal?.stateAlias)) {
     for (const role of ["top", "bottom"]) {
@@ -74,6 +74,11 @@ export function computeCensus() {
       catch (cause) { throw new Error(`Census could not deal ${p.id} (${role}): ${cause.message}`, { cause }); }
       dealtCards += n;
       if (!p.cal?.stateAlias) positionChoiceCards += n;
+      // option-overflow.spec.ts: hands dealing more than NG_PREFETCH_CAP (10) cards, and those
+      // dealing more than the cap plus the position's own deck (11), which warm strictly fewer
+      // decks than they show. Both move whenever a hand gains or loses a card.
+      if (n > 10) handsOverPrefetchCap++;
+      if (n > 11) handsOverWarmCap++;
     }
   }
   a.playerRole = savedRole; a.currentPos = savedPos;
@@ -135,6 +140,8 @@ export function computeCensus() {
     techPages:        reps.length - positions.length - 1,
     dealtCards,
     positionChoiceCards,
+    handsOverPrefetchCap,
+    handsOverWarmCap,
     playablePositions: positions.filter(p => !p.cal?.stateAlias).length,
     positionChoiceSeats: positions.filter(p => !p.cal?.stateAlias).length * 2,
     calOutcomeNodes:  withOutcomes.length,

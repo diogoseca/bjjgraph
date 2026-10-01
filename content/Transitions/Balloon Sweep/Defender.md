@@ -191,7 +191,7 @@ description: "How to defend against the Balloon Sweep in BJJ. Recognition cues, 
 
 Defending the Balloon Sweep requires the top player in closed guard to recognize the sweep's loading sequence early and disrupt it before the explosive phase generates enough vertical force to displace your base. The Balloon Sweep is particularly dangerous because it exploits the forward weight distribution that many guard top players adopt to maintain pressure, turning your offensive posture into a vulnerability. Effective defense begins with posture awareness: if your weight is loaded forward onto your hands and your head is near the opponent's chest, you are already in the sweep's danger zone. The defensive priority hierarchy is: maintain structural posture first, deny the collar grip second, prevent hook insertion third, and counter the lift direction last. Understanding this progression allows you to intervene at the earliest possible stage rather than fighting the sweep once it has full momentum.
 
-**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 

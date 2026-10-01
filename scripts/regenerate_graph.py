@@ -432,7 +432,7 @@ _EDGE_STATS: dict = {}
 def _reset_edge_stats() -> None:
     _EDGE_STATS.clear()
     _EDGE_STATS.update({'edges': 0, 'neutral_edges': 0, 'no_gi': 0, 'no_nogi': 0,
-                        'no_ap_key': 0, 'no_frame': [], 'dead_hands': []})
+                        'no_ap_key': 0, 'no_frame': [], 'dead_hands': [], 'deal_here': []})
 
 
 _reset_edge_stats()
@@ -465,7 +465,7 @@ def _position_edge(t: dict, state_id: str) -> dict:
         # rather than shipping an edge the state machine can enter and never leave.
         _EDGE_STATS['no_frame'].append(f"{state_id} -> {technique_name}")
 
-    return {
+    edge = {
         'technique': technique_name,
         'target': slugify(technique_name),
         'targetPath': quartz_slug(technique_name),
@@ -473,6 +473,15 @@ def _position_edge(t: dict, state_id: str) -> dict:
         'attemptProbability': headline,
         'attemptProbabilityByRuleset': ap_map,
     }
+    # THE LISTING-LEVEL DEALING RULE (v1.211.0). A technique is dealt only at its canonical
+    # origin (`fromPositionId`); `deal_here` is the one authored exception, set on a listing
+    # whose outcome table lands coherently from here (calibration/origin_coherence.json). The
+    # key is emitted only when true, so every other edge stays byte-identical, and every dealer
+    # reads it from here or from the wire's `alsoFrom` (build_hand, _mdp_mechanics, optionsFor).
+    if t.get('deal_here') is True:
+        edge['dealHere'] = True
+        _EDGE_STATS['deal_here'].append(f"{state_id} -> {technique_name}")
+    return edge
 
 
 def _position_edges(raw_transitions: list, state_id: str, neutral: bool = False) -> list:
@@ -700,6 +709,9 @@ def _report_position_edges(n_roles: int) -> None:
               f"(no legal move in that ruleset): {shown}{more}")
     for ref in st['no_frame']:
         _RULESET_FAILURES.append((ref, 'attempt_probability exists in no ruleset frame'))
+    # Printed every run, zero included: a count that is never shown cannot be noticed going to 0.
+    print(f"  Listings dealt away from their technique's origin (deal_here): {len(st['deal_here'])}"
+          + (f" — {'; '.join(st['deal_here'])}" if st['deal_here'] else ''))
 
 
 # ---------------------------------------------------------------------------

@@ -188,9 +188,17 @@ def load_layer(path, repo_root):
         doc = json.loads(Path(path).read_text(encoding="utf-8"))
     except FileNotFoundError:
         return {}
-    return {(str((repo_root / c["file"]).resolve()), c["role"]):
-            {r["move"]: {f: r[f] for f in FRAMES} for r in c["after"]}
-            for c in doc.get("containers", [])}
+    out = {(str((repo_root / c["file"]).resolve()), c["role"]):
+           {r["move"]: {f: r[f] for f in FRAMES} for r in c["after"]}
+           for c in doc.get("containers", [])}
+    # PHASE 2 (calibration/listing_tables.json, v1.211.0) rewrites a few of those hands again (a
+    # re-homed move's old-origin listing removed). Its `hands` carry the full after-hand and win.
+    p2 = Path(path).with_name("listing_tables.json")
+    if p2.exists():
+        for h in json.loads(p2.read_text(encoding="utf-8")).get("hands", []):
+            out[(str((repo_root / h["file"]).resolve()), h["role"])] = \
+                {r["move"]: {f: r[f] for f in FRAMES} for r in h["after"]}
+    return out
 
 
 def section1(containers, positions, out, layer=None):

@@ -300,7 +300,7 @@ Lose (red) right, mirroring `adv.cur`; category tracking is .05em so SUBMISSION 
 
 ### The hand
 
-`optionsFor` deals **every legal move** — origin-filtered and role-filtered, uncapped — ranked by
+`optionsFor` deals **every legal move** — origin-filtered (or a `deal_here` listing, wire `alsoFrom`) and role-filtered, uncapped — ranked by
 EDGE, then sorted ONCE by Win chance (§4). The order is otherwise **frozen at deal time**: `ord` and `ordOdds` are stamped once, and `_cmpDealt`
 compares only stamped values (EDGE desc → odds desc → attempt% desc → name asc, unvalued last and
 never as 0). A just-in-time grade must move the printed numbers and must never re-sort a tray the
