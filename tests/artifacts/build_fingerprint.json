@@ -3,11 +3,11 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "397b7af15c7cdf8330996e73e0dfef7185728a9e",
+   "git_head": "f91652de015c865fdac11ac6aa44122a39fe862e",
    "inputs": {
-    "tree": "cc950b3058d2a56ac9bfa64d42e983a0ee5934e6"
+    "tree": "aa6c82d15a0bab706e39a5a76db6ea25b3a1445e"
    },
-   "package_version": "1.212.4",
+   "package_version": "1.212.6",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
@@ -65,7 +65,7 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2657,
-    "sha256": "da757d3d3040420e4c84c6e6755c2ed9e214350bbc7656c69b02be602d15b835"
+    "sha256": "8fa0e85db6771ed04382e23c574fabd1484d5136a0736f293370536e18656e3d"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
@@ -74,17 +74,17 @@
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111556,
-    "sha256": "3d518fbd0914026831c4ab6299edfa52204dfda60036c3e3d4c18648956a4261",
+    "sha256": "c1de1440b141a2b57f9db5ddcc5c886237a610881f6e6558e0ecb826d9ed0c6b",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
-    "bytes": 27465,
-    "sha256": "08ff35302847e91fbf639e522fe31e9dcb26231e5fb386acfe81888b2f52d29f",
+    "bytes": 27619,
+    "sha256": "2d01f781051a9d8c2d1b0ffba8a12728c481887bd92e3f409a095255a422b818",
     "version_token": "normalised"
    },
-   "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
-    "bytes": 65434,
-    "sha256": "6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b"
+   "static/neural/app/game-worker-core-7e6dda66f6b77f967f2bf881e5a77df2a11bf19250532bcdb3ed2e5ae5a00417.js": {
+    "bytes": 65933,
+    "sha256": "7e6dda66f6b77f967f2bf881e5a77df2a11bf19250532bcdb3ed2e5ae5a00417"
    },
    "static/neural/app/gameplan.js": {
     "bytes": 8503,
