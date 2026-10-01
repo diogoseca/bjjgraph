@@ -6,7 +6,7 @@ import { readFileSync } from "node:fs";
 import {
   NG_CHOICE_VALUE, ngChoiceValueController, ngChoiceValueStamp, ngChoiceValuePercent,
   ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder, ngChoiceValueKnowledge,
-  ngChoiceValueThreatView, ngChoiceValueThreatOrder,
+  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValueImmediate,
 } from "../neural/src/choice-value.src.js";
 
 const action = name => JSON.stringify(["mount/top", name, "transition", "back/top", "branch"]);
@@ -115,10 +115,33 @@ test("pending cards remain explicit and can carry the separately known immediate
   assert.match(v.detail, /can choose a move now/);
 });
 
-test("deterministic entry is distinct from future Finish chance", () => {
-  const v = ngChoiceValueView(record(A, .3, .2, { immediateExecutionKind: "entry", immediateExecutionChance: 1 }));
-  assert.equal(v.immediateLabel, "Entry"); assert.equal(v.immediate, "100%"); assert.equal(v.value, "30%");
+// THE ENTRY CARD (owner, 2026-10-01: "every submission from the position have 100% chance"). Stepping
+// into a submission is certain; the card prints the FOLLOW-UP finish the engine reports, as "Works",
+// and never the step's own 100%. No follow-up (pending, or one that does not reconcile) is "Works —".
+const followUp = (chance, extra = {}) => ({ kind: "finish", chance, explanation: { status: "ready", chance, ...extra } });
+test("an entry prints its follow-up finish as Works, never the certain step's 100%", () => {
+  const entry = (extra) => record(A, .3, .2, { immediateExecutionKind: "entry", immediateExecutionChance: 1, ...extra });
+  const bare = ngChoiceValueView(entry());
+  assert.equal(bare.immediateLabel, "Works"); assert.equal(bare.immediate, "—"); assert.equal(bare.immediateText, "Works —");
+  assert.equal(bare.value, "30%");
+  const v = ngChoiceValueView(entry({ followUp: followUp(.45) }));
+  assert.equal(v.immediate, "45%"); assert.equal(v.immediateText, "Works 45%");
+  assert.match(v.immediateLine, /^Works 45%: the finish's chance once you are in\. Stepping in is certain/);
+  assert.equal(ngChoiceValueView(record(A, .3, .2, { immediateExecutionKind: "enter", immediateExecutionChance: 1, followUp: followUp(.6) })).immediateText, "Works 60%", "an entry from a submission state reads the same");
+  assert.equal(ngChoiceValueView(entry({ followUp: { ...followUp(.45), explanation: { status: "ready", chance: .5 } } })).immediate, "—", "a follow-up that does not reconcile is dropped");
+  assert.equal(ngChoiceValueView(entry({ followUp: { ...followUp(.45), kind: "transition" } })).immediate, "—");
+  for (const view of [bare, v]) assert.doesNotMatch([view.immediate, view.immediateText, view.immediateLine].join(" "), /100%/);
   assert.equal(ngChoiceValueView(record(B, .6, .2, { immediateExecutionKind: "escape" })).immediateLabel, "Escape");
+  assert.equal(ngChoiceValueView(record(B, .6, .2, { immediateExecutionKind: "finish" })).immediateText, "Finish chance 80%");
+  // through the controller: a reconciling follow-up survives into the snapshot, a broken one is null
+  const req = request(), c = ngChoiceValueController(), t = c.begin(req, { handId: "h", immediate: { [A]: { immediateExecutionKind: "entry", immediateExecutionChance: 1 } } });
+  assert.equal(ngChoiceValueView(c.snapshot().actions[0]).immediateText, "Works —", "pending entry");
+  assert.ok(c.accept(t, response(req, [record(A, .6, .2, { immediateExecutionKind: "entry", immediateExecutionChance: 1, followUp: followUp(.58) }),
+    record(B, .4, .2, { immediateExecutionKind: "entry", immediateExecutionChance: 1, followUp: followUp(1.2) })])));
+  const snap = c.snapshot();
+  assert.equal(snap.actions[0].followUp.chance, .58); assert.equal(snap.actions[1].followUp, null);
+  assert.equal(ngChoiceValueView(snap.actions[0], snap).immediateText, "Works 58%");
+  assert.equal(ngChoiceValueView(snap.actions[1], snap).value, "40%", "a dropped follow-up never hides the Win chance");
 });
 
 test("exact stamped identity is required, including ruleset, personal profile, horizon and policy", () => {
@@ -235,9 +258,9 @@ test("knowledge inputs and same-context immediate comparisons never become forwa
   assert.match(ngChoiceValueKnowledge({ knowledge: { status: "bypassed" } }).lines.join(" "), /override replaces/);
   assert.match(text, /Recent study/); assert.doesNotMatch(text, /Recent recall/);
   const entry = ngChoiceValueKnowledge(explanation, "entry").lines.join(" ");
-  assert.match(entry, /Finish chance at these conditions/);
-  assert.match(entry, /Entry itself is automatic/);
-  assert.doesNotMatch(entry, /Immediate chance/);
+  assert.match(entry, /Finish chance once you are in: 95% with practice; 80% without practice/);
+  assert.match(entry, /Stepping into the submission is certain\. The finish is rolled once you are in/);
+  assert.doesNotMatch(entry, /Immediate chance|at these conditions|100%/);
   explanation.comparison.effectiveDelta = .25;
   assert.doesNotMatch(ngChoiceValueKnowledge(explanation).lines.join(" "), /without practice/);
 });
@@ -278,7 +301,15 @@ test("the real app's first card can render with no value-module globals at all",
   assert.equal(view.value, "—"); assert.equal(view.immediate, "<1%");
   assert.match(a.choiceValueHTML(view, true), /still choose this move/);
   const entry = a.choiceValueView({ action: "enter", node: { ty: "submissions" } });
-  assert.equal(entry.immediateLabel, "Entry"); assert.equal(entry.immediate, "100%");
+  assert.equal(entry.immediateLabel, "Works"); assert.equal(entry.immediate, "—");
+  assert.doesNotMatch(a.choiceValueHTML(entry, true), /100%/);
+  // The app's pre-load copy of the small line and the module's own say the same words for every kind
+  // and chance: two bundles, one sentence. An entry never prints its certain step.
+  let compared = 0;
+  for (const kind of ["entry", "enter", "finish", "escape", "transition"]) for (const p of [1, .997, .58, .001, 0, NaN]) {
+    assert.deepEqual(a.choiceImmediateFallback(kind, p), ngChoiceValueImmediate(kind, p, null), kind + " " + p); compared++;
+  }
+  assert.equal(compared, 30);
   a.setChoiceValueRuntime(null, "loading");
   assert.equal(a.choiceValueView(opt).status, "pending");
   a.setChoiceValueRuntime({}, "loading");
@@ -313,8 +344,13 @@ test("escape and entry wording name the two cases the player actually faces", ()
   const ve = ngChoiceValueView(s.actions.find(r => r.actionId === A), s), vn = ngChoiceValueView(s.actions.find(r => r.actionId === B), s);
   assert.equal(ve.split[0], "The escape works (30%): you win.");
   assert.equal(ve.split[1], "The escape fails (70%): you are submitted.");
-  assert.deepEqual(vn.split.slice(0, 1), ["Entry is automatic (100%): then you win 50%."]);
-  assert.equal(vn.split.length, 2, "no misses line and no sum for an automatic entry");
+  assert.deepEqual(vn.split, ["You step into the submission: certain, no roll.",
+    "From there, your win chance with your best play is 50%.", "You get submitted 30% · nobody taps 20%."],
+    "no misses line, no sum, and no \"(100%)\" for a certain step");
+  const withFinish = ready([record(B, .5, .3, { immediateExecutionKind: "entry", immediateExecutionChance: 1, followUp: followUp(.45), split: { lands: 1, winIfLands: .5, winIfMisses: null } })], request({ requestedActionIds: [B] }));
+  const vf = ngChoiceValueView(withFinish.actions[0], withFinish);
+  assert.equal(vf.split[1], "Then the finish works 45% when you go for it.");
+  assert.doesNotMatch(vf.tooltip, /100%/);
 });
 
 // SORT ONCE (owner, 2026-09-29): bounded values sort when their bins are distinct (certified ties: choice_certified.test.mjs).

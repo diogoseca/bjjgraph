@@ -11,6 +11,12 @@ as lowercase URLs, so skipping them keeps us well under Cloudflare's 2,000
 static-rule limit.
 
 Runs automatically after `npm run build` via the `postbuild` hook.
+
+TARGETS ARE QUARTZ'S PAGE PATHS (v1.212.7, OCREDIR1). Both the canonical target and its lowercase
+source come from `_slug.quartz_page_path`, the same rule Quartz builds pages with. Before, only
+spaces became hyphens, so 100% Sweep's rule pointed at /Transitions/100%-Sweep, which is not
+built, and the real page's lowercase variant /transitions/100-percent-sweep 404'd.
+scripts/check_redirect_targets.py verifies, after the build, that every emitted target resolves.
 """
 
 from __future__ import annotations
@@ -29,7 +35,7 @@ OUTPUT = PUBLIC_DIR / "_redirects"
 AUTHORED_REDIRECTS = PROJECT_ROOT / "source" / "quartz" / "static" / "_redirects"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _slug import slugify  # shared single-source slugify (alias 301 source paths)
+from _slug import quartz_page_path, slugify  # page paths (targets) · alias 301 source slugs
 
 CATEGORIES = ("Positions", "Transitions", "Submissions")
 ROLE_PAGES = {"Top", "Bottom", "Attacker", "Defender"}
@@ -37,9 +43,9 @@ CLOUDFLARE_STATIC_RULE_LIMIT = 2000
 
 
 def canonical_url_for(json_file: Path) -> str:
-    """Canonical site URL for a content JSON file (case-preserved, spaces→hyphens)."""
+    """Canonical site URL for a content JSON file: the path Quartz builds its page at (case kept)."""
     rel = json_file.relative_to(CONTENT_DIR).with_suffix("")
-    return "/" + "/".join(p.replace(" ", "-") for p in str(rel).split("/"))
+    return "/" + quartz_page_path(rel.as_posix())
 
 
 def collect_alias_rules(seen: set[str]) -> list[str]:
@@ -146,7 +152,7 @@ def main() -> None:
             rel = md.relative_to(CONTENT_DIR).with_suffix("")
             if rel.name in ROLE_PAGES:
                 continue
-            canonical = "/" + "/".join(p.replace(" ", "-") for p in str(rel).split("/"))
+            canonical = "/" + quartz_page_path(rel.as_posix())
             lower = canonical.lower()
             if lower == canonical or lower in seen:
                 continue

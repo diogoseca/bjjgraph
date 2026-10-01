@@ -8,12 +8,15 @@ import { srsVeteran, CURRICULUM } from "./personas"
  *
  * WHERE THE CLAMPED NUMBER PRINTS (full game, PR 231, FGGEN1 2026-10-01). A card's corner `.ngodds`
  * is now its IMMEDIATE chance with its own label: "Move NN%" on a transition IS round(moveChance),
- * but a submission's card is its "Entry", certain by the live rule (100%, pinned by
- * choice-value.spec.ts), and its clamped moveChance prints on the FINISH card once the attack is
- * entered. So the claim is unchanged and is read at both print sites: every Move card here, and the
- * Finish card in Phase D. Mutants, recorded 2026-10-01 on the built bundle: dropping the 0.95
- * ceiling in the move-chance law turns this red at Phase B's "post-drill odds <= 95" (105); a
- * Finish card that prints anything but its own rounded chance turns it red in Phase D.
+ * but a submission dealt on a position is an ENTRY, certain by the live rule, and its clamped
+ * moveChance prints on the FINISH card once the attack is entered. Since v1.213.0 the entry card
+ * prints "Works" and that finish's chance from the solve (never the step's own 100%; "Works —"
+ * until the values arrive), so here it is read as: never 100%, and inside the clamp when printed.
+ * The claim is unchanged and is read at both print sites: every Move card here, and the Finish
+ * card in Phase D. Mutants, recorded 2026-10-01 on the built bundle: dropping the 0.95 ceiling in
+ * the move-chance law turns this red at Phase B's "post-drill odds <= 95" (105); a Finish card
+ * that prints anything but its own rounded chance turns it red in Phase D. Both re-run 2026-10-01
+ * on the v1.213.0 build: still red (Phase B "Mount Control" 105; Phase D "Kimura from Mount").
  *
  * Seams under test (all verified by probe, twice, frame-identical):
  *   - displayedOdds == Math.round(moveChance*100) == the card's `.ngodds` DOM text
@@ -77,12 +80,19 @@ test("veteran tray: every card's odds == round(moveChance*100), clamped to [5,95
     ((await page.locator(`[data-tech="${t}"] .ngodds`).first().textContent()) || "").trim()
   const label = async (t: string) =>
     ((await page.locator(`[data-tech="${t}"] [data-immediate-label]`).first().textContent()) || "").trim()
-  // the card prints the clamped chance only as "Move"; an "Entry" is certain and its clamped
-  // chance prints on the Finish card (Phase D)
+  // the card prints THIS move's clamped chance only as "Move"; an entry ("Works") prints the
+  // finish it leads to — clamped too, never 100% — and that finish prints on the Finish card (Phase D)
   const printsMove = async (t: string, o: number, what: string) => {
     const kind = await label(t)
-    expect(["Move", "Entry"], `"${t}" is a Move or an Entry card`).toContain(kind)
-    if (kind === "Entry") expect(await domOdds(t), `"${t}" entry is certain`).toBe("100%")
+    expect(["Move", "Works"], `"${t}" is a Move or a Works card`).toContain(kind)
+    if (kind === "Works") {
+      const printed = await domOdds(t)
+      expect(printed, `"${t}" entry never prints its certain step`).not.toBe("100%")
+      if (printed !== "—") {
+        expect(parseInt(printed, 10), `"${t}" Works >= 5`).toBeGreaterThanOrEqual(5)
+        expect(parseInt(printed, 10), `"${t}" Works <= 95`).toBeLessThanOrEqual(95)
+      }
+    }
     else expect(await domOdds(t), what).toBe(`${o}%`)
     return kind
   }
@@ -176,11 +186,11 @@ test("veteran tray: every card's odds == round(moveChance*100), clamped to [5,95
   // dealt submission with the highest odds. Entry is certain; `resolve`/`outcome` are rigged as
   // golden-path does so no draw can end the exchange first. ──
   const subs: string[] = []
-  for (const t of titles) if ((await label(t)) === "Entry") subs.push(t)
+  for (const t of titles) if ((await label(t)) === "Works") subs.push(t)
   // a positive coverage count, never a silent skip (CLAUDE.md §6.6): Mount Top deals submissions
   expect(subs.length, "the hand deals a submission, so its Finish card is read").toBeGreaterThan(0)
   {
-    const sub = targetKind === "Entry" ? target.t : subs.reduce((b, t) => (odds2[t] > odds2[b] ? t : b))
+    const sub = targetKind === "Works" ? target.t : subs.reduce((b, t) => (odds2[t] > odds2[b] ? t : b))
     const expectFinish = await j.displayedOdds(sub)
     await j.rig("resolve", [0.01])
     await j.rig("outcome", [0.01])

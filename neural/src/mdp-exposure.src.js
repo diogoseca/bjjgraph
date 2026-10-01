@@ -152,9 +152,12 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     judged on points), a terminal classification that carries no study read.
   //   - v1.207.6: the forced escape turn's row moved into `opponentEscapeRow`, unchanged, so that
   //     escape threat probes (`ngMdpThreatId`) share it; opponent rows read no player knowledge.
+  //   - v1.213.0: an ENTRY action reports `followUp` — the landed state's Finish chance and its
+  //     knowledge explanation, for the card's "Works" line. No branch reads it, the entry's own
+  //     studyReads stay empty (below), and that Finish row is enumerated with its own reads as before.
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'6547a7b0b245792bebb9a406c798c200b8afae269d2eaec05d45eea239eaf5ff',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
+  const expected={adapter:'8fdd62974d9b364cec3cb59cc9514afa660822bc2054a103c141222e4b587a59',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

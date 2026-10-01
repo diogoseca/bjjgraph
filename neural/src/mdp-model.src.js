@@ -257,6 +257,7 @@ function ngMdpCompile(model, request, limits) {
       const { branches, sum } = rows(a.branches);
       if (ngMdpCmp(sum, [1n, 1n])) throw new Error('non-normalized-row:' + a.id);
       if (a.immediateExecutionChance != null) ngMdpProbability(a.immediateExecutionChance);
+      if (a.followUp != null) ngMdpProbability(a.followUp.chance);
       actions.push({ ...a, branches });
     }
     if (!actions.length) reasons.push('no-defined-actions:' + id);
@@ -283,6 +284,12 @@ function ngMdpBackup(action, values, subtypes) {
 // A row carrying neither label makes the split null — never guessed into a group (CLAUDE.md §6.6).
 const NG_MDP_LANDED_EVENTS = ['success', 'escape', 'entry'];
 const NG_MDP_MISSED_EVENTS = ['same-state-miss', 'changed-state-miss', 'failed-escape'];
+// An ENTRY's follow-up finish (adapter `followUp`): the chance the landed state's Finish row rolls,
+// with that row's knowledge explanation. Reported beside the card; no branch or value reads it.
+function ngMdpFollowUp(a) {
+  const f = a.followUp;
+  return f == null ? {} : { followUp: { kind: f.kind, chance: ngMdpNumber(ngMdpProbability(f.chance)), explanation: f.explanation } };
+}
 function ngMdpSplit(action, values, subtypes) {
   const group = () => ({ p: ngMdpRat(0), v: ngMdpZero(4 + subtypes.length) });
   const lands = group(), misses = group();
@@ -451,7 +458,7 @@ function* ngMdpSolveStepsRaw(model, request, options) {
       const result = yield* production(kernel,request,limits,diagnostics,check,{
         rat:ngMdpRat,add:ngMdpAdd,sub:ngMdpSub,mul:ngMdpMul,div:ngMdpDiv,cmp:ngMdpCmp,number:ngMdpNumber,
         components:ngMdpComponents,endComponents:ngMdpEndComponents,zero:ngMdpZero,terminal:ngMdpTerminal,
-        backup:ngMdpBackup,split:ngMdpSplit,exportVector:ngMdpExportVector,lex:ngMdpLex,digest:ngMdpIdentity.ngMdpDigest,
+        backup:ngMdpBackup,split:ngMdpSplit,followUp:ngMdpFollowUp,exportVector:ngMdpExportVector,lex:ngMdpLex,digest:ngMdpIdentity.ngMdpDigest,
         envelope:ngMdpIdentity.ngMdpEnvelope,unavailable:ngMdpUnavailable,supportHashSteps:ngMdpSupportHashSteps,policyHash:ngMdpPolicyHash
       });
       check(); diagnostics.elapsedMilliseconds = Date.now()-started; return result;
@@ -499,7 +506,7 @@ function* ngMdpSolveStepsRaw(model, request, options) {
     const record = (stateId, v) => ({ stateId, status: 'ready', outcomes: ngMdpExportVector(v, subtypes), policyId });
     const allActions = states.get(kernel.rootId).actions.map(a => ({ ...record(kernel.rootId, ngMdpBackup(a, values, subtypes)), actionId: a.id,
       split: ngMdpSplit(a, values, subtypes),
-      ...(a.immediateExecutionChance == null ? {} : { immediateExecutionChance: ngMdpNumber(ngMdpProbability(a.immediateExecutionChance)), immediateExecutionKind: a.immediateExecutionKind || 'execution' }) }));
+      ...(a.immediateExecutionChance == null ? {} : { immediateExecutionChance: ngMdpNumber(ngMdpProbability(a.immediateExecutionChance)), immediateExecutionKind: a.immediateExecutionKind || 'execution' }), ...ngMdpFollowUp(a) }));
     const exactQ = new Map(states.get(kernel.rootId).actions.map(a => [a.id, ngMdpBackup(a, values, subtypes)]));
     // Threat cards: YOUR outcome vector if the opponent tries that move now — the same backup over
     // the probe's rows, under the same selected future play (adapter `threats`).

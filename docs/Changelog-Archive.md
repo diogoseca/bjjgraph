@@ -50,6 +50,8 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
 - **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
 - **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
+- **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
+- **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9121,6 +9123,246 @@ authored is one number across all six cards (≤ 1 for rounding). The > 8 bar is
 The only other journey that reads odds after URL boots, `landing-card.spec.ts`, compares within one
 boot, so its draw cancels.
 
+## v1.212.6 — THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP
+
+**Found by the OCSTAR1 punctuation probe (OCURL1).** After opening 100% Sweep, the next node,
+Knee Slice Pass, still showed `/Transitions/100%-Sweep`. Two defects sat behind it:
+1. `_syncUrl` pushed "/" + node id, so the address held a raw `%`. `_pushUrl` compared
+   `decodeURI(location.pathname)`, which throws "URI malformed" on it, inside a catch commented
+   "history unavailable (sandboxed iframe)". Every later push threw the same way, and the address
+   bar froze until a reload, with no trace anywhere.
+2. Quartz does not build the page at the id. `sluggify` (source/quartz/util/path.ts) writes `%` as
+   `-percent`, so the page is /Transitions/100-percent-Sweep. Even a correctly encoded `%25` named a
+   page that does not exist, and an arrival on the real page resolved to nothing.
+
+**Fix.**
+- `_pageSlug` maps an id to its page path with Quartz's own replacements, which a unit test reads
+  from both sources and pins equal.
+- `_idIndex` indexes the page spelling too.
+- `_decodePath` is the one decoder for every path reader (`_nodeForPath`, `_nodeAndRoleForPath`,
+  `_seedPageFromUrl`, the systems ref parser). It never throws, and it reads a stray `%` literally.
+- A URL failure is a named, COUNTED `url_fault` beat ({kind, path, error, n}), not a silent catch.
+  `_pushUrl` pushes `encodeURI(path)`.
+
+**Gates.**
+- `tests/url_sync.test.mjs` uses a browser-faithful fake address bar (the WHATWG URL parser keeps
+  an invalid `%` raw, like Chromium). It covers:
+  - the 100% Sweep pin, including that the next push lands;
+  - a round-trip of all 2,896 node seats;
+  - a sweep of the 6 seats whose id carries a character outside RFC 3986's unreserved set (two
+    apostrophes and one `%`, both seats);
+  - a raw `%` already in the address (resolves, the next push lands, the fault is counted);
+  - Quartz-parity of `_pageSlug`.
+- Mutants, all red: `decodeURI` back in `_pushUrl` (test 3); `_pageSlug` as the identity (tests
+  1, 2); no aliases (tests 1, 2); a no-op `_urlFault` (test 3).
+- `e2e/journeys/url-percent.spec.ts` arrives on /Transitions/100-percent-Sweep, leaves, comes back,
+  and leaves again: the address follows, with no `url_fault`.
+
+**Separate finding, not fixed here.** `scripts/regenerate_redirects.py` builds its targets with
+only the space-to-hyphen rule, so `/transitions/100%-sweep` 301s to `/Transitions/100%-Sweep`,
+which 404s. It is the same class: a second copy of Quartz's slug rule that drifted.
+## v1.212.7 — EVERY REDIRECT LANDS ON A BUILT PAGE
+
+**OCREDIR1, 2026-10-01.** Found while fixing the 100% Sweep address (OCURL1). `regenerate_redirects.py`
+built every target with only the space-to-hyphen rule, while Quartz builds pages with its own
+`sluggify`: per segment, whitespace → `-`, `&` → `-and-`, `%` → `-percent`, `?` and `#` dropped. One
+hub page in the corpus differs under the two rules, and production showed both halves of the fault:
+
+| request (production, 2026-10-01) | answer |
+|---|---|
+| `/transitions/100%-sweep`, the rule's source | 400 from the edge: a raw `%` is a malformed escape, so the rule never fires |
+| `/Transitions/100%-Sweep`, the rule's target | 400 (and nothing is built there) |
+| `/transitions/100-percent-sweep`, the real page's lowercase form | 404: no rule existed for it |
+| `/Transitions/100-percent-Sweep`, the real page | 200 |
+
+**Fix.** `_slug.quartz_page_path` is Quartz's rule as a table (`QUARTZ_SLUG_REPLACEMENTS`), and the
+emitter takes both the canonical target and its lowercase source from it. On the corpus the emitted
+file changes by exactly one line: `/transitions/100-percent-sweep /Transitions/100-percent-Sweep 301`
+replaces the dead `%` rule.
+
+**Gate.** `scripts/check_redirect_targets.py` (`validate:redirects`) reads the BUILT tree and resolves
+every target to a page, a file, or, for a `:splat` target, its built base directory. It also fails on
+a source carrying a raw `%`. It prints a positive count, and fails on any miss, on a missing or empty
+`_redirects`, and on a tree with no pages. It runs in the root build after the share shell (`/l/*`
+targets the `l.html` that step writes) and in both deploys after Forward. That place keeps
+`check_build_chains.py` green (12 local / 12 deploy steps, the named Forward/share order baseline
+intact). On the PR 242 capture the old file fails on exactly that rule (1,766 of 1,767 targets, plus
+its source); the new file resolves 1,767 of 1,767 (1,715 pages, 1 file, 51 placeholder bases).
+
+**Tests.** `tests/redirect_targets_test.py` (10 cases, run by `tests/redirect_targets_py.test.mjs`):
+path.ts parity, the emitter on a fixture, the corpus page, and every pass and fail path of the gate.
+Five mutants, all red: the emitter back on the space rule, the `%` row dropped, `_page` accepting
+anything, the raw-`%` source check removed, and the empty-file floor removed.
+`postprocessor_contract_test.py` 51/51; units 1,168/1,168.
+## v1.212.6 — ONE DROPPED METADATA REQUEST NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGRETRY1, 2026-10-01)
+
+**Found while chasing the hydration gate's "unavailable" (FGHYD2).** Before the worker can value the
+first hand, it loads the solver's metadata: a manifest, a variant, then content-addressed
+`mdp/part-*.txt` files. If ONE of those fetches failed:
+- the root description failed;
+- the provider masked the worker's reason as `unverified-root-description`;
+- the runtime HELD the failed prepare until the player pressed Retry.
+
+Reproduced deterministically by starting a corpus hydration at the moment the root description is
+posted. About 2,900 deck fetches in flight exhaust the renderer's request budget, which the worker
+shares, so Chromium refused part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. **9 of 15 runs lost
+Win chance for the session.** On a phone, the same class is a dropped request.
+
+**The fix.**
+- **Transient failures are retried.** The loader's `bytes()` retries, bounded at 4 attempts with
+  `NG_GAME_VALUE_FETCH_BACKOFF_MS` = 300 / 1,000 / 3,000 ms, at most ~4.3 s, far inside the client's
+  30 s root-description deadline. Transient means two things:
+  - no answer: a network error, which is all `fetch` reports of either cause;
+  - an answer that says "try again": 408, 429 or 5xx.
+- **An answer is never retried.** A 404 is permanent, and a size or digest mismatch is an integrity
+  failure that a second copy of the same URL cannot fix.
+- **Only network operations count as transient:** the fetch, a body read, `arrayBuffer`. A bug's
+  `TypeError` elsewhere in the loader is never mistaken for one.
+- **Exhausted retries keep their class:** `metadata-network-failed` or `metadata-fetch-failed`.
+- **The provider passes the worker's reason on.** A coded reason passes through unchanged. A raw
+  message is named only by its class, `root-description-unavailable`. Only a reply that claims to be
+  a description and breaks the contract is `unverified-root-description`.
+
+**Measured on the same storm, after the fix:** 14 of 15 runs settled. Chromium refused 1–4 metadata
+requests in 9 of the 15, and the retry absorbed every one. The one failure was
+`worker-cancellation-deadline`, a different class: FGCANCEL1, the next PR.
+
+**Gates.**
+- **New core journey, `game-value-fetch-retry.spec.ts`,** 3× green. It injects faults on the
+  WORKER's own requests (`page.route` sees a dedicated worker's fetches), and each test asserts that
+  its fault fired:
+  - a part dropped once is fetched again exactly once, and values arrive;
+  - a part that never arrives is tried exactly 4 times and stops, the held reason is
+    `metadata-network-failed`, and Retry is shown;
+  - a 404 part is tried exactly once, with reason `metadata-fetch-failed`.
+- **Unit tests:** `tests/game_value_loader.test.mjs` covers every transient kind (network, dropped
+  body, 503, 429, 408), the bound and backoff, 404 and digest never retried, and a bug never
+  classed transient. `tests/game_value_provider.test.mjs` covers reason passthrough.
+- **Unit mutants, all killed:** no retry; retrying any answer; network errors not classed
+  transient; the masked reason.
+- **Journey mutants on the built bundles, all killed:**
+  - no retry: the dropped-once test stays `unavailable | … | metadata-network-failed`, and the bound
+    test sees 1 attempt, not 4;
+  - the masked reason: both permanent-failure tests receive `unverified-root-description`;
+  - retrying an answer: the 404 is fetched 4 times, not once.
+- Units 1,168/1,168; value journeys 74/74 (choice-value, game-value-live, option-hand, momentum,
+  gameplan-study-live, option-edge, start-from, dual-consumers, game-knowledge,
+  hydration-restarts).
+## v1.213.0 — A SUBMISSION CARD PRINTS THE FINISH IT LEADS TO, NEVER ITS CERTAIN STEP (2026-10-01)
+
+**Owner:** "inspect why every submission from the position have 100% chance. i guess the submission
+chance is the only thing to show (win chance right?) i'm confused with the UI, but it should be
+obvious that's a direct navigation / outbound connection if it is.. some like going for a triangle
+from closed guard is difficult."
+
+**Mechanism, content to card.** A submission listed at a position (e.g. Triangle Choke from Closed
+Guard at Closed Guard/Bottom) is dealt as an ENTRY (`kind: 'entry'`). The adapter models it as a
+certain step into the submission state (`immediateExecutionChance = 1`, one branch), and the authored
+`success_rate` is rolled by the FINISH card you are dealt once you are in (`moveChance` at that
+state). The card printed the step: "Entry 100%" on every submission, on every position, for every
+player. Threat cards printed "Odds" (the authored base), never 100%.
+
+**Win chance was right.** Solved on Closed Guard/Bottom and Mount/Top (neutral profile, aiSkill .07,
+cap 9; 20 entry cards): every entry's Win chance equals the value of the submission state it lands
+in, and in all 20 the best play there is the Finish, so the finish chance is inside the number
+(Triangle from Closed Guard bottom: finish 58%, Win chance 86%, because a miss leaves the roll going).
+No number changed in this release; the Win chances before and after are identical on the owner screen.
+
+**Which finish chance.** The same law priced at the CURRENT state (what Inspect's "Finish chance" row
+printed) is not the one the game rolls: inside the submission the position bonus is the submission's
+own deck (counted with the technique deck, so twice), the opponent value is the submission's, the
+question modifier is reset and sharpness has aged one arrival. Over the corpus (gi, 524 entry cards
+on 170 seats): they disagree on 56 with no practice and on 429 with practice, by up to 25 points. So
+the card's number is read from the engine — the adapter's `followUp` (the landed state's Finish row:
+chance + knowledge explanation), passed through `ngMdpFollowUp` in both the exact and the certified
+export — never recomputed on the main thread. Live check: entering Triangle / Armbar / Kimura from
+Closed Guard bottom deals a Finish card printing exactly the Works number (52 / 49 / 45%).
+
+**What changed.** Card: "Works N%" (that follow-up), "Works —" until the solve lands. Inspect: the
+row reads "Works" with the card's number, a "→ steps you into this submission: certain, no roll" line,
+the detail line "Works N%: the finish's chance once you are in. Stepping in is certain, with no roll.",
+and the breakdown "You step into the submission: certain, no roll. / Then the finish works N% … /
+From there, your win chance with your best play is W%." The practice lines describe the landed
+state. The app's pre-load fallback and `ngChoiceValueImmediate` say the same words (unit-pinned for
+30 kind × chance pairs). The exposure pin moved (adapter hash) with a label-neutral note.
+
+**Findings left to the owner (no number changed):** the finish inside a submission counts the
+submission's own deck twice (position and technique) and drops the origin position's practice and
+its opponent value; and a threat card's "Odds" is the authored base, while the game rolls your
+escape at `clamp(1 − base + …)`.
+
+**Mutants (built bundle, one at a time; a neutral control stayed green):**
+
+| mutant | result |
+|---|---|
+| entry prints its own step (`ngChoiceValueImmediate`) | red: submission-card-odds, option-hand (eight 100%s), choice-value curated, choice_value unit (3); option-edge survives (reads pre-values) |
+| follow-up priced at the current state (adapter) | red: submission-card-odds control, mdp_adapter unit |
+| Inspect row prints `moveChance(n)` for an entry | red: submission-card-odds "sheet == card" |
+| (recorded) capture in tray order | still red, both defense cases |
+| (recorded) finish chance constant .5; `calSuccess` → null | still red |
+| (recorded) ceiling .95 → 1.05; Finish card prints chance + 2 | still red |
+| film bonus removed | red on film-look's Move-card target once headroom was required (it first SURVIVED on a card pinned at 95) |
+
+## v1.213.1 — A SUBMISSION'S HAND CENTRES WHERE THE ORDINARY HAND DOES (2026-10-01)
+
+**Owner:** "the choices row when in submissions nodes are not centered but left aligned. pls fix".
+
+**Cause.** `startExecution` sets the option row to `justify-content: flex-start` so the chosen card
+stays under the pointer while it executes; only `clearOptions` set it back to `safe center`. Picking
+a submission entry goes from that execution straight into the next deal (`enterLand`), with no
+`clearOptions` between, so the submission's hand inherited `flex-start`. A URL arrival centred, so
+only play showed it. Measured before the fix, after entering Triangle Choke from Closed Guard: a
+5-card hand spanning 24–813 in a row whose visible area is 24–1440 (centre 313 px left at 1440,
+553 px at 1920). `renderChoiceGroups`, the one seam that deals both the ordinary and the escape hand,
+now sets the row's alignment itself.
+
+**Pinned by** `e2e/journeys/choice-row-centre.spec.ts`: attacker (an entry from Mount Top) and
+defender (the finish fails, the opponent catches you), each with the pane shut and open, at 1440,
+1024 and 390. The hand's visible area must equal the ordinary hand's at that width and pane state,
+and inside it the hand centres when it fits, or starts at the leading inset when it overflows. A
+positive count requires a fitting hand at the desktop widths.
+
+| mutant | result |
+|---|---|
+| fix line removed (= the pre-fix build) | red at 1440 and 1024; 390 cannot see it (every hand overflows there) |
+| unsafe `center` | red at all three, but by a click timeout on the clipped card, not at the inset assertion |
+
+## v1.213.2 — THE TRAY PADS ITS LAST CARD AND FADES ONLY TOWARD HIDDEN CARDS (2026-10-01)
+
+**Owner:** "after scrolling to the rightmost node, there should be some padding at the end, and no
+darkened fading since we reached the end".
+
+**Three defects in one row.**
+- *Trailing padding.* The template gives the row `padding: 8px 24px`. `clearOptions` wrote
+  `paddingRight = ""`, which deletes that inline declaration rather than restoring it (CLAUDE.md §6.1).
+  Until v1.94.0 `updateUiShift` rewrote `paddingRight` every frame, so the deletion was harmless. When
+  the pane moved left it switched to `paddingLeft`, and nothing wrote the right side again. Measured at
+  1440: the last card ended 0 px from the edge. (390 kept 12 px through the phone stylesheet's
+  `!important`.) `updateUiShift` now writes both insets from one value (`NG_TRAY_INSET`), the pane's
+  reserve on the left only, and `clearOptions` no longer deletes them.
+- *The fade* was one constant `mask-image` on both edges: the last card stayed darkened at the end,
+  the first at the start, and a hand that fits was faded too. It is now earned, the
+  `.ng-stabs[data-fade]` idiom. `_syncTrayFade` writes `data-fade` (`l`, `r`, both or absent) from the
+  live scroll position on every `scroll` event, so every writer of `scrollLeft` is covered. It also
+  runs on every deal and every `updateUiShift` frame, so a new hand, a moved inset or a resize is
+  covered.
+- *The glide stalled short of the end* (found by the new journey): `_trayGlideBy` eased by 22 % of
+  the gap, the offset snaps to device pixels, and a sub-pixel step never moved it. The glide sat
+  1–2 px short of its target (4642 of 4644) with its rAF still running, so the right fade could never
+  lift. It now lands on the target.
+
+**Pinned by** `e2e/journeys/choice-row-ends.spec.ts`, at 1440 and 390. It reaches the right end by
+the wheel, the middle by a mouse drag, and the left end by focus. It asserts the trailing inset
+equals the measured leading inset, and reads the fade from the computed mask's two stop lengths.
+A fitting hand has no mask.
+
+| mutant | result |
+|---|---|
+| no `scroll` listener | red at the right end, both widths |
+| trailing inset unowned (old deletion, no writer) | red at 1440; 390 survives (`!important` padding) |
+| constant mask again | red at the left end and on the fitting hand |
+| end test off by one (`x <= max`) | red at the right end, both widths |
+| glide creeps again | red, both widths (the wheel never reaches the end) |
 ## v1.213.6 — A LATE CANCEL ACK NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGCANCEL1, 2026-10-01)
 
 **Found by the hardened hydration gate (FGHYD2).** Its new reason poll named a third "unavailable"

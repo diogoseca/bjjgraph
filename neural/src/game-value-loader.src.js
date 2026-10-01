@@ -3,6 +3,9 @@
  * No boot installation. Root injects exact emitted asset/law identities.
  */
 function ngGameValueDataError(reason) { throw new Error(reason); }
+// ms before each retry of a transient metadata fetch failure: 4 attempts, ~4.3 s at most, far inside
+// the client's 30 s root-description deadline (see `bytes` in ngGameValueCreateWorkerHost)
+const NG_GAME_VALUE_FETCH_BACKOFF_MS = [300, 1000, 3000];
 function ngGameValueDataFreeze(value) {
   if (value && typeof value === 'object' && !Object.isFrozen(value)) {
     for (const child of Object.values(value)) ngGameValueDataFreeze(child);
@@ -109,22 +112,54 @@ function ngGameValueCreateWorkerHost(deps) {
     || !Number.isSafeInteger(expected.manifestBytes) || expected.manifestBytes <= 0 || expected.manifestBytes > 40000
     || !expected.lawHashes || !['adapter', 'model', 'knowledge', 'identity', 'certified'].every(k => sha(expected.lawHashes[k])))
     ngGameValueDataError('missing-worker-build-identities');
+  // ONE DROPPED REQUEST MUST NOT COST WIN CHANCE FOR THE SESSION (FGRETRY1, 2026-10-01). Before this,
+  // one failed fetch of any metadata file failed the root description, and the runtime HOLDS a failed
+  // prepare until the player presses Retry. Found by reproduction, not on a phone: a corpus hydration
+  // overlapping this load (~2,900 deck fetches in flight) made Chromium refuse the worker's part
+  // fetches with net::ERR_INSUFFICIENT_RESOURCES, because the renderer's request budget is shared,
+  // and Win chance ended for the session in 9 of 15 runs. A dropped mobile request is the same class.
+  // So a TRANSIENT failure is retried, bounded, after each NG_GAME_VALUE_FETCH_BACKOFF_MS delay.
+  // Transient means one of two things:
+  //   - the request got no answer (a network error, which is all `fetch` reports of either cause);
+  //   - the server answered "try again" (408, 429, 5xx).
+  // An ANSWER is never retried. A 404 is permanent, and a size or digest mismatch is an integrity
+  // failure that a second copy of the same URL cannot fix. When retries run out, the failure keeps
+  // its own class (`metadata-network-failed`, `metadata-fetch-failed`), and the provider passes that
+  // reason on unmasked.
+  const backoff = deps.fetchBackoff || NG_GAME_VALUE_FETCH_BACKOFF_MS;
+  const sleep = deps.sleep || (ms => new Promise(resolve => setTimeout(resolve, ms)));
+  const transient = reason => Object.assign(new Error(reason), { transient: true });
+  // only the network operations themselves are wrapped: a bug's TypeError is never "transient"
+  const net = promise => Promise.resolve(promise).then(null, () => { throw transient('metadata-network-failed'); });
   async function bytes(url, hash, rawBytes, maxBytes = 40000) {
     if (!sha(hash) || !Number.isSafeInteger(rawBytes) || rawBytes <= 0 || rawBytes > maxBytes) ngGameValueDataError('invalid-asset-receipt');
-    const response = await fetcher(url);
-    if (!response.ok) ngGameValueDataError('metadata-fetch-failed');
+    for (let attempt = 0; ; attempt++) {
+      try { return await verifiedBytes(url, hash, rawBytes, maxBytes); }
+      catch (error) {
+        if (!error.transient) throw error;
+        if (attempt >= backoff.length) ngGameValueDataError(error.message);
+        await sleep(backoff[attempt]);
+      }
+    }
+  }
+  async function verifiedBytes(url, hash, rawBytes, maxBytes) {
+    const response = await net(fetcher(url));
+    if (!response.ok) {
+      if (response.status === 408 || response.status === 429 || response.status >= 500) throw transient('metadata-fetch-failed');
+      ngGameValueDataError('metadata-fetch-failed');
+    }
     const chunks = []; let length = 0;
     if (response.body?.getReader) {
       const reader = response.body.getReader();
       try {
         for (;;) {
-          const part = await reader.read(); if (part.done) break;
+          const part = await net(reader.read()); if (part.done) break;
           length += part.value.length;
           if (length > rawBytes || length > maxBytes) { await reader.cancel(); ngGameValueDataError('metadata-size-mismatch'); }
           chunks.push(part.value);
         }
       } finally { reader.releaseLock(); }
-    } else { const part = new Uint8Array(await response.arrayBuffer()); chunks.push(part); length = part.length; }
+    } else { const part = new Uint8Array(await net(response.arrayBuffer())); chunks.push(part); length = part.length; }
     if (length !== rawBytes) ngGameValueDataError('metadata-size-mismatch');
     const result = new Uint8Array(length); let offset = 0;
     for (const part of chunks) { result.set(part, offset); offset += part.length; }
