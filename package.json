@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.215.6",
+  "version": "1.215.7",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -14,6 +14,7 @@
     "dev:neural:app": "npm run regenerate:mdp && node neural/build/build.mjs && mkdir -p source/quartz/static/neural/app source/public/static/neural/app source/public/static/neural/mdp && cp neural/dist/* source/quartz/static/neural/app/ && cp -r source/quartz/static/neural/app/. source/public/static/neural/app/ && cp -r source/quartz/static/neural/mdp/. source/public/static/neural/mdp/ && cp neural/src/system-preview.src.js source/public/static/system-preview.js && echo 'app and bound model refreshed — reload the browser'",
     "dev": "npm run build && npm run serve",
     "validate:json": "python3 scripts/validate_json.py --all",
+    "validate:hubs": "python3 scripts/check_category_hubs.py",
     "models:show": "python3 scripts/_model.py",
     "validate:models": "python3 scripts/_model.py --audit",
     "validate:schema": "python3 scripts/check_schema_jsonld.py",
