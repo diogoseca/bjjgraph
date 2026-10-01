@@ -178,7 +178,7 @@ def frame_state(role_block, frame):
 
 
 def load_layer(path, repo_root):
-    """The SECOND calibration layer: `calibration/origin_coherence.json` (v1.209.0), the panel that
+    """The SECOND calibration layer: `calibration/origin_coherence.json` (v1.210.0), the panel that
     listed each origin-orphaned technique at its origin and nulled seven phantom no-gi cells. It
     rescales the Q3 hands it touches, so against Q3 alone every cell of those 25 role-nodes reads
     as a residual and its seven nulls as "cal CARRIES MASS" disagreements, although each one is a

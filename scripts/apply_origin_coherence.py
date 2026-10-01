@@ -4,7 +4,7 @@
 WHAT WAS WRONG (docs/GraphSemantics.md §1.4, §10 item 4). Every technique is authored FROM one
 position-role, its canonical origin (`fromPositionId` + `fromRole`), and its outcome table is
 written for that origin. The game — `solve_edge_values.build_hand`, the app's `optionsFor`, and
-since v1.207.0 the reachability walk `regenerate_neural_data.frame_reachable` — deals a listed card
+since v1.210.0 the reachability walk `regenerate_neural_data.frame_reachable` — deals a listed card
 only at that origin. On the v1.206.2 graph 41 no-gi / 40 gi techniques were listed ONLY away from
 their origin, so the corpus's game dealt them nowhere (the app dealt them at the origin through
 layout adjacency, with no attempt share and so no EDGE). Their origin simply never listed them.

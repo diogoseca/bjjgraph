@@ -81,6 +81,60 @@ def tech_hubs(graph):
     return out
 
 
+def _origin_walk_fixture(home):
+    """A four-state graph where standing LISTS a sweep whose canonical origin is `home`. Its miss lands
+    in a lapel guard no other edge reaches."""
+    def pos(hub, role, listed):
+        return {"hub": hub, "role": role, "transitions": [
+            {"technique": t, "target": t, "isSubmission": False,
+             "attemptProbabilityByRuleset": {"gi": 100 // len(listed), "nogi": 100 // len(listed)}}
+            for t in listed]}
+    def tech(slug, origin, role, cells):
+        return {"hub": slug, "role": "attacker", "fromPositionId": origin, "fromRole": role,
+                "successRate": 50, "successRateByRuleset": {"gi": 50, "nogi": 50},
+                "outcomes": [{"to": to, "result": res, "probability": pr} for to, res, pr in cells]}
+    return {"positions": {"standing-position/top": pos("standing-position", "top", ["step-in", "sweep"]),
+                          "standing-position/bottom": pos("standing-position", "bottom", ["sit-down"]),
+                          "lapel-guard/top": pos("lapel-guard", "top", []),
+                          "lapel-guard/bottom": pos("lapel-guard", "bottom", [])},
+            "transitions": {"step-in/attacker": tech("step-in", "standing-position", "top",
+                                                     [("standing-position/top", "success", 50),
+                                                      ("standing-position/top", "failure", 50)]),
+                            "sit-down/attacker": tech("sit-down", "standing-position", "bottom",
+                                                      [("standing-position/bottom", "success", 50),
+                                                       ("standing-position/bottom", "failure", 50)]),
+                            "sweep/attacker": tech("sweep", home, "top",
+                                                   [("standing-position/top", "success", 50),
+                                                    ("lapel-guard/top", "failure", 50)])},
+            "submissions": {}}
+
+
+def selftest_origin_walk():
+    """THE WALK DEALS BY ORIGIN, pinned on a synthetic graph because the real one cannot show it.
+
+    On today's content the origin-aware walk and the old origin-blind listing walk reach exactly the
+    same states (measured at v1.210.0: no-gi 244 role-nodes and 1,191 techniques either way). The
+    origin-coherence content change nulled the Tripod Sweep no-gi cells that used to admit Spider
+    Guard and Double Sleeve Guard. So no real-corpus assertion can tell the two walks apart, and a
+    revert of `frame_reachable` would pass every other check here. This fixture can tell them apart:
+    standing lists a sweep authored FROM the lapel guard. The game never deals it at standing, so the
+    walk must not reach the lapel guard. The positive control re-homes the sweep to standing; the walk
+    must then reach it, so the negative is not a walk that reaches nothing.
+    MUTANT: an origin-blind walk (every frame-positive listing) reaches lapel-guard in the first case.
+    Returns a list of failures."""
+    fail = []
+    away = frame_reachable(_origin_walk_fixture("lapel-guard"), "nogi")
+    home = frame_reachable(_origin_walk_fixture("standing-position"), "nogi")
+    if {"lapel-guard/top", "lapel-guard/bottom"} & away["positions"] or "sweep" in away["techniques"]:
+        fail.append("origin walk fixture: a sweep listed at standing but authored from the lapel guard "
+                    "admitted the lapel guard; the walk is dealing listings, not what the game deals")
+    if "lapel-guard/top" not in home["positions"] or "sweep" not in home["techniques"]:
+        fail.append("origin walk fixture: the positive control did not reach the lapel guard; the "
+                    "fixture proves nothing")
+    print(f"  origin walk fixture             : {2 - len(fail)}/2 controls hold")
+    return fail
+
+
 def main():
     ap = argparse.ArgumentParser(description="Gate the per-ruleset exclusion layer and write its ledger.")
     ap.add_argument("--graph", default=str(GRAPH))
@@ -99,9 +153,8 @@ def main():
     reach = {fr: (walk[fr] if fr in EXCLUDING_FRAMES else
                   {"positions": set(positions),
                    "techniques": set(hubs)}) for fr in FRAMES}
-    fail = []
-
     print("[validate_ruleset_availability] per-ruleset exclusion")
+    fail = selftest_origin_walk()
     print(f"  position role-nodes walked      : {len(positions)}")
     print(f"  technique hubs walked           : {len(hubs)}")
     if len(positions) < MIN_POSITIONS or len(hubs) < MIN_TECHNIQUES:

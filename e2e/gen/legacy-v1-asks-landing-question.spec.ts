@@ -52,6 +52,12 @@ test("migrated v1 rec looks proven at deck level, yet the landing still asks and
   await j.boot("/", { initialState: seed })
 
   // ── SETUP: the migration's exact shape — rec minted from prep, stage fabricated NEVER ──
+  // RESIDENCY (v1.80.4, 1e054f47f "Chunk the payload"): L0 boots as a manifest STUB ({n}, no
+  // `cards`), and questionFor reads cards through `_cardsOf`, so on a cold deck it returns null
+  // — "nothing owed" by ABSENCE, which is what failed here, not the migration. Ask for L0 through
+  // the real fill seam first; the claim (stage fabricated never → an unproven card is owed) is
+  // then a statement about the card ledger again, not about which chunks happened to land.
+  await j.hydrate([L0])
   const mig = await page.evaluate((l0) => {
     const a = (window as any).__neural
     const q = a.questionFor(l0 as string)

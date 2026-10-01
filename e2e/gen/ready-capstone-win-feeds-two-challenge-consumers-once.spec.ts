@@ -63,7 +63,12 @@ async function playToTap(j: any, page: any, maxMoves = 12): Promise<boolean> {
     await j.rig("resolve", [0.01]) // < moveChance ⇒ success verdict
     await j.rig("outcome", [0.01]) // drawOutcome pick; success re-selects the success row
     if (sub) {
-      await j.pick(sub)
+      // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS
+      // the submission state (deterministic, no resolve draw); its one "Finish" card — the same
+      // title — is where resolve is drawn and the capstone is won. Core content-capstone idiom.
+      await j.pick(sub) // establish the submission state
+      await j.nextHand(30000) // the submission state deals its own hand
+      await j.pick(sub) // its Finish action completes the exchange
       await j.advanceUntil("roll_end", 25000)
       return true
     }
@@ -149,7 +154,18 @@ test("one belt_test_won completes white.capstone (event) AND purple.capstone-one
   await page.locator('.ng-track-card[data-track="white"]').click()
   await page.locator('[data-capstone="white"] button').click()
   await j.advanceUntil("belt_test_start", 20000)
-  await j.nextHand(30000)
+  // v1.180.1 (7e3eb9dc7, "Synchronize landing reveals…") deals the hand AT the reveal, so the
+  // capstone's first hand is usually already on the table by the time belt_test_start is seen —
+  // nextHand() would wait for a SECOND deal that never comes. Accept a hand dealt after this
+  // capstone started (core content-capstone.spec.ts awaitCapstoneHand, v1.182.0 554a048f4).
+  const capstoneHandReady = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const start = a.beats.findLastIndex((b: any) => b.beat === "belt_test_start")
+    return !!a._beltTest && start >= 0 && (a.optionIdxs || []).length > 0 &&
+      a.beats.slice(start + 1).some((b: any) => b.beat === "options_dealt")
+  })
+  if (capstoneHandReady) await j.landQuestion()
+  else await j.nextHand(30000)
 
   // ── WIN IT by rigged submission (starts Mount/Bottom; budget 12 < maxMoves 14) ──
   expect(await playToTap(j, page), "the capstone resolved to a submission tap").toBe(true)

@@ -99,7 +99,7 @@ class Flow:
     tagged with the two deck keys whose drilling moves its odds.
     """
 
-    def __init__(self, graph, opts=None, frame="nogi"):
+    def __init__(self, graph, opts=None, frame="nogi", exclude=()):
         self.graph = graph
         self.opts = opts or Opts(frame=frame)
         self.model = Model(graph, self.opts)
@@ -115,7 +115,14 @@ class Flow:
         # for the larger reachability verdict this deliberately does not use.
         self.frame_absent = self.model.frame_absent
         self.passive_opp = self.model.passive_opp
-        priced = set(self.model.live)
+        # `exclude` is that larger verdict, taken ONLY when a caller asks for it: the role-nodes the
+        # app's ruleset layer removes (`app_exclusions`, the reachability walk). The gate and the
+        # ratchet never pass it (see `default_d0` for why V0 there may not move); `--reference`
+        # does, because the browser kernel it pins drops exactly those states through `giAllows`.
+        # Removing a state from `priced` removes it from d0 AND from the deck registry at once, so
+        # the two stay the one set they must be.
+        priced = set(self.model.live) - set(exclude)
+        self.excluded = sorted(set(exclude) & set(self.model.live))
         self.live_idx = [i for i, s in enumerate(self.states) if s in priced]
 
         # deck key <-> index. Positions first so a position deck is easy to spot.
@@ -337,7 +344,7 @@ def default_d0(fl: Flow):
     `frame_reachable` does is the honest version and is deliberately NOT taken here, because it
     moves V0 today and this pass may not (measured, no-gi, when the ledger said the frame could reach
     254 role-nodes: restricting d0 to them took V0 +0.076492575 -> +0.073898681, a delta of
-    -0.002594; the walk has dealt by origin since v1.209.0 and reaches 244).
+    -0.002594; the walk has dealt by origin since v1.210.0 and reaches 244).
 
     What IS taken here: a state with no frame, and a state whose opponent has no frame, are
     excluded. Both are priced at a fabricated value the recursion had to invent -- V = 0.0 for the
@@ -360,6 +367,50 @@ def default_d0(fl: Flow):
     for i in live:
         d[i] = w
     return d
+
+
+# The app's standing opening (`_standingStart`, app.src.jsx) opens on this position; the seat is
+# still drawn 50/50 by `rng("role")`, so the start law is half on each seat.
+STANDING = "standing-position"
+
+
+def start_d0(fl: Flow, start="uniform"):
+    """
+    The start law the app's `startFrom()` setting implies (`ngFlowStart`, neural/src/flow.src.js):
+
+        uniform   -> `default_d0` (Anywhere, and My weak spots -- see ngFlowStart for why)
+        standing  -> half on each seat of standing-position (Standing)
+        <posId>   -> half on each seat of that position (a fixed start)
+
+    Only priced states can carry mass. A position with no priced seat raises rather than falling
+    back to uniform: a reference that silently solved the wrong start would pin the wrong ranking.
+    """
+    if start in (None, "uniform"):
+        return default_d0(fl)
+    pos = STANDING if start == "standing" else start
+    live = set(fl.live_idx)
+    seats = [fl.index[s] for s in (pos + "/top", pos + "/bottom") if fl.index.get(s) in live]
+    if not seats:
+        raise SystemExit("[flow] start %r: no priced seat of %s in frame %s -- refusing to solve a "
+                         "start the app could not open on" % (start, pos, fl.opts.frame))
+    d = [0.0] * fl.n
+    for i in seats:
+        d[i] = 1.0 / len(seats)
+    return d
+
+
+def app_exclusions(frame: str):
+    """
+    The role-nodes and technique ids the APP removes from `frame`: `ruleset_availability.json`,
+    which `validate:availability` derives from `regenerate_neural_data.frame_reachable` and holds
+    at parity with the wire's `cal.avail` (the field `giAllows` reads). Read, never re-walked, so
+    the reference and the browser cannot answer the question two ways.
+    """
+    path = os.path.join(REPO_ROOT, "tests/artifacts/ruleset_availability.json")
+    with open(path, "r", encoding="utf-8") as fh:
+        av = json.load(fh)
+    ex = (av.get("excluded") or {}).get(frame) or {"positions": [], "techniques": []}
+    return set(ex.get("positions") or []), {t["id"] for t in (ex.get("techniques") or [])}
 
 
 def v0(fl: Flow, m, lam=2.0, H=FLOW_H, pi=None, d0=None):
@@ -620,20 +671,20 @@ def selfcheck(fl: Flow, lam=2.0, H=FLOW_H, eps=1e-4, samples=8) -> int:
 # --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
-def rank(fl: Flow, m=None, lam=2.0, H=FLOW_H, top=40, exact=True):
+def rank(fl: Flow, m=None, lam=2.0, H=FLOW_H, top=40, exact=True, d0=None):
     """Rank every deck by the adjoint, then re-solve the shortlist exactly."""
     m = m if m is not None else [0.0] * len(fl.deck_keys)
-    grad, V0, _rho = adjoint(fl, m, lam, H)
+    grad, V0, _rho = adjoint(fl, m, lam, H, d0=d0)
     order = sorted(range(len(grad)), key=lambda k: -grad[k])
     out = []
     for k in order[:top]:
-        g = exact_gain(fl, m, k, lam, H) if exact else grad[k] * M_CAP
+        g = exact_gain(fl, m, k, lam, H, d0=d0) if exact else grad[k] * M_CAP
         out.append({"deck": fl.deck_keys[k], "gain": g, "lin": grad[k] * M_CAP,
                     "pos": k < fl.n_pos_decks})
     negs = [k for k in order if grad[k] < 0]
     back = []
     for k in negs:
-        back.append({"deck": fl.deck_keys[k], "gain": exact_gain(fl, m, k, lam, H) if exact
+        back.append({"deck": fl.deck_keys[k], "gain": exact_gain(fl, m, k, lam, H, d0=d0) if exact
                      else grad[k] * M_CAP, "lin": grad[k] * M_CAP, "pos": k < fl.n_pos_decks})
     back.sort(key=lambda r: r["gain"])
     return out, back, V0, grad
@@ -723,6 +774,73 @@ def gate(fl, baseline_path, lam=2.0, H=FLOW_H, write=False):
     return bad
 
 
+# The variants `tests/flow.test.mjs` pins the browser kernel against: each frame as the APP builds
+# it (the frame's own success rate, the ruleset layer's exclusions) under each start law the app's
+# `startFrom()` setting can ask for. Key order is the fixture's order.
+REFERENCE_VARIANTS = (
+    ("nogi", "nogi", "uniform"),
+    ("gi", "gi", "uniform"),
+    ("nogi/standing", "nogi", "standing"),
+    ("gi/standing", "gi", "standing"),
+)
+
+
+def write_reference(g, lam=2.0, H=FLOW_H):
+    """
+    tests/artifacts/flow_reference.json: every variant's WHOLE gradient vector (CLAUDE.md 6.6 -- a
+    non-null count would pass a wrong-but-complete remap), aligned to ONE union deck list so the
+    four variants cost one copy of the names. `null` = this deck does not exist in that frame,
+    which is a different fact from a zero gradient and must never be written as one.
+    """
+    rows, union = {}, []
+    seen = set()
+    for key, frame, start in REFERENCE_VARIANTS:
+        excl_pos, excl_tech = app_exclusions(frame)
+        fl = Flow(g, Opts(frame=frame, rates="frame"), exclude=excl_pos)
+        # an excluded TECHNIQUE dealt at a priced state would be dropped by the browser and kept
+        # here -- the reachability walk says that cannot happen; refuse rather than assume it
+        leak = [(fl.states[i], a.target) for i in fl.live_idx for a in fl.model.hands[i]
+                if a.target in excl_tech]
+        if leak:
+            raise SystemExit("[flow] reference %s: %d excluded technique(s) dealt at priced states "
+                             "(%s) -- the walk and the Model disagree" % (key, len(leak), leak[:3]))
+        d0 = start_d0(fl, start)
+        grad, V0, _rho = adjoint(fl, [0.0] * len(fl.deck_keys), lam, H, d0=d0)
+        for k in fl.deck_keys:
+            if k not in seen:
+                seen.add(k)
+                union.append(k)
+        rows[key] = {"frame": frame, "rates": "frame", "start": start,
+                     "states": len(fl.live_idx), "excluded": len(fl.excluded),
+                     "startStates": sum(1 for x in d0 if x > 0), "v0": V0,
+                     "nPosDecks": fl.n_pos_decks, "g": dict(zip(fl.deck_keys, grad))}
+        print("  reference %-14s states %d (excluded %d)  decks %d  start %s on %d state(s)  V0 %+.6f"
+              % (key, len(fl.live_idx), len(fl.excluded), len(fl.deck_keys), start,
+                 rows[key]["startStates"], V0))
+    variants = {}
+    for key, r in rows.items():
+        g_ = r.pop("g")
+        r["grad"] = [round(g_[k], 10) if k in g_ else None for k in union]
+        variants[key] = r
+    path = os.path.join(REPO_ROOT, "tests/artifacts/flow_reference.json")
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump({
+            "note": ("FLOW reference. Emitted by `python3 scripts/solve_flow.py --reference` from "
+                     "graph.json; `tests/flow.test.mjs` pins neural/src/flow.src.js against it. One "
+                     "row per (ruleset, start) the app can build: the frame's own success rate "
+                     "(Opts rates=frame, what `calSuccess` reads), minus the role-nodes the app's "
+                     "ruleset layer removes (ruleset_availability.json), under uniform (Anywhere) "
+                     "or standing starts. `grad` is aligned to `decks`; null = not in that frame. "
+                     "The JS kernel rebuilds from the WIRE, whose attempt shares are integer "
+                     "percents, so magnitudes differ where a share is small; the RANKING is pinned "
+                     "exactly."),
+            "lam": lam, "horizon": H, "decks": union, "variants": variants,
+        }, fh, indent=0)
+        fh.write("\n")
+    print("  wrote %s  (%d variants over %d decks)" % (path, len(variants), len(union)))
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -741,10 +859,22 @@ def main(argv=None):
     ap.add_argument("--fast", action="store_true", help="rank by the adjoint only, no exact re-solve")
     ap.add_argument("--reference", action="store_true",
                     help="write tests/artifacts/flow_reference.json (what tests/flow.test.mjs pins)")
+    ap.add_argument("--rates", default="folded", choices=("folded", "frame"),
+                    help="success rate per card: the folded no-gi scalar (the gate's) or the "
+                         "frame's own cell (the app's, `calSuccess`)")
+    ap.add_argument("--exclusions", default="none", choices=("none", "app"),
+                    help="app = also drop the role-nodes the app's ruleset layer removes "
+                         "(ruleset_availability.json)")
+    ap.add_argument("--start", default="uniform",
+                    help="uniform | standing | <posId>: the start law V0 integrates over")
     a = ap.parse_args(argv)
 
     g = load_graph(a.graph)
-    fl = Flow(g, frame=a.frame)
+    if a.reference:
+        return write_reference(g, a.lam, a.horizon)
+    excl = app_exclusions(a.frame)[0] if a.exclusions == "app" else ()
+    fl = Flow(g, Opts(frame=a.frame, rates=a.rates), exclude=excl)
+    d0 = start_d0(fl, a.start) if a.start != "uniform" else None
     print("FLOW  states %d  decks %d (%d position, %d technique)  lam %.1f  H %d  frame %s"
           % (fl.n, len(fl.deck_keys), fl.n_pos_decks,
              len(fl.deck_keys) - fl.n_pos_decks, a.lam, a.horizon, a.frame))
@@ -757,29 +887,13 @@ def main(argv=None):
              len(fl.passive_opp),
              (" (" + ", ".join(fl.passive_opp[:6]) + ")") if fl.passive_opp else ""))
 
-    if a.reference:
-        # The whole-structure differential the JS kernel is gated against (CLAUDE.md 6.6):
-        # a non-null count would pass a wrong-but-complete remap, so the fixture carries
-        # EVERY deck's gradient and the test compares the whole vector.
-        zero = [0.0] * len(fl.deck_keys)
-        grad, V0, _rho = adjoint(fl, zero, a.lam, a.horizon)
-        path = os.path.join(REPO_ROOT, "tests/artifacts/flow_reference.json")
-        with open(path, "w", encoding="utf-8") as fh:
-            json.dump({
-                "note": ("FLOW reference. Emitted by `python3 scripts/solve_flow.py --reference` "
-                         "from graph.json; `tests/flow.test.mjs` pins neural/src/flow.src.js "
-                         "against it. The JS kernel rebuilds from the WIRE, whose attempt shares "
-                         "are integer percents, so magnitudes differ where a share is small "
-                         "(measured worst: Back Control to Cross Body Ride, 0.01299 -> 0.01000, "
-                         "23.6%). The RANKING is not affected and the test pins that exactly."),
-                "lam": a.lam, "horizon": a.horizon, "frame": a.frame, "v0": V0,
-                "decks": fl.deck_keys,
-                "grad": [round(x, 10) for x in grad],
-                "nPosDecks": fl.n_pos_decks,
-            }, fh, indent=0)
-            fh.write("\n")
-        print("  wrote %s  (%d decks, V0 %+.6f)" % (path, len(grad), V0))
-        return 0
+    if fl.excluded:
+        print("      app exclusions: %d priced role-node(s) removed (%s)"
+              % (len(fl.excluded), ", ".join(fl.excluded[:6])))
+    if (a.baseline or a.gate) and (a.rates, a.exclusions, a.start) != ("folded", "none", "uniform"):
+        # the ratchet is solved at the defaults; a knob here would compare two different games
+        raise SystemExit("[flow] --gate/--baseline run at --rates folded --exclusions none "
+                         "--start uniform only")
 
     if a.baseline:
         return gate(fl, a.baseline_path, a.lam, a.horizon, write=True)
@@ -811,9 +925,9 @@ def main(argv=None):
             print("  wrote %s" % a.json)
         return 0
 
-    out, back, V0, grad = rank(fl, lam=a.lam, H=a.horizon, top=a.top, exact=not a.fast)
-    print("\nV0 at zero drilling %+.6f   (the value of a roll before you drill anything, uniform "
-          "over the %d state(s) this frame prices)" % (V0, len(fl.live_idx)))
+    out, back, V0, grad = rank(fl, lam=a.lam, H=a.horizon, top=a.top, exact=not a.fast, d0=d0)
+    print("\nV0 at zero drilling %+.6f   (the value of a roll before you drill anything, start %s "
+          "over the %d state(s) this frame prices)" % (V0, a.start, len(fl.live_idx)))
     print("\nTOP %d BY GAIN  (what mastering this deck is worth to your whole game)" % a.top)
     for i, r in enumerate(out):
         print("  %2d. %+.5f  %-8s %s" % (i + 1, r["gain"], "position" if r["pos"] else "tech", r["deck"]))

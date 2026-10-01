@@ -796,7 +796,7 @@ def selfcheck(verbose=True):
             # restart chain: unique stationary law, zero mass off the reachable set
             P, pi, supp = K.restart_chain(K.start("standing", "coin"))
             # "zero" is the solve's own precision, not a fixed 1e-15: an unreachable state's true pi
-            # is exactly 0, and the LU leaves it at most the residual. Measured at v1.209.0 (no-gi,
+            # is exactly 0, and the LU leaves it at most the residual. Measured at v1.210.0 (no-gi,
             # shipped): collar-sleeve-guard/top read 1.49e-15 with a residual of 1.49e-15, i.e. the
             # whole residual sat on that one entry. A real leak (restart mass entering an unreachable
             # state) is ~1e-3 and still fails here.

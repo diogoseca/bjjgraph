@@ -27,7 +27,7 @@ test('every available submission has one finish, owned continuations, and named 
     a._giMode=frame;
     const subs=a.nodes.filter(n=>n.rep && n.ty==='submissions' && a.rsAllows(n));
     // Dev retired duplicate Kesa variants: 11 gi states and 8 no-gi states. Origin coherence
-    // (v1.209.0) then hid Spider Guard and Double Sleeve Guard in no-gi, and with them their four
+    // (v1.210.0) then hid Spider Guard and Double Sleeve Guard in no-gi, and with them their four
     // no-gi submissions: Belly Down Armbar and Triangle Choke from Spider Guard, and the Omoplata
     // from each guard (tests/artifacts/ruleset_availability.json).
     assert.equal(subs.length,frame==='gi'?290:255);

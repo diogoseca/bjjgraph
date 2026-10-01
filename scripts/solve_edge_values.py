@@ -123,10 +123,11 @@ class Opts:
     """Model knobs.  Defaults are the shipped model."""
 
     __slots__ = ("frame", "chain", "origin", "stayput", "initiative", "policy",
-                 "opponent", "qform")
+                 "opponent", "qform", "rates")
 
     def __init__(self, frame="nogi", chain="label", origin=True, stayput="rolenode",
-                 initiative="shipped", policy="argmax", opponent="mirror", qform="branch"):
+                 initiative="shipped", policy="argmax", opponent="mirror", qform="branch",
+                 rates="folded"):
         # chain      : label | actor | drop      (see build_action)
         # stayput    : rolenode | hub | charge   (0-ply rule; "charge" = always 1 ply)
         # initiative : shipped | symmetric       (symmetric = the opponent keeps theirs too)
@@ -137,9 +138,17 @@ class Opts:
         #              marginal -> p = the authored success-cell mass.  Identical except on
         #                         the 29 /attacker nodes where successRate is a rounded copy
         #                         of that mass; measured, it moves 9 of 1246 EDGE integers by 1.
+        # rates      : folded   -> the folded no-gi scalar in every frame (the shipped EDGE table)
+        #              frame    -> successRateByRuleset[frame], the rate the app's own
+        #                         `calSuccess` reads in that ruleset. What the browser's gi FLOW
+        #                         runs on, so `solve_flow.py --reference` solves its gi rows
+        #                         with it. See `tech_rate`; nogi is bit-identical either way.
+        if rates not in ("folded", "frame"):
+            raise ValueError("Opts.rates must be 'folded' or 'frame', got %r" % (rates,))
         self.frame, self.chain, self.origin = frame, chain, origin
         self.stayput, self.initiative = stayput, initiative
         self.policy, self.opponent, self.qform = policy, opponent, qform
+        self.rates = rates
 
     def replace(self, **kw) -> "Opts":
         cur = {k: getattr(self, k) for k in self.__slots__}
@@ -221,11 +230,20 @@ def tech_rate(tech, opts):
     Availability is therefore decided by THIS frame's
     own cell, and the scalar is used only as the value once the frame has said the card exists.
     Byte-identical today (every role-node carries both cells and a non-null scalar).
+
+    ``Opts(rates="frame")`` TAKES THE FRAME-CORRECT READ, as an explicit knob rather than a new
+    default: the shipped EDGE table and the ``validate:flow`` ratchet keep the folded scalar, and
+    the one caller that needs the frame's own rate asks for it -- ``solve_flow.py --reference``,
+    whose gi rows are what the browser's gi FLOW must reproduce (the app reads
+    ``calSuccess(act, "gi")``, i.e. this cell, whenever it deals in gi). The read is the same one
+    ``scripts/semantics/scalars.py::frame_rate_patch`` applies in-process.
     """
     m = tech.get("successRateByRuleset")
     have = isinstance(m, dict) and opts.frame in m
     if have and m[opts.frame] is None:
         return None                       # the technique DOES NOT EXIST in this ruleset
+    if have and getattr(opts, "rates", "folded") == "frame":
+        return m[opts.frame]              # the frame's own cell -- what `calSuccess` reads there
     scalar = tech.get("successRate")      # the folded no-gi headline: today's shipped value
     if scalar is not None:
         return scalar
@@ -373,12 +391,12 @@ class Model:
     WHICH ABSENCE THIS IS, AND THE LARGER ONE IT IS NOT.  `frame_absent` is the STRICT reading:
     no cell at all.  The corpus's own verdict is REACHABILITY - `regenerate_neural_data.
     frame_reachable`, ledgered in `tests/artifacts/ruleset_availability.json` - which
-    isolates 22 no-gi role-nodes and 124 techniques (18 and 104 until v1.209.0 made the walk deal
+    isolates 22 no-gi role-nodes and 124 techniques (18 and 104 until v1.210.0 made the walk deal
     by origin) where the strict reading isolates 0, because
     a state can be authored with a full no-gi hand and still be impossible to ARRIVE at without a
     lapel.  Adopting the reachability set here is CORRECT and is a BEHAVIOUR CHANGE: measured on
     the FLOW side, restricting the start distribution to the 254 reachable no-gi role-nodes (the count then; 244
-    since v1.209.0) moved
+    since v1.210.0) moved
     V0 +0.076492575 -> +0.073898681 (delta -0.002594), which is an order of magnitude more than
     the whole null pass.  It belongs in its own commit, with the 18 named and the FLOW reference
     fixture regenerated; this file's absent set is deliberately the subset that moves no number

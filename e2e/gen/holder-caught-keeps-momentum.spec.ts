@@ -31,6 +31,12 @@ import { whiteBeltHolder } from "./personas"
  * Probe: caught landed on hand 1 from Mount Top every run; the retry arm is contingency.
  * Red-proof: answering the first question WRONG gave combo 0 — failed at "combo earned at
  * ×1" (Expected 1, Received 0).
+ *
+ * RE-PINNED by the gen-suite triage (dev 8d6ae5d01, v1.206.2): since v1.135.0 (0c4fbc53d) the
+ * panic drill is MULTIPLE CHOICE when the pool is warm; `[data-panic-reveal]` exists only on
+ * the cold-pool fallback, so its click waited out the 240s timeout and nothing after the
+ * mid-arc checkpoint had run since. The grade now answers whichever block mounted, correctly.
+ * The catch path (first hand from Mount Top) is unaffected by v1.176.0's opponent hand.
  */
 
 test("rigged catch → panic drill → rigged escape: _combo stays at its earned value, zero combo_break", async ({ page }) => {
@@ -123,10 +129,24 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
   const mid = await page.evaluate(() => (window as any).__neural._combo || 0)
   expect(mid, "combo still at its earned value while caught").toBe(earned)
 
-  // ── panic grade through the real UI: defense study credit must not disturb the streak ──
+  // ── panic grade through the real UI: defense study credit must not disturb the streak.
+  //    v1.135.0 (0c4fbc53d): the drill is MULTIPLE CHOICE when the pool is warm — the
+  //    reveal/got recall pair survives only as the cold-pool fallback, which is why the old
+  //    `[data-panic-reveal]` click waited out the 240s timeout. Answer whichever block the card
+  //    mounted, correctly (guidance-defense.spec.ts idiom): the claim is that a CORRECT defence
+  //    grade leaves the streak alone, so the answer must be the right one either way. ──
   await expect(page.locator("[data-panic]"), "inline panic drill visible while caught").toBeVisible()
-  await page.locator("[data-panic-reveal]").click()
-  await page.locator("[data-panic-got]").click()
+  const mcCorrect = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const card = document.querySelector("[data-panic]")
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
+  })
+  if (mcCorrect != null) {
+    await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+  } else {
+    await page.locator("[data-panic-reveal]").click()
+    await page.locator("[data-panic-got]").click()
+  }
   await j.expectBeat("escape_odds_pumped")
 
   // ── the rigged escape resolves the tension (0.01 < the 0.08 escapeChance floor) ──

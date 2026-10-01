@@ -16,7 +16,7 @@ different chains, and nothing compares them:
      restart uniformly. It weights `gameScore` (the belt) and curriculum.
   3. THE REACHABILITY WALK (regenerate_neural_data.frame_reachable). Not a chain — a support: a BFS
      from ROLL_SEEDS over the hands `solve_edge_values.build_hand` deals (role- and origin-filtered
-     since v1.209.0; role- and origin-blind before, which admitted Spider Guard and Double Sleeve
+     since v1.210.0; role- and origin-blind before, which admitted Spider Guard and Double Sleeve
      Guard in no-gi through a Tripod Sweep listing). It decides which states the app hides per ruleset.
 
 What this prints, per frame and initiative rule:

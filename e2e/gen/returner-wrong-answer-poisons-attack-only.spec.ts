@@ -105,17 +105,23 @@ test("wrong landing answer drops every clear option's moveChance by exactly 0.04
   }
   expect(clear, "at least one clamp-clear option carried the exact arithmetic").toBeGreaterThan(0)
 
-  // a mid-band pick for the catch leg — clear of BOTH clamps so nothing saturates en route
+  // a mid-band pick for the catch leg — clear of BOTH clamps so nothing saturates en route.
+  // TRANSITIONS ONLY since v1.176.0 (cdc35cefe, "Give submission states their own choices"): a
+  // submission card's pick now ENTERS its state through enterLand — an ARRIVAL, which forgives
+  // _qMod before any failure — so it would scrub the very penalty this journey carries into the
+  // catch. A failed transition still reaches the catch with no arrival (enterFailCal →
+  // opponentDefend → enterDefense, never enterLand), as every option did when this was written.
   const midTitle = await page.evaluate(() => {
     const a = (window as any).__neural
     for (const o of a.optionIdxs || []) {
       const n = a.nodes[typeof o === "number" ? o : o.idx]
+      if (!n || n.ty !== "transitions") continue
       const c = a.moveChance(n)
       if (c >= 0.15 && c <= 0.8) return n.t
     }
     return ""
   })
-  expect(midTitle, "a mid-band option exists to carry into the catch").not.toBe("")
+  expect(midTitle, "a mid-band transition exists to carry into the catch").not.toBe("")
 
   // ── get CAUGHT deterministically: our move fails, the opponent goes for the finish ──
   await j.rig("resolve", [0.99])
