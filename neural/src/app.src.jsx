@@ -13626,6 +13626,15 @@ class Component extends DCLogic {
   }
   renderChoiceGroups(el, own, threats, pick, seconds, escape) {
     this.cancelChoiceValues("new-hand");
+    // EVERY DEALT HAND CENTRES (v1.213.1, owner 2026-10-01: "the choices row when in submissions
+    // nodes are not centered but left aligned"). `startExecution` sets the row to flex-start so the
+    // chosen card stays under the pointer while it executes, and only `clearOptions` set it back. A
+    // submission ENTRY goes from that execution straight into the next deal with no clearOptions
+    // between, so the submission's hand inherited flex-start: a 5-card hand at 24-813 in a 24-1440
+    // row. The deal owns its own alignment, the ordinary hand's: centred in the row's content box
+    // (its left inset is the measured pane, `updateUiShift`), from the start when it overflows.
+    // Pinned by e2e/journeys/choice-row-centre.spec.ts.
+    el.style.justifyContent = "safe center";
     this._handEscape = !!escape;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {

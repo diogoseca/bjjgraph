@@ -9016,3 +9016,27 @@ escape at `clamp(1 − base + …)`.
 | (recorded) finish chance constant .5; `calSuccess` → null | still red |
 | (recorded) ceiling .95 → 1.05; Finish card prints chance + 2 | still red |
 | film bonus removed | red on film-look's Move-card target once headroom was required (it first SURVIVED on a card pinned at 95) |
+
+## v1.213.1 — A SUBMISSION'S HAND CENTRES WHERE THE ORDINARY HAND DOES (2026-10-01)
+
+**Owner:** "the choices row when in submissions nodes are not centered but left aligned. pls fix".
+
+**Cause.** `startExecution` sets the option row to `justify-content: flex-start` so the chosen card
+stays under the pointer while it executes; only `clearOptions` set it back to `safe center`. Picking
+a submission entry goes from that execution straight into the next deal (`enterLand`), with no
+`clearOptions` between, so the submission's hand inherited `flex-start`. A URL arrival centred, so
+only play showed it. Measured before the fix, after entering Triangle Choke from Closed Guard: a
+5-card hand spanning 24–813 in a row whose visible area is 24–1440 (centre 313 px left at 1440,
+553 px at 1920). `renderChoiceGroups`, the one seam that deals both the ordinary and the escape hand,
+now sets the row's alignment itself.
+
+**Pinned by** `e2e/journeys/choice-row-centre.spec.ts`: attacker (an entry from Mount Top) and
+defender (the finish fails, the opponent catches you), each with the pane shut and open, at 1440,
+1024 and 390. The hand's visible area must equal the ordinary hand's at that width and pane state,
+and inside it the hand centres when it fits, or starts at the leading inset when it overflows. A
+positive count requires a fitting hand at the desktop widths.
+
+| mutant | result |
+|---|---|
+| fix line removed (= the pre-fix build) | red at 1440 and 1024; 390 cannot see it (every hand overflows there) |
+| unsafe `center` | red at all three, but by a click timeout on the clipped card, not at the inset assertion |
