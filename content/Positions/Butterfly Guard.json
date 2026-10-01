@@ -416,8 +416,8 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 23,
-          "nogi": 22
+          "gi": 21,
+          "nogi": 20
         }
       },
       {
@@ -502,6 +502,13 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
+        }
+      },
+      {
+        "transition": "Waiter Sweep",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
         }
       }
     ],

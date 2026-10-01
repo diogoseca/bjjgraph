@@ -406,8 +406,8 @@
       {
         "transition": "50-50 Pass",
         "attempt_probability": {
-          "gi": 31,
-          "nogi": 13
+          "gi": 23,
+          "nogi": 9
         }
       },
       {
@@ -436,6 +436,13 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 5
+        }
+      },
+      {
+        "transition": "Pass to Side Control",
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 4
         }
       }
     ],

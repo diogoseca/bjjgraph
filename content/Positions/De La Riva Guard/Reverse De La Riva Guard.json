@@ -744,7 +744,7 @@
         "transition": "Waiter Sweep",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
@@ -758,14 +758,14 @@
         "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 14
+          "nogi": 15
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 23
+          "nogi": 24
         }
       },
       {
@@ -779,28 +779,28 @@
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 18
+          "nogi": 19
         }
       },
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 6
+          "nogi": null
         }
       },
       {
         "transition": "Kiss of the Dragon from RDLR",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
         "transition": "RDLR to Crab Ride",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 10
         }
       }
     ],

@@ -342,9 +342,9 @@ def default_d0(fl: Flow):
     A MODELLING CHOICE, NOT A FACT, and it is worth saying so at the line. A real roll starts at
     `regenerate_neural_data.ROLL_SEEDS` and spreads from there; seeding from the two seats the way
     `frame_reachable` does is the honest version and is deliberately NOT taken here, because it
-    moves V0 today and this pass may not (measured, no-gi: restricting d0 to the 254 role-nodes
-    `tests/artifacts/ruleset_availability.json` says the frame can reach takes V0 +0.076492575 ->
-    +0.073898681, a delta of -0.002594).
+    moves V0 today and this pass may not (measured, no-gi, when the ledger said the frame could reach
+    254 role-nodes: restricting d0 to them took V0 +0.076492575 -> +0.073898681, a delta of
+    -0.002594; the walk has dealt by origin since v1.210.0 and reaches 244).
 
     What IS taken here: a state with no frame, and a state whose opponent has no frame, are
     excluded. Both are priced at a fabricated value the recursion had to invent -- V = 0.0 for the

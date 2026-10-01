@@ -143,8 +143,8 @@
       {
         "transition": "Gift Wrap to Technical Mount",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 9
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
@@ -250,6 +250,13 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
+        }
+      },
+      {
+        "transition": "Gift Wrap",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 8
         }
       }
     ],

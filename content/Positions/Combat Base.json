@@ -161,8 +161,8 @@
       {
         "transition": "Smash Pass",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
@@ -170,6 +170,13 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 10
+        }
+      },
+      {
+        "transition": "Pressure Pass",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
         }
       }
     ],

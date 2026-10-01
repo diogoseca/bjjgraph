@@ -795,10 +795,18 @@ def selfcheck(verbose=True):
                    % (len(K.reachable), len(fr), extra[:5], len(fr - K.reachable)))
             # restart chain: unique stationary law, zero mass off the reachable set
             P, pi, supp = K.restart_chain(K.start("standing", "coin"))
-            off = [K.labels[i] for i in supp if not K.reach_t[i]]
+            # "zero" is the solve's own precision, not a fixed 1e-15: an unreachable state's true pi
+            # is exactly 0, and the LU leaves it at most the residual. Measured at v1.210.0 (no-gi,
+            # shipped): collar-sleeve-guard/top read 1.49e-15 with a residual of 1.49e-15, i.e. the
+            # whole residual sat on that one entry. A real leak (restart mass entering an unreachable
+            # state) is ~1e-3 and still fails here.
+            res = float(np.abs(pi @ P - pi).max())
+            off = [K.labels[i] for i in supp if not K.reach_t[i] and pi[i] > res]
             ok("[%s] restart(standing) stationary law lives on the reachable set" % tag,
-               not off and len(supp) > 100, "support %d transient states, %d outside reach"
-               % (len(supp), len(off)))
+               not off and len(supp) > 100,
+               "support %d transient states, %d outside reach above the solve residual %.2g "
+               "(max off-reach pi %.2g)" % (len(supp), len(off), res,
+                                            max([pi[i] for i in supp if not K.reach_t[i]] or [0.0])))
             if ini == "symmetric":
                 # PLAYER-SWAP SYMMETRY: (s, M) <-> (flip s, T). Exact under the symmetric rule.
                 perm = np.concatenate([K.n_r + K.flipidx, K.flipidx])

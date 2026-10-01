@@ -390,11 +390,13 @@ class Model:
 
     WHICH ABSENCE THIS IS, AND THE LARGER ONE IT IS NOT.  `frame_absent` is the STRICT reading:
     no cell at all.  The corpus's own verdict is REACHABILITY - `regenerate_neural_data.
-    frame_reachable`, ledgered in `tests/artifacts/ruleset_availability.json` - which today
-    isolates 18 no-gi role-nodes and 104 techniques where the strict reading isolates 0, because
+    frame_reachable`, ledgered in `tests/artifacts/ruleset_availability.json` - which
+    isolates 22 no-gi role-nodes and 124 techniques (18 and 104 until v1.210.0 made the walk deal
+    by origin) where the strict reading isolates 0, because
     a state can be authored with a full no-gi hand and still be impossible to ARRIVE at without a
     lapel.  Adopting the reachability set here is CORRECT and is a BEHAVIOUR CHANGE: measured on
-    the FLOW side, restricting the start distribution to the 254 reachable no-gi role-nodes moves
+    the FLOW side, restricting the start distribution to the 254 reachable no-gi role-nodes (the count then; 244
+    since v1.210.0) moved
     V0 +0.076492575 -> +0.073898681 (delta -0.002594), which is an order of magnitude more than
     the whole null pass.  It belongs in its own commit, with the 18 named and the FLOW reference
     fixture regenerated; this file's absent set is deliberately the subset that moves no number

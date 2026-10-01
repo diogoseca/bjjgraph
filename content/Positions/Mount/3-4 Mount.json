@@ -415,8 +415,8 @@
       {
         "transition": "Mounted Triangle",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
@@ -436,7 +436,7 @@
       {
         "transition": "Consolidate Mount",
         "attempt_probability": {
-          "gi": 22,
+          "gi": 21,
           "nogi": 26
         }
       },
@@ -466,6 +466,13 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 8
+        }
+      },
+      {
+        "transition": "Triangle from Mount",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
         }
       }
     ],

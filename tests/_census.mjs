@@ -104,9 +104,23 @@ export function computeCensus() {
   const negDecksGi = negOf("gi");
   a._giMode = savedMode;
 
+  // EDGE's two worked examples (e2e/journeys/option-edge.spec.ts): Side Control (bottom), at the
+  // published lambda, read straight off the wire's cal.ev block as the build-time solve wrote it.
+  // Frame is pinned by its DEFICIT (unsigned) because the marker scan reads unsigned integers.
+  const sc = WIRE.nodes.find((n) => n && n.id === "Positions/Side-Control");
+  const scEv = sc && sc.cal && sc.cal.ev && sc.cal.ev.bottom;
+  const lamAt = 2 + (WIRE.evLam || []).indexOf(2);
+  const e0Of = (title) => {
+    const i = scEv ? scEv[0].findIndex((ni) => WIRE.nodes[ni] && WIRE.nodes[ni].t === title) : -1;
+    if (i < 0 || lamAt < 2) throw new Error(`census: no EDGE row for ${title} at side-control/bottom`);
+    return scEv[lamAt][2 * i];
+  };
+
   return {
     negDecks,
     negDecksGi,
+    edgeFrameDeficit: -e0Of("Frame from Side Control"),
+    edgeSideControlEscape: e0Of("Side Control Escape"),
     sites:            reps.length,
     members:          nodes.length,
     positions:        positions.length,
