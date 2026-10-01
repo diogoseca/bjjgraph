@@ -46,3 +46,24 @@ test('loaded empty plan retains loading text while pending and reports assessed 
  let row=f.app._exploreStatsRow();assert.match(row.innerHTML,/Suggestions loading/);assert.doesNotMatch(row.innerHTML,/0<\/b> new/);
  f.app._gameStudyState={phase:'ready'};row=f.app._exploreStatsRow();assert.equal(cell(row,'new').getAttribute('data-new'),'0');assert.match(row.innerHTML,/>0<\/b> new/);
 });
+
+// FGD13: the row is repainted IN PLACE when its cells are unchanged, so a late refresh never detaches
+// the cell under a pointer (or a spec's resolved locator). Mutant, recorded 2026-09-30: always
+// replacing the row in _mountStatsRow turns this red at "the same cell object".
+test('a late refresh repaints the mounted stat cells in place and keeps their listeners',()=>{
+ class Node extends Element {
+  getAttributeNames(){return Object.keys(this.attrs);} hasAttribute(k){return k in this.attrs;} removeAttribute(k){delete this.attrs[k];}
+  querySelector(selector){return selector==='[data-explore-stats]'?this.children[0]||null:null;}
+ }
+ const f=fixture(),host=new Node();
+ const build=()=>{const row=new Node();row.attrs['data-explore-stats']='1';for(const b of['mastered','due','new']){const c=new Node();c.attrs.class='ngStat';c.attrs['data-b']=b;c.html=b+'-v1';row.children.push(c);}return row;};
+ let next=build();f.app._exploreStatsRow=()=>next;
+ f.app._mountStatsRow(host);const mounted=host.children[0],cell=mounted.children[2];let clicks=0;cell.addEventListener('click',()=>clicks++);
+ next=build();next.children[2].html='new-v2';next.children[2].attrs['data-new']='4';next.attrs['data-gameplan-status']='ready';
+ f.app._mountStatsRow(host);
+ assert.equal(host.children[0],mounted,'the same row object');assert.equal(host.children[0].children[2],cell,'the same cell object');
+ assert.equal(cell.html,'new-v2');assert.equal(cell.attrs['data-new'],'4');assert.equal(mounted.attrs['data-gameplan-status'],'ready');
+ cell.click();assert.equal(clicks,1,'its listener survived the repaint');
+ next=build();next.children.pop();f.app._mountStatsRow(host);
+ assert.notEqual(host.children[0],mounted,'a changed cell set rebuilds');
+});

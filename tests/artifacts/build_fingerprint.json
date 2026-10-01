@@ -1,23 +1,9 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "node neural/build/build.mjs",
-   "esbuild": "0.27.0",
-   "git_head": "b6f3f9961bb0ae3d7aca58354d832cd3715e4785",
-   "inputs": {
-    "neural/build": "d9dbd6b2fe1314282ec1b9d9bc1f6438c80d1de9",
-    "neural/src": "1a63287b531f6aeb5ee779ef03aec067fdb0d4ca",
-    "package.json": "f1a8d80db9e6f9cbb6b76046b0a75b94255d352c",
-    "source/package-lock.json": "dceb6bf642cbf74f80c8df78abd388a6f25e4fd8"
-   },
-   "package_version": "1.209.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v1"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-fullgame-ba984f0df/pr-fullgame-ba984f0df",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-fullgame-1b7ef2369/pr-fullgame-1b7ef2369",
   "content_provenance": {
-   "capture_git_head": "ba984f0df8e4f45c005bb1efc74d533859ab65f4",
-   "capture_id": "490ac2f6a3e2446793af930aa2334e6b",
+   "capture_git_head": "1b7ef23692c3c33f60e550c129e65d6865be723b",
+   "capture_id": "6338b779061e4307a4f516762e45d9ca",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -47,11 +33,11 @@
    },
    "output_identity": {
     "files": 15995,
-    "sha256": "0b04b112436e8aaa0143005eb40c8b259acd58bcf214fa0d9104c2b0f3b3d2c0"
+    "sha256": "8cf42c014a7ab712f4ea55bb2a714cf412ba2425c02cf56fab2e3be920a71242"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/capture-fullgame-2/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-fullgame-ba984f0df/pr-fullgame-ba984f0df"
+    "/home/user/bjj-orchestrator/qz/capture-fullgame-3/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-fullgame-1b7ef2369/pr-fullgame-1b7ef2369"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -68,21 +54,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2657,
-    "sha256": "5775381b687b90ec79d08608ea7ee0685f63d7d4af385ee85001ca71f23e7b86"
+    "sha256": "9215caee43fbb8c0f5778abebda830088d940823b649f4418045eb2f74adf355"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
-    "sha256": "208dfe171e72f7cda5f59dff773272efea295d9531e18934184eed4ef4eedd3c",
+    "sha256": "0b05058e5272a27a9a4a3f3b56d8623c8d32c33a188ce28b9744fe18b481f597",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111556,
-    "sha256": "0f23435664576ae11116a3713c6458703435b73cea36b99993101284bfa139a4",
+    "sha256": "823af737e811d7de394a82ce9d3a7fb0f36e701fb8a540605a421c4febfa434a",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 27465,
-    "sha256": "ad4d6c535c37f1833bb8473ec89002d6d77dce9314d256e01fee2e577e0ce3aa",
+    "sha256": "513e65a540469236fe1218f07d057965cfbe80ccc6402816f67339a9b7476311",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
@@ -98,8 +84,8 @@
     "sha256": "8b84d852f6a0fc1ab3538acdcdd1c4a731c8e89db484873fcdd3a2fd064ad7f0"
    },
    "static/neural/app/neural.js": {
-    "bytes": 663449,
-    "sha256": "2317426eba4535255ae55700c0bfca76f69d0dea3361ff9b7cdb631e9599240f",
+    "bytes": 662396,
+    "sha256": "297dc6ffce1f52b65271fde8c00b9891b1ecbea779882dbc0b7be2231515f0d8",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -111,8 +97,8 @@
     "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
    },
    "static/neural/app/settings-ui.js": {
-    "bytes": 19592,
-    "sha256": "5925d457314c7570fa1a558b37d46534265f55a2cffaf88eef4907eb2e92dca9",
+    "bytes": 19595,
+    "sha256": "a27ff7a3a3a3aec6f430e7d41de060568f55c7d92420c077c12aabb6f05977b7",
     "version_token": "normalised"
    }
   }
@@ -128,8 +114,8 @@
    "sha256": "487514594cda7b0558c2ee0cf1e6b8e8c1e8e3a29148b4c544b7765c6d333314"
   },
   "postscript.js": {
-   "bytes": 76884,
-   "sha256": "2b575eb1921ee54b1a6f4e59f1317cab3b9009535b6f0cf996d767a358e9ab00",
+   "bytes": 77045,
+   "sha256": "97f11bbc024d29f001bc55886ed2b2b3a5215e34c1778c87ea598da63e499df0",
    "version_token": "normalised"
   },
   "prescript.js": {

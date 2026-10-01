@@ -2942,7 +2942,8 @@ class Component extends DCLogic {
     const ps = this.paneStatsRef.current;
     if (ps) {
       if (study) ps.style.display = "none";
-      else { ps.innerHTML = ""; ps.appendChild(this._exploreStatsRow()); ps.style.display = "block"; }
+      // in place when a row is mounted (see _mountStatsRow): every apply and auth flip lands here
+      else { if (ps.querySelector("[data-explore-stats]")) this._mountStatsRow(ps); else { ps.innerHTML = ""; ps.appendChild(this._exploreStatsRow()); } ps.style.display = "block"; }
     }
   }
   // render whichever body the active tab owns (no-op while a study surface holds the pane)
@@ -4199,6 +4200,26 @@ class Component extends DCLogic {
       : this._gameplanLoadState === "failed" ? "Study suggestions could not load. Retry when ready; due reviews remain available."
       : this._gameplanRuntime ? "Study suggestions are ready. Open your plan when ready."
       : "Open your study plan to load suggestions. Due reviews remain available.";
+  }
+  /**
+   * THE STAT ROW IS REPAINTED IN PLACE (FGD13). `_refreshGameplanUI` and `renderPaneAnchor` (every
+   * `applyDeckVisibility`, every auth flip) used to replace the whole row, so a repaint landing
+   * between a pointerdown and its pointerup swallowed the click, and a spec's resolved cell detached
+   * under it (gameplan-study-live, 3 of 9 runs once D1 made the row's build slower). With the same
+   * cells, the fresh text and attributes move onto the MOUNTED cells, whose listeners stay; a changed
+   * cell set rebuilds as before.
+   */
+  _mountStatsRow(host) {
+    const fresh = this._exploreStatsRow(), old = host.querySelector("[data-explore-stats]");
+    const cells = (row) => [...row.querySelectorAll(".ngStat")];
+    const was = old && typeof old.getAttributeNames === "function" ? cells(old) : null, now = cells(fresh);
+    if (!was || was.map((c) => c.getAttribute("data-b")).join() !== now.map((c) => c.getAttribute("data-b")).join()) { host.replaceChildren(fresh); return; }
+    const copy = (to, from) => {
+      for (const name of to.getAttributeNames()) if (!from.hasAttribute(name)) to.removeAttribute(name);
+      for (const name of from.getAttributeNames()) if (to.getAttribute(name) !== from.getAttribute(name)) to.setAttribute(name, from.getAttribute(name));
+    };
+    copy(old, fresh);
+    now.forEach((cell, i) => { copy(was[i], cell); if (was[i].innerHTML !== cell.innerHTML) was[i].innerHTML = cell.innerHTML; });
   }
   _exploreStatsRow() {
     const mastered = this.masteredCount();
@@ -5696,7 +5717,7 @@ class Component extends DCLogic {
       this._gameplanRefresh = null;
       if (this.__ngDestroyed) return;
       const stats = this.paneStatsRef && this.paneStatsRef.current;
-      if (stats && stats.querySelector("[data-explore-stats]")) stats.replaceChildren(this._exploreStatsRow());
+      if (stats && stats.querySelector("[data-explore-stats]")) this._mountStatsRow(stats);
       const s = this._session;
       if (s && (s.plan || s.review) && this._sessionInline()) this._paintGameplanProgress(s);
     }, 0);
@@ -6011,9 +6032,10 @@ class Component extends DCLogic {
     if (this._session !== s || !(s.plan || s.review)) return;
     const p = this._gameplanProgress(s);
     const list = this.drillListRef.current;
-    // D2 (owner, 2026-09-30): finishing the session unlocks the extra list, in place. renderSession
-    // latches `s.unlocked` and paints this again, so there is no loop.
-    if (s.plan && p.complete && !s.unlocked && list && list.querySelector("[data-plan-locked]")) { this.renderSession(); return; }
+    // D2: finishing (or a new day un-finishing) changes the plan's END, lock <-> "All done" and its
+    // action, so a change in either direction re-renders. renderSession paints this again with the
+    // two in agreement, so there is no loop.
+    if (s.plan && list && list.querySelector && !!list.querySelector("[data-session-complete]") !== !!p.complete) { this.renderSession(); return; }
     // The live count is the header's ("N cards due today"); this polite line carries only what the
     // player must act on (D2: "Order and reasons saved when opened · current review debt below" is gone).
     const note = list && list.querySelector("[data-gameplan-current]");
@@ -6048,7 +6070,8 @@ class Component extends DCLogic {
     title.style.cssText = "font-size:13.5px;font-weight:700;color:#eef1f6;";
     const progress = document.createElement("span"); progress.setAttribute("data-plan-goal-progress", "1"); progress.setAttribute("aria-live", "polite");
     progress.style.cssText = "font-size:11.5px;font-weight:600;color:#9ab0e0;white-space:nowrap;";
-    head.append(title, progress);
+    head.appendChild(title); head.appendChild(progress);
+    head._ngGoal = { title, progress };   // painted through these references, never re-queried
     this._paintPlanGoal(s, head);
     return head;
   }
@@ -6056,26 +6079,26 @@ class Component extends DCLogic {
     head = head || (this.drillListRef.current && this.drillListRef.current.querySelector && this.drillListRef.current.querySelector("[data-plan-goal]"));
     if (!head || !s.plan) return;
     const p = s.live || this._gameplanProgress(s), extra = s.keys.length - s.required;
-    head.querySelector("[data-plan-goal-title]").textContent = s.unlocked || p.complete ? "Today's session is done"
-      : extra > 0 ? "Finish these to unlock more" : "Finish today's session";
-    head.querySelector("[data-plan-goal-progress]").textContent = p.total ? p.completed + " of " + p.total + " cards done" : "Nothing left to finish";
+    // FGD13 (owner): the "Reviewed 0/30" style he liked; the celebration is the end card's job
+    const { title, progress } = head._ngGoal || {};
+    if (!title || !progress) return;
+    title.textContent = s.unlocked || p.complete ? "Today's session" : extra > 0 ? "Finish these to unlock more" : "Finish today's session";
+    progress.textContent = p.total ? "Reviewed " + p.completed + "/" + p.total : "Nothing left to review";
   }
   /**
-   * D2: the plan's extra list, LOCKED until the session is done and UNLOCKED after ("12 more
-   * techniques unlock when you finish" / "Unlocked: 12 more techniques"). The gate is this list only:
-   * every deck still opens from Explore as before. `count` is the list's real length.
+   * D2: the plan's extra list, LOCKED until the session is done ("29 more techniques unlock when
+   * you finish"). Finishing replaces this line with the end card and its "Find more weaknesses"
+   * action (`_sessionDoneCard`). The gate is this list only: every deck still opens from Explore.
+   * `count` is the list's real length.
    */
-  _planLockBlock(count, unlocked) {
+  _planLockBlock(count) {
     const el = document.createElement("div");
-    el.setAttribute(unlocked ? "data-plan-unlocked" : "data-plan-locked", String(count));
-    const what = count.toLocaleString("en-US") + " more " + (count === 1 ? "technique" : "techniques");
-    el.style.cssText = "display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;line-height:1.4;border-radius:10px;padding:11px 12px;margin:" +
-      (unlocked ? "14px 0 8px" : "10px 0 2px") + ";" + (unlocked
-        ? "color:#7ee0a8;border:1px solid rgba(110,214,160,.3);background:rgba(28,58,44,.3);"
-        : "color:#8b97b0;border:1px dashed rgba(150,170,210,.3);background:rgba(255,255,255,.02);");
+    el.setAttribute("data-plan-locked", String(count));
+    el.style.cssText = "display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;line-height:1.4;border-radius:10px;padding:11px 12px;margin:10px 0 2px;" +
+      "color:#8b97b0;border:1px dashed rgba(150,170,210,.3);background:rgba(255,255,255,.02);";
     el.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex:none;">' +
-      '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="' + (unlocked ? "M8 11V7a4 4 0 0 1 7.6-1.7" : "M8 11V7a4 4 0 0 1 8 0v4") + '"/></svg><span></span>';
-    el.querySelector("span").textContent = unlocked ? "Unlocked: " + what : what + " unlock when you finish";
+      '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span></span>';
+    el.querySelector("span").textContent = count.toLocaleString("en-US") + " more " + (count === 1 ? "technique" : "techniques") + " unlock when you finish";
     return el;
   }
   _gameplanWaitingIntro(s) {
@@ -6186,10 +6209,12 @@ class Component extends DCLogic {
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const n = s.keys.length;
     if (s.plan || s.review) this._gameplanProgress(s);
-    // D2 (owner, 2026-09-30): the plan's extra list (rows past `required`) is LOCKED until the session
-    // is done; the latch keeps it open for this plan once it has been earned.
-    if (s.plan && s.live.complete) s.unlocked = true;
+    // D2 (owner, 2026-09-30; copy FGD13). The plan's extra list (rows past `required`) is LOCKED
+    // until the session is done. Finishing ends the session with "All done, come back tomorrow" and,
+    // AFTER it, the "Find more weaknesses" action, which is what opens the extra list: `s.unlocked`,
+    // set only by that action and kept for this plan (a new day does not re-lock it).
     const extra = s.plan ? n - s.required : 0, locked = extra > 0 && !s.unlocked;
+    const daily = !!(s.plan || s.review), complete = daily && s.live.complete;
     this.setDrillHeader(s.label, s.sub || (n + (n === 1 ? " technique" : " techniques")), n ? this._sessionDone(s) + "/" + n : "");
     list.innerHTML = "";
     // the registry is rebuilt with the rows it indexes, exactly as renderDrillHome does
@@ -6207,10 +6232,7 @@ class Component extends DCLogic {
       if (s.plan || s.review) this._paintGameplanProgress(s);
       return;
     }
-    if (s.plan || s.review ? s.live.complete && s.live.total > 0 : this._sessionDone(s) >= n) {
-      list.appendChild(this._sessionDoneCard(s));
-      if (!(s.plan || s.review)) return;
-    }
+    if (!daily && this._sessionDone(s) >= n) { list.appendChild(this._sessionDoneCard(s)); return; }
     const wrap = document.createElement("div");
     wrap.setAttribute("data-session", "1");
     wrap.style.cssText = "display:flex;flex-direction:column;";
@@ -6218,25 +6240,32 @@ class Component extends DCLogic {
     const openers = [];
     const secAt = {};
     for (const sec of (s.sections || [])) secAt[sec.at] = sec;
+    // the opened extra list is its own block, dealt AFTER the session's end card
+    const more = document.createElement("div"); more.setAttribute("data-plan-extra", "1"); more.style.cssText = "display:flex;flex-direction:column;";
+    if (extra > 0) secAt[s.required] = { label: "More weaknesses", note: extra.toLocaleString("en-US") + " more " + (extra === 1 ? "technique" : "techniques") + ", " +
+      (s.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison") };
     const limit = locked ? s.required : s.shown ? Math.min(s.keys.length, s.shown) : s.keys.length;
     if (s.plan) this._sessionNodes = s.keys.slice(0, limit).map((k) => this.nodeForKey(k)).filter((i) => i >= 0 && this.rsAllowsIdx(i));   // rings follow the unlock
     s.keys.forEach((key, i) => {
       if (i >= limit) { openers.push(null); return; }
-      if (s.plan && i === s.required) wrap.appendChild(this._planLockBlock(extra, true));
+      const host = s.plan && i >= s.required ? more : wrap;
       const sec = secAt[i];
       if (sec) {
         const h = document.createElement("div");
         h.setAttribute("data-session-section", sec.label);
         h.style.cssText = "display:flex;flex-wrap:wrap;align-items:baseline;gap:7px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#6b7691;font-weight:700;padding:" + (i ? "14px" : "2px") + " 2px 7px;";
         h.innerHTML = "<span>" + sec.label + "</span><span style=\"letter-spacing:0;text-transform:none;font-size:10.5px;font-weight:500;color:#5d6883;\">" + sec.note + "</span>";
-        wrap.appendChild(h);
+        host.appendChild(h);
       }
       const r = this._sessionRow(key, i, s, decks);
-      wrap.appendChild(r.el);
+      host.appendChild(r.el);
       openers.push(r.open);
     });
     list.appendChild(wrap);
-    if (locked) list.appendChild(this._planLockBlock(extra, false));
+    // the session's END: the celebration once it is done (with the action after it), the lock before
+    if (complete && (s.plan || s.live.total > 0)) list.appendChild(this._sessionDoneCard(s));
+    else if (locked) list.appendChild(this._planLockBlock(extra));
+    if (more.children.length) list.appendChild(more);
     this._sessionOpeners = openers;
     // INFINITE SCROLL, one page at a time, and deliberately a BUTTON rather than a scroll
     // listener: the pane's scroller is shared with the open mini-deck, and appending rows under
@@ -6253,7 +6282,7 @@ class Component extends DCLogic {
     // LAND ON A CARD, NOT ON A BUTTON. The old surface made you press "Start session" before it
     // would show you anything; the queue's whole point is that the first question is already here.
     const at = Math.max(0, Math.min(n - 1, s.idx || 0));
-    if (openers[at] && !((s.plan || s.review) && s.live.complete)) openers[at]();
+    if (openers[at] && !complete) openers[at]();
     { const foot = this.drillFootRef.current; if (foot) { foot.innerHTML = ""; foot.style.display = "flex"; foot.appendChild(this._sessionFoot(s)); } }
     if (s.plan || s.review) this._paintGameplanProgress(s);
   }
@@ -6442,8 +6471,10 @@ class Component extends DCLogic {
    */
   _sessionDoneCard(ses) {
     const live = ses.plan || ses.review ? this._gameplanProgress(ses) : null;
-    const valid = live ? live.complete && live.total > 0 : ses.keys.length > 0 && this._sessionDone(ses) >= ses.keys.length;
-    if (valid && !ses.completionReported) {
+    // A plan that owed nothing (the daily goal already met) is still DONE, and still offers "Find
+    // more weaknesses"; only a session that actually held cards reports a completion.
+    const valid = live ? live.complete && (live.total > 0 || !!ses.plan) : ses.keys.length > 0 && this._sessionDone(ses) >= ses.keys.length;
+    if (valid && (!live || live.total > 0) && !ses.completionReported) {
       ses.completionReported = true;
       this.track("neural_session_completed", { techniques: ses.plan ? ses.required : ses.keys.length,
         cards: live ? live.total : undefined, due_remaining: this.dueCount() });
@@ -6451,14 +6482,16 @@ class Component extends DCLogic {
     const done = document.createElement("div");
     done.setAttribute(valid ? "data-session-complete" : "data-session-incomplete", "1");
     done.style.cssText = "margin-top:auto;background:rgba(28,46,38,.5);border:1px solid rgba(110,224,168,.35);border-radius:12px;padding:20px 16px;text-align:center;animation:ngCardIn .3s ease both;";
+    // FGD13 (owner, 2026-09-30): the daily session ends on "All done, come back tomorrow", and AFTER
+    // it offers the Continue action, "Find more weaknesses" (below the week plot). A lesson session
+    // keeps "Session complete".
+    const due = this.dueCount();
     done.innerHTML =
       '<div style="font-size:26px;margin-bottom:10px;">\uD83C\uDF89</div>' +
-      '<div style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (valid ? 'Session complete' : 'Reviews still need attention') + '</div>' +
+      '<div data-session-done-title="1" style="font-size:15px;font-weight:700;color:#bff0d2;margin-bottom:6px;">' + (!valid ? 'Reviews still need attention' : live ? 'All done, come back tomorrow' : 'Session complete') + '</div>' +
       '<div style="font-size:11.5px;color:#9ab3a4;line-height:1.5;margin-bottom:14px;">' +
-      // PLAIN COPY (item 9 + D2, owner 2026-09-30): what you did, and what finishing unlocked.
-      (live ? 'You finished ' + live.completed + ' of ' + live.total + ' cards. ' : 'The lesson goals in this session are complete. ') +
-      (ses.plan && ses.keys.length > ses.required ? 'More practice is unlocked below. ' : '') +
-      (this.dueCount() ? this.dueCount() + (this.dueCount() === 1 ? ' card is' : ' cards are') + ' due now.' : 'Nothing else is due today.') + '</div>';
+      (!live ? 'The lesson goals in this session are complete. ' : live.total ? 'You reviewed ' + live.completed + ' of ' + live.total + ' cards today. ' : "You've met today's goal. ") +
+      (due ? due + (due === 1 ? ' card is' : ' cards are') + ' due now.' : '') + '</div>';
     // 7-day progress sparkline — REAL history from the persisted daily counts
     const dk7 = []; for (let i = 6; i >= 0; i--) { const d = new Date(); d.setDate(d.getDate() - i); dk7.push(d); }
     const week = dk7.map((d) => (this._days || {})[this._dayKey(d)] || 0);
@@ -6471,6 +6504,24 @@ class Component extends DCLogic {
     plot.style.cssText = "background:rgba(255,255,255,.03);border:1px solid rgba(150,170,210,.12);border-radius:12px;padding:14px 12px 10px;margin-bottom:14px;";
     plot.innerHTML = '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin-bottom:10px;">This week</div>' + bars;
     done.appendChild(plot);
+    const extra = ses.plan ? ses.keys.length - ses.required : 0;
+    if (valid && extra > 0 && !ses.unlocked) {
+      // THE CONTINUE ACTION (FGD13): opens the plan's extra list and lands on its first deck
+      const go = document.createElement("button"); go.type = "button"; go.setAttribute("data-plan-more", String(extra));
+      go.style.cssText = "display:block;width:100%;min-height:44px;margin:0 0 10px;cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;padding:10px 14px;border-radius:10px;border:1px solid rgba(126,224,168,.55);background:rgba(126,224,168,.14);color:#bff0d2;";
+      go.innerHTML = 'Find more weaknesses<span style="display:block;margin-top:2px;font-size:10.5px;font-weight:500;color:#8fb8a0;"></span>';
+      go.querySelector("span").textContent = extra.toLocaleString("en-US") + " more " + (extra === 1 ? "technique" : "techniques") + ", " +
+        (ses.plan.status === "weak-spots" ? "weakest first" : "ranked by your study comparison");
+      go.addEventListener("click", () => {
+        if (this._session !== ses) return;
+        ses.unlocked = true; ses.idx = ses.required;
+        this.track("neural_find_more_weaknesses", { techniques: extra, ranking: ses.plan.status });
+        this.renderSession();
+        const op = this._sessionOpeners && this._sessionOpeners[ses.required];
+        if (op) { op(); this._scrollFocusedDeck(); }
+      });
+      done.appendChild(go);
+    }
     const close = document.createElement("button");
     close.textContent = "Close";
     close.style.cssText = "cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:600;padding:9px 18px;border-radius:10px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#aeb6c8;";

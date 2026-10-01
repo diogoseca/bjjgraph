@@ -128,8 +128,12 @@ test("shared credit completing a mounted plan paints completion without a local 
   // This is authoritative SRS evidence delivered after a shared/remote grade.
   a.srs["Move|Defender"][qh] = [107, 7, 100];
   a._paintGameplanProgress(s); a._paintGameplanProgress(s);
-  assert.equal(list.children.length, 1);
-  assert.equal(list.children[0].attrs["data-session-complete"], "1");
+  // FGD13: completion re-renders the plan, whose END is now the "All done" card (its extra list,
+  // if any, stays behind the card's action). Exactly one end card, last, no lock, one event.
+  const ends = list.children.filter((el) => el.attrs["data-session-complete"]);
+  assert.equal(ends.length, 1); assert.equal(list.children.at(-1), ends[0]);
+  assert.match(ends[0].html, /All done, come back tomorrow/);
+  assert.equal(list.children.filter((el) => el.attrs["data-plan-locked"]).length, 0);
   assert.equal(a.events.filter((e) => e.event === "neural_session_completed").length, 1);
 });
 

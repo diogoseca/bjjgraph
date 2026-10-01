@@ -248,30 +248,34 @@ test("D1: a new player with no comparison still gets a plan, dealt from the weak
     .toHaveText(/^(One of the biggest leaks in your game right now\.|A loose spot in your game, worth tightening\.|Worth polishing once the bigger leaks are closed\.|You.+\.)$/);
 });
 
-// D2 (owner, 2026-09-30): the session list (due reviews plus the new-card budget) is headed "Finish
-// these to unlock more" with its progress; the extra practice below it is LOCKED until that list is
-// done, then shows as unlocked. The gate is the plan's extra list only: the same deck still opens as
-// a study elsewhere. Every figure is read off the app's own session, never recomputed here.
-// Mutants, recorded 2026-09-30: rendering the extra rows while locked (limit = s.shown) turns this red
-// at the row count; never latching `s.unlocked` turns it red at "Unlocked"; dropping the unlock
-// re-render in _paintGameplanProgress turns it red after the grades land.
-test("D2: the plan's extra practice unlocks only when the session is finished @curated", async ({ page, isMobile }) => {
+// D2 (owner, 2026-09-30; copy FGD13): the session list (due reviews plus the new-card budget) is
+// headed "Finish these to unlock more" with "Reviewed x/y"; the extra practice below it is LOCKED.
+// Finishing ends the session with "All done, come back tomorrow" and, AFTER it, the Continue action
+// "Find more weaknesses", which opens the extra list and lands on its first deck. The gate is the
+// plan's extra list only: the same deck still opens as a study elsewhere. Every figure is read off
+// the app's own session, never recomputed here.
+// Mutants, recorded 2026-10-01 on the built bundle, each red at a different point:
+// - extra rows dealt while locked (limit = s.shown): red at "locked rows are not dealt" (12 vs 2);
+// - the list opened at completion without the action: red at "Find more weaknesses" (no action);
+// - a Find-more action that does not set `s.unlocked`: red after the click (no "More weaknesses");
+// - no completion re-render in _paintGameplanProgress: red at the lock (still shown once done).
+test("D2: finishing the session ends on All done, and Find more weaknesses opens the next practice @curated", async ({ page, isMobile }) => {
   await setup(page, false);
   await page.evaluate(() => { const a = (window as any).__neural; a.settings.dailyGoal = 5; a.renderPaneAnchor(); });
   await hit(page, '[data-explore-stats] [data-b="due"]', isMobile);
   const s0 = await page.evaluate(() => {
     const s = (window as any).__neural._session;
-    return { required: s.required, keys: s.keys.length, total: s.plan.total, locked: s.keys[s.required] };
+    return { required: s.required, keys: s.keys.length, total: s.plan.total, first: s.keys[s.required] };
   });
   const extra = s0.keys - s0.required;
   expect(s0.required, "the session holds the due deck and new work").toBeGreaterThan(1);
   expect(extra, "and there is extra practice to lock").toBeGreaterThan(0);
   const more = (n: number) => n.toLocaleString("en-US") + " more " + (n === 1 ? "technique" : "techniques");
   await expect(page.locator('[data-plan-goal-title]')).toHaveText("Finish these to unlock more");
-  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("0 of " + s0.total + " cards done");
+  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed 0/" + s0.total);
   await expect(page.locator('[data-plan-locked]')).toHaveText(more(extra) + " unlock when you finish");
   await expect(page.locator('[data-session-row]'), "locked rows are not dealt").toHaveCount(s0.required);
-  await expect(page.locator('[data-plan-unlocked]')).toHaveCount(0);
+  await expect(page.locator('[data-plan-more]')).toHaveCount(0);
   await expect(page.locator('[data-session-more]'), "no paging while locked").toHaveCount(0);
   await dueHeader(page, "2 cards due today");
   // Finish the session through the shared grade path (every planned question, once).
@@ -285,20 +289,33 @@ test("D2: the plan's extra practice unlocks only when the session is finished @c
     }
     a._onGameplanKnowledgeChanged({ reason: "grade", revision: a._knowledgeRevision });
   });
-  await expect(page.locator('[data-plan-unlocked]')).toHaveText("Unlocked: " + more(extra));
+  const end = page.locator('[data-session-complete]');
+  await expect(end.locator('[data-session-done-title]')).toHaveText("All done, come back tomorrow");
+  await expect(end).toContainText("You reviewed " + s0.total + " of " + s0.total + " cards today.");
   await expect(page.locator('[data-plan-locked]')).toHaveCount(0);
-  await expect(page.locator('[data-plan-goal-title]')).toHaveText("Today's session is done");
-  await expect(page.locator('[data-plan-goal-progress]')).toHaveText(s0.total + " of " + s0.total + " cards done");
-  await expect(page.locator('[data-session-complete]')).toContainText("More practice is unlocked below");
-  await expect(page.locator('[data-session-row]'), "the first page of extra rows is dealt").toHaveCount(Math.min(s0.keys, s0.required + 10));
+  await expect(page.locator('[data-plan-goal-title]')).toHaveText("Today's session");
+  await expect(page.locator('[data-plan-goal-progress]')).toHaveText("Reviewed " + s0.total + "/" + s0.total);
+  await expect(page.locator('[data-session-row]'), "the extra list is not dealt until the action").toHaveCount(s0.required);
   await dueHeader(page, "No cards due today");
-  // an unlocked row answers the real mouse (or finger) and opens its deck
-  await hit(page, `[data-session-row][data-session-idx="${s0.required}"]`, isMobile);
-  await expect(page.locator(`[data-mini-deck="${s0.locked}"]`)).toBeVisible();
-  // the unlock is earned once: a new day does not re-lock this plan
+  // the Continue action comes AFTER the celebration, answers the real mouse (or finger), and opens
+  // the next practice on its first deck
+  const action = end.locator('[data-plan-more]');
+  await expect(action).toContainText("Find more weaknesses");
+  await expect(action).toContainText(more(extra) + ", weakest first");
+  expect(await end.evaluate((el) => {
+    const title = el.querySelector('[data-session-done-title]')!, go = el.querySelector('[data-plan-more]')!;
+    return !!(title.compareDocumentPosition(go) & Node.DOCUMENT_POSITION_FOLLOWING);
+  }), "the action follows the All done line").toBe(true);
+  await hit(page, '[data-plan-more]', isMobile);
+  await expect(page.locator('[data-session-section="More weaknesses"]')).toContainText(more(extra) + ", weakest first");
+  await expect(page.locator('[data-session-row]'), "the first page of the next practice is dealt").toHaveCount(Math.min(s0.keys, s0.required + 10));
+  await expect(page.locator(`[data-mini-deck="${s0.first}"]`), "and it lands on its first deck").toBeVisible();
+  await expect(page.locator('[data-plan-more]'), "the action is spent").toHaveCount(0);
+  // opened once, kept: a new day does not re-lock this plan's extra list
   await page.evaluate((day: number) => { (window as any).__NG_EPOCH_DAY__ = day + 1; (window as any).__neural._refreshGameplanUI(); }, await page.evaluate(() => (window as any).__neural._epochDay()));
   await expect(page.locator('[data-gameplan-current]')).toContainText("A new day");
-  await expect(page.locator('[data-plan-unlocked]')).toHaveCount(1);
+  await expect(page.locator('[data-session-section="More weaknesses"]')).toBeVisible();
+  await expect(page.locator('[data-plan-locked]')).toHaveCount(0);
 });
 
 test("D2: the lock is the plan's extra list only; a locked deck still opens as a study @curated", async ({ page, isMobile }) => {

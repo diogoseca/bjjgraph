@@ -8465,6 +8465,30 @@ all 35 reds of the first run were this branch's, and so were the 4 of the second
 - **Payload.** Eager boot +1,186 B gzip (327,480 → 328,666), within the delta cap. Deferred
   448,798 of 500,000 B.
 
+**D2, the owner's copy pass (v1.208.1, 2026-10-01).** In his words: he liked the "Reviewed 0/30" style
+progress, and when the player finishes it should say something like "All done, come back tomorrow",
+and AFTER that offer a Continue action, "Find more weaknesses".
+- **Progress:** "Reviewed 3/13", beside the kept "Finish these to unlock more".
+- **The finished session ends on the end card**: "All done, come back tomorrow · You reviewed 13 of
+  13 cards today." That card replaces the lock line at the END of the list. After it comes the
+  action "Find more weaknesses (29 more techniques, weakest first)".
+- **The action is what opens the extra list.** It deals the list under "More weaknesses" and lands
+  on its first deck (`s.unlocked`, set only there, and kept for that plan).
+- **Removed:** "Unlocked: 29 more techniques" (and its unlocked-block variant).
+- **A race that D1 widened.** The Explore stat row was rebuilt whole by every `applyDeckVisibility`,
+  every auth flip and every `_refreshGameplanUI`. D1 made its build slower, since it now asks FLOW
+  for the weak-spots ranking. `gameplan-study-live` then caught a cell detaching between "visible"
+  and the hit, in 3 of 9 runs, and a real click can be lost the same way. Fixed by `_mountStatsRow`,
+  which repaints mounted cells in place, so listeners stay; a changed cell set still rebuilds.
+- **Gates.**
+  - Units 1,124/1,124 (+1, the in-place repaint, whose always-replace mutant turns it red).
+  - study-live repeated 6×: 12/12.
+  - Plan and auth journeys: 60/60.
+  - Four D2 mutants, each killed at a named point (listed in the journey's header):
+    rows dealt while locked; the list opened without the action; an action that does not unlock;
+    no completion re-render.
+- **Payload:** eager boot +498 B gzip since v1.208.0.
+
 ## v1.209.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
 
 **The owner's question** (2026-09-30), on GraphSemantics §10.5: "every player's belt is rather a
