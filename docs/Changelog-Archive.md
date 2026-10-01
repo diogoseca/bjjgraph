@@ -9567,6 +9567,51 @@ B1 builds the mechanism and applies **no** table; B2 applies them.
 - `listing_absences` ignoring the dealing rule;
 - `check_absence_hands` accepting a relaxed hand.
 
+## v1.214.1 — A SUBMISSION'S HAND STOPS GLOWING; THE ESCAPES' "ODDS 40%" IS DATA, NOT A CONSTANT (2026-10-01)
+
+**Owner:** "there's this strange glowing effect of [the] choices row of a submission". He was attacking
+Suloev Stretch from Half Guard, with the Dark Reader extension on.
+
+**Glow sources on that row, reproduced at the same URL:**
+- **The coaching beacon (the defect).** `setBeacon("options", row)` runs on every deal (v1.57.0). It
+  gives the row `.ng-beacon`, a pulsing green box-shadow of up to `0 0 22px 5px`. The row also carried a
+  constant edge mask from 2026-07-12, four days older than the beacon, and that mask clips an element's
+  own box-shadow. So this light was never visible on any hand. v1.213.2 (PR 248) made the mask earned:
+  a hand that fits has none. A fitting hand, usually a submission's, then pulsed a full-width green
+  band.
+  - Pixel proof at the beacon's peak (a 360×22 strip above the row): it differs by 42/255 from no
+    beacon, and by 0 with the old mask reinstated.
+  - Fix: `.ng-optionrow.ng-beacon{animation:none}`. The one-beacon law is unchanged (`data-beacon`,
+    `beaconState()`, `beacon_moved`), and the specs that pin it pass.
+- **The staged card's border and shadow** (`_highlightStagedCard`, the owner's "FINISH IT" rule from
+  v1.134.0). It appears on any hand with a staged technique, and the Finish card is that technique
+  here. Unchanged.
+- **Card glyphs' `drop-shadow(0 0 4px)`.** On every card of every hand. Unchanged.
+- **Dark Reader** (its own engine, darkreader 4.9.133, injected) recolours the cards' inline borders
+  and shadows from blue to navy, and passes the beacon's keyframes through untouched. Under it the
+  green band stood out more; after the fix there is none.
+
+**The escapes' "Odds 40%".** All four opponent escapes print 40% because an escape card prints
+`1 − the submission's authored rate`. Suloev Stretch from Half Guard is authored at 60%, and none of
+the 290 submissions' defensive options carries a rate of its own. So escapes of one submission are
+equal by construction, and other submissions print their own complement (16 distinct values in the
+corpus; triangle from Triangle Control prints 35%). It is not the 0.4 fallback, and the card prints
+"—" with no rate. Nothing was changed.
+- **Left to the owner:** in the live game an opponent's escape is certain once they act
+  (`opponentDefend` picks one at random, with no roll), so the percentage does not describe a roll.
+
+**Pinned by** `e2e/journeys/submission-row-glow.spec.ts`:
+- The row keeps its beacon state and casts no light: computed animation and box-shadow are `none`, and
+  a pixel differential over the row and a 30 px margin matches the beacon class removed.
+- Escape Odds equal `100 − rate` on two submissions with different rates.
+
+| mutant | result |
+|---|---|
+| neutral control | green |
+| row light restored (rule removed) | red at the computed animation |
+| glow by `filter: drop-shadow` (passes the style checks) | red at the pixel differential (it first SURVIVED a narrower strip) |
+| escape base a constant 0.4 | red on the triangle |
+
 ## v1.216.0 — 95 LISTINGS DEAL THEIR OWN OUTCOME TABLE
 
 **Origin coherence PR B2 (OCPRB2, OCPRB4, OCPRB7), 2026-10-01.** This is the data half of B1's
