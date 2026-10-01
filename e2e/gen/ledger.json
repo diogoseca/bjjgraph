@@ -2436,19 +2436,13 @@
    "B": "cross-feature",
    "invariant": "restartTutorial is scoped to the white drip: tut.done and the twenty white challenge entries reset to incomplete and bjj-neural-coached is removed, while advanced-track partial progress, earned badges, coins, belts.won, and gameScore().score stay identical.",
    "origin": "auto",
-   "status": "known-red",
+   "status": "accepted",
    "wave": 6,
    "evidence": {
     "greens": 3,
     "redProof": "Mutated line 124: post-restart white.* challenge entry count assertion .toBe(0) \u2192 .toBe(1). Run failed at exactly that assertion (\"every white.* challenge entry deleted \u2014 Expected: 1, Received: 0\"), proving the reset really deletes all twenty entries and the assert bites. Restored the exact original line (git diff vs HEAD empty) and re-ran green (15.3s).",
-    "runtimeS": 22
-   },
-   "known_red": {
-    "test": "restartTutorial resets exactly the white drip \u2014 and the reset survives a reload",
-    "reason": "REAL BREAK behind two stale assertions (fixed in the gen triage: the coached marker has had no writer since the coach was deleted in v1.104.0, and [data-tut] never mounts since v1.133.0). After a preserveStorage reload gameScore() serves a memoised score of 0: the memo is written by _ingestDeckManifest -> _bumpStageVer -> renderTabSubtitles -> gameScore BEFORE curriculum.json (which carries the score weights) has arrived, and _onCurriculum never bumps _stageVer, so the 0 sticks until a card is graded or a deck hydrates - against the app's own comments at _bumpStageVer/deckMastery ('the lie STICKS'). A probe build that bumps the stage version in _onCurriculum turns the whole spec green.",
-    "owner": "unassigned \u2014 dev orchestrator (w1:pT) to route the app fix",
-    "since": "c0eb7116e (v1.98.1) put renderTabSubtitles inside _bumpStageVer; first visible once the stale coach assertion was fixed (gen triage, 2026-10-01)",
-    "failure": "score recomputed from persisted stage"
+    "runtimeS": 22,
+    "fixed": "Known-red from the gen triage (v1.206.3) to v1.215.2: gameScore() served a memoised 0 after a reload because _onCurriculum never bumped _stageVer; v1.215.2 publishes the curriculum's arrival as a knowledge change."
    }
   },
   {
@@ -2628,20 +2622,14 @@
    "L": "white-belt-holder",
    "F": "checkpoint-quiz",
    "B": "cross-feature",
-   "invariant": "While a checkpoint quiz is open over a live hand, letters answer the quiz (A-D advance _checkpoint.i) but digit keys never reach the roll beneath: no digit opens an option expand sheet (_detailCtx stays falsy, zero sheet_opened), and Enter after a digit fires no commit \u2014 the paused roll cannot play out under the live quiz.",
+   "invariant": "While a checkpoint quiz is open over a live hand, letters answer the quiz (A-D advance _checkpoint.i) but digit keys never reach the roll beneath: no digit opens an option expand sheet (_detailCtx stays falsy, zero sheet_opened), and Enter after a digit fires no commit \u2014 the paused roll cannot play out under the live quiz. Nor do the drill's study keys touch the quiz card: Enter, Space and the four arrows never reveal it, grade it, credit its deck or page the quiz off its pick.",
    "origin": "bug",
-   "status": "known-red",
+   "status": "accepted",
    "wave": 6,
    "issue": "Q007 (e2e/quarantine/ISSUES.md) \u2014 the [1-9] option-opener keyboard branch has no _checkpoint guard and the pre-quiz hand is never parked: digits 5-9 open the roll's expand sheet under the open quiz, and Enter commits \u2014 the roll plays out beneath, clobbering the quiz surface while _checkpoint stays armed (Q002's zombie via the manual keyboard door).",
    "evidence": {
-    "promoted": "bug fixed in v1.75.3; born-red spec green post-fix"
-   },
-   "known_red": {
-    "test": "digits during an open checkpoint quiz never open a sheet or commit the roll beneath",
-    "reason": "REAL BREAK, not a stale spec. Since v1.171.0 the drill branch of _onKey's Enter handler (`else if (this.isDrillOpen()) { \u2026 drillReveal() / drillGrade(true) }`) has no _checkpoint guard: the first Enter during an open checkpoint quiz reveals the quiz card's answer and removes its MC block, the second grades it as a recall 'Got it' and credits prep (3\u21924) on a card the quiz is meant to test. The roll beneath stays untouched (the Q007 digit guards hold); the quiz surface does not. A one-line guard (`&& !this._checkpoint`) turns this unmodified spec green (repair probe, gen triage 2026-10-01). Space and ArrowDown in the drill branch reveal a quiz card too (since v1.62.0, unpinned).",
-    "owner": "unassigned \u2014 dev orchestrator (w1:pT) to route the app fix; not in PR 231, PR 233 or the belt branch",
-    "since": "a1d5cc3ff (v1.171.0)",
-    "failure": "quiz MC block still live"
+    "promoted": "bug fixed in v1.75.3; born-red spec green post-fix",
+    "fixed": "Known-red from the gen triage (v1.206.3) to v1.215.2: since v1.171.0 (a1d5cc3ff) Enter/Space/arrows in the drill revealed and graded an open checkpoint-quiz card; v1.215.2 makes the quiz own the deck surface. Spec extended to Space and the four arrows."
    }
   },
   {

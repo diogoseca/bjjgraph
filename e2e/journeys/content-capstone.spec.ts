@@ -146,7 +146,8 @@ test.describe("Content capstones @curated", () => {
       return {
         track: app._beltTest?.beltId ?? null,
         maxMoves: app.maxMoves,
-        positionId: app.nodes[app.currentPos]?.id,
+        // the SITE: a seated capstone stands on the authored site's member for its role (v1.215.2)
+        positionId: app.siteIdOf(app.nodes[app.currentPos]?.id),
         names: (app._beltTest?.names || []).length,
       };
     });
@@ -154,6 +155,54 @@ test.describe("Content capstones @curated", () => {
     expect(state.positionId).toBe(WHITE.test.startNodeId);
     expect(state.maxMoves).toBe(WHITE.test.maxMoves);
     expect(state.names).toBeGreaterThanOrEqual(5);
+  });
+
+  test("every capstone deals the hand of the seat it gives the player", async ({ page }) => {
+    // THE SEAT AND THE HAND AGREE (v1.215.2, gen triage). Since v1.180.1 rollFromPosition deals
+    // synchronously, and startBeltTest set `playerRole` from `startDeckKey` only AFTER it: the
+    // White capstone (Mount|Bottom, "Survive and Reverse") seated the player bottom on 16 TOP
+    // moves. Pinned as the invariant, for all five belts through the real button: the seat is the
+    // authored role, the seated node is that role's member of the authored site, and every dealt
+    // card is authored for that seat (`fromRole`) — a non-empty hand, so it can never pass vacuous.
+    const ready: any = capstoneReadyBlob(CURRICULUM.belts[0]);
+    for (const b of CURRICULUM.belts.slice(1)) {
+      const more: any = capstoneReadyBlob(b);
+      Object.assign(ready.prep, more.prep);
+      Object.assign(ready.rec, more.rec);
+      Object.assign(ready.units, more.units);
+    }
+    const j = journey(page);
+    await j.boot("/", { initialState: ready });
+    await j.land("Mount Top");
+    const seen: string[] = [];
+    for (const belt of CURRICULUM.belts) {
+      const want = String(belt.test.startDeckKey.split("|")[1]).toLowerCase();
+      await openTrack(page, belt.id);
+      await page.locator(`[data-capstone="${belt.id}"] button`).click();
+      await awaitCapstoneHand(j);
+      const s = await page.evaluate(() => {
+        const a = (window as any).__neural;
+        const node = a.nodes[a.currentPos];
+        const dealt = (a.optionIdxs || []).map((i: number) => a.nodes[i]);
+        return {
+          test: a._beltTest?.beltId ?? null,
+          role: a.playerRole,
+          site: a.siteIdOf(node.id),
+          nodeRole: node.role,
+          n: dealt.length,
+          wrong: dealt.filter((n: any) => n.fromRole !== a.playerRole).map((n: any) => `${n.t} <${n.fromRole}>`),
+        };
+      });
+      expect(s.test, `${belt.id}: its capstone is running`).toBe(belt.id);
+      expect(s.role, `${belt.id}: seated as the authored ${belt.test.startDeckKey}`).toBe(want);
+      expect(s.site, `${belt.id}: on the authored site`).toBe(belt.test.startNodeId);
+      expect(s.nodeRole, `${belt.id}: on that site's ${want} member`).toBe(want);
+      expect(s.n, `${belt.id}: a hand was dealt`).toBeGreaterThan(0);
+      expect(s.wrong, `${belt.id}: every dealt card is authored for the ${want} seat`).toEqual([]);
+      seen.push(belt.id);
+      await page.evaluate(() => (window as any).__neural.resetRoll());
+    }
+    expect(seen.length, "all five capstones were started").toBe(CURRICULUM.belts.length);
   });
 
   test("resetting an active capstone cancels without recording a failed attempt", async ({
