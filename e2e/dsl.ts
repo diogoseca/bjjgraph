@@ -121,7 +121,14 @@ type PageState = {
   }>;
   disposed: boolean;
   noCurriculum: boolean;
+  /** page-initiated, cross-document navigations seen by the tripwire (see `watchNavigations`) */
+  navs: NavEvent[];
+  /** navigations a journey declared it causes on purpose (`allowNavigation`) */
+  navAllow: Array<{ re: RegExp; why: string }>;
 };
+
+/** One navigation the PAGE started (never the harness's own goto/reload), as the page saw it. */
+type NavEvent = { url: string; type: string; userInitiated: boolean; source: string | null; stack: string; allowed: string | null };
 
 export class Journey {
   constructor(private page: Page) {}
@@ -138,6 +145,8 @@ export class Journey {
         gates: new Set(),
         disposed: false,
         noCurriculum: false,
+        navs: [],
+        navAllow: [],
       } as PageState));
   }
 
@@ -390,6 +399,7 @@ export class Journey {
       (window as any).__NEURAL_NO_PAIRS__ = v;
     }, !!opts.noPairs);
     if (opts.beforeNavigate) await opts.beforeNavigate(this.page);
+    await this.watchNavigations();
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
@@ -1027,6 +1037,67 @@ export class Journey {
     await this.page.screenshot({ path: `e2e/gallery/${name}.png` });
     return this;
   }
+
+  /**
+   * NAVIGATION TRIPWIRE (FGNAV1, 2026-10-01). A deploy's curated gate once failed with "Execution
+   * context was destroyed, most likely because of a navigation" in game-knowledge.spec.ts, and its
+   * screenshot showed the page had RE-BOOTED under the test (a fresh roll over the persisted pane).
+   * 56 keyed local runs never reproduced it, so the harness now names any such navigation itself.
+   *
+   * WHAT COUNTS: a cross-document navigation the PAGE starts: `location.assign/replace/reload`, an
+   * anchor click the Quartz SPA router falls back to, a form, a refresh. The harness's own
+   * `goto`/`reload` are browser-initiated and never fire it; `pushState`/`replaceState` are
+   * same-document and are filtered out. HOW: the Navigation API's `navigate` event fires
+   * SYNCHRONOUSLY inside the call that started the navigation, so `new Error().stack` there IS the
+   * initiator's stack. An exposed binding hands it to the test process at once.
+   *
+   * WHAT IT DOES: logs it to the CI output (so the evidence survives even when the test dies first
+   * on a destroyed context), records it on the page state, and raises a SOFT assertion, so an
+   * undeclared navigation fails the journey at the end with its URL, type and stack. A journey that
+   * navigates on purpose declares it with `allowNavigation`. Absence of the API (another browser)
+   * skips the tripwire loudly once, never silently.
+   */
+  private async watchNavigations() {
+    const page = this.page as any;
+    if (page.__ngNavWatch) return;
+    page.__ngNavWatch = true;
+    const st = this.st;
+    await this.page.exposeBinding("__ngNavReport", (_src: any, data: any) => {
+      const nav: NavEvent = { url: String(data && data.url), type: String(data && data.type), userInitiated: !!(data && data.userInitiated),
+        source: data && data.source ? String(data.source) : null, stack: String((data && data.stack) || ""), allowed: null };
+      const hit = st.navAllow.find((a) => a.re.test(nav.url));
+      nav.allowed = hit ? hit.why : null;
+      st.navs.push(nav);
+      if (hit) return;
+      const text = `[dsl] UNDECLARED page-initiated navigation (${nav.type}${nav.userInitiated ? ", user-initiated" : ""}) to ${nav.url}` +
+        (nav.source ? `\n  source: ${nav.source}` : "") + `\n  stack:\n${nav.stack}`;
+      console.error(text);
+      try { expect.soft(nav.url, text + "\n(declare it with j.allowNavigation(pattern, why) if the journey means it)").toBe("no page-initiated navigation"); }
+      catch { /* outside a running test (teardown): the console line above is the record */ }
+    });
+    await this.page.addInitScript(() => {
+      const nav = (window as any).navigation;
+      if (!nav || typeof nav.addEventListener !== "function") { console.warn("[dsl] navigation tripwire unavailable: no Navigation API"); return; }
+      nav.addEventListener("navigate", (e: any) => {
+        if (!e || !e.destination || e.destination.sameDocument) return;
+        const el = e.sourceElement;
+        const source = el ? (el.tagName || "") + (el.getAttribute && el.getAttribute("href") ? " href=" + el.getAttribute("href") : "") : null;
+        try { (window as any).__ngNavReport({ url: e.destination.url, type: e.navigationType, userInitiated: !!e.userInitiated, source, stack: new Error("navigate").stack }); }
+        catch { /* the binding is per page; a missing one must not break the app */ }
+      });
+    });
+  }
+
+  /** Declare that this journey makes the page navigate on purpose (URL matched by `pattern`), with
+   *  the reason. Undeclared page-initiated navigations fail the journey (see `watchNavigations`). */
+  allowNavigation(pattern: RegExp | string, why: string) {
+    this.st.navAllow.push({ re: typeof pattern === "string" ? new RegExp(pattern.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")) : pattern, why });
+    return this;
+  }
+
+  /** The page-initiated navigations seen so far on this page (declared ones included). */
+  navigations(): NavEvent[] { return this.st.navs.slice(); }
 }
 
 export const journey = (page: Page) => new Journey(page);
+
