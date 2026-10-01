@@ -67,11 +67,16 @@ of neural.js still moves the row. VERSIONED_APP_ASSETS names the file; nothing e
 normalised.
 
 App rows come from neural/dist, verbatim: every static/neural/app/** file is a copy,
-and the bundle build reads no content, no environment and no checkout timestamps, only
-tracked neural/ inputs, the version and esbuild. So they get their own, lighter
-re-seed: --update-app-assets. It rebuilds neural/dist from clean committed inputs,
-records the HEAD and input trees it built from in _meta.app_provenance, and rewrites
-ONLY app_assets. It refuses if any input is dirty or untracked, and refuses a bundle
+and the bundle build reads no environment and no checkout timestamps. It DOES read content:
+since PR #231, game-model.worker.js, game-study.js, game-study.worker.js and game-values.js
+embed the MDP manifest, which is derived from graph-data.json (graphHash, manifestHash,
+graphBytes, shard names and sizes). So any content change moves those rows (OCQ2, D-280).
+They get their own, lighter re-seed all the same: --update-app-assets. It requires the
+WHOLE tree to be porcelain-clean, regenerates everything the bundles read
+(`npm run regenerate:neural`: data, MDP, bundles), records the HEAD and its tree in
+_meta.app_provenance, and rewrites ONLY app_assets. Until v1.208.4 it checked only neural/
+inputs and ran build.mjs against whatever generated data was on disk, so it could seed those
+four rows from STALE local data. It refuses a dirty or untracked file anywhere, and a bundle
 that bakes a version other than package.json's. Census, bundle and HTML rows are not
 touched and keep the guarded capture's receipt. The gate that matters is unchanged:
 e2e-full rebuilds the site and compares every emitted app file to these rows.
@@ -176,9 +181,10 @@ VERSIONED_BUNDLES = {"postscript.js": re.compile(
     rb'window\.__NEURAL_BUILD="(?P<v>[^"\\]*)"'
     rb'|(?P<var>[\w$]+)="(?P<w>[^"\\]*)"[;,]\s*window\.__NEURAL_BUILD=(?P=var)(?![\w$])')}
 VERSION_STAND_IN = b"<package.json version>"
-# Everything the bundle build reads, as git pathspecs (--update-app-assets refuses if any is dirty).
-APP_INPUTS = ("neural/src", "neural/build", "package.json", "source/package-lock.json")
-APP_BUILD = ("node", "neural/build/build.mjs")
+# What --update-app-assets runs. NOT build.mjs alone: since PR #231 four bundles embed the
+# content-derived MDP manifest, so the rows must come from this commit's own regenerated data
+# (D-280). The inputs are therefore the WHOLE committed tree, checked porcelain-clean.
+APP_BUILD = ("npm", "run", "regenerate:neural")
 RETIRED_DATE_CARDINALITIES = frozenset((
     "property=article:published_time", "property=article:modified_time",
 ))
@@ -561,8 +567,9 @@ def git(root: Path, *args: str) -> str:
 
 
 def update_app_assets(baseline: Path, root: Path = ROOT, build: tuple = APP_BUILD) -> dict:
-    """--update-app-assets: rebuild neural/dist from clean committed inputs and rewrite ONLY
-    app_assets, _meta.app_provenance, _meta.format and _note. See the module docstring."""
+    """--update-app-assets: regenerate the app data and bundles from a porcelain-clean tree and
+    rewrite ONLY app_assets, _meta.app_provenance, _meta.format and _note. It is heavy (the MDP
+    step), so run it under the build lock. See the module docstring."""
     try:
         base = json.loads(baseline.read_text())
     except (OSError, ValueError) as e:
@@ -573,17 +580,18 @@ def update_app_assets(baseline: Path, root: Path = ROOT, build: tuple = APP_BUIL
                  "(migrate with the guarded --update --content-receipt)")
 
     def dirty() -> str:
-        return git(root, "status", "--porcelain=v1", "--untracked-files=all", "--", *APP_INPUTS).strip()
+        return git(root, "status", "--porcelain=v1", "--untracked-files=all").strip()
 
     if d := dirty():
-        sys.exit("ERROR: --update-app-assets refuses: the bundle's inputs are not clean committed "
-                 f"bytes, so no commit could reproduce these rows:\n{d}")
+        sys.exit("ERROR: --update-app-assets refuses: the tree is not clean committed bytes, and since "
+                 "PR #231 the bundles embed content-derived data, so no commit could reproduce these "
+                 f"rows:\n{d}")
     head = git(root, "rev-parse", "HEAD").strip()
     dist = root / "neural" / "dist"
     shutil.rmtree(dist, ignore_errors=True)  # a leftover file from an older build is not this build's
     subprocess.run(build, cwd=root, check=True)
     if d := dirty():
-        sys.exit(f"ERROR: the bundle build modified its own inputs:\n{d}")
+        sys.exit(f"ERROR: the regeneration modified tracked files (stale generated output committed?):\n{d}")
     built = sorted(p for p in dist.rglob("*") if p.is_file()) if dist.is_dir() else []
     if not built:
         sys.exit(f"ERROR: the bundle build wrote nothing under {dist}")
@@ -607,8 +615,8 @@ def update_app_assets(baseline: Path, root: Path = ROOT, build: tuple = APP_BUIL
     new = json.loads(json.dumps(base))
     new["app_assets"] = {"count": len(rows), "files": rows}
     new["_meta"] = {**base["_meta"], "format": FORMAT, "app_provenance": {
-        "schema": "app-assets-rebuild-v1", "git_head": head, "package_version": version,
-        "inputs": {spec: git(root, "rev-parse", f"HEAD:{spec}").strip() for spec in APP_INPUTS},
+        "schema": "app-assets-rebuild-v2", "git_head": head, "package_version": version,
+        "inputs": {"tree": git(root, "rev-parse", "HEAD^{tree}").strip()},
         "esbuild": json.loads(esbuild.read_text())["version"] if esbuild.is_file() else None,
         "command": " ".join(build), "rows_from": "neural/dist"}}
     new["_note"] = NOTE
