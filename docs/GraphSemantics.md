@@ -69,9 +69,9 @@ measured consequence.
 >   shares come from an LLM persona panel, one independent round, which is not expert data
 >   (`calibration/origin_coherence.json`, `scripts/apply_origin_coherence.py`). Orphans: 41 → 2 in
 >   no-gi, 40 → 0 in gi. The two left, Tripod Sweep and Leg Extraction from Lapel Wrap, are listed
->   only inside guards no-gi does not have. The 13 coherent away-from-origin listings are NOT yet
->   restored: the panel would restore 8, and doing so needs a listing-level dealing rule that the
->   full game's projection must mirror.
+>   only inside guards no-gi does not have. The 13 coherent away-from-origin listings were not
+>   restored then: the panel would restore 8, which needed a listing-level dealing rule that the full
+>   game's projection must mirror. Phase 2 (v1.212.0, below) shipped it.
 > - **Item 6.** `frame_reachable` now walks the hands `build_hand` deals, so the no-gi walk reaches
 >   the game's 244 role-nodes (it reached 248). Spider Guard and Double Sleeve Guard are hidden in
 >   no-gi, both seats, with 20 techniques: 124 techniques and 22 role-nodes excluded, up from 104
@@ -87,6 +87,37 @@ measured consequence.
 > - Recompute: `python3 -B scripts/semantics/_kernel.py --structure`,
 >   `python3 -B scripts/semantics/flux.py --origin --out <dir>/flux_origin.json`,
 >   `python3 -B scripts/semantics/app_game.py`.
+>
+> **Phase 2 (v1.212.0): the listing-level dealing rule, and five moves re-homed.**
+> - **The rule.** A position listing may carry `deal_here`. It deals the technique there, with its
+>   authored table, although its origin is elsewhere: graph.json `dealHere`, the wire's `alsoFrom`.
+>   Every dealer reads it: `build_hand`, `optionsFor`, `_mdp_mechanics`, `app_game.py` and
+>   `independent_sim.py`. `validate:graph` rejects a flag whose table would teleport a miss.
+> - **The 8 coherent listings** are dealt where listed, as phase 1's panel ruled:
+>   - Back Control Maintenance at harness, seat-belt control, body triangle and invisible collar;
+>   - Knee Shield Retention at half guard and z-lock;
+>   - Reverse De La Riva Recovery at inverted guard and grasshopper.
+>
+>   The other 5 of the 13 stay undealt.
+> - **Five moves re-homed** to the origin phase 1's panel named: X Pass (open guard), Lumberjack
+>   Sweep (seated guard), Balloon Sweep (feet on hips), Waiter Sweep (deep half), Elbow Escape to
+>   Guard (side control). Each has a new table and rate at its new origin, from a second round of the
+>   same LLM persona panel. It is not expert data (`calibration/listing_tables.json`,
+>   `scripts/apply_listing_tables.py`). The same round holds the 107 per-listing tables for the next
+>   step.
+> - **What moved**, from standing, no-gi:
+>   - P(I finish): 0.5533 → 0.5533 under the player-neutral rule (the theorem), 0.7237 → 0.7230
+>     under the shipped rule, and 0.3440 → 0.3452 in the app's game. Rolls are 11.38 → 11.56 steps
+>     under the shipped rule.
+>   - The finisher law moved by TV 0.018 (player-neutral) and 0.022 (shipped).
+>   - Leg locks end 7.8% of rolls (was 8.1%). The leg-lock territory is unchanged at 21 positions,
+>     and its share is 38.7% (was 39.0%).
+>   - The origin filter drops 47.2% of role-matching no-gi attempt points (was 47.8%).
+>   - Knee-shield half guard enters the walk's top-8 time share (0.031), because half guard bottom
+>     now deals Knee Shield Retention.
+>
+>   Win chance at body triangle (top) rises 0.778 → 0.812 in no-gi and 0.781 → 0.832 in gi. Every
+>   other seat a change touches moves by at most 0.25 points. Flow compression was not recomputed.
 
 ---
 

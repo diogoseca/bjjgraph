@@ -109,14 +109,18 @@ test("@curated at the authored odds the card IS the published value — the work
   // hand deals, and it sits BELOW the ordinary choice. Both values are census-tracked, so the next
   // content change names them on the push that moves them. The census scan reads unsigned integers,
   // so Frame is pinned by its deficit below the ordinary choice.
+  // v1.212.0 (phase 2): Elbow Escape to Guard was re-homed to side-control/bottom, so this hand now
+  // deals it too, at Frame's own share (12 of the authored no-gi points each, 15% of the dealt
+  // hand). Frame is now TIED for most-attempted, which `toBe(topAtt)` still asserts, and its deficit
+  // moved 11 -> 10.
   const attOf = await page.evaluate(() => {
     const a = (window as any).__neural;
     return a.optionsFor(a.currentPos).filter((o: any) => o.ev).map((o: any) => ({ t: o.node.t, att: o.ev.att }));
   });
   const topAtt = Math.max(...attOf.map((r: any) => r.att));
-  expect(attOf.find((r: any) => r.t === "Frame from Side Control")!.att, "Frame is the most-attempted card dealt here").toBe(topAtt);
+  expect(attOf.find((r: any) => r.t === "Frame from Side Control")!.att, "Frame is the most-attempted card dealt here (tied since v1.212.0)").toBe(topAtt);
   expect(frame.edge, "and it sits below the ordinary choice").toBeLessThan(0);
-  expect(-frame.edge, "Frame's deficit below the ordinary choice").toBe(11); // census:edgeFrameDeficit
+  expect(-frame.edge, "Frame's deficit below the ordinary choice").toBe(10); // census:edgeFrameDeficit
   expect(esc.edge, "Side Control Escape").toBe(20); // census:edgeSideControlEscape
   expect(esc.odds).toBe(60);
   expect(frame.odds).toBe(50);
