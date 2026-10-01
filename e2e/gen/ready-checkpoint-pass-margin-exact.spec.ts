@@ -90,11 +90,21 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   await j.land("Mount Top")
 
   // ── pre-state: the target checkpoint is enabled (lessons at goal) but NOT cleared ──
-  const openGroup = () =>
-    page
+  // THE FRONTIER BELT (v1.99.2, ba6aba811 "the frontier belt retires pinning"): the corridor
+  // opens ONLY the topmost belt still left to complete and folds the rest (display:none —
+  // presentation only, every row stays in the DOM). This persona has every white lesson at
+  // goal, so the frontier is BLUE and the white section is folded: the checkpoint button was
+  // enabled and not-cleared, but invisible, and the click waited out the 240s ceiling. Select
+  // the white belt by its header the way a player does (selecting a folded belt OPENS it, never
+  // closes it), then open the unit's own <details> group as before.
+  const openGroup = async () => {
+    await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
+    await expect(page.locator(`.ng-belt-section[data-belt="${WHITE.id}"]`), "white belt section unfolded").toHaveAttribute("data-collapsed", "false")
+    await page
       .locator(`.ng-challenge-group:has([data-checkpoint="${UK}"])`)
       .first()
       .evaluate((el) => ((el as HTMLDetailsElement).open = true))
+  }
   await rigSitting(j, 100)
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()

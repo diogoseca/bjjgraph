@@ -91,7 +91,12 @@ test("newcomer first win: finish→roll_end 'win', bounded victory_cascade + fir
   //    deterministic under curriculum reshuffles. ──
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(sub as string)
+  // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS the
+  // submission state (deterministic travel, no resolve draw, no endRound); its one "Finish" card
+  // — the same title — is where resolve is drawn and the roll ends. Same first win.
+  await j.pick(sub as string) // establishes the submission state
+  await j.nextHand() // the submission state deals its own hand
+  await j.pick(sub as string) // its Finish action completes the exchange
   await j.advance(8000)
 
   // ── CELEBRATION: finish then roll_end record the win (order asserted below) ──

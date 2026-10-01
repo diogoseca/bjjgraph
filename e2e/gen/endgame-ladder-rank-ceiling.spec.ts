@@ -7,22 +7,32 @@ import { multiBeltEndgame, CURRICULUM } from "./personas"
  * ENDGAME LADDER RANK CEILING — a multi-belt endgame player already sits at the TOP of the
  * opponent ladder and wins again; the ladder must clamp at the roster edge, never overflow.
  *
- * Seams under test (probe-verified twice, ~4s each, deterministic):
- *   - ladderMove(dir) clamps via Math.max(1, Math.min(ladderNames().length, rank + dir))
- *     (neural/src/app.src.jsx:4124-4129) and STILL emits a ladder_up beat when clamped,
- *     carrying { rank: <clamped>, capped: true } (capped = next === st.rank).
- *   - ladderState() maps rank → opponent via names[Math.min(names.length, rank) - 1]
- *     (app.src.jsx:4115-4122) — the roster index cannot run past the last name.
+ * Seams under test (probe-verified twice, ~4s each, deterministic; cited by symbol in
+ * neural/src/app.src.jsx — the line numbers this header carried had drifted ~11,000 lines):
+ *   - `ladderMove(dir)` clamps via Math.max(1, Math.min(ladderNames().length, rank + dir))
+ *     and STILL emits a ladder_up beat when clamped, carrying { rank: <clamped>, capped: true }
+ *     (capped = next === st.rank).
+ *   - `ladderState()` maps rank → opponent via names[Math.min(names.length, rank) - 1]
+ *     — the roster index cannot run past the last name.
  *   - ladderMove persists the clamped rank to localStorage["bjj-neural-ladder"].
  *
  * PIN ORDER (probe-critical): ladderState() must be called BEFORE writing _ladder.rank —
  * the field is lazy-init and startRoll already read it at the stakes beat, so a bare
  * localStorage write alone is IGNORED after init. Pin the live field AND the storage mirror.
  *
- * WIN RECIPE: a submission ends the roll on a single rigged "resolve" draw (no "outcome"
- * rig needed) → victory_cascade → ladderMove(+1). The ceiling is read from the app
- * (ladderNames().length, 7 at authoring — app.src.jsx:4114) and the opponent is compared
- * to ladderNames()[max-1], never to hardcoded roster text.
+ * WIN RECIPE: a submission ends the roll on a single rigged "resolve" draw → endRound("win")
+ * → victory_cascade → ladderMove(+1). No "outcome" rig is needed: the success draw happens
+ * (drawOutcome), but since v1.121.0 it draws INSIDE the success branch, and a submission's
+ * success branch is game-over only, so every value lands on the finish. The ceiling is read
+ * from the app (ladderNames().length, 7 at authoring) and the opponent is compared to
+ * ladderNames()[max-1], never to hardcoded roster text.
+ *
+ * TWO PICKS, ONE WIN (re-targeted 2026-10-01, gen-suite triage): since v1.176.0 (cdc35cefe,
+ * "Give submission states their own choices") the first pick of a submission card only
+ * ENTERS its state — deterministic travel, no resolve draw — and the state deals a "Finish"
+ * card under the same title. The second pick is where `tensionSweep` draws "resolve" and the
+ * roll ends. The same idiom the core journeys golden-path / content-capstone adopted in that
+ * commit; the claim (a ceiling win clamps) is unchanged.
  */
 
 test("endgame ladder ceiling: a win at top rank clamps — one capped ladder_up, rank/storage/opponent pinned at the roster edge", async ({ page }) => {
@@ -68,7 +78,9 @@ test("endgame ladder ceiling: a win at top rank clamps — one capped ladder_up,
   })
   expect(subName, "a submission option dealt at Mount Top").toBeTruthy()
   await j.rig("resolve", [0.01])
-  await j.pick(subName as string)
+  await j.pick(subName as string) // v1.176.0: establishes the submission state (no draw)
+  await j.advance(3000)
+  await j.pick(subName as string) // its Finish: the rigged resolve is drawn here, the roll ends
   await j.advanceUntil("roll_end", 20000)
   await j.expectBeat("victory_cascade")
 

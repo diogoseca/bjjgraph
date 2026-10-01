@@ -15,20 +15,33 @@ import { curriculumMid } from "./personas"
  * replay-double (boot re-award).
  *
  * Mechanism under test (source-verified at authoring, probe green twice — ~1.4m each, dealt
- * hand 1 held a submission and the opponent caught on move 1 in both runs):
- *   - fx() routes EVERY beat through noteChallenges (neural/src/app.src.jsx:129-144);
- *     ngAdvanceChallenges increments on every ngMatches roll_end
- *     (neural/src/challenge-engine.src.js:26-52). blue.roll-three has NO `when` clause
- *     (challenge-definitions.src.js:273, target 3) — outcome-blind BY CONSTRUCTION, which is
- *     exactly what the win+loss pair pins.
+ * hand 1 held a submission and the opponent caught on move 1 in both runs; cited by symbol —
+ * the app.src.jsx line numbers this header carried had drifted by thousands of lines):
+ *   - `fx()` routes EVERY beat through `noteChallenges` (neural/src/app.src.jsx);
+ *     `ngAdvanceChallenges` increments on every `ngMatches` roll_end
+ *     (neural/src/challenge-engine.src.js). blue.roll-three has NO `when` clause
+ *     (neural/src/challenge-definitions.src.js, target 3) — outcome-blind BY CONSTRUCTION,
+ *     which is exactly what the win+loss pair pins.
  *   - ngAdvanceChallenges stamps t on the FIRST progress write and preserves it on later
  *     increments (`t: done && !before.done ? now : before.t || now`) — so "same t across the
  *     reload" is the freshness-preservation claim.
- *   - _saveProgress() writes SYNCHRONOUSLY in test mode (app.src.jsx:1199-1207): the blob is
- *     assertable the instant roll 2's roll_end lands, no debounce race.
+ *   - `_saveProgress()` writes SYNCHRONOUSLY in test mode: the blob is assertable the instant
+ *     roll 2's roll_end lands, no debounce race.
  *   - Boot-time snapshot replay (noteChallenges("challenge_snapshot")) never re-emits
- *     challenge_completed — the fx loop is guarded by `beat !== "challenge_snapshot"`
- *     (app.src.jsx:4566) — so the exactly-once count post-reload is clean.
+ *     challenge_completed — the fx loop is guarded by `beat !== "challenge_snapshot"` — so the
+ *     exactly-once count post-reload is clean.
+ *
+ * TWO RECIPES MOVED UNDER THIS SPEC (re-targeted 2026-10-01, gen-suite triage; the claim — a
+ * partial, mixed-outcome counter rides the reload and completes exactly once — is untouched):
+ *   - v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick of a
+ *     submission card only ENTERS its state (deterministic travel, no resolve draw); its
+ *     "Finish" card — same title — is the second pick, where resolve is drawn and the roll
+ *     ends. winRoll takes the idiom the core journeys golden-path / content-capstone adopted.
+ *   - v1.133.0 (e6f655a6a, "The clock moves to the question"): the escapes are UNTIMED; a
+ *     defense window expiring no longer taps you out ("only a failed escape does"). Roll 2's
+ *     loss is now a rigged FAILED escape (escape 0.99 > the 0.92 escapeChance ceiling) →
+ *     `finish` → endRound("lose"), the successor recipe of the core stakes-impact.spec.ts.
+ *     Same roll_end, so the same counter input.
  *
  * AUTHOR GOTCHA (probe iteration 1 failed on this — honored throughout): dsl.ts
  * advanceUntil()/expectBeat are STREAM-BLIND. Roll 1's stale roll_end satisfies
@@ -49,8 +62,10 @@ import { curriculumMid } from "./personas"
  * reload t-exact, and completion after reboot is exactly-once.
  *
  * Assertions are STRUCTURAL only — challenge id/track/target from challenge-definitions,
- * options discovered by `ty` (never by name), beat counts and blob shapes. Every draw is
- * rigged; sim time is pumped, never wall-clock slept.
+ * options discovered by `ty` (never by name), beat counts and blob shapes. Every draw that can
+ * decide an exchange is rigged (resolve, outcome, opp-finish, opp-sub-pick, opp-pick, escape;
+ * the landing / panic MC pick-shuffle draws are not, and no question's answer moves the
+ * counter); sim time is pumped, never wall-clock slept.
  */
 
 const CHALLENGE = "blue.roll-three"
@@ -100,7 +115,9 @@ async function winRoll(j: Journey, page: Page) {
       // outcome rigged too as armor (deterministic either way under curriculum reshuffles).
       await j.rig("resolve", [0.01])
       await j.rig("outcome", [0.01])
-      await j.pick(sub)
+      await j.pick(sub) // v1.176.0: establishes the submission state (no draw)
+      await j.advance(3000)
+      await j.pick(sub) // its Finish: the rigged resolve is drawn here and the roll ends
       await j.advanceUntil("finish", 20000)
       await j.advanceUntil("roll_end", 20000)
       return
@@ -174,10 +191,14 @@ test("blue.roll-three at 2/3 (one win + one loss — outcome-blind) rides a pres
     }
   }
   expect(caught, "opponent caught a submission within 4 failed moves").toBe(true)
-  // No escape rig, no escape pick — the defense clock expires → tapped → endRound("lose").
+  // A rigged FAILED escape → tapped → endRound("lose"). (Was: no escape pick and the defense
+  // clock expiring — retired in v1.133.0, see header.)
+  await j.advance(800)
+  await j.rig("escape", [0.99]) // > the 0.92 escapeChance ceiling: the escape always fails
+  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
   expect(
     await pumpPastCount(j, page, "roll_end", endBase, 30000),
-    "roll 2 ended by defense-window expiry",
+    "roll 2 ended by a failed escape",
   ).toBe(true)
   expect(await j.lastOutcome(), "roll 2 resolved as a loss").toBe("lose")
 

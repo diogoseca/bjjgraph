@@ -30,7 +30,33 @@ import { beltReady, CURRICULUM } from "./personas"
  *   opp-sub-pick[.01]   → deterministic subs[0] on the finish branch
  *   opp-pick[.01]       → deterministic counter pick when no adjacent sub exists
  * The strict belt pool means some hands offer NO legal finish → loop ≤4 transition moves,
- * advanceUntil("caught").catch → nextHand and try again (probe: caught within budget every run).
+ * pumping each one until EITHER the catch lands OR the counter branch has dealt a fresh hand
+ * (options_dealt past the pre-pick count), then go around.
+ *
+ * RE-PINNED by the gen-suite triage (dev 8d6ae5d01, v1.206.2) — FIVE stacked causes, each the
+ * app changing on purpose; the claim (a survived catch leaves the live test intact) is unchanged:
+ *   1. v1.99.2 (ba6aba811): only the FRONTIER belt's corridor section opens by default; with
+ *      White proven the frontier is Blue, so White's capstone button was display:none and the
+ *      click waited out the 240s timeout. → click the White belt header first (selects+unfolds).
+ *   2. v1.180.1 (7e3eb9dc7): rollFromPosition lands synchronously, so the capstone click has
+ *      already dealt the first hand and a bare nextHand stalls. → the ready-check idiom of
+ *      content-capstone/test-story (v1.182.9).
+ *   3. v1.133.0/v1.134.0 (e6f655a6a/f12f8f74c): the hand is untimed and the game turn-based —
+ *      nothing deals without a pick. The old retry arm (advanceUntil("caught") 25s, then
+ *      nextHand) waited for a SECOND deal after the counter branch had already dealt, so it
+ *      could only ever stall. → the fresh-hand-OR-caught pump above.
+ *   4. v1.176.0 (cdc35cefe): opponentDefend draws from the opponent's OWN role- and
+ *      origin-filtered hand (optionsFor), not the role-blind site adjacency. Mount Control's
+ *      counter lands at Closed Guard where the opponent now holds only Ezekiel/Can Opener —
+ *      neither in the strict White pool — so the first-hand catch the author probed became a
+ *      positional counter; the catch now lands on move 2 (Posture Recovery fails from Closed
+ *      Guard Top → the opponent attacks Kimura from Guard, which IS in the pool).
+ *   5. v1.135.0 (0c4fbc53d): the panic drill is multiple choice when the pool is warm;
+ *      reveal/got is the cold-pool fallback only. → grade whichever block mounted, correctly.
+ * NB the path in 4 runs on a hand dealt BEFORE startBeltTest overrides the seat: the White
+ * capstone is authored Mount|Bottom, but since v1.180.1 the synchronous landing deals the TOP
+ * hand and only then sets playerRole = "bottom" (reported to the coordinator as a real break,
+ * not fixed here). If that is fixed, the catch path in 4 will change — re-probe this loop.
  *
  * Distinct from the accepted corpus:
  *   - core-021 (guidance-defense: defense drama) — the SAME panic mechanics but a fresh
@@ -57,6 +83,12 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   //    first). The roll seeder re-draws ai-skill/role/max-moves inside rollFromPosition, so
   //    re-rig them BEFORE the click (land() only covered the intro roll's draws). ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  // v1.99.2 (ba6aba811, "the frontier belt retires pinning"): the corridor opens only the
+  // FRONTIER belt by default. beltReady proves every White lesson, so the frontier is Blue and
+  // White's body — capstone button included — sits at display:none; the 240s click timeout was
+  // Playwright waiting for it to become visible. Clicking the belt header selects AND unfolds it
+  // (selectChallengeTrack), the core idiom in e2e/journeys/test-story.spec.ts.
+  await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
   const capBtn = page.locator(`[data-capstone="${WHITE.id}"] button`).first()
   expect(await capBtn.isDisabled(), "beltReady persona: white capstone is OFFERED").toBe(false)
   expect(await capBtn.textContent(), "beltReady persona: button reads Start capstone").toBe("Start capstone")
@@ -75,7 +107,18 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   }, WHITE.id)
   expect(t0.beltId, "the live test carries the curriculum's white belt id").toBe(WHITE.id)
   expect(t0.attempts, "no attempt burned by merely starting").toBe(0)
-  await j.nextHand(30000)
+  // v1.180.1 (7e3eb9dc7, "Synchronize landing reveals…"): rollFromPosition lands SYNCHRONOUSLY
+  // (its after(0.6) enterLand became an immediate block), so the capstone click has usually
+  // dealt the first hand already and nextHand — which waits for ANOTHER deal — stalls. The same
+  // contract content-capstone.spec.ts and test-story.spec.ts pin (v1.182.9).
+  const ready = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const start = a.beats.findLastIndex((b: any) => b.beat === "belt_test_start")
+    return !!a._beltTest && start >= 0 && (a.optionIdxs || []).length > 0 &&
+      a.beats.slice(start + 1).some((b: any) => b.beat === "options_dealt")
+  })
+  if (!ready) await j.nextHand(30000)
+  else await j.landQuestion()
 
   // ── CATCH LOOP (≤4 moves): fail a transition into the opponent's turn until the strict
   //    white pool offers an adjacent finish and the catch lands. ──
@@ -96,12 +139,20 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
       return null
     })
     expect(t, `hand ${m + 1}: a transition option exists to fail into the opponent's turn`).toBeTruthy()
+    const dealt0 = (await j.beats()).filter((b: any) => b.beat === "options_dealt").length
     await j.pick(t as string)
-    try {
-      await j.advanceUntil("caught", 25000)
-      caught = true
-    } catch {
-      await j.nextHand(30000) // counter branch fired (strict pool, no adjacent sub) — play on
+    let spent = 0
+    while (spent < 25000) {
+      await j.advance(400)
+      spent += 400
+      const bs = await j.beats()
+      if (bs.some((b: any) => b.beat === "caught")) {
+        caught = true
+        break
+      }
+      const dealt = bs.filter((b: any) => b.beat === "options_dealt").length
+      const n = await page.evaluate(() => (((window as any).__neural || {}).optionIdxs || []).length)
+      if (dealt > dealt0 && n > 0) break // counter branch: fresh hand, go around
     }
   }
   expect(caught, "the opponent caught us within the 4-move budget").toBe(true)
@@ -117,9 +168,20 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
     "the catch itself never clears the running test",
   ).toBe(WHITE.id)
 
-  // ── Grade the defender card (real UI buttons) → escape odds pump. ──
-  await page.locator("[data-panic-reveal]").click()
-  await page.locator("[data-panic-got]").click()
+  // ── Grade the defender card (real UI buttons) → escape odds pump. v1.135.0 (0c4fbc53d): the
+  //    drill is MULTIPLE CHOICE when the pool is warm — reveal/got survives only as the cold-pool
+  //    fallback — so answer whichever block the card mounted (guidance-defense.spec.ts idiom). ──
+  const mcCorrect = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const card = document.querySelector("[data-panic]")
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
+  })
+  if (mcCorrect != null) {
+    await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+  } else {
+    await page.locator("[data-panic-reveal]").click()
+    await page.locator("[data-panic-got]").click()
+  }
   await j.expectBeat("escape_odds_pumped")
 
   // ── ESCAPE (rigged success): tension snaps off, the roll continues. ──

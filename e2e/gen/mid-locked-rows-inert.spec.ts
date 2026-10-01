@@ -74,6 +74,17 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await expect(page.locator("[data-view]").first()).toBeVisible()
   await j.expectBeat("challenges_opened")
+  // THE PANE'S SLIDE MOVES camTarget ON ITS OWN (v1.189.0 4f41a4ccc "Keep gameplay beside the
+  // learning pane"): `updateCamera` re-applies `_paneCameraTarget` every frame, shifting cx by
+  // the pane's EASED width (`uiShift`, τ 0.4s, snapped within 0.001). A baseline taken mid-slide
+  // read that ambient drift as a fly — measured with NO click: cx -245.8 → -257.4 → -261.6 →
+  // -263.2 → -263.8 → -264.0 over 6×400ms, zero new beats. Settle the slide FIRST, and prove it
+  // settled, so every leg below still measures only what ITS action moved (same claim).
+  for (let k = 0; k < 40; k++) {
+    if (await page.evaluate(() => (window as any).__neural.uiShift === 1)) break
+    await j.advance(400)
+  }
+  expect(await page.evaluate(() => (window as any).__neural.uiShift), "pane slide settled before the baseline").toBe(1)
 
   // ── guard the lineage: U0 cleared, U1 the open frontier, U2's gate + the capstone SHUT ──
   const cp = (uk: string) => page.locator(`[data-checkpoint="${uk}"]`).first()
@@ -143,6 +154,10 @@ test("mid-curriculum: shut checkpoint/capstone gates are inert to clicks AND dir
     const belt = a.curriculum.belts.find((b: any) => b.id === beltId)
     a.startCheckpoint(beltId, belt.units.find((u: any) => u.id === unitId))
   }, [WHITE.id, U2.id] as const)
+  // a gate-less startCheckpoint defers on COLD decks (hydrateDecks → re-entry), so without this
+  // settle the unearned quiz started one leg LATE and the red was blamed on the capstone click
+  // (gate-drop mutant d-mut2-gate, measured). Settle, so this leg owns its own verdict.
+  await j.decksSettled()
   await j.advance(400)
   await expectInert("direct startCheckpoint call")
 

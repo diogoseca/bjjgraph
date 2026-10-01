@@ -8,7 +8,7 @@ import { whiteBeltHolder, CURRICULUM, CORRUPT_BLOB_RAW } from "./personas"
  * the app must boot, read it lazily without crashing, default to rank 1, and QUARANTINE the
  * poison (never write on read) until the first legitimate ladderMove replaces it wholesale.
  *
- * Seam under test (neural/src/app.src.jsx ~4121-4136, probe-verified 2/2 deterministic):
+ * Seam under test (neural/src/app.src.jsx `ladderState` / `ladderMove`, probe-verified 2/2 deterministic):
  *   - ladderState() does a lazy memoized read of "bjj-neural-ladder" inside try/catch —
  *     corrupt JSON.parse throws, is caught, rank defaults to 1, and NOTHING is written on
  *     the read path (the poison stays byte-identical in storage through land()).
@@ -25,8 +25,12 @@ import { whiteBeltHolder, CURRICULUM, CORRUPT_BLOB_RAW } from "./personas"
  * retries); the preserveStorage boot keeps it, so the seed does NOT re-poison the key after
  * the app's clean write — without the gate the final parse assert false-fails.
  *
- * Win recipe verbatim from returner-ladder-independent-of-blob.spec.ts: first dealt
- * submission by ty (never by name), resolve+outcome rigged low, roll_end → finish → win.
+ * Win recipe: first dealt submission by ty (never by name), resolve+outcome rigged low,
+ * roll_end → finish → win. Since v1.176.0 (cdc35cefe, "Give submission states their own
+ * choices") the first pick only ENTERS the submission state — no draw is taken — and the
+ * Finish is a second pick of the same card, which consumes the rigged resolve/outcome. This
+ * spec was red from v1.176.0 to the gen triage for exactly that reason (roll_end never came);
+ * the claim — the first ladder write replaces the poison — is unchanged.
  *
  * Dedup: returner-ladder-independent-of-blob.spec.ts poisons NOTHING (healthy ladder key,
  * blob-independence claim); corrupt-blob-fresh-fallback-boot.spec.ts poisons the PROGRESS
@@ -100,7 +104,9 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
   expect(subName, "a submission option dealt from Mount Top").toBeTruthy()
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(subName as string)
+  await j.pick(subName as string) // enters the submission state (v1.176.0) — no draw yet
+  await j.nextHand() // the submission state's own hand (its Finish), whatever the travel time
+  await j.pick(subName as string) // its Finish: consumes resolve/outcome, ends the roll
   await j.advanceUntil("roll_end", 20000)
   await j.expectBeat("finish")
   expect(await j.lastOutcome(), "the rigged submission ends the roll as a win").toBe("win")

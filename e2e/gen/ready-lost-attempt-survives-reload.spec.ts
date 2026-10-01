@@ -34,7 +34,8 @@ import { beltReady, CURRICULUM } from "./personas"
  * role override them, but rigging keeps zero Math.random. The loss recipe is verbatim from
  * the green core (stakes-impact.spec.ts w1-23), looped ≤4 moves to tolerate the counter
  * branch (probe: caught on move 1 in both runs from the authored Mount/Bottom test start).
- * No escape rig, no escape pick — the defense clock expires → tapped → endRound("lose").
+ * Since v1.133.0 the escapes are untimed, so the loss is a rigged FAILED escape (escape 0.99,
+ * first escape picked) → tapped → endRound("lose") — see the note at the loss below.
  *
  * Author gotchas honored: outcome string is "lose" (not "loss"); attempts live under
  * belts.attempts (NOT top-level); button state asserted via disabled + label, counters via
@@ -68,6 +69,18 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
   //    (starting it closes the explorer) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   const capBtn = () => page.locator(`[data-capstone="${WHITE.id}"] button`).first()
+  // THE FRONTIER BELT (v1.99.2, ba6aba811 "the frontier belt retires pinning"): the corridor
+  // opens ONLY the topmost belt still left to complete, and folds the rest (display:none —
+  // presentation only, every row stays in the DOM). A belt-READY player has every white lesson
+  // done, so the frontier is BLUE and the white section — capstone included — is folded: the
+  // button existed, enabled, reading "Start capstone", and was simply not visible. Select the
+  // white belt the way a player does (its header; selecting a folded belt OPENS it, never
+  // closes it), so the capstone is asserted where the player can actually reach it.
+  const openWhite = async () => {
+    await page.locator(`.ng-track-card[data-track="${WHITE.id}"]`).click()
+    await expect(page.locator(`.ng-belt-section[data-belt="${WHITE.id}"]`), "white belt section unfolded").toHaveAttribute("data-collapsed", "false")
+  }
+  await openWhite()
   await expect(capBtn(), "white capstone button rendered").toBeVisible()
   expect(await capBtn().isDisabled(), "capstone offered — every unit checkpointed, nothing won").toBe(false)
   expect(await capBtn().textContent(), "button reads Start capstone before the test").toBe("Start capstone")
@@ -78,10 +91,22 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
   await j.rig("max-moves", [0.5])
   await capBtn().click()
   await j.advanceUntil("belt_test_start", 20000)
-  await j.nextHand(30000)
+  // THE CAPSTONE HAND IS DEALT DURING THE START CLICK (v1.180.1, 7e3eb9dc7 "Synchronize landing
+  // reveals…": rollFromPosition's `after(0.6, enterLand)` became a synchronous enterLand, so the
+  // board is ready before the click returns). nextHand() waits for a NEW options_dealt and so
+  // stalled 30s on a ready board. Same idiom as content-capstone.spec.ts `awaitCapstoneHand`:
+  // accept a hand dealt AFTER belt_test_start, and only otherwise pump for one.
+  const dealtSinceStart = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const start = a.beats.findLastIndex((b: any) => b.beat === "belt_test_start")
+    return !!a._beltTest && start >= 0 && (a.optionIdxs || []).length > 0 &&
+      a.beats.slice(start + 1).some((b: any) => b.beat === "options_dealt")
+  })
+  if (dealtSinceStart) await j.landQuestion()
+  else await j.nextHand(30000)
 
-  // ── LOSE the test (w1-23 recipe): fail a transition, opponent hunts the finish, get
-  //    caught, let the defense window EXPIRE (no escape rig, no escape pick) → tapped.
+  // ── LOSE the test (w1-23 recipe, stakes-impact.spec.ts): fail a transition, opponent hunts
+  //    the finish, get caught, then FAIL AN ESCAPE (rigged) → tapped.
   //    Looped ≤4 moves purely for the counter-branch tolerance (probe: caught on move 1). ──
   let caught = false
   for (let m = 0; m < 4 && !caught; m++) {
@@ -106,7 +131,15 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
     }
   }
   expect(caught, "opponent caught a submission within 4 failed moves").toBe(true)
-  await j.advanceUntil("belt_test_lost", 30000) // defense clock expires → tapped
+  // THE ESCAPES ARE UNTIMED (v1.133.0, e6f655a6a "The clock moves to the question"): expiry
+  // no longer taps you out — it reveals the drill's answer as a miss and the player still
+  // chooses. The old "let the defense window expire" loss therefore never came (belt_test_lost
+  // unseen in 30s). The loss is earned the way the core recipe earns it since v1.133.0: a
+  // rigged FAILED escape → enterDefense's `finish` → endRound("lose"). Same loss, same arm.
+  await j.advance(800)
+  await j.rig("escape", [0.99])
+  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
+  await j.advanceUntil("belt_test_lost", 30000) // failed escape → tapped
   await j.advanceUntil("roll_end", 20000)
 
   // ── The loss resolved as a LOSS, verdict-first, and never half-recorded a win ──
@@ -139,6 +172,7 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
   // ── Same life: the capstone stays OFFERED (the retry affordance — a loss disables nothing;
   //    starting the test closed the panel — re-open) ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await openWhite()
   await expect(capBtn(), "capstone button rendered after the loss").toBeVisible()
   expect(await capBtn().isDisabled(), "capstone still offered in the same life — the retry").toBe(false)
   expect(await capBtn().textContent(), "the loss never minted 'Capstone cleared'").toBe("Start capstone")
@@ -147,6 +181,7 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
   await j.boot("/", { preserveStorage: true })
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
+  await openWhite()
   await expect(capBtn(), "capstone button rendered after reload").toBeVisible()
   expect(await capBtn().isDisabled(), "capstone still offered after reload").toBe(false)
   expect(await capBtn().textContent(), "still Start capstone after reload — no half-recorded win").toBe("Start capstone")
