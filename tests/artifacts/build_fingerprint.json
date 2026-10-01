@@ -3,9 +3,9 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "4ebd155a8baeb4b53ab733a499728e9d23afdb09",
+   "git_head": "73da328032bf5253dcb88d76fc9909ffea8742e8",
    "inputs": {
-    "tree": "88499cc476bc7ad31da7bdab681111b4b2033f64"
+    "tree": "7ae8032a7b720b3e20b4cb2115ab80975713212b"
    },
    "package_version": "1.215.3",
    "rows_from": "neural/dist",
@@ -65,21 +65,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "32a149ba005cf9e735a637c3544326fde72761bff237a6487ee824287c484640"
+    "sha256": "2ef34f0c06420c5111c8928b50dc45ae0cb784ed9b90a477348f796b260a81e3"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
-    "sha256": "15b9d1bbe48ed108c35efc2ae5553125e43d850298e8d0d630a0c46239680255",
+    "sha256": "9e61c4b694ad0de681ab7d630052a5d27120a65e6e302840280a06dcdd8c9e53",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "42f841fa61bc0232d6537a6a6865e342eeeb805bce4a558c4d5a510800019663",
+    "sha256": "5b6a64414832f550663bf74ab116fc922599eccf01c211131afd745d9f8a51fd",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 27793,
-    "sha256": "39da0850da5f67c98c57238188abe0653a0e8117e4075f052891e891a506080e",
+    "sha256": "34948c0f689a4e5a628df69a5206f53779b2cb4b362c0ef82818d91e541ca863",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-57bc7782d3c43df3353f01aa80fe167d05bc380186d28937faa19550f4bbac1a.js": {
@@ -95,8 +95,8 @@
     "sha256": "3f2f1dbf1d27c3b26f1b336815d281a525aa0b6914d0d415b4d3a2561f58f04a"
    },
    "static/neural/app/neural.js": {
-    "bytes": 672872,
-    "sha256": "5c57efd6a001edf18b8fb975609d0af322043abe54e52541a0edcc3a5e57f06a",
+    "bytes": 672908,
+    "sha256": "af9cf54fa99f749bc19c91d27185313646f8a7ab96f1c1b87fb3e1f0b43a8bdd",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {

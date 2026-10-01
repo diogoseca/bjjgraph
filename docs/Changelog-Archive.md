@@ -9610,8 +9610,62 @@ corpus; triangle from Triangle Control prints 35%). It is not the 0.4 fallback, 
 | row light restored (rule removed) | red at the computed animation |
 | glow by `filter: drop-shadow` (passes the style checks) | red at the pixel differential (it first SURVIVED a narrower strip) |
 | escape base a constant 0.4 | red on the triangle |
+## v1.215.3 — A PLAN OPENED WHILE A DECK LANDS STILL MOUNTS (FGGPLAN1, 2026-10-01)
 
-## v1.215.3 — THE THREE REAL BREAKS THE GEN TRIAGE NAMED, FIXED; THE LEDGER HOLDS NO KNOWN-RED
+**The red.** On PR 252's e2e-full shard 2 (job 110490987056, 1 worker), `gameplan-study-live`'s
+explicit-plan test tapped the Explore "new" stat, and `[data-game-study-controls]` never appeared in
+30 s. PR 252 was byte-identical on today's corpus.
+
+**Not the 09-30 stat-row race.** That race lost the tap, because the cell detached between
+"visible" and the hit. The CI artifacts show the tap landed:
+- the panel had opened the due session ("Mount Position · Bottom 0/1");
+- it read "Study suggestions are ready… Open study plan";
+- and then: "The study context changed. Open the plan again when ready; due reviews remain
+  available."
+
+That state is reachable only after the plan request.
+
+**The mechanism.** The study host loads lazily (`game-study.js`). Any `_gameStudyChanged` during that
+load abandons it, so an explicit intent is never applied to a context the player has left. Two
+signals reach it that are not a change the player made:
+- **a deck becoming resident:** a boot warm-up, a prefetch, or the coalescer's trailing restart
+  (FGHYD1). Both the residency restart and the hydration-only knowledge notice reach it;
+- **the plan clock's 30 s tick,** which signalled even when the day had not changed.
+
+**What could not be pinned.** The CI run's actual trigger: its status text is generic, and the
+artifacts do not carry `_gameStudyState.reason`. Locally nothing reproduced it:
+- 48 instrumented probes at 4 workers;
+- 24 spec runs at 4 workers;
+- 24 probes at 4 workers under a 4× CPU throttle.
+
+None put any signal inside the load. The load takes 0.77–2.3 s at 4× throttle, median 1.4 s, and
+locally the spec's own trailing restart lands 0.87–1.3 s before the tap.
+
+**The fix (`_gameStudyChanged(reason, kind)`).** A `"residency"` or `"tick"` kind still reconciles
+an installed host, which invalidates only when the study frame's key moved, but it never abandons a
+load. The request is dispatched after the load, so it captures the frame as it is then. Every other
+change, a roll or a real day change, abandons exactly as before.
+
+**Gates.**
+- **The new held-load journey.** The study bundle's request is held, so the load is in flight on
+  every run, not by timing. A real deck lands, the trailing restart fires and the quiet tick runs
+  inside the load; then the hold is released and the plan mounts.
+- **Its control.** A real change during the load still abandons it.
+- **The explicit-plan test now polls `study phase | reason`,** so the next red names its trigger.
+- **Results** (dev d52b92ee5 + this):
+  - the whole spec file ×3: 12/12;
+  - the explicit-plan and held-load tests ×12 at 4 workers: 36/36;
+  - the held-load pair ×3: 6/6;
+  - units 1,188/1,188;
+  - `validate:payload` passes, with the pre-existing soft warning on eager gzip.
+- **Mutants on the built bundle, both killed with the control still green.** They patch both the
+  served bundle and `neural/dist`, because the spec's `beforeAll` requires the two to match; a
+  served-only mutant fails that check before any test runs, which is not a kill.
+  - residency abandoning again: "the load survived the deck landing";
+  - the tick abandoning again: "the load survived the quiet clock tick".
+
+
+## v1.215.6 — THE THREE REAL BREAKS THE GEN TRIAGE NAMED, FIXED; THE LEDGER HOLDS NO KNOWN-RED
 
 The gen triage (v1.206.3–v1.208.4) kept two specs red and unweakened, as `known-red` ledger rows
 with a reason and an owner, and reported a third break that no spec guarded. All three are fixed

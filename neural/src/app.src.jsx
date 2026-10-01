@@ -5661,9 +5661,20 @@ class Component extends DCLogic {
     }
     return this._gameStudyHost.request(intent);
   }
-  _gameStudyChanged(reason) {
+  // A STUDY-HOST LOAD SURVIVES A NON-CHANGE (FGGPLAN1, 2026-10-01). A context change during the lazy
+  // host load abandons it ("The study context changed. Open the plan again"), so an explicit intent is
+  // never applied to a context the player has left. Two signals are not such a change, and they cost
+  // the player the plan they had just opened:
+  //   - "residency": a deck becoming resident (a boot warm-up, a prefetch, the coalescer's trailing
+  //     restart). The player did nothing, and the request is dispatched after the load, so it captures
+  //     the frame as it is then;
+  //   - "tick": the plan clock's 30 s check on which the day did not change.
+  // gameplan-study-live caught the first on CI (PR 252): the tap opened the session and its plan, and
+  // the plan never mounted. An installed host still hears every signal through reconcile, which
+  // invalidates only when the study frame's key moved.
+  _gameStudyChanged(reason, kind) {
     if (this._gameStudyHost) this._gameStudyHost.reconcile(reason);
-    if (this._gameStudyLoading) {
+    if (this._gameStudyLoading && kind !== "residency" && kind !== "tick") {
       this._gameStudyGeneration = (this._gameStudyGeneration || 0) + 1;
       this._gameStudyLoading = null;
       this._gameStudyState = { phase: "unavailable", message: "The study context changed. Open the plan again when ready; due reviews remain available.", reason };
@@ -5825,7 +5836,7 @@ class Component extends DCLogic {
     return this._gameplanLoading;
   }
   newTechniques() { const p = this.planSummary(); return p ? p.fresh.map((r) => r.key) : []; }
-  _onGameplanKnowledgeChanged() { this._gameStudyChanged("knowledge"); this._refreshGameplanUI(); }
+  _onGameplanKnowledgeChanged(event) { this._gameStudyChanged("knowledge", event && event.onlyHydration ? "residency" : null); this._refreshGameplanUI(); }
   _refreshGameplanUI() {
     if (this.__ngDestroyed || this._gameplanRefresh) return;
     this._gameplanRefresh = setTimeout(() => {
@@ -5841,11 +5852,12 @@ class Component extends DCLogic {
     if (this._gameplanClock || typeof window === "undefined") return;
     this._gameplanDay = this._epochDay();
     const check = () => {
-      if (this._gameplanDay !== this._epochDay()) {
+      const dayChanged = this._gameplanDay !== this._epochDay();
+      if (dayChanged) {
         this._gameplanDay = this._epochDay();
         this._refreshGameplanUI();
       }
-      this._gameStudyChanged("day-or-resume");
+      this._gameStudyChanged("day-or-resume", dayChanged ? null : "tick");
     };
     this._gameplanClock = setInterval(check, 30000);
     this._gameplanVisible = check;
@@ -13349,7 +13361,7 @@ class Component extends DCLogic {
     this._gameValueRollRevision = (this._gameValueRollRevision || 0) + (kind === "roll" ? 1 : 0);
     this._gameValueResidencyRevision = (this._gameValueResidencyRevision || 0) + (kind === "residency" ? 1 : 0);
     if (this._gameValueRuntime) this._gameValueRuntime.changed(reason);
-    this._gameStudyChanged(reason);
+    this._gameStudyChanged(reason, kind);
     // an explicit change always reaches the solve at once, even inside a hydration burst (FGHYD1)
     const forced = this._valueRefreshForced; this._valueRefreshForced = true;
     try { this.refreshChoiceValues(); } finally { this._valueRefreshForced = forced; }
