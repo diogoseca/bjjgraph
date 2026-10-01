@@ -9663,3 +9663,39 @@ change, a roll or a real day change, abandons exactly as before.
   served-only mutant fails that check before any test runs, which is not a kill.
   - residency abandoning again: "the load survived the deck landing";
   - the tick abandoning again: "the load survived the quiet clock tick".
+
+
+## v1.215.1 — THE REFERENCE GATE INDEXES THE TRACKED TREE, SO A VANISHING TEMP DIR CANNOT TURN test:units RED (2026-10-01)
+
+**The flake.** `npm run test:units` failed one test now and then (`claudemd_refs_gate`, seen 2026-09-29
+on perf/payload-diet and 2026-10-01 on dev d52b92ee5) and passed on a rerun. Both times it ended in
+`FileNotFoundError` on `source/.date-worker-XXXXXX` inside `_index_basenames` at `ROOT.rglob("*")`.
+
+**Cause, verified.** `node --test` runs files in parallel. `git_date_maps.test.mjs` creates and deletes
+`source/.date-worker-*`. The gate's basename index walked the whole working tree, untracked directories
+included, although its docstring said "tracked": it listed that directory, then scanned it after it was
+gone. Python 3.11's `rglob` catches only `PermissionError` there.
+
+**Reproduced before the fix.**
+- Deterministic: a hook on `os.scandir` deletes the directory at the instant it is about to be scanned,
+  and the old walk is red every time with the flake's own traceback.
+- Real race: 30 gate runs beside a churner of `source/.date-worker-*` directories gave 6 reds.
+
+**Fix.** The index comes from `git ls-files`, which is what CI checks out. Nothing is walked.
+- On CLAUDE.md, 4 of 56 distinct bare names resolved only through the walk (`concepts.json`,
+  `graph-data.json`, `neural.js`, `systems.json`). All four are in `ALLOW_ABSENT`, so no outcome changes.
+- Git unavailable, or zero tracked files listed, is a hard failure. The OK line prints the index size
+  (7,452 tracked files).
+- This was the only repo-root walk on the unit path: the build-shape and payload checks walk build
+  output, and `emit_diff_seed.py` walks a site directory and is not run by a test.
+- The test's temp directory stays in `source/`: its bundle resolves `source/`-only packages from
+  `source/node_modules`.
+
+**Gate.**
+- New unit test: the real script under the vanish hook.
+- Mutant (the old walk, with the new index-size line kept so only the race can fail it): red, with
+  `VANISH_HOOK_FIRED 1` and the `FileNotFoundError`. The first cut of the hook broke on `shutil.rmtree`'s
+  own fd scans, so its mutant was red for the wrong reason; fixed and re-run.
+- After the fix: the deterministic repro is green, and the real race gives 0 reds in 30.
+- 20 full `npm run test:units` runs on the fix, each gated on the heavy-job advisory: 20/20 green,
+  1,189 pass, 0 fail, 0 skipped and 0 `FileNotFoundError` in every run, with no temp directory left behind.
