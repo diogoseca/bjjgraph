@@ -9754,3 +9754,28 @@ difference.
 - **The origin filter drops less attempt mass:**
   - no-gi 12,511 → 11,436 of 26,500 points (47.2% → 43.2%), with orphaned techniques 2 → 0;
   - gi 12,284 → 11,214 of 26,600 (46.2% → 42.2%).
+
+**The score weights move too.** `curriculum.json`'s score weights come from where play goes, so the
+tables re-weight the knowledge score:
+- positions by TV 1.5% (gi) and 1.4% (no-gi), e.g. Side Control 8.71% → 8.28% (gi);
+- techniques by TV 0.9% (gi) and 0.8% (no-gi).
+
+**`explorerTree.json`** is committed separately (`fc97b06ce`). The B2 commit had not run
+`regenerate:explorer`. It is a `source/` data file the capture only reads, so the capture's premerge
+is the candidate (D-284).
+
+**Payload, re-accepted BEFORE the capture (OCPRB4, OCQ6B).** `validate:payload` runs inside the
+capture's root build, so both accepts are committed first. Both are measured against a control built
+from dev 15a71060e's own sources:
+- eager gzip 332,316 → 340,015: dev drift +3,661 since #233, never re-accepted, and B2
+  +4,038;
+- first-hand core 351,963 → 359,553: dev drift +3,644, and B2 +3,946.
+B2's part is `graph-data.json` (`cal.at` and `absentAt`) and `curriculum.json` (the score weights).
+
+**The first capture was rejected, and the cause was the reused checkout.**
+- Ignored build outputs survive a checkout. p2b still held PR A's worker core and MDP generation,
+  because `regenerate:mdp` skips content-addressed files that exist.
+- The deferred count includes every retained generation: 517,255 against a 500,000 B ceiling, and
+  451,821 without the stale core.
+- The procedure is now D-285: clean every ignored path except the two dependency symlinks, then prove
+  it with `status --ignored`. The content birthtimes survive the clean (6,412 of 6,412 unchanged).
