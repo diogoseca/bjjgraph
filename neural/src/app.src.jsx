@@ -145,6 +145,11 @@ const NG_EDGE_SAT = 15;
 //   by EDGE, so the first ten are the likeliest picks; card 11+ hydrates on demand through the
 //   existing "Loading this state's cards…" path. Ten keeps the payload byte-identical to today.
 const NG_PREFETCH_CAP = 10;
+// ONE WIN-CHANCE RESTART PER HYDRATION BURST (FGHYD1, see `_residencyChanged`). A burst is decks
+// landing with less than SETTLE ms between them; it restarts the solve once on its first deck, then
+// once more when it settles, and at least every MAX_HOLD ms while it keeps streaming.
+const NG_RESIDENCY_SETTLE_MS = 250;
+const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // THE PANE'S TABS, IN NAV ORDER — one list, because two readers need it and they need different
 // halves. `setViewMode` needs the SET (it validated against a hand-typed triple of the same three
 // strings) and `_paneTabPageTo` needs the ORDER. The order here is the DOM order in
@@ -2441,7 +2446,11 @@ class Component extends DCLogic {
     if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
     // A landing answer also changes combo/qMod in its synchronous onDone callback.
     // Notify once after that whole turn, never launch a solve on half a grade.
-    this._knowledgeNotice = { reason: reason, revision: this._knowledgeRevision };
+    // `onlyHydration`: every publish coalesced into this notice was a deck landing (FGHYD1). One
+    // genuine change (a grade, a reset, a prune) in the same turn makes it a normal notice.
+    const prior = this._knowledgeNotifyQueued ? this._knowledgeNotice : null;
+    this._knowledgeNotice = { reason: reason, revision: this._knowledgeRevision,
+      onlyHydration: reason === "deck-hydrated" && (!prior || prior.onlyHydration === true) };
     if (!this._knowledgeNotifyQueued) {
       this._knowledgeNotifyQueued = true;
       queueMicrotask(() => {
@@ -2778,8 +2787,13 @@ class Component extends DCLogic {
       firstEntry = entryFor(this.nodes[posIdx]);
     }
     this.drillEntries = [firstEntry];
+    const priorPosKey = this._posKey;
     this._posKey = this.drillEntries[0].info.key;
-    this._gameValueChanged("position-key");
+    // `onFlashcardsReady` rebuilds this panel on every hydration refresh with the SAME key: inside a
+    // hydration burst that is the burst's trailing restart's job, not a fresh one (FGHYD1, the fourth
+    // path: 28 of 33 restarts in one corpus hydration). A changed key, or no burst, restarts as before.
+    if (this._residencyHold && priorPosKey === this._posKey) this._residencyHold.dirty = true;
+    else this._gameValueChanged("position-key");
     this.activeDrill = 0; this.deckIdx = 0; this.revealed = false;
     this._session = null;
     this._studyOpen = null;   // a new roll state retires any study surface (see _paneStudyActive)
@@ -3294,9 +3308,11 @@ class Component extends DCLogic {
     (this._mcWarmed = this._mcWarmed || {})[wk] = 1;
   }
   _onDeckHydrated(key) {
-    this._gameValueChanged("deck-hydrated", "residency");
     this._qkDecks = null;      // the cross-deck credit index is built from cards — rebuild it
-    this._bumpStageVer();      // mastery/crowns/belt read cards now; drop the memo
+    // mastery/crowns/belt read cards now: drop the memo (what `_bumpStageVer` does), under its OWN
+    // reason, so `_onKnowledgeChanged` can route a hydration-only notice into the burst coalescer
+    // (`_residencyChanged`) instead of restarting the Win-chance solve per deck (FGHYD1).
+    this._publishKnowledge("deck-hydrated");
     (this._justHydrated = this._justHydrated || new Set()).add(key);
     // Re-render whatever is open, coalesced: a warm sweep can land a dozen chunks in a frame
     // and buildDrillPanel + renderDrillHome are not free.
@@ -13086,9 +13102,65 @@ class Component extends DCLogic {
     this._gameValueResidencyRevision = (this._gameValueResidencyRevision || 0) + (kind === "residency" ? 1 : 0);
     if (this._gameValueRuntime) this._gameValueRuntime.changed(reason);
     this._gameStudyChanged(reason);
-    this.refreshChoiceValues();
+    // an explicit change always reaches the solve at once, even inside a hydration burst (FGHYD1)
+    const forced = this._valueRefreshForced; this._valueRefreshForced = true;
+    try { this.refreshChoiceValues(); } finally { this._valueRefreshForced = forced; }
   }
-  _onKnowledgeChanged(event) { this._gameValueChanged("knowledge:" + event.reason); }
+  _onKnowledgeChanged(event) {
+    // a deck landing changes residency, not evidence: coalesce it with the rest of its burst
+    if (event && event.onlyHydration) { this._residencyChanged(); return; }
+    this._gameValueChanged("knowledge:" + event.reason);
+  }
+  /**
+   * ONE VALUE RESTART PER HYDRATION BURST (FGHYD1). Every deck that lands changes the solve's input
+   * (its `deckReady` row is part of the request), so each one used to cancel the running Win-chance
+   * solve and start another, THREE times over: directly; through the knowledge notice its memo reset
+   * published (`_bumpStageVer`), which is why a hydration now publishes its own "deck-hydrated"
+   * reason and `_onKnowledgeChanged` routes a hydration-only notice here; and through the hydration
+   * refresh's `refreshOptionOdds` / re-render `refreshChoiceValues` / same-key `buildDrillPanel`,
+   * which now mark the open burst dirty instead (only an explicit change bypasses an open burst).
+   * Each path was found by counting the worker's snapshot posts, not by reading the code. Measured 2026-10-01 on dev
+   * 55c238ade: hydrating the corpus with a hand
+   * on screen (game-knowledge.spec.ts's `soloDeck`, 2,896 decks) posted 2,893 snapshots to the worker,
+   * one per deck, each cancelled before its solve began, and took 130-168 s locally (the four tests
+   * went from ~13 s to ~70 s on CI). A real boot's warm-up was NOT affected (3 decks, one solve, no
+   * restart); bulk hydration is (the corpus, a plan's decks, a session's rows). Leading + trailing edge:
+   *   - the FIRST deck of a burst restarts at once, exactly as before (pending shows at once, so no
+   *     value computed for the old residency stays on screen);
+   *   - later decks only mark the burst dirty;
+   *   - one trailing restart once decks stop landing for NG_RESIDENCY_SETTLE_MS, and one every
+   *     NG_RESIDENCY_MAX_HOLD_MS while they keep streaming.
+   * NO VALUE CHANGES: a reply computed for older residency is never shown (the provider's isCurrent
+   * re-describes it and drops it as stale), and the trailing solve is the same request a restart
+   * after the LAST deck would have made. `_residencyStats` counts both edges for the gate.
+   */
+  _residencyChanged() {
+    const stats = this._residencyStats || (this._residencyStats = { decks: 0, restarts: 0 });
+    stats.decks++;
+    const now = Date.now();
+    let hold = this._residencyHold;
+    if (!hold) {
+      hold = this._residencyHold = { since: now, dirty: false, t: null };
+      stats.restarts++;
+      this._gameValueChanged("deck-hydrated", "residency");
+    } else hold.dirty = true;
+    clearTimeout(hold.t);
+    const flush = () => {
+      if (this._residencyHold !== hold || this.__ngDestroyed) return;
+      if (hold.dirty) { hold.dirty = false; stats.restarts++; this._gameValueChanged("deck-hydrated", "residency"); }
+      this._residencyHold = null;
+    };
+    const left = hold.since + NG_RESIDENCY_MAX_HOLD_MS - now;
+    if (left <= 0) {
+      // still streaming at the cap: restart now, and keep holding the rest of the stream
+      if (hold.dirty) { hold.dirty = false; stats.restarts++; this._gameValueChanged("deck-hydrated", "residency"); }
+      hold.since = now;
+    }
+    // The timer only detects QUIET. The max-hold cap is enforced above, on arrival: capping the timer
+    // too closed the hold just before the cap, and the next deck opened a new burst with a second
+    // leading restart. A burst of one deck is one restart, exactly as before, so no pattern costs more.
+    hold.t = setTimeout(flush, NG_RESIDENCY_SETTLE_MS);
+  }
   _gameValuePlayable() {
     if (this.__ngDestroyed || !this._progressLoaded || this._execution || this._checkpoint
       || this._waitingSubmission || this._sweep || typeof this._optPick !== "function"
@@ -13234,6 +13306,10 @@ class Component extends DCLogic {
   }
   refreshChoiceValues() {
     if (this.__ngDestroyed || this._execution || !(this._optionCards || []).some(c => !c.opt.threat)) return;
+    // INSIDE A HYDRATION BURST (FGHYD1) a re-render's refresh would re-describe the residency that
+    // keeps changing and mint a new request per call: hold it for the burst's trailing restart.
+    // Explicit changes come through `_gameValueChanged` and are never held.
+    if (this._residencyHold && !this._valueRefreshForced) { this._residencyHold.dirty = true; return; }
     // Grade transactions call several odds refreshers. One microtask reads the completed
     // transaction and issues one solve, never a half-updated prep/sharpness snapshot.
     if (this._choiceValueQueued) return;
@@ -13768,7 +13844,10 @@ class Component extends DCLogic {
   // ranking must not do. The hand's order is frozen in optionsFor (see _cmpDealt) and nothing
   // here touches the DOM's child order.
   refreshOptionOdds() {
-    this._gameValueChanged("option-odds");
+    // `onFlashcardsReady` calls this on every coalesced hydration refresh: inside a burst, the
+    // burst's trailing restart re-solves once (FGHYD1); otherwise odds moved, so restart now.
+    if (this._residencyHold) this._residencyHold.dirty = true;
+    else this._gameValueChanged("option-odds");
     if (this._defendSub != null) { this.refreshEscapeOdds(); return; } // defense window: the tray holds ESCAPE cards
     for (const oc of (this._optionCards || [])) {
       if (!oc.opt.threat) continue; // player immediate values belong to the stamped choice view
