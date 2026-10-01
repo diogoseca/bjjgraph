@@ -148,11 +148,13 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  *   M-a  check-then-await restored (create on every call while `_client` is unset)
  *        → held window RED: "2 Supabase clients … must be single-flight"
  *   M-b  the failed creation promise never cleared
- *        → failed load RED: "0 Supabase clients after a failed SDK load and one retry"
+ *        → failed load RED at its retry assertion: "the SDK was requested again after its first load
+ *          failed (the retry happened)". The stale rejected promise answers every later call, so no
+ *          second load is ever attempted, and no client follows.
  * WHICH DIRECTION PR CI SEES: only KEYLESS. PR builds carry no Supabase config, so the spec supplies
  * it; both deploys build KEYED. The race does not depend on the direction, because the config exists
- * in both. Both mutants were killed in both directions: a keyless build, and a local keyed build with
- * the real config.
+ * in both. Both mutants were killed, at the same assertions, in both directions (recorded 2026-10-01
+ * at eacb9bc55): a keyless build, and a local keyed build with the real config.
  *
  * These tests deliberately do NOT use the journey() DSL: the subject is the emitted page and
  * its script bundle, not the game loop. They run against the real built site.

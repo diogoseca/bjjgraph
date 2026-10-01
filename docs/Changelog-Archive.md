@@ -9913,3 +9913,65 @@ function. Both mutants are red on both cases: a local copy back in the explorer,
 **Seen while proving it.** `regenerate:md` on clean dev rewrites the same 507 committed pages under
 both generators, so it is deterministic. Like `content/Principles.md`, the committed pages are
 stale against their generator.
+
+## v1.216.3 — ONE SUPABASE CLIENT PER PAGE: A REDIRECT-BACK NO LONGER EXCHANGES ITS CODE TWICE (AUTHDBL1, 2026-10-01)
+
+**The red.** The dev deploy of PR 258's merge (B2, `0df11cc74`, run 36926507281, keyed) failed one curated spec:
+`auth-redirect-back.spec.ts` "all three redirect-back shapes". `?error_description=` received **2** Supabase clients.
+The message said "no client" because it assumed the 0 case. The same spec passed on that day's three earlier dev
+deploys, and B2 changed only data.
+
+**Verdict: a real race in `getClient()` (`supabase.ts`), not a stale spec.** `getClient` checked `_client`, awaited
+`loadSDK()`, and only then created. On a redirect-back two callers enter that window:
+- authUI's redirect-back arm, which starts the SDK load;
+- the Neural app's `resolveNeuralUser()`, which goes on to `getClient()` precisely because a load is in flight. On
+  any redirect `ngAuthIsGuest` is false, so `_initAuth` asks.
+
+Both await the same `loadSDK()` and both call `createClient`.
+
+**Evidence.** Keyed-like local build of `0df11cc74` (dummy, non-secret config), with a probe that times every
+`nav`, every app `resolveNeuralUser` and every `createClient`:
+- **SDK response held 3 s:** 2 clients on ALL three shapes, 9/9, **including `?code=`**. There was one `nav`
+  dispatch (so no double listener), the app's resolve landed at 132 ms inside the window, and both clients were
+  created at the same millisecond when the SDK arrived.
+- **Unheld:** 1 client in 30/30 probe rows. The stubbed SDK is fulfilled instantly, and the client existed 29–71 ms
+  before the app asked; that margin alone kept the local runs green.
+- **The spec looped 30× at 4 workers stayed green** for the same reason.
+- B2's heavier wire moved the app's boot into the window on the CI runner.
+- In production the SDK comes from a CDN, so the window is much wider. A real Google sign-in was likely
+  creating two clients, each with `detectSessionInUrl`, each exchanging the single-use PKCE code.
+
+**The fix.** `getClient()` is single-flight. Creation (`createClientOnce`) is one promise, owned by its first caller,
+and every later caller awaits it. A failed SDK load clears it, so a later call retries, as local-only play does.
+
+**The gate.** A new @curated test HOLDS the SDK response until the Neural app has asked for the user (counted, so
+the window is provably shared), on all three shapes, and asserts exactly one client. Every `clients` assertion now
+prints the count it saw and says what 0 and what 2 or more mean.
+
+**Production exposure** (main `29f1c50cc`, v1.204.4, from its code):
+- **a first Google sign-in: not exposed.** The app's `_initAuth` calls only when `isAuthenticated()`;
+- **a returning signed-in visitor: exposed on every page load,** through authUI's `isAuthenticated()` arm plus the
+  app's `_initAuth`. Two auth subscriptions on one storage key; no code to exchange;
+- **a Google redirect-back with a stored session: exposed.** The code is exchanged twice.
+
+Dev since v1.207.0 added the first case for everyone, through `resolveNeuralUser`.
+
+**A second test, the failed load.** The first SDK request is aborted, then a retry must load again and create exactly
+one client. It pins the fix's "cleared on failure, so a later call retries".
+
+**The keep-list.** `supabase.ts` is a keep-list file, and its new bytes are accepted with a reason
+(`tests/artifacts/transformer_freeze.json`).
+
+**Gates, both directions, at `eacb9bc55`.**
+- **Keyless** (what PR CI builds; the spec supplies the config):
+  - units 1,191/1,191;
+  - the auth spec ×2: 10/10.
+- **Keyed** (a local build with the real config, only the four permitted variables, never printed):
+  - the auth spec ×2: 10/10.
+- **Mutants on the built `postscript.js`, killed at the same assertions in both directions:**
+  - M-a, check-then-await restored: the held window goes red at "2 Supabase clients … must be single-flight";
+  - M-b, the failed promise never cleared: the failed load goes red at "the SDK was requested again … (the retry
+    happened)".
+- **Earlier, on the keyed-like build:**
+  - the held-window and three-shape tests ×10 at 4 workers: 20/20;
+  - auth-redirect-back, auth-owner and legacy-gone ×3: 48/48.
