@@ -55,7 +55,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
 - **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
 - **v1.216.0** — [95 LISTINGS DEAL THEIR OWN OUTCOME TABLE](#v12160--95-listings-deal-their-own-outcome-table)
-- **v1.216.1** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12161--quartzs-page-path-rule-lives-in-one-place)
+- **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9871,7 +9871,7 @@ B2's part is `graph-data.json` (`cal.at` and `absentAt`) and `curriculum.json` (
 - The procedure is now D-285: clean every ignored path except the two dependency symlinks, then prove
   it with `status --ignored`. The content birthtimes survive the clean (6,412 of 6,412 unchanged).
 
-## v1.216.1 — QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE
+## v1.216.2 — QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE
 
 **Origin coherence follow-up (DEVMV25), 2026-10-01.** This is the report-only finding from B2. The
 queue said `regenerate_graph.quartz_slug` was a third copy of the slug rule. A full survey found
