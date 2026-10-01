@@ -97,6 +97,10 @@ const knowledgeProfile = stripExports("knowledge-profile.src.js");
 const gameplanDebt = stripExports("gameplan-debt.src.js");
 const progressOwner = stripExports("progress-owner.src.js");
 const systemsDemand = stripExports("systems-demand.src.js");
+// belt.src.js (v1.211.0): the ONE definition of the belt a player wears and of its cross-device
+// merge. A real module for the codec's reason: the unit suite and the digest Worker (which names
+// the next belt in the training-day email) import the identical source.
+const beltRule = stripExports("belt.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -107,7 +111,7 @@ const systemsDemand = stripExports("systems-demand.src.js");
         (m) => m[1],
       ),
     );
-  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand]];
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand], ["belt.src.js", beltRule]];
   const clash = [];
   for (let a = 0; a < groups.length; a++) {
     for (let b = a + 1; b < groups.length; b++) {
@@ -266,6 +270,10 @@ ${gameplanDebt}
   ngListShareUrl, ngShareOgTitle, ngShareOgDescription,
 }
 /* ---- end share-link list codec + store ---- */
+
+/* ---- begin belt.src.js (the belt a player wears: rule, stripes, cross-device merge) ---- */
+${beltRule}
+/* ---- end belt.src.js ---- */
 
 /* ---- begin challenge definitions + pure engine ---- */
 ${challengeDefinitions}

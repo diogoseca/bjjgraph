@@ -5,7 +5,7 @@ import { ngProgressOwner, ngProgressLocalKey, ngProgressCreateStore, ngProgressC
 
 const read = rel => readFileSync(new URL(rel, import.meta.url), 'utf8');
 const strip = text => text.replace(/^export (function|const|let|var|class) /gm, '$1 ');
-const dependencies = ['lists-codec', 'lists', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/'+name+'.src.js'))).join('\n');
+const dependencies = ['lists-codec', 'lists', 'belt', 'challenge-definitions', 'challenge-engine'].map(name => strip(read('../neural/src/'+name+'.src.js'))).join('\n');
 const ownerSource = strip(read('../neural/src/progress-owner.src.js'));
 const source = read('../neural/src/app.src.jsx');
 const Component = new Function('DCLogic','React',ownerSource+'\n'+dependencies+'\n'+source+'\nreturn Component;')(class {}, {createRef:()=>({current:null})});

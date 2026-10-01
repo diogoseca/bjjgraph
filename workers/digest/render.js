@@ -8,17 +8,19 @@
  * preview that re-implements the email, which is the §6.3 trap: it would agree with itself
  * and diverge from what actually sends.
  *
- * Composition helpers (`beltEta`, `streakOf`) live here too. They are pure, they are what the
- * numbers in the copy MEAN, and a fixture cannot exercise the copy honestly without them.
+ * Composition helpers (`streakOf`) live here too. They are pure, they are what the numbers in
+ * the copy MEAN, and a fixture cannot exercise the copy honestly without them. (`beltEta`, the
+ * score-paced "At this pace: X BELT in ~N days", RETIRED in v1.211.0: the score names no belt.)
  *
  * The digest object, as `runDigest` builds it:
- *   { count, techniques: string[], score, delta, eta, streak, weakTop: string[], clip, unsubUrl }
+ *   { count, techniques: string[], score, delta, belt, streak, weakTop: string[], clip, unsubUrl }
+ * `belt` is `{worn, next, done, total}` or null — see `beltLine`.
  * Technique and weak-spot entries are deck keys — "Mount|Top", "Kimura|Attacker".
  *
  * EVERY FIELD IS A SINK, WHATEVER ITS EXPECTED TYPE (v1.164.2). The digest is composed from a
  * blob the OWNER of the row writes, with the public key every browser ships, under an
  * owner-writable RLS policy that checks no shape. Until v1.164.2 `count`, `score`, `delta`,
- * `eta`, `streak` and the fold count were interpolated raw because "they are numbers" — and
+ * the belt, `streak` and the fold count were interpolated raw because "they are numbers" — and
  * `renderHtml({count: '<a href=…>'})` put the anchor in the <h1>, `score: 'x</b><img …>'`
  * put the img beside it, and `renderSubject({score: '0%\r\nBcc: x@y'})` returned a CR LF
  * inside a header line. `runDigest` now coerces and clamps before anything reaches here,
@@ -35,14 +37,6 @@
 
 export const SITE = "https://bjjgraph.org";
 
-// The knowledge-band thresholds — MUST match BELT_SCORE in neural/src/app.src.jsx.
-export const BELTS = [
-  ["white", 0.2],
-  ["blue", 0.4],
-  ["purple", 0.6],
-  ["brown", 0.7],
-  ["black", 0.8],
-];
 
 /**
  * ATTRIBUTE-SAFE, not just text-safe. This escaped only `<>&` while its output goes into
@@ -84,14 +78,21 @@ export const prettyKey = (k) => {
   return fam + (r === "attacker" ? " (attacking)" : r ? " (" + r + ")" : "");
 };
 
-export const beltEta = (score01, dailyDeltas) => {
-  const next = BELTS.find(([, t]) => t > score01);
-  if (!next) return null;
-  const pace = dailyDeltas.length
-    ? dailyDeltas.reduce((a, b) => a + b, 0) / dailyDeltas.length
-    : 0;
-  if (pace <= 0) return { belt: next[0], days: null };
-  return { belt: next[0], days: Math.max(1, Math.round((next[1] - score01) / pace)) };
+/**
+ * THE BELT LINE (v1.211.0, owner ruling 2026-09-30). The belt the player WEARS — earned in the
+ * Challenges (neural/src/belt.src.js), written by the app into `dayLog[day].b` and validated by
+ * `runDigest` into `{worn, next, done, total}` — and the next one: "Next belt: PURPLE — 4 of 6
+ * blue units proven", or at black "Belt: BLACK — 4 of 6 units proven". Until v1.211.0 this was
+ * `beltEta`: a Game Knowledge band and an arrival date at the score's recent pace. The score
+ * names no belt any more, so neither may the email; it stays the "Game Knowledge: N%" line.
+ * null — an app that predates the line, or one the composer refused — prints NO line, never a
+ * belt guessed from the score. Returns the three pieces each renderer escapes its own way.
+ */
+export const beltLine = (b) => {
+  if (!b) return null;
+  return b.next
+    ? { lead: "Next belt", belt: b.next, rest: b.done + " of " + b.total + " " + b.worn + " units proven" }
+    : { lead: "Belt", belt: b.worn, rest: b.done + " of " + b.total + " units proven" };
 };
 
 export const streakOf = (days, endDay) => {
@@ -109,7 +110,8 @@ export const streakOf = (days, endDay) => {
 
 export function renderText(d) {
   const p = plain;
-  const eta = d.eta && d.eta.days ? "At this pace: " + p(String(d.eta.belt).toUpperCase()) + " BELT in ~" + p(d.eta.days) + " days\n" : "";
+  const bl = beltLine(d.belt);
+  const belt = bl ? p(bl.lead) + ": " + p(String(bl.belt).toUpperCase()) + " \u2014 " + p(bl.rest) + "\n" : "";
   const weak = d.weakTop.length
     ? "\nWeak spot: " + p(prettyKey(d.weakTop[0])) +
       (d.clip ? "\n  A great video from " + p(d.clip.who || "a top instructor") + ": https://www.youtube.com/watch?v=" + p(d.clip.id) : "") +
@@ -118,7 +120,7 @@ export function renderText(d) {
   return "TODAY AT BJJGRAPH\n" +
     p(d.count) + " cards · " + p(d.techniques.length) + " techniques\n" +
     "Game Knowledge: " + p(d.score) + "%" + (d.delta != null ? " (" + (d.delta >= 0 ? "+" : "") + p(d.delta) + "% today)" : "") + "\n" +
-    eta + (d.streak > 1 ? p(d.streak) + " training days in a row\n" : "") +
+    belt + (d.streak > 1 ? p(d.streak) + " training days in a row\n" : "") +
     "\nWhat you reviewed:\n" + d.techniques.slice(0, 10).map((t) => "  · " + p(prettyKey(t))).join("\n") +
     (d.techniques.length > 10 ? "\n  · …and " + p(d.techniques.length - 10) + " more" : "") +
     weak + "\n" + SITE + "\n\nUnsubscribe (one click to confirm): " + p(d.unsubUrl) + "\n";
@@ -149,11 +151,10 @@ const PREHEADER_GAP = "&zwnj;&nbsp;".repeat(100);
 export function renderHtml(d) {
   const li = d.techniques.slice(0, 10).map((t) => "<li>" + esc(prettyKey(t)) + "</li>").join("");
   const more = d.techniques.length > 10 ? "<li>…and " + esc(d.techniques.length - 10) + " more</li>" : "";
-  const eta = d.eta && d.eta.days
-    ? `<p style="margin:14px 0 0;font-size:15px;"><b>At this pace: ${esc(String(d.eta.belt).toUpperCase())} BELT in ~${esc(d.eta.days)} days</b></p>`
-    : d.eta
-      ? `<p style="margin:14px 0 0;font-size:14px;">Next stop: <b>${esc(d.eta.belt)} belt</b></p>`
-      : "";
+  const bl = beltLine(d.belt);
+  const belt = bl
+    ? `<p style="margin:14px 0 0;font-size:14px;">${esc(bl.lead)}: <b>${esc(String(bl.belt).toUpperCase())}</b> \u2014 ${esc(bl.rest)}</p>`
+    : "";
   const clipBlock = d.clip
     ? `<p style="margin:6px 0 0;font-size:13px;">Here's a great video from <b>${esc(d.clip.who || "a top instructor")}</b> explaining ${esc(d.weakTop[0] ? prettyKey(d.weakTop[0]) : "it")}${d.clip.dur ? " (" + esc(String(d.clip.dur)) + ")" : ""}: <a href="https://www.youtube.com/watch?v=${esc(d.clip.id)}">${esc(d.clip.title || "watch")}</a></p>`
     : "";
@@ -182,7 +183,7 @@ export function renderHtml(d) {
   <p style="font-size:11px;letter-spacing:.14em;color:#888;margin:0;">TODAY AT BJJGRAPH</p>
   <h1 style="font-size:20px;margin:6px 0 14px;">${esc(d.count)} card${d.count === 1 ? "" : "s"} · ${esc(d.techniques.length)} technique${d.techniques.length === 1 ? "" : "s"}</h1>
   <p style="margin:0;font-size:15px;">Game Knowledge: <b>${esc(d.score)}%</b>${d.delta != null ? ` <span style="color:#555;">(${d.delta >= 0 ? "+" : ""}${esc(d.delta)}% today)</span>` : ""}</p>
-  ${eta}
+  ${belt}
   ${d.streak > 1 ? `<p style="margin:10px 0 0;font-size:13px;">🔥 ${esc(d.streak)} training days in a row</p>` : ""}
   <p style="margin:16px 0 6px;font-size:12px;letter-spacing:.08em;color:#888;">WHAT YOU REVIEWED</p>
   <ul style="margin:0;padding-left:20px;font-size:14px;line-height:1.7;">${li}${more}</ul>

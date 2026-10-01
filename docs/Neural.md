@@ -114,7 +114,8 @@ the screen or is inert behind the pane or option sheet (`_recallLive`). An open 
 shortcuts; exposed landing controls still accept pointers. Grading releases the key. Space goes to a study surface and a
 focused mini-row first.
 
-**Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`), a stage-2+ card
+**Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`; the WORN belt since
+v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
 a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
 node card and the option sheet's JIT micro-drill — take `askFormat` instead: recognition below
@@ -626,8 +627,9 @@ folds), and starts nothing. The deferred sections render expanded when their pay
 because the map is written before their first render asks.
 
 **Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
-describe material difficulty, never rank or access. The frontier belt drives the default-open
-section, the arrival scroll, the tab belt's dye and stripes, and the cue. Nothing ever re-locks.
+describe material difficulty, never rank or access. The frontier belt (first belt with lessons
+left) drives navigation — the open section, the arrival scroll, the cue; the tab belt is the belt
+you **wear** (§8), never the frontier, which painted a finished player white. Nothing re-locks.
 
 **Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
 queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
@@ -697,8 +699,8 @@ Until v1.145.13 only the attacking third was weighted: 1,326 Defender and 272 po
 ~4.7× an average technique deck and 14 of the 20 heaviest decks are positions (`Side
 Control|Top` leads).
 
-**Nothing about the score decays.** `deckMastery` moves only on answers — the belt cannot drop
-because time passed. Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
+**Nothing about the score decays.** `deckMastery` moves only on answers — the score cannot drop
+because time passed (a failed card can lower it; it can never lower a belt, below). Retention-vs-pressure gets decided in `_schedule` (SRS intervals: *what you
 are shown*), never in what a deck is *worth*.
 
 **Wire.** `curriculum.scoreWeightsByOrd` is `{div, p:{o,r,gi,nogi}, t:{o,gi,nogi}}` — each seat
@@ -710,15 +712,32 @@ scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **ze
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
-Bands: white .20 · blue .40 · purple .60 · brown .70 · black .80. An MC answer caps a card at stage
-2 = 2/3 mastery, so pure recognition tops out at 0.667 — recall is the only route past 0.7 **by
-construction**. Nothing is gated by the score, and the thresholds are provisional. Its one exposure
-is the Explore tab subtitle.
+**Game Knowledge is a percentage and decides no belt** (v1.211.0, owner). Its bands (white .20 ·
+blue .40 · purple .60 · brown .70 · black .80; MC caps a card at 2/3, so recognition tops out at
+0.667) were the knowledge belt and gated recall in play and the Recall Mode lock while this line
+said "nothing is gated by the score". They now decide nothing; the grandfather reads them once.
+
+**The belt you wear** (`wornBelt()`; rule and merge in `belt.src.js`). Everyone starts in white;
+you wear the belt AFTER the last belt, in an unbroken run from white, whose units are all proven
+(live lessons done + checkpoint); clearing black leaves you black, four stripes. Stripes are the
+worn belt's proven units, 0–4; the capstone stays an optional patch. Readers, all of them: the tab
+belt, recall in play from blue, the Recall Mode patch and Settings lock at black, and the email's
+"Next belt" line (`dayLog[day].b`, read by `workers/digest`).
+
+**It never falls.** `belts.held` (v2 blob) is a high-water mark that `_syncBelt` raises at every
+evidence seam (`_publishKnowledge`, a checkpoint pass, curriculum and manifest arrival, both sides
+of a ruleset flip), so a gi ↔ no-gi flip, a failed card, a curriculum edit or a stale device lower
+nothing; a belt below the held one counts as proven. It merges as **MAX by rank**
+(`ngMergeHeldBelt` in `_mergeProgressFields`, whose `belts` assign keeps only local keys), never as
+a settings key. **The grandfather** (`belts.gf`, once): `held` = max(the old tab colour, its
+all-done case read as black; the band; the rule), both rulesets, marked once the manifest is
+resident; the mark survives a merge only when both sides carry it, so a pre-v1.211.0 device's
+progress is grandfathered again. Gated by `tests/belt_worn.test.mjs`, `belt-worn.spec.ts`.
 
 **Spaced repetition.** `srs = {deckKey: {qhash: [due, ivl, last]}}` in the v2 blob, local epoch-day
 ints. One writer, `_schedule(key, q, ok)`, fed by both grade chokes. Success climbs the interval
 ladder; any failure resets to 1 day. **Due-ness decides what you are SHOWN; mastery stays
-stage-based and moves only on answers** — the belt cannot drop because time passed.
+stage-based and moves only on answers** — the score cannot drop because time passed.
 
 **Challenges** persist as `{progress, done, t}`; collectibles as `{t, context?}`. `fx()` is the
 single evidence seam. Rewards are patches and joke coins: neither is spendable and neither changes
