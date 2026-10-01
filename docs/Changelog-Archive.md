@@ -9565,3 +9565,83 @@ B1 builds the mechanism and applies **no** table; B2 applies them.
 - `listing_absences` ignoring the frame mask;
 - `listing_absences` ignoring the dealing rule;
 - `check_absence_hands` accepting a relaxed hand.
+
+## v1.214.1 — A SUBMISSION'S HAND STOPS GLOWING; THE ESCAPES' "ODDS 40%" IS DATA, NOT A CONSTANT (2026-10-01)
+
+**Owner:** "there's this strange glowing effect of [the] choices row of a submission". He was attacking
+Suloev Stretch from Half Guard, with the Dark Reader extension on.
+
+**Glow sources on that row, reproduced at the same URL:**
+- **The coaching beacon (the defect).** `setBeacon("options", row)` runs on every deal (v1.57.0). It
+  gives the row `.ng-beacon`, a pulsing green box-shadow of up to `0 0 22px 5px`. The row also carried a
+  constant edge mask from 2026-07-12, four days older than the beacon, and that mask clips an element's
+  own box-shadow. So this light was never visible on any hand. v1.213.2 (PR 248) made the mask earned:
+  a hand that fits has none. A fitting hand, usually a submission's, then pulsed a full-width green
+  band.
+  - Pixel proof at the beacon's peak (a 360×22 strip above the row): it differs by 42/255 from no
+    beacon, and by 0 with the old mask reinstated.
+  - Fix: `.ng-optionrow.ng-beacon{animation:none}`. The one-beacon law is unchanged (`data-beacon`,
+    `beaconState()`, `beacon_moved`), and the specs that pin it pass.
+- **The staged card's border and shadow** (`_highlightStagedCard`, the owner's "FINISH IT" rule from
+  v1.134.0). It appears on any hand with a staged technique, and the Finish card is that technique
+  here. Unchanged.
+- **Card glyphs' `drop-shadow(0 0 4px)`.** On every card of every hand. Unchanged.
+- **Dark Reader** (its own engine, darkreader 4.9.133, injected) recolours the cards' inline borders
+  and shadows from blue to navy, and passes the beacon's keyframes through untouched. Under it the
+  green band stood out more; after the fix there is none.
+
+**The escapes' "Odds 40%".** All four opponent escapes print 40% because an escape card prints
+`1 − the submission's authored rate`. Suloev Stretch from Half Guard is authored at 60%, and none of
+the 290 submissions' defensive options carries a rate of its own. So escapes of one submission are
+equal by construction, and other submissions print their own complement (16 distinct values in the
+corpus; triangle from Triangle Control prints 35%). It is not the 0.4 fallback, and the card prints
+"—" with no rate. Nothing was changed.
+- **Left to the owner:** in the live game an opponent's escape is certain once they act
+  (`opponentDefend` picks one at random, with no roll), so the percentage does not describe a roll.
+
+**Pinned by** `e2e/journeys/submission-row-glow.spec.ts`:
+- The row keeps its beacon state and casts no light: computed animation and box-shadow are `none`, and
+  a pixel differential over the row and a 30 px margin matches the beacon class removed.
+- Escape Odds equal `100 − rate` on two submissions with different rates.
+
+| mutant | result |
+|---|---|
+| neutral control | green |
+| row light restored (rule removed) | red at the computed animation |
+| glow by `filter: drop-shadow` (passes the style checks) | red at the pixel differential (it first SURVIVED a narrower strip) |
+| escape base a constant 0.4 | red on the triangle |
+
+## v1.215.1 — THE REFERENCE GATE INDEXES THE TRACKED TREE, SO A VANISHING TEMP DIR CANNOT TURN test:units RED (2026-10-01)
+
+**The flake.** `npm run test:units` failed one test now and then (`claudemd_refs_gate`, seen 2026-09-29
+on perf/payload-diet and 2026-10-01 on dev d52b92ee5) and passed on a rerun. Both times it ended in
+`FileNotFoundError` on `source/.date-worker-XXXXXX` inside `_index_basenames` at `ROOT.rglob("*")`.
+
+**Cause, verified.** `node --test` runs files in parallel. `git_date_maps.test.mjs` creates and deletes
+`source/.date-worker-*`. The gate's basename index walked the whole working tree, untracked directories
+included, although its docstring said "tracked": it listed that directory, then scanned it after it was
+gone. Python 3.11's `rglob` catches only `PermissionError` there.
+
+**Reproduced before the fix.**
+- Deterministic: a hook on `os.scandir` deletes the directory at the instant it is about to be scanned,
+  and the old walk is red every time with the flake's own traceback.
+- Real race: 30 gate runs beside a churner of `source/.date-worker-*` directories gave 6 reds.
+
+**Fix.** The index comes from `git ls-files`, which is what CI checks out. Nothing is walked.
+- On CLAUDE.md, 4 of 56 distinct bare names resolved only through the walk (`concepts.json`,
+  `graph-data.json`, `neural.js`, `systems.json`). All four are in `ALLOW_ABSENT`, so no outcome changes.
+- Git unavailable, or zero tracked files listed, is a hard failure. The OK line prints the index size
+  (7,452 tracked files).
+- This was the only repo-root walk on the unit path: the build-shape and payload checks walk build
+  output, and `emit_diff_seed.py` walks a site directory and is not run by a test.
+- The test's temp directory stays in `source/`: its bundle resolves `source/`-only packages from
+  `source/node_modules`.
+
+**Gate.**
+- New unit test: the real script under the vanish hook.
+- Mutant (the old walk, with the new index-size line kept so only the race can fail it): red, with
+  `VANISH_HOOK_FIRED 1` and the `FileNotFoundError`. The first cut of the hook broke on `shutil.rmtree`'s
+  own fd scans, so its mutant was red for the wrong reason; fixed and re-run.
+- After the fix: the deterministic repro is green, and the real race gives 0 reds in 30.
+- 20 full `npm run test:units` runs on the fix, each gated on the heavy-job advisory: 20/20 green,
+  1,189 pass, 0 fail, 0 skipped and 0 `FileNotFoundError` in every run, with no temp directory left behind.
