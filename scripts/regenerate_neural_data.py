@@ -16,7 +16,9 @@ generated+committed static asset):
     [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail
     + `ev`, the EDGE table that ranks the option cards (one independent MDP solve per
     loss-aversion preset — see build_move_edge, and the file-level `evLam`/`evFrame` that say
-    which presets and which ruleset the table describes).
+    which presets and which ruleset the table describes) + `evGi`, the GI HANDS in `ev`'s
+    layout with no EDGE blocks (node indexes + gi attempt %), which is what lets the browser's
+    weak-spots engine (FLOW) rank a gi player on gi numbers — see build_gi_hands.
     Links are [sourceIdx, targetIdx] pairs. This is the largest BOOT payload; the wire is
     compact and app.src.jsx ingest() expands it back into the legacy shapes (v1.107.0).
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
@@ -663,6 +665,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     # EDGE — the option card's ranking value. Attached to the POSITION nodes (see build_move_edge);
     # the two top-level keys below are the table's self-description, carried ONCE for the file.
     out.update(build_move_edge(graph, nodes, tech_idx))
+    build_gi_hands(graph, nodes, tech_idx)
     return out
 
 
@@ -901,6 +904,79 @@ def build_move_edge(graph: dict, nodes: list, tech_idx: dict) -> dict:
         raise SystemExit(f"[neural] EDGE: Q is not p*A+(1-p)*B (residual {lin:.2e}) — the two-number "
                          f"wire cannot represent this solve. Refusing to emit.")
     return {"evLam": list(EV_LAMBDAS), "evFrame": EV_FRAME}
+
+
+# ── GI HANDS: what a gi player is dealt, so FLOW can rank them on gi numbers ──────────────────
+# `cal.ev` is solved in ONE frame (`evFrame`, no-gi), and until this table shipped the browser's
+# weak-spots engine had nothing else to read: a gi player's "weak spots" were the no-gi ranking —
+# no-gi attempt shares, and not one of the gi-only decks could ever be recommended
+# (docs/GraphSemantics.md §8, item 7 of §10; the owner chose this option on 2026-09-30).
+#
+# SHAPE: `cal.evGi[role] = [nodeIdxs, attemptPct]` — `cal.ev`'s own layout with ZERO EDGE blocks,
+# so `_deriveDualPairs` and `ingest` read it with the code that already reads `ev`, and a gi EDGE
+# table (priced at +12,727 B gzip, over the per-change cap) could later append its blocks here
+# without a wire change. Every priced gi hand ships whole, not as a diff against `ev`: only 18 of
+# 265 hands carry the same whole percents in both frames, and sharing the index list where the
+# membership matches (221 hands) saves 334 B of +2,924 B gzip at the cost of making one table's
+# decode depend on another's. Percents, not permille, for the same reason `ev` uses them.
+#
+# THE SAME RULE AS `ev`, PROVED EACH RUN: the no-gi percents are rebuilt here from the no-gi
+# Model's hands by exactly the rule used for gi, and must equal what `build_move_edge` filed.
+# A gi table built by a DIFFERENT rule than the no-gi one would still look like a hand.
+def build_gi_hands(graph: dict, nodes: list, tech_idx: dict) -> None:
+    from solve_edge_values import Model, Opts
+
+    pos_idx = {nd["posId"]: i for i, nd in enumerate(nodes)
+               if nd["ty"] == "positions" and nd.get("posId")}
+
+    def hands(frame):
+        m = Model(graph, Opts(frame=frame))
+        out, pairs, miss = {}, 0, []
+        for s, h in zip(m.states, m.hands):
+            if not h:
+                continue
+            hub, role = s.rsplit("/", 1)
+            pi = pos_idx.get(hub)
+            if pi is None:
+                miss.append(s)
+                continue
+            att = {}
+            for a in h:
+                pairs += 1
+                j = tech_idx.get((a.cat, a.target))
+                if j is None:
+                    miss.append(f"{s}: {a.cat}/{a.target}")
+                    continue
+                att[j] = att.get(j, 0.0) + a.weight   # a duplicate listing SUMS, as in `ev`
+            if att:
+                order = sorted(att)
+                out[(pi, role)] = [order, [int(round(att[j] * 100)) for j in order]]
+        return out, pairs, miss, sum(1 for h in m.hands if h)
+
+    # the differential against the table build_move_edge already filed
+    ng, _p, _m, _n = hands("nogi")
+    filed = {(i, r): nodes[i]["cal"]["ev"][r][:2] for i in range(len(nodes))
+             for r in (((nodes[i].get("cal") or {}).get("ev")) or {})}
+    if ng != filed:
+        bad = sorted(set(ng) ^ set(filed)) or [k for k in ng if ng[k] != filed[k]]
+        raise SystemExit(f"[neural] gi hands: the rule rebuilds {len(ng)} no-gi hands and "
+                         f"{len(bad)} differ from `cal.ev` (first: {bad[:3]}) — the gi table would "
+                         f"be built by a different rule than the one it sits beside. Refusing.")
+
+    gi, pairs, miss, live = hands("gi")
+    for (pi, role), blk in gi.items():
+        nodes[pi].setdefault("cal", {}).setdefault("evGi", {})[role] = blk
+    joined = pairs - sum(1 for m in miss if ": " in m)
+    pct = (100.0 * joined / pairs) if pairs else 0.0
+    cards = sum(len(b[0]) for b in gi.values())
+    print(f"  gi hands: {len(gi)}/{live} gi hands filed ({cards} cards), {joined}/{pairs} "
+          f"(state,move) pairs joined ({pct:.1f}%); the same rule rebuilds all {len(ng)} no-gi "
+          f"hands of `ev` exactly")
+    # POSITIVE COVERAGE (§6.6), the same floor as the EDGE join: a hollow gi table would hand every
+    # gi player the no-gi ranking again, with nothing on screen to say so.
+    if pct < 95.0 or len(gi) != live:
+        raise SystemExit(f"[neural] gi hands regressed: {len(gi)}/{live} hands filed, {joined}/{pairs} "
+                         f"pairs joined (first miss: {miss[:3]}). Refusing to emit a hollow gi table.")
 
 
 MC_LINE_BUDGET = 36  # one-line MC option cap; keep in sync with app.src.jsx MC_LINE
