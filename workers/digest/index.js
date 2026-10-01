@@ -20,7 +20,7 @@
  *   4. The auth user: the owner's kill switches (banned, deleted, unconfirmed) are skips by
  *      name, and the address must pass an ASCII allow-list before it reaches a To: header.
  *   5. Compose: techniques · count · Game Knowledge % (+delta) · the NEXT BELT from the belt the
- *      player wears (`dayLog[day].b`, v1.210.0 — never from the score) · streak · the weak-spots
+ *      player wears (`dayLog[day].b`, v1.211.0 — never from the score) · streak · the weak-spots
  *      MAGAZINE section (top spot with an attributed clip when the public content chunk carries
  *      one; the second as "an extra").
  *   6. CLAIM the (user, day) in digest_sent — BEFORE the send (v1.164.3) — then send via
@@ -59,7 +59,7 @@ import { safeEqual } from "./safe-equal.js";
 // The APP'S OWN manifest decoder (v1.204.3), bundled across the tree the way functions/l imports
 // lists-codec.src.js: the mail allow-list and the app can never read the manifest two ways.
 import { ngWireDecks } from "../../neural/src/wire-keys.src.js";
-// …and the app's own belt rule (v1.210.0): the order of the belts and what a valid belt line is.
+// …and the app's own belt rule (v1.211.0): the order of the belts and what a valid belt line is.
 import { NG_BELT_IDS, ngBeltLine } from "../../neural/src/belt.src.js";
 import { atMs, isLocked } from "./suppress.js";
 
@@ -473,7 +473,7 @@ async function compose(env, row, ctx) {
   const prevDay = valid[valid.length - 2];
   const prevS = prevDay ? entries[prevDay].s : null;
   const delta = prevS != null ? num(e.s - prevS, -CAP.delta, CAP.delta, 1, hit) : null;
-  // THE BELT LINE (v1.210.0): the belt the player wears, as the app wrote it — validated by the
+  // THE BELT LINE (v1.211.0): the belt the player wears, as the app wrote it — validated by the
   // app's own `ngBeltLine` (a known belt, integer units, done <= total), or no line at all. An
   // older app wrote none; a malformed one is counted and dropped, never repaired into a guess.
   const line = ngBeltLine(e.b);

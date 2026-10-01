@@ -712,7 +712,7 @@
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 17
         }
       },
@@ -768,28 +768,28 @@
       {
         "transition": "Guard Recovery from Spider Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 25
         }
       },
       {
         "transition": "Triangle from Spider Guard",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 12
         }
       },
       {
         "transition": "Spider Sweep",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 13,
           "nogi": 6
         }
       },
       {
         "transition": "Spider to Lasso Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": null
         }
       },
@@ -812,6 +812,13 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 8
+        }
+      },
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": null
         }
       }
     ],

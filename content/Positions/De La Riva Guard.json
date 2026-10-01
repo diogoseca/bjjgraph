@@ -408,7 +408,7 @@
         "transition": "De La Riva Sweep",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 14
+          "nogi": 25
         }
       },
       {
@@ -421,8 +421,8 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 6
         }
       },
       {
@@ -457,7 +457,7 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 11
+          "nogi": null
         }
       },
       {
@@ -500,6 +500,13 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": null
+        }
+      },
+      {
+        "transition": "Bolo Sweep",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 2
         }
       }
     ],

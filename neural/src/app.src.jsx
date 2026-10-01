@@ -2510,7 +2510,7 @@ class Component extends DCLogic {
         const e = (this.dayLog[dk] = this.dayLog[dk] || { s: 0, k: [] });
         if (key && e.k.indexOf(key) < 0 && e.k.length < 40) e.k.push(key);
         e.s = Math.round((this.gameScore().score || 0) * 1000) / 10;
-        // the belt line (v1.210.0): [worn belt, its proven units, its units] — the email names the
+        // the belt line (v1.211.0): [worn belt, its proven units, its units] — the email names the
         // NEXT belt from it (workers/digest). The score above stays a percentage and names none.
         // Absent while the curriculum is (no units to count): the Worker prints no line, never a guess.
         const wb = this.wornBelt();
@@ -2997,7 +2997,7 @@ class Component extends DCLogic {
   noteCardAnswered() {
     this.cardsAnswered = (this.cardsAnswered || 0) + 1;
     if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
-    // THE BLACK-BELT CROSSING — the worn belt since v1.210.0; see _noteBlackBelt.
+    // THE BLACK-BELT CROSSING — the worn belt since v1.211.0; see _noteBlackBelt.
     this._noteBlackBelt();
   }
   // PANE LAW: never force the pane open. One quiet toast; the save CTA still renders
@@ -6902,7 +6902,7 @@ class Component extends DCLogic {
             for (const k of c.k || []) if (m.k.indexOf(k) < 0 && m.k.length < 40) m.k.push(k);
             if ((c.s || 0) > (m.s || 0)) m.s = c.s;   // the higher snapshot is the later one — score is monotonic-ish within a day
             if (!m.w && c.w) m.w = c.w;
-            if (ngBeltLineAhead(c.b, m.b)) m.b = c.b; // the email's belt line (v1.210.0): the belt never falls, so the higher line is the later one
+            if (ngBeltLineAhead(c.b, m.b)) m.b = c.b; // the email's belt line (v1.211.0): the belt never falls, so the higher line is the later one
           }
         }
         this.rec = rec; this.stage = stage;
@@ -6911,7 +6911,7 @@ class Component extends DCLogic {
         const att = Object.assign({}, (this.belts || {}).attempts || {});
         const cAtt = (cloud.belts || {}).attempts || {};
         for (const k in cAtt) att[k] = Math.max(att[k] || 0, cAtt[k] || 0);
-        // THE WORN BELT IS A HIGH-WATER MARK (v1.210.0) — MAX by rank across devices, never "local
+        // THE WORN BELT IS A HIGH-WATER MARK (v1.211.0) — MAX by rank across devices, never "local
         // wins". This line is load-bearing: the assign below keeps only LOCAL keys of `belts`, so
         // without it a belt earned on another device was dropped by the first merge and pushed
         // back over the cloud. `gf` (the one-time grandfather) survives only when BOTH sides carry
@@ -7467,7 +7467,7 @@ class Component extends DCLogic {
     const live = unit.lessons.filter((l) => this._lessonLive(l));
     return live.length > 0 && live.every((l) => this.lessonDone(l.deckKey)) && !!(this.units && this.units[uk] && this.units[uk].checkpoint);
   }
-  // ── THE BELT YOU WEAR (v1.210.0, owner ruling 2026-09-30) ── The rule, the stripes and the
+  // ── THE BELT YOU WEAR (v1.211.0, owner ruling 2026-09-30) ── The rule, the stripes and the
   // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
   // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
   // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
@@ -7505,7 +7505,7 @@ class Component extends DCLogic {
    * this is what makes the max survive the rule going DOWN (a flip, an edit, a failed card).
    *
    * THE ONE-TIME GRANDFATHER (owner, 2026-09-30): the first time this runs on a blob without
-   * `belts.gf`, `held` becomes the max of every belt the player could see before v1.210.0 — the
+   * `belts.gf`, `held` becomes the max of every belt the player could see before v1.211.0 — the
    * old tab colour and the Game Knowledge band, in both rulesets — and of the rule's own answer.
    * The old tab needs only the curriculum, so it is applied as soon as that lands; the band needs
    * the deck manifest's card counts, so the mark is written only once that is resident too. A merge
@@ -7543,7 +7543,7 @@ class Component extends DCLogic {
     this._noteBlackBelt();
   }
   /**
-   * THE BELTS A PLAYER COULD SEE BEFORE v1.210.0 — read by the grandfather and by nothing else.
+   * THE BELTS A PLAYER COULD SEE BEFORE v1.211.0 — read by the grandfather and by nothing else.
    * The old Challenges-tab colour was `_frontierBeltId()`, the first belt whose live lessons were
    * not all done; when every lesson was done it fell back to the corridor's TOP and painted the
    * finished player white, so that case is read as the belt it should have shown, black. The
@@ -7564,7 +7564,7 @@ class Component extends DCLogic {
     } finally { this._giMode = keep; }
     return out;
   }
-  // THE BLACK-BELT CROSSING (v1.105.1; the WORN belt since v1.210.0). Fires while black AND
+  // THE BLACK-BELT CROSSING (v1.105.1; the WORN belt since v1.211.0). Fires while black AND
   // unminted — unconditional-at-black rather than edge-triggered, so a player who is already black
   // (grandfathered, or promoted on another device) is minted on the next sync or answer; it goes
   // quiet forever once the patch exists, and the mint loop is idempotent anyway.
@@ -7613,7 +7613,7 @@ class Component extends DCLogic {
   //     score = Σ (weight_i × mastery_i),   Σ weight_i = 1
   //
   // Know nothing → 0. Prove the entire game by recall → 1. The bands below were BELTS until
-  // v1.210.0; they now decide nothing (the belt is `wornBelt()`, earned in the Challenges) and are
+  // v1.211.0; they now decide nothing (the belt is `wornBelt()`, earned in the Challenges) and are
   // read once, by the grandfather in `_legacyBelts`. Nothing is cut: a rare technique still counts, just proportionally to how rare it is
   // (the old "drop the tail 20%" canon was arbitrary — attempt_probability is normalised per
   // position, so any mass cutoff is meaningless).
@@ -7912,7 +7912,7 @@ class Component extends DCLogic {
   }
   setGiMode(m) {
     if (m !== "gi" && m !== "nogi") return;
-    // THE BELT SURVIVES THE FLIP (v1.210.0): five units change size between rulesets, so the rule
+    // THE BELT SURVIVES THE FLIP (v1.211.0): five units change size between rulesets, so the rule
     // can answer lower in the other one. Persist what this ruleset shows BEFORE leaving it, and
     // what the new one shows after — `held` is the max of both, never lowered by either.
     this._syncBelt("ruleset");
@@ -14178,7 +14178,7 @@ class Component extends DCLogic {
   // The black-belt badge still force-enables the toggle (a floor-lowerer, no longer the only gate).
   _recallInPlayNow() {
     if (this.get("recallInPlay", false)) return true;
-    // the WORN belt since v1.210.0 (owner): "from blue" means blue in the Challenges, never a
+    // the WORN belt since v1.211.0 (owner): "from blue" means blue in the Challenges, never a
     // Game Knowledge band — see wornBelt()
     try { return this.wornBelt().rank >= 1; } catch (e) { return false; }
   }

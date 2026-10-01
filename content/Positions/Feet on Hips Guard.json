@@ -764,7 +764,7 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 19,
-          "nogi": 18
+          "nogi": null
         }
       },
       {
@@ -848,7 +848,7 @@
         "transition": "Feet on Hips Tripod Sweep",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 5
+          "nogi": 23
         }
       }
     ],

@@ -81,7 +81,7 @@ jq '.transitions["kneebar-from-grasshopper/attacker"] | {fromRole, successRateBy
 
 ### Two findings you can recompute
 
-- **Reachability changes with the ruleset.** The no-gi walk excludes **104 techniques and 18 position role-nodes**. Those roles belong to nine guard sites: Collar Sleeve, Inverted Lasso, Lapel, Lasso, Piranha, Ringworm, Russian Leg Lasso, Squid and Worm. The walk follows the frame's probabilities from standing; it does not match guard names.
+- **Reachability changes with the ruleset.** The no-gi walk excludes **124 techniques and 22 position role-nodes**. Those roles belong to eleven guard sites: Collar Sleeve, Double Sleeve, Inverted Lasso, Lapel, Lasso, Piranha, Ringworm, Russian Leg Lasso, Spider, Squid and Worm. The walk follows the frame's probabilities from standing and deals only what the game deals: a move is followed from its own position and seat, never from a listing elsewhere. It does not match guard names.
 - **Attempt weight and success rate answer different questions.** Summing the authored no-gi attempt weights across all position-role rows puts **Knee Slice Pass first** (577 points across 41 rows) and **Triangle Setup third** (368 across 22). Their emitted attacker success rates are **53.6%** and **28%**. These sums give each source row equal weight, including unreachable rows; they are not roll frequencies, match statistics or a recommendation ranking.
 
 <details>

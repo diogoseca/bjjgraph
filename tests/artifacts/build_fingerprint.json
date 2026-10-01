@@ -1,28 +1,14 @@
 {
  "_meta": {
-  "app_provenance": {
-   "command": "node neural/build/build.mjs",
-   "esbuild": "0.27.0",
-   "git_head": "284c585abba80edeea2fa6fd1d11c250888714f9",
-   "inputs": {
-    "neural/build": "aa8e719d88fa4a0cc45806522a6e8a7b87550327",
-    "neural/src": "32c24e7de82e972041d91f8d2d67984bb218937d",
-    "package.json": "f4396b9beec08cabafa60e1914a99156e185c885",
-    "source/package-lock.json": "dceb6bf642cbf74f80c8df78abd388a6f25e4fd8"
-   },
-   "package_version": "1.210.0",
-   "rows_from": "neural/dist",
-   "schema": "app-assets-rebuild-v1"
-  },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-fullgame-1b7ef2369/pr-fullgame-1b7ef2369",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-origin-coherence-75255f1ef/pr-origin-coherence-75255f1ef",
   "content_provenance": {
-   "capture_git_head": "1b7ef23692c3c33f60e550c129e65d6865be723b",
-   "capture_id": "6338b779061e4307a4f516762e45d9ca",
+   "capture_git_head": "75255f1ef37a6db8eb60abb149d3d6dde8757cc3",
+   "capture_id": "62a4172f80884d8bb6c2056f36b1d7c4",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "9eb1a190410375b32ec0c02b001fc6374dabea89",
+   "content_tree": "03d93dacb3885a7b086645fd5c03e151d26b4fdb",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -47,11 +33,11 @@
    },
    "output_identity": {
     "files": 15995,
-    "sha256": "8cf42c014a7ab712f4ea55bb2a714cf412ba2425c02cf56fab2e3be920a71242"
+    "sha256": "a5f9cdfea71458a900cadbd50f2e4e34f5dbd2db85d94c87f743301a24b61f33"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/capture-fullgame-3/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-fullgame-1b7ef2369/pr-fullgame-1b7ef2369"
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-2/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-75255f1ef/pr-origin-coherence-75255f1ef"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -68,21 +54,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2657,
-    "sha256": "037331c310e9a17f78cabcb03d2dab14d2c0a3349b68d30eca0ff5c55050493c"
+    "sha256": "ee6770fd32dbe145750d847b91a92b778d209d399c75ea3bf63a022c3084841c"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
-    "sha256": "87b7f6226ab0f2542b61e78792b019d1920714795b41bcde5a44b156b6fc5e4a",
+    "sha256": "c2494c185d3d8ca78ba2c270d6e6d9359e7842cd4a4f65f56713c1536b9ce912",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111556,
-    "sha256": "0e4b5bf16d4a0550c45ceb5b50ac2e2c77c07d151f02618ae439eac0be853e61",
+    "sha256": "a57a6d7e193291762623feb70c1d51701ea4176720099ba7a234e9cc9f542fdc",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 27465,
-    "sha256": "f5bfd8afb5b46153cf8ff584564b3637d07ec277940a72178c75304086c2e626",
+    "sha256": "f400475bd252ddbfe41784be8fd66023fc159c9fb58e9d0e65be66ff75b72c7e",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
@@ -98,8 +84,8 @@
     "sha256": "8b84d852f6a0fc1ab3538acdcdd1c4a731c8e89db484873fcdd3a2fd064ad7f0"
    },
    "static/neural/app/neural.js": {
-    "bytes": 666895,
-    "sha256": "189cb6e3e8070aac5df8b6b381d6ce998da17c5a2c1390be282aac85b9c891f2",
+    "bytes": 664013,
+    "sha256": "ab2d0dc96969bebd1d1be82b1f6b550f91eec8f496099f91ee026a7439a95188",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -111,8 +97,8 @@
     "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
    },
    "static/neural/app/settings-ui.js": {
-    "bytes": 19592,
-    "sha256": "34bacbc640b24b69df432208528bcb2cd3bf89cc499df962d0d15e3bedb2264b",
+    "bytes": 19595,
+    "sha256": "a27ff7a3a3a3aec6f430e7d41de060568f55c7d92420c077c12aabb6f05977b7",
     "version_token": "normalised"
    }
   }
@@ -165,7 +151,7 @@
  },
  "census": {
   "article_headings": 94292,
-  "article_links": 213067,
+  "article_links": 213149,
   "files": 15995,
   "gzip_files": 1,
   "head_links": 37357,

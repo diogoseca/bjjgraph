@@ -337,7 +337,7 @@ const NG_BADGE_DEFINITIONS = Object.freeze([
   { id: "clean-checkpoint", name: "Clean Checkpoint", detail: "Pass a checkpoint flawlessly — every card right on first presentation", event: "checkpoint_passed", when: (p) => p.of > 0 && p.firstTry === p.of },
   { id: "thirty-from-memory", name: "Thirty From Memory", detail: "Recall-prove thirty cards", sourceChallenge: "brown.recall-thirty" },
   // THE BLACK-BELT REWARD (v1.105.1, owner): reaching black unlocks Recall mode in play — proven
-  // cards stop being multiple choice mid-roll. Black is the WORN belt since v1.210.0 (proven
+  // cards stop being multiple choice mid-roll. Black is the WORN belt since v1.211.0 (proven
   // units, never a Game Knowledge band); the beat fires from `_noteBlackBelt` while
   // black-and-unminted, and `when` reads the belt off the props.
   { id: "recall-in-play", name: "Recall Mode", detail: "Reach black belt \u2014 in play, proven cards become pure recall", event: "belt_reached", when: (p) => p.belt === "black" },

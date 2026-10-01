@@ -765,7 +765,7 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 7
+          "nogi": null
         }
       },
       {
@@ -786,7 +786,7 @@
         "transition": "Foot Grab Sweep",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 9
+          "nogi": 16
         }
       }
     ],

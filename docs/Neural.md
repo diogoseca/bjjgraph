@@ -115,7 +115,7 @@ shortcuts; exposed landing controls still accept pointers. Grading releases the 
 focused mini-row first.
 
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`; the WORN belt since
-v1.210.0, §8 — never a Game Knowledge band), a stage-2+ card
+v1.211.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
 a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
 node card and the option sheet's JIT micro-drill — take `askFormat` instead: recognition below
@@ -712,7 +712,7 @@ scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **ze
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
-**Game Knowledge is a percentage and decides no belt** (v1.210.0, owner). Its bands (white .20 ·
+**Game Knowledge is a percentage and decides no belt** (v1.211.0, owner). Its bands (white .20 ·
 blue .40 · purple .60 · brown .70 · black .80; MC caps a card at 2/3, so recognition tops out at
 0.667) were the knowledge belt and gated recall in play and the Recall Mode lock while this line
 said "nothing is gated by the score". They now decide nothing; the grandfather reads them once.
@@ -731,7 +731,7 @@ nothing; a belt below the held one counts as proven. It merges as **MAX by rank*
 (`ngMergeHeldBelt` in `_mergeProgressFields`, whose `belts` assign keeps only local keys), never as
 a settings key. **The grandfather** (`belts.gf`, once): `held` = max(the old tab colour, its
 all-done case read as black; the band; the rule), both rulesets, marked once the manifest is
-resident; the mark survives a merge only when both sides carry it, so a pre-v1.210.0 device's
+resident; the mark survives a merge only when both sides carry it, so a pre-v1.211.0 device's
 progress is grandfathered again. Gated by `tests/belt_worn.test.mjs`, `belt-worn.spec.ts`.
 
 **Spaced repetition.** `srs = {deckKey: {qhash: [due, ivl, last]}}` in the v2 blob, local epoch-day

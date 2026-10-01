@@ -71,7 +71,7 @@ async function landBottom(j: any, page: any, position: string) {
   });
 }
 
-test("@curated at the authored odds the card IS the published value — Frame -12, Escape +18", async ({
+test("@curated at the authored odds the card IS the published value — the worked examples, Frame and Escape", async ({
   page,
 }) => {
   const j = journey(page);
@@ -100,11 +100,24 @@ test("@curated at the authored odds the card IS the published value — Frame -1
     frame,
     "Frame from Side Control is dealt from side-control/bottom",
   ).toBeTruthy();
-  expect(
-    frame.edge,
-    "the most-attempted move from here is the worst card on the board",
-  ).toBe(-12);
-  expect(esc.edge, "Side Control Escape").toBe(18);
+  // THE CLAIM, restated at v1.210.0 (origin coherence). Until then this read "the most-attempted move
+  // from here is the worst card on the board" at Frame -12, Escape +18. Listing the side-control
+  // orphans at their origin (Shrimp Escape, Arm Extraction, Roll to Turtle; calibration/
+  // origin_coherence.json) added cards to this hand, which lowered its attempt-weighted baseline:
+  // Frame -12 -> -11 and Escape +18 -> +20. The new Roll to Turtle (-25: a miss concedes the back) is
+  // now the worst card. What still holds, and is asserted: Frame is the most-ATTEMPTED card this
+  // hand deals, and it sits BELOW the ordinary choice. Both values are census-tracked, so the next
+  // content change names them on the push that moves them. The census scan reads unsigned integers,
+  // so Frame is pinned by its deficit below the ordinary choice.
+  const attOf = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return a.optionsFor(a.currentPos).filter((o: any) => o.ev).map((o: any) => ({ t: o.node.t, att: o.ev.att }));
+  });
+  const topAtt = Math.max(...attOf.map((r: any) => r.att));
+  expect(attOf.find((r: any) => r.t === "Frame from Side Control")!.att, "Frame is the most-attempted card dealt here").toBe(topAtt);
+  expect(frame.edge, "and it sits below the ordinary choice").toBeLessThan(0);
+  expect(-frame.edge, "Frame's deficit below the ordinary choice").toBe(11); // census:edgeFrameDeficit
+  expect(esc.edge, "Side Control Escape").toBe(20); // census:edgeSideControlEscape
   expect(esc.odds).toBe(60);
   expect(frame.odds).toBe(50);
 
@@ -300,45 +313,47 @@ test("player values remain understandable without glyph colour", async ({ page }
 test("a move the table cannot value shows NO number — never a fabricated 0", async ({
   page,
 }) => {
+  // WHERE THE UNVALUABLE CARDS ARE (v1.210.0). Until then this spec read Side Control (bottom): its hand
+  // dealt three origin orphans with no attempt share, so no EDGE row. Origin coherence listed them at
+  // their origin, so that hand is now fully valued. The premise is real elsewhere and durable. EDGE is
+  // solved in ONE frame (`evFrame`, no-gi) and the app boots in gi (no localStorage), so a gi-only card
+  // has no row. So are the moves authored at 0% from their own origin, which the app deals and the
+  // solver does not. The probe SEARCHES every seat for them instead of pinning one hand, so the next
+  // content change cannot quietly empty it again.
+  // MUTANT: `moveEdge` returning 0 for a card with no row ("if (!r) return 0") turns this red —
+  // measured at v1.210.1 by the same probe over the same source and wire: 114 unvalued gi cards across
+  // 40 seats, all 114 printing a number under the mutant, 0 without it.
   const j = journey(page);
   await j.boot("/");
   await landBottom(j, page, "Side Control Top");
 
   const probe = await page.evaluate(() => {
     const a = (window as any).__neural;
-    const opts = a.optionsFor(a.currentPos);
-    const unvalued = opts.filter((o: any) => !o.ev);
-    const zero = opts.filter(
-      (o: any) => o.ev && a.edgeMark(o) && a.edgeMark(o).i === 0,
-    );
-    return {
-      unvalued: unvalued.map((o: any) => o.node.t),
-      unvaluedEdge: unvalued.map((o: any) => a.moveEdge(o)),
-      // a genuinely-zero card, found anywhere in the corpus, still renders its 0
-      zeroSomewhere: (() => {
-        for (let pi = 0; pi < a.nodes.length; pi++) {
-          if (a.nodes[pi].ty !== "positions" || !a.nodes[pi].posId) continue;
-          for (const role of ["top", "bottom"]) {
-            if (!a._ev.get(pi + "/" + role)) continue;
-            a.currentPos = pi;
-            a.playerRole = role;
-            for (const o of a.optionsFor(pi)) {
-              const m = o.ev && a.edgeMark(o);
-              if (m && m.i === 0) return { t: o.node.t, txt: m.txt };
-            }
-          }
+    const unvalued: any[] = [];
+    let zeroSomewhere: any = null;
+    for (let pi = 0; pi < a.nodes.length; pi++) {
+      if (a.nodes[pi].ty !== "positions" || !a.nodes[pi].posId || !a.nodes[pi].rep) continue;
+      for (const role of ["top", "bottom"]) {
+        a.currentPos = pi;
+        a.playerRole = role;
+        for (const o of a.optionsFor(pi)) {
+          if (!o.ev) unvalued.push({ at: a.nodes[pi].t + " [" + role + "]", t: o.node.t, edge: a.moveEdge(o), mark: a.edgeMark(o) });
+          // a genuinely-zero card, found anywhere in the corpus, still renders its 0
+          const m = o.ev && a.edgeMark(o);
+          if (!zeroSomewhere && m && m.i === 0) zeroSomewhere = { t: o.node.t, txt: m.txt };
         }
-        return null;
-      })(),
-      zeroHere: zero.length,
-    };
+      }
+    }
+    return { mode: a._giMode, unvalued, zeroSomewhere };
   });
   expect(
     probe.unvalued.length,
-    "this hand really does deal cards the table cannot value",
+    `some ${probe.mode} hand really does deal cards the table cannot value`,
   ).toBeGreaterThan(0);
-  for (const v of probe.unvaluedEdge)
-    expect(v, "no value means null, not 0").toBeNull();
+  for (const u of probe.unvalued) {
+    expect(u.edge, `${u.t} at ${u.at}: no value means null, not 0`).toBeNull();
+    expect(u.mark, `${u.t} at ${u.at}: and no mark is drawn`).toBeNull();
+  }
   expect(
     probe.zeroSomewhere,
     "a genuinely-zero EDGE exists and prints",

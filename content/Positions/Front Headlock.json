@@ -307,15 +307,15 @@
       {
         "transition": "Anaconda Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Darce Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
@@ -428,6 +428,27 @@
         "attempt_probability": {
           "gi": 1,
           "nogi": 2
+        }
+      },
+      {
+        "transition": "Anaconda Choke",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Front Headlock to Anaconda",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Front Headlock to Darce",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
         }
       }
     ],

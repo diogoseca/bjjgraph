@@ -52,7 +52,7 @@ mathematics:
 Along the way the cell measured four things the owner should know:
 - **The app's game is much harder than the corpus's.** From standing, no-gi, under the app's own
   initiative rule, P(I finish) is 0.35 against 0.72.
-- **The belt weights a different chain** from the one EDGE and FLOW price. (Since v1.210.0 the
+- **The belt weights a different chain** from the one EDGE and FLOW price. (Since v1.211.0 the
   score decides no belt — the belt is earned in the Challenges — so this is now about Game
   Knowledge %; see §10.5.)
 - **gi players are shown no-gi EDGE and FLOW.** The EDGE line is the no-gi one re-evaluated at gi
@@ -61,6 +61,32 @@ Along the way the cell measured four things the owner should know:
 
 Nothing in the app, content or probabilities changed. §10 lists the owner's decisions, each with its
 measured consequence.
+
+> **Status since v1.210.0: items 4 and 6 ruled and shipped.** Everything below this box, and every
+> artifact under `tests/artifacts/semantics/`, still describes the v1.206.2 graph (each artifact
+> records that graph's sha256, so it now reads STALE). The re-measured headline, on v1.210.0:
+> - **Item 4.** Each origin-orphaned technique is listed at its canonical origin. The attempt
+>   shares come from an LLM persona panel, one independent round, which is not expert data
+>   (`calibration/origin_coherence.json`, `scripts/apply_origin_coherence.py`). Orphans: 41 → 2 in
+>   no-gi, 40 → 0 in gi. The two left, Tripod Sweep and Leg Extraction from Lapel Wrap, are listed
+>   only inside guards no-gi does not have. The 13 coherent away-from-origin listings are NOT yet
+>   restored: the panel would restore 8, and doing so needs a listing-level dealing rule that the
+>   full game's projection must mirror.
+> - **Item 6.** `frame_reachable` now walks the hands `build_hand` deals, so the no-gi walk reaches
+>   the game's 244 role-nodes (it reached 248). Spider Guard and Double Sleeve Guard are hidden in
+>   no-gi, both seats, with 20 techniques: 124 techniques and 22 role-nodes excluded, up from 104
+>   and 18. The content change closes that door too (Tripod Sweep's no-gi cells are now null), so
+>   on today's content the old and new walks agree. The walk guards future listings, and a synthetic
+>   fixture in `validate:availability` pins it.
+> - **What moved.** From standing, no-gi, P(I finish) 0.5529 → 0.5533 under the player-neutral
+>   rule, 0.7225 → 0.7237 under the shipped rule, and 0.3489 → 0.3440 in the app's game. The
+>   finisher law moved by TV 0.035 (player-neutral) and 0.037 (shipped). Leg locks end 8.1% of
+>   rolls from standing (was 6.6%); leg-lock territory is 21 positions (aoki-lock control drops
+>   out), and its share is 39.0% (was 38.0%). The origin filter drops 47.8% of role-matching
+>   no-gi attempt points (was 48.4%). Flow compression still finds 40 modules.
+> - Recompute: `python3 -B scripts/semantics/_kernel.py --structure`,
+>   `python3 -B scripts/semantics/flux.py --origin --out <dir>/flux_origin.json`,
+>   `python3 -B scripts/semantics/app_game.py`.
 
 ---
 
@@ -845,7 +871,7 @@ answered in two places, one of them is already wrong. Recompute with
 | chain | where | what it is |
 |---|---|---|
 | **the game** | `solve_edge_values.Model` → EDGE, FLOW, this kernel | two seats; the opponent samples the paired role-node's hand; role and origin filters; chained cells |
-| **the score walk** | `regenerate_neural_data.build_technique_weights` → `gameScore` (Game Knowledge %; the belt until v1.210.0) and curriculum weights | ONE actor who keeps acting wherever they land; no opponent seat; no origin filter; PageRank damping 0.85 toward uniform; finishes and chained cells restart uniformly |
+| **the score walk** | `regenerate_neural_data.build_technique_weights` → `gameScore` (Game Knowledge %; the belt until v1.211.0) and curriculum weights | ONE actor who keeps acting wherever they land; no opponent seat; no origin filter; PageRank damping 0.85 toward uniform; finishes and chained cells restart uniformly |
 | **the reachability walk** | `regenerate_neural_data.frame_reachable` → which states the app hides per ruleset | not a chain but a support: a role- and origin-blind search from the two standing seats |
 
 **The belt weights a different game from the one EDGE and FLOW price.** Weights compared against
@@ -871,7 +897,7 @@ walk reaches 248. The four extra are Spider Guard and Double Sleeve Guard, both 
   a guard no no-gi edge reaches.
 - `optionsFor`'s origin filter never deals it there.
 
-Whether the score should weight by the game (it decides no belt since v1.210.0), and whether the walk should respect origin, are owner
+Whether the score should weight by the game (it decides no belt since v1.211.0), and whether the walk should respect origin, are owner
 decisions (§10).
 
 ## 8. gi and no-gi as two chains
@@ -1029,7 +1055,7 @@ prices.
 5. **The belt's weights** (§7). `gameScore` weights a one-player damped walk that ranks techniques
    at Spearman 0.53–0.58 against the game EDGE and FLOW price. Re-weighting by the game's occupancy
    would change every player's belt, by an amount not measured here.
-   **Ruled 2026-09-30 (v1.210.0): the belt follows the Challenges** — you wear the belt after the
+   **Ruled 2026-09-30 (v1.211.0): the belt follows the Challenges** — you wear the belt after the
    last belt whose units are all proven, as a high-water mark (`neural/src/belt.src.js`,
    `docs/Neural.md` §8). Measured first: the curriculum carries 31.8% of the score's weight and
    every card in it recalled earned only the white band. Re-weighting the score therefore moves

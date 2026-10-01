@@ -27,7 +27,7 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 1% of exchanges from this position.",
       "position": 2
     },
     {

@@ -43,9 +43,10 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
 - **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
 
-- **v1.210.0** — [THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS](#v12100--the-belt-is-earned-in-the-challenges-and-it-never-falls)
+- **v1.211.0** — [THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS](#v12110--the-belt-is-earned-in-the-challenges-and-it-never-falls)
 - **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
+- **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8692,8 +8693,40 @@ ignored, the top seat only, My weak spots ranked from Standing, `calSuccess` ign
 read from the gi table, `_evGi` never built (9), the emitter filing the no-gi hands as `evGi` (7, on
 a re-emitted wire): all killed. A kernel reused across a ruleset flip SURVIVED until test 6d was
 written (`setGiMode` drops the kernel; a direct `_giMode` write did not).
+## v1.210.0 — ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN
 
-## v1.210.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
+Owner rulings on docs/GraphSemantics.md §10, 2026-09-30. Item 4: "fix it ... i trust your panel". Item 6: "yes hide them".
+
+- **Reproduced first.** `flux.py --origin` regenerated `flux_origin.json` byte-identical on v1.206.2: 41 no-gi and 40 gi orphans, 1,209 dropped listings, 1,196 teleporting, 13 coherent.
+- **Item 4, content only.** 25 position role-nodes in 23 files changed, 261 cells, all from `calibration/origin_coherence.json` via `scripts/apply_origin_coherence.py`. That script has `--check` (content equals the provenance) and `--reaggregate` (re-derives every verdict from the committed ballots).
+  - Each orphan is listed at its canonical origin. A new share comes out of the 100 either proportionally or from one named TWIN, an existing listing the panel judged to be the same move. Example: at turtle/top the phantom `Front Headlock to Anaconda` (authored at front headlock, so never dealt there) gives its no-gi 8 to `Anaconda from Turtle`.
+  - Seven phantom no-gi cells went null: Tripod Sweep at six reachable guards, and Collar Drag at butterfly hook control. Their points went to the guard's real no-gi version where the panel named one (Feet on Hips Tripod Sweep 5 → 23).
+  - Orphans 41 → 2 no-gi (both listed only inside gi-only guards), 40 → 0 gi.
+- **The panel is NOT expert data.** It is ten LLM personas with the Q3 Delphi's coaching profiles and weights, recorded by archetype id, never by a person.
+  - ONE independent round, 20 agent runs. The planned deliberation round did not run, so every number is the weighted aggregate of ten first-round ballots. The provenance's `meta` says so.
+  - Logged, not applied: 5 wrong-origin candidates (X Pass → open-guard/top, Lumberjack Sweep → seated guard, Balloon Sweep → feet-on-hips, Waiter Sweep → deep half, Elbow Escape to Guard → side-control/bottom), and the per-listing outcome tables each generic move would need (`own_table_at`).
+- **The 13 coherent listings are NOT restored.** The panel would restore 8: Back Control Maintenance at harness, seat-belt, body-triangle and invisible-collar; Knee Shield Retention at half guard and z-lock; RDLR Recovery at inverted guard and grasshopper. That needs a listing-level dealing rule, which `_mdp_mechanics.py` (the full game) mirrors from `optionsFor` line for line, so it belongs in its own change.
+- **Item 6.** `frame_reachable` walks `solve_edge_values.build_hand` (role, origin, relax: one rule, no copy). Its position set equals the kernel's reachable set: 244 no-gi, 266 gi.
+  - Spider Guard and Double Sleeve Guard are hidden in no-gi, with 20 techniques: 124 techniques and 22 role-nodes excluded, up from 104 and 18. All are still cloth.
+  - Measured afterwards: on the new content the origin-aware and origin-blind walks reach IDENTICAL sets (no-gi 244/1,191, gi 266/1,294). The Tripod Sweep nulls alone close the Spider Guard door, so no real-corpus test can see the walk change. `validate:availability` now runs a synthetic origin-walk fixture (2 controls); an origin-blind walk fails it.
+  - The curriculum's Tripod Sweep lesson is marked `frames: ["gi"]`; `validate_curriculum` demanded it.
+- **Measured** (the semantics artifacts still describe v1.206.2; see the doc's status box). From standing, no-gi:
+  - P(I finish) 0.5529 → 0.5533 (player-neutral), 0.7225 → 0.7237 (shipped), and 0.3489 → 0.3440 in the app's game;
+  - finisher-law TV 0.035 / 0.037;
+  - leg-lock baseline 6.6% → 8.1%; territory 22 → 21 positions, share 38.0% → 39.0%;
+  - FLOW V0 0.0755 → 0.0769 (py).
+- **Gates moved, each named.**
+  - FLOW ratchet: `ushiro-ashi-garami/top|Return to Outside Ashi` went −0.249 → −0.252 across the −0.25 line, so it is added by name.
+  - `flow.test.mjs` top-40: a rounding near-tie (Arm Extraction py 40 / js 42) now crosses only inside the 5% band. MUTANT: halving one top-30 reference gradient turns it red.
+  - `_kernel --selfcheck`: no-gi shipped π on collar-sleeve-guard/top was 1.49e-15, equal to the solve's residual, so "outside reach" is now judged against the residual. MUTANT: a 0.1% restart leak into an unreachable state still fails.
+  - `submission_states`: no-gi live submissions 259 → 255, the four spider and double-sleeve finishes.
+- **FINDING, not fixed here.** Dev's generated pages lag their sources.
+  - `regenerate:md` on a clean dev checkout rewrites 554 pages, all Systems card titles and blurbs (`content/Systems` renamed after the pages were generated).
+  - `regenerate:graph-base` adds `products[].image` to 68 Systems entries. The generator passes it by design; only course and referral URLs are stripped.
+  - This commit keeps the 43 pages its own change touches as regenerated, so 34 of them pick up that drift. It restores the other 521. Its `graph.json` carries the 68 image fields.
+
+
+## v1.211.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
 
 **The owner's question** (2026-09-30), on GraphSemantics §10.5: "every player's belt is rather a
 construct of the challenges no? i thought it would be mostly, and if we could align that to the

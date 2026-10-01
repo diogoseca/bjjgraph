@@ -3,7 +3,7 @@ import { journey } from "../dsl"
 import { multiBeltEndgame } from "../gen/personas"
 
 /**
- * THE BELT YOU WEAR, AS THE CHALLENGES TAB DRAWS IT (v1.210.0, owner ruling 2026-09-30).
+ * THE BELT YOU WEAR, AS THE CHALLENGES TAB DRAWS IT (v1.211.0, owner ruling 2026-09-30).
  *
  * You wear the belt after the last belt whose units are ALL proven (lessons + checkpoint); it is
  * a high-water mark (`belts.held`) that nothing lowers. The rule, the merge and the grandfather

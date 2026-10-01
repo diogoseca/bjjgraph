@@ -3,10 +3,10 @@
     "transition_files": 1025,
     "submission_files": 353,
     "position_files": 133,
-    "total_issues": 357,
+    "total_issues": 396,
     "errors": 0,
     "warnings": 7,
-    "info": 350,
+    "info": 389,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 6,
-    "attempt_outliers": 299,
+    "attempt_outliers": 338,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -1033,16 +1033,6 @@
     {
       "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
       "position": "Butterfly Hook Control",
-      "role": "bottom[nogi]",
-      "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'Collar Drag from Open Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Collar Drag from Open Guard",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
-      "position": "Butterfly Hook Control",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'John Wayne Sweep' has only 2% attempt probability",
@@ -1078,6 +1068,46 @@
       "message": "bottom[nogi]: 'Omoplata from Butterfly Guard' has only 1% attempt probability",
       "severity": "info",
       "transition": "Omoplata from Butterfly Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Butterfly Guard.json",
+      "position": "Butterfly Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Waiter Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Waiter Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Butterfly Guard.json",
+      "position": "Butterfly Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Waiter Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Waiter Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Clinch.json",
+      "position": "Clinch",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Double Leg Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Double Leg Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Clinch.json",
+      "position": "Clinch",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Double Leg Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Double Leg Entry",
       "current": 1
     },
     {
@@ -1421,6 +1451,66 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: '100% Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "100% Sweep",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: '100% Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "100% Sweep",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Balloon Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Balloon Sweep",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Balloon Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Balloon Sweep",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Stack Defense' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Stack Defense",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Stack Defense' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Stack Defense",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Collar Sleeve Guard.json",
       "position": "Collar Sleeve Guard",
       "role": "bottom[nogi]",
@@ -1428,6 +1518,26 @@
       "message": "bottom[nogi]: 'Collar Sleeve to Spider Guard' has only 1% attempt probability",
       "severity": "info",
       "transition": "Collar Sleeve to Spider Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Combat Base.json",
+      "position": "Combat Base",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Smash Pass' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Smash Pass",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Combat Base.json",
+      "position": "Combat Base",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Smash Pass' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Smash Pass",
       "current": 1
     },
     {
@@ -1491,6 +1601,16 @@
       "current": 1
     },
     {
+      "file": "content/Positions/De La Riva Guard.json",
+      "position": "De La Riva Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Bolo Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Bolo Sweep",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Double Sleeve Guard.json",
       "position": "Double Sleeve Guard",
       "role": "bottom[nogi]",
@@ -1528,6 +1648,16 @@
       "message": "bottom[nogi]: 'Balloon Sweep' has only 2% attempt probability",
       "severity": "info",
       "transition": "Balloon Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Front Headlock.json",
+      "position": "Front Headlock",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Anaconda Setup' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Anaconda Setup",
       "current": 2
     },
     {
@@ -1983,6 +2113,36 @@
     {
       "file": "content/Positions/Half Guard.json",
       "position": "Half Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Half Guard to Leg Weave' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Half Guard to Leg Weave",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "position": "Half Guard",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'X Pass' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "X Pass",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "position": "Half Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'X Pass' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "X Pass",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "position": "Half Guard",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'Knee Torque Sweep' has only 1% attempt probability",
@@ -2108,6 +2268,26 @@
       "message": "bottom[nogi]: 'Kneebar from Half Guard' has only 2% attempt probability",
       "severity": "info",
       "transition": "Kneebar from Half Guard",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "position": "Half Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Lumberjack Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Lumberjack Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "position": "Half Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Lumberjack Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Lumberjack Sweep",
       "current": 2
     },
     {
@@ -2241,6 +2421,26 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Mount/3-4 Mount.json",
+      "position": "3-4 Mount",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Mounted Triangle' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Mounted Triangle",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Mount/3-4 Mount.json",
+      "position": "3-4 Mount",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Mounted Triangle' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Mounted Triangle",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Mount/Mounted Crucifix.json",
       "position": "Mounted Crucifix",
       "role": "top[gi]",
@@ -2248,6 +2448,26 @@
       "message": "top[gi]: 'Neck Crank from Mounted Crucifix' has only 1% attempt probability",
       "severity": "info",
       "transition": "Neck Crank from Mounted Crucifix",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Mount.json",
+      "position": "Mount",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Gift Wrap to Technical Mount' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Gift Wrap to Technical Mount",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Mount.json",
+      "position": "Mount",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Gift Wrap to Technical Mount' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Gift Wrap to Technical Mount",
       "current": 1
     },
     {
@@ -2751,6 +2971,26 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Frame and Shrimp to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Frame and Shrimp to Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Frame and Shrimp to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Frame and Shrimp to Guard",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Spider Guard.json",
       "position": "Spider Guard",
       "role": "bottom[nogi]",
@@ -3171,6 +3411,26 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Outside Ashi Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Outside Ashi Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Outside Ashi Entry' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Outside Ashi Entry",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Standing Rear Clinch.json",
       "position": "Standing Rear Clinch",
       "role": "top[nogi]",
@@ -3255,7 +3515,57 @@
       "position": "Turtle",
       "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "top[gi]: 'Turtle to Truck Entry' has only 2% attempt probability",
+      "message": "top[gi]: 'Front Headlock to Anaconda' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Anaconda",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Front Headlock to Anaconda' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Anaconda",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Front Headlock to Darce' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Darce",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Front Headlock to Darce' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Darce",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Turtle to Truck Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Truck Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Turtle to Truck Entry' has only 2% attempt probability",
       "severity": "info",
       "transition": "Turtle to Truck Entry",
       "current": 2
@@ -3286,6 +3596,16 @@
       "role": "top[gi]",
       "type": "attempt_negligible",
       "message": "top[gi]: 'Turtle to Matrix' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Matrix",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Turtle to Matrix' has only 2% attempt probability",
       "severity": "info",
       "transition": "Turtle to Matrix",
       "current": 2
@@ -3389,6 +3709,76 @@
       "severity": "info",
       "transition": "Kiss of the Dragon",
       "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Truck Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Truck Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Truck Entry' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Truck Entry",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Turtle to Truck' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Truck",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Turtle to Truck' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Truck",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Granby Roll to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Granby Roll to Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Granby Roll to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Granby Roll to Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Technical Stand-up' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Technical Stand-up",
+      "current": 2
     },
     {
       "file": "content/Positions/Twister Control/Truck.json",

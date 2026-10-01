@@ -14,8 +14,10 @@ different chains, and nothing compares them:
      from wherever they land; no opponent seat; no origin filter; PageRank damping 0.85 towards
      uniform over every role-node with transitions; finishes and the chained hub cells "leak" and
      restart uniformly. It weights `gameScore` (the belt) and curriculum.
-  3. THE REACHABILITY WALK (regenerate_neural_data.frame_reachable). Not a chain — a support: role-
-     and origin-blind BFS from ROLL_SEEDS. It decides which states the app hides per ruleset.
+  3. THE REACHABILITY WALK (regenerate_neural_data.frame_reachable). Not a chain — a support: a BFS
+     from ROLL_SEEDS over the hands `solve_edge_values.build_hand` deals (role- and origin-filtered
+     since v1.210.0; role- and origin-blind before, which admitted Spider Guard and Double Sleeve
+     Guard in no-gi through a Tripod Sweep listing). It decides which states the app hides per ruleset.
 
 What this prints, per frame and initiative rule:
   * techniques: Spearman and total-variation distance between the score walk's weights and the

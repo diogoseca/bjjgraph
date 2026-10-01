@@ -10,7 +10,7 @@ import { journey } from "../dsl";
  *
  * Mechanics under test:
  *  · setting `recallInPlay` — LOCKED row in Settings → Flashcards until the WORN belt is black
- *    (v1.210.0, owner ruling 2026-09-30: the belt is earned in the Challenges — every unit of a
+ *    (v1.211.0, owner ruling 2026-09-30: the belt is earned in the Challenges — every unit of a
  *    belt proven promotes you — and a Game Knowledge band unlocks NOTHING); the badge
  *    `recall-in-play` mints on the `belt_reached` beat (`_noteBlackBelt`, fired at the promotion
  *    and post-grade while black-and-unminted) and the AUTO-FLIP lives inside the mint loop ONLY —
@@ -53,7 +53,7 @@ test("locked below black; a black SCORE unlocks nothing; proving every unit to b
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();
-  // the one-time grandfather (v1.210.0) reads the score ONCE: let it run on this fresh profile
+  // the one-time grandfather (v1.211.0) reads the score ONCE: let it run on this fresh profile
   // before the score is staged, or the staged band would legitimately become the belt
   await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.belts && a.belts.gf); })).toBe(true);
 
@@ -64,7 +64,7 @@ test("locked below black; a black SCORE unlocks nothing; proving every unit to b
   await expect(page.locator("[data-recall-locked]")).toContainText("Unlocks at black belt");
   await page.evaluate(() => (window as any).__neural.closeModal());
 
-  // A BLACK GAME KNOWLEDGE SCORE ON A WHITE BELT (v1.210.0): the score is a percentage and
+  // A BLACK GAME KNOWLEDGE SCORE ON A WHITE BELT (v1.211.0): the score is a percentage and
   // decides no belt, so nothing unlocks — not the badge, not the row, not recall in play.
   const band = await stageEverything(page, 4);
   expect(band, "non-trivial: staging everything to 4 reaches the black band").toBe("black");

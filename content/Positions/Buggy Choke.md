@@ -221,19 +221,21 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 ### Available Transitions
 
 
-- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (23% of attempts)
+- **[[Transitions/Sit to Half Guard/Attacker|Sit to Half Guard]]** (22% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (14% of attempts)
 
 - **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (18% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (17% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (12% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (12% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (11% of attempts)
 
-- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (10% of attempts)
+- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (9% of attempts)
+
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (6% of attempts)
 
 
 ### Common Mistakes

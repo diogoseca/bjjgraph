@@ -157,18 +157,22 @@ test("both roles carry occupancy — the top-member collapse must never come bac
 //   ONE-SIDED (scaling REF.v0 by 0.99 kills the no-gi row; +0.5% / +2% survive).
 //
 // The TOLERANCES are per game because the rounding lands differently in each, and every figure
-// below is the one MEASURED at v1.209.0 so a drift is visible against it:
+// below is the one MEASURED at v1.210.0 (origin coherence) so a drift is visible against it:
 //   game            V0 gap   top-40 shared   within 5%   worst deck           L1 gap
-//   nogi            2.45%    40/40           87.0%       23.6%                1.47%
-//   gi              0.68%    39/40           88.7%       29.0% Spine Lock/Truck 1.44%
-//   nogi/standing   1.05%    39/40           65.1%       24.6%                2.19%
-//   gi/standing     0.49%    40/40           75.2%       23.6%                1.67%
-// A 39/40 is a boundary swap, not a disagreement: in gi the swap is ranks 40/41 whose reference
-// gradients differ by 0.9%. A standing start concentrates all the mass on two hands (standing has
+//   nogi            2.07%    39/40           85.5%       23.4%                1.60%
+//   gi              1.84%    40/40           87.8%       29.0% Spine Lock/Truck 1.50%
+//   nogi/standing   0.87%    39/40           65.4%       24.7%                2.31%
+//   gi/standing     1.13%    39/40           75.2%       26.5%                1.79%
+// (v1.209.0, before the orphaned techniques were listed at their origins: nogi 2.45% / 40/40 / 87.0% /
+// 23.6% / 1.47%; gi 0.68% / 39/40 / 88.7% / 29.0% / 1.44%; nogi/standing 1.05% / 39/40 / 65.1% / 24.6%
+// / 2.19%; gi/standing 0.49% / 40/40 / 75.2% / 23.6% / 1.67%.)
+// A 39/40 is a boundary swap, not a disagreement: in no-gi it is `Arm Extraction|Attacker`, newly
+// listed at side-control/bottom, at py 40 against js 42, its two gradients within 3%. A standing start concentrates all the mass on two hands (standing has
 // the largest, 34 cards, many at 1-2%), so whole-percent rounding moves individual magnitudes more
-// — the aggregate L1 gap stays under 3% in every game, and the ORDER at the top is exact in all four.
+// — the aggregate L1 gap stays under 3% in every game, and the ORDER at the top is exact in all four,
+// up to one adjacent near-tie in no-gi (see the top-10 rule in the test).
 const GAMES = {
-  "nogi":          { frame: "nogi", start: null,     top40: 40, band: 0.85, worst: 0.30 },
+  "nogi":          { frame: "nogi", start: null,     top40: 39, band: 0.85, worst: 0.30 },
   "gi":            { frame: "gi",   start: null,     top40: 39, band: 0.85, worst: 0.35 },
   "nogi/standing": { frame: "nogi", start: STANDING, top40: 38, band: 0.60, worst: 0.30 },
   "gi/standing":   { frame: "gi",   start: STANDING, top40: 39, band: 0.70, worst: 0.30 },
@@ -195,7 +199,21 @@ for (const key of Object.keys(GAMES)) {
     // the order at the top
     const jsOrder = [...k.deckKeys].sort((a, b) => run.grad[k.deckIdx.get(b)] - run.grad[k.deckIdx.get(a)]);
     const pyOrder = [...ref.decks].sort((a, b) => ref.py.get(b) - ref.py.get(a));
-    assert.deepEqual(jsOrder.slice(0, 10), pyOrder.slice(0, 10), "top-10 order");
+    // The ORDER at the top is exact up to an ADJACENT near-tie the wire's whole-percent shares can flip,
+    // the same reasoning as the top-40 boundary swap above. Measured at v1.210.0 (origin coherence):
+    // in no-gi `Mount|Top` and `Closed Guard|Bottom` are ranks 5/6 with reference gradients 0.110307 vs
+    // 0.110738 (0.39% apart), and the wire puts them 0.02% apart the other way round. A swap is
+    // allowed only between neighbours within 1% in the reference; anything else is a disagreement.
+    // MUTATION: `Back Control|Top`'s reference gradient x0.8 drops it below `Closed Guard|Top` (4.7% apart):
+    // red, "not a near-tie swap". Non-kill, recorded: x0.9 on `Half Guard|Bottom` crosses no neighbour.
+    assert.deepEqual([...jsOrder.slice(0, 10)].sort(), [...pyOrder.slice(0, 10)].sort(), "top-10 set");
+    for (let r = 0; r < 10; r++) {
+      if (jsOrder[r] === pyOrder[r]) continue;
+      const near = (a, b) => Math.abs(ref.py.get(a) - ref.py.get(b)) / Math.abs(ref.py.get(b)) <= 0.01;
+      const swapped = (jsOrder[r] === pyOrder[r + 1] && jsOrder[r + 1] === pyOrder[r] && near(pyOrder[r], pyOrder[r + 1]))
+        || (r > 0 && jsOrder[r] === pyOrder[r - 1] && jsOrder[r - 1] === pyOrder[r] && near(pyOrder[r], pyOrder[r - 1]));
+      assert.ok(swapped, `top-10 order differs at rank ${r + 1}: js ${jsOrder[r]} vs py ${pyOrder[r]}, not a near-tie swap`);
+    }
     const shared = jsOrder.slice(0, 40).filter((d) => pyOrder.slice(0, 40).includes(d)).length;
     assert.ok(shared >= g.top40, `top-40 sets share ${shared} (floor ${g.top40})`);
     // and the top is positions, which is the finding gameScore cannot see (it weights them 0)
@@ -252,7 +270,10 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   assert.deepEqual(jsNeg, pyNeg, "and they are the same 24");
   const gi = SOLVED.gi;
   const giNeg = gi.k.deckKeys.filter((d, i) => gi.run.grad[i] < -1e-12);
-  assert.equal(giNeg.length, 21, "21 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
+  // 22 since v1.210.0 (origin coherence): `De La Riva to Inverted Guard|Attacker` joined once 50-50 Entry
+  // was listed at inverted-guard/bottom, its own origin, and inverted guard stopped being worth more than
+  // the DLR it is entered from. Nothing left the set, and no-gi stayed at 24.
+  assert.equal(giNeg.length, 22, "22 decks backfire at lam 2 on a blank gi profile"); // census:negDecksGi
   // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
   assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
   assert.ok(jsNeg.includes("New York Control to Invisible Collar|Attacker"));
@@ -605,24 +626,24 @@ test("7b: changing the start setting re-ranks the same player, and only Standing
   assert.deepEqual(keys(), anywhere, "and switching back is a pure function of the setting");
 });
 
-test("7c: from standing, what the game cannot reach from the feet scores exactly zero", () => {
-  // Spider Guard and Double Sleeve Guard are in the no-gi kernel (the walk admits them through a
-  // teleporting listing, docs/GraphSemantics.md §10.6) but no no-gi roll that opens standing ever
-  // enters them. From a uniform start they score, because that start DROPS a player there; from
-  // standing they must score nothing at all — and in gi, where sleeve grips reach them, they score.
+test("7c: from standing, nothing the no-gi kernel holds is unreachable — the walk deals by origin", () => {
+  // Until v1.210.0 Spider Guard and Double Sleeve Guard sat IN the no-gi kernel at zero from standing: the
+  // reachability walk admitted them through a teleporting Tripod Sweep listing (docs/GraphSemantics.md
+  // §10.6) that no roll dealt. The walk now deals what `build_hand` deals, so the mask removes them
+  // from no-gi entirely and the no-gi kernel holds exactly the states a roll from the feet can reach.
+  // Two changes produce this together: the walk now deals by origin, AND the content nulled Tripod Sweep's
+  // no-gi cells. So reverting the walk alone leaves this green (measured: an origin-blind walk reaches the
+  // same no-gi states on today's content). The walk is pinned by `validate:availability`'s synthetic
+  // origin-walk fixture instead; this pins the joint outcome. MUTANT: restoring Tripod Sweep's no-gi cell
+  // at open-guard/bottom AND an origin-blind walk puts both guards back here, at zero from standing.
   const ns = SOLVED["nogi/standing"], nu = SOLVED.nogi, gs = SOLVED["gi/standing"];
   const g = (s, d) => s.run.grad[s.k.deckIdx.get(d)];
-  const zeroS = ns.k.deckKeys.filter((d) => g(ns, d) === 0);
-  assert.ok(zeroS.includes("Spider Guard|Bottom") && zeroS.includes("Double Sleeve Guard|Top"),
-    `zero from standing: ${zeroS.slice(0, 6).join(", ")}`);
-  assert.ok(zeroS.length >= 10, `only ${zeroS.length} decks unreachable from standing`);
-  for (const d of zeroS) assert.ok(g(nu, d) > 0, `${d} scores from the uniform start`);
-  // ...and that is occupancy, not a coincidence: no ply of the standing roll ever stands there
-  for (const d of zeroS.filter((x) => x.endsWith("|Top") || x.endsWith("|Bottom"))) {
-    const st = ns.k.states[ns.k.posDeck.indexOf(ns.k.deckIdx.get(d))];
-    const i = ns.k.stateIdx.get(st);
-    assert.ok(ns.run.rhoV.every((row) => row[i] === 0), `${st} is never occupied from standing`);
+  for (const d of ["Spider Guard|Bottom", "Spider Guard|Top", "Double Sleeve Guard|Top", "Double Sleeve Guard|Bottom"]) {
+    assert.ok(!ns.k.deckKeys.includes(d) && !nu.k.deckKeys.includes(d), `${d} is masked out of no-gi`);
   }
+  const zeroS = ns.k.deckKeys.filter((d) => g(ns, d) === 0);
+  assert.equal(zeroS.length, 0, `decks the no-gi kernel holds but a standing roll never reaches: ${zeroS.slice(0, 6).join(", ")}`);
+  assert.ok(ns.k.deckKeys.length >= 1000, `no-gi coverage: ${ns.k.deckKeys.length} decks`);
   assert.ok(g(gs, "Spider Guard|Bottom") > 0, "in gi the feet do reach spider guard");
   assert.equal(gs.k.deckKeys.filter((d) => g(gs, d) === 0).length, 0, "and nothing is unreachable from standing in gi");
 });

@@ -97,7 +97,7 @@ const knowledgeProfile = stripExports("knowledge-profile.src.js");
 const gameplanDebt = stripExports("gameplan-debt.src.js");
 const progressOwner = stripExports("progress-owner.src.js");
 const systemsDemand = stripExports("systems-demand.src.js");
-// belt.src.js (v1.210.0): the ONE definition of the belt a player wears and of its cross-device
+// belt.src.js (v1.211.0): the ONE definition of the belt a player wears and of its cross-device
 // merge. A real module for the codec's reason: the unit suite and the digest Worker (which names
 // the next belt in the training-day email) import the identical source.
 const beltRule = stripExports("belt.src.js");

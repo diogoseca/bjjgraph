@@ -496,9 +496,9 @@
  },
  "Positions/Mount.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount",
-  "content_floor": 13998,
-  "content_hash": "3136ea46dd22c0f0de25a6f1303e72787458c9be1b5c1eb041d8d20cee9c7170",
-  "content_len": 16469,
+  "content_floor": 13412,
+  "content_hash": "87e79185414169c8ec3e981a6699d2ee442a5662d757f2345a6a9a58fc23945b",
+  "content_len": 15779,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount\", \"name\": \"Mount\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"Mount is the dominant top position where you straddle a supine opponent's midsection, worth 4 IBJJF points and prized as jiu-jitsu's best balance of stifling control and high-percentage submission access.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Positions/\", \"name\": \"Mount\"}",
@@ -522,6 +522,7 @@
    "#top-vs-bottom",
    "../../Positions/Back-Control",
    "../../Positions/Closed-Guard",
+   "../../Positions/Gift-Wrap/Attacker",
    "../../Positions/Half-Guard",
    "../../Positions/Knee-on-Belly",
    "../../Positions/Mount",
@@ -702,13 +703,13 @@
  },
  "Positions/Mount/Top.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Top",
-  "content_floor": 12391,
-  "content_hash": "bbc25bbc39aaa32369fd95b7741849386945d7bb700b6749aa5e2812cd11d614",
-  "content_len": 14578,
+  "content_floor": 11781,
+  "content_hash": "6540508f9c08c7ae44e1e4d6028a9b02cca97e258ddfa8e6a9ffb940f4a1f3ba",
+  "content_len": 13861,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Top\", \"name\": \"Mount Top\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Vulnerable to explosive upa or bridge escapes resulting in complete position reversal to closed guard The correct approach is: Maintain hips at solar plexus level with wide base until deliberately advancing to high mount with grips established\"}, \"name\": \"What happens if you sitting too high on opponent's chest without establishing proper base control first?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Creates space for opponent's hip escape and knee insertion leading to guard recovery The correct approach is: Keep hands close to opponent's body using tight grips and maintaining chest-to-chest pressure throughout\"}, \"name\": \"What happens if you posting hands too far from opponent's body during submission transitions?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent escapes mount during overcommitted finish attempt, returning to neutral or guard position The correct approach is: Establish dominant grips and verify control before progressing methodically to submission finish\"}, \"name\": \"What happens if you committing to submissions prematurely without establishing dominant grip control?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent builds progressively stronger frames and eventually creates enough space for guard recovery The correct approach is: Immediately advance to high mount or attack the framing arms when frames are established\"}, \"name\": \"What happens if you allowing opponent to establish frames without immediately transitioning or attacking?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Gives opponent time to develop effective defensive strategy and build frames for escape The correct approach is: Constantly threaten submissions or advance position to maintain offensive pressure and defensive uncertainty\"}, \"name\": \"What happens if you remaining static in low mount without threatening submissions or advancing position?\"}]}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide to attacking and submitting from Mount position in BJJ.\", \"name\": \"How to Attack from Mount Top\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Execute Mount to Armbar\", \"position\": 1, \"text\": \"From this position, attempt Mount to Armbar. This technique is attempted in 7% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Cross Collar Choke from Mount\", \"position\": 2, \"text\": \"From this position, attempt Cross Collar Choke from Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Gift Wrap to Technical Mount\", \"position\": 3, \"text\": \"From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 9% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute S-Mount Transition\", \"position\": 4, \"text\": \"From this position, attempt S-Mount Transition. This technique is attempted in 6% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Mounted Triangle\", \"position\": 5, \"text\": \"From this position, attempt Mounted Triangle. This technique is attempted in 4% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Consolidate Mount\", \"position\": 6, \"text\": \"From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.\"}], \"totalTime\": \"PT2M\"}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide to attacking and submitting from Mount position in BJJ.\", \"name\": \"How to Attack from Mount Top\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Execute Mount to Armbar\", \"position\": 1, \"text\": \"From this position, attempt Mount to Armbar. This technique is attempted in 7% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Cross Collar Choke from Mount\", \"position\": 2, \"text\": \"From this position, attempt Cross Collar Choke from Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Gift Wrap to Technical Mount\", \"position\": 3, \"text\": \"From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 1% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute S-Mount Transition\", \"position\": 4, \"text\": \"From this position, attempt S-Mount Transition. This technique is attempted in 6% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Mounted Triangle\", \"position\": 5, \"text\": \"From this position, attempt Mounted Triangle. This technique is attempted in 4% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Consolidate Mount\", \"position\": 6, \"text\": \"From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.\"}], \"totalTime\": \"PT2M\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Roger Gracie\"}, \"description\": \"Mount (Top) film study: Cross Collar Chokes from Mount, taught by Roger Gracie.\", \"duration\": \"PT80S\", \"embedUrl\": \"https://www.youtube.com/embed/dfP-Ov8FBUo\", \"name\": \"Cross Collar Chokes from Mount\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=dfP-Ov8FBUo\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Formidable Combat\"}, \"description\": \"Mount (Top) film study: Full Mount Top Control Fundamentals, taught by Formidable Combat.\", \"duration\": \"PT106S\", \"embedUrl\": \"https://www.youtube.com/embed/SGZ5wD3z73Q\", \"name\": \"Full Mount Top Control Fundamentals\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=SGZ5wD3z73Q\"}], \"name\": \"Mount (Top) — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount Top\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
@@ -1730,13 +1731,13 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "6a18ddbbf557d30abd417f68f8786c0f5a7cbc29",
-   "capture_id": "103771ffe764422793d9de829368f608",
+   "capture_git_head": "75255f1ef37a6db8eb60abb149d3d6dde8757cc3",
+   "capture_id": "62a4172f80884d8bb6c2056f36b1d7c4",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "9eb1a190410375b32ec0c02b001fc6374dabea89",
+   "content_tree": "03d93dacb3885a7b086645fd5c03e151d26b4fdb",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1760,12 +1761,12 @@
     }
    },
    "output_identity": {
-    "files": 15839,
-    "sha256": "a7bd5a792cfc748bc21e12805c477d45b99c9602b1e8f1bf97fafcf9e21c8a57"
+    "files": 15995,
+    "sha256": "a5f9cdfea71458a900cadbd50f2e4e34f5dbd2db85d94c87f743301a24b61f33"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-microing-related-6a18ddbbf"
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-2/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-75255f1ef/pr-origin-coherence-75255f1ef"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -1842,7 +1843,7 @@
  "tags/beginner.html": {
   "canonical": "https://bjjgraph.org/tags/beginner",
   "content_floor": 199,
-  "content_hash": "e22cd109b724ef36e9898b336097eaf5e6c63f8f69c0f0c4d12612ea17b1f611",
+  "content_hash": "5c7ff939a8f93bf6b5c9d4f7a70aac6681dac04b2b8815d0dd2e0491a66c8710",
   "content_len": 235,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
@@ -1868,9 +1869,9 @@
  },
  "tags/index.html": {
   "canonical": "https://bjjgraph.org/tags/",
-  "content_floor": 8840,
-  "content_hash": "3c8ed754a2b853ef599624311582509d7931d9d50c6712db3951fc3651189de4",
-  "content_len": 10400,
+  "content_floor": 8835,
+  "content_hash": "e351f2116cc523d7b5c5a37a2ddc7a56e241e7ee2bea0d329322e93f6fb32a52",
+  "content_len": 10395,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],

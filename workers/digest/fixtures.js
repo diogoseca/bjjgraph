@@ -88,7 +88,7 @@ export const FIXTURES = [
   {
     id: "no-belt-line",
     label: "No belt line",
-    note: "The day was written by an app that predates the belt line (v1.210.0), or the line was malformed and refused: the email prints NO belt line — never one guessed from the score, which names no belt.",
+    note: "The day was written by an app that predates the belt line (v1.211.0), or the line was malformed and refused: the email prints NO belt line — never one guessed from the score, which names no belt.",
     digest: {
       count: 18, techniques: SOME.slice(0, 3), score: 39.0, delta: 0,
       belt: null, streak: 3,
