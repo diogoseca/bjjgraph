@@ -351,7 +351,9 @@ def check_absence_hands(graph: dict, absent_at: dict) -> list:
     dealt card is absent in a frame would hand the state to the origin-relaxed fallback, which deals
     cards with no `ord` (CLAUDE.md 6.6) and ignores `absentAt`, so it could re-deal the absent move.
     For every (listing, frame) named, `build_hand` (which drops a null attempt exactly as the dealers
-    skip an absence) must still deal its main pass there. Returns the violations; the caller raises."""
+    skip an absence) must still deal its main pass there. Returns (checked, violations): the number
+    of (listing, frame) main passes examined, and one message per emptied one; the caller prints the
+    count and raises on any violation."""
     from solve_edge_values import Opts, build_hand   # the game's own dealing rule, not a copy
     tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
             for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
