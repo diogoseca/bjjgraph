@@ -1684,6 +1684,14 @@ class Component extends DCLogic {
     if (!isFinite(minX)) { minX = -500; maxX = 500; minY = -500; maxY = 500; }
     let r = 0; for (const n of nodes) { if (!isFinite(n.x) || !isFinite(n.y)) continue; r = Math.max(r, Math.hypot(n.x - cx, n.y - cy)); }
 
+    // A NODE ID IS NOT ALWAYS ITS PAGE'S PATH (v1.212.6, OCURL1). Quartz writes "%" as "-percent"
+    // (and whitespace, "&", "?", "#" its own way: `_pageSlug`), so `Transitions/100%-Sweep` is
+    // built at /Transitions/100-percent-Sweep. Index the page spelling too, so an arrival on the
+    // real page, a Back/Forward pop and every `_idIndex` reader resolve it. 1 of 1,448 ids today.
+    for (let i = 0; i < nodes.length; i++) {
+      const slug = this._pageSlug(nodes[i].id);
+      if (slug !== nodes[i].id && !idIndex.has(slug)) idIndex.set(slug, i);
+    }
     this.nodes = nodes; this.links = links; this.adj = adj; this._idIndex = idIndex;
     // AMBIGUITY SET (v1.103.0) — how many nodes share each short name. "Triangle" is not a
     // technique here, it is several: the owner was offered "Triangle" from Harness, opened it, and
@@ -10438,7 +10446,7 @@ class Component extends DCLogic {
     section.innerHTML = "<h3>" + (alternatives ? "Also consider" : "Related guides and principles") + "</h3>";
     for (const ref of references) {
       let u, id;
-      try { u = new URL(ref.url, location.origin); id = decodeURIComponent(u.pathname).replace(/^\/|\/$/g, ""); } catch (e) { continue; }
+      try { u = new URL(ref.url, location.origin); id = this._decodePath(u.pathname); } catch (e) { continue; }
       if (!["https:", "http:"].includes(u.protocol) || !/^(Systems|Principles|Learning)\//i.test(id)) continue;
       if (u.origin !== location.origin && u.hostname !== "bjjgraph.org") continue;
       const a = document.createElement("a"); a.href = "/" + id; a.textContent = ref.name;
@@ -11477,7 +11485,34 @@ class Component extends DCLogic {
   // the address follows the roll without making Back walk every automatic move.
   _nodeUrlPath(idx) {
     const n = this.nodes && this.nodes[idx];
-    return n && n.id ? "/" + n.id : null;
+    return n && n.id ? "/" + this._pageSlug(n.id) : null;
+  }
+  /** The PATH Quartz builds a node's page at: its id through Quartz's own `sluggify`
+   *  (source/quartz/util/path.ts), segment by segment. Identity on 1,447 of 1,448 ids today; the
+   *  exception is `Transitions/100%-Sweep`, built at /Transitions/100-percent-Sweep. Keep the
+   *  replacements in step with path.ts: a drift is a URL that 404s on reload. */
+  _pageSlug(id) {
+    return String(id).split("/").map((seg) => seg
+      .replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "")).join("/");
+  }
+  /** A URL path -> the id spelling it names, NEVER throwing (v1.212.6, OCURL1). The one decoder for
+   *  every path reader. A stray "%" that is not a valid escape is read literally. The failure is a
+   *  counted `url_fault` beat, not a swallowed exception. */
+  _decodePath(path) {
+    const raw = String(path || "").replace(/^\/+/, "").replace(/\/+$/, "");
+    try { return decodeURIComponent(raw); }
+    catch (e) {
+      this._urlFault("decode", raw, e);
+      try { return decodeURIComponent(raw.replace(/%(?![0-9A-Fa-f]{2})/g, "%25")); } catch (e2) { return raw; }
+    }
+  }
+  /** URL SYNC NEVER FAILS SILENTLY AGAIN (v1.212.6, OCURL1). `_pushUrl` used to swallow every
+   *  exception as "history unavailable". The one that happened was decodeURI throwing on the raw "%"
+   *  this app had itself pushed for 100% Sweep. After visiting that node every later push threw, so
+   *  the address bar froze until a reload, with no trace. Each fault is now a named, COUNTED beat. */
+  _urlFault(kind, path, e) {
+    this._urlFaults = (this._urlFaults || 0) + 1;
+    this.fx("url_fault", { kind: kind, path: String(path || "").slice(0, 200), error: (e && e.name) || String(e), n: this._urlFaults });
   }
   _syncUrl(idx, replace = false) {
     const path = this._nodeUrlPath(idx); if (!path) return;
@@ -11486,15 +11521,17 @@ class Component extends DCLogic {
   _pushUrl(path, state, replace = false) {
     try {
       if (/^\/l\//.test(location.pathname)) return;
-      if (decodeURI(location.pathname) === path) return;
+      // compare DECODED spellings through the non-throwing decoder: a stray "%" in the current
+      // address used to throw right here, on every push, for the rest of the session
+      if (this._decodePath(location.pathname) === this._decodePath(path)) return;
       history[replace ? "replaceState" : "pushState"](
-        { ...history.state, ...state }, "", path + location.search);
-    } catch (e) { /* history unavailable (sandboxed iframe) */ }
+        { ...history.state, ...state }, "", encodeURI(path) + location.search);
+    } catch (e) { this._urlFault("push", path, e); }
   }
   /** the node a path names, or -1. Used by boot-seeding and by Back/Forward. */
   _nodeForPath(path) {
     if (!path || !this._idIndex) return -1;
-    const id = decodeURIComponent(String(path).replace(/^\/+/, "").replace(/\/+$/, ""));
+    const id = this._decodePath(path);
     if (!id) return -1;
     const raw = this._idIndex.get(id);
     const i = raw == null ? raw : this.canonicalState(raw);
@@ -11516,7 +11553,7 @@ class Component extends DCLogic {
   _nodeAndRoleForPath(path) {
     const NONE = { idx: -1, role: null };
     if (!this._idIndex) return NONE;
-    const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
+    const id = this._decodePath(path);
     if (!id) return NONE;                       // "/" is the front door — never seeded
     let role = null, persp = null;
     let i = this._idIndex.get(id);
@@ -11620,7 +11657,7 @@ class Component extends DCLogic {
    * `false` returned here BEFORE this promise can resolve, which is why the callback sets it.
    */
   _seedPageFromUrl(path) {
-    const id = decodeURIComponent(String(path || "").replace(/^\/+/, "").replace(/\/+$/, ""));
+    const id = this._decodePath(path);
     // ── A CATEGORY HUB PAGE OPENS ITS EXPLORE SECTION (v1.169.0) ─────────────────────────────
     // /Positions, /Transitions, /Submissions, /Systems, /Principles and /Learning are built hub
     // pages and none is a graph node, so all six used to fall straight through to the front-door
