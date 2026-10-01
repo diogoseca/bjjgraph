@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+const receipt = JSON.parse(readFileSync(new URL('./artifacts/mdp_choice_ipc.json', import.meta.url)));
+import * as Choice from '../neural/src/choice-value.src.js';
+test('captured real IPC response is accepted by current Choice consumer', () => {
+  assert.equal(receipt.status, 'PASS');
+  const request = receipt.request, response = receipt.result;
+  const consumer = Choice.ngChoiceValueController({ isCurrent: () => true });
+  const token = consumer.begin(request, { handId: 'actual-ipc-hand' });
+  assert.ok(token); assert.equal(consumer.accept(token, response), true);
+  const snapshot = consumer.snapshot();
+  assert.equal(snapshot.status, 'bounded'); assert.equal(snapshot.actions.length, 8);
+  assert.deepEqual(snapshot.actions.map(a => a.actionId), request.requestedActionIds);
+  assert.equal(snapshot.quality.numericalStatus, 'certified');
+  const suggested = snapshot.actions.map(a => Choice.ngChoiceValueView(a, snapshot)).filter(v => v.recommended);
+  assert.equal(suggested.length, 1); assert.equal(suggested[0].recommendationLabel, 'Suggested');
+  assert.ok(suggested[0].notes.includes('Loss and no-result tie-breaks are not verified.'));
+  consumer.destroy();
+});

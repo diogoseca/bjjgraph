@@ -185,7 +185,7 @@ test("prod-path rails exist: sound.destroy, save flush, tracked MC-advance timer
     const a = (window as any).__neural
     a.rec["probe|Top"] = 7
     a._flushSave()
-    return JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}").rec?.["probe|Top"]
+    return JSON.parse(window.__ngGuestProgressRaw() || "{}").rec?.["probe|Top"]
   })
   expect(persisted).toBe(7)
 })

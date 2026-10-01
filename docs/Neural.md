@@ -32,8 +32,8 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `curriculum.json` | boot | `scoreWeightsByOrd` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
-| `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
-| `concepts.json` | first read | the Principles + Learning index. Same posture as `systems.json` |
+| `systems-index.json` | first read | the Systems list, then a system's record (`content/system-records/<sha>.json`); `systems.json` is build-internal |
+| `concepts.json` | first read | the Principles + Learning index. Same posture as the Systems list |
 | `app/reference.css` | first reference read | shared Systems and concept reference-page styles; excluded from the game boot |
 | `aliases.json` | Explore/search intent | exact site IDs, own aliases and attributed family aliases; versioned URL, shared request and bounded retries |
 
@@ -122,9 +122,7 @@ stage 2, recall at or above it, whatever the belt. `expandOption` pauses motion 
 landing question, so the JIT has no clock to price. The black-belt badge
 still force-enables the toggle early. **The White Challenges cue card is retired** (owner) — the
 challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
-remover. **EDGE is taught in two quiet places**: a legend row ("+7 · Tilt toward winning", full
-sentence on hover) and a one-line caption under the option-detail sheet's big number — both
-carrying the by-the-book-opponent caveat canon requires.
+remover. **Win chance explains itself** in its tooltip and in Inspect (§4).
 
 **Clicking (or arriving on) a technique NAVIGATES to it** (v1.132.0, owner: "when you click on a
 transition or on a submission, you navigate to it. The URL changes to it, and the landcard is
@@ -220,7 +218,7 @@ journeys grade format-agnostically through the DSL's `jitGrade()`.
 Clicking an own option or pressing its plain digit (1–9) commits it once. The focusable
 **Inspect** button and **Shift+1–9** open its existing detail sheet without committing;
 shifted keys use their physical Digit code so keyboard layouts do not lose inspection.
-Enter/X still executes from that sheet. Threats and escape cards retain their preview route.
+Enter/X still executes from that sheet. Threats keep their preview route; escape cards have Inspect.
 Hidden hands, checkpoints, text entry and the visible quiz retain keyboard priority. Closing
 Inspect restores the pause state it found.
 
@@ -241,10 +239,9 @@ covered by `tests/roll_execution.test.mjs`; real input and geometry cases are co
 
 ### The option sheet preserves the inspected card's anatomy
 
-The sheet keeps the tray digit/category glyph, 10px category label and EDGE, with the
-technique's own 27px name and separate `from …` qualifier (`catGlyph`, `splitName`). EDGE's
-explanation is a `title` tooltip with the model-opponent caveat; the accessible name remains
-the technique name. The "on success, advances to" line appears only when `titleParts` is null:
+The sheet keeps the tray digit/category glyph and 10px category label, with the technique's
+own 27px name and separate `from …` qualifier (`catGlyph`, `splitName`), and carries the Win
+chance detail (§4); the accessible name remains the technique name. The "on success, advances to" line appears only when `titleParts` is null:
 `opt.res` is a deal-time first-neighbor heuristic, not an authoritative destination.
 
 The sheet is portalled to the root coaching plane at z:50. The landing card stays visible
@@ -303,14 +300,13 @@ Lose (red) right, mirroring `adv.cur`; category tracking is .05em so SUBMISSION 
 ### The hand
 
 `optionsFor` deals **every legal move** — origin-filtered and role-filtered, uncapped — ranked by
-EDGE. The order is **frozen at deal time**: `ord` and `ordOdds` are stamped once, and `_cmpDealt`
+EDGE, then sorted ONCE by Win chance (§4). The order is otherwise **frozen at deal time**: `ord` and `ordOdds` are stamped once, and `_cmpDealt`
 compares only stamped values (EDGE desc → odds desc → attempt% desc → name asc, unvalued last and
 never as 0). A just-in-time grade must move the printed numbers and must never re-sort a tray the
 player is already reaching into.
 
-Three marks, two channels: **shape** = category (circle position, triangle submission, diamond
-transition) · **colour** (glyph, clock bar, corner number) = EDGE · bottom-right = odds, which are
-an input to EDGE.
+Marks: **shape** = category (circle position, triangle submission, diamond transition) · Win
+chance · bottom-right = the immediate chance; a threat card's colour is your win chance.
 
 The clock times the QUESTION, never the hand (v1.133.0, owner: "pressure should not be on the
 choices … the choices are fun to click"). `decisionSec` (the "Answer time" slider, 5–15s, flat —
@@ -339,8 +335,7 @@ break, one failed SRS review, answer revealed — and the revealed buttons are i
 nothing. After ANY resolution — graded or
 expired — the buttons still TALK: a clicked wrong answer takes the red mark (the previous
 exploratory red lets go), the green never moves, and none of it emits a beat or touches a
-ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
-on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
+ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static — nothing on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
 The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
 the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
@@ -382,36 +377,31 @@ the stamp, and `clearOptions` drops the line only if the stamp still stands.
 
 ---
 
-## 4. EDGE
+## 4. Win chance — the number on every card (v1.207.0)
 
-**`EDGE = 100 × ( Q(s,a) − B(s) )`**, where `B(s) = Σ attempt%(a′)·Q(s,a′)`.
+**Win chance** is the chance you win this roll if you take this move and then keep choosing the
+best moves, against the game's own opponent, counting what you have studied: an MDP solved in a
+deferred worker (`game-model.worker.js`; mechanics under `static/neural/mdp/`) over the LIVE rules —
+seats, gi/no-gi, move counter, momentum, sharpness, question penalty, belt verdict, `opponentDefend`. Objective `max-win/min-loss/min-nontermination`. Practice moves odds and forward
+value through ONE module (`knowledge-profile.src.js`), so a correct answer moves the numbers.
 
-How much better or worse this move is than the **ordinary** choice from where you are standing,
-counting not just whether it works but where a miss leaves you, out to the end of a real roll.
-`0` is not "no value" — it is *the normal thing to do here*.
+- **Card**: Win chance plus the immediate chance (Move / Entry / Finish / Escape); the best card is
+  **Suggested** (certified) or **Recommended** (exact). Tooltip and Inspect decompose it exactly,
+  `P(lands)·[win | lands] + P(misses)·[win | misses]` from the engine's own rows (`ngMdpSplit`),
+  then submitted and no-tap; a split that does not reconcile is dropped.
+- **Order**: dealt by EDGE, **sorted once** by Win chance when every card has one unless touched
+  (`_handTouched`), never again; ties keep the dealt order.
+- **Threat cards**: YOUR win chance if the opponent tries that move now (threat probes,
+  `threatIds`; on your submission, their escapes), most dangerous first. Defending: V(s).
+- **Legend thermometer** = V(s), the root of the same solve (`_paintWinThermometer`), painted only
+  when every card has a value: there **best card = V(s)**. Between decisions it holds, dimmed.
+- **"—"** keeps the move playable: pending, failed, or over admission (40k states, 400k branches,
+  10 s build, 15 s solve). Values follow the first hand (5.6 s, measured desktop).
 
-Computed offline by `scripts/solve_edge_values.py` over a 272-state MDP read from `graph.json`
-(never from the wire): `V = p_win − λ·p_loss`, `Q(s,a) = p·A + (1−p)·B`. You argmax; the opponent
-samples the authored attempt distribution from the **paired role-node's** own hand. Actions are
-origin-filtered exactly as the app deals them, and when origin empties a hand the model relaxes
-origin, never role.
-
-The wire ships **the line, not the point**: `EDGE(p) = e0 + (p − p0)·c1 − Δ`, because `moveChance`
-moves with drilling, momentum, a wrong landing answer and the opponent's resistance. `p0` is the
-solve's own frame, never `calSuccess`. `Δ` is the per-state opponent handicap, re-evaluated live
-over the state's full authored action set — without it every card in a state can read negative,
-which is arithmetically impossible for a weighted mean. Δ is 0 at rest, so a card with no modifiers
-shows exactly the solver's published integer.
-
-Membership is the index list: `cal.ev[role] = [nodeIdxs, attemptPct, ...[e0,c1] per λ]`. A node
-absent from `nodeIdxs` renders **no number at all** — never a fabricated 0, because 0 is a real
-value here.
-
-**Loss aversion** is a user setting (Settings → Rolling): Sport (λ=1) · Slightly cautious (λ=2,
-default) · Self-defence (λ=4). λ=1 is the balanced point, so λ=2 is already twice as afraid of
-losing as it is keen to win. The rungs are built **from the wire** (`evLam`), so a wire with no
-table renders no row. The dial re-orders hands; it cannot change which moves you are offered, and
-it cannot move the clock. `_evLamIdx()` is read once per deal.
+EDGE (`cal.ev`) is no longer printed: it is the dealt order, FLOW's feature and the opponent's
+tie-break. The wire
+ships one block (`evLam = [2]`); **"Winning vs not losing" is retired** (owner) and the stored
+`lossAversion` key is never read (CLAUDE.md §6.6).
 
 **Where the roll starts** is a user setting (Settings → Rolling, above Uniform; v1.165.0, third
 pill unlocked v1.166.0): Standing · Anywhere (default — the historical draw: first-impression
@@ -434,15 +424,10 @@ live spot — the crack, its seat, and where the roll opens — from the same wi
 toast reads "Your weak spot: &lt;crack&gt;". Pinned by `e2e/journeys/start-from.spec.ts`
 (10 journeys, 8 `@curated`).
 
-**The honesty gap, still open.** Since v1.176.0 `opponentDefend` draws from `optionsFor` (role-
-and origin-filtered) but never reads `attemptProbability`: it picks by its own rule (finish odds
-from dominance, else the top 3 by landing value) and resists your odds (aiMod). From standing
-(no-gi, shipped rule) P(I finish) is 0.35 vs the corpus's 0.72. EDGE describes the corpus's
-opponent, not yours; copy explaining EDGE should say so. See `scripts/semantics/app_game.py`.
-
-Three choices that are choices, not facts: the zero point is the authored occurrence distribution;
-the chain performer is label-driven; the wire is the horizon mixture while published tables quote a
-single horizon.
+**Honesty.** EDGE describes the corpus's opponent: `opponentDefend` never reads
+`attemptProbability` (from standing, no-gi, P(I finish) 0.35 vs the corpus's 0.72;
+`scripts/semantics/app_game.py`). Win chance plays `opponentDefend` itself: a model probability
+under authored rates, not validated on real rolls.
 
 ---
 
@@ -610,7 +595,7 @@ families. Topic folds start collapsed, stay independent, and survive detail/back
 section folds for the session.
 
 **A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
-(`concepts.json`, `systems.json`) carries the card and the ids it lights; the body rides the
+(`concepts.json`, `systems-index.json`) carries the card and the ids it lights; the body rides the
 on-demand chunk a node dossier already uses, keyed `<Name>|Principle|Learning|System`, drawn by ONE
 renderer — `_bodyDocHTML`, with `NG_DOC_LABELS` naming each library's blocks (no label, not drawn).
 A cached `null` is a MISS here, never an answer: `_docBody` forces one re-read per key per session
@@ -690,6 +675,12 @@ Any real input ends it. It holds the clock on its own latch and never touches th
 ---
 
 ## 8. Progress
+
+**Progress is stored per owner** (v1.207.0): `bjj-neural-owner:<guest|account:id>:*`. A guest's
+first load adopts the old unowned `bjj-neural-progress` and its markers once, keeping the bytes; an
+account imports it only on request (`progress-owner.src.js`). **Local-only** (v1.207.8+): a signed-in
+device whose SDK cannot load, or cannot check its session, plays that account's local copy under a
+banner, never pulls or pushes, and on re-verify merges before a push (`_renderLocalOnly`).
 
 **Game Knowledge is the one skill score:** `score = Σ (weight_i × mastery_i)`, weights summing to 1.
 `weight_i` is how often a roll actually passes through technique *i* — the stationary distribution

@@ -1,48 +1,19 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"settings","B":"persistence-reload"} @invariant "After falling back from corrupt storage, a settings change (giMode/mcMode) writes into the healed profile and survives a preserveStorage reload: post-reload the setting reads the chosen value, _progressBlob().v===2, and JSON.parse of bjj-neural-progress succeeds — the quarantined poison never resurfaces through the settings write path." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"settings","B":"persistence-reload"} @invariant "Malformed unknown-owner legacy bytes remain unchanged; the first real action writes a separate owned guest profile whose evidence/settings survive reload without importing legacy data." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { CORRUPT_BLOB_RAW } from "./personas"
 
 /**
- * CORRUPT BLOB — SETTINGS PERSIST CLEANLY AFTER HEAL. Poisoned storage falls back to a fresh
- * profile, stays byte-identical through boot (no land/pick/drill — the settings path draws zero
- * RNG, so no rigs are needed), then a single settings write via set("mcMode","classic") replaces
- * the corruption with a valid v2 blob carrying settings.mcMode. That healed blob survives a
- * preserveStorage reload: the poison is quarantined, never resurrected through the settings path.
- *
- * WHY mcMode, NOT giMode (the brief lists both — they DIVERGE; only mcMode makes the invariant
- * true; source-verified against neural/src/app.src.jsx):
- *   - set("mcMode", v) [app.src.jsx:1133] stamps _settingsAt.mcMode = Date.now() AND calls
- *     _saveProgress() → a SYNCHRONOUS localStorage write under isTest() [app.src.jsx:1122]. This
- *     is the exact choke the real settings segBtn click uses (settingRow → this.set(key,v),
- *     app.src.jsx:2216). It replaces the poison with a valid v2 blob whose settings.mcMode is set.
- *   - setGiMode(m) [app.src.jsx:2634-2642] writes ONLY the SEPARATE key bjj_gi_mode (line 2637).
- *     It never calls set()/_saveProgress(), never touches bjj-neural-progress, never stamps
- *     _settingsAt — so it can NOT heal the progress blob through the settings write path.
- *
- * MECHANISM (fallback): _loadProgress [app.src.jsx:1089] resets rec/stage/units/belts/_settingsAt
- * to empty FIRST (line 1091, prep={} from the constructor); the JSON.parse throw is swallowed by
- * the try/catch (line 1107 "corrupt/absent — start fresh") → a guaranteed pristine profile, never
- * partial. The key is never removed at boot (no eager save), so the poison stays byte-identical
- * until the settings write replaces it.
- *
- * SEEDING RECIPE (the personas.ts docstring recipe is VACUOUS — use the one-shot form; identical
- * to the sibling grade-heal spec):
- *   1. throwaway j.boot("/") FIRST, so the DSL wipe/ngseed init scripts register AHEAD of ours;
- *   2. addInitScript writing CORRUPT_BLOB_RAW, guarded by a ONE-SHOT sessionStorage flag — init
- *      scripts accumulate across boots, so without the flag the preserveStorage boot would
- *      re-poison storage and fake a "resurrection". The DSL wipe clears the flag on WIPING boots
- *      (re-seeding there is correct) while a preserving boot keeps it (skip);
- *   3. boot again — order: dying-app pagehide _flushSave → DSL wipe → ngseed → our seed. The
- *      raw === CORRUPT_BLOB_RAW assert after boot 2 is the seed-order proof.
- *
- * Assertions are structural only (blob versions, _settingsAt timestamps, get() value, key counts,
- * JSON.parse success) — never card/answer text. No rig queues (zero RNG on the settings path).
+ * Unknown-owner legacy corruption stays byte-identical. Real settings writes a
+ * separate guest-owned v2 profile which survives preserveStorage reload. The
+ * one-shot raw seed runs after the DSL registration boot and is not replayed on
+ * preserving reloads. No implicit legacy import and no production auth bypass.
+ * Owned-cache corruption is a separate fail-closed recovery case.
  */
 
 const KEY = "bjj-neural-progress"
 
-test("corrupt blob: fresh fallback, then a settings write (mcMode) heals cleanly and survives a preserveStorage reload", async ({
+test("corrupt legacy bytes stay unchanged; guest settings persist separately across reload", async ({
   page,
 }) => {
   expect(() => JSON.parse(CORRUPT_BLOB_RAW), "persona premise: the corrupt blob must not parse").toThrow()
@@ -66,7 +37,7 @@ test("corrupt blob: fresh fallback, then a settings write (mcMode) heals cleanly
     } catch {}
   }, CORRUPT_BLOB_RAW)
 
-  // ── Boot 2: pagehide flush (dying boot-1 app) → wipe → our poison → app reads the poison ──
+  // ── Boot 2: pagehide flush (dying boot-1 app) → wipe → our poison → app preserves the unknown-owner poison ──
   await j.boot("/")
   const fallback = await page.evaluate((key) => {
     const a = (window as any).__neural
@@ -94,7 +65,7 @@ test("corrupt blob: fresh fallback, then a settings write (mcMode) heals cleanly
   const healed = await page.evaluate((key) => {
     const a = (window as any).__neural
     a._flushSave() // explicit pin (set()'s _saveProgress already wrote synchronously in test mode)
-    const raw = localStorage.getItem(key)
+    const raw = window.__ngGuestProgressRaw()
     let parsed: any = null
     let parseOk = false
     try {
@@ -112,7 +83,7 @@ test("corrupt blob: fresh fallback, then a settings write (mcMode) heals cleanly
     }
   }, KEY)
   expect(healed.settingsAtMc, "the settings write stamped _settingsAt.mcMode").toBeGreaterThan(0)
-  expect(healed.raw, "the poison was REPLACED by the settings write").not.toBe(CORRUPT_BLOB_RAW)
+  expect(healed.raw, "the settings write created separate owned guest progress").not.toBe(CORRUPT_BLOB_RAW)
   expect(healed.parseOk, "stored blob parses again after the settings write").toBe(true)
   expect(healed.v, "stored blob is v2").toBe(2)
   expect(healed.storedMcMode, "stored settings carry the chosen mcMode").toBe("classic")
@@ -124,7 +95,7 @@ test("corrupt blob: fresh fallback, then a settings write (mcMode) heals cleanly
 
   const post = await page.evaluate((key) => {
     const a = (window as any).__neural
-    const raw = localStorage.getItem(key)
+    const raw = window.__ngGuestProgressRaw()
     let parsed: any = null
     let parseOk = false
     try {
@@ -152,5 +123,7 @@ test("corrupt blob: fresh fallback, then a settings write (mcMode) heals cleanly
   expect(post.recKeys, "no recall progress leaked in through the settings heal (rec still 0)").toBe(0)
 
   // ── Crash guard: corrupt read, settings heal, and reload all ran with zero page errors ──
+  expect(await page.evaluate(() => localStorage.getItem("bjj-neural-progress")),
+    "unknown-owner legacy bytes remain preserved after guest writes and reload").toBe(CORRUPT_BLOB_RAW);
   expect(errors, "no pageerror across poison boot + settings heal + reload").toEqual([])
 })

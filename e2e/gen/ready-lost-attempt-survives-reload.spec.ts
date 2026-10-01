@@ -123,7 +123,7 @@ test("capstone-ready loss burns exactly one durable attempt: retry offer + attem
   // ── The debit is LIVE and already FLUSHED (endRound's loss arm called _flushSave) ──
   const sameLife = await page.evaluate((whiteId) => {
     const a = (window as any).__neural
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
     return {
       liveAttempts: ((a.belts || {}).attempts || {})[whiteId as string] || 0,
       liveWonKeys: Object.keys((a.belts || {}).won || {}),

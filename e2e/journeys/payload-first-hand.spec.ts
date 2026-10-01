@@ -80,7 +80,7 @@ const GATE = "e2e/journeys/payload-first-hand.spec.ts" // how this gate names it
 // minus the `_`-prefixed manifests, which the app cannot boot without and which are therefore
 // EAGER on both sides. Three spellings of one rule would be two too many; if a fourth chunk
 // directory is ever added it must be added in both places, and corpus_census will not catch it.
-const CHUNK_RE = /^\/static\/neural\/(?:flashcards|content|submission-details)\/(?!_)[^/]+$/
+const CHUNK_RE = /^\/static\/neural\/(?:flashcards|content|submission-details|mdp)\/(?!_)[^/]+$/
 const POSTSCRIPT = "/postscript.js"
 
 // Payloads that must NEVER be on the boot path again. The ceilings alone are not enough of a
@@ -95,10 +95,21 @@ const POSTSCRIPT = "/postscript.js"
 // ONE PATTERN PER LINE, for the same reason `check_payload_budget.py`'s DEFERRED tuple is:
 // the next branch that defers an artifact adds a line here rather than rewriting this one.
 const BANNED_ON_BOOT = [
+  /\/systems-index\.json(\?|$)/,
+  /\/content\/system-records\//,
   /\/flashcards\.json(\?|$)/,
   /\/technique-content\.js(\?|$)/,
   /\/reading\.css(\?|$)/,
   /\/reference\.css(\?|$)/,
+  /\/static\/neural\/mdp\//,
+  /\/game-values\.js(\?|$)/,
+  /\/game-model\.worker\.js(\?|$)/,
+  /\/game-worker-core-[0-9a-f]{64}\.js(\?|$)/,
+  /\/choice-values\.js(\?|$)/,
+  /\/gameplan\.js(\?|$)/,
+  /\/game-study\.js(\?|$)/,
+  /\/game-study\.worker\.js(\?|$)/,
+  /\/settings-ui\.js(\?|$)/,
 ]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({
@@ -119,6 +130,19 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
       "ai-skill": [0.5],
       "max-moves": [0.5],
     }
+  })
+  // THE PAGE STAMPS ITS OWN FIRST HAND (v1.207.7). `frozen` below flips when Playwright NOTICES the
+  // card, a poll later than the card attached, and the full game starts its deferred value modules
+  // one frame after the hand (`_ensureGameValues`: rAF, then a task). Those requests landed in that
+  // gap and read as "before the hand". A MutationObserver fires before that frame, on the page's
+  // own clock, which is also the clock of its resource timing.
+  await page.addInitScript(() => {
+    performance.setResourceTimingBufferSize(4000)
+    new MutationObserver((_, obs) => {
+      if (!document.querySelector("[data-tech]")) return
+      ;(window as any).__firstHandAt = performance.now()
+      obs.disconnect()
+    }).observe(document, { childList: true, subtree: true })
   })
 
   // hermetic, and honest about it: only localhost bytes are counted, so blocking third parties
@@ -165,6 +189,31 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
 
   // let the in-flight bodies (counted above) resolve before we add them up
   await page.waitForTimeout(2_000)
+  // A URL leaves the "before the hand" set ONLY when the page's own resource timing proves it
+  // STARTED after the page's own first-hand stamp. No entry (still in flight, or not reported) =
+  // it stays counted: the correction can only remove a request it has evidence for.
+  // Times are ABSOLUTE (timeOrigin + startTime): a Web Worker keeps its OWN resource timeline, so
+  // what the model worker fetches (its shared core via importScripts, the MDP shards) is invisible to
+  // the page's. On PR 231's slower CI the core request landed before Playwright's `frozen` and could
+  // not be proven late from the page alone. Worker timelines are read too; a worker already gone
+  // leaves its requests counted.
+  const pageSide = await page.evaluate(() => ({
+    origin: performance.timeOrigin,
+    handAt: (window as any).__firstHandAt as number,
+    entries: performance.getEntriesByType("resource").map((e) => [e.name, e.startTime] as [string, number]),
+  }))
+  expect(pageSide.handAt, "the page stamped its own first hand").toBeGreaterThan(0)
+  const handAbs = pageSide.origin + pageSide.handAt
+  const starts: [string, number][] = pageSide.entries.map(([n, t]) => [n, pageSide.origin + t])
+  for (const worker of page.workers()) {
+    const side = await worker
+      .evaluate(() => ({ origin: performance.timeOrigin, entries: performance.getEntriesByType("resource").map((e) => [e.name, e.startTime] as [string, number]) }))
+      .catch(() => null)
+    if (side) for (const [n, t] of side.entries) starts.push([n, side.origin + t])
+  }
+  const startedAfterHand = [...requested].filter((u) => starts.some(([n, t]) => n === u && t > handAbs))
+  for (const u of startedAfterHand) requested.delete(u)
+  console.log("[first-hand] started after the page's own first hand, not counted:", JSON.stringify(startedAfterHand.map((u) => new URL(u).pathname)))
   const settled = (await Promise.all(bodies)).filter((r): r is Rec => !!r)
 
   // one row per URL, and only URLs the page asked for before the hand existed

@@ -1,5 +1,6 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
+import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } from "../fixtures/neural-auth-sdk"
 
 /**
  * THE ACCOUNT MENU (v1.94.0) — the bottom-right chip stops opening the pane and opens a
@@ -11,6 +12,7 @@ import { journey } from "../dsl"
  *   2. Signed out it holds EXACTLY: Create account · Log in │ Settings · Keyboard
  *      shortcuts · Terms · Privacy — one separator, no filler rows.
  *   3. Signed in the auth rows become: the account email (non-interactive) · Log out.
+ *      A separate Review guest progress row appears when an owned guest cache is available.
  *   4. Rows are wired to the surfaces that already exist: the auth modal (create/login),
  *      the Settings modal (Shortcuts deep-links its tab), the legal modals.
  *   5. Esc closes the menu FIRST (before the pane); an outside tap closes it too — even a
@@ -93,14 +95,12 @@ test("signed in: email row (non-interactive) + Log out; logging out flips the ch
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/")
+  await j.boot("/", { beforeNavigate: beforeNeuralAuthNavigate })
+  await waitNeuralAuthOwner(page, null)
+  // Persist the actual guest profile; account entry offers an explicit import.
+  await page.evaluate(() => (window as any).__neural._flushSave())
+  await signInNeuralAuthSDK(page, "account-menu-user", { email: "diogo@example.com", name: "Diogo" })
   await j.land("Mount Top")
-
-  // seed a signed-in identity through the same seam the SIGNED_IN handler uses
-  await page.evaluate(() => {
-    const a = (window as any).__neural
-    a._applyUser({ email: "diogo@example.com", user_metadata: { full_name: "Diogo" } })
-  })
   await expect(page.locator(".ngAcctChip")).toContainText("Diogo")
 
   await j.clickByMouse(".ngAcctChip", "the signed-in chip")
@@ -114,10 +114,13 @@ test("signed in: email row (non-interactive) + Log out; logging out flips the ch
   await expect(menu.locator("[data-menu-create]"), "no create row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-login]"), "no login row when signed in").toHaveCount(0)
   await expect(menu.locator("[data-menu-sep]"), "still ONE separator").toHaveCount(1)
-  // email + logout replace create + login: five buttons + the email div
-  await expect(menu.locator("button")).toHaveCount(5)
+  // Five account/utility buttons plus the explicit guest-import action; no filler.
+  await expect(menu.locator("[data-menu-import-guest]")).toHaveText("Review guest progress")
+  await expect(menu.locator("[data-menu-import-legacy]")).toHaveCount(0)
+  await expect(menu.locator("button")).toHaveCount(6)
 
   await j.clickByMouse("[data-menu-logout]", "the Log out row")
+  await waitNeuralAuthOwner(page, null)
   expect(await menuOpen(page), "acting on a row closes the menu").toBe(false)
   await expect(page.locator(".ngAcctChip"), "back to Guest").toContainText("Guest")
 })
