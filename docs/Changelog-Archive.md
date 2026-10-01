@@ -49,6 +49,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
 - **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
 - **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
+- **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9069,3 +9070,53 @@ its immediate rush (v1.134.0), and an unstaged roll still enters the defense at 
 Sweep). `_pushUrl` pushes the raw path, so `location.pathname` keeps an unescaped `%`.
 `decodeURI(location.pathname)` then throws on every later call, inside a silent `catch`. Every
 later navigation keeps the 100% Sweep URL until a reload.
+
+## v1.212.5 — THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET
+
+**OCDEP1, 2026-10-01.** Dev's first phase-2 deploy (run 36857244057, a7bc58ce4, keyed) failed its
+curated gate on ONE test of 428: `option-hand.spec.ts` "a submission's odds are its AUTHORED rate",
+at "and they span more than the fallback's whole range": span 6, expected > 8. The same test had
+been green in PR 242's keyless e2e-full.
+
+**Cause: an unrigged draw, since the finish half was written (v1.207.7).** A finish card prints
+`moveChance` = authored rate − aiSkill (the opponent-value term is 0: a submission defender's value
+is negative), and aiSkill = 0.06 + rng("ai-skill")·0.14 is drawn once per boot by the URL arrival's
+staged roll. The journey boots six URLs, so six independent 6-20 point draws came off a 16-point
+authored span (58-74). Through the app's own `moveChance`, 400,000 simulated draws close it to 8 or
+less on 1.6% of runs, the same before and after PR 242 (the six authored rates did not move). The
+deploy's card fits exactly: Rear Naked Choke printed 54 = 74 − 20, the draw's ceiling.
+
+**Not the key, not phase 2.** Measured in a browser on dev's own keyless build (the PR 242 capture)
+and on a keyed build from the root `.env` (the deploy's own `regenerate:neural` + Quartz steps, keys
+in the test environment too):
+
+| | keyless | keyed |
+|---|---|---|
+| boots where printed = round(100·(authored − aiSkill)) | 180/180 | 180/180 |
+| boots with qMod, combo or momentum ≠ 0 | 0 | 0 |
+| unrigged span over 30 runs (min / median / max) | 11 / 19 / 27 | 11 / 18 / 29 |
+| the deploy's draws replayed through `__NEURAL_RIG` | span 6 | span 6 |
+| `window.posthog` | absent | present |
+
+The six pinned hands (13 cards, both groups, names and printed odds) are identical keyed and
+keyless. The keyed bundle equals the capture's once the baked version string is normalised, and the
+wire is byte-identical. No app path reads a key except the auth façade's sync, and the harness
+aborts its requests.
+
+**Fix (spec only).** The draw is pinned through the production pre-boot rail
+(`window.__NEURAL_RIG`): a post-boot `j.rig` is too late, because the arrival draws during boot. The
+test now asserts the pin reached each boot (aiSkill = 0.13), and adds the direct claim: printed −
+authored is one number across all six cards (≤ 1 for rounding). The > 8 bar is unchanged and is now
+16 on every run. Fixed spec: 25/25 keyless, 25/25 keyed; the whole file 5/5.
+
+**Mutants** (built bundle, keyless):
+
+| mutant | red at |
+|---|---|
+| `choiceChance` → .5 on a finish | distinct > 2 (six 50s) |
+| `moveChance` through the dominance fallback for submissions | distinct > 2 (six 33s) |
+| `moveChance` + (idx % 4)·.03 | ONLY the new printed − authored check (spread 6); distinct and span pass |
+| `boot()` ignores `__NEURAL_RIG` | the pin check (aiSkill 0.063) |
+
+The only other journey that reads odds after URL boots, `landing-card.spec.ts`, compares within one
+boot, so its draw cancels.
