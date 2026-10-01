@@ -15,6 +15,13 @@ import { srsVeteran } from "./personas"
  *   - the open sheet's .ngsucbig (inside optDetailRef.current) re-renders the new rounded
  *     moveChance INSTANTLY in test mode                        (_pumpOdds, app.src.jsx:811-817)
  *
+ * MOVE CARDS ONLY (v1.213.0). A submission dealt on a position is an ENTRY, and its sheet row
+ * prints "Works": the finish it leads to, priced by the solve at the state it lands in (where the
+ * position bonus is the submission's own deck and sharpness has aged one arrival), repainted when
+ * the re-solve lands. That is not this law's `moveChance` at THIS state, so this journey reads the
+ * law where the sheet prints it — on a transition's "Move chance" row. The Works row's agreement
+ * with its card is pinned in e2e/journeys/submission-card-odds.spec.ts.
+ *
  * Determinism: optionsFor draws no RNG — land()'s built-in rigs (ai-skill/role/max-moves)
  * cover every ambient draw, and sim time is never advanced after the deal, so the decision
  * clock stays frozen and sharpness never decays mid-test. No extra rig queues are needed.
@@ -77,24 +84,28 @@ test("headroom: first Short on the veteran's seeded technique pumps exactly +4 o
   const titles = await j.optionTitles()
   expect(titles.length, "a hand of options was dealt").toBeGreaterThanOrEqual(3)
 
-  // The veteran's SEEDED technique in this hand (deck key ∈ prep) — discovered live, never
-  // hardcoded (probe: "Americana from Mount", the hand's single seeded tech). If a content
-  // wave reshapes the deal away from every seeded deck, fall back to the first option — the
-  // film law binds every technique, seeded or not.
-  const seeded: string[] = await page.evaluate(() => {
+  // The veteran's SEEDED Move card in this hand (deck key ∈ prep) — discovered live, never
+  // hardcoded (the authoring probe found "Americana from Mount", a submission, which since v1.213.0
+  // prints the solve's "Works" row: see MOVE CARDS ONLY). With no seeded Move card, fall back to
+  // the first one — the film law binds every technique, seeded or not.
+  // HEADROOM IS THIS TEST'S PREMISE: a Move card already pinned at 95 shows a 0 delta with or without
+  // the film bonus, so it could not see the bonus at all (a film-bonus-removed mutant survived on one,
+  // 2026-10-01). Only cards with room for the whole +4 qualify, and the premise is asserted below;
+  // with it, removing the film bonus is red at "with headroom the +4 lands whole".
+  const moves: { seeded: string[]; all: string[] } = await page.evaluate(() => {
     const a = (window as any).__neural
-    return (a.optionIdxs || [])
-      .map((o: any) => a.nodes[typeof o === "number" ? o : o.idx])
-      .filter((n: any) => n && (a.prep[a.deckKeyFor(n).key] || 0) > 0)
-      .map((n: any) => n.t)
+    const dealt = (a.optionIdxs || []).map((o: any) => a.nodes[typeof o === "number" ? o : o.idx])
+      .filter((n: any) => n && n.ty !== "submissions" && Math.round(a.moveChance(n) * 100) <= 90)
+    return { seeded: dealt.filter((n: any) => (a.prep[a.deckKeyFor(n).key] || 0) > 0).map((n: any) => n.t), all: dealt.map((n: any) => n.t) }
   })
-  const target = seeded[0] ?? titles[0]
+  expect(moves.all.length, "the hand deals a Move card with headroom, so the law is read where the sheet prints it").toBeGreaterThan(0)
+  const target = moves.seeded[0] ?? moves.all[0]
 
   const oddsBefore: Record<string, number> = {}
   for (const t of titles) oddsBefore[t] = await j.displayedOdds(t)
   const before = oddsBefore[target]
   expect(before, "pre-film odds sit inside the clamp band").toBeGreaterThanOrEqual(5)
-  expect(before, "pre-film odds sit inside the clamp band").toBeLessThanOrEqual(95)
+  expect(before, "pre-film odds leave room for the whole +4 (the premise)").toBeLessThanOrEqual(90)
 
   await openSheet(page, target)
   expect(await sheetOdds(page), "sheet shows the pre-film rounded moveChance").toBe(`${before}%`)
@@ -145,10 +156,10 @@ test("at the ceiling: drills pin odds at 95, the film watch adds 0 visible point
       const n = a.nodes.find((x: any) => x.t === t)
       const key = a.deckKeyFor(n).key
       const cards = ((a.flashcards?.decks?.[key] || {}).cards || []).length
-      return { t, key, cards, rawAfter: a.moveChance(n) + (0.25 - a.stateBonus(key)) }
+      return { t, key, cards, move: n.ty !== "submissions", rawAfter: a.moveChance(n) + (0.25 - a.stateBonus(key)) }
     })
   }, titles)
-  const drillable = cands.filter((c) => c.cards > 0)
+  const drillable = cands.filter((c) => c.cards > 0 && c.move) // a Move card: see MOVE CARDS ONLY
   test.skip(!drillable.length, "no dealt option has a drillable deck (0 cards everywhere)")
   const target = drillable.reduce((best, c) => (c.rawAfter > best.rawAfter ? c : best))
   const wouldCross = target.rawAfter > 0.95 // probe: base .65 − aiMod .13 + pos .25 + tech .25 = 1.02

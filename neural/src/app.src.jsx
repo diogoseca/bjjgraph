@@ -2676,7 +2676,8 @@ class Component extends DCLogic {
   _pumpOdds(container, n) {
     const to = Math.round(this.moveChance(n) * 100);
     const col = to >= 60 ? "#7ee0a8" : to >= 38 ? "#cbd24e" : "#e8956b";
-    container.querySelectorAll(".ngsucbig").forEach((el) => {
+    // an entry's "Works" row is the solve's number: the refresh below re-solves and repaints it
+    container.querySelectorAll(".ngsucbig:not([data-choice-follow-up])").forEach((el) => {
       const from = parseInt((el.textContent || "0").replace(/[^0-9]/g, ""), 10) || 0;
       el.style.color = col;
       if (this.isTest()) { el.textContent = to + "%"; return; }
@@ -4955,8 +4956,16 @@ class Component extends DCLogic {
     // a move from the live hand and carries its deal-time `ev` row.
     const edge = null;
     const col = "#b3c6ea", cat = this.deckCat(n); // role-correct, see buildOptionCard
+    // AN ENTRY'S ROW IS THE CARD'S "Works" NUMBER (v1.213.0). Your own submission dealt on a position
+    // steps you in with certainty; the gamble is the finish rolled once you are in, which only the
+    // solve knows (`ngChoiceValueImmediate`). `moveChance(n)` HERE prices that finish at THIS state's
+    // conditions, and measured on the corpus it differs from the rolled one on 429 of 524 entry cards
+    // for a practised profile (up to 25 points) — so the sheet shows the card's number, repainted by
+    // `paintChoiceValues` ([data-choice-follow-up]), and never a second one.
+    const entryOpt = !opt.threat && n.ty === "submissions" && opt.action !== "finish" && opt.action !== "escape";
+    const followView = entryOpt ? this.choiceValueView(opt) : null;
     const pct = Math.round(this.moveChance(n) * 100);
-    const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+    const oddsCol = entryOpt ? "#d7e2f4" : pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const resName = opt.res >= 0 ? this.graphName(this.nodes[opt.res]) : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
     // prose that NAMES states: "A transition from your current position to X, Y" must not name a
@@ -5030,13 +5039,16 @@ class Component extends DCLogic {
       drillNote +
       // the card's own bottom row, at sheet scale: caption left, the number right
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
-        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
+        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (entryOpt ? "Works" : n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
         '<span style="display:flex;align-items:center;gap:8px;">' + stepsSpan + editBtn +
-          '<span class="ngsucbig" data-odds style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + pct + '%</span>' +
+          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
         '</span>' +
       '</div>' +
       '</div>' +
-      (cat === "Submission"
+      // an entry is a certain step into the submission, said as a step, never as "100%"
+      (entryOpt
+        ? '<div data-choice-entry-step style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>steps you into this submission: certain, no roll. The finish is the gamble.</div>'
+        : cat === "Submission"
         ? ''
         : (!tp && resName !== "\u2014" ? '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>on success, advances to <b style="color:#c3cde0;font-weight:600;">' + this.splitName(resName).main + '</b></div>' : ''));
     const valueDetail = document.createElement("div");
@@ -5193,7 +5205,7 @@ class Component extends DCLogic {
       // the stepper moves the odds, so it moves the EDGE — here and on the small card behind it,
       // from the one `edgeMark`, or the sheet would contradict the card it grew out of
       const bedge = head.querySelector(".ngedgebig");
-      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { el.textContent = p + "%"; el.style.color = c; }); const e2 = this.edgeMark(opt); if (bedge && e2) { bedge.textContent = e2.txt; bedge.style.color = e2.col; } this.refreshOptionOdds(); };
+      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { if (el.hasAttribute("data-choice-follow-up")) return; el.textContent = p + "%"; el.style.color = c; }); const e2 = this.edgeMark(opt); if (bedge && e2) { bedge.textContent = e2.txt; bedge.style.color = e2.col; } this.refreshOptionOdds(); };
       if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
@@ -13414,8 +13426,21 @@ class Component extends DCLogic {
     if (record) return record;
     const kind = opt.action === "escape" ? "escape" : opt.action === "finish" ? "finish" : opt.node.ty === "submissions" ? "entry" : "transition";
     // Entry is deterministic in the live game. Other immediate rates use its existing
-    // arithmetic even before the optional future-value module has loaded.
+    // arithmetic even before the optional future-value module has loaded. An entry's card prints
+    // its FOLLOW-UP finish, which only the solve knows (`ngChoiceValueImmediate`): "Works —" here.
     return { status: "unavailable", reason: snapshot?.reason || "not-wired", immediateExecutionChance: kind === "entry" ? 1 : this.choiceChance(opt), kind };
+  }
+  // The card's small line before the lazily loaded choice-value module is here: the SAME words as
+  // its `ngChoiceValueImmediate`, which owns them once loaded. Two copies in two bundles, so
+  // tests/choice_value.test.mjs pins them equal for every kind ("Works —" for an entry, never 100%).
+  choiceImmediateFallback(kind, p) {
+    const entry = kind === "entry" || kind === "enter";
+    const label = entry ? "Works" : ({ finish: "Finish", escape: "Escape", transition: "Move" })[kind] || "Move";
+    const immediate = entry || typeof p !== "number" || !Number.isFinite(p) || p < 0 || p > 1 ? "—" : p > 0 && p < .005 ? "<1%" : p < 1 && p >= .995 ? ">99%" : Math.round(p * 100) + "%";
+    return { immediateLabel: label, immediate, immediateKind: entry ? "entry" : kind || "transition",
+      immediateText: entry ? "Works " + immediate : label + " chance " + immediate,
+      immediateLine: entry ? "Works " + immediate + ": the finish's chance once you are in. Stepping in is certain, with no roll."
+        : label + " chance now: " + immediate };
   }
   choiceValueView(opt) {
     const runtime = this.choiceValueRuntime(), record = this.choiceValueRecord(opt);
@@ -13425,14 +13450,13 @@ class Component extends DCLogic {
     return { label: "Win chance", value: "—", status: loading ? "pending" : error ? "error" : "unavailable",
       state: loading ? "Preparing…" : error ? "Could not calculate" : "Unavailable", recommended: false,
       detail: loading ? "Preparing win chances. You can choose a move now." : "Win chance is unavailable for this roll. You can still choose this move.",
-      immediate: typeof p !== "number" || !Number.isFinite(p) || p < 0 || p > 1 ? "—" : p > 0 && p < .005 ? "<1%" : p < 1 && p >= .995 ? ">99%" : Math.round(p * 100) + "%",
-      immediateLabel: ({ entry: "Entry", finish: "Finish", escape: "Escape", transition: "Move" })[record.kind] || "Move" };
+      ...this.choiceImmediateFallback(record.kind, p) };
   }
   choiceValueHTML(view, detail = false) {
     const runtime = this.choiceValueRuntime();
     if (runtime) return runtime.ngChoiceValueHTML(view, detail);
     const line = '<div class="ngcv-line"><span>Win chance</span><strong data-choice-win>—</strong></div>';
-    return detail ? '<section class="ngcv-detail" aria-label="Expected roll outcomes">' + line + '<p>' + this.choiceEscape(view.detail) + '</p><p>' + this.choiceEscape(view.immediateLabel + ' chance now: ' + view.immediate) + '</p></section>' : line;
+    return detail ? '<section class="ngcv-detail" aria-label="Expected roll outcomes">' + line + '<p>' + this.choiceEscape(view.detail) + '</p><p data-choice-immediate-line>' + this.choiceEscape(view.immediateLine || (view.immediateLabel + ' chance now: ' + view.immediate)) + '</p></section>' : line;
   }
   refreshChoiceValues() {
     if (this.__ngDestroyed || this._execution || !(this._optionCards || []).some(c => !c.opt.threat)) return;
@@ -13508,7 +13532,7 @@ class Component extends DCLogic {
       if (chance) chance.textContent = view.immediate;
       if (label) label.textContent = view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) execute.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + view.immediateLabel + " chance " + view.immediate + ".");
+      if (execute) execute.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + ".");
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
@@ -13524,8 +13548,11 @@ class Component extends DCLogic {
     }
     const detail = this.optDetailRef.current?.querySelector("[data-choice-value-detail]");
     if (detail && this._detailCtx?.opt && !this._detailCtx.opt.threat) {
-      const html = this.choiceValueHTML(this.choiceValueView(this._detailCtx.opt), true);
+      const view = this.choiceValueView(this._detailCtx.opt), html = this.choiceValueHTML(view, true);
       if (detail.innerHTML !== html) detail.innerHTML = html;
+      // An entry's sheet row prints the card's own "Works" number (`expandOption`), so it repaints here.
+      const follow = this.optDetailRef.current.querySelector("[data-choice-follow-up]");
+      if (follow) follow.textContent = view.immediate;
     }
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
@@ -13848,7 +13875,7 @@ class Component extends DCLogic {
     const oddsCol = isThreat ? this.choiceOddsColor(pct, true) : "#d7e2f4";
     const value = !isThreat ? this.choiceValueView(opt) : null;
     const bottomRow = '<div class="ngbotrow" style="flex:none;margin-top:auto;padding-top:8px;white-space:nowrap;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:4px;">' +
-      '<div data-immediate-label style="font-size:9px;font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
+      '<div data-immediate-label' + (!isThreat && value.immediateKind === "entry" ? ' title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:9px;font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
       '<span class="ngodds" style="flex:none;font-size:15px;font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (isThreat ? (pct == null ? '—' : pct + '%') : this.choiceEscape(value.immediate)) + '</span></div>';
     const headMid = isEsc ? "Escape" : n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition";
     const headVal = isThreat ? '<span class="ngedge" data-threat-win title="Your win chance if they try this" style="flex:none;font-size:13px;font-weight:700;color:#b3c6ea;">—</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';

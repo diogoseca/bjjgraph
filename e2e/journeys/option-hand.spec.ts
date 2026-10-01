@@ -305,24 +305,35 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   expect(wire.fbDistinct, "the dominance fallback prices them all the same").toBeLessThan(6)
 
   // ...and it reaches the card. In the full game (v1.207.0) a submission card dealt on a POSITION
-  // is an ENTRY: stepping into the finishing position is certain, so every one of them prints
-  // "Entry 100%" — exactly one number, by design (the control below). The authored finishing rate
-  // is what the FINISH card prints once you are in the submission, so that is where this claim now
-  // lives: under the fallback, those finish cards would all sit inside a 2-point band.
+  // is an ENTRY: stepping into the finishing position is certain. Until v1.213.0 the card printed that
+  // step, "Entry 100%", on every one of them, which read as "this always works" (owner, 2026-10-01).
+  // It now prints "Works" and the finish the entry leads to, read from the solve (mdp-adapter
+  // `followUp`) — so the authored spread reaches this card too, once the values arrive. The FINISH
+  // card below still prints the same rate from inside the submission.
   // Mutants, recorded 2026-09-29: a constant finish chance (choiceChance -> .5 on a finish) turns
   // the finish half red (six 50%s); calSuccess -> null turns the wire half red (uncalibrated).
+  // Mutants, recorded 2026-10-01 (v1.213.0): an entry printing its own step (`ngChoiceValueImmediate`
+  // reading the immediate chance) turns this red at the clamp line (eight 100%s once values land);
+  // both 2026-09-29 mutants above were re-run on this build and are still red.
   await j.land("Mount Top")
-  const hand = await page.evaluate(() =>
+  const subCards = () => page.evaluate(() =>
     [...document.querySelectorAll('[data-choice-group="you"] [data-tech]')]
       .map((c: any) => ({
         t: c.getAttribute("data-tech"),
         label: ((c.querySelector("[data-immediate-label]") || {}).textContent || "").trim(),
-        odds: parseInt(((c.querySelector(".ngodds") || {}).textContent || "0").replace("%", ""), 10),
+        odds: ((c.querySelector(".ngodds") || {}).textContent || "").trim(),
       }))
       .filter((c: any) => ((window as any).__neural.nodes.find((n: any) => n.t === c.t) || {}).ty === "submissions"),
   )
-  expect(hand.length, "mount top deals submissions").toBeGreaterThan(3)
-  expect([...new Set(hand.map((c: any) => c.label + " " + c.odds))], "a submission dealt on a position is an Entry, certain").toEqual(["Entry 100"])
+  const dealt = await subCards()
+  expect(dealt.length, "mount top deals submissions").toBeGreaterThan(3)
+  expect([...new Set(dealt.map((c: any) => c.label))], "a submission dealt on a position reads Works").toEqual(["Works"])
+  expect(dealt.filter((c: any) => c.odds === "100%"), "and never prints its certain step as a success rate").toEqual([])
+  await expect.poll(async () => (await subCards()).every((c: any) => /^\d+%$/.test(c.odds)),
+    { timeout: 120_000, message: "the follow-up finish chances arrive with the values" }).toBe(true)
+  const works = (await subCards()).map((c: any) => parseInt(c.odds, 10))
+  expect(works.every((p: number) => p >= 5 && p <= 95), "each inside the finish clamp: " + works).toBe(true)
+  expect(new Set(works).size, "and they discriminate, like the finish cards: " + works).toBeGreaterThan(1)
   const finish: Record<string, number> = {}
   for (const url of [
     "/Submissions/Kimura/from-Mount/Attacker",

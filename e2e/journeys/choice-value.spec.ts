@@ -108,8 +108,11 @@ async function installControlledProvider(page: Page, fixedImmediate?: number, wa
       const { req, resolve } = pending[index]
       const actions = req.requestedActionIds.map((id: string, i: number) => {
         const win = values?.[i] ?? (i === 1 ? .65 : i === 0 ? .35 : .2)
+        // an ENTRY's row carries the finish it leads to, as the real adapter's does (`followUp`)
+        const kind = JSON.parse(id)[2], follow = fixedImmediate ?? .4
         return { actionId: id, stateId: req.state.id, policyId: 'fixture-policy', status: 'ready',
-          outcomes: { win, loss: .1, explicitNoResult: 1 - win - .1, nontermination: 0 } }
+          outcomes: { win, loss: .1, explicitNoResult: 1 - win - .1, nontermination: 0 },
+          ...(kind === 'entry' || kind === 'enter' ? { followUp: { kind: 'finish', chance: follow, explanation: { status: 'ready', chance: follow } } } : {}) }
       })
       const selected = actions[1] || actions[0]
       resolve({ ...req, root: { ...selected, selectedActionId: selected.actionId }, actions,
@@ -272,7 +275,7 @@ test('@curated committing while scoring retires the worker; a late reply cannot 
 })
 
 for (const defense of [false, true]) {
-  test(`@curated unchanged refresh preserves Entry and tiny immediate values; defense ${defense}`, async ({ page }) => {
+  test(`@curated unchanged refresh preserves Works and tiny immediate values; defense ${defense}`, async ({ page }) => {
     await ready(page, defense)
     await installControlledProvider(page, .001)
     await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
@@ -281,9 +284,10 @@ for (const defense of [false, true]) {
     const before = await own.locator('.ngodds').allTextContents()
     expect(before).toContain('<1%')
     if (!defense) {
-      const entry = own.locator('[data-tech]').filter({ has: page.locator('[data-immediate-label]', { hasText: 'Entry' }) })
+      // an entry prints the finish it leads to ("Works"), never its certain step (v1.213.0)
+      const entry = own.locator('[data-tech]').filter({ has: page.locator('[data-immediate-label]', { hasText: 'Works' }) })
       expect(await entry.count()).toBeGreaterThan(0)
-      for (const p of await entry.locator('.ngodds').allTextContents()) expect(p).toBe('100%')
+      for (const p of await entry.locator('.ngodds').allTextContents()) expect(p).toBe('<1%')
     }
     await page.evaluate(() => {
       const a = (window as any).__neural
@@ -291,10 +295,13 @@ for (const defense of [false, true]) {
     })
     await expect.poll(() => own.locator('.ngodds').allTextContents()).toEqual(before)
     // Mutant, recorded 2026-09-29: capturing in TRAY order (before v1.207.7) turns this red — the
-    // sort-once reordered the tray, so an unchanged refresh re-solved the hand (2 requests).
+    // sort-once reordered the tray, so an unchanged refresh re-solved the hand (2 requests). Re-run
+    // 2026-10-01 (v1.213.0): still red, both defense cases. An entry printing its own step instead
+    // of its follow-up (`ngChoiceValueImmediate`) turns the "Works <1%" line red.
     expect(await page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(1)
+    const label0 = (await own.locator('[data-immediate-label]').first().textContent())!.trim()
     await page.keyboard.press('Shift+Digit1')
-    await expect(page.locator('[data-choice-value-detail]')).toContainText('chance now: ' + before[0])
+    await expect(page.locator('[data-choice-value-detail]')).toContainText((label0 === 'Works' ? 'Works ' : 'chance now: ') + before[0])
   })
 }
 

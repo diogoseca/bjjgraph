@@ -8961,3 +8961,58 @@ so the whole wire was renumbered.
 - In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
   change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
   `handsOverPrefetchCap` and `handsOverWarmCap`.
+
+## v1.213.0 — A SUBMISSION CARD PRINTS THE FINISH IT LEADS TO, NEVER ITS CERTAIN STEP (2026-10-01)
+
+**Owner:** "inspect why every submission from the position have 100% chance. i guess the submission
+chance is the only thing to show (win chance right?) i'm confused with the UI, but it should be
+obvious that's a direct navigation / outbound connection if it is.. some like going for a triangle
+from closed guard is difficult."
+
+**Mechanism, content to card.** A submission listed at a position (e.g. Triangle Choke from Closed
+Guard at Closed Guard/Bottom) is dealt as an ENTRY (`kind: 'entry'`). The adapter models it as a
+certain step into the submission state (`immediateExecutionChance = 1`, one branch), and the authored
+`success_rate` is rolled by the FINISH card you are dealt once you are in (`moveChance` at that
+state). The card printed the step: "Entry 100%" on every submission, on every position, for every
+player. Threat cards printed "Odds" (the authored base), never 100%.
+
+**Win chance was right.** Solved on Closed Guard/Bottom and Mount/Top (neutral profile, aiSkill .07,
+cap 9; 20 entry cards): every entry's Win chance equals the value of the submission state it lands
+in, and in all 20 the best play there is the Finish, so the finish chance is inside the number
+(Triangle from Closed Guard bottom: finish 58%, Win chance 86%, because a miss leaves the roll going).
+No number changed in this release; the Win chances before and after are identical on the owner screen.
+
+**Which finish chance.** The same law priced at the CURRENT state (what Inspect's "Finish chance" row
+printed) is not the one the game rolls: inside the submission the position bonus is the submission's
+own deck (counted with the technique deck, so twice), the opponent value is the submission's, the
+question modifier is reset and sharpness has aged one arrival. Over the corpus (gi, 524 entry cards
+on 170 seats): they disagree on 56 with no practice and on 429 with practice, by up to 25 points. So
+the card's number is read from the engine — the adapter's `followUp` (the landed state's Finish row:
+chance + knowledge explanation), passed through `ngMdpFollowUp` in both the exact and the certified
+export — never recomputed on the main thread. Live check: entering Triangle / Armbar / Kimura from
+Closed Guard bottom deals a Finish card printing exactly the Works number (52 / 49 / 45%).
+
+**What changed.** Card: "Works N%" (that follow-up), "Works —" until the solve lands. Inspect: the
+row reads "Works" with the card's number, a "→ steps you into this submission: certain, no roll" line,
+the detail line "Works N%: the finish's chance once you are in. Stepping in is certain, with no roll.",
+and the breakdown "You step into the submission: certain, no roll. / Then the finish works N% … /
+From there, your win chance with your best play is W%." The practice lines describe the landed
+state. The app's pre-load fallback and `ngChoiceValueImmediate` say the same words (unit-pinned for
+30 kind × chance pairs). The exposure pin moved (adapter hash) with a label-neutral note.
+
+**Findings left to the owner (no number changed):** the finish inside a submission counts the
+submission's own deck twice (position and technique) and drops the origin position's practice and
+its opponent value; and a threat card's "Odds" is the authored base, while the game rolls your
+escape at `clamp(1 − base + …)`.
+
+**Mutants (built bundle, one at a time; a neutral control stayed green):**
+
+| mutant | result |
+|---|---|
+| entry prints its own step (`ngChoiceValueImmediate`) | red: submission-card-odds, option-hand (eight 100%s), choice-value curated, choice_value unit (3); option-edge survives (reads pre-values) |
+| follow-up priced at the current state (adapter) | red: submission-card-odds control, mdp_adapter unit |
+| Inspect row prints `moveChance(n)` for an entry | red: submission-card-odds "sheet == card" |
+| (recorded) capture in tray order | still red, both defense cases |
+| (recorded) finish chance constant .5; `calSuccess` → null | still red |
+| (recorded) ceiling .95 → 1.05; Finish card prints chance + 2 | still red |
+| film bonus removed | red on film-look's Move-card target once headroom was required (it first SURVIVED on a card pinned at 95) |
