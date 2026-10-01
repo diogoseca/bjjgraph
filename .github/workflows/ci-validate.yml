@@ -154,6 +154,15 @@ jobs:
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
 
+      # THE CATEGORY INDEX PAGES MATCH THEIR GENERATOR (v1.215.7). content/<Category>.md is rendered
+      # from every leaf JSON in its category, but regeneration is keyed on the EDITED file, so a leaf
+      # edit leaves its index page stale — and a stale page looks exactly like a fresh one
+      # (CLAUDE.md §6.6). The Principles page carried pre-v1.191.0 descriptions for 11 days with every
+      # gate green. Renders all six in memory (stdlib, ~0.5 s), fails on any byte difference or on
+      # zero pages checked, and names the page. Fix a red with `npm run regenerate:hubs`.
+      - name: Category index pages match their generator (hard gate)
+        run: python3 scripts/check_category_hubs.py
+
       # THE SCHEMA MARKUP MUST PARSE. Every content page carries JSON-LD built by interpolating
       # authored prose into a hand-written JSON string literal, so one `"` in the prose ends the
       # string early and the block is silently unparseable: Google drops it without a word, the
