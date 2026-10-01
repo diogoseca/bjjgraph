@@ -8508,7 +8508,7 @@ and AFTER that offer a Continue action, "Find more weaknesses".
   appear only when certain (`tests/choice_value.test.mjs`). The 100% the control saw is that
   certain Entry, not Win chance.
 
-## v1.206.3 / v1.208.3 — THE GENERATED SUITE'S 40 REDS, TRIAGED; ITS BASELINE IS READ BY THE RUNNER
+## v1.206.3 / v1.208.4 — THE GENERATED SUITE'S 40 REDS, TRIAGED; ITS BASELINE IS READ BY THE RUNNER
 
 **What was found.** `e2e:gen` was **40 red of 101** on dev `8d6ae5d01` (v1.206.2), measured by the
 belt-challenges seat and reproduced exactly (same 40 names, same failing assertions) on a keyless
