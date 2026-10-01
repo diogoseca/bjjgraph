@@ -20,9 +20,30 @@ import { casualWeek1 } from "./personas"
  *
  * Clean signal separation (why the drain-to-<=4.5s matters): the old clock is abandoned
  * with <=4.5s remaining, so IF it survived teardown it MUST fire (warnings + auto_pick)
- * inside the 5s post-remount watch; the fresh life's own legit expiry_warning cannot fire
- * before ~10.5s (3.2s intro + ~1.3s deal + (dsec-3)s with dsec>=9 — premise-asserted).
+ * inside the post-remount watch; the fresh life's own legit expiry_warning cannot fire
+ * before ~11.2s (3.2s intro + NG_ARRIVE_KICKER 2.0s + (dsec-3)s with dsec>=9 — premise-asserted).
  * Any forbidden beat inside the watch is therefore unambiguously a ghost.
+ *
+ * WATCH LENGTH (v1.168.0 a562ae73b "The restart becomes a sequence: countdown, one line, the
+ * state names itself, hand-off"): startRoll now fires `stakes` and defers enterLand — the `land`
+ * beat — by NG_ARRIVE_KICKER (2.0s), so the remount's land arrives at ~5.2s, past the old fixed
+ * 5s watch (red: "landed exactly once" received 0, the watch held only ["stakes"]). The watch
+ * is now DERIVED from the app's own constant: intro 3.2s + NG_ARRIVE_KICKER + 1s, still well
+ * short of the ~11.2s floor above — so it is longer (stricter) for ghosts, and the claim holds.
+ *
+ * RECORDED NON-KILLS (what this spec CANNOT see in the harness — read before citing it):
+ *   - The FORBIDDEN watch only ever reads the NEW instance's beats, and under __NEURAL_TEST__
+ *     `startLoop` never arms rAF ("frames advance only via advance()"), which pumps only
+ *     window.__neural — so an OLD instance that survived teardown is never ticked here, and
+ *     its clock could not fire into anything. Since v1.134.0 f12f8f74c the open sheet also
+ *     DECLINES life 1's question and disarms `_decision` (remaining null at nav time), so the
+ *     "surviving clock MUST fire" premise is void twice over. Same reason: `corpse.rafDisarmed`
+ *     is true by construction (`_raf` is never set in test mode) and `corpse.beats` frozen is
+ *     true by construction (nothing pumps the corpse).
+ *   - What DOES gate teardown here: the corpse's `_timers` (made live below by planting one
+ *     sim timer through the app's own `after()` before the nav — at nav time the list was
+ *     otherwise already empty, so "cleared by teardown" was vacuous), `__ngDestroyed`, exactly
+ *     one #neural-root, the old sheet gone, and the fresh instance's residue fields.
  *
  * CRITICAL PITFALL (all future spa-nav specs): the nav target MUST be a canonical slug —
  * "/Game-Over", capital G-O. Lowercase "/game-over" is a Quartz alias REDIRECT STUB whose
@@ -78,12 +99,17 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
   await expect(page.locator("[data-go]").first(), "expand sheet open at nav time").toBeVisible()
 
   // mark life 1 + stash a window-global ref (window globals survive a SOFT nav — this is
-  // both the corpse handle and the alias-stub hard-nav detector)
-  await page.evaluate(() => {
+  // both the corpse handle and the alias-stub hard-nav detector). Plant ONE pending sim timer
+  // through the app's own `after()` so "old instance _timers cleared by teardown" below has
+  // something to clear (positive control — see RECORDED NON-KILLS in the header).
+  const planted = await page.evaluate(() => {
     const a = (window as any).__neural
     a.__probeLife = 1
     ;(window as any).__probeOldRef = a
+    a.after(30, () => a.fx("ghost_probe"), true)
+    return (a._timers || []).length
   })
+  expect(planted, "life 1 holds a pending timer at nav time (the teardown has one to clear)").toBeGreaterThanOrEqual(1)
 
   // ── Quartz soft nav mid-roll (spa.inline.ts seam). CANONICAL slug — see pitfall above ──
   await page.evaluate(() => (window as any).spaNavigate(new URL("/Game-Over", location.origin)))
@@ -148,9 +174,15 @@ test("mid-roll soft nav: old life torn down silent, remount residue-free, fresh 
     if (idx < 0) throw new Error(`position not found: ${pos}`)
     a.rigStart(idx) // the remount's 3.2s intro auto-starts a roll that consumes this
   }, POSITION)
-  for (let i = 0; i < 10; i++) await j.advance(500) // 5s watch: an alive old clock (<=4.5s) MUST fire in here
+  // watch = intro 3.2s + the staged arrival's kicker (v1.168.0) + 1s: the fresh `land` falls
+  // inside it, an alive old clock (<=4.5s) would too, the fresh life's own warning (>=~11.2s) cannot
+  const kicker = await page.evaluate(() => (window as any).__neural.NG_ARRIVE_KICKER)
+  expect(typeof kicker === "number" && kicker > 0, "the staged arrival's kicker is a live constant").toBe(true)
+  const watchSteps = Math.ceil(((3.2 + kicker + 1.0) * 1000) / 500)
+  expect(watchSteps * 500, "the watch ends well before the fresh life's own earliest warning (~11.2s)").toBeLessThan(11000)
+  for (let i = 0; i < watchSteps; i++) await j.advance(500)
   const watch = (await j.beats()).map((b) => b.beat)
-  expect(watch.filter((b) => FORBIDDEN.includes(b)), "no ghost beat inside the 5s watch").toEqual([])
+  expect(watch.filter((b) => FORBIDDEN.includes(b)), "no ghost beat inside the watch").toEqual([])
   expect(watch.filter((b) => b === "land").length, "fresh life landed exactly once during the watch").toBe(1)
   expect(watch.filter((b) => b === "options_dealt").length, "fresh life dealt exactly one hand during the watch").toBe(1)
 

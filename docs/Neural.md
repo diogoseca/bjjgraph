@@ -358,10 +358,8 @@ you move again. A miss that moves you costs a ply and hands over the turn; a mis
 in place costs nothing. `opponentDefend` always ends by handing the board back, so the opponent
 never keeps initiative.
 
-**Hesitation costs the turn.** When the decision clock expires, `opponentDefend()` takes one
-exchange after a `HESITATE_HOLD` pause — the hold is what turns two announcer lines into a cause
-and its effect, because the announcer has one slot. It cannot spiral: they take exactly one
-exchange and the board comes back. Beat: `hesitated`.
+**Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`)
+was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
 
 ### The announcer
 

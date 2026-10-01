@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.208.3",
+  "version": "1.208.4",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -68,7 +68,7 @@
     "test": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts",
     "test:curated": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts --grep @curated",
     "e2e": "playwright test -c e2e/playwright.config.ts",
-    "e2e:gen": "bash scripts/check_gen_specs.sh && playwright test -c e2e/playwright.gen.config.ts --pass-with-no-tests",
+    "e2e:gen": "bash scripts/check_gen_specs.sh && playwright test -c e2e/playwright.gen.config.ts",
     "e2e:quarantine": "playwright test -c e2e/playwright.quarantine.config.ts --pass-with-no-tests",
     "e2e:observe": "playwright test -c e2e/playwright.observe.config.ts",
     "pree2e": "bash scripts/check_no_raw_random.sh",

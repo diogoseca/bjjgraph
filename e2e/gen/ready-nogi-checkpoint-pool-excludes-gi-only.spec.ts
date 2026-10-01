@@ -151,17 +151,29 @@ test("nogi checkpoint pool draws only from nogi-viable decks — the gi-only dec
   )
 
   // ── Pool census inputs, in-page via the app's OWN mcClip over the served decks (law, no totals) ──
+  // RESIDENCY (v1.80.4, 1e054f47f "Chunk the payload"): boot reads a manifest of deck STUBS
+  // ({n}, no `cards`) and fills a deck only when something asks for it. Nothing in nogi ever
+  // asks for the gi-only deck, so the old `decks[k].cards || []` census read 0 for it and this
+  // spec went red at the non-vacuity guard below. Hydrate BOTH sides through the real fill seam
+  // and read through `_cardsOf` (CLAUDE.md §5). Hydrating the gi-only deck also makes the claim
+  // STRICTER: its cards are now RESIDENT when the quiz is dealt, so a zero gi-only pick count
+  // proves the frame gate excluded them — not that they merely had not arrived yet.
+  await j.hydrate([...H.nogiKeys, ...H.giOnlyKeys])
   const pools = await page.evaluate(
     ([nogiKeys, giKeys]) => {
       const a = (window as any).__neural
       const decks = (a.flashcards && a.flashcards.decks) || {}
       const count = (keys: string[]) =>
-        keys.reduce((n: number, k: string) => n + (((decks[k] || {}).cards || []) as any[]).filter((c) => a.mcClip(c.a)).length, 0)
+        keys.reduce((n: number, k: string) => n + ((a._cardsOf(decks[k]) || []) as any[]).filter((c) => a.mcClip(c.a)).length, 0)
       return { nogi: count(nogiKeys as string[]), giOnly: count(giKeys as string[]) }
     },
     [H.nogiKeys, H.giOnlyKeys] as const,
   )
   expect(pools.giOnly, "gi-only deck HAS quizzable cards — the exclusion does real work, never vacuous").toBeGreaterThan(0)
+  expect(
+    await page.evaluate((ks) => (ks as string[]).every((k) => (window as any).__neural._deckResident(k)), H.giOnlyKeys),
+    "the gi-only deck is RESIDENT before the deal — exclusion by the frame gate, not by absence",
+  ).toBe(true)
   expect(pools.nogi, "nogi-viable decks cover the authored count — the deal can redistribute, not shrink").toBeGreaterThanOrEqual(H.cp.cards)
 
   // ── SIT: click the real checkpoint button; picks are pre-drawn at start ──

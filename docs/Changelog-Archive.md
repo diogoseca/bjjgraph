@@ -8507,3 +8507,101 @@ and AFTER that offer a Continue action, "Find more weaknesses".
   [0.995, 1) and "<1%" for (0, 0.005), and an interval straddling a bin as a range. So 100% and 0%
   appear only when certain (`tests/choice_value.test.mjs`). The 100% the control saw is that
   certain Entry, not Win chance.
+
+## v1.206.3 / v1.208.4 — THE GENERATED SUITE'S 40 REDS, TRIAGED; ITS BASELINE IS READ BY THE RUNNER
+
+**What was found.** `e2e:gen` was **40 red of 101** on dev `8d6ae5d01` (v1.206.2), measured by the
+belt-challenges seat and reproduced exactly (same 40 names, same failing assertions) on a keyless
+build of that commit. The ledger named none of them: all 179 rows read `"status": "accepted"`, the
+known-red set had lived only as prose ("the same 13 names", v1.127.0; 14 at v1.128.x), and no
+workflow ran the suite. That is the CLAUDE.md §6.7 tolerance-baseline trap, and it went 13 → 40 with
+nothing failing.
+
+**Triage, one spec at a time (six parallel lanes, one coordinator).** Each red was reproduced on a
+private port, given one verdict, and, if stale, moved to the deliberate behaviour with its claim
+kept, run green 3/3, and killed by an app mutant at the assertion that carries the claim. Mutants
+were built from an isolated copy of `neural/` and served from a hard-link copy of `source/public`
+with only the bundle swapped, so no run ever mutated the served tree. 66 mutant runs; every fixed
+spec has at least one kill; the one equivalent mutant (`holder-defense-window`'s "reuse the old
+`_decision`") is recorded in that spec's header.
+
+- **38 STALE.** The deliberate changes they never followed, by first cause:
+  - `cdc35cefe` v1.176.0 (18 specs, alone or stacked; 12 of them first went red there): a submission pick ENTERS its state with no
+    draw, and the Finish is a second pick of the same card; and `opponentDefend` draws from the
+    opponent's OWN role- and origin-filtered hand, so a catch can no longer come from any
+    submission adjacent to the site. v1.176.0 updated the core journeys and no gen spec.
+  - `e6f655a6a` v1.133.0 (the clock times the question): the escapes are untimed, so "let the
+    defense window expire" can no longer lose a roll — the specs that lost that way now lose by a
+    rigged failed escape (`stakes-impact`'s idiom); refunds and the hand clock are gone.
+  - `7677bfe70` v1.129.0 / v1.133.0: auto-pick retired. Four specs asserted it; the owner reversed
+    the claim ("when the clock runs out, the algorithm doesn't choose for you"), so their
+    `@invariant` now states the new law: expiry is a missed answer, −4%, momentum broken, no commit.
+  - `0c4fbc53d` v1.135.0 (panic drill is MC): four specs clicked a Reveal button that only exists on
+    the cold-pool fallback.
+  - `1e054f47f` v1.80.4 (decks boot as manifest stubs): three specs read `deck.cards` and saw an
+    unloaded deck as an empty one; they now hydrate and read through `_cardsOf`.
+  - `ba6aba811` v1.99.2 (only the frontier belt unfolds), `7e3eb9dc7` v1.180.1 (a capstone deals its
+    hand synchronously), `adbb48a31` v1.103.0 (`fromRole` decides the performer), `bb80a008c`
+    v1.104.0 (the coach deleted), `f12f8f74c` v1.134.0 (a sheet declines the question),
+    `d3bcb63d3` v1.137.0 (the clock waits for engagement), `053978d6f` v1.149.0, `a562ae73b`
+    v1.168.0, `3ba7701a6` v1.176.7, `4f41a4ccc` v1.189.0.
+- **2 REAL BREAKS, kept red, unweakened, named in the ledger as `known-red`:**
+  - `holder-checkpoint-letters-answer-digits-stay-roll` — since `a1d5cc3ff` v1.171.0 the drill
+    branch of `_onKey`'s ⏎ handler has no `_checkpoint` guard: Enter during an open checkpoint quiz
+    reveals the quiz card, a second Enter grades it as recall and credits `prep`. A one-line guard
+    turns the unmodified spec green.
+  - `holder-restart-tutorial-resets-white-only` — behind two stale assertions: after a reload
+    `gameScore()` serves a memoised 0, written before `curriculum.json`'s weights arrive;
+    `_onCurriculum` never bumps `_stageVer`. A probe build bumping it there turns the spec green.
+- **Found on the way, unguarded by any spec:** since `7e3eb9dc7` v1.180.1 the White capstone seats
+  the player bottom but deals the TOP hand (`rollFromPosition` deals before `startBeltTest` sets
+  `playerRole`).
+
+**Control pair (attribution measured, not argued).** The full gen suite was run at v1.176.0's
+parent `f2fd3f3a2` and at `cdc35cefe` itself (each commit's own bundle, payload, specs and DSL,
+served inside the v1.206.2 page shell; spec and DSL byte-identical between the two). The prediction was
+written down before the second run finished: at the parent **26** of the 40 were already red (every
+one a spec whose first cause predates v1.176.0) and **14** were green; at v1.176.0 exactly the **12**
+predicted turned red, the 26 stayed red, and the 2 whose causes are later (`casual-guard-pull`
+v1.176.7, `mid-locked-rows-inert` v1.189.0) stayed green. Two specs outside the 40 also went red at
+v1.176.0 and have since been repaired (`returner-research-coin…` by PR #217's spec edit,
+`endgame-stage-roll-cold…` by a later app change).
+
+**The baseline is now read by the runner.** `e2e/gen-ledger-reporter.ts` (verdict logic pure in
+`e2e/gen-ledger.mjs`, 10 unit tests in `tests/gen_ledger.test.mjs`, 8/8 branch mutants killed)
+decides an `e2e:gen` run from `e2e/gen/ledger.json`: a red the ledger does not name fails it; a
+`known-red` row that passes fails it (stale entry); a known-red red with a different message fails
+it; zero tests run fails it; otherwise it passes and prints one positive coverage line.
+`check_gen_specs.sh` lints known-red rows (test, reason, owner, since). `.github/workflows/e2e-gen.yml`
+runs the suite weekly against **dev** — a `schedule` event checks out the default branch (main), so
+a job inside `e2e-full.yml` would have tested main, a release behind. Cost: ~30 runner-minutes a
+week (one build ~14–16 min, measured on `e2e-full`'s build job; ~101 tests × ~5 s), 0 billable on a
+public repo. The cheaper and stronger alternative — a fifth job in `e2e-full.yml` on every PR,
+reusing its build artifact (~12–15 runner-minutes per PR, no wall-clock cost beside the four shards)
+— would have caught v1.176.0 on its own PR; it is the owner's call because it adds a PR gate.
+
+**Traps met on the way.**
+- `--pass-with-no-tests` on `e2e:gen` contradicted the reporter's zero-ran rule; dropped.
+- The first ledger re-serialisation un-escaped every `\uXXXX` in the file; one row carries a raw
+  em-dash. Edits are now byte-preserving (one row each).
+- A `pkill -f` whose pattern also matched the invoking shell killed that shell (exit 144).
+- The lock's 7 GB build precondition stalls a 3-worker Playwright job for no reason; such jobs
+  declare `BUILD_PEAK_MIB` (the documented override) before sourcing the lock.
+- PR #231 landed mid-triage and edited 13 of the same specs (owner-scoped storage keys); the merge
+  was re-verified on a fresh keyless build of the merged tree. The suite reads **99 green, 2 red**
+  there: the two named known-reds, reporter verdict PASS, exit 0. The merge itself introduced two semantic reds, and the
+  reporter caught both. `holder-restart-…` was seeding the legacy coached key, which PR #231 had
+  made owner-scoped. `holder-momentum-heats-escape-odds` broke because, since v1.207.0
+  (`83908ffce`), a player's own escape card prints the STAMPED choice view's
+  `immediateExecutionChance`, repainted one frame after `_gameValueChanged`, so the spec now pumps
+  one frame before reading the card. Both are fixed.
+- PR #231's build pins `sha256(app.src.jsx)` into the MDP manifest (`game-bundles: graph/gameplay
+  changed after metadata emission`). So a mutant sandbox now stamps the mutant's hash into a
+  private manifest copy and serves that copy. A behaviour-neutral control mutant stays green in the
+  sandbox. All 64 saved mutants were then replayed against the merged app:
+  - 54 killed;
+  - 3 expected survivors (the equivalent mutant and both repair probes, which turn the real-break
+    specs green);
+  - 7 whose code #231 had moved, re-targeted at the new call sites (never at a hash-pinned law
+    file) and all killed;
+  - plus one new kill, for the retargeted escape-card render.
