@@ -8487,3 +8487,23 @@ and AFTER that offer a Continue action, "Find more weaknesses".
     rows dealt while locked; the list opened without the action; an action that does not unlock;
     no completion re-render.
 - **Payload:** eager boot +498 B gzip since v1.208.0.
+
+**`veteran-odds-clamp` follows the number to where it prints (v1.208.2, FGGEN1, 2026-10-01).**
+- **What failed.** The belt seat's generated-suite control found one red that belongs to PR 231
+  (40 are pre-existing on dev): the spec read every card's `.ngodds` as `round(moveChance)`. Under
+  the full game that corner is the IMMEDIATE chance with its own label. "Move NN%" on a transition
+  is still `round(moveChance)`, but a submission card is its "Entry". The live rule makes the entry
+  exactly 1 (`game-value-provider.src.js`), so it prints "100%"; the clamped chance prints on the
+  Finish card once the attack is entered.
+- **The claim, unchanged, is now read at both print sites:**
+  - every Move card;
+  - the Finish card of the drilled or best submission (Phase D);
+  - and the spec now requires the hand to deal a submission, instead of skipping silently.
+- **Mutants:**
+  - no 0.95 ceiling in the move-chance law: red at Phase B (105);
+  - a Finish card printing anything but its own number: red in Phase D ("Kimura from Mount", the
+    drilled target, expected the pinned 95%).
+- **Not changed, and why: a printed 100%.** `ngChoiceValuePercent` already prints ">99%" for
+  [0.995, 1) and "<1%" for (0, 0.005), and an interval straddling a bin as a range. So 100% and 0%
+  appear only when certain (`tests/choice_value.test.mjs`). The 100% the control saw is that
+  certain Entry, not Win chance.
