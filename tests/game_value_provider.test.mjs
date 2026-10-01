@@ -172,3 +172,21 @@ test('a sorted tray is the same hand: requests in dealt order stay current, a di
   assert.throws(() => f.provider.capture(f.app, options.slice(0, 1), 'hand-1'), /no-current-playable-hand/, 'a subset is not the hand');
   assert.throws(() => f.provider.capture(f.app, [options[0], options[0]], 'hand-1'), /no-current-playable-hand/, 'nor a duplicate');
 });
+test('a root the worker could not describe fails with the WORKER\'s reason, never a masked one (FGRETRY1)', async () => {
+  const reject = async (reply) => {
+    const f = fixture(); delete f.deps.getRootMetadata;
+    f.client.describeRoot = async () => reply;
+    const p = ngGameValueCreateProvider(f.deps); f.app._choiceValueSource = p;
+    return p.prepare(f.app).then(() => 'resolved', e => e.code);
+  };
+  // the loader's coded reasons pass through unchanged
+  assert.equal(await reject({ status: 'unavailable', reason: 'metadata-network-failed' }), 'metadata-network-failed');
+  assert.equal(await reject({ status: 'unavailable', reason: 'metadata-digest-mismatch' }), 'metadata-digest-mismatch');
+  assert.equal(await reject({ status: 'unavailable', reason: 'stale-metadata-law:adapter' }), 'stale-metadata-law:adapter');
+  // a raw message is named by its class, not echoed
+  assert.equal(await reject({ status: 'unavailable', reason: 'Failed to fetch' }), 'root-description-unavailable');
+  assert.equal(await reject({ status: 'unavailable' }), 'root-description-unavailable');
+  // a reply that claims to describe the root and breaks the contract is still unverified
+  assert.equal(await reject({ status: 'ready', registrationKey: 'other', coverage: { status: 'COMPLETE' } }), 'unverified-root-description');
+  assert.equal(await reject(null), 'unverified-root-description');
+});

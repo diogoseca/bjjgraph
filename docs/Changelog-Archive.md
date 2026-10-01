@@ -9194,3 +9194,57 @@ path.ts parity, the emitter on a fixture, the corpus page, and every pass and fa
 Five mutants, all red: the emitter back on the space rule, the `%` row dropped, `_page` accepting
 anything, the raw-`%` source check removed, and the empty-file floor removed.
 `postprocessor_contract_test.py` 51/51; units 1,168/1,168.
+## v1.212.6 — ONE DROPPED METADATA REQUEST NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGRETRY1, 2026-10-01)
+
+**Found while chasing the hydration gate's "unavailable" (FGHYD2).** Before the worker can value the
+first hand, it loads the solver's metadata: a manifest, a variant, then content-addressed
+`mdp/part-*.txt` files. If ONE of those fetches failed:
+- the root description failed;
+- the provider masked the worker's reason as `unverified-root-description`;
+- the runtime HELD the failed prepare until the player pressed Retry.
+
+Reproduced deterministically by starting a corpus hydration at the moment the root description is
+posted. About 2,900 deck fetches in flight exhaust the renderer's request budget, which the worker
+shares, so Chromium refused part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. **9 of 15 runs lost
+Win chance for the session.** On a phone, the same class is a dropped request.
+
+**The fix.**
+- **Transient failures are retried.** The loader's `bytes()` retries, bounded at 4 attempts with
+  `NG_GAME_VALUE_FETCH_BACKOFF_MS` = 300 / 1,000 / 3,000 ms, at most ~4.3 s, far inside the client's
+  30 s root-description deadline. Transient means two things:
+  - no answer: a network error, which is all `fetch` reports of either cause;
+  - an answer that says "try again": 408, 429 or 5xx.
+- **An answer is never retried.** A 404 is permanent, and a size or digest mismatch is an integrity
+  failure that a second copy of the same URL cannot fix.
+- **Only network operations count as transient:** the fetch, a body read, `arrayBuffer`. A bug's
+  `TypeError` elsewhere in the loader is never mistaken for one.
+- **Exhausted retries keep their class:** `metadata-network-failed` or `metadata-fetch-failed`.
+- **The provider passes the worker's reason on.** A coded reason passes through unchanged. A raw
+  message is named only by its class, `root-description-unavailable`. Only a reply that claims to be
+  a description and breaks the contract is `unverified-root-description`.
+
+**Measured on the same storm, after the fix:** 14 of 15 runs settled. Chromium refused 1–4 metadata
+requests in 9 of the 15, and the retry absorbed every one. The one failure was
+`worker-cancellation-deadline`, a different class: FGCANCEL1, the next PR.
+
+**Gates.**
+- **New core journey, `game-value-fetch-retry.spec.ts`,** 3× green. It injects faults on the
+  WORKER's own requests (`page.route` sees a dedicated worker's fetches), and each test asserts that
+  its fault fired:
+  - a part dropped once is fetched again exactly once, and values arrive;
+  - a part that never arrives is tried exactly 4 times and stops, the held reason is
+    `metadata-network-failed`, and Retry is shown;
+  - a 404 part is tried exactly once, with reason `metadata-fetch-failed`.
+- **Unit tests:** `tests/game_value_loader.test.mjs` covers every transient kind (network, dropped
+  body, 503, 429, 408), the bound and backoff, 404 and digest never retried, and a bug never
+  classed transient. `tests/game_value_provider.test.mjs` covers reason passthrough.
+- **Unit mutants, all killed:** no retry; retrying any answer; network errors not classed
+  transient; the masked reason.
+- **Journey mutants on the built bundles, all killed:**
+  - no retry: the dropped-once test stays `unavailable | … | metadata-network-failed`, and the bound
+    test sees 1 attempt, not 4;
+  - the masked reason: both permanent-failure tests receive `unverified-root-description`;
+  - retrying an answer: the 404 is fetched 4 times, not once.
+- Units 1,168/1,168; value journeys 74/74 (choice-value, game-value-live, option-hand, momentum,
+  gameplan-study-live, option-edge, start-from, dual-consumers, game-knowledge,
+  hydration-restarts).
