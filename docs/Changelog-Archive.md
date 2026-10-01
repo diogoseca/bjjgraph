@@ -8948,3 +8948,16 @@ profile, a roll starting there) at body triangle top went 0.778 → 0.812 in no-
   - The Back Control x0.8 mutant still kills.
 - The FLOW ratchet names kimura-trap/bottom|Kimura Defense (-0.231 → -0.257). Its success lands on
   a half guard bottom that is worth less now. Seven known rows improved.
+
+**v1.212.2: the layout kept every coordinate and reordered every node.** `regenerate:graph-layout`
+in preserve mode reused all 1,448 coordinates. It still wrote the nodes in graph.json traversal
+order, which had drifted from the committed file. That array becomes graph-data.json's node order,
+so the whole wire was renumbered.
+- e2e-full went red on journeys that take "the first node of a type": seat-star picked Head
+  Extraction to Posture over Knee Slice Pass, and roam-stage picked Gogoplata Control, a control
+  alias.
+- Preserve mode now keeps the prior file's order (`_load_prev_order`), and new nodes append. The
+  wire's order equals dev's again.
+- In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
+  change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
+  `handsOverPrefetchCap` and `handsOverWarmCap`.
