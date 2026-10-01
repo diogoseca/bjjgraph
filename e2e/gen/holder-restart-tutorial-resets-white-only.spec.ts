@@ -83,8 +83,9 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   await j.rig("land-mc-shuffle", [0.2, 0.5, 0.8, 0.35, 0.65, 0.95, 0.14, 0.42])
   await j.land("Mount Top")
   await page.waitForFunction(() => !!(window as any).__neural?.scoreWeights?.())
-  // the pre-v1.104 coach marker — no writer exists since the coach's deletion (see header)
-  await page.evaluate(() => localStorage.setItem("bjj-neural-coached", "1"))
+  // the pre-v1.104 coach marker — no writer exists since the coach's deletion (see header).
+  // Owner-scoped since PR #231 (v1.208.x): the guest's copy is what restartTutorial clears.
+  await page.evaluate(() => localStorage.setItem("bjj-neural-owner:guest:coached", "1"))
 
   // arm the score: recall-prove 3 cards of the first WEIGHTED deck (position or technique seat)
   const armed = await page.evaluate(() => {
@@ -140,7 +141,7 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   expect(post.white, "white track back to 0/20").toEqual({ done: 0, total: 20, complete: false })
   expect(post.whiteKeys, "every white.* challenge entry deleted").toBe(0)
   expect(post.tutMap, "tut.done wiped to empty").toEqual({})
-  expect(post.coached, "bjj-neural-coached removed").toBeNull()
+  expect(post.coached, "the (owner-scoped) coached marker removed").toBeNull()
   // v1.133.0 retired the strip that printed this; the drip's own cursor is the same value
   expect(
     await page.evaluate(() => { const c = (window as any).__neural.tutCurrent(); return c ? c.id : null }),

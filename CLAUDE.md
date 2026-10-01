@@ -592,7 +592,7 @@ symbol to every version that touched it.
 - **Never pipe the survey that decides a rename or a deletion through `head`.** The `auto_pick` retirement was scoped from a truncated grep showing the sound catalog, the app and ONE gen spec, so it looked cheap. The real list is **7 gen specs + 2 core journeys** (`announcer-coherence`, `jit-loop`), and the core one only surfaced when the full suite went red. **Do: `| wc -l` first, then read all of it.** Second form of the same trap: where the enumeration is HAND-MAINTAINED rather than derived, a new member is missing by default — `attachInput`'s overlay early-return list has no gate deriving it, and `.ng-seemore` was absent from it for its entire existence.
   <br>_(2)_
 
-- **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). The `e2e:gen` red baseline is worse: it exists ONLY as prose — `e2e/gen/ledger.json` holds 179 rows and **every one is `"status": "accepted"`**, and no config, script or workflow carries a known-red list — so "the same 13 names" was unfalsifiable across four versions and has since drifted to 14. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
+- **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). `e2e:gen`'s was prose only and drifted 13 → 40 reds unseen; its ledger is now read by the runner. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
   <br>_(3)_
 
 - **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still worked, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
@@ -687,7 +687,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
-| `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh` | one row per generated spec |
+| `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 | `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
 
@@ -695,8 +695,9 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 `reuseExistingServer:false`. A config that reuses another worktree's server tests *that worktree's*
 `source/public`, which makes any result from it unreportable.
 
-**The suite is expected green.** `e2e:gen` carries a known-red set; anything red that the ledger
-does not name is yours. Do not transcribe a red count from prose — re-derive it from a run.
+**The suite is expected green.** `e2e:gen` tolerates only reds its ledger names `known-red`; its
+reporter fails any other red, and a named one that passes. Do not transcribe a red count from
+prose — re-derive it from a run.
 
 **Mutation testing is the practice here.** A claim is not gated until a mutant of it turns a
 **named** spec red. A surviving mutant is a missing spec, not a passing build — record the non-kill
@@ -704,13 +705,14 @@ in the spec's own header so nobody later mistakes it for coverage. See §6.9.
 
 ### Automation
 
-Fifteen workflows. **Five of them load this file into a Claude action** — so its size and its
+Sixteen workflows. **Five of them load this file into a Claude action** — so its size and its
 content are inputs to what the bots write, and a change here changes their output.
 
 | workflow | trigger | what it does |
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
 | `e2e-full.yml` | PR, weekly, manual | the full core Playwright suite, four shards |
+| `e2e-gen.yml` | weekly, manual | `e2e:gen` on **dev**, judged by its ledger |
 | `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |
 | `analytics-content-improvement.yml` † | Sun 06:00 UTC | PostHog-driven content work |

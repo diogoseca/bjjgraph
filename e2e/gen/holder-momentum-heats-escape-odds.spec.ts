@@ -26,9 +26,10 @@ import { whiteBeltHolder } from "./personas"
  * failure branch (the counter → closed-guard/bottom; v1.121.0 draws inside the branch),
  * opp-finish 0.01 < the 0.18 pFinish floor (the opponent always hunts the sub),
  * opp-sub-pick 0.01 pins which one (measured: Ezekiel Choke from Closed Guard). All 1-deep
- * queues, all consumed by the catch. The measurement itself is evaluate-only: no sim time
- * passes in testMode. (Since v1.133.0 the escapes are untimed anyway — only the panic
- * DRILL carries a question clock, and nothing here reads it.)
+ * queues, all consumed by the catch. The measurement passes only two 100 ms frame steps of sim
+ * time (the card repaints one frame after the change since v1.207.0 — see the measurement). Since
+ * v1.133.0 the escapes are untimed anyway — only the panic DRILL carries a question clock, and
+ * nothing here reads it.
  *
  * Probe facts leaned on:
  *   - _combo is reliably 0 at the catch: a fresh match starts cold and nothing here answers
@@ -89,7 +90,17 @@ test("caught: _combo 0→5 heats the live escape's odds by exactly +0.10, cards 
 
   // ── the core measurement: one live defense, one escape option, two combo states.
   // Evaluate-only — no advance() calls, so no decision-clock pressure. ──
-  const m = await page.evaluate(() => {
+  // THE CARD REPAINTS ON THE NEXT FRAME since v1.207.0 (83908ffce, PR #231, "Win chance is the one
+  // number on the card"). A player's own escape card no longer has its .ngodds written by
+  // refreshEscapeOdds (which now repaints THREAT cards only): its corner number is the stamped
+  // choice view's `immediateExecutionChance`, re-captured from the live escapeChance after the
+  // `_gameValueChanged("escape-odds")` that refreshEscapeOdds emits, and painted on the next frame.
+  // Read in the same synchronous turn, the card still showed the COLD stamp (44% for a 54% hot
+  // chance — the red this spec carried after the merge). So each toggle pumps one short frame step
+  // before the card is read; the claim — the card renders Math.round(escapeChance*100)+"%", hot
+  // and cold, exactly +10 points apart — is unchanged. ~0.2 s of sim time passes, far inside the
+  // defense window.
+  const m0 = await page.evaluate(() => {
     const a = (window as any).__neural
     const opt = a._optList[0]
     const comboAtCatch = a._combo || 0
@@ -101,17 +112,26 @@ test("caught: _combo 0→5 heats the live escape's odds by exactly +0.10, cards 
     a._combo = 5
     const modHot = a.momentumMod()
     const hot = a.escapeChance(opt)
-    a.refreshEscapeOdds() // hot re-render of every escape card's .ngodds
-    const oc = (a._optionCards || []).find((c: any) => c.opt === opt)
-    const hotDom = oc ? (oc.card.querySelector(".ngodds")?.textContent || "").trim() : null
-
-    a._combo = 0
-    a.refreshEscapeOdds() // cool back down — leave the DOM in the found state
-    const coldDom = oc ? (oc.card.querySelector(".ngodds")?.textContent || "").trim() : null
-    const snapshotRestored = a.escapeOddsSnapshot()
-
-    return { comboAtCatch, modCold, modHot, cold, hot, hotDom, coldDom, snapshotRestored }
+    a.refreshEscapeOdds() // hot: emits the change the choice view re-captures on the next frame
+    return { comboAtCatch, modCold, modHot, cold, hot }
   })
+  const readCard = () =>
+    page.evaluate(() => {
+      const a = (window as any).__neural
+      const oc = (a._optionCards || []).find((c: any) => c.opt === a._optList[0])
+      return oc ? (oc.card.querySelector(".ngodds")?.textContent || "").trim() : null
+    })
+  await j.advance(100)
+  const hotDom = await readCard()
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a._combo = 0
+    a.refreshEscapeOdds() // cool back down — leave the app in the found state
+  })
+  await j.advance(100)
+  const coldDom = await readCard()
+  const snapshotRestored = await page.evaluate(() => (window as any).__neural.escapeOddsSnapshot())
+  const m = { ...m0, hotDom, coldDom, snapshotRestored }
 
   // combo state at the catch: a fresh match, nothing answered — cold (skipping is free since v1.133.0)
   expect(m.comboAtCatch, "momentum is cold at the catch — nothing was earned this match").toBe(0)
@@ -127,7 +147,7 @@ test("caught: _combo 0→5 heats the live escape's odds by exactly +0.10, cards 
   expect(Math.round(m.cold * 100), "snapshot == rounded escapeChance of _optList[0]").toBe(cold0)
 
   // displayed points: exactly +10, and the card's .ngodds is Math.round(escapeChance*100)+"%"
-  // in BOTH directions of the toggle (refreshEscapeOdds is the single re-render seam)
+  // in BOTH directions of the toggle (since v1.207.0 the stamped choice view repaints it, one frame on)
   expect(m.hotDom, "hot card renders the rounded hot chance").toBe(`${Math.round(m.hot * 100)}%`)
   expect(m.coldDom, "cooled card renders the rounded cold chance again").toBe(`${Math.round(m.cold * 100)}%`)
   expect(parseInt(m.hotDom!) - parseInt(m.coldDom!), "displayed escape odds rose by exactly +10 points").toBe(10)
