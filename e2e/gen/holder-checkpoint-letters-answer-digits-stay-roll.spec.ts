@@ -161,7 +161,7 @@ test("digits during an open checkpoint quiz never open a sheet or commit the rol
   expect(s4.deckIdx, "Enter moved the quiz off its pick").toBe(s1.deckIdx)
   expect(s4.prep, "Enter credited no study on the quiz card's deck").toBe(s1.prep)
 
-  // ── THE STUDY KEYS ARE INERT WHILE THE QUIZ IS OPEN (v1.215.2, gen triage) ──
+  // ── THE STUDY KEYS ARE INERT WHILE THE QUIZ IS OPEN (v1.215.3, gen triage) ──
   // From v1.171.0 (a1d5cc3ff) the drill's ⏎ — and Space and ↑/↓ before it — revealed the quiz
   // card and then graded it as recall ("Got it", prep credit), and ←/→ paged the deck off the
   // card the quiz picked, which `_checkpointAnswer` then credited as the pick's answer. Each key,

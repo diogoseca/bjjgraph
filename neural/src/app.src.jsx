@@ -821,7 +821,7 @@ class Component extends DCLogic {
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
-        // AN OPEN CHECKPOINT QUIZ OWNS THE DECK SURFACE (v1.215.2, gen triage). A–C answer it
+        // AN OPEN CHECKPOINT QUIZ OWNS THE DECK SURFACE (v1.215.3, gen triage). A–C answer it
         // and nothing else may touch it: the quiz shows the FULL deck positioned at its pick, and
         // `_checkpointAnswer` credits whatever card `deckIdx` points at, so ←/→ would let a player
         // swap the tested card for one they know, and ↑/↓/⏎/Space would reveal it and grade it
@@ -7371,7 +7371,7 @@ class Component extends DCLogic {
     this.styleViewToggle();
     if (this.deckShown) this._renderPaneBody();
     this._refreshChallengeEvidence();
-    // THE CURRICULUM'S ARRIVAL IS A KNOWLEDGE CHANGE (v1.215.2, gen triage). It carries the score
+    // THE CURRICULUM'S ARRIVAL IS A KNOWLEDGE CHANGE (v1.215.3, gen triage). It carries the score
     // weights, and `gameScore()` memoises per `_stageVer`: when the deck manifest landed first, its
     // `_bumpStageVer → renderTabSubtitles → gameScore` had already memoised a score computed with
     // NO weights — 0 — and nothing bumped the version again, so a reloaded player read 0 until
@@ -7852,7 +7852,7 @@ class Component extends DCLogic {
     const posIdx = this._idIndex ? this._idIndex.get(belt.test.startNodeId) : null;
     const challengeTrack = NG_CHALLENGE_TRACKS.find((track) => track.id === beltId);
     this.showCenter("CONTENT CAPSTONE", (challengeTrack ? challengeTrack.name : belt.name) + " capstone", this._beltTest.maxMoves + " moves \u00b7 win by tap or on points", "bad", true);
-    // THE SEAT IS DECIDED BEFORE THE DEAL (v1.215.2, gen triage). Since v1.180.1 rollFromPosition
+    // THE SEAT IS DECIDED BEFORE THE DEAL (v1.215.3, gen triage). Since v1.180.1 rollFromPosition
     // deals the hand synchronously, and this used to set `playerRole` from `startDeckKey` AFTER
     // it: the White capstone ("Survive and Reverse", Mount|Bottom) seated the player bottom on a
     // hand of 16 TOP moves, and opponentDefend played the top hand too. The authored role is now

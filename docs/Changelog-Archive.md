@@ -9610,3 +9610,49 @@ corpus; triangle from Triangle Control prints 35%). It is not the 0.4 fallback, 
 | row light restored (rule removed) | red at the computed animation |
 | glow by `filter: drop-shadow` (passes the style checks) | red at the pixel differential (it first SURVIVED a narrower strip) |
 | escape base a constant 0.4 | red on the triangle |
+
+## v1.215.3 — THE THREE REAL BREAKS THE GEN TRIAGE NAMED, FIXED; THE LEDGER HOLDS NO KNOWN-RED
+
+The gen triage (v1.206.3–v1.208.4) kept two specs red and unweakened, as `known-red` ledger rows
+with a reason and an owner, and reported a third break that no spec guarded. All three are fixed
+here, each with a mutant that turns its pin red. Both rows are back to `accepted`, so
+`e2e/gen/ledger.json` now holds **0 known-red**.
+
+- **An open checkpoint quiz owns the deck surface** (`_onKey`, broken since `a1d5cc3ff` v1.171.0).
+  The quiz shows the FULL deck positioned at its pick, and `_checkpointAnswer` credits whatever card
+  `deckIdx` points at. So ⏎, Space and ↑/↓ revealed the quiz card and then graded it as recall
+  ("Got it", `prep` credit). And ←/→ (in the arrow branch from before v1.171.0) let a player page the
+  quiz off its pick onto a card they knew. All six keys are now consumed and inert while
+  `this._checkpoint` is open. They do not fall through to the corridor's own arrows behind the quiz.
+  `holder-checkpoint-letters-answer-digits-stay-roll` is extended from Enter alone to Enter, Space
+  and the four arrows, each pressed twice (the reveal → grade pair). Each key asserts: not revealed,
+  still on its pick, no credit, nothing graded. Mutants: the Enter, Space, arrows and paging-only
+  reverts each go red at their own key.
+  Not fixed (MC is 100% viable corpus-wide): if a checkpoint card ever failed to build MC, renderDrill
+  would fall back to a Reveal BUTTON that sets `revealed` directly.
+- **The curriculum's arrival is a knowledge change** (`_onCurriculum`). The deck manifest's
+  `_bumpStageVer → renderTabSubtitles → gameScore` memoised a score computed with no weights (0)
+  before `curriculum.json` (the weights) arrived. Nothing bumped `_stageVer` again, so a reloaded
+  player read 0 until they graded a card. Since PR #239 (v1.211.0) this matters more: the one-time
+  belt grandfather in `_syncBelt` reads `gameScore().belt` and then marks itself done. Its final
+  standalone belt sync is now `_publishKnowledge("curriculum")`, which drops the memo, THEN runs the
+  same sync with the same reason and repaints the tab. That is one seam, in the order
+  `_publishKnowledge` already guarantees. Pinned by `holder-restart-tutorial-resets-white-only`'s
+  bit-identical score across a reload. The revert mutant goes red there.
+- **A capstone deals the hand of the seat it gives** (`startBeltTest`, broken since `7e3eb9dc7`
+  v1.180.1, when `rollFromPosition` began dealing synchronously). The authored `startDeckKey` role is
+  now `rollFromPosition`'s `roleOverride`, and the roll stands on that role's MEMBER of the pair via
+  `_seatMember`, the seam `techniqueOrigin` and the play-confirm seat already use. So the seat, the
+  focused orb and the hand agree from the first frame. Measured before: White ("Survive and Reverse",
+  Mount|Bottom) seated bottom on the hub with 16 TOP cards. After: the bottom member, 6 bottom cards.
+  New `@curated` pin in `content-capstone.spec.ts`, run for ALL FIVE belts through the real button:
+  the seat is the authored role, the node is that role's member of the authored site, and every
+  dealt card's `fromRole` is `playerRole` (non-empty). Mutants: the original order goes red, and
+  "right role, hub not member" also goes red at the member assertion. The start test's position
+  check now compares the SITE (`siteIdOf`), since a seated capstone stands on the member.
+
+**Trap met on the way.** A worktree reused across two regenerations carried a STALE
+`game-worker-core-<hash>.js` in `neural/dist`, which `cp neural/dist/*` copies along. That put
+`validate:payload`'s deferred total over its cap (517,255 B, really 451,821) on an unmodified dev.
+`neural/dist` is not cleaned between builds. Clear it before a re-measure, and read the receipt
+(`neural/build/.tmp/game-bundles.json`) for the current core.
