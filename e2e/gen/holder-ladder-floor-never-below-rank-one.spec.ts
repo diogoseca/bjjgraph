@@ -66,7 +66,7 @@ test("ladder floor: a loss at rank 1 clamps — one capped ladder_down after def
       rank: st.rank,
       opponent: st.opponent,
       firstName: a.ladderNames()[0],
-      store: localStorage.getItem("bjj-neural-ladder"),
+      store: localStorage.getItem("bjj-neural-owner:guest:ladder"),
     }
   })
   expect(base.store, "fresh-boot wipe left bjj-neural-ladder absent — floor comes from the default").toBeNull()
@@ -119,7 +119,7 @@ test("ladder floor: a loss at rank 1 clamps — one capped ladder_down after def
       liveRank: a._ladder ? a._ladder.rank : null,
       opponent: st.opponent,
       firstName: a.ladderNames()[0],
-      stored: JSON.parse(localStorage.getItem("bjj-neural-ladder") || "null"),
+      stored: JSON.parse(localStorage.getItem("bjj-neural-owner:guest:ladder") || "null"),
     }
   })
   expect(after.stateRank, "ladderState().rank stays exactly 1 — the floor held").toBe(1)

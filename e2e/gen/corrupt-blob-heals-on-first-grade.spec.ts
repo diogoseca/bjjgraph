@@ -1,42 +1,20 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"drill-recall","B":"persistence-reload"} @invariant "After falling back from corrupt storage, the first graded card writes a valid v2 blob that replaces the corruption and survives a preserveStorage reload: post-reload JSON.parse succeeds, _progressBlob().v===2, and the graded prep key persists — the poison is quarantined, not resurrected." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"drill-recall","B":"persistence-reload"} @invariant "Malformed unknown-owner legacy bytes remain unchanged; the first real action writes a separate owned guest profile whose evidence/settings survive reload without importing legacy data." */
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 import { CORRUPT_BLOB_RAW, CURRICULUM } from "./personas";
 
 /**
- * CORRUPT BLOB HEALS ON FIRST GRADE — poisoned storage falls back to a fresh profile, stays
- * byte-identical through boot, then the FIRST graded card replaces it with a valid v2 blob that
- * survives a preserveStorage reload. Quarantined, never resurrected.
- *
- * Seams under test (probe-verified, 2 deterministic green runs):
- *   - _loadProgress (neural/src/app.src.jsx:1084) catches the JSON.parse throw and leaves the
- *     constructor-fresh profile (prep {} from :305): in-memory _progressBlob().v===2, 0 keys.
- *   - No boot-time writes to bjj-neural-progress: the default Challenge view remains lazy.
- *   - The drill rail grades through noteCardDone → _saveProgress, synchronously under test
- *     mode — the poison is replaced at the moment of grading;
- *     _flushSave() is the explicit belt-and-suspenders pin before reading storage back.
- *   - boot({preserveStorage:true}) re-ingests the HEALED blob: stored v===2, prep[deckKey]>=1
- *     both stored and in-memory, and the raw string never equals the poison again.
- *
- * SEEDING RECIPE (the personas.ts docstring recipe is WRONG — an addInitScript registered
- * before the first boot runs AHEAD of the DSL wipe, which then clears the poison):
- *   1. throwaway j.boot("/") FIRST, so the DSL wipe/ngseed init scripts register ahead of ours;
- *   2. THEN addInitScript writing CORRUPT_BLOB_RAW, guarded by a ONE-SHOT sessionStorage flag.
- *      Init scripts accumulate across boots; without the flag the preserveStorage boot would
- *      re-poison storage and fake a "resurrection" bug. The DSL wipe clears the flag on wiping
- *      boots (re-seeding there is exactly right) while a preserving boot keeps it (skip);
- *   3. boot again — navigation order: old-page pagehide _flushSave (app.src.jsx:341 — why
- *      evaluate+preserveStorage seeding also fails: the dying instance overwrites the poison
- *      with a valid blob) → DSL wipe → ngseed → our seed. The raw===CORRUPT_BLOB_RAW sanity
- *      assert after boot 2 is the seed-order proof.
- *
- * Assertions are structural only (versions, key counts, deckKeys, beats) — never card text.
+ * Unknown-owner legacy corruption stays byte-identical. Real grading writes a
+ * separate guest-owned v2 profile which survives preserveStorage reload. The
+ * one-shot raw seed runs after the DSL registration boot and is not replayed on
+ * preserving reloads. No implicit legacy import and no production auth bypass.
+ * Owned-cache corruption is a separate fail-closed recovery case.
  */
 
 const LESSON1: any = CURRICULUM.belts?.[0]?.units?.[0]?.lessons?.[0] ?? null;
 const KEY = "bjj-neural-progress";
 
-test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals, healed blob survives reload", async ({
+test("corrupt legacy bytes stay unchanged; first guest grade persists separately across reload", async ({
   page,
 }) => {
   test.skip(
@@ -67,7 +45,7 @@ test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals
     } catch {}
   }, CORRUPT_BLOB_RAW);
 
-  // ── Boot 2: pagehide flush (dying boot-1 app) → wipe → our poison → app reads the poison ──
+  // ── Boot 2: pagehide flush (dying boot-1 app) → wipe → our poison → app preserves the unknown-owner poison ──
   await j.boot("/", { keepTutorial: true });
   const fallback = await page.evaluate((key) => {
     const a = (window as any).__neural;
@@ -108,7 +86,7 @@ test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals
     ([key, dk]) => {
       const a = (window as any).__neural;
       a._flushSave(); // explicit pin (the grade's _saveProgress already wrote synchronously in test mode)
-      const raw = localStorage.getItem(key);
+      const raw = window.__ngGuestProgressRaw();
       let parsed: any = null;
       let parseOk = false;
       try {
@@ -125,7 +103,7 @@ test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals
     },
     [KEY, LESSON1.deckKey as string] as const,
   );
-  expect(healed.raw, "the poison was REPLACED by the first grade").not.toBe(
+  expect(healed.raw, "the first grade created separate owned guest progress").not.toBe(
     CORRUPT_BLOB_RAW,
   );
   expect(healed.parseOk, "stored blob parses again").toBe(true);
@@ -145,7 +123,7 @@ test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals
   const post = await page.evaluate(
     ([key, dk]) => {
       const a = (window as any).__neural;
-      const raw = localStorage.getItem(key);
+      const raw = window.__ngGuestProgressRaw();
       let parsed: any = null;
       let parseOk = false;
       try {
@@ -183,5 +161,7 @@ test("corrupt blob: fresh fallback, byte-identical quarantine, first grade heals
   ).toBeGreaterThanOrEqual(1);
 
   // ── Crash guard: corrupt read, heal, and reload all ran with zero page errors ──
+  expect(await page.evaluate(() => localStorage.getItem("bjj-neural-progress")),
+    "unknown-owner legacy bytes remain preserved after guest writes and reload").toBe(CORRUPT_BLOB_RAW);
   expect(errors, "no pageerror across poison boot + heal + reload").toEqual([]);
 });

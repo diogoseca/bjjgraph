@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -5,7 +6,7 @@ import { readFileSync } from "node:fs";
 // Execute the shared production section/renderer methods: full sheets must remain a superset
 // of the short landing introduction, including on mixed-cache and absent-perspective paths.
 const source = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-const Component = new Function("DCLogic", "React", `${source}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${source}\nreturn Component;`)(
   class {}, { createRef: () => ({ current: null }) },
 );
 const node = { ty: "transitions", t: "Example move" };

@@ -11,13 +11,8 @@
 // Run: node --test tests/due_cover.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
-import { dirname, resolve } from "node:path";
-
-const HERE = dirname(fileURLToPath(import.meta.url));
-const src = readFileSync(resolve(HERE, "..", "neural/src/app.src.jsx"), "utf8");
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+import { gameplanAppSource } from "./_gameplan_harness.mjs";
+const Component = new Function("DCLogic", "React", gameplanAppSource + "\nreturn Component;")(
   class DCLogic {}, { createRef: () => ({ current: null }) },
 );
 
@@ -25,6 +20,7 @@ function app(decks, srs) {
   const a = Object.create(Component.prototype);
   a.flashcards = { decks: decks, manifest: true };
   a.srs = srs;
+  a.nodes = [];
   a.prep = {}; a.rec = {}; a.settings = {};
   a.get = (_k, d) => d;
   return a;

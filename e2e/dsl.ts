@@ -2,6 +2,9 @@ import { expect, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
+declare global { interface Window { __ngGuestProgressRaw: () => string | null; __ngSeedError?: string } }
+
+
 // Big data payloads served from a per-worker buffer: on a saturated CI box, `npx serve`
 // streaming 13.5MB per fresh browser context can stall a boot past any reasonable budget.
 // Fulfilling from memory makes every boot deterministic (locally it's a no-op speedup).
@@ -147,7 +150,9 @@ export class Journey {
     opts: {
       seedRolls?: Record<string, number[]>;
       preserveStorage?: boolean;
-      /** synthetic bjj-neural-progress blob, applied post-wipe pre-app-read (hash-carried) */
+      /** Test-only route setup after default handlers, immediately before this navigation. */
+      beforeNavigate?: (page: Page) => Promise<void>;
+      /** Valid synthetic guest-owned progress blob, applied post-wipe pre-app-read (hash-carried). Corrupt raw bytes require an explicit seed. */
       initialState?: Record<string, unknown>;
       /** force the curriculum fetch to 404 (fallback-path journeys) */
       noCurriculum?: boolean;
@@ -206,17 +211,28 @@ export class Journey {
       // wipe above and BEFORE any page script, and a later boot can never replay a stale seed
       // (addInitScript args are frozen at registration — a mutable-holder design would leak).
       await this.page.addInitScript(() => {
+        // Fixture reader only: no production fallback, migration or import shortcut.
+        window.__ngGuestProgressRaw = () => {
+          const raw = localStorage.getItem("bjj-neural-owner:guest:progress");
+          if (raw === null) return null;
+          const envelope = JSON.parse(raw);
+          if (envelope?.format !== "bjj-progress-owner-v1" || envelope?.owner?.kind !== "guest" || "id" in envelope.owner || ![1, 2].includes(envelope?.blob?.v))
+            throw new Error("Invalid owned guest fixture");
+          return JSON.stringify(envelope.blob);
+        };
         try {
           const m = location.hash.match(/ngseed=([^&]+)/);
           if (m) {
             // NOTE: the hash is left in place — history.replaceState here can wake the
             // Quartz SPA router mid-boot and remount a fresh (pre-ingest) app instance
             localStorage.setItem(
-              "bjj-neural-progress",
-              decodeURIComponent(m[1]),
+              "bjj-neural-owner:guest:progress",
+              JSON.stringify({ format: "bjj-progress-owner-v1", owner: { kind: "guest" }, blob: JSON.parse(decodeURIComponent(m[1])), savedAt: 0 }),
             );
           }
-        } catch {}
+        } catch (error) {
+          window.__ngSeedError = String(error);
+        }
       });
     }
     if (opts.preserveStorage) {
@@ -373,11 +389,14 @@ export class Journey {
     await this.page.addInitScript((v) => {
       (window as any).__NEURAL_NO_PAIRS__ = v;
     }, !!opts.noPairs);
+    if (opts.beforeNavigate) await opts.beforeNavigate(this.page);
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }); // one retry: teardown races are transient
     }
+    const seedError = await this.page.evaluate(() => window.__ngSeedError || null);
+    expect(seedError, "ngseed fixture must contain valid JSON; seed raw owned corruption explicitly").toBeNull();
     if (opts.unready) {
       // the app instance and its constructor-time rails exist; the graph does not. Nothing below
       // (readiness wait, objective completion, seedRolls) can run without an ingest, so return.

@@ -126,7 +126,7 @@ const progress = (page: Page) =>
       coins: JSON.stringify(a.coins || {}),
       units: JSON.stringify(a.units || {}),
       score: a.gameScore().score,
-      blob: localStorage.getItem("bjj-neural-progress") || "",
+      blob: window.__ngGuestProgressRaw() || "",
       currentPos: a.currentPos,
       rollLog: JSON.stringify((a.rollLog || []).map((h: any) => h.key)),
     }

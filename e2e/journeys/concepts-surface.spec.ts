@@ -132,15 +132,15 @@ const payload = () => {
   return PAYLOAD;
 };
 
-/** systems.json, read the same way concepts.json is: the SERVED copy first, the emitted copy as
- *  the fallback before a build has copied it across. The rule covers all three libraries and
- *  Systems is a separate payload, so this journey cannot borrow the concepts one. */
+/** The full Systems library, read from its BUILD-INTERNAL home (v1.207.0: it is no longer served;
+ *  the app reads systems-index.json plus per-system records, scripts/_systems_demand.py). The rule
+ *  covers all three libraries and Systems is a separate payload, so this journey cannot borrow the
+ *  concepts one. */
 let SYS: { systems: Array<{ id: string; nodes: string[] }> } | null = null;
 const systemsPayload = () => {
   if (!SYS) {
     for (const rel of [
-      "../../source/public/static/neural/systems.json",
-      "../../source/quartz/static/neural/systems.json",
+      "../../source/quartz/.neural-internal/systems.json",
     ]) {
       try {
         SYS = JSON.parse(readFileSync(resolve(__dirname, rel), "utf8"));

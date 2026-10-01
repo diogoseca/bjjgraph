@@ -4,3 +4,4 @@ node_modules
 quartz/static/explorerTree.json
 quartz/static/neural
 quartz/static/globalGraphLayout.json
+quartz/.neural-internal

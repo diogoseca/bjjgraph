@@ -422,7 +422,7 @@ test("@curated no clock before the first real interaction — then full pressure
   // a returning visitor gets the full-pressure window — same seam, marker present
   const vet = await page.evaluate(() => {
     const a: any = (window as any).__neural
-    try { localStorage.setItem("bjj-neural-firstroll", "1") } catch (e) {}
+    try { localStorage.setItem("bjj-neural-owner:guest:firstroll", "1") } catch (e) {}
     a._returning = null // re-derive the latched answer from the marker
     a._disarmLandClock()
     a._decision = { remaining: null, total: null, warned: 0, pick: null, opts: [] }

@@ -111,7 +111,7 @@ test("curriculum 404: white.commit counts a live commit and survives reload whil
       checkpoint: a.challengeProgress("blue.checkpoint"),
       lessonCount: a._challengeSnapshot().lessonCount,
       blobChallenges:
-        JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+        JSON.parse(window.__ngGuestProgressRaw() || "{}")
           .challenges || {},
     }
   })

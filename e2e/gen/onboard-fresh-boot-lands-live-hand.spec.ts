@@ -47,7 +47,7 @@ test("cold fresh boot ingests full graph, is pristine, and deals a >=3-index liv
 
   // ── SEEDING SANITY: this is the empty NON-error path, not the corrupt-blob one. The progress key
   // must be absent pre-land, proving no phantom blob is driving the "pristine" reads that follow. ──
-  const preRaw = await page.evaluate(() => localStorage.getItem("bjj-neural-progress"))
+  const preRaw = await page.evaluate(() => window.__ngGuestProgressRaw())
   expect(preRaw, "empty-profile path: bjj-neural-progress is null before landing (no seed carried)").toBeNull()
 
   // ── PRISTINE COLD-BOOT STATE: full ingest, empty maps, zero mastery. ──

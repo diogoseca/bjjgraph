@@ -169,7 +169,7 @@ test("three guard-pull commits with non-pull interleaves: the hidden counter adv
   const persistedCoins = await page.evaluate(() => {
     const a = (window as any).__neural
     a._flushSave()
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     return Object.keys(blob.coins || {})
   })
   expect(persistedCoins, "persisted blob carries exactly the one minted coin").toEqual(["pulled-guard-again"])

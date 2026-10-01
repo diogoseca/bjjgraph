@@ -178,7 +178,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
   const sameLife = await page.evaluate((args) => {
     const { uk1, uk2, keys } = args as { uk1: string; uk2: string; keys: string[] }
     const a = (window as any).__neural
-    const stored = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const stored = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     const units = stored.units || {}
     const norm = (u: any) => (u ? { checkpoint: !!u.checkpoint, t: u.t } : null)
     return {
@@ -203,7 +203,7 @@ test("bombed unit-2 checkpoint never reaches the ledger across a reload, while t
   const reborn = await page.evaluate((args) => {
     const { uk1, uk2, keys } = args as { uk1: string; uk2: string; keys: string[] }
     const a = (window as any).__neural
-    const stored = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const stored = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     const norm = (u: any) => (u ? { checkpoint: !!u.checkpoint, t: u.t } : null)
     return {
       liveHasU2: Object.prototype.hasOwnProperty.call(a.units || {}, uk2),
