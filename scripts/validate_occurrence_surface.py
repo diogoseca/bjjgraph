@@ -177,8 +177,28 @@ def frame_state(role_block, frame):
     return mass, n_present
 
 
-def section1(containers, positions, out):
-    """Calibration <-> content fidelity, with renormalization accounted for."""
+def load_layer(path, repo_root):
+    """The SECOND calibration layer: `calibration/origin_coherence.json` (v1.209.0), the panel that
+    listed each origin-orphaned technique at its origin and nulled seven phantom no-gi cells. It
+    rescales the Q3 hands it touches, so against Q3 alone every cell of those 25 role-nodes reads
+    as a residual and its seven nulls as "cal CARRIES MASS" disagreements, although each one is a
+    recorded ruling. Returns {(abs file path, role): {move: {gi, nogi}}} from each container's
+    `after`; absent file -> {} (and the report says the layer was not read)."""
+    try:
+        doc = json.loads(Path(path).read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return {}
+    return {(str((repo_root / c["file"]).resolve()), c["role"]):
+            {r["move"]: {f: r[f] for f in FRAMES} for r in c["after"]}
+            for c in doc.get("containers", [])}
+
+
+def section1(containers, positions, out, layer=None):
+    """Calibration <-> content fidelity, with renormalization accounted for. A cell the
+    origin-coherence layer wrote is checked against THAT layer first (see `load_layer`); a cell
+    that matches neither still falls through to the buckets below, so drift stays visible."""
+    layer = layer or {}
+    layered = layer_joined = 0
     exact = renorm = 0
     off_by_one, unexplained, contradicts = [], [], []
     null_declared = null_agreed = 0
@@ -194,6 +214,8 @@ def section1(containers, positions, out):
         present = [m for m in c["moves"] if m["transition"] in cm]
         if not present:
             continue
+        ruled = layer.get((c["_path"], c["role"]))
+        layer_joined += bool(ruled)
         for frame in FRAMES:
             # CALIBRATION-side `or 0`, kept DELIBERATELY -- this pass nulls content, not the
             # calibration. Measured on calibration/occurrence_calibration.json: 5246 `final` cells, 0 null,
@@ -217,6 +239,9 @@ def section1(containers, positions, out):
                 resolvable += 1
                 got = cell(cm[m["transition"]], frame)
                 fin = (m.get("final") or {}).get(frame)
+                if ruled and m["transition"] in ruled and ruled[m["transition"]][frame] == got:
+                    layered += 1        # null or number, it is the second layer's recorded value
+                    continue
                 # A NULL content cell is a STRUCTURAL statement -- "no such edge in this frame" --
                 # never a quantity, so it is classified before any arithmetic touches it. The
                 # predecessor computed `abs((got or 0) - exp)`, which read every null as a 0 and
@@ -253,6 +278,8 @@ def section1(containers, positions, out):
     if resolvable:
         out.append(f"  exact match to cal.final        : {exact} ({100.0*exact/resolvable:.1f}%)")
         out.append(f"  explained by frame renorm       : {renorm} ({100.0*renorm/resolvable:.1f}%)")
+        out.append(f"  explained by origin coherence   : {layered} ({layer_joined} role-nodes joined to "
+                   f"calibration/origin_coherence.json{'' if layer else '; LAYER NOT READ'})")
         out.append(f"  residual +-1 (rounding tie)     : {len(off_by_one)}")
         out.append(f"  residual >=+-2 (UNEXPLAINED)    : {len(unexplained)}")
         out.append(f"  content NULL, cal frame declared: {null_declared}")
@@ -586,6 +613,8 @@ def main():
     ap.add_argument("content_root", nargs="?", default=str(ROOT / "content"))
     ap.add_argument("calibration", nargs="?", default=str(ROOT / "calibration/occurrence_calibration.json"))
     ap.add_argument("--ledger", default=str(ROOT / "tests/artifacts/occurrence_reviewed.json"))
+    ap.add_argument("--layer", default=str(ROOT / "calibration/origin_coherence.json"),
+                    help="the second calibration layer, checked before Q3 on the cells it wrote")
     ap.add_argument("--gate", action="store_true", help="make findings fatal (wired into no workflow)")
     ap.add_argument("--selftest", action="store_true",
                     help="run the null-layer contract on a synthetic corpus and exit")
@@ -606,7 +635,8 @@ def main():
     containers, skipped, unresolvable = resolve_containers(cal, by_path, content_root.parent)
 
     out = ["[validate_occurrence_surface] ruleset-availability surface report", ""]
-    resolvable, unexplained, contradicts = section1(containers, by_path, out)
+    layer = load_layer(a.layer, content_root.parent)
+    resolvable, unexplained, contradicts = section1(containers, by_path, out, layer)
     frames = section2(containers, by_path, out)
     scanned3, resolved3, cells = section3(frames, by_slug, name_to_slug, content_root, out)
     scanned4, tier_a, tier_b = section4(by_slug, ledger, out)
