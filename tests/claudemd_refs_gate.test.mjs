@@ -116,3 +116,49 @@ test("...but a bare filename that is neither present nor ignored still fails", (
     assert.match(r.out, new RegExp(needle), `must name ${needle}`);
   }
 });
+
+// ── THE TRACKED TREE, NOT A WALK (v1.215.1) ────────────────────────────────────────────
+// `npm run test:units` went red now and then on this file (2026-09-29, 2026-10-01): node --test
+// runs files in parallel, `git_date_maps.test.mjs` creates and deletes `source/.date-worker-*`,
+// and the gate's basename index used to WALK the working tree (`ROOT.rglob("*")`), listing that
+// directory and then scanning it after it was gone: `FileNotFoundError`. Deterministic here: a
+// hook on `os.scandir` (which pathlib's walk calls) deletes the directory at the instant it is
+// about to be scanned, the way the other test's cleanup won that race. The old walk is red on
+// every run; an index read from `git ls-files` never scans it. Mutant, recorded 2026-10-01:
+// restoring the walk turns this red with the same traceback the flake printed.
+test("a temp directory that vanishes mid-run cannot fail the gate: bare names come from the tracked tree", () => {
+  const victim = mkdtempSync(join(ROOT, "source", ".date-worker-"));
+  writeFileSync(join(victim, "transpiled-worker.mjs"), "// probe\n");
+  const dir = mkdtempSync(join(tmpdir(), "claudemd-refs-"));
+  const doc = join(dir, "probe.md");
+  writeFileSync(doc, "A tracked script named bare: `check_claudemd_refs.py`\n");
+  const driver = [
+    "import os, shutil, sys, runpy",
+    "real = os.scandir; fired = []",
+    "def scandir(path='.'):",
+    "    if isinstance(path, int): return real(path)  # rmtree's own fd-based scans pass straight through",
+    "    p = os.fspath(path).rstrip('/')",
+    "    if os.path.basename(p).startswith('.date-worker-') and os.path.isdir(p):",
+    "        shutil.rmtree(p); fired.append(p)",
+    "    return real(path)",
+    "os.scandir = scandir",
+    `sys.argv = [${JSON.stringify(GATE)}, ${JSON.stringify(doc)}]`,
+    "try:",
+    `    runpy.run_path(${JSON.stringify(GATE)}, run_name='__main__')`,
+    "finally:",
+    "    print('VANISH_HOOK_FIRED', len(fired))",
+  ].join("\n");
+  try {
+    const r = spawnSync("python3", ["-c", driver], { cwd: ROOT, encoding: "utf8" });
+    const out = `${r.stdout || ""}${r.stderr || ""}`;
+    assert.doesNotMatch(out, /FileNotFoundError|Traceback/, `the gate scanned a vanished directory:\n${out}`);
+    assert.equal(r.status, 0, `the gate must pass:\n${out}`);
+    // positive coverage: the bare name really was checked against a non-empty tracked index
+    assert.match(out, /bare names checked against [\d,]+ tracked files/, "the index size is printed");
+    const n = Number(out.match(/against ([\d,]+) tracked files/)[1].replace(/,/g, ""));
+    assert.ok(n > 1000, `a real tracked tree was indexed (${n} files)`);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+    rmSync(victim, { recursive: true, force: true });
+  }
+});
