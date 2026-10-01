@@ -8961,3 +8961,57 @@ so the whole wire was renumbered.
 - In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
   change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
   `handsOverPrefetchCap` and `handsOverWarmCap`.
+
+## v1.212.3 — THE HYDRATION GATE COUNTS BURSTS, NOT SECONDS, AND NAMES WHY VALUES DID NOT SETTLE (FGHYD2, 2026-10-01)
+
+**The red.** `hydration-restarts.spec.ts` (FGHYD1, v1.211.1) went red on PR 242's e2e-full shard 2:
+"10 solve restarts (snapshots) for 2885 decks over 9969 ms (ceiling 9)". It had been green on PRs 240
+and 241.
+
+**Verdict: a flaky gate, not a regression of the coalescer.**
+- On dev and on PR 242's head (10 runs each, a probe tallying every value-change call by caller),
+  every snapshot came from the coalescer's own `_gameValueChanged("deck-hydrated")`, 20 of 20 runs:
+  4–6 per hydration of 6.0–7.4 s on both builds. PR 242's re-homed moves added no restart path.
+- The first ceiling, `4 + ceil(ms / 2000)`, assumed the decks arrive as ONE stream. They often do
+  not, even locally: 19 of 40 runs of the gate's own sequence had a gap of more than 250 ms between
+  two deck arrivals (largest 3,349 ms). Each such stall closes a burst, and the next deck opens
+  another, with one more leading restart and one more trailing one. Both are correct.
+- 10 against 9 is two stalls' worth.
+
+**The new ceiling is the coalescer's contract, read off the arrivals this run had:**
+2 per burst + 1 per `NG_RESIDENCY_MAX_HOLD_MS` of streaming + 2 slack. A burst ends at a gap over
+200 ms (below the 250 ms settle delay, so jitter can only loosen the bound). Arrival times come from
+`_onDeckHydrated`, which feeds the coalescer, never from the coalescer, so a mutant cannot move its
+own bound.
+
+**A second count names the path.** Snapshots minus the coalescer's own restarts
+(`_residencyStats`) is what came from anywhere else. It was 0 in every measured run.
+
+**Mutants on the built bundle, all killed, each naming its class:**
+- a per-deck restart: "2,852 solve restarts came from OUTSIDE the burst coalescer";
+- the knowledge notice not routed: 2,896 OUTSIDE, 0 coalesced;
+- the odds refresh not held: 27 OUTSIDE;
+- the same-key drill panel not held: 25 OUTSIDE;
+- the coalescer itself restarting on every arrival (max hold 0): "2,886 … (ceiling 32)".
+
+**Controls.** Injected stalls, busy-wait (12 runs) and route-held chunk responses (8 runs), never
+turned the new ceiling red, and "outside" stayed 0. Neither turned the OLD ceiling red either: a
+busy-wait freezes the settle timer with the arrivals, and a held response lengthens the wall clock
+that the old formula scaled with. The CI shape (a stall that splits bursts without stretching the
+wall clock enough) was not reproduced on demand. The fix rests on the tally and the gap census, not
+on a reproduced false red.
+
+**The gate now says why values did not settle.** It polls
+`status | reason | game-value state | its reason`, not the status alone. One local red on dev before
+this change had ended "unavailable" and said nothing more. After it, the gate's own sequence named
+the cause twice in 48 local runs (1 of 40 probe runs, 1 of 8 stall controls):
+`unavailable | evaluation-failed | unavailable | worker-cancellation-deadline`.
+- What happens: a restart cancels the solve in flight, the busy worker does not acknowledge within
+  the client's 1 s grace, and the client terminates it. The runtime then holds that failure for the
+  session, until Retry.
+- That is app-side and is reported separately, not fixed here.
+- A second app-side class was found on the way: a corpus hydration that overlaps the worker's metadata
+  load makes Chromium refuse part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. That is FGRETRY1's
+  fix, its own PR.
+
+**Gates.** The hardened gate, 10/10 on dev a7bc58ce4 + this; units 1,163/1,163.
