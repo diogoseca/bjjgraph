@@ -48,6 +48,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
 - **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
+- **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8961,3 +8962,42 @@ so the whole wire was renumbered.
 - In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
   change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
   `handsOverPrefetchCap` and `handsOverWarmCap`.
+
+## v1.212.6 — THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP
+
+**Found by the OCSTAR1 punctuation probe (OCURL1).** After opening 100% Sweep, the next node,
+Knee Slice Pass, still showed `/Transitions/100%-Sweep`. Two defects sat behind it:
+1. `_syncUrl` pushed "/" + node id, so the address held a raw `%`. `_pushUrl` compared
+   `decodeURI(location.pathname)`, which throws "URI malformed" on it, inside a catch commented
+   "history unavailable (sandboxed iframe)". Every later push threw the same way, and the address
+   bar froze until a reload, with no trace anywhere.
+2. Quartz does not build the page at the id. `sluggify` (source/quartz/util/path.ts) writes `%` as
+   `-percent`, so the page is /Transitions/100-percent-Sweep. Even a correctly encoded `%25` named a
+   page that does not exist, and an arrival on the real page resolved to nothing.
+
+**Fix.**
+- `_pageSlug` maps an id to its page path with Quartz's own replacements, which a unit test reads
+  from both sources and pins equal.
+- `_idIndex` indexes the page spelling too.
+- `_decodePath` is the one decoder for every path reader (`_nodeForPath`, `_nodeAndRoleForPath`,
+  `_seedPageFromUrl`, the systems ref parser). It never throws, and it reads a stray `%` literally.
+- A URL failure is a named, COUNTED `url_fault` beat ({kind, path, error, n}), not a silent catch.
+  `_pushUrl` pushes `encodeURI(path)`.
+
+**Gates.**
+- `tests/url_sync.test.mjs` uses a browser-faithful fake address bar (the WHATWG URL parser keeps
+  an invalid `%` raw, like Chromium). It covers:
+  - the 100% Sweep pin, including that the next push lands;
+  - a round-trip of all 2,896 node seats;
+  - a sweep of the 6 seats whose id carries a character outside RFC 3986's unreserved set (two
+    apostrophes and one `%`, both seats);
+  - a raw `%` already in the address (resolves, the next push lands, the fault is counted);
+  - Quartz-parity of `_pageSlug`.
+- Mutants, all red: `decodeURI` back in `_pushUrl` (test 3); `_pageSlug` as the identity (tests
+  1, 2); no aliases (tests 1, 2); a no-op `_urlFault` (test 3).
+- `e2e/journeys/url-percent.spec.ts` arrives on /Transitions/100-percent-Sweep, leaves, comes back,
+  and leaves again: the address follows, with no `url_fault`.
+
+**Separate finding, not fixed here.** `scripts/regenerate_redirects.py` builds its targets with
+only the space-to-hyphen rule, so `/transitions/100%-sweep` 301s to `/Transitions/100%-Sweep`,
+which 404s. It is the same class: a second copy of Quartz's slug rule that drifted.
