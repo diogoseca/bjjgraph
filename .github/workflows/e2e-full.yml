@@ -269,3 +269,84 @@ jobs:
             e2e/test-results/
             test-results/
           if-no-files-found: ignore
+
+  # THE GENERATED SUITE, ON EVERY PR (v1.215.1). `e2e:gen` (e2e/gen, ~100 journeys) went 13 → 40
+  # red while no PR ran it: v1.176.0 alone broke 18 of its specs and the PR that shipped it was
+  # green. It now runs here, beside the four shards, on the SAME build artifact, and its verdict is
+  # the ledger's: e2e/gen-ledger-reporter.ts fails on any red e2e/gen/ledger.json does not name as
+  # `known-red`, and on a named one that passes (stale row). A red here is fixed in the PR that
+  # caused it, or named in the ledger with a reason and an owner — never silently tolerated.
+  # It reads only the built site (the artifact) and node_modules: no Quartz deps, no history.
+  # .github/workflows/e2e-gen.yml still runs it weekly against dev, which a PR job cannot see
+  # (direct pushes, merges of merges).
+  gen:
+    name: Generated suite (e2e:gen vs its ledger)
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install test dependencies
+        run: npm ci --ignore-scripts
+
+      # Same artifact the shards test; download- and upload-artifact are bumped as a PAIR (see the
+      # shard job's note).
+      - name: Download tested site
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: complete-e2e-site
+
+      - name: Extract tested site
+        run: |
+          tar -xzf complete-e2e-site.tgz
+
+      # Browser cache keyed on the resolved Playwright version — the shard job's note explains why
+      # never on the lockfile.
+      - name: Resolve Playwright version
+        id: pw-version
+        run: |
+          V="$(node -p "require('@playwright/test/package.json').version" 2>/dev/null || true)"
+          if [ -z "$V" ]; then
+            echo "::error::Could not resolve the @playwright/test version; refusing to key the browser cache on a guess."
+            exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Chromium OS deps (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
+      # The [gen-ledger] lines in this step's log name every red, whether the ledger tolerates
+      # it, and who owns it.
+      - name: Run the generated suite against the ledger
+        run: npm run e2e:gen
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: e2e-gen-results
+          path: |
+            e2e/test-results/
+            e2e/report-gen/
+          if-no-files-found: ignore
