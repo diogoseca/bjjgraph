@@ -3,11 +3,11 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "ee016f366829f63ed28412300492e489336c3218",
+   "git_head": "907b7c36b6e5960c70f8214f0feb56b88cb4e1bd",
    "inputs": {
-    "tree": "0cd01244c6d090cb041f84d83ba8fc72be0e266c"
+    "tree": "a53366a9aecb71029caadaba189314789b687ec7"
    },
-   "package_version": "1.213.4",
+   "package_version": "1.213.6",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
@@ -78,8 +78,8 @@
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
-    "bytes": 27619,
-    "sha256": "ec4a81d00fbf464e10add90909513cdb9b5520e4bc86efec9ee6176dd707549d",
+    "bytes": 27793,
+    "sha256": "bbda1afc2728bfa82d092474d056204bd239f18dc8ac8cc38a55b9a0dbe154dd",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-5521025c86db7ca59dbe4829ea19e368af10a0d22aac7ec8db51b977d42f6a0a.js": {
