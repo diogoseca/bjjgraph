@@ -23,6 +23,9 @@ MUTANTS (each turns this file red; measured at v1.214.0):
   - listing_absences ignoring the frame mask: test_a_move_the_frame_masks_is_not_repeated (v1.215.0);
   - listing_absences ignoring the dealing rule: test_a_listing_that_does_not_deal_is_not_named;
   - check_absence_hands accepting a relaxed hand: test_an_absence_may_not_empty_its_main_pass.
+  - listing_absences not naming a listing at a state the frame masks: test_today_only_masked_states_are_named
+    (v1.216.0, and listing_absence.test.mjs's flip case);
+  - check_absence_hands without the masked-state exemption: test_a_state_the_frame_masks_is_exempt_from_the_hand_check.
 Run by tests/listing_tables_py.test.mjs, which `test:units` collects.
 """
 
@@ -162,20 +165,31 @@ class Seam(unittest.TestCase):
             self.assertEqual(canonical_reread.findall(code), [], f"{f} re-reads the canonical table for a card")
             self.assertGreaterEqual(code.count("_priced(a)"), uses, f"{f} reads the card's priced technique")
 
-    def test_today_every_card_is_the_canonical_node(self):
-        """B1's byte-identity, at the seam: no listing on the corpus carries a table yet."""
-        cards = same = 0
+    def test_every_card_is_canonical_or_its_listings_table(self):
+        """B2 (v1.216.0): a dealt card is its technique's canonical node, unless its listing carries its
+        own table, and then it is exactly that table's view. The expected counts come from the
+        provenance, never a literal: every applied table deals in gi, the gi-only ones not in no-gi."""
+        prov = json.loads((ROOT / "calibration" / "listing_tables.json").read_text(encoding="utf-8"))
+        dropped = {d["key"] for d in prov.get("dropped", [])}
+        applied = [t for t in prov["tables"] if t["key"] not in dropped]
+        want = {"gi": len(applied), "nogi": sum(1 for t in applied if t["result"]["success_rate"].get("nogi") is not None)}
+        cards, own = 0, {"gi": 0, "nogi": 0}
         for key, node in GRAPH["positions"].items():
             if node.get("role") not in ("top", "bottom"):
                 continue
+            edges = {t["target"]: t for t in node.get("transitions") or []}
             for fr in ("gi", "nogi"):
                 hand, *_ = sev.build_hand(GRAPH, key, sev.Opts(frame=fr))
                 for a in hand:
                     cards += 1
-                    same += a.tech is GRAPH[a.cat][a.target + "/attacker"]
+                    e = edges.get(a.target)
+                    if e and e.get("ownTable"):
+                        own[fr] += 1
+                        self.assertIs(a.tech["outcomes"], e["outcomes"], f"{key} {a.name}: priced from its listing's table")
+                    else:
+                        self.assertIs(a.tech, GRAPH[a.cat][a.target + "/attacker"], f"{key} {a.name}: the canonical node")
         self.assertGreater(cards, 2000, "the walk dealt the corpus")
-        self.assertEqual(same, cards)
-
+        self.assertEqual(own, want, "every applied table is dealt, once per frame it exists in")
 
 
 class Absence(unittest.TestCase):
@@ -192,14 +206,23 @@ class Absence(unittest.TestCase):
                            "techniques": {v["hub"] for sec in ("transitions", "submissions")
                                           for v in GRAPH[sec].values() if v.get("hub")}}) for fr in ("gi", "nogi")}
 
-    def test_today_there_is_none(self):
-        self.assertEqual(self.rnd.listing_absences(GRAPH, self.reach), {}, "B1.5 ships byte-identical")
+    # v1.216.0 (B2): the only absences are the 4 gi-only deal_here tables at states no-gi never reaches
+    TODAY = {"bolo-sweep": {"nogi": ["worm-guard"]}, "leg-weave-pass": {"nogi": ["lasso-guard", "spider-guard"]},
+             "x-pass": {"nogi": ["double-sleeve-guard"]}}
+
+    def test_today_only_masked_states_are_named(self):
+        st = {}
+        self.assertEqual(self.rnd.listing_absences(GRAPH, self.reach, st), self.TODAY)
+        self.assertEqual(st["masked_state"], {"gi": 0, "nogi": 4}, "every absence today is at a state no-gi masks")
 
     def test_a_dealt_listing_nulled_in_a_frame_is_named(self):
         g = copy.deepcopy(GRAPH)
         pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or [] if t.get("dealHere"))
         t["attemptProbabilityByRuleset"]["nogi"] = None
-        self.assertEqual(self.rnd.listing_absences(g, self.reach), {t["target"]: {"nogi": [g["positions"][pk]["hub"]]}})
+        want = copy.deepcopy(self.TODAY)
+        cell = want.setdefault(t["target"], {}).setdefault("nogi", [])
+        cell[:] = sorted(set(cell) | {g["positions"][pk]["hub"]})
+        self.assertEqual(self.rnd.listing_absences(g, self.reach), want)
 
     def test_a_listing_that_does_not_deal_is_not_named(self):
         g = copy.deepcopy(GRAPH)
@@ -207,14 +230,25 @@ class Absence(unittest.TestCase):
         pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or []
                      if not t.get("dealHere") and tech.get(t["target"], {}).get("fromPositionId") not in (None, p.get("hub")))
         t["attemptProbabilityByRuleset"]["nogi"] = None
-        self.assertEqual(self.rnd.listing_absences(g, self.reach), {}, f"{pk} -> {t['technique']} is dealt nowhere here")
+        self.assertEqual(self.rnd.listing_absences(g, self.reach), self.TODAY, f"{pk} -> {t['technique']} is dealt nowhere here")
 
     def test_a_move_the_frame_masks_is_not_repeated(self):
         g = copy.deepcopy(GRAPH)
-        pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or [] if t.get("dealHere"))
+        pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or []
+                     if t.get("dealHere") and t["target"] not in self.TODAY)
         t["attemptProbabilityByRuleset"]["nogi"] = None
         reach = {fr: {"positions": r["positions"], "techniques": set(r["techniques"]) - {t["target"]}} for fr, r in self.reach.items()}
-        self.assertEqual(self.rnd.listing_absences(g, reach), {}, "cal.avail already masks a move absent from the frame")
+        self.assertEqual(self.rnd.listing_absences(g, reach), self.TODAY, "cal.avail already masks a move absent from the frame")
+
+    def test_a_state_the_frame_masks_is_exempt_from_the_hand_check(self):
+        """v1.216.0 (B2, full-game review OCPRB8-FG): an absence at a state its frame masks is NAMED,
+        because setGiMode does not re-seat, but check_absence_hands exempts it: no walk deals there.
+        Without the exemption the worm guard one empties its main pass."""
+        ab = self.rnd.listing_absences(GRAPH, self.reach)
+        self.assertEqual(self.rnd.check_absence_hands(GRAPH, ab, self.reach), (0, 4, []))
+        checked, exempt, bad = self.rnd.check_absence_hands(GRAPH, ab)
+        self.assertEqual((checked, exempt), (4, 0))
+        self.assertEqual(bad, ["worm-guard/bottom [nogi]: absent bolo-sweep leaves no main-pass card"])
 
 
     def test_an_absence_may_not_empty_its_main_pass(self):
@@ -223,7 +257,7 @@ class Absence(unittest.TestCase):
         def one_and_many():
             single = many = None
             for key, p in GRAPH["positions"].items():
-                if p.get("role") not in ("top", "bottom"):
+                if p.get("role") not in ("top", "bottom") or key not in self.reach["nogi"]["positions"]:
                     continue
                 hand, relaxed = sev.build_hand(GRAPH, key, sev.Opts(frame="nogi"))[:2]
                 if relaxed:
@@ -242,7 +276,7 @@ class Absence(unittest.TestCase):
             edge = next(t for t in g["positions"][key]["transitions"] if t["target"] == card.target)
             edge["attemptProbabilityByRuleset"]["nogi"] = None
             ab = self.rnd.listing_absences(g, self.reach)
-            checked, bad = self.rnd.check_absence_hands(g, ab)
+            checked, _exempt, bad = self.rnd.check_absence_hands(g, ab, self.reach)
             self.assertGreaterEqual(checked, 1, key)
             self.assertEqual(len(bad), want, f"{key}: {bad}")
 

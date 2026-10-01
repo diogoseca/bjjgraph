@@ -343,7 +343,46 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": 40
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "success"
+          },
+          {
+            "to": "Reverse De La Riva Guard/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Headquarters Pass",
@@ -745,7 +784,54 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 35,
+          "nogi": 32
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 7,
+              "nogi": 7
+            },
+            "result": "success"
+          },
+          {
+            "to": "Reverse De La Riva Guard/Bottom",
+            "probability": {
+              "gi": 46,
+              "nogi": 46
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Berimbolo Entry",

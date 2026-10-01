@@ -133,7 +133,46 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 16
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 38,
+          "nogi": 43
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 43,
+              "nogi": 43
+            },
+            "result": "success"
+          },
+          {
+            "to": "Butterfly Guard/Top",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Leg Drag Pass",
@@ -147,7 +186,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 8
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 40,
+          "nogi": 40
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "success"
+          },
+          {
+            "to": "Butterfly Guard/Top",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Butterfly Guard to Butterfly Half Guard",

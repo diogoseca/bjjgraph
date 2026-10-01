@@ -741,12 +741,36 @@ def gate(fl, baseline_path, lam=2.0, H=FLOW_H, write=False):
                     "this is content re-authoring, not a two-field flip, and FLOW must not print "
                     "a backfiring badge for this family until it lands.",
                 "new-york/bottom|New York to Invisible Collar": "Same collision as above.",
+                "inside-ashi-garami/top|Outside Ashi Entry":
+                    "ORIGIN COHERENCE PR B2 (v1.216.0): the listing's OWN outcome table, from the LLM "
+                    "persona panel (calibration/listing_tables.json, one round, not expert data). From "
+                    "the inside entanglement the panel lands a successful Outside Ashi Entry in "
+                    "outside ashi, which the shipped model values below the inside position it left. "
+                    "Not overruled: undecided between a real trap (leaving an inside entanglement for "
+                    "an outside one gives up position) and an authoring defect in the panel's table, "
+                    "so it is named here and queued for the owner's content pass.",
+                "inside-sankaku/top|Outside Ashi Entry": "Same panel table and the same question as "
+                    "inside-ashi-garami/top above, from the inside sankaku.",
             },
         }
+        # A REVIEWED NOTE MAY LIVE ONLY IN THE BASELINE (the Kimura Trap price, v1.157.0/v1.158.0,
+        # was written into the JSON by hand), so a rewrite CARRIES every prior note whose row is still
+        # known and RETIRES, by name, each one whose row cleared. Until v1.216.0 this writer kept only
+        # the notes above: the B2 rewrite dropped 8 of 10, 6 of them on rows still in the ratchet.
+        prior = {}
+        if os.path.exists(baseline_path):
+            with open(baseline_path, "r", encoding="utf-8") as fh:
+                prior = json.load(fh).get("reviewed", {})
+        carried = {k: v for k, v in prior.items() if k in known and k not in doc["reviewed"]}
+        retired = sorted(k for k in prior if k not in known and k not in doc["reviewed"])
+        doc["reviewed"].update(carried)
         with open(baseline_path, "w", encoding="utf-8") as fh:
             json.dump(doc, fh, indent=1, sort_keys=True)
             fh.write("\n")
         print("  wrote %s (%d known rows at or below %.2f)" % (baseline_path, len(known), -0.25))
+        print("  reviewed notes: %d (%d carried from the previous baseline), %d retired (row cleared)%s"
+              % (len(doc["reviewed"]), len(carried), len(retired),
+                 "".join("\n    RETIRED  " + k for k in retired)))
         return 0
 
     with open(baseline_path, "r", encoding="utf-8") as fh:

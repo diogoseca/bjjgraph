@@ -304,7 +304,46 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 52,
+          "nogi": 49
+        },
+        "outcomes": [
+          {
+            "to": "Mounted Triangle/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "success"
+          },
+          {
+            "to": "S Mount/Top",
+            "probability": {
+              "gi": 28,
+              "nogi": 28
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Americana from S Mount",

@@ -400,7 +400,46 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 26,
+          "nogi": 23
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "success"
+          },
+          {
+            "to": "Williams Guard/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Closed Guard/Top",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Posture Recovery",

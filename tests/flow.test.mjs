@@ -46,7 +46,9 @@
 import { test } from "node:test";
 import { gameplanAppSource, gameplanRuntime } from "./_gameplan_harness.mjs";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { readFileSync, mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import {
@@ -163,6 +165,15 @@ test("both roles carry occupancy — the top-member collapse must never come bac
 //   gi              1.78%    39/40           88.7%       29.5% Kneebar from Half Guard    1.55%
 //   nogi/standing   0.18%    40/40           68.6%       31.0% Knee Torque Sweep|Attacker 2.37%
 //   gi/standing     1.10%    39/40           73.9%       29.5% Kneebar from Half Guard    1.79%
+// v1.216.0 (origin coherence PR B2, the 95 per-listing tables) raised gi/standing's worst-deck bound
+// 0.30 -> 0.35, the other three games' figure, and let a near-tie cross the cut at 10. Both are
+// ROUNDING, proved the same way: open-guard/bottom now also deals the gi-only Tripod Sweep table, so
+// Transition to Clamp Guard's 1-point card is 1.43% of that hand and ships as 1/99 (30.2% worst on
+// the wire). The kernel fed build_hand's EXACT shares agrees in all four games: V0 0.00-0.02%,
+// top-40 40/40, L1 0.00-0.02%, top-10 order exact. Measured on the wire at v1.216.0:
+//   nogi 0.93% / 39/40 / 31.0% Knee Torque Sweep / 1.55%; gi 1.75% / 39/40 / 30.1% Transition to
+//   Clamp Guard / 1.57%; nogi/standing 0.20% / 40/40 / 31.0% / 2.33%; gi/standing 0.80% / 39/40 /
+//   30.2% Transition to Clamp Guard / 1.81%.
 // v1.212.0 raised the no-gi worst-deck bounds 0.30 -> 0.35 and the top-10 near-tie 1% -> 1.5%, and
 // both are ROUNDING, proved rather than assumed: half-guard/bottom now deals Knee Shield Retention
 // (deal_here) and lost Lumberjack Sweep (re-homed), so its 1-point cards are 1.408% of the hand and
@@ -187,7 +198,7 @@ const GAMES = {
   "nogi":          { frame: "nogi", start: null,     top40: 39, band: 0.85, worst: 0.35 },
   "gi":            { frame: "gi",   start: null,     top40: 39, band: 0.85, worst: 0.35 },
   "nogi/standing": { frame: "nogi", start: STANDING, top40: 38, band: 0.60, worst: 0.35 },
-  "gi/standing":   { frame: "gi",   start: STANDING, top40: 39, band: 0.70, worst: 0.30 },
+  "gi/standing":   { frame: "gi",   start: STANDING, top40: 39, band: 0.70, worst: 0.35 },
 };
 function solveGame(key) {
   const g = GAMES[key], k = g.frame === "gi" ? KG : K;
@@ -219,9 +230,20 @@ for (const key of Object.keys(GAMES)) {
     // tolerance table above); anything else is a disagreement.
     // MUTATION: `Back Control|Top`'s reference gradient x0.8 drops it below `Closed Guard|Top` (4.7% apart):
     // red, "not a near-tie swap". Non-kill, recorded: x0.9 on `Half Guard|Bottom` crosses no neighbour.
-    assert.deepEqual([...jsOrder.slice(0, 10)].sort(), [...pyOrder.slice(0, 10)].sort(), "top-10 set");
+    // THE CUT AT 10 IS A BOUNDARY TOO (v1.216.0, PR B2): a deck may cross it only from inside the
+    // near-tie band at the reference's 10th gradient (1.5%), as the top-40 boundary already may. In
+    // no-gi the reference's ranks 10-13 sit within 1.13% (Elbow Escape to Guard, which eight new
+    // listing tables made valuable, then Open Guard|Top, Back Control|Bottom, Open Guard|Bottom), and
+    // whole-percent shares put Open Guard|Bottom at the JS 10th. Fed the EXACT shares the JS top 10 is
+    // the reference's, order and all (see the tolerance table above).
+    const cut = ref.py.get(pyOrder[9]);
+    const inBand = (d) => Math.abs(ref.py.get(d) - cut) / Math.abs(cut) <= 0.015;
+    const crossed = [...jsOrder.slice(0, 10).filter((d) => !pyOrder.slice(0, 10).includes(d)),
+                     ...pyOrder.slice(0, 10).filter((d) => !jsOrder.slice(0, 10).includes(d))];
+    assert.ok(crossed.every(inBand), `top-10 set differs outside the near-tie band at the cut: ${crossed.join(", ")}`);
     for (let r = 0; r < 10; r++) {
       if (jsOrder[r] === pyOrder[r]) continue;
+      if (inBand(jsOrder[r]) && inBand(pyOrder[r])) continue;      // both inside the band at the cut
       const near = (a, b) => Math.abs(ref.py.get(a) - ref.py.get(b)) / Math.abs(ref.py.get(b)) <= 0.015;
       const swapped = (jsOrder[r] === pyOrder[r + 1] && jsOrder[r + 1] === pyOrder[r] && near(pyOrder[r], pyOrder[r + 1]))
         || (r > 0 && jsOrder[r] === pyOrder[r - 1] && jsOrder[r - 1] === pyOrder[r] && near(pyOrder[r], pyOrder[r - 1]));
@@ -230,8 +252,8 @@ for (const key of Object.keys(GAMES)) {
     const shared = jsOrder.slice(0, 40).filter((d) => pyOrder.slice(0, 40).includes(d)).length;
     assert.ok(shared >= g.top40, `top-40 sets share ${shared} (floor ${g.top40})`);
     // and the top is positions, which is the finding gameScore cannot see (it weights them 0)
-    assert.ok(jsOrder.slice(0, 10).every((d) => d.endsWith("|Top") || d.endsWith("|Bottom")),
-      "the ten highest-value decks are positions");
+    assert.ok(jsOrder.slice(0, 10).every((d) => d.endsWith("|Top") || d.endsWith("|Bottom") || inBand(d)),
+      "the ten highest-value decks are positions (a technique only from inside the near-tie band at the cut)");
     // magnitudes, deck by deck and in aggregate
     let n = 0, ok = 0, worst = 0, worstDeck = "", l1 = 0, l1d = 0;
     for (const d of k.deckKeys) {
@@ -510,26 +532,39 @@ test("6a: the gi kernel reads the gi hands and the gi rate; the no-gi kernel nei
   assert.ok(cardsCompared > 1000, `gi card coverage starved: ${cardsCompared}`);
   assert.ok(forkedStates >= 200, `the gi and no-gi shares differ at only ${forkedStates} states`);
   // RATES: every card of a technique with a gi fork prices at the gi rate in gi, the scalar in no-gi
+  // -- and a card dealt from a listing with its OWN table (v1.214.0, PR B) at THAT listing's rate,
+  // read from the wire's `cal.at[posId]` as data (never through the app's calSuccess, which is what
+  // the kernel itself calls)
   const byTitle = new Map(APPG.nodes.filter((n) => n.cal && n.cal.outcomes).map((n) => [n.t, n]));
-  let forked = 0;
+  const rateOn = (n, posId, frame) => {
+    const at = n.cal && n.cal.at && n.cal.at[posId];
+    if (at) return frame === "gi" && at.successRateByRuleset && typeof at.successRateByRuleset.gi === "number"
+      ? at.successRateByRuleset.gi : at.successRate;
+    return frame === "gi" && GI_FORK.has(n.id) ? GI_FORK.get(n.id) : n.cal.successRate;
+  };
+  let forked = 0, listingCards = 0;
   for (const [k, frame] of [[KG, "gi"], [K, "nogi"]]) {
-    for (const hand of k.hands) for (const a of hand) {
+    for (let i = 0; i < k.hands.length; i++) for (const a of k.hands[i]) {
       const n = byTitle.get(a.name);
-      const want = frame === "gi" && GI_FORK.has(n.id) ? GI_FORK.get(n.id) : n.cal.successRate;
+      const posId = k.states[i].slice(0, k.states[i].lastIndexOf("/"));
+      if (n.cal && n.cal.at && n.cal.at[posId]) listingCards++;
+      const want = rateOn(n, posId, frame);
       assert.ok(Math.abs(a.p0 - Math.max(0, Math.min(1, want / 100))) < 1e-12,
         `${frame}: ${a.name} priced at ${a.p0}, the ${frame} rate is ${want}%`);
       if (frame === "gi" && GI_FORK.has(n.id)) forked++;
     }
   }
   assert.ok(forked >= 100, `only ${forked} gi cards carry a forked rate — the rate check is vacuous`);
+  assert.ok(listingCards >= 150, `only ${listingCards} cards come from a listing's own table — the listing half is vacuous`);
   // THE OVERRIDE moves hands AND rates: a gi app asked for the no-gi route (what
   // scripts/semantics/wire_semantics.mjs does) prices every card at the no-gi rate, not its own
   const KO = ngFlowBuild(APPG, { frame: "nogi" });
   assert.equal(KO.handsFrame, "nogi");
   let overridden = 0;
-  for (const hand of KO.hands) for (const a of hand) {
+  for (let i = 0; i < KO.hands.length; i++) for (const a of KO.hands[i]) {
     const n = byTitle.get(a.name);
-    assert.ok(Math.abs(a.p0 - Math.max(0, Math.min(1, n.cal.successRate / 100))) < 1e-12, `override: ${a.name}`);
+    const posId = KO.states[i].slice(0, KO.states[i].lastIndexOf("/"));
+    assert.ok(Math.abs(a.p0 - Math.max(0, Math.min(1, rateOn(n, posId, "nogi") / 100))) < 1e-12, `override: ${a.name}`);
     if (GI_FORK.has(n.id)) overridden++;
   }
   assert.ok(overridden >= 100, `the override check touched only ${overridden} forked cards`);
@@ -684,4 +719,28 @@ test("7d: a fixed start the kernel does not hold is ranked as Anywhere — and S
   const fb = a.beats.filter((b) => b && b.beat === "flow_start_fallback");
   assert.equal(fb.length, 1, "ONE named beat");
   assert.equal(fb[0].want, "no-such-position");
+});
+
+// The ratchet's REVIEWED notes outlive a rewrite (v1.216.0). Some live only in the baseline file (the
+// Kimura Trap price was written there by hand), and `--baseline` used to keep only the two it hard-codes:
+// the B2 rewrite dropped 8 of 10, 6 on rows still known. A rewrite now carries a note whose row is
+// still known and retires, by name, one whose row cleared.
+// MUTANT: drop the carry in solve_flow.gate (measured red at v1.216.0).
+test("8: a baseline rewrite carries every reviewed note whose row is still known", () => {
+  const live = JSON.parse(readFileSync(resolve(HERE, "artifacts/flow_validation_baseline.json"), "utf8"));
+  const kept = Object.keys(live.known).find((k) => !(k in live.reviewed));
+  assert.ok(kept, "a known row with no note to plant one on");
+  const work = mkdtempSync(resolve(process.env.TMPDIR || tmpdir(), "flow-baseline-"));
+  try {
+    const path = resolve(work, "baseline.json");
+    writeFileSync(path, JSON.stringify({ ...live, reviewed: { ...live.reviewed, [kept]: "planted", "no-such/top|Gone": "retire me" } }));
+    const r = spawnSync("python3", [resolve(HERE, "../scripts/solve_flow.py"), "--baseline", "--baseline-path", path], { encoding: "utf8" });
+    assert.equal(r.status, 0, r.stdout + r.stderr);
+    const out = JSON.parse(readFileSync(path, "utf8"));
+    assert.deepEqual(out.known, live.known, "the rewrite measures the same rows as the committed baseline");
+    assert.equal(out.reviewed[kept], "planted", "a note on a still-known row is carried");
+    assert.ok(!("no-such/top|Gone" in out.reviewed), "a note whose row is gone is retired");
+    assert.match(r.stdout, /RETIRED {2}no-such\/top\|Gone/);
+    assert.deepEqual(Object.keys(out.reviewed).sort(), [...Object.keys(live.reviewed), kept].sort(), "every committed note survives");
+  } finally { rmSync(work, { recursive: true, force: true }); }
 });

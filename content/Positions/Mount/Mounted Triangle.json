@@ -752,7 +752,46 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 26,
+          "nogi": 29
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "success"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "success"
+          },
+          {
+            "to": "Mounted Triangle/Bottom",
+            "probability": {
+              "gi": 47,
+              "nogi": 47
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Armbar Control/Bottom",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Bridge Defense from Mounted Triangle",

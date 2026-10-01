@@ -427,7 +427,38 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 59
+        },
+        "outcomes": [
+          {
+            "to": "Outside Ashi-Garami/Top",
+            "probability": {
+              "gi": 59,
+              "nogi": 59
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inside Ashi-Garami/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Saddle Entry from Top",

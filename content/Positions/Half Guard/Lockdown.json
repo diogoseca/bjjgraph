@@ -376,7 +376,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 8
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 31,
+          "nogi": 28
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 28,
+              "nogi": 28
+            },
+            "result": "success"
+          },
+          {
+            "to": "Lockdown/Top",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Knee Slice from Half",

@@ -384,7 +384,46 @@
         "attempt_probability": {
           "gi": 16,
           "nogi": 15
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 44,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "success"
+          },
+          {
+            "to": "Knee Shield Half Guard/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Smash Pass",

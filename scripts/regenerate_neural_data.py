@@ -309,6 +309,12 @@ def listing_absences(graph: dict, reach: dict, stats: dict | None = None) -> dic
     and the frame's mask still admits the move (a move absent from the frame altogether is already
     masked, so it is not repeated here). Keyed by posId strings like `alsoFrom`, never an index.
 
+    A STATE THE FRAME MASKS STILL GETS ITS ABSENCE (v1.216.0, full-game review OCPRB8-FG). No walk
+    reaches it in that frame, but `setGiMode` does not re-seat: a player standing there in gi who flips
+    to no-gi is dealt there in no-gi, and without the absence a gi-only table would be priced at the
+    scalar fallback. Those absences are counted apart (`masked_state`), and `check_absence_hands`
+    exempts them.
+
     POSITIVE COVERAGE (full-game review OCABS1, CLAUDE.md 6.6): `stats`, when given, receives how
     many dealt listings were examined, the null cells per frame at dealt listings, how many of those
     are masked moves, how many null cells sit on away listings no rule deals, and the absences. The
@@ -319,9 +325,9 @@ def listing_absences(graph: dict, reach: dict, stats: dict | None = None) -> dic
     tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
             for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
     st = {"examined": 0, "away_null": {"gi": 0, "nogi": 0}, "dealt_null": {"gi": 0, "nogi": 0},
-          "masked": {"gi": 0, "nogi": 0}, "absences": {"gi": 0, "nogi": 0}}
+          "masked": {"gi": 0, "nogi": 0}, "masked_state": {"gi": 0, "nogi": 0}, "absences": {"gi": 0, "nogi": 0}}
     out = {}
-    for p in (graph.get("positions") or {}).values():
+    for pk, p in (graph.get("positions") or {}).items():
         hub, role = p.get("hub"), p.get("role")
         for t in p.get("transitions") or []:
             tv = tech.get(t.get("target"))
@@ -339,6 +345,10 @@ def listing_absences(graph: dict, reach: dict, stats: dict | None = None) -> dic
                 if t.get("target") not in reach[fr]["techniques"]:
                     st["masked"][fr] += 1
                     continue
+                # a state the frame masks (B2: the 4 gi-only deal_here tables at worm, spider, lasso and
+                # double-sleeve guard) is still named, for the player who flips the ruleset there
+                if pk not in reach[fr]["positions"]:
+                    st["masked_state"][fr] += 1
                 st["absences"][fr] += 1
                 out.setdefault(t["target"], {}).setdefault(fr, set()).add(hub)
     if stats is not None:
@@ -346,28 +356,35 @@ def listing_absences(graph: dict, reach: dict, stats: dict | None = None) -> dic
     return {k: {fr: sorted(v) for fr, v in sorted(m.items())} for k, m in sorted(out.items())}
 
 
-def check_absence_hands(graph: dict, absent_at: dict) -> list:
+def check_absence_hands(graph: dict, absent_at: dict, reach: dict | None = None) -> tuple:
     """NO ABSENCE MAY EMPTY ITS LISTING'S MAIN PASS (full-game review OCABS1). A listing whose every
     dealt card is absent in a frame would hand the state to the origin-relaxed fallback, which deals
     cards with no `ord` (CLAUDE.md 6.6) and ignores `absentAt`, so it could re-deal the absent move.
     For every (listing, frame) named, `build_hand` (which drops a null attempt exactly as the dealers
-    skip an absence) must still deal its main pass there. Returns (checked, violations): the number
-    of (listing, frame) main passes examined, and one message per emptied one; the caller prints the
-    count and raises on any violation."""
+    skip an absence) must still deal its main pass there.
+
+    EXEMPT: a listing at a state its frame masks (`reach`, v1.216.0, OCPRB8-FG). No walk deals there,
+    so an emptied main pass meets only the pre-existing relaxed fallback at a state the frame never
+    reaches, never the null-frame table. Returns (checked, exempt, violations): the (listing, frame)
+    main passes examined, those exempted, and one message per emptied one; the caller prints both
+    counts and raises on any violation."""
     from solve_edge_values import Opts, build_hand   # the game's own dealing rule, not a copy
     tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
             for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
-    bad, checked = [], 0
+    bad, checked, exempt = [], 0, 0
     for target, frames in absent_at.items():
         role = (tech.get(target) or {}).get("fromRole")
         for fr, hubs in frames.items():
             for hub in hubs:
-                checked += 1
                 key = f"{hub}/{role}"
+                if reach is not None and key not in reach[fr]["positions"]:
+                    exempt += 1
+                    continue
+                checked += 1
                 hand, relaxed = build_hand(graph, key, Opts(frame=fr))[:2]
                 if relaxed or not hand:
                     bad.append(f"{key} [{fr}]: absent {target} leaves no main-pass card")
-    return checked, bad
+    return checked, exempt, bad
 
 
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
@@ -579,13 +596,16 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     _as = _absence_stats
     print(f"  listing absences: {_as['examined']} dealt listings examined; null cells at dealt listings "
           f"gi {_as['dealt_null']['gi']} / no-gi {_as['dealt_null']['nogi']} (masked moves gi {_as['masked']['gi']} / "
-          f"no-gi {_as['masked']['nogi']}), on away listings gi {_as['away_null']['gi']} / no-gi {_as['away_null']['nogi']}; "
-          f"absences gi {_as['absences']['gi']} / no-gi {_as['absences']['nogi']}")
+          f"no-gi {_as['masked']['nogi']}), "
+          f"on away listings gi {_as['away_null']['gi']} / no-gi {_as['away_null']['nogi']}; "
+          f"absences gi {_as['absences']['gi']} / no-gi {_as['absences']['nogi']} "
+          f"(at masked states gi {_as['masked_state']['gi']} / no-gi {_as['masked_state']['nogi']})")
     if not _as["examined"]:
         raise SystemExit("[neural] listing_absences examined 0 dealt listings: the dealing-rule join matched "
                          "nothing, which reads exactly like 0 absences (CLAUDE.md 6.6). Refusing to emit.")
-    _hands_checked, _emptied = check_absence_hands(graph, absent_at)
-    print(f"  listing absences: {_hands_checked} (listing, frame) main passes checked, {len(_emptied)} emptied")
+    _hands_checked, _hands_exempt, _emptied = check_absence_hands(graph, absent_at, reach)
+    print(f"  listing absences: {_hands_checked} (listing, frame) main passes checked, {_hands_exempt} exempt "
+          f"(a state the frame masks), {len(_emptied)} emptied")
     if _emptied:
         raise SystemExit("[neural] an absence empties its listing's main pass, handing the state to the "
                          "origin-relaxed fallback: " + "; ".join(_emptied))

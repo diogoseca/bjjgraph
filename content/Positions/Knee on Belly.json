@@ -713,7 +713,46 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": 45
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 26,
+              "nogi": 26
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "success"
+          },
+          {
+            "to": "Knee on Belly/Bottom",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Hip Escape to Guard",

@@ -103,9 +103,9 @@ test("@curated the hand uncapped; the deck warm-up did not", async ({ page }) =>
   // since v1.212.1 (16 / 12 until then): the deal_here listings add a card to some hands and the
   // re-homes move one between others.
   const overCap = hands.filter((h) => h.cards > 10)
-  expect(overCap.length, "hands dealing more than the warm-up cap").toBe(17) // census:handsOverPrefetchCap
+  expect(overCap.length, "hands dealing more than the warm-up cap").toBe(18) // census:handsOverPrefetchCap
   const strictly = hands.filter((h) => h.cards > 11)
-  expect(strictly.length, "hands warming strictly fewer decks than they deal cards").toBe(11) // census:handsOverWarmCap
+  expect(strictly.length, "hands warming strictly fewer decks than they deal cards").toBe(12) // census:handsOverWarmCap
   for (const h of strictly) {
     expect(h.warmed, `${h.st} caps its warm-up at 10 options + its own deck`).toBe(11)
     expect(h.warmed, `${h.st} warms fewer decks than it deals cards`).toBeLessThan(h.cards)

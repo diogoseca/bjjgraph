@@ -758,7 +758,54 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 46,
+          "nogi": 52
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 26,
+              "nogi": 26
+            },
+            "result": "success"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "success"
+          },
+          {
+            "to": "Shin-to-Shin Guard/Bottom",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Omoplata Sweep",

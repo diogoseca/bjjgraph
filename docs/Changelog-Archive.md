@@ -54,6 +54,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
 - **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
 - **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
+- **v1.216.0** — [95 LISTINGS DEAL THEIR OWN OUTCOME TABLE](#v12160--95-listings-deal-their-own-outcome-table)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9565,3 +9566,92 @@ B1 builds the mechanism and applies **no** table; B2 applies them.
 - `listing_absences` ignoring the frame mask;
 - `listing_absences` ignoring the dealing rule;
 - `check_absence_hands` accepting a relaxed hand.
+
+## v1.216.0 — 95 LISTINGS DEAL THEIR OWN OUTCOME TABLE
+
+**Origin coherence PR B2 (OCPRB2, OCPRB4, OCPRB7), 2026-10-01.** This is the data half of B1's
+mechanism (v1.214.0) and v1.215.0's per-frame absence. The tables are the second round of an LLM
+persona panel, not expert data.
+
+**What is applied.** `apply_listing_tables.py --apply-listings` writes `deal_here`, `success_rate`
+and display-path `outcomes` into 70 position files. It is idempotent, and `--check` exits 1 on any
+difference.
+- **95 of the 107 tables.** 85 are in both frames and 10 are gi-only.
+- **12 dropped at control-alias positions** (OCPRB4: re-key 0, drop 12). Each drop is recorded in
+  `calibration/listing_tables.json` `dropped`, with its reason:
+  - 6 are defender-side: the canonical submission state deals its escapes (`cal.defenses`), which
+    are not technique nodes.
+  - 6 are attacker-side: the canonical state's continuations do not include the move. The near-miss
+    is Rolling Back Take @ omoplata control, where the state deals Omoplata to Back, a different node.
+- **D3, the gi-only tables.** 6 no-gi attempts are nulled and renormalised (floor-preserving round),
+  all at positions no-gi never reaches, so they are inert in play. The 3 Tripod Sweep listings at
+  no-gi-present states were already null in no-gi from Q3, so the wire carries **0 absences**.
+- **Generated output.** 11 Markdown pages change (the renormalised no-gi shares at Double Sleeve,
+  Lapel, Lasso, Spider and Worm Guard). 507 pages drifted only in system-card order and were restored.
+- **graph.json.** 95 own tables and 103 `deal_here`, with the layout in preserve mode and the
+  ordinals unchanged. The wire carries 95/95 as `cal.at`.
+
+**Mechanism refinements.**
+- **An absence at a state its frame masks is named, and exempt from the hand check.** B2 applies 4
+  gi-only `deal_here` tables at states no-gi never reaches (worm, spider, lasso and double-sleeve
+  guard). Named, the worm guard one emptied its main pass, and `check_absence_hands` refused the emit.
+  - Skipping those states was the first fix. The full-game seat refused it (OCPRB8-FG): `setGiMode`
+    does not re-seat, so a player who flips to no-gi there would be dealt the gi-only table, with a
+    null no-gi rate priced at the scalar fallback.
+  - So they stay named, and `check_absence_hands` exempts a state its frame masks. No walk deals
+    there; an emptied hand meets only the pre-existing relaxed fallback.
+  - Measured: the flipped no-gi hands at all 4 states are identical to dev + PR 252's.
+  - The print reads: 1,414 dealt listings examined; no-gi null cells at dealt listings 68 (64 on
+    masked moves); 8 on away listings; absences no-gi 4, all 4 at masked states; 0 main passes
+    checked, 4 exempt, 0 emptied.
+
+  `listing_absence.test.mjs` flips at all 7 gi-only tables on masked states. Four are kept out by
+  `absentAt`; for the other three, the no-gi mask removes the move. The mutant that stops naming them
+  fails with "Bolo Sweep at worm-guard: no-gi deals the gi-only table". The Python cases pin the
+  exemption, and its mutant is red.
+- **`check_deal_here` no longer calls an own-table listing a teleport.** It prints the 8 listings
+  whose authored miss lands mostly on the origin hub, as info. All 8 are gi-side Body Lock Pass and
+  Half Guard Pass rows (for example Lockdown 37/72, Vaporizer 41/75), and they are queued for the
+  owner's content pass.
+- **`mdp_corpus.test.mjs` lands a card at its listing.** `opt.res` is used for an own-table card,
+  mirroring the app's `landOf`. MDP_OPPONENT_ORDER: 484 hands, 0 different.
+
+**FLOW.**
+- **The ratchet** goes from 22 known rows to 19:
+  - 5 cleared (Cross Ashi to 50-50, Body Triangle Lock, Half Guard to Jailbreak, Rolling Kimura
+    Escape, Return to Outside Ashi);
+  - 2 reviewed and added: Outside Ashi Entry at inside-ashi-garami/top and inside-sankaku/top, where
+    the panel lands a success in outside ashi. Both go to the content pass.
+- **The rewrite lost review notes, and now keeps them.** `--baseline` wrote only the notes it
+  hard-codes, so it dropped 8 of 10, 6 of them on rows still known (the Kimura Trap price). A rewrite
+  now carries the note of any row still known and retires a cleared row's note by name. Two were
+  retired: Rolling Kimura Escape and Return to Outside Ashi. 10 notes remain. Pinned by flow.test.mjs
+  case 8; its mutant is red.
+- **Case 6a** reads `cal.at[posId]` as data, with a floor of ≥ 150 listing cards.
+- **Two tolerances widened, both proved to be rounding:**
+  - gi/standing worst deck, 0.30 → 0.35;
+  - a near-tie may cross the cut at 10, within 1.5% of the 10th gradient.
+
+  The kernel fed `build_hand`'s exact shares agrees in all four games: V0 0.00-0.02%, top-40 40/40,
+  top-10 order exact. The Back Control ×0.8 mutant is still red.
+
+**Census.**
+- dual-consumers 1,221 → 1,316 cards carrying a mark;
+- option-overflow 17 → 18 and 11 → 12;
+- neural_seat_decks 1,221 → 1,316.
+
+**The owner screen** lists 95 newly dealt cards at 82 seats.
+- Win chance moves by more than a quarter point at 56 seat-frames. The largest are:
+  - standing-rear-clinch/top, gi 80.1 → 82.0 and no-gi 80.0 → 81.5;
+  - 3-4-mount/bottom, no-gi 52.5 → 53.9.
+- **P(I finish) from standing, before → after:**
+
+| game | no-gi | gi |
+|---|---|---|
+| shipped rule | 0.7230 → 0.7213 | 0.7169 → 0.7144 |
+| player-neutral | 0.5533 → 0.5533 | 0.5476 → 0.5473 |
+| the app's game (uniform) | 0.3452 → 0.3417 | 0.3425 → 0.3384 |
+
+- **The origin filter drops less attempt mass:**
+  - no-gi 12,511 → 11,436 of 26,500 points (47.2% → 43.2%), with orphaned techniques 2 → 0;
+  - gi 12,284 → 11,214 of 26,600 (46.2% → 42.2%).

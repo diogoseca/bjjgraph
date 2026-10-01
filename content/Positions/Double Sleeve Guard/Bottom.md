@@ -21,19 +21,19 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Double Sleeve Guard",
-      "text": "From this position, attempt Guard Recovery from Double Sleeve Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Double Sleeve Guard. This technique is attempted in 21% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sickle Sweep",
-      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sickle Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],

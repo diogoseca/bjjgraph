@@ -315,7 +315,46 @@
         "attempt_probability": {
           "gi": 12,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 54,
+          "nogi": 51
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Butterfly/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 8,
+              "nogi": 8
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Pass Half Butterfly",
