@@ -48,6 +48,8 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
 - **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
+- **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
+- **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8961,3 +8963,215 @@ so the whole wire was renumbered.
 - In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
   change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
   `handsOverPrefetchCap` and `handsOverWarmCap`.
+
+## v1.212.3 — THE HYDRATION GATE COUNTS BURSTS, NOT SECONDS, AND NAMES WHY VALUES DID NOT SETTLE (FGHYD2, 2026-10-01)
+
+**The red.** `hydration-restarts.spec.ts` (FGHYD1, v1.211.1) went red on PR 242's e2e-full shard 2:
+"10 solve restarts (snapshots) for 2885 decks over 9969 ms (ceiling 9)". It had been green on PRs 240
+and 241.
+
+**Verdict: a flaky gate, not a regression of the coalescer.**
+- On dev and on PR 242's head (10 runs each, a probe tallying every value-change call by caller),
+  every snapshot came from the coalescer's own `_gameValueChanged("deck-hydrated")`, 20 of 20 runs:
+  4–6 per hydration of 6.0–7.4 s on both builds. PR 242's re-homed moves added no restart path.
+- The first ceiling, `4 + ceil(ms / 2000)`, assumed the decks arrive as ONE stream. They often do
+  not, even locally: 19 of 40 runs of the gate's own sequence had a gap of more than 250 ms between
+  two deck arrivals (largest 3,349 ms). Each such stall closes a burst, and the next deck opens
+  another, with one more leading restart and one more trailing one. Both are correct.
+- 10 against 9 is two stalls' worth.
+
+**The new ceiling is the coalescer's contract, read off the arrivals this run had:**
+2 per burst + 1 per `NG_RESIDENCY_MAX_HOLD_MS` of streaming + 2 slack. A burst ends at a gap over
+200 ms (below the 250 ms settle delay, so jitter can only loosen the bound). Arrival times come from
+`_onDeckHydrated`, which feeds the coalescer, never from the coalescer, so a mutant cannot move its
+own bound.
+
+**A second count names the path.** Snapshots minus the coalescer's own restarts
+(`_residencyStats`) is what came from anywhere else. It was 0 in every measured run.
+
+**Mutants on the built bundle, all killed, each naming its class:**
+- a per-deck restart: "2,852 solve restarts came from OUTSIDE the burst coalescer";
+- the knowledge notice not routed: 2,896 OUTSIDE, 0 coalesced;
+- the odds refresh not held: 27 OUTSIDE;
+- the same-key drill panel not held: 25 OUTSIDE;
+- the coalescer itself restarting on every arrival (max hold 0): "2,886 … (ceiling 32)".
+
+**Controls.** Injected stalls, busy-wait (12 runs) and route-held chunk responses (8 runs), never
+turned the new ceiling red, and "outside" stayed 0. Neither turned the OLD ceiling red either: a
+busy-wait freezes the settle timer with the arrivals, and a held response lengthens the wall clock
+that the old formula scaled with. The CI shape (a stall that splits bursts without stretching the
+wall clock enough) was not reproduced on demand. The fix rests on the tally and the gap census, not
+on a reproduced false red.
+
+**The gate now says why values did not settle.** It polls
+`status | reason | game-value state | its reason`, not the status alone. One local red on dev before
+this change had ended "unavailable" and said nothing more. After it, the gate's own sequence named
+the cause twice in 48 local runs (1 of 40 probe runs, 1 of 8 stall controls):
+`unavailable | evaluation-failed | unavailable | worker-cancellation-deadline`.
+- What happens: a restart cancels the solve in flight, the busy worker does not acknowledge within
+  the client's 1 s grace, and the client terminates it. The runtime then holds that failure for the
+  session, until Retry.
+- That is app-side and is reported separately, not fixed here.
+- A second app-side class was found on the way: a corpus hydration that overlaps the worker's metadata
+  load makes Chromium refuse part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. That is FGRETRY1's
+  fix, its own PR.
+
+**Gates.** The hardened gate, 10/10 on dev a7bc58ce4 + this; units 1,163/1,163.
+## v1.212.3 — A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY
+
+**Found by PR 242's seat-star red (OCSTAR1).** Head Extraction to Posture's attacker seat showed
+no seat star on dev. The cause was not the star.
+- Twelve control-alias positions (Gogoplata Control, Darce Control, Straight Ankle Lock Control, …)
+  canonicalise to their submission state. Opening a transition authored from one seats you inside
+  that submission.
+- On the seat that DEFENDS the submission, `enterLand` called `enterDefense` while the roll was
+  still staged. That cleared `_stagedTech`, unpaused (the Caught rush started with nothing
+  pressed), moved the focus to the submission's Defender member and rewrote the URL to it.
+- So the chosen transition lost its card, its URL, its focus and, since the star is drawn beside
+  the focused label, its seat star.
+- That broke the owner's v1.132.0 rule ("you navigate to it … the landcard is standard") and their
+  transition rule ("a transition's defending seat is an ordinary staged landing … play waits for
+  the button").
+
+**Count.** A predicate from the code, checked against a browser sweep of 284 seats per run
+(283/284 agree): 147 transition seats, gi 74 and no-gi 73 (78 attacker, 69 defender). 19 of those
+techniques are dealt somewhere (submission continuations such as Triangle to Armbar); 55 never are.
+In the browser, 73 of the 74 gi seats lost the star. The 74th kept it only because the defense frame
+happened to draw its label. A non-alias control sample: 0 of 80.
+
+**Fix** (owner-approved, OCSTAR2): a STAGED transition seated as a submission's defender gets the
+ordinary staged landing — its card, URL, focus and star, the clock held, no hand.
+`_stagedDefense` holds the catch. `_runDeferredCatch` runs the rush on the first unpaused frame.
+Lifters: that frame, `enterDefense` and `clearEngagement`. A submission's own escaping seat keeps
+its immediate rush (v1.134.0), and an unstaged roll still enters the defense at once.
+
+**Gates.**
+- `tests/seat_staging.test.mjs` stages every seat of every technique in both rulesets (2,630 gi,
+  2,382 no-gi). Focus and URL stay on the chosen node; the clock is held except on a submission's
+  escaping seat (290 / 255). The deferred seats equal the data-derived set exactly (74 / 73).
+- Mutants: no guard (all 3 tests red), a no-op `_runDeferredCatch` (test 2) and no
+  `clearEngagement` lifter (tests 1 and 3).
+- `e2e/journeys/seat-star-coverage.spec.ts` opens every catch seat in gi plus a 40-seat control
+  sample, and asserts focus, URL, clock and a visible star.
+
+**A second cause, the same symptom: a COLD submission.** The browser half of the gate still failed
+12 seats after the first fix, one per alias submission.
+- The first technique opened from an alias submission waits for its choices
+  (`waitForSubmissionChoices`). That wait called `clearOptions()`, which consumes the staged
+  exchange.
+- The deferred landing then focused the submission, and rushed a defender seat.
+- It also explains the outlier, Counter Entry to Opponent's Leg. Its apostrophe is a red herring:
+  it was simply the first seat opened from Straight Ankle Lock Control in every sweep.
+- The wait now carries `_stagedTech` across. Test 4 opens every alias submission cold. Its mutant
+  survived until `clearOptions` stopped being stubbed in the harness; stubbing it had hidden the
+  race completely.
+
+**Separate finding, not fixed here: the URL freezes after a node whose id carries `%`** (100%
+Sweep). `_pushUrl` pushes the raw path, so `location.pathname` keeps an unescaped `%`.
+`decodeURI(location.pathname)` then throws on every later call, inside a silent `catch`. Every
+later navigation keeps the 100% Sweep URL until a reload.
+
+## v1.212.5 — THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET
+
+**OCDEP1, 2026-10-01.** Dev's first phase-2 deploy (run 36857244057, a7bc58ce4, keyed) failed its
+curated gate on ONE test of 428: `option-hand.spec.ts` "a submission's odds are its AUTHORED rate",
+at "and they span more than the fallback's whole range": span 6, expected > 8. The same test had
+been green in PR 242's keyless e2e-full.
+
+**Cause: an unrigged draw, since the finish half was written (v1.207.7).** A finish card prints
+`moveChance` = authored rate − aiSkill (the opponent-value term is 0: a submission defender's value
+is negative), and aiSkill = 0.06 + rng("ai-skill")·0.14 is drawn once per boot by the URL arrival's
+staged roll. The journey boots six URLs, so six independent 6-20 point draws came off a 16-point
+authored span (58-74). Through the app's own `moveChance`, 400,000 simulated draws close it to 8 or
+less on 1.6% of runs, the same before and after PR 242 (the six authored rates did not move). The
+deploy's card fits exactly: Rear Naked Choke printed 54 = 74 − 20, the draw's ceiling.
+
+**Not the key, not phase 2.** Measured in a browser on dev's own keyless build (the PR 242 capture)
+and on a keyed build from the root `.env` (the deploy's own `regenerate:neural` + Quartz steps, keys
+in the test environment too):
+
+| | keyless | keyed |
+|---|---|---|
+| boots where printed = round(100·(authored − aiSkill)) | 180/180 | 180/180 |
+| boots with qMod, combo or momentum ≠ 0 | 0 | 0 |
+| unrigged span over 30 runs (min / median / max) | 11 / 19 / 27 | 11 / 18 / 29 |
+| the deploy's draws replayed through `__NEURAL_RIG` | span 6 | span 6 |
+| `window.posthog` | absent | present |
+
+The six pinned hands (13 cards, both groups, names and printed odds) are identical keyed and
+keyless. The keyed bundle equals the capture's once the baked version string is normalised, and the
+wire is byte-identical. No app path reads a key except the auth façade's sync, and the harness
+aborts its requests.
+
+**Fix (spec only).** The draw is pinned through the production pre-boot rail
+(`window.__NEURAL_RIG`): a post-boot `j.rig` is too late, because the arrival draws during boot. The
+test now asserts the pin reached each boot (aiSkill = 0.13), and adds the direct claim: printed −
+authored is one number across all six cards (≤ 1 for rounding). The > 8 bar is unchanged and is now
+16 on every run. Fixed spec: 25/25 keyless, 25/25 keyed; the whole file 5/5.
+
+**Mutants** (built bundle, keyless):
+
+| mutant | red at |
+|---|---|
+| `choiceChance` → .5 on a finish | distinct > 2 (six 50s) |
+| `moveChance` through the dominance fallback for submissions | distinct > 2 (six 33s) |
+| `moveChance` + (idx % 4)·.03 | ONLY the new printed − authored check (spread 6); distinct and span pass |
+| `boot()` ignores `__NEURAL_RIG` | the pin check (aiSkill 0.063) |
+
+The only other journey that reads odds after URL boots, `landing-card.spec.ts`, compares within one
+boot, so its draw cancels.
+
+## v1.212.6 — ONE DROPPED METADATA REQUEST NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGRETRY1, 2026-10-01)
+
+**Found while chasing the hydration gate's "unavailable" (FGHYD2).** Before the worker can value the
+first hand, it loads the solver's metadata: a manifest, a variant, then content-addressed
+`mdp/part-*.txt` files. If ONE of those fetches failed:
+- the root description failed;
+- the provider masked the worker's reason as `unverified-root-description`;
+- the runtime HELD the failed prepare until the player pressed Retry.
+
+Reproduced deterministically by starting a corpus hydration at the moment the root description is
+posted. About 2,900 deck fetches in flight exhaust the renderer's request budget, which the worker
+shares, so Chromium refused part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. **9 of 15 runs lost
+Win chance for the session.** On a phone, the same class is a dropped request.
+
+**The fix.**
+- **Transient failures are retried.** The loader's `bytes()` retries, bounded at 4 attempts with
+  `NG_GAME_VALUE_FETCH_BACKOFF_MS` = 300 / 1,000 / 3,000 ms, at most ~4.3 s, far inside the client's
+  30 s root-description deadline. Transient means two things:
+  - no answer: a network error, which is all `fetch` reports of either cause;
+  - an answer that says "try again": 408, 429 or 5xx.
+- **An answer is never retried.** A 404 is permanent, and a size or digest mismatch is an integrity
+  failure that a second copy of the same URL cannot fix.
+- **Only network operations count as transient:** the fetch, a body read, `arrayBuffer`. A bug's
+  `TypeError` elsewhere in the loader is never mistaken for one.
+- **Exhausted retries keep their class:** `metadata-network-failed` or `metadata-fetch-failed`.
+- **The provider passes the worker's reason on.** A coded reason passes through unchanged. A raw
+  message is named only by its class, `root-description-unavailable`. Only a reply that claims to be
+  a description and breaks the contract is `unverified-root-description`.
+
+**Measured on the same storm, after the fix:** 14 of 15 runs settled. Chromium refused 1–4 metadata
+requests in 9 of the 15, and the retry absorbed every one. The one failure was
+`worker-cancellation-deadline`, a different class: FGCANCEL1, the next PR.
+
+**Gates.**
+- **New core journey, `game-value-fetch-retry.spec.ts`,** 3× green. It injects faults on the
+  WORKER's own requests (`page.route` sees a dedicated worker's fetches), and each test asserts that
+  its fault fired:
+  - a part dropped once is fetched again exactly once, and values arrive;
+  - a part that never arrives is tried exactly 4 times and stops, the held reason is
+    `metadata-network-failed`, and Retry is shown;
+  - a 404 part is tried exactly once, with reason `metadata-fetch-failed`.
+- **Unit tests:** `tests/game_value_loader.test.mjs` covers every transient kind (network, dropped
+  body, 503, 429, 408), the bound and backoff, 404 and digest never retried, and a bug never
+  classed transient. `tests/game_value_provider.test.mjs` covers reason passthrough.
+- **Unit mutants, all killed:** no retry; retrying any answer; network errors not classed
+  transient; the masked reason.
+- **Journey mutants on the built bundles, all killed:**
+  - no retry: the dropped-once test stays `unavailable | … | metadata-network-failed`, and the bound
+    test sees 1 attempt, not 4;
+  - the masked reason: both permanent-failure tests receive `unverified-root-description`;
+  - retrying an answer: the 404 is fetched 4 times, not once.
+- Units 1,168/1,168; value journeys 74/74 (choice-value, game-value-live, option-hand, momentum,
+  gameplan-study-live, option-edge, start-from, dual-consumers, game-knowledge,
+  hydration-restarts).
