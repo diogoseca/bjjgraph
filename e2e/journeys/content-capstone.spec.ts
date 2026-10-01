@@ -146,7 +146,7 @@ test.describe("Content capstones @curated", () => {
       return {
         track: app._beltTest?.beltId ?? null,
         maxMoves: app.maxMoves,
-        // the SITE: a seated capstone stands on the authored site's member for its role (v1.215.3)
+        // the SITE: a seated capstone stands on the authored site's member for its role (v1.215.6)
         positionId: app.siteIdOf(app.nodes[app.currentPos]?.id),
         names: (app._beltTest?.names || []).length,
       };
@@ -158,7 +158,7 @@ test.describe("Content capstones @curated", () => {
   });
 
   test("every capstone deals the hand of the seat it gives the player", async ({ page }) => {
-    // THE SEAT AND THE HAND AGREE (v1.215.3, gen triage). Since v1.180.1 rollFromPosition deals
+    // THE SEAT AND THE HAND AGREE (v1.215.6, gen triage). Since v1.180.1 rollFromPosition deals
     // synchronously, and startBeltTest set `playerRole` from `startDeckKey` only AFTER it: the
     // White capstone (Mount|Bottom, "Survive and Reverse") seated the player bottom on 16 TOP
     // moves. Pinned as the invariant, for all five belts through the real button: the seat is the

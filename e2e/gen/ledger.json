@@ -2442,7 +2442,7 @@
     "greens": 3,
     "redProof": "Mutated line 124: post-restart white.* challenge entry count assertion .toBe(0) \u2192 .toBe(1). Run failed at exactly that assertion (\"every white.* challenge entry deleted \u2014 Expected: 1, Received: 0\"), proving the reset really deletes all twenty entries and the assert bites. Restored the exact original line (git diff vs HEAD empty) and re-ran green (15.3s).",
     "runtimeS": 22,
-    "fixed": "Known-red from the gen triage (v1.206.3) to v1.215.3: gameScore() served a memoised 0 after a reload because _onCurriculum never bumped _stageVer; v1.215.3 publishes the curriculum's arrival as a knowledge change."
+    "fixed": "Known-red from the gen triage (v1.206.3) to v1.215.6: gameScore() served a memoised 0 after a reload because _onCurriculum never bumped _stageVer; v1.215.6 publishes the curriculum's arrival as a knowledge change."
    }
   },
   {
@@ -2629,7 +2629,7 @@
    "issue": "Q007 (e2e/quarantine/ISSUES.md) \u2014 the [1-9] option-opener keyboard branch has no _checkpoint guard and the pre-quiz hand is never parked: digits 5-9 open the roll's expand sheet under the open quiz, and Enter commits \u2014 the roll plays out beneath, clobbering the quiz surface while _checkpoint stays armed (Q002's zombie via the manual keyboard door).",
    "evidence": {
     "promoted": "bug fixed in v1.75.3; born-red spec green post-fix",
-    "fixed": "Known-red from the gen triage (v1.206.3) to v1.215.3: since v1.171.0 (a1d5cc3ff) Enter/Space/arrows in the drill revealed and graded an open checkpoint-quiz card; v1.215.3 makes the quiz own the deck surface. Spec extended to Space and the four arrows."
+    "fixed": "Known-red from the gen triage (v1.206.3) to v1.215.6: since v1.171.0 (a1d5cc3ff) Enter/Space/arrows in the drill revealed and graded an open checkpoint-quiz card; v1.215.6 makes the quiz own the deck surface. Spec extended to Space and the four arrows."
    }
   },
   {
