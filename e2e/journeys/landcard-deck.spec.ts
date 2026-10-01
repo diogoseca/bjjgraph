@@ -24,7 +24,8 @@ async function setup(page: Page, recall = false) {
       // A due, proven deck is the production recall entry.
       for (const c of cards) a._bumpStage(key, c.q, 2, 2)
       a._cardDue = () => true
-      a.gameScore = () => ({ score: .45, belt: "blue", next: null, stripes: 0 })
+      // a BLUE belt — the worn belt since v1.211.0, seeded as its persisted high-water mark
+      a.belts.held = { id: "blue", t: Date.now() }
       a._landQ = null
       a.renderLandCard(a.nodes[a.currentPos], "land", null)
     }

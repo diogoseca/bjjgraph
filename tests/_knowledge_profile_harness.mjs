@@ -9,5 +9,7 @@
 import { readFileSync } from "node:fs";
 const strip = (name) => readFileSync(new URL("../neural/src/" + name, import.meta.url), "utf8")
   .replace(/^export (function|const|let|var|class) /gm, "$1 ");
-export const knowledgeSource = strip("wire-keys.src.js") + "\n" + strip("knowledge-profile.src.js");
+// belt.src.js (v1.211.0) rides along: the app's belt readers (`wornBelt`, the merge's `belts.held`
+// line) call it, and the bundle concatenates it above the class too.
+export const knowledgeSource = strip("wire-keys.src.js") + "\n" + strip("knowledge-profile.src.js") + "\n" + strip("belt.src.js");
 if (/^\s*(export|import)\s/m.test(knowledgeSource)) throw new Error("Knowledge harness export strip failed");

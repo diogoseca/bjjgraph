@@ -43,6 +43,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
 - **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
 
+- **v1.211.0** — [THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS](#v12110--the-belt-is-earned-in-the-challenges-and-it-never-falls)
 - **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
@@ -8724,7 +8725,75 @@ Owner rulings on docs/GraphSemantics.md §10, 2026-09-30. Item 4: "fix it ... i 
   - `regenerate:graph-base` adds `products[].image` to 68 Systems entries. The generator passes it by design; only course and referral URLs are stripped.
   - This commit keeps the 43 pages its own change touches as regenerated, so 34 of them pick up that drift. It restores the other 521. Its `graph.json` carries the 68 image fields.
 
-## v1.210.3 — THE HARNESS NAMES EVERY NAVIGATION THE PAGE STARTS (FGNAV1–3, 2026-10-01)
+
+## v1.211.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
+
+**The owner's question** (2026-09-30), on GraphSemantics §10.5: "every player's belt is rather a
+construct of the challenges no? i thought it would be mostly, and if we could align that to the
+belt attribution then great (i think there is somewhat of a mix already but figure it out pls)".
+
+**What the research found** (`tests/artifacts/_belt_alignment_probe.mjs`, run on the real class
+and the e2e personas at `3f157a692`; report outside the repo, `belt-challenges.md`):
+- **Two belts that never met.** The Challenges TAB belt was 100% Challenges: the frontier's colour
+  moved on lessons, its stripes on proven units, and it gated nothing. The Game Knowledge BAND
+  (`gameScore().belt`) was never drawn, yet gated timed recall in play from blue (v1.133.0), the
+  Recall Mode patch and Settings lock at black (v1.105.1), and named the email's next belt —
+  while `docs/Neural.md` said "nothing is gated by the score".
+- **The curriculum is a third of the score.** The 171 live lesson decks carry 31.76% of the gi
+  weight (31.70% no-gi): White 12.94, Blue 10.45, Purple 5.53, Brown 1.38, Black 1.46. Every
+  curriculum card recalled = the white band; the blue band (0.40) was unreachable from the
+  Challenges. The cheapest route to each band: 168 / 788 / 2,120 / 3,363 / 5,421 cards.
+- **The fixtures could not see the score.** Every `e2e/gen/personas.ts` blob seeds `stage: {}`,
+  so all 14 personas scored exactly 0; 8 of 14 proved a belt's units while under its band, and 0
+  of 14 carried a score above one.
+- **Three defects in the drawn belt**, unguarded: `_frontierBeltId` falls back to the corridor's
+  top, so a finished player wore WHITE with four stripes; the colour promoted on lessons while
+  stripes needed checkpoints; and a gi-only player who proved White..Brown wore black in gi and
+  brown in no-gi.
+
+**The ruling** (owner, all three approved 2026-09-30): (1) rule A2 — you wear the belt after the
+last belt whose units are all proven; stripes stay as units; Game Knowledge stays a percentage
+and its three belt readers move to the worn belt; (2) a one-time grandfather of max(old tab belt
+with the all-done fallback read as black, the band, A2), then a high-water mark `belts.held` in
+the v2 blob, MAX across devices, never a settings key; (3) fix the finished player now.
+
+**What shipped.** `neural/src/belt.src.js` (the rule, stripes, the held merge, the grandfather
+mark's merge, the email line's validator) is one module imported by the app, the unit suite and
+the digest Worker. `wornBelt()` / `_syncBelt()` / `_legacyBelts()` / `_noteBlackBelt()` in the
+app; the tab, `_recallInPlayNow`, the Recall Mode mint, the Settings lock and the email read the
+worn belt. `_mergeProgressFields` gains the explicit MAX line its `belts` assign needed (it keeps
+only LOCAL keys). The email's belt line is `dayLog[day].b = [belt, provenUnits, units]`, carried
+by the dayLog merge, validated by the Worker (`ngBeltLine`), printed as "Next belt: PURPLE — 4 of
+6 blue units proven"; `beltEta` (score-paced) is retired. The frontier stays navigation only.
+
+**Measured effect** (persona set, before the change): with the migration, 0 belts lowered; 1 e2e
+persona moves (the finished player, white → black); the four synthetic score-first players keep
+their band as their worn belt; after the mark, only the Challenges promote.
+
+**Gates.** `tests/belt_worn.test.mjs`, 13 tests on the real class; every mutant red on a named test:
+
+| mutant | red at |
+|---|---|
+| M1 `wornBelt` ignores `held` | flip · failed card · curriculum edit · stale merge · grandfather ×3 · readers |
+| M2 below-held not counted as proven | curriculum edit (the next promotion stalls) |
+| M3 the MAX line removed / M4 local `held` wins | stale device merge |
+| M5 the frontier dyes the tab again | finished player · flip · failed card |
+| M6/M7/M8 recall-in-play / the patch / the email line from the band | readers |
+| M9 no sync at the checkpoint | promotion needs every unit |
+| M10 `gf` kept from one side | a pre-migration cloud is grandfathered again |
+| M11 all-done not read as black | grandfather |
+| M12 `gf` before the manifest | grandfather waits for the manifest |
+| M16 the `gf` mark forces a save | a passive boot saves nothing (also `harness-boot-inflight-write.spec.ts`, which caught it: the first build saved the mark on every fresh boot) |
+| M13 dayLog drops `b` | the dayLog merge carries the line |
+| M14/M15 no post-/pre-flip sync | flip (reload after a no-gi promotion / gi promotion arriving in no-gi) |
+
+Worker: `tests/digest_suppress_sync.test.mjs` (the line comes from `b`, never the score; malformed
+lines refused whole — 4 mutants killed; dropping `|| null` past black is EQUIVALENT, undefined takes
+the same branch) and `tests/digest_render.test.mjs` (escaping on both branches — 2 mutants killed).
+e2e: `belt-worn.spec.ts` (finished player black @curated, lessons alone, flip + reload) and
+`recall-badge.spec.ts` rewritten (a black score on a white belt unlocks nothing; proving the units
+mints the patch). Non-kill: the Settings lock is gated in e2e only.
+## v1.211.2 — THE HARNESS NAMES EVERY NAVIGATION THE PAGE STARTS (FGNAV1–3, 2026-10-01)
 
 **What happened.** A deploy-dev curated gate (run 36818746807, attempt 1, dev 4692aa62c, keyed) failed
 one test: game-knowledge.spec.ts "lesson crowns", at a `page.evaluate`, with "Execution context was
