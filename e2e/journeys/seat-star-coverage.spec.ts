@@ -14,7 +14,11 @@ import { journey } from "../dsl"
 // seat of every technique in both rulesets for focus, URL and clock. This file covers the RENDER,
 // in gi on desktop. NOT covered: no-gi and phone (both measured identical in the OCSTAR1
 // diagnostic; seat-star.spec.ts holds the phone placement).
-// MUTANT: enterLand without the staged-transition guard turns every catch seat here red.
+// It also runs COLD: the first catch seat opened per alias submission waits for that submission's
+// choices, which is the second cause (the wait used to drop the staged exchange; 12 seats red here
+// until it carried it).
+// MUTANTS: enterLand without the staged-transition guard turns every catch seat here red; the wait
+// without restoring _stagedTech turns the 12 first-openings red.
 test.setTimeout(900_000)
 test("every catch seat and a control sample, opened, keep focus, URL and their seat star", async ({ page }) => {
   const j = journey(page)

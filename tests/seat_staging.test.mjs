@@ -16,12 +16,20 @@
 // seats get the ordinary staged landing, and the rush waits for play (`_stagedDefense`,
 // `_runDeferredCatch`).
 //
-// Real wire, real app methods; only DOM/camera/sound side effects are stubbed.
+// THE SECOND CAUSE, found by the browser half: a COLD submission. The first technique opened per
+// alias submission waits for that submission's choices, and the wait called clearOptions(), which
+// consumes the staged exchange. The deferred landing then focused the submission (and rushed a
+// defender seat), even on a seat the first fix had repaired. The browser sweep caught 12 seats, one
+// per alias submission; "Counter Entry to Opponent's Leg" was simply the first opened from its
+// origin. Test 4 opens every alias submission cold.
+//
+// Real wire, real app methods; only DOM/camera/sound side effects are stubbed. clearOptions is
+// NOT stubbed: stubbing it hid the race completely (its mutant survived until it ran for real).
 // MUTANTS (each turns this file red; measured at v1.212.3):
-//   - enterLand without the staged-transition guard (enterDefense at once): test 1, 147 seats
-//     lose focus, URL and clock;
+//   - enterLand without the staged-transition guard (enterDefense at once): tests 1-4;
 //   - _runDeferredCatch as a no-op: test 2;
-//   - clearEngagement without `_stagedDefense = null`: test 3.
+//   - clearEngagement without `_stagedDefense = null`: tests 1, 3, 4;
+//   - waitForSubmissionChoices without restoring `_stagedTech` (the race): test 4.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -36,16 +44,16 @@ const SIDE_EFFECTS = ["fx", "setEvent", "flashFx", "bumpBounce", "flare", "clear
   "renderLandCard", "buildDrillPanel", "renderChoiceGroups", "_syncHandLayer", "_highlightStagedCard", "setBeacon",
   "renderTutorial", "_sayArrivalIfPending", "startLandRipple", "hydrateDecks", "hideCenter", "showCenter", "releaseCamera",
   "_prefetchLandDeck", "_prefetchDefendDeck", "frameNodes", "killVignette", "setStatus", "_endArrival", "stopReplay",
-  "clearOptions", "_closeRoll", "_updateComboChip", "_cancelCheckpoint", "pauseTimers", "resumeTimers", "_saveFlowSoon",
+  "cancelChoiceValues", "hideOptDetail", "_closeRoll", "_updateComboChip", "_cancelCheckpoint", "pauseTimers", "resumeTimers", "_saveFlowSoon",
   "_dropExpiryEvent", "_gameValueChanged", "decaySharp", "_flushLandSkipDebt", "showVignette", "buildPanicCard",
   "_paintWinThermometer", "_dockLandCard"];
 
-async function app() {
+async function app({ cold = false } = {}) {
   const a = Object.create(Component.prototype);
   a.settings = {}; a.beats = []; a.get = (_k, d) => d; a.set = a.track = a._saveProgress = () => {};
   a.ingest(structuredClone(wire));
   a._dataBase = () => "/seat-test/";
-  await Promise.all(a.nodes.filter((n) => n.rep && n.ty === "submissions").map((n) => a.loadSubmissionChoices(n)));
+  if (!cold) await Promise.all(a.nodes.filter((n) => n.rep && n.ty === "submissions").map((n) => a.loadSubmissionChoices(n)));
   for (const k of SIDE_EFFECTS) a[k] = () => {};
   a.urls = []; a._syncUrl = (i) => a.urls.push(i);
   a.rollCamTarget = () => ({ cx: 0, cy: 0, vw: 1 }); a.pairMid = (n) => ({ x: n.x, y: n.y });
@@ -143,4 +151,36 @@ test("a deferred catch never outlives its roll: restaging elsewhere lifts it", a
   a.stageRollAt(other.idx);
   assert.equal(a._stagedDefense, null, "a new roll clears it (clearEngagement)");
   assert.equal(a._runDeferredCatch(), false, "so play cannot start a stale rush");
+});
+
+test("a COLD submission (choices not loaded yet) defers the landing without losing the chosen node", async () => {
+  // The first technique opened per alias submission meets a cold cache: enterLand waits for the
+  // submission's choices (waitForSubmissionChoices). That wait used to clear the staged exchange, so
+  // the deferred landing focused the submission and rushed a staged defender seat. The browser
+  // sweep caught 12 such seats, one per alias submission, and the warm-cache tests above cannot
+  // see it. MUTANT: waitForSubmissionChoices without restoring `_stagedTech` turns this red.
+  const a = await app({ cold: true });
+  a._giMode = "gi";
+  const want = catchSeats(a);
+  const bySub = new Map();   // the first catch seat and the first non-catch transition seat per alias submission
+  for (const s of seats(a)) {
+    if (s.n.ty !== "transitions") continue;
+    const o = a.techniqueOrigin(a.nodes[s.idx]); if (o.idx < 0) continue;
+    const pos = a.nodes[a.canonicalState(o.idx, o.role)];
+    if (!pos || pos.ty !== "submissions") continue;
+    const key = a.submissionNode(pos).idx + (want.has(s.idx) ? "/catch" : "/plain");
+    if (!bySub.has(key)) bySub.set(key, s);
+  }
+  assert.ok(bySub.size >= 20, `${bySub.size} cold first-openings`);
+  for (const s of bySub.values()) {
+    a.urls.length = 0; a.paused = false;
+    a.stageRollAt(s.idx);
+    for (let i = 0; i < 20 && a._waitingSubmission; i++) await new Promise((r) => setTimeout(r, 0));
+    assert.equal(a._waitingSubmission, null, `${s.n.t}: the choices loaded`);
+    const where = `cold ${s.n.t} [${s.seat}]`;
+    assert.equal(a.focusIdx, s.idx, `${where}: the focus stays on the node you opened`);
+    assert.equal(a.urls[a.urls.length - 1], s.idx, `${where}: the URL stays on the node you opened`);
+    assert.equal(a.paused, true, `${where}: nothing starts until the player acts`);
+    assert.equal(a._stagedDefense != null, want.has(s.idx), `${where}: a catch seat defers its rush, a plain one has none`);
+  }
 });

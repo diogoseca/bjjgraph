@@ -9000,6 +9000,19 @@ its immediate rush (v1.134.0), and an unstaged roll still enters the defense at 
 - `e2e/journeys/seat-star-coverage.spec.ts` opens every catch seat in gi plus a 40-seat control
   sample, and asserts focus, URL, clock and a visible star.
 
-**Separate finding, not fixed here:** Counter Entry to Opponent's Leg loses focus on its attacker
-seat too, unlike every other technique from Straight Ankle Lock Control (its id carries an
-apostrophe). See the OCSTAR1 report for its cause.
+**A second cause, the same symptom: a COLD submission.** The browser half of the gate still failed
+12 seats after the first fix, one per alias submission.
+- The first technique opened from an alias submission waits for its choices
+  (`waitForSubmissionChoices`). That wait called `clearOptions()`, which consumes the staged
+  exchange.
+- The deferred landing then focused the submission, and rushed a defender seat.
+- It also explains the outlier, Counter Entry to Opponent's Leg. Its apostrophe is a red herring:
+  it was simply the first seat opened from Straight Ankle Lock Control in every sweep.
+- The wait now carries `_stagedTech` across. Test 4 opens every alias submission cold. Its mutant
+  survived until `clearOptions` stopped being stubbed in the harness; stubbing it had hidden the
+  race completely.
+
+**Separate finding, not fixed here: the URL freezes after a node whose id carries `%`** (100%
+Sweep). `_pushUrl` pushes the raw path, so `location.pathname` keeps an unescaped `%`.
+`decodeURI(location.pathname)` then throws on every later call, inside a silent `catch`. Every
+later navigation keeps the 100% Sweep URL until a reload.

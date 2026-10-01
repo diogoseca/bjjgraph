@@ -13138,7 +13138,15 @@ class Component extends DCLogic {
   }
   waitForSubmissionChoices(sub, ready) {
     if (sub.cal.defenses) return false;
+    // A WAIT IS NOT A TEARDOWN (v1.212.3, OCSTAR1). clearOptions() consumes a staged exchange,
+    // which is right for a commit and wrong here: the landing is only DEFERRED until this
+    // submission's choices load. Dropping `_stagedTech` made the deferred enterLand land on the
+    // submission instead of the node you opened, and rush a staged defender seat. That hit the FIRST
+    // technique opened per alias submission on a cold cache (12 seats in one browser sweep, and the
+    // "Counter Entry to Opponent's Leg" outlier). So the staged exchange survives the wait.
+    const staged = this._stagedTech;
     this.clearOptions();
+    this._stagedTech = staged;
     const token = {}; this._waitingSubmission = token;
     const pos = this.currentPos, role = this.playerRole;
     const current = () => this._waitingSubmission === token && this.currentPos === pos && this.playerRole === role && !this.__ngDestroyed;
