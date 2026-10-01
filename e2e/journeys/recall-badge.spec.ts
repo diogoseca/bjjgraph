@@ -9,10 +9,12 @@ import { journey } from "../dsl";
  * "we can see it in the challenges".
  *
  * Mechanics under test:
- *  · setting `recallInPlay` — LOCKED row in Settings → Flashcards until the knowledge band is
- *    black; the badge `recall-in-play` mints on the `belt_reached` beat (fired post-grade from
- *    noteCardAnswered while black-and-unminted) and the AUTO-FLIP lives inside the mint loop
- *    ONLY — turning it off later must stick (settings LWW would otherwise re-enable forever).
+ *  · setting `recallInPlay` — LOCKED row in Settings → Flashcards until the WORN belt is black
+ *    (v1.209.0, owner ruling 2026-09-30: the belt is earned in the Challenges — every unit of a
+ *    belt proven promotes you — and a Game Knowledge band unlocks NOTHING); the badge
+ *    `recall-in-play` mints on the `belt_reached` beat (`_noteBlackBelt`, fired at the promotion
+ *    and post-grade while black-and-unminted) and the AUTO-FLIP lives inside the mint loop ONLY —
+ *    turning it off later must stick (settings LWW would otherwise re-enable forever).
  *  · with the toggle on, a stage-2+ landing card renders `_recallBlock` ([data-land-recall])
  *    instead of MC; stage-0/1 cards stay MC (recognition first). The warm gate is format-aware.
  *  · a self-graded recall NEVER refunds the clock or ticks the combo — "Show answer → Got it"
@@ -36,12 +38,24 @@ const stageEverything = (page: any, st: number) =>
     return a.gameScore().belt;
   }, st);
 
-test("locked before black; the badge mints at the crossing and auto-flips the toggle ON @curated", async ({
+/** answer ONE card through the real recall choke — every grade publishes, and the publish syncs the belt */
+const answerOne = (page: any, i = 0) =>
+  page.evaluate((n: number) => {
+    const a = (window as any).__neural;
+    const key = Object.keys(a.flashcards.decks)[0];
+    const card = a._cardsOf(a.flashcards.decks[key])[n];
+    a.gradeRecall(key, card, true);
+  }, i);
+
+test("locked below black; a black SCORE unlocks nothing; proving every unit to black mints the badge and auto-flips the toggle ON @curated", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/");
   await j.hydrateAll();
+  // the one-time grandfather (v1.209.0) reads the score ONCE: let it run on this fresh profile
+  // before the score is staged, or the staged band would legitimately become the belt
+  await expect.poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.belts && a.belts.gf); })).toBe(true);
 
   // fresh profile: the settings row is the LOCKED teaser
   await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
@@ -50,16 +64,35 @@ test("locked before black; the badge mints at the crossing and auto-flips the to
   await expect(page.locator("[data-recall-locked]")).toContainText("Unlocks at black belt");
   await page.evaluate(() => (window as any).__neural.closeModal());
 
-  // cross to black, then answer ONE card through a real choke — the beat fires post-grade
-  const belt = await stageEverything(page, 4);
-  expect(belt, "staging everything to 4 reaches black").toBe("black");
+  // A BLACK GAME KNOWLEDGE SCORE ON A WHITE BELT (v1.209.0): the score is a percentage and
+  // decides no belt, so nothing unlocks — not the badge, not the row, not recall in play.
+  const band = await stageEverything(page, 4);
+  expect(band, "non-trivial: staging everything to 4 reaches the black band").toBe("black");
+  await answerOne(page, 0);
+  await page.waitForTimeout(300);
+  const below = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return { worn: a.wornBelt().id, badge: !!(a.badges && a.badges["recall-in-play"]), rank: a._recallInPlayNow() };
+  });
+  expect(below, "a black score on a white belt").toEqual({ worn: "white", badge: false, rank: false });
+  await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
+  await page.waitForTimeout(300);
+  await expect(page.locator("[data-recall-locked]"), "the row stays locked for a score").toBeVisible();
+  await page.evaluate(() => (window as any).__neural.closeModal());
+
+  // PROVE EVERY UNIT OF EVERY BELT (lessons + checkpoints), then answer ONE card through the real
+  // choke: the grade publishes, the publish syncs the belt to black, and the badge mints with it
   await page.evaluate(() => {
     const a = (window as any).__neural;
-    const key = Object.keys(a.flashcards.decks)[0];
-    const card = a._cardsOf(a.flashcards.decks[key])[0];
-    a.gradeRecall(key, card, true);
+    for (const belt of a.curriculum.belts)
+      for (const u of belt.units) {
+        for (const l of u.lessons) a.prep[l.deckKey] = 3;
+        a.units[belt.id + "/" + u.id] = { checkpoint: true, t: Date.now() };
+      }
   });
+  await answerOne(page, 1);
   await page.waitForTimeout(300);
+  expect(await page.evaluate(() => (window as any).__neural.wornBelt().id), "every unit proven: black").toBe("black");
 
   const st = await page.evaluate(() => {
     const a = (window as any).__neural;
@@ -67,13 +100,17 @@ test("locked before black; the badge mints at the crossing and auto-flips the to
   });
   expect(st.badge, "the badge minted").toBe(true);
   expect(st.on, "and the toggle auto-flipped ON").toBe(true);
+  await page.evaluate(() => (window as any).__neural.openSettings("flashcards"));
+  await page.waitForTimeout(300);
+  await expect(page.locator("[data-recall-locked]"), "the row is no longer the locked teaser").toHaveCount(0);
+  await page.evaluate(() => (window as any).__neural.closeModal());
 
   // the settings row is now interactive, and flipping it OFF sticks across more answers
   await page.evaluate(() => {
     const a = (window as any).__neural;
     a.set("recallInPlay", false);
     const key = Object.keys(a.flashcards.decks)[0];
-    const card = a._cardsOf(a.flashcards.decks[key])[1];
+    const card = a._cardsOf(a.flashcards.decks[key])[2];
     a.gradeRecall(key, card, true); // another answer at black — must NOT re-flip
   });
   expect(

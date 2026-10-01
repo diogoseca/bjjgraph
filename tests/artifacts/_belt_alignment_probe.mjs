@@ -37,6 +37,12 @@
  * descending weight-per-card order until each band, answering every card, and take no checkpoint.
  * Real user data is never read.
  *
+ * WHICH "TODAY" IT MEASURES. It reads the code it runs against. Written at 3f157a692 (pre-v1.209.0),
+ * where `today_tab` was the lessons-based frontier and the readers used the Game Knowledge band;
+ * from v1.209.0 the tab IS rule A2 behind the high-water mark (and each boot here runs the one-time
+ * grandfather), so on a later tree the A2 column agrees with `today_tab` by construction. The
+ * curriculum-share and persona tables stay meaningful on any tree.
+ *
  * Run:   python3 scripts/regenerate_neural_data.py   # the emit this reads (~80 s)
  *        node tests/artifacts/_belt_alignment_probe.mjs [--json <out.json>]
  * Needs: source/node_modules (esbuild) — the repo's own install or the donor symlink.
@@ -47,29 +53,29 @@ import { createRequire } from "node:module";
 import { dirname, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ngWireDecks, ngWireScoreWeights } from "../../neural/src/wire-keys.src.js";
+import { knowledgeSource } from "../_knowledge_profile_harness.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const EMIT = resolve(ROOT, "source/quartz/static/neural");
 const rd = (p) => readFileSync(resolve(ROOT, p), "utf8");
 const jsonOut = (() => { const i = process.argv.indexOf("--json"); return i > 0 ? process.argv[i + 1] : null; })();
 
-// ── the real class, in the bundle's scope ────────────────────────────────────────────────────
-const store = new Map();
-const localStorage = {
-  getItem: (k) => (store.has(k) ? store.get(k) : null),
-  setItem: (k, v) => store.set(k, String(v)),
-  removeItem: (k) => store.delete(k),
-};
+// ── the real class, in the bundle's scope (the unit suite's prelude: tests/belt_worn.test.mjs) ──
+const stripX = (t) => t.replace(/^export (function|const|let|var|class) /gm, "$1 ");
 const bundle = [
+  knowledgeSource,
+  stripX(rd("neural/src/progress-owner.src.js")),
+  stripX(rd("neural/src/lists-codec.src.js")),
+  stripX(rd("neural/src/lists.src.js")),
   rd("neural/src/challenge-definitions.src.js"),
   rd("neural/src/challenge-engine.src.js"),
   rd("neural/src/app.src.jsx"),
   rd("neural/src/challenge-ui.src.js"),
 ].join("\n");
 const M = new Function(
-  "DCLogic", "React", "ngWireDecks", "ngWireScoreWeights", "localStorage",
+  "DCLogic", "React",
   `${bundle}\nreturn { Component, NG_CHALLENGES, NG_CHALLENGE_TRACKS, NG_BADGE_DEFINITIONS };`,
-)(class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights, localStorage);
+)(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 // ── the real personas ────────────────────────────────────────────────────────────────────────
 const esbuild = createRequire(resolve(ROOT, "source/package.json"))("esbuild");
@@ -106,8 +112,6 @@ const rank = (belt) => (belt == null ? -1 : BELTS.indexOf(belt));
 
 // ── one booted app per (blob, frame) ─────────────────────────────────────────────────────────
 function boot(blob, frame, cur = CUR) {
-  store.clear();
-  if (blob !== undefined) store.set("bjj-neural-progress", JSON.stringify(blob));
   const a = Object.create(M.Component.prototype);
   a.nodes = GD.nodes;                 // ngWire* resolve ordinals from the wire nodes' `o`
   a.settings = {};
@@ -122,8 +126,10 @@ function boot(blob, frame, cur = CUR) {
   a.renderTutorial = () => {};
   a.renderChallengeCue = null;
   a._renderPaneBody = () => {};
+  a._progressCurrent = () => true;
   a._ingestDeckManifest(MAN);
-  a._loadProgress();
+  a._hydrateProgressBlob(blob === undefined ? null : JSON.parse(JSON.stringify(blob)));   // the real loader's body
+  a._progressLoaded = true;
   a.curriculum = cur;
   a._onCurriculum();                  // → _refreshChallengeEvidence(): the boot snapshot
   // a remapped score table is SKIPPED by the app and announced, never guessed (§6.6) — so a

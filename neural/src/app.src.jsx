@@ -2414,6 +2414,8 @@ class Component extends DCLogic {
     this._knowledgeRevision = revision == null ? (this._knowledgeRevision || 0) + 1 : revision;
     this._stageVer = (this._stageVer || 0) + 1;
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
+    // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
+    this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
     if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
     // A landing answer also changes combo/qMod in its synchronous onDone callback.
     // Notify once after that whole turn, never launch a solve on half a grade.
@@ -2484,6 +2486,11 @@ class Component extends DCLogic {
         const e = (this.dayLog[dk] = this.dayLog[dk] || { s: 0, k: [] });
         if (key && e.k.indexOf(key) < 0 && e.k.length < 40) e.k.push(key);
         e.s = Math.round((this.gameScore().score || 0) * 1000) / 10;
+        // the belt line (v1.209.0): [worn belt, its proven units, its units] — the email names the
+        // NEXT belt from it (workers/digest). The score above stays a percentage and names none.
+        // Absent while the curriculum is (no units to count): the Worker prints no line, never a guess.
+        const wb = this.wornBelt();
+        if (wb.total > 0) e.b = [wb.id, wb.done, wb.total];
         const w = this.weakSpots ? this.weakSpots() : null;
         if (w) e.w = [w.n, w.word].concat(w.top || []);
       } catch (err) { /* optional digest cannot break a grade */ }
@@ -2965,17 +2972,8 @@ class Component extends DCLogic {
   noteCardAnswered() {
     this.cardsAnswered = (this.cardsAnswered || 0) + 1;
     if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
-    // THE BLACK-BELT CROSSING (v1.105.1). Post-grade by construction (both chokes bump
-    // _stageVer before landing here, so gameScore() is fresh) — NOT in _bumpStageVer, which
-    // hydration also calls: a badge minted by a payload arriving would be a badge for nothing.
-    // Fires while black AND unminted — unconditional-at-black rather than edge-triggered, so a
-    // user who was ALREADY black before v1.105.1 is grandfathered on their next answer; goes
-    // quiet forever once the badge exists (replay noise, and the mint loop is idempotent anyway).
-    try {
-      if (!(this.badges && this.badges["recall-in-play"]) && this.gameScore().belt === "black") {
-        this.fx("belt_reached", { belt: "black" });
-      }
-    } catch (e) { /* score not ready at boot — the next answer retries */ }
+    // THE BLACK-BELT CROSSING — the worn belt since v1.209.0; see _noteBlackBelt.
+    this._noteBlackBelt();
   }
   // PANE LAW: never force the pane open. One quiet toast; the save CTA still renders
   // inside the pane whenever the user opens it by hand (_menuNudge). The pill this used
@@ -3767,6 +3765,8 @@ class Component extends DCLogic {
       this._landBackfill(); // the state on screen right now gets the question it was owed
       this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
+    // its own guard: a failure above (a repaint, a backfill) must not skip the belt's grandfather
+    this._knowledgeEffect("belt-sync", () => this._syncBelt("manifest"));
   }
   onContentReady(keys) {
     if (this.__ngDestroyed) return;
@@ -6807,10 +6807,11 @@ class Component extends DCLogic {
           const dl = (this.dayLog = this.dayLog || {});
           for (const day in (cloud.dayLog || {})) {
             const c = cloud.dayLog[day] || {}; const m = dl[day];
-            if (!m) { dl[day] = { s: c.s || 0, k: (c.k || []).slice(0, 40), w: c.w }; continue; }
+            if (!m) { dl[day] = { s: c.s || 0, k: (c.k || []).slice(0, 40), w: c.w }; if (ngBeltLine(c.b)) dl[day].b = c.b; continue; }
             for (const k of c.k || []) if (m.k.indexOf(k) < 0 && m.k.length < 40) m.k.push(k);
             if ((c.s || 0) > (m.s || 0)) m.s = c.s;   // the higher snapshot is the later one — score is monotonic-ish within a day
             if (!m.w && c.w) m.w = c.w;
+            if (ngBeltLineAhead(c.b, m.b)) m.b = c.b; // the email's belt line (v1.209.0): the belt never falls, so the higher line is the later one
           }
         }
         this.rec = rec; this.stage = stage;
@@ -6819,7 +6820,16 @@ class Component extends DCLogic {
         const att = Object.assign({}, (this.belts || {}).attempts || {});
         const cAtt = (cloud.belts || {}).attempts || {};
         for (const k in cAtt) att[k] = Math.max(att[k] || 0, cAtt[k] || 0);
+        // THE WORN BELT IS A HIGH-WATER MARK (v1.209.0) — MAX by rank across devices, never "local
+        // wins". This line is load-bearing: the assign below keeps only LOCAL keys of `belts`, so
+        // without it a belt earned on another device was dropped by the first merge and pushed
+        // back over the cloud. `gf` (the one-time grandfather) survives only when BOTH sides carry
+        // it; see ngMergeBeltGrandfather.
+        const held = ngMergeHeldBelt((this.belts || {}).held, (cloud.belts || {}).held);
+        const gf = ngMergeBeltGrandfather((this.belts || {}).gf, (cloud.belts || {}).gf);
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
+        if (held) this.belts.held = held; else delete this.belts.held;
+        if (gf) this.belts.gf = gf; else delete this.belts.gf;
         const tutDone = Object.assign(
           {},
           ((cloud.tut || {}).done || {}),
@@ -7195,6 +7205,7 @@ class Component extends DCLogic {
     this.styleViewToggle();
     if (this.deckShown) this._renderPaneBody();
     this._refreshChallengeEvidence();
+    this._knowledgeEffect("belt-sync", () => this._syncBelt("curriculum"));
   }
   setViewMode(m) {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
@@ -7365,6 +7376,114 @@ class Component extends DCLogic {
     const live = unit.lessons.filter((l) => this._lessonLive(l));
     return live.length > 0 && live.every((l) => this.lessonDone(l.deckKey)) && !!(this.units && this.units[uk] && this.units[uk].checkpoint);
   }
+  // ── THE BELT YOU WEAR (v1.209.0, owner ruling 2026-09-30) ── The rule, the stripes and the
+  // cross-device merge live in neural/src/belt.src.js; this is the app's half: reading the
+  // Challenges evidence into it, persisting the high-water mark, and the one-time grandfather.
+  // READERS — every one of them, so a new reader is added here or not at all: the Challenges tab
+  // belt (`renderTabSubtitles`), timed recall in play from blue (`_recallInPlayNow`), the Recall
+  // Mode patch at black (`_noteBlackBelt`), the Settings lock (settings-ui.src.js) and the
+  // training-day email's belt line (`dayLog e.b`, read by workers/digest). Game Knowledge —
+  // `gameScore()` — decides none of them any more; its bands are read once, by the grandfather.
+  _beltCleared(belt) {
+    return !!belt && belt.units.length > 0 && belt.units.every((u) => this.unitComplete(belt.id, u));
+  }
+  _beltHeldId() {
+    const h = this.belts && this.belts.held;
+    return h && ngBeltRank(h.id) >= 0 ? h.id : null;
+  }
+  _beltClearedFlags() {
+    const byId = {};
+    for (const b of ((this.curriculum && this.curriculum.belts) || [])) byId[b.id] = b;
+    return NG_BELT_IDS.map((id) => this._beltCleared(byId[id]));
+  }
+  /** The belt you wear in the CURRENT ruleset — never below the persisted high-water mark — with
+   *  its proven units and the 0-4 stripes they give. */
+  wornBelt() {
+    const w = ngWornBelt(this._beltClearedFlags(), this._beltHeldId());
+    const belt = ((this.curriculum && this.curriculum.belts) || []).find((b) => b.id === w.id);
+    let done = 0;
+    const total = belt ? belt.units.length : 0;
+    if (belt) for (const u of belt.units) if (this.unitComplete(belt.id, u)) done += 1;
+    return { id: w.id, rank: w.rank, done: done, total: total, stripes: ngBeltStripes(done, total) };
+  }
+  /**
+   * PERSIST A PROMOTION THE MOMENT THE EVIDENCE SHOWS IT, so nothing computed later can lower what
+   * the player has seen. Called from every seam that moves the evidence: `_publishKnowledge` (every
+   * grade, every progress load or cloud merge), a checkpoint pass, the curriculum and the deck
+   * manifest arriving, and both sides of a ruleset flip. `wornBelt()` reads max(held, rule) anyway;
+   * this is what makes the max survive the rule going DOWN (a flip, an edit, a failed card).
+   *
+   * THE ONE-TIME GRANDFATHER (owner, 2026-09-30): the first time this runs on a blob without
+   * `belts.gf`, `held` becomes the max of every belt the player could see before v1.209.0 — the
+   * old tab colour and the Game Knowledge band, in both rulesets — and of the rule's own answer.
+   * The old tab needs only the curriculum, so it is applied as soon as that lands; the band needs
+   * the deck manifest's card counts, so the mark is written only once that is resident too. A merge
+   * with a side that lacks the mark drops it (`ngMergeBeltGrandfather`), so the merged state is
+   * grandfathered again — a stale device that boots first cannot under-grandfather an account.
+   */
+  _syncBelt(reason) {
+    if (!this._progressLoaded || !this.belts || !this.curriculum || !this.curriculum.belts) return;
+    const heldId = this._beltHeldId();
+    const before = Math.max(0, ngBeltRank(heldId));
+    let target = ngWornBelt(this._beltClearedFlags(), heldId).rank;
+    let via = reason || "evidence";
+    let dirty = false;
+    if (!this.belts.gf) {
+      const manifest = !!(this.flashcards && this.flashcards.decks);
+      for (const id of this._legacyBelts(manifest)) {
+        if (ngBeltRank(id) > target) { target = ngBeltRank(id); via = "grandfather"; }
+      }
+      // the mark rides the NEXT save rather than forcing one: a passive boot writes nothing it did
+      // not change (harness-boot-inflight-write.spec.ts), and nothing the grandfather reads — prep,
+      // stage, units, a cloud merge — can move without a save that carries the mark along. A
+      // RAISED belt below is different and saves at once: a curriculum edit before the next save
+      // could otherwise re-read it lower.
+      if (manifest) this.belts.gf = Date.now();
+    }
+    if (target > before) {
+      this.belts.held = { id: NG_BELT_IDS[target], t: Date.now() };
+      dirty = true;
+      this.fx("belt_promoted", { belt: NG_BELT_IDS[target], from: NG_BELT_IDS[before], via: via });
+    }
+    if (dirty) {
+      this._saveProgress();
+      if (this.renderTabSubtitles) this.renderTabSubtitles();
+    }
+    this._noteBlackBelt();
+  }
+  /**
+   * THE BELTS A PLAYER COULD SEE BEFORE v1.209.0 — read by the grandfather and by nothing else.
+   * The old Challenges-tab colour was `_frontierBeltId()`, the first belt whose live lessons were
+   * not all done; when every lesson was done it fell back to the corridor's TOP and painted the
+   * finished player white, so that case is read as the belt it should have shown, black. The
+   * Game Knowledge band is `gameScore().belt`. Both rulesets, because a player may have looked
+   * at either; the ruleset is restored even if a reader throws.
+   */
+  _legacyBelts(withBand) {
+    const out = [];
+    const keep = this._giMode;
+    const belts = this.curriculum.belts;
+    try {
+      for (const fr of ["gi", "nogi"]) {
+        this._giMode = fr;
+        const allDone = belts.every((b) => { const s = this._beltLessonSummary(b.id); return !s || !s.total || s.done >= s.total; });
+        out.push(allDone ? belts[belts.length - 1].id : this._frontierBeltId());
+        if (withBand) { const g = this.gameScore(); if (g && g.belt) out.push(g.belt); }
+      }
+    } finally { this._giMode = keep; }
+    return out;
+  }
+  // THE BLACK-BELT CROSSING (v1.105.1; the WORN belt since v1.209.0). Fires while black AND
+  // unminted — unconditional-at-black rather than edge-triggered, so a player who is already black
+  // (grandfathered, or promoted on another device) is minted on the next sync or answer; it goes
+  // quiet forever once the patch exists, and the mint loop is idempotent anyway.
+  _noteBlackBelt() {
+    try {
+      if (!(this.badges && this.badges["recall-in-play"]) && this.wornBelt().id === "black") {
+        this.fx("belt_reached", { belt: "black" });
+      }
+    } catch (e) { /* the belt is not readable yet — the next sync or answer retries */ }
+  }
   _lessonNodeIdx(deckKey) {
     const e = this._lessonIndex && this._lessonIndex[deckKey];
     if (!e || !this._idIndex) return -1;
@@ -7402,8 +7521,9 @@ class Component extends DCLogic {
   //
   //     score = Σ (weight_i × mastery_i),   Σ weight_i = 1
   //
-  // Know nothing → 0. Prove the entire game by recall → 1. Belts are thresholds on that one
-  // number. Nothing is cut: a rare technique still counts, just proportionally to how rare it is
+  // Know nothing → 0. Prove the entire game by recall → 1. The bands below were BELTS until
+  // v1.209.0; they now decide nothing (the belt is `wornBelt()`, earned in the Challenges) and are
+  // read once, by the grandfather in `_legacyBelts`. Nothing is cut: a rare technique still counts, just proportionally to how rare it is
   // (the old "drop the tail 20%" canon was arbitrary — attempt_probability is normalised per
   // position, so any mass cutoff is meaningless).
   //
@@ -7701,6 +7821,10 @@ class Component extends DCLogic {
   }
   setGiMode(m) {
     if (m !== "gi" && m !== "nogi") return;
+    // THE BELT SURVIVES THE FLIP (v1.209.0): five units change size between rulesets, so the rule
+    // can answer lower in the other one. Persist what this ruleset shows BEFORE leaving it, and
+    // what the new one shows after — `held` is the max of both, never lowered by either.
+    this._syncBelt("ruleset");
     this._giMode = m;
     this._gameValueChanged("ruleset");
     try { localStorage.setItem("bjj_gi_mode", m); } catch (e) {}
@@ -7726,6 +7850,7 @@ class Component extends DCLogic {
     this._flowKernel = null;
     this._flowScoreCache = null;
     this._rebuildRulesetMask();
+    this._syncBelt("ruleset");
     const concept = this._conceptsById && this._conceptsById[this._conceptId];
     if (concept) this.focusConcept(concept, true);
     // NOT released, each for a reason, so the next reader sees this was checked not forgotten:
@@ -12378,6 +12503,7 @@ class Component extends DCLogic {
     const passed = cp.firstTry >= cp.pass;
     if (passed) {
       this.units[cp.uk] = Object.assign({}, this.units[cp.uk] || {}, { checkpoint: true, t: Date.now() });
+      this._syncBelt("checkpoint"); // a proven unit can complete a belt: persist the promotion now
       this.fx("checkpoint_passed", { unit: cp.uk, firstTry: cp.firstTry, of: cp.picks.length });
       this.fx("unit_done", { unit: cp.uk, belt: cp.belt });
       this._flushSave();
@@ -13961,10 +14087,9 @@ class Component extends DCLogic {
   // The black-belt badge still force-enables the toggle (a floor-lowerer, no longer the only gate).
   _recallInPlayNow() {
     if (this.get("recallInPlay", false)) return true;
-    try {
-      const b = this.gameScore().belt;
-      return !!b && this.BELT_SCORE.findIndex((x) => x[0] === b) >= 1;
-    } catch (e) { return false; }
+    // the WORN belt since v1.209.0 (owner): "from blue" means blue in the Challenges, never a
+    // Game Knowledge band — see wornBelt()
+    try { return this.wornBelt().rank >= 1; } catch (e) { return false; }
   }
   /** done/total for one deck, the manifest `n` standing in until the chunk lands (see above).
    *  ONE reader for the node card's chip and the landing card's corner count (v1.175.0). */

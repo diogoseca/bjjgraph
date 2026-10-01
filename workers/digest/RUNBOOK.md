@@ -113,8 +113,10 @@ it. The page tells them so and names coach@bjjgraph.org. To lift one by hand:
 unsubscribe — only a stop that follows a mail is.
 
 ## What the email contains
-Count + techniques reviewed · Game Knowledge % (+today's delta) · "at this pace:
-<NEXT BELT> in ~N days" · streak line · weak-spots magazine block: the top spot
+Count + techniques reviewed · Game Knowledge % (+today's delta) · "Next belt: <BELT> —
+N of M <worn belt> units proven" (v1.209.0: the belt the player wears, earned in the
+Challenges and written by the app as `dayLog[day].b`; no line when an older app wrote none —
+the score names no belt, and the old score-paced "at this pace" line is retired) · streak line · weak-spots magazine block: the top spot
 with an attributed YouTube clip when the public content chunk carries one
 ("Here's a great video from <who> explaining <X>"), the second spot as a
 one-line extra. All numbers come from the player's own synced blob (`dayLog`,

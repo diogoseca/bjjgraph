@@ -111,7 +111,11 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
       recallCount: snap.recallCount,
       masteredDeckCount: snap.masteredDeckCount,
       badgeKeys: Object.keys(a.badges || {}),
-      patchBeats: beats.filter((b) => b.beat === "patch_earned").length,
+      // the Recall Mode patch is excluded: since v1.209.0 it mints through `belt_reached` (the
+      // black crossing), never through the snapshot this spec is about — asserted on its own below
+      patchBeats: beats.filter((b) => b.beat === "patch_earned" && b.id !== "recall-in-play").length,
+      worn: a.wornBelt().id,
+      blackPatch: !!(a.badges || {})["recall-in-play"],
       coinBeats: beats.filter((b) => b.beat === "coin_earned").length,
       snapshotCompletionsLoud: beats.filter(
         (b) =>
@@ -125,7 +129,11 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
   expect(boot.recallCount, "all 32 seeded stage hashes matched the app's qhash").toBe(32)
   expect(boot.masteredDeckCount, "four decks measure fully mastered at boot").toBe(4)
   expect(boot.badgeKeys, "thirty-from-memory minted at the boot snapshot").toContain("thirty-from-memory")
-  expect(boot.patchBeats, "…SILENTLY: zero patch_earned beats (challenge_snapshot suppresses fx)").toBe(0)
+  expect(boot.patchBeats, "…SILENTLY: zero snapshot patch_earned beats (challenge_snapshot suppresses fx)").toBe(0)
+  // v1.209.0 (owner): the belt is earned in the Challenges. This persona proves EVERY unit, so it
+  // WEARS black — and black earns the Recall Mode patch at boot, loudly, by design.
+  expect(boot.worn, "every unit proven: the endgame persona wears black").toBe("black")
+  expect(boot.blackPatch, "and holds the Recall Mode patch").toBe(true)
   expect(boot.coinBeats, "and zero coin_earned beats").toBe(0)
   expect(boot.snapshotCompletionsLoud, "boot-snapshot completions never speak as beats").toBe(0)
 

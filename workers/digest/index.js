@@ -19,9 +19,10 @@
  *      (suppress.js) is never lifted by anything in this Worker.
  *   4. The auth user: the owner's kill switches (banned, deleted, unconfirmed) are skips by
  *      name, and the address must pass an ASCII allow-list before it reaches a To: header.
- *   5. Compose: techniques · count · Game Knowledge % (+delta) · NEXT-BELT ETA at the recent
- *      pace · streak · the weak-spots MAGAZINE section (top spot with an attributed clip when
- *      the public content chunk carries one; the second as "an extra").
+ *   5. Compose: techniques · count · Game Knowledge % (+delta) · the NEXT BELT from the belt the
+ *      player wears (`dayLog[day].b`, v1.209.0 — never from the score) · streak · the weak-spots
+ *      MAGAZINE section (top spot with an attributed clip when the public content chunk carries
+ *      one; the second as "an extra").
  *   6. CLAIM the (user, day) in digest_sent — BEFORE the send (v1.164.3) — then send via
  *      Cloudflare Email (the EMAIL binding), at most MAX_SENDS_PER_RUN ATTEMPTS per run. A
  *      claim that fails or cannot be verified STOPS THE RUN: mail this run cannot record is
@@ -52,12 +53,14 @@
  */
 
 import {
-  SITE, beltEta, streakOf, renderText, renderHtml, renderSubject,
+  SITE, streakOf, renderText, renderHtml, renderSubject,
 } from "./render.js";
 import { safeEqual } from "./safe-equal.js";
 // The APP'S OWN manifest decoder (v1.204.3), bundled across the tree the way functions/l imports
 // lists-codec.src.js: the mail allow-list and the app can never read the manifest two ways.
 import { ngWireDecks } from "../../neural/src/wire-keys.src.js";
+// …and the app's own belt rule (v1.209.0): the order of the belts and what a valid belt line is.
+import { NG_BELT_IDS, ngBeltLine } from "../../neural/src/belt.src.js";
 import { atMs, isLocked } from "./suppress.js";
 
 // THE TWO ADDRESSES THE MAIL CARRIES, and they are deliberately the same mailbox.
@@ -433,7 +436,7 @@ async function compose(env, row, ctx) {
     if (!e || typeof e !== "object" || Array.isArray(e)) { hit(); continue; }
     const k = keys(e.k, ctx.allow, CAP.techniques, hit);
     if (!k.length) continue;
-    entries[d] = { k, s: num(e.s, 0, 100, 1, hit), w: keys(Array.isArray(e.w) ? e.w.slice(2) : null, ctx.allow, CAP.weak, hit) };
+    entries[d] = { k, s: num(e.s, 0, 100, 1, hit), w: keys(Array.isArray(e.w) ? e.w.slice(2) : null, ctx.allow, CAP.weak, hit), b: e.b };
   }
   const valid = Object.keys(entries).sort();
   const day = valid[valid.length - 1];
@@ -470,19 +473,18 @@ async function compose(env, row, ctx) {
   const prevDay = valid[valid.length - 2];
   const prevS = prevDay ? entries[prevDay].s : null;
   const delta = prevS != null ? num(e.s - prevS, -CAP.delta, CAP.delta, 1, hit) : null;
-  const deltas = [];
-  const recent = valid.slice(-7).slice(0, -1);
-  for (let i = 1; i < recent.length; i++) {
-    const a = entries[recent[i - 1]].s, b = entries[recent[i]].s;
-    if (a != null && b != null && b > a) deltas.push((b - a) / 100);
-  }
+  // THE BELT LINE (v1.209.0): the belt the player wears, as the app wrote it — validated by the
+  // app's own `ngBeltLine` (a known belt, integer units, done <= total), or no line at all. An
+  // older app wrote none; a malformed one is counted and dropped, never repaired into a guess.
+  const line = ngBeltLine(e.b);
+  if (e.b != null && !line) hit();
   const count = num(days[day], 0, CAP.count, 0, hit);
   const digest = {
     count: count == null || count === 0 ? e.k.length : count,
     techniques: e.k,
     score: e.s,
     delta,
-    eta: beltEta(e.s / 100, deltas),
+    belt: line ? { worn: line.id, next: NG_BELT_IDS[line.rank + 1] || null, done: line.done, total: line.total } : null,
     streak: num(streakOf(days, day), 0, CAP.streak, 0, hit) || 0,
     weakTop: e.w,
     clip: e.w[0] ? await clipFor(e.w[0]) : null,

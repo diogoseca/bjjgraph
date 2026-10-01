@@ -49,12 +49,15 @@ const NG_CHALLENGE_UI_METHODS = {
   // untouched; the score's one exposure is the Explore tab subtitle below.
 
   // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:
-  //  · Explore — the Game Knowledge score as "Mastered N%" (same number as the belt);
-  //  · Challenges — a miniature belt in the PINNED track's color wearing 0-4 stripes from
-  //    that track's PROVEN-UNITS fraction (unitComplete: lessons done + checkpoint —
-  //    v1.95.3; objectives were too generous, a guest wore unearned stripes). Deliberately
-  //    NOT gameScore().stripes: the knowledge belt is the SCORE's belt; the Challenges
-  //    tab's stripes are LADDER progress. Two meters, two meanings — documented in CLAUDE.md.
+  //  · Explore — the Game Knowledge score as "Mastered N%" (a percentage — it names no belt);
+  //  · Challenges — THE BELT YOU WEAR (v1.209.0, owner ruling 2026-09-30): `wornBelt()`, the
+  //    belt after the last belt whose units are all proven, never below the persisted
+  //    high-water mark, wearing 0-4 stripes from ITS proven units (unitComplete: lessons done +
+  //    checkpoint — v1.95.3; objectives were too generous, a guest wore unearned stripes).
+  //    Until v1.209.0 the colour was the FRONTIER (first belt with lessons left), which moved on
+  //    lessons alone and painted a finished player WHITE (the frontier falls back to the
+  //    corridor's top). The frontier still drives navigation — the open section, the arrival
+  //    scroll, the glow, the cue — and never the belt. Game Knowledge is a percentage only.
   //  · Last rolls — static copy from the template ("History reads as the history of BJJ",
   //    owner). The internal view id and settings keys stay `history`.
   renderTabSubtitles() {
@@ -66,28 +69,19 @@ const NG_CHALLENGE_UI_METHODS = {
       ex.textContent = "Mastered " + Math.round(this.gameScore().score * 100) + "%";
     const ch = vt.querySelector('[data-tab-sub="challenges"]');
     if (ch) {
-      const pinned = this._frontierBeltId(); // the frontier belt (pinning retired v1.99.2)
-      // stripes = the pinned track's PROVEN UNITS (all live lessons done + checkpoint
-      // passed) over its unit count → 0-4. NOT the objectives fraction (v1.95.3): the
-      // first-roll coach auto-ticks objectives and incidental evidence completes more
-      // through normal play, so a casual guest wore stripes he never deliberately earned
-      // (owner: a guest must be 0). Units only move through deliberate challenge work.
-      const belt =
-        this.curriculum && this.curriculum.belts
-          ? this.curriculum.belts.find((b) => b.id === pinned)
-          : null;
-      const total = belt ? belt.units.length : 0;
-      let done = 0;
-      if (belt)
-        for (const unit of belt.units)
-          if (this.unitComplete(belt.id, unit)) done += 1;
-      const stripes = total
-        ? Math.max(0, Math.min(4, Math.floor((done / total) * 4)))
-        : 0;
+      // stripes = the worn belt's PROVEN UNITS (all live lessons done + checkpoint passed) over
+      // its unit count → 0-4. NOT the objectives fraction (v1.95.3): the first-roll coach
+      // auto-ticks objectives and incidental evidence completes more through normal play, so a
+      // casual guest wore stripes he never deliberately earned (owner: a guest must be 0).
+      // Units only move through deliberate challenge work — and since v1.209.0 so does the belt.
+      const worn = this.wornBelt();
+      const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
       let tape = "";
       for (let i = 0; i < stripes; i++) tape += "<b></b>";
       ch.innerHTML =
-        '<i class="ng-tab-belt" data-tab-stripes="' +
+        '<i class="ng-tab-belt" data-tab-belt="' +
+        pinned +
+        '" data-tab-stripes="' +
         stripes +
         '" style="--tb:' +
         (NG_CHALLENGE_TRACK_COLORS[pinned] || NG_CHALLENGE_TRACK_COLORS.white) +
@@ -172,8 +166,10 @@ const NG_CHALLENGE_UI_METHODS = {
   // THE FRONTIER BELT (v1.99.2, owner: "what's that pinning about? show the belt open on
   // the topmost section still left to complete") — the first belt, in corridor order,
   // whose live lessons are not all done. It replaces the pinned track everywhere the UI
-  // used one: default-open section, arrival scroll, frontier glow, tab belt, challenge
-  // cue, selected-track fallback. `challengePinnedTrack` is DORMANT: still merged in
+  // used one: default-open section, arrival scroll, frontier glow, challenge cue,
+  // selected-track fallback. NAVIGATION ONLY since v1.209.0: the tab belt is `wornBelt()`,
+  // because this falls back to the corridor's top when everything is done (right for a
+  // scroll target, wrong for a belt — it painted a finished player white). `challengePinnedTrack` is DORMANT: still merged in
   // progress blobs for compatibility, read by nothing.
   _frontierBeltId() {
     const belts = (this.curriculum && this.curriculum.belts) || [];
@@ -678,7 +674,7 @@ const NG_CHALLENGE_UI_METHODS = {
         "<small>BLACK-BELT REWARD</small><b>Recall Mode</b><p>" +
         (earned
           ? "Earned. In play, proven cards are pure recall \u2014 flip it in Settings \u2192 Flashcards."
-          : "Reach black-belt Game Knowledge and proven cards stop being multiple choice in play \u2014 no options, just the question and your memory.") +
+          : "Reach black belt and proven cards stop being multiple choice in play \u2014 no options, just the question and your memory.") +
         "</p>";
       // capstone is not yet in the DOM here — the builder appends it below, and the append
       // site places this row immediately before it.

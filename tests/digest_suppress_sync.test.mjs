@@ -649,6 +649,39 @@ test("a hostile blob mails only what the manifest knows, and no attacker string 
   // is not finite, so it is not a previous score — kills: coerce `s` to 0 instead of null
   assert.ok(!/% today\)/.test(m.text), "a delta was computed against a non-finite previous score: " + m.text);
   assert.ok(out.capped >= 8, "the run must count the caps it applied (" + out.capped + ")");
+  // the hostile belt line (v1.209.0) is refused whole: no belt is named at all
+  assert.ok(!/Next belt|Belt:/.test(m.text), "a hostile belt line was mailed: " + m.text);
+});
+
+// ── the belt line (v1.209.0): the belt the player WEARS, never a band of the score ──────────
+
+test("the mail names the next belt from the line the app wrote — and prints none without one, whatever the score", async () => {
+  const mail = async (dayEntry) => {
+    const b = blobFor(Date.now() - 864e5);
+    Object.assign(b.dayLog[YESTERDAY], dayEntry);
+    const h = harness({ rows: [{ user_id: USER, neural: b }] });
+    await withFetch(h.fetchImpl, () => runDigest(h.env));
+    assert.equal(h.mails.length, 1);
+    return h.mails[0];
+  };
+  // a black Game Knowledge score on a BLUE belt: the mail names purple, the blue belt's next one.
+  // kills: compose the line from the score (the retired beltEta), or drop the line altogether
+  let m = await mail({ s: 84, b: ["blue", 4, 6] });
+  assert.ok(m.text.includes("Next belt: PURPLE \u2014 4 of 6 blue units proven"), m.text);
+  assert.ok(m.html.includes("Next belt: <b>PURPLE</b>"), "the html names it too");
+  // at black there is no next belt: the line names black. kills: name the worn belt as its own
+  // next one (off by one). EQUIVALENT, not a non-kill: dropping the `|| null` after the order's
+  // last index leaves `undefined`, which takes the same black branch.
+  m = await mail({ s: 12, b: ["black", 2, 6] });
+  assert.ok(m.text.includes("Belt: BLACK \u2014 2 of 6 units proven") && !m.text.includes("Next belt"), m.text);
+  // an older app wrote no line: no belt is named — not one guessed from the score
+  m = await mail({ s: 84 });
+  assert.ok(!/Next belt|Belt:|At this pace|Next stop/.test(m.text + m.html), "a belt was named without a line: " + m.text);
+  // malformed lines are refused whole, never repaired — kills: drop `ngBeltLine`'s validation
+  for (const bad of [["plaid", 1, 6], ["blue", 7, 6], ["blue", 1.5, 6], ["blue", -1, 6], ["blue", 0, 0], "blue", ["blue", "4", 6]]) {
+    m = await mail({ s: 50, b: bad });
+    assert.ok(!/Next belt|Belt:/.test(m.text), "a malformed line was mailed: " + JSON.stringify(bad));
+  }
 });
 
 test("a blob whose score is not a number is skipped by name, not mailed with a placeholder", async () => {
