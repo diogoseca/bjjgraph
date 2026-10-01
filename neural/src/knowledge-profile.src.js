@@ -67,6 +67,19 @@ export function ngKnowledgeOverride(userMods, act) {
   const m = userMods.find((x) => x.on && x.name === act.t);
   return m ? Math.max(0.05, Math.min(0.95, m.pct / 100)) : null;
 }
+// THE TECHNIQUE AS PLAYED FROM ONE LISTING (v1.214.0, origin coherence PR B). A transition dealt at an
+// away listing may carry that listing's own table on the wire, `cal.at[posId]` = {successRate,
+// successRateByRuleset, outcomes}, because its canonical table, written for its origin, would send
+// a miss back to the origin. This returns the node with those three fields overlaid and `here` set,
+// or THE NODE ITSELF when the move has no table at `hereId`, so a corpus without listing tables reads
+// exactly as before. ONE implementation for the app (`_at`), the adapter (`actAt`) and FLOW; its
+// Python twins are solve_edge_values.listing_view (graph.json) and _mdp_mechanics.cal_at (the wire).
+export function ngKnowledgeCalAt(node, hereId) {
+  const at = node && node.cal && node.cal.at && hereId != null ? node.cal.at[hereId] : null;
+  if (!at) return node;
+  return { ...node, here: hereId, cal: { ...node.cal, successRate: at.successRate,
+    successRateByRuleset: at.successRateByRuleset, outcomes: at.outcomes } };
+}
 export function ngKnowledgeCalibrated(act, ruleset) {
   const c = act && act.cal;
   if (!c) return { chance: null, provenance: "missing-calibration", explicitNull: false };

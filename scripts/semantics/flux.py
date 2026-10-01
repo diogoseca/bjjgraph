@@ -73,6 +73,7 @@ sys.path.insert(0, SCRIPTS)
 
 import _tpt  # noqa: E402
 from _kernel import IW, IL, ID, load_kernel  # noqa: E402
+from solve_edge_values import listing_view  # noqa: E402
 
 ART = os.path.join(REPO, "tests", "artifacts", "semantics", "flux.json")
 # Where `--full` writes its large per-technique dumps. Never committed, never read back by the
@@ -1585,7 +1586,10 @@ def _top_moves(op, meta, dvec, k=2):
 
 def _listing_row(graph, op, meta, rn, k, eff, K0):
     cat, target = k.split("/", 1)
-    node = graph[cat].get(target + "/attacker") or {}
+    # the card AS DEALT AT THIS LISTING: its own table when it has one (v1.214.0, origin coherence
+    # PR B), so a listing that no longer teleports is not reported as teleporting
+    edge = next((tr for tr in graph["positions"][rn].get("transitions") or [] if tr.get("target") == target), None)
+    node = listing_view(graph[cat].get(target + "/attacker") or {}, edge)
     origin = (node.get("fromPositionId") or "?") + "/" + (node.get("fromRole") or "?")
     t = K0.index[rn]
     share = op.h1[t][k] / sum(op.h1[t].values())               # the listing's share of the authored hand

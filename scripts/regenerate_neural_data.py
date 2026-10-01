@@ -251,7 +251,21 @@ def frame_reachable(graph: dict, frame: str) -> dict:
         if node.get("role") not in ("top", "bottom"):
             continue
         hand = build_hand(graph, key, opts)[0]
-        out[key] = {"T:" + a.target for a in hand}
+        nxt = set()
+        for a in hand:
+            if a.tech is not None and a.tech is not graph[a.cat].get(a.target + "/attacker"):
+                # A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B): the move as dealt HERE, in
+                # THIS frame (build_hand already applied the frame's attempt and the listing view), is
+                # its own node carrying this table's destinations. Merging it into "T:<target>" would
+                # hand those destinations to every state that deals the move with its canonical table,
+                # so a gi-only listing's states would become reachable in no-gi: the teleport class
+                # this walk exists to stop. The technique still counts as reached (the report below).
+                lk = "T:" + a.target + "@" + key
+                nxt.add(lk)
+                out[lk] = {o["to"] for o in a.tech.get("outcomes") or [] if (o.get("to") or "") in positions}
+            else:
+                nxt.add("T:" + a.target)
+        out[key] = nxt
         dealt += len(hand)
     # A walk that deals nothing reaches only its seeds and reports EVERYTHING unavailable, which is
     # what a clean run looks like from the outside (CLAUDE.md §6.6): the count must be positive.
@@ -282,7 +296,7 @@ def frame_reachable(graph: dict, frame: str) -> dict:
                 seen.add(nxt)
                 stack.append(nxt)
     return {"positions": {k for k in seen if not k.startswith("T:")},
-            "techniques": {k[2:] for k in seen if k.startswith("T:")}}
+            "techniques": {k[2:].split("@", 1)[0] for k in seen if k.startswith("T:")}}
 
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
@@ -462,6 +476,30 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             if t.get("dealHere") is True:
                 deal_here_at.setdefault(t.get("target"), set()).add(pnode.get("hub") or pk.rsplit("/", 1)[0])
     deal_here_joined = 0
+    # A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B). graph.json carries it on the position
+    # edge (`ownTable`, regenerate_graph._listing_table); the wire carries it on the TECHNIQUE as
+    # `cal.at[posId]`, keyed by posId strings exactly like `alsoFrom` (never an index, CLAUDE.md 6.6),
+    # in the canonical table's own shape: `successRate`, `successRateByRuleset` (frames equal to the
+    # scalar trimmed, as below), and `outcomes` as tuples, interned with the rest. Readers: the app's
+    # `_at`, the adapter's `actAt` (both K.ngKnowledgeCalAt), _mdp_mechanics.cal_at, app_game.py.
+    own_tables_at = {}
+    _own_tables_want = 0
+    for pk, pnode in graph.get("positions", {}).items():
+        for t in pnode.get("transitions", []) or []:
+            if not t.get("ownTable"):
+                continue
+            _own_tables_want += 1
+            entry = {}
+            if t.get("successRate") is not None:
+                entry["successRate"] = t["successRate"]
+            br = {fr: v for fr, v in (t.get("successRateByRuleset") or {}).items()
+                  if v is not None and v != t.get("successRate")}
+            if br:
+                entry["successRateByRuleset"] = br
+            entry["outcomes"] = [[o.get("to"), o.get("probability"), _RESULT_CODE.get(o.get("result"), o.get("result"))]
+                                 for o in t.get("outcomes") or []]
+            own_tables_at.setdefault(t.get("target"), {})[pnode.get("hub") or pk.rsplit("/", 1)[0]] = entry
+    own_tables_joined = 0
 
     nodes = []
     for n in layout["nodes"]:
@@ -504,6 +542,13 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                     deal_here_joined += len(node["alsoFrom"])
                     break
         cal = enrich(n["id"], ty, n.get("t"))
+        if ty != "positions":
+            for c in _tech_keys(_slug_from_id(n["id"]), n.get("t")):
+                if c in own_tables_at:
+                    cal = dict(cal or {})
+                    cal["at"] = {h: own_tables_at[c][h] for h in sorted(own_tables_at[c])}
+                    own_tables_joined += len(cal["at"])
+                    break
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
         if ty == "positions":  # family membership so the app can resolve the <Family>|Family tier deck
@@ -549,6 +594,12 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             f"[neural] deal_here join lost {_dh_want - deal_here_joined} listing(s): graph.json "
             f"flags {sorted(deal_here_at)} but the layout join found only {deal_here_joined}. "
             f"Refusing to emit a wire that deals a different hand than graph.json.")
+    print(f"  listing tables: {own_tables_joined}/{_own_tables_want} carried to the wire as cal.at")
+    if own_tables_joined != _own_tables_want:
+        raise SystemExit(
+            f"[neural] listing-table join lost {_own_tables_want - own_tables_joined} of {_own_tables_want}: "
+            f"graph.json carries them on {sorted(own_tables_at)} but the layout join placed only "
+            f"{own_tables_joined}. Refusing to emit a wire that prices a different exchange than graph.json.")
 
     # ── AVAILABILITY COVERAGE, PRINTED EVERY RUN ────────────────────────────────────────────
     # `avail` is the only thing that removes a node from a ruleset, so an empty or all-true table
@@ -685,15 +736,21 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     #
     # Ordered by DESCENDING USE, tie-broken by name: it is deterministic (a re-run diffs clean)
     # and it spends the one- and two-digit indexes on the destinations that occur most.
+    def _outcome_rows(nd):
+        c = nd.get("cal") or {}
+        yield from c.get("outcomes") or []
+        for h in sorted(c.get("at") or {}):        # listing tables (v1.214.0)
+            yield from c["at"][h].get("outcomes") or []
+
     to_freq = {}
     for nd in nodes:
-        for o in (nd.get("cal") or {}).get("outcomes") or []:
+        for o in _outcome_rows(nd):
             to_freq[o[0]] = to_freq.get(o[0], 0) + 1
     to_tab = sorted(to_freq, key=lambda s: (-to_freq[s], s))
     to_idx = {s: i for i, s in enumerate(to_tab)}
     _interned = 0
     for nd in nodes:
-        for o in (nd.get("cal") or {}).get("outcomes") or []:
+        for o in _outcome_rows(nd):
             o[0] = to_idx[o[0]]
             _interned += 1
     # POSITIVE COVERAGE, NOT SILENCE (§6.6). An interning pass that quietly matched nothing
@@ -709,7 +766,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     _bad = [
         (nd.get("id"), o[0])
         for nd in nodes
-        for o in ((nd.get("cal") or {}).get("outcomes") or [])
+        for o in _outcome_rows(nd)
         if not isinstance(o[0], int) or not (0 <= o[0] < len(to_tab))
     ]
     if not to_tab or _bad:
@@ -1521,7 +1578,10 @@ def build_technique_weights(graph: dict, frame: str, iters: int = 240, damp: flo
                 if flow <= 0:
                     continue
                 visits[tgt] = visits.get(tgt, 0.0) + flow
-                for dest, p in tech_tables.get(tgt, []):
+                table = ([(o.get("to"), float(o["probability"]) / 100.0) for o in edge.get("outcomes") or []
+                          if isinstance(o.get("probability"), (int, float))]
+                         if edge.get("ownTable") else tech_tables.get(tgt, []))    # v1.214.0
+                for dest, p in table:
                     if dest in nxt:
                         nxt[dest] += flow * p
                     else:

@@ -77,7 +77,8 @@ test('full emitted corpus metadata equals real gameplay mechanics for both rules
       const captured = { nodes: [], hands: {}, canonical: {}, destinations: {}, evHands: {} };
       for (const n of app.nodes) {
         const sub = app.submissionNode(n);
-        const cal = n.cal == null ? null : Object.fromEntries(['successRate', 'successRateByRuleset', 'outcomes', 'stateMoves', 'stateAlias'].filter(k => Object.hasOwn(n.cal, k) && n.cal[k] !== undefined).map(k => [k, n.cal[k]]));
+        // the producer's CAL_FIELDS (scripts/_mdp_mechanics.py), `at` included: a listing's own table (v1.214.0)
+        const cal = n.cal == null ? null : Object.fromEntries(['successRate', 'successRateByRuleset', 'outcomes', 'stateMoves', 'stateAlias', 'at'].filter(k => Object.hasOwn(n.cal, k) && n.cal[k] !== undefined).map(k => [k, n.cal[k]]));
         if (n.cal?.defenses) {
           cal.defenses = n.cal.defenses.map(d => response(sub, d, details[sub.t]));
           counts.defenses += cal.defenses.length;

@@ -62,6 +62,7 @@ function ngMdpCaptureGameGraph(app) {
     const cal = n.cal ? JSON.parse(JSON.stringify(n.cal)) : null;
     for (const o of cal && cal.outcomes || []) resolve(o.to);
     for (const d of cal && cal.defenses || []) resolve(d.to);
+    for (const h in (cal && cal.at) || {}) for (const o of cal.at[h].outcomes || []) resolve(o.to);   // listing tables (v1.214.0)
     nodes.push({ id: n.id, t: n.t, ty: n.ty, role: n.role || null, fromRole: n.fromRole || null,
       pairId: idOf(n.pi), submissionId: sub ? sub.id : null, posId: n.posId || null,
       fromPositionId: n.fromPositionId || null, s: n.s || null, dom: n.dom || 0,
@@ -106,6 +107,17 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
   const K = knowledge, nodes = new Map(graph.nodes.map(n => [n.id, n]));
   const flip = role => role === 'top' ? 'bottom' : 'top';
   const node = id => { const n = nodes.get(id); if (!n) throw new Error('unknown-node:' + id); return n; };
+  // THE MOVE AS PLAYED FROM ONE STATE (v1.214.0, origin coherence PR B): the node itself unless the
+  // move carries that state's own listing table (`cal.at[posId]`), else ONE overlay per (move, state),
+  // so every cache below can key on it. The pure rule is K.ngKnowledgeCalAt, shared with the app's
+  // `_at`. Every site that PRICES or DRAWS a move reads it; sites that read only names, types, pool
+  // membership or destinations keep `node`.
+  const atMemo = new Map();
+  const actAt = (id, stateId) => {
+    const here = node(stateId).posId || null, key = id + '|' + here;
+    if (!atMemo.has(key)) atMemo.set(key, K.ngKnowledgeCalAt(node(id), here));
+    return atMemo.get(key);
+  };
   const sub = n => n && n.submissionId ? node(n.submissionId) : null;
   const canonical = (id, role) => graph.canonical[ngMdpStable([id, role])] || id;
   const value = (n, role, opposite) => {
@@ -173,7 +185,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     return graph.destinations[out.to];
   }
   function rows(act, branch, s) {
-    const cacheKey=ngMdpStable([act.id,branch,K.ngKnowledgeSkew(s.combo)]);
+    const cacheKey=ngMdpStable([act.id,act.here==null?null:act.here,branch,K.ngKnowledgeSkew(s.combo)]);
     if(outcomeCache.has(cacheKey))return outcomeCache.get(cacheKey);
     const table = K.ngKnowledgeOutcomeWeights(act, branch, K.ngKnowledgeSkew(s.combo));
     if (!table || !table.outcomes || !table.outcomes.length) return [{ p: ngMdpRat(1), out: null }];
@@ -185,7 +197,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     outcomeCache.set(cacheKey,result);return result;
   }
   function weightedRows(act,success,s,chance){
-    const key=ngMdpStable([act.id,success,K.ngKnowledgeSkew(s.combo),chance]);
+    const key=ngMdpStable([act.id,act.here==null?null:act.here,success,K.ngKnowledgeSkew(s.combo),chance]);
     if(!massCache.has(key)){
       const p=ngMdpRat(chance),factor=success?p:ngMdpSub(ngMdpRat(1),p);
       massCache.set(key,rows(act,success,s).map(row=>({out:row.out,mass:ngMdpMul(factor,row.p)})));
@@ -193,7 +205,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     return massCache.get(key);
   }
   function moveChance(s, act, request) {
-    const key=ngMdpStable([chanceContextKey(s,request),act.id]);
+    const key=ngMdpStable([chanceContextKey(s,request),act.id,act.here==null?null:act.here]);
     if(chanceCache.has(key))return chanceCache.get(key);
     const r = K.ngKnowledgeExplainMove(profile, context(s, request, act), act);
     if (r.status !== 'ready') throw new Error(r.reason || 'missing-move-profile-context');chanceCache.set(key,r.chance);return r.chance;
@@ -214,10 +226,10 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     };
     const evRows = graph.evHands[ngMdpStable([id, role])] || [];
     let total = 0, shift = 0;
-    for (const r of evRows) { const act = node(r.techniqueId), p = evp(act); if (p == null) continue; total += r.att; shift += r.att * (moveChance(s, act, request) - p) * r.c1; }
+    for (const r of evRows) { const act = actAt(r.techniqueId, id), p = evp(act); if (p == null) continue; total += r.att; shift += r.att * (moveChance(s, act, request) - p) * r.c1; }
     shift = total > 0 ? shift / total : 0;
     for (const o of result) {
-      const act = node(o.techniqueId), p0 = evp(act); o.chance = moveChance(s, act, request);
+      const act = actAt(o.techniqueId, id), p0 = evp(act); o.chance = moveChance(s, act, request);
       o.order = o.ev ? p0 == null ? o.ev.e0 : o.ev.e0 + (o.chance - p0) * o.ev.c1 - shift : null;
     }
     result.sort((a, b) => {
@@ -241,7 +253,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
   // scaled by `weight`. The forced opponent action weights it by the policy's choice mass; a threat
   // probe weights it 1. One implementation for both, so a threat card and the game cannot disagree.
   function opponentPositionalRows(s, a, weight, request) {
-    const out = [], act = node(a.techniqueId);
+    const out = [], act = actAt(a.techniqueId, canonical(s.nodeId, flip(s.role)));
     for (const row of rows(act, null, s)) {
       const r = destination(row.out), dest = r.terminal ? s.nodeId : r.nodeId || a.destinationId || s.nodeId;
       const target = node(dest), caught = sub(target);
@@ -327,7 +339,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       out.actions.push({ id: ngMdpActionId(stateId, n.id, 'forced', null, 'no-choices'), branches: [endpoint(ngMdpRat(1), null, ['auto-restart'], { terminal: 'explicitNoResult', subtype: 'user-no-action-restart' })] }); return out;
     }
     for (const a of actions) {
-      const act = node(a.techniqueId), branches = [];
+      const act = actAt(a.techniqueId, canonical(s.nodeId, s.role)), branches = [];
       const id = ngMdpActionId(stateId, act.id, a.kind, a.destinationId, a.defenseId || a.defense || null);
       const result = { id, kind: a.kind, immediateExecutionKind: a.kind, branches }; out.actions.push(result);
       if (a.kind === 'entry') {

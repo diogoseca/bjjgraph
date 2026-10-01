@@ -135,6 +135,57 @@ def selftest_origin_walk():
     return fail
 
 
+def _listing_walk_fixture():
+    """Standing deals a sweep with its CANONICAL table (it stays at standing). A mat guard, reached by
+    a step-in, lists the same sweep with its OWN table (v1.214.0), whose miss lands in a lapel guard
+    nothing else reaches, and that listing is gi-only: its no-gi attempt is null."""
+    def edge(t, gi, nogi, **extra):
+        return {"technique": t, "target": t, "isSubmission": False,
+                "attemptProbabilityByRuleset": {"gi": gi, "nogi": nogi}, **extra}
+    def tech(slug, origin, cells):
+        return {"hub": slug, "role": "attacker", "fromPositionId": origin, "fromRole": "top",
+                "successRate": 50, "successRateByRuleset": {"gi": 50, "nogi": 50},
+                "outcomes": [{"to": to, "result": res, "probability": pr} for to, res, pr in cells]}
+    own = {"dealHere": True, "ownTable": True, "successRate": 40, "successRateByRuleset": {"gi": 40, "nogi": 40},
+           "outcomes": [{"to": "mat-guard/top", "result": "success", "probability": 40},
+                        {"to": "lapel-guard/top", "result": "failure", "probability": 60}]}
+    return {"positions": {
+                "standing-position/top": {"hub": "standing-position", "role": "top",
+                                          "transitions": [edge("step-in", 50, 50), edge("sweep", 50, 50)]},
+                "standing-position/bottom": {"hub": "standing-position", "role": "bottom", "transitions": []},
+                "mat-guard/top": {"hub": "mat-guard", "role": "top", "transitions": [edge("sweep", 100, None, **own)]},
+                "mat-guard/bottom": {"hub": "mat-guard", "role": "bottom", "transitions": []},
+                "lapel-guard/top": {"hub": "lapel-guard", "role": "top", "transitions": []},
+                "lapel-guard/bottom": {"hub": "lapel-guard", "role": "bottom", "transitions": []}},
+            "transitions": {
+                "step-in/attacker": tech("step-in", "standing-position", [("mat-guard/top", "success", 50),
+                                                                         ("standing-position/top", "failure", 50)]),
+                "sweep/attacker": tech("sweep", "standing-position", [("standing-position/top", "success", 50),
+                                                                     ("standing-position/top", "failure", 50)])},
+            "submissions": {}}
+
+
+def selftest_listing_walk():
+    """A LISTING'S OWN TABLE IS WALKED PER LISTING AND PER FRAME (v1.214.0; full-game review OCPRB1-FG
+    item 5). The sweep is dealt in no-gi at standing with its canonical table, and its gi-only mat-guard
+    listing is not dealt in no-gi at all. So the no-gi walk must NOT reach the lapel guard that only the
+    listing's table lands in, while the gi walk must (the positive control, so the negative is not a
+    walk that reaches nothing).
+    MUTANT: merging every listing table's destinations into "T:<target>" reaches the lapel guard in no-gi.
+    Returns a list of failures."""
+    fail = []
+    g = _listing_walk_fixture()
+    nogi, gi = frame_reachable(g, "nogi"), frame_reachable(g, "gi")
+    if "lapel-guard/top" in nogi["positions"]:
+        fail.append("listing walk fixture: a gi-only listing's table admitted its destination in no-gi; "
+                    "its destinations were merged into the technique's canonical node")
+    if "lapel-guard/top" not in gi["positions"] or "sweep" not in gi["techniques"]:
+        fail.append("listing walk fixture: the gi control did not reach the listing table's destination; "
+                    "the fixture proves nothing")
+    print(f"  listing walk fixture            : {2 - len(fail)}/2 controls hold")
+    return fail
+
+
 def main():
     ap = argparse.ArgumentParser(description="Gate the per-ruleset exclusion layer and write its ledger.")
     ap.add_argument("--graph", default=str(GRAPH))
@@ -154,7 +205,7 @@ def main():
                   {"positions": set(positions),
                    "techniques": set(hubs)}) for fr in FRAMES}
     print("[validate_ruleset_availability] per-ruleset exclusion")
-    fail = selftest_origin_walk()
+    fail = selftest_origin_walk() + selftest_listing_walk()
     print(f"  position role-nodes walked      : {len(positions)}")
     print(f"  technique hubs walked           : {len(hubs)}")
     if len(positions) < MIN_POSITIONS or len(hubs) < MIN_TECHNIQUES:

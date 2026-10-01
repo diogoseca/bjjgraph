@@ -159,8 +159,8 @@ REPO = os.path.dirname(SCRIPTS)
 sys.path.insert(0, HERE)
 sys.path.insert(0, SCRIPTS)
 
-from _kernel import ID, IL, IW, _expand, load_kernel  # noqa: E402
-from solve_edge_values import L, W, flip, load_graph  # noqa: E402
+from _kernel import ID, IL, IW, _expand, _priced, load_kernel  # noqa: E402
+from solve_edge_values import L, W, flip, listing_view, load_graph  # noqa: E402
 
 WIRE = os.path.join(REPO, "source", "quartz", "static", "neural", "graph-data.json")
 DETAILS = os.path.join(REPO, "source", "quartz", "static", "neural", "submission-details")
@@ -250,6 +250,11 @@ class AppPort:
                 c["outcomes"] = [
                     {"to": _to(o[0]), "probability": o[1], "result": RESULT_WORD.get(o[2], o[2])}
                     if isinstance(o, list) else o for o in c["outcomes"]]
+            for t in ((c or {}).get("at") or {}).values():          # listing tables (v1.214.0)
+                if isinstance(t.get("outcomes"), list):
+                    t["outcomes"] = [
+                        {"to": _to(o[0]), "probability": o[1], "result": RESULT_WORD.get(o[2], o[2])}
+                        if isinstance(o, list) else o for o in t["outcomes"]]
         self.hub_src = data["nodes"]              # the hub-level wire, after expansion
         if any(n.get("pairId") for n in self.hub_src):
             raise SystemExit("[app_game] wire already carries pairId — _deriveDualPairs would no-op "
@@ -673,6 +678,25 @@ class AppPort:
                 return k
         return -1
 
+    # ---- a listing's own table: the app's _at / _tableLanding (v1.214.0) ---------------------
+    def at(self, n, here):
+        """ngKnowledgeCalAt: the node itself unless it carries a table at `here`, else one memoised
+        overlay per (node, listing). The app's twin; keep the two identical."""
+        tab = ((n.get("cal") or {}).get("at") or {}).get(here) if here else None
+        if not tab:
+            return n
+        memo = self.__dict__.setdefault("_at_memo", {})
+        key = (n["idx"], here)
+        if key not in memo:
+            memo[key] = {**n, "here": here, "cal": {**n["cal"], "successRate": tab.get("successRate"),
+                         "successRateByRuleset": tab.get("successRateByRuleset"), "outcomes": tab.get("outcomes")}}
+        return memo[key]
+
+    def table_landing(self, node, role, k, pos_idx):
+        row = next((o for o in node["cal"].get("outcomes") or [] if o["result"] == "success" and o["to"] != "game-over"), None)
+        r = self.resolve_outcome_to(row["to"]) if row else None
+        return self.canonical_state(r["idx"], r["role"] or role) if r and r["idx"] >= 0 else self.result_pos(k, pos_idx)
+
     # ---- optionsFor, L12599-12670 --------------------------------------------------------
     def options_for(self, pos_idx, role, ctx, order="app"):
         """Returns (opts, relaxed). `order="adj"` skips the _cmpDealt sort — the scratch audit's
@@ -698,7 +722,11 @@ class AppPort:
             if (n["fromPositionId"] and here_id and n["fromPositionId"] != here_id   # L12628 origin
                     and here_id not in (n["alsoFrom"] or ())):                      # deal_here
                 continue
-            out.append({"idx": k, "node": n, "ev": ev_of(k) if ev_of else None})
+            node = self.at(n, here_id)                                          # v1.214.0
+            o = {"idx": k, "node": node, "ev": ev_of(k) if ev_of else None}
+            if node is not n:
+                o["res"] = self.table_landing(node, role, k, pos_idx)
+            out.append(o)
         if not out:                                                             # L12633 fallback
             for k in self.adj[pos_idx]:
                 n = self.nodes[k]
@@ -732,6 +760,7 @@ class AppPort:
         opp = "bottom" if pr == "top" else "top"                                # L17564
         opts, relaxed = self.options_for(cur, opp, ctx, order)
         subs, trans, seen = [], [], set()
+        own_at = {o["idx"]: o for o in opts if o["node"].get("here") is not None}   # v1.214.0
         for o in opts:                                                          # L17564-17573
             k = o["idx"]
             n = self.nodes[k]
@@ -757,7 +786,7 @@ class AppPort:
             info["plays"] += [(k, pfin / len(subs), "finish") for k in subs]
 
         def land_val(b):                                                        # L17599
-            r = self.result_pos(b, cur)
+            r = own_at[b]["res"] if b in own_at else self.result_pos(b, cur)
             return self.opp_val(self.nodes[r] if r >= 0 else self.nodes[b], pr)
         trans_sorted = sorted(trans, key=lambda b: -land_val(b))   # stable, descending
         pool = trans_sorted if trans else subs                                  # L17600
@@ -813,6 +842,10 @@ def name_join(g):
                     dup.append(key)
                 out[key] = (cat, n["hub"])
     return out, dup
+
+
+def flip_role(role):
+    return "bottom" if role == "top" else "top"
 
 
 def tech_of(g, key):
@@ -1265,9 +1298,13 @@ class FrameRun:
                 out[r] = "draw"
                 continue
             cells = []
+            hub, pr = self.K.role_nodes[r].rsplit("/", 1)
+            theirs = g["positions"].get(hub + "/" + flip_role(pr)) or {}
             for k, share, mode in info["plays"]:
                 key = self.key_of(k)
-                tech = tech_of(g, key)
+                # THEIR card as dealt from where THEY stand: a listing's own table (v1.214.0)
+                edge = next((t for t in theirs.get("transitions") or [] if t.get("target") == key[1]), None)
+                tech = listing_view(tech_of(g, key), edge)
                 if mode != "finish":                                    # drawOutcome, L17605-17629
                     cells += self._table_cells(r, tech, share, table_success(tech),
                                                key[0] == "submissions", C, True)
@@ -1290,8 +1327,8 @@ class FrameRun:
                 continue
             cells = []
             for a in hand:
-                cells += self._table_cells(r, tech_of(self.g, (a.cat, a.target)), a.weight / tot, a.p,
-                                           False, C, True)
+                # the card's PRICED technique, never the canonical re-read (v1.214.0, see _kernel._priced)
+                cells += self._table_cells(r, _priced(a), a.weight / tot, a.p, False, C, True)
             out[r] = cells
         return out
 

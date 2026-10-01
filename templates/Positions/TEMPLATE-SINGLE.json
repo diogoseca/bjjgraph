@@ -269,6 +269,105 @@
             "const": true,
             "description": "Deal this listing HERE although the technique's canonical origin (its from_position) is another position. Without it the game deals a technique only at its origin, so an away listing is never dealt. Set only where the technique's authored outcome table lands coherently from here (a miss does not teleport the pair to the origin), as ruled by the origin-coherence panel (calibration/origin_coherence.json). Omit it otherwise; false is not a value."
           },
+          "success_rate": {
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "gi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "nogi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "gi",
+                  "nogi"
+                ],
+                "additionalProperties": false
+              }
+            ],
+            "description": "This LISTING's own success rate, per frame, for the technique dealt here (origin coherence PR B). Present only with `outcomes` and `deal_here`. It replaces the technique's published rate when the move is played FROM this listing, and it has no community-vote stream of its own (votes are keyed by technique name). Source: calibration/listing_tables.json, an LLM persona panel."
+          },
+          "outcomes": {
+            "type": "array",
+            "description": "This LISTING's own outcome table for the technique dealt here (origin coherence PR B): where the move leads when played FROM this listing, so a miss lands here and not at the technique's canonical origin. Same shape as a Transition's `outcomes`, cells equal across frames (regenerate_graph reduces them), probabilities summing to 100. Requires `deal_here` and `success_rate`; transitions only.",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "to",
+                "probability",
+                "result"
+              ],
+              "properties": {
+                "to": {
+                  "type": "string",
+                  "description": "Target Position/Role (e.g., 'Mount/Top', 'Closed Guard/Top', 'game-over')"
+                },
+                "probability": {
+                  "oneOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "gi": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0,
+                          "maximum": 100
+                        },
+                        "nogi": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 0,
+                          "maximum": 100
+                        }
+                      },
+                      "required": [
+                        "gi",
+                        "nogi"
+                      ],
+                      "additionalProperties": false
+                    }
+                  ]
+                },
+                "result": {
+                  "type": "string",
+                  "enum": [
+                    "success",
+                    "failure",
+                    "counter"
+                  ]
+                }
+              }
+            }
+          },
           "attempt_probability": {
             "oneOf": [
               {
@@ -305,6 +404,15 @@
             ],
             "description": "Probability this transition is attempted (all must sum to 100%)"
           }
+        },
+        "dependencies": {
+          "outcomes": [
+            "deal_here",
+            "success_rate"
+          ],
+          "success_rate": [
+            "outcomes"
+          ]
         }
       }
     },

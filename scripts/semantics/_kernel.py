@@ -140,6 +140,15 @@ CELL_DTYPE = np.dtype([
 # --------------------------------------------------------------------------- #
 # card expansion that REMEMBERS THE FINISHER
 # --------------------------------------------------------------------------- #
+def _priced(a):
+    """The technique a dealt card was priced with: `Action.tech`, set by build_hand from
+    `listing_view`. An Action without it is a construction bug, never a reason to fall back to
+    the canonical table, which is the silent wrong-answer join this replaced."""
+    if a.tech is None:
+        raise ValueError(f"_kernel: card {a.name!r} carries no priced technique (Action.tech)")
+    return a.tech
+
+
 def _expand(graph, tech, p):
     """
     `solve_edge_values.build_action` with the finishing technique kept on every W/L cell.
@@ -254,7 +263,10 @@ class Kernel:
                 # renormalise defensively over the cards that survive (rates="frame" can drop one)
                 kept = []
                 for a in hand:
-                    tech = graph[a.cat][a.target + "/attacker"]
+                    # THE TECHNIQUE THE CARD WAS PRICED WITH (v1.214.0). This used to re-read
+                    # graph[a.cat][a.target + "/attacker"]: the canonical table, which for a listing
+                    # with its own (PR B) is a different exchange, priced and expanded silently wrong.
+                    tech = _priced(a)
                     p = card_p(a, tech)
                     if p is None:
                         self._rate_absent += 1
@@ -701,7 +713,7 @@ def _verify_expansion(K):
     for side, hands in (("M", K.model.hands), ("T", K.model.opp_hands)):
         for hand in hands:
             for a in hand:
-                tech = K.graph[a.cat][a.target + "/attacker"]
+                tech = _priced(a)
                 mine = _expand(K.graph, tech, a.p)
                 ref = [(0, w, oc) for w, oc in a.succ] + [(1, w, oc) for w, oc in a.miss]
                 compared += 1

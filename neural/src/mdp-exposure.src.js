@@ -155,9 +155,15 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //   - v1.213.0: an ENTRY action reports `followUp` — the landed state's Finish chance and its
   //     knowledge explanation, for the card's "Works" line. No branch reads it, the entry's own
   //     studyReads stay empty (below), and that Finish row is enumerated with its own reads as before.
+  //   - v1.214.0 (origin coherence PR B1): a listing's OWN outcome table. `actAt` prices and draws a
+  //     move from `cal.at[posId]` when the state's listing carries one, else the node itself; the
+  //     three caches key on it; knowledge gains the pure `ngKnowledgeCalAt`. Label-neutral: the
+  //     overlay keeps the move's id and deckKey, so every study read is the same deck, and with no
+  //     table on the wire every action is byte-identical (tests/listing_tables*.test.mjs, the
+  //     metadata differential on a wire WITH tables). Reviewed by the full-game seat (OCPRB1-FG).
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'8fdd62974d9b364cec3cb59cc9514afa660822bc2054a103c141222e4b587a59',knowledge:'8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
+  const expected={adapter:'1306528b7bbcdfca7535d54105bf18dcf96e6d047ca4656857cb581d760506d8',knowledge:'fbc488583807bb2e21978ea0b2e851d1284d2f6aab58502022f846f13c64bf40',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

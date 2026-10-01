@@ -827,9 +827,12 @@ def check_deal_here():
                     issues.append({**base, "type": "deal_here_wrong_role", "severity": "error",
                                    "message": f"{here} flags deal_here on '{name}', authored from '{origin}' - another seat"})
                     continue
+                # the table this listing DEALS: its own when it carries one (v1.214.0, PR B), else
+                # the origin's, which is the one that can teleport
+                table = entry.get("outcomes") if entry.get("outcomes") else t.get("outcomes")
                 for fr in ("gi", "nogi"):
                     miss = home = 0.0
-                    for o in t.get("outcomes") or []:
+                    for o in table or []:
                         if o.get("result") == "success":
                             continue
                         pr = o.get("probability")
@@ -845,6 +848,54 @@ def check_deal_here():
                                                    f"{miss:g} {fr} miss points land on its origin '{origin}'")})
                         break
     print(f"  deal_here listings checked: {checked}")
+    return issues
+
+
+def check_listing_tables():
+    """A LISTING'S OWN OUTCOME TABLE (v1.214.0, origin coherence PR B), checked on the BUILT graph.json,
+    where regenerate_graph has folded and rescaled it (`ownTable` on a position edge). All errors:
+      listing_table_not_dealt      no `dealHere`: a table for a listing the game never deals there
+      listing_table_on_submission  a submission listing: tables are for transitions only
+      listing_table_shape          not 3-5 rows, or the rows do not sum to 100
+      listing_table_target         a row lands on something that is not a role-node or a real
+                                   submission (a bare hub, a family hub, game-over from a transition)
+      listing_table_rate           the success rows do not sum to the listing's headline rate
+    Prints how many it checked, zero included (a check that matched nothing must say so, 6.6).
+    """
+    issues, checked = [], 0
+    if not GRAPH_PATH.exists():
+        return [{"name": "graph.json", "type": "listing_table_no_graph", "severity": "error",
+                 "message": "graph.json is missing: the listing tables cannot be checked"}]
+    g = json.loads(GRAPH_PATH.read_text(encoding="utf-8"))
+    positions, subs = g.get("positions") or {}, g.get("submissions") or {}
+    real_sub = lambda to: (subs.get(to + "/attacker") or {}).get("role") == "attacker" and not (subs.get(to) or {}).get("isFamily")
+    for pk, pnode in sorted(positions.items()):
+        for t in pnode.get("transitions") or []:
+            if not t.get("ownTable"):
+                continue
+            checked += 1
+            name = t.get("technique", "?")
+            base = {"name": name, "file": "graph.json", "referencing_position": pk}
+            def err(kind, msg):
+                issues.append({**base, "type": kind, "severity": "error", "message": f"{pk} -> {name}: {msg}"})
+            if t.get("dealHere") is not True:
+                err("listing_table_not_dealt", "carries its own table but is not dealt here (deal_here)")
+            if t.get("isSubmission"):
+                err("listing_table_on_submission", "a listing table on a submission (transitions only)")
+            rows = t.get("outcomes") or []
+            if not 3 <= len(rows) <= 5 or sum(o.get("probability") or 0 for o in rows) != 100:
+                err("listing_table_shape", f"{len(rows)} rows summing to {sum(o.get('probability') or 0 for o in rows)}")
+            for o in rows:
+                to = o.get("to") or ""
+                if to == "game-over" or not (to in positions or real_sub(to)):
+                    err("listing_table_target", f"row lands on {to!r}, not a role-node or a real submission")
+            head = t.get("successRate")
+            if head is None:
+                head = (t.get("successRateByRuleset") or {}).get("gi")
+            succ = sum(o.get("probability") or 0 for o in rows if o.get("result") == "success")
+            if head is not None and any(o.get("result") == "success" for o in rows) and succ != int(round(head)):
+                err("listing_table_rate", f"success rows sum to {succ}, the listing's rate is {head}")
+    print(f"  listing outcome tables checked: {checked}")
     return issues
 
 
@@ -1537,6 +1588,7 @@ def main():
     bidir_issues = check_from_position_bidirectional(position_names)
     bidir_issues += check_position_type_vs_score()
     bidir_issues += check_deal_here()
+    bidir_issues += check_listing_tables()
     bidir_errors = [i for i in bidir_issues if i["severity"] == "error"]
     bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")
