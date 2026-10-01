@@ -8794,6 +8794,53 @@ the same branch) and `tests/digest_render.test.mjs` (escaping on both branches �
 e2e: `belt-worn.spec.ts` (finished player black @curated, lessons alone, flip + reload) and
 `recall-badge.spec.ts` rewritten (a black score on a white belt unlocks nothing; proving the units
 mints the patch). Non-kill: the Settings lock is gated in e2e only.
+## v1.211.1 — A HYDRATION BURST RESTARTS WIN CHANCE ONCE, NOT ONCE PER DECK (FGHYD1, 2026-10-01)
+
+**Found by the deploy timeout (FGTIME1).** After the full game merged, four game-knowledge.spec.ts
+tests went from ~13 s to ~70 s on CI. All four call `soloDeck`, which hydrates the whole corpus with
+a hand on screen.
+
+**Measured before the fix** (dev 55c238ade, local, counting the page's Worker messages):
+- hydrating 2,896 decks posted 2,893 `snapshot` messages but only 2–5 `evaluate`: one restart per
+  deck, each cancelled before its solve began;
+- it took 129–168 s;
+- a real boot's warm-up was NOT affected: 3 decks, one solve, no restart.
+
+**Four restart paths, each found by counting snapshots, not by reading code:**
+1. `_onDeckHydrated`'s own `_gameValueChanged`.
+2. Its memo reset's knowledge notice: `_bumpStageVer` → `_onKnowledgeChanged`.
+3. The hydration refresh's `refreshOptionOdds` (`_gameValueChanged("option-odds")`), and re-render
+   `refreshChoiceValues` calls that re-describe a changed residency.
+4. `buildDrillPanel` re-signalling an unchanged position key on every hydration refresh (28 of the
+   last 33).
+
+**The fix** is a leading + trailing debounce, `_residencyChanged`:
+- a burst's first deck restarts at once, so "pending" still shows at once;
+- later decks only mark it dirty;
+- one restart once decks stop landing for 250 ms, and one per 2 s while they stream;
+- paths 2–4 mark the open burst dirty, and only an explicit `_gameValueChanged` (a grade, a roll,
+  a real key change) goes through it.
+
+No value changes: a reply for older residency is still dropped by the provider's `isCurrent`, and
+the gate asserts that the settled values equal a fresh solve's.
+
+**After the fix** (dev 70f67b944 + fix):
+- hydration 6.7–7.4 s with 5 snapshots;
+- values 1.9 s after it;
+- the four tests 18–20 s locally;
+- real-boot hand → values unchanged: 5.6–5.7 s at 1440 px, 5.8–6.1 s at 390 px with a 4× CPU
+  throttle; one solve, no restart.
+
+**Gates.**
+- `hydration-restarts.spec.ts` (core), 3× green. It counts the worker's own snapshot and evaluate
+  messages, with a hydrated-deck floor and a duration-scaled ceiling, and checks the values against
+  a fresh solve.
+- `tests/residency_restarts.test.mjs`, 6 cases.
+- Mutants:
+  - journey: a per-deck restart (2,886), the knowledge notice not routed (2,894), the odds refresh
+    not held (32), and the same-key drill panel not held (31);
+  - unit: the same four, plus a re-render refresh not held.
+- Units 1,149/1,149; 65 value journeys green.
 
 ## v1.212.0 — ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME
 
