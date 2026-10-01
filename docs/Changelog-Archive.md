@@ -51,6 +51,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
 - **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
 - **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
+- **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9160,3 +9161,36 @@ Knee Slice Pass, still showed `/Transitions/100%-Sweep`. Two defects sat behind 
 **Separate finding, not fixed here.** `scripts/regenerate_redirects.py` builds its targets with
 only the space-to-hyphen rule, so `/transitions/100%-sweep` 301s to `/Transitions/100%-Sweep`,
 which 404s. It is the same class: a second copy of Quartz's slug rule that drifted.
+## v1.212.7 — EVERY REDIRECT LANDS ON A BUILT PAGE
+
+**OCREDIR1, 2026-10-01.** Found while fixing the 100% Sweep address (OCURL1). `regenerate_redirects.py`
+built every target with only the space-to-hyphen rule, while Quartz builds pages with its own
+`sluggify`: per segment, whitespace → `-`, `&` → `-and-`, `%` → `-percent`, `?` and `#` dropped. One
+hub page in the corpus differs under the two rules, and production showed both halves of the fault:
+
+| request (production, 2026-10-01) | answer |
+|---|---|
+| `/transitions/100%-sweep`, the rule's source | 400 from the edge: a raw `%` is a malformed escape, so the rule never fires |
+| `/Transitions/100%-Sweep`, the rule's target | 400 (and nothing is built there) |
+| `/transitions/100-percent-sweep`, the real page's lowercase form | 404: no rule existed for it |
+| `/Transitions/100-percent-Sweep`, the real page | 200 |
+
+**Fix.** `_slug.quartz_page_path` is Quartz's rule as a table (`QUARTZ_SLUG_REPLACEMENTS`), and the
+emitter takes both the canonical target and its lowercase source from it. On the corpus the emitted
+file changes by exactly one line: `/transitions/100-percent-sweep /Transitions/100-percent-Sweep 301`
+replaces the dead `%` rule.
+
+**Gate.** `scripts/check_redirect_targets.py` (`validate:redirects`) reads the BUILT tree and resolves
+every target to a page, a file, or, for a `:splat` target, its built base directory. It also fails on
+a source carrying a raw `%`. It prints a positive count, and fails on any miss, on a missing or empty
+`_redirects`, and on a tree with no pages. It runs in the root build after the share shell (`/l/*`
+targets the `l.html` that step writes) and in both deploys after Forward. That place keeps
+`check_build_chains.py` green (12 local / 12 deploy steps, the named Forward/share order baseline
+intact). On the PR 242 capture the old file fails on exactly that rule (1,766 of 1,767 targets, plus
+its source); the new file resolves 1,767 of 1,767 (1,715 pages, 1 file, 51 placeholder bases).
+
+**Tests.** `tests/redirect_targets_test.py` (10 cases, run by `tests/redirect_targets_py.test.mjs`):
+path.ts parity, the emitter on a fixture, the corpus page, and every pass and fail path of the gate.
+Five mutants, all red: the emitter back on the space rule, the `%` row dropped, `_page` accepting
+anything, the raw-`%` source check removed, and the empty-file floor removed.
+`postprocessor_contract_test.py` 51/51; units 1,168/1,168.
