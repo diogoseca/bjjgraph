@@ -84,8 +84,8 @@
     "sha256": "3f2f1dbf1d27c3b26f1b336815d281a525aa0b6914d0d415b4d3a2561f58f04a"
    },
    "static/neural/app/neural.js": {
-    "bytes": 672908,
-    "sha256": "af9cf54fa99f749bc19c91d27185313646f8a7ab96f1c1b87fb3e1f0b43a8bdd",
+    "bytes": 672964,
+    "sha256": "0f7a693d8d67623ba648dcc6abaa1239fd2fb9eb3eb35c5d5ca1721a103ad2a3",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
