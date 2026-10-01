@@ -1,4 +1,4 @@
-// THE BELT A PLAYER WEARS (v1.209.0, owner ruling 2026-09-30) — pure, stateless, and shared by
+// THE BELT A PLAYER WEARS (v1.210.0, owner ruling 2026-09-30) — pure, stateless, and shared by
 // the app (concatenated into the bundle by neural/build/build.mjs, exports stripped), the unit
 // suite (imported as a module) and the digest Worker (workers/digest, which names the next belt
 // in the training-day email). One definition, three readers: none of them may compute it again.
@@ -8,7 +8,7 @@
 // passed). Clearing black leaves you in black. The capstone stays optional; Game Knowledge (the
 // score) stays a percentage and decides no belt.
 //
-// WHY UNITS AND NOT LESSONS. Until v1.209.0 the Challenges tab's colour moved on lessons alone
+// WHY UNITS AND NOT LESSONS. Until v1.210.0 the Challenges tab's colour moved on lessons alone
 // while its stripes needed checkpoints, so a player could wear blue with none of White's units
 // proven — and lessons finish INCIDENTALLY (any correct answer anywhere bumps `prep`). The owner
 // removed exactly that from the stripes in v1.95.3 ("a guest wore stripes he never earned"); the
@@ -21,7 +21,7 @@
 // stale device merging can never lower it. A belt BELOW the held one counts as proven, so a
 // curriculum edit that reopens an old belt cannot stall the next promotion either.
 //
-// research: docs/Changelog-Archive.md (v1.209.0) and tests/artifacts/_belt_alignment_probe.mjs.
+// research: docs/Changelog-Archive.md (v1.210.0) and tests/artifacts/_belt_alignment_probe.mjs.
 
 /** The belts, bottom to top. curriculum.json, NG_CHALLENGE_TRACKS and the digest all spell these. */
 export const NG_BELT_IDS = Object.freeze(["white", "blue", "purple", "brown", "black"]);

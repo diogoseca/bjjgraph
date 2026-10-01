@@ -9,12 +9,12 @@
    "target": 300000,
    "action": 400000,
    "delta_cap": 5000,
-   "baseline": 327480,
-   "baseline_ref": "v1.207.10 (359007c87)",
-   "baseline_at": "2026-09-30",
-   "baseline_reason": "Full game (v1.207.x): +12,736 B gzip on the boot set against the accepted 314,744 (v1.204.3). Measured file by file against dev a03d44dce built the same way (gzip -9 per file) at v1.206.6: app/neural.js +18,619 (Win chance on every card and threat card, its tooltip and sort-once, the V(s) thermometer, account-scoped progress, the game-value and study hooks; the model, solver, study engine and Settings UI are deferred), app/neural.css +374, graph-data.json -7,258 (the retired Winning-vs-not-losing dial ships one EDGE block instead of three); since then about +1 kB of full-game fixes (local-only play, the provider and study-row fixes). Owner pre-authorised accepting eager growth for this merge. Not taken here: Systems/Concepts detail renderers to lazy chunks (~5.8 kB, a separate refactor).",
+   "baseline": 332316,
+   "baseline_ref": "v1.209.0 (8d304bfba)",
+   "baseline_at": "2026-10-01",
+   "baseline_reason": "PR 233 (v1.209.0, weak spots in the player's ruleset and from their start), accepted at its own merge under the owner's standing pre-authorisation: each feature records its own acceptance. +4,836 B gzip on the boot set against PR 231's accepted 327,480 (v1.207.10). Of that, +1,684 is dev's own drift since that acceptance (231's later full-game fixes; dev 55c238ade measured with its own emit + bundle built from its own sources; PR 234's 4692aa62c changes no served file) and +3,152 is this PR: the gi hands on graph-data.json (cal.evGi, +2,598 by this gate's gzip) and the FLOW ruleset/start code in app/neural.js. Measured on this branch's full local build (keyless, 8d304bfba, the same served bytes as 34fe6aa9f) by this script. Accepted so the next change gets its full 5,000 B per-change room back; target, action and delta_cap untouched.",
    "_comment": "TARGET 300,000 is the owner's figure verbatim ('target is <300k'). Measured at v1.188.2 the eager set is ~329,800, so this metric SITS IN THE WARN BAND ON ARRIVAL and is expected to keep warning until the payload is trimmed. That is intended - a target is an aspiration you are measured against, not a line you are currently inside - but it is worth saying plainly, because a gate that warns on every single run is a gate people learn to scroll past. ACTION 400,000 is the owner's figure verbatim, and it is ~70,000 above today: on the tree this policy was written against the OLD hard ceiling was 330,000 against a measured 329,808, i.e. 192 BYTES of headroom, so the next neural feature of any size was going red on arrival. DELTA CAP 5,000 is the number that keeps the 70,000 of new room honest. It is ~1.5% of the current figure and ~2.6x the largest ordinary single-ship growth on record (the three measured neural.js bumps in budget_neural.json's history: +626, +1,929, +581 gzip), so an ordinary feature never trips it; and it is 14x smaller than the 70,000 cliff it exists to catch. RECOMPUTE THE CURRENT FIGURE: `npm run validate:payload` prints it, or `python3 scripts/check_payload_budget.py` after a build.",
-   "previous_baseline": 314744,
+   "previous_baseline": 327480,
    "baseline_source": "measured from the built tree by this script"
   },
   "first_hand_gzip_bytes": {
@@ -26,13 +26,13 @@
    "target": 365000,
    "action": 465000,
    "delta_cap": 6000,
-   "baseline": 346647,
-   "baseline_ref": "v1.207.10 (359007c87)",
-   "baseline_at": "2026-09-30",
-   "baseline_reason": "Full game (v1.207.x): first-hand core +12,573 B gzip against the accepted 334,074 (v1.204.3), measured by e2e/journeys/payload-first-hand.spec.ts on a keyless build of v1.207.10 on dev 2f1b7a063 (start K-Guard Top, 11 requests). The same step as neural.eager_gzip_bytes: app/neural.js growth for the full game's UI, less graph-data.json's -7,258 from the retired dial. The spec's cut-off is now the page's own first-hand stamp (v1.207.7), so the deferred value modules, which start one frame after the hand, are provably not on the boot path. Owner pre-authorised accepting first-hand growth for this merge.",
+   "baseline": 351963,
+   "baseline_ref": "v1.209.0 (8d304bfba)",
+   "baseline_at": "2026-10-01",
+   "baseline_reason": "PR 233 (v1.209.0, weak spots in the player's ruleset and from their start), accepted at its own merge under the owner's standing pre-authorisation: each feature records its own acceptance. First-hand core +5,316 B gzip against PR 231's accepted 346,647 (v1.207.10), measured by e2e/journeys/payload-first-hand.spec.ts on this branch's full keyless local build (start K-Guard Top, 11 requests). The same tree with dev 55c238ade's own neural.js, neural.css and graph-data.json swapped in reads 348,326, so +1,679 is dev's own drift since that acceptance (PR 234's 4692aa62c changes no served file) and +3,637 is this PR: graph-data.json +3,071 (cal.evGi, the gi hands, by the spec's zlib-9) and app/neural.js +566 (FLOW's ruleset and start code). Accepted so the next change gets its full 6,000 B per-change room back; target, action and delta_cap untouched.",
    "_comment": "DERIVED FROM THIS METRIC'S OWN FIGURE, NOT COPIED FROM THE EAGER SET - the two are on different scales and sharing numbers would be a mistake in both directions (a 400,000 action threshold here would leave ~13,000 of room against a measured 387,117, which is nothing). THE DERIVATION: first_hand = the eager set as actually requested + the shared Quartz bundles + the boot's per-node chunks. Measured at v1.188.2: shared bundles /postscript.js 27,776 + /index.css 9,896 + / 7,590 + /prescript.js 1,181 = 46,443 gzip locally, ~47,500 on a deploy (the PostHog snippet is injected into postscript.js and adds ~1,060 gzip) -> call it 48,000; per-node chunks at the p95 of their own size distribution, 3 decks + 1 dossier, = 3x3,370 + 6,741 = 16,851 -> call it 17,000. So this metric's bands are the eager set's bands plus 65,000: TARGET 300,000 + 65,000 = 365,000, ACTION 400,000 + 65,000 = 465,000. Sanity check against reality: measured 386,367 gzip locally / 387,117 in CI, so it arrives ~21,000 into the warn band (the eager set arrives ~30,000 into its own) and has ~78,000 of room before action. DELTA CAP 6,000, measured on first_hand_gzip_core_bytes: the total MINUS /postscript.js MINUS the per-node chunks, which are the two parts that move with no code change at all. 6,000 rather than the eager set's 5,000 because the core subtotal also counts /index.css and / (~17,500 gzip of Quartz-side surface that moves on template and stylesheet work the neural set never sees). Observed core growth on the last three ships: +8,254 (six versions, v1.177.0->v1.183.0), +2,747, +1,718 - so the first of those WOULD have asked for a checkpoint, correctly, since that is the window in which this payload ate its own ceiling twice. RECOMPUTE: `npx playwright test -c e2e/playwright.config.ts payload-first-hand` and read tests/artifacts/first_hand_payload.json. A LOCAL RUN IS ~1,060 B LIGHTER THAN CI on the TOTAL and identical on the CORE - that asymmetry is the whole reason the delta is measured on the core.",
-   "previous_baseline": 334074,
-   "baseline_source": "read from tests/artifacts/first_hand_payload.json measured at 2026-09-30T00:20:13.314Z"
+   "previous_baseline": 346647,
+   "baseline_source": "read from tests/artifacts/first_hand_payload.json measured at 2026-10-01T04:46:22.183Z"
   }
  }
 }

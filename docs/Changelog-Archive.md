@@ -43,8 +43,9 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
 - **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
 
-- **v1.209.0** — [THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS](#v12090--the-belt-is-earned-in-the-challenges-and-it-never-falls)
+- **v1.210.0** — [THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS](#v12100--the-belt-is-earned-in-the-challenges-and-it-never-falls)
 - **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
+- **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8509,7 +8510,190 @@ and AFTER that offer a Continue action, "Find more weaknesses".
   appear only when certain (`tests/choice_value.test.mjs`). The 100% the control saw is that
   certain Entry, not Win chance.
 
-## v1.209.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
+## v1.206.3 / v1.208.4 — THE GENERATED SUITE'S 40 REDS, TRIAGED; ITS BASELINE IS READ BY THE RUNNER
+
+**What was found.** `e2e:gen` was **40 red of 101** on dev `8d6ae5d01` (v1.206.2), measured by the
+belt-challenges seat and reproduced exactly (same 40 names, same failing assertions) on a keyless
+build of that commit. The ledger named none of them: all 179 rows read `"status": "accepted"`, the
+known-red set had lived only as prose ("the same 13 names", v1.127.0; 14 at v1.128.x), and no
+workflow ran the suite. That is the CLAUDE.md §6.7 tolerance-baseline trap, and it went 13 → 40 with
+nothing failing.
+
+**Triage, one spec at a time (six parallel lanes, one coordinator).** Each red was reproduced on a
+private port, given one verdict, and, if stale, moved to the deliberate behaviour with its claim
+kept, run green 3/3, and killed by an app mutant at the assertion that carries the claim. Mutants
+were built from an isolated copy of `neural/` and served from a hard-link copy of `source/public`
+with only the bundle swapped, so no run ever mutated the served tree. 66 mutant runs; every fixed
+spec has at least one kill; the one equivalent mutant (`holder-defense-window`'s "reuse the old
+`_decision`") is recorded in that spec's header.
+
+- **38 STALE.** The deliberate changes they never followed, by first cause:
+  - `cdc35cefe` v1.176.0 (18 specs, alone or stacked; 12 of them first went red there): a submission pick ENTERS its state with no
+    draw, and the Finish is a second pick of the same card; and `opponentDefend` draws from the
+    opponent's OWN role- and origin-filtered hand, so a catch can no longer come from any
+    submission adjacent to the site. v1.176.0 updated the core journeys and no gen spec.
+  - `e6f655a6a` v1.133.0 (the clock times the question): the escapes are untimed, so "let the
+    defense window expire" can no longer lose a roll — the specs that lost that way now lose by a
+    rigged failed escape (`stakes-impact`'s idiom); refunds and the hand clock are gone.
+  - `7677bfe70` v1.129.0 / v1.133.0: auto-pick retired. Four specs asserted it; the owner reversed
+    the claim ("when the clock runs out, the algorithm doesn't choose for you"), so their
+    `@invariant` now states the new law: expiry is a missed answer, −4%, momentum broken, no commit.
+  - `0c4fbc53d` v1.135.0 (panic drill is MC): four specs clicked a Reveal button that only exists on
+    the cold-pool fallback.
+  - `1e054f47f` v1.80.4 (decks boot as manifest stubs): three specs read `deck.cards` and saw an
+    unloaded deck as an empty one; they now hydrate and read through `_cardsOf`.
+  - `ba6aba811` v1.99.2 (only the frontier belt unfolds), `7e3eb9dc7` v1.180.1 (a capstone deals its
+    hand synchronously), `adbb48a31` v1.103.0 (`fromRole` decides the performer), `bb80a008c`
+    v1.104.0 (the coach deleted), `f12f8f74c` v1.134.0 (a sheet declines the question),
+    `d3bcb63d3` v1.137.0 (the clock waits for engagement), `053978d6f` v1.149.0, `a562ae73b`
+    v1.168.0, `3ba7701a6` v1.176.7, `4f41a4ccc` v1.189.0.
+- **2 REAL BREAKS, kept red, unweakened, named in the ledger as `known-red`:**
+  - `holder-checkpoint-letters-answer-digits-stay-roll` — since `a1d5cc3ff` v1.171.0 the drill
+    branch of `_onKey`'s ⏎ handler has no `_checkpoint` guard: Enter during an open checkpoint quiz
+    reveals the quiz card, a second Enter grades it as recall and credits `prep`. A one-line guard
+    turns the unmodified spec green.
+  - `holder-restart-tutorial-resets-white-only` — behind two stale assertions: after a reload
+    `gameScore()` serves a memoised 0, written before `curriculum.json`'s weights arrive;
+    `_onCurriculum` never bumps `_stageVer`. A probe build bumping it there turns the spec green.
+- **Found on the way, unguarded by any spec:** since `7e3eb9dc7` v1.180.1 the White capstone seats
+  the player bottom but deals the TOP hand (`rollFromPosition` deals before `startBeltTest` sets
+  `playerRole`).
+
+**Control pair (attribution measured, not argued).** The full gen suite was run at v1.176.0's
+parent `f2fd3f3a2` and at `cdc35cefe` itself (each commit's own bundle, payload, specs and DSL,
+served inside the v1.206.2 page shell; spec and DSL byte-identical between the two). The prediction was
+written down before the second run finished: at the parent **26** of the 40 were already red (every
+one a spec whose first cause predates v1.176.0) and **14** were green; at v1.176.0 exactly the **12**
+predicted turned red, the 26 stayed red, and the 2 whose causes are later (`casual-guard-pull`
+v1.176.7, `mid-locked-rows-inert` v1.189.0) stayed green. Two specs outside the 40 also went red at
+v1.176.0 and have since been repaired (`returner-research-coin…` by PR #217's spec edit,
+`endgame-stage-roll-cold…` by a later app change).
+
+**The baseline is now read by the runner.** `e2e/gen-ledger-reporter.ts` (verdict logic pure in
+`e2e/gen-ledger.mjs`, 10 unit tests in `tests/gen_ledger.test.mjs`, 8/8 branch mutants killed)
+decides an `e2e:gen` run from `e2e/gen/ledger.json`: a red the ledger does not name fails it; a
+`known-red` row that passes fails it (stale entry); a known-red red with a different message fails
+it; zero tests run fails it; otherwise it passes and prints one positive coverage line.
+`check_gen_specs.sh` lints known-red rows (test, reason, owner, since). `.github/workflows/e2e-gen.yml`
+runs the suite weekly against **dev** — a `schedule` event checks out the default branch (main), so
+a job inside `e2e-full.yml` would have tested main, a release behind. Cost: ~30 runner-minutes a
+week (one build ~14–16 min, measured on `e2e-full`'s build job; ~101 tests × ~5 s), 0 billable on a
+public repo. The cheaper and stronger alternative — a fifth job in `e2e-full.yml` on every PR,
+reusing its build artifact (~12–15 runner-minutes per PR, no wall-clock cost beside the four shards)
+— would have caught v1.176.0 on its own PR; it is the owner's call because it adds a PR gate.
+
+**Traps met on the way.**
+- `--pass-with-no-tests` on `e2e:gen` contradicted the reporter's zero-ran rule; dropped.
+- The first ledger re-serialisation un-escaped every `\uXXXX` in the file; one row carries a raw
+  em-dash. Edits are now byte-preserving (one row each).
+- A `pkill -f` whose pattern also matched the invoking shell killed that shell (exit 144).
+- The lock's 7 GB build precondition stalls a 3-worker Playwright job for no reason; such jobs
+  declare `BUILD_PEAK_MIB` (the documented override) before sourcing the lock.
+- PR #231 landed mid-triage and edited 13 of the same specs (owner-scoped storage keys); the merge
+  was re-verified on a fresh keyless build of the merged tree. The suite reads **99 green, 2 red**
+  there: the two named known-reds, reporter verdict PASS, exit 0. The merge itself introduced two semantic reds, and the
+  reporter caught both. `holder-restart-…` was seeding the legacy coached key, which PR #231 had
+  made owner-scoped. `holder-momentum-heats-escape-odds` broke because, since v1.207.0
+  (`83908ffce`), a player's own escape card prints the STAMPED choice view's
+  `immediateExecutionChance`, repainted one frame after `_gameValueChanged`, so the spec now pumps
+  one frame before reading the card. Both are fixed.
+- PR #231's build pins `sha256(app.src.jsx)` into the MDP manifest (`game-bundles: graph/gameplay
+  changed after metadata emission`). So a mutant sandbox now stamps the mutant's hash into a
+  private manifest copy and serves that copy. A behaviour-neutral control mutant stays green in the
+  sandbox. All 64 saved mutants were then replayed against the merged app:
+  - 54 killed;
+  - 3 expected survivors (the equivalent mutant and both repair probes, which turn the real-break
+    specs green);
+  - 7 whose code #231 had moved, re-targeted at the new call sites (never at a hash-pinned law
+    file) and all killed;
+  - plus one new kill, for the retargeted escape-card render.
+## v1.209.0 — WEAK SPOTS IN YOUR RULESET, FROM YOUR START
+
+Owner, 2026-09-30, on `docs/GraphSemantics.md` §10 items 7 and 8: "ideally fix weak spots now" (gi
+pricing) and "it should match the starting point set by the app indeed" (FLOW's start). FLOW, the
+weak-spots engine (`neural/src/flow.src.js`), had two blind spots, both silent:
+
+- **A gi player was ranked on no-gi numbers.** `cal.ev` holds no-gi hands only, so the kernel dealt
+  no-gi attempt shares at the folded no-gi rate, and no deck the no-gi game cannot deal could ever be
+  recommended. gi is the DEFAULT ruleset, so this was most players.
+- **Every player was ranked from a uniform start.** A Standing player's rolls open on the feet, and
+  from there the ranking is a different one (Spearman 0.68 no-gi, 0.67 gi, measured on the browser
+  kernel; the research's figure was 0.69).
+
+**What shipped.**
+- `cal.evGi[role] = [nodeIdxs, attemptPct]` — `cal.ev`'s layout with no EDGE blocks
+  (`build_gi_hands`). +2,924 B gzip on `graph-data.json` on the three-block wire, exactly the research's
+  price (+2,598 on the one-block wire after PR 231; the emitter's own comment keeps the earlier figures). The emitter
+  rebuilds all 265 no-gi `ev` hands by the same rule each run and refuses on any difference, so the gi
+  table cannot be built by a different rule than the one beside it. Full hands, not a diff: 18 of 265
+  hands keep the same whole percents across frames, and sharing the index list where membership
+  matches (221 hands) saved 334 B at the cost of one table's decode depending on another's.
+- `ngFlowBuild` prices the app's ruleset: gi hands from `_evGi`, every rate through
+  `calSuccess(node, frame)` (the rate the game deals). `e0`, the personal tilt's feature, stays the
+  no-gi EDGE the card prints. A wire without gi hands falls back to the no-gi hands and fires
+  `flow_frame_fallback`.
+- `ngFlowStart(K, spec)`: uniform (Anywhere) is the null law, bit-for-bit the old path; a fixed start
+  is half on each seat of a position (the seat is still drawn 50/50). `_flowStartSpec` maps
+  `startFrom()`: Standing → standing-position; Anywhere and My weak spots → uniform. My weak spots
+  stays uniform deliberately: it OPENS on the spots this ranking names, so ranking from those openings
+  is a feedback loop that locks onto its first answer. A fixed start the kernel lacks fires
+  `flow_start_fallback`. `flowScore`'s memo key carries ruleset and start.
+- `NG_STANDING_POS` is the one spelling of the standing opening, read by `_standingStart` and by
+  `_flowStartSpec`.
+
+**The trap this found (§6.4).** `tests/flow.test.mjs` boots its app with no localStorage, so
+`_hydrateGiMode` put it in gi, and every FLOW test had been a gi-mode app ranking no-gi hands — the
+bug itself, pinned as correct. The kernel a real no-gi player gets (the reachability mask on: 248
+states, 1,417 decks, against 264 and 1,464) had never been compared with anything. Every app in the
+suite now names its ruleset, and `tests/_census.mjs` counts `negDecks` (24, no-gi) and `negDecksGi`
+(21) in their own frames.
+
+**The reference.** `solve_flow.py --reference` writes four rows (no-gi/gi × uniform/standing), each
+the frame as the app builds it: `Opts(rates="frame")` (the frame's own success-rate cell; the default
+stays folded, so EDGE and the `validate:flow` ratchet do not move, V0 +0.075527 unchanged) minus the
+role-nodes `ruleset_availability.json` excludes. JS against it, top-10 order exact in all four:
+
+| game | V0 gap | top-40 shared | within 5% | L1 gap |
+|---|---:|---:|---:|---:|
+| nogi | 2.45% | 40/40 | 87.0% | 1.47% |
+| gi | 0.68% | 39/40 (ranks 40/41, a 0.9% tie) | 88.7% | 1.44% |
+| nogi/standing | 1.05% | 39/40 | 65.1% | 2.19% |
+| gi/standing | 0.49% | 40/40 | 75.2% | 1.67% |
+
+A standing start puts all the mass on two hands (standing has 34 cards, many at 1–2%), so
+whole-percent rounding moves single magnitudes more; the aggregate stays under 3%.
+
+**What a player sees.** 119 decks the no-gi game cannot deal now score in gi; Cross Collar Choke
+from Mount (#18 for a new player) and Bow and Arrow Choke from Back Control (#28) enter the list,
+Buggy Choke, North-South Choke and Triangle from Open Guard leave it. From standing, Standing
+Position (top) jumps to #2–3 and Pull Guard, Takedown from Bottom and Level Change Takedown enter;
+deep-ground passes leave. In no-gi from standing, Spider Guard and Double Sleeve Guard decks score
+exactly 0 — no roll that opens standing reaches them (§10 item 6's teleporting listing).
+
+**Bytes, measured after merging PR 231 (the full game, which shipped as 1.208.x, hence 1.209.0).**
+231 shrank the wire to one EDGE block, so the same gi hands now cost more relative to it.
+- Eager set: +3,152 B this change. Measured with the gate's own gzip, against dev's emit + bundle
+  built from dev's sources. Dev itself already sits +1,684 over 231's accepted 327,480, so the
+  branch reads +4,836 of the 5,000 cap: 164 B of headroom.
+- First-hand core, in a real browser on this branch's build: +3,637 B (graph-data.json +3,071,
+  neural.js +566, same 11 requests), against the same tree with dev's bundle and wire swapped in.
+  Dev's drift is +1,679, so the branch reads +5,316 of the 6,000 cap.
+- Before the merge the same change was +3,548 (eager) and +3,280 (first-hand core).
+
+**Win chance does not move.** 231's MDP data is derived from the wire and the gameplay source
+(`regenerate_mdp_data.py` records `graphHash` and `gameplayHash`). Regenerated at origin/dev and on
+this branch, 62 of 65 files are byte-identical. The manifest and the two variants differ in
+provenance hashes only. That is also why four game bundles re-address at identical sizes in the
+build-shape rows.
+
+**Mutants** (each against the full suite): `_ev` read where `_evGi` belongs (9 red), the folded rate
+in gi, `evGi` dropped by `_deriveDualPairs` (9), the start missing from the memo key, the start law
+ignored, the top seat only, My weak spots ranked from Standing, `calSuccess` ignoring its frame, `e0`
+read from the gi table, `_evGi` never built (9), the emitter filing the no-gi hands as `evGi` (7, on
+a re-emitted wire): all killed. A kernel reused across a ruleset flip SURVIVED until test 6d was
+written (`setGiMode` drops the kernel; a direct `_giMode` write did not).
+
+## v1.210.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
 
 **The owner's question** (2026-09-30), on GraphSemantics §10.5: "every player's belt is rather a
 construct of the challenges no? i thought it would be mostly, and if we could align that to the

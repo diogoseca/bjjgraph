@@ -115,7 +115,7 @@ shortcuts; exposed landing controls still accept pointers. Grading releases the 
 focused mini-row first.
 
 **Recall comes with rank** (v1.133.0): from BLUE belt up (`_recallInPlayNow`; the WORN belt since
-v1.209.0, §8 — never a Game Knowledge band), a stage-2+ card
+v1.210.0, §8 — never a Game Knowledge band), a stage-2+ card
 asks as timed recall Q/A in play; below blue, recognition-first MC holds. **That rank gate prices
 a question asked against a running CLOCK, and only those.** The two paused study surfaces — the
 node card and the option sheet's JIT micro-drill — take `askFormat` instead: recognition below
@@ -359,10 +359,8 @@ you move again. A miss that moves you costs a ply and hands over the turn; a mis
 in place costs nothing. `opponentDefend` always ends by handing the board back, so the opponent
 never keeps initiative.
 
-**Hesitation costs the turn.** When the decision clock expires, `opponentDefend()` takes one
-exchange after a `HESITATE_HOLD` pause — the hold is what turns two announcer lines into a cause
-and its effect, because the announcer has one slot. It cannot spiral: they take exactly one
-exchange and the board comes back. Beat: `hesitated`.
+**Hesitating costs nothing but the question.** The v1.129.0 hand-over on expiry (`hesitated`)
+was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a lost turn.
 
 ### The announcer
 
@@ -445,9 +443,10 @@ The two value functions are measurably different objects — under argmax every 
 compresses to `p_win ≈ 0.98`, under the played policy `mount/bottom` is −0.281 and
 `back-control/bottom` −0.479 — so `sol.v` cannot be reused for this and is not emitted.
 
-**Zero new wire bytes.** The browser rebuilds the 272-state kernel from `cal.ev` (hands and
-attempt shares, keyed `posIdx/role`) and `cal.outcomes` (1331 of 1331 summing to exactly 100).
-Attempt shares are renormalised per state: `graph.json` is exact, the wire rounds to integers.
+**Your ruleset, from your start (v1.209.0).** The browser rebuilds the kernel from the hands
+(`cal.ev` no-gi, `cal.evGi` gi at +2,598 B gzip, keyed `posIdx/role`) at the frame's own rate, and
+`cal.outcomes`. Shares renormalise per state. V₀ starts where your rolls do: uniform for
+Anywhere and My weak spots, standing's two seats for Standing.
 
 **All 1,500 deck derivatives come from one backward and one forward sweep** — the adjoint. The
 forward occupancy `ρ` *is* "how often you are there", exactly rather than as a metaphor. ~50ms for
@@ -477,8 +476,7 @@ ledger feeding it is written at ONE hook, `resolve()`, and stored as a per-devic
 (counters are the one thing the blob's per-key MAX merge cannot carry: two devices at 30 rolls
 each are 60, and MAX reads 30).
 
-**What it inherits, and the copy says so:** the solve is no-gi while gi is the default ruleset
-(146 nodes differ); the opponent it prices is `opponentDefend`, which filters neither role nor
+**What it inherits, and the copy says so:** the opponent it prices is `opponentDefend`, which filters neither role nor
 origin, compounded over 11 plies; the 1,326 Defender decks are unscored because your drilling does
 not change the opponent's rates — that was about the ODDS model, and this is a KNOWLEDGE score, so
 since v1.145.13 both seats and all 272 position decks are weighted.
@@ -714,7 +712,7 @@ scored them 0 in both seats (**104 decks, 739 cards**). `o` is the union, a **ze
 attemptable here"**, and `frame` is REQUIRED — a default is how that survived 77 versions. `gameScore` memoises on `(_stageVer, frame)` and the expander per frame, or the first read
 pins one ruleset for the session. Gated by `validate:score-coverage -- --gate`; coverage is now **99.66%**.
 
-**Game Knowledge is a percentage and decides no belt** (v1.209.0, owner). Its bands (white .20 ·
+**Game Knowledge is a percentage and decides no belt** (v1.210.0, owner). Its bands (white .20 ·
 blue .40 · purple .60 · brown .70 · black .80; MC caps a card at 2/3, so recognition tops out at
 0.667) were the knowledge belt and gated recall in play and the Recall Mode lock while this line
 said "nothing is gated by the score". They now decide nothing; the grandfather reads them once.
@@ -733,7 +731,7 @@ nothing; a belt below the held one counts as proven. It merges as **MAX by rank*
 (`ngMergeHeldBelt` in `_mergeProgressFields`, whose `belts` assign keeps only local keys), never as
 a settings key. **The grandfather** (`belts.gf`, once): `held` = max(the old tab colour, its
 all-done case read as black; the band; the rule), both rulesets, marked once the manifest is
-resident; the mark survives a merge only when both sides carry it, so a pre-v1.209.0 device's
+resident; the mark survives a merge only when both sides carry it, so a pre-v1.210.0 device's
 progress is grandfathered again. Gated by `tests/belt_worn.test.mjs`, `belt-worn.spec.ts`.
 
 **Spaced repetition.** `srs = {deckKey: {qhash: [due, ivl, last]}}` in the v2 blob, local epoch-day

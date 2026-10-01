@@ -6,16 +6,28 @@ import { whiteBeltHolder } from "./personas"
 /**
  * WINNING HOT IS NEVER SCORED AS BREAKING — the victory route through the per-roll reset.
  *
- * Momentum is per MATCH (v1.70.0), and there are two exits: _breakCombo (app.src.jsx:4345)
- * — the PUNISHMENT, reachable only via a wrong answer (:4312) or committing past an
- * unanswered question (enterAttempt, :4912) — and the plain bookkeeping zero at the head of
- * the next match. endRound("win") (:4050-4083) fires victory_cascade → finish →
- * roll_end{outcome:"win"} and never touches _combo; the auto-restart chain (hold 4.4s →
- * hideCenter → after 0.55 → startRoll) goes cold through startRoll's per-match reset
- * (:4738 — `_combo = 0; _landPending = false; _updateComboChip()`), which emits NO
- * combo_break beat and removes the chip through the non-shatter branch. So a player who
- * finishes the match while ×2 hot must see zero combo_break beats across the ENTIRE
- * journey — through the build, the cascade, and the auto-started next roll.
+ * Momentum is per MATCH (v1.70.0), and there are two exits: `_breakCombo` — the PUNISHMENT,
+ * reachable today only via a wrong answer ("wrong") or a question clock running out ("slow");
+ * committing past an unanswered question used to break it too ("ignored") until v1.133.0
+ * (e6f655a6a) made that a FREE SKIP — and the plain bookkeeping zero at the head of the next
+ * match. `endRound("win")` fires victory_cascade → finish → roll_end{outcome:"win"} and never
+ * touches _combo; the auto-restart chain (hold 6.6s → hideCenter → after 0.8 → startRoll; it
+ * was 4.4/0.55 before v1.168.0) goes cold through `startRoll`'s per-match reset
+ * (`_combo = 0; _landPending = false; _updateComboChip()`), which emits NO combo_break beat
+ * and removes the chip through the non-shatter branch. So a player who finishes the match
+ * while ×2+ hot must see zero combo_break beats across the ENTIRE journey — through the build,
+ * the cascade, and the auto-started next roll. (Symbols cited by name in
+ * neural/src/app.src.jsx; the :line numbers this header carried had drifted ~11,000 lines.)
+ *
+ * TWO PICKS, ONE WIN (re-targeted 2026-10-01, gen-suite triage): since v1.176.0 (cdc35cefe,
+ * "Give submission states their own choices") the first pick of a submission card only
+ * ENTERS its state — deterministic travel, no resolve draw — and that state is a landing
+ * like any other: it deals a "Finish" card under the same title AND asks its own landing
+ * question (measured: it does, on whiteBeltHolder). The journey answers that question
+ * correctly too (the build continues honestly, ×2 → ×3) and re-asserts "nothing unanswered on
+ * the table" before the Finish — the second pick, where the rigged resolve is drawn and the
+ * roll ends. The claim is unchanged: the win is still taken hot (≥ ×2), and still scored
+ * clean.
  *
  * Nearest neighbors, differentiated: core-019 (golden-path win — no momentum in play at
  * all) and momentum.spec's per-roll-cold test (manual startRoll() call — no victory path,
@@ -24,12 +36,14 @@ import { whiteBeltHolder } from "./personas"
  *
  * Determinism census: land() rigs the intro's ai-skill/role/max-moves; landing MCs draw on
  * surface-scoped land-mc-pick/land-mc-shuffle (reading _mc consumes nothing); each hop and
- * the finish rig resolve/outcome [0.01]; the post-finish rigs (ai-skill/role/max-moves/
- * start-pos) are queued AFTER the finish beat but BEFORE pumping past endRound's 4.4s hold,
- * exactly when startRoll consumes them (:4738-4765). whiteBeltHolder()'s stage:{} is empty,
- * so every landing still asks (cardStage < 2) and heat can be built the honest way. The one
- * trap dodged deliberately: _landPending is asserted false before the submission commit —
- * an unanswered question would make the win read as "ignored" and fake a break.
+ * the finish rig resolve/outcome [0.01] (the entry pick draws neither; the Finish consumes
+ * both); the post-finish rigs (ai-skill/role/max-moves/start-pos) are queued AFTER the finish
+ * beat but BEFORE pumping past endRound's 6.6s hold, exactly when startRoll consumes them.
+ * whiteBeltHolder()'s stage:{} is empty, so every landing still asks (cardStage < 2) and heat
+ * can be built the honest way. The trap this used to dodge: _landPending is asserted false
+ * before BOTH submission commits — pre-v1.133.0 an unanswered question made a commit read as
+ * "ignored" and fake a break; today the skip is free, but the guard is kept so the "no
+ * combo_break" claim is never satisfied by an unanswered question being silently waived.
  * Probe: 3/3 green; a submission was dealt within <=5 hops from Mount Top on every run.
  */
 
@@ -104,10 +118,20 @@ test("submission win at ×2: victory spine clean of combo_break, next auto-roll 
     "no unanswered question on the table — the commit must not score as ignored",
   ).toBe(false)
 
-  // ── the rigged finish: submission hits, the round ends in a win ──
+  // ── the rigged finish: submission hits, the round ends in a win. v1.176.0: the first pick
+  // ENTERS the submission state (no draw); that state asks its own landing question, which is
+  // answered like every other one before its Finish is taken. ──
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(sub as string)
+  await j.pick(sub as string) // establishes the submission state
+  await j.nextHand()
+  if (await answerLanding()) earned++
+  expect(await combo(), "still hot inside the submission state, at its earned value").toBe(earned)
+  expect(
+    await page.evaluate(() => !!(window as any).__neural._landPending),
+    "no unanswered question on the table at the Finish — the commit must not score as ignored",
+  ).toBe(false)
+  await j.pick(sub as string) // its Finish: the rigged resolve is drawn here and the roll ends
   await j.advanceUntil("finish", 20000)
 
   // ── the victory spine, in order, with the streak STILL hot (endRound never touches
@@ -127,12 +151,12 @@ test("submission win at ×2: victory spine clean of combo_break, next auto-roll 
   expect(await combo(), "still hot through the cascade, pre-restart").toBe(earned)
 
   // ── next-roll rigs, queued in the seam: after the finish beat, before pumping past
-  // endRound's 4.4s hold — startRoll consumes all four (start-pos at :4765) ──
+  // endRound's 6.6s hold — startRoll consumes all four ──
   await j.rig("ai-skill", [0.5])
   await j.rig("role", [0.1])
   await j.rig("max-moves", [0.1])
   await j.rig("start-pos", [0.1])
-  await j.nextHand(30000) // hold 4.4s + 0.55s + startRoll's 1.3s land → fresh hand
+  await j.nextHand(30000) // hold 6.6s + 0.8s + startRoll's intro and landing → fresh hand
 
   // ── the auto-started roll opens COLD, and cold is not broken ──
   expect(await combo(), "cold: _combo 0 in the new match").toBe(0)

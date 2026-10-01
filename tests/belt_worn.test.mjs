@@ -1,4 +1,4 @@
-// THE BELT A PLAYER WEARS (v1.209.0, owner ruling 2026-09-30) — the gates.
+// THE BELT A PLAYER WEARS (v1.210.0, owner ruling 2026-09-30) — the gates.
 //
 // The rule (neural/src/belt.src.js): everyone starts in white; you wear the belt after the last
 // belt, in an unbroken run from white, whose units are ALL proven (lessons + checkpoint);
@@ -264,7 +264,7 @@ test("never lowered by a stale device merging — belts.held is a MAX in the rea
   assert.deepEqual(ngMergeHeldBelt({ id: "blue", t: 9 }, { id: "blue", t: 4 }), { id: "blue", t: 4 });
 });
 
-test("the grandfather: once, the max of every belt the player could see before v1.209.0", () => {
+test("the grandfather: once, the max of every belt the player could see before v1.210.0", () => {
   // the old tab colour moved on lessons alone: every White lesson done, no checkpoint → it showed blue
   let a = boot({ blob: { prep: Object.fromEntries(curriculum().belts[0].units.flatMap((u) => u.lessons).map((l) => [l.deckKey, 3])) } });
   assert.deepEqual([a.belts.held.id, a.wornBelt().id], ["blue", "blue"]);

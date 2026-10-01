@@ -649,11 +649,11 @@ test("a hostile blob mails only what the manifest knows, and no attacker string 
   // is not finite, so it is not a previous score — kills: coerce `s` to 0 instead of null
   assert.ok(!/% today\)/.test(m.text), "a delta was computed against a non-finite previous score: " + m.text);
   assert.ok(out.capped >= 8, "the run must count the caps it applied (" + out.capped + ")");
-  // the hostile belt line (v1.209.0) is refused whole: no belt is named at all
+  // the hostile belt line (v1.210.0) is refused whole: no belt is named at all
   assert.ok(!/Next belt|Belt:/.test(m.text), "a hostile belt line was mailed: " + m.text);
 });
 
-// ── the belt line (v1.209.0): the belt the player WEARS, never a band of the score ──────────
+// ── the belt line (v1.210.0): the belt the player WEARS, never a band of the score ──────────
 
 test("the mail names the next belt from the line the app wrote — and prints none without one, whatever the score", async () => {
   const mail = async (dayEntry) => {

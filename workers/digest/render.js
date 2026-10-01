@@ -10,7 +10,7 @@
  *
  * Composition helpers (`streakOf`) live here too. They are pure, they are what the numbers in
  * the copy MEAN, and a fixture cannot exercise the copy honestly without them. (`beltEta`, the
- * score-paced "At this pace: X BELT in ~N days", RETIRED in v1.209.0: the score names no belt.)
+ * score-paced "At this pace: X BELT in ~N days", RETIRED in v1.210.0: the score names no belt.)
  *
  * The digest object, as `runDigest` builds it:
  *   { count, techniques: string[], score, delta, belt, streak, weakTop: string[], clip, unsubUrl }
@@ -79,10 +79,10 @@ export const prettyKey = (k) => {
 };
 
 /**
- * THE BELT LINE (v1.209.0, owner ruling 2026-09-30). The belt the player WEARS — earned in the
+ * THE BELT LINE (v1.210.0, owner ruling 2026-09-30). The belt the player WEARS — earned in the
  * Challenges (neural/src/belt.src.js), written by the app into `dayLog[day].b` and validated by
  * `runDigest` into `{worn, next, done, total}` — and the next one: "Next belt: PURPLE — 4 of 6
- * blue units proven", or at black "Belt: BLACK — 4 of 6 units proven". Until v1.209.0 this was
+ * blue units proven", or at black "Belt: BLACK — 4 of 6 units proven". Until v1.210.0 this was
  * `beltEta`: a Game Knowledge band and an arrival date at the score's recent pace. The score
  * names no belt any more, so neither may the email; it stays the "Game Knowledge: N%" line.
  * null — an app that predates the line, or one the composer refused — prints NO line, never a

@@ -499,7 +499,7 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
 
   // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
   // ("for blue belts at least … flashcard Q/A, not MC" — owner). The rank is the WORN belt since
-  // v1.209.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
+  // v1.210.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
   await page.evaluate(() => {
     const a = (window as W).__neural
     a.belts.held = { id: "blue", t: Date.now() }

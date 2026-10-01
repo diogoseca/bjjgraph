@@ -64,10 +64,25 @@ for f in glob.glob("e2e/gen/*.spec.ts"):
         print(f"FAIL: orphan spec {f} has no ledger entry")
         bad += 1
 
+# known-red rows are the ONLY tolerated reds of `e2e:gen`; e2e/gen-ledger-reporter.ts judges the
+# run against them (v1.206.3). A row without its reason/owner is a baseline nobody can falsify.
+for e in entries:
+    st = e.get("status")
+    if st not in ("accepted", "known-red", "quarantined-red"):
+        print(f"FAIL: ledger entry {e.get('id')} has unknown status {st!r}")
+        bad += 1
+    if st == "known-red":
+        k = e.get("known_red") or {}
+        miss = [f for f in ("test", "reason", "owner", "since") if not k.get(f)]
+        if miss:
+            print(f"FAIL: known-red entry {e.get('id')} lacks known_red.{', known_red.'.join(miss)}")
+            bad += 1
+
 n_core = sum(1 for e in entries if e.get("origin") == "core")
 n_auto = sum(1 for e in entries if e.get("origin") != "core" and e.get("status") == "accepted")
+n_known = sum(1 for e in entries if e.get("status") == "known-red")
 n_quar = sum(1 for e in entries if e.get("status") == "quarantined-red")
-print(f"ledger: {n_core} core + {n_auto} accepted generated (target {ledger.get('target')}) + {n_quar} quarantined-red")
+print(f"ledger: {n_core} core + {n_auto} accepted generated (target {ledger.get('target')}) + {n_known} known-red + {n_quar} quarantined-red")
 sys.exit(1 if bad else 0)
 EOF
 

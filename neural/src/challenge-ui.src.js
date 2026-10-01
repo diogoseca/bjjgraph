@@ -50,11 +50,11 @@ const NG_CHALLENGE_UI_METHODS = {
 
   // ── tab subtitles (v1.95.0) ── each pane tab is a title over one plain second line:
   //  · Explore — the Game Knowledge score as "Mastered N%" (a percentage — it names no belt);
-  //  · Challenges — THE BELT YOU WEAR (v1.209.0, owner ruling 2026-09-30): `wornBelt()`, the
+  //  · Challenges — THE BELT YOU WEAR (v1.210.0, owner ruling 2026-09-30): `wornBelt()`, the
   //    belt after the last belt whose units are all proven, never below the persisted
   //    high-water mark, wearing 0-4 stripes from ITS proven units (unitComplete: lessons done +
   //    checkpoint — v1.95.3; objectives were too generous, a guest wore unearned stripes).
-  //    Until v1.209.0 the colour was the FRONTIER (first belt with lessons left), which moved on
+  //    Until v1.210.0 the colour was the FRONTIER (first belt with lessons left), which moved on
   //    lessons alone and painted a finished player WHITE (the frontier falls back to the
   //    corridor's top). The frontier still drives navigation — the open section, the arrival
   //    scroll, the glow, the cue — and never the belt. Game Knowledge is a percentage only.
@@ -73,7 +73,7 @@ const NG_CHALLENGE_UI_METHODS = {
       // its unit count → 0-4. NOT the objectives fraction (v1.95.3): the first-roll coach
       // auto-ticks objectives and incidental evidence completes more through normal play, so a
       // casual guest wore stripes he never deliberately earned (owner: a guest must be 0).
-      // Units only move through deliberate challenge work — and since v1.209.0 so does the belt.
+      // Units only move through deliberate challenge work — and since v1.210.0 so does the belt.
       const worn = this.wornBelt();
       const pinned = worn.id, done = worn.done, total = worn.total, stripes = worn.stripes;
       let tape = "";
@@ -167,7 +167,7 @@ const NG_CHALLENGE_UI_METHODS = {
   // the topmost section still left to complete") — the first belt, in corridor order,
   // whose live lessons are not all done. It replaces the pinned track everywhere the UI
   // used one: default-open section, arrival scroll, frontier glow, challenge cue,
-  // selected-track fallback. NAVIGATION ONLY since v1.209.0: the tab belt is `wornBelt()`,
+  // selected-track fallback. NAVIGATION ONLY since v1.210.0: the tab belt is `wornBelt()`,
   // because this falls back to the corridor's top when everything is done (right for a
   // scroll target, wrong for a belt — it painted a finished player white). `challengePinnedTrack` is DORMANT: still merged in
   // progress blobs for compatibility, read by nothing.

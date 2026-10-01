@@ -1333,6 +1333,13 @@ def load_tv_regions(profs):
         return None, None, {"status": "ABSENT", "path": str(path.relative_to(ROOT))}
     raw = path.read_bytes()
     geo = json.loads(raw)
+    # STALENESS FIRST, so the refusal names the CAUSE. Until v1.209.2 this file was read without the
+    # graph-hash check every other input gets, so a geometry.json computed on an older graph.json
+    # surfaced only as the universe comparison below failing: on the v1.209.0 graph,
+    # `TV_UNIVERSE_MISMATCH: origin_false: theirs-only ['double-sleeve-guard', 'spider-guard']`, a
+    # downstream symptom of an upstream artifact one content change old (docs/GraphSemantics.md §11
+    # runs geometry, row 10, before naming, row 15).
+    check_graph_inputs({"tests/artifacts/semantics/geometry.json": geo})
     regions, audit = {}, {"status": "ok", "sha256": hashlib.sha256(raw).hexdigest(),
                           "source": "tests/artifacts/semantics/geometry.json cases[case].clusterings.exit_tv", "cases": {}}
     for tag, case in GEOMETRY_CASE.items():
@@ -3384,7 +3391,11 @@ def main() -> int:
         print(f"wrote {args.output}")
         return 0 if result["coverage"]["pairs_scored"] else 2
     except (NamingRefusal, ValueError, KeyError) as exc:
-        print(str(exc), file=sys.stderr)
+        # Flush stdout FIRST. stdout is block-buffered into a file and stderr is not, so in a
+        # combined log (`> log 2>&1`) the refusal used to land at the TOP, above every progress line
+        # the buffer flushed at exit, and the log read as an exit 2 with no reason.
+        sys.stdout.flush()
+        print(f"naming REFUSED: {exc!s}", file=sys.stderr)
         return 2
 
 

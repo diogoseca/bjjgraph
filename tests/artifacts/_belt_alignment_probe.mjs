@@ -37,9 +37,9 @@
  * descending weight-per-card order until each band, answering every card, and take no checkpoint.
  * Real user data is never read.
  *
- * WHICH "TODAY" IT MEASURES. It reads the code it runs against. Written at 3f157a692 (pre-v1.209.0),
+ * WHICH "TODAY" IT MEASURES. It reads the code it runs against. Written at 3f157a692 (pre-v1.210.0),
  * where `today_tab` was the lessons-based frontier and the readers used the Game Knowledge band;
- * from v1.209.0 the tab IS rule A2 behind the high-water mark (and each boot here runs the one-time
+ * from v1.210.0 the tab IS rule A2 behind the high-water mark (and each boot here runs the one-time
  * grandfather), so on a later tree the A2 column agrees with `today_tab` by construction. The
  * curriculum-share and persona tables stay meaningful on any tree.
  *

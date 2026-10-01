@@ -159,7 +159,12 @@ test("resetRoll + two stageRollAt restages emit no roll_end and leave blue.roll-
   const endsBefore = await count("roll_end") // 0 — but advanceUntil is stream-blind, count anyway
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(sub as string)
+  // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS the
+  // submission state (deterministic travel, no resolve draw, no endRound); its one "Finish" card
+  // — the same title — is where resolve is drawn and the roll ends. Same finished roll.
+  await j.pick(sub as string) // establishes the submission state
+  await j.nextHand() // the travel leg from Side Control Top outlasts a fixed 3s — wait for the deal
+  await j.pick(sub as string) // its Finish action completes the exchange
   await j.advanceUntil("finish", 20000)
   let ends = endsBefore
   for (let spent = 0; spent < 20000 && ends <= endsBefore; spent += 400) {

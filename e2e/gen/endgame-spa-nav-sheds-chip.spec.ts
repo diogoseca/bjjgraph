@@ -231,6 +231,10 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
   await j.rig("land-mc-shuffle", SHUFQ)
   await j.land("Mount Top")
   const stream = (await j.beats()).map((b) => b.beat)
+  // "engaged" closes the stream since v1.137.0 d3bcb63d3 ("The clock waits for the player"):
+  // j.land() now ends with a real corner mouse-move (j.engage()), and `_engage()` fires the beat
+  // ONCE PER INSTANCE. Still an exact-equality census — and the trailing "engaged" is itself a
+  // residue check: an `_engaged` latch leaked from life 1 would suppress it on life 3.
   expect(stream, "life-3 stream: one clean question-first landing, no coach, no tut, no combo residue").toEqual([
     "stakes",
     "land",
@@ -238,6 +242,7 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
     "beacon_moved",
     "mc_shown",
     "land_q_shown",
+    "engaged",
   ])
   const post = await page.evaluate(() => {
     const a = (window as any).__neural

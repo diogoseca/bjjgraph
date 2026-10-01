@@ -238,7 +238,7 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   // LADDER progress (proven units of the pinned track) — NOT gameScore().stripes. Seed a
   // purple score: the subtitle follows it, the tab belt does not move. (The woven meter
   // itself is gone since v1.98.1 — the subtitle is the score's one visual.)
-  // THE GRANDFATHER READS THE SCORE ONCE (v1.209.0): seed it only after the migration has run
+  // THE GRANDFATHER READS THE SCORE ONCE (v1.210.0): seed it only after the migration has run
   // (`belts.gf`), or the seeded band would become this profile's belt — the migration doing
   // exactly its job, on a fake score.
   await expect
@@ -285,7 +285,7 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
     "data-tab-stripes",
     String(seeded.expected),
   )
-  // proving EVERY White unit promotes (v1.209.0: the tab belt is the WORN belt — the belt after
+  // proving EVERY White unit promotes (v1.210.0: the tab belt is the WORN belt — the belt after
   // the last one whose units are all proven): a fresh blue belt, zero stripes, blue dye
   await page.evaluate(() => {
     const a = (window as any).__neural

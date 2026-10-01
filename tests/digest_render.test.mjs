@@ -117,7 +117,7 @@ test("a video is offered only when a clip was actually found", () => {
 });
 
 test("the belt line names the worn belt's next belt, names black at black, and is absent without a line", () => {
-  // v1.209.0: the belt is earned in the Challenges and written by the app; the score names none.
+  // v1.210.0: the belt is earned in the Challenges and written by the app; the score names none.
   for (const f of FIXTURES.filter((x) => numeric(x.digest))) {
     const html = visible(renderHtml(f.digest)), text = renderText(f.digest);
     const b = f.digest.belt;
@@ -130,7 +130,7 @@ test("the belt line names the worn belt's next belt, names black at black, and i
         assert.ok(seen.includes("Belt: " + b.worn.toUpperCase() + " \u2014 " + b.done + " of " + b.total + " units proven"), f.id + " " + name);
         assert.ok(!seen.includes("Next belt"), f.id + " " + name + ": there is no belt after black");
       }
-      // retired v1.209.0 — a score-paced promise of a belt the score no longer decides
+      // retired v1.210.0 — a score-paced promise of a belt the score no longer decides
       assert.ok(!/At this pace|Next stop/.test(seen), f.id + " " + name + ": the retired score-paced line came back");
     }
   }

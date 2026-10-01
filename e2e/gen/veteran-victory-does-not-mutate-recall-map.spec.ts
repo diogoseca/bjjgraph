@@ -30,7 +30,8 @@ import { srsVeteran, CURRICULUM } from "./personas"
  *
  * Determinism: the only draws on the win path are `resolve` (the verdict — 0.01 < any moveChance
  * ⇒ success) and a defensive `outcome` (a submission win short-circuits to endRound before
- * drawOutcome matters). land()'s built-in ai-skill/role/max-moves rigs cover the intro roll.
+ * drawOutcome matters). Since v1.176.0 the win takes TWO picks of the same card: the first enters
+ * the submission state and draws nothing; the second is its Finish, where `resolve` is drawn. land()'s built-in ai-skill/role/max-moves rigs cover the intro roll.
  * No content-text assertions — the dealt submission is discovered by ty, never named.
  */
 
@@ -98,7 +99,12 @@ test("veteran gameplay victory: roll_end 'win' + victory_cascade + ladder +1, bu
   await j.rig("outcome", [0.01])
 
   // ── Finish: pick the submission through the real tray UI, pump until roll_end ──
-  await j.pick(subName!)
+  // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS the
+  // submission state (deterministic travel, no resolve draw, no endRound); its one "Finish" card
+  // — the same title — is where resolve is drawn and the roll ends. Same victory, one extra pick.
+  await j.pick(subName!) // establishes the submission state
+  await j.nextHand() // the submission state deals its own hand
+  await j.pick(subName!) // its Finish action completes the exchange
   await j.advanceUntil("roll_end", 20000)
 
   // ── Victory beats fired: durable roll_end outcome is "win"; victory_cascade emitted ──

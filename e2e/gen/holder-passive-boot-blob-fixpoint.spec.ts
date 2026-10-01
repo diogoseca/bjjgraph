@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"persistence-reload","B":"idempotence"} @invariant "A passive boot is read-only on the unlock economy: booting a holder performs exactly the one-time challenge-evidence reconciliation (two saves that never touch prep/rec/units/stage) and, since v1.209.0, the one-time belt grandfather (one save adding belts.held + belts.gf), and preserveStorage-reloading twice leaves the blob's economy subset deep-equal with ZERO app writes per idle reload — the load-save cycle is a fixpoint from the first reconciliation on." */
+/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"persistence-reload","B":"idempotence"} @invariant "A passive boot is read-only on the unlock economy: booting a holder performs exactly the one-time challenge-evidence reconciliation (two saves that never touch prep/rec/units/stage) and, since v1.210.0, the one-time belt grandfather (one save adding belts.held + belts.gf), and preserveStorage-reloading twice leaves the blob's economy subset deep-equal with ZERO app writes per idle reload — the load-save cycle is a fixpoint from the first reconciliation on." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder } from "./personas"
@@ -60,7 +60,7 @@ const normalize = (b: any) => ({
   stage: b?.stage,
 })
 
-/** `belts` with the two v1.209.0 stamps reduced to what they MEAN — the held belt's id and "the
+/** `belts` with the two v1.210.0 stamps reduced to what they MEAN — the held belt's id and "the
  *  one-time grandfather has run" — so a capture compares on content, not on the clock. */
 function beltsOf(belts: any) {
   if (!belts) return belts
@@ -70,7 +70,7 @@ function beltsOf(belts: any) {
   return out
 }
 
-// v1.209.0 (owner): the belt is earned in the Challenges and was GRANDFATHERED once. This holder
+// v1.210.0 (owner): the belt is earned in the Challenges and was GRANDFATHERED once. This holder
 // proved every White unit, so the first boot raises it to the belt it wears — blue — and marks
 // the blob. That is the ONLY change to the economy subset, it happens on boot 1 alone, and from
 // then on the load→save cycle is the fixpoint it always was.
@@ -107,7 +107,7 @@ test("holder passive boot is a blob fixpoint: economy subset deep-equal across t
    *  challenges presence, per-document progress-key write count. */
   const capture = (label: string) =>
     page.evaluate((k: string) => {
-      // the same reduction as `beltsOf` above (v1.209.0 stamps → their meaning), in the page
+      // the same reduction as `beltsOf` above (v1.210.0 stamps → their meaning), in the page
       const belts = (x: any) => (!x ? x : { ...x, ...(x.held ? { held: { id: x.held.id } } : {}), ...(x.gf ? { gf: true } : {}) })
       const norm = (b: any) => ({ v: b?.v, prep: b?.prep, rec: b?.rec, units: b?.units, belts: belts(b?.belts), stage: b?.stage })
       const raw = window.__ngGuestProgressRaw()
@@ -132,7 +132,7 @@ test("holder passive boot is a blob fixpoint: economy subset deep-equal across t
   expect(c1.storedV, "boot 1: stored v === 2").toBe(2)
   expect(c1.storedUpdatedAt, "boot 1: updatedAt stamped > 0 — the app's reconciliation write landed (seed carries 0)").toBeGreaterThan(0)
   expect(c1.storedChallengeKeys, "boot 1: snapshot evidence ingested — challenges is non-empty after reconciliation").toBeGreaterThan(0)
-  expect(c1.writes, "boot 1: exactly FOUR progress-key writes — the DSL's ngseed seed + the app's two challenge-evidence reconciliation saves (load-time + post-ingest) + the one-time grandfather saving the belt it raised (v1.209.0; a raised belt saves at once)").toBe(4)
+  expect(c1.writes, "boot 1: exactly FOUR progress-key writes — the DSL's ngseed seed + the app's two challenge-evidence reconciliation saves (load-time + post-ingest) + the one-time grandfather saving the belt it raised (v1.210.0; a raised belt saves at once)").toBe(4)
 
   // ── Boot 2: preserveStorage reload — the old document's pagehide _flushSave re-wrote the
   // blob via _progressBlob() on the way out; the NEW document must read back the fixpoint. ──
