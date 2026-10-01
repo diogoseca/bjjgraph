@@ -149,8 +149,8 @@
       {
         "transition": "Underhook Pass",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 12
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
@@ -291,13 +291,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
-        }
-      },
-      {
-        "transition": "X Pass",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
         }
       }
     ],
@@ -566,8 +559,8 @@
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 11
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
@@ -587,9 +580,10 @@
       {
         "transition": "Knee Shield Retention",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 11
-        }
+          "gi": 15,
+          "nogi": 12
+        },
+        "deal_here": true
       },
       {
         "transition": "Lockdown Recovery",
@@ -701,13 +695,6 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Lumberjack Sweep",
-        "attempt_probability": {
-          "gi": 2,
-          "nogi": 2
         }
       }
     ],

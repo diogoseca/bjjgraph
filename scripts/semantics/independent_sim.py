@@ -29,8 +29,8 @@ from the text, not from that code)
       attempt cell attemptProbabilityByRuleset[frame] null -> dropped;  <= 0 -> dropped;
       no /attacker node -> dropped;  ROLE: tech.fromRole == role (never relaxed);
       no rate in this frame (successRateByRuleset[frame] null) -> dropped;
-      ORIGIN: tech.fromPositionId == hub, relaxed to the role-filtered set ONLY when it would
-      empty the hand.
+      ORIGIN: tech.fromPositionId == hub, or the position edge carries dealHere (the listing-level
+      dealing rule), relaxed to the role-filtered set ONLY when it would empty the hand.
     A card is drawn with probability proportional to its attempt cell.
   * THEIR turn while I stand at r: they stand at flip(r) and draw from flip(r)'s hand.
   * a card succeeds with p = successRate/100 (the folded scalar on the /attacker node); the branch
@@ -259,7 +259,9 @@ class Tables:
                     self.stats["scalar_rate_missing_used_frame_cell"] += 1
                     sr = rb[frame]
                 cands.append((att, t, cat, tech, float(sr) / 100.0))
-            same = [c for c in cands if c[3].get("fromPositionId") == hub]
+            # ORIGIN, or a listing flagged `dealHere` (the listing-level dealing rule, v1.211.0) -
+            # written from the position edge's own field, not imported from build_hand.
+            same = [c for c in cands if c[3].get("fromPositionId") == hub or c[1].get("dealHere") is True]
             if same:
                 use = same
             else:

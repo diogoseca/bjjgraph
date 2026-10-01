@@ -153,7 +153,9 @@ position -> technique -> original position is not a technique self-loop.
 - A position attempt's emitted `target` names the technique's base slug. Consumers select its
   attacker role node to read the exchange; the base reference does not give the hub edges.
 - `from_position` becomes structured origin metadata such as `fromPositionId` and `fromRole`.
-  It is not an additional outcome edge.
+  It is not an additional outcome edge. Every dealer (`build_hand`, `_mdp_mechanics`, `optionsFor`)
+  deals a listed technique only there, or where the listing carries `deal_here`: graph.json
+  `dealHere` on the position edge, the wire's `alsoFrom` posIds on the technique.
 - Submission family hubs are reference aggregators, not playable technique occurrences.
 
 The intended topology is:

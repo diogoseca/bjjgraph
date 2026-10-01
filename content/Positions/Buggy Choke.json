@@ -854,43 +854,43 @@
       {
         "transition": "Sit to Half Guard",
         "attempt_probability": {
-          "gi": 20,
-          "nogi": 22
+          "gi": 21,
+          "nogi": 23
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 14
+          "gi": 14,
+          "nogi": 15
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
         "transition": "Turn In and Face",
         "attempt_probability": {
-          "gi": 16,
-          "nogi": 17
+          "gi": 17,
+          "nogi": 18
         }
       },
       {
         "transition": "Turtle to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 14,
+          "nogi": 13
         }
       },
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {
@@ -898,13 +898,6 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 9
-        }
-      },
-      {
-        "transition": "Elbow Escape to Guard",
-        "attempt_probability": {
-          "gi": 5,
-          "nogi": 6
         }
       }
     ],

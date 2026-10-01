@@ -113,8 +113,8 @@ This technique serves as a cornerstone of modern half guard systems, providing a
 
 This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage. When the opponent defends the lumberjack sweep, they expose themselves to deep half entries, kimura attacks on posted arms, and back takes through the dogfight position, making the sweep threat valuable even when not completed.
 
-**From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 29%
+**From Position**: [[Positions/Seated Guard]] (Bottom)
+**Success Rate**: 36%
 
 </section>
 
@@ -160,9 +160,10 @@ This sweep integrates seamlessly with other half guard attacks, forming part of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 60% |
-| Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 19% |
+| Success | [[Positions/Side Control]] | 14% |
+| Failure | [[Positions/Seated Guard]] | 51% |
+| Counter | [[Positions/Front Headlock]] | 16% |
 
 
 </section>

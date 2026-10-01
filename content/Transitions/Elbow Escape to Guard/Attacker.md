@@ -16,7 +16,7 @@ description: "How to execute Elbow Escape to Guard in BJJ. Step-by-step attackin
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Elbow Escape to Guard in BJJ",
-  "description": "Step-by-step guide for executing Elbow Escape to Guard from Buggy Choke/Bottom.",
+  "description": "Step-by-step guide for executing Elbow Escape to Guard from Side Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -215,7 +215,7 @@ The escape works by using your near-side elbow as a wedge against the opponent's
 
 This technique is particularly valuable because it maintains a defensive posture throughout the escape sequence, minimizing risk of transitioning to worse positions like back control or crucifix. The escape naturally flows into open guard rather than requiring you to fight through multiple transitional positions. For practitioners facing skilled buggy choke attacks, developing proficiency in this escape is essential for building a complete turtle defense system that doesn't rely solely on preventing the initial grip establishment.
 
-**From Position**: [[Positions/Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -299,9 +299,11 @@ This technique is particularly valuable because it maintains a defensive posture
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 58% |
-| Failure | [[Positions/Buggy Choke]] | 30% |
-| Counter | [[Positions/Side Control]] | 12% |
+| Success | [[Positions/Half Guard]] | 16% |
+| Success | [[Positions/Open Guard]] | 16% |
+| Success | [[Positions/Closed Guard]] | 8% |
+| Failure | [[Positions/Side Control]] | 44% |
+| Counter | [[Positions/Mount]] | 16% |
 
 
 </section>
@@ -394,10 +396,10 @@ This escape technique is relatively low-risk when executed properly, but practit
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard-Recovery Lesson Map</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Back Defense: Brian Glick&#x27;s Rear-Mount Study Guide</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Planning a BJJ Lesson</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Elbow Escape to Guard.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Priorities: Threat, Control and Score</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference for defensive decision study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Caio-Terra-Guard-Retention-System" data-cta="related-system-card" data-system-slug="systems/caio-terra-guard-retention-system" data-system-name="Caio Terra Guard Retention System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Caio Terra: Guard Recovery</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition reference for guard-recovery study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Defense-Protocol" data-cta="related-system-card" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Brian Glick: Dynamic Back Escapes</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference for rear-mount escape study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Teaching-Methodology-Framework" data-cta="related-system-card" data-system-slug="systems/teaching-methodology-framework" data-system-name="Teaching Methodology Framework" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Teaching BJJ: Explanation, Recall and Application</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition reference: Elbow Escape to Guard.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Training Methodology</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Defensive-Prioritization-Framework" data-cta="related-system-card" data-system-slug="systems/defensive-prioritization-framework" data-system-name="Defensive Prioritization Framework" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Defensive Priorities Under IBJJF Rules</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related transition reference for defensive decision study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Danaher-Pin-Escape-Fundamentals-System" data-cta="related-system-card" data-system-slug="systems/danaher-pin-escape-fundamentals-system" data-system-name="Danaher Pin Escape Fundamentals System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Pin Escapes and Turtle Escapes</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related transition reference for positional escape study.</span><span class="system-card__chips"><span class="system-card__chip">Beginner</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 

@@ -464,7 +464,7 @@
       {
         "transition": "Scissor Sweep",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 12,
           "nogi": 7
         }
       },
@@ -472,7 +472,7 @@
         "transition": "Triangle Setup",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
@@ -669,13 +669,6 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 5
-        }
-      },
-      {
-        "transition": "Balloon Sweep",
-        "attempt_probability": {
-          "gi": 1,
-          "nogi": 1
         }
       },
       {

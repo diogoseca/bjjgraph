@@ -7,7 +7,7 @@ Outputs (into source/quartz/static/neural/, mirroring how globalGraphLayout.json
 generated+committed static asset):
   - graph-data.json : {nodes, links, toTab, evLam, evFrame} — a reshape of source/quartz/static/globalGraphLayout
     .json (the visual projection) into the Neural app's node shape
-    {id,x,y,t,ty,s,fromPositionId,fromRole,posId?,o,cal?} with null keys omitted. Each node
+    {id,x,y,t,ty,s,fromPositionId,alsoFrom?,fromRole,posId?,o,cal?} with null keys omitted. Each node
     is additionally enriched with the calibrated numbers from graph.json: for technique
     nodes successRate + successRateByRuleset (differing frames only) + outcomes as
     [toTabIdx, probability, s|f|c] tuples — slot 0 is an INDEX into the top-level `toTab`
@@ -450,6 +450,19 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                     break
             return e
 
+    # THE LISTING-LEVEL DEALING RULE (v1.211.0). A listing flagged `deal_here` (graph.json
+    # `dealHere`) deals its technique at that position although the technique's origin is
+    # elsewhere. The wire carries it on the TECHNIQUE as `alsoFrom`, the posIds where that
+    # happens, compared as strings against a position's `posId` exactly like `fromPositionId`
+    # (no index join, CLAUDE.md 6.6). Readers: optionsFor and the ingest link-member choice
+    # (app.src.jsx), _mdp_mechanics.Projection, semantics/app_game.py.
+    deal_here_at = {}
+    for pk, pnode in graph.get("positions", {}).items():
+        for t in pnode.get("transitions", []) or []:
+            if t.get("dealHere") is True:
+                deal_here_at.setdefault(t.get("target"), set()).add(pnode.get("hub") or pk.rsplit("/", 1)[0])
+    deal_here_joined = 0
+
     nodes = []
     for n in layout["nodes"]:
         ty = SECTION_TY.get(n["id"].split("/", 1)[0].lower(), "positions")
@@ -484,6 +497,12 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         # `"fromPositionId":null` on 136 position hubs is pure wire weight. (`fromPosition`
         # is gone entirely — ingest never copied it and no graph-data consumer reads it.)
         node = {k: v for k, v in node.items() if v is not None}
+        if ty != "positions":
+            for c in _tech_keys(_slug_from_id(n["id"]), n.get("t")):
+                if c in deal_here_at:
+                    node["alsoFrom"] = sorted(deal_here_at[c])
+                    deal_here_joined += len(node["alsoFrom"])
+                    break
         cal = enrich(n["id"], ty, n.get("t"))
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
@@ -520,6 +539,16 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 f"successRate. graph.json keys techniques by slugify(<display name>); see "
                 f"_tech_keys. Refusing to emit a wire whose odds would be fabricated."
             )
+
+    # Every `dealHere` listing must reach the wire: a dropped one is a card the corpus deals and
+    # the app silently does not. Exact, both ways, printed every run (zero included).
+    _dh_want = sum(len(v) for v in deal_here_at.values())
+    print(f"  deal_here: {deal_here_joined}/{_dh_want} listing(s) carried to the wire as alsoFrom")
+    if deal_here_joined != _dh_want:
+        raise SystemExit(
+            f"[neural] deal_here join lost {_dh_want - deal_here_joined} listing(s): graph.json "
+            f"flags {sorted(deal_here_at)} but the layout join found only {deal_here_joined}. "
+            f"Refusing to emit a wire that deals a different hand than graph.json.")
 
     # ── AVAILABILITY COVERAGE, PRINTED EVERY RUN ────────────────────────────────────────────
     # `avail` is the only thing that removes a node from a ruleset, so an empty or all-true table

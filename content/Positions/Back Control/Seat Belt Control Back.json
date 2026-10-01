@@ -335,7 +335,8 @@
         "attempt_probability": {
           "gi": 17,
           "nogi": 17
-        }
+        },
+        "deal_here": true
       },
       {
         "transition": "Body Triangle Lock",

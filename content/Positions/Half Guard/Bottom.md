@@ -21,7 +21,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Knee Shield Retention",
-      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {

@@ -16,7 +16,7 @@ description: "How to execute the Balloon Sweep from Closed Guard in BJJ. Attacki
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Balloon Sweep in BJJ",
-  "description": "Step-by-step guide for executing Balloon Sweep from Closed Guard/Bottom.",
+  "description": "Step-by-step guide for executing Balloon Sweep from Feet on Hips Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -228,7 +228,7 @@ description: "How to execute the Balloon Sweep from Closed Guard in BJJ. Attacki
 
 The Balloon Sweep is executed from closed guard bottom by combining an explosive upward hip extension with a coordinated upper body pull to vertically displace and sweep the opponent to mount. The technique exploits the opponent's forward pressure by loading their weight onto a butterfly hook or posting foot, then launching them over your center line with a synchronized lift-and-pull motion. Unlike lateral sweeps that require angular hip movement, the Balloon Sweep uses vertical displacement as its primary off-balancing mechanism, making it uniquely effective against opponents who maintain strong low bases and resist traditional sweep directions. Mastery of this technique requires developing sensitivity to weight distribution, precise timing of the explosive phase, and the ability to maintain upper body control throughout the entire sweeping arc into the mount transition.
 
-**From Position**: [[Positions/Closed Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -325,9 +325,11 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 58% |
-| Failure | [[Positions/Closed Guard]] | 27% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 36% |
+| Success | [[Positions/Side Control]] | 7% |
+| Failure | [[Positions/Feet on Hips Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 11% |
+| Counter | [[Positions/Half Guard]] | 11% |
 
 
 </section>
@@ -428,7 +430,7 @@ When practicing the Balloon Sweep, ensure controlled execution during the explos
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Branches</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

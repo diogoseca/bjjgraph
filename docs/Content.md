@@ -217,7 +217,7 @@ configuration in the current corpus uses it.
 | State properties | `point_value`, `position_type`, `risk_level`, `energy_cost`, `time_sustainability` |
 | Configuration and entry | `state_invariants` with anatomical detail, plus `prerequisites` |
 | Instruction | `key_principles`, `decision_tree`, `common_errors`, `training_drills` |
-| Choices | `transitions[]` entries with `transition` and `attempt_probability` |
+| Choices | `transitions[]` entries with `transition` and `attempt_probability`, plus `deal_here` on a coherent away-from-origin listing (below) |
 | Related material and metrics | Role `related_content` and `position_metrics`; root related fields vary by template |
 | Variants | FAMILY adds `variations`; use the real variant names and slugs |
 
@@ -229,6 +229,15 @@ uniform count across all positions.
 
 A position's choice list can reference a transition or a submission attempt. Match the technique's
 canonical origin and performing role. Do not add a technically invalid move to satisfy a list size.
+
+**The game deals a listed technique only at its canonical origin.** A listing at another position
+of the same role is authored and shown, but never dealt there, unless it carries
+`"deal_here": true`. Set that only where the technique's outcome table lands coherently from the
+listing: a miss must not put the pair back at the technique's origin, a place they never were
+(`validate:graph` rejects a `deal_here` whose miss branch puts at least half its mass there, one on
+the origin itself, and one on the wrong seat). Where a generic move needs a different table from a
+listing, `deal_here` is not the fix. The per-listing outcome tables are the fix (see
+`calibration/listing_tables.json`).
 
 ### Transitions and Submission Attempts
 

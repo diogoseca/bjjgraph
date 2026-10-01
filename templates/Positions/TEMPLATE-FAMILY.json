@@ -426,6 +426,10 @@
                 "type": "string",
                 "description": "Name of the transition technique (must exist as Transition JSON)"
               },
+              "deal_here": {
+                "const": true,
+                "description": "Deal this listing HERE although the technique's canonical origin (its from_position) is another position. Without it the game deals a technique only at its origin, so an away listing is never dealt. Set only where the technique's authored outcome table lands coherently from here (a miss does not teleport the pair to the origin), as ruled by the origin-coherence panel (calibration/origin_coherence.json). Omit it otherwise; false is not a value."
+              },
               "attempt_probability": {
                 "oneOf": [
                   {
@@ -850,6 +854,10 @@
               "transition": {
                 "type": "string",
                 "description": "Name of the transition technique (must exist as Transition JSON)"
+              },
+              "deal_here": {
+                "const": true,
+                "description": "Deal this listing HERE although the technique's canonical origin (its from_position) is another position. Without it the game deals a technique only at its origin, so an away listing is never dealt. Set only where the technique's authored outcome table lands coherently from here (a miss does not teleport the pair to the origin), as ruled by the origin-coherence panel (calibration/origin_coherence.json). Omit it otherwise; false is not a value."
               },
               "attempt_probability": {
                 "oneOf": [
