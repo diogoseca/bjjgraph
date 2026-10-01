@@ -142,9 +142,11 @@ def _frame_attempt(t, frame: str):
 def _frame_positive(t, frame: str) -> bool:
     """True if this position edge is attempted in `frame` (attemptProbability > 0).
 
-    MODULE SCOPE ON PURPOSE. Two readers ask this question now — `tech_avail` below (which drives
-    the app's `giAllows`) and `validate_score_coverage.frame_avail_by_deck` (which sizes what the
-    score can see). When one question is answered in two places one of them is already wrong.
+    MODULE SCOPE ON PURPOSE. `validate_score_coverage.frame_avail_by_deck` (which sizes what the
+    score can see) asks it. `tech_avail` below used to, through `frame_reachable`'s listing walk;
+    since v1.207.0 that walk reads `solve_edge_values.build_hand`, which applies this same test
+    (a null cell drops the card, a zero cell is never dealt) and then the role and origin filters.
+    When one question is answered in two places one of them is already wrong.
     """
     v = _frame_attempt(t, frame)
     return v is not None and v > 0
@@ -160,9 +162,10 @@ ROLL_SEEDS = ("standing-position/top", "standing-position/bottom")
 # columns mean different things, because the per-frame zeros they stand on were written for
 # different reasons:
 #
-#   no-gi — EQUIPMENT. All 104 techniques and 18 role-nodes it isolates trace to cloth: a lapel
-#           threaded through a leg, four fingers inside a collar. No garment, no state. Absence is
-#           the only honest rendering.
+#   no-gi — EQUIPMENT. All 124 techniques and 22 role-nodes it isolates trace to cloth: a lapel
+#           threaded through a leg, four fingers inside a collar, both sleeves gripped (Spider and
+#           Double Sleeve Guard joined at v1.209.0, when the walk began dealing by origin; it was
+#           104 and 18). No garment, no state. Absence is the only honest rendering.
 #   gi    — LEGALITY. All 21 are the heel-hook family plus kneebar/aoki/buggy, zeroed because
 #           IBJJF bans them, and several of their own `availability_rulings` say so conditionally
 #           ("sub-only/ADCC-gi voices keep a floor of 1"). That is a choice about which gi ruleset
@@ -214,19 +217,42 @@ def frame_reachable(graph: dict, frame: str) -> dict:
     mechanism because the mechanism is about edges, not about why an edge is zero; whether gi mode
     should hide them is a ruleset-policy choice, not a fact about a garment.
 
-    Cost: two BFS passes over ~1.5k nodes at build time, ~10ms. Not memoised on purpose — it is
-    called twice, once per frame.
+    THE WALK DEALS WHAT THE GAME DEALS (v1.207.0, owner ruling on GraphSemantics §10 item 6: "yes
+    hide them"). Until then a position led to every technique it LISTED, whatever that
+    technique's `fromRole` and `fromPositionId`, while the game (`solve_edge_values.build_hand`,
+    and the app's `optionsFor`) deals a listed card only to its own role at its canonical origin,
+    relaxing origin (never role) when that would empty the hand. The two disagreed at exactly one
+    door: Tripod Sweep, authored FROM Spider Guard, is listed at open guard and six other no-gi
+    guards, so the listing walk reached it there and followed its miss cells into Spider Guard and
+    Double Sleeve Guard, both seats, which no no-gi exchange produces (a teleport, docs/
+    GraphSemantics.md §7). The game never deals it there. Walking `build_hand` itself makes
+    the walk and the game ONE answer instead of two copies of one question (CLAUDE.md §6.5).
+    Measured on the v1.206.2 graph: the walk's position set equals the semantics kernel's reachable
+    set in both frames (244 no-gi / 266 gi role-nodes; `python3 -B scripts/semantics/_kernel.py
+    --selfcheck` asserts the subset half on every run). On that graph it also found the 41 no-gi
+    orphans — techniques listed only away from their origin, which the game deals nowhere — so the
+    same change lists each one at its origin (`calibration/origin_coherence.json`); without that,
+    this walk would have hidden all 41 in no-gi.
+
+    Cost: two BFS passes over ~1.5k nodes plus one `build_hand` per role-node at build time,
+    well under a second. Not memoised on purpose — it is called twice, once per frame.
     """
+    from solve_edge_values import Opts, build_hand   # the game's own dealing rule, not a copy
+
     positions = graph.get("positions", {})
-    out = {}
+    opts = Opts(frame=frame)
+    out, dealt = {}, 0
     for key, node in positions.items():
         if node.get("role") not in ("top", "bottom"):
             continue
-        dst = out.setdefault(key, set())
-        for t in (node.get("transitions") or []):
-            tgt = t.get("target")
-            if tgt and _frame_positive(t, frame):
-                dst.add("T:" + tgt)
+        hand = build_hand(graph, key, opts)[0]
+        out[key] = {"T:" + a.target for a in hand}
+        dealt += len(hand)
+    # A walk that deals nothing reaches only its seeds and reports EVERYTHING unavailable, which is
+    # what a clean run looks like from the outside (CLAUDE.md §6.6): the count must be positive.
+    if not dealt:
+        raise SystemExit(f"[regenerate_neural_data] frame_reachable({frame}): build_hand dealt 0 "
+                         f"cards over {len(out)} role-nodes — refusing an empty walk")
     for section in ("transitions", "submissions"):
         for node in graph.get(section, {}).values():
             hub = node.get("hub")
@@ -525,7 +551,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                          f"longer agree for {len(pos_aka) - _aka_n} of them.")
 
     # A position's wire node is a HUB — one `avail` for both seats. That is only sound while the
-    # seats agree. They do today (9 cloth guards, 18 role-nodes, always in pairs); if one ever
+    # seats agree. They do today (11 cloth guards, 22 role-nodes, always in pairs); if one ever
     # splits, the OR above would silently re-admit the unreachable seat, so refuse instead.
     _seats = {}
     for _key, _node in graph.get("positions", {}).items():

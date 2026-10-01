@@ -289,50 +289,50 @@
       {
         "transition": "Turtle to Back Control",
         "attempt_probability": {
-          "gi": 22,
-          "nogi": 22
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Chair Sit to Back",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 11
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
         "transition": "Front Headlock to Anaconda",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 8
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Front Headlock to Darce",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 10
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Crucifix from Turtle",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Turtle Flatten to Side Control",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
+          "gi": 13,
+          "nogi": 11
         }
       },
       {
         "transition": "Turtle to Truck Entry",
         "attempt_probability": {
-          "gi": 2,
-          "nogi": 4
+          "gi": 1,
+          "nogi": 2
         }
       },
       {
@@ -345,22 +345,22 @@
       {
         "transition": "Turtle Attack Sequence",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
         "transition": "Turtle to Matrix",
         "attempt_probability": {
           "gi": 2,
-          "nogi": 3
+          "nogi": 2
         }
       },
       {
         "transition": "Turtle to Rodeo Ride",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
@@ -373,7 +373,7 @@
       {
         "transition": "Clock Choke",
         "attempt_probability": {
-          "gi": 11,
+          "gi": 10,
           "nogi": null
         }
       },
@@ -387,14 +387,14 @@
       {
         "transition": "Kimura from Turtle",
         "attempt_probability": {
-          "gi": 4,
-          "nogi": 4
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Loop Choke from Turtle",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": null
         }
       },
@@ -417,6 +417,55 @@
         "attempt_probability": {
           "gi": 1,
           "nogi": 1
+        }
+      },
+      {
+        "transition": "Anaconda from Turtle",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 8
+        }
+      },
+      {
+        "transition": "Darce from Turtle",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 9
+        }
+      },
+      {
+        "transition": "Guillotine from Turtle",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 4
+        }
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Truck Entry",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "Turtle to Back Take",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      },
+      {
+        "transition": "Turtle to Truck",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
         }
       }
     ],
@@ -798,36 +847,36 @@
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 13
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 15
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Turtle to Standing",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 14
+          "gi": 10,
+          "nogi": 13
         }
       },
       {
         "transition": "Rolling to Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 11
+          "gi": 10,
+          "nogi": 7
         }
       },
       {
         "transition": "Forward Roll",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
@@ -840,22 +889,50 @@
       {
         "transition": "Sit Through to Guard",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 13
+          "gi": 14,
+          "nogi": 12
         }
       },
       {
         "transition": "Peterson Roll",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
         "transition": "Sit Out from Turtle",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 15
+          "gi": 14,
+          "nogi": 14
+        }
+      },
+      {
+        "transition": "Granby to Closed Guard",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Standing up in Base",
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
+      },
+      {
+        "transition": "Technical Stand Up to Single Leg",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Turtle to Guard",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 4
         }
       }
     ],

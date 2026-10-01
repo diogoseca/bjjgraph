@@ -60,6 +60,30 @@ Along the way the cell measured four things the owner should know:
 Nothing in the app, content or probabilities changed. §10 lists the owner's decisions, each with its
 measured consequence.
 
+> **Status since v1.209.0: items 4 and 6 ruled and shipped.** Everything below this box, and every
+> artifact under `tests/artifacts/semantics/`, still describes the v1.206.2 graph (each artifact
+> records that graph's sha256, so it now reads STALE). The re-measured headline, on v1.209.0:
+> - **Item 4.** Each origin-orphaned technique is listed at its canonical origin. The attempt
+>   shares come from an LLM persona panel, one independent round, which is not expert data
+>   (`calibration/origin_coherence.json`, `scripts/apply_origin_coherence.py`). Orphans: 41 → 2 in
+>   no-gi, 40 → 0 in gi. The two left, Tripod Sweep and Leg Extraction from Lapel Wrap, are listed
+>   only inside guards no-gi does not have. The 13 coherent away-from-origin listings are NOT yet
+>   restored: the panel would restore 8, and doing so needs a listing-level dealing rule that the
+>   full game's projection must mirror.
+> - **Item 6.** `frame_reachable` now walks the hands `build_hand` deals, so the no-gi walk reaches
+>   the game's 244 role-nodes (it reached 248). Spider Guard and Double Sleeve Guard are hidden in
+>   no-gi, both seats, with 20 techniques: 124 techniques and 22 role-nodes excluded, up from 104
+>   and 18.
+> - **What moved.** From standing, no-gi, P(I finish) 0.5529 → 0.5533 under the player-neutral
+>   rule, 0.7225 → 0.7237 under the shipped rule, and 0.3489 → 0.3440 in the app's game. The
+>   finisher law moved by TV 0.035 (player-neutral) and 0.037 (shipped). Leg locks end 8.1% of
+>   rolls from standing (was 6.6%); leg-lock territory is 21 positions (aoki-lock control drops
+>   out), and its share is 39.0% (was 38.0%). The origin filter drops 47.8% of role-matching
+>   no-gi attempt points (was 48.4%). Flow compression still finds 40 modules.
+> - Recompute: `python3 -B scripts/semantics/_kernel.py --structure`,
+>   `python3 -B scripts/semantics/flux.py --origin --out <dir>/flux_origin.json`,
+>   `python3 -B scripts/semantics/app_game.py`.
+
 ---
 
 ## 1. The object

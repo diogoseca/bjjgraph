@@ -778,14 +778,14 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 4
+          "nogi": null
         }
       },
       {
         "transition": "Shin-to-Shin Sweep",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 13
+          "nogi": 17
         }
       },
       {

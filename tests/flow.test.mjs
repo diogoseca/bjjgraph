@@ -108,9 +108,10 @@ test("the JS kernel scores the same deck set as the Python reference", () => {
 
 // 0.03, not 0.01, and the reason IS rounding: the wire's attempt shares are whole percents.
 //
-// MEASURED on v1.205.2 (re-measured when the graph-semantics research landed as v1.206.0):
-//     js  V0 0.0773294  (this file's own ingest + ngFlowAdjoint)
-//     py  V0 0.0755266  (REF.v0, solve_flow.py on graph.json)          rel 2.387%
+// MEASURED on v1.209.0 (origin coherence: the 41 orphaned techniques listed at their origins):
+//     js  V0 0.0783785  (this file's own ingest + ngFlowAdjoint)
+//     py  V0 0.0768745  (REF.v0, solve_flow.py on graph.json)          rel 1.956%
+//   It was js 0.0773294 / py 0.0755266, rel 2.387%, from v1.205.2 to v1.208.2.
 //   - The JS value IS the authored kernel with each state's attempt shares rounded to whole
 //     percents exactly as the emitter rounds them: equal to 1.4e-17. That the wire's shares are
 //     exactly those rounded shares is checked over 1,217 cards (max |diff| 0).
@@ -142,7 +143,25 @@ test("V0 agrees with the reference within the wire's own rounding", () => {
 test("the RANKING is exact: same top 40, same order at the top", () => {
   const jsOrder = [...K.deckKeys].sort((a, b) => RUN.grad[K.deckIdx.get(b)] - RUN.grad[K.deckIdx.get(a)]);
   const pyOrder = [...REF.decks].sort((a, b) => PY.get(b) - PY.get(a));
-  assert.deepEqual(jsOrder.slice(0, 40).sort(), pyOrder.slice(0, 40).sort(), "top-40 set");
+  // THE TOP-40 SET, UP TO A NEAR-TIE THE WIRE'S ROUNDING CAN FLIP. The wire carries each dealt share
+  // as a whole percent and Python reads the exact share, so two decks within that rounding of each
+  // other at rank 40 may swap. Measured on v1.209.0: `Arm Extraction|Attacker` is py 40 / js 42 and
+  // `Triangle Choke from Open Guard|Attacker` js 40 / py 42, every gradient involved within 4.5% of
+  // the other side and of the line. Until then the sets were identical, which was a fact about where
+  // the near-ties happened to fall, not about the kernel. A deck may therefore cross the line only if
+  // its two gradients agree to the magnitude test's own 5% band below AND it sits within 5% of the
+  // 40th value on both sides. MUTATION: halving any one top-30 reference gradient drops that deck out
+  // of the py top 40 with a 100% disagreement, and this goes red.
+  const g40 = { js: RUN.grad[K.deckIdx.get(jsOrder[39])], py: PY.get(pyOrder[39]) };
+  const jsTop = new Set(jsOrder.slice(0, 40)), pyTop = new Set(pyOrder.slice(0, 40));
+  const strays = [...jsTop].filter((d) => !pyTop.has(d)).concat([...pyTop].filter((d) => !jsTop.has(d)));
+  assert.ok(strays.length <= 4, `top-40 sets differ by ${strays.length} decks: ${strays.join(", ")}`);
+  for (const d of strays) {
+    const j = RUN.grad[K.deckIdx.get(d)], p = PY.get(d);
+    const near = Math.abs(j - p) / Math.abs(p) <= 0.05
+      && Math.abs(j - g40.js) / Math.abs(g40.js) <= 0.05 && Math.abs(p - g40.py) / Math.abs(g40.py) <= 0.05;
+    assert.ok(near, `${d} crosses the top-40 line by more than a rounding near-tie (js ${j}, py ${p})`);
+  }
   assert.deepEqual(jsOrder.slice(0, 10), pyOrder.slice(0, 10), "top-10 order");
   // and the top is positions, which is the finding gameScore cannot see (it weights them 0)
   assert.ok(jsOrder.slice(0, 10).every((d) => d.endsWith("|Top") || d.endsWith("|Bottom")),

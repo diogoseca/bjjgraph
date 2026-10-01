@@ -27,7 +27,7 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {

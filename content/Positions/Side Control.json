@@ -539,35 +539,35 @@
       {
         "transition": "Elbow Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Frame and Shrimp to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 12
+          "gi": 12,
+          "nogi": 11
         }
       },
       {
         "transition": "Bridge and Roll",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 8
         }
       },
       {
         "transition": "Side Control Escape",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 8
         }
       },
@@ -588,22 +588,22 @@
       {
         "transition": "Turtle from Side Control Bottom",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 7
+          "gi": 3,
+          "nogi": 3
         }
       },
       {
         "transition": "Frame from Side Control",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 13,
+          "nogi": 12
         }
       },
       {
         "transition": "Hip Escape from Side Control",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 10
+          "gi": 9,
+          "nogi": 9
         }
       },
       {
@@ -611,6 +611,27 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 4
+        }
+      },
+      {
+        "transition": "Arm Extraction",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Roll to Turtle",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Shrimp Escape",
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
         }
       }
     ],

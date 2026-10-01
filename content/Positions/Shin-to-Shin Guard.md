@@ -212,9 +212,9 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 
 - **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (5% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (4% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (gi only)
 
-- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (13% of attempts)
+- **[[Transitions/Shin-to-Shin Sweep/Attacker|Shin-to-Shin Sweep]]** (17% of attempts)
 
 - **[[Transitions/Shin-to-Shin to Single Leg X/Attacker|Shin-to-Shin to Single Leg X]]** (22% of attempts)
 
