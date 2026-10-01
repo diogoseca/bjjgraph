@@ -9814,6 +9814,16 @@ difference.
   The kernel fed `build_hand`'s exact shares agrees in all four games: V0 0.00-0.02%, top-40 40/40,
   top-10 order exact. The Back Control ×0.8 mutant is still red.
 
+**`option-hand.spec.ts` compares the slope as it reaches the screen.**
+- The exact-tie rule demanded equal `c1`. But `c1` reaches the card only through
+  `(moveChance − p0)·c1`.
+- B2 deals Triangle from Mount at s-mount/top from its own table (`e0` −2, `c1` 13, factor −0.10),
+  beside S Mount Armbar Setup (`e0` −2, `c1` 10, factor −0.13). Both terms are −1.3, so both cards
+  print the same value from equal data, and the old rule went red on a correct build.
+- The rule now compares the term to 1e-9 (the two products differ in the last bit). It is the only
+  such tie in the corpus.
+- A flat `moveEdge` still turns it red, on the `e0` line.
+
 **Census.**
 - dual-consumers 1,221 → 1,316 cards carrying a mark;
 - option-overflow 17 → 18 and 11 → 12;

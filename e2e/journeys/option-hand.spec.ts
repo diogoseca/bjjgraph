@@ -57,6 +57,8 @@ const HANDS = `(() => {
           t: o.node.t, ty: o.node.ty, ord: o.ord, ordOdds: o.ordOdds,
           att: (o.ev && o.ev.att) || 0,
           e0: o.ev ? o.ev.e0 : null, c1: o.ev ? o.ev.c1 : null,
+          // the factor the slope reaches the screen through: moveEdge = e0 + (moveChance - p0)·c1 - shift
+          dp: (() => { const p0 = o.ev ? a._evP0(o.node) : null; return p0 == null ? null : a.moveChance(o.node) - p0 })(),
           raw: a.moveEdge(o), print: a.edgeMark(o) ? a.edgeMark(o).i : null,
         })),
         // permute the input and re-sort with the app's own comparator: an order that depends on
@@ -194,15 +196,31 @@ test("@curated the printed number is the number the hand was ranked by", async (
       ;(byRaw[String(c.raw)] = byRaw[String(c.raw)] || []).push(c)
       ;(byPrint[String(c.print)] = byPrint[String(c.print)] || []).push(c)
     }
+    // THE SLOPE IS COMPARED AS IT REACHES THE SCREEN (v1.216.0, origin coherence PR B2). moveEdge is
+    // e0 + (moveChance - p0)·c1 - shift, so c1 contributes only through its product with
+    // (moveChance - p0), and two DIFFERENT moves can reach the same product. The first case: B2 deals
+    // Triangle from Mount at s-mount/top from its own listing table (e0 -2, c1 13, moveChance - p0
+    // -0.10) beside S Mount Armbar Setup (e0 -2, c1 10, -0.13). Both terms are -1.3, both cards print
+    // the same raw value, and the data behind them is equal where the screen can see it. Asserting c1
+    // alone went red on that correct build (CLAUDE.md 6.3). The term is compared to 1e-9 because the
+    // two products differ in the last bit (-1.3 against -1.2999999999999998). The constant this test
+    // exists to catch still fails here: measured, a flat moveEdge (every card 1) goes red on the e0
+    // line at k-guard/top.
+    let slopeOnly = 0
     for (const k in byRaw) {
       const g = byRaw[k]
       if (g.length < 2) continue
       exactTies++
+      const term = (c: any) => (c.dp == null ? null : c.c1 * c.dp + 0)
       for (const c of g) {
         expect(c.e0, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire rows`).toBe(g[0].e0)
-        expect(c.c1, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire slopes`).toBe(g[0].c1)
+        const tc = term(c), t0 = term(g[0])
+        if (tc == null || t0 == null) expect(tc, `${h.st}: ${c.t} and ${g[0].t}: one has a slope term and one does not`).toBe(t0)
+        else expect(Math.abs(tc - t0), `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT slope terms (${tc} vs ${t0})`).toBeLessThan(1e-9)
+        if (c.c1 !== g[0].c1) slopeOnly++
       }
     }
+    if (slopeOnly) console.log(`[option-hand] ${h.st}: ${slopeOnly} exact tie(s) from different slopes with equal slope terms`)
     for (const k in byPrint) if (byPrint[k].length > 1) printTies++
   }
   expect(printed, "the corpus really does print EDGE").toBeGreaterThan(900)
