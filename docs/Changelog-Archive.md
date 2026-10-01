@@ -9040,3 +9040,40 @@ positive count requires a fitting hand at the desktop widths.
 |---|---|
 | fix line removed (= the pre-fix build) | red at 1440 and 1024; 390 cannot see it (every hand overflows there) |
 | unsafe `center` | red at all three, but by a click timeout on the clipped card, not at the inset assertion |
+
+## v1.213.2 — THE TRAY PADS ITS LAST CARD AND FADES ONLY TOWARD HIDDEN CARDS (2026-10-01)
+
+**Owner:** "after scrolling to the rightmost node, there should be some padding at the end, and no
+darkened fading since we reached the end".
+
+**Three defects in one row.**
+- *Trailing padding.* The template gives the row `padding: 8px 24px`. `clearOptions` wrote
+  `paddingRight = ""`, which deletes that inline declaration rather than restoring it (CLAUDE.md §6.1).
+  Until v1.94.0 `updateUiShift` rewrote `paddingRight` every frame, so the deletion was harmless. When
+  the pane moved left it switched to `paddingLeft`, and nothing wrote the right side again. Measured at
+  1440: the last card ended 0 px from the edge. (390 kept 12 px through the phone stylesheet's
+  `!important`.) `updateUiShift` now writes both insets from one value (`NG_TRAY_INSET`), the pane's
+  reserve on the left only, and `clearOptions` no longer deletes them.
+- *The fade* was one constant `mask-image` on both edges: the last card stayed darkened at the end,
+  the first at the start, and a hand that fits was faded too. It is now earned, the
+  `.ng-stabs[data-fade]` idiom. `_syncTrayFade` writes `data-fade` (`l`, `r`, both or absent) from the
+  live scroll position on every `scroll` event, so every writer of `scrollLeft` is covered. It also
+  runs on every deal and every `updateUiShift` frame, so a new hand, a moved inset or a resize is
+  covered.
+- *The glide stalled short of the end* (found by the new journey): `_trayGlideBy` eased by 22 % of
+  the gap, the offset snaps to device pixels, and a sub-pixel step never moved it. The glide sat
+  1–2 px short of its target (4642 of 4644) with its rAF still running, so the right fade could never
+  lift. It now lands on the target.
+
+**Pinned by** `e2e/journeys/choice-row-ends.spec.ts`, at 1440 and 390. It reaches the right end by
+the wheel, the middle by a mouse drag, and the left end by focus. It asserts the trailing inset
+equals the measured leading inset, and reads the fade from the computed mask's two stop lengths.
+A fitting hand has no mask.
+
+| mutant | result |
+|---|---|
+| no `scroll` listener | red at the right end, both widths |
+| trailing inset unowned (old deletion, no writer) | red at 1440; 390 survives (`!important` padding) |
+| constant mask again | red at the left end and on the fitting hand |
+| end test off by one (`x <= max`) | red at the right end, both widths |
+| glide creeps again | red, both widths (the wheel never reaches the end) |

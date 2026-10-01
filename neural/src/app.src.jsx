@@ -30,6 +30,9 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 // exists ONLY while the fold is open (`_landMoreAlign`), where it right-aligns the ✕ past the
 // contents row; the collapsed pill is centred by this bar, exactly as it was before v1.194.0.
 const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;gap:12px;";
+// The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
+// added on the left only). The template's inline 24px is the same value for the first paint.
+const NG_TRAY_INSET = 24;
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
 // count line = 40px from the padding-box top; the question starts at the card's padding-top
@@ -459,6 +462,19 @@ class Component extends DCLogic {
   // the hand is holding feels like lag, not smoothness. One rAF owns all of it, so a new gesture
   // simply cancels the old one and nothing can fight for `scrollLeft`.
   _trayStop() { if (this._trayRaf) { cancelAnimationFrame(this._trayRaf); this._trayRaf = 0; } this._trayTo = null; }
+  // THE FADE FOLLOWS THE SCROLL (v1.213.2). An edge fades only while a card is hidden past it, and
+  // a hand that fits fades on neither side (helmet.html `.ng-optionrow[data-fade]`). Called from the
+  // row's `scroll` event — which every writer of scrollLeft fires: the wheel glide, the drag, its
+  // fling, a focus scroll, the touch platform's own — and from the deal and every `updateUiShift`
+  // frame, because a new hand, a moved inset or a resize changes the overflow without scrolling.
+  // Writes only on a change, so the per-frame call is a read.
+  _syncTrayFade() {
+    const row = this.optionsRef.current; if (!row) return;
+    const max = row.scrollWidth - row.clientWidth, x = row.scrollLeft;
+    const sides = max > 1 ? [x > 1 ? "l" : "", x < max - 1 ? "r" : ""].filter(Boolean).join(" ") : "";
+    if ((row.getAttribute("data-fade") || "") === sides) return;
+    if (sides) row.setAttribute("data-fade", sides); else row.removeAttribute("data-fade");
+  }
   _trayClamp(el, x) { return Math.max(0, Math.min(el.scrollWidth - el.clientWidth, x)); }
   // wheel: accumulate onto a target and ease toward it, so consecutive notches compound into one
   // continuous move rather than a series of jumps.
@@ -470,7 +486,10 @@ class Component extends DCLogic {
       this._trayRaf = 0;
       if (this._trayTo == null) return;
       const gap = this._trayTo - el.scrollLeft;
-      if (Math.abs(gap) < 0.5) { el.scrollLeft = this._trayTo; this._trayTo = null; return; }
+      // LAND, DON'T CREEP (v1.213.2). The offset snaps to device pixels, so an eased step under one
+      // pixel never moves it: the glide used to stall 1-2px short of its target with the rAF still
+      // running — at the right end that kept the right fade on (measured 4642 of 4644 at 1440).
+      if (Math.abs(gap) < 0.5 || Math.abs(gap * 0.22) < 1) { el.scrollLeft = this._trayTo; this._trayTo = null; return; }
       el.scrollLeft += gap * 0.22;                   // exponential ease-out, ~150ms to settle
       this._trayRaf = requestAnimationFrame(step);
     };
@@ -680,6 +699,7 @@ class Component extends DCLogic {
       e.preventDefault();
       this._trayGlideBy(orow, d);
     }, { passive: false });
+    if (orow) orow.addEventListener("scroll", () => this._syncTrayFade(), { passive: true });
     // ── WHILE MORE IS OPEN, THE VERTICAL WHEEL SCROLLS THE SCREEN (v1.175.0, owner: "I have to
     // scroll the screen and what moves up is this new card … the land card and the videos
     // row") ── ONE document-level capture listener for the column's fixed siblings:
@@ -12903,8 +12923,17 @@ class Component extends DCLogic {
     this.uiShift = previous + (tgt - previous) * (1 - Math.exp(-dt / 0.4));
     if (Math.abs(tgt - this.uiShift) < 0.001) this.uiShift = tgt;
     const op = this.optionsRef.current;
-    // the pane anchors LEFT (v1.94.0), so the cards yield leftward padding, not rightward
-    if (op) op.style.paddingLeft = (24 + this._paneLayout().left).toFixed(1) + "px";
+    // the pane anchors LEFT (v1.94.0), so the cards yield leftward padding, not rightward.
+    // BOTH INSETS, ONE VALUE, THIS ONE WRITER (v1.213.2). Until the pane moved left this wrote
+    // paddingRight; afterwards nothing did, and `clearOptions`'s `paddingRight = ""` had DELETED the
+    // template's inline 24px (CLAUDE.md §6.1), so at desktop widths the last card sat flush against
+    // the edge (measured 0px at 1440). The trailing inset is the leading one without the pane's
+    // reserve; the phone stylesheet's `!important` 12px wins over both, symmetric too.
+    if (op) {
+      op.style.paddingLeft = (NG_TRAY_INSET + this._paneLayout().left).toFixed(1) + "px";
+      op.style.paddingRight = NG_TRAY_INSET + "px";
+      this._syncTrayFade();
+    }
     this._layoutLandHorizontal();
     // fade the legend out only while option cards actually overlap it; fade back in otherwise
     const leg = this.legendRef.current;
@@ -12944,7 +12973,7 @@ class Component extends DCLogic {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
     this._waitingSubmission = null;
-    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.removeAttribute("data-fade"); el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -13686,6 +13715,7 @@ class Component extends DCLogic {
     const touched = () => { this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
+    this._syncTrayFade();
     this.refreshChoiceValues();
   }
   previewStateChoice(opt, onPick) {
