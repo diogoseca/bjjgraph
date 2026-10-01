@@ -9120,3 +9120,59 @@ authored is one number across all six cards (≤ 1 for rounding). The > 8 bar is
 
 The only other journey that reads odds after URL boots, `landing-card.spec.ts`, compares within one
 boot, so its draw cancels.
+
+## v1.213.6 — A LATE CANCEL ACK NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGCANCEL1, 2026-10-01)
+
+**Found by the hardened hydration gate (FGHYD2).** Its new reason poll named a third "unavailable"
+class twice in 48 local runs of its own sequence: `worker-cancellation-deadline`.
+1. A restart cancels the solve in flight.
+2. The client gives the worker 1 s (mdp-client's default `cancellationGraceMilliseconds`) to
+   acknowledge.
+3. When the ack is late, the client terminates the worker, and the runtime HELD that for the
+   session, until Retry.
+The same class was the one failure left in FGRETRY1's storm runs (1 of 15).
+
+**Measured** (the page's view, post `cancel` → receive `cancelled`, with the client's 1 s timer
+stretched so that no long ack was cut off): 135 cancels, all acknowledged.
+- Desktop, unthrottled, solves cancelled at varied depths: max **1,675 ms**. 3 of 83 acks were over
+  1 s, and each of those healthy workers would have been killed.
+- A corpus hydration's cancels: max 951 ms.
+- The page's main thread was idle in the first scenario, so the long acks are the worker's own
+  synchronous stretches.
+- CDP's 4× CPU throttle does **not** slow a dedicated worker. Acks under it maxed at 121 ms, and
+  FGHYD1's hand-to-values time at 4× matched 1×. So a 4×-slower phone is estimated as the desktop
+  worst × 4, about **6.7 s**.
+
+**The fix, two halves.**
+1. **`NG_GAME_VALUE_CANCEL_GRACE_MS` = 10 s,** ~1.5× that estimate, passed to the client, with the
+   measurement at its definition. A hung worker still dies within 10 s, and the 30 s computation
+   deadline remains the backstop.
+2. **A worker killed by a deadline** (registration, snapshot, cancellation or computation) **is
+   replaced lazily on the next request,** at most `NG_GAME_VALUE_WORKER_RECOVERIES` = 2 times per
+   runtime.
+   - `resetClient` already retired every request and made the transport lazy; only the runtime's
+     `held` stood in the way.
+   - A crash (`worker-error`) is still held at once, and so is a deadline once the bound is spent.
+   - Retry installs a fresh runtime with a fresh bound.
+   - This deliberately reverses the old unit contract "does not recreate a worker in a retry loop".
+     A loop is still impossible, because the replacement is bounded.
+
+**Gates.**
+- **New core journey, `game-value-cancel-ack.spec.ts`,** 3× green. It delays the page-side delivery
+  of the worker's `cancelled` ack, which is exactly what the grace timer measures, and each test
+  asserts that a cancel was posted and its ack really was delayed:
+  - an ack 5.5 s late (inside 10 s, above the old 1 s): the worker is never replaced, and values
+    arrive;
+  - an ack 11.5 s late: the client terminates the worker, exactly one fresh worker is created, and
+    values arrive with one recovery spent.
+- **Journey mutants on the built `game-values.js`, both killed:**
+  - the grace back to 1 s: test 1 sees 2 workers, not 1;
+  - no recovery: test 2's fresh worker never comes.
+- **Unit tests** (`game_value_runtime`):
+  - deadline-killed workers are replaced lazily, twice, and the third deadline is held;
+  - a crash is held at once;
+  - the client receives the 10 s grace.
+- **Unit mutants, all killed:** no recovery; unbounded recovery; a crash recovered too.
+- **Suites:** units 1,169/1,169; the hydration gate 3/3; value journeys 73/73 (choice-value,
+  game-value-live, option-hand, momentum, gameplan-study-live, option-edge, start-from,
+  dual-consumers, game-knowledge).

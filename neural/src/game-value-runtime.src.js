@@ -1,5 +1,23 @@
 // Deferred host installer. No import-time I/O, globals, graph capture or solver.
 let ngGameValueInstanceSerial = 0;
+// How many deadline-killed workers one runtime replaces before it holds the failure (see onTerminated).
+// Two: one late worker is a slow moment and two in a row may be a slow device, but a third deadline
+// means the solve does not fit this device, and an endless replace loop would burn its battery.
+const NG_GAME_VALUE_WORKER_RECOVERIES = 2;
+// How long the worker gets to ACKNOWLEDGE a cancel before the client calls it hung and terminates it
+// (mdp-client's default is 1 s). Set from a MEASUREMENT (FGCANCEL1, 2026-10-01, dev a7bc58ce4), taken
+// as the page sees it, post `cancel` -> receive `cancelled`, with the client's 1 s timer stretched so
+// no long ack was cut off: 135 cancels, all acknowledged.
+//   - Desktop, unthrottled, solves cancelled at varied depths: max 1,675 ms. 3 of 83 acks were over
+//     1 s, and the 1 s grace would have turned each of those healthy workers into a dead one. A corpus
+//     hydration's cancels: max 951 ms. The page's main thread was idle in the first scenario, so the
+//     long acks are the worker's own synchronous stretches.
+//   - CDP's 4x CPU throttle does not slow a dedicated worker: acks under it maxed at 121 ms, and
+//     FGHYD1's hand-to-values time at 4x matched 1x. So a 4x-slower phone is estimated as the desktop
+//     worst x 4, about 6.7 s.
+// 10 s is ~1.5x that estimate. A hung worker still dies within 10 s and is replaced (onTerminated),
+// and the 30 s computation deadline remains the backstop.
+const NG_GAME_VALUE_CANCEL_GRACE_MS = 10000;
 function ngGameValueRuntimeError(reason) { const e = new Error(reason); e.code = reason; return e; }
 function ngGameValueInstallRuntime(app, deps) {
   const model = deps.model, build = model.NG_GAME_VALUE_BUILD, identity = model.NG_GAME_VALUE_IDENTITY;
@@ -13,7 +31,7 @@ function ngGameValueInstallRuntime(app, deps) {
   const baseURL = base.href;
   const assetURL = (file) => new URL(file, baseURL).href;
   const manifestUrl = assetURL('mdp/manifest-' + build.manifestHash + '.json');
-  let dead = false, held = null, preparing = null, residency = null, registration = null;
+  let dead = false, held = null, preparing = null, residency = null, registration = null, recoveries = 0;
   const instanceId = 'game-values:' + (++ngGameValueInstanceSerial) + ':' + (deps.instanceId || deps.version) + ':' + deps.attempt;
   const status = (state, reason = null) => {
     if (dead || app.__ngDestroyed || app._choiceValueSource !== provider) return;
@@ -63,10 +81,24 @@ function ngGameValueInstallRuntime(app, deps) {
   const provider = model.ngGameValueCreateProvider({ instanceId, mdp: identity, knowledge: deps.knowledge,
     getRegistration: descriptor, getResidency, getProfile: owner => owner.knowledgeProfile(),
     createClient: () => model.ngMdpCreateClient(deps.createWorker(workerURL.href), {
+      cancellationGraceMilliseconds: NG_GAME_VALUE_CANCEL_GRACE_MS,
       onTerminated(reason) {
         if (dead || reason === 'destroyed') return;
-        held = ngGameValueRuntimeError(reason);
         provider.resetClient(reason);
+        // A WORKER KILLED BY A DEADLINE IS REPLACED, AT MOST NG_GAME_VALUE_WORKER_RECOVERIES TIMES
+        // (FGCANCEL1). A deadline (registration, snapshot, cancellation or computation) proves only that
+        // the worker was late, and a busy one on a slow phone is late without being broken. The
+        // cancellation grace even times the PAGE's main thread, which has to deliver the ack. Holding
+        // the failure cost Win chance for the session; the gate's own sequence hit it 2 times in 48
+        // local runs (FGHYD2). resetClient already retires every request and makes the transport lazy,
+        // so the refresh below IS the next request, and it creates a fresh worker. A crash
+        // (`worker-error`) is still held, and so is the next deadline once the bound is spent. Retry is
+        // the player's way out, and it installs a new runtime with a fresh bound.
+        if (/^worker-[a-z]+-deadline$/.test(reason) && recoveries < NG_GAME_VALUE_WORKER_RECOVERIES) {
+          recoveries++; app._gameValueRecoveries = recoveries;
+          status('preparing'); app.refreshChoiceValues(); return;
+        }
+        held = ngGameValueRuntimeError(reason);
         status('unavailable', reason); app.refreshChoiceValues();
       },
     }),

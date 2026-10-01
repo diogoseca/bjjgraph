@@ -70,13 +70,38 @@ test('failed preparation stays unavailable without automatic retry or loss of pi
   assert.throws(() => c.provider.capture(), /network down/); assert.equal(f.calls.filter(x => x === 'prepare').length, 1);
   assert.equal(f.app._optPick, pick);
 });
-test('hard termination retires provider and does not recreate a worker in a retry loop', async () => {
+// FGCANCEL1 reversed this contract on purpose. It used to read "hard termination retires provider
+// and does not recreate a worker in a retry loop": every deadline was held for the session. A
+// deadline now earns a replacement on the next request, bounded, so a loop is still impossible.
+// Only a crash (and an exhausted bound) is held.
+test('a deadline-killed worker is replaced on the next request, at most twice, then the failure is held', async () => {
   const f = fixture(), c = f.install(); await c.provider.prepare(f.app);
-  f.clientOptions.onTerminated('worker-computation-deadline');
-  assert.ok(f.calls.some(x => Array.isArray(x) && x[0] === 'reset'));
-  assert.throws(() => c.provider.capture(), /worker-computation-deadline/);
-  assert.equal(f.calls.filter(x => Array.isArray(x) && x[0] === 'worker').length, 1);
+  const workers = () => f.calls.filter(x => Array.isArray(x) && x[0] === 'worker').length;
+  assert.equal(workers(), 1);
+  for (const [i, reason] of ['worker-cancellation-deadline', 'worker-computation-deadline'].entries()) {
+    f.clientOptions.onTerminated(reason);
+    assert.ok(f.calls.some(x => Array.isArray(x) && x[0] === 'reset' && x[1] === reason));
+    assert.equal(f.app._gameValueState, 'preparing'); assert.equal(f.app._gameValueRecoveries, i + 1);
+    assert.equal(workers(), i + 1, 'replaced lazily: nothing is created until the next request');
+    assert.throws(() => c.provider.capture(), /root-metadata-pending/);
+    await new Promise(resolve => setImmediate(resolve));
+    assert.equal(workers(), i + 2, 'the next request created a fresh worker');
+    assert.ok(c.provider.capture().request);
+  }
+  f.clientOptions.onTerminated('worker-cancellation-deadline');
+  assert.equal(f.app._gameValueState, 'unavailable'); assert.equal(f.app._gameValueReason, 'worker-cancellation-deadline');
+  assert.throws(() => c.provider.capture(), /worker-cancellation-deadline/);
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(workers(), 3, 'the bound is spent: no fourth worker');
   c.destroy(); c.destroy(); assert.equal(f.calls.filter(x => x === 'destroy').length, 1);
+});
+test('a crashed worker is held at once: only a deadline earns a replacement', async () => {
+  const f = fixture(), c = f.install(); await c.provider.prepare(f.app);
+  f.clientOptions.onTerminated('worker-error');
+  assert.equal(f.app._gameValueState, 'unavailable'); assert.equal(f.app._gameValueReason, 'worker-error');
+  assert.throws(() => c.provider.capture(), /worker-error/);
+  await new Promise(resolve => setImmediate(resolve));
+  assert.equal(f.calls.filter(x => Array.isArray(x) && x[0] === 'worker').length, 1);
 });
 test('mismatched build version and invalid choice namespace refuse installation', () => {
   const f = fixture(); f.deps.version = 'old'; assert.throws(() => f.install(), /incompatible-game-value-build/);
@@ -148,4 +173,8 @@ test('native root.status controls first-values timing and unavailable presentati
   assert.equal(f.app._gameValueFirstValuesAt, undefined); assert.equal(f.app._gameValueState, 'unavailable');
   f.setResultStatus('bounded'); await c.provider.evaluate(request);
   assert.equal(f.app._gameValueFirstValuesAt, 555); assert.equal(f.app._gameValueState, 'prepared');
+});
+test('the client is given the measured cancellation grace, not its 1 s default (FGCANCEL1)', async () => {
+  const f = fixture(), c = f.install(); await c.provider.prepare(f.app);
+  assert.equal(f.clientOptions.cancellationGraceMilliseconds, 10000);
 });
