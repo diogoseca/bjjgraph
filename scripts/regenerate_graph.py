@@ -503,11 +503,11 @@ def _listing_table(t: dict, ref: str) -> dict:
 
     - It requires `deal_here` (the schema says so too): a listing with its own table is dealt here.
     - Cells are folded like a technique file's: one value, equal in both frames.
-    - A NULL FRAME IS REFUSED, in a cell or in the rate (full-game review OCPRB1-FG item 6). Nothing
-      at listing granularity can say "not dealt here in no-gi" yet (`cal.avail` and `rsAllows` are
-      per node), so a gi-only table would be dealt in no-gi at its scalar rate: CLAUDE.md 3's
-      re-animation trap. PR B2 decides the representation (most likely a null no-gi ATTEMPT on the
-      listing) before any of the 10 such panel tables is applied.
+    - A NULL FRAME IS ACCEPTED ONLY WHERE THE LISTING DOES NOT EXIST (v1.215.0): its attempt is null
+      in that frame, every cell and the rate are null there too, and the wire then names the listing
+      in the move's `absentAt[frame]`, which every dealer honours (regenerate_neural_data
+      .listing_absences). In a frame where the listing exists, a null cell or rate is still refused:
+      that is CLAUDE.md 3's re-animation trap (full-game review OCPRB1-FG item 6).
     - The rate is the listing's own, per frame, with no community-vote stream (votes are keyed by
       name). The table is rescaled to the headline rate, as the vote override rescales a
       technique's, so its success cells equal its rate.
@@ -518,13 +518,21 @@ def _listing_table(t: dict, ref: str) -> dict:
     if t.get('deal_here') is not True or 'success_rate' not in t or not t.get('outcomes'):
         errs.append(f"{ref}: a listing table needs deal_here, success_rate and outcomes together")
         return {}
+    absent = {rs for rs in RULESETS if cell(as_map(t.get('attempt_probability')), rs) is None}
+    if len(absent) == len(RULESETS):
+        errs.append(f"{ref}: the listing exists in no frame (its attempt is null in every one)")
+        return {}
     rows = []
     for o in t['outcomes']:
         m = as_map(o.get('probability'))
-        vals = [m.get('gi'), m.get('nogi')]
+        if any(m.get(rs) is not None for rs in absent):
+            errs.append(f"{ref}: outcome {o.get('to')!r} carries a cell in a frame where the listing "
+                        f"does not exist (its attempt is null there)")
+            return {}
+        vals = [m.get(rs) for rs in RULESETS if rs not in absent]
         if any(v is None for v in vals):
-            errs.append(f"{ref}: outcome {o.get('to')!r} has a null frame; a listing table with a null "
-                        f"frame is refused until PR B2 decides how a listing is absent in a frame")
+            errs.append(f"{ref}: outcome {o.get('to')!r} has a null cell in a frame where the listing "
+                        f"exists; a null is allowed only where the listing's attempt is null too")
             return {}
         if len(set(vals)) != 1:
             errs.append(f"{ref}: outcome {o.get('to')!r} must carry one probability, equal in both "
@@ -538,12 +546,12 @@ def _listing_table(t: dict, ref: str) -> dict:
         return {}
     rate = as_map(t['success_rate'])
     by_frame = {rs: _rate_cell(cell(rate, rs)) for rs in RULESETS}
-    if any(v is None for v in by_frame.values()):
-        errs.append(f"{ref}: the listing's rate has a null frame; refused until PR B2 decides how a "
-                    f"listing is absent in a frame")
+    if any((by_frame[rs] is None) != (rs in absent) for rs in RULESETS):
+        errs.append(f"{ref}: the listing's rate must be null exactly in the frames where its attempt "
+                    f"is null (rate {t['success_rate']!r}, absent in {sorted(absent)})")
         return {}
     headline = by_frame['nogi']                     # default no-gi frame, as everywhere
-    fit = headline
+    fit = headline if headline is not None else by_frame['gi']
     if any(r['result'] == 'success' for r in rows):
         rows = _votes.rescale_dist_to_success(rows, int(round(fit)))
     _EDGE_STATS['own_table'].append(ref)

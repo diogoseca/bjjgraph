@@ -53,6 +53,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
 - **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
 - **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
+- **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9508,3 +9509,113 @@ B1 builds the mechanism and applies **no** table; B2 applies them.
 - 10 tables are gi-only and refused (item 6).
 - Two semantics diagnostics still report a canonical rate (`scalars` A/B info,
   `verify_all frame_forked_dealt_techniques`). They are re-measured in B2.
+
+## v1.215.0 — A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE
+
+**Origin coherence (OCPRB7), 2026-10-01.** The gap from the full-game seat's B1 review (OCPRB1-FG item
+6), shipped ahead of B2's data.
+
+**The gap.**
+- `cal.avail` masks a move out of a ruleset altogether. It cannot say "dealt at this listing in gi but
+  not in no-gi".
+- `optionsFor` and `_mdp_mechanics.options` never read a listing's attempt share.
+- So a listing whose attempt is null in a frame would be dealt there, while `build_hand` drops it.
+
+**The mechanism.**
+- **The wire.** `regenerate_neural_data.listing_absences` names those listings on the technique as
+  `absentAt: {frame: [posIds]}` (node level, keyed like `alsoFrom`).
+- **The rule.** The origin rule or `deal_here` deals the move there, its attempt is null in that frame,
+  and the frame's mask still admits the move. A move absent from the frame altogether is already
+  masked, so it is not repeated.
+- **The dealers.** `optionsFor`, `_mdp_mechanics.options` and `app_game` skip such a card in their main
+  pass; relaxed passes are untouched on both sides.
+- **Listing tables.** `regenerate_graph._listing_table` accepts a null frame exactly where the
+  listing's attempt is null there (B2's 10 gi-only tables); elsewhere it is still refused.
+
+**The full-game seat's review (OCABS1): no objection, and two asks, both done.**
+- **(1) Positive coverage**, printed every run, with a hard floor of examined > 0. On today's corpus:
+  - 1,319 dealt listings examined;
+  - 58 no-gi null cells at dealt listings, all on masked moves;
+  - 12 on away listings no rule deals;
+  - 0 gi nulls;
+  - 0 absences (the seat's own count).
+- **(2) `check_absence_hands`**: an absence may not empty its listing's main pass. If it did, the
+  state would fall to the origin-relaxed fallback, which deals cards with no `ord` and ignores
+  `absentAt`. It is a hard error, and today it checks 0 hands.
+
+**Byte-identity against a pristine dev emit at 104538687.**
+- 5,096 emitted files are identical, including `graph-data.json` and every MDP metadata part.
+- What moved: the app bundles, plus the manifest's emitter, gameplay, producer and source hashes and
+  each variant descriptor.
+- The law hashes did not move, so the exposure pins and the worker core are untouched.
+
+**Gates.**
+- `tests/listing_tables_test.py` (13 cases): the null-frame rule both ways; `listing_absences` today,
+  named, the dealing rule, the frame mask; and `check_absence_hands` negative and positive.
+- `tests/listing_absence.test.mjs` (3 cases):
+  - none today;
+  - an injected absence at a `deal_here` and at an origin listing: not dealt in no-gi, dealt in gi,
+    and no other hand moves;
+  - the app-vs-mechanics differential passes on that wire.
+
+**Mutants.** All 6 are red:
+- `optionsFor` ignoring the absence;
+- the mechanics ignoring it;
+- the member copy dropping it;
+- `listing_absences` ignoring the frame mask;
+- `listing_absences` ignoring the dealing rule;
+- `check_absence_hands` accepting a relaxed hand.
+
+## v1.215.1 — A PLAN OPENED WHILE A DECK LANDS STILL MOUNTS (FGGPLAN1, 2026-10-01)
+
+**The red.** On PR 252's e2e-full shard 2 (job 110490987056, 1 worker), `gameplan-study-live`'s
+explicit-plan test tapped the Explore "new" stat, and `[data-game-study-controls]` never appeared in
+30 s. PR 252 was byte-identical on today's corpus.
+
+**Not the 09-30 stat-row race.** That race lost the tap, because the cell detached between
+"visible" and the hit. The CI artifacts show the tap landed:
+- the panel had opened the due session ("Mount Position · Bottom 0/1");
+- it read "Study suggestions are ready… Open study plan";
+- and then: "The study context changed. Open the plan again when ready; due reviews remain
+  available."
+
+That state is reachable only after the plan request.
+
+**The mechanism.** The study host loads lazily (`game-study.js`). Any `_gameStudyChanged` during that
+load abandons it, so an explicit intent is never applied to a context the player has left. Two
+signals reach it that are not a change the player made:
+- **a deck becoming resident:** a boot warm-up, a prefetch, or the coalescer's trailing restart
+  (FGHYD1). Both the residency restart and the hydration-only knowledge notice reach it;
+- **the plan clock's 30 s tick,** which signalled even when the day had not changed.
+
+**What could not be pinned.** The CI run's actual trigger: its status text is generic, and the
+artifacts do not carry `_gameStudyState.reason`. Locally nothing reproduced it:
+- 48 instrumented probes at 4 workers;
+- 24 spec runs at 4 workers;
+- 24 probes at 4 workers under a 4× CPU throttle.
+
+None put any signal inside the load. The load takes 0.77–2.3 s at 4× throttle, median 1.4 s, and
+locally the spec's own trailing restart lands 0.87–1.3 s before the tap.
+
+**The fix (`_gameStudyChanged(reason, kind)`).** A `"residency"` or `"tick"` kind still reconciles
+an installed host, which invalidates only when the study frame's key moved, but it never abandons a
+load. The request is dispatched after the load, so it captures the frame as it is then. Every other
+change, a roll or a real day change, abandons exactly as before.
+
+**Gates.**
+- **The new held-load journey.** The study bundle's request is held, so the load is in flight on
+  every run, not by timing. A real deck lands, the trailing restart fires and the quiet tick runs
+  inside the load; then the hold is released and the plan mounts.
+- **Its control.** A real change during the load still abandons it.
+- **The explicit-plan test now polls `study phase | reason`,** so the next red names its trigger.
+- **Results** (dev d52b92ee5 + this):
+  - the whole spec file ×3: 12/12;
+  - the explicit-plan and held-load tests ×12 at 4 workers: 36/36;
+  - the held-load pair ×3: 6/6;
+  - units 1,188/1,188;
+  - `validate:payload` passes, with the pre-existing soft warning on eager gzip.
+- **Mutants on the built bundle, both killed with the control still green.** They patch both the
+  served bundle and `neural/dist`, because the spec's `beforeAll` requires the two to match; a
+  served-only mutant fails that check before any test runs, which is not a kill.
+  - residency abandoning again: "the load survived the deck landing";
+  - the tick abandoning again: "the load survived the quiet clock tick".

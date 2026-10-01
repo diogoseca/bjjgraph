@@ -162,6 +162,7 @@ class Projection:
         # Private to the projection on purpose: the rule changes which hands exist, not the
         # node record, so nodeColumns and the adapter stay as they are.
         self.also_from = {}
+        self.absent_at = {}    # technique id -> {frame: frozenset(posIds)} (v1.215.0)
         lambdas = self.wire.get("evLam", [])
         if lambdas and (len(set(lambdas)) != len(lambdas) or any(not number(x) for x in lambdas)):
             raise ValueError("malformed-ev-lambdas")
@@ -220,6 +221,14 @@ class Projection:
                 if not isinstance(af, list) or any(not isinstance(x, str) or not x for x in af):
                     raise ValueError("malformed-also-from")
                 self.also_from[n["id"]] = frozenset(af)
+            if n["ty"] != "positions" and n.get("absentAt") is not None:
+                # A LISTING ABSENT IN ONE RULESET (v1.215.0): posIds where the move would be dealt by
+                # the origin rule or `deal_here`, but its listing does not exist in that frame
+                ab = n["absentAt"]
+                if (not isinstance(ab, dict) or any(fr not in ("gi", "nogi") or not isinstance(v, list)
+                        or any(not isinstance(x, str) or not x for x in v) for fr, v in ab.items())):
+                    raise ValueError("malformed-absent-at")
+                self.absent_at[n["id"]] = {fr: frozenset(v) for fr, v in ab.items()}
             if n["ty"] == "positions":
                 pid = (n.get("posId") or "").lower()
                 if pid:
@@ -479,6 +488,9 @@ class Projection:
                     continue
                 if (not relaxed and move["fromPositionId"] and n["posId"] and move["fromPositionId"] != n["posId"]
                         and n["posId"] not in self.also_from.get(move["id"], ())):
+                    continue
+                # absent at this listing in this ruleset (v1.215.0): mirrors the app's optionsFor
+                if not relaxed and n["posId"] and n["posId"] in self.absent_at.get(move["id"], {}).get(self.ruleset, ()):
                     continue
                 table = None if relaxed else cal_at(move, n["posId"])
                 dest = self.table_landing(table, role, k, nid) if table else self.result_pos(k, nid)

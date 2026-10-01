@@ -316,7 +316,7 @@ class AppPort:
                      "t": h["t"], "ty": h["ty"], "s": h.get("s"), "role": role,
                      "pairId": h["id"] + "/" + roles[1].capitalize() if si == 0 else h["id"],
                      "posId": h.get("posId") or None, "fromPositionId": h.get("fromPositionId") or None,
-                     "alsoFrom": h.get("alsoFrom") or None,
+                     "alsoFrom": h.get("alsoFrom") or None, "absentAt": h.get("absentAt") or None,
                      "fromRole": h.get("fromRole") or None, "cal": None}
                 s = h.get("s")
                 if isinstance(s, list) and len(s) > si and _num(s[si]):
@@ -412,7 +412,7 @@ class AppPort:
             nodes.append({"idx": i, "id": n["id"], "t": n["t"], "ty": n["ty"], "s": s, "dom": dom,
                           "posId": n.get("posId") or n.get("fromPositionId") or None,   # L1413
                           "fromPositionId": n.get("fromPositionId") or None,
-                          "alsoFrom": n.get("alsoFrom") or None,
+                          "alsoFrom": n.get("alsoFrom") or None, "absentAt": n.get("absentAt") or None,
                           "fromRole": n.get("fromRole") or None, "cal": n.get("cal") or None,
                           "role": n.get("role") or None, "pairId": n.get("pairId") or None})
         id_index = {}
@@ -722,6 +722,8 @@ class AppPort:
             if (n["fromPositionId"] and here_id and n["fromPositionId"] != here_id   # L12628 origin
                     and here_id not in (n["alsoFrom"] or ())):                      # deal_here
                 continue
+            if here_id and here_id in ((n.get("absentAt") or {}).get(self.frame) or ()):   # v1.215.0
+                continue                                       # the listing does not exist in this frame
             node = self.at(n, here_id)                                          # v1.214.0
             o = {"idx": k, "node": node, "ev": ev_of(k) if ev_of else None}
             if node is not n:
