@@ -189,6 +189,16 @@
 
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
   .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
+  /* THE HAND'S ROW KEEPS ITS BEACON, NOT ITS LIGHT (v1.214.1, owner 2026-10-01: "there's this strange
+     glowing effect of [the] choices row of a submission"). `setBeacon("options" | "escape", row)` has
+     marked the option row since v1.57.0, but the row also carried a constant edge mask (since
+     2026-07-12) which clips an element's own box-shadow, so this glow was never seen. v1.213.2 made
+     the mask earned (none on a hand that fits) and a fitting hand — most often a submission's —
+     started pulsing a full-width green band. Measured at the beacon's peak: the strip above the row
+     differs by 42/255 from no beacon, and by 0 with the old mask. The one-beacon law (data-beacon,
+     beaconState, beacon_moved) is unchanged; only the row's light is off, which is how every hand
+     looked until v1.213.2. Pinned by e2e/journeys/submission-row-glow.spec.ts. */
+  .ng-optionrow.ng-beacon{animation:none;}
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
   /* THE VIGNETTE IS A HEARTBEAT IN SLOW MOTION (owner: "more chill, more slow motion of a heart
      beat really realistic like max payne … but more modern fluid movement"). Cardiac anatomy,
