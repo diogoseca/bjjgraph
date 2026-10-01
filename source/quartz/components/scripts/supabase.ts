@@ -85,6 +85,8 @@ type AuthStateCallback = (event: string, user: AuthUser | null) => void
 // ── State ──────────────────────────────────────────────────────────────────────
 
 let _client: SupabaseClient | null = null
+// The ONE in-flight creation of `_client` (see getClient). Owned by its first caller; cleared on failure.
+let _clientCreating: Promise<SupabaseClient> | null = null
 let _sdkLoading: Promise<void> | null = null
 let _authListeners: AuthStateCallback[] = []
 let _neuralAuthRevision = 0
@@ -139,25 +141,47 @@ function storedSessionUserId(): string | null {
   }
 }
 
+/** ONE CLIENT PER PAGE (AUTHDBL1, 2026-10-01). This used to check `_client`, await loadSDK() and
+ * only THEN create, so two callers inside the SDK-loading window both passed the check and both
+ * created a client. Two callers are routinely there on a redirect-back: authUI's arm starts the load,
+ * and the Neural app's resolveNeuralUser() proceeds to getClient() precisely because a load is in
+ * flight. On a `?code=` arrival that is two clients, each with detectSessionInUrl, each exchanging
+ * the single-use PKCE code. The dev deploy's curated gate saw 2 on `?error_description=` (run
+ * 36926507281) once a heavier wire moved the app's boot into the window. Creation is now a single
+ * promise owned by its first caller; every later caller awaits it. A failed load clears it, so a
+ * later call retries (local-only play re-tries the SDK). */
 async function getClient(): Promise<SupabaseClient> {
   if (_client) return _client
   if (!isConfigured()) throw new Error("Supabase not configured")
+  if (!_clientCreating)
+    _clientCreating = createClientOnce().catch((error) => {
+      _clientCreating = null
+      throw error
+    })
+  return _clientCreating
+}
+
+async function createClientOnce(): Promise<SupabaseClient> {
   await loadSDK()
   // Explicit auth options so behaviour does not depend on SDK defaults that a
   // CDN minor bump could change. detectSessionInUrl lets the SDK exchange the
   // OAuth redirect code/token on client creation.
-  _client = window.supabase!.createClient(window.__SUPABASE_URL!, window.__SUPABASE_ANON_KEY!, {
-    auth: {
-      flowType: "pkce",
-      autoRefreshToken: true,
-      persistSession: true,
-      detectSessionInUrl: true,
-      storageKey: authStorageKey(),
+  const client = window.supabase!.createClient(
+    window.__SUPABASE_URL!,
+    window.__SUPABASE_ANON_KEY!,
+    {
+      auth: {
+        flowType: "pkce",
+        autoRefreshToken: true,
+        persistSession: true,
+        detectSessionInUrl: true,
+        storageKey: authStorageKey(),
+      },
     },
-  })
+  )
 
   // Listen for auth state changes and notify listeners
-  _client.auth.onAuthStateChange((event, session) => {
+  client.auth.onAuthStateChange((event, session) => {
     _neuralAuthRevision++
     const user = session?.user ?? null
     for (const cb of _authListeners) {
@@ -169,7 +193,8 @@ async function getClient(): Promise<SupabaseClient> {
     }
   })
 
-  return _client
+  _client = client
+  return client
 }
 
 /** Eagerly create the client on page load so the SDK can process an OAuth

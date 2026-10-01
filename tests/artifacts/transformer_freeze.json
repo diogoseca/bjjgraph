@@ -234,11 +234,18 @@
           "reason": "D3 (owner 2026-09-30): a failed session check with a stored account raises session-unverified carrying storedUserId, so the host plays local-only as for an unreachable SDK; malformed answers still hold",
           "scope": "keeplist",
           "to": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e"
+        },
+        {
+          "date": "2026-10-01",
+          "from": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e",
+          "reason": "AUTHDBL1: getClient() made single-flight (one creation promise owned by its first caller, cleared on failure) so a redirect-back's two callers (authUI's arm and the Neural app's resolveNeuralUser) create ONE Supabase client, never two exchanging one PKCE code; found by dev deploy run 36926507281. No export, facade or API change.",
+          "scope": "keeplist",
+          "to": "9a68fa0c6ee2ea3ede20c78279d32571d66da18fab625471d2a778116c98305c"
         }
       ],
-      "bytes": 17647,
+      "bytes": 18945,
       "scope": "keeplist",
-      "sha256": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e"
+      "sha256": "9a68fa0c6ee2ea3ede20c78279d32571d66da18fab625471d2a778116c98305c"
     },
     "source/quartz/components/scripts/toc.inline.ts": {
       "bytes": 4776,
