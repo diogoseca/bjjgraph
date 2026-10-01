@@ -821,7 +821,15 @@ class Component extends DCLogic {
         else { const c = this._focusedMini(); if (c) (e.key === "ArrowLeft" ? c.prev() : c.next()); }
       } else if (!typing && !this._detailCtx && this.isDrillOpen() && (e.key === "ArrowLeft" || e.key === "ArrowRight" || e.key === "ArrowUp" || e.key === "ArrowDown")) {
         e.preventDefault();
-        if (e.key === "ArrowLeft") this.drillPrev();
+        // AN OPEN CHECKPOINT QUIZ OWNS THE DECK SURFACE (v1.215.6, gen triage). A–C answer it
+        // and nothing else may touch it: the quiz shows the FULL deck positioned at its pick, and
+        // `_checkpointAnswer` credits whatever card `deckIdx` points at, so ←/→ would let a player
+        // swap the tested card for one they know, and ↑/↓/⏎/Space would reveal it and grade it
+        // as recall ("Got it", prep credit) — handing the answer to a card meant to be tested.
+        // The keys are still CONSUMED here (no fall-through to the corridor's own arrows behind
+        // the quiz). Pinned by e2e/gen/holder-checkpoint-letters-answer-digits-stay-roll.spec.ts.
+        if (this._checkpoint) { /* the quiz owns the deck */ }
+        else if (e.key === "ArrowLeft") this.drillPrev();
         else if (e.key === "ArrowRight") this.drillNext();
         else if (e.key === "ArrowDown") { if (!this.drillTechNav(1)) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); } }
         else if (e.key === "ArrowUp") { if (!this.drillTechNav(-1)) { if (this.revealed) this.drillGrade(false); else this.drillReveal(); } }
@@ -852,8 +860,9 @@ class Component extends DCLogic {
         const mini = this._focusedMini();
         if (mini) { e.preventDefault(); mini.enter(); }
         else if (this.isDrillOpen()) {
-          // the study takeover reads back the same way, so ⏎ means the same thing there as ↓
-          e.preventDefault(); if (!this.revealed) this.drillReveal(); else this.drillGrade(true);
+          // the study takeover reads back the same way, so ⏎ means the same thing there as ↓ —
+          // and, like ↓, never during an open checkpoint quiz (see the drill arrows above)
+          e.preventDefault(); if (this._checkpoint) { /* the quiz owns the deck */ } else if (!this.revealed) this.drillReveal(); else this.drillGrade(true);
         }
       } else if (!typing && !this.deckShown && !this._detailCtx && this._landEl && !this._landHidden() && (this._landMode === "land" || this._landMode === "attempt") && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
         // the landing card pages its own deck (v1.130.0). BELOW the pane-History and drill arrow
@@ -873,7 +882,7 @@ class Component extends DCLogic {
         // `p`/`P` is unaffected: it is nobody's activation key, so it still pauses from anywhere.
         if (e.key === " " && t && t.closest && t.closest("button,summary,a[href],select,[role='button'],[contenteditable]")) return;
         e.preventDefault();
-        if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
+        if (e.key === " " && this.isDrillOpen()) { if (this._checkpoint) { /* the quiz owns the deck (drill arrows above) */ } else if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         // `_focusedMini()` is the surface scope, not just a registry hit: it is what keeps Space
         // off a deck that belongs to another tab (see its own header).
         else if (e.key === " " && this._focusedMini()) { this._focusedMini().reveal(); }
@@ -7374,7 +7383,15 @@ class Component extends DCLogic {
     this.styleViewToggle();
     if (this.deckShown) this._renderPaneBody();
     this._refreshChallengeEvidence();
-    this._knowledgeEffect("belt-sync", () => this._syncBelt("curriculum"));
+    // THE CURRICULUM'S ARRIVAL IS A KNOWLEDGE CHANGE (v1.215.6, gen triage). It carries the score
+    // weights, and `gameScore()` memoises per `_stageVer`: when the deck manifest landed first, its
+    // `_bumpStageVer → renderTabSubtitles → gameScore` had already memoised a score computed with
+    // NO weights — 0 — and nothing bumped the version again, so a reloaded player read 0 until
+    // they graded a card. Worse, the one-time belt grandfather reads `gameScore().belt` in the
+    // `_syncBelt` below and then marks itself done. `_publishKnowledge` drops the memo, THEN runs
+    // that same belt sync (same "curriculum" reason) and repaints the tab — one seam, the order
+    // it already guarantees. Pinned by e2e/gen/holder-restart-tutorial-resets-white-only.spec.ts.
+    this._publishKnowledge("curriculum");
   }
   setViewMode(m) {
     if (m === "collection") m = "challenges"; // retired tab — its content lives in Challenges now
@@ -7847,11 +7864,20 @@ class Component extends DCLogic {
     const posIdx = this._idIndex ? this._idIndex.get(belt.test.startNodeId) : null;
     const challengeTrack = NG_CHALLENGE_TRACKS.find((track) => track.id === beltId);
     this.showCenter("CONTENT CAPSTONE", (challengeTrack ? challengeTrack.name : belt.name) + " capstone", this._beltTest.maxMoves + " moves \u00b7 win by tap or on points", "bad", true);
-    this.rollFromPosition(posIdx != null ? posIdx : this.currentPos);
-    // the authored budget + start role override the roll seeder's randomized defaults
-    this.maxMoves = this._beltTest.maxMoves;
+    // THE SEAT IS DECIDED BEFORE THE DEAL (v1.215.6, gen triage). Since v1.180.1 rollFromPosition
+    // deals the hand synchronously, and this used to set `playerRole` from `startDeckKey` AFTER
+    // it: the White capstone ("Survive and Reverse", Mount|Bottom) seated the player bottom on a
+    // hand of 16 TOP moves, and opponentDefend played the top hand too. The authored role is now
+    // rollFromPosition's own roleOverride, and the roll stands on that role's MEMBER of the pair
+    // (`_seatMember`, the seam techniqueOrigin and the play-confirm seat use), so the seat, the orb
+    // and the hand agree from the first frame. Pinned by e2e/journeys/content-capstone.spec.ts
+    // ("every capstone deals the hand of the seat it gives the player").
     const role = ((belt.test.startDeckKey || "").split("|")[1] || "").toLowerCase();
-    if (role) this.playerRole = role === "bottom" ? "bottom" : "top";
+    const seat = role ? (role === "bottom" ? "bottom" : "top") : undefined;
+    const start = posIdx != null ? posIdx : this.currentPos;
+    this.rollFromPosition(seat ? this._seatMember(start, seat) : start, undefined, seat);
+    // the authored budget overrides the roll seeder's randomized default
+    this.maxMoves = this._beltTest.maxMoves;
     this._gameValueChanged("capstone-context");
   }
 

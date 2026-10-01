@@ -166,11 +166,12 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   expect(back.badges, "badges identical across reload").toEqual(pre.badges)
   expect(back.coins, "coins identical across reload").toEqual(pre.coins)
   expect(back.beltsWon, "belts.won identical across reload").toEqual(pre.beltsWon)
-  // KNOWN RED (gen-triage on dev 8d6ae5d01, REAL BREAK — not a spec defect): the reload reads 0.
-  // gameScore() memoises on `_stageVer`; the deck MANIFEST's `_bumpStageVer` calls
-  // renderTabSubtitles -> gameScore() BEFORE curriculum.json (the weights) lands, memoising
-  // score 0 at that version, and `_onCurriculum` never bumps it — so the 0 sticks until a grade
-  // or a deck hydration. Measured: memo {v:1, s:0} vs a fresh recompute 0.00585 (= pre); a probe
-  // build adding `_bumpStageVer()` to `_onCurriculum` turns this whole spec green.
+  // This line was a REAL BREAK, red from the gen triage (dev 8d6ae5d01) until v1.215.6: the reload
+  // read 0. gameScore() memoises on `_stageVer`; the deck MANIFEST's `_bumpStageVer` called
+  // renderTabSubtitles -> gameScore() BEFORE curriculum.json (the weights) landed, memoising
+  // score 0 at that version, and `_onCurriculum` never bumped it — so the 0 stuck until a grade
+  // or a deck hydration (memo {v:1, s:0} vs a fresh recompute 0.00585 = pre). v1.215.6 makes the
+  // curriculum's arrival a knowledge change (`_publishKnowledge("curriculum")`, which drops the memo
+  // before the belt grandfather reads it). Mutant: that line reverted → red here.
   expect(back.score, "score recomputed from persisted stage — bit-identical").toBe(pre.score)
 })
