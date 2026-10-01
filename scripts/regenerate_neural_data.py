@@ -298,6 +298,76 @@ def frame_reachable(graph: dict, frame: str) -> dict:
     return {"positions": {k for k in seen if not k.startswith("T:")},
             "techniques": {k[2:].split("@", 1)[0] for k in seen if k.startswith("T:")}}
 
+def listing_absences(graph: dict, reach: dict, stats: dict | None = None) -> dict:
+    """A LISTING ABSENT IN ONE RULESET (v1.215.0, origin coherence): {technique hub: {frame: [posIds]}}.
+
+    The node-level mask (`cal.avail`, from the walk) says whether a move exists in a frame at all. It
+    cannot say "dealt at THIS listing in gi but not in no-gi", and `optionsFor` /
+    `_mdp_mechanics.options` never read a listing's attempt share, so such a listing would be dealt
+    in the frame where it does not exist while `build_hand` drops it. This names exactly those
+    listings: the origin rule or `deal_here` deals the move there, its attempt is null in that frame,
+    and the frame's mask still admits the move (a move absent from the frame altogether is already
+    masked, so it is not repeated here). Keyed by posId strings like `alsoFrom`, never an index.
+
+    POSITIVE COVERAGE (full-game review OCABS1, CLAUDE.md 6.6): `stats`, when given, receives how
+    many dealt listings were examined, the null cells per frame at dealt listings, how many of those
+    are masked moves, how many null cells sit on away listings no rule deals, and the absences. The
+    caller prints them every run and refuses an examination of zero, so a key-space drift (hub vs
+    fromPositionId) cannot read as "0 absences". Measured when it shipped: 1,319 dealt listings
+    examined; 70 no-gi null cells, 58 on masked moves and 12 on away listings; 0 gi; 0 absences.
+    """
+    tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
+            for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
+    st = {"examined": 0, "away_null": {"gi": 0, "nogi": 0}, "dealt_null": {"gi": 0, "nogi": 0},
+          "masked": {"gi": 0, "nogi": 0}, "absences": {"gi": 0, "nogi": 0}}
+    out = {}
+    for p in (graph.get("positions") or {}).values():
+        hub, role = p.get("hub"), p.get("role")
+        for t in p.get("transitions") or []:
+            tv = tech.get(t.get("target"))
+            cells = t.get("attemptProbabilityByRuleset") or {}
+            nulls = [fr for fr in ("gi", "nogi") if fr in cells and cells[fr] is None]
+            deals = bool(tv) and tv.get("fromRole") == role and (
+                tv.get("fromPositionId") == hub or t.get("dealHere") is True)
+            if not deals:
+                for fr in nulls:
+                    st["away_null"][fr] += 1
+                continue
+            st["examined"] += 1
+            for fr in nulls:
+                st["dealt_null"][fr] += 1
+                if t.get("target") not in reach[fr]["techniques"]:
+                    st["masked"][fr] += 1
+                    continue
+                st["absences"][fr] += 1
+                out.setdefault(t["target"], {}).setdefault(fr, set()).add(hub)
+    if stats is not None:
+        stats.update(st)
+    return {k: {fr: sorted(v) for fr, v in sorted(m.items())} for k, m in sorted(out.items())}
+
+
+def check_absence_hands(graph: dict, absent_at: dict) -> list:
+    """NO ABSENCE MAY EMPTY ITS LISTING'S MAIN PASS (full-game review OCABS1). A listing whose every
+    dealt card is absent in a frame would hand the state to the origin-relaxed fallback, which deals
+    cards with no `ord` (CLAUDE.md 6.6) and ignores `absentAt`, so it could re-deal the absent move.
+    For every (listing, frame) named, `build_hand` (which drops a null attempt exactly as the dealers
+    skip an absence) must still deal its main pass there. Returns the violations; the caller raises."""
+    from solve_edge_values import Opts, build_hand   # the game's own dealing rule, not a copy
+    tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
+            for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
+    bad, checked = [], 0
+    for target, frames in absent_at.items():
+        role = (tech.get(target) or {}).get("fromRole")
+        for fr, hubs in frames.items():
+            for hub in hubs:
+                checked += 1
+                key = f"{hub}/{role}"
+                hand, relaxed = build_hand(graph, key, Opts(frame=fr))[:2]
+                if relaxed or not hand:
+                    bad.append(f"{key} [{fr}]: absent {target} leaves no main-pass card")
+    return checked, bad
+
+
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
     enriching each node with its calibrated numbers from graph.json."""
@@ -500,6 +570,23 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                                  for o in t.get("outcomes") or []]
             own_tables_at.setdefault(t.get("target"), {})[pnode.get("hub") or pk.rsplit("/", 1)[0]] = entry
     own_tables_joined = 0
+    _absence_stats = {}
+    absent_at = listing_absences(graph, reach, _absence_stats)     # v1.215.0: listings absent in one frame
+    _absent_want = sum(len(v) for m in absent_at.values() for v in m.values())
+    absent_joined = 0
+    _as = _absence_stats
+    print(f"  listing absences: {_as['examined']} dealt listings examined; null cells at dealt listings "
+          f"gi {_as['dealt_null']['gi']} / no-gi {_as['dealt_null']['nogi']} (masked moves gi {_as['masked']['gi']} / "
+          f"no-gi {_as['masked']['nogi']}), on away listings gi {_as['away_null']['gi']} / no-gi {_as['away_null']['nogi']}; "
+          f"absences gi {_as['absences']['gi']} / no-gi {_as['absences']['nogi']}")
+    if not _as["examined"]:
+        raise SystemExit("[neural] listing_absences examined 0 dealt listings: the dealing-rule join matched "
+                         "nothing, which reads exactly like 0 absences (CLAUDE.md 6.6). Refusing to emit.")
+    _hands_checked, _emptied = check_absence_hands(graph, absent_at)
+    print(f"  listing absences: {_hands_checked} (listing, frame) main passes checked, {len(_emptied)} emptied")
+    if _emptied:
+        raise SystemExit("[neural] an absence empties its listing's main pass, handing the state to the "
+                         "origin-relaxed fallback: " + "; ".join(_emptied))
 
     nodes = []
     for n in layout["nodes"]:
@@ -540,6 +627,12 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 if c in deal_here_at:
                     node["alsoFrom"] = sorted(deal_here_at[c])
                     deal_here_joined += len(node["alsoFrom"])
+                    break
+        if ty != "positions":
+            for c in _tech_keys(_slug_from_id(n["id"]), n.get("t")):
+                if c in absent_at:
+                    node["absentAt"] = absent_at[c]
+                    absent_joined += sum(len(v) for v in absent_at[c].values())
                     break
         cal = enrich(n["id"], ty, n.get("t"))
         if ty != "positions":
@@ -600,6 +693,12 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             f"[neural] listing-table join lost {_own_tables_want - own_tables_joined} of {_own_tables_want}: "
             f"graph.json carries them on {sorted(own_tables_at)} but the layout join placed only "
             f"{own_tables_joined}. Refusing to emit a wire that prices a different exchange than graph.json.")
+    print(f"  listing absences: {absent_joined}/{_absent_want} carried to the wire as absentAt")
+    if absent_joined != _absent_want:
+        raise SystemExit(
+            f"[neural] listing-absence join lost {_absent_want - absent_joined} of {_absent_want}: "
+            f"{sorted(absent_at)} on graph.json, {absent_joined} placed. Refusing to emit a wire that "
+            f"deals a listing in a ruleset where it does not exist.")
 
     # ── AVAILABILITY COVERAGE, PRINTED EVERY RUN ────────────────────────────────────────────
     # `avail` is the only thing that removes a node from a ruleset, so an empty or all-true table
