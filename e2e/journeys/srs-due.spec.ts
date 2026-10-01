@@ -345,7 +345,7 @@ test("the maintenance surfaces: every due figure is the CARD count, the session 
   }), "the plan's maintenance head is the same cover and the same card count").toEqual({
     plan: true, label: "2 cards due today", anchor: "due", dueRows: 1, first: r.other, dueCards: 2,
   });
-  await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText(" cards done");
+  await expect(page.locator("[data-plan-goal-progress]"), "the session heading counts cards too").toContainText("Reviewed 0/");
 
   // and the Challenges band prints the SAME number while something is owed
   await page.evaluate(() => (window as any).__neural.openPane("challenges"));
