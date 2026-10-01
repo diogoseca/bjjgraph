@@ -116,6 +116,7 @@ from solve_edge_values import (  # noqa: E402
     GRAPH_PATH, L, S, W, Model, Opts, _cell_outcome, _chain_target, flip, is_role, load_graph,
     solve, tech_rate,
 )
+from solve_edge_values import priced_tech as _priced  # noqa: E402  (v1.214.0: the card's priced technique)
 
 ABS = ("W", "L", "D")
 IW, IL, ID = 0, 1, 2
@@ -140,15 +141,6 @@ CELL_DTYPE = np.dtype([
 # --------------------------------------------------------------------------- #
 # card expansion that REMEMBERS THE FINISHER
 # --------------------------------------------------------------------------- #
-def _priced(a):
-    """The technique a dealt card was priced with: `Action.tech`, set by build_hand from
-    `listing_view`. An Action without it is a construction bug, never a reason to fall back to
-    the canonical table, which is the silent wrong-answer join this replaced."""
-    if a.tech is None:
-        raise ValueError(f"_kernel: card {a.name!r} carries no priced technique (Action.tech)")
-    return a.tech
-
-
 def _expand(graph, tech, p):
     """
     `solve_edge_values.build_action` with the finishing technique kept on every W/L cell.

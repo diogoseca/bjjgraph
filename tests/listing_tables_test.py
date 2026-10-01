@@ -9,13 +9,15 @@ regenerate_graph would emit it.
     error path, so a malformed table fails the run instead of dealing a fabricated exchange;
   - the seam (`solve_edge_values.listing_view` through `build_hand`): the dealt card is priced and
     expanded from the LISTING's table, and carries the technique it was priced with (`Action.tech`);
-  - the kernel (`semantics/_kernel._priced`): it reads that technique, never the canonical re-read
-    that was the silent join (OCPRB2);
+  - `solve_edge_values.priced_tech`, which semantics/_kernel.py and app_game.py read (as `_priced`)
+    instead of the canonical re-read that was the silent join (OCPRB2): the helper, and a source
+    tripwire that neither file re-reads `graph[a.cat][a.target + "/attacker"]` again;
   - byte-identity: on today's corpus every card's technique IS the canonical node.
 
 MUTANTS (each turns this file red; measured at v1.214.0):
   - build_hand reading `graph[cat][...]` instead of `listing_view(...)`: test_the_card_is_the_listings;
-  - `_priced` falling back to the canonical table: test_the_kernel_reads_the_priced_technique;
+  - `priced_tech` falling back to the canonical table: test_a_card_reads_its_priced_technique;
+  - the canonical re-read restored in _kernel.py: test_no_reader_re_reads_the_canonical_table;
   - _listing_table without the rescale: test_the_emitter_folds_and_rescales;
   - _listing_table accepting a table without deal_here: test_the_emitter_refuses_a_malformed_table.
 Run by tests/listing_tables_py.test.mjs, which `test:units` collects.
@@ -25,6 +27,7 @@ from __future__ import annotations
 
 import copy
 import json
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -35,7 +38,8 @@ sys.path.insert(0, str(ROOT / "scripts" / "semantics"))
 
 import regenerate_graph as rg  # noqa: E402
 import solve_edge_values as sev  # noqa: E402
-import _kernel  # noqa: E402
+# NOT semantics/_kernel: it needs numpy, which the validate job does not install. Its use of the
+# priced technique is pinned below by reading its source, and run for real by `_kernel --selfcheck`.
 
 GRAPH = json.loads((ROOT / "graph.json").read_text(encoding="utf-8"))
 TABLES = json.loads((ROOT / "calibration" / "listing_tables.json").read_text(encoding="utf-8"))["tables"]
@@ -119,14 +123,22 @@ class Seam(unittest.TestCase):
         # the miss now lands on the listing (every panel table returns a miss there)
         self.assertTrue(any(oc[1] == PICK["listing"] for _w, oc in card.miss))
 
-    def test_the_kernel_reads_the_priced_technique(self):
+    def test_a_card_reads_its_priced_technique(self):
         g, edge = injected_graph(PICK)
         hand, *_ = sev.build_hand(g, PICK["listing"], sev.Opts(frame="nogi"))
         card = next(a for a in hand if a.name == PICK["move"])
-        self.assertIs(_kernel._priced(card), card.tech)
+        self.assertIs(sev.priced_tech(card), card.tech)
         bare = sev.Action(card.name, card.target, card.cat, card.weight, card.p, card.succ, card.miss, card.empty_branch)
         with self.assertRaises(ValueError):
-            _kernel._priced(bare)
+            sev.priced_tech(bare)
+
+    def test_no_reader_re_reads_the_canonical_table(self):
+        canonical_reread = re.compile(r"\[a\.cat\]\s*\[\s*a\.target\s*\+\s*[\"']/attacker[\"']\s*\]|tech_of\(\s*self\.g\s*,\s*\(a\.cat")
+        for f, uses in (("scripts/semantics/_kernel.py", 2), ("scripts/semantics/app_game.py", 1)):
+            src = (ROOT / f).read_text(encoding="utf-8")
+            code = "\n".join(l for l in src.splitlines() if not l.lstrip().startswith("#"))
+            self.assertEqual(canonical_reread.findall(code), [], f"{f} re-reads the canonical table for a card")
+            self.assertGreaterEqual(code.count("_priced(a)"), uses, f"{f} reads the card's priced technique")
 
     def test_today_every_card_is_the_canonical_node(self):
         """B1's byte-identity, at the seam: no listing on the corpus carries a table yet."""

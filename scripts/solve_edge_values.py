@@ -277,6 +277,17 @@ def listing_view(tech, edge):
             "successRateByRuleset": edge["successRateByRuleset"], "outcomes": edge["outcomes"]}
 
 
+def priced_tech(a):
+    """The technique a dealt card was priced with: ``Action.tech``, set by build_hand from
+    ``listing_view`` (v1.214.0). A reader that needs a card's table again reads THIS, never
+    ``graph[cat][target+"/attacker"]``, which is the canonical table and, for a listing with its own,
+    a different exchange priced silently wrong. An Action without it is a construction bug, never a
+    reason to fall back. Lives here, not in semantics/_kernel.py, so a reader needs no numpy."""
+    if a.tech is None:
+        raise ValueError(f"card {a.name!r} carries no priced technique (Action.tech)")
+    return a.tech
+
+
 def build_action(graph, tech, opts):
     """
     Expand one technique's /attacker node into (p, success-branch, miss-branch).
