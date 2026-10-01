@@ -218,8 +218,13 @@ test("the card face names future win and immediate chance separately", async ({ 
     expect(c.edge, "legacy utility is no longer a player-card headline").toBeNull();
     expect(c.valueLabel).toContain("Win chance");
     expect(c.win).toMatch(/^(—|(?:<|>)?\d+(?:–\d+)?%)$/);
-    expect(c.immediateLabel).toMatch(/^(Entry|Finish|Move|Escape)$/);
+    expect(c.immediateLabel).toMatch(/^(Works|Finish|Move|Escape)$/);
     expect(c.odds).toMatch(/^(—|(?:<|>)?\d+%)$/);
+    // a submission dealt on a position steps in with certainty; its small line is the finish
+    // it leads to, never that step's 100% (v1.213.0, owner 2026-10-01). Non-kill, recorded: this
+    // reads the dealt face BEFORE values arrive ("Works —"), so a view printing the step once they
+    // land survives here; submission-card-odds.spec.ts and option-hand.spec.ts kill it.
+    if (c.ty === "submissions") { expect(c.immediateLabel, c.tech).toBe("Works"); expect(c.odds, c.tech).not.toBe("100%"); }
   }
 });
 
@@ -309,7 +314,7 @@ test("player values remain understandable without glyph colour", async ({ page }
   expect(cards.length).toBeGreaterThan(3);
   for (const c of cards) {
     expect(c.valueLabel).toContain("Win chance");
-    expect(c.immediateLabel).toMatch(/^(Entry|Finish|Move|Escape)$/);
+    expect(c.immediateLabel).toMatch(/^(Works|Finish|Move|Escape)$/);
     expect(c.mid.trim()).toMatch(/^(Submission|Transition)$/);
   }
 });

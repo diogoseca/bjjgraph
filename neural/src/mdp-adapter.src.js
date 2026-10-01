@@ -332,7 +332,22 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       const result = { id, kind: a.kind, immediateExecutionKind: a.kind, branches }; out.actions.push(result);
       if (a.kind === 'entry') {
         result.immediateExecutionChance = 1;
-        branches.push(endpoint(ngMdpRat(1), arrive({ ...s, nodeId: act.id, role: act.fromRole, moveCount: s.moveCount + 1 }), ['commit', 'entry', 'increment', 'arrival'])); continue;
+        branches.push(endpoint(ngMdpRat(1), arrive({ ...s, nodeId: act.id, role: act.fromRole, moveCount: s.moveCount + 1 }), ['commit', 'entry', 'increment', 'arrival']));
+        // THE FINISH THIS ENTRY LEADS TO, as the landed state's own Finish row will roll it (v1.213.0,
+        // owner 2026-10-01: "every submission from the position have 100% chance"). Entering is
+        // certain, so the card's honest small number is the finish's chance — and only the landed
+        // state knows it: its position bonus is the submission's own deck, its opponent value is the
+        // submission's, its question modifier was reset by the arrival. Measured on the corpus, the
+        // same law at the CURRENT state disagrees with this on 56 of 524 entry cards with no practice
+        // and 429 of 524 with practice (up to 25 points), so it is read here, from the one
+        // implementation, never recomputed on the main thread. Reported only: no branch reads it.
+        const landed = branches[0].next, finish = hand(landed, landed.role, request).find(o => o.kind === 'finish');
+        if (finish) {
+          const target = node(finish.techniqueId), explained = K.ngKnowledgeExplainMove(profile, context(landed, request, target), target);
+          if (explained.status !== 'ready' || explained.chance !== moveChance(landed, target, request)) throw new Error('follow-up-finish-mismatch');
+          result.followUp = { kind: 'finish', chance: explained.chance, explanation: explained };
+        }
+        continue;
       }
       if (a.kind === 'escape') {
         const explained = K.ngKnowledgeExplainEscape(profile, context(s, request, act, node(a.destinationId)), submission);

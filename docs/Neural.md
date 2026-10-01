@@ -384,8 +384,12 @@ deferred worker (`game-model.worker.js`; mechanics under `static/neural/mdp/`) o
 seats, gi/no-gi, move counter, momentum, sharpness, question penalty, belt verdict, `opponentDefend`. Objective `max-win/min-loss/min-nontermination`. Practice moves odds and forward
 value through ONE module (`knowledge-profile.src.js`), so a correct answer moves the numbers.
 
-- **Card**: Win chance plus the immediate chance (Move / Entry / Finish / Escape); the best card is
-  **Suggested** (certified) or **Recommended** (exact). Tooltip and Inspect decompose it exactly,
+- **Card**: Win chance plus the immediate chance (Move / Finish / Escape). A submission dealt on a
+  position is an ENTRY: stepping in is certain, so its small line is **Works** and the chance of the
+  finish it leads to, as the landed state will roll it (the adapter's `followUp`) — never the
+  step's own 100% (v1.213.0, owner 2026-10-01). Inspect shows the same number and says the step
+  in words. The best card is **Suggested** (certified) or **Recommended** (exact). Tooltip and
+  Inspect decompose it exactly,
   `P(lands)·[win | lands] + P(misses)·[win | misses]` from the engine's own rows (`ngMdpSplit`),
   then submitted and no-tap; a split that does not reconcile is dropped.
 - **Order**: dealt by EDGE, **sorted once** by Win chance when every card has one unless touched

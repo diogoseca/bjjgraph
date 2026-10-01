@@ -46,6 +46,32 @@ test('entry is deterministic, preserves the cap opportunity and applies exactly 
   assert.ok(adapter.enumerate(next,request).actions.some(a=>a.kind==='finish'));
 });
 
+// THE CARD'S "Works" NUMBER (v1.213.0): an entry reports the finish the LANDED state rolls, read from
+// that state's own Finish row. This fixture separates it from the same law at the current state on
+// every input that differs: the position deck (Position|Top -> the submission's own deck), the
+// question modifier (-.04 -> 0 after the arrival) and the opponent's value (the position's -> the
+// submission's). A follow-up priced at the current state fails every assertion below.
+test('entry reports the landed Finish chance and explanation, and no branch reads it',()=>{
+  const {adapter,request,snapshot,profile,graph}=setup();
+  const row=adapter.enumerate(snapshot,request).actions.find(a=>a.kind==='entry');
+  const next=row.branches[0].next,finish=adapter.enumerate(next,request).actions.find(a=>a.kind==='finish');
+  assert.equal(row.followUp.kind,'finish');
+  assert.equal(row.followUp.chance,finish.immediateExecutionChance,'the number the Finish card rolls');
+  assert.equal(row.followUp.explanation.chance,row.followUp.chance);
+  assert.deepEqual(row.followUp.explanation.knowledge.components.map(c=>c.deckKey),['Submission|Attacker','Submission|Attacker','Submission|Attacker','Submission|Attacker'],'landed position deck, not Position|Top');
+  const sub=graph.nodes.find(n=>n.id==='sA');
+  const now=K.ngKnowledgeExplainMove(profile,{ruleset:'gi',positionKey:'Position|Top',techniqueKey:sub.deckKey,opponentValue:-.2,aiSkill:.07,qMod:-.04,combo:3,arrivalAge:0},sub).chance;
+  assert.notEqual(now,row.followUp.chance,'the control: the current-state price is a different number here');
+  assert.deepEqual(row.branches.map(b=>b.events),[['commit','entry','increment','arrival']],'still one certain branch');
+  assert.equal(row.immediateExecutionChance,1);
+  // the solver passes it through on the root action, beside the unchanged certain step
+  const expanded=M.ngMdpExpand(adapter,request,{maxStates:2000,maxBranches:20000,maxMilliseconds:20000});
+  const solved=M.ngMdpSolve(expanded,request,{maxStates:2000,maxBranches:20000,maxMilliseconds:20000});
+  const out=solved.actions.find(a=>a.actionId===row.id);
+  assert.equal(out.immediateExecutionChance,1);assert.equal(out.followUp.chance,row.followUp.chance);
+  for(const a of solved.actions.filter(a=>a.immediateExecutionKind!=='entry'))assert.equal(a.followUp,undefined,'only entries carry one');
+});
+
 test('same-state miss costs zero, changed-state miss increments without cap check, success checks cap',()=>{
   const {adapter,request,snapshot}=setup();const action=adapter.enumerate(snapshot,request).actions.find(a=>a.kind==='transition');
   const same=action.branches.find(b=>b.events.includes('same-state-miss')),changed=action.branches.find(b=>b.events.includes('changed-state-miss')),success=action.branches.find(b=>b.events.includes('success'));

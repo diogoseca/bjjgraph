@@ -153,6 +153,16 @@ function ngChoiceValueSplit(r, quality) {
     ? { lands: s.lands, winIfLands: s.lands > 0 ? s.winIfLands : null, winIfMisses: s.lands < 1 ? s.winIfMisses : null } : null;
 }
 
+// An ENTRY's follow-up (mdp-adapter `followUp`): the chance the landed state's Finish row rolls, and
+// that row's knowledge explanation. Like the split, it is shown only if it is internally consistent;
+// otherwise it is dropped and the card prints "—", never a guess.
+function ngChoiceValueFollowUp(r) {
+  const f = r && r.followUp, e = f && f.explanation;
+  if (!f || f.kind !== "finish" || !ngChoiceValueProbability(f.chance) || !e || e.status !== "ready"
+    || !ngChoiceValueProbability(e.chance) || Math.abs(e.chance - f.chance) > 1e-12) return null;
+  return { kind: "finish", chance: f.chance, explanation: e };
+}
+
 export function ngChoiceValueController({ publish = () => {}, isCurrent = () => true, cancel = () => {} } = {}) {
   let active = null, sequence = 0, destroyed = false, snapshot = null;
   const emit = value => { snapshot = ngChoiceValueCopy(value); publish(snapshot); return snapshot; };
@@ -208,7 +218,7 @@ export function ngChoiceValueController({ publish = () => {}, isCurrent = () => 
           || (r.immediateExecutionChance != null && !ngChoiceValueProbability(r.immediateExecutionChance))) return ngChoiceValueUnavailable(id, "invalid-result", immediate);
         if (response.root.selectedActionId === id && ["win", "loss", "explicitNoResult", "nontermination"].some(k => certified ? Math.max(r.outcomeBounds[k][0], response.root.outcomeBounds[k][0]) > Math.min(r.outcomeBounds[k][1], response.root.outcomeBounds[k][1]) : Math.abs(r.outcomes[k] - response.root.outcomes[k]) > 1e-7)) return ngChoiceValueUnavailable(id, "invalid-result", immediate);
         const winBounds = r.winBounds || (quality.maxWinError > 0 ? [Math.max(0, r.outcomes.win - quality.maxWinError), Math.min(1, r.outcomes.win + quality.maxWinError)] : undefined);
-        return { ...immediate, ...r, split: ngChoiceValueSplit(r, quality), ...(winBounds ? { winBounds } : {}), primaryCertified: certified };
+        return { ...immediate, ...r, split: ngChoiceValueSplit(r, quality), followUp: ngChoiceValueFollowUp(r), ...(winBounds ? { winBounds } : {}), primaryCertified: certified };
       });
       const ready = actions.filter(r => ["ready", "bounded"].includes(r.status));
       // THREAT CARDS: your outcome if the opponent tries that move now (engine threat probes). Held
@@ -301,6 +311,8 @@ export function ngChoiceValueThreatView(record, snapshot) {
     tooltip: "If they try this, you win " + value + " (you get submitted " + loss + ", nobody taps " + none + "), with your best play from there." };
 }
 
+// `kind` "entry" means `explanation` is the entry's FOLLOW-UP finish (`followUp.explanation`), read at
+// the state the entry lands in — the conditions that finish is actually rolled at.
 export function ngChoiceValueKnowledge(explanation, kind) {
   const k = explanation?.knowledge;
   if (!k || k.status === "unavailable") return { summary: "Practice effect unavailable", lines: [] };
@@ -314,24 +326,42 @@ export function ngChoiceValueKnowledge(explanation, kind) {
   if (comparison?.kind === "same-context-no-knowledge" && ngChoiceValueProbability(explanation.chance)
     && ngChoiceValueProbability(comparison.chance) && Number.isFinite(comparison.effectiveDelta)
     && Math.abs(explanation.chance - comparison.chance - comparison.effectiveDelta) < 1e-7) {
-    lines.push((kind === "entry" ? "Finish chance at these conditions: " : "Immediate chance: ") + ngChoiceValuePercent(explanation.chance) + " with practice; " + ngChoiceValuePercent(comparison.chance) + " without practice, with all other conditions unchanged.");
+    lines.push((kind === "entry" ? "Finish chance once you are in: " : "Immediate chance: ") + ngChoiceValuePercent(explanation.chance) + " with practice; " + ngChoiceValuePercent(comparison.chance) + " without practice, with all other conditions unchanged.");
   }
-  if (kind === "entry") lines.push("Entry itself is automatic. The finish comparison uses these conditions, not the conditions of a later attempt.");
+  if (kind === "entry") lines.push("Stepping into the submission is certain. The finish is rolled once you are in, so these are that position's conditions, not this one's.");
   if (explanation.clamp?.applied) lines.push("The game's probability limit applies. These bonuses do not simply add to the displayed chance.");
   lines.push("These are in-game modifiers, not measured grappling ability. Recent study fades on later arrivals; practice credit stays.");
   return { summary: k.components.some(c => c.bonus > 0) ? "Your practice is included" : "No practice bonus yet", lines };
 }
 
+// THE CARD'S SMALL NUMBER (owner, 2026-10-01: "every submission from the position have 100% chance
+// ... going for a triangle from closed guard is difficult"). A submission dealt on a position is an
+// ENTRY: stepping into it is certain (no roll), and the gamble is the finish that follows. So an entry
+// prints "Works" and the FOLLOW-UP finish's chance — the number the Finish card will show once you
+// are in — and never the step's own 100%, which read as "this always works". Until the solve returns
+// that number the card prints "Works —". `immediateText` is the small line as one phrase (the
+// accessible name); `immediateLine` is the Inspect sentence.
+export function ngChoiceValueImmediate(kind, chance, followUp) {
+  const entry = kind === "entry" || kind === "enter";
+  const label = entry ? "Works" : ({ finish: "Finish", escape: "Escape", transition: "Move" })[kind] || "Move";
+  const immediate = ngChoiceValuePercent(entry ? followUp?.chance : chance);
+  return { immediateLabel: label, immediate, immediateKind: entry ? "entry" : kind || "transition",
+    immediateText: entry ? "Works " + immediate : label + " chance " + immediate,
+    immediateLine: entry ? "Works " + immediate + ": the finish's chance once you are in. Stepping in is certain, with no roll."
+      : label + " chance now: " + immediate };
+}
+
 export function ngChoiceValueView(record, snapshot) {
   const r = record || { status: "unavailable", reason: "not-wired" };
   const ready = ["ready", "bounded"].includes(r.status) && ngChoiceValueVector(r.outcomes);
-  const knowledge = ngChoiceValueKnowledge(r.explanation, r.immediateExecutionKind || r.kind);
+  const kind = r.immediateExecutionKind || r.kind, entry = kind === "entry" || kind === "enter";
+  const followUp = entry ? ngChoiceValueFollowUp(r) : null;
+  const knowledge = ngChoiceValueKnowledge(entry ? followUp?.explanation : r.explanation, entry ? "entry" : kind);
   const reason = r.reason || r.status;
   const view = {
     status: r.status, label: "Win chance", value: "—", detail: ngChoiceValueReason(reason),
     state: r.status === "pending" ? "Calculating…" : r.status === "error" ? "Could not calculate" : "Unavailable",
-    immediate: ngChoiceValuePercent(r.immediateExecutionChance),
-    immediateLabel: ({ entry: "Entry", enter: "Entry", finish: "Finish", escape: "Escape", transition: "Move" })[r.immediateExecutionKind || r.kind] || "Move",
+    ...ngChoiceValueImmediate(kind, r.immediateExecutionChance, followUp),
     knowledge, outcomes: [], notes: [], recommended: false,
   };
   if (!ready) return view;
@@ -353,12 +383,21 @@ export function ngChoiceValueView(record, snapshot) {
   if (certified ? r.outcomeBounds.explicitNoResult[1] > 0 || r.outcomeBounds.nontermination[1] > 0 : o.explicitNoResult > 0 || o.nontermination > 0) view.notes.push("No result: " + ngChoiceValuePercent(o.explicitNoResult, certified ? r.outcomeBounds.explicitNoResult : undefined) + " game reset; " + ngChoiceValuePercent(o.nontermination, certified ? r.outcomeBounds.nontermination : undefined) + " play that never ends.");
   // THE TOOLTIP (owner, 2026-09-29): how the card number is made, in plain words. Q = P(lands) x
   // [win if it lands] + P(misses) x [win if it misses], from the engine's own rows (ngMdpSplit).
-  const sp = r.split, kind = view.immediateLabel;
-  if (sp) {
+  // An ENTRY lands with certainty (lands = 1), so its lines say that in words, then name the finish
+  // that follows and the win chance from inside — never "(100%)", which read as a success rate.
+  const sp = r.split, label = view.immediateLabel;
+  if (sp && entry) {
+    const lines = ["You step into the submission: certain, no roll."];
+    if (followUp) lines.push("Then the finish works " + view.immediate + " when you go for it.");
+    if (sp.lands > 0) lines.push("From there, your win chance with your best play is " + ngChoiceValuePercent(sp.winIfLands) + ".");
+    lines.push("You get submitted " + view.outcomes[1].value + " · nobody taps " + view.outcomes[2].value + ".");
+    view.split = lines;
+    view.tooltip = "Win chance " + view.value + "\n" + lines.join("\n");
+  } else if (sp) {
     const pct = ngChoiceValuePercent, lines = [];
-    const landWord = { Entry: "Entry is automatic", Finish: "The finish lands", Escape: "The escape works", Move: "The move lands" }[kind] || "The move lands";
-    const missWord = { Finish: "The finish misses", Escape: "The escape fails", Move: "The move misses" }[kind] || "The move misses";
-    const then = w => w === 1 ? "you win" : w === 0 ? (kind === "Escape" ? "you are submitted" : "you do not win") : "then you win " + pct(w);
+    const landWord = { Finish: "The finish lands", Escape: "The escape works", Move: "The move lands" }[label] || "The move lands";
+    const missWord = { Finish: "The finish misses", Escape: "The escape fails", Move: "The move misses" }[label] || "The move misses";
+    const then = w => w === 1 ? "you win" : w === 0 ? (label === "Escape" ? "you are submitted" : "you do not win") : "then you win " + pct(w);
     if (sp.lands > 0) lines.push(landWord + " (" + pct(sp.lands) + "): " + then(sp.winIfLands) + ".");
     if (sp.lands < 1) lines.push(missWord + " (" + pct(1 - sp.lands) + "): " + then(sp.winIfMisses) + ".");
     if (sp.lands > 0 && sp.lands < 1) lines.push(pct(sp.lands) + " × " + pct(sp.winIfLands) + " + " + pct(1 - sp.lands) + " × " + pct(sp.winIfMisses) + " ≈ " + view.value + " win chance.");
@@ -397,7 +436,7 @@ export function ngChoiceValueHTML(view, detail = false) {
   if (!detail) return '<div class="ngcv-line"><span>Win chance</span><strong data-choice-win>' + esc(view.value) + '</strong></div>';
   return '<section class="ngcv-detail" aria-label="Expected roll outcomes"><div class="ngcv-line"><span>Win chance <small>· ' + esc(view.state) + '</small></span><strong data-choice-win>' + esc(view.value) + '</strong></div>'
     + '<p>' + esc(view.detail) + '</p>'
-    + '<p><b>' + esc(view.immediateLabel) + ' chance now: ' + esc(view.immediate) + '</b></p>'
+    + '<p data-choice-immediate-line><b>' + esc(view.immediateLine || (view.immediateLabel + ' chance now: ' + view.immediate)) + '</b></p>'
     + (view.split ? '<div class="ngcv-split" data-choice-split><b>How the win chance is made</b>' + view.split.map(line => '<p>' + esc(line) + '</p>').join("") + '</div>' : '')
     // The app's own pre-values view (runtime loaded, values still preparing) carries no outcomes,
     // knowledge or notes; opening Inspect then must render it, never throw (found v1.207.7).
@@ -409,4 +448,4 @@ export function ngChoiceValueHTML(view, detail = false) {
 // The standalone verification bundle installs this namespace eagerly. Production may
 // omit the entire module and pass its imported namespace to setChoiceValueRuntime.
 export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder,
-  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent });
+  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent, ngChoiceValueImmediate });

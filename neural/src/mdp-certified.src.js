@@ -7,7 +7,7 @@
 function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math) {
   const stageStart=Date.now();diagnostics.stage='quotient';
   const { rat, add, sub, mul, div, cmp, number, components, endComponents, zero,
-    terminal, backup, split, exportVector, lex, digest, envelope, supportHashSteps, policyHash } = math;
+    terminal, backup, split, followUp, exportVector, lex, digest, envelope, supportHashSteps, policyHash } = math;
   const ids = [...kernel.states.keys()].sort(), size = 4 + kernel.subtypes.length;
   const intervalWitness = limits.certificateArithmetic === 'interval' || (limits.certificateArithmetic == null && ids.length > 128);
   const all = new Map(ids.map(id => [id, kernel.states.get(id).actions]));
@@ -320,7 +320,7 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
       else if (b.terminal==='win') u=add(u,b.p);
     }
     return { ...records(id,v,e,u),actionId:a.id,selected:lifted.get(id).id===a.id,split:split(a,actual,kernel.subtypes),
-      ...(a.immediateExecutionChance == null ? {} : { immediateExecutionChance:number(rat(a.immediateExecutionChance)),immediateExecutionKind:a.immediateExecutionKind || 'execution' }) };
+      ...(a.immediateExecutionChance == null ? {} : { immediateExecutionChance:number(rat(a.immediateExecutionChance)),immediateExecutionKind:a.immediateExecutionKind || 'execution' }),...followUp(a) };
   };
   const rootId = kernel.rootId, rootActions = kernel.states.get(rootId).actions;
   const exactQ = new Map(rootActions.map(a => [a.id,backup(a,actual,kernel.subtypes)]));

@@ -30,6 +30,9 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 // exists ONLY while the fold is open (`_landMoreAlign`), where it right-aligns the ✕ past the
 // contents row; the collapsed pill is centred by this bar, exactly as it was before v1.194.0.
 const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;gap:12px;";
+// The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
+// added on the left only). The template's inline 24px is the same value for the first paint.
+const NG_TRAY_INSET = 24;
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
 // count line = 40px from the padding-box top; the question starts at the card's padding-top
@@ -459,6 +462,19 @@ class Component extends DCLogic {
   // the hand is holding feels like lag, not smoothness. One rAF owns all of it, so a new gesture
   // simply cancels the old one and nothing can fight for `scrollLeft`.
   _trayStop() { if (this._trayRaf) { cancelAnimationFrame(this._trayRaf); this._trayRaf = 0; } this._trayTo = null; }
+  // THE FADE FOLLOWS THE SCROLL (v1.213.2). An edge fades only while a card is hidden past it, and
+  // a hand that fits fades on neither side (helmet.html `.ng-optionrow[data-fade]`). Called from the
+  // row's `scroll` event — which every writer of scrollLeft fires: the wheel glide, the drag, its
+  // fling, a focus scroll, the touch platform's own — and from the deal and every `updateUiShift`
+  // frame, because a new hand, a moved inset or a resize changes the overflow without scrolling.
+  // Writes only on a change, so the per-frame call is a read.
+  _syncTrayFade() {
+    const row = this.optionsRef.current; if (!row) return;
+    const max = row.scrollWidth - row.clientWidth, x = row.scrollLeft;
+    const sides = max > 1 ? [x > 1 ? "l" : "", x < max - 1 ? "r" : ""].filter(Boolean).join(" ") : "";
+    if ((row.getAttribute("data-fade") || "") === sides) return;
+    if (sides) row.setAttribute("data-fade", sides); else row.removeAttribute("data-fade");
+  }
   _trayClamp(el, x) { return Math.max(0, Math.min(el.scrollWidth - el.clientWidth, x)); }
   // wheel: accumulate onto a target and ease toward it, so consecutive notches compound into one
   // continuous move rather than a series of jumps.
@@ -470,7 +486,10 @@ class Component extends DCLogic {
       this._trayRaf = 0;
       if (this._trayTo == null) return;
       const gap = this._trayTo - el.scrollLeft;
-      if (Math.abs(gap) < 0.5) { el.scrollLeft = this._trayTo; this._trayTo = null; return; }
+      // LAND, DON'T CREEP (v1.213.2). The offset snaps to device pixels, so an eased step under one
+      // pixel never moves it: the glide used to stall 1-2px short of its target with the rAF still
+      // running — at the right end that kept the right fade on (measured 4642 of 4644 at 1440).
+      if (Math.abs(gap) < 0.5 || Math.abs(gap * 0.22) < 1) { el.scrollLeft = this._trayTo; this._trayTo = null; return; }
       el.scrollLeft += gap * 0.22;                   // exponential ease-out, ~150ms to settle
       this._trayRaf = requestAnimationFrame(step);
     };
@@ -680,6 +699,7 @@ class Component extends DCLogic {
       e.preventDefault();
       this._trayGlideBy(orow, d);
     }, { passive: false });
+    if (orow) orow.addEventListener("scroll", () => this._syncTrayFade(), { passive: true });
     // ── WHILE MORE IS OPEN, THE VERTICAL WHEEL SCROLLS THE SCREEN (v1.175.0, owner: "I have to
     // scroll the screen and what moves up is this new card … the land card and the videos
     // row") ── ONE document-level capture listener for the column's fixed siblings:
@@ -2684,7 +2704,8 @@ class Component extends DCLogic {
   _pumpOdds(container, n) {
     const to = Math.round(this.moveChance(n) * 100);
     const col = to >= 60 ? "#7ee0a8" : to >= 38 ? "#cbd24e" : "#e8956b";
-    container.querySelectorAll(".ngsucbig").forEach((el) => {
+    // an entry's "Works" row is the solve's number: the refresh below re-solves and repaints it
+    container.querySelectorAll(".ngsucbig:not([data-choice-follow-up])").forEach((el) => {
       const from = parseInt((el.textContent || "0").replace(/[^0-9]/g, ""), 10) || 0;
       el.style.color = col;
       if (this.isTest()) { el.textContent = to + "%"; return; }
@@ -4963,8 +4984,16 @@ class Component extends DCLogic {
     // a move from the live hand and carries its deal-time `ev` row.
     const edge = null;
     const col = "#b3c6ea", cat = this.deckCat(n); // role-correct, see buildOptionCard
+    // AN ENTRY'S ROW IS THE CARD'S "Works" NUMBER (v1.213.0). Your own submission dealt on a position
+    // steps you in with certainty; the gamble is the finish rolled once you are in, which only the
+    // solve knows (`ngChoiceValueImmediate`). `moveChance(n)` HERE prices that finish at THIS state's
+    // conditions, and measured on the corpus it differs from the rolled one on 429 of 524 entry cards
+    // for a practised profile (up to 25 points) — so the sheet shows the card's number, repainted by
+    // `paintChoiceValues` ([data-choice-follow-up]), and never a second one.
+    const entryOpt = !opt.threat && n.ty === "submissions" && opt.action !== "finish" && opt.action !== "escape";
+    const followView = entryOpt ? this.choiceValueView(opt) : null;
     const pct = Math.round(this.moveChance(n) * 100);
-    const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+    const oddsCol = entryOpt ? "#d7e2f4" : pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const resName = opt.res >= 0 ? this.graphName(this.nodes[opt.res]) : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
     // prose that NAMES states: "A transition from your current position to X, Y" must not name a
@@ -5038,13 +5067,16 @@ class Component extends DCLogic {
       drillNote +
       // the card's own bottom row, at sheet scale: caption left, the number right
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
-        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
+        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (entryOpt ? "Works" : n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
         '<span style="display:flex;align-items:center;gap:8px;">' + stepsSpan + editBtn +
-          '<span class="ngsucbig" data-odds style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + pct + '%</span>' +
+          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
         '</span>' +
       '</div>' +
       '</div>' +
-      (cat === "Submission"
+      // an entry is a certain step into the submission, said as a step, never as "100%"
+      (entryOpt
+        ? '<div data-choice-entry-step style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>steps you into this submission: certain, no roll. The finish is the gamble.</div>'
+        : cat === "Submission"
         ? ''
         : (!tp && resName !== "\u2014" ? '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>on success, advances to <b style="color:#c3cde0;font-weight:600;">' + this.splitName(resName).main + '</b></div>' : ''));
     const valueDetail = document.createElement("div");
@@ -5201,7 +5233,7 @@ class Component extends DCLogic {
       // the stepper moves the odds, so it moves the EDGE — here and on the small card behind it,
       // from the one `edgeMark`, or the sheet would contradict the card it grew out of
       const bedge = head.querySelector(".ngedgebig");
-      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { el.textContent = p + "%"; el.style.color = c; }); const e2 = this.edgeMark(opt); if (bedge && e2) { bedge.textContent = e2.txt; bedge.style.color = e2.col; } this.refreshOptionOdds(); };
+      const bupd = () => { const p = Math.round(this.moveChance(n) * 100); const c = p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b"; bsvAll.forEach((el) => { if (el.hasAttribute("data-choice-follow-up")) return; el.textContent = p + "%"; el.style.color = c; }); const e2 = this.edgeMark(opt); if (bedge && e2) { bedge.textContent = e2.txt; bedge.style.color = e2.col; } this.refreshOptionOdds(); };
       if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
@@ -12928,8 +12960,17 @@ class Component extends DCLogic {
     this.uiShift = previous + (tgt - previous) * (1 - Math.exp(-dt / 0.4));
     if (Math.abs(tgt - this.uiShift) < 0.001) this.uiShift = tgt;
     const op = this.optionsRef.current;
-    // the pane anchors LEFT (v1.94.0), so the cards yield leftward padding, not rightward
-    if (op) op.style.paddingLeft = (24 + this._paneLayout().left).toFixed(1) + "px";
+    // the pane anchors LEFT (v1.94.0), so the cards yield leftward padding, not rightward.
+    // BOTH INSETS, ONE VALUE, THIS ONE WRITER (v1.213.2). Until the pane moved left this wrote
+    // paddingRight; afterwards nothing did, and `clearOptions`'s `paddingRight = ""` had DELETED the
+    // template's inline 24px (CLAUDE.md §6.1), so at desktop widths the last card sat flush against
+    // the edge (measured 0px at 1440). The trailing inset is the leading one without the pane's
+    // reserve; the phone stylesheet's `!important` 12px wins over both, symmetric too.
+    if (op) {
+      op.style.paddingLeft = (NG_TRAY_INSET + this._paneLayout().left).toFixed(1) + "px";
+      op.style.paddingRight = NG_TRAY_INSET + "px";
+      this._syncTrayFade();
+    }
     this._layoutLandHorizontal();
     // fade the legend out only while option cards actually overlap it; fade back in otherwise
     const leg = this.legendRef.current;
@@ -12969,7 +13010,7 @@ class Component extends DCLogic {
     // any commit/teardown consumes a staged exchange (rollFromPosition sets it AFTER this runs)
     this._stagedTech = null;
     this._waitingSubmission = null;
-    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
+    const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.removeAttribute("data-fade"); el.scrollLeft = 0; } this._trayStop(); this._setDetailCtx(null); this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this.setBeacon(null); this._dropCountdownEvent(); }
   // "Decide 1…" IS THE HAND'S SENTENCE, so it cannot outlive the hand. Clicking another node mid
   // countdown stages a fresh board — clock held, bars back to full — and the owner met the old
   // window's last warning still on screen over it. `enterLand` already drops a stale announcer,
@@ -13459,8 +13500,21 @@ class Component extends DCLogic {
     if (record) return record;
     const kind = opt.action === "escape" ? "escape" : opt.action === "finish" ? "finish" : opt.node.ty === "submissions" ? "entry" : "transition";
     // Entry is deterministic in the live game. Other immediate rates use its existing
-    // arithmetic even before the optional future-value module has loaded.
+    // arithmetic even before the optional future-value module has loaded. An entry's card prints
+    // its FOLLOW-UP finish, which only the solve knows (`ngChoiceValueImmediate`): "Works —" here.
     return { status: "unavailable", reason: snapshot?.reason || "not-wired", immediateExecutionChance: kind === "entry" ? 1 : this.choiceChance(opt), kind };
+  }
+  // The card's small line before the lazily loaded choice-value module is here: the SAME words as
+  // its `ngChoiceValueImmediate`, which owns them once loaded. Two copies in two bundles, so
+  // tests/choice_value.test.mjs pins them equal for every kind ("Works —" for an entry, never 100%).
+  choiceImmediateFallback(kind, p) {
+    const entry = kind === "entry" || kind === "enter";
+    const label = entry ? "Works" : ({ finish: "Finish", escape: "Escape", transition: "Move" })[kind] || "Move";
+    const immediate = entry || typeof p !== "number" || !Number.isFinite(p) || p < 0 || p > 1 ? "—" : p > 0 && p < .005 ? "<1%" : p < 1 && p >= .995 ? ">99%" : Math.round(p * 100) + "%";
+    return { immediateLabel: label, immediate, immediateKind: entry ? "entry" : kind || "transition",
+      immediateText: entry ? "Works " + immediate : label + " chance " + immediate,
+      immediateLine: entry ? "Works " + immediate + ": the finish's chance once you are in. Stepping in is certain, with no roll."
+        : label + " chance now: " + immediate };
   }
   choiceValueView(opt) {
     const runtime = this.choiceValueRuntime(), record = this.choiceValueRecord(opt);
@@ -13470,14 +13524,13 @@ class Component extends DCLogic {
     return { label: "Win chance", value: "—", status: loading ? "pending" : error ? "error" : "unavailable",
       state: loading ? "Preparing…" : error ? "Could not calculate" : "Unavailable", recommended: false,
       detail: loading ? "Preparing win chances. You can choose a move now." : "Win chance is unavailable for this roll. You can still choose this move.",
-      immediate: typeof p !== "number" || !Number.isFinite(p) || p < 0 || p > 1 ? "—" : p > 0 && p < .005 ? "<1%" : p < 1 && p >= .995 ? ">99%" : Math.round(p * 100) + "%",
-      immediateLabel: ({ entry: "Entry", finish: "Finish", escape: "Escape", transition: "Move" })[record.kind] || "Move" };
+      ...this.choiceImmediateFallback(record.kind, p) };
   }
   choiceValueHTML(view, detail = false) {
     const runtime = this.choiceValueRuntime();
     if (runtime) return runtime.ngChoiceValueHTML(view, detail);
     const line = '<div class="ngcv-line"><span>Win chance</span><strong data-choice-win>—</strong></div>';
-    return detail ? '<section class="ngcv-detail" aria-label="Expected roll outcomes">' + line + '<p>' + this.choiceEscape(view.detail) + '</p><p>' + this.choiceEscape(view.immediateLabel + ' chance now: ' + view.immediate) + '</p></section>' : line;
+    return detail ? '<section class="ngcv-detail" aria-label="Expected roll outcomes">' + line + '<p>' + this.choiceEscape(view.detail) + '</p><p data-choice-immediate-line>' + this.choiceEscape(view.immediateLine || (view.immediateLabel + ' chance now: ' + view.immediate)) + '</p></section>' : line;
   }
   refreshChoiceValues() {
     if (this.__ngDestroyed || this._execution || !(this._optionCards || []).some(c => !c.opt.threat)) return;
@@ -13553,7 +13606,7 @@ class Component extends DCLogic {
       if (chance) chance.textContent = view.immediate;
       if (label) label.textContent = view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
-      if (execute) execute.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + view.immediateLabel + " chance " + view.immediate + ".");
+      if (execute) execute.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + ".");
       const best = oc.card.querySelector("[data-choice-recommended]");
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
@@ -13569,8 +13622,11 @@ class Component extends DCLogic {
     }
     const detail = this.optDetailRef.current?.querySelector("[data-choice-value-detail]");
     if (detail && this._detailCtx?.opt && !this._detailCtx.opt.threat) {
-      const html = this.choiceValueHTML(this.choiceValueView(this._detailCtx.opt), true);
+      const view = this.choiceValueView(this._detailCtx.opt), html = this.choiceValueHTML(view, true);
       if (detail.innerHTML !== html) detail.innerHTML = html;
+      // An entry's sheet row prints the card's own "Works" number (`expandOption`), so it repaints here.
+      const follow = this.optDetailRef.current.querySelector("[data-choice-follow-up]");
+      if (follow) follow.textContent = view.immediate;
     }
     const complete = ["ready", "bounded"].includes(snapshot?.status) && (this._optionCards || []).some(c => !c.opt.threat)
       && (this._optionCards || []).every(c => c.opt.threat || ["ready", "bounded"].includes(this.choiceValueView(c.opt).status));
@@ -13644,6 +13700,15 @@ class Component extends DCLogic {
   }
   renderChoiceGroups(el, own, threats, pick, seconds, escape) {
     this.cancelChoiceValues("new-hand");
+    // EVERY DEALT HAND CENTRES (v1.213.1, owner 2026-10-01: "the choices row when in submissions
+    // nodes are not centered but left aligned"). `startExecution` sets the row to flex-start so the
+    // chosen card stays under the pointer while it executes, and only `clearOptions` set it back. A
+    // submission ENTRY goes from that execution straight into the next deal with no clearOptions
+    // between, so the submission's hand inherited flex-start: a 5-card hand at 24-813 in a 24-1440
+    // row. The deal owns its own alignment, the ordinary hand's: centred in the row's content box
+    // (its left inset is the measured pane, `updateUiShift`), from the start when it overflows.
+    // Pinned by e2e/journeys/choice-row-centre.spec.ts.
+    el.style.justifyContent = "safe center";
     this._handEscape = !!escape;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {
@@ -13695,6 +13760,7 @@ class Component extends DCLogic {
     const touched = () => { this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
+    this._syncTrayFade();
     this.refreshChoiceValues();
   }
   previewStateChoice(opt, onPick) {
@@ -13893,7 +13959,7 @@ class Component extends DCLogic {
     const oddsCol = isThreat ? this.choiceOddsColor(pct, true) : "#d7e2f4";
     const value = !isThreat ? this.choiceValueView(opt) : null;
     const bottomRow = '<div class="ngbotrow" style="flex:none;margin-top:auto;padding-top:8px;white-space:nowrap;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:4px;">' +
-      '<div data-immediate-label style="font-size:9px;font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
+      '<div data-immediate-label' + (!isThreat && value.immediateKind === "entry" ? ' title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:9px;font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
       '<span class="ngodds" style="flex:none;font-size:15px;font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (isThreat ? (pct == null ? '—' : pct + '%') : this.choiceEscape(value.immediate)) + '</span></div>';
     const headMid = isEsc ? "Escape" : n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition";
     const headVal = isThreat ? '<span class="ngedge" data-threat-win title="Your win chance if they try this" style="flex:none;font-size:13px;font-weight:700;color:#b3c6ea;">—</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';

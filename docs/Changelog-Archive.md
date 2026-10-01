@@ -9248,3 +9248,118 @@ requests in 9 of the 15, and the retry absorbed every one. The one failure was
 - Units 1,168/1,168; value journeys 74/74 (choice-value, game-value-live, option-hand, momentum,
   gameplan-study-live, option-edge, start-from, dual-consumers, game-knowledge,
   hydration-restarts).
+## v1.213.0 — A SUBMISSION CARD PRINTS THE FINISH IT LEADS TO, NEVER ITS CERTAIN STEP (2026-10-01)
+
+**Owner:** "inspect why every submission from the position have 100% chance. i guess the submission
+chance is the only thing to show (win chance right?) i'm confused with the UI, but it should be
+obvious that's a direct navigation / outbound connection if it is.. some like going for a triangle
+from closed guard is difficult."
+
+**Mechanism, content to card.** A submission listed at a position (e.g. Triangle Choke from Closed
+Guard at Closed Guard/Bottom) is dealt as an ENTRY (`kind: 'entry'`). The adapter models it as a
+certain step into the submission state (`immediateExecutionChance = 1`, one branch), and the authored
+`success_rate` is rolled by the FINISH card you are dealt once you are in (`moveChance` at that
+state). The card printed the step: "Entry 100%" on every submission, on every position, for every
+player. Threat cards printed "Odds" (the authored base), never 100%.
+
+**Win chance was right.** Solved on Closed Guard/Bottom and Mount/Top (neutral profile, aiSkill .07,
+cap 9; 20 entry cards): every entry's Win chance equals the value of the submission state it lands
+in, and in all 20 the best play there is the Finish, so the finish chance is inside the number
+(Triangle from Closed Guard bottom: finish 58%, Win chance 86%, because a miss leaves the roll going).
+No number changed in this release; the Win chances before and after are identical on the owner screen.
+
+**Which finish chance.** The same law priced at the CURRENT state (what Inspect's "Finish chance" row
+printed) is not the one the game rolls: inside the submission the position bonus is the submission's
+own deck (counted with the technique deck, so twice), the opponent value is the submission's, the
+question modifier is reset and sharpness has aged one arrival. Over the corpus (gi, 524 entry cards
+on 170 seats): they disagree on 56 with no practice and on 429 with practice, by up to 25 points. So
+the card's number is read from the engine — the adapter's `followUp` (the landed state's Finish row:
+chance + knowledge explanation), passed through `ngMdpFollowUp` in both the exact and the certified
+export — never recomputed on the main thread. Live check: entering Triangle / Armbar / Kimura from
+Closed Guard bottom deals a Finish card printing exactly the Works number (52 / 49 / 45%).
+
+**What changed.** Card: "Works N%" (that follow-up), "Works —" until the solve lands. Inspect: the
+row reads "Works" with the card's number, a "→ steps you into this submission: certain, no roll" line,
+the detail line "Works N%: the finish's chance once you are in. Stepping in is certain, with no roll.",
+and the breakdown "You step into the submission: certain, no roll. / Then the finish works N% … /
+From there, your win chance with your best play is W%." The practice lines describe the landed
+state. The app's pre-load fallback and `ngChoiceValueImmediate` say the same words (unit-pinned for
+30 kind × chance pairs). The exposure pin moved (adapter hash) with a label-neutral note.
+
+**Findings left to the owner (no number changed):** the finish inside a submission counts the
+submission's own deck twice (position and technique) and drops the origin position's practice and
+its opponent value; and a threat card's "Odds" is the authored base, while the game rolls your
+escape at `clamp(1 − base + …)`.
+
+**Mutants (built bundle, one at a time; a neutral control stayed green):**
+
+| mutant | result |
+|---|---|
+| entry prints its own step (`ngChoiceValueImmediate`) | red: submission-card-odds, option-hand (eight 100%s), choice-value curated, choice_value unit (3); option-edge survives (reads pre-values) |
+| follow-up priced at the current state (adapter) | red: submission-card-odds control, mdp_adapter unit |
+| Inspect row prints `moveChance(n)` for an entry | red: submission-card-odds "sheet == card" |
+| (recorded) capture in tray order | still red, both defense cases |
+| (recorded) finish chance constant .5; `calSuccess` → null | still red |
+| (recorded) ceiling .95 → 1.05; Finish card prints chance + 2 | still red |
+| film bonus removed | red on film-look's Move-card target once headroom was required (it first SURVIVED on a card pinned at 95) |
+
+## v1.213.1 — A SUBMISSION'S HAND CENTRES WHERE THE ORDINARY HAND DOES (2026-10-01)
+
+**Owner:** "the choices row when in submissions nodes are not centered but left aligned. pls fix".
+
+**Cause.** `startExecution` sets the option row to `justify-content: flex-start` so the chosen card
+stays under the pointer while it executes; only `clearOptions` set it back to `safe center`. Picking
+a submission entry goes from that execution straight into the next deal (`enterLand`), with no
+`clearOptions` between, so the submission's hand inherited `flex-start`. A URL arrival centred, so
+only play showed it. Measured before the fix, after entering Triangle Choke from Closed Guard: a
+5-card hand spanning 24–813 in a row whose visible area is 24–1440 (centre 313 px left at 1440,
+553 px at 1920). `renderChoiceGroups`, the one seam that deals both the ordinary and the escape hand,
+now sets the row's alignment itself.
+
+**Pinned by** `e2e/journeys/choice-row-centre.spec.ts`: attacker (an entry from Mount Top) and
+defender (the finish fails, the opponent catches you), each with the pane shut and open, at 1440,
+1024 and 390. The hand's visible area must equal the ordinary hand's at that width and pane state,
+and inside it the hand centres when it fits, or starts at the leading inset when it overflows. A
+positive count requires a fitting hand at the desktop widths.
+
+| mutant | result |
+|---|---|
+| fix line removed (= the pre-fix build) | red at 1440 and 1024; 390 cannot see it (every hand overflows there) |
+| unsafe `center` | red at all three, but by a click timeout on the clipped card, not at the inset assertion |
+
+## v1.213.2 — THE TRAY PADS ITS LAST CARD AND FADES ONLY TOWARD HIDDEN CARDS (2026-10-01)
+
+**Owner:** "after scrolling to the rightmost node, there should be some padding at the end, and no
+darkened fading since we reached the end".
+
+**Three defects in one row.**
+- *Trailing padding.* The template gives the row `padding: 8px 24px`. `clearOptions` wrote
+  `paddingRight = ""`, which deletes that inline declaration rather than restoring it (CLAUDE.md §6.1).
+  Until v1.94.0 `updateUiShift` rewrote `paddingRight` every frame, so the deletion was harmless. When
+  the pane moved left it switched to `paddingLeft`, and nothing wrote the right side again. Measured at
+  1440: the last card ended 0 px from the edge. (390 kept 12 px through the phone stylesheet's
+  `!important`.) `updateUiShift` now writes both insets from one value (`NG_TRAY_INSET`), the pane's
+  reserve on the left only, and `clearOptions` no longer deletes them.
+- *The fade* was one constant `mask-image` on both edges: the last card stayed darkened at the end,
+  the first at the start, and a hand that fits was faded too. It is now earned, the
+  `.ng-stabs[data-fade]` idiom. `_syncTrayFade` writes `data-fade` (`l`, `r`, both or absent) from the
+  live scroll position on every `scroll` event, so every writer of `scrollLeft` is covered. It also
+  runs on every deal and every `updateUiShift` frame, so a new hand, a moved inset or a resize is
+  covered.
+- *The glide stalled short of the end* (found by the new journey): `_trayGlideBy` eased by 22 % of
+  the gap, the offset snaps to device pixels, and a sub-pixel step never moved it. The glide sat
+  1–2 px short of its target (4642 of 4644) with its rAF still running, so the right fade could never
+  lift. It now lands on the target.
+
+**Pinned by** `e2e/journeys/choice-row-ends.spec.ts`, at 1440 and 390. It reaches the right end by
+the wheel, the middle by a mouse drag, and the left end by focus. It asserts the trailing inset
+equals the measured leading inset, and reads the fade from the computed mask's two stop lengths.
+A fitting hand has no mask.
+
+| mutant | result |
+|---|---|
+| no `scroll` listener | red at the right end, both widths |
+| trailing inset unowned (old deletion, no writer) | red at 1440; 390 survives (`!important` padding) |
+| constant mask again | red at the left end and on the fitting hand |
+| end test off by one (`x <= max`) | red at the right end, both widths |
+| glide creeps again | red, both widths (the wheel never reaches the end) |
