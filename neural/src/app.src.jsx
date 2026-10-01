@@ -103,6 +103,10 @@ const NG_LOSS_PRESETS = {
 // complement his game … or something that feels personal like my weak spots." All three are LIVE.
 // Copy rule from the same brief: it should feel PERSONAL — "my weak spots", not "biggest gaps in
 // the game" — and never the model's words (no "FLOW", "gain", "tier", "kernel") on this surface.
+// The position a "Standing" roll opens on — read by the opening (`_standingStart`) AND by the
+// start the weak-spots ranking assumes for it (`_flowStartSpec`), so the two cannot name different
+// places.
+const NG_STANDING_POS = "standing-position";
 const NG_START_FROM = [
   ["standing", "Standing", "Every roll opens on the feet, the way a match does. You work your way to the ground."],
   ["random", "Anywhere", "A random position each roll, top or bottom, so the whole graph gets trained \u2014 the default."],
@@ -1277,15 +1281,20 @@ class Component extends DCLogic {
       // without moving (`landBottom` in option-edge, and every role swap) left every card with a
       // null EDGE — the number the card exists to print. Two references to the same block; the
       // only per-member work is remapping the technique idxs to their attacker members.
-      if (cal.ev) {
+      // `evGi` (the gi hands FLOW ranks a gi player on) is `ev`'s layout with no EDGE blocks, so
+      // it takes the SAME remap and the same both-members filing. Leaving it off this list would
+      // not fail: every paired boot would simply have no gi hands, and FLOW would say so with a
+      // beat nobody reads — the list of what survives the split is hand-maintained (§6.7).
+      for (const tk of ["ev", "evGi"]) {
+        if (!cal[tk]) continue;
         const ev = {};
-        for (const role in cal.ev) {
-          const blk = cal.ev[role];
+        for (const role in cal[tk]) {
+          const blk = cal[tk][role];
           if (!Array.isArray(blk) || !Array.isArray(blk[0])) continue;
           const cp = blk.slice(); cp[0] = blk[0].map(rep);      // idxs name techniques -> attackers
           ev[role] = cp;
         }
-        A.cal.ev = ev; B.cal.ev = ev;
+        A.cal[tk] = ev; B.cal[tk] = ev;
       }
       // `ew` is per POSITION (max across roles at emit); split it by the performer so a member
       // lights only the moves its own side plays. Display-only — `_edgeW`'s sole reader is draw().
@@ -1398,6 +1407,21 @@ class Component extends DCLogic {
           m.set(idxs[k], { att: att[k] || 0, lam: lams });
         }
         this._ev.set(i + "/" + role, m);
+      }
+    }
+    // THE GI HANDS (v1.208.0) — `cal.evGi`, the same layout with no EDGE blocks: what a gi player is
+    // dealt at each role-node, with gi attempt shares. Read by FLOW only (`ngFlowBuild`), keyed
+    // exactly like `_ev` so the two tables join on one key. Cards keep printing the no-gi EDGE.
+    this._evGi = new Map();
+    for (let i = 0; i < data.nodes.length; i++) {
+      const tab = data.nodes[i].cal && data.nodes[i].cal.evGi;
+      if (!tab) continue;
+      for (const role in tab) {
+        const blk = tab[role];
+        if (!Array.isArray(blk) || blk.length < 2 || !Array.isArray(blk[0])) continue;
+        const idxs = blk[0], att = blk[1] || [], m = new Map();
+        for (let k = 0; k < idxs.length; k++) m.set(idxs[k], { att: att[k] || 0 });
+        this._evGi.set(i + "/" + role, m);
       }
     }
     const idIndex = new Map();
@@ -3868,18 +3892,34 @@ class Component extends DCLogic {
    * re-solves are ~5x that and only the ROWS ACTUALLY SHOWN need one, so the session surface
    * asks for those separately. Nothing outside the shortlist is ever shown a sign.
    */
+  //
+  // WHICH GAME IT PRICES (v1.208.0): the player's RULESET and where their rolls START. Both are in
+  // the key, so a flip of either re-scores on the next read — `setGiMode` also drops the kernel,
+  // and the start setting needs no release at all because the kernel does not depend on it (only
+  // the start law does, `ngFlowStart`). A settings pull from another device changes `startFrom`
+  // without passing through any setter, which is why the key reads it rather than a setter
+  // invalidating it.
   flowScore() {
     const lam = typeof this._evLamIdx === "function" ? Math.max(0, this._evLamIdx()) : 0;
-    const key = (this._stageVer || 0) + "/" + (this._flowVer || 0) + "/" + lam;
+    const frame = this._giMode === "nogi" ? "nogi" : "gi";
+    const start = this._flowStartSpec();
+    const key = (this._stageVer || 0) + "/" + (this._flowVer || 0) + "/" + lam + "/" + frame + "/" + (start ? start.posId : "uniform");
     if (this._flowScoreCache && this._flowScoreCache.k === key) return this._flowScoreCache.out;
     let out = null;
     try {
-      if (!this._flowKernel || this._flowKernel.lamIdx !== lam) this._flowKernel = ngFlowBuild(this, { lamIdx: lam });
-      if (this._flowKernel && this._flowKernel.n) {
+      if (!this._flowKernel || this._flowKernel.lamIdx !== lam || this._flowKernel.frame !== frame) this._flowKernel = ngFlowBuild(this, { lamIdx: lam, frame: frame });
+      const K = this._flowKernel;
+      if (K && K.n) {
+        // Both fallbacks are NAMED, once each (§6.6): a gi player ranked on no-gi hands, or a fixed
+        // start ranked as Anywhere, is a complete, plausible, wrong list.
+        if (K.handsFrame !== K.frame && !this._flowFrameBeat) { this._flowFrameBeat = 1; this.fx("flow_frame_fallback", { want: K.frame, have: K.handsFrame }); }
+        const st = ngFlowStart(K, start);
+        if (st.miss && !this._flowStartBeat) { this._flowStartBeat = 1; this.fx("flow_start_fallback", { want: st.pos, frame: frame }); }
         out = ngFlowScore(this, {
-          kernel: this._flowKernel,
+          kernel: K,
           lam: (this._evLam && this._evLam[lam]) || 2,
           shortlist: 0,
+          start: st,
           counts: this.flowN() > 0 ? this.flowCounts() : null,
           mastery: (k) => this.mastery(k),   // the app's own drilling channel, min(0.15, 0.03*prep)
         });
@@ -16203,13 +16243,25 @@ class Component extends DCLogic {
   // `weakSpots()` ranks DECKS with a seat, and `_weakStates` maps each to its state + seat.
   // A settings key is forever (`_pullAndMerge` has no tombstone): retire this by ceasing to read it.
   startFrom() { const v = this.get("startFrom", "random"); return v === "standing" || v === "weak" ? v : "random"; }
+  // ── THE START THE WEAK-SPOTS RANKING ASSUMES (v1.208.0) ── the ONE mapping from `startFrom()` to
+  // FLOW's start law (`ngFlowStart`, flow.src.js). Owner, 2026-09-30: the ranking "should match the
+  // starting point set by the app indeed" — from standing it ranks drills differently (Spearman
+  // 0.69 against the uniform start, docs/GraphSemantics.md §5.4), so a Standing player was being
+  // told what leaks from positions their rolls rarely reach.
+  //   "standing" -> Standing Position, both seats: the seat is still drawn 50/50 (`rng("role")`).
+  //   "random"   -> null, the uniform law: every playable state, which is what Anywhere draws.
+  //   "weak"     -> null as well, ON PURPOSE. My weak spots OPENS on the spots this very ranking
+  //                 names (`_weakStates`), so ranking from those openings is a feedback loop: each
+  //                 pass piles occupancy on the states it just picked and the list locks onto its
+  //                 own first answer. The ranking that CHOOSES the spots is the Anywhere one.
+  _flowStartSpec() { return this.startFrom() === "standing" ? { posId: NG_STANDING_POS } : null; }
   // The standing site's index in the playable pool, or -1 with a NAMED beat. The bare slug maps to
   // the rep member (`_posSlugIndex`, top owns it), which is the entry `_posIdx` holds — so on the
   // shipped wire this never falls back. If a wire without a playable standing-position ever arrives
   // the roll still starts, on the ordinary draw, and SAYS SO (`start_from_fallback`) instead of
   // printing a plausible opening (§6.6: a silent fallback is worse than a crash).
   _standingStart(pool) {
-    const ix = this._posSlugIndex ? this._posSlugIndex.get("standing-position") : null;
+    const ix = this._posSlugIndex ? this._posSlugIndex.get(NG_STANDING_POS) : null;
     if (ix != null && pool.indexOf(ix) >= 0) return ix;
     this.fx("start_from_fallback", { want: "standing", have: ix == null ? "no-node" : "not-playable" });
     return -1;
@@ -16998,11 +17050,13 @@ class Component extends DCLogic {
   // calibrated per-technique success as 0..1, frame-aware (gi/no-gi), from graph.json via
   // node.cal; null when the node carries no calibrated rate. This is the page==graph==game seam:
   // the same number the dossier/page shows, selected for the active ruleset.
-  calSuccess(act) {
+  // `frame` defaults to the ruleset the player is in. FLOW passes its kernel's frame explicitly
+  // (flow.src.js), so the weak-spots engine prices every card at the rate this game deals it at.
+  calSuccess(act, frame) {
     const c = act && act.cal;
     if (!c) return null;
-    const br = c.successRateByRuleset;
-    let v = (br && this._giMode && br[this._giMode] != null) ? br[this._giMode] : c.successRate;
+    const br = c.successRateByRuleset, fr = frame || this._giMode;
+    let v = (br && fr && br[fr] != null) ? br[fr] : c.successRate;
     return (typeof v === "number") ? Math.max(0, Math.min(1, v / 100)) : null;
   }
   // success = the calibrated base (page==graph==game) shifted by your modifiers (skill + drilling)

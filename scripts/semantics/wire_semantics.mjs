@@ -55,7 +55,12 @@ if (MASK === "nogi") app._giMode = "nogi";        // _hydrateGiMode keeps a non-
 app.ingest(JSON.parse(WIRE_TEXT));
 if (MASK === "nogi" && app._giMode !== "nogi") fail("could not hold the no-gi ruleset mask");
 const T1 = performance.now();
-const K = ngFlowBuild(app, { lamIdx: 0 });
+// `frame: "nogi"`: this route reproduces the corpus's NO-GI game (graph.json's no-gi Model). Since
+// v1.208.0 ngFlowBuild prices the app's own ruleset, and a harness app with no localStorage is in
+// gi, so without the override the "none" mask would silently read the gi hands (`cal.evGi`). The
+// override moves hands and rates only; the mask stays the app's, which is what <mask> selects.
+const K = ngFlowBuild(app, { lamIdx: 0, frame: "nogi" });
+if (K && K.handsFrame !== "nogi") fail(`ngFlowBuild priced ${K.handsFrame} hands, not the no-gi route`);
 const T2 = performance.now();
 if (!K || !K.n) fail("ngFlowBuild returned no kernel");
 

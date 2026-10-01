@@ -44,6 +44,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
 
 - **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
+- **v1.208.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12080--weak-spots-in-your-ruleset-from-your-start)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8350,3 +8351,75 @@ clock unless stated):**
 - `verify_all.py` discovers and re-runs every lane gate, checks every recorded hash, and registers
   each number in the doc against its artifact (`claims.json`). `--heavy` regenerates the heavy
   artifacts and diffs them.
+
+## v1.208.0 — WEAK SPOTS IN YOUR RULESET, FROM YOUR START
+
+Owner, 2026-09-30, on `docs/GraphSemantics.md` §10 items 7 and 8: "ideally fix weak spots now" (gi
+pricing) and "it should match the starting point set by the app indeed" (FLOW's start). FLOW, the
+weak-spots engine (`neural/src/flow.src.js`), had two blind spots, both silent:
+
+- **A gi player was ranked on no-gi numbers.** `cal.ev` holds no-gi hands only, so the kernel dealt
+  no-gi attempt shares at the folded no-gi rate, and no deck the no-gi game cannot deal could ever be
+  recommended. gi is the DEFAULT ruleset, so this was most players.
+- **Every player was ranked from a uniform start.** A Standing player's rolls open on the feet, and
+  from there the ranking is a different one (Spearman 0.68 no-gi, 0.67 gi, measured on the browser
+  kernel; the research's figure was 0.69).
+
+**What shipped.**
+- `cal.evGi[role] = [nodeIdxs, attemptPct]` — `cal.ev`'s layout with no EDGE blocks
+  (`build_gi_hands`). +2,924 B gzip on `graph-data.json`, exactly the research's price. The emitter
+  rebuilds all 265 no-gi `ev` hands by the same rule each run and refuses on any difference, so the gi
+  table cannot be built by a different rule than the one beside it. Full hands, not a diff: 18 of 265
+  hands keep the same whole percents across frames, and sharing the index list where membership
+  matches (221 hands) saved 334 B at the cost of one table's decode depending on another's.
+- `ngFlowBuild` prices the app's ruleset: gi hands from `_evGi`, every rate through
+  `calSuccess(node, frame)` (the rate the game deals). `e0`, the personal tilt's feature, stays the
+  no-gi EDGE the card prints. A wire without gi hands falls back to the no-gi hands and fires
+  `flow_frame_fallback`.
+- `ngFlowStart(K, spec)`: uniform (Anywhere) is the null law, bit-for-bit the old path; a fixed start
+  is half on each seat of a position (the seat is still drawn 50/50). `_flowStartSpec` maps
+  `startFrom()`: Standing → standing-position; Anywhere and My weak spots → uniform. My weak spots
+  stays uniform deliberately: it OPENS on the spots this ranking names, so ranking from those openings
+  is a feedback loop that locks onto its first answer. A fixed start the kernel lacks fires
+  `flow_start_fallback`. `flowScore`'s memo key carries ruleset and start.
+- `NG_STANDING_POS` is the one spelling of the standing opening, read by `_standingStart` and by
+  `_flowStartSpec`.
+
+**The trap this found (§6.4).** `tests/flow.test.mjs` boots its app with no localStorage, so
+`_hydrateGiMode` put it in gi, and every FLOW test had been a gi-mode app ranking no-gi hands — the
+bug itself, pinned as correct. The kernel a real no-gi player gets (the reachability mask on: 248
+states, 1,417 decks, against 264 and 1,464) had never been compared with anything. Every app in the
+suite now names its ruleset, and `tests/_census.mjs` counts `negDecks` (24, no-gi) and `negDecksGi`
+(21) in their own frames.
+
+**The reference.** `solve_flow.py --reference` writes four rows (no-gi/gi × uniform/standing), each
+the frame as the app builds it: `Opts(rates="frame")` (the frame's own success-rate cell; the default
+stays folded, so EDGE and the `validate:flow` ratchet do not move, V0 +0.075527 unchanged) minus the
+role-nodes `ruleset_availability.json` excludes. JS against it, top-10 order exact in all four:
+
+| game | V0 gap | top-40 shared | within 5% | L1 gap |
+|---|---:|---:|---:|---:|
+| nogi | 2.45% | 40/40 | 87.0% | 1.47% |
+| gi | 0.68% | 39/40 (ranks 40/41, a 0.9% tie) | 88.7% | 1.44% |
+| nogi/standing | 1.05% | 39/40 | 65.1% | 2.19% |
+| gi/standing | 0.49% | 40/40 | 75.2% | 1.67% |
+
+A standing start puts all the mass on two hands (standing has 34 cards, many at 1–2%), so
+whole-percent rounding moves single magnitudes more; the aggregate stays under 3%.
+
+**What a player sees.** 119 decks the no-gi game cannot deal now score in gi; Cross Collar Choke
+from Mount (#18 for a new player) and Bow and Arrow Choke from Back Control (#28) enter the list,
+Buggy Choke, North-South Choke and Triangle from Open Guard leave it. From standing, Standing
+Position (top) jumps to #2–3 and Pull Guard, Takedown from Bottom and Level Change Takedown enter;
+deep-ground passes leave. In no-gi from standing, Spider Guard and Double Sleeve Guard decks score
+exactly 0 — no roll that opens standing reaches them (§10 item 6's teleporting listing).
+
+**Bytes.** Eager set +3,548 B this change (graph-data.json +2,924, neural.js +624), +3,601 against
+the accepted 314,744, cap 5,000. First-hand core +3,280 B by the spec's own Node zlib-9, cap 6,000.
+
+**Mutants** (each against the full suite): `_ev` read where `_evGi` belongs (9 red), the folded rate
+in gi, `evGi` dropped by `_deriveDualPairs` (9), the start missing from the memo key, the start law
+ignored, the top seat only, My weak spots ranked from Standing, `calSuccess` ignoring its frame, `e0`
+read from the gi table, `_evGi` never built (9), the emitter filing the no-gi hands as `evGi` (7, on
+a re-emitted wire): all killed. A kernel reused across a ruleset flip SURVIVED until test 6d was
+written (`setGiMode` drops the kernel; a direct `_giMode` write did not).
