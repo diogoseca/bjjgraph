@@ -1,5 +1,19 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "node neural/build/build.mjs",
+   "esbuild": "0.27.0",
+   "git_head": "eb3a469fdf13226c2276703d1ce9b5b4e1b7c319",
+   "inputs": {
+    "neural/build": "31bdcda65f2e292c440c2a50d37713410d571f38",
+    "neural/src": "6d9026c22f1b5805f7666433df053fd35d687a23",
+    "package.json": "1dd2618eea84169fe3ddc13bc58165200a332e25",
+    "source/package-lock.json": "dceb6bf642cbf74f80c8df78abd388a6f25e4fd8"
+   },
+   "package_version": "1.208.0",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v1"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/golden/pr-microing-related-6a18ddbbf",
   "content_provenance": {
    "capture_git_head": "6a18ddbbf557d30abd417f68f8786c0f5a7cbc29",
@@ -53,8 +67,8 @@
     "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
    },
    "static/neural/app/neural.js": {
-    "bytes": 592863,
-    "sha256": "fcbc8b8dba0ca664596b16eb00b8bfaf311276a753fef93603829f9f9bf21d8a",
+    "bytes": 594479,
+    "sha256": "a3c4771edf395a6fd551a925131a4e81de896dac68ae98776bf5c99295ef1bba",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
