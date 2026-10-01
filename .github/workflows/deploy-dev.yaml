@@ -108,6 +108,12 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
+      # Every _redirects target resolves to a built page or file (v1.212.7, OCREDIR1). It runs
+      # here, after the share shell (`/l/* /l.html 200` targets a file that step writes) and after
+      # Forward, so the tree it reads is final. It prints a positive count and fails on any miss.
+      - name: Redirect targets resolve (gate)
+        run: python3 scripts/check_redirect_targets.py
+
       # Activate marked canonical references only with a valid configured ref.
       # Missing ref keeps neutral links; invalid ref fails. No source placeholders.
       - name: Stamp affiliate ref into build output

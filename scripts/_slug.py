@@ -26,6 +26,26 @@ import re
 import unicodedata
 
 
+# QUARTZ'S PAGE PATH (v1.212.7, OCREDIR1). `slugify` above makes lowercase KEYS. A built page's
+# PATH is a different rule, Quartz's own `sluggify` (source/quartz/util/path.ts): case kept, and
+# per segment, whitespace -> "-", "&" -> "-and-", "%" -> "-percent", "?" and "#" dropped. Writing
+# only the space rule made `/transitions/100%-sweep /Transitions/100%-Sweep 301`. Cloudflare's
+# edge answers a raw "%" with 400, so that rule never fired, and the lowercase of the real page,
+# /transitions/100-percent-sweep, had no rule at all and 404'd. The app's twin is `_pageSlug`
+# (neural/src/app.src.jsx). tests/redirect_targets_test.py reads path.ts and pins this table to it.
+QUARTZ_SLUG_REPLACEMENTS = ((r"\s", "-"), (r"&", "-and-"), (r"%", "-percent"), (r"\?", ""), (r"#", ""))
+
+
+def quartz_page_path(rel: str) -> str:
+    """A content path ("Transitions/100% Sweep", no extension) -> the path Quartz builds its page at."""
+    segments = []
+    for seg in str(rel).split("/"):
+        for pattern, repl in QUARTZ_SLUG_REPLACEMENTS:
+            seg = re.sub(pattern, repl, seg)
+        segments.append(seg)
+    return "/".join(segments).rstrip("/")
+
+
 def slugify(name: str) -> str:
     """Convert a display name to a lowercase ASCII kebab-case slug."""
     if not isinstance(name, str):
