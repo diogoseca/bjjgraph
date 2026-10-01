@@ -104,7 +104,7 @@ test("×3 momentum dies at the reload boundary while its three minted stage cred
     const a = (window as any).__neural
     let raw: any = null
     try {
-      raw = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+      raw = JSON.parse(window.__ngGuestProgressRaw() || "null")
     } catch (e) {
       raw = null
     }

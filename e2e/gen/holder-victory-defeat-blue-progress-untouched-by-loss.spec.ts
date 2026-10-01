@@ -116,7 +116,7 @@ test("white-belt holder: a failed-escape LOSS drains the ladder (-1) but leaves 
     const a = (window as any).__neural
     a.ladderState() // lazy-init guard: after this, _ladder is the live source of truth
     a._ladder.rank = 3
-    localStorage.setItem("bjj-neural-ladder", JSON.stringify({ rank: 3 }))
+    localStorage.setItem("bjj-neural-owner:guest:ladder", JSON.stringify({ rank: 3 }))
     return a.ladderState().rank
   })
   expect(rank0, "pin took: rank sits at 3 (well clear of the floor) before the loss").toBe(3)

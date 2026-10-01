@@ -110,7 +110,7 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
         white: a.challengeTrackProgress("white"),
         whiteKeys: Object.keys(a.challenges || {}).filter((k: string) => k.indexOf("white.") === 0).length,
         tutMap: JSON.parse(JSON.stringify((a.tut && a.tut.done) || null)),
-        coached: localStorage.getItem("bjj-neural-coached"),
+        coached: localStorage.getItem("bjj-neural-owner:guest:coached"),
         blue: (a.challenges && a.challenges["blue.escape-three"]) || null,
         badges: JSON.parse(JSON.stringify(a.badges || {})),
         coins: JSON.parse(JSON.stringify(a.coins || {})),

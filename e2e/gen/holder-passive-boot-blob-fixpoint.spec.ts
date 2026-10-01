@@ -45,7 +45,7 @@ import { whiteBeltHolder } from "./personas"
  * UI text, and no resume-row UI assertions by design.
  */
 
-const PROGRESS_KEY = "bjj-neural-progress"
+const PROGRESS_KEY = "bjj-neural-owner:guest:progress"
 
 /** The six-field economy subset every capture must reproduce exactly. Normalizing drops the
  *  save-side extras (days/settings/settingsAt/updatedAt) AND the v1.74 challenge ledgers
@@ -92,7 +92,7 @@ test("holder passive boot is a blob fixpoint: economy subset deep-equal across t
   const capture = (label: string) =>
     page.evaluate((k: string) => {
       const norm = (b: any) => ({ v: b?.v, prep: b?.prep, rec: b?.rec, units: b?.units, belts: b?.belts, stage: b?.stage })
-      const raw = localStorage.getItem(k)
+      const raw = window.__ngGuestProgressRaw()
       const stored = raw ? JSON.parse(raw) : null
       const live = (window as any).__neural._progressBlob()
       return {

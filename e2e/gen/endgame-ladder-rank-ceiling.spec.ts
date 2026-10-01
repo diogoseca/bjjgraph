@@ -14,7 +14,7 @@ import { multiBeltEndgame, CURRICULUM } from "./personas"
  *     (capped = next === st.rank).
  *   - `ladderState()` maps rank → opponent via names[Math.min(names.length, rank) - 1]
  *     — the roster index cannot run past the last name.
- *   - ladderMove persists the clamped rank to localStorage["bjj-neural-ladder"].
+ *   - ladderMove persists the clamped rank to localStorage["bjj-neural-owner:guest:ladder"].
  *
  * PIN ORDER (probe-critical): ladderState() must be called BEFORE writing _ladder.rank —
  * the field is lazy-init and startRoll already read it at the stakes beat, so a bare
@@ -55,7 +55,7 @@ test("endgame ladder ceiling: a win at top rank clamps — one capped ladder_up,
     a.ladderState() // lazy-init guard: after this, _ladder is the live source of truth
     const top = a.ladderNames().length
     a._ladder.rank = top
-    localStorage.setItem("bjj-neural-ladder", JSON.stringify({ rank: top }))
+    localStorage.setItem("bjj-neural-owner:guest:ladder", JSON.stringify({ rank: top }))
     return top
   })
   expect(max, "ladder roster is non-trivial (a real ceiling exists above rank 1)").toBeGreaterThanOrEqual(2)
@@ -103,7 +103,7 @@ test("endgame ladder ceiling: a win at top rank clamps — one capped ladder_up,
       rank: st.rank,
       opponent: st.opponent,
       names: a.ladderNames(),
-      stored: JSON.parse(localStorage.getItem("bjj-neural-ladder") || "null"),
+      stored: JSON.parse(localStorage.getItem("bjj-neural-owner:guest:ladder") || "null"),
     }
   })
   expect(after.rank, "rank stays exactly at the ceiling — no overflow past the roster").toBe(max)

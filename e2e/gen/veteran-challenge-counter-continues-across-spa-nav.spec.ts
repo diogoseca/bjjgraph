@@ -86,7 +86,7 @@ test("escape-three at 2/3 rides two soft navs at its exact durable value, comple
   const readState = () =>
     page.evaluate((id) => {
       const a = (window as any).__neural
-      const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+      const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
       return {
         live: a.challengeProgress(id),
         stored: (blob.challenges || {})[id] ?? null,
@@ -196,7 +196,7 @@ test("escape-three at 2/3 rides two soft navs at its exact durable value, comple
   const life2 = await page.evaluate((id) => {
     const a = (window as any).__neural
     const old = (window as any).__probeOldRef
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     const out = {
       sameDoc: !!old, // the alias-stub HARD nav would have wiped this window global
       sameRef: a === old,
@@ -225,7 +225,7 @@ test("escape-three at 2/3 rides two soft navs at its exact durable value, comple
 
   const life3 = await page.evaluate((id) => {
     const a = (window as any).__neural
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     return {
       sameDoc: !!(window as any).__probeOldRef,
       beats: (a.beats || []).length,

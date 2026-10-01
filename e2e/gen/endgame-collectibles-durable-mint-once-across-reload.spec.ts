@@ -63,7 +63,7 @@ const readState = (page: Page) =>
   page.evaluate(
     ([coin, chal]) => {
       const a = (window as any).__neural
-      const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+      const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
       const coins = ((blob || {}) as any).coins || {}
       return {
         liveKeys: Object.keys(a.coins || {}).sort(),

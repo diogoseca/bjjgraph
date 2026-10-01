@@ -1044,7 +1044,7 @@
    "L": "srs-veteran",
    "F": "option-tray-sheet",
    "B": "economy-math",
-   "invariant": "With 25 decks drilled to prep=5, every visible option card's displayed odds equals Math.round(moveChance*100) and never exceeds the 95% moveChance ceiling nor drops below 5%, even for options whose deck is fully proven.",
+   "invariant": "With 25 decks drilled to prep=5, every option's clamped move chance prints as Math.round(moveChance*100) where the card prints it (a transition card's Move %, a submission's Finish card) and never exceeds the 95% moveChance ceiling nor drops below 5%, even for options whose deck is fully proven.",
    "origin": "auto",
    "status": "accepted",
    "wave": 1,

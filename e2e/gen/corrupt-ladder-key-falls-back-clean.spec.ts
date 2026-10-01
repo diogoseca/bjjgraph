@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"legacy-corrupt-blob","F":"ladder","B":"error-fallback"} @invariant "Garbage in bjj-neural-ladder degrades to a clean rank-1 start without crashing and is quarantined: the app boots and plays with rank 1, a rigged win writes a valid rank-2 record, and after a preserveStorage reload the key JSON.parses cleanly at rank 2 — the poison never resurfaces." */
+/* @hyperspace {"theme":"unlock-economy","L":"legacy-corrupt-blob","F":"ladder","B":"error-fallback"} @invariant "Garbage in the owned guest ladder degrades to a clean rank-1 start without crashing and is quarantined: the app boots and plays with rank 1, a rigged win writes a valid rank-2 record, and after a preserveStorage reload the key JSON.parses cleanly at rank 2 — the poison never resurfaces." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM, CORRUPT_BLOB_RAW } from "./personas"
@@ -9,7 +9,7 @@ import { whiteBeltHolder, CURRICULUM, CORRUPT_BLOB_RAW } from "./personas"
  * poison (never write on read) until the first legitimate ladderMove replaces it wholesale.
  *
  * Seam under test (neural/src/app.src.jsx `ladderState` / `ladderMove`, probe-verified 2/2 deterministic):
- *   - ladderState() does a lazy memoized read of "bjj-neural-ladder" inside try/catch —
+ *   - ladderState() does a lazy memoized read of its owner-scoped ladder key inside try/catch —
  *     corrupt JSON.parse throws, is caught, rank defaults to 1, and NOTHING is written on
  *     the read path (the poison stays byte-identical in storage through land()).
  *   - ladderMove(+1) on a submission win is the FIRST write: it replaces the poison with
@@ -39,7 +39,7 @@ import { whiteBeltHolder, CURRICULUM, CORRUPT_BLOB_RAW } from "./personas"
 
 const WHITE_ID: string = CURRICULUM.belts[0].id
 
-test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through play, clean rank-2 write survives reload", async ({ page }) => {
+test("corrupt owned guest ladder falls back and heals at rank 2; legacy ladder stays untouched", async ({ page }) => {
   // premise guard: the shared constant must actually be broken JSON, or the spec is vacuous
   expect(() => JSON.parse(CORRUPT_BLOB_RAW), "persona premise: CORRUPT_BLOB_RAW does not parse").toThrow()
   const SEED: any = whiteBeltHolder()
@@ -58,7 +58,8 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
     try {
       if (sessionStorage.getItem("__probe_ladder_seeded")) return
       sessionStorage.setItem("__probe_ladder_seeded", "1")
-      localStorage.setItem("bjj-neural-ladder", garbage)
+      localStorage.setItem("bjj-neural-ladder", garbage) // independent unknown-owner preservation proof
+      localStorage.setItem("bjj-neural-owner:guest:ladder", garbage) // actual lazy corrupt read
       localStorage.setItem("__probe_marker", "1")
     } catch {}
   }, CORRUPT_BLOB_RAW)
@@ -71,7 +72,7 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
       const a = (window as any).__neural
       return {
         marker: localStorage.getItem("__probe_marker"),
-        ladderIsGarbage: localStorage.getItem("bjj-neural-ladder") === garbage,
+        ladderIsGarbage: localStorage.getItem("bjj-neural-owner:guest:ladder") === garbage,
         nodes: a.nodes.length,
         beltWon: !!(a.belts && a.belts.won && a.belts.won[whiteId]),
         rank: a.ladderState().rank, // this call IS the lazy corrupt read — must not throw
@@ -81,7 +82,7 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
   )
   // seeding proof FIRST — without these the fallback reads below are vacuously green
   expect(boot.marker, "seed init-script ran AFTER the DSL wipe (marker survives boot)").toBe("1")
-  expect(boot.ladderIsGarbage, "the exact corrupt bytes were in bjj-neural-ladder at boot").toBe(true)
+  expect(boot.ladderIsGarbage, "the exact corrupt bytes were in the owned guest ladder at boot").toBe(true)
   expect(boot.nodes, "app ingested the full graph despite the poisoned ladder key").toBeGreaterThan(1000)
   expect(boot.beltWon, `career blob ingested intact (belts.won.${WHITE_ID}) — only the ladder is poisoned`).toBe(true)
   expect(boot.rank, "corrupt ladder read falls back to rank 1 without crashing").toBe(1)
@@ -90,7 +91,7 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
   await j.land("Mount Top")
   const postLand = await page.evaluate((garbage) => {
     const a = (window as any).__neural
-    return { rank: a.ladderState().rank, ladderIsGarbage: localStorage.getItem("bjj-neural-ladder") === garbage }
+    return { rank: a.ladderState().rank, ladderIsGarbage: localStorage.getItem("bjj-neural-owner:guest:ladder") === garbage }
   }, CORRUPT_BLOB_RAW)
   expect(postLand.rank, "still rank 1 after landing (intro stakes read the ladder)").toBe(1)
   expect(postLand.ladderIsGarbage, "QUARANTINE: poison byte-identical after land — reads never write").toBe(true)
@@ -113,14 +114,14 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
   const ladderUps = await page.evaluate(() => ((window as any).__neural.beats || []).filter((b: any) => b.beat === "ladder_up"))
   expect(ladderUps.length, "the win emitted ladder_up").toBeGreaterThan(0)
   expect(ladderUps[ladderUps.length - 1].rank, "ladder_up carries rank 2").toBe(2)
-  const written = await page.evaluate(() => JSON.parse(localStorage.getItem("bjj-neural-ladder") || "null"))
-  expect(written, "ladderMove's first write replaced the poison with exactly {rank:2}").toEqual({ rank: 2 })
+  const written = await page.evaluate(() => JSON.parse(localStorage.getItem("bjj-neural-owner:guest:ladder") || "null"))
+  expect(written, "ladderMove writes exactly {rank:2} in the separate owned guest key").toEqual({ rank: 2 })
 
   // ── preserveStorage reload: the key parses cleanly at rank 2; the poison never resurfaces ──
   await j.boot("/", { preserveStorage: true }) // no land needed — ladderState() callable directly
   const fin = await page.evaluate((garbage) => {
     const a = (window as any).__neural
-    const raw = localStorage.getItem("bjj-neural-ladder")
+    const raw = localStorage.getItem("bjj-neural-owner:guest:ladder")
     let parsed: any = null
     let parseThrew = false
     try {
@@ -143,5 +144,7 @@ test("corrupt bjj-neural-ladder: rank-1 fallback, poison quarantined through pla
   expect(fin.gateFlag, "one-shot seed gate held through the preserve boot (no re-seed)").toBe("1")
 
   // crash guard: registration boot + poisoned boot + play + preserve reload all ran clean
+  expect(await page.evaluate(() => localStorage.getItem("bjj-neural-ladder")),
+    "unknown-owner legacy ladder bytes remain preserved").toBe(CORRUPT_BLOB_RAW)
   expect(errors, "zero pageerror across all three boots").toEqual([])
 })

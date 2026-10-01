@@ -204,6 +204,9 @@ test("recall keeps its keyboard controls when revisited, including with reduced 
   expect(await page.evaluate(() => document.querySelector("[data-land-q]")!.getAnimations().length)).toBe(0)
 })
 
+// Mutant, recorded 2026-09-29: without the film strip's ResizeObserver re-dock (`_renderLandFilm`,
+// v1.207.7) this goes red 3 of 3 on the landscape rotation — the resize dock reads the strip
+// mid-transition, clamps it and parks it 4px inside the (18px taller) hand, 121 > 110.
 test("@curated responsive deck fits short phones, tablets, and landscape, then rotates back", async ({ page }) => {
   const { j } = await setup(page)
   // Resize the SAME mounted deck: rotation must release the landscape column and keep the
@@ -498,6 +501,15 @@ test("@curated long recall answers grow the card and scroll with the whole colum
     const a = (window as any).__neural
     a._landDeckCards(a._landQ.key)[1].a = "Keep your balance and maintain the frame. ".repeat(35)
   })
+  // The DSL boot pre-completes the White track, so the landing's first beat mints the harness
+  // visitor's White Foundations patch, whose phone toast (`.ng-challenge-reward`, top:82px, full
+  // width, ~102px tall, 4.8s) covers the deck's top band. Since v1.207.0 the hand's header is 18px
+  // taller (the 24px title carrying the win-chance status), so this face is 18px shorter and centres
+  // its chevron at y=183 — one pixel inside that toast (dev: 192, clear of it). Dismiss it the way a
+  // player would, so the mouse-reachability claim below is about THIS deck, not a passing toast.
+  if (await page.locator("[data-reward-close]").isVisible())
+    await j.clickByMouse("[data-reward-close]", "dismiss the harness visitor's earned patch")
+  await expect(page.locator(".ng-challenge-reward")).toHaveCount(0)
   await j.clickByMouse("[data-land-next]")
   await page.waitForTimeout(200)
   await j.clickByMouse("[data-land-reveal]")

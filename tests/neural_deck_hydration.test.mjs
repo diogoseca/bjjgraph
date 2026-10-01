@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Pure-unit guard for on-demand deck hydration in the Neural app.
 //
 // `flashcards.decks[key]` used to be ALWAYS fully hydrated ({cat, role, cards:[…]}). The
@@ -24,7 +25,7 @@ const src = readFileSync(APP, "utf8");
 const Component = new Function(
   "DCLogic",
   "React",
-  `${src}\nreturn Component;`,
+  `${knowledgeSource}\n${src}\nreturn Component;`,
 )(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const STUB = { n: 8 }; // manifest stub: a COUNT, no cards array

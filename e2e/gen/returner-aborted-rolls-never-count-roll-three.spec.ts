@@ -61,7 +61,7 @@ test("resetRoll + two stageRollAt restages emit no roll_end and leave blue.roll-
   const stored = () => page.evaluate(() => {
     const a = (window as any).__neural
     a._flushSave() // save is 400ms wall-clock debounced — flush before every stored read
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     return (blob.challenges || {})["blue.roll-three"] ?? null
   })
   const count = async (beat: string) => (await j.beats()).filter((b: any) => b.beat === beat).length

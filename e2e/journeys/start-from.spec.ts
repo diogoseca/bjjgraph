@@ -330,7 +330,7 @@ const EARNED = `(() => {
 /** the persisted blob with ONLY this setting's own key removed — see loss-aversion.spec.ts for why
  *  this diff is the only thing in the suite that notices a persisted field whose write never fires */
 const BLOB = `(() => {
-  const raw = localStorage.getItem("bjj-neural-progress");
+  const raw = window.__ngGuestProgressRaw();
   if (!raw) return "";
   const b = JSON.parse(raw);
   if (b.settings) delete b.settings.startFrom;

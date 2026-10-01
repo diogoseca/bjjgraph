@@ -1,9 +1,9 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-microing-related-6a18ddbbf",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-fullgame-1b7ef2369/pr-fullgame-1b7ef2369",
   "content_provenance": {
-   "capture_git_head": "6a18ddbbf557d30abd417f68f8786c0f5a7cbc29",
-   "capture_id": "103771ffe764422793d9de829368f608",
+   "capture_git_head": "1b7ef23692c3c33f60e550c129e65d6865be723b",
+   "capture_id": "6338b779061e4307a4f516762e45d9ca",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -32,12 +32,12 @@
     }
    },
    "output_identity": {
-    "files": 15839,
-    "sha256": "a7bd5a792cfc748bc21e12805c477d45b99c9602b1e8f1bf97fafcf9e21c8a57"
+    "files": 15995,
+    "sha256": "8cf42c014a7ab712f4ea55bb2a714cf412ba2425c02cf56fab2e3be920a71242"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/codex-cutover-build/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-microing-related-6a18ddbbf"
+    "/home/user/bjj-orchestrator/qz/capture-fullgame-3/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-fullgame-1b7ef2369/pr-fullgame-1b7ef2369"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -46,15 +46,46 @@
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
-  "count": 4,
+  "count": 12,
   "files": {
+   "static/neural/app/choice-values.js": {
+    "bytes": 18220,
+    "sha256": "7db5bb237c090fa893632de0153bc48898a223c1ae03a807f87730559f7d350f"
+   },
+   "static/neural/app/game-model.worker.js": {
+    "bytes": 2657,
+    "sha256": "9215caee43fbb8c0f5778abebda830088d940823b649f4418045eb2f74adf355"
+   },
+   "static/neural/app/game-study.js": {
+    "bytes": 78320,
+    "sha256": "0b05058e5272a27a9a4a3f3b56d8623c8d32c33a188ce28b9744fe18b481f597",
+    "version_token": "normalised"
+   },
+   "static/neural/app/game-study.worker.js": {
+    "bytes": 111556,
+    "sha256": "823af737e811d7de394a82ce9d3a7fb0f36e701fb8a540605a421c4febfa434a",
+    "version_token": "normalised"
+   },
+   "static/neural/app/game-values.js": {
+    "bytes": 27465,
+    "sha256": "513e65a540469236fe1218f07d057965cfbe80ccc6402816f67339a9b7476311",
+    "version_token": "normalised"
+   },
+   "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
+    "bytes": 65434,
+    "sha256": "6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b"
+   },
+   "static/neural/app/gameplan.js": {
+    "bytes": 8503,
+    "sha256": "df5c7cc44b72f51be63a84b5b3e42df67bef67e448a561b176b20c0e57204f23"
+   },
    "static/neural/app/neural.css": {
-    "bytes": 35579,
-    "sha256": "5dcc33684cfcd9ee24d2639898aa5f1c81db9a7253f69fabfd80f75d78249826"
+    "bytes": 37339,
+    "sha256": "8b84d852f6a0fc1ab3538acdcdd1c4a731c8e89db484873fcdd3a2fd064ad7f0"
    },
    "static/neural/app/neural.js": {
-    "bytes": 592863,
-    "sha256": "fcbc8b8dba0ca664596b16eb00b8bfaf311276a753fef93603829f9f9bf21d8a",
+    "bytes": 662396,
+    "sha256": "297dc6ffce1f52b65271fde8c00b9891b1ecbea779882dbc0b7be2231515f0d8",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -64,6 +95,11 @@
    "static/neural/app/reference.css": {
     "bytes": 15360,
     "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
+   },
+   "static/neural/app/settings-ui.js": {
+    "bytes": 19595,
+    "sha256": "a27ff7a3a3a3aec6f430e7d41de060568f55c7d92420c077c12aabb6f05977b7",
+    "version_token": "normalised"
    }
   }
  },
@@ -78,13 +114,13 @@
    "sha256": "487514594cda7b0558c2ee0cf1e6b8e8c1e8e3a29148b4c544b7765c6d333314"
   },
   "postscript.js": {
-   "bytes": 75720,
-   "sha256": "c7a1b5112c56a61fa80243ee8f7ddef60c62cd5a8288192bdf644f5b399a6dda",
+   "bytes": 77045,
+   "sha256": "97f11bbc024d29f001bc55886ed2b2b3a5215e34c1778c87ea598da63e499df0",
    "version_token": "normalised"
   },
   "prescript.js": {
-   "bytes": 2734,
-   "sha256": "db2bf906f5122725ce91dc1c39ae7e760dcf804fcb0ccc0e5c59cf84249bf882"
+   "bytes": 2765,
+   "sha256": "ad1e3d5f0063cb29c7aea0a2fd3b7dc4833a5d6a1c181241d7cfefe132c30d84"
   }
  },
  "by_class": {
@@ -92,10 +128,10 @@
   "css": 17,
   "gzip": 1,
   "html": 6212,
-  "js": 31,
-  "json_opaque": 4949,
+  "js": 39,
+  "json_opaque": 5036,
   "json_semantic": 5,
-  "text_opaque": 4603,
+  "text_opaque": 4664,
   "text_semantic": 7,
   "xml": 2
  },
@@ -110,13 +146,13 @@
   "Transitions": 4101,
   "dev": 59,
   "markdown": 4599,
-  "static": 4963,
+  "static": 5119,
   "tags": 73
  },
  "census": {
   "article_headings": 94292,
   "article_links": 213067,
-  "files": 15839,
+  "files": 15995,
   "gzip_files": 1,
   "head_links": 37357,
   "html_pages": 6212,
@@ -132,7 +168,7 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 4963
+  "static_files": 5119
  },
  "distinct_values": {
   "name=description": 4563,

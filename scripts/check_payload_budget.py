@@ -72,6 +72,8 @@ wrong for them and answering it wrongly is how a gate gets worked around:
 """
 import argparse
 import gzip
+import hashlib
+import re
 import json
 import os
 import subprocess
@@ -129,7 +131,7 @@ GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the po
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
 NEURAL_DIR = "static/neural"
-CHUNK_DIRS = ("flashcards", "content", "submission-details")
+CHUNK_DIRS = ("flashcards", "content", "submission-details", "mdp")
 
 # Top-level payloads the app deliberately does NOT fetch at boot. Kept as an explicit, tiny list
 # because the alternative — silently scoring them as eager — makes this gate measure something
@@ -140,8 +142,9 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 # browser, counting whatever the page actually requests. A file wrongly declared deferred here
 # still shows up there. The two gates cross-check each other, and the deferred set has its own
 # ceiling below so it cannot grow unbounded either.
-#   · systems.json — the authored course library (v1.80.4): read only by the Explore tab and the
-#     system buckets, fetched at idle or on first read, never on the roll path.
+#   · systems-index.json — the Systems library list (v1.207.0): fetched on reference intent. Each
+#     system's full record is a per-system chunk under content/system-records/. The old full
+#     library, systems.json, is RETIRED from the served tree (see RETIRED below).
 #   · concepts.json — the Principles + Learning index (v1.152.0): read only when the Explore tab
 #     renders one of those two sections. Its readable BODIES are not here at all — they live in
 #     the per-node content/ chunk space, so they are already scored as on-demand chunks.
@@ -157,12 +160,41 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 # artifact then ADDS a line instead of rewriting the one line everybody else also rewrote.
 # Two branches invented a deferred stylesheet a week apart and collided here on nothing.
 DEFERRED = (
-    "systems.json",
+    # The library list is fetched on reference intent; records are genuine per-system content
+    # chunks. The legacy full response is retired (RETIRED below), not deferred.
+    "systems-index.json",
     "concepts.json",
     "aliases.json",
     "app/reading.css",
     "app/reference.css",
+    # Model code is real deferred JS, still charged to the aggregate raw cap.
+    # Mechanics data lives in bounded mdp/ shards; the entire path is boot-banned.
+    "app/game-values.js",
+    "app/game-model.worker.js",
+    "app/choice-values.js",
+    "app/gameplan.js",
+    "app/game-study.js",
+    "app/game-study.worker.js",
+    "app/settings-ui.js",
 )
+
+# Ordinary worker JavaScript, shared between two independently created workers.
+# Count EVERY retained content-hashed generation, not only the current build's file.
+# This is a deferred asset category, never a data chunk or a byte-budget exemption.
+DEFERRED_WORKER_CORE = re.compile(r"app/game-worker-core-([0-9a-f]{64})\.js")
+
+
+# RETIRED FROM THE SERVED TREE. A file here must never be emitted under static/neural again: served,
+# it would be scored as EAGER boot weight (it is not deferred), so a regression would read as an
+# unexplained eager jump. It is refused BY NAME instead. systems.json (v1.207.0, owner ruling
+# 2026-09-29): the full Systems library is build-internal, scripts/_systems_demand.py SYSTEMS_SOURCE.
+RETIRED = ("systems.json",)
+
+
+def is_deferred_neural_asset(relative: str) -> bool:
+    return relative in DEFERRED or DEFERRED_WORKER_CORE.fullmatch(relative) is not None
+
+
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
@@ -235,6 +267,9 @@ def measure_neural() -> dict:
         if not f.is_file():
             continue
         rel = f.relative_to(root)
+        if rel.as_posix() in RETIRED:
+            raise ValueError("retired neural file is served again: " + rel.as_posix()
+                             + " (build-internal since v1.207.0; see RETIRED in " + GATE + ")")
         size = f.stat().st_size
         if rel.parts and rel.parts[0] in CHUNK_DIRS and not rel.name.startswith("_"):
             # an on-demand chunk. `_index.json` (the manifest) is EAGER even though it lives
@@ -245,7 +280,10 @@ def measure_neural() -> dict:
                 out["chunk_max_bytes"] = size
                 out["chunk_max_file"] = str(rel)
             continue
-        if str(rel) in DEFERRED:
+        if is_deferred_neural_asset(rel.as_posix()):
+            core = DEFERRED_WORKER_CORE.fullmatch(rel.as_posix())
+            if core and hashlib.sha256(f.read_bytes()).hexdigest() != core.group(1):
+                raise ValueError("worker core filename/content hash mismatch: " + rel.as_posix())
             out["deferred_raw_bytes"] += size
             out["deferred_files"].append({"path": str(rel), "raw": size})
             continue

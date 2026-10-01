@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"challenges","B":"error-fallback"} @invariant "When bjj-neural-progress is malformed JSON, Challenges opens without crashing to a pristine profile: all five content tracks are visible and selectable, no capstone is available without checkpoint evidence, and Game Knowledge remains zero." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"legacy-corrupt-blob","F":"challenges","B":"error-fallback"} @invariant "Malformed unknown-owner legacy bytes stay untouched while a separate guest opens Challenges: all five content tracks are visible and selectable, no capstone is available without checkpoint evidence, and Game Knowledge remains zero." */
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 import { CORRUPT_BLOB_RAW, CURRICULUM } from "./personas";
@@ -6,7 +6,7 @@ import { CORRUPT_BLOB_RAW, CURRICULUM } from "./personas";
 const KEY = "bjj-neural-progress";
 const TRACKS: any[] = CURRICULUM.belts;
 
-test("corrupt progress: Challenges recovers to five open tracks with no earned evidence", async ({
+test("corrupt legacy progress stays untouched while guest Challenges opens five tracks", async ({
   page,
 }) => {
   expect(() => JSON.parse(CORRUPT_BLOB_RAW)).toThrow();
@@ -38,7 +38,7 @@ test("corrupt progress: Challenges recovers to five open tracks with no earned e
   }, KEY);
   expect(
     fresh.raw,
-    "malformed bytes remain quarantined until a real progress write",
+    "unknown-owner malformed bytes are preserved, never implicitly imported",
   ).toBe(CORRUPT_BLOB_RAW);
   expect(fresh.blobV, "the in-memory fallback is a valid v2 profile").toBe(2);
   expect({
@@ -81,5 +81,6 @@ test("corrupt progress: Challenges recovers to five open tracks with no earned e
     ).toBe(true);
   }
 
+  expect(await page.evaluate((key) => localStorage.getItem(key), KEY), "legacy bytes survive all real challenge interactions").toBe(CORRUPT_BLOB_RAW);
   expect(errors).toEqual([]);
 });

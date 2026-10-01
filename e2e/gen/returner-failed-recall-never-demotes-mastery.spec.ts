@@ -178,7 +178,7 @@ test("returner blanks on three recalls of a proven deck: stages drop, masteredCo
 
   const persisted = await page.evaluate(
     (args) => {
-      const p = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+      const p = JSON.parse(window.__ngGuestProgressRaw() || "null")
       return {
         v: p?.v,
         rec: (p?.rec || {})[args.k],
