@@ -1731,13 +1731,13 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "75255f1ef37a6db8eb60abb149d3d6dde8757cc3",
-   "capture_id": "62a4172f80884d8bb6c2056f36b1d7c4",
+   "capture_git_head": "658e3b7142835be2bfb76e438b4db2f5e393544d",
+   "capture_id": "c517cd160eef4e6e87874b5b5c2a6a87",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "03d93dacb3885a7b086645fd5c03e151d26b4fdb",
+   "content_tree": "eb51aecdd81ad6af4995eb7e4ad6362f14d0b7ee",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1762,11 +1762,11 @@
    },
    "output_identity": {
     "files": 15995,
-    "sha256": "a5f9cdfea71458a900cadbd50f2e4e34f5dbd2db85d94c87f743301a24b61f33"
+    "sha256": "d5aaa909a9e2f769a56ef35d681741fd9a42ea6ab916dbd096ddc2fdb4f0382c"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-2/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-75255f1ef/pr-origin-coherence-75255f1ef"
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-658e3b714/pr-origin-coherence-p2-658e3b714"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -1869,9 +1869,9 @@
  },
  "tags/index.html": {
   "canonical": "https://bjjgraph.org/tags/",
-  "content_floor": 8835,
-  "content_hash": "e351f2116cc523d7b5c5a37a2ddc7a56e241e7ee2bea0d329322e93f6fb32a52",
-  "content_len": 10395,
+  "content_floor": 8838,
+  "content_hash": "2d2c22a4b92007f9a5dc6ec117cea5f3af70e17ffca8c8e1f08c0f848cec35be",
+  "content_len": 10398,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
