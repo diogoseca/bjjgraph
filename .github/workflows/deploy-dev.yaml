@@ -223,7 +223,11 @@ jobs:
       - name: Curated journey gate (Playwright E2E)
         # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
         # Keep every test and the single worker; allow the full suite to finish.
-        timeout-minutes: 20
+        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
+        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
+        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
+        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
+        timeout-minutes: 30
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
