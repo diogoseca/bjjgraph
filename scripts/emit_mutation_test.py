@@ -417,6 +417,10 @@ def version_value_suite():
 def app_reseed_suite():
     """--update-app-assets in a throwaway git repo, with a stand-in bundle build."""
     import check_build_fingerprint as gate
+    # THE REAL COMMAND MUST REGENERATE (D-280). The fixtures below pass a stand-in build, so they cannot
+    # see a revert of APP_BUILD to bare build.mjs, which would seed PR #231's content-coupled bundles
+    # from stale local data. This pin can.
+    assert gate.APP_BUILD == ('npm', 'run', 'regenerate:neural'), gate.APP_BUILD
     def fake_build(bake):
         return ('python3', '-c', 'import pathlib; d = pathlib.Path("neural/dist"); '
                 'd.mkdir(parents=True, exist_ok=True); '
@@ -431,6 +435,7 @@ def app_reseed_suite():
         (root / 'package.json').write_text('{"version": "2.0.0"}\n')
         (root / 'source/package-lock.json').write_text('{}\n')
         (root / 'neural/src/app.src.jsx').write_text('x\n')
+        (root / 'content').mkdir(); (root / 'content/Mount.json').write_text('{"n": 1}\n')
         (root / 'neural/build/build.mjs').write_text('// stand-in\n')
         (root / '.gitignore').write_text('neural/dist/\n')
         run('git', 'init', '-q'); run('git', 'add', '-A')
@@ -468,7 +473,9 @@ def app_reseed_suite():
             assert new['_meta']['content_provenance'] == receipt, 'the content receipt was touched'
             prov = new['_meta']['app_provenance']
             assert prov['git_head'] == head and prov['package_version'] == '2.0.0', prov
-            assert set(prov['inputs']) == set(gate.APP_INPUTS), prov['inputs']
+            tree = subprocess.run(('git', 'rev-parse', 'HEAD^{tree}'), cwd=root, check=True,
+                                  capture_output=True, text=True).stdout.strip()
+            assert prov['inputs'] == {'tree': tree} and prov['schema'] == 'app-assets-rebuild-v2', prov
             for key in set(base) | set(new):
                 if key not in ('app_assets', '_meta', '_note'):
                     assert new.get(key) == base.get(key), f'{key} changed'
@@ -481,12 +488,15 @@ def app_reseed_suite():
             (root / 'neural/src/app.src.jsx').write_text('y\n')
             refuse('dirty tracked input', 'not clean committed bytes', fake_build('2.0.0'))
             run('git', 'checkout', '-q', '--', 'neural/src/app.src.jsx')
+            (root / 'content/Mount.json').write_text('{"n": 2}\n')
+            refuse('dirty CONTENT outside neural/ (PR #231 bundles embed content-derived data)', 'not clean committed bytes', fake_build('2.0.0'))
+            run('git', 'checkout', '-q', '--', 'content/Mount.json')
             (root / 'neural/src/new.src.js').write_text('untracked\n')
             refuse('untracked input', 'not clean committed bytes', fake_build('2.0.0'))
             (root / 'neural/src/new.src.js').unlink()
             touching = fake_build('2.0.0')[:2] + (fake_build('2.0.0')[2] +
                                                   '; pathlib.Path("neural/src/app.src.jsx").write_text("z")',)
-            refuse('build rewrote its own input', 'modified its own inputs', touching)
+            refuse('build rewrote its own input', 'modified tracked files', touching)
             run('git', 'checkout', '-q', '--', 'neural/src/app.src.jsx')
             base['_meta']['format'] = 4
             refuse('format-4 baseline (bundle rows changed meaning in 5)', 'format 4', fake_build('2.0.0'))
