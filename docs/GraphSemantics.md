@@ -1039,8 +1039,9 @@ prices.
        app's gi EDGE is unchanged unless a gi table also ships;
      - ship gi hands (+2,924 B, enabling the in-browser gi committor and gi FLOW);
      - ship a gi EDGE table (+12,727 B, over the cap).
-   - **Taken in v1.209.0 (owner, 2026-09-30): ship gi hands.** `cal.evGi`, +2,924 B gzip on
-     `graph-data.json`. A gi player's FLOW reads the gi hands at the gi rate (`calSuccess`); the
+   - **Taken in v1.209.0 (owner, 2026-09-30): ship gi hands.** `cal.evGi`, +2,598 B gzip on
+     `graph-data.json` (the eager gate's gzip on v1.208's one-EDGE-block wire; +2,924 on the wire
+     priced above). A gi player's FLOW reads the gi hands at the gi rate (`calSuccess`); the
      browser matches `solve_flow.py --reference`'s gi row (top-10 order exact, V0 within 0.7%).
      119 decks the no-gi game cannot deal now score in gi, two inside the top 40 (Cross Collar
      Choke from Mount, Bow and Arrow Choke from Back Control). Cards still print the no-gi EDGE.

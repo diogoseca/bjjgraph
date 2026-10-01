@@ -427,7 +427,7 @@ test("the ledger reaches the score: recorded rolls move the ranking", () => {
 //
 // Until v1.209.0 a gi player's weak spots were the no-gi ranking: `cal.ev` holds no-gi hands only,
 // so the kernel dealt no-gi attempt shares at the folded no-gi rate, and not one gi-only deck could
-// ever be recommended. `cal.evGi` ships the gi hands (+2,924 B gzip); the rate is `calSuccess`'s.
+// ever be recommended. `cal.evGi` ships the gi hands (+2,598 B gzip, eager gate); the rate is `calSuccess`'s.
 
 /** The wire's own gi fork, read as DATA: technique node id -> gi rate (percent). */
 const GI_FORK = new Map(WIRE.nodes

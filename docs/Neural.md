@@ -445,7 +445,7 @@ compresses to `p_win ≈ 0.98`, under the played policy `mount/bottom` is −0.2
 `back-control/bottom` −0.479 — so `sol.v` cannot be reused for this and is not emitted.
 
 **Your ruleset, from your start (v1.209.0).** The browser rebuilds the kernel from the hands
-(`cal.ev` no-gi, `cal.evGi` gi at +2,924 B gzip, keyed `posIdx/role`) at the frame's own rate, and
+(`cal.ev` no-gi, `cal.evGi` gi at +2,598 B gzip, keyed `posIdx/role`) at the frame's own rate, and
 `cal.outcomes`. Shares renormalise per state. V₀ starts where your rolls do: uniform for
 Anywhere and My weak spots, standing's two seats for Standing.
 

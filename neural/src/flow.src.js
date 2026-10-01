@@ -17,7 +17,7 @@
 // The kernel is rebuilt in the browser from what already ships: the hand at each role-node with
 // its attempt shares, and `cal.outcomes` (the two-branch kernel, 1331 of 1331 summing to exactly
 // 100). IN THE PLAYER'S OWN RULESET (v1.209.0): the no-gi hands are `cal.ev`'s (zero bytes of
-// their own); the gi hands are `cal.evGi`, shipped for this at +2,924 B gzip, because `cal.ev` is
+// their own); the gi hands are `cal.evGi`, shipped for this at +2,598 B gzip, because `cal.ev` is
 // solved in no-gi only and a gi player was being ranked on no-gi attempt shares and rates, with
 // every gi-only deck unrankable (docs/GraphSemantics.md §8). The success rate is the frame's own,
 // read through the app's `calSuccess` — the number the game itself deals in that ruleset.

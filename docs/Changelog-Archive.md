@@ -8524,7 +8524,8 @@ weak-spots engine (`neural/src/flow.src.js`), had two blind spots, both silent:
 
 **What shipped.**
 - `cal.evGi[role] = [nodeIdxs, attemptPct]` — `cal.ev`'s layout with no EDGE blocks
-  (`build_gi_hands`). +2,924 B gzip on `graph-data.json`, exactly the research's price. The emitter
+  (`build_gi_hands`). +2,924 B gzip on `graph-data.json` on the three-block wire, exactly the research's
+  price (+2,598 on the one-block wire after PR 231; the emitter's own comment keeps the earlier figures). The emitter
   rebuilds all 265 no-gi `ev` hands by the same rule each run and refuses on any difference, so the gi
   table cannot be built by a different rule than the one beside it. Full hands, not a diff: 18 of 265
   hands keep the same whole percents across frames, and sharing the index list where membership
@@ -8571,8 +8572,21 @@ Position (top) jumps to #2–3 and Pull Guard, Takedown from Bottom and Level Ch
 deep-ground passes leave. In no-gi from standing, Spider Guard and Double Sleeve Guard decks score
 exactly 0 — no roll that opens standing reaches them (§10 item 6's teleporting listing).
 
-**Bytes.** Eager set +3,548 B this change (graph-data.json +2,924, neural.js +624), +3,601 against
-the accepted 314,744, cap 5,000. First-hand core +3,280 B by the spec's own Node zlib-9, cap 6,000.
+**Bytes, measured after merging PR 231 (the full game, which shipped as 1.208.x, hence 1.209.0).**
+231 shrank the wire to one EDGE block, so the same gi hands now cost more relative to it.
+- Eager set: +3,152 B this change. Measured with the gate's own gzip, against dev's emit + bundle
+  built from dev's sources. Dev itself already sits +1,684 over 231's accepted 327,480, so the
+  branch reads +4,836 of the 5,000 cap: 164 B of headroom.
+- First-hand core, in a real browser on this branch's build: +3,637 B (graph-data.json +3,071,
+  neural.js +566, same 11 requests), against the same tree with dev's bundle and wire swapped in.
+  Dev's drift is +1,679, so the branch reads +5,316 of the 6,000 cap.
+- Before the merge the same change was +3,548 (eager) and +3,280 (first-hand core).
+
+**Win chance does not move.** 231's MDP data is derived from the wire and the gameplay source
+(`regenerate_mdp_data.py` records `graphHash` and `gameplayHash`). Regenerated at origin/dev and on
+this branch, 62 of 65 files are byte-identical. The manifest and the two variants differ in
+provenance hashes only. That is also why four game bundles re-address at identical sizes in the
+build-shape rows.
 
 **Mutants** (each against the full suite): `_ev` read where `_evGi` belongs (9 red), the folded rate
 in gi, `evGi` dropped by `_deriveDualPairs` (9), the start missing from the memo key, the start law
