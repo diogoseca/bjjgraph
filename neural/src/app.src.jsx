@@ -1290,7 +1290,7 @@ class Component extends DCLogic {
           id: si === 0 ? h.id : h.id + "/" + SUF[role],
           x: h.x, y: h.y, t: h.t, ty: h.ty, s: h.s || null, role: role,
           pairId: si === 0 ? h.id + "/" + SUF[roles[1]] : h.id,
-          posId: h.posId || null, fromPositionId: h.fromPositionId || null, alsoFrom: h.alsoFrom || null,
+          posId: h.posId || null, fromPositionId: h.fromPositionId || null, alsoFrom: h.alsoFrom || null, absentAt: h.absentAt || null,
           fromRole: h.fromRole || null, familyHub: h.familyHub || null, aka: h.aka || null,
           o: si === 0 ? h.o : null,   // the share ordinal belongs to the hub, and the rep IS the hub
         };
@@ -1549,7 +1549,7 @@ class Component extends DCLogic {
       // graph-data.json by regenerate_neural_data.py). Never the array index `i`: that is
       // filesystem-ordered and one new content file renumbers it, which would silently
       // repoint every share link already posted in a WhatsApp group.
-      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, alsoFrom: Array.isArray(n.alsoFrom) && n.alsoFrom.length ? n.alsoFrom : null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, aka: n.aka || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
+      return { idx: i, id: n.id, x: n.x, y: n.y, t: n.t, ty: n.ty, s: n.s || null, dom, col: this.domColor(dom), deg: 0, lit: -99, posId: n.posId || n.fromPositionId || null, fromPositionId: n.fromPositionId || null, alsoFrom: Array.isArray(n.alsoFrom) && n.alsoFrom.length ? n.alsoFrom : null, absentAt: n.absentAt && typeof n.absentAt === "object" && Object.keys(n.absentAt).length ? n.absentAt : null, fromRole: n.fromRole || null, cal: n.cal || null, familyHub: n.familyHub || null, aka: n.aka || null, o: typeof n.o === "number" ? n.o : null, role: n.role || null, pairId: n.pairId || null };
     });
     const adj = nodes.map(() => []);
     const links = [];
@@ -13844,6 +13844,12 @@ class Component extends DCLogic {
       // `deal_here` (the wire's `alsoFrom`, v1.211.0) because its authored table lands coherently
       // from there. Mirrored by scripts/_mdp_mechanics.py (options) and build_hand.
       if (n.fromPositionId && hereId && n.fromPositionId !== hereId && !(n.alsoFrom && n.alsoFrom.includes(hereId))) continue;
+      // ABSENT HERE IN THIS RULESET (v1.215.0, origin coherence). The node-level mask says whether a
+      // move exists in a ruleset at all; a listing whose attempt is null in THIS frame (the move is
+      // dealt here in the other frame only) is named on the wire as `absentAt[frame]`, posIds like
+      // `alsoFrom`, and is not dealt. build_hand already drops it; mirrored by _mdp_mechanics.options
+      // and semantics/app_game.py.
+      if (n.absentAt && hereId && (n.absentAt[this._giMode] || []).includes(hereId)) continue;
       // THE MOVE AS PLAYED FROM HERE (v1.214.0). `_at` is the node itself unless this listing carries
       // its own table, so every other card is dealt exactly as before.
       const node = this._at(n, hereId);
