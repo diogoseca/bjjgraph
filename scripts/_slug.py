@@ -7,6 +7,10 @@ Used by:
 - regenerate_redirects.py  (alias 301 source paths)
 - validate_json.py  (alias / disambiguation comparison keys)
 
+and `quartz_page_path` below, the ONE copy of Quartz's page-path rule, by regenerate_graph.py
+(`targetPath`, re-exported as `quartz_slug` for its importers), regenerate_explorer_tree.py and
+regenerate_md_from_json.py (hrefs). Until v1.216.1 each of those three carried its own copy.
+
 Before this module existed there were THREE divergent slugify functions: the
 graph's kept accents (Unicode `\\w`), the md/redirects pair transliterated them,
 and validate_json's `_normalize_alias_key` did neither. That meant an accented
