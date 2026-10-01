@@ -18,7 +18,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { FIXTURES, byId, hostileStrings } from "../workers/digest/fixtures.js";
-import { renderHtml, renderText, renderSubject, renderPreheader, esc, hdr, plain, SUBJECT_MAX, beltEta, prettyKey } from "../workers/digest/render.js";
+import { renderHtml, renderText, renderSubject, renderPreheader, esc, hdr, plain, SUBJECT_MAX, beltLine, prettyKey } from "../workers/digest/render.js";
 
 /**
  * Text content with tags removed — for asserting what a READER sees, not what the markup is.
@@ -116,17 +116,22 @@ test("a video is offered only when a clip was actually found", () => {
   }
 });
 
-test("the belt ETA makes a promise only when it has a pace to back it", () => {
-  for (const f of FIXTURES) {
-    const seen = visible(renderHtml(f.digest));
-    const e = f.digest.eta;
-    if (e && e.days) assert.ok(seen.includes("At this pace"), f.id + ": lost its ETA");
-    else if (e) {
-      assert.ok(seen.includes("Next stop"), f.id + ": should fall back to the quiet line");
-      assert.ok(!seen.includes("At this pace"), f.id + ": promised a date it cannot know");
-    } else {
-      assert.ok(!seen.includes("At this pace") && !seen.includes("Next stop"),
-        f.id + ": there is no next belt — both lines must go");
+test("the belt line names the worn belt's next belt, names black at black, and is absent without a line", () => {
+  // v1.211.0: the belt is earned in the Challenges and written by the app; the score names none.
+  for (const f of FIXTURES.filter((x) => numeric(x.digest))) {
+    const html = visible(renderHtml(f.digest)), text = renderText(f.digest);
+    const b = f.digest.belt;
+    for (const [name, seen] of [["html", html], ["text", text]]) {
+      if (!b) {
+        assert.ok(!/Next belt|Belt:/.test(seen), f.id + " " + name + ": no line, so no belt — never one from the score");
+      } else if (b.next) {
+        assert.ok(seen.includes("Next belt: " + b.next.toUpperCase() + " \u2014 " + b.done + " of " + b.total + " " + b.worn + " units proven"), f.id + " " + name + ": " + seen);
+      } else {
+        assert.ok(seen.includes("Belt: " + b.worn.toUpperCase() + " \u2014 " + b.done + " of " + b.total + " units proven"), f.id + " " + name);
+        assert.ok(!seen.includes("Next belt"), f.id + " " + name + ": there is no belt after black");
+      }
+      // retired v1.211.0 — a score-paced promise of a belt the score no longer decides
+      assert.ok(!/At this pace|Next stop/.test(seen), f.id + " " + name + ": the retired score-paced line came back");
     }
   }
 });
@@ -184,12 +189,13 @@ test("the escaper covers the five characters, because it is used in two places",
 
 // ── the composition helper the copy depends on ───────────────────────────────────────────
 
-test("beltEta names the NEXT band, and refuses to guess without forward progress", () => {
-  assert.equal(beltEta(0.5, [0.01, 0.01]).belt, "purple", "0.5 is past blue, so purple is NEXT");
-  assert.equal(beltEta(0.5, []).days, null, "no history is not a pace");
-  assert.equal(beltEta(0.5, [-0.02]).days, null, "going backwards must not print an arrival date");
-  assert.equal(beltEta(0.95, [0.01]), null, "past black there is no next belt");
-  assert.ok(beltEta(0.19, [0.01]).days >= 1, "an ETA is never zero days");
+test("beltLine: the next belt below black, the belt itself at black, nothing without a line", () => {
+  assert.deepEqual(beltLine({ worn: "blue", next: "purple", done: 4, total: 6 }), { lead: "Next belt", belt: "purple", rest: "4 of 6 blue units proven" });
+  assert.deepEqual(beltLine({ worn: "black", next: null, done: 6, total: 6 }), { lead: "Belt", belt: "black", rest: "6 of 6 units proven" });
+  assert.equal(beltLine(null), null);
+  // a black Game Knowledge score on a white belt mails the WHITE belt's next one: the score decides no belt
+  const d = { ...byId("typical").digest, score: 84, belt: { worn: "white", next: "blue", done: 2, total: 6 } };
+  assert.ok(renderText(d).includes("Next belt: BLUE"), "the line follows the worn belt, not the score");
 });
 
 test("prettyKey turns a deck key into something a person would say", () => {
@@ -371,7 +377,7 @@ test("the delta is one neutral colour — no green, no red, and the same colour 
 // escaper regardless: the guard and the arithmetic are one refactor from gone.
 
 /** The hostile digest with real numbers in the hostile slots — same branches, same markup. */
-const controlFor = (d) => ({ ...d, count: 24, score: 33.3, delta: 0, eta: { belt: "blue", days: 15 } });
+const controlFor = (d) => ({ ...d, count: 24, score: 33.3, delta: 0, belt: { worn: "blue", next: "purple", done: 1, total: 6 } });
 /** Every element name the document opens or closes, in order — the template's skeleton. */
 const tagCensus = (html) => (html.match(/<\/?[a-zA-Z][a-zA-Z0-9]*/g) || []).map((t) => t.toLowerCase());
 
@@ -379,7 +385,7 @@ test("a hostile value in a numeric slot adds no element to the HTML, and the rea
   const f = byId("hostile-numbers");
   const html = renderHtml(f.digest);
   const control = renderHtml(controlFor(f.digest));
-  // kills: drop `esc` on count / score / delta / eta.belt / eta.days in renderHtml
+  // kills: drop `esc` on count / score / delta / the belt line in renderHtml
   assert.deepEqual(tagCensus(html), tagCensus(control),
     "the hostile digest draws a different set of elements than its control — a value became markup");
   // the markup-carrying strings; the CR LF one is whitespace to an HTML parser and is the
@@ -388,10 +394,10 @@ test("a hostile value in a numeric slot adds no element to the HTML, and the rea
     assert.ok(!html.includes(hs), "a hostile value reached the HTML verbatim: " + JSON.stringify(hs));
   }
   assert.ok(!/<a href="https:\/\/evil/.test(html) && !/<img/.test(html) && !/<u>/.test(html), "attacker markup rendered as elements");
-  // the "Next stop" branch (no pace) interpolates the belt a second time — kills: drop `esc` there
-  const stalled = { ...f.digest, eta: { belt: "blue<u>", days: null } };
-  assert.deepEqual(tagCensus(renderHtml(stalled)), tagCensus(renderHtml({ ...stalled, ...controlFor(f.digest), eta: { belt: "blue", days: null } })),
-    "the Next stop line rendered the belt as markup");
+  // the black branch (no next belt) interpolates the WORN belt instead — kills: drop `esc` there
+  const black = { ...f.digest, belt: { worn: "black<u>", next: null, done: "1<b>", total: 6 } };
+  assert.deepEqual(tagCensus(renderHtml(black)), tagCensus(renderHtml({ ...controlFor(f.digest), belt: { worn: "black", next: null, done: 1, total: 6 } })),
+    "the black-belt line rendered the belt as markup");
   // the delta with markup in it — the fixture's delta is the CR LF payload, which an HTML
   // parser reads as whitespace, so this branch needs its own probe — kills: drop `esc` on delta
   assert.deepEqual(tagCensus(renderHtml({ ...f.digest, delta: "<u>1</u>" })), tagCensus(renderHtml(controlFor(f.digest))),
@@ -451,12 +457,13 @@ test("the plaintext body carries no CR, and no value can add a line to it", () =
   const lines = (t) => t.split("\n").length;
   assert.equal(lines(text), lines(renderText(controlFor(f.digest))),
     "the hostile body has a different number of lines than its control — a value carried a line break");
-  // and the other fields, fed the CR LF in turn (count, score, eta.belt, eta.days, a technique,
+  // and the other fields, fed the CR LF in turn (count, score, every belt field, a technique,
   // a weak spot, the unsubscribe URL) — kills: drop `plain` on any one of them
   const crlf = f.digest.delta;
   const probes = [
     { ...f.digest, count: crlf }, { ...f.digest, score: crlf },
-    { ...f.digest, eta: { belt: crlf, days: crlf } },
+    { ...f.digest, belt: { worn: crlf, next: crlf, done: crlf, total: crlf } },
+    { ...f.digest, belt: { worn: crlf, next: null, done: crlf, total: crlf } },
     { ...f.digest, techniques: [crlf + "|Top"] },
     { ...f.digest, weakTop: [crlf + "|Top", crlf + "|Bottom"], clip: { id: crlf, who: crlf, title: "t", dur: null } },
     { ...f.digest, streak: 5, unsubUrl: f.digest.unsubUrl + crlf },
@@ -483,8 +490,9 @@ test("the fixture set still reaches every branch it claims to", () => {
   assert.ok(has((d) => d.weakTop.length > 1), "need a two-weak-spot case");
   assert.ok(has((d) => !!d.clip), "need a with-clip case");
   assert.ok(has((d) => d.weakTop.length > 0 && !d.clip), "need a weak-spot-without-clip case");
-  assert.ok(has((d) => d.eta === null), "need a past-black case");
-  assert.ok(has((d) => d.eta && !d.eta.days), "need a no-pace case");
+  assert.ok(has((d) => d.belt === null), "need a no-belt-line case");
+  assert.ok(has((d) => d.belt && d.belt.next), "need a next-belt case");
+  assert.ok(has((d) => d.belt && !d.belt.next), "need a black-belt case");
   assert.ok(has((d) => d.delta === null), "need a first-day case");
   assert.ok(has((d) => d.delta < 0), "need a losing-ground case");
   assert.ok(has((d) => d.techniques.length > 10), "need a folding case");

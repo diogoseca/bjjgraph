@@ -319,7 +319,7 @@ On demand: one deck's cards, one node's dossier, `systems.json`, `concepts.json`
 (the Principles + Learning index — each concept's readable body is a dossier in the SAME
 `content/` chunk space, keyed `<Name>|Principle`). **`_cardsOf(d)` is the only legal
 way to read cards — a manifest stub is truthy.** The manifest's `n` is load-bearing: `deckMastery`
-computes from it when cards are absent, so dropping it shows every user a white belt.
+computes from it when cards are absent, so dropping it zeroes every user's knowledge.
 
 **Pane law.** The pane is **manual-only** — nothing in the roll loop opens or closes it. **Open =
 the game stops; close = it resumes, but only if the pane is what stopped it** (latched in

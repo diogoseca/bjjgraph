@@ -57,7 +57,7 @@ function fixture() {
     _progressOwnerStamp:{}, _progressCurrent:()=>true, settings:{}, _settingsAt:{}, now:123,
     _session:{keys:["due-a","due-b"],idx:1}, _landQ:{key:"frozen-question",answered:false},
     currentPos:7, currentRole:"bottom", deck:{key:"active-deck"}, _evLam:[1,2,4],
-    gameScore:()=>({belt:"white"}), _reducedMotion:()=>true, _weakStates:()=>[],
+    gameScore:()=>({belt:"white"}), wornBelt:()=>({id:"white",rank:0,done:0,total:6,stripes:0}), _reducedMotion:()=>true, _weakStates:()=>[],
     _saveProgress:()=>calls.saved++, _gameValueChanged:r=>calls.changed.push(r), _rebuildRulesetMask:()=>{},
     _applyLayers:()=>calls.layers++, fx:()=>{}, track:(event,p)=>calls.events.push({event,p}),
     _fetchSettingsPresentation:attempt=>{calls.loads.push(attempt);return Promise.resolve(runtime);},
