@@ -335,14 +335,14 @@ rather than from the payload is deliberate, because the payload is deferred and 
 race. Pinned by `e2e/journeys/concepts-surface.spec.ts` (both halves — an arrival that starts
 nothing, and a member row that starts a roll).
 
-**The hand.** `optionsFor` deals every legal move (uncapped), ranked by **EDGE**, and the order is
-**frozen at deal time** — a mid-decision grade moves the printed numbers but must never re-sort a
-tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
+**The hand.** `optionsFor` deals every legal move (uncapped) ranked by **EDGE**, sorted ONCE by
+**Win chance** (Neural.md §4) if untouched, else **frozen**: a grade moves
+the numbers but must never re-sort a tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
 `decisionSec` arms when a question mounts and expiry reveals the answer as a miss
 (`_expireLandQ`) while the hand stays live, untimed;
 deck warm-up is capped at `NG_PREFETCH_CAP`.
 
-**EDGE** = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
+**EDGE** (not printed) = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
 where you stand, counting where a miss leaves you. `0` is normal, not "no value". **The honesty
 gap is the opponent's POLICY:** since v1.176.0 `opponentDefend` draws from `optionsFor` (role- and
 origin-filtered) but never reads attempt shares — it finishes w.p. clamp(0.34 + 0.55·adv), else
@@ -567,7 +567,7 @@ symbol to every version that touched it.
 - **DO NOT role-split `adj`.** `opponentDefend`, `_mcPool` and `_posIdx` walk `adj[currentPos]` with NO role filter, deliberately — they are asking about the EXCHANGE, not about your hand. A purely role-split adjacency handed the opponent YOUR hand, the belt-test opponent stopped finding submissions, and `content-capstone` went red. Each pair member therefore carries its SITE's technique set (link kind 2, one-way, never drawn). **Precise wording matters here:** the two members' `adj` are NOT byte-identical — measured 136 of 136 differ by exactly the pair tie, and order legitimately differs because a site link is pushed one-way. The design claim holds; a spec written against the retired "byte-for-byte, in the same order" phrasing goes red on a correct build.
   <br>_(1 (found by the suite, not by review) · _re-verify before quoting_)_
 
-- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`, `activeListId`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
+- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`, `activeListId`, `lossAversion`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
   <br>_(8 across three storage layers)_
 
 - **`startPosTraffic` · `_posSlugIndex` — position traffic is keyed to the TOP MEMBER ONLY, so anything weighted by it scores ZERO for the entire bottom side.** `_posSlugIndex` maps a bare posId to the top member (`app.src.jsx`), while `resolveOutcomeTo` lands you on a bottom member on **2,071 of 3,842 outcome cells**. Measured on a bottom player who had drilled 90 bottom decks: **0 of 90 changed score**, and their "15 weakest spots" came back as fifteen guard-passing techniques — real names, ranked, entirely wrong. The obvious repair does not work either: **136 of 136 hubs give top and bottom IDENTICAL traffic**, so a hub lookup carries no side information at all.

@@ -83,7 +83,7 @@ function setStaticHidden(hide: boolean): void {
   st.id = HIDE_STYLE_ID
   st.setAttribute("spa-preserve", "") // survive head-patching across soft navs
   st.textContent =
-    'html[data-variant="neural"] body > *:not(#neural-root):not(#dev-snapshot-btn){display:none !important}' +
+    'html[data-variant="neural"] body > *:not(#neural-root):not(#neural-progress-recovery):not(#dev-snapshot-btn){display:none !important}' +
     'html[data-variant="neural"] body{background:#0b0e1a}'
   document.head.appendChild(st)
 }

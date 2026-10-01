@@ -16,7 +16,7 @@
 //
 // The kernel is rebuilt in the browser from what already ships: the hand at each role-node with
 // its attempt shares, and `cal.outcomes` (the two-branch kernel, 1331 of 1331 summing to exactly
-// 100). IN THE PLAYER'S OWN RULESET (v1.208.0): the no-gi hands are `cal.ev`'s (zero bytes of
+// 100). IN THE PLAYER'S OWN RULESET (v1.209.0): the no-gi hands are `cal.ev`'s (zero bytes of
 // their own); the gi hands are `cal.evGi`, shipped for this at +2,924 B gzip, because `cal.ev` is
 // solved in no-gi only and a gi player was being ranked on no-gi attempt shares and rates, with
 // every gi-only deck unrankable (docs/GraphSemantics.md §8). The success rate is the frame's own,
@@ -122,9 +122,8 @@ export function ngFlowBuild(app, opts) {
   const ev = frame === "gi" && giTab ? giTab : app._ev;
   const handsFrame = ev === giTab ? "gi" : "nogi";
   const evRows = app._ev;   // the EDGE rows the player's CARDS print — `e0` below reads these
-  // the lambda block to read EDGE from: the user's own `lossAversion`, so FLOW's features and
-  // the integers printed on their cards are priced off the same dial (measured: the dial does
-  // not change the FLOW ordering, rho ~0.9998, but it changes the scale 2.4x).
+  // the lambda block to read EDGE from: the app's fixed default (`_evLamIdx`, NG_EDGE_LAM). The
+  // player's loss-aversion dial was retired in v1.207.0 and the wire ships that one block only.
   const lamIdx = (opts && opts.lamIdx != null) ? opts.lamIdx
     : (typeof app._evLamIdx === "function" ? Math.max(0, app._evLamIdx()) : 0);
   const nodeAt = (i) => nodes[i];
@@ -735,6 +734,7 @@ export function ngFlowScore(app, opts) {
 
   // the ledger, if there is one. Never a silent fallback: `personal` is null and says so.
   let personal = null;
+  K.usePersonal = false; // reused kernel must not retain the preceding profile's rates
   if (o.counts && typeof o.counts === "object") {
     personal = ngFlowPersonal(K, o.counts, o);
     K.usePersonal = !!personal;

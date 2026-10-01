@@ -40,6 +40,7 @@
 //
 // Run: node --test tests/neural_wire_keys.test.mjs   (npm run test:units)
 import { test } from "node:test";
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -57,11 +58,11 @@ const WIRE = JSON.parse(readFileSync(resolve(NEURAL, "graph-data.json"), "utf8")
 const MANIFEST = JSON.parse(readFileSync(resolve(NEURAL, "flashcards/_index.json"), "utf8"));
 const CUR = JSON.parse(readFileSync(resolve(NEURAL, "curriculum.json"), "utf8"));
 
-// The bundle concatenates wire-keys.src.js above the class; a headless harness injects the same
-// names (the flow.test.mjs pattern), so this runs the ONE decoder the browser runs.
+// The bundle concatenates wire-keys.src.js and knowledge-profile.src.js above the class;
+// `knowledgeSource` is that same prelude, so this runs the ONE decoder the browser runs.
 const Component = new Function(
-  "DCLogic", "React", "ngWireDecks", "ngWireScoreWeights", `${src}\nreturn Component;`,
-)(class DCLogic {}, { createRef: () => ({ current: null }) }, ngWireDecks, ngWireScoreWeights);
+  "DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`,
+)(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 /** The real `ingest`, on the real payload — never a test-side re-implementation (§6.3). */
 function app() {

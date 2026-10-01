@@ -215,7 +215,7 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
     page.evaluate(() =>
       [...document.querySelectorAll("[data-tech]")].map((c: any) => ({
         t: c.getAttribute("data-tech"),
-        edge: c.querySelector(".ngedge") ? c.querySelector(".ngedge").textContent : null,
+        valueLabel: c.querySelector("[data-choice-value]")?.textContent || null,
         odds: (c.querySelector(".ngodds") || {}).textContent || null,
       })),
     )
@@ -259,9 +259,9 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
   const moved = after.find((c: any) => c.t === target)!
   const was = before.find((c: any) => c.t === target)!
   expect(parseInt(moved.odds!, 10), "the drilled card's odds moved").toBeGreaterThan(parseInt(was.odds!, 10))
-  expect(parseInt(moved.edge!, 10), "and so did its EDGE — that payoff is the reason to drill").toBeGreaterThan(
-    parseInt(was.edge!, 10),
-  )
+  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win chance")
+  // Numerical future-value updates and stale-profile rejection use controlled solver replies
+  // in choice-value.spec.ts; this legacy fixture exercises the live immediate odds only.
 })
 
 test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback", async ({ page }) => {
@@ -300,19 +300,42 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   // the control: the fallback these replaced is nearly a constant, so this is a real difference
   expect(wire.fbDistinct, "the dominance fallback prices them all the same").toBeLessThan(6)
 
-  // ...and it reaches the card. Mount top deals six submissions whose printed odds span 24 points;
-  // under the fallback the whole hand would have rendered inside a 2-point band.
+  // ...and it reaches the card. In the full game (v1.207.0) a submission card dealt on a POSITION
+  // is an ENTRY: stepping into the finishing position is certain, so every one of them prints
+  // "Entry 100%" — exactly one number, by design (the control below). The authored finishing rate
+  // is what the FINISH card prints once you are in the submission, so that is where this claim now
+  // lives: under the fallback, those finish cards would all sit inside a 2-point band.
+  // Mutants, recorded 2026-09-29: a constant finish chance (choiceChance -> .5 on a finish) turns
+  // the finish half red (six 50%s); calSuccess -> null turns the wire half red (uncalibrated).
   await j.land("Mount Top")
   const hand = await page.evaluate(() =>
-    [...document.querySelectorAll("[data-tech]")]
+    [...document.querySelectorAll('[data-choice-group="you"] [data-tech]')]
       .map((c: any) => ({
         t: c.getAttribute("data-tech"),
+        label: ((c.querySelector("[data-immediate-label]") || {}).textContent || "").trim(),
         odds: parseInt(((c.querySelector(".ngodds") || {}).textContent || "0").replace("%", ""), 10),
       }))
       .filter((c: any) => ((window as any).__neural.nodes.find((n: any) => n.t === c.t) || {}).ty === "submissions"),
   )
   expect(hand.length, "mount top deals submissions").toBeGreaterThan(3)
-  const odds = hand.map((c: any) => c.odds)
-  expect(new Set(odds).size, "the submissions do not all print one number").toBeGreaterThan(2)
+  expect([...new Set(hand.map((c: any) => c.label + " " + c.odds))], "a submission dealt on a position is an Entry, certain").toEqual(["Entry 100"])
+  const finish: Record<string, number> = {}
+  for (const url of [
+    "/Submissions/Kimura/from-Mount/Attacker",
+    "/Submissions/Armbar/from-Mount/Attacker",
+    "/Submissions/Americana/from-Mount/Attacker",
+    "/Submissions/Ezekiel-Choke/from-Mount/Attacker",
+    "/Submissions/Triangle-Choke/from-Triangle-Control/Attacker",
+    "/Submissions/Rear-Naked-Choke/from-Back-Control/Attacker",
+  ]) {
+    await j.boot(url)
+    await j.advance(4000)
+    const card = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
+    await expect(card, url + " deals its finish").toHaveCount(1)
+    await expect(card.locator("[data-immediate-label]")).toHaveText("Finish")
+    finish[url] = parseInt(((await card.locator(".ngodds").textContent()) || "0").replace("%", ""), 10)
+  }
+  const odds = Object.values(finish)
+  expect(new Set(odds).size, "the finish cards do not all print one number: " + JSON.stringify(finish)).toBeGreaterThan(2)
   expect(Math.max(...odds) - Math.min(...odds), "and they span more than the fallback's whole range").toBeGreaterThan(8)
 })

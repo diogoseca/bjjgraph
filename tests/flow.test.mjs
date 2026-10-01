@@ -14,18 +14,18 @@
 // difference 0.00000 across the state checked), so the drift is entirely that rounding. The
 // RANKING is unaffected and is pinned exactly here; the magnitudes are pinned with a floor.
 //
-// ONE ROW PER GAME THE APP CAN PRICE (v1.208.0). The fixture holds four variants — no-gi and gi,
+// ONE ROW PER GAME THE APP CAN PRICE (v1.209.0). The fixture holds four variants — no-gi and gi,
 // each from the uniform "Anywhere" start and from Standing — because the weak-spots ranking is
 // now solved in the player's own ruleset and from the start their own rolls use. Every variant is
 // the frame as the APP builds it: the frame's own success rate and the ruleset layer's exclusions.
 //
 // THE HARNESS SERVES NO localStorage, SO IT BOOTS IN GI (§6.4). `_hydrateGiMode` reads the
-// ruleset from localStorage and falls back to "gi"; until v1.208.0 every kernel in this file was
+// ruleset from localStorage and falls back to "gi"; until v1.209.0 every kernel in this file was
 // therefore a GI-MODE app with the NO-GI hands — which is exactly the bug a gi player had, and a
 // real no-gi player's kernel (the reachability mask on: 248 states, not 264) was never compared
 // with anything. Every app here now names its ruleset.
 //
-// MUTATION RECORD (v1.208.0), each run against the full file; KILLED = at least one named test red:
+// MUTATION RECORD (v1.209.0), each run against the full file; KILLED = at least one named test red:
 //   M1  ngFlowBuild reads `_ev` where it should read `_evGi`         KILLED — 9 red (0, 1, gi rows, 6a-6c, 7c)
 //   M2  ngFlowBuild drops `rateOf` (gi prices at the folded rate)    KILLED — gi rows, sign, 6a, 6b
 //   M3  _deriveDualPairs does not carry `evGi`                       KILLED — 9 red
@@ -44,6 +44,7 @@
 // Regenerate the fixture: python3 scripts/solve_flow.py --reference
 // Run: node --test tests/flow.test.mjs
 import { test } from "node:test";
+import { gameplanAppSource, gameplanRuntime } from "./_gameplan_harness.mjs";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -56,7 +57,7 @@ import { ngWireDecks, ngWireScoreWeights } from "../neural/src/wire-keys.src.js"
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
-const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
+const src = gameplanAppSource;
 const REF = JSON.parse(readFileSync(R("tests/artifacts/flow_reference.json"), "utf8"));
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 const STANDING = { posId: "standing-position" };
@@ -156,7 +157,7 @@ test("both roles carry occupancy — the top-member collapse must never come bac
 //   ONE-SIDED (scaling REF.v0 by 0.99 kills the no-gi row; +0.5% / +2% survive).
 //
 // The TOLERANCES are per game because the rounding lands differently in each, and every figure
-// below is the one MEASURED at v1.208.0 so a drift is visible against it:
+// below is the one MEASURED at v1.209.0 so a drift is visible against it:
 //   game            V0 gap   top-40 shared   within 5%   worst deck           L1 gap
 //   nogi            2.45%    40/40           87.0%       23.6%                1.47%
 //   gi              0.68%    39/40           88.7%       29.0% Spine Lock/Truck 1.44%
@@ -243,7 +244,7 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // bottom one, and splitting it is the real fix. The count stays HARD-CODED for the same reason the
   // technique-site count does: it is a tripwire, so a drift belongs in a commit message, not absorbed
   // by deriving it from the source it checks.
-  // v1.208.0: this is now the no-gi kernel a no-gi player actually gets (the mask on); the count did
+  // v1.209.0: this is now the no-gi kernel a no-gi player actually gets (the mask on); the count did
   // not move. The gi count is its own tripwire — 21, the same ladder without the rows gi prices up.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = NOGI.decks.filter((d) => PY.get(d) < -1e-12).sort();
@@ -368,19 +369,22 @@ test("one entry per family, and every row is a deck the user can actually open",
   for (const r of w.ranked) assert.ok(a.flashcards.decks[r.deck], `${r.deck} is in the manifest`);
 });
 
-test("the dose is a CARD budget and maintenance takes precedence", () => {
+// Dose/grade/debt invariants now live in gameplan*.test.mjs, against the shared planner.
+// D1 (owner, 2026-09-30) REVERSES the v1.207.0 contract "FLOW alone deals nothing": with no study
+// comparison, the weak-spots ranking fills the plan, so every player, a new one included, has one.
+// The honesty half still holds: FLOW is never passed off as a comparison. The plan says
+// `weak-spots` and its `comparison` stays `unavailable`.
+test("FLOW fills the plan when no comparison exists, and never passes as a comparison", () => {
   const a = fullApp();
-  a.dueCount = () => 0;
-  const fresh = a.newTechniques();
-  const cards = fresh.reduce((s, k) => s + (a._deckCardCount(a.flashcards.decks[k]) || 0), 0);
-  assert.ok(fresh.length > 0, "an empty day deals something");
-  assert.ok(cards <= a.get("dailyGoal", 30), `${cards} cards must fit the 30-card budget`);
-  // owner's rule: "if we only have maintenance to do, we can't afford to waste the daily goal"
-  a.dueCount = () => 30;
-  assert.deepEqual(a.newTechniques(), [], "maintenance owning the day leaves no room");
-  a.dueCount = () => 24;
-  const squeezed = a.newTechniques();
-  assert.ok(squeezed.length >= 1 && squeezed.length < fresh.length, "a partial day deals less");
+  a._refreshGameplanUI = () => {};
+  a.setGameplanRuntime(gameplanRuntime);
+  const ranked = a.weakSpots().ranked.map((r) => r.deck);
+  assert.ok(ranked.length > 0);
+  const plan = a.planSummary();
+  assert.equal(plan.status, "weak-spots"); assert.equal(plan.comparison, "unavailable");
+  assert.ok(plan.fresh.length > 0, "a new player is dealt new techniques");
+  assert.ok(plan.fresh.every((r) => ranked.includes(r.key)), "every dealt deck comes from the ranking");
+  assert.deepEqual(a.newTechniques(), plan.fresh.map((r) => r.key));
 });
 
 test("a missing kernel degrades LOUDLY to the old rule, never to a table of zeros", () => {
@@ -410,7 +414,7 @@ test("the ledger reaches the score: recorded rolls move the ranking", () => {
   const led = {};
   const pk = K.deckKeys[K.posDeck[st]];
   led[pk] = {};
-  for (const a2 of K.hands[st].slice(0, 3)) if (a2.ord >= 0) led[pk][a2.ord] = [40, 2];  // tried a lot, landed little
+  for (const a2 of K.hands[st].slice(0, 3)) if (a2.ord >= 0) led[pk][a2.ord] = [40, 2, base._epochDay()];  // persisted rows include their observation day
   const warm = fullApp({ flow: { dev1: led } });
   assert.ok(warm.flowN() > 0, `the ledger reads back, got ${warm.flowN()}`);
   const hot = warm.weakSpots();
@@ -421,7 +425,7 @@ test("the ledger reaches the score: recorded rolls move the ranking", () => {
 
 // ── 6: A GI PLAYER IS RANKED ON GI NUMBERS (owner, 2026-09-30, docs/GraphSemantics.md §10.7) ──
 //
-// Until v1.208.0 a gi player's weak spots were the no-gi ranking: `cal.ev` holds no-gi hands only,
+// Until v1.209.0 a gi player's weak spots were the no-gi ranking: `cal.ev` holds no-gi hands only,
 // so the kernel dealt no-gi attempt shares at the folded no-gi rate, and not one gi-only deck could
 // ever be recommended. `cal.evGi` ships the gi hands (+2,924 B gzip); the rate is `calSuccess`'s.
 
@@ -497,7 +501,7 @@ test("6a: the gi kernel reads the gi hands and the gi rate; the no-gi kernel nei
 test("6b: the two rulesets rank differently where they must", () => {
   const gi = SOLVED.gi, ng = SOLVED.nogi;
   const inNogi = new Set(K.deckKeys);
-  // the gi-only decks: dealt only in gi (lapel and sleeve guards, collar chokes). Before v1.208.0
+  // the gi-only decks: dealt only in gi (lapel and sleeve guards, collar chokes). Before v1.209.0
   // none of them existed in a gi player's kernel, so none could ever be recommended.
   const giOnly = KG.deckKeys.filter((d) => !inNogi.has(d));
   const scored = giOnly.filter((d) => gi.run.grad[KG.deckIdx.get(d)] > 0);
@@ -558,7 +562,7 @@ test("6d: a ruleset flip re-ranks the same player — even one that never passes
 //
 // FLOW integrated over a uniform start — the app's default "Anywhere" roll — for every player. A
 // Standing player's rolls open on the feet, and from there the ranking is a different one
-// (Spearman 0.68 in no-gi, 0.67 in gi, measured here at v1.208.0; docs/GraphSemantics.md §5.4).
+// (Spearman 0.68 in no-gi, 0.67 in gi, measured here at v1.209.0; docs/GraphSemantics.md §5.4).
 
 test("7a: ngFlowStart — uniform, a fixed position's two seats, and a named miss", () => {
   const u = ngFlowStart(K, null);

@@ -1,10 +1,11 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 
 // Execute the production methods; the index fixtures isolate transport, cache and pairing rules.
 const src = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-const Component = new Function("DCLogic", "React", "NG_APP_VERSION", `${src}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", "NG_APP_VERSION", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class {}, { createRef: () => ({ current: null }) }, "alias-test",
 );
 const ID = "Submissions/Rear-Naked-Choke/from-Back-Control";

@@ -1,5 +1,6 @@
 import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
+import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } from "../fixtures/neural-auth-sdk";
 
 /**
  * THE FEEDBACK MODAL'S COPY AND COLUMN, FROM BOTH ENTRY POINTS, BY MOUSE, AT 390 AND 1440.
@@ -22,8 +23,8 @@ import { journey } from "../dsl";
  * v1.196.2: the issue entry invites improvements. Pin its one-line fit at 390 using
  * the rendered text's line boxes, the exact title/placeholder and the announcer after Send.
  * Both event names stay fixed and carry a boolean signed_in, with no account/email properties.
- * Signed-in coverage uses _applyUser, the same session projection as account-menu.spec.ts and
- * the app's SIGNED_IN handler; it does not assign user or signed_in directly. UNCOVERED: real
+ * Signed-in coverage emits a synthetic SDK SIGNED_IN event through the real SSG facade and
+ * owner transition; it does not replace the facade or project user directly. UNCOVERED: real
  * Supabase/OAuth and PostHog delivery (the harness aborts remote requests and stubs capture).
  *
  * Red-proof, v1.196.2 (each mutant rebuilt and served; 2 guest viewports + 1 applied session):
@@ -219,14 +220,12 @@ for (const vp of [
 test("both feedback events carry signed_in true after the session user is applied @curated", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   const j = journey(page);
-  await j.boot("/");
+  await j.boot("/", { beforeNavigate: beforeNeuralAuthNavigate });
+  await waitNeuralAuthOwner(page, null);
+  await signInNeuralAuthSDK(page, "feedback-test-user", { email: "feedback@example.com", name: "Feedback Tester" });
   await j.land("Mount Top");
-  // Honest session seam, as in account-menu.spec.ts: exercise the app's projection and UI.
-  // This covers feedback with an applied session, not a real OAuth exchange or auth persistence.
+  // Actual facade/owner transition, with synthetic SDK identity and capture only.
   await page.evaluate(() => {
-    (window as any).__neural._applyUser({
-      id: "feedback-test-user", email: "feedback@example.com", user_metadata: { full_name: "Feedback Tester" },
-    });
     (window as any).__phEvents = [];
     (window as any).posthog = { capture: (e: string, p: any) => (window as any).__phEvents.push({ e, p }) };
   });

@@ -29,11 +29,13 @@ on:
       - "source/quartz/static/globalGraphLayout.json"
       # test:units pins the neural sources, not just the codec file
       - "neural/src/**"
+      - "neural/build/**"
       - "neural/src/lists-codec.src.js"
       # every unit suite AND the helpers they import (tests/_census.mjs, tests/_deps_promised.mjs):
       # a helper is an input of every gate that imports it, so a PR that edits only the helper
       # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
       - "tests/*.mjs"
+      - "tests/*.py"
       # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
       # lines below: a gate behind a filter that excludes its own subject never runs on the PR
       # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.
@@ -229,7 +231,7 @@ jobs:
         working-directory: source
 
       - name: Pure unit suites
-        run: node --test tests/*.test.mjs
+        run: npm run test:units
         env:
           # tests/_deps_promised.mjs: a promised module that is absent is a failure, never a skip.
           CI: "true"

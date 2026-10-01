@@ -66,15 +66,39 @@ test("a session row opened below the fold, then walked with ↓ and ↑, keeps i
   // The plan queue, every row dealt (the "Show more" pages collapsed into one), so the list is
   // certain to overflow its scroller. Row 0 opens on arrival — that is the hidden tick the old
   // code later aimed at.
+  //
+  // THE QUEUE'S ROWS ARE SEEDED AS REVIEW DEBT (v1.207.0). Until the full game, `openPlanSession
+  // ("new")` dealt a guest the whole FLOW ranking ("Learn next" + "More, in order"), so a fresh
+  // boot overflowed on its own. Since D2 (owner, 2026-09-30) the rows past the session are LOCKED
+  // until it is finished, so a fresh plan deals only its budget — and the surface under test,
+  // `renderSession`'s inline rows + `_scrollFocusedDeck`, is the same whatever fills it. So: one
+  // card due yesterday in each of 30 decks (the maintenance section is ONE row per covering
+  // deck), the planner loaded FIRST through the app's own seam so no deferred swap can rebuild
+  // the list mid-walk, and the `due` door, which requests no study comparison (whose controls
+  // would otherwise mount above the rows while the test measures them).
+  expect(await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime()), "the planner loads").toBe(true);
   const setup = await page.evaluate(() => {
     const a = (window as any).__neural;
-    a.openPlanSession("new");
+    const today = a._epochDay();
+    const decks = a.flashcards.decks;
+    let planted = 0;
+    for (const k of Object.keys(decks).sort()) {
+      const cards = a._cardsOf(decks[k]);
+      if (!cards || !cards.length || a._sharedDecksFor(cards[0].q, k)) continue;   // a shared card would be covered by ONE row
+      const i = a.nodeForKey(k);
+      if (i >= 0 && !a.rsAllowsIdx(i)) continue;
+      a.srs[k] = { [a.qhash(cards[0].q)]: [today - 1, 3, today - 4] };
+      if (++planted >= 30) break;
+    }
+    a.openPlanSession("due");
     const s = a._session;
-    if (!s) return { rows: 0, keys: [] as string[] };
+    if (!s) return { planted, rows: 0, keys: [] as string[], plan: false };
     s.shown = s.keys.length;
     a.renderSession();
-    return { rows: s.keys.length, keys: s.keys as string[] };
+    return { planted, rows: s.keys.length, keys: s.keys as string[], plan: !!s.plan };
   });
+  expect(setup.planted, "30 decks carry one owed card").toBe(30);
+  expect(setup.plan, "the queue is the plan surface (bucket plan), not the pre-planner review list").toBe(true);
   expect(setup.rows, "the queue has rows to walk").toBeGreaterThan(8);
   await page.waitForTimeout(400);
 

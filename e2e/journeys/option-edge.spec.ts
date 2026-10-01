@@ -2,20 +2,9 @@ import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 
 /**
- * EDGE — the option card's corner number, and the order of the hand (v1.118.0).
- *
- * EDGE = 100 × ( Q(s,a) − B(s) ), B(s) = Σ attempt%(a′)·Q(s,a′): how much better or worse this
- * move is than the ORDINARY choice from where you are standing, counting not just whether it
- * works but where a miss leaves you. 0 is not "no value" — it IS "the normal thing to do here".
- *
- * The wire (v1.117.0) ships the LINE, not the point — `cal.ev[role] = [nodeIdxs, attemptPct,
- * ...[e0,c1] per evLam]` — because `moveChance` is not a constant. Everything below is measured
- * against that wire, never against a number this spec invents.
- *
- * Surfaces pinned here:
- *   .ngedge      — the card's corner integer
- *   .ngglyph     — the category glyph, whose COLOUR is now the same channel
- *   .ngedgebig   — the option-detail sheet's enlarged copy of the same value
+ * Legacy EDGE arithmetic remains an opponent/comparator regression boundary below.
+ * Player card surfaces now expose personalized Win chance and separate immediate chance;
+ * choice-value.spec.ts supplies controlled solver replies for the asynchronous boundary.
  */
 
 /** Pin every technique to its own authored (evFrame) rate, so moveChance(n) === p0(n) exactly and
@@ -62,6 +51,9 @@ const cardEdges = (page: any) =>
         ? c.querySelector(".ngglyph").style.filter
         : null,
       odds: (c.querySelector(".ngodds") || {}).textContent || null,
+      win: c.querySelector("[data-choice-win]")?.textContent,
+      valueLabel: c.querySelector("[data-choice-value]")?.textContent,
+      immediateLabel: c.querySelector("[data-immediate-label]")?.textContent,
     })),
   );
 
@@ -199,29 +191,19 @@ test("@curated the baseline moves with the hand: EDGE stays a DIFFERENCE at live
   ).toBeGreaterThan(0);
 });
 
-test("the card FACE labels the number opposite it", async ({ page }) => {
+test("the card face names future win and immediate chance separately", async ({ page }) => {
   const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
+  await j.boot("/"); await j.land("Mount Top");
   const cards = await cardEdges(page);
-  expect(cards.length).toBeGreaterThan(0);
-  let labelled = 0;
+  expect(cards.length).toBeGreaterThan(3);
   for (const c of cards) {
-    if (c.edge == null) continue;
-    // v1.129.1, OWNER'S DECISION: the middle slot names the move's KIND again (the pre-v1.118.0
-    // face) — "'edge' doesn't give us any information saying that. I'd rather you say 'submission
-    // position transition'". The corner number is bare on the card face as a result; that
-    // trade-off is recorded at `headMid`. Asserted per-type so a build that prints one constant
-    // for everything still fails.
-    expect(
-      c.mid.trim(),
-      `${c.tech} names what kind of move it is`,
-    ).toBe(c.ty === "submissions" ? "Submission" : c.ty === "positions" ? "Position" : "Transition");
-    expect(c.edge, `${c.tech} renders a signed integer`).toMatch(/^[+-]?\d+$/);
-    expect(c.edge, "never -0").not.toBe("-0");
-    labelled++;
+    expect(c.mid.trim(), c.tech).toBe(c.ty === "submissions" ? "Submission" : "Transition");
+    expect(c.edge, "legacy utility is no longer a player-card headline").toBeNull();
+    expect(c.valueLabel).toContain("Win chance");
+    expect(c.win).toMatch(/^(—|(?:<|>)?\d+(?:–\d+)?%)$/);
+    expect(c.immediateLabel).toMatch(/^(Entry|Finish|Move|Escape)$/);
+    expect(c.odds).toMatch(/^(—|(?:<|>)?\d+%)$/);
   }
-  expect(labelled, "the hand carried EDGE cards at all").toBeGreaterThan(3);
 });
 
 test("@curated the submissions constant is gone: the hand is ranked, not alphabetical", async ({
@@ -283,111 +265,36 @@ test("@curated the submissions constant is gone: the hand is ranked, not alphabe
   );
 });
 
-test("@curated a JIT grade moves the numbers and NEVER the order", async ({
-  page,
-}) => {
+test("@curated a JIT grade updates immediate chance without moving card or keyboard identity", async ({ page }) => {
   const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
-
+  await j.boot("/"); await j.land("Mount Top"); await j.decksSettled();
   const before = await cardEdges(page);
-  const order0 = before.map((c: any) => c.tech).join("|");
-  // Drill the LAST VALUED card — the one whose promotion would be most visible.
-  //
-  // "last in the hand" was the same thing until v1.123.0 lifted the cap: Mount Top used to deal
-  // 10 cards and now deals 16, and its final three (Cross Collar Choke, Gift Wrap, Loop Choke)
-  // carry NO wire row, so they print no number at all. That is the deliberate "unvalued LAST and
-  // never as 0" rule, not a gap — and an unvalued card cannot demonstrate an EDGE that MOVES,
-  // which is this journey's whole subject. Asserted below, so the day the corpus values them the
-  // spec says so instead of quietly drilling a different card.
-  const valued = before.filter((c: any) => Number.isFinite(parseInt(c.edge, 10)));
-  expect(valued.length, "the hand has valued cards to drill").toBeGreaterThan(0);
-  expect(
-    valued.length,
-    "and some of Mount Top's hand is legitimately unvalued — the tail this skips",
-  ).toBeLessThan(before.length);
-  const last = valued[valued.length - 1];
-  const target = last.tech;
-  const e0 = last.edge;
-  const targetIdx = before.findIndex((c: any) => c.tech === target);
-
-  const drill = await page.evaluate(async (t: string) => {
-    const a = (window as any).__neural;
-    const n = a.nodes.find((x: any) => x.t === t);
-    const key = a.deckKeyFor(n).key;
-    // exactly what a JIT drill does: this move's own deck must be RESIDENT before grading it —
-    // decks arrive on demand (v1.80.4) and an unhydrated stub grades nothing, which would make
-    // this whole journey a no-op that passes.
-    await a.hydrateDeck(key);
-    const cards = a._cardsOf(a.flashcards.decks[key]) || [];
-    // `prep` is what `mastery()` reads (0.03/card, capped 0.15); `_bumpStage` writes the SRS
-    // stage and would leave the odds — and therefore the EDGE — exactly where they were.
-    for (const c of cards) {
-      a.prep[key] = (a.prep[key] || 0) + 1;
-      a.noteCardDone(c, key);
-      a._bumpStage(key, c.q, 4);
-    }
-    // WOULD a live re-sort have moved this hand? Asked BEFORE the refresh, off the untouched
-    // list, so it reports what the new odds imply rather than what the refresh may have done.
-    // If the answer were "no", the freeze would be untested and this journey decoration.
-    const live = a._optList
-      .map((o: any) => ({ t: o.node.t, v: a.orderScore(o) }))
-      .sort((x: any, y: any) =>
-        y.v == null ? -1 : x.v == null ? 1 : y.v - x.v,
-      )
-      .map((x: any) => x.t)
-      .join("|");
-    a.refreshOptionOdds();
-    return { cards: cards.length, bonus: a.stateBonus(key), live };
-  }, target);
-
-  expect(drill.cards, "the drilled deck was resident").toBeGreaterThan(0);
-  expect(
-    drill.live,
-    "a LIVE re-sort really would have moved this hand",
-  ).not.toBe(order0);
-
+  const candidate = before.slice(0, 8).find((c: any) => c.ty === "transitions" && parseInt(c.odds, 10) < 80);
+  expect(candidate, "an unclamped transition with a visible study door").toBeTruthy();
+  const first = page.locator(`[data-tech="${candidate!.tech}"]`);
+  await first.scrollIntoViewIfNeeded();
+  await j.clickByMouse(`[data-tech="${candidate!.tech}"] [data-choice-inspect]`, "Inspect for JIT practice");
+  await expect(page.locator("[data-jit]")).toBeVisible();
+  await j.jitGrade();
   const after = await cardEdges(page);
-  expect(
-    after.map((c: any) => c.tech).join("|"),
-    "the tray did not re-sort",
-  ).toBe(order0);
-  expect(
-    (
-      await page.evaluate(() =>
-        (window as any).__neural._optList.map((o: any) => o.node.t),
-      )
-    ).join("|"),
-    "_optList — which the 1-9 keys index — did not re-sort either",
-  ).toBe(order0);
-  const now = after[targetIdx];
-  expect(now.tech).toBe(target);
-  expect(
-    parseInt(now.edge, 10),
-    "the drilled card's EDGE moved",
-  ).toBeGreaterThan(parseInt(e0, 10));
+  expect(after.map((c: any) => c.tech)).toEqual(before.map((c: any) => c.tech));
+  expect(await page.evaluate(() => (window as any).__neural._optList.map((o: any) => o.node.t))).toEqual(before.map((c: any) => c.tech));
+  const changed = after.find((c: any) => c.tech === candidate!.tech)!;
+  expect(parseInt(changed.odds!, 10)).toBeGreaterThan(parseInt(candidate!.odds!, 10));
+  expect(changed.valueLabel).toContain("Win chance");
+  expect(changed.edge).toBeNull();
 });
 
-test("three marks, two channels: the glyph wears the corner number's colour", async ({
-  page,
-}) => {
+test("player values remain understandable without glyph colour", async ({ page }) => {
   const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
+  await j.boot("/"); await j.land("Mount Top");
   const cards = await cardEdges(page);
-  let checked = 0;
+  expect(cards.length).toBeGreaterThan(3);
   for (const c of cards) {
-    if (!c.edge || !c.edgeCol || !c.glyphFilter) continue;
-    // the glyph's drop-shadow is the SAME colour as the number (alpha 0x70 → 0.44)
-    const m = /rgba?\((\d+),\s*(\d+),\s*(\d+)/.exec(c.glyphFilter);
-    const n = /rgba?\((\d+),\s*(\d+),\s*(\d+)/.exec(c.edgeCol);
-    expect(m && n, `${c.tech} paints both marks`).toBeTruthy();
-    expect([m![1], m![2], m![3]].join(","), `${c.tech}: glyph == corner`).toBe(
-      [n![1], n![2], n![3]].join(","),
-    );
-    checked++;
+    expect(c.valueLabel).toContain("Win chance");
+    expect(c.immediateLabel).toMatch(/^(Entry|Finish|Move|Escape)$/);
+    expect(c.mid.trim()).toMatch(/^(Submission|Transition)$/);
   }
-  expect(checked, "cards actually carried both marks").toBeGreaterThan(3);
 });
 
 test("a move the table cannot value shows NO number — never a fabricated 0", async ({
@@ -439,20 +346,13 @@ test("a move the table cannot value shows NO number — never a fabricated 0", a
   expect(probe.zeroSomewhere!.txt).toBe("0");
 });
 
-test("the sheet's enlarged head cannot contradict the card it grew from", async ({
-  page,
-}) => {
+test("the Inspect value is the same snapshot as its card", async ({ page }) => {
   const j = journey(page);
-  await j.boot("/");
-  await j.land("Mount Top");
-
-  const cards = await cardEdges(page);
-  const first = cards.find((c: any) => c.edge != null)!;
-  await page.locator(`[data-tech="${first.tech}"]`).first().locator("[data-choice-inspect]").click();
-  const big = page.locator(".ngedgebig");
-  await expect(big, "the sheet carries the same value").toHaveText(first.edge!);
-  const bigCol = await big.evaluate((el: any) => el.style.color);
-  expect(bigCol).toBe(first.edgeCol);
+  await j.boot("/"); await j.land("Mount Top");
+  const first = page.locator('[data-choice-group="you"] [data-tech]').first();
+  await first.locator("[data-choice-inspect]").click();
+  await expect(page.locator("[data-choice-value-detail] [data-choice-win]")).toHaveText((await first.locator("[data-choice-win]").textContent())!);
+  await expect(page.locator(".ngedgebig")).toHaveCount(0);
 });
 
 /* ── THE `cardOrder` SETTING IS RETIRED (v1.122.0) ─────────────────────────────────────────────
@@ -683,7 +583,7 @@ test("@curated the sheet keeps the card's name, digit and quiet category — and
       title: titleEl ? titleEl.textContent : null,
       decomposed: panel.innerHTML.includes('→</span><span style="font-size:25px'),
       explainer: panel.innerHTML.includes("How far this tilts the roll"),
-      tooltip: (panel.querySelector(".ngedgebig")?.getAttribute("title") || ""),
+      valueCopy: panel.querySelector("[data-choice-value-detail]")?.textContent || "",
       digit: panel.querySelector(".ngglyph")?.innerHTML.includes(">2<") || false,
       landOpacity: land ? getComputedStyle(land).opacity : null,
       landVisibility: land ? getComputedStyle(land).visibility : null,
@@ -711,7 +611,7 @@ test("@curated the sheet keeps the card's name, digit and quiet category — and
   expect(r!.title, "the technique's OWN name is the title").toBe(r!.spMain)
   expect(r!.decomposed, "the from→to decomposition is gone").toBe(false)
   expect(r!.explainer, "no explainer paragraph on every open").toBe(false)
-  expect(r!.tooltip, "the explainer became the number's tooltip").toContain("By-the-book opponent")
+  expect(r!.valueCopy, "the same explicitly named outcome has an Inspect explanation").toContain("Win chance")
   expect(r!.digit, "the glyph still wears the tray digit").toBe(true)
   // PRESENT, BUT STOOD DOWN. Strictly between 0 and 1: `0` would be the v1.135 hide this test was
   // written to forbid, `1` would be the v1.136 lie where a fully-live-looking card refused A-D.

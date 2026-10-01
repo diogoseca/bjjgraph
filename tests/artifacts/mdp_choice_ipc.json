@@ -1,0 +1,718 @@
+{
+  "status": "PASS",
+  "request": {
+    "apiVersion": 2,
+    "requestId": "triangle-neutral-ipc-1",
+    "revision": 1,
+    "modelHash": "3d02be954224cca17801ed0d24a032ac32138cd7386ffc32933a78f9a28ae0e9",
+    "mechanicsHash": "c41ef4677f719f32b83073fd20e9d7f3a95d2bed6aafb8fab14140bafec064d3",
+    "graphHash": "07766d9a13271685c7b12fcb881effc13e88de8df58302695d322f9d6f07a1a2",
+    "profileHash": "k1:224:615420e7de1f80d1",
+    "opponentPolicyHash": "574e6c454b851aba42b11aa39efed51baa7e00d4fc5266209f86d24e78db13cc",
+    "ruleset": "gi",
+    "objective": "max-win/min-loss/min-nontermination",
+    "futureStudyPolicy": "no-additional-study-events",
+    "horizon": {
+      "kind": "actual-roll",
+      "episodeCap": 9,
+      "moveCount": 8
+    },
+    "state": {
+      "id": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+      "snapshot": {
+        "nodeId": "Submissions/Triangle-Choke/from-Triangle-Control",
+        "role": "bottom",
+        "phase": "user",
+        "moveCount": 8,
+        "arrivalAge": 0,
+        "qMod": 0,
+        "combo": 0,
+        "positionKey": "Triangle Choke from Triangle Control|Attacker",
+        "panicKey": null
+      },
+      "snapshotId": "ae7b2afa2ea4f2666d4498bfea9807bb0cbd91bb29bf0f87e572d8f79c29991f",
+      "snapshotHash": "ae7b2afa2ea4f2666d4498bfea9807bb0cbd91bb29bf0f87e572d8f79c29991f",
+      "aiSkill": 0.07,
+      "challenge": null
+    },
+    "requestedActionIds": [
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Triangle-Choke/from-Triangle-Control\",\"finish\",null,null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Inverted-Triangle/from-Triangle-Control\",\"entry\",\"Positions/Mount/Mounted-Triangle/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Armbar\",\"transition\",\"Submissions/Armbar/from-Armbar-Control\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Back\",\"transition\",\"Positions/Back-Control\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Omoplata\",\"transition\",\"Submissions/Omoplata/from-Omoplata-Control\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Kimura/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Americana/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Armbar/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]"
+    ],
+    "contractHash": "mdp2:d530b6a2eb3391a6d8e7c5d0451311cda2f26b1c546477ea253e4a0e5a155e24"
+  },
+  "result": {
+    "apiVersion": 2,
+    "requestId": "triangle-neutral-ipc-1",
+    "revision": 1,
+    "modelHash": "3d02be954224cca17801ed0d24a032ac32138cd7386ffc32933a78f9a28ae0e9",
+    "mechanicsHash": "c41ef4677f719f32b83073fd20e9d7f3a95d2bed6aafb8fab14140bafec064d3",
+    "graphHash": "07766d9a13271685c7b12fcb881effc13e88de8df58302695d322f9d6f07a1a2",
+    "profileHash": "k1:224:615420e7de1f80d1",
+    "opponentPolicyHash": "574e6c454b851aba42b11aa39efed51baa7e00d4fc5266209f86d24e78db13cc",
+    "ruleset": "gi",
+    "objective": "max-win/min-loss/min-nontermination",
+    "horizon": {
+      "kind": "actual-roll",
+      "episodeCap": 9,
+      "moveCount": 8
+    },
+    "futureStudyPolicy": "no-additional-study-events",
+    "contractHash": "mdp2:d530b6a2eb3391a6d8e7c5d0451311cda2f26b1c546477ea253e4a0e5a155e24",
+    "root": {
+      "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+      "status": "bounded",
+      "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+      "outcomes": {
+        "subtypes": {
+          "explicitNoResult:cap-reset": 0.24775909919367906,
+          "loss:submission-loss": 0.020423003341278174,
+          "nontermination:closed-class": 0,
+          "win:submission-win": 0.7318178974650428
+        },
+        "win": 0.7318178974650428,
+        "loss": 0.020423003341278174,
+        "explicitNoResult": 0.24775909919367906,
+        "nontermination": 0
+      },
+      "outcomeBounds": {
+        "win": [
+          0.73181789746504,
+          0.7318178974650456
+        ],
+        "loss": [
+          0.020423003341276173,
+          0.020423003341280176
+        ],
+        "explicitNoResult": [
+          0.2477590991936737,
+          0.2477590991936844
+        ],
+        "nontermination": [
+          0,
+          2.5e-323
+        ]
+      },
+      "subtypeBounds": {
+        "explicitNoResult:cap-reset": [
+          0.2477590991936737,
+          0.2477590991936844
+        ],
+        "loss:submission-loss": [
+          0.020423003341276173,
+          0.020423003341280176
+        ],
+        "nontermination:closed-class": [
+          0,
+          2.5e-323
+        ],
+        "win:submission-win": [
+          0.73181789746504,
+          0.7318178974650456
+        ]
+      },
+      "winBounds": [
+        0.73181789746504,
+        0.7318178974650451
+      ],
+      "secondaryStatus": "unresolved-primary-ties",
+      "rankingStatus": "intervals-may-overlap",
+      "selectedActionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Americana/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]"
+    },
+    "actions": [
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.2477590991936791,
+            "loss:submission-loss": 0.020423003341278178,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.7318178974650428
+          },
+          "win": 0.7318178974650428,
+          "loss": 0.020423003341278178,
+          "explicitNoResult": 0.2477590991936791,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.7318178974650418,
+            0.7318178974650438
+          ],
+          "loss": [
+            0.020423003341277463,
+            0.020423003341278893
+          ],
+          "explicitNoResult": [
+            0.2477590991936772,
+            0.24775909919368103
+          ],
+          "nontermination": [
+            0,
+            1e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.2477590991936772,
+            0.24775909919368103
+          ],
+          "loss:submission-loss": [
+            0.020423003341277463,
+            0.020423003341278893
+          ],
+          "nontermination:closed-class": [
+            0,
+            1e-323
+          ],
+          "win:submission-win": [
+            0.7318178974650418,
+            0.7318178974650438
+          ]
+        },
+        "winBounds": [
+          0.7318178974650418,
+          0.7318178974650436
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Triangle-Choke/from-Triangle-Control\",\"finish\",null,null]",
+        "selected": false,
+        "immediateExecutionChance": 0.5800000000000001,
+        "immediateExecutionKind": "finish",
+        "rank": 5
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.24775909919367906,
+            "loss:submission-loss": 0.020423003341278174,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.7318178974650428
+          },
+          "win": 0.7318178974650428,
+          "loss": 0.020423003341278174,
+          "explicitNoResult": 0.24775909919367906,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ],
+          "loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "explicitNoResult": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "nontermination": [
+            0,
+            2e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "loss:submission-loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "nontermination:closed-class": [
+            0,
+            2e-323
+          ],
+          "win:submission-win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ]
+        },
+        "winBounds": [
+          0.7318178974650407,
+          0.7318178974650446
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Inverted-Triangle/from-Triangle-Control\",\"entry\",\"Positions/Mount/Mounted-Triangle/Bottom\",null]",
+        "selected": false,
+        "immediateExecutionChance": 1,
+        "immediateExecutionKind": "entry",
+        "rank": 3
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.7848673325573147,
+            "loss:submission-loss": 0.02504564192995289,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.1900870255127325
+          },
+          "win": 0.1900870255127325,
+          "loss": 0.02504564192995289,
+          "explicitNoResult": 0.7848673325573147,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.1900870255127313,
+            0.19008702551273368
+          ],
+          "loss": [
+            0.025045641929951998,
+            0.025045641929953778
+          ],
+          "explicitNoResult": [
+            0.7848673325573122,
+            0.7848673325573171
+          ],
+          "nontermination": [
+            0,
+            1e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.7848673325573122,
+            0.7848673325573171
+          ],
+          "loss:submission-loss": [
+            0.025045641929951998,
+            0.025045641929953778
+          ],
+          "nontermination:closed-class": [
+            0,
+            1e-323
+          ],
+          "win:submission-win": [
+            0.1900870255127313,
+            0.19008702551273368
+          ]
+        },
+        "winBounds": [
+          0.1900870255127313,
+          0.1900870255127335
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Armbar\",\"transition\",\"Submissions/Armbar/from-Armbar-Control\",null]",
+        "selected": false,
+        "immediateExecutionChance": 0.48000000000000004,
+        "immediateExecutionKind": "transition",
+        "rank": 6
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.8126642268914863,
+            "loss:submission-loss": 0.011097532015277443,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.17623824109323624
+          },
+          "win": 0.17623824109323624,
+          "loss": 0.011097532015277443,
+          "explicitNoResult": 0.8126642268914863,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.1762382410932351,
+            0.17623824109323735
+          ],
+          "loss": [
+            0.011097532015276612,
+            0.011097532015278275
+          ],
+          "explicitNoResult": [
+            0.8126642268914841,
+            0.8126642268914887
+          ],
+          "nontermination": [
+            0,
+            1e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.8126642268914841,
+            0.8126642268914887
+          ],
+          "loss:submission-loss": [
+            0.011097532015276612,
+            0.011097532015278275
+          ],
+          "nontermination:closed-class": [
+            0,
+            1e-323
+          ],
+          "win:submission-win": [
+            0.1762382410932351,
+            0.17623824109323735
+          ]
+        },
+        "winBounds": [
+          0.1762382410932351,
+          0.17623824109323719
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Back\",\"transition\",\"Positions/Back-Control\",null]",
+        "selected": false,
+        "immediateExecutionChance": 0.48000000000000004,
+        "immediateExecutionKind": "transition",
+        "rank": 7
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.8438868557429052,
+            "loss:submission-loss": 0.009247943346064536,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.1468652009110302
+          },
+          "win": 0.1468652009110302,
+          "loss": 0.009247943346064536,
+          "explicitNoResult": 0.8438868557429052,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.1468652009110292,
+            0.1468652009110312
+          ],
+          "loss": [
+            0.009247943346063799,
+            0.009247943346065273
+          ],
+          "explicitNoResult": [
+            0.8438868557429032,
+            0.8438868557429073
+          ],
+          "nontermination": [
+            0,
+            1e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.8438868557429032,
+            0.8438868557429073
+          ],
+          "loss:submission-loss": [
+            0.009247943346063799,
+            0.009247943346065273
+          ],
+          "nontermination:closed-class": [
+            0,
+            1e-323
+          ],
+          "win:submission-win": [
+            0.1468652009110292,
+            0.1468652009110312
+          ]
+        },
+        "winBounds": [
+          0.1468652009110292,
+          0.14686520091103103
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Omoplata\",\"transition\",\"Submissions/Omoplata/from-Omoplata-Control\",null]",
+        "selected": false,
+        "immediateExecutionChance": 0.48000000000000004,
+        "immediateExecutionKind": "transition",
+        "rank": 8
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.24775909919367906,
+            "loss:submission-loss": 0.020423003341278174,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.7318178974650428
+          },
+          "win": 0.7318178974650428,
+          "loss": 0.020423003341278174,
+          "explicitNoResult": 0.24775909919367906,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ],
+          "loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "explicitNoResult": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "nontermination": [
+            0,
+            2e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "loss:submission-loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "nontermination:closed-class": [
+            0,
+            2e-323
+          ],
+          "win:submission-win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ]
+        },
+        "winBounds": [
+          0.7318178974650407,
+          0.7318178974650446
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Kimura/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+        "selected": false,
+        "immediateExecutionChance": 1,
+        "immediateExecutionKind": "entry",
+        "rank": 4
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.24775909919367906,
+            "loss:submission-loss": 0.020423003341278174,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.7318178974650428
+          },
+          "win": 0.7318178974650428,
+          "loss": 0.020423003341278174,
+          "explicitNoResult": 0.24775909919367906,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ],
+          "loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "explicitNoResult": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "nontermination": [
+            0,
+            2e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "loss:submission-loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "nontermination:closed-class": [
+            0,
+            2e-323
+          ],
+          "win:submission-win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ]
+        },
+        "winBounds": [
+          0.7318178974650407,
+          0.7318178974650446
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Americana/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+        "selected": true,
+        "immediateExecutionChance": 1,
+        "immediateExecutionKind": "entry",
+        "rank": 1
+      },
+      {
+        "stateId": "{\"arrivalAge\":0,\"combo\":0,\"moveCount\":8,\"nodeId\":\"Submissions/Triangle-Choke/from-Triangle-Control\",\"panicKey\":null,\"phase\":\"user\",\"positionKey\":\"Triangle Choke from Triangle Control|Attacker\",\"qMod\":0,\"role\":\"bottom\"}",
+        "status": "bounded",
+        "policyId": "policy:7aa096247dd75aed57e606b9a921d7c299fe91a48ab9b8b1e142096e6e89916f",
+        "outcomes": {
+          "subtypes": {
+            "explicitNoResult:cap-reset": 0.24775909919367906,
+            "loss:submission-loss": 0.020423003341278174,
+            "nontermination:closed-class": 0,
+            "win:submission-win": 0.7318178974650428
+          },
+          "win": 0.7318178974650428,
+          "loss": 0.020423003341278174,
+          "explicitNoResult": 0.24775909919367906,
+          "nontermination": 0
+        },
+        "outcomeBounds": {
+          "win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ],
+          "loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "explicitNoResult": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "nontermination": [
+            0,
+            2e-323
+          ]
+        },
+        "subtypeBounds": {
+          "explicitNoResult:cap-reset": [
+            0.24775909919367503,
+            0.24775909919368308
+          ],
+          "loss:submission-loss": [
+            0.020423003341276672,
+            0.020423003341279677
+          ],
+          "nontermination:closed-class": [
+            0,
+            2e-323
+          ],
+          "win:submission-win": [
+            0.7318178974650407,
+            0.7318178974650449
+          ]
+        },
+        "winBounds": [
+          0.7318178974650407,
+          0.7318178974650446
+        ],
+        "secondaryStatus": "unresolved-primary-ties",
+        "rankingStatus": "intervals-may-overlap",
+        "actionId": "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Armbar/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+        "selected": false,
+        "immediateExecutionChance": 1,
+        "immediateExecutionKind": "entry",
+        "rank": 2
+      }
+    ],
+    "ranking": [
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Americana/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Armbar/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Inverted-Triangle/from-Triangle-Control\",\"entry\",\"Positions/Mount/Mounted-Triangle/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Kimura/from-Triangle-Control\",\"entry\",\"Positions/Closed-Guard/Bottom\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Submissions/Triangle-Choke/from-Triangle-Control\",\"finish\",null,null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Armbar\",\"transition\",\"Submissions/Armbar/from-Armbar-Control\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Back\",\"transition\",\"Positions/Back-Control\",null]",
+      "[\"{\\\"arrivalAge\\\":0,\\\"combo\\\":0,\\\"moveCount\\\":8,\\\"nodeId\\\":\\\"Submissions/Triangle-Choke/from-Triangle-Control\\\",\\\"panicKey\\\":null,\\\"phase\\\":\\\"user\\\",\\\"positionKey\\\":\\\"Triangle Choke from Triangle Control|Attacker\\\",\\\"qMod\\\":0,\\\"role\\\":\\\"bottom\\\"}\",\"Transitions/Triangle-to-Omoplata\",\"transition\",\"Submissions/Omoplata/from-Omoplata-Control\",null]"
+    ],
+    "quality": {
+      "numericalStatus": "certified",
+      "maxWinError": 7.361060870696682e-15,
+      "coordinateErrorBound": 7.361060870696682e-15,
+      "policyRegretBound": 5.933475580080176e-15,
+      "secondaryStatus": "unresolved-primary-ties",
+      "tertiaryStatus": "unresolved-primary-loss-ties",
+      "supportHash": "d31843c4f85ca2b10378a1abc14446c1f3a0eabe330e00e3782b5abac36aa9fd",
+      "actionCoverage": 722,
+      "coverage": {
+        "states": 215,
+        "actions": 722,
+        "branches": 1968,
+        "excludedActions": 0,
+        "unknownActions": 0,
+        "zeroDurationBranches": 0
+      },
+      "stateEquivalence": {
+        "scope": "terminal-outcomes-only",
+        "rootIdentityPreserved": true,
+        "exposureLabelsPreserved": false,
+        "futureExplanationLabelsPreserved": false,
+        "replayLabelsPreserved": false,
+        "profileConditional": true,
+        "residencyConditional": true
+      },
+      "unresolvedReasons": [
+        "exact-secondary-and-tertiary-ties-not-certified"
+      ],
+      "certification": "Bounded primary regret and common-policy outcome enclosures for supplied rational kernel; exact secondary optimality unclaimed."
+    },
+    "diagnostics": {
+      "algorithm": "MEC-quotient-sparse-candidates+rational-certificates",
+      "components": 19,
+      "policiesEvaluated": 7,
+      "largestComponent": 192,
+      "compileMilliseconds": 17,
+      "stage": "policy-lift-export",
+      "quotientStates": 210,
+      "collapsedEndComponents": 2,
+      "quotientMilliseconds": 66,
+      "policyComponents": 906,
+      "largestPolicyComponent": 73,
+      "candidateMilliseconds": 59,
+      "witnessMinimumDrift": 0.9999999999999968,
+      "witnessMaximumWeight": 4.858545165720185,
+      "certificateMilliseconds": 19,
+      "certifiedRegret": 5.933475580080176e-15,
+      "certifiedCoordinateError": 6.472882450996555e-15,
+      "certificate": "outward-interval-all-action-drift+common-policy-residual+Bellman-supersolution",
+      "elapsedMilliseconds": 266
+    }
+  },
+  "provenance": {
+    "scope": "One actual Node worker_threads IPC request, frozen classic worker and native client, real hashed metadata. Not browser or corpus evidence.",
+    "sources": {
+      "neural/dist/game-values.js": "0dfb819a731a6d7a49f52678de59f23ada851e82f7f383cd75599d778d6bcca5",
+      "neural/dist/game-model.worker.js": "cfae5c9737c0f1e596c926de9a5f6212b26b23314dbd5643821098057c5f170c",
+      "neural/src/mdp-adapter.src.js": "f4049d712c2cc921398073071e79fcb60529a14a05b0f4a60f799a1c2e720828",
+      "neural/src/mdp-model.src.js": "7bfb7dbf2cc20e665e26596e8e744d5475c83e89086818bf47f17a5e2c9bf310",
+      "neural/src/mdp-certified.src.js": "8c7ace80ceac34b50e68915e45cab8d70fcd30869c31fef11adc988c0825440a",
+      "neural/src/game-value-loader.src.js": "6c390420ea413038a66f6c19998fd4a97440ed377245f1160039f21c82ff7b47",
+      "neural/src/knowledge-profile.src.js": "8cb262645b39b56a20f9940f41d7fd8cdfdfdb09419482e0c82722a98a8bd4e3"
+    },
+    "receipt_sha256": "8d66c42c6fbb97eda77c895ea16924cf9daaca23debe1e5dd70b0e1eba185dc9"
+  }
+}

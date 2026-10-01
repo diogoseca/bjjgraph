@@ -215,7 +215,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
   const stored = await page.evaluate(() => {
     const a = (window as any).__neural;
     const blob = JSON.parse(
-      localStorage.getItem("bjj-neural-progress") || "{}",
+      window.__ngGuestProgressRaw() || "{}",
     );
     return {
       v: blob.v,
@@ -535,7 +535,7 @@ test("a student opens the WhatsApp link with NO Function deployed and the graph 
     return {
       count: Object.keys(a.lists).length,
       items: a.lists[id].items.length,
-      blob: !!JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+      blob: !!JSON.parse(window.__ngGuestProgressRaw() || "{}")
         .lists,
     };
   });

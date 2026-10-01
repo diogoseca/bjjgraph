@@ -22,6 +22,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve, join } from "node:path";
 import { ngFlowBuild, ngFlowAdjoint } from "../neural/src/flow.src.js";
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 export const R = (p) => resolve(HERE, "..", p);
@@ -37,7 +38,7 @@ export const SCAN_DIRS = [
 /** Build the app exactly the way tests/flow.test.mjs does — one construction pattern, not two. */
 function app(WIRE) {
   const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
-  const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+  const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
     class DCLogic {}, { createRef: () => ({ current: null }) },
   );
   const a = Object.create(Component.prototype);
@@ -66,8 +67,13 @@ export function computeCensus() {
   for (const p of positions.filter(n => !n.cal?.stateAlias)) {
     for (const role of ["top", "bottom"]) {
       a.playerRole = role; a.currentPos = p.idx;
-      try { const n = a.optionsFor(p.idx).length; dealtCards += n; if (!p.cal?.stateAlias) positionChoiceCards += n; } catch { /* a seat that cannot deal is a
-        different gate's problem; the census must not mask it by counting it as zero silently */ }
+      // A broken app/harness is not a smaller corpus. Both the gate and the updater
+      // must stop before an incomplete count can be compared or written as a baseline.
+      let n;
+      try { n = a.optionsFor(p.idx).length; }
+      catch (cause) { throw new Error(`Census could not deal ${p.id} (${role}): ${cause.message}`, { cause }); }
+      dealtCards += n;
+      if (!p.cal?.stateAlias) positionChoiceCards += n;
     }
   }
   a.playerRole = savedRole; a.currentPos = savedPos;
@@ -83,7 +89,7 @@ export function computeCensus() {
   // content — 18 -> 19 -> 24 across v1.157.0/v1.158.0 as the Kimura Trap seat ruling made five
   // grip-establishing moves succeed into a state that can no longer finish. Solved at the
   // reference's own lam/horizon so this key means the same thing the assertion does.
-  // PER RULESET (v1.208.0): FLOW prices the player's own ruleset now, and this app boots in gi (no
+  // PER RULESET (v1.209.0): FLOW prices the player's own ruleset now, and this app boots in gi (no
   // localStorage in node), so each key names its frame and the mode is restored after — the other
   // keys here are counted in the app's own default ruleset and must not move with this one.
   const REF = JSON.parse(readFileSync(R("tests/artifacts/flow_reference.json"), "utf8"));

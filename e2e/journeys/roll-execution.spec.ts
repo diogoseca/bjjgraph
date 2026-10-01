@@ -38,6 +38,7 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     const sel = `[data-tech="${opt.name}"]`
     await page.locator(sel).scrollIntoViewIfNeeded()
     const printed = await page.locator(`${sel} .ngodds`).textContent()
+    const title = await page.locator(`${sel} .ngchoice-title`).textContent()
     const before = await commits(page)
     await j.clickByMouse(`${sel} [data-choice-inspect]`, "Inspect")
     await expect(page.locator("[data-go]")).toBeVisible()
@@ -62,6 +63,9 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await j.clickByMouse(`${sel} .ngchoice-title`, "execute the technique")
     const status = page.locator("[data-executing-tech]")
     await expect(status).toHaveAttribute("data-execution-status", "executing")
+    await expect(status.locator(".ngchoice-title")).toHaveText(title!)
+    await expect(status.locator("[data-cat]")).toHaveText("Executing…")
+    await expect(status.locator("button, [data-choice-execute], [data-choice-inspect]")).toHaveCount(0)
     await expect(status.locator(".ngodds")).toHaveText(printed!)
     expect(await commits(page)).toBe(before + 1)
     expect(await page.evaluate(() => !!(window as any).__neural._detailCtx)).toBe(false)
@@ -73,6 +77,8 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     await j.advanceUntil("sweep_start", 20000, 40)
     await j.advance(1081)
     await expect(status).toHaveAttribute("data-execution-status", "landed")
+    await expect(status.locator("[data-cat]")).toHaveText("Landed")
+    await expect(status.locator(".ngchoice-title")).toHaveText(title!)
     await expect(page.locator(".ng-evtoast")).toContainText("Transition lands")
     await j.nextHand()
     await expect(status).toHaveCount(0)
@@ -99,11 +105,14 @@ test("@curated shifted digits inspect, plain digits commit, and hidden hands ign
 for (const [outcome, result] of [[0, "failed"], [.999, "countered"]] as const) {
   test(`@curated the card reports the actual ${result} outcome and yields at opponent handoff`, async ({ page }) => {
     const j = await ready(page), opt = await transition(page)
+    const title = await page.locator(`[data-tech="${opt.name}"] .ngchoice-title`).textContent()
     await j.rig("resolve", [.999]); await j.rig("outcome", [outcome, ...Array(32).fill(0)])
     await j.pick(opt.name)
     await j.advanceUntil("sweep_start", 20000, 40)
     await j.advance(1081)
     await expect(page.locator("[data-executing-tech]")).toHaveAttribute("data-execution-status", result)
+    await expect(page.locator("[data-executing-tech] .ngchoice-title")).toHaveText(title!)
+    await expect(page.locator("[data-executing-tech] [data-cat]")).toHaveText(result === "failed" ? "Failed" : "Countered")
     await expect(page.locator(".ng-evtoast")).toContainText(result === "failed" ? "Failed" : "Countered")
     await j.nextHand()
     await expect(page.locator("[data-executing-tech]")).toHaveCount(0)
@@ -150,6 +159,7 @@ test("@curated submission entry retains its printed odds and reaches Finish with
   const j = await ready(page)
   const name = await page.evaluate(() => (window as any).__neural._optList.find((o: any) => o.node.ty === "submissions").node.t)
   const card = page.locator(`[data-tech="${name}"]`), printed = await card.locator(".ngodds").textContent()
+  const title = await card.locator(".ngchoice-title").textContent()
   await page.evaluate(() => {
     const a = (window as any).__neural, rng = a.rng.bind(a)
     a._phase1Draws = []
@@ -157,6 +167,8 @@ test("@curated submission entry retains its printed odds and reaches Finish with
   })
   await j.pick(name)
   await expect(page.locator("[data-executing-tech]")).toHaveAttribute("data-execution-status", "entering")
+  await expect(page.locator("[data-executing-tech] .ngchoice-title")).toHaveText(title!)
+  await expect(page.locator("[data-executing-tech] [data-cat]")).toHaveText("Entering…")
   await expect(page.locator("[data-executing-tech] .ngodds")).toHaveText(printed!)
   await j.nextHand()
   await expect(page.locator('[data-choice-group="you"] [data-choice-action="finish"]')).toHaveCount(1)

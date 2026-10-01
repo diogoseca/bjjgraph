@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // THE STATE'S NAME OUTRANKS THE ANNOUNCER — the ordering gate for the app's on-screen type
 // hierarchy (v1.138.0).
 //
@@ -50,7 +51,7 @@ const WIRE = JSON.parse(
 const src = readFileSync(APP, "utf8");
 const tpl = readFileSync(TPL, "utf8");
 
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class DCLogic {},
   { createRef: () => ({ current: null }) },
 );

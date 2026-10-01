@@ -87,6 +87,7 @@ type AuthStateCallback = (event: string, user: AuthUser | null) => void
 let _client: SupabaseClient | null = null
 let _sdkLoading: Promise<void> | null = null
 let _authListeners: AuthStateCallback[] = []
+let _neuralAuthRevision = 0
 
 // ── SDK Loading ────────────────────────────────────────────────────────────────
 
@@ -114,10 +115,28 @@ function loadSDK(): Promise<void> {
     script.src = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"
     script.async = true
     script.onload = () => resolve()
-    script.onerror = () => reject(new Error("Failed to load Supabase SDK"))
+    // A failed load must not stay cached for the page's life: local-only play (owner, 2026-09-29)
+    // re-tries it when the player asks or the browser comes back online. The code lets the Neural
+    // progress host tell "the SDK is unreachable" from "the account could not be verified".
+    script.onerror = () => {
+      _sdkLoading = null
+      script.remove()
+      reject(Object.assign(new Error("Failed to load Supabase SDK"), { code: "sdk-unavailable" }))
+    }
     document.head.appendChild(script)
   })
   return _sdkLoading
+}
+
+/** The account id the stored session names, UNVERIFIED (no SDK to check it). Used only to pick
+ * this device's local cache for local-only play, never to read or write the cloud. */
+function storedSessionUserId(): string | null {
+  try {
+    const id = JSON.parse(localStorage.getItem(authStorageKey()) || "null")?.user?.id
+    return typeof id === "string" && id ? id : null
+  } catch {
+    return null
+  }
 }
 
 async function getClient(): Promise<SupabaseClient> {
@@ -139,6 +158,7 @@ async function getClient(): Promise<SupabaseClient> {
 
   // Listen for auth state changes and notify listeners
   _client.auth.onAuthStateChange((event, session) => {
+    _neuralAuthRevision++
     const user = session?.user ?? null
     for (const cb of _authListeners) {
       try {
@@ -216,6 +236,58 @@ export async function getUser(): Promise<AuthUser | null> {
   }
 }
 
+// Strict identity read for owner cache selection. Advisory local storage and the
+// forgiving public getSession helper cannot establish that an account signed out.
+export async function resolveNeuralUser(): Promise<AuthUser | null> {
+  if (!isConfigured()) return null
+  // No stored session and no SDK load in flight = a guest, by the SDK's own rule: getSession reads
+  // this same storage key, and an OAuth return has already started loadSDK in authUI's redirect-back
+  // arm. Loading the SDK to learn "guest" put a third-party fetch on every visitor's boot, with mount
+  // waiting on it (QREV7 M1; auth-redirect-back.spec.ts test 1's control counts 0 clients).
+  if (!isAuthenticated() && !_sdkLoading) return null
+  let client: SupabaseClient
+  try {
+    client = await getClient()
+  } catch (error) {
+    // LOCAL-ONLY PLAY (owner, 2026-09-29): this device holds a session but the SDK cannot load.
+    // Say so, with the account the stored session names, so the app plays on this device's copy
+    // and pushes nothing until identity is verified again. Any other failure is unchanged.
+    if ((error as { code?: string })?.code === "sdk-unavailable")
+      throw Object.assign(new Error("Account service unreachable"), {
+        code: "sdk-unavailable",
+        storedUserId: storedSessionUserId(),
+      })
+    throw error
+  }
+  // LOCAL-ONLY PLAY, the second case (owner, 2026-09-30, D3): the SDK loaded but the session check
+  // itself failed (a flaky network, a refresh that could not reach the server). Same treatment as an
+  // unreachable SDK, so it carries the stored account too. A malformed answer is not a network
+  // failure and still holds.
+  const unverified = () =>
+    Object.assign(new Error("Unable to verify progress owner"), {
+      code: "session-unverified",
+      storedUserId: storedSessionUserId(),
+    })
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const revision = _neuralAuthRevision
+    let read: Awaited<ReturnType<SupabaseClient["auth"]["getSession"]>>
+    try {
+      read = await client.auth.getSession()
+    } catch {
+      throw unverified()
+    }
+    const { data, error } = read
+    if (revision !== _neuralAuthRevision) continue
+    if (error) throw unverified()
+    if (!data || !("session" in data)) throw new Error("Unable to verify progress owner")
+    if (data.session === null) return null
+    const user = data.session?.user
+    if (!user || typeof user.id !== "string" || !user.id) throw new Error("Invalid progress owner")
+    return user
+  }
+  throw new Error("Progress owner changed during verification")
+}
+
 export async function getSession(): Promise<{ user: AuthUser | null; accessToken: string | null }> {
   if (!isConfigured()) return { user: null, accessToken: null }
   try {
@@ -238,8 +310,11 @@ export async function resetPassword(email: string): Promise<{ error: string | nu
   return { error: error?.message ?? null }
 }
 
-export function onAuthChange(cb: AuthStateCallback) {
+export function onAuthChange(cb: AuthStateCallback): () => void {
   _authListeners.push(cb)
+  return () => {
+    _authListeners = _authListeners.filter((listener) => listener !== cb)
+  }
 }
 
 export function isAuthenticated(): boolean {
@@ -270,7 +345,8 @@ export function isAuthenticated(): boolean {
 async function getUserId(client: SupabaseClient): Promise<string | null> {
   // Local session read (no network round-trip); the SDK keeps it fresh via
   // autoRefreshToken. Avoids a getUser() network call on every sync/nav.
-  const { data } = await client.auth.getSession()
+  const { data, error } = await client.auth.getSession()
+  if (error) throw new Error("Unable to verify cloud sync account")
   return data.session?.user?.id ?? null
 }
 
@@ -283,37 +359,40 @@ async function getUserId(client: SupabaseClient): Promise<string | null> {
 // coexist on one row without clobbering each other.
 // Requires the `neural` column — apply supabase/neural_v1.sql before shipping.
 
-export async function pullNeural(): Promise<Record<string, unknown> | null> {
-  if (!isConfigured()) return null
-  try {
-    const client = await getClient()
-    const userId = await getUserId(client)
-    if (!userId) return null
-
-    const { data, error } = await client
-      .from("user_training_data")
-      .select("neural")
-      .eq("user_id", userId)
-      .maybeSingle()
-
-    if (error) {
-      console.error("[supabase] neural pull failed:", error)
-      return null
-    }
-    // No row yet (first visit before any push) → null; caller starts fresh.
-    return (data?.neural as Record<string, unknown> | undefined) ?? null
-  } catch (e) {
-    console.error("[supabase] neural pull error:", e)
-    return null
-  }
+// v2: only a successful, account-pinned read can authorize an app write. A failure
+// rejects; null is reserved for an authoritative empty neural column/absent row.
+export async function pullNeural(expectedUserId: string): Promise<{
+  userId: string
+  blob: Record<string, unknown> | null
+}> {
+  if (!isConfigured() || !expectedUserId) throw new Error("Cloud sync is unavailable")
+  const client = await getClient()
+  const userId = await getUserId(client)
+  if (!userId || userId !== expectedUserId) throw new Error("Cloud sync account changed")
+  const { data, error } = await client
+    .from("user_training_data")
+    .select("neural")
+    .eq("user_id", userId)
+    .maybeSingle()
+  if (error) throw new Error("Cloud progress could not be read")
+  if ((await getUserId(client)) !== userId) throw new Error("Cloud sync account changed")
+  if (
+    data !== null &&
+    (!data || typeof data !== "object" || Array.isArray(data) || !("neural" in data))
+  )
+    throw new Error("Invalid cloud progress row")
+  return { userId, blob: (data?.neural ?? null) as Record<string, unknown> | null }
 }
 
-export async function pushNeural(blob: Record<string, unknown>): Promise<boolean> {
-  if (!isConfigured()) return false
+export async function pushNeural(
+  blob: Record<string, unknown>,
+  expectedUserId: string,
+): Promise<boolean> {
+  if (!isConfigured() || !expectedUserId) return false
   try {
     const client = await getClient()
     const userId = await getUserId(client)
-    if (!userId) return false
+    if (!userId || userId !== expectedUserId) return false
 
     const { error } = await client
       .from("user_training_data")
@@ -338,8 +417,8 @@ export async function pushNeural(blob: Record<string, unknown>): Promise<boolean
 // supabase.ts is statically imported by authUI.inline.ts, whose bundle runs as
 // Component.AuthUI()'s afterDOMLoaded script in sharedPageComponents.afterBody —
 // i.e. on EVERY page, before any auth/config gate — so the façade is present
-// regardless of sign-in state. Each function degrades gracefully when Supabase
-// is unconfigured (null/false/no-op), matching the module's existing behaviour.
+// regardless of sign-in state. Auth helpers remain optional; the v2 progress pull
+// rejects unavailable/failed reads so they cannot authorize a destructive overwrite.
 
 if (typeof window !== "undefined") {
   ;(window as any).__bjjAuth = {
@@ -352,6 +431,8 @@ if (typeof window !== "undefined") {
     signOut,
     onAuthChange,
     resetPassword,
+    neuralSyncVersion: 2,
+    resolveNeuralUser,
     pullNeural,
     pushNeural,
   }

@@ -1,3 +1,4 @@
+import { routeSystemsDemand } from "./systems-demand-fixture";
 import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -47,7 +48,7 @@ const boot = async (page: Page) => {
   const j = journey(page);
   await j.boot("/");
   const data = catalog();
-  await page.route("**/systems.json", r => r.fulfill({ json: data }));
+  await routeSystemsDemand(page, data);
   await page.route("**/concepts.json", r => r.fulfill({ json: { concepts: [{ id: "Principles/Fixture-Frames", key: "Fixture Frames|Principle", name: "Frames reference", cat: "Principle", nodes: [] }] } }));
   await page.route("**/static/neural/content/*.json", r => r.fulfill({ json: {
     [data.systems[0].key]: body(),

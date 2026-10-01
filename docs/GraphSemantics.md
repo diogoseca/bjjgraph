@@ -682,7 +682,7 @@ and passage are not evidence that they do not matter.
     close to the app's default "Anywhere" start. A match starts standing, and at that step
     ρ = 0.69. Clock, λ and clamp barely matter (ρ 0.95–1.00).
   - Which start FLOW should assume, the app's default or a match's, is an owner decision (§10).
-    **Taken in v1.208.0:** the player's own start setting (§10 item 8).
+    **Taken in v1.209.0:** the player's own start setting (§10 item 8).
 - **EDGE is a centred advantage.** Its continuation assumes you play perfectly afterwards (argmax).
   - The corpus's own advantage `A∞(s,a) = q_after(s,a) − q(s)` is exactly the policy gradient
     (proved). It sums to zero over every hand, like EDGE (the §6.6 trap, re-derived).
@@ -906,8 +906,8 @@ move the gi finisher law by a further TV 0.032.
   - In gi the app prints the no-gi EDGE line re-evaluated at the gi rate.
   - **70 dealt gi cards get no EDGE at all.**
   - The top card differs from a gi-correct solve in 22 of 261 hands.
-  - Until v1.208.0 the browser's FLOW for a gi player *was* the no-gi FLOW, so 74 gi-only decks
-    (gi's 1,520 against the unmasked no-gi 1,464) could never be recommended. v1.208.0 ships the gi
+  - Until v1.209.0 the browser's FLOW for a gi player *was* the no-gi FLOW, so 74 gi-only decks
+    (gi's 1,520 against the unmasked no-gi 1,464) could never be recommended. v1.209.0 ships the gi
     hands and ranks each player in their own ruleset (§10 item 7).
 - **The kernel and EDGE/FLOW read the folded no-gi success rate even in gi.** A gi-correct solve
   moves 485 of 1,259 gi EDGE integers. Most of that (253) is baseline shift: repricing a card's
@@ -1039,7 +1039,7 @@ prices.
        app's gi EDGE is unchanged unless a gi table also ships;
      - ship gi hands (+2,924 B, enabling the in-browser gi committor and gi FLOW);
      - ship a gi EDGE table (+12,727 B, over the cap).
-   - **Taken in v1.208.0 (owner, 2026-09-30): ship gi hands.** `cal.evGi`, +2,924 B gzip on
+   - **Taken in v1.209.0 (owner, 2026-09-30): ship gi hands.** `cal.evGi`, +2,924 B gzip on
      `graph-data.json`. A gi player's FLOW reads the gi hands at the gi rate (`calSuccess`); the
      browser matches `solve_flow.py --reference`'s gi row (top-10 order exact, V0 within 0.7%).
      119 decks the no-gi game cannot deal now score in gi, two inside the top 40 (Cross Collar
@@ -1048,7 +1048,7 @@ prices.
    the app's default "Anywhere" roll (`startFrom()` → "random"). A roll from standing (a match start,
    and the start every "vs standing" figure here uses) ranks drills differently (ρ 0.69). Which start
    FLOW should assume is a one-line behaviour change.
-   - **Taken in v1.208.0 (owner, 2026-09-30): the player's own start setting.** Anywhere is the
+   - **Taken in v1.209.0 (owner, 2026-09-30): the player's own start setting.** Anywhere is the
      uniform start; Standing is half on each seat of standing-position (ρ 0.68 no-gi, 0.67 gi
      against uniform, measured on the browser kernel). My weak spots stays uniform, because it opens
      on the spots this ranking names. From standing in no-gi, Spider Guard and Double Sleeve Guard

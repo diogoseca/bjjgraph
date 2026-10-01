@@ -206,9 +206,39 @@
       "sha256": "23a254ad5f599abcde769b91b8ed6917aa19241f4415e06920f1b2b4458ed2bd"
     },
     "source/quartz/components/scripts/supabase.ts": {
-      "bytes": 13518,
+      "accepted": [
+        {
+          "date": "2026-09-29",
+          "from": "6e211ac780c968e3300be81656ae9a9f47223d16eb0a9549497ea5884a5f481d",
+          "reason": "full-game v1.207.0 (account-scoped progress, owner-ruled 2026-09-29): adds resolveNeuralUser (a strict owner read that retries across an auth-state change and throws rather than guessing signed-out), returns an unsubscribe from onAuthChange, and makes cloud pull/push fail loudly instead of returning null on a session error; the Neural progress host needs all three to keep one account's practice out of another's. pullNeural/pushNeural become a v2 API (window.__bjjAuth.neuralSyncVersion = 2): both take the expected account id, and pullNeural returns {userId, blob} and THROWS when unconfigured, on a session error, an account change or a failed read, where v1 returned null; its only caller is the Neural app, updated in the same change. Every other export is unchanged.",
+          "scope": "keeplist",
+          "to": "47af0bc0f403ed3407d486ca940585aa0b5b8d2ba0ba9082a6abd7653995c28e"
+        },
+        {
+          "date": "2026-09-29",
+          "from": "6e211ac780c968e3300be81656ae9a9f47223d16eb0a9549497ea5884a5f481d",
+          "reason": "QREV7 M1 (quartz-cto review, 2026-09-29): resolveNeuralUser returns null for a guest (no stored session and no SDK load in flight) before getClient, so a signed-out visitor never loads the SDK or waits on it; the strict path is unchanged for a stored session and for an OAuth return, which authUI has already started loading. Supersedes the previous acceptance of this file's v2 pull/push API, which QREV7 approved in direction.",
+          "scope": "keeplist",
+          "to": "dc1118f2180706dd90395c5503e68943006f1ec795f2e9a31556db3f6b61434a"
+        },
+        {
+          "date": "2026-09-29",
+          "from": "6e211ac780c968e3300be81656ae9a9f47223d16eb0a9549497ea5884a5f481d",
+          "reason": "full-game v1.207.8, LOCAL-ONLY PLAY (owner ruling 2026-09-29, FGLOCAL1): a failed SDK load is no longer cached for the page's life (loadSDK clears _sdkLoading and removes the script), so a later attempt really re-tries; the failure carries code 'sdk-unavailable'; and resolveNeuralUser, on a device that holds a session, rethrows it with the UNVERIFIED account id the stored session names (storedSessionUserId), which the Neural progress host uses only to pick this device's local cache. No cloud read or write depends on that id; every other export and path is unchanged.",
+          "scope": "keeplist",
+          "to": "060a59fb881cf87b02a89b9bf3ce0e273a612cc75442dd551c3776cb17129a2c"
+        },
+        {
+          "date": "2026-09-30",
+          "from": "060a59fb881cf87b02a89b9bf3ce0e273a612cc75442dd551c3776cb17129a2c",
+          "reason": "D3 (owner 2026-09-30): a failed session check with a stored account raises session-unverified carrying storedUserId, so the host plays local-only as for an unreachable SDK; malformed answers still hold",
+          "scope": "keeplist",
+          "to": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e"
+        }
+      ],
+      "bytes": 17647,
       "scope": "keeplist",
-      "sha256": "6e211ac780c968e3300be81656ae9a9f47223d16eb0a9549497ea5884a5f481d"
+      "sha256": "37a2b96161a7e8273ef1726386651e0167e0f53d0a992c5c38bcedcd12ed916e"
     },
     "source/quartz/components/scripts/toc.inline.ts": {
       "bytes": 4776,
@@ -228,11 +258,18 @@
           "reason": "QSKEW (quartz-cto, 2026-09-29, v1.205.1): the loader requests neural.js and neural.css with ?v=<window.__NEURAL_BUILD> (appAsset) instead of at fixed URLs under /static/*, which were cached 4 h + 1 d SWR and served a bundle ~28 h older than the data. With no stamp (a pre-stamp postscript cached), it falls back to the fixed URL and warns. The fixed files stay served for that transition.",
           "scope": "keeplist",
           "to": "12c0e00366315f58ecd844509da2337441e4f00cb268850a9d91d3c1b5921565"
+        },
+        {
+          "date": "2026-09-29",
+          "from": "12c0e00366315f58ecd844509da2337441e4f00cb268850a9d91d3c1b5921565",
+          "reason": "full-game v1.207.0 (account-scoped progress): the neural-variant hide rule exempts #neural-progress-recovery, the page-level notice the progress host mounts when it cannot verify the account owner, so that notice stays visible while the static shell is hidden. One selector added on top of QSKEW v1.205.1 (appAsset), whose lines are unchanged.",
+          "scope": "keeplist",
+          "to": "6b9f34113979b2d4bbad0c8dce369a83b907eb8504cef95128877c986b1fc1e3"
         }
       ],
-      "bytes": 9373,
+      "bytes": 9404,
       "scope": "keeplist",
-      "sha256": "12c0e00366315f58ecd844509da2337441e4f00cb268850a9d91d3c1b5921565"
+      "sha256": "6b9f34113979b2d4bbad0c8dce369a83b907eb8504cef95128877c986b1fc1e3"
     },
     "source/quartz/components/styles/breadcrumbs.scss": {
       "bytes": 952,

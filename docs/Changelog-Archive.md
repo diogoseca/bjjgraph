@@ -44,7 +44,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
 
 - **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
-- **v1.208.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12080--weak-spots-in-your-ruleset-from-your-start)
+- **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8352,7 +8352,164 @@ clock unless stated):**
   each number in the doc against its artifact (`claims.json`). `--heavy` regenerates the heavy
   artifacts and diffs them.
 
-## v1.208.0 — WEAK SPOTS IN YOUR RULESET, FROM YOUR START
+## v1.207.0–v1.207.x — THE FULL GAME: WIN CHANCE ON EVERY CARD
+
+The Codex full-game programme (custody commit `86e40365a`), re-integrated onto the post-cutover dev
+by replaying only its own delta against the base it was built on (tree `b0c4229a4`). Owner rulings
+of 2026-09-29 folded in. What a player sees:
+
+- **Win chance** replaces EDGE as the one number on own cards AND threat cards (threat probes), from
+  an MDP solved in a deferred worker over the live rules. The immediate chance sits beside it. It
+  decomposes exactly in its tooltip, `P(lands)·[win|lands] + P(misses)·[win|misses]`. The hand sorts
+  once on an untouched hand. The legend thermometer shows V(s): best card = V(s) whenever every card
+  has a value.
+- Measured on the real corpus (gi, 11 moves, opponent skill .13, no study):
+  - Mount/top: Kimura from Mount 90.3%.
+  - Closed Guard/bottom: Kimura from Guard 83.9%; the Ezekiel threat leaves you 36.3%.
+  - Back Control/top: Rear Naked Choke 90.3%.
+  - K-Guard/top: Backstep 70.7% (moves 37.8% → 51% and Win chance → 72.4% after one correct MC).
+  - These reproduce the Codex browser receipt exactly. Threat probes add 0–107 states, and the root
+    is bit-identical with and without them.
+  - Reproduce with `tests/artifacts/_win_chance_probe.mjs` (its header has the two commands).
+- **Retired:** "Winning vs not losing" (the key is kept, unread; the wire ships λ = 2 only). This
+  takes graph-data.json from 107,451 to 100,191 B gzip on the boot path, and the MDP metadata from
+  6 variants to 2. Also retired: the served `systems.json` (build-internal now; it was 376,491 of
+  the 500,000 B deferred cap).
+- **Adopted automatically:** a guest's old unowned progress, on first load. This inverts the Codex
+  seats' "legacy is not loaded", which would have shown every returning player a white belt.
+- **QREV7** (quartz-cto): a guest never loads the SDK, and a guest meeting a cached v1 façade boots.
+- **PR 220 port:** one decoder. `study-bundles.mjs` read format-3 `decks` and would have broken
+  every Neural build. `ngWireDeckIndex` is the single canonical index; the app and the study
+  producer fingerprint it.
+- **Belt:** the MDP's `classify` mirrors v1.204.5.
+
+**The first full core-suite runs (v1.207.6–v1.207.9).** Dev was green on the same suite (PR 227), so
+all 35 reds of the first run were this branch's, and so were the 4 of the second:
+- **App fixes.**
+  - Inspect while values prepared threw: the runtime renderer read fields the app's short view lacks.
+    That took out 11 journeys, every Shift+digit sheet among them.
+  - Value requests followed the tray order, so the sort-once re-solved an unchanged hand. The first
+    fix (dealt order) then met the provider's order-sensitive live-hand check, and a sorted hand went
+    "Win chance unavailable". The check is now set membership.
+  - The film strip was docked mid-transition after a rotation and stayed 4 px inside the hand, which
+    is 18 px taller now. It re-docks on its own resize.
+  - Study-comparison rows were rebuilt on every Win-chance repaint, which could swallow a click. They
+    now rebuild only on change.
+  - An attacker's escape threats had no probe (`opponentEscapeRow`, `ngMdpThreatId`).
+  - The legend label was looked up in the wrong element.
+- **Specs moved to deliberate changes, same claims:**
+  - Sign-in goes through the real facade (a guest boot creates no client, QREV7 M1).
+  - Sort-once order.
+  - Entry is 100%, so the authored rate is checked on Finish cards.
+  - Lazy Settings; the Study plan cell; the due-list header; an empty guest plan.
+  - payload-first-hand: the page stamps its own first hand, instead of relying on Playwright noticing it.
+- **Local-only play** (owner ruling 2026-09-29). A signed-in device whose SDK cannot load plays that
+  account's local copy under a banner, never pulls or pushes, and merges before its first push on
+  re-verify.
+  - Gates: unit tests on the host and the facade, plus an @curated journey.
+  - Mutant: a save that pushes while local-only turns the journey red at "still nothing pushed".
+- **QREV8.** M1 is killed only by a direct facade call: the app's own guest check answers first.
+  M2 is killed by gate 2, as a 240 s boot timeout. The `_initAuth` guest gate is a named non-kill.
+- **Rebased four times** (Microing, PR 228, PR 229, PRs 219/230).
+  - The full game was renumbered twice, each time only in lines dev does not carry: v1.205.x
+    (dev's v1.205.0 is Microing), then v1.206.x (dev's v1.206.0/.1 are graph semantics), now v1.207.x.
+  - Renumbering a comment moves the adapter's law hash, so every commit was re-pinned.
+  - Keep-list files were re-accepted with the freeze tool on each rebase.
+  - PR 219's corrected honesty-gap text is kept: EDGE describes the corpus's opponent, while the MDP
+    plays `opponentDefend` itself.
+
+
+**The owner screen's rulings (v1.208.0, 2026-09-30).**
+- **D1: every player has a plan.** With no study comparison (none requested, still computing, or out
+  of date), `ngGameplanBuild` ranks new material by the app's own weak-spots ranking
+  (`_gameplanWeakFallback` → `ngGameplanWeakSpots`), under the same deck gate.
+  - The plan says so: `status: "weak-spots"`, and `comparison` keeps the comparison's own state.
+    FLOW is never presented as a comparison.
+  - This reverses the v1.207.0 contract "FLOW alone deals nothing" (`tests/flow.test.mjs`, inverted
+    with its reason).
+  - The Explore cell reads dev's "N new" again.
+- **D2: the unlock progression.**
+  - Header: the plain, live "N cards due today". The line "Order and reasons saved when opened ·
+    current review debt below" is gone.
+  - The session list (due reviews plus the new-card budget) is headed "Finish these to unlock
+    more", with "3 of 13 cards done".
+  - The rest of the ranking is LOCKED: its rows are not dealt, and the list reads "29 more
+    techniques unlock when you finish". Finishing re-renders it as "Unlocked: 29 more techniques",
+    paged as before. The done card adds "More practice is unlocked below."
+  - The unlock is latched per plan, so a new day does not take it back.
+  - The gate is the plan's list only: a locked deck still opens as a study.
+- **D3: local-only for a failed session check.** The facade raises `session-unverified` with the
+  stored account when `getSession` errors or throws. The host treats it like `sdk-unavailable`
+  (`NG_PROGRESS_LOCAL_ONLY_CODES`). A malformed answer, or a stored session that names no account,
+  still holds.
+- **Item 9: one plain sentence per card.**
+  - Covers due rows, weak-spot tiers, and the model's and the presenter's reasons.
+  - Each caveat (game effects only, joint practice) is said once, under "Why these decks?".
+  - The summary no longer quotes a count that goes stale once the session is done.
+- **Gates.**
+  - Units 1,123/1,123.
+  - 130 targeted journeys green on a private port.
+  - Every new claim has a mutant that turns it red:
+
+  | mutant | red at |
+  |---|---|
+  | no weak-spots fallback (gameplan.js) | D1 journey, "weakest first"; `gameplan.test.mjs` D1 |
+  | extra rows dealt while locked | D2 journey, "locked rows are not dealt" (2 vs 12) |
+  | `s.unlocked` never latched | D2 journey, "Unlocked: 35 more techniques" not found |
+  | no unlock re-render in `_paintGameplanProgress` | D2 journey, same point |
+  | "session-unverified" dropped from the host's codes | D3 journey, first poll (hold screen); host unit |
+  | facade: a returned `error` or a thrown read left unwrapped | `progress_auth_facade.test.mjs` D3 (2 mutants) |
+
+  - A syntax-breaking deletion of the latch was discarded as a non-mutant (the bundle never
+    booted), and re-run as a semantic one.
+- **Payload.** Eager boot +1,186 B gzip (327,480 → 328,666), within the delta cap. Deferred
+  448,798 of 500,000 B.
+
+**D2, the owner's copy pass (v1.208.1, 2026-10-01).** In his words: he liked the "Reviewed 0/30" style
+progress, and when the player finishes it should say something like "All done, come back tomorrow",
+and AFTER that offer a Continue action, "Find more weaknesses".
+- **Progress:** "Reviewed 3/13", beside the kept "Finish these to unlock more".
+- **The finished session ends on the end card**: "All done, come back tomorrow · You reviewed 13 of
+  13 cards today." That card replaces the lock line at the END of the list. After it comes the
+  action "Find more weaknesses (29 more techniques, weakest first)".
+- **The action is what opens the extra list.** It deals the list under "More weaknesses" and lands
+  on its first deck (`s.unlocked`, set only there, and kept for that plan).
+- **Removed:** "Unlocked: 29 more techniques" (and its unlocked-block variant).
+- **A race that D1 widened.** The Explore stat row was rebuilt whole by every `applyDeckVisibility`,
+  every auth flip and every `_refreshGameplanUI`. D1 made its build slower, since it now asks FLOW
+  for the weak-spots ranking. `gameplan-study-live` then caught a cell detaching between "visible"
+  and the hit, in 3 of 9 runs, and a real click can be lost the same way. Fixed by `_mountStatsRow`,
+  which repaints mounted cells in place, so listeners stay; a changed cell set still rebuilds.
+- **Gates.**
+  - Units 1,124/1,124 (+1, the in-place repaint, whose always-replace mutant turns it red).
+  - study-live repeated 6×: 12/12.
+  - Plan and auth journeys: 60/60.
+  - Four D2 mutants, each killed at a named point (listed in the journey's header):
+    rows dealt while locked; the list opened without the action; an action that does not unlock;
+    no completion re-render.
+- **Payload:** eager boot +498 B gzip since v1.208.0.
+
+**`veteran-odds-clamp` follows the number to where it prints (v1.208.2, FGGEN1, 2026-10-01).**
+- **What failed.** The belt seat's generated-suite control found one red that belongs to PR 231
+  (40 are pre-existing on dev): the spec read every card's `.ngodds` as `round(moveChance)`. Under
+  the full game that corner is the IMMEDIATE chance with its own label. "Move NN%" on a transition
+  is still `round(moveChance)`, but a submission card is its "Entry". The live rule makes the entry
+  exactly 1 (`game-value-provider.src.js`), so it prints "100%"; the clamped chance prints on the
+  Finish card once the attack is entered.
+- **The claim, unchanged, is now read at both print sites:**
+  - every Move card;
+  - the Finish card of the drilled or best submission (Phase D);
+  - and the spec now requires the hand to deal a submission, instead of skipping silently.
+- **Mutants:**
+  - no 0.95 ceiling in the move-chance law: red at Phase B (105);
+  - a Finish card printing anything but its own number: red in Phase D ("Kimura from Mount", the
+    drilled target, expected the pinned 95%).
+- **Not changed, and why: a printed 100%.** `ngChoiceValuePercent` already prints ">99%" for
+  [0.995, 1) and "<1%" for (0, 0.005), and an interval straddling a bin as a range. So 100% and 0%
+  appear only when certain (`tests/choice_value.test.mjs`). The 100% the control saw is that
+  certain Entry, not Win chance.
+
+## v1.209.0 — WEAK SPOTS IN YOUR RULESET, FROM YOUR START
 
 Owner, 2026-09-30, on `docs/GraphSemantics.md` §10 items 7 and 8: "ideally fix weak spots now" (gi
 pricing) and "it should match the starting point set by the app indeed" (FLOW's start). FLOW, the

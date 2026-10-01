@@ -143,7 +143,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   const afterFail = await page.evaluate((uk) => {
     const a = (window as any).__neural
     const norm = (u: any) => (u ? { checkpoint: !!u.checkpoint } : null)
-    const stored = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const stored = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     return {
       live: norm(a.units[uk]),
       blob: norm(a._progressBlob().units[uk]),
@@ -198,7 +198,7 @@ test("pass line is exact: pass-1 correct fails, a retake at exactly pass (wrong 
   // ── pass branch persists on its own (_flushSave lives inside the branch — no manual flush) ──
   const afterPass = await page.evaluate((uk) => {
     const a = (window as any).__neural
-    const stored = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const stored = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     return {
       live: !!(a.units[uk] && a.units[uk].checkpoint),
       stored: !!((stored.units || {})[uk] && (stored.units || {})[uk].checkpoint),
