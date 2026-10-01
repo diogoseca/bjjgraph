@@ -392,7 +392,38 @@
         "attempt_probability": {
           "gi": 12,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 38,
+          "nogi": 37
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 37,
+              "nogi": 37
+            },
+            "result": "success"
+          },
+          {
+            "to": "Triangle Escape Position/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Armbar Control/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Complete Triangle Escape",

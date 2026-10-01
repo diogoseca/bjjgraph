@@ -46,6 +46,8 @@ of the position-role the table is for):
     python3 scripts/apply_listing_tables.py                  # write content
     python3 scripts/apply_listing_tables.py --check          # content == provenance, exit 1 if not
     python3 scripts/apply_listing_tables.py --reaggregate    # re-derive from the committed ballots
+    python3 scripts/apply_listing_tables.py --apply-listings [--dry-run|--check]
+                                             # PR B2: write the per-listing tables into the positions
 
 Deterministic: no randomness, everything in sorted order.
 """
@@ -62,6 +64,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _atomic_io import atomic_write_json  # noqa: E402
 from occurrence_moe import CONFIG as Q3, expert_weight, floor_preserving_round  # noqa: E402
 from apply_origin_coherence import ARCHETYPES  # noqa: E402
+from _slug import slugify  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 PROVENANCE = ROOT / "calibration/listing_tables.json"
@@ -444,6 +447,148 @@ def apply(prov, write, check):
     return 0
 
 
+# ── PR B2: the per-listing tables, applied ─────────────────────────────────────────────────────────
+WIRE = ROOT / "source/quartz/static/neural/graph-data.json"
+
+
+def _alias_decisions(prov):
+    """OCPRB4: a table at a CONTROL-ALIAS position is re-keyed to the canonical submission state where
+    that state's hand deals the move, and dropped where nothing deals it. The app canonicalises an
+    alias state into its submission state, whose hand is the submission's own: the attacker's finish
+    and continuations (`stateMoves`), the defender's escapes (`cal.defenses`, not technique nodes).
+    Read from the EMITTED wire, which is what the app deals (run `npm run regenerate:neural` first).
+    Returns (rekeys, drops), each a list of records with a reason."""
+    if not WIRE.exists():
+        raise SystemExit(f"[listing_tables] {WIRE.relative_to(ROOT)} is missing: run `npm run regenerate:neural` first")
+    w = json.loads(WIRE.read_text(encoding="utf-8"))
+    alias = {n["posId"]: n for n in w["nodes"] if n.get("ty") == "positions" and (n.get("cal") or {}).get("stateAlias")}
+    subs = {}
+    for n in w["nodes"]:
+        if n.get("ty") == "submissions":
+            tail = n["id"].split("/", 1)[1].lower()
+            for k in (tail, tail.replace("/", "-")):
+                subs.setdefault(k, n)
+    if len(alias) < 10:
+        raise SystemExit(f"[listing_tables] only {len(alias)} control-alias positions on the wire: a join drifted")
+    rekeys, drops = [], []
+    for t in prov["tables"]:
+        pid, role = t["listing"].rsplit("/", 1)
+        if pid not in alias:
+            continue
+        key = alias[pid]["cal"]["stateAlias"]
+        sub = subs.get(key)
+        if sub is None:
+            raise SystemExit(f"[listing_tables] {t['key']}: alias {pid} names {key!r}, which is not on the wire")
+        rec = {"key": t["key"], "listing": t["listing"], "move": t["move"], "canonical_state": key}
+        if role != sub.get("fromRole"):
+            drops.append({**rec, "reason": "defender side: the canonical submission state deals its escapes "
+                                           "(cal.defenses), which are not technique nodes, so nothing deals this move there"})
+            continue
+        moves = (sub.get("cal") or {}).get("stateMoves") or []
+        if slugify(t["move"]) in moves:
+            rekeys.append({**rec, "reason": f"{key} deals it as a continuation"})
+        else:
+            drops.append({**rec, "reason": f"attacker side: {key} deals {len(moves)} continuation(s) "
+                                           f"({', '.join(moves) or 'none'}), not this move"})
+    return rekeys, drops
+
+
+def _null_attempt(data, role, entry, f):
+    """Null one listing's attempt in frame `f` (it does not exist there) and spread its points over
+    the rest of the hand in that frame, as _drop_listing does (zeros stay zero, floor 1)."""
+    if entry["attempt_probability"].get(f) is None:
+        return False
+    entry["attempt_probability"][f] = None
+    trans = data[role]["transitions"]
+    live = {t["transition"]: float(t["attempt_probability"][f]) for t in trans
+            if t is not entry and t["attempt_probability"].get(f) is not None and t["attempt_probability"][f] > 0}
+    zero = {t["transition"] for t in trans if t is not entry and t["attempt_probability"].get(f) == 0}
+    if not live:
+        raise SystemExit(f"[listing_tables] nulling {entry['transition']!r} leaves its {f} hand empty")
+    raw = {m: v * 100.0 / sum(live.values()) for m, v in live.items()}
+    raw.update({m: 0.0 for m in zero})
+    ints = floor_preserving_round(raw, zeroed=zero, floor=1)
+    for t in trans:
+        if t is not entry and t["transition"] in ints:
+            t["attempt_probability"][f] = ints[t["transition"]]
+    return True
+
+
+def apply_listings(prov, write, check):
+    """Write the per-listing tables into the position JSON (PR B2, OCPRB2 + OCPRB4 + OCPRB7).
+
+    - The 12 control-alias tables are decided by `_alias_decisions` and recorded in the provenance's
+      `dropped` with their reasons (re-keying is not built: it raises if one ever appears).
+    - Every other table is written on its listing as `deal_here: true`, `success_rate` and `outcomes`
+      (display paths, cells equal across frames). regenerate_graph._listing_table rescales it.
+    - A gi-only table (its no-gi rate null) gets a null no-gi ATTEMPT on that listing, with the rest
+      of the hand renormalised (D3); the wire then names it in `absentAt` (v1.215.0).
+    Idempotent: a second run changes nothing. `check` reports differences and exits 1 on any."""
+    pos = _positions()
+    rekeys, drops = _alias_decisions(prov)
+    if rekeys:
+        raise SystemExit(f"[listing_tables] {len(rekeys)} alias table(s) would RE-KEY {rekeys[:2]}: re-keying "
+                         f"to a submission state is not built (0 when B2 shipped)")
+    print(f"[listing_tables] control-alias tables: re-key {len(rekeys)}, drop {len(drops)}")
+    want_dropped = sorted(drops, key=lambda d: d["key"])
+    pdirty = prov.get("dropped") != want_dropped
+    dropped = {d["key"] for d in want_dropped}
+    edits, problems = {}, []
+    applied = gi_only = renormalised = 0
+
+    def load(rel):
+        if rel not in edits:
+            edits[rel] = json.loads((ROOT / rel).read_text(encoding="utf-8"))
+        return edits[rel]
+
+    for t in sorted(prov["tables"], key=lambda x: x["key"]):
+        if t["key"] in dropped:
+            continue
+        slug, role = t["listing"].rsplit("/", 1)
+        rel = pos[slug][0]
+        data = load(rel)
+        e = _listing(data, role, t["move"])
+        if e is None:
+            raise SystemExit(f"[listing_tables] {t['key']}: {t['move']!r} is not listed at {t['listing']} ({rel})")
+        r = t["result"]
+        want_sr = {f: r["success_rate"][f] for f in FRAMES}
+        want_out = _content_table(r["outcomes"], pos)
+        if e.get("deal_here") is not True:
+            problems.append(f"{t['key']}: deal_here")
+            e["deal_here"] = True
+        if e.get("success_rate") != want_sr:
+            problems.append(f"{t['key']}: success_rate -> {want_sr}")
+            e["success_rate"] = want_sr
+        if e.get("outcomes") != want_out:
+            problems.append(f"{t['key']}: outcomes ({len(want_out)} rows)")
+            e["outcomes"] = want_out
+        absent = [f for f in FRAMES if r["success_rate"][f] is None]
+        gi_only += bool(absent)
+        for f in absent:
+            if _null_attempt(data, role, e, f):
+                problems.append(f"{t['key']}: {f} attempt nulled, hand renormalised")
+                renormalised += 1
+        applied += 1
+    print(f"[listing_tables] listing tables: {applied} applied ({applied - gi_only} in both frames, {gi_only} gi-only; "
+          f"{renormalised} no-gi attempt(s) nulled and renormalised now), {len(dropped)} dropped, "
+          f"{len(prov['tables'])} held")
+    if check:
+        if pdirty:
+            problems.append("provenance: the recorded drops differ")
+        print(f"[listing_tables] check --apply-listings: {len(problems)} difference(s) {problems[:6]}")
+        return 1 if problems else 0
+    for p in problems:
+        print("  " + p)
+    if write:
+        for rel, data in sorted(edits.items()):
+            atomic_write_json(ROOT / rel, data)
+        if pdirty:
+            prov["dropped"] = want_dropped
+            atomic_write_json(PROVENANCE, prov)
+    print(f"[listing_tables] {'wrote' if write else 'would write'} {len(problems)} change(s) in {len(edits)} position file(s)")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--aggregate", action="store_true")
@@ -453,6 +598,7 @@ def main():
     ap.add_argument("--meta", help="JSON file with the run's meta block")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--apply-listings", action="store_true", help="PR B2: write the per-listing tables")
     a = ap.parse_args()
     if a.aggregate:
         if not (a.ballots and a.packs and a.meta):
@@ -476,6 +622,8 @@ def main():
         same = json.dumps(fresh, sort_keys=True) == json.dumps(prov, sort_keys=True)
         print(f"[listing_tables] reaggregate from the committed ballots: {'identical' if same else 'DIFFERS'}")
         return 0 if same else 1
+    if a.apply_listings:
+        return apply_listings(prov, write=not a.dry_run, check=a.check)
     return apply(prov, write=not a.dry_run, check=a.check)
 
 

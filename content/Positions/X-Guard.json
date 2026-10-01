@@ -425,7 +425,46 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "success"
+          },
+          {
+            "to": "X-Guard/Bottom",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Deep Half Entry",

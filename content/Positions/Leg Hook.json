@@ -432,7 +432,46 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 50,
+          "nogi": 47
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 47,
+              "nogi": 47
+            },
+            "result": "success"
+          },
+          {
+            "to": "Leg Hook/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Back Step Pass",

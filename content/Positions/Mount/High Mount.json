@@ -441,7 +441,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 54,
+          "nogi": 51
+        },
+        "outcomes": [
+          {
+            "to": "Mounted Triangle/Top",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "success"
+          },
+          {
+            "to": "High Mount/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Kimura from High Mount",
@@ -860,7 +891,54 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 15
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 20,
+          "nogi": 22
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 7,
+              "nogi": 7
+            },
+            "result": "success"
+          },
+          {
+            "to": "High Mount/Bottom",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "failure"
+          },
+          {
+            "to": "S Mount/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Hip Escape to Guard",
@@ -888,7 +966,46 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 8
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 19,
+          "nogi": 21
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "success"
+          },
+          {
+            "to": "High Mount/Bottom",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "failure"
+          },
+          {
+            "to": "S Mount/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Bridge and Roll",

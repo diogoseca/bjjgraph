@@ -21,13 +21,13 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Worm Guard Bottom in BJJ. Advanced lapel guard system with 
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 35% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 22% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bolo Sweep",
-      "text": "From this position, attempt Bolo Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Bolo Sweep. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 6
     }
   ],
@@ -443,7 +443,7 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: Study the Entry Obstacles</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

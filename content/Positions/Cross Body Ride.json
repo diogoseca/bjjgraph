@@ -435,7 +435,38 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 46,
+          "nogi": 50
+        },
+        "outcomes": [
+          {
+            "to": "Truck/Top",
+            "probability": {
+              "gi": 50,
+              "nogi": 50
+            },
+            "result": "success"
+          },
+          {
+            "to": "Cross Body Ride/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Crab Ride to Back",
@@ -847,7 +878,54 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 15
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 36
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 8,
+              "nogi": 8
+            },
+            "result": "success"
+          },
+          {
+            "to": "Cross Body Ride/Bottom",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 28,
+              "nogi": 28
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Turtle to Standing",

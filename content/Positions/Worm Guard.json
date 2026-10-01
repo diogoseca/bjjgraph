@@ -800,14 +800,14 @@
         "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 21
+          "nogi": 23
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 19
+          "nogi": 20
         }
       },
       {
@@ -821,22 +821,61 @@
         "transition": "X-Guard Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 33
+          "nogi": 35
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 20
+          "nogi": 22
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 7
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 46,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 46,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Worm Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "De La Riva Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Collar Drag from Worm Guard",

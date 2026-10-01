@@ -429,7 +429,38 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 16
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 49,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Truck/Top",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "success"
+          },
+          {
+            "to": "Crab Ride/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 7,
+              "nogi": 7
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Crucifix from Turtle",

@@ -415,7 +415,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 32
+        },
+        "outcomes": [
+          {
+            "to": "Anaconda Control/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Overhook Control/Top",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Top",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Two-on-One to Back Take",

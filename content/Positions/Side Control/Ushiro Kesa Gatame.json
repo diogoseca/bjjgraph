@@ -714,7 +714,46 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 36
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 27,
+              "nogi": 27
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "success"
+          },
+          {
+            "to": "Ushiro Kesa Gatame/Bottom",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Technical Stand-up",

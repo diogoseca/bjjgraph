@@ -300,7 +300,38 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 29,
+          "nogi": 26
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 26,
+              "nogi": 26
+            },
+            "result": "success"
+          },
+          {
+            "to": "Crackhead Control/Top",
+            "probability": {
+              "gi": 55,
+              "nogi": 55
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Posture Recovery to Closed Guard",

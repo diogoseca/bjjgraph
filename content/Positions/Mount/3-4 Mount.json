@@ -834,7 +834,46 @@
         "attempt_probability": {
           "gi": 20,
           "nogi": 20
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 39,
+          "nogi": 41
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 27,
+              "nogi": 27
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "success"
+          },
+          {
+            "to": "3-4 Mount/Bottom",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Bridge and Roll",

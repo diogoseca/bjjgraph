@@ -49319,5 +49319,91 @@
     "closed-guard/bottom",
     "half-guard/bottom",
     "half-guard/top"
+  ],
+  "dropped": [
+    {
+      "key": "Arm Extraction@anaconda-control/bottom",
+      "listing": "anaconda-control/bottom",
+      "move": "Arm Extraction",
+      "canonical_state": "anaconda-choke-from-anaconda-control",
+      "reason": "defender side: the canonical submission state deals its escapes (cal.defenses), which are not technique nodes, so nothing deals this move there"
+    },
+    {
+      "key": "Arm Extraction@armbar-control/bottom",
+      "listing": "armbar-control/bottom",
+      "move": "Arm Extraction",
+      "canonical_state": "armbar-from-armbar-control",
+      "reason": "defender side: the canonical submission state deals its escapes (cal.defenses), which are not technique nodes, so nothing deals this move there"
+    },
+    {
+      "key": "Arm Extraction@darce-control/bottom",
+      "listing": "darce-control/bottom",
+      "move": "Arm Extraction",
+      "canonical_state": "darce-choke-from-darce-control",
+      "reason": "defender side: the canonical submission state deals its escapes (cal.defenses), which are not technique nodes, so nothing deals this move there"
+    },
+    {
+      "key": "Counter Roll to Top@aoki-lock-control/bottom",
+      "listing": "aoki-lock-control/bottom",
+      "move": "Counter Roll to Top",
+      "canonical_state": "aoki-lock-from-aoki-lock-control",
+      "reason": "defender side: the canonical submission state deals its escapes (cal.defenses), which are not technique nodes, so nothing deals this move there"
+    },
+    {
+      "key": "Counter Roll to Top@darce-control/bottom",
+      "listing": "darce-control/bottom",
+      "move": "Counter Roll to Top",
+      "canonical_state": "darce-choke-from-darce-control",
+      "reason": "defender side: the canonical submission state deals its escapes (cal.defenses), which are not technique nodes, so nothing deals this move there"
+    },
+    {
+      "key": "Outside Ashi Entry@toe-hold-control/top",
+      "listing": "toe-hold-control/top",
+      "move": "Outside Ashi Entry",
+      "canonical_state": "toe-hold-from-toe-hold-control",
+      "reason": "attacker side: toe-hold-from-toe-hold-control deals 3 continuation(s) (kneebar-from-toe-hold-control, toe-hold-to-ashi-garami, toe-hold-to-straight-ankle-lock), not this move"
+    },
+    {
+      "key": "Pass to Side Control@guillotine-control/top",
+      "listing": "guillotine-control/top",
+      "move": "Pass to Side Control",
+      "canonical_state": "guillotine-choke-from-guillotine-control",
+      "reason": "attacker side: guillotine-choke-from-guillotine-control deals 3 continuation(s) (arm-in-guillotine-from-guillotine-control, high-elbow-guillotine-from-guillotine-control, ten-finger-guillotine-from-guillotine-control), not this move"
+    },
+    {
+      "key": "Pass to Side Control@straight-ankle-lock-control/top",
+      "listing": "straight-ankle-lock-control/top",
+      "move": "Pass to Side Control",
+      "canonical_state": "straight-ankle-lock-from-straight-ankle-lock-control",
+      "reason": "attacker side: straight-ankle-lock-from-straight-ankle-lock-control deals 0 continuation(s) (none), not this move"
+    },
+    {
+      "key": "Rolling Back Take@omoplata-control/top",
+      "listing": "omoplata-control/top",
+      "move": "Rolling Back Take",
+      "canonical_state": "omoplata-from-omoplata-control",
+      "reason": "attacker side: omoplata-from-omoplata-control deals 2 continuation(s) (omoplata-to-back, omoplata-to-sweep), not this move"
+    },
+    {
+      "key": "Stack Defense@armbar-control/bottom",
+      "listing": "armbar-control/bottom",
+      "move": "Stack Defense",
+      "canonical_state": "armbar-from-armbar-control",
+      "reason": "defender side: the canonical submission state deals its escapes (cal.defenses), which are not technique nodes, so nothing deals this move there"
+    },
+    {
+      "key": "Truck Entry@aoki-lock-control/top",
+      "listing": "aoki-lock-control/top",
+      "move": "Truck Entry",
+      "canonical_state": "aoki-lock-from-aoki-lock-control",
+      "reason": "attacker side: aoki-lock-from-aoki-lock-control deals 0 continuation(s) (none), not this move"
+    },
+    {
+      "key": "Turtle to Back Take@darce-control/top",
+      "listing": "darce-control/top",
+      "move": "Turtle to Back Take",
+      "canonical_state": "darce-choke-from-darce-control",
+      "reason": "attacker side: darce-choke-from-darce-control deals 1 continuation(s) (darce-to-anaconda-switch), not this move"
+    }
   ]
 }

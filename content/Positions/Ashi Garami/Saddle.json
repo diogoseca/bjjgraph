@@ -808,7 +808,46 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 27,
+          "nogi": 18
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "success"
+          },
+          {
+            "to": "Saddle/Bottom",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Inside Ashi-Garami/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Guard Recovery from Leg Entanglement",

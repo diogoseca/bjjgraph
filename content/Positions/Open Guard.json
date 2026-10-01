@@ -353,7 +353,46 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": 39
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Float Passing",
@@ -798,7 +837,46 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": null
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 20,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 48,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Elevator Sweep",

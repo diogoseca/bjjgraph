@@ -936,7 +936,38 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 5
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 49,
+          "nogi": 43
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 43,
+              "nogi": 43
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Bottom",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Reverse De La Riva Recovery",

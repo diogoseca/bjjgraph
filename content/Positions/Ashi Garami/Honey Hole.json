@@ -922,7 +922,54 @@
         "attempt_probability": {
           "gi": 26,
           "nogi": 25
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 45,
+          "nogi": 41
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "success"
+          },
+          {
+            "to": "Honey Hole/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "success"
+          },
+          {
+            "to": "50-50 Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Honey Hole/Bottom",
+            "probability": {
+              "gi": 47,
+              "nogi": 47
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Backside 50-50/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Standing Escape",
