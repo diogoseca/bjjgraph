@@ -311,6 +311,12 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   // lives: under the fallback, those finish cards would all sit inside a 2-point band.
   // Mutants, recorded 2026-09-29: a constant finish chance (choiceChance -> .5 on a finish) turns
   // the finish half red (six 50%s); calSuccess -> null turns the wire half red (uncalibrated).
+  // Re-run on the built bundle at v1.212.3 (OCDEP1), each red at its own assertion:
+  //   - choiceChance -> .5 on a finish: "do not all print one number" (six 50s);
+  //   - moveChance priced through the dominance fallback for submissions: the same (six 33s);
+  //   - moveChance + (idx % 4)·.03, a per-state term: distinct and span both PASS; only the
+  //     printed − authored check catches it (shift spread 6);
+  //   - boot() ignoring window.__NEURAL_RIG: "the pin reached this boot's opponent" (0.063).
   await j.land("Mount Top")
   const hand = await page.evaluate(() =>
     [...document.querySelectorAll('[data-choice-group="you"] [data-tech]')]
@@ -323,7 +329,20 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   )
   expect(hand.length, "mount top deals submissions").toBeGreaterThan(3)
   expect([...new Set(hand.map((c: any) => c.label + " " + c.odds))], "a submission dealt on a position is an Entry, certain").toEqual(["Entry 100"])
+  // THE OPPONENT IS PINNED (v1.212.3, OCDEP1). A finish prints `moveChance` = authored rate − aiSkill
+  // (the opponent-value term is 0 here: a submission defender's value is negative), and aiSkill =
+  // 0.06 + rng("ai-skill")·0.14 is drawn ONCE PER BOOT, by the URL arrival's staged roll. Unpinned,
+  // each of the six boots below subtracted its own random 6-20 points from a 16-point authored
+  // span (58-74), and closed it to <= 8 on ~1.6% of runs (400,000 simulated draws, through the
+  // app's own moveChance). Dev's first phase-2 deploy (run 36857244057) drew one of them: span 6,
+  // with Rear Naked Choke at 54 = 74 − 20, the draw's ceiling. Nothing about the build decided it.
+  // A post-boot `j.rig` is too late, because the arrival draws during boot, so the pin goes through
+  // the production pre-boot rail (`window.__NEURAL_RIG`, read by boot()). The init script runs on
+  // every boot below. CLAUDE.md §6.3: a tag the journey leaves unrigged is a lottery ticket.
+  await page.addInitScript(() => { (window as any).__NEURAL_RIG = { "ai-skill": [0.5, 0.5, 0.5, 0.5] } })
   const finish: Record<string, number> = {}
+  // printed − authored, per card: under one opponent this is ONE number for all six
+  const shift: Record<string, number> = {}
   for (const url of [
     "/Submissions/Kimura/from-Mount/Attacker",
     "/Submissions/Armbar/from-Mount/Attacker",
@@ -338,8 +357,23 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
     await expect(card, url + " deals its finish").toHaveCount(1)
     await expect(card.locator("[data-immediate-label]")).toHaveText("Finish")
     finish[url] = parseInt(((await card.locator(".ngodds").textContent()) || "0").replace("%", ""), 10)
+    // the authored rate of the node the app DEALT as the finish (its own option list, not a lookup)
+    const live = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const opt = (a._optList || []).find((o: any) => o.action === "finish")
+      return { aiSkill: a.aiSkill, authored: opt ? Math.round(a.calSuccess(opt.node) * 100) : null }
+    })
+    expect(live.aiSkill, url + ": the pin reached this boot's opponent").toBeCloseTo(0.13, 9)
+    expect(live.authored, url + ": the dealt finish has an authored rate").not.toBeNull()
+    shift[url] = finish[url] - live.authored!
   }
   const odds = Object.values(finish)
   expect(new Set(odds).size, "the finish cards do not all print one number: " + JSON.stringify(finish)).toBeGreaterThan(2)
   expect(Math.max(...odds) - Math.min(...odds), "and they span more than the fallback's whole range").toBeGreaterThan(8)
+  // THE CLAIM ITSELF: every printed finish is its authored rate moved by the SAME opponent. A
+  // fallback, a constant, or a per-state term would each spread these shifts; 1 point allows only
+  // integer rounding of the common shift. This does not re-derive the price: it compares the card
+  // with the rate the app dealt it from.
+  const shifts = Object.values(shift)
+  expect(Math.max(...shifts) - Math.min(...shifts), "printed − authored is one number across the six: " + JSON.stringify(shift)).toBeLessThanOrEqual(1)
 })
