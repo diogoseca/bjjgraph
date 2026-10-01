@@ -711,7 +711,7 @@ content are inputs to what the bots write, and a change here changes their outpu
 | workflow | trigger | what it does |
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
-| `e2e-full.yml` | PR, weekly, manual | the full core Playwright suite, four shards |
+| `e2e-full.yml` | PR, weekly, manual | the core suite in four shards, plus `e2e:gen` vs its ledger |
 | `e2e-gen.yml` | weekly, manual | `e2e:gen` on **dev**, judged by its ledger |
 | `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |

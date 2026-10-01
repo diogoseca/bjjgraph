@@ -89,7 +89,13 @@ async function openPlan(page: Page, touch: boolean, withDebt = false) {
     a.setViewMode('explore'); a.openExplorer(); a.renderPaneAnchor();
   }, withDebt);
   await hit(page, page.locator('[data-explore-stats] [data-b="new"]').first(), touch);
-  await expect(page.locator(form)).toBeVisible({ timeout: 30_000 });
+  // polled WITH the study state, so a plan that never mounts says why (FGGPLAN1: one CI red ended in
+  // the abandoned-load state, and its generic status text did not name the signal that caused it)
+  await expect.poll(async () => (await page.locator(form).count()) ? 'mounted' : page.evaluate(() => {
+    const s = (window as any).__neural?._gameStudyState;
+    return (s?.phase || 'none') + ' | ' + (s?.reason || '-');
+  }), { timeout: 30_000, message: 'the plan controls mount (else: study phase | reason)' }).toBe('mounted');
+  await expect(page.locator(form)).toBeVisible();
   await expect.poll(() => page.evaluate(() => {
     const a = (window as any).__neural; return !!a._gameStudyHost && !a._gameStudyLoading;
   })).toBe(true);
@@ -149,6 +155,67 @@ test('explicit plan loads controls without a study worker; paging, touch and sta
   expect(await page.evaluate(() => (window as any).__neural._gameplanStudyDeclaration || null)).toBeNull();
   expect(net.errors).toEqual([]);
   await info.attach('controls-and-queue', { body: JSON.stringify({ before, after, geometry, requested: net.requested }, null, 2), contentType: 'application/json' });
+});
+
+// A PLAN OPENED WHILE A DECK LANDS STILL MOUNTS (FGGPLAN1, 2026-10-01; `_gameStudyChanged`). The study
+// host loads lazily, and a context change during that load abandons it ("The study context changed.
+// Open the plan again"). A deck becoming resident, or the plan clock's quiet 30 s tick, is not a change
+// the player made. On CI (PR 252) the test above tapped the stat, the session opened, and the plan never
+// mounted, ending in exactly that state. Here the load is HELD (the study bundle's request waits), so
+// both signals land inside it on every run, not by timing; then the hold is released. The control
+// half proves the guard still abandons on a real change, so this cannot pass by never abandoning
+// anything. Mutants, recorded 2026-10-01 on the built bundle (served and dist), both killed with the
+// control still green: residency abandoning again -> "the load survived the deck landing"; the tick
+// abandoning again -> "the load survived the quiet clock tick".
+async function holdStudyLoad(page: Page) {
+  let release!: () => void;
+  const released = new Promise<void>(resolve => { release = resolve; });
+  let held = 0;
+  await page.route(url => studyImport(url.href), async route => { held++; await released; await route.fallback(); });
+  return { release: () => release(), held: () => held };
+}
+async function tapPlanWithHeldLoad(page: Page, touch: boolean) {
+  const hold = await holdStudyLoad(page);
+  await page.evaluate(() => { const a = (window as any).__neural; a.setPaused(true); a.setViewMode('explore'); a.openExplorer(); a.renderPaneAnchor(); });
+  await hit(page, page.locator('[data-explore-stats] [data-b="new"]').first(), touch);
+  await expect.poll(() => hold.held(), { message: 'the study bundle request is held' }).toBeGreaterThan(0);
+  expect(await page.evaluate(() => !!(window as any).__neural._gameStudyLoading), 'the plan load is in flight').toBe(true);
+  return hold;
+}
+
+test('a deck landing or a quiet clock tick while the plan loads does not cost the plan', async ({ page, isMobile }) => {
+  await boot(page);
+  const hold = await tapPlanWithHeldLoad(page, isMobile);
+  const landed = await page.evaluate(async () => {
+    const a = (window as any).__neural;
+    const before = a._residencyStats?.decks || 0;
+    const key = Object.keys(a.flashcards.decks).find((k: string) => !a._cardsOf(a.flashcards.decks[k]) && (a.flashcards.decks[k].n || 0) > 0);
+    await a.hydrateDecks([key]);
+    await new Promise(resolve => setTimeout(resolve, 600));   // the coalescer's trailing restart, too
+    const afterLanding = !!a._gameStudyLoading;
+    a._gameplanVisible();                                      // the clock's quiet tick (same day)
+    return { key, decks: (a._residencyStats?.decks || 0) - before, afterLanding, afterTick: !!a._gameStudyLoading, phase: a._gameStudyState?.phase };
+  });
+  expect(landed.decks, `a deck (${landed.key}) really landed during the load`).toBeGreaterThan(0);
+  expect(landed.afterLanding, 'the load survived the deck landing').toBe(true);
+  expect(landed.afterTick, 'the load survived the quiet clock tick').toBe(true);
+  expect(landed.phase).not.toBe('unavailable');
+  hold.release();
+  await expect(page.locator(form)).toBeVisible({ timeout: 30_000 });
+});
+
+test('control: a real change while the plan loads still abandons it', async ({ page, isMobile }) => {
+  await boot(page);
+  const hold = await tapPlanWithHeldLoad(page, isMobile);
+  const state = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    a._gameValueChanged('fggplan-control-roll', 'roll');
+    return { loading: !!a._gameStudyLoading, phase: a._gameStudyState?.phase, reason: a._gameStudyState?.reason };
+  });
+  expect(state).toEqual({ loading: false, phase: 'unavailable', reason: 'fggplan-control-roll' });
+  hold.release();
+  await page.waitForTimeout(1500);
+  await expect(page.locator(form)).toHaveCount(0);
 });
 
 test('actual worker certifies one controlled GI Triangle cap9 count8 comparison for Mount Top sharpness', async ({ page, isMobile }, info) => {
