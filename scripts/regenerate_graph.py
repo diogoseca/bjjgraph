@@ -22,6 +22,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (node keys + alias map)
+# THE PAGE PATH IS QUARTZ'S RULE, kept in ONE place (v1.216.1). This module had its own copy, and so
+# did regenerate_explorer_tree.py and regenerate_md_from_json.py; all three now use _slug's. The name
+# `quartz_slug` stays because four modules import it from here (check_systems_payload,
+# regenerate_neural_data, tests/learning_content, tests/system_guides).
+from _slug import quartz_page_path as quartz_slug
 from _atomic_io import atomic_write_json
 from _ruleset import reduce_to_scalar, as_map, cell, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2); positions load raw since Q3
 import _votes  # forked {community, prior} votes schema — prior-blended per-ruleset rates (Phase 2.3b)
@@ -67,17 +72,6 @@ _COVERAGE_FAILURES: list[tuple[str, str]] = []
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def quartz_slug(name: str) -> str:
-    """Convert name to URL path matching Quartz's sluggify (case-preserving)."""
-    slug = name.strip()
-    slug = slug.replace('&', '-and-')
-    slug = slug.replace('%', '-percent')
-    slug = slug.replace('?', '')
-    slug = slug.replace('#', '')
-    slug = re.sub(r'\s+', '-', slug)
-    return slug
-
 
 # ---------------------------------------------------------------------------
 # Alias resolution — old references to merged/renamed techniques still resolve
