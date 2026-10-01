@@ -53,6 +53,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
 - **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
 - **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
+- **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9508,6 +9509,62 @@ B1 builds the mechanism and applies **no** table; B2 applies them.
 - 10 tables are gi-only and refused (item 6).
 - Two semantics diagnostics still report a canonical rate (`scalars` A/B info,
   `verify_all frame_forked_dealt_techniques`). They are re-measured in B2.
+
+## v1.215.0 — A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE
+
+**Origin coherence (OCPRB7), 2026-10-01.** The gap from the full-game seat's B1 review (OCPRB1-FG item
+6), shipped ahead of B2's data.
+
+**The gap.**
+- `cal.avail` masks a move out of a ruleset altogether. It cannot say "dealt at this listing in gi but
+  not in no-gi".
+- `optionsFor` and `_mdp_mechanics.options` never read a listing's attempt share.
+- So a listing whose attempt is null in a frame would be dealt there, while `build_hand` drops it.
+
+**The mechanism.**
+- **The wire.** `regenerate_neural_data.listing_absences` names those listings on the technique as
+  `absentAt: {frame: [posIds]}` (node level, keyed like `alsoFrom`).
+- **The rule.** The origin rule or `deal_here` deals the move there, its attempt is null in that frame,
+  and the frame's mask still admits the move. A move absent from the frame altogether is already
+  masked, so it is not repeated.
+- **The dealers.** `optionsFor`, `_mdp_mechanics.options` and `app_game` skip such a card in their main
+  pass; relaxed passes are untouched on both sides.
+- **Listing tables.** `regenerate_graph._listing_table` accepts a null frame exactly where the
+  listing's attempt is null there (B2's 10 gi-only tables); elsewhere it is still refused.
+
+**The full-game seat's review (OCABS1): no objection, and two asks, both done.**
+- **(1) Positive coverage**, printed every run, with a hard floor of examined > 0. On today's corpus:
+  - 1,319 dealt listings examined;
+  - 58 no-gi null cells at dealt listings, all on masked moves;
+  - 12 on away listings no rule deals;
+  - 0 gi nulls;
+  - 0 absences (the seat's own count).
+- **(2) `check_absence_hands`**: an absence may not empty its listing's main pass. If it did, the
+  state would fall to the origin-relaxed fallback, which deals cards with no `ord` and ignores
+  `absentAt`. It is a hard error, and today it checks 0 hands.
+
+**Byte-identity against a pristine dev emit at 104538687.**
+- 5,096 emitted files are identical, including `graph-data.json` and every MDP metadata part.
+- What moved: the app bundles, plus the manifest's emitter, gameplay, producer and source hashes and
+  each variant descriptor.
+- The law hashes did not move, so the exposure pins and the worker core are untouched.
+
+**Gates.**
+- `tests/listing_tables_test.py` (13 cases): the null-frame rule both ways; `listing_absences` today,
+  named, the dealing rule, the frame mask; and `check_absence_hands` negative and positive.
+- `tests/listing_absence.test.mjs` (3 cases):
+  - none today;
+  - an injected absence at a `deal_here` and at an origin listing: not dealt in no-gi, dealt in gi,
+    and no other hand moves;
+  - the app-vs-mechanics differential passes on that wire.
+
+**Mutants.** All 6 are red:
+- `optionsFor` ignoring the absence;
+- the mechanics ignoring it;
+- the member copy dropping it;
+- `listing_absences` ignoring the frame mask;
+- `listing_absences` ignoring the dealing rule;
+- `check_absence_hands` accepting a relaxed hand.
 
 ## v1.214.1 — A SUBMISSION'S HAND STOPS GLOWING; THE ESCAPES' "ODDS 40%" IS DATA, NOT A CONSTANT (2026-10-01)
 

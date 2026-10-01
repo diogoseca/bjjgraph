@@ -242,8 +242,9 @@ listing, `deal_here` alone is not the fix: give the listing its **own outcome ta
 used only when the move is played from that listing. Rules:
 - It needs `deal_here: true`, and a table and a rate come together. The schema enforces both.
 - It is for transitions only.
-- Cells must be equal across frames. A `null` frame, in a cell or in the rate, is refused for now:
-  nothing yet says "not dealt at this listing in no-gi". The 10 gi-only panel tables wait for PR B2.
+- Cells must be equal across frames. A `null` frame, in a cell or in the rate, is allowed only where
+  the listing's `attempt_probability` is null in that same frame. The listing does not exist there,
+  and the game does not deal it there (`absentAt` below). A null where the listing exists is refused.
 - The rate is the listing's own. It has no community-vote stream, because votes are keyed by
   technique name. regenerate_graph rescales the table to it.
 - `validate:graph` checks every one on the built graph (`check_listing_tables`).

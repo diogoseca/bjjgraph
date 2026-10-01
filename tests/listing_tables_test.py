@@ -19,7 +19,10 @@ MUTANTS (each turns this file red; measured at v1.214.0):
   - `priced_tech` falling back to the canonical table: test_a_card_reads_its_priced_technique;
   - the canonical re-read restored in _kernel.py: test_no_reader_re_reads_the_canonical_table;
   - _listing_table without the rescale: test_the_emitter_folds_and_rescales;
-  - _listing_table accepting a table without deal_here: test_the_emitter_refuses_a_malformed_table.
+  - _listing_table accepting a table without deal_here: test_the_emitter_refuses_a_malformed_table;
+  - listing_absences ignoring the frame mask: test_a_move_the_frame_masks_is_not_repeated (v1.215.0);
+  - listing_absences ignoring the dealing rule: test_a_listing_that_does_not_deal_is_not_named;
+  - check_absence_hands accepting a relaxed hand: test_an_absence_may_not_empty_its_main_pass.
 Run by tests/listing_tables_py.test.mjs, which `test:units` collects.
 """
 
@@ -87,15 +90,34 @@ class Emitter(unittest.TestCase):
         self.assertEqual(succ, int(round(e["successRate"])), "the table is rescaled to the listing's rate")
         self.assertEqual([o["to"] for o in e["outcomes"]], [o["to"] for o in RESCALE["result"]["outcomes"]])
 
-    def test_a_null_frame_table_is_refused(self):
-        """OCPRB1-FG item 6: a gi-only table would be dealt in no-gi at its scalar rate, so the emitter
-        refuses it until B2 decides the representation. The panel holds 10 such tables."""
+    def test_a_gi_only_table_is_accepted_where_the_listing_is_absent(self):
+        """v1.215.0: a null frame is accepted exactly where the listing does not exist (its attempt is
+        null there too), and the wire then names it in `absentAt`. The panel holds 10 such tables."""
         gi_only = [t for t in TABLES if t["result"]["success_rate"].get("nogi") is None]
         self.assertEqual(len(gi_only), 10, "the held gi-only tables (recount if the panel changes)")
         for t in gi_only:
+            d = authored_listing(t)
+            d["attempt_probability"] = {"gi": t["share_here"]["gi"], "nogi": None}
             rg._reset_edge_stats()
-            self.assertEqual(rg._listing_table(authored_listing(t), "fixture"), {}, t["key"])
-            self.assertIn("null frame", rg._EDGE_STATS["own_table_errors"][0])
+            e = rg._listing_table(d, "fixture")
+            self.assertTrue(e, (t["key"], rg._EDGE_STATS["own_table_errors"]))
+            self.assertIsNone(e["successRate"], "the no-gi headline stays null, never a fabricated rate")
+            succ = sum(o["probability"] for o in e["outcomes"] if o["result"] == "success")
+            self.assertEqual(succ, int(round(e["successRateByRuleset"]["gi"])), "rescaled to the frame it exists in")
+
+    def test_a_null_where_the_listing_exists_is_refused(self):
+        gi_only = next(t for t in TABLES if t["result"]["success_rate"].get("nogi") is None)
+        for label, attempt in (("attempt present in no-gi", {"gi": 5, "nogi": 5}), ("attempt scalar", 5)):
+            d = authored_listing(gi_only)
+            d["attempt_probability"] = attempt
+            rg._reset_edge_stats()
+            self.assertEqual(rg._listing_table(d, "fixture"), {}, label)
+            self.assertIn("listing exists", rg._EDGE_STATS["own_table_errors"][0], label)
+        d = authored_listing(PICK)                        # both frames present, rate nulled in one
+        d["success_rate"] = {"gi": PICK["result"]["success_rate"]["gi"], "nogi": None}
+        rg._reset_edge_stats()
+        self.assertEqual(rg._listing_table(d, "fixture"), {})
+        self.assertIn("exactly in the frames", rg._EDGE_STATS["own_table_errors"][0])
 
     def test_the_emitter_refuses_a_malformed_table(self):
         for label, mutate in (
@@ -153,6 +175,76 @@ class Seam(unittest.TestCase):
                     same += a.tech is GRAPH[a.cat][a.target + "/attacker"]
         self.assertGreater(cards, 2000, "the walk dealt the corpus")
         self.assertEqual(same, cards)
+
+
+
+class Absence(unittest.TestCase):
+    """regenerate_neural_data.listing_absences (v1.215.0): the listings a dealer would deal although
+    their attempt is null in the frame, for a move the frame's mask still admits."""
+
+    @classmethod
+    def setUpClass(cls):
+        import regenerate_neural_data as rnd
+        cls.rnd = rnd
+        walk = {fr: rnd.frame_reachable(GRAPH, fr) for fr in ("gi", "nogi")}
+        cls.reach = {fr: (walk[fr] if fr in rnd.EXCLUDING_FRAMES else
+                          {"positions": set(GRAPH["positions"]),
+                           "techniques": {v["hub"] for sec in ("transitions", "submissions")
+                                          for v in GRAPH[sec].values() if v.get("hub")}}) for fr in ("gi", "nogi")}
+
+    def test_today_there_is_none(self):
+        self.assertEqual(self.rnd.listing_absences(GRAPH, self.reach), {}, "B1.5 ships byte-identical")
+
+    def test_a_dealt_listing_nulled_in_a_frame_is_named(self):
+        g = copy.deepcopy(GRAPH)
+        pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or [] if t.get("dealHere"))
+        t["attemptProbabilityByRuleset"]["nogi"] = None
+        self.assertEqual(self.rnd.listing_absences(g, self.reach), {t["target"]: {"nogi": [g["positions"][pk]["hub"]]}})
+
+    def test_a_listing_that_does_not_deal_is_not_named(self):
+        g = copy.deepcopy(GRAPH)
+        tech = {k[:-9]: v for sec in ("transitions", "submissions") for k, v in g[sec].items() if k.endswith("/attacker")}
+        pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or []
+                     if not t.get("dealHere") and tech.get(t["target"], {}).get("fromPositionId") not in (None, p.get("hub")))
+        t["attemptProbabilityByRuleset"]["nogi"] = None
+        self.assertEqual(self.rnd.listing_absences(g, self.reach), {}, f"{pk} -> {t['technique']} is dealt nowhere here")
+
+    def test_a_move_the_frame_masks_is_not_repeated(self):
+        g = copy.deepcopy(GRAPH)
+        pk, t = next((pk, t) for pk, p in g["positions"].items() for t in p.get("transitions") or [] if t.get("dealHere"))
+        t["attemptProbabilityByRuleset"]["nogi"] = None
+        reach = {fr: {"positions": r["positions"], "techniques": set(r["techniques"]) - {t["target"]}} for fr, r in self.reach.items()}
+        self.assertEqual(self.rnd.listing_absences(g, reach), {}, "cal.avail already masks a move absent from the frame")
+
+
+    def test_an_absence_may_not_empty_its_main_pass(self):
+        """check_absence_hands (OCABS1 item 2): an absence that leaves its listing no main-pass card
+        would hand the state to the origin-relaxed fallback, which ignores absentAt."""
+        def one_and_many():
+            single = many = None
+            for key, p in GRAPH["positions"].items():
+                if p.get("role") not in ("top", "bottom"):
+                    continue
+                hand, relaxed = sev.build_hand(GRAPH, key, sev.Opts(frame="nogi"))[:2]
+                if relaxed:
+                    continue
+                if len(hand) == 1 and single is None:
+                    single = (key, hand[0])
+                if len(hand) >= 3 and many is None:
+                    many = (key, hand[0])
+                if single and many:
+                    return single, many
+            return single, many
+        single, many = one_and_many()
+        self.assertTrue(single and many, "the corpus has a one-card and a many-card main pass")
+        for (key, card), want in ((single, 1), (many, 0)):
+            g = copy.deepcopy(GRAPH)
+            edge = next(t for t in g["positions"][key]["transitions"] if t["target"] == card.target)
+            edge["attemptProbabilityByRuleset"]["nogi"] = None
+            ab = self.rnd.listing_absences(g, self.reach)
+            checked, bad = self.rnd.check_absence_hands(g, ab)
+            self.assertGreaterEqual(checked, 1, key)
+            self.assertEqual(len(bad), want, f"{key}: {bad}")
 
 
 if __name__ == "__main__":

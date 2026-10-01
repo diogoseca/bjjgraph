@@ -166,6 +166,13 @@ position -> technique -> original position is not a technique self-loop.
     adapter's `actAt`; the Python twin is `_mdp_mechanics.cal_at`.
 
   Without a listing table, every seam returns the technique itself.
+- **A listing absent in one ruleset** is named on the technique as `absentAt: {frame: [posIds]}`
+  (`regenerate_neural_data.listing_absences`). These are listings the origin rule or `deal_here`
+  would deal, whose attempt is null in that frame, for a move the frame's node mask still admits.
+  `optionsFor`, `_mdp_mechanics.options` and `app_game` skip them, just as `build_hand` drops a null
+  attempt.
+  - The emitter prints its classification every run and refuses an examination of zero.
+  - It also refuses an absence that would empty its listing's main pass.
 - Submission family hubs are reference aggregators, not playable technique occurrences.
 
 The intended topology is:
