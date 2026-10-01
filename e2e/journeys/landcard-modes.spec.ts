@@ -498,10 +498,11 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   expect(white.recall).toBe(false)
 
   // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
-  // ("for blue belts at least … flashcard Q/A, not MC" — owner). gameScore is the rank seam.
+  // ("for blue belts at least … flashcard Q/A, not MC" — owner). The rank is the WORN belt since
+  // v1.211.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
   await page.evaluate(() => {
     const a = (window as W).__neural
-    a.gameScore = () => ({ score: 0.45, belt: "blue", next: null, stripes: 0 })
+    a.belts.held = { id: "blue", t: Date.now() }
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })

@@ -52,7 +52,9 @@ mathematics:
 Along the way the cell measured four things the owner should know:
 - **The app's game is much harder than the corpus's.** From standing, no-gi, under the app's own
   initiative rule, P(I finish) is 0.35 against 0.72.
-- **The belt weights a different chain** from the one EDGE and FLOW price.
+- **The belt weights a different chain** from the one EDGE and FLOW price. (Since v1.211.0 the
+  score decides no belt — the belt is earned in the Challenges — so this is now about Game
+  Knowledge %; see §10.5.)
 - **gi players are shown no-gi EDGE and FLOW.** The EDGE line is the no-gi one re-evaluated at gi
   rates, and 70 gi cards get none.
 - **98.9% of the origin filter's dropped listings would teleport if restored as they stand.**
@@ -869,7 +871,7 @@ answered in two places, one of them is already wrong. Recompute with
 | chain | where | what it is |
 |---|---|---|
 | **the game** | `solve_edge_values.Model` → EDGE, FLOW, this kernel | two seats; the opponent samples the paired role-node's hand; role and origin filters; chained cells |
-| **the score walk** | `regenerate_neural_data.build_technique_weights` → `gameScore` (the belt) and curriculum weights | ONE actor who keeps acting wherever they land; no opponent seat; no origin filter; PageRank damping 0.85 toward uniform; finishes and chained cells restart uniformly |
+| **the score walk** | `regenerate_neural_data.build_technique_weights` → `gameScore` (Game Knowledge %; the belt until v1.211.0) and curriculum weights | ONE actor who keeps acting wherever they land; no opponent seat; no origin filter; PageRank damping 0.85 toward uniform; finishes and chained cells restart uniformly |
 | **the reachability walk** | `regenerate_neural_data.frame_reachable` → which states the app hides per ruleset | not a chain but a support: a role- and origin-blind search from the two standing seats |
 
 **The belt weights a different game from the one EDGE and FLOW price.** Weights compared against
@@ -895,7 +897,7 @@ walk reaches 248. The four extra are Spider Guard and Double Sleeve Guard, both 
   a guard no no-gi edge reaches.
 - `optionsFor`'s origin filter never deals it there.
 
-Whether the belt should weight by the game, and whether the walk should respect origin, are owner
+Whether the score should weight by the game (it decides no belt since v1.211.0), and whether the walk should respect origin, are owner
 decisions (§10).
 
 ## 8. gi and no-gi as two chains
@@ -1053,6 +1055,11 @@ prices.
 5. **The belt's weights** (§7). `gameScore` weights a one-player damped walk that ranks techniques
    at Spearman 0.53–0.58 against the game EDGE and FLOW price. Re-weighting by the game's occupancy
    would change every player's belt, by an amount not measured here.
+   **Ruled 2026-09-30 (v1.211.0): the belt follows the Challenges** — you wear the belt after the
+   last belt whose units are all proven, as a high-water mark (`neural/src/belt.src.js`,
+   `docs/Neural.md` §8). Measured first: the curriculum carries 31.8% of the score's weight and
+   every card in it recalled earned only the white band. Re-weighting the score therefore moves
+   a percentage, no longer anyone's belt; that question stays open on its own merits.
 6. **The reachability walk** (§7). Respecting origin would hide Spider Guard and Double Sleeve Guard
    in no-gi, matching what the game can reach. Today the walk admits them through a teleporting
    Tripod Sweep listing.

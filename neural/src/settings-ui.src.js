@@ -88,11 +88,12 @@ renderSettings() {
       body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
         [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
       // (the training-day email row moved to the Notifications tab in v1.150.0)
-      // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the knowledge band
-      // reaches black; auto-flipped ON when the badge mints; freely flippable back. When on, a
-      // stage-2+ card in PLAY renders as reveal/self-grade instead of multiple choice.
+      // RECALL MODE — the black-belt badge's toggle (v1.105.1). LOCKED until the WORN belt is
+      // black (v1.211.0 — proven units, never a Game Knowledge band); auto-flipped ON when the
+      // badge mints; freely flippable back. When on, a stage-2+ card in PLAY renders as
+      // reveal/self-grade instead of multiple choice.
       {
-        const isBlack = (() => { try { return this.gameScore().belt === "black"; } catch (e) { return false; } })();
+        const isBlack = (() => { try { return this.wornBelt().id === "black"; } catch (e) { return false; } })();
         const hasBadge = !!(this.badges && this.badges["recall-in-play"]);
         if (isBlack || hasBadge) {
           body.appendChild(this.settingRow("Recall mode (in play)", "The black-belt reward: proven cards stop being multiple choice mid-roll \u2014 question, reveal, self-grade.",
