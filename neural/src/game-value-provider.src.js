@@ -289,6 +289,13 @@ function ngGameValueCreateProvider(deps) {
         const value = deps.prepareRootMetadata
           ? await deps.prepareRootMetadata({ client, registration: reg, registrationKey: key, root })
           : await client.describeRoot(root);
+        // A worker that could not describe the root ANSWERS with its own reason: a fetch class, an
+        // integrity check, an unknown state. Keep that reason. Masking it as unverified-root-description
+        // hid a dropped request behind what reads as a contract violation (FGRETRY1). Only a reply that
+        // claims to be a description and fails the contract is unverified. A reason that is not a code
+        // (a raw error message) is named only by its class.
+        if (value?.status === 'unavailable')
+          ngGameValueFail(typeof value.reason === 'string' && /^[A-Za-z0-9:._-]{1,96}$/.test(value.reason) ? value.reason : 'root-description-unavailable');
         if (!value || value.registrationKey !== key || value.coverage?.status !== 'COMPLETE') ngGameValueFail('unverified-root-description');
         for (const name of ['modelHash', 'mechanicsHash', 'graphHash', 'opponentPolicyHash', 'ruleset', 'evFrame'])
           if (value[name] !== reg[name]) ngGameValueFail('stale-root-' + name);

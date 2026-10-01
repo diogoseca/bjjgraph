@@ -125,3 +125,50 @@ test('certified law is mandatory and the complete dynamic law key set must match
   const h = wireFixture(); h.expected.lawHashes.futureLaw = H('future law');
   await assert.rejects(ngGameValueCreateWorkerHost(h.deps).load(h.reg), /metadata-law-key-mismatch/);
 });
+// FGRETRY1: a transient failure is retried with bounded backoff; an answer (404, integrity) never is
+function flaky(f, rules) {
+  const real = f.deps.fetch, attempts = new Map(), slept = [];
+  f.deps.sleep = async ms => { slept.push(ms); };
+  f.deps.fetch = async u => {
+    const n = (attempts.get(u) || 0) + 1; attempts.set(u, n);
+    const rule = rules(u, n);
+    if (rule === 'network') throw new TypeError('Failed to fetch');
+    if (typeof rule === 'number') return { ok: false, status: rule, async arrayBuffer() { return new ArrayBuffer(0); } };
+    if (rule === 'drop-body') { const r = await real(u); return { ...r, body: { getReader() { return { async read() { throw new TypeError('network error'); }, releaseLock() {}, async cancel() {} }; } } }; }
+    return real(u);
+  };
+  return { attempts, slept, partUrl: 'https://test/mdp/' + f.descriptor.parts[0].file };
+}
+test('a transient failure (network error, dropped body, 503) is retried and the metadata still loads', async () => {
+  for (const kind of ['network', 'drop-body', 503, 429, 408]) {
+    const f = wireFixture(), x = flaky(f, (u, n) => (u === 'https://test/mdp/' + f.descriptor.parts[0].file && n === 1 ? kind : null));
+    const host = ngGameValueCreateWorkerHost(f.deps);
+    const root = await host.describeRoot(f.reg, { nodeId: 'position', role: 'top' });
+    assert.equal(root.canonicalNodeId, 'position', String(kind));
+    assert.equal(x.attempts.get(x.partUrl), 2, `${kind}: the failed part was fetched exactly twice`);
+    assert.deepEqual(x.slept, [300], `${kind}: one backoff`);
+  }
+});
+test('a failure that never clears is bounded (4 attempts, 300/1000/3000 ms) and keeps its own class', async () => {
+  const f = wireFixture(), x = flaky(f, u => (u === 'https://test/mdp/' + f.descriptor.parts[0].file ? 'network' : null));
+  await assert.rejects(ngGameValueCreateWorkerHost(f.deps).load(f.reg), /^Error: metadata-network-failed$/);
+  assert.equal(x.attempts.get(x.partUrl), 4); assert.deepEqual(x.slept, [300, 1000, 3000]);
+  const g = wireFixture(), y = flaky(g, u => (u === 'https://test/mdp/' + g.descriptor.parts[0].file ? 503 : null));
+  await assert.rejects(ngGameValueCreateWorkerHost(g.deps).load(g.reg), /^Error: metadata-fetch-failed$/);
+  assert.equal(y.attempts.get(y.partUrl), 4);
+});
+test('an answer is never retried: a 404 or an integrity mismatch fails on the first attempt', async () => {
+  const f = wireFixture(), x = flaky(f, u => (u === 'https://test/mdp/' + f.descriptor.parts[0].file ? 404 : null));
+  await assert.rejects(ngGameValueCreateWorkerHost(f.deps).load(f.reg), /^Error: metadata-fetch-failed$/);
+  assert.equal(x.attempts.get(x.partUrl), 1); assert.deepEqual(x.slept, []);
+  const g = wireFixture(), raw = Buffer.from(g.files.get(g.reg.metadataUrl)); raw[0] ^= 1; g.files.set(g.reg.metadataUrl, raw);
+  const y = flaky(g, () => null);
+  await assert.rejects(ngGameValueCreateWorkerHost(g.deps).load(g.reg), /metadata-digest-mismatch/);
+  assert.equal(y.attempts.get(g.reg.metadataUrl), 1); assert.deepEqual(y.slept, []);
+});
+test('a bug inside the loader is never mistaken for a network error', async () => {
+  const f = wireFixture(), x = flaky(f, () => null);
+  f.deps.sha256 = async () => { throw new TypeError('digest is not a function'); };
+  await assert.rejects(ngGameValueCreateWorkerHost(f.deps).load(f.reg), /digest is not a function/);
+  assert.deepEqual(x.slept, []);
+});
