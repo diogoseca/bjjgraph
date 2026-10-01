@@ -311,7 +311,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   // lives: under the fallback, those finish cards would all sit inside a 2-point band.
   // Mutants, recorded 2026-09-29: a constant finish chance (choiceChance -> .5 on a finish) turns
   // the finish half red (six 50%s); calSuccess -> null turns the wire half red (uncalibrated).
-  // Re-run on the built bundle at v1.212.3 (OCDEP1), each red at its own assertion:
+  // Re-run on the built bundle at v1.212.5 (OCDEP1), each red at its own assertion:
   //   - choiceChance -> .5 on a finish: "do not all print one number" (six 50s);
   //   - moveChance priced through the dominance fallback for submissions: the same (six 33s);
   //   - moveChance + (idx % 4)·.03, a per-state term: distinct and span both PASS; only the
@@ -329,7 +329,7 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   )
   expect(hand.length, "mount top deals submissions").toBeGreaterThan(3)
   expect([...new Set(hand.map((c: any) => c.label + " " + c.odds))], "a submission dealt on a position is an Entry, certain").toEqual(["Entry 100"])
-  // THE OPPONENT IS PINNED (v1.212.3, OCDEP1). A finish prints `moveChance` = authored rate − aiSkill
+  // THE OPPONENT IS PINNED (v1.212.5, OCDEP1). A finish prints `moveChance` = authored rate − aiSkill
   // (the opponent-value term is 0 here: a submission defender's value is negative), and aiSkill =
   // 0.06 + rng("ai-skill")·0.14 is drawn ONCE PER BOOT, by the URL arrival's staged roll. Unpinned,
   // each of the six boots below subtracted its own random 6-20 points from a 16-point authored

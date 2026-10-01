@@ -48,7 +48,8 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
 - **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
 - **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
-- **v1.212.3** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12123--the-finish-odds-journey-stops-buying-a-lottery-ticket)
+- **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
+- **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -8963,7 +8964,114 @@ so the whole wire was renumbered.
   change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
   `handsOverPrefetchCap` and `handsOverWarmCap`.
 
-## v1.212.3 — THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET
+## v1.212.3 — THE HYDRATION GATE COUNTS BURSTS, NOT SECONDS, AND NAMES WHY VALUES DID NOT SETTLE (FGHYD2, 2026-10-01)
+
+**The red.** `hydration-restarts.spec.ts` (FGHYD1, v1.211.1) went red on PR 242's e2e-full shard 2:
+"10 solve restarts (snapshots) for 2885 decks over 9969 ms (ceiling 9)". It had been green on PRs 240
+and 241.
+
+**Verdict: a flaky gate, not a regression of the coalescer.**
+- On dev and on PR 242's head (10 runs each, a probe tallying every value-change call by caller),
+  every snapshot came from the coalescer's own `_gameValueChanged("deck-hydrated")`, 20 of 20 runs:
+  4–6 per hydration of 6.0–7.4 s on both builds. PR 242's re-homed moves added no restart path.
+- The first ceiling, `4 + ceil(ms / 2000)`, assumed the decks arrive as ONE stream. They often do
+  not, even locally: 19 of 40 runs of the gate's own sequence had a gap of more than 250 ms between
+  two deck arrivals (largest 3,349 ms). Each such stall closes a burst, and the next deck opens
+  another, with one more leading restart and one more trailing one. Both are correct.
+- 10 against 9 is two stalls' worth.
+
+**The new ceiling is the coalescer's contract, read off the arrivals this run had:**
+2 per burst + 1 per `NG_RESIDENCY_MAX_HOLD_MS` of streaming + 2 slack. A burst ends at a gap over
+200 ms (below the 250 ms settle delay, so jitter can only loosen the bound). Arrival times come from
+`_onDeckHydrated`, which feeds the coalescer, never from the coalescer, so a mutant cannot move its
+own bound.
+
+**A second count names the path.** Snapshots minus the coalescer's own restarts
+(`_residencyStats`) is what came from anywhere else. It was 0 in every measured run.
+
+**Mutants on the built bundle, all killed, each naming its class:**
+- a per-deck restart: "2,852 solve restarts came from OUTSIDE the burst coalescer";
+- the knowledge notice not routed: 2,896 OUTSIDE, 0 coalesced;
+- the odds refresh not held: 27 OUTSIDE;
+- the same-key drill panel not held: 25 OUTSIDE;
+- the coalescer itself restarting on every arrival (max hold 0): "2,886 … (ceiling 32)".
+
+**Controls.** Injected stalls, busy-wait (12 runs) and route-held chunk responses (8 runs), never
+turned the new ceiling red, and "outside" stayed 0. Neither turned the OLD ceiling red either: a
+busy-wait freezes the settle timer with the arrivals, and a held response lengthens the wall clock
+that the old formula scaled with. The CI shape (a stall that splits bursts without stretching the
+wall clock enough) was not reproduced on demand. The fix rests on the tally and the gap census, not
+on a reproduced false red.
+
+**The gate now says why values did not settle.** It polls
+`status | reason | game-value state | its reason`, not the status alone. One local red on dev before
+this change had ended "unavailable" and said nothing more. After it, the gate's own sequence named
+the cause twice in 48 local runs (1 of 40 probe runs, 1 of 8 stall controls):
+`unavailable | evaluation-failed | unavailable | worker-cancellation-deadline`.
+- What happens: a restart cancels the solve in flight, the busy worker does not acknowledge within
+  the client's 1 s grace, and the client terminates it. The runtime then holds that failure for the
+  session, until Retry.
+- That is app-side and is reported separately, not fixed here.
+- A second app-side class was found on the way: a corpus hydration that overlaps the worker's metadata
+  load makes Chromium refuse part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. That is FGRETRY1's
+  fix, its own PR.
+
+**Gates.** The hardened gate, 10/10 on dev a7bc58ce4 + this; units 1,163/1,163.
+## v1.212.3 — A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY
+
+**Found by PR 242's seat-star red (OCSTAR1).** Head Extraction to Posture's attacker seat showed
+no seat star on dev. The cause was not the star.
+- Twelve control-alias positions (Gogoplata Control, Darce Control, Straight Ankle Lock Control, …)
+  canonicalise to their submission state. Opening a transition authored from one seats you inside
+  that submission.
+- On the seat that DEFENDS the submission, `enterLand` called `enterDefense` while the roll was
+  still staged. That cleared `_stagedTech`, unpaused (the Caught rush started with nothing
+  pressed), moved the focus to the submission's Defender member and rewrote the URL to it.
+- So the chosen transition lost its card, its URL, its focus and, since the star is drawn beside
+  the focused label, its seat star.
+- That broke the owner's v1.132.0 rule ("you navigate to it … the landcard is standard") and their
+  transition rule ("a transition's defending seat is an ordinary staged landing … play waits for
+  the button").
+
+**Count.** A predicate from the code, checked against a browser sweep of 284 seats per run
+(283/284 agree): 147 transition seats, gi 74 and no-gi 73 (78 attacker, 69 defender). 19 of those
+techniques are dealt somewhere (submission continuations such as Triangle to Armbar); 55 never are.
+In the browser, 73 of the 74 gi seats lost the star. The 74th kept it only because the defense frame
+happened to draw its label. A non-alias control sample: 0 of 80.
+
+**Fix** (owner-approved, OCSTAR2): a STAGED transition seated as a submission's defender gets the
+ordinary staged landing — its card, URL, focus and star, the clock held, no hand.
+`_stagedDefense` holds the catch. `_runDeferredCatch` runs the rush on the first unpaused frame.
+Lifters: that frame, `enterDefense` and `clearEngagement`. A submission's own escaping seat keeps
+its immediate rush (v1.134.0), and an unstaged roll still enters the defense at once.
+
+**Gates.**
+- `tests/seat_staging.test.mjs` stages every seat of every technique in both rulesets (2,630 gi,
+  2,382 no-gi). Focus and URL stay on the chosen node; the clock is held except on a submission's
+  escaping seat (290 / 255). The deferred seats equal the data-derived set exactly (74 / 73).
+- Mutants: no guard (all 3 tests red), a no-op `_runDeferredCatch` (test 2) and no
+  `clearEngagement` lifter (tests 1 and 3).
+- `e2e/journeys/seat-star-coverage.spec.ts` opens every catch seat in gi plus a 40-seat control
+  sample, and asserts focus, URL, clock and a visible star.
+
+**A second cause, the same symptom: a COLD submission.** The browser half of the gate still failed
+12 seats after the first fix, one per alias submission.
+- The first technique opened from an alias submission waits for its choices
+  (`waitForSubmissionChoices`). That wait called `clearOptions()`, which consumes the staged
+  exchange.
+- The deferred landing then focused the submission, and rushed a defender seat.
+- It also explains the outlier, Counter Entry to Opponent's Leg. Its apostrophe is a red herring:
+  it was simply the first seat opened from Straight Ankle Lock Control in every sweep.
+- The wait now carries `_stagedTech` across. Test 4 opens every alias submission cold. Its mutant
+  survived until `clearOptions` stopped being stubbed in the harness; stubbing it had hidden the
+  race completely.
+
+**Separate finding, not fixed here: the URL freezes after a node whose id carries `%`** (100%
+Sweep). `_pushUrl` pushes the raw path, so `location.pathname` keeps an unescaped `%`.
+`decodeURI(location.pathname)` then throws on every later call, inside a silent `catch`. Every
+later navigation keeps the 100% Sweep URL until a reload.
+
+## v1.212.5 — THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET
 
 **OCDEP1, 2026-10-01.** Dev's first phase-2 deploy (run 36857244057, a7bc58ce4, keyed) failed its
 curated gate on ONE test of 428: `option-hand.spec.ts` "a submission's odds are its AUTHORED rate",
