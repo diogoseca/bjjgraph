@@ -279,11 +279,19 @@ jobs:
   # It reads only the built site (the artifact) and node_modules: no Quartz deps, no history.
   # .github/workflows/e2e-gen.yml still runs it weekly against dev, which a PR job cannot see
   # (direct pushes, merges of merges).
+  # TWO SHARDS, MEASURED (PR #254): one gen job took 12m38s against four core shards of 7m03s-17m55s
+  # (PR #235's: 7m17s-13m29s), i.e. within a minute of being the run's long pole, and the suite only
+  # grows. Halved, each shard sits below every core shard. The ledger reporter judges only the tests
+  # in ITS run, so each shard's verdict is exact for its half.
   gen:
-    name: Generated suite (e2e:gen vs its ledger)
+    name: Generated suite ${{ matrix.shard }}/2 (e2e:gen vs its ledger)
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
@@ -339,13 +347,13 @@ jobs:
       # The [gen-ledger] lines in this step's log name every red, whether the ledger tolerates
       # it, and who owns it.
       - name: Run the generated suite against the ledger
-        run: npm run e2e:gen
+        run: npm run e2e:gen -- --shard=${{ matrix.shard }}/2
 
       - name: Upload failure artifacts
         if: failure()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
-          name: e2e-gen-results
+          name: e2e-gen-results-${{ matrix.shard }}
           path: |
             e2e/test-results/
             e2e/report-gen/
