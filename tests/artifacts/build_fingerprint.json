@@ -1,9 +1,9 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-658e3b714/pr-origin-coherence-p2-658e3b714",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-80d42a0ec/pr-origin-coherence-p2-80d42a0ec",
   "content_provenance": {
-   "capture_git_head": "658e3b7142835be2bfb76e438b4db2f5e393544d",
-   "capture_id": "c517cd160eef4e6e87874b5b5c2a6a87",
+   "capture_git_head": "80d42a0ecda8d935e0ef1bed8417513dc85a9c9c",
+   "capture_id": "3ca2977eef974119add56aef83036b86",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -33,11 +33,11 @@
    },
    "output_identity": {
     "files": 15995,
-    "sha256": "d5aaa909a9e2f769a56ef35d681741fd9a42ea6ab916dbd096ddc2fdb4f0382c"
+    "sha256": "d731fd7f8ffc274db33bf9c69f1bbb11af3ddae5e960c4280c536bea54e8b3a3"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-658e3b714/pr-origin-coherence-p2-658e3b714"
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-80d42a0ec/pr-origin-coherence-p2-80d42a0ec"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -54,21 +54,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2657,
-    "sha256": "bebe87045b8c149a9bccf4955adef2b1fdb9eae9899f5aaccf8029fcc68503a5"
+    "sha256": "b1560a7724441263523e194fb2c5c4c2a487e6c4fb47b36fd88569116190165a"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
-    "sha256": "673f69a13cb5207414dffe7acbee5ff63b06a2de3e6b41196747da831604f94d",
+    "sha256": "31ab8e9e4446948be0788704e3e0e8fe474b5c492b6238f61183a7c027095621",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111556,
-    "sha256": "f0edbd296dbee3785b1e16170af57f98c62df25c39e9239c82cd8fcdcfa3bc81",
+    "sha256": "905bb09f7a18ac01c5f1b75716aabff8676d3b17987df59445be910539da021c",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 27465,
-    "sha256": "b0af63bcfab6e0a73daef91bb1bd3ce4e07b7e5cb1f3cd0395375e3b790178e8",
+    "sha256": "01e730543c0b28bd9dc110f43a6a428080af4f886350463b943823bc832fd796",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-6ba817dbec62aee26295f5ed5423ab1844461bb37755c25442eafb5cd3e9460b.js": {
