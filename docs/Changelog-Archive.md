@@ -8841,6 +8841,43 @@ the gate asserts that the settled values equal a fresh solve's.
     not held (32), and the same-key drill panel not held (31);
   - unit: the same four, plus a re-render refresh not held.
 - Units 1,149/1,149; 65 value journeys green.
+## v1.211.2 — THE HARNESS NAMES EVERY NAVIGATION THE PAGE STARTS (FGNAV1–3, 2026-10-01)
+
+**What happened.** A deploy-dev curated gate (run 36818746807, attempt 1, dev 4692aa62c, keyed) failed
+one test: game-knowledge.spec.ts "lesson crowns", at a `page.evaluate`, with "Execution context was
+destroyed, most likely because of a navigation". The same code had passed the deploy before. Its
+screenshot showed the page had re-booted after the test's grade: a gold crown (the grade persisted)
+and the persisted Challenges pane over a freshly starting roll.
+
+**Not reproduced.**
+- 56 runs on a keyed local build of dev were all green: the test 40×, plus the whole file 2×.
+- CDP forensics on every run found no page-initiated navigation and one document load per run (the
+  boot).
+- A static audit of the app and the built prescript, postscript and neural.js found one reachable
+  navigation: the Quartz SPA router's fallback (`location.assign` when a `spaNavigate` fetch fails or
+  returns non-HTML, `reload` when it throws). Its triggers are anchor clicks, `popstate` and
+  `spaNavigate`, and none is reachable from that test.
+
+**So the harness now names it** (`watchNavigations` in e2e/dsl.ts).
+- The Navigation API's `navigate` event fires synchronously inside the call that starts a
+  cross-document navigation, so its `new Error().stack` is the initiator's stack. An exposed
+  binding hands it to the test process at once.
+- An undeclared one is logged to CI output and fails the journey through a soft assertion, with
+  its URL, type and stack.
+- Journeys that navigate on purpose declare it: `j.allowNavigation(pattern, why)`.
+- The harness's own `goto`/`reload` are browser-initiated and never fire it; same-document
+  `pushState` is filtered out.
+
+**Gates.**
+- navigation-tripwire.spec.ts 3× green.
+- Mutants:
+  - no soft assertion: "expected to fail, but passed";
+  - no same-document filter: red (the app's own landing `pushState`);
+  - a `location.reload()` injected after a Challenges render: game-knowledge "lesson crowns" fails
+    with `[dsl] UNDECLARED page-initiated navigation (reload)` and a stack naming
+    `injectedReloadAfterGrade`.
+- The full core suite with the tripwire on: 757 passed, 5 skipped, 0 failed. No existing journey
+  starts a page-initiated navigation, so none needed declaring.
 
 ## v1.212.0 — ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME
 
