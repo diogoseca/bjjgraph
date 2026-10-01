@@ -186,6 +186,6 @@ test("ordinary position options use Attacker decks; submission defenses use thei
     }
   }
   assert.equal(states, 242, "distinct positions each deal both seats"); // census:positionChoiceSeats
-  assert.equal(options, 1221, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
+  assert.equal(options, 1316, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

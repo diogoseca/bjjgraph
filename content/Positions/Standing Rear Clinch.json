@@ -132,7 +132,54 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 68,
+          "nogi": 68
+        },
+        "outcomes": [
+          {
+            "to": "Turtle/Top",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "success"
+          },
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "success"
+          },
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Rear Clinch/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 7,
+              "nogi": 7
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Mat Return from Standing Rear Clinch",

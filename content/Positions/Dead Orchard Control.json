@@ -295,7 +295,38 @@
         "attempt_probability": {
           "gi": 19,
           "nogi": 16
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 55,
+          "nogi": 51
+        },
+        "outcomes": [
+          {
+            "to": "Anaconda Control/Top",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "success"
+          },
+          {
+            "to": "Dead Orchard Control/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Front Headlock to Back",
@@ -316,7 +347,38 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 43,
+          "nogi": 48
+        },
+        "outcomes": [
+          {
+            "to": "Darce Control/Top",
+            "probability": {
+              "gi": 48,
+              "nogi": 48
+            },
+            "result": "success"
+          },
+          {
+            "to": "Dead Orchard Control/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Side Control to North-South",
@@ -740,7 +802,46 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 15
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 24,
+          "nogi": 26
+        },
+        "outcomes": [
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "success"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "success"
+          },
+          {
+            "to": "Dead Orchard Control/Bottom",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Rolling to Guard",

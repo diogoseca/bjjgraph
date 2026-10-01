@@ -756,7 +756,46 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 38,
+          "nogi": 41
+        },
+        "outcomes": [
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Chill Dog/Bottom",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Technical Stand-up",
@@ -777,7 +816,54 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 42,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Chill Dog/Bottom",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Hip Escape to Guard",

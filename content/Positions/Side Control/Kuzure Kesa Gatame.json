@@ -783,7 +783,46 @@
         "attempt_probability": {
           "gi": 17,
           "nogi": 17
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 30,
+          "nogi": 33
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Kuzure Kesa Gatame/Bottom",
+            "probability": {
+              "gi": 50,
+              "nogi": 50
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Arm Recovery to Guard",

@@ -792,7 +792,7 @@ def check_deal_here():
                             pair somewhere they never were (docs/GraphSemantics.md 1.4)
     Prints how many flags it checked, zero included.
     """
-    issues, checked = [], 0
+    issues, checked, own_home = [], 0, []
     techs = {}
     for cat_path in (TRANSITIONS_PATH, SUBMISSIONS_PATH):
         for path in sorted(cat_path.rglob("*.json")):
@@ -827,9 +827,13 @@ def check_deal_here():
                     issues.append({**base, "type": "deal_here_wrong_role", "severity": "error",
                                    "message": f"{here} flags deal_here on '{name}', authored from '{origin}' - another seat"})
                     continue
-                # the table this listing DEALS: its own when it carries one (v1.214.0, PR B), else
-                # the origin's, which is the one that can teleport
-                table = entry.get("outcomes") if entry.get("outcomes") else t.get("outcomes")
+                # A listing with its OWN table (PR B) is not checked for a teleport: its destinations
+                # were authored FOR this listing (calibration/listing_tables.json), so a miss row that
+                # lands on the technique's origin hub is the panel's call (a failed pass from the body
+                # lock into half guard), not the canonical table's origin leaking in. Counted and
+                # printed instead, so the share stays visible. check_listing_tables gates the table.
+                own = bool(entry.get("outcomes"))
+                table = entry.get("outcomes") if own else t.get("outcomes")
                 for fr in ("gi", "nogi"):
                     miss = home = 0.0
                     for o in table or []:
@@ -843,11 +847,16 @@ def check_deal_here():
                         if hub(o.get("to")) == hub(origin):
                             home += v
                     if miss > 0 and home * 2 >= miss:
+                        if own:
+                            own_home.append(f"{here} {name} ({home:g}/{miss:g} {fr})")
+                            break
                         issues.append({**base, "type": "deal_here_teleport", "severity": "error",
                                        "message": (f"{here} flags deal_here on '{name}', but {home:g} of its "
                                                    f"{miss:g} {fr} miss points land on its origin '{origin}'")})
                         break
     print(f"  deal_here listings checked: {checked}")
+    print(f"  own-table listings whose authored miss lands mostly on the origin hub (info, not a teleport): "
+          f"{len(own_home)}" + (f" - {'; '.join(own_home)}" if own_home else ""))
     return issues
 
 

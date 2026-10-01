@@ -3,10 +3,10 @@
     "transition_files": 1025,
     "submission_files": 353,
     "position_files": 133,
-    "total_issues": 437,
+    "total_issues": 436,
     "errors": 0,
     "warnings": 54,
-    "info": 383,
+    "info": 382,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,7 +16,7 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 12,
-    "attempt_outliers": 332,
+    "attempt_outliers": 331,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -2316,16 +2316,6 @@
       "message": "bottom[gi]: 'Electric Chair Transition' has only 2% attempt probability",
       "severity": "info",
       "transition": "Electric Chair Transition",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Lapel Guard.json",
-      "position": "Lapel Guard",
-      "role": "top[nogi]",
-      "type": "attempt_negligible",
-      "message": "top[nogi]: 'Leg Extraction from Lapel Wrap' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Leg Extraction from Lapel Wrap",
       "current": 2
     },
     {

@@ -408,7 +408,7 @@
         "transition": "Knee Slice Despite Lapel",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 23
+          "nogi": 24
         }
       },
       {
@@ -429,7 +429,7 @@
         "transition": "Distance Creation to Reset",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 22
+          "nogi": 23
         }
       },
       {
@@ -443,8 +443,55 @@
         "transition": "Leg Extraction from Lapel Wrap",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 2
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Combat Base/Top",
+            "probability": {
+              "gi": 34,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 19,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Lapel Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 8,
+              "nogi": null
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 7,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       }
     ],
     "clips": [

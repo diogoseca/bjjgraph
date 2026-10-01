@@ -734,7 +734,46 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 32,
+          "nogi": 36
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "success"
+          },
+          {
+            "to": "Kesa Gatame/Bottom",
+            "probability": {
+              "gi": 45,
+              "nogi": 45
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Hip Escape to Guard",

@@ -853,7 +853,54 @@
         "attempt_probability": {
           "gi": 33,
           "nogi": 26
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 28
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Bottom",
+            "probability": {
+              "gi": 5,
+              "nogi": 5
+            },
+            "result": "success"
+          },
+          {
+            "to": "Backside 50-50/Bottom",
+            "probability": {
+              "gi": 41,
+              "nogi": 41
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Saddle/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",

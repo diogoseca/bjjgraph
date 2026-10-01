@@ -137,7 +137,46 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 43,
+          "nogi": 46
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 46,
+              "nogi": 46
+            },
+            "result": "success"
+          },
+          {
+            "to": "Headquarters Position/Top",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Headquarters Pass",

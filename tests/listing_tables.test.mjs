@@ -73,18 +73,33 @@ for (const t of TABLES) {
   if (PICKS.length === 6) break;
 }
 
-test("today no hand deals an overlay: every dealt card is the node at its index", () => {
+test("every dealt card is the node at its index, or exactly its listing's overlay (B2: all 95 tables dealt in gi)", () => {
+  // v1.216.0 (PR B2): the applied tables, counted from the provenance, never a literal
+  const prov = JSON.parse(read("calibration/listing_tables.json"));
+  const dropped = new Set((prov.dropped || []).map((d) => d.key));
+  const applied = prov.tables.filter((t) => !dropped.has(t.key));
   const a = app(WIRE);
-  let cards = 0, same = 0;
+  a._giMode = "gi";
+  let cards = 0, plain = 0;
+  const overlays = new Set();
   for (const n of a.nodes) {
     if (n.ty !== "positions" || n.cal?.stateAlias) continue;
     for (const role of ["top", "bottom"]) {
       a.currentPos = n.idx; a.playerRole = role; a.aiSkill = 0.13;
-      for (const o of a.optionsFor(n.idx, role)) { cards++; same += o.node === a.nodes[o.idx] ? 1 : 0; }
+      for (const o of a.optionsFor(n.idx, role)) {
+        cards++;
+        if (o.node === a.nodes[o.idx]) { plain++; continue; }
+        assert.equal(o.node.here, n.posId, o.node.t + ": an overlay belongs to the state that dealt it");
+        assert.ok(o.node.cal.outcomes === a.nodes[o.idx].cal.at[n.posId].outcomes, o.node.t + ": exactly the wire's table");
+        overlays.add(n.posId + "/" + role + "|" + o.node.t);
+      }
     }
   }
   assert.ok(cards > 2000, `${cards} cards dealt over the corpus`);
-  assert.equal(same, cards, "B1 moves nothing: no listing carries a table yet");
+  const want = new Set(applied.map((t) => t.listing.split("/")[0] + "/" + t.listing.split("/")[1] + "|" + t.move));
+  assert.deepEqual([...overlays].sort(), [...want].sort(), "every applied table is dealt as an overlay at its listing, and nothing else is");
+  // each state is drawn as TWO pair members, and both deal the site's hand, so each overlay is dealt twice
+  assert.equal(cards - plain, overlays.size * 2, "one overlay per (listing, technique), on each pair member");
 });
 
 test("a listing's table is dealt, priced, landed and drawn from that listing, and the sheet shows it", () => {

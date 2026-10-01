@@ -114,7 +114,9 @@ test('opponent destination ordering uses the actual source current seat in every
       a.currentPos=n.idx;a.playerRole=n.role;a._posKey=a.deckKeyFor(n).key;
       const opposite=n.role==='top'?'bottom':'top',opts=a.optionsFor(n.idx,opposite);
       for(const opt of opts.filter(o=>o.node.ty!=='submissions')){
-        const live=a.resultPos(opt.idx,a.currentPos),captured=opt.res;
+        // the app's opponentDefend ranks by `landOf`: a move dealt from its listing's OWN table lands
+        // where that table says (opt.res, _tableLanding), every other move by resultPos (v1.214.0, PR B)
+        const live=opt.node&&opt.node.here!=null?opt.res:a.resultPos(opt.idx,a.currentPos),captured=opt.res;
         const liveNode=a.nodes[live]||opt.node,metaNode=byId.get(a.nodes[captured]?.id)||byId.get(opt.node.id);
         const liveVal=a.oppVal(liveNode),capturedVal=a.oppVal(metaNode);
         if(liveVal!==capturedVal){different++;if(examples.length<3)examples.push({frame,node:n.id,move:opt.node.id,live:liveNode.id,captured:metaNode.id,liveVal,capturedVal});}

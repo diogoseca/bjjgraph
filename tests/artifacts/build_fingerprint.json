@@ -3,23 +3,23 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "8d19f701ac61030d9969f7cb25c5021a9599f8c2",
+   "git_head": "60d0bb8b7ae87c26c2d2840d422bbac9b859d9be",
    "inputs": {
-    "tree": "fa6fc3224fe3f5a55faa1b89e5b363e48752e371"
+    "tree": "84e8c10f1023bb83482cc55187ebc8ce0456ffa6"
    },
-   "package_version": "1.215.6",
+   "package_version": "1.216.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-80d42a0ec/pr-origin-coherence-p2-80d42a0ec",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-listing-tables-b2-310cb1311/pr-listing-tables-b2-310cb1311",
   "content_provenance": {
-   "capture_git_head": "80d42a0ecda8d935e0ef1bed8417513dc85a9c9c",
-   "capture_id": "3ca2977eef974119add56aef83036b86",
+   "capture_git_head": "310cb13117ff14aece762db3518bf81bf314c91a",
+   "capture_id": "0a6aaba71d0943dca9ba8673a4c13b21",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "eb51aecdd81ad6af4995eb7e4ad6362f14d0b7ee",
+   "content_tree": "6c1020b4be401dd3641b603c221d94782030c037",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -43,12 +43,12 @@
     }
    },
    "output_identity": {
-    "files": 15995,
-    "sha256": "d731fd7f8ffc274db33bf9c69f1bbb11af3ddae5e960c4280c536bea54e8b3a3"
+    "files": 15996,
+    "sha256": "95cc83f888431501133c4555656a05c9e41319ed6e78898c0093b1ee32fe4208"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-origin-coherence-p2-80d42a0ec/pr-origin-coherence-p2-80d42a0ec"
+    "/home/user/bjj-orchestrator/golden/pr-listing-tables-b2-310cb1311/pr-listing-tables-b2-310cb1311"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -65,21 +65,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "dd0c3e0a42587fecb6261c7c3ab7df055f4fb38cf8b64e11f7aad2db25cad0c2"
+    "sha256": "d891b158afd9e943ce8d09d2b6716643d9f0011d99e780844eb928fbabf63ca7"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78320,
-    "sha256": "9a0cd89fe502106fda82fdadfa8601e42642386c10336ed78fdef7a30820c6b9",
+    "sha256": "6887d06a09b3535bc96c746d67a234e3c8359469a6e4e8164f7fc45337808ec7",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "4e7e75ccf168cda1db498cc0358d3f28504801ea2eb8d779383e293ad145a2fb",
+    "sha256": "bf617d3e0e28abb6a7cf4eda6ba14c25f4fca409c89dffeef6868325f8582a5e",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 27793,
-    "sha256": "19b5caa7a43714c723dc0863053b6d17cb0eb666888541323043ac2efccff858",
+    "sha256": "b2ec253479f8b625d742eb1a90ebccd5af14453a0e976633a90e93ca07f29321",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-57bc7782d3c43df3353f01aa80fe167d05bc380186d28937faa19550f4bbac1a.js": {
@@ -142,7 +142,7 @@
   "js": 39,
   "json_opaque": 5036,
   "json_semantic": 5,
-  "text_opaque": 4664,
+  "text_opaque": 4665,
   "text_semantic": 7,
   "xml": 2
  },
@@ -157,13 +157,13 @@
   "Transitions": 4101,
   "dev": 59,
   "markdown": 4599,
-  "static": 5119,
+  "static": 5120,
   "tags": 73
  },
  "census": {
   "article_headings": 94292,
   "article_links": 213165,
-  "files": 15995,
+  "files": 15996,
   "gzip_files": 1,
   "head_links": 37357,
   "html_pages": 6212,
@@ -179,7 +179,7 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5119
+  "static_files": 5120
  },
  "distinct_values": {
   "name=description": 4563,

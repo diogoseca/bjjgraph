@@ -405,7 +405,46 @@
         "attempt_probability": {
           "gi": 12,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 24,
+          "nogi": 21
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "success"
+          },
+          {
+            "to": "New York/Top",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Closed Guard/Top",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Triangle Control/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Posture Recovery to Closed Guard",

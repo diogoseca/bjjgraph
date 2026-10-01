@@ -408,7 +408,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 48,
+          "nogi": 49
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 49,
+              "nogi": 49
+            },
+            "result": "success"
+          },
+          {
+            "to": "Double Unders/Top",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Knee Slice Pass",
@@ -829,7 +868,46 @@
         "attempt_probability": {
           "gi": 12,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 35,
+          "nogi": 38
+        },
+        "outcomes": [
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 38,
+              "nogi": 38
+            },
+            "result": "success"
+          },
+          {
+            "to": "Double Unders/Bottom",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Guard Recovery from Double Unders",

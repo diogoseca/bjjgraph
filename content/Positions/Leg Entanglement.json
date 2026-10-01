@@ -136,7 +136,38 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 50,
+          "nogi": 58
+        },
+        "outcomes": [
+          {
+            "to": "Outside Ashi-Garami/Top",
+            "probability": {
+              "gi": 58,
+              "nogi": 58
+            },
+            "result": "success"
+          },
+          {
+            "to": "Leg Entanglement/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Toe Hold from Leg Entanglement",

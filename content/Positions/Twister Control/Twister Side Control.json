@@ -327,7 +327,38 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 8
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 43,
+          "nogi": 48
+        },
+        "outcomes": [
+          {
+            "to": "Truck/Top",
+            "probability": {
+              "gi": 48,
+              "nogi": 48
+            },
+            "result": "success"
+          },
+          {
+            "to": "Twister Side Control/Top",
+            "probability": {
+              "gi": 38,
+              "nogi": 38
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Calf Slicer from Twister Side Control",
