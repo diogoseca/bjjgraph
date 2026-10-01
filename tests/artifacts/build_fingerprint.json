@@ -1,9 +1,9 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-principles-hub-drift-bac9386f0/pr-principles-hub-drift-bac9386f0",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-auth-double-client-eacb9bc55/pr-auth-double-client-eacb9bc55",
   "content_provenance": {
-   "capture_git_head": "bac9386f004186d4a14b7c528f7977d74610bbc2",
-   "capture_id": "da4aca6b8c854c7db7d08861e80462f0",
+   "capture_git_head": "eacb9bc55e91dd574d6bc7762587279f25695497",
+   "capture_id": "a8dfda3ce5aa459c9c101631b4b547a1",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -33,11 +33,11 @@
    },
    "output_identity": {
     "files": 15996,
-    "sha256": "d261cf8e7d77490f292a325fafb78d245a105c0a452f4e1c4d0f4af6a825a1c0"
+    "sha256": "15cbe3dd4da257fca9dde60f3d9d82be88ff47c89f7139854cde22ad23f09dc8"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-principles-hub-drift-bac9386f0/pr-principles-hub-drift-bac9386f0"
+    "/home/user/bjj-orchestrator/golden/pr-auth-double-client-eacb9bc55/pr-auth-double-client-eacb9bc55"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -114,8 +114,8 @@
    "sha256": "487514594cda7b0558c2ee0cf1e6b8e8c1e8e3a29148b4c544b7765c6d333314"
   },
   "postscript.js": {
-   "bytes": 77045,
-   "sha256": "97f11bbc024d29f001bc55886ed2b2b3a5215e34c1778c87ea598da63e499df0",
+   "bytes": 77155,
+   "sha256": "f741751a0cb82546305676e6279d5ac581dbf62b7f9f4f8b32e00df2d703642a",
    "version_token": "normalised"
   },
   "prescript.js": {
