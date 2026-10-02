@@ -371,7 +371,8 @@ was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a 
 One slot, stamped owners. **The landing question's outcomes are not in it** (v1.218.0, owner: the
 toast was distracting and "−4%" read as "wait, what?"). They land on the cards (`_outcome`): each
 "Your options" card whose printed chance moves takes a hit — red flash and recoil for a cost, green
-glint for a gain — and the REAL before/after delta pops off its number (`_cardHit`, hooked in
+glint for a gain — and the REAL before/after delta pops off its number with the card's own word for
+it, "−4% move" (`_cardHit`, hooked in
 `paintChoiceValues`, so a card that does not move takes nothing; threat odds never move, so threats
 never take one). The cause is named once, rising from the measured "Your options" label ("too
 slow", "missed", "that one hurts", "correct"; a broken streak stacks "×N momentum lost"), with one

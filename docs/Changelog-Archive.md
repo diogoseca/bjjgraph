@@ -10084,6 +10084,18 @@ So only own cards take the hit, and the hit is hooked where that number is WRITT
 - B, the same plus a central bubble with the big number, is the constant `NG_OUTCOME_BUBBLE`. A ships; the owner
   judges both from a recorded demo.
 
+**Found in the demo's own frames, and fixed before merge.** The recorded clips, read frame by frame at 390, showed
+two things the first version of the spec could not see:
+- **The stacked cause overlapped the first word mid-flight.** "×3 momentum lost" sat on "missed". The offset was
+  `h × 0.9`, but the second word starts 0.18 s later, so the first is already rising when it sets off. The spec
+  only asserted `top <`. The offset is now `h + rise/2 + 4`, and the spec asserts the two are clear at creation
+  AND 300 ms later. The old offset is mutant `stack09`, red at creation; `stackh` (clear at creation, no rise term) is red mid-flight.
+- **A bare "−4%" read as "Win chance −4%".** The pop rises from the Move number into the Win chance row just as
+  that row blanks to "—" to re-solve. Win chance does not drop by 4, so the frame lied. The pop now carries the
+  card's own word for its number, "−4% move" (read from the repaint's `immediateLabel`). That is what the main
+  brief asked for anyway: the copy uses the card's word. The pop is also set just left of the number, over the card's
+  own label, so the number stays visible while it ticks and the word never spills off the card. A pop without its word is mutant `noword`.
+
 **Retired: the v1.138.0 expiry LEASE.** Once no outcome writes the announcer, the lease has nothing to hold:
 `_evExpiry`, `_dropExpiryEvent()` with its five drop sites, and the ~5 s frame-loop age-out are deleted.
 `_evCountdown` stays; `_outcome()` releases it through `_dropCountdownEvent()`.
@@ -10110,7 +10122,7 @@ New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
 
 | mutant (sandbox bundle, one at a time) | red at |
 |---|---|
-| neutral control | green, 24/24 |
+| neutral control | green, 26/26 |
 | `pointer-events:auto` on the layer | "pointer-events none"; fallback "never eats the point under it" |
 | z:60 | "z 60 sits in the ambient-fx band 10–49" |
 | top from a constant | "…just above it"; fallback "…not somewhere else" |
@@ -10120,6 +10132,9 @@ New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
 | removed on the GAME clock (`this.after`) | the same two |
 | threats flash with the hand | "a threat takes no hit" |
 | a constant "−4%" pop | "the pop says the real −8"; "a +N pop per risen card" |
+| the pop without the card's word | "every pop names its number…" |
+| the stack offset back to `h × 0.9` (`stack09`) | "clear of the first when they appear" |
+| the offset `h + 4`, clear at creation but without the rise term (`stackh`) | "still clear of the first mid-flight" |
 | a card glints though its number did not move | "so it takes no hit" (the fixture moves every card, so one card is pinned at `choiceValueView`; this mutant survived until that test existed) |
 | reduced-motion rule deleted | "no shake under reduced motion" |
 | streak not stacked / stacked on top | "the cause, then the streak" / "stacked above the first" |
@@ -10130,4 +10145,4 @@ New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
 | no aria sentence | "one polite sentence…", both specs |
 | `_dropCountdownEvent` removed | "the countdown stamp was released at expiry" + two more |
 
-**Payload.** First-hand core (the delta basis) 362,056 B: +2,503 B over the accepted 359,553 B (cap 6,000), and +1,757 B over the 360,299 B the v1.217.0 entry measured for dev. Eager gzip 342,536 B (+2,521 B over 340,015 B, cap 5,000). This change's own share, gzip -9 against dev's bundle: `neural.js` +1,218 B, `neural.css` +549 B.
+**Payload.** First-hand core (the delta basis) 362,161 B: +2,608 B over the accepted 359,553 B (cap 6,000), and +1,862 B over the 360,299 B the v1.217.0 entry measured for dev. Eager gzip 342,630 B (+2,615 B over 340,015 B, cap 5,000). This change's own share, gzip -9 against dev's bundle: `neural.js` +1,259 B, `neural.css` +602 B.

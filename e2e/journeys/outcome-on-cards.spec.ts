@@ -22,8 +22,9 @@ import { journey } from "../dsl";
  *   - the announcer: no outcome writes it any more (the v1.138.0 expiry lease is retired with it).
  * Mutants, each red here by name (or in announcer-coherence.spec.ts): pointer-events auto, z out of
  * band, a constant top, the fallback deleted, no rise, never removed, removed on the game clock, hits
- * on threats, a constant pop, a glint on an unmoved card, the reduced-motion rule deleted, the streak
- * not stacked or stacked on top, the expiry mis-named, the trap mis-named, a miss costing 5, the
+ * on threats, a constant pop, a pop without its card's word, a glint on an unmoved card, the
+ * reduced-motion rule deleted, the streak not stacked, stacked on top, stacked at the old h×0.9 offset
+ * or without the rise term (clear at creation, overlapping mid-flight), the expiry mis-named, the trap mis-named, a miss costing 5, the
  * announcer written again, no aria sentence, the countdown left pinned. Neutral control stays green.
  * CSS runs on the browser's wall clock regardless of the DSL's frame pump, so the motion checks use
  * real waits; the frame pump only drives the repaint that moves the numbers.
@@ -34,13 +35,14 @@ const VIEWS = [
   { name: "390", width: 390, height: 844 },
 ];
 
-type Card = { t: string; n: string; delta: string | null; hit: boolean };
+type Card = { t: string; n: string; word: string; delta: string | null; hit: boolean };
 const cards = (page: Page, group: "you" | "opponent") =>
   page.evaluate((g) => {
     const sel = g === "you" ? "[data-tech]" : "[data-threat-tech]";
     return Array.from(document.querySelectorAll(`[data-choice-group="${g}"] ${sel}`)).map((c: any) => ({
       t: c.getAttribute("data-tech") || c.getAttribute("data-threat-tech"),
       n: (c.querySelector(".ngodds")?.textContent || "").trim(),
+      word: (c.querySelector("[data-immediate-label]")?.textContent || "").trim().toLowerCase(),
       delta: c.getAttribute("data-hit-delta"),
       hit: c.classList.contains("ng-hit-bad") || c.classList.contains("ng-hit-good"),
     }));
@@ -71,7 +73,8 @@ const pops = (page: Page) =>
     Array.from(document.querySelectorAll(".ng-hitpop")).map((e: any) => {
       const r = e.getBoundingClientRect();
       const under = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
-      return { text: (e.textContent || "").trim(), d: e.getAttribute("data-hit-pop"), top: r.top, eats: !!(under && under.closest(".ng-hitpop")) };
+      // the pop is the delta (<b>) plus the card's own word for that number (<span>)
+      return { text: (e.querySelector("b")?.textContent || "").trim(), word: (e.querySelector("span")?.textContent || "").trim(), d: e.getAttribute("data-hit-pop"), top: r.top, eats: !!(under && under.closest(".ng-hitpop")) };
     }),
   );
 const labelRect = (page: Page) =>
@@ -130,9 +133,10 @@ for (const vp of VIEWS) {
       expect(c.hit || c.delta != null, `${c.t}: a threat takes no hit`).toBe(false);
     });
     const hitCount = you.filter((c) => c.hit).length;
-    expect(p0.map((p) => p.text).sort(), "one pop per hit card, saying its real delta").toEqual(
-      you.filter((c) => c.hit).map((c) => (Number(c.delta) > 0 ? "+" : "−") + Math.abs(Number(c.delta)) + "%").sort(),
+    expect(p0.map((p) => p.text + " " + p.word).sort(), "one pop per hit card, saying its real delta and the card's own word for that number").toEqual(
+      you.filter((c) => c.hit).map((c) => (Number(c.delta) > 0 ? "+" : "−") + Math.abs(Number(c.delta)) + "% " + c.word).sort(),
     );
+    expect(p0.every((p) => p.word.length > 0), "every pop names its number (Move, Finish, Escape, Works), so it cannot read as Win chance").toBe(true);
     expect(hitCount, "at least one card took the hit").toBeGreaterThan(0);
 
     // THE CAUSE: one word, just above the measured label, never eating the click under it
@@ -243,7 +247,12 @@ for (const vp of VIEWS) {
     const c = await causes(page);
     expect(c.map((x) => x.text), "the cause, then the streak").toEqual(["missed", "×3 momentum lost"]);
     expect(c[1].top, "stacked above the first").toBeLessThan(c[0].top);
+    expect(c[1].bottom, "clear of the first when they appear").toBeLessThanOrEqual(c[0].top + 1);
     expect(parseFloat(c[1].delay), "and a beat after it").toBeGreaterThan(0);
+    // the second starts 0.18s later, so the first is already rising: they must not meet mid-flight
+    await page.waitForTimeout(300);
+    const m = await causes(page);
+    expect(m[1].bottom, "still clear of the first mid-flight").toBeLessThanOrEqual(m[0].top + 1);
   });
 
   test(`with the hand put away, the cause falls back to the landing card's measured top (${vp.name})`, async ({ page }) => {

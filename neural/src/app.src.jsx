@@ -13668,7 +13668,7 @@ class Component extends DCLogic {
       if (chance) {
         const was = chance.textContent;
         chance.textContent = view.immediate;
-        if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate);
+        if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate, view.immediateLabel);
       }
       if (label) label.textContent = view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
@@ -16490,15 +16490,18 @@ class Component extends DCLogic {
     // the label's left edge (A), or the hand's centre (B / fallbacks); a second cause stacks above
     const cx = a.kind === "group" ? a.r.left + w / 2 : a.r.left + a.r.width / 2;
     el.style.left = Math.round(Math.max(8 + w / 2, Math.min(vw - 8 - w / 2, cx))) + "px";
-    el.style.top = Math.round(a.r.top - h - 4 - stack * h * 0.9) + "px";
-    el.style.setProperty("--rise", Math.round(Math.max(18, tok * 1.4)) + "px");
+    // a stacked cause clears the first by its own height PLUS half the rise: it starts 0.18s later, so
+    // the first is already rising when it sets off (h * 0.9 alone overlapped them mid-flight at 390)
+    const rise = Math.round(Math.max(18, tok * 1.4));
+    el.style.top = Math.round(a.r.top - h - 4 - stack * (h + rise * 0.5 + 4)) + "px";
+    el.style.setProperty("--rise", rise + "px");
     if (stack) el.style.animationDelay = (stack * 0.18) + "s";
     setTimeout(() => el.remove(), 1300 + stack * 180 + 150); // wall clock: a paused roll still clears it
     return el;
   }
   // ONE CARD TAKES THE HIT the moment its printed number changes (`paintChoiceValues`), with the
   // delta READ FROM THE RENDER — never a constant — and only in the direction the outcome went.
-  _cardHit(oc, numEl, was, now) {
+  _cardHit(oc, numEl, was, now, word) {
     const h = this._outcomeHit;
     if (!h || performance.now() - h.t > 1600 || h.hit.has(oc.card) || oc.opt.threat) return;
     const a = /^(\d+)%$/.exec(String(was).trim()), b = /^(\d+)%$/.exec(String(now).trim());
@@ -16533,12 +16536,19 @@ class Component extends DCLogic {
     pop.className = "ng-hitpop";
     pop.setAttribute("data-hit-pop", String(d));
     pop.setAttribute("aria-hidden", "true");
-    pop.textContent = (d > 0 ? "+" : "\u2212") + Math.abs(d) + "%";
+    // the card's OWN word for this number rides with it (Move · Finish · Escape · Works): the pop
+    // rises past the Win chance row, which blanks while it re-solves, and a bare "\u22124%" there
+    // read as "Win chance \u22124%" in the demo frames (it is not; Win chance is not this number)
+    const big = document.createElement("b"); big.textContent = (d > 0 ? "+" : "\u2212") + Math.abs(d) + "%";
+    pop.appendChild(big);
+    if (word) { const w = document.createElement("span"); w.textContent = String(word).toLowerCase(); pop.appendChild(w); }
     const tok = parseFloat(getComputedStyle(numEl).fontSize) || 15;
     pop.style.setProperty("--hp", (tok * 1.3).toFixed(1) + "px");
-    pop.style.setProperty("--rise", Math.round(tok * 2.2) + "px");
+    pop.style.setProperty("--rise", Math.round(tok * 1.7) + "px");
     pop.style.color = col;
-    pop.style.left = Math.round(r.left + r.width / 2) + "px";
+    // just LEFT of the number, over the card's own label (which the pop repeats): the number itself
+    // stays visible while it ticks, and the word never spills off the card's right edge
+    pop.style.left = Math.round(r.left - 4) + "px";
     pop.style.top = Math.round(r.top - tok * 0.6) + "px";
     (this.__ngRoot || document.body).appendChild(pop);
     setTimeout(() => pop.remove(), 1250);
