@@ -303,9 +303,11 @@ From the attacker's perspective, the 3-4 Mount to Technical Mount transition is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount/Technical Mount]] | 55% |
-| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Mount/Technical Mount]] | 62% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 18% |
+| Counter | [[Positions/Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 5% |
+| Counter | [[Positions/Closed Guard]] | 5% |
 
 
 </section>

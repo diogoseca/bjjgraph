@@ -15,24 +15,40 @@
     {
       "to": "Side Control/Top",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 42,
+        "nogi": 30
       },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
       "probability": {
-        "gi": 35,
-        "nogi": 35
+        "gi": 26,
+        "nogi": 30
       },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
       "probability": {
-        "gi": 10,
-        "nogi": 10
+        "gi": 8,
+        "nogi": 8
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 19,
+        "nogi": 25
+      },
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": {
+        "gi": 5,
+        "nogi": 7
       },
       "result": "counter"
     }

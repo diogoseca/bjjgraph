@@ -160,9 +160,11 @@ In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
-| Failure | [[Positions/Standing Position]] | 35% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 30% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 8% |
+| Success | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 7% |
 
 
 </section>
