@@ -33,6 +33,9 @@ const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
+// by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
+const NG_FILM_FADE_RATIO = 3;
 // The landing question's minimum box height, so its first answer row can never start under the
 // card's top-right corner (v1.175.0). The corner is `top:5px` + a 24px button row + 1px + a 10px
 // count line = 40px from the padding-box top; the question starts at the card's padding-top
@@ -463,17 +466,32 @@ class Component extends DCLogic {
   // simply cancels the old one and nothing can fight for `scrollLeft`.
   _trayStop() { if (this._trayRaf) { cancelAnimationFrame(this._trayRaf); this._trayRaf = 0; } this._trayTo = null; }
   // THE FADE FOLLOWS THE SCROLL (v1.213.2). An edge fades only while a card is hidden past it, and
-  // a hand that fits fades on neither side (helmet.html `.ng-optionrow[data-fade]`). Called from the
-  // row's `scroll` event — which every writer of scrollLeft fires: the wheel glide, the drag, its
-  // fling, a focus scroll, the touch platform's own — and from the deal and every `updateUiShift`
-  // frame, because a new hand, a moved inset or a resize changes the overflow without scrolling.
-  // Writes only on a change, so the per-frame call is a read.
-  _syncTrayFade() {
-    const row = this.optionsRef.current; if (!row) return;
+  // a row that fits fades on neither side (helmet.html `[data-fade]`). Called from the row's
+  // `scroll` event — which every writer of scrollLeft fires: the wheel glide, the drag, its fling, a
+  // focus scroll, the touch platform's own — and whenever the row's content or insets change without
+  // scrolling (the hand: the deal and every `updateUiShift` frame; the videos row: every dock). Writes
+  // only on a change, so a per-frame call is a read. ONE function for both rows (v1.217.0): it
+  // returns the sides, which is also what the videos row's arrows show and hide by.
+  _syncEdgeFade(row) {
+    if (!row) return "";
     const max = row.scrollWidth - row.clientWidth, x = row.scrollLeft;
     const sides = max > 1 ? [x > 1 ? "l" : "", x < max - 1 ? "r" : ""].filter(Boolean).join(" ") : "";
-    if ((row.getAttribute("data-fade") || "") === sides) return;
-    if (sides) row.setAttribute("data-fade", sides); else row.removeAttribute("data-fade");
+    if ((row.getAttribute("data-fade") || "") !== sides) {
+      if (sides) row.setAttribute("data-fade", sides); else row.removeAttribute("data-fade");
+    }
+    return sides;
+  }
+  // The chevron button: the deck's guides and the videos row's arrows, ONE look (helmet.html
+  // `.ng-chev`) and one markup; each caller adds its own position, label and action.
+  _chevButton(dir, label, attr) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "ng-chev";
+    button.style.pointerEvents = "auto";
+    button.setAttribute(attr, "1");
+    button.setAttribute("aria-label", label);
+    button.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="' + (dir < 0 ? 'M15 5l-7 7 7 7' : 'M9 5l7 7-7 7') + '"/></svg>';
+    return button;
   }
   _trayClamp(el, x) { return Math.max(0, Math.min(el.scrollWidth - el.clientWidth, x)); }
   // wheel: accumulate onto a target and ease toward it, so consecutive notches compound into one
@@ -699,7 +717,7 @@ class Component extends DCLogic {
       e.preventDefault();
       this._trayGlideBy(orow, d);
     }, { passive: false });
-    if (orow) orow.addEventListener("scroll", () => this._syncTrayFade(), { passive: true });
+    if (orow) orow.addEventListener("scroll", () => this._syncEdgeFade(orow), { passive: true });
     // ── WHILE MORE IS OPEN, THE VERTICAL WHEEL SCROLLS THE SCREEN (v1.175.0, owner: "I have to
     // scroll the screen and what moves up is this new card … the land card and the videos
     // row") ── ONE document-level capture listener for the column's fixed siblings:
@@ -13013,7 +13031,7 @@ class Component extends DCLogic {
     if (op) {
       op.style.paddingLeft = (NG_TRAY_INSET + this._paneLayout().left).toFixed(1) + "px";
       op.style.paddingRight = NG_TRAY_INSET + "px";
-      this._syncTrayFade();
+      this._syncEdgeFade(op);
     }
     this._layoutLandHorizontal();
     // fade the legend out only while option cards actually overlap it; fade back in otherwise
@@ -13804,7 +13822,7 @@ class Component extends DCLogic {
     const touched = () => { this._handTouched = true; };
     for (const type of ["pointerdown", "keydown", "wheel", "touchstart", "focusin"]) el.addEventListener(type, touched, { capture: true, passive: true });
     this.fitChoiceTitles();
-    this._syncTrayFade();
+    this._syncEdgeFade(el);
     this.refreshChoiceValues();
   }
   previewStateChoice(opt, onPick) {
@@ -14743,14 +14761,9 @@ class Component extends DCLogic {
       nav.setAttribute("data-land-nav", "1");
       nav.setAttribute("aria-label", "Flashcards");
       for (const dir of [-1, 1]) {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.style.pointerEvents = "auto";
-        button.setAttribute(dir < 0 ? "data-land-prev" : "data-land-next", "1");
         const label = dir < 0 ? "Previous flashcard" : "Next flashcard";
-        button.setAttribute("aria-label", label);
+        const button = this._chevButton(dir, label, dir < 0 ? "data-land-prev" : "data-land-next");
         button.title = label + (dir < 0 ? " (←)" : " (→)");
-        button.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="' + (dir < 0 ? 'M15 5l-7 7 7 7' : 'M9 5l7 7-7 7') + '"/></svg>';
         button.addEventListener("click", (event) => { event.stopPropagation(); this._landPageTo(dir); });
         nav.appendChild(button);
       }
@@ -16046,6 +16059,20 @@ class Component extends DCLogic {
     // UNDER THREE CLIPS THE ROW CENTRES (v1.171.1, owner): one or two left-aligned thumbnails
     // left the strip's right half empty, with the ✕ stranded at the far edge.
     if (filmClips.length < 3) { const row = film.querySelector(".ng-cliprow"); if (row) row.style.justifyContent = "center"; }
+    // ARROWS (v1.217.0, owner 2026-10-02): the deck's chevrons, one at each end of the row, shown only
+    // toward hidden clips (`_syncFilmEdges`), so the left one is hidden at the start. Appended before
+    // the ✕, which therefore paints over an arrow wherever the two could ever touch.
+    const row = film.querySelector(".ng-cliprow");
+    if (row) {
+      for (const dir of [-1, 1]) {
+        const arrow = this._chevButton(dir, dir < 0 ? "Previous videos" : "More videos", dir < 0 ? "data-film-prev" : "data-film-next");
+        arrow.classList.add("ng-film-arrow");
+        arrow.setAttribute("data-off", "1");
+        arrow.addEventListener("click", (e) => { e.stopPropagation(); this._filmPage(dir); });
+        film.appendChild(arrow);
+      }
+      row.addEventListener("scroll", () => this._syncFilmEdges(), { passive: true });
+    }
     const xb = document.createElement("button");
     xb.type = "button";
     xb.setAttribute("data-film-close", "1");
@@ -16157,6 +16184,10 @@ class Component extends DCLogic {
         f.style.width = Math.round(cb.width) + "px";
         f.style.paddingLeft = cs.paddingLeft;
         f.style.paddingRight = cs.paddingRight;
+        // the videos row's one spacing token (helmet.html `.ng-landfilm`): the same measured padding
+        const inset = parseFloat(cs.paddingLeft) || 0;
+        f.style.setProperty("--film-inset", inset + "px");
+        f.style.setProperty("--film-fade", NG_FILM_FADE_RATIO * inset + "px");
       }
     } else {
       f.style.width = Math.min(520, (this.W || window.innerWidth) - (this.isMobile() ? 20 : 32)) + "px";
@@ -16188,6 +16219,41 @@ class Component extends DCLogic {
     if (H - bottom - h < 16) bottom = Math.max(8, H - 16 - h);
     f.style.bottom = bottom + "px";
     if (this._arriveGlideUntil != null && !this._arriveWide) this._frameArrivalHeading();
+    this._syncFilmEdges();   // a dock follows every width, inset and clip-size change
+  }
+  // The videos row's fades AND arrows, from one reading of its scroll position: an arrow is shown
+  // exactly where its edge fades, i.e. toward hidden clips, and neither shows on a row that fits.
+  // A hidden arrow is `visibility:hidden` (helmet.html), so it is also inert to the pointer. Focus is
+  // never stranded on an arrow that just hid at an end: it moves to the other one, as the deck does.
+  _syncFilmEdges() {
+    const f = this._landFilmEl, row = f && f.querySelector(".ng-cliprow");
+    if (!row) return;
+    const sides = this._syncEdgeFade(row);
+    const prev = f.querySelector("[data-film-prev]"), next = f.querySelector("[data-film-next]");
+    const focused = document.activeElement;
+    for (const [arrow, side] of [[prev, "l"], [next, "r"]]) {
+      if (!arrow) continue;
+      const on = sides.split(" ").includes(side);
+      if (on === !arrow.hasAttribute("data-off")) continue;
+      if (on) arrow.removeAttribute("data-off"); else arrow.setAttribute("data-off", "1");
+    }
+    const lost = (focused === prev && prev.hasAttribute("data-off")) || (focused === next && next && next.hasAttribute("data-off"));
+    if (lost) { const other = focused === prev ? next : prev; if (other && !other.hasAttribute("data-off")) other.focus({ preventScroll: true }); }
+  }
+  // One arrow press moves about one VIEW of clips: the row's width less its two fades, so the clip
+  // that was half-faded at the far edge ends up fully in view. The row's one animator is
+  // `tweenScroll` (which expandClip also drives), so an arrow and a clip expansion never write
+  // scrollLeft against each other; under reduced motion the row jumps there instead.
+  _filmPage(dir) {
+    const f = this._landFilmEl, row = f && f.querySelector(".ng-cliprow");
+    if (!row) return;
+    const fade = (parseFloat(f.style.getPropertyValue("--film-fade")) || parseFloat(getComputedStyle(f).getPropertyValue("--film-fade")) || 0);
+    const delta = dir * Math.max(1, row.clientWidth - 2 * fade);
+    const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce) {
+      if (this._scrollRaf) { cancelAnimationFrame(this._scrollRaf); this._scrollRaf = 0; }
+      row.scrollLeft = Math.max(0, Math.min(row.scrollWidth - row.clientWidth, row.scrollLeft + delta));
+    } else this.tweenScroll(row, delta);
   }
   _dockLandMore(card, tray) {
     const moreRow = this._landMoreEl;

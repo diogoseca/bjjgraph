@@ -178,7 +178,11 @@ re-mounting an answered question would hand out a second attempt at credit alrea
 
 The film strip is its own fixed sibling (`.ng-landfilm`), docked to the card's measured top and
 anchored by its bottom, so an expanding clip grows upward into empty screen; it carries its own
-ghost ✕ (`data-film-close`, the film layer's handle), hidden while a clip is expanded. **A technique's film
+ghost ✕ (`data-film-close`, the film layer's handle), hidden while a clip is expanded. Its row
+scrolls like the hand (v1.217.0): no scrollbar, the hand's earned fade (`_syncEdgeFade`) and two
+deck chevrons (`data-film-prev` / `data-film-next`, `.ng-chev`) shown only toward hidden clips,
+each press gliding about one view (`_filmPage`). Spacing is a ratio of the card's measured side
+padding: end padding 1x, fade 3x. **A technique's film
 lives under its content entry's `perspectives.{attacker,defender}.clips`** (v1.132.1 — measured:
 1 of 1,326 technique entries carry a top-level `clips`, while 2,716 perspective arrays were in the
 chunks all along); the staged side picks the reel, so the escaping orb shows the defense films.
