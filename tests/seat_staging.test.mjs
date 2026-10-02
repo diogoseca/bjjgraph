@@ -45,7 +45,7 @@ const SIDE_EFFECTS = ["fx", "setEvent", "flashFx", "bumpBounce", "flare", "clear
   "renderTutorial", "_sayArrivalIfPending", "startLandRipple", "hydrateDecks", "hideCenter", "showCenter", "releaseCamera",
   "_prefetchLandDeck", "_prefetchDefendDeck", "frameNodes", "killVignette", "setStatus", "_endArrival", "stopReplay",
   "cancelChoiceValues", "hideOptDetail", "_closeRoll", "_updateComboChip", "_cancelCheckpoint", "pauseTimers", "resumeTimers", "_saveFlowSoon",
-  "_dropExpiryEvent", "_gameValueChanged", "decaySharp", "_flushLandSkipDebt", "showVignette", "buildPanicCard",
+  "_gameValueChanged", "decaySharp", "_flushLandSkipDebt", "showVignette", "buildPanicCard",
   "_paintWinThermometer", "_dockLandCard"];
 
 async function app({ cold = false } = {}) {

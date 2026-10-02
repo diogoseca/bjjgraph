@@ -233,6 +233,34 @@
      sawtooth was the "panic" the owner asked to calm. Reduced motion: still, low fog (below). */
   .ng-vignette{position:fixed;inset:-7%;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 50%,rgba(184,30,28,.3) 72%,rgba(226,58,48,.85) 100%);opacity:.36;will-change:opacity,transform;animation:ngHeartbeat 3.2s linear infinite;}
   @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
+  /* ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0) — app.src.jsx `_outcome` / `_cardHit`. ══
+     Root plane z:16, the ambient-fx band. Every layer is pointer-events:none, the whole subtree
+     too (§6.1: it floats over the hand and must never eat the click under it). Wall-clock CSS, so
+     a paused roll still finishes it. .ng-cause names the outcome once (rises ~1 card line over
+     1.3s, fading from ~0.7s while it still rises); .ng-hitpop is the real delta popping off one
+     card's number; .ng-hit-bad is that card taking the hit (red edge + a short damped recoil);
+     .ng-hit-good is the mirror glint. Reduced motion: colour and number only, nothing moves. */
+  .ng-cause,.ng-hitpop{position:fixed;z-index:16;left:0;top:0;pointer-events:none!important;white-space:nowrap;line-height:1;transform:translate(-50%,0);text-shadow:0 0 2px rgba(6,9,16,.95),0 0 8px rgba(6,9,16,.9),0 2px 12px rgba(6,9,16,.8);will-change:transform,opacity;}
+  .ng-cause *,.ng-hitpop *{pointer-events:none!important;}
+  .ng-cause{display:flex;flex-direction:column;align-items:center;animation:ngRise 1.3s cubic-bezier(.16,.84,.3,1) both,ngRiseFade 1.3s linear both;}
+  .ng-cause b{font-size:var(--fbig);font-weight:800;letter-spacing:-.01em;}
+  .ng-cause span{font-size:var(--ftag);font-weight:800;letter-spacing:.03em;margin-top:.12em;}
+  .ng-hitpop{display:flex;align-items:baseline;gap:.22em;transform:translate(-100%,0);transform-origin:100% 50%;font-size:var(--hp);font-weight:800;animation:ngPop 1.1s cubic-bezier(.16,.84,.3,1) both,ngPopFade 1.1s linear both;}
+  .ng-hitpop span{font-size:.58em;font-weight:700;letter-spacing:.04em;opacity:.9;}
+  @keyframes ngRise{0%{transform:translate(-50%,0) scale(.9)}9%{transform:translate(-50%,calc(var(--rise)*-.12)) scale(1)}100%{transform:translate(-50%,calc(var(--rise)*-1)) scale(1)}}
+  @keyframes ngRiseFade{0%{opacity:0}9%{opacity:1}54%{opacity:1}100%{opacity:0}}
+  @keyframes ngPop{0%{transform:translate(-100%,0) scale(.6)}12%{transform:translate(-100%,calc(var(--rise)*-.18)) scale(1.18)}24%{transform:translate(-100%,calc(var(--rise)*-.3)) scale(1)}100%{transform:translate(-100%,calc(var(--rise)*-1)) scale(1)}}
+  @keyframes ngPopFade{0%{opacity:0}10%{opacity:1}55%{opacity:1}100%{opacity:0}}
+  .ng-hit-bad{animation:ngHitBad .52s cubic-bezier(.3,.7,.4,1);}
+  .ng-hit-good{animation:ngHitGood .5s ease-out;}
+  @keyframes ngHitBad{0%{transform:translateX(0);box-shadow:inset 0 0 0 2px #ff7878,0 0 22px rgba(255,80,80,.6);background-color:rgba(130,30,42,.88)}12%{transform:translateX(-6px)}24%{transform:translateX(5px);box-shadow:inset 0 0 0 2px rgba(255,120,120,.95),0 0 20px rgba(255,80,80,.5);background-color:rgba(120,30,42,.8)}38%{transform:translateX(-3px)}52%{transform:translateX(2px)}66%{transform:translateX(-1px);box-shadow:inset 0 0 0 1px rgba(255,120,120,.4),0 0 6px rgba(255,80,80,.15)}100%{transform:none}}
+  @keyframes ngHitGood{0%{box-shadow:inset 0 0 0 2px rgba(126,224,168,.9),0 0 18px rgba(126,224,168,.45);background-color:rgba(24,84,60,.6)}60%{box-shadow:inset 0 0 0 1px rgba(126,224,168,.35),0 0 6px rgba(126,224,168,.15)}100%{}}
+  .ng-num-hit{animation:ngNumHit .9s ease-out;}
+  @keyframes ngNumHit{0%,45%{color:var(--fl);text-shadow:0 0 10px var(--fl)}100%{}}
+  .ng-group-hit{animation:ngGroupHit .7s ease-out;}
+  @keyframes ngGroupHit{0%,40%{color:var(--fl)}100%{}}
+  @keyframes ngHitStill{0%{box-shadow:inset 0 0 0 2px var(--fl,rgba(255,120,120,.95))}100%{}}
+  @media (prefers-reduced-motion: reduce){.ng-cause,.ng-hitpop{animation:ngRiseFade 1.3s linear both!important;}.ng-hit-bad,.ng-hit-good{animation:ngHitStill .42s ease-out!important;}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
      (pane 8, tray/backs 4, landing card/film/More/guides 5, logo 9) never compete out here;

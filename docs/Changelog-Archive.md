@@ -57,6 +57,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.216.0** — [95 LISTINGS DEAL THEIR OWN OUTCOME TABLE](#v12160--95-listings-deal-their-own-outcome-table)
 - **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
 - **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
+- **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10050,3 +10051,98 @@ asked to remove, not a layout change. At 390 nothing moves.
 
 **Payload.** First-hand core 360,299 B, +746 B over the accepted 359,553 (cap 6,000). This change's own share,
 gzip: `neural.js` +535 B, `neural.css` +201 B.
+
+## v1.218.0 — THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST
+
+**Owner, 2026-10-02**, with a screenshot of the announcer reading "TOO SLOW / Answer revealed · −4% on this
+exchange": "this toast is very distracting, and i'm like -4%? wait what? too slow is barely readable, and too
+high up, couldn't this have been like happens in rpgs, like a bubble fading in, and moving up then fadding out".
+Then, refining it: "it'd still be nice to understand that the choices favorable to me (your options, not
+opponnent threats) actually get penalized -4% or wtv the value is, like that animaiton that happens in games for
+a character taking damage".
+
+**Measured before designing**, on the real app (non-test boot, `__NEURAL_RIG` start-pos 0, Mount Top, 1440 and
+390). Each own card's printed number was read before and after each outcome:
+- the small success number on every "Your options" card moved by exactly the cost: −4 for a wrong answer or an
+  expiry, −8 for a trap, +N for a correct answer;
+- the opponent threats' odds moved in NO case;
+- Win chance re-solved seconds later through the game-value worker, so it is not the outcome's own effect.
+
+So only own cards take the hit, and the hit is hooked where that number is WRITTEN (`paintChoiceValues` →
+`_cardHit`). The pop's text is the card's own before/after difference, never a constant.
+
+**What shipped.**
+- `_outcome()` replaces the four outcome `setEvent` calls: the landing expiry, wrong, trap and correct.
+- The panic-drill expiry names its cause but arms no hit, because no number moves there.
+- The cause word rises from the measured "Your options" label (`data-outcome-float="group"`). With the hand put
+  away it falls back to the landing card's top edge (`"landcard"`); with neither, `"none"` draws nothing.
+- A broken ×N streak stacks "×N momentum lost" above the cause, 0.18 s later.
+- Effects are CSS keyframes on the wall clock, removed by `setTimeout`. They use z:16 and `pointer-events:none
+  !important` on the layer and every descendant.
+- Reduced motion keeps the colour flash (`ngHitStill`) and the number change, with no rise and no shake.
+- One polite aria-live sentence per outcome (`[data-outcome-live]`).
+- B, the same plus a central bubble with the big number, is the constant `NG_OUTCOME_BUBBLE`. A ships; the owner
+  judges both from a recorded demo.
+
+**Found in the demo's own frames, and fixed before merge.** The recorded clips, read frame by frame at 390, showed
+two things the first version of the spec could not see:
+- **The stacked cause overlapped the first word mid-flight.** "×3 momentum lost" sat on "missed". The offset was
+  `h × 0.9`, but the second word starts 0.18 s later, so the first is already rising when it sets off. The spec
+  only asserted `top <`. The offset is now `h + rise/2 + 4`, and the spec asserts the two are clear at creation
+  AND 300 ms later. The old offset is mutant `stack09`, red at creation; `stackh` (clear at creation, no rise term) is red mid-flight.
+- **A bare "−4%" read as "Win chance −4%".** The pop rises from the Move number into the Win chance row just as
+  that row blanks to "—" to re-solve. Win chance does not drop by 4, so the frame lied. The pop now carries the
+  card's own word for its number, "−4% move" (read from the repaint's `immediateLabel`). That is what the main
+  brief asked for anyway: the copy uses the card's word. The pop is also set just left of the number, over the card's
+  own label, so the number stays visible while it ticks and the word never spills off the card. A pop without its word is mutant `noword`.
+
+**Retired: the v1.138.0 expiry LEASE.** Once no outcome writes the announcer, the lease has nothing to hold:
+`_evExpiry`, `_dropExpiryEvent()` with its five drop sites, and the ~5 s frame-loop age-out are deleted.
+`_evCountdown` stays; `_outcome()` releases it through `_dropCountdownEvent()`.
+
+**Copy, before → after** (cause word · aria sentence):
+- expiry: "Too slow · Answer revealed · −4% on this exchange" → "too slow" · "Too slow: the answer is revealed,
+  and your chances on these moves drop 4 points."
+- wrong: "Not quite · −4% on this exchange" → "missed".
+- trap: "That one gets you hurt · −8% on this exchange" → "that one hurts".
+- correct: "Correct · Odds up on this exchange" (below ×2 only) → "correct", always.
+- momentum: "· ×N momentum gone" → a stacked "×N momentum lost".
+- panic expiry: "Too slow · The answer's on the table — no pump" → "too slow" · "…your escapes get no boost."
+
+The cards have no single noun for this number (Move, Finish, Escape or Works), so the spoken sentence says
+"chance".
+
+**Specs moved, claims kept** (announcer-coherence):
+- the expiry test now finds "too slow" as the cause plus the full aria sentence;
+- the torn-down-hand test now pins the countdown's release and the roll's next sentence;
+- the lease test became "an expiry never pins": it is off the announcer, and gone in ~1.6 s of wall clock even
+  with the pane open and the roll paused.
+
+New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
+
+| mutant (sandbox bundle, one at a time) | red at |
+|---|---|
+| neutral control | green, 26/26 |
+| `pointer-events:auto` on the layer | "pointer-events none"; fallback "never eats the point under it" |
+| z:60 | "z 60 sits in the ambient-fx band 10–49" |
+| top from a constant | "…just above it"; fallback "…not somewhere else" |
+| landing-card fallback deleted | "the cause is still named" |
+| `--rise` 0 | "the cause rises" |
+| never removed | "the cause is gone by ~1.6 s"; announcer "gone within ~1.6 s … paused or not" |
+| removed on the GAME clock (`this.after`) | the same two |
+| threats flash with the hand | "a threat takes no hit" |
+| a constant "−4%" pop | "the pop says the real −8"; "a +N pop per risen card" |
+| the pop without the card's word | "every pop names its number…" |
+| the stack offset back to `h × 0.9` (`stack09`) | "clear of the first when they appear" |
+| the offset `h + 4`, clear at creation but without the rise term (`stackh`) | "still clear of the first mid-flight" |
+| a card glints though its number did not move | "so it takes no hit" (the fixture moves every card, so one card is pinned at `choiceValueView`; this mutant survived until that test existed) |
+| reduced-motion rule deleted | "no shake under reduced motion" |
+| streak not stacked / stacked on top | "the cause, then the streak" / "stacked above the first" |
+| expiry named "missed" | five, across both specs |
+| trap named "missed" | "the trap names itself" |
+| a miss costs 0.05 | "printed odds drop by the cost" |
+| the announcer written on a miss / on an expiry | "the announcer carries no outcome" / "and the announcer does not carry it" |
+| no aria sentence | "one polite sentence…", both specs |
+| `_dropCountdownEvent` removed | "the countdown stamp was released at expiry" + two more |
+
+**Payload.** First-hand core (the delta basis) 362,161 B: +2,608 B over the accepted 359,553 B (cap 6,000), and +1,862 B over the 360,299 B the v1.217.0 entry measured for dev. Eager gzip 342,630 B (+2,615 B over 340,015 B, cap 5,000). This change's own share, gzip -9 against dev's bundle: `neural.js` +1,259 B, `neural.css` +602 B.
