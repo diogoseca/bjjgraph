@@ -13,7 +13,7 @@ import { journey } from "../dsl"
  *    measured 0px at 1440. `updateUiShift` now writes both insets from one value, every frame.
  *  - The fade was a constant `mask-image` on both edges, so the last card stayed darkened at the end,
  *    the first at the start, and a hand that fits was faded for nothing. It is now EARNED, the
- *    `.ng-stabs[data-fade]` idiom: `_syncTrayFade` writes `data-fade` ("l", "r", both, or absent)
+ *    `.ng-stabs[data-fade]` idiom: `_syncEdgeFade` (v1.217.0; was `_syncTrayFade`) writes `data-fade` ("l", "r", both, or absent)
  *    from the live scroll position, on every `scroll` event — so every writer of `scrollLeft` (the
  *    wheel glide, the drag, its fling, a focus scroll) is covered by the one listener — and when the
  *    hand or the insets change.

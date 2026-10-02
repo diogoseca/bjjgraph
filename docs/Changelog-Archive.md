@@ -56,6 +56,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
 - **v1.216.0** — [95 LISTINGS DEAL THEIR OWN OUTCOME TABLE](#v12160--95-listings-deal-their-own-outcome-table)
 - **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
+- **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -9975,3 +9976,77 @@ one client. It pins the fix's "cleared on failure, so a later call retries".
 - **Earlier, on the keyed-like build:**
   - the held-window and three-shape tests ×10 at 4 workers: 20/20;
   - auth-redirect-back, auth-owner and legacy-gone ×3: 48/48.
+
+## v1.217.0 — THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS
+
+**Owner, 2026-10-02:** "scrolling bar in videos row should probably not appear and use a similar system like the
+choice row, with the addition of a right arrow and left arrow (to start, the left arrow is hidden - get inspired by
+the arrows of the landcard / flashcards deck below the videos row). on mobile the fading and arrows should look fine
+and be responsive".
+
+**Before, measured with real scrollbars** (Playwright's default `--hide-scrollbars` removed), on the real dev server
+at `/Positions/Back-Control/Top` (4 landscape clips):
+- at 1440 the row carried a 10 px classic scrollbar, so the strip was 108 px tall against 98 px of clips;
+- at 390 the scrollbar is an overlay (0 px), but there was no cue at all that more clips sat past the edge;
+- the clips were cut hard at the row's box, 1 inset in from the strip's edge.
+
+**What shipped (landing film strip only).** The dossier sheet's and the concept page's film rows are unchanged.
+- **No scrollbar** on any engine (`scrollbar-width:none`, `-ms-overflow-style:none`, `::-webkit-scrollbar`).
+  Wheel, trackpad, touch and keyboard scrolling are untouched.
+- **The hand's earned fade, shared.** `_syncTrayFade()` became `_syncEdgeFade(row)`: one function for both rows,
+  returning the sides it wrote. The three `[data-fade]` CSS rules now name both rows; each row sets only its
+  own `--fade-w`.
+- **Arrows, in the deck's look.** The deck's chevron markup and style became one source: `_chevButton()` and
+  `.ng-chev` (size, colour, hover and focus ring). The deck's `.ng-landnav button` keeps only its position rule.
+  The film adds `data-film-prev` / `data-film-next` ("Previous videos" / "More videos"), shown exactly where
+  their edge fades (`_syncFilmEdges`), so the left one is hidden at the start and both are hidden on a row that
+  fits. Hidden means `visibility:hidden` (inert), with the opacity fade delayed behind it. Focus on an arrow
+  that hides moves to the other one.
+- **One press is about one view** (`_filmPage`): the row's width less its two fades. It glides through the
+  row's existing single animator, `tweenScroll` (the one `expandClip` drives), so an arrow and an expansion never
+  write `scrollLeft` against each other. Under reduced motion the row jumps.
+- **Every length is a ratio of one token on screen,** the card's side padding (18 px at 1440, 12 px at 390),
+  which `_dockLandFilm` already measured and now also writes as `--film-inset`:
+  - the row bleeds to the strip's edges and pads back by 1 inset, so the first clip still lines up with the
+    card's text and the last one keeps the same inset at the end;
+  - the fade is `NG_FILM_FADE_RATIO` = 3 insets (54 px / 36 px);
+  - each arrow's centre sits 1 inset from the edge, over the fade. A dark halo on the chevron keeps it
+    legible over a bright thumbnail.
+  - The 44 px buttons are absolutely positioned, so the touch target never grows the row's box.
+
+**The strip's measured rect.** x and width are unchanged at both widths, and so is the bottom (the strip is
+bottom-anchored). At 1440 the height falls 108 → 98 and the top moves down 10 px. That is the scrollbar the owner
+asked to remove, not a layout change. At 390 nothing moves.
+
+**Pinned by** `e2e/journeys/film-row-arrows.spec.ts`, at 1440 and 390, with real scrollbars and authored clips
+(the harness serves `{}`):
+- no scrollbar;
+- the left arrow hidden and inert at the start (`elementFromPoint`);
+- a right-arrow click by MOUSE (`j.clickByMouse`) scrolls and reveals the left arrow;
+- at the end the right arrow is hidden and inert, the end fade is gone and the end padding is there;
+- the ratios (1 / 3 / 1 insets);
+- the left arrow by keyboard;
+- a fitting row (two vertical clips) shows no arrows and no fades;
+- reduced motion: the row is at its target on the next frame.
+
+| mutant (one at a time, built bundle) | red at |
+|---|---|
+| neutral control | green |
+| scrollbar rules removed | "the row reserves no scrollbar height", both widths |
+| arrows always shown | "the left arrow is hidden at the start" + "no arrows" |
+| hidden by opacity only | "the left arrow is hidden at the start" + "no arrows" |
+| the hidden arrow's chevron re-enables visibility | "...and inert: the point under it is not the arrow" |
+| film strip off `attachInput`'s early-return list | the first mouse click falls through to the graph, which closes the strip |
+| arrow does not scroll | "the right arrow scrolled the row" + "the arrow moved the row" |
+| end test off by one | "the right arrow is hidden at the end" |
+| no end padding | "the first clip sits 1 inset in" |
+| fade ratio 2 | "at the start only the right edge fades" |
+| a fitting row shows its arrows | "no arrows" |
+| a fitting row keeps a constant mask | "no fades" |
+| reduced motion ignored | "and it was there on the next frame" |
+| arrows lose `.ng-chev` | the class assertion, both widths |
+
+**Neighbours:** 13 landing, deck, layer, pane and choice-row journeys, 114/114.
+
+**Payload.** First-hand core 360,299 B, +746 B over the accepted 359,553 (cap 6,000). This change's own share,
+gzip: `neural.js` +535 B, `neural.css` +201 B.
