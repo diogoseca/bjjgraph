@@ -9,7 +9,8 @@ import { multiBeltEndgame } from "./personas"
  * Momentum is per ROLL (v1.70.0): a fresh match starts cold. But there are two very
  * different ways to lose heat, and they must stay distinct:
  *   - _breakCombo (app.src.jsx:4345) — the PUNISHMENT: emits a combo_break beat, shatters
- *     the chip (data-combo-broken + 0.55s timer), folds "×N momentum gone" into the toast.
+ *     the chip (data-combo-broken + 0.55s timer); a landing outcome then stacks "×N momentum
+ *     lost" over your options (v1.218.0 — it used to fold "×N momentum gone" into the toast).
  *   - the cold reset in rollFromPosition (:4697) — plain bookkeeping: `_combo = 0;
  *     _landPending = false; _updateComboChip()` with NO _breakCombo call, so no beat, and
  *     the chip leaves through _updateComboChip's immediate non-shatter branch (:4373-4379).

@@ -20,6 +20,10 @@ function ngAuthIsGuest(auth) {
 // `def` is present on 100% of seats and `safety-notice` is first on every submission.
 const NG_READ_NAV = { def: "Definition", aka: "Names", "safety-notice": "Safety notice" };
 const NG_LAND_MORE_COL = "#7e8aa3";
+// THE OUTCOME'S CAUSE, ONCE (v1.218.0). false = variant A: per-card hits plus a one-word cause tag
+// rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
+// The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
+const NG_OUTCOME_BUBBLE = false;
 // The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
 // the collapsed More pill is drawn before the stylesheet arrives. One string so the two cannot
 // drift. `justify-content:center` is what centres the COLLAPSED pill (v1.195.7): shut, the inner
@@ -2149,7 +2153,6 @@ class Component extends DCLogic {
     // `clearOptions` drop a countdown for a hand that no longer exists without touching anything
     // else — including the "Time's up" line, which reaches this function and clears the flag here.
     this._evCountdown = null;
-    this._evExpiry = null; // the expiry sentence's lease (v1.138.0) — any newer sentence outranks it
     const k = this.evKickerRef.current, t = this.evTextRef.current, box = this.evRef.current;
     if (k) { k.textContent = kicker; k.style.color = this.toneColor(tone); }
     if (t) {
@@ -5006,7 +5009,6 @@ class Component extends DCLogic {
     if (!this._detailCtx) this._detailWasPaused = this.paused;
     this.setPaused(true);           // freeze MOTION while the player reads/confirms (the question clock never pauses — it was declined on the line below)
     this._declineLandQ("sheet");    // reading a move instead of answering = declining (v1.134.0)
-    this._dropExpiryEvent();        // reading a move — the expiry sentence lets go (v1.138.0)
     this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
     // v1.136.0 (owner): the landing card STAYS — the sheet maximizes IN FRONT of it (z:6 over
     // the card's z:5, its shadow falling on it), it does not make the card vanish. This also
@@ -11068,7 +11070,6 @@ class Component extends DCLogic {
   openDossier(idx, skipCam) {
     this._stopSystemPreview();
     this._stopConceptFilm();
-    this._dropExpiryEvent(); // reading a node — the expiry sentence lets go (v1.138.0)
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away
     this.track("neural_dossier_opened", { node: n.t, node_type: n.ty, mode: "card" });
@@ -11222,7 +11223,6 @@ class Component extends DCLogic {
   }
   _enterRoam() {
     if (this._roam) return;
-    this._dropExpiryEvent(); // roaming away — the expiry sentence lets go (v1.138.0)
     this._roam = true;
     // FREE ROAM ENDS THE ROLL — AND IT IS THE ONE END WITH NO LANDING BEHIND IT. Every other
     // path reaches `enterLand` -> `buildDrillPanel` a second later, which is what used to repaint
@@ -13665,7 +13665,11 @@ class Component extends DCLogic {
         value.title = view.tooltip || (view.state + ". " + view.detail);
       }
       const chance = oc.card.querySelector(".ngodds"), label = oc.card.querySelector("[data-immediate-label]");
-      if (chance) chance.textContent = view.immediate;
+      if (chance) {
+        const was = chance.textContent;
+        chance.textContent = view.immediate;
+        if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate);
+      }
       if (label) label.textContent = view.immediateLabel;
       const execute = oc.card.querySelector("[data-choice-execute]");
       if (execute) execute.setAttribute("aria-label", this.choiceLabel(oc.opt) + ". " + (view.recommended ? (view.recommendationLabel || "Recommended") + ". " : "") + "Win chance " + view.value + ", " + view.state + ". " + (view.immediateText || view.immediateLabel + " chance " + view.immediate) + ".");
@@ -14851,7 +14855,6 @@ class Component extends DCLogic {
   // Clamp at the ends: an edge is an edge, and the mini-deck's modulo wrap loses the reader's
   // place in a deck they are browsing.
   _landPageTo(dir) {
-    this._dropExpiryEvent(); // paging to another card — the expiry sentence lets go (v1.138.0)
     const el = this._landEl;
     if (!el || (this._landMode !== "land" && this._landMode !== "attempt")) return false;
     if (!this._landQ || !this._landQ.key || this._landPage == null) return false;
@@ -16402,21 +16405,143 @@ class Component extends DCLogic {
       // clock.
       const selfGraded = format === "recall";
       if (!selfGraded) this._comboUp();
-      // ×2+ gets the announcer pop — a toast underneath it would just mumble. The +2.5s refund
-      // died with the hand clock (v1.133.0): answering IS what the window was for.
-      if ((this._combo || 0) < 2) this.setEvent("Correct", "Odds up on this exchange", "good");
+      // The +2.5s refund died with the hand clock (v1.133.0): answering IS what the window was for.
+      // The outcome lands on the cards (v1.218.0); ×2+ still gets the combo pop on top.
+      this._outcome({ tone: "good", tag: "correct", big: "\u2191", sr: "Correct: your chances on these moves go up." });
     } else {
       const cost = tier === "trap" ? 0.08 : 0.04;
       this._qMod = (this._qMod || 0) - cost;
       const broke = this._breakCombo("wrong");
-      this.setEvent(
-        tier === "trap" ? "That one gets you hurt" : "Not quite",
-        "−" + Math.round(cost * 100) + "% on this exchange" + (broke >= 2 ? " · ×" + broke + " momentum gone" : ""),
-        "bad");
+      const pts = Math.round(cost * 100);
+      this._outcome({ tone: "bad", tag: tier === "trap" ? "that one hurts" : "missed", big: "\u2212" + pts + "%", broke: broke,
+        sr: (tier === "trap" ? "That one hurts" : "Missed") + ": your chances on these moves drop " + pts + " points." });
     }
     this.refreshOptionOdds();
     this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0, combo: this._combo || 0 });
     if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
+  }
+  // ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0, owner 2026-10-02) ════════════════════════════
+  // "this toast is very distracting, and i'm like -4%? wait what? … like that animation that happens
+  // in games for a character taking damage". A landing-question outcome used to be an announcer
+  // sentence at the top of the graph ("Too slow · Answer revealed · −4% on this exchange"), far from
+  // the numbers it changed. Now the CAUSE is named once, as a word rising above "Your options", and
+  // the EFFECT lands where it happens: every own card whose printed success number moves takes a
+  // hit (or a glint), and the real delta, read from the render, pops off that number.
+  // MEASURED before building it (real app, real solve): an outcome moves only YOUR options' small
+  // number, by exactly the cost (−4 expiry, −8 trap, +N correct); opponent threats' Odds and Win
+  // chance never move, so they never take a hit. Win chance re-solves a few seconds later.
+  // Presentation only — _qMod, _breakCombo and the odds are untouched. Wall-clock CSS (a paused
+  // roll must not freeze it, CLAUDE.md §6.2); pointer-events:none on every layer (§6.1); root plane
+  // z:16, the ambient-fx band (helmet.html ladder); anchored to MEASURED rects (§6.1), with the
+  // anchor's name published (`_outcomeAnchor`: "group" · "hand" · "landcard" · "none", §6.6).
+  // One polite aria-live sentence carries the whole outcome for screen readers.
+  _outcome(o) {
+    this._dropCountdownEvent(); // the countdown was this question's sentence; nothing replaces it
+    const sr = o.sr + (o.broke >= 2 ? " Your \u00d7" + o.broke + " momentum is lost." : "");
+    this._outcomeSay(sr);
+    this._outcomeHit = o.hits === false ? null : { tone: o.tone, t: performance.now(), hit: new Set() };
+    this._outcomeCause(o.tag, o.tone, 0, o.big);
+    if (o.broke >= 2) this._outcomeCause("\u00d7" + o.broke + " momentum lost", "bad", 1, "\u00d7" + o.broke);
+  }
+  _outcomeSay(text) {
+    const root = this.__ngRoot || document.body;
+    let live = this._outcomeLive;
+    if (!live || !live.isConnected) {
+      live = this._outcomeLive = document.createElement("div");
+      live.setAttribute("data-outcome-live", "1");
+      live.setAttribute("aria-live", "polite");
+      live.style.cssText = "position:fixed;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;pointer-events:none;";
+      root.appendChild(live);
+    }
+    live.textContent = text;
+  }
+  // The anchor, MEASURED, never a constant: the "Your options" label (A) or the hand's top edge (B);
+  // with no hand on screen, the landing card's top edge; with neither, no float ("none").
+  _outcomeAnchor() {
+    const ok = (el) => { if (!el || !el.isConnected) return null; const r = el.getBoundingClientRect(); return r.width > 0 && r.top > 0 ? r : null; };
+    const row = this._handShown() ? this.optionsRef.current : null;
+    const title = row && row.querySelector('[data-choice-group="you"] > div');
+    let r;
+    if (!NG_OUTCOME_BUBBLE && (r = ok(title))) return { kind: "group", r: r, el: title };
+    if ((r = ok(row)) && row.children.length) return { kind: "hand", r: r, el: null };
+    if (this._landEl && !this._landHidden() && (r = ok(this._landEl))) return { kind: "landcard", r: r, el: null };
+    return { kind: "none", r: null, el: null };
+  }
+  _outcomeCause(tag, tone, stack, big) {
+    const a = this._outcomeAnchor();
+    this._lastOutcomeAnchor = a.kind;
+    if (!a.r) return null;
+    const root = this.__ngRoot || document.body;
+    const col = this.toneColor(tone);
+    // SIZED BY RATIO to a token on screen (the owner's preference): the cards' own success number
+    const tok = parseFloat(getComputedStyle(this.optionsRef.current?.querySelector(".ngodds") || this._landEl || root).fontSize) || 15;
+    const el = document.createElement("div");
+    el.className = "ng-cause";
+    el.setAttribute("data-outcome-float", a.kind);
+    el.setAttribute("data-outcome-tone", tone);
+    el.setAttribute("aria-hidden", "true");
+    el.style.setProperty("--fbig", (tok * 1.9).toFixed(1) + "px");
+    el.style.setProperty("--ftag", (tok * (NG_OUTCOME_BUBBLE ? 1.25 : 1.35)).toFixed(1) + "px");
+    el.style.color = col;
+    el.innerHTML = (NG_OUTCOME_BUBBLE && big ? "<b>" + big + "</b>" : "") + "<span>" + tag + "</span>";
+    if (a.el) a.el.classList.remove("ng-group-hit"), void a.el.offsetWidth, a.el.classList.add("ng-group-hit"), a.el.style.setProperty("--fl", col);
+    root.appendChild(el);
+    const h = el.offsetHeight, w = el.offsetWidth, vw = window.innerWidth;
+    // the label's left edge (A), or the hand's centre (B / fallbacks); a second cause stacks above
+    const cx = a.kind === "group" ? a.r.left + w / 2 : a.r.left + a.r.width / 2;
+    el.style.left = Math.round(Math.max(8 + w / 2, Math.min(vw - 8 - w / 2, cx))) + "px";
+    el.style.top = Math.round(a.r.top - h - 4 - stack * h * 0.9) + "px";
+    el.style.setProperty("--rise", Math.round(Math.max(18, tok * 1.4)) + "px");
+    if (stack) el.style.animationDelay = (stack * 0.18) + "s";
+    setTimeout(() => el.remove(), 1300 + stack * 180 + 150); // wall clock: a paused roll still clears it
+    return el;
+  }
+  // ONE CARD TAKES THE HIT the moment its printed number changes (`paintChoiceValues`), with the
+  // delta READ FROM THE RENDER — never a constant — and only in the direction the outcome went.
+  _cardHit(oc, numEl, was, now) {
+    const h = this._outcomeHit;
+    if (!h || performance.now() - h.t > 1600 || h.hit.has(oc.card) || oc.opt.threat) return;
+    const a = /^(\d+)%$/.exec(String(was).trim()), b = /^(\d+)%$/.exec(String(now).trim());
+    if (!a || !b) return; // "—", "<1%", ">99%": no honest integer delta to show
+    const d = Number(b[1]) - Number(a[1]);
+    if (!d || (h.tone === "bad") !== (d < 0)) return;
+    h.hit.add(oc.card);
+    const col = this.toneColor(h.tone), card = oc.card;
+    card.style.setProperty("--fl", col); // the reduced-motion flash reads the outcome's colour too
+    card.classList.remove("ng-hit-bad", "ng-hit-good"); void card.offsetWidth;
+    card.classList.add(h.tone === "bad" ? "ng-hit-bad" : "ng-hit-good");
+    card.setAttribute("data-hit-delta", String(d));
+    numEl.style.setProperty("--fl", col);
+    numEl.classList.remove("ng-num-hit"); void numEl.offsetWidth; numEl.classList.add("ng-num-hit");
+    setTimeout(() => { card.classList.remove("ng-hit-bad", "ng-hit-good"); numEl.classList.remove("ng-num-hit"); }, 900);
+    // the number ticks to its new value (the final text is already written; the tick only replays it)
+    if (!this.isTest()) {
+      const from = Number(a[1]), to = Number(b[1]), t0 = performance.now(), dur = 380;
+      let mine = numEl.textContent; // the final value, already written
+      const step = (ts) => {
+        if (numEl.textContent !== mine) return; // someone repainted it since: their value stands
+        const k = Math.min(1, (ts - t0) / dur);
+        mine = numEl.textContent = k < 1 ? Math.round(from + (to - from) * k) + "%" : now;
+        if (k < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    }
+    // the delta pops off the number and rises, fading while it still rises
+    const r = numEl.getBoundingClientRect();
+    if (!(r.width > 0 && r.top > 0)) return;
+    const pop = document.createElement("div");
+    pop.className = "ng-hitpop";
+    pop.setAttribute("data-hit-pop", String(d));
+    pop.setAttribute("aria-hidden", "true");
+    pop.textContent = (d > 0 ? "+" : "\u2212") + Math.abs(d) + "%";
+    const tok = parseFloat(getComputedStyle(numEl).fontSize) || 15;
+    pop.style.setProperty("--hp", (tok * 1.3).toFixed(1) + "px");
+    pop.style.setProperty("--rise", Math.round(tok * 2.2) + "px");
+    pop.style.color = col;
+    pop.style.left = Math.round(r.left + r.width / 2) + "px";
+    pop.style.top = Math.round(r.top - tok * 0.6) + "px";
+    (this.__ngRoot || document.body).appendChild(pop);
+    setTimeout(() => pop.remove(), 1250);
   }
   // ── MOMENTUM: the combo meter ──
   // Answer landing questions right back-to-back and the whole match tilts your way: every option
@@ -17164,7 +17289,6 @@ class Component extends DCLogic {
     }
   }
   stageRollAt(nodeIdx) {
-    this._dropExpiryEvent(); // exploring another node — the expiry sentence lets go (v1.138.0)
     this.rollFromPosition(nodeIdx, true);
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null, technique: this._stagedTech && this.nodes[this._stagedTech.idx] ? this.nodes[this._stagedTech.idx].t : null });
@@ -18145,8 +18269,9 @@ class Component extends DCLogic {
       this.fx("land_q_expired", { surface: "panic", deckKey: (pf && pf.pk) || null });
       const broke = this._breakCombo("slow");
       this._dockLandCard(card);
-      this.setEvent("Too slow", "The answer's on the table \u2014 no pump" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
-      this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)
+      // no number moves here, so no card takes a hit: the cause is named and the escapes stay as they are
+      this._outcome({ tone: "bad", tag: "too slow", big: "no boost", broke: broke, hits: false,
+        sr: "Too slow: the answer is revealed, and your escapes get no boost." });
       return;
     }
     // LANDING QUESTION: reveal the mounted block as a miss — the card was shown, so it is spent
@@ -18178,23 +18303,14 @@ class Component extends DCLogic {
     const broke = this._breakCombo("slow");
     this._landPending = false;
     if (this._landEl) this._dockLandCard(this._landEl);
+    // armed BEFORE the refresh, so the repaint that moves each card's number is the one that hits it
+    this._outcome({ tone: "bad", tag: "too slow", big: "\u22124%", broke: broke,
+      sr: "Too slow: the answer is revealed, and your chances on these moves drop 4 points." });
     this.refreshOptionOdds();
-    this.setEvent("Too slow", "Answer revealed \u00b7 \u22124% on this exchange" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
-    this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)
   }
-  // ── THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0, owner) ─────────────────────
-  // "The 'Answer revealed · −4%' banner stays pinned while exploring other cards/nodes." The
-  // penalty was paid at expiry; the sentence's job is done the moment attention moves on. It
-  // fades ~5s after it was written (the frame loop below) or IMMEDIATELY when focus moves —
-  // staging another node, free roam, opening an option sheet, paging the deck, opening a
-  // dossier — through this one drop seam. The stamp survives nothing else: any newer setEvent
-  // releases it (one slot, stamped owners — the _evCountdown pattern).
-  _dropExpiryEvent() {
-    if (this._evExpiry == null) return;
-    this._evExpiry = null;
-    const box = this.evRef.current;
-    if (box) box.style.opacity = "0"; // the .ng-evtoast CSS eases it out
-  }
+  // (The v1.138.0 "expiry sentence is a lease" — `_evExpiry`, `_dropExpiryEvent`, its five drop
+  // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
+  // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
@@ -19396,7 +19512,6 @@ class Component extends DCLogic {
         // the real frame delta. The live roll's own pulse was parked at `startReplay` and is handed
         // back on stop, so nothing of the roll advances here.
         this.updateTravel(this._replay ? dt : gdt);
-        if (this._evExpiry != null && (this.now || 0) - this._evExpiry > 5) this._dropExpiryEvent(); // v1.138.0: the expiry sentence lets go after ~5s
         this._tickDecision(dt); // v1.134.0: the question clock NEVER pauses — "that's our test to the user" (owner); motion still freezes on the internal pause
         this.updateFlash();
         this.updateRipples();

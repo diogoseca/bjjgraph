@@ -368,10 +368,16 @@ was retired in v1.133.0 with the hand clock: expiry is a missed answer, never a 
 
 ### The announcer
 
-One slot, stamped owners. The expiry sentence ("Answer revealed · −4%") is a LEASE since
-v1.138.0 (`_evExpiry`): it drops the moment focus moves — staging, roam, the option sheet, the
-dossier, deck paging, one seam (`_dropExpiryEvent`) — or ~5s after it was written; any newer
-sentence releases the stamp on its way in. And **one subject per label**: the announcer names
+One slot, stamped owners. **The landing question's outcomes are not in it** (v1.218.0, owner: the
+toast was distracting and "−4%" read as "wait, what?"). They land on the cards (`_outcome`): each
+"Your options" card whose printed chance moves takes a hit — red flash and recoil for a cost, green
+glint for a gain — and the REAL before/after delta pops off its number (`_cardHit`, hooked in
+`paintChoiceValues`, so a card that does not move takes nothing; threat odds never move, so threats
+never take one). The cause is named once, rising from the measured "Your options" label ("too
+slow", "missed", "that one hurts", "correct"; a broken streak stacks "×N momentum lost"), with one
+polite aria-live sentence. Wall-clock CSS, `pointer-events:none`, z 16; reduced motion keeps the
+flash and the number change only. That retired v1.138.0's expiry lease (`_evExpiry`): nothing
+outcome-shaped is left to pin. And **one subject per label**: the announcer names
 **who is initiating** ("You go for" /
 "Opponent goes for"), and the graph verb names **your posture** toward that move. They can never
 contradict because they answer different questions. Whoever writes the slot owns its lifetime —
