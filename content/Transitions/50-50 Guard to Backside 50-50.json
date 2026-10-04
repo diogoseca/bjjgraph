@@ -17,15 +17,15 @@
     {
       "to": "Backside 50-50/Top",
       "probability": {
-        "gi": 60,
-        "nogi": 60
+        "gi": 52,
+        "nogi": 50
       },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
       "probability": {
-        "gi": 25,
+        "gi": 22,
         "nogi": 25
       },
       "result": "failure"
@@ -33,8 +33,24 @@
     {
       "to": "50-50 Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 13,
+        "nogi": 10
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": {
+        "gi": 7,
+        "nogi": 8
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Backside 50-50/Bottom",
+      "probability": {
+        "gi": 6,
+        "nogi": 7
       },
       "result": "counter"
     }

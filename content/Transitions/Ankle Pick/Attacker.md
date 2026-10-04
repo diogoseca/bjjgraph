@@ -328,9 +328,11 @@ The technique's strategic value extends beyond the takedown itself. Every ankle 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Side Control]] | 25% |
 | Failure | [[Positions/Standing Position]] | 35% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Closed Guard]] | 12% |
+| Success | [[Positions/Open Guard]] | 18% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -440,8 +442,8 @@ When practicing the Ankle Pick, both training partners must be aware of specific
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Scoring: Read the Whole Exchange</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Ankle Pick.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Scoring-Strategy" data-cta="related-system-card" data-system-slug="systems/competition-scoring-strategy" data-system-name="Competition Scoring Strategy" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Points, Control and Tiebreakers</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related transition reference: Ankle Pick.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

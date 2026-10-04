@@ -14,18 +14,10 @@
   "from_position": "Standing Position/Top",
   "outcomes": [
     {
-      "to": "50-50 Guard/Top",
-      "probability": {
-        "gi": 60,
-        "nogi": 60
-      },
-      "result": "success"
-    },
-    {
       "to": "Standing Position/Top",
       "probability": {
         "gi": 30,
-        "nogi": 30
+        "nogi": 15
       },
       "result": "failure"
     },
@@ -33,7 +25,23 @@
       "to": "Open Guard/Bottom",
       "probability": {
         "gi": 10,
-        "nogi": 10
+        "nogi": 25
+      },
+      "result": "counter"
+    },
+    {
+      "to": "50-50 Guard/Bottom",
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
+      "result": "success"
+    },
+    {
+      "to": "Front Headlock/Bottom",
+      "probability": {
+        "gi": 5,
+        "nogi": 5
       },
       "result": "counter"
     }

@@ -160,10 +160,11 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Open Guard]] | 55% |
-| Success | [[Positions/Turtle]] | 10% |
-| Failure | [[Positions/Front Headlock]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Success | [[Positions/Turtle]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 27% |
 | Counter | [[Positions/Back Control]] | 10% |
+| Counter | [[Positions/Darce Control]] | 8% |
 
 
 </section>

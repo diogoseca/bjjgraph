@@ -160,9 +160,11 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/Backside 50-50]] | 60% |
+| Success | [[Positions/Ashi Garami/Backside 50-50]] | 50% |
 | Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
-| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
+| Failure | [[Positions/Open Guard]] | 8% |
+| Counter | [[Positions/Ashi Garami/Backside 50-50]] | 7% |
 
 
 </section>

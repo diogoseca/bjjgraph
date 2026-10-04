@@ -141,9 +141,11 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Anaconda Control]] | 58% |
-| Failure | [[Positions/Turtle]] | 28% |
-| Counter | [[Positions/Turtle]] | 14% |
+| Success | [[Positions/Anaconda Control]] | 44% |
+| Failure | [[Positions/Turtle]] | 18% |
+| Counter | [[Positions/Turtle]] | 12% |
+| Success | [[Positions/Side Control]] | 14% |
+| Failure | [[Positions/Front Headlock]] | 12% |
 
 
 </section>

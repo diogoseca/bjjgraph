@@ -162,9 +162,11 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Rubber Guard/Chill Dog]] | 55% |
-| Failure | [[Positions/Rubber Guard/New York]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Chill Dog]] | 45% |
+| Failure | [[Positions/Rubber Guard/New York]] | 28% |
+| Counter | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Triangle Control]] | 12% |
+| Counter | [[Positions/Half Guard]] | 5% |
 
 
 </section>

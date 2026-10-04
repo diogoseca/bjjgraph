@@ -141,9 +141,10 @@ From a strategic standpoint, the 50-50 entry from standing bypasses many traditi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/50-50 Guard]] | 60% |
-| Failure | [[Positions/Standing Position]] | 30% |
-| Counter | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Open Guard]] | 25% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Counter | [[Positions/Front Headlock]] | 5% |
 
 
 </section>
@@ -339,8 +340,8 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle and Leg-Lock Dilemmas</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Down Under Leg Attacks</span><span class="system-card__unlocks-badge">25 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/B-Team-Dilemma-System" data-cta="related-system-card" data-system-slug="systems/b-team-dilemma-system" data-system-name="B-Team Dilemma System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Triangle and Leg-Lock Combinations</span><span class="system-card__unlocks-badge">23 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>
