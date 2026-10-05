@@ -58,6 +58,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
 - **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
 - **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
+- **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10146,3 +10147,77 @@ New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
 | `_dropCountdownEvent` removed | "the countdown stamp was released at expiry" + two more |
 
 **Payload.** First-hand core (the delta basis) 362,161 B: +2,608 B over the accepted 359,553 B (cap 6,000), and +1,862 B over the 360,299 B the v1.217.0 entry measured for dev. Eager gzip 342,630 B (+2,615 B over 340,015 B, cap 5,000). This change's own share, gzip -9 against dev's bundle: `neural.js` +1,259 B, `neural.css` +602 B.
+
+## v1.218.1 — THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES
+
+**Owner, 2026-10-05, testing the dev preview at v1.218.0:**
+1. "when i'm in ezekiel choke from side control (defending), and i try to click this choice: [Escape · Chin tuck
+   with two-on-one forearm block · Win chance 13% · Inspect · Escape 35%] it doesnt seem possible, any click on
+   that card works as inspect and that shouldnt be so, it's a choice i just chose, not to inspect but to move"
+2. "sometimes clicking a choice card causes it to vanish (maybeo nly in submissions case? coudlnt confirm the
+   scope)"
+
+**Item 1, why escapes were inspect-only.** `activateOption` sent every escape and every threat to
+`expandOption`, whatever was clicked (and any plain digit too).
+- The route dates from v1.176.0 (`cdc35cefe`, submission states own their choices). Escapes had no Inspect control
+  then, and the preview's go button was the only way to read one before committing.
+- Phase 1 (`431c4cebf`, 2026-09-26) gave every own card an Inspect button and wrote the contract down ("a choice
+  executes; inspection is explicit"; docs/Neural.md: "escape cards have Inspect"). It kept the old escape route,
+  so on escapes the Inspect button and the card did the same thing.
+- **Fix:** an escape obeys the contract. The card and its digit play it; Inspect and Shift+digit open its preview.
+  A threat is the opponent's move and stays inspect-only.
+- `submission-choices.spec.ts` pinned the old route (a plain digit opened the preview, and its go button played the
+  escape). It is inverted on the owner's rule.
+
+**Item 2, the vanish, named.** Probed in the real app (dev-serve, real clock, not the harness), clicking by mouse at
+1440 and 390, scrolled and not, pane open and shut, and reading the chosen card's state every ~50 ms:
+- **The vanish:** the escape hand (`enterDefense`, which a URL arrival on a Defender seat also runs) cleared the
+  whole hand on a pick and left nothing. Every other pick leaves `executionCard`'s non-actionable copy reading
+  Executing, then its result. At Ezekiel Choke from Side Control/Defender, the hand had 0 stand-in frames in the
+  2.5 s after the pick, with an empty row. This is the "submissions case".
+- **The second fault, same seam:** the stand-in's offset ignored the row's left padding (the tray inset plus the
+  open pane), so it landed beside the card, not on it:
+  - 378 px to the right with the pane open at 1440 (card at 377, stand-in at 759);
+  - 24 px with the pane shut, and 12 px at 390.
+  - Its clamp also stopped at the content box, so a card scrolled into the right inset moved 23.5 px.
+- **Not defects, measured:**
+  - a Finish that succeeds removes its stand-in when the round ends, and "You finished it" takes the screen;
+  - an entry's stand-in lifts on arrival, when the submission's own hand deals.
+- **Left as is:** on a submission hand at 390, the stand-in sits 11 px higher than the card, because the landing
+  card's push on the tray (`_landDatum().tray - push`) is undone when the hand clears.
+
+**Fix.**
+- The escape pick takes the same stand-in, taken before the teardown that empties `_optionCards`.
+- Its sentences go through `executionEvent`, so the stand-in owns the announcer until "Escaped!" or "Still
+  defending" (setEvent's stamp). Without that, the result line was blocked: the mutant proves it.
+- It does not take the camera: the catch keeps its `frameNodes` framing.
+- `executionCard` measures from the content box and clamps to the row's visible extent, which is both insets and
+  never under the pane.
+- The seat chooser (`confirmPlayFrom`) is a radio + confirm dialog, not a card, so it has no inspect/execute
+  question.
+
+**Pinned by** `e2e/journeys/card-click-contract.spec.ts`, all by MOUSE (`j.clickByMouse`):
+- **Inspect inspects and the body executes,** for a transition, an entry, a Finish and an escape;
+- a threat click previews and never plays;
+- **the chosen escape stays on the table** where the card was, until "Landed" and "Escaped!", at 1440 and 390;
+- the stand-in sits on the clicked card with the pane open, and in the left inset.
+
+The spec waits out each card's .34 s deal-in ease before measuring (a first run measured mid-ease: 8 px).
+
+| mutant (one at a time, built bundle) | red at |
+|---|---|
+| neutral control | green |
+| escape body click inspects again | "a click on the body of "Posture up" does not inspect", the vanish test ×2, submission-choices' digit |
+| a threat routed to pick | "a threat opens its preview" |
+| Inspect executes | "Inspect on "<card>" opens its detail", all four kinds |
+| the escape pick leaves no stand-in | "...and the chosen card stays on the table" + the vanish test at both widths |
+| row padding not subtracted | "...exactly where the card was" (48 vs 24; 24 vs 12) + the left-inset test |
+| clamp upper bound at the content box | the pane test (1266 vs 1289.5) |
+| clamp lower bound 0 | the left-inset test (24 vs 12) |
+| escape result through setEvent | "the stand-in shows the escape's result", both widths |
+| **non-kill, recorded:** the escape stand-in takes the camera | survives; the catch's framing is not pinned |
+
+**Payload.**
+- First-hand core 362,215 B: +2,662 B over the accepted 359,553 (cap 6,000), and +54 B over the 362,161 B the
+  v1.218.0 entry measured.
+- This change's own share, gzip -9 against dev's bundle: `neural.js` +37 B, `neural.css` 0.

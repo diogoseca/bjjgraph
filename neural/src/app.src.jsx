@@ -18380,10 +18380,18 @@ class Component extends DCLogic {
     const digit = e.shiftKey && /^Digit[1-9]$/.test(e.code || "") ? e.code.slice(-1) : e.key;
     return /^[1-9]$/.test(digit || "") ? Number(digit) - 1 : -1;
   }
+  // THE CARD IS THE MOVE, INSPECT IS THE BUTTON (v1.218.1, owner 2026-10-05: "any click on that card
+  // works as inspect and that shouldnt be so, it's a choice i just chose, not to inspect but to
+  // move"). An ESCAPE is your own choice and obeys the Phase 1 contract like every other: the card
+  // (and its plain digit) executes; Inspect (and Shift+digit) opens its preview. Escapes were
+  // preview-first since v1.176.0, when they had no Inspect control and the preview's go button was
+  // the only way to read one before committing; Phase 1 gave them Inspect and kept the old route.
+  // A THREAT stays inspect-only: it is the opponent's move, never yours to play.
+  // Pinned by e2e/journeys/card-click-contract.spec.ts.
   activateOption(opt, pick, card, inspect) {
     if (!opt || this._execution || this._checkpoint || (this._rollHand && !this._rollHand.mounted)) return;
     this._handTouched = true;
-    if (inspect || opt.threat || opt.action === "escape") this.expandOption(opt, pick, card);
+    if (inspect || opt.threat) this.expandOption(opt, pick, card);
     else if (pick) pick(opt);
   }
   executionCard(opt) {
@@ -18393,7 +18401,17 @@ class Component extends DCLogic {
     const row = this.optionsRef.current;
     // Keep the chosen card under the pointer for a repeated click. Clamp an off-screen
     // keyboard choice into view; the percentage bound also survives a narrower viewport.
-    if (row) card.style.marginLeft = "clamp(0px, " + (shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left) + "px, calc(100% - 150px))";
+    // The margin starts at the row's CONTENT box (`clearOptions` rewinds scrollLeft to 0), so the
+    // row's left padding comes off: it is the tray inset plus the open pane (`updateUiShift`), and
+    // leaving it in threw the stand-in 378px right of the card you clicked with the pane open at
+    // 1440 (24px with it shut, 12px at 390). The clamp is the row's VISIBLE extent: a card can be
+    // scrolled into the inset on either side, so the bounds reach into both insets, never under the
+    // pane. Pinned by e2e/journeys/card-click-contract.spec.ts.
+    if (row) {
+      const cs = getComputedStyle(row), padL = parseFloat(cs.paddingLeft) || 0, padR = parseFloat(cs.paddingRight) || 0;
+      const x = shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left - padL;
+      card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - 150px + " + padR + "px))";
+    }
     card.removeAttribute("data-tech");
     card.removeAttribute("data-choice-action");
     card.removeAttribute("tabindex");
@@ -19027,9 +19045,21 @@ class Component extends DCLogic {
     const pick = (opt) => {
       if (picked || opt.threat) return; picked = true;
       const chance = this.escapeChance(opt); // computed BEFORE teardown (needs _defendSub/_panicKey)
+      // THE CHOSEN ESCAPE STAYS ON THE TABLE (v1.218.1, owner 2026-10-05: "sometimes clicking a choice
+      // card causes it to vanish (maybe only in submissions case?)"). Every other pick leaves a
+      // non-actionable copy of its card showing Executing and then the result (`executionCard`,
+      // Phase 1); this one cleared the whole hand and showed nothing, on every escape, in every
+      // submission you defend. It now takes the same stand-in, taken BEFORE the teardown that
+      // empties `_optionCards`. The catch keeps its own framing (`frameNodes`), so the stand-in
+      // does not take the camera, and its sentences go through `executionEvent`: the stand-in
+      // owns the announcer until its result (setEvent's stamp), as an attempt's does.
+      // Pinned by e2e/journeys/card-click-contract.spec.ts.
+      const card = this.executionCard(opt);
       this._rollActed = true;
       this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard();
-      this.setEvent("Escaping", this.choiceLabel(opt), "info");
+      this.startExecution(opt, card);
+      this._execution.camera = false;
+      this.executionEvent("Escaping", this.choiceLabel(opt), "info", "executing");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.res], () => {
         this._defendSub = null; this._panicKey = null;
@@ -19048,7 +19078,7 @@ class Component extends DCLogic {
           // currentPos`) still renders no "you aimed for" line here — this adds the film's edge,
           // not a new sentence in the history row.
           this._pendingIntent = { actor: "you", idx: opt.res, via: subIdx, kind: "escape" };
-          this.setEvent(stillCaught ? "Still defending" : "Escaped!", this.displayName(this.nodes[landed]), stillCaught ? "info" : "good");
+          this.executionEvent(stillCaught ? "Still defending" : "Escaped!", this.displayName(this.nodes[landed]), stillCaught ? "info" : "good", "landed");
           this.after(0.7, () => this.enterLand(false));
         } else { finish(); }
       });
