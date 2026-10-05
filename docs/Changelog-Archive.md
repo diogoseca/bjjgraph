@@ -60,6 +60,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
+- **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10246,3 +10247,14 @@ also fails CORS on every `*.pages.dev` host.
 violation); `e2e/journeys/console-clean.spec.ts` replays the owner's path; `scripts/check_deployed_console.mjs`
 runs after both deploys against the real site. Mutants for each are in the spec headers and PR #266. No capture:
 the census and SEO baselines did not move.
+
+## v1.218.5 — THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME
+
+v1.218.3's first green dev deploy (run 37308600818) printed every host the browser saw, so the PostHog
+proxy's hostname went into a public Actions log, though the CSP allows `*.bjjgraph.org` precisely to keep that
+name out of this repo. GitHub masks a secret only where its exact value appears, not the bare host inside it.
+`scripts/check_deployed_console.mjs` now builds every line in one pure `report()`, redacting the
+`POSTHOG_API_HOST` host as `<posthog-proxy>` (any case, whole hosts only), and `main` prints nothing else.
+Four mutants (unredacted output, unredacted stderr, a case-sensitive redactor, the raw secret instead of its
+host) each turn a named test in `tests/deployed_console.test.mjs` red; a control proves the fixture really
+carries the host. The one log that already printed it is the owner's call to delete.

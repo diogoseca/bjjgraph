@@ -34,6 +34,8 @@
 // this sends no analytics events.
 //
 // Usage: node scripts/check_deployed_console.mjs <origin>       e.g. https://bjjgraph.org
+// It reads POSTHOG_API_HOST (both deploy jobs export it) ONLY to print that host as <posthog-proxy>:
+// its logs are public, and the proxy's name stays out of this repo (see report()).
 // Exit: 0 clean · 1 offenders (each printed) · 2 could not run.
 import { pathToFileURL } from "node:url"
 
@@ -158,7 +160,52 @@ async function run(originArg) {
   return log
 }
 
+/** The PostHog proxy's host, from the same POSTHOG_API_HOST the build's PostHog snippet uses, in any
+ *  form the secret takes ("https://h/", "h"); "" when unset. */
+export function proxyHost(env = process.env) {
+  const raw = String(env.POSTHOG_API_HOST ?? "").trim()
+  if (!raw) return ""
+  try {
+    return new URL(/^[a-z][a-z0-9+.-]*:\/\//i.test(raw) ? raw : `https://${raw}`).hostname.toLowerCase()
+  } catch {
+    return ""
+  }
+}
+
+/** Replaces every whole occurrence of `host` with <posthog-proxy>, case-insensitively. */
+export function redactor(host) {
+  if (!host) return (text) => String(text)
+  const re = new RegExp(`(?<![A-Za-z0-9.-])${host.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![A-Za-z0-9-])`, "gi")
+  return (text) => String(text).replace(re, "<posthog-proxy>")
+}
+
+/** EVERY line this check prints, already redacted, plus its exit code. Pure, so a test can hold
+ *  the whole output to the rule.
+ *
+ *  REDACTED (CONSOLE5, 2026-10-05): the first green run printed the hosts it saw, and the PostHog
+ *  proxy's hostname went into a public Actions log. The repo keeps that name out on purpose (the
+ *  CSP allows `*.bjjgraph.org` instead), and GitHub masks a secret only where its EXACT value
+ *  appears, never the bare host inside it. So every line, offenders included, goes through one
+ *  redactor here, and `main` prints nothing it did not get from this function. */
+export function report(log, env = process.env) {
+  const r = redactor(proxyHost(env))
+  const { offenders, discounted, offProduction } = classify(log)
+  const out = [
+    `[deployed-console] ${log.origin}: ${log.responses.length} responses from ${log.hosts.length} hosts ` +
+      `(${log.hosts.join(" ")}); navigated to ${log.finalPath}; move played: ${!!log.played}; ` +
+      `${log.headChecked} head resources fetched; CSP ${log.csp ? `present (${log.csp.split(";").length} directives)` : "ABSENT"}`,
+  ]
+  const err = []
+  if (discounted.length)
+    out.push(`[deployed-console] discounted ${discounted.length} console error(s): Cloudflare Web Analytics answers CORS only on ${ANALYTICS_SITE_HOST}, and this is ${new URL(log.origin).hostname}:\n  ${discounted.join("\n  ")}`)
+  else if (offProduction) out.push("[deployed-console] the off-production RUM exception matched nothing")
+  if (offenders.length) err.push(`[deployed-console] FAIL — ${offenders.length} offender(s):\n  ${offenders.join("\n  ")}`)
+  else out.push("[deployed-console] OK — clean console, no CSP violation, no broken same-origin URL")
+  return { out: out.map(r), err: err.map(r), code: offenders.length ? 1 : 0 }
+}
+
 async function main() {
+  const r = redactor(proxyHost())
   const originArg = process.argv[2]
   if (!originArg) {
     console.error("usage: node scripts/check_deployed_console.mjs <origin>")
@@ -168,23 +215,13 @@ async function main() {
   try {
     log = await run(originArg)
   } catch (e) {
-    console.error(`[deployed-console] could not run against ${originArg}: ${e?.message ?? e}`)
+    console.error(r(`[deployed-console] could not run against ${originArg}: ${e?.message ?? e}`))
     process.exit(2)
   }
-  const { offenders, discounted, offProduction } = classify(log)
-  console.log(
-    `[deployed-console] ${log.origin}: ${log.responses.length} responses from ${log.hosts.length} hosts ` +
-      `(${log.hosts.join(" ")}); navigated to ${log.finalPath}; move played: ${!!log.played}; ` +
-      `${log.headChecked} head resources fetched; CSP ${log.csp ? `present (${log.csp.split(";").length} directives)` : "ABSENT"}`,
-  )
-  if (discounted.length)
-    console.log(`[deployed-console] discounted ${discounted.length} console error(s): Cloudflare Web Analytics answers CORS only on ${ANALYTICS_SITE_HOST}, and this is ${new URL(log.origin).hostname}:\n  ${discounted.join("\n  ")}`)
-  else if (offProduction) console.log("[deployed-console] the off-production RUM exception matched nothing")
-  if (offenders.length) {
-    console.error(`[deployed-console] FAIL — ${offenders.length} offender(s):\n  ${offenders.join("\n  ")}`)
-    process.exit(1)
-  }
-  console.log("[deployed-console] OK — clean console, no CSP violation, no broken same-origin URL")
+  const { out, err, code } = report(log)
+  for (const line of out) console.log(line)
+  for (const line of err) console.error(line)
+  process.exit(code)
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) main()
