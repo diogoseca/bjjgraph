@@ -77,14 +77,17 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   // INSPECT IS SHIFT+DIGIT, THE DIGIT PLAYS (v1.218.1, owner 2026-10-05: an escape is "a choice i just
   // chose, not to inspect but to move"). This spec pinned the old preview-first escape: a plain
   // digit opened the preview and only its go button played the escape. Inverted on the owner's rule.
+  // The escape inspects in the ONE option sheet (v@CARD2@): its play button reads "Posture up ⏎", and
+  // the sheet closes to opacity 0 (Playwright counts that as visible), so "closed" is `_detailCtx`.
+  const inspecting=()=>page.evaluate(()=>!!(window as any).__neural._detailCtx)
   await page.keyboard.press('Shift+Digit'+key)
   await expect(page.locator('[data-choice-preview]')).toContainText('Posture up')
-  await expect(page.locator('[data-choice-go]')).toHaveText('Posture up')
+  await expect(page.locator('[data-choice-go]')).toContainText('Posture up')
   await page.keyboard.press('Escape')
-  await expect(page.locator('[data-choice-preview]')).not.toBeVisible()
+  await expect.poll(inspecting,'Escape closes the sheet').toBe(false)
   await j.rig('escape',[0])
   await page.keyboard.press(key)
-  await expect(page.locator('[data-choice-preview]'),'the plain digit plays the escape: no preview').not.toBeVisible()
+  expect(await inspecting(),'the plain digit plays the escape: nothing inspects').toBe(false)
   await expect(page.locator('[data-executing-tech="Posture up"]'),'...and the chosen escape stays on the table').toHaveCount(1)
   await j.advance(4000)
   const landed=await page.evaluate(()=>{const a=(window as any).__neural;return {role:a.playerRole,position:a.nodes[a.currentPos].posId,history:a.rollLog.map((r:any)=>r.key)}})

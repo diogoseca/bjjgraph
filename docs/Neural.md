@@ -224,14 +224,16 @@ Clicking an own option or pressing its plain digit (1–9) commits it once. The 
 **Inspect** button and **Shift+1–9** open its existing detail sheet without committing;
 shifted keys use their physical Digit code so keyboard layouts do not lose inspection.
 Enter/X still executes from that sheet. Escapes obey the same contract (v1.218.1, owner: "it's a
-choice i just chose, not to inspect but to move"): the card and its digit play it, Inspect and
-Shift opens its preview. Threats are the opponent's moves and stay inspect-only.
+choice i just chose, not to inspect but to move"): the card and its digit play it; Inspect and
+Shift+digit inspect it. Threats are the opponent's moves and stay inspect-only. Both inspect in the
+one option sheet (v@CARD2@, `_stateChoiceSheet`), with the submission's safety notice and guide.
 Hidden hands, checkpoints, text entry and the visible quiz retain keyboard priority. Closing
 Inspect restores the pause state it found.
 
 After commit, the live hand is cleared and a non-actionable copy of the chosen card remains,
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
-included (v1.218.1; they used to clear the hand and show nothing).
+included (v1.218.1; they used to clear the hand and show nothing). Its face rises 1/12 of its
+height and settles (`_placeOnTable`, 0.44 s, none under reduced motion); its holder never moves.
 It keeps the displayed odds and shows Executing, then the actual Landed, Failed or Countered
 result. Submission entry shows Entering and remains deterministic; it does not acquire a roll
 or a new interpretation of its printed odds. The existing sweep lasts **1.08 seconds** and
@@ -399,7 +401,8 @@ deferred worker (`game-model.worker.js`; mechanics under `static/neural/mdp/`) o
 seats, gi/no-gi, move counter, momentum, sharpness, question penalty, belt verdict, `opponentDefend`. Objective `max-win/min-loss/min-nontermination`. Practice moves odds and forward
 value through ONE module (`knowledge-profile.src.js`), so a correct answer moves the numbers.
 
-- **Card**: Win chance plus the immediate chance (Move / Finish / Escape). A submission dealt on a
+- **Card**: Win chance plus the immediate chance (Move / Finish / Escape), which leads: Win chance
+  is 0.6 of its size (`NG_CARD_*`, v@CARD2@). A submission dealt on a
   position is an ENTRY: stepping in is certain, so its small line is **Works** and the chance of the
   finish it leads to, as the landed state will roll it (the adapter's `followUp`) — never the
   step's own 100% (v1.213.0, owner 2026-10-01). Inspect shows the same number and says the step

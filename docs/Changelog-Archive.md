@@ -59,6 +59,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
 - **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
+- **v@CARD2@** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v@CARD2ANCHOR@--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10221,3 +10222,46 @@ The spec waits out each card's .34 s deal-in ease before measuring (a first run 
 - First-hand core 362,215 B: +2,662 B over the accepted 359,553 (cap 6,000), and +54 B over the 362,161 B the
   v1.218.0 entry measured.
 - This change's own share, gzip -9 against dev's bundle: `neural.js` +37 B, `neural.css` 0.
+
+## v@CARD2@ — THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET
+
+Owner, 2026-10-05 (items 3–5 of the dev-preview notes; 1–2 shipped as v1.218.1). Owner screen (CARD2) before merge.
+
+**Item 3:** "the win chance label and value% should be significantly smaller than the move label and value%".
+- Every card size is a ratio of the move's own % (`NG_CARD_MOVE_NUM` 15 px), set as custom properties:
+  - move label 0.75 (9 → 11.25 px);
+  - Win chance label and value 0.6 (10/16 → 9/9 px);
+  - a threat's header Win chance 0.6 of its Odds (13 → 9 px).
+- No number changed. The sheet's own Win chance block is unchanged.
+
+**Item 4:** "perhaps it should move a little bit up as if putting a card on the table".
+- `executionCard` returns a static holder that owns the rectangle, status and input. `_placeOnTable` lifts the
+  cloned face inside it: rise `NG_CARD_LIFT` = 1/12 of its height (12 px), scale 1.035, set down at 0.985, settle,
+  over `NG_CARD_LIFT_MS` 440.
+- No rise under reduced motion.
+- A row that scrolls in x clips in y, so the row holding only the stand-in is `overflow:visible`. The deal restores
+  `auto/hidden`; an entry reaches the next deal with no `clearOptions` between.
+
+**Item 5:** "inspect in a submission is not consistent design as the inspect of other techniques".
+- Escapes and threats had a bare floating panel (`previewStateChoice`, retired). `expandOption` now renders them,
+  and `_stateChoiceSheet` names only what differs:
+  - the category word, the title, "out of <submission>";
+  - the card's number under ESCAPE CHANCE / THEIR ODDS;
+  - the → line;
+  - the body: a defense's authored detail as reading sections, opened by the submission's safety notice and closed
+    by its safety guide (§7). An opponent's technique reads its own breakdown from the defender's side.
+- A threat has no play button (Enter already refused).
+- The sheet's buttons are now `min-height:44px` (they were 41).
+
+**Pinned by** `e2e/journeys/card-presentation.spec.ts` at 1440/390: measured ratios on every card of three hands;
+the app's own animation paused at its scanned peak (rise, holder still, no click hole, unclipped, settles); reduced
+motion; sheet parity against a transition's sheet, with seeded safety. 16 mutants red by name, control green.
+- Two first cuts were wrong: the settle check read the transform at `currentTime = duration` (unfilled, so it
+  read nothing), and the holder mutant went red at a precondition. Both are fixed and re-killed.
+- Recorded non-kill: the play button's min-height alone (the footer stretches it to Back's 44 px).
+
+**Inverted specs:** submission-choices' escape inspect reads `_detailCtx` (the sheet closes to opacity 0, which
+Playwright counts as visible), and its play button reads "Posture up ⏎".
+
+**Payload.** Core 362,580 B: +365 over v1.218.1's 362,215, +3,027 over 359,553 (cap 6,000). Own share, gzip -9:
+`neural.js` +451, `neural.css` −45.
