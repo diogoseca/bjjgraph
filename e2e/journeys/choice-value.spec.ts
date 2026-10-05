@@ -394,7 +394,11 @@ test('@curated late runtime survives load failure, retries and replacement witho
   await page.evaluate(() => { const a = (window as any).__neural; a.setChoiceValueRuntime(a._fixtureRuntime) })
   await expect.poll(() => page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(3)
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(1))
-  expect((await wins(page)).every(v => v === '—')).toBe(true)
+  // The retired runtime's reply is inert. Since WINLAT1 the same hand keeps its last numbers, DIMMED,
+  // while it re-solves, so "inert" reads as: no card shows a CURRENT number, and the tray is updating.
+  // Accepting that reply would make its (identical-looking) values current and turn this red.
+  await expect(page.locator('[data-choice-group="you"] [data-choice-win]:not([data-choice-stale])')).toHaveCount(0)
+  await expect(page.locator('[data-choice-value-status]')).toHaveText('Updating win chances…')
   await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(2))
   await expect.poll(() => wins(page)).toContain('65%')
   expect(await names(page)).toEqual(before)
