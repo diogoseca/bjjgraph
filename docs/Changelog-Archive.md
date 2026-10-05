@@ -10221,7 +10221,7 @@ The spec waits out each card's .34 s deal-in ease before measuring (a first run 
 - First-hand core 362,215 B: +2,662 B over the accepted 359,553 (cap 6,000), and +54 B over the 362,161 B the
   v1.218.0 entry measured.
 - This change's own share, gzip -9 against dev's bundle: `neural.js` +37 B, `neural.css` 0.
-## v1.218.2 — WIN CHANCES THAT ARE THERE WHEN YOU LOOK: THE SAME NUMBERS, 2-4x SOONER, AND NO BLANK AFTER AN ANSWER (WINLAT, 2026-10-05)
+## v1.218.4 — WIN CHANCES THAT ARE THERE WHEN YOU LOOK: THE SAME NUMBERS, 2-4x SOONER, AND NO BLANK AFTER AN ANSWER (WINLAT, 2026-10-05)
 
 **The report.** The owner, on a phone (dev preview v1.218.0): "the probabilities (win chance) take a while to load properly".
 
