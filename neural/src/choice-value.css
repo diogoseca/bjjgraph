@@ -3,6 +3,10 @@
 .ngcv-line strong { font-size:16px; color:#edf3ff; font-variant-numeric:tabular-nums; }
 .ngcv-line small { font-size:11px; color:#aab9d3; }
 .ngcv-card { margin-top:2px; }
+/* ON A CARD, WIN CHANCE IS THE QUIET LINE (owner 2026-10-05): label and value at --ng-win of the move's
+   own number (--ng-move-num), both set on the card by buildOptionCard (app.src.jsx NG_CARD_*). */
+.ngcv-card .ngcv-line, .ngcv-card .ngcv-line strong { font-size:calc(var(--ng-move-num, 15px) * var(--ng-win, .6)); }
+.ngcv-card .ngcv-line strong { font-weight:600; color:#c9d5ea; }
 .ngcv-card[data-status="pending"] strong { color:#b8c7e0; }
 .ngcv-detail { padding:14px 0 2px; color:#cad5e8; }
 .ngcv-detail .ngcv-line { font-size:14px; white-space:normal; }
@@ -17,6 +21,3 @@
 .ngcv-execute:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
 [data-choice-inspect] { position:relative; z-index:2; }
 [data-choice-inspect]:focus-visible { outline:2px solid #c5d6ff; border-radius:4px; }
-[data-choice-preview] > button { min-width:44px; min-height:44px; max-width:calc(50% - 4px); vertical-align:top; border:1px solid rgba(150,170,210,.25); border-radius:11px; background:rgba(255,255,255,.04); color:#d5dfef; font-size:12px; font-weight:600; line-height:1.4; font-family:inherit; }
-[data-choice-preview] > [data-choice-go] { background:linear-gradient(135deg,#4a6cff,#6a5cff); border-color:transparent; color:#fff; }
-[data-choice-preview] > button:focus-visible { outline:2px solid #c5d6ff; outline-offset:2px; }
