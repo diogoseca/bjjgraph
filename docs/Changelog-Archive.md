@@ -10225,48 +10225,24 @@ The spec waits out each card's .34 s deal-in ease before measuring (a first run 
 
 ## v1.218.3 — THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR
 
-**Owner, 2026-10-05**, in Brave on the dev preview: opened `/`, "got navigated smoothly" to
-`/Positions/Side-Control/Bottom`, and the console showed `GET /Positions/static/icon.png 404` twice, 9
-report-only `script-src` and 24 `connect-src` violations, and `ERR_BLOCKED_BY_CLIENT` for two PostHog
-extensions. "please fix so that doesnt happen again".
+**Owner, 2026-10-05**, in Brave on the dev preview: `/` navigated itself to `/Positions/Side-Control/Bottom`, and
+the console showed `GET /Positions/static/icon.png 404` twice, 33 report-only CSP violations, and
+`ERR_BLOCKED_BY_CLIENT` for two PostHog extensions. "please fix so that doesnt happen again".
 
-**The 404 was a class, measured in a real browser on the preview.** Every page loaded its icon, `index.css`,
-`prescript.js` and `postscript.js`, and fetched `contentIndex.json` lazily, from `pathToRoot(slug)`: a
-page-relative base (`../` on `/`). The app moves the address bar with `history.pushState` (`_pushUrl`), and a
-relative URL re-resolves against the new address. At two segments it still lands on the root by luck; at three
-(`/Positions/Side-Control/` + `../`) it lands on `/Positions/`. The browser re-fetches the icon itself, hence the
-owner's 404. 29 URLs on `/` re-resolve after the navigation: the 4 resources (fixed), 6 nav and 19 article links
-(the crawler fallback, measured invisible and unhittable while the app runs; left, now guarded). Fix: one
-root-absolute base, `siteRoot(cfg)` in `plugins/emitters/helpers.ts`, used by all four page emitters, and
-`Head.tsx`'s icon (keep-list, accepted with its reason).
+**The 404 was a class.** Pages loaded their icon, `index.css`, `prescript.js`, `postscript.js` and the lazy
+`contentIndex.json` from `pathToRoot(slug)`, a page-relative base. After the app's `history.pushState` the
+browser re-resolves them against the new address; at three segments `../` lands on `/Positions/`. Of 29 such
+URLs on `/`, the 4 resources are fixed; 25 crawler-fallback links are measured unreachable while the app runs.
+One root-absolute base now: `siteRoot(cfg)` (`plugins/emitters/helpers.ts`), plus `Head.tsx`'s icon.
 
-**The CSP violations were two hosts nobody had listed.** PostHog already runs behind a first-party reverse proxy
-on a bjjgraph.org subdomain (the `POSTHOG_API_HOST` CI secret), and the policy only listed `*.posthog.com`.
-Allowed as `https://*.bjjgraph.org`, which keeps the proxy's hostname out of this public repo. The other host is
-Cloudflare Web Analytics, which Cloudflare injects at the EDGE, so it is in no built file: `static.cloudflareinsights.com`
-(script) and `cloudflareinsights.com` (connect), both allowed. Mermaid's `cdnjs` loader was inlined into every page
-for a feature 0 of 6,324 content and template files use; it is turned off rather than allowed. Applied in flight to
-the LIVE preview (boot, the app's navigation, a move, a video), the new policy produced 0 violations.
+**The CSP violations were two unlisted hosts.** PostHog already runs behind a first-party proxy on a
+bjjgraph.org subdomain (`POSTHOG_API_HOST`), allowed as `https://*.bjjgraph.org` to keep its name out of this
+repo; Cloudflare's edge-injected Web Analytics beacon (in no built file) is allowed too. Mermaid's `cdnjs`
+loader is off: 0 of 6,324 content and template files use it. Applied to the live preview, the new policy gave 0
+violations. Brave blocks the two PostHog files by PATH, so that line is the owner's call; the beacon's RUM post
+also fails CORS on every `*.pages.dev` host.
 
-**Not fixable by a page.** `ERR_BLOCKED_BY_CLIENT` is Brave Shields blocking `posthog-recorder.js` and
-`dead-clicks-autocapture.js` by PATH, since the host is already first-party. Left as is pending the owner. On
-any `*.pages.dev` host the beacon's RUM post also fails CORS, because Cloudflare answers only bjjgraph.org.
-
-**The gates.** `scripts/e2e-serve.mjs` sent no CSP at all, so no journey could ever see a violation; it now
-applies the emitted `_headers` `/*` CSP (and only the CSP family). `e2e/journeys/console-clean.spec.ts`
-(`@curated`) replays the owner's path through the app's own seam. `scripts/check_deployed_console.mjs` runs
-after both deploys against wrangler's own deployment URL. On dev it is the job's last step; on production a
-separate job turns its verdict red, so a dirty console cannot also cancel lighthouse, indexnow and release.
-
-| claim | mutant | red at |
-|---|---|---|
-| a relative favicon is caught | served `index.html` icon -> `../static/icon.png` | "resource URLs that re-resolve after the navigation" |
-| a dropped CSP host is caught | `fonts.googleapis.com` out of style-src | "securitypolicyviolation events" |
-| the deployed check sees the owner's defects | the unfixed live preview | exit 1: the proxy and beacon violations, 4 page-relative URLs, 4 head-resource 404s at `/Submissions/Ezekiel-Choke/from-Closed-Guard` |
-| the RUM exception is off-production and narrow | 5 mutants of `classify()` | `tests/deployed_console.test.mjs`, each by name |
-| content pages are root-absolute | `contentPage.tsx` back to `pathToRoot` | `emitter_filesystem.test.mjs` (reversed on purpose) |
-| mermaid stays off with its host | mermaid re-enabled | `quartz_ofm_contract.test.mjs` (reversed on purpose) |
-
-**No capture.** The brief expected `Head.tsx` to move the census and SEO baselines. On this build
-`validate:build-shape` is equal on every row and `validate:seo` reports head and JSON-LD identical, so nothing
-needed re-seeding.
+**Gates.** `scripts/e2e-serve.mjs` now sends the emitted CSP (it sent none, so no journey could see a
+violation); `e2e/journeys/console-clean.spec.ts` replays the owner's path; `scripts/check_deployed_console.mjs`
+runs after both deploys against the real site. Mutants for each are in the spec headers and PR #266. No capture:
+the census and SEO baselines did not move.
