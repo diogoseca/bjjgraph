@@ -88,6 +88,13 @@ const NG_LAND_DECK_MIN_H = 236;
 //                 The ESCAPE tray obeys it too (v1.171.1, owner: nothing shows that was not asked for).
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
+// THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
+// constructor (the unit harnesses' Object.create) reads the same numbers the bundle does.
+const NG_CAM_JUMP = 0.08;       // a per-frame target change (view widths + log zoom) that starts a flight
+const NG_CAM_RHO = 1.2;         // van Wijk's rho: how far a long flight zooms out (d3's default is 1.414)
+const NG_CAM_TRACK_W = 6;       // the tracking spring, rad/s (critically damped)
+const NG_CAM_EDGE_SEC = 0.3;    // how long the lift's band edge takes to reach a new band
+const NG_CAM_LIFT_SOFT = 6;     // the soft clamp's knee, px
 // The 24px ghost button every layer handle is cut from — the landing card's ✕ wrote this inline
 // first (v1.101.1); the film ✕, the hand ✕ and the dock glyphs share it so they cannot drift.
 const NG_GHOST_BTN_CSS = "flex:none;pointer-events:auto;cursor:pointer;font-family:inherit;width:24px;height:24px;border:none;border-radius:7px;background:none;color:#8b97b0;font-size:12px;line-height:1;display:flex;align-items:center;justify-content:center;transition:color .15s,background .15s;";
@@ -5964,30 +5971,45 @@ class Component extends DCLogic {
     if (c && filter === "due") c = c.filter((x) => this._cardDue(key, x.q));
     return { info: { fam: fam, role: role, cat: cat, key: key, filter: filter || null }, cards: c ? c.slice() : null };
   }
-  // fly the camera so a whole SET of nodes is in view — shared by session highlights and by
-  // focus sets (Systems now, shareable Lists next), so every "here is your selection" flight
-  // frames identically.
-  frameNodes(idxs, viewport) {
-    if (!idxs || !idxs.length || !this.nodes) return;
+  /** THE FRAMING OF A SET OF NODES, in the visible graph rect (`_viewRect`, v1.219.0). Shared by
+   *  frameNodes (a list, a System, a session, the escapes), a replay exchange, `locateNode` and
+   *  roam: one fit, so no caller frames against the full screen any more. Before v1.219.0
+   *  frameNodes' default box was the full height beside the pane, so a shared class on a phone
+   *  settled under the landing card (measured: y = 414 against a card spanning 290..548 at 390x844).
+   *  opts: `box` an explicit viewport {left, top, width, height, padding} (the principle map's),
+   *  `padding` the fit's margin factor, `minW` the closest it may zoom, as a view width. */
+  _fitView(idxs, opts) {
+    opts = opts || {};
+    if (!idxs || !idxs.length || !this.nodes) return null;
     let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
     for (const i of idxs) { const n = this.nodes[i]; if (!n) continue; const p = this.pairMid(n); minx = Math.min(minx, p.x); maxx = Math.max(maxx, p.x); miny = Math.min(miny, p.y); maxy = Math.max(maxy, p.y); }
-    if (minx > maxx) return;
+    if (minx > maxx) return null;
     // FIT BOTH AXES. `vw` is the visible WIDTH; the visible height is vw * H/W. A phone is 390x844,
     // so a selection that is tall and narrow was framed on its width and hung off the top and
     // bottom of the screen — the same margin has to be asked for vertically or "framed" is a claim
     // about one axis only.
     const W = this.W || 1, H = this.H || 1;
-    const pane = this._paneLayout();
-    const box = viewport || { left: pane.left, top: 0, width: Math.max(1, W - pane.left), height: H, padding: 2.2 };
-    const need = Math.max((maxx - minx) * box.padding * W / box.width, (maxy - miny) * box.padding * W / box.height);
-    const vw = Math.max(this.graphW * 0.4, need);
-    this.camTarget = {
+    let box = opts.box;
+    if (!box) { const R = this._viewRect(); box = { left: R.left, top: R.top, width: R.width, height: R.height }; }
+    const pad = opts.padding || box.padding || 2.2;
+    const need = Math.max((maxx - minx) * pad * W / box.width, (maxy - miny) * pad * W / box.height);
+    const vw = Math.max(opts.minW != null ? opts.minW : this.graphW * 0.4, need);
+    return {
       cx: (minx + maxx) / 2 - (box.left + box.width / 2 - W / 2) * vw / W,
       cy: (miny + maxy) / 2 - (box.top + box.height / 2 - H / 2) * vw / W,
       vw,
-      // Explicit viewports (the principle map) have already applied their horizontal inset.
+      // the box's horizontal inset is already applied; record it so _paneCameraTarget only adds
+      // the pane's movement from here on
       _paneFraction: (box.left + box.width / 2 - W / 2) / W,
     };
+  }
+  // fly the camera so a whole SET of nodes is in view — shared by session highlights and by
+  // focus sets (Systems now, shareable Lists next), so every "here is your selection" flight
+  // frames identically.
+  frameNodes(idxs, viewport) {
+    const t = this._fitView(idxs, viewport ? { box: viewport } : null);
+    if (!t) return;
+    this.camTarget = t;
     // …and TAKE THE CAMERA, or the flight above is a wish. See holdCamera().
     this.holdCamera();
   }
@@ -11058,11 +11080,9 @@ class Component extends DCLogic {
     // and every caller (session rows, lesson study) keeps the pane open for the study that follows.
     const n = this.nodes[idx]; if (!n) return;
     this.releaseCamera(); // a row click asks to go somewhere ELSE: end any focus lease, don't fight it
-    const vw = Math.max(this.graphW * 0.22, this.graphR * 0.5);
-    // The animated pane inset belongs to every camera target. updateCamera keeps this flight
-    // beside the pane as it finishes opening, without choosing a different subject or zoom.
-    const p = this.pairMid(n);
-    this.camTarget = this._paneCameraTarget({ cx: p.x, cy: p.y, vw });
+    // The visible rect (`_fitView`), not the screen: the animated pane inset belongs to every
+    // camera target, and updateCamera keeps this flight beside the pane as it finishes opening.
+    this.camTarget = this._fitView([idx], { minW: Math.max(this.graphW * 0.22, this.graphR * 0.5) });
     this.lastInteract = this.now; this.flare(idx);
   }
   // ---------- dossier: the technique page, living in the left pane ----------
@@ -11234,11 +11254,11 @@ class Component extends DCLogic {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this.setPaused(true);
     this.focusIdx = -1; this.pulse = null; this.activeMove = null;
-    // centred on where you stood, whole screen, pulled back a little
-    const n = this.nodes && this.nodes[this.currentPos];
-    if (n) {
-      const mid = this.pairMid(n);
-      this.camTarget = { cx: mid.x, cy: mid.y, vw: Math.min(this.graphW * 1.1, (this.cam.vw || this.graphW * 0.2) * 1.5) };
+    // centred on where you stood, in the visible graph rect, pulled back a little
+    const t = this.nodes && this.nodes[this.currentPos]
+      && this._fitView([this.currentPos], { minW: Math.min(this.graphW * 1.1, (this.cam.vw || this.graphW * 0.2) * 1.5) });
+    if (t) {
+      this.camTarget = t;
       this.holdCamera();
     }
     this.fx("roam_entered", {});
@@ -13120,7 +13140,7 @@ class Component extends DCLogic {
    *  block. Inline opacity + transition, both reset by the next showCenter (see above). */
   _frameArrivalHeading() {
     const box = this.evCenterRef.current; if (!box) return;
-    const band = this._landingBand();
+    const band = this._viewRect();
     box.style.top = band.top + "px";
     box.style.bottom = ((this.H || 800) - band.bottom) + "px";
   }
@@ -17446,16 +17466,10 @@ class Component extends DCLogic {
   _replayFrame(idxs) {
     const ns = (idxs || []).map((i) => this.nodes[i]).filter(Boolean);
     if (!ns.length) return null;
-    const W = this.W || 1200;
     if (ns.length === 1) {
       return this.rollCamTarget(this.pairMid(ns[0]), false, ns[0].idx);
     }
-    let minx = 1e9, miny = 1e9, maxx = -1e9, maxy = -1e9;
-    for (const n of ns) { const p = this.pairMid(n); minx = Math.min(minx, p.x); maxx = Math.max(maxx, p.x); miny = Math.min(miny, p.y); maxy = Math.max(maxy, p.y); }
-    const aspect = (this.H || 1) / W;
-    const need = Math.max((maxx - minx) * 2.4, aspect > 0 ? ((maxy - miny) * 2.4) / aspect : 0);
-    const vw = Math.max(this.graphW * 0.16, need);
-    return this._paneCameraTarget({ cx: (minx + maxx) / 2, cy: (miny + maxy) / 2, vw });
+    return this._fitView(ns.map((n) => n.idx), { padding: 2.4, minW: this.graphW * 0.16 });
   }
   /** Point the camera at a beat and TAKE the lease for its duration (never longer — the roll must
    *  get its camera back the moment the film is over). Under reduced motion the camera SNAPS. */
@@ -18441,7 +18455,7 @@ class Component extends DCLogic {
     const p = this.pulse;
     const idx = !ex.result ? ex.idx : p && !p.done ? p.path[p.path.length - 1] : this.currentPos;
     const n = this.nodes[idx];
-    return this.rollCamTarget(this.pairMid(n), false, idx);
+    return this.rollCamTarget(this.pairMid(n), false, idx, true);
   }
   sweepElapsed(sw) {
     const timer = sw.timer;
@@ -19201,22 +19215,16 @@ class Component extends DCLogic {
   /** `nodeIdx` names the node being framed. It defaults to `focusIdx` because the follow-cam's
    *  focus IS the node — but a reader (openDossier) frames a node it has not focused yet, and the
    *  submission label offset below would otherwise be computed from whatever was focused before. */
-  rollCamTarget(f, moving, nodeIdx) {
+  //  `ahead` (v1.219.0) composes into the band a landing WILL have (`_viewRect`), so the rows that
+  //  mount when it lands find the node already clear of them: travel (`moving`) and an exchange
+  //  in flight (`executionCameraTarget`) always pass it.
+  rollCamTarget(f, moving, nodeIdx, ahead) {
     const vw = moving
       ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
       : this.graphW * this.ROLL_ZOOM;
     const H = this.H || 800, W = this.W || 1200;
-    let top = 16;
-    const ev = this.evRef && this.evRef.current;
-    if (ev) {
-      try {
-        const r = ev.getBoundingClientRect();
-        if (r.height > 0 && getComputedStyle(ev).opacity !== "0") top = Math.max(top, r.bottom + 12);
-      } catch (e) { /* non-fatal */ }
-    }
-    const band = this._landingBand(top);
-    const bot = band.bottom;
-    top = band.top;
+    const R = this._viewRect(moving || ahead != null ? { ahead: ahead != null ? ahead : true } : null);
+    const top = R.top, bot = R.bottom;
     const wantY = (top + bot) / 2;
     const scale = W / vw;
     const ni = nodeIdx == null ? this.focusIdx : nodeIdx;
@@ -19272,27 +19280,109 @@ class Component extends DCLogic {
     return { ...target, cx: target.cx - (fraction - (target._paneFraction || 0)) * target.vw,
       _paneFraction: fraction };
   }
-  // Read settled layout coordinates: CSS entry animations and the reading column's
-  // translation must not make the flight chase moving rectangles. The choices count too.
-  _landingBand(top = 16) {
-    const H = this.H || 800;
-    let bottom = H - 16, measured = false;
+  // ══ THE VISIBLE GRAPH RECT — THE ONE SEAM EVERY COMPOSITION ASKS (v1.219.0) ═══════════════════
+  // Owner (2026-10-05): "it should center the Mount node not to the center of the screen but to the
+  // visible area of the graph that's available after the videos row, landcard, and choices row show
+  // and take space". So nothing frames against the SCREEN: `rollCamTarget` (a roll, the follow-cam,
+  // a URL arrival, an Explore click, a replay beat), `_fitView` (frameNodes — a shared list, a
+  // System, a session — plus a replay exchange, `locateNode` and roam) and the camera's lift all read
+  // this rect, and there is no second copy of it to drift.
+  //   left   the pane's right edge while it is open (desktop), read through `_paneLayout`, so it
+  //          moves WITH the pane's open/close animation;
+  //   top    16px, or 12px below the announcer while it shows;
+  //   bottom 12px above the highest bottom row that is showing — film, card, hand — read from
+  //          SETTLED layout (`css.bottom` + offsetHeight): CSS entry animations and the reading
+  //          column's translation must not make the flight chase moving rectangles. A row that has
+  //          not laid out yet (top near 0) is SKIPPED, never a constraint.
+  // `opts.ahead` asks for the band a landing WILL have instead. Rows mount on the frame they land,
+  // and a continuous camera cannot move a node out from under a row on the very frame that row
+  // appears; only a snap can, and the snap was the owner's other complaint. So the camera makes
+  // room BEFORE the rows arrive, from `_bandMemo`: the tightest bottom ever measured at this
+  // viewport for each combination of rows. `ahead` is a node index (its film row is predicted from
+  // its own content) or `true` (some landing: the film row is assumed whenever its layer is on).
+  _viewRect(opts) {
+    const W = this.W || 1200, H = this.H || 800;
+    let top = 16;
+    const ev = this.evRef && this.evRef.current;
+    if (ev) {
+      try {
+        const r = ev.getBoundingClientRect();
+        if (r.height > 0 && getComputedStyle(ev).opacity !== "0") top = Math.max(top, r.bottom + 12);
+      } catch (e) { /* non-fatal */ }
+    }
+    let bottom = H - 16, measured = false, rows = "";
     for (const el of [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current]) {
-      if (!el || !el.offsetHeight) continue;
-      const css = getComputedStyle(el);
-      if (css.display === "none") continue;
-      const dock = parseFloat(css.bottom);
-      const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top;
-      if (y <= top + 32) continue;
-      bottom = Math.min(bottom, y - 12); measured = true;
+      let on = false;
+      if (el && el.offsetHeight) {
+        const css = getComputedStyle(el);
+        if (css.display !== "none") {
+          const dock = parseFloat(css.bottom);
+          const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top;
+          if (y > top + 32) { bottom = Math.min(bottom, y - 12); measured = on = true; }
+        }
+      }
+      rows += on ? "1" : "0";
     }
     if (!this._landEl && this._layerOn("card") && this._bandBot?.h === H) {
       bottom = this._bandBot.y; // the landing is being rebuilt, even if its hand still exists
-    } else if (measured) this._bandBot = { h: H, y: bottom };
-    else if (this._layerOn("card") || this._layerOn("film") || this._handShown()) {
+    } else if (measured) {
+      this._bandBot = { h: H, y: bottom };
+      const k = W + "x" + H + "|" + rows, memo = this._bandMemo || (this._bandMemo = {});
+      if (!(memo[k] <= bottom)) memo[k] = bottom;   // the TIGHTEST ever measured: a prediction errs high
+    } else if (this._layerOn("card") || this._layerOn("film") || this._handShown()) {
       bottom = this._bandBot?.h === H ? this._bandBot.y : Math.max(120, H * 0.42);
     }
-    return { top, bottom: Math.max(top + 32, bottom), measured };
+    let predicted = false;
+    if (opts && opts.ahead != null && opts.ahead !== false) { bottom = this._predictBottom(opts.ahead); predicted = true; }
+    bottom = Math.max(top + 32, bottom);
+    const pane = this._paneLayout();
+    return { left: pane.left, top, right: W, bottom, width: Math.max(1, W - pane.left), height: bottom - top, measured, predicted };
+  }
+  /** The bottom of the band a landing will have (see `_viewRect`'s `ahead`). An exact memo for the
+   *  rows it will show, else the tightest memo of any combination that includes them (an error
+   *  that lifts too high, never too low), else a guess for the session's first landing at this
+   *  viewport: 19% of the height when the card or film shows, tighter than every composition
+   *  measured at 1440x900 (27.6%) and 390x844 (20.4%). Every remaining miss is a row the camera
+   *  could not see coming, and the lift's eased edge (`NG_CAM_EDGE_SEC`) clears it. */
+  _predictBottom(ahead) {
+    const W = this.W || 1200, H = this.H || 800;
+    const n = typeof ahead === "number" && this.nodes ? this.nodes[ahead] : null;
+    let film = this._layerOn("film");
+    if (film && n) { try { film = !!this._landFilmClips(n); } catch (e) { film = true; } }
+    const want = [film, this._layerOn("card"), this._handShown()];
+    if (!want[0] && !want[1] && !want[2]) return H - 16;
+    const memo = this._bandMemo || {}, pre = W + "x" + H + "|";
+    const exact = memo[pre + want.map((w) => (w ? "1" : "0")).join("")];
+    if (exact != null) return exact;
+    let best = null;
+    for (const k in memo) {
+      if (k.slice(0, pre.length) !== pre) continue;
+      const rows = k.slice(pre.length);
+      if (want.every((w, i) => !w || rows[i] === "1")) best = best == null ? memo[k] : Math.min(best, memo[k]);
+    }
+    if (best != null) return best;
+    return want[0] || want[1] ? H * 0.19 : H * 0.6;
+  }
+  /** Make room for a landing that has not mounted yet: move framing `t` the least distance that
+   *  puts node `idx` (both pair members, drawn size) inside the band that landing will have. The
+   *  staged arrival's wide beat and a URL arrival's intro both end here, so their rows mount over
+   *  a node that is already clear of them (landing-reveal.spec.ts asserts zero overlap). */
+  _liftForLanding(t, idx) {
+    const n = this.nodes && this.nodes[idx]; if (!n || !t) return t;
+    const H = this.H || 800, W = this.W || 1200;
+    const R = this._viewRect({ ahead: idx });
+    const ly = this._LY || ((q) => q.y), s = W / t.vw;
+    const nodeK = Math.max(0.4, Math.min(1, t.vw / (this.graphW * 0.5)));
+    let lo = -Infinity, hi = Infinity;
+    for (const q of [n, n.pi >= 0 ? this.nodes[n.pi] : null]) {
+      if (!q) continue;
+      const y = H / 2 + (ly(q) - t.cy) * s, half = (q.r || 6) * nodeK * s * 1.6 + 6;
+      lo = Math.max(lo, y + half); hi = Math.min(hi, y - half);
+    }
+    let dy = 0;
+    if (lo > R.bottom) dy = lo - R.bottom;                 // the node sits under the coming rows: lift it
+    else if (hi < R.top) dy = hi - R.top;                  // ...or above the band: lower it
+    return dy ? { ...t, cy: t.cy + dy / s } : t;
   }
   // THE WIDTH OF THE WIDEST ROW THE GRAPH IS ABOUT TO DRAW, in px, measured with that row's
   // actual font. Cached per node + headline size, because the follow-cam calls `rollCamTarget`
@@ -19327,7 +19417,8 @@ class Component extends DCLogic {
     return w;
   }
   updateCamera(dt) {
-    Object.assign(this.cam, this._paneCameraTarget(this.cam));
+    // The pane's inset is re-applied to every TARGET each frame; the camera itself takes it in
+    // `_camStep`, which displays its pane-free pose at the current inset.
     Object.assign(this.camTarget, this._paneCameraTarget(this.camTarget));
     if (this._camHoldTarget) Object.assign(this._camHoldTarget, this._paneCameraTarget(this._camHoldTarget));
     const el = this.now - this.startTime;
@@ -19350,6 +19441,9 @@ class Component extends DCLogic {
       if (el < 1.6) tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 2.3 - this.graphW * 0.3 * (el / 1.6) };
       else {
         tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 };
+        // A URL ARRIVAL'S ROWS MOUNT WHEN THE INTRO HANDS OVER (3.2s, below). Make room for them
+        // during the parting overview, so they mount over a node that is already clear (v1.219.0).
+        if (this._urlSeeded && this._urlSeedIdx >= 0) tgt = this._liftForLanding(tgt, this._urlSeedIdx);
         if (el > 3.2) {
           this.introDone = true;
           // HAND THE INTRO'S CAMERA TO A FLIGHT THAT WAS ASKED FOR DURING IT. A share link is
@@ -19394,7 +19488,9 @@ class Component extends DCLogic {
       // ARRIVAL BEAT 1 (v1.168.0): the whole graph, the intro's own parting framing. The
       // deadline is the flag's own lease (§6.5) — every lifter lives in _endArrival(), and a
       // missed one costs half a second past the beat, never a stuck-wide camera.
-      tgt = { cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 };
+      // v1.219.0: the whole graph, moved the least distance that clears the start node of the rows
+      // its landing will mount at the reveal — beat 1 is when the camera makes room for them.
+      tgt = this._liftForLanding({ cx: this.gcx, cy: this.gcy, vw: this.graphW * 1.0 }, this.currentPos);
     } else {
       const mode = this.cfg().cameraMode;
       if (mode === "Overview") {
@@ -19427,53 +19523,204 @@ class Component extends DCLogic {
       Object.assign(this.cam, this.camTarget, { lvw: Math.log(this.camTarget.vw) });
       return;
     }
-    // dossier flight: CENTER faster than the zoom dives (prezi-style) — otherwise at deep zoom the
-    // viewport shrinks quicker than the target centers and mid-flight shows empty space instead of
-    // the glowing node you're flying toward.
-    const flight = this._dossierIdx != null || execution;
+    // ── HOW THE CAMERA MOVES: ONE INTEGRATOR (v1.219.0) ── everything above decides WHERE the
+    // camera should be; `_camStep` decides how it gets there. The context names the pace.
     // ARRIVAL GLIDE (v1.168.0, owner: "the zoom in needs to be slower"): the staged arrival's
-    // out-and-in is one long breath, tau ~1s, timed so the flight settles as the hand-off ends.
-    // A user's own camera (a lease, or live input) gets the stock pace back immediately —
-    // their flight must never inherit the arrival's slowness.
+    // out-and-in is one long breath, timed so the flight settles as the hand-off ends. A user's own
+    // camera (a lease, or live input) gets the stock pace back immediately.
     const arriveGlide = this._arriveGlideUntil != null && this.now < this._arriveGlideUntil
       && !this.camHeld() && !this.userActiveNow();
-    const tauP = !this.introDone ? 0.8 : arriveGlide ? 1.0 : flight ? 0.28 : 0.5;
-    const tauV = !this.introDone ? 0.9 : arriveGlide ? 1.05 : flight ? 0.7 : 0.55;
-    const aP = 1 - Math.exp(-dt / tauP), aV = 1 - Math.exp(-dt / tauV);
-    const oldScale = this.W / this.cam.vw;
-    const paneFraction = this.cam._paneFraction || 0;
-    const baseCx = this.cam.cx + paneFraction * this.cam.vw;
-    this.cam.lvw += (Math.log(this.camTarget.vw) - this.cam.lvw) * aV;
-    this.cam.vw = Math.exp(this.cam.lvw);
+    const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+    const ctx = {};
+    if (!this.introDone) {
+      // the intro's parting overview must have landed before it hands over at 3.2s
+      ctx.trackW = 3; ctx.dur = () => clamp(3.0 - el, 0.6, 1.4);
+    } else if (this._arriveWide && this.now < (this._arriveWideUntil || 0)) {
+      // beat 1 must have made room before the reveal (`_arriveWideUntil` is the reveal + 0.5s)
+      ctx.trackW = 3; ctx.dur = () => clamp(this._arriveWideUntil - 0.75 - this.now, 0.6, 1.6);
+    } else if (arriveGlide) {
+      ctx.trackW = 3; ctx.dur = () => clamp(this._arriveGlideUntil - 0.3 - this.now, 1.0, 4.0);
+    } else if (this._dossierIdx != null || execution) {
+      // an exchange: the camera keeps up with the attempt (it used to ease at tau 0.28s)
+      ctx.trackW = 9; ctx.dur = (S) => clamp(0.35 + 0.15 * S, 0.45, 0.9);
+    }
+    // THE LIFT replaces the hard band clamp (v1.180.1 to v1.218.0). That clamp SET the focus into the
+    // free band on the frame a row mounted, even with the node 5,000px off-screen: measured on
+    // Explore -> Mount at 1440x900 it moved the node 1,105px vertically in ONE frame, and on an
+    // exchange landing at 390x844 250px, which is what the owner saw (see `_camStep`).
     const follow = !execution && tgt && this.introDone && !this.endZoom && !this._arriveWide
       && this.cfg().cameraMode !== "Overview" && this.camFocus;
-    if (follow) {
-      const f = this.camFocus, scale = this.W / this.cam.vw;
-      const targetScale = this.W / this.camTarget.vw;
-      const x = (f.x - this.cam.cx) * oldScale;
-      const y = (f.y - this.cam.cy) * oldScale;
-      let nextY = y + ((f.y - this.camTarget.cy) * targetScale - y) * aP;
-      // A newly mounted/backfilled row may take space immediately. Keep the focused
-      // silhouette and its label above it on that very frame, including paired nodes.
-      if (!this.pulse && this.focusIdx >= 0 && !this._landOpen) {
-        const band = this._landingBand();
-        const n = this.nodes[this.focusIdx];
-        const nodeK = Math.max(0.4, Math.min(1, this.cam.vw / (this.graphW * 0.5)));
-        const margin = Math.max(30, (Math.abs((this._LY ? this._LY(n) : n.y) - f.y) + n.r * nodeK * 1.6) * scale);
-        if (band.measured) nextY = Math.max(band.top + margin - this.H / 2,
-          Math.min(band.bottom - margin - this.H / 2, nextY));
-      }
-      this.cam.cx = f.x - (x + ((f.x - this.camTarget.cx) * targetScale - x) * aP) / scale;
-      this.cam.cy = f.y - nextY / scale;
-    } else {
-      // Ease the underlying view, then reapply the pane's screen-space inset at the NEW zoom.
-      // Otherwise a leased zoom flight briefly moves its subject back underneath the panel.
-      const targetCx = this.camTarget.cx + paneFraction * this.camTarget.vw;
-      this.cam.cx = baseCx + (targetCx - baseCx) * aP - paneFraction * this.cam.vw;
-      this.cam.cy += (this.camTarget.cy - this.cam.cy) * aP;
+    if (follow && this.focusIdx >= 0 && !this._landOpen) {
+      const R = this._viewRect(this.pulse ? { ahead: true } : null);
+      ctx.lift = { f: this.camFocus, n: this.nodes[this.focusIdx], top: 16, bottom: R.bottom };
     }
+    this._camStep(dt, ctx);
   }
 
+  // ══ CAMERA MOTION — ONE INTEGRATOR (v1.219.0) ═══════════════════════════════════════════════
+  // Owner (2026-10-05, on the dev preview): "when the state is selected, it seems to zoom or start
+  // from a camera pan state already too zoomed and panned so much so I wonder if there was a break
+  // in the continuity of the camera motion? please polish that so it doesnt feel so abrupt in the
+  // first second when starting the roll / navigating to a new current node".
+  //
+  // Read frame by frame through draw()'s transform, there were two breaks, in every case:
+  //   1. THE BAND CLAMP SNAPPED. The follow-cam clamped the focus's screen y into the free band
+  //      on the frame it started, and again on the frame a row mounted (above).
+  //   2. FIRST-ORDER EASING STARTS AT ITS PEAK SPEED. `x += (target - x) * (1 - e^(-dt/tau))`
+  //      moves furthest on its FIRST frame, so a click went from rest to full speed in one frame:
+  //      a 6,700px pan at roll zoom streamed the graph past at 220px a frame (60 fps), and with the
+  //      dt clamp (50ms) on a slow frame, over 1,100.
+  // So the camera now has VELOCITY, and every motion starts and ends at rest:
+  //   · A FLIGHT for a new destination (the target jumps by more than NG_CAM_JUMP): from the
+  //     camera's CURRENT pose and velocity, eased in and out (sine), along
+  //       - a ZOOM ABOUT THE FIXED POINT when the destination is on screen, so the node you are
+  //         flying to travels a straight line on the glass and never swings out (an arc centred
+  //         on the screen pushed a 340px-off-centre node to 560px mid-way through a 12x zoom-in);
+  //       - van Wijk & Nuij's smooth zoom-and-pan arc when it is off screen, so a long pan zooms
+  //         out, travels, and zooms back in (NG_CAM_RHO sets how far out) instead of streaming.
+  //     The endpoint is re-read every frame, so a target that drifts (a band re-measured, the pair
+  //     lift collapsing with zoom) bends the flight instead of restarting it.
+  //   · A critically damped SPRING for continuous tracking (the follow-cam riding a travelling
+  //     pulse, a staged board re-aiming): no overshoot, no velocity jump.
+  //   · THE LIFT: the focus's drawn silhouette is held inside the band by a SOFT clamp (softplus,
+  //     NG_CAM_LIFT_SOFT px) against an edge that moves to a new band over NG_CAM_EDGE_SEC,
+  //     itself eased, so a row that mounts unannounced (a late film row, a card taller than any
+  //     this viewport has measured) is cleared within that time instead of in one frame. Rows the
+  //     camera CAN see coming (`_viewRect`'s `ahead`) are made room for before they mount.
+  // A direct write to `cam` (pan, pinch, wheel, a reduced-motion snap) is adopted at rest: the
+  // user's camera is never fought, and never inherits a flight's velocity.
+  // Pinned by e2e/journeys/camera-continuity.spec.ts (the per-frame bounds) and
+  // landing-reveal.spec.ts (zero overlap where the band is predictable).
+  // (the NG_CAM_* constants live at module scope, beside NG_LAYER_KEYS)
+  /** Perceptual distance between two views {x, y, w}: log zoom + pan in view widths. */
+  _camDist(a, b) { return Math.abs(Math.log(b.w / a.w)) + Math.hypot(b.x - a.x, b.y - a.y) / Math.min(a.w, b.w); }
+  /** The exact critically damped step of x (velocity v) toward a fixed target, any dt. */
+  _camSpring(x, v, target, w, dt) {
+    const e = x - target, k = v + w * e, ex = Math.exp(-w * dt);
+    return [target + (e + k * dt) * ex, (v - w * k * dt) * ex];
+  }
+  /** A flight's path from view a to view b as p -> view, p in [0, 1]; `S` is its arc length. */
+  _camPath(a, b, kind) {
+    if (kind === "pivot") {
+      const lk = Math.log(b.w / a.w);
+      if (Math.abs(lk) < 1e-3) return { S: this._camDist(a, b), at: (p) => ({ x: a.x + (b.x - a.x) * p, y: a.y + (b.y - a.y) * p, w: a.w * Math.exp(lk * p) }) };
+      // the one world point both views put at the same screen position; scale about it
+      const sx = (b.x * a.w - a.x * b.w) / (a.w - b.w), sy = (b.y * a.w - a.y * b.w) / (a.w - b.w);
+      return { S: this._camDist(a, b), at: (p) => { const w = a.w * Math.exp(lk * p); return { x: sx - (sx - a.x) * w / a.w, y: sy - (sy - a.y) * w / a.w, w }; } };
+    }
+    // van Wijk & Nuij, "Smooth and efficient zooming and panning" (2003), as d3-interpolate's zoom
+    const rho = NG_CAM_RHO, rho2 = rho * rho, rho4 = rho2 * rho2;
+    const dx = b.x - a.x, dy = b.y - a.y, d2 = dx * dx + dy * dy;
+    if (d2 < 1e-12 * a.w * a.w) {
+      const S = Math.log(b.w / a.w) / rho;
+      return { S: Math.abs(S), at: (p) => ({ x: a.x + p * dx, y: a.y + p * dy, w: a.w * Math.exp(rho * p * S) }) };
+    }
+    const d1 = Math.sqrt(d2);
+    const b0 = (b.w * b.w - a.w * a.w + rho4 * d2) / (2 * a.w * rho2 * d1);
+    const b1 = (b.w * b.w - a.w * a.w - rho4 * d2) / (2 * b.w * rho2 * d1);
+    const r0 = Math.log(Math.sqrt(b0 * b0 + 1) - b0), r1 = Math.log(Math.sqrt(b1 * b1 + 1) - b1);
+    const S = (r1 - r0) / rho, c0 = Math.cosh(r0), s0 = Math.sinh(r0);
+    return { S: Math.abs(S), at: (p) => {
+      const q = p * S, u = a.w / (rho2 * d1) * (c0 * Math.tanh(rho * q + r0) - s0);
+      return { x: a.x + u * dx, y: a.y + u * dy, w: a.w * c0 / Math.cosh(rho * q + r0) };
+    } };
+  }
+  /** One frame of camera motion toward `camTarget` (see the block above). ctx: `trackW` the
+   *  spring, `dur(S)` a new flight's duration, `lift` {f, n, top, bottom} the focus to keep
+   *  inside the band. Poses are PANE-FREE ({x: cx + inset * vw}); `cam` shows them at the inset
+   *  `camTarget` carries this frame. */
+  _camStep(dt, ctx) {
+    const cam = this.cam, T = this.camTarget;
+    if (!cam || !T || !(T.vw > 0) || !isFinite(T.cx) || !isFinite(T.cy)) return;
+    ctx = ctx || {};
+    const W = this.W || 1200, H = this.H || 800;
+    let m = this._cm;
+    if (!m || !m.shown || m.shown.cx !== cam.cx || m.shown.cy !== cam.cy || m.shown.vw !== cam.vw) {
+      const f0 = cam._paneFraction || 0;
+      m = this._cm = { base: { x: cam.cx + f0 * cam.vw, y: cam.cy, w: cam.vw }, v: { x: 0, y: 0, l: 0 },
+        flight: null, lastT: null, lift: { o: 0, v: 0, on: false, w: 0, exact: false }, edge: null };
+    }
+    const frac = T._paneFraction || 0;
+    const TV = { x: T.cx + frac * T.vw, y: T.cy, w: T.vw };
+    const base = m.base;
+    // A NEW DESTINATION: the target jumped (or this is the first frame), and it is not here yet.
+    const jump = m.lastT ? this._camDist(m.lastT, TV) : Infinity;
+    m.lastT = TV;
+    if (jump > NG_CAM_JUMP && this._camDist(base, TV) > NG_CAM_JUMP) {
+      const sx = (TV.x - base.x) / base.w * W + W / 2, sy = (TV.y - base.y) / base.w * W + H / 2;
+      const kind = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
+      const S = this._camPath(base, TV, "arc").S;
+      const dur = ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S));
+      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind };
+      this._camFlights = (this._camFlights || 0) + 1;
+    }
+    let next;
+    const fl = m.flight;
+    if (fl) {
+      fl.t += dt;
+      const u = Math.min(1, fl.t / fl.dur), e = (1 - Math.cos(Math.PI * u)) / 2;
+      const P = this._camPath(fl.a, TV, fl.kind).at(e);
+      // the velocity the camera had when this flight began, carried and let go (t * e^(-t/0.18))
+      const g = fl.t * Math.exp(-fl.t / 0.18);
+      next = { x: P.x + fl.v0.x * g, y: P.y + fl.v0.y * g, w: P.w * Math.exp(fl.v0.l * g) };
+      if (dt > 0) m.v = { x: (next.x - base.x) / dt, y: (next.y - base.y) / dt, l: Math.log(next.w / base.w) / dt };
+      if (u >= 1 && (fl.t > 1.8 || (!fl.v0.x && !fl.v0.y && !fl.v0.l))) { m.flight = null; m.v = { x: 0, y: 0, l: 0 }; }
+    } else {
+      const w = ctx.trackW || NG_CAM_TRACK_W;
+      const X = this._camSpring(base.x, m.v.x, TV.x, w, dt), Y = this._camSpring(base.y, m.v.y, TV.y, w, dt);
+      const L = this._camSpring(Math.log(base.w), m.v.l, Math.log(TV.w), w, dt);
+      next = { x: X[0], y: Y[0], w: Math.exp(L[0]) };
+      m.v = { x: X[1], y: Y[1], l: L[1] };
+    }
+    m.base = next;
+    // THE LIFT (soft clamp against an eased edge) — a screen-space offset on top of the pose.
+    let want = 0;
+    const lf = ctx.lift;
+    if (lf && lf.f) {
+      let E = m.edge;
+      const value = (q) => q.from + (q.to - q.from) * (q.t * q.t * q.t * (q.t * (q.t * 6 - 15) + 10));
+      const s = W / next.w, n = lf.n;
+      const nodeK = Math.max(0.4, Math.min(1, next.w / (this.graphW * 0.5)));
+      const ly = n ? (this._LY ? this._LY(n) : n.y) : lf.f.y;
+      const margin = Math.max(30, (Math.abs(ly - lf.f.y) + (n ? n.r : 6) * nodeK * 1.6) * s);
+      const fy = H / 2 + (lf.f.y - next.y) * s, fx = W / 2 + (lf.f.x - next.x + frac * next.w) * s;
+      if (!E || this.now - E.seen > 0.5) E = m.edge = { from: lf.bottom, to: lf.bottom, t: 1 };
+      if (Math.abs(lf.bottom - E.to) > 1) {
+        // a new band: ease from where the edge is NOW — and when it shrinks under the node, from the
+        // node's own lower edge, so the push starts on this frame (from rest) and not when an edge
+        // easing down from far below finally reaches it
+        let cur = value(E);
+        if (lf.bottom < cur) cur = Math.max(lf.bottom, Math.min(cur, fy + margin - m.lift.o + 3 * NG_CAM_LIFT_SOFT));
+        E.from = cur; E.to = lf.bottom; E.t = 0;
+      }
+      E.t = Math.min(1, E.t + dt / NG_CAM_EDGE_SEC); E.seen = this.now;
+      const edge = value(E);
+      // only a node on (or entering) the screen is held: the retired clamp yanked off-screen ones,
+      // so the hold fades in over the last quarter-screen of approach, on either axis
+      const out = fx < 0 ? -fx : fx > W ? fx - W : 0, gx = Math.max(0, 1 - out / (0.25 * W));
+      const outY = fy < -0.1 * H ? -0.1 * H - fy : fy > 1.1 * H ? fy - 1.1 * H : 0, gy = Math.max(0, 1 - outY / (0.25 * H));
+      const gate = gx * gy;
+      const k = NG_CAM_LIFT_SOFT, sp = (x) => (x / k > 30 ? x : k * Math.log1p(Math.exp(x / k)));
+      const lo = fy + margin, up = edge - sp(edge - lo) - lo;        // <= 0: how far UP the node must go
+      const hi = fy - margin + up, dn = lf.top + sp(hi - lf.top) - hi; // >= 0: back down if it now pokes above
+      want = -(up + dn) * gate;                                        // screen px; positive moves the node up
+    }
+    // While the lift stays engaged its target is already continuous (a continuous pose against an
+    // eased edge), so it is followed exactly — a spring here would only add lag under a row. The
+    // spring smooths the two discontinuities left: the lift engaging and letting go.
+    const L = m.lift, was = L.on, prevWant = L.w;
+    L.on = !!(lf && lf.f); L.w = want;
+    const continuous = was && L.on && Math.abs(want - prevWant) < 24;   // no jump in the target itself
+    if (continuous && (L.exact || Math.abs(want - L.o) < 1.5)) {
+      L.v = dt > 0 ? (want - L.o) / dt : 0; L.o = want; L.exact = true;
+    } else {
+      const LS = this._camSpring(L.o, L.v, want, 18, dt);
+      L.o = LS[0]; L.v = LS[1]; L.exact = false;
+    }
+    cam.vw = next.w; cam.lvw = Math.log(next.w);
+    cam.cx = next.x - frac * next.w; cam.cy = next.y + L.o * next.w / W; cam._paneFraction = frac;
+    m.shown = { cx: cam.cx, cy: cam.cy, vw: cam.vw };
+  }
   startLoop() {
     this.startTime = null;
     this.lastT = performance.now() / 1000;

@@ -43,6 +43,31 @@
 // within ..."), trading an unreachable document for a canonical URL that serves a file index. A
 // faithful harness needs rewrite rules, a different server, or a tree without the duplicates.
 // None of those is measured yet; quartz-cto is not naming a fix until one is.
+//
+// == THE ROWS CLAIM: WHAT v1.219.0 REPLACED, WHY, AND WHAT REPLACES IT ==
+//
+// REPLACED: "the node is clear of the bottom rows on EVERY frame of EVERY flight", which a HARD band
+// clamp in updateCamera's follow-cam delivered from v1.180.1 to v1.218.0. On the frame a row mounted,
+// and on the frame the follow-cam took over, it SET the focus's screen y into the free band, even
+// with the node thousands of pixels off-screen. That snap is the jump the owner reported on
+// 2026-10-05 from the dev preview: "when the state is selected, it seems to zoom or start from a
+// camera pan state already too zoomed and panned so much so I wonder if there was a break in the
+// continuity of the camera motion? please polish that so it doesnt feel so abrupt in the first
+// second when starting the roll / navigating to a new current node". Measured per frame through
+// draw()'s transform: 1,105px in one frame on Explore -> Mount at 1440x900, 250px on an exchange
+// landing at 390x844. A continuous camera cannot move a node out from under a row on the very frame
+// that row appears, so the guarantee could not survive as a property of every case.
+//
+// WHAT REPLACES IT (orchestrator CAM1, under the owner's ruling):
+//   · HERE, THE SAME ASSERTION, NOW MADE BY PREDICTION: zero overlap on every frame of the staged
+//     arrival's flight. Its rows are predictable, so during the wide beat the camera makes room for
+//     the band they will leave (`_liftForLanding`, `_viewRect`'s `ahead`), and they mount over a
+//     node that is already clear. Mutant `noprelift` (no room made) turns "the entire flight clears
+//     the rows" red.
+//   · camera-continuity.spec.ts: every frame of every camera motion within stated per-frame bounds
+//     (MOVE px, ZOOM ratio, KICK px), and CLEAR_SEC (0.35 s) for a row the camera CANNOT see coming:
+//     a film row whose content arrives after the landing, a card taller than any this viewport has
+//     measured for its rows, the session's first landing at a viewport. Each bound has a mutant.
 import { test, expect } from '@playwright/test';
 import { journey } from '../dsl';
 
