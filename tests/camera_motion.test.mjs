@@ -108,4 +108,20 @@ test("THE LIFT: a band that shrinks under the node clears it within CLEAR_SEC, c
   assert.ok(motion(v.slice(0, 2)).move < 6, "the band change does not jump the camera on its own frame");
 });
 
-console.log("camera motion: 4 cases (flight, straight zoom, adopted write, lift)");
+test("a target that moves LESS than a jump during a flight bends it smoothly, never in one frame", () => {
+  // measured on an exchange: the announcer hiding moved the band's top, and the flight's endpoint with
+  // it, by 33px at 1440 — under NG_CAM_JUMP, so no new flight; tracked raw it jumped the pose 33px
+  const a = app();
+  const P = { x: 0, y: 0 };
+  a.cam = { ...frameAt(P, 634, 400, ROLL * 3), lvw: Math.log(ROLL * 3) };
+  a.camTarget = frameAt(P, 634, 200, ROLL);
+  const v = run(a, 40);                           // most of the way through the flight
+  a.camTarget = { ...a.camTarget, cy: a.camTarget.cy - 33 * ROLL / W };
+  v.push(...run(a, 90).slice(1));
+  const m = motion(v);
+  assert.ok(m.kick <= 14, `KICK ${m.kick.toFixed(1)}px`);
+  const last = v[v.length - 1];
+  assert.ok(Math.abs((P.y - last.cy) * W / last.vw + H / 2 - 233) < 1, "and it still arrives at the moved target");
+});
+
+console.log("camera motion: 5 cases (flight, straight zoom, adopted write, lift, moving goal)");

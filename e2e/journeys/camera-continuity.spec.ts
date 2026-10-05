@@ -50,11 +50,17 @@ import { journey } from "../dsl";
  *   restore the hard band clamp                       → "MOVE" (explore 1440, exchange 390)
  *   first-order easing instead of the eased flight    → "KICK"
  *   a flight with no zoom-out arc (pivot always)      → "MOVE" (explore)
- *   zero-length flights (snap to the target)          → "ZOOM"
+ *   zero-length flights (snap to the target)          → "MOVE" (asserted first; "ZOOM" by firstorder)
  *   `_viewRect` ignores the bottom rows               → "central band"
- *   the lift's edge takes 1 s                         → "CLEAR_SEC"
+ *   the lift's edge takes 1 s                         → the lift unit (camera_motion.test.mjs); here
+ *                                                       the re-aimed flight still clears the node in time
+ *   ...and flights take ≥1.5 s too (slow clearing)    → "CLEAR_SEC"
  *   no pre-lift (the arrival makes no room)           → "ZERO overlap" (roll start, URL arrival)
  *   no prediction (`ahead` ignored)                   → "ZERO overlap" (exchange)
+ *   the escape's stand-in takes the camera            → "the stand-in does not take the camera" and "MOVE"
+ *                                                       (a pick after the catch's lease; inside it the
+ *                                                       lease decides, so the earlier escape case cannot)
+ *   the escape keeps the click's activity latch       → "the landing hands the camera to the roll"
  *
  * NOT PINNED HERE: user gestures (a pan, pinch or wheel moves the camera 1:1 with the hand, by
  * design, and is excluded from every bound); the camera under reduced motion (the execution
@@ -78,7 +84,7 @@ const VIEWPORTS = [
 type Sample = {
   t: number; W: number; H: number; cx: number; cy: number; vw: number;
   fi: number; fx: number | null; fy: number | null; lo: number | null;
-  rows: number | null; film: number | null; pane: number; evBottom: number;
+  rows: number | null; film: number | null; pane: number; evBottom: number; head?: number[] | null; why?: any;
 };
 
 /** One frame: pump 1/60 s, then read what the frame drew. */
@@ -107,8 +113,16 @@ const frame = (page: Page) =>
     const pane = a.deckShown && !a.isMobile() && a.drillRef.current ? a.drillRef.current.getBoundingClientRect().right : 0;
     const ev = a.evRef.current, er = ev && ev.getBoundingClientRect();
     const evBottom = er && er.height > 0 && getComputedStyle(ev).opacity !== "0" ? er.bottom : 0;
+    const m = a._cm, L = m && m.lift, E = m && m.edge;
+    // the integrator's own state, so a failing frame names its cause (flight / spring / lift)
+    const why = m ? { fl: m.flight ? [m.flight.kind, +m.flight.t.toFixed(3), +m.flight.dur.toFixed(2)] : null,
+      lift: L ? [+L.o.toFixed(1), +L.w.toFixed(1), L.exact, L.on] : null, edge: E ? [Math.round(E.from), Math.round(E.to), +E.t.toFixed(2)] : null,
+      held: a.camHeld(), exec: !!a._execution, pulse: !!a.pulse } : null;
+    // the travelling light (headPos), through the same transform: what a player's eye follows
+    const hp = a.pulse && a.headPos ? a.headPos() : null;
+    const head = hp ? [W / 2 + (hp.x - a.cam.cx) * s, H / 2 + (hp.y - a.cam.cy) * s] : null;
     return { t: a.now, W, H, cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw, fi: a.focusIdx, fx, fy, lo,
-      rows: tops.length ? Math.min(...tops) : null, film, pane, evBottom } as any;
+      rows: tops.length ? Math.min(...tops) : null, film, pane, evBottom, head, why } as any;
   }) as Promise<Sample>;
 
 const record = async (page: Page, frames: number) => {
@@ -118,9 +132,11 @@ const record = async (page: Page, frames: number) => {
 };
 
 /** The three per-frame bounds over a run, with the worst frame named. */
-const motion = (S: Sample[]) => {
+/** `fromRest`: the run begins with the camera at rest, so its first motion is measured as a kick
+ *  from zero (the owner's "abrupt in the first second"). A run that starts mid-motion says false. */
+const motion = (S: Sample[], fromRest = true) => {
   let move = { v: 0, i: -1 }, kick = { v: 0, i: -1 }, zoom = { v: 1, i: -1 };
-  let prev: [number, number] = [0, 0];
+  let prev: [number, number] | null = fromRest ? [0, 0] : null;
   for (let i = 1; i < S.length; i++) {
     const a = S[i - 1], b = S[i];
     const s0 = a.W / a.vw, s1 = b.W / b.vw;
@@ -131,7 +147,7 @@ const motion = (S: Sample[]) => {
       m = Math.max(m, Math.hypot(dx, dy));
     }
     const c: [number, number] = [(a.cx - b.cx) * s1, (a.cy - b.cy) * s1];
-    const k = Math.hypot(c[0] - prev[0], c[1] - prev[1]);
+    const k = prev ? Math.hypot(c[0] - prev[0], c[1] - prev[1]) : 0;
     prev = c;
     const z = Math.max(s1 / s0, s0 / s1);
     if (m > move.v) move = { v: m, i };
@@ -141,10 +157,10 @@ const motion = (S: Sample[]) => {
   return { move, kick, zoom };
 };
 
-const expectContinuous = (S: Sample[], width: number, what: string) => {
+const expectContinuous = (S: Sample[], width: number, what: string, fromRest = true) => {
   // a run that sampled nothing, or never moved, would pass every bound — refuse it
   expect(S.length, `${what}: frames sampled`).toBeGreaterThan(30);
-  const m = motion(S);
+  const m = motion(S, fromRest);
   const travel = S.reduce((t, x, i) => (i ? t + Math.hypot(x.cx - S[i - 1].cx, x.cy - S[i - 1].cy) * x.W / x.vw : 0), 0)
     + Math.abs(Math.log(S[S.length - 1].vw / S[0].vw)) * 1000;
   expect(travel, `${what}: the camera actually moved (or this measures nothing)`).toBeGreaterThan(40);
@@ -171,6 +187,22 @@ const visibleRect = (x: Sample) => {
   return { left: x.pane, right: x.W, top, bottom };
 };
 
+/** The playable position farthest from Mount (by its title, for `j.land`), so the Explore flight
+ *  is a long one — the case that streamed the graph past at roll zoom. */
+const farFromMount = (page: Page) =>
+  page.evaluate(() => {
+    const a = (window as any).__neural;
+    const m = a.nodes.find((n: any) => n.ty === "positions" && n.rep !== false && a.graphName(n) === "Mount");
+    let best: any = null, bd = -1;
+    for (const n of a.nodes) {
+      if (n.ty !== "positions" || n.rep === false || !/ Top$/.test(n.t || "")) continue;
+      if (!a.adj[n.idx].some((k: number) => a.nodes[k].ty !== "positions")) continue;
+      const d = Math.hypot(n.x - m.x, n.y - m.y);
+      if (d > bd) { bd = d; best = n; }
+    }
+    return best.t as string;
+  });
+
 const pickFar = (page: Page, fromName: string) =>
   page.evaluate((name) => {
     const a = (window as any).__neural;
@@ -185,8 +217,14 @@ const seedFilm = (page: Page, deck: string) =>
     w.NG_CONTENT.decks[key] = { clips: [{ id: "aQ2vFXXBn-o", title: "Film for the camera journey" }] };
   }, deck);
 
-/** Pane → Explore → Positions → the "Mount" row, every step by mouse. */
-const clickMountInExplore = async (page: Page, j: ReturnType<typeof journey>) => {
+/** Pane → Explore → Positions, by mouse, and tag the "Mount" row; the click itself is separate so
+ *  the at-rest frame before it is sampled AFTER the pane's own navigation has pumped its time. */
+const openMountInExplore = async (page: Page, j: ReturnType<typeof journey>) => {
+  // the DSL boot pre-completes the White track, so a landing can mint a patch whose phone toast
+  // (`.ng-challenge-reward`) covers the pane's tabs for 4.8s — dismiss it the way a player would
+  // (landcard-deck.spec.ts does the same)
+  if (await page.locator("[data-reward-close]").isVisible())
+    await j.clickByMouse("[data-reward-close]", "dismiss the harness visitor's earned patch");
   await j.clickByMouse(".ng-logo", "the logo opens the pane");
   await j.advance(400);
   await j.clickByMouse("[data-view='explore']", "the Explore tab");
@@ -203,8 +241,8 @@ const clickMountInExplore = async (page: Page, j: ReturnType<typeof journey>) =>
     b.setAttribute("data-cam-test", "mount"); b.scrollIntoView({ block: "center" }); return true;
   });
   expect(tagged, "the Explore list shows Mount").toBe(true);
-  await j.clickByMouse('[data-cam-test="mount"]', "the Mount row in Explore");
 };
+const clickMount = (j: ReturnType<typeof journey>) => j.clickByMouse('[data-cam-test="mount"]', "the Mount row in Explore");
 
 for (const viewport of VIEWPORTS) {
   const W = viewport.width;
@@ -213,8 +251,8 @@ for (const viewport of VIEWPORTS) {
 
     test("roll start: the intro and the staged arrival glide, every frame within the bounds @curated", async ({ page }) => {
       const j = journey(page);
-      await j.rig("ai-skill", [0.5]); await j.rig("role", [0]); await j.rig("max-moves", [0.5]);
       await j.boot("/");
+      await j.rig("ai-skill", [0.5]); await j.rig("role", [0]); await j.rig("max-moves", [0.5]);
       const S = await record(page, 60 * 10);   // intro 3.2 s + arrival 6.2 s + settle
       const m = expectContinuous(S, W, "roll start");
       expectClearOfRows(S, W, "roll start");
@@ -278,7 +316,7 @@ for (const viewport of VIEWPORTS) {
       test(`Explore → Mount by mouse (${name}): glides there, and lands in the visible rect's central band`, async ({ page }) => {
         const j = journey(page);
         await j.boot("/");
-        await j.land("Closed Guard Bottom");   // far from Mount, so the flight is a real one
+        await j.land(await farFromMount(page));   // far from Mount, so the flight is a real one
         await seedFilm(page, "Mount|Top");
         await page.evaluate((L) => {
           const a = (window as any).__neural;
@@ -286,8 +324,10 @@ for (const viewport of VIEWPORTS) {
         }, layers);
         await j.advance(1500);
         const target = await pickFar(page, "Mount");
-        await clickMountInExplore(page, j);
-        const S = await record(page, 60 * 3);
+        await openMountInExplore(page, j);
+        const S = [await frame(page)];          // at rest: the click's first frame is a kick from here
+        await clickMount(j);
+        S.push(...(await record(page, 60 * 3)));
         expectContinuous(S, W, `Explore → Mount (${name})`);
         const last = S[S.length - 1];
         expect(last.fi === target.to || (await page.evaluate((i) => (window as any).__neural.nodes[i].pi, target.to)) === last.fi,
@@ -320,6 +360,84 @@ for (const viewport of VIEWPORTS) {
         expect(x.lo!, `CLEAR_SEC ${what}: stays clear (frame ${i}) ${info}`).toBeLessThan(x.rows! - 2);
       return firstClear;
     };
+
+    test("an escape: the catch keeps its own framing through the pick, and the landing glides — every frame within the bounds", async ({ page }) => {
+      // DEVMV31-CAM (v1.218.1, PR 265): a picked escape runs startExecution with `_execution.camera =
+      // false`, so its stand-in does NOT take the camera and the catch keeps its frameNodes framing.
+      // That seat recorded the camera half as a non-kill; this pins it, and the whole sequence's motion.
+      const j = journey(page);
+      await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Defender");   // card-click-contract's seat
+      await j.advance(4000);
+      await expect.poll(async () => { await j.advance(200); return page.evaluate(() => ((window as any).__neural._optionCards || []).filter((c: any) => !c.opt.threat && c.opt.action === "escape").length); }, { timeout: 20_000 }).toBeGreaterThan(0);
+      const S = await record(page, 60 * 2);                 // the catch's framing settles
+      const title = await page.evaluate(() => {
+        const a = (window as any).__neural;
+        a._handTouched = true;
+        const hit = (a._optionCards || []).find((c: any) => !c.opt.threat && c.opt.action === "escape");
+        hit.card.setAttribute("data-cam-test", "escape");
+        hit.card.scrollIntoView({ inline: "nearest", block: "nearest" });
+        return hit.card.querySelector(".ngchoice-title").textContent.trim();
+      });
+      await j.rig("escape", [0]);
+      await j.advance(400);                                  // the dealt card's ease-in comes to rest
+      S.push(...(await record(page, 1)));
+      const pickAt = S.length;
+      await j.clickByMouse('[data-cam-test="escape"] .ngchoice-title', `the escape "${title}"`);
+      S.push(...(await record(page, 60 * 5)));
+      expectContinuous(S, W, "escape", false);   // the catch is still flying in when sampling starts
+      // THE CATCH OWNS THE CAMERA until the landing: from the pick, while the escape executes, the view
+      // keeps the catch's zoom — the stand-in taking the camera would fly to the escape at roll zoom
+      const landAt = S.findIndex((x, i) => i >= pickAt && !x.why?.exec);
+      expect(landAt, "the escape landed (its execution ended) inside the window").toBeGreaterThan(pickAt);
+      const vw0 = S[pickAt].vw;
+      for (let i = pickAt; i < landAt; i++)
+        expect(Math.abs(S[i].vw / vw0 - 1), `the catch keeps its framing through the escape (frame ${i}) ${JSON.stringify(S[i])}`).toBeLessThan(0.03);
+      // THE LANDING HANDS THE CAMERA TO THE ROLL: the canonical seat you land on need not be one of
+      // the escape destinations the catch framed (here it is off-screen), so the camera must fly there
+      // — not sit on the catch until the click's 4s activity latch and the catch's lease run out
+      const flew = S.slice(landAt, landAt + 30).some((x) => x.why?.fl);
+      expect(flew, `the landing hands the camera to the roll ${JSON.stringify(S.slice(landAt, landAt + 3))}`).toBe(true);
+      const end = S[S.length - 1];
+      const R = visibleRect(end);
+      expect(end.fy!, `the landed node ends in the visible rect ${JSON.stringify(end)}`).toBeGreaterThan(R.top);
+      expect(end.lo!, `...clear of the rows ${JSON.stringify(end)}`).toBeLessThan(end.rows != null ? end.rows - 2 : end.H);
+      expect(end.fx!, `...on screen ${JSON.stringify(end)}`).toBeGreaterThan(R.left);
+      expect(end.fx!, `...on screen ${JSON.stringify(end)}`).toBeLessThan(R.right);
+    });
+
+    test("an escape picked AFTER the catch's lease: its stand-in still does not take the camera", async ({ page }) => {
+      // `_execution.camera = false` is redundant while the catch's 7s lease lives (the lease outranks
+      // every automatic camera). It is what decides a LATE pick: without it the stand-in would take the
+      // camera and dive to the escape's roll framing; with it the roll's own follow-cam keeps tracking
+      // the escape's travel at the travel zoom (`rollCamTarget`'s `moving`).
+      const j = journey(page);
+      await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Defender");
+      await j.advance(4000);
+      await expect.poll(async () => { await j.advance(200); return page.evaluate(() => ((window as any).__neural._optionCards || []).filter((c: any) => !c.opt.threat && c.opt.action === "escape").length); }, { timeout: 20_000 }).toBeGreaterThan(0);
+      await j.advance(8000);                                 // the catch's lease (camHoldSec 7) has run out
+      expect(await page.evaluate(() => (window as any).__neural.camHeld()), "the lease is over").toBe(false);
+      const title = await page.evaluate(() => {
+        const a = (window as any).__neural;
+        a._handTouched = true;
+        const hit = (a._optionCards || []).find((c: any) => !c.opt.threat && c.opt.action === "escape");
+        hit.card.setAttribute("data-cam-test", "escape");
+        hit.card.scrollIntoView({ inline: "nearest", block: "nearest" });
+        return hit.card.querySelector(".ngchoice-title").textContent.trim();
+      });
+      await j.rig("escape", [0]);
+      const S = [await frame(page)];
+      await j.clickByMouse('[data-cam-test="escape"] .ngchoice-title', `the escape "${title}"`);
+      S.push(...(await record(page, 60 * 4)));
+      expectContinuous(S, W, "late escape", false);
+      // the stand-in's own framing is the escape's TECHNIQUE node, which is not on the escape's path
+      // ([submission -> destination]); the roll's follow-cam tracks the travelling light instead. So:
+      // while the escape executes, the light the player is watching stays on the glass, every frame.
+      const during = S.filter((x) => x.why?.exec && x.head);
+      expect(during.length, "frames while the escape travels").toBeGreaterThan(10);
+      for (const x of during)
+        expect(x.head![0] >= 0 && x.head![0] <= x.W && x.head![1] >= 0 && x.head![1] <= x.H,
+          `the stand-in does not take the camera: the escape's light stays on screen ${JSON.stringify(x)}`).toBe(true);
+    });
 
     test("CLEAR_SEC: a card the player turns back on mounts over the node, and is cleared within the rule", async ({ page }) => {
       const j = journey(page);

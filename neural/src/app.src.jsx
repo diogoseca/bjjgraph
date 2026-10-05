@@ -19059,6 +19059,13 @@ class Component extends DCLogic {
       this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard();
       this.startExecution(opt, card);
       this._execution.camera = false;
+      // ...AND THE PICK IS NOT A CAMERA GESTURE (v1.219.0, enterAttempt's v1.135.1 doctrine). The
+      // click wrote `lastInteract`, and `userActiveNow()` held every automatic camera for 4s, so after
+      // the landing the camera sat on the catch while the node you landed on was off-screen
+      // (measured from the Triangle Choke defender seat: landed at (4062, 2126) on a 1440x900
+      // screen, still for 0.7s+), then flew. The catch's own lease still owns the camera through the
+      // escape; a pan during it re-latches the user, as ever.
+      this.lastInteract = (this.now || 0) - 5;
       this.executionEvent("Escaping", this.choiceLabel(opt), "info", "executing");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.res], () => {
@@ -19079,7 +19086,11 @@ class Component extends DCLogic {
           // not a new sentence in the history row.
           this._pendingIntent = { actor: "you", idx: opt.res, via: subIdx, kind: "escape" };
           this.executionEvent(stillCaught ? "Still defending" : "Escaped!", this.displayName(this.nodes[landed]), stillCaught ? "info" : "good", "landed");
-          this.after(0.7, () => this.enterLand(false));
+          // THE LANDING HANDS THE CAMERA TO THE ROLL (v1.219.0): the catch's lease (holdCamera, 7s
+          // from the catch) is over the moment you are out, and `landed` (the canonical seat) need
+          // not be one of the escape destinations the catch framed. A "Still defending" landing
+          // frames its new catch itself (enterDefense -> frameNodes takes a fresh lease).
+          this.after(0.7, () => { this.releaseCamera(); this.enterLand(false); });
         } else { finish(); }
       });
     };
@@ -19668,7 +19679,7 @@ class Component extends DCLogic {
     if (!m || !m.shown || m.shown.cx !== cam.cx || m.shown.cy !== cam.cy || m.shown.vw !== cam.vw) {
       const f0 = cam._paneFraction || 0;
       m = this._cm = { base: { x: cam.cx + f0 * cam.vw, y: cam.cy, w: cam.vw }, v: { x: 0, y: 0, l: 0 },
-        flight: null, lastT: null, lift: { o: 0, v: 0, on: false, w: 0, exact: false }, edge: null };
+        flight: null, lastT: null, lift: { o: 0, v: 0, on: false, w: 0, exact: false, wait: false, subj: -1 }, edge: null };
     }
     const frac = T._paneFraction || 0;
     const TV = { x: T.cx + frac * T.vw, y: T.cy, w: T.vw };
@@ -19681,7 +19692,8 @@ class Component extends DCLogic {
       const kind = sx >= -0.25 * W && sx <= 1.25 * W && sy >= -0.25 * H && sy <= 1.25 * H ? "pivot" : "arc";
       const S = this._camPath(base, TV, "arc").S;
       const dur = ctx.dur ? ctx.dur(S) : Math.max(0.6, Math.min(1.4, 0.5 + 0.25 * S));
-      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind };
+      m.flight = { a: { ...base }, t: 0, dur, v0: { ...m.v }, kind,
+        goal: { x: TV.x, y: TV.y, l: Math.log(TV.w), vx: 0, vy: 0, vl: 0 } };
       this._camFlights = (this._camFlights || 0) + 1;
     }
     let next;
@@ -19689,12 +19701,22 @@ class Component extends DCLogic {
     if (fl) {
       fl.t += dt;
       const u = Math.min(1, fl.t / fl.dur), e = (1 - Math.cos(Math.PI * u)) / 2;
-      const P = this._camPath(fl.a, TV, fl.kind).at(e);
+      // THE FLIGHT'S GOAL follows the target through a fast spring. A target that moves less than a
+      // jump (the announcer hiding moves the band's top 33px; a re-measured row) would otherwise move
+      // the pose by e * delta in ONE frame — near the end of a flight, almost all of it.
+      const G = fl.goal;
+      const GX = this._camSpring(G.x, G.vx, TV.x, 14, dt), GY = this._camSpring(G.y, G.vy, TV.y, 14, dt);
+      const GL = this._camSpring(G.l, G.vl, Math.log(TV.w), 14, dt);
+      G.x = GX[0]; G.vx = GX[1]; G.y = GY[0]; G.vy = GY[1]; G.l = GL[0]; G.vl = GL[1];
+      const P = this._camPath(fl.a, { x: G.x, y: G.y, w: Math.exp(G.l) }, fl.kind).at(e);
       // the velocity the camera had when this flight began, carried and let go (t * e^(-t/0.18))
       const g = fl.t * Math.exp(-fl.t / 0.18);
       next = { x: P.x + fl.v0.x * g, y: P.y + fl.v0.y * g, w: P.w * Math.exp(fl.v0.l * g) };
       if (dt > 0) m.v = { x: (next.x - base.x) / dt, y: (next.y - base.y) / dt, l: Math.log(next.w / base.w) / dt };
-      if (u >= 1 && (fl.t > 1.8 || (!fl.v0.x && !fl.v0.y && !fl.v0.l))) { m.flight = null; m.v = { x: 0, y: 0, l: 0 }; }
+      if (u >= 1 && (fl.t > 1.8 || (!fl.v0.x && !fl.v0.y && !fl.v0.l))) {
+        // hand the residual (goal still settling, carried velocity) to the tracking spring, moving
+        m.flight = null;
+      }
     } else {
       const w = ctx.trackW || NG_CAM_TRACK_W;
       const X = this._camSpring(base.x, m.v.x, TV.x, w, dt), Y = this._camSpring(base.y, m.v.y, TV.y, w, dt);
@@ -19706,7 +19728,10 @@ class Component extends DCLogic {
     // THE LIFT (soft clamp against an eased edge) — a screen-space offset on top of the pose.
     let want = 0;
     const lf = ctx.lift;
-    if (lf && lf.f) {
+    // An ARC flight is bringing an off-screen node in; holding it against the band would fight the
+    // flight (measured: a 22px-per-frame ramp as the node entered from above). The lift is for the
+    // node the camera already shows.
+    if (lf && lf.f && !(m.flight && m.flight.kind === "arc")) {
       let E = m.edge;
       const value = (q) => q.from + (q.to - q.from) * (q.t * q.t * q.t * (q.t * (q.t * 6 - 15) + 10));
       const s = W / next.w, n = lf.n;
@@ -19727,8 +19752,9 @@ class Component extends DCLogic {
       const edge = value(E);
       // only a node on (or entering) the screen is held: the retired clamp yanked off-screen ones,
       // so the hold fades in over the last quarter-screen of approach, on either axis
-      const out = fx < 0 ? -fx : fx > W ? fx - W : 0, gx = Math.max(0, 1 - out / (0.25 * W));
-      const outY = fy < -0.1 * H ? -0.1 * H - fy : fy > 1.1 * H ? fy - 1.1 * H : 0, gy = Math.max(0, 1 - outY / (0.25 * H));
+      const ss = (q) => { const c = Math.max(0, Math.min(1, q)); return c * c * (3 - 2 * c); };   // C1: no velocity step
+      const out = fx < 0 ? -fx : fx > W ? fx - W : 0, gx = ss(1 - out / (0.25 * W));
+      const outY = fy < -0.1 * H ? -0.1 * H - fy : fy > 1.1 * H ? fy - 1.1 * H : 0, gy = ss(1 - outY / (0.25 * H));
       const gate = gx * gy;
       const k = NG_CAM_LIFT_SOFT, sp = (x) => (x / k > 30 ? x : k * Math.log1p(Math.exp(x / k)));
       const lo = fy + margin, up = edge - sp(edge - lo) - lo;        // <= 0: how far UP the node must go
@@ -19738,10 +19764,21 @@ class Component extends DCLogic {
     // While the lift stays engaged its target is already continuous (a continuous pose against an
     // eased edge), so it is followed exactly — a spring here would only add lag under a row. The
     // spring smooths the two discontinuities left: the lift engaging and letting go.
-    const L = m.lift, was = L.on, prevWant = L.w;
-    L.on = !!(lf && lf.f); L.w = want;
-    const continuous = was && L.on && Math.abs(want - prevWant) < 24;   // no jump in the target itself
-    if (continuous && (L.exact || Math.abs(want - L.o) < 1.5)) {
+    const L = m.lift, was = L.on, prevWant = L.w, prevSubj = L.subj;
+    L.on = !!(lf && lf.f); L.subj = lf && lf.n ? lf.n.idx : -1;
+    // THE LIFT HOLDS, IT NEVER YANKS. Its target is continuous while it holds (a continuous pose
+    // against an eased edge); a JUMP in it — the lift turning on with the node already deep under a
+    // row, or a flight beginning under one (after an escape the canonical seat lands wherever it
+    // lands) — means the band-aware target is already moving the node out. So it waits until that
+    // motion has the node (nearly) clear, then holds. Measured: yanking at 157-177px under the card
+    // kicked 13-16px in one frame at 390x844.
+    // no jump in the target itself, and the SAME node: a landing hands the lift a new subject, whose
+    // want is a different quantity (measured: 7.4 -> 0.9px in one frame on an escape's landing)
+    const continuous = was && L.on && L.subj === prevSubj && Math.abs(want - prevWant) < 24;
+    if (L.on && !continuous && want > 6) L.wait = true;
+    if (L.wait) { if (!L.on || want <= 6) L.wait = false; else want = 0; }
+    L.w = want;
+    if (continuous && !L.wait && (L.exact || Math.abs(want - L.o) < 1.5)) {
       L.v = dt > 0 ? (want - L.o) / dt : 0; L.o = want; L.exact = true;
     } else {
       const LS = this._camSpring(L.o, L.v, want, 18, dt);
