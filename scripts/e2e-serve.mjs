@@ -151,6 +151,36 @@ if (fs.existsSync(CONFIG_FILE)) {
 }
 const CONFIG = { ...fileConfig, public: ROOT, etag: fileConfig.etag ?? true }
 
+// THE CONTENT SECURITY POLICY, as production serves it (CONSOLE0, 2026-10-05). Until then this server
+// sent no CSP at all, so no journey could ever see a `securitypolicyviolation`: the owner's 33
+// report-only violations on the dev preview were invisible here by construction. It reads the
+// EMITTED deploy-root `_headers` (regenerate_headers.py's output, the file Cloudflare Pages reads),
+// takes the `/*` rule's CSP headers, and sets them on EVERY response, as Cloudflare's `/*` does.
+// ONLY the CSP family: a report-only policy changes no behaviour, it reports. The rule's other
+// headers (X-Frame-Options, Referrer-Policy, Permissions-Policy, HSTS) and the Cache-Control tiers
+// could change what other journeys measure, so they are deliberately NOT applied, and no journey
+// may read them as covered here. Printed every run; e2e/journeys/console-clean.spec.ts fails if the
+// document arrives without it, so "no violations" can never mean "no policy".
+function cspFromHeaders(file) {
+  if (!fs.existsSync(file)) return []
+  const out = []
+  let inStar = false
+  for (const line of fs.readFileSync(file, "utf8").split("\n")) {
+    if (/^\S/.test(line)) inStar = line.trim() === "/*"
+    else if (inStar) {
+      const m = line.match(/^\s+(Content-Security-Policy(?:-Report-Only)?):\s*(.+?)\s*$/i)
+      if (m) out.push([m[1], m[2]])
+    }
+  }
+  return out
+}
+const CSP_HEADERS = cspFromHeaders(path.join(ROOT, "_headers"))
+console.log(
+  CSP_HEADERS.length
+    ? `[e2e-serve] applying ${CSP_HEADERS.map(([k, v]) => `${k} (${v.split(";").length} directives)`).join(", ")} from ${path.join(ROOT, "_headers")} /*`
+    : `[e2e-serve] NO CSP: ${path.join(ROOT, "_headers")} is missing or its /* rule carries none. Journeys see no policy.`,
+)
+
 http
   .createServer(async (req, res) => {
     const reqPath = decodeURIComponent((req.url ?? "/").split("?")[0])
@@ -158,6 +188,7 @@ http
     // serve-handler applies `rewrites` after its cleanUrls redirect check and only when the
     // requested path is not itself a file — which is precisely the bare-route case.
     const rewrites = flat ? [{ source: reqPath, destination: flat }] : []
+    for (const [k, v] of CSP_HEADERS) res.setHeader(k, v)
     try {
       await compress(req, res)
       await serveHandler(req, res, { ...CONFIG, rewrites })

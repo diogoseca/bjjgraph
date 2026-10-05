@@ -66,11 +66,18 @@
           "reason": "dev abbbb8873: git-derived publication dates",
           "scope": "keeplist",
           "to": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82"
+        },
+        {
+          "date": "2026-10-05",
+          "from": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82",
+          "reason": "CONSOLE0 (2026-10-05): the favicon href is ROOT-ABSOLUTE on every page (the site root from cfg.baseUrl, as the 404 page already did) instead of pathToRoot(slug). The Neural app moves the address bar with history.pushState, and the browser re-resolved the relative ../static/icon.png against the new address: /Positions/static/icon.png, a 404 on the dev preview. The pathToRoot import is dropped; nothing else in the component changes. Gated by e2e/journeys/console-clean.spec.ts.",
+          "scope": "keeplist",
+          "to": "af2556209e08cd229d59f6b96aa6cab4a4496efd8f13bd856a9034d8a6e4d738"
         }
       ],
-      "bytes": 7064,
+      "bytes": 7352,
       "scope": "keeplist",
-      "sha256": "0a7f67acbb884b6c285fdfe7cc4b8f9edc3b9eb3af3535771e2404592afdfa82"
+      "sha256": "af2556209e08cd229d59f6b96aa6cab4a4496efd8f13bd856a9034d8a6e4d738"
     },
     "source/quartz/components/Header.tsx": {
       "bytes": 470,
