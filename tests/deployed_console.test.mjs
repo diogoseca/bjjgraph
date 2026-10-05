@@ -12,11 +12,13 @@
 // fails...". No surviving mutant.
 import { test } from "node:test"
 import assert from "node:assert/strict"
-import { classify, ANALYTICS_SITE_HOST } from "../scripts/check_deployed_console.mjs"
+import { classify, ANALYTICS_SITE_HOST, proxyHost, redactor, report } from "../scripts/check_deployed_console.mjs"
 
 const CSP = "default-src 'self'; script-src 'self'; connect-src 'self'"
 const clean = (origin, extra = {}) => ({
   origin,
+  responses: [],
+  hosts: [],
   csp: CSP,
   navigated: true,
   played: true,
@@ -86,4 +88,48 @@ test("on production the RUM exception does not apply", () => {
 test("a run that never navigated, never played, or checked too few head resources is not clean", () => {
   const r = classify(clean("https://bjjgraph.org", { navigated: false, played: false, headChecked: 1, finalPath: "/" }))
   assert.equal(r.offenders.length, 3)
+})
+
+// ── REDACTION (CONSOLE5, 2026-10-05) ───────────────────────────────────────────────────────────
+// The first green deploy printed the PostHog proxy's hostname into a public Actions log. A FAKE host
+// stands in for it here, never the real one. MUTANTS, each red by the test named: report() returns
+// its lines unredacted -> "no line of the whole output..."; stderr left unredacted -> same test, the
+// offender line; the redactor case-sensitive -> "the redactor replaces whole hosts..."; proxyHost
+// returning the raw secret instead of its host -> "proxyHost reads every form...". No survivor.
+const FAKE = "telemetry.example.org"
+const PROXY_ENV = { POSTHOG_API_HOST: `https://${FAKE}/` }
+
+test("proxyHost reads every form the secret may take, and nothing when unset", () => {
+  assert.equal(proxyHost(PROXY_ENV), FAKE)
+  assert.equal(proxyHost({ POSTHOG_API_HOST: "Telemetry.Example.org" }), FAKE)
+  assert.equal(proxyHost({ POSTHOG_API_HOST: `${FAKE}:8443` }), FAKE)
+  assert.equal(proxyHost({}), "")
+  assert.equal(proxyHost({ POSTHOG_API_HOST: "  " }), "")
+})
+
+test("the redactor replaces whole hosts, any case, and nothing else", () => {
+  const r = redactor(FAKE)
+  assert.equal(r(`https://${FAKE}/static/array.js`), "https://<posthog-proxy>/static/array.js")
+  assert.equal(r("TELEMETRY.example.org"), "<posthog-proxy>")
+  assert.equal(r(`x${FAKE} ${FAKE}.evil.test`), `x${FAKE} <posthog-proxy>.evil.test`)
+  assert.equal(r("fonts.gstatic.com bjjgraph.org"), "fonts.gstatic.com bjjgraph.org")
+  assert.equal(redactor("")("anything at all"), "anything at all")
+})
+
+test("no line of the whole output carries the proxy host: hosts list, offenders, discounted errors", () => {
+  const origin = "https://abc123.bjjgraph.pages.dev"
+  const log = clean(origin, {
+    responses: [{ status: 200, url: `https://${FAKE}/static/array.js` }],
+    hosts: ["abc123.bjjgraph.pages.dev", FAKE, "fonts.gstatic.com"],
+    violations: [{ dir: "connect-src", blocked: `https://${FAKE}/flags/?v=2`, src: `https://${FAKE}/static/array.js` }],
+    console: [{ text: `TypeError at https://${FAKE.toUpperCase()}/x.js`, at: `https://${FAKE}/x.js` }],
+  })
+  const res = report(log, PROXY_ENV)
+  const all = [...res.out, ...res.err].join("\n")
+  assert.equal(res.code, 1, "the offenders still fail the check")
+  assert.doesNotMatch(all, /telemetry\.example\.org/i, "the proxy host leaked into the output")
+  assert.match(res.out.join("\n"), /<posthog-proxy>/, "the hosts line names the proxy only as <posthog-proxy>")
+  assert.match(res.err.join("\n"), /<posthog-proxy>/, "the offender lines name the proxy only as <posthog-proxy>")
+  // control: the same log without the secret DOES print the host, so the assertion above is not vacuous
+  assert.match([...report(log, {}).out, ...report(log, {}).err].join("\n"), /telemetry\.example\.org/)
 })
