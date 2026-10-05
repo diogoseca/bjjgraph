@@ -1432,7 +1432,7 @@ test("404Page emits one file whose RESOURCE base is root-absolute while its nav 
 //   - This asserts the page SET, the resource base, the batching and the case-variant pairs. It
 //     does not assert rendered body bytes; per-page byte parity is the render seam's job.
 
-test("ContentPage writes every page including the partial final batch, at pathToRoot resources", () => {
+test("ContentPage writes every page including the partial final batch, at root-absolute resources", () => {
   const root = tmp("bjj-contentpage-")
   const output = path.join(root, "out")
 
@@ -1472,14 +1472,17 @@ test("ContentPage writes every page including the partial final batch, at pathTo
     "the case-variant pair collapsed to one file; the build host is case-sensitive and build0 ships both",
   )
 
-  // Resources are page-relative here — the opposite of 404Page's root-absolute base, and the
-  // reason both are pinned: a replacement that unifies them breaks one of the two.
+  // Resources are ROOT-ABSOLUTE here, like 404Page's (siteRoot() in plugins/emitters/helpers.ts).
+  // REVERSED on purpose, CONSOLE0 (2026-10-05): this used to pin the page-relative base
+  // (`../../../index.css`) as the incumbent's contract. A relative base is re-resolved against the
+  // address bar, and the Neural app moves the address bar with history.pushState, so `/` then
+  // `/Positions/Side-Control/Bottom` fetched /Positions/static/icon.png, a 404 on the dev preview.
   const deep = fs.readFileSync(path.join(output, "Positions", "X-Guard", "Top.html"), "utf8")
+  assert.ok(deep.includes('"/index.css"'), "a 3-deep content page no longer loads /index.css root-absolutely")
   assert.ok(
-    deep.includes('"../../../index.css"'),
-    "a 3-deep content page no longer loads ../../../index.css; the pathToRoot resource base is gone",
+    !deep.includes('"../../../index.css"'),
+    "a content page is loading ../../../index.css page-relatively again; it 404s after a client-side navigation",
   )
-  assert.ok(!deep.includes('"/index.css"'), "a content page is loading /index.css root-absolutely")
 
   // The missing-index warning is a real signal, not decoration: no page here has the slug
   // `index`, so it must fire.

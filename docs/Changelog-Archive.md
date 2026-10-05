@@ -59,6 +59,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
 - **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
+- **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10221,3 +10222,27 @@ The spec waits out each card's .34 s deal-in ease before measuring (a first run 
 - First-hand core 362,215 B: +2,662 B over the accepted 359,553 (cap 6,000), and +54 B over the 362,161 B the
   v1.218.0 entry measured.
 - This change's own share, gzip -9 against dev's bundle: `neural.js` +37 B, `neural.css` 0.
+
+## v1.218.3 — THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR
+
+**Owner, 2026-10-05**, in Brave on the dev preview: `/` navigated itself to `/Positions/Side-Control/Bottom`, and
+the console showed `GET /Positions/static/icon.png 404` twice, 33 report-only CSP violations, and
+`ERR_BLOCKED_BY_CLIENT` for two PostHog extensions. "please fix so that doesnt happen again".
+
+**The 404 was a class.** Pages loaded their icon, `index.css`, `prescript.js`, `postscript.js` and the lazy
+`contentIndex.json` from `pathToRoot(slug)`, a page-relative base. After the app's `history.pushState` the
+browser re-resolves them against the new address; at three segments `../` lands on `/Positions/`. Of 29 such
+URLs on `/`, the 4 resources are fixed; 25 crawler-fallback links are measured unreachable while the app runs.
+One root-absolute base now: `siteRoot(cfg)` (`plugins/emitters/helpers.ts`), plus `Head.tsx`'s icon.
+
+**The CSP violations were two unlisted hosts.** PostHog already runs behind a first-party proxy on a
+bjjgraph.org subdomain (`POSTHOG_API_HOST`), allowed as `https://*.bjjgraph.org` to keep its name out of this
+repo; Cloudflare's edge-injected Web Analytics beacon (in no built file) is allowed too. Mermaid's `cdnjs`
+loader is off: 0 of 6,324 content and template files use it. Applied to the live preview, the new policy gave 0
+violations. Brave blocks the two PostHog files by PATH, so that line is the owner's call; the beacon's RUM post
+also fails CORS on every `*.pages.dev` host.
+
+**Gates.** `scripts/e2e-serve.mjs` now sends the emitted CSP (it sent none, so no journey could see a
+violation); `e2e/journeys/console-clean.spec.ts` replays the owner's path; `scripts/check_deployed_console.mjs`
+runs after both deploys against the real site. Mutants for each are in the spec headers and PR #266. No capture:
+the census and SEO baselines did not move.
