@@ -161,9 +161,17 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     overlay keeps the move's id and deckKey, so every study read is the same deck, and with no
   //     table on the wire every action is byte-identical (tests/listing_tables*.test.mjs, the
   //     metadata differential on a wire WITH tables). Reviewed by the full-game seat (OCPRB1-FG).
+  //   - WINLAT1 (2026-10-05, win-chance latency): speed only, no law change. The adapter memoises
+  //     pure lookups (canonical entry, arrival projection, constant rationals, fraction text), the
+  //     expansion spells a successor's id only for a NEW behaviour class (field equality decides the
+  //     alias count otherwise), the expansion rebuilds a branch/state without `next`/`snapshot`
+  //     instead of deleting the key (same keys, same order), and the async drivers yield by MessageChannel. Identity: a faster
+  //     SHA-256 and a loop-built ngMdpStable, both byte-identical (KATs against node:crypto). Every
+  //     enumerated action, branch, read and id is the same; the WINLAT differential replays real
+  //     requests through the previous and this worker core and compares whole responses byte for byte.
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'1306528b7bbcdfca7535d54105bf18dcf96e6d047ca4656857cb581d760506d8',knowledge:'fbc488583807bb2e21978ea0b2e851d1284d2f6aab58502022f846f13c64bf40',identity:'c9b811f4a2e5af11af2b193dcb30b6a787a19da4a06385373517f5f58591dc3a'};
+  const expected={adapter:'52034f619d29c7083b757d054dbee8ef1a23b6bbe196b0657bae52f875b40a45',knowledge:'fbc488583807bb2e21978ea0b2e851d1284d2f6aab58502022f846f13c64bf40',identity:'01af97542cb30b68da8205d29b088c4e8e97300ce0bc63ac151963bfb4508db2'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);

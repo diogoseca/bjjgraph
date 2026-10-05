@@ -431,10 +431,33 @@ function ngChoiceValueEscape(value) {
   return String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
 
+// THE LAST NUMBER STAYS WHILE THE SAME HAND RE-SOLVES (WINLAT1, 2026-10-05; the owner, testing the dev
+// preview on a phone: "the probabilities (win chance) take a while to load properly"). An answer, a
+// deck landing or any practice change re-solves the hand on screen, and its cards used to drop to "—"
+// for the whole solve: a median 8.8 s after a landing answer on desktop, longer on a phone.
+// `current` is the card's view now (pending). `previous` is the last READY view the SAME card showed
+// in the SAME hand; the host owns that pairing and forgets it on a new deal or a failure. The card
+// keeps the previous Win chance, and an entry card its previous "Works" number, dimmed
+// ([data-choice-stale], choice-value.css) and named as updating. The move chance is always the new
+// one, because it never waits for the solve. The status stays "pending", so nothing that waits for
+// current values counts this as current: the one automatic sort, the legend's V(s), the suggestion
+// badge. A new hand has no previous view and still starts from "—".
+export function ngChoiceValueUpdating(current, previous) {
+  if (!current || current.status !== "pending" || !previous || !["ready", "bounded"].includes(previous.status)
+    || previous.value === "—") return current;
+  const view = { ...current, value: previous.value, stale: true, state: "Updating…",
+    detail: "Recalculating with your latest practice. The dimmed number is the last result until the new one arrives.",
+    tooltip: "Win chance " + previous.value + ", updating", outcomes: [], split: null, notes: [], recommended: false };
+  if (current.immediateKind === "entry" && current.immediate === "—" && previous.immediate !== "—")
+    Object.assign(view, { immediate: previous.immediate, immediateStale: true, immediateText: previous.immediateText, immediateLine: previous.immediateLine });
+  return view;
+}
+
 export function ngChoiceValueHTML(view, detail = false) {
   const esc = ngChoiceValueEscape;
-  if (!detail) return '<div class="ngcv-line"><span>Win chance</span><strong data-choice-win>' + esc(view.value) + '</strong></div>';
-  return '<section class="ngcv-detail" aria-label="Expected roll outcomes"><div class="ngcv-line"><span>Win chance <small>· ' + esc(view.state) + '</small></span><strong data-choice-win>' + esc(view.value) + '</strong></div>'
+  const win = '<strong data-choice-win' + (view.stale ? ' data-choice-stale' : '') + '>' + esc(view.value) + '</strong>';
+  if (!detail) return '<div class="ngcv-line"><span>Win chance</span>' + win + '</div>';
+  return '<section class="ngcv-detail" aria-label="Expected roll outcomes"><div class="ngcv-line"><span>Win chance <small>· ' + esc(view.state) + '</small></span>' + win + '</div>'
     + '<p>' + esc(view.detail) + '</p>'
     + '<p data-choice-immediate-line><b>' + esc(view.immediateLine || (view.immediateLabel + ' chance now: ' + view.immediate)) + '</b></p>'
     + (view.split ? '<div class="ngcv-split" data-choice-split><b>How the win chance is made</b>' + view.split.map(line => '<p>' + esc(line) + '</p>').join("") + '</div>' : '')
@@ -448,4 +471,4 @@ export function ngChoiceValueHTML(view, detail = false) {
 // The standalone verification bundle installs this namespace eagerly. Production may
 // omit the entire module and pass its imported namespace to setChoiceValueRuntime.
 export const NG_CHOICE_VALUE_RUNTIME = Object.freeze({ ngChoiceValueController, ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder,
-  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent, ngChoiceValueImmediate });
+  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValuePercent, ngChoiceValueImmediate, ngChoiceValueUpdating });

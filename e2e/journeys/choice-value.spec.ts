@@ -203,6 +203,55 @@ test('@curated completed MC updates immediate odds, requests one new value snaps
   expect(await names(page)).toEqual([before[1], before[0], ...before.slice(2)])
 })
 
+// THE LAST NUMBER STAYS WHILE THE SAME HAND RE-SOLVES (WINLAT1, 2026-10-05; the owner, on a phone: "the
+// probabilities (win chance) take a while to load properly"). After an answer the same hand re-solves;
+// each card keeps its last Win chance, dimmed, until the new one lands (`ngChoiceValueUpdating`,
+// `choiceValueShown`). A stale number is never CURRENT: it suggests nothing, puts no number on the
+// legend and moves no card. A new deal starts from "—". Mutants (WINLAT1), each red at the named line:
+//   M-a  ngChoiceValueUpdating returns the pending view   -> "every card keeps its last number";
+//   M-b  the stale view copies the previous suggestion    -> the "no suggestion" count;
+//   M-c  the [data-choice-stale] CSS rule removed         -> "dimmed: computed opacity".
+// NOT a kill, by design: removing the per-hand reset in `_choiceShownMemo` alone stays green, because
+// the pairing is keyed by the card OBJECT and a new deal never reuses one; the reset is a second guard.
+// "a new deal starts from —" below guards the first one (a pairing by title or position would fail it).
+test('@curated a re-solve after an answer keeps each card\'s last Win chance, dimmed, and never treats it as current', async ({ page }) => {
+  const j = await ready(page)
+  const question = await j.landQuestion()
+  expect(question).toBeTruthy()
+  await installControlledProvider(page)
+  await page.evaluate(() => (window as any).__neural._choiceFixture.resolve(0))
+  await expect.poll(() => wins(page)).toContain('65%')
+  const sorted = await names(page), shown = await wins(page)
+  expect(shown.every(v => /%/.test(v)), 'the first values are on every card').toBe(true)
+  await expect(page.locator('[data-legend-win]')).toHaveAttribute('data-win-chance', /%/)
+  await page.keyboard.press('ABC'[question!.correct])
+  await j.expectBeat('mc_correct')
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBe(2)
+  const stale = page.locator('[data-choice-group="you"] [data-choice-win][data-choice-stale]')
+  expect(await wins(page), 'every card keeps its last number while the same hand re-solves').toEqual(shown)
+  await expect(stale).toHaveCount(shown.length)
+  await expect(page.locator('[data-choice-value-status]')).toHaveText('Updating win chances…')
+  const opacity = await stale.first().evaluate(el => +getComputedStyle(el).opacity)
+  expect(opacity, 'dimmed: computed opacity of a stale number').toBeLessThan(0.7)
+  // a stale number is not current: no suggestion, no number on the legend, no card moved
+  await expect(page.locator('[data-choice-group="you"] [data-choice-recommended]').filter({ hasText: /\S/ })).toHaveCount(0)
+  expect(await page.locator('[data-legend-win]').getAttribute('data-win-chance'), 'a stale number is not current (legend)').toBeNull()
+  expect(await names(page)).toEqual(sorted)
+  // the new values land undimmed; the hand already sorted once, so a new best does not move a card
+  const n = shown.length
+  await page.evaluate((n) => (window as any).__neural._choiceFixture.resolve(1, [.8, ...Array(n - 1).fill(.1)]), n)
+  await expect.poll(() => wins(page)).toContain('80%')
+  await expect(stale).toHaveCount(0)
+  await expect(page.locator('[data-choice-value-status]')).toHaveText('This roll · your practice')
+  expect(await names(page)).toEqual(sorted)
+  // a new deal has no previous numbers: it starts from "—"
+  await page.keyboard.press('1')
+  await j.nextHand()
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._choiceFixture.pending.length)).toBeGreaterThan(2)
+  expect((await wins(page)).every(v => v === '—'), 'a new deal starts from —').toBe(true)
+  await expect(stale).toHaveCount(0)
+})
+
 for (const mutate of ['role', 'ruleset', 'clock', 'profile']) {
   test(`@curated ${mutate} changed before refresh makes an old result inert`, async ({ page }) => {
     await ready(page); await installControlledProvider(page)

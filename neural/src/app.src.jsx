@@ -5116,7 +5116,7 @@ class Component extends DCLogic {
         : (!tp && resName !== "\u2014" ? '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>on success, advances to <b style="color:#c3cde0;font-weight:600;">' + this.splitName(resName).main + '</b></div>' : ''));
     const valueDetail = document.createElement("div");
     valueDetail.setAttribute("data-choice-value-detail", "1");
-    valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueView(opt), true);
+    valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueShown(opt), true);
     head.appendChild(valueDetail);
     const scroller = document.createElement("div");
     scroller.style.cssText = "flex:1;min-height:0;overflow-y:auto;";
@@ -13588,6 +13588,22 @@ class Component extends DCLogic {
       detail: loading ? "Preparing win chances. You can choose a move now." : "Win chance is unavailable for this roll. You can still choose this move.",
       ...this.choiceImmediateFallback(record.kind, p) };
   }
+  // THE CARD AS SHOWN (WINLAT1): its view, or, while the SAME hand re-solves, its last ready view,
+  // dimmed and named as updating (ngChoiceValueUpdating in choice-value.src.js says why). The pairing
+  // is by card object within one hand id, so a new deal starts from "—"; a failure (any status but
+  // pending) forgets the old number rather than show it beside "unavailable". Sorting, the legend and
+  // the suggestion still read `choiceValueView`, the CURRENT view.
+  _choiceShownMemo() {
+    if (!this._choiceLastShown || this._choiceLastShown.hand !== this._choiceHandId)
+      this._choiceLastShown = { hand: this._choiceHandId, own: new Map(), threat: new Map() };
+    return this._choiceLastShown;
+  }
+  choiceValueShown(opt) {
+    const view = this.choiceValueView(opt), runtime = this.choiceValueRuntime(), last = this._choiceShownMemo();
+    if (["ready", "bounded"].includes(view.status) && view.value !== "—") { last.own.set(opt, view); return view; }
+    if (view.status !== "pending") { last.own.delete(opt); return view; }
+    return runtime && runtime.ngChoiceValueUpdating ? runtime.ngChoiceValueUpdating(view, last.own.get(opt)) : view;
+  }
   choiceValueHTML(view, detail = false) {
     const runtime = this.choiceValueRuntime();
     if (runtime) return runtime.ngChoiceValueHTML(view, detail);
@@ -13656,9 +13672,11 @@ class Component extends DCLogic {
     this._gameStudyPriorityChanged();
     if (this.__ngDestroyed || this._execution) return;
     const snapshot = this._choiceValues && this._choiceValues.snapshot();
+    let updating = false;
     for (const oc of (this._optionCards || [])) {
       if (oc.opt.threat) { this._paintThreatValue(oc, snapshot); continue; }
-      const view = this.choiceValueView(oc.opt), value = oc.card.querySelector("[data-choice-value]");
+      const view = this.choiceValueShown(oc.opt), value = oc.card.querySelector("[data-choice-value]");
+      if (view.stale) updating = true;
       if (value) {
         value.innerHTML = this.choiceValueHTML(view);
         value.dataset.status = view.status;
@@ -13668,6 +13686,7 @@ class Component extends DCLogic {
       if (chance) {
         const was = chance.textContent;
         chance.textContent = view.immediate;
+        chance.toggleAttribute("data-choice-stale", !!view.immediateStale);
         if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate, view.immediateLabel);
       }
       if (label) label.textContent = view.immediateLabel;
@@ -13677,7 +13696,7 @@ class Component extends DCLogic {
       if (best) best.textContent = view.recommended ? (view.recommendationLabel || "Recommended") : "";
     }
     const row = this.optionsRef.current, status = row?.querySelector("[data-choice-value-status]");
-    if (status) status.textContent = snapshot?.status === "pending" ? "Calculating win chances…" : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading") ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "This roll · your practice" : "Win chance unavailable";
+    if (status) status.textContent = snapshot?.status === "pending" ? (updating ? "Updating win chances…" : "Calculating win chances…") : (["scheduled", "loading", "preparing"].includes(this._gameValueState) || this._choiceRuntimeState === "loading") ? "Preparing win chances…" : ["ready", "bounded"].includes(snapshot?.status) ? "This roll · your practice" : "Win chance unavailable";
     const retry = row?.querySelector("[data-choice-value-retry]");
     if (retry) retry.style.display = !/^live-graph-/.test(this._gameValueReason || "") && !["scheduled", "loading", "preparing"].includes(this._gameValueState) && (this._gameValueRetryable || (this._gameValueRuntime && ["unavailable", "error"].includes(snapshot?.status))) ? "inline-block" : "none";
     const sort = row?.querySelector("[data-choice-value-sort]");
@@ -13688,7 +13707,7 @@ class Component extends DCLogic {
     }
     const detail = this.optDetailRef.current?.querySelector("[data-choice-value-detail]");
     if (detail && this._detailCtx?.opt && !this._detailCtx.opt.threat) {
-      const view = this.choiceValueView(this._detailCtx.opt), html = this.choiceValueHTML(view, true);
+      const view = this.choiceValueShown(this._detailCtx.opt), html = this.choiceValueHTML(view, true);
       if (detail.innerHTML !== html) detail.innerHTML = html;
       // An entry's sheet row prints the card's own "Works" number (`expandOption`), so it repaints here.
       const follow = this.optDetailRef.current.querySelector("[data-choice-follow-up]");
@@ -13854,7 +13873,7 @@ class Component extends DCLogic {
     if (!opt.threat) {
       const valueDetail = document.createElement("div");
       valueDetail.setAttribute("data-choice-value-detail", "1");
-      valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueView(opt), true);
+      valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueShown(opt), true);
       panel.querySelector("[data-choice-explanation]").after(valueDetail);
     }
     const close = () => { this._stateChoiceClose = null; this._stateChoicePreview = null; panel.style.cssText = previousStyle; panel.style.display = "none"; this.setPaused(!!wasPaused); };
@@ -14132,6 +14151,14 @@ class Component extends DCLogic {
       text = view.value; tip = view.tooltip;
       if (record && record.outcomes && typeof record.outcomes.win === "number" && view.value !== "—") win = record.outcomes.win;
     }
+    // While the SAME hand re-solves, a threat keeps its last number too, dimmed (choiceValueShown).
+    const last = this._choiceShownMemo();
+    let stale = false;
+    if (win != null) last.threat.set(oc.opt, { text, win });
+    else if (current && snapshot.status === "pending" && last.threat.has(oc.opt)) {
+      ({ text, win } = last.threat.get(oc.opt)); tip = "Your win chance if they try this: " + text + ", updating"; stale = true;
+    } else last.threat.delete(oc.opt);
+    el.toggleAttribute("data-choice-stale", stale);
     el.textContent = text; el.title = tip;
     const col = win == null ? "#b3c6ea" : this.hex(this.domColor(win * 2 - 1));
     el.style.color = col;
