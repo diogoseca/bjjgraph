@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, joinSegments, pathToRoot, simplifySlug } from "../util/path"
+import { FullSlug, joinSegments, simplifySlug } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { escapeScriptContent } from "../util/escape"
@@ -16,9 +16,12 @@ export default (() => {
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
-    const iconPath = joinSegments(baseDir, "static/icon.png")
+    // ROOT-ABSOLUTE on every page, never pathToRoot(slug). The browser re-fetches the icon after
+    // the Neural app's history.pushState, against the NEW address: `../static/icon.png` from `/`
+    // became `/Positions/static/icon.png`, a 404 (CONSOLE0). Same rule as siteRoot() for the
+    // page's other resources (plugins/emitters/helpers.ts); gated by console-clean.spec.ts.
+    const iconPath = joinSegments(path, "static/icon.png")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     const canonicalUrl = cfg.baseUrl
       ? `https://${cfg.baseUrl}/${simplifySlug(fileData.slug!) === "/" ? "" : simplifySlug(fileData.slug!)}`
