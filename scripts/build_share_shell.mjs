@@ -43,11 +43,13 @@ if (!existsSync(INDEX)) die(`${INDEX} not found — run the Quartz build first.`
 let html = readFileSync(INDEX, "utf8");
 
 // ── 1. <base href="/"> ─────────────────────────────────────────────────────────────────────
-// Quartz emits RELATIVE asset URLs ("../index.css", "../prescript.js"). Served at /l/<code>
-// those happen to resolve, but at /l/<code>/ (a trailing slash, which link previews and chat
-// clients DO add) they resolve to /l/index.css and the page ships with no CSS and no app.
-// A <base> as the first thing in <head> makes every relative URL root-relative, whatever the
-// request path was.
+// Quartz used to emit RELATIVE asset URLs ("../index.css", "../prescript.js"). Served at
+// /l/<code> those happen to resolve, but at /l/<code>/ (a trailing slash, which link previews and
+// chat clients DO add) they resolved to /l/index.css and the page shipped with no CSS and no app.
+// Since CONSOLE0 (2026-10-05) the page's own resources are root-absolute (siteRoot() in
+// plugins/emitters/helpers.ts), so they no longer depend on this. It stays for everything else
+// the shell carries relative, the crawler-fallback links in its body: a <base> as the first thing
+// in <head> makes every relative URL root-relative, whatever the request path was.
 // Inserted AFTER <meta charset> on purpose: a charset declaration must land in the first
 // 1024 bytes AND before content that needs decoding, or the browser restarts the parse.
 const CHARSET = '<meta charset="utf-8"/>';

@@ -6,16 +6,10 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { ProcessedContent, QuartzPluginData, defaultProcessedContent } from "../vfile"
 import { FullPageLayout } from "../../cfg"
-import {
-  FilePath,
-  FullSlug,
-  getAllSegmentPrefixes,
-  joinSegments,
-  pathToRoot,
-} from "../../util/path"
+import { FilePath, FullSlug, getAllSegmentPrefixes, joinSegments } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { TagContent } from "../../components"
-import { write } from "./helpers"
+import { siteRoot, write } from "./helpers"
 import { i18n } from "../../i18n"
 
 interface TagPageOptions extends FullPageLayout {
@@ -91,7 +85,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
 
         for (const tag of tags) {
           const slug = joinSegments("tags", tag) as FullSlug
-          const externalResources = pageResources(pathToRoot(slug), resources)
+          const externalResources = pageResources(siteRoot(cfg), resources)
           const [tree, file] = tagDescriptions[tag]
           const componentData: QuartzComponentProps = {
             ctx,

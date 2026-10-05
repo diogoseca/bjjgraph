@@ -4,11 +4,11 @@ import HeaderConstructor from "../../components/Header"
 import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
-import { FilePath, FullSlug, pathToRoot } from "../../util/path"
+import { FilePath, FullSlug } from "../../util/path"
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { Content } from "../../components"
 import chalk from "chalk"
-import { write } from "./helpers"
+import { siteRoot, write } from "./helpers"
 import { track } from "./emitLedger"
 
 export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
@@ -64,7 +64,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
 
         for (const [tree, file] of content) {
           const slug = file.data.slug!
-          const externalResources = pageResources(pathToRoot(slug), resources)
+          const externalResources = pageResources(siteRoot(cfg), resources)
           const componentData: QuartzComponentProps = {
             ctx,
             fileData: file.data,
