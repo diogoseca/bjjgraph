@@ -74,13 +74,18 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   // its CURRENT place in the tray, read off the tray.
   const key=String((await own.locator('.ngchoice-title').allTextContents()).findIndex(t=>t.trim()==='Posture up')+1)
   expect(key,'Posture up is in the tray').not.toBe('0')
-  await page.keyboard.press(key)
+  // INSPECT IS SHIFT+DIGIT, THE DIGIT PLAYS (v1.218.1, owner 2026-10-05: an escape is "a choice i just
+  // chose, not to inspect but to move"). This spec pinned the old preview-first escape: a plain
+  // digit opened the preview and only its go button played the escape. Inverted on the owner's rule.
+  await page.keyboard.press('Shift+Digit'+key)
   await expect(page.locator('[data-choice-preview]')).toContainText('Posture up')
   await expect(page.locator('[data-choice-go]')).toHaveText('Posture up')
   await page.keyboard.press('Escape')
   await expect(page.locator('[data-choice-preview]')).not.toBeVisible()
   await j.rig('escape',[0])
-  await page.keyboard.press(key);await page.locator('[data-choice-go]').click()
+  await page.keyboard.press(key)
+  await expect(page.locator('[data-choice-preview]'),'the plain digit plays the escape: no preview').not.toBeVisible()
+  await expect(page.locator('[data-executing-tech="Posture up"]'),'...and the chosen escape stays on the table').toHaveCount(1)
   await j.advance(4000)
   const landed=await page.evaluate(()=>{const a=(window as any).__neural;return {role:a.playerRole,position:a.nodes[a.currentPos].posId,history:a.rollLog.map((r:any)=>r.key)}})
   expect(landed.role).toBe('top')
