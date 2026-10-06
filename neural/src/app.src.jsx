@@ -24,6 +24,24 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
 const NG_OUTCOME_BUBBLE = false;
+// EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.219.0, owner
+// 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
+// slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
+// time) and holds what it adds to `_qMod`, the exchange modifier the next arrival clears. Row 0 is the
+// landing question exactly as it always was: its correct answer earns no qMod because it already pays
+// momentum, sharpness and practice. Past the last row an answer is study only (stage, SRS and practice
+// still move): that is the cap. A timeout takes the WRONG step of the card it ran out on, never the
+// trap's (a timeout never costs more than a wrong answer on the same card). Momentum and the challenge
+// evidence are NOT in this table: they stay once per landing, on row 0. Read through `_landStep`.
+// APP-SIDE ON PURPOSE: the shared law `ngKnowledgeAdvance` (knowledge-profile.src.js) models the landing
+// question, k = 1, which is all the MDP ever projects (it assumes no further study), and that file's
+// hash is a reviewed exposure-label law pinned in mdp-exposure.src.js. The numbers are the owner's.
+const NG_LAND_ANSWER_STEPS = Object.freeze([
+  Object.freeze({ correct: 0, wrong: -0.04, trap: -0.08 }),
+  Object.freeze({ correct: 0.03, wrong: -0.03, trap: -0.06 }),
+  Object.freeze({ correct: 0.02, wrong: -0.02, trap: -0.04 }),
+  Object.freeze({ correct: 0.01, wrong: -0.01, trap: -0.02 }),
+]);
 // The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
 // the collapsed More pill is drawn before the stylesheet arrives. One string so the two cannot
 // drift. `justify-content:center` is what centres the COLLAPSED pill (v1.195.7): shut, the inner
@@ -9161,10 +9179,18 @@ class Component extends DCLogic {
         b.setAttribute("data-seat-star", String(a.idx));
         b.addEventListener("pointermove", () => { this._hover = { idx: a.idx, t: this.now }; });
         b.style.position = "fixed";
-        b.style.zIndex = "4"; // ambient graph chrome, below the reading cards and deliberate screens
+        // AMBIENT GRAPH CHROME LIVES IN THE WRAP, BELOW THE CARDS (v1.219.0). It used to sit on the
+        // ROOT plane at z:4, and per the helmet.html z ladder any root-level sibling at z ≥ 1 covers
+        // ALL of the wrap, so a star meant to be "below the reading cards" was above every one of
+        // them. Measured on the real app at 1440 (dev and this branch): a pair label drawn behind the
+        // landing deck's next chevron put its star exactly on the chevron, and three mouse clicks in
+        // a row opened the list menu instead of paging. Inside the wrap, z:3 sits under the hand (4),
+        // the landing card, its chevrons, film and More (5) and the pane (8). `[data-seat-star]` is
+        // already in attachInput's pointerdown early-return list, so it stays live to the mouse.
+        b.style.zIndex = "3";
         b.style.left = "0"; b.style.top = "0";
         b.style.border = "1px solid transparent";
-        (this.__ngRoot || document.body).appendChild(b);
+        (this.wrapRef.current || this.__ngRoot || document.body).appendChild(b);
         buttons.set(a.idx, b);
       }
       b.style.width = size + "px"; b.style.height = size + "px";
@@ -14652,12 +14678,14 @@ class Component extends DCLogic {
   // pager: "left right scrolling should still work", i.e. the GESTURES are the feature) ═══════
   // Swipe / trackpad wheel / ←→ page the CURRENT NODE's own flashcard deck — `_landPageTo` with
   // the per-landing cursor `_landPage`. No visible pager chrome.
-  // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST
-  // answered card per landing (whichever one it is) is THE landing question — refund, combo,
-  // qMod, `land_q_answered` — and every later answer is study: stage/srs/prep/noteCardDone all
-  // still run inside _mcAnswer/gradeRecall (mastery moves the odds), but the onDone routes to a
-  // grade-only path that emits `land_q_extra`. The latch is `_landAnswers` (a Set of qhashes),
-  // never `_landPending` — `_breakCombo` clears that one.
+  // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST card
+  // resolved per landing (whichever one it is; answered, or run out of time) is THE landing
+  // question — combo, `land_q_answered` — and those stay once per landing. Every card counts for the
+  // ODDS (v1.219.0, owner: "it's not a 1 slot thing, but many"): the k-th card resolved adds row k of
+  // NG_LAND_ANSWER_STEPS to qMod, diminishing, nothing past the table, and takes the same hit on the
+  // cards; a later card emits `land_q_extra` with its k. stage/srs/prep still run for every card
+  // inside _mcAnswer/gradeRecall. The step counter is `_landResolved`, never `_landPending` —
+  // `_breakCombo` clears that one; `_landAnswers` (qhashes) still drives the deck's completion.
   _landDeckCards(key) {
     return this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]) || [];
   }
@@ -14693,15 +14721,10 @@ class Component extends DCLogic {
                                 // (declined-but-unrevealed is NOT this case: see _expireLandQ)
       rec.answered = true;
       if (this._landQ === rec) this._landQ.answered = true;
-      const first = !this._landAnswers || this._landAnswers.size === 0;
       if (this._landAnswers) this._landAnswers.add(qh);
-      if (first) this._landAnswered(ok, tier, mode, hooks, fmt);
-      else {
-        this._disarmLandClock();
-        this._dropCountdownEvent();
-        this.refreshOptionOdds();
-        this.fx("land_q_extra", { correct: !!ok, tier: tier || null, deckKey: key });
-      }
+      // EVERY CARD COUNTS (v1.219.0): its place among the resolved cards picks its step; the first
+      // alone is the landing question (momentum, challenge evidence)
+      this._landAnswered(ok, tier, mode, hooks, fmt, (this._landResolved = (this._landResolved || 0) + 1));
       this._updateLandDeck();
     };
     let usedRecall = landRecall;
@@ -14846,7 +14869,8 @@ class Component extends DCLogic {
     const q = this._landQ, el = this._landEl;
     if (!q || q.answered || q.revealed || !el) return;
     this._armLandClock(el.querySelector("[data-land-clock]"));
-    if (this._landClockEl) this._landClockEl.style.transform = "scaleX(1)";
+    const d = this._decision;
+    if (this._landClockEl) this._landClockEl.style.transform = "scaleX(" + (d && d.total && d.remaining != null ? Math.max(0, Math.min(1, d.remaining / d.total)).toFixed(4) : 1) + ")";
   }
   // ── PAGING: prev/next flashcard of THIS node ── (owner: "scroll left or right on the land
   // card, and it should show the previous or the next card" = the same node's deck.) Replaces
@@ -14869,6 +14893,11 @@ class Component extends DCLogic {
     const seq = (this._landPageSeq = (this._landPageSeq || 0) + 1);
     // Pause immediately, including while a cold distractor pool loads. A newly mounted,
     // unanswered card gets its own full window; edge-clamped gestures never reset the clock.
+    // ONE WINDOW PER CARD (v1.219.0): the card being left keeps what was left of its window, and
+    // coming back to it resumes that instead of a fresh one — a skip is free, but paging back and
+    // forth can never buy a card more time.
+    const leaving = this._landQ, dd = this._decision;
+    if (leaving && !leaving.answered && dd && dd.remaining != null && !this._cwArm) leaving.left = Math.max(0, dd.remaining);
     this._disarmLandClock();
     this._dropCountdownEvent();
     const mount = (qw) => {
@@ -14973,7 +15002,8 @@ class Component extends DCLogic {
       this._landPage = null;         // cursor into _cardsOf(deck); set at the first mount
       this._landPaged = false;       // "the user moved the cursor this landing"
       this._landDeckComplete = false;
-      this._landAnswers = new Set(); // qhashes answered THIS landing — the first is the scored one
+      this._landAnswers = new Set(); // qhashes answered THIS landing
+      this._landResolved = 0;        // cards resolved THIS landing (answered or timed out): the step row
       this._landPageCache = {};      // qhash -> {el, q, mc}: re-paging re-parents, never redraws
     }
     // A cold visitor's FIRST landing carries its question like every other one. This used to
@@ -16393,10 +16423,24 @@ class Component extends DCLogic {
     this._dockLandStack();
     this._dockLandMore(el, rb);
   }
-  _landAnswered(correct, tier, mode, hooks, format) {
+  /** The qMod step of the k-th card resolved in this landing (k from 1): kind is correct · wrong · trap ·
+   *  expiry, and a timeout reads the wrong step. 0 past the table (the cap). */
+  _landStep(k, kind) {
+    const row = Number.isSafeInteger(k) && k >= 1 ? NG_LAND_ANSWER_STEPS[k - 1] : null;
+    if (!row) return 0;
+    return kind === "correct" ? row.correct : kind === "trap" ? row.trap : row.wrong;
+  }
+  /** One card resolved by an answer. `k` is its place among the cards resolved in this landing
+   *  (`_landResolved`): k = 1 is THE landing question, which alone moves momentum and is challenge
+   *  evidence (`land_q_answered`); every later card adds only its NG_LAND_ANSWER_STEPS step to this
+   *  exchange (`land_q_extra`), and takes the same hit on the cards. */
+  _landAnswered(correct, tier, mode, hooks, format, k) {
+    k = k || 1;
     this._disarmLandClock(); // the question is resolved — the window is spent, well or badly
     this._landPending = false;
     if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
+    const step = this._landStep(k, correct ? "correct" : tier === "trap" ? "trap" : "wrong");
+    if (step) this._qMod = (this._qMod || 0) + step;
     if (correct) {
       // SELF-GRADED RECALL EARNS ODDS, NEVER CLOCK OR COMBO (v1.105.1). "Show answer → Got it"
       // is an unverifiable claim; under MC the +2.5s refund and the combo tick are unforgeable,
@@ -16404,21 +16448,25 @@ class Component extends DCLogic {
       // (gradeRecall → noteCardDone) still flows — recall is worth MORE proof, just not more
       // clock.
       const selfGraded = format === "recall";
-      if (!selfGraded) this._comboUp();
+      if (k === 1 && !selfGraded) this._comboUp();
       // The +2.5s refund died with the hand clock (v1.133.0): answering IS what the window was for.
       // The outcome lands on the cards (v1.218.0); ×2+ still gets the combo pop on top.
-      this._outcome({ tone: "good", tag: "correct", big: "\u2191", sr: "Correct: your chances on these moves go up." });
+      this._outcome({ tone: "good", tag: "correct", big: step ? "+" + Math.round(step * 100) + "%" : "\u2191",
+        sr: k === 1 || step ? "Correct: your chances on these moves go up." : "Correct." });
     } else {
-      const cost = tier === "trap" ? 0.08 : 0.04;
-      this._qMod = (this._qMod || 0) - cost;
-      const broke = this._breakCombo("wrong");
-      const pts = Math.round(cost * 100);
-      this._outcome({ tone: "bad", tag: tier === "trap" ? "that one hurts" : "missed", big: "\u2212" + pts + "%", broke: broke,
-        sr: (tier === "trap" ? "That one hurts" : "Missed") + ": your chances on these moves drop " + pts + " points." });
+      const broke = k === 1 ? this._breakCombo("wrong") : 0;
+      const pts = Math.round(-step * 100);
+      const tag = tier === "trap" ? "that one hurts" : "missed";
+      this._outcome({ tone: "bad", tag: tag, big: pts ? "\u2212" + pts + "%" : "0%", broke: broke,
+        sr: (tier === "trap" ? "That one hurts" : "Missed") + (pts ? ": your chances on these moves drop " + pts + " points." : ": no further cost on this exchange.") });
     }
     this.refreshOptionOdds();
-    this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0, combo: this._combo || 0 });
-    if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
+    if (k === 1) {
+      this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0, combo: this._combo || 0 });
+      if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
+    } else {
+      this.fx("land_q_extra", { correct: !!correct, tier: tier || null, deckKey: this._landQ ? this._landQ.key || null : null, k: k, step: step, qMod: this._qMod || 0 });
+    }
   }
   // ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0, owner 2026-10-02) ════════════════════════════
   // "this toast is very distracting, and i'm like -4%? wait what? … like that animation that happens
@@ -18213,6 +18261,10 @@ class Component extends DCLogic {
     const grace = this._returningVisitor() ? 1 : 1.5;
     const sec = (this._decisionDsec || this.get("decisionSec", 9)) * grace;
     d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
+    // a landing card paged back to resumes ITS window (`_landPageTo` keeps what was left of it)
+    const lq = this._landQ;
+    if (lq && lq.left != null && !lq.answered && clockEl && this._landEl && this._landEl.contains(clockEl) &&
+      !this._landEl.hasAttribute("data-panic")) d.remaining = Math.min(d.total, lq.left);
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
     this._barF = null; // the >0.002 dedupe latch must not skip the first write
@@ -18308,14 +18360,20 @@ class Component extends DCLogic {
       }
     }
     if (q.key && q.card) this._schedule(q.key, q.card.q, false); // revealed unanswered = a failed review
-    this._qMod = (this._qMod || 0) - 0.04;
-    this.fx("land_q_expired", { deckKey: q.key || null }); // beat BEFORE the break — it clears _landPending
-    const broke = this._breakCombo("slow");
+    // A TIMEOUT IS THE WRONG STEP OF THE CARD IT RAN OUT ON (v1.219.0), never more: the first card
+    // resolved in a landing costs −4 and breaks momentum exactly as a wrong answer does; a later
+    // card, paged to, costs its smaller step and leaves momentum alone — as a wrong answer there does.
+    const k = (this._landResolved = (this._landResolved || 0) + 1);
+    const step = this._landStep(k, "expiry");
+    if (step) this._qMod = (this._qMod || 0) + step;
+    this.fx("land_q_expired", { deckKey: q.key || null, k: k, step: step }); // beat BEFORE the break — it clears _landPending
+    const broke = k === 1 ? this._breakCombo("slow") : 0;
     this._landPending = false;
     if (this._landEl) this._dockLandCard(this._landEl);
     // armed BEFORE the refresh, so the repaint that moves each card's number is the one that hits it
-    this._outcome({ tone: "bad", tag: "too slow", big: "\u22124%", broke: broke,
-      sr: "Too slow: the answer is revealed, and your chances on these moves drop 4 points." });
+    const pts = Math.round(-step * 100);
+    this._outcome({ tone: "bad", tag: "too slow", big: pts ? "\u2212" + pts + "%" : "0%", broke: broke,
+      sr: "Too slow: the answer is revealed" + (pts ? ", and your chances on these moves drop " + pts + " points." : ", at no further cost on this exchange.") });
     this.refreshOptionOdds();
   }
   // (The v1.138.0 "expiry sentence is a lease" — `_evExpiry`, `_dropExpiryEvent`, its five drop

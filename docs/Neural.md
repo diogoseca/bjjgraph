@@ -165,12 +165,15 @@ graded, disabled record). A cold distractor pool warms through `_landWarmP` (rep
 A swipe is not a pick: a capture-phase click suppressor on the card swallows the synthesized click
 of any gesture that moved >6px. The panic card pages nothing (it never enters `renderLandCard`).
 
-**The economy pays once per landing.** `land_q_answered` is challenge evidence and combo has no
-cap, so the FIRST answered card — whichever one the player paged to — routes through
-`_landAnswered` (refund/combo/`_qMod`, clears `_landPending`); every later answer grades as pure
-study (stage/srs/prep/`noteCardDone` still run inside `_mcAnswer`/`gradeRecall`) and emits
-`land_q_extra` instead. The latch is `_landAnswers` (a per-landing Set of qhashes), never
-`_landPending`. Committing after answering any one card fires no `land_q_ignored`.
+**Every card counts; momentum and evidence once per landing** (v1.219.0). `land_q_answered` is
+challenge evidence and combo has no cap, so the FIRST card resolved (answered or timed out,
+whichever the player paged to) is the landing question: combo, `land_q_answered`. Every card moves
+the exchange: the k-th resolved adds row k of `NG_LAND_ANSWER_STEPS` (`app.src.jsx`; nothing
+past its last row) to `_qMod` and takes the same hit on the cards; a later card emits
+`land_q_extra` with its k. A timeout takes its card's wrong step, never more. A skip is free, and a
+card has one window per landing: paging back resumes it. The counter is `_landResolved`;
+`_landAnswers` (qhashes) drives completion. Committing after answering any card fires no
+`land_q_ignored`.
 
 The card **backfills**: `_landBackfill()` re-renders a live card when a late payload lands, but
 only one that has never shown a question, on the current position, with a live decision window —
@@ -318,7 +321,8 @@ choices … the choices are fun to click"). `decisionSec` (the "Answer time" sli
 the v1.123.0 Hick's-law knee died with the hand clock) arms when a question mounts
 (`_armLandClock`) and drains a 3px bar on the card's top edge (neutral, red at ≤3s, "Answer
 3…2…1" in the announcer). Expiry (`_expireLandQ`) reveals the answer as a MISS — correct option
-highlighted, a failed SRS review, −4% on this exchange, momentum broken — and the hand stays
+highlighted, a failed SRS review, −4% on this exchange and momentum broken (a later card: its
+smaller step, momentum kept) — and the hand stays
 live: the player still picks, untimed. Committing past an open question is a FREE SKIP, and so is
 anything that puts the question away — the ✕, a background tap, the pane, an option sheet — all
 DECLINE it (`land_q_declined`, mapped to the same funnel side-mark; momentum untouched). The
