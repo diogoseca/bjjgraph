@@ -326,10 +326,19 @@ test("@curated the opening flight is piecewise-fixed: one wide aim, one landing 
     return out
   }
   const wide = await sample(4) // 3.3s → 4.9s: the kicker beat, camera on the whole graph
-  const gcy = await page.evaluate(() => (window as any).__neural.gcy)
+  const g = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return { gcx: a.gcx, gW: a.graphW, cx: a.camTarget.cx, vw: a.camTarget.vw }
+  })
   expect(wide.length, "the wide beat was sampled").toBeGreaterThan(2)
-  for (const cy of wide)
-    expect(Math.abs(cy - gcy), "beat 1 aims at the graph's own centre, every sample").toBeLessThan(3)
+  // v1.219.0 MOVED THE WIDE AIM VERTICALLY, deliberately: beat 1 frames the whole graph shifted the
+  // least distance that clears the start node of the rows its landing mounts at the reveal
+  // (`_liftForLanding`; camera-continuity.spec.ts asserts zero overlap from there). So the claim
+  // is now: the whole graph (its centre column, its zoom), and an aim that does not drift.
+  expect(Math.abs(g.cx - g.gcx), "beat 1 aims at the graph's centre column").toBeLessThan(3)
+  expect(Math.abs(g.vw / g.gW - 1), "at the whole graph's zoom").toBeLessThan(0.01)
+  const wideDrift = Math.max(...wide) - Math.min(...wide)
+  expect(wideDrift, `beat 1's aim does not drift (${wideDrift.toFixed(2)} world units)`).toBeLessThan(3)
 
   await j.advance(700) // cross the beat boundary at 5.2s
   const aims = await sample(14) // 5.6s → 11.2s: the approach, the landing AND the card's mount
