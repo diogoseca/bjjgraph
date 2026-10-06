@@ -549,8 +549,13 @@ are per category — positions **TOP/BOTTOM**, submissions **FINISHING/ESCAPING*
 ## 6. Camera
 
 `rollCamTarget(f, moving)` is the single seam for framing. Vertically it centres the node's **label**
-in the band actually free between the announce block and the landing card — measured, never a
-constant, with `_bandBot` keeping the tightest answer ever taken at this viewport height.
+in the visible graph rect (`_viewRect`: beside the pane, below the announcer, above the highest
+showing row; `frameNodes` fits into the same rect) — measured, never a constant, and before a
+landing's rows mount it frames into the band they will leave.
+
+The camera has velocity (v1.219.0, `_camStep`): a new destination is an eased flight (zooming
+out for a long pan), tracking is a damped spring, and a row that mounts unannounced is cleared
+within 0.35 s, never in one frame.
 Horizontally it parks the node at ~44% of the width on desktop, because a name runs left-to-right
 *from* its node; on a phone it centres the **orb + label block**, with `NG_LABEL_LEFT_MIN` as a floor
 on the drawn silhouette.
