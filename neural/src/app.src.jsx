@@ -37,7 +37,7 @@ const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
-// THE MOVE'S OWN NUMBER LEADS THE CARD (v@CARD2@, owner 2026-10-05: "the win chance label and value%
+// THE MOVE'S OWN NUMBER LEADS THE CARD (v1.220.0, owner 2026-10-05: "the win chance label and value%
 // should be significantly smaller than the move label and value%, as, despite being the most
 // important, the chance of it working is only that of the %"). Every size on a card's two number
 // lines is a ratio of ONE token on it, the move's own percentage (`.ngodds`, NG_CARD_MOVE_NUM px):
@@ -46,6 +46,11 @@ const NG_TRAY_INSET = 24;
 // Odds. Written onto each card as custom properties (`buildOptionCard`), read by choice-value.css.
 // No number changes; this is hierarchy only. Pinned by e2e/journeys/card-presentation.spec.ts.
 const NG_CARD_MOVE_NUM = 15, NG_CARD_MOVE_LABEL = 0.75, NG_CARD_WIN = 0.6;
+// ...AND IN THE INSPECT SHEET (owner's call through the orchestrator, 2026-10-06: "shrink the Inspect
+// SHEET's Win chance headline to the same NG_CARD_WIN ratio of the sheet's move %"). The sheet's own
+// move % (`.ngsucbig`) is NG_SHEET_MOVE_NUM px, written onto the sheet's head with NG_CARD_WIN; the
+// headline and its outcome numbers read both (choice-value.css `.ngcv-detail`).
+const NG_SHEET_MOVE_NUM = 25;
 // The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
 // over NG_CARD_LIFT_MS: rise, set down, settle.
 const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
@@ -4999,7 +5004,7 @@ class Component extends DCLogic {
   }
 
   expandOption(opt, onPick, srcCard) {
-    // AN ESCAPE OR A THREAT INSPECTS IN THIS SAME SHEET (v@CARD2@, owner 2026-10-05: "readability /
+    // AN ESCAPE OR A THREAT INSPECTS IN THIS SAME SHEET (v1.220.0, owner 2026-10-05: "readability /
     // presentation / view of inspect in a submission is not consistent design as the inspect of
     // other techniques like a transitions"). They had their own bare panel (`previewStateChoice`,
     // retired): no glyph, no category, an 18px title, no odds row, raw paragraphs, unstyled buttons,
@@ -5075,7 +5080,7 @@ class Component extends DCLogic {
     grab.innerHTML = '<span style="width:38px;height:4px;border-radius:2px;background:rgba(150,170,210,.4);"></span>';
     panel.appendChild(grab);
     const head = document.createElement("div");
-    head.style.cssText = "position:relative;flex:none;padding:6px 26px 18px;background:linear-gradient(150deg," + col + "1f,transparent 72%);border-bottom:1px solid rgba(150,170,210,.1);";
+    head.style.cssText = "--ng-move-num:" + NG_SHEET_MOVE_NUM + "px;--ng-win:" + NG_CARD_WIN + ";position:relative;flex:none;padding:6px 26px 18px;background:linear-gradient(150deg," + col + "1f,transparent 72%);border-bottom:1px solid rgba(150,170,210,.1);";
     const editBtn = '<button class="ng-bsuc-edit" title="Adjust your odds" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#8b97b0;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></button>';
     const stepsSpan = '<span class="ng-bsuc-steps" style="display:none;align-items:center;gap:7px;opacity:0;transition:opacity .18s ease;"><button class="ng-bsuc-dn" title="Lower" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">\u2212</button><button class="ng-bsuc-up" title="Raise" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">+</button></span>';
     // right-aligned stat stack — Edge on top, Success below (mirrors the small option card)
@@ -5125,7 +5130,7 @@ class Component extends DCLogic {
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
         '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (sc ? sc.statLabel : entryOpt ? "Works" : n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
         '<span style="display:flex;align-items:center;gap:8px;">' + (sc ? '' : stepsSpan + editBtn) +
-          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (sc ? this.choiceEscape(sc.statText) : entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
+          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:var(--ng-move-num);font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (sc ? this.choiceEscape(sc.statText) : entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
         '</span>' +
       '</div>' +
       '</div>' +
@@ -13719,6 +13724,7 @@ class Component extends DCLogic {
         const was = chance.textContent;
         chance.textContent = view.immediate;
         chance.toggleAttribute("data-choice-stale", !!view.immediateStale);
+        if (view.immediateStale) chance.setAttribute("aria-label", view.immediateLabel + " chance " + view.immediate + ", updating"); else chance.removeAttribute("aria-label");
         if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate, view.immediateLabel);
       }
       if (label) label.textContent = view.immediateLabel;
@@ -13826,7 +13832,7 @@ class Component extends DCLogic {
     // (its left inset is the measured pane, `updateUiShift`), from the start when it overflows.
     // Pinned by e2e/journeys/choice-row-centre.spec.ts.
     el.style.justifyContent = "safe center";
-    // ...and its own overflow: `startExecution` lets the stand-in's lift out of the row (v@CARD2@)
+    // ...and its own overflow: `startExecution` lets the stand-in's lift out of the row (v1.220.0)
     el.style.overflowX = "auto"; el.style.overflowY = "hidden";
     this._handEscape = !!escape;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
@@ -13882,7 +13888,7 @@ class Component extends DCLogic {
     this._syncEdgeFade(el);
     this.refreshChoiceValues();
   }
-  // AN ESCAPE OR A THREAT, IN THE SHEET'S OWN TERMS (v@CARD2@; `expandOption` renders it). Only what
+  // AN ESCAPE OR A THREAT, IN THE SHEET'S OWN TERMS (v1.220.0; `expandOption` renders it). Only what
   // differs from a technique: the category word, the choice's own name and what it is out of, the
   // card's own number under the card's own caption, where it leads, and the body.
   //  - A DEFENSE (your escape, or the opponent's escape while you finish) reads its authored detail
@@ -14197,6 +14203,7 @@ class Component extends DCLogic {
       ({ text, win } = last.threat.get(oc.opt)); tip = "Your win chance if they try this: " + text + ", updating"; stale = true;
     } else last.threat.delete(oc.opt);
     el.toggleAttribute("data-choice-stale", stale);
+    if (stale) el.setAttribute("aria-label", tip); else el.removeAttribute("aria-label");   // "…, updating", said as well as dimmed
     el.textContent = text; el.title = tip;
     const col = win == null ? "#b3c6ea" : this.hex(this.domColor(win * 2 - 1));
     el.style.color = col;
@@ -18448,7 +18455,7 @@ class Component extends DCLogic {
   executionCard(opt) {
     const shown = (this._optionCards || []).find((c) => c.opt === opt);
     if (!shown) return null;
-    // TWO LAYERS (v@CARD2@): `face` is the chosen card, cloned (no listeners, no live choice or
+    // TWO LAYERS (v1.220.0): `face` is the chosen card, cloned (no listeners, no live choice or
     // forecast record); `card` is the static HOLDER that owns the stand-in's rectangle, its status
     // attributes and its input. The face is what `_placeOnTable` lifts, so the lift never moves the
     // hit area: a click anywhere on the card's old rectangle still lands on the stand-in (§6.1).
@@ -18489,7 +18496,7 @@ class Component extends DCLogic {
     Object.assign(face.style, { pointerEvents: "none", cursor: "default", transform: "none", transition: "none", opacity: "1", width: "100%" });
     return card;
   }
-  // THE CARD IS PUT ON THE TABLE (v@CARD2@, owner 2026-10-05: "when i click on a choice card there
+  // THE CARD IS PUT ON THE TABLE (v1.220.0, owner 2026-10-05: "when i click on a choice card there
   // should be a more polished animation of the card. it seems very static and immovable, perhaps it
   // should move a little bit up as if putting a card on the table in front of us"). The chosen
   // card's FACE rises NG_CARD_LIFT of its own height, then is set down with a slight give, and the

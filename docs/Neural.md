@@ -226,7 +226,7 @@ shifted keys use their physical Digit code so keyboard layouts do not lose inspe
 Enter/X still executes from that sheet. Escapes obey the same contract (v1.218.1, owner: "it's a
 choice i just chose, not to inspect but to move"): the card and its digit play it; Inspect and
 Shift+digit inspect it. Threats are the opponent's moves and stay inspect-only. Both inspect in the
-one option sheet (v@CARD2@, `_stateChoiceSheet`), with the submission's safety notice and guide.
+one option sheet (v1.220.0, `_stateChoiceSheet`), with the submission's safety notice and guide.
 Hidden hands, checkpoints, text entry and the visible quiz retain keyboard priority. Closing
 Inspect restores the pause state it found.
 
@@ -402,7 +402,8 @@ seats, gi/no-gi, move counter, momentum, sharpness, question penalty, belt verdi
 value through ONE module (`knowledge-profile.src.js`), so a correct answer moves the numbers.
 
 - **Card**: Win chance plus the immediate chance (Move / Finish / Escape), which leads: Win chance
-  is 0.6 of its size (`NG_CARD_*`, v@CARD2@). A submission dealt on a
+  is 0.6 of its size (`NG_CARD_*`, v1.220.0), on the Inspect sheet too. A stale number (dimmed while
+  the hand re-solves) also reads "52%…" and is announced "…, updating". A submission dealt on a
   position is an ENTRY: stepping in is certain, so its small line is **Works** and the chance of the
   finish it leads to, as the landed state will roll it (the adapter's `followUp`) — never the
   step's own 100% (v1.213.0, owner 2026-10-01). Inspect shows the same number and says the step

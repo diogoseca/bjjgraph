@@ -61,7 +61,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
-- **v@CARD2@** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v@CARD2ANCHOR@--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
+- **v1.220.0** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v12200--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10307,16 +10307,23 @@ current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
 **The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
 captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
 fails as it should on a 0.001 value mutant and on an identity-only mutant.
-## v@CARD2@ — THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET
+## v1.220.0 — THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET
 
-Owner, 2026-10-05 (items 3–5 of the dev-preview notes; 1–2 shipped as v1.218.1). Owner screen (CARD2) before merge.
+Owner, 2026-10-05 (items 3–5 of the dev-preview notes; 1–2 shipped as v1.218.1). Owner screen: the CARD2 demo. Decisions taken by the orchestrator for the owner,
+2026-10-06: the sheet follows the card ratio, the lift stays (12 px / 0.44 s), and escape/threat sheets have no Play-from-here or tabs.
 
 **Item 3:** "the win chance label and value% should be significantly smaller than the move label and value%".
 - Every card size is a ratio of the move's own % (`NG_CARD_MOVE_NUM` 15 px), set as custom properties:
   - move label 0.75 (9 → 11.25 px);
   - Win chance label and value 0.6 (10/16 → 9/9 px);
   - a threat's header Win chance 0.6 of its Odds (13 → 9 px).
-- No number changed. The sheet's own Win chance block is unchanged.
+- **The Inspect sheet too:** its Win chance headline, label and value, is 0.6 of the sheet's own move %
+  (`NG_SHEET_MOVE_NUM` 25 px: 14/25 → 15/15 px). Its outcome numbers match it (17 → 15 px), so the breakdown
+  never outshouts the headline, and its prose stays at 12 px.
+- No number changed.
+- **Updating cue (#267 review):** dimming alone is easy to miss on a phone or under Dark Reader, so a stale number
+  also reads "52%…" (`[data-choice-stale]::after`) and carries the aria-label "Win chance 52%, updating". The
+  threat and entry numbers get theirs from their own paint.
 
 **Item 4:** "perhaps it should move a little bit up as if putting a card on the table".
 - `executionCard` returns a static holder that owns the rectangle, status and input. `_placeOnTable` lifts the
@@ -10339,8 +10346,10 @@ Owner, 2026-10-05 (items 3–5 of the dev-preview notes; 1–2 shipped as v1.218
 
 **Pinned by** `e2e/journeys/card-presentation.spec.ts` at 1440/390: measured ratios on every card of three hands;
 the app's own animation paused at its scanned peak (rise, holder still, no click hole, unclipped, settles); reduced
-motion; sheet parity against a transition's sheet, with seeded safety. 16 mutants red by name, control green.
-- Two first cuts were wrong: the settle check read the transform at `currentTime = duration` (unfilled, so it
+motion; sheet parity against a transition's sheet, with seeded safety, and the sheet's headline ratio. The cue is
+pinned in choice-value.spec's re-solve test. 20 mutants red by name on the dev-merged tree, control green.
+- Three first cuts were wrong. The outcome-size mutant survived until the reference sheet waited for READY values.
+- The other two: the settle check read the transform at `currentTime = duration` (unfilled, so it
   read nothing), and the holder mutant went red at a precondition. Both are fixed and re-killed.
 - Recorded non-kill: the play button's min-height alone (the footer stretches it to Back's 44 px).
 

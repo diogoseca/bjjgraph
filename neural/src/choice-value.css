@@ -12,15 +12,21 @@
 [data-choice-stale] { opacity:.42; animation:ngcvStale 1.4s ease-in-out infinite alternate; }
 @keyframes ngcvStale { to { opacity:.62; } }
 @media (prefers-reduced-motion: reduce) { [data-choice-stale] { animation:none; } }
+/* ...AND SAYS SO IN ITS SHAPE (v1.220.0, #267 review): dimming alone is easy to miss on a phone or under
+   Dark Reader, so a stale number reads "52%…". Its aria-label says "…, updating" (choice-value.src.js). */
+[data-choice-stale]::after { content:"\2026"; }
 .ngcv-detail { padding:14px 0 2px; color:#cad5e8; }
-.ngcv-detail .ngcv-line { font-size:14px; white-space:normal; }
-.ngcv-detail .ngcv-line strong { font-size:25px; }
+/* THE SHEET'S WIN CHANCE HEADLINE, label and value, at --ng-win of the sheet's own move % (--ng-move-num, set
+   on the sheet's head: app.src.jsx NG_SHEET_MOVE_NUM). Its outcome numbers match it, so the breakdown never
+   outshouts its headline; the breakdown's prose stays 12px, legible at 390. */
+.ngcv-detail .ngcv-line, .ngcv-detail .ngcv-line strong { font-size:calc(var(--ng-move-num, 25px) * var(--ng-win, .6)); }
+.ngcv-detail .ngcv-line { white-space:normal; }
 .ngcv-detail p { font-size:12px; line-height:1.5; margin:10px 0; }
 .ngcv-detail .ngcv-note { color:#aab9d3; }
 .ngcv-outcomes { display:flex; gap:10px; padding:12px 0; margin:0; border-bottom:1px solid rgba(150,170,210,.15); }
 .ngcv-outcomes > div { flex:1; }
 .ngcv-outcomes dt { font-size:11px; color:#aab9d3; }
-.ngcv-outcomes dd { margin:4px 0 0; font-size:17px; font-variant-numeric:tabular-nums; }
+.ngcv-outcomes dd { margin:4px 0 0; font-size:calc(var(--ng-move-num, 25px) * var(--ng-win, .6)); font-variant-numeric:tabular-nums; }
 .ngcv-execute { display:flex; flex-direction:column; align-items:stretch; flex:none; width:100%; border:0; padding:0; background:transparent; color:inherit; font:inherit; text-align:inherit; cursor:pointer; pointer-events:auto; }
 .ngcv-execute:focus-visible { outline:2px solid #c5d6ff; outline-offset:-3px; }
 [data-choice-inspect] { position:relative; z-index:2; }

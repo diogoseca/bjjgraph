@@ -2,7 +2,7 @@ import { expect, test, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
- * THE CARD, PRESENTED (v@CARD2@). Owner, 2026-10-05, on the dev preview at v1.218.0:
+ * THE CARD, PRESENTED (v1.220.0). Owner, 2026-10-05, on the dev preview at v1.218.0:
  *  3. "the win chance label and value% should be significantly smaller than the move label and value%,
  *     as, despite being gthe most imporant, the cahnce of it working is only that of the %"
  *  4. "when i click on a choice card there should be a more polished animation of the card. it seems
@@ -173,13 +173,20 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
           back: back ? [getComputedStyle(back).fontSize, Math.round(back.getBoundingClientRect().height), /Esc/.test(back.textContent || "")] : null,
           go: !!p.querySelector("[data-go]"), goHeight: Math.round(p.querySelector("[data-go]")?.getBoundingClientRect().height || 0),
           sections: body ? [...body.querySelectorAll(":scope > section")].map((s) => [...s.attributes].map((x) => x.name).find((n) => n.startsWith("data-sheet-"))) : [],
+          // the Win chance headline against the sheet's own move %, and its breakdown
+          winLine: (() => { const l = p.querySelector(".ngcv-detail .ngcv-line") as HTMLElement | null; if (!l) return null
+            const px = (el: Element | null) => el ? parseFloat(getComputedStyle(el).fontSize) : null
+            return { label: px(l.querySelector("span")), value: px(l.querySelector("strong")), move: big ? px(big) : null,
+              prose: px(p.querySelector(".ngcv-detail > p")), outcome: px(p.querySelector(".ngcv-outcomes dd")) } })(),
         }
       })
       const settled = async () => { let last = ""; await expect.poll(async () => { const s = JSON.stringify(await shape()); const same = s === last; last = s; return same }, { intervals: [200, 200, 300] }).toBe(true); return shape() }
       const close = async () => { await page.keyboard.press("Escape"); await expect.poll(() => a(page, "!!window.__neural._detailCtx")).toBe(false) }
 
-      // the reference: a transition's Inspect
+      // the reference: a transition's Inspect, opened once its values are READY, so the breakdown's
+      // outcome numbers exist to be measured (the real solver; it can take a while in the harness)
       const j = await seat(page, "Mount Top")
+      await expect.poll(() => page.locator('[data-choice-group="you"] [data-choice-win]').allTextContents(), { timeout: 60_000 }).toContainEqual(expect.stringMatching(/%$/))
       await mark(page, "transition")
       await j.clickByMouse("[data-cp-target] [data-choice-inspect]", "Inspect on a transition")
       const ref = await settled()
@@ -223,6 +230,17 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
         expect(s.sections[s.sections.length - 1], `${name}: the safety guide last (${s.sections})`).toBe("data-sheet-safety")
         expect(s.sections, `${name}: the escape's own detail between them`).toContain("data-sheet-escape")
       }
+      // (a) THE SHEET'S WIN CHANCE HEADLINE, at NG_CARD_WIN of the sheet's own move % (owner's call via the
+      // orchestrator, 2026-10-06), its breakdown never outshouting it and still legible at 390
+      for (const [name, s] of [["transition", ref], ["escape", esc]] as const) {
+        const w = s.winLine!
+        expect(w, `${name}: the sheet carries a Win chance headline`).not.toBeNull()
+        expect(Math.abs(w.value! / w.move! - WIN), `${name}: the headline value = ${WIN} of the sheet's move % (${w.value}/${w.move})`).toBeLessThan(0.02)
+        expect(Math.abs(w.label! / w.move! - WIN), `${name}: the headline label = ${WIN} of the sheet's move % (${w.label}/${w.move})`).toBeLessThan(0.02)
+        if (name === "transition") expect(w.outcome, "transition: its values are ready, so the breakdown shows outcome numbers").not.toBeNull()
+        if (w.outcome != null) expect(w.outcome, `${name}: the outcome numbers never outshout the headline`).toBeLessThanOrEqual(w.value!)
+        expect(w.prose, `${name}: the breakdown's prose stays legible`).toBeGreaterThanOrEqual(12)
+      }
       expect([esc.go, esc.goHeight], "your escape plays from its sheet, at the sheet's touch size").toEqual([true, ref.goHeight])
       expect([ref.goHeight >= 44, ref.back![1] >= 44], `the sheet's play and Back buttons are touch-sized (${ref.goHeight}, ${ref.back![1]})`).toEqual([true, true])
       expect(thr.go, "the opponent's move can be read, never played").toBe(false)
@@ -253,5 +271,11 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
    - a threat gets a play button ............................ "the opponent's move can be read, never played"
    - the escape/threat head loses its glyph ................. "escape: the head's glyph"
    - both sheet buttons lose min-height:44px ................ "the sheet's play and Back buttons are touch-sized (41, 41)"
+   (a) the sheet's Win chance headline (v1.220.0, 2026-10-06, all re-run on the dev-merged tree)
+   - the sheet headline back at 14/25px ..................... "transition: the headline value = 0.6 of the sheet's move %" (25/25)
+   - the outcome numbers back at 17px ....................... "transition: the outcome numbers never outshout the headline";
+                                                               it SURVIVED a first cut that opened the sheet before the solver
+                                                               answered (no outcomes, so nothing compared): the reference
+                                                               now waits for READY values
    NON-KILL, recorded: removing the play button's min-height ALONE survives, because the footer stretches
    it to Back's 44px; only both together are pinned. */

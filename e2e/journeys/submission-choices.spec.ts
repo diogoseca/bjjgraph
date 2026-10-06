@@ -77,7 +77,7 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   // INSPECT IS SHIFT+DIGIT, THE DIGIT PLAYS (v1.218.1, owner 2026-10-05: an escape is "a choice i just
   // chose, not to inspect but to move"). This spec pinned the old preview-first escape: a plain
   // digit opened the preview and only its go button played the escape. Inverted on the owner's rule.
-  // The escape inspects in the ONE option sheet (v@CARD2@): its play button reads "Posture up ⏎", and
+  // The escape inspects in the ONE option sheet (v1.220.0): its play button reads "Posture up ⏎", and
   // the sheet closes to opacity 0 (Playwright counts that as visible), so "closed" is `_detailCtx`.
   const inspecting=()=>page.evaluate(()=>!!(window as any).__neural._detailCtx)
   await page.keyboard.press('Shift+Digit'+key)
