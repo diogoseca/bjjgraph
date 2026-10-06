@@ -452,7 +452,7 @@ Start with partner giving 50% resistance in mounted crucifix. Execute full escap
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Side Crucifix and Arm Isolation</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related position reference; graph linkage does not establish inclusion in the course.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Side Crucifix and Arm Isolation</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>
