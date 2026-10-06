@@ -10306,3 +10306,20 @@ current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
 **The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
 captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
 fails as it should on a 0.001 value mutant and on an identity-only mutant.
+
+## v1.221.2 — THE CERTIFIED SOLVER GETS AN INDEPENDENT EXACT REFERENCE (DEVMV34, 2026-10-06)
+
+Closing the MDP engine tab (w3D): its branch `feat/mdp-game-model` held work dev never took, in custody commit
+88bee5214. Of its 17 files, 15 are on dev, identical or evolved further through PR #231. `tests/mdp_flat.test.mjs`
+was absent.
+
+**What it adds.** Its reference shares no solver code: its own BigInt fractions, complete policy enumeration and
+Cramer's-rule determinants. Every certified STATE record and ACTION record must enclose the exact vector. Mutation
+against dev's `mdp-certified.src.js`: dropping a successor's error term from an action record (the bound every card's
+certified Win chance prints from) is red here and green in `tests/mdp_model.test.mjs`. Four of its six tests pass on
+dev unchanged and are ported.
+
+**Left on the branch.** Two tests assert branch-only solver features:
+- conversion-count diagnostics: dev has its own per-probability memo since v1.218.6;
+- yields inside quotient construction: dev's first yield is at "drift-witness", well inside the 10 s cancellation grace.
+Porting either would change a hash-pinned law file.
