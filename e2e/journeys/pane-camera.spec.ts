@@ -130,8 +130,22 @@ test("a leased selection zoom retains its subject while the pane opens, closes a
   }, subject)
   await settle(j)
   const before = await screen(page, subject)
+  // v1.219.0 (owner: "center ... not to the center of the screen but to the visible area of the
+  // graph"): frameNodes centres in the VISIBLE rect — below the announcer, above the highest showing
+  // row — so the subject's vertical home is that rect's middle, measured here from the DOM. Every
+  // claim below is relative to `before`, which is what this test is about.
+  const rectMid = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const shown = (el: any) => el && el.offsetHeight && getComputedStyle(el).display !== "none"
+    const tops = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current].filter(shown)
+      .map((el: HTMLElement) => el.getBoundingClientRect().top).filter((y: number) => y > 48)
+    const ev = a.evRef.current, er = ev && ev.getBoundingClientRect()
+    const top = er && er.height > 0 && getComputedStyle(ev).opacity !== "0" ? Math.max(16, er.bottom + 12) : 16
+    const bottom = tops.length ? Math.min(...tops) - 12 : a.H - 16
+    return (top + bottom) / 2
+  })
   expect(before.x).toBeCloseTo(before.W / 2, 1)
-  expect(before.y).toBeCloseTo(before.H / 2, 1)
+  expect(before.y).toBeCloseTo(rectMid, 0)
   expect(before.held).toBe(true)
   const currentScreen = await screen(page, current)
   expect(Math.hypot(currentScreen.x - before.x, currentScreen.y - before.y)).toBeGreaterThan(100)
@@ -162,8 +176,9 @@ test("a leased selection zoom retains its subject while the pane opens, closes a
   await page.setViewportSize(PHONE)
   await settle(j)
   const phone = await screen(page, subject)
+  // the leased view is kept in the world, so the phone shows it scaled about its centre
   expect(phone.x).toBeCloseTo(PHONE.width / 2, 1)
-  expect(phone.y).toBeCloseTo(PHONE.height / 2, 1)
+  expect(phone.y).toBeCloseTo(PHONE.height / 2 + (before.y - before.H / 2) * PHONE.width / before.W, 1)
   expect(phone.zoom).toBeCloseTo(before.zoom, 1)
   expect(phone.held).toBe(true)
   expect(phone.currentPos).toBe(current)

@@ -61,6 +61,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
+- **v1.219.0** — [THE CAMERA GLIDES, AND FRAMES WHAT YOU CAN SEE](#v12190--the-camera-glides-and-frames-what-you-can-see)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10323,3 +10324,128 @@ dev unchanged and are ported.
 - conversion-count diagnostics: dev has its own per-probability memo since v1.218.6;
 - yields inside quotient construction: dev's first yield is at "drift-witness", well inside the 10 s cancellation grace.
 Porting either would change a hash-pinned law file.
+## v1.219.0 — THE CAMERA GLIDES, AND FRAMES WHAT YOU CAN SEE
+
+**Owner, 2026-10-05**, testing the dev preview at v1.218.0:
+1. "when the state is selected, it seems to zoom or start from a camera pan state already too zoomed and
+   panned so much so I wonder if there was a break in the continuity of the camera motion? please polish that
+   so it doesnt feel so abrupt in the first second when starting the roll / navigating to a new current node"
+2. "when i click on Mount or any other technique in the Explore tab, it should center the Mount node not to the
+   center of the screen but to the visible area of the graph that's available after the videos row, landcard,
+   and choices row show and take space"
+
+**Measured before designing.** The real app (no test mode, real rAF, `__NEURAL_RIG`) was recorded per frame.
+The camera was read through `draw()`'s transform, never from `camTarget`. Per-frame motion is the largest
+displacement of a viewport corner, normalised to 60 fps:
+
+| case | v1.218.0 move | v1.218.0 kick | after: move | after: kick |
+|---|---|---|---|---|
+| Explore → Mount 1440 | 1,117 px | 1,117 | 96 | 9.9 |
+| Explore → Mount 390 | 267 | 267 | 33 | 0.9 |
+| roll start (reveal) 1440 | 136 | 111 | 22 | 0.3 |
+| roll start (reveal) 390 | 187 | 175 | 13 | 1.2 |
+| exchange landing 1440 | 82 | 66 | 56 | 2.4 |
+| exchange landing 390 | 100 | 92 | 39 | 1.8 |
+| URL arrival 1440 | 90 | 30 | 80 | 3.1 |
+| URL arrival 390 | 89 | 74 | 40 | 1.8 |
+| share-list flight (control) 1440 | 14 | 9 | 14 | 0.7 |
+
+The kick is the velocity change between frames (velocity-normalised, so a slow headless frame is not a kick).
+Zoom stays at or below ×1.064 per frame. Two breaks, in every case but the control:
+
+1. **The follow-cam's band clamp snapped.** From v1.180.1 the follow-cam SET the focus's screen y into the free
+   band on the frame it started, and on the frame a row mounted. It did so even with the node off-screen.
+   - Explore → Mount at 1440 moved Mount 1,105 px vertically in one frame, while it was 5,300 px off-screen
+     to the left.
+   - The boot reveal moved the node 108 px, then 95 px when the card laid out.
+   - The exchange landing and the URL arrival at 390 moved it 250 px when the film row mounted.
+2. **First-order easing starts at its peak speed.** `x += (t − x)(1 − e^(−dt/τ))` moves furthest on its first
+   frame. A click went from rest to full speed in one frame: a 6,700 px pan at roll zoom ran 220 px a frame at
+   60 fps, and on a 50 ms (clamped) frame over 1,100.
+
+**What shipped (`_camStep`, one integrator).** The camera has velocity, and every motion starts and ends at rest.
+- A new destination is a **flight**, from the current pose and velocity, eased in and out (sine):
+  - a zoom about the fixed point when the destination is on screen, so the node travels a straight line (an
+    arc centred on the screen pushed a 340 px-off-centre node to 560 px mid-way through a 12× zoom-in);
+  - van Wijk & Nuij's arc when it is off screen (ρ 1.2), so the Explore pan zooms out ×3.5, travels and zooms
+    back in.
+  - Its goal follows the target through a fast spring. The announcer hiding moves the band's top 33 px; tracked
+    raw, that jumped the pose 33 px.
+- **Tracking** is a critically damped spring.
+- **The lift** replaces the clamp. A soft (softplus) clamp keeps the focus above the rows, against an edge that
+  eases to a new band over 0.3 s. It holds and never yanks: a jump in its target waits for the band-aware
+  target to bring the node out.
+- A direct write (pan, pinch, wheel, a reduced-motion snap) is adopted at rest.
+- Constants `NG_CAM_*`, module scope.
+
+**Item 2: one visible rect (`_viewRect`).**
+- It is the pane edge, the announcer and the highest showing row.
+- `rollCamTarget`, `_fitView` (`frameNodes`, a replay exchange, `locateNode`, roam) and the lift all read it.
+  `_landingBand` is gone.
+- Before: `frameNodes` fitted the full height, so a shared class on a phone settled under the landing card
+  (y 414 against a card spanning 290..548 at 390x844).
+- `ahead` predicts a landing's band from `_bandMemo`, the tightest bottom measured per viewport and row set.
+  - The arrival's wide beat and a URL intro's parting overview make room before the rows mount
+    (`_liftForLanding`).
+  - Travel and an exchange frame into the band the landing will leave.
+
+**The rows claim, replaced (orchestrator CAM1, under the owner's ruling).**
+- landing-reveal's "the node is clear of the rows on every frame of every flight" was the snap's to deliver.
+  A continuous camera cannot move a node from under a row on the frame the row appears.
+- Now: ZERO overlap on every frame wherever the band is predictable: the roll start, the URL arrival, the
+  exchange, and landing-reveal's restart.
+- `CLEAR_SEC` 0.35 s applies to rows the camera cannot see coming:
+  - a card the player turns back on;
+  - a film row whose content arrives late;
+  - a card taller than any measured for its rows;
+  - the session's first landing at a viewport.
+- url-arrival's "beat 1 aims at the graph's own centre" is now "its centre column, its zoom, no drift", because
+  the wide aim is lifted on purpose.
+
+**The escape (DEVMV31-CAM, PR 265).**
+- A picked escape's stand-in runs with `_execution.camera = false`, and the journey pins that the catch keeps
+  its framing through the escape.
+- Found on the way, and fixed: the pick's click latched `userActiveNow()` for 4 s, and nothing ended the catch's
+  lease at the landing. The canonical seat you land on (here off-screen, at (4062, 2126) on 1440x900) waited
+  0.7 s+ before the camera moved.
+- The pick now ages the latch, as `enterAttempt` has since v1.135.1, and the landing calls `releaseCamera()`.
+  The full-game seat OK'd the diff (CAMFG1).
+
+**Gates.** e2e/journeys/camera-continuity.spec.ts (22 cases, 1440 and 390, mouse journeys, layers on and off):
+- per frame at 60 fps: MOVE ≤ 120 px (1440) / 48 (390), KICK ≤ 14 / 6, ZOOM ≤ ×1.07;
+- `CLEAR_SEC` 0.35;
+- the Explore click lands in the visible rect's central band (the middle 40% vertically, 70% horizontally),
+  not the screen centre and not under a layer.
+
+tests/camera_motion.test.mjs (5 units) pins the law without a browser, for the push to dev.
+
+**Mutants (all red by name).** Specs are camera-continuity.spec.ts; "unit" is camera_motion.test.mjs.
+
+| mutant | killed by |
+|---|---|
+| `hardclamp`: the retired hard band clamp (instant edge, no gate, exact) | MOVE (Explore, all 8 layer cases), unit "THE LIFT" |
+| `firstorder`: the v1.218.0 first-order law | KICK (exchange, roll start), ZOOM (roll start), MOVE (Explore), 3 units |
+| `noarc`: no zoom-out arc for far flights | MOVE (Explore), unit "a far destination is a FLIGHT" |
+| `snap`: zero-length flights | MOVE (roll start, URL arrival, Explore), 3 units |
+| `screenrect`: `_viewRect` ignores the rows | "central band" (Explore) |
+| `slowedge`: the lift's edge takes 1 s | unit "THE LIFT … within CLEAR_SEC"; in the browser the re-aimed flight still clears in time |
+| `slowclear`: slow edge AND flights ≥ 1.5 s | "CLEAR_SEC a row turned on" (both widths), unit |
+| `noprelift`: the arrival and the URL intro make no room | "ZERO overlap" (roll start, URL arrival) |
+| `noahead`: no prediction | "ZERO overlap exchange" (both widths) |
+| `escapecam`: the escape's stand-in takes the camera | "the stand-in does not take the camera", MOVE (late escape). PR 265's recorded non-kill. Inside the catch's lease the flag is redundant, so only a pick after the lease can tell |
+| `escapelatch`: the escape keeps the click's latch and lease | "the landing hands the camera to the roll" (both widths) |
+
+
+**Not pinned:** user gestures (1:1 with the hand, by design); reduced motion beyond the execution snap.
+`_viewRect` runs per frame (reads only); memoise it per frame if phones show it (full-game's note). The seam
+names could not join CLAUDE.md's seam index: CLAUDE.md has 26 chars spare.
+
+**Payload.** This change's own share, measured against dev 45d114a10's own bundle on the same built tree:
+- eager gzip +2,218 B (`neural.js`; gzip -9 +2,180 B; `neural.css` byte-identical);
+- first-hand core +2,252 B (362,527 → 364,779).
+
+The sync with dev 45d114a10 (#267) took the eager figure to +5,201 B over the 340,015 B accepted at v1.216.0,
+over the 5,000 B per-change cap. So the baseline was first accepted at DEV'S measured level, 342,998 B, in its
+own commit (orchestrator CAM-GO0, the owner's 2026-09-29 pre-authorisation; its reason lists #259–#268 and
+#267). This change stays its own visible +2,218 B. The first-hand core is 364,779 B, +5,226 over 359,553
+(cap 6,000), and needed no accept.
