@@ -61,6 +61,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
+- **v1.221.1** — [507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI](#v12211--507-stale-system-cards-regenerated-and-generated-content-now-matches-its-generator-in-ci)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10306,3 +10307,17 @@ current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
 **The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
 captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
 fails as it should on a 0.001 value mutant and on an identity-only mutant.
+
+## v1.221.1 — 507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI
+
+B-07, approved 2026-10-06. The 2026-09-17 System renames and caption rewrites never reached the committed pages:
+nothing checked that `content/*.md` was the generator's current output. The FREE path only (`regenerate:md`,
+`regenerate:hubs`, never the paid `regenerate:json`) changed 507 files, 1,827 lines each way, and ALL 3,654
+changed lines are `<a class="system-card"` lines (title only 1,123 cards, caption only 112, both 592). A
+second run changes 0 files.
+
+New ci-validate step, "Generated content matches its generator": regenerate, then `git status --porcelain
+-- content/`, which also catches new and deleted pages. Proven in a clean venv holding only the workflow's
+three packages: 0 drifted on this branch (4,601 pages), red on origin/dev naming the 507. **A first mutant
+SURVIVED and the mutant was wrong, not the gate:** a hand edit left uncommitted is overwritten by the
+regeneration itself. The claim is about COMMITTED pages, and a committed hand edit is red, naming the file.
