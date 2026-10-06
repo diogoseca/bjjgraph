@@ -279,3 +279,32 @@ test('the landed/missed split regroups the backup exactly, and an unlabelled row
   assert.deepEqual(byId.entry.split, { lands: 1, winIfLands: 3 / 4, winIfMisses: null });
   assert.equal(byId.blind.split, null, 'a row with no landed/missed label is never guessed into a group');
 });
+
+// WINLAT1 (2026-10-05): the async driver answers the support hash's digest batch with the platform's
+// native SHA-256 and yields by MessageChannel; the synchronous driver digests the same texts in JS.
+// Both must return the SAME response, support hash and policy id included, on a kernel large enough
+// for the certified interval route (>128 states, a closed cycle to collapse) and on a small one forced
+// onto the rational certificate. Only the solver's own wall-clock fields may differ. Mutant, recorded:
+// reversing the native hex in ngMdpNativeDigests turns this red at `supportHash`.
+test('async (native digest, message yields) and sync drivers return identical responses', async () => {
+  const strip = r => JSON.parse(JSON.stringify(r, (k, v) => /Milliseconds$/.test(k) ? undefined : v));
+  const layered = (n) => {
+    const states = [];
+    for (let i = 0; i < n; i++) {
+      const next = i + 1 < n ? 's' + (i + 1) : null, skip = i + 3 < n ? 's' + (i + 3) : null;
+      const acts = [action('a', ...(next ? [to('1/2', next), W('1/4'), L('1/4')] : [W('1/2'), N('1/2')])),
+        action('b', ...(skip ? [to('2/3', skip), L('1/3')] : [W('1/3'), L('2/3')]))];
+      if (i % 50 === 7) acts.push(action('loop', to(1, 'c' + i)));
+      states.push(state('s' + i, ...acts));
+      if (i % 50 === 7) states.push(state('c' + i, action('back', to(1, 's' + i)), action('stay', to(1, 'c' + i))));
+    }
+    return states;
+  };
+  for (const [states, options] of [[layered(200), {}], [layered(40), { algorithm: 'certified', certificateArithmetic: 'rational' }]]) {
+    const { model, request } = fixture(states);
+    const sync = M.ngMdpSolve(model, request, options), async_ = await M.ngMdpSolveAsync(model, request, options);
+    assert.ok(['bounded', 'ready'].includes(sync.root.status), 'solved: ' + sync.root.status + ' ' + (sync.root.reason || ''));
+    assert.match(sync.quality.supportHash, /^[0-9a-f]{64}$/);
+    assert.deepEqual(strip(async_), strip(sync));
+  }
+});

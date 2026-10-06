@@ -10258,3 +10258,51 @@ name out of this repo. GitHub masks a secret only where its exact value appears,
 Four mutants (unredacted output, unredacted stderr, a case-sensitive redactor, the raw secret instead of its
 host) each turn a named test in `tests/deployed_console.test.mjs` red; a control proves the fixture really
 carries the host. The one log that already printed it is the owner's call to delete.
+## v1.218.6 — WIN CHANCES THAT ARE THERE WHEN YOU LOOK: THE SAME NUMBERS, 2-4x SOONER, AND NO BLANK AFTER AN ANSWER (WINLAT, 2026-10-05)
+
+**The report.** The owner, on a phone (dev preview v1.218.0): "the probabilities (win chance) take a while to load properly".
+
+**Measured first** (`scratch/full-game/winlat`, untracked probe `e2e/fg-probes/winlat.spec.ts`; desktop under the build
+lock, fresh player, 12 exchanges; median / p90 / max):
+- in-session hand -> Win chance 6.6 / 12.5 / 16.0 s;
+- landing answer -> new Win chance 8.8 / 11.5 / 12.2 s, every card showing "—" the whole time;
+- move % 0 ms on every non-entry card (built into the card); an entry card's "Works" waited for the solve.
+The main thread was never the problem (every step under 70 ms at p90). The worker was: model build 2.1 s, solve 4.2 s. Within the solve, the support-identity hash took 2.0 s (pure-JS SHA-256
+over ~30 MB of canonical text per hand).
+
+**Phone class.** CDP's CPU throttle cannot reach the worker: Chrome answers "Operation is only supported for pages, not
+workers". Two cgroup profiles were used instead.
+- The whole browser at 25% of one core (worker 7-8.6x slower than desktop): 0 of 7 hands got values. Every evaluate
+  ended "unavailable" at the 10 s expansion budget.
+- Profile 2: the page's renderer threads each capped at 25%, the GPU process free. See the report for its rows.
+
+**What changed (the worker). Every change gives the same output bit for bit:**
+- **A yield is a message, not a timer.** In a dedicated worker, a `setTimeout(0)` issued from its own continuation is a
+  nested timer, clamped to 4.0 ms. A MessageChannel round trip costs 0.02 ms. The solver yields every 8 ms, so a third
+  of its wall time was sleep.
+- **Faster SHA-256.** Same rounds, typed arrays and locals: 2.7x faster and byte-identical against node:crypto. In the
+  async driver the support hash's per-state texts go to `crypto.subtle` as one batch (3x faster again in a Chrome
+  worker). The synchronous driver keeps the JS digest of the same text.
+- **Conversions once per probability.** Quotient floats and outward bounds are computed per probability, not per branch.
+  In interval mode the certificate's exact copies are made only where they are read, and the max weight is computed as
+  (max t)/drift.
+- **Expansion.** A successor's id is spelled only for a new behaviour class. The adapter memoises canonical lookups, the
+  arrival projection, constant rationals, fraction text and the chance-context key. Branches and states are rebuilt
+  without `next`/`snapshot` instead of `delete` (dictionary-mode objects were halving compile). Action ids escape the
+  state id once per state. Uncollapsed quotient branches are reused.
+- **Exposure pin.** The adapter/identity hashes in `mdp-exposure.src.js` move, with a label-neutral note.
+
+**What changed (the hand).** While the SAME hand re-solves, each card keeps its last Win chance (and an entry its last
+"Works"), dimmed, under "Updating win chances…" (`ngChoiceValueUpdating`, `choiceValueShown`). A stale number is never
+current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
+
+**Not done:**
+- Warming the worker before the first hand: the model data is ~330 KB gzip on the first-hand bill
+  (payload-first-hand.spec.ts, delta cap 6,000 B), and ~94% of boots never move.
+- A per-(state, profile) cache: 36 of 36 captured requests were distinct.
+- Incremental re-solve: a grade changes probabilities and the state set alike.
+- Skipping restarts on technique-deck landings: the identity is shared with game study.
+
+**The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
+captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
+fails as it should on a 0.001 value mutant and on an identity-only mutant.

@@ -102,18 +102,52 @@ function ngMdpLex(a, b) {
   return 0;
 }
 function ngMdpAccumulate(target, p, v) { for (let i = 0; i < target.length; i++) target[i] = ngMdpAdd(target[i], ngMdpMul(p, v[i])); }
+// A BATCH OF DIGESTS IS A REQUEST TO THE DRIVER (WINLAT1, 2026-10-05). The support identity hashes the
+// canonical text of every state in the kernel, ~30 MB per in-session hand, and in JavaScript that was
+// the largest single stage of a solve. A step generator cannot await, so it yields ONE marker carrying
+// the texts. ngMdpSolveAsync answers with the platform's native SHA-256 (crypto.subtle) and passes
+// the hex back in. The synchronous driver, an unaware driver, or a platform without subtle answers
+// nothing, and the JS digest runs on the very same text, one state per step as before. SHA-256 is
+// SHA-256: the same hex either way, and the WINLAT differential compares whole responses (support
+// hash and policy id included) between this core and the one before it.
+function* ngMdpDigestSteps(texts, check) {
+  const sent = yield { ngMdpDigestBatch: texts };
+  if (Array.isArray(sent) && sent.length === texts.length && sent.every(h => typeof h === 'string' && /^[0-9a-f]{64}$/.test(h))) return sent;
+  const out = [];
+  for (const text of texts) { check(); out.push(ngMdpIdentity.ngMdpDigest(text)); yield; }
+  return out;
+}
+async function ngMdpNativeDigests(texts) {
+  const subtle = typeof crypto !== 'undefined' && crypto ? crypto.subtle : null;
+  if (!subtle || typeof subtle.digest !== 'function' || typeof TextEncoder !== 'function') return null;
+  try {
+    const encoder = new TextEncoder();
+    const buffers = await Promise.all(texts.map(text => subtle.digest('SHA-256', encoder.encode(text))));
+    return buffers.map(buffer => {
+      const bytes = new Uint8Array(buffer); let hex = '';
+      for (let i = 0; i < bytes.length; i++) hex += (bytes[i] < 16 ? '0' : '') + bytes[i].toString(16);
+      return hex;
+    });
+  } catch (_) { return null; }
+}
 function* ngMdpSupportHashSteps(states, check) {
   // Canonical sorted indices losslessly replace repeated, often long state IDs.
   // The dictionary is part of the digest; no string namespace is reserved.
-  const ids = [...states.keys()].sort(), index = new Map(ids.map((id,i) => [id,i])), hashes = [];
+  // A probability's fraction string is formatted once (WINLAT1): compile shares one rational object
+  // per distinct probability, and BigInt-to-string per branch was a measurable share of this pass.
+  // Each state's digest is SHA-256 over exactly this canonical text (ngMdpDigest of a string digests
+  // the string itself), so the texts are built here and digested as one batch (ngMdpDigestSteps).
+  const ids = [...states.keys()].sort(), index = new Map(ids.map((id,i) => [id,i])), texts = [], fractions = new Map();
+  const fraction = p => { let f = fractions.get(p); if (f === undefined) { f = ngMdpFraction(p); fractions.set(p, f); } return f; };
   for (const id of ids) {
     check();
-    hashes.push(ngMdpIdentity.ngMdpDigest(states.get(id).actions.map(a => [a.id,
-      a.branches.map(b => [ngMdpFraction(b.p), b.to ? index.get(b.to) : null, b.terminal || null,
+    texts.push(ngMdpIdentity.ngMdpStable(states.get(id).actions.map(a => [a.id,
+      a.branches.map(b => [fraction(b.p), b.to ? index.get(b.to) : null, b.terminal || null,
         b.subtype || null, b.duration == null ? null : b.duration, b.events || []])])));
     yield;
   }
-  const hash = ngMdpIdentity.ngMdpDigest(['indexed-support-v1',ids,hashes]); check(); return hash;
+  const hashes = yield* ngMdpDigestSteps(texts, check);
+  const [hash] = yield* ngMdpDigestSteps([ngMdpIdentity.ngMdpStable(['indexed-support-v1',ids,hashes])], check); check(); return hash;
 }
 function ngMdpPolicyHash(states, policy, supportHash) {
   // Action indices are bound to the complete ordered kernel above. This avoids
@@ -216,7 +250,7 @@ function ngMdpCompile(model, request, limits) {
   const rootId = request.state && request.state.id;
   if (!rootId || !states.has(rootId)) throw new Error('requires-context');
   const compiled = new Map(), pending = [rootId], queued = new Set(pending), subtypeSet = new Set(['nontermination:closed-class']),probabilities=new Map();
-  const coverage = { states: 0, actions: 0, branches: 0, excludedActions: 0, unknownActions: 0, zeroDurationBranches: 0 };
+  const coverage = { states: 0, actions: 0, branches: 0, excludedActions: 0, unknownActions: 0, zeroDurationBranches: 0 }, checkedChances = new Set();
   const reasons = [];
   // Every row list compiles through here: action branches and threat-probe rows alike.
   const rows = list => {
@@ -256,7 +290,8 @@ function ngMdpCompile(model, request, limits) {
       if (a.status === 'unavailable' || !a.branches || !a.branches.length) { coverage.unknownActions++; reasons.push(a.reason || 'unknown-action:' + a.id); continue; }
       const { branches, sum } = rows(a.branches);
       if (ngMdpCmp(sum, [1n, 1n])) throw new Error('non-normalized-row:' + a.id);
-      if (a.immediateExecutionChance != null) ngMdpProbability(a.immediateExecutionChance);
+      // validated once per distinct value: a check, no result, and the same throw the first time (WINLAT1)
+      if (a.immediateExecutionChance != null && !checkedChances.has(a.immediateExecutionChance)) { ngMdpProbability(a.immediateExecutionChance); checkedChances.add(a.immediateExecutionChance); }
       if (a.followUp != null) ngMdpProbability(a.followUp.chance);
       actions.push({ ...a, branches });
     }
@@ -537,10 +572,10 @@ function* ngMdpSolveStepsRaw(model, request, options) {
 function ngMdpSolveSteps(model, request, options) {
   const it = ngMdpSolveStepsRaw(model, request, options);
   const bits = options && options.maxRationalBits == null ? NG_MDP_RATIONAL_BITS : options && options.maxRationalBits;
-  return { next() {
+  return { next(sent) {
     const previous = NG_MDP_ACTIVE_RATIONAL_BITS;
     NG_MDP_ACTIVE_RATIONAL_BITS = bits == null || !Number.isFinite(bits) || bits <= 0 ? NG_MDP_RATIONAL_BITS : Math.min(NG_MDP_RATIONAL_BITS, bits);
-    try { return it.next(); } finally { NG_MDP_ACTIVE_RATIONAL_BITS = previous; }
+    try { return it.next(sent); } finally { NG_MDP_ACTIVE_RATIONAL_BITS = previous; }
   } };
 }
 function ngMdpValidateLimits(limits) {
@@ -548,9 +583,31 @@ function ngMdpValidateLimits(limits) {
 }
 function ngMdpSolve(model, request, options) { const it = ngMdpSolveSteps(model, request, options); let x; do { x = it.next(); } while (!x.done); return x.value; }
 function ngMdpSolveReference(model, request, options) { return ngMdpSolve(model, request, { ...options, algorithm: 'enumeration' }); }
+// ONE YIELD IS ONE MESSAGE, NOT ONE TIMER (WINLAT1, 2026-10-05). The async drivers (this one and
+// ngMdpExpandAsync) hand the thread back every 8 ms so the worker can read a cancel. A setTimeout(0)
+// issued from a timer's own continuation is a NESTED timer, and Chromium clamps those to 4 ms:
+// measured in a dedicated worker, 4.0 ms per yield against 0.02 ms for a MessageChannel round trip.
+// At one yield per 8 ms of work, a third of every solve's wall time was spent asleep. A posted message
+// is the same kind of task as the cancel the main thread posts, so a cancel still runs at the next
+// yield, in arrival order. Without MessageChannel the timer remains. The port is closed when the run
+// ends (node would otherwise stay alive on it). Scheduling only: no step and no value changes.
+function ngMdpYielder() {
+  if (typeof MessageChannel !== 'function') return { next: () => new Promise(resolve => setTimeout(resolve, 0)), close() {} };
+  const channel = new MessageChannel(); let wake = null;
+  channel.port1.onmessage = () => { const resume = wake; wake = null; if (resume) resume(); };
+  return { next: () => new Promise(resolve => { wake = resolve; channel.port2.postMessage(0); }),
+    close() { channel.port1.close(); channel.port2.close(); } };
+}
 async function ngMdpSolveAsync(model, request, options) {
-  const it = ngMdpSolveSteps(model, request, options); let x, checkpoint = Date.now();
-  do { x = it.next(); if (!x.done && Date.now() - checkpoint >= 8) { await new Promise(resolve => setTimeout(resolve, 0)); checkpoint = Date.now(); } } while (!x.done);
+  const it = ngMdpSolveSteps(model, request, options), yielder = ngMdpYielder(); let x, checkpoint = Date.now(), sent;
+  try {
+    do {
+      x = it.next(sent); sent = undefined;
+      // a digest batch (ngMdpDigestSteps): answer natively; null leaves the JS digest to the steps
+      if (!x.done && x.value && Array.isArray(x.value.ngMdpDigestBatch)) { sent = await ngMdpNativeDigests(x.value.ngMdpDigestBatch); checkpoint = Date.now(); continue; }
+      if (!x.done && Date.now() - checkpoint >= 8) { await yielder.next(); checkpoint = Date.now(); }
+    } while (!x.done);
+  } finally { yielder.close(); }
   return x.value;
 }
 function ngMdpEvaluatePolicy(model, request, suppliedPolicy, options) {
