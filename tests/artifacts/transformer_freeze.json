@@ -73,11 +73,18 @@
           "reason": "CONSOLE0 (2026-10-05): the favicon href is ROOT-ABSOLUTE on every page (the site root from cfg.baseUrl, as the 404 page already did) instead of pathToRoot(slug). The Neural app moves the address bar with history.pushState, and the browser re-resolved the relative ../static/icon.png against the new address: /Positions/static/icon.png, a 404 on the dev preview. The pathToRoot import is dropped; nothing else in the component changes. Gated by e2e/journeys/console-clean.spec.ts.",
           "scope": "keeplist",
           "to": "af2556209e08cd229d59f6b96aa6cab4a4496efd8f13bd856a9034d8a6e4d738"
+        },
+        {
+          "date": "2026-10-06",
+          "from": "af2556209e08cd229d59f6b96aa6cab4a4496efd8f13bd856a9034d8a6e4d738",
+          "reason": "TWA phase 1 (feat/twa-android, rescue f71002c35 reconciled with dev 2026-10-06): the shared head gains the install metadata, a <link rel=manifest> to /manifest.webmanifest, a theme-color meta read from pwa/manifest.json (#1a1a2e, the app's own background), and an apple-touch-icon (/static/pwa/icon-192.png). All three are ROOT-ABSOLUTE via the site root, the CONSOLE0 rule, because a page-relative href breaks after the app's history.pushState. Nothing else in the component changes. Gated by tests/pwa.test.mjs and scripts/check_pwa.py.",
+          "scope": "keeplist",
+          "to": "5c6c5aad6d4c7a69fbb9218aac4206f5eff47740d10ebe0ee8028f49aa0f4e1c"
         }
       ],
-      "bytes": 7352,
+      "bytes": 7896,
       "scope": "keeplist",
-      "sha256": "af2556209e08cd229d59f6b96aa6cab4a4496efd8f13bd856a9034d8a6e4d738"
+      "sha256": "5c6c5aad6d4c7a69fbb9218aac4206f5eff47740d10ebe0ee8028f49aa0f4e1c"
     },
     "source/quartz/components/Header.tsx": {
       "bytes": 470,
