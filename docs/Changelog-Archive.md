@@ -10424,10 +10424,12 @@ tests/camera_motion.test.mjs (5 units) pins the law without a browser, for the p
 `_viewRect` runs per frame (reads only); memoise it per frame if phones show it (full-game's note). The seam
 names could not join CLAUDE.md's seam index: CLAUDE.md has 26 chars spare.
 
-**Payload.** This change's own share, gzip -9 against dev 418290bff's bundle: `neural.js` +2,221 B, `neural.css` 0.
-On this branch (dev drift since v1.216.0's accept included), measured on its own tree:
-- first-hand core 364,414 B, +4,861 over the accepted 359,553 (cap 6,000);
-- eager gzip 344,865 B, +4,850 over 340,015 (cap 5,000).
+**Payload.** This change's own share, measured against dev 45d114a10's own bundle on the same built tree:
+- eager gzip +2,218 B (`neural.js`; gzip -9 +2,180 B; `neural.css` byte-identical);
+- first-hand core +2,252 B (362,527 → 364,779).
 
-If a sync with dev crosses the eager cap, a baseline is accepted first, at dev's own measured level, in its own
-commit (orchestrator CAM-V, the owner's 2026-09-29 pre-authorisation). That keeps this change's share visible.
+The sync with dev 45d114a10 (#267) took the eager figure to +5,201 B over the 340,015 B accepted at v1.216.0,
+over the 5,000 B per-change cap. So the baseline was first accepted at DEV'S measured level, 342,998 B, in its
+own commit (orchestrator CAM-GO0, the owner's 2026-09-29 pre-authorisation; its reason lists #259–#268 and
+#267). This change stays its own visible +2,218 B. The first-hand core is 364,779 B, +5,226 over 359,553
+(cap 6,000), and needed no accept.
