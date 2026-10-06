@@ -32,7 +32,11 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
       const exitMass = collapsed ? external.reduce((p, b) => add(p, b.p), rat(0)) : null;
       // Quotient action IDs are private sequential identities. Public IDs stay
       // untouched in origins/lift; repeating their large strings here adds no law.
-      const a = { id: 'qa:'+(nextActionId++), branches: external.map(b => ({ ...mapped(b), p: collapsed ? div(b.p, exitMass) : b.p })) };
+      // A branch outside every collapsed group maps to an object with the same keys and values, so
+      // the compiled branch itself is used (WINLAT1: ~100k copies per solve). The certificate only adds
+      // its own float fields (f, vector, lower, upper), which no reader of the compiled kernel reads.
+      const a = { id: 'qa:'+(nextActionId++), branches: external.map(b => !collapsed && (!b.to || groupOf.get(b.to) === b.to) ? b
+        : ({ ...mapped(b), p: collapsed ? div(b.p, exitMass) : b.p })) };
       reduced.get(group).actions.push(a); origins.set(a.id, { id, action });
     }
   }
@@ -44,8 +48,16 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
   diagnostics.algorithm = 'MEC-quotient-sparse-candidates+rational-certificates';
   diagnostics.quotientStates = qids.length; diagnostics.collapsedEndComponents = mecs.length;
   const terminalVectors=new Map();
+  // ONE CONVERSION PER PROBABILITY, NOT PER BRANCH (WINLAT1, 2026-10-05). Compile hands every branch
+  // with the same probability the SAME rational object, so its float and its outward bounds are
+  // computed once and reused: ~100k branches carry a few hundred distinct probabilities, and the
+  // per-branch BigInt work was 0.7 s of each in-session solve. number/bound are pure functions of
+  // the rational, so every branch gets the bits it always got. Fresh rationals (a collapsed group's
+  // renormalised exits) simply miss the memo.
+  const floatOf=new Map(),lowerOf=new Map(),upperOf=new Map();
+  const once=(memo,p,f)=>{let v=memo.get(p);if(v===undefined){v=f(p);memo.set(p,v);}return v;};
   for (const s of reduced.values()) for (const a of s.actions) for (const b of a.branches) {
-    b.f = number(b.p); if (b.terminal) {
+    b.f = once(floatOf,b.p,number); if (b.terminal) {
       const key=JSON.stringify([b.terminal,b.subtype]);
       if(!terminalVectors.has(key))terminalVectors.set(key,terminal(b,kernel.subtypes).map(number));
       b.vector=terminalVectors.get(key);
@@ -63,11 +75,15 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
     const power = exp ? exp - 1023 - 52 : -1074;
     return rat(power >= 0 ? [numerator << BigInt(power), 1n] : [numerator, 1n << BigInt(-power)]);
   }
+  // The adjacent binary64 (WINLAT1): the same +-1 on the 64-bit pattern, carried across two 32-bit
+  // words instead of through a BigInt. A finite nonzero double never sits at either end of the range.
   function nextNumber(x, up) {
     if (!Number.isFinite(x)) return x;
     if (!x) return up ? Number.MIN_VALUE : -Number.MIN_VALUE;
-    view.setFloat64(0, x); let bits = view.getBigUint64(0);
-    bits += (x > 0) === up ? 1n : -1n; view.setBigUint64(0, bits); return view.getFloat64(0);
+    view.setFloat64(0, x); let high = view.getUint32(0), low = view.getUint32(4);
+    if ((x > 0) === up) { low = (low + 1) >>> 0; if (low === 0) high = (high + 1) >>> 0; }
+    else { if (low === 0) high = (high - 1) >>> 0; low = (low - 1) >>> 0; }
+    view.setUint32(0, high); view.setUint32(4, low); return view.getFloat64(0);
   }
   function bound(x, up) {
     if (cmp(x, rat(0)) <= 0) return 0;
@@ -80,7 +96,7 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
   const min = (a,b) => cmp(a,b) <= 0 ? a : b;
   const upward=x=>{if(!Number.isFinite(x))throw new Error('interval-overflow');return nextNumber(x,true);};
   const downward=x=>{if(!Number.isFinite(x))throw new Error('interval-overflow');return nextNumber(x,false);};
-  if(intervalWitness)for(const s of reduced.values())for(const a of s.actions)for(const b of a.branches){b.lower=bound(b.p,false);b.upper=bound(b.p,true);}
+  if(intervalWitness)for(const s of reduced.values())for(const a of s.actions)for(const b of a.branches){b.lower=once(lowerOf,b.p,p=>bound(p,false));b.upper=once(upperOf,b.p,p=>bound(p,true));}
   // Each binary64 product and sum is rounded OUTWARD, even when the operation
   // happened to be exact. Input rational probabilities are already enclosed.
   // No numerical residual/tolerance is accepted without the positive drift.
@@ -218,10 +234,20 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
     }
   }
   diagnostics.candidateMilliseconds=Date.now()-stageStart-diagnostics.quotientMilliseconds;diagnostics.stage='drift-witness';
-  const t = new Map(qids.map(id => [id,floatRat(time.get(id)[0])])), x = new Map();
+  // EXACT COPIES ONLY WHERE THEY ARE READ (WINLAT1, 2026-10-05). The rational certificate (<=128
+  // states) reads every state's exact time and display vector. The interval certificate reads them
+  // only for the root's actions and their successors (records, errors, upper), plus the largest
+  // weight. So in interval mode they are made on first read, from the same floats by the same
+  // floatRat. maxWeight = max over t/drift is computed as (max t)/drift: dividing by the positive
+  // drift keeps the order, and a reduced fraction is unique, so it is the same rational. Every error
+  // keeps its precedence: nonfinite times first, then per state in order, as before.
+  const lazyExact = intervalWitness, made = (memo, f) => ({ get: id => { let r = memo.get(id); if (r === undefined) { r = f(id); memo.set(id, r); } return r; } });
+  if (lazyExact) for (const id of qids) if (!Number.isFinite(time.get(id)[0])) throw new Error('nonfinite-numerical-candidate');
+  const t = lazyExact ? made(new Map(), id => floatRat(time.get(id)[0])) : new Map(qids.map(id => [id,floatRat(time.get(id)[0])]));
+  const x = lazyExact ? made(new Map(), id => values.get(id).map(floatRat)) : new Map();
   let minimumDrift = null,driftLower=Infinity;
   for (const id of qids) {
-    check(); if (cmp(t.get(id),rat(0)) <= 0) throw new Error('nonpositive-termination-witness');
+    check(); if (lazyExact ? !(time.get(id)[0] > 0) : cmp(t.get(id),rat(0)) <= 0) throw new Error('nonpositive-termination-witness');
     for (const a of qa.get(id)) {
       if(intervalWitness)driftLower=Math.min(driftLower,downward(time.get(id)[0]-rangeBackup(a,time,0,true)[1]));
       else {
@@ -239,15 +265,16 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
       v[parent] += v[j];
     }
     for(let c=0;c<4;c++)v[c]=Math.max(0,Math.min(1,v[c]));
-    values.set(id,v);x.set(id,v.map(floatRat)); yield;
+    values.set(id,v); if (!lazyExact) x.set(id,v.map(floatRat)); yield;
   }
   if(intervalWitness)minimumDrift=floatRat(driftLower);
   if (cmp(minimumDrift,rat(0)) <= 0) throw new Error('termination-witness-not-verified');
   diagnostics.stage='residual-certificate';
-  const w = new Map(qids.map(id => [id,div(t.get(id),minimumDrift)]));
+  const w = lazyExact ? made(new Map(), id => div(t.get(id),minimumDrift)) : new Map(qids.map(id => [id,div(t.get(id),minimumDrift)]));
   const residual = zero(size),residualUpper=Array(size).fill(0); let bellmanExcess = rat(0), maxWeight = rat(0),excessUpper=0;
+  if (lazyExact) { let longest = 0; for (const id of qids) longest = Math.max(longest, time.get(id)[0]); maxWeight = div(floatRat(longest), minimumDrift); }
   for (const id of qids) {
-    check();const v=x.get(id);
+    check();const v=lazyExact?null:x.get(id);
     if(intervalWitness){
       for(let c=0;c<size;c++){
         const [lo,hi]=rangeBackup(policy.get(id),values,c,false),point=values.get(id)[c];
@@ -262,7 +289,7 @@ function* ngMdpCertifiedSteps(kernel, request, limits, diagnostics, check, math)
         bellmanExcess = max(bellmanExcess,sub(q,v[0]));
       }
     }
-    maxWeight = max(maxWeight,w.get(id)); yield;
+    if (!lazyExact) maxWeight = max(maxWeight,w.get(id)); yield;
   }
   if(intervalWitness){for(let c=0;c<size;c++)residual[c]=floatRat(residualUpper[c]);bellmanExcess=floatRat(excessUpper);}
   const regret = mul(add(bellmanExcess,residual[0]),maxWeight);

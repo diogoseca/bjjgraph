@@ -37,7 +37,8 @@
 // ── MUTATION TABLE, MEASURED ──────────────────────────────────────────────────────────────────
 //   O-A  comment stripping disabled            -> test 1 RED  ✓
 //   O-B  highlight replacement disabled        -> test 1 RED  ✓
-//   O-C  mermaid className changed             -> test 4 RED  ✓
+//   O-C  mermaid re-enabled in quartz.config.ts -> test 4 RED  ✓  (was "className changed" until
+//        CONSOLE0, 2026-10-05, when the config turned mermaid OFF; re-measured then)
 //   O-D  image embed loses width/height/alt    -> test 2 RED  ✓
 //   O-E  block references disabled             -> test 3 RED  ✓
 //   O-F  the transclude alias wart "FIXED"     -> test 2 RED  ✓  (correct under D-03: the wart
@@ -150,12 +151,18 @@ test("BLOCK REFERENCES — the ^id that populates file.data.blocks for the rende
 
 test("MERMAID AND SYNTAX HIGHLIGHTING — the two fence branches", async (t) => {
   if (skip) return t.skip("harness unavailable")
+  // MERMAID IS OFF BY CONFIG since CONSOLE0 (2026-10-05): `quartz.config.ts` passes `mermaid: false`,
+  // because the option inlined a cdnjs.cloudflare.com loader into every page for a feature no
+  // content file uses, outside the CSP. So a mermaid fence is now an ORDINARY labelled fence: shiki
+  // highlights it, and it carries no `code.mermaid` hook for a runtime that is no longer shipped.
+  // Re-enabling mermaid turns this red, which is the point: it must come back with its CSP host.
   const mermaid = await emit("```mermaid\ngraph TD; A-->B;\n```")
-  assert.match(
+  assert.doesNotMatch(
     mermaid.html,
     /<code class="mermaid">/,
-    "a mermaid fence must carry the class its runtime querySelector looks for",
+    "mermaid is disabled in quartz.config.ts; re-enabling it needs cdnjs.cloudflare.com in the CSP",
   )
+  assert.match(mermaid.html, /data-language="mermaid"/, "a mermaid fence is highlighted like any labelled fence")
 
   // SyntaxHighlighting, pinned in BOTH directions because the corpus exercises neither.
   const labelled = await emit("```js\nconst x = 1\n```")
