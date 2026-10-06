@@ -726,7 +726,46 @@
         "attempt_probability": {
           "gi": 18,
           "nogi": 18
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 30,
+          "nogi": 33
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "success"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "success"
+          },
+          {
+            "to": "Rear Triangle/Bottom",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Crucifix/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Rolling Escape to Guard",

@@ -8,7 +8,8 @@
  *
  * PIPELINE, once a day (cron in wrangler.toml):
  *   0. The public deck manifest, ONCE per run — the allow-list every technique name is checked
- *      against. No manifest, no run (v1.164.2).
+ *      against. No manifest, no run (v1.164.2). Since v1.204.3 it is keyed by share ordinal and
+ *      decoded against graph-data.json by the app's own reader (neural/src/wire-keys.src.js).
  *   1. Supabase (service role): rows of user_training_data where the blob opts in — only the
  *      four blob paths the run reads, paginated, the count asserted against Content-Range.
  *   2. For each: the latest `dayLog` day with allow-listed techniques that has NOT been mailed
@@ -18,9 +19,10 @@
  *      (suppress.js) is never lifted by anything in this Worker.
  *   4. The auth user: the owner's kill switches (banned, deleted, unconfirmed) are skips by
  *      name, and the address must pass an ASCII allow-list before it reaches a To: header.
- *   5. Compose: techniques · count · Game Knowledge % (+delta) · NEXT-BELT ETA at the recent
- *      pace · streak · the weak-spots MAGAZINE section (top spot with an attributed clip when
- *      the public content chunk carries one; the second as "an extra").
+ *   5. Compose: techniques · count · Game Knowledge % (+delta) · the NEXT BELT from the belt the
+ *      player wears (`dayLog[day].b`, v1.211.0 — never from the score) · streak · the weak-spots
+ *      MAGAZINE section (top spot with an attributed clip when the public content chunk carries
+ *      one; the second as "an extra").
  *   6. CLAIM the (user, day) in digest_sent — BEFORE the send (v1.164.3) — then send via
  *      Cloudflare Email (the EMAIL binding), at most MAX_SENDS_PER_RUN ATTEMPTS per run. A
  *      claim that fails or cannot be verified STOPS THE RUN: mail this run cannot record is
@@ -51,9 +53,14 @@
  */
 
 import {
-  SITE, beltEta, streakOf, renderText, renderHtml, renderSubject,
+  SITE, streakOf, renderText, renderHtml, renderSubject,
 } from "./render.js";
 import { safeEqual } from "./safe-equal.js";
+// The APP'S OWN manifest decoder (v1.204.3), bundled across the tree the way functions/l imports
+// lists-codec.src.js: the mail allow-list and the app can never read the manifest two ways.
+import { ngWireDecks } from "../../neural/src/wire-keys.src.js";
+// …and the app's own belt rule (v1.211.0): the order of the belts and what a valid belt line is.
+import { NG_BELT_IDS, ngBeltLine } from "../../neural/src/belt.src.js";
 import { atMs, isLocked } from "./suppress.js";
 
 // THE TWO ADDRESSES THE MAIL CARRIES, and they are deliberately the same mailbox.
@@ -120,6 +127,9 @@ export const CLAIM_FRESH_MS = 10 * 60 * 1000;
  */
 export const MANIFEST_MIN_DECKS = 1000;
 export const MANIFEST_URL = SITE + "/static/neural/flashcards/_index.json";
+/** Format 4 (v1.204.3) keys each deck by its node's share ORDINAL, not its name; the names are on
+ *  graph-data.json's nodes, so the allow-list needs both files. Fetched only when the manifest does. */
+export const GRAPH_URL = SITE + "/static/neural/graph-data.json";
 
 // THE CAPS, one per field the blob can stretch. Each is well above what the app ever writes
 // (`noteCardDone` stops `k` at 40; `w` is [n, word, top-2]; a deck key is at most 61 chars;
@@ -265,10 +275,26 @@ async function fetchManifest() {
   const r = await fetch(MANIFEST_URL);
   if (!r.ok) throw new Error("manifest " + MANIFEST_URL + " -> " + r.status);
   const j = await r.json();
-  const decks = j && j.decks && typeof j.decks === "object" ? Object.keys(j.decks) : [];
+  // FORMAT 4 NEEDS THE GRAPH. An ordinal is decoded against the node that owns it; without the
+  // nodes every deck is unresolved, the list lands under the floor below, and the run refuses —
+  // the same outcome as a missing manifest, which is the right one.
+  let nodes = null;
+  if (j && j.deckOrd) {
+    const g = await fetch(GRAPH_URL);
+    if (!g.ok) throw new Error("manifest needs " + GRAPH_URL + " -> " + g.status);
+    const gj = await g.json();
+    nodes = gj && Array.isArray(gj.nodes) ? gj.nodes : [];
+  }
+  const dec = ngWireDecks(j, nodes);
+  const decks = Object.keys(dec.decks);
   if (decks.length < MANIFEST_MIN_DECKS)
     throw new Error("manifest lists " + decks.length + " decks, floor is " + MANIFEST_MIN_DECKS + " — refusing to run on an implausible allow-list");
-  return new Set(decks);
+  // An ordinal the graph does not know is SKIPPED — its deck is simply not allow-listed, exactly
+  // like a key no manifest lists — and COUNTED into the run summary. It does not stop the run:
+  // the two files are cached independently at the edge, so for a few hours after a content
+  // deploy a fresh manifest can meet an older graph, and the decks that disagree are the brand-new
+  // ones no blob can name yet. Refusing would skip every user's digest over decks nobody studied.
+  return { allow: new Set(decks), unresolved: dec.unresolved + dec.dupes };
 }
 
 async function clipFor(deckKey) {
@@ -410,7 +436,7 @@ async function compose(env, row, ctx) {
     if (!e || typeof e !== "object" || Array.isArray(e)) { hit(); continue; }
     const k = keys(e.k, ctx.allow, CAP.techniques, hit);
     if (!k.length) continue;
-    entries[d] = { k, s: num(e.s, 0, 100, 1, hit), w: keys(Array.isArray(e.w) ? e.w.slice(2) : null, ctx.allow, CAP.weak, hit) };
+    entries[d] = { k, s: num(e.s, 0, 100, 1, hit), w: keys(Array.isArray(e.w) ? e.w.slice(2) : null, ctx.allow, CAP.weak, hit), b: e.b };
   }
   const valid = Object.keys(entries).sort();
   const day = valid[valid.length - 1];
@@ -447,19 +473,18 @@ async function compose(env, row, ctx) {
   const prevDay = valid[valid.length - 2];
   const prevS = prevDay ? entries[prevDay].s : null;
   const delta = prevS != null ? num(e.s - prevS, -CAP.delta, CAP.delta, 1, hit) : null;
-  const deltas = [];
-  const recent = valid.slice(-7).slice(0, -1);
-  for (let i = 1; i < recent.length; i++) {
-    const a = entries[recent[i - 1]].s, b = entries[recent[i]].s;
-    if (a != null && b != null && b > a) deltas.push((b - a) / 100);
-  }
+  // THE BELT LINE (v1.211.0): the belt the player wears, as the app wrote it — validated by the
+  // app's own `ngBeltLine` (a known belt, integer units, done <= total), or no line at all. An
+  // older app wrote none; a malformed one is counted and dropped, never repaired into a guess.
+  const line = ngBeltLine(e.b);
+  if (e.b != null && !line) hit();
   const count = num(days[day], 0, CAP.count, 0, hit);
   const digest = {
     count: count == null || count === 0 ? e.k.length : count,
     techniques: e.k,
     score: e.s,
     delta,
-    eta: beltEta(e.s / 100, deltas),
+    belt: line ? { worn: line.id, next: NG_BELT_IDS[line.rank + 1] || null, done: line.done, total: line.total } : null,
     streak: num(streakOf(days, day), 0, CAP.streak, 0, hit) || 0,
     weakTop: e.w,
     clip: e.w[0] ? await clipFor(e.w[0]) : null,
@@ -489,8 +514,8 @@ export async function runDigest(env, opts = {}) {
 
   // 0. the allow-list, or nothing. Before the rows query on purpose: a run that cannot verify
   //    deck names has no business reading anybody's blob.
-  const allow = await fetchManifest();
-  console.log("[digest] manifest decks: " + allow.size);
+  const { allow, unresolved: manifestUnresolved } = await fetchManifest();
+  console.log("[digest] manifest decks: " + allow.size + " (unresolved ordinals: " + manifestUnresolved + ")");
 
   // 1. opted-in rows — ONLY the four blob paths the run reads. PostgREST projects each jsonb
   //    path to its own column; the aliases keep the names the composer expects. Whole-blob reads
@@ -606,13 +631,14 @@ export async function runDigest(env, opts = {}) {
     }
   }
   const result = {
-    mode, rows: rows.length, manifest_decks: allow.size,
+    mode, rows: rows.length, manifest_decks: allow.size, manifest_unresolved: manifestUnresolved,
     suppress_rows_seen: ctx.suppressRowsSeen, sent_rows_seen: ctx.sentRowsSeen,
     sent, attempted, capped, deferred, skipped, failures,
     ...(send ? {} : { would_send: wouldSend, sample }),
   };
   // the summary line — one per run, every counter present even when zero
   console.log("[digest] run mode=" + mode + " rows=" + rows.length + " manifest_decks=" + allow.size +
+    " manifest_unresolved=" + manifestUnresolved +
     " suppress_rows_seen=" + ctx.suppressRowsSeen + " sent_rows_seen=" + ctx.sentRowsSeen +
     " sent=" + sent + " attempted=" + attempted + (send ? "" : " would_send=" + wouldSend) + " capped=" + capped + " deferred=" + deferred +
     " skipped=" + JSON.stringify(skipped) + " failures=" + failures.length);

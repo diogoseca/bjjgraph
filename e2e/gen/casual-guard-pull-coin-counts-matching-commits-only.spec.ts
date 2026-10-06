@@ -28,6 +28,9 @@ import { casualWeek1 } from "./personas"
  * rng("role") — >= .5 → bottom) can deal one; j.land() is unusable here (it hard-rigs
  * role [0] → top). Per cycle: rig ai-skill/role/max-moves, rigStart(standingIdx),
  * (cycles 2-3) a.startRoll(), pump until landed at Standing with a fresh hand.
+ * RE-PINNED by the gen-suite triage (dev 8d6ae5d01, v1.206.2): since v1.176.7 (3ba7701a6) the
+ * bottom roll stands on Standing's BOTTOM pair member, not the hub — "landed" now reads the
+ * seat through `_seatMember(standingIdx, "bottom")`; nothing else in the arc had moved.
  *
  * Determinism census (probe CONFIRMED 2/2 green, ~11.5-11.9s, identical beat streams):
  * role [0.9] → bottom every cycle; bottom tray at Standing reliably deals 4 pull routes
@@ -95,7 +98,12 @@ test("three guard-pull commits with non-pull interleaves: the hidden counter adv
         ([idx, d0]) => {
           const a = (window as any).__neural
           const dealt = (a.beats || []).filter((b: any) => b.beat === "options_dealt").length
-          return a.currentPos === idx && dealt > (d0 as number) && (a.optionIdxs || []).length > 0
+          // v1.176.7 (3ba7701a6, "Keep landing focus on the selected top or bottom seat"):
+          // startRoll now stands the roll on the pair MEMBER that plays the drawn role, so a
+          // bottom roll at Standing is at the hub's partner (…/Standing-Position/Bottom), never
+          // at the hub index this spec used to compare against. Same claim — "at Standing, as
+          // the bottom player" — read through the app's own seat seam instead of the hub index.
+          return a.currentPos === a._seatMember(idx, "bottom") && dealt > (d0 as number) && (a.optionIdxs || []).length > 0
         },
         [standingIdx, dealt0] as const,
       )
@@ -169,7 +177,7 @@ test("three guard-pull commits with non-pull interleaves: the hidden counter adv
   const persistedCoins = await page.evaluate(() => {
     const a = (window as any).__neural
     a._flushSave()
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
     return Object.keys(blob.coins || {})
   })
   expect(persistedCoins, "persisted blob carries exactly the one minted coin").toEqual(["pulled-guard-again"])

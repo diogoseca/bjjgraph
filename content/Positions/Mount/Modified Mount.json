@@ -681,7 +681,46 @@
         "attempt_probability": {
           "gi": 18,
           "nogi": 18
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 38,
+          "nogi": 40
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 27,
+              "nogi": 27
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "success"
+          },
+          {
+            "to": "Modified Mount/Bottom",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Frame and Shrimp to Guard",

@@ -1,0 +1,113 @@
+name: Generated E2E suite (weekly, dev)
+
+# THE GENERATED SUITE HAD NO RUNNER (v1.206.3). `e2e:gen` (e2e/gen, ~100 journeys) ran only when
+# somebody remembered, and its known-red baseline lived only in prose — so it went 13 → 40 red
+# between v1.127.0 and v1.206.2 with no gate firing (CLAUDE.md §6.7). This job runs it weekly
+# against DEV — where every red appears first — and fails on any red that e2e/gen/ledger.json does
+# not name, or on a named known-red that has started passing (e2e/gen-ledger-reporter.ts).
+#
+# Why a workflow of its own and not a job in e2e-full.yml: a `schedule` event checks out the
+# DEFAULT branch, which is main. A weekly job there would test main, a release behind dev. So
+# this one checks out `dev` explicitly and pays for its own build.
+#
+# Cost: one build (~14-16 min on ubuntu-latest, measured on e2e-full's build job) plus setup and
+# the suite at workers:1 (~101 tests x ~5 s ≈ 9-11 min) ≈ 30 runner-minutes a week. Public repo:
+# 0 billable minutes.
+
+on:
+  schedule:
+    - cron: "30 3 * * 1" # Monday 03:30 UTC — clear of e2e-full (Sat 03:00) and the content bots
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Branch, tag or SHA to build and test"
+        required: false
+        default: "dev"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: e2e-gen-${{ github.event.inputs.ref || 'dev' }}
+  cancel-in-progress: true
+
+jobs:
+  gen:
+    name: e2e:gen against ${{ github.event.inputs.ref || 'dev' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.event.inputs.ref || 'dev' }}
+          # Publication provenance requires complete history (same as e2e-full's build job).
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: "3.11"
+
+      - name: Install Python gate dependency
+        run: python3 -m pip install PyYAML
+
+      - name: Install dependencies
+        run: npm ci
+
+      # The same two steps e2e-full.yml's build job runs: regenerate:neural emits the payload AND
+      # copies the bundle into source/quartz/static/neural/app, so the site build carries both.
+      - name: Regenerate Neural app and data
+        run: npm run regenerate:neural
+
+      - name: Build site
+        run: npm run build
+
+      # Browser cache keyed on the resolved Playwright version, never the lockfile (see the long
+      # note in e2e-full.yml: a lockfile key missed on every commit of a repo that bumps it each time).
+      - name: Resolve Playwright version
+        id: pw-version
+        run: |
+          V="$(node -p "require('@playwright/test/package.json').version" 2>/dev/null || true)"
+          if [ -z "$V" ]; then
+            echo "::error::Could not resolve the @playwright/test version; refusing to key the browser cache on a guess."
+            exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Chromium OS deps (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
+      # The verdict is the ledger's, not Playwright's raw count: the [gen-ledger] lines in this
+      # step's log name every red, whether the ledger tolerates it, and who owns it.
+      - name: Run the generated suite against the ledger
+        run: npm run e2e:gen
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: e2e-gen-results
+          path: |
+            e2e/test-results/
+            e2e/report-gen/
+          if-no-files-found: ignore

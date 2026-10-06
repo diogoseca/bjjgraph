@@ -191,7 +191,7 @@ description: "How to defend against X Pass in BJJ. Recognition cues, defensive o
 
 Defending the X Pass requires early recognition of the passer's intent and immediate action to disrupt their pressure sequence before the angular drive is established. The bottom player's primary objective is to prevent the passer from completing the three-stage sequence of crossface establishment, angular stepping, and leg clearing. Defense begins with maintaining strong frames and an active knee shield that prevents the passer from settling chest-to-chest pressure. When the passer initiates the wide step that signals the X Pass, the defender must immediately address either the angle (by following with their hips) or the pressure (by establishing or recovering frames). The most critical defensive window occurs between the passer's wide step and their diagonal drive, as this is when their weight is momentarily in transition and most vulnerable to disruption. Successful defense requires understanding that the X Pass attacks defensive frames from an unconventional angle, meaning standard linear frames will fail against the diagonal pressure. The defender must angle their frames to match the passer's diagonal line or, preferably, attack the pass at its source by fighting for underhooks, establishing lockdown, or transitioning to deep half guard before the flattening sequence completes.
 
-**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 

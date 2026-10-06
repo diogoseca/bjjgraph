@@ -7,7 +7,7 @@ Outputs (into source/quartz/static/neural/, mirroring how globalGraphLayout.json
 generated+committed static asset):
   - graph-data.json : {nodes, links, toTab, evLam, evFrame} — a reshape of source/quartz/static/globalGraphLayout
     .json (the visual projection) into the Neural app's node shape
-    {id,x,y,t,ty,s,fromPositionId,fromRole,posId?,o,cal?} with null keys omitted. Each node
+    {id,x,y,t,ty,s,fromPositionId,alsoFrom?,fromRole,posId?,o,cal?} with null keys omitted. Each node
     is additionally enriched with the calibrated numbers from graph.json: for technique
     nodes successRate + successRateByRuleset (differing frames only) + outcomes as
     [toTabIdx, probability, s|f|c] tuples — slot 0 is an INDEX into the top-level `toTab`
@@ -16,17 +16,23 @@ generated+committed static asset):
     [nodeIdx, weight*10000] edge-lighting pairs, replacing the raw per-move tables) + avail
     + `ev`, the EDGE table that ranks the option cards (one independent MDP solve per
     loss-aversion preset — see build_move_edge, and the file-level `evLam`/`evFrame` that say
-    which presets and which ruleset the table describes).
+    which presets and which ruleset the table describes) + `evGi`, the GI HANDS in `ev`'s
+    layout with no EDGE blocks (node indexes + gi attempt %), which is what lets the browser's
+    weak-spots engine (FLOW) rank a gi player on gi numbers — see build_gi_hands.
     Links are [sourceIdx, targetIdx] pairs. This is the largest BOOT payload; the wire is
     compact and app.src.jsx ingest() expands it back into the legacy shapes (v1.107.0).
   - flashcards/<slug>.json : one file PER DECK ({cat,role,cards:[{q,a}]}) — the full
     calibrated decks from graph.json, chunked so the app fetches only the deck it opens
     (the monolith was 13.5 MB; each deck is a few KB).
-  - flashcards/_index.json : manifest {_meta, decks:{"<Name>|<Role>": [cat, n]}, shared}
-    resolving each deck key -> its card count (the "what decks exist" list; the chunk address is
-    derived from the key). `shared` maps fnv1a32(question) -> the deck indexes carrying that
-    question, for the 451 questions the blended hierarchy duplicates across decks, so the app's
-    cross-deck credit does not depend on which chunks have landed.
+  - flashcards/_index.json : manifest format 4 {_meta:{format}, deckOrd:{o, n}, shared} — every
+    deck and its card count (the "what decks exist" list), keyed by its node's permanent share
+    ORDINAL rather than spelled "<Name>|<Role>" (v1.204.3; see write_flashcards). The reader
+    derives the key from the node the ordinal names, and the chunk address from the key.
+    `shared` maps fnv1a32(question) -> the deck indexes (NAME order) carrying that question, for
+    the questions the blended hierarchy duplicates across decks, so the app's cross-deck credit
+    does not depend on which chunks have landed.
+  - curriculum.json : the Belt Path plus `scoreWeightsByOrd`, the belt-score table, keyed by
+    ordinal the same way (see _compact_score_weights).
   - concepts.json : the Principles + Learning libraries — the INDEX only ({_meta,
     concepts:[{id,key,name,cat,url,summary,meta,nodes,unresolved}]}), i.e. exactly what the list
     and the graph highlight need. Each concept's READABLE BODY (overview, points, contexts,
@@ -138,9 +144,11 @@ def _frame_attempt(t, frame: str):
 def _frame_positive(t, frame: str) -> bool:
     """True if this position edge is attempted in `frame` (attemptProbability > 0).
 
-    MODULE SCOPE ON PURPOSE. Two readers ask this question now — `tech_avail` below (which drives
-    the app's `giAllows`) and `validate_score_coverage.frame_avail_by_deck` (which sizes what the
-    score can see). When one question is answered in two places one of them is already wrong.
+    MODULE SCOPE ON PURPOSE. `validate_score_coverage.frame_avail_by_deck` (which sizes what the
+    score can see) asks it. `tech_avail` below used to, through `frame_reachable`'s listing walk;
+    since v1.210.0 that walk reads `solve_edge_values.build_hand`, which applies this same test
+    (a null cell drops the card, a zero cell is never dealt) and then the role and origin filters.
+    When one question is answered in two places one of them is already wrong.
     """
     v = _frame_attempt(t, frame)
     return v is not None and v > 0
@@ -156,9 +164,10 @@ ROLL_SEEDS = ("standing-position/top", "standing-position/bottom")
 # columns mean different things, because the per-frame zeros they stand on were written for
 # different reasons:
 #
-#   no-gi — EQUIPMENT. All 104 techniques and 18 role-nodes it isolates trace to cloth: a lapel
-#           threaded through a leg, four fingers inside a collar. No garment, no state. Absence is
-#           the only honest rendering.
+#   no-gi — EQUIPMENT. All 124 techniques and 22 role-nodes it isolates trace to cloth: a lapel
+#           threaded through a leg, four fingers inside a collar, both sleeves gripped (Spider and
+#           Double Sleeve Guard joined at v1.210.0, when the walk began dealing by origin; it was
+#           104 and 18). No garment, no state. Absence is the only honest rendering.
 #   gi    — LEGALITY. All 21 are the heel-hook family plus kneebar/aoki/buggy, zeroed because
 #           IBJJF bans them, and several of their own `availability_rulings` say so conditionally
 #           ("sub-only/ADCC-gi voices keep a floor of 1"). That is a choice about which gi ruleset
@@ -210,19 +219,59 @@ def frame_reachable(graph: dict, frame: str) -> dict:
     mechanism because the mechanism is about edges, not about why an edge is zero; whether gi mode
     should hide them is a ruleset-policy choice, not a fact about a garment.
 
-    Cost: two BFS passes over ~1.5k nodes at build time, ~10ms. Not memoised on purpose — it is
-    called twice, once per frame.
+    THE WALK DEALS WHAT THE GAME DEALS (v1.210.0, owner ruling on GraphSemantics §10 item 6: "yes
+    hide them"). Until then a position led to every technique it LISTED, whatever that
+    technique's `fromRole` and `fromPositionId`, while the game (`solve_edge_values.build_hand`,
+    and the app's `optionsFor`) deals a listed card only to its own role at its canonical origin,
+    relaxing origin (never role) when that would empty the hand. The two disagreed at exactly one
+    door: Tripod Sweep, authored FROM Spider Guard, is listed at open guard and six other no-gi
+    guards, so the listing walk reached it there and followed its miss cells into Spider Guard and
+    Double Sleeve Guard, both seats, which no no-gi exchange produces (a teleport, docs/
+    GraphSemantics.md §7). The game never deals it there. Walking `build_hand` itself makes
+    the walk and the game ONE answer instead of two copies of one question (CLAUDE.md §6.5).
+    Measured on the v1.206.2 graph: the walk's position set equals the semantics kernel's reachable
+    set in both frames (244 no-gi / 266 gi role-nodes; `python3 -B scripts/semantics/_kernel.py
+    --selfcheck` asserts the subset half on every run). On that graph it also found the 41 no-gi
+    orphans — techniques listed only away from their origin, which the game deals nowhere — so the
+    same change lists each one at its origin (`calibration/origin_coherence.json`); without that,
+    this walk would have hidden all 41 in no-gi. That change also nulled Tripod Sweep's no-gi cells, so
+    on today's content the origin-aware walk and the old listing walk reach the same states. What this
+    walk adds is a guard against the NEXT away-from-origin listing, and
+    `validate_ruleset_availability.selftest_origin_walk` pins it on a synthetic graph.
+
+    Cost: two BFS passes over ~1.5k nodes plus one `build_hand` per role-node at build time,
+    well under a second. Not memoised on purpose — it is called twice, once per frame.
     """
+    from solve_edge_values import Opts, build_hand   # the game's own dealing rule, not a copy
+
     positions = graph.get("positions", {})
-    out = {}
+    opts = Opts(frame=frame)
+    out, dealt = {}, 0
     for key, node in positions.items():
         if node.get("role") not in ("top", "bottom"):
             continue
-        dst = out.setdefault(key, set())
-        for t in (node.get("transitions") or []):
-            tgt = t.get("target")
-            if tgt and _frame_positive(t, frame):
-                dst.add("T:" + tgt)
+        hand = build_hand(graph, key, opts)[0]
+        nxt = set()
+        for a in hand:
+            if a.tech is not None and a.tech is not graph[a.cat].get(a.target + "/attacker"):
+                # A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B): the move as dealt HERE, in
+                # THIS frame (build_hand already applied the frame's attempt and the listing view), is
+                # its own node carrying this table's destinations. Merging it into "T:<target>" would
+                # hand those destinations to every state that deals the move with its canonical table,
+                # so a gi-only listing's states would become reachable in no-gi: the teleport class
+                # this walk exists to stop. The technique still counts as reached (the report below).
+                lk = "T:" + a.target + "@" + key
+                nxt.add(lk)
+                out[lk] = {o["to"] for o in a.tech.get("outcomes") or [] if (o.get("to") or "") in positions}
+            else:
+                nxt.add("T:" + a.target)
+        out[key] = nxt
+        dealt += len(hand)
+    # A walk that deals nothing reaches only its seeds and reports EVERYTHING unavailable, which is
+    # what a clean run looks like from the outside (CLAUDE.md §6.6): the count must be positive.
+    if not dealt:
+        raise SystemExit(f"[regenerate_neural_data] frame_reachable({frame}): build_hand dealt 0 "
+                         f"cards over {len(out)} role-nodes — refusing an empty walk")
     for section in ("transitions", "submissions"):
         for node in graph.get(section, {}).values():
             hub = node.get("hub")
@@ -247,7 +296,96 @@ def frame_reachable(graph: dict, frame: str) -> dict:
                 seen.add(nxt)
                 stack.append(nxt)
     return {"positions": {k for k in seen if not k.startswith("T:")},
-            "techniques": {k[2:] for k in seen if k.startswith("T:")}}
+            "techniques": {k[2:].split("@", 1)[0] for k in seen if k.startswith("T:")}}
+
+def listing_absences(graph: dict, reach: dict, stats: dict | None = None) -> dict:
+    """A LISTING ABSENT IN ONE RULESET (v1.215.0, origin coherence): {technique hub: {frame: [posIds]}}.
+
+    The node-level mask (`cal.avail`, from the walk) says whether a move exists in a frame at all. It
+    cannot say "dealt at THIS listing in gi but not in no-gi", and `optionsFor` /
+    `_mdp_mechanics.options` never read a listing's attempt share, so such a listing would be dealt
+    in the frame where it does not exist while `build_hand` drops it. This names exactly those
+    listings: the origin rule or `deal_here` deals the move there, its attempt is null in that frame,
+    and the frame's mask still admits the move (a move absent from the frame altogether is already
+    masked, so it is not repeated here). Keyed by posId strings like `alsoFrom`, never an index.
+
+    A STATE THE FRAME MASKS STILL GETS ITS ABSENCE (v1.216.0, full-game review OCPRB8-FG). No walk
+    reaches it in that frame, but `setGiMode` does not re-seat: a player standing there in gi who flips
+    to no-gi is dealt there in no-gi, and without the absence a gi-only table would be priced at the
+    scalar fallback. Those absences are counted apart (`masked_state`), and `check_absence_hands`
+    exempts them.
+
+    POSITIVE COVERAGE (full-game review OCABS1, CLAUDE.md 6.6): `stats`, when given, receives how
+    many dealt listings were examined, the null cells per frame at dealt listings, how many of those
+    are masked moves, how many null cells sit on away listings no rule deals, and the absences. The
+    caller prints them every run and refuses an examination of zero, so a key-space drift (hub vs
+    fromPositionId) cannot read as "0 absences". Measured when it shipped: 1,319 dealt listings
+    examined; 70 no-gi null cells, 58 on masked moves and 12 on away listings; 0 gi; 0 absences.
+    """
+    tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
+            for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
+    st = {"examined": 0, "away_null": {"gi": 0, "nogi": 0}, "dealt_null": {"gi": 0, "nogi": 0},
+          "masked": {"gi": 0, "nogi": 0}, "masked_state": {"gi": 0, "nogi": 0}, "absences": {"gi": 0, "nogi": 0}}
+    out = {}
+    for pk, p in (graph.get("positions") or {}).items():
+        hub, role = p.get("hub"), p.get("role")
+        for t in p.get("transitions") or []:
+            tv = tech.get(t.get("target"))
+            cells = t.get("attemptProbabilityByRuleset") or {}
+            nulls = [fr for fr in ("gi", "nogi") if fr in cells and cells[fr] is None]
+            deals = bool(tv) and tv.get("fromRole") == role and (
+                tv.get("fromPositionId") == hub or t.get("dealHere") is True)
+            if not deals:
+                for fr in nulls:
+                    st["away_null"][fr] += 1
+                continue
+            st["examined"] += 1
+            for fr in nulls:
+                st["dealt_null"][fr] += 1
+                if t.get("target") not in reach[fr]["techniques"]:
+                    st["masked"][fr] += 1
+                    continue
+                # a state the frame masks (B2: the 4 gi-only deal_here tables at worm, spider, lasso and
+                # double-sleeve guard) is still named, for the player who flips the ruleset there
+                if pk not in reach[fr]["positions"]:
+                    st["masked_state"][fr] += 1
+                st["absences"][fr] += 1
+                out.setdefault(t["target"], {}).setdefault(fr, set()).add(hub)
+    if stats is not None:
+        stats.update(st)
+    return {k: {fr: sorted(v) for fr, v in sorted(m.items())} for k, m in sorted(out.items())}
+
+
+def check_absence_hands(graph: dict, absent_at: dict, reach: dict | None = None) -> tuple:
+    """NO ABSENCE MAY EMPTY ITS LISTING'S MAIN PASS (full-game review OCABS1). A listing whose every
+    dealt card is absent in a frame would hand the state to the origin-relaxed fallback, which deals
+    cards with no `ord` (CLAUDE.md 6.6) and ignores `absentAt`, so it could re-deal the absent move.
+    For every (listing, frame) named, `build_hand` (which drops a null attempt exactly as the dealers
+    skip an absence) must still deal its main pass there.
+
+    EXEMPT: a listing at a state its frame masks (`reach`, v1.216.0, OCPRB8-FG). No walk deals there,
+    so an emptied main pass meets only the pre-existing relaxed fallback at a state the frame never
+    reaches, never the null-frame table. Returns (checked, exempt, violations): the (listing, frame)
+    main passes examined, those exempted, and one message per emptied one; the caller prints both
+    counts and raises on any violation."""
+    from solve_edge_values import Opts, build_hand   # the game's own dealing rule, not a copy
+    tech = {k[:-len("/attacker")]: v for sec in ("transitions", "submissions")
+            for k, v in (graph.get(sec) or {}).items() if k.endswith("/attacker")}
+    bad, checked, exempt = [], 0, 0
+    for target, frames in absent_at.items():
+        role = (tech.get(target) or {}).get("fromRole")
+        for fr, hubs in frames.items():
+            for hub in hubs:
+                key = f"{hub}/{role}"
+                if reach is not None and key not in reach[fr]["positions"]:
+                    exempt += 1
+                    continue
+                checked += 1
+                hand, relaxed = build_hand(graph, key, Opts(frame=fr))[:2]
+                if relaxed or not hand:
+                    bad.append(f"{key} [{fr}]: absent {target} leaves no main-pass card")
+    return checked, exempt, bad
+
 
 def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     """Reshape globalGraphLayout nodes/links into the Neural graph-data.json shape,
@@ -372,6 +510,8 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                     out[role] = [
                         {
                             "technique": t.get("technique"),
+                            "target": t.get("target"),
+                            "isSubmission": bool(t.get("isSubmission")),
                             "attemptProbability": t.get("attemptProbability"),
                             "successRate": t.get("successRate"),
                         }
@@ -413,6 +553,63 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                     break
             return e
 
+    # THE LISTING-LEVEL DEALING RULE (v1.211.0). A listing flagged `deal_here` (graph.json
+    # `dealHere`) deals its technique at that position although the technique's origin is
+    # elsewhere. The wire carries it on the TECHNIQUE as `alsoFrom`, the posIds where that
+    # happens, compared as strings against a position's `posId` exactly like `fromPositionId`
+    # (no index join, CLAUDE.md 6.6). Readers: optionsFor and the ingest link-member choice
+    # (app.src.jsx), _mdp_mechanics.Projection, semantics/app_game.py.
+    deal_here_at = {}
+    for pk, pnode in graph.get("positions", {}).items():
+        for t in pnode.get("transitions", []) or []:
+            if t.get("dealHere") is True:
+                deal_here_at.setdefault(t.get("target"), set()).add(pnode.get("hub") or pk.rsplit("/", 1)[0])
+    deal_here_joined = 0
+    # A LISTING'S OWN TABLE (v1.214.0, origin coherence PR B). graph.json carries it on the position
+    # edge (`ownTable`, regenerate_graph._listing_table); the wire carries it on the TECHNIQUE as
+    # `cal.at[posId]`, keyed by posId strings exactly like `alsoFrom` (never an index, CLAUDE.md 6.6),
+    # in the canonical table's own shape: `successRate`, `successRateByRuleset` (frames equal to the
+    # scalar trimmed, as below), and `outcomes` as tuples, interned with the rest. Readers: the app's
+    # `_at`, the adapter's `actAt` (both K.ngKnowledgeCalAt), _mdp_mechanics.cal_at, app_game.py.
+    own_tables_at = {}
+    _own_tables_want = 0
+    for pk, pnode in graph.get("positions", {}).items():
+        for t in pnode.get("transitions", []) or []:
+            if not t.get("ownTable"):
+                continue
+            _own_tables_want += 1
+            entry = {}
+            if t.get("successRate") is not None:
+                entry["successRate"] = t["successRate"]
+            br = {fr: v for fr, v in (t.get("successRateByRuleset") or {}).items()
+                  if v is not None and v != t.get("successRate")}
+            if br:
+                entry["successRateByRuleset"] = br
+            entry["outcomes"] = [[o.get("to"), o.get("probability"), _RESULT_CODE.get(o.get("result"), o.get("result"))]
+                                 for o in t.get("outcomes") or []]
+            own_tables_at.setdefault(t.get("target"), {})[pnode.get("hub") or pk.rsplit("/", 1)[0]] = entry
+    own_tables_joined = 0
+    _absence_stats = {}
+    absent_at = listing_absences(graph, reach, _absence_stats)     # v1.215.0: listings absent in one frame
+    _absent_want = sum(len(v) for m in absent_at.values() for v in m.values())
+    absent_joined = 0
+    _as = _absence_stats
+    print(f"  listing absences: {_as['examined']} dealt listings examined; null cells at dealt listings "
+          f"gi {_as['dealt_null']['gi']} / no-gi {_as['dealt_null']['nogi']} (masked moves gi {_as['masked']['gi']} / "
+          f"no-gi {_as['masked']['nogi']}), "
+          f"on away listings gi {_as['away_null']['gi']} / no-gi {_as['away_null']['nogi']}; "
+          f"absences gi {_as['absences']['gi']} / no-gi {_as['absences']['nogi']} "
+          f"(at masked states gi {_as['masked_state']['gi']} / no-gi {_as['masked_state']['nogi']})")
+    if not _as["examined"]:
+        raise SystemExit("[neural] listing_absences examined 0 dealt listings: the dealing-rule join matched "
+                         "nothing, which reads exactly like 0 absences (CLAUDE.md 6.6). Refusing to emit.")
+    _hands_checked, _hands_exempt, _emptied = check_absence_hands(graph, absent_at, reach)
+    print(f"  listing absences: {_hands_checked} (listing, frame) main passes checked, {_hands_exempt} exempt "
+          f"(a state the frame masks), {len(_emptied)} emptied")
+    if _emptied:
+        raise SystemExit("[neural] an absence empties its listing's main pass, handing the state to the "
+                         "origin-relaxed fallback: " + "; ".join(_emptied))
+
     nodes = []
     for n in layout["nodes"]:
         ty = SECTION_TY.get(n["id"].split("/", 1)[0].lower(), "positions")
@@ -447,7 +644,26 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         # `"fromPositionId":null` on 136 position hubs is pure wire weight. (`fromPosition`
         # is gone entirely — ingest never copied it and no graph-data consumer reads it.)
         node = {k: v for k, v in node.items() if v is not None}
+        if ty != "positions":
+            for c in _tech_keys(_slug_from_id(n["id"]), n.get("t")):
+                if c in deal_here_at:
+                    node["alsoFrom"] = sorted(deal_here_at[c])
+                    deal_here_joined += len(node["alsoFrom"])
+                    break
+        if ty != "positions":
+            for c in _tech_keys(_slug_from_id(n["id"]), n.get("t")):
+                if c in absent_at:
+                    node["absentAt"] = absent_at[c]
+                    absent_joined += sum(len(v) for v in absent_at[c].values())
+                    break
         cal = enrich(n["id"], ty, n.get("t"))
+        if ty != "positions":
+            for c in _tech_keys(_slug_from_id(n["id"]), n.get("t")):
+                if c in own_tables_at:
+                    cal = dict(cal or {})
+                    cal["at"] = {h: own_tables_at[c][h] for h in sorted(own_tables_at[c])}
+                    own_tables_joined += len(cal["at"])
+                    break
         if cal:
             node["cal"] = cal  # calibrated payload (Phase 1 gameplay reads this)
         if ty == "positions":  # family membership so the app can resolve the <Family>|Family tier deck
@@ -484,6 +700,28 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                 f"_tech_keys. Refusing to emit a wire whose odds would be fabricated."
             )
 
+    # Every `dealHere` listing must reach the wire: a dropped one is a card the corpus deals and
+    # the app silently does not. Exact, both ways, printed every run (zero included).
+    _dh_want = sum(len(v) for v in deal_here_at.values())
+    print(f"  deal_here: {deal_here_joined}/{_dh_want} listing(s) carried to the wire as alsoFrom")
+    if deal_here_joined != _dh_want:
+        raise SystemExit(
+            f"[neural] deal_here join lost {_dh_want - deal_here_joined} listing(s): graph.json "
+            f"flags {sorted(deal_here_at)} but the layout join found only {deal_here_joined}. "
+            f"Refusing to emit a wire that deals a different hand than graph.json.")
+    print(f"  listing tables: {own_tables_joined}/{_own_tables_want} carried to the wire as cal.at")
+    if own_tables_joined != _own_tables_want:
+        raise SystemExit(
+            f"[neural] listing-table join lost {_own_tables_want - own_tables_joined} of {_own_tables_want}: "
+            f"graph.json carries them on {sorted(own_tables_at)} but the layout join placed only "
+            f"{own_tables_joined}. Refusing to emit a wire that prices a different exchange than graph.json.")
+    print(f"  listing absences: {absent_joined}/{_absent_want} carried to the wire as absentAt")
+    if absent_joined != _absent_want:
+        raise SystemExit(
+            f"[neural] listing-absence join lost {_absent_want - absent_joined} of {_absent_want}: "
+            f"{sorted(absent_at)} on graph.json, {absent_joined} placed. Refusing to emit a wire that "
+            f"deals a listing in a ruleset where it does not exist.")
+
     # ── AVAILABILITY COVERAGE, PRINTED EVERY RUN ────────────────────────────────────────────
     # `avail` is the only thing that removes a node from a ruleset, so an empty or all-true table
     # is indistinguishable from "no move is gi-only" — the exact shape of failure this repo has
@@ -519,7 +757,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
                          f"longer agree for {len(pos_aka) - _aka_n} of them.")
 
     # A position's wire node is a HUB — one `avail` for both seats. That is only sound while the
-    # seats agree. They do today (9 cloth guards, 18 role-nodes, always in pairs); if one ever
+    # seats agree. They do today (11 cloth guards, 22 role-nodes, always in pairs); if one ever
     # splits, the OR above would silently re-admit the unreachable seat, so refuse instead.
     _seats = {}
     for _key, _node in graph.get("positions", {}).items():
@@ -538,27 +776,27 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     print(f"  availability: {len(_seats) // 2} position hubs, both seats agree in both frames")
 
     # ── position `ew` = the precomputed edge-weight list (replaces `cal.moves` on the wire).
-    # This is EXACTLY the arithmetic ingest()'s edge-weight pass used to run over cal.moves:
-    #   byName  : technique title -> FIRST non-position node (array order), same as the app's
-    #   weight  : attemptProbability/100 x successRate/100, MAX across roles/duplicate titles
+    #   join    : the move's graph.json `target` -> its node, through `tech_idx` below
+    #   weight  : attemptProbability/100 x successRate/100, MAX across roles/duplicate moves
     # emitted as [nodeIdx, round(w*10000)] pairs (the consumer divides by 10000; the value
     # only scales edge lighting alpha/width, where 1e-4 is far below one alpha step).
-    by_name = {}
-    for i, nd in enumerate(nodes):
-        if nd["ty"] != "positions" and nd["t"] not in by_name:
-            by_name[nd["t"]] = i
+    # JOIN BY TARGET, NEVER BY DISPLAY NAME (v1.204.5). The move's `technique` is a short name:
+    # "Kneebar" at backside-50-50/top TARGETS the submission Kneebar from Backside 50-50, and
+    # "Aoki Lock" at aoki-lock-control/top targets Aoki Lock from Aoki Lock Control. Matched by
+    # title, both lit the unrelated TRANSITION of the same short name instead of the move.
 
     # THE INVERSE OF THE `cal` JOIN. `enrich` walks layout node -> graph.json key; `build_move_edge`
     # needs graph.json key -> layout node INDEX, because the EDGE solver's actions are named by
     # graph.json `target` slugs while the app's hand is a list of node indices. Same `_tech_keys`
     # ladder in reverse, so the two directions can never drift apart: if a spelling is added to the
-    # ladder, both joins learn it at once. First node wins (array order), matching `by_name`.
+    # ladder, both joins learn it at once. First node wins (array order).
     tech_idx = {}
     for i, nd in enumerate(nodes):
         if nd["ty"] == "positions":
             continue
         for c in _tech_keys(_slug_from_id(nd["id"]), nd.get("t")):
             tech_idx.setdefault((nd["ty"], c), i)
+    _ew_moves, _ew_lost = 0, []
     for nd in nodes:
         cal = nd.get("cal")
         if not cal or "_moves_stash" not in cal:
@@ -567,8 +805,11 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
         best = {}
         for role in ("top", "bottom"):
             for m in moves.get(role) or []:
-                ti = by_name.get(m.get("technique"))
+                _ew_moves += 1
+                kind = "submissions" if m.get("isSubmission") else "transitions"
+                ti = tech_idx.get((kind, m.get("target")))
                 if ti is None:
+                    _ew_lost.append(f"{nd['id']}/{role}: {kind}/{m.get('target')}")
                     continue
                 w = max(0.0, (m.get("attemptProbability") or 0) / 100.0) * max(0.0, (m.get("successRate") or 0) / 100.0)
                 if w > best.get(ti, 0.0):
@@ -578,6 +819,13 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
             cal["ew"] = ew
         if not cal.get("ew") and not cal.get("avail"):
             nd.pop("cal", None)
+    # POSITIVE COVERAGE (CLAUDE.md §6.6): a move whose target joins nothing would light nothing,
+    # silently. Every authored move resolves today, so one that does not is a content or ladder
+    # regression, and the wire is refused rather than shipped with a dark edge.
+    print(f"  edge weights: {_ew_moves - len(_ew_lost)}/{_ew_moves} position moves joined by target")
+    if not _ew_moves or _ew_lost:
+        raise SystemExit(f"[neural] edge weights: {len(_ew_lost)} of {_ew_moves} move(s) joined no node by "
+                         f"target (first: {_ew_lost[:3]}) — refusing to emit unlit edges.")
 
     from submission_choices import compile_choices
     compile_choices(ROOT, nodes)
@@ -609,15 +857,21 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     #
     # Ordered by DESCENDING USE, tie-broken by name: it is deterministic (a re-run diffs clean)
     # and it spends the one- and two-digit indexes on the destinations that occur most.
+    def _outcome_rows(nd):
+        c = nd.get("cal") or {}
+        yield from c.get("outcomes") or []
+        for h in sorted(c.get("at") or {}):        # listing tables (v1.214.0)
+            yield from c["at"][h].get("outcomes") or []
+
     to_freq = {}
     for nd in nodes:
-        for o in (nd.get("cal") or {}).get("outcomes") or []:
+        for o in _outcome_rows(nd):
             to_freq[o[0]] = to_freq.get(o[0], 0) + 1
     to_tab = sorted(to_freq, key=lambda s: (-to_freq[s], s))
     to_idx = {s: i for i, s in enumerate(to_tab)}
     _interned = 0
     for nd in nodes:
-        for o in (nd.get("cal") or {}).get("outcomes") or []:
+        for o in _outcome_rows(nd):
             o[0] = to_idx[o[0]]
             _interned += 1
     # POSITIVE COVERAGE, NOT SILENCE (§6.6). An interning pass that quietly matched nothing
@@ -633,7 +887,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     _bad = [
         (nd.get("id"), o[0])
         for nd in nodes
-        for o in ((nd.get("cal") or {}).get("outcomes") or [])
+        for o in _outcome_rows(nd)
         if not isinstance(o[0], int) or not (0 <= o[0] < len(to_tab))
     ]
     if not to_tab or _bad:
@@ -647,6 +901,7 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
     # EDGE — the option card's ranking value. Attached to the POSITION nodes (see build_move_edge);
     # the two top-level keys below are the table's self-description, carried ONCE for the file.
     out.update(build_move_edge(graph, nodes, tech_idx))
+    build_gi_hands(graph, nodes, tech_idx)
     return out
 
 
@@ -761,7 +1016,11 @@ def build_graph_data(layout: dict, graph: dict, ordinals: dict) -> dict:
 # Self-defence (4).  Calling lam=2 "Balanced" -- as this line did until v1.124.0 -- named the
 # default after a posture it does not hold, and it was the one thing about the presets that was
 # actually wrong: the NUMBERS already sat where the owner meant, so nothing was re-emitted.
-EV_LAMBDAS = (1, 2, 4)
+# RETIRED v1.207.0 (owner, 2026-09-29): the full game's card number is pure Win chance and the
+# hand sorts once by it, so the dial is gone and only the default block ships. Measured on the
+# emitted wire: graph-data.json 107,451 -> 100,191 B gzip (-7,260) on the boot path, and the MDP
+# metadata producer, which derives its variants from `evLam`, emits 2 variants instead of 6.
+EV_LAMBDAS = (2,)
 EV_FRAME = "nogi"
 EV_DRILL_SWEEP = (-0.20, -0.10, 0.10, 0.20)   # odds offsets the fidelity check samples
 
@@ -881,6 +1140,79 @@ def build_move_edge(graph: dict, nodes: list, tech_idx: dict) -> dict:
         raise SystemExit(f"[neural] EDGE: Q is not p*A+(1-p)*B (residual {lin:.2e}) — the two-number "
                          f"wire cannot represent this solve. Refusing to emit.")
     return {"evLam": list(EV_LAMBDAS), "evFrame": EV_FRAME}
+
+
+# ── GI HANDS: what a gi player is dealt, so FLOW can rank them on gi numbers ──────────────────
+# `cal.ev` is solved in ONE frame (`evFrame`, no-gi), and until this table shipped the browser's
+# weak-spots engine had nothing else to read: a gi player's "weak spots" were the no-gi ranking —
+# no-gi attempt shares, and not one of the gi-only decks could ever be recommended
+# (docs/GraphSemantics.md §8, item 7 of §10; the owner chose this option on 2026-09-30).
+#
+# SHAPE: `cal.evGi[role] = [nodeIdxs, attemptPct]` — `cal.ev`'s own layout with ZERO EDGE blocks,
+# so `_deriveDualPairs` and `ingest` read it with the code that already reads `ev`, and a gi EDGE
+# table (priced at +12,727 B gzip, over the per-change cap) could later append its blocks here
+# without a wire change. Every priced gi hand ships whole, not as a diff against `ev`: only 18 of
+# 265 hands carry the same whole percents in both frames, and sharing the index list where the
+# membership matches (221 hands) saves 334 B of +2,924 B gzip at the cost of making one table's
+# decode depend on another's. Percents, not permille, for the same reason `ev` uses them.
+#
+# THE SAME RULE AS `ev`, PROVED EACH RUN: the no-gi percents are rebuilt here from the no-gi
+# Model's hands by exactly the rule used for gi, and must equal what `build_move_edge` filed.
+# A gi table built by a DIFFERENT rule than the no-gi one would still look like a hand.
+def build_gi_hands(graph: dict, nodes: list, tech_idx: dict) -> None:
+    from solve_edge_values import Model, Opts
+
+    pos_idx = {nd["posId"]: i for i, nd in enumerate(nodes)
+               if nd["ty"] == "positions" and nd.get("posId")}
+
+    def hands(frame):
+        m = Model(graph, Opts(frame=frame))
+        out, pairs, miss = {}, 0, []
+        for s, h in zip(m.states, m.hands):
+            if not h:
+                continue
+            hub, role = s.rsplit("/", 1)
+            pi = pos_idx.get(hub)
+            if pi is None:
+                miss.append(s)
+                continue
+            att = {}
+            for a in h:
+                pairs += 1
+                j = tech_idx.get((a.cat, a.target))
+                if j is None:
+                    miss.append(f"{s}: {a.cat}/{a.target}")
+                    continue
+                att[j] = att.get(j, 0.0) + a.weight   # a duplicate listing SUMS, as in `ev`
+            if att:
+                order = sorted(att)
+                out[(pi, role)] = [order, [int(round(att[j] * 100)) for j in order]]
+        return out, pairs, miss, sum(1 for h in m.hands if h)
+
+    # the differential against the table build_move_edge already filed
+    ng, _p, _m, _n = hands("nogi")
+    filed = {(i, r): nodes[i]["cal"]["ev"][r][:2] for i in range(len(nodes))
+             for r in (((nodes[i].get("cal") or {}).get("ev")) or {})}
+    if ng != filed:
+        bad = sorted(set(ng) ^ set(filed)) or [k for k in ng if ng[k] != filed[k]]
+        raise SystemExit(f"[neural] gi hands: the rule rebuilds {len(ng)} no-gi hands and "
+                         f"{len(bad)} differ from `cal.ev` (first: {bad[:3]}) — the gi table would "
+                         f"be built by a different rule than the one it sits beside. Refusing.")
+
+    gi, pairs, miss, live = hands("gi")
+    for (pi, role), blk in gi.items():
+        nodes[pi].setdefault("cal", {}).setdefault("evGi", {})[role] = blk
+    joined = pairs - sum(1 for m in miss if ": " in m)
+    pct = (100.0 * joined / pairs) if pairs else 0.0
+    cards = sum(len(b[0]) for b in gi.values())
+    print(f"  gi hands: {len(gi)}/{live} gi hands filed ({cards} cards), {joined}/{pairs} "
+          f"(state,move) pairs joined ({pct:.1f}%); the same rule rebuilds all {len(ng)} no-gi "
+          f"hands of `ev` exactly")
+    # POSITIVE COVERAGE (§6.6), the same floor as the EDGE join: a hollow gi table would hand every
+    # gi player the no-gi ranking again, with nothing on screen to say so.
+    if pct < 95.0 or len(gi) != live:
+        raise SystemExit(f"[neural] gi hands regressed: {len(gi)}/{live} hands filed, {joined}/{pairs} "
+                         f"pairs joined (first miss: {miss[:3]}). Refusing to emit a hollow gi table.")
 
 
 MC_LINE_BUDGET = 36  # one-line MC option cap; keep in sync with app.src.jsx MC_LINE
@@ -1142,8 +1474,81 @@ def build_flashcards(graph: dict) -> dict:
     return decks
 
 
-def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
-    """Write one chunk file per deck + a manifest. Returns (deck_count, card_count)."""
+def _seat_index(nodes: list) -> tuple[dict, set]:
+    """'<Name>|<Seat>' -> (ordinal, seat slot, cat, ty) for every seat of every graph-data node,
+    named by the READER's rule (scripts/_neural_decks.py node_deck_name == the app's deckKeyFor
+    `fam`), plus the keys two nodes both derive. A collided key is only an error where a deck or a
+    weight actually needs it — the caller decides, because a collision nothing ships is harmless."""
+    import _neural_decks as ND
+    idx: dict[str, tuple] = {}
+    collided: set[str] = set()
+    for n in nodes:
+        name = ND.node_deck_name(n)
+        for slot, seat in enumerate(ND.node_seats(n)):
+            key = f"{name}|{seat}"
+            if key in idx:
+                collided.add(key)
+                continue
+            idx[key] = (n["o"], slot, ND.node_cat(n), n.get("ty"))
+    return idx, collided
+
+
+def _encode_deck_manifest(decks: dict, nodes: list) -> dict:
+    """The format-4 deck table: {"o": delta-coded ascending ordinals, "n": [rep n, partner n] per
+    ordinal}. See neural/src/wire-keys.src.js for the wire, and write_flashcards for why.
+
+    REFUSES — never reports-and-continues — when a deck key does not resolve to exactly one
+    node's seat, when the category the node implies differs from the deck's, when a deck is empty
+    (0 means "no deck in this seat" on the wire, so an empty deck would silently vanish), or when
+    a key leaves the Basic Multilingual Plane (the app re-sorts decoded keys by UTF-16 code unit,
+    which agrees with sorted()'s code-point order only inside the BMP)."""
+    idx, collided = _seat_index(nodes)
+    per_ord: dict[int, list] = {}
+    errs = []
+    for key in sorted(decks):
+        hit = idx.get(key)
+        if hit is None or key in collided:
+            errs.append(f"deck {key!r} {'is claimed by two nodes' if hit else 'names no node seat'}")
+            continue
+        o, slot, cat, _ty = hit
+        n = len(decks[key]["cards"])
+        if cat != decks[key]["cat"]:
+            errs.append(f"deck {key!r}: node implies {cat!r}, deck says {decks[key]['cat']!r}")
+        if n < 1:
+            errs.append(f"deck {key!r} is empty — 0 is the wire's 'no deck' and it would vanish")
+        if any(ord(ch) > 0xFFFF for ch in key):
+            errs.append(f"deck {key!r} leaves the BMP — the app's sort would disagree with sorted()")
+        per_ord.setdefault(o, [0, 0])[slot] = n
+    if errs:
+        raise SystemExit("[neural] deck manifest REFUSING TO EMIT — the ordinal wire cannot carry "
+                         f"{len(errs)} deck(s):\n    " + "\n    ".join(errs[:20]))
+    ords = sorted(per_ord)
+    deltas, prev = [], -1
+    for o in ords:
+        deltas.append(o - prev - 1)
+        prev = o
+    return {"o": deltas, "n": [x for o in ords for x in per_ord[o]]}
+
+
+def write_flashcards(decks: dict, out_dir: Path, nodes: list) -> tuple[int, int]:
+    """Write one chunk file per deck + a manifest. Returns (deck_count, card_count).
+
+    THE MANIFEST IS KEYED BY SHARE ORDINAL (format 4, v1.204.3). It is the one deck file every
+    visitor fetches before the first hand, and format 3 spelled every key — 2,896 "<Name>|<Role>"
+    strings, 15,427 of its 20,552 gzip bytes — when graph-data.json, fetched first, already
+    carries every one of those names on the node that owns the deck. `nodes` is graph-data's node
+    list: each deck is written as its node's permanent ordinal (node_ordinals.json, append-only,
+    hard-gated) plus a seat slot, and the reader (neural/src/wire-keys.src.js in the browser,
+    scripts/_neural_decks.py here) derives the name back from the node. Never an array index:
+    graph-data's node ORDER renumbers when one content file is added (CLAUDE.md section 6.6).
+
+    Nothing is trusted to the encoder: the manifest is decoded through the READER's direction
+    (ordinal -> node -> name, a different path from the encoder's name -> ordinal map) and must
+    reproduce every deck's key, category, card count AND position in the name order `shared`
+    indexes into — or nothing is written. The coverage line prints every run.
+
+    `_meta` is `{format}` and nothing else: its prose used to ride the boot path (486 B gzip) and
+    nothing ever read it. The documentation lives here, where it costs nothing."""
     fc_dir = out_dir / "flashcards"
     # clean stale chunks so removed decks don't linger
     if fc_dir.exists():
@@ -1194,24 +1599,32 @@ def write_flashcards(decks: dict, out_dir: Path) -> tuple[int, int]:
             shared.setdefault(fnv1a32(q), []).extend(idxs)
     shared = {h: sorted(set(v)) for h, v in shared.items()}
 
-    (fc_dir / "_index.json").write_text(json.dumps({
-        "_meta": {
-            "status": "generated",
-            "format": 3,
-            "note": "Generated by scripts/regenerate_neural_data.py from graph.json. The app boots "
-                    "from this file alone and fetches a deck's chunk on demand; a chunk is "
-                    "<fnv1a32(deckKey)>.json beside this manifest, holding {deckKey: {cat, role, "
-                    "cards}} (a map, so a hash collision shares a file instead of losing a deck).",
-            "keyFormat": "<Name>|<Role>  (Top|Bottom for positions, Attacker|Defender for techniques)",
-            "entry": "[cat, n] — category, card count",
-            "cardShape": {"q": "question", "a": "answer"},
-            "shared": "fnv1a32(question) -> indexes into `decks` (in this file's order) for every "
-                      "question carried by 2+ decks — the blended hierarchy's shared cards. Makes "
-                      "cross-deck credit residency-independent (see noteCardDone).",
-        },
-        "decks": {k: manifest[k] for k in sorted(manifest)},
+    # The app boots from this file alone and fetches a deck's chunk on demand: a chunk is
+    # <fnv1a32(deckKey)>.json beside it, holding {deckKey: {cat, role, cards:[{q, a}]}} (a map, so
+    # a hash collision shares a file instead of losing a deck). `shared` is fnv1a32(question) ->
+    # indexes into the decks in NAME order, for every question carried by 2+ decks — the blended
+    # hierarchy's shared cards; it makes cross-deck credit residency-independent (noteCardDone).
+    out = {
+        "_meta": {"format": 4},
+        "deckOrd": _encode_deck_manifest(decks, nodes),
         "shared": {h: shared[h] for h in sorted(shared)},
-    }, ensure_ascii=False, separators=(",", ":")))
+    }
+    import _neural_decks as ND
+    back, unresolved = ND.decode_manifest(out, nodes)
+    want = {k: {"cat": manifest[k][0], "n": manifest[k][1]} for k in sorted(manifest)}
+    if unresolved or list(back.items()) != list(want.items()):
+        diff = [k for k in set(back) | set(want) if back.get(k) != want.get(k)]
+        order = list(back) != list(want)
+        raise SystemExit(
+            f"[neural] deck manifest REFUSING TO EMIT — the ordinal wire does not read back: "
+            f"{unresolved} unresolved ordinal(s), {len(diff)} deck(s) differ "
+            f"(e.g. {sorted(diff)[:3]}), name order {'BROKEN' if order else 'intact'}. `shared` "
+            f"indexes into that order, so a reshuffle would credit the wrong decks.")
+    (fc_dir / "_index.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    n_ord = len(out["deckOrd"]["o"])
+    print(f"  deck manifest: {len(back)}/{len(manifest)} deck keys carried by {n_ord} ordinals "
+          f"({len(manifest) - len(back)} unresolved); read back exact — key, category, card count "
+          f"and name order")
     if collisions:
         print(f"flashcards/: {collisions} deck(s) sharing a hashed chunk file")
     return len(decks), sum(len(d["cards"]) for d in decks.values())
@@ -1286,7 +1699,10 @@ def build_technique_weights(graph: dict, frame: str, iters: int = 240, damp: flo
                 if flow <= 0:
                     continue
                 visits[tgt] = visits.get(tgt, 0.0) + flow
-                for dest, p in tech_tables.get(tgt, []):
+                table = ([(o.get("to"), float(o["probability"]) / 100.0) for o in edge.get("outcomes") or []
+                          if isinstance(o.get("probability"), (int, float))]
+                         if edge.get("ownTable") else tech_tables.get(tgt, []))    # v1.214.0
+                for dest, p in table:
                     if dest in nxt:
                         nxt[dest] += flow * p
                     else:
@@ -1392,10 +1808,29 @@ def build_score_weights(graph: dict, frame: str) -> dict:
 WEIGHT_DIV = 10_000_000
 
 
-def _compact_score_weights(tables: dict) -> dict:
-    """The wire for `build_score_weights`, BOTH RULESETS: position keys once, technique names
-    once, one integer per frame each — {div, p:{k, gi, nogi}, t:{k, gi, nogi}} — where every `t`
-    name carries both seats at the same value.
+def _compact_score_weights(tables: dict, nodes: list) -> dict:
+    """The wire for `build_score_weights`, BOTH RULESETS: each position seat once, each technique
+    once, one integer per frame each — {div, p:{o, r, gi, nogi}, t:{o, gi, nogi}} — where every
+    `t` entry carries both seats at the same value. Written under `scoreWeightsByOrd`.
+
+    KEYED BY SHARE ORDINAL, NOT BY NAME (v1.204.3). Until now `p.k` spelled 266 "<Position>|<Role>"
+    keys and `t.k` 1,310 technique names — about 9,600 B of this file's 20,800 gzip, on the boot
+    path, every one of them a name graph-data.json already carries on the node it belongs to.
+    `p.o[i]` / `t.o[i]` are those nodes' permanent ordinals (node_ordinals.json) and `p.r[i]` the
+    position's seat (0 Top, 1 Bottom); the reader derives the name from the node
+    (neural/src/wire-keys.src.js, scripts/_neural_decks.py). The weights are NOT rounded any
+    further — that would move belt scores, which is the owner's call.
+
+    ORDER: WEIGHT DESCENDING ON THE SHIPPED INTEGERS, NAME AS THE TIEBREAK. The keys were once
+    sorted by `-max(weight)` over a Python SET alone, so every exact tie (253 of the 1,310
+    techniques and 10 of the 266 position seats share their maximum float with another) fell in
+    PYTHONHASHSEED order and the same inputs emitted a different file each run — 20,871-20,910 B
+    gzip, more noise than the first-hand gate's headroom at v1.198.3 (15 B). v1.198.4 (PR #221)
+    added the name tiebreak on the floats; v1.204.3 ranks the INTEGERS the wire actually ships, so
+    two weights that differ below 1/WEIGHT_DIV but ship equal are ordered by name too, and the
+    order is a function of the file's own contents (checkable from it, which the ORDER test in
+    tests/neural_wire_keys.test.mjs does). It is carried to the app on purpose, because gameScore
+    and startPosTraffic SUM in key order.
 
     WHY KEYS ONCE. Spelled as a plain 2,810-key dict this table is 168,616 raw / 25,756 gzip and
     lands the first hand at 382,197 of a 385,000 ceiling. The key strings are the entire cost, and
@@ -1403,9 +1838,9 @@ def _compact_score_weights(tables: dict) -> dict:
     and hanging one integer array per frame off it means the SECOND ruleset costs only integers.
 
     WHY THE UNION, AND WHY A ZERO IS MEANINGFUL. The two frames do not span the same techniques:
-    52 are attemptable only in gi and 16 only in no-gi. `k` is therefore the union and a ZERO in a
-    frame's array means "not attemptable in this ruleset" — the app skips it rather than storing a
-    key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
+    52 are attemptable only in gi and 16 only in no-gi. The key list is therefore the union, and a
+    ZERO in a frame's array means "not attemptable in this ruleset" — the app skips it rather than
+    storing a key with no mass in `gameScore`'s own denominator. A weight that is real but rounds to zero at
     this divisor means something else entirely and is refused below, not shipped.
 
     THE MIRROR IS A CONSTRUCTION, NOT AN ESTIMATE, so it is safe to spell once: the defender block
@@ -1426,11 +1861,43 @@ def _compact_score_weights(tables: dict) -> dict:
         att = {k[: -len("|Attacker")]: v for k, v in t.items() if k.endswith("|Attacker")}
         return pos, att
     parts = {fr: split(tables[fr]) for fr in frames}
-    pk = sorted({k for fr in frames for k in parts[fr][0]},
-                key=lambda k: -max(parts[fr][0].get(k, 0.0) for fr in frames))
-    tk = sorted({k for fr in frames for k in parts[fr][1]},
-                key=lambda k: -max(parts[fr][1].get(k, 0.0) for fr in frames))
-    wire = {"div": WEIGHT_DIV, "p": {"k": pk}, "t": {"k": tk}}
+    # The sort breaks ties on the KEY itself (v1.198.4, PR #221). Sorting these sets by weight
+    # alone left tied keys in set-iteration order, which follows the per-process PYTHONHASHSEED:
+    # eight seeds gave eight byte streams of curriculum.json, on the first-hand payload path. And it
+    # sorts on the INTEGERS the wire ships, not the floats behind them (v1.204.3 payload diet): two
+    # weights can differ below 1/WEIGHT_DIV and ship equal, and an order decided by a difference the
+    # file cannot show is an order nobody can check from the file. Pinned by
+    # tests/curriculum_order.test.mjs (bytes across seeds) and tests/neural_wire_keys.test.mjs (the
+    # emitted file is weight-descending with ties in name order).
+    def rank(block):
+        return lambda k: (-max(round(parts[fr][block].get(k, 0.0) * WEIGHT_DIV) for fr in frames), k)
+    pk = sorted({k for fr in frames for k in parts[fr][0]}, key=rank(0))
+    tk = sorted({k for fr in frames for k in parts[fr][1]}, key=rank(1))
+    # name -> ordinal (+ seat), through the same seat index the deck manifest uses. A key that
+    # names no node's seat — or names a node of the wrong kind — is REFUSED, never dropped: a
+    # weight that silently leaves the table leaves gameScore's denominator with it.
+    idx, collided = _seat_index(nodes)
+    unresolved = []
+    p_o, p_r, t_o = [], [], []
+    for k in pk:
+        hit = idx.get(k)
+        if hit is None or k in collided or hit[3] != "positions":
+            unresolved.append(k)
+            continue
+        p_o.append(hit[0])
+        p_r.append(hit[1])
+    for k in tk:
+        hit = idx.get(f"{k}|Attacker")
+        if hit is None or f"{k}|Attacker" in collided or hit[3] == "positions":
+            unresolved.append(k)
+            continue
+        t_o.append(hit[0])
+    if unresolved:
+        raise SystemExit(
+            f"[neural] score weights REFUSING TO EMIT — {len(unresolved)} of {len(pk) + len(tk)} "
+            f"key(s) resolve to no graph-data node seat, e.g. {unresolved[:5]}. The wire is keyed "
+            f"by ordinal, so an unresolvable key has no way onto it.")
+    wire = {"div": WEIGHT_DIV, "p": {"o": p_o, "r": p_r}, "t": {"o": t_o}}
     for fr in frames:
         pos, att = parts[fr]
         for slot, keys, src in (("p", pk, pos), ("t", tk, att)):
@@ -1445,18 +1912,18 @@ def _compact_score_weights(tables: dict) -> dict:
                     f"Raise WEIGHT_DIV rather than shipping a silent hole."
                 )
             wire[slot][fr] = vals
-    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does and compare to the
-    # table it was built from. A compaction that silently drops or halves a block is the same
-    # defect class this whole ledger exists for, so it is checked, every run, for both rulesets.
+    # ROUND-TRIP OR REFUSE, PER FRAME. Expand the wire exactly as the app does — through the
+    # READER, ordinal -> node -> name (scripts/_neural_decks.py), never back through the name ->
+    # ordinal map that built it, so a remapped ordinal cannot agree with itself — and compare to
+    # the table it was built from. A compaction that silently drops, halves or re-homes a block is
+    # the same defect class this whole ledger exists for, so it is checked, every run, for both.
+    import _neural_decks as ND
     for fr in frames:
         full = tables[fr]
-        back = {}
-        for k, v in zip(wire["p"]["k"], wire["p"][fr]):
-            if v:
-                back[k] = v / WEIGHT_DIV
-        for k, v in zip(wire["t"]["k"], wire["t"][fr]):
-            if v:
-                back[f"{k}|Attacker"] = back[f"{k}|Defender"] = v / WEIGHT_DIV
+        back, unres = ND.decode_score_weights({"scoreWeightsByOrd": wire}, fr, nodes)
+        if unres:
+            raise SystemExit(f"[neural] score weights ({fr}): {unres} ordinal(s) do not read back "
+                             f"to a node of the right kind. Refusing to emit.")
         lost = sorted(k for k in full if full[k] > 0 and not back.get(k))
         drift = max((abs(back.get(k, 0.0) - full[k]) for k in full), default=0.0)
         if set(back) != set(full) or lost or drift > 1.0 / WEIGHT_DIV:
@@ -1468,12 +1935,12 @@ def _compact_score_weights(tables: dict) -> dict:
                 f"assumption that it equals the attacker seat; if that stopped being true, spell "
                 f"both. Refusing to emit."
             )
-    print(f"  score weights wire: {len(pk)} position + {len(tk)} technique keys x {len(frames)} "
-          f"frames at 1/{WEIGHT_DIV:,} ("
+    print(f"  score weights wire: {len(p_o)}/{len(pk)} position + {len(t_o)}/{len(tk)} technique "
+          f"keys carried by ordinal x {len(frames)} frames at 1/{WEIGHT_DIV:,}, read back exact ("
           + ", ".join(f"{fr} {sum(1 for v in wire['t'][fr] if v)} tech" for fr in frames) + ")")
     return wire
 
-def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
+def build_curriculum(out_dir: Path, graph: dict, decks: dict, wire_nodes: list) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
     which is legal — the app falls back to tree view).
 
@@ -1498,7 +1965,9 @@ def build_curriculum(out_dir: Path, graph: dict, decks: dict) -> int:
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
     tables = {fr: build_score_weights(graph, fr) for fr in ("gi", "nogi")}
-    cur["scoreWeightsByRuleset"] = _compact_score_weights(tables)
+    # `wire_nodes` is graph-data.json's node list (the ordinals the reader resolves against), NOT
+    # the curriculum index `nodes` above — two different node sets under one word.
+    cur["scoreWeightsByOrd"] = _compact_score_weights(tables, wire_nodes)
     # PRINTED EVERY RUN, never fatal here — `validate_score_coverage.py` owns the definition and
     # this is the same call the standalone check makes, so the two can never report different
     # numbers. It is handed the REAL per-frame pair: until v1.146.0 both arguments were the one
@@ -2466,7 +2935,7 @@ def main() -> None:
             print(f"removed retired payload: {stale}")
 
     decks = build_flashcards(graph)
-    n_decks, n_cards = write_flashcards(decks, OUT_DIR)
+    n_decks, n_cards = write_flashcards(decks, OUT_DIR, gd["nodes"])
     # The 16.4MB flashcards.json monolith is GONE (v1.80.4). It was the app's deck payload and it
     # shipped every card for all 2,924 decks before the visitor could make a move; the app now
     # boots from flashcards/_index.json and fetches chunks. Nothing reads a monolith any more —
@@ -2505,7 +2974,12 @@ def main() -> None:
     # a node the graph does not have. Built BEFORE the chunk write for the same reason concepts
     # are: the System BODIES share that chunk space (see write_ng_chunks(extra=...)).
     sysd, system_dossiers = build_systems(graph, gd["nodes"])
-    (OUT_DIR / "systems.json").write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    # The full library is the build-internal source (scripts/_systems_demand.py SYSTEMS_SOURCE),
+    # never served; a copy left in the static tree by an older emit is removed so no build serves it.
+    from _systems_demand import SYSTEMS_SOURCE
+    SYSTEMS_SOURCE.parent.mkdir(parents=True, exist_ok=True)
+    SYSTEMS_SOURCE.write_text(json.dumps(sysd, ensure_ascii=False, separators=(",", ":")))
+    (OUT_DIR / "systems.json").unlink(missing_ok=True)
     sm = sysd["_meta"]
     print(f"systems.json: {sm['count']} systems, {sm['nodes']} member nodes, "
           f"{sm['unresolved']} unresolved refs, {sm['famRefs']} family refs, "
@@ -2537,10 +3011,14 @@ def main() -> None:
     print(f"content/: {n_ng} node dossiers in {n_files} chunks"
           + (f" ({n_coll} sharing a hashed file)" if n_coll else ""))
 
+    # The served Systems route: the index plus one immutable record per system, from the same data.
+    from _systems_demand import write_systems_demand
+    write_systems_demand(OUT_DIR, sysd)
+
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR, graph, decks)
+    n_belts = build_curriculum(OUT_DIR, graph, decks, gd["nodes"])
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 

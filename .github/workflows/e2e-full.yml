@@ -36,6 +36,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install Python gate dependency
+        run: python3 -m pip install PyYAML
+
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
+
       - name: Install dependencies
         run: npm ci
 
@@ -43,7 +49,46 @@ jobs:
         run: npm run regenerate:neural
 
       - name: Build production site and Forward libraries
+        id: site-build
         run: npm run build
+
+      - name: Postprocessor input contract
+        # Exit 2 is pending only with the exact completed-verdict marker.
+        # Python also exits 2 before execution (missing file/bad arguments).
+        run: |
+          contract_log=$(mktemp)
+          trap 'rm -f -- "$contract_log"' EXIT
+
+          if python3 scripts/check_postprocessor_contract.py >"$contract_log" 2>&1; then
+            contract_status=0
+          else
+            contract_status=$?
+          fi
+          cat "$contract_log"
+
+          contract_marker_count=0
+          contract_marker=
+          while IFS= read -r contract_line || [[ -n "$contract_line" ]]; do
+            case "$contract_line" in
+              POSTPROCESSOR_CONTRACT_RESULT=*)
+                contract_marker_count=$((contract_marker_count + 1))
+                contract_marker=$contract_line
+                ;;
+            esac
+          done < "$contract_log"
+
+          if [[ "$contract_marker_count" -ne 1 ]]; then
+            echo "::error::Expected exactly one gate result marker; exit $contract_status."
+            exit 1
+          fi
+
+          case "$contract_status:$contract_marker" in
+            0:POSTPROCESSOR_CONTRACT_RESULT=conforms) ;;
+            *)
+              echo "::error::Gate failure or inconsistent result; exit $contract_status."
+              exit 1
+              ;;
+          esac
 
       # THE BUILD'S SHAPE, AND THE ONLY PR JOB THAT CAN CHECK IT.
       # `npm run build` above already ran validate:payload, whose TIER-0 FLOORS reject a
@@ -72,6 +117,9 @@ jobs:
         run: npm run validate:analytics:nokey
 
       - name: Package tested site
+        # Preserve a successfully built site when a later census/analytics gate fails.
+        # Shards still require the entire build job to pass.
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         # THE WHOLE TREE, NOT AN ALLOW-LIST (v1.104.6). The list below used to name six paths, and
         # it predated every spec that reads a seventh: share-camera/share-lists/share-mobile
         # readFileSync `public/l.html`, `_redirects` and `l-manifest.json`; legacy-gone and
@@ -80,9 +128,22 @@ jobs:
         # so the full sharded suite — the PR gate for BOTH main and dev — could not pass, and
         # nothing reported the drift because an allow-list rots silently. If size ever bites, use
         # --exclude: a new emitted path must be packaged by DEFAULT.
-        run: tar -czf complete-e2e-site.tgz -C source public
+        # Fresh-asset journeys compare HTTP responses with the original emitted bytes.
+        # Keep those build inputs beside the public tree on every clean shard.
+        run: |
+          for built in neural/dist/*; do
+            test -f "$built"
+            cmp "$built" "source/public/static/neural/app/$(basename "$built")"
+          done
+          cmp source/quartz/static/neural/graph-data.json source/public/static/neural/graph-data.json
+          # The full Systems library is BUILD-INTERNAL since v1.207.0 (never served): the Systems
+          # journeys prove the served index + records reproduce it exactly, so it rides beside the
+          # public tree like graph-data.json. Absent, those specs fail by name (never at collection).
+          test -f source/quartz/.neural-internal/systems.json
+          tar -czf complete-e2e-site.tgz source/public neural/dist source/quartz/static/neural/graph-data.json source/quartz/.neural-internal/systems.json
 
       - name: Upload tested site
+        if: ${{ !cancelled() && steps.site-build.outcome == 'success' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: complete-e2e-site
@@ -130,6 +191,13 @@ jobs:
       - name: Install test dependencies
         run: npm ci --ignore-scripts
 
+      # Publication journeys import the real Quartz parser/renderer and its native Git
+      # oracle. Root --ignore-scripts intentionally skips the source/ postinstall.
+      # Install their locked dependencies explicitly; keep serving the build job's artifact.
+      - name: Install source dependencies for publication journeys
+        run: npm ci --no-audit --no-fund
+        working-directory: source
+
       # download-artifact v8 fails the job on a digest mismatch (v4 only warned), and it
       # skips decompressing a non-zip payload. Both are fine here — the `build` job above
       # uploads a normal (archived) artifact — but upload- and download-artifact must be
@@ -141,8 +209,7 @@ jobs:
 
       - name: Extract tested site
         run: |
-          mkdir -p source
-          tar -xzf complete-e2e-site.tgz -C source
+          tar -xzf complete-e2e-site.tgz
 
       # Key the browser cache on the PLAYWRIGHT VERSION, never on the lockfile hash.
       # This repo bumps package.json on every commit and package-lock.json mirrors that
@@ -201,4 +268,90 @@ jobs:
           path: |
             e2e/test-results/
             test-results/
+          if-no-files-found: ignore
+
+  # THE GENERATED SUITE, ON EVERY PR (v1.215.1). `e2e:gen` (e2e/gen, ~100 journeys) went 13 → 40
+  # red while no PR ran it: v1.176.0 alone broke 18 of its specs and the PR that shipped it was
+  # green. It now runs here, beside the four shards, on the SAME build artifact, and its verdict is
+  # the ledger's: e2e/gen-ledger-reporter.ts fails on any red e2e/gen/ledger.json does not name as
+  # `known-red`, and on a named one that passes (stale row). A red here is fixed in the PR that
+  # caused it, or named in the ledger with a reason and an owner — never silently tolerated.
+  # It reads only the built site (the artifact) and node_modules: no Quartz deps, no history.
+  # .github/workflows/e2e-gen.yml still runs it weekly against dev, which a PR job cannot see
+  # (direct pushes, merges of merges).
+  # ONE JOB, MEASURED AT THE STEP (PR #254). The suite step took 284 s at 1 worker, against 353-562 s
+  # for the four core shards' suite steps in the same runs, so it is never the long pole on its own.
+  # Job TOTALS mislead here: `playwright install-deps` on a cache hit (apt) took 14 s to 513 s across
+  # these jobs. That apt variance, not any suite, set the slowest job (17m55s in one run), and a
+  # second gen shard (tried: 139 s + 107 s) would only add one more job exposed to it.
+  gen:
+    name: Generated suite (e2e:gen vs its ledger)
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install test dependencies
+        run: npm ci --ignore-scripts
+
+      # Same artifact the shards test; download- and upload-artifact are bumped as a PAIR (see the
+      # shard job's note).
+      - name: Download tested site
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: complete-e2e-site
+
+      - name: Extract tested site
+        run: |
+          tar -xzf complete-e2e-site.tgz
+
+      # Browser cache keyed on the resolved Playwright version — the shard job's note explains why
+      # never on the lockfile.
+      - name: Resolve Playwright version
+        id: pw-version
+        run: |
+          V="$(node -p "require('@playwright/test/package.json').version" 2>/dev/null || true)"
+          if [ -z "$V" ]; then
+            echo "::error::Could not resolve the @playwright/test version; refusing to key the browser cache on a guess."
+            exit 1
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+
+      - name: Cache Playwright browsers
+        id: pw-cache
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ steps.pw-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      - name: Install Chromium
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Install Chromium OS deps (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
+
+      # The [gen-ledger] lines in this step's log name every red, whether the ledger tolerates
+      # it, and who owns it.
+      - name: Run the generated suite against the ledger
+        run: npm run e2e:gen
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: e2e-gen-results
+          path: |
+            e2e/test-results/
+            e2e/report-gen/
           if-no-files-found: ignore

@@ -34,11 +34,13 @@ on:
       - "source/quartz/static/globalGraphLayout.json"
       # test:units pins the neural sources, not just the codec file
       - "neural/src/**"
+      - "neural/build/**"
       - "neural/src/lists-codec.src.js"
       # every unit suite AND the helpers they import (tests/_census.mjs, tests/_deps_promised.mjs):
       # a helper is an input of every gate that imports it, so a PR that edits only the helper
       # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
       - "tests/*.mjs"
+      - "tests/*.py"
       # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
       # lines below: a gate behind a filter that excludes its own subject never runs on the PR
       # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.
@@ -54,6 +56,15 @@ on:
       # the line above: the gate's own subject must be in the filter, or the PR that breaks it is
       # the one PR that never runs it.
       - "source/quartz/plugins/transformers/lastmod.ts"
+      # THE BYTE-FREEZE'S OWN SUBJECT. `scripts/check_frozen_surfaces.py` (D-27) pins all 12 files
+      # under these two directories to `tests/artifacts/transformer_freeze.json`. Same rule again,
+      # and it is the rule's sharpest case: a drive-by tidy of a transformer is EXACTLY what the
+      # gate exists to catch, and with only `lastmod.ts` in the filter that PR was the one PR the
+      # gate never ran on. The baseline is listed too — editing the hashes by hand instead of via
+      # `--accept <path> --reason` must trigger the job that would notice.
+      - "source/quartz/plugins/transformers/**"
+      - "source/quartz/plugins/filters/**"
+      - "tests/artifacts/transformer_freeze.json"
       # Since v1.195.1 (published_time) and v1.195.3 (git_date_maps) two unit suites EXECUTE the
       # real transformer, parser, worker and Head through tsx, so every Quartz source they reach
       # transitively is an input — a closure no hand-kept list can track (CLAUDE.md §6.7). The
@@ -70,7 +81,10 @@ on:
       - "CLAUDE.md"
       - "docs/**"
       - "tests/artifacts/budget_docs.json"
-      - ".github/workflows/ci-validate.yml"
+      # The chain/provisioning gate reads every workflow and reachable Python input.
+      - ".github/workflows/**"
+      - "source/package.json"
+      - "**/*.py"
   push:
     branches: [dev]
   workflow_dispatch:
@@ -111,10 +125,48 @@ jobs:
           cache-dependency-path: source/package-lock.json
 
       - name: Install Python dependencies
-        run: pip install jsonschema jinja2
+        run: pip install jsonschema jinja2 PyYAML
+
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
+
+      - name: Postprocessor contract mutation specs
+        run: python3 -B tests/postprocessor_contract_test.py
+
+      # build_fingerprint.json's APP ROWS (format 4). neural.js is hashed with its one baked
+      # NG_APP_VERSION literal normalised, so a version bump moves no row; these fixtures are the
+      # only proof the normalisation cannot swallow a real bundle change, a stale bundle or a
+      # second literal, and that --update-app-assets refuses dirty inputs. Before this step no
+      # workflow ran them: a suite nothing runs is a note, not a gate (CLAUDE.md §6.4). <1 s.
+      - name: Build-shape app-row controls (fixtures, no build)
+        run: python3 -B scripts/emit_mutation_test.py --app-assets
+
+      # THE FROZEN SURFACES, BOTH SCOPES (v1.205.2).
+      #   pipeline (D-27): plugins/transformers/** + plugins/filters/**, a RE-HOST with zero
+      #     intended behavioural changes, so a drive-by cleanup and a migration defect are
+      #     indistinguishable once the differ is 4,600 files wide.
+      #   keeplist (D-01): the 70 source/quartz files the engine replacement kept verbatim.
+      #     components/ is covered exhaustively, so a new file there must be listed and accepted.
+      # Until v1.205.2 this step ran `--scope pipeline` only. The keep-list read two inputs a
+      # GitHub checkout lacks: the programme's INTERFACE.md, outside the repository, and
+      # `git show f649801a9:<path>`, beyond this job's fetch depth. So PR #228's first head went
+      # green here while breaking every seat's local test:units. Both inputs are tracked now:
+      # tests/artifacts/keeplist.txt, and a recorded sha per file in transformer_freeze.json. So the
+      # whole gate runs here, and it prints a positive count for each scope. About 0.3 s.
+      - name: Frozen surfaces byte-freeze (D-27 pipeline + D-01 keep-list)
+        run: npm run validate:frozen-surfaces
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
+
+      # THE CATEGORY INDEX PAGES MATCH THEIR GENERATOR (v1.215.7). content/<Category>.md is rendered
+      # from every leaf JSON in its category, but regeneration is keyed on the EDITED file, so a leaf
+      # edit leaves its index page stale — and a stale page looks exactly like a fresh one
+      # (CLAUDE.md §6.6). The Principles page carried pre-v1.191.0 descriptions for 11 days with every
+      # gate green. Renders all six in memory (stdlib, ~0.5 s), fails on any byte difference or on
+      # zero pages checked, and names the page. Fix a red with `npm run regenerate:hubs`.
+      - name: Category index pages match their generator (hard gate)
+        run: python3 scripts/check_category_hubs.py
 
       # THE SCHEMA MARKUP MUST PARSE. Every content page carries JSON-LD built by interpolating
       # authored prose into a hand-written JSON string literal, so one `"` in the prose ends the
@@ -193,7 +245,7 @@ jobs:
         working-directory: source
 
       - name: Pure unit suites
-        run: node --test tests/*.test.mjs
+        run: npm run test:units
         env:
           # tests/_deps_promised.mjs: a promised module that is absent is a failure, never a skip.
           CI: "true"

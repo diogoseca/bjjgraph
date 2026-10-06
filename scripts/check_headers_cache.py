@@ -114,6 +114,14 @@ PROBE_PATHS = (
 )
 
 
+# THE BUILD-STAMP CARRIER (v1.205.1). /postscript.js sets window.__NEURAL_BUILD, and the app loader
+# (variant.inline.ts) requests neural.js?v=<stamp>, so each deploy gets fresh cache keys. If this file
+# may be served stale, the stamp is stale too, and so is the bundle it keys: that is the 2026-09-29
+# production skew, v1.182.15's neural.js against v1.204.4's data. So exactly one rule must match it,
+# and that rule must revalidate on every load with no stale-while-revalidate.
+STAMP_CARRIER = "/postscript.js"
+
+
 def parse(path: Path) -> list[tuple[str, list[str]]]:
     """[(url_pattern, [header lines])] in file order."""
     blocks: list[tuple[str, list[str]]] = []
@@ -170,6 +178,23 @@ def check(path: Path) -> list[str]:
             errors.append(
                 f"{label}: {url} matches {len(hits)} Cache-Control rules {hits} — Cloudflare joins "
                 f"them with a comma and the first max-age wins. Make them disjoint."
+            )
+
+    carrier = [h for p, h in cache_rules if matches(p, STAMP_CARRIER)]
+    if len(carrier) != 1:
+        errors.append(
+            f"{label}: {STAMP_CARRIER} matches {len(carrier)} Cache-Control rules; it carries the build "
+            f"stamp the app bundle URL is keyed on, so it needs exactly one, revalidated on every load."
+        )
+    else:
+        directives = {d.strip().lower() for d in carrier[0].split(":", 1)[1].split(",")}
+        if not {"max-age=0", "must-revalidate"} <= directives or any(
+            d.startswith("stale-while-revalidate") or d.startswith("stale-if-error") for d in directives
+        ):
+            errors.append(
+                f"{label}: {STAMP_CARRIER} is served {carrier[0]!r}; it must be `max-age=0, "
+                f"must-revalidate` with no stale-while-revalidate, or a cached copy carries a stale "
+                f"build stamp and the app loads a bundle older than its data (the 2026-09-29 skew)."
             )
     return errors
 

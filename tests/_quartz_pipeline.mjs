@@ -110,7 +110,11 @@ export const HARNESS_MODULES = Object.freeze([
   "@napi-rs/simple-git", "chalk", "dotenv", "esbuild", "esbuild-sass-plugin", "github-slugger",
   "globby", "gray-matter", "hast-util-to-html", "hast-util-to-jsx-runtime", "hast-util-to-string",
   "is-absolute-url", "js-yaml", "lightningcss", "mdast-util-find-and-replace", "mdast-util-to-hast",
-  "mdast-util-to-string", "preact", "preact-render-to-string", "rehype-autolink-headings",
+  "mdast-util-to-string", "preact", "preact-render-to-string",
+  // D-240 explicit exception: the tracer misses require.resolve + file-URL import at
+  // quartz_sanitizer_contract.test.mjs:280 (the original sweep). Retire this exception
+  // when dev's corrected tracer records that load; retain the dependency in its measured set.
+  "property-information", "rehype-autolink-headings",
   "rehype-pretty-code", "rehype-raw", "rehype-slug", "remark-frontmatter", "remark-gfm",
   "remark-parse", "remark-rehype", "remark-smartypants", "rfdc", "unified", "unist-util-visit",
   "vfile", "workerpool",

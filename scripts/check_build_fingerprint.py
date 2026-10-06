@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """check_build_fingerprint.py — refuse a build that emitted the wrong SHAPE of site.
 
+Default baseline comparison asserts captured content against current content at use
+and completion. Missing/stale proof exits 2 with a named CONTENT_PROVENANCE state;
+--artifact-only is an explicit historical census comparison, not current-source parity.
+--check-baseline is only the schema/retirement guard and needs no built tree; --floors-only
+uses no golden. --update requires --content-receipt from the completed build AND
+matching named output bytes; it never infers build identity from current HEAD.
+Pinned by golden_provenance_selftest.py; code, dates and environment are outside that proof.
+
 WHAT CHANGED AND WHY (this file was rewritten; see the history note at the bottom)
 ---------------------------------------------------------------------------------
 The original version (v1.77.0) was written to prove the Quartz fork prune changed no
@@ -14,16 +22,8 @@ being a gate:
     "6,149 files changed bytes", which is equally true of a correct migration and a
     catastrophic one.
 
-It also had no non-triviality floor, which is the gap that matters most, because the
-other gates do not have one either:
-
-  * check_payload_budget.py computes html_file_count and only INTERPOLATES it into
-    f-strings -- it is never compared against anything, and every ceiling is a MAX;
-  * check_seo_parity.py samples 10 routes and scopes to the <article>.
-
-So a build that emitted a tenth of its pages passes the payload gate, the SEO gate and a
-byte ratchet simultaneously. Nothing in this repo currently says "you emitted 600 pages
-and you used to emit 6,149".
+It also had no non-triviality floor. The payload gate now has its own floors, and
+check_seo_parity.py samples 19 routes; neither replaces this named census.
 
 THIS FILE IS NOW THAT CHECK. It keeps the original's bundle-hash purpose, drops the
 duplicated tree walk (it now shares scripts/emit_fingerprint.py's one implementation, so
@@ -37,7 +37,71 @@ TIERS
           seeing pages, the floor fires instead of the comparison passing vacuously.
   Tier 1  CENSUS EQUALITY against the committed baseline: page count, per-archetype
           counts, JSON-LD blocks and their @type histogram, in-article links, the
-          structural markers, static/** count, and the three bundle hashes.
+          structural markers, static/** count, the three root bundle hashes, and
+          every static/neural/app/** file's name, byte size and SHA-256.
+
+APP INVENTORY AND BLIND SPOTS
+----------------------------
+The app inventory is derived from the shared filesystem walk, recursively and with
+no filename or extension allow-list. Its printed positive count must equal the number
+of named records. A rename is reported as REMOVED old name + ADDED new name, even if
+the count and bytes are unchanged. Empty, missing or malformed inventories fail.
+This asserts emitted copy integrity, not generation of golden-seeded files, runtime
+behavior, or byte parity outside these explicitly hashed regions. See
+emit_mutation_test.py --app-assets for same-size JS/CSS, add/remove/rename, nested-file
+and empty/corrupt-inventory controls. Browser behavior remains structurally INVISIBLE.
+
+APP ROWS: THE VERSION TOKEN, AND THEIR OWN PROVENANCE (format 4)
+---------------------------------------------------------------
+neural/build/build.mjs bakes the package version into neural.js as ONE literal,
+`NG_APP_VERSION="<version>"`. Every commit bumps the version (CLAUDE.md §1), so under
+format 3 every PR moved neural.js's pinned sha, and since the cutover a re-seed needs a
+guarded 20-minute capture: a version-only change was indistinguishable from an app
+change. Format 4 hashes neural.js with that one literal replaced by a fixed stand-in
+(the row says so: "version_token": "normalised"). This does not stop the token being
+checked; the check moves to where it can mean something. Exactly ONE token must be
+present, or the version could hide in a second one. It must also equal package.json's
+version, which catches a stale bundle not rebuilt since the bump. That one was
+invisible before, because a stale bundle's sha was merely "different". Any other byte
+of neural.js still moves the row. VERSIONED_APP_ASSETS names the file; nothing else is
+normalised.
+
+App rows come from neural/dist, verbatim: every static/neural/app/** file is a copy,
+and the bundle build reads no environment and no checkout timestamps. It DOES read content:
+since PR #231, game-model.worker.js, game-study.js, game-study.worker.js and game-values.js
+embed the MDP manifest, which is derived from graph-data.json (graphHash, manifestHash,
+graphBytes, shard names and sizes). So any content change moves those rows (OCQ2, D-280).
+They get their own, lighter re-seed all the same: --update-app-assets. It requires the
+WHOLE tree to be porcelain-clean, regenerates everything the bundles read
+(`npm run regenerate:neural`: data, MDP, bundles), records the HEAD and its tree in
+_meta.app_provenance, and rewrites ONLY app_assets. Until v1.208.4 it checked only neural/
+inputs and ran build.mjs against whatever generated data was on disk, so it could seed those
+four rows from STALE local data. It refuses a dirty or untracked file anywhere, and a bundle
+that bakes a version other than package.json's. Census, bundle and HTML rows are not
+touched and keep the guarded capture's receipt. The gate that matters is unchanged:
+e2e-full rebuilds the site and compares every emitted app file to these rows.
+
+Format 5 (v1.205.1) applies the same rule to ONE bundle row: /postscript.js carries the deploy's
+build stamp (window.__NEURAL_BUILD), which the app loader keys neural.js?v= on. Its literal is
+normalised the same way and must equal package.json's version exactly once. Bundle rows still
+re-seed only through the guarded --update; the stamp just stops a bump from moving one.
+
+v1.206.2 normalises the VALUE, not only a named literal: in every file listed as versioned, each
+occurrence of package.json's version is replaced. Each listed file must carry it at least once,
+and every UNLISTED fingerprinted file must carry it zero times; that failure prints the matched
+context. The full game embeds the version in five files (a build id, cache keys, MDP metadata),
+and the format-5 rule, which saw only NG_APP_VERSION, would have let every bump move five rows.
+
+Exact timestamp cardinalities for article:published_time and article:modified_time
+are retired (D-106), never re-seeded: checkout milliseconds are arbitrary, and many
+distinct values within one day do not prove date provenance. Presence remains in
+meta_keys; emit_diff.py still compares the actual Head fields. This census does NOT
+assert date spread. scripts/check_publication_dates.py owns the per-field spread
+gate, invoked by e2e/journeys/published-time.spec.ts in the curated suite; no spread
+threshold is fitted to this baseline update.
+Restoring either retired row inside distinct_values is an INVALID baseline, even
+if a clean git merge produced it. --check-baseline checks this contract and the app
+inventory before any tree walk; it does not claim that a built site matches it.
 
 WHAT THIS IS NOT
 ----------------
@@ -52,8 +116,10 @@ manifest (~16 MB compressed, 15,769 entries) is neither.
 USAGE
 -----
   python3 scripts/check_build_fingerprint.py --update   # (re)seed the committed census
+  python3 scripts/check_build_fingerprint.py --update-app-assets  # re-seed app rows only
   python3 scripts/check_build_fingerprint.py            # gate
   python3 scripts/check_build_fingerprint.py --floors-only   # Tier 0 only, no baseline
+  python3 scripts/check_build_fingerprint.py --check-baseline # merge/schema check, no build
 Stdlib only. Run after a build.
 """
 
@@ -63,8 +129,12 @@ import argparse
 import hashlib
 import json
 import os
+import re
+import shutil
+import subprocess
 import sys
 from pathlib import Path
+from golden_provenance import ContentGuard, add_arguments, read_capture_receipt, ProvenanceError
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 # ONE implementation of "walk the emit and describe it". This file used to carry its own
@@ -77,7 +147,47 @@ PUBLIC = ROOT / "source" / "public"
 BASELINE = ROOT / "tests" / "artifacts" / "build_fingerprint.json"
 
 BUNDLES = ("index.css", "prescript.js", "postscript.js")
-FORMAT = 2
+APP_PREFIX = "static/neural/app/"
+FORMAT = 5
+# The files that carry the package version, and the one literal each carries. Group `v` (or `w`) is
+# the version; only that span is replaced by VERSION_STAND_IN, and each file must carry exactly one,
+# equal to package.json's. Only these files are normalised, and only this literal in them.
+#   neural.js      bakes NG_APP_VERSION (neural/build/build.mjs `(globalThis).NG_APP_VERSION = …`).
+#                  Format 4.
+#   postscript.js  carries the deploy's build stamp, which the app loader keys neural.js?v= on
+#                  (source/quartz/components/NeuralMount.tsx afterDOMLoaded). Emitted inline as
+#                  `window.__NEURAL_BUILD="<v>"`; the `var x="<v>";…=x` shape is also read. Format 5 (v1.205.1): without
+#                  this, every version bump would move a BUNDLE row, which only a guarded capture
+#                  may re-seed.
+# v1.206.2: EVERY occurrence of the version VALUE in a listed file is normalised, not only its
+# anchored literal. An anchor (a pattern) is kept where one exists and still must match exactly once,
+# equal to package.json's version. A listed file with no anchor (None) must carry the value at least
+# once, so a stale file (0) fails by name. Every UNLISTED fingerprinted file must carry it ZERO times
+# (check_version_refs), and the failure prints the matched context.
+# WHY: QFG1 (a) looked for the FORM `NG_APP_VERSION="…"` and not the VALUE, so it missed the
+# full game's other embeddings, and after merge each bump would have moved 5 app rows (FGCAP1).
+VERSIONED_APP_ASSETS = {
+    "static/neural/app/neural.js": re.compile(rb'NG_APP_VERSION="(?P<v>[^"\\]*)"'),
+    # The full game (PR #231) embeds the version in its deferred bundles, and they are real runtime
+    # uses: a build id "<v>:<hash>" that neural.js checks them against (settings-ui.js, and
+    # expectedVersion in neural.js), and MDP metadata `version:"<v>"` (game-*.js). Listed ahead of the
+    # merge; a listed file that is absent is simply not checked.
+    "static/neural/app/settings-ui.js": None,
+    "static/neural/app/game-values.js": None,
+    "static/neural/app/game-study.js": None,
+    "static/neural/app/game-study.worker.js": None,
+}
+VERSIONED_BUNDLES = {"postscript.js": re.compile(
+    rb'window\.__NEURAL_BUILD="(?P<v>[^"\\]*)"'
+    rb'|(?P<var>[\w$]+)="(?P<w>[^"\\]*)"[;,]\s*window\.__NEURAL_BUILD=(?P=var)(?![\w$])')}
+VERSION_STAND_IN = b"<package.json version>"
+# What --update-app-assets runs. NOT build.mjs alone: since PR #231 four bundles embed the
+# content-derived MDP manifest, so the rows must come from this commit's own regenerated data
+# (D-280). The inputs are therefore the WHOLE committed tree, checked porcelain-clean.
+APP_BUILD = ("npm", "run", "regenerate:neural")
+RETIRED_DATE_CARDINALITIES = frozenset((
+    "property=article:published_time", "property=article:modified_time",
+))
 
 # Capabilities that live INSIDE a bundle rather than in any page's markup, so no per-page
 # marker can see them. The bundle sha already catches any change, but a sha says only
@@ -127,19 +237,207 @@ def sha256(path: Path) -> str:
     return h.hexdigest()
 
 
-def capture(jobs: int, tree: Path = None) -> dict:
+def normalise_version(pat: re.Pattern, body: bytes) -> tuple[bytes, list[str]]:
+    """Replace the version span of every match with VERSION_STAND_IN, and return the versions."""
+    out, versions, last = [], [], 0
+    for m in pat.finditer(body):
+        g = "v" if m.group("v") is not None else "w"
+        versions.append(m.group(g).decode("utf-8", "replace"))
+        out += [body[last:m.start(g)], VERSION_STAND_IN]
+        last = m.end(g)
+    out.append(body[last:])
+    return b"".join(out), versions
+
+
+def version_token(version: str) -> re.Pattern:
+    """The version VALUE as a token: not inside a longer number or dotted run."""
+    return re.compile(rb"(?<![\w.])" + re.escape(version.encode()) + rb"(?![\w.])")
+
+
+def version_refs(body: bytes, version: str | None, limit: int = 3) -> tuple[int, list[str]]:
+    """How many times `version` occurs in `body`, and up to `limit` matched contexts to print."""
+    if not version:
+        return 0, []
+    hits = list(version_token(version).finditer(body))
+    ctx = [body[max(0, m.start() - 40):m.end() + 40].decode("utf-8", "replace").replace("\n", " ")
+           for m in hits[:limit]]
+    return len(hits), ctx
+
+
+def versioned_row(pat: re.Pattern | None, body: bytes, version: str | None = None,
+                  listed: bool | None = None) -> tuple[dict, list[str]]:
+    """One file's row, and the version(s) its ANCHOR carries. A listed (versioned) file is hashed
+    with its anchored literal AND every other occurrence of the version value replaced; an unlisted
+    file is hashed raw. `listed` defaults to "has an anchor", which is the format-5 behaviour."""
+    listed = (pat is not None) if listed is None else listed
+    if not listed:
+        return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest()}, []
+    baked = []
+    if pat is not None:
+        body, baked = normalise_version(pat, body)
+    if version:
+        body = version_token(version).sub(VERSION_STAND_IN, body)
+    return {"bytes": len(body), "sha256": hashlib.sha256(body).hexdigest(),
+            "version_token": "normalised"}, baked
+
+
+def app_row(name: str, body: bytes, version: str | None = None) -> tuple[dict, list[str]]:
+    return versioned_row(VERSIONED_APP_ASSETS.get(name), body, version, name in VERSIONED_APP_ASSETS)
+
+
+def tree_version(tree: Path) -> str | None:
+    """The version a tree was built at, read from its anchored literals (for --artifact-only and for
+    fixtures, where package.json is not the tree's own)."""
+    for rel, pat in (("static/neural/app/neural.js", VERSIONED_APP_ASSETS["static/neural/app/neural.js"]),
+                     ("postscript.js", VERSIONED_BUNDLES["postscript.js"])):
+        f = tree / rel
+        if f.exists():
+            m = pat.search(f.read_bytes())
+            if m:
+                v = m.groupdict().get("v") or m.groupdict().get("w")
+                return v.decode("utf-8", "replace")
+    return None
+
+
+def app_inventory(files: dict, tree: Path, version: str | None = None) -> tuple[dict, dict, dict]:
+    """Project names and byte proofs from the one filesystem scan, not a glob return. Every app file
+    is re-read to count the version value (check_version_refs); a listed file is also normalised,
+    and the rest keep the scan's hash."""
+    records, baked, refs = {}, {}, {}
+    for name, rec in sorted(files.items()):
+        if not name.startswith(APP_PREFIX):
+            continue
+        body = (tree / name).read_bytes()
+        listed = name in VERSIONED_APP_ASSETS
+        refs[name] = (*version_refs(body, version), listed)
+        if listed:
+            records[name], baked[name] = app_row(name, body, version)
+            if VERSIONED_APP_ASSETS[name] is None:
+                del baked[name]   # no anchor: the value count (refs) is its whole assertion
+        else:
+            records[name] = {"bytes": rec.get("size"), "sha256": rec.get("sha")}
+    return {"count": len(records), "files": records}, baked, refs
+
+
+def package_version(root: Path = ROOT) -> str:
+    return json.loads((root / "package.json").read_text(encoding="utf-8"))["version"]
+
+
+def check_app_version(baked: dict, expected: str | None) -> list[str]:
+    """Every versioned file present must bake exactly ONE version, equal to package.json's.
+    `expected=None` (--artifact-only: a historical tree) keeps the exactly-one rule only."""
+    problems = []
+    for name, got in sorted(baked.items()):
+        if len(got) != 1:
+            problems.append(f"{name}: carries its version literal {len(got)} time(s); exactly 1 "
+                            "is required, or the version cannot be normalised out of its hash")
+        elif expected is not None and got[0] != expected:
+            problems.append(f"{name}: carries version {got[0]!r} but package.json says "
+                            f"{expected!r}: a stale file, not rebuilt since the version changed")
+    return problems
+
+
+def check_version_refs(refs: dict, version: str | None) -> list[str]:
+    """`refs`: {file: (occurrences of the version value, matched contexts, listed?)} over every
+    fingerprinted file. A LISTED file must carry it at least once: 0 means stale, or it stopped
+    embedding the version (then unlist it). An UNLISTED file must carry it ZERO times, or every bump
+    moves its row. That is the recurrence gate. The failure prints the matched context, so a
+    coincidental digit run is recognisable at a glance instead of being allow-listed."""
+    if not version:
+        return []
+    problems = []
+    for name, (n, ctx, listed) in sorted(refs.items()):
+        if listed and n == 0:
+            problems.append(f"{name}: listed as versioned but carries package.json's version {version!r} 0 "
+                            "times: a stale file not rebuilt since the bump, or it no longer embeds "
+                            "the version (then unlist it)")
+        elif not listed and n:
+            shown = " | ".join(f"…{c}…" for c in ctx)
+            problems.append(f"{name}: embeds the app version {version!r} {n} time(s) but is NOT listed "
+                            "as versioned, so every version bump would move its row. List it in "
+                            "VERSIONED_APP_ASSETS / VERSIONED_BUNDLES (normalised) or stop embedding it. "
+                            f"Matched: {shown}")
+    return problems
+
+
+def check_app_assets(record: dict, label: str) -> list[str]:
+    block = record.get("app_assets")
+    if not isinstance(block, dict) or not isinstance(block.get("files"), dict):
+        return [f"{label} app assets: missing or malformed inventory"]
+    files, count = block["files"], block.get("count")
+    problems = []
+    if type(count) is not int or count <= 0 or count != len(files):
+        problems.append(f"{label} app assets: count {count!r}, named files {len(files)}; "
+                        "must be equal and positive")
+    for name, item in files.items():
+        if (not name.startswith(APP_PREFIX) or not name[len(APP_PREFIX):]
+                or any(p in ("", ".", "..") for p in name.split("/"))):
+            problems.append(f"{label} app assets: invalid path {name!r}")
+        if (not isinstance(item, dict) or type(item.get("bytes")) is not int
+                or item["bytes"] < 0 or not isinstance(item.get("sha256"), str)
+                or not re.fullmatch(r"[0-9a-f]{64}", item["sha256"])):
+            problems.append(f"{label} app assets: invalid byte/hash proof for {name}")
+        # A raw-hash row for the versioned file (a format-3 row merged back in) would compare
+        # unequal forever; a normalised row on any OTHER file would claim a stand-in never made.
+        elif (item.get("version_token") == "normalised") != (name in VERSIONED_APP_ASSETS) \
+                or set(item) - {"bytes", "sha256", "version_token"}:
+            problems.append(f"{label} app assets: {name} row must carry version_token "
+                            f"{'normalised' if name in VERSIONED_APP_ASSETS else 'nowhere'}, "
+                            "and no other key")
+    return problems
+
+
+def check_baseline(base: dict) -> list[str]:
+    if not isinstance(base, dict):
+        return ["baseline must be a JSON object"]
+    problems = check_app_assets(base, "baseline")
+    for name in BUNDLES:
+        row = (base.get("bundles") or {}).get(name)
+        # A raw row for a versioned bundle (a format-4 row merged back in) would compare unequal on
+        # every bump; a normalised row on any other bundle would claim a stand-in never made.
+        if row is not None and (not isinstance(row, dict)
+                                or (row.get("version_token") == "normalised") != (name in VERSIONED_BUNDLES)
+                                or set(row) - {"bytes", "sha256", "version_token"}):
+            problems.append(f"baseline bundle {name}: row must carry version_token "
+                            f"{'normalised' if name in VERSIONED_BUNDLES else 'nowhere'}, and no other key")
+    if base.get("_meta", {}).get("format") != FORMAT:
+        problems.append(f"baseline format must be {FORMAT}; requires a reviewed migration")
+    values = base.get("distinct_values")
+    if not isinstance(values, dict):
+        problems.append("baseline distinct_values must be an object")
+    else:
+        for key in sorted(RETIRED_DATE_CARDINALITIES & values.keys()):
+            problems.append(f"baseline retired date row {key} reappeared in distinct_values; "
+                            "remove it, never re-seed its arbitrary cardinality")
+    return problems
+
+
+def capture(jobs: int, tree: Path = None, *, receipt_args=None, version: str | None = None) -> dict:
+    """`version`: the value normalised in listed files and counted everywhere (check_version_refs).
+    main passes package.json's; left None it is read from the tree's own anchored literals."""
     tree = tree or PUBLIC
     if not tree.exists():
         sys.exit(f"ERROR: {tree} not found — run `npm run build` first")
 
     files = scan_tree(tree, jobs)
+    receipt = read_capture_receipt(receipt_args, tree, files=files, require_output_hash=True) if receipt_args else None
     cov = coverage(files)
+    version = version or tree_version(tree)
+    app, baked, refs = app_inventory(files, tree, version)
 
     bundles = {}
     for name in BUNDLES:
         f = tree / name
-        bundles[name] = ({"sha256": sha256(f), "bytes": f.stat().st_size}
-                         if f.exists() else None)
+        if not f.exists():
+            bundles[name] = None
+            continue
+        body = f.read_bytes()
+        listed = name in VERSIONED_BUNDLES
+        refs[name] = (*version_refs(body, version), listed)
+        if listed:
+            bundles[name], baked[name] = versioned_row(VERSIONED_BUNDLES[name], body, version, True)
+        else:
+            bundles[name] = {"sha256": sha256(f), "bytes": f.stat().st_size}
 
     bundle_tokens: dict[str, dict] = {}
     for name, toks in BUNDLE_TOKENS.items():
@@ -153,13 +451,21 @@ def capture(jobs: int, tree: Path = None) -> dict:
             by_dir.get(rel.split("/")[0] if "/" in rel else "<root>", 0) + 1
 
     return {
-        "_meta": {"format": FORMAT},
+        "_meta": {"format": FORMAT, "capture_tree": str(tree.resolve()),
+                  **({'content_provenance': receipt} if receipt else {})},
         "bundles": bundles,
+        "app_assets": app,
+        # Checked by check_app_version / check_version_refs, never committed: a baked version in the
+        # baseline would be exactly the per-bump churn format 4 exists to remove.
+        "_app_baked": baked,
+        "_version_refs": refs,
+        "_version": version,
         "bundle_tokens": bundle_tokens,
         "census": {k: cov.get(k, 0) for k in CENSUS_KEYS},
         "zeros": {k: cov.get(k, 0) for k in ZEROS},
         "markers": cov.get("markers", {}),
-        "distinct_values": cov.get("distinct_values", {}),
+        "distinct_values": {k: v for k, v in cov.get("distinct_values", {}).items()
+                            if k not in RETIRED_DATE_CARDINALITIES},
         "jsonld_types": cov.get("distinct_jsonld_types", {}),
         "meta_keys": cov.get("distinct_meta_keys", {}),
         "by_class": cov.get("by_class", {}),
@@ -168,15 +474,13 @@ def capture(jobs: int, tree: Path = None) -> dict:
 
 
 def check_floors(cur: dict) -> list[str]:
-    problems = []
+    problems = check_app_assets(cur, "candidate")
     for k, floor in FLOORS.items():
         got = cur["census"].get(k, 0)
         if got < floor:
             problems.append(
                 f"TIER 0: {k} = {got:,} is below the absolute floor {floor:,}. "
-                f"This build did not emit a whole site (or the walk stopped seeing it). "
-                f"No other gate in this repo reports this: check_payload_budget.py never "
-                f"compares its html_file_count, and check_seo_parity.py samples 10 routes.")
+                f"This build did not emit a whole site (or the walk stopped seeing it).")
     for k in ZEROS:
         got = cur["zeros"].get(k, 0)
         if got:
@@ -185,7 +489,22 @@ def check_floors(cur: dict) -> list[str]:
 
 
 def check_census(base: dict, cur: dict) -> list[str]:
-    problems = []
+    problems = check_baseline(base) + check_app_assets(cur, "candidate")
+    if not problems:
+        b_app, c_app = base["app_assets"], cur["app_assets"]
+        if b_app["count"] != c_app["count"]:
+            problems.append(f"app asset count: {b_app['count']} -> {c_app['count']}")
+        for name in sorted(set(b_app["files"]) | set(c_app["files"])):
+            b, c = b_app["files"].get(name), c_app["files"].get(name)
+            if b == c:
+                continue
+            if b is None:
+                problems.append(f"app asset {name}: ADDED ({c['bytes']:,} B; sha {c['sha256']})")
+            elif c is None:
+                problems.append(f"app asset {name}: REMOVED ({b['bytes']:,} B; sha {b['sha256']})")
+            else:
+                problems.append(f"app asset {name}: CHANGED — {b['bytes']:,} -> {c['bytes']:,} B; "
+                                f"sha {b['sha256']} -> {c['sha256']}")
     for name in BUNDLES:
         b, c = base["bundles"].get(name), cur["bundles"].get(name)
         if b == c:
@@ -218,12 +537,11 @@ def check_census(base: dict, cur: dict) -> list[str]:
             problems.append(f"marker {k}: on {bv:,} pages -> {cv:,} ({cv - bv:+,})")
 
     for k in sorted(set(base.get("distinct_values", {})) | set(cur.get("distinct_values", {}))):
+        if k in RETIRED_DATE_CARDINALITIES:
+            continue  # check_baseline rejects restoration; never compare these numbers.
         bv, cv = base.get("distinct_values", {}).get(k, 0), cur.get("distinct_values", {}).get(k, 0)
         if bv != cv:
-            extra = ("  <-- a COLLAPSE here means the field stopped varying; for "
-                     "article:modified_time that is the git-date lookup falling back to "
-                     "filesystem mtime" if cv < bv else "")
-            problems.append(f"distinct values of {k}: {bv:,} -> {cv:,}{extra}")
+            problems.append(f"distinct values of {k}: {bv:,} -> {cv:,}")
 
     for label, key in (("jsonld @type", "jsonld_types"), ("meta key", "meta_keys"),
                        ("file class", "by_class"), ("top-level dir", "by_dir")):
@@ -234,24 +552,171 @@ def check_census(base: dict, cur: dict) -> list[str]:
     return problems
 
 
+NOTE = (
+    "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a "
+    "guarded capture's receipt) whenever the emit legitimately changes (content edits move "
+    "article_links and the @type histogram), or with --update-app-assets when only "
+    "static/neural/app/** moved, and say in the commit message what moved and why. This is the "
+    "cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an "
+    "external golden snapshot.")
+
+
+def git(root: Path, *args: str) -> str:
+    return subprocess.run(("git", "-C", str(root), *args), check=True,
+                          capture_output=True, text=True).stdout
+
+
+def update_app_assets(baseline: Path, root: Path = ROOT, build: tuple = APP_BUILD) -> dict:
+    """--update-app-assets: regenerate the app data and bundles from a porcelain-clean tree and
+    rewrite ONLY app_assets, _meta.app_provenance, _meta.format and _note. It is heavy (the MDP
+    step), so run it under the build lock. See the module docstring."""
+    try:
+        base = json.loads(baseline.read_text())
+    except (OSError, ValueError) as e:
+        sys.exit(f"ERROR: cannot read baseline {baseline}: {e}")
+    fmt = base.get("_meta", {}).get("format") if isinstance(base, dict) else None
+    if fmt != FORMAT:  # 4 -> 5 changed a BUNDLE row's meaning, which only the guarded --update may re-seed
+        sys.exit(f"ERROR: baseline format {fmt!r}; --update-app-assets reads format {FORMAT} only "
+                 "(migrate with the guarded --update --content-receipt)")
+
+    def dirty() -> str:
+        return git(root, "status", "--porcelain=v1", "--untracked-files=all").strip()
+
+    if d := dirty():
+        sys.exit("ERROR: --update-app-assets refuses: the tree is not clean committed bytes, and since "
+                 "PR #231 the bundles embed content-derived data, so no commit could reproduce these "
+                 f"rows:\n{d}")
+    head = git(root, "rev-parse", "HEAD").strip()
+    dist = root / "neural" / "dist"
+    shutil.rmtree(dist, ignore_errors=True)  # a leftover file from an older build is not this build's
+    subprocess.run(build, cwd=root, check=True)
+    if d := dirty():
+        sys.exit(f"ERROR: the regeneration modified tracked files (stale generated output committed?):\n{d}")
+    built = sorted(p for p in dist.rglob("*") if p.is_file()) if dist.is_dir() else []
+    if not built:
+        sys.exit(f"ERROR: the bundle build wrote nothing under {dist}")
+
+    version = package_version(root)
+    rows, baked, raw, refs = {}, {}, {}, {}
+    for path in built:
+        name = APP_PREFIX + path.relative_to(dist).as_posix()
+        body = path.read_bytes()
+        rows[name], versions = app_row(name, body, version)
+        raw[name] = hashlib.sha256(body).hexdigest()
+        refs[name] = (*version_refs(body, version), name in VERSIONED_APP_ASSETS)
+        if VERSIONED_APP_ASSETS.get(name) is not None:
+            baked[name] = versions
+    problems = check_app_version(baked, version) + check_version_refs(refs, version)
+    # An ANCHORED file is the app's own (neural.js) and must be built; an unanchored listed file (a
+    # deferred bundle) is checked only when present.
+    problems += [f"app asset {n}: the bundle build did not produce it" for n, pat in VERSIONED_APP_ASSETS.items()
+                 if pat is not None and n not in baked]
+    esbuild = root / "source" / "node_modules" / "esbuild" / "package.json"
+    new = json.loads(json.dumps(base))
+    new["app_assets"] = {"count": len(rows), "files": rows}
+    new["_meta"] = {**base["_meta"], "format": FORMAT, "app_provenance": {
+        "schema": "app-assets-rebuild-v2", "git_head": head, "package_version": version,
+        "inputs": {"tree": git(root, "rev-parse", "HEAD^{tree}").strip()},
+        "esbuild": json.loads(esbuild.read_text())["version"] if esbuild.is_file() else None,
+        "command": " ".join(build), "rows_from": "neural/dist"}}
+    new["_note"] = NOTE
+    problems += check_baseline(new)
+    if problems:
+        print("\n✗ APP ROWS NOT RE-SEEDED:")
+        for p in problems:
+            print("  -", p)
+        sys.exit(1)
+
+    old = base.get("app_assets", {}).get("files", {})
+    for name in sorted(set(old) | set(rows)):
+        o, n = old.get(name), rows.get(name)
+        if o == n:
+            state = "unchanged"
+        elif o is None or n is None:
+            state = "ADDED" if o is None else "REMOVED"
+        elif "version_token" not in o and o.get("sha256") == raw.get(name):
+            state = "same bytes as the format-3 row, re-expressed version-normalised"
+        else:
+            state = f"CHANGED {o['bytes']:,} -> {n['bytes']:,} B"
+        print(f"  {name}: {state}")
+    baseline.write_text(json.dumps(new, indent=1, sort_keys=True) + "\n")
+    print(f"✓ {len(rows)} app rows re-seeded -> {baseline} from a rebuild at HEAD {head[:12]} "
+          f"(version {version}); census, bundles and the content receipt untouched")
+    return new
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--update", action="store_true", help="(re)seed the committed census")
-    ap.add_argument("--floors-only", action="store_true",
-                    help="Tier 0 only; needs no baseline")
+    modes = ap.add_mutually_exclusive_group()
+    modes.add_argument("--update", action="store_true", help="(re)seed the committed census")
+    modes.add_argument("--floors-only", action="store_true",
+                       help="Tier 0 only; needs no baseline")
+    modes.add_argument("--check-baseline", action="store_true",
+                       help="validate baseline format/app inventory/retired rows only; no tree walk")
+    modes.add_argument("--update-app-assets", action="store_true",
+                       help="re-seed ONLY the app rows from a fresh neural/dist build of clean "
+                            "committed inputs; census rows and their receipt are untouched")
+    ap.add_argument("--baseline", type=Path, default=BASELINE,
+                    help="baseline to check or update (default committed census)")
     ap.add_argument("--jobs", type=int, default=min(8, (os.cpu_count() or 4)))
     ap.add_argument("--tree", help="emit directory to inspect (default source/public); "
                                    "use it to gate a snapshot rather than the live tree")
+    add_arguments(ap, capture=True)
     a = ap.parse_args()
+    if (a.update or a.update_app_assets) and a.artifact_only:
+        raise ProvenanceError('--artifact-only cannot authorize a baseline update')
+    if a.update_app_assets:
+        update_app_assets(a.baseline)
+        return
 
-    cur = capture(a.jobs, Path(a.tree) if a.tree else None)
+    base = None
+    if not a.update and not a.floors_only:
+        try:
+            base = json.loads(a.baseline.read_text())
+        except (OSError, ValueError) as e:
+            sys.exit(f"ERROR: cannot read baseline {a.baseline}: {e}")
+        invalid = check_baseline(base)
+        if invalid:
+            for problem in invalid:
+                print("FAIL baseline:", problem)
+            sys.exit(1)
+        print(f"baseline contract: format={FORMAT}, app covered_files={base['app_assets']['count']}, "
+              f"retired_date_keys_absent={len(RETIRED_DATE_CARDINALITIES)}")
+        prov = base["_meta"].get("app_provenance")
+        print("app rows provenance: " + (
+            f"rebuilt by --update-app-assets at {prov['git_head'][:12]} (version {prov['package_version']})"
+            if prov else "the content receipt's capture (--update)"))
+        if a.check_baseline:
+            print("PASS baseline contract only; built_tree_files_scanned=0 (not site parity)")
+            return
+
+    guard = ContentGuard(base, a, 'committed census') if base is not None else None
+    if a.update and not a.content_receipt:
+        raise ProvenanceError('--update requires the actual completed build receipt, never fingerprint-time HEAD')
+    cur = capture(a.jobs, Path(a.tree) if a.tree else None, receipt_args=a if a.update else None,
+                  version=None if a.artifact_only else package_version())
     c = cur["census"]
     print(f"emit: {c['files']:,} files · {c['html_pages']:,} pages · "
           f"{c['jsonld_blocks']:,} JSON-LD blocks · {c['article_links']:,} in-article links "
           f"· {c['static_files']:,} static files")
+    print(f"app assets: covered_files={cur['app_assets']['count']} "
+          f"under {APP_PREFIX} (recursive names + bytes + SHA-256)")
+    print("  UNASSERTED BY THIS CENSUS: date spread for article:published_time and "
+          "article:modified_time; exact timestamp cardinality retired. "
+          "scripts/check_publication_dates.py owns spread; meta presence is still counted here.")
 
-    floors = check_floors(cur)
+    expected = None if a.artifact_only else package_version()
+    floors = (check_floors(cur) + check_app_version(cur["_app_baked"], expected)
+              + check_version_refs(cur["_version_refs"], cur["_version"]))
+    listed = sorted(n for n, (_, _, is_listed) in cur["_version_refs"].items() if is_listed)
+    print(f"version value {cur['_version']!r}: normalised in {len(listed)} listed file(s) "
+          + ", ".join(f"{n.rsplit('/', 1)[-1]}x{cur['_version_refs'][n][0]}" for n in listed)
+          + f"; asserted absent from the other {len(cur['_version_refs']) - len(listed)} fingerprinted file(s)")
+    for name, got in sorted(cur["_app_baked"].items()):
+        print(f"version literal: {name} carries {', '.join(got) or 'NOTHING'}; package.json "
+              + (f"{expected} (asserted equal)" if expected else "NOT asserted (--artifact-only)")
+              + "; normalised out of its hash")
     if floors:
         print("\n✗ BUILD SHAPE REJECTED:")
         for p in floors:
@@ -263,31 +728,22 @@ def main() -> None:
         return
 
     if a.update:
-        BASELINE.parent.mkdir(parents=True, exist_ok=True)
-        cur["_note"] = (
-            "Committed census for scripts/check_build_fingerprint.py. Re-seed with "
-            "--update whenever the emit legitimately changes (content edits move "
-            "article_links and the @type histogram), and say in the commit message what "
-            "moved and why. This is the cheap shape gate; per-page byte/field comparison "
-            "is scripts/emit_diff.py against an external golden snapshot.")
-        BASELINE.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
-        print(f"\n✓ census captured -> {BASELINE} "
-              f"({BASELINE.stat().st_size:,} B)")
+        ContentGuard(cur, a, 'updated census').finish()
+        a.baseline.parent.mkdir(parents=True, exist_ok=True)
+        for k in ("_app_baked", "_version_refs", "_version"):
+            cur.pop(k)
+        cur["_note"] = NOTE
+        a.baseline.write_text(json.dumps(cur, indent=1, sort_keys=True) + "\n")
+        print(f"\n✓ census captured -> {a.baseline} "
+              f"({a.baseline.stat().st_size:,} B)")
         for name in BUNDLES:
             b = cur["bundles"][name]
             if b:
                 print(f"    {name}: {b['bytes']:,} B  {b['sha256'][:12]}")
         return
 
-    if not BASELINE.exists():
-        sys.exit(f"ERROR: no baseline at {BASELINE}; run --update first "
-                 f"(or --floors-only to check Tier 0 alone)")
-    base = json.loads(BASELINE.read_text())
-    if base.get("_meta", {}).get("format") != FORMAT:
-        sys.exit(f"ERROR: baseline format {base.get('_meta', {}).get('format')} != {FORMAT}; "
-                 f"re-run --update")
-
     problems = check_census(base, cur)
+    guard.finish()
     if problems:
         print(f"\n✗ BUILD CENSUS CHANGED ({len(problems)} difference(s)):")
         for p in problems[:80]:
@@ -302,7 +758,8 @@ def main() -> None:
     print(f"✓ build fingerprint OK — census equal on {len(CENSUS_KEYS)} counts, "
           f"{len(cur['markers'])} structural markers, "
           f"{len(cur['jsonld_types'])} JSON-LD @types, {len(cur['by_dir'])} top-level dirs, "
-          f"and {len(BUNDLES)} bundles byte-for-byte")
+          f"{len(BUNDLES)} root bundles and {cur['app_assets']['count']} named app assets "
+          f"byte-for-byte")
 
 
 # ---------------------------------------------------------------------------
@@ -316,4 +773,8 @@ def main() -> None:
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)

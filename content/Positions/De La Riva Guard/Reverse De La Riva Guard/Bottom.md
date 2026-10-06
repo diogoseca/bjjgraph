@@ -21,7 +21,7 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,13 +33,13 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Reverse De La Riva Recovery",
-      "text": "From this position, attempt Reverse De La Riva Recovery. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Reverse De La Riva Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -431,9 +431,9 @@ From established Reverse De La Riva position, practice elevating and rotating hi
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Choosing a Foundation</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Branches</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Guard Changes: A Study Map</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Understanding Guard Changes</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dante-Leon-Reverse-De-La-Riva-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon: No-Gi Reverse De La Riva</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Dante-Leon-Wrestling-Up-From-Guard-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-wrestling-up-from-guard-system" data-system-name="Dante Leon Wrestling Up From Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon: Wrestling Up From Guard</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 <a class="system-card" href="/Systems/Lachlan-Giles-K-Guard-System" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-k-guard-system" data-system-name="Lachlan Giles K-Guard System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: K-Guard Entries and Offense</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Reverse De La Riva Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>

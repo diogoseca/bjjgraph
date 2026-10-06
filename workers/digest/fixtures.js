@@ -27,10 +27,10 @@ export const FIXTURES = [
   {
     id: "first-day",
     label: "First day",
-    note: "One card, one technique, no history: no delta, no streak line, no weak spots, no ETA in days. The most common email a new opt-in will ever see, and the one most likely to read badly.",
+    note: "One card, one technique, no history: no delta, no streak line, no weak spots, a white belt with nothing proven yet. The most common email a new opt-in will ever see, and the one most likely to read badly.",
     digest: {
       count: 1, techniques: ["Mount|Top"], score: 2.4, delta: null,
-      eta: { belt: "white", days: null }, streak: 1, weakTop: [], clip: null, unsubUrl: UNSUB,
+      belt: { worn: "white", next: "blue", done: 0, total: 6 }, streak: 1, weakTop: [], clip: null, unsubUrl: UNSUB,
     },
   },
   {
@@ -39,7 +39,7 @@ export const FIXTURES = [
     note: "The case the copy was written for — a handful of techniques, a positive delta, a weak spot with an attributed video, and a second spot for the road.",
     digest: {
       count: 24, techniques: SOME.slice(0, 6), score: 41.5, delta: 1.8,
-      eta: { belt: "purple", days: 63 }, streak: 4,
+      belt: { worn: "blue", next: "purple", done: 4, total: 6 }, streak: 4,
       weakTop: ["Berimbolo|Attacker", "De La Riva Guard|Bottom"],
       clip: { id: "dQw4w9WgXcQ", title: "Berimbolo entries from DLR", who: "Mikey Musumeci", dur: "412s" },
       unsubUrl: UNSUB,
@@ -51,7 +51,7 @@ export const FIXTURES = [
     note: "60 days in a row and a NEGATIVE delta. Proves the delta colour flips and that a long streak reads well beside bad news — the two are rendered independently and had never been seen together.",
     digest: {
       count: 96, techniques: SOME.slice(0, 9), score: 68.2, delta: -0.7,
-      eta: { belt: "brown", days: 21 }, streak: 60,
+      belt: { worn: "brown", next: "black", done: 2, total: 6 }, streak: 60,
       weakTop: ["Leg Drag|Attacker"], clip: null, unsubUrl: UNSUB,
     },
   },
@@ -61,7 +61,7 @@ export const FIXTURES = [
     note: "The magazine section degrades to text when the public content chunk carries no clip. Common — most deck keys have none.",
     digest: {
       count: 31, techniques: SOME.slice(0, 4), score: 55.0, delta: 0,
-      eta: { belt: "purple", days: 40 }, streak: 2,
+      belt: { worn: "purple", next: "brown", done: 3, total: 6 }, streak: 2,
       weakTop: ["Ezekiel Choke|Attacker", "Turtle|Bottom"], clip: null, unsubUrl: UNSUB,
     },
   },
@@ -71,27 +71,27 @@ export const FIXTURES = [
     note: "The list caps at ten and folds the rest. Checks the fold count is 30 and not 40, and that the headline still says forty.",
     digest: {
       count: 210, techniques: many(40), score: 72.9, delta: 3.1,
-      eta: { belt: "black", days: 118 }, streak: 12,
+      belt: { worn: "purple", next: "brown", done: 5, total: 6 }, streak: 12,
       weakTop: ["Worm Guard|Bottom"], clip: null, unsubUrl: UNSUB,
     },
   },
   {
     id: "black-belt",
-    label: "Past the last belt",
-    note: "Above the black threshold there is no next belt, so `beltEta` returns null and BOTH ETA lines must vanish. The one case where a missing block is correct rather than broken.",
+    label: "Black belt",
+    note: "The worn belt is black, so there is no next belt: the line names the belt and its proven units, never a 'Next belt'.",
     digest: {
       count: 44, techniques: SOME.slice(0, 7), score: 84.0, delta: 0.4,
-      eta: null, streak: 9,
+      belt: { worn: "black", next: null, done: 4, total: 6 }, streak: 9,
       weakTop: ["Gogoplata|Attacker"], clip: null, unsubUrl: UNSUB,
     },
   },
   {
-    id: "stalled",
-    label: "Stalled — belt named, no pace",
-    note: "Studying, but the score is not moving, so there is a next belt and no honest estimate of when. Renders the quieter 'Next stop' line instead of a promise it cannot keep.",
+    id: "no-belt-line",
+    label: "No belt line",
+    note: "The day was written by an app that predates the belt line (v1.211.0), or the line was malformed and refused: the email prints NO belt line — never one guessed from the score, which names no belt.",
     digest: {
       count: 18, techniques: SOME.slice(0, 3), score: 39.0, delta: 0,
-      eta: { belt: "blue", days: null }, streak: 3,
+      belt: null, streak: 3,
       weakTop: [], clip: null, unsubUrl: UNSUB,
     },
   },
@@ -101,7 +101,7 @@ export const FIXTURES = [
     note: "Ampersands, angle brackets and a quote in the places that reach an HTML ATTRIBUTE as well as text. This is the fixture that proves the escaper, and it is why `esc` now covers quotes.",
     digest: {
       count: 7, techniques: ['Ude-Garami <"Kimura"> & Americana|Attacker', "Guard & Pass|Top"],
-      score: 33.3, delta: -1.2, eta: { belt: "blue", days: 15 }, streak: 1,
+      score: 33.3, delta: -1.2, belt: { worn: "blue", next: "purple", done: 1, total: 6 }, streak: 1,
       weakTop: ['S-Mount & "High" Mount|Top'],
       clip: { id: 'abc"onerror=alert(1)', title: 'A "great" video & more', who: "<script>x</script>", dur: null },
       unsubUrl: UNSUB,
@@ -116,7 +116,7 @@ export const FIXTURES = [
       techniques: ["Mount|Top", "Kimura|Attacker"],
       score: "x</b><img src=x onerror=alert(1)>",
       delta: "0%\r\nBcc: x@y",
-      eta: { belt: "blue<u>", days: "15<b>" },
+      belt: { worn: "blue<u>", next: "purple<i>", done: "1<b>", total: "6</p>" },
       streak: 12,
       weakTop: [],
       clip: null,
@@ -139,6 +139,7 @@ export const FIXTURES = [
           s: " 41.5 ",
           k: ["Mount|Top", "<script>alert(1)</script>|Top", "A".repeat(500), "Kimura|Attacker", 7, null],
           w: [3, "thin", "Evil<b>|Top", "Guard|Bottom", "<img src=x onerror=1>|Bottom", "Mount|Top", "Half Guard|Bottom"],
+          b: ["<b>black</b>", "6\r\n", 6],
         },
         "2026-08-30<script>": { s: 99, k: ["Mount|Top"] },
         "1999-01-01": { s: "1e309", k: ["Mount|Top"] },

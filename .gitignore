@@ -90,6 +90,8 @@ scripts/list-claude-sessions.sh
 # Neural Graph front-end (neural-graph branch): generated data (built at deploy, like graph.json)
 # + local build/analysis working dir. The generator script (scripts/regenerate_neural_data.py) IS tracked.
 source/quartz/static/neural/
+# the build-internal full Systems library (scripts/_systems_demand.py SYSTEMS_SOURCE), never served
+source/quartz/.neural-internal/
 neural/dist/
 neural/build/.tmp/
 # raw Claude-Design dump is ignored; keep only the build inputs the bundle needs.

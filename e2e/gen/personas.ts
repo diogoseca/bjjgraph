@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { ngWireScoreWeights } from "../../neural/src/wire-keys.src.js";
 
 /**
  * PERSONAS — first-class seed builders for the L (lifecycle time-point) axis of the
@@ -22,12 +23,17 @@ export const CURRICULUM = JSON.parse(
   ),
 );
 
+/** graph-data.json's nodes: the ordinal-keyed score table (v1.204.3) is decoded against them. */
+const GRAPH_NODES = JSON.parse(
+  readFileSync(resolve(__dirname, "../../source/public/static/neural/graph-data.json"), "utf8"),
+).nodes;
+
 /**
- * The Game Knowledge weight table for one ruleset, expanded from the compact wire (v1.146.0:
- * `scoreWeightsByRuleset = {div, p:{k, gi, nogi}, t:{k, gi, nogi}}`, where every `t` name carries
- * both seats at the same value). Mirrors `scoreWeights(frame)` in app.src.jsx, including the rule
- * that a ZERO means "not attemptable in this ruleset" and is therefore absent, not
- * present-with-no-mass.
+ * The Game Knowledge weight table for one ruleset — expanded by `ngWireScoreWeights`, the SAME
+ * function the app's `scoreWeights(frame)` calls. This used to be a hand-kept copy of that
+ * expansion (CLAUDE.md §6.3: a second implementation agrees with the first by construction, and
+ * then with nobody when the wire moves — v1.204.3 re-keyed it by share ordinal). A ZERO means
+ * "not attemptable in this ruleset" and is therefore absent, not present-with-no-mass.
  *
  * THE FRAME MATTERS AND DEFAULTS THE WAY THE APP DOES (gi): 52 techniques are attemptable only in
  * gi and 16 only in no-gi, so the two frames do not span the same keys. A spec that reads the
@@ -35,17 +41,9 @@ export const CURRICULUM = JSON.parse(
  * red and -- far worse -- a `toBeUndefined` permanently green. Older shapes are read where found.
  */
 export function curriculumWeights(frame: "gi" | "nogi" = "gi"): Record<string, number> {
-  const br = CURRICULUM.scoreWeightsByRuleset;
-  const sw = br?.t?.[frame] ? br : CURRICULUM.scoreWeights;
-  if (!sw?.t) return CURRICULUM.weights ?? {}; // pre-v1.145.13 payload
-  const pv = sw.p[frame] ?? sw.p.v, tv = sw.t[frame] ?? sw.t.v;
-  if (!pv || !tv) return CURRICULUM.weights ?? {};
-  const out: Record<string, number> = {};
-  sw.p.k.forEach((k: string, i: number) => { if (pv[i]) out[k] = pv[i] / sw.div; });
-  sw.t.k.forEach((k: string, i: number) => {
-    if (tv[i]) out[`${k}|Attacker`] = out[`${k}|Defender`] = tv[i] / sw.div;
-  });
-  return out;
+  const dec = ngWireScoreWeights(CURRICULUM, frame, GRAPH_NODES);
+  if (dec.unresolved) throw new Error(`personas: ${dec.unresolved} score-table ordinal(s) name no node`);
+  return dec.w ?? {};
 }
 
 type Blob = Record<string, unknown>;

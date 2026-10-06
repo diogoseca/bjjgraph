@@ -45,6 +45,7 @@ test("live white.commit completion ticks; coin mints voice exactly once, mint-on
       const a = (window as any).__neural
       return {
         beats: a.beats.slice(s.b).map((x: any) => x.beat),
+        done: a.beats.slice(s.b).filter((x: any) => x.beat === "challenge_completed").map((x: any) => x.id),
         voices: a.sound.soundLog
           .slice(s.l)
           .map((x: any) => x.beat + ":" + x.patch),
@@ -67,12 +68,17 @@ test("live white.commit completion ticks; coin mints voice exactly once, mint-on
     }
   }
   const s0 = await snap()
-  await page.locator(`[data-tech="${chosen}"]`).first().click()
+  await page.locator(`[data-tech="${chosen}"]`).first().locator("[data-choice-inspect]").click()
   const dSheet = await delta(s0)
-  expect(count(dSheet.beats, "challenge_completed"), "white.sheet completed live").toBe(1)
+  // TWO OBJECTIVES SHARE THIS BEAT (v1.104.0 bb80a008c "The first-roll coach is deleted; its
+  // objectives now measure real actions"): white.coach2 "Preview a move" moved from the coach's
+  // Next press to `sheet_opened`, the same event as white.sheet — so the first sheet completes
+  // BOTH, and a bare challenge_completed count read 2. Pin white.sheet BY ID; the voice count
+  // stays 1, now over two same-instant beats, which is the 100ms same-beat dedupe at work.
+  expect(count(dSheet.done, "white.sheet"), "white.sheet completed live").toBe(1)
   expect(
     count(dSheet.voices, "challenge_completed:objective-tick"),
-    "unvoiced-trigger completion ticks (control)",
+    "unvoiced-trigger completion ticks (control) — exactly one tick for the same-instant burst",
   ).toBe(1)
 
   // clear both wall-clock windows so the next challenge_completed is dedupe-eligible

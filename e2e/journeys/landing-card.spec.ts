@@ -142,14 +142,14 @@ test("the sidebar reads back as classic recall — multiple choice is the in-rol
   expect(paneMc, "the study surface does not quiz you multiple-choice by default").toBe(false)
 })
 
-test("digits still open option sheets while a landing question is live", async ({ page }) => {
+test("shifted digits open option sheets while a landing question is live", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
   await expect(page.locator("[data-land-q]")).toBeVisible()
 
-  await page.keyboard.press("1")
-  await expect(page.locator("[data-go]"), "digit 1 opened the first option's sheet").toBeVisible()
+  await page.keyboard.press("Shift+Digit1")
+  await expect(page.locator("[data-go]"), "Shift+1 opened the first option's sheet").toBeVisible()
 })
 
 /** v1.175.0 (owner): "not even having a pill design, just having the text and the text being
@@ -422,7 +422,7 @@ test("@curated no clock before the first real interaction — then full pressure
   // a returning visitor gets the full-pressure window — same seam, marker present
   const vet = await page.evaluate(() => {
     const a: any = (window as any).__neural
-    try { localStorage.setItem("bjj-neural-firstroll", "1") } catch (e) {}
+    try { localStorage.setItem("bjj-neural-owner:guest:firstroll", "1") } catch (e) {}
     a._returning = null // re-derive the latched answer from the marker
     a._disarmLandClock()
     a._decision = { remaining: null, total: null, warned: 0, pick: null, opts: [] }

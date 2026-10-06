@@ -13,10 +13,10 @@
       "acts": false
     },
     "nogi": {
-      "excluded_positions": 18,
-      "excluded_techniques": 104,
-      "unreachable_positions": 18,
-      "unreachable_techniques": 104,
+      "excluded_positions": 22,
+      "excluded_techniques": 124,
+      "unreachable_positions": 22,
+      "unreachable_techniques": 124,
       "acts": true
     }
   },
@@ -29,6 +29,8 @@
       "positions": [
         "collar-sleeve-guard/bottom",
         "collar-sleeve-guard/top",
+        "double-sleeve-guard/bottom",
+        "double-sleeve-guard/top",
         "inverted-lasso-guard/bottom",
         "inverted-lasso-guard/top",
         "lapel-guard/bottom",
@@ -41,6 +43,8 @@
         "ringworm-guard/top",
         "russian-leg-lasso/bottom",
         "russian-leg-lasso/top",
+        "spider-guard/bottom",
+        "spider-guard/top",
         "squid-guard/bottom",
         "squid-guard/top",
         "worm-guard/bottom",
@@ -50,6 +54,10 @@
         {
           "id": "aoki-lock",
           "name": "Aoki Lock"
+        },
+        {
+          "id": "armbar-setup-from-double-sleeve",
+          "name": "Armbar Setup from Double Sleeve"
         },
         {
           "id": "backstep-around-worm-guard",
@@ -66,6 +74,10 @@
         {
           "id": "belly-down-armbar-from-lasso-guard",
           "name": "Belly Down Armbar from Lasso Guard"
+        },
+        {
+          "id": "belly-down-armbar-from-spider-guard",
+          "name": "Belly Down Armbar from Spider Guard"
         },
         {
           "id": "bow-and-arrow-choke-from-back-control",
@@ -140,6 +152,10 @@
           "name": "Collar Drag"
         },
         {
+          "id": "collar-drag-from-open-guard",
+          "name": "Collar Drag from Open Guard"
+        },
+        {
           "id": "collar-drag-from-worm-guard",
           "name": "Collar Drag from Worm Guard"
         },
@@ -192,8 +208,32 @@
           "name": "Distance Creation to Reset"
         },
         {
+          "id": "double-sleeve-sweep",
+          "name": "Double Sleeve Sweep"
+        },
+        {
+          "id": "double-sleeve-to-de-la-riva",
+          "name": "Double Sleeve to De La Riva"
+        },
+        {
           "id": "double-sleeve-to-lasso",
           "name": "Double Sleeve to Lasso"
+        },
+        {
+          "id": "double-sleeve-to-spider",
+          "name": "Double Sleeve to Spider"
+        },
+        {
+          "id": "double-sleeve-to-spider-guard",
+          "name": "Double Sleeve to Spider Guard"
+        },
+        {
+          "id": "guard-recovery-from-double-sleeve-guard",
+          "name": "Guard Recovery from Double Sleeve Guard"
+        },
+        {
+          "id": "guard-recovery-from-spider-guard",
+          "name": "Guard Recovery from Spider Guard"
         },
         {
           "id": "guard-recovery-from-squid-guard",
@@ -324,12 +364,20 @@
           "name": "Loop Choke from Turtle"
         },
         {
+          "id": "omoplata-from-double-sleeve-guard",
+          "name": "Omoplata from Double Sleeve Guard"
+        },
+        {
           "id": "omoplata-from-lasso",
           "name": "Omoplata from Lasso"
         },
         {
           "id": "omoplata-from-russian-leg-lasso",
           "name": "Omoplata from Russian Leg Lasso"
+        },
+        {
+          "id": "omoplata-from-spider-guard",
+          "name": "Omoplata from Spider Guard"
         },
         {
           "id": "open-guard-to-collar-sleeve-guard",
@@ -346,6 +394,10 @@
         {
           "id": "pass-collar-sleeve-guard",
           "name": "Pass Collar Sleeve Guard"
+        },
+        {
+          "id": "pass-double-sleeve-guard",
+          "name": "Pass Double Sleeve Guard"
         },
         {
           "id": "pass-inverted-lasso-guard",
@@ -408,6 +460,18 @@
           "name": "Smash Pass Counter"
         },
         {
+          "id": "spider-guard-pass",
+          "name": "Spider Guard Pass"
+        },
+        {
+          "id": "spider-guard-to-omoplata",
+          "name": "Spider Guard to Omoplata"
+        },
+        {
+          "id": "spider-sweep",
+          "name": "Spider Sweep"
+        },
+        {
           "id": "spider-to-lasso-guard",
           "name": "Spider to Lasso Guard"
         },
@@ -426,6 +490,10 @@
         {
           "id": "stack-from-inverted-lasso",
           "name": "Stack from Inverted Lasso"
+        },
+        {
+          "id": "stack-pass-from-spider",
+          "name": "Stack Pass from Spider"
         },
         {
           "id": "stack-pass-over-lapel-barrier",
@@ -450,6 +518,22 @@
         {
           "id": "strip-russian-leg-lasso",
           "name": "Strip Russian Leg Lasso"
+        },
+        {
+          "id": "toreando-from-double-sleeve",
+          "name": "Toreando from Double Sleeve"
+        },
+        {
+          "id": "triangle-choke-from-spider-guard",
+          "name": "Triangle Choke from Spider Guard"
+        },
+        {
+          "id": "triangle-from-spider-guard",
+          "name": "Triangle from Spider Guard"
+        },
+        {
+          "id": "tripod-sweep",
+          "name": "Tripod Sweep"
         },
         {
           "id": "worm-guard-entry",

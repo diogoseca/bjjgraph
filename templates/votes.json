@@ -2093,6 +2093,24 @@
           "success_rate": 58.0,
           "vote_count": 30
         }
+      },
+      "prior": {
+        "gi": {
+          "success_rate": 52,
+          "pseudo_count": 8,
+          "extrapolated": false
+        },
+        "nogi": {
+          "success_rate": 43,
+          "pseudo_count": 8,
+          "extrapolated": false
+        },
+        "provenance": {
+          "source": "origin-coherence-p2",
+          "run_id": "calibration/listing_tables.json",
+          "reviewed": false,
+          "override": true
+        }
       }
     },
     "Banana Split": {
@@ -5048,20 +5066,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 41,
+          "success_rate": 36,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 41,
+          "success_rate": 40,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "origin-coherence-p2",
+          "run_id": "calibration/listing_tables.json",
           "reviewed": false,
-          "override": false
+          "override": true
         }
       }
     },
@@ -11474,20 +11492,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 29,
+          "success_rate": 36,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "nogi": {
-          "success_rate": 25,
+          "success_rate": 33,
           "pseudo_count": 8,
-          "extrapolated": true
+          "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
+          "source": "origin-coherence-p2",
+          "run_id": "calibration/listing_tables.json",
+          "reviewed": false,
+          "override": true
         }
       }
     },
@@ -19184,20 +19202,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 32,
+          "success_rate": 41,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 32,
+          "success_rate": 38,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
-          "reviewed": true,
-          "override": false
+          "source": "origin-coherence-p2",
+          "run_id": "calibration/listing_tables.json",
+          "reviewed": false,
+          "override": true
         }
       }
     },
@@ -19358,20 +19376,20 @@
       },
       "prior": {
         "gi": {
-          "success_rate": 42,
+          "success_rate": 41,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "nogi": {
-          "success_rate": 42,
+          "success_rate": 41,
           "pseudo_count": 8,
           "extrapolated": false
         },
         "provenance": {
-          "source": "calibrate+review",
-          "run_id": "2026-07-07T17:37:32.832419Z",
+          "source": "origin-coherence-p2",
+          "run_id": "calibration/listing_tables.json",
           "reviewed": false,
-          "override": false
+          "override": true
         }
       }
     },

@@ -19,6 +19,7 @@ It is deliberately **not**:
 | the data pipeline in depth | `docs/Architecture.md` |
 | the full content standards | `docs/Content.md` |
 | schema markup, keywords, analytics | `docs/SEO.md` |
+| what the map MEANS: the Markov kernel, territories, committors, names | `docs/GraphSemantics.md` |
 | an API reference for `neural/src/app.src.jsx` | the code, which carries ~400k chars of comments |
 
 **The admission test.** A line belongs here if *a reader could break something by not knowing it,
@@ -261,7 +262,7 @@ lists files needing fixes · `regenerate:json` the costly Claude pass (600s inte
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite (:8133) · `test:curated` the `@curated` deployment gate (20-min
+**Test** — `test` full core suite (:8133) · `test:curated` the `@curated` deployment gate (30-min
 ceiling) · `test:units` pure node --test · `e2e:share` (:8129) · `e2e:replay` (:8151) ·
 `e2e:gen` generated suite (:8127) · `e2e:quarantine` known-red · `e2e:observe` watchable CDP ·
 `npm run e2e -- --headed` for a visible browser. `pree2e` and both `test*` scripts run
@@ -318,7 +319,7 @@ On demand: one deck's cards, one node's dossier, `systems.json`, `concepts.json`
 (the Principles + Learning index — each concept's readable body is a dossier in the SAME
 `content/` chunk space, keyed `<Name>|Principle`). **`_cardsOf(d)` is the only legal
 way to read cards — a manifest stub is truthy.** The manifest's `n` is load-bearing: `deckMastery`
-computes from it when cards are absent, so dropping it shows every user a white belt.
+computes from it when cards are absent, so dropping it zeroes every user's knowledge.
 
 **Pane law.** The pane is **manual-only** — nothing in the roll loop opens or closes it. **Open =
 the game stops; close = it resumes, but only if the pane is what stopped it** (latched in
@@ -334,18 +335,20 @@ rather than from the payload is deliberate, because the payload is deferred and 
 race. Pinned by `e2e/journeys/concepts-surface.spec.ts` (both halves — an arrival that starts
 nothing, and a member row that starts a roll).
 
-**The hand.** `optionsFor` deals every legal move (uncapped), ranked by **EDGE**, and the order is
-**frozen at deal time** — a mid-decision grade moves the printed numbers but must never re-sort a
-tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
+**The hand.** `optionsFor` deals every legal move (uncapped) ranked by **EDGE**, sorted ONCE by
+**Win chance** (Neural.md §4) if untouched, else **frozen**: a grade moves
+the numbers but must never re-sort a tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
 `decisionSec` arms when a question mounts and expiry reveals the answer as a miss
 (`_expireLandQ`) while the hand stays live, untimed;
 deck warm-up is capped at `NG_PREFETCH_CAP`.
 
-**EDGE** = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
-where you stand, counting where a miss leaves you. `0` is normal, not "no value". **Two honesty
-gaps, one still open:** the shipped `opponentDefend` picks from hub adjacency with no role or origin
-filter, so only ~12% of what it may play is a move the model's opponent would consider — EDGE
-describes a better-behaved opponent than the one you face. Say so in any copy explaining EDGE.
+**EDGE** (not printed) = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
+where you stand, counting where a miss leaves you. `0` is normal, not "no value". **The honesty
+gap is the opponent's POLICY:** since v1.176.0 `opponentDefend` draws from `optionsFor` (role- and
+origin-filtered) but never reads attempt shares — it finishes w.p. clamp(0.34 + 0.55·adv), else
+picks among the top 3 by landing value — and resists your odds (aiMod). From standing (no-gi,
+shipped rule) P(I finish) is 0.34 against the corpus's 0.72 (`scripts/semantics/app_game.py`). EDGE
+describes the corpus's opponent, not the one you face. Say so in any copy explaining EDGE.
 
 **The pair.** Every state draws as two orbs (merged → mitosis → split, gated by `kLOD`). It is
 **derived at ingest** (`_deriveDualPairs`), costs zero wire bytes, and is UNCONDITIONAL — the
@@ -369,12 +372,12 @@ deliberate screen must portal to the app root. Esc walks the ladder top-down, pa
 | docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
 | the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; More is a separate scroll surface subordinate to the card layer |
 | node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
-| starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `stageRollAt` |
+| starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `_seatMember` · `stageRollAt` |
 | the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
 | outcomes | `drawOutcome` · `resolve` · `opponentDefend` · `momentumSkew` |
 | roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
 | naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or an own/family alias) · `nodeMatches` (all aliases; `_ensureAliases` defers the index) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
-| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` |
+| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` · `ngWireDecks` · `ngWireScoreWeights` (the ordinal-keyed manifest + score wire) |
 | lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
 | a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
 | persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
@@ -537,7 +540,7 @@ symbol to every version that touched it.
 - **A fallback that produces a plausible value and never says it fired is strictly worse than a crash — it buys months of silence.** A missing `cal` made `calSuccess()` return null and `moveChance` fall through to `0.36 + dom*0.1`, so **~289 of 1,204 dealt cards printed a fabricated ~45.6% where authored rates span 10–74%**; `posId`-vs-slug left 54 of 136 positions running entirely on the no-candidates fallback; `posIdx` fell back to the technique itself and staged 1,331 of 2,934 nodes ON a technique node. **Do:** every fallback emits a NAMED beat or a counter (`mc_pool_cold`, `land_warm_stalled` are the pattern), and it is CHOSEN before any rng draw so the draw count cannot depend on content.
   <br>_(8)_
 
-- **`cal.avail` · `frame_reachable` — RULESET AVAILABILITY IS A REACHABILITY PROPERTY, NOT AN EDGE PROPERTY.** "Is this move attempted anywhere in frame F" is a question about one edge and cannot see the case that matters: a technique whose only origin is a state F never produces. `Worm Guard/Bottom` deals a full, honest no-gi hand (X-Guard Sweep 33, Omoplata 21) — conditional on standing in a guard entered by threading the opponent's lapel through their own legs, which no no-gi edge does. Measured: the edge question calls 52 techniques gi-only; the walk from `standing-position` calls **104 techniques and 18 position role-nodes** absent in no-gi.
+- **`cal.avail` · `frame_reachable` — RULESET AVAILABILITY IS A REACHABILITY PROPERTY, NOT AN EDGE PROPERTY.** "Is this move attempted anywhere in frame F" is a question about one edge and cannot see the case that matters: a technique whose only origin is a state F never produces. `Worm Guard/Bottom` deals a full, honest no-gi hand (X-Guard Sweep 33, Omoplata 21) — conditional on standing in a guard entered by threading the opponent's lapel through their own legs, which no no-gi edge does. Measured: the edge question calls 52 techniques gi-only; the walk from `standing-position` calls **124 techniques and 22 position role-nodes** absent in no-gi.
   **THE WALK REPORTS BOTH FRAMES; THE LAYER ACTS ON ONE.** `EXCLUDING_FRAMES` is `("nogi",)`. The gi column the walk finds — 21 techniques, all heel-hook family — is IBJJF LEGALITY, not equipment, and acting on it is not safe today: `backside-50-50/bottom` has exactly ONE gi move surviving `optionsFor`'s role AND origin filters, so removing it empties the main pass into the ORIGIN-RELAXED fallback — cards from other origins carrying no `ord` and no `ordOdds`. **`graph.json` cannot see that coming**: its per-frame sums apply neither role nor origin, so it reports the state healthy. An empty-hand check cannot see it either, because the fallback returns cards — test for `ord === undefined`.
   **Do:** derive availability with `frame_reachable` (`scripts/regenerate_neural_data.py`), filter at the READER via `rsAllows` — never inside `adj`, which is per-SITE and role-blind by design — and never from a NAME (ruling P3a: a name sweep kills `Rear Naked Choke from Invisible Collar`, the canonical no-gi choke, because the POSITION is named "Collar"). Two numbers now both mean "availability" and are different sets: `cal.avail` is the walk; `docs/Neural.md`'s score-weight 52/16 is `_frame_positive`, the edge question, and is correct for what it measures.
   **AND THE SURFACE LIST WAS HAND-MAINTAINED FOR EXACTLY ONE VERSION.** v1.153.0 filtered the surfaces its author could enumerate; a four-lens sweep then found **38 more** a player could reach — the ESCAPE TRAY you pick from while caught, the drill queue built from a shared class, a URL arrival straight onto a gi-only technique's page, and all four node walks in `neural/src/flow.src.js`, the weak-spots engine, in a file the target-file sweep never opened. That is §6.7's hand-maintained-enumeration defect, and it landed within one commit. The list is now DERIVED by `validate:surfaces`; the guard belongs at the READER, never inside `adj`.
@@ -564,7 +567,7 @@ symbol to every version that touched it.
 - **DO NOT role-split `adj`.** `opponentDefend`, `_mcPool` and `_posIdx` walk `adj[currentPos]` with NO role filter, deliberately — they are asking about the EXCHANGE, not about your hand. A purely role-split adjacency handed the opponent YOUR hand, the belt-test opponent stopped finding submissions, and `content-capstone` went red. Each pair member therefore carries its SITE's technique set (link kind 2, one-way, never drawn). **Precise wording matters here:** the two members' `adj` are NOT byte-identical — measured 136 of 136 differ by exactly the pair tie, and order legitimately differs because a site link is pushed one-way. The design claim holds; a spec written against the retired "byte-for-byte, in the same order" phrasing goes red on a correct build.
   <br>_(1 (found by the suite, not by review) · _re-verify before quoting_)_
 
-- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
+- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`, `activeListId`, `lossAversion`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
   <br>_(8 across three storage layers)_
 
 - **`startPosTraffic` · `_posSlugIndex` — position traffic is keyed to the TOP MEMBER ONLY, so anything weighted by it scores ZERO for the entire bottom side.** `_posSlugIndex` maps a bare posId to the top member (`app.src.jsx`), while `resolveOutcomeTo` lands you on a bottom member on **2,071 of 3,842 outcome cells**. Measured on a bottom player who had drilled 90 bottom decks: **0 of 90 changed score**, and their "15 weakest spots" came back as fifteen guard-passing techniques — real names, ranked, entirely wrong. The obvious repair does not work either: **136 of 136 hubs give top and bottom IDENTICAL traffic**, so a hub lookup carries no side information at all.
@@ -589,7 +592,7 @@ symbol to every version that touched it.
 - **Never pipe the survey that decides a rename or a deletion through `head`.** The `auto_pick` retirement was scoped from a truncated grep showing the sound catalog, the app and ONE gen spec, so it looked cheap. The real list is **7 gen specs + 2 core journeys** (`announcer-coherence`, `jit-loop`), and the core one only surfaced when the full suite went red. **Do: `| wc -l` first, then read all of it.** Second form of the same trap: where the enumeration is HAND-MAINTAINED rather than derived, a new member is missing by default — `attachInput`'s overlay early-return list has no gate deriving it, and `.ng-seemore` was absent from it for its entire existence.
   <br>_(2)_
 
-- **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). The `e2e:gen` red baseline is worse: it exists ONLY as prose — `e2e/gen/ledger.json` holds 179 rows and **every one is `"status": "accepted"`**, and no config, script or workflow carries a known-red list — so "the same 13 names" was unfalsifiable across four versions and has since drifted to 14. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
+- **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). `e2e:gen`'s was prose only and drifted 13 → 40 reds unseen; its ledger is now read by the runner. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
   <br>_(3)_
 
 - **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still worked, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
@@ -680,11 +683,11 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `tests/artifacts/budget_site.json` | `validate:payload` | byte ratchet; `--update` reseeds it but can only ever TIGHTEN a `neural.*` ceiling |
 | `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight from a real browser: raw bytes, and the boot's chunk-request COUNT |
 | `tests/artifacts/payload_policy.json` | both of those | **the two gzip figures are SOFT** — over `target` warns and passes, over `action` fails, and any one change growing more than `delta_cap` fails whatever the absolute figure. Bands are hand-set; a baseline moves ONLY via `--accept-baseline <metric> --reason "…"`, never by itself (a self-advancing baseline is a delta check that never runs) |
-| `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved |
+| `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved. A version bump moves nothing (neural.js's baked version is normalised and asserted); a bundle-only change re-seeds with `validate:build-shape:app`, no capture |
 | `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
-| `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh` | one row per generated spec |
+| `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 | `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
 
@@ -692,8 +695,9 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 `reuseExistingServer:false`. A config that reuses another worktree's server tests *that worktree's*
 `source/public`, which makes any result from it unreportable.
 
-**The suite is expected green.** `e2e:gen` carries a known-red set; anything red that the ledger
-does not name is yours. Do not transcribe a red count from prose — re-derive it from a run.
+**The suite is expected green.** `e2e:gen` tolerates only reds its ledger names `known-red`; its
+reporter fails any other red, and a named one that passes. Do not transcribe a red count from
+prose — re-derive it from a run.
 
 **Mutation testing is the practice here.** A claim is not gated until a mutant of it turns a
 **named** spec red. A surviving mutant is a missing spec, not a passing build — record the non-kill
@@ -701,13 +705,14 @@ in the spec's own header so nobody later mistakes it for coverage. See §6.9.
 
 ### Automation
 
-Fifteen workflows. **Five of them load this file into a Claude action** — so its size and its
+Sixteen workflows. **Five of them load this file into a Claude action** — so its size and its
 content are inputs to what the bots write, and a change here changes their output.
 
 | workflow | trigger | what it does |
 |---|---|---|
 | `ci-validate.yml` | PR, push to dev | schemas, units, ordinals, MC viability, graph ratchet, **this file's budget + refs** |
-| `e2e-full.yml` | PR, weekly, manual | the full core Playwright suite, four shards |
+| `e2e-full.yml` | PR, weekly, manual | the core suite in four shards, plus `e2e:gen` vs its ledger |
+| `e2e-gen.yml` | weekly, manual | `e2e:gen` on **dev**, judged by its ledger |
 | `deploy.yaml` / `deploy-dev.yaml` | push | build, stamp deploy-time values, all gates, Cloudflare Pages, Lighthouse, IndexNow |
 | `content-improvement-bot.yml` † | Sat 18:00 UTC | improves 2 content files: select by git age → validate → Claude fills TODOs → revalidate (3 tries) → regenerate → PR |
 | `analytics-content-improvement.yml` † | Sun 06:00 UTC | PostHog-driven content work |

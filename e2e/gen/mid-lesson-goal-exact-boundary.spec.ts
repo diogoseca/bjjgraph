@@ -39,13 +39,18 @@ test("lesson_done fires exactly once, at exactly prep===goal", async ({ page }) 
   await j.expectBeat("challenges_opened") // once per life — asserted here and never again
 
   // pick the target IN-PAGE like the probe did: first candidate whose deck really has >= 3
-  // cards and prep 0 — app state is truth; the curriculum-derived list scopes the hunt
+  // cards and prep 0 — app state is truth; the curriculum-derived list scopes the hunt.
+  // RESIDENCY (v1.80.4, 1e054f47f "Chunk the payload"): a deck boots as a manifest STUB ({n},
+  // no `cards`) until something asks for it, so the old `deck.cards.length` threw a TypeError on
+  // the first cold candidate. Ask for the candidates through the real fill seam, then read cards
+  // through `_cardsOf` — the only legal accessor (CLAUDE.md §5). The scan itself is unchanged.
+  await j.hydrate(CANDIDATES)
   const target = await page.evaluate((cands) => {
     const a = (window as any).__neural
     for (const key of cands as string[]) {
-      const deck = a.flashcards?.decks?.[key]
-      if (deck && deck.cards.length >= 3 && !((a.prep && a.prep[key]) > 0)) {
-        return { key, deckSize: deck.cards.length, goal: a._deckGoal(key) }
+      const cards = a._cardsOf(a.flashcards?.decks?.[key])
+      if (cards && cards.length >= 3 && !((a.prep && a.prep[key]) > 0)) {
+        return { key, deckSize: cards.length, goal: a._deckGoal(key) }
       }
     }
     return null

@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"victory-defeat","B":"cross-feature"} @invariant "A gameplay loss for a White-capstone holder drains the ladder but never revokes the cleared capstone or corrupts Blue study progress: after a rigged defense-expiry loss, defeat_drain and ladder_down fire, yet belts.won[white] is intact and Blue units/lessons are unchanged from boot — capstone records and study progress are independent of roll outcomes." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"white-capstone-holder","F":"victory-defeat","B":"cross-feature"} @invariant "A gameplay loss for a White-capstone holder drains the ladder but never revokes the cleared capstone or corrupts Blue study progress: after a rigged failed-escape loss, defeat_drain and ladder_down fire, yet belts.won[white] is intact and Blue units/lessons are unchanged from boot — capstone records and study progress are independent of roll outcomes." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "./personas"
@@ -7,7 +7,7 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  * HOLDER GAMEPLAY LOSS != BELT/STUDY REVOCATION — the results<->career firewall.
  *
  * A white-belt HOLDER (belt already won, all 6 white units checkpointed) loses a LIVE roll by
- * defense-expiry. The loss must debit the opponent LADDER (rank -1, defeat_drain) and touch
+ * a failed escape. The loss must debit the opponent LADDER (rank -1, defeat_drain) and touch
  * NOTHING in the durable career record: belts.won[white] stays intact, and the whole
  * units/prep/rec study-progress map is byte-identical to boot — including that blue is still
  * ABSENT (a loss must not spawn spurious blue keys). The compatibility capstone record and study progress are functions
@@ -21,25 +21,43 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  * The novel axis here is: does a DEFEAT leave the earned belt + higher-tier (blue) study state
  * untouched? Structurally it must, but nothing in the accepted corpus pins it.
  *
- * Structural root cause (neural/src/app.src.jsx, source-verified at authoring):
- *   - endRound("lose") (:3813-3814) fires defeat_drain then ladderMove(-1) and mutates only
+ * Structural root cause (neural/src/app.src.jsx, re-verified 2026-10-01; cited by symbol — the
+ * :line numbers this header carried had drifted ~8,500-11,500 lines):
+ *   - `endRound("lose")` fires defeat_drain then ladderMove(-1) and mutates only
  *     _ladder.rank / rollLog / _lastOutcome / camera — NEVER belts.won or units.
- *   - The ONLY endRound branch that writes belts (:3789-3800) is guarded by `if (this._beltTest)`;
+ *   - The ONLY endRound branch that writes belts is guarded by `if (this._beltTest)`;
  *     a plain land("Mount Top") roll has no _beltTest, so that branch is skipped entirely. And
  *     even an internal capstone loss writes belts.attempts, it never revokes a cleared capstone.
- *   - _progressBlob() (:1114) serializes belts/units/prep/rec BY REFERENCE, so an untouched map
+ *   - `_progressBlob()` serializes belts/units/prep/rec BY REFERENCE, so an untouched map
  *     round-trips byte-identical — "unchanged from boot" == deep-equal of the whole map.
  *
- * LADDER FLOOR (probe-critical): rank floors at 1 (ladderMove: Math.max(1,...), :4132) and a
+ * LADDER FLOOR (probe-critical): rank floors at 1 (ladderMove: Math.max(1,...)) and a
  * fresh boot's rank IS 1, so a naive rank<rank0 check FAILS at the floor. PIN rank above the
  * floor first, in the ceiling-spec's order — call ladderState() FIRST (lazy-init _ladder), THEN
  * set _ladder.rank + the storage mirror; a bare storage write alone is ignored once _ladder
  * exists. After the loss rank1 === rank0-1 === 2 (a real, floor-clear -1).
  *
- * Determinism: every draw is rigged. land() covers the intro roll's ambient draws; the loss
- * recipe is verbatim from the green core (stakes-impact.spec.ts:157-169) + the returner swing
- * spec. No content-text assertions — the played option is optionTitles()[0] by position; belt
- * and unit IDs come from curriculum.json (belts[0].id / units[].id), never hardcoded strings.
+ * Determinism: every draw that can decide the exchange is rigged (resolve, outcome, opp-finish,
+ * opp-sub-pick, escape — each a one-deep queue, all consumed). The landing and panic MC
+ * pick/shuffle draws are not: no question is answered, so they cannot change the result.
+ * land() covers the intro roll's ambient draws; the loss
+ * recipe follows the green core stakes-impact.spec.ts ("defeat drains"). No content-text
+ * assertions — the played option is optionTitles()[0] by position; belt and unit IDs come from
+ * curriculum.json (belts[0].id / units[].id), never hardcoded strings.
+ *
+ * THE LOSS RECIPE MOVED TWICE (re-targeted 2026-10-01, gen-suite triage; the claim — a gameplay
+ * loss never touches the career record — is untouched, only how the loss is produced changed):
+ *   - v1.133.0 (e6f655a6a, "The clock moves to the question"): the escapes are UNTIMED; letting
+ *     the defense window expire no longer taps you out ("slow on the drill no longer loses the
+ *     round; only a failed escape does"). The loss is now a rigged FAILED escape (escape 0.99 >
+ *     the 0.92 escapeChance ceiling) → `finish` → endRound("lose"), as stakes-impact.spec.ts
+ *     does. The escape is taken after 800ms of sim time, well inside the drill's question clock,
+ *     so the drill never expires — its expiry WOULD write an SRS miss, which this spec is not
+ *     about (and the drill is never graded, so no prep/rec credit either).
+ *   - v1.176.0 (cdc35cefe, "Give submission states their own choices"): picking a SUBMISSION
+ *     card only ENTERS its state (no resolve draw — nothing fails, the opponent never moves).
+ *     Mount Top's EDGE-ranked hand leads with one today, so the rigged fail lands on its
+ *     "Finish" card, the second pick of the same title (core: restart-hygiene.spec.ts).
  */
 
 // Mirror personas.ts whiteBeltHolder()/beltReady() EXACTLY (belts[0].units -> "white/<unitId>"),
@@ -48,7 +66,7 @@ const WHITE = CURRICULUM.belts[0]
 const BLUE = CURRICULUM.belts[1]
 const WHITE_UNIT_KEYS: string[] = WHITE.units.map((u: any) => `${WHITE.id}/${u.id}`)
 
-test("white-belt holder: a defense-expiry LOSS drains the ladder (-1) but leaves belts.won[white] + the whole units/prep/rec map byte-identical", async ({ page }) => {
+test("white-belt holder: a failed-escape LOSS drains the ladder (-1) but leaves belts.won[white] + the whole units/prep/rec map byte-identical", async ({ page }) => {
   test.skip(!BLUE, "curriculum has no second (blue) belt — 'blue stays absent' premise gone")
 
   const j = journey(page)
@@ -98,28 +116,40 @@ test("white-belt holder: a defense-expiry LOSS drains the ladder (-1) but leaves
     const a = (window as any).__neural
     a.ladderState() // lazy-init guard: after this, _ladder is the live source of truth
     a._ladder.rank = 3
-    localStorage.setItem("bjj-neural-ladder", JSON.stringify({ rank: 3 }))
+    localStorage.setItem("bjj-neural-owner:guest:ladder", JSON.stringify({ rank: 3 }))
     return a.ladderState().rank
   })
   expect(rank0, "pin took: rank sits at 3 (well clear of the floor) before the loss").toBe(3)
 
-  // ── DEFENSE-EXPIRY LOSS (verbatim recipe): the player move FAILS (resolve+outcome high) ->
-  //    opponent turn -> opponent goes for a rigged submission (opp-finish low => finish path,
-  //    opp-sub-pick low => deterministic sub) -> the defense CLOCK expires (no escape draw) ->
-  //    onExpire=finish -> endRound("lose") -> defeat_drain + ladderMove(-1). ──
+  // ── FAILED-ESCAPE LOSS: the player move FAILS (resolve+outcome high) -> opponent turn ->
+  //    opponent goes for a rigged submission (opp-finish low => finish path, opp-sub-pick low =>
+  //    deterministic sub) -> caught -> a rigged FAILED escape (escape high) -> finish ->
+  //    endRound("lose") -> defeat_drain + ladderMove(-1). (Was: the defense clock expiring —
+  //    retired in v1.133.0, see header.) ──
   const options = await j.optionTitles()
   expect(options.length, "a fresh hand of options was dealt for the loss phase").toBeGreaterThan(0)
   await j.rig("resolve", [0.99])
   await j.rig("outcome", [0.99])
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
+  const firstIsSub = await page.evaluate(
+    (t) => ((window as any).__neural.nodes.find((n: any) => n.t === t) || {}).ty === "submissions",
+    options[0],
+  )
   await j.pick(options[0])
+  if (firstIsSub) {
+    // v1.176.0: the first pick ENTERS the submission state; the rigged fail is its Finish
+    await j.advance(3000)
+    await j.pick(options[0])
+  }
   await j.advanceUntil("caught", 20000)
-  await j.advance(12000) // defense window onExpire -> tapped -> endRound("lose")
+  await j.advance(800)
+  await j.rig("escape", [0.99]) // > the 0.92 escapeChance ceiling: the escape always fails
+  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
   await j.advanceUntil("roll_end", 20000)
 
   // ── The loss actually resolved as a loss (liveness — not a silent no-op). ──
-  expect(await j.lastOutcome(), "the expired defense is a loss").toBe("lose")
+  expect(await j.lastOutcome(), "the failed escape is a loss").toBe("lose")
   await j.expectBeat("defeat_drain")
   await j.expectBeat("ladder_down")
 

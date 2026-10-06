@@ -463,7 +463,38 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 5
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 52,
+          "nogi": 58
+        },
+        "outcomes": [
+          {
+            "to": "Outside Ashi-Garami/Top",
+            "probability": {
+              "gi": 58,
+              "nogi": 58
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inside Sankaku/Top",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Saddle Entry from Top",
@@ -491,7 +522,38 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 33,
+          "nogi": 32
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inside Sankaku/Top",
+            "probability": {
+              "gi": 51,
+              "nogi": 51
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",

@@ -775,7 +775,54 @@
         "attempt_probability": {
           "gi": 18,
           "nogi": 18
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 29,
+          "nogi": 31
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "success"
+          },
+          {
+            "to": "Technical Mount/Bottom",
+            "probability": {
+              "gi": 37,
+              "nogi": 37
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Armbar Control/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Hip Escape to Guard",
@@ -796,7 +843,54 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 26,
+          "nogi": 28
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 8,
+              "nogi": 8
+            },
+            "result": "success"
+          },
+          {
+            "to": "Technical Mount/Bottom",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Armbar Control/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Bridge and Roll",

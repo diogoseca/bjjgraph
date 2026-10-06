@@ -54,7 +54,7 @@ async function openJit(j: ReturnType<typeof journey>, page: Page) {
     const odds = await j.displayedOdds(o)
     if (odds >= 20 && odds <= 70) { target = o; break }
   }
-  await page.locator(`[data-tech="${target}"]`).first().click()
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]"), "the in-sheet drill mounted").toBeVisible()
   return target
 }
@@ -114,7 +114,7 @@ test("a card already proven at MC reads back as recall — the ladder's top rung
 
   // reopen the sheet so the drill re-renders against the new stage
   await page.keyboard.press("Escape")
-  await page.locator(`[data-tech="${target}"]`).first().click()
+  await page.locator(`[data-tech="${target}"]`).first().locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-jit]")).toBeVisible()
 
   // M2: a build that always asked MC deals options here instead of the reveal rung.

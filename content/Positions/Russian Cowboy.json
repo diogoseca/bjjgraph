@@ -393,7 +393,38 @@
         "attempt_probability": {
           "gi": 12,
           "nogi": 16
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 48,
+          "nogi": 53
+        },
+        "outcomes": [
+          {
+            "to": "Truck/Top",
+            "probability": {
+              "gi": 53,
+              "nogi": 53
+            },
+            "result": "success"
+          },
+          {
+            "to": "Russian Cowboy/Top",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Twister from Russian Cowboy",
@@ -435,7 +466,46 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 52,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "success"
+          },
+          {
+            "to": "Russian Cowboy/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Top",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Armbar from Back Transition",

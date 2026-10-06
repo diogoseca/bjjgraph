@@ -4,22 +4,38 @@ import { journey } from "../dsl"
 import { whiteBeltHolder } from "./personas"
 
 /**
- * PANIC GRADE = STUDY CREDIT — defense drilling is not a parallel currency. The
- * [data-panic-got] handler (neural/src/app.src.jsx ~4014-4024) routes through the SAME
- * ledger lesson drilling uses: prep[panicKey] += 1, then noteCardDone(card, panicKey),
- * then fx("escape_odds_pumped"). noteCardDone (~840-853) is the shared choke point: a
- * first-time question bumps _days[todayKey] → cardsToday and fires bonus_pumped (the
- * routing proof), while its cross-variant credit loop (~870) SKIPS the local key — so
- * prep[panicKey] moves by EXACTLY 1, never double-counted.
+ * PANIC GRADE = STUDY CREDIT — defense drilling is not a parallel currency. Grading the drill
+ * (`buildPanicCard`, neural/src/app.src.jsx — cited by symbol; the ~line numbers this header
+ * carried had drifted ~11,000 lines) routes through the SAME ledger lesson drilling uses:
+ * prep[panicKey] += 1, then noteCardDone(card, panicKey), then fx("escape_odds_pumped").
+ * Since v1.135.0 (0c4fbc53d) the drill is MULTIPLE CHOICE when its pool is warm, and the
+ * credit is `_mcAnswer`'s correct branch (prep +1 → noteCardDone → panic's `done(true)` →
+ * escape_odds_pumped); the [data-panic-got] handler does the same three steps as the
+ * cold-pool fallback. `noteCardDone` is the shared choke point: a first-time question bumps
+ * _days[todayKey] → cardsToday and fires bonus_pumped (the routing proof), while its
+ * cross-variant credit loop SKIPS the local key — so prep[panicKey] moves by EXACTLY 1,
+ * never double-counted.
  *
  * whiteBeltHolder seeds days:{} — cardsToday boots at 0 and _days is empty, which makes
  * "after the grade, _days holds ONLY today's key" a meaningful shape assertion.
  *
+ * HOW THE CATCH IS REACHED (re-targeted 2026-10-01, gen-suite triage): since v1.176.0
+ * (cdc35cefe, "Give submission states their own choices") picking a SUBMISSION card only
+ * ENTERS its state (deterministic travel, no resolve draw — nothing fails, the opponent never
+ * moves). Mount Top's EDGE-ranked hand leads with one today (Americana from Mount), so the
+ * rigged fail lands on its "Finish" card, the second pick of the same title — the idiom the
+ * core journeys restart-hygiene / panic-drill-defender-deck adopted in that commit.
+ *
  * Determinism census: resolve/outcome/opp-finish/opp-sub-pick/escape rigged here with
- * pre-sized one-draw queues; land() rigs ai-skill/role/max-moves; hands deal with no
- * RNG. resolve 0.99 > the 0.95 moveChance clamp (our move always fails); opp-finish
- * 0.01 < the 0.18 pFinish floor when subs exist (opponent always goes for the kill);
- * escape 0.01 < the 0.08 escapeChance floor (the escape always lands).
+ * pre-sized one-draw queues, all consumed (measured: every queue empty at the catch);
+ * land() rigs ai-skill/role/max-moves. resolve 0.99 > the 0.95 moveChance clamp (the Finish
+ * always fails); outcome 0.99 draws the last cell of the failure branch (the counter →
+ * closed-guard/bottom); opp-finish 0.01 < the 0.18 pFinish floor when subs exist (opponent
+ * always goes for the kill); opp-sub-pick 0.01 pins which (measured: Ezekiel Choke from
+ * Closed Guard); escape 0.01 < the 0.08 escapeChance floor (the escape always lands). The
+ * panic MC's own `panic-mc-pick` / `panic-mc-shuffle` draws stay unrigged on purpose: the
+ * spec reads the answer from `_mc.correct`, and every card is first-time for this persona,
+ * so which card and which order cannot change a ledger number.
  */
 
 test("caught → panic grade credits the shared study ledger (prep +1, cardsToday +1) and pumps escape odds", async ({ page }) => {
@@ -33,7 +49,16 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   await j.rig("outcome", [0.99])
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
+  const firstIsSub = await page.evaluate(
+    (t) => ((window as any).__neural.nodes.find((n: any) => n.t === t) || {}).ty === "submissions",
+    options[0],
+  )
   await j.pick(options[0])
+  if (firstIsSub) {
+    // v1.176.0: the first pick ENTERS the submission state; the rigged fail is its Finish
+    await j.advance(3000)
+    await j.pick(options[0])
+  }
   await j.advanceUntil("caught", 20000)
 
   // panic surface up; the opened beat names the SAME deck the ledger is about to credit
@@ -56,9 +81,25 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   }, pk)
   expect(before.cardsToday, "whiteBeltHolder daily ledger starts clean").toBe(0)
 
-  // ── grade the panic card like a user: Reveal → Got it ──
-  await page.locator("[data-panic-reveal]").click()
-  await page.locator("[data-panic-got]").click()
+  // ── grade the panic card like a user. v1.135.0 (0c4fbc53d): the drill is MULTIPLE CHOICE
+  //    when its distractor pool is warm (surface "panic", [data-panic-mc-opt]); Reveal → Got it
+  //    survives only as the cold-pool fallback. Both grade through the SAME ledger choke — the
+  //    MC path via _mcAnswer (prep +1, noteCardDone), the fallback via its own prep +1 +
+  //    noteCardDone — so the claim below is path-independent. Same idiom as the core journeys
+  //    guidance-defense / panic-card adopted in that commit. ──
+  const mcCorrect = await page.evaluate(() => {
+    const a = (window as any).__neural
+    const card = document.querySelector("[data-panic]")
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
+      ? a._mc.correct
+      : null
+  })
+  if (mcCorrect != null) {
+    await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+  } else {
+    await page.locator("[data-panic-reveal]").click()
+    await page.locator("[data-panic-got]").click()
+  }
 
   // AFTER-snapshot NOW — _panicKey survives grading but dies on pick/finish, and
   // escapeOddsSnapshot needs the live defense (_defendSub/_optList) to read at all

@@ -2,6 +2,13 @@
 """Diff a candidate emitted site tree against the GOLDEN emit, and classify every
 difference by what it costs.
 
+Content provenance is asserted cumulatively at use and completion on BOTH manifests.
+Missing/expired capture proof is EXIT 2 CONTENT_PROVENANCE_UNVERIFIED/DRIFTED.
+Use --artifact-only explicitly for historical comparisons, including permanently
+input-unverified build0 (308d6f577; four unnamed dirty paths). Its result concerns
+artifact bytes only. This content check does not validate code, dates, environment
+or generated inputs. See golden_provenance_selftest.py; normalizations cannot bypass it.
+
     python3 scripts/emit_diff.py GOLDEN.json.gz CANDIDATE.json.gz \
         [--allow normalization.json] [--json report.json] [--examples 5]
 
@@ -11,6 +18,44 @@ Exit codes
     2   the DIFFER is not trustworthy, so there is no verdict on the candidate at all
         (floor breach, an unparseable page, a normalization rule that matched nothing,
         an empty manifest)
+
+SEEDED INPUT DISCLOSURE (D-19/D-30)
+----------------------------------
+--seeded seeded.json declares regions copied from golden output into build inputs:
+  {"regions": [{"path": "static/neural/", "reason": "...", "evidence": "..."}]}
+Every file is STILL inventoried and compared: missing/corrupt copies remain red.
+Generated-content parity is not asserted for seeded files. Counts and the identical
+headline disclose that distinction; the JSON report exposes both numbers. This is
+provenance, never a normalization. Dead/empty declarations are instrument failures.
+The differ cannot infer seeding from matching bytes; callers must declare it.
+Pinned by seam_golden_selftest.py --seeded: counts, omissions, dead/empty declarations.
+Blind spots: byte parity does not prove browser behavior, production routing, analytics
+ingestion, or keyed deployment behavior absent from the compared environments.
+
+FEATURE EXERCISE (D-51/D-54)
+---------------------------
+Before citing a green differ for a feature, measure how many corpus files exercise
+that feature. Zero exercised files means the differ is not evidence; a fixture must
+exercise a branch whose loss is both SILENT and INVISIBLE (D-58). SILENT means the
+build does not fail or warn; INVISIBLE means the artifact differ cannot observe a
+change on the selected corpus. They are separate axes: this tool owns INVISIBLE,
+not build diagnostics. Reports must carry that measured blind-spot table.
+
+FIELD-REPORTING BLIND SPOT (D-256): p.content-meta visible "Last updated" text is
+not extracted as a named field. Raw file hashes still detect it changing; field
+lists need not describe every visible change. A hash-only S5_FORMAT_ONLY row does
+not establish that a change is cosmetic. The report header and JSON repeat this
+limit without changing legacy fingerprint/seam schemas or forgiving any bytes.
+Do not substitute a consumer identifier for evidence of its producer: build0's
+postscript.js has four __SUPABASE_URL references and ZERO window.__SUPABASE_URL
+assignments. Count occurrences, not lines in a minified bundle, and match the
+assignment when the claim is injection. A normalization must preserve the producer's
+presence/count, not merely the identifier's presence. The differ checks bytes; it
+cannot infer branch exercise from those bytes or prove unexecuted behavior.
+
+Two same-checkout builds only measure the inputs varied by that experiment. Source
+birthtime and the copyright year can stay identical across both; a green pair is not
+an exhaustive nondeterminism sweep or a cross-checkout/calendar-boundary proof.
 
     1 and 2 are kept apart on purpose. If a candidate that genuinely dropped canonicals
     also exited 2, then "2" would mean "something is wrong" in general, the operator
@@ -45,16 +90,42 @@ source, and each rule must carry a `reason`. The rules live in a JSON file passe
 
 Each rule prints the number of differences it suppressed. A rule that suppresses
 everything is visible as a large number, not as a clean report.
+
+D-75/D-86 retire the Head publication fallback: BOTH Head fields stay strict through
+the temporary authored-only absence and X-01's planned git-derived restoration.
+Neither state is normalized or silently promoted into a baseline. Retaining old
+Head value_proofs in a manifest cannot reactivate that retired allowance.
+D-35's footer-year rule is explicitly supplied. Date rules are confined to exactly
+sitemap.xml lastmod and index.xml pubDate, with presence/count/calendar format pinned.
+
+RSS's checkout-dependent sort changes WHICH items appear, not only their timestamps.
+The explicit xml.rss.selection rule preserves channel bytes, positive item count,
+unique links, item layout, valid pubDates, and exact non-date bytes for common items.
+EVERY selected item's membership in static/contentIndex.json and title/description
+against its actual emitted HTML must also be independently witnessed. Missing context,
+content corruption, missing items and malformed dates cannot use this allowance.
+The exact selected set and order are INTENTIONALLY UNASSERTED under that rule: the
+report prints their counts and links. B's deterministic-date ContentIndex fixture
+must gate selection/sort; a normalized whole-emit green does not cover those branches.
+No dates, RSS content or footer bytes are normalized without an explicit --allow.
+Re-fingerprint both trees with the current extractor for these proofs; old manifests
+remain strict. Pinned by seam_golden_selftest.py --values --xml-dates (11 + 30 proofs),
+including independent sitemap-order and contentIndex-key-order rejection. Neither
+ordering inherits the RSS selection allowance. B's replacement selection gate is
+tests/emitter_filesystem.test.mjs, added in b97c1bda4: ordered ten links, two tie
+pairs, four mutant kills and the explicitly recorded positive-comparator non-kill.
 """
 
 from __future__ import annotations
 
 import argparse
+from golden_provenance import ContentGuard, add_arguments, ProvenanceError
 import gzip
 import json
 import re
 import sys
 from collections import defaultdict
+from pathlib import PurePosixPath
 
 # A tree this small is not this site; it is a broken or partial build, and no verdict
 # from it is worth anything. Deliberately far below the real figures (~15,700 files /
@@ -109,6 +180,12 @@ SEO_META_PREFIXES = (
 
 
 SEMANTIC_CLASSES = ("html", "xml", "json_semantic", "text_semantic", "gzip")
+
+FIELD_REPORTING_BLIND_SPOTS = [
+    'p.content-meta visible Last updated text is not field-extracted; raw file hashes '
+    'still detect changes. Field lists may omit visible changes; a hash-only '
+    'S5_FORMAT_ONLY row does not prove a cosmetic difference.'
+]
 
 
 def severity_for(cls: str, field: str) -> str:
@@ -272,11 +349,97 @@ def diff_generic(g: dict, c: dict, keys):
                 yield k, g.get(k), c.get(k)
 
 
-def diff_record(rel, gr, cr):
+def rss_items_witnessed(proof, records):
+    """Independent output evidence for selected RSS content, not its sort/selection."""
+    from urllib.parse import urlsplit, unquote
+    from html import unescape
+    index = records.get('static/contentIndex.json', {})
+    eligible = (index.get('fp') or {}).get('per_key_sha') or {}
+    if (index.get('cls') != 'json_semantic' or not eligible or
+            len(eligible) != (index.get('fp') or {}).get('n_keys')):
+        return False
+    base = proof.get('channel_link')
+    if not isinstance(base, str) or not base.startswith('https://'):
+        return False
+    routes = {}
+    for slug in eligible:
+        simple = '' if slug == 'index' else slug[:-6] if slug.endswith('/index') else slug
+        url = base.rstrip('/') + '/' + simple
+        if url in routes:
+            return False
+        routes[url] = slug + '.html'
+    for item in proof['items']:
+        url = item['link']
+        parsed = urlsplit(url)
+        if parsed.query or parsed.fragment or item['guid'] != url:
+            return False
+        path = routes.get(unquote(url))
+        record = records.get(path, {})
+        fp = record.get('fp') or {}
+        if record.get('cls') != 'html' or fp.get('parse_error'):
+            return False
+        if unescape(fp.get('title') or '') != item['title']:
+            return False
+        if (fp.get('meta_map') or {}).get('name=description') != item['description']:
+            return False
+    return True
+
+
+def diff_record(rel, gr, cr, *, site_records=None):
     """All differences for one path, as (severity, field, golden, candidate)."""
     cls = gr.get("cls", "?")
     out = []
     gfp, cfp = gr.get("fp"), cr.get("fp")
+
+    # A valid proof establishes that ONLY declared token VALUES moved; it does not
+    # accept them. Without an explicit --allow rule they remain named differences.
+    # Unlike suppressing head_raw_sha/jsonld/sha separately, the masked whole-page
+    # SHA cannot hide an unrelated byte change next to an allowed timestamp change.
+    if cls == 'html' and gr.get('sha') != cr.get('sha'):
+        gp, cp = gr.get('value_proofs', {}), cr.get('value_proofs', {})
+        for key in ('footer-year',):
+            g, c = gp.get(key), cp.get(key)
+            if not g or not c or not g.get('valid') or not c.get('valid'):
+                continue
+            if g['sha'] != c['sha'] or g['counts'] != c['counts']:
+                continue
+            changed = [(name, g['values'][name], c['values'][name]) for name in g['values']
+                       if g['values'][name] != c['values'][name]]
+            if changed:
+                return [('S3_SHELL', 'html.value.' + name, gv, cv) for name, gv, cv in changed]
+
+    if cls == 'xml' and gr.get('sha') != cr.get('sha'):
+        gp, cp = gr.get('value_proofs', {}), cr.get('value_proofs', {})
+        date_key = {'sitemap.xml': 'sitemap-lastmod', 'index.xml': 'rss-pubdate'}.get(rel)
+        g, c = gp.get(date_key), cp.get(date_key)
+        if (g and c and g.get('valid') and c.get('valid') and
+                g['count'] == c['count'] > 0 and g['sha'] == c['sha'] and g['values'] != c['values']):
+            return [('S2_CONTENT', 'xml.value.' + date_key,
+                     {'entries': g['count'], 'values': g['values']},
+                     {'entries': c['count'], 'values': c['values']})]
+        if rel == 'index.xml' and site_records is not None:
+            g, c = gp.get('rss-selection'), cp.get('rss-selection')
+            if (g and c and g.get('valid') and c.get('valid') and
+                    g['count'] == c['count'] > 0 and g['sha'] == c['sha'] and
+                    g['layout_sha'] == c['layout_sha'] and
+                    rss_items_witnessed(g, site_records[0]) and rss_items_witnessed(c, site_records[1])):
+                gi = {item['link']: item for item in g['items']}
+                ci = {item['link']: item for item in c['items']}
+                common = set(gi) & set(ci)
+                # Items selected in BOTH trees keep their exact non-date bytes.
+                if all(gi[k]['stable_sha'] == ci[k]['stable_sha'] for k in common):
+                    gkeys = [i['link'] for i in g['items']]; ckeys = [i['link'] for i in c['items']]
+                    gv = [i['pubDate'] for i in g['items']]; cv = [i['pubDate'] for i in c['items']]
+                    rows = []
+                    if gkeys != ckeys:
+                        rows.append(('S2_CONTENT', 'xml.rss.selection',
+                                     {'items': len(gkeys), 'links': gkeys, 'common_items': len(common)},
+                                     {'items': len(ckeys), 'links': ckeys, 'common_items': len(common)}))
+                    if gv != cv:
+                        rows.append(('S2_CONTENT', 'xml.value.rss-pubdate',
+                                     {'entries': len(gv), 'values': gv}, {'entries': len(cv), 'values': cv}))
+                    if rows:
+                        return rows
 
     if cls == "html":
         if gfp is None or cfp is None:
@@ -447,12 +610,48 @@ def check_floors(name, cov, problems):
         problems.append(f"{name}: {cov['jsonld_unparseable']} JSON-LD block(s) did not parse.")
 
 
+def seeded_coverage(spec, golden, candidate):
+    """Describe provenance without suppressing a single file or byte comparison."""
+    report = {"regions": [], "golden_files": 0, "candidate_files": 0,
+              "common_files": 0, "generated_parity_files": len(set(golden) & set(candidate))}
+    if spec is None:
+        return report, set(), []
+    problems, selected = [], set()
+    regions = spec.get("regions") if isinstance(spec, dict) else None
+    if not isinstance(regions, list) or not regions:
+        return report, selected, ["seeded declaration has zero regions"]
+    for region in regions:
+        if not isinstance(region, dict):
+            problems.append("invalid seeded region record")
+            continue
+        prefix = region.get("path", "")
+        path = PurePosixPath(prefix)
+        if (not prefix or path.is_absolute() or ".." in path.parts or
+                str(path) != prefix.rstrip("/") or not region.get("reason") or not region.get("evidence")):
+            problems.append(f"seeded region {prefix!r} needs a relative path, reason and evidence")
+            continue
+        def matches(p):
+            return p.startswith(prefix) if prefix.endswith("/") else p == prefix
+        gs, cs = {p for p in golden if matches(p)}, {p for p in candidate if matches(p)}
+        if not gs:
+            problems.append(f"seeded region {prefix!r} matches zero golden files")
+        selected.update(gs | cs)
+        report["regions"].append({**region, "golden_files": len(gs), "candidate_files": len(cs),
+                                  "common_files": len(gs & cs)})
+    report.update(golden_files=len(set(golden) & selected), candidate_files=len(set(candidate) & selected),
+                  common_files=len(set(golden) & set(candidate) & selected),
+                  generated_parity_files=len((set(golden) & set(candidate)) - selected))
+    return report, selected, problems
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("golden")
     ap.add_argument("candidate")
+    add_arguments(ap)
     ap.add_argument("--allow", help="JSON file of declared normalization rules")
+    ap.add_argument("--seeded", help="JSON file declaring golden-seeded input regions; never suppresses differences")
     ap.add_argument("--json", help="write the full machine-readable report here")
     ap.add_argument("--examples", type=int, default=4)
     ap.add_argument("--max-rows", type=int, default=60,
@@ -460,6 +659,7 @@ def main():
     a = ap.parse_args()
 
     G, C = load(a.golden), load(a.candidate)
+    guards = [ContentGuard(G, a, 'golden'), ContentGuard(C, a, 'candidate')]
     gs, cs = G.get("schema"), C.get("schema")
     if gs != cs:
         sys.exit(f"EXIT 2 -- manifest schema mismatch: golden={gs} candidate={cs}. These "
@@ -490,17 +690,22 @@ def main():
     missing = sorted(set(gf) - set(cf))
     extra = sorted(set(cf) - set(gf))
     common = sorted(set(gf) & set(cf))
+    seeded, seeded_paths, seeded_problems = seeded_coverage(
+        json.load(open(a.seeded)) if a.seeded else None, gf, cf)
+    problems.extend(seeded_problems)
 
     # aggregate: (severity, cls, field) -> {count, examples, suppressed_by}
     rows = defaultdict(lambda: {"count": 0, "examples": []})
     suppressed = defaultdict(int)
     identical = 0
+    seeded_identical = 0
 
     for rel in common:
         gr, cr = gf[rel], cf[rel]
-        ds = diff_record(rel, gr, cr)
+        ds = diff_record(rel, gr, cr, site_records=(gf, cf))
         if not ds:
             identical += 1
+            seeded_identical += int(rel in seeded_paths)
             continue
         for sev, field, gv, cv in ds:
             rid = allow.suppress(rel, field, gv, cv)
@@ -522,6 +727,8 @@ def main():
     W = 96
     print("=" * W)
     print("GOLDEN EMIT DIFF")
+    for limitation in FIELD_REPORTING_BLIND_SPOTS:
+        print('FIELD-REPORTING BLIND SPOT: ' + limitation)
     print("=" * W)
     print(f"golden    : {a.golden}\n            {G.get('label') or G['tree']}")
     print(f"candidate : {a.candidate}\n            {C.get('label') or C['tree']}")
@@ -541,7 +748,17 @@ def main():
             flag = "" if gv == cv else "   <-- DELTA"
             print(f"  {k:26s} {gv:>12,} {cv:>12,}{flag}")
     print()
-    print(f"files compared : {len(common):,} common, {identical:,} byte-identical")
+    print(f"  {'seeded (copy integrity only)':26s} {seeded['golden_files']:>12,} {seeded['candidate_files']:>12,}")
+    print(f"  generated-content parity eligible: {seeded['generated_parity_files']:,} common files")
+    for region in seeded['regions']:
+        print(f"  seeded {region['path']}: {region['candidate_files']:,} files; generated-content parity NOT asserted")
+        print(f"    reason: {region['reason']}; evidence: {region['evidence']}")
+    if not a.seeded:
+        print("  seeded provenance: none declared (cannot be inferred from matching bytes)")
+    print()
+    print(f"files compared : {len(common):,} common, {identical:,} byte-identical "
+          f"({identical - seeded_identical:,} generated-content evidence; "
+          f"{seeded_identical:,} seeded, copy integrity only)")
     print(f"missing        : {len(missing):,}   (in golden, absent from candidate)")
     print(f"extra          : {len(extra):,}   (in candidate, absent from golden)")
     print()
@@ -616,6 +833,11 @@ def main():
 
     print("=" * W)
     verdict_problems = list(problems)
+    for guard in guards:
+        try:
+            guard.finish()
+        except ProvenanceError as e:
+            verdict_problems.append(f'CONTENT_PROVENANCE_{e.state}: {e}')
     if dead_rules:
         verdict_problems.append(
             f"normalization rule(s) matched nothing: {', '.join(dead_rules)}. A rule that "
@@ -646,19 +868,26 @@ def main():
               f"{gcov['html_pages']:,} pages parsed, "
               f"{gcov['jsonld_blocks']:,} JSON-LD blocks, "
               f"{gcov['pages_with_canonical']:,} canonicals, "
-              f"{gcov['outside_links']:,} links outside <article> -- all equal.")
+              f"{gcov['outside_links']:,} links outside <article> -- all equal; "
+              f"{seeded['common_files']:,} seeded files checked for copy integrity only, "
+              f"generated-content parity eligible on {seeded['generated_parity_files']:,} files.")
         code = 0
     print("=" * W)
 
     if a.json:
         json.dump({
             "golden": a.golden, "candidate": a.candidate,
+            "content_provenance": {g.label: g.verdict for g in guards},
+            "artifact_only": a.artifact_only,
+            "field_reporting_blind_spots": FIELD_REPORTING_BLIND_SPOTS,
             "coverage": {"golden": gcov, "candidate": ccov,
                          "regressions": cov_regressions},
             "missing": missing, "extra": extra,
             "path_shape_changes": {k: v for k, v in shapes.items()},
             "unpaired_missing": unpaired_m, "unpaired_extra": unpaired_e,
             "identical": identical, "common": len(common),
+            "seeded": {**seeded, "identical": seeded_identical},
+            "generated_parity_identical": identical - seeded_identical,
             "rows": [{"severity": k[0], "cls": k[1], "field": k[2], **v}
                      for k, v in sorted(rows.items(), key=lambda kv: (kv[0][0], -kv[1]["count"]))],
             "normalizations": [{"id": r["id"], "mode": r["mode"], "hits": r["hits"],
@@ -674,4 +903,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except ProvenanceError as e:
+        print(f'EXIT 2 CONTENT_PROVENANCE_{e.state}: {e}')
+        sys.exit(2)

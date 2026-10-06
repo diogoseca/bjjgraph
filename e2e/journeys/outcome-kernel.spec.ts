@@ -119,7 +119,7 @@ test("@curated every node's rolled outcome distribution IS its authored one, dra
   // 1324 of 1328 (1322 of 1326 before v1.156.0; both new nodes end in a counter, +2). THE TAIL IS
   // THE PART THIS LINE GUARDS AND IT HAS NEVER MOVED: 3 ending in failure, 1 in success, measured
   // again on this corpus and bit-identical across the collapse AND the two additions.
-  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1311) // census:endsCounter
+  expect(r.endsCounter, "outcome lists ending in a counter — why the .find() drained counters").toBe(1310) // census:endsCounter
   expect(r.sideEffects, "the probe moved nothing: zero fx beats emitted").toBe(0)
 
   // Pre-fix this read mean 0.0902 / max 0.2440 with ZERO nodes at 0. The tolerance is the sweep

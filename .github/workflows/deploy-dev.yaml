@@ -54,7 +54,7 @@ jobs:
       # public dev preview, which carries the same secrets as prod.
       - name: Validate content (gate)
         run: |
-          pip install jsonschema
+          pip install jsonschema PyYAML
           python3 scripts/validate_json.py --all
           python3 scripts/validate_graph_integrity.py
           # Share-link ordinal lockfile (node_ordinals.json): every live graph node must
@@ -65,6 +65,10 @@ jobs:
           # HEAD^1, not HEAD: in CI the checked-out HEAD *is* the commit under test, so a
           # HEAD baseline would compare it to itself and prove nothing.
           python3 scripts/regenerate_node_ordinals.py --check --baseline-ref HEAD^1
+
+      # Compare the actual local/production/preview chains before any emit.
+      - name: Build-chain and Python provisioning contract
+        run: python3 scripts/check_build_chains.py
 
       # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
       # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
@@ -85,7 +89,7 @@ jobs:
           python3 ../scripts/check_headers_cache.py
           # SEO ratchet: head + JSON-LD identical, crawlable text above floor,
           # zero internal links lost. Was referenced by NO workflow before v1.77.0.
-          python3 ../scripts/check_seo_parity.py
+          python3 ../scripts/check_seo_parity.py --artifact-only
           # PARITY: prod runs this too. Without it the preview shipped no llms.txt,
           # so the AI-crawler surface was never actually exercised before prod.
           python3 ../scripts/regenerate_llms_txt.py
@@ -113,6 +117,12 @@ jobs:
       # Quartz clears source/public, so Forward must be copied after the site build.
       - name: Build Forward development libraries
         run: npm run build:forward
+
+      # Every _redirects target resolves to a built page or file (v1.212.7, OCREDIR1). It runs
+      # here, after the share shell (`/l/* /l.html 200` targets a file that step writes) and after
+      # Forward, so the tree it reads is final. It prints a positive count and fails on any miss.
+      - name: Redirect targets resolve (gate)
+        run: python3 scripts/check_redirect_targets.py
 
       # Activate marked canonical references only with a valid configured ref.
       # Missing ref keeps neutral links; invalid ref fails. No source placeholders.
@@ -229,7 +239,11 @@ jobs:
       - name: Curated journey gate (Playwright E2E)
         # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
         # Keep every test and the single worker; allow the full suite to finish.
-        timeout-minutes: 20
+        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
+        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
+        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
+        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
+        timeout-minutes: 30
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
@@ -247,8 +261,19 @@ jobs:
       # instead of v3. Same note as deploy.yaml — pin with `wranglerVersion:` if needed.
       # This preview deploy is the FIRST place a Wrangler-v4 regression would surface.
       - name: Deploy to Cloudflare Pages (preview)
+        id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy source/public --project-name=bjjgraph --branch=dev
+
+      # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05). Every gate above runs against a
+      # local, keyless build behind a harness that aborts all third-party requests, so none of them
+      # could see what the owner saw on this preview: a 404 after the app's own navigation and 33 CSP
+      # violations from PostHog and Cloudflare's edge-injected beacon. This boots the deployment
+      # wrangler just published (its own URL, never the `dev` alias, so it cannot race the alias),
+      # lets the app navigate, plays a move, and fails naming each offending URL. The Playwright
+      # browser is the one installed for the curated gate above.
+      - name: Deployed console is clean (gate)
+        run: node scripts/check_deployed_console.mjs "${{ steps.cf.outputs.deployment-url }}"

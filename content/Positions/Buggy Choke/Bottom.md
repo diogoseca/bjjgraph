@@ -33,7 +33,7 @@ description: "Defend and escape Buggy Choke attacks. Complete defensive guide co
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {

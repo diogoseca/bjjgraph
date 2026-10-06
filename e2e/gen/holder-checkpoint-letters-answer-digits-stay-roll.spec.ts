@@ -1,5 +1,5 @@
 /* @hyperspace {"theme":"challenge-progression","L":"white-belt-holder","F":"checkpoint-quiz","B":"cross-feature"}
-   @invariant "While a checkpoint quiz is open over a live hand, letters answer the quiz (A-D advance _checkpoint.i) but digit keys never reach the roll beneath: no digit opens an option expand sheet (_detailCtx stays falsy, zero sheet_opened), and Enter after a digit fires no commit — the paused roll cannot play out under the live quiz." */
+   @invariant "While a checkpoint quiz is open over a live hand, letters answer the quiz (A-D advance _checkpoint.i) but digit keys never reach the roll beneath: no digit opens an option expand sheet (_detailCtx stays falsy, zero sheet_opened), and Enter after a digit fires no commit — the paused roll cannot play out under the live quiz. Nor do the drill's study keys touch the quiz card: Enter, Space and the four arrows never reveal it, grade it, credit its deck or page the quiz off its pick." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder, CURRICULUM } from "../gen/personas"
@@ -67,6 +67,9 @@ const census = (page: any) =>
       dealt: n("options_dealt"),
       mcCorrect: n("mc_correct"),
       mcWrong: n("mc_wrong"),
+      revealed: !!a.revealed,
+      deckIdx: a.deckIdx,
+      prep: (a.prep && a._posKey && a.prep[a._posKey]) || 0,
     }
   })
 
@@ -154,6 +157,31 @@ test("digits during an open checkpoint quiz never open a sheet or commit the rol
   expect(s4.deckShown, "quiz pane still up").toBe(true)
   expect(s4.mcSurface, "quiz MC block still live").toBe("deck")
   expect(s4.mcOpts, "quiz card still answerable").toBeGreaterThan(0)
+  expect(s4.revealed, "Enter revealed nothing on the quiz card").toBe(false)
+  expect(s4.deckIdx, "Enter moved the quiz off its pick").toBe(s1.deckIdx)
+  expect(s4.prep, "Enter credited no study on the quiz card's deck").toBe(s1.prep)
+
+  // ── THE STUDY KEYS ARE INERT WHILE THE QUIZ IS OPEN (v1.215.6, gen triage) ──
+  // From v1.171.0 (a1d5cc3ff) the drill's ⏎ — and Space and ↑/↓ before it — revealed the quiz
+  // card and then graded it as recall ("Got it", prep credit), and ←/→ paged the deck off the
+  // card the quiz picked, which `_checkpointAnswer` then credited as the pick's answer. Each key,
+  // twice (the reveal→grade pair), must leave the quiz exactly as it was. The live-quiz checks
+  // above and the letter below prove the surface is not simply dead.
+  for (const key of ["Enter", " ", "ArrowDown", "ArrowUp", "ArrowLeft", "ArrowRight"]) {
+    for (const press of [1, 2]) {
+      await page.keyboard.press(key)
+      await j.advance(300)
+      const k = await census(page)
+      const name = `${key === " " ? "Space" : key} #${press}`
+      expect(k.revealed, `${name}: the quiz card is not revealed`).toBe(false)
+      expect(k.mcSurface, `${name}: the quiz MC block is still live`).toBe("deck")
+      expect(k.deckIdx, `${name}: the quiz stays on its pick`).toBe(s1.deckIdx)
+      expect(k.posKey, `${name}: the quiz deck is unchanged`).toBe(quizDeck)
+      expect(k.cpI, `${name}: the quiz cursor is unchanged`).toBe(1)
+      expect(k.prep, `${name}: no study credit on the quiz card's deck`).toBe(s1.prep)
+      expect(k.mcCorrect + k.mcWrong, `${name}: nothing graded`).toBe(s1.mcCorrect + s1.mcWrong)
+    }
+  }
 
   // proof the quiz is genuinely alive: the next correct letter still advances it
   const c2 = await page.evaluate(() => (window as any).__neural._mc.correct)

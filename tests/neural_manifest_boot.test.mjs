@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Pure-unit contract for the MANIFEST BOOT (v1.80.4).
 //
 // The Neural app no longer downloads a 16.4MB deck monolith before the visitor can move: it boots
@@ -24,10 +25,12 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const APP = resolve(HERE, "../neural/src/app.src.jsx");
 const src = readFileSync(APP, "utf8");
 
+// The bundle concatenates neural/src/wire-keys.src.js and knowledge-profile.src.js above the class;
+// `knowledgeSource` (tests/_knowledge_profile_harness.mjs) is that same prelude, export-stripped.
 const Component = new Function(
   "DCLogic",
   "React",
-  `${src}\nreturn Component;`,
+  `${knowledgeSource}\n${src}\nreturn Component;`,
 )(class DCLogic {}, { createRef: () => ({ current: null }) });
 
 /** A minimal `this`: the real prototype plus only the state these methods read. */

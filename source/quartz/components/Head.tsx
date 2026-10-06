@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, joinSegments, pathToRoot, simplifySlug } from "../util/path"
+import { FullSlug, joinSegments, simplifySlug } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { escapeScriptContent } from "../util/escape"
@@ -17,9 +17,12 @@ export default (() => {
 
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
-    const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
-    const iconPath = joinSegments(baseDir, "static/icon.png")
+    // ROOT-ABSOLUTE on every page, never pathToRoot(slug). The browser re-fetches the icon after
+    // the Neural app's history.pushState, against the NEW address: `../static/icon.png` from `/`
+    // became `/Positions/static/icon.png`, a 404 (CONSOLE0). Same rule as siteRoot() for the
+    // page's other resources (plugins/emitters/helpers.ts); gated by console-clean.spec.ts.
+    const iconPath = joinSegments(path, "static/icon.png")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     const canonicalUrl = cfg.baseUrl
       ? `https://${cfg.baseUrl}/${simplifySlug(fileData.slug!) === "/" ? "" : simplifySlug(fileData.slug!)}`
@@ -115,12 +118,14 @@ export default (() => {
         <meta name="twitter:image:alt" content={`BJJ Graph - ${title}`} />
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
         <link rel="icon" href={iconPath} />
-        <link rel="manifest" href={joinSegments(baseDir, "manifest.webmanifest")} />
+        {/* Root-absolute like the icon above (CONSOLE0): a page-relative href breaks after the app's
+            history.pushState, and the browser re-reads the manifest link on install. */}
+        <link rel="manifest" href={joinSegments(path, "manifest.webmanifest")} />
         <meta name="theme-color" content={pwaManifest.theme_color} />
         <link
           rel="apple-touch-icon"
           sizes="192x192"
-          href={joinSegments(baseDir, "static/pwa/icon-192.png")}
+          href={joinSegments(path, "static/pwa/icon-192.png")}
         />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />

@@ -1,0 +1,2208 @@
+{
+ "chained_landing_readings": {
+  "by_reading": {
+   "actorkeep": {
+    "gi/shipped": {
+     "max_abs_dB": 1.22125e-15,
+     "max_abs_dB_fin": 3.88578e-16,
+     "max_abs_dET": 1.77636e-14,
+     "mc_from_standing_max_abs_z": 1.63149,
+     "mc_from_standing_max_abs_z_at": "finish type=Knee and Hip Compression by me",
+     "states": 532,
+     "states_over_1e-12": 0,
+     "worst_state": "back-control/top@M"
+    },
+    "gi/symmetric": {
+     "max_abs_dB": 7.77156e-16,
+     "max_abs_dB_fin": 1.66533e-16,
+     "max_abs_dET": 1.24345e-14,
+     "mc_from_standing_max_abs_z": 3.15802,
+     "mc_from_standing_max_abs_z_at": "finish type=Bicep Compression Lock by me",
+     "states": 532,
+     "states_over_1e-12": 0,
+     "worst_state": "de-la-riva-guard/bottom@T"
+    },
+    "nogi/shipped": {
+     "max_abs_dB": 7.77156e-16,
+     "max_abs_dB_fin": 2.22045e-16,
+     "max_abs_dET": 1.59872e-14,
+     "mc_from_standing_max_abs_z": 2.57539,
+     "mc_from_standing_max_abs_z_at": "finish type=Leg Lock by them",
+     "states": 532,
+     "states_over_1e-12": 0,
+     "worst_state": "single-leg-x-guard/top@M"
+    },
+    "nogi/symmetric": {
+     "max_abs_dB": 6.66134e-16,
+     "max_abs_dB_fin": 2.77556e-16,
+     "max_abs_dET": 1.95399e-14,
+     "mc_from_standing_max_abs_z": 2.20641,
+     "mc_from_standing_max_abs_z_at": "finish type=Hyperextension by them",
+     "states": 532,
+     "states_over_1e-12": 0,
+     "worst_state": "double-sleeve-guard/bottom@T"
+    }
+   },
+   "inner": {
+    "gi/shipped": {
+     "max_abs_dB": 0.00675795,
+     "max_abs_dB_fin": 0.00458944,
+     "max_abs_dET": 0.067378,
+     "mc_from_standing_max_abs_z": 1.63149,
+     "mc_from_standing_max_abs_z_at": "finish type=Knee and Hip Compression by me",
+     "states": 532,
+     "states_over_1e-12": 532,
+     "worst_state": "honey-hole/bottom@M"
+    },
+    "gi/symmetric": {
+     "max_abs_dB": 0.00762495,
+     "max_abs_dB_fin": 0.00465741,
+     "max_abs_dET": 0.0527948,
+     "mc_from_standing_max_abs_z": 3.15802,
+     "mc_from_standing_max_abs_z_at": "finish type=Bicep Compression Lock by me",
+     "states": 532,
+     "states_over_1e-12": 532,
+     "worst_state": "honey-hole/bottom@M"
+    },
+    "nogi/shipped": {
+     "max_abs_dB": 0.00754478,
+     "max_abs_dB_fin": 0.00564273,
+     "max_abs_dET": 0.0843644,
+     "mc_from_standing_max_abs_z": 2.57539,
+     "mc_from_standing_max_abs_z_at": "finish type=Leg Lock by them",
+     "states": 532,
+     "states_over_1e-12": 530,
+     "worst_state": "honey-hole/bottom@M"
+    },
+    "nogi/symmetric": {
+     "max_abs_dB": 0.00845448,
+     "max_abs_dB_fin": 0.00582922,
+     "max_abs_dET": 0.0721902,
+     "mc_from_standing_max_abs_z": 2.17723,
+     "mc_from_standing_max_abs_z_at": "finish type=Hyperextension by them",
+     "states": 532,
+     "states_over_1e-12": 530,
+     "worst_state": "honey-hole/top@T"
+    }
+   },
+   "outer": {
+    "gi/shipped": {
+     "max_abs_dB": 0.0142711,
+     "max_abs_dB_fin": 0.0108309,
+     "max_abs_dET": 0.161615,
+     "mc_from_standing_max_abs_z": 1.77764,
+     "mc_from_standing_max_abs_z_at": "finish type=Hyperextension by me",
+     "states": 532,
+     "states_over_1e-12": 532,
+     "worst_state": "straight-ankle-lock-control/bottom@M"
+    },
+    "gi/symmetric": {
+     "max_abs_dB": 0.0181781,
+     "max_abs_dB_fin": 0.0108978,
+     "max_abs_dET": 0.162574,
+     "mc_from_standing_max_abs_z": 2.96245,
+     "mc_from_standing_max_abs_z_at": "finish type=Bicep Compression Lock by me",
+     "states": 532,
+     "states_over_1e-12": 532,
+     "worst_state": "straight-ankle-lock-control/bottom@M"
+    },
+    "nogi/shipped": {
+     "max_abs_dB": 0.0130558,
+     "max_abs_dB_fin": 0.011569,
+     "max_abs_dET": 0.306826,
+     "mc_from_standing_max_abs_z": 2.80015,
+     "mc_from_standing_max_abs_z_at": "finish type=Leg Lock by them",
+     "states": 532,
+     "states_over_1e-12": 530,
+     "worst_state": "straight-ankle-lock-control/bottom@M"
+    },
+    "nogi/symmetric": {
+     "max_abs_dB": 0.0176037,
+     "max_abs_dB_fin": 0.0116371,
+     "max_abs_dET": 0.238716,
+     "mc_from_standing_max_abs_z": 2.00512,
+     "mc_from_standing_max_abs_z_at": "finish type=Bicep Compression Lock by me",
+     "states": 532,
+     "states_over_1e-12": 530,
+     "worst_state": "inside-sankaku/top@M"
+    }
+   }
+  },
+  "kernel_encodes": [
+   "actorkeep"
+  ],
+  "note": "The exact solve of each reading is compared with the kernel on every state. From standing the Monte Carlo cannot tell the readings apart (the chained landings are rare), so the per-state test below starts the Monte Carlo AT the state where each other reading misses most."
+ },
+ "configs": {
+  "gi/shipped": {
+   "comparisons": 65,
+   "comparisons_finite_z": 63,
+   "exact_vs_kernel": {
+    "finisher_columns_exact_only": [],
+    "finisher_columns_kernel_only": [],
+    "max_abs_dB": 1.22125e-15,
+    "max_abs_dB_fin": 3.88578e-16,
+    "max_abs_dET": 1.77636e-14,
+    "rowsum_err": 2.22045e-16,
+    "states": 532,
+    "states_over_1e-12": 0,
+    "worst_state": "back-control/top@M"
+   },
+   "kernel": {
+    "E_visits": 11.5906,
+    "P_D": 0.0,
+    "P_L": 0.27973,
+    "P_W": 0.72027,
+    "absorption_residual": 4.16334e-16
+   },
+   "max_abs_z": 1.63149,
+   "max_abs_z_at": "finish type=Knee and Hip Compression by me",
+   "max_z_signed": 1.63149,
+   "mc": {
+    "E_visits": 11.5773,
+    "P_D": 0.0,
+    "P_L": 0.27861,
+    "P_W": 0.72139,
+    "chain_events": 7156,
+    "chained_landings": 3003,
+    "counts": {
+     "L": 83583,
+     "W": 216417
+    },
+    "truncated": 0,
+    "uniforms_used": 10726708
+   },
+   "reach": {
+    "kernel_reachable": 266,
+    "kernel_reachable_never_visited": [
+     "carni/top",
+     "chill-dog/top",
+     "inverted-lasso-guard/top",
+     "squid-guard/top"
+    ],
+    "mc_visited": 262,
+    "mc_visited_not_kernel_reachable": []
+   },
+   "reading": "actorkeep",
+   "rolls": 300000,
+   "rows": [
+    [
+     "P(W)",
+     0.72139,
+     0.72027,
+     1.36698
+    ],
+    [
+     "P(L)",
+     0.27861,
+     0.27973,
+     -1.36698
+    ],
+    [
+     "P(D)",
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     "E[visits] (=cards + empty-hand visit)",
+     11.5773,
+     11.5906,
+     -0.736951
+    ],
+    [
+     "E[T*1{W}]",
+     8.00719,
+     8.00038,
+     0.382784
+    ],
+    [
+     "E[T | W] (info, ratio)",
+     11.0997,
+     11.1075,
+     null
+    ],
+    [
+     "E[T*1{L}]",
+     3.57009,
+     3.59024,
+     -1.41774
+    ],
+    [
+     "E[T | L] (info, ratio)",
+     12.8139,
+     12.8347,
+     null
+    ],
+    [
+     "finish type=Ankle Lock by me",
+     2e-05,
+     1.60644e-05,
+     0.537826
+    ],
+    [
+     "finish type=Ankle Lock by them",
+     0.0,
+     4.2825e-06,
+     -1.13347
+    ],
+    [
+     "finish type=Arm Crush by me",
+     0.000923333,
+     0.000942603,
+     -0.343941
+    ],
+    [
+     "finish type=Arm Crush by them",
+     0.000116667,
+     0.000122847,
+     -0.305428
+    ],
+    [
+     "finish type=Arm Lock by me",
+     0.12373,
+     0.123574,
+     0.259912
+    ],
+    [
+     "finish type=Arm Lock by them",
+     0.0454033,
+     0.0456503,
+     -0.648023
+    ],
+    [
+     "finish type=Arm-Triangle Choke by me",
+     9e-05,
+     8.84512e-05,
+     0.0902013
+    ],
+    [
+     "finish type=Arm-Triangle Choke by them",
+     2e-05,
+     2.63928e-05,
+     -0.681579
+    ],
+    [
+     "finish type=Bicep Compression Lock by me",
+     0.000163333,
+     0.000175215,
+     -0.491692
+    ],
+    [
+     "finish type=Bicep Compression Lock by them",
+     6e-05,
+     4.60832e-05,
+     1.1229
+    ],
+    [
+     "finish type=Blood Choke by me",
+     0.346737,
+     0.34644,
+     0.341351
+    ],
+    [
+     "finish type=Blood Choke by them",
+     0.139337,
+     0.139281,
+     0.0875694
+    ],
+    [
+     "finish type=Calf Crush by me",
+     1.66667e-05,
+     2.63255e-05,
+     -1.0311
+    ],
+    [
+     "finish type=Calf Crush by them",
+     3.33333e-06,
+     6.05493e-06,
+     -0.605803
+    ],
+    [
+     "finish type=Foot Lock by me",
+     7.33333e-05,
+     9.89419e-05,
+     -1.41019
+    ],
+    [
+     "finish type=Foot Lock by them",
+     1.66667e-05,
+     1.83045e-05,
+     -0.209684
+    ],
+    [
+     "finish type=Groin Compression by me",
+     6.66667e-06,
+     1.18294e-05,
+     -0.822166
+    ],
+    [
+     "finish type=Groin Compression by them",
+     3.33333e-06,
+     1.16092e-05,
+     -1.33038
+    ],
+    [
+     "finish type=Groin Stretch by me",
+     8e-05,
+     0.000102347,
+     -1.20994
+    ],
+    [
+     "finish type=Groin Stretch by them",
+     1.66667e-05,
+     1.72044e-05,
+     -0.0710075
+    ],
+    [
+     "finish type=Guillotine Choke by me",
+     0.000683333,
+     0.000710546,
+     -0.559351
+    ],
+    [
+     "finish type=Guillotine Choke by them",
+     0.000193333,
+     0.00019049,
+     0.112839
+    ],
+    [
+     "finish type=Heel Hook by me",
+     6.66667e-06,
+     1.1964e-05,
+     -0.838852
+    ],
+    [
+     "finish type=Heel Hook by them",
+     0.0,
+     1.41353e-06,
+     -0.651199
+    ],
+    [
+     "finish type=Hip Lock by me",
+     0.000266667,
+     0.000284494,
+     -0.578983
+    ],
+    [
+     "finish type=Hip Lock by them",
+     2.66667e-05,
+     2.32414e-05,
+     0.389165
+    ],
+    [
+     "finish type=Hyperextension by me",
+     0.00610333,
+     0.00596998,
+     0.948133
+    ],
+    [
+     "finish type=Hyperextension by them",
+     0.00133333,
+     0.00133622,
+     -0.0432675
+    ],
+    [
+     "finish type=Knee Compression by me",
+     0.00331,
+     0.00316129,
+     1.45094
+    ],
+    [
+     "finish type=Knee Compression by them",
+     0.00348,
+     0.00354372,
+     -0.587299
+    ],
+    [
+     "finish type=Knee and Hip Compression by me",
+     0.00123667,
+     0.00113631,
+     1.63149
+    ],
+    [
+     "finish type=Knee and Hip Compression by them",
+     0.000303333,
+     0.000286248,
+     0.553178
+    ],
+    [
+     "finish type=Lapel Choke by me",
+     0.00477667,
+     0.00477994,
+     -0.0260216
+    ],
+    [
+     "finish type=Lapel Choke by them",
+     0.00164,
+     0.00169547,
+     -0.738534
+    ],
+    [
+     "finish type=Leg Compression by me",
+     0.000306667,
+     0.000300556,
+     0.193072
+    ],
+    [
+     "finish type=Leg Compression by them",
+     7e-05,
+     7.02868e-05,
+     -0.0187366
+    ],
+    [
+     "finish type=Leg Compression Lock by me",
+     0.000223333,
+     0.000230281,
+     -0.250791
+    ],
+    [
+     "finish type=Leg Compression Lock by them",
+     2.33333e-05,
+     3.87099e-05,
+     -1.35368
+    ],
+    [
+     "finish type=Leg Lock by me",
+     0.0184233,
+     0.0186502,
+     -0.918566
+    ],
+    [
+     "finish type=Leg Lock by them",
+     0.00737667,
+     0.00759787,
+     -1.3953
+    ],
+    [
+     "finish type=Neck Crank by me",
+     0.00357,
+     0.00362934,
+     -0.540505
+    ],
+    [
+     "finish type=Neck Crank by them",
+     0.00428,
+     0.00410282,
+     1.5182
+    ],
+    [
+     "finish type=Shin Choke by me",
+     1.66667e-05,
+     9.9008e-06,
+     1.17774
+    ],
+    [
+     "finish type=Shin Choke by them",
+     0.0,
+     2.05235e-06,
+     -0.784669
+    ],
+    [
+     "finish type=Shoulder Lock by me",
+     0.196487,
+     0.195643,
+     1.16526
+    ],
+    [
+     "finish type=Shoulder Lock by them",
+     0.06972,
+     0.0703981,
+     -1.45187
+    ],
+    [
+     "finish type=Spinal Compression by me",
+     0.00045,
+     0.00046726,
+     -0.437436
+    ],
+    [
+     "finish type=Spinal Compression by them",
+     0.00029,
+     0.000315834,
+     -0.796314
+    ],
+    [
+     "finish type=Spinal Lock by me",
+     7.66667e-05,
+     8.10308e-05,
+     -0.265556
+    ],
+    [
+     "finish type=Spinal Lock by them",
+     1.33333e-05,
+     1.2926e-05,
+     0.0620591
+    ],
+    [
+     "finish type=Straight Ankle Lock by me",
+     0.00138667,
+     0.00145038,
+     -0.916976
+    ],
+    [
+     "finish type=Straight Ankle Lock by them",
+     0.000333333,
+     0.000327757,
+     0.168724
+    ],
+    [
+     "finish type=Triangle Choke by me",
+     0.00817,
+     0.00820783,
+     -0.229664
+    ],
+    [
+     "finish type=Triangle Choke by them",
+     0.00289,
+     0.00291765,
+     -0.280772
+    ],
+    [
+     "finish type=Wrist Hyperflexion by me",
+     0.00405667,
+     0.00406996,
+     -0.11437
+    ],
+    [
+     "finish type=Wrist Hyperflexion by them",
+     0.00166,
+     0.00168508,
+     -0.334863
+    ],
+    [
+     "chi2 over finishing (technique, performer), as z",
+     393.623,
+     436.0,
+     -1.43507
+    ]
+   ],
+   "seed": 20260924
+  },
+  "gi/symmetric": {
+   "comparisons": 65,
+   "comparisons_finite_z": 63,
+   "exact_vs_kernel": {
+    "finisher_columns_exact_only": [],
+    "finisher_columns_kernel_only": [],
+    "max_abs_dB": 7.77156e-16,
+    "max_abs_dB_fin": 1.66533e-16,
+    "max_abs_dET": 1.24345e-14,
+    "rowsum_err": 2.22045e-16,
+    "states": 532,
+    "states_over_1e-12": 0,
+    "worst_state": "de-la-riva-guard/bottom@T"
+   },
+   "kernel": {
+    "E_visits": 9.83902,
+    "P_D": 0.0,
+    "P_L": 0.452063,
+    "P_W": 0.547937,
+    "absorption_residual": 3.60822e-16
+   },
+   "max_abs_z": 3.15802,
+   "max_abs_z_at": "finish type=Bicep Compression Lock by me",
+   "max_z_signed": -3.15802,
+   "mc": {
+    "E_visits": 9.8336,
+    "P_D": 0.0,
+    "P_L": 0.451893,
+    "P_W": 0.548107,
+    "chain_events": 7668,
+    "chained_landings": 3271,
+    "counts": {
+     "L": 135568,
+     "W": 164432
+    },
+    "truncated": 0,
+    "uniforms_used": 9157908
+   },
+   "reach": {
+    "kernel_reachable": 266,
+    "kernel_reachable_never_visited": [],
+    "mc_visited": 266,
+    "mc_visited_not_kernel_reachable": []
+   },
+   "reading": "actorkeep",
+   "rolls": 300000,
+   "rows": [
+    [
+     "P(W)",
+     0.548107,
+     0.547937,
+     0.186179
+    ],
+    [
+     "P(L)",
+     0.451893,
+     0.452063,
+     -0.186179
+    ],
+    [
+     "P(D)",
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     "E[visits] (=cards + empty-hand visit)",
+     9.8336,
+     9.83902,
+     -0.364851
+    ],
+    [
+     "E[T*1{W}]",
+     5.03246,
+     5.02408,
+     0.608809
+    ],
+    [
+     "E[T | W] (info, ratio)",
+     9.18154,
+     9.16908,
+     null
+    ],
+    [
+     "E[T*1{L}]",
+     4.80114,
+     4.81494,
+     -0.995626
+    ],
+    [
+     "E[T | L] (info, ratio)",
+     10.6245,
+     10.6511,
+     null
+    ],
+    [
+     "finish type=Ankle Lock by me",
+     1.66667e-05,
+     1.28168e-05,
+     0.589007
+    ],
+    [
+     "finish type=Ankle Lock by them",
+     1.66667e-05,
+     1.13436e-05,
+     0.865666
+    ],
+    [
+     "finish type=Arm Crush by me",
+     0.00066,
+     0.000726097,
+     -1.344
+    ],
+    [
+     "finish type=Arm Crush by them",
+     0.00065,
+     0.000638104,
+     0.258025
+    ],
+    [
+     "finish type=Arm Lock by me",
+     0.0947233,
+     0.0939535,
+     1.44524
+    ],
+    [
+     "finish type=Arm Lock by them",
+     0.0764033,
+     0.0762815,
+     0.251354
+    ],
+    [
+     "finish type=Arm-Triangle Choke by me",
+     6.33333e-05,
+     6.40176e-05,
+     -0.0468463
+    ],
+    [
+     "finish type=Arm-Triangle Choke by them",
+     9.66667e-05,
+     7.81429e-05,
+     1.14779
+    ],
+    [
+     "finish type=Bicep Compression Lock by me",
+     3.33333e-05,
+     8.71594e-05,
+     -3.15802
+    ],
+    [
+     "finish type=Bicep Compression Lock by them",
+     7e-05,
+     7.97531e-05,
+     -0.598198
+    ],
+    [
+     "finish type=Blood Choke by me",
+     0.263747,
+     0.263969,
+     -0.276574
+    ],
+    [
+     "finish type=Blood Choke by them",
+     0.218357,
+     0.218283,
+     0.0973096
+    ],
+    [
+     "finish type=Calf Crush by me",
+     6.66667e-06,
+     1.15722e-05,
+     -0.789845
+    ],
+    [
+     "finish type=Calf Crush by them",
+     1.33333e-05,
+     1.11903e-05,
+     0.350886
+    ],
+    [
+     "finish type=Foot Lock by me",
+     6.66667e-05,
+     8.50457e-05,
+     -1.09163
+    ],
+    [
+     "finish type=Foot Lock by them",
+     6e-05,
+     7.53805e-05,
+     -0.970328
+    ],
+    [
+     "finish type=Groin Compression by me",
+     1e-05,
+     9.56992e-06,
+     0.0761488
+    ],
+    [
+     "finish type=Groin Compression by them",
+     6.66667e-06,
+     1.07096e-05,
+     -0.676668
+    ],
+    [
+     "finish type=Groin Stretch by me",
+     4.66667e-05,
+     3.98277e-05,
+     0.593563
+    ],
+    [
+     "finish type=Groin Stretch by them",
+     3.33333e-05,
+     4.08091e-05,
+     -0.640985
+    ],
+    [
+     "finish type=Guillotine Choke by me",
+     0.00065,
+     0.000684134,
+     -0.715035
+    ],
+    [
+     "finish type=Guillotine Choke by them",
+     0.000426667,
+     0.000362104,
+     1.85867
+    ],
+    [
+     "finish type=Heel Hook by me",
+     6.66667e-06,
+     1.05621e-05,
+     -0.656507
+    ],
+    [
+     "finish type=Heel Hook by them",
+     0.0,
+     7.0069e-06,
+     -1.44986
+    ],
+    [
+     "finish type=Hip Lock by me",
+     0.00019,
+     0.00017836,
+     0.477409
+    ],
+    [
+     "finish type=Hip Lock by them",
+     0.000186667,
+     0.000171955,
+     0.614543
+    ],
+    [
+     "finish type=Hyperextension by me",
+     0.00448,
+     0.00451931,
+     -0.321041
+    ],
+    [
+     "finish type=Hyperextension by them",
+     0.00365,
+     0.003623,
+     0.246119
+    ],
+    [
+     "finish type=Knee Compression by me",
+     0.00267,
+     0.00252894,
+     1.53831
+    ],
+    [
+     "finish type=Knee Compression by them",
+     0.00275333,
+     0.00275536,
+     -0.0211759
+    ],
+    [
+     "finish type=Knee and Hip Compression by me",
+     0.000796667,
+     0.000705025,
+     1.89106
+    ],
+    [
+     "finish type=Knee and Hip Compression by them",
+     0.000703333,
+     0.000674626,
+     0.605584
+    ],
+    [
+     "finish type=Lapel Choke by me",
+     0.00370333,
+     0.00368204,
+     0.19258
+    ],
+    [
+     "finish type=Lapel Choke by them",
+     0.00321333,
+     0.00323583,
+     -0.216922
+    ],
+    [
+     "finish type=Leg Compression by me",
+     0.000263333,
+     0.000207151,
+     2.13828
+    ],
+    [
+     "finish type=Leg Compression by them",
+     0.0002,
+     0.000171564,
+     1.18921
+    ],
+    [
+     "finish type=Leg Compression Lock by me",
+     9e-05,
+     8.96123e-05,
+     0.0224315
+    ],
+    [
+     "finish type=Leg Compression Lock by them",
+     7e-05,
+     9.18205e-05,
+     -1.24731
+    ],
+    [
+     "finish type=Leg Lock by me",
+     0.0142367,
+     0.0143096,
+     -0.336401
+    ],
+    [
+     "finish type=Leg Lock by them",
+     0.01132,
+     0.0112659,
+     0.280908
+    ],
+    [
+     "finish type=Neck Crank by me",
+     0.0026,
+     0.00270615,
+     -1.11912
+    ],
+    [
+     "finish type=Neck Crank by them",
+     0.00340333,
+     0.00339764,
+     0.0535827
+    ],
+    [
+     "finish type=Shin Choke by me",
+     1e-05,
+     8.66701e-06,
+     0.248003
+    ],
+    [
+     "finish type=Shin Choke by them",
+     3.33333e-06,
+     6.79749e-06,
+     -0.727755
+    ],
+    [
+     "finish type=Shoulder Lock by me",
+     0.149193,
+     0.149565,
+     -0.571273
+    ],
+    [
+     "finish type=Shoulder Lock by them",
+     0.12319,
+     0.123761,
+     -0.950115
+    ],
+    [
+     "finish type=Spinal Compression by me",
+     0.000243333,
+     0.000207219,
+     1.37428
+    ],
+    [
+     "finish type=Spinal Compression by them",
+     0.000183333,
+     0.000199543,
+     -0.628581
+    ],
+    [
+     "finish type=Spinal Lock by me",
+     6.66667e-05,
+     5.40565e-05,
+     0.939442
+    ],
+    [
+     "finish type=Spinal Lock by them",
+     2.66667e-05,
+     4.27659e-05,
+     -1.34843
+    ],
+    [
+     "finish type=Straight Ankle Lock by me",
+     0.00101333,
+     0.00106232,
+     -0.823713
+    ],
+    [
+     "finish type=Straight Ankle Lock by them",
+     0.000983333,
+     0.000935977,
+     0.848226
+    ],
+    [
+     "finish type=Triangle Choke by me",
+     0.00544667,
+     0.00529293,
+     1.16051
+    ],
+    [
+     "finish type=Triangle Choke by them",
+     0.00357,
+     0.00362952,
+     -0.54214
+    ],
+    [
+     "finish type=Wrist Hyperflexion by me",
+     0.00307333,
+     0.00316727,
+     -0.915711
+    ],
+    [
+     "finish type=Wrist Hyperflexion by them",
+     0.00230333,
+     0.00221966,
+     0.973878
+    ],
+    [
+     "chi2 over finishing (technique, performer), as z",
+     465.987,
+     452.0,
+     0.465216
+    ]
+   ],
+   "seed": 20260924
+  },
+  "nogi/shipped": {
+   "comparisons": 65,
+   "comparisons_finite_z": 63,
+   "exact_vs_kernel": {
+    "finisher_columns_exact_only": [],
+    "finisher_columns_kernel_only": [],
+    "max_abs_dB": 7.77156e-16,
+    "max_abs_dB_fin": 2.22045e-16,
+    "max_abs_dET": 1.59872e-14,
+    "rowsum_err": 2.22045e-16,
+    "states": 532,
+    "states_over_1e-12": 0,
+    "worst_state": "single-leg-x-guard/top@M"
+   },
+   "kernel": {
+    "E_visits": 11.3236,
+    "P_D": 0.0,
+    "P_L": 0.277482,
+    "P_W": 0.722518,
+    "absorption_residual": 4.996e-16
+   },
+   "max_abs_z": 2.57539,
+   "max_abs_z_at": "finish type=Leg Lock by them",
+   "max_z_signed": 2.57539,
+   "mc": {
+    "E_visits": 11.3119,
+    "P_D": 0.0,
+    "P_L": 0.277547,
+    "P_W": 0.722453,
+    "chain_events": 8240,
+    "chained_landings": 3533,
+    "counts": {
+     "L": 83264,
+     "W": 216736
+    },
+    "truncated": 0,
+    "uniforms_used": 10488941
+   },
+   "reach": {
+    "kernel_reachable": 244,
+    "kernel_reachable_never_visited": [
+     "chill-dog/top",
+     "zombie/top"
+    ],
+    "mc_visited": 242,
+    "mc_visited_not_kernel_reachable": []
+   },
+   "reading": "actorkeep",
+   "rolls": 300000,
+   "rows": [
+    [
+     "P(W)",
+     0.722453,
+     0.722518,
+     -0.079638
+    ],
+    [
+     "P(L)",
+     0.277547,
+     0.277482,
+     0.079638
+    ],
+    [
+     "P(D)",
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     "E[visits] (=cards + empty-hand visit)",
+     11.3119,
+     11.3236,
+     -0.65696
+    ],
+    [
+     "E[T*1{W}]",
+     7.84493,
+     7.8475,
+     -0.146836
+    ],
+    [
+     "E[T | W] (info, ratio)",
+     10.8587,
+     10.8613,
+     null
+    ],
+    [
+     "E[T*1{L}]",
+     3.46696,
+     3.47612,
+     -0.657182
+    ],
+    [
+     "E[T | L] (info, ratio)",
+     12.4914,
+     12.5274,
+     null
+    ],
+    [
+     "finish type=Ankle Lock by me",
+     3.33333e-06,
+     4.85432e-06,
+     -0.378114
+    ],
+    [
+     "finish type=Ankle Lock by them",
+     0.0,
+     1.38179e-06,
+     -0.643845
+    ],
+    [
+     "finish type=Arm Crush by me",
+     0.000776667,
+     0.000743533,
+     0.665797
+    ],
+    [
+     "finish type=Arm Crush by them",
+     9.66667e-05,
+     9.26678e-05,
+     0.227537
+    ],
+    [
+     "finish type=Arm Lock by me",
+     0.123007,
+     0.122865,
+     0.235664
+    ],
+    [
+     "finish type=Arm Lock by them",
+     0.0446,
+     0.044706,
+     -0.280892
+    ],
+    [
+     "finish type=Arm-Triangle Choke by me",
+     6e-05,
+     6.52218e-05,
+     -0.354162
+    ],
+    [
+     "finish type=Arm-Triangle Choke by them",
+     2.33333e-05,
+     1.47473e-05,
+     1.22462
+    ],
+    [
+     "finish type=Bicep Compression Lock by me",
+     0.00023,
+     0.000196496,
+     1.30926
+    ],
+    [
+     "finish type=Bicep Compression Lock by them",
+     5e-05,
+     5.9222e-05,
+     -0.656385
+    ],
+    [
+     "finish type=Blood Choke by me",
+     0.31314,
+     0.31462,
+     -1.74529
+    ],
+    [
+     "finish type=Blood Choke by them",
+     0.120583,
+     0.120997,
+     -0.695363
+    ],
+    [
+     "finish type=Calf Crush by me",
+     0.00022,
+     0.000192424,
+     1.08894
+    ],
+    [
+     "finish type=Calf Crush by them",
+     3.33333e-05,
+     4.5352e-05,
+     -0.977524
+    ],
+    [
+     "finish type=Foot Lock by me",
+     9.66667e-05,
+     9.26169e-05,
+     0.230496
+    ],
+    [
+     "finish type=Foot Lock by them",
+     1e-05,
+     1.7194e-05,
+     -0.950269
+    ],
+    [
+     "finish type=Groin Compression by me",
+     2e-05,
+     2.12777e-05,
+     -0.151716
+    ],
+    [
+     "finish type=Groin Compression by them",
+     3e-05,
+     2.66844e-05,
+     0.351563
+    ],
+    [
+     "finish type=Groin Stretch by me",
+     0.000443333,
+     0.000399672,
+     1.19643
+    ],
+    [
+     "finish type=Groin Stretch by them",
+     5.33333e-05,
+     8.2163e-05,
+     -1.74213
+    ],
+    [
+     "finish type=Guillotine Choke by me",
+     0.00263,
+     0.00258033,
+     0.536301
+    ],
+    [
+     "finish type=Guillotine Choke by them",
+     0.00057,
+     0.000624956,
+     -1.20445
+    ],
+    [
+     "finish type=Heel Hook by me",
+     0.000516667,
+     0.000543762,
+     -0.636592
+    ],
+    [
+     "finish type=Heel Hook by them",
+     0.000226667,
+     0.000196658,
+     1.17217
+    ],
+    [
+     "finish type=Hip Lock by me",
+     0.000406667,
+     0.000439505,
+     -0.858123
+    ],
+    [
+     "finish type=Hip Lock by them",
+     6e-05,
+     3.75671e-05,
+     2.00471
+    ],
+    [
+     "finish type=Hyperextension by me",
+     0.00638,
+     0.00639989,
+     -0.136593
+    ],
+    [
+     "finish type=Hyperextension by them",
+     0.00157333,
+     0.00149159,
+     1.16008
+    ],
+    [
+     "finish type=Knee Compression by me",
+     0.00643,
+     0.00640081,
+     0.200487
+    ],
+    [
+     "finish type=Knee Compression by them",
+     0.00706333,
+     0.00687638,
+     1.23914
+    ],
+    [
+     "finish type=Knee and Hip Compression by me",
+     0.00206333,
+     0.00200232,
+     0.747569
+    ],
+    [
+     "finish type=Knee and Hip Compression by them",
+     0.000586667,
+     0.00050128,
+     2.08939
+    ],
+    [
+     "finish type=Lapel Choke by me",
+     0.00483,
+     0.00477807,
+     0.412507
+    ],
+    [
+     "finish type=Lapel Choke by them",
+     0.00145667,
+     0.00161832,
+     -2.20281
+    ],
+    [
+     "finish type=Leg Compression by me",
+     0.00079,
+     0.000720895,
+     1.41024
+    ],
+    [
+     "finish type=Leg Compression by them",
+     0.00017,
+     0.000172096,
+     -0.0875388
+    ],
+    [
+     "finish type=Leg Compression Lock by me",
+     0.000703333,
+     0.000777141,
+     -1.45071
+    ],
+    [
+     "finish type=Leg Compression Lock by them",
+     0.000106667,
+     0.000159761,
+     -2.30097
+    ],
+    [
+     "finish type=Leg Lock by me",
+     0.0343433,
+     0.0345306,
+     -0.561835
+    ],
+    [
+     "finish type=Leg Lock by them",
+     0.0156467,
+     0.0150737,
+     2.57539
+    ],
+    [
+     "finish type=Neck Crank by me",
+     0.00361333,
+     0.00356791,
+     0.417272
+    ],
+    [
+     "finish type=Neck Crank by them",
+     0.00389,
+     0.00398241,
+     -0.803636
+    ],
+    [
+     "finish type=Shin Choke by me",
+     2.66667e-05,
+     3.12963e-05,
+     -0.453281
+    ],
+    [
+     "finish type=Shin Choke by them",
+     3.33333e-06,
+     6.63247e-06,
+     -0.701657
+    ],
+    [
+     "finish type=Shoulder Lock by me",
+     0.204127,
+     0.203171,
+     1.30125
+    ],
+    [
+     "finish type=Shoulder Lock by them",
+     0.0735733,
+     0.0736866,
+     -0.23748
+    ],
+    [
+     "finish type=Spinal Compression by me",
+     0.000686667,
+     0.000679985,
+     0.140402
+    ],
+    [
+     "finish type=Spinal Compression by them",
+     0.00045,
+     0.000418682,
+     0.838499
+    ],
+    [
+     "finish type=Spinal Lock by me",
+     0.000313333,
+     0.000269493,
+     1.46291
+    ],
+    [
+     "finish type=Spinal Lock by them",
+     4.66667e-05,
+     5.30157e-05,
+     -0.477611
+    ],
+    [
+     "finish type=Straight Ankle Lock by me",
+     0.00150667,
+     0.00150957,
+     -0.0410128
+    ],
+    [
+     "finish type=Straight Ankle Lock by them",
+     0.00032,
+     0.00033853,
+     -0.55171
+    ],
+    [
+     "finish type=Triangle Choke by me",
+     0.01363,
+     0.0134388,
+     0.909738
+    ],
+    [
+     "finish type=Triangle Choke by them",
+     0.00562667,
+     0.00549283,
+     0.991857
+    ],
+    [
+     "finish type=Wrist Hyperflexion by me",
+     0.00146,
+     0.00147614,
+     -0.2303
+    ],
+    [
+     "finish type=Wrist Hyperflexion by them",
+     0.000696667,
+     0.000707743,
+     -0.228119
+    ],
+    [
+     "chi2 over finishing (technique, performer), as z",
+     465.643,
+     433.0,
+     1.10927
+    ]
+   ],
+   "seed": 20260924
+  },
+  "nogi/symmetric": {
+   "comparisons": 65,
+   "comparisons_finite_z": 63,
+   "exact_vs_kernel": {
+    "finisher_columns_exact_only": [],
+    "finisher_columns_kernel_only": [],
+    "max_abs_dB": 6.66134e-16,
+    "max_abs_dB_fin": 2.77556e-16,
+    "max_abs_dET": 1.95399e-14,
+    "rowsum_err": 2.22045e-16,
+    "states": 532,
+    "states_over_1e-12": 0,
+    "worst_state": "double-sleeve-guard/bottom@T"
+   },
+   "kernel": {
+    "E_visits": 9.61364,
+    "P_D": 0.0,
+    "P_L": 0.447067,
+    "P_W": 0.552933,
+    "absorption_residual": 3.81639e-16
+   },
+   "max_abs_z": 2.20641,
+   "max_abs_z_at": "finish type=Hyperextension by them",
+   "max_z_signed": -2.20641,
+   "mc": {
+    "E_visits": 9.61144,
+    "P_D": 0.0,
+    "P_L": 0.44753,
+    "P_W": 0.55247,
+    "chain_events": 9015,
+    "chained_landings": 3906,
+    "counts": {
+     "L": 134259,
+     "W": 165741
+    },
+    "truncated": 0,
+    "uniforms_used": 8959314
+   },
+   "reach": {
+    "kernel_reachable": 244,
+    "kernel_reachable_never_visited": [],
+    "mc_visited": 244,
+    "mc_visited_not_kernel_reachable": []
+   },
+   "reading": "actorkeep",
+   "rolls": 300000,
+   "rows": [
+    [
+     "P(W)",
+     0.55247,
+     0.552933,
+     -0.509564
+    ],
+    [
+     "P(L)",
+     0.44753,
+     0.447067,
+     0.509564
+    ],
+    [
+     "P(D)",
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     "E[visits] (=cards + empty-hand visit)",
+     9.61144,
+     9.61364,
+     -0.150526
+    ],
+    [
+     "E[T*1{W}]",
+     4.92446,
+     4.93064,
+     -0.460175
+    ],
+    [
+     "E[T | W] (info, ratio)",
+     8.91354,
+     8.91726,
+     null
+    ],
+    [
+     "E[T*1{L}]",
+     4.68698,
+     4.683,
+     0.291138
+    ],
+    [
+     "E[T | L] (info, ratio)",
+     10.473,
+     10.4749,
+     null
+    ],
+    [
+     "finish type=Ankle Lock by me",
+     0.0,
+     4.11315e-06,
+     -1.11083
+    ],
+    [
+     "finish type=Ankle Lock by them",
+     3.33333e-06,
+     3.72742e-06,
+     -0.111802
+    ],
+    [
+     "finish type=Arm Crush by me",
+     0.000586667,
+     0.000580492,
+     0.140418
+    ],
+    [
+     "finish type=Arm Crush by them",
+     0.00044,
+     0.000479619,
+     -0.991096
+    ],
+    [
+     "finish type=Arm Lock by me",
+     0.09281,
+     0.0931571,
+     -0.654123
+    ],
+    [
+     "finish type=Arm Lock by them",
+     0.07588,
+     0.075634,
+     0.509608
+    ],
+    [
+     "finish type=Arm-Triangle Choke by me",
+     3.66667e-05,
+     4.5578e-05,
+     -0.722998
+    ],
+    [
+     "finish type=Arm-Triangle Choke by them",
+     4e-05,
+     5.10618e-05,
+     -0.847909
+    ],
+    [
+     "finish type=Bicep Compression Lock by me",
+     0.00016,
+     0.000122773,
+     1.84033
+    ],
+    [
+     "finish type=Bicep Compression Lock by them",
+     0.0001,
+     0.000101435,
+     -0.0780223
+    ],
+    [
+     "finish type=Blood Choke by me",
+     0.24294,
+     0.243288,
+     -0.444026
+    ],
+    [
+     "finish type=Blood Choke by them",
+     0.195697,
+     0.195022,
+     0.932982
+    ],
+    [
+     "finish type=Calf Crush by me",
+     0.000116667,
+     8.75723e-05,
+     1.70296
+    ],
+    [
+     "finish type=Calf Crush by them",
+     8.66667e-05,
+     8.47831e-05,
+     0.112049
+    ],
+    [
+     "finish type=Foot Lock by me",
+     9.33333e-05,
+     8.04818e-05,
+     0.784668
+    ],
+    [
+     "finish type=Foot Lock by them",
+     6.66667e-05,
+     6.58382e-05,
+     0.0559275
+    ],
+    [
+     "finish type=Groin Compression by me",
+     1e-05,
+     2.08364e-05,
+     -1.30029
+    ],
+    [
+     "finish type=Groin Compression by them",
+     1.66667e-05,
+     2.24276e-05,
+     -0.6663
+    ],
+    [
+     "finish type=Groin Stretch by me",
+     0.00016,
+     0.000165246,
+     -0.223545
+    ],
+    [
+     "finish type=Groin Stretch by them",
+     0.00014,
+     0.000168488,
+     -1.2022
+    ],
+    [
+     "finish type=Guillotine Choke by me",
+     0.00239,
+     0.00239008,
+     -0.000939186
+    ],
+    [
+     "finish type=Guillotine Choke by them",
+     0.00117333,
+     0.00119395,
+     -0.326964
+    ],
+    [
+     "finish type=Heel Hook by me",
+     0.000456667,
+     0.000449103,
+     0.195532
+    ],
+    [
+     "finish type=Heel Hook by them",
+     0.00035,
+     0.000366438,
+     -0.470417
+    ],
+    [
+     "finish type=Hip Lock by me",
+     0.00031,
+     0.000276337,
+     1.10932
+    ],
+    [
+     "finish type=Hip Lock by them",
+     0.000276667,
+     0.000275628,
+     0.0342748
+    ],
+    [
+     "finish type=Hyperextension by me",
+     0.00468333,
+     0.00483364,
+     -1.18699
+    ],
+    [
+     "finish type=Hyperextension by them",
+     0.00367667,
+     0.00392866,
+     -2.20641
+    ],
+    [
+     "finish type=Knee Compression by me",
+     0.00518667,
+     0.00521494,
+     -0.214995
+    ],
+    [
+     "finish type=Knee Compression by them",
+     0.00531333,
+     0.00536004,
+     -0.350346
+    ],
+    [
+     "finish type=Knee and Hip Compression by me",
+     0.00128,
+     0.0012302,
+     0.778122
+    ],
+    [
+     "finish type=Knee and Hip Compression by them",
+     0.00119,
+     0.00122071,
+     -0.481672
+    ],
+    [
+     "finish type=Lapel Choke by me",
+     0.00375,
+     0.00373034,
+     0.176678
+    ],
+    [
+     "finish type=Lapel Choke by them",
+     0.00294,
+     0.00308211,
+     -1.40419
+    ],
+    [
+     "finish type=Leg Compression by me",
+     0.00051,
+     0.000482529,
+     0.685142
+    ],
+    [
+     "finish type=Leg Compression by them",
+     0.00035,
+     0.000382889,
+     -0.920789
+    ],
+    [
+     "finish type=Leg Compression Lock by me",
+     0.000356667,
+     0.000321312,
+     1.08048
+    ],
+    [
+     "finish type=Leg Compression Lock by them",
+     0.000356667,
+     0.000327616,
+     0.879246
+    ],
+    [
+     "finish type=Leg Lock by me",
+     0.02649,
+     0.0263969,
+     0.318208
+    ],
+    [
+     "finish type=Leg Lock by them",
+     0.0224033,
+     0.0218336,
+     2.13526
+    ],
+    [
+     "finish type=Neck Crank by me",
+     0.00259667,
+     0.00270135,
+     -1.10465
+    ],
+    [
+     "finish type=Neck Crank by them",
+     0.00321667,
+     0.00330064,
+     -0.801907
+    ],
+    [
+     "finish type=Shin Choke by me",
+     4e-05,
+     2.63736e-05,
+     1.45333
+    ],
+    [
+     "finish type=Shin Choke by them",
+     3.33333e-05,
+     2.25958e-05,
+     1.23725
+    ],
+    [
+     "finish type=Shoulder Lock by me",
+     0.156303,
+     0.156157,
+     0.220056
+    ],
+    [
+     "finish type=Shoulder Lock by them",
+     0.124513,
+     0.124896,
+     -0.633528
+    ],
+    [
+     "finish type=Spinal Compression by me",
+     0.000313333,
+     0.000314364,
+     -0.0318576
+    ],
+    [
+     "finish type=Spinal Compression by them",
+     0.00029,
+     0.000302172,
+     -0.3836
+    ],
+    [
+     "finish type=Spinal Lock by me",
+     0.000163333,
+     0.00015312,
+     0.452104
+    ],
+    [
+     "finish type=Spinal Lock by them",
+     0.00017,
+     0.000131496,
+     1.83923
+    ],
+    [
+     "finish type=Straight Ankle Lock by me",
+     0.00111,
+     0.00110434,
+     0.0933799
+    ],
+    [
+     "finish type=Straight Ankle Lock by them",
+     0.000956667,
+     0.000993354,
+     -0.637883
+    ],
+    [
+     "finish type=Triangle Choke by me",
+     0.00855667,
+     0.00851071,
+     0.274
+    ],
+    [
+     "finish type=Triangle Choke by them",
+     0.007,
+     0.00694975,
+     0.331322
+    ],
+    [
+     "finish type=Wrist Hyperflexion by me",
+     0.00106,
+     0.00108742,
+     -0.455678
+    ],
+    [
+     "finish type=Wrist Hyperflexion by them",
+     0.00085,
+     0.000866943,
+     -0.315313
+    ],
+    [
+     "chi2 over finishing (technique, performer), as z",
+     409.678,
+     459.0,
+     -1.62786
+    ]
+   ],
+   "seed": 20260924
+  }
+ },
+ "configurations": [
+  "nogi/shipped",
+  "nogi/symmetric",
+  "gi/shipped",
+  "gi/symmetric"
+ ],
+ "exact_tolerance": 1e-12,
+ "failures": [],
+ "graph_sha256": "4b4bac53dbc798cd36d34c9a45b3cf8d54c05fe8f098812b3974f485c05103da",
+ "independence": {
+  "kernel_import_scope": {
+   "kernel_view": [
+    "_kernel"
+   ]
+  },
+  "module_imports": [
+   "argparse",
+   "ast",
+   "bisect",
+   "collections",
+   "hashlib",
+   "json",
+   "math",
+   "numpy",
+   "pathlib",
+   "sys",
+   "time"
+  ],
+  "repo_modules_loaded_by_the_simulator": 0
+ },
+ "readings": [
+  "outer",
+  "inner",
+  "actorkeep"
+ ],
+ "recompute": "python3 -B scripts/semantics/independent_sim.py",
+ "replication": [
+  {
+   "config": "gi/symmetric",
+   "pooled_rolls": 1200000,
+   "quantity": "finish type=Bicep Compression Lock by me",
+   "replicate_seeds": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "verdict": "REPLICATES AWAY",
+   "z_by_seed": {
+    "1": 1.14451,
+    "2": 0.948937,
+    "3": 0.753367,
+    "4": -1.3979
+   },
+   "z_original": -3.15802,
+   "z_pooled_replicates": 0.724457
+  },
+  {
+   "config": "nogi/shipped",
+   "pooled_rolls": 1200000,
+   "quantity": "finish type=Leg Lock by them",
+   "replicate_seeds": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "verdict": "REPLICATES AWAY",
+   "z_by_seed": {
+    "1": -1.02076,
+    "2": -0.181656,
+    "3": -0.0318162,
+    "4": -1.24552
+   },
+   "z_original": 2.57539,
+   "z_pooled_replicates": -1.23987
+  }
+ ],
+ "rolls": 300000,
+ "schema": "gs-2/independent_sim/v1 (item S5)",
+ "seed": 20260924,
+ "source_sha256": {
+  "scripts/semantics/_kernel.py": "eaf98ff4da81a524fdc4a6b27aa24a399c56d31ebae5fdda76ef810620beae1d",
+  "scripts/semantics/independent_sim.py": "98850e2d7312e9d78a995fcd83652da0e9071ac2e1eb98af5b94c8668d0c97e8",
+  "scripts/solve_edge_values.py": "708c13f6e67b4e9a41e6aeb30c862b56404b325e3d0e1b3fcf1eea76fe5e385f"
+ },
+ "state_test": [
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.48804,
+     "chained_landings": 15978,
+     "z": 1.40893
+    },
+    "inner": {
+     "P_W": 0.494897,
+     "chained_landings": 16251,
+     "z": 8.92267
+    },
+    "outer": {
+     "P_W": 0.488013,
+     "chained_landings": 15965,
+     "z": 1.37971
+    }
+   },
+   "config": "gi/shipped",
+   "kernel_P_W": 0.486754,
+   "state": "honey-hole/bottom@M"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.756,
+     "chained_landings": 42999,
+     "z": 1.3855
+    },
+    "inner": {
+     "P_W": 0.755687,
+     "chained_landings": 42916,
+     "z": 0.986516
+    },
+    "outer": {
+     "P_W": 0.77113,
+     "chained_landings": 45436,
+     "z": 20.6514
+    }
+   },
+   "config": "gi/shipped",
+   "kernel_P_W": 0.754912,
+   "state": "straight-ankle-lock-control/bottom@M"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.367877,
+     "chained_landings": 15910,
+     "z": -0.648687
+    },
+    "inner": {
+     "P_W": 0.37608,
+     "chained_landings": 16179,
+     "z": 8.66579
+    },
+    "outer": {
+     "P_W": 0.368077,
+     "chained_landings": 15914,
+     "z": -0.421597
+    }
+   },
+   "config": "gi/symmetric",
+   "kernel_P_W": 0.368448,
+   "state": "honey-hole/bottom@M"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.63296,
+     "chained_landings": 43504,
+     "z": -0.589927
+    },
+    "inner": {
+     "P_W": 0.632517,
+     "chained_landings": 43453,
+     "z": -1.09386
+    },
+    "outer": {
+     "P_W": 0.652213,
+     "chained_landings": 46286,
+     "z": 21.2953
+    }
+   },
+   "config": "gi/symmetric",
+   "kernel_P_W": 0.633479,
+   "state": "straight-ankle-lock-control/bottom@M"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.504153,
+     "chained_landings": 17871,
+     "z": -0.572324
+    },
+    "inner": {
+     "P_W": 0.511607,
+     "chained_landings": 18280,
+     "z": 7.59275
+    },
+    "outer": {
+     "P_W": 0.504457,
+     "chained_landings": 17992,
+     "z": -0.240024
+    }
+   },
+   "config": "nogi/shipped",
+   "kernel_P_W": 0.504676,
+   "state": "honey-hole/bottom@M"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.757453,
+     "chained_landings": 38957,
+     "z": -0.659392
+    },
+    "inner": {
+     "P_W": 0.757307,
+     "chained_landings": 38918,
+     "z": -0.846948
+    },
+    "outer": {
+     "P_W": 0.7709,
+     "chained_landings": 40719,
+     "z": 16.5361
+    }
+   },
+   "config": "nogi/shipped",
+   "kernel_P_W": 0.757969,
+   "state": "straight-ankle-lock-control/bottom@M"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.61541,
+     "chained_landings": 17792,
+     "z": -0.11909
+    },
+    "inner": {
+     "P_W": 0.60658,
+     "chained_landings": 18299,
+     "z": -10.0608
+    },
+    "outer": {
+     "P_W": 0.615897,
+     "chained_landings": 17819,
+     "z": 0.428851
+    }
+   },
+   "config": "nogi/symmetric",
+   "kernel_P_W": 0.615516,
+   "state": "honey-hole/top@T"
+  },
+  {
+   "by_reading": {
+    "actorkeep": {
+     "P_W": 0.704687,
+     "chained_landings": 50832,
+     "z": 1.55752
+    },
+    "inner": {
+     "P_W": 0.704683,
+     "chained_landings": 50845,
+     "z": 1.55353
+    },
+    "outer": {
+     "P_W": 0.721017,
+     "chained_landings": 53729,
+     "z": 21.1394
+    }
+   },
+   "config": "nogi/symmetric",
+   "kernel_P_W": 0.703388,
+   "state": "inside-sankaku/top@M"
+  }
+ ],
+ "summary": {
+  "comparisons_finite_z_per_configuration": [
+   63
+  ],
+  "configurations": 4,
+  "exact_vs_kernel_max_abs_dB": 1.22125e-15,
+  "exact_vs_kernel_max_abs_dET": 1.95399e-14,
+  "exact_vs_kernel_states": [
+   532
+  ],
+  "largest_deviations_replicate": [
+   "REPLICATES AWAY",
+   "REPLICATES AWAY"
+  ],
+  "max_abs_z": 3.15802,
+  "max_abs_z_where": "gi/symmetric: finish type=Bicep Compression Lock by me",
+  "rolls_per_configuration": 300000,
+  "verdict": "PASS"
+ },
+ "tables": {
+  "gi": {
+   "attempt_le0_dropped": 16,
+   "cards_dealt": 1259,
+   "origin_relaxed_states": 1,
+   "role_nodes": 266,
+   "states": 532
+  },
+  "nogi": {
+   "attempt_le0_dropped": 9,
+   "attempt_null_dropped": 62,
+   "cards_dealt": 1224,
+   "empty_hands": 1,
+   "origin_relaxed_states": 3,
+   "role_nodes": 266,
+   "states": 532
+  }
+ },
+ "z_refutes_at": 4.0
+}

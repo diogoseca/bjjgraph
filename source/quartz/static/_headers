@@ -41,8 +41,14 @@
   Cache-Control: public, max-age=14400, stale-while-revalidate=86400
 /prescript.js
   Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+# /postscript.js is REVALIDATED ON EVERY LOAD (v1.205.1): it carries the deploy's build stamp
+# (window.__NEURAL_BUILD), and the app loader requests neural.js?v=<stamp>. A stale postscript would
+# mean a stale stamp, which would bring back the fixed-URL skew of 2026-09-29: the edge served a
+# 28-hour-old neural.js against fresh data. It costs one 304 per full load, off the render path
+# (a deferred module). It also keeps the auth facade in step with the app. Gated by
+# scripts/check_headers_cache.py (STAMP_CARRIER).
 /postscript.js
-  Cache-Control: public, max-age=14400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=0, must-revalidate
 
 # Install metadata and Android ownership: always revalidate these fixed URLs.
 # Exact paths keep their Cache-Control disjoint from /static/* and the HTML tiers.
@@ -147,10 +153,26 @@
   Content-Signal: search=yes, ai-input=yes
   X-Robots-Tag: noindex, follow
 
+# CSP HOSTS ADDED 2026-10-05 (CONSOLE0), each MEASURED in a real browser against the deployed preview
+# and production, never assumed. The e2e harness aborts every non-localhost request, so it cannot see
+# them. scripts/check_deployed_console.mjs runs after both deploys and names any host missing here.
+#   https://*.bjjgraph.org            script-src + connect-src. PostHog runs behind a reverse proxy on a
+#                                     bjjgraph.org subdomain: POSTHOG_API_HOST, a CI secret. The wildcard
+#                                     names our own domain, not the proxy, and keeps the hostname out of
+#                                     this public file. The *.posthog.com rows stay: they cover a build
+#                                     with a key and no host (componentResources.ts defaults to
+#                                     us.i.posthog.com).
+#   https://static.cloudflareinsights.com   script-src. The Cloudflare Web Analytics beacon. Cloudflare
+#   https://cloudflareinsights.com          connect-src.  injects it at the edge (it is in no built page),
+#                                     so removing it is a dashboard setting, not code. Kept: it
+#                                     counts visitors PostHog misses, and that count is read.
+# The four copies of this policy (here, functions/l/[[path]].js, functions/unsubscribe.js,
+# site/agent-response.mjs) must stay BYTE-IDENTICAL: check_headers_cache.py check 8.
+
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https: blob:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://assets.mediadelivery.net https://www.youtube.com https://s.ytimg.com https://cdn.jsdelivr.net https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms; connect-src 'self' https://api.github.com https://*.supabase.co https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms; worker-src 'self' blob:; manifest-src 'self'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://iframe.mediadelivery.net https://player.mediadelivery.net
+  Content-Security-Policy-Report-Only: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data: https: blob:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://assets.mediadelivery.net https://www.youtube.com https://s.ytimg.com https://cdn.jsdelivr.net https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms https://static.cloudflareinsights.com https://*.bjjgraph.org; connect-src 'self' https://api.github.com https://*.supabase.co https://*.posthog.com https://*.i.posthog.com https://www.clarity.ms https://cloudflareinsights.com https://*.bjjgraph.org; worker-src 'self' blob:; manifest-src 'self'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://iframe.mediadelivery.net https://player.mediadelivery.net

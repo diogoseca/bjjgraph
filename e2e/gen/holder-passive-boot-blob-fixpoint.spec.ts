@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"persistence-reload","B":"idempotence"} @invariant "A passive boot is read-only on the unlock economy: booting a holder performs exactly the one-time challenge-evidence reconciliation (two saves that never touch prep/rec/units/belts/stage), and preserveStorage-reloading twice leaves the blob's economy subset deep-equal with ZERO app writes per idle reload — the load-save cycle is a fixpoint from the first reconciliation on." */
+/* @hyperspace {"theme":"unlock-economy","L":"white-belt-holder","F":"persistence-reload","B":"idempotence"} @invariant "A passive boot is read-only on the unlock economy: booting a holder performs exactly the one-time challenge-evidence reconciliation (two saves that never touch prep/rec/units/stage) and, since v1.211.0, the one-time belt grandfather (one save adding belts.held + belts.gf), and preserveStorage-reloading twice leaves the blob's economy subset deep-equal with ZERO app writes per idle reload — the load-save cycle is a fixpoint from the first reconciliation on." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { whiteBeltHolder } from "./personas"
@@ -45,7 +45,7 @@ import { whiteBeltHolder } from "./personas"
  * UI text, and no resume-row UI assertions by design.
  */
 
-const PROGRESS_KEY = "bjj-neural-progress"
+const PROGRESS_KEY = "bjj-neural-owner:guest:progress"
 
 /** The six-field economy subset every capture must reproduce exactly. Normalizing drops the
  *  save-side extras (days/settings/settingsAt/updatedAt) AND the v1.74 challenge ledgers
@@ -56,9 +56,25 @@ const normalize = (b: any) => ({
   prep: b?.prep,
   rec: b?.rec,
   units: b?.units,
-  belts: b?.belts,
+  belts: beltsOf(b?.belts),
   stage: b?.stage,
 })
+
+/** `belts` with the two v1.211.0 stamps reduced to what they MEAN — the held belt's id and "the
+ *  one-time grandfather has run" — so a capture compares on content, not on the clock. */
+function beltsOf(belts: any) {
+  if (!belts) return belts
+  const out: any = { ...belts }
+  if (out.held) out.held = { id: out.held.id }
+  if (out.gf) out.gf = true
+  return out
+}
+
+// v1.211.0 (owner): the belt is earned in the Challenges and was GRANDFATHERED once. This holder
+// proved every White unit, so the first boot raises it to the belt it wears — blue — and marks
+// the blob. That is the ONLY change to the economy subset, it happens on boot 1 alone, and from
+// then on the load→save cycle is the fixpoint it always was.
+const MIGRATED = (seed: any) => ({ ...seed, belts: { ...seed.belts, held: { id: "blue" }, gf: true } })
 
 // Node-side expectation: the persona seed's own economy subset (personas are the contract —
 // never hand-rolled). Every stored AND live capture across all three boots must deep-equal it.
@@ -91,8 +107,10 @@ test("holder passive boot is a blob fixpoint: economy subset deep-equal across t
    *  challenges presence, per-document progress-key write count. */
   const capture = (label: string) =>
     page.evaluate((k: string) => {
-      const norm = (b: any) => ({ v: b?.v, prep: b?.prep, rec: b?.rec, units: b?.units, belts: b?.belts, stage: b?.stage })
-      const raw = localStorage.getItem(k)
+      // the same reduction as `beltsOf` above (v1.211.0 stamps → their meaning), in the page
+      const belts = (x: any) => (!x ? x : { ...x, ...(x.held ? { held: { id: x.held.id } } : {}), ...(x.gf ? { gf: true } : {}) })
+      const norm = (b: any) => ({ v: b?.v, prep: b?.prep, rec: b?.rec, units: b?.units, belts: belts(b?.belts), stage: b?.stage })
+      const raw = window.__ngGuestProgressRaw()
       const stored = raw ? JSON.parse(raw) : null
       const live = (window as any).__neural._progressBlob()
       return {
@@ -109,20 +127,20 @@ test("holder passive boot is a blob fixpoint: economy subset deep-equal across t
   await j.boot("/", { initialState: whiteBeltHolder() })
   const c1 = await capture("boot1")
 
-  expect(c1.stored, "boot 1: stored blob's economy subset === the persona seed (the reconciliation write never touches it)").toEqual(SEED)
-  expect(c1.live, "boot 1: live _progressBlob() re-serializes to the SAME subset — load is lossless").toEqual(SEED)
+  expect(c1.stored, "boot 1: stored economy subset === the persona seed plus the one-time grandfather (held blue, marked)").toEqual(MIGRATED(SEED))
+  expect(c1.live, "boot 1: live _progressBlob() re-serializes to the SAME subset — load is lossless").toEqual(MIGRATED(SEED))
   expect(c1.storedV, "boot 1: stored v === 2").toBe(2)
   expect(c1.storedUpdatedAt, "boot 1: updatedAt stamped > 0 — the app's reconciliation write landed (seed carries 0)").toBeGreaterThan(0)
   expect(c1.storedChallengeKeys, "boot 1: snapshot evidence ingested — challenges is non-empty after reconciliation").toBeGreaterThan(0)
-  expect(c1.writes, "boot 1: exactly THREE progress-key writes — the DSL's ngseed seed + the app's two challenge-evidence reconciliation saves (load-time + post-ingest)").toBe(3)
+  expect(c1.writes, "boot 1: exactly FOUR progress-key writes — the DSL's ngseed seed + the app's two challenge-evidence reconciliation saves (load-time + post-ingest) + the one-time grandfather saving the belt it raised (v1.211.0; a raised belt saves at once)").toBe(4)
 
   // ── Boot 2: preserveStorage reload — the old document's pagehide _flushSave re-wrote the
   // blob via _progressBlob() on the way out; the NEW document must read back the fixpoint. ──
   await j.boot("/", { preserveStorage: true })
   const c2 = await capture("boot2")
 
-  expect(c2.stored, "reload 1: stored economy subset unchanged — save(load(seed)) is a fixpoint").toEqual(SEED)
-  expect(c2.live, "reload 1: live re-serialization unchanged").toEqual(SEED)
+  expect(c2.stored, "reload 1: stored economy subset unchanged — save(load(seed)) is a fixpoint").toEqual(MIGRATED(SEED))
+  expect(c2.live, "reload 1: live re-serialization unchanged").toEqual(MIGRATED(SEED))
   expect(c2.storedV, "reload 1: stored v === 2 (the meaningful, non-tautological version pin)").toBe(2)
   expect(
     c2.storedUpdatedAt,
@@ -137,8 +155,8 @@ test("holder passive boot is a blob fixpoint: economy subset deep-equal across t
   await j.boot("/", { preserveStorage: true })
   const c3 = await capture("boot3")
 
-  expect(c3.stored, "reload 2: stored economy subset STILL the seed — no churn accumulates").toEqual(SEED)
-  expect(c3.live, "reload 2: live re-serialization STILL the seed").toEqual(SEED)
+  expect(c3.stored, "reload 2: stored economy subset STILL the migrated seed — no churn accumulates").toEqual(MIGRATED(SEED))
+  expect(c3.live, "reload 2: live re-serialization STILL the migrated seed").toEqual(MIGRATED(SEED))
   expect(c3.storedV, "reload 2: stored v === 2").toBe(2)
   expect(c3.storedUpdatedAt, "reload 2: updatedAt still present (each unload re-flushes)").toBeGreaterThan(0)
   expect(

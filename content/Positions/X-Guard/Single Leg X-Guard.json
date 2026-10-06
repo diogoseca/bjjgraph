@@ -725,7 +725,46 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 53,
+          "nogi": 56
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "success"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Butterfly Guard to X-Guard",
@@ -753,7 +792,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 51,
+          "nogi": 57
+        },
+        "outcomes": [
+          {
+            "to": "Inside Ashi-Garami/Top",
+            "probability": {
+              "gi": 57,
+              "nogi": 57
+            },
+            "result": "success"
+          },
+          {
+            "to": "Single Leg X-Guard/Bottom",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Heel Grab Sweep",

@@ -107,7 +107,7 @@
       {
         "transition": "Guard Pull",
         "attempt_probability": {
-          "gi": 16,
+          "gi": 15,
           "nogi": 7
         }
       },
@@ -122,14 +122,14 @@
         "transition": "Single Leg Entry",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 9
+          "nogi": 8
         }
       },
       {
         "transition": "Double Leg Setup",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
@@ -354,6 +354,13 @@
         "attempt_probability": {
           "gi": 3,
           "nogi": 3
+        }
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 2
         }
       }
     ],

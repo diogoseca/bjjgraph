@@ -885,29 +885,29 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 21,
-          "nogi": 14
+          "gi": 20,
+          "nogi": 13
         }
       },
       {
         "transition": "Single Leg X Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 19
+          "gi": 14,
+          "nogi": 17
         }
       },
       {
         "transition": "X-Guard Sweep",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 12
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Granby Roll to Guard",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 18
+          "gi": 11,
+          "nogi": 16
         }
       },
       {
@@ -921,35 +921,74 @@
         "transition": "Reverse X-Guard Entry",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 5
         }
       },
       {
         "transition": "Bolo Sweep",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 5
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 49,
+          "nogi": 43
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 43,
+              "nogi": 43
+            },
+            "result": "success"
+          },
+          {
+            "to": "Inverted Guard/Bottom",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Reverse De La Riva Recovery",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 10
-        }
+          "gi": 10,
+          "nogi": 9
+        },
+        "deal_here": true
       },
       {
         "transition": "Sweep from Inverted Guard",
         "attempt_probability": {
           "gi": 4,
           "nogi": 5
+        }
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 9
         }
       }
     ],

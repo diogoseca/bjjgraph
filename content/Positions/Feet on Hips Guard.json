@@ -330,7 +330,46 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 10
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 42,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "success"
+          },
+          {
+            "to": "Feet on Hips Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Stack Pass",
@@ -764,7 +803,7 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 19,
-          "nogi": 18
+          "nogi": null
         }
       },
       {
@@ -779,7 +818,38 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 8
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 32,
+          "nogi": 30
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "success"
+          },
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Feet on Hips Guard/Bottom",
+            "probability": {
+              "gi": 70,
+              "nogi": 70
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Push Sweep from Feet on Hips",
@@ -807,7 +877,46 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 7
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 46,
+          "nogi": 50
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "success"
+          },
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "success"
+          },
+          {
+            "to": "Feet on Hips Guard/Bottom",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Balloon Sweep",
@@ -848,7 +957,7 @@
         "transition": "Feet on Hips Tripod Sweep",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 5
+          "nogi": 23
         }
       }
     ],

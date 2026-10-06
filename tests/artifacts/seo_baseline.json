@@ -496,9 +496,9 @@
  },
  "Positions/Mount.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount",
-  "content_floor": 13998,
-  "content_hash": "3136ea46dd22c0f0de25a6f1303e72787458c9be1b5c1eb041d8d20cee9c7170",
-  "content_len": 16469,
+  "content_floor": 13412,
+  "content_hash": "87e79185414169c8ec3e981a6699d2ee442a5662d757f2345a6a9a58fc23945b",
+  "content_len": 15779,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount\", \"name\": \"Mount\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"Mount is the dominant top position where you straddle a supine opponent's midsection, worth 4 IBJJF points and prized as jiu-jitsu's best balance of stifling control and high-percentage submission access.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Positions/\", \"name\": \"Mount\"}",
@@ -522,6 +522,7 @@
    "#top-vs-bottom",
    "../../Positions/Back-Control",
    "../../Positions/Closed-Guard",
+   "../../Positions/Gift-Wrap/Attacker",
    "../../Positions/Half-Guard",
    "../../Positions/Knee-on-Belly",
    "../../Positions/Mount",
@@ -702,13 +703,13 @@
  },
  "Positions/Mount/Top.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Top",
-  "content_floor": 12391,
-  "content_hash": "bbc25bbc39aaa32369fd95b7741849386945d7bb700b6749aa5e2812cd11d614",
-  "content_len": 14578,
+  "content_floor": 11781,
+  "content_hash": "6540508f9c08c7ae44e1e4d6028a9b02cca97e258ddfa8e6a9ffb940f4a1f3ba",
+  "content_len": 13861,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Top\", \"name\": \"Mount Top\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Vulnerable to explosive upa or bridge escapes resulting in complete position reversal to closed guard The correct approach is: Maintain hips at solar plexus level with wide base until deliberately advancing to high mount with grips established\"}, \"name\": \"What happens if you sitting too high on opponent's chest without establishing proper base control first?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Creates space for opponent's hip escape and knee insertion leading to guard recovery The correct approach is: Keep hands close to opponent's body using tight grips and maintaining chest-to-chest pressure throughout\"}, \"name\": \"What happens if you posting hands too far from opponent's body during submission transitions?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent escapes mount during overcommitted finish attempt, returning to neutral or guard position The correct approach is: Establish dominant grips and verify control before progressing methodically to submission finish\"}, \"name\": \"What happens if you committing to submissions prematurely without establishing dominant grip control?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent builds progressively stronger frames and eventually creates enough space for guard recovery The correct approach is: Immediately advance to high mount or attack the framing arms when frames are established\"}, \"name\": \"What happens if you allowing opponent to establish frames without immediately transitioning or attacking?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Gives opponent time to develop effective defensive strategy and build frames for escape The correct approach is: Constantly threaten submissions or advance position to maintain offensive pressure and defensive uncertainty\"}, \"name\": \"What happens if you remaining static in low mount without threatening submissions or advancing position?\"}]}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide to attacking and submitting from Mount position in BJJ.\", \"name\": \"How to Attack from Mount Top\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Execute Mount to Armbar\", \"position\": 1, \"text\": \"From this position, attempt Mount to Armbar. This technique is attempted in 7% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Cross Collar Choke from Mount\", \"position\": 2, \"text\": \"From this position, attempt Cross Collar Choke from Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Gift Wrap to Technical Mount\", \"position\": 3, \"text\": \"From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 9% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute S-Mount Transition\", \"position\": 4, \"text\": \"From this position, attempt S-Mount Transition. This technique is attempted in 6% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Mounted Triangle\", \"position\": 5, \"text\": \"From this position, attempt Mounted Triangle. This technique is attempted in 4% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Consolidate Mount\", \"position\": 6, \"text\": \"From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.\"}], \"totalTime\": \"PT2M\"}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"HowTo\", \"description\": \"Step-by-step guide to attacking and submitting from Mount position in BJJ.\", \"name\": \"How to Attack from Mount Top\", \"step\": [{\"@type\": \"HowToStep\", \"name\": \"Execute Mount to Armbar\", \"position\": 1, \"text\": \"From this position, attempt Mount to Armbar. This technique is attempted in 7% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Cross Collar Choke from Mount\", \"position\": 2, \"text\": \"From this position, attempt Cross Collar Choke from Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Gift Wrap to Technical Mount\", \"position\": 3, \"text\": \"From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 1% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute S-Mount Transition\", \"position\": 4, \"text\": \"From this position, attempt S-Mount Transition. This technique is attempted in 6% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Mounted Triangle\", \"position\": 5, \"text\": \"From this position, attempt Mounted Triangle. This technique is attempted in 4% of exchanges from this position.\"}, {\"@type\": \"HowToStep\", \"name\": \"Execute Consolidate Mount\", \"position\": 6, \"text\": \"From this position, attempt Consolidate Mount. This technique is attempted in 11% of exchanges from this position.\"}], \"totalTime\": \"PT2M\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"itemListElement\": [{\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Roger Gracie\"}, \"description\": \"Mount (Top) film study: Cross Collar Chokes from Mount, taught by Roger Gracie.\", \"duration\": \"PT80S\", \"embedUrl\": \"https://www.youtube.com/embed/dfP-Ov8FBUo\", \"name\": \"Cross Collar Chokes from Mount\", \"position\": 1, \"thumbnailUrl\": \"https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=dfP-Ov8FBUo\"}, {\"@type\": \"VideoObject\", \"creator\": {\"@type\": \"Person\", \"name\": \"Formidable Combat\"}, \"description\": \"Mount (Top) film study: Full Mount Top Control Fundamentals, taught by Formidable Combat.\", \"duration\": \"PT106S\", \"embedUrl\": \"https://www.youtube.com/embed/SGZ5wD3z73Q\", \"name\": \"Full Mount Top Control Fundamentals\", \"position\": 2, \"thumbnailUrl\": \"https://i.ytimg.com/vi/SGZ5wD3z73Q/hqdefault.jpg\", \"url\": \"https://www.youtube.com/watch?v=SGZ5wD3z73Q\"}], \"name\": \"Mount (Top) — Film Study\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"alternateName\": [\"Full Mount\", \"Tate Shiho Gatame\"], \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master offensive strategies from top Mount in BJJ. Learn control mechanics, submission chains, and systematic positional progression to finish from mount.\", \"disambiguatingDescription\": \"Often confused with Reverse Mount — Reverse Mount faces away from your opponent, not toward them.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Mount Top\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}}"
@@ -1113,12 +1114,12 @@
  },
  "Principles.html": {
   "canonical": "https://bjjgraph.org/Principles",
-  "content_floor": 9634,
-  "content_hash": "80def6bc5118c171338064ecaf79bd6a6e936e840e88064b5a70e4385ff61633",
-  "content_len": 11335,
+  "content_floor": 7518,
+  "content_hash": "ad299e2b0835dfe02457f1c017e29e87b248adbbcb1c29f64f320834f2ad8dac",
+  "content_len": 8845,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/principles\", \"name\": \"Principles\", \"position\": 2}]}",
-   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"description\": \"Complete list of BJJ principles with detailed guides\", \"itemListElement\": [{\"@type\": \"ListItem\", \"name\": \"Action and Reaction\", \"position\": 1, \"url\": \"https://bjjgraph.org/Principles/action-and-reaction\"}, {\"@type\": \"ListItem\", \"name\": \"Air Chokes\", \"position\": 2, \"url\": \"https://bjjgraph.org/Principles/air-chokes\"}, {\"@type\": \"ListItem\", \"name\": \"Alignment\", \"position\": 3, \"url\": \"https://bjjgraph.org/Principles/alignment\"}, {\"@type\": \"ListItem\", \"name\": \"Base\", \"position\": 4, \"url\": \"https://bjjgraph.org/Principles/base\"}, {\"@type\": \"ListItem\", \"name\": \"Blood Chokes\", \"position\": 5, \"url\": \"https://bjjgraph.org/Principles/blood-chokes\"}, {\"@type\": \"ListItem\", \"name\": \"Bridge and Shrimp\", \"position\": 6, \"url\": \"https://bjjgraph.org/Principles/bridge-and-shrimp\"}, {\"@type\": \"ListItem\", \"name\": \"Center of Gravity\", \"position\": 7, \"url\": \"https://bjjgraph.org/Principles/center-of-gravity\"}, {\"@type\": \"ListItem\", \"name\": \"Chest Compression\", \"position\": 8, \"url\": \"https://bjjgraph.org/Principles/chest-compression\"}, {\"@type\": \"ListItem\", \"name\": \"Chin Protection\", \"position\": 9, \"url\": \"https://bjjgraph.org/Principles/chin-protection\"}, {\"@type\": \"ListItem\", \"name\": \"Clamps\", \"position\": 10, \"url\": \"https://bjjgraph.org/Principles/clamps\"}, {\"@type\": \"ListItem\", \"name\": \"Collar Control\", \"position\": 11, \"url\": \"https://bjjgraph.org/Principles/collar-control\"}, {\"@type\": \"ListItem\", \"name\": \"Competition Mindset\", \"position\": 12, \"url\": \"https://bjjgraph.org/Principles/competition-mindset\"}, {\"@type\": \"ListItem\", \"name\": \"Compression Locks\", \"position\": 13, \"url\": \"https://bjjgraph.org/Principles/compression-locks\"}, {\"@type\": \"ListItem\", \"name\": \"Connection Principles\", \"position\": 14, \"url\": \"https://bjjgraph.org/Principles/connection-principles\"}, {\"@type\": \"ListItem\", \"name\": \"Control Maintenance\", \"position\": 15, \"url\": \"https://bjjgraph.org/Principles/control-maintenance\"}, {\"@type\": \"ListItem\", \"name\": \"Control Point Hierarchy\", \"position\": 16, \"url\": \"https://bjjgraph.org/Principles/control-point-hierarchy\"}, {\"@type\": \"ListItem\", \"name\": \"Cranks\", \"position\": 17, \"url\": \"https://bjjgraph.org/Principles/cranks\"}, {\"@type\": \"ListItem\", \"name\": \"Cross Face Control\", \"position\": 18, \"url\": \"https://bjjgraph.org/Principles/cross-face-control\"}, {\"@type\": \"ListItem\", \"name\": \"Dealing with Pressure\", \"position\": 19, \"url\": \"https://bjjgraph.org/Principles/dealing-with-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Defensive Concepts\", \"position\": 20, \"url\": \"https://bjjgraph.org/Principles/defensive-concepts\"}, {\"@type\": \"ListItem\", \"name\": \"Distance Control\", \"position\": 21, \"url\": \"https://bjjgraph.org/Principles/distance-control\"}, {\"@type\": \"ListItem\", \"name\": \"Dominant Angles\", \"position\": 22, \"url\": \"https://bjjgraph.org/Principles/dominant-angles\"}, {\"@type\": \"ListItem\", \"name\": \"Elbow-Knee Connection\", \"position\": 23, \"url\": \"https://bjjgraph.org/Principles/elbow-knee-connection\"}, {\"@type\": \"ListItem\", \"name\": \"Energy Conservation\", \"position\": 24, \"url\": \"https://bjjgraph.org/Principles/energy-conservation\"}, {\"@type\": \"ListItem\", \"name\": \"Escape Fundamentals\", \"position\": 25, \"url\": \"https://bjjgraph.org/Principles/escape-fundamentals\"}, {\"@type\": \"ListItem\", \"name\": \"Flow Rolling\", \"position\": 26, \"url\": \"https://bjjgraph.org/Principles/flow-rolling\"}, {\"@type\": \"ListItem\", \"name\": \"Fork Attacks\", \"position\": 27, \"url\": \"https://bjjgraph.org/Principles/fork-attacks\"}, {\"@type\": \"ListItem\", \"name\": \"Forward Pressure\", \"position\": 28, \"url\": \"https://bjjgraph.org/Principles/forward-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Frames\", \"position\": 29, \"url\": \"https://bjjgraph.org/Principles/frames\"}, {\"@type\": \"ListItem\", \"name\": \"Grips\", \"position\": 30, \"url\": \"https://bjjgraph.org/Principles/grips\"}, {\"@type\": \"ListItem\", \"name\": \"Guard Passing\", \"position\": 31, \"url\": \"https://bjjgraph.org/Principles/guard-passing\"}, {\"@type\": \"ListItem\", \"name\": \"Hand Fighting\", \"position\": 32, \"url\": \"https://bjjgraph.org/Principles/hand-fighting\"}, {\"@type\": \"ListItem\", \"name\": \"Head Position\", \"position\": 33, \"url\": \"https://bjjgraph.org/Principles/head-position\"}, {\"@type\": \"ListItem\", \"name\": \"Hip Escape Mechanics\", \"position\": 34, \"url\": \"https://bjjgraph.org/Principles/hip-escape-mechanics\"}, {\"@type\": \"ListItem\", \"name\": \"Hip Pressure\", \"position\": 35, \"url\": \"https://bjjgraph.org/Principles/hip-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Hooks\", \"position\": 36, \"url\": \"https://bjjgraph.org/Principles/hooks\"}, {\"@type\": \"ListItem\", \"name\": \"Hyperextension\", \"position\": 37, \"url\": \"https://bjjgraph.org/Principles/hyperextension\"}, {\"@type\": \"ListItem\", \"name\": \"Inside Position\", \"position\": 38, \"url\": \"https://bjjgraph.org/Principles/inside-position\"}, {\"@type\": \"ListItem\", \"name\": \"Kuzushi\", \"position\": 39, \"url\": \"https://bjjgraph.org/Principles/kuzushi\"}, {\"@type\": \"ListItem\", \"name\": \"Leg Entanglement\", \"position\": 40, \"url\": \"https://bjjgraph.org/Principles/leg-entanglement\"}, {\"@type\": \"ListItem\", \"name\": \"Levers\", \"position\": 41, \"url\": \"https://bjjgraph.org/Principles/levers\"}, {\"@type\": \"ListItem\", \"name\": \"Limb Isolation\", \"position\": 42, \"url\": \"https://bjjgraph.org/Principles/limb-isolation\"}, {\"@type\": \"ListItem\", \"name\": \"Making Smaller Circles\", \"position\": 43, \"url\": \"https://bjjgraph.org/Principles/making-smaller-circles\"}, {\"@type\": \"ListItem\", \"name\": \"Maximum Efficiency Principle\", \"position\": 44, \"url\": \"https://bjjgraph.org/Principles/maximum-efficiency-principle\"}, {\"@type\": \"ListItem\", \"name\": \"Position Chains\", \"position\": 45, \"url\": \"https://bjjgraph.org/Principles/position-chains\"}, {\"@type\": \"ListItem\", \"name\": \"Position-Over-Submission Approach\", \"position\": 46, \"url\": \"https://bjjgraph.org/Principles/position-over-submission-approach\"}, {\"@type\": \"ListItem\", \"name\": \"Positional Hierarchy\", \"position\": 47, \"url\": \"https://bjjgraph.org/Principles/positional-hierarchy\"}, {\"@type\": \"ListItem\", \"name\": \"Positional Sparring\", \"position\": 48, \"url\": \"https://bjjgraph.org/Principles/positional-sparring\"}, {\"@type\": \"ListItem\", \"name\": \"Posts\", \"position\": 49, \"url\": \"https://bjjgraph.org/Principles/posts\"}, {\"@type\": \"ListItem\", \"name\": \"Posture\", \"position\": 50, \"url\": \"https://bjjgraph.org/Principles/posture\"}, {\"@type\": \"ListItem\", \"name\": \"Pressure\", \"position\": 51, \"url\": \"https://bjjgraph.org/Principles/pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Rotational Breaks\", \"position\": 52, \"url\": \"https://bjjgraph.org/Principles/rotational-breaks\"}, {\"@type\": \"ListItem\", \"name\": \"Shoulder Pressure\", \"position\": 53, \"url\": \"https://bjjgraph.org/Principles/shoulder-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Sleeve Control\", \"position\": 54, \"url\": \"https://bjjgraph.org/Principles/sleeve-control\"}, {\"@type\": \"ListItem\", \"name\": \"Structure\", \"position\": 55, \"url\": \"https://bjjgraph.org/Principles/structure\"}, {\"@type\": \"ListItem\", \"name\": \"Submission Chains\", \"position\": 56, \"url\": \"https://bjjgraph.org/Principles/submission-chains\"}, {\"@type\": \"ListItem\", \"name\": \"Submission Defense\", \"position\": 57, \"url\": \"https://bjjgraph.org/Principles/submission-defense\"}, {\"@type\": \"ListItem\", \"name\": \"Timing and Rhythm\", \"position\": 58, \"url\": \"https://bjjgraph.org/Principles/timing-and-rhythm\"}, {\"@type\": \"ListItem\", \"name\": \"Torque\", \"position\": 59, \"url\": \"https://bjjgraph.org/Principles/torque\"}, {\"@type\": \"ListItem\", \"name\": \"Transition Management\", \"position\": 60, \"url\": \"https://bjjgraph.org/Principles/transition-management\"}, {\"@type\": \"ListItem\", \"name\": \"Wedges\", \"position\": 61, \"url\": \"https://bjjgraph.org/Principles/wedges\"}, {\"@type\": \"ListItem\", \"name\": \"Whizzer Control\", \"position\": 62, \"url\": \"https://bjjgraph.org/Principles/whizzer-control\"}], \"name\": \"BJJ Principles\"}",
+   "{\"@context\": \"https://schema.org\", \"@type\": \"ItemList\", \"description\": \"Complete list of BJJ principles with detailed guides\", \"itemListElement\": [{\"@type\": \"ListItem\", \"name\": \"Action and Reaction\", \"position\": 1, \"url\": \"https://bjjgraph.org/Principles/action-and-reaction\"}, {\"@type\": \"ListItem\", \"name\": \"Air Chokes\", \"position\": 2, \"url\": \"https://bjjgraph.org/Principles/air-chokes\"}, {\"@type\": \"ListItem\", \"name\": \"Alignment\", \"position\": 3, \"url\": \"https://bjjgraph.org/Principles/alignment\"}, {\"@type\": \"ListItem\", \"name\": \"Base\", \"position\": 4, \"url\": \"https://bjjgraph.org/Principles/base\"}, {\"@type\": \"ListItem\", \"name\": \"Blood Chokes\", \"position\": 5, \"url\": \"https://bjjgraph.org/Principles/blood-chokes\"}, {\"@type\": \"ListItem\", \"name\": \"Bridge and Shrimp\", \"position\": 6, \"url\": \"https://bjjgraph.org/Principles/bridge-and-shrimp\"}, {\"@type\": \"ListItem\", \"name\": \"Center of Gravity\", \"position\": 7, \"url\": \"https://bjjgraph.org/Principles/center-of-gravity\"}, {\"@type\": \"ListItem\", \"name\": \"Chest Compression\", \"position\": 8, \"url\": \"https://bjjgraph.org/Principles/chest-compression\"}, {\"@type\": \"ListItem\", \"name\": \"Chin Protection\", \"position\": 9, \"url\": \"https://bjjgraph.org/Principles/chin-protection\"}, {\"@type\": \"ListItem\", \"name\": \"Clamps\", \"position\": 10, \"url\": \"https://bjjgraph.org/Principles/clamps\"}, {\"@type\": \"ListItem\", \"name\": \"Collar Control\", \"position\": 11, \"url\": \"https://bjjgraph.org/Principles/collar-control\"}, {\"@type\": \"ListItem\", \"name\": \"Competition Mindset\", \"position\": 12, \"url\": \"https://bjjgraph.org/Principles/competition-mindset\"}, {\"@type\": \"ListItem\", \"name\": \"Compression Locks\", \"position\": 13, \"url\": \"https://bjjgraph.org/Principles/compression-locks\"}, {\"@type\": \"ListItem\", \"name\": \"Connection Principles\", \"position\": 14, \"url\": \"https://bjjgraph.org/Principles/connection-principles\"}, {\"@type\": \"ListItem\", \"name\": \"Control Maintenance\", \"position\": 15, \"url\": \"https://bjjgraph.org/Principles/control-maintenance\"}, {\"@type\": \"ListItem\", \"name\": \"Control Point Hierarchy\", \"position\": 16, \"url\": \"https://bjjgraph.org/Principles/control-point-hierarchy\"}, {\"@type\": \"ListItem\", \"name\": \"Cranks\", \"position\": 17, \"url\": \"https://bjjgraph.org/Principles/cranks\"}, {\"@type\": \"ListItem\", \"name\": \"Cross Face Control\", \"position\": 18, \"url\": \"https://bjjgraph.org/Principles/cross-face-control\"}, {\"@type\": \"ListItem\", \"name\": \"Dealing with Pressure\", \"position\": 19, \"url\": \"https://bjjgraph.org/Principles/dealing-with-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Defensive Concepts\", \"position\": 20, \"url\": \"https://bjjgraph.org/Principles/defensive-concepts\"}, {\"@type\": \"ListItem\", \"name\": \"Distance Control\", \"position\": 21, \"url\": \"https://bjjgraph.org/Principles/distance-control\"}, {\"@type\": \"ListItem\", \"name\": \"Dominant Angles\", \"position\": 22, \"url\": \"https://bjjgraph.org/Principles/dominant-angles\"}, {\"@type\": \"ListItem\", \"name\": \"Elbow-Knee Connection\", \"position\": 23, \"url\": \"https://bjjgraph.org/Principles/elbow-knee-connection\"}, {\"@type\": \"ListItem\", \"name\": \"Energy Conservation\", \"position\": 24, \"url\": \"https://bjjgraph.org/Principles/energy-conservation\"}, {\"@type\": \"ListItem\", \"name\": \"Escape Fundamentals\", \"position\": 25, \"url\": \"https://bjjgraph.org/Principles/escape-fundamentals\"}, {\"@type\": \"ListItem\", \"name\": \"Flow Rolling\", \"position\": 26, \"url\": \"https://bjjgraph.org/Principles/flow-rolling\"}, {\"@type\": \"ListItem\", \"name\": \"Fork Attacks\", \"position\": 27, \"url\": \"https://bjjgraph.org/Principles/fork-attacks\"}, {\"@type\": \"ListItem\", \"name\": \"Forward Pressure\", \"position\": 28, \"url\": \"https://bjjgraph.org/Principles/forward-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Frames\", \"position\": 29, \"url\": \"https://bjjgraph.org/Principles/frames\"}, {\"@type\": \"ListItem\", \"name\": \"Grips\", \"position\": 30, \"url\": \"https://bjjgraph.org/Principles/grips\"}, {\"@type\": \"ListItem\", \"name\": \"Guard Passing\", \"position\": 31, \"url\": \"https://bjjgraph.org/Principles/guard-passing\"}, {\"@type\": \"ListItem\", \"name\": \"Hand Fighting\", \"position\": 32, \"url\": \"https://bjjgraph.org/Principles/hand-fighting\"}, {\"@type\": \"ListItem\", \"name\": \"Head Position\", \"position\": 33, \"url\": \"https://bjjgraph.org/Principles/head-position\"}, {\"@type\": \"ListItem\", \"name\": \"Hip Escape Mechanics\", \"position\": 34, \"url\": \"https://bjjgraph.org/Principles/hip-escape-mechanics\"}, {\"@type\": \"ListItem\", \"name\": \"Hip Pressure\", \"position\": 35, \"url\": \"https://bjjgraph.org/Principles/hip-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Hooks\", \"position\": 36, \"url\": \"https://bjjgraph.org/Principles/hooks\"}, {\"@type\": \"ListItem\", \"name\": \"Hyperextension\", \"position\": 37, \"url\": \"https://bjjgraph.org/Principles/hyperextension\"}, {\"@type\": \"ListItem\", \"name\": \"Inside Position\", \"position\": 38, \"url\": \"https://bjjgraph.org/Principles/inside-position\"}, {\"@type\": \"ListItem\", \"name\": \"Kuzushi\", \"position\": 39, \"url\": \"https://bjjgraph.org/Principles/kuzushi\"}, {\"@type\": \"ListItem\", \"name\": \"Leg Entanglement\", \"position\": 40, \"url\": \"https://bjjgraph.org/Principles/leg-entanglement\"}, {\"@type\": \"ListItem\", \"name\": \"Levers\", \"position\": 41, \"url\": \"https://bjjgraph.org/Principles/levers\"}, {\"@type\": \"ListItem\", \"name\": \"Limb Isolation\", \"position\": 42, \"url\": \"https://bjjgraph.org/Principles/limb-isolation\"}, {\"@type\": \"ListItem\", \"name\": \"Making Smaller Circles\", \"position\": 43, \"url\": \"https://bjjgraph.org/Principles/making-smaller-circles\"}, {\"@type\": \"ListItem\", \"name\": \"Maximum Efficiency Principle\", \"position\": 44, \"url\": \"https://bjjgraph.org/Principles/maximum-efficiency-principle\"}, {\"@type\": \"ListItem\", \"name\": \"Microing\", \"position\": 45, \"url\": \"https://bjjgraph.org/Principles/microing\"}, {\"@type\": \"ListItem\", \"name\": \"Position Chains\", \"position\": 46, \"url\": \"https://bjjgraph.org/Principles/position-chains\"}, {\"@type\": \"ListItem\", \"name\": \"Position-Over-Submission Approach\", \"position\": 47, \"url\": \"https://bjjgraph.org/Principles/position-over-submission-approach\"}, {\"@type\": \"ListItem\", \"name\": \"Positional Hierarchy\", \"position\": 48, \"url\": \"https://bjjgraph.org/Principles/positional-hierarchy\"}, {\"@type\": \"ListItem\", \"name\": \"Positional Sparring\", \"position\": 49, \"url\": \"https://bjjgraph.org/Principles/positional-sparring\"}, {\"@type\": \"ListItem\", \"name\": \"Posts\", \"position\": 50, \"url\": \"https://bjjgraph.org/Principles/posts\"}, {\"@type\": \"ListItem\", \"name\": \"Posture\", \"position\": 51, \"url\": \"https://bjjgraph.org/Principles/posture\"}, {\"@type\": \"ListItem\", \"name\": \"Pressure\", \"position\": 52, \"url\": \"https://bjjgraph.org/Principles/pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Rotational Breaks\", \"position\": 53, \"url\": \"https://bjjgraph.org/Principles/rotational-breaks\"}, {\"@type\": \"ListItem\", \"name\": \"Shoulder Pressure\", \"position\": 54, \"url\": \"https://bjjgraph.org/Principles/shoulder-pressure\"}, {\"@type\": \"ListItem\", \"name\": \"Sleeve Control\", \"position\": 55, \"url\": \"https://bjjgraph.org/Principles/sleeve-control\"}, {\"@type\": \"ListItem\", \"name\": \"Structure\", \"position\": 56, \"url\": \"https://bjjgraph.org/Principles/structure\"}, {\"@type\": \"ListItem\", \"name\": \"Submission Chains\", \"position\": 57, \"url\": \"https://bjjgraph.org/Principles/submission-chains\"}, {\"@type\": \"ListItem\", \"name\": \"Submission Defense\", \"position\": 58, \"url\": \"https://bjjgraph.org/Principles/submission-defense\"}, {\"@type\": \"ListItem\", \"name\": \"Timing and Rhythm\", \"position\": 59, \"url\": \"https://bjjgraph.org/Principles/timing-and-rhythm\"}, {\"@type\": \"ListItem\", \"name\": \"Torque\", \"position\": 60, \"url\": \"https://bjjgraph.org/Principles/torque\"}, {\"@type\": \"ListItem\", \"name\": \"Transition Management\", \"position\": 61, \"url\": \"https://bjjgraph.org/Principles/transition-management\"}, {\"@type\": \"ListItem\", \"name\": \"Wedges\", \"position\": 62, \"url\": \"https://bjjgraph.org/Principles/wedges\"}, {\"@type\": \"ListItem\", \"name\": \"Whizzer Control\", \"position\": 63, \"url\": \"https://bjjgraph.org/Principles/whizzer-control\"}], \"name\": \"BJJ Principles\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"WebPage\", \"dateModified\": \"<volatile>\", \"datePublished\": \"<volatile>\", \"description\": \"Master fundamental BJJ principles and concepts. Complete guide to leverage, positioning, control, and strategic thinking. Build a deep understanding of the art.\", \"isPartOf\": {\"@type\": \"WebSite\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"name\": \"Principles | BJJ Concept Guide\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"BJJ Graph\", \"url\": \"https://bjjgraph.org\"}, \"url\": \"https://bjjgraph.org/principles\"}"
   ],
@@ -1167,6 +1168,7 @@
    "#limb-isolation",
    "#making-smaller-circles",
    "#maximum-efficiency-principle",
+   "#microing",
    "#position-chains",
    "#position-over-submission-approach",
    "#positional-hierarchy",
@@ -1229,6 +1231,7 @@
    "../Principles/Limb-Isolation",
    "../Principles/Making-Smaller-Circles",
    "../Principles/Maximum-Efficiency-Principle",
+   "../Principles/Microing",
    "../Principles/Position-Chains",
    "../Principles/Position-Over-Submission-Approach",
    "../Principles/Positional-Hierarchy",
@@ -1727,8 +1730,50 @@
   "title": "Armbar from Back Transition Attacker | BJJ Technique Guide | BJJ Graph"
  },
  "_meta": {
+  "content_provenance": {
+   "capture_git_head": "bac9386f004186d4a14b7c528f7977d74610bbc2",
+   "capture_id": "da4aca6b8c854c7db7d08861e80462f0",
+   "content_clean_at_end": true,
+   "content_clean_at_start": true,
+   "content_files": 6412,
+   "content_md": 4601,
+   "content_tree": "110d50fcea322d4ddb0857617d043e76d07f7f87",
+   "dirty_paths_end": [],
+   "dirty_paths_start": [],
+   "environment_assertions": {
+    "TZ": {
+     "expected": "UTC",
+     "node_timezone": "UTC",
+     "observed": "UTC",
+     "probes": [
+      {
+       "iso": "2026-01-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jan 01, 2026"
+      },
+      {
+       "iso": "2026-07-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jul 01, 2026"
+      }
+     ],
+     "scope": "inherited build environment; child Node observed before execution"
+    }
+   },
+   "output_identity": {
+    "files": 15996,
+    "sha256": "d261cf8e7d77490f292a325fafb78d245a105c0a452f4e1c4d0f4af6a825a1c0"
+   },
+   "output_roots": [
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-principles-hub-drift-bac9386f0/pr-principles-hub-drift-bac9386f0"
+   ],
+   "schema": "quartz-content-provenance-v1",
+   "state": "complete"
+  },
   "floor_ratio": 0.85,
   "format": 2,
+  "tag_content_region": "popover-hint containing article, including sibling listings",
   "volatile_jsonld_keys": [
    "datePublished",
    "dateModified",
@@ -1797,13 +1842,17 @@
  },
  "tags/beginner.html": {
   "canonical": "https://bjjgraph.org/tags/beginner",
-  "content_floor": 0,
-  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "content_len": 0,
+  "content_floor": 199,
+  "content_hash": "5c7ff939a8f93bf6b5c9d4f7a70aac6681dac04b2b8815d0dd2e0491a66c8710",
+  "content_len": 235,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
   ],
-  "links": [],
+  "links": [
+   "../../Learning/BJJ-For-Beginners-Roadmap",
+   "../../Learning/BJJ-Guard-Types-Explained",
+   "../../Learning/BJJ-Position-Hierarchy-Explained"
+  ],
   "meta": {
    "description": "No description provided",
    "og:description": "No description provided",
@@ -1817,5 +1866,127 @@
    "og:width": "1200"
   },
   "title": "Tag: beginner"
+ },
+ "tags/index.html": {
+  "canonical": "https://bjjgraph.org/tags/",
+  "content_floor": 8858,
+  "content_hash": "2c75d2c49e93fd72ae35bd1acbe24ff8b136141f2e54e2a8eced0ca812ac86cb",
+  "content_len": 10422,
+  "ldjson": [
+   "{\"@context\": \"https://schema.org\", \"@type\": \"Organization\", \"description\": \"Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls\", \"logo\": \"https://bjjgraph.org/static/icon.png\", \"name\": \"BJJ Graph\", \"sameAs\": [\"https://github.com/diogoseca/bjjgraph\"], \"url\": \"https://bjjgraph.org\"}"
+  ],
+  "links": [
+   "../Learning/Asymmetric-Warfare",
+   "../Learning/BJJ-For-Beginners-Roadmap",
+   "../Learning/BJJ-Guard-Types-Explained",
+   "../Learning/BJJ-Position-Hierarchy-Explained",
+   "../Learning/Committed-Techniques",
+   "../Learning/Conscious-Mastery",
+   "../Learning/Defend-With-Purpose",
+   "../Learning/Double-Down-on-Strengths",
+   "../Learning/Economy-of-Motion",
+   "../Learning/Funneling",
+   "../Learning/Investing-in-Loss",
+   "../Learning/Layers-of-Guard",
+   "../Learning/Mask-Your-Intentions",
+   "../Learning/Path-of-Least-Resistance",
+   "../Learning/Pattern-Interrupts",
+   "../Learning/Phases-of-Guard",
+   "../Learning/Phases-of-Passing",
+   "../Learning/Position-Over-Submission",
+   "../Learning/Predictable-Responses",
+   "../Learning/Prevention-Over-Cure",
+   "../Learning/Probabilistic-Thinking",
+   "../Learning/Static-vs-Dynamic-Control",
+   "../Learning/Technique-Chaining",
+   "../Learning/Timing-Windows",
+   "../Learning/Training-Intensity",
+   "../Learning/Training-Partner-Diversity",
+   "../tags/action-reaction",
+   "../tags/adaptability",
+   "../tags/adaptation",
+   "../tags/angles",
+   "../tags/asymmetry",
+   "../tags/attack-sequences",
+   "../tags/awareness",
+   "../tags/beginner",
+   "../tags/bjj",
+   "../tags/bottom-game",
+   "../tags/combinations",
+   "../tags/committed-techniques",
+   "../tags/conscious-mastery",
+   "../tags/consolidation",
+   "../tags/control",
+   "../tags/deception",
+   "../tags/defense",
+   "../tags/defense-in-depth",
+   "../tags/disentangle",
+   "../tags/double-down-on-strengths",
+   "../tags/economy-of-motion",
+   "../tags/efficiency",
+   "../tags/engagement",
+   "../tags/escapes",
+   "../tags/feints",
+   "../tags/frames",
+   "../tags/fundamentals",
+   "../tags/funneling",
+   "../tags/game-planning",
+   "../tags/grips",
+   "../tags/guard",
+   "../tags/guard-layers",
+   "../tags/guard-maintenance",
+   "../tags/guard-passing",
+   "../tags/guard-retention",
+   "../tags/investing-in-loss",
+   "../tags/learning",
+   "../tags/matchup",
+   "../tags/misdirection",
+   "../tags/movement",
+   "../tags/offense",
+   "../tags/offensive-strategy",
+   "../tags/offensive-timing",
+   "../tags/option-reduction",
+   "../tags/passing",
+   "../tags/pattern-breaking",
+   "../tags/phases",
+   "../tags/pinning",
+   "../tags/position-over-submission",
+   "../tags/positional-improvement",
+   "../tags/positions",
+   "../tags/practice",
+   "../tags/pressure",
+   "../tags/prevention-over-cure",
+   "../tags/probabilistic-thinking",
+   "../tags/reactions",
+   "../tags/redirection",
+   "../tags/route-selection",
+   "../tags/setups",
+   "../tags/strategy",
+   "../tags/submissions",
+   "../tags/tactical",
+   "../tags/technique-chaining",
+   "../tags/tempo",
+   "../tags/timing",
+   "../tags/top-game",
+   "../tags/training",
+   "../tags/training-intensity",
+   "../tags/training-partner-diversity",
+   "../tags/transitions",
+   "../tags/unpredictability",
+   "../tags/weakness-exploitation"
+  ],
+  "meta": {
+   "description": "No description provided",
+   "og:description": "No description provided",
+   "og:height": "675",
+   "og:image": "https://bjjgraph.org/static/og-image.png",
+   "og:locale": "en_US",
+   "og:site_name": "BJJ Graph",
+   "og:title": "Tag Index",
+   "og:type": "article",
+   "og:url": "https://bjjgraph.org/tags/",
+   "og:width": "1200"
+  },
+  "title": "Tag Index"
  }
 }

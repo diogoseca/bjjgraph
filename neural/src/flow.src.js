@@ -14,9 +14,17 @@
 //     the best card. Drilling advice has to be priced under the policy you ACTUALLY play, so
 //     this is a POLICY EVALUATION: the same recursion with argmax replaced by pi.
 //
-// ZERO NEW WIRE BYTES. The kernel is rebuilt in the browser from what already ships: `cal.ev`
-// (the hand at each role-node, with attempt shares) and `cal.outcomes` (the two-branch kernel,
-// 1331 of 1331 summing to exactly 100).
+// The kernel is rebuilt in the browser from what already ships: the hand at each role-node with
+// its attempt shares, and `cal.outcomes` (the two-branch kernel, 1331 of 1331 summing to exactly
+// 100). IN THE PLAYER'S OWN RULESET (v1.209.0): the no-gi hands are `cal.ev`'s (zero bytes of
+// their own); the gi hands are `cal.evGi`, shipped for this at +2,598 B gzip, because `cal.ev` is
+// solved in no-gi only and a gi player was being ranked on no-gi attempt shares and rates, with
+// every gi-only deck unrankable (docs/GraphSemantics.md §8). The success rate is the frame's own,
+// read through the app's `calSuccess` — the number the game itself deals in that ruleset.
+//
+// AND FROM WHERE THE PLAYER'S ROLLS START. V0 integrates over a start law (`ngFlowStart`): uniform
+// for "Anywhere", the position's two seats for a fixed start such as "Standing". The kernel does
+// not depend on it; only the weighting does, so changing the setting re-scores without a rebuild.
 //
 // A REAL ES MODULE, stripped of its `export`s at bundle time like `lists-codec.src.js`, so the
 // browser and `tests/flow.test.mjs` run ONE implementation and it cannot drift from the Python
@@ -55,7 +63,7 @@ function ngFlowPosDeck(title, role) {
  * the ACTOR (their game-over is the actor winning); a `failure`/`counter` chain is performed by
  * the OPPONENT, so its game-over is the actor LOSING and its landing roles flip.
  */
-function ngFlowAction(node, resolve, nodeAt) {
+function ngFlowAction(node, resolve, nodeAt, rateOf) {
   const raw = [[], []];
   const outs = (node.cal && node.cal.outcomes) || [];
   for (let i = 0; i < outs.length; i++) {
@@ -81,8 +89,12 @@ function ngFlowAction(node, resolve, nodeAt) {
     for (let i = 0; i < raw[k].length; i++) tot += raw[k][i][0];
     br.push(tot > 0 ? raw[k].map((c) => [c[0] / tot, c[1], c[2], c[3]]) : []);
   }
-  const sr = node.cal && typeof node.cal.successRate === "number" ? node.cal.successRate : 0;
-  return { p0: Math.max(0, Math.min(1, sr / 100)), succ: br[0], miss: br[1] };
+  // `rateOf` is the app's own `calSuccess(node, frame)` (0..1, or null) — the rate `moveChance`
+  // opens with in that ruleset. Absent (a harness app without it), the folded scalar, which is
+  // exactly the no-gi rate: 0 of 1,315 wire nodes carry a no-gi rate that differs from it.
+  const r = rateOf ? rateOf(node)
+    : (node.cal && typeof node.cal.successRate === "number" ? node.cal.successRate / 100 : null);
+  return { p0: Math.max(0, Math.min(1, typeof r === "number" ? r : 0)), succ: br[0], miss: br[1] };
 }
 
 /**
@@ -96,14 +108,27 @@ function ngFlowAction(node, resolve, nodeAt) {
  */
 export function ngFlowBuild(app, opts) {
   const nodes = app.nodes || [];
-  const ev = app._ev;
-  // the lambda block to read EDGE from: the user's own `lossAversion`, so FLOW's features and
-  // the integers printed on their cards are priced off the same dial (measured: the dial does
-  // not change the FLOW ordering, rho ~0.9998, but it changes the scale 2.4x).
+  // THE RULESET THE KERNEL PRICES — the app's own (`_giMode`, where "gi" is the default), read the
+  // way the app reads it everywhere. `opts.frame` overrides the HANDS and RATES only: availability
+  // stays `giAllows`, the app's one predicate, so an override is a research configuration (the
+  // corpus's game with no ruleset mask — scripts/semantics/wire_semantics.mjs), never a mode the
+  // app runs in; `flowScore` passes the app's own frame, so the two are always equal there.
+  const frame = (opts && opts.frame) || (app._giMode === "nogi" ? "nogi" : "gi");
+  // gi hands are `cal.evGi` (`_evGi`). A wire without them — only a stale cached payload beside a
+  // newer bundle — falls back to the no-gi hands and SAYS SO (`handsFrame`), because "your weak
+  // spots" on the other ruleset's numbers is a plausible answer that must never look like a right
+  // one (§6.6). `flowScore` turns the mismatch into a named beat.
+  const giTab = app._evGi && app._evGi.size ? app._evGi : null;
+  const ev = frame === "gi" && giTab ? giTab : app._ev;
+  const handsFrame = ev === giTab ? "gi" : "nogi";
+  const evRows = app._ev;   // the EDGE rows the player's CARDS print — `e0` below reads these
+  // the lambda block to read EDGE from: the app's fixed default (`_evLamIdx`, NG_EDGE_LAM). The
+  // player's loss-aversion dial was retired in v1.207.0 and the wire ships that one block only.
   const lamIdx = (opts && opts.lamIdx != null) ? opts.lamIdx
     : (typeof app._evLamIdx === "function" ? Math.max(0, app._evLamIdx()) : 0);
   const nodeAt = (i) => nodes[i];
   const resolve = (t) => app.resolveOutcomeTo(t);
+  const rateOf = typeof app.calSuccess === "function" ? (n) => app.calSuccess(n, frame) : null;
   const stateIdx = new Map();
   const states = [];
   const hands = [];
@@ -121,7 +146,8 @@ export function ngFlowBuild(app, opts) {
   // ranked a no-gi player's "weakest spots" over states and moves no no-gi session can reach.
   // Counted, not silent: a kernel that quietly loses half the corpus reads exactly like one that
   // did not (CLAUDE.md §6.6).
-  const cov = { evKeys: 0, states: 0, dropped: 0, cells: 0, unresolved: 0, rsDropped: 0, rsHandDropped: 0, oppNoHand: 0 };
+  const cov = { frame: frame, handsFrame: handsFrame,
+                evKeys: 0, states: 0, dropped: 0, cells: 0, unresolved: 0, rsDropped: 0, rsHandDropped: 0, oppNoHand: 0 };
   // Solver states retain authored control aliases as computational vertices. Their UI
   // projection is a submission state; hiding the duplicate orb must not drop probability mass.
   const rsOk = (i) => (typeof app.giAllows === "function" ? app.giAllows(app.nodes[i]) : true);
@@ -141,7 +167,7 @@ export function ngFlowBuild(app, opts) {
     const sk = pid + "/" + role;
     if (seenPair.has(sk)) continue;
     seenPair.add(sk);
-    raw.push([sk, role, n, m]);
+    raw.push([sk, role, n, m, key]);
   }
   // AN EXCHANGE NEEDS TWO SEATS (v1.167.0). `solve_flow.py` drops a role-node whose OPPONENT has
   // no hand in this frame — it prints `opponent has none: N` — because a state the other side
@@ -170,15 +196,23 @@ export function ngFlowBuild(app, opts) {
   // rounds to integers (measured 95..103 per state), and a kernel must be a stochastic matrix.
   for (let i = 0; i < raw.length; i++) {
     const m = raw[i][3];
+    // `e0` is the EDGE the card PRINTS, which is the no-gi table in both rulesets (no gi EDGE table
+    // ships). A gi-only card has none, so its feature is 0 — "the ordinary choice" — which is what
+    // a card showing no EDGE says to the player. Same key: the two tables share `<posIdx>/<role>`.
+    const edgeRow = handsFrame === "nogi" ? m : (evRows && evRows.get(raw[i][4])) || null;
     const hand = [];
     let tot = 0;
     for (const [ti, row] of m) {
       const tn = nodes[ti];
       if (!tn || tn.ty === "positions") continue;
       if (!rsOk(ti)) { cov.rsHandDropped++; continue; }   // …and a move it cannot deal
-      const a = ngFlowAction(tn, resolve, nodeAt);
+      // THE MOVE AS PLAYED FROM THIS STATE (v1.214.0, origin coherence PR B): `app._at` overlays a
+      // listing's own table and is the node itself otherwise. Called on the app, never re-derived
+      // here, so FLOW and the game cannot price the same card two ways.
+      const a = ngFlowAction(app._at(tn, raw[i][2].posId || null), resolve, nodeAt, rateOf);
       if (!a.succ.length && !a.miss.length) continue;
-      const lamRow = (row.lam && row.lam[lamIdx]) || null;
+      const er = edgeRow && edgeRow.get(ti);
+      const lamRow = (er && er.lam && er.lam[lamIdx]) || null;
       hand.push({ att: row.att || 0, p0: a.p0, succ: a.succ, miss: a.miss,
                   deck: deckOf(tn.t + "|Attacker"), name: tn.t,
                   ord: tn.o == null ? -1 : tn.o,            // the PERMANENT id the ledger keys on
@@ -224,7 +258,39 @@ export function ngFlowBuild(app, opts) {
   return { states: states, stateIdx: stateIdx, n: states.length, hands: hands, mine: mine,
            theirs: theirs, flipIdx: flipIdx, posDeck: posDeck, deckKeys: deckKeys,
            deckIdx: deckIdx, nPosDecks: nPosDecks, cov: cov, ordAt: ordAt, lamIdx: lamIdx,
+           frame: frame, handsFrame: handsFrame,
            att: hands.map((h) => h.map((a) => a.att)) };
+}
+
+/**
+ * THE START LAW V0 INTEGRATES OVER — where the player's own rolls begin (owner, 2026-09-30: "it
+ * should match the starting point set by the app indeed").
+ *
+ *   "uniform"      -> null, i.e. 1/n on every state the kernel holds: the app's "Anywhere" roll,
+ *                     a uniform site with a 50/50 seat. Returning null keeps that path bit-for-bit
+ *                     the one FLOW has always solved.
+ *   { posId }      -> half on each seat of that position the kernel holds: a FIXED start. The app
+ *                     draws the seat 50/50 whatever the opening (`rng("role")`), so a fixed
+ *                     opening is a position, never a seat. "Standing" is this with
+ *                     `standing-position`.
+ *
+ * The same graph under a different weighting — the kernel is untouched, so a setting change is a
+ * re-score, not a rebuild. A fixed start the kernel does not hold (a ruleset without that position,
+ * a wire without it) returns the uniform law with `miss: true`, and the caller must SAY so: a
+ * ranking silently solved from the wrong opening is a plausible, wrong list (§6.6).
+ */
+export function ngFlowStart(K, spec) {
+  const pos = spec && typeof spec === "object" ? spec.posId : null;
+  if (!pos) return { d0: null, mode: "uniform", pos: null, seats: K.n, miss: false };
+  const idx = [];
+  for (const role of ["top", "bottom"]) {
+    const j = K.stateIdx.get(pos + "/" + role);
+    if (j != null) idx.push(j);
+  }
+  if (!idx.length) return { d0: null, mode: "uniform", pos: pos, seats: K.n, miss: true };
+  const d0 = new Float64Array(K.n);
+  for (let k = 0; k < idx.length; k++) d0[idx[k]] = 1 / idx.length;
+  return { d0: d0, mode: "fixed", pos: pos, seats: idx.length, miss: false };
 }
 
 /**
@@ -671,6 +737,7 @@ export function ngFlowScore(app, opts) {
 
   // the ledger, if there is one. Never a silent fallback: `personal` is null and says so.
   let personal = null;
+  K.usePersonal = false; // reused kernel must not retain the preceding profile's rates
   if (o.counts && typeof o.counts === "object") {
     personal = ngFlowPersonal(K, o.counts, o);
     K.usePersonal = !!personal;
@@ -684,7 +751,10 @@ export function ngFlowScore(app, opts) {
     for (let i = 0; i < K.deckKeys.length; i++) m[i] = Math.max(0, Math.min(NG_FLOW_MCAP, mastery(K.deckKeys[i]) || 0));
   }
 
-  const run = ngFlowAdjoint(K, m, lam, H, pi, null);
+  // the start law (`ngFlowStart`): null is the uniform "Anywhere" start
+  const st = o.start || ngFlowStart(K, null);
+  const d0 = st.d0 || null;
+  const run = ngFlowAdjoint(K, m, lam, H, pi, d0);
   const order = [];
   for (let i = 0; i < K.deckKeys.length; i++) order.push(i);
   order.sort((a, b) => ngFlowLin(run.grad, m, b) - ngFlowLin(run.grad, m, a));
@@ -696,7 +766,7 @@ export function ngFlowScore(app, opts) {
     const k = order[r];
     const lin = ngFlowLin(run.grad, m, k);
     if (lin <= 0) break;                                  // tiers hold POSITIVE gain only
-    const exact = r < shortlist ? ngFlowExactGain(K, m, k, lam, H, pi, null) : null;
+    const exact = r < shortlist ? ngFlowExactGain(K, m, k, lam, H, pi, d0) : null;
     const gain = exact != null ? exact : lin;
     cum += gain;
     const share = R0 > 0 ? cum / R0 : 1;
@@ -714,7 +784,7 @@ export function ngFlowScore(app, opts) {
     const k = order[r];
     if (ngFlowLin(run.grad, m, k) >= 0) break;
     if (back.length >= 12) break;
-    const g = ngFlowExactGain(K, m, k, lam, H, pi, null);
+    const g = ngFlowExactGain(K, m, k, lam, H, pi, d0);
     if (g < 0) back.push({ deck: K.deckKeys[k], gain: g, pos: k < K.nPosDecks });
   }
   back.sort((a, b) => a.gain - b.gain);
@@ -723,8 +793,10 @@ export function ngFlowScore(app, opts) {
     v0: run.V0, r0: R0, lam: lam, H: H, kernel: K, ranked: out, backfiring: back,
     personal: personal,
     // the positive coverage count every FLOW surface must be able to print (§6.6)
+    start: { mode: st.mode, pos: st.pos, seats: st.seats, miss: !!st.miss },
     cov: Object.assign({ decks: K.deckKeys.length, ranked: out.length,
-                         shortlist: Math.min(shortlist, out.length) }, K.cov,
+                         shortlist: Math.min(shortlist, out.length), start: st.mode,
+                         startSeats: st.seats }, K.cov,
                        personal ? personal.cov : { decisions: 0 }),
   };
 }

@@ -1,8 +1,119 @@
 {
  "_meta": {
-  "format": 2
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "4561c55a378e8c0f4812a032877ca72fb77cad4c",
+   "inputs": {
+    "tree": "c6c47399a0df66b63903b4f1811d9120fb494e80"
+   },
+   "package_version": "1.218.2",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-auth-double-client-eacb9bc55/pr-auth-double-client-eacb9bc55",
+  "content_provenance": {
+   "capture_git_head": "eacb9bc55e91dd574d6bc7762587279f25695497",
+   "capture_id": "a8dfda3ce5aa459c9c101631b4b547a1",
+   "content_clean_at_end": true,
+   "content_clean_at_start": true,
+   "content_files": 6412,
+   "content_md": 4601,
+   "content_tree": "110d50fcea322d4ddb0857617d043e76d07f7f87",
+   "dirty_paths_end": [],
+   "dirty_paths_start": [],
+   "environment_assertions": {
+    "TZ": {
+     "expected": "UTC",
+     "node_timezone": "UTC",
+     "observed": "UTC",
+     "probes": [
+      {
+       "iso": "2026-01-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jan 01, 2026"
+      },
+      {
+       "iso": "2026-07-01T23:30:00Z",
+       "offset_minutes": 0,
+       "visible_date": "Jul 01, 2026"
+      }
+     ],
+     "scope": "inherited build environment; child Node observed before execution"
+    }
+   },
+   "output_identity": {
+    "files": 15996,
+    "sha256": "15cbe3dd4da257fca9dde60f3d9d82be88ff47c89f7139854cde22ad23f09dc8"
+   },
+   "output_roots": [
+    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
+    "/home/user/bjj-orchestrator/golden/pr-auth-double-client-eacb9bc55/pr-auth-double-client-eacb9bc55"
+   ],
+   "schema": "quartz-content-provenance-v1",
+   "state": "complete"
+  },
+  "format": 5
  },
- "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update whenever the emit legitimately changes (content edits move article_links and the @type histogram), and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
+ "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
+ "app_assets": {
+  "count": 12,
+  "files": {
+   "static/neural/app/choice-values.js": {
+    "bytes": 19932,
+    "sha256": "b29cd71de86165ab3e5b2a07d8d71adae269d03e4658dbbe9939df80bcf9a5ea"
+   },
+   "static/neural/app/game-model.worker.js": {
+    "bytes": 2695,
+    "sha256": "6065d558ea5367ea00926314cd946f2e08fd878b70e45f4f0fb026cafd19d7c1"
+   },
+   "static/neural/app/game-study.js": {
+    "bytes": 78734,
+    "sha256": "3537f2ae1373ea6dbe16f61103da83cb6d1a65d44a2c942727c87bd8e87b12ff",
+    "version_token": "normalised"
+   },
+   "static/neural/app/game-study.worker.js": {
+    "bytes": 111618,
+    "sha256": "4ea30e29a4ad0579bd76d09cd97f2977a817cbf7d4ae9a1c914381c3a3e162dd",
+    "version_token": "normalised"
+   },
+   "static/neural/app/game-values.js": {
+    "bytes": 28182,
+    "sha256": "0062861fbf12136f653c555984002b4d58e2fff7c114cd6ce5e99daf7f2b8ffb",
+    "version_token": "normalised"
+   },
+   "static/neural/app/game-worker-core-31809436f848efbc59f612827ad17c4223f1ec102998cd929639dd4abf1ac171.js": {
+    "bytes": 70233,
+    "sha256": "31809436f848efbc59f612827ad17c4223f1ec102998cd929639dd4abf1ac171"
+   },
+   "static/neural/app/gameplan.js": {
+    "bytes": 8503,
+    "sha256": "df5c7cc44b72f51be63a84b5b3e42df67bef67e448a561b176b20c0e57204f23"
+   },
+   "static/neural/app/neural.css": {
+    "bytes": 41366,
+    "sha256": "f81927c73bcc0ec711bddd50cfe88924a602db7d3ce22982a03e831addbfd969"
+   },
+   "static/neural/app/neural.js": {
+    "bytes": 679665,
+    "sha256": "7498a1c149157c1eeb3ccbf8487f2dd52625f739196ce6df20de41543c3b90d9",
+    "version_token": "normalised"
+   },
+   "static/neural/app/reading.css": {
+    "bytes": 2104,
+    "sha256": "6f19fbb8330533c0bf2b3f6a8e2328f12df77bfd53f02021bd9564711062f206"
+   },
+   "static/neural/app/reference.css": {
+    "bytes": 15360,
+    "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
+   },
+   "static/neural/app/settings-ui.js": {
+    "bytes": 19592,
+    "sha256": "89abbaf6e257162375cace52c27c53254a1510ba27b5d612ef8d2e12dcbbda1b",
+    "version_token": "normalised"
+   }
+  }
+ },
  "bundle_tokens": {
   "postscript.js": {
    "__bjjAuth": 2
@@ -14,23 +125,24 @@
    "sha256": "487514594cda7b0558c2ee0cf1e6b8e8c1e8e3a29148b4c544b7765c6d333314"
   },
   "postscript.js": {
-   "bytes": 75657,
-   "sha256": "3d1811bebd07c54010b5a162b5e2caa73a0b6bafcee08714b1d48174c5a991dd"
+   "bytes": 77155,
+   "sha256": "f741751a0cb82546305676e6279d5ac581dbf62b7f9f4f8b32e00df2d703642a",
+   "version_token": "normalised"
   },
   "prescript.js": {
-   "bytes": 2518,
-   "sha256": "7ec261fd5f4346585423f90ebbab06484af9608811347db544fd1a420b2cada3"
+   "bytes": 2765,
+   "sha256": "ad1e3d5f0063cb29c7aea0a2fd3b7dc4833a5d6a1c181241d7cfefe132c30d84"
   }
  },
  "by_class": {
   "binary": 12,
   "css": 17,
   "gzip": 1,
-  "html": 6211,
-  "js": 31,
-  "json_opaque": 4948,
+  "html": 6212,
+  "js": 39,
+  "json_opaque": 5036,
   "json_semantic": 5,
-  "text_opaque": 4602,
+  "text_opaque": 4665,
   "text_semantic": 7,
   "xml": 2
  },
@@ -39,96 +151,94 @@
   "<root>": 29,
   "Learning": 27,
   "Positions": 541,
-  "Principles": 63,
+  "Principles": 64,
   "Submissions": 1298,
   "Systems": 84,
   "Transitions": 4101,
   "dev": 59,
-  "markdown": 4598,
-  "static": 4962,
+  "markdown": 4599,
+  "static": 5120,
   "tags": 73
  },
  "census": {
-  "article_headings": 94279,
-  "article_links": 213027,
-  "files": 15836,
+  "article_headings": 94292,
+  "article_links": 213165,
+  "files": 15996,
   "gzip_files": 1,
-  "head_links": 37351,
-  "html_pages": 6211,
-  "jsonld_blocks": 33512,
-  "meta_tags": 123876,
-  "outside_links": 149847,
-  "pages_with_article": 6200,
-  "pages_with_canonical": 6203,
-  "pages_with_description": 6206,
-  "pages_with_og_title": 6200,
-  "pages_with_outside_links": 6207,
-  "pages_with_title": 6211,
+  "head_links": 37357,
+  "html_pages": 6212,
+  "jsonld_blocks": 33518,
+  "meta_tags": 123896,
+  "outside_links": 149869,
+  "pages_with_article": 6201,
+  "pages_with_canonical": 6204,
+  "pages_with_description": 6207,
+  "pages_with_og_title": 6201,
+  "pages_with_outside_links": 6208,
+  "pages_with_title": 6212,
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 4962
+  "static_files": 5120
  },
  "distinct_values": {
-  "name=description": 4562,
-  "property=article:modified_time": 28,
-  "property=article:published_time": 31,
-  "property=og:title": 4674
+  "name=description": 4563,
+  "property=og:title": 4675
  },
  "jsonld_types": {
   "Article": 26,
-  "BreadcrumbList": 6028,
+  "BreadcrumbList": 6029,
   "CollectionPage": 126,
-  "DefinedTerm": 3110,
-  "FAQPage": 3120,
-  "HowTo": 2968,
+  "DefinedTerm": 3111,
+  "FAQPage": 3121,
+  "HowTo": 2969,
   "ItemList": 5969,
-  "Organization": 6200,
+  "Organization": 6201,
   "WebApplication": 2,
-  "WebPage": 5961,
+  "WebPage": 5962,
   "WebSite": 2
  },
  "markers": {
-  "body:data-current-role": 6200,
-  "body:data-slug": 6200,
-  "class:category-nav": 6200,
-  "class:popover-hint": 6200,
-  "class:search": 6200,
-  "id:page-graph-data": 4544,
-  "id:quartz-body": 6200,
-  "id:quartz-root": 6200,
-  "id:sidebar-overlay": 6200,
-  "js:__rollPositions": 6200,
+  "body:data-current-role": 6201,
+  "body:data-slug": 6201,
+  "class:category-nav": 6201,
+  "class:popover-hint": 6201,
+  "class:search": 6201,
+  "id:page-graph-data": 4545,
+  "id:quartz-body": 6201,
+  "id:quartz-root": 6201,
+  "id:sidebar-overlay": 6201,
+  "js:__rollPositions": 6201,
   "meta:robots": 12,
-  "tag:article": 6200,
-  "tag:footer": 6200,
-  "tag:main": 6078,
-  "tag:nav": 6201
+  "tag:article": 6201,
+  "tag:footer": 6201,
+  "tag:main": 6079,
+  "tag:nav": 6202
  },
  "meta_keys": {
   "charset=UTF-8": 6,
-  "charset=utf-8": 6205,
+  "charset=utf-8": 6206,
   "http-equiv=refresh": 3,
-  "name=description": 6206,
-  "name=generator": 6200,
+  "name=description": 6207,
+  "name=generator": 6201,
   "name=robots": 12,
-  "name=twitter:card": 6200,
-  "name=twitter:description": 6200,
-  "name=twitter:image": 6200,
-  "name=twitter:image:alt": 6200,
-  "name=twitter:title": 6200,
-  "name=viewport": 6208,
-  "property=article:modified_time": 6118,
-  "property=article:published_time": 6118,
-  "property=og:description": 6200,
-  "property=og:height": 6200,
-  "property=og:image": 6200,
-  "property=og:locale": 6200,
-  "property=og:site_name": 6200,
-  "property=og:title": 6200,
-  "property=og:type": 6200,
-  "property=og:url": 6200,
-  "property=og:width": 6200
+  "name=twitter:card": 6201,
+  "name=twitter:description": 6201,
+  "name=twitter:image": 6201,
+  "name=twitter:image:alt": 6201,
+  "name=twitter:title": 6201,
+  "name=viewport": 6209,
+  "property=article:modified_time": 6119,
+  "property=article:published_time": 6119,
+  "property=og:description": 6201,
+  "property=og:height": 6201,
+  "property=og:image": 6201,
+  "property=og:locale": 6201,
+  "property=og:site_name": 6201,
+  "property=og:title": 6201,
+  "property=og:type": 6201,
+  "property=og:url": 6201,
+  "property=og:width": 6201
  },
  "zeros": {
   "gzip_decompress_errors": 0,

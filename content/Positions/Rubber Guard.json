@@ -135,7 +135,46 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 27,
+          "nogi": 24
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 24,
+              "nogi": 24
+            },
+            "result": "success"
+          },
+          {
+            "to": "Rubber Guard/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Triangle Control/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Rubber Guard Top Posture Escape",

@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 """Fingerprint an emitted static site tree, exhaustively and without guessing.
 
+Without --content-receipt, capture inputs remain explicitly UNVERIFIED. Fingerprinting
+an existing tree must never stamp the caller's HEAD onto bytes built elsewhere.
+The capture driver supplies completed input proof; --write-content-receipt binds it
+to the measured output paths/sizes/hashes for later baseline updates. This does not
+recover build0's four unnamed dirty paths or prove browser/code/environment parity.
+Receipt and stale-output controls live in golden_provenance_selftest.py.
+
 WHY THIS EXISTS
 ---------------
 The project is replacing its vendored Quartz SSG with its own emitter. The loud failure
@@ -52,6 +59,7 @@ import sys
 from concurrent.futures import ProcessPoolExecutor
 from html.parser import HTMLParser
 from pathlib import Path
+from datetime import datetime
 
 # ---------------------------------------------------------------------------
 # File classification
@@ -585,6 +593,118 @@ def fingerprint_text(raw: bytes, rel: str) -> dict:
 # Per-file driver
 # ---------------------------------------------------------------------------
 
+def html_value_proofs(raw: bytes) -> dict:
+    """D-35 Footer year only. D-75 leaves BOTH Head publication fields strict.
+
+    Mask only the exact present copyright token; all other bytes are hashed. No
+    browser/calendar behavior is proven. Missing/malformed tokens cannot match.
+    Pinned by seam_golden_selftest.py --values and --xml-dates.
+    """
+    text = raw.decode('utf-8')
+    spans, values = [], []
+    for footer in re.finditer(r'<footer\b[^>]*>.*?</footer>', text, re.S):
+        for hit in re.finditer(r'<p class="footer-copyright">BJJGraph\.org © (\d{4})</p>', footer.group()):
+            spans.append((footer.start() + hit.start(1), footer.start() + hit.end(1)))
+            values.append(hit.group(1))
+    if not spans:
+        return {}
+    return {'footer-year': {'sha': masked_sha(text, spans), 'valid': True,
+                            'values': {'footer-year': values}, 'counts': {'footer-year': len(spans)}}}
+
+
+def masked_sha(text, spans):
+    parts, previous = [], 0
+    for start, end in sorted(spans):
+        if start < previous:
+            raise ValueError('overlapping normalization tokens')
+        parts.extend((text[previous:start], '<DECLARED-VALUE>'))
+        previous = end
+    parts.append(text[previous:])
+    return shas(''.join(parts))
+
+
+def xml_value_proofs(raw: bytes, rel: str) -> dict:
+    """D-75: typed date values on sitemap/RSS only; raw fingerprints stay intact.
+
+    RSS selection proof retains channel bytes, item count/layout, distinct links,
+    valid dates and each item's date-masked bytes. The DIFFER must additionally
+    check each selected item's title/description against its actual HTML and its
+    membership in contentIndex. This cannot prove which ten items were selected or
+    their order; a separate emitter fixture owns that intentionally unasserted scope.
+    No proof licenses dropped fields, malformed dates or arbitrary XML changes.
+    Pinned by seam_golden_selftest.py --xml-dates; no browser or whole-site claim.
+    """
+    if rel not in ('sitemap.xml', 'index.xml'):
+        return {}
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime, format_datetime
+    try:
+        text = raw.decode('utf-8')
+        if '<!DOCTYPE' in text or '<!ENTITY' in text:
+            return {}
+        root = ET.fromstring(text)
+        if rel == 'sitemap.xml':
+            ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
+            if root.tag != ns + 'urlset':
+                return {}
+            entries = root.findall(ns + 'url')
+            if not entries or len(entries) != len(root):
+                return {}
+            dates, keys = [], []
+            for entry in entries:
+                d, loc = entry.findall(ns + 'lastmod'), entry.findall(ns + 'loc')
+                if len(d) != 1 or len(loc) != 1 or len(d[0]) or not loc[0].text:
+                    return {}
+                value = d[0].text or ''
+                if not re.fullmatch(r'\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d{3}Z', value):
+                    return {}
+                datetime.fromisoformat(value[:-1] + '+00:00')
+                dates.append(value); keys.append(loc[0].text)
+            hits = list(re.finditer(r'<lastmod>([^<]+)</lastmod>', text))
+            if len(set(keys)) != len(keys) or [m.group(1) for m in hits] != dates:
+                return {}
+            return {'sitemap-lastmod': {'valid': True, 'sha': masked_sha(text, [m.span(1) for m in hits]),
+                                        'count': len(dates), 'values': dates}}
+        if root.tag != 'rss' or len(root.findall('channel')) != 1:
+            return {}
+        channel = root.find('channel')
+        entries = channel.findall('item')
+        blocks = list(re.finditer(r'<item>(.*?)</item>', text, re.S))
+        if not entries or len(blocks) != len(entries) or len(root.findall('.//item')) != len(entries):
+            return {}
+        links, items, layouts, spans, dates = [], [], [], [], []
+        fields = ['title', 'link', 'guid', 'description', 'pubDate']
+        for entry, block in zip(entries, blocks):
+            if [child.tag for child in entry] != fields or any(len(child) or child.attrib for child in entry):
+                return {}
+            item = {child.tag: child.text or '' for child in entry}
+            if any(not item[k] for k in fields):
+                return {}
+            date = parsedate_to_datetime(item['pubDate'])
+            if date.tzinfo is None or format_datetime(date, usegmt=True) != item['pubDate']:
+                return {}
+            if item['guid'] != item['link']:
+                return {}
+            hits = list(re.finditer(r'<(title|link|guid|description|pubDate)>([^<]*)</\1>', block.group()))
+            if [m.group(1) for m in hits] != fields:
+                return {}
+            date_hit = hits[-1]
+            item['stable_sha'] = masked_sha(block.group(), [date_hit.span(2)])
+            layouts.append(masked_sha(block.group(), [m.span(2) for m in hits]))
+            spans.append((block.start() + date_hit.start(2), block.start() + date_hit.end(2)))
+            links.append(item['link']); dates.append(item['pubDate']); items.append(item)
+        if len(set(links)) != len(links) or len(set(layouts)) != 1:
+            return {}
+        return {
+            'rss-pubdate': {'valid': True, 'sha': masked_sha(text, spans), 'count': len(entries), 'values': dates},
+            'rss-selection': {'valid': True, 'sha': masked_sha(text, [m.span() for m in blocks]),
+                              'count': len(entries), 'layout_sha': layouts[0], 'items': items,
+                              'channel_link': channel.findtext('link')},
+        }
+    except (ValueError, TypeError, OverflowError, UnicodeError, ET.ParseError):
+        return {}
+
+
 def fingerprint_file(args):
     root, rel = args
     p = os.path.join(root, rel)
@@ -597,8 +717,10 @@ def fingerprint_file(args):
     try:
         if cls == "html":
             rec["fp"] = fingerprint_html(raw, rel)
+            rec['value_proofs'] = html_value_proofs(raw)
         elif cls == "xml":
             rec["fp"] = fingerprint_xml(raw, rel)
+            rec["value_proofs"] = xml_value_proofs(raw, rel)
         elif cls == "json_semantic":
             rec["fp"] = fingerprint_json(raw, rel)
         elif cls == "text_semantic":
@@ -624,11 +746,13 @@ def walk(root: str):
 # "never looked". emit_diff.py hard-fails on a zero here.
 # ---------------------------------------------------------------------------
 
-# Fields whose DISTINCT-VALUE COUNT is tracked site-wide. Keep this short: it is a
-# detector for "this stopped varying", not a general census.
+# Observed cardinalities only, NOT date-provenance or spread assertions (D-106).
+# 1,077 checkout timestamps inside 1.557 seconds are not a healthy distribution.
+# check_build_fingerprint excludes the two date counts from baseline equality;
+# X-01's spread gate must use distinct_days, span_days and max_day_share instead.
 DISTINCT_TRACK = (
-    "property=article:modified_time",   # git commit date -- collapses if git lookup fails
-    "property=article:published_time",  # birthtime -- collapses if the fs loses birthtime
+    "property=article:modified_time",
+    "property=article:published_time",
     "name=description",
     "property=og:title",
 )
@@ -761,17 +885,28 @@ def coverage(files: dict) -> dict:
 
 
 def main():
+    from golden_provenance import add_arguments, read_capture_receipt, ContentGuard, output_identity
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("tree")
     ap.add_argument("--out", required=True, help="manifest path (.json.gz)")
     ap.add_argument("--jobs", type=int, default=min(8, (os.cpu_count() or 4)))
     ap.add_argument("--label", default="", help="free-text note stored in the manifest")
+    add_arguments(ap, capture=True)
+    ap.add_argument('--write-content-receipt', type=Path,
+                    help='write a compact completed receipt bound to these output bytes')
     a = ap.parse_args()
 
     root = os.path.abspath(a.tree)
     if not os.path.isdir(root):
         sys.exit(f"not a directory: {root}")
+    if a.write_content_receipt and not a.content_receipt:
+        raise ValueError('--write-content-receipt requires --content-receipt')
+    receipt = read_capture_receipt(a, root) if a.content_receipt else None
+    guard = ContentGuard({'content_provenance': receipt}, a, 'fingerprinted tree') if receipt else None
+    if receipt is None:
+        print('CONTENT: UNVERIFIED; fingerprinting bytes does not attest capture inputs. '
+              'No current HEAD will be imputed to this tree.')
 
     rels = walk(root)
     if not rels:
@@ -782,6 +917,9 @@ def main():
     files = scan_tree(root, a.jobs)
 
     cov = coverage(files)
+    if guard:
+        guard.finish()
+        receipt = {**receipt, 'output_identity': output_identity(files)}
     manifest = {
         # Bump whenever a fingerprint FIELD is added, removed or changes meaning.
         # emit_diff.py refuses to compare across versions: two manifests built by
@@ -792,10 +930,16 @@ def main():
         "label": a.label,
         "coverage": cov,
         "files": files,
+        "content_provenance": receipt,
     }
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     with gzip.open(a.out, "wt", encoding="utf-8") as fh:
         json.dump(manifest, fh)
+    if a.write_content_receipt:
+        # Exclusive publication: capture labels and their proof cannot be overwritten.
+        with a.write_content_receipt.open('x', encoding='utf8') as fh:
+            json.dump(receipt, fh, ensure_ascii=False, indent=2)
+            fh.write('\n')
 
     print(f"\nwrote {a.out} ({os.path.getsize(a.out):,} bytes)")
     print("COVERAGE")
@@ -812,7 +956,7 @@ def main():
         print(f"    {m:28s} {n:,}")
     print(f"  by_class                 {cov['by_class']}")
     print(f"  jsonld @types            {cov['distinct_jsonld_types']}")
-    print("  distinct values (a collapse here means a field stopped varying):")
+    print("  distinct values (observations only; timestamp cardinality does NOT prove date spread):")
     for k, n in cov["distinct_values"].items():
         print(f"    {k:34s} {n:,}")
     print(f"  meta keys                {len(cov['distinct_meta_keys'])} distinct")

@@ -15,6 +15,8 @@ import json
 import sys
 from pathlib import Path
 
+from _slug import quartz_page_path  # Quartz's page-path rule, one copy (v1.216.1)
+
 
 def to_base36(num: int, width: int = 4) -> str:
     """Convert integer to zero-padded base36 string."""
@@ -27,18 +29,6 @@ def to_base36(num: int, width: int = 4) -> str:
         result = chars[n % 36] + result
         n //= 36
     return result.zfill(width)
-
-
-def quartz_slug(name: str) -> str:
-    """Convert name to URL path matching Quartz's sluggify (case-preserving)."""
-    import re
-    slug = name.strip()
-    slug = slug.replace('&', '-and-')
-    slug = slug.replace('%', '-percent')
-    slug = slug.replace('?', '')
-    slug = slug.replace('#', '')
-    slug = re.sub(r'\s+', '-', slug)
-    return slug
 
 
 def main():
@@ -125,7 +115,7 @@ def main():
         base_key = t_key[: -len("/attacker")]
         techniques[base_key] = {
             "n": t_data.get("name", base_key),
-            "path": f"Transitions/{quartz_slug(t_data.get('name', base_key))}",
+            "path": f"Transitions/{quartz_page_path(t_data.get('name', base_key))}",
             "o": _outcomes(t_data),
         }
 
@@ -139,7 +129,7 @@ def main():
             continue  # skip per-variant hub + defender node
         techniques[base_key] = {
             "n": s_data.get("name", base_key),
-            "path": f"Submissions/{quartz_slug(s_data.get('name', base_key))}",
+            "path": f"Submissions/{quartz_page_path(s_data.get('name', base_key))}",
             "o": _outcomes(s_data),
             "sub": True,
         }

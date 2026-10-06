@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Check neutral source references and, with --built, activated emitted output.
 
+The --built gate also compares each authored Systems guide's canonical marker
+multiset with its emitted HTML; one surviving guide cannot hide another disappearing.
 Positive course-link coverage is required. Every displayed placeholder fails, including
 keyless builds. This offline gate checks declared verification, not vendor availability.
 """
 import argparse
+from collections import Counter
 import datetime as dt
 import json
 from pathlib import Path
@@ -115,6 +118,52 @@ def check_built(errors, ref):
     return pages, marked, products
 
 
+def canonical_markers(text):
+    """Count both marker kinds and URLs, retaining duplicate course placements."""
+    from apply_affiliate_ref import read_tag
+    markers = Counter()
+    for match in re.finditer(r'<a\b[^>]*>', text, re.I):
+        attrs = read_tag(match[0])
+        for name in ('data-course-url', 'data-source-url'):
+            if name in attrs:
+                markers[(name, attrs[name])] += 1
+    return markers
+
+
+def check_marker_preservation(errors):
+    """Derive expectations from authored Markdown, never from a second baseline."""
+    pages = markers = 0
+    expected_paths = set()
+    for source in sorted(SYSTEMS_DIR.glob('*.md')):
+        # These authored names use only Quartz's space-to-hyphen path spelling.
+        # Refuse newly ambiguous escaping rather than silently check another page.
+        if re.search(r'[&%?#\t\r\n]', source.stem):
+            errors.append(f'marker preservation: unsupported source path spelling: {source.name}')
+            continue
+        relative = source.stem.replace(' ', '-') + '.html'
+        expected_paths.add(relative)
+        expected = canonical_markers(source.read_text())
+        target = PUBLIC / 'Systems' / relative
+        if expected:
+            pages += 1
+            markers += sum(expected.values())
+        if not target.is_file():
+            if expected:
+                errors.append(f'marker preservation: missing Systems/{relative}')
+            continue
+        actual = canonical_markers(target.read_text())
+        if actual != expected:
+            errors.append(f'marker preservation: Systems/{relative} canonical marker multiset differs '
+                          f'(expected {sum(expected.values())}, found {sum(actual.values())})')
+    for target in sorted((PUBLIC / 'Systems').rglob('*.html')):
+        relative = target.relative_to(PUBLIC / 'Systems').as_posix()
+        if relative not in expected_paths and canonical_markers(target.read_text()):
+            errors.append(f'marker preservation: Systems/{relative} has markers without an authored guide')
+    if not pages or not markers:
+        errors.append('marker preservation: zero source marker pages/anchors checked')
+    return pages, markers
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__); ap.add_argument('--built', action='store_true'); ap.add_argument('--strict-stale', action='store_true'); args = ap.parse_args()
     errors, warnings = [], []
@@ -123,17 +172,20 @@ def main():
     if not marked:
         errors.append('No neutral source course anchors checked; regenerate Markdown')
     check_graph_json(errors)
+    preservation = None
     if args.built:
         from apply_affiliate_ref import configured_ref, validate_ref
         ref = configured_ref()
         try:
             validate_ref(ref); check_built(errors, ref)
+            preservation = check_marker_preservation(errors)
         except ValueError:
             errors.append('Invalid affiliate configuration or emitted course URL')
     for warning in warnings: print('[affiliate gate] WARN: ' + warning)
     if errors:
         print('\n'.join('[affiliate gate] FAIL: ' + e for e in errors), file=sys.stderr); raise SystemExit(1)
-    print(f'[affiliate gate] OK: {marked} neutral source links; products {tally}; built={args.built}')
+    detail = f'; {preservation[0]} marker pages, {preservation[1]} canonical markers preserved' if preservation else ''
+    print(f'[affiliate gate] OK: {marked} neutral source links; products {tally}; built={args.built}' + detail)
 
 
 if __name__ == '__main__': main()

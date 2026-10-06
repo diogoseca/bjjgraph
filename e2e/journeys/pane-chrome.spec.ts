@@ -8,8 +8,9 @@ import { journey, type Journey } from "../dsl"
  *      Static pane wiring lives at the `applyDeckVisibility` choke point because direct
  *      study/session entry points also bypass `openPane()`.
  *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
- *      next to Settings/Terms/Privacy. The stat row (mastered/due/new) moved to
- *      the TOP of Explore in v1.95.0 — the weak-spots count is Explore's call to action.
+ *      next to Settings/Terms/Privacy. The stat row (mastered/due/new — the third cell is the
+ *      "Study plan" door since v1.207.0) moved to the TOP of Explore in v1.95.0, then to the
+ *      pane FOOT as its own band in v1.104.5.
  *   3. The score belt is RETIRED as a visual (v1.98.1 — header died v1.96.0, the Explore
  *      mount died on the owner's word): no .ng-knowledge-header, no [data-knowledge], no
  *      meter anywhere. The score's one exposure is the Explore tab subtitle
@@ -135,13 +136,23 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   const stats = page.locator("[data-explore-stats]")
   await expect(stats).toBeVisible()
   await expect(stats.locator(".ngStat")).toHaveCount(3)
-  // MASTERED / DUE / NEW (v1.138.0). The third cell used to name a tier of the old prep rule
-  // ("N very weak spots"); it now names today's DOSE off the FLOW ranking, so the row reads as
-  // the three states any card is in. The count is the card budget left after maintenance, which
-  // is why it can legitimately be 0 on a day you owe a lot.
-  await expect(stats).toContainText("new")
-  await expect(page.locator('.ngStat[data-b="new"]')).toBeVisible()
-  await expect(page.locator('.ngStat[data-b="new"]')).toHaveAttribute("data-new", /^\d+$/)
+  // MASTERED / DUE / STUDY PLAN (v1.207.0). The third cell (`data-b="new"`, id unchanged) used
+  // to print "N new" off the FLOW ranking (v1.138.0). The full game made it the door to the LAZY
+  // Gameplan: until `app/gameplan.js` loads it names the door and prints NO count (a number
+  // before the planner exists would be a fabricated one, CLAUDE.md §6.6), and once the planner
+  // is loaded it carries the plan's `fresh` count in `data-new` — an integer, legitimately 0 for
+  // a guest with no study comparison yet (`_gameStudyStatText` then keeps the door's name).
+  const planCell = page.locator('.ngStat[data-b="new"]')
+  await expect(planCell).toBeVisible()
+  await expect(planCell, "before the planner loads the cell names the door").toHaveText("Study plan")
+  expect(await planCell.getAttribute("data-new"), "and prints no count it cannot know yet").toBeNull()
+  await expect(stats).toHaveAttribute("data-gameplan-status", "not-loaded")
+  // load the planner through the app's own seam; `_refreshGameplanUI` REPLACES the row, so the
+  // geometry below measures the repainted row, not the one first mounted
+  expect(await page.evaluate(() => (window as any).__neural._ensureGameplanRuntime())).toBe(true)
+  await expect(planCell, "the loaded plan's count is an integer").toHaveAttribute("data-new", /^\d+$/)
+  await expect(stats).not.toHaveAttribute("data-gameplan-status", "not-loaded")
+  await expect(stats.locator(".ngStat")).toHaveCount(3)
   // EVENLY SPACED, NOT PINNED TO THE EDGES (v1.138.0, owner: "the space between these items is
   // so large that they seem overglued to their edges in a weird way").
   //
@@ -227,6 +238,12 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   // LADDER progress (proven units of the pinned track) — NOT gameScore().stripes. Seed a
   // purple score: the subtitle follows it, the tab belt does not move. (The woven meter
   // itself is gone since v1.98.1 — the subtitle is the score's one visual.)
+  // THE GRANDFATHER READS THE SCORE ONCE (v1.211.0): seed it only after the migration has run
+  // (`belts.gf`), or the seeded band would become this profile's belt — the migration doing
+  // exactly its job, on a fake score.
+  await expect
+    .poll(() => page.evaluate(() => { const a = (window as any).__neural; return !!(a.curriculum && a.belts && a.belts.gf) }))
+    .toBe(true)
   await page.evaluate(() => {
     const a = (window as any).__neural
     // `f` is REQUIRED since v1.146.0 — see belt-meter.spec.ts. gameScore memoises on
@@ -268,8 +285,8 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
     "data-tab-stripes",
     String(seeded.expected),
   )
-  // completing the WHOLE belt advances the corridor (v1.99.2: the tab belt tracks the
-  // frontier belt, not a pin): a fresh blue belt, zero stripes, blue dye
+  // proving EVERY White unit promotes (v1.211.0: the tab belt is the WORN belt — the belt after
+  // the last one whose units are all proven): a fresh blue belt, zero stripes, blue dye
   await page.evaluate(() => {
     const a = (window as any).__neural
     const belt = a.curriculum.belts.find((b: any) => b.id === "white")
@@ -303,7 +320,13 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   await expect(page.locator(".ng-gi-toggle"), "no pill on Explore").toHaveCount(0)
 
   await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
-  await j.clickByMouse(".t-rl", "the Rolling tab")
+  // Settings is a DEFERRED bundle since v1.207.0 (`app/settings-ui.js`, imported on first open;
+  // settings-lazy.spec.ts owns the loading/late-completion contract). The gear first paints
+  // "Loading settings…", so the tab exists only once the presentation installs. Wait for it —
+  // clickByMouse deliberately does not wait — and then the claim is the same: a real mouse at
+  // the tab's measured centre reaches it.
+  await expect(page.locator('[data-settings-tab="rolling"]'), "the lazy Settings UI has loaded").toBeVisible()
+  await j.clickByMouse('[data-settings-tab="rolling"]', "the Rolling tab")
   const gi = page.locator("[data-settings-gi]")
   await expect(gi, "the one home: Settings → Rolling").toBeVisible()
   // placement only — the same behavior seam still flips the whole app's frame
@@ -543,7 +566,10 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     ).toBe(false)
     expect(hit.inModal, "the point over the card belongs to the modal/scrim").toBe(true)
 
-    // the modal's own controls take the mouse (clickByMouse refuses intercepted clicks)
+    // the modal's own controls take the mouse (clickByMouse refuses intercepted clicks). Settings
+    // renders lazily (v1.207.0: "Loading settings…" first), and clickByMouse does not wait, so wait
+    // for the control to exist; the reachability claim itself is unchanged.
+    await expect(page.locator('[data-settings-legal] [data-legal="terms"]'), "Settings has rendered").toBeVisible()
     await j.clickByMouse('[data-settings-legal] [data-legal="terms"]', "Terms inside Settings")
     await expect(page.locator("body")).toContainText("Terms of Use")
     hit = await hitReport(page)

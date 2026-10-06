@@ -146,7 +146,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 39
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Stack Pass",
@@ -408,7 +447,7 @@
         "transition": "De La Riva Sweep",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 14
+          "nogi": 25
         }
       },
       {
@@ -421,8 +460,8 @@
       {
         "transition": "Berimbolo Entry",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 8
+          "gi": 10,
+          "nogi": 6
         }
       },
       {
@@ -457,8 +496,55 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 11
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 42,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 16,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 9,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "De La Riva Guard/Bottom",
+            "probability": {
+              "gi": 44,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Omoplata from De La Riva Guard",
@@ -500,6 +586,13 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": null
+        }
+      },
+      {
+        "transition": "Bolo Sweep",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 2
         }
       }
     ],

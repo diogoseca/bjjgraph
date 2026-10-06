@@ -29,10 +29,38 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
+
 Newest first. Where a narrative's own label disagrees with git, the real shipping version is
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.196.1** — [THE SETTINGS TABS FIT THE PANEL, AND A SIXTH CANNOT BREAK THEM](#v11961--the-settings-tabs-fit-the-panel-and-a-sixth-cannot-break-them)
+
+- **v1.196.1** — [THERE IS NO DEFAULT LIST](#v11961--there-is-no-default-list)
+
+- **v1.196.1** — [YOUR LISTS FOLDS LIKE ITS NEIGHBOURS](#v11961--your-lists-folds-like-its-neighbours)
+
+- **v1.197.0** — [THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH](#v11970--the-seat-is-the-players-every--offers-both)
+
+- **v1.211.0** — [THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS](#v12110--the-belt-is-earned-in-the-challenges-and-it-never-falls)
+- **v1.206.0** — [WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL](#v12060--what-the-map-means-the-graph-semantics-research-cell)
+- **v1.209.0** — [WEAK SPOTS IN YOUR RULESET, FROM YOUR START](#v12090--weak-spots-in-your-ruleset-from-your-start)
+- **v1.210.0** — [ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN](#v12100--origin-coherence-the-orphans-listed-at-home-and-the-no-gi-walk-deals-by-origin)
+- **v1.212.0** — [ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME](#v12120--origin-coherence-phase-2-a-listing-may-deal-its-move-and-five-moves-go-home)
+- **v1.212.3** — [A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY](#v12123--a-transition-from-a-control-alias-lands-on-itself-and-the-catch-waits-for-play)
+- **v1.212.5** — [THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET](#v12125--the-finish-odds-journey-stops-buying-a-lottery-ticket)
+- **v1.212.6** — [THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP](#v12126--the-address-bar-no-longer-freezes-on-100-sweep)
+- **v1.212.7** — [EVERY REDIRECT LANDS ON A BUILT PAGE](#v12127--every-redirect-lands-on-a-built-page)
+- **v1.214.0** — [A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)](#v12140--a-listing-may-carry-its-own-outcome-table-the-mechanism-no-table-applied)
+- **v1.215.0** — [A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE](#v12150--a-listing-absent-in-one-ruleset-is-not-dealt-there)
+- **v1.216.0** — [95 LISTINGS DEAL THEIR OWN OUTCOME TABLE](#v12160--95-listings-deal-their-own-outcome-table)
+- **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
+- **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
+- **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
+- **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
+- **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
+- **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -260,8 +288,8 @@ by `grep` and does not need an index row.
 - `_traySup` — v1.129.5, v1.109.0
 - `_updateHover` — v1.127.0, v1.114.3
 - `_warmMcPool` — v1.104.8, v1.80.4
-- `activeListId` — v1.101.0, v1.99.4
-- `addToList` — v1.126.0, v1.99.4
+- `activeListId` — v1.196.1, v1.101.0, v1.99.4
+- `addToList` — v1.196.1, v1.126.0, v1.99.4
 - `attempt_probability` — v1.121.0, v1.68.0
 - `badges` — v1.109.0, v1.68.0
 - `bottom` — v1.125.0, v1.81.3
@@ -355,7 +383,9 @@ tried.**
   integer reads as a bug (in 98 of 272 hands the best-EDGE card is not the best-odds card);
   **reversed v1.129.1** in favour of the category word. *Do not silently reinstate it.*
 - **Capture filed into a default list** (v1.99.5) — **reversed v1.102.0**: the picker always
-  opens, because "one list" is only unambiguous the first time.
+  opens, because "one list" is only unambiguous the first time. Its last trace — the picker's
+  "DEFAULT" chip and `activeListId` itself — **retired v1.196.1**. *Do not reinstate a
+  privileged list, a marked row, or a write that falls back to one.*
 - **The list-row ▶** (v1.103.6) — **deleted v1.103.7**: ▶ means *make this the current state and
   roll*, which you cannot do to a collection.
 - **The in-node dossier** (v1.100.0) — **retired v1.101.0**: the game's own card is the one
@@ -390,6 +420,22 @@ tried.**
   ingest cost and deliberately NOT done, because it changes the emitted geometry.
 - **Role-splitting `adj`** — the suite found it: several readers walk it role-agnostically on
   purpose. *Do not role-split `adj`.*
+- **The pane's equal-column grid for the Settings tabs** (v1.196.1) — `.ng-learning-nav`'s
+  `repeat(N,1fr)` gives five tabs ~65px each on a phone, while "Notifications" is ~82px at
+  13.5px. So it fits only by shrinking the type or truncating the label, and a sixth tab makes it
+  worse. The scrolling row cannot overflow at any count.
+
+- **Renaming `activeListId` to `lastListId`** (v1.196.1) — rejected: a second persisted recency
+  signal beside every list's own `t`, which the Lists panel already sorts by; the two disagree
+  after a removal, a rename, an undo or a merge, and it would mint a settings key that can never
+  be deleted. **Keeping `activeListId` with explicit-id writes** — rejected: every app writer
+  already passed an id; the field's only living job was to name the chip's row.
+
+- **A folded Your lists that stays shut after an add, trusting the toast and the header count**
+  (v1.196.1) — the header counts LISTS, so an add to a list you already have moves nothing on it,
+  and the toast is the single `setEvent` slot the roll overwrites within seconds. It would have
+  broken "I should be able to see the listed techniques after adding" to satisfy the fold. The
+  shipped answer is a session reveal (`_revealLists`). *Do not re-propose.*
 
 
 ---
@@ -7868,3 +7914,2412 @@ tag routes are retained. Fresh emit, 320 units, canon, Quartz source check, full
 assertions. SEO parity passes on the 6,211-page build, with all measured fields identical across
 the 19 sampled routes and no baseline changes. Boot bundles add 675 B gzip against this dev;
 eager payload is 332,108 B (-182 B vs accepted baseline), first-hand core 351,666 B (+2,626 B).
+
+## v1.196.1 — The feedback modal loses its privacy hint, and closes over the hole
+
+Owner, 2026-09-24: remove "Please don't include personal information." from the feedback modal
+(`openFeedback`). Surveyed first: nothing else referenced the string, including no spec, the
+Forward mock, `content/terms.md` and `content/privacy.md`. The hint was the third of four children
+in a flex column with `gap:10px` (textarea, "about:" row, hint, Send), so the element is DELETED,
+not emptied or hidden. Measured by mutation: an emptied div leaves Send 20px below the "about:" row
+and a `visibility:hidden` one leaves it 31px below. Both are against the 10px control gap
+(textarea to "about:"). Gate: `e2e/journeys/feedback-modal.spec.ts` (`@curated`, 390 and 1440),
+which opens the modal from BOTH pane-foot entry points and pins the titles and placeholders
+verbatim. It asserts no "personal information" text and "Send one column gap below the control
+above it" as a differential, and it drives every control with `j.clickByMouse`: entry, textarea,
+checkbox, Send, close. It went RED first on the hint. Killed 8 of 9 mutants: hint restored, emptied,
+`visibility:hidden`, issue title changed, the card's pointerdown `stopPropagation` removed, the
+checkbox listener removed, the close listener removed, and `pointer-events:none` on the feedback
+row. The survivor is `display:none` on a re-added hint, which is invisible and outside the flow; it
+is recorded in the spec header. Added `data-feedback-title` and `data-feedback-close` as owned
+markers. The modal portals to the app root, outside the wrap that `attachInput` captures on, so it
+needs no early-return entry; the mouse journey is what keeps that true.
+
+## v1.196.2 — Invite graph improvements and record feedback session state
+
+The issue entry now reads "Help improve it", with "Help improve the graph" in the modal and
+"Reports like this decide what gets fixed next" after Send. Its placeholder asks what is wrong,
+missing or confusing and where it happened. The technique request copy and both event names stay
+the same. Both feedback events carry only a `signed_in` boolean in addition to their existing
+properties. Mouse journeys pin the copy, announcer, one-line issue entry at 390, and both boolean
+values through the existing session seam. The updated spec failed before implementation; eight
+mutants fail their named assertions. The Forward mock carries the same entry label.
+
+## v1.196.1 — THE SETTINGS TABS FIT THE PANEL, AND A SIXTH CANNOT BREAK THEM
+
+Owner, with a desktop screenshot: "settings doesnt have room for all tabs … and this is in
+desktop, not working right. i wonder if this will also work right on phone or tablet".
+`renderSettings` hand-built the row as five `<span>`s (`.t-fc .t-rl .t-md .t-nt .t-kb`), 22px apart,
+with five listeners, no overflow behaviour, and nothing focusable. Measured on the served bundle
+(the card is `min(440px,92vw)`, `overflow:hidden`):
+- at 768, 1024 and 1440, "Shortcuts" ran 22.5px past the content box and 0.5px past the card's
+  edge, which clips it;
+- at 390 it sat 81.7px OUTSIDE the card, invisible even while it was the active tab. That is
+  exactly what the account menu's "Keyboard shortcuts" row opens;
+- hit boxes were 28px tall.
+
+**Fix.** `NG_SETTINGS_TABS` is one list, and `_settingsTabRow` is one seam that owns:
+- a delegated click handler;
+- ←/→ that wrap, and Home/End, all stopping propagation so `_onKey` never pages the landing card
+  behind the modal;
+- focus on open, and focus kept across the rebuild after every change;
+- the row centred on the active tab at open, and a glide to it on a tab change;
+- a vertical wheel that scrolls an overflowing row sideways;
+- `data-fade`, re-derived on scroll, render and resize (by ONE app-lifetime ResizeObserver).
+
+The styles, `.ng-stabs` / `.ng-stab` in helmet.html, are the More fold's contents-row idiom (one
+row, horizontal scroll, `_navMark`'s centring), plus what that row lacks:
+- a 44px `<button>` around the old visual span;
+- `space-between`, so a row that fits is flush with the column;
+- a mask fade only on a side that hides a tab;
+- `role=tablist/tab/tabpanel` and a roving tabindex.
+
+The five fit at 440px (~18px gaps), and a phone scrolls. `.t-nt` and `.t-rl` in two journeys and
+`_owner_shoot.mjs` moved to `[data-settings-tab="…"]`.
+
+**Gate.** `settings-tabs.spec.ts` holds 9 `@curated` journeys. They were RED first against the old
+spans given tab semantics only, 8 of 8, and at 1440 the failure was
+`"Shortcuts" label [876.1, 940.5] inside the content box [523.0, 917.0]`. Mutation: 20 mutants,
+19 killed. The survivor is the inline `pointer-events:auto`, which is recorded in the spec header:
+the modal is portaled out of the wrap, so `attachInput` never sees it. Two harness lessons live in
+the spec's `settled`:
+- a scroll event lands on the next rendering frame, which can take >120ms under SwiftShader;
+- a smooth `scrollTo` held still for two frames before gliding.
+
+Payload: the eager set is 332,095 → 332,832 B gzip, +737 B against dev's own bundle and measured
+by `validate:payload` on one build tree (raw +1,590 B). That is +542 B against the accepted
+baseline, inside the 5,000 B cap.
+
+## v1.196.1 — The layer dock and the replay bar centre on the column, not the viewport
+
+Owner, 2026-09-23: "when i click close on some element like the flashcard/landcard after i
+opened/expanded the More container, i see the dock icons but they're not rightly centered since i
+have the left side panel open, so they should be centered like the rest." v1.196.0 moved the card,
+its stack, nav, More and the film to the measured centre of the space the pane leaves
+(`_paneLayout` → `_layoutLandHorizontal`, every frame). `_renderLayerDock` still wrote a literal
+`left:50%` into its `cssText`. Measured with a 360px pane: dock 720 vs card 900 at 1440, 512 vs
+692 at 1024, 400 vs 524 (film) at 800 — half a pane-width off. The survey of every other
+`left:50%` found one more member of the same bug: the replay bar, which already docks VERTICALLY
+where the card docks and is started from the pane's Last rolls tab, sat at 720 vs 900, and at 1024
+it overlapped the pane by 108px and painted over it (root plane, z:8; `elementFromPoint` returned
+the bar).
+
+Fix: both join `_layoutLandHorizontal` as the column's chrome and take its centre on every frame,
+which is what carries them through the pane's open and close animation (the close runs on the width
+`_paneLayout` retains after `display:none`) and through a resize. The dock's `cssText` no longer
+carries a `left`, and `_renderLayerDock` lays itself out once so its first frame is placed. In the
+short-landscape composition the deck column sits under an open pane, so there the chrome centres on
+the free area (the viewport's centre when the pane is shut, i.e. unchanged). All widths are read
+before any `left` is written. +169 B raw / +99 B gzip on neural.js.
+
+Not the same bug, reported and left: the announcer (`.ng-evtoast`, top, `left:50%`) is covered by
+the pane at ≤1024 (118px at 1024) and does not follow the node, but it is not column chrome and
+`rollCamTarget` reads its rect for the camera band; the option-detail sheet (`margin:0 auto`) and the
+state-choice preview (`left:50%`) are deliberate z:50 sheets; `.ng-combo-pop` cannot fire while the
+pane pauses the roll; the card/nav/stack/More/film `left:50%` are first-frame CSS the seam overwrites.
+Found on the phone and not touched: the v1.171.0 share-cue step-aside (−34px) avoids nothing
+today (the cue rides at bottom:84, above the dock's band) and puts the first glyph's 44px hit
+box 375 px² over the win bar.
+
+`e2e/journeys/layer-dock-centre.spec.ts`: 9 journeys (owner path at 1440/1024/800 including the
+no-member state, frame-by-frame open and close, resize, short landscape, replay at 1440/1024,
+phone with the cue); 7 red on the pre-fix bundle; 11 of 11 mutants killed by named assertions
+(table in the spec header).
+
+## v1.196.1 — THERE IS NO DEFAULT LIST
+
+Owner, 2026-09-23: *"abolish the 'default' list annotation, why is there a default in the first
+place? what's the mechanism? i mean we always select the list to add/favorite something to
+right?"* — yes, since v1.102.0; the annotation had outlived its reason by a year.
+
+**What the owner saw was a pseudo-element.** No `.css` file carried it: `neural/src/helmet.html`
+drew `.ng-listpicker-row[data-picker-default="1"] .ng-listpicker-name::after{content:"default"}`
+— 8.5px, uppercase, `rgb(126,138,163)` — after the picker's first row name. Measured on the
+HEAD bundle: first row `after: "default"`, `innerText: "Tuesday takedowns\n0"`. textContent and
+innerText cannot see it, which is why the old spec pinned the attribute and the new one reads
+`getComputedStyle(name, "::after").content`.
+
+**The mechanism.** `activeListId` — a persisted per-key LWW setting, "the list last created or
+filed into", repaired at load, at pull and on delete. Its readers: `targetList()` (the picker's
+first row and its `data-picker-default` stamp), the `listId || this.activeListId` fallback in
+`addToList` / `removeFromList` / `removeListItem`, and `activeList()` / `activeListHas()`, whose
+only caller was `toggleListItem()` ("Added to today’s list"). Since v1.101.9 `captureNode` opens
+the picker unconditionally and every app writer names its list (`pickList`, `createListWith`,
+`saveSharedList`, the expanded row's ×); `toggleListItem` had zero app callers and one spec. The
+v1.99.5 comment still described 0-list and 1-list ONE-TAP paths that no longer existed, and it
+misled the brief for this very change — it is now marked SUPERSEDED at the code.
+
+**Decision: retire it, don't rename it.** Read by nothing and written by nothing; the key stays
+dormant in old blobs (§6.6). The picker's rows are `listsArray()` — the Lists panel's own order,
+most recently touched first — and none is marked. `addToList` refuses a write with no list
+(`reason: "no_list"`); both removal paths refuse too. The toast names the list, always.
+`toggleListItem`, `activeList`, `activeListHas`, `targetList`, `_pickerOrder` are deleted.
+
+**The order had to become strict.** Recency is each list's `t`, stamped `Date.now()`, so two
+lists touched in one millisecond TIED and fell back to key-insertion order — oldest first. The
+RED run hit it on the existing premise: after seeding two lists in one evaluate, `listsArray()[0]`
+returned `…d1` (older) where `…d2` (newer) was expected. `_listStamp()` is never below the wall
+clock and always above every stamp held (a Lamport-style bump, which is also the causal answer
+under peer clock skew in `ngMergeLists`).
+
+**Behaviour that moved.** After a removal, a rename or a merge, the picker's first row is the
+list touched last — the panel's first row. After Undo of a delete, the list returns at its old
+recency, not first. Nothing else: `_openSharedListFromUrl`, `openListSession` and
+`saveSharedList` are untouched (the saved class leads recency exactly as it led `activeListId`).
+Boot bundle: JS −1,417 B raw / −287 B gzip, CSS −195 B / −33 B gzip.
+
+**Red-proof.** `lists-picker.spec.ts` test 6 (rewritten from "offers a default FIRST") and test
+1/2 carry it. Nine mutants, nine kills: picker in key-insertion order (T6+T1), alphabetical
+(T6), creation-order newest-first (T6, the "order follows use" half), non-strict stamp (T6,
+frozen-clock seed), marker attribute restored (T6+T1), chip restored by CSS alone with no
+attribute (T6, the `::after` read), `addToList` fallback (T6), `removeListItem` fallback (T6),
+"today’s list" removal toast (T2).
+
+**Gates (local, 1 worker, private port).** 320 units; `@curated` 330/332, whose two reds were
+`learning-static` reading a stale page copy in the harness, re-run green on a same-commit build;
+`validate:payload` OK with the eager set −495 B gzip against its baseline; `validate:surfaces`,
+`validate:forward`, `validate:claudemd` OK. Noticed on the way, not caused here:
+`share-lists.spec.ts` "the + works at 390px inside the drawer" went red 3 times inside long
+sequential runs and 0 of 20 times isolated on either the HEAD or the new bundle — an unexplained
+timing flake, not a gate (it is not `@curated`); and two emits of one commit write
+`curriculum.json`'s `scoreWeightsByRuleset` with tied entries in a different order
+(mapping-equal), so its bytes can move with no content change.
+
+## v1.196.1 — YOUR LISTS FOLDS LIKE ITS NEIGHBOURS
+
+Owner, 2026-09-23: "fix Your lists being collapsed pls … like other categories where it's collapsed
+by default unless we expand it." Explore's six category sections had folded through the persisted
+`exploreOpenSections` map since v1.99.3. `renderLists` built its header outside that map, so Your
+lists was always open.
+
+It now folds through the same map under the key `Your lists` (`NG_LISTS_SECTION`), and its toggle
+wears the same handle (`data-explore-section`, `aria-expanded`, plus `aria-controls` on the new
+`[data-lists-body]`). An absent key is closed, so existing users get the fold with no migration and
+nothing written at boot. The toggle is a real button (label + count); the + stays live on the
+folded header with its 44px box untouched. The caret sits outside the button, since a button may
+not hold the + button, and the row forwards any press but the + to the toggle. `margin-right:-8px`
+on the + puts that caret in the other headers' caret column (measured x 326–335, same for all
+three). `(0)` still shows at zero. A received class and a live undo render above the header,
+outside the fold. `_toggleExploreSection` now hands focus back to any header that held it (all
+seven, `preventScroll`), so Enter and Space work twice in a row.
+
+THE TENSION. The older rule (v1.99.4) — "I should be able to see the listed techniques after adding
+under Your lists" — was met by `_expandList` opening the list you added to, which shows nothing
+inside a shut section. Resolved with a SESSION reveal, `_revealLists` / `_listsRevealed`. These
+open the section for the rest of the session: making, adding to or restoring a list (all
+`_expandList`), a saved-class share arrival (`_offerShare` opens the pane precisely so "the list is
+read first"), and both halves of the share cue. The reveal never writes the map; a header press
+clears it and persists; the next add reveals again. The rejected alternative is in Index C. A
+`focusList` reveal was written, found unreachable (its one caller is a row inside an open section)
+and deleted.
+
+`lists-section-fold.spec.ts`: 7 journeys, 3 `@curated`. Against the pre-change bundle all 7 fail,
+but on the missing handle alone, so the behaviour is proved by 21 mutants, all killed; the table
+is in the spec header. M4 (the reveal written to the map) dies at a reload premise rather than at
+its own "wrote nothing" line. Four existing specs follow the fold: two `share-lists` reads of the
+empty line, `lists-rename`'s inert blur click (the head is a control now) and gallery shot,
+`lists-disclosure`'s reload step. `explore-sections` now lists seven sections.
+
+`neural.js` +1,746 B raw, +414 B gzip-9; CSS unchanged. Not covered: the reveal on a phone, the
+Undo path's reveal (rides the M3 seam, no journey restores a list), and the `forward/` catalog
+mock, which still prints the header without `(0)` and has no parity gate.
+
+## v1.197.0 — THE SEAT IS THE PLAYER'S: EVERY ▶ OFFERS BOTH
+
+Owner, 2026-09-23: "when we click to play / roll from a technique we found in the side bar it says
+we start on top, but what if i wanted to start on bottom?" `confirmPlayFrom` — the sheet behind an
+Explore/list ▶, the option sheet's "Play from here" and a Last-rolls ▶ — DECIDED the seat (the
+technique's `fromRole`, flipped by the global `_perspective`; a position's title-derived side,
+which is the constant `top` — all 266 position members on the wire carry a "… Top" title, the
+BOTTOM member included) and printed it inside the title: "Roll from Half Guard, attacking?" /
+"…with you on the top." No per-roll way to take the other side existed.
+
+Now: "Roll from Half Guard?" · "PLAY AS [Attacker | Defender]" (technique) or "[Top | Bottom]"
+(position), the derived seat preselected, a hint for a technique — "You play Knee Slice Pass." /
+"You defend against Knee Slice Pass — the other side of the same position." — and the body's side
+word follows the choice. Start passes an explicit role; `_seatMember` (now also the one answer
+inside `techniqueOrigin`, §6.5) seats you on the orb that plays it, so the URL reads
+`/Positions/Half-Guard/Bottom` and a reload re-seats you — before, a defender-perspective roll sat
+on the TOP member at `/Positions/Half-Guard`. Positions read their side from the member's `role`;
+`roleLabelOf` survives only for the pre-split graph.
+
+Three defects found on the way, all fixed and pinned: (1) Esc did nothing to this sheet — it had
+no rung on the ladder; it is now first, and returns so the pane does not close in the same press.
+(2) ⏎ with the sheet open over the option sheet reached the window ladder's ⏎/X branch and
+COMMITTED the move underneath (measured on the old bundle, `commit` 0 → 1); the sheet now owns its
+keys (everything but Esc stops at it) and takes focus on open, returning it to the ▶ on close.
+(3) `close()` set `opacity:0` and removed the node 160ms later with no transition declared — an
+invisible z:95 scrim (§6.1), and a sheet reopened inside that window was the second `.ng-cf-yes`
+under the dead one's box (found by `clickByMouse`); it is removed at once.
+
+Entry points: covered by the one sheet — Explore/list rows, "Play from here", Last rolls. Left
+alone deliberately — a graph tap (the pair's two orbs ARE the seat), the search modal (positions
+already carry "Play as Bottom/Top"; techniques there have no play control), the in-roll log's
+▶ (replays the recorded side without a sheet), URL arrivals (`/…/Bottom`, `/…/Defender` name the
+seat). The landing card has had no play control since v1.132.0; `dsRoll` is dead code (§6.8).
+
+Gate: `e2e/journeys/roll-seat-choice.spec.ts`, 6 journeys (3 `@curated`), RED on the old bundle
+(all six), every control by `clickByMouse`, every gameplay rng tag rigged. Fixtures chosen so the
+fall-through to `top` kills both headline journeys: Knee Slice Pass (top-authored, Defender =
+bottom) and Deep Half Entry (bottom-authored). 19 mutants: 17 killed; non-kills M4b (role dropped
+alone — equivalent on the paired graph, the member carries the side) and M17 (sheets stacking — no
+UI path reaches it). Table in the spec header. Payload: `neural.js` +2,911 B raw, +838 B gzip;
+eager 332,117 → 332,955 B (5,000 B delta cap), measured against a HEAD-source build of the same
+tree.
+
+## Integrated Roll documentation consolidation (v1.198.0 candidate)
+
+Unpublished integration housekeeping: the current behavior spec is condensed without changing its contracts. The replaced explanatory passages below preserve their historical rationale. No gate ceiling was increased.
+
+### The option sheet preserves the inspected card's anatomy
+
+The sheet head keeps the option card's EXACT anatomy — the numbered category glyph (the tray
+digit rides along via `catGlyph`), the category word whispering at 10px/.05em, EDGE — and the
+technique's OWN name as the 27px title (`splitName().main` + the `from …` qualifier line). The
+from→to decomposition is deleted ("it should definitely not be decomposed into this made-up
+title", owner). The EDGE explainer paragraph became a `title` tooltip on the number itself
+(`cursor:help`; aria-label shrank to the NAME per the title-is-the-description convention; the
+by-the-book-opponent caveat rides inside — canon for any EDGE copy). The "on success, advances
+to" line stays gated on `titleParts` being null: `opt.res` is a deal-time first-neighbor
+heuristic, measured wrong for 188 of 323 "X to Y"-named transitions when that gate was briefly
+widened. **The sheet is PORTALLED to the root plane at z:50 (coaching band)** — it was
+`absolute z:6` inside the wrap, trapped at plane 0 under the root-plane landing card (§6.1's
+ladder trap, caught by an adversarial pass before shipping) — and **the landing card is no
+longer hidden on expand**: it stays visible BEHIND the sheet (the old opacity hide-site, §6.1's
+last leaky one, is deleted outright). Paint order is asserted with `elementFromPoint`, never
+z-index arithmetic. Pinned by `option-edge.spec.ts` + `coldstart-backfill.spec.ts`.
+
+
+### The turn-based shell (v1.134.0)
+
+**The transport is retired.** With the hesitation branch gone nothing ever advances without a
+commit, so play/pause/restart controlled nothing — the buttons are deleted, Space no longer
+toggles anything (the Shortcuts tab row went with it), the Last-rolls CURRENT row lost its
+pause/resume toggle (archived rows keep "roll from here"; the live row carries no button), and
+`setPaused` survives only as internal MOTION state (staging pauses,
+committing unpauses; the pane law still freezes travel). **The background ladder** (owner):
+click empty sky once — the card closes (question declined, free) and the hand stays; click again
+— **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
+centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
+roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
+✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
+accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
+`_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
+PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
+to the pair label that already names it. **The escaping orb rushes on click**: arriving on (or
+clicking) the defending side enters the defense immediately — vignette, drill clock, escape
+hand — with the stale landing card declined and cleared first. The Win–Lose meter reads
+**Win (blue) left · Lose (red) right** (the writer mirrors `adv.cur`; the model is untouched),
+and the option-card category tracking dropped to .05em so SUBMISSION never truncates.
+
+
+---
+
+
+Historical roll-history regression note moved from the behavior spec:
+
+Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
+ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
+tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
+
+## v1.198.2–3 — A LATE PAYLOAD NO LONGER EATS A CLICK
+
+PR #217's three red shards. **4/4** (`Your lists(0)+` at 390px) was an app defect: systems.json,
+concepts.json and the alias index each rebuild Explore when they land; a rebuild between mouse
+down and up leaves no common target, so no click fires. Measured with the payload held and
+landed mid-press: touch survived, mouse lost the list. `_afterPress` holds those repaints until
+release + one task. CI still went red: "Loading aliases…" sat above Your lists and its removal
+lifted the + 30px between measure and press. It now renders at the tree's foot. **1/4**: the countdown journey's start was unrigged, and from Front Headlock
+its ruleset-blind picker chose masked Guillotine Control; start pinned, picker filtered. **3/4**:
+Playwright's PR-event git diff capture ran `git fetch <base> --depth=1` in the repo, shallowing
+it under the publication oracle; `captureGitInfo.diff` is off.
+
+## v1.204.3 — THE BOOT WIRE STOPS SPELLING NAMES
+
+The deck manifest (format 4) and curriculum's score table key by share ordinal;
+`neural/src/wire-keys.src.js` derives the names. On the post-cutover engine (keyless build of
+6469abc49 + this change, before = dev's own emit swapped into the same tree): first-hand core
+355,018 → 334,074 (−20,944), eager 335,456 → 314,744 (−20,712); both baselines re-accepted there.
+Old vs new ingest is bit-identical (`tests/artifacts/_wire_keys_differential.mjs`); 20/20 mutants in
+`neural_wire_keys.test.mjs`. Score ties rank the shipped integers, name as tiebreak: byte-equal
+across seeds (`_emit_determinism.sh`); dev's `curriculum_order.test.mjs` is ported to the ordinal wire.
+
+## v1.204.5 — Three fixes from the parked threats-order work
+
+A submission now always loses a belt test; only a no-tap ending is judged on points.
+The no-tap banner reads "No submission / Roll complete". Edge lighting joins moves
+by `target`, so Kneebar and Aoki Lock light their submissions. The wire differs from
+dev in those 3 `ew` entries only. 3 of 3 mutants killed.
+
+## v1.205.0 — MICROING LANDS: ONE PAGE, ONE HUB ROW, ONE GRAPH RECORD
+
+The owner-accepted Principle (2026-09-25), landed without rewriting it; its page regenerates
+byte-identical to the Codex render. **Held back on purpose:** a full hub regenerate also rewrites
+62 description lines (the generated-md-drift report's Cause 3) and `regenerate_graph.py` adds ~70
+System product `image` fields, so both files take only Microing's hunk (hub: 688 vs 688 lines, 62
+differing, all prose; graph.json: `principles.microing` and `principleCount` 62→63). The custody
+commit's `models.env` default-model change is dropped (owner's call).
+
+Measured on the guarded capture (accepted; the reused build checkout kept 6,409 content files'
+stamps): +1 page and nothing else. 3 of 6,212 HTML files differ from PR 220's golden: the page,
+the hub and its folder twin (+2 links each). A fresh worktree also reorders four tag pages (a
+D-253 tie: two Learning pages share one git date); non-failing, and absent from the capture.
+This change moves `neural.js` only by its baked version string. The eager set is byte-identical to a dev
+emit (Microing reaches only deferred `concepts.json` and one on-demand chunk), so first-hand cannot
+move. Arriving on `/Principles/Microing` seats, stages and deals nothing; clicking a technique it
+lists starts the roll. The SEO and census re-seeds come from a guarded capture whose receipt names
+this commit, so it must stay reachable from dev (merge, do not squash).
+
+**Open, for the owner:** Microing is the only Principle of 63 with no Principle-typed
+`related_content`, so its app pane has no "Related concepts" (the static page lists all 13).
+Status: resolved in v1.205.3 (owner ruling 2026-09-29).
+
+## v1.205.3 — MICROING GETS ITS RELATED CONCEPTS
+
+Owner's ruling on the open item above: six Principle rows lead Microing's `related_content`, the
+placement 43 of the other 62 use: its three prerequisites (Alignment, Base, Connection Principles)
+and the three closest (Making Smaller Circles, Maximum Efficiency Principle, Control Maintenance).
+Each `relationship` is that principle's `description` from Microing's own `principle_relationships`,
+verbatim; no new prose. The page gains six Related Content lines; `concepts.json` cross-links go
+520 → 526, all six resolved, lit nodes unchanged; `graph.json` and the hub do not move (they read
+neither field).
+
+## v1.206.0 — WHAT THE MAP MEANS: THE GRAPH-SEMANTICS RESEARCH CELL
+
+Owner: "improve explainability of the graph and graph math … like it would be great to say leg
+lock territory … respecting edges probabilities, graph flows". A six-seat research cell (one lead,
+five workers) answered it in `docs/GraphSemantics.md` and `scripts/semantics/` with no change to the
+app, the content, a probability or an emitter.
+
+**The object.** `scripts/semantics/_kernel.py` writes the corpus's game down once as an absorbing
+chain: 532 transient states plus W, L and D.
+- It is a thin layer over `solve_edge_values.Model`, gated at 59 checks by reproducing
+  `solve(policy="sample")` to <1e-15.
+- `scripts/semantics/independent_sim.py` is a Monte Carlo and exact solve that imports nothing from
+  the repo (gated at import). It agrees with the kernel on every figure: absorption to ≤ 2e-15,
+  and the largest z of 3.16 replicates away.
+
+**What came out, in one line each (numbers and proofs in the doc; no-gi, player-neutral rule, no
+clock unless stated):**
+- **No region traps a roll.** No region holding at most half of a long fight's time keeps the walk
+  longer than 7.7–8.5 steps (a certified Cheeger/P3 bound). Real spells last 2.4–4.4 steps, against
+  a 9.6-step roll.
+- **A place therefore means where it leads:** its exit law. Exit-law TV is proved to be the
+  worst-case disagreement on any yes/no question about how the roll ends.
+- **Leg-lock territory is 22 positions.** Averaged over them, 38.0% of the rolls that end, end in a
+  leg lock, against 6.6% from standing (26.2% against 7.2% time-weighted).
+  - Three methods find it up to its edges.
+  - The ending territory and the dynamics' leg set differ by four positions, and their union is
+    exactly the 3× enrichment region.
+- **There is no interior choke point** (one SCC of the net winning current). Passage replaces it.
+- **FLOW and EDGE.** FLOW is exactly the clocked, λ-weighted, uniform-start instance of the
+  success-rate gradient. EDGE departs from the corpus's advantage almost entirely through its
+  argmax continuation.
+- **The shipped map already carries the meaning** (ρ 0.45). A 9% median move would reach 0.86
+  within ±115 wire bytes; the cost is visual.
+
+**Things found in the tree that nobody had compared (each measured, none changed):**
+- CLAUDE.md §5's "opponentDefend has no role or origin filter, ~12%" is stale since v1.176.0.
+  - The opponent draws from `optionsFor` and differs by policy.
+  - The app's game is far harder than the corpus's: P(I finish) 0.35 vs 0.72 from standing, under
+    the shipped rule (`app_game.py`, 46 checks, reviewed twice against the source).
+- `gameScore` weights a one-player damped walk: Spearman 0.53–0.58 against the game EDGE and FLOW
+  price (`chains.py`).
+- The origin filter drops 48% of authored attempt points and orphans 41 techniques. But 98.9% of
+  dropped listings would TELEPORT if restored: their miss lands on the canonical origin. The coherent
+  fix is per-listing outcome tables, not a filter flip.
+- gi players are shown no-gi EDGE (70 gi cards have none) and no-gi FLOW.
+- `frame_reachable` admits Spider/Double-Sleeve Guard in no-gi through a teleporting Tripod Sweep
+  listing.
+- `tests/flow.test.mjs`'s V0-tolerance comment blames a Kimura Trap move-set difference. The
+  measured cause is attempt-share rounding.
+
+**Traps the cell fell into, and how they were caught:**
+1. **A relaxation time compared with the roll length** overstated the no-trap margin ~2.5× (the
+   lead's first claim). A metastability refuter caught it. The exact form: τ_lin = 1/(1 − λ*) is
+   half the harmonic mean of the two residences. The lead later quoted τ_log beside that identity,
+   and the territories lane caught it.
+2. **Symmetric-rule "who wins barely moves" is a tautology.** Under the player-swap symmetry any
+   change applied to both seats pins P(I finish) at ½ from a fair start, so it is not evidence. The
+   real evidence is the shipped rule. A hostile doc review caught five such overclaims.
+3. **A non-injective one-char class code** (SHOULDER and SPINE both "S") priced an undecodable
+   field. The scalars lane caught it.
+4. **Two clocks behind one word.** The kernel's 9–12-ply clock leaves 29–31% of rolls undecided;
+   the app's own `moveCount` clock leaves 35%. The doc's first draft quoted one as the other.
+5. **A summary statistic read as a block property.** G-PCCA+'s crispness 0.54 is the MEAN of two
+   blocks' self-overlaps (0.92 and 0.15). "Nothing beyond two blocks" hid that the second block is
+   the fuzzy leg cluster.
+6. **A maximum printed as a two-sided bound.** "Within 1.34× of the gi baseline" was true only
+   upward: one class sits 1.40× below.
+7. **A verification that never ran printed a pass (§6.6).** The lead's own byte-identity check of
+   `atlas.py` piped the run through a `/usr/bin/time` that does not exist on the host. `cmp` then
+   compared an untouched file with its copy and said identical. It was caught by reading the output,
+   and re-run properly.
+8. **Seat swap mid-run.** The five worker seats moved from Codex to Claude after the first item.
+   Three handovers survived and two lanes (territories, flux) lost their context. Re-briefs split
+   each predecessor's work into ACCEPTED (re-run by the lead) and unverified.
+
+**Durability.**
+- Every artifact computed on graph.json records graph.json's sha256. The derived ones also record
+  their inputs' and producers' hashes, and the naming writers refuse an input computed on a
+  different graph.
+- `atlas.py` runs 43 cross-lane differentials (0 failures).
+- `verify_all.py` discovers and re-runs every lane gate, checks every recorded hash, and registers
+  each number in the doc against its artifact (`claims.json`). `--heavy` regenerates the heavy
+  artifacts and diffs them.
+
+## v1.207.0–v1.207.x — THE FULL GAME: WIN CHANCE ON EVERY CARD
+
+The Codex full-game programme (custody commit `86e40365a`), re-integrated onto the post-cutover dev
+by replaying only its own delta against the base it was built on (tree `b0c4229a4`). Owner rulings
+of 2026-09-29 folded in. What a player sees:
+
+- **Win chance** replaces EDGE as the one number on own cards AND threat cards (threat probes), from
+  an MDP solved in a deferred worker over the live rules. The immediate chance sits beside it. It
+  decomposes exactly in its tooltip, `P(lands)·[win|lands] + P(misses)·[win|misses]`. The hand sorts
+  once on an untouched hand. The legend thermometer shows V(s): best card = V(s) whenever every card
+  has a value.
+- Measured on the real corpus (gi, 11 moves, opponent skill .13, no study):
+  - Mount/top: Kimura from Mount 90.3%.
+  - Closed Guard/bottom: Kimura from Guard 83.9%; the Ezekiel threat leaves you 36.3%.
+  - Back Control/top: Rear Naked Choke 90.3%.
+  - K-Guard/top: Backstep 70.7% (moves 37.8% → 51% and Win chance → 72.4% after one correct MC).
+  - These reproduce the Codex browser receipt exactly. Threat probes add 0–107 states, and the root
+    is bit-identical with and without them.
+  - Reproduce with `tests/artifacts/_win_chance_probe.mjs` (its header has the two commands).
+- **Retired:** "Winning vs not losing" (the key is kept, unread; the wire ships λ = 2 only). This
+  takes graph-data.json from 107,451 to 100,191 B gzip on the boot path, and the MDP metadata from
+  6 variants to 2. Also retired: the served `systems.json` (build-internal now; it was 376,491 of
+  the 500,000 B deferred cap).
+- **Adopted automatically:** a guest's old unowned progress, on first load. This inverts the Codex
+  seats' "legacy is not loaded", which would have shown every returning player a white belt.
+- **QREV7** (quartz-cto): a guest never loads the SDK, and a guest meeting a cached v1 façade boots.
+- **PR 220 port:** one decoder. `study-bundles.mjs` read format-3 `decks` and would have broken
+  every Neural build. `ngWireDeckIndex` is the single canonical index; the app and the study
+  producer fingerprint it.
+- **Belt:** the MDP's `classify` mirrors v1.204.5.
+
+**The first full core-suite runs (v1.207.6–v1.207.9).** Dev was green on the same suite (PR 227), so
+all 35 reds of the first run were this branch's, and so were the 4 of the second:
+- **App fixes.**
+  - Inspect while values prepared threw: the runtime renderer read fields the app's short view lacks.
+    That took out 11 journeys, every Shift+digit sheet among them.
+  - Value requests followed the tray order, so the sort-once re-solved an unchanged hand. The first
+    fix (dealt order) then met the provider's order-sensitive live-hand check, and a sorted hand went
+    "Win chance unavailable". The check is now set membership.
+  - The film strip was docked mid-transition after a rotation and stayed 4 px inside the hand, which
+    is 18 px taller now. It re-docks on its own resize.
+  - Study-comparison rows were rebuilt on every Win-chance repaint, which could swallow a click. They
+    now rebuild only on change.
+  - An attacker's escape threats had no probe (`opponentEscapeRow`, `ngMdpThreatId`).
+  - The legend label was looked up in the wrong element.
+- **Specs moved to deliberate changes, same claims:**
+  - Sign-in goes through the real facade (a guest boot creates no client, QREV7 M1).
+  - Sort-once order.
+  - Entry is 100%, so the authored rate is checked on Finish cards.
+  - Lazy Settings; the Study plan cell; the due-list header; an empty guest plan.
+  - payload-first-hand: the page stamps its own first hand, instead of relying on Playwright noticing it.
+- **Local-only play** (owner ruling 2026-09-29). A signed-in device whose SDK cannot load plays that
+  account's local copy under a banner, never pulls or pushes, and merges before its first push on
+  re-verify.
+  - Gates: unit tests on the host and the facade, plus an @curated journey.
+  - Mutant: a save that pushes while local-only turns the journey red at "still nothing pushed".
+- **QREV8.** M1 is killed only by a direct facade call: the app's own guest check answers first.
+  M2 is killed by gate 2, as a 240 s boot timeout. The `_initAuth` guest gate is a named non-kill.
+- **Rebased four times** (Microing, PR 228, PR 229, PRs 219/230).
+  - The full game was renumbered twice, each time only in lines dev does not carry: v1.205.x
+    (dev's v1.205.0 is Microing), then v1.206.x (dev's v1.206.0/.1 are graph semantics), now v1.207.x.
+  - Renumbering a comment moves the adapter's law hash, so every commit was re-pinned.
+  - Keep-list files were re-accepted with the freeze tool on each rebase.
+  - PR 219's corrected honesty-gap text is kept: EDGE describes the corpus's opponent, while the MDP
+    plays `opponentDefend` itself.
+
+
+**The owner screen's rulings (v1.208.0, 2026-09-30).**
+- **D1: every player has a plan.** With no study comparison (none requested, still computing, or out
+  of date), `ngGameplanBuild` ranks new material by the app's own weak-spots ranking
+  (`_gameplanWeakFallback` → `ngGameplanWeakSpots`), under the same deck gate.
+  - The plan says so: `status: "weak-spots"`, and `comparison` keeps the comparison's own state.
+    FLOW is never presented as a comparison.
+  - This reverses the v1.207.0 contract "FLOW alone deals nothing" (`tests/flow.test.mjs`, inverted
+    with its reason).
+  - The Explore cell reads dev's "N new" again.
+- **D2: the unlock progression.**
+  - Header: the plain, live "N cards due today". The line "Order and reasons saved when opened ·
+    current review debt below" is gone.
+  - The session list (due reviews plus the new-card budget) is headed "Finish these to unlock
+    more", with "3 of 13 cards done".
+  - The rest of the ranking is LOCKED: its rows are not dealt, and the list reads "29 more
+    techniques unlock when you finish". Finishing re-renders it as "Unlocked: 29 more techniques",
+    paged as before. The done card adds "More practice is unlocked below."
+  - The unlock is latched per plan, so a new day does not take it back.
+  - The gate is the plan's list only: a locked deck still opens as a study.
+- **D3: local-only for a failed session check.** The facade raises `session-unverified` with the
+  stored account when `getSession` errors or throws. The host treats it like `sdk-unavailable`
+  (`NG_PROGRESS_LOCAL_ONLY_CODES`). A malformed answer, or a stored session that names no account,
+  still holds.
+- **Item 9: one plain sentence per card.**
+  - Covers due rows, weak-spot tiers, and the model's and the presenter's reasons.
+  - Each caveat (game effects only, joint practice) is said once, under "Why these decks?".
+  - The summary no longer quotes a count that goes stale once the session is done.
+- **Gates.**
+  - Units 1,123/1,123.
+  - 130 targeted journeys green on a private port.
+  - Every new claim has a mutant that turns it red:
+
+  | mutant | red at |
+  |---|---|
+  | no weak-spots fallback (gameplan.js) | D1 journey, "weakest first"; `gameplan.test.mjs` D1 |
+  | extra rows dealt while locked | D2 journey, "locked rows are not dealt" (2 vs 12) |
+  | `s.unlocked` never latched | D2 journey, "Unlocked: 35 more techniques" not found |
+  | no unlock re-render in `_paintGameplanProgress` | D2 journey, same point |
+  | "session-unverified" dropped from the host's codes | D3 journey, first poll (hold screen); host unit |
+  | facade: a returned `error` or a thrown read left unwrapped | `progress_auth_facade.test.mjs` D3 (2 mutants) |
+
+  - A syntax-breaking deletion of the latch was discarded as a non-mutant (the bundle never
+    booted), and re-run as a semantic one.
+- **Payload.** Eager boot +1,186 B gzip (327,480 → 328,666), within the delta cap. Deferred
+  448,798 of 500,000 B.
+
+**D2, the owner's copy pass (v1.208.1, 2026-10-01).** In his words: he liked the "Reviewed 0/30" style
+progress, and when the player finishes it should say something like "All done, come back tomorrow",
+and AFTER that offer a Continue action, "Find more weaknesses".
+- **Progress:** "Reviewed 3/13", beside the kept "Finish these to unlock more".
+- **The finished session ends on the end card**: "All done, come back tomorrow · You reviewed 13 of
+  13 cards today." That card replaces the lock line at the END of the list. After it comes the
+  action "Find more weaknesses (29 more techniques, weakest first)".
+- **The action is what opens the extra list.** It deals the list under "More weaknesses" and lands
+  on its first deck (`s.unlocked`, set only there, and kept for that plan).
+- **Removed:** "Unlocked: 29 more techniques" (and its unlocked-block variant).
+- **A race that D1 widened.** The Explore stat row was rebuilt whole by every `applyDeckVisibility`,
+  every auth flip and every `_refreshGameplanUI`. D1 made its build slower, since it now asks FLOW
+  for the weak-spots ranking. `gameplan-study-live` then caught a cell detaching between "visible"
+  and the hit, in 3 of 9 runs, and a real click can be lost the same way. Fixed by `_mountStatsRow`,
+  which repaints mounted cells in place, so listeners stay; a changed cell set still rebuilds.
+- **Gates.**
+  - Units 1,124/1,124 (+1, the in-place repaint, whose always-replace mutant turns it red).
+  - study-live repeated 6×: 12/12.
+  - Plan and auth journeys: 60/60.
+  - Four D2 mutants, each killed at a named point (listed in the journey's header):
+    rows dealt while locked; the list opened without the action; an action that does not unlock;
+    no completion re-render.
+- **Payload:** eager boot +498 B gzip since v1.208.0.
+
+**`veteran-odds-clamp` follows the number to where it prints (v1.208.2, FGGEN1, 2026-10-01).**
+- **What failed.** The belt seat's generated-suite control found one red that belongs to PR 231
+  (40 are pre-existing on dev): the spec read every card's `.ngodds` as `round(moveChance)`. Under
+  the full game that corner is the IMMEDIATE chance with its own label. "Move NN%" on a transition
+  is still `round(moveChance)`, but a submission card is its "Entry". The live rule makes the entry
+  exactly 1 (`game-value-provider.src.js`), so it prints "100%"; the clamped chance prints on the
+  Finish card once the attack is entered.
+- **The claim, unchanged, is now read at both print sites:**
+  - every Move card;
+  - the Finish card of the drilled or best submission (Phase D);
+  - and the spec now requires the hand to deal a submission, instead of skipping silently.
+- **Mutants:**
+  - no 0.95 ceiling in the move-chance law: red at Phase B (105);
+  - a Finish card printing anything but its own number: red in Phase D ("Kimura from Mount", the
+    drilled target, expected the pinned 95%).
+- **Not changed, and why: a printed 100%.** `ngChoiceValuePercent` already prints ">99%" for
+  [0.995, 1) and "<1%" for (0, 0.005), and an interval straddling a bin as a range. So 100% and 0%
+  appear only when certain (`tests/choice_value.test.mjs`). The 100% the control saw is that
+  certain Entry, not Win chance.
+
+## v1.206.3 / v1.208.4 — THE GENERATED SUITE'S 40 REDS, TRIAGED; ITS BASELINE IS READ BY THE RUNNER
+
+**What was found.** `e2e:gen` was **40 red of 101** on dev `8d6ae5d01` (v1.206.2), measured by the
+belt-challenges seat and reproduced exactly (same 40 names, same failing assertions) on a keyless
+build of that commit. The ledger named none of them: all 179 rows read `"status": "accepted"`, the
+known-red set had lived only as prose ("the same 13 names", v1.127.0; 14 at v1.128.x), and no
+workflow ran the suite. That is the CLAUDE.md §6.7 tolerance-baseline trap, and it went 13 → 40 with
+nothing failing.
+
+**Triage, one spec at a time (six parallel lanes, one coordinator).** Each red was reproduced on a
+private port, given one verdict, and, if stale, moved to the deliberate behaviour with its claim
+kept, run green 3/3, and killed by an app mutant at the assertion that carries the claim. Mutants
+were built from an isolated copy of `neural/` and served from a hard-link copy of `source/public`
+with only the bundle swapped, so no run ever mutated the served tree. 66 mutant runs; every fixed
+spec has at least one kill; the one equivalent mutant (`holder-defense-window`'s "reuse the old
+`_decision`") is recorded in that spec's header.
+
+- **38 STALE.** The deliberate changes they never followed, by first cause:
+  - `cdc35cefe` v1.176.0 (18 specs, alone or stacked; 12 of them first went red there): a submission pick ENTERS its state with no
+    draw, and the Finish is a second pick of the same card; and `opponentDefend` draws from the
+    opponent's OWN role- and origin-filtered hand, so a catch can no longer come from any
+    submission adjacent to the site. v1.176.0 updated the core journeys and no gen spec.
+  - `e6f655a6a` v1.133.0 (the clock times the question): the escapes are untimed, so "let the
+    defense window expire" can no longer lose a roll — the specs that lost that way now lose by a
+    rigged failed escape (`stakes-impact`'s idiom); refunds and the hand clock are gone.
+  - `7677bfe70` v1.129.0 / v1.133.0: auto-pick retired. Four specs asserted it; the owner reversed
+    the claim ("when the clock runs out, the algorithm doesn't choose for you"), so their
+    `@invariant` now states the new law: expiry is a missed answer, −4%, momentum broken, no commit.
+  - `0c4fbc53d` v1.135.0 (panic drill is MC): four specs clicked a Reveal button that only exists on
+    the cold-pool fallback.
+  - `1e054f47f` v1.80.4 (decks boot as manifest stubs): three specs read `deck.cards` and saw an
+    unloaded deck as an empty one; they now hydrate and read through `_cardsOf`.
+  - `ba6aba811` v1.99.2 (only the frontier belt unfolds), `7e3eb9dc7` v1.180.1 (a capstone deals its
+    hand synchronously), `adbb48a31` v1.103.0 (`fromRole` decides the performer), `bb80a008c`
+    v1.104.0 (the coach deleted), `f12f8f74c` v1.134.0 (a sheet declines the question),
+    `d3bcb63d3` v1.137.0 (the clock waits for engagement), `053978d6f` v1.149.0, `a562ae73b`
+    v1.168.0, `3ba7701a6` v1.176.7, `4f41a4ccc` v1.189.0.
+- **2 REAL BREAKS, kept red, unweakened, named in the ledger as `known-red`:**
+  - `holder-checkpoint-letters-answer-digits-stay-roll` — since `a1d5cc3ff` v1.171.0 the drill
+    branch of `_onKey`'s ⏎ handler has no `_checkpoint` guard: Enter during an open checkpoint quiz
+    reveals the quiz card, a second Enter grades it as recall and credits `prep`. A one-line guard
+    turns the unmodified spec green.
+  - `holder-restart-tutorial-resets-white-only` — behind two stale assertions: after a reload
+    `gameScore()` serves a memoised 0, written before `curriculum.json`'s weights arrive;
+    `_onCurriculum` never bumps `_stageVer`. A probe build bumping it there turns the spec green.
+- **Found on the way, unguarded by any spec:** since `7e3eb9dc7` v1.180.1 the White capstone seats
+  the player bottom but deals the TOP hand (`rollFromPosition` deals before `startBeltTest` sets
+  `playerRole`).
+
+**Control pair (attribution measured, not argued).** The full gen suite was run at v1.176.0's
+parent `f2fd3f3a2` and at `cdc35cefe` itself (each commit's own bundle, payload, specs and DSL,
+served inside the v1.206.2 page shell; spec and DSL byte-identical between the two). The prediction was
+written down before the second run finished: at the parent **26** of the 40 were already red (every
+one a spec whose first cause predates v1.176.0) and **14** were green; at v1.176.0 exactly the **12**
+predicted turned red, the 26 stayed red, and the 2 whose causes are later (`casual-guard-pull`
+v1.176.7, `mid-locked-rows-inert` v1.189.0) stayed green. Two specs outside the 40 also went red at
+v1.176.0 and have since been repaired (`returner-research-coin…` by PR #217's spec edit,
+`endgame-stage-roll-cold…` by a later app change).
+
+**The baseline is now read by the runner.** `e2e/gen-ledger-reporter.ts` (verdict logic pure in
+`e2e/gen-ledger.mjs`, 10 unit tests in `tests/gen_ledger.test.mjs`, 8/8 branch mutants killed)
+decides an `e2e:gen` run from `e2e/gen/ledger.json`: a red the ledger does not name fails it; a
+`known-red` row that passes fails it (stale entry); a known-red red with a different message fails
+it; zero tests run fails it; otherwise it passes and prints one positive coverage line.
+`check_gen_specs.sh` lints known-red rows (test, reason, owner, since). `.github/workflows/e2e-gen.yml`
+runs the suite weekly against **dev** — a `schedule` event checks out the default branch (main), so
+a job inside `e2e-full.yml` would have tested main, a release behind. Cost: ~30 runner-minutes a
+week (one build ~14–16 min, measured on `e2e-full`'s build job; ~101 tests × ~5 s), 0 billable on a
+public repo. The cheaper and stronger alternative — a fifth job in `e2e-full.yml` on every PR,
+reusing its build artifact (~12–15 runner-minutes per PR, no wall-clock cost beside the four shards)
+— would have caught v1.176.0 on its own PR; it is the owner's call because it adds a PR gate.
+
+**Traps met on the way.**
+- `--pass-with-no-tests` on `e2e:gen` contradicted the reporter's zero-ran rule; dropped.
+- The first ledger re-serialisation un-escaped every `\uXXXX` in the file; one row carries a raw
+  em-dash. Edits are now byte-preserving (one row each).
+- A `pkill -f` whose pattern also matched the invoking shell killed that shell (exit 144).
+- The lock's 7 GB build precondition stalls a 3-worker Playwright job for no reason; such jobs
+  declare `BUILD_PEAK_MIB` (the documented override) before sourcing the lock.
+- PR #231 landed mid-triage and edited 13 of the same specs (owner-scoped storage keys); the merge
+  was re-verified on a fresh keyless build of the merged tree. The suite reads **99 green, 2 red**
+  there: the two named known-reds, reporter verdict PASS, exit 0. The merge itself introduced two semantic reds, and the
+  reporter caught both. `holder-restart-…` was seeding the legacy coached key, which PR #231 had
+  made owner-scoped. `holder-momentum-heats-escape-odds` broke because, since v1.207.0
+  (`83908ffce`), a player's own escape card prints the STAMPED choice view's
+  `immediateExecutionChance`, repainted one frame after `_gameValueChanged`, so the spec now pumps
+  one frame before reading the card. Both are fixed.
+- PR #231's build pins `sha256(app.src.jsx)` into the MDP manifest (`game-bundles: graph/gameplay
+  changed after metadata emission`). So a mutant sandbox now stamps the mutant's hash into a
+  private manifest copy and serves that copy. A behaviour-neutral control mutant stays green in the
+  sandbox. All 64 saved mutants were then replayed against the merged app:
+  - 54 killed;
+  - 3 expected survivors (the equivalent mutant and both repair probes, which turn the real-break
+    specs green);
+  - 7 whose code #231 had moved, re-targeted at the new call sites (never at a hash-pinned law
+    file) and all killed;
+  - plus one new kill, for the retargeted escape-card render.
+## v1.209.0 — WEAK SPOTS IN YOUR RULESET, FROM YOUR START
+
+Owner, 2026-09-30, on `docs/GraphSemantics.md` §10 items 7 and 8: "ideally fix weak spots now" (gi
+pricing) and "it should match the starting point set by the app indeed" (FLOW's start). FLOW, the
+weak-spots engine (`neural/src/flow.src.js`), had two blind spots, both silent:
+
+- **A gi player was ranked on no-gi numbers.** `cal.ev` holds no-gi hands only, so the kernel dealt
+  no-gi attempt shares at the folded no-gi rate, and no deck the no-gi game cannot deal could ever be
+  recommended. gi is the DEFAULT ruleset, so this was most players.
+- **Every player was ranked from a uniform start.** A Standing player's rolls open on the feet, and
+  from there the ranking is a different one (Spearman 0.68 no-gi, 0.67 gi, measured on the browser
+  kernel; the research's figure was 0.69).
+
+**What shipped.**
+- `cal.evGi[role] = [nodeIdxs, attemptPct]` — `cal.ev`'s layout with no EDGE blocks
+  (`build_gi_hands`). +2,924 B gzip on `graph-data.json` on the three-block wire, exactly the research's
+  price (+2,598 on the one-block wire after PR 231; the emitter's own comment keeps the earlier figures). The emitter
+  rebuilds all 265 no-gi `ev` hands by the same rule each run and refuses on any difference, so the gi
+  table cannot be built by a different rule than the one beside it. Full hands, not a diff: 18 of 265
+  hands keep the same whole percents across frames, and sharing the index list where membership
+  matches (221 hands) saved 334 B at the cost of one table's decode depending on another's.
+- `ngFlowBuild` prices the app's ruleset: gi hands from `_evGi`, every rate through
+  `calSuccess(node, frame)` (the rate the game deals). `e0`, the personal tilt's feature, stays the
+  no-gi EDGE the card prints. A wire without gi hands falls back to the no-gi hands and fires
+  `flow_frame_fallback`.
+- `ngFlowStart(K, spec)`: uniform (Anywhere) is the null law, bit-for-bit the old path; a fixed start
+  is half on each seat of a position (the seat is still drawn 50/50). `_flowStartSpec` maps
+  `startFrom()`: Standing → standing-position; Anywhere and My weak spots → uniform. My weak spots
+  stays uniform deliberately: it OPENS on the spots this ranking names, so ranking from those openings
+  is a feedback loop that locks onto its first answer. A fixed start the kernel lacks fires
+  `flow_start_fallback`. `flowScore`'s memo key carries ruleset and start.
+- `NG_STANDING_POS` is the one spelling of the standing opening, read by `_standingStart` and by
+  `_flowStartSpec`.
+
+**The trap this found (§6.4).** `tests/flow.test.mjs` boots its app with no localStorage, so
+`_hydrateGiMode` put it in gi, and every FLOW test had been a gi-mode app ranking no-gi hands — the
+bug itself, pinned as correct. The kernel a real no-gi player gets (the reachability mask on: 248
+states, 1,417 decks, against 264 and 1,464) had never been compared with anything. Every app in the
+suite now names its ruleset, and `tests/_census.mjs` counts `negDecks` (24, no-gi) and `negDecksGi`
+(21) in their own frames.
+
+**The reference.** `solve_flow.py --reference` writes four rows (no-gi/gi × uniform/standing), each
+the frame as the app builds it: `Opts(rates="frame")` (the frame's own success-rate cell; the default
+stays folded, so EDGE and the `validate:flow` ratchet do not move, V0 +0.075527 unchanged) minus the
+role-nodes `ruleset_availability.json` excludes. JS against it, top-10 order exact in all four:
+
+| game | V0 gap | top-40 shared | within 5% | L1 gap |
+|---|---:|---:|---:|---:|
+| nogi | 2.45% | 40/40 | 87.0% | 1.47% |
+| gi | 0.68% | 39/40 (ranks 40/41, a 0.9% tie) | 88.7% | 1.44% |
+| nogi/standing | 1.05% | 39/40 | 65.1% | 2.19% |
+| gi/standing | 0.49% | 40/40 | 75.2% | 1.67% |
+
+A standing start puts all the mass on two hands (standing has 34 cards, many at 1–2%), so
+whole-percent rounding moves single magnitudes more; the aggregate stays under 3%.
+
+**What a player sees.** 119 decks the no-gi game cannot deal now score in gi; Cross Collar Choke
+from Mount (#18 for a new player) and Bow and Arrow Choke from Back Control (#28) enter the list,
+Buggy Choke, North-South Choke and Triangle from Open Guard leave it. From standing, Standing
+Position (top) jumps to #2–3 and Pull Guard, Takedown from Bottom and Level Change Takedown enter;
+deep-ground passes leave. In no-gi from standing, Spider Guard and Double Sleeve Guard decks score
+exactly 0 — no roll that opens standing reaches them (§10 item 6's teleporting listing).
+
+**Bytes, measured after merging PR 231 (the full game, which shipped as 1.208.x, hence 1.209.0).**
+231 shrank the wire to one EDGE block, so the same gi hands now cost more relative to it.
+- Eager set: +3,152 B this change. Measured with the gate's own gzip, against dev's emit + bundle
+  built from dev's sources. Dev itself already sits +1,684 over 231's accepted 327,480, so the
+  branch reads +4,836 of the 5,000 cap: 164 B of headroom.
+- First-hand core, in a real browser on this branch's build: +3,637 B (graph-data.json +3,071,
+  neural.js +566, same 11 requests), against the same tree with dev's bundle and wire swapped in.
+  Dev's drift is +1,679, so the branch reads +5,316 of the 6,000 cap.
+- Before the merge the same change was +3,548 (eager) and +3,280 (first-hand core).
+
+**Win chance does not move.** 231's MDP data is derived from the wire and the gameplay source
+(`regenerate_mdp_data.py` records `graphHash` and `gameplayHash`). Regenerated at origin/dev and on
+this branch, 62 of 65 files are byte-identical. The manifest and the two variants differ in
+provenance hashes only. That is also why four game bundles re-address at identical sizes in the
+build-shape rows.
+
+**Mutants** (each against the full suite): `_ev` read where `_evGi` belongs (9 red), the folded rate
+in gi, `evGi` dropped by `_deriveDualPairs` (9), the start missing from the memo key, the start law
+ignored, the top seat only, My weak spots ranked from Standing, `calSuccess` ignoring its frame, `e0`
+read from the gi table, `_evGi` never built (9), the emitter filing the no-gi hands as `evGi` (7, on
+a re-emitted wire): all killed. A kernel reused across a ruleset flip SURVIVED until test 6d was
+written (`setGiMode` drops the kernel; a direct `_giMode` write did not).
+## v1.210.0 — ORIGIN COHERENCE: THE ORPHANS LISTED AT HOME, AND THE NO-GI WALK DEALS BY ORIGIN
+
+Owner rulings on docs/GraphSemantics.md §10, 2026-09-30. Item 4: "fix it ... i trust your panel". Item 6: "yes hide them".
+
+- **Reproduced first.** `flux.py --origin` regenerated `flux_origin.json` byte-identical on v1.206.2: 41 no-gi and 40 gi orphans, 1,209 dropped listings, 1,196 teleporting, 13 coherent.
+- **Item 4, content only.** 25 position role-nodes in 23 files changed, 261 cells, all from `calibration/origin_coherence.json` via `scripts/apply_origin_coherence.py`. That script has `--check` (content equals the provenance) and `--reaggregate` (re-derives every verdict from the committed ballots).
+  - Each orphan is listed at its canonical origin. A new share comes out of the 100 either proportionally or from one named TWIN, an existing listing the panel judged to be the same move. Example: at turtle/top the phantom `Front Headlock to Anaconda` (authored at front headlock, so never dealt there) gives its no-gi 8 to `Anaconda from Turtle`.
+  - Seven phantom no-gi cells went null: Tripod Sweep at six reachable guards, and Collar Drag at butterfly hook control. Their points went to the guard's real no-gi version where the panel named one (Feet on Hips Tripod Sweep 5 → 23).
+  - Orphans 41 → 2 no-gi (both listed only inside gi-only guards), 40 → 0 gi.
+- **The panel is NOT expert data.** It is ten LLM personas with the Q3 Delphi's coaching profiles and weights, recorded by archetype id, never by a person.
+  - ONE independent round, 20 agent runs. The planned deliberation round did not run, so every number is the weighted aggregate of ten first-round ballots. The provenance's `meta` says so.
+  - Logged, not applied: 5 wrong-origin candidates (X Pass → open-guard/top, Lumberjack Sweep → seated guard, Balloon Sweep → feet-on-hips, Waiter Sweep → deep half, Elbow Escape to Guard → side-control/bottom), and the per-listing outcome tables each generic move would need (`own_table_at`).
+- **The 13 coherent listings are NOT restored.** The panel would restore 8: Back Control Maintenance at harness, seat-belt, body-triangle and invisible-collar; Knee Shield Retention at half guard and z-lock; RDLR Recovery at inverted guard and grasshopper. That needs a listing-level dealing rule, which `_mdp_mechanics.py` (the full game) mirrors from `optionsFor` line for line, so it belongs in its own change.
+- **Item 6.** `frame_reachable` walks `solve_edge_values.build_hand` (role, origin, relax: one rule, no copy). Its position set equals the kernel's reachable set: 244 no-gi, 266 gi.
+  - Spider Guard and Double Sleeve Guard are hidden in no-gi, with 20 techniques: 124 techniques and 22 role-nodes excluded, up from 104 and 18. All are still cloth.
+  - Measured afterwards: on the new content the origin-aware and origin-blind walks reach IDENTICAL sets (no-gi 244/1,191, gi 266/1,294). The Tripod Sweep nulls alone close the Spider Guard door, so no real-corpus test can see the walk change. `validate:availability` now runs a synthetic origin-walk fixture (2 controls); an origin-blind walk fails it.
+  - The curriculum's Tripod Sweep lesson is marked `frames: ["gi"]`; `validate_curriculum` demanded it.
+- **Measured** (the semantics artifacts still describe v1.206.2; see the doc's status box). From standing, no-gi:
+  - P(I finish) 0.5529 → 0.5533 (player-neutral), 0.7225 → 0.7237 (shipped), and 0.3489 → 0.3440 in the app's game;
+  - finisher-law TV 0.035 / 0.037;
+  - leg-lock baseline 6.6% → 8.1%; territory 22 → 21 positions, share 38.0% → 39.0%;
+  - FLOW V0 0.0755 → 0.0769 (py).
+- **Gates moved, each named.**
+  - FLOW ratchet: `ushiro-ashi-garami/top|Return to Outside Ashi` went −0.249 → −0.252 across the −0.25 line, so it is added by name.
+  - `flow.test.mjs` top-40: a rounding near-tie (Arm Extraction py 40 / js 42) now crosses only inside the 5% band. MUTANT: halving one top-30 reference gradient turns it red.
+  - `_kernel --selfcheck`: no-gi shipped π on collar-sleeve-guard/top was 1.49e-15, equal to the solve's residual, so "outside reach" is now judged against the residual. MUTANT: a 0.1% restart leak into an unreachable state still fails.
+  - `submission_states`: no-gi live submissions 259 → 255, the four spider and double-sleeve finishes.
+- **FINDING, not fixed here.** Dev's generated pages lag their sources.
+  - `regenerate:md` on a clean dev checkout rewrites 554 pages, all Systems card titles and blurbs (`content/Systems` renamed after the pages were generated).
+  - `regenerate:graph-base` adds `products[].image` to 68 Systems entries. The generator passes it by design; only course and referral URLs are stripped.
+  - This commit keeps the 43 pages its own change touches as regenerated, so 34 of them pick up that drift. It restores the other 521. Its `graph.json` carries the 68 image fields.
+
+
+## v1.211.0 — THE BELT IS EARNED IN THE CHALLENGES, AND IT NEVER FALLS
+
+**The owner's question** (2026-09-30), on GraphSemantics §10.5: "every player's belt is rather a
+construct of the challenges no? i thought it would be mostly, and if we could align that to the
+belt attribution then great (i think there is somewhat of a mix already but figure it out pls)".
+
+**What the research found** (`tests/artifacts/_belt_alignment_probe.mjs`, run on the real class
+and the e2e personas at `3f157a692`; report outside the repo, `belt-challenges.md`):
+- **Two belts that never met.** The Challenges TAB belt was 100% Challenges: the frontier's colour
+  moved on lessons, its stripes on proven units, and it gated nothing. The Game Knowledge BAND
+  (`gameScore().belt`) was never drawn, yet gated timed recall in play from blue (v1.133.0), the
+  Recall Mode patch and Settings lock at black (v1.105.1), and named the email's next belt —
+  while `docs/Neural.md` said "nothing is gated by the score".
+- **The curriculum is a third of the score.** The 171 live lesson decks carry 31.76% of the gi
+  weight (31.70% no-gi): White 12.94, Blue 10.45, Purple 5.53, Brown 1.38, Black 1.46. Every
+  curriculum card recalled = the white band; the blue band (0.40) was unreachable from the
+  Challenges. The cheapest route to each band: 168 / 788 / 2,120 / 3,363 / 5,421 cards.
+- **The fixtures could not see the score.** Every `e2e/gen/personas.ts` blob seeds `stage: {}`,
+  so all 14 personas scored exactly 0; 8 of 14 proved a belt's units while under its band, and 0
+  of 14 carried a score above one.
+- **Three defects in the drawn belt**, unguarded: `_frontierBeltId` falls back to the corridor's
+  top, so a finished player wore WHITE with four stripes; the colour promoted on lessons while
+  stripes needed checkpoints; and a gi-only player who proved White..Brown wore black in gi and
+  brown in no-gi.
+
+**The ruling** (owner, all three approved 2026-09-30): (1) rule A2 — you wear the belt after the
+last belt whose units are all proven; stripes stay as units; Game Knowledge stays a percentage
+and its three belt readers move to the worn belt; (2) a one-time grandfather of max(old tab belt
+with the all-done fallback read as black, the band, A2), then a high-water mark `belts.held` in
+the v2 blob, MAX across devices, never a settings key; (3) fix the finished player now.
+
+**What shipped.** `neural/src/belt.src.js` (the rule, stripes, the held merge, the grandfather
+mark's merge, the email line's validator) is one module imported by the app, the unit suite and
+the digest Worker. `wornBelt()` / `_syncBelt()` / `_legacyBelts()` / `_noteBlackBelt()` in the
+app; the tab, `_recallInPlayNow`, the Recall Mode mint, the Settings lock and the email read the
+worn belt. `_mergeProgressFields` gains the explicit MAX line its `belts` assign needed (it keeps
+only LOCAL keys). The email's belt line is `dayLog[day].b = [belt, provenUnits, units]`, carried
+by the dayLog merge, validated by the Worker (`ngBeltLine`), printed as "Next belt: PURPLE — 4 of
+6 blue units proven"; `beltEta` (score-paced) is retired. The frontier stays navigation only.
+
+**Measured effect** (persona set, before the change): with the migration, 0 belts lowered; 1 e2e
+persona moves (the finished player, white → black); the four synthetic score-first players keep
+their band as their worn belt; after the mark, only the Challenges promote.
+
+**Gates.** `tests/belt_worn.test.mjs`, 13 tests on the real class; every mutant red on a named test:
+
+| mutant | red at |
+|---|---|
+| M1 `wornBelt` ignores `held` | flip · failed card · curriculum edit · stale merge · grandfather ×3 · readers |
+| M2 below-held not counted as proven | curriculum edit (the next promotion stalls) |
+| M3 the MAX line removed / M4 local `held` wins | stale device merge |
+| M5 the frontier dyes the tab again | finished player · flip · failed card |
+| M6/M7/M8 recall-in-play / the patch / the email line from the band | readers |
+| M9 no sync at the checkpoint | promotion needs every unit |
+| M10 `gf` kept from one side | a pre-migration cloud is grandfathered again |
+| M11 all-done not read as black | grandfather |
+| M12 `gf` before the manifest | grandfather waits for the manifest |
+| M16 the `gf` mark forces a save | a passive boot saves nothing (also `harness-boot-inflight-write.spec.ts`, which caught it: the first build saved the mark on every fresh boot) |
+| M13 dayLog drops `b` | the dayLog merge carries the line |
+| M14/M15 no post-/pre-flip sync | flip (reload after a no-gi promotion / gi promotion arriving in no-gi) |
+
+Worker: `tests/digest_suppress_sync.test.mjs` (the line comes from `b`, never the score; malformed
+lines refused whole — 4 mutants killed; dropping `|| null` past black is EQUIVALENT, undefined takes
+the same branch) and `tests/digest_render.test.mjs` (escaping on both branches — 2 mutants killed).
+e2e: `belt-worn.spec.ts` (finished player black @curated, lessons alone, flip + reload) and
+`recall-badge.spec.ts` rewritten (a black score on a white belt unlocks nothing; proving the units
+mints the patch). Non-kill: the Settings lock is gated in e2e only.
+## v1.211.1 — A HYDRATION BURST RESTARTS WIN CHANCE ONCE, NOT ONCE PER DECK (FGHYD1, 2026-10-01)
+
+**Found by the deploy timeout (FGTIME1).** After the full game merged, four game-knowledge.spec.ts
+tests went from ~13 s to ~70 s on CI. All four call `soloDeck`, which hydrates the whole corpus with
+a hand on screen.
+
+**Measured before the fix** (dev 55c238ade, local, counting the page's Worker messages):
+- hydrating 2,896 decks posted 2,893 `snapshot` messages but only 2–5 `evaluate`: one restart per
+  deck, each cancelled before its solve began;
+- it took 129–168 s;
+- a real boot's warm-up was NOT affected: 3 decks, one solve, no restart.
+
+**Four restart paths, each found by counting snapshots, not by reading code:**
+1. `_onDeckHydrated`'s own `_gameValueChanged`.
+2. Its memo reset's knowledge notice: `_bumpStageVer` → `_onKnowledgeChanged`.
+3. The hydration refresh's `refreshOptionOdds` (`_gameValueChanged("option-odds")`), and re-render
+   `refreshChoiceValues` calls that re-describe a changed residency.
+4. `buildDrillPanel` re-signalling an unchanged position key on every hydration refresh (28 of the
+   last 33).
+
+**The fix** is a leading + trailing debounce, `_residencyChanged`:
+- a burst's first deck restarts at once, so "pending" still shows at once;
+- later decks only mark it dirty;
+- one restart once decks stop landing for 250 ms, and one per 2 s while they stream;
+- paths 2–4 mark the open burst dirty, and only an explicit `_gameValueChanged` (a grade, a roll,
+  a real key change) goes through it.
+
+No value changes: a reply for older residency is still dropped by the provider's `isCurrent`, and
+the gate asserts that the settled values equal a fresh solve's.
+
+**After the fix** (dev 70f67b944 + fix):
+- hydration 6.7–7.4 s with 5 snapshots;
+- values 1.9 s after it;
+- the four tests 18–20 s locally;
+- real-boot hand → values unchanged: 5.6–5.7 s at 1440 px, 5.8–6.1 s at 390 px with a 4× CPU
+  throttle; one solve, no restart.
+
+**Gates.**
+- `hydration-restarts.spec.ts` (core), 3× green. It counts the worker's own snapshot and evaluate
+  messages, with a hydrated-deck floor and a duration-scaled ceiling, and checks the values against
+  a fresh solve.
+- `tests/residency_restarts.test.mjs`, 6 cases.
+- Mutants:
+  - journey: a per-deck restart (2,886), the knowledge notice not routed (2,894), the odds refresh
+    not held (32), and the same-key drill panel not held (31);
+  - unit: the same four, plus a re-render refresh not held.
+- Units 1,149/1,149; 65 value journeys green.
+## v1.211.2 — THE HARNESS NAMES EVERY NAVIGATION THE PAGE STARTS (FGNAV1–3, 2026-10-01)
+
+**What happened.** A deploy-dev curated gate (run 36818746807, attempt 1, dev 4692aa62c, keyed) failed
+one test: game-knowledge.spec.ts "lesson crowns", at a `page.evaluate`, with "Execution context was
+destroyed, most likely because of a navigation". The same code had passed the deploy before. Its
+screenshot showed the page had re-booted after the test's grade: a gold crown (the grade persisted)
+and the persisted Challenges pane over a freshly starting roll.
+
+**Not reproduced.**
+- 56 runs on a keyed local build of dev were all green: the test 40×, plus the whole file 2×.
+- CDP forensics on every run found no page-initiated navigation and one document load per run (the
+  boot).
+- A static audit of the app and the built prescript, postscript and neural.js found one reachable
+  navigation: the Quartz SPA router's fallback (`location.assign` when a `spaNavigate` fetch fails or
+  returns non-HTML, `reload` when it throws). Its triggers are anchor clicks, `popstate` and
+  `spaNavigate`, and none is reachable from that test.
+
+**So the harness now names it** (`watchNavigations` in e2e/dsl.ts).
+- The Navigation API's `navigate` event fires synchronously inside the call that starts a
+  cross-document navigation, so its `new Error().stack` is the initiator's stack. An exposed
+  binding hands it to the test process at once.
+- An undeclared one is logged to CI output and fails the journey through a soft assertion, with
+  its URL, type and stack.
+- Journeys that navigate on purpose declare it: `j.allowNavigation(pattern, why)`.
+- The harness's own `goto`/`reload` are browser-initiated and never fire it; same-document
+  `pushState` is filtered out.
+
+**Gates.**
+- navigation-tripwire.spec.ts 3× green.
+- Mutants:
+  - no soft assertion: "expected to fail, but passed";
+  - no same-document filter: red (the app's own landing `pushState`);
+  - a `location.reload()` injected after a Challenges render: game-knowledge "lesson crowns" fails
+    with `[dsl] UNDECLARED page-initiated navigation (reload)` and a stack naming
+    `injectedReloadAfterGrade`.
+- The full core suite with the tripwire on: 757 passed, 5 skipped, 0 failed. No existing journey
+  starts a page-initiated navigation, so none needed declaring.
+
+## v1.212.0 — ORIGIN COHERENCE PHASE 2: A LISTING MAY DEAL ITS MOVE, AND FIVE MOVES GO HOME
+
+**The rule.** The game dealt a listed technique only at its canonical origin. Phase 1 (v1.210.0)
+fixed the orphans. Its panel also judged 13 away-from-origin listings whose authored table does not
+drag a miss back to the origin, and restored 8.
+- A position listing may now carry `"deal_here": true` (all four listing schemas, `const: true`).
+- It reaches graph.json as `dealHere` on the position edge, and the wire as `alsoFrom` (posId
+  strings, never an index) on the technique.
+- Five dealers honour it the same way: `build_hand`; `optionsFor` plus the ingest link-member choice;
+  `_mdp_mechanics.Projection`, which uses a private map so no node column or adapter changed;
+  `app_game.py`; and `independent_sim.py`.
+- `validate:graph` adds `deal_here_at_origin`, `deal_here_wrong_role` and `deal_here_teleport`.
+  The last fires when at least half of the miss branch lands on the origin in some frame.
+- The full-game seat was told the exact pinned lines first. It answered no collision with FGHYD1.
+
+**The 8 listings** take no new number: the authored share and the authored table. They are Back
+Control Maintenance at harness, seat-belt control, body triangle and invisible collar; Knee Shield
+Retention at half guard and z-lock; and Reverse De La Riva Recovery at inverted guard and
+grasshopper. Dealt cards went 1,213 → 1,221.
+
+**The 5 re-homes** follow phase 1's verdicts: X Pass to open guard top; Lumberjack Sweep to seated
+guard; Balloon Sweep to feet on hips; Waiter Sweep to deep half; Elbow Escape to Guard to side
+control bottom.
+- A second panel round wrote each move's new table and rate. It is the same LLM persona panel: 10
+  unnamed archetypes, one round, not expert data. The same round held the 107 per-listing tables
+  for PR B (`calibration/listing_tables.json`, 40 agent runs, every ballot valid).
+- The old-origin listing was removed for 4 (shares spread proportionally) and kept for Waiter Sweep
+  at butterfly guard.
+- **Two schema facts found on the way.** Outcome cells must be equal across frames:
+  regenerate_graph loads a technique through `reduce_to_scalar`, and 4,101 of 4,101 cells already
+  were. So each table is pooled over the frames, and the frame difference lives in the rate.
+- The rate the game publishes is the votes PRIOR, not the content `success_rate`, which only seeds
+  the community count (`_votes.folded_rate`). So the panel's per-frame rate is written as the prior
+  in templates/votes.json and as an override in calibration/overrides.json, so `calibrate:apply`
+  cannot restore the old-origin prior.
+- The long prose still describes the old origin: 40 new `targets_outcome_mismatch` warnings, plus 5
+  `technique_range_low` on small secondary success rows. It is queued for the owner's content pass.
+
+**What moved** (all re-measured; the semantics artifacts stay STALE):
+
+| measure, from standing, no-gi | dev | v1.212.0 |
+|---|---|---|
+| P(I finish), player-neutral | 0.5533 | 0.5533 |
+| P(I finish), shipped | 0.7237 | 0.7230 |
+| P(I finish), the app's game | 0.3440 | 0.3452 |
+| steps to finish, shipped | 11.38 | 11.56 |
+| origin filter drops | 47.80% | 47.21% |
+| leg locks end | 8.08% | 7.78% |
+
+The finisher law moved by TV 0.018 (player-neutral) and 0.022 (shipped). Win chance (blank
+profile, a roll starting there) at body triangle top went 0.778 → 0.812 in no-gi and
+0.781 → 0.832 in gi. Every other seat touched moved by at most 0.25 points.
+
+**Gates and mutants.**
+- tests/mdp_data_corpus.test.mjs kills dropping the rule in Python and in the app (Grasshopper
+  Guard/bottom).
+- validate:json kills the schema without the property.
+- validate:graph kills the at-origin and teleport flags.
+- The link-member mirror's mutant SURVIVES. It is equivalent on today's content, because no flagged
+  table lands on its own listing.
+- FLOW: the wire's whole-percent shares now put half guard bottom's 1-point cards at 1% for
+  1.408%, so Knee Torque Sweep's gradient reads 0.69x.
+  - Fed the exact shares, JS and Python agree to 0.02% L1 with the top-10 exact in all four games.
+    So the worst-deck bounds went 0.30 → 0.35 (no-gi) and the near-tie 1% → 1.5%.
+  - A zero band of 1e-7 holds the one rounding sign flip (10 decks, capped at 12).
+  - The reference built without the rule, against a wire with it, is red in all four games.
+  - The Back Control x0.8 mutant still kills.
+- The FLOW ratchet names kimura-trap/bottom|Kimura Defense (-0.231 → -0.257). Its success lands on
+  a half guard bottom that is worth less now. Seven known rows improved.
+
+**v1.212.2: the layout kept every coordinate and reordered every node.** `regenerate:graph-layout`
+in preserve mode reused all 1,448 coordinates. It still wrote the nodes in graph.json traversal
+order, which had drifted from the committed file. That array becomes graph-data.json's node order,
+so the whole wire was renumbered.
+- e2e-full went red on journeys that take "the first node of a type": seat-star picked Head
+  Extraction to Posture over Knee Slice Pass, and roam-stage picked Gogoplata Control, a control
+  alias.
+- Preserve mode now keeps the prior file's order (`_load_prev_order`), and new nodes append. The
+  wire's order equals dev's again.
+- In the same run, option-hand's independent filter learned `alsoFrom`, the only real spec
+  change. option-overflow's two hand counts (16 → 17, 12 → 11) became census keys:
+  `handsOverPrefetchCap` and `handsOverWarmCap`.
+
+## v1.212.3 — THE HYDRATION GATE COUNTS BURSTS, NOT SECONDS, AND NAMES WHY VALUES DID NOT SETTLE (FGHYD2, 2026-10-01)
+
+**The red.** `hydration-restarts.spec.ts` (FGHYD1, v1.211.1) went red on PR 242's e2e-full shard 2:
+"10 solve restarts (snapshots) for 2885 decks over 9969 ms (ceiling 9)". It had been green on PRs 240
+and 241.
+
+**Verdict: a flaky gate, not a regression of the coalescer.**
+- On dev and on PR 242's head (10 runs each, a probe tallying every value-change call by caller),
+  every snapshot came from the coalescer's own `_gameValueChanged("deck-hydrated")`, 20 of 20 runs:
+  4–6 per hydration of 6.0–7.4 s on both builds. PR 242's re-homed moves added no restart path.
+- The first ceiling, `4 + ceil(ms / 2000)`, assumed the decks arrive as ONE stream. They often do
+  not, even locally: 19 of 40 runs of the gate's own sequence had a gap of more than 250 ms between
+  two deck arrivals (largest 3,349 ms). Each such stall closes a burst, and the next deck opens
+  another, with one more leading restart and one more trailing one. Both are correct.
+- 10 against 9 is two stalls' worth.
+
+**The new ceiling is the coalescer's contract, read off the arrivals this run had:**
+2 per burst + 1 per `NG_RESIDENCY_MAX_HOLD_MS` of streaming + 2 slack. A burst ends at a gap over
+200 ms (below the 250 ms settle delay, so jitter can only loosen the bound). Arrival times come from
+`_onDeckHydrated`, which feeds the coalescer, never from the coalescer, so a mutant cannot move its
+own bound.
+
+**A second count names the path.** Snapshots minus the coalescer's own restarts
+(`_residencyStats`) is what came from anywhere else. It was 0 in every measured run.
+
+**Mutants on the built bundle, all killed, each naming its class:**
+- a per-deck restart: "2,852 solve restarts came from OUTSIDE the burst coalescer";
+- the knowledge notice not routed: 2,896 OUTSIDE, 0 coalesced;
+- the odds refresh not held: 27 OUTSIDE;
+- the same-key drill panel not held: 25 OUTSIDE;
+- the coalescer itself restarting on every arrival (max hold 0): "2,886 … (ceiling 32)".
+
+**Controls.** Injected stalls, busy-wait (12 runs) and route-held chunk responses (8 runs), never
+turned the new ceiling red, and "outside" stayed 0. Neither turned the OLD ceiling red either: a
+busy-wait freezes the settle timer with the arrivals, and a held response lengthens the wall clock
+that the old formula scaled with. The CI shape (a stall that splits bursts without stretching the
+wall clock enough) was not reproduced on demand. The fix rests on the tally and the gap census, not
+on a reproduced false red.
+
+**The gate now says why values did not settle.** It polls
+`status | reason | game-value state | its reason`, not the status alone. One local red on dev before
+this change had ended "unavailable" and said nothing more. After it, the gate's own sequence named
+the cause twice in 48 local runs (1 of 40 probe runs, 1 of 8 stall controls):
+`unavailable | evaluation-failed | unavailable | worker-cancellation-deadline`.
+- What happens: a restart cancels the solve in flight, the busy worker does not acknowledge within
+  the client's 1 s grace, and the client terminates it. The runtime then holds that failure for the
+  session, until Retry.
+- That is app-side and is reported separately, not fixed here.
+- A second app-side class was found on the way: a corpus hydration that overlaps the worker's metadata
+  load makes Chromium refuse part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. That is FGRETRY1's
+  fix, its own PR.
+
+**Gates.** The hardened gate, 10/10 on dev a7bc58ce4 + this; units 1,163/1,163.
+## v1.212.3 — A TRANSITION FROM A CONTROL ALIAS LANDS ON ITSELF, AND THE CATCH WAITS FOR PLAY
+
+**Found by PR 242's seat-star red (OCSTAR1).** Head Extraction to Posture's attacker seat showed
+no seat star on dev. The cause was not the star.
+- Twelve control-alias positions (Gogoplata Control, Darce Control, Straight Ankle Lock Control, …)
+  canonicalise to their submission state. Opening a transition authored from one seats you inside
+  that submission.
+- On the seat that DEFENDS the submission, `enterLand` called `enterDefense` while the roll was
+  still staged. That cleared `_stagedTech`, unpaused (the Caught rush started with nothing
+  pressed), moved the focus to the submission's Defender member and rewrote the URL to it.
+- So the chosen transition lost its card, its URL, its focus and, since the star is drawn beside
+  the focused label, its seat star.
+- That broke the owner's v1.132.0 rule ("you navigate to it … the landcard is standard") and their
+  transition rule ("a transition's defending seat is an ordinary staged landing … play waits for
+  the button").
+
+**Count.** A predicate from the code, checked against a browser sweep of 284 seats per run
+(283/284 agree): 147 transition seats, gi 74 and no-gi 73 (78 attacker, 69 defender). 19 of those
+techniques are dealt somewhere (submission continuations such as Triangle to Armbar); 55 never are.
+In the browser, 73 of the 74 gi seats lost the star. The 74th kept it only because the defense frame
+happened to draw its label. A non-alias control sample: 0 of 80.
+
+**Fix** (owner-approved, OCSTAR2): a STAGED transition seated as a submission's defender gets the
+ordinary staged landing — its card, URL, focus and star, the clock held, no hand.
+`_stagedDefense` holds the catch. `_runDeferredCatch` runs the rush on the first unpaused frame.
+Lifters: that frame, `enterDefense` and `clearEngagement`. A submission's own escaping seat keeps
+its immediate rush (v1.134.0), and an unstaged roll still enters the defense at once.
+
+**Gates.**
+- `tests/seat_staging.test.mjs` stages every seat of every technique in both rulesets (2,630 gi,
+  2,382 no-gi). Focus and URL stay on the chosen node; the clock is held except on a submission's
+  escaping seat (290 / 255). The deferred seats equal the data-derived set exactly (74 / 73).
+- Mutants: no guard (all 3 tests red), a no-op `_runDeferredCatch` (test 2) and no
+  `clearEngagement` lifter (tests 1 and 3).
+- `e2e/journeys/seat-star-coverage.spec.ts` opens every catch seat in gi plus a 40-seat control
+  sample, and asserts focus, URL, clock and a visible star.
+
+**A second cause, the same symptom: a COLD submission.** The browser half of the gate still failed
+12 seats after the first fix, one per alias submission.
+- The first technique opened from an alias submission waits for its choices
+  (`waitForSubmissionChoices`). That wait called `clearOptions()`, which consumes the staged
+  exchange.
+- The deferred landing then focused the submission, and rushed a defender seat.
+- It also explains the outlier, Counter Entry to Opponent's Leg. Its apostrophe is a red herring:
+  it was simply the first seat opened from Straight Ankle Lock Control in every sweep.
+- The wait now carries `_stagedTech` across. Test 4 opens every alias submission cold. Its mutant
+  survived until `clearOptions` stopped being stubbed in the harness; stubbing it had hidden the
+  race completely.
+
+**Separate finding, not fixed here: the URL freezes after a node whose id carries `%`** (100%
+Sweep). `_pushUrl` pushes the raw path, so `location.pathname` keeps an unescaped `%`.
+`decodeURI(location.pathname)` then throws on every later call, inside a silent `catch`. Every
+later navigation keeps the 100% Sweep URL until a reload.
+
+## v1.212.5 — THE FINISH-ODDS JOURNEY STOPS BUYING A LOTTERY TICKET
+
+**OCDEP1, 2026-10-01.** Dev's first phase-2 deploy (run 36857244057, a7bc58ce4, keyed) failed its
+curated gate on ONE test of 428: `option-hand.spec.ts` "a submission's odds are its AUTHORED rate",
+at "and they span more than the fallback's whole range": span 6, expected > 8. The same test had
+been green in PR 242's keyless e2e-full.
+
+**Cause: an unrigged draw, since the finish half was written (v1.207.7).** A finish card prints
+`moveChance` = authored rate − aiSkill (the opponent-value term is 0: a submission defender's value
+is negative), and aiSkill = 0.06 + rng("ai-skill")·0.14 is drawn once per boot by the URL arrival's
+staged roll. The journey boots six URLs, so six independent 6-20 point draws came off a 16-point
+authored span (58-74). Through the app's own `moveChance`, 400,000 simulated draws close it to 8 or
+less on 1.6% of runs, the same before and after PR 242 (the six authored rates did not move). The
+deploy's card fits exactly: Rear Naked Choke printed 54 = 74 − 20, the draw's ceiling.
+
+**Not the key, not phase 2.** Measured in a browser on dev's own keyless build (the PR 242 capture)
+and on a keyed build from the root `.env` (the deploy's own `regenerate:neural` + Quartz steps, keys
+in the test environment too):
+
+| | keyless | keyed |
+|---|---|---|
+| boots where printed = round(100·(authored − aiSkill)) | 180/180 | 180/180 |
+| boots with qMod, combo or momentum ≠ 0 | 0 | 0 |
+| unrigged span over 30 runs (min / median / max) | 11 / 19 / 27 | 11 / 18 / 29 |
+| the deploy's draws replayed through `__NEURAL_RIG` | span 6 | span 6 |
+| `window.posthog` | absent | present |
+
+The six pinned hands (13 cards, both groups, names and printed odds) are identical keyed and
+keyless. The keyed bundle equals the capture's once the baked version string is normalised, and the
+wire is byte-identical. No app path reads a key except the auth façade's sync, and the harness
+aborts its requests.
+
+**Fix (spec only).** The draw is pinned through the production pre-boot rail
+(`window.__NEURAL_RIG`): a post-boot `j.rig` is too late, because the arrival draws during boot. The
+test now asserts the pin reached each boot (aiSkill = 0.13), and adds the direct claim: printed −
+authored is one number across all six cards (≤ 1 for rounding). The > 8 bar is unchanged and is now
+16 on every run. Fixed spec: 25/25 keyless, 25/25 keyed; the whole file 5/5.
+
+**Mutants** (built bundle, keyless):
+
+| mutant | red at |
+|---|---|
+| `choiceChance` → .5 on a finish | distinct > 2 (six 50s) |
+| `moveChance` through the dominance fallback for submissions | distinct > 2 (six 33s) |
+| `moveChance` + (idx % 4)·.03 | ONLY the new printed − authored check (spread 6); distinct and span pass |
+| `boot()` ignores `__NEURAL_RIG` | the pin check (aiSkill 0.063) |
+
+The only other journey that reads odds after URL boots, `landing-card.spec.ts`, compares within one
+boot, so its draw cancels.
+
+## v1.212.6 — THE ADDRESS BAR NO LONGER FREEZES ON 100% SWEEP
+
+**Found by the OCSTAR1 punctuation probe (OCURL1).** After opening 100% Sweep, the next node,
+Knee Slice Pass, still showed `/Transitions/100%-Sweep`. Two defects sat behind it:
+1. `_syncUrl` pushed "/" + node id, so the address held a raw `%`. `_pushUrl` compared
+   `decodeURI(location.pathname)`, which throws "URI malformed" on it, inside a catch commented
+   "history unavailable (sandboxed iframe)". Every later push threw the same way, and the address
+   bar froze until a reload, with no trace anywhere.
+2. Quartz does not build the page at the id. `sluggify` (source/quartz/util/path.ts) writes `%` as
+   `-percent`, so the page is /Transitions/100-percent-Sweep. Even a correctly encoded `%25` named a
+   page that does not exist, and an arrival on the real page resolved to nothing.
+
+**Fix.**
+- `_pageSlug` maps an id to its page path with Quartz's own replacements, which a unit test reads
+  from both sources and pins equal.
+- `_idIndex` indexes the page spelling too.
+- `_decodePath` is the one decoder for every path reader (`_nodeForPath`, `_nodeAndRoleForPath`,
+  `_seedPageFromUrl`, the systems ref parser). It never throws, and it reads a stray `%` literally.
+- A URL failure is a named, COUNTED `url_fault` beat ({kind, path, error, n}), not a silent catch.
+  `_pushUrl` pushes `encodeURI(path)`.
+
+**Gates.**
+- `tests/url_sync.test.mjs` uses a browser-faithful fake address bar (the WHATWG URL parser keeps
+  an invalid `%` raw, like Chromium). It covers:
+  - the 100% Sweep pin, including that the next push lands;
+  - a round-trip of all 2,896 node seats;
+  - a sweep of the 6 seats whose id carries a character outside RFC 3986's unreserved set (two
+    apostrophes and one `%`, both seats);
+  - a raw `%` already in the address (resolves, the next push lands, the fault is counted);
+  - Quartz-parity of `_pageSlug`.
+- Mutants, all red: `decodeURI` back in `_pushUrl` (test 3); `_pageSlug` as the identity (tests
+  1, 2); no aliases (tests 1, 2); a no-op `_urlFault` (test 3).
+- `e2e/journeys/url-percent.spec.ts` arrives on /Transitions/100-percent-Sweep, leaves, comes back,
+  and leaves again: the address follows, with no `url_fault`.
+
+**Separate finding, not fixed here.** `scripts/regenerate_redirects.py` builds its targets with
+only the space-to-hyphen rule, so `/transitions/100%-sweep` 301s to `/Transitions/100%-Sweep`,
+which 404s. It is the same class: a second copy of Quartz's slug rule that drifted.
+## v1.212.7 — EVERY REDIRECT LANDS ON A BUILT PAGE
+
+**OCREDIR1, 2026-10-01.** Found while fixing the 100% Sweep address (OCURL1). `regenerate_redirects.py`
+built every target with only the space-to-hyphen rule, while Quartz builds pages with its own
+`sluggify`: per segment, whitespace → `-`, `&` → `-and-`, `%` → `-percent`, `?` and `#` dropped. One
+hub page in the corpus differs under the two rules, and production showed both halves of the fault:
+
+| request (production, 2026-10-01) | answer |
+|---|---|
+| `/transitions/100%-sweep`, the rule's source | 400 from the edge: a raw `%` is a malformed escape, so the rule never fires |
+| `/Transitions/100%-Sweep`, the rule's target | 400 (and nothing is built there) |
+| `/transitions/100-percent-sweep`, the real page's lowercase form | 404: no rule existed for it |
+| `/Transitions/100-percent-Sweep`, the real page | 200 |
+
+**Fix.** `_slug.quartz_page_path` is Quartz's rule as a table (`QUARTZ_SLUG_REPLACEMENTS`), and the
+emitter takes both the canonical target and its lowercase source from it. On the corpus the emitted
+file changes by exactly one line: `/transitions/100-percent-sweep /Transitions/100-percent-Sweep 301`
+replaces the dead `%` rule.
+
+**Gate.** `scripts/check_redirect_targets.py` (`validate:redirects`) reads the BUILT tree and resolves
+every target to a page, a file, or, for a `:splat` target, its built base directory. It also fails on
+a source carrying a raw `%`. It prints a positive count, and fails on any miss, on a missing or empty
+`_redirects`, and on a tree with no pages. It runs in the root build after the share shell (`/l/*`
+targets the `l.html` that step writes) and in both deploys after Forward. That place keeps
+`check_build_chains.py` green (12 local / 12 deploy steps, the named Forward/share order baseline
+intact). On the PR 242 capture the old file fails on exactly that rule (1,766 of 1,767 targets, plus
+its source); the new file resolves 1,767 of 1,767 (1,715 pages, 1 file, 51 placeholder bases).
+
+**Tests.** `tests/redirect_targets_test.py` (10 cases, run by `tests/redirect_targets_py.test.mjs`):
+path.ts parity, the emitter on a fixture, the corpus page, and every pass and fail path of the gate.
+Five mutants, all red: the emitter back on the space rule, the `%` row dropped, `_page` accepting
+anything, the raw-`%` source check removed, and the empty-file floor removed.
+`postprocessor_contract_test.py` 51/51; units 1,168/1,168.
+## v1.212.6 — ONE DROPPED METADATA REQUEST NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGRETRY1, 2026-10-01)
+
+**Found while chasing the hydration gate's "unavailable" (FGHYD2).** Before the worker can value the
+first hand, it loads the solver's metadata: a manifest, a variant, then content-addressed
+`mdp/part-*.txt` files. If ONE of those fetches failed:
+- the root description failed;
+- the provider masked the worker's reason as `unverified-root-description`;
+- the runtime HELD the failed prepare until the player pressed Retry.
+
+Reproduced deterministically by starting a corpus hydration at the moment the root description is
+posted. About 2,900 deck fetches in flight exhaust the renderer's request budget, which the worker
+shares, so Chromium refused part fetches with `net::ERR_INSUFFICIENT_RESOURCES`. **9 of 15 runs lost
+Win chance for the session.** On a phone, the same class is a dropped request.
+
+**The fix.**
+- **Transient failures are retried.** The loader's `bytes()` retries, bounded at 4 attempts with
+  `NG_GAME_VALUE_FETCH_BACKOFF_MS` = 300 / 1,000 / 3,000 ms, at most ~4.3 s, far inside the client's
+  30 s root-description deadline. Transient means two things:
+  - no answer: a network error, which is all `fetch` reports of either cause;
+  - an answer that says "try again": 408, 429 or 5xx.
+- **An answer is never retried.** A 404 is permanent, and a size or digest mismatch is an integrity
+  failure that a second copy of the same URL cannot fix.
+- **Only network operations count as transient:** the fetch, a body read, `arrayBuffer`. A bug's
+  `TypeError` elsewhere in the loader is never mistaken for one.
+- **Exhausted retries keep their class:** `metadata-network-failed` or `metadata-fetch-failed`.
+- **The provider passes the worker's reason on.** A coded reason passes through unchanged. A raw
+  message is named only by its class, `root-description-unavailable`. Only a reply that claims to be
+  a description and breaks the contract is `unverified-root-description`.
+
+**Measured on the same storm, after the fix:** 14 of 15 runs settled. Chromium refused 1–4 metadata
+requests in 9 of the 15, and the retry absorbed every one. The one failure was
+`worker-cancellation-deadline`, a different class: FGCANCEL1, the next PR.
+
+**Gates.**
+- **New core journey, `game-value-fetch-retry.spec.ts`,** 3× green. It injects faults on the
+  WORKER's own requests (`page.route` sees a dedicated worker's fetches), and each test asserts that
+  its fault fired:
+  - a part dropped once is fetched again exactly once, and values arrive;
+  - a part that never arrives is tried exactly 4 times and stops, the held reason is
+    `metadata-network-failed`, and Retry is shown;
+  - a 404 part is tried exactly once, with reason `metadata-fetch-failed`.
+- **Unit tests:** `tests/game_value_loader.test.mjs` covers every transient kind (network, dropped
+  body, 503, 429, 408), the bound and backoff, 404 and digest never retried, and a bug never
+  classed transient. `tests/game_value_provider.test.mjs` covers reason passthrough.
+- **Unit mutants, all killed:** no retry; retrying any answer; network errors not classed
+  transient; the masked reason.
+- **Journey mutants on the built bundles, all killed:**
+  - no retry: the dropped-once test stays `unavailable | … | metadata-network-failed`, and the bound
+    test sees 1 attempt, not 4;
+  - the masked reason: both permanent-failure tests receive `unverified-root-description`;
+  - retrying an answer: the 404 is fetched 4 times, not once.
+- Units 1,168/1,168; value journeys 74/74 (choice-value, game-value-live, option-hand, momentum,
+  gameplan-study-live, option-edge, start-from, dual-consumers, game-knowledge,
+  hydration-restarts).
+## v1.213.0 — A SUBMISSION CARD PRINTS THE FINISH IT LEADS TO, NEVER ITS CERTAIN STEP (2026-10-01)
+
+**Owner:** "inspect why every submission from the position have 100% chance. i guess the submission
+chance is the only thing to show (win chance right?) i'm confused with the UI, but it should be
+obvious that's a direct navigation / outbound connection if it is.. some like going for a triangle
+from closed guard is difficult."
+
+**Mechanism, content to card.** A submission listed at a position (e.g. Triangle Choke from Closed
+Guard at Closed Guard/Bottom) is dealt as an ENTRY (`kind: 'entry'`). The adapter models it as a
+certain step into the submission state (`immediateExecutionChance = 1`, one branch), and the authored
+`success_rate` is rolled by the FINISH card you are dealt once you are in (`moveChance` at that
+state). The card printed the step: "Entry 100%" on every submission, on every position, for every
+player. Threat cards printed "Odds" (the authored base), never 100%.
+
+**Win chance was right.** Solved on Closed Guard/Bottom and Mount/Top (neutral profile, aiSkill .07,
+cap 9; 20 entry cards): every entry's Win chance equals the value of the submission state it lands
+in, and in all 20 the best play there is the Finish, so the finish chance is inside the number
+(Triangle from Closed Guard bottom: finish 58%, Win chance 86%, because a miss leaves the roll going).
+No number changed in this release; the Win chances before and after are identical on the owner screen.
+
+**Which finish chance.** The same law priced at the CURRENT state (what Inspect's "Finish chance" row
+printed) is not the one the game rolls: inside the submission the position bonus is the submission's
+own deck (counted with the technique deck, so twice), the opponent value is the submission's, the
+question modifier is reset and sharpness has aged one arrival. Over the corpus (gi, 524 entry cards
+on 170 seats): they disagree on 56 with no practice and on 429 with practice, by up to 25 points. So
+the card's number is read from the engine — the adapter's `followUp` (the landed state's Finish row:
+chance + knowledge explanation), passed through `ngMdpFollowUp` in both the exact and the certified
+export — never recomputed on the main thread. Live check: entering Triangle / Armbar / Kimura from
+Closed Guard bottom deals a Finish card printing exactly the Works number (52 / 49 / 45%).
+
+**What changed.** Card: "Works N%" (that follow-up), "Works —" until the solve lands. Inspect: the
+row reads "Works" with the card's number, a "→ steps you into this submission: certain, no roll" line,
+the detail line "Works N%: the finish's chance once you are in. Stepping in is certain, with no roll.",
+and the breakdown "You step into the submission: certain, no roll. / Then the finish works N% … /
+From there, your win chance with your best play is W%." The practice lines describe the landed
+state. The app's pre-load fallback and `ngChoiceValueImmediate` say the same words (unit-pinned for
+30 kind × chance pairs). The exposure pin moved (adapter hash) with a label-neutral note.
+
+**Findings left to the owner (no number changed):** the finish inside a submission counts the
+submission's own deck twice (position and technique) and drops the origin position's practice and
+its opponent value; and a threat card's "Odds" is the authored base, while the game rolls your
+escape at `clamp(1 − base + …)`.
+
+**Mutants (built bundle, one at a time; a neutral control stayed green):**
+
+| mutant | result |
+|---|---|
+| entry prints its own step (`ngChoiceValueImmediate`) | red: submission-card-odds, option-hand (eight 100%s), choice-value curated, choice_value unit (3); option-edge survives (reads pre-values) |
+| follow-up priced at the current state (adapter) | red: submission-card-odds control, mdp_adapter unit |
+| Inspect row prints `moveChance(n)` for an entry | red: submission-card-odds "sheet == card" |
+| (recorded) capture in tray order | still red, both defense cases |
+| (recorded) finish chance constant .5; `calSuccess` → null | still red |
+| (recorded) ceiling .95 → 1.05; Finish card prints chance + 2 | still red |
+| film bonus removed | red on film-look's Move-card target once headroom was required (it first SURVIVED on a card pinned at 95) |
+
+## v1.213.1 — A SUBMISSION'S HAND CENTRES WHERE THE ORDINARY HAND DOES (2026-10-01)
+
+**Owner:** "the choices row when in submissions nodes are not centered but left aligned. pls fix".
+
+**Cause.** `startExecution` sets the option row to `justify-content: flex-start` so the chosen card
+stays under the pointer while it executes; only `clearOptions` set it back to `safe center`. Picking
+a submission entry goes from that execution straight into the next deal (`enterLand`), with no
+`clearOptions` between, so the submission's hand inherited `flex-start`. A URL arrival centred, so
+only play showed it. Measured before the fix, after entering Triangle Choke from Closed Guard: a
+5-card hand spanning 24–813 in a row whose visible area is 24–1440 (centre 313 px left at 1440,
+553 px at 1920). `renderChoiceGroups`, the one seam that deals both the ordinary and the escape hand,
+now sets the row's alignment itself.
+
+**Pinned by** `e2e/journeys/choice-row-centre.spec.ts`: attacker (an entry from Mount Top) and
+defender (the finish fails, the opponent catches you), each with the pane shut and open, at 1440,
+1024 and 390. The hand's visible area must equal the ordinary hand's at that width and pane state,
+and inside it the hand centres when it fits, or starts at the leading inset when it overflows. A
+positive count requires a fitting hand at the desktop widths.
+
+| mutant | result |
+|---|---|
+| fix line removed (= the pre-fix build) | red at 1440 and 1024; 390 cannot see it (every hand overflows there) |
+| unsafe `center` | red at all three, but by a click timeout on the clipped card, not at the inset assertion |
+
+## v1.213.2 — THE TRAY PADS ITS LAST CARD AND FADES ONLY TOWARD HIDDEN CARDS (2026-10-01)
+
+**Owner:** "after scrolling to the rightmost node, there should be some padding at the end, and no
+darkened fading since we reached the end".
+
+**Three defects in one row.**
+- *Trailing padding.* The template gives the row `padding: 8px 24px`. `clearOptions` wrote
+  `paddingRight = ""`, which deletes that inline declaration rather than restoring it (CLAUDE.md §6.1).
+  Until v1.94.0 `updateUiShift` rewrote `paddingRight` every frame, so the deletion was harmless. When
+  the pane moved left it switched to `paddingLeft`, and nothing wrote the right side again. Measured at
+  1440: the last card ended 0 px from the edge. (390 kept 12 px through the phone stylesheet's
+  `!important`.) `updateUiShift` now writes both insets from one value (`NG_TRAY_INSET`), the pane's
+  reserve on the left only, and `clearOptions` no longer deletes them.
+- *The fade* was one constant `mask-image` on both edges: the last card stayed darkened at the end,
+  the first at the start, and a hand that fits was faded too. It is now earned, the
+  `.ng-stabs[data-fade]` idiom. `_syncTrayFade` writes `data-fade` (`l`, `r`, both or absent) from the
+  live scroll position on every `scroll` event, so every writer of `scrollLeft` is covered. It also
+  runs on every deal and every `updateUiShift` frame, so a new hand, a moved inset or a resize is
+  covered.
+- *The glide stalled short of the end* (found by the new journey): `_trayGlideBy` eased by 22 % of
+  the gap, the offset snaps to device pixels, and a sub-pixel step never moved it. The glide sat
+  1–2 px short of its target (4642 of 4644) with its rAF still running, so the right fade could never
+  lift. It now lands on the target.
+
+**Pinned by** `e2e/journeys/choice-row-ends.spec.ts`, at 1440 and 390. It reaches the right end by
+the wheel, the middle by a mouse drag, and the left end by focus. It asserts the trailing inset
+equals the measured leading inset, and reads the fade from the computed mask's two stop lengths.
+A fitting hand has no mask.
+
+| mutant | result |
+|---|---|
+| no `scroll` listener | red at the right end, both widths |
+| trailing inset unowned (old deletion, no writer) | red at 1440; 390 survives (`!important` padding) |
+| constant mask again | red at the left end and on the fitting hand |
+| end test off by one (`x <= max`) | red at the right end, both widths |
+| glide creeps again | red, both widths (the wheel never reaches the end) |
+## v1.213.6 — A LATE CANCEL ACK NO LONGER COSTS WIN CHANCE FOR THE SESSION (FGCANCEL1, 2026-10-01)
+
+**Found by the hardened hydration gate (FGHYD2).** Its new reason poll named a third "unavailable"
+class twice in 48 local runs of its own sequence: `worker-cancellation-deadline`.
+1. A restart cancels the solve in flight.
+2. The client gives the worker 1 s (mdp-client's default `cancellationGraceMilliseconds`) to
+   acknowledge.
+3. When the ack is late, the client terminates the worker, and the runtime HELD that for the
+   session, until Retry.
+The same class was the one failure left in FGRETRY1's storm runs (1 of 15).
+
+**Measured** (the page's view, post `cancel` → receive `cancelled`, with the client's 1 s timer
+stretched so that no long ack was cut off): 135 cancels, all acknowledged.
+- Desktop, unthrottled, solves cancelled at varied depths: max **1,675 ms**. 3 of 83 acks were over
+  1 s, and each of those healthy workers would have been killed.
+- A corpus hydration's cancels: max 951 ms.
+- The page's main thread was idle in the first scenario, so the long acks are the worker's own
+  synchronous stretches.
+- CDP's 4× CPU throttle does **not** slow a dedicated worker. Acks under it maxed at 121 ms, and
+  FGHYD1's hand-to-values time at 4× matched 1×. So a 4×-slower phone is estimated as the desktop
+  worst × 4, about **6.7 s**.
+
+**The fix, two halves.**
+1. **`NG_GAME_VALUE_CANCEL_GRACE_MS` = 10 s,** ~1.5× that estimate, passed to the client, with the
+   measurement at its definition. A hung worker still dies within 10 s, and the 30 s computation
+   deadline remains the backstop.
+2. **A worker killed by a deadline** (registration, snapshot, cancellation or computation) **is
+   replaced lazily on the next request,** at most `NG_GAME_VALUE_WORKER_RECOVERIES` = 2 times per
+   runtime.
+   - `resetClient` already retired every request and made the transport lazy; only the runtime's
+     `held` stood in the way.
+   - A crash (`worker-error`) is still held at once, and so is a deadline once the bound is spent.
+   - Retry installs a fresh runtime with a fresh bound.
+   - This deliberately reverses the old unit contract "does not recreate a worker in a retry loop".
+     A loop is still impossible, because the replacement is bounded.
+
+**Gates.**
+- **New core journey, `game-value-cancel-ack.spec.ts`,** 3× green. It delays the page-side delivery
+  of the worker's `cancelled` ack, which is exactly what the grace timer measures, and each test
+  asserts that a cancel was posted and its ack really was delayed:
+  - an ack 5.5 s late (inside 10 s, above the old 1 s): the worker is never replaced, and values
+    arrive;
+  - an ack 11.5 s late: the client terminates the worker, exactly one fresh worker is created, and
+    values arrive with one recovery spent.
+- **Journey mutants on the built `game-values.js`, both killed:**
+  - the grace back to 1 s: test 1 sees 2 workers, not 1;
+  - no recovery: test 2's fresh worker never comes.
+- **Unit tests** (`game_value_runtime`):
+  - deadline-killed workers are replaced lazily, twice, and the third deadline is held;
+  - a crash is held at once;
+  - the client receives the 10 s grace.
+- **Unit mutants, all killed:** no recovery; unbounded recovery; a crash recovered too.
+- **Suites:** units 1,169/1,169; the hydration gate 3/3; value journeys 73/73 (choice-value,
+  game-value-live, option-hand, momentum, gameplan-study-live, option-edge, start-from,
+  dual-consumers, game-knowledge).
+
+
+## v1.214.0 — A LISTING MAY CARRY ITS OWN OUTCOME TABLE (THE MECHANISM, NO TABLE APPLIED)
+
+**Origin coherence PR B1 (OCPRB2), 2026-10-01.** Phase 2's second panel round held 107 per-listing
+outcome tables in `calibration/listing_tables.json`, an LLM persona panel and not expert data. They
+cover 37 moves at 92 listings, all transitions, carrying 1,286 no-gi attempt points that no hand
+deals today. In every one a miss lands back on the listing, while the canonical tables mention their
+listing once in 107. Dealt with the canonical table, each would teleport a miss to the move's origin.
+B1 builds the mechanism and applies **no** table; B2 applies them.
+
+**The orchestrator's rulings (OCPRB2):**
+- the table rides on the listing edge, with one technique node;
+- the listing's own panel rate, with no community-vote stream;
+- the 3 gi-only listings at no-gi-present states get a null no-gi attempt, in B2;
+- the option sheet shows the table you are about to play;
+- B1 then B2, and the full-game seat reviews the pinned diff before it is edited.
+
+**Mechanism:**
+- **Authoring.** A position listing may carry `outcomes` + `success_rate` (all four position
+  schemas). Draft-07 `dependencies` make a table require `deal_here` and the rate, and the rate
+  require the table.
+- **graph.json.** `regenerate_graph._listing_table` puts `ownTable`, `outcomes`, `successRate` and
+  `successRateByRuleset` on the edge. Cells are folded and the table is rescaled to the rate. The
+  edge-rate copy never overwrites it, aliases rewrite its targets, and a submission listing is
+  refused. "Listings with their own outcome table: N" is printed every run.
+- **The wire.** `cal.at[posId]` on the technique, keyed like `alsoFrom`, interned with the rest. It
+  is coverage-gated: the emitter raises unless every table joins, and prints "listing tables: N/N".
+- **One seam per language.**
+  - Python on graph.json: `solve_edge_values.listing_view`, so `build_hand`, `Model`, FLOW and the EDGE
+    tables all inherit it. A card carries its priced technique (`Action.tech`).
+  - JS: the pure `ngKnowledgeCalAt` (knowledge-profile). The app's `_at` / `_actOf` / `_tableLanding` /
+    `_sheetInfo`, the adapter's `actAt` and FLOW (`app._at`) all use it.
+  - The Python twins are `_mdp_mechanics.cal_at` / `table_landing` and `app_game.at` /
+    `table_landing`. `independent_sim` reads the edge's own fields, staying independent.
+- **The two silent joins OCPRB2 named, fixed:**
+  - the adapter's outcome, mass and chance caches key on the listing;
+  - `semantics/_kernel.py` reads `Action.tech` (`_priced`), never `graph[cat][target+"/attacker"]`.
+    `app_game.their_kernel` had the same re-read and now uses `_priced`.
+- **The full-game review (OCPRB1-FG).**
+  - Item 5: the reachability walk keys an own-table card per listing and per frame
+    (`T:<target>@<listing>`), from `build_hand`'s own deal. A gi-only listing's destinations can no
+    longer leak into no-gi. `validate_ruleset_availability.selftest_listing_walk` pins it, and the
+    merge-back mutant is red.
+  - Item 6: the emitter refuses a listing table with a null frame. All 10 gi-only panel tables are
+    refused, and B2 decides the representation.
+  - Its asks: an adapter fixture with one table (`tests/listing_tables_adapter.test.mjs`), and the
+    landing parity, which the app-vs-mechanics differential on a wire with tables now checks.
+- **Pins moved, label-neutral, with a reason in each file:** `mdp-exposure.src.js`'s adapter and
+  knowledge pins and the test's copy, and the three worker knowledge-export lists (game-bundles,
+  worker-core, study-bundles). `mdp_data_corpus.test.mjs`'s mirror of `CAL_FIELDS` gains `at`.
+
+**Byte-identity on today's corpus (zero tables), against a pristine dev 19fe8ea30 emit:**
+- graph.json is identical apart from the `generated` stamp.
+- 5,098 of the emitted neural files are byte-identical: `graph-data.json`, every flashcard, dossier
+  and submission-details file, and every MDP metadata part, in both variants.
+- What moved is code identity only: the app bundles; the manifest's gameplay, law (adapter,
+  knowledge), model, producer, emitter and source hashes; and each variant descriptor's hash, file
+  name and size.
+
+**Gates.**
+
+| gate | result |
+|---|---|
+| `tests/listing_tables_test.py` (via the wrapper) | 6 cases: emitter, rescale, refusals, seam, kernel, "every card is canonical today" |
+| `tests/listing_tables.test.mjs` | dealt, priced, landed, drawn through `resolve`, and the sheet, on 6 injected panel tables at non-alias listings; the app-vs-`_mdp_mechanics` differential on that wire |
+| `tests/listing_tables_adapter.test.mjs` | the adapter, one table: listing vs origin, alternating calls |
+| units | 1,183 / 1,183 |
+| `_kernel --selfcheck`, `app_game --selfcheck` | 59/59, 46/46 |
+| `validate:availability` (both walk selftests), `validate:surfaces`, `validate:graph`, `validate:flow` | pass (FLOW ratchet: 0 new rows) |
+
+**Mutants.**
+- Python, all red: `build_hand` without the overlay; `_priced` falling back; the rescale dropped (on
+  a fixture whose rate sits off its cells: the real tables' pooled cells already equal their no-gi
+  rate, so a real-table fixture could not see it); `deal_here` not required; the merge-back walk.
+- JS, all red: `optionsFor` dealing the bare node; `resolve` on `this.nodes[opt.idx]`;
+  `_tableLanding` as `resultPos`; the mechanics without `table_landing`; `ngKnowledgeCalAt` as the
+  identity; `actAt` without the overlay; `here` dropped from the outcome caches.
+- One survives, and it is equivalent by construction: `here` dropped from the adapter's
+  `moveChance` key. `chanceContextKey` already carries the state, and `here` is a function of it.
+  It is recorded in the test header.
+
+**For B2:**
+- 12 of the 107 tables sit at control-alias positions (armbar, darce, anaconda, Aoki, toe hold,
+  guillotine, straight ankle, omoplata control). The app canonicalises those states into a
+  submission state, so a listing there is never dealt; B2 decides what those 12 become.
+- 10 tables are gi-only and refused (item 6).
+- Two semantics diagnostics still report a canonical rate (`scalars` A/B info,
+  `verify_all frame_forked_dealt_techniques`). They are re-measured in B2.
+
+## v1.215.0 — A LISTING ABSENT IN ONE RULESET IS NOT DEALT THERE
+
+**Origin coherence (OCPRB7), 2026-10-01.** The gap from the full-game seat's B1 review (OCPRB1-FG item
+6), shipped ahead of B2's data.
+
+**The gap.**
+- `cal.avail` masks a move out of a ruleset altogether. It cannot say "dealt at this listing in gi but
+  not in no-gi".
+- `optionsFor` and `_mdp_mechanics.options` never read a listing's attempt share.
+- So a listing whose attempt is null in a frame would be dealt there, while `build_hand` drops it.
+
+**The mechanism.**
+- **The wire.** `regenerate_neural_data.listing_absences` names those listings on the technique as
+  `absentAt: {frame: [posIds]}` (node level, keyed like `alsoFrom`).
+- **The rule.** The origin rule or `deal_here` deals the move there, its attempt is null in that frame,
+  and the frame's mask still admits the move. A move absent from the frame altogether is already
+  masked, so it is not repeated.
+- **The dealers.** `optionsFor`, `_mdp_mechanics.options` and `app_game` skip such a card in their main
+  pass; relaxed passes are untouched on both sides.
+- **Listing tables.** `regenerate_graph._listing_table` accepts a null frame exactly where the
+  listing's attempt is null there (B2's 10 gi-only tables); elsewhere it is still refused.
+
+**The full-game seat's review (OCABS1): no objection, and two asks, both done.**
+- **(1) Positive coverage**, printed every run, with a hard floor of examined > 0. On today's corpus:
+  - 1,319 dealt listings examined;
+  - 58 no-gi null cells at dealt listings, all on masked moves;
+  - 12 on away listings no rule deals;
+  - 0 gi nulls;
+  - 0 absences (the seat's own count).
+- **(2) `check_absence_hands`**: an absence may not empty its listing's main pass. If it did, the
+  state would fall to the origin-relaxed fallback, which deals cards with no `ord` and ignores
+  `absentAt`. It is a hard error, and today it checks 0 hands.
+
+**Byte-identity against a pristine dev emit at 104538687.**
+- 5,096 emitted files are identical, including `graph-data.json` and every MDP metadata part.
+- What moved: the app bundles, plus the manifest's emitter, gameplay, producer and source hashes and
+  each variant descriptor.
+- The law hashes did not move, so the exposure pins and the worker core are untouched.
+
+**Gates.**
+- `tests/listing_tables_test.py` (13 cases): the null-frame rule both ways; `listing_absences` today,
+  named, the dealing rule, the frame mask; and `check_absence_hands` negative and positive.
+- `tests/listing_absence.test.mjs` (3 cases):
+  - none today;
+  - an injected absence at a `deal_here` and at an origin listing: not dealt in no-gi, dealt in gi,
+    and no other hand moves;
+  - the app-vs-mechanics differential passes on that wire.
+
+**Mutants.** All 6 are red:
+- `optionsFor` ignoring the absence;
+- the mechanics ignoring it;
+- the member copy dropping it;
+- `listing_absences` ignoring the frame mask;
+- `listing_absences` ignoring the dealing rule;
+- `check_absence_hands` accepting a relaxed hand.
+
+## v1.214.1 — A SUBMISSION'S HAND STOPS GLOWING; THE ESCAPES' "ODDS 40%" IS DATA, NOT A CONSTANT (2026-10-01)
+
+**Owner:** "there's this strange glowing effect of [the] choices row of a submission". He was attacking
+Suloev Stretch from Half Guard, with the Dark Reader extension on.
+
+**Glow sources on that row, reproduced at the same URL:**
+- **The coaching beacon (the defect).** `setBeacon("options", row)` runs on every deal (v1.57.0). It
+  gives the row `.ng-beacon`, a pulsing green box-shadow of up to `0 0 22px 5px`. The row also carried a
+  constant edge mask from 2026-07-12, four days older than the beacon, and that mask clips an element's
+  own box-shadow. So this light was never visible on any hand. v1.213.2 (PR 248) made the mask earned:
+  a hand that fits has none. A fitting hand, usually a submission's, then pulsed a full-width green
+  band.
+  - Pixel proof at the beacon's peak (a 360×22 strip above the row): it differs by 42/255 from no
+    beacon, and by 0 with the old mask reinstated.
+  - Fix: `.ng-optionrow.ng-beacon{animation:none}`. The one-beacon law is unchanged (`data-beacon`,
+    `beaconState()`, `beacon_moved`), and the specs that pin it pass.
+- **The staged card's border and shadow** (`_highlightStagedCard`, the owner's "FINISH IT" rule from
+  v1.134.0). It appears on any hand with a staged technique, and the Finish card is that technique
+  here. Unchanged.
+- **Card glyphs' `drop-shadow(0 0 4px)`.** On every card of every hand. Unchanged.
+- **Dark Reader** (its own engine, darkreader 4.9.133, injected) recolours the cards' inline borders
+  and shadows from blue to navy, and passes the beacon's keyframes through untouched. Under it the
+  green band stood out more; after the fix there is none.
+
+**The escapes' "Odds 40%".** All four opponent escapes print 40% because an escape card prints
+`1 − the submission's authored rate`. Suloev Stretch from Half Guard is authored at 60%, and none of
+the 290 submissions' defensive options carries a rate of its own. So escapes of one submission are
+equal by construction, and other submissions print their own complement (16 distinct values in the
+corpus; triangle from Triangle Control prints 35%). It is not the 0.4 fallback, and the card prints
+"—" with no rate. Nothing was changed.
+- **Left to the owner:** in the live game an opponent's escape is certain once they act
+  (`opponentDefend` picks one at random, with no roll), so the percentage does not describe a roll.
+
+**Pinned by** `e2e/journeys/submission-row-glow.spec.ts`:
+- The row keeps its beacon state and casts no light: computed animation and box-shadow are `none`, and
+  a pixel differential over the row and a 30 px margin matches the beacon class removed.
+- Escape Odds equal `100 − rate` on two submissions with different rates.
+
+| mutant | result |
+|---|---|
+| neutral control | green |
+| row light restored (rule removed) | red at the computed animation |
+| glow by `filter: drop-shadow` (passes the style checks) | red at the pixel differential (it first SURVIVED a narrower strip) |
+| escape base a constant 0.4 | red on the triangle |
+## v1.215.3 — A PLAN OPENED WHILE A DECK LANDS STILL MOUNTS (FGGPLAN1, 2026-10-01)
+
+**The red.** On PR 252's e2e-full shard 2 (job 110490987056, 1 worker), `gameplan-study-live`'s
+explicit-plan test tapped the Explore "new" stat, and `[data-game-study-controls]` never appeared in
+30 s. PR 252 was byte-identical on today's corpus.
+
+**Not the 09-30 stat-row race.** That race lost the tap, because the cell detached between
+"visible" and the hit. The CI artifacts show the tap landed:
+- the panel had opened the due session ("Mount Position · Bottom 0/1");
+- it read "Study suggestions are ready… Open study plan";
+- and then: "The study context changed. Open the plan again when ready; due reviews remain
+  available."
+
+That state is reachable only after the plan request.
+
+**The mechanism.** The study host loads lazily (`game-study.js`). Any `_gameStudyChanged` during that
+load abandons it, so an explicit intent is never applied to a context the player has left. Two
+signals reach it that are not a change the player made:
+- **a deck becoming resident:** a boot warm-up, a prefetch, or the coalescer's trailing restart
+  (FGHYD1). Both the residency restart and the hydration-only knowledge notice reach it;
+- **the plan clock's 30 s tick,** which signalled even when the day had not changed.
+
+**What could not be pinned.** The CI run's actual trigger: its status text is generic, and the
+artifacts do not carry `_gameStudyState.reason`. Locally nothing reproduced it:
+- 48 instrumented probes at 4 workers;
+- 24 spec runs at 4 workers;
+- 24 probes at 4 workers under a 4× CPU throttle.
+
+None put any signal inside the load. The load takes 0.77–2.3 s at 4× throttle, median 1.4 s, and
+locally the spec's own trailing restart lands 0.87–1.3 s before the tap.
+
+**The fix (`_gameStudyChanged(reason, kind)`).** A `"residency"` or `"tick"` kind still reconciles
+an installed host, which invalidates only when the study frame's key moved, but it never abandons a
+load. The request is dispatched after the load, so it captures the frame as it is then. Every other
+change, a roll or a real day change, abandons exactly as before.
+
+**Gates.**
+- **The new held-load journey.** The study bundle's request is held, so the load is in flight on
+  every run, not by timing. A real deck lands, the trailing restart fires and the quiet tick runs
+  inside the load; then the hold is released and the plan mounts.
+- **Its control.** A real change during the load still abandons it.
+- **The explicit-plan test now polls `study phase | reason`,** so the next red names its trigger.
+- **Results** (dev d52b92ee5 + this):
+  - the whole spec file ×3: 12/12;
+  - the explicit-plan and held-load tests ×12 at 4 workers: 36/36;
+  - the held-load pair ×3: 6/6;
+  - units 1,188/1,188;
+  - `validate:payload` passes, with the pre-existing soft warning on eager gzip.
+- **Mutants on the built bundle, both killed with the control still green.** They patch both the
+  served bundle and `neural/dist`, because the spec's `beforeAll` requires the two to match; a
+  served-only mutant fails that check before any test runs, which is not a kill.
+  - residency abandoning again: "the load survived the deck landing";
+  - the tick abandoning again: "the load survived the quiet clock tick".
+
+
+## v1.215.1 — THE REFERENCE GATE INDEXES THE TRACKED TREE, SO A VANISHING TEMP DIR CANNOT TURN test:units RED (2026-10-01)
+
+**The flake.** `npm run test:units` failed one test now and then (`claudemd_refs_gate`, seen 2026-09-29
+on perf/payload-diet and 2026-10-01 on dev d52b92ee5) and passed on a rerun. Both times it ended in
+`FileNotFoundError` on `source/.date-worker-XXXXXX` inside `_index_basenames` at `ROOT.rglob("*")`.
+
+**Cause, verified.** `node --test` runs files in parallel. `git_date_maps.test.mjs` creates and deletes
+`source/.date-worker-*`. The gate's basename index walked the whole working tree, untracked directories
+included, although its docstring said "tracked": it listed that directory, then scanned it after it was
+gone. Python 3.11's `rglob` catches only `PermissionError` there.
+
+**Reproduced before the fix.**
+- Deterministic: a hook on `os.scandir` deletes the directory at the instant it is about to be scanned,
+  and the old walk is red every time with the flake's own traceback.
+- Real race: 30 gate runs beside a churner of `source/.date-worker-*` directories gave 6 reds.
+
+**Fix.** The index comes from `git ls-files`, which is what CI checks out. Nothing is walked.
+- On CLAUDE.md, 4 of 56 distinct bare names resolved only through the walk (`concepts.json`,
+  `graph-data.json`, `neural.js`, `systems.json`). All four are in `ALLOW_ABSENT`, so no outcome changes.
+- Git unavailable, or zero tracked files listed, is a hard failure. The OK line prints the index size
+  (7,452 tracked files).
+- This was the only repo-root walk on the unit path: the build-shape and payload checks walk build
+  output, and `emit_diff_seed.py` walks a site directory and is not run by a test.
+- The test's temp directory stays in `source/`: its bundle resolves `source/`-only packages from
+  `source/node_modules`.
+
+**Gate.**
+- New unit test: the real script under the vanish hook.
+- Mutant (the old walk, with the new index-size line kept so only the race can fail it): red, with
+  `VANISH_HOOK_FIRED 1` and the `FileNotFoundError`. The first cut of the hook broke on `shutil.rmtree`'s
+  own fd scans, so its mutant was red for the wrong reason; fixed and re-run.
+- After the fix: the deterministic repro is green, and the real race gives 0 reds in 30.
+- 20 full `npm run test:units` runs on the fix, each gated on the heavy-job advisory: 20/20 green,
+  1,189 pass, 0 fail, 0 skipped and 0 `FileNotFoundError` in every run, with no temp directory left behind.
+## v1.215.6 — THE THREE REAL BREAKS THE GEN TRIAGE NAMED, FIXED; THE LEDGER HOLDS NO KNOWN-RED
+
+The gen triage (v1.206.3–v1.208.4) kept two specs red and unweakened, as `known-red` ledger rows
+with a reason and an owner, and reported a third break that no spec guarded. All three are fixed
+here, each with a mutant that turns its pin red. Both rows are back to `accepted`, so
+`e2e/gen/ledger.json` now holds **0 known-red**.
+
+- **An open checkpoint quiz owns the deck surface** (`_onKey`, broken since `a1d5cc3ff` v1.171.0).
+  The quiz shows the FULL deck positioned at its pick, and `_checkpointAnswer` credits whatever card
+  `deckIdx` points at. So ⏎, Space and ↑/↓ revealed the quiz card and then graded it as recall
+  ("Got it", `prep` credit). And ←/→ (in the arrow branch from before v1.171.0) let a player page the
+  quiz off its pick onto a card they knew. All six keys are now consumed and inert while
+  `this._checkpoint` is open. They do not fall through to the corridor's own arrows behind the quiz.
+  `holder-checkpoint-letters-answer-digits-stay-roll` is extended from Enter alone to Enter, Space
+  and the four arrows, each pressed twice (the reveal → grade pair). Each key asserts: not revealed,
+  still on its pick, no credit, nothing graded. Mutants: the Enter, Space, arrows and paging-only
+  reverts each go red at their own key.
+  Not fixed (MC is 100% viable corpus-wide): if a checkpoint card ever failed to build MC, renderDrill
+  would fall back to a Reveal BUTTON that sets `revealed` directly.
+- **The curriculum's arrival is a knowledge change** (`_onCurriculum`). The deck manifest's
+  `_bumpStageVer → renderTabSubtitles → gameScore` memoised a score computed with no weights (0)
+  before `curriculum.json` (the weights) arrived. Nothing bumped `_stageVer` again, so a reloaded
+  player read 0 until they graded a card. Since PR #239 (v1.211.0) this matters more: the one-time
+  belt grandfather in `_syncBelt` reads `gameScore().belt` and then marks itself done. Its final
+  standalone belt sync is now `_publishKnowledge("curriculum")`, which drops the memo, THEN runs the
+  same sync with the same reason and repaints the tab. That is one seam, in the order
+  `_publishKnowledge` already guarantees. Pinned by `holder-restart-tutorial-resets-white-only`'s
+  bit-identical score across a reload. The revert mutant goes red there.
+- **A capstone deals the hand of the seat it gives** (`startBeltTest`, broken since `7e3eb9dc7`
+  v1.180.1, when `rollFromPosition` began dealing synchronously). The authored `startDeckKey` role is
+  now `rollFromPosition`'s `roleOverride`, and the roll stands on that role's MEMBER of the pair via
+  `_seatMember`, the seam `techniqueOrigin` and the play-confirm seat already use. So the seat, the
+  focused orb and the hand agree from the first frame. Measured before: White ("Survive and Reverse",
+  Mount|Bottom) seated bottom on the hub with 16 TOP cards. After: the bottom member, 6 bottom cards.
+  New `@curated` pin in `content-capstone.spec.ts`, run for ALL FIVE belts through the real button:
+  the seat is the authored role, the node is that role's member of the authored site, and every
+  dealt card's `fromRole` is `playerRole` (non-empty). Mutants: the original order goes red, and
+  "right role, hub not member" also goes red at the member assertion. The start test's position
+  check now compares the SITE (`siteIdOf`), since a seated capstone stands on the member.
+
+**Trap met on the way.** A worktree reused across two regenerations carried a STALE
+`game-worker-core-<hash>.js` in `neural/dist`, which `cp neural/dist/*` copies along. That put
+`validate:payload`'s deferred total over its cap (517,255 B, really 451,821) on an unmodified dev.
+`neural/dist` is not cleaned between builds. Clear it before a re-measure, and read the receipt
+(`neural/build/.tmp/game-bundles.json`) for the current core.
+
+## v1.216.0 — 95 LISTINGS DEAL THEIR OWN OUTCOME TABLE
+
+**Origin coherence PR B2 (OCPRB2, OCPRB4, OCPRB7), 2026-10-01.** This is the data half of B1's
+mechanism (v1.214.0) and v1.215.0's per-frame absence. The tables are the second round of an LLM
+persona panel, not expert data.
+
+**What is applied.** `apply_listing_tables.py --apply-listings` writes `deal_here`, `success_rate`
+and display-path `outcomes` into 70 position files. It is idempotent, and `--check` exits 1 on any
+difference.
+- **95 of the 107 tables.** 85 are in both frames and 10 are gi-only.
+- **12 dropped at control-alias positions** (OCPRB4: re-key 0, drop 12). Each drop is recorded in
+  `calibration/listing_tables.json` `dropped`, with its reason:
+  - 6 are defender-side: the canonical submission state deals its escapes (`cal.defenses`), which
+    are not technique nodes.
+  - 6 are attacker-side: the canonical state's continuations do not include the move. The near-miss
+    is Rolling Back Take @ omoplata control, where the state deals Omoplata to Back, a different node.
+- **D3, the gi-only tables.** 6 no-gi attempts are nulled and renormalised (floor-preserving round),
+  all at positions no-gi never reaches, so they are inert in play. The 3 Tripod Sweep listings at
+  no-gi-present states were already null in no-gi from Q3, so the wire carries **0 absences**.
+- **Generated output.** 11 Markdown pages change (the renormalised no-gi shares at Double Sleeve,
+  Lapel, Lasso, Spider and Worm Guard). 507 pages drifted only in system-card order and were restored.
+- **graph.json.** 95 own tables and 103 `deal_here`, with the layout in preserve mode and the
+  ordinals unchanged. The wire carries 95/95 as `cal.at`.
+
+**Mechanism refinements.**
+- **An absence at a state its frame masks is named, and exempt from the hand check.** B2 applies 4
+  gi-only `deal_here` tables at states no-gi never reaches (worm, spider, lasso and double-sleeve
+  guard). Named, the worm guard one emptied its main pass, and `check_absence_hands` refused the emit.
+  - Skipping those states was the first fix. The full-game seat refused it (OCPRB8-FG): `setGiMode`
+    does not re-seat, so a player who flips to no-gi there would be dealt the gi-only table, with a
+    null no-gi rate priced at the scalar fallback.
+  - So they stay named, and `check_absence_hands` exempts a state its frame masks. No walk deals
+    there; an emptied hand meets only the pre-existing relaxed fallback.
+  - Measured: the flipped no-gi hands at all 4 states are identical to dev + PR 252's.
+  - The print reads: 1,414 dealt listings examined; no-gi null cells at dealt listings 68 (64 on
+    masked moves); 8 on away listings; absences no-gi 4, all 4 at masked states; 0 main passes
+    checked, 4 exempt, 0 emptied.
+
+  `listing_absence.test.mjs` flips at all 7 gi-only tables on masked states. Four are kept out by
+  `absentAt`; for the other three, the no-gi mask removes the move. The mutant that stops naming them
+  fails with "Bolo Sweep at worm-guard: no-gi deals the gi-only table". The Python cases pin the
+  exemption, and its mutant is red.
+- **`check_deal_here` no longer calls an own-table listing a teleport.** It prints the 8 listings
+  whose authored miss lands mostly on the origin hub, as info. All 8 are gi-side Body Lock Pass and
+  Half Guard Pass rows (for example Lockdown 37/72, Vaporizer 41/75), and they are queued for the
+  owner's content pass.
+- **`mdp_corpus.test.mjs` lands a card at its listing.** `opt.res` is used for an own-table card,
+  mirroring the app's `landOf`. MDP_OPPONENT_ORDER: 484 hands, 0 different.
+
+**FLOW.**
+- **The ratchet** goes from 22 known rows to 19:
+  - 5 cleared (Cross Ashi to 50-50, Body Triangle Lock, Half Guard to Jailbreak, Rolling Kimura
+    Escape, Return to Outside Ashi);
+  - 2 reviewed and added: Outside Ashi Entry at inside-ashi-garami/top and inside-sankaku/top, where
+    the panel lands a success in outside ashi. Both go to the content pass.
+- **The rewrite lost review notes, and now keeps them.** `--baseline` wrote only the notes it
+  hard-codes, so it dropped 8 of 10, 6 of them on rows still known (the Kimura Trap price). A rewrite
+  now carries the note of any row still known and retires a cleared row's note by name. Two were
+  retired: Rolling Kimura Escape and Return to Outside Ashi. 10 notes remain. Pinned by flow.test.mjs
+  case 8; its mutant is red.
+- **Case 6a** reads `cal.at[posId]` as data, with a floor of ≥ 150 listing cards.
+- **Two tolerances widened, both proved to be rounding:**
+  - gi/standing worst deck, 0.30 → 0.35;
+  - a near-tie may cross the cut at 10, within 1.5% of the 10th gradient.
+
+  The kernel fed `build_hand`'s exact shares agrees in all four games: V0 0.00-0.02%, top-40 40/40,
+  top-10 order exact. The Back Control ×0.8 mutant is still red.
+
+**`option-hand.spec.ts` compares the slope as it reaches the screen.**
+- The exact-tie rule demanded equal `c1`. But `c1` reaches the card only through
+  `(moveChance − p0)·c1`.
+- B2 deals Triangle from Mount at s-mount/top from its own table (`e0` −2, `c1` 13, factor −0.10),
+  beside S Mount Armbar Setup (`e0` −2, `c1` 10, factor −0.13). Both terms are −1.3, so both cards
+  print the same value from equal data, and the old rule went red on a correct build.
+- The rule now compares the term to 1e-9 (the two products differ in the last bit). It is the only
+  such tie in the corpus.
+- A flat `moveEdge` still turns it red, on the `e0` line.
+
+**Census.**
+- dual-consumers 1,221 → 1,316 cards carrying a mark;
+- option-overflow 17 → 18 and 11 → 12;
+- neural_seat_decks 1,221 → 1,316.
+
+**The owner screen** lists 95 newly dealt cards at 82 seats.
+- Win chance moves by more than a quarter point at 56 seat-frames. The largest are:
+  - standing-rear-clinch/top, gi 80.1 → 82.0 and no-gi 80.0 → 81.5;
+  - 3-4-mount/bottom, no-gi 52.5 → 53.9.
+- **P(I finish) from standing, before → after:**
+
+| game | no-gi | gi |
+|---|---|---|
+| shipped rule | 0.7230 → 0.7213 | 0.7169 → 0.7144 |
+| player-neutral | 0.5533 → 0.5533 | 0.5476 → 0.5473 |
+| the app's game (uniform) | 0.3452 → 0.3417 | 0.3425 → 0.3384 |
+
+- **The origin filter drops less attempt mass:**
+  - no-gi 12,511 → 11,436 of 26,500 points (47.2% → 43.2%), with orphaned techniques 2 → 0;
+  - gi 12,284 → 11,214 of 26,600 (46.2% → 42.2%).
+
+**The score weights move too.** `curriculum.json`'s score weights come from where play goes, so the
+tables re-weight the knowledge score:
+- positions by TV 1.5% (gi) and 1.4% (no-gi), e.g. Side Control 8.71% → 8.28% (gi);
+- techniques by TV 0.9% (gi) and 0.8% (no-gi).
+
+**`explorerTree.json`** is committed separately (`fc97b06ce`). The B2 commit had not run
+`regenerate:explorer`. It is a `source/` data file the capture only reads, so the capture's premerge
+is the candidate (D-284).
+
+**Payload, re-accepted BEFORE the capture (OCPRB4, OCQ6B).** `validate:payload` runs inside the
+capture's root build, so both accepts are committed first. Both are measured against a control built
+from dev 15a71060e's own sources:
+- eager gzip 332,316 → 340,015: dev drift +3,661 since #233, never re-accepted, and B2
+  +4,038;
+- first-hand core 351,963 → 359,553: dev drift +3,644, and B2 +3,946.
+B2's part is `graph-data.json` (`cal.at` and `absentAt`) and `curriculum.json` (the score weights).
+
+**The first capture was rejected, and the cause was the reused checkout.**
+- Ignored build outputs survive a checkout. p2b still held PR A's worker core and MDP generation,
+  because `regenerate:mdp` skips content-addressed files that exist.
+- The deferred count includes every retained generation: 517,255 against a 500,000 B ceiling, and
+  451,821 without the stale core.
+- The procedure is now D-285: clean every ignored path except the two dependency symlinks, then prove
+  it with `status --ignored`. The content birthtimes survive the clean (6,412 of 6,412 unchanged).
+
+## v1.216.2 — QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE
+
+**Origin coherence follow-up (DEVMV25), 2026-10-01.** This is the report-only finding from B2. The
+queue said `regenerate_graph.quartz_slug` was a third copy of the slug rule. A full survey found
+three copies outside `scripts/_slug.py`, not one:
+- `regenerate_graph.quartz_slug` (`targetPath`);
+- `regenerate_explorer_tree.quartz_slug`;
+- `regenerate_md_from_json._quartz_url_slug` (hrefs, System URLs, `utm_content`).
+
+**The difference.** Each copy stripped the name and collapsed whitespace runs into one `-`.
+Quartz's `sluggify`, which `_slug.quartz_page_path` follows (pinned to `path.ts` since v1.212.7),
+replaces each whitespace character separately and strips nothing. They agreed on today's corpus
+only because no name has a run of whitespace or a space at either end.
+
+**The fold.** All three now read `_slug.quartz_page_path`. `regenerate_graph` keeps the name
+`quartz_slug` as a re-export, because four modules import it from there. One of them is
+`regenerate_neural_data`, which the full-game seat pins; its file is untouched.
+
+**Proof: byte-identical.** Each generator was run with the old rule computed beside the shared one on
+every call:
+
+| generator | calls | mismatches |
+|---|---|---|
+| `regenerate_graph` | 4,455 | 0 |
+| `regenerate_explorer_tree` | 1,378 | 0 |
+| `regenerate_md_from_json` | 11,496 | 0 |
+| `regenerate_neural_data` | 2,083 | 0 |
+| `check_systems_payload` | 83 | 0 |
+
+- `graph.json` differs only by the `strength` that `graph-base` alone always strips, and the
+  timestamp.
+- `explorerTree.json` and the neural emit are identical.
+- The md output of the old and new generators is identical over 4,601 files.
+
+**Gate.** `tests/redirect_targets_test.py` `OneCopy` refuses any copy of the rule in `scripts/`
+outside `_slug.py`, after a positive scan count. It also checks the three emitters use the shared
+function. Both mutants are red on both cases: a local copy back in the explorer, and a local
+`quartz_slug` back in the graph.
+
+**Seen while proving it.** `regenerate:md` on clean dev rewrites the same 507 committed pages under
+both generators, so it is deterministic. Like `content/Principles.md`, the committed pages are
+stale against their generator.
+
+## v1.216.3 — ONE SUPABASE CLIENT PER PAGE: A REDIRECT-BACK NO LONGER EXCHANGES ITS CODE TWICE (AUTHDBL1, 2026-10-01)
+
+**The red.** The dev deploy of PR 258's merge (B2, `0df11cc74`, run 36926507281, keyed) failed one curated spec:
+`auth-redirect-back.spec.ts` "all three redirect-back shapes". `?error_description=` received **2** Supabase clients.
+The message said "no client" because it assumed the 0 case. The same spec passed on that day's three earlier dev
+deploys, and B2 changed only data.
+
+**Verdict: a real race in `getClient()` (`supabase.ts`), not a stale spec.** `getClient` checked `_client`, awaited
+`loadSDK()`, and only then created. On a redirect-back two callers enter that window:
+- authUI's redirect-back arm, which starts the SDK load;
+- the Neural app's `resolveNeuralUser()`, which goes on to `getClient()` precisely because a load is in flight. On
+  any redirect `ngAuthIsGuest` is false, so `_initAuth` asks.
+
+Both await the same `loadSDK()` and both call `createClient`.
+
+**Evidence.** Keyed-like local build of `0df11cc74` (dummy, non-secret config), with a probe that times every
+`nav`, every app `resolveNeuralUser` and every `createClient`:
+- **SDK response held 3 s:** 2 clients on ALL three shapes, 9/9, **including `?code=`**. There was one `nav`
+  dispatch (so no double listener), the app's resolve landed at 132 ms inside the window, and both clients were
+  created at the same millisecond when the SDK arrived.
+- **Unheld:** 1 client in 30/30 probe rows. The stubbed SDK is fulfilled instantly, and the client existed 29–71 ms
+  before the app asked; that margin alone kept the local runs green.
+- **The spec looped 30× at 4 workers stayed green** for the same reason.
+- B2's heavier wire moved the app's boot into the window on the CI runner.
+- In production the SDK comes from a CDN, so the window is much wider. A real Google sign-in was likely
+  creating two clients, each with `detectSessionInUrl`, each exchanging the single-use PKCE code.
+
+**The fix.** `getClient()` is single-flight. Creation (`createClientOnce`) is one promise, owned by its first caller,
+and every later caller awaits it. A failed SDK load clears it, so a later call retries, as local-only play does.
+
+**The gate.** A new @curated test HOLDS the SDK response until the Neural app has asked for the user (counted, so
+the window is provably shared), on all three shapes, and asserts exactly one client. Every `clients` assertion now
+prints the count it saw and says what 0 and what 2 or more mean.
+
+**Production exposure** (main `29f1c50cc`, v1.204.4, from its code):
+- **a first Google sign-in: not exposed.** The app's `_initAuth` calls only when `isAuthenticated()`;
+- **a returning signed-in visitor: exposed on every page load,** through authUI's `isAuthenticated()` arm plus the
+  app's `_initAuth`. Two auth subscriptions on one storage key; no code to exchange;
+- **a Google redirect-back with a stored session: exposed.** The code is exchanged twice.
+
+Dev since v1.207.0 added the first case for everyone, through `resolveNeuralUser`.
+
+**A second test, the failed load.** The first SDK request is aborted, then a retry must load again and create exactly
+one client. It pins the fix's "cleared on failure, so a later call retries".
+
+**The keep-list.** `supabase.ts` is a keep-list file, and its new bytes are accepted with a reason
+(`tests/artifacts/transformer_freeze.json`).
+
+**Gates, both directions, at `eacb9bc55`.**
+- **Keyless** (what PR CI builds; the spec supplies the config):
+  - units 1,191/1,191;
+  - the auth spec ×2: 10/10.
+- **Keyed** (a local build with the real config, only the four permitted variables, never printed):
+  - the auth spec ×2: 10/10.
+- **Mutants on the built `postscript.js`, killed at the same assertions in both directions:**
+  - M-a, check-then-await restored: the held window goes red at "2 Supabase clients … must be single-flight";
+  - M-b, the failed promise never cleared: the failed load goes red at "the SDK was requested again … (the retry
+    happened)".
+- **Earlier, on the keyed-like build:**
+  - the held-window and three-shape tests ×10 at 4 workers: 20/20;
+  - auth-redirect-back, auth-owner and legacy-gone ×3: 48/48.
+
+## v1.217.0 — THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS
+
+**Owner, 2026-10-02:** "scrolling bar in videos row should probably not appear and use a similar system like the
+choice row, with the addition of a right arrow and left arrow (to start, the left arrow is hidden - get inspired by
+the arrows of the landcard / flashcards deck below the videos row). on mobile the fading and arrows should look fine
+and be responsive".
+
+**Before, measured with real scrollbars** (Playwright's default `--hide-scrollbars` removed), on the real dev server
+at `/Positions/Back-Control/Top` (4 landscape clips):
+- at 1440 the row carried a 10 px classic scrollbar, so the strip was 108 px tall against 98 px of clips;
+- at 390 the scrollbar is an overlay (0 px), but there was no cue at all that more clips sat past the edge;
+- the clips were cut hard at the row's box, 1 inset in from the strip's edge.
+
+**What shipped (landing film strip only).** The dossier sheet's and the concept page's film rows are unchanged.
+- **No scrollbar** on any engine (`scrollbar-width:none`, `-ms-overflow-style:none`, `::-webkit-scrollbar`).
+  Wheel, trackpad, touch and keyboard scrolling are untouched.
+- **The hand's earned fade, shared.** `_syncTrayFade()` became `_syncEdgeFade(row)`: one function for both rows,
+  returning the sides it wrote. The three `[data-fade]` CSS rules now name both rows; each row sets only its
+  own `--fade-w`.
+- **Arrows, in the deck's look.** The deck's chevron markup and style became one source: `_chevButton()` and
+  `.ng-chev` (size, colour, hover and focus ring). The deck's `.ng-landnav button` keeps only its position rule.
+  The film adds `data-film-prev` / `data-film-next` ("Previous videos" / "More videos"), shown exactly where
+  their edge fades (`_syncFilmEdges`), so the left one is hidden at the start and both are hidden on a row that
+  fits. Hidden means `visibility:hidden` (inert), with the opacity fade delayed behind it. Focus on an arrow
+  that hides moves to the other one.
+- **One press is about one view** (`_filmPage`): the row's width less its two fades. It glides through the
+  row's existing single animator, `tweenScroll` (the one `expandClip` drives), so an arrow and an expansion never
+  write `scrollLeft` against each other. Under reduced motion the row jumps.
+- **Every length is a ratio of one token on screen,** the card's side padding (18 px at 1440, 12 px at 390),
+  which `_dockLandFilm` already measured and now also writes as `--film-inset`:
+  - the row bleeds to the strip's edges and pads back by 1 inset, so the first clip still lines up with the
+    card's text and the last one keeps the same inset at the end;
+  - the fade is `NG_FILM_FADE_RATIO` = 3 insets (54 px / 36 px);
+  - each arrow's centre sits 1 inset from the edge, over the fade. A dark halo on the chevron keeps it
+    legible over a bright thumbnail.
+  - The 44 px buttons are absolutely positioned, so the touch target never grows the row's box.
+
+**The strip's measured rect.** x and width are unchanged at both widths, and so is the bottom (the strip is
+bottom-anchored). At 1440 the height falls 108 → 98 and the top moves down 10 px. That is the scrollbar the owner
+asked to remove, not a layout change. At 390 nothing moves.
+
+**Pinned by** `e2e/journeys/film-row-arrows.spec.ts`, at 1440 and 390, with real scrollbars and authored clips
+(the harness serves `{}`):
+- no scrollbar;
+- the left arrow hidden and inert at the start (`elementFromPoint`);
+- a right-arrow click by MOUSE (`j.clickByMouse`) scrolls and reveals the left arrow;
+- at the end the right arrow is hidden and inert, the end fade is gone and the end padding is there;
+- the ratios (1 / 3 / 1 insets);
+- the left arrow by keyboard;
+- a fitting row (two vertical clips) shows no arrows and no fades;
+- reduced motion: the row is at its target on the next frame.
+
+| mutant (one at a time, built bundle) | red at |
+|---|---|
+| neutral control | green |
+| scrollbar rules removed | "the row reserves no scrollbar height", both widths |
+| arrows always shown | "the left arrow is hidden at the start" + "no arrows" |
+| hidden by opacity only | "the left arrow is hidden at the start" + "no arrows" |
+| the hidden arrow's chevron re-enables visibility | "...and inert: the point under it is not the arrow" |
+| film strip off `attachInput`'s early-return list | the first mouse click falls through to the graph, which closes the strip |
+| arrow does not scroll | "the right arrow scrolled the row" + "the arrow moved the row" |
+| end test off by one | "the right arrow is hidden at the end" |
+| no end padding | "the first clip sits 1 inset in" |
+| fade ratio 2 | "at the start only the right edge fades" |
+| a fitting row shows its arrows | "no arrows" |
+| a fitting row keeps a constant mask | "no fades" |
+| reduced motion ignored | "and it was there on the next frame" |
+| arrows lose `.ng-chev` | the class assertion, both widths |
+
+**Neighbours:** 13 landing, deck, layer, pane and choice-row journeys, 114/114.
+
+**Payload.** First-hand core 360,299 B, +746 B over the accepted 359,553 (cap 6,000). This change's own share,
+gzip: `neural.js` +535 B, `neural.css` +201 B.
+
+## v1.218.0 — THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST
+
+**Owner, 2026-10-02**, with a screenshot of the announcer reading "TOO SLOW / Answer revealed · −4% on this
+exchange": "this toast is very distracting, and i'm like -4%? wait what? too slow is barely readable, and too
+high up, couldn't this have been like happens in rpgs, like a bubble fading in, and moving up then fadding out".
+Then, refining it: "it'd still be nice to understand that the choices favorable to me (your options, not
+opponnent threats) actually get penalized -4% or wtv the value is, like that animaiton that happens in games for
+a character taking damage".
+
+**Measured before designing**, on the real app (non-test boot, `__NEURAL_RIG` start-pos 0, Mount Top, 1440 and
+390). Each own card's printed number was read before and after each outcome:
+- the small success number on every "Your options" card moved by exactly the cost: −4 for a wrong answer or an
+  expiry, −8 for a trap, +N for a correct answer;
+- the opponent threats' odds moved in NO case;
+- Win chance re-solved seconds later through the game-value worker, so it is not the outcome's own effect.
+
+So only own cards take the hit, and the hit is hooked where that number is WRITTEN (`paintChoiceValues` →
+`_cardHit`). The pop's text is the card's own before/after difference, never a constant.
+
+**What shipped.**
+- `_outcome()` replaces the four outcome `setEvent` calls: the landing expiry, wrong, trap and correct.
+- The panic-drill expiry names its cause but arms no hit, because no number moves there.
+- The cause word rises from the measured "Your options" label (`data-outcome-float="group"`). With the hand put
+  away it falls back to the landing card's top edge (`"landcard"`); with neither, `"none"` draws nothing.
+- A broken ×N streak stacks "×N momentum lost" above the cause, 0.18 s later.
+- Effects are CSS keyframes on the wall clock, removed by `setTimeout`. They use z:16 and `pointer-events:none
+  !important` on the layer and every descendant.
+- Reduced motion keeps the colour flash (`ngHitStill`) and the number change, with no rise and no shake.
+- One polite aria-live sentence per outcome (`[data-outcome-live]`).
+- B, the same plus a central bubble with the big number, is the constant `NG_OUTCOME_BUBBLE`. A ships; the owner
+  judges both from a recorded demo.
+
+**Found in the demo's own frames, and fixed before merge.** The recorded clips, read frame by frame at 390, showed
+two things the first version of the spec could not see:
+- **The stacked cause overlapped the first word mid-flight.** "×3 momentum lost" sat on "missed". The offset was
+  `h × 0.9`, but the second word starts 0.18 s later, so the first is already rising when it sets off. The spec
+  only asserted `top <`. The offset is now `h + rise/2 + 4`, and the spec asserts the two are clear at creation
+  AND 300 ms later. The old offset is mutant `stack09`, red at creation; `stackh` (clear at creation, no rise term) is red mid-flight.
+- **A bare "−4%" read as "Win chance −4%".** The pop rises from the Move number into the Win chance row just as
+  that row blanks to "—" to re-solve. Win chance does not drop by 4, so the frame lied. The pop now carries the
+  card's own word for its number, "−4% move" (read from the repaint's `immediateLabel`). That is what the main
+  brief asked for anyway: the copy uses the card's word. The pop is also set just left of the number, over the card's
+  own label, so the number stays visible while it ticks and the word never spills off the card. A pop without its word is mutant `noword`.
+
+**Retired: the v1.138.0 expiry LEASE.** Once no outcome writes the announcer, the lease has nothing to hold:
+`_evExpiry`, `_dropExpiryEvent()` with its five drop sites, and the ~5 s frame-loop age-out are deleted.
+`_evCountdown` stays; `_outcome()` releases it through `_dropCountdownEvent()`.
+
+**Copy, before → after** (cause word · aria sentence):
+- expiry: "Too slow · Answer revealed · −4% on this exchange" → "too slow" · "Too slow: the answer is revealed,
+  and your chances on these moves drop 4 points."
+- wrong: "Not quite · −4% on this exchange" → "missed".
+- trap: "That one gets you hurt · −8% on this exchange" → "that one hurts".
+- correct: "Correct · Odds up on this exchange" (below ×2 only) → "correct", always.
+- momentum: "· ×N momentum gone" → a stacked "×N momentum lost".
+- panic expiry: "Too slow · The answer's on the table — no pump" → "too slow" · "…your escapes get no boost."
+
+The cards have no single noun for this number (Move, Finish, Escape or Works), so the spoken sentence says
+"chance".
+
+**Specs moved, claims kept** (announcer-coherence):
+- the expiry test now finds "too slow" as the cause plus the full aria sentence;
+- the torn-down-hand test now pins the countdown's release and the roll's next sentence;
+- the lease test became "an expiry never pins": it is off the announcer, and gone in ~1.6 s of wall clock even
+  with the pane open and the roll paused.
+
+New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
+
+| mutant (sandbox bundle, one at a time) | red at |
+|---|---|
+| neutral control | green, 26/26 |
+| `pointer-events:auto` on the layer | "pointer-events none"; fallback "never eats the point under it" |
+| z:60 | "z 60 sits in the ambient-fx band 10–49" |
+| top from a constant | "…just above it"; fallback "…not somewhere else" |
+| landing-card fallback deleted | "the cause is still named" |
+| `--rise` 0 | "the cause rises" |
+| never removed | "the cause is gone by ~1.6 s"; announcer "gone within ~1.6 s … paused or not" |
+| removed on the GAME clock (`this.after`) | the same two |
+| threats flash with the hand | "a threat takes no hit" |
+| a constant "−4%" pop | "the pop says the real −8"; "a +N pop per risen card" |
+| the pop without the card's word | "every pop names its number…" |
+| the stack offset back to `h × 0.9` (`stack09`) | "clear of the first when they appear" |
+| the offset `h + 4`, clear at creation but without the rise term (`stackh`) | "still clear of the first mid-flight" |
+| a card glints though its number did not move | "so it takes no hit" (the fixture moves every card, so one card is pinned at `choiceValueView`; this mutant survived until that test existed) |
+| reduced-motion rule deleted | "no shake under reduced motion" |
+| streak not stacked / stacked on top | "the cause, then the streak" / "stacked above the first" |
+| expiry named "missed" | five, across both specs |
+| trap named "missed" | "the trap names itself" |
+| a miss costs 0.05 | "printed odds drop by the cost" |
+| the announcer written on a miss / on an expiry | "the announcer carries no outcome" / "and the announcer does not carry it" |
+| no aria sentence | "one polite sentence…", both specs |
+| `_dropCountdownEvent` removed | "the countdown stamp was released at expiry" + two more |
+
+**Payload.** First-hand core (the delta basis) 362,161 B: +2,608 B over the accepted 359,553 B (cap 6,000), and +1,862 B over the 360,299 B the v1.217.0 entry measured for dev. Eager gzip 342,630 B (+2,615 B over 340,015 B, cap 5,000). This change's own share, gzip -9 against dev's bundle: `neural.js` +1,259 B, `neural.css` +602 B.
+
+## v1.218.1 — THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES
+
+**Owner, 2026-10-05, testing the dev preview at v1.218.0:**
+1. "when i'm in ezekiel choke from side control (defending), and i try to click this choice: [Escape · Chin tuck
+   with two-on-one forearm block · Win chance 13% · Inspect · Escape 35%] it doesnt seem possible, any click on
+   that card works as inspect and that shouldnt be so, it's a choice i just chose, not to inspect but to move"
+2. "sometimes clicking a choice card causes it to vanish (maybeo nly in submissions case? coudlnt confirm the
+   scope)"
+
+**Item 1, why escapes were inspect-only.** `activateOption` sent every escape and every threat to
+`expandOption`, whatever was clicked (and any plain digit too).
+- The route dates from v1.176.0 (`cdc35cefe`, submission states own their choices). Escapes had no Inspect control
+  then, and the preview's go button was the only way to read one before committing.
+- Phase 1 (`431c4cebf`, 2026-09-26) gave every own card an Inspect button and wrote the contract down ("a choice
+  executes; inspection is explicit"; docs/Neural.md: "escape cards have Inspect"). It kept the old escape route,
+  so on escapes the Inspect button and the card did the same thing.
+- **Fix:** an escape obeys the contract. The card and its digit play it; Inspect and Shift+digit open its preview.
+  A threat is the opponent's move and stays inspect-only.
+- `submission-choices.spec.ts` pinned the old route (a plain digit opened the preview, and its go button played the
+  escape). It is inverted on the owner's rule.
+
+**Item 2, the vanish, named.** Probed in the real app (dev-serve, real clock, not the harness), clicking by mouse at
+1440 and 390, scrolled and not, pane open and shut, and reading the chosen card's state every ~50 ms:
+- **The vanish:** the escape hand (`enterDefense`, which a URL arrival on a Defender seat also runs) cleared the
+  whole hand on a pick and left nothing. Every other pick leaves `executionCard`'s non-actionable copy reading
+  Executing, then its result. At Ezekiel Choke from Side Control/Defender, the hand had 0 stand-in frames in the
+  2.5 s after the pick, with an empty row. This is the "submissions case".
+- **The second fault, same seam:** the stand-in's offset ignored the row's left padding (the tray inset plus the
+  open pane), so it landed beside the card, not on it:
+  - 378 px to the right with the pane open at 1440 (card at 377, stand-in at 759);
+  - 24 px with the pane shut, and 12 px at 390.
+  - Its clamp also stopped at the content box, so a card scrolled into the right inset moved 23.5 px.
+- **Not defects, measured:**
+  - a Finish that succeeds removes its stand-in when the round ends, and "You finished it" takes the screen;
+  - an entry's stand-in lifts on arrival, when the submission's own hand deals.
+- **Left as is:** on a submission hand at 390, the stand-in sits 11 px higher than the card, because the landing
+  card's push on the tray (`_landDatum().tray - push`) is undone when the hand clears.
+
+**Fix.**
+- The escape pick takes the same stand-in, taken before the teardown that empties `_optionCards`.
+- Its sentences go through `executionEvent`, so the stand-in owns the announcer until "Escaped!" or "Still
+  defending" (setEvent's stamp). Without that, the result line was blocked: the mutant proves it.
+- It does not take the camera: the catch keeps its `frameNodes` framing.
+- `executionCard` measures from the content box and clamps to the row's visible extent, which is both insets and
+  never under the pane.
+- The seat chooser (`confirmPlayFrom`) is a radio + confirm dialog, not a card, so it has no inspect/execute
+  question.
+
+**Pinned by** `e2e/journeys/card-click-contract.spec.ts`, all by MOUSE (`j.clickByMouse`):
+- **Inspect inspects and the body executes,** for a transition, an entry, a Finish and an escape;
+- a threat click previews and never plays;
+- **the chosen escape stays on the table** where the card was, until "Landed" and "Escaped!", at 1440 and 390;
+- the stand-in sits on the clicked card with the pane open, and in the left inset.
+
+The spec waits out each card's .34 s deal-in ease before measuring (a first run measured mid-ease: 8 px).
+
+| mutant (one at a time, built bundle) | red at |
+|---|---|
+| neutral control | green |
+| escape body click inspects again | "a click on the body of "Posture up" does not inspect", the vanish test ×2, submission-choices' digit |
+| a threat routed to pick | "a threat opens its preview" |
+| Inspect executes | "Inspect on "<card>" opens its detail", all four kinds |
+| the escape pick leaves no stand-in | "...and the chosen card stays on the table" + the vanish test at both widths |
+| row padding not subtracted | "...exactly where the card was" (48 vs 24; 24 vs 12) + the left-inset test |
+| clamp upper bound at the content box | the pane test (1266 vs 1289.5) |
+| clamp lower bound 0 | the left-inset test (24 vs 12) |
+| escape result through setEvent | "the stand-in shows the escape's result", both widths |
+| **non-kill, recorded:** the escape stand-in takes the camera | survives; the catch's framing is not pinned |
+
+**Payload.**
+- First-hand core 362,215 B: +2,662 B over the accepted 359,553 (cap 6,000), and +54 B over the 362,161 B the
+  v1.218.0 entry measured.
+- This change's own share, gzip -9 against dev's bundle: `neural.js` +37 B, `neural.css` 0.
+
+## v1.218.3 — THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR
+
+**Owner, 2026-10-05**, in Brave on the dev preview: `/` navigated itself to `/Positions/Side-Control/Bottom`, and
+the console showed `GET /Positions/static/icon.png 404` twice, 33 report-only CSP violations, and
+`ERR_BLOCKED_BY_CLIENT` for two PostHog extensions. "please fix so that doesnt happen again".
+
+**The 404 was a class.** Pages loaded their icon, `index.css`, `prescript.js`, `postscript.js` and the lazy
+`contentIndex.json` from `pathToRoot(slug)`, a page-relative base. After the app's `history.pushState` the
+browser re-resolves them against the new address; at three segments `../` lands on `/Positions/`. Of 29 such
+URLs on `/`, the 4 resources are fixed; 25 crawler-fallback links are measured unreachable while the app runs.
+One root-absolute base now: `siteRoot(cfg)` (`plugins/emitters/helpers.ts`), plus `Head.tsx`'s icon.
+
+**The CSP violations were two unlisted hosts.** PostHog already runs behind a first-party proxy on a
+bjjgraph.org subdomain (`POSTHOG_API_HOST`), allowed as `https://*.bjjgraph.org` to keep its name out of this
+repo; Cloudflare's edge-injected Web Analytics beacon (in no built file) is allowed too. Mermaid's `cdnjs`
+loader is off: 0 of 6,324 content and template files use it. Applied to the live preview, the new policy gave 0
+violations. Brave blocks the two PostHog files by PATH, so that line is the owner's call; the beacon's RUM post
+also fails CORS on every `*.pages.dev` host.
+
+**Gates.** `scripts/e2e-serve.mjs` now sends the emitted CSP (it sent none, so no journey could see a
+violation); `e2e/journeys/console-clean.spec.ts` replays the owner's path; `scripts/check_deployed_console.mjs`
+runs after both deploys against the real site. Mutants for each are in the spec headers and PR #266. No capture:
+the census and SEO baselines did not move.
+
+## v1.218.5 — THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME
+
+v1.218.3's first green dev deploy (run 37308600818) printed every host the browser saw, so the PostHog
+proxy's hostname went into a public Actions log, though the CSP allows `*.bjjgraph.org` precisely to keep that
+name out of this repo. GitHub masks a secret only where its exact value appears, not the bare host inside it.
+`scripts/check_deployed_console.mjs` now builds every line in one pure `report()`, redacting the
+`POSTHOG_API_HOST` host as `<posthog-proxy>` (any case, whole hosts only), and `main` prints nothing else.
+Four mutants (unredacted output, unredacted stderr, a case-sensitive redactor, the raw secret instead of its
+host) each turn a named test in `tests/deployed_console.test.mjs` red; a control proves the fixture really
+carries the host. The one log that already printed it is the owner's call to delete.
+## v1.218.6 — WIN CHANCES THAT ARE THERE WHEN YOU LOOK: THE SAME NUMBERS, 2-4x SOONER, AND NO BLANK AFTER AN ANSWER (WINLAT, 2026-10-05)
+
+**The report.** The owner, on a phone (dev preview v1.218.0): "the probabilities (win chance) take a while to load properly".
+
+**Measured first** (`scratch/full-game/winlat`, untracked probe `e2e/fg-probes/winlat.spec.ts`; desktop under the build
+lock, fresh player, 12 exchanges; median / p90 / max):
+- in-session hand -> Win chance 6.6 / 12.5 / 16.0 s;
+- landing answer -> new Win chance 8.8 / 11.5 / 12.2 s, every card showing "—" the whole time;
+- move % 0 ms on every non-entry card (built into the card); an entry card's "Works" waited for the solve.
+The main thread was never the problem (every step under 70 ms at p90). The worker was: model build 2.1 s, solve 4.2 s. Within the solve, the support-identity hash took 2.0 s (pure-JS SHA-256
+over ~30 MB of canonical text per hand).
+
+**Phone class.** CDP's CPU throttle cannot reach the worker: Chrome answers "Operation is only supported for pages, not
+workers". Two cgroup profiles were used instead.
+- The whole browser at 25% of one core (worker 7-8.6x slower than desktop): 0 of 7 hands got values. Every evaluate
+  ended "unavailable" at the 10 s expansion budget.
+- Profile 2: the page's renderer threads each capped at 25%, the GPU process free. See the report for its rows.
+
+**What changed (the worker). Every change gives the same output bit for bit:**
+- **A yield is a message, not a timer.** In a dedicated worker, a `setTimeout(0)` issued from its own continuation is a
+  nested timer, clamped to 4.0 ms. A MessageChannel round trip costs 0.02 ms. The solver yields every 8 ms, so a third
+  of its wall time was sleep.
+- **Faster SHA-256.** Same rounds, typed arrays and locals: 2.7x faster and byte-identical against node:crypto. In the
+  async driver the support hash's per-state texts go to `crypto.subtle` as one batch (3x faster again in a Chrome
+  worker). The synchronous driver keeps the JS digest of the same text.
+- **Conversions once per probability.** Quotient floats and outward bounds are computed per probability, not per branch.
+  In interval mode the certificate's exact copies are made only where they are read, and the max weight is computed as
+  (max t)/drift.
+- **Expansion.** A successor's id is spelled only for a new behaviour class. The adapter memoises canonical lookups, the
+  arrival projection, constant rationals, fraction text and the chance-context key. Branches and states are rebuilt
+  without `next`/`snapshot` instead of `delete` (dictionary-mode objects were halving compile). Action ids escape the
+  state id once per state. Uncollapsed quotient branches are reused.
+- **Exposure pin.** The adapter/identity hashes in `mdp-exposure.src.js` move, with a label-neutral note.
+
+**What changed (the hand).** While the SAME hand re-solves, each card keeps its last Win chance (and an entry its last
+"Works"), dimmed, under "Updating win chances…" (`ngChoiceValueUpdating`, `choiceValueShown`). A stale number is never
+current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
+
+**Not done:**
+- Warming the worker before the first hand: the model data is ~330 KB gzip on the first-hand bill
+  (payload-first-hand.spec.ts, delta cap 6,000 B), and ~94% of boots never move.
+- A per-(state, profile) cache: 36 of 36 captured requests were distinct.
+- Incremental re-solve: a grade changes probabilities and the state set alike.
+- Skipping restarts on technique-deck landings: the identity is shared with game study.
+
+**The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
+captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
+fails as it should on a 0.001 value mutant and on an identity-only mutant.
+
+## v1.221.2 — THE CERTIFIED SOLVER GETS AN INDEPENDENT EXACT REFERENCE (DEVMV34, 2026-10-06)
+
+Closing the MDP engine tab (w3D): its branch `feat/mdp-game-model` held work dev never took, in custody commit
+88bee5214. Of its 17 files, 15 are on dev, identical or evolved further through PR #231. `tests/mdp_flat.test.mjs`
+was absent.
+
+**What it adds.** Its reference shares no solver code: its own BigInt fractions, complete policy enumeration and
+Cramer's-rule determinants. Every certified STATE record and ACTION record must enclose the exact vector. Mutation
+against dev's `mdp-certified.src.js`: dropping a successor's error term from an action record (the bound every card's
+certified Win chance prints from) is red here and green in `tests/mdp_model.test.mjs`. Four of its six tests pass on
+dev unchanged and are ported.
+
+**Left on the branch.** Two tests assert branch-only solver features:
+- conversion-count diagnostics: dev has its own per-probability memo since v1.218.6;
+- yields inside quotient construction: dev's first yield is at "drift-witness", well inside the 10 s cancellation grace.
+Porting either would change a hash-pinned law file.

@@ -221,17 +221,17 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ### Available Transitions
 
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (21% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (23% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (19% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (20% of attempts)
 
 - **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (0% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (33% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (35% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (20% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (22% of attempts)
 
-- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (7% of attempts)
+- **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (gi only)
 
 - **[[Transitions/Collar Drag from Worm Guard/Attacker|Collar Drag from Worm Guard]]** (0% of attempts)
 
@@ -377,7 +377,7 @@ At its core, Worm Guard is about creating a web of control using the gi that res
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: Study the Entry Obstacles</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Worm Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

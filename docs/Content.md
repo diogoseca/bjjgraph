@@ -217,7 +217,7 @@ configuration in the current corpus uses it.
 | State properties | `point_value`, `position_type`, `risk_level`, `energy_cost`, `time_sustainability` |
 | Configuration and entry | `state_invariants` with anatomical detail, plus `prerequisites` |
 | Instruction | `key_principles`, `decision_tree`, `common_errors`, `training_drills` |
-| Choices | `transitions[]` entries with `transition` and `attempt_probability` |
+| Choices | `transitions[]` entries with `transition` and `attempt_probability`, plus `deal_here` on a coherent away-from-origin listing (below) |
 | Related material and metrics | Role `related_content` and `position_metrics`; root related fields vary by template |
 | Variants | FAMILY adds `variations`; use the real variant names and slugs |
 
@@ -229,6 +229,28 @@ uniform count across all positions.
 
 A position's choice list can reference a transition or a submission attempt. Match the technique's
 canonical origin and performing role. Do not add a technically invalid move to satisfy a list size.
+
+**The game deals a listed technique only at its canonical origin.** A listing at another position
+of the same role is authored and shown, but never dealt there, unless it carries
+`"deal_here": true`. Set that only where the technique's outcome table lands coherently from the
+listing: a miss must not put the pair back at the technique's origin, a place they never were
+(`validate:graph` rejects a `deal_here` whose miss branch puts at least half its mass there, one on
+the origin itself, and one on the wrong seat). Where a generic move needs a different table from a
+listing, `deal_here` alone is not the fix: give the listing its **own outcome table**.
+
+**A listing may carry its own table** (`outcomes` and `success_rate`, in a Transition's own shapes),
+used only when the move is played from that listing. Rules:
+- It needs `deal_here: true`, and a table and a rate come together. The schema enforces both.
+- It is for transitions only.
+- Cells must be equal across frames. A `null` frame, in a cell or in the rate, is allowed only where
+  the listing's `attempt_probability` is null in that same frame. The listing does not exist there,
+  and the game does not deal it there (`absentAt` below). A null where the listing exists is refused.
+- The rate is the listing's own. It has no community-vote stream, because votes are keyed by
+  technique name. regenerate_graph rescales the table to it.
+- `validate:graph` checks every one on the built graph (`check_listing_tables`).
+
+The 107 tables the origin-coherence panel elicited live in `calibration/listing_tables.json` (an LLM
+persona panel, not expert data).
 
 ### Transitions and Submission Attempts
 

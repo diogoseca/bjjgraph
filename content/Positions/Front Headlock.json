@@ -307,15 +307,15 @@
       {
         "transition": "Anaconda Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 9
+          "gi": 2,
+          "nogi": 3
         }
       },
       {
         "transition": "Darce Setup",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 10
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
@@ -428,6 +428,27 @@
         "attempt_probability": {
           "gi": 1,
           "nogi": 2
+        }
+      },
+      {
+        "transition": "Anaconda Choke",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Front Headlock to Anaconda",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Front Headlock to Darce",
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 5
         }
       }
     ],
@@ -794,7 +815,54 @@
         "attempt_probability": {
           "gi": 12,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 35,
+          "nogi": 32
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "success"
+          },
+          {
+            "to": "Front Headlock/Bottom",
+            "probability": {
+              "gi": 35,
+              "nogi": 35
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Guillotine Control/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Stand and Circle Away",

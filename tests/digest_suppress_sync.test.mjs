@@ -27,7 +27,7 @@
 // Run: node --test tests/digest_suppress_sync.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import worker, { runDigest, MAX_SENDS_PER_RUN, SEND_FAILURES_STOP, MANIFEST_MIN_DECKS, MANIFEST_URL } from "../workers/digest/index.js";
+import worker, { runDigest, MAX_SENDS_PER_RUN, SEND_FAILURES_STOP, MANIFEST_MIN_DECKS, MANIFEST_URL, GRAPH_URL } from "../workers/digest/index.js";
 import { LOCK_AT } from "../workers/digest/suppress.js";
 import { onRequest } from "../functions/unsubscribe.js";
 import { byId } from "../workers/digest/fixtures.js";
@@ -75,6 +75,31 @@ const manifestOf = (n = MANIFEST_MIN_DECKS + 200) => {
 };
 const REAL = new Set(Object.keys(manifestOf().decks));
 
+/**
+ * THE SAME ALLOW-LIST AS A FORMAT-4 MANIFEST (v1.204.3) plus the graph-data nodes it decodes
+ * against. The live manifest keys each deck by its node's share ORDINAL; the Worker has to fetch
+ * graph-data.json to turn those back into names. Every name here becomes one node (a position,
+ * titled "… Top" exactly as the real hubs are, when its seats are Top/Bottom), every key a seat on
+ * it. `stray` appends one ordinal that no node carries.
+ */
+const v4Of = (m3, { stray = false } = {}) => {
+  const byName = new Map();
+  for (const k of Object.keys(m3.decks)) {
+    const cut = k.lastIndexOf("|"), name = k.slice(0, cut), seat = k.slice(cut + 1);
+    const pos = seat === "Top" || seat === "Bottom";
+    if (!byName.has(name)) byName.set(name, { o: byName.size, ty: pos ? "positions" : "transitions", t: pos ? name + " Top" : name, n: [0, 0] });
+    byName.get(name).n[seat === "Top" || seat === "Attacker" ? 0 : 1] = m3.decks[k][1];
+  }
+  const nodes = [...byName.values()];
+  const o = nodes.map(() => 0);                 // ordinals 0..N-1: every delta is zero
+  const n = nodes.flatMap((x) => x.n);
+  if (stray) { o.push(99999 - nodes.length); n.push(4, 4); }   // ordinal 99999, carried by nothing
+  return {
+    manifest: { _meta: { format: 4 }, deckOrd: { o, n }, shared: {} },
+    graph: { nodes: nodes.map(({ o: ord, ty, t }) => ({ o: ord, ty, t })) },
+  };
+};
+
 /** `key=eq.value` and `key=gt.value` filters out of a PostgREST query string, applied to rows
  *  (`gt` compares timestamps — the one place the code uses it is `sent_at=gt.<iso>`). */
 const filtersOf = (qs) => [...qs.matchAll(/(?:^|[?&])([A-Za-z_]+)=(eq|gt)\.([^&]*)/g)].map((m) => [m[1], m[2], decodeURIComponent(m[3])]);
@@ -96,7 +121,7 @@ const applyEq = (rows, qs) => filtersOf(qs).reduce((acc, [k, op, v]) =>
  *   · the public manifest, and the content-chunk miss;
  *   · `fail` — a set of table names whose GET answers 500, so a read can be made to fail.
  */
-function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(), fail = new Set(), odd = new Set(), maxRows = 1000, emailOf = null, userOf = null, sendImpl = null, writeFault = null } = {}) {
+function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(), graph = null, fail = new Set(), odd = new Set(), maxRows = 1000, emailOf = null, userOf = null, sendImpl = null, writeFault = null } = {}) {
   const calls = [];
   const posts = {};   // POSTs per table so far — `writeFault(table, n, body)` can fail the nth
   const state = { rows: JSON.parse(JSON.stringify(rows)), suppress: [...suppress], sent: [...sent] };
@@ -115,6 +140,7 @@ function harness({ rows = [], suppress = [], sent = [], manifest = manifestOf(),
     calls.push({ method, url: u, body: init.body ? JSON.parse(init.body) : null, headers: init.headers || {} });
 
     if (u === MANIFEST_URL) return manifest ? json(manifest) : new Response("", { status: 404 });
+    if (u === GRAPH_URL) return graph ? json(graph) : new Response("", { status: 404 });
     // the public content chunk the magazine section tries — a miss is a supported path
     if (u.startsWith("https://bjjgraph.org/")) return new Response("", { status: 404 });
 
@@ -623,6 +649,39 @@ test("a hostile blob mails only what the manifest knows, and no attacker string 
   // is not finite, so it is not a previous score — kills: coerce `s` to 0 instead of null
   assert.ok(!/% today\)/.test(m.text), "a delta was computed against a non-finite previous score: " + m.text);
   assert.ok(out.capped >= 8, "the run must count the caps it applied (" + out.capped + ")");
+  // the hostile belt line (v1.211.0) is refused whole: no belt is named at all
+  assert.ok(!/Next belt|Belt:/.test(m.text), "a hostile belt line was mailed: " + m.text);
+});
+
+// ── the belt line (v1.211.0): the belt the player WEARS, never a band of the score ──────────
+
+test("the mail names the next belt from the line the app wrote — and prints none without one, whatever the score", async () => {
+  const mail = async (dayEntry) => {
+    const b = blobFor(Date.now() - 864e5);
+    Object.assign(b.dayLog[YESTERDAY], dayEntry);
+    const h = harness({ rows: [{ user_id: USER, neural: b }] });
+    await withFetch(h.fetchImpl, () => runDigest(h.env));
+    assert.equal(h.mails.length, 1);
+    return h.mails[0];
+  };
+  // a black Game Knowledge score on a BLUE belt: the mail names purple, the blue belt's next one.
+  // kills: compose the line from the score (the retired beltEta), or drop the line altogether
+  let m = await mail({ s: 84, b: ["blue", 4, 6] });
+  assert.ok(m.text.includes("Next belt: PURPLE \u2014 4 of 6 blue units proven"), m.text);
+  assert.ok(m.html.includes("Next belt: <b>PURPLE</b>"), "the html names it too");
+  // at black there is no next belt: the line names black. kills: name the worn belt as its own
+  // next one (off by one). EQUIVALENT, not a non-kill: dropping the `|| null` after the order's
+  // last index leaves `undefined`, which takes the same black branch.
+  m = await mail({ s: 12, b: ["black", 2, 6] });
+  assert.ok(m.text.includes("Belt: BLACK \u2014 2 of 6 units proven") && !m.text.includes("Next belt"), m.text);
+  // an older app wrote no line: no belt is named — not one guessed from the score
+  m = await mail({ s: 84 });
+  assert.ok(!/Next belt|Belt:|At this pace|Next stop/.test(m.text + m.html), "a belt was named without a line: " + m.text);
+  // malformed lines are refused whole, never repaired — kills: drop `ngBeltLine`'s validation
+  for (const bad of [["plaid", 1, 6], ["blue", 7, 6], ["blue", 1.5, 6], ["blue", -1, 6], ["blue", 0, 0], "blue", ["blue", "4", 6]]) {
+    m = await mail({ s: 50, b: bad });
+    assert.ok(!/Next belt|Belt:/.test(m.text), "a malformed line was mailed: " + JSON.stringify(bad));
+  }
 });
 
 test("a blob whose score is not a number is skipped by name, not mailed with a placeholder", async () => {
@@ -706,6 +765,40 @@ test("a failed dedupe read is the same — no mail, a named failure", async () =
   // kills: restore `.catch(() => [])` on the sent read
   assert.equal(h.mails.length, 0);
   assert.match(out.failures[0], /digest_sent/);
+});
+
+// ── format 4: the ordinal-keyed manifest (v1.204.3) ─────────────────────────────────────
+
+test("format 4: the ordinal manifest decoded against graph-data is the SAME allow-list, and the mail names the same decks", async () => {
+  const { manifest, graph } = v4Of(manifestOf());
+  const h = harness({ rows: [{ user_id: USER, neural: hostileBlob() }], manifest, graph });
+  const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+  // kills: decode without the graph (every ordinal unresolved -> under the floor -> no run)
+  assert.ok(h.calls.some((c) => c.url === GRAPH_URL), "the graph was fetched to decode the manifest");
+  assert.equal(out.manifest_decks, REAL.size, "every deck of the name-keyed double, and no more");
+  assert.equal(out.manifest_unresolved, 0);
+  assert.equal(h.mails.length, 1);
+  const named = decksNamed(h.mails[0]).map(prettyToKey);
+  assert.deepEqual(named.slice(0, 2), ["Mount|Top", "Kimura|Attacker"], "the same real techniques, in the blob's order");
+  for (const k of named) assert.ok(REAL.has(k), "named a deck the manifest does not list: " + JSON.stringify(k));
+});
+
+test("format 4: an ordinal the graph does not carry is COUNTED in the summary and allow-lists nothing", async () => {
+  const { manifest, graph } = v4Of(manifestOf(), { stray: true });
+  const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], manifest, graph });
+  const out = await withFetch(h.fetchImpl, () => runDigest(h.env));
+  // kills: drop the count (it would read 0 — "never looked" and "found nothing" alike, §6.6)
+  assert.equal(out.manifest_unresolved, 1);
+  assert.equal(out.manifest_decks, REAL.size, "the stray ordinal minted no deck — nothing guessed in its place");
+  assert.equal(h.mails.length, 1, "a skew between two cached files does not cost anyone their digest");
+});
+
+test("format 4 with no graph: the run refuses before any row is read", async () => {
+  const { manifest } = v4Of(manifestOf());
+  const h = harness({ rows: [{ user_id: USER, neural: blobFor(Date.now() - 864e5) }], manifest, graph: null });
+  await assert.rejects(withFetch(h.fetchImpl, () => runDigest(h.env)), /manifest/);
+  assert.ok(!h.calls.some((c) => c.url.includes("/rest/v1/")), "no row was read");
+  assert.equal(h.mails.length, 0);
 });
 
 test("no manifest, no run: a 404 and an implausibly small manifest both throw before any row is read", async () => {
@@ -928,7 +1021,7 @@ test("every run returns and logs one summary with every counter present, zero or
   console.log = (...a) => lines.push(a.join(" "));
   let out;
   try { out = await withFetch(h.fetchImpl, () => runDigest(h.env)); } finally { console.log = realLog; }
-  for (const k of ["mode", "rows", "manifest_decks", "suppress_rows_seen", "sent_rows_seen", "sent", "capped", "deferred", "skipped", "failures"])
+  for (const k of ["mode", "rows", "manifest_decks", "manifest_unresolved", "suppress_rows_seen", "sent_rows_seen", "sent", "capped", "deferred", "skipped", "failures"])
     assert.ok(k in out, "summary lost " + k);
   assert.equal(out.rows, 2);
   assert.ok(out.manifest_decks >= MANIFEST_MIN_DECKS);
@@ -937,7 +1030,7 @@ test("every run returns and logs one summary with every counter present, zero or
   assert.deepEqual(out.skipped, { suppressed: 1 });
   const line = lines.find((l) => /^\[digest\] run /.test(l));
   assert.ok(line, "no summary line logged: " + JSON.stringify(lines));
-  for (const k of ["mode=cron", "rows=2", "manifest_decks=", "suppress_rows_seen=1", "sent_rows_seen=0", "sent=1", "capped=0", "deferred=0", 'skipped={"suppressed":1}', "failures=0"])
+  for (const k of ["mode=cron", "rows=2", "manifest_decks=", "manifest_unresolved=0", "suppress_rows_seen=1", "sent_rows_seen=0", "sent=1", "capped=0", "deferred=0", 'skipped={"suppressed":1}', "failures=0"])
     assert.ok(line.includes(k), "summary line lost " + k + ": " + line);
   assert.ok(lines.some((l) => /^\[digest\] manifest decks: \d+/.test(l)), "the manifest coverage line");
 });

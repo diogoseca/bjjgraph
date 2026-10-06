@@ -2,6 +2,9 @@ import { expect, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
+declare global { interface Window { __ngGuestProgressRaw: () => string | null; __ngSeedError?: string } }
+
+
 // Big data payloads served from a per-worker buffer: on a saturated CI box, `npx serve`
 // streaming 13.5MB per fresh browser context can stall a boot past any reasonable budget.
 // Fulfilling from memory makes every boot deterministic (locally it's a no-op speedup).
@@ -118,7 +121,14 @@ type PageState = {
   }>;
   disposed: boolean;
   noCurriculum: boolean;
+  /** page-initiated, cross-document navigations seen by the tripwire (see `watchNavigations`) */
+  navs: NavEvent[];
+  /** navigations a journey declared it causes on purpose (`allowNavigation`) */
+  navAllow: Array<{ re: RegExp; why: string }>;
 };
+
+/** One navigation the PAGE started (never the harness's own goto/reload), as the page saw it. */
+type NavEvent = { url: string; type: string; userInitiated: boolean; source: string | null; stack: string; allowed: string | null };
 
 export class Journey {
   constructor(private page: Page) {}
@@ -135,6 +145,8 @@ export class Journey {
         gates: new Set(),
         disposed: false,
         noCurriculum: false,
+        navs: [],
+        navAllow: [],
       } as PageState));
   }
 
@@ -147,7 +159,9 @@ export class Journey {
     opts: {
       seedRolls?: Record<string, number[]>;
       preserveStorage?: boolean;
-      /** synthetic bjj-neural-progress blob, applied post-wipe pre-app-read (hash-carried) */
+      /** Test-only route setup after default handlers, immediately before this navigation. */
+      beforeNavigate?: (page: Page) => Promise<void>;
+      /** Valid synthetic guest-owned progress blob, applied post-wipe pre-app-read (hash-carried). Corrupt raw bytes require an explicit seed. */
       initialState?: Record<string, unknown>;
       /** force the curriculum fetch to 404 (fallback-path journeys) */
       noCurriculum?: boolean;
@@ -206,17 +220,28 @@ export class Journey {
       // wipe above and BEFORE any page script, and a later boot can never replay a stale seed
       // (addInitScript args are frozen at registration — a mutable-holder design would leak).
       await this.page.addInitScript(() => {
+        // Fixture reader only: no production fallback, migration or import shortcut.
+        window.__ngGuestProgressRaw = () => {
+          const raw = localStorage.getItem("bjj-neural-owner:guest:progress");
+          if (raw === null) return null;
+          const envelope = JSON.parse(raw);
+          if (envelope?.format !== "bjj-progress-owner-v1" || envelope?.owner?.kind !== "guest" || "id" in envelope.owner || ![1, 2].includes(envelope?.blob?.v))
+            throw new Error("Invalid owned guest fixture");
+          return JSON.stringify(envelope.blob);
+        };
         try {
           const m = location.hash.match(/ngseed=([^&]+)/);
           if (m) {
             // NOTE: the hash is left in place — history.replaceState here can wake the
             // Quartz SPA router mid-boot and remount a fresh (pre-ingest) app instance
             localStorage.setItem(
-              "bjj-neural-progress",
-              decodeURIComponent(m[1]),
+              "bjj-neural-owner:guest:progress",
+              JSON.stringify({ format: "bjj-progress-owner-v1", owner: { kind: "guest" }, blob: JSON.parse(decodeURIComponent(m[1])), savedAt: 0 }),
             );
           }
-        } catch {}
+        } catch (error) {
+          window.__ngSeedError = String(error);
+        }
       });
     }
     if (opts.preserveStorage) {
@@ -373,11 +398,15 @@ export class Journey {
     await this.page.addInitScript((v) => {
       (window as any).__NEURAL_NO_PAIRS__ = v;
     }, !!opts.noPairs);
+    if (opts.beforeNavigate) await opts.beforeNavigate(this.page);
+    await this.watchNavigations();
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
       await this.page.goto(path, { waitUntil: "commit" }); // one retry: teardown races are transient
     }
+    const seedError = await this.page.evaluate(() => window.__ngSeedError || null);
+    expect(seedError, "ngseed fixture must contain valid JSON; seed raw owned corruption explicitly").toBeNull();
     if (opts.unready) {
       // the app instance and its constructor-time rails exist; the graph does not. Nothing below
       // (readiness wait, objective completion, seedRolls) can run without an ingest, so return.
@@ -890,14 +919,21 @@ export class Journey {
     });
   }
 
-  /** Pick an option like a user: click its tray card (expand sheet opens), then confirm Go. */
+  /** Commit an own option through its tray card. Inspection is a separate action. */
   async pick(technique: string) {
     const card = this.page.locator(`[data-tech="${technique}"]`).first();
     await expect(card, `option card for "${technique}" visible`).toBeVisible();
     await card.click();
+    return this;
+  }
+
+  /** Open the existing detail sheet without committing the move. */
+  async inspect(technique: string) {
+    const card = this.page.locator(`[data-tech="${technique}"]`).first();
+    await expect(card, `option card for "${technique}" visible`).toBeVisible();
+    await card.locator("[data-choice-inspect]").click();
     const go = this.page.locator("[data-go]").first();
     await expect(go, "expand-sheet Execute button visible").toBeVisible();
-    await go.click();
     return this;
   }
 
@@ -1001,6 +1037,67 @@ export class Journey {
     await this.page.screenshot({ path: `e2e/gallery/${name}.png` });
     return this;
   }
+
+  /**
+   * NAVIGATION TRIPWIRE (FGNAV1, 2026-10-01). A deploy's curated gate once failed with "Execution
+   * context was destroyed, most likely because of a navigation" in game-knowledge.spec.ts, and its
+   * screenshot showed the page had RE-BOOTED under the test (a fresh roll over the persisted pane).
+   * 56 keyed local runs never reproduced it, so the harness now names any such navigation itself.
+   *
+   * WHAT COUNTS: a cross-document navigation the PAGE starts: `location.assign/replace/reload`, an
+   * anchor click the Quartz SPA router falls back to, a form, a refresh. The harness's own
+   * `goto`/`reload` are browser-initiated and never fire it; `pushState`/`replaceState` are
+   * same-document and are filtered out. HOW: the Navigation API's `navigate` event fires
+   * SYNCHRONOUSLY inside the call that started the navigation, so `new Error().stack` there IS the
+   * initiator's stack. An exposed binding hands it to the test process at once.
+   *
+   * WHAT IT DOES: logs it to the CI output (so the evidence survives even when the test dies first
+   * on a destroyed context), records it on the page state, and raises a SOFT assertion, so an
+   * undeclared navigation fails the journey at the end with its URL, type and stack. A journey that
+   * navigates on purpose declares it with `allowNavigation`. Absence of the API (another browser)
+   * skips the tripwire loudly once, never silently.
+   */
+  private async watchNavigations() {
+    const page = this.page as any;
+    if (page.__ngNavWatch) return;
+    page.__ngNavWatch = true;
+    const st = this.st;
+    await this.page.exposeBinding("__ngNavReport", (_src: any, data: any) => {
+      const nav: NavEvent = { url: String(data && data.url), type: String(data && data.type), userInitiated: !!(data && data.userInitiated),
+        source: data && data.source ? String(data.source) : null, stack: String((data && data.stack) || ""), allowed: null };
+      const hit = st.navAllow.find((a) => a.re.test(nav.url));
+      nav.allowed = hit ? hit.why : null;
+      st.navs.push(nav);
+      if (hit) return;
+      const text = `[dsl] UNDECLARED page-initiated navigation (${nav.type}${nav.userInitiated ? ", user-initiated" : ""}) to ${nav.url}` +
+        (nav.source ? `\n  source: ${nav.source}` : "") + `\n  stack:\n${nav.stack}`;
+      console.error(text);
+      try { expect.soft(nav.url, text + "\n(declare it with j.allowNavigation(pattern, why) if the journey means it)").toBe("no page-initiated navigation"); }
+      catch { /* outside a running test (teardown): the console line above is the record */ }
+    });
+    await this.page.addInitScript(() => {
+      const nav = (window as any).navigation;
+      if (!nav || typeof nav.addEventListener !== "function") { console.warn("[dsl] navigation tripwire unavailable: no Navigation API"); return; }
+      nav.addEventListener("navigate", (e: any) => {
+        if (!e || !e.destination || e.destination.sameDocument) return;
+        const el = e.sourceElement;
+        const source = el ? (el.tagName || "") + (el.getAttribute && el.getAttribute("href") ? " href=" + el.getAttribute("href") : "") : null;
+        try { (window as any).__ngNavReport({ url: e.destination.url, type: e.navigationType, userInitiated: !!e.userInitiated, source, stack: new Error("navigate").stack }); }
+        catch { /* the binding is per page; a missing one must not break the app */ }
+      });
+    });
+  }
+
+  /** Declare that this journey makes the page navigate on purpose (URL matched by `pattern`), with
+   *  the reason. Undeclared page-initiated navigations fail the journey (see `watchNavigations`). */
+  allowNavigation(pattern: RegExp | string, why: string) {
+    this.st.navAllow.push({ re: typeof pattern === "string" ? new RegExp(pattern.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")) : pattern, why });
+    return this;
+  }
+
+  /** The page-initiated navigations seen so far on this page (declared ones included). */
+  navigations(): NavEvent[] { return this.st.navs.slice(); }
 }
 
 export const journey = (page: Page) => new Journey(page);
+

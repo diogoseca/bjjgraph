@@ -2,7 +2,7 @@ name: Claude Code Review
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, synchronize, labeled]
     # Optional: Only run on specific file changes
     # paths:
     #   - "src/**/*.ts"
@@ -19,12 +19,17 @@ concurrency:
 
 jobs:
   claude-review:
+    # Metered reviews require an explicit claude-review label. Drafts and ordinary
+    # engineering pushes run the deterministic validation workflows without paid review.
     # SECURITY: only run on same-repo PRs. Fork PRs don't receive secrets anyway
     # (so the action would no-op), but gating here makes that explicit and prevents
     # spending the Claude quota on untrusted fork PRs. Also skip Dependabot/bot PRs.
     if: |
       github.event.pull_request.head.repo.full_name == github.repository &&
-      github.event.pull_request.user.login != 'dependabot[bot]'
+      github.event.pull_request.user.login != 'dependabot[bot]' &&
+      github.event.pull_request.draft == false &&
+      (github.event.action != 'labeled' || github.event.label.name == 'claude-review') &&
+      contains(github.event.pull_request.labels.*.name, 'claude-review')
 
     runs-on: ubuntu-latest
     permissions:

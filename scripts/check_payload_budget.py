@@ -9,7 +9,7 @@ the single largest lever on a real-user LCP P75 of ~13.7s.
 Deleting weight once is easy; keeping it deleted is the hard part. This gate is a
 RATCHET on emitted bytes: it measures the built site against ceilings committed in
 tests/artifacts/budget_site.json and fails when the payload grows past them. It is
-deliberately stdlib-only and takes no arguments beyond --update.
+deliberately stdlib-only; see Usage and --help for explicit baseline controls.
 
 WHERE IT RUNS (wired in v1.80.2 — it shipped in v1.80.0 with no caller at all, and an
 unwired ratchet is not a ratchet):
@@ -39,6 +39,8 @@ What it measures:
 Usage:
   python3 scripts/check_payload_budget.py --update   # (re)seed ceilings from a build
   python3 scripts/check_payload_budget.py            # gate: exit 1 if over budget
+  python3 scripts/check_payload_budget.py --public COPY --jobs 1  # inspect a copied emit
+  python3 scripts/check_payload_budget.py --set-floors --floor tag_routes --reason "..."
 
 A ceiling is a MAX, so shrinking always passes. Re-seeding with --update RAISES the
 ceilings to whatever the current build emits, so it must be a deliberate, separately
@@ -70,6 +72,8 @@ wrong for them and answering it wrongly is how a gate gets worked around:
 """
 import argparse
 import gzip
+import hashlib
+import re
 import json
 import os
 import subprocess
@@ -109,13 +113,16 @@ from emit_fingerprint import coverage as _emit_coverage, scan_tree as _emit_scan
 # the current build is a check that can never fail (CLAUDE.md 8: "a self-advancing baseline
 # is a delta check that never runs"). Move one with --set-floors --reason "...".
 # ---------------------------------------------------------------------------
-FLOOR_KEYS = ("html_file_count", "jsonld_blocks", "article_links", "static_files")
+FLOOR_KEYS = ("html_file_count", "jsonld_blocks", "article_links", "static_files", "tag_routes")
 DEFAULT_FLOORS = {
     "html_file_count": 5800,    # 6,149 emitted at v1.192.3
     "jsonld_blocks": 31000,     # 33,438
     "article_links": 200000,    # 212,983
     "static_files": 4600,       # 4,957
 }
+# tag_routes intentionally has NO default: a current emitted tree must supply its floor
+# through --set-floors --reason. Historical prose is not a measurement. The always-emitted
+# tags/index.html is excluded, because its presence does not prove any named tag survived.
 # If a build exceeds ROT_FACTOR x the floor, the floor has stopped meaning anything.
 # Say so: a floor nobody revisits is how "we have a check" becomes untrue quietly.
 ROT_FACTOR = 2.0
@@ -124,7 +131,7 @@ GATE = "scripts/check_payload_budget.py"  # how this gate names itself in the po
 # The Neural app's data root, and the subdirectories inside it that hold ON-DEMAND chunks
 # (fetched per deck / per node, never at boot). Everything else under NEURAL_DIR is eager.
 NEURAL_DIR = "static/neural"
-CHUNK_DIRS = ("flashcards", "content", "submission-details")
+CHUNK_DIRS = ("flashcards", "content", "submission-details", "mdp")
 
 # Top-level payloads the app deliberately does NOT fetch at boot. Kept as an explicit, tiny list
 # because the alternative — silently scoring them as eager — makes this gate measure something
@@ -135,8 +142,9 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 # browser, counting whatever the page actually requests. A file wrongly declared deferred here
 # still shows up there. The two gates cross-check each other, and the deferred set has its own
 # ceiling below so it cannot grow unbounded either.
-#   · systems.json — the authored course library (v1.80.4): read only by the Explore tab and the
-#     system buckets, fetched at idle or on first read, never on the roll path.
+#   · systems-index.json — the Systems library list (v1.207.0): fetched on reference intent. Each
+#     system's full record is a per-system chunk under content/system-records/. The old full
+#     library, systems.json, is RETIRED from the served tree (see RETIRED below).
 #   · concepts.json — the Principles + Learning index (v1.152.0): read only when the Explore tab
 #     renders one of those two sections. Its readable BODIES are not here at all — they live in
 #     the per-node content/ chunk space, so they are already scored as on-demand chunks.
@@ -152,12 +160,41 @@ CHUNK_DIRS = ("flashcards", "content", "submission-details")
 # artifact then ADDS a line instead of rewriting the one line everybody else also rewrote.
 # Two branches invented a deferred stylesheet a week apart and collided here on nothing.
 DEFERRED = (
-    "systems.json",
+    # The library list is fetched on reference intent; records are genuine per-system content
+    # chunks. The legacy full response is retired (RETIRED below), not deferred.
+    "systems-index.json",
     "concepts.json",
     "aliases.json",
     "app/reading.css",
     "app/reference.css",
+    # Model code is real deferred JS, still charged to the aggregate raw cap.
+    # Mechanics data lives in bounded mdp/ shards; the entire path is boot-banned.
+    "app/game-values.js",
+    "app/game-model.worker.js",
+    "app/choice-values.js",
+    "app/gameplan.js",
+    "app/game-study.js",
+    "app/game-study.worker.js",
+    "app/settings-ui.js",
 )
+
+# Ordinary worker JavaScript, shared between two independently created workers.
+# Count EVERY retained content-hashed generation, not only the current build's file.
+# This is a deferred asset category, never a data chunk or a byte-budget exemption.
+DEFERRED_WORKER_CORE = re.compile(r"app/game-worker-core-([0-9a-f]{64})\.js")
+
+
+# RETIRED FROM THE SERVED TREE. A file here must never be emitted under static/neural again: served,
+# it would be scored as EAGER boot weight (it is not deferred), so a regression would read as an
+# unexplained eager jump. It is refused BY NAME instead. systems.json (v1.207.0, owner ruling
+# 2026-09-29): the full Systems library is build-internal, scripts/_systems_demand.py SYSTEMS_SOURCE.
+RETIRED = ("systems.json",)
+
+
+def is_deferred_neural_asset(relative: str) -> bool:
+    return relative in DEFERRED or DEFERRED_WORKER_CORE.fullmatch(relative) is not None
+
+
 
 # Hand-set TARGETS, not seeded observations (see the module docstring). "Eager" is the raw
 # and gzip weight of the boot set; a chunk ceiling keeps the on-demand path honest (a 5MB
@@ -230,6 +267,9 @@ def measure_neural() -> dict:
         if not f.is_file():
             continue
         rel = f.relative_to(root)
+        if rel.as_posix() in RETIRED:
+            raise ValueError("retired neural file is served again: " + rel.as_posix()
+                             + " (build-internal since v1.207.0; see RETIRED in " + GATE + ")")
         size = f.stat().st_size
         if rel.parts and rel.parts[0] in CHUNK_DIRS and not rel.name.startswith("_"):
             # an on-demand chunk. `_index.json` (the manifest) is EAGER even though it lives
@@ -240,7 +280,10 @@ def measure_neural() -> dict:
                 out["chunk_max_bytes"] = size
                 out["chunk_max_file"] = str(rel)
             continue
-        if str(rel) in DEFERRED:
+        if is_deferred_neural_asset(rel.as_posix()):
+            core = DEFERRED_WORKER_CORE.fullmatch(rel.as_posix())
+            if core and hashlib.sha256(f.read_bytes()).hexdigest() != core.group(1):
+                raise ValueError("worker core filename/content hash mismatch: " + rel.as_posix())
             out["deferred_raw_bytes"] += size
             out["deferred_files"].append({"path": str(rel), "raw": size})
             continue
@@ -253,7 +296,7 @@ def measure_neural() -> dict:
     return out
 
 
-def measure() -> dict:
+def measure(jobs: int = min(6, (os.cpu_count() or 4))) -> dict:
     out: dict = {"bundles": {}, "pages": {}}
     missing: list[str] = []
 
@@ -274,17 +317,25 @@ def measure() -> dict:
     total = 0
     count = 0
     for f in PUBLIC.rglob("*.html"):
+        if not f.is_file():
+            continue
         total += f.stat().st_size
         count += 1
     out["html_total_bytes"] = total
     out["html_file_count"] = count
 
-    cov = _emit_coverage(_emit_scan(PUBLIC, jobs=min(6, (os.cpu_count() or 4))))
+    files = _emit_scan(PUBLIC, jobs=jobs)
+    cov = _emit_coverage(files)
     out["census"] = {
         "html_file_count": cov["html_pages"],
         "jsonld_blocks": cov["jsonld_blocks"],
         "article_links": cov["article_links"],
         "static_files": cov["static_files"],
+        # Count routes from the SAME emitted-file walk as the existing floors. A tag
+        # index alone survives complete loss of authored tags, so it cannot count.
+        "tag_routes": sum(1 for rel, rec in files.items()
+                          if rec.get("cls") == "html" and rel.startswith("tags/")
+                          and rel != "tags/index.html"),
         "pages_with_canonical": cov["pages_with_canonical"],
         "html_parse_errors": cov["html_parse_errors"],
     }
@@ -424,22 +475,28 @@ def _accept_baseline(metric: str, reason: str, cur: dict) -> None:
 
 
 def _floors() -> dict:
-    """The committed floors, falling back to the defaults if the baseline predates them.
+    """Read each committed floor independently; missing tag calibration is a failure.
 
-    A MISSING floors block is not silently treated as "no floors to check" -- that is the
-    absence-reads-as-a-pass failure this whole change exists to remove. It falls back to
-    DEFAULT_FLOORS and says so.
+    The four historical defaults remain available for old baselines. Adding a new key
+    must not discard their committed values, nor fabricate a tag floor from prose.
     """
+    committed = {}
     if BUDGET.exists():
         try:
-            f = (json.loads(BUDGET.read_text()) or {}).get("floors")
-            if isinstance(f, dict) and all(k in f for k in FLOOR_KEYS):
-                return {k: int(f[k]) for k in FLOOR_KEYS}
+            raw = (json.loads(BUDGET.read_text()) or {}).get("floors")
+            if isinstance(raw, dict):
+                committed = raw
         except json.JSONDecodeError:
             pass
-    print("  · no committed floors in budget_site.json — using the built-in defaults; "
-          "seed them with --set-floors --reason \"...\"", file=sys.stderr)
-    return dict(DEFAULT_FLOORS)
+    floors = {}
+    for key, default in DEFAULT_FLOORS.items():
+        if key not in committed:
+            print(f"  · no committed {key} floor — using historical default {default}; "
+                  "seed with --set-floors --reason \"...\"", file=sys.stderr)
+        floors[key] = int(committed.get(key, default))
+    tag_floor = committed.get("tag_routes")
+    floors["tag_routes"] = tag_floor if type(tag_floor) is int and tag_floor > 0 else None
+    return floors
 
 
 def check_floors(cur: dict) -> int:
@@ -449,7 +506,10 @@ def check_floors(cur: dict) -> int:
     breaches, rotted = [], []
     for k in FLOOR_KEYS:
         got, floor = census.get(k, 0), floors[k]
-        if got < floor:
+        if floor is None:
+            breaches.append(f"{k}: UNSET — measure a current emit with "
+                            "--set-floors --floor tag_routes --reason \"...\"")
+        elif got < floor:
             breaches.append(f"{k}: {got:,} is BELOW the floor {floor:,} ({got - floor:+,})")
         elif floor and got > floor * ROT_FACTOR:
             rotted.append(f"{k}: {got:,} is more than {ROT_FACTOR:g}x the floor {floor:,}")
@@ -459,11 +519,17 @@ def check_floors(cur: dict) -> int:
                         f"not parse; their contents were not counted, so every count "
                         f"above is an undercount of unknown size")
 
+    print(f"  · tier-0 coverage: {len(FLOOR_KEYS)} floor checks over "
+          f"{census.get('html_file_count', 0)} HTML files; "
+          f"named tag routes={census.get('tag_routes', 0)}")
     print("  · tier-0 floors (counts, not ceilings — smaller FAILS):")
     for k in FLOOR_KEYS:
         got, floor = census.get(k, 0), floors[k]
-        mark = "FAIL" if got < floor else "ok"
-        print(f"      {k:22s} {got:>10,}  floor {floor:>10,}  {mark}")
+        if floor is None:
+            print(f"      {k:22s} {got:>10,}  floor {'UNSET':>10s}  FAIL")
+        else:
+            mark = "FAIL" if got < floor else "ok"
+            print(f"      {k:22s} {got:>10,}  floor {floor:>10,}  {mark}")
 
     for r in rotted:
         print(f"    ⚠ floor has rotted — {r}. It no longer represents this site; "
@@ -475,54 +541,89 @@ def check_floors(cur: dict) -> int:
         for b in breaches:
             print(f"    - {b}", file=sys.stderr)
         print("\n  Every other number in this gate is a MAX, so a shrinking site passes "
-              "all of them.\n  check_seo_parity.py samples 10 routes and would also pass. "
-              "This check is the\n  only one that sees a whole-site shortfall.",
+              "all of them.\n  A sampled SEO route check cannot measure an archetype count. "
+              "These floors\n  detect a whole-site or named-tag shortfall.",
               file=sys.stderr)
     return len(breaches)
 
 
-def _set_floors(cur: dict, reason: str) -> None:
+def _set_floors(cur: dict, reason: str, selected: list[str] | None = None) -> None:
     if not reason:
         print("ERROR: --set-floors requires --reason; a floor is a judgement and the "
               "judgement has to be recorded next to the number.", file=sys.stderr)
         sys.exit(1)
     budget = json.loads(BUDGET.read_text()) if BUDGET.exists() else {}
     census = cur["census"]
-    # Deliberately NOT the observed value: a floor seeded at today's figure fails the very
-    # next legitimate content deletion, so it gets raised-by-lowering until it means
-    # nothing. Seed ~8% below and let the operator hand-edit if they want tighter.
-    new = {k: int(census[k] * 0.92) for k in FLOOR_KEYS}
+    keys = list(dict.fromkeys(selected or FLOOR_KEYS))
+    if "tag_routes" in keys and census.get("tag_routes", 0) <= 0:
+        print("ERROR: refusing to seed tag_routes from 0 named tag routes; "
+              "tags/index.html does not establish tag emission.", file=sys.stderr)
+        sys.exit(1)
+    # Deliberately below the observation, with a positive minimum for named tags:
+    # int(1 * .92) == 0 would otherwise let complete extinction pass.
     prev = budget.get("floors")
+    new = dict(prev) if isinstance(prev, dict) else {}
+    for key in keys:
+        new[key] = int(census[key] * 0.92)
+        if key == "tag_routes":
+            new[key] = max(1, new[key])
     budget["floors"] = new
-    budget.setdefault("_meta", {})["floors_note"] = (
-        "TIER-0 non-triviality floors. Counts, not ceilings: a build BELOW one of these "
-        "fails. Seeded ~8% under the observed figures so ordinary content churn does not "
-        "trip them; they exist to catch a build that emitted a fraction of the site, "
-        "which every ceiling in this file passes by definition. `--update` must never "
-        "touch them. Last set: " + reason)
+    meta = budget.setdefault("_meta", {})
+    if any(key != "tag_routes" for key in keys) or "floors_note" not in meta:
+        meta["floors_note"] = (
+            "TIER-0 non-triviality floors. Counts, not ceilings: a build BELOW one of these "
+            "fails. Seeded ~8% under the observed figures so ordinary content churn does not "
+            "trip them; they exist to catch a build that emitted a fraction of the site, "
+            "which every ceiling in this file passes by definition. `--update` must never "
+            "touch them. Last set: " + reason)
+    if "tag_routes" in keys:
+        meta["tag_routes_floor_note"] = (
+            "X-09 omitted tags: frontmatter and named tag pages disappeared; the SEO sample "
+            "reported one missing route without measuring that archetype's extinction. "
+            "This COUNT FLOOR counts emitted HTML under tags/, excluding the always-emitted "
+            "tags/index.html. Observed " + str(census["tag_routes"]) + " named tag routes "
+            "in " + str(PUBLIC) + "; floor max(1, int(observed * 0.92)). "
+            "--update preserves it. Last set: " + reason)
     BUDGET.write_text(json.dumps(budget, indent=1, sort_keys=True) + "\n")
     print(f"floors set in {BUDGET.relative_to(ROOT)}  (reason: {reason})")
-    for k in FLOOR_KEYS:
-        was = f"{prev[k]:,}" if isinstance(prev, dict) and k in prev else "unset"
-        print(f"  {k:22s} observed {census[k]:>10,}  floor {was} -> {new[k]:,}")
+    for key in keys:
+        was = f"{prev[key]:,}" if isinstance(prev, dict) and type(prev.get(key)) is int else "unset"
+        print(f"  {key:22s} observed {census[key]:>10,}  floor {was} -> {new[key]:,}")
+
+
+def _positive_jobs(value: str) -> int:
+    try:
+        jobs = int(value)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError("--jobs must be a positive integer") from exc
+    if jobs < 1:
+        raise argparse.ArgumentTypeError("--jobs must be a positive integer")
+    return jobs
 
 
 def main() -> None:
+    global PUBLIC
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--update", action="store_true", help="(re)seed the RATCHET ceilings from this build (never the policy)")
     ap.add_argument("--accept-baseline", metavar="METRIC", help="advance one policy metric's delta baseline to the current figure")
     ap.add_argument("--reason", default="", help="why the baseline moved; required with --accept-baseline or --set-floors, recorded next to the number")
     ap.add_argument("--set-floors", action="store_true", help="(re)set the TIER-0 non-triviality floors; requires --reason")
+    ap.add_argument("--floor", choices=FLOOR_KEYS, action="append", help="with --set-floors, change only this named floor (repeatable)")
+    ap.add_argument("--public", type=Path, default=PUBLIC, help="emitted tree to measure (may be a safe copy)")
+    ap.add_argument("--jobs", type=_positive_jobs, default=min(6, (os.cpu_count() or 4)), help="positive number of census workers")
     args = ap.parse_args()
+    if args.floor and not args.set_floors:
+        ap.error("--floor requires --set-floors")
+    PUBLIC = args.public.resolve()
 
-    if not PUBLIC.exists():
+    if not PUBLIC.is_dir():
         print(f"ERROR: {PUBLIC} not found — run `npm run build` first", file=sys.stderr)
         sys.exit(1)
 
-    cur = measure()
+    cur = measure(args.jobs)
 
     if args.set_floors:
-        _set_floors(cur, args.reason)
+        _set_floors(cur, args.reason, args.floor)
         return
 
     # TIER 0 FIRST. A gate whose non-triviality check runs after its ceilings can report
@@ -557,22 +658,22 @@ def main() -> None:
         # eager_gzip_bytes is absent from this file. The POLICY_OWNED guard would still have
         # fired, but the reader would have met a bare failure with no explanation anywhere,
         # which is how a correct gate gets "fixed" by putting the ceiling back.
-        prev_meta = {}
+        previous = {}
         if BUDGET.exists():
             try:
-                prev_meta = dict((json.loads(BUDGET.read_text()) or {}).get("_meta") or {})
+                previous = json.loads(BUDGET.read_text()) or {}
             except json.JSONDecodeError:
-                prev_meta = {}
+                previous = {}
+        prev_meta = dict(previous.get("_meta") or {})
         prev_meta.update(
             {
                 "format": FORMAT,
                 "seed_headroom": SEED_HEADROOM,
-                "note": (
-                    "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling "
-                    "means the payload grew — justify it in the commit body."
-                ),
             }
         )
+        prev_meta.setdefault("note",
+                             "Ceilings are MAX emitted bytes. Shrinking passes. Raising a ceiling "
+                             "means the payload grew — justify it in the commit body.")
         budget = {
             "_meta": prev_meta,
             "bundles": {k: int(v * SEED_HEADROOM) for k, v in cur["bundles"].items()},
@@ -584,6 +685,10 @@ def main() -> None:
             "neural": _neural_ceilings(),
             "observed": cur,
         }
+        # A ceiling refresh must not erase or reseed a deliberate count floor. Preserve
+        # the whole block verbatim, including keys this version does not interpret.
+        if "floors" in previous:
+            budget["floors"] = previous["floors"]
         BUDGET.parent.mkdir(parents=True, exist_ok=True)
         BUDGET.write_text(json.dumps(budget, indent=1, sort_keys=True) + "\n")
         print(f"budget seeded -> {BUDGET}")

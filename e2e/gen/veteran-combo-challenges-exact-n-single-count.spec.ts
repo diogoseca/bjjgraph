@@ -45,14 +45,25 @@ import { srsVeteran } from "./personas"
  * fallback needed. Structure-only assertions: beat ns, per-id counts, challenge/coin state.
  */
 
+// RE-DERIVED (v1.103.0, adbb48a31 "The performer is read from the data, not guessed from a
+// score"). The authoring route opened with "Inverted Triangle" from Triangle Escape Position —
+// a BOTTOM-authored move (from_position "Triangle Escape Position/Bottom": the TRIANGLER's
+// move) dealt to the TOP player, the one caught in it. That only worked while optionsFor
+// inferred the performer from `myVal < oppVal - 0.05`; v1.103.0 reads `fromRole` instead
+// (the reported bug was exactly this: being offered a triangle while caught in one), so the
+// card is now under "Opponent threats" and j.pick found no option card. Re-derived with the
+// header's BFS (optionsFor(idx, role) main-pass transitions only — no `relaxed` cards, no
+// submissions, which since v1.176.0 ENTER a state — following resolveOutcomeTo(first success
+// row) to a position whose deck asks). Every hop stays role=top; the claim is untouched: it is
+// about the combo n each rung reaches, never about which moves carry it there.
 const ROUTE = [
-  "Inverted Triangle", // → ×2
-  "Triangle to Omoplata", // → ×3  blue.combo-three
-  "Omoplata to Back", // → ×4
-  "Back Control to Crucifix", // → ×5  purple.combo-five
-  "Crucifix to Mount", // → ×6
-  "Mount to 3-4 Mount", // → ×7  brown.combo-seven + black +1 + GODLIKE mint
-  "Consolidate Mount", // → ×8  re-stamp: black stays at 1, no second mint
+  "Reversal from Triangle Escape", // → ×2  (Side Control Top)
+  "Side Control to Shoulder of Justice", // → ×3  blue.combo-three
+  "Shoulder of Justice to Mount", // → ×4
+  "Mount to Modified Mount", // → ×5  purple.combo-five
+  "S-Mount Transition", // → ×6  (S Mount Top)
+  "Gift Wrap to Back", // → ×7  brown.combo-seven + black +1 + GODLIKE mint
+  "Back Control to Crucifix", // → ×8  re-stamp: black stays at 1, no second mint
 ] as const
 
 test("one ×2..×8 climb: exact-n challenges complete once each, the ×8 re-stamp never double-counts black.combo-seven-three, GODLIKE mints once", async ({

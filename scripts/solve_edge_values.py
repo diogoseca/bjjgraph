@@ -123,10 +123,11 @@ class Opts:
     """Model knobs.  Defaults are the shipped model."""
 
     __slots__ = ("frame", "chain", "origin", "stayput", "initiative", "policy",
-                 "opponent", "qform")
+                 "opponent", "qform", "rates")
 
     def __init__(self, frame="nogi", chain="label", origin=True, stayput="rolenode",
-                 initiative="shipped", policy="argmax", opponent="mirror", qform="branch"):
+                 initiative="shipped", policy="argmax", opponent="mirror", qform="branch",
+                 rates="folded"):
         # chain      : label | actor | drop      (see build_action)
         # stayput    : rolenode | hub | charge   (0-ply rule; "charge" = always 1 ply)
         # initiative : shipped | symmetric       (symmetric = the opponent keeps theirs too)
@@ -137,9 +138,17 @@ class Opts:
         #              marginal -> p = the authored success-cell mass.  Identical except on
         #                         the 29 /attacker nodes where successRate is a rounded copy
         #                         of that mass; measured, it moves 9 of 1246 EDGE integers by 1.
+        # rates      : folded   -> the folded no-gi scalar in every frame (the shipped EDGE table)
+        #              frame    -> successRateByRuleset[frame], the rate the app's own
+        #                         `calSuccess` reads in that ruleset. What the browser's gi FLOW
+        #                         runs on, so `solve_flow.py --reference` solves its gi rows
+        #                         with it. See `tech_rate`; nogi is bit-identical either way.
+        if rates not in ("folded", "frame"):
+            raise ValueError("Opts.rates must be 'folded' or 'frame', got %r" % (rates,))
         self.frame, self.chain, self.origin = frame, chain, origin
         self.stayput, self.initiative = stayput, initiative
         self.policy, self.opponent, self.qform = policy, opponent, qform
+        self.rates = rates
 
     def replace(self, **kw) -> "Opts":
         cur = {k: getattr(self, k) for k in self.__slots__}
@@ -156,15 +165,19 @@ class Opts:
 class Action:
     """One dealt card: its odds and its two branches, in the ACTOR's frame."""
 
-    __slots__ = ("name", "target", "cat", "weight", "p", "succ", "miss", "empty_branch")
+    __slots__ = ("name", "target", "cat", "weight", "p", "succ", "miss", "empty_branch", "tech")
 
-    def __init__(self, name, target, cat, weight, p, succ, miss, empty_branch):
+    def __init__(self, name, target, cat, weight, p, succ, miss, empty_branch, tech=None):
         self.name, self.target, self.cat = name, target, cat
         self.weight = weight          # attempt share within the dealt hand, 0..1
         self.p = p                    # successRate/100 -- the number drilling moves
         self.succ = succ              # [(w_within_branch, outcome)] summing to 1
         self.miss = miss
         self.empty_branch = empty_branch
+        # The technique AS PRICED: `listing_view(...)` of the edge it was dealt from (v1.214.0).
+        # A reader that needs the table again reads THIS, never `graph[cat][target+"/attacker"]`,
+        # which is the canonical table and silently wrong for a listing with its own.
+        self.tech = tech
 
 
 def _chain_target(graph, to):
@@ -221,11 +234,20 @@ def tech_rate(tech, opts):
     Availability is therefore decided by THIS frame's
     own cell, and the scalar is used only as the value once the frame has said the card exists.
     Byte-identical today (every role-node carries both cells and a non-null scalar).
+
+    ``Opts(rates="frame")`` TAKES THE FRAME-CORRECT READ, as an explicit knob rather than a new
+    default: the shipped EDGE table and the ``validate:flow`` ratchet keep the folded scalar, and
+    the one caller that needs the frame's own rate asks for it -- ``solve_flow.py --reference``,
+    whose gi rows are what the browser's gi FLOW must reproduce (the app reads
+    ``calSuccess(act, "gi")``, i.e. this cell, whenever it deals in gi). The read is the same one
+    ``scripts/semantics/scalars.py::frame_rate_patch`` applies in-process.
     """
     m = tech.get("successRateByRuleset")
     have = isinstance(m, dict) and opts.frame in m
     if have and m[opts.frame] is None:
         return None                       # the technique DOES NOT EXIST in this ruleset
+    if have and getattr(opts, "rates", "folded") == "frame":
+        return m[opts.frame]              # the frame's own cell -- what `calSuccess` reads there
     scalar = tech.get("successRate")      # the folded no-gi headline: today's shipped value
     if scalar is not None:
         return scalar
@@ -233,6 +255,37 @@ def tech_rate(tech, opts):
     # the frame's own cell is the only honest answer left; it is also what the deferred fix does
     # everywhere, so this branch never disagrees with it.
     return m[opts.frame] if have else None
+
+
+def listing_view(tech, edge):
+    """THE TECHNIQUE AS PLAYED FROM THIS LISTING (v1.214.0, origin coherence PR B). The one Python seam.
+
+    A position edge flagged ``ownTable`` (regenerate_graph ``_listing_table``) carries its own
+    ``successRate``, ``successRateByRuleset`` and ``outcomes``: the move played from THIS listing,
+    whose miss lands here instead of at the technique's canonical origin. This returns the
+    technique with those three fields overlaid, and the technique ITSELF (the same object) for
+    every other edge, so a corpus without listing tables prices every card exactly as before.
+
+    Every graph.json reader that turns a listing into an exchange goes through here: build_hand
+    (so Model, solve_flow, frame_reachable and the EDGE tables), semantics/_kernel.py, app_game.py
+    and independent_sim.py, the score weights and the validators. Its JS twin is the wire's
+    ``cal.at[posId]``, read by the app's ``_at`` and the adapter's ``actAt``.
+    """
+    if tech is None or not edge or not edge.get("ownTable"):
+        return tech
+    return {**tech, "successRate": edge["successRate"],
+            "successRateByRuleset": edge["successRateByRuleset"], "outcomes": edge["outcomes"]}
+
+
+def priced_tech(a):
+    """The technique a dealt card was priced with: ``Action.tech``, set by build_hand from
+    ``listing_view`` (v1.214.0). A reader that needs a card's table again reads THIS, never
+    ``graph[cat][target+"/attacker"]``, which is the canonical table and, for a listing with its own,
+    a different exchange priced silently wrong. An Action without it is a construction bug, never a
+    reason to fall back. Lives here, not in semantics/_kernel.py, so a reader needs no numpy."""
+    if a.tech is None:
+        raise ValueError(f"card {a.name!r} carries no priced technique (Action.tech)")
+    return a.tech
 
 
 def build_action(graph, tech, opts):
@@ -296,8 +349,9 @@ def build_action(graph, tech, opts):
 
 def build_hand(graph, key, opts):
     """
-    The dealt hand at a role-node: role-filtered, origin-filtered (relaxing ORIGIN
-    and never ROLE when that empties it), weights renormalised to 1.
+    The dealt hand at a role-node: role-filtered, origin-filtered (a card is dealt at its
+    canonical origin or at a `dealHere` listing; ORIGIN, never ROLE, is relaxed when that
+    empties the hand), weights renormalised to 1.
 
     Returns ``(hand, relaxed, absent, frame_absent)``:
 
@@ -324,7 +378,7 @@ def build_hand(graph, key, opts):
         if att <= 0:                          # it exists here, and is ~never attempted
             continue
         cat = "submissions" if t.get("isSubmission") else "transitions"
-        tech = graph[cat].get(t["target"] + "/attacker")
+        tech = listing_view(graph[cat].get(t["target"] + "/attacker"), t)
         if tech is None:
             continue
         if tech.get("fromRole") != role:      # the role filter is NEVER relaxed
@@ -334,7 +388,12 @@ def build_hand(graph, key, opts):
             continue
         picks.append((t, att, cat, tech))
 
-    same = [x for x in picks if x[3].get("fromPositionId") == hub]
+    # ORIGIN: a card is dealt at its canonical origin, or at a listing flagged `dealHere`
+    # (the listing-level dealing rule, v1.211.0: an away listing whose authored table lands
+    # coherently from here). The same rule, read from the wire's `alsoFrom`, is applied by
+    # _mdp_mechanics.Projection.options and the app's optionsFor; mirrored in
+    # semantics/independent_sim.py and semantics/app_game.py.
+    same = [x for x in picks if x[3].get("fromPositionId") == hub or x[0].get("dealHere") is True]
     if same and opts.origin:
         use, relaxed = same, False
     else:
@@ -347,7 +406,7 @@ def build_hand(graph, key, opts):
     for t, att, cat, tech in use:
         p, succ, miss, empty = build_action(graph, tech, opts)
         hand.append(Action(t["technique"], t["target"], cat, att / tot if tot else 0.0,
-                           p, succ, miss, empty))
+                           p, succ, miss, empty, tech=tech))
     return hand, relaxed, absent, bool(ts) and absent == len(ts)
 
 
@@ -372,11 +431,13 @@ class Model:
 
     WHICH ABSENCE THIS IS, AND THE LARGER ONE IT IS NOT.  `frame_absent` is the STRICT reading:
     no cell at all.  The corpus's own verdict is REACHABILITY - `regenerate_neural_data.
-    frame_reachable`, ledgered in `tests/artifacts/ruleset_availability.json` - which today
-    isolates 18 no-gi role-nodes and 104 techniques where the strict reading isolates 0, because
+    frame_reachable`, ledgered in `tests/artifacts/ruleset_availability.json` - which
+    isolates 22 no-gi role-nodes and 124 techniques (18 and 104 until v1.210.0 made the walk deal
+    by origin) where the strict reading isolates 0, because
     a state can be authored with a full no-gi hand and still be impossible to ARRIVE at without a
     lapel.  Adopting the reachability set here is CORRECT and is a BEHAVIOUR CHANGE: measured on
-    the FLOW side, restricting the start distribution to the 254 reachable no-gi role-nodes moves
+    the FLOW side, restricting the start distribution to the 254 reachable no-gi role-nodes (the count then; 244
+    since v1.210.0) moved
     V0 +0.076492575 -> +0.073898681 (delta -0.002594), which is an order of magnitude more than
     the whole null pass.  It belongs in its own commit, with the 18 named and the FLOW reference
     fixture regenerated; this file's absent set is deliberately the subset that moves no number

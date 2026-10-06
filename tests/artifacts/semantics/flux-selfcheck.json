@@ -1,0 +1,389 @@
+{
+  "case_floor": 11,
+  "cases": {
+    "a_bottleneck": {
+      "capacity": 0.75,
+      "coverage": {
+        "cut_partitions_enumerated": 64,
+        "edges_checked": 9,
+        "floor": 9
+      },
+      "cut_edges": [
+        [
+          3,
+          4,
+          0.75
+        ]
+      ],
+      "equal_capacity_minimum_cuts": 9,
+      "gross_max_error": 0.0,
+      "qualification": "unique single-edge minimum cut; other multi-edge minimum cuts tie in capacity",
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "seven-transient split/bridge/split toy, start=0, target=R[:,0], all physical edges",
+      "status": "PASS",
+      "total_flux": 0.75
+    },
+    "b_two_routes": {
+      "coverage": {
+        "floor": 2,
+        "routes_checked": 2
+      },
+      "kmax_one_share": 0.5,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "three-transient symmetric routes, start=0, sole absorbing target=3",
+      "shares": [
+        0.5,
+        0.5
+      ],
+      "status": "PASS"
+    },
+    "c_random_conservation": {
+      "coverage": {
+        "floor": 30,
+        "forward_steps": 80,
+        "physical_input_edges": 360,
+        "transient_states": 30
+      },
+      "doob_current_max_error": 5.204170427930421e-18,
+      "forward_absorption_error": 1.2212453270876722e-15,
+      "forward_occupancy_max_error": 2.3592239273284576e-16,
+      "min_cut_capacity": 0.6568524484589998,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "seed=41309 random 30-transient chain, distributed start, targets=R columns 0 and 2",
+      "status": "PASS",
+      "target_probability": 0.6568524484589998,
+      "worst_kirchhoff_residual": 2.7755575615628914e-17
+    },
+    "d_adjoint_finite_difference": {
+      "coverage": {
+        "floor": 20,
+        "nontrivial_gradients": 32,
+        "random_directions": 32
+      },
+      "finite_difference_step_max": 1e-05,
+      "max_absolute_error": 1.0043930964709347e-11,
+      "max_relative_error": 1.091805366718984e-09,
+      "negative_gradients": 16,
+      "positive_gradients": 16,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "relative_error_limit": 1e-06,
+      "set": "seed=7919 sparse row-conserving directions on seed=41309 30-state chain; target=R[:,0]",
+      "status": "PASS"
+    },
+    "e_seeded_monte_carlo": {
+      "analytic_target_probability": 0.49751478740206256,
+      "coverage": {
+        "edge_floor": 15,
+        "edge_slots_checked": 24,
+        "positive_variance_edges": 19,
+        "trajectories": 200000,
+        "trajectory_floor": 200000,
+        "winner_floor": 50000,
+        "winning_trajectories": 99596
+      },
+      "edge_checks": [
+        {
+          "dst": 0,
+          "expected": 0.07305961999562562,
+          "mean": 0.07313,
+          "src": 0,
+          "standard_error": 0.0007012577802137725,
+          "standard_errors": 0.10036252910153792
+        },
+        {
+          "dst": 1,
+          "expected": 0.22731307825373331,
+          "mean": 0.22593,
+          "src": 0,
+          "standard_error": 0.001043160398220266,
+          "standard_errors": 1.3258538726096094
+        },
+        {
+          "dst": 2,
+          "expected": 0.08689582637127771,
+          "mean": 0.08752,
+          "src": 0,
+          "standard_error": 0.0006568511286936812,
+          "standard_errors": 0.9502512844327745
+        },
+        {
+          "dst": 3,
+          "expected": 0.0,
+          "mean": 0.0,
+          "src": 0,
+          "standard_error": 0.0,
+          "standard_errors": 0.0
+        },
+        {
+          "dst": 4,
+          "expected": 0.09979560868353411,
+          "mean": 0.09859,
+          "src": 0,
+          "standard_error": 0.0006665975406954932,
+          "standard_errors": 1.8086005572061454
+        },
+        {
+          "dst": 5,
+          "expected": 0.0,
+          "mean": 0.0,
+          "src": 0,
+          "standard_error": 0.0,
+          "standard_errors": 0.0
+        },
+        {
+          "dst": 0,
+          "expected": 0.03388666522476186,
+          "mean": 0.03364,
+          "src": 1,
+          "standard_error": 0.0004319058748317014,
+          "standard_errors": 0.5711087510860366
+        },
+        {
+          "dst": 1,
+          "expected": 0.039537309654373166,
+          "mean": 0.039965,
+          "src": 1,
+          "standard_error": 0.0004970314165886797,
+          "standard_errors": 0.8604895613284159
+        },
+        {
+          "dst": 2,
+          "expected": 0.09068445743571975,
+          "mean": 0.088655,
+          "src": 1,
+          "standard_error": 0.0007068797304138743,
+          "standard_errors": 2.8710081056242958
+        },
+        {
+          "dst": 3,
+          "expected": 0.05768688713928526,
+          "mean": 0.05768,
+          "src": 1,
+          "standard_error": 0.0005364853465677764,
+          "standard_errors": 0.012837516121031439
+        },
+        {
+          "dst": 4,
+          "expected": 0.17357777708959152,
+          "mean": 0.173955,
+          "src": 1,
+          "standard_error": 0.0008476301565284577,
+          "standard_errors": 0.44503243248615665
+        },
+        {
+          "dst": 5,
+          "expected": 0.0,
+          "mean": 0.0,
+          "src": 1,
+          "standard_error": 0.0,
+          "standard_errors": 0.0
+        },
+        {
+          "dst": 0,
+          "expected": 0.016844332765270226,
+          "mean": 0.017,
+          "src": 2,
+          "standard_error": 0.00029817016035717226,
+          "standard_errors": 0.5220751618582649
+        },
+        {
+          "dst": 1,
+          "expected": 0.05895943988980753,
+          "mean": 0.058115,
+          "src": 2,
+          "standard_error": 0.000570561006005838,
+          "standard_errors": 1.480016827155707
+        },
+        {
+          "dst": 2,
+          "expected": 0.06010305892907396,
+          "mean": 0.059415,
+          "src": 2,
+          "standard_error": 0.0006754824722059811,
+          "standard_errors": 1.0186184799538942
+        },
+        {
+          "dst": 3,
+          "expected": 0.09558303802018502,
+          "mean": 0.095825,
+          "src": 2,
+          "standard_error": 0.00071078503990508,
+          "standard_errors": 0.3404151272616686
+        },
+        {
+          "dst": 4,
+          "expected": 0.06902542504103308,
+          "mean": 0.069585,
+          "src": 2,
+          "standard_error": 0.0005689606818195189,
+          "standard_errors": 0.9835037408514933
+        },
+        {
+          "dst": 5,
+          "expected": 0.0,
+          "mean": 0.0,
+          "src": 2,
+          "standard_error": 0.0,
+          "standard_errors": 0.0
+        },
+        {
+          "dst": 0,
+          "expected": 0.021630333007652405,
+          "mean": 0.02144,
+          "src": 3,
+          "standard_error": 0.0003345178493153385,
+          "standard_errors": 0.5689771354262878
+        },
+        {
+          "dst": 1,
+          "expected": 0.012618609243169808,
+          "mean": 0.0128,
+          "src": 3,
+          "standard_error": 0.0002569652314135741,
+          "standard_errors": 0.705896108327013
+        },
+        {
+          "dst": 2,
+          "expected": 0.01929505308300008,
+          "mean": 0.019555,
+          "src": 3,
+          "standard_error": 0.00032490542884492724,
+          "standard_errors": 0.8000694784450336
+        },
+        {
+          "dst": 3,
+          "expected": 0.03682234798618694,
+          "mean": 0.03661,
+          "src": 3,
+          "standard_error": 0.0004958323998581596,
+          "standard_errors": 0.4282656523609421
+        },
+        {
+          "dst": 4,
+          "expected": 0.15511597658790371,
+          "mean": 0.15585,
+          "src": 3,
+          "standard_error": 0.0008110531280594056,
+          "standard_errors": 0.9050250676580962
+        },
+        {
+          "dst": 5,
+          "expected": 0.0,
+          "mean": 0.0,
+          "src": 3,
+          "standard_error": 0.0,
+          "standard_errors": 0.0
+        }
+      ],
+      "empirical_target_probability": 0.49798,
+      "longest_trajectory_steps": 29,
+      "max_edge_absolute_error": 0.0020294574357197503,
+      "max_standard_errors": 2.8710081056242958,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "seed=20260924, all 4x6 physical edge slots of looping four-transient toy; winning exit=4",
+      "standard_error_limit": 4.0,
+      "status": "PASS"
+    },
+    "f_cell_weights_clocked_and_eventual": {
+      "H400_vs_eventual_max_diff": 2.220446049250313e-15,
+      "coverage": {
+        "fd_directions": 32,
+        "floor": 20,
+        "mc_cells": 19,
+        "mc_floor": 15,
+        "mc_trials": 100000
+      },
+      "max_relative_fd_error": 2.337464870135235e-09,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "seed=5501 six-transient chain with 0-ply MY->THEIR cells, payoff (1,-2,0); H in 1,3,7,inf",
+      "status": "PASS",
+      "traffic_mc_max_standard_errors": 2.487486499341911
+    },
+    "g_passage_woodbury": {
+      "coverage": {
+        "floor": 20,
+        "kill_sets": 24,
+        "mc_edges": 5,
+        "mc_trials": 200000
+      },
+      "passage_mc_max_standard_errors": 2.979215881793313,
+      "passage_probabilities": [
+        0.2070977798124115,
+        0.08180728635443013,
+        0.0891631580976946,
+        0.020968001055210128,
+        0.04626100340568562
+      ],
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "24 seed=3301 kill sets on the seed=41309 30-state chain; 5 edges of the looping toy by MC",
+      "status": "PASS",
+      "woodbury_vs_direct_max_error": 1.6653345369377348e-16
+    },
+    "h_row_update_exact": {
+      "coverage": {
+        "changes": 30,
+        "floor": 25
+      },
+      "max_abs_error_vs_direct_solve": 1.700029006457271e-16,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "seed=6607 whole-row replacements (k in 1,2,3,5,8 rows) on the seed=41309 30-state chain, all 3 exit columns",
+      "status": "PASS"
+    },
+    "rate_direction_bridge": {
+      "both_player_gradient": 0.390625,
+      "coverage": {
+        "analytic_derivatives": 4,
+        "both_turn_rows": 2,
+        "dropped_null_fixture_cells": 1,
+        "floor": 4
+      },
+      "max_error": 5.551115123125783e-17,
+      "opponent_only_gradient": -0.5859375,
+      "player_only_gradient": 0.9765625,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "alternating two-hand toy at common p=.4 plus one-state attempt-share=.4 toy and identical branches",
+      "status": "PASS",
+      "weighted_gradient": 0.41322314049586784
+    },
+    "residual_circulation": {
+      "coverage": {
+        "cycle_edges_retained": 6,
+        "floor": 6,
+        "source_revisit_cases": 1
+      },
+      "explained_share": 1.0,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "residual_edge_weight_sum": 0.8999999999999999,
+      "set": "five-node route-plus-cycle flow and three-transient start-revisiting geometric toy",
+      "source_revisit_occupancy": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "source_revisit_throughput": 1.0,
+      "status": "PASS"
+    },
+    "zero_target_and_rejections": {
+      "coverage": {
+        "committors_checked": 2,
+        "floor": 18,
+        "invalid_calls_rejected": 18
+      },
+      "gross_edges": 0,
+      "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+      "set": "zero target from state 1 of identity exit toy, plus explicit invalid-input calls",
+      "status": "PASS",
+      "target_probability": 0.0
+    }
+  },
+  "failed": 0,
+  "graph": "none (synthetic)",
+  "item": "F1 + F2R + F3 methods",
+  "passed": 11,
+  "recompute": "python3 -B scripts/semantics/_tpt.py --selfcheck",
+  "scope": "synthetic methods only; no real graph loaded",
+  "source_sha256": {
+    "scripts/semantics/_tpt.py": "385c57eb636f20128555075ede33ce2cbaac900ed16a448ee0f4c401ddef4790"
+  },
+  "status": "PASS"
+}

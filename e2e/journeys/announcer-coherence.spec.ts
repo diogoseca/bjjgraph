@@ -128,6 +128,22 @@ test("BOTH opponent branches use the same verb — a submission attempt is not y
 test("@curated a Decide countdown does not survive staging another node", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
+  // THE START IS RIGGED (v1.198.2, §6.3). Left to `rng("start-pos")` this journey opened somewhere
+  // new every run and so clicked a different node every run. From Front Headlock its old picker —
+  // "any position inside the box", ruleset-blind — chose Guillotine Control, which the no-gi mask
+  // removes from the hit test: the click staged nothing, the countdown stood, and CI shard 1/4
+  // went red on a correct build (it passed on the previous commit, whose draw opened elsewhere).
+  // Front Headlock stays the start BECAUSE it is the case that picker got wrong. Measured over
+  // every position as a start: the picker below finds an exposed alternative from 126 of 133;
+  // the 7 it cannot are submission holds (Guillotine/Darce/Aoki/Anaconda/Kneebar/Omoplata/Estima
+  // Lock Control), which is why the start is pinned rather than left to the draw.
+  await j.rig("role", [0]);
+  await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    const idx = a.nodes.findIndex((n: any) => n.id === "Positions/Front-Headlock");
+    if (idx < 0) throw new Error("position not found: Positions/Front-Headlock");
+    a.rigStart(idx);
+  });
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
@@ -143,20 +159,50 @@ test("@curated a Decide countdown does not survive staging another node", async 
   );
   expect(shown, "and visible").toBe("1");
 
-  // click a node we are NOT standing on — the owner's gesture
+  // Select a real, exposed alternative POSITION, not merely a projected point.
+  // The live pointerup hit test uses all ruleset-visible node types, so reject
+  // coincident/nearby competitors and DOM overlays before performing the gesture.
   const target = await page.evaluate(() => {
     const a: any = (window as any).__neural;
+    const rect = a.canvas.getBoundingClientRect();
     const scale = a.W / a.cam.vw;
+    const visible = a._rulesetMask();
     for (const n of a.nodes) {
-      if (n.idx === a.focusIdx || n.ty !== "positions") continue;
-      const sx = (n.x - a.cam.cx) * scale + a.W / 2;
-      const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2;
-      if (sx > 120 && sx < a.W - 320 && sy > 90 && sy < a.H - 340) return { sx, sy };
+      if (n.idx === a.currentPos || n.idx === a.focusIdx || n.ty !== "positions"
+        || !visible[n.idx] || !a.rsAllowsIdx(n.idx)) continue;
+      const x = (n.x - a.cam.cx) * scale + a.W / 2;
+      const y = (a._LY(n) - a.cam.cy) * scale + a.H / 2;
+      if (!(x > 120 && x < a.W - 320 && y > 90 && y < a.H - 340)) continue;
+      const sx = rect.left + x, sy = rect.top + y;
+      if (document.elementFromPoint(sx, sy) !== a.canvas) continue;
+      // Avoid float-rounded ties and the pointermove-only seat-star affordance.
+      if (a.nodes.some((m: any) => m.idx !== n.idx && visible[m.idx]
+        && Math.hypot(m.x - n.x, a._LY(m) - a._LY(n)) * scale < 2)) continue;
+      if ((a._seatStarAnchors || []).some((p: any) =>
+        x >= p.roleX - 36 && x <= p.x + 22 && Math.abs(y - p.y) <= 22)) continue;
+      return { idx:n.idx, id:n.id, from:a.currentPos, sx, sy };
     }
     return null;
   });
-  expect(target, "there is another node to click").not.toBeNull();
+  expect(target, "an exposed alternative playable position exists").not.toBeNull();
+  await page.mouse.move(target!.sx, target!.sy);
+  const premise = await page.evaluate((t) => {
+    const a: any = (window as any).__neural;
+    return { hit:a._hover?.idx, from:a.currentPos,
+      exposed:document.elementFromPoint(t.sx,t.sy) === a.canvas,
+      hot:a._evCountdown === a._decision && a._evCountdown != null,
+      kicker:a.evKickerRef.current?.textContent, opacity:a.evRef.current?.style.opacity };
+  }, target!);
+  expect(premise, "the real pointer reaches the alternative node while the old countdown is live")
+    .toEqual({ hit:target!.idx, from:target!.from, exposed:true,
+      hot:true, kicker:"Answer", opacity:"1" });
   await page.mouse.click(target!.sx, target!.sy);
+  const staged = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    return { current:a.currentPos, focus:a.focusIdx, staged:a._staged, paused:!!a.paused };
+  });
+  expect(staged, "the real click admitted staging at the selected position")
+    .toEqual({ current:target!.idx, focus:target!.idx, staged:target!.idx, paused:true });
   await j.advance(1500);
 
   const after = await page.evaluate(() => {
@@ -210,13 +256,18 @@ test("@curated a Decide countdown does not survive staging another node", async 
  * the owner has not asked for, and this commit is about a stuck countdown.
  */
 test("the sentences after an expiry survive the hand being torn down", async ({ page }) => {
+  // v1.218.0: the expiry no longer WRITES the announcer — its cause rises over "Your options" and
+  // the cards take the hit (outcome-on-cards.spec.ts). So the claim moves with it: the countdown is
+  // RELEASED at expiry (never left pinned on "Answer 1…"), the expiry is named by the cause, and
+  // the roll's next real sentence still reaches the screen and stays — it is not collateral.
   const j = journey(page);
   await j.boot("/");
   await j.advance(6000);
   await j.engage(); // v1.137.0: the clock waits for the player — this journey plays one
 
   const seen: string[] = [];
-  for (let i = 0; i < 220; i++) {
+  let named = false;
+  for (let i = 0; i < 220 && !named; i++) {
     await j.advance(100);
     const s = await page.evaluate(() => {
       const n: any = (window as any).__neural;
@@ -225,21 +276,36 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
         label: k ? k.textContent : null,
         opacity: n.evRef.current ? n.evRef.current.style.opacity : null,
         stamp: n._evCountdown == null,
+        cause: Array.from(document.querySelectorAll(".ng-cause")).map((e: any) => e.textContent.trim()),
       };
     });
     if (s.label && s.opacity === "1") {
       seen.push(s.label);
-      // anything that is NOT the countdown must have released the stamp — that release is the
-      // whole reason `clearOptions` can drop an orphan without touching a live sentence.
+      // anything that is NOT the countdown must have released the stamp
       if (s.label !== "Answer") expect(s.stamp, `"${s.label}" released the countdown stamp`).toBe(true);
     }
+    if (s.cause.includes("too slow")) named = true;
   }
-  const uniq = [...new Set(seen)];
-  expect(uniq, `the countdown was reached (saw: ${JSON.stringify(uniq)})`).toContain("Answer");
-  expect(
-    uniq.filter((l) => l !== "Answer").length,
-    `the roll went on speaking after it (saw: ${JSON.stringify(uniq)})`,
-  ).toBeGreaterThan(0);
+  expect([...new Set(seen)], "the countdown was reached").toContain("Answer");
+  expect(named, "the expiry named itself — as the cause over your options").toBe(true);
+  const at = await page.evaluate(() => {
+    const n: any = (window as any).__neural;
+    return { stamp: n._evCountdown == null, opacity: n.evRef.current?.style.opacity, kicker: n.evKickerRef.current?.textContent };
+  });
+  expect(at.stamp, "the countdown stamp was released at expiry").toBe(true);
+  expect(at.opacity === "1" && at.kicker === "Answer", `the countdown is not left pinned (opacity ${at.opacity}, "${at.kicker}")`).toBe(false);
+
+  // the roll's next real sentence reaches the screen and stays
+  await j.rig("resolve", [0.99]);
+  await j.rig("outcome", [0.99]);
+  await page.evaluate(() => { const a: any = (window as any).__neural; a._optPick(a._optList[0]); });
+  await j.advance(300);
+  const next = await page.evaluate(() => {
+    const n: any = (window as any).__neural;
+    return { label: n.evKickerRef.current?.textContent, opacity: n.evRef.current?.style.opacity };
+  });
+  expect(next.opacity, `the next sentence ("${next.label}") is on screen`).toBe("1");
+  expect(next.label, "and it is the roll's, not a leftover").not.toBe("Answer");
 });
 
 /**
@@ -249,7 +315,8 @@ test("the sentences after an expiry survive the hand being torn down", async ({ 
  * rode on. "Pressure should not be on the choices … the choices are fun to click. When the clock
  * runs out, the algorithm doesn't choose for you. You still choose." What expiry does now is
  * REVEAL the landing question's answer as a miss — and the cause is still read before any
- * effect: "Too slow" owns the announcer slot when it happens, with the hand untouched below it.
+ * effect: "too slow" is named the moment it happens — over your options since v1.218.0, the cards
+ * taking the hit beneath it — with the hand untouched.
  */
 test("@curated the clock running out reveals the answer, says so, and steals nothing", async ({
   page,
@@ -270,9 +337,18 @@ test("@curated the clock running out reveals the answer, says so, and steals not
       return { label: k ? k.textContent : null, opacity: n.evRef.current?.style.opacity };
     });
     if (s.label && s.opacity === "1" && said[said.length - 1] !== s.label) said.push(s.label);
-    if (said.indexOf("Too slow") >= 0) break;
+    // v1.218.0: the expiry SAYS SO over your options (the cause), not in the announcer
+    if (await page.evaluate(() => Array.from(document.querySelectorAll(".ng-cause")).some((e: any) => e.textContent.trim() === "too slow"))) break;
   }
-  expect(said.indexOf("Too slow"), `the expiry announced itself (saw ${JSON.stringify(said)})`).toBeGreaterThanOrEqual(0);
+  expect(
+    await page.evaluate(() => Array.from(document.querySelectorAll(".ng-cause")).map((e: any) => e.textContent.trim())),
+    `the expiry named itself over your options (announcer saw ${JSON.stringify(said)})`,
+  ).toContain("too slow");
+  expect(said, "and the announcer does not carry it").not.toContain("Too slow");
+  expect(
+    await page.evaluate(() => document.querySelector("[data-outcome-live]")?.textContent),
+    "one polite sentence says it in full",
+  ).toBe("Too slow: the answer is revealed, and your chances on these moves drop 4 points.");
 
   const beats = (await j.beats()).map((b) => b.beat);
   expect(beats, "the reveal is a named beat").toContain("land_q_expired");
@@ -399,15 +475,16 @@ for (const vp of [
 }
 
 /**
- * THE EXPIRY SENTENCE IS A LEASE, NOT A RESIDENT (v1.138.0). Owner: "the 'Answer revealed ·
- * −4% on this exchange' banner stays pinned while exploring other cards/nodes — clear or fade
- * it when focus moves to another card (or after ~5s)." The penalty was paid at expiry; the
- * sentence lets go when attention moves (sheet, stage, roam, dossier, paging — one drop seam)
- * or ~5s after it was written. Any NEWER sentence releases the stamp on its way in (the
- * one-slot stamped-owner pattern), so a successor can never be faded by a stale lease.
- * Mutants that must die: the drop seam a no-op; the 5s fade removed; setEvent not releasing.
+ * AN EXPIRY NEVER PINS (v1.218.0; it was v1.138.0's "the expiry sentence is a lease"). Owner then:
+ * "the 'Answer revealed · −4% on this exchange' banner stays pinned while exploring other
+ * cards/nodes". v1.138.0 answered with a lease on the announcer (`_evExpiry` + a drop seam + a ~5s
+ * age-out). v1.218.0 takes the outcome OFF the announcer entirely — it rises over "Your options"
+ * and lands on the cards — so there is nothing left to lease: the lease code is deleted, and the
+ * claim it served becomes this: the announcer never carries the expiry, and the cause is gone
+ * within ~1.6 s of WALL clock even while the roll is PAUSED (a game-clock removal would pin it).
+ * Mutants that must die: the cause removed on the game clock; the announcer written again.
  */
-test("@curated the expiry banner lets go — on focus move, by age, and never a successor", async ({
+test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s even when paused", async ({
   page,
 }) => {
   const j = journey(page);
@@ -417,8 +494,6 @@ test("@curated the expiry banner lets go — on focus move, by age, and never a 
     await page.evaluate(() => document.body.getBoundingClientRect().top);
     await j.advance(400);
   }
-  // forward-compatible engagement: real mouse moves (a no-op before the clock-gate PR, the
-  // required first interaction after it)
   await page.mouse.move(4, 4);
   await page.mouse.move(6, 6);
   await j.advance(300);
@@ -430,50 +505,19 @@ test("@curated the expiry banner lets go — on focus move, by age, and never a 
 
   await page.evaluate(() => ((window as any).__neural._decision.remaining = 30));
   await j.advance(400);
-  const at = await page.evaluate(() => {
-    const a: any = (window as any).__neural;
-    return { kicker: a.evKickerRef.current.textContent, stamped: a._evExpiry != null };
-  });
-  expect(at.kicker, "the expiry announced itself").toBe("Too slow");
-  expect(at.stamped, "and took its lease").toBe(true);
+  const at = await page.evaluate(() => ({
+    kicker: (window as any).__neural.evKickerRef.current.textContent,
+    cause: Array.from(document.querySelectorAll(".ng-cause")).map((e: any) => e.textContent.trim()),
+  }));
+  expect(at.cause, "the expiry named itself").toContain("too slow");
+  expect(at.kicker, "the announcer does not carry it").not.toBe("Too slow");
 
-  // focus moves: opening an option sheet drops it at once
-  const drop = await page.evaluate(() => {
-    const a: any = (window as any).__neural;
-    const opt = a._optList && a._optList[0];
-    if (!opt) return null;
-    a.expandOption(opt, () => {});
-    return { opacity: a.evRef.current.style.opacity, stamped: a._evExpiry != null };
-  });
-  expect(drop, "an option to read").not.toBeNull();
-  expect(drop!.opacity, "the banner let go the moment focus moved").toBe("0");
-  expect(drop!.stamped).toBe(false);
-  await page.evaluate(() => (window as any).__neural.closeOptionDetail());
-
-  // by age: a 5s-old lease fades from the frame loop
-  await page.evaluate(() => {
-    const a: any = (window as any).__neural;
-    a.setEvent("Too slow", "Answer revealed · −4% on this exchange", "bad");
-    a._evExpiry = (a.now || 0) - 6;
-  });
-  await j.advance(300);
+  // the roll pauses (the pane opens) — the cause must still finish on its own
+  await page.evaluate(() => (window as any).__neural.setDeckOpen(true));
+  expect(await page.evaluate(() => !!(window as any).__neural.paused), "the roll is paused").toBe(true);
+  await page.waitForTimeout(1700);
   expect(
-    await page.evaluate(() => (window as any).__neural.evRef.current.style.opacity),
-    "the aged banner faded on its own",
-  ).toBe("0");
-
-  // and never a successor: a newer sentence releases the lease on its way in
-  const succ = await page.evaluate(async () => {
-    const a: any = (window as any).__neural;
-    a.setEvent("Too slow", "Answer revealed · −4% on this exchange", "bad");
-    a._evExpiry = (a.now || 0) - 6;
-    a.setEvent("Correct", "Odds up on this exchange", "good"); // the successor releases the stamp
-    return { stamped: a._evExpiry != null };
-  });
-  expect(succ.stamped, "the successor took the slot clean").toBe(false);
-  await j.advance(300);
-  expect(
-    await page.evaluate(() => (window as any).__neural.evRef.current.style.opacity),
-    "and no stale lease fades it",
-  ).toBe("1");
+    await page.evaluate(() => document.querySelectorAll(".ng-cause, .ng-hitpop").length),
+    "gone within ~1.6 s of wall clock, paused or not",
+  ).toBe(0);
 });

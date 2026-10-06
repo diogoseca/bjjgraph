@@ -835,7 +835,8 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 12
-        }
+        },
+        "deal_here": true
       },
       {
         "transition": "Escape Z-Lock Half Guard",

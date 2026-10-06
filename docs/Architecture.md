@@ -153,7 +153,26 @@ position -> technique -> original position is not a technique self-loop.
 - A position attempt's emitted `target` names the technique's base slug. Consumers select its
   attacker role node to read the exchange; the base reference does not give the hub edges.
 - `from_position` becomes structured origin metadata such as `fromPositionId` and `fromRole`.
-  It is not an additional outcome edge.
+  It is not an additional outcome edge. Every dealer (`build_hand`, `_mdp_mechanics`, `optionsFor`)
+  deals a listed technique only there, or where the listing carries `deal_here`: graph.json
+  `dealHere` on the position edge, the wire's `alsoFrom` posIds on the technique.
+- A listing may carry its **own outcome table**. graph.json puts it on the position edge
+  (`ownTable`, `outcomes`, `successRate`, `successRateByRuleset`). The wire puts it on the technique
+  as `cal.at[posId]`. Readers take it through one seam per language:
+  - Python on graph.json: `solve_edge_values.listing_view` (so `build_hand`, `Model`, FLOW and
+    `frame_reachable`). A dealt card carries the technique it was priced with (`Action.tech`), so
+    the canonical table is never re-read.
+  - JS and the wire: `ngKnowledgeCalAt` (knowledge-profile), used by the app's `_at` and the
+    adapter's `actAt`; the Python twin is `_mdp_mechanics.cal_at`.
+
+  Without a listing table, every seam returns the technique itself.
+- **A listing absent in one ruleset** is named on the technique as `absentAt: {frame: [posIds]}`
+  (`regenerate_neural_data.listing_absences`). These are listings the origin rule or `deal_here`
+  would deal, whose attempt is null in that frame, for a move the frame's node mask still admits.
+  `optionsFor`, `_mdp_mechanics.options` and `app_game` skip them, just as `build_hand` drops a null
+  attempt.
+  - The emitter prints its classification every run and refuses an examination of zero.
+  - It also refuses an absence that would empty its listing's main pass.
 - Submission family hubs are reference aggregators, not playable technique occurrences.
 
 The intended topology is:
@@ -282,7 +301,7 @@ into `source/public/static/neural/`; the loader uses `/static/neural/` as the da
 | --- | --- | --- |
 | `app/neural.js`, `app/neural.css` | Browser runtime and styles | Boot |
 | `graph-data.json` | Compact nodes, links, rates, outcomes, availability and value tables | Boot |
-| `flashcards/_index.json` | Deck inventory, card counts and shared-question credit index | Boot |
+| `flashcards/_index.json` | Deck inventory (keyed by share ordinal), card counts and shared-question credit index | Boot |
 | `curriculum.json` | Lessons, checkpoints, content tracks and modeled score weights | Boot |
 | `flashcards/<hash>.json` | Cards for a requested deck | On demand |
 | `content/<hash>.json` | Technique/position dossier or reference-page body | On demand |

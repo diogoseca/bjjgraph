@@ -300,7 +300,7 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (12% of attempts)
 
-- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (7% of attempts)
+- **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** (1% of attempts)
 
 - **[[Transitions/S-Mount Transition/Attacker|S-Mount Transition]]** (11% of attempts)
 
@@ -315,6 +315,8 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 - **[[Transitions/3-4 Mount to Technical Mount/Attacker|3-4 Mount to Technical Mount]]** (15% of attempts)
 
 - **[[Submissions/Americana/from 3-4 Mount/Attacker|Americana from 3-4 Mount]]** (8% of attempts)
+
+- **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (6% of attempts)
 
 
 ### Common Mistakes

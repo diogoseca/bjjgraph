@@ -3,6 +3,11 @@ import { journey } from '../dsl'
 
 // Mutation coverage: shared fixed-red threat palette and hidden threat odds fail the first journey.
 // An initial-render-only red override survives because the live refresh restores the score color.
+// THREAT CARDS PRINT WIN CHANCE (v1.207.0, owner 2026-09-29): your win chance if they try that move.
+// While you apply a submission their moves are their escapes, valued by the engine's escape probes
+// (v1.207.6). Mutant, recorded 2026-09-29: requesting no probes on a submission (the v1.207.2 rule)
+// turns the first journey red on its poll ("—" forever). While you DEFEND, the finish card is the
+// decision you are in and prints V(s), the legend's number (it printed EDGE's -100 before v1.207.0).
 
 test('@curated submission choices distinguish switching attacks, finishing, and opponent threats', async ({page})=>{
   const errors:string[]=[]; page.on('pageerror', e=>errors.push(e.message))
@@ -18,6 +23,7 @@ test('@curated submission choices distinguish switching attacks, finishing, and 
   const threats=page.locator('[data-choice-group="opponent"] [data-opponent-threat]')
   await expect(threats.locator('.ngodds')).toHaveCount(2)
   await expect(threats.first().locator('.ngbotrow > div')).toHaveText('Odds')
+  await expect.poll(()=>threats.locator('[data-threat-win]').allTextContents(),{timeout:45_000}).toEqual([expect.stringMatching(/%$/),expect.stringMatching(/%$/)])
   const marks=await threats.evaluateAll(cards=>cards.map(card=>({points:card.querySelector('.ngedge')?.textContent,color:(card.querySelector('.ngbar') as HTMLElement).style.background,odds:card.querySelector('.ngodds')?.textContent})))
   expect(marks[0].points).not.toBe(marks[1].points)
   expect(marks[0].color).not.toBe(marks[1].color)
@@ -34,14 +40,13 @@ test('@curated submission choices distinguish switching attacks, finishing, and 
   expect(await page.evaluate(()=>{const a=(window as any).__neural;return [a.currentPos,a.playerRole,a.moveCount]})).toEqual(before)
   await page.locator('[data-choice-close]').click()
   const kimura=own.locator('[data-tech="Kimura from Triangle Control"]')
-  await kimura.scrollIntoViewIfNeeded();await kimura.click()
-  await page.keyboard.press('Enter')
+  await kimura.scrollIntoViewIfNeeded();await kimura.click() // deterministic entry
   await j.advance(3000)
   await expect.poll(()=>page.evaluate(()=>(window as any).__neural.nodes[(window as any).__neural.currentPos].t)).toBe('Kimura from Triangle Control')
   await expect(own.locator('[data-choice-action="finish"]')).toHaveCount(1)
   await j.rig('resolve',[0]);await j.rig('outcome',[0])
   await own.locator('[data-choice-action="finish"]').click()
-  await page.keyboard.press('Enter');await j.advance(8000)
+  await j.advance(8000)
   expect(await j.lastOutcome()).toBe('win')
   expect(errors).toEqual([])
 })
@@ -57,18 +62,30 @@ test('@curated triangle defender sees escape actions and can preview the opponen
   await expect(own.locator('[data-choice-action="finish"]')).toHaveCount(0)
   await expect(page.locator('[data-choice-group="opponent"] [data-choice-action="finish"]')).toHaveCount(1)
   const finish=page.locator('[data-choice-group="opponent"] [data-choice-action="finish"]')
-  await expect(finish.locator('.ngedge')).toHaveText('-100')
+  await expect.poll(()=>page.locator('[data-legend-win]').getAttribute('data-win-chance'),{timeout:45_000}).toMatch(/%$/)
+  const vs=await page.locator('[data-legend-win]').getAttribute('data-win-chance')
+  await expect(finish.locator('[data-threat-win]')).toHaveText(vs!)
+  await expect(finish.locator('[data-threat-win]')).toHaveAttribute('title',/You are defending this now/)
   await expect(finish.locator('.ngbotrow > div')).toHaveText('Odds')
   const finishOdds=await finish.locator('.ngodds').textContent()
   await page.evaluate(()=>(window as any).__neural.refreshEscapeOdds())
   await expect(finish.locator('.ngodds')).toHaveText(finishOdds!)
-  await page.keyboard.press('1')
+  // The hand sorted itself ONCE when its values arrived (owner, 2026-09-29), so an escape's key is
+  // its CURRENT place in the tray, read off the tray.
+  const key=String((await own.locator('.ngchoice-title').allTextContents()).findIndex(t=>t.trim()==='Posture up')+1)
+  expect(key,'Posture up is in the tray').not.toBe('0')
+  // INSPECT IS SHIFT+DIGIT, THE DIGIT PLAYS (v1.218.1, owner 2026-10-05: an escape is "a choice i just
+  // chose, not to inspect but to move"). This spec pinned the old preview-first escape: a plain
+  // digit opened the preview and only its go button played the escape. Inverted on the owner's rule.
+  await page.keyboard.press('Shift+Digit'+key)
   await expect(page.locator('[data-choice-preview]')).toContainText('Posture up')
   await expect(page.locator('[data-choice-go]')).toHaveText('Posture up')
   await page.keyboard.press('Escape')
   await expect(page.locator('[data-choice-preview]')).not.toBeVisible()
   await j.rig('escape',[0])
-  await page.keyboard.press('1');await page.locator('[data-choice-go]').click()
+  await page.keyboard.press(key)
+  await expect(page.locator('[data-choice-preview]'),'the plain digit plays the escape: no preview').not.toBeVisible()
+  await expect(page.locator('[data-executing-tech="Posture up"]'),'...and the chosen escape stays on the table').toHaveCount(1)
   await j.advance(4000)
   const landed=await page.evaluate(()=>{const a=(window as any).__neural;return {role:a.playerRole,position:a.nodes[a.currentPos].posId,history:a.rollLog.map((r:any)=>r.key)}})
   expect(landed.role).toBe('top')

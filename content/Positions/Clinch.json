@@ -110,8 +110,8 @@
       {
         "transition": "Double Leg Entry",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 17
+          "gi": 1,
+          "nogi": 1
         }
       },
       {
@@ -189,6 +189,13 @@
         "attempt_probability": {
           "gi": 4,
           "nogi": 8
+        }
+      },
+      {
+        "transition": "Double Leg Finish",
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 16
         }
       }
     ],

@@ -391,63 +391,94 @@
         "transition": "Toreando Pass",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 16
+          "nogi": 18
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 15
+          "nogi": 17
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 13
+          "nogi": 14
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
         "transition": "X Pass",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 10
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Double Sleeve Guard/Top",
+            "probability": {
+              "gi": 45,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 19,
+              "nogi": null
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "Double Under Pass",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
         "transition": "Pass Double Sleeve Guard",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {
         "transition": "Toreando from Double Sleeve",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 10
+          "nogi": 11
         }
       }
     ],
@@ -814,21 +845,60 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 12
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 40,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 22,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 18,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Double Sleeve Guard/Bottom",
+            "probability": {
+              "gi": 46,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Omoplata Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 7
+          "nogi": 8
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 13
+          "nogi": 15
         }
       },
       {
@@ -842,49 +912,49 @@
         "transition": "Guard Recovery from Double Sleeve Guard",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 18
+          "nogi": 21
         }
       },
       {
         "transition": "Sickle Sweep",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Flower Sweep",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 9
+          "nogi": 10
         }
       },
       {
         "transition": "Pendulum Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
         "transition": "Armbar Setup from Double Sleeve",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 5
+          "nogi": 6
         }
       },
       {
         "transition": "Double Sleeve Sweep",
         "attempt_probability": {
           "gi": 7,
-          "nogi": 5
+          "nogi": 6
         }
       },
       {
         "transition": "Double Sleeve to De La Riva",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {

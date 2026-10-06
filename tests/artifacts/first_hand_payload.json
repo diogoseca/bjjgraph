@@ -1,51 +1,44 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. OBSERVED ONLY — nothing here is a threshold. first_hand_raw_bytes and boot_chunk_requests are ceilinged in budget_neural.json; first_hand_gzip_bytes is judged by the three-band policy in payload_policy.json, whose delta cap reads first_hand_gzip_core_bytes from this file when a baseline is accepted.",
-  "measured_at": "2026-09-22T20:51:39.146Z"
+  "measured_at": "2026-10-01T20:05:58.871Z"
  },
- "request_count": 13,
- "first_hand_raw_bytes": 1624677,
- "first_hand_gzip_bytes": 388904,
- "first_hand_gzip_core_bytes": 351666,
+ "request_count": 11,
+ "first_hand_raw_bytes": 1544341,
+ "first_hand_gzip_bytes": 392654,
+ "first_hand_gzip_core_bytes": 359553,
  "excluded_from_core": {
-  "postscript_gzip": 27676,
-  "chunk_gzip": 9562,
-  "chunk_requests": 4,
+  "postscript_gzip": 28221,
+  "chunk_gzip": 4880,
+  "chunk_requests": 2,
   "paths": [
    "/postscript.js",
    "/static/neural/content/26f92b01.json",
-   "/static/neural/flashcards/26f92b01.json",
-   "/static/neural/flashcards/294509fc.json",
-   "/static/neural/flashcards/b9e7d414.json"
+   "/static/neural/flashcards/26f92b01.json"
   ]
  },
  "start_position": "K-Guard Top",
  "charged_from_disk": [],
  "heaviest": [
   {
-   "path": "/static/neural/app/neural.js",
-   "raw": 581659,
-   "gzip": 176303
+   "path": "/static/neural/app/neural.js?v=1.216.0",
+   "raw": 672833,
+   "gzip": 205195
   },
   {
    "path": "/static/neural/graph-data.json",
-   "raw": 564485,
-   "gzip": 107260
-  },
-  {
-   "path": "/static/neural/flashcards/_index.json",
-   "raw": 163043,
-   "gzip": 20585
-  },
-  {
-   "path": "/static/neural/curriculum.json",
-   "raw": 96746,
-   "gzip": 20895
+   "raw": 580294,
+   "gzip": 107242
   },
   {
    "path": "/postscript.js",
-   "raw": 75657,
-   "gzip": 27676
+   "raw": 77030,
+   "gzip": 28221
+  },
+  {
+   "path": "/static/neural/curriculum.json",
+   "raw": 61149,
+   "gzip": 14778
   },
   {
    "path": "/index.css",
@@ -53,9 +46,9 @@
    "gzip": 10113
   },
   {
-   "path": "/static/neural/app/neural.css",
-   "raw": 34718,
-   "gzip": 7735
+   "path": "/static/neural/app/neural.css?v=1.216.0",
+   "raw": 37503,
+   "gzip": 8296
   },
   {
    "path": "/",
@@ -63,19 +56,14 @@
    "gzip": 7594
   },
   {
+   "path": "/static/neural/flashcards/_index.json",
+   "raw": 19058,
+   "gzip": 5038
+  },
+  {
    "path": "/static/neural/flashcards/26f92b01.json",
    "raw": 7521,
    "gzip": 2895
-  },
-  {
-   "path": "/static/neural/flashcards/294509fc.json",
-   "raw": 6353,
-   "gzip": 2393
-  },
-  {
-   "path": "/static/neural/flashcards/b9e7d414.json",
-   "raw": 5789,
-   "gzip": 2289
   },
   {
    "path": "/static/neural/content/26f92b01.json",
@@ -84,8 +72,8 @@
   },
   {
    "path": "/prescript.js",
-   "raw": 2518,
-   "gzip": 1181
+   "raw": 2765,
+   "gzip": 1297
   }
  ]
 }

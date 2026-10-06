@@ -7,7 +7,7 @@ import { curriculumMid } from "./personas"
  * TAP-AND-CARRY-ON — the after-loss latch: armed only by defeat, consumed by the next staging.
  *
  * A mid-curriculum player wins a roll, stages a new one (nothing mints — a win never arms the
- * sequence), then LOSES by defense expiry (the latch arms, but the loss itself mints nothing),
+ * sequence), then LOSES by a failed escape (the latch arms, but the loss itself mints nothing),
  * and stages again — EXACTLY one tap-and-carry-on coin mints and the latch disarms. A further
  * staging mints nothing; a second loss re-arms the latch, but the next staging still mints
  * nothing (the coin is mint-once) while STILL consuming the latch.
@@ -90,11 +90,12 @@ test("tap-and-carry-on: win→stage mints nothing; loss→stage mints exactly on
     await page.evaluate((i) => (window as any).__neural.stageRollAt(i), idx)
   }
 
-  // rigged defense-expiry LOSS from a STAGED (paused) roll — recipe verbatim from
+  // rigged LOSS from a STAGED (paused) roll — recipe originally from
   // holder-victory-defeat-blue-progress-untouched-by-loss: the staged hand deals while paused
   // (enterLand rides an ignorePause timer), unpause, FAIL the pick (resolve+outcome high),
-  // opponent goes for a rigged finish (opp-finish + opp-sub-pick low), then the defense window
-  // expires → tapped → endRound("lose"). Baselines are read BEFORE, targets are baseline+1.
+  // opponent goes for a rigged finish (opp-finish + opp-sub-pick low), then a rigged FAILED
+  // escape (escape high; was: the defense window expiring, retired in v1.133.0) → tapped →
+  // endRound("lose"). Baselines are read BEFORE, targets are baseline+1.
   const loseFromStaged = async () => {
     const caught0 = await beatCount("caught")
     const rollEnd0 = await beatCount("roll_end")
@@ -106,11 +107,28 @@ test("tap-and-carry-on: win→stage mints nothing; loss→stage mints exactly on
     await j.rig("outcome", [0.99])
     await j.rig("opp-finish", [0.01])
     await j.rig("opp-sub-pick", [0.01])
+    // v1.176.0 (cdc35cefe): a submission card's first pick only ENTERS its state (no resolve
+    // draw, so no failure and no opponent turn); the rigged FAIL is drawn at its Finish — the
+    // second pick of the same card. Mount Top's frozen hand leads with a submission today.
+    const firstIsSub = await page.evaluate(
+      (t) => ((window as any).__neural.nodes.find((n: any) => n.t === t) || {}).ty === "submissions",
+      opts[0],
+    )
     await j.pick(opts[0])
+    if (firstIsSub) {
+      await j.nextHand() // the submission state deals its own hand
+      await j.pick(opts[0]) // the Finish attempt the rigged resolve fails
+    }
     await pumpToCount("caught", caught0 + 1)
-    await j.advance(12000) // defense window onExpire → tapped → endRound("lose")
+    // v1.133.0 (e6f655a6a, "The clock moves to the question"): the escapes are UNTIMED — expiry
+    // reveals the drill's answer, it no longer taps you out. The loss is earned the way the core
+    // journey stakes-impact.spec.ts earns it: a rigged FAILED escape → tapped → endRound("lose").
+    // Same roll_end{outcome:'lose'}, so the same latch input.
+    await j.advance(800)
+    await j.rig("escape", [0.99])
+    await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
     await pumpToCount("roll_end", rollEnd0 + 1)
-    expect(await j.lastOutcome(), "the expired defense records a LOSS").toBe("lose")
+    expect(await j.lastOutcome(), "the failed escape records a LOSS").toBe("lose")
   }
 
   // ── Boot mid-curriculum, land the first LIVE roll at Mount Top ──
@@ -129,7 +147,12 @@ test("tap-and-carry-on: win→stage mints nothing; loss→stage mints exactly on
   expect(sub, "a submission option is dealt in the first hand from Mount Top").toBeTruthy()
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(sub as string)
+  // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS the
+  // submission state (deterministic travel, no resolve draw); its one "Finish" card — the same
+  // title — is where resolve is drawn and the roll ends. Same win, one extra pick.
+  await j.pick(sub as string) // establishes the submission state
+  await j.nextHand() // the submission state deals its own hand
+  await j.pick(sub as string) // its Finish action completes the exchange
   await pumpToCount("roll_end", 1)
   expect(await j.lastOutcome(), "roll #1 ends in a WIN").toBe("win")
 

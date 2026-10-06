@@ -313,7 +313,46 @@
         "attempt_probability": {
           "gi": 17,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 45,
+          "nogi": 47
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 47,
+              "nogi": 47
+            },
+            "result": "success"
+          },
+          {
+            "to": "Body Lock/Top",
+            "probability": {
+              "gi": 23,
+              "nogi": 23
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Double Leg Finish",
@@ -687,7 +726,54 @@
         "attempt_probability": {
           "gi": 25,
           "nogi": 22
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 37,
+          "nogi": 39
+        },
+        "outcomes": [
+          {
+            "to": "Clinch/Top",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Bottom",
+            "probability": {
+              "gi": 6,
+              "nogi": 6
+            },
+            "result": "success"
+          },
+          {
+            "to": "Body Lock/Bottom",
+            "probability": {
+              "gi": 37,
+              "nogi": 37
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "counter"
+          },
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Rolling to Guard",

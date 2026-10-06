@@ -381,7 +381,46 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 6
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 31,
+          "nogi": 28
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 28,
+              "nogi": 28
+            },
+            "result": "success"
+          },
+          {
+            "to": "Deep Half Guard/Top",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 27,
+              "nogi": 27
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Underhook Pass",

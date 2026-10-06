@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // PER-RULESET GRAPH EXCLUSION — the differential, measured on the real app and the real wire.
 //
 // THE RULE: a state or technique the active ruleset cannot produce is ABSENT, not de-ranked and
@@ -33,7 +34,7 @@ const R = (p) => resolve(HERE, "..", p);
 const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class DCLogic {}, { createRef: () => ({ current: null }) },
 );
 

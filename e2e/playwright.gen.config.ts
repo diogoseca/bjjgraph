@@ -25,7 +25,10 @@ export default defineConfig({
   timeout: 240_000, // same ceiling as core: real time only covers boots + evaluates
   retries: 0, // deterministic by design — a retry hides a rails bug
   workers: 1, // CPU-bound frame pumps; validation runs are additionally flock-serialized
-  reporter: [["list"], ["html", { outputFolder: "report-gen", open: "never" }]],
+  // gen-ledger-reporter.ts decides the run's verdict from e2e/gen/ledger.json: a red test the
+  // ledger does not name fails the run, and so does a named known-red that passed (v1.206.3 —
+  // until then the known-red set was prose, and it grew 13 → 40 with nothing failing).
+  reporter: [["list"], ["html", { outputFolder: "report-gen", open: "never" }], ["./gen-ledger-reporter.ts"]],
   use: {
     baseURL: "http://localhost:8127",
     viewport: { width: 1440, height: 900 },

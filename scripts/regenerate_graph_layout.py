@@ -158,6 +158,27 @@ def _load_prev_xy() -> dict[str, tuple[float, float]]:
     return {n["id"]: (n["x"], n["y"]) for n in prev.get("nodes", []) if "id" in n}
 
 
+def _load_prev_order() -> dict[str, int]:
+    """Read the existing OUTPUT_FILE's node ORDER -> {canonical id -> position} for preserve mode.
+
+    Preserve mode keeps each node's coordinates; it must keep its PLACE too. The node list is
+    graph.json traversal order, which drifts with how graph.json was last written, and this
+    array's order becomes graph-data.json's node order. That is the order "the first transition"
+    resolves in, and the order every comparator that ties hands its decision to (CLAUDE.md 6.6).
+    Found v1.212.1: a coordinate-preserving regeneration reordered all 1,448 nodes, so
+    seat-star.spec.ts's "first rep transition" became a different technique. Returns {} when there
+    is no prior file.
+    """
+    if not OUTPUT_FILE.exists():
+        return {}
+    try:
+        with OUTPUT_FILE.open() as f:
+            prev = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {n["id"]: i for i, n in enumerate(prev.get("nodes", [])) if "id" in n}
+
+
 def main(fresh: bool = False) -> None:
     try:
         import networkx as nx  # type: ignore
@@ -343,6 +364,7 @@ def main(fresh: bool = False) -> None:
     # `--fresh` forces a full deterministic re-embed.
     # ------------------------------------------------------------------
     prev_xy = {} if fresh else _load_prev_xy()
+    prev_order = {} if fresh else _load_prev_order()
     canon_ids = [to_canonical(n) for n in nodes]
     new_internal = [n for n, cid in zip(nodes, canon_ids) if cid not in prev_xy]
 
@@ -437,6 +459,15 @@ def main(fresh: bool = False) -> None:
             out_node["fromPositionId"] = meta["fromPositionId"]
             out_node["fromRole"] = meta["fromRole"]
         out_nodes.append(out_node)
+
+    # KEEP THE PRIOR ORDER (preserve mode): nodes the previous file had keep their place, new nodes
+    # follow in traversal order. Python's sort is stable, so ties keep traversal order.
+    if prev_order:
+        tail = len(prev_order)
+        out_nodes.sort(key=lambda nd: prev_order.get(nd["id"], tail))
+        kept = sum(1 for nd in out_nodes if nd["id"] in prev_order)
+        print(f"[regenerate_graph_layout] Preserve mode: {kept} node(s) kept their prior order, "
+              f"{len(out_nodes) - kept} new node(s) appended.")
 
     # Retarget + dedup links onto canonical (survivor) ids; drop self-loops and any
     # duplicate edge the collapse produced. Iterate `edges` in SORTED order — it is a

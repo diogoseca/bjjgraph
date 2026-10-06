@@ -22,6 +22,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _slug import slugify  # shared single-source slugify (node keys + alias map)
+# THE PAGE PATH IS QUARTZ'S RULE, kept in ONE place (v1.216.1). This module had its own copy, and so
+# did regenerate_explorer_tree.py and regenerate_md_from_json.py; all three now use _slug's. The name
+# `quartz_slug` stays because four modules import it from here (check_systems_payload,
+# regenerate_neural_data, tests/learning_content, tests/system_guides).
+from _slug import quartz_page_path as quartz_slug
 from _atomic_io import atomic_write_json
 from _ruleset import reduce_to_scalar, as_map, cell, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2); positions load raw since Q3
 import _votes  # forked {community, prior} votes schema — prior-blended per-ruleset rates (Phase 2.3b)
@@ -67,17 +72,6 @@ _COVERAGE_FAILURES: list[tuple[str, str]] = []
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
-
-def quartz_slug(name: str) -> str:
-    """Convert name to URL path matching Quartz's sluggify (case-preserving)."""
-    slug = name.strip()
-    slug = slug.replace('&', '-and-')
-    slug = slug.replace('%', '-percent')
-    slug = slug.replace('?', '')
-    slug = slug.replace('#', '')
-    slug = re.sub(r'\s+', '-', slug)
-    return slug
-
 
 # ---------------------------------------------------------------------------
 # Alias resolution — old references to merged/renamed techniques still resolve
@@ -165,6 +159,11 @@ def rewrite_aliases(graph: dict, pos_map: dict, tech_map: dict) -> int:
     for pos in graph.get('positions', {}).values():
         for t in pos.get('transitions', []):
             rewrite_technique_target(t)
+            for o in t.get('outcomes', []):              # a listing's own table (PR B)
+                new_to = _resolve_pos_or_tech(o.get('to', ''), pos_map, tech_map)
+                if new_to != o.get('to', ''):
+                    o['to'] = new_to
+                    count += 1
 
     for collection in ('transitions', 'submissions'):
         for entry in graph.get(collection, {}).values():
@@ -432,7 +431,8 @@ _EDGE_STATS: dict = {}
 def _reset_edge_stats() -> None:
     _EDGE_STATS.clear()
     _EDGE_STATS.update({'edges': 0, 'neutral_edges': 0, 'no_gi': 0, 'no_nogi': 0,
-                        'no_ap_key': 0, 'no_frame': [], 'dead_hands': []})
+                        'no_ap_key': 0, 'no_frame': [], 'dead_hands': [], 'deal_here': [],
+                        'own_table': [], 'own_table_errors': []})
 
 
 _reset_edge_stats()
@@ -465,7 +465,7 @@ def _position_edge(t: dict, state_id: str) -> dict:
         # rather than shipping an edge the state machine can enter and never leave.
         _EDGE_STATS['no_frame'].append(f"{state_id} -> {technique_name}")
 
-    return {
+    edge = {
         'technique': technique_name,
         'target': slugify(technique_name),
         'targetPath': quartz_slug(technique_name),
@@ -473,6 +473,83 @@ def _position_edge(t: dict, state_id: str) -> dict:
         'attemptProbability': headline,
         'attemptProbabilityByRuleset': ap_map,
     }
+    # THE LISTING-LEVEL DEALING RULE (v1.211.0). A technique is dealt only at its canonical
+    # origin (`fromPositionId`); `deal_here` is the one authored exception, set on a listing
+    # whose outcome table lands coherently from here (calibration/origin_coherence.json). The
+    # key is emitted only when true, so every other edge stays byte-identical, and every dealer
+    # reads it from here or from the wire's `alsoFrom` (build_hand, _mdp_mechanics, optionsFor).
+    if t.get('deal_here') is True:
+        edge['dealHere'] = True
+        _EDGE_STATS['deal_here'].append(f"{state_id} -> {technique_name}")
+    if 'outcomes' in t or 'success_rate' in t:
+        edge.update(_listing_table(t, f"{state_id} -> {technique_name}"))
+    return edge
+
+
+def _listing_table(t: dict, ref: str) -> dict:
+    """A LISTING'S OWN OUTCOME TABLE (v1.214.0, origin coherence PR B) -> the edge fields carrying it.
+
+    A technique has one canonical table, written for its origin. Played from an away listing, that
+    table sends a miss back to the ORIGIN, a teleport. A listing may therefore carry its own
+    `success_rate` and `outcomes` (calibration/listing_tables.json, an LLM persona panel), used
+    only when the move is played FROM this listing. Every reader takes them through one seam:
+    `solve_edge_values.listing_view` in Python, the wire's `cal.at[posId]` in JS.
+
+    - It requires `deal_here` (the schema says so too): a listing with its own table is dealt here.
+    - Cells are folded like a technique file's: one value, equal in both frames.
+    - A NULL FRAME IS ACCEPTED ONLY WHERE THE LISTING DOES NOT EXIST (v1.215.0): its attempt is null
+      in that frame, every cell and the rate are null there too, and the wire then names the listing
+      in the move's `absentAt[frame]`, which every dealer honours (regenerate_neural_data
+      .listing_absences). In a frame where the listing exists, a null cell or rate is still refused:
+      that is CLAUDE.md 3's re-animation trap (full-game review OCPRB1-FG item 6).
+    - The rate is the listing's own, per frame, with no community-vote stream (votes are keyed by
+      name). The table is rescaled to the headline rate, as the vote override rescales a
+      technique's, so its success cells equal its rate.
+    - Emitted only when authored, so every other edge stays byte-identical. Errors are collected
+      and hard-fail the run; nothing is silently dropped.
+    """
+    errs = _EDGE_STATS['own_table_errors']
+    if t.get('deal_here') is not True or 'success_rate' not in t or not t.get('outcomes'):
+        errs.append(f"{ref}: a listing table needs deal_here, success_rate and outcomes together")
+        return {}
+    absent = {rs for rs in RULESETS if cell(as_map(t.get('attempt_probability')), rs) is None}
+    if len(absent) == len(RULESETS):
+        errs.append(f"{ref}: the listing exists in no frame (its attempt is null in every one)")
+        return {}
+    rows = []
+    for o in t['outcomes']:
+        m = as_map(o.get('probability'))
+        if any(m.get(rs) is not None for rs in absent):
+            errs.append(f"{ref}: outcome {o.get('to')!r} carries a cell in a frame where the listing "
+                        f"does not exist (its attempt is null there)")
+            return {}
+        vals = [m.get(rs) for rs in RULESETS if rs not in absent]
+        if any(v is None for v in vals):
+            errs.append(f"{ref}: outcome {o.get('to')!r} has a null cell in a frame where the listing "
+                        f"exists; a null is allowed only where the listing's attempt is null too")
+            return {}
+        if len(set(vals)) != 1:
+            errs.append(f"{ref}: outcome {o.get('to')!r} must carry one probability, equal in both "
+                        f"frames (got {o.get('probability')!r})")
+            return {}
+        to_raw = o.get('to', '')
+        rows.append({'to': '/'.join(slugify(part) for part in to_raw.split('/')) if to_raw else '',
+                     'probability': vals[0], 'result': o.get('result', 'success')})
+    if sum(r['probability'] for r in rows) != 100:
+        errs.append(f"{ref}: the table sums to {sum(r['probability'] for r in rows)}, not 100")
+        return {}
+    rate = as_map(t['success_rate'])
+    by_frame = {rs: _rate_cell(cell(rate, rs)) for rs in RULESETS}
+    if any((by_frame[rs] is None) != (rs in absent) for rs in RULESETS):
+        errs.append(f"{ref}: the listing's rate must be null exactly in the frames where its attempt "
+                    f"is null (rate {t['success_rate']!r}, absent in {sorted(absent)})")
+        return {}
+    headline = by_frame['nogi']                     # default no-gi frame, as everywhere
+    fit = headline if headline is not None else by_frame['gi']
+    if any(r['result'] == 'success' for r in rows):
+        rows = _votes.rescale_dist_to_success(rows, int(round(fit)))
+    _EDGE_STATS['own_table'].append(ref)
+    return {'ownTable': True, 'successRate': headline, 'successRateByRuleset': by_frame, 'outcomes': rows}
 
 
 def _position_edges(raw_transitions: list, state_id: str, neutral: bool = False) -> list:
@@ -700,6 +777,12 @@ def _report_position_edges(n_roles: int) -> None:
               f"(no legal move in that ruleset): {shown}{more}")
     for ref in st['no_frame']:
         _RULESET_FAILURES.append((ref, 'attempt_probability exists in no ruleset frame'))
+    # Printed every run, zero included: a count that is never shown cannot be noticed going to 0.
+    print(f"  Listings dealt away from their technique's origin (deal_here): {len(st['deal_here'])}"
+          + (f" — {'; '.join(st['deal_here'])}" if st['deal_here'] else ''))
+    print(f"  Listings with their own outcome table (PR B): {len(st['own_table'])}")
+    for ref in st['own_table_errors']:
+        _RULESET_FAILURES.append((ref, 'malformed listing outcome table'))
 
 
 # ---------------------------------------------------------------------------
@@ -1682,7 +1765,7 @@ def generate_state_graph(project_root: Path) -> dict:
         return slug, False
 
     resolved_count = 0
-    sr_from_attacker = sr_from_hub = sr_defaulted = sr_null = 0
+    sr_from_attacker = sr_from_hub = sr_defaulted = sr_null = sr_own = 0
     for pos_data in positions.values():
         leaf = pos_data.get('hub', '')
         for t in pos_data.get('transitions', []):
@@ -1703,6 +1786,14 @@ def generate_state_graph(project_root: Path) -> dict:
             # be handed a fabricated 50 here. But it means the default is not the safety net
             # it looks like, so which branch actually supplies each edge is counted rather
             # than assumed — today 2543 of 2543 come from the attacker node.
+            if t.get('ownTable'):
+                # the listing's own rate (_listing_table) is what this edge deals; never overwrite it
+                if is_sub:
+                    _RULESET_FAILURES.append((f"{pos_data.get('hub', '?')} -> {t.get('technique')}",
+                                              'a listing outcome table is for transitions only'))
+                sr_own += 1
+                resolved_count += 1
+                continue
             att = coll.get(f"{resolved}/attacker", {})
             if 'successRate' in att:
                 sr_from_attacker += 1
@@ -1716,7 +1807,7 @@ def generate_state_graph(project_root: Path) -> dict:
             resolved_count += 1
     print(f"  Resolved {resolved_count} position transition target(s) by type "
           f"(successRate: {sr_from_attacker} from /attacker, {sr_from_hub} from hub, "
-          f"{sr_defaulted} defaulted to 50, {sr_null} null)")
+          f"{sr_defaulted} defaulted to 50, {sr_null} null, {sr_own} the listing's own)")
     if sr_defaulted:
         # Measured cause, on the divergent-fork fixture: one dropped Transitions file left 2
         # position edges with no attacker node, and they were handed a FABRICATED 50 that

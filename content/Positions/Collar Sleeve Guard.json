@@ -749,7 +749,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": null
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 57,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Front Headlock/Top",
+            "probability": {
+              "gi": 41,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 16,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Collar Sleeve Guard/Bottom",
+            "probability": {
+              "gi": 28,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Arm Drag to Back",

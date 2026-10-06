@@ -10,28 +10,33 @@ import { journey } from "../dsl";
  * there's two lists it always adds to the latest! It should let me select before adding, and
  * even show a create-inline option like YouTube does for playlists."
  *
- * The defect was SILENT MISFILING: `addToList(nodeId)` defaults to `activeListId`, so with two
+ * The defect was SILENT MISFILING: `addToList(nodeId)` defaulted to `activeListId`, so with two
  * lists every + landed in whichever was touched last, with the destination invisible. Nothing
- * looked wrong until a coach shared the wrong class.
+ * looked wrong until a coach shared the wrong class. (That fallback and the field itself are
+ * gone since the default-list retirement: `addToList` refuses a write with no list id.)
  *
  * The contract:
  *  1. ≥2 lists → the star opens a PICKER instead of adding. Choosing the non-active list files it
  *     THERE and leaves the other untouched (that pair is the bug's regression proof).
  *  2. The check state mirrors real membership and untoggles (the checkbox doubles as remove).
  *  3. An inline "New list" row names and files in ONE action.
- *  4. Zero lists → no empty picker: the first capture creates "Class · <date>" and files it,
- *     one tap, and the create affordance is one further tap away from the resulting ✓.
+ *  4. Zero and one list STILL ASK (v1.101.9, owner: "dont assume"): zero opens straight into the
+ *     name field, prefilled "Class · <date>"; one offers that list and a New list row. Neither is
+ *     a default — they are the absence of a choice, and nothing is filed until one is made.
  *  5. THE CLOCK KEEPS RUNNING while the picker is open, and the picker never covers the option
  *     hand past a decision (canon: capture never commits the move and never stops the clock).
- *  6. The destination is CHOSEN, never assumed: the likeliest is offered first and marked, and
- *     capture control's own accessible name.
+ *  6. THERE IS NO DEFAULT LIST (owner, 2026-09-23: "abolish the 'default' list annotation … we
+ *     always select the list to add/favorite something to right?"). The rows come in the Lists
+ *     panel's own recency order — `listsArray()`, most recently touched first, STRICT even inside
+ *     one millisecond — and no row is marked or labelled. The "DEFAULT" chip was a CSS `::after`
+ *     (helmet.html), invisible to textContent, so it is asserted on the computed pseudo-element.
  *  7. 390px: reachable, clamped inside the viewport, 44px rows.
  *
- * Rails: __neural.captureNode, .openListPicker, .pickList, .createListWith, .targetList(),
+ * Rails: __neural.captureNode, .openListPicker, .pickList, .createListWith, .listsArray(),
  *        .nodeInAnyList(), .paused, .lists
  * Handles: [data-list-picker], [data-list-pick="<listId>"], [data-list-pick-new],
- *          [data-list-pick-newname], [data-list-pick-create], [data-picker-default],
- *          [data-picker-default], [data-picker-check]
+ *          [data-list-pick-newname], [data-list-pick-create], [data-picker-check];
+ *          [data-picker-default] is asserted ABSENT
  */
 
 const SHOTS = resolve(__dirname, "../../tests/artifacts/chrome");
@@ -109,10 +114,10 @@ test("with two lists the star asks WHERE — and the list you choose is the one 
   const [tech] = await pickNodes(page, 1);
   await openExplore(page);
 
-  // premise: the old silent destination is the LATEST list
+  // premise: the old silent destination was the LATEST list — the one recency puts first
   expect(
-    await page.evaluate(() => (window as any).__neural.targetList()),
-    "premise: the default destination is the most recently made list",
+    await page.evaluate(() => (window as any).__neural.listsArray()[0]),
+    "premise: the most recently made list leads the recency order",
   ).toBe(newer);
 
   const add = await exploreAddFor(page, tech);
@@ -128,18 +133,15 @@ test("with two lists the star asks WHERE — and the list you choose is the one 
     "…and nothing has been filed yet",
   ).toEqual([0, 0]);
 
-  // the rows name both lists; the default is marked and comes first
+  // the rows name both lists, most recently touched first — and neither is marked
   await expect(page.locator("[data-list-pick]")).toHaveCount(2);
   const order = await page.evaluate(() =>
     Array.from(document.querySelectorAll("[data-list-pick]")).map((e) =>
       e.getAttribute("data-list-pick"),
     ),
   );
-  expect(order[0], "the destination a one-tap capture would use comes first").toBe(newer);
-  await expect(page.locator(`[data-list-pick="${newer}"]`)).toHaveAttribute(
-    "data-picker-default",
-    "1",
-  );
+  expect(order[0], "the list touched last comes first — an order, not a destination").toBe(newer);
+  await expect(page.locator("[data-picker-default]"), "no row is marked the default").toHaveCount(0);
 
   await page.locator(`[data-list-picker]`).screenshot({
     path: resolve(SHOTS, "picker-two-lists-desktop.png"),
@@ -217,6 +219,12 @@ test("the picker's checks mirror real membership, and tapping a checked row remo
 
   // tapping the checked row removes it from THAT list
   await j.clickByMouse(`[data-list-pick="${older}"]`, "the checked row");
+  // …and the toast names THAT list. `removeListItem` used to fall back to "today’s list" for a
+  // list without a name — which no list can be — beside an id fallback to the retired default.
+  expect(
+    await page.evaluate(() => (window as any).__neural.evKickerRef.current.textContent),
+    "the removal names the list it came out of",
+  ).toBe("Removed from “Monday fundamentals”");
   expect(
     await page.evaluate(
       (lid: string) => Object.keys((window as any).__neural.lists).indexOf(lid),
@@ -262,7 +270,7 @@ test("New list names and files in one action — the YouTube 'new playlist' row 
   const made = await page.evaluate(
     (nid: string) => {
       const a = (window as any).__neural;
-      const id = a.activeListId;
+      const id = a.listsArray()[0]; // the list just made is the most recently touched
       return { name: a.lists[id].name, items: a.lists[id].items, n: Object.keys(a.lists).length, has: a.nodeInAnyList(nid) };
     },
     tech.id,
@@ -275,7 +283,7 @@ test("New list names and files in one action — the YouTube 'new playlist' row 
   });
 });
 
-// ─────────────────────────────────────── 4. zero and one list stay one tap
+// ─────────────────────────────────────── 4. zero and one list still ask
 
 test("the star ALWAYS asks — nothing is filed into a list the reader did not choose @curated", async ({
   page,
@@ -317,7 +325,7 @@ test("the star ALWAYS asks — nothing is filed into a list the reader did not c
   await page.locator("[data-list-pick-newname]").press("Enter");
   const first = await page.evaluate(() => {
     const a = (window as any).__neural;
-    return { n: Object.keys(a.lists).length, items: a.lists[a.activeListId].items };
+    return { n: Object.keys(a.lists).length, items: a.lists[a.listsArray()[0]].items };
   });
   expect(first.n).toBe(1);
   expect(first.items).toEqual([tech.id]);
@@ -334,7 +342,7 @@ test("the star ALWAYS asks — nothing is filed into a list the reader did not c
   expect(
     await page.evaluate(() => {
       const a = (window as any).__neural;
-      return a.lists[a.activeListId].items.length;
+      return a.lists[a.listsArray()[0]].items.length;
     }),
   ).toBe(2);
 
@@ -420,46 +428,94 @@ test("the picker never stops the clock, and never sits over the option hand past
   ).toHaveCount(0);
 });
 
-// ─────────────────────────────────────── 6. the destination, chosen not assumed
+// ─────────────────────────────────────── 6. no default: an order, never a destination
 
-test("the picker offers a default FIRST, but files nothing until it is picked @curated", async ({
+/** The picker's rows as RENDERED, and what each one PAINTS after its name. The "DEFAULT" chip was
+ *  never text: helmet.html drew it as `.ng-listpicker-name::after{content:"default"}` off the
+ *  row's `data-picker-default` stamp, so neither textContent nor innerText could see it — the
+ *  computed pseudo-element is the only honest read of what the owner was looking at. */
+const pickerRows = (page: Page) =>
+  page.evaluate(() =>
+    Array.from(document.querySelectorAll("[data-list-pick]")).map((e) => {
+      const nm = e.querySelector(".ng-listpicker-name");
+      return {
+        id: e.getAttribute("data-list-pick"),
+        marked: e.hasAttribute("data-picker-default"),
+        after: nm ? getComputedStyle(nm, "::after").content : "(no name span)",
+      };
+    }),
+  );
+const paintsNothing = (after: string) => after === "none" || after === "normal";
+
+test("no list is the default — the picker's rows are the Lists panel's recency order, and nothing files until one is picked @curated", async ({
   page,
 }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
-  const { newer } = await seedTwoLists(page);
+  // SEEDED INSIDE ONE FROZEN MILLISECOND. Recency is each list's `t`, and two lists stamped in
+  // the same millisecond used to TIE and fall back to key-insertion order — oldest first — so the
+  // list touched last could sort second. A script, a spec or a same-frame create-and-file all
+  // land there; the stamp has to be strict, and this seed is what proves it is.
+  const { older, newer } = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const real = Date.now;
+    Date.now = () => 1_790_000_000_000;
+    try {
+      return { older: a.newList("Monday fundamentals"), newer: a.newList("Tuesday takedowns") };
+    } finally {
+      Date.now = real;
+    }
+  });
+  const [tech] = await pickNodes(page, 1);
+
+  // NOR IS THERE A DEFAULT UNDER THE HOOD. `addToList(id)` with no list used to read
+  // `listId || this.activeListId` and file into whichever list was touched last; a write that
+  // names no list is now REFUSED, and nothing lands anywhere.
+  const refused = await page.evaluate((id: string) => {
+    const a = (window as any).__neural;
+    const r = a.addToList(id);
+    return { reason: r.reason, added: r.added, filed: Object.values(a.lists).map((l: any) => l.items.length) };
+  }, tech.id);
+  expect(refused, "a write that names no list is refused, not guessed").toEqual({
+    reason: "no_list",
+    added: false,
+    filed: [0, 0],
+  });
   await openExplore(page);
 
   // v1.103.3 retired the persistent "Adding to <list>" line: it existed to make v1.99.5's SILENT
-  // default legible, and v1.102.0 removed the silent default — the picker always asks, so there is
-  // no destination left for a status line to name. Owner: it "shouldnt exist". What survives is
-  // the picker's own ordering: the would-be default is offered first and marked.
+  // default legible, and v1.102.0 removed the silent default. The "default" chip on the picker's
+  // first row outlived it by a year; this test is where it goes too.
   await expect(page.locator("[data-lists-target]"), "no standing destination line").toHaveCount(0);
 
-  const [tech] = await pickNodes(page, 1);
   const add = await exploreAddFor(page, tech);
   await add.click();
+  await expect(page.locator("[data-list-pick]")).toHaveCount(2);
 
-  const rows = page.locator("[data-list-pick]");
-  await expect(rows.first(), "the likeliest destination is offered first").toHaveAttribute(
-    "data-list-pick",
-    newer,
-  );
-  await expect(page.locator("[data-picker-default]"), "…and marked as the default").toHaveCount(1);
+  const first = await pickerRows(page);
+  expect(first.filter((r) => r.marked), "no row carries a default marker").toEqual([]);
+  expect(
+    first.filter((r) => !paintsNothing(r.after)),
+    "…and no row PAINTS one: nothing is drawn after a list's name",
+  ).toEqual([]);
+  expect(
+    first.map((r) => r.id),
+    "the list touched last is offered first — even when both were made in one millisecond",
+  ).toEqual([newer, older]);
+  expect(
+    first.map((r) => r.id),
+    "…which is exactly the order the Lists panel reads (listsArray) — one order, two surfaces",
+  ).toEqual(await page.evaluate(() => (window as any).__neural.listsArray()));
   expect(
     await page.evaluate(() =>
       Object.values((window as any).__neural.lists || {}).some((l: any) => (l.items || []).length),
     ),
-    "but nothing is filed until a row is chosen",
+    "and nothing is filed until a row is chosen",
   ).toBe(false);
 
-  // choosing the OTHER one files it there — the default is an offer, not a decision
-  const older = await page.evaluate(
-    (n: string) => Object.keys((window as any).__neural.lists).find((k) => k !== n)!,
-    newer,
-  );
-  await j.clickByMouse(`[data-list-pick="${older}"]`, "the other list");
+  // choosing the one offered SECOND files it there — an order is not a destination
+  await j.clickByMouse(`[data-list-pick="${older}"]`, "the list offered second");
   expect(
     await page.evaluate(
       (o: string) => ((window as any).__neural.lists[o].items || []).length,
@@ -467,6 +523,36 @@ test("the picker offers a default FIRST, but files nothing until it is picked @c
     ),
     "the technique lands in the list the reader picked",
   ).toBe(1);
+  // …and a removal that names no list is refused the same way — `older` is the list just used,
+  // i.e. exactly the one the retired fallback would have emptied
+  expect(
+    await page.evaluate(
+      (arg: { id: string; o: string }) => {
+        const a = (window as any).__neural;
+        // read `left` defensively: a fallback that removed the list's last item DELETES the list
+        return { removed: a.removeListItem(arg.id), left: a.lists[arg.o] ? a.lists[arg.o].items.length : 0 };
+      },
+      { id: tech.id, o: older },
+    ),
+    "a removal that names no list is refused, not guessed",
+  ).toEqual({ removed: false, left: 1 });
+
+  // THE ORDER FOLLOWS USE — the half that keeps the order claim from being vacuous. Filing into
+  // `older` touched it, so it leads now. A picker that forgot the ordering fails here or above:
+  // key-insertion and alphabetical both read [older, newer] above; a picker pinned to the list
+  // made last reads [newer, older] here.
+  const again = await exploreAddFor(page, tech);
+  await again.click();
+  await expect(page.locator("[data-list-pick]")).toHaveCount(2);
+  const second = await pickerRows(page);
+  expect(second.map((r) => r.id), "the list just used now comes first").toEqual([older, newer]);
+  expect(second.map((r) => r.id), "…still the panel's own order").toEqual(
+    await page.evaluate(() => (window as any).__neural.listsArray()),
+  );
+  expect(
+    second.filter((r) => r.marked || !paintsNothing(r.after)),
+    "and the list that now leads is not promoted to a default either",
+  ).toEqual([]);
 });
 
 

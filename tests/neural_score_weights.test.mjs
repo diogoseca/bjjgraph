@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // Pure-unit contract for THE SCORE TABLE (v1.145.13).
 //
 // Game Knowledge used to weight only the attacking third of the corpus: all 1,326 Defender decks
@@ -33,7 +34,9 @@ import { dirname, resolve } from "node:path";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const src = readFileSync(resolve(HERE, "../neural/src/app.src.jsx"), "utf8");
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+// The bundle concatenates neural/src/wire-keys.src.js and knowledge-profile.src.js above the class;
+// `knowledgeSource` (tests/_knowledge_profile_harness.mjs) is that same prelude, export-stripped.
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class DCLogic {}, { createRef: () => ({ current: null }) });
 
 const DIV = 10000000;
@@ -163,4 +166,50 @@ test("older payloads still score: v1.145.13 scoreWeights, and the flat weights b
   assert.equal(app({ belts: [], scoreWeights: WIRE }).scoreWeights()["Armbar from Mount|Attacker"], 0.3);
   assert.deepEqual(app({ belts: [], weights: { "Armbar from Mount|Attacker": 1 } }).scoreWeights(),
     { "Armbar from Mount|Attacker": 1 });
+});
+
+// ── THE ORDINAL-KEYED TABLE (v1.204.3) ──────────────────────────────────────────────────────
+//
+//     scoreWeightsByOrd = { div, p: {o, r, gi, nogi}, t: {o, gi, nogi} }
+//
+// The same table as FORK with every name replaced by its node's share ordinal (`p.r` is the
+// position seat, 0 Top / 1 Bottom); the app derives the names from `this.nodes`. The whole-corpus
+// differential against the emitter's name-keyed tables is tests/neural_wire_keys.test.mjs; this
+// pins the precedence and the per-frame reading on a fixture small enough to read.
+const ORD_NODES = [
+  { o: 11, ty: "positions", t: "Mount Top" },            // hub titles end "… Top" (posFamily)
+  { o: 40, ty: "submissions", t: "Armbar from Mount" },
+  { o: 52, ty: "transitions", t: "Collar Drag" },
+];
+const BY_ORD = {
+  div: DIV,
+  p: { o: [11, 11], r: [0, 1], gi: [3000000, 1000000], nogi: [3000000, 1000000] },
+  t: { o: [40, 52], gi: [3000000, 3000000], nogi: [6000000, 0] },
+};
+
+test("scoreWeightsByOrd wins over the name-keyed table and reads per frame, zeros absent", () => {
+  // a DIFFERENT name-keyed table beside it: if it were read, "Decoy" would appear
+  const decoy = { div: DIV, p: { k: ["Decoy|Top"], gi: [DIV], nogi: [DIV] }, t: { k: [], gi: [], nogi: [] } };
+  const a = app({ belts: [], scoreWeightsByOrd: BY_ORD, scoreWeightsByRuleset: decoy });
+  a.nodes = ORD_NODES;
+  assert.deepEqual(a.scoreWeights("gi"), {
+    "Mount|Top": 0.3, "Mount|Bottom": 0.1,
+    "Armbar from Mount|Attacker": 0.3, "Armbar from Mount|Defender": 0.3,
+    "Collar Drag|Attacker": 0.3, "Collar Drag|Defender": 0.3,
+  });
+  assert.deepEqual(Object.keys(a.scoreWeights("nogi")),
+    ["Mount|Top", "Mount|Bottom", "Armbar from Mount|Attacker", "Armbar from Mount|Defender"],
+    "the no-gi ZERO is absent, and the order is the wire's");
+});
+
+test("an ordinal on the wrong kind of node is counted, announced, and never named", () => {
+  // a `t` ordinal that lands on a POSITION is a remapped wire: naming it "Mount|Attacker" would
+  // be a plausible lie. It is skipped, and the app says so.
+  const bad = JSON.parse(JSON.stringify(BY_ORD));
+  bad.t.o[0] = 11;
+  const a = app({ belts: [], scoreWeightsByOrd: bad });
+  a.nodes = ORD_NODES; a.beats = []; a.noteChallenges = () => {};
+  const w = a.scoreWeights("gi");
+  assert.ok(!("Mount|Attacker" in w) && !("Armbar from Mount|Attacker" in w));
+  assert.deepEqual(a.beats.filter((b) => b.beat === "wire_key_unresolved").map((b) => b.unresolved), [1]);
 });

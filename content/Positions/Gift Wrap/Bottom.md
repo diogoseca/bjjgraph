@@ -21,37 +21,37 @@ description: "Defensive concepts and escape strategies from Gift Wrap bottom pos
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap Arm Recovery",
-      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap Arm Recovery. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Remove Hooks",
-      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Remove Hooks. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -428,12 +428,12 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Decisions</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position reference; graph linkage does not establish inclusion in the course.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Branches</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back-Attack Study</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling into Submission Attacks</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Entries and Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Riding Control with Power Ride</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position reference; graph linkage does not establish inclusion in the course.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Submission-Clinic-System" data-cta="related-system-card" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Kimura Control and Attacks</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon: Wrestling, Scrambles and Submissions</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Back Attacks</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Riding-Control-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-riding-control-system" data-system-name="Craig Jones Riding Control System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones: Riding Control with Power Ride</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related BJJGraph position.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

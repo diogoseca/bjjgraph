@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // THE SEAT AXIS, ON THE APP'S SIDE — every deck the build ships must be one the app can ask for.
 //
 // The corpus half of this invariant is scripts/validate_seat_decks.py (S1 purity, S2 ownership,
@@ -39,6 +40,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { ngWireDecks } from "../neural/src/wire-keys.src.js";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
@@ -46,7 +48,7 @@ const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 const MANIFEST = JSON.parse(readFileSync(R("source/quartz/static/neural/flashcards/_index.json"), "utf8"));
 
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class DCLogic {}, { createRef: () => ({ current: null }) },
 );
 
@@ -61,7 +63,12 @@ function app(mutate) {
 }
 
 const APP = app();
-const DECKS = MANIFEST.decks;
+// The manifest keys decks by share ordinal (format 4, v1.204.3); decode it with the ONE reader the
+// app, the digest Worker and e2e/decks.ts share, against the raw wire's nodes. A decode that
+// dropped an ordinal would shrink `shipped` below and read as "fewer decks", so it is refused here.
+const DECODED = ngWireDecks(MANIFEST, WIRE.nodes);
+if (DECODED.unresolved || DECODED.dupes) throw new Error(`manifest decode: ${DECODED.unresolved} unresolved, ${DECODED.dupes} dupes`);
+const DECKS = DECODED.decks;
 const SITES = APP.nodes.filter((n) => n.rep);
 
 // ── 1: THE BIJECTION ────────────────────────────────────────────────────────────────────────
@@ -167,8 +174,8 @@ test("ordinary position options use Attacker decks; submission defenses use thei
   for (const p of a.nodes.filter((n) => n.ty === "positions" && !n.cal?.stateAlias)) {
     a.currentPos = p.idx;
     a.playerRole = p.role === "bottom" ? "bottom" : "top";
-    let o;
-    try { o = a.optionsFor(p.idx); } catch { continue; }
+    // A failed deal is a harness/runtime error, never an absent seat.
+    const o = a.optionsFor(p.idx);
     if (!o || !o.length) continue;
     states++;
     for (const x of o) {
@@ -179,6 +186,6 @@ test("ordinary position options use Attacker decks; submission defenses use thei
     }
   }
   assert.equal(states, 242, "distinct positions each deal both seats"); // census:positionChoiceSeats
-  assert.equal(options, 1213, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
+  assert.equal(options, 1316, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

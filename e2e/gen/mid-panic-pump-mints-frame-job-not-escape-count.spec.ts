@@ -13,6 +13,11 @@ import { curriculumMid } from "./personas"
  *     mint-once idempotence: a second escape_odds_pumped can never re-mint or re-stamp.
  *   - app.src.jsx ~4444 — the [data-panic-got] grade fires
  *     fx("escape_odds_pumped", { deck_key }).
+ *     RE-PINNED by the gen-suite triage (dev 8d6ae5d01, v1.206.2): since v1.135.0 (0c4fbc53d)
+ *     the drill is MULTIPLE CHOICE when the pool is warm (buildPanicCard → _mcBlock; a correct
+ *     answer's `done(true)` fires the SAME escape_odds_pumped), and reveal/got is only the
+ *     cold-pool fallback — so `[data-panic-reveal]` was absent and gradePanic went red. It now
+ *     answers whichever block mounted, correctly; both exchanges ran the MC block when re-pinned.
  * So grading the panic drill (evidence: you studied the defense) mints frame-job
  * IMMEDIATELY while the escape counter stays at zero, and the actual escape (outcome:
  * you got out) advances the counter WITHOUT minting anything — Houdini
@@ -115,10 +120,23 @@ test("catch → panic grade mints frame-job with escape count at zero; the escap
     }
     expect(caught, `catch #${nth} landed within the 4-move budget`).toBe(true)
   }
+  // v1.135.0 (0c4fbc53d): the panic drill is MULTIPLE CHOICE when the pool is warm — the
+  // reveal/got recall pair survives only as the cold-pool fallback, which is why the old
+  // `[data-panic-reveal]` wait found nothing. Grade whichever block the card mounted, CORRECTLY
+  // (the guidance-defense.spec.ts idiom): only a right answer pumps, on either block.
   const gradePanic = async () => {
-    await expect(page.locator("[data-panic-reveal]"), "panic drill up while caught").toBeVisible()
-    await page.locator("[data-panic-reveal]").click()
-    await page.locator("[data-panic-got]").click()
+    await expect(page.locator("[data-panic]"), "panic drill up while caught").toBeVisible()
+    const mcCorrect = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const card = document.querySelector("[data-panic]")
+      return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
+    })
+    if (mcCorrect != null) {
+      await page.locator(`[data-panic-mc-opt="${mcCorrect}"]`).click()
+    } else {
+      await page.locator("[data-panic-reveal]").click()
+      await page.locator("[data-panic-got]").click()
+    }
   }
   const escapeOut = async (nth: number) => {
     await j.rig("escape", [0.01]) // < the 0.08 escapeChance floor — always lands

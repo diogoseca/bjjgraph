@@ -38,7 +38,7 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
   }
 
   // request a technique: modal, typed text, send → ONE capture with the text + context node
-  await page.locator('[data-feedback="technique"]').click();
+  await j.clickByMouse('[data-feedback="technique"]', "the technique entry");
   await page.waitForTimeout(300);
   const ta = page.locator("[data-feedback-text]");
   await expect(ta).toBeVisible();
@@ -88,8 +88,9 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
     return parseFloat(m);
   });
   expect(strayMargin, "Quartz's task-list gutter pull does not reach a checkbox outside .page article").toBeGreaterThanOrEqual(0);
-  await ta.fill("Imanari roll entry to saddle from combat base");
-  await page.locator("[data-feedback-send]").click();
+  await j.clickByMouse("[data-feedback-text]", "the technique textarea");
+  await page.keyboard.type("Imanari roll entry to saddle from combat base");
+  await j.clickByMouse("[data-feedback-send]", "send the technique request");
   await page.waitForTimeout(200);
 
   const ev = await page.evaluate(() => (window as any).__phEvents);
@@ -97,14 +98,15 @@ test("the feedback row rides the pane foot on every tab, and a request reaches P
   expect(mine, "exactly one capture").toHaveLength(1);
   expect(mine[0].p.text).toBe("Imanari roll entry to saddle from combat base");
   expect(mine[0].p.node, "the context node rode along").toBeTruthy();
-  expect(await page.evaluate(() => document.querySelector("[data-feedback-text]") === null || getComputedStyle(document.querySelector(".ng-modal") || document.body).display !== "flex" || true)).toBe(true);
+  await expect(page.locator(".ng-modal"), "Send closes the modal").toBeHidden();
 
   // report an issue: the OTHER event name, and an empty send goes nowhere
-  await page.locator('[data-feedback="issue"]').click();
+  await j.clickByMouse('[data-feedback="issue"]', "the issue entry");
   await page.waitForTimeout(300);
-  await page.locator("[data-feedback-send]").click(); // empty — must not capture
-  await page.locator("[data-feedback-text]").fill("The escape tray overlapped the card");
-  await page.locator("[data-feedback-send]").click();
+  await j.clickByMouse("[data-feedback-send]", "empty Send must not capture");
+  await j.clickByMouse("[data-feedback-text]", "the issue textarea");
+  await page.keyboard.type("The escape tray overlapped the card");
+  await j.clickByMouse("[data-feedback-send]", "send the issue report");
   await page.waitForTimeout(200);
   const ev2 = await page.evaluate(() => (window as any).__phEvents);
   const issues = ev2.filter((x: any) => x.e === "neural_issue_reported");

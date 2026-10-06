@@ -1,3 +1,48 @@
+// == HARNESS CONSTRAINT: NO TESTED CONFIGURATION REPRODUCES PRODUCTION (D-D-05, corrected D-D-06) ==
+//
+// This spec requests 3 route(s) emitted TWICE - as `X.html` AND `X/index.html` - and the two are
+// DIFFERENT DOCUMENTS, not copies (different `data-slug`; the folder copy usually lacks
+// `#page-graph-data`). Which one you get depends on the server, and NO server we have tested
+// serves what production serves:
+//
+//   production                  /X -> FLAT     /X/ -> FOLDER    both 200, NEITHER redirects
+//   `serve` (ALL TEN configs)   /X -> FOLDER   /X/ -> FOLDER    /X.html -> 301 to /X -> FOLDER
+//   `dev-serve.mjs`, NORMALLY   /X -> FOLDER   /X/ -> FOLDER    IDENTICAL - see below
+//   `dev-serve.mjs`, PAIRED     /X -> FLAT     /X/ -> FOLDER    <- this one MATCHES production
+//
+// DEV-SERVE DOES NOT MATCH PRODUCTION, AND READING ITS SOURCE SUGGESTS IT DOES. `resolveHtml`
+// (`scripts/dev-serve.mjs:352-363`) really does try `X.html` first for a bare route - but it has
+// exactly ONE call site, `:387`, inside the paired-session branch guarded by `pairedToken()`. The
+// normal static path is `:415`, `serveHandler(req, res, {public: STATIC_ROOT, etag: true})` -
+// serve-handler, the SAME library `serve` uses, with cleanUrls left at default on purpose
+// (`:412-413`: "cleanUrls and directoryListing are already serve-handler defaults - don't
+// override"). THREE PEOPLE READ THAT FUNCTION AND NONE CHECKED WHETHER IT RUNS. CLAUDE.md 6.8:
+// verifying that code says the right thing is not verifying that it executes.
+//
+// AND IT IS NOT A STABLE PROPERTY OF A MODE - IT IS A LIVE FLIP ON A 2-SECOND POLL.
+// `pairedToken()` (`:211-217`) caches for 2000 ms and re-reads `e2e/paired/.session/bridge-token`
+// on expiry, so dev-serve's URL RESOLUTION CHANGES WITHIN TWO SECONDS of that file appearing or
+// vanishing, on a running server, with no restart. Note the DIRECTION: paired ON -> resolveHtml ->
+// bare serves the FLAT file -> MATCHES PRODUCTION. Paired OFF -> serve-handler -> bare serves the
+// FOLDER copy. SO ATTACHING THE DEBUGGER MAKES THE SERVER MORE FAITHFUL, NOT LESS - a defect that
+// exists only in the folder copy would VANISH the moment someone attached paired debugging to
+// investigate it, and return when they detached. The discrepancy hides from the one tool that
+// would find it.
+//
+// SO THE ASSERTIONS BELOW RUN AGAINST THE FOLDER COPY, a strictly degraded clone - 1,506 of 1,518
+// folder copies carry no `#page-graph-data` and pair deltas reach 35,637 bytes. No exposed spec
+// references `#page-graph-data` or `__rollPositions`, so the known-missing block is asserted
+// nowhere; but the documents differ by 6-25 KB, so anything asserting layout, element counts or
+// positions could move if the resolver changes.
+//
+// Affected route(s) here: /Submissions/Americana/from-Kimura-Trap, /Submissions/Kimura, /Transitions/Side-Control-to-Mount
+//
+// DO NOT "FIX" THIS BY ADDING A TRAILING SLASH OR A `.html` SUFFIX. Under the CURRENT config both
+// still land on the folder copy. Under `cleanUrls:false` the `.html` form DOES reach the flat file
+// (200, no redirect) - but bare `/X` and `/X/` then return a DIRECTORY LISTING (~19 KB, "Files
+// within ..."), trading an unreachable document for a canonical URL that serves a file index. A
+// faithful harness needs rewrite rules, a different server, or a tree without the duplicates.
+// None of those is measured yet; quartz-cto is not naming a fix until one is.
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 
@@ -453,10 +498,11 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   expect(white.recall).toBe(false)
 
   // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
-  // ("for blue belts at least … flashcard Q/A, not MC" — owner). gameScore is the rank seam.
+  // ("for blue belts at least … flashcard Q/A, not MC" — owner). The rank is the WORN belt since
+  // v1.211.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
   await page.evaluate(() => {
     const a = (window as W).__neural
-    a.gameScore = () => ({ score: 0.45, belt: "blue", next: null, stripes: 0 })
+    a.belts.held = { id: "blue", t: Date.now() }
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
@@ -478,6 +524,12 @@ test("arriving on the defending side brings the red rush — no play button in b
   // arriving on) the ESCAPING side IS choosing to be caught. No setPaused, no latch.
   await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
   await j.advance(8000)
+  // The sim clock cannot finish the real submission-choices fetch. Wait for its
+  // automatic defense handoff; no click or direct state mutation may start it.
+  await page.waitForFunction(() => {
+    const a = (window as W).__neural
+    return a?._defendSub != null && !a._waitingSubmission
+  }, null, { timeout: 20000 })
   const s = await page.evaluate(() => {
     const a = (window as W).__neural
     return {

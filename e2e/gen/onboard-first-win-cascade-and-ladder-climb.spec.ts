@@ -22,7 +22,7 @@ import { firstRollDay1 } from "./personas"
  *     durMs = hops*110 <= 1430 — structurally under the 1.5s cap for ANY roll length. The assert
  *     is a RANGE check (<=1500), never a literal ==110, so it holds regardless of trail length.
  *   - finish @3816 then roll_end{outcome:"win"} @3817 close the round, in that order.
- *   - ladderState() @4121 defaults rank to 1 when "bjj-neural-ladder" is absent and never writes
+ *   - ladderState() @4121 defaults rank to 1 when "bjj-neural-owner:guest:ladder" is absent and never writes
  *     on read; ladderMove(1) @4130 emits ladder_up{rank:next,capped:next===st.rank} and persists
  *     {rank:next}. From baseline rank 1 → ladder_up{rank:2,capped:false}, store == {"rank":2}.
  *   - A submission finish reaches endRound("win") via the ty short-circuit in enterSuccess @4502
@@ -62,7 +62,7 @@ test("newcomer first win: finish→roll_end 'win', bounded victory_cascade + fir
     const a = (window as any).__neural
     return {
       rank: a.ladderState().rank,
-      ladderStore: localStorage.getItem("bjj-neural-ladder"),
+      ladderStore: localStorage.getItem("bjj-neural-owner:guest:ladder"),
       staged: !!a._beltTest,
     }
   })
@@ -91,7 +91,12 @@ test("newcomer first win: finish→roll_end 'win', bounded victory_cascade + fir
   //    deterministic under curriculum reshuffles. ──
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(sub as string)
+  // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS the
+  // submission state (deterministic travel, no resolve draw, no endRound); its one "Finish" card
+  // — the same title — is where resolve is drawn and the roll ends. Same first win.
+  await j.pick(sub as string) // establishes the submission state
+  await j.nextHand() // the submission state deals its own hand
+  await j.pick(sub as string) // its Finish action completes the exchange
   await j.advance(8000)
 
   // ── CELEBRATION: finish then roll_end record the win (order asserted below) ──
@@ -115,7 +120,7 @@ test("newcomer first win: finish→roll_end 'win', bounded victory_cascade + fir
       ladderUpCount: beats.filter((b) => b.beat === "ladder_up").length,
       wonCount: beats.filter((b) => b.beat === "belt_test_won").length,
       liveRank: a.ladderState().rank,
-      ladderStore: localStorage.getItem("bjj-neural-ladder"),
+      ladderStore: localStorage.getItem("bjj-neural-owner:guest:ladder"),
       staged: !!a._beltTest,
       // beat ORDER: cascade fires before ladder_up before finish before roll_end (source @3810-3817)
       iCascade: order.lastIndexOf("victory_cascade"),

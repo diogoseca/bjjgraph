@@ -39,7 +39,7 @@ import { srsVeteran } from "./personas"
 async function openSheet(page: Page, technique: string, cycle: number) {
   const card = page.locator(`[data-tech="${technique}"]`).first()
   await expect(card, `cycle ${cycle}: option card for "${technique}" visible`).toBeVisible()
-  await card.click()
+  await card.locator("[data-choice-inspect]").click()
   await expect(page.locator("[data-go]").first(), `cycle ${cycle}: expand-sheet Execute button visible`).toBeVisible()
 }
 
@@ -62,7 +62,7 @@ const snap = (page: Page, baseline: number) =>
     const beats = (a.beats || []).slice(base)
     let persistedCoin = false
     try {
-      const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+      const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
       persistedCoin = !!(blob.coins && blob.coins["oss-and-found"])
     } catch {}
     return {

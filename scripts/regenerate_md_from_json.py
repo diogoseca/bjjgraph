@@ -20,7 +20,7 @@ from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _slug import slugify  # shared single-source slugify
+from _slug import slugify, quartz_page_path  # shared slugify, and Quartz's page-path rule
 from _ruleset import is_ruleset_map, present_rulesets  # the per-ruleset contract (calibration-v2)
 from _ruleset import cell as _ruleset_cell             # one frame's value, or None where it does not exist
 from _votes import migrate_entry, folded_rate  # published (folded-votes) rate for display (2.3)
@@ -352,13 +352,8 @@ _JINJA_ENV.filters["outcomes_absence_note"] = _outcomes_absence_note
 _JINJA_ENV.tests["absent"] = _is_absent
 
 
-def _quartz_url_slug(name: str) -> str:
-    """URL path segment matching Quartz / regenerate_graph.quartz_slug (case-preserving,
-    spaces->hyphens). Used to build hrefs to content pages from raw HTML."""
-    s = str(name).strip()
-    s = s.replace('&', '-and-').replace('%', '-percent').replace('?', '').replace('#', '')
-    s = re.sub(r'\s+', '-', s)
-    return s
+# hrefs to content pages from raw HTML: Quartz's page-path rule, the one copy in _slug (v1.216.1)
+_quartz_url_slug = quartz_page_path
 
 
 _JINJA_ENV.filters["quartz_url_slug"] = _quartz_url_slug

@@ -8,16 +8,18 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  * opponent ladder (rank 1); the ladder must clamp at the floor, never hit 0 or negative,
  * and never underflow the roster index.
  *
- * Seams under test (probe-verified twice, 3.8s/3.3s, byte-identical beat streams):
- *   - endRound("lose") fires defeat_drain THEN ladderMove(-1) (neural/src/app.src.jsx:3813-3814)
- *     — the drain is unconditional on a loss, clamp or not, and precedes the ladder beat.
- *   - ladderMove(dir) clamps via Math.max(1, Math.min(ladderNames().length, rank + dir))
- *     (app.src.jsx:4130-4136) and STILL EMITS the ladder_down beat when clamped, carrying
- *     { rank: 1, capped: true } (capped = next === st.rank) — the exact down-branch mirror of
- *     the ceiling's capped ladder_up. It also persists {"rank":1} to bjj-neural-ladder even
- *     when the rank did not change.
- *   - ladderState() maps rank → opponent via names[Math.min(names.length, rank) - 1]
- *     (app.src.jsx:4121-4128) — at the floor that is names[0], never names[-1].
+ * Seams under test (probe-verified twice, 3.8s/3.3s, byte-identical beat streams; cited by
+ * symbol in neural/src/app.src.jsx — the line numbers this header carried had drifted
+ * ~8,500-11,500 lines):
+ *   - `endRound("lose")` fires defeat_drain THEN ladderMove(-1) — the drain is unconditional
+ *     on a loss, clamp or not, and precedes the ladder beat.
+ *   - `ladderMove(dir)` clamps via Math.max(1, Math.min(ladderNames().length, rank + dir))
+ *     and STILL EMITS the ladder_down beat when clamped, carrying { rank: 1, capped: true }
+ *     (capped = next === st.rank) — the exact down-branch mirror of the ceiling's capped
+ *     ladder_up. It also persists {"rank":1} to bjj-neural-ladder even when the rank did not
+ *     change.
+ *   - `ladderState()` maps rank → opponent via names[Math.min(names.length, rank) - 1] — at
+ *     the floor that is names[0], never names[-1].
  *
  * BASELINE NEEDS NO PINNING (unlike the ceiling spec and the floor-clear -1 in the
  * holder-victory-defeat spec): boot's storage wipe leaves bjj-neural-ladder ABSENT, so
@@ -34,10 +36,24 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *   - returner-ladder-independent-of-blob — owns the ladder-vs-blob independence ground
  *     (rejected here; no blob assertions below).
  *
- * Determinism: every draw is rigged. land() rigs the intro's ambient draws itself; the loss
- * recipe is verbatim from the holder-victory-defeat spec (defense-clock expiry — no escape
- * draw exists on that path). No content-text assertions: the played option is optionTitles()[0]
- * by position, the opponent is compared app-to-app against ladderNames()[0].
+ * Determinism: every draw that can decide the exchange is rigged (resolve, outcome, opp-finish,
+ * opp-sub-pick, escape — each a one-deep queue, all consumed). The landing and panic MC
+ * pick/shuffle draws are not: no question is answered, so they cannot change the result.
+ * land() rigs the intro's ambient draws itself. No
+ * content-text assertions: the played option is optionTitles()[0] by position, the opponent is
+ * compared app-to-app against ladderNames()[0].
+ *
+ * THE LOSS RECIPE MOVED TWICE (re-targeted 2026-10-01, gen-suite triage; the claim — a loss
+ * at rank 1 clamps — is untouched, only how the loss is produced changed):
+ *   - v1.133.0 (e6f655a6a, "The clock moves to the question"): the escapes are UNTIMED; letting
+ *     the defense window expire no longer taps you out ("slow on the drill no longer loses the
+ *     round; only a failed escape does"). The loss is now a rigged FAILED escape (escape 0.99 >
+ *     the 0.92 escapeChance ceiling) → `finish` → endRound("lose") — the successor recipe the
+ *     core journey stakes-impact.spec.ts adopted in that commit.
+ *   - v1.176.0 (cdc35cefe, "Give submission states their own choices"): picking a SUBMISSION
+ *     card only ENTERS its state (no resolve draw — nothing fails, the opponent never moves).
+ *     Mount Top's EDGE-ranked hand leads with one today, so the rigged fail lands on its
+ *     "Finish" card, the second pick of the same title (core: restart-hygiene.spec.ts).
  */
 
 const WHITE_ID: string = CURRICULUM.belts[0].id // "white" at authoring time
@@ -66,30 +82,41 @@ test("ladder floor: a loss at rank 1 clamps — one capped ladder_down after def
       rank: st.rank,
       opponent: st.opponent,
       firstName: a.ladderNames()[0],
-      store: localStorage.getItem("bjj-neural-ladder"),
+      store: localStorage.getItem("bjj-neural-owner:guest:ladder"),
     }
   })
   expect(base.store, "fresh-boot wipe left bjj-neural-ladder absent — floor comes from the default").toBeNull()
   expect(base.rank, "unpinned baseline sits exactly at the floor (rank 1)").toBe(1)
   expect(base.opponent, "floor rank faces the FIRST roster opponent (app-to-app compare)").toBe(base.firstName)
 
-  // ── DEFENSE-EXPIRY LOSS at the floor (verbatim recipe from the holder-victory-defeat spec):
-  //    the player move FAILS (resolve+outcome high) → opponent turn → rigged submission attempt
-  //    (opp-finish low ⇒ finish path, opp-sub-pick low ⇒ deterministic sub) → the defense CLOCK
-  //    expires (no escape draw on this path) → tapped → endRound("lose"). ──
+  // ── FAILED-ESCAPE LOSS at the floor: the player move FAILS (resolve+outcome high) → opponent
+  //    turn → rigged submission attempt (opp-finish low ⇒ finish path, opp-sub-pick low ⇒
+  //    deterministic sub) → caught → a rigged FAILED escape (escape high) → tapped →
+  //    endRound("lose"). (Was: the defense clock expiring — retired in v1.133.0, see header.) ──
   const options = await j.optionTitles()
   expect(options.length, "a fresh hand of options was dealt for the loss phase").toBeGreaterThan(0)
   await j.rig("resolve", [0.99])
   await j.rig("outcome", [0.99])
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
+  const firstIsSub = await page.evaluate(
+    (t) => ((window as any).__neural.nodes.find((n: any) => n.t === t) || {}).ty === "submissions",
+    options[0],
+  )
   await j.pick(options[0])
+  if (firstIsSub) {
+    // v1.176.0: the first pick ENTERS the submission state; the rigged fail is its Finish
+    await j.advance(3000)
+    await j.pick(options[0])
+  }
   await j.advanceUntil("caught", 20000)
-  await j.advance(12000) // defense window onExpire → tapped → endRound("lose")
+  await j.advance(800)
+  await j.rig("escape", [0.99]) // > the 0.92 escapeChance ceiling: the escape always fails
+  await page.evaluate(() => { const a = (window as any).__neural; a._optPick(a._optList[0]) })
   await j.advanceUntil("roll_end", 20000)
 
   // ── The loss actually resolved as a loss (liveness — the clamp is exercised, not skipped). ──
-  expect(await j.lastOutcome(), "the expired defense is a loss").toBe("lose")
+  expect(await j.lastOutcome(), "the failed escape is a loss").toBe("lose")
 
   // ── The clamp, on the beat stream: defeat_drain still fires, and BEFORE the ladder beat;
   //    exactly ONE ladder_down, EMITTED (not suppressed) with the clamped rank + capped flag. ──
@@ -119,7 +146,7 @@ test("ladder floor: a loss at rank 1 clamps — one capped ladder_down after def
       liveRank: a._ladder ? a._ladder.rank : null,
       opponent: st.opponent,
       firstName: a.ladderNames()[0],
-      stored: JSON.parse(localStorage.getItem("bjj-neural-ladder") || "null"),
+      stored: JSON.parse(localStorage.getItem("bjj-neural-owner:guest:ladder") || "null"),
     }
   })
   expect(after.stateRank, "ladderState().rank stays exactly 1 — the floor held").toBe(1)

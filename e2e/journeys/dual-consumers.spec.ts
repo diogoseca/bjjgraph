@@ -173,7 +173,7 @@ test("@curated the EDGE node-index join survives the split: every card prints th
     cards += legacy.hands[k].length
     marked += legacy.hands[k].filter((c: Any) => c.mark !== null).length
   }
-  expect(cards, "ordinary position cards compared").toBe(1213) // census:positionChoiceCards
+  expect(cards, "ordinary position cards compared").toBe(1316) // census:positionChoiceCards
   // …and the table is genuinely being read. Without this the test would pass on a build where
   // `_ev` came back empty on BOTH graphs — every mark null, every comparison trivially equal.
   // Preserve the previous 1200/1328 coverage fraction (rounded up to 90.5%) on the
@@ -301,11 +301,12 @@ test("@curated capturing while you play bottom still produces a shareable class"
     const a = (window as Any).__neural
     // Stand on the LOWER half of three sites — a coach playing bottom, which is half of
     // jiu-jitsu — and capture from there. `addToList` is the writer every capture surface
-    // reaches (the picker's create-and-file included).
+    // reaches (the picker's create-and-file included), and it always names its list.
     const lower = a.nodes.filter((n: Any) => !n.rep && n.pi >= 0).slice(0, 300)
     const picked = [lower[0], lower[100], lower[200]]
-    for (const n of picked) a.addToList(n.id)
-    const list = a.activeList()
+    const lid = a.newList()
+    for (const n of picked) a.addToList(n.id, lid)
+    const list = a.lists[lid]
     const enc = (window as Any).NGLists.ngListEncodeIds(list.items, a._ordinalById())
     return {
       captured: picked.map((n: Any) => n.id),

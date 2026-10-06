@@ -834,7 +834,38 @@
         "attempt_probability": {
           "gi": 11,
           "nogi": 12
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 34,
+          "nogi": 36
+        },
+        "outcomes": [
+          {
+            "to": "Turtle/Bottom",
+            "probability": {
+              "gi": 36,
+              "nogi": 36
+            },
+            "result": "success"
+          },
+          {
+            "to": "Leg Drag Control/Bottom",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 31,
+              "nogi": 31
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Inside Position Recovery",

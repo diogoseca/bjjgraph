@@ -868,8 +868,8 @@
       {
         "transition": "Technical Stand-up",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 9
+          "gi": 12,
+          "nogi": 10
         }
       },
       {
@@ -889,7 +889,7 @@
       {
         "transition": "Back Door Escape",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 12
         }
       },
@@ -897,7 +897,7 @@
         "transition": "Roll to Deep Half Guard",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 10
+          "nogi": 9
         }
       }
     ],
