@@ -26,13 +26,14 @@ function ngMdpSharpnessAgeCap(profile, knowledge) {
   }
   return cap;
 }
-function ngMdpNormalizeSnapshot(input, request, metadata, ageCap) {
+// `canonicalOf(id, role)`, when given, is the caller's memoised lookup of the same table entry.
+function ngMdpNormalizeSnapshot(input, request, metadata, ageCap, canonicalOf) {
   if (!input || !['top', 'bottom'].includes(input.role) || !['user', 'opponent'].includes(input.phase)) throw new Error('requires-context');
   const s = { ...input }; delete s.id; delete s.aiSkill; delete s.challenge;
   if (request.horizon.kind === 'eventual' && s.moveCount == null) s.moveCount = 0;
   if (!Number.isSafeInteger(s.moveCount) || s.moveCount < 0 || !Number.isSafeInteger(s.arrivalAge) || s.arrivalAge < 0) throw new Error('invalid-mechanical-clock');
   if (!Number.isFinite(s.qMod) || !Number.isSafeInteger(s.combo) || s.combo < 0) throw new Error('invalid-transient-context');
-  s.nodeId = metadata.canonical[ngMdpStable([s.nodeId, s.role])] || s.nodeId;
+  s.nodeId = (canonicalOf ? canonicalOf(s.nodeId, s.role) : metadata.canonical[ngMdpStable([s.nodeId, s.role])]) || s.nodeId;
   s.moveCount = request.horizon.kind === 'eventual' ? 0 : Math.min(s.moveCount, request.horizon.episodeCap);
   s.arrivalAge = Math.min(s.arrivalAge, ageCap);
   return s;
@@ -119,7 +120,30 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     return atMemo.get(key);
   };
   const sub = n => n && n.submissionId ? node(n.submissionId) : null;
-  const canonical = (id, role) => graph.canonical[ngMdpStable([id, role])] || id;
+  // MEMOS THAT CHANGE NO RESULT (WINLAT1, 2026-10-05). An in-session expansion visits ~10k states and
+  // ~100k branches, and recomputed these pure lookups per branch: the canonical table entry, behind a
+  // stable-JSON key; the arrival projection, behind a deep clone and freeze; a constant rational,
+  // behind a regex parse and BigInt gcd; a fraction's text, behind two BigInt-to-string conversions.
+  // Each memo returns the value the call returned, for the same input, every time.
+  const canonicalMemo = new Map();
+  const canonicalOf = (id, role) => {
+    let byRole = canonicalMemo.get(id);
+    if (!byRole) canonicalMemo.set(id, byRole = new Map());
+    if (!byRole.has(role)) byRole.set(role, graph.canonical[ngMdpStable([id, role])]);
+    return byRole.get(role);
+  };
+  const canonical = (id, role) => canonicalOf(id, role) || id;
+  const ratMemo = new Map(), fractionMemo = new Map(), advanceMemo = new Map();
+  const ratOf = v => { let r = ratMemo.get(v); if (!r) { r = ngMdpRat(v); ratMemo.set(v, r); } return r; };
+  const fractionOf = p => { let f = fractionMemo.get(p); if (f === undefined) { f = ngMdpFraction(p); fractionMemo.set(p, f); } return f; };
+  // Object.is keys: -0 and 0 stay distinct inputs, exactly as the uncached call saw them.
+  const numberKey = x => Object.is(x, -0) ? '-0' : String(x);
+  const advanced = (arrivalAge, qMod, combo) => {
+    const key = numberKey(arrivalAge) + ',' + numberKey(qMod) + ',' + numberKey(combo);
+    let r = advanceMemo.get(key);
+    if (!r) { r = K.ngKnowledgeAdvance({ arrivalAge, qMod, combo }, { type: 'arrival', first: false }); advanceMemo.set(key, r); }
+    return r;
+  };
   const value = (n, role, opposite) => {
     const i = n.ty === 'positions' ? (role === 'bottom' ? 1 : 0) : (n.fromRole ? (n.fromRole === role ? 0 : 1) : (role === 'bottom' ? 1 : 0));
     if (n.s && typeof n.s[opposite ? 1 - i : i] === 'number') return n.s[opposite ? 1 - i : i];
@@ -132,13 +156,18 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     if(!ages.has(age))ages.set(age,K.ngKnowledgeBonus(profile,key,age).total);
     return ages.get(age);
   }
+  // One key per (snapshot object, request): a state's hand and every one of its actions ask for the
+  // same key, and it used to be re-spelled for each (WINLAT1). Same inputs, same string.
+  const contextKeyMemo=new WeakMap();
   function chanceContextKey(s,request){
+    const memo=contextKeyMemo.get(s);if(memo&&memo.request===request)return memo.key;
     const ai=request.state.aiSkill==null?request.state.snapshot&&request.state.snapshot.aiSkill:request.state.aiSkill;
     if(!Number.isFinite(ai))throw new Error('missing-sampled-opponent-skill');
-    return ngMdpStable([s.nodeId,s.role,s.arrivalAge,s.qMod,s.combo,bonusTotal(s.positionKey,s.arrivalAge),ai]);
+    const key=ngMdpStable([s.nodeId,s.role,s.arrivalAge,s.qMod,s.combo,bonusTotal(s.positionKey,s.arrivalAge),ai]);
+    contextKeyMemo.set(s,{request,key});return key;
   }
   function normalize(input, request) {
-    const s = ngMdpNormalizeSnapshot(input, request, graph, ageCap); node(s.nodeId); return s;
+    const s = ngMdpNormalizeSnapshot(input, request, graph, ageCap, canonicalOf); node(s.nodeId); return s;
   }
   function context(s, request, act, destination) {
     const n = node(s.nodeId), submission = sub(n);
@@ -163,7 +192,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     // enterLand returns into enterDefense BEFORE clearing qMod or decaying sharpness.
     if (submission && s.role !== submission.fromRole) return defend(s, submission);
     if (submission) s.nodeId = submission.id;
-    const projected = K.ngKnowledgeAdvance({ arrivalAge: s.arrivalAge, qMod: s.qMod, combo: s.combo }, { type: 'arrival', first: false });
+    const projected = advanced(s.arrivalAge, s.qMod, s.combo);
     return { ...s, arrivalAge: projected.arrivalAge, qMod: projected.qMod, combo: projected.combo, positionKey: node(s.nodeId).deckKey, panicKey: null };
   }
   function classify(s, kind, subtype, request) {
@@ -188,18 +217,18 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     const cacheKey=ngMdpStable([act.id,act.here==null?null:act.here,branch,K.ngKnowledgeSkew(s.combo)]);
     if(outcomeCache.has(cacheKey))return outcomeCache.get(cacheKey);
     const table = K.ngKnowledgeOutcomeWeights(act, branch, K.ngKnowledgeSkew(s.combo));
-    if (!table || !table.outcomes || !table.outcomes.length) return [{ p: ngMdpRat(1), out: null }];
-    if (!(table.total > 0)) return [{ p: ngMdpRat(1), out: table.outcomes[0] }];
+    if (!table || !table.outcomes || !table.outcomes.length) return [{ p: ratOf(1), out: null }];
+    if (!(table.total > 0)) return [{ p: ratOf(1), out: table.outcomes[0] }];
     // The source schema calls these RAW weights. Normalize them explicitly, not
     // a purported compiled probability row or missing outcome mass.
-    const weights = table.weights.map(ngMdpRat), total = weights.reduce(ngMdpAdd, ngMdpRat(0));
+    const weights = table.weights.map(ngMdpRat), total = weights.reduce(ngMdpAdd, ratOf(0));
     const result=table.outcomes.map((out, i) => ({ out, p: ngMdpDiv(weights[i], total) })).filter(r => r.p[0]);
     outcomeCache.set(cacheKey,result);return result;
   }
   function weightedRows(act,success,s,chance){
     const key=ngMdpStable([act.id,act.here==null?null:act.here,success,K.ngKnowledgeSkew(s.combo),chance]);
     if(!massCache.has(key)){
-      const p=ngMdpRat(chance),factor=success?p:ngMdpSub(ngMdpRat(1),p);
+      const p=ratOf(chance),factor=success?p:ngMdpSub(ratOf(1),p);
       massCache.set(key,rows(act,success,s).map(row=>({out:row.out,mass:ngMdpMul(factor,row.p)})));
     }
     return massCache.get(key);
@@ -241,7 +270,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
     handCache.set(cacheKey,result);return result;
   }
   function endpointOf(request, probability, next, events, terminal) {
-    return { probability: ngMdpFraction(probability), ...(terminal || { next: normalize(next, request) }), events };
+    return { probability: fractionOf(probability), ...(terminal || { next: normalize(next, request) }), events };
   }
   function finishMoveOf(request, p, next, events) {
     return cap(next, request)
@@ -292,10 +321,10 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       const a = options.get(id);
       if (!a) { out.push({ techniqueId: id, status: 'unavailable', reason: defending ? 'defending-now' : 'not-an-opponent-option' }); continue; }
       const act = node(a.techniqueId);
-      const branches = submission ? [opponentEscapeRow(s, a, ngMdpRat(1), request)]
+      const branches = submission ? [opponentEscapeRow(s, a, ratOf(1), request)]
         : act.ty === 'submissions'
-        ? [endpointOf(request, ngMdpRat(1), defend(s, act), ['opponent-submission', 'enter-defense'])]
-        : opponentPositionalRows(s, a, ngMdpRat(1), request);
+        ? [endpointOf(request, ratOf(1), defend(s, act), ['opponent-submission', 'enter-defense'])]
+        : opponentPositionalRows(s, a, ratOf(1), request);
       out.push({ techniqueId: id, status: 'ready', branches });
     }
     return out;
@@ -309,11 +338,11 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       const branches = [], actionId = ngMdpActionId(stateId, n.id, 'forced', null, 'actual-opponent');
       out.actions.push({ id: actionId, branches });
       if (submission) {
-        if (s.role !== submission.fromRole) branches.push(endpoint(ngMdpRat(1), defend(s, submission), ['enter-defense']));
+        if (s.role !== submission.fromRole) branches.push(endpoint(ratOf(1), defend(s, submission), ['enter-defense']));
         else {
           const responses = hand(s, flip(s.role), request);
-          if (!responses.length) branches.push(endpoint(ngMdpRat(1), arrive(s), ['arrival']));
-          for (const response of responses) branches.push(opponentEscapeRow(s, response, ngMdpRat('1/' + responses.length), request));
+          if (!responses.length) branches.push(endpoint(ratOf(1), arrive(s), ['arrival']));
+          for (const response of responses) branches.push(opponentEscapeRow(s, response, ratOf('1/' + responses.length), request));
         }
         return out;
       }
@@ -323,20 +352,20 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       let trans = options.filter(a => node(a.techniqueId).ty !== 'submissions');
       if (challenge) { const eligible = trans.filter(poolAllows); if (eligible.length) trans = eligible; }
       if (!subs.length && !trans.length) {
-        branches.push(endpoint(ngMdpRat(1), null, ['terminal'], classify(s, 'reset', 'no-action-reset', request))); return out;
+        branches.push(endpoint(ratOf(1), null, ['terminal'], classify(s, 'reset', 'no-action-reset', request))); return out;
       }
-      const pf = ngMdpRat(subs.length ? trans.length ? Math.max(.18, Math.min(.85, .34 + value(n, s.role, true) * .55)) : .9 : 0);
-      for (const a of subs) branches.push(endpoint(ngMdpDiv(pf, ngMdpRat(subs.length)), defend(s, node(a.techniqueId)), ['opponent-submission', 'enter-defense']));
+      const pf = ratOf(subs.length ? trans.length ? Math.max(.18, Math.min(.85, .34 + value(n, s.role, true) * .55)) : .9 : 0);
+      for (const a of subs) branches.push(endpoint(ngMdpDiv(pf, ratOf(subs.length)), defend(s, node(a.techniqueId)), ['opponent-submission', 'enter-defense']));
       trans.sort((a,b) => value(node(b.destinationId || b.techniqueId), s.role, true) - value(node(a.destinationId || a.techniqueId), s.role, true));
       const fallback = (trans.length ? trans : subs).slice(0, 3);
-      for (const a of fallback) branches.push(...opponentPositionalRows(s, a, ngMdpDiv(ngMdpSub(ngMdpRat(1), pf), ngMdpRat(fallback.length)), request));
+      for (const a of fallback) branches.push(...opponentPositionalRows(s, a, ngMdpDiv(ngMdpSub(ratOf(1), pf), ratOf(fallback.length)), request));
       return out;
     }
     const actions = hand(s, s.role, request);
     if (!actions.length) {
       // User enterLand starts a NEW roll directly; it does not call endRound,
       // award points, or record a failed belt attempt. Opponent no-choice differs.
-      out.actions.push({ id: ngMdpActionId(stateId, n.id, 'forced', null, 'no-choices'), branches: [endpoint(ngMdpRat(1), null, ['auto-restart'], { terminal: 'explicitNoResult', subtype: 'user-no-action-restart' })] }); return out;
+      out.actions.push({ id: ngMdpActionId(stateId, n.id, 'forced', null, 'no-choices'), branches: [endpoint(ratOf(1), null, ['auto-restart'], { terminal: 'explicitNoResult', subtype: 'user-no-action-restart' })] }); return out;
     }
     for (const a of actions) {
       const act = actAt(a.techniqueId, canonical(s.nodeId, s.role)), branches = [];
@@ -344,7 +373,7 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
       const result = { id, kind: a.kind, immediateExecutionKind: a.kind, branches }; out.actions.push(result);
       if (a.kind === 'entry') {
         result.immediateExecutionChance = 1;
-        branches.push(endpoint(ngMdpRat(1), arrive({ ...s, nodeId: act.id, role: act.fromRole, moveCount: s.moveCount + 1 }), ['commit', 'entry', 'increment', 'arrival']));
+        branches.push(endpoint(ratOf(1), arrive({ ...s, nodeId: act.id, role: act.fromRole, moveCount: s.moveCount + 1 }), ['commit', 'entry', 'increment', 'arrival']));
         // THE FINISH THIS ENTRY LEADS TO, as the landed state's own Finish row will roll it (v1.213.0,
         // owner 2026-10-01: "every submission from the position have 100% chance"). Entering is
         // certain, so the card's honest small number is the finish's chance — and only the landed
@@ -365,9 +394,9 @@ function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
         const explained = K.ngKnowledgeExplainEscape(profile, context(s, request, act, node(a.destinationId)), submission);
         if (explained.status !== 'ready') throw new Error(explained.reason || 'missing-defense-profile-context');
         result.immediateExecutionChance = explained.chance;
-        const p = ngMdpRat(explained.chance);
+        const p = ratOf(explained.chance);
         branches.push(endpoint(p, arrive({ ...s, nodeId: canonical(a.destinationId, a.destinationRole), role: a.destinationRole, moveCount: s.moveCount + 1, panicKey: null }), ['commit', 'escape', 'increment', 'arrival']));
-        branches.push(endpoint(ngMdpSub(ngMdpRat(1), p), null, ['commit', 'failed-escape', 'terminal'], classify(s, 'lose', 'submission-loss', request))); continue;
+        branches.push(endpoint(ngMdpSub(ratOf(1), p), null, ['commit', 'failed-escape', 'terminal'], classify(s, 'lose', 'submission-loss', request))); continue;
       }
       const chance = moveChance(s, act, request); result.immediateExecutionChance = chance;
       for (const success of [true, false]) for (const row of weightedRows(act, success, s,chance)) {
@@ -422,22 +451,55 @@ function* ngMdpExpandSteps(adapter, request, options) {
   if (request.horizon.kind === 'actual-roll' && request.state.snapshot.moveCount !== request.horizon.moveCount) throw new Error('stale-root-move-count');
   if (request.state.id !== expected) throw new Error('stale-state-identity');
   seen.set(expected,expected);classes.set(classKey(pending[0]),expected); let branchCount = 0,aliases=0;
+  // THE STATE ID IS SPELLED ONLY FOR A NEW CLASS (WINLAT1, 2026-10-05). Every branch used to build its
+  // successor's full stable-JSON id (~100k per in-session hand) only to compare it with its class's
+  // representative id, for the alias count. When the class already exists, comparing the two
+  // normalised snapshots field by field gives the same answer: equal ids are exactly equal own keys
+  // with === values (the snapshot's fields are strings, numbers and null; JSON prints distinct
+  // doubles distinctly and 0/-0 alike, as === treats them). Anything else (an object, an undefined)
+  // falls back to spelling the id, so its old errors stay. Only the live adapter's NORMALISED
+  // snapshots qualify; a generic adapter keeps the old path.
+  const representative=new Map([[expected,pending[0]]]),fast=!!adapter.normalizedStateId;
+  const sameState=(a,b)=>{
+    const keys=Object.keys(a);if(keys.length!==Object.keys(b).length)return false;
+    for(const k of keys){
+      const x=a[k];if(x===undefined||(x!==null&&typeof x==='object'))return null;
+      if(!Object.prototype.hasOwnProperty.call(b,k)||x!==b[k])return false;
+    }
+    return true;
+  };
   const failure=reason=>{const error=new Error(reason);error.coverage={status:'INCOMPLETE',states:states.length,discoveredStates:seen.size,branches:branchCount};throw error;};
   // One linker for every row, action branch or threat-probe row alike: count it, drop a zero row's
   // successor, map the successor to its canonical (behaviour-class) ID and queue it once.
+  // NO `delete` ON THE HOT PATH (WINLAT1). Deleting a key drops a V8 object into slow dictionary mode,
+  // and every one of ~100k branches (and ~10k states) was then copied by compile in that mode.
+  // `without` builds the same object minus the key, in the same key order, so callers store its
+  // result in place of the original: nothing else holds a branch or a state record at this point.
+  const without=(o,key)=>{if(!Object.prototype.hasOwnProperty.call(o,key))return o;const {[key]:dropped,...rest}=o;return rest;};
   const link=b=>{
     branchCount++; if (branchCount > limits.maxBranches) failure('expansion-branch-budget');
     if(!positive.has(b.probability))positive.set(b.probability,!!ngMdpRat(b.probability)[0]);
-    if (!b.next || !positive.get(b.probability)) { delete b.next; return; }
-    const identity=stateId(b.next),behavior=classKey(b.next);
-    b.to=classes.get(behavior)||identity;if(b.to!==identity)aliases++;
-    if (!seen.has(b.to)) {
-      if (seen.size >= limits.maxStates) failure('expansion-state-budget');
-      seen.set(b.to,b.to);classes.set(behavior,b.to);pending.push(b.next);
+    if (!b.next || !positive.get(b.probability)) return without(b,'next');
+    const behavior=classKey(b.next),known=fast?classes.get(behavior):undefined;
+    let to;
+    if(known!==undefined){
+      const same=sameState(b.next,representative.get(known));
+      if(same===false||(same===null&&stateId(b.next)!==known))aliases++;
+      to=known;
+    } else {
+      const identity=stateId(b.next);
+      to=classes.get(behavior)||identity;if(to!==identity)aliases++;
+      if (!seen.has(to)) {
+        if (seen.size >= limits.maxStates) failure('expansion-state-budget');
+        seen.set(to,to);classes.set(behavior,to);representative.set(to,b.next);pending.push(b.next);
+      }
     }
-    b.to=seen.get(b.to); // reuse canonical ID strings instead of per-branch JSON copies
-    delete b.next;
+    // `to` is set before `next` goes, exactly as before (b.to assigned, then next deleted): the same
+    // keys in the same order. seen.get reuses the canonical ID string instead of a per-branch copy.
+    b.to=seen.get(to);
+    return without(b,'next');
   };
+  const linkAll=list=>{if(list)for(let i=0;i<list.length;i++)list[i]=link(list[i]);};
   // THREAT PROBES seed the expansion (adapter `threats`): their successors are expanded and solved
   // like any reachable state, so each threat card can be backed up with the same Σ P·V as a card.
   // Adding states cannot change the root's value (optimal values are per state); it costs states.
@@ -445,7 +507,7 @@ function* ngMdpExpandSteps(adapter, request, options) {
   if(threatIds.length){
     if(typeof adapter.threats!=='function')throw new Error('threat-probes-unsupported');
     model.probes=adapter.threats(request.state.snapshot,request,threatIds);
-    for(const probe of model.probes)for(const b of probe.branches||[])link(b);
+    for(const probe of model.probes)linkAll(probe.branches);
   }
   for (let i = 0; i < pending.length; i++) {
     if (limits.cancelled && limits.cancelled()) throw new Error('cancelled');
@@ -454,8 +516,8 @@ function* ngMdpExpandSteps(adapter, request, options) {
     let state;
     try { state = adapter.enumerate(snapshot, request); }
     catch (error) { states.push({ id, actions: [{ id: 'unavailable', status: 'unavailable', reason: error.message }] }); yield; continue; }
-    for (const a of state.actions) for (const b of a.branches) link(b);
-    delete state.snapshot; states.push(state); yield;
+    for (const a of state.actions) linkAll(a.branches);
+    states.push(without(state,'snapshot')); yield;
   }
   model.adapterCoverage = { states: states.length, branches: branchCount, equivalentDestinationRedirects:aliases, graph: adapter.graphCoverage, semantics: {...adapter.semantics,behaviorCompression:limits.behaviorCompression!==false} };
   model.stateEquivalence={scope:limits.behaviorCompression===false?'literal-state':'terminal-outcomes-only',rootIdentityPreserved:true,
@@ -466,9 +528,13 @@ function* ngMdpExpandSteps(adapter, request, options) {
   return model;
 }
 function ngMdpExpand(adapter, request, options) { const it = ngMdpExpandSteps(adapter, request, options); let x; do { x = it.next(); } while (!x.done); return x.value; }
+// Yields through ngMdpYielder (mdp-model.src.js, always loaded before this file): a message, not a
+// clamped nested timer. See the reasoning there.
 async function ngMdpExpandAsync(adapter, request, options) {
-  const it = ngMdpExpandSteps(adapter, request, options); let x, last = Date.now();
-  do { x = it.next(); if (!x.done && Date.now() - last >= 8) { await new Promise(resolve => setTimeout(resolve, 0)); last = Date.now(); } } while (!x.done);
+  const it = ngMdpExpandSteps(adapter, request, options), yielder = ngMdpYielder(); let x, last = Date.now();
+  try {
+    do { x = it.next(); if (!x.done && Date.now() - last >= 8) { await yielder.next(); last = Date.now(); } } while (!x.done);
+  } finally { yielder.close(); }
   return x.value;
 }
 if (typeof module !== 'undefined' && module.exports) module.exports = { NG_MDP_ADAPTER_VERSION, ngMdpNormalizeSnapshot, ngMdpRootActions, ngMdpSharpnessAgeCap, ngMdpCaptureGameGraph, ngMdpCaptureDecision, ngMdpCreateGameAdapter, ngMdpExpand, ngMdpExpandAsync, ngMdpExpandSteps };

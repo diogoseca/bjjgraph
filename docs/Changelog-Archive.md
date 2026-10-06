@@ -58,6 +58,9 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.216.2** — [QUARTZ'S PAGE-PATH RULE LIVES IN ONE PLACE](#v12162--quartzs-page-path-rule-lives-in-one-place)
 - **v1.217.0** — [THE VIDEOS ROW SCROLLS LIKE THE HAND: NO SCROLLBAR, EARNED FADES, ARROWS](#v12170--the-videos-row-scrolls-like-the-hand-no-scrollbar-earned-fades-arrows)
 - **v1.218.0** — [THE OUTCOME LANDS ON YOUR CARDS, NOT IN A TOAST](#v12180--the-outcome-lands-on-your-cards-not-in-a-toast)
+- **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
+- **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
+- **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10146,3 +10149,160 @@ New: `outcome-on-cards.spec.ts`, 8 tests × {1440, 390}.
 | `_dropCountdownEvent` removed | "the countdown stamp was released at expiry" + two more |
 
 **Payload.** First-hand core (the delta basis) 362,161 B: +2,608 B over the accepted 359,553 B (cap 6,000), and +1,862 B over the 360,299 B the v1.217.0 entry measured for dev. Eager gzip 342,630 B (+2,615 B over 340,015 B, cap 5,000). This change's own share, gzip -9 against dev's bundle: `neural.js` +1,259 B, `neural.css` +602 B.
+
+## v1.218.1 — THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES
+
+**Owner, 2026-10-05, testing the dev preview at v1.218.0:**
+1. "when i'm in ezekiel choke from side control (defending), and i try to click this choice: [Escape · Chin tuck
+   with two-on-one forearm block · Win chance 13% · Inspect · Escape 35%] it doesnt seem possible, any click on
+   that card works as inspect and that shouldnt be so, it's a choice i just chose, not to inspect but to move"
+2. "sometimes clicking a choice card causes it to vanish (maybeo nly in submissions case? coudlnt confirm the
+   scope)"
+
+**Item 1, why escapes were inspect-only.** `activateOption` sent every escape and every threat to
+`expandOption`, whatever was clicked (and any plain digit too).
+- The route dates from v1.176.0 (`cdc35cefe`, submission states own their choices). Escapes had no Inspect control
+  then, and the preview's go button was the only way to read one before committing.
+- Phase 1 (`431c4cebf`, 2026-09-26) gave every own card an Inspect button and wrote the contract down ("a choice
+  executes; inspection is explicit"; docs/Neural.md: "escape cards have Inspect"). It kept the old escape route,
+  so on escapes the Inspect button and the card did the same thing.
+- **Fix:** an escape obeys the contract. The card and its digit play it; Inspect and Shift+digit open its preview.
+  A threat is the opponent's move and stays inspect-only.
+- `submission-choices.spec.ts` pinned the old route (a plain digit opened the preview, and its go button played the
+  escape). It is inverted on the owner's rule.
+
+**Item 2, the vanish, named.** Probed in the real app (dev-serve, real clock, not the harness), clicking by mouse at
+1440 and 390, scrolled and not, pane open and shut, and reading the chosen card's state every ~50 ms:
+- **The vanish:** the escape hand (`enterDefense`, which a URL arrival on a Defender seat also runs) cleared the
+  whole hand on a pick and left nothing. Every other pick leaves `executionCard`'s non-actionable copy reading
+  Executing, then its result. At Ezekiel Choke from Side Control/Defender, the hand had 0 stand-in frames in the
+  2.5 s after the pick, with an empty row. This is the "submissions case".
+- **The second fault, same seam:** the stand-in's offset ignored the row's left padding (the tray inset plus the
+  open pane), so it landed beside the card, not on it:
+  - 378 px to the right with the pane open at 1440 (card at 377, stand-in at 759);
+  - 24 px with the pane shut, and 12 px at 390.
+  - Its clamp also stopped at the content box, so a card scrolled into the right inset moved 23.5 px.
+- **Not defects, measured:**
+  - a Finish that succeeds removes its stand-in when the round ends, and "You finished it" takes the screen;
+  - an entry's stand-in lifts on arrival, when the submission's own hand deals.
+- **Left as is:** on a submission hand at 390, the stand-in sits 11 px higher than the card, because the landing
+  card's push on the tray (`_landDatum().tray - push`) is undone when the hand clears.
+
+**Fix.**
+- The escape pick takes the same stand-in, taken before the teardown that empties `_optionCards`.
+- Its sentences go through `executionEvent`, so the stand-in owns the announcer until "Escaped!" or "Still
+  defending" (setEvent's stamp). Without that, the result line was blocked: the mutant proves it.
+- It does not take the camera: the catch keeps its `frameNodes` framing.
+- `executionCard` measures from the content box and clamps to the row's visible extent, which is both insets and
+  never under the pane.
+- The seat chooser (`confirmPlayFrom`) is a radio + confirm dialog, not a card, so it has no inspect/execute
+  question.
+
+**Pinned by** `e2e/journeys/card-click-contract.spec.ts`, all by MOUSE (`j.clickByMouse`):
+- **Inspect inspects and the body executes,** for a transition, an entry, a Finish and an escape;
+- a threat click previews and never plays;
+- **the chosen escape stays on the table** where the card was, until "Landed" and "Escaped!", at 1440 and 390;
+- the stand-in sits on the clicked card with the pane open, and in the left inset.
+
+The spec waits out each card's .34 s deal-in ease before measuring (a first run measured mid-ease: 8 px).
+
+| mutant (one at a time, built bundle) | red at |
+|---|---|
+| neutral control | green |
+| escape body click inspects again | "a click on the body of "Posture up" does not inspect", the vanish test ×2, submission-choices' digit |
+| a threat routed to pick | "a threat opens its preview" |
+| Inspect executes | "Inspect on "<card>" opens its detail", all four kinds |
+| the escape pick leaves no stand-in | "...and the chosen card stays on the table" + the vanish test at both widths |
+| row padding not subtracted | "...exactly where the card was" (48 vs 24; 24 vs 12) + the left-inset test |
+| clamp upper bound at the content box | the pane test (1266 vs 1289.5) |
+| clamp lower bound 0 | the left-inset test (24 vs 12) |
+| escape result through setEvent | "the stand-in shows the escape's result", both widths |
+| **non-kill, recorded:** the escape stand-in takes the camera | survives; the catch's framing is not pinned |
+
+**Payload.**
+- First-hand core 362,215 B: +2,662 B over the accepted 359,553 (cap 6,000), and +54 B over the 362,161 B the
+  v1.218.0 entry measured.
+- This change's own share, gzip -9 against dev's bundle: `neural.js` +37 B, `neural.css` 0.
+
+## v1.218.3 — THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR
+
+**Owner, 2026-10-05**, in Brave on the dev preview: `/` navigated itself to `/Positions/Side-Control/Bottom`, and
+the console showed `GET /Positions/static/icon.png 404` twice, 33 report-only CSP violations, and
+`ERR_BLOCKED_BY_CLIENT` for two PostHog extensions. "please fix so that doesnt happen again".
+
+**The 404 was a class.** Pages loaded their icon, `index.css`, `prescript.js`, `postscript.js` and the lazy
+`contentIndex.json` from `pathToRoot(slug)`, a page-relative base. After the app's `history.pushState` the
+browser re-resolves them against the new address; at three segments `../` lands on `/Positions/`. Of 29 such
+URLs on `/`, the 4 resources are fixed; 25 crawler-fallback links are measured unreachable while the app runs.
+One root-absolute base now: `siteRoot(cfg)` (`plugins/emitters/helpers.ts`), plus `Head.tsx`'s icon.
+
+**The CSP violations were two unlisted hosts.** PostHog already runs behind a first-party proxy on a
+bjjgraph.org subdomain (`POSTHOG_API_HOST`), allowed as `https://*.bjjgraph.org` to keep its name out of this
+repo; Cloudflare's edge-injected Web Analytics beacon (in no built file) is allowed too. Mermaid's `cdnjs`
+loader is off: 0 of 6,324 content and template files use it. Applied to the live preview, the new policy gave 0
+violations. Brave blocks the two PostHog files by PATH, so that line is the owner's call; the beacon's RUM post
+also fails CORS on every `*.pages.dev` host.
+
+**Gates.** `scripts/e2e-serve.mjs` now sends the emitted CSP (it sent none, so no journey could see a
+violation); `e2e/journeys/console-clean.spec.ts` replays the owner's path; `scripts/check_deployed_console.mjs`
+runs after both deploys against the real site. Mutants for each are in the spec headers and PR #266. No capture:
+the census and SEO baselines did not move.
+
+## v1.218.5 — THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME
+
+v1.218.3's first green dev deploy (run 37308600818) printed every host the browser saw, so the PostHog
+proxy's hostname went into a public Actions log, though the CSP allows `*.bjjgraph.org` precisely to keep that
+name out of this repo. GitHub masks a secret only where its exact value appears, not the bare host inside it.
+`scripts/check_deployed_console.mjs` now builds every line in one pure `report()`, redacting the
+`POSTHOG_API_HOST` host as `<posthog-proxy>` (any case, whole hosts only), and `main` prints nothing else.
+Four mutants (unredacted output, unredacted stderr, a case-sensitive redactor, the raw secret instead of its
+host) each turn a named test in `tests/deployed_console.test.mjs` red; a control proves the fixture really
+carries the host. The one log that already printed it is the owner's call to delete.
+## v1.218.6 — WIN CHANCES THAT ARE THERE WHEN YOU LOOK: THE SAME NUMBERS, 2-4x SOONER, AND NO BLANK AFTER AN ANSWER (WINLAT, 2026-10-05)
+
+**The report.** The owner, on a phone (dev preview v1.218.0): "the probabilities (win chance) take a while to load properly".
+
+**Measured first** (`scratch/full-game/winlat`, untracked probe `e2e/fg-probes/winlat.spec.ts`; desktop under the build
+lock, fresh player, 12 exchanges; median / p90 / max):
+- in-session hand -> Win chance 6.6 / 12.5 / 16.0 s;
+- landing answer -> new Win chance 8.8 / 11.5 / 12.2 s, every card showing "—" the whole time;
+- move % 0 ms on every non-entry card (built into the card); an entry card's "Works" waited for the solve.
+The main thread was never the problem (every step under 70 ms at p90). The worker was: model build 2.1 s, solve 4.2 s. Within the solve, the support-identity hash took 2.0 s (pure-JS SHA-256
+over ~30 MB of canonical text per hand).
+
+**Phone class.** CDP's CPU throttle cannot reach the worker: Chrome answers "Operation is only supported for pages, not
+workers". Two cgroup profiles were used instead.
+- The whole browser at 25% of one core (worker 7-8.6x slower than desktop): 0 of 7 hands got values. Every evaluate
+  ended "unavailable" at the 10 s expansion budget.
+- Profile 2: the page's renderer threads each capped at 25%, the GPU process free. See the report for its rows.
+
+**What changed (the worker). Every change gives the same output bit for bit:**
+- **A yield is a message, not a timer.** In a dedicated worker, a `setTimeout(0)` issued from its own continuation is a
+  nested timer, clamped to 4.0 ms. A MessageChannel round trip costs 0.02 ms. The solver yields every 8 ms, so a third
+  of its wall time was sleep.
+- **Faster SHA-256.** Same rounds, typed arrays and locals: 2.7x faster and byte-identical against node:crypto. In the
+  async driver the support hash's per-state texts go to `crypto.subtle` as one batch (3x faster again in a Chrome
+  worker). The synchronous driver keeps the JS digest of the same text.
+- **Conversions once per probability.** Quotient floats and outward bounds are computed per probability, not per branch.
+  In interval mode the certificate's exact copies are made only where they are read, and the max weight is computed as
+  (max t)/drift.
+- **Expansion.** A successor's id is spelled only for a new behaviour class. The adapter memoises canonical lookups, the
+  arrival projection, constant rationals, fraction text and the chance-context key. Branches and states are rebuilt
+  without `next`/`snapshot` instead of `delete` (dictionary-mode objects were halving compile). Action ids escape the
+  state id once per state. Uncollapsed quotient branches are reused.
+- **Exposure pin.** The adapter/identity hashes in `mdp-exposure.src.js` move, with a label-neutral note.
+
+**What changed (the hand).** While the SAME hand re-solves, each card keeps its last Win chance (and an entry its last
+"Works"), dimmed, under "Updating win chances…" (`ngChoiceValueUpdating`, `choiceValueShown`). A stale number is never
+current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
+
+**Not done:**
+- Warming the worker before the first hand: the model data is ~330 KB gzip on the first-hand bill
+  (payload-first-hand.spec.ts, delta cap 6,000 B), and ~94% of boots never move.
+- A per-(state, profile) cache: 36 of 36 captured requests were distinct.
+- Incremental re-solve: a grade changes probabilities and the state set alike.
+- Skipping restarts on technique-deck landings: the identity is shared with game study.
+
+**The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
+captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
+fails as it should on a 0.001 value mutant and on an identity-only mutant.

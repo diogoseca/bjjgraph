@@ -226,11 +226,15 @@ journeys grade format-agnostically through the DSL's `jitGrade()`.
 Clicking an own option or pressing its plain digit (1–9) commits it once. The focusable
 **Inspect** button and **Shift+1–9** open its existing detail sheet without committing;
 shifted keys use their physical Digit code so keyboard layouts do not lose inspection.
-Enter/X still executes from that sheet. Threats keep their preview route; escape cards have Inspect.
+Enter/X still executes from that sheet. Escapes obey the same contract (v1.218.1, owner: "it's a
+choice i just chose, not to inspect but to move"): the card and its digit play it, Inspect and
+Shift opens its preview. Threats are the opponent's moves and stay inspect-only.
 Hidden hands, checkpoints, text entry and the visible quiz retain keyboard priority. Closing
 Inspect restores the pause state it found.
 
-After commit, the live hand is cleared and a non-actionable copy of the chosen card remains.
+After commit, the live hand is cleared and a non-actionable copy of the chosen card remains,
+exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
+included (v1.218.1; they used to clear the hand and show nothing).
 It keeps the displayed odds and shows Executing, then the actual Landed, Failed or Countered
 result. Submission entry shows Entering and remains deterministic; it does not acquire a roll
 or a new interpretation of its printed odds. The existing sweep lasts **1.08 seconds** and

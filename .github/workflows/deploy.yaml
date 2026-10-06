@@ -33,6 +33,8 @@ jobs:
   # This workflow has no `pull_request` trigger, so no job name in it can be a required
   # PR status check; deleting the job cannot orphan a branch-protection rule.
   deploy:
+    outputs:
+      console: ${{ steps.console.outcome }}
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -277,11 +279,27 @@ jobs:
       # first: the v4.0.0 notes give the escape hatch, set `wranglerVersion` on this step
       # (their example is "3.90.0") to hold the CLI on the v3 line.
       - name: Deploy to Cloudflare Pages
+        id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy source/public --project-name=bjjgraph
+
+      # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05): see deploy-dev.yaml's step of
+      # the same purpose and scripts/check_deployed_console.mjs. It runs against wrangler's own
+      # deployment URL, not bjjgraph.org, because the edge may still hold the previous HTML for a
+      # few minutes and this must grade THIS build. It does NOT fail this job: lighthouse-ci,
+      # indexnow and release all need `deploy`, and the site is already live, so a dirty console
+      # must not also cancel them. The `deployed-console` job below turns the verdict red.
+      - name: Deployed console check
+        id: console
+        continue-on-error: true
+        run: |
+          node scripts/check_deployed_console.mjs "${{ steps.cf.outputs.deployment-url }}" 2>&1 | tee deployed-console.txt
+          rc=${PIPESTATUS[0]}
+          { echo '### Deployed console'; echo '```'; cat deployed-console.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          exit $rc
 
       # ── Training-day digest (v1.105.7): the Worker + its secrets, and the unsubscribe
       #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
@@ -310,6 +328,20 @@ jobs:
           printf '%s' "$SUPABASE_URL"              | npx wrangler pages secret put SUPABASE_URL --project-name=bjjgraph
           printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
           printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
+
+  # The deployed-console verdict, as its own red (see the `Deployed console check` step). The
+  # offenders are printed in that step and in the deploy job's summary.
+  deployed-console:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployed console is clean (gate)
+        run: |
+          if [ "${{ needs.deploy.outputs.console }}" != "success" ]; then
+            echo "::error::The deployed console check did not pass (outcome: ${{ needs.deploy.outputs.console }}). Its offenders are in the deploy job's 'Deployed console check' step and summary."
+            exit 1
+          fi
+          echo "deployed console clean"
 
   lighthouse-ci:
     needs: deploy

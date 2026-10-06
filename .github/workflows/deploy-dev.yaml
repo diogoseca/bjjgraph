@@ -251,8 +251,19 @@ jobs:
       # instead of v3. Same note as deploy.yaml — pin with `wranglerVersion:` if needed.
       # This preview deploy is the FIRST place a Wrangler-v4 regression would surface.
       - name: Deploy to Cloudflare Pages (preview)
+        id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy source/public --project-name=bjjgraph --branch=dev
+
+      # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05). Every gate above runs against a
+      # local, keyless build behind a harness that aborts all third-party requests, so none of them
+      # could see what the owner saw on this preview: a 404 after the app's own navigation and 33 CSP
+      # violations from PostHog and Cloudflare's edge-injected beacon. This boots the deployment
+      # wrangler just published (its own URL, never the `dev` alias, so it cannot race the alias),
+      # lets the app navigate, plays a move, and fails naming each offending URL. The Playwright
+      # browser is the one installed for the curated gate above.
+      - name: Deployed console is clean (gate)
+        run: node scripts/check_deployed_console.mjs "${{ steps.cf.outputs.deployment-url }}"

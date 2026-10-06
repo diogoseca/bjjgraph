@@ -116,7 +116,12 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      // mermaid: false (CONSOLE0, 2026-10-05). The stock option inlined a loader into EVERY page that
+      // imports https://cdnjs.cloudflare.com/.../mermaid.esm.min.mjs whenever a `code.mermaid` block
+      // exists. No content file has one (`grep -rl '```mermaid' content` is empty), so it shipped a
+      // third-party host the CSP does not allow, for a feature nothing uses. Re-enabling it means
+      // adding cdnjs.cloudflare.com to script-src in the four CSP copies (source/quartz/static/_headers).
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, mermaid: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
