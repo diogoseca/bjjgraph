@@ -401,7 +401,7 @@ test("transient event projection equals real landing answer and both expiry bran
   console.log(`captured prior transient branches: ${checked}`);
 });
 
-// EVERY CARD COUNTS (v1.219.0). The steps are the owner's: the app's `_landStep` (NG_LAND_ANSWER_STEPS in
+// EVERY CARD COUNTS (v1.221.0). The steps are the owner's: the app's `_landStep` (NG_LAND_ANSWER_STEPS in
 // app.src.jsx) is pinned here card by card, so a change is a deliberate edit here too. Then the CURRENT app is
 // driven card by card through one landing, stubbing only DOM callees. The landing question (k = 1) must still
 // equal the shared law `ngKnowledgeAdvance` exactly — that law models k = 1 only, the MDP projects nothing

@@ -61,6 +61,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.1** — [THE CARD IS THE MOVE; A CHOSEN ESCAPE NO LONGER VANISHES](#v12181--the-card-is-the-move-a-chosen-escape-no-longer-vanishes)
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
+- **v1.221.0** — [EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT](#v12210--every-flashcard-you-answer-counts-and-shows-it)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10306,3 +10307,79 @@ current: no suggestion, no legend V(s), no sort. A new deal starts from "—".
 **The differential.** The dev worker core and this one, each in its own VM realm, replay the same requests. 36/36
 captured real requests gave byte-identical responses (only `*Milliseconds` dropped), with 550 printed strings equal. It
 fails as it should on a 0.001 value mutant and on an identity-only mutant.
+
+## v1.221.0 — EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT
+
+**Owner, 2026-10-05**, testing the dev preview at v1.218.0: "some flashcards are shit and the user should probably
+want to skip them and move to the next one and answer that. thing is when the user answers that the animation on
+the choices and etc is kinda lost or delayed? does it only work properly for the first default flashcard? mmm that
+shouldnt be the case", and "answering more flashcards should increase/decrease choices proba further, it's not a
+1 slot thing, but many".
+
+**Measured before fixing** (real app, `__NEURAL_RIG` start-pos 0, K-Guard Top, 1440), the first suspicion was wrong:
+- A FRESH landing that skips to card 3 and answers it gets the same feedback as card 1, within ~100–200 ms: cause,
+  hit and pop on both own cards, −4 / −8 / +13.
+- The broken case was the SECOND answer in one landing. The ECONOMY LAW latch (`_landAnswers`) sent every later answer
+  to a grade-only path (`land_q_extra`) that never armed `_outcome`, so there was no cause, no hit and no pop.
+  - A wrong second answer moved no number at all.
+  - A correct one moved +3 silently: practice, i.e. `prep`, 0.03 per correct answer, capped at 0.15 after 5 per deck.
+- Worse, the clock re-armed on every paged card. So an unanswered second card left to time out cost −4 and broke
+  momentum, with full feedback, while a wrong answer on that same card was free.
+
+**What shipped.**
+- `NG_LAND_ANSWER_STEPS`, in `app.src.jsx`, read through `_landStep`:
+  - The k-th card resolved in one landing (answered or timed out) adds row k to `_qMod`: wrong −4 −3 −2 −1,
+    trap −8 −6 −4 −2, correct 0 +3 +2 +1, then nothing (the cap). The first correct adds no step because it
+    already pays sharpness, practice and momentum.
+  - A timeout takes its card's WRONG step, never more.
+  - Momentum and `land_q_answered` (the `white.answer` evidence and the funnel mark) stay once per landing, on k = 1.
+    Later cards emit `land_q_extra {k, step}` and take the same hit on the cards.
+- **One window per card per landing.** A skip is free. Paging away pauses the card's window, and paging back
+  resumes it. Until now, every page refilled the window, so paging back and forth bought unlimited time; the v1.181.0
+  `landcard-deck` spec asserted that refill, and it now asserts the resume.
+- **The seat star now lives in the wrap**, found while recording the demo. On dev at 1440, after a correct card 1,
+  a pair label's star sat exactly on the deck's next chevron. It was on the ROOT plane at z:4, which covers the
+  whole wrap, so 3 of 3 mouse clicks opened the list menu instead of paging. It is now inside the wrap at z:3:
+  below the hand (4), the card, chevrons, film and More (5), and the pane (8).
+
+**Decided** (2026-10-06, the orchestrator holding the owner's delegated decisions, LDECK-GO): the table as proposed,
+skips free, one clock window per card per landing, and the panic drill aligned.
+
+**The panic drill**, aligned under the same rule. Its timeout broke momentum, while a wrong answer cost nothing, so letting
+the clock run cost MORE than guessing. A wrong drill answer now breaks momentum too, as the landing's first card does, and
+names it ("missed", plus "×N momentum lost"). No escape number moves either way, so no card is hit.
+`ngKnowledgeAdvance`'s panic "wrong" row still describes the old drill: the MDP never reads it (the adapter calls
+`ngKnowledgeAdvance` only for arrivals), and changing that file means re-pinning the reviewed exposure-label law below.
+That is a follow-up for the full-game seat, not this PR.
+
+**Why the table is app-side.** It was first written into `knowledge-profile.src.js`, beside `ngKnowledgeAdvance`. The full core suite then went red on `gameplan-study-live` "actual worker certifies …" (2/2 alone): the study worker refused exposure with `unsupported-exposure-label-law`. That error is right: `mdp-exposure.src.js` pins that file's sha256 as a reviewed label law.
+- The MDP projects only the landing question (k = 1): it assumes no further study, and the adapter calls `ngKnowledgeAdvance` only for arrivals.
+- So the multi-card table is app gameplay. The law file stays byte-identical to dev.
+- k = 1 is still checked against `ngKnowledgeAdvance` in `tests/knowledge_profile.test.mjs`.
+
+**Consequence, measured** (real re-solve, Win chance unrounded, totals after four answers):
+- K-Guard Top: wrong −10 odds / Win −0.9..−2.9; trap −20 / −1.8..−5.8; correct (fresh) +28 / +2.8..+9.9.
+- Butterfly Guard Top: −10 / −1.3..−3.2; trap −14..−20 (the 5% floor) / −2.6..−5.6; correct +28 / +5.8..+11.0.
+- Side Control Top: the 8 transitions move as above. The 16 own submission ENTRIES never move under any answer,
+  before or after: the finish is rolled after you step in, and that arrival clears `qMod`.
+
+**Gates and mutants** (each red by name; the neutral controls are green):
+
+| mutant | red at |
+|---|---|
+| a later answer routed back to the grade-only path | the second-card, stacking, timeout and new-landing journeys |
+| one step for every card | "the hand drops by the second step, −3" |
+| no cap | "answer 5: the hand moves by 0"; "the 6th adds nothing" |
+| momentum on every correct card | "momentum ticked once per landing"; landcard-modes "no combo farm" |
+| evidence on every card | "challenge evidence stays once per landing"; landcard-modes |
+| a later wrong answer breaks momentum | "a later card neither ticks nor breaks momentum" |
+| a paged timeout costs −4 / breaks momentum | "the same −3 a wrong answer there costs" / "momentum kept" |
+| a timeout not counted | "the card after it takes the third step, −2" |
+| paging back refills the window | "card 1 resumes at … not a fresh …" |
+| a skip costs 0.01 | "the skip cost nothing" (+7) |
+| the step counter never reset | "a new landing … the first step again, −4" |
+| the seat star back on the root plane | "a seat star drawn behind the next chevron never takes its click" |
+| the panic drill's wrong answer free again | "a wrong answer breaks momentum" |
+| unit: a table row, a growing step, a timeout at the trap step, no cap in `_landStep`, momentum on every card | tests/knowledge_profile.test.mjs, by name |
+
+**Payload.** First-hand core PAYLOAD_CORE.

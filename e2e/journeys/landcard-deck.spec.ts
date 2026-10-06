@@ -379,7 +379,7 @@ for (const recall of [false, true]) {
     expect((await j.beats()).filter(b => b.beat === "land_q_expired")).toHaveLength(0)
     expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeLessThan(fresh.total)
 
-    // ONE WINDOW PER CARD (v1.219.0; until then a cached card was refilled, so paging back and forth
+    // ONE WINDOW PER CARD (v1.221.0; until then a cached card was refilled, so paging back and forth
     // bought unlimited time): an unanswered cached card RESUMES what it had left, and an edge gesture
     // is not a new card. No game time passes between these reads, so each resume is exact.
     const left1 = await page.evaluate(() => (window as any).__neural._decision.remaining)

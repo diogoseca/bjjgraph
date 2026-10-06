@@ -165,7 +165,7 @@ graded, disabled record). A cold distractor pool warms through `_landWarmP` (rep
 A swipe is not a pick: a capture-phase click suppressor on the card swallows the synthesized click
 of any gesture that moved >6px. The panic card pages nothing (it never enters `renderLandCard`).
 
-**Every card counts; momentum and evidence once per landing** (v1.219.0). `land_q_answered` is
+**Every card counts; momentum and evidence once per landing** (v1.221.0). `land_q_answered` is
 challenge evidence and combo has no cap, so the FIRST card resolved (answered or timed out,
 whichever the player paged to) is the landing question: combo, `land_q_answered`. Every card moves
 the exchange: the k-th resolved adds row k of `NG_LAND_ANSWER_STEPS` (`app.src.jsx`; nothing
@@ -274,8 +274,9 @@ regression remains covered by `roll-card.spec.ts`; the execution cases live in
 
 The defense drill asks its question as the landing does — an `_mcBlock` on surface `"panic"`
 (`data-panic-mc-opt`, rng tags `panic-mc-pick`/`panic-mc-shuffle`, danger skin from the card).
-A right answer pumps the escape odds and deals the next card; a wrong one reveals and pumps
-nothing; expiry reveals-as-miss exactly like the landing. The reveal/Got-it recall idiom
+A right answer pumps the escape odds and deals the next card; a wrong one reveals, pumps
+nothing and breaks momentum (v1.221.0: the drill's timeout already did, and a timeout must never cost
+more than a wrong answer); expiry reveals-as-miss exactly like the landing. The reveal/Got-it recall idiom
 survives only as the cold-pool fallback, with ONE warm-upgrade attempt per deck (a deck that
 cannot build MC must not loop). The bottom-left legend lost the "+7 Tilt toward winning" row
 (owner: "the bar already shows that nicely") and the Win–Lose bar dropped to 165×7px.

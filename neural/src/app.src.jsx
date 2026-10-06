@@ -24,7 +24,7 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
 const NG_OUTCOME_BUBBLE = false;
-// EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.219.0, owner
+// EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
 // 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
 // slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
 // time) and holds what it adds to `_qMod`, the exchange modifier the next arrival clears. Row 0 is the
@@ -9179,7 +9179,7 @@ class Component extends DCLogic {
         b.setAttribute("data-seat-star", String(a.idx));
         b.addEventListener("pointermove", () => { this._hover = { idx: a.idx, t: this.now }; });
         b.style.position = "fixed";
-        // AMBIENT GRAPH CHROME LIVES IN THE WRAP, BELOW THE CARDS (v1.219.0). It used to sit on the
+        // AMBIENT GRAPH CHROME LIVES IN THE WRAP, BELOW THE CARDS (v1.221.0). It used to sit on the
         // ROOT plane at z:4, and per the helmet.html z ladder any root-level sibling at z ≥ 1 covers
         // ALL of the wrap, so a star meant to be "below the reading cards" was above every one of
         // them. Measured on the real app at 1440 (dev and this branch): a pair label drawn behind the
@@ -14708,7 +14708,7 @@ class Component extends DCLogic {
   // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST card
   // resolved per landing (whichever one it is; answered, or run out of time) is THE landing
   // question — combo, `land_q_answered` — and those stay once per landing. Every card counts for the
-  // ODDS (v1.219.0, owner: "it's not a 1 slot thing, but many"): the k-th card resolved adds row k of
+  // ODDS (v1.221.0, owner: "it's not a 1 slot thing, but many"): the k-th card resolved adds row k of
   // NG_LAND_ANSWER_STEPS to qMod, diminishing, nothing past the table, and takes the same hit on the
   // cards; a later card emits `land_q_extra` with its k. stage/srs/prep still run for every card
   // inside _mcAnswer/gradeRecall. The step counter is `_landResolved`, never `_landPending` —
@@ -14749,7 +14749,7 @@ class Component extends DCLogic {
       rec.answered = true;
       if (this._landQ === rec) this._landQ.answered = true;
       if (this._landAnswers) this._landAnswers.add(qh);
-      // EVERY CARD COUNTS (v1.219.0): its place among the resolved cards picks its step; the first
+      // EVERY CARD COUNTS (v1.221.0): its place among the resolved cards picks its step; the first
       // alone is the landing question (momentum, challenge evidence)
       this._landAnswered(ok, tier, mode, hooks, fmt, (this._landResolved = (this._landResolved || 0) + 1));
       this._updateLandDeck();
@@ -14920,7 +14920,7 @@ class Component extends DCLogic {
     const seq = (this._landPageSeq = (this._landPageSeq || 0) + 1);
     // Pause immediately, including while a cold distractor pool loads. A newly mounted,
     // unanswered card gets its own full window; edge-clamped gestures never reset the clock.
-    // ONE WINDOW PER CARD (v1.219.0): the card being left keeps what was left of its window, and
+    // ONE WINDOW PER CARD (v1.221.0): the card being left keeps what was left of its window, and
     // coming back to it resumes that instead of a fresh one — a skip is free, but paging back and
     // forth can never buy a card more time.
     const leaving = this._landQ, dd = this._decision;
@@ -16880,6 +16880,16 @@ class Component extends DCLogic {
           this.fx("escape_odds_pumped", { deck_key: pk });
           this._jitIdx[pk] = idx + 1;
           render();                     // next question, exactly as Got-it always advanced
+        } else {
+          // A WRONG ANSWER COSTS WHAT RUNNING OUT OF TIME COSTS (v1.221.0, orchestrator LDECK-GO): the
+          // drill's timeout breaks momentum, and a wrong answer used to cost nothing, so letting the
+          // clock run was never cheaper than guessing — the timeout must never cost more than a wrong
+          // answer on the same card. Now both break momentum, as the landing's first card does; no
+          // escape number moves either way, so no card takes a hit. (ngKnowledgeAdvance's panic
+          // "wrong" row still reads the pre-v1.221.0 drill; the MDP never reads it — arrivals only.)
+          const broke = this._breakCombo("wrong");
+          this._outcome({ tone: "bad", tag: "missed", big: "no boost", broke: broke, hits: false,
+            sr: "Missed: your escapes get no boost." });
         }
         this._dockLandCard(card);
         if (row) this.setBeacon("escape", row);  // graded — now TAKE the escape
@@ -18387,7 +18397,7 @@ class Component extends DCLogic {
       }
     }
     if (q.key && q.card) this._schedule(q.key, q.card.q, false); // revealed unanswered = a failed review
-    // A TIMEOUT IS THE WRONG STEP OF THE CARD IT RAN OUT ON (v1.219.0), never more: the first card
+    // A TIMEOUT IS THE WRONG STEP OF THE CARD IT RAN OUT ON (v1.221.0), never more: the first card
     // resolved in a landing costs −4 and breaks momentum exactly as a wrong answer does; a later
     // card, paged to, costs its smaller step and leaves momentum alone — as a wrong answer there does.
     const k = (this._landResolved = (this._landResolved || 0) + 1);

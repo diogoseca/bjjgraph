@@ -2,7 +2,7 @@ import { test, expect, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
 /**
- * EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT (v1.219.0, owner 2026-10-05).
+ * EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT (v1.221.0, owner 2026-10-05).
  *
  * "when the user answers that the animation on the choices and etc is kinda lost or delayed? does it
  * only work properly for the first default flashcard?" and "answering more flashcards should
@@ -66,9 +66,12 @@ const st = (page: Page) =>
   });
 const named = async (page: Page, beat: string) =>
   page.evaluate((b) => ((window as any).__neural.beats || []).filter((x: any) => x.beat === b), beat) as Promise<any[]>;
-// the printed own-card deltas from `before` to now, leaving out a clamped or unprinted number
+// the printed own-card deltas from `before` to now, paired by IDENTITY (the hand's one-time sort by Win
+// chance may land between two reads, v1.218.6), leaving out a clamped or unprinted number and an own
+// submission ENTRY ("Works"): its number is the finish rolled after the arrival that clears qMod, so no
+// answer ever moves it (measured on the real app; it takes no hit by the "only what moved" rule)
 const deltas = (before: Card[], after: Card[], room: number) =>
-  before.map((b, i) => ({ t: b.t, was: pct(b.n), now: pct(after[i]?.n ?? "") })).filter((x) => x.was != null && x.now != null && x.was > 5 + room && x.was < 95 - room).map((x) => ({ t: x.t, d: (x.now as number) - (x.was as number) }));
+  before.filter((b) => b.word !== "works").map((b) => ({ t: b.t, was: pct(b.n), now: pct(after.find((a) => a.t === b.t)?.n ?? "") })).filter((x) => x.was != null && x.now != null && x.was > 5 + room && x.was < 95 - room).map((x) => ({ t: x.t, d: (x.now as number) - (x.was as number) }));
 
 async function setup(page: Page, width: number, height: number) {
   await page.setViewportSize({ width, height });
@@ -260,8 +263,8 @@ test(`correct answers stack with never-growing steps, and stop when there is not
     const hitOf = (t: string) => after.find((c) => c.t === t)!;
     if (d[0].d > 0) expect(d.every((x) => hitOf(x.t).hit && hitOf(x.t).delta === String(x.d)), `answer ${k}: glints by its real +${d[0].d}`).toBe(true);
     else expect(after.filter((c) => c.hit).length, `answer ${k}: nothing moved, nothing glints`).toBe(0);
-    after.forEach((c, i) => {
-      const moved = pct(c.n) !== pct(before[i].n);
+    after.forEach((c) => {
+      const moved = pct(c.n) !== pct(before.find((x) => x.t === c.t)?.n ?? "");
       expect(c.hit, `answer ${k}: ${c.t} glints exactly when its number moved`).toBe(moved);
     });
     expect(await causes(page), `answer ${k}: the cause`).toEqual(["correct"]);
@@ -378,4 +381,63 @@ test(`a skip is free, and a card has one window per landing: paging back resumes
   const resolved = [...(await named(page, "land_q_answered")), ...(await named(page, "land_q_extra")), ...(await named(page, "land_q_expired"))];
   expect(resolved, "paging resolved nothing").toEqual([]);
   await nothingCommitted(page, pos);
+});
+
+// THE PANIC DRILL (v1.221.0, orchestrator LDECK-GO): its timeout broke momentum while a wrong answer cost
+// nothing, so a timeout cost MORE than a wrong answer on the same card. Now a wrong answer breaks momentum
+// too, as the landing's first card does, and names it; no escape number moves either way, so nothing is
+// hit. Both halves from the same ×3 streak, each on a fresh boot.
+const enterDefence = (page: Page) =>
+  page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    a._combo = 3;
+    const sub = a.adj[a.currentPos].find((k: number) => a.nodes[k].ty === "submissions");
+    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"));
+  });
+const panicSetup = async (page: Page) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  const j = journey(page);
+  await j.boot("/");
+  await j.hydrateAll();
+  await j.land("Mount Top");
+  await enterDefence(page);
+  await page.waitForTimeout(400);
+  const mc = await page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    const card = document.querySelector("[data-panic]");
+    return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? { correct: a._mc.correct, n: a._mc.n } : null;
+  });
+  expect(mc, "the drill asks multiple choice (its pool is warm)").not.toBeNull();
+  return { j, mc: mc! };
+};
+const panicState = (page: Page) =>
+  page.evaluate(() => {
+    const a: any = (window as any).__neural;
+    return { combo: a._combo || 0, qMod: a._qMod || 0, hits: document.querySelectorAll("[data-hit-delta]").length, pos: a.currentPos };
+  });
+
+test(`the panic drill: a wrong answer costs what its timeout costs, momentum, never less`, async ({ page }) => {
+  const { j, mc } = await panicSetup(page);
+  const before = await panicState(page);
+  expect(before.combo, "a ×3 streak to lose").toBe(3);
+  await j.clickByMouse(`[data-panic-mc-opt="${(mc.correct + 1) % mc.n}"]`, "a wrong MC option");
+  await j.advance(100);
+  const wrong = await panicState(page);
+  expect(wrong.combo, "a wrong answer breaks momentum").toBe(0);
+  expect(wrong.qMod, "and moves no exchange odds (the drill never did)").toBe(before.qMod);
+  expect(await causes(page), "it names itself, then the streak it cost").toEqual(["missed", "×3 momentum lost"]);
+  expect(wrong.hits, "no escape number moved, so nothing is hit").toBe(0);
+  expect(await said(page)).toBe("Missed: your escapes get no boost. Your ×3 momentum is lost.");
+
+  // the other half: the same streak, left to time out, costs exactly that and no more
+  const t = await panicSetup(page);
+  const b2 = await panicState(page);
+  expect(b2.combo).toBe(3);
+  await t.j.advanceUntil("land_q_expired", 20000, 100);
+  await t.j.advance(100);
+  const slow = await panicState(page);
+  expect(slow.combo, "the timeout breaks momentum").toBe(0);
+  expect(slow.qMod, "and moves no odds").toBe(b2.qMod);
+  expect(slow.combo >= wrong.combo && slow.qMod >= wrong.qMod, "a timeout never costs more than a wrong answer").toBe(true);
+  expect((await causes(page))[0], "named as too slow").toBe("too slow");
 });

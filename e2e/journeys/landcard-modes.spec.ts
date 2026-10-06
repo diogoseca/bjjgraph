@@ -64,7 +64,7 @@ import { journey } from "../dsl"
  *
  * ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so only the FIRST
  * card resolved per landing ticks combo and counts as evidence — later answers are named
- * `land_q_extra` and (v1.219.0) add only their smaller odds step (landing-deck-answers.spec.ts
+ * `land_q_extra` and (v1.221.0) add only their smaller odds step (landing-deck-answers.spec.ts
  * pins the steps), and committing after any answer fires no `land_q_ignored`.
  *
  * Mutants this file must kill:
