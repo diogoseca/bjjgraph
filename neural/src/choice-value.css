@@ -4,6 +4,10 @@
 .ngcv-line small { font-size:11px; color:#aab9d3; }
 .ngcv-card { margin-top:2px; }
 .ngcv-card[data-status="pending"] strong { color:#b8c7e0; }
+/* A previous number shown while the same hand re-solves (ngChoiceValueUpdating; threat cards too). */
+[data-choice-stale] { opacity:.42; animation:ngcvStale 1.4s ease-in-out infinite alternate; }
+@keyframes ngcvStale { to { opacity:.62; } }
+@media (prefers-reduced-motion: reduce) { [data-choice-stale] { animation:none; } }
 .ngcv-detail { padding:14px 0 2px; color:#cad5e8; }
 .ngcv-detail .ngcv-line { font-size:14px; white-space:normal; }
 .ngcv-detail .ngcv-line strong { font-size:25px; }

@@ -26,6 +26,9 @@ import { journey } from "../dsl";
  * reduced-motion rule deleted, the streak not stacked, stacked on top, stacked at the old h×0.9 offset
  * or without the rise term (clear at creation, overlapping mid-flight), the expiry mis-named, the trap mis-named, a miss costing 5, the
  * announcer written again, no aria sentence, the countdown left pinned. Neutral control stays green.
+ * WINLAT-RED2 (2026-10-05): cards pair by IDENTITY (`paired`), and every comparison asserts a floor on
+ * what it compared. Mutants: the pairing returning nothing is red at each test's floor; an expiry
+ * costing 5 (app `_qMod -= 0.05`) is red at "−4 on expiry".
  * CSS runs on the browser's wall clock regardless of the DSL's frame pump, so the motion checks use
  * real waits; the frame pump only drives the repaint that moves the numbers.
  */
@@ -35,7 +38,7 @@ const VIEWS = [
   { name: "390", width: 390, height: 844 },
 ];
 
-type Card = { t: string; n: string; word: string; delta: string | null; hit: boolean };
+type Card = { t: string; n: string; word: string; delta: string | null; hit: boolean; stale: boolean };
 const cards = (page: Page, group: "you" | "opponent") =>
   page.evaluate((g) => {
     const sel = g === "you" ? "[data-tech]" : "[data-threat-tech]";
@@ -45,8 +48,26 @@ const cards = (page: Page, group: "you" | "opponent") =>
       word: (c.querySelector("[data-immediate-label]")?.textContent || "").trim().toLowerCase(),
       delta: c.getAttribute("data-hit-delta"),
       hit: c.classList.contains("ng-hit-bad") || c.classList.contains("ng-hit-good"),
+      // a number the hand shows DIMMED while it re-solves is the previous result, not the current chance
+      stale: !!c.querySelector(".ngodds[data-choice-stale]"),
     }));
   }, group) as Promise<Card[]>;
+// PAIR BY IDENTITY, NEVER BY POSITION (WINLAT-RED1, 2026-10-05). The hand sorts itself ONCE when its
+// first Win chances land (owner rule, v1.207), and since v1.218.4 those land within seconds, so they
+// can land BETWEEN the two reads of a test. A position-paired read then compared one card's "before"
+// with ANOTHER card's "after": measured, Gift Wrap's 45% against Loop Choke's dimmed "Works" 45%
+// ("received 0") while Gift Wrap itself went 45% -> 41%. A card is its data-tech plus its occurrence
+// (escapes share a data-tech). Every comparison below asserts a FLOOR on the pairs it compared, so a
+// pairing that matches nothing, or a skip that skips everything, is red rather than vacuously green.
+const paired = (before: Card[], after: Card[]) => {
+  const key = (list: Card[]) => { const seen = new Map<string, number>(); return list.map((c) => { const k = c.t + "#" + (seen.get(c.t) ?? 0); seen.set(c.t, (seen.get(c.t) ?? 0) + 1); return k; }); };
+  const kb = key(before), ka = key(after), at = new Map(ka.map((k, i) => [k, after[i]]));
+  return before.flatMap((b, i) => (at.has(kb[i]) ? [{ b, a: at.get(kb[i])! }] : []));
+};
+// FLOORS, measured on the Mount Top hand (setup), 1440 and 390 alike: 8 transition move chances, all
+// above the 5% and 8% clamps (its 8 entry cards print "Works", which a question outcome never moves),
+// and 6 opponent threats. A count below a floor means the pairing or a skip stopped comparing.
+const MOVES_FLOOR = 8, THREATS_FLOOR = 6;
 const pct = (s: string) => {
   const m = /^(\d+)%$/.exec(s);
   return m ? Number(m[1]) : null;
@@ -121,17 +142,23 @@ for (const vp of VIEWS) {
     const p0 = await pops(page);
 
     // THE NUMBERS ARE UNCHANGED BY THIS WORK: each own card drops by exactly the −4 cost
-    youBefore.forEach((b, i) => {
-      const was = pct(b.n), now = pct(you[i].n);
-      if (was == null || now == null || was <= 5) return; // a clamped or unprinted number cannot show −4
+    let compared = 0;
+    for (const { b, a } of paired(youBefore, you)) {
+      const was = pct(b.n), now = pct(a.n);
+      if (was == null || now == null || was <= 5 || a.stale) continue; // a clamped, unprinted or dimmed number cannot show −4
+      compared++;
       expect(now - was, `${b.t}: printed odds drop by the cost`).toBe(-4);
-      expect(you[i].delta, `${b.t}: the hit records the render's delta`).toBe(String(now - was));
-      expect(you[i].hit, `${b.t}: takes the hit`).toBe(true);
-    });
-    them.forEach((c, i) => {
-      expect(c.n, `${c.t}: a threat's number does not move`).toBe(themBefore[i].n);
-      expect(c.hit || c.delta != null, `${c.t}: a threat takes no hit`).toBe(false);
-    });
+      expect(a.delta, `${b.t}: the hit records the render's delta`).toBe(String(now - was));
+      expect(a.hit, `${b.t}: takes the hit`).toBe(true);
+    }
+    expect(compared, "own move chances paired and compared").toBeGreaterThanOrEqual(MOVES_FLOOR);
+    const threats = paired(themBefore, them);
+    expect(threats.length, "every threat paired").toBe(themBefore.length);
+    expect(threats.length, "threats paired and compared").toBeGreaterThanOrEqual(THREATS_FLOOR);
+    for (const { b, a } of threats) {
+      expect(a.n, `${a.t}: a threat's number does not move`).toBe(b.n);
+      expect(a.hit || a.delta != null, `${a.t}: a threat takes no hit`).toBe(false);
+    }
     const hitCount = you.filter((c) => c.hit).length;
     expect(p0.map((p) => p.text + " " + p.word).sort(), "one pop per hit card, saying its real delta and the card's own word for that number").toEqual(
       you.filter((c) => c.hit).map((c) => (Number(c.delta) > 0 ? "+" : "−") + Math.abs(Number(c.delta)) + "% " + c.word).sort(),
@@ -169,8 +196,8 @@ for (const vp of VIEWS) {
     await j.advance(100);
     const after = await cards(page, "you");
     const p = await pops(page);
-    const deltas = before.map((b, i) => (pct(after[i].n) ?? 0) - (pct(b.n) ?? 0)).filter((d, i) => (pct(before[i].n) ?? 0) > 8);
-    expect(deltas.length, "printed numbers to compare").toBeGreaterThan(0);
+    const deltas = paired(before, after).filter(({ b, a }) => (pct(b.n) ?? 0) > 8 && pct(a.n) != null && !a.stale).map(({ b, a }) => pct(a.n)! - pct(b.n)!);
+    expect(deltas.length, "own move chances paired and compared").toBeGreaterThanOrEqual(MOVES_FLOOR);
     expect(deltas.every((d) => d === -8), `a trap costs −8 on every printed number (${deltas})`).toBe(true);
     expect(p.length, "pops present").toBeGreaterThan(0);
     expect(p.every((x) => x.text === "\u22128%"), "the pop says the real −8, not a constant −4").toBe(true);
@@ -184,13 +211,15 @@ for (const vp of VIEWS) {
     await j.advance(100);
     const after = await cards(page, "you");
     expect((await causes(page)).map((x) => x.text), "the cause says correct").toEqual(["correct"]);
-    const rose = after.filter((x, i) => (pct(x.n) ?? 0) > (pct(before[i].n) ?? 0));
-    expect(rose.length, "some printed number rose").toBeGreaterThan(0);
-    after.forEach((x, i) => {
-      const d = (pct(x.n) ?? 0) - (pct(before[i].n) ?? 0);
+    const pairs = paired(before, after);
+    expect(pairs.length, "every own card paired").toBe(before.length);
+    const rose = pairs.filter(({ b, a }) => (pct(a.n) ?? 0) > (pct(b.n) ?? 0)).map(({ a }) => a);
+    expect(rose.length, "the move chances that rose").toBeGreaterThanOrEqual(MOVES_FLOOR);
+    for (const { b, a: x } of pairs) {
+      const d = (pct(x.n) ?? 0) - (pct(b.n) ?? 0);
       expect(x.hit, `${x.t}: glints exactly when its number rose`).toBe(d > 0);
       if (x.hit) expect(Number(x.delta), `${x.t}: the glint carries the real +${d}`).toBe(d);
-    });
+    }
     const p = await pops(page);
     expect(p.map((x) => x.text).sort(), "a +N pop per risen card").toEqual(rose.map((x) => "+" + x.delta + "%").sort());
   });
@@ -218,8 +247,10 @@ for (const vp of VIEWS) {
     const me = after.find((c) => c.t === pinned!.tech)!;
     expect(me.n, "the pin held: this card's number did not move").toBe(pinned!.keep);
     expect(me.hit || me.delta != null, "so it takes no hit").toBe(false);
-    const rose = after.filter((x, i) => (pct(x.n) ?? 0) > (pct(before[i].n) ?? 0));
-    expect(rose.length, "the others still rose").toBeGreaterThan(0);
+    const pairs = paired(before, after);
+    expect(pairs.length, "every own card paired").toBe(before.length);
+    const rose = pairs.filter(({ b, a }) => (pct(a.n) ?? 0) > (pct(b.n) ?? 0)).map(({ a }) => a);
+    expect(rose.length, "the others still rose (all move chances but the pinned one)").toBeGreaterThanOrEqual(MOVES_FLOOR - 1);
     expect(rose.every((x) => x.hit), "and each of them glints").toBe(true);
     expect((await pops(page)).length, "one pop per moved card, none for the pinned one").toBe(rose.length);
   });
@@ -231,11 +262,14 @@ for (const vp of VIEWS) {
     await j.advance(100);
     const after = await cards(page, "you");
     expect((await causes(page)).map((c) => c.text), "the cause names the expiry").toEqual(["too slow"]);
-    before.forEach((b, i) => {
-      const was = pct(b.n), now = pct(after[i].n);
-      if (was == null || now == null || was <= 5) return;
+    let compared = 0;
+    for (const { b, a } of paired(before, after)) {
+      const was = pct(b.n), now = pct(a.n);
+      if (was == null || now == null || was <= 5 || a.stale) continue;
+      compared++;
       expect(now - was, `${b.t}: −4 on expiry`).toBe(-4);
-    });
+    }
+    expect(compared, "own move chances paired and compared").toBeGreaterThanOrEqual(MOVES_FLOOR);
     expect(await page.evaluate(() => (window as any).__neural._evCountdown == null), "the countdown sentence is released, not left pinned").toBe(true);
   });
 

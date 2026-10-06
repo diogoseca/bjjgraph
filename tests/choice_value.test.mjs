@@ -6,7 +6,7 @@ import { readFileSync } from "node:fs";
 import {
   NG_CHOICE_VALUE, ngChoiceValueController, ngChoiceValueStamp, ngChoiceValuePercent,
   ngChoiceValueView, ngChoiceValueHTML, ngChoiceValueOrder, ngChoiceValueKnowledge,
-  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValueImmediate,
+  ngChoiceValueThreatView, ngChoiceValueThreatOrder, ngChoiceValueImmediate, ngChoiceValueUpdating, NG_CHOICE_VALUE_RUNTIME,
 } from "../neural/src/choice-value.src.js";
 
 const action = name => JSON.stringify(["mount/top", name, "transition", "back/top", "branch"]);
@@ -390,4 +390,42 @@ test("Inspect renders the app's pre-values view (runtime loaded, values still pr
   assert.match(html, /data-choice-win>—</);
   assert.match(html, /Move chance now: 38%/);
   assert.doesNotMatch(html, /ngcv-outcomes|undefined/);
+});
+
+// THE LAST NUMBER STAYS WHILE THE SAME HAND RE-SOLVES (WINLAT1). The host pairs a card's pending view
+// with the last READY view that same card showed in the same hand; this is the merge it paints.
+test("a re-solving card keeps its last Win chance, dimmed and named as updating; nothing else is borrowed", () => {
+  const req = request(), c = ngChoiceValueController(), t = c.begin(req, { handId: "h", immediate: {} });
+  assert.ok(c.accept(t, response(req, [record(A, .62), record(B, .38)])));
+  const ready = ngChoiceValueView(c.snapshot().actions[0], c.snapshot());
+  assert.equal(ready.value, "62%");
+  // the answer: same hand, a new request, pending, with the NEW immediate chance
+  c.begin(request({ requestId: "r2", revision: 2, profileHash: "profile-2" }), { handId: "h", immediate: { [A]: { immediateExecutionChance: .85 } } });
+  const pending = ngChoiceValueView(c.snapshot().actions[0], c.snapshot());
+  assert.equal(pending.value, "—"); assert.equal(pending.status, "pending");
+  const shown = ngChoiceValueUpdating(pending, ready);
+  assert.equal(shown.value, "62%", "the previous Win chance stays visible");
+  assert.equal(shown.stale, true); assert.equal(shown.state, "Updating…"); assert.equal(shown.status, "pending", "still pending: no sort, legend or badge reads it as current");
+  assert.equal(shown.recommended, false); assert.equal(shown.immediate, "85%", "the move chance is the new one");
+  assert.deepEqual(shown.outcomes, []); assert.equal(shown.split, null);
+  assert.match(ngChoiceValueHTML(shown), /<strong data-choice-win data-choice-stale>62%<\/strong>/);
+  assert.doesNotMatch(ngChoiceValueHTML(ready), /data-choice-stale/);
+  assert.match(ngChoiceValueHTML(shown, true), /Updating…/);
+  // nothing to keep: no previous, a previous that was not a value, or a current view that is not pending
+  assert.equal(ngChoiceValueUpdating(pending, undefined), pending);
+  assert.equal(ngChoiceValueUpdating(pending, pending), pending);
+  assert.equal(ngChoiceValueUpdating(ready, ready), ready, "a ready view is shown as itself");
+  const failed = { ...pending, status: "unavailable" };
+  assert.equal(ngChoiceValueUpdating(failed, ready), failed, "a failure never borrows the old number");
+  assert.equal(NG_CHOICE_VALUE_RUNTIME.ngChoiceValueUpdating, ngChoiceValueUpdating, "the lazily loaded runtime exports it");
+});
+test("a re-solving entry card keeps its last Works number too, dimmed; a known one is never replaced", () => {
+  const entry = { immediateExecutionKind: "entry", immediateExecutionChance: 1 };
+  const ready = ngChoiceValueView(record(A, .3, .2, { ...entry, followUp: followUp(.45) }));
+  const pending = ngChoiceValueView({ actionId: A, status: "pending", reason: "pending", ...entry });
+  assert.equal(pending.immediate, "—");
+  const shown = ngChoiceValueUpdating(pending, ready);
+  assert.equal(shown.immediate, "45%"); assert.equal(shown.immediateStale, true); assert.equal(shown.immediateText, "Works 45%");
+  const transition = ngChoiceValueUpdating(ngChoiceValueView({ actionId: B, status: "pending", reason: "pending", immediateExecutionKind: "transition", immediateExecutionChance: .7 }), ngChoiceValueView(record(B, .4)));
+  assert.equal(transition.immediate, "70%"); assert.equal(transition.immediateStale, undefined);
 });
