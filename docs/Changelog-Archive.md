@@ -10524,4 +10524,4 @@ That is a follow-up for the full-game seat, not this PR.
 | the panic drill's wrong answer free again | "a wrong answer breaks momentum" |
 | unit: a table row, a growing step, a timeout at the trap step, no cap in `_landStep`, momentum on every card | tests/knowledge_profile.test.mjs, by name |
 
-**Payload.** First-hand core PAYLOAD_CORE.
+**Payload.** First-hand core (the delta basis) 365,215 B. That is +436 B over dev 6ab11fc71's own 364,779 B (measured the same way, on a sandbox of dev's app.src.jsx), and +5,662 B over the accepted 359,553 B, inside the 6,000 cap with 338 B left. Eager gzip 345,643 B, +2,645 B over the accepted 342,998 B (cap 5,000). This change's own share, gzip -9: `neural.js` +413 B, `neural.css` +0. No baseline was crossed, so none was accepted.
