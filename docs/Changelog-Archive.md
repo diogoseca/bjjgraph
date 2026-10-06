@@ -10499,5 +10499,7 @@ pinned in choice-value.spec's re-solve test. 20 mutants red by name on the dev-m
 **Inverted specs:** submission-choices' escape inspect reads `_detailCtx` (the sheet closes to opacity 0, which
 Playwright counts as visible), and its play button reads "Posture up ⏎".
 
-**Payload.** Core 362,580 B: +365 over v1.218.1's 362,215, +3,027 over 359,553 (cap 6,000). Own share, gzip -9:
-`neural.js` +451, `neural.css` −45.
+**Payload,** measured on the dev-merged tree (6ab11fc71):
+- first-hand core 365,038 B: +5,485 of the 6,000 cap over 359,553, and about +259 over dev's +5,226;
+- eager gzip 345,717 B: +2,719 of 5,000 over the 342,998 accepted at v1.219.0, and +501 over dev's 345,216;
+- this change's own share, gzip -9 against dev's sources: `neural.js` +512, `neural.css` −33.
