@@ -313,7 +313,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 ## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Kneebar/from 50-50]]
-- [[Submissions/Banana Split/from Truck]]
+- [[Submissions/Calf Slicer/from Truck]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Turtle]] - Base defensive position from which Rodeo Ride control develops

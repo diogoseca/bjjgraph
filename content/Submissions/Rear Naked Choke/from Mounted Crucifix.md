@@ -339,7 +339,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 - [[Positions/Gift Wrap]] - Related arm control position that shares arm-trapping principles
 - [[Positions/Crucifix]] - Parent position family with similar arm isolation mechanics
 - [[Positions/Mount/High Mount]] - Common entry position used to establish mounted crucifix before attacking RNC
-- [[Submissions/Gift Wrap Armbar/from Gift Wrap]] - Alternative RNC variation using similar arm control concepts from gift wrap position
+- [[Submissions/Rear Naked Choke/from Gift Wrap]] - Alternative RNC variation using similar arm control concepts from gift wrap position
 
 </section>
 
