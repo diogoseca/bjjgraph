@@ -62,6 +62,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
 - **v1.219.0** — [THE CAMERA GLIDES, AND FRAMES WHAT YOU CAN SEE](#v12190--the-camera-glides-and-frames-what-you-can-see)
+- **v1.220.0** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v12200--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
 - **v1.221.0** — [EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT](#v12210--every-flashcard-you-answer-counts-and-shows-it)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
@@ -10450,6 +10451,59 @@ over the 5,000 B per-change cap. So the baseline was first accepted at DEV'S mea
 own commit (orchestrator CAM-GO0, the owner's 2026-09-29 pre-authorisation; its reason lists #259–#268 and
 #267). This change stays its own visible +2,218 B. The first-hand core is 364,779 B, +5,226 over 359,553
 (cap 6,000), and needed no accept.
+## v1.220.0 — THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET
+
+Owner, 2026-10-05 (items 3–5 of the dev-preview notes; 1–2 shipped as v1.218.1). Owner screen: the CARD2 demo. Decisions taken by the orchestrator for the owner,
+2026-10-06: the sheet follows the card ratio, the lift stays (12 px / 0.44 s), and escape/threat sheets have no Play-from-here or tabs.
+
+**Item 3:** "the win chance label and value% should be significantly smaller than the move label and value%".
+- Every card size is a ratio of the move's own % (`NG_CARD_MOVE_NUM` 15 px), set as custom properties:
+  - move label 0.75 (9 → 11.25 px);
+  - Win chance label and value 0.6 (10/16 → 9/9 px);
+  - a threat's header Win chance 0.6 of its Odds (13 → 9 px).
+- **The Inspect sheet too:** its Win chance headline, label and value, is 0.6 of the sheet's own move %
+  (`NG_SHEET_MOVE_NUM` 25 px: 14/25 → 15/15 px). Its outcome numbers match it (17 → 15 px), so the breakdown
+  never outshouts the headline, and its prose stays at 12 px.
+- No number changed.
+- **Updating cue (#267 review):** dimming alone is easy to miss on a phone or under Dark Reader, so a stale number
+  also reads "52%…" (`[data-choice-stale]::after`) and carries the aria-label "Win chance 52%, updating". The
+  threat and entry numbers get theirs from their own paint.
+
+**Item 4:** "perhaps it should move a little bit up as if putting a card on the table".
+- `executionCard` returns a static holder that owns the rectangle, status and input. `_placeOnTable` lifts the
+  cloned face inside it: rise `NG_CARD_LIFT` = 1/12 of its height (12 px), scale 1.035, set down at 0.985, settle,
+  over `NG_CARD_LIFT_MS` 440.
+- No rise under reduced motion.
+- A row that scrolls in x clips in y, so the row holding only the stand-in is `overflow:visible`. The deal restores
+  `auto/hidden`; an entry reaches the next deal with no `clearOptions` between.
+
+**Item 5:** "inspect in a submission is not consistent design as the inspect of other techniques".
+- Escapes and threats had a bare floating panel (`previewStateChoice`, retired). `expandOption` now renders them,
+  and `_stateChoiceSheet` names only what differs:
+  - the category word, the title, "out of <submission>";
+  - the card's number under ESCAPE CHANCE / THEIR ODDS;
+  - the → line;
+  - the body: a defense's authored detail as reading sections, opened by the submission's safety notice and closed
+    by its safety guide (§7). An opponent's technique reads its own breakdown from the defender's side.
+- A threat has no play button (Enter already refused).
+- The sheet's buttons are now `min-height:44px` (they were 41).
+
+**Pinned by** `e2e/journeys/card-presentation.spec.ts` at 1440/390: measured ratios on every card of three hands;
+the app's own animation paused at its scanned peak (rise, holder still, no click hole, unclipped, settles); reduced
+motion; sheet parity against a transition's sheet, with seeded safety, and the sheet's headline ratio. The cue is
+pinned in choice-value.spec's re-solve test. 20 mutants red by name on the dev-merged tree, control green.
+- Three first cuts were wrong. The outcome-size mutant survived until the reference sheet waited for READY values.
+- The other two: the settle check read the transform at `currentTime = duration` (unfilled, so it
+  read nothing), and the holder mutant went red at a precondition. Both are fixed and re-killed.
+- Recorded non-kill: the play button's min-height alone (the footer stretches it to Back's 44 px).
+
+**Inverted specs:** submission-choices' escape inspect reads `_detailCtx` (the sheet closes to opacity 0, which
+Playwright counts as visible), and its play button reads "Posture up ⏎".
+
+**Payload,** measured on the dev-merged tree (6ab11fc71):
+- first-hand core 365,038 B: +5,485 of the 6,000 cap over 359,553, and about +259 over dev's +5,226;
+- eager gzip 345,717 B: +2,719 of 5,000 over the 342,998 accepted at v1.219.0, and +501 over dev's 345,216;
+- this change's own share, gzip -9 against dev's sources: `neural.js` +512, `neural.css` −33.
 ## v1.221.0 — EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT
 
 **Owner, 2026-10-05**, testing the dev preview at v1.218.0: "some flashcards are shit and the user should probably

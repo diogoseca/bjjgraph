@@ -20,6 +20,13 @@ import { journey } from "../dsl";
  *        ._sharedIncoming, ._focusIdxSet, ._listFocusId
  * Beats: list_item_added, list_shared, list_opened
  * Wire:  neural/src/lists-codec.src.js (ordinals from node_ordinals.json, never array indices)
+ *
+ * The opened technique's SEAT STAR (journey 1) is graph chrome UNDER the landing card since v1.221.0.
+ * Measured per 400 ms pump (LDECK-RED1, reports/landing-deck-answers-star-diag.log): at rest the
+ * v1.219.0 camera keeps it clear of the card (1440: 196 px above the card's top; 390: never over
+ * it), and the point under its centre is the star. Known NON-claim: mid-flight (1440, one pump) it
+ * crosses the attempt card's MC option and the card takes the point — so journey 1 waits for the
+ * star to be REACHABLE before clicking, and nothing here asserts the flight itself.
  */
 
 const PUBLIC = resolve(__dirname, "../../source/public");
