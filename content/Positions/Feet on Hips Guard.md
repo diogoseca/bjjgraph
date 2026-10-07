@@ -204,7 +204,7 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (18% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (gi only)
 
 - **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (14% of attempts)
 
@@ -228,7 +228,7 @@ The position excels against standing and combat base opponents, using leg extens
 
 - **[[Transitions/Feet on Hips Sickle Sweep/Attacker|Feet on Hips Sickle Sweep]]** (4% of attempts)
 
-- **[[Transitions/Feet on Hips Tripod Sweep/Attacker|Feet on Hips Tripod Sweep]]** (5% of attempts)
+- **[[Transitions/Feet on Hips Tripod Sweep/Attacker|Feet on Hips Tripod Sweep]]** (23% of attempts)
 
 
 ### Common Mistakes

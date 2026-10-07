@@ -202,7 +202,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
 
 Defending the Waiter Sweep requires understanding the biomechanical sequence the bottom player must complete and disrupting it at the earliest possible stage. As the top player facing butterfly guard, you must recognize the asymmetrical grip structure—underhook on one side, overhook or collar control on the other—as the primary warning signal. The sweep relies on a specific chain: posture break, weight loading onto hooks, diagonal rotation with arm extension. Each link in this chain presents a defensive intervention point, and the earlier you disrupt the sequence the less energy and risk involved. Your primary defensive tools are posture maintenance, grip fighting to prevent the asymmetrical control, base widening, and strategic posting. The most common error defenders make is passively accepting the underhook without immediately fighting to re-pummel or neutralize it, which allows the attacker to complete the most critical piece of their setup unopposed.
 
-**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 

@@ -450,8 +450,8 @@
       {
         "transition": "Hip Bump Sweep",
         "attempt_probability": {
-          "gi": 8,
-          "nogi": 11
+          "gi": 7,
+          "nogi": 10
         }
       },
       {
@@ -465,28 +465,28 @@
         "transition": "Scissor Sweep",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 8
+          "nogi": 7
         }
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 13
         }
       },
       {
         "transition": "Cross Collar Choke from Closed Guard",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 0
         }
       },
       {
         "transition": "Pendulum Sweep",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -535,7 +535,7 @@
         "transition": "Closed Guard to Triangle",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 5
+          "nogi": 4
         }
       },
       {
@@ -570,7 +570,7 @@
         "transition": "Closed Guard to Overhook Guard",
         "attempt_probability": {
           "gi": 3,
-          "nogi": 5
+          "nogi": 4
         }
       },
       {
@@ -590,8 +590,8 @@
       {
         "transition": "Armbar from Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 5
         }
       },
       {
@@ -605,7 +605,7 @@
         "transition": "Kimura from Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
@@ -639,8 +639,8 @@
       {
         "transition": "Triangle Choke from Closed Guard",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 7
+          "gi": 4,
+          "nogi": 6
         }
       },
       {
@@ -652,6 +652,27 @@
       },
       {
         "transition": "Switch to Triangle",
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
+      },
+      {
+        "transition": "100% Sweep",
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
+      },
+      {
+        "transition": "Arm Drag Sweep",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Stack Defense",
         "attempt_probability": {
           "gi": 2,
           "nogi": 2

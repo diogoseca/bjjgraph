@@ -37,6 +37,9 @@ def baseline_bindings(repo, root, receipt):
     # Format 4: the versioned bundle must bake exactly one NG_APP_VERSION, equal to package.json's.
     (public / 'static/neural/app/neural.js').write_text(
         f'fixture;NG_APP_VERSION="{build.package_version()}";')
+    # Format 5: /postscript.js carries the deploy's build stamp exactly once, equal to package.json's.
+    (public / 'postscript.js').write_text(
+        f'fixture;var e="{build.package_version()}";window.__NEURAL_BUILD=e;')
     receipt = {**receipt, 'output_roots': [str(public)], 'output_identity': output_identity(scan_tree(public, 1))}
     rp = root / 'built.content.json'; rp.write_text(json.dumps(receipt))
     budget = root / 'tests/artifacts/budget_site.json'; budget.parent.mkdir(parents=True)

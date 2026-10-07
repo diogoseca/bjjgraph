@@ -335,7 +335,8 @@
         "attempt_probability": {
           "gi": 17,
           "nogi": 17
-        }
+        },
+        "deal_here": true
       },
       {
         "transition": "Body Triangle Lock",
@@ -370,7 +371,38 @@
         "attempt_probability": {
           "gi": 5,
           "nogi": 5
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 47,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Gift Wrap/Top",
+            "probability": {
+              "gi": 42,
+              "nogi": 42
+            },
+            "result": "success"
+          },
+          {
+            "to": "Seat Belt Control Back/Top",
+            "probability": {
+              "gi": 43,
+              "nogi": 43
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Seat Belt to Body Triangle",

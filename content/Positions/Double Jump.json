@@ -293,14 +293,92 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 40,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "Truck/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "success"
+          },
+          {
+            "to": "Double Jump/Top",
+            "probability": {
+              "gi": 30,
+              "nogi": 30
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Top",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Rolling Back Take",
         "attempt_probability": {
           "gi": 15,
           "nogi": 15
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 50,
+          "nogi": 45
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 45,
+              "nogi": 45
+            },
+            "result": "success"
+          },
+          {
+            "to": "Double Jump/Top",
+            "probability": {
+              "gi": 26,
+              "nogi": 26
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Turtle to Rodeo Ride",

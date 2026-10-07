@@ -382,7 +382,46 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 27,
+          "nogi": 25
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "success"
+          },
+          {
+            "to": "Vaporizer/Top",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": 21
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Knee Slice Pass",
@@ -403,7 +442,46 @@
         "attempt_probability": {
           "gi": 15,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 27,
+          "nogi": 25
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": 25
+            },
+            "result": "success"
+          },
+          {
+            "to": "Vaporizer/Top",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 22,
+              "nogi": 22
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Defend Vaporizer Sweep",

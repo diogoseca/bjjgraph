@@ -42,7 +42,10 @@ const HANDS = `(() => {
         const n = a.nodes[k];
         if (n.ty === "positions" || seen.has(n.t)) continue; seen.add(n.t);
         if (n.fromRole && n.fromRole !== role) continue;
-        if (n.fromPositionId && p.posId && n.fromPositionId !== p.posId) continue;
+        // ORIGIN, with its one authored exception (v1.212.0): a listing flagged deal_here deals the
+        // technique at that position too, carried on the wire as the technique's alsoFrom posIds.
+        if (n.fromPositionId && p.posId && n.fromPositionId !== p.posId
+          && !(Array.isArray(n.alsoFrom) && n.alsoFrom.includes(p.posId))) continue;
         pool.push({ t: n.t, ty: n.ty });
       }
       const dealt = a.optionsFor(pi);
@@ -54,6 +57,8 @@ const HANDS = `(() => {
           t: o.node.t, ty: o.node.ty, ord: o.ord, ordOdds: o.ordOdds,
           att: (o.ev && o.ev.att) || 0,
           e0: o.ev ? o.ev.e0 : null, c1: o.ev ? o.ev.c1 : null,
+          // the factor the slope reaches the screen through: moveEdge = e0 + (moveChance - p0)·c1 - shift
+          dp: (() => { const p0 = o.ev ? a._evP0(o.node) : null; return p0 == null ? null : a.moveChance(o.node) - p0 })(),
           raw: a.moveEdge(o), print: a.edgeMark(o) ? a.edgeMark(o).i : null,
         })),
         // permute the input and re-sort with the app's own comparator: an order that depends on
@@ -92,7 +97,8 @@ test("@curated every legal move is dealt — the hand IS the pool", async ({ pag
 
   // v1.119.0 asked the weaker question — "did the cap erase a CATEGORY" — because a cap existed
   // and some truncation was accepted. With NG_HAND_CAP gone the invariant is the strongest one
-  // available: this spec's INDEPENDENT copy of the two filters (role, origin) and the app's own
+  // available: this spec's INDEPENDENT copy of the two filters (role, and origin with its
+  // deal_here exception) and the app's own
   // `optionsFor` must agree on the exact SET, every time. Withheld cards and phantom cards are
   // one assertion now, and the category floor is not needed to state it.
   const withheld: string[] = []
@@ -190,15 +196,31 @@ test("@curated the printed number is the number the hand was ranked by", async (
       ;(byRaw[String(c.raw)] = byRaw[String(c.raw)] || []).push(c)
       ;(byPrint[String(c.print)] = byPrint[String(c.print)] || []).push(c)
     }
+    // THE SLOPE IS COMPARED AS IT REACHES THE SCREEN (v1.216.0, origin coherence PR B2). moveEdge is
+    // e0 + (moveChance - p0)·c1 - shift, so c1 contributes only through its product with
+    // (moveChance - p0), and two DIFFERENT moves can reach the same product. The first case: B2 deals
+    // Triangle from Mount at s-mount/top from its own listing table (e0 -2, c1 13, moveChance - p0
+    // -0.10) beside S Mount Armbar Setup (e0 -2, c1 10, -0.13). Both terms are -1.3, both cards print
+    // the same raw value, and the data behind them is equal where the screen can see it. Asserting c1
+    // alone went red on that correct build (CLAUDE.md 6.3). The term is compared to 1e-9 because the
+    // two products differ in the last bit (-1.3 against -1.2999999999999998). The constant this test
+    // exists to catch still fails here: measured, a flat moveEdge (every card 1) goes red on the e0
+    // line at k-guard/top.
+    let slopeOnly = 0
     for (const k in byRaw) {
       const g = byRaw[k]
       if (g.length < 2) continue
       exactTies++
+      const term = (c: any) => (c.dp == null ? null : c.c1 * c.dp + 0)
       for (const c of g) {
         expect(c.e0, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire rows`).toBe(g[0].e0)
-        expect(c.c1, `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT wire slopes`).toBe(g[0].c1)
+        const tc = term(c), t0 = term(g[0])
+        if (tc == null || t0 == null) expect(tc, `${h.st}: ${c.t} and ${g[0].t}: one has a slope term and one does not`).toBe(t0)
+        else expect(Math.abs(tc - t0), `${h.st}: ${c.t} and ${g[0].t} print the same value from DIFFERENT slope terms (${tc} vs ${t0})`).toBeLessThan(1e-9)
+        if (c.c1 !== g[0].c1) slopeOnly++
       }
     }
+    if (slopeOnly) console.log(`[option-hand] ${h.st}: ${slopeOnly} exact tie(s) from different slopes with equal slope terms`)
     for (const k in byPrint) if (byPrint[k].length > 1) printTies++
   }
   expect(printed, "the corpus really does print EDGE").toBeGreaterThan(900)
@@ -215,7 +237,7 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
     page.evaluate(() =>
       [...document.querySelectorAll("[data-tech]")].map((c: any) => ({
         t: c.getAttribute("data-tech"),
-        edge: c.querySelector(".ngedge") ? c.querySelector(".ngedge").textContent : null,
+        valueLabel: c.querySelector("[data-choice-value]")?.textContent || null,
         odds: (c.querySelector(".ngodds") || {}).textContent || null,
       })),
     )
@@ -259,9 +281,9 @@ test("@curated a mid-decision JIT grade moves every number and no card", async (
   const moved = after.find((c: any) => c.t === target)!
   const was = before.find((c: any) => c.t === target)!
   expect(parseInt(moved.odds!, 10), "the drilled card's odds moved").toBeGreaterThan(parseInt(was.odds!, 10))
-  expect(parseInt(moved.edge!, 10), "and so did its EDGE — that payoff is the reason to drill").toBeGreaterThan(
-    parseInt(was.edge!, 10),
-  )
+  expect(moved.valueLabel, "future win is a separately named model value").toContain("Win chance")
+  // Numerical future-value updates and stale-profile rejection use controlled solver replies
+  // in choice-value.spec.ts; this legacy fixture exercises the live immediate odds only.
 })
 
 test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback", async ({ page }) => {
@@ -300,19 +322,87 @@ test("@curated a submission's odds are its AUTHORED rate, not the 45.6% fallback
   // the control: the fallback these replaced is nearly a constant, so this is a real difference
   expect(wire.fbDistinct, "the dominance fallback prices them all the same").toBeLessThan(6)
 
-  // ...and it reaches the card. Mount top deals six submissions whose printed odds span 24 points;
-  // under the fallback the whole hand would have rendered inside a 2-point band.
+  // ...and it reaches the card. In the full game (v1.207.0) a submission card dealt on a POSITION
+  // is an ENTRY: stepping into the finishing position is certain. Until v1.213.0 the card printed that
+  // step, "Entry 100%", on every one of them, which read as "this always works" (owner, 2026-10-01).
+  // It now prints "Works" and the finish the entry leads to, read from the solve (mdp-adapter
+  // `followUp`) — so the authored spread reaches this card too, once the values arrive. The FINISH
+  // card below still prints the same rate from inside the submission.
+  // Mutants, recorded 2026-09-29: a constant finish chance (choiceChance -> .5 on a finish) turns
+  // the finish half red (six 50%s); calSuccess -> null turns the wire half red (uncalibrated).
+  // Re-run on the built bundle at v1.212.5 (OCDEP1), each red at its own assertion:
+  //   - choiceChance -> .5 on a finish: "do not all print one number" (six 50s);
+  //   - moveChance priced through the dominance fallback for submissions: the same (six 33s);
+  //   - moveChance + (idx % 4)·.03, a per-state term: distinct and span both PASS; only the
+  //     printed − authored check catches it (shift spread 6);
+  //   - boot() ignoring window.__NEURAL_RIG: "the pin reached this boot's opponent" (0.063).
+  // Mutants, recorded 2026-10-01 (v1.213.0): an entry printing its own step (`ngChoiceValueImmediate`
+  // reading the immediate chance) turns this red at the clamp line (eight 100%s once values land);
+  // both 2026-09-29 mutants above were re-run on this build and are still red.
   await j.land("Mount Top")
-  const hand = await page.evaluate(() =>
-    [...document.querySelectorAll("[data-tech]")]
+  const subCards = () => page.evaluate(() =>
+    [...document.querySelectorAll('[data-choice-group="you"] [data-tech]')]
       .map((c: any) => ({
         t: c.getAttribute("data-tech"),
-        odds: parseInt(((c.querySelector(".ngodds") || {}).textContent || "0").replace("%", ""), 10),
+        label: ((c.querySelector("[data-immediate-label]") || {}).textContent || "").trim(),
+        odds: ((c.querySelector(".ngodds") || {}).textContent || "").trim(),
       }))
       .filter((c: any) => ((window as any).__neural.nodes.find((n: any) => n.t === c.t) || {}).ty === "submissions"),
   )
-  expect(hand.length, "mount top deals submissions").toBeGreaterThan(3)
-  const odds = hand.map((c: any) => c.odds)
-  expect(new Set(odds).size, "the submissions do not all print one number").toBeGreaterThan(2)
+  const dealt = await subCards()
+  expect(dealt.length, "mount top deals submissions").toBeGreaterThan(3)
+  expect([...new Set(dealt.map((c: any) => c.label))], "a submission dealt on a position reads Works").toEqual(["Works"])
+  expect(dealt.filter((c: any) => c.odds === "100%"), "and never prints its certain step as a success rate").toEqual([])
+  await expect.poll(async () => (await subCards()).every((c: any) => /^\d+%$/.test(c.odds)),
+    { timeout: 120_000, message: "the follow-up finish chances arrive with the values" }).toBe(true)
+  const works = (await subCards()).map((c: any) => parseInt(c.odds, 10))
+  expect(works.every((p: number) => p >= 5 && p <= 95), "each inside the finish clamp: " + works).toBe(true)
+  expect(new Set(works).size, "and they discriminate, like the finish cards: " + works).toBeGreaterThan(1)
+  // THE OPPONENT IS PINNED (v1.212.5, OCDEP1). A finish prints `moveChance` = authored rate − aiSkill
+  // (the opponent-value term is 0 here: a submission defender's value is negative), and aiSkill =
+  // 0.06 + rng("ai-skill")·0.14 is drawn ONCE PER BOOT, by the URL arrival's staged roll. Unpinned,
+  // each of the six boots below subtracted its own random 6-20 points from a 16-point authored
+  // span (58-74), and closed it to <= 8 on ~1.6% of runs (400,000 simulated draws, through the
+  // app's own moveChance). Dev's first phase-2 deploy (run 36857244057) drew one of them: span 6,
+  // with Rear Naked Choke at 54 = 74 − 20, the draw's ceiling. Nothing about the build decided it.
+  // A post-boot `j.rig` is too late, because the arrival draws during boot, so the pin goes through
+  // the production pre-boot rail (`window.__NEURAL_RIG`, read by boot()). The init script runs on
+  // every boot below. CLAUDE.md §6.3: a tag the journey leaves unrigged is a lottery ticket.
+  await page.addInitScript(() => { (window as any).__NEURAL_RIG = { "ai-skill": [0.5, 0.5, 0.5, 0.5] } })
+  const finish: Record<string, number> = {}
+  // printed − authored, per card: under one opponent this is ONE number for all six
+  const shift: Record<string, number> = {}
+  for (const url of [
+    "/Submissions/Kimura/from-Mount/Attacker",
+    "/Submissions/Armbar/from-Mount/Attacker",
+    "/Submissions/Americana/from-Mount/Attacker",
+    "/Submissions/Ezekiel-Choke/from-Mount/Attacker",
+    "/Submissions/Triangle-Choke/from-Triangle-Control/Attacker",
+    "/Submissions/Rear-Naked-Choke/from-Back-Control/Attacker",
+  ]) {
+    await j.boot(url)
+    await j.advance(4000)
+    const card = page.locator('[data-choice-group="you"] [data-choice-action="finish"]')
+    await expect(card, url + " deals its finish").toHaveCount(1)
+    await expect(card.locator("[data-immediate-label]")).toHaveText("Finish")
+    finish[url] = parseInt(((await card.locator(".ngodds").textContent()) || "0").replace("%", ""), 10)
+    // the authored rate of the node the app DEALT as the finish (its own option list, not a lookup)
+    const live = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const opt = (a._optList || []).find((o: any) => o.action === "finish")
+      return { aiSkill: a.aiSkill, authored: opt ? Math.round(a.calSuccess(opt.node) * 100) : null }
+    })
+    expect(live.aiSkill, url + ": the pin reached this boot's opponent").toBeCloseTo(0.13, 9)
+    expect(live.authored, url + ": the dealt finish has an authored rate").not.toBeNull()
+    shift[url] = finish[url] - live.authored!
+  }
+  const odds = Object.values(finish)
+  expect(new Set(odds).size, "the finish cards do not all print one number: " + JSON.stringify(finish)).toBeGreaterThan(2)
   expect(Math.max(...odds) - Math.min(...odds), "and they span more than the fallback's whole range").toBeGreaterThan(8)
+  // THE CLAIM ITSELF: every printed finish is its authored rate moved by the SAME opponent. A
+  // fallback, a constant, or a per-state term would each spread these shifts; 1 point allows only
+  // integer rounding of the common shift. This does not re-derive the price: it compares the card
+  // with the rate the app dealt it from.
+  const shifts = Object.values(shift)
+  expect(Math.max(...shifts) - Math.min(...shifts), "printed − authored is one number across the six: " + JSON.stringify(shift)).toBeLessThanOrEqual(1)
 })

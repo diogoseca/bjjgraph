@@ -75,7 +75,7 @@ const snap = (page: Page, baseline: number) =>
     const beats = (a.beats || []).slice(base)
     let persisted = false
     try {
-      const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "{}")
+      const blob = JSON.parse(window.__ngGuestProgressRaw() || "{}")
       persisted = !!(blob.coins && blob.coins["research-position"])
     } catch {}
     return {

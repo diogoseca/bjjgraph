@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import { journey } from "../dsl";
+import { beforeNeuralAuthNavigate, signInNeuralAuthSDK, waitNeuralAuthOwner } from "../fixtures/neural-auth-sdk";
 
 const LEGACY_IDS = [
   "coach1",
@@ -155,16 +156,9 @@ test.describe("Challenge engine @curated", () => {
     page,
   }) => {
     const j = journey(page);
-    await j.boot("/", {
-      keepTutorial: true,
-      initialState: progressBlob({
-        challenges: {
-          "blue.roll-three": { progress: 2, done: false, t: 300 },
-        },
-        badges: { "white-foundations": { t: 300 } },
-        coins: { godlike: { t: 400 } },
-      }),
-    });
+    await j.boot("/", { keepTutorial: true, beforeNavigate: beforeNeuralAuthNavigate });
+    await waitNeuralAuthOwner(page, null);
+    await signInNeuralAuthSDK(page, "challenge-merge-user");
 
     const merged = await page.evaluate(async (legacyIds) => {
       const app = (window as any).__neural;
@@ -183,19 +177,21 @@ test.describe("Challenge engine @curated", () => {
         settings: {},
         updatedAt: 250,
       };
-      app._auth = () => ({
-        pullNeural: async () => cloud,
-        pushNeural: () => {},
-        isAuthenticated: () => true,
+      // Local proof belongs to the verified account, never an implicitly imported guest.
+      app._hydrateProgressBlob({ v: 2,
+        challenges: { "blue.roll-three": { progress: 2, done: false, t: 300 } },
+        badges: { "white-foundations": { t: 300 } }, coins: { godlike: { t: 400 } },
       });
-      await app._pullAndMerge();
+      app._flushSave();
+      (window as any).__authOwnerFixture.seedCloud("challenge-merge-user", cloud);
+      const accepted = await app._pullAndMerge();
       return {
         rolls: app.challengeProgress("blue.roll-three"),
         escape: app.challengeProgress("blue.escape-three"),
         white: app.challengeTrackProgress("white"),
         badges: Object.keys(app.badges).sort(),
         coins: Object.keys(app.coins).sort(),
-        pulled: app._pulled,
+        pulled: app._pulled, accepted,
       };
     }, LEGACY_IDS);
 
@@ -205,43 +201,30 @@ test.describe("Challenge engine @curated", () => {
     expect(merged.badges).toEqual(["clean-checkpoint", "white-foundations"]);
     expect(merged.coins).toEqual(["godlike", "houdini"]);
     expect(merged.pulled).toBe(true);
+    expect(merged.accepted).toBe(true);
   });
 
   test("a fresh device pulls collectibles before its first cloud push", async ({
     page,
   }) => {
     const j = journey(page);
-    await j.boot("/", { keepTutorial: true });
-
-    const state = await page.evaluate(async () => {
-      const app = (window as any).__neural;
-      let pushed: any = null;
-      const cloud = {
-        v: 2,
-        challenges: {
-          "blue.escape-three": { progress: 3, done: true, t: 200 },
-        },
-        badges: { "clean-checkpoint": { t: 200 } },
-        coins: { houdini: { t: 200 } },
-        settings: {},
-        updatedAt: 200,
-      };
-      app._auth = () => ({
-        pullNeural: async () => cloud,
-        pushNeural: (blob: any) => {
-          pushed = blob;
-        },
-        isAuthenticated: () => true,
-      });
-
-      await app._pullAndMerge();
-      await new Promise((resolve) => setTimeout(resolve, 600));
-      return {
-        challenge: pushed?.challenges?.["blue.escape-three"],
-        badges: Object.keys(pushed?.badges || {}),
-        coins: Object.keys(pushed?.coins || {}),
-      };
+    await j.boot("/", { keepTutorial: true, beforeNavigate: beforeNeuralAuthNavigate });
+    await waitNeuralAuthOwner(page, null);
+    await page.evaluate(() => (window as any).__authOwnerFixture.seedCloud("challenge-fresh-user", {
+      v: 2, challenges: { "blue.escape-three": { progress: 3, done: true, t: 200 } },
+      badges: { "clean-checkpoint": { t: 200 } }, coins: { houdini: { t: 200 } },
+      settings: {}, updatedAt: 200,
+    }));
+    await signInNeuralAuthSDK(page, "challenge-fresh-user");
+    await expect.poll(() => page.evaluate(() => (window as any).__authOwnerFixture.snapshot().writes.length)).toBeGreaterThan(0);
+    const state = await page.evaluate(() => {
+      // Inspect the FIRST actual facade upload, not a later corrected overwrite.
+      const writes = (window as any).__authOwnerFixture.snapshot().writes;
+      const first = writes[0], pushed = first.neural;
+      return { userId: first.user_id, challenge: pushed.challenges?.["blue.escape-three"],
+        badges: Object.keys(pushed.badges || {}), coins: Object.keys(pushed.coins || {}) };
     });
+    expect(state.userId).toBe("challenge-fresh-user");
 
     expect(state.challenge).toMatchObject({ progress: 3, done: true });
     expect(state.badges).toEqual(["clean-checkpoint"]);
@@ -252,32 +235,21 @@ test.describe("Challenge engine @curated", () => {
     page,
   }) => {
     const j = journey(page);
-    await j.boot("/", { keepTutorial: true });
-
-    const state = await page.evaluate(async () => {
-      const app = (window as any).__neural;
-      const recalled = Object.fromEntries(
-        Array.from({ length: 30 }, (_, index) => [
-          `cloud-question-${index}`,
-          3,
-        ]),
-      );
-      let pushed: any = null;
-      app._auth = () => ({
-        pullNeural: async () => ({
-          v: 2,
-          stage: { "cloud|deck": recalled },
-          settings: {},
-          updatedAt: 200,
-        }),
-        pushNeural: (blob: any) => {
-          pushed = blob;
-        },
-        isAuthenticated: () => true,
+    await j.boot("/", { keepTutorial: true, beforeNavigate: beforeNeuralAuthNavigate });
+    await waitNeuralAuthOwner(page, null);
+    await page.evaluate(() => {
+      const recalled = Object.fromEntries(Array.from({ length: 30 }, (_, index) => [`cloud-question-${index}`, 3]));
+      (window as any).__authOwnerFixture.seedCloud("challenge-mastery-user", {
+        v: 2, stage: { "cloud|deck": recalled }, settings: {}, updatedAt: 200,
       });
-
-      await app._pullAndMerge();
-      await new Promise((resolve) => setTimeout(resolve, 600));
+    });
+    await signInNeuralAuthSDK(page, "challenge-mastery-user");
+    await expect.poll(() => page.evaluate(() => (window as any).__authOwnerFixture.snapshot().writes.length)).toBeGreaterThan(0);
+    const state = await page.evaluate(() => {
+      const app = (window as any).__neural;
+      const first = (window as any).__authOwnerFixture.snapshot().writes[0];
+      if (first.user_id !== "challenge-mastery-user") throw new Error("Wrong cloud owner");
+      const pushed = first.neural;
       return {
         purple: app.challengeProgress("purple.recall-fifteen"),
         brown: app.challengeProgress("brown.recall-thirty"),
@@ -302,17 +274,30 @@ test.describe("Challenge engine @curated", () => {
     expect(state.replayedBeats).toEqual([]);
   });
 
-  test("corrupt local progress starts fresh and recovers on the first challenge event", async ({
+  test("corrupt owned progress pauses until explicit repair, then the first challenge event persists", async ({
     page,
   }) => {
     const j = journey(page);
     await j.boot("/", { keepTutorial: true });
-    await page.goto("/?ngb=corrupt#ngseed=%7Bbroken", { waitUntil: "commit" });
+    const corrupt = "{broken";
+    expect(() => JSON.parse(corrupt)).toThrow();
+    // Raw owned bytes must reach the real owner reader. ngseed accepts valid JSON
+    // and cannot model corruption (its parse occurs before the storage write).
+    await page.addInitScript(raw => localStorage.setItem("bjj-neural-owner:guest:progress", raw), corrupt);
+    await page.goto("/?ngb=corrupt-owned", { waitUntil: "commit" });
+    const recovery = page.locator("#neural-progress-recovery");
+    await expect(recovery).toBeVisible();
+    expect(await page.evaluate(() => localStorage.getItem("bjj-neural-owner:guest:progress"))).toBe(corrupt);
+    expect(await page.evaluate(() => Boolean((window as any).__neural && !(window as any).__neural.__ngDestroyed))).toBe(false);
+    // Explicit fixture repair only: production must not discard corrupt user bytes.
+    await page.evaluate(() => localStorage.removeItem("bjj-neural-owner:guest:progress"));
+    await recovery.getByRole("button", { name: "Retry", exact: true }).click();
+    await expect(recovery).toHaveCount(0);
     await expect
       .poll(() =>
         page.evaluate(() => {
           const app = (window as any).__neural;
-          return Boolean(app?.nodes?.length && app?.flashcards?.decks);
+          return Boolean(app?._progressCurrent?.() && app?.nodes?.length && app?.flashcards?.decks && app?.curriculum);
         }),
       )
       .toBe(true);
@@ -322,7 +307,7 @@ test.describe("Challenge engine @curated", () => {
       const fresh = app.challengeTrackProgress("white");
       app.fx("roll_end", {});
       const stored = JSON.parse(
-        localStorage.getItem("bjj-neural-progress") || "{}",
+        window.__ngGuestProgressRaw() || "{}",
       );
       return {
         fresh,

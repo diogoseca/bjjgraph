@@ -81,50 +81,81 @@
         "transition": "Lasso Guard Pass",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 15
+          "nogi": 17
         }
       },
       {
         "transition": "Stack Pass",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 12
+          "nogi": 13
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 14
+          "nogi": 15
         }
       },
       {
         "transition": "Smash Pass",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {
         "transition": "Toreando Pass",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 6
+          "nogi": 7
         }
       },
       {
         "transition": "Leg Weave Pass",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 9
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 38,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 38,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Lasso Guard/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Kimura from Lasso Guard",
@@ -137,7 +168,7 @@
         "transition": "Body Lock Pass",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 8
+          "nogi": 9
         }
       },
       {
@@ -151,7 +182,7 @@
         "transition": "Lasso Guard Backstep Pass",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 5
+          "nogi": 6
         }
       },
       {

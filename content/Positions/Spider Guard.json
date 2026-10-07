@@ -296,28 +296,28 @@
         "transition": "Toreando Pass",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 27
+          "nogi": 29
         }
       },
       {
         "transition": "Leg Drag Pass",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 17
+          "nogi": 19
         }
       },
       {
         "transition": "Knee Slice Pass",
         "attempt_probability": {
           "gi": 14,
-          "nogi": 16
+          "nogi": 17
         }
       },
       {
         "transition": "Long Step Pass",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
@@ -331,21 +331,60 @@
         "transition": "Leg Weave Pass",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 8
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 36,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Spider Guard/Top",
+            "probability": {
+              "gi": 38,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 12,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Spider Guard Pass",
         "attempt_probability": {
           "gi": 22,
-          "nogi": 10
+          "nogi": 11
         }
       },
       {
         "transition": "Stack Pass from Spider",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 7
+          "nogi": 8
         }
       }
     ],
@@ -712,7 +751,7 @@
       {
         "transition": "Triangle Setup",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 17
         }
       },
@@ -768,28 +807,28 @@
       {
         "transition": "Guard Recovery from Spider Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": 25
         }
       },
       {
         "transition": "Triangle from Spider Guard",
         "attempt_probability": {
-          "gi": 8,
+          "gi": 7,
           "nogi": 12
         }
       },
       {
         "transition": "Spider Sweep",
         "attempt_probability": {
-          "gi": 14,
+          "gi": 13,
           "nogi": 6
         }
       },
       {
         "transition": "Spider to Lasso Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": null
         }
       },
@@ -812,6 +851,13 @@
         "attempt_probability": {
           "gi": 6,
           "nogi": 8
+        }
+      },
+      {
+        "transition": "Tripod Sweep",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": null
         }
       }
     ],

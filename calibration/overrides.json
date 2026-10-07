@@ -80,6 +80,41 @@
       "verdict": "correct",
       "reason": "Reviewers split; RNC is grip/legality-neutral so an 8pt fork violates the mirrored-within-3 rule — bump gi to near-mirror per A.",
       "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Balloon Sweep": {
+      "gi": 52,
+      "nogi": 43,
+      "verdict": "rehome",
+      "reason": "Re-homed from closed-guard/bottom to feet-on-hips-guard/bottom (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
+      "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
+    },
+    "Elbow Escape to Guard": {
+      "gi": 36,
+      "nogi": 40,
+      "verdict": "rehome",
+      "reason": "Re-homed from buggy-choke/bottom to side-control/bottom (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
+      "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
+    },
+    "Lumberjack Sweep": {
+      "gi": 36,
+      "nogi": 33,
+      "verdict": "rehome",
+      "reason": "Re-homed from half-guard/bottom to seated-guard/bottom (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
+      "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
+    },
+    "Waiter Sweep": {
+      "gi": 41,
+      "nogi": 38,
+      "verdict": "rehome",
+      "reason": "Re-homed from butterfly-guard/bottom to deep-half-guard/bottom (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
+      "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
+    },
+    "X Pass": {
+      "gi": 41,
+      "nogi": 41,
+      "verdict": "rehome",
+      "reason": "Re-homed from half-guard/top to open-guard/top (origin coherence, phase 2): the old prior was calibrated at the old origin; this is the panel's rate at the new one.",
+      "reviewer": "origin-coherence phase 2, an LLM persona panel, one round (calibration/listing_tables.json); not expert data"
     }
   }
 }

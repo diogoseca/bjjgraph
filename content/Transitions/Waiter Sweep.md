@@ -102,8 +102,8 @@ Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses 
 
 Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power. The angular sweeping motion—lifting diagonally rather than straight up—makes it significantly harder to counter than linear sweeps, as the opponent must resist forces in multiple planes simultaneously. When integrated into a complete butterfly guard system, the Waiter Sweep creates offensive dilemmas where defensive reactions open back takes, guillotine entries, and guard transitions.
 
-**From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 32%
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
+**Success Rate**: 38%
 
 </section>
 
@@ -141,9 +141,11 @@ Its high success rate across skill levels stems from its fundamental reliance on
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 68% |
-| Failure | [[Positions/Butterfly Guard]] | 20% |
-| Counter | [[Positions/Butterfly Guard]] | 12% |
+| Success | [[Positions/Half Guard]] | 22% |
+| Success | [[Positions/Side Control]] | 16% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 36% |
+| Failure | [[Positions/Half Guard]] | 12% |
+| Counter | [[Positions/Side Control]] | 14% |
 
 
 </section>
@@ -335,7 +337,7 @@ The Waiter Sweep is a cornerstone technique within the butterfly guard system an
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovery Before Attack</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Waiter Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Half Guard: Recovering Closed Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Waiter Sweep: related transition study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

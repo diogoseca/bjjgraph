@@ -25,7 +25,7 @@ import { computeCensus, scanMarkers, SCAN_DIRS } from "./_census.mjs";
 // stopped matching fails loudly instead of reporting a clean census over nothing — the repo's
 // most-repeated defect class (CLAUDE.md 6.6: never let "found no problems" and "never looked"
 // produce the same output). Raise it when markers are added; it is not a target.
-const MARKER_FLOOR = 19;
+const MARKER_FLOOR = 23;
 
 test("every census marker sits on a line the scan can read unambiguously", () => {
   const { bad } = scanMarkers();

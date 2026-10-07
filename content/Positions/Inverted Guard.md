@@ -217,25 +217,27 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ### Available Transitions
 
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (14% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (19% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (17% of attempts)
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (12% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (11% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (18% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (16% of attempts)
 
 - **[[Submissions/Omoplata/from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (3% of attempts)
 
-- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (8% of attempts)
+- **[[Transitions/Reverse X-Guard Entry/Attacker|Reverse X-Guard Entry]]** (7% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (5% of attempts)
 
 - **[[Transitions/Bolo Sweep/Attacker|Bolo Sweep]]** (5% of attempts)
 
-- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (10% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (9% of attempts)
 
 - **[[Transitions/Sweep from Inverted Guard/Attacker|Sweep from Inverted Guard]]** (5% of attempts)
+
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -393,8 +395,8 @@ Unlike defensive guards that merely stall a pass, Inverted Guard weaponizes rota
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: Choosing a Guard Study Route</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Inverted Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Choosing a Foundation</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eddie Bravo: The Ultimate Rubber Guard</span><span class="system-card__unlocks-badge">24 related references</span><span class="system-card__blurb">Inverted Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

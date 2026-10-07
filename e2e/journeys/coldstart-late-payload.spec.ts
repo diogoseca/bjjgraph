@@ -288,7 +288,7 @@ test("cold start: a slow link does not latch the newcomer into the uniform lotte
     a.startRoll();
     return {
       pos: a.nodes[a.currentPos].t,
-      marked: localStorage.getItem("bjj-neural-firstroll"),
+      marked: localStorage.getItem("bjj-neural-owner:guest:firstroll"),
       firstRollDone: !!a._firstRollDone,
       returning: a._returningVisitor(),
     };
@@ -330,7 +330,7 @@ test("cold start: a slow link does not latch the newcomer into the uniform lotte
     }
     return {
       share: nameable / N,
-      marked: localStorage.getItem("bjj-neural-firstroll"),
+      marked: localStorage.getItem("bjj-neural-owner:guest:firstroll"),
     };
   });
   expect(
@@ -391,7 +391,7 @@ for (const [what, spend] of [
       a.startRoll();
       return {
         weights: !!a.curriculum,
-        marker: localStorage.getItem("bjj-neural-firstroll"),
+        marker: localStorage.getItem("bjj-neural-owner:guest:firstroll"),
       };
     });
     expect(degraded.weights, "the traffic weights never landed").toBe(false);
@@ -434,7 +434,7 @@ for (const [what, spend] of [
       }
       return {
         share: nameable / N,
-        marker: localStorage.getItem("bjj-neural-firstroll"),
+        marker: localStorage.getItem("bjj-neural-owner:guest:firstroll"),
         top: Object.entries(seen)
           .sort((x, y) => (y[1] as number) - (x[1] as number))
           .slice(0, 4),

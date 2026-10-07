@@ -20,7 +20,7 @@ from pathlib import Path
 from jinja2 import Template, Environment, FileSystemLoader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _slug import slugify  # shared single-source slugify
+from _slug import slugify, quartz_page_path  # shared slugify, and Quartz's page-path rule
 from _ruleset import is_ruleset_map, present_rulesets  # the per-ruleset contract (calibration-v2)
 from _ruleset import cell as _ruleset_cell             # one frame's value, or None where it does not exist
 from _votes import migrate_entry, folded_rate  # published (folded-votes) rate for display (2.3)
@@ -352,13 +352,8 @@ _JINJA_ENV.filters["outcomes_absence_note"] = _outcomes_absence_note
 _JINJA_ENV.tests["absent"] = _is_absent
 
 
-def _quartz_url_slug(name: str) -> str:
-    """URL path segment matching Quartz / regenerate_graph.quartz_slug (case-preserving,
-    spaces->hyphens). Used to build hrefs to content pages from raw HTML."""
-    s = str(name).strip()
-    s = s.replace('&', '-and-').replace('%', '-percent').replace('?', '').replace('#', '')
-    s = re.sub(r'\s+', '-', s)
-    return s
+# hrefs to content pages from raw HTML: Quartz's page-path rule, the one copy in _slug (v1.216.1)
+_quartz_url_slug = quartz_page_path
 
 
 _JINJA_ENV.filters["quartz_url_slug"] = _quartz_url_slug
@@ -382,6 +377,54 @@ def _with_utm(url, system_name='', product_id=''):
 _JINJA_ENV.filters["with_utm"] = _with_utm
 
 
+# WALK ORDER IS A CONTRACT (B-07, 2026-10-06). Several lookups below keep the FIRST file found for a
+# name (the link index, the alias map, the variant fallback), and a bare variant stem such as
+# "from Mount" exists in several families. Path.rglob/glob return files in DIRECTORY order, which
+# the filesystem decides: stable on one disk, different on another. So the same commit rendered
+# 7 Submissions pages differently in CI than on the box that committed them (Armbar/from Crucifix's
+# Related list linked Kimura/from Mount here and Monoplata/from Mount there), and the generated-
+# content gate in ci-validate went red on a correct commit. Every walk whose order can decide an
+# output goes through this one function, so "first found" means "first in sorted path order"
+# everywhere. Pinned by tests/regenerate_md_order_test.py, which re-runs the resolver with the
+# walk REVERSED and requires an identical result.
+def _sorted_walk(root, pattern, recursive=True):
+    return sorted(root.rglob(pattern) if recursive else root.glob(pattern))
+
+
+# Bare names that more than one page answers to. The resolver still picks one (the sorted-first
+# path), but that pick is a fallback, so it is COUNTED and printed every run (CLAUDE.md 6.6) rather
+# than passing silently as a link someone authored.
+_AMBIGUOUS_NAMES = {}
+
+# FAMILY-AWARE RESOLUTION (B07-RED1, v1.224.0). A bare variant stem ("from Gift Wrap") answers to a page
+# in every family that has that variant, and the sorted-first pick above is right for at most one of
+# them: under the sorted walk, Rear Naked Choke's own "from Gift Wrap" linked Gift Wrap Armbar's. So a
+# page resolves a bare name against ITS OWN FAMILY first (`resolve.for_page`): the candidate inside the
+# linking page's family folder wins. What family cannot decide is a NAME SHARED ACROSS FAMILIES OR
+# CATEGORIES ("Gift Wrap" is a Position and a Transition): it keeps the sorted-first fallback and is
+# COUNTED, page by page, every run (CLAUDE.md 6.6). The names that remain ambiguous are a ratchet in
+# tests/artifacts/wikilink_ambiguity_baseline.json: a NEW one fails the run (any run), and a name that
+# stopped being ambiguous fails a full run until the baseline drops it (--accept-ambiguity --reason).
+# (page rel, name) pairs, so a name rendered twice on one page counts once.
+_FAMILY_RESOLVED = set()     # resolved inside the linking page's own family
+_CROSS_FAMILY = {}           # name -> {page rel, ...}: still ambiguous, sorted-first fallback
+_AMBIGUITY_BASELINE = Path("tests/artifacts/wikilink_ambiguity_baseline.json")
+_ACCEPTING_AMBIGUITY = False   # set by --accept-ambiguity: the run rewrites the baseline instead
+
+
+def _reset_family_stats():
+    _FAMILY_RESOLVED.clear()
+    _CROSS_FAMILY.clear()
+
+
+def _page_family(json_path):
+    """'Submissions/Rear Naked Choke' for the RNC hub AND for every RNC variant; a page with no
+    folder of its own is its own family ('Positions/Mount')."""
+    rel = Path(json_path).resolve().relative_to(Path("content").resolve()).with_suffix("")
+    parts = rel.parts
+    return "/".join(parts) if len(parts) <= 2 else "/".join(parts[:-1])
+
+
 def build_wikilink_resolver():
     """Build name->category lookup for unambiguous wikilinks.
 
@@ -391,14 +434,24 @@ def build_wikilink_resolver():
     falling back to plain text otherwise — so `family:` and `disambiguations[]`
     entries that point at not-yet-created pages don't emit dangling links (H6).
     """
+    # Each build recounts from scratch: the resolver is built once PER CATEGORY in a full run, and a
+    # module-level tally that only appended printed 'from Side Control' x85 for a name that answers
+    # to 15 pages (the first version of this counter, caught the same day).
+    _AMBIGUOUS_NAMES.clear()
     index = {}
+    candidates = {}  # name -> every folder prefix that answers to it, in the index's own order
     for category, folder in CATEGORIES.items():
         folder_path = Path(folder)
         if not folder_path.exists():
             continue
-        for json_file in folder_path.rglob("*.json"):
+        for json_file in _sorted_walk(folder_path, "*.json"):
             name = json_file.stem
-            if name not in index:  # first-found wins (Positions > Transitions > Submissions)
+            _rel = json_file.relative_to(folder_path).parent
+            candidates.setdefault(name, []).append(category if str(_rel) == "." else f"{category}/{_rel}")
+            if name in index:
+                _AMBIGUOUS_NAMES.setdefault(name, [index[name]]).append(
+                    f"{category}/{json_file.relative_to(folder_path).parent}")
+            if name not in index:  # first-found wins (Positions > Transitions > Submissions), sorted
                 rel = json_file.relative_to(folder_path).parent
                 if str(rel) == '.':
                     index[name] = category
@@ -410,7 +463,7 @@ def build_wikilink_resolver():
     family_names = set()
     families_dir = Path("content/Families")
     if families_dir.exists():
-        for json_file in families_dir.rglob("*.json"):
+        for json_file in _sorted_walk(families_dir, "*.json"):
             family_names.add(json_file.stem)
 
     # Alias map: a reference to a merged/renamed technique's name (e.g. "Bullfighter
@@ -421,7 +474,7 @@ def build_wikilink_resolver():
         folder_path = Path(folder)
         if not folder_path.exists():
             continue
-        for json_file in folder_path.rglob("*.json"):
+        for json_file in _sorted_walk(folder_path, "*.json"):
             try:
                 data = json.loads(json_file.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
@@ -575,9 +628,33 @@ def build_wikilink_resolver():
     def family_exists(name):
         return isinstance(name, str) and name in family_names
 
+    def for_page(json_path):
+        """`resolve`, bound to the page doing the linking: a bare name that several pages answer to
+        resolves inside this page's own family when one of its candidates lives there."""
+        family = _page_family(json_path)
+        page = str(Path(json_path).resolve().relative_to(Path("content").resolve()))
+
+        def resolve_here(name):
+            bare = name.get("name", str(name)) if isinstance(name, dict) else name
+            prefixes = candidates.get(bare) if isinstance(bare, str) else None
+            if prefixes and len(prefixes) > 1:
+                if family in prefixes:
+                    _FAMILY_RESOLVED.add((page, bare))
+                    return f"{family}/{bare}"
+                _CROSS_FAMILY.setdefault(bare, set()).add(page)
+            return resolve(name)
+
+        resolve_here.page_exists = page_exists
+        resolve_here.family_exists = family_exists
+        resolve_here.related_systems_html = related_systems_html
+        resolve_here.for_page = for_page
+        return resolve_here
+
     resolve.page_exists = page_exists
     resolve.family_exists = family_exists
     resolve.related_systems_html = related_systems_html
+    resolve.for_page = for_page
+    resolve.candidates = candidates
     return resolve
 
 
@@ -738,7 +815,7 @@ def find_variant_file(variant_folder, slug):
     normalized_slug = slug.lower().replace(' ', '-')
 
     # Search all JSON files in folder and compare normalized names
-    for json_file in variant_folder.glob("*.json"):
+    for json_file in _sorted_walk(variant_folder, "*.json", recursive=False):
         file_normalized = json_file.stem.lower().replace(' ', '-')
         if file_normalized == normalized_slug:
             return json_file
@@ -921,6 +998,9 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
     """
     if resolve_fn is None:
         resolve_fn = build_wikilink_resolver()
+    # Every render below links from THIS page, so they all get the page-bound resolver (family first).
+    if hasattr(resolve_fn, "for_page"):
+        resolve_fn = resolve_fn.for_page(json_path)
 
     json_path = Path(json_path)
 
@@ -1187,6 +1267,18 @@ def _print_render_coverage(scope, framed_here=None):
               f" ({_VOTE_STATS['no_frame_rate']} carry no {_RENDER_FRAME} rate)")
     print(f"  votes override skipped, content frame absent: {_VOTE_STATS['absent_skipped']}"
           f"; no success_rate field: {_VOTE_STATS['no_rate_field']}")
+    if _AMBIGUOUS_NAMES:
+        worst = sorted(_AMBIGUOUS_NAMES.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:3]
+        print(f"  ambiguous bare names: {len(_AMBIGUOUS_NAMES)} resolve to more than one page; each "
+              f"links to its sorted-first path. Worst: "
+              + "; ".join(f"{n!r} x{len(p)}" for n, p in worst))
+    else:
+        print("  ambiguous bare names: 0")
+    cross_pages = sum(len(p) for p in _CROSS_FAMILY.values())
+    worst = sorted(_CROSS_FAMILY.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:3]
+    print(f"  family-aware wikilinks: {len(_FAMILY_RESOLVED)} resolved inside the linking page's own family;"
+          f" {cross_pages} still cross-family across {len(_CROSS_FAMILY)} names (sorted-first fallback)"
+          + (". Worst: " + "; ".join(f"{n!r} from {len(p)} pages" for n, p in worst) if worst else ""))
     print(f"  family variant refs: {_VARIANT_STATS['found']} resolved"
           f" / {_VARIANT_STATS['missing']} unresolved / {_VARIANT_STATS['errors']} errored")
     print(f"  stale pages left by skipped files: {_STALE_STATS['pages']}"
@@ -1283,12 +1375,56 @@ def process_category(category, dry_run=False):
     return failures
 
 
+def _check_ambiguity_baseline(full_run):
+    """The ratchet on names that stay ambiguous after family preference (see _FAMILY_RESOLVED).
+    A NEW name fails any run: someone authored a bare reference no family can decide. A baselined
+    name that no longer appears fails a FULL run only (a --file run cannot see the whole corpus), so the
+    baseline shrinks as the corpus is disambiguated instead of rotting into permanent noise."""
+    try:
+        base = json.loads(_AMBIGUITY_BASELINE.read_text(encoding="utf-8")).get("names", {})
+    except FileNotFoundError:
+        return [("<wikilink ambiguity baseline>", f"{_AMBIGUITY_BASELINE} is missing")]
+    failures = []
+    for name in sorted(set(_CROSS_FAMILY) - set(base)):
+        pages = sorted(_CROSS_FAMILY[name])
+        failures.append((f"<wikilink ambiguity: {name!r}>",
+                         f"NEW cross-family ambiguous name, linked from {len(pages)} page(s) "
+                         f"({', '.join(pages[:3])}{', ...' if len(pages) > 3 else ''}) to its sorted-first page. "
+                         f"Name the target unambiguously, or accept it: --all --accept-ambiguity --reason '...'"))
+    if full_run:
+        for name in sorted(set(base) - set(_CROSS_FAMILY)):
+            failures.append((f"<wikilink ambiguity: {name!r}>",
+                             "no longer ambiguous: drop it from the baseline (--all --accept-ambiguity --reason '...')"))
+    kept = len(set(base) & set(_CROSS_FAMILY))
+    print(f"  wikilink ambiguity ratchet: {kept} baselined, {len(set(_CROSS_FAMILY) - set(base))} new"
+          + (f", {len(set(base) - set(_CROSS_FAMILY))} cleared" if full_run else " (partial run: cleared names not judged)"))
+    return failures
+
+
+def _accept_ambiguity_baseline(resolve_candidates, reason):
+    names = {}
+    for name, pages in sorted(_CROSS_FAMILY.items()):
+        prefixes = resolve_candidates.get(name, [])
+        names[name] = {"pages": len(pages), "links_to": f"{prefixes[0]}/{name}" if prefixes else None,
+                       "candidates": [f"{p}/{name}" for p in prefixes]}
+    doc = {"_meta": {
+        "note": ("Names that more than one page answers to, which stay ambiguous AFTER family preference "
+                 "(scripts/regenerate_md_from_json.py, _check_ambiguity_baseline): each links to its "
+                 "sorted-first candidate. A new name fails the generator; a cleared one fails a full run. "
+                 "Rewrite only with --all --accept-ambiguity --reason."),
+        "accepted_at": __import__("datetime").date.today().isoformat(), "reason": reason,
+        "names": len(names), "page_links": sum(v["pages"] for v in names.values())}, "names": names}
+    _AMBIGUITY_BASELINE.write_text(json.dumps(doc, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"  wikilink ambiguity baseline written: {len(names)} names, {doc['_meta']['page_links']} page links")
+
+
 def process_all_categories(dry_run=False):
     """Process all JSON files in all categories.
 
     Prints a summary of all failures across categories at the end.
     """
     print("Processing all categories...")
+    _reset_family_stats()  # the ratchet judges THIS run's links, not an earlier in-process run's
 
     all_failures = []
     for category in CATEGORIES.keys():
@@ -1360,6 +1496,9 @@ def process_all_categories(dry_run=False):
         print(f"✗ {msg}")
         all_failures.append(("<absence render floor>", msg))
 
+    if not _ACCEPTING_AMBIGUITY:
+        all_failures.extend(_check_ambiguity_baseline(full_run=True))
+
     if all_failures:
         print(f"\n{'='*60}")
         print(f"⚠ TOTAL: {len(all_failures)} file(s) failed across all categories:")
@@ -1413,7 +1552,17 @@ Examples:
                         help='exit 0 even when files were skipped — exploratory runs only, '
                              'never in the regenerate chain')
 
+    parser.add_argument('--accept-ambiguity', action='store_true',
+                        help='rewrite tests/artifacts/wikilink_ambiguity_baseline.json from this run '
+                             '(requires --all, the whole corpus, and --reason)')
+    parser.add_argument('--reason', help='why the ambiguity baseline moves (with --accept-ambiguity)')
+
     args = parser.parse_args()
+
+    if args.accept_ambiguity and not (args.all and not args.category and args.reason):
+        parser.error("--accept-ambiguity needs --all over the whole corpus and a --reason")
+    global _ACCEPTING_AMBIGUITY
+    _ACCEPTING_AMBIGUITY = bool(args.accept_ambiguity)
 
     if not (args.file or (args.category and args.all) or args.all):
         parser.error("Must specify --file, --category with --all, or just --all")
@@ -1424,14 +1573,18 @@ Examples:
         # The bot workflows regenerate one file at a time; without this they would be the only
         # entry point whose skip paths never print (CLAUDE.md 6.6).
         _print_render_coverage(str(args.file))
+        failures = _check_ambiguity_baseline(full_run=False)
     elif args.category and args.all:
         failures = process_category(args.category, args.dry_run)
         # Every entry point prints its coverage. --category is the one a human types by hand
         # while debugging a single category, i.e. exactly when "nothing was reported" must
         # not be readable as "nothing was wrong" (CLAUDE.md 6.6).
         _print_render_coverage(f"category {args.category}")
+        failures += _check_ambiguity_baseline(full_run=False)
     elif args.all:
         failures = process_all_categories(args.dry_run)
+        if args.accept_ambiguity:
+            _accept_ambiguity_baseline(build_wikilink_resolver().candidates, args.reason)
 
     if failures and not args.allow_failures:
         print(f"\n✗ {len(failures)} file(s) failed — exiting 1. Pass --allow-failures to "

@@ -686,7 +686,46 @@
         "attempt_probability": {
           "gi": 18,
           "nogi": 18
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 48,
+          "nogi": 54
+        },
+        "outcomes": [
+          {
+            "to": "Inside Ashi-Garami/Top",
+            "probability": {
+              "gi": 54,
+              "nogi": 54
+            },
+            "result": "success"
+          },
+          {
+            "to": "Outside Ashi-Garami/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 8,
+              "nogi": 8
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Straight Ankle Lock Entry",

@@ -18,9 +18,10 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *
  * SCORE SEAM: gameScore reads stage (per-question cardStage) — which personas cannot seed
  * (qhash is app-side) and which noteCardDone/j.drill never touch. The score is armed via
- * a._bumpStage(key, q, 3) on the first scoreWeights() deck holding >=3 cards (weights carry
- * technique decks "<name>|Attacker" only; position decks are unweighted, so bumping one would
- * leave the score at 0 and make its survival assert vacuous). _bumpStage persists through the
+ * a._bumpStage(key, q, 3) on the first scoreWeights() deck holding >=3 cards — the weight is read
+ * back and asserted > 0, so the survival assert cannot go vacuous. (Since v1.145.13 the table
+ * scores positions and both seats too, so that deck is "Mount|Top" today, not a technique's
+ * "|Attacker" deck as this note used to say.) _bumpStage persists through the
  * same _saveProgress choke the UI uses (synchronous in test mode), so the reload leg reads the
  * identical stage map and the float compares with toBe, not toBeCloseTo.
  *
@@ -34,6 +35,20 @@ import { whiteBeltHolder, CURRICULUM } from "./personas"
  *    never as a whole-map equality;
  *  - all twenty white challenges are event-driven (no snapshot: rules), so the reload's
  *    reconciliation cannot re-complete any of them behind the reset.
+ *
+ * THE COACHED FLAG IS A LEGACY MARKER, SEEDED (gen-triage, v1.206.x). This spec used to read
+ * `bjj-neural-coached` = "1" as a premise "stamped by coach dismissal" — but the first-roll coach
+ * was DELETED in v1.104.0 (bb80a008c, owner: it "shows on top and is really nasty, grabbing the
+ * attention") and the flag has had NO WRITER since; only pre-v1.104 profiles carry it. So the
+ * premise is now set the way such a profile has it — written into localStorage before the act —
+ * and the claim is unchanged: restartTutorial removes it (and the removal persists). Seeding it
+ * after boot keeps it out of the boot-time `tut.done` migration, which this blob (it carries
+ * `tut`) never takes anyway.
+ *
+ * THE DRIP STRIP IS RETIRED, THE DRIP IS NOT. "[data-tut] re-arms at step one" read a cue card
+ * that v1.133.0 (e6f655a6a, owner: "remove the learning card") retired — `renderTutorial` is a
+ * REMOVER now (challenge-feedback.src.js), so no [data-tut] ever mounts. The strip only ever
+ * printed `tutCurrent().id` into `data-tut-step`; the spec reads that value from the app itself.
  *
  * RELOAD LEG boots {preserveStorage:true, keepTutorial:true}: the DSL's default tut-completion
  * would re-complete the twenty and mask a reset that never persisted.
@@ -68,8 +83,11 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   await j.rig("land-mc-shuffle", [0.2, 0.5, 0.8, 0.35, 0.65, 0.95, 0.14, 0.42])
   await j.land("Mount Top")
   await page.waitForFunction(() => !!(window as any).__neural?.scoreWeights?.())
+  // the pre-v1.104 coach marker — no writer exists since the coach's deletion (see header).
+  // Owner-scoped since PR #231 (v1.208.x): the guest's copy is what restartTutorial clears.
+  await page.evaluate(() => localStorage.setItem("bjj-neural-owner:guest:coached", "1"))
 
-  // arm the score: recall-prove 3 cards of the first WEIGHTED deck (technique decks only)
+  // arm the score: recall-prove 3 cards of the first WEIGHTED deck (position or technique seat)
   const armed = await page.evaluate(() => {
     const a = (window as any).__neural
     const w = a.scoreWeights() // compact wire since v1.145.13; scoreWeights() is the one expander
@@ -83,7 +101,7 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
     return { key, weight: w[key] }
   })
   expect(armed.key, "a weighted technique deck with >=3 cards exists").toBeTruthy()
-  expect(armed.key, "weights name role-split technique decks, never bare position keys").toContain("|")
+  expect(armed.key, "weights name role-split decks (Position|Seat), never bare hub keys").toContain("|")
   expect(armed.weight, "and the bumped deck genuinely carries score weight").toBeGreaterThan(0)
 
   const readState = () =>
@@ -93,7 +111,7 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
         white: a.challengeTrackProgress("white"),
         whiteKeys: Object.keys(a.challenges || {}).filter((k: string) => k.indexOf("white.") === 0).length,
         tutMap: JSON.parse(JSON.stringify((a.tut && a.tut.done) || null)),
-        coached: localStorage.getItem("bjj-neural-coached"),
+        coached: localStorage.getItem("bjj-neural-owner:guest:coached"),
         blue: (a.challenges && a.challenges["blue.escape-three"]) || null,
         badges: JSON.parse(JSON.stringify(a.badges || {})),
         coins: JSON.parse(JSON.stringify(a.coins || {})),
@@ -107,7 +125,7 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   expect(pre.white, "white track complete before the restart").toEqual({ done: 20, total: 20, complete: true })
   expect(pre.whiteKeys, "compatibility sync wrote all twenty white.* entries").toBe(20)
   expect(Object.keys(pre.tutMap).length, "all twenty drip steps done").toBe(20)
-  expect(pre.coached, "coach dismissal stamped the coached flag").toBe("1")
+  expect(pre.coached, "the legacy coached marker is present before the restart (seeded — no writer since v1.104.0)").toBe("1")
   expect(pre.blue, "seeded advanced-track partial progress is live").toEqual(BLUE_SEED)
   expect(pre.coins.houdini, "seeded coin is live").toEqual({ t: 50 })
   expect(pre.badges["clean-checkpoint"], "seeded badge is live").toEqual({ t: 60 })
@@ -123,8 +141,12 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   expect(post.white, "white track back to 0/20").toEqual({ done: 0, total: 20, complete: false })
   expect(post.whiteKeys, "every white.* challenge entry deleted").toBe(0)
   expect(post.tutMap, "tut.done wiped to empty").toEqual({})
-  expect(post.coached, "bjj-neural-coached removed").toBeNull()
-  await expect(page.locator("[data-tut]"), "the drip strip re-arms at step one").toHaveAttribute("data-tut-step", "coach1")
+  expect(post.coached, "the (owner-scoped) coached marker removed").toBeNull()
+  // v1.133.0 retired the strip that printed this; the drip's own cursor is the same value
+  expect(
+    await page.evaluate(() => { const c = (window as any).__neural.tutCurrent(); return c ? c.id : null }),
+    "the white drip re-arms at step one",
+  ).toBe("coach1")
   // ...and nothing else moved: survivals deep-equal the pre snapshot, score to the bit
   expect(post.blue, "blue.escape-three untouched").toEqual(BLUE_SEED)
   expect(post.badges, "badges identical (never revoked)").toEqual(pre.badges)
@@ -144,5 +166,12 @@ test("restartTutorial resets exactly the white drip — and the reset survives a
   expect(back.badges, "badges identical across reload").toEqual(pre.badges)
   expect(back.coins, "coins identical across reload").toEqual(pre.coins)
   expect(back.beltsWon, "belts.won identical across reload").toEqual(pre.beltsWon)
+  // This line was a REAL BREAK, red from the gen triage (dev 8d6ae5d01) until v1.215.6: the reload
+  // read 0. gameScore() memoises on `_stageVer`; the deck MANIFEST's `_bumpStageVer` called
+  // renderTabSubtitles -> gameScore() BEFORE curriculum.json (the weights) landed, memoising
+  // score 0 at that version, and `_onCurriculum` never bumped it — so the 0 stuck until a grade
+  // or a deck hydration (memo {v:1, s:0} vs a fresh recompute 0.00585 = pre). v1.215.6 makes the
+  // curriculum's arrival a knowledge change (`_publishKnowledge("curriculum")`, which drops the memo
+  // before the belt grandfather reads it). Mutant: that line reverted → red here.
   expect(back.score, "score recomputed from persisted stage — bit-identical").toBe(pre.score)
 })

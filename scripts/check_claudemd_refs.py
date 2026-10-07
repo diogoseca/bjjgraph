@@ -83,17 +83,45 @@ TOP_DIRS = ("scripts/", "e2e/", "neural/", "source/", "docs/", "tests/", "conten
             "branding/")
 
 
+INDEXED: dict[str, int] = {"files": 0}
+
+
 def _index_basenames() -> dict:
-    """basename -> count, over the tracked tree. Lets a BARE filename (`build.mjs`) be
-    validated as 'exists somewhere' without demanding a full path in the prose."""
+    """basename -> count, over the TRACKED tree (`git ls-files`). Lets a BARE filename
+    (`build.mjs`) be validated as 'exists somewhere' without demanding a full path in the prose.
+
+    TRACKED, NOT WALKED (v1.215.1). This used to be `ROOT.rglob("*")` over the whole working
+    tree, untracked directories included, while this docstring already said "tracked". Under
+    `node --test` (files run in parallel) `tests/git_date_maps.test.mjs` creates and deletes
+    `source/.date-worker-*`; the walk listed it, then scanned it after it was gone, and
+    `FileNotFoundError` turned one unit test red now and then (2026-09-29 and 2026-10-01). Any
+    other temp directory under the repo races a walk the same way, so the walk is gone rather
+    than taught to step over one name. The tracked tree is also what CI checks out: the walk
+    only ever added generated or local files, measured on CLAUDE.md as 4 of 56 bare names
+    (concepts.json, graph-data.json, neural.js, systems.json), all in ALLOW_ABSENT already, so
+    no reference that passes changes outcome. Pinned by tests/claudemd_refs_gate.test.mjs.
+
+    No git, or a tree git reports as empty, is a hard failure, never a quietly empty index:
+    every bare name would then report as deleted, or worse, a fallback would answer for it."""
+    try:
+        out = subprocess.run(["git", "ls-files", "-z"], cwd=ROOT, capture_output=True,
+                             check=True, timeout=60).stdout
+    except (OSError, subprocess.SubprocessError) as e:
+        sys.exit(f"[check_claudemd_refs] FAILED: cannot list the tracked tree with git ({e}); "
+                 "bare filenames cannot be checked without it")
     idx = {}
     skip = {"node_modules", ".git", ".quartz-cache", "public", "dist", ".claude"}
-    for p in ROOT.rglob("*"):
-        if not p.is_file():
+    for rel in out.decode("utf-8", "surrogateescape").split("\0"):
+        if not rel:
             continue
-        if any(part in skip for part in p.parts):
+        parts = rel.split("/")
+        if any(part in skip for part in parts):
             continue
-        idx[p.name] = idx.get(p.name, 0) + 1
+        INDEXED["files"] += 1
+        idx[parts[-1]] = idx.get(parts[-1], 0) + 1
+    if not INDEXED["files"]:
+        sys.exit("[check_claudemd_refs] FAILED: git listed ZERO tracked files, so no bare "
+                 "filename can resolve; this is indistinguishable from a broken matcher")
     return idx
 
 
@@ -257,7 +285,8 @@ def main() -> None:
 
     print(f"[check_claudemd_refs] OK — {total['paths']} repo paths, "
           f"{total['npm']} npm scripts, {total['cites']} symbol@line citations, "
-          f"all resolve ({', '.join(d.name for d in docs)})")
+          f"all resolve ({', '.join(d.name for d in docs)}); bare names checked against "
+          f"{INDEXED['files']:,} tracked files")
     # THE SKIP PRINTS (§6.6). A reference waved through as "generated" is one this gate did
     # not actually verify, so it is named every run: a list that grows is a list to read.
     if generated:

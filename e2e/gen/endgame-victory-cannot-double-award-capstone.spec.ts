@@ -12,18 +12,25 @@ import { multiBeltEndgame, CURRICULUM } from "./personas"
  * entries with their {moves, dominance} untouched. A normal roll is NOT a content capstone,
  * so a win on it can never mint or re-stamp a capstone.
  *
- * Structural root cause (neural/src/app.src.jsx, source-verified at authoring):
- *   - endRound's internal capstone block is guarded by `if (this._beltTest)`.
+ * Structural root cause (neural/src/app.src.jsx, re-verified 2026-10-01; cited by symbol —
+ * the @line numbers this header carried had drifted ~8,000 lines):
+ *   - `endRound`'s internal capstone block is guarded by `if (this._beltTest)`.
  *     A plain land("Mount Top") roll has _beltTest === null, so the compatibility record write
  *     and belt_test_won fx are skipped.
- *   - Only `if (kind === "win")` @3805 runs → victory_cascade (@3810) + ladderMove(1) (@3811)
- *     + finish + roll_end{outcome:"win"}. None of these touch capstone records.
- *   - A submission finish reaches endRound("win") via the ty short-circuit in enterSuccess
- *     (@4504) / enterSuccessCal (@4530) — `if (act.ty === "submissions") { ...; endRound("win",
- *     act.t); return; }` — so the win arrives on the generic path with _beltTest still null.
- *   - The sweep verdict is a single resolve draw: tensionSweep @4470 `success = rng("resolve")
+ *   - Only `if (kind === "win")` runs → victory_cascade + ladderMove(1) + finish +
+ *     roll_end{outcome:"win"}. None of these touch capstone records.
+ *   - A submission finish reaches endRound("win") through `enterSuccessCal` (its outcome
+ *     resolves terminal: game-over) or the uncalibrated `enterSuccess` ty short-circuit — so the
+ *     win arrives on the generic path with _beltTest still null.
+ *   - The sweep verdict is a single resolve draw: `tensionSweep` `success = rng("resolve")
  *     < moveChance`; 0.01 < any moveChance ⇒ success. `outcome` (drawOutcome's success pick) is
- *     re-rigged before every take as armor — a submission win short-circuits before it matters.
+ *     re-rigged before every take as armor — since v1.121.0 it draws inside the success branch,
+ *     which for a submission is game-over only, so it cannot change the result.
+ *   - TWO PICKS PER SUBMISSION (re-targeted 2026-10-01, gen-suite triage): since v1.176.0
+ *     (cdc35cefe, "Give submission states their own choices") the first pick of a submission
+ *     card only ENTERS its state (deterministic travel, no resolve draw); the state's "Finish"
+ *     card — same title — is the second pick, where the sweep above runs. playToTap below takes
+ *     the exact idiom that commit gave the core journey content-capstone.spec.ts's playToTap.
  *
  * This is the mirror of gen "veteran-victory-does-not-mutate-recall-map" (same win mechanism,
  * B: cross-feature/rec map) and the complement of gen "endgame-won-test-is-final" (an inert
@@ -54,7 +61,9 @@ async function playToTap(j: any, page: any, maxMoves = 8): Promise<boolean> {
     await j.rig("resolve", [0.01])
     await j.rig("outcome", [0.01])
     if (sub) {
-      await j.pick(sub)
+      await j.pick(sub) // v1.176.0: establishes the submission state (no draw)
+      await j.advance(3000)
+      await j.pick(sub) // its Finish: the rigged resolve is drawn here and the roll ends
       await j.advanceUntil("roll_end", 25000)
       return true
     }

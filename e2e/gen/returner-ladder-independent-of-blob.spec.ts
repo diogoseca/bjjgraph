@@ -11,7 +11,7 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  *
  * Seams under test (probe-verified twice in the real app, ~36-44s/run, deterministic):
  *   - ladderState()/ladderMove() (neural/src/app.src.jsx ~4115-4130) read/write ONLY
- *     "bjj-neural-ladder"; ladderState() defaults to rank 1 when the store is absent and
+ *     "bjj-neural-owner:guest:ladder"; ladderState() defaults to rank 1 when the store is absent and
  *     never writes on read (the intro-roll stakes read during land() creates no store).
  *   - _progressBlob() (app.src.jsx ~1108) emits v/prep/rec/stage/units/belts/days/settings/
  *     settingsAt/updatedAt — NO ladder field, so the two stores are structurally independent.
@@ -19,8 +19,10 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  *
  * Win recipe (verbatim from the green core spec e2e/journeys/stakes-impact.spec.ts): pick
  * the first dealt submission from Mount Top (reliably dealt unrigged, same reliance as the
- * core spec); rig ONLY "resolve" low — a submission success ENDS the roll, so no "outcome"
- * draw is in play. land() rigs the intro's ambient draws (ai-skill/role/max-moves) itself.
+ * core spec), then pick it AGAIN — since v1.176.0 the first pick enters the submission state
+ * and the second is its Finish; rig ONLY "resolve" low — a submission success ENDS the roll,
+ * so no "outcome" draw is in play, and the entry itself draws nothing. land() rigs the intro's
+ * ambient draws (ai-skill/role/max-moves) itself.
  */
 
 const WHITE_ID: string = CURRICULUM.belts[0].id // "white" at authoring time
@@ -39,7 +41,7 @@ test("returner ladder: rank 1 despite full blob, win to rank 2, own-store persis
     const a = (window as any).__neural
     return {
       rank: a.ladderState().rank,
-      ladderStore: localStorage.getItem("bjj-neural-ladder"),
+      ladderStore: localStorage.getItem("bjj-neural-owner:guest:ladder"),
       beltWon: !!(a.belts && a.belts.won && a.belts.won[whiteId as string]),
     }
   }, WHITE_ID)
@@ -56,7 +58,12 @@ test("returner ladder: rank 1 despite full blob, win to rank 2, own-store persis
   })
   expect(subName, "a submission option dealt from Mount Top").toBeTruthy()
   await j.rig("resolve", [0.01])
-  await j.pick(subName as string)
+  // v1.176.0 (cdc35cefe, "Give submission states their own choices"): the first pick ENTERS the
+  // submission state (deterministic travel, no resolve draw); its one "Finish" card — the same
+  // title — is where resolve is drawn and the roll ends. Same win, one extra pick.
+  await j.pick(subName as string) // establishes the submission state
+  await j.nextHand() // the submission state deals its own hand
+  await j.pick(subName as string) // its Finish action completes the exchange
   await j.advanceUntil("roll_end", 20000)
   await j.expectBeat("ladder_up")
   expect(
@@ -71,8 +78,8 @@ test("returner ladder: rank 1 despite full blob, win to rank 2, own-store persis
   const post = await page.evaluate((whiteId) => {
     const a = (window as any).__neural
     a._flushSave() // pin the app's OWN blob serialization (not the seed) before reading it back
-    const ladderRaw = localStorage.getItem("bjj-neural-ladder")
-    const blob = JSON.parse(localStorage.getItem("bjj-neural-progress") || "null")
+    const ladderRaw = localStorage.getItem("bjj-neural-owner:guest:ladder")
+    const blob = JSON.parse(window.__ngGuestProgressRaw() || "null")
     return {
       rank: a.ladderState().rank,
       ladderParsed: ladderRaw ? JSON.parse(ladderRaw) : null,

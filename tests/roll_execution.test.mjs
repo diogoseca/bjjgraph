@@ -3,9 +3,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 
 const source = readFileSync(new URL("../neural/src/app.src.jsx", import.meta.url), "utf8");
-const Component = new Function("DCLogic", "React", `${source}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${source}\nreturn Component;`)(
   class {}, { createRef: () => ({ current: null }) },
 );
 globalThis.window = { __NEURAL_TEST__: true };
@@ -37,7 +38,7 @@ test("digits and layout-specific shifted keys map to the same option, without br
   for (const key of ["0", "a", "Enter", ""]) assert.equal(a.optionKeyIndex({ key }), -1);
 });
 
-test("own activation commits once per guarded hand; Inspect, threats and escapes only inspect", () => {
+test("own activation commits once per guarded hand; Inspect and threats only inspect", () => {
   const a = app(), opened = [], committed = [];
   a.expandOption = (...args) => opened.push(args);
   const own = { idx: 1 }, card = {};
@@ -46,8 +47,7 @@ test("own activation commits once per guarded hand; Inspect, threats and escapes
   assert.equal(opened.length, 1);
   assert.equal(committed.length, 0);
   a.activateOption({ threat: true }, pick, card);
-  a.activateOption({ action: "escape" }, pick, card);
-  assert.equal(opened.length, 3);
+  assert.equal(opened.length, 2, "a threat is the opponent's move: it only inspects");
   a._rollHand = { mounted: false };
   a.activateOption(own, pick, card);
   assert.equal(committed.length, 0, "an unmounted forecast hand cannot commit");
@@ -59,6 +59,20 @@ test("own activation commits once per guarded hand; Inspect, threats and escapes
   a.activateOption(own, pick, card);
   a.activateOption(own, pick, card);
   assert.deepEqual(committed, [own], "a second activation cannot consume another move");
+});
+
+// AN ESCAPE IS YOUR OWN CHOICE (v1.218.1, owner 2026-10-05: "it's a choice i just chose, not to inspect
+// but to move"). This file used to pin escapes as inspect-only, the v1.176.0 route Phase 1 kept.
+test("an escape card commits like any own card; its Inspect inspects", () => {
+  const a = app(), opened = [], committed = [];
+  a.expandOption = (...args) => opened.push(args);
+  const escape = { idx: 2, action: "escape" };
+  const pick = (opt) => { committed.push(opt); a.startExecution(opt); };
+  a.activateOption(escape, pick, {}, true);
+  assert.deepEqual([opened.length, committed.length], [1, 0], "Inspect on an escape inspects");
+  a.activateOption(escape, pick, {});
+  assert.deepEqual(committed, [escape], "the escape card commits");
+  assert.equal(opened.length, 1, "...without inspecting");
 });
 
 test("Inspect cannot execute when its detail surface is unavailable", () => {

@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -12,7 +13,7 @@ const source = readFileSync(
 const Component = new Function(
   "DCLogic",
   "React",
-  `${source}\nreturn Component;`,
+  `${knowledgeSource}\n${source}\nreturn Component;`,
 )(class {}, { createRef: () => ({ current: null }) });
 const wire = read("source/quartz/static/neural/graph-data.json");
 const concepts = read("source/quartz/static/neural/concepts.json");
@@ -168,7 +169,7 @@ for path in files:
     assert body['errors'] == [{'err': x['error'], 'why': x['consequence'], 'fix': x['correction']} for x in data['common_errors']], path
     assert body['drills'] == [{'name': x['approach_name'], 'how': x['description'], 'focus': x['focus']} for x in data['training_approaches']], path
 raw = lambda d: len(json.dumps(d, ensure_ascii=False, separators=(',', ':')).encode())
-systems = json.loads((root/'source/quartz/static/neural/systems.json').read_text())
+systems = json.loads((root/'source/quartz/.neural-internal/systems.json').read_text())  # build-internal since v1.207.0
 assert raw(index) + raw(systems) <= 500000, raw(index) + raw(systems)
 assert max(map(raw, bodies.values())) <= 40000
 principles = [c for c in index['concepts'] if c['cat'] == 'Principle']

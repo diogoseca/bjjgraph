@@ -29,12 +29,28 @@ import { whiteBeltHolder } from "./personas"
  * ai-skill/role/max-moves (max-moves 0.5 → maxMoves 11; the 3-escape arc costs ~6
  * moveCount increments — no endRound("reset") risk). Per catch: resolve[.99] (move always
  * fails), outcome[.99,.99] (fail draw + the counter-branch drawOutcome share the tag),
- * opp-finish[.01] (opponent always hunts the finish — no belt test, so the sub pool is
- * UNRESTRICTED per opponentDefend :5299-5324 and the catch lands first try; the ≤4-move
- * retry arm is contingency for the counter branch), opp-sub-pick/opp-pick[.01]. Escape:
+ * opp-finish[.01] (opponent always hunts the finish whenever its own hand holds one — no
+ * belt test, so no pool filter on top; since v1.176.0 that hand is role/origin-filtered, see
+ * RE-PINNED below — and from Mount Top the catch lands first try; the ≤4-move retry arm is
+ * contingency for the counter branch), opp-sub-pick/opp-pick[.01]. Escape:
  * escape[.01] < the 0.08 escapeChance floor (:4380) → always lands; pickFirstEscape()
  * (:4396) is the canvas-only escape surface (no DOM selector exists). rig() APPENDS, so
  * re-queueing identical values on a retry is safe.
+ *
+ * RE-PINNED by the gen-suite triage (dev 8d6ae5d01, v1.206.2). v1.176.0 (cdc35cefe, "Give
+ * submission states their own choices") made opponentDefend draw from the opponent's OWN
+ * role- and origin-filtered hand (optionsFor), no longer the role-blind site adjacency. Cycle
+ * 1 is untouched (Mount Control's counter lands at Closed Guard, where the opponent still
+ * holds Ezekiel/Can Opener), but the arc used to continue from wherever the escape landed,
+ * and from there the first-transition fails drifted into Open Guard / Knee Shield Half Guard,
+ * where the opponent's own hand holds ZERO submissions (the old adjacency walk saw 23 and 5)
+ * — every retry became a positional counter and "the rigged catch landed within the 4-move
+ * budget" went red at cycle 2. The claim is about the escape ECONOMY, not about which state
+ * the catches happen in, so cycles 2-3 now restage a fresh roll at Mount Top (rigStart +
+ * resetRoll, the intro draws rigged exactly as land() rigs them) and catch along cycle 1's
+ * proven path. Challenge progress and coins are durable, never per-roll, so nothing the
+ * assertions read is reset by the restage — and if a restart ever DID touch them, the 1→2→3
+ * progress assertions are the ones that would say so.
  *
  * CRITICAL rig/wait discipline: advanceUntil() is boot-CUMULATIVE (returns the moment a
  * beat EXISTS), so cycles 2-3 wait on beat COUNTS — a pumpUntilCount helper — and every
@@ -118,8 +134,41 @@ test("three rigged catch→escape cycles: blue.escape-three counts 1→2→done 
     expect(caught, "the rigged catch landed within the 4-move budget").toBe(true)
   }
 
+  // ── every cycle catches from the SAME proven state (v1.176.0 — see the header): a fresh roll
+  //    restaged at Mount Top exactly the way land() staged cycle 1 — rigStart + the transport's
+  //    own Reset (resetRoll → startRoll), the intro's ambient draws rigged identically. ──
+  const mountIdx = await page.evaluate(() =>
+    (window as any).__neural.nodes.findIndex((n: any) => n.ty === "positions" && n.t === "Mount Top"),
+  )
+  const restageAtMountTop = async (cycle: number) => {
+    await j.rig("ai-skill", [0.5])
+    await j.rig("role", [0])
+    await j.rig("max-moves", [0.5])
+    const dealt0 = await beatCount("options_dealt")
+    await page.evaluate((idx) => {
+      const a = (window as any).__neural
+      a.rigStart(idx)
+      a.resetRoll()
+    }, mountIdx)
+    let landed = false
+    for (let i = 0; i < 20 && !landed; i++) {
+      await j.advance(1000)
+      landed = await page.evaluate(
+        ([idx, d0]) => {
+          const a = (window as any).__neural
+          const dealt = (a.beats || []).filter((b: any) => b.beat === "options_dealt").length
+          return a.currentPos === idx && dealt > (d0 as number) && (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null
+        },
+        [mountIdx, dealt0] as const,
+      )
+    }
+    expect(landed, `cycle ${cycle}: restaged at Mount Top with a fresh hand`).toBe(true)
+    await j.landQuestion()
+  }
+
   // ── THE ARC: three catch→escape cycles, the ledger read at every escape ──
   for (let cycle = 1; cycle <= 3; cycle++) {
+    if (cycle > 1) await restageAtMountTop(cycle)
     await getCaught()
     await j.rig("escape", [0.01]) // < the 0.08 escapeChance floor — always succeeds
     await page.evaluate(() => (window as any).__neural.pickFirstEscape()) // canvas-only surface

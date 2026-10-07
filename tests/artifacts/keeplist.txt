@@ -1,0 +1,86 @@
+# D-01 KEEP-LIST: every source/quartz file the engine replacement kept VERBATIM, one per line,
+# relative to source/quartz/. scripts/check_frozen_surfaces.py (scope `keeplist`) reads THIS file.
+#
+# Until v1.205.2 the list lived only in the programme's INTERFACE.md section 7, outside the
+# repository, and the base bytes came from `git show f649801a9:<path>`, beyond CI's fetch depth.
+# So the keep-list half of the gate ran only on machines that had both, and CI asserted its
+# REFUSAL instead. PR #228's first head went green in CI while breaking every seat's local
+# test:units. Now both inputs are tracked: this list, and a recorded sha per file in
+# tests/artifacts/transformer_freeze.json (scope "keeplist"). The gate runs in ci-validate.
+#
+# components/ is covered EXHAUSTIVELY: a tracked file there that is missing from this list fails
+# ("ON DISK BUT NOT FROZEN"). The other directories are listed selectively.
+#
+# To change a listed file:  python3 scripts/check_frozen_surfaces.py --accept <path> --reason "..."
+# To add a NEW file:        list it here, then --accept it (its record starts with "from": "(new)").
+
+cfg.ts
+components/ArticleTitle.tsx
+components/AuthUI.tsx
+components/Body.tsx
+components/Breadcrumbs.tsx
+components/CategoryNav.tsx
+components/ContentMeta.tsx
+components/Date.tsx
+components/DesktopOnly.tsx
+components/Footer.tsx
+components/Head.tsx
+components/Header.tsx
+components/NeuralMount.tsx
+components/PageList.tsx
+components/Search.tsx
+components/SnapshotButton.tsx
+components/TableOfContents.tsx
+components/index.ts
+components/pages/404.tsx
+components/pages/Content.tsx
+components/pages/FolderContent.tsx
+components/pages/TagContent.tsx
+components/renderPage.tsx
+components/scripts/authUI.inline.ts
+components/scripts/callout.inline.ts
+components/scripts/checkbox.inline.ts
+components/scripts/clipboard.inline.ts
+components/scripts/consoleTap.inline.ts
+components/scripts/notFound.inline.ts
+components/scripts/popover.inline.ts
+components/scripts/search.inline.ts
+components/scripts/snapshotButton.inline.ts
+components/scripts/snapshotState.ts
+components/scripts/spa.inline.ts
+components/scripts/supabase.ts
+components/scripts/toc.inline.ts
+components/scripts/util.ts
+components/scripts/variant.inline.ts
+components/styles/breadcrumbs.scss
+components/styles/clipboard.scss
+components/styles/contentMeta.scss
+components/styles/footer.scss
+components/styles/legacyToc.scss
+components/styles/listPage.scss
+components/styles/notFound.scss
+components/styles/popover.scss
+components/styles/search.scss
+components/styles/toc.scss
+components/types.ts
+i18n/index.ts
+i18n/locales/definition.ts
+i18n/locales/en-US.ts
+plugins/vfile.ts
+styles/base.scss
+styles/callouts.scss
+styles/custom.scss
+styles/syntax.scss
+styles/variables.scss
+util/escape.ts
+util/glob.ts
+util/jsx.tsx
+util/lang.ts
+util/log.ts
+util/path.test.ts
+util/path.ts
+util/perf.ts
+util/resources.tsx
+util/sourcemap.ts
+util/theme.ts
+util/trace.ts

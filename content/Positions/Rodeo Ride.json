@@ -297,7 +297,46 @@
         "attempt_probability": {
           "gi": 16,
           "nogi": 16
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 50,
+          "nogi": 50
+        },
+        "outcomes": [
+          {
+            "to": "Back Control/Top",
+            "probability": {
+              "gi": 50,
+              "nogi": 50
+            },
+            "result": "success"
+          },
+          {
+            "to": "Rodeo Ride/Top",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Turtle/Top",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Crab Ride to Back",
@@ -741,7 +780,54 @@
         "attempt_probability": {
           "gi": 14,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": 38
+        },
+        "outcomes": [
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "success"
+          },
+          {
+            "to": "Rodeo Ride/Bottom",
+            "probability": {
+              "gi": 34,
+              "nogi": 34
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 28,
+              "nogi": 28
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Technical Stand-up",
@@ -783,7 +869,38 @@
         "attempt_probability": {
           "gi": 10,
           "nogi": 11
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 30,
+          "nogi": 32
+        },
+        "outcomes": [
+          {
+            "to": "Standing Position/Bottom",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Rodeo Ride/Bottom",
+            "probability": {
+              "gi": 41,
+              "nogi": 41
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Back Control/Bottom",
+            "probability": {
+              "gi": 27,
+              "nogi": 27
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Escape from Rodeo Ride",

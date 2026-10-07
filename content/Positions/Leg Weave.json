@@ -256,7 +256,46 @@
         "attempt_probability": {
           "gi": 27,
           "nogi": 26
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 65,
+          "nogi": 62
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 62,
+              "nogi": 62
+            },
+            "result": "success"
+          },
+          {
+            "to": "Leg Weave/Top",
+            "probability": {
+              "gi": 17,
+              "nogi": 17
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 10,
+              "nogi": 10
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Deep Half Guard/Top",
+            "probability": {
+              "gi": 11,
+              "nogi": 11
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Knee Slice Pass",

@@ -1,0 +1,162 @@
+{
+ "_meta": {
+  "note": "Names that more than one page answers to, which stay ambiguous AFTER family preference (scripts/regenerate_md_from_json.py, _check_ambiguity_baseline): each links to its sorted-first candidate. A new name fails the generator; a cleared one fails a full run. Rewrite only with --all --accept-ambiguity --reason.",
+  "accepted_at": "2026-10-07",
+  "reason": "B07-RED1 (v1.224.0): seeded at family-aware resolution; these names stay ambiguous because they are shared across families or categories, not within one family",
+  "names": 18,
+  "page_links": 1007
+ },
+ "names": {
+  "Anaconda Choke": {
+   "pages": 107,
+   "links_to": "Transitions/Anaconda Choke",
+   "candidates": [
+    "Transitions/Anaconda Choke",
+    "Submissions/Anaconda Choke"
+   ]
+  },
+  "Aoki Lock": {
+   "pages": 40,
+   "links_to": "Transitions/Aoki Lock",
+   "candidates": [
+    "Transitions/Aoki Lock",
+    "Submissions/Aoki Lock"
+   ]
+  },
+  "Buggy Choke": {
+   "pages": 17,
+   "links_to": "Positions/Buggy Choke",
+   "candidates": [
+    "Positions/Buggy Choke",
+    "Submissions/Buggy Choke"
+   ]
+  },
+  "Clock Choke": {
+   "pages": 35,
+   "links_to": "Transitions/Clock Choke",
+   "candidates": [
+    "Transitions/Clock Choke",
+    "Submissions/Clock Choke"
+   ]
+  },
+  "Dogfight Position": {
+   "pages": 101,
+   "links_to": "Positions/Dogfight Position",
+   "candidates": [
+    "Positions/Dogfight Position",
+    "Transitions/Dogfight Position"
+   ]
+  },
+  "Electric Chair": {
+   "pages": 81,
+   "links_to": "Positions/Half Guard/Electric Chair",
+   "candidates": [
+    "Positions/Half Guard/Electric Chair",
+    "Submissions/Electric Chair"
+   ]
+  },
+  "Gift Wrap": {
+   "pages": 112,
+   "links_to": "Positions/Gift Wrap",
+   "candidates": [
+    "Positions/Gift Wrap",
+    "Transitions/Gift Wrap"
+   ]
+  },
+  "Gogoplata": {
+   "pages": 67,
+   "links_to": "Transitions/Gogoplata",
+   "candidates": [
+    "Transitions/Gogoplata",
+    "Submissions/Gogoplata"
+   ]
+  },
+  "Hindulotine": {
+   "pages": 20,
+   "links_to": "Positions/Hindulotine",
+   "candidates": [
+    "Positions/Hindulotine",
+    "Submissions/Hindulotine"
+   ]
+  },
+  "Inverted Triangle": {
+   "pages": 27,
+   "links_to": "Transitions/Inverted Triangle",
+   "candidates": [
+    "Transitions/Inverted Triangle",
+    "Submissions/Inverted Triangle"
+   ]
+  },
+  "Knee on Belly": {
+   "pages": 120,
+   "links_to": "Positions/Knee on Belly",
+   "candidates": [
+    "Positions/Knee on Belly",
+    "Transitions/Knee on Belly"
+   ]
+  },
+  "Kneebar": {
+   "pages": 54,
+   "links_to": "Transitions/Kneebar",
+   "candidates": [
+    "Transitions/Kneebar",
+    "Submissions/Kneebar"
+   ]
+  },
+  "Leg Entanglement": {
+   "pages": 87,
+   "links_to": "Positions/Leg Entanglement",
+   "candidates": [
+    "Positions/Leg Entanglement",
+    "Principles/Leg Entanglement"
+   ]
+  },
+  "Mounted Triangle": {
+   "pages": 41,
+   "links_to": "Positions/Mount/Mounted Triangle",
+   "candidates": [
+    "Positions/Mount/Mounted Triangle",
+    "Transitions/Mounted Triangle"
+   ]
+  },
+  "Seat Belt Control Back": {
+   "pages": 94,
+   "links_to": "Positions/Back Control/Seat Belt Control Back",
+   "candidates": [
+    "Positions/Back Control/Seat Belt Control Back",
+    "Transitions/Seat Belt Control Back"
+   ]
+  },
+  "from 50-50": {
+   "pages": 2,
+   "links_to": "Submissions/Kneebar/from 50-50",
+   "candidates": [
+    "Submissions/Kneebar/from 50-50",
+    "Submissions/Toe Hold/from 50-50"
+   ]
+  },
+  "from Guard": {
+   "pages": 1,
+   "links_to": "Submissions/Armbar/from Guard",
+   "candidates": [
+    "Submissions/Armbar/from Guard",
+    "Submissions/Kimura/from Guard",
+    "Submissions/Kneebar/from Guard",
+    "Submissions/Monoplata/from Guard",
+    "Submissions/Omoplata/from Guard"
+   ]
+  },
+  "from Saddle": {
+   "pages": 1,
+   "links_to": "Submissions/Calf Slicer/from Saddle",
+   "candidates": [
+    "Submissions/Calf Slicer/from Saddle",
+    "Submissions/Estima Lock/from Saddle",
+    "Submissions/Heel Hook/from Saddle",
+    "Submissions/Kneebar/from Saddle",
+    "Submissions/Outside Heel Hook/from Saddle",
+    "Submissions/Toe Hold/from Saddle"
+   ]
+  }
+ }
+}

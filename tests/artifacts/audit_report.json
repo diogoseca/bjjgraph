@@ -3,10 +3,10 @@
     "transition_files": 1025,
     "submission_files": 353,
     "position_files": 133,
-    "total_issues": 357,
+    "total_issues": 436,
     "errors": 0,
-    "warnings": 7,
-    "info": 350,
+    "warnings": 54,
+    "info": 382,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -15,8 +15,8 @@
     "orphaned_positions": 0,
     "invalid_from_positions": 0,
     "outcome_errors": 0,
-    "outcome_warnings": 6,
-    "attempt_outliers": 299,
+    "outcome_warnings": 12,
+    "attempt_outliers": 331,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
@@ -36,7 +36,7 @@
     "complement_pairs_compared": 1315,
     "complement_skipped_null_rate": 0,
     "votes_community_frames_checked": 3202,
-    "votes_prior_frames_checked": 678,
+    "votes_prior_frames_checked": 680,
     "votes_prior_frames_absent": 0
   },
   "issues": [
@@ -409,6 +409,22 @@
       "message": "Z-Guard Top: authored position_type 'Offensive' but its metrics score -0.201 — the word now wins, so check whether the point_value / risk / submission-retention-advancement numbers are right"
     },
     {
+      "file": "content/Transitions/Balloon Sweep.json",
+      "name": "Balloon Sweep",
+      "type": "technique_range_low",
+      "message": "Success[gi] 7% below expected min 15% for sweep",
+      "severity": "warning",
+      "current": 7
+    },
+    {
+      "file": "content/Transitions/Balloon Sweep.json",
+      "name": "Balloon Sweep",
+      "type": "technique_range_low",
+      "message": "Success[nogi] 7% below expected min 15% for sweep",
+      "severity": "warning",
+      "current": 7
+    },
+    {
       "file": "content/Transitions/Lapel Sweep to Back.json",
       "name": "Lapel Sweep to Back",
       "type": "technique_range_low",
@@ -425,6 +441,22 @@
       "current": 10
     },
     {
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "name": "Lumberjack Sweep",
+      "type": "technique_range_low",
+      "message": "Success[gi] 14% below expected min 15% for sweep",
+      "severity": "warning",
+      "current": 14
+    },
+    {
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "name": "Lumberjack Sweep",
+      "type": "technique_range_low",
+      "message": "Success[nogi] 14% below expected min 15% for sweep",
+      "severity": "warning",
+      "current": 14
+    },
+    {
       "file": "content/Transitions/Takedown from Standing Guard.json",
       "name": "Takedown from Standing Guard",
       "type": "technique_range_low",
@@ -439,6 +471,22 @@
       "message": "Success[nogi] 20% below expected min 25% for takedown",
       "severity": "warning",
       "current": 20
+    },
+    {
+      "file": "content/Transitions/X Pass.json",
+      "name": "X Pass",
+      "type": "technique_range_low",
+      "message": "Success[gi] 7% below expected min 10% for pass",
+      "severity": "warning",
+      "current": 7
+    },
+    {
+      "file": "content/Transitions/X Pass.json",
+      "name": "X Pass",
+      "type": "technique_range_low",
+      "message": "Success[nogi] 7% below expected min 10% for pass",
+      "severity": "warning",
+      "current": 7
     },
     {
       "file": "content/Submissions/Ezekiel Choke/from Closed Guard.json",
@@ -1033,16 +1081,6 @@
     {
       "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
       "position": "Butterfly Hook Control",
-      "role": "bottom[nogi]",
-      "type": "attempt_negligible",
-      "message": "bottom[nogi]: 'Collar Drag from Open Guard' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Collar Drag from Open Guard",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Butterfly Guard/Butterfly Hook Control.json",
-      "position": "Butterfly Hook Control",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'John Wayne Sweep' has only 2% attempt probability",
@@ -1078,6 +1116,46 @@
       "message": "bottom[nogi]: 'Omoplata from Butterfly Guard' has only 1% attempt probability",
       "severity": "info",
       "transition": "Omoplata from Butterfly Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Butterfly Guard.json",
+      "position": "Butterfly Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Waiter Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Waiter Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Butterfly Guard.json",
+      "position": "Butterfly Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Waiter Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Waiter Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Clinch.json",
+      "position": "Clinch",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Double Leg Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Double Leg Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Clinch.json",
+      "position": "Clinch",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Double Leg Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Double Leg Entry",
       "current": 1
     },
     {
@@ -1421,6 +1499,46 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: '100% Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "100% Sweep",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: '100% Sweep' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "100% Sweep",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Stack Defense' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Stack Defense",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Closed Guard.json",
+      "position": "Closed Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Stack Defense' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Stack Defense",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Collar Sleeve Guard.json",
       "position": "Collar Sleeve Guard",
       "role": "bottom[nogi]",
@@ -1428,6 +1546,26 @@
       "message": "bottom[nogi]: 'Collar Sleeve to Spider Guard' has only 1% attempt probability",
       "severity": "info",
       "transition": "Collar Sleeve to Spider Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Combat Base.json",
+      "position": "Combat Base",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Smash Pass' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Smash Pass",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Combat Base.json",
+      "position": "Combat Base",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Smash Pass' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Smash Pass",
       "current": 1
     },
     {
@@ -1491,6 +1629,16 @@
       "current": 1
     },
     {
+      "file": "content/Positions/De La Riva Guard.json",
+      "position": "De La Riva Guard",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Bolo Sweep' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Bolo Sweep",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Double Sleeve Guard.json",
       "position": "Double Sleeve Guard",
       "role": "bottom[nogi]",
@@ -1528,6 +1676,16 @@
       "message": "bottom[nogi]: 'Balloon Sweep' has only 2% attempt probability",
       "severity": "info",
       "transition": "Balloon Sweep",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Front Headlock.json",
+      "position": "Front Headlock",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Anaconda Setup' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Anaconda Setup",
       "current": 2
     },
     {
@@ -1983,6 +2141,16 @@
     {
       "file": "content/Positions/Half Guard.json",
       "position": "Half Guard",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Half Guard to Leg Weave' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Half Guard to Leg Weave",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Half Guard.json",
+      "position": "Half Guard",
       "role": "bottom[gi]",
       "type": "attempt_negligible",
       "message": "bottom[gi]: 'Knee Torque Sweep' has only 1% attempt probability",
@@ -2151,16 +2319,6 @@
       "current": 2
     },
     {
-      "file": "content/Positions/Lapel Guard.json",
-      "position": "Lapel Guard",
-      "role": "top[nogi]",
-      "type": "attempt_negligible",
-      "message": "top[nogi]: 'Leg Extraction from Lapel Wrap' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Leg Extraction from Lapel Wrap",
-      "current": 2
-    },
-    {
       "file": "content/Positions/Lasso Guard/Inverted Lasso Guard.json",
       "position": "Inverted Lasso Guard",
       "role": "top[nogi]",
@@ -2241,6 +2399,26 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Mount/3-4 Mount.json",
+      "position": "3-4 Mount",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Mounted Triangle' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Mounted Triangle",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Mount/3-4 Mount.json",
+      "position": "3-4 Mount",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Mounted Triangle' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Mounted Triangle",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Mount/Mounted Crucifix.json",
       "position": "Mounted Crucifix",
       "role": "top[gi]",
@@ -2248,6 +2426,26 @@
       "message": "top[gi]: 'Neck Crank from Mounted Crucifix' has only 1% attempt probability",
       "severity": "info",
       "transition": "Neck Crank from Mounted Crucifix",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Mount.json",
+      "position": "Mount",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Gift Wrap to Technical Mount' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Gift Wrap to Technical Mount",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Mount.json",
+      "position": "Mount",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Gift Wrap to Technical Mount' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Gift Wrap to Technical Mount",
       "current": 1
     },
     {
@@ -2751,6 +2949,26 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Frame and Shrimp to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Frame and Shrimp to Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Frame and Shrimp to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Frame and Shrimp to Guard",
+      "current": 1
+    },
+    {
       "file": "content/Positions/Spider Guard.json",
       "position": "Spider Guard",
       "role": "bottom[nogi]",
@@ -3171,6 +3389,26 @@
       "current": 2
     },
     {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Outside Ashi Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Outside Ashi Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Outside Ashi Entry' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Outside Ashi Entry",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Standing Rear Clinch.json",
       "position": "Standing Rear Clinch",
       "role": "top[nogi]",
@@ -3255,7 +3493,57 @@
       "position": "Turtle",
       "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "top[gi]: 'Turtle to Truck Entry' has only 2% attempt probability",
+      "message": "top[gi]: 'Front Headlock to Anaconda' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Anaconda",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Front Headlock to Anaconda' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Anaconda",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Front Headlock to Darce' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Darce",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Front Headlock to Darce' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Front Headlock to Darce",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Turtle to Truck Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Truck Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Turtle to Truck Entry' has only 2% attempt probability",
       "severity": "info",
       "transition": "Turtle to Truck Entry",
       "current": 2
@@ -3286,6 +3574,16 @@
       "role": "top[gi]",
       "type": "attempt_negligible",
       "message": "top[gi]: 'Turtle to Matrix' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Matrix",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Turtle to Matrix' has only 2% attempt probability",
       "severity": "info",
       "transition": "Turtle to Matrix",
       "current": 2
@@ -3391,6 +3689,76 @@
       "current": 1
     },
     {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Truck Entry' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Truck Entry",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Truck Entry' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Truck Entry",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[gi]",
+      "type": "attempt_negligible",
+      "message": "top[gi]: 'Turtle to Truck' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Truck",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "top[nogi]",
+      "type": "attempt_negligible",
+      "message": "top[nogi]: 'Turtle to Truck' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Turtle to Truck",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Granby Roll to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Granby Roll to Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Granby Roll to Guard' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Granby Roll to Guard",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Turtle.json",
+      "position": "Turtle",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Technical Stand-up' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Technical Stand-up",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Twister Control/Truck.json",
       "position": "Truck",
       "role": "top[gi]",
@@ -3459,6 +3827,416 @@
       "severity": "info",
       "transition": "Saddle Entry from Top",
       "current": 2
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[0].targets_outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: attacker.common_counters[0].targets_outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[1].targets_outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: attacker.common_counters[1].targets_outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[2].targets_outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: attacker.common_counters[2].targets_outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[3].targets_outcome",
+      "value": "Open Guard/Bottom",
+      "message": "Balloon Sweep: attacker.common_counters[3].targets_outcome 'Open Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[0].targets_outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: defender.defensive_options[0].targets_outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[1].targets_outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: defender.defensive_options[1].targets_outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[2].targets_outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: defender.defensive_options[2].targets_outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[3].targets_outcome",
+      "value": "Open Guard/Bottom",
+      "message": "Balloon Sweep: defender.defensive_options[3].targets_outcome 'Open Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[0].outcome",
+      "value": "Closed Guard/Bottom",
+      "message": "Balloon Sweep: defender.favorable_outcomes[0].outcome 'Closed Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Balloon Sweep",
+      "file": "content/Transitions/Balloon Sweep.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[1].outcome",
+      "value": "Open Guard/Bottom",
+      "message": "Balloon Sweep: defender.favorable_outcomes[1].outcome 'Open Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[0].targets_outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: attacker.common_counters[0].targets_outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[1].targets_outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: attacker.common_counters[1].targets_outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[3].targets_outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: attacker.common_counters[3].targets_outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[0].targets_outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: defender.defensive_options[0].targets_outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[1].targets_outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: defender.defensive_options[1].targets_outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[3].targets_outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: defender.defensive_options[3].targets_outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Elbow Escape to Guard",
+      "file": "content/Transitions/Elbow Escape to Guard.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[0].outcome",
+      "value": "Buggy Choke/Bottom",
+      "message": "Elbow Escape to Guard: defender.favorable_outcomes[0].outcome 'Buggy Choke/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[0].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: attacker.common_counters[0].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[1].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: attacker.common_counters[1].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[2].targets_outcome",
+      "value": "Half Guard/Top",
+      "message": "Lumberjack Sweep: attacker.common_counters[2].targets_outcome 'Half Guard/Top' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[3].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: attacker.common_counters[3].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[0].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: defender.defensive_options[0].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[1].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: defender.defensive_options[1].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[2].targets_outcome",
+      "value": "Half Guard/Top",
+      "message": "Lumberjack Sweep: defender.defensive_options[2].targets_outcome 'Half Guard/Top' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[3].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: defender.defensive_options[3].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[0].outcome",
+      "value": "Half Guard/Bottom",
+      "message": "Lumberjack Sweep: defender.favorable_outcomes[0].outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Lumberjack Sweep",
+      "file": "content/Transitions/Lumberjack Sweep.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[1].outcome",
+      "value": "Half Guard/Top",
+      "message": "Lumberjack Sweep: defender.favorable_outcomes[1].outcome 'Half Guard/Top' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[0].targets_outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: attacker.common_counters[0].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[1].targets_outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: attacker.common_counters[1].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[2].targets_outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: attacker.common_counters[2].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[3].targets_outcome",
+      "value": "Butterfly Guard/Top",
+      "message": "Waiter Sweep: attacker.common_counters[3].targets_outcome 'Butterfly Guard/Top' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[0].targets_outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: defender.defensive_options[0].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[1].targets_outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: defender.defensive_options[1].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[2].targets_outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: defender.defensive_options[2].targets_outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[3].targets_outcome",
+      "value": "Butterfly Guard/Top",
+      "message": "Waiter Sweep: defender.defensive_options[3].targets_outcome 'Butterfly Guard/Top' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[0].outcome",
+      "value": "Butterfly Guard/Bottom",
+      "message": "Waiter Sweep: defender.favorable_outcomes[0].outcome 'Butterfly Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "Waiter Sweep",
+      "file": "content/Transitions/Waiter Sweep.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[1].outcome",
+      "value": "Butterfly Guard/Top",
+      "message": "Waiter Sweep: defender.favorable_outcomes[1].outcome 'Butterfly Guard/Top' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "X Pass",
+      "file": "content/Transitions/X Pass.json",
+      "category": "Transitions",
+      "field": "attacker.common_counters[4].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "X Pass: attacker.common_counters[4].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "X Pass",
+      "file": "content/Transitions/X Pass.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[1].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "X Pass: defender.defensive_options[1].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "X Pass",
+      "file": "content/Transitions/X Pass.json",
+      "category": "Transitions",
+      "field": "defender.defensive_options[3].targets_outcome",
+      "value": "Half Guard/Bottom",
+      "message": "X Pass: defender.defensive_options[3].targets_outcome 'Half Guard/Bottom' not in outcomes"
+    },
+    {
+      "type": "targets_outcome_mismatch",
+      "severity": "warning",
+      "name": "X Pass",
+      "file": "content/Transitions/X Pass.json",
+      "category": "Transitions",
+      "field": "defender.favorable_outcomes[1].outcome",
+      "value": "Half Guard/Bottom",
+      "message": "X Pass: defender.favorable_outcomes[1].outcome 'Half Guard/Bottom' not in outcomes"
     }
   ],
   "naming_inconsistencies": [],

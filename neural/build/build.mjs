@@ -17,6 +17,8 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { createRequire } from "node:module";
+import { createHash } from "node:crypto";
+import { buildGameBundles } from "./game-bundles.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const R = (p) => resolve(HERE, "..", p);
@@ -32,6 +34,8 @@ const { build, transform } = require("esbuild");
 // absent version must break the build, never bake `undefined` and read as clean.
 const APP_VERSION = JSON.parse(readFileSync(resolve(HERE, "../../package.json"), "utf8")).version;
 if (!APP_VERSION) throw new Error("build.mjs: root package.json has no version to bake as NG_APP_VERSION");
+const settingsUI = readFileSync(R("src/settings-ui.src.js"), "utf8");
+const SETTINGS_UI_BUILD = APP_VERSION + ":" + createHash("sha256").update(settingsUI).digest("hex");
 
 // 1) app source: patch relative data fetches to the configurable base
 const sound = readFileSync(R("src/sound.src.js"), "utf8");
@@ -89,6 +93,14 @@ const flowKernel = stripExports("flow.src.js");
 // manifest and the score table, v1.204.3). The digest Worker and the unit suite import the
 // identical source, so the app and the mail allow-list can never decode two different ways.
 const wireKeys = stripExports("wire-keys.src.js");
+const knowledgeProfile = stripExports("knowledge-profile.src.js");
+const gameplanDebt = stripExports("gameplan-debt.src.js");
+const progressOwner = stripExports("progress-owner.src.js");
+const systemsDemand = stripExports("systems-demand.src.js");
+// belt.src.js (v1.211.0): the ONE definition of the belt a player wears and of its cross-device
+// merge. A real module for the codec's reason: the unit suite and the digest Worker (which names
+// the next belt in the training-day email) import the identical source.
+const beltRule = stripExports("belt.src.js");
 {
   // EVERY top-level binding form, not just function/const: two `let NGL_FOO` in one scope is
   // the same SyntaxError, and it would delete the same whole app. (The guard used to scan
@@ -99,7 +111,7 @@ const wireKeys = stripExports("wire-keys.src.js");
         (m) => m[1],
       ),
     );
-  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys]];
+  const groups = [["lists-codec.src.js", listsCodec], ["lists.src.js", listsStore], ["flow.src.js", flowKernel], ["wire-keys.src.js", wireKeys], ["knowledge-profile.src.js", knowledgeProfile], ["gameplan-debt.src.js", gameplanDebt], ["progress-owner.src.js", progressOwner], ["systems-demand.src.js", systemsDemand], ["belt.src.js", beltRule]];
   const clash = [];
   for (let a = 0; a < groups.length; a++) {
     for (let b = a + 1; b < groups.length; b++) {
@@ -220,6 +232,11 @@ ${flowKernel}
 /* ---- begin wire-keys.src.js (the ordinal-keyed eager wire: deck manifest + score table) ---- */
 ${wireKeys}
 /* ---- end wire-keys.src.js ---- */
+
+/* ---- shared simulation knowledge and completed evidence ---- */
+${knowledgeProfile}
+${gameplanDebt}
+
 // Reachable, greppable, and safe from tree-shaking: both files are pure and stateless, so
 // exposing them costs nothing and lets the list UI, the /l recipient path, the unit suite and
 // a paired debugging session all use the SAME functions. Both naming styles are published:
@@ -254,14 +271,51 @@ ${wireKeys}
 }
 /* ---- end share-link list codec + store ---- */
 
+/* ---- begin belt.src.js (the belt a player wears: rule, stripes, cross-device merge) ---- */
+${beltRule}
+/* ---- end belt.src.js ---- */
+
 /* ---- begin challenge definitions + pure engine ---- */
 ${challengeDefinitions}
 ${challengeEngine}
 /* ---- end challenge definitions + pure engine ---- */
 
+/* ---- begin progress-owner.src.js ---- */
+${progressOwner}
+/* ---- end progress-owner.src.js ---- */
+
+${systemsDemand}
+
+const NG_SETTINGS_UI_BUILD = ${JSON.stringify(SETTINGS_UI_BUILD)};
 /* ---- begin app.src.jsx (patched) ---- */
 ${app}
 /* ---- end app.src.jsx ---- */
+// The runtime receives these existing laws by reference; no duplicate main solver.
+const NG_GAME_VALUE_KNOWLEDGE = { ngKnowledgeExplainMove, ngKnowledgeExplainEscape };
+Component.prototype._fetchGameplanStudyHost = async function(attempt, { onState }) {
+  const ownerStamp = this._progressOwnerStamp, generation = this._gameStudyGeneration || 0;
+  const isCurrent = () => !this.__ngDestroyed && this._progressCurrent()
+    && this._progressOwnerStamp === ownerStamp && (this._gameStudyGeneration || 0) === generation;
+  const url = new URL(this._dataBase() + "app/game-study.js", document.baseURI);
+  url.searchParams.set("v", ${JSON.stringify(APP_VERSION)}); url.searchParams.set("attempt", String(attempt));
+  const runtime = await import(url.href);
+  if (!isCurrent()) throw Object.assign(new Error("stale-study-browser-import"), { phase: "unavailable" });
+  return runtime.ngGameplanStudyInstallBrowser(this, { build: runtime.NG_GAMEPLAN_STUDY_BUILD,
+    attempt, ownerStamp, isCurrent, expectedVersion: ${JSON.stringify(APP_VERSION)}, onState });
+};
+Component.prototype._fetchSettingsPresentation = function(attempt) {
+  const url = new URL(this._dataBase() + "app/settings-ui.js", document.baseURI);
+  if (url.origin !== window.location.origin) return Promise.reject(new Error("Settings presentation must be same-origin"));
+  url.searchParams.set("v", NG_SETTINGS_UI_BUILD); url.searchParams.set("attempt", String(attempt));
+  return import(url.href);
+};
+Component.prototype._fetchGameplanRuntime = function(attempt) {
+  const url = new URL(this._dataBase() + "app/gameplan.js", document.baseURI);
+  url.searchParams.set("v", ${JSON.stringify(APP_VERSION)});
+  url.searchParams.set("attempt", String(attempt));
+  return import(url.href);
+};
+
 
 /* ---- begin challenge UI ---- */
 ${challengeUI}
@@ -277,11 +331,12 @@ function __resolve(vals, key) {
   return v == null || typeof v === "object" ? "" : String(v)
 }
 
-function mountNeural() {
+function mountNeural(boot) {
   let root = document.getElementById("neural-root")
   if (!root) { root = document.createElement("div"); root.id = "neural-root"; document.body.appendChild(root) }
   try {
     const inst = new Component(__PROPS)
+    boot.host.bind(inst, boot)
     const vals = { ...__PROPS, ...(inst.renderVals ? inst.renderVals() : {}) }
     // render the skeleton: ref="{{ x }}" -> data-ng-ref; on<Event>="{{ x }}" -> data-ng-on
     // (bound as a real listener below — else the handler fn stringifies into a dead, CSP-blocked
@@ -312,26 +367,68 @@ function mountNeural() {
     // detach the overlay root so no zombie instance keeps the keyboard hijacked after navigation.
     inst.destroy = function () {
       if (inst.__ngDestroyed) return
+      // Normal SPA teardown preserves the pending local grade before retiring its stamp.
+      // Account transitions already captured/saved outgoing state and fail this guard.
+      try { if (inst._progressLoaded && inst._progressCurrent()) inst._flushSave() } catch (e) {}
       inst.__ngDestroyed = true
       try { if (inst.componentWillUnmount) inst.componentWillUnmount() } catch (e) { console.warn("[neural] teardown error:", e) }
       try { if (inst.__ngRoot && inst.__ngRoot.remove) inst.__ngRoot.remove() } catch (e) {}
       if ((window).__neural === inst) (window).__neural = null
     }
-    if (inst.componentDidMount) inst.componentDidMount()
     ;(window).__neural = inst
+    const mounting = inst.componentDidMount ? inst.componentDidMount() : null
+    if (mounting && typeof mounting.catch === "function") mounting.catch(() => boot.host.mountFailed(inst))
+    return inst
   } catch (e) {
     console.error("[neural] mount failed:", e)
     root.remove()
     document.documentElement.dataset.variant = "legacy"
+    throw e
   }
 }
 // idempotent (re-)mount hook for the SPA router: no-op if a live overlay root is still connected.
 function __mountNeuralOnce() {
   const existing = (window).__neural
   if (existing && existing.__ngRoot && document.body.contains(existing.__ngRoot)) return existing
-  mountNeural()
+  __progressHost.bootstrap()
   return (window).__neural
 }
+const __progressHost = ngProgressCreateHost({
+  storage: { getItem: key => localStorage.getItem(key), setItem: (key, value) => localStorage.setItem(key, value) },
+  resolveUser: async () => {
+    const auth = window.__bjjAuth
+    if (!auth) {
+      if (!window.__SUPABASE_URL && !window.__SUPABASE_ANON_KEY) return null
+      throw new Error("Account service is not ready")
+    }
+    // Guests are decided here first (ngAuthIsGuest, app.src.jsx): a cached v1 façade has no
+    // resolveNeuralUser, and holding a signed-out visitor on it is QREV7 M2. Only a stored session
+    // or an OAuth return on a v1 façade still holds.
+    if (ngAuthIsGuest(auth)) return null
+    if (typeof auth.resolveNeuralUser !== "function") throw new Error("Account service must be refreshed")
+    return auth.resolveNeuralUser()
+  },
+  mount: boot => { const held = document.getElementById("neural-progress-recovery"); if (held) held.remove(); return mountNeural(boot) },
+  hold: (result, host) => {
+    let box = document.getElementById("neural-progress-recovery")
+    if (!box) { box = document.createElement("section"); box.id = "neural-progress-recovery"; document.body.appendChild(box) }
+    box.innerHTML = ""
+    box.style.cssText = "position:fixed;inset:15%;z-index:10001;overflow:auto;padding:24px;background:#172030;color:#edf0f7;border:1px solid #8294ba;border-radius:12px"
+    box.setAttribute("role", "alert")
+    const title = document.createElement("h2"); title.textContent = "Your saved progress needs attention"
+    const text = document.createElement("p"); text.textContent = "Play is paused because saved progress could not be safely restored. Your existing copies have been kept. You can retry after fixing browser storage or download a recovery copy."
+    const retry = document.createElement("button"); retry.textContent = "Retry"; retry.onclick = () => host.retry()
+    retry.style.cssText = "min-height:44px;min-width:88px;padding:8px 14px;font:inherit;cursor:pointer"
+    box.append(title, text, retry)
+    const backup = host.recoverySnapshot()
+    if (backup) {
+      const download = document.createElement("button"); download.textContent = "Download recovery copy"
+      download.style.cssText = "min-height:44px;padding:8px 14px;font:inherit;cursor:pointer"
+      download.onclick = () => { const url = URL.createObjectURL(new Blob([JSON.stringify(backup)], {type:"application/json"})); const link = document.createElement("a"); link.href=url; link.download="bjjgraph-progress-recovery.json"; link.click(); setTimeout(()=>URL.revokeObjectURL(url),1000) }
+      box.appendChild(download)
+    }
+  }
+})
 ;(window).__mountNeural = __mountNeuralOnce
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", __mountNeuralOnce, { once: true })
 else __mountNeuralOnce()
@@ -341,6 +438,18 @@ writeFileSync(R("build/.tmp/entry.tsx"), entry);
 
 // 5) bundle (tsx loader handles class fields; no JSX factory needed — the app has none)
 mkdirSync(R("dist"), { recursive: true });
+// Source data and mechanics emission precede this build in every caller. The
+// game builder rejects stale source/law hashes before writing any runtime bundle.
+await buildGameBundles({ root: resolve(HERE, "../.."), build });
+
+// No static import from the eager entry: fetched only by openSettings intent.
+await build({
+  stdin: { contents: settingsUI, sourcefile: "settings-ui.src.js", resolveDir: R("src"), loader: "js" },
+  bundle: true, format: "esm", target: "es2019", minify: true, legalComments: "none",
+  define: { NG_SETTINGS_UI_BUILD: JSON.stringify(SETTINGS_UI_BUILD) },
+  outfile: R("dist/settings-ui.js"), logLevel: "info",
+});
+
 await build({
   entryPoints: [R("build/.tmp/entry.tsx")],
   bundle: true,
@@ -372,6 +481,7 @@ const cssJoined = [
   challengeCSS,
   challengeCollectionCSS,
   challengeFeedbackCSS,
+  readFileSync(R("src/choice-value.css"), "utf8"),
 ].join("\n");
 // Reference-page styles are requested with their deferred indexes. The game boot should not
 // pay for a reader it never opens. Both local refresh commands copy every built app asset.

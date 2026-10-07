@@ -295,7 +295,46 @@
         "attempt_probability": {
           "gi": 9,
           "nogi": 8
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 36,
+          "nogi": 32
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "success"
+          },
+          {
+            "to": "Butterfly Hook Control/Top",
+            "probability": {
+              "gi": 33,
+              "nogi": 33
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 19,
+              "nogi": 19
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Mount/Bottom",
+            "probability": {
+              "gi": 16,
+              "nogi": 16
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Double Under Pass",
@@ -738,7 +777,7 @@
         "transition": "Arm Drag to Back",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 11
+          "nogi": 12
         }
       },
       {
@@ -808,7 +847,7 @@
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 1
+          "nogi": null
         }
       },
       {

@@ -353,7 +353,46 @@
         "attempt_probability": {
           "gi": 8,
           "nogi": 9
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": 39
+        },
+        "outcomes": [
+          {
+            "to": "Side Control/Top",
+            "probability": {
+              "gi": 39,
+              "nogi": 39
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 32,
+              "nogi": 32
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Half Guard/Top",
+            "probability": {
+              "gi": 14,
+              "nogi": 14
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Float Passing",
@@ -775,14 +814,14 @@
       {
         "transition": "Butterfly Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 16
+          "gi": 6,
+          "nogi": 15
         }
       },
       {
         "transition": "De La Riva Sweep",
         "attempt_probability": {
-          "gi": 9,
+          "gi": 8,
           "nogi": 4
         }
       },
@@ -796,9 +835,48 @@
       {
         "transition": "Tripod Sweep",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
-        }
+          "gi": 6,
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 21,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 20,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 48,
+              "nogi": null
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 11,
+              "nogi": null
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Elevator Sweep",
@@ -824,8 +902,8 @@
       {
         "transition": "Arm Drag to Back",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 13
+          "gi": 5,
+          "nogi": 12
         }
       },
       {
@@ -845,14 +923,14 @@
       {
         "transition": "Open Guard to Collar Sleeve Guard",
         "attempt_probability": {
-          "gi": 12,
+          "gi": 11,
           "nogi": null
         }
       },
       {
         "transition": "Open Guard to De La Riva",
         "attempt_probability": {
-          "gi": 10,
+          "gi": 9,
           "nogi": 5
         }
       },
@@ -866,14 +944,14 @@
       {
         "transition": "Open Guard to Feet on Hips Guard",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 10
+          "gi": 5,
+          "nogi": 9
         }
       },
       {
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
-          "gi": 6,
+          "gi": 5,
           "nogi": null
         }
       },
@@ -881,14 +959,14 @@
         "transition": "Recovery from Failed Sweep",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 7
+          "nogi": 6
         }
       },
       {
         "transition": "Technical Stand Up from Open Guard",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 14
+          "nogi": 13
         }
       },
       {
@@ -909,7 +987,21 @@
         "transition": "Triangle Choke from Open Guard",
         "attempt_probability": {
           "gi": 4,
-          "nogi": 6
+          "nogi": 5
+        }
+      },
+      {
+        "transition": "Grip Break",
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 9
         }
       }
     ],

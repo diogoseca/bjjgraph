@@ -1,0 +1,341 @@
+{
+  "name": "Microing",
+  "description": "Use small changes in grip, angle, and weight to establish a working contact and keep it effective as the opponent moves.",
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "refinement",
+    "control"
+  ],
+  "application_level": "Intermediate",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Expert",
+  "summary": "Microing is finding and maintaining the small adjustment that makes a grip, angle, or pressure work within an otherwise established technique.",
+  "overview": "Seat the wrist blade in Cross Collar Choke from Mount; shift the hips to clear the controlled shield in Knee Slice from Knee Shield. Feel what changed, then follow the opponent's response.",
+  "key_principles": [
+    "Find the contact that slips, blocks, or directs pressure poorly.",
+    "Change one detail and check its effect before adding force.",
+    "Keep the gain as the opponent moves without giving up your base."
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Grip rotation",
+      "description": "With the collar grips established, adjust wrist orientation to seat the forearm blade in Cross Collar Choke from Mount; recognize contact cooperatively without finishing pressure."
+    },
+    {
+      "skill_name": "Hip angling",
+      "description": "In Knee Slice from Knee Shield, control the shield before shifting the hips to give the passing knee a route past the shin."
+    },
+    {
+      "skill_name": "Weight direction",
+      "description": "In Side Control, transfer supported weight toward shoulder contact at the collarbone pocket while retaining a hip block and a base that can follow a turn."
+    },
+    {
+      "skill_name": "Thumb and finger placement",
+      "description": "In Grip Break, place the thumb at the knuckle seam and guide the whole gripping hand toward its opening with body support; avoid wrenching individual fingers."
+    },
+    {
+      "skill_name": "Heel-catch recognition",
+      "description": "In Heel Hook from Saddle, distinguish a seated wrist-to-heel contact from a loose catch while retaining the knee line; release and reset before finishing pressure."
+    },
+    {
+      "skill_name": "Chin and shoulder coordination",
+      "description": "During Hand Fighting to Remove Collar Grip, close the gap between chin and shoulder as the hands clear early neck access; a tucked chin does not make an established choke safe."
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Alignment",
+      "relationship_type": "Prerequisite",
+      "description": "Organizes base, posture, and limbs; Microing adjusts a particular contact within that organization."
+    },
+    {
+      "principle_name": "Base",
+      "relationship_type": "Prerequisite",
+      "description": "Provides support; Microing preserves that support while making a local correction."
+    },
+    {
+      "principle_name": "Center of Gravity",
+      "relationship_type": "Complementary",
+      "description": "Explains weight distribution and already includes small adjustments; Microing also treats grip surfaces and body angles."
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Explains the purpose and continuity of contact; Microing locates and corrects the detail making a chosen contact ineffective."
+    },
+    {
+      "principle_name": "Control Point Hierarchy",
+      "relationship_type": "Complementary",
+      "description": "Chooses which contact matters; Microing tunes that contact's placement and direction."
+    },
+    {
+      "principle_name": "Cross Face Control",
+      "relationship_type": "Complementary",
+      "description": "Teaches a particular upper-body control; Microing compares its fine adjustments with those in other mechanics."
+    },
+    {
+      "principle_name": "Shoulder Pressure",
+      "relationship_type": "Complementary",
+      "description": "Connects shoulder loading to base and hip control; Microing uses changes in the contact point and load direction as one example."
+    },
+    {
+      "principle_name": "Chin Protection",
+      "relationship_type": "Complementary",
+      "description": "Protects neck access with head, shoulder, and hand work; Microing retains that early-defense role when describing small chin adjustments."
+    },
+    {
+      "principle_name": "Grips",
+      "relationship_type": "Complementary",
+      "description": "Covers gaining, using, and clearing grips; Microing focuses on the precise hand placement and orientation within those actions."
+    },
+    {
+      "principle_name": "Hand Fighting",
+      "relationship_type": "Complementary",
+      "description": "Covers the contest for hand position and already includes tactile feedback; Microing extends the same attention to hip and weight adjustments."
+    },
+    {
+      "principle_name": "Maximum Efficiency Principle",
+      "relationship_type": "Complementary",
+      "description": "Already teaches correcting grip, angle, and timing before adding force; Microing concentrates on the local correction and its immediate effect."
+    },
+    {
+      "principle_name": "Control Maintenance",
+      "relationship_type": "Complementary",
+      "description": "Already names continuous positional micro-adjustments, including guard control; Microing centers the decisive contact within an attack, escape, or hold."
+    },
+    {
+      "principle_name": "Making Smaller Circles",
+      "relationship_type": "Complementary",
+      "description": "Already teaches refinement and one-detail comparisons; Microing uses that method to recognize and maintain a working contact during an exchange."
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Knee Slice from Knee Shield",
+      "how_applied": "After controlling the shield, shift the hips until the passing knee can clear the shin without losing support."
+    },
+    {
+      "context": "Side Control",
+      "how_applied": "Follow the beginning of a turn with shoulder contact and the supporting knee while retaining the hip block."
+    },
+    {
+      "context": "Grip Break",
+      "how_applied": "Adjust thumb placement at the knuckle seam and guide the whole hand toward the grip opening rather than pulling against the closed grip."
+    },
+    {
+      "context": "Cross Collar Choke from Mount",
+      "how_applied": "With grips and base established, recognize how wrist orientation seats the forearm blade; keep practice cooperative and stop before finishing pressure."
+    },
+    {
+      "context": "Hand Fighting to Remove Collar Grip",
+      "how_applied": "Close the chin-to-shoulder gap while clearing the collar grip before it settles; tap early if a choke is established."
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "Setup intact?",
+      "action": "Restore missing grips, frames, or support first."
+    },
+    {
+      "step_number": 2,
+      "decision_point": "What fails?",
+      "action": "Locate the contact or angle stopping the action."
+    },
+    {
+      "step_number": 3,
+      "decision_point": "What changes it?",
+      "action": "Adjust grip, angle, or weight while keeping useful controls."
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Did it work?",
+      "action": "Check for a seated grip, cleared barrier, or restricted turn."
+    },
+    {
+      "step_number": 5,
+      "decision_point": "Opponent moved?",
+      "action": "Follow with another small correction when needed."
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Still blocked?",
+      "action": "Rebuild or change the technique."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Fine-tuning a missing setup",
+      "consequence": "A small adjustment cannot replace the grip, frame, or support the technique needs.",
+      "correction": "Restore the missing control first, then inspect the contact that still fails."
+    },
+    {
+      "error": "Adding force before checking the contact",
+      "consequence": "More effort loads the same obstruction or hides which detail changed the result.",
+      "correction": "Change one grip, angle, or weight detail and check its effect with similar gentle effort."
+    },
+    {
+      "error": "Moving constantly without preserving a gain",
+      "consequence": "Useful contact and base are lost through adjustments that have no clear purpose.",
+      "correction": "Let an effective contact settle; correct it when its job or the opponent’s pressure changes."
+    },
+    {
+      "error": "Testing a submission detail through finishing pressure",
+      "consequence": "Small changes can load the neck or a joint before either partner can assess the contact.",
+      "correction": "Compare contact cooperatively, reset before finishing pressure, and release immediately on any tap or stop signal."
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Compare one hip adjustment",
+      "description": "Start in Knee Slice from Knee Shield with the shield controlled. Keep the partner’s response gentle and repeatable; change only the hip angle and compare knee clearance. Reset after each attempt or if either player loses support.",
+      "focus": "Identify a useful correction without replacing the setup."
+    },
+    {
+      "approach_name": "Follow a small turn",
+      "description": "Start in Side Control with a hip block and supported shoulder contact. The bottom player turns gently; follow with shoulder and supporting knee. Reset when contact or base is lost, and stop on discomfort.",
+      "focus": "Maintain the gain as pressure changes; let effective contact settle."
+    },
+    {
+      "approach_name": "Recognize and release a catch",
+      "description": "With qualified supervision and a cooperative partner, start in a secured Saddle. Seat the wrist-to-heel contact without finishing pressure, then release and reset. Stop immediately on any tap, discomfort, or request; do not add resistance.",
+      "focus": "Recognize a working contact without loading the joint to test it."
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Names the grip, frame, or support that must exist before fine adjustment.",
+        "Identifies one slipping or blocked contact in a cooperative setup.",
+        "Resets the attempt when support is lost or a partner requests a stop."
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Changes one contact detail while keeping the partner’s response repeatable.",
+        "Checks for a seated grip, cleared barrier, or restricted turn at similar effort.",
+        "Restores the original setup to check whether the same obstruction returns."
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Follows a changing contact while retaining base and useful secondary controls.",
+        "Lets an effective contact settle until the opponent changes its task.",
+        "Recognizes when the setup is gone and rebuilds or changes the technique."
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Recognizes the relevant contact detail across different partners without relying on a fixed distance.",
+        "Explains how a correction affected the result and tests that explanation through a repeatable comparison.",
+        "Connects adjustments across attacking, defending, and holding while keeping submission comparisons free of finishing pressure."
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Alignment",
+      "content_type": "Principle",
+      "relationship": "Organizes base, posture, and limbs; Microing adjusts a particular contact within that organization."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Provides support; Microing preserves that support while making a local correction."
+    },
+    {
+      "name": "Connection Principles",
+      "content_type": "Principle",
+      "relationship": "Explains the purpose and continuity of contact; Microing locates and corrects the detail making a chosen contact ineffective."
+    },
+    {
+      "name": "Making Smaller Circles",
+      "content_type": "Principle",
+      "relationship": "Already teaches refinement and one-detail comparisons; Microing uses that method to recognize and maintain a working contact during an exchange."
+    },
+    {
+      "name": "Maximum Efficiency Principle",
+      "content_type": "Principle",
+      "relationship": "Already teaches correcting grip, angle, and timing before adding force; Microing concentrates on the local correction and its immediate effect."
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Already names continuous positional micro-adjustments, including guard control; Microing centers the decisive contact within an attack, escape, or hold."
+    },
+    {
+      "name": "Cross Collar Choke from Mount",
+      "content_type": "Submission",
+      "relationship": "Illustrates wrist orientation within an established collar grip; compare contact without finishing pressure."
+    },
+    {
+      "name": "Knee Slice from Knee Shield",
+      "content_type": "Transition",
+      "relationship": "Illustrates a hip-angle correction after the shield is controlled."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Illustrates supported shoulder loading that follows the opponent’s turn."
+    },
+    {
+      "name": "Grip Break",
+      "content_type": "Transition",
+      "relationship": "Illustrates hand placement and force directed through the grip’s opening."
+    },
+    {
+      "name": "Heel Hook from Saddle",
+      "content_type": "Submission",
+      "relationship": "Illustrates recognizing a seated heel catch with knee-line control; reset before finishing pressure."
+    },
+    {
+      "name": "Hand Fighting to Remove Collar Grip",
+      "content_type": "Transition",
+      "relationship": "Illustrates small chin and shoulder adjustments while the hands deny early neck access."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What must be present before you fine-tune a contact?",
+      "answer": "The technique’s useful grips, frames, and support must already exist; restore a missing setup before making a small correction."
+    },
+    {
+      "question": "How do you check whether one small correction helped?",
+      "answer": "Repeat the same gentle partner response, change one detail, and check for a seated grip, cleared barrier, or restricted turn at similar effort."
+    },
+    {
+      "question": "When should an effective contact be adjusted again?",
+      "answer": "Let it settle while it does its job; adjust again when the opponent’s movement or changing pressure makes the contact ineffective."
+    },
+    {
+      "question": "What makes the hip-angle example different from forcing through a knee shield?",
+      "answer": "Control the shield first, then change the hip angle to clear the shin while preserving base; the correction does not replace shield control."
+    },
+    {
+      "question": "Which direction should a grip-breaking correction address?",
+      "answer": "Guide the whole gripping hand toward the grip’s opening with body support, rather than pulling against the closed grip or wrenching individual fingers."
+    },
+    {
+      "question": "How should partners compare wrist contact in a collar choke or heel catch?",
+      "answer": "Keep the setup cooperative and compare contact without finishing pressure on the neck or joint; release and reset, stopping immediately on any tap or stop signal."
+    },
+    {
+      "question": "What is the role of a small chin-to-shoulder adjustment during hand fighting?",
+      "answer": "It helps deny early neck access while the hands clear the grip; it does not make an established choke safe or justify delaying a tap."
+    },
+    {
+      "question": "What should you do if a small correction leaves the technique blocked?",
+      "answer": "Reassess whether the required controls still exist, then rebuild the setup or change the technique instead of escalating force or making purposeless adjustments."
+    }
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Either participant can adjust a grip, angle, frame, or weight contact across positions, transitions, and submissions; the related examples illustrate this task without limiting its applicability."
+  }
+}

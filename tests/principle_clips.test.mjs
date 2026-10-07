@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
@@ -79,7 +80,7 @@ test("every authored principle's clips reach its emitted body, never the lightwe
 
 test("film thumbnails escape fetched titles and expose keyboard button names", () => {
   const source = readFileSync(resolve(root, "neural/src/app.src.jsx"), "utf8");
-  const Component = new Function("DCLogic", "React", `${source}\nreturn Component;`)(
+  const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${source}\nreturn Component;`)(
     class {}, { createRef: () => ({ current: null }) },
   );
   const app = Object.create(Component.prototype);

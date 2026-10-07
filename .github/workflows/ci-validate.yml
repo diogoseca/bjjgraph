@@ -15,6 +15,11 @@ on:
       - "templates/**"
       - "scripts/**"
       - "site/**"
+      # PWA artifact, rendered Head and deploy-chain unit tests read these inputs.
+      - "pwa/**"
+      - "branding/icon.svg"
+      - ".github/workflows/deploy.yaml"
+      - ".github/workflows/deploy-dev.yaml"
       - "functions/**"
       - "source/quartz/static/robots.txt"
       - "source/quartz/static/_headers"
@@ -29,11 +34,13 @@ on:
       - "source/quartz/static/globalGraphLayout.json"
       # test:units pins the neural sources, not just the codec file
       - "neural/src/**"
+      - "neural/build/**"
       - "neural/src/lists-codec.src.js"
       # every unit suite AND the helpers they import (tests/_census.mjs, tests/_deps_promised.mjs):
       # a helper is an input of every gate that imports it, so a PR that edits only the helper
       # must run the job. `tests/*.test.mjs` alone left the helpers outside the filter.
       - "tests/*.mjs"
+      - "tests/*.py"
       # tests/payload_policy.test.mjs reads BOTH of these and nothing else does. Same rule as the
       # lines below: a gate behind a filter that excludes its own subject never runs on the PR
       # that breaks it. Edit a band, or gut the case table, and this is the job that must fire.
@@ -134,28 +141,53 @@ jobs:
       - name: Build-shape app-row controls (fixtures, no build)
         run: python3 -B scripts/emit_mutation_test.py --app-assets
 
-      # THE MARKDOWN PIPELINE IS BYTE-FROZEN FOR THE DURATION OF THE QUARTZ REPLACEMENT (D-27).
-      # Stream A is a RE-HOST, not a rewrite: the correct number of behavioural changes to
-      # plugins/transformers/** and plugins/filters/** during P1-P4 is ZERO, so a drive-by cleanup
-      # and a migration defect are indistinguishable once the differ is 4,600 files wide. 0.2s.
-      #
-      # `--scope pipeline`, NOT the default `--scope all`, and the reason is load-bearing rather
-      # than a preference. The gate's OTHER scope (D-01's keep-list) reads two inputs that a
-      # GitHub checkout does not have: the programme's INTERFACE.md, which lives outside the
-      # repository, and `git show <base>:<path>` against the programme base commit, which is
-      # unreachable at this job's fetch-depth. Both of those fail LOUDLY — measured: keep-list
-      # reports `byte-compared … : 0` and then `FAIL: byte-compared ZERO files — this run proved
-      # nothing`, exit 2 — so running the default here would be permanently red for a reason that
-      # has nothing to do with the code under test. The pipeline scope is entirely
-      # repo-self-contained (baseline file + globbed sources) and was verified green with both of
-      # those inputs removed. The keep-list half therefore stays a LOCAL gate, `npm run
-      # validate:frozen-surfaces`, and this comment is where that gap is declared rather than
-      # discovered.
-      - name: Markdown pipeline byte-freeze (D-27, pipeline scope)
-        run: npm run validate:frozen-surfaces:pipeline
+      # THE FROZEN SURFACES, BOTH SCOPES (v1.205.2).
+      #   pipeline (D-27): plugins/transformers/** + plugins/filters/**, a RE-HOST with zero
+      #     intended behavioural changes, so a drive-by cleanup and a migration defect are
+      #     indistinguishable once the differ is 4,600 files wide.
+      #   keeplist (D-01): the 70 source/quartz files the engine replacement kept verbatim.
+      #     components/ is covered exhaustively, so a new file there must be listed and accepted.
+      # Until v1.205.2 this step ran `--scope pipeline` only. The keep-list read two inputs a
+      # GitHub checkout lacks: the programme's INTERFACE.md, outside the repository, and
+      # `git show f649801a9:<path>`, beyond this job's fetch depth. So PR #228's first head went
+      # green here while breaking every seat's local test:units. Both inputs are tracked now:
+      # tests/artifacts/keeplist.txt, and a recorded sha per file in transformer_freeze.json. So the
+      # whole gate runs here, and it prints a positive count for each scope. About 0.3 s.
+      - name: Frozen surfaces byte-freeze (D-27 pipeline + D-01 keep-list)
+        run: npm run validate:frozen-surfaces
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
+
+      # THE CATEGORY INDEX PAGES MATCH THEIR GENERATOR (v1.215.7). content/<Category>.md is rendered
+      # from every leaf JSON in its category, but regeneration is keyed on the EDITED file, so a leaf
+      # edit leaves its index page stale — and a stale page looks exactly like a fresh one
+      # (CLAUDE.md §6.6). The Principles page carried pre-v1.191.0 descriptions for 11 days with every
+      # gate green. Renders all six in memory (stdlib, ~0.5 s), fails on any byte difference or on
+      # zero pages checked, and names the page. Fix a red with `npm run regenerate:hubs`.
+      - name: Category index pages match their generator (hard gate)
+        run: python3 scripts/check_category_hubs.py
+
+      # EVERY GENERATED PAGE MATCHES ITS GENERATOR (B-07, 2026-10-06). content/*.md is generated from
+      # content/*.json and templates/, and nothing checked that the committed pages were the generator's
+      # current output, so 507 pages drifted silently: their system-card titles and captions lagged the
+      # 2026-09-17 System renames for three weeks. This re-runs the FREE half of the chain (never the paid
+      # regenerate:json) and fails on ANY difference. `git status --porcelain`, not `git diff --exit-code`,
+      # so a newly generated page (untracked) or a deleted one fails too. Both generators are deterministic
+      # and read no git history or file times, so CI's shallow checkout regenerates the same bytes.
+      # The fix for a red here is `npm run regenerate:md && npm run regenerate:hubs`, then commit content/.
+      - name: Generated content matches its generator (hard gate)
+        run: |
+          python3 scripts/regenerate_md_from_json.py --all > /tmp/regen-md.log 2>&1 || { tail -40 /tmp/regen-md.log; exit 1; }
+          python3 scripts/regenerate_category_hub_pages.py > /tmp/regen-hubs.log 2>&1 || { tail -40 /tmp/regen-hubs.log; exit 1; }
+          drift="$(git status --porcelain -- content/)"
+          if [ -n "$drift" ]; then
+            echo "::error::$(printf '%s\n' "$drift" | wc -l) file(s) under content/ differ from what the generator writes. Run: npm run regenerate:md && npm run regenerate:hubs, then commit content/."
+            printf '%s\n' "$drift" | head -40
+            git diff --stat -- content/ | tail -3
+            exit 1
+          fi
+          echo "content/ matches its generator: $(git ls-files -- 'content/*.md' | wc -l) tracked pages, 0 drifted"
 
       # THE SCHEMA MARKUP MUST PARSE. Every content page carries JSON-LD built by interpolating
       # authored prose into a hand-written JSON string literal, so one `"` in the prose ends the
@@ -234,7 +266,7 @@ jobs:
         working-directory: source
 
       - name: Pure unit suites
-        run: node --test tests/*.test.mjs
+        run: npm run test:units
         env:
           # tests/_deps_promised.mjs: a promised module that is absent is a failure, never a skip.
           CI: "true"

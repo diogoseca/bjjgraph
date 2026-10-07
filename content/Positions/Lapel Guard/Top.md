@@ -39,7 +39,7 @@ description: "Navigate and pass lapel guard configurations with technical precis
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Despite Lapel",
-      "text": "From this position, attempt Knee Slice Despite Lapel. This technique is attempted in 23% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Despite Lapel. This technique is attempted in 24% of exchanges from this position.",
       "position": 4
     },
     {
@@ -448,8 +448,8 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: Study the Entry Obstacles</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gi Strategy: Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Position reference for organizing study: Lapel Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lapel Guard: What Stops the Entry</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Lapel Guard: related position study, separate from the source syllabus.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie’s Closed Guard</span><span class="system-card__unlocks-badge">20 related references</span><span class="system-card__blurb">Related position: Lapel Guard.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

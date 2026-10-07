@@ -16,7 +16,7 @@ description: "How to execute Lumberjack Sweep in BJJ. Attacking perspective with
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Lumberjack Sweep in BJJ",
-  "description": "Step-by-step guide for executing Lumberjack Sweep from Half Guard/Bottom.",
+  "description": "Step-by-step guide for executing Lumberjack Sweep from Seated Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -222,7 +222,7 @@ description: "How to execute Lumberjack Sweep in BJJ. Attacking perspective with
 
 The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position. This technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position. This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage.
 
-**From Position**: [[Positions/Half Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -316,9 +316,10 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Side Control]] | 60% |
-| Failure | [[Positions/Half Guard]] | 25% |
-| Counter | [[Positions/Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 19% |
+| Success | [[Positions/Side Control]] | 14% |
+| Failure | [[Positions/Seated Guard]] | 51% |
+| Counter | [[Positions/Front Headlock]] | 16% |
 
 
 </section>

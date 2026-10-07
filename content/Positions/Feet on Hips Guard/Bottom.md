@@ -21,7 +21,7 @@ description: "Master feet on hips guard bottom in BJJ. Distance management, swee
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 1
     },
     {

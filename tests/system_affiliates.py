@@ -182,7 +182,7 @@ class SystemAffiliates(unittest.TestCase):
             root=Path(tmp);public=root/'public';public.mkdir()
             page=public/'guide.html';page.write_text(self.render())
             index=public/'systems.json';index.write_text(json.dumps({'systems':[{'name':self.data['name'],'products':neural._products(self.data,self.data['name'])}]}))
-            with patch.object(affiliate,'PUBLIC_DIR',public),patch.object(affiliate,'NEURAL_SYSTEMS',root/'absent.json'),patch.object(gate,'PROJECT_ROOT',root):
+            with patch.object(affiliate,'PUBLIC_DIR',public),patch.object(affiliate,'NEURAL_SYSTEMS',root/'absent.json'),patch.object(affiliate,'NEURAL_STATIC',root/'absent-static'),patch.object(gate,'PROJECT_ROOT',root):
                 for ref in ('12345.test',''):
                     affiliate.stamp(page,ref);affiliate.stamp(index,ref)
                     parser=ArticleParser();parser.feed('<article>'+page.read_text()+'</article>')
@@ -226,7 +226,7 @@ class SystemAffiliates(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp); neural_dir=root/'static/neural';chunks=neural_dir/'content';chunks.mkdir(parents=True)
             chunk=chunks/'fixture.json';chunk.write_text(json.dumps(wire));gz=chunk.with_suffix('.json.gz');gz.write_bytes(gzip.compress(b'stale'))
-            with patch.object(affiliate,'NEURAL_SYSTEMS',neural_dir/'systems.json'),patch.object(affiliate,'PUBLIC_DIR',root/'public'):
+            with patch.object(affiliate,'NEURAL_SYSTEMS',neural_dir/'systems.json'),patch.object(affiliate,'NEURAL_STATIC',neural_dir),patch.object(affiliate,'PUBLIC_DIR',root/'public'):
                 self.assertIn(chunk,affiliate.targets())
             for ref in ('12345.test','98765.rotated',''):
                 affiliate.stamp(chunk,ref)
@@ -332,7 +332,7 @@ class SystemAffiliates(unittest.TestCase):
                 (systems / (name + '.json')).write_text(json.dumps(self.data))
                 (public / 'Systems' / (name.replace(' ', '-') + '.html')).write_text(original)
             (public / 'systems.json').write_text(json.dumps({'systems': [{'name': self.data['name'], 'products': neural._products(self.data, self.data['name'])}]}))
-            with patch.object(gate, 'SYSTEMS_DIR', systems), patch.object(gate, 'PUBLIC', public), patch.object(gate, 'PROJECT_ROOT', root), patch.object(gate, 'GRAPH', root / 'absent.json'), patch.object(affiliate, 'PUBLIC_DIR', public), patch.object(affiliate, 'NEURAL_SYSTEMS', root / 'absent.json'), patch.object(affiliate, 'configured_ref', return_value=''), patch.object(sys, 'argv', ['check_affiliate_surface.py', '--built']):
+            with patch.object(gate, 'SYSTEMS_DIR', systems), patch.object(gate, 'PUBLIC', public), patch.object(gate, 'PROJECT_ROOT', root), patch.object(gate, 'GRAPH', root / 'absent.json'), patch.object(affiliate, 'PUBLIC_DIR', public), patch.object(affiliate, 'NEURAL_SYSTEMS', root / 'absent.json'), patch.object(affiliate, 'NEURAL_STATIC', root / 'absent-static'), patch.object(affiliate, 'configured_ref', return_value=''), patch.object(sys, 'argv', ['check_affiliate_surface.py', '--built']):
                 with redirect_stdout(StringIO()), redirect_stderr(StringIO()):
                     gate.main()
                 page = public / 'Systems/First-Guide.html'

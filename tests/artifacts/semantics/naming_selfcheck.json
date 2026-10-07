@@ -1,0 +1,283 @@
+{
+  "coverage": {
+    "bh_family_size": 6,
+    "labels": 3,
+    "pairs_refused": 2,
+    "pairs_scored": 4,
+    "pairs_tested": 6,
+    "regions": 2,
+    "universe_nodes": 8,
+    "weighted_pairs_scored": 4
+  },
+  "coverage_floors": {
+    "labels": 1,
+    "pairs_tested": 1,
+    "regions": 1,
+    "universe_nodes": 1
+  },
+  "graph": "none (synthetic)",
+  "inference": {
+    "alpha": 0.05,
+    "bh_family": "Every region x label pair in this call; refused pairs reserve p=1 slots but report null p/q.",
+    "limits": "Exploratory enrichment, not region discovery validation; BH FDR control is not guaranteed under arbitrary graph dependence.",
+    "null": "Uniform size-|R| subset of U, fixed S; unweighted nodes.",
+    "tail": "P[X >= observed overlap]",
+    "weighted_significance": "Refused: WEIGHTED_HYPERGEOMETRIC_UNDEFINED; occupancy is not an integer sample count."
+  },
+  "labels": {
+    "empty": [],
+    "outside-pair": [
+      "e",
+      "f"
+    ],
+    "overlap": [
+      "a",
+      "b",
+      "e"
+    ]
+  },
+  "recompute": "python3 scripts/semantics/naming.py --input tests/artifacts/semantics/naming_toy_input.json --output tests/artifacts/semantics/naming_selfcheck.json --alpha 0.05",
+  "regions": {
+    "first-four": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "outside-two": [
+      "e",
+      "f"
+    ]
+  },
+  "schema": "graph-semantics.naming.v1",
+  "scores": [
+    {
+      "bh_reject": null,
+      "counts": {
+        "intersection": 0,
+        "label": 0,
+        "region": 4,
+        "universe": 8
+      },
+      "detail": "EMPTY_LABEL_SET: recall and lift are undefined",
+      "label": "empty",
+      "p_hypergeom_upper": null,
+      "q_bh": null,
+      "refusal": "EMPTY_LABEL_SET",
+      "region": "first-four",
+      "status": "refused"
+    },
+    {
+      "base_rate": 0.25,
+      "bh_reject": false,
+      "counts": {
+        "intersection": 0,
+        "label": 2,
+        "region": 4,
+        "universe": 8
+      },
+      "coverage": 0.0,
+      "f1": 0.0,
+      "intersection_ids": [],
+      "label": "outside-pair",
+      "lift": 0.0,
+      "p_hypergeom_upper": 1.0,
+      "precision": 0.0,
+      "purity": 0.0,
+      "q_bh": 1.0,
+      "recall": 0.0,
+      "region": "first-four",
+      "status": "ok",
+      "weighted": {
+        "base_rate": 0.3055555555555556,
+        "coverage": 0.0,
+        "f1": 0.0,
+        "lift": 0.0,
+        "mass_fraction": {
+          "intersection": 0.0,
+          "label": 0.3055555555555556,
+          "region": 0.2777777777777778,
+          "universe": 1.0
+        },
+        "p": null,
+        "precision": 0.0,
+        "purity": 0.0,
+        "q": null,
+        "recall": 0.0,
+        "significance_refusal": "WEIGHTED_HYPERGEOMETRIC_UNDEFINED",
+        "status": "ok"
+      }
+    },
+    {
+      "base_rate": 0.375,
+      "bh_reject": false,
+      "counts": {
+        "intersection": 2,
+        "label": 3,
+        "region": 4,
+        "universe": 8
+      },
+      "coverage": 0.6666666666666666,
+      "f1": 0.5714285714285714,
+      "intersection_ids": [
+        "a",
+        "b"
+      ],
+      "label": "overlap",
+      "lift": 1.3333333333333333,
+      "p_hypergeom_upper": 0.5,
+      "precision": 0.5,
+      "purity": 0.5,
+      "q_bh": 1.0,
+      "recall": 0.6666666666666666,
+      "region": "first-four",
+      "status": "ok",
+      "weighted": {
+        "base_rate": 0.2222222222222222,
+        "coverage": 0.375,
+        "f1": 0.3333333333333333,
+        "lift": 1.35,
+        "mass_fraction": {
+          "intersection": 0.08333333333333333,
+          "label": 0.2222222222222222,
+          "region": 0.2777777777777778,
+          "universe": 1.0
+        },
+        "p": null,
+        "precision": 0.3,
+        "purity": 0.3,
+        "q": null,
+        "recall": 0.375,
+        "significance_refusal": "WEIGHTED_HYPERGEOMETRIC_UNDEFINED",
+        "status": "ok"
+      }
+    },
+    {
+      "bh_reject": null,
+      "counts": {
+        "intersection": 0,
+        "label": 0,
+        "region": 2,
+        "universe": 8
+      },
+      "detail": "EMPTY_LABEL_SET: recall and lift are undefined",
+      "label": "empty",
+      "p_hypergeom_upper": null,
+      "q_bh": null,
+      "refusal": "EMPTY_LABEL_SET",
+      "region": "outside-two",
+      "status": "refused"
+    },
+    {
+      "base_rate": 0.25,
+      "bh_reject": false,
+      "counts": {
+        "intersection": 2,
+        "label": 2,
+        "region": 2,
+        "universe": 8
+      },
+      "coverage": 1.0,
+      "f1": 1.0,
+      "intersection_ids": [
+        "e",
+        "f"
+      ],
+      "label": "outside-pair",
+      "lift": 4.0,
+      "p_hypergeom_upper": 0.03571428571428571,
+      "precision": 1.0,
+      "purity": 1.0,
+      "q_bh": 0.21428571428571427,
+      "recall": 1.0,
+      "region": "outside-two",
+      "status": "ok",
+      "weighted": {
+        "base_rate": 0.3055555555555556,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "lift": 3.2727272727272725,
+        "mass_fraction": {
+          "intersection": 0.3055555555555556,
+          "label": 0.3055555555555556,
+          "region": 0.3055555555555556,
+          "universe": 1.0
+        },
+        "p": null,
+        "precision": 1.0,
+        "purity": 1.0,
+        "q": null,
+        "recall": 1.0,
+        "significance_refusal": "WEIGHTED_HYPERGEOMETRIC_UNDEFINED",
+        "status": "ok"
+      }
+    },
+    {
+      "base_rate": 0.375,
+      "bh_reject": false,
+      "counts": {
+        "intersection": 1,
+        "label": 3,
+        "region": 2,
+        "universe": 8
+      },
+      "coverage": 0.3333333333333333,
+      "f1": 0.4,
+      "intersection_ids": [
+        "e"
+      ],
+      "label": "overlap",
+      "lift": 1.3333333333333333,
+      "p_hypergeom_upper": 0.6428571428571428,
+      "precision": 0.5,
+      "purity": 0.5,
+      "q_bh": 1.0,
+      "recall": 0.3333333333333333,
+      "region": "outside-two",
+      "status": "ok",
+      "weighted": {
+        "base_rate": 0.2222222222222222,
+        "coverage": 0.625,
+        "f1": 0.5263157894736842,
+        "lift": 2.0454545454545454,
+        "mass_fraction": {
+          "intersection": 0.1388888888888889,
+          "label": 0.2222222222222222,
+          "region": 0.3055555555555556,
+          "universe": 1.0
+        },
+        "p": null,
+        "precision": 0.45454545454545453,
+        "purity": 0.45454545454545453,
+        "q": null,
+        "recall": 0.625,
+        "significance_refusal": "WEIGHTED_HYPERGEOMETRIC_UNDEFINED",
+        "status": "ok"
+      }
+    }
+  ],
+  "set_definition": "Explicit supplied node-ID universe; all regions and labels are subsets; no implicit live/reachable filter.",
+  "source_sha256": {
+    "scripts/semantics/naming.py": "c9ff18949b15524402dc012eac6174b638a6698817981d6bc4576f36478d6fe8"
+  },
+  "universe": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "weights_normalized": {
+    "a": 0.027777777777777776,
+    "b": 0.05555555555555555,
+    "c": 0.08333333333333333,
+    "d": 0.1111111111111111,
+    "e": 0.1388888888888889,
+    "f": 0.16666666666666666,
+    "g": 0.19444444444444445,
+    "h": 0.2222222222222222
+  }
+}

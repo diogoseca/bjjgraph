@@ -62,12 +62,13 @@ import { journey } from "../dsl"
  * see that rush … you need to think fast"). Defending a TRANSITION is a calm staged landing
  * (journey 6b, owner: "we're not defending against a submission, we're in poor shape but calm down").
  *
- * ECONOMY LAW (unchanged): `land_q_answered` is challenge evidence and combo has no cap, so
- * only the FIRST answered card per landing pays refund/combo/qMod — later answers grade as
- * study (`land_q_extra`), and committing after any answer fires no `land_q_ignored`.
+ * ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so only the FIRST
+ * card resolved per landing ticks combo and counts as evidence — later answers are named
+ * `land_q_extra` and (v1.221.0) add only their smaller odds step (landing-deck-answers.spec.ts
+ * pins the steps), and committing after any answer fires no `land_q_ignored`.
  *
  * Mutants this file must kill:
- *   M1 — the economy pays on every answered card (combo/refund farm)         → journey 1
+ *   M1 — momentum/evidence pay on every answered card (combo farm)           → journey 1
  *   M2 — the swipe fires on a vertical gesture (dominant-axis check gone)    → journey 2
  *   M3 — the capture-phase click suppressor is gone (a swipe is a pick)      → journey 2
  *   M4 — the paging branch drops !_landHidden() (pages an invisible card)    → journey 3
@@ -162,13 +163,17 @@ test("arrows page the deck; only the first answer pays; commit fires no ignore @
   expect(comboAfterFirst, "the combo ticked").toBeGreaterThanOrEqual(1)
   expect((await state(page)).pending, "the landing is engaged").toBe(false)
 
-  // SECOND answer (page back to card 0) — grades as study, pays nothing again
+  // SECOND answer (page back to card 0) — its odds step only: no second combo, no second evidence
   await page.keyboard.press("ArrowLeft")
   await answerCorrect(page)
   bs = await j.beats()
   expect(count(bs, "mc_correct"), "the grade itself ran").toBeGreaterThanOrEqual(2)
   expect(count(bs, "land_q_answered"), "still one scored landing answer").toBe(1)
-  expect(count(bs, "land_q_extra"), "the later answer is named study").toBe(1)
+  expect(count(bs, "land_q_extra"), "the later answer is named").toBe(1)
+  expect(
+    await page.evaluate(() => (window as W).__neural.beats.filter((b: any) => b.beat === "land_q_extra")[0].k),
+    "…as the second card resolved this landing",
+  ).toBe(2)
   expect(count(bs, "timer_refund"), "the refund beat is retired").toBe(0)
   expect((await state(page)).combo, "no combo farm").toBe(comboAfterFirst)
 
@@ -498,10 +503,11 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   expect(white.recall).toBe(false)
 
   // the same card under a BLUE belt: the in-play format graduates to timed recall Q/A
-  // ("for blue belts at least … flashcard Q/A, not MC" — owner). gameScore is the rank seam.
+  // ("for blue belts at least … flashcard Q/A, not MC" — owner). The rank is the WORN belt since
+  // v1.211.0 (earned in the Challenges, never a Game Knowledge band): seed its high-water mark.
   await page.evaluate(() => {
     const a = (window as W).__neural
-    a.gameScore = () => ({ score: 0.45, belt: "blue", next: null, stripes: 0 })
+    a.belts.held = { id: "blue", t: Date.now() }
     a._landQ = null
     a.renderLandCard(a.nodes[a.currentPos], "land", null)
   })
@@ -523,6 +529,12 @@ test("arriving on the defending side brings the red rush — no play button in b
   // arriving on) the ESCAPING side IS choosing to be caught. No setPaused, no latch.
   await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
   await j.advance(8000)
+  // The sim clock cannot finish the real submission-choices fetch. Wait for its
+  // automatic defense handoff; no click or direct state mutation may start it.
+  await page.waitForFunction(() => {
+    const a = (window as W).__neural
+    return a?._defendSub != null && !a._waitingSubmission
+  }, null, { timeout: 20000 })
   const s = await page.evaluate(() => {
     const a = (window as W).__neural
     return {

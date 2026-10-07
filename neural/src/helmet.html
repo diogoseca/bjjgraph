@@ -7,7 +7,39 @@
   @keyframes ngFadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
   @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
-  .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);}
+  /* THE TRAY'S FADE IS EARNED (v1.213.2, owner 2026-10-01: "after scrolling to the rightmost node,
+     there should be some padding at the end, and no darkened fading since we reached the end"). It
+     was one constant mask on both edges, so the last card stayed darkened at the end, the first at
+     the start, and a hand that fits was faded for nothing. `data-fade` ("l", "r", both, or absent) is
+     written by `_syncEdgeFade` (was `_syncTrayFade`) from the live scroll position — the `.ng-stabs[data-fade]` idiom — and
+     an edge fades only while a card is hidden past it. mask-image, not an overlay: the cards are
+     translucent over the graph. */
+  .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;--fl:0px;--fr:0px;--fade-w:36px;}
+  /* ONE EARNED FADE, TWO ROWS (v1.217.0): the hand and the landing card's videos row share these
+     three rules; each row sets only its own --fade-w. `_syncEdgeFade` writes data-fade for both. */
+  .ng-optionrow[data-fade],.ng-landfilm .ng-cliprow[data-fade]{-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--fl),#000 calc(100% - var(--fr)),transparent);mask-image:linear-gradient(90deg,transparent,#000 var(--fl),#000 calc(100% - var(--fr)),transparent);}
+  .ng-optionrow[data-fade~=l],.ng-landfilm .ng-cliprow[data-fade~=l]{--fl:var(--fade-w);}
+  .ng-optionrow[data-fade~=r],.ng-landfilm .ng-cliprow[data-fade~=r]{--fr:var(--fade-w);}
+  /* THE VIDEOS ROW SCROLLS LIKE THE HAND (v1.217.0, owner 2026-10-02: "scrolling bar in videos row
+     should probably not appear and use a similar system like the choice row, with the addition of a
+     right arrow and left arrow"). No scrollbar on any engine. Every length is a ratio of ONE token
+     already on screen, the card's side padding, which `_dockLandFilm` measures and writes as
+     --film-inset (and --film-fade = NG_FILM_FADE_RATIO x it):
+       - the row bleeds to the strip's edges and pads back by 1 inset, so at rest the first clip
+         lines up with the card's text, and at the end the last clip keeps the same inset;
+       - the fade is 3 insets wide, and each arrow's centre sits 1 inset from the edge, where the
+         thumbnails are two-thirds faded to the page; a dark halo keeps the deck's chevron legible
+         over a bright frame.
+     Pinned by e2e/journeys/film-row-arrows.spec.ts. */
+  .ng-landfilm{--film-inset:15px;--film-fade:45px;}
+  .ng-landfilm .ng-cliprow{margin-inline:calc(-1 * var(--film-inset));padding-inline:var(--film-inset);scrollbar-width:none;-ms-overflow-style:none;--fl:0px;--fr:0px;--fade-w:var(--film-fade);}
+  .ng-landfilm .ng-cliprow::-webkit-scrollbar{display:none;}
+  .ng-film-arrow{position:absolute;z-index:2;top:calc(50% - 25px);transition:opacity .15s ease,visibility 0s;}
+  .ng-film-arrow[data-off]{visibility:hidden;opacity:0;transition:opacity .15s ease,visibility 0s .15s;}
+  .ng-film-arrow[data-film-prev]{left:calc(var(--film-inset) - 22px);}
+  .ng-film-arrow[data-film-next]{right:calc(var(--film-inset) - 22px);}
+  .ng-film-arrow svg{filter:drop-shadow(0 0 2px rgba(8,10,16,.95)) drop-shadow(0 0 6px rgba(8,10,16,.8));}
+  @media (prefers-reduced-motion: reduce){.ng-film-arrow,.ng-film-arrow[data-off]{transition:none;}}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
   .ng-logo:hover span{color:#fff;}
   .ng-logo:hover .ng-kbd{opacity:1;color:#9fb0d8;}
@@ -179,6 +211,16 @@
 
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
   .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
+  /* THE HAND'S ROW KEEPS ITS BEACON, NOT ITS LIGHT (v1.214.1, owner 2026-10-01: "there's this strange
+     glowing effect of [the] choices row of a submission"). `setBeacon("options" | "escape", row)` has
+     marked the option row since v1.57.0, but the row also carried a constant edge mask (since
+     2026-07-12) which clips an element's own box-shadow, so this glow was never seen. v1.213.2 made
+     the mask earned (none on a hand that fits) and a fitting hand — most often a submission's —
+     started pulsing a full-width green band. Measured at the beacon's peak: the strip above the row
+     differs by 42/255 from no beacon, and by 0 with the old mask. The one-beacon law (data-beacon,
+     beaconState, beacon_moved) is unchanged; only the row's light is off, which is how every hand
+     looked until v1.213.2. Pinned by e2e/journeys/submission-row-glow.spec.ts. */
+  .ng-optionrow.ng-beacon{animation:none;}
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
   /* THE VIGNETTE IS A HEARTBEAT IN SLOW MOTION (owner: "more chill, more slow motion of a heart
      beat really realistic like max payne … but more modern fluid movement"). Cardiac anatomy,
@@ -191,11 +233,40 @@
      sawtooth was the "panic" the owner asked to calm. Reduced motion: still, low fog (below). */
   .ng-vignette{position:fixed;inset:-7%;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 50%,rgba(184,30,28,.3) 72%,rgba(226,58,48,.85) 100%);opacity:.36;will-change:opacity,transform;animation:ngHeartbeat 3.2s linear infinite;}
   @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
+  /* ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0) — app.src.jsx `_outcome` / `_cardHit`. ══
+     Root plane z:16, the ambient-fx band. Every layer is pointer-events:none, the whole subtree
+     too (§6.1: it floats over the hand and must never eat the click under it). Wall-clock CSS, so
+     a paused roll still finishes it. .ng-cause names the outcome once (rises ~1 card line over
+     1.3s, fading from ~0.7s while it still rises); .ng-hitpop is the real delta popping off one
+     card's number; .ng-hit-bad is that card taking the hit (red edge + a short damped recoil);
+     .ng-hit-good is the mirror glint. Reduced motion: colour and number only, nothing moves. */
+  .ng-cause,.ng-hitpop{position:fixed;z-index:16;left:0;top:0;pointer-events:none!important;white-space:nowrap;line-height:1;transform:translate(-50%,0);text-shadow:0 0 2px rgba(6,9,16,.95),0 0 8px rgba(6,9,16,.9),0 2px 12px rgba(6,9,16,.8);will-change:transform,opacity;}
+  .ng-cause *,.ng-hitpop *{pointer-events:none!important;}
+  .ng-cause{display:flex;flex-direction:column;align-items:center;animation:ngRise 1.3s cubic-bezier(.16,.84,.3,1) both,ngRiseFade 1.3s linear both;}
+  .ng-cause b{font-size:var(--fbig);font-weight:800;letter-spacing:-.01em;}
+  .ng-cause span{font-size:var(--ftag);font-weight:800;letter-spacing:.03em;margin-top:.12em;}
+  .ng-hitpop{display:flex;align-items:baseline;gap:.22em;transform:translate(-100%,0);transform-origin:100% 50%;font-size:var(--hp);font-weight:800;animation:ngPop 1.1s cubic-bezier(.16,.84,.3,1) both,ngPopFade 1.1s linear both;}
+  .ng-hitpop span{font-size:.58em;font-weight:700;letter-spacing:.04em;opacity:.9;}
+  @keyframes ngRise{0%{transform:translate(-50%,0) scale(.9)}9%{transform:translate(-50%,calc(var(--rise)*-.12)) scale(1)}100%{transform:translate(-50%,calc(var(--rise)*-1)) scale(1)}}
+  @keyframes ngRiseFade{0%{opacity:0}9%{opacity:1}54%{opacity:1}100%{opacity:0}}
+  @keyframes ngPop{0%{transform:translate(-100%,0) scale(.6)}12%{transform:translate(-100%,calc(var(--rise)*-.18)) scale(1.18)}24%{transform:translate(-100%,calc(var(--rise)*-.3)) scale(1)}100%{transform:translate(-100%,calc(var(--rise)*-1)) scale(1)}}
+  @keyframes ngPopFade{0%{opacity:0}10%{opacity:1}55%{opacity:1}100%{opacity:0}}
+  .ng-hit-bad{animation:ngHitBad .52s cubic-bezier(.3,.7,.4,1);}
+  .ng-hit-good{animation:ngHitGood .5s ease-out;}
+  @keyframes ngHitBad{0%{transform:translateX(0);box-shadow:inset 0 0 0 2px #ff7878,0 0 22px rgba(255,80,80,.6);background-color:rgba(130,30,42,.88)}12%{transform:translateX(-6px)}24%{transform:translateX(5px);box-shadow:inset 0 0 0 2px rgba(255,120,120,.95),0 0 20px rgba(255,80,80,.5);background-color:rgba(120,30,42,.8)}38%{transform:translateX(-3px)}52%{transform:translateX(2px)}66%{transform:translateX(-1px);box-shadow:inset 0 0 0 1px rgba(255,120,120,.4),0 0 6px rgba(255,80,80,.15)}100%{transform:none}}
+  @keyframes ngHitGood{0%{box-shadow:inset 0 0 0 2px rgba(126,224,168,.9),0 0 18px rgba(126,224,168,.45);background-color:rgba(24,84,60,.6)}60%{box-shadow:inset 0 0 0 1px rgba(126,224,168,.35),0 0 6px rgba(126,224,168,.15)}100%{}}
+  .ng-num-hit{animation:ngNumHit .9s ease-out;}
+  @keyframes ngNumHit{0%,45%{color:var(--fl);text-shadow:0 0 10px var(--fl)}100%{}}
+  .ng-group-hit{animation:ngGroupHit .7s ease-out;}
+  @keyframes ngGroupHit{0%,40%{color:var(--fl)}100%{}}
+  @keyframes ngHitStill{0%{box-shadow:inset 0 0 0 2px var(--fl,rgba(255,120,120,.95))}100%{}}
+  @media (prefers-reduced-motion: reduce){.ng-cause,.ng-hitpop{animation:ngRiseFade 1.3s linear both!important;}.ng-hit-bad,.ng-hit-good{animation:ngHitStill .42s ease-out!important;}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
-     (pane 8, tray/backs 4, landing card/film/More/guides 5, logo 9) never compete out here;
+     (pane 8, tray/backs 4, landing card/film/More/guides 5, logo 9, seat stars 3) never compete out here;
      landing content stays below the pane even when More is expanded. The wrap paints at level 0 and
-     any root-level sibling with z ≥ 1 covers ALL of it. Bands, bottom to top:
+     any root-level sibling with z ≥ 1 covers ALL of it — which is why graph chrome that must stay
+     UNDER the cards (the seat stars, v1.221.0) lives in the wrap, not out here. Bands, bottom to top:
         1-9    ambient state chrome beside gameplay   — momentum 6 · tut/cue 7 ·
                                                         replay bar 8
         10-49  ambient attention fx                   — reward toast 14 · vignette 44
@@ -234,12 +305,15 @@
      which carries why 236 and why a floor still exists at all. Change one, change the other. */
   .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 104px))!important;height:auto;min-height:236px;max-height:none!important;padding:16px 18px 27px;overflow:clip;touch-action:none;}
   .ng-landnav{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;touch-action:none;}
-  .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
+  /* THE CHEVRON BUTTON, ONE LOOK (v1.217.0): the deck's guides and the videos row's arrows are both
+     `.ng-chev`, built by `_chevButton`. Each surface keeps only its own POSITION rule. */
+  .ng-chev{width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
+  .ng-chev:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;border-radius:8px;}
+  @media(hover:hover){.ng-chev:hover{color:#e0e9ff;}}
+  .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);}
   .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
   .ng-landnav [data-land-next]{left:calc(100% + 8px);}
   .ng-landnav button[hidden]{display:none;}
-  .ng-landnav button:focus-visible{outline:2px solid #9cbcff;outline-offset:-4px;border-radius:8px;}
-  @media(hover:hover){.ng-landnav button:hover{color:#e0e9ff;}}
   .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
   .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}
   .ng-land-deck [data-land-recall]{font-size:13px;overflow-wrap:anywhere;}

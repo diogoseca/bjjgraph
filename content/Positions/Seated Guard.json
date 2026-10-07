@@ -765,8 +765,39 @@
         "transition": "Tripod Sweep",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 7
-        }
+          "nogi": null
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 41,
+          "nogi": null
+        },
+        "outcomes": [
+          {
+            "to": "Standing Position/Top",
+            "probability": {
+              "gi": 25,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Open Guard/Top",
+            "probability": {
+              "gi": 16,
+              "nogi": null
+            },
+            "result": "success"
+          },
+          {
+            "to": "Seated Guard/Bottom",
+            "probability": {
+              "gi": 59,
+              "nogi": null
+            },
+            "result": "failure"
+          }
+        ]
       },
       {
         "transition": "X-Guard Sweep",
@@ -786,7 +817,7 @@
         "transition": "Foot Grab Sweep",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 9
+          "nogi": 16
         }
       }
     ],

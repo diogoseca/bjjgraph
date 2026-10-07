@@ -397,7 +397,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed-Guard Offense</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Roger-Gracie-Fundamental-System" data-cta="related-system-card" data-system-slug="systems/roger-gracie-fundamental-system" data-system-name="Roger Gracie Fundamental System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Roger Gracie: Closed Guard</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position for orientation.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

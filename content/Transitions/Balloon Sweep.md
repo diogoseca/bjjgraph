@@ -113,8 +113,8 @@ The technique requires precise timing and coordination between upper body contro
 
 Strategically, the Balloon Sweep occupies a key role in the closed guard sweeping system because it punishes the defensive posture that defeats lateral sweeps. When opponents widen their base to resist Scissor Sweeps or drop their hips to counter Hip Bumps, they concentrate weight forward and inward, which is precisely the loading condition the Balloon Sweep exploits. This creates a self-correcting offensive cycle where the opponent's successful defense of one sweep creates the ideal setup for another.
 
-**From Position**: [[Positions/Closed Guard]] (Bottom)
-**Success Rate**: 58%
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
+**Success Rate**: 43%
 
 </section>
 
@@ -160,9 +160,11 @@ Strategically, the Balloon Sweep occupies a key role in the closed guard sweepin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Mount]] | 58% |
-| Failure | [[Positions/Closed Guard]] | 27% |
-| Counter | [[Positions/Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 36% |
+| Success | [[Positions/Side Control]] | 7% |
+| Failure | [[Positions/Feet on Hips Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 11% |
+| Counter | [[Positions/Half Guard]] | 11% |
 
 
 </section>
@@ -356,7 +358,7 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Branches</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Mikey-Musumeci-Berimbolo-System" data-cta="related-system-card" data-system-slug="systems/mikey-musumeci-berimbolo-system" data-system-name="Mikey Musumeci Berimbolo System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Mikey Musumeci: Berimbolo Variations</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

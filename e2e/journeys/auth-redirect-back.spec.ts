@@ -132,6 +132,30 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  *     set, at redirect-back time", which is the part this repo owns.
  *  3. No assertion about the `redirectTo` origin in `signInWithGoogle` (supabase.ts:197).
  *
+ * ── ONE CLIENT PER PAGE (AUTHDBL1, 2026-10-01) ────────────────────────────────────────────
+ *
+ * The dev deploy's curated gate (run 36926507281, keyed) saw TWO clients on `?error_description=`.
+ * getClient() (supabase.ts) checked `_client`, awaited the SDK and only then created. A redirect-back
+ * routinely has two callers inside that window: authUI's arm, which starts the load, and the Neural
+ * app's resolveNeuralUser(), which proceeds precisely because a load is in flight. Both created a
+ * client. On `?code=` that is the single-use PKCE code exchanged twice. getClient() is now single-
+ * flight. Two tests pin it, both DETERMINISTIC rather than timing-lucky (the unheld race was green
+ * locally 30/30, by a 29-71 ms margin):
+ *   - the held window: the SDK response waits until the app has asked (counted), on all three shapes;
+ *   - the failed load: the first SDK request is aborted, and the next call must retry, not await the
+ *     old failure.
+ * Mutants on the built postscript.js, each killed at its own assertion:
+ *   M-a  check-then-await restored (create on every call while `_client` is unset)
+ *        → held window RED: "2 Supabase clients … must be single-flight"
+ *   M-b  the failed creation promise never cleared
+ *        → failed load RED at its retry assertion: "the SDK was requested again after its first load
+ *          failed (the retry happened)". The stale rejected promise answers every later call, so no
+ *          second load is ever attempted, and no client follows.
+ * WHICH DIRECTION PR CI SEES: only KEYLESS. PR builds carry no Supabase config, so the spec supplies
+ * it; both deploys build KEYED. The race does not depend on the direction, because the config exists
+ * in both. Both mutants were killed, at the same assertions, in both directions (recorded 2026-10-01
+ * at eacb9bc55): a keyless build, and a local keyed build with the real config.
+ *
  * These tests deliberately do NOT use the journey() DSL: the subject is the emitted page and
  * its script bundle, not the game loop. They run against the real built site.
  */
@@ -181,6 +205,8 @@ type Arrival = {
   clients: number
   /** how many times the stubbed SDK URL was actually requested — a POSITIVE coverage count */
   sdkFetched: number
+  /** how many neural.js requests the blockNeural route aborted — a POSITIVE coverage count */
+  neuralBlocked: number
   /** the options the FIRST createClient call was given, or null */
   options: { auth?: Record<string, unknown> } | null
   facade: string
@@ -188,6 +214,8 @@ type Arrival = {
   buildWrites: number
   /** page reads of window.__SUPABASE_URL that happened before the build's write */
   readsBeforeBuildWrite: number
+  /** with holdSdkUntilAppResolves: the app's resolveNeuralUser() calls seen while the SDK was held */
+  resolvedInWindow: number
 }
 
 /**
@@ -202,7 +230,19 @@ type Arrival = {
 async function arrive(
   ctx: BrowserContext,
   url: string,
-  { signedIn = false, blockNeural = false }: { signedIn?: boolean; blockNeural?: boolean } = {},
+  {
+    signedIn = false,
+    blockNeural = false,
+    holdSdkUntilAppResolves = false,
+    sdkFailFirst = false,
+    retryAfterFailure = false,
+  }: {
+    signedIn?: boolean
+    blockNeural?: boolean
+    holdSdkUntilAppResolves?: boolean
+    sdkFailFirst?: boolean
+    retryAfterFailure?: boolean
+  } = {},
 ): Promise<Arrival> {
   const page: Page = await ctx.newPage()
 
@@ -228,6 +268,22 @@ async function arrive(
         },
       });
       window.__SUPABASE_ANON_KEY = ${JSON.stringify(SUPABASE_ANON_KEY)};
+      // Count the Neural app's identity calls, the second caller of getClient() on a redirect-back.
+      // supabase.ts installs the facade by assignment, so a setter sees it; the wrapper is transparent.
+      rec.resolve = 0;
+      var facade;
+      Object.defineProperty(window, "__bjjAuth", {
+        configurable: true,
+        enumerable: true,
+        get: function () { return facade },
+        set: function (v) {
+          facade = v;
+          if (v && typeof v.resolveNeuralUser === "function") {
+            var orig = v.resolveNeuralUser;
+            v.resolveNeuralUser = function () { rec.resolve++; return orig.apply(this, arguments) };
+          }
+        },
+      });
     })();
   `)
 
@@ -243,10 +299,31 @@ async function arrive(
     if (u.startsWith("http://localhost") || u.startsWith("http://127.0.0.1")) return route.continue()
     return route.abort()
   })
-  if (blockNeural) await page.route("**/static/neural/app/neural.js", (r) => r.abort())
+  // `*`: the loader requests neural.js?v=<build stamp> since v1.204.6. An exact-URL glob stopped
+  // matching then and would have let the bundle run, silently: test 3 is only a gate while the
+  // block holds, so it COUNTS its hits and test 3 asserts the block fired.
+  let neuralBlocked = 0
+  if (blockNeural)
+    await page.route("**/static/neural/app/neural.js*", (r) => {
+      neuralBlocked++
+      return r.abort()
+    })
   let sdkFetched = 0
+  let resolvedInWindow = 0
   await page.route(SDK_URL, async (route) => {
     sdkFetched++
+    // a dropped SDK request (AUTHDBL1's retry test): the first load fails, every later one succeeds
+    if (sdkFailFirst && sdkFetched === 1) return route.abort()
+    // THE WINDOW, HELD OPEN (AUTHDBL1): the SDK does not arrive until the Neural app has asked for
+    // the user, so authUI's redirect-back arm and the app are BOTH inside the SDK-loading window on
+    // every run, not by timing. Bounded: a hold that never sees the call releases and is reported.
+    if (holdSdkUntilAppResolves) {
+      const until = Date.now() + 15_000
+      while (Date.now() < until && !resolvedInWindow) {
+        resolvedInWindow = await page.evaluate(() => (window as any).__authSpec?.resolve || 0).catch(() => 0)
+        if (!resolvedInWindow) await new Promise((r) => setTimeout(r, 50))
+      }
+    }
     await route.fulfill({ status: 200, contentType: "application/javascript", body: SDK_STUB })
   })
 
@@ -263,6 +340,11 @@ async function arrive(
     })
     .toBeGreaterThanOrEqual(0)
   await page.waitForTimeout(2_000)
+  // the retry local-only play makes when the player asks or the browser comes back online
+  if (retryAfterFailure) {
+    await page.evaluate(() => (window as any).__bjjAuth.ensureClientInitialized())
+    await page.waitForTimeout(1_000)
+  }
 
   // Only counts, options and a typeof leave the page. The recorder also holds the url and key
   // createClient() was given, and on a keyed build those are the deploy's own config.
@@ -278,7 +360,7 @@ async function arrive(
     }
   })
   await page.close()
-  const arrival = { ...out, sdkFetched }
+  const arrival = { ...out, sdkFetched, neuralBlocked, resolvedInWindow }
   noteConfig(arrival)
   expectBuildConfigFirst(arrival, url.replace(/^https?:\/\/[^/]+/, "") || "/")
   return arrival
@@ -344,9 +426,10 @@ test("@curated a redirect-back arrival creates the Supabase client and a plain a
   ).toBe(1)
   expect(
     back.clients,
-    "?code= arrival created NO Supabase client — hasAuthRedirectParams() (authUI.inline.ts:35) " +
-      "no longer reaches ensureClientInitialized(), so Google sign-in never completes and no " +
-      "other test on this site would notice",
+    `?code= arrival created ${back.clients} Supabase clients, expected exactly 1. 0: ` +
+      "hasAuthRedirectParams() (authUI.inline.ts:35) no longer reaches ensureClientInitialized(), so " +
+      "Google sign-in never completes. 2 or more: two callers each created one (getClient() in " +
+      "supabase.ts must be single-flight), so the single-use code is exchanged twice",
   ).toBe(1)
 
   // The client must be created with the option that actually performs the exchange. A client
@@ -385,8 +468,9 @@ test("@curated all three redirect-back shapes are recognised, not just ?code=", 
     const a = await arrive(ctx, baseURL + suffix)
     expect(
       a.clients,
-      `${label}: no Supabase client was created for ${suffix} — hasAuthRedirectParams() no ` +
-        "longer matches this redirect-back shape",
+      `${label}: ${a.clients} Supabase clients were created for ${suffix}, expected exactly 1. 0: ` +
+        "hasAuthRedirectParams() no longer matches this redirect-back shape. 2 or more: two callers " +
+        "each created one (getClient() in supabase.ts must be single-flight; see the held-window test)",
     ).toBe(1)
   }
 
@@ -395,9 +479,63 @@ test("@curated all three redirect-back shapes are recognised, not just ?code=", 
   const deep = await arrive(ctx, `${baseURL}/Positions/Mount/Top?code=spec-pkce-code`)
   expect(
     deep.clients,
-    "a deep-page redirect-back created no client — AuthUI is no longer on every page",
+    `a deep-page redirect-back created ${deep.clients} clients, expected exactly 1 (0: AuthUI is no ` +
+      "longer on every page; 2 or more: getClient() is not single-flight)",
   ).toBe(1)
 
+  await ctx.close()
+})
+
+test("@curated two callers inside the SDK-loading window still create ONE client, on every shape", async ({
+  browser,
+  baseURL,
+}) => {
+  // ONE CLIENT PER PAGE (AUTHDBL1, 2026-10-01). On a redirect-back, getClient() has two callers:
+  // authUI's arm, which starts the SDK load, and the Neural app's resolveNeuralUser(), which goes on
+  // to getClient() precisely because a load is in flight. getClient() used to check `_client`, await
+  // the SDK and only then create, so both callers created one. On `?code=` that is the single-use
+  // PKCE code exchanged twice. The dev deploy's curated gate caught 2 on `?error_description=` (run
+  // 36926507281) once B2's heavier wire moved the app's boot into the window; locally the stubbed
+  // SDK arrived 29-71 ms before the app asked, so it stayed green by that margin alone. This test
+  // HOLDS the SDK until the app has asked (counted), so the race is entered on every run.
+  // Mutant, recorded at the fix's PR: getClient() not single-flight -> 2 clients on all three shapes.
+  const ctx = await browser.newContext()
+  for (const [label, suffix] of [
+    ["pkce (?code=)", "/?code=spec-pkce-code"],
+    ["implicit (#access_token=)", "/#access_token=spec-implicit-token"],
+    ["error (?error_description=)", "/?error_description=access_denied"],
+  ] as const) {
+    const a = await arrive(ctx, baseURL + suffix, { holdSdkUntilAppResolves: true })
+    expect(
+      a.resolvedInWindow,
+      `${label}: the Neural app never asked for the user while the SDK was held, so the window was ` +
+        "never shared and this measures nothing",
+    ).toBeGreaterThan(0)
+    expect(
+      a.clients,
+      `${label}: ${a.clients} Supabase clients for ${suffix} with both callers inside the SDK-loading ` +
+        "window, expected exactly 1: getClient() (supabase.ts) must be single-flight",
+    ).toBe(1)
+  }
+  await ctx.close()
+})
+
+test("@curated a failed SDK load leaves no stale client promise: the next call retries and creates exactly one", async ({
+  browser,
+  baseURL,
+}) => {
+  // getClient()'s single-flight promise is CLEARED when the SDK fails to load (AUTHDBL1), so a later
+  // call retries instead of awaiting the old failure for the page's life. Local-only play (owner,
+  // 2026-09-29) re-tries the SDK when the player asks or the browser comes back online. The first SDK
+  // request is aborted; the facade's ensureClientInitialized() then retries once.
+  const ctx = await browser.newContext()
+  const a = await arrive(ctx, `${baseURL}/?code=spec-pkce-code`, { sdkFailFirst: true, retryAfterFailure: true })
+  expect(a.sdkFetched, "the SDK was requested again after its first load failed (the retry happened)").toBe(2)
+  expect(
+    a.clients,
+    `${a.clients} Supabase clients after a failed SDK load and one retry, expected exactly 1: getClient() ` +
+      "must clear its failed creation promise, or every later call awaits the old failure",
+  ).toBe(1)
   await ctx.close()
 })
 
@@ -423,6 +561,11 @@ test("@curated an already-signed-in visitor still gets a client with no neural b
   // signed-in path WITH the bundle present remains covered by neural's own journeys, not here.
   const ctx = await browser.newContext()
   const returning = await arrive(ctx, `${baseURL}/`, { signedIn: true, blockNeural: true })
+  expect(
+    returning.neuralBlocked,
+    "the neural.js block matched no request — the route pattern drifted from the loader's URL, so the " +
+      "bundle ran and this test no longer isolates authUI (see THE NEURAL BUNDLE IS BLOCKED HERE)",
+  ).toBeGreaterThanOrEqual(1)
   expect(
     returning.clients,
     "a visitor holding a session for the configured project (" +

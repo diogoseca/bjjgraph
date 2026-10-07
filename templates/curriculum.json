@@ -442,7 +442,10 @@
             },
             {
               "nodeId": "Transitions/Tripod-Sweep",
-              "deckKey": "Tripod Sweep|Attacker"
+              "deckKey": "Tripod Sweep|Attacker",
+              "frames": [
+                "gi"
+              ]
             },
             {
               "nodeId": "Transitions/Sickle-Sweep",

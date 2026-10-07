@@ -617,7 +617,54 @@
         "attempt_probability": {
           "gi": 13,
           "nogi": 13
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 40,
+          "nogi": 42
+        },
+        "outcomes": [
+          {
+            "to": "Knee Shield Half Guard/Bottom",
+            "probability": {
+              "gi": 20,
+              "nogi": 20
+            },
+            "result": "success"
+          },
+          {
+            "to": "Half Guard/Bottom",
+            "probability": {
+              "gi": 13,
+              "nogi": 13
+            },
+            "result": "success"
+          },
+          {
+            "to": "Closed Guard/Bottom",
+            "probability": {
+              "gi": 9,
+              "nogi": 9
+            },
+            "result": "success"
+          },
+          {
+            "to": "Flattened Half Guard/Bottom",
+            "probability": {
+              "gi": 40,
+              "nogi": 40
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 18,
+              "nogi": 18
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Lockdown Recovery",

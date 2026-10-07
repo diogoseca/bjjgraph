@@ -1,0 +1,540 @@
+/* Live law adapter. Imports are injected (knowledge arithmetic has ONE owner).
+ * ngMdpCaptureGameGraph(app) is a read-only, once-per-content/frame projection;
+ * it does not fetch, mutate the app, copy decks, or serialize the layout graph.
+ * Graph/profile are registered once in the worker. ngMdpCreateGameAdapter(graph,
+ * profile, knowledge) enumerates all choices and actual fixed opponent reactions.
+ *
+ * State: nodeId (authored seat ID), physical role, phase user/opponent, moveCount,
+ * arrivalAge, qMod, combo, positionKey, panicKey. Request fixes sampled cap,
+ * opponent skill, challenge pool/points classifier, frame and content residency.
+ * Future study = immediate commitment with no further grades/expiry. Loading a
+ * deck is a new content revision; deck availability is frozen during each solve.
+ * This is a conditional snapshot, not a prediction of future network timing.
+ *
+ * Counter compression proof: all future moveCount reads affecting probabilities
+ * or terminal classes are >= episodeCap. Values above that cap are equivalent,
+ * but reaching the cap is NOT itself terminal. Only the source's explicit check
+ * sites end the round. Eventual ignores this cap. Arrival age can be saturated
+ * only once ALL snapshot sharpness has reached zero under repeated live decay.
+ */
+var NG_MDP_ADAPTER_VERSION = 1;
+function ngMdpSharpnessAgeCap(profile, knowledge) {
+  let cap = 0;
+  for (const sharp of Object.values(profile.sharp || {})) {
+    let age = 0; while (knowledge.ngKnowledgeSharpAfter(sharp, age) > 0 && age < 256) age++;
+    if (age === 256) throw new Error('sharpness-state-budget'); cap = Math.max(cap, age);
+  }
+  return cap;
+}
+// `canonicalOf(id, role)`, when given, is the caller's memoised lookup of the same table entry.
+function ngMdpNormalizeSnapshot(input, request, metadata, ageCap, canonicalOf) {
+  if (!input || !['top', 'bottom'].includes(input.role) || !['user', 'opponent'].includes(input.phase)) throw new Error('requires-context');
+  const s = { ...input }; delete s.id; delete s.aiSkill; delete s.challenge;
+  if (request.horizon.kind === 'eventual' && s.moveCount == null) s.moveCount = 0;
+  if (!Number.isSafeInteger(s.moveCount) || s.moveCount < 0 || !Number.isSafeInteger(s.arrivalAge) || s.arrivalAge < 0) throw new Error('invalid-mechanical-clock');
+  if (!Number.isFinite(s.qMod) || !Number.isSafeInteger(s.combo) || s.combo < 0) throw new Error('invalid-transient-context');
+  s.nodeId = (canonicalOf ? canonicalOf(s.nodeId, s.role) : metadata.canonical[ngMdpStable([s.nodeId, s.role])]) || s.nodeId;
+  s.moveCount = request.horizon.kind === 'eventual' ? 0 : Math.min(s.moveCount, request.horizon.episodeCap);
+  s.arrivalAge = Math.min(s.arrivalAge, ageCap);
+  return s;
+}
+// Cheap host identity mapping over the CURRENT hand only. Metadata owns stable
+// defenseId; live detail/to can be joined to it within the same verified artifact.
+// Caller must reject zero/multiple matches, never choose the first same-name card.
+function ngMdpRootActions(metadata, normalizedSnapshot) {
+  if (!metadata.coverage || metadata.coverage.status !== 'COMPLETE') throw new Error('incomplete-mechanics-metadata');
+  const hand = metadata.hands[ngMdpStable([normalizedSnapshot.nodeId, normalizedSnapshot.role])];
+  if (!hand) throw new Error('requires-context');
+  const stateId = ngMdpStateId(normalizedSnapshot);
+  return hand.map(a => ({ ...a, stateId, actionId: ngMdpActionId(stateId, a.techniqueId, a.kind, a.destinationId, a.defenseId || a.defense || null) }));
+}
+function ngMdpCaptureGameGraph(app) {
+  const fork = Object.create(app); fork.fx = () => {}; fork._relaxedBeat = 1;
+  const nodes = [], hands = {}, canonical = {}, destinations = {}, evHands = {};
+  const idOf = i => i >= 0 && app.nodes[i] ? app.nodes[i].id : null;
+  const resolve = to => {
+    if (Object.prototype.hasOwnProperty.call(destinations, to)) return;
+    const r = app.resolveOutcomeTo(to);
+    destinations[to] = { nodeId: idOf(r.idx), role: r.role || null, terminal: !!r.terminal };
+  };
+  for (const n of app.nodes) {
+    if (!n.id) throw new Error('missing-authored-node-id');
+    const sub = app.submissionNode(n);
+    const cal = n.cal ? JSON.parse(JSON.stringify(n.cal)) : null;
+    for (const o of cal && cal.outcomes || []) resolve(o.to);
+    for (const d of cal && cal.defenses || []) resolve(d.to);
+    for (const h in (cal && cal.at) || {}) for (const o of cal.at[h].outcomes || []) resolve(o.to);   // listing tables (v1.214.0)
+    nodes.push({ id: n.id, t: n.t, ty: n.ty, role: n.role || null, fromRole: n.fromRole || null,
+      pairId: idOf(n.pi), submissionId: sub ? sub.id : null, posId: n.posId || null,
+      fromPositionId: n.fromPositionId || null, s: n.s || null, dom: n.dom || 0,
+      allowed: !!app.rsAllows(n), cal, deckKey: app.deckKeyFor(n).key,
+      fallbackRole: app.performerRole(n.t, n.ty), poolName: app.splitName(n.t).main.toLowerCase() });
+    for (const role of ['top', 'bottom']) {
+      const key = ngMdpStable([n.id, role]); canonical[key] = idOf(app.canonicalState(n.idx, role));
+      if (n.ty !== 'positions' && n.ty !== 'submissions') continue;
+      fork.currentPos = n.idx; fork.playerRole = role;
+      const opts = fork.optionsFor(n.idx, role);
+      hands[key] = opts.map(o => ({ techniqueId: o.node.id, destinationId: idOf(o.res), destinationRole: o.destinationRole || null,
+        kind: o.action === 'enter' ? 'entry' : o.action || (o.node.ty === 'submissions' ? 'entry' : 'transition'),
+        defense: o.defense || null, defenseId: o.defense ? ngMdpDefenseId(o.defense, app.nodes[o.submission]._defenseDetails && app.nodes[o.submission]._defenseDetails[o.defense.detail]) : null,
+        relaxed: !!o.relaxed, ev: o.ev ? { e0: o.ev.e0, c1: o.ev.c1, att: o.ev.att } : null }));
+      const m = app._ev && app._ev.get(n.idx + '/' + role), k = app._evLamIdx();
+      if (m && k >= 0) evHands[key] = [...m].filter(([, r]) => r.lam[k]).map(([idx, r]) => ({ techniqueId: idOf(idx), att: r.att, c1: r.lam[k][1] }));
+    }
+  }
+  const deckReady = {};
+  for (const n of nodes) {
+    deckReady[n.deckKey] = !!app._deckHasCards(n.deckKey);
+    if (n.ty === 'submissions') deckReady[n.t + '|Defender'] = !!app._deckHasCards(n.t + '|Defender');
+  }
+  const unloadedSubmissions = nodes.filter(n => n.ty === 'submissions' && n.submissionId === n.id && !(n.cal && n.cal.defenses)).map(n => n.id);
+  return { version: 1, ruleset: app._giMode, evFrame: app._evFrame, nodes, hands, canonical, destinations, evHands, deckReady,
+    coverage: { status: unloadedSubmissions.length ? 'INCOMPLETE' : 'COMPLETE', source: 'runtime-reference-snapshot', nodes: nodes.length, hands: Object.keys(hands).length,
+      actions: Object.values(hands).reduce((sum, a) => sum + a.length, 0),
+      unloadedSubmissions } };
+}
+function ngMdpCaptureDecision(app) {
+  if (!Number.isFinite(app.aiSkill)) throw new Error('missing-sampled-opponent-skill');
+  const sub = app.submissionNode(app.nodes[app.currentPos]);
+  return { nodeId: app.nodes[app.currentPos].id, role: app.playerRole, phase: 'user', moveCount: app.moveCount,
+    arrivalAge: 0, qMod: app._qMod || 0, combo: app._combo || 0, positionKey: app._posKey || null,
+    panicKey: sub && app.playerRole !== sub.fromRole ? (app._panicKey || null) : null,
+    aiSkill: app.aiSkill, challenge: app._beltTest ? { names: app._beltTest.names.slice(), pointsWin: app._beltTest.pointsWin } : null };
+}
+function ngMdpCreateGameAdapter(graph, profile, knowledge, runtime) {
+  if (!graph.coverage || graph.coverage.status !== 'COMPLETE') throw new Error('incomplete-mechanics-metadata');
+  if (!profile || profile.status === 'unavailable') throw new Error('unavailable-profile');
+  const deckReady = runtime && runtime.deckReady || graph.deckReady || {};
+  const K = knowledge, nodes = new Map(graph.nodes.map(n => [n.id, n]));
+  const flip = role => role === 'top' ? 'bottom' : 'top';
+  const node = id => { const n = nodes.get(id); if (!n) throw new Error('unknown-node:' + id); return n; };
+  // THE MOVE AS PLAYED FROM ONE STATE (v1.214.0, origin coherence PR B): the node itself unless the
+  // move carries that state's own listing table (`cal.at[posId]`), else ONE overlay per (move, state),
+  // so every cache below can key on it. The pure rule is K.ngKnowledgeCalAt, shared with the app's
+  // `_at`. Every site that PRICES or DRAWS a move reads it; sites that read only names, types, pool
+  // membership or destinations keep `node`.
+  const atMemo = new Map();
+  const actAt = (id, stateId) => {
+    const here = node(stateId).posId || null, key = id + '|' + here;
+    if (!atMemo.has(key)) atMemo.set(key, K.ngKnowledgeCalAt(node(id), here));
+    return atMemo.get(key);
+  };
+  const sub = n => n && n.submissionId ? node(n.submissionId) : null;
+  // MEMOS THAT CHANGE NO RESULT (WINLAT1, 2026-10-05). An in-session expansion visits ~10k states and
+  // ~100k branches, and recomputed these pure lookups per branch: the canonical table entry, behind a
+  // stable-JSON key; the arrival projection, behind a deep clone and freeze; a constant rational,
+  // behind a regex parse and BigInt gcd; a fraction's text, behind two BigInt-to-string conversions.
+  // Each memo returns the value the call returned, for the same input, every time.
+  const canonicalMemo = new Map();
+  const canonicalOf = (id, role) => {
+    let byRole = canonicalMemo.get(id);
+    if (!byRole) canonicalMemo.set(id, byRole = new Map());
+    if (!byRole.has(role)) byRole.set(role, graph.canonical[ngMdpStable([id, role])]);
+    return byRole.get(role);
+  };
+  const canonical = (id, role) => canonicalOf(id, role) || id;
+  const ratMemo = new Map(), fractionMemo = new Map(), advanceMemo = new Map();
+  const ratOf = v => { let r = ratMemo.get(v); if (!r) { r = ngMdpRat(v); ratMemo.set(v, r); } return r; };
+  const fractionOf = p => { let f = fractionMemo.get(p); if (f === undefined) { f = ngMdpFraction(p); fractionMemo.set(p, f); } return f; };
+  // Object.is keys: -0 and 0 stay distinct inputs, exactly as the uncached call saw them.
+  const numberKey = x => Object.is(x, -0) ? '-0' : String(x);
+  const advanced = (arrivalAge, qMod, combo) => {
+    const key = numberKey(arrivalAge) + ',' + numberKey(qMod) + ',' + numberKey(combo);
+    let r = advanceMemo.get(key);
+    if (!r) { r = K.ngKnowledgeAdvance({ arrivalAge, qMod, combo }, { type: 'arrival', first: false }); advanceMemo.set(key, r); }
+    return r;
+  };
+  const value = (n, role, opposite) => {
+    const i = n.ty === 'positions' ? (role === 'bottom' ? 1 : 0) : (n.fromRole ? (n.fromRole === role ? 0 : 1) : (role === 'bottom' ? 1 : 0));
+    if (n.s && typeof n.s[opposite ? 1 - i : i] === 'number') return n.s[opposite ? 1 - i : i];
+    return (opposite ? -1 : role === 'bottom' ? -1 : 1) * n.dom;
+  };
+  const ageCap = ngMdpSharpnessAgeCap(profile, K);
+  const chanceCache=new Map(),handCache=new Map(),bonusCache=new Map(),outcomeCache=new Map(),massCache=new Map();
+  function bonusTotal(key,age){
+    let ages=bonusCache.get(key);if(!ages){ages=new Map();bonusCache.set(key,ages);}
+    if(!ages.has(age))ages.set(age,K.ngKnowledgeBonus(profile,key,age).total);
+    return ages.get(age);
+  }
+  // One key per (snapshot object, request): a state's hand and every one of its actions ask for the
+  // same key, and it used to be re-spelled for each (WINLAT1). Same inputs, same string.
+  const contextKeyMemo=new WeakMap();
+  function chanceContextKey(s,request){
+    const memo=contextKeyMemo.get(s);if(memo&&memo.request===request)return memo.key;
+    const ai=request.state.aiSkill==null?request.state.snapshot&&request.state.snapshot.aiSkill:request.state.aiSkill;
+    if(!Number.isFinite(ai))throw new Error('missing-sampled-opponent-skill');
+    const key=ngMdpStable([s.nodeId,s.role,s.arrivalAge,s.qMod,s.combo,bonusTotal(s.positionKey,s.arrivalAge),ai]);
+    contextKeyMemo.set(s,{request,key});return key;
+  }
+  function normalize(input, request) {
+    const s = ngMdpNormalizeSnapshot(input, request, graph, ageCap, canonicalOf); node(s.nodeId); return s;
+  }
+  function context(s, request, act, destination) {
+    const n = node(s.nodeId), submission = sub(n);
+    const aiSkill = request.state.aiSkill == null ? request.state.snapshot && request.state.snapshot.aiSkill : request.state.aiSkill;
+    if (!Number.isFinite(aiSkill)) throw new Error('missing-sampled-opponent-skill');
+    return { ruleset: request.ruleset, positionKey: s.positionKey, techniqueKey: act ? act.deckKey : null,
+      noPositionBonus: s.positionKey == null,
+      defenderKey: submission ? submission.t + '|Defender' : null, panicKey: s.panicKey,
+      opponentValue: value(n, s.role, true), aiSkill,
+      qMod: s.qMod, combo: s.combo, arrivalAge: s.arrivalAge,
+      submissionValue: submission ? value(submission, s.role) : 0,
+      destinationValue: destination ? value(destination, s.role) : 0 };
+  }
+  function defend(s, submission) {
+    const key = submission.t + '|Defender';
+    const panicKey = deckReady[key] ? key : deckReady[s.positionKey] ? s.positionKey : null;
+    return { ...s, nodeId: submission.pairId || submission.id, role: flip(submission.fromRole), phase: 'user', panicKey, positionKey: key };
+  }
+  function arrive(s) {
+    s = { ...s, nodeId: canonical(s.nodeId, s.role), phase: 'user' };
+    const n = node(s.nodeId), submission = sub(n);
+    // enterLand returns into enterDefense BEFORE clearing qMod or decaying sharpness.
+    if (submission && s.role !== submission.fromRole) return defend(s, submission);
+    if (submission) s.nodeId = submission.id;
+    const projected = advanced(s.arrivalAge, s.qMod, s.combo);
+    return { ...s, arrivalAge: projected.arrivalAge, qMod: projected.qMod, combo: projected.combo, positionKey: node(s.nodeId).deckKey, panicKey: null };
+  }
+  function classify(s, kind, subtype, request) {
+    const challenge = request.state.challenge || request.state.snapshot && request.state.snapshot.challenge;
+    // Mirrors endRound's belt verdict exactly (v1.204.5, owner 2026-09-29): a submission is ALWAYS a
+    // loss; only a roll that ended with nobody tapped ("reset") is judged on points, both ways. Any
+    // later gameplay change must change BOTH consumers and the mechanicsHash; never only here.
+    if (challenge) {
+      const dominance = Math.round(value(node(s.nodeId), s.role) * 100) / 100;
+      if (kind === 'reset' && dominance >= challenge.pointsWin) return { terminal: 'win', subtype: 'challenge-points-win' };
+      if (kind === 'reset') return { terminal: 'loss', subtype: 'challenge-reset-loss' };
+    }
+    return { terminal: kind === 'win' ? 'win' : kind === 'lose' ? 'loss' : 'explicitNoResult', subtype };
+  }
+  function cap(s, request) { return request.horizon.kind === 'actual-roll' && s.moveCount >= request.horizon.episodeCap; }
+  function destination(out) {
+    if (!out) return { nodeId: null, role: null, terminal: false };
+    if (!Object.prototype.hasOwnProperty.call(graph.destinations, out.to)) throw new Error('unknown-destination:' + out.to);
+    return graph.destinations[out.to];
+  }
+  function rows(act, branch, s) {
+    const cacheKey=ngMdpStable([act.id,act.here==null?null:act.here,branch,K.ngKnowledgeSkew(s.combo)]);
+    if(outcomeCache.has(cacheKey))return outcomeCache.get(cacheKey);
+    const table = K.ngKnowledgeOutcomeWeights(act, branch, K.ngKnowledgeSkew(s.combo));
+    if (!table || !table.outcomes || !table.outcomes.length) return [{ p: ratOf(1), out: null }];
+    if (!(table.total > 0)) return [{ p: ratOf(1), out: table.outcomes[0] }];
+    // The source schema calls these RAW weights. Normalize them explicitly, not
+    // a purported compiled probability row or missing outcome mass.
+    const weights = table.weights.map(ngMdpRat), total = weights.reduce(ngMdpAdd, ratOf(0));
+    const result=table.outcomes.map((out, i) => ({ out, p: ngMdpDiv(weights[i], total) })).filter(r => r.p[0]);
+    outcomeCache.set(cacheKey,result);return result;
+  }
+  function weightedRows(act,success,s,chance){
+    const key=ngMdpStable([act.id,act.here==null?null:act.here,success,K.ngKnowledgeSkew(s.combo),chance]);
+    if(!massCache.has(key)){
+      const p=ratOf(chance),factor=success?p:ngMdpSub(ratOf(1),p);
+      massCache.set(key,rows(act,success,s).map(row=>({out:row.out,mass:ngMdpMul(factor,row.p)})));
+    }
+    return massCache.get(key);
+  }
+  function moveChance(s, act, request) {
+    const key=ngMdpStable([chanceContextKey(s,request),act.id,act.here==null?null:act.here]);
+    if(chanceCache.has(key))return chanceCache.get(key);
+    const r = K.ngKnowledgeExplainMove(profile, context(s, request, act), act);
+    if (r.status !== 'ready') throw new Error(r.reason || 'missing-move-profile-context');chanceCache.set(key,r.chance);return r.chance;
+  }
+  function hand(s, role, request) {
+    const id = canonical(s.nodeId, role), n = node(id), submission = sub(n);
+    if (submission && !(submission.cal && submission.cal.defenses)) throw new Error('unloaded-submission-choices:' + submission.id);
+    const source = graph.hands[ngMdpStable([id, role])];
+    if (!source) throw new Error('unavailable-hand:' + id + '/' + role);
+    const cacheKey=ngMdpStable([id,role,submission?null:chanceContextKey(s,request)]);
+    if(handCache.has(cacheKey))return handCache.get(cacheKey);
+    const result = source.filter(o => node(o.techniqueId).allowed).map(o => ({ ...o }));
+    if (submission) {handCache.set(cacheKey,result);return result;}
+    const evp = act => {
+      const c = act.cal, br = c && c.successRateByRuleset;
+      const p = br && br[graph.evFrame] != null ? br[graph.evFrame] : c && c.successRate;
+      return typeof p === 'number' ? Math.max(0, Math.min(1, p / 100)) : null;
+    };
+    const evRows = graph.evHands[ngMdpStable([id, role])] || [];
+    let total = 0, shift = 0;
+    for (const r of evRows) { const act = actAt(r.techniqueId, id), p = evp(act); if (p == null) continue; total += r.att; shift += r.att * (moveChance(s, act, request) - p) * r.c1; }
+    shift = total > 0 ? shift / total : 0;
+    for (const o of result) {
+      const act = actAt(o.techniqueId, id), p0 = evp(act); o.chance = moveChance(s, act, request);
+      o.order = o.ev ? p0 == null ? o.ev.e0 : o.ev.e0 + (o.chance - p0) * o.ev.c1 - shift : null;
+    }
+    result.sort((a, b) => {
+      const an = node(a.techniqueId), bn = node(b.techniqueId), name = an.t < bn.t ? -1 : an.t > bn.t ? 1 : 0;
+      if (a.relaxed || b.relaxed) return value(bn, s.role) - value(an, s.role) || name;
+      if ((a.order == null) !== (b.order == null)) return a.order == null ? 1 : -1;
+      return (a.order != null ? b.order - a.order : 0) || b.chance - a.chance || ((b.ev && b.ev.att) || 0) - ((a.ev && a.ev.att) || 0) || name;
+    });
+    handCache.set(cacheKey,result);return result;
+  }
+  function endpointOf(request, probability, next, events, terminal) {
+    return { probability: fractionOf(probability), ...(terminal || { next: normalize(next, request) }), events };
+  }
+  function finishMoveOf(request, p, next, events) {
+    return cap(next, request)
+      ? endpointOf(request, p, null, events.concat('cap-check', 'terminal'), classify(next, 'reset', 'cap-reset', request))
+      : endpointOf(request, p, arrive(next), events.concat('cap-check', 'arrival'));
+  }
+  // The live opponent's resolution of ONE positional technique `a` from state `s` (dev's
+  // opponentDefend: the whole outcome table is drawn; a terminal row leaves you in place), each row
+  // scaled by `weight`. The forced opponent action weights it by the policy's choice mass; a threat
+  // probe weights it 1. One implementation for both, so a threat card and the game cannot disagree.
+  function opponentPositionalRows(s, a, weight, request) {
+    const out = [], act = actAt(a.techniqueId, canonical(s.nodeId, flip(s.role)));
+    for (const row of rows(act, null, s)) {
+      const r = destination(row.out), dest = r.terminal ? s.nodeId : r.nodeId || a.destinationId || s.nodeId;
+      const target = node(dest), caught = sub(target);
+      const role = caught ? flip(caught.fromRole) : r.role ? flip(r.role) : act.fallbackRole ? flip(act.fallbackRole) : s.role;
+      out.push(finishMoveOf(request, ngMdpMul(weight, row.p), { ...s, nodeId: dest, role, moveCount: s.moveCount + 1 }, ['opponent-positional', 'increment']));
+    }
+    return out;
+  }
+  // A threat's id: its technique, and for an ESCAPE also where it leads. A submission's escapes
+  // share ONE technique id and differ only by destination; two escapes to the same place are the same
+  // single row (`opponentEscapeRow`), so sharing an id there is exact, not a guess. The app mints the
+  // same string from a card (`threatIdOf` in app.src.jsx); a mismatch prints "—", never a wrong number.
+  function ngMdpThreatId(a) { return a.kind === 'escape' ? 'escape:' + a.techniqueId + '>' + a.destinationId : a.techniqueId; }
+  // The defender's ESCAPE `response` from the submission you are applying: they arrive at its
+  // destination, and you with them, one move later. The forced opponent action weights it 1/n (one
+  // equal share per escape); a threat probe weights it 1. One row, one implementation, as above.
+  function opponentEscapeRow(s, response, weight, request) {
+    const target = node(response.destinationId), role = flip(response.destinationRole);
+    const id = target.role === role ? target.id : target.pairId || target.id;
+    return endpointOf(request, weight, arrive({ ...s, nodeId: id, role, moveCount: s.moveCount + 1 }), ['opponent-escape', 'increment', 'arrival']);
+  }
+  // THREAT PROBES (v1.207.0; owner 2026-09-29: a threat card shows YOUR win chance if the opponent
+  // tries that move). From the current decision's node, with the opponent to move now: a submission
+  // enters your defense; a positional move resolves exactly as the forced opponent action resolves
+  // a chosen technique (`opponentPositionalRows`), without the policy's choice weight; while YOU are
+  // applying a submission, their options are their escapes (`opponentEscapeRow`). Probes are
+  // evaluation seeds (ngMdpExpandSteps), never player actions, and change no root value: optimal
+  // values are per state. While you are DEFENDING a submission there is no separate threat to value
+  // (the model's attacker finishes), so those probes are unavailable with that reason.
+  function threats(input, request, ids) {
+    if (graph.ruleset !== request.ruleset) throw new Error('stale-graph-ruleset');
+    const s = { ...normalize(input, request), phase: 'opponent' }, here = node(s.nodeId), out = [];
+    const submission = sub(here), defending = !!submission && s.role !== submission.fromRole;
+    const options = defending ? new Map() : new Map(hand(s, flip(s.role), request).map(a => [ngMdpThreatId(a), a]));
+    for (const id of ids) {
+      const a = options.get(id);
+      if (!a) { out.push({ techniqueId: id, status: 'unavailable', reason: defending ? 'defending-now' : 'not-an-opponent-option' }); continue; }
+      const act = node(a.techniqueId);
+      const branches = submission ? [opponentEscapeRow(s, a, ratOf(1), request)]
+        : act.ty === 'submissions'
+        ? [endpointOf(request, ratOf(1), defend(s, act), ['opponent-submission', 'enter-defense'])]
+        : opponentPositionalRows(s, a, ratOf(1), request);
+      out.push({ techniqueId: id, status: 'ready', branches });
+    }
+    return out;
+  }
+  function enumerate(input, request) {
+    if (graph.ruleset !== request.ruleset) throw new Error('stale-graph-ruleset');
+    const s = normalize(input, request), stateId = ngMdpStateId(s), n = node(s.nodeId), submission = sub(n);
+    const out = { id: stateId, snapshot: s, actions: [] };
+    const endpoint = (...args) => endpointOf(request, ...args), finishMove = (...args) => finishMoveOf(request, ...args);
+    if (s.phase === 'opponent') {
+      const branches = [], actionId = ngMdpActionId(stateId, n.id, 'forced', null, 'actual-opponent');
+      out.actions.push({ id: actionId, branches });
+      if (submission) {
+        if (s.role !== submission.fromRole) branches.push(endpoint(ratOf(1), defend(s, submission), ['enter-defense']));
+        else {
+          const responses = hand(s, flip(s.role), request);
+          if (!responses.length) branches.push(endpoint(ratOf(1), arrive(s), ['arrival']));
+          for (const response of responses) branches.push(opponentEscapeRow(s, response, ratOf('1/' + responses.length), request));
+        }
+        return out;
+      }
+      const options = hand(s, flip(s.role), request), challenge = request.state.challenge || request.state.snapshot && request.state.snapshot.challenge;
+      const poolAllows = a => !challenge || challenge.names.includes(node(a.techniqueId).poolName);
+      const subs = options.filter(a => node(a.techniqueId).ty === 'submissions' && poolAllows(a));
+      let trans = options.filter(a => node(a.techniqueId).ty !== 'submissions');
+      if (challenge) { const eligible = trans.filter(poolAllows); if (eligible.length) trans = eligible; }
+      if (!subs.length && !trans.length) {
+        branches.push(endpoint(ratOf(1), null, ['terminal'], classify(s, 'reset', 'no-action-reset', request))); return out;
+      }
+      const pf = ratOf(subs.length ? trans.length ? Math.max(.18, Math.min(.85, .34 + value(n, s.role, true) * .55)) : .9 : 0);
+      for (const a of subs) branches.push(endpoint(ngMdpDiv(pf, ratOf(subs.length)), defend(s, node(a.techniqueId)), ['opponent-submission', 'enter-defense']));
+      trans.sort((a,b) => value(node(b.destinationId || b.techniqueId), s.role, true) - value(node(a.destinationId || a.techniqueId), s.role, true));
+      const fallback = (trans.length ? trans : subs).slice(0, 3);
+      for (const a of fallback) branches.push(...opponentPositionalRows(s, a, ngMdpDiv(ngMdpSub(ratOf(1), pf), ratOf(fallback.length)), request));
+      return out;
+    }
+    const actions = hand(s, s.role, request);
+    if (!actions.length) {
+      // User enterLand starts a NEW roll directly; it does not call endRound,
+      // award points, or record a failed belt attempt. Opponent no-choice differs.
+      out.actions.push({ id: ngMdpActionId(stateId, n.id, 'forced', null, 'no-choices'), branches: [endpoint(ratOf(1), null, ['auto-restart'], { terminal: 'explicitNoResult', subtype: 'user-no-action-restart' })] }); return out;
+    }
+    for (const a of actions) {
+      const act = actAt(a.techniqueId, canonical(s.nodeId, s.role)), branches = [];
+      const id = ngMdpActionId(stateId, act.id, a.kind, a.destinationId, a.defenseId || a.defense || null);
+      const result = { id, kind: a.kind, immediateExecutionKind: a.kind, branches }; out.actions.push(result);
+      if (a.kind === 'entry') {
+        result.immediateExecutionChance = 1;
+        branches.push(endpoint(ratOf(1), arrive({ ...s, nodeId: act.id, role: act.fromRole, moveCount: s.moveCount + 1 }), ['commit', 'entry', 'increment', 'arrival']));
+        // THE FINISH THIS ENTRY LEADS TO, as the landed state's own Finish row will roll it (v1.213.0,
+        // owner 2026-10-01: "every submission from the position have 100% chance"). Entering is
+        // certain, so the card's honest small number is the finish's chance — and only the landed
+        // state knows it: its position bonus is the submission's own deck, its opponent value is the
+        // submission's, its question modifier was reset by the arrival. Measured on the corpus, the
+        // same law at the CURRENT state disagrees with this on 56 of 524 entry cards with no practice
+        // and 429 of 524 with practice (up to 25 points), so it is read here, from the one
+        // implementation, never recomputed on the main thread. Reported only: no branch reads it.
+        const landed = branches[0].next, finish = hand(landed, landed.role, request).find(o => o.kind === 'finish');
+        if (finish) {
+          const target = node(finish.techniqueId), explained = K.ngKnowledgeExplainMove(profile, context(landed, request, target), target);
+          if (explained.status !== 'ready' || explained.chance !== moveChance(landed, target, request)) throw new Error('follow-up-finish-mismatch');
+          result.followUp = { kind: 'finish', chance: explained.chance, explanation: explained };
+        }
+        continue;
+      }
+      if (a.kind === 'escape') {
+        const explained = K.ngKnowledgeExplainEscape(profile, context(s, request, act, node(a.destinationId)), submission);
+        if (explained.status !== 'ready') throw new Error(explained.reason || 'missing-defense-profile-context');
+        result.immediateExecutionChance = explained.chance;
+        const p = ratOf(explained.chance);
+        branches.push(endpoint(p, arrive({ ...s, nodeId: canonical(a.destinationId, a.destinationRole), role: a.destinationRole, moveCount: s.moveCount + 1, panicKey: null }), ['commit', 'escape', 'increment', 'arrival']));
+        branches.push(endpoint(ngMdpSub(ratOf(1), p), null, ['commit', 'failed-escape', 'terminal'], classify(s, 'lose', 'submission-loss', request))); continue;
+      }
+      const chance = moveChance(s, act, request); result.immediateExecutionChance = chance;
+      for (const success of [true, false]) for (const row of weightedRows(act, success, s,chance)) {
+        const mass = row.mass, r = destination(row.out);
+        if (success && (r.terminal || (!row.out && act.ty === 'submissions'))) {
+          branches.push(endpoint(mass, null, ['commit', 'success', 'terminal'], classify(s, 'win', 'submission-win', request))); continue;
+        }
+        if (success) {
+          const id = r.nodeId ? canonical(r.nodeId, r.role || s.role) : a.destinationId || s.nodeId, target = node(id), nextSub = sub(target);
+          const role = r.role || (nextSub ? nextSub.fromRole : act.fallbackRole || s.role);
+          branches.push(finishMove(mass, { ...s, nodeId: id, role, moveCount: s.moveCount + 1 }, ['commit', 'success', 'increment']));
+        } else {
+          const id = r.nodeId ? canonical(r.nodeId, r.role || s.role) : s.nodeId;
+          if (id === s.nodeId) branches.push(endpoint(mass, { ...s, phase: 'opponent' }, ['commit', 'same-state-miss', 'opponent']));
+          else {
+            const nextSub = sub(node(id)), role = r.role || (nextSub ? flip(nextSub.fromRole) : s.role);
+            branches.push(endpoint(mass, { ...s, nodeId: id, role, phase: 'opponent', moveCount: s.moveCount + 1 }, ['commit', 'changed-state-miss', 'increment', 'opponent']));
+          }
+        }
+      }
+    }
+    return out;
+  }
+  // Position/panic key TEXT is not an additional mechanical state once its
+  // current effect and fallback availability agree. Age cannot change while a
+  // position key survives: non-defense arrival changes age AND replaces the key;
+  // defense replaces it without decay, freezing the selected panic bonus until
+  // that defense ends. Node/role/phase/count/age/qMod/combo remain exact. This is
+  // a profile/residency-conditional bisimulation, not a persisted deck identity.
+  function normalizedBehaviorKey(s){
+    return ngMdpStable([s.nodeId,s.role,s.phase,s.moveCount,s.arrivalAge,s.qMod,s.combo,
+      bonusTotal(s.positionKey,s.arrivalAge),!!deckReady[s.positionKey],
+      s.panicKey==null?null:bonusTotal(s.panicKey,s.arrivalAge)]);
+  }
+  const behaviorKey=(input,request)=>normalizedBehaviorKey(normalize(input,request));
+  return { normalize, enumerate, threats, behaviorKey, normalizedBehaviorKey,normalizedStateId:ngMdpStateId,
+    stateId: (s, request) => ngMdpStateId(normalize(s, request)), graphCoverage: graph.coverage,
+    semantics: { clock: 'live-selective-checks', futureStudy: 'no-additional-study-events', futureContent: 'snapshot-residency', counterSaturation: 'at-cap-equivalence', sharpnessAgeCap: ageCap, stateEquivalence:'same-mechanical-context+current-deck-effects+residency', equivalenceScope:'terminal-outcomes-only', exposureLabelsPreserved:false } };
+}
+
+function* ngMdpExpandSteps(adapter, request, options) {
+  const limits = { maxStates: 20000, maxBranches: 200000, maxMilliseconds: 30000, ...(options || {}) };
+  for(const key of ['maxStates','maxBranches','maxMilliseconds'])if(!Number.isSafeInteger(limits[key])||limits[key]<=0)throw new Error('invalid-budget:'+key);
+  const started = Date.now(), pending = [adapter.normalize(request.state.snapshot, request)], states = [], seen = new Map(), classes=new Map(),positive=new Map();
+  // The live adapter guarantees enumerate().branches[].next is normalized.
+  // Generic adapters without this seam retain the validating public methods.
+  const stateId=s=>adapter.normalizedStateId?adapter.normalizedStateId(s):adapter.stateId(s,request);
+  const classKey=s=>limits.behaviorCompression!==false&&adapter.behaviorKey?(adapter.normalizedBehaviorKey?adapter.normalizedBehaviorKey(s):adapter.behaviorKey(s,request)):stateId(s);
+  const model = { apiVersion: 2, states, contractHash: ngMdpContractHash(request) };
+  for (const key of ['modelHash', 'mechanicsHash', 'graphHash', 'profileHash', 'opponentPolicyHash', 'ruleset']) model[key] = request[key];
+  const expected = adapter.stateId(request.state.snapshot, request);
+  if (request.horizon.kind === 'actual-roll' && request.state.snapshot.moveCount !== request.horizon.moveCount) throw new Error('stale-root-move-count');
+  if (request.state.id !== expected) throw new Error('stale-state-identity');
+  seen.set(expected,expected);classes.set(classKey(pending[0]),expected); let branchCount = 0,aliases=0;
+  // THE STATE ID IS SPELLED ONLY FOR A NEW CLASS (WINLAT1, 2026-10-05). Every branch used to build its
+  // successor's full stable-JSON id (~100k per in-session hand) only to compare it with its class's
+  // representative id, for the alias count. When the class already exists, comparing the two
+  // normalised snapshots field by field gives the same answer: equal ids are exactly equal own keys
+  // with === values (the snapshot's fields are strings, numbers and null; JSON prints distinct
+  // doubles distinctly and 0/-0 alike, as === treats them). Anything else (an object, an undefined)
+  // falls back to spelling the id, so its old errors stay. Only the live adapter's NORMALISED
+  // snapshots qualify; a generic adapter keeps the old path.
+  const representative=new Map([[expected,pending[0]]]),fast=!!adapter.normalizedStateId;
+  const sameState=(a,b)=>{
+    const keys=Object.keys(a);if(keys.length!==Object.keys(b).length)return false;
+    for(const k of keys){
+      const x=a[k];if(x===undefined||(x!==null&&typeof x==='object'))return null;
+      if(!Object.prototype.hasOwnProperty.call(b,k)||x!==b[k])return false;
+    }
+    return true;
+  };
+  const failure=reason=>{const error=new Error(reason);error.coverage={status:'INCOMPLETE',states:states.length,discoveredStates:seen.size,branches:branchCount};throw error;};
+  // One linker for every row, action branch or threat-probe row alike: count it, drop a zero row's
+  // successor, map the successor to its canonical (behaviour-class) ID and queue it once.
+  // NO `delete` ON THE HOT PATH (WINLAT1). Deleting a key drops a V8 object into slow dictionary mode,
+  // and every one of ~100k branches (and ~10k states) was then copied by compile in that mode.
+  // `without` builds the same object minus the key, in the same key order, so callers store its
+  // result in place of the original: nothing else holds a branch or a state record at this point.
+  const without=(o,key)=>{if(!Object.prototype.hasOwnProperty.call(o,key))return o;const {[key]:dropped,...rest}=o;return rest;};
+  const link=b=>{
+    branchCount++; if (branchCount > limits.maxBranches) failure('expansion-branch-budget');
+    if(!positive.has(b.probability))positive.set(b.probability,!!ngMdpRat(b.probability)[0]);
+    if (!b.next || !positive.get(b.probability)) return without(b,'next');
+    const behavior=classKey(b.next),known=fast?classes.get(behavior):undefined;
+    let to;
+    if(known!==undefined){
+      const same=sameState(b.next,representative.get(known));
+      if(same===false||(same===null&&stateId(b.next)!==known))aliases++;
+      to=known;
+    } else {
+      const identity=stateId(b.next);
+      to=classes.get(behavior)||identity;if(to!==identity)aliases++;
+      if (!seen.has(to)) {
+        if (seen.size >= limits.maxStates) failure('expansion-state-budget');
+        seen.set(to,to);classes.set(behavior,to);representative.set(to,b.next);pending.push(b.next);
+      }
+    }
+    // `to` is set before `next` goes, exactly as before (b.to assigned, then next deleted): the same
+    // keys in the same order. seen.get reuses the canonical ID string instead of a per-branch copy.
+    b.to=seen.get(to);
+    return without(b,'next');
+  };
+  const linkAll=list=>{if(list)for(let i=0;i<list.length;i++)list[i]=link(list[i]);};
+  // THREAT PROBES seed the expansion (adapter `threats`): their successors are expanded and solved
+  // like any reachable state, so each threat card can be backed up with the same Σ P·V as a card.
+  // Adding states cannot change the root's value (optimal values are per state); it costs states.
+  const threatIds=Array.isArray(request.threatIds)?request.threatIds:[];
+  if(threatIds.length){
+    if(typeof adapter.threats!=='function')throw new Error('threat-probes-unsupported');
+    model.probes=adapter.threats(request.state.snapshot,request,threatIds);
+    for(const probe of model.probes)linkAll(probe.branches);
+  }
+  for (let i = 0; i < pending.length; i++) {
+    if (limits.cancelled && limits.cancelled()) throw new Error('cancelled');
+    if (Date.now() - started > limits.maxMilliseconds) failure('expansion-time-budget');
+    const snapshot = pending[i], id = stateId(snapshot);
+    let state;
+    try { state = adapter.enumerate(snapshot, request); }
+    catch (error) { states.push({ id, actions: [{ id: 'unavailable', status: 'unavailable', reason: error.message }] }); yield; continue; }
+    for (const a of state.actions) linkAll(a.branches);
+    states.push(without(state,'snapshot')); yield;
+  }
+  model.adapterCoverage = { states: states.length, branches: branchCount, equivalentDestinationRedirects:aliases, graph: adapter.graphCoverage, semantics: {...adapter.semantics,behaviorCompression:limits.behaviorCompression!==false} };
+  model.stateEquivalence={scope:limits.behaviorCompression===false?'literal-state':'terminal-outcomes-only',rootIdentityPreserved:true,
+    exposureLabelsPreserved:limits.behaviorCompression===false,futureExplanationLabelsPreserved:limits.behaviorCompression===false,
+    replayLabelsPreserved:limits.behaviorCompression===false,profileConditional:true,residencyConditional:true};
+  if(limits.cancelled&&limits.cancelled())throw new Error('cancelled');
+  if(Date.now()-started>limits.maxMilliseconds)failure('expansion-time-budget');
+  return model;
+}
+function ngMdpExpand(adapter, request, options) { const it = ngMdpExpandSteps(adapter, request, options); let x; do { x = it.next(); } while (!x.done); return x.value; }
+// Yields through ngMdpYielder (mdp-model.src.js, always loaded before this file): a message, not a
+// clamped nested timer. See the reasoning there.
+async function ngMdpExpandAsync(adapter, request, options) {
+  const it = ngMdpExpandSteps(adapter, request, options), yielder = ngMdpYielder(); let x, last = Date.now();
+  try {
+    do { x = it.next(); if (!x.done && Date.now() - last >= 8) { await yielder.next(); last = Date.now(); } } while (!x.done);
+  } finally { yielder.close(); }
+  return x.value;
+}
+if (typeof module !== 'undefined' && module.exports) module.exports = { NG_MDP_ADAPTER_VERSION, ngMdpNormalizeSnapshot, ngMdpRootActions, ngMdpSharpnessAgeCap, ngMdpCaptureGameGraph, ngMdpCaptureDecision, ngMdpCreateGameAdapter, ngMdpExpand, ngMdpExpandAsync, ngMdpExpandSteps };

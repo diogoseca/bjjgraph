@@ -1,3 +1,4 @@
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 // THE SEAT AXIS, ON THE APP'S SIDE — every deck the build ships must be one the app can ask for.
 //
 // The corpus half of this invariant is scripts/validate_seat_decks.py (S1 purity, S2 ownership,
@@ -47,7 +48,7 @@ const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
 const WIRE = JSON.parse(readFileSync(R("source/quartz/static/neural/graph-data.json"), "utf8"));
 const MANIFEST = JSON.parse(readFileSync(R("source/quartz/static/neural/flashcards/_index.json"), "utf8"));
 
-const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
   class DCLogic {}, { createRef: () => ({ current: null }) },
 );
 
@@ -173,8 +174,8 @@ test("ordinary position options use Attacker decks; submission defenses use thei
   for (const p of a.nodes.filter((n) => n.ty === "positions" && !n.cal?.stateAlias)) {
     a.currentPos = p.idx;
     a.playerRole = p.role === "bottom" ? "bottom" : "top";
-    let o;
-    try { o = a.optionsFor(p.idx); } catch { continue; }
+    // A failed deal is a harness/runtime error, never an absent seat.
+    const o = a.optionsFor(p.idx);
     if (!o || !o.length) continue;
     states++;
     for (const x of o) {
@@ -185,6 +186,6 @@ test("ordinary position options use Attacker decks; submission defenses use thei
     }
   }
   assert.equal(states, 242, "distinct positions each deal both seats"); // census:positionChoiceSeats
-  assert.equal(options, 1213, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
+  assert.equal(options, 1316, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

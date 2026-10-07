@@ -225,7 +225,7 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (10% of attempts)
 
 - **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (18% of attempts)
 
@@ -233,7 +233,7 @@ From the defending perspective, surviving the buggy choke requires immediate rec
 
 - **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (12% of attempts)
 
-- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (10% of attempts)
+- **[[Transitions/Roll to Deep Half Guard/Attacker|Roll to Deep Half Guard]]** (9% of attempts)
 
 
 ### Common Mistakes

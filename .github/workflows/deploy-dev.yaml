@@ -95,6 +95,16 @@ jobs:
           python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 
+      # Public app identity only: package + certificate fingerprints, never keys/passwords.
+      # Empty variables intentionally emit a non-verifying placeholder until owner setup.
+      - name: Emit and validate PWA assets
+        env:
+          TWA_PACKAGE_ID: ${{ vars.TWA_PACKAGE_ID }}
+          TWA_SHA256_CERT_FINGERPRINTS: ${{ vars.TWA_SHA256_CERT_FINGERPRINTS }}
+        run: |
+          npm run regenerate:pwa
+          npm run validate:pwa
+
       # Share-link static shell (/l.html + /l-manifest.json) and its SEO gate.
       # MUST be a step here: deploy does NOT run root `npm run build`, so anything wired only
       # into that script runs locally and never in production. Emits the shell the /l/* -> 200
@@ -107,6 +117,12 @@ jobs:
       # Quartz clears source/public, so Forward must be copied after the site build.
       - name: Build Forward development libraries
         run: npm run build:forward
+
+      # Every _redirects target resolves to a built page or file (v1.212.7, OCREDIR1). It runs
+      # here, after the share shell (`/l/* /l.html 200` targets a file that step writes) and after
+      # Forward, so the tree it reads is final. It prints a positive count and fails on any miss.
+      - name: Redirect targets resolve (gate)
+        run: python3 scripts/check_redirect_targets.py
 
       # Activate marked canonical references only with a valid configured ref.
       # Missing ref keeps neutral links; invalid ref fails. No source placeholders.
@@ -223,7 +239,11 @@ jobs:
       - name: Curated journey gate (Playwright E2E)
         # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
         # Keep every test and the single worker; allow the full suite to finish.
-        timeout-minutes: 20
+        # Raised 20 -> 30 (v1.208.3): 427 tests on one worker. The first full-game deploy
+        # (run 36813354975, dev 55c238ade) timed out at test 401 of 427 with all 401 green, after
+        # 20m05s; the suite was 381 tests in 18m15s before. The 26 remaining run ~1 min more.
+        # Match the other deploy workflow: both re-list this step (CLAUDE.md §6.7).
+        timeout-minutes: 30
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)
@@ -241,8 +261,19 @@ jobs:
       # instead of v3. Same note as deploy.yaml — pin with `wranglerVersion:` if needed.
       # This preview deploy is the FIRST place a Wrangler-v4 regression would surface.
       - name: Deploy to Cloudflare Pages (preview)
+        id: cf
         uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy source/public --project-name=bjjgraph --branch=dev
+
+      # THE DEPLOYED PAGE, IN A REAL BROWSER (CONSOLE0, 2026-10-05). Every gate above runs against a
+      # local, keyless build behind a harness that aborts all third-party requests, so none of them
+      # could see what the owner saw on this preview: a 404 after the app's own navigation and 33 CSP
+      # violations from PostHog and Cloudflare's edge-injected beacon. This boots the deployment
+      # wrangler just published (its own URL, never the `dev` alias, so it cannot race the alias),
+      # lets the app navigate, plays a move, and fails naming each offending URL. The Playwright
+      # browser is the one installed for the curated gate above.
+      - name: Deployed console is clean (gate)
+        run: node scripts/check_deployed_console.mjs "${{ steps.cf.outputs.deployment-url }}"

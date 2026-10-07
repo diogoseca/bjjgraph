@@ -72,6 +72,13 @@ for (const mobile of [false, true]) {
       await expect(star).toHaveAttribute("data-list-saved", "false")
       await expect(star.locator("svg")).toHaveAttribute("fill", "none")
       await expect(star.locator("svg")).toHaveCSS("opacity", "0.48")
+      // The DSL boot pre-completes the White track, so this landing mints a patch whose phone toast
+      // (`.ng-challenge-reward`, top 82px, ~102px tall, 4.8s) spans the top band. Since v1.219.0 the
+      // camera has the state settled in that band by now (it used to be still on its way), so the
+      // star sits under the toast (measured: elementFromPoint at its centre is the toast). Dismiss it
+      // the way a player would; the claim here is the star's, not the toast's.
+      const rewardFirst = page.locator("[data-reward-close]")
+      if (await rewardFirst.isVisible()) await j.clickByMouse("[data-reward-close]", "dismiss the harness visitor's earned patch")
       await activate()
       await expect(page.locator("[data-list-picker]")).toBeVisible()
       await expect(star).toHaveAttribute("data-list-saved", "false")

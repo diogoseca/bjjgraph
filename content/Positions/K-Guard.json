@@ -754,7 +754,46 @@
         "attempt_probability": {
           "gi": 7,
           "nogi": 14
-        }
+        },
+        "deal_here": true,
+        "success_rate": {
+          "gi": 43,
+          "nogi": 44
+        },
+        "outcomes": [
+          {
+            "to": "50-50 Guard/Top",
+            "probability": {
+              "gi": 44,
+              "nogi": 44
+            },
+            "result": "success"
+          },
+          {
+            "to": "K-Guard/Bottom",
+            "probability": {
+              "gi": 29,
+              "nogi": 29
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Open Guard/Bottom",
+            "probability": {
+              "gi": 12,
+              "nogi": 12
+            },
+            "result": "failure"
+          },
+          {
+            "to": "Side Control/Bottom",
+            "probability": {
+              "gi": 15,
+              "nogi": 15
+            },
+            "result": "counter"
+          }
+        ]
       },
       {
         "transition": "Butterfly Hook Recovery",

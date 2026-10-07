@@ -22,6 +22,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve, join } from "node:path";
 import { ngFlowBuild, ngFlowAdjoint } from "../neural/src/flow.src.js";
+import { knowledgeSource } from "./_knowledge_profile_harness.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 export const R = (p) => resolve(HERE, "..", p);
@@ -37,7 +38,7 @@ export const SCAN_DIRS = [
 /** Build the app exactly the way tests/flow.test.mjs does — one construction pattern, not two. */
 function app(WIRE) {
   const src = readFileSync(R("neural/src/app.src.jsx"), "utf8");
-  const Component = new Function("DCLogic", "React", `${src}\nreturn Component;`)(
+  const Component = new Function("DCLogic", "React", `${knowledgeSource}\n${src}\nreturn Component;`)(
     class DCLogic {}, { createRef: () => ({ current: null }) },
   );
   const a = Object.create(Component.prototype);
@@ -61,13 +62,23 @@ export function computeCensus() {
   const positions = reps.filter((n) => n.ty === "positions");
 
   // the dealt hand, over every position seat — the same sweep dual-consumers harvests
-  let dealtCards = 0, positionChoiceCards = 0;
+  let dealtCards = 0, positionChoiceCards = 0, handsOverPrefetchCap = 0, handsOverWarmCap = 0;
   const savedRole = a.playerRole, savedPos = a.currentPos;
   for (const p of positions.filter(n => !n.cal?.stateAlias)) {
     for (const role of ["top", "bottom"]) {
       a.playerRole = role; a.currentPos = p.idx;
-      try { const n = a.optionsFor(p.idx).length; dealtCards += n; if (!p.cal?.stateAlias) positionChoiceCards += n; } catch { /* a seat that cannot deal is a
-        different gate's problem; the census must not mask it by counting it as zero silently */ }
+      // A broken app/harness is not a smaller corpus. Both the gate and the updater
+      // must stop before an incomplete count can be compared or written as a baseline.
+      let n;
+      try { n = a.optionsFor(p.idx).length; }
+      catch (cause) { throw new Error(`Census could not deal ${p.id} (${role}): ${cause.message}`, { cause }); }
+      dealtCards += n;
+      if (!p.cal?.stateAlias) positionChoiceCards += n;
+      // option-overflow.spec.ts: hands dealing more than NG_PREFETCH_CAP (10) cards, and those
+      // dealing more than the cap plus the position's own deck (11), which warm strictly fewer
+      // decks than they show. Both move whenever a hand gains or loses a card.
+      if (n > 10) handsOverPrefetchCap++;
+      if (n > 11) handsOverWarmCap++;
     }
   }
   a.playerRole = savedRole; a.currentPos = savedPos;
@@ -83,13 +94,38 @@ export function computeCensus() {
   // content — 18 -> 19 -> 24 across v1.157.0/v1.158.0 as the Kimura Trap seat ruling made five
   // grip-establishing moves succeed into a state that can no longer finish. Solved at the
   // reference's own lam/horizon so this key means the same thing the assertion does.
+  // PER RULESET (v1.209.0): FLOW prices the player's own ruleset now, and this app boots in gi (no
+  // localStorage in node), so each key names its frame and the mode is restored after — the other
+  // keys here are counted in the app's own default ruleset and must not move with this one.
   const REF = JSON.parse(readFileSync(R("tests/artifacts/flow_reference.json"), "utf8"));
-  const K = ngFlowBuild(a);
-  const RUN = ngFlowAdjoint(K, new Float64Array(K.deckKeys.length), REF.lam, REF.horizon, null, null);
-  const negDecks = K.deckKeys.filter((_d, i) => RUN.grad[i] < -1e-12).length;
+  const savedMode = a._giMode;
+  const negOf = (frame) => {
+    a._giMode = frame;
+    const K = ngFlowBuild(a);
+    const RUN = ngFlowAdjoint(K, new Float64Array(K.deckKeys.length), REF.lam, REF.horizon, null, null);
+    return K.deckKeys.filter((_d, i) => RUN.grad[i] < -1e-12).length;
+  };
+  const negDecks = negOf("nogi");
+  const negDecksGi = negOf("gi");
+  a._giMode = savedMode;
+
+  // EDGE's two worked examples (e2e/journeys/option-edge.spec.ts): Side Control (bottom), at the
+  // published lambda, read straight off the wire's cal.ev block as the build-time solve wrote it.
+  // Frame is pinned by its DEFICIT (unsigned) because the marker scan reads unsigned integers.
+  const sc = WIRE.nodes.find((n) => n && n.id === "Positions/Side-Control");
+  const scEv = sc && sc.cal && sc.cal.ev && sc.cal.ev.bottom;
+  const lamAt = 2 + (WIRE.evLam || []).indexOf(2);
+  const e0Of = (title) => {
+    const i = scEv ? scEv[0].findIndex((ni) => WIRE.nodes[ni] && WIRE.nodes[ni].t === title) : -1;
+    if (i < 0 || lamAt < 2) throw new Error(`census: no EDGE row for ${title} at side-control/bottom`);
+    return scEv[lamAt][2 * i];
+  };
 
   return {
     negDecks,
+    negDecksGi,
+    edgeFrameDeficit: -e0Of("Frame from Side Control"),
+    edgeSideControlEscape: e0Of("Side Control Escape"),
     sites:            reps.length,
     members:          nodes.length,
     positions:        positions.length,
@@ -104,6 +140,8 @@ export function computeCensus() {
     techPages:        reps.length - positions.length - 1,
     dealtCards,
     positionChoiceCards,
+    handsOverPrefetchCap,
+    handsOverWarmCap,
     playablePositions: positions.filter(p => !p.cal?.stateAlias).length,
     positionChoiceSeats: positions.filter(p => !p.cal?.stateAlias).length * 2,
     calOutcomeNodes:  withOutcomes.length,

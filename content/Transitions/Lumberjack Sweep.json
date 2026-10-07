@@ -10,36 +10,44 @@
     "underhook",
     "fundamental"
   ],
-  "from_position": "Half Guard/Bottom",
+  "from_position": "Seated Guard/Bottom",
   "outcomes": [
     {
-      "to": "Side Control/Top",
+      "to": "Open Guard/Top",
       "probability": {
-        "gi": 60,
-        "nogi": 60
+        "gi": 19,
+        "nogi": 19
       },
       "result": "success"
     },
     {
-      "to": "Half Guard/Bottom",
+      "to": "Side Control/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 14,
+        "nogi": 14
+      },
+      "result": "success"
+    },
+    {
+      "to": "Seated Guard/Bottom",
+      "probability": {
+        "gi": 51,
+        "nogi": 51
       },
       "result": "failure"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Front Headlock/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 16,
+        "nogi": 16
       },
       "result": "counter"
     }
   ],
   "success_rate": {
-    "gi": 60,
-    "nogi": 60
+    "gi": 33,
+    "nogi": 33
   },
   "overview": "Named for the chopping motion used to break down the opponent's base, the Lumberjack Sweep earned its place as a cornerstone of modern half guard precisely because it punishes the most common passing mistake: overcommitting weight forward without crossface control. It is particularly effective against opponents who pressure into the pass while leaving their far-side armpit exposed to a deep underhook. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position.\n\nThis technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position.\n\nThis sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage. When the opponent defends the lumberjack sweep, they expose themselves to deep half entries, kimura attacks on posted arms, and back takes through the dogfight position, making the sweep threat valuable even when not completed.",
   "related_content": [

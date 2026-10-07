@@ -1,3 +1,4 @@
+import { routeSystemsDemand } from "./systems-demand-fixture";
 import { test, expect, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -28,9 +29,9 @@ const setup = async (page: Page) => {
     { id, key, cat: "Learning", name: "Reader Fixture", title: "A useful decision", summary: "Make room before trying to move.", meta: "Strategy", nodes: ["Positions/Mount"] },
     { id: "Learning/Second-Fixture", key: "Second Fixture|Learning", cat: "Learning", name: "Second Fixture", title: "A second decision", nodes: [] },
   ] } }));
-  await page.route("**/systems.json", r => r.fulfill({ json: { systems: [
+  await routeSystemsDemand(page, { systems: [
     { id: "Systems/Reader-Fixture", key: "Reader Fixture|System", name: "Course fixture", nodes: [], products: [] },
-  ] } }));
+  ] });
   await page.route("**/static/neural/content/*.json", r => r.fulfill({ json: {
     [key]: fixture(), "Second Fixture|Learning": fixture(), "Reader Fixture|System": { overview: "A related course reference." },
   } }));
@@ -136,15 +137,12 @@ for (const action of ["latest click", "new visit"] as const) {
     let release!: () => void;
     const gate = new Promise<void>(resolve => { release = resolve; });
     let requests = 0;
-    await page.route("**/systems.json", async r => {
-      requests++;
-      await gate;
-      await r.fulfill({ json: { systems: ["Reader-Fixture", "Second-Reader-Fixture"].map(slug => ({
-        id: "Systems/" + slug, key: slug + "|System", name: slug, nodes: [], products: [],
-      })) } });
-    });
+    await routeSystemsDemand(page, { systems: ["Reader-Fixture", "Second-Reader-Fixture"].map(slug => ({
+      id: "Systems/" + slug, key: slug + "|System", name: slug, nodes: [], products: [],
+    })) }, async () => { requests++; await gate; });
     await page.evaluate(() => {
       const a = (window as any).__neural;
+      a._systemsLoader?.dispose(); a._systemsLoader = null;
       a._systemsWait = null; a.systems = []; a._systemsById = {};
     });
     const first = '[data-concept-link="Systems/Reader-Fixture"]';

@@ -778,6 +778,136 @@ def check_from_position_validity(position_names):
     return issues
 
 
+def check_deal_here():
+    """The listing-level dealing rule (`deal_here`, v1.211.0) is sound only where it can be.
+
+    A technique is dealt only at its canonical origin; a position listing flagged `deal_here`
+    deals it there too, WITH THE ORIGIN'S OUTCOME TABLE. Three ways that goes wrong, all errors:
+      deal_here_at_origin   the listing IS the origin: the flag says nothing, so it is a typo
+                            for some other listing
+      deal_here_wrong_role  the listing's role is not the technique's performer: the role
+                            filter never relaxes, so the card would still not be dealt
+      deal_here_teleport    at least half of the table's miss branch (failure + counter) lands on
+                            the ORIGIN's position in some frame: a miss from here would put the
+                            pair somewhere they never were (docs/GraphSemantics.md 1.4)
+    Prints how many flags it checked, zero included.
+    """
+    issues, checked, own_home = [], 0, []
+    techs = {}
+    for cat_path in (TRANSITIONS_PATH, SUBMISSIONS_PATH):
+        for path in sorted(cat_path.rglob("*.json")):
+            data = load_json(path)
+            if data and data.get("name") and data["name"] not in techs:
+                techs[data["name"]] = (data, str(path))
+    hub = lambda s: str(s or "").rsplit("/", 1)[0].strip().lower()
+    for path in sorted(POSITIONS_PATH.rglob("*.json")):
+        data = load_json(path)
+        if not data:
+            continue
+        pos_name = data.get("name", path.stem)
+        for role in ("top", "bottom"):
+            for entry in (data.get(role) or {}).get("transitions", []) or []:
+                if entry.get("deal_here") is not True:
+                    continue
+                checked += 1
+                name = entry.get("transition", "")
+                here = f"{pos_name}/{role.capitalize()}"
+                base = {"name": name, "file": str(path), "referencing_position": here}
+                if name not in techs:
+                    issues.append({**base, "type": "deal_here_unknown", "severity": "error",
+                                   "message": f"{here} flags deal_here on '{name}', which has no technique file"})
+                    continue
+                t, tfile = techs[name]
+                origin = str(t.get("from_position", ""))
+                if origin.strip().lower() == here.lower():
+                    issues.append({**base, "type": "deal_here_at_origin", "severity": "error",
+                                   "message": f"{here} flags deal_here on '{name}', but that IS its origin"})
+                    continue
+                if origin.rsplit("/", 1)[-1].strip().lower() != role:
+                    issues.append({**base, "type": "deal_here_wrong_role", "severity": "error",
+                                   "message": f"{here} flags deal_here on '{name}', authored from '{origin}' - another seat"})
+                    continue
+                # A listing with its OWN table (PR B) is not checked for a teleport: its destinations
+                # were authored FOR this listing (calibration/listing_tables.json), so a miss row that
+                # lands on the technique's origin hub is the panel's call (a failed pass from the body
+                # lock into half guard), not the canonical table's origin leaking in. Counted and
+                # printed instead, so the share stays visible. check_listing_tables gates the table.
+                own = bool(entry.get("outcomes"))
+                table = entry.get("outcomes") if own else t.get("outcomes")
+                for fr in ("gi", "nogi"):
+                    miss = home = 0.0
+                    for o in table or []:
+                        if o.get("result") == "success":
+                            continue
+                        pr = o.get("probability")
+                        v = pr.get(fr) if isinstance(pr, dict) else pr
+                        if not isinstance(v, (int, float)):
+                            continue
+                        miss += v
+                        if hub(o.get("to")) == hub(origin):
+                            home += v
+                    if miss > 0 and home * 2 >= miss:
+                        if own:
+                            own_home.append(f"{here} {name} ({home:g}/{miss:g} {fr})")
+                            break
+                        issues.append({**base, "type": "deal_here_teleport", "severity": "error",
+                                       "message": (f"{here} flags deal_here on '{name}', but {home:g} of its "
+                                                   f"{miss:g} {fr} miss points land on its origin '{origin}'")})
+                        break
+    print(f"  deal_here listings checked: {checked}")
+    print(f"  own-table listings whose authored miss lands mostly on the origin hub (info, not a teleport): "
+          f"{len(own_home)}" + (f" - {'; '.join(own_home)}" if own_home else ""))
+    return issues
+
+
+def check_listing_tables():
+    """A LISTING'S OWN OUTCOME TABLE (v1.214.0, origin coherence PR B), checked on the BUILT graph.json,
+    where regenerate_graph has folded and rescaled it (`ownTable` on a position edge). All errors:
+      listing_table_not_dealt      no `dealHere`: a table for a listing the game never deals there
+      listing_table_on_submission  a submission listing: tables are for transitions only
+      listing_table_shape          not 3-5 rows, or the rows do not sum to 100
+      listing_table_target         a row lands on something that is not a role-node or a real
+                                   submission (a bare hub, a family hub, game-over from a transition)
+      listing_table_rate           the success rows do not sum to the listing's headline rate
+    Prints how many it checked, zero included (a check that matched nothing must say so, 6.6).
+    """
+    issues, checked = [], 0
+    if not GRAPH_PATH.exists():
+        return [{"name": "graph.json", "type": "listing_table_no_graph", "severity": "error",
+                 "message": "graph.json is missing: the listing tables cannot be checked"}]
+    g = json.loads(GRAPH_PATH.read_text(encoding="utf-8"))
+    positions, subs = g.get("positions") or {}, g.get("submissions") or {}
+    real_sub = lambda to: (subs.get(to + "/attacker") or {}).get("role") == "attacker" and not (subs.get(to) or {}).get("isFamily")
+    for pk, pnode in sorted(positions.items()):
+        for t in pnode.get("transitions") or []:
+            if not t.get("ownTable"):
+                continue
+            checked += 1
+            name = t.get("technique", "?")
+            base = {"name": name, "file": "graph.json", "referencing_position": pk}
+            def err(kind, msg):
+                issues.append({**base, "type": kind, "severity": "error", "message": f"{pk} -> {name}: {msg}"})
+            if t.get("dealHere") is not True:
+                err("listing_table_not_dealt", "carries its own table but is not dealt here (deal_here)")
+            if t.get("isSubmission"):
+                err("listing_table_on_submission", "a listing table on a submission (transitions only)")
+            rows = t.get("outcomes") or []
+            if not 3 <= len(rows) <= 5 or sum(o.get("probability") or 0 for o in rows) != 100:
+                err("listing_table_shape", f"{len(rows)} rows summing to {sum(o.get('probability') or 0 for o in rows)}")
+            for o in rows:
+                to = o.get("to") or ""
+                if to == "game-over" or not (to in positions or real_sub(to)):
+                    err("listing_table_target", f"row lands on {to!r}, not a role-node or a real submission")
+            head = t.get("successRate")
+            if head is None:
+                head = (t.get("successRateByRuleset") or {}).get("gi")
+            succ = sum(o.get("probability") or 0 for o in rows if o.get("result") == "success")
+            if head is not None and any(o.get("result") == "success" for o in rows) and succ != int(round(head)):
+                err("listing_table_rate", f"success rows sum to {succ}, the listing's rate is {head}")
+    print(f"  listing outcome tables checked: {checked}")
+    return issues
+
+
 def check_position_type_vs_score():
     """Does the authored dominance word agree with the arithmetic that scores it?
 
@@ -1466,6 +1596,8 @@ def main():
     print(f"[12/{total_steps}] Checking bidirectional from_position consistency...")
     bidir_issues = check_from_position_bidirectional(position_names)
     bidir_issues += check_position_type_vs_score()
+    bidir_issues += check_deal_here()
+    bidir_issues += check_listing_tables()
     bidir_errors = [i for i in bidir_issues if i["severity"] == "error"]
     bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")

@@ -427,7 +427,7 @@ The Crab Ride to Back transition is generally safe when practiced with proper co
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Choosing a Foundation</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo: Foundations with Mikey Musumeci</span><span class="system-card__unlocks-badge">21 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>
