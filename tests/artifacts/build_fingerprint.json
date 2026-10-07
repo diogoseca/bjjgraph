@@ -3,11 +3,11 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "d3ba266bceb88513300237da9dd1b2f746201873",
+   "git_head": "54e31c1b604665aee22ac0d93312e1446ee70c95",
    "inputs": {
-    "tree": "7b6e80b92dc362ac3a8ebace9a1b6b9ab2413bbc"
+    "tree": "4f4df6deeaad4779d975b553ca18a974050e921a"
    },
-   "package_version": "1.221.0",
+   "package_version": "1.222.2",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
@@ -65,26 +65,26 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "18f49f9395551bfaff8993dea7de9b9e2b41c46585d360f6d6c03518f7d12f0e"
+    "sha256": "6ddb5261a6d8e1c7d11784d539f7497c554b09a02ee3135e55d0956308e7c906"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "f7cd5eea7af4664af3e5ec3c6f4c38799316940dafa762642865adea839fdca9",
+    "sha256": "f6d5290759ba021fe6df3e1a02fbebdd04bcbf3395e520524390480f222a65d9",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "6ceb632c6a2f79505fba748545946d4795a90bd67c4aea76810bd329a4341c23",
+    "sha256": "41ed35feef43437db1254cc646b6d49fd198c5b6aba5ab70e8e91d5312a53412",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "af9f27594f0a1ed2ecb056993d2d2c6fe642f1cd069bfd6bfdc3179fb10909d0",
+    "sha256": "5bfd04b774efcdb3213f7bd152285eb0ee4dacd7651faca83438167caa285cd8",
     "version_token": "normalised"
    },
-   "static/neural/app/game-worker-core-31809436f848efbc59f612827ad17c4223f1ec102998cd929639dd4abf1ac171.js": {
-    "bytes": 70233,
-    "sha256": "31809436f848efbc59f612827ad17c4223f1ec102998cd929639dd4abf1ac171"
+   "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
+    "bytes": 70245,
+    "sha256": "27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1"
    },
    "static/neural/app/gameplan.js": {
     "bytes": 8503,
