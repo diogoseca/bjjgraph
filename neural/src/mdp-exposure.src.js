@@ -170,9 +170,15 @@ function ngMdpCreateExposureAdapter({metadata,profile,knowledge,adapter,identity
   //     SHA-256 and a loop-built ngMdpStable, both byte-identical (KATs against node:crypto). Every
   //     enumerated action, branch, read and id is the same; the WINLAT differential replays real
   //     requests through the previous and this worker core and compares whole responses byte for byte.
+  //   - DEVMV39 (2026-10-07), the KNOWLEDGE pin (from fbc488…): `ngKnowledgeAdvance`'s panic "wrong" row
+  //     breaks momentum without a qMod change, as the panic drill has since v1.221.0 (PR #272) and as its
+  //     expiry row always did. Label-neutral: the adapter calls ngKnowledgeAdvance for arrivals only
+  //     (mdp-adapter.src.js), and no study read names an answer event. Measured: regenerated before and
+  //     after, every MDP shard part is byte-identical; only provenance hashes and the variants'
+  //     mechanicsHash moved.
   // Evidence: the live-routing corpus replay (mdp_corpus), the metadata differential
   // (mdp_data_corpus), tests/mdp_adapter.test.mjs and tests/mdp_threats.test.mjs.
-  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'fbc488583807bb2e21978ea0b2e851d1284d2f6aab58502022f846f13c64bf40',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
+  const expected={adapter:'b9ebcf843218a48d7b8cc196460428da945fbd64d9360016a6f31c70d3ef4ef0',knowledge:'17c12cbf48e37e4cb00f5c57f16e18e06168a4967e76e21d6bc168a9b48ba879',identity:'a47bc900c7643dfe135b6e2f364471884c08274d10e2cedf5f03299390fe4969'};
   if(Object.entries(expected).some(([key,hash])=>lawHashes?.[key]!==hash))ngMdpExposureFail('unsupported-exposure-label-law');
   if(metadata?.coverage?.status!=='COMPLETE'||metadata.ruleset!==request.ruleset||profile?.status!=='ready'||profile.fingerprint!==request.profileHash||typeof knowledge.ngKnowledgeOverride!=='function')ngMdpExposureFail('incomplete-exposure-adapter-context');
   const contractHash=M.ngMdpContractHash(request),metadataHash=M.ngMdpDigest(metadata);
