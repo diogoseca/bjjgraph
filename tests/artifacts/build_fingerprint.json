@@ -1,9 +1,9 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-adopt-system-card-regen-908d57f6e/pr-adopt-system-card-regen-908d57f6e",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-twa-android-de24ad189/pr-twa-android-de24ad189",
   "content_provenance": {
-   "capture_git_head": "908d57f6e2e8692c8acb70550603b366b2ae89ad",
-   "capture_id": "fa5742b803594a89a2a378bef65ee2da",
+   "capture_git_head": "de24ad1895427032bf09153f67c0a5c8ce11dc5c",
+   "capture_id": "94e2b4ce7c27402e80c3c1d205bbac6a",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -32,12 +32,12 @@
     }
    },
    "output_identity": {
-    "files": 15996,
-    "sha256": "2ee97c57030358716c7798f8cd387f5c3451a4b6a3fa74def5c2d16f05820953"
+    "files": 16001,
+    "sha256": "2ff6d9b29c2057c4c2cbca94a3054311a92eeca57d5eb1e7a5d509094ee703c4"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-adopt-system-card-regen-908d57f6e/pr-adopt-system-card-regen-908d57f6e"
+    "/home/user/bjj-orchestrator/golden/pr-twa-android-de24ad189/pr-twa-android-de24ad189"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -54,26 +54,26 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "76de731c697f7cd9fdaaf7a34fdb1aff8d7ada8774d1a2f3dc4209a73124de85"
+    "sha256": "6ddb5261a6d8e1c7d11784d539f7497c554b09a02ee3135e55d0956308e7c906"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "6de73f94bee76c3cbdbdb17cb5af70b3b24a5900d280843eae2eb23dd6592bb3",
+    "sha256": "f6d5290759ba021fe6df3e1a02fbebdd04bcbf3395e520524390480f222a65d9",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "730481dc3a648205cfdb84b01f240f661f221f62d18ea6f018ed73776121557e",
+    "sha256": "41ed35feef43437db1254cc646b6d49fd198c5b6aba5ab70e8e91d5312a53412",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "8ea2f332142a0eaca5f13f3f2b5f09fdeb4bc5124f80bfcae17b6069c8a5a4d7",
+    "sha256": "5bfd04b774efcdb3213f7bd152285eb0ee4dacd7651faca83438167caa285cd8",
     "version_token": "normalised"
    },
-   "static/neural/app/game-worker-core-31809436f848efbc59f612827ad17c4223f1ec102998cd929639dd4abf1ac171.js": {
-    "bytes": 70233,
-    "sha256": "31809436f848efbc59f612827ad17c4223f1ec102998cd929639dd4abf1ac171"
+   "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
+    "bytes": 70245,
+    "sha256": "27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1"
    },
    "static/neural/app/gameplan.js": {
     "bytes": 8503,
@@ -84,8 +84,8 @@
     "sha256": "c82c317592daaa88c9e29bcacd2c90f3933ed5c0864aa9fd3480fb15ee8d631e"
    },
    "static/neural/app/neural.js": {
-    "bytes": 685677,
-    "sha256": "aa552b6eca47d8f988dbac119586e1f37d91886fe1843fd2b64f371b16ca925b",
+    "bytes": 686956,
+    "sha256": "0e8829c30086f0a3f152e081de8c2f8ffbeb068102debd41c9ba687197f5abcb",
     "version_token": "normalised"
    },
    "static/neural/app/reading.css": {
@@ -124,20 +124,20 @@
   }
  },
  "by_class": {
-  "binary": 12,
+  "binary": 16,
   "css": 17,
   "gzip": 1,
   "html": 6212,
   "js": 39,
-  "json_opaque": 5036,
+  "json_opaque": 5037,
   "json_semantic": 5,
   "text_opaque": 4665,
   "text_semantic": 7,
   "xml": 2
  },
  "by_dir": {
-  ".well-known": 1,
-  "<root>": 29,
+  ".well-known": 2,
+  "<root>": 30,
   "Learning": 27,
   "Positions": 541,
   "Principles": 64,
@@ -146,18 +146,18 @@
   "Transitions": 4101,
   "dev": 59,
   "markdown": 4599,
-  "static": 5120,
+  "static": 5123,
   "tags": 73
  },
  "census": {
   "article_headings": 94292,
   "article_links": 213165,
-  "files": 15996,
+  "files": 16001,
   "gzip_files": 1,
-  "head_links": 37357,
+  "head_links": 49759,
   "html_pages": 6212,
   "jsonld_blocks": 33518,
-  "meta_tags": 123896,
+  "meta_tags": 130097,
   "outside_links": 149869,
   "pages_with_article": 6201,
   "pages_with_canonical": 6204,
@@ -168,7 +168,7 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5120
+  "static_files": 5123
  },
  "distinct_values": {
   "name=description": 4563,
@@ -211,6 +211,7 @@
   "name=description": 6207,
   "name=generator": 6201,
   "name=robots": 12,
+  "name=theme-color": 6201,
   "name=twitter:card": 6201,
   "name=twitter:description": 6201,
   "name=twitter:image": 6201,

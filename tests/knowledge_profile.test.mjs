@@ -93,7 +93,15 @@ test("future arrival law exactly matches real prior decay; commit and defense do
   assert.equal(K.ngKnowledgeAdvance(c, { type: "recall-correct" }).combo, 5);
   assert.equal(K.ngKnowledgeAdvance(c, { type: "mc-correct" }).combo, 6);
   for (const surface of ["panic", "jit", "deck", "node"]) for (const type of ["mc-correct", "recall-correct", "wrong"]) {
+    if (surface === "panic" && type === "wrong") continue; // the drill's one cost, below
     assert.deepEqual(K.ngKnowledgeAdvance(c, { type, surface, tier: "trap" }), c);
+  }
+  // THE PANIC DRILL (v1.221.0): a wrong answer costs exactly what its timeout costs — momentum, never qMod.
+  const cq = { ...c, qMod: -.02, questionPending: true };
+  for (const tier of ["wrong", "trap"]) {
+    const w = K.ngKnowledgeAdvance(cq, { type: "wrong", surface: "panic", tier });
+    assert.deepEqual(w, K.ngKnowledgeAdvance(cq, { type: "expiry", surface: "panic" }), `panic ${tier} = panic expiry`);
+    assert.equal(w.combo, 0); assert.equal(w.qMod, -.02); assert.equal(w.questionPending, false);
   }
   console.log(`prior sharpness transitions compared: ${checked}`);
 });
@@ -399,6 +407,97 @@ test("transient event projection equals real landing answer and both expiry bran
     assert.equal(c.combo, h._combo); assert.equal(c.qMod, h._qMod); assert.equal(c.questionPending, h._landPending); checked++;
   }
   console.log(`captured prior transient branches: ${checked}`);
+});
+
+// THE PANIC DRILL, AS THE CURRENT APP RUNS IT (v1.221.0). A wrong answer in the drill calls `_breakCombo("wrong")`
+// (its `done(false)`, app.src.jsx) and its clock calls `_expireLandQ`; each must land exactly where the law's panic
+// row does, field by field, stubbing only DOM callees. Partially pinned: this drives `_breakCombo`, the call
+// `done(false)` makes; that `done(false)` makes it is e2e/journeys/landing-deck-answers.spec.ts's panic journey.
+test("the panic drill's wrong answer and its timeout land where the law's panic rows do", () => {
+  const host = () => {
+    const h = Object.create(Component.prototype);
+    Object.assign(h, { _qMod: -.02, _combo: 3, _landPending: true, outcomes: [], beats: [], now: 10,
+      _defendSub: 1, _landEl: { hasAttribute: () => true, querySelector: () => null }, _panicFc: { pk: "A", fc: { q: "q" } },
+      _disarmLandClock() {}, _updateComboChip() {}, _comboPop() {}, refreshOptionOdds() {}, _schedule() {}, _dockLandCard() {},
+      _outcome(o) { this.outcomes.push(o); }, fx(beat, p) { this.beats.push([beat, p]); } });
+    return h;
+  };
+  const start = { combo: 3, qMod: -.02, questionPending: true };
+  let checked = 0;
+  for (const [drive, ev] of [[(h) => h._breakCombo("wrong"), { type: "wrong", surface: "panic", tier: "wrong" }],
+    [(h) => h._breakCombo("wrong"), { type: "wrong", surface: "panic", tier: "trap" }],
+    [(h) => h._expireLandQ(), { type: "expiry", surface: "panic" }]]) {
+    const h = host(); drive(h);
+    const c = K.ngKnowledgeAdvance(start, ev);
+    assert.equal(c.combo, h._combo, `${ev.type}/${ev.tier || "-"} combo`); assert.equal(c.qMod, h._qMod, `${ev.type}/${ev.tier || "-"} qMod`);
+    assert.equal(c.questionPending, h._landPending, `${ev.type}/${ev.tier || "-"} pending`);
+    assert.ok(h.beats.some(([b]) => b === "combo_break"), "the app broke momentum out loud"); checked++;
+  }
+  console.log(`panic drill resolutions checked against the law: ${checked}`);
+});
+
+// EVERY CARD COUNTS (v1.221.0). The steps are the owner's: the app's `_landStep` (NG_LAND_ANSWER_STEPS in
+// app.src.jsx) is pinned here card by card, so a change is a deliberate edit here too. Then the CURRENT app is
+// driven card by card through one landing, stubbing only DOM callees. The landing question (k = 1) must still
+// equal the shared law `ngKnowledgeAdvance` exactly — that law models k = 1 only, the MDP projects nothing
+// further — and every later card adds only its own step and leaves momentum alone.
+test("every card resolved in one landing steps the exchange again, down to a cap; a timeout never costs more than a wrong answer", () => {
+  const app = Object.create(Component.prototype);
+  const W = { correct: [0, .03, .02, .01, 0, 0], wrong: [-.04, -.03, -.02, -.01, 0, 0], trap: [-.08, -.06, -.04, -.02, 0, 0] };
+  let steps = 0;
+  for (const kind of Object.keys(W)) for (let k = 1; k <= 6; k++) { assert.equal(app._landStep(k, kind), W[kind][k - 1], `${kind} k=${k}`); steps++; }
+  for (let k = 0; k <= 7; k++) assert.equal(app._landStep(k, "expiry"), app._landStep(k, "wrong"), `k=${k}: a timeout is the wrong step`);
+  for (const k of [0, -1, 1.5, NaN]) assert.equal(app._landStep(k, "wrong"), 0, `k=${k} is no card`);
+  for (let k = 2; k <= 6; k++) {
+    for (const kind of ["wrong", "trap"]) assert.ok(Math.abs(app._landStep(k, kind)) <= Math.abs(app._landStep(k - 1, kind)), `${kind} k=${k} diminishes`);
+    if (k > 2) assert.ok(app._landStep(k, "correct") <= app._landStep(k - 1, "correct"), `correct k=${k} diminishes`);
+  }
+  const host = () => {
+    const h = Object.create(Component.prototype);
+    Object.assign(h, { _qMod: -.02, _combo: 3, _landPending: true, _landResolved: 0, outcomes: [], beats: [], now: 10,
+      _landQ: { answered: false, key: "A", card: { q: "q" } },
+      _disarmLandClock() {}, _updateComboChip() {}, _comboPop() {}, refreshOptionOdds() {}, _schedule() {}, _dockLandCard() {},
+      _outcome(o) { this.outcomes.push(o); }, fx(beat, p) { this.beats.push([beat, p]); } });
+    return h;
+  };
+  // one resolution of card k, through the app's own grade path (the `done` closure's call) or its clock
+  const resolve = (h, ev, k) => {
+    h._landQ = { answered: false, key: "A", card: { q: "q" + k } };
+    if (ev.type === "expiry") { h._landResolved = k - 1; h._expireLandQ(); return; }
+    h._landAnswered(ev.type !== "wrong", ev.tier, "land", null, ev.type === "recall-correct" ? "recall" : undefined, k);
+  };
+  const kindOf = (ev) => ev.type === "wrong" ? (ev.tier === "trap" ? "trap" : "wrong") : ev.type === "expiry" ? "wrong" : "correct";
+  const runs = [["mc-correct"], ["recall-correct"], ["wrong", "wrong"], ["wrong", "plausible"], ["wrong", "trap"], ["expiry"], ["mixed"]];
+  let checked = 0;
+  for (const [type, tier] of runs) {
+    const h = host();
+    let c = { combo: 3, qMod: -.02, questionPending: true };
+    for (let k = 1; k <= 6; k++) {
+      const ev = type === "mixed" ? [{ type: "wrong", tier: "trap" }, { type: "mc-correct" }, { type: "expiry" }, { type: "wrong", tier: "wrong" }][(k - 1) % 4] : { type, tier };
+      const before = h.outcomes.length;
+      resolve(h, ev, k);
+      if (k === 1) c = K.ngKnowledgeAdvance(c, ev); // the landing question IS the shared law
+      else { const st = W[kindOf(ev)][k - 1]; if (st) c = { ...c, qMod: c.qMod + st }; }
+      assert.equal(h._qMod, c.qMod, `${type} k=${k}: qMod`); assert.equal(h._combo, c.combo, `${type} k=${k}: combo`);
+      assert.equal(h.outcomes.length, before + 1, `${type} k=${k}: the card's outcome lands on the cards`);
+      checked++;
+    }
+    const named = (b) => h.beats.filter(([x]) => x === b).length;
+    if (type !== "expiry" && type !== "mixed") {
+      assert.equal(named("land_q_answered"), 1, `${type}: one landing question per landing (challenge evidence)`);
+      assert.deepEqual(h.beats.filter(([x]) => x === "land_q_extra").map(([, p]) => p.k), [2, 3, 4, 5, 6], `${type}: every later card is named with its k`);
+    }
+    if (type === "mc-correct") assert.equal(h._combo, 4, "momentum ticks once per landing, never per card");
+  }
+  // a timeout never costs more than a wrong answer on the same card: same pre-state, same k
+  for (let k = 1; k <= 6; k++) {
+    const w = host(), x = host();
+    resolve(w, { type: "wrong", tier: "wrong" }, k); resolve(x, { type: "expiry" }, k);
+    assert.ok(x._qMod >= w._qMod, `k=${k}: timeout qMod ${x._qMod} vs wrong ${w._qMod}`);
+    assert.ok(x._combo >= w._combo, `k=${k}: timeout keeps at least the momentum a wrong answer keeps`);
+    checked++;
+  }
+  console.log(`landing answer steps: ${steps} pinned, ${checked} app resolutions checked (k = 1 against ngKnowledgeAdvance)`);
 });
 
 test("MC growth-only cap, traps, reveal, SRS debt, shared manifest independence, attempt replay", () => {

@@ -436,7 +436,7 @@ symbol to every version that touched it.
   <br>_(12 (self-counted as "the third"); 0 still open)_
 
 - **The app wrap is `position:fixed` = its own stacking context, so a `z-index` inside it is trapped at plane 0.** A deliberate screen must PORTAL to the app root or ambient gameplay chrome paints over it (the pane at z:8 was buried by a root-plane landing card at z:5; the account menu needed z:46 on the root plane). Bands, documented in `neural/src/helmet.html`: **1-9 ambient state · 10-49 ambient fx · 50-79 coaching · 90-99 deliberate temporary screens.** Pick a band, never a loose number; Esc walks the ladder top-down, pane last.
-  <br>_(3 (dossier under the transport pill; the pane under the landcard; the account menu))_
+  <br>_(4 (dossier under the transport pill; the pane under the landcard; the account menu; seat star))_
 
 - **`style.color = ""` DELETES an inline declaration; it does not restore one.** After `More → Less` the toggle went black on a dark card, because clearing removed the value the button's own `cssText` had written and it inherited the UA default. To return an element to a colour declared inline, WRITE it — `NG_LAND_MORE_COL` exists so the two sites that set it cannot drift. Related sizing rule: a 44px thumb target must not set a 24px row's layout box — shrink the box with a negative margin and keep the hit area (`.ng-lists-new` pattern).
   <br>_(2)_
