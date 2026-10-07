@@ -62,6 +62,9 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
 - **v1.219.0** — [THE CAMERA GLIDES, AND FRAMES WHAT YOU CAN SEE](#v12190--the-camera-glides-and-frames-what-you-can-see)
+- **v1.220.0** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v12200--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
+- **v1.221.0** — [EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT](#v12210--every-flashcard-you-answer-counts-and-shows-it)
+- **v1.221.1** — [507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI](#v12211--507-stale-system-cards-regenerated-and-generated-content-now-matches-its-generator-in-ci)
 - **v1.223.0** — [THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)](#v12230--the-site-installs-a-web-app-manifest-maskable-icons-and-assetlinks-plumbing-twa-phase-1)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
@@ -10450,6 +10453,223 @@ over the 5,000 B per-change cap. So the baseline was first accepted at DEV'S mea
 own commit (orchestrator CAM-GO0, the owner's 2026-09-29 pre-authorisation; its reason lists #259–#268 and
 #267). This change stays its own visible +2,218 B. The first-hand core is 364,779 B, +5,226 over 359,553
 (cap 6,000), and needed no accept.
+## v1.220.0 — THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET
+
+Owner, 2026-10-05 (items 3–5 of the dev-preview notes; 1–2 shipped as v1.218.1). Owner screen: the CARD2 demo. Decisions taken by the orchestrator for the owner,
+2026-10-06: the sheet follows the card ratio, the lift stays (12 px / 0.44 s), and escape/threat sheets have no Play-from-here or tabs.
+
+**Item 3:** "the win chance label and value% should be significantly smaller than the move label and value%".
+- Every card size is a ratio of the move's own % (`NG_CARD_MOVE_NUM` 15 px), set as custom properties:
+  - move label 0.75 (9 → 11.25 px);
+  - Win chance label and value 0.6 (10/16 → 9/9 px);
+  - a threat's header Win chance 0.6 of its Odds (13 → 9 px).
+- **The Inspect sheet too:** its Win chance headline, label and value, is 0.6 of the sheet's own move %
+  (`NG_SHEET_MOVE_NUM` 25 px: 14/25 → 15/15 px). Its outcome numbers match it (17 → 15 px), so the breakdown
+  never outshouts the headline, and its prose stays at 12 px.
+- No number changed.
+- **Updating cue (#267 review):** dimming alone is easy to miss on a phone or under Dark Reader, so a stale number
+  also reads "52%…" (`[data-choice-stale]::after`) and carries the aria-label "Win chance 52%, updating". The
+  threat and entry numbers get theirs from their own paint.
+
+**Item 4:** "perhaps it should move a little bit up as if putting a card on the table".
+- `executionCard` returns a static holder that owns the rectangle, status and input. `_placeOnTable` lifts the
+  cloned face inside it: rise `NG_CARD_LIFT` = 1/12 of its height (12 px), scale 1.035, set down at 0.985, settle,
+  over `NG_CARD_LIFT_MS` 440.
+- No rise under reduced motion.
+- A row that scrolls in x clips in y, so the row holding only the stand-in is `overflow:visible`. The deal restores
+  `auto/hidden`; an entry reaches the next deal with no `clearOptions` between.
+
+**Item 5:** "inspect in a submission is not consistent design as the inspect of other techniques".
+- Escapes and threats had a bare floating panel (`previewStateChoice`, retired). `expandOption` now renders them,
+  and `_stateChoiceSheet` names only what differs:
+  - the category word, the title, "out of <submission>";
+  - the card's number under ESCAPE CHANCE / THEIR ODDS;
+  - the → line;
+  - the body: a defense's authored detail as reading sections, opened by the submission's safety notice and closed
+    by its safety guide (§7). An opponent's technique reads its own breakdown from the defender's side.
+- A threat has no play button (Enter already refused).
+- The sheet's buttons are now `min-height:44px` (they were 41).
+
+**Pinned by** `e2e/journeys/card-presentation.spec.ts` at 1440/390: measured ratios on every card of three hands;
+the app's own animation paused at its scanned peak (rise, holder still, no click hole, unclipped, settles); reduced
+motion; sheet parity against a transition's sheet, with seeded safety, and the sheet's headline ratio. The cue is
+pinned in choice-value.spec's re-solve test. 20 mutants red by name on the dev-merged tree, control green.
+- Three first cuts were wrong. The outcome-size mutant survived until the reference sheet waited for READY values.
+- The other two: the settle check read the transform at `currentTime = duration` (unfilled, so it
+  read nothing), and the holder mutant went red at a precondition. Both are fixed and re-killed.
+- Recorded non-kill: the play button's min-height alone (the footer stretches it to Back's 44 px).
+
+**Inverted specs:** submission-choices' escape inspect reads `_detailCtx` (the sheet closes to opacity 0, which
+Playwright counts as visible), and its play button reads "Posture up ⏎".
+
+**Payload,** measured on the dev-merged tree (6ab11fc71):
+- first-hand core 365,038 B: +5,485 of the 6,000 cap over 359,553, and about +259 over dev's +5,226;
+- eager gzip 345,717 B: +2,719 of 5,000 over the 342,998 accepted at v1.219.0, and +501 over dev's 345,216;
+- this change's own share, gzip -9 against dev's sources: `neural.js` +512, `neural.css` −33.
+## v1.221.0 — EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT
+
+**Owner, 2026-10-05**, testing the dev preview at v1.218.0: "some flashcards are shit and the user should probably
+want to skip them and move to the next one and answer that. thing is when the user answers that the animation on
+the choices and etc is kinda lost or delayed? does it only work properly for the first default flashcard? mmm that
+shouldnt be the case", and "answering more flashcards should increase/decrease choices proba further, it's not a
+1 slot thing, but many".
+
+**Measured before fixing** (real app, `__NEURAL_RIG` start-pos 0, K-Guard Top, 1440), the first suspicion was wrong:
+- A FRESH landing that skips to card 3 and answers it gets the same feedback as card 1, within ~100–200 ms: cause,
+  hit and pop on both own cards, −4 / −8 / +13.
+- The broken case was the SECOND answer in one landing. The ECONOMY LAW latch (`_landAnswers`) sent every later answer
+  to a grade-only path (`land_q_extra`) that never armed `_outcome`, so there was no cause, no hit and no pop.
+  - A wrong second answer moved no number at all.
+  - A correct one moved +3 silently: practice, i.e. `prep`, 0.03 per correct answer, capped at 0.15 after 5 per deck.
+- Worse, the clock re-armed on every paged card. So an unanswered second card left to time out cost −4 and broke
+  momentum, with full feedback, while a wrong answer on that same card was free.
+
+**What shipped.**
+- `NG_LAND_ANSWER_STEPS`, in `app.src.jsx`, read through `_landStep`:
+  - The k-th card resolved in one landing (answered or timed out) adds row k to `_qMod`: wrong −4 −3 −2 −1,
+    trap −8 −6 −4 −2, correct 0 +3 +2 +1, then nothing (the cap). The first correct adds no step because it
+    already pays sharpness, practice and momentum.
+  - A timeout takes its card's WRONG step, never more.
+  - Momentum and `land_q_answered` (the `white.answer` evidence and the funnel mark) stay once per landing, on k = 1.
+    Later cards emit `land_q_extra {k, step}` and take the same hit on the cards.
+- **One window per card per landing.** A skip is free. Paging away pauses the card's window, and paging back
+  resumes it. Until now, every page refilled the window, so paging back and forth bought unlimited time; the v1.181.0
+  `landcard-deck` spec asserted that refill, and it now asserts the resume.
+- **The seat star now lives in the wrap**, found while recording the demo. On dev at 1440, after a correct card 1,
+  a pair label's star sat exactly on the deck's next chevron. It was on the ROOT plane at z:4, which covers the
+  whole wrap, so 3 of 3 mouse clicks opened the list menu instead of paging. It is now inside the wrap at z:3:
+  below the hand (4), the card, chevrons, film and More (5), and the pane (8).
+
+**Decided** (2026-10-06, the orchestrator holding the owner's delegated decisions, LDECK-GO): the table as proposed,
+skips free, one clock window per card per landing, and the panic drill aligned.
+
+**The panic drill**, aligned under the same rule. Its timeout broke momentum, while a wrong answer cost nothing, so letting
+the clock run cost MORE than guessing. A wrong drill answer now breaks momentum too, as the landing's first card does, and
+names it ("missed", plus "×N momentum lost"). No escape number moves either way, so no card is hit.
+`ngKnowledgeAdvance`'s panic "wrong" row still describes the old drill: the MDP never reads it (the adapter calls
+`ngKnowledgeAdvance` only for arrivals), and changing that file means re-pinning the reviewed exposure-label law below.
+That is a follow-up for the full-game seat, not this PR.
+
+**Why the table is app-side.** It was first written into `knowledge-profile.src.js`, beside `ngKnowledgeAdvance`. The full core suite then went red on `gameplan-study-live` "actual worker certifies …" (2/2 alone): the study worker refused exposure with `unsupported-exposure-label-law`. That error is right: `mdp-exposure.src.js` pins that file's sha256 as a reviewed label law.
+- The MDP projects only the landing question (k = 1): it assumes no further study, and the adapter calls `ngKnowledgeAdvance` only for arrivals.
+- So the multi-card table is app gameplay. The law file stays byte-identical to dev.
+- k = 1 is still checked against `ngKnowledgeAdvance` in `tests/knowledge_profile.test.mjs`.
+
+**Consequence, measured** (real re-solve, Win chance unrounded, totals after four answers):
+- K-Guard Top: wrong −10 odds / Win −0.9..−2.9; trap −20 / −1.8..−5.8; correct (fresh) +28 / +2.8..+9.9.
+- Butterfly Guard Top: −10 / −1.3..−3.2; trap −14..−20 (the 5% floor) / −2.6..−5.6; correct +28 / +5.8..+11.0.
+- Side Control Top: the 8 transitions move as above. The 16 own submission ENTRIES never move under any answer,
+  before or after: the finish is rolled after you step in, and that arrival clears `qMod`.
+
+**Gates and mutants** (each red by name; the neutral controls are green):
+
+| mutant | red at |
+|---|---|
+| a later answer routed back to the grade-only path | the second-card, stacking, timeout and new-landing journeys |
+| one step for every card | "the hand drops by the second step, −3" |
+| no cap | "answer 5: the hand moves by 0"; "the 6th adds nothing" |
+| momentum on every correct card | "momentum ticked once per landing"; landcard-modes "no combo farm" |
+| evidence on every card | "challenge evidence stays once per landing"; landcard-modes |
+| a later wrong answer breaks momentum | "a later card neither ticks nor breaks momentum" |
+| a paged timeout costs −4 / breaks momentum | "the same −3 a wrong answer there costs" / "momentum kept" |
+| a timeout not counted | "the card after it takes the third step, −2" |
+| paging back refills the window | "card 1 resumes at … not a fresh …" |
+| a skip costs 0.01 | "the skip cost nothing" (+7) |
+| the step counter never reset | "a new landing … the first step again, −4" |
+| the seat star back on the root plane | "a seat star drawn behind the next chevron never takes its click" |
+| the panic drill's wrong answer free again | "a wrong answer breaks momentum" |
+| unit: a table row, a growing step, a timeout at the trap step, no cap in `_landStep`, momentum on every card | tests/knowledge_profile.test.mjs, by name |
+
+**Payload** (final tree, dev 3c1e3cc9b merged). First-hand core 365,705 B: +409 B over dev 3c1e3cc9b's own 365,296 B (the same spec on a sandbox of dev's app), which this branch accepted as the first-hand baseline in its own commit (it stood +5,743 over the 359,553 accepted at v1.216.0, so with this change the 6,000 cap was crossed by dev's drift, not by this change). Eager gzip 346,137 B, +3,139 over the accepted 342,998 (cap 5,000); with dev's own bundle 345,717, so this change's eager share is +420 B. Gzip -9: `neural.js` +418 B, `neural.css` +0.
+
+## v1.221.2 — WEAK SPOTS, ACCEPTED END TO END: GI NUMBERS AND THE START SETTING, AS THE PLAYER SEES THEM (WEAK0, 2026-10-07)
+
+`e2e/journeys/weak-spots-acceptance.spec.ts`, from the owner's 2026-09-30 rulings ("ideally fix weak spots
+now"; "it should match the starting point set by the app indeed"). Until now weak spots had unit coverage
+only (`tests/flow.test.mjs`). The journey drives the player's surfaces by measured mouse clicks: Settings
+(daily goal 200, so "Learn next" holds ~20 rows; the uniform; where the roll starts), then Explore's "N new"
+cell, whose "Learn next" rows are the weak-spots ranking ("weakest first", D1). Every read pairs rows by
+their own `data-session-row` key, with a 15-row floor on each list. Every gameplay tag is rigged before
+the bundle loads, and the journey counts and forbids unrigged draws.
+
+**The measurement that reshaped claim 1.** The obvious oracle, "the gi plan differs from the no-gi plan",
+stayed GREEN with FLOW's frame pinned to "nogi" (the pre-v1.209.0 gi player). `flowScore`'s frame picks
+only the HANDS; the state space follows the player's ruleset, so the two plans differ on no-gi numbers
+too. The claim is now a one-build-booted-twice differential (§6.6): the same new gi player on a wire whose
+`cal.evGi` is removed (what a stale cached payload serves; the app falls back to no-gi hands and
+announces `flow_frame_fallback`). Gi numbers must move the gi plan (shared floor 10) and never the
+no-gi plan, and the control must announce its fallback while the full wire never does.
+
+**What the player sees** (fresh profile, gi, Anywhere, 20 rows). On gi numbers Half Guard is a Top spot
+and Cross Collar Choke from Mount, Guard Opening Sequence and Americana from Side Control rank. On no-gi
+numbers (before v1.209.0) Half Guard is a Bottom spot, and Arm Triangle from Side Control, Sit Out from
+Side Control and Body Lock Pass rank instead (16 shared, 133 gi hand blocks removed). From Standing,
+Standing Position ranks #3, with Front Headlock, Pull Guard from Standing, Takedown from Bottom,
+Butterfly Guard and Scissor Sweep entering (13 shared with Anywhere). "My weak spots" ranks exactly as
+Anywhere (the shipped reading, which avoids a feedback loop).
+
+**Mutants** (patched into the built `neural.js`; one at a time, both journeys):
+
+| mutant | result |
+|---|---|
+| M0 control: `_flowStartSpec` parenthesised | green |
+| M1 FLOW's frame pinned to "nogi" | red at "gi numbers move the gi plan" |
+| M2 frame pinned to "gi" | red at "and never the no-gi plan" |
+| M3 memo key loses the frame AND the flip stops releasing FLOW | red at "and never the no-gi plan" |
+| M4 the plan's fallback reads `_weakSpotsLegacy` | red at both claims |
+| M6 `_flowStartSpec` returns null · M7 memo key loses the start · M9 Standing ranks from Closed Guard | red at "Standing Position is in the Standing plan" |
+| M8 "My weak spots" ranks from Standing | red at "My weak spots ranks as Anywhere" |
+| S1 the spec leaves the daily goal at 30 (3 rows) | red at the 15-row floor |
+
+Non-kills, recorded in the spec header: M3a and M3b (each half of M3 alone), because each guard covers
+for the other; M5 (`weakSpots()` stops dropping decks the ruleset rules out), because a no-gi kernel never
+prices a gi-only deck.
+
+**One flake, found and fixed in the spec before shipping.** "Refresh plan" lives in the pane's scroller,
+which the plan scrolls itself when it opens the first row's card, on a later frame than the rows mount.
+Once in 15 runs the click came first and `clickByMouse` refused a centre at y=2006 of 900. The journey now
+scrolls to the button and waits until it is still and on screen before the measured click: 30/30 after.
+
+**Not covered.** The app has no fixed-position start, so that branch of the brief has nothing to drive. The
+open plan keeps its order when a setting changes (D2 freeze); the journey re-reads through ‹ Back →
+Explore → "N new" and through "Refresh plan".
+## v1.221.1 — 507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI
+
+B-07, approved 2026-10-06. The 2026-09-17 System renames and caption rewrites never reached the committed pages:
+nothing checked that `content/*.md` was the generator's current output. The FREE path only (`regenerate:md`,
+`regenerate:hubs`, never the paid `regenerate:json`) changed 507 files, 1,827 lines each way, and ALL 3,654
+changed lines are `<a class="system-card"` lines (title only 1,123 cards, caption only 112, both 592). A
+second run changes 0 files.
+
+New ci-validate step, "Generated content matches its generator": regenerate, then `git status --porcelain
+-- content/`, which also catches new and deleted pages. Proven in a clean venv holding only the workflow's
+three packages: 0 drifted on this branch (4,601 pages), red on origin/dev naming the 507. **A first mutant
+SURVIVED and the mutant was wrong, not the gate:** a hand edit left uncommitted is overwritten by the
+regeneration itself. The claim is about COMMITTED pages, and a committed hand edit is red, naming the file.
+
+## DEVMV39 — THE EXPOSURE LAW'S PANIC ROW MATCHES THE DRILL (2026-10-07, version stamped at merge)
+
+Follow-up from PR #272 (LDECK). Since v1.221.0 a wrong answer in the panic drill breaks momentum, as its
+timeout always did and as the landing's first card does, and moves no escape number. The shared law
+`ngKnowledgeAdvance` (`neural/src/knowledge-profile.src.js`) still described the old drill: a panic
+"wrong" returned the context unchanged. Its first guard now lets a panic wrong through to the
+`wrong`/`expiry` case, which breaks combo, clears the pending question and applies no qMod on the panic
+surface. Deck, JIT and node grades still change nothing.
+
+**Pins moved.** The law file's sha256 is a reviewed exposure-label law: `mdp-exposure.src.js`
+(`expected.knowledge`, now 17c12cbf…, with a changelog line) and `tests/mdp_exposure_adapter.test.mjs`.
+The MDP manifest carries it too (`lawHashes.knowledge`, `modelHash`); that is regenerated on every
+build. The census app rows were re-seeded with `validate:build-shape:app` from the clean tree, and again on the tree merged with #273's dev (B-07's content provenance kept).
+
+**Label-neutral, measured.** The adapter calls `ngKnowledgeAdvance` for arrivals only
+(`mdp-adapter.src.js`). Regenerated before and after the edit, every MDP shard part is byte-identical. The two variant descriptors differ only in `mechanicsHash`, and the manifest only in its provenance: `lawHashes.knowledge`, `modelHash`, and `gameplayHash`/`sourceHash` (from the one-line app comment this change corrects).
+
+**Gates.** `tests/knowledge_profile.test.mjs`: the old "panic wrong changes nothing" assertion is now
+"panic wrong = panic expiry, combo 0, qMod kept". A new test drives the CURRENT app's
+`_breakCombo("wrong")`, the call the drill's `done(false)` makes, and its panic `_expireLandQ`, and
+compares them field by field with the law. Putting the old guard back turns both red at the panic
+assertions. Partially pinned: that `done(false)` calls `_breakCombo` is the landing-deck-answers panic
+journey's claim, not this unit's.
 
 ## v1.223.0 — THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)
 

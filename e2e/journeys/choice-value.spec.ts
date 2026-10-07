@@ -211,6 +211,11 @@ test('@curated completed MC updates immediate odds, requests one new value snaps
 //   M-a  ngChoiceValueUpdating returns the pending view   -> "every card keeps its last number";
 //   M-b  the stale view copies the previous suggestion    -> the "no suggestion" count;
 //   M-c  the [data-choice-stale] CSS rule removed         -> "dimmed: computed opacity".
+// ...and it SAYS so (v1.220.0, #267 review), each red at the named line, recorded 2026-10-06:
+//   the `[data-choice-stale]::after` ellipsis rule removed -> "a stale number trails an ellipsis";
+//   the stale strong's aria-label removed                  -> "a stale number is announced as updating".
+// NOT pinned here: the threat card's and the entry's stale aria-labels (this fixture deals no threat
+// values and no stale entry number); both are written beside the toggle that dims them.
 // NOT a kill, by design: removing the per-hand reset in `_choiceShownMemo` alone stays green, because
 // the pairing is keyed by the card OBJECT and a new deal never reuses one; the reset is a second guard.
 // "a new deal starts from —" below guards the first one (a pairing by title or position would fail it).
@@ -233,6 +238,11 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   await expect(page.locator('[data-choice-value-status]')).toHaveText('Updating win chances…')
   const opacity = await stale.first().evaluate(el => +getComputedStyle(el).opacity)
   expect(opacity, 'dimmed: computed opacity of a stale number').toBeLessThan(0.7)
+  // ...AND IT SAYS SO (v1.220.0, #267 review: "dimming alone is easy to miss on a phone or under Dark
+  // Reader"): it reads "52%…" and its aria-label is "Win chance 52%, updating".
+  const cue = await stale.first().evaluate(el => ({ after: getComputedStyle(el, '::after').content, aria: el.getAttribute('aria-label'), text: el.textContent }))
+  expect(cue.after, 'a stale number trails an ellipsis ("52%…")').toBe('"\u2026"')
+  expect(cue.aria, 'a stale number is announced as updating').toBe(`Win chance ${cue.text}, updating`)
   // a stale number is not current: no suggestion, no number on the legend, no card moved
   await expect(page.locator('[data-choice-group="you"] [data-choice-recommended]').filter({ hasText: /\S/ })).toHaveCount(0)
   expect(await page.locator('[data-legend-win]').getAttribute('data-win-chance'), 'a stale number is not current (legend)').toBeNull()
@@ -242,6 +252,8 @@ test('@curated a re-solve after an answer keeps each card\'s last Win chance, di
   await page.evaluate((n) => (window as any).__neural._choiceFixture.resolve(1, [.8, ...Array(n - 1).fill(.1)]), n)
   await expect.poll(() => wins(page)).toContain('80%')
   await expect(stale).toHaveCount(0)
+  const fresh = await page.locator('[data-choice-group="you"] [data-choice-win]').first().evaluate(el => ({ after: getComputedStyle(el, '::after').content, aria: el.getAttribute('aria-label') }))
+  expect(fresh, 'a current number has no ellipsis and no "updating"').toEqual({ after: 'none', aria: null })
   await expect(page.locator('[data-choice-value-status]')).toHaveText('This roll · your practice')
   expect(await names(page)).toEqual(sorted)
   // a new deal has no previous numbers: it starts from "—"

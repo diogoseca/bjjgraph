@@ -327,7 +327,7 @@ This submission demands absolute safety awareness. The rotational force attacks 
 <section id="related" class="content-section">
 
 ## Related
-- [[Submissions/Heel Hook/from Saddle]]
+- [[Submissions/Calf Slicer/from Saddle]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Outside Heel Hook]]
 - [[Submissions/Heel Hook/from Ushiro Ashi]]

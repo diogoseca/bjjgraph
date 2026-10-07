@@ -455,7 +455,8 @@ export function ngChoiceValueUpdating(current, previous) {
 
 export function ngChoiceValueHTML(view, detail = false) {
   const esc = ngChoiceValueEscape;
-  const win = '<strong data-choice-win' + (view.stale ? ' data-choice-stale' : '') + '>' + esc(view.value) + '</strong>';
+  // A stale number is dimmed AND says so: "52%…" (choice-value.css) and an aria-label (v1.220.0, #267 review).
+  const win = '<strong data-choice-win' + (view.stale ? ' data-choice-stale aria-label="' + esc(view.tooltip || ("Win chance " + view.value + ", updating")) + '"' : '') + '>' + esc(view.value) + '</strong>';
   if (!detail) return '<div class="ngcv-line"><span>Win chance</span>' + win + '</div>';
   return '<section class="ngcv-detail" aria-label="Expected roll outcomes"><div class="ngcv-line"><span>Win chance <small>· ' + esc(view.state) + '</small></span>' + win + '</div>'
     + '<p>' + esc(view.detail) + '</p>'

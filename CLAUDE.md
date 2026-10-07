@@ -79,6 +79,9 @@ npm run dev:neural:app && npm run test:curated
 cd source && npm run check
 ```
 
+**Before `gh pr create`, run `npm run ci:validate`**: it replays `ci-validate.yml`'s own steps in order
+(installers become presence checks), so CI's red shows on your seat first.
+
 **Push is the owner's call.** Commit locally as much as you like; `git push origin dev` waits for
 their go-ahead — they test locally first, especially anything touching the app.
 
@@ -242,19 +245,15 @@ ruleset mask or is named in `tests/artifacts/ruleset_surfaces.json` with a reaso
 **The corpus census.** Corpus sizes are hard-coded across specs as tripwires, on purpose. `tests/corpus_census.test.mjs` computes every one of them from the wire (~0.5s, no browser) and fails naming EVERY stale literal at once with `file:line` and `old -> new`; `npm run census:update` rewrites them. Mark a new literal with a trailing `// census:<key>` comment — the line must carry exactly one number outside strings, or the scan refuses it rather than guessing. **This runs in `test:units`, so it fires on a push to dev** — which is the whole point: a push to dev runs no Playwright, so before the census a content change met its stale e2e literals one at a time, a deploy later. That happened twice (v1.155.2, v1.158.1).
 
 **Regenerate** — `regenerate` runs the full chain: `issues → json → explode → migrate:ruleset →
-validate:graph (gate) → md → hubs → votes → graph → explorer → neural`. Individually: `regenerate:issues`
-lists files needing fixes · `regenerate:json` the costly Claude pass (600s interval; `-- --interval 0` for 0)
-· `regenerate:explode` expands connections · `migrate:ruleset` folds content to `{gi,nogi}` ·
-`regenerate:md` markdown from JSON · `regenerate:hubs` category hubs · `regenerate:votes` ·
-`regenerate:explorer`. The site build also generates redirects, cache headers and `llms.txt`.
+validate:graph (gate) → md → hubs → votes → graph → explorer → neural`. Each runs alone too; `regenerate:json` is the costly
+Claude pass (600s interval; `-- --interval 0` for 0). The site build also generates redirects, cache headers and `llms.txt`.
 
 **`regenerate:graph` is an UMBRELLA, not a graph.json emitter** — it runs `graph-base` (graph.json)
 → `graph-layout` (node2vec + UMAP) → **`ordinals`** (mints the append-only share lockfile) →
 `graph-strength`. Running only `graph-base` strips `strength` from every node; see §6.7.
 
-**Build and serve** — `build` (Quartz, ~10 min, then share-shell + payload budget) ·
-`build:share-shell` · `build:forward` · `serve` (`scripts/dev-serve.mjs` on :8080, with the
-`<snapshot />` receiver) · `dev` = build + serve.
+**Build and serve** — `build` (Quartz, ~10 min, then share-shell + payload budget) · `serve` (:8080,
+with the `<snapshot />` receiver).
 
 **Bootstrap a fresh worktree** — `npm run bootstrap` (npm install + chromium + the neural payload, ~1 min) is everything the unit suites, the census and the validators need. The e2e journeys additionally need a BUILT site: `npm run build` (~10 min) then `npm run dev:neural:app`. That gap is why work has shipped unverified — a fresh worktree has no `node_modules` and no `source/public`, so `npm test` cannot run at all until you pay it.
 
@@ -262,19 +261,13 @@ lists files needing fixes · `regenerate:json` the costly Claude pass (600s inte
 (**the one you want after editing `neural/src/*`**) · `dev:neural` also regenerates the payload ·
 `regenerate:neural` the full payload emit.
 
-**Test** — `test` full core suite (:8133) · `test:curated` the `@curated` deployment gate (30-min
-ceiling) · `test:units` pure node --test · `e2e:share` (:8129) · `e2e:replay` (:8151) ·
-`e2e:gen` generated suite (:8127) · `e2e:quarantine` known-red · `e2e:observe` watchable CDP ·
-`npm run e2e -- --headed` for a visible browser. `pree2e` and both `test*` scripts run
+**Test** — `test` full core suite · `test:curated` the `@curated` deployment gate (30-min ceiling) ·
+`test:units` pure node --test · `e2e:gen` generated suite · `npm run e2e -- --headed` for a visible
+browser (ports: §8). `pree2e` and both `test*` scripts run
 `scripts/check_no_raw_random.sh` first.
 
-**Content tooling** — `proofread` · `calibrate:cases` / `calibrate` / `calibrate:apply`
-(per-ruleset success-rate priors) · `clips:source` / `clips:verify` / `clips:report` (YouTube film
-study) · `audit:from-position` / `fix:from-position`.
-
-**Inside `source/`** (the Quartz sub-package, its own `package.json`): `npm run check`
-(tsc + prettier — `contentPage.tsx` and `path.ts` carry two long-standing prettier warnings that
-are not yours), `npm run format`, `npm run test` (path and depgraph units).
+**Inside `source/`** (its own `package.json`): `npm run check` is tsc + prettier, and `contentPage.tsx`
+and `path.ts` carry two long-standing prettier warnings that are not yours.
 
 Two runbooks live **outside** the repo and cannot be rediscovered from the tree:
 `~/calibration-engine.md` (calibration launch) and the gitignored `occurrence_elicitation/
@@ -443,7 +436,7 @@ symbol to every version that touched it.
   <br>_(12 (self-counted as "the third"); 0 still open)_
 
 - **The app wrap is `position:fixed` = its own stacking context, so a `z-index` inside it is trapped at plane 0.** A deliberate screen must PORTAL to the app root or ambient gameplay chrome paints over it (the pane at z:8 was buried by a root-plane landing card at z:5; the account menu needed z:46 on the root plane). Bands, documented in `neural/src/helmet.html`: **1-9 ambient state · 10-49 ambient fx · 50-79 coaching · 90-99 deliberate temporary screens.** Pick a band, never a loose number; Esc walks the ladder top-down, pane last.
-  <br>_(3 (dossier under the transport pill; the pane under the landcard; the account menu))_
+  <br>_(4 (dossier under the transport pill; the pane under the landcard; the account menu; seat star))_
 
 - **`style.color = ""` DELETES an inline declaration; it does not restore one.** After `More → Less` the toggle went black on a dark card, because clearing removed the value the button's own `cssText` had written and it inherited the UA default. To return an element to a colour declared inline, WRITE it — `NG_LAND_MORE_COL` exists so the two sites that set it cannot drift. Related sizing rule: a 44px thumb target must not set a 24px row's layout box — shrink the box with a negative margin and keep the hit area (`.ng-lists-new` pattern).
   <br>_(2)_
@@ -487,6 +480,8 @@ symbol to every version that touched it.
 
 - **An assertion stricter than its own claim goes RED on a CORRECT build.** "Nothing is drawn above the name" fails on the name's own ascenders; "nothing is drawn at merge scale" is false because the ordinary hover label takes over; "the announcer is blank after staging" is false because a staged landing may legitimately say something else. **Do:** assert the DIFFERENTIAL the change is about, against a CONTROL FRAME — everything the graph would draw anyway subtracts to zero, and the constant contribution cancels. **After relaxing an assertion, re-run its mutant**, so "less strict" does not become "less able to fail".
   <br>_(3 named together in v1.129.0, plus 3 label-position specs in v1.129.4 and 5 mutants needed in v1.114.0)_
+
+- **`nth()` · `all()[i]` — pair cards across a re-sort by IDENTITY (`data-tech` plus its occurrence), never by POSITION.** A grade or a Win-chance update re-sorts the hand (#267's outcome-on-cards), so index *i* after is another card than index *i* before. <br>_(1)_
 
 
 ### 6.4 Before you rely on the harness (DSL, ports, payloads, which build is under test)

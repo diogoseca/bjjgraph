@@ -362,6 +362,7 @@ for (const recall of [false, true]) {
     await page.evaluate(() => { (window as any).__neural._decision.remaining = 1000 })
     await j.advance(200)
     await expect(page.locator("[data-landcard]")).toHaveClass(/ng-clock-hot/)
+    const left0 = await page.evaluate(() => (window as any).__neural._decision.remaining)
     await page.keyboard.press("ArrowRight")
     await page.waitForFunction(() => (window as any).__neural._landPage === 1)
     const fresh = await page.evaluate(() => {
@@ -378,13 +379,16 @@ for (const recall of [false, true]) {
     expect((await j.beats()).filter(b => b.beat === "land_q_expired")).toHaveLength(0)
     expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeLessThan(fresh.total)
 
-    // An unanswered cached card also gets a fresh window; an edge gesture is not a new card.
+    // ONE WINDOW PER CARD (v1.221.0; until then a cached card was refilled, so paging back and forth
+    // bought unlimited time): an unanswered cached card RESUMES what it had left, and an edge gesture
+    // is not a new card. No game time passes between these reads, so each resume is exact.
+    const left1 = await page.evaluate(() => (window as any).__neural._decision.remaining)
     await page.keyboard.press("ArrowLeft")
-    expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBe(fresh.total)
-    await j.advance(500)
-    const beforeEdge = await page.evaluate(() => (window as any).__neural._decision.remaining)
+    expect(await page.evaluate(() => (window as any).__neural._decision.remaining), "card 0 resumes, it is not refilled").toBe(left0)
     await page.keyboard.press("ArrowLeft")
-    expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBe(beforeEdge)
+    expect(await page.evaluate(() => (window as any).__neural._decision.remaining), "an edge gesture is not a new card").toBe(left0)
+    await page.keyboard.press("ArrowRight")
+    expect(await page.evaluate(() => (window as any).__neural._decision.remaining), "card 1 resumes too").toBe(left1)
 
     const answer = async () => {
       if (recall) {
@@ -395,13 +399,13 @@ for (const recall of [false, true]) {
         await j.clickByMouse(`[data-land-mc-opt='${correct}']`)
       }
     }
-    // Answer the first question and a later study question. BOTH stop their own clocks.
+    // Answer the first question and a later one. BOTH stop their own clocks.
     await answer()
-    await page.keyboard.press("ArrowRight")
+    await page.keyboard.press("ArrowLeft")
     await page.waitForTimeout(200)
     await answer()
     expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeNull()
-    await page.keyboard.press("ArrowLeft")
+    await page.keyboard.press("ArrowRight")
     expect(await page.evaluate(() => (window as any).__neural._decision.remaining)).toBeNull()
     expect((await j.beats()).filter(b => b.beat === "land_q_answered")).toHaveLength(1)
   })

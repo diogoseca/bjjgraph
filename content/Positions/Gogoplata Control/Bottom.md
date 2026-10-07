@@ -417,7 +417,7 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Study Choices</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard and Triangle Attacks</span><span class="system-card__unlocks-badge">22 related references</span><span class="system-card__blurb">Related position reference for comparing the course vocabulary.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

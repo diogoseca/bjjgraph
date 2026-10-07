@@ -408,7 +408,8 @@ test("a re-solving card keeps its last Win chance, dimmed and named as updating;
   assert.equal(shown.stale, true); assert.equal(shown.state, "Updating…"); assert.equal(shown.status, "pending", "still pending: no sort, legend or badge reads it as current");
   assert.equal(shown.recommended, false); assert.equal(shown.immediate, "85%", "the move chance is the new one");
   assert.deepEqual(shown.outcomes, []); assert.equal(shown.split, null);
-  assert.match(ngChoiceValueHTML(shown), /<strong data-choice-win data-choice-stale>62%<\/strong>/);
+  // the stale number also SAYS it is updating (v1.220.0, #267 review): aria-label, and "62%…" by CSS
+  assert.match(ngChoiceValueHTML(shown), /<strong data-choice-win data-choice-stale aria-label="Win chance 62%, updating">62%<\/strong>/);
   assert.doesNotMatch(ngChoiceValueHTML(ready), /data-choice-stale/);
   assert.match(ngChoiceValueHTML(shown, true), /Updating…/);
   // nothing to keep: no previous, a previous that was not a value, or a current view that is not pending

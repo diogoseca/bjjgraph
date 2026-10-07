@@ -24,6 +24,24 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 // rising above "Your options". true = variant B: the same hits plus a central bubble over the hand.
 // The owner chooses from the demo; both paths are the same seam (`_outcomeCause`).
 const NG_OUTCOME_BUBBLE = false;
+// EVERY CARD ANSWERED IN ONE LANDING MOVES THIS EXCHANGE AGAIN, BY A SMALLER STEP (v1.221.0, owner
+// 2026-10-05: "answering more flashcards should increase/decrease choices proba further, it's not a 1
+// slot thing, but many"). Row k-1 is the k-th card RESOLVED in one landing (answered, or run out of
+// time) and holds what it adds to `_qMod`, the exchange modifier the next arrival clears. Row 0 is the
+// landing question exactly as it always was: its correct answer earns no qMod because it already pays
+// momentum, sharpness and practice. Past the last row an answer is study only (stage, SRS and practice
+// still move): that is the cap. A timeout takes the WRONG step of the card it ran out on, never the
+// trap's (a timeout never costs more than a wrong answer on the same card). Momentum and the challenge
+// evidence are NOT in this table: they stay once per landing, on row 0. Read through `_landStep`.
+// APP-SIDE ON PURPOSE: the shared law `ngKnowledgeAdvance` (knowledge-profile.src.js) models the landing
+// question, k = 1, which is all the MDP ever projects (it assumes no further study), and that file's
+// hash is a reviewed exposure-label law pinned in mdp-exposure.src.js. The numbers are the owner's.
+const NG_LAND_ANSWER_STEPS = Object.freeze([
+  Object.freeze({ correct: 0, wrong: -0.04, trap: -0.08 }),
+  Object.freeze({ correct: 0.03, wrong: -0.03, trap: -0.06 }),
+  Object.freeze({ correct: 0.02, wrong: -0.02, trap: -0.04 }),
+  Object.freeze({ correct: 0.01, wrong: -0.01, trap: -0.02 }),
+]);
 // The head is two nested bars and both are laid out INLINE, because `reading.css` is deferred:
 // the collapsed More pill is drawn before the stylesheet arrives. One string so the two cannot
 // drift. `justify-content:center` is what centres the COLLAPSED pill (v1.195.7): shut, the inner
@@ -37,6 +55,23 @@ const NG_READ_BAR_CSS = "display:flex;align-items:center;justify-content:center;
 // The option tray's own horizontal inset, both ends (`updateUiShift` writes it; the pane's reserve is
 // added on the left only). The template's inline 24px is the same value for the first paint.
 const NG_TRAY_INSET = 24;
+// THE MOVE'S OWN NUMBER LEADS THE CARD (v1.220.0, owner 2026-10-05: "the win chance label and value%
+// should be significantly smaller than the move label and value%, as, despite being the most
+// important, the chance of it working is only that of the %"). Every size on a card's two number
+// lines is a ratio of ONE token on it, the move's own percentage (`.ngodds`, NG_CARD_MOVE_NUM px):
+// the move's label is NG_CARD_MOVE_LABEL of it, and Win chance, label and value alike,
+// NG_CARD_WIN of it. A threat card follows the same rule: its Win chance (header) against its
+// Odds. Written onto each card as custom properties (`buildOptionCard`), read by choice-value.css.
+// No number changes; this is hierarchy only. Pinned by e2e/journeys/card-presentation.spec.ts.
+const NG_CARD_MOVE_NUM = 15, NG_CARD_MOVE_LABEL = 0.75, NG_CARD_WIN = 0.6;
+// ...AND IN THE INSPECT SHEET (owner's call through the orchestrator, 2026-10-06: "shrink the Inspect
+// SHEET's Win chance headline to the same NG_CARD_WIN ratio of the sheet's move %"). The sheet's own
+// move % (`.ngsucbig`) is NG_SHEET_MOVE_NUM px, written onto the sheet's head with NG_CARD_WIN; the
+// headline and its outcome numbers read both (choice-value.css `.ngcv-detail`).
+const NG_SHEET_MOVE_NUM = 25;
+// The chosen card's lift (`_placeOnTable`): a twelfth of its own height (12px on the 144px card),
+// over NG_CARD_LIFT_MS: rise, set down, settle.
+const NG_CARD_LIFT = 1 / 12, NG_CARD_LIFT_MS = 440;
 // The videos row's fade, in units of the ONE token it is sized from: the card's side padding, measured
 // by `_dockLandFilm` (the end padding is 1 of the same unit). helmet.html `.ng-landfilm`.
 const NG_FILM_FADE_RATIO = 3;
@@ -4994,7 +5029,14 @@ class Component extends DCLogic {
   }
 
   expandOption(opt, onPick, srcCard) {
-    if (opt.threat || opt.action === "escape") { this.previewStateChoice(opt, onPick); return; }
+    // AN ESCAPE OR A THREAT INSPECTS IN THIS SAME SHEET (v1.220.0, owner 2026-10-05: "readability /
+    // presentation / view of inspect in a submission is not consistent design as the inspect of
+    // other techniques like a transitions"). They had their own bare panel (`previewStateChoice`,
+    // retired): no glyph, no category, an 18px title, no odds row, raw paragraphs, unstyled buttons,
+    // a floating box instead of this docked sheet. `sc` (`_stateChoiceSheet`) names only what
+    // differs; the grow-from-the-card motion, head, odds row, Win chance detail, reading sections,
+    // footer and Esc/Enter are this one sheet. Pinned by e2e/journeys/card-presentation.spec.ts.
+    const sc = opt.threat || opt.action === "escape" ? this._stateChoiceSheet(opt) : null;
     const n = opt.node;
     const panel = this.optDetailRef.current; if (!panel) return; // inspection never falls back to execution
     // ── THE SHEET LIVES ON THE ROOT PLANE (v1.136.0) ─────────────────────────────────────────
@@ -5025,7 +5067,7 @@ class Component extends DCLogic {
     // same palette. A sheet is only ever opened from a non-escape option card, so `opt` is always
     // a move from the live hand and carries its deal-time `ev` row.
     const edge = null;
-    const col = "#b3c6ea", cat = this.deckCat(n); // role-correct, see buildOptionCard
+    const col = sc ? sc.col : "#b3c6ea", cat = sc ? sc.cat : this.deckCat(n); // role-correct, see buildOptionCard
     // AN ENTRY'S ROW IS THE CARD'S "Works" NUMBER (v1.213.0). Your own submission dealt on a position
     // steps you in with certainty; the gamble is the finish rolled once you are in, which only the
     // solve knows (`ngChoiceValueImmediate`). `moveChance(n)` HERE prices that finish at THIS state's
@@ -5034,8 +5076,8 @@ class Component extends DCLogic {
     // `paintChoiceValues` ([data-choice-follow-up]), and never a second one.
     const entryOpt = !opt.threat && n.ty === "submissions" && opt.action !== "finish" && opt.action !== "escape";
     const followView = entryOpt ? this.choiceValueView(opt) : null;
-    const pct = Math.round(this.moveChance(n) * 100);
-    const oddsCol = entryOpt ? "#d7e2f4" : pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
+    const pct = sc ? sc.pct : Math.round(this.moveChance(n) * 100);
+    const oddsCol = sc ? sc.oddsCol : entryOpt ? "#d7e2f4" : pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
     const resName = opt.res >= 0 ? this.graphName(this.nodes[opt.res]) : "\u2014";
     const myMod = Math.round(this.stateBonus(this._posKey) * 100) + Math.round(this.stateBonus(this.deckKeyFor(n).key) * 100);
     // prose that NAMES states: "A transition from your current position to X, Y" must not name a
@@ -5047,9 +5089,11 @@ class Component extends DCLogic {
     // gate was briefly widened (28 printed a node that is no authored outcome at all). A name
     // that already states its destination gets no second, worse guess printed under it.
     const tp = this.titleParts(n);
-    const sp = this.splitName(n.t);
-    const num = (this._optList || []).findIndex((o) => o && o.idx === opt.idx) + 1; // the tray digit the card wore — 0 (no digit) when the option is not in the dealt hand
-    const rc = this.richContentFor(n);
+    const sp = sc ? { main: this.choiceEscape(sc.title), from: sc.from ? this.choiceEscape(sc.from) : "" } : this.splitName(n.t);
+    // the tray digit the card wore — 0 (no digit) when the option is not in the dealt hand. A
+    // submission's escapes share one `idx`, so they are found by identity.
+    const num = sc ? (this._optList || []).indexOf(opt) + 1 : (this._optList || []).findIndex((o) => o && o.idx === opt.idx) + 1;
+    const rc = sc ? null : this.richContentFor(n);
     const hasPersp = !!rc;                          // only authored dual-perspective entries get the tab
     if (!this._perspective) this._perspective = "attacker";
     const persp = this._perspective;
@@ -5061,7 +5105,7 @@ class Component extends DCLogic {
     grab.innerHTML = '<span style="width:38px;height:4px;border-radius:2px;background:rgba(150,170,210,.4);"></span>';
     panel.appendChild(grab);
     const head = document.createElement("div");
-    head.style.cssText = "position:relative;flex:none;padding:6px 26px 18px;background:linear-gradient(150deg," + col + "1f,transparent 72%);border-bottom:1px solid rgba(150,170,210,.1);";
+    head.style.cssText = "--ng-move-num:" + NG_SHEET_MOVE_NUM + "px;--ng-win:" + NG_CARD_WIN + ";position:relative;flex:none;padding:6px 26px 18px;background:linear-gradient(150deg," + col + "1f,transparent 72%);border-bottom:1px solid rgba(150,170,210,.1);";
     const editBtn = '<button class="ng-bsuc-edit" title="Adjust your odds" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#8b97b0;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></button>';
     const stepsSpan = '<span class="ng-bsuc-steps" style="display:none;align-items:center;gap:7px;opacity:0;transition:opacity .18s ease;"><button class="ng-bsuc-dn" title="Lower" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">\u2212</button><button class="ng-bsuc-up" title="Raise" style="flex:none;width:24px;height:24px;border-radius:50%;border:1px solid rgba(150,170,210,.3);background:rgba(255,255,255,.04);color:#aeb9d4;font-size:15px;font-weight:700;line-height:1;cursor:pointer;">+</button></span>';
     // right-aligned stat stack — Edge on top, Success below (mirrors the small option card)
@@ -5109,22 +5153,28 @@ class Component extends DCLogic {
       drillNote +
       // the card's own bottom row, at sheet scale: caption left, the number right
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
-        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (entryOpt ? "Works" : n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
-        '<span style="display:flex;align-items:center;gap:8px;">' + stepsSpan + editBtn +
-          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:25px;font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
+        '<span style="font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7e8aa3;">' + (sc ? sc.statLabel : entryOpt ? "Works" : n.ty === "submissions" ? "Finish chance" : "Move chance") + '</span>' +
+        '<span style="display:flex;align-items:center;gap:8px;">' + (sc ? '' : stepsSpan + editBtn) +
+          '<span class="ngsucbig" data-odds' + (entryOpt ? ' data-choice-follow-up title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:var(--ng-move-num);font-weight:700;color:' + oddsCol + ';font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (sc ? this.choiceEscape(sc.statText) : entryOpt ? this.choiceEscape(followView.immediate) : pct + '%') + '</span>' +
         '</span>' +
       '</div>' +
       '</div>' +
       // an entry is a certain step into the submission, said as a step, never as "100%"
-      (entryOpt
+      (sc
+        ? sc.leadHTML
+        : entryOpt
         ? '<div data-choice-entry-step style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>steps you into this submission: certain, no roll. The finish is the gamble.</div>'
         : cat === "Submission"
         ? ''
         : (!tp && resName !== "\u2014" ? '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;"><span style="color:#7ee0a8;">\u2192</span>on success, advances to <b style="color:#c3cde0;font-weight:600;">' + this.splitName(resName).main + '</b></div>' : ''));
-    const valueDetail = document.createElement("div");
-    valueDetail.setAttribute("data-choice-value-detail", "1");
-    valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueShown(opt), true);
-    head.appendChild(valueDetail);
+    // a threat is not yours to value: no Win chance detail on the opponent's move
+    if (!opt.threat) {
+      const valueDetail = document.createElement("div");
+      valueDetail.setAttribute("data-choice-value-detail", "1");
+      valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueShown(opt), true);
+      head.appendChild(valueDetail);
+    }
+    if (sc) head.setAttribute("data-choice-preview", "1"); // the state-choice inspect, named as it always was
     const scroller = document.createElement("div");
     scroller.style.cssText = "flex:1;min-height:0;overflow-y:auto;";
     scroller.appendChild(head);
@@ -5136,7 +5186,8 @@ class Component extends DCLogic {
       // _deckHasCards is stub-safe, so an unhydrated deck yields no jitKey and the whole JIT
       // block is skipped — exactly what already happens when the deck is missing.
       const jitKey = this._deckHasCards(tk) ? tk : (this._deckHasCards(this._posKey) ? this._posKey : null);
-      if (jitKey) {
+      // an escape's drill is the panic drill above the hand, and a threat is not yours to drill
+      if (jitKey && !sc) {
         const jc = this._cardsOf(decks[jitKey]);
         let jitGrades = 0;
         this._jitIdx = this._jitIdx || {};
@@ -5228,6 +5279,7 @@ class Component extends DCLogic {
     body.style.cssText = "padding:18px 26px 48px;";
     const renderBody = () => {
       this.clearClipLoops();
+      if (sc) { body.innerHTML = sc.bodyHTML(); this.wireClips(body, this._curClips); return; }
       body.innerHTML = this.detailHTML(n, cat, neighbors, this._perspective);
       this.wireClips(body, this._curClips);
       const aliases = this._readingAliases(n, this.ngContentFor(n) || {});
@@ -5253,21 +5305,24 @@ class Component extends DCLogic {
     foot.style.cssText = "flex:none;display:flex;gap:11px;padding:16px 26px 20px;border-top:1px solid rgba(150,170,210,.1);";
     const back = document.createElement("button");
     back.innerHTML = 'Back <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.6;margin-left:4px;border:1px solid currentColor;border-radius:4px;padding:0 4px;">Esc</kbd>';
-    back.style.cssText = "cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px 18px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;display:flex;align-items:center;";
+    back.style.cssText = "min-height:44px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:600;padding:12px 18px;border-radius:11px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#c3cde0;display:flex;align-items:center;";
     const go = document.createElement("button");
     go.setAttribute("data-go", "1"); // journey tests confirm the commit via this button
     go.innerHTML = this.choiceEscape(this.choiceLabel(opt)) + ' <kbd style="font-family:inherit;font-size:10px;font-weight:700;opacity:.7;margin-left:7px;border:1px solid rgba(255,255,255,.5);border-radius:4px;padding:0 5px;">\u23ce</kbd>';
-    go.style.cssText = "flex:1;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
+    go.style.cssText = "flex:1;min-height:44px;cursor:pointer;font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:11px;border:none;background:linear-gradient(135deg,#4a6cff,#6a5cff);color:#fff;box-shadow:0 4px 16px rgba(74,108,255,.35);display:flex;align-items:center;justify-content:center;";
     // the same capture, with room for a label: this sheet is what a coach reads BEFORE committing,
     // and on a phone it is a full-width surface where a 44px target actually fits.
     // the compact glyph, in the corner — NOT a labelled footer button any more (v1.102.1)
     // 15px, not the boxed 12 or the thumb's 17: stripped of its border and wash the star has
     // nothing competing with it, so it reads heavier at the same size (v1.129.8 — `fontSize`
     // here used to be 16 and is inert under an SVG glyph).
-    const capture = this._listAddButton(n.id, "sheet", 15);
-    capture.style.border = "none"; capture.style.background = "none";
     const capSlot = head.querySelector(".ng-sheet-cap");
-    if (capSlot && capSlot.parentNode) capSlot.parentNode.replaceChild(capture, capSlot);
+    if (sc) { if (capSlot) capSlot.remove(); }   // an escape or a threat is not a technique to file
+    else {
+      const capture = this._listAddButton(n.id, "sheet", 15);
+      capture.style.border = "none"; capture.style.background = "none";
+      if (capSlot && capSlot.parentNode) capSlot.parentNode.replaceChild(capture, capSlot);
+    }
     back.addEventListener("click", () => this.closeOptionDetail());
     head.querySelector(".x").addEventListener("click", () => this.closeOptionDetail());
     // perspective tab — re-render the body for attacker / defender and restyle the segmented control
@@ -5282,7 +5337,7 @@ class Component extends DCLogic {
     go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this.setPaused(false); onPick(opt); });
     // the two actions lifted out of the head (v1.102.1) land here, on their own row above the
     // primary pair — grouped with the other things you can DO, not stacked over the name
-    if (hasPersp || true) {
+    if (!sc) {   // perspective and Play from here belong to a technique, not to a response in an exchange
       const actions = document.createElement("div");
       actions.setAttribute("data-sheet-actions", "1");
       actions.style.cssText = "flex:1 0 100%;display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:2px;";
@@ -5303,16 +5358,18 @@ class Component extends DCLogic {
       renderBody();
     });
     { const pf = foot.querySelector(".ng-playfrom"); if (pf) { pf.addEventListener("mouseenter", () => pf.style.background = "rgba(74,108,255,.22)"); pf.addEventListener("mouseleave", () => pf.style.background = "rgba(74,108,255,.12)"); pf.addEventListener("click", (e) => { e.stopPropagation(); this.confirmPlayFrom(n); }); } }
-    foot.appendChild(back); foot.appendChild(go);
+    if (sc) { back.setAttribute("data-choice-close", "1"); go.setAttribute("data-choice-go", "1"); }
+    foot.appendChild(back);
+    if (!opt.threat) foot.appendChild(go);   // the opponent's move can be read, never played
     panel.appendChild(foot);
     // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
-    { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
-    const detailOwner = { opt, onPick, contentKey: n.ty === "positions" ? this.deckKeyFor(n).key : n.t };
+    if (!opt.threat) { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
+    const detailOwner = { opt, onPick: opt.threat ? undefined : onPick, contentKey: sc ? sc.contentKey : n.ty === "positions" ? this.deckKeyFor(n).key : n.t };
     detailOwner.refreshContent = () => {
       if (this.__ngDestroyed || this._detailCtx !== detailOwner || !body.isConnected) return;
       const scroll = scroller.scrollTop;
       renderBody();
-      if (this.richContentFor(n) && !foot.querySelector(".ng-persp")) {
+      if (!sc && this.richContentFor(n) && !foot.querySelector(".ng-persp")) {
         const actions = foot.querySelector(".ng-playfrom");
         if (actions) actions.insertAdjacentHTML("beforebegin", '<div class="ng-persp" style="display:inline-flex;border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:3px;">' + ptBtn("attacker", "Attacker") + ptBtn("defender", "Defend") + '</div>');
       }
@@ -5465,13 +5522,11 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
   }
   hideOptDetail() {
-    if (this._stateChoiceClose) this._stateChoiceClose();
     const panel = this.optDetailRef.current;
     if (panel) { panel.style.transition = "opacity .2s ease, transform .26s ease"; panel.style.transform = "translateY(16px)"; panel.style.opacity = "0"; panel.style.pointerEvents = "none"; panel.onwheel = null; setTimeout(() => { if (panel.style.opacity === "0") panel.style.transform = "none"; }, 280); }
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
   }
   closeOptionDetail() {
-    if (this._stateChoiceClose) { this._setDetailCtx(null); this._stateChoiceClose(); return; }
     const wasPaused = this._detailWasPaused; this._detailWasPaused = null;
     // the landing card comes back when the sheet leaves — here TOO, not only via hideOptDetail:
     // the animated collapse below (the normal ✕ / back path, taken whenever _optStart is set)
@@ -9183,10 +9238,18 @@ class Component extends DCLogic {
         b.setAttribute("data-seat-star", String(a.idx));
         b.addEventListener("pointermove", () => { this._hover = { idx: a.idx, t: this.now }; });
         b.style.position = "fixed";
-        b.style.zIndex = "4"; // ambient graph chrome, below the reading cards and deliberate screens
+        // AMBIENT GRAPH CHROME LIVES IN THE WRAP, BELOW THE CARDS (v1.221.0). It used to sit on the
+        // ROOT plane at z:4, and per the helmet.html z ladder any root-level sibling at z ≥ 1 covers
+        // ALL of the wrap, so a star meant to be "below the reading cards" was above every one of
+        // them. Measured on the real app at 1440 (dev and this branch): a pair label drawn behind the
+        // landing deck's next chevron put its star exactly on the chevron, and three mouse clicks in
+        // a row opened the list menu instead of paging. Inside the wrap, z:3 sits under the hand (4),
+        // the landing card, its chevrons, film and More (5) and the pane (8). `[data-seat-star]` is
+        // already in attachInput's pointerdown early-return list, so it stays live to the mouse.
+        b.style.zIndex = "3";
         b.style.left = "0"; b.style.top = "0";
         b.style.border = "1px solid transparent";
-        (this.__ngRoot || document.body).appendChild(b);
+        (this.wrapRef.current || this.__ngRoot || document.body).appendChild(b);
         buttons.set(a.idx, b);
       }
       b.style.width = size + "px"; b.style.height = size + "px";
@@ -13707,6 +13770,7 @@ class Component extends DCLogic {
         const was = chance.textContent;
         chance.textContent = view.immediate;
         chance.toggleAttribute("data-choice-stale", !!view.immediateStale);
+        if (view.immediateStale) chance.setAttribute("aria-label", view.immediateLabel + " chance " + view.immediate + ", updating"); else chance.removeAttribute("aria-label");
         if (was !== view.immediate) this._cardHit(oc, chance, was, view.immediate, view.immediateLabel);
       }
       if (label) label.textContent = view.immediateLabel;
@@ -13814,6 +13878,8 @@ class Component extends DCLogic {
     // (its left inset is the measured pane, `updateUiShift`), from the start when it overflows.
     // Pinned by e2e/journeys/choice-row-centre.spec.ts.
     el.style.justifyContent = "safe center";
+    // ...and its own overflow: `startExecution` lets the stand-in's lift out of the row (v1.220.0)
+    el.style.overflowX = "auto"; el.style.overflowY = "hidden";
     this._handEscape = !!escape;
     this._choiceHandId = "hand-" + (this._choiceHandSerial = (this._choiceHandSerial || 0) + 1);
     const add = (label, list, threat) => {
@@ -13868,47 +13934,51 @@ class Component extends DCLogic {
     this._syncEdgeFade(el);
     this.refreshChoiceValues();
   }
-  previewStateChoice(opt, onPick) {
-    const panel = this.optDetailRef.current;
-    if (!panel) return; // a threat must NEVER become a move through a missing-panel fallback
-    if (this._stateChoiceClose) this._stateChoiceClose();
-    this._setDetailCtx(null);
-    this._declineLandQ("sheet");
-    const wasPaused = this.paused;
-    this.setPaused(true);
-    const previousStyle = panel.style.cssText;
-    const preview = {}; this._stateChoicePreview = preview;
-    const root = this.__ngRoot || document.body;
-    if (panel.parentElement !== root) root.appendChild(panel);
-    panel.style.cssText = "position:fixed;z-index:50;display:block;left:50%;bottom:24px;transform:translateX(-50%);width:min(460px,calc(100vw - 28px));max-height:75vh;overflow:auto;background:#151b2c;border:1px solid #536078;border-radius:16px;padding:22px;pointer-events:auto;";
-    const esc = (t) => this.choiceEscape(t);
-    const d = opt.defense;
-    const dest = this.nodes[opt.res];
-    panel.innerHTML = '<div data-choice-preview="1" style="color:#dce3f0;"><div style="color:' + (opt.threat ? '#e8956b' : '#93a0bd') + ';font-size:11px;">' + (opt.threat ? 'Opponent threat' : 'Your response') + '</div><h3 style="margin:10px 0;">' + esc(this.choiceLabel(opt)) + '</h3><div data-choice-explanation style="line-height:1.5;font-size:14px;">' +
-      (d ? esc(d.action || d.label) : esc(opt.node.t)) + '</div>' +
-      (dest ? '<p style="font-size:13px;">Possible continuation: ' + esc(this.displayName(dest)) + '</p>' : '') +
-      (opt.threat ? '<p style="font-size:13px;color:#e8956b;">Your opponent may attempt this. Choose your response from your options.</p>' : '') +
-      '<button data-choice-close style="cursor:pointer;padding:10px 16px;">Back to choices</button>' +
-      (!opt.threat ? '<button data-choice-go style="cursor:pointer;padding:10px 16px;margin-left:8px;">' + esc(this.choiceLabel(opt)) + '</button>' : '') + '</div>';
-    if (!opt.threat) {
-      const valueDetail = document.createElement("div");
-      valueDetail.setAttribute("data-choice-value-detail", "1");
-      valueDetail.innerHTML = this.choiceValueHTML(this.choiceValueShown(opt), true);
-      panel.querySelector("[data-choice-explanation]").after(valueDetail);
-    }
-    const close = () => { this._stateChoiceClose = null; this._stateChoicePreview = null; panel.style.cssText = previousStyle; panel.style.display = "none"; this.setPaused(!!wasPaused); };
-    this._stateChoiceClose = close;
-    this._setDetailCtx(opt.threat ? { opt } : { opt, onPick });
-    panel.querySelector("[data-choice-close]").onclick = () => { this._setDetailCtx(null); close(); };
-    const go = panel.querySelector("[data-choice-go]");
-    if (go) go.onclick = () => { this._setDetailCtx(null); close(); onPick(opt); };
-    // The state payload is already resident; previews never need a second fetch.
-    const details = this.nodes[opt.submission] && this.nodes[opt.submission]._defenseDetails;
-    const detail = d && d.detail != null && details && details[d.detail];
-    if (detail) {
-      const body = panel.querySelector("[data-choice-explanation]");
-      if (body) body.innerHTML = '<p>' + esc(detail.action) + '</p><p>' + esc(detail.when_to_use) + '</p><p>' + esc(detail.risk) + '</p>';
-    }
+  // AN ESCAPE OR A THREAT, IN THE SHEET'S OWN TERMS (v1.220.0; `expandOption` renders it). Only what
+  // differs from a technique: the category word, the choice's own name and what it is out of, the
+  // card's own number under the card's own caption, where it leads, and the body.
+  //  - A DEFENSE (your escape, or the opponent's escape while you finish) reads its authored detail
+  //    (`_defenseDetails`: action, when to use it, the risk) as reading sections, opened by the
+  //    submission's safety notice and closed by its safety guide, as every submission sheet is
+  //    (CLAUDE.md §7): tap signals and the release protocol matter most to the one in the choke.
+  //  - AN OPPONENT'S TECHNIQUE (their move, or the finish you are defending) reads that technique's
+  //    own breakdown, from the defender's side: the same `detailHTML` a technique sheet renders.
+  // The body re-renders when the submission's dossier lands (`contentKey`, onContentReady).
+  _stateChoiceSheet(opt) {
+    const threat = !!opt.threat, d = opt.defense;
+    const sub = this.nodes[opt.submission] || this.submissionNode(opt.node) || null;
+    const chance = this.choiceChance(opt), pct = chance == null ? null : Math.round(chance * 100);
+    const view = threat ? null : this.choiceValueView(opt);
+    const dest = opt.res >= 0 ? this.nodes[opt.res] : null;
+    const tone = (p) => p == null ? "#d7e2f4" : p >= 60 ? "#7ee0a8" : p >= 38 ? "#cbd24e" : "#e8956b";
+    const subName = sub ? this.splitName(sub.t).main : "";
+    const lead = (html) => '<div style="margin-top:13px;font-size:12px;color:#8b97b0;display:flex;align-items:center;gap:6px;">' + html + '</div>';
+    const destHTML = dest ? '<b style="color:#c3cde0;font-weight:600;">' + this.choiceEscape(this.graphName(dest)) + '</b>' : '';
+    return {
+      cat: threat ? "Opponent threat" : "Escape",
+      col: threat ? "#e8956b" : "#b3c6ea",
+      title: this.choiceLabel(opt),
+      from: !sub || (threat && !d) ? "" : (threat ? "their way out of " : "out of ") + subName,
+      statLabel: threat ? "Their odds" : (view.immediateLabel || "Escape") + " chance",
+      statText: threat ? (pct == null ? "\u2014" : pct + "%") : view.immediate,
+      pct, oddsCol: threat ? this.choiceOddsColor(pct, true) : tone(pct),
+      leadHTML: threat
+        ? lead('<span style="color:#e8956b;">!</span><span>Your opponent may attempt this. Choose your response from your options.' + (dest ? ' If it works: ' + destHTML + '.' : '') + '</span>')
+        : dest ? lead('<span style="color:#7ee0a8;">\u2192</span>on success, you reach ' + destHTML) : '',
+      contentKey: d ? (sub ? sub.t : null) : (opt.node.ty === "positions" ? this.deckKeyFor(opt.node).key : opt.node.t),
+      bodyHTML: () => {
+        if (!d) return this.detailHTML(opt.node, threat ? "Opponent threat" : "Escape", [], "defender");
+        this._curClips = null;
+        const info = sub ? this._sheetInfo(sub, this.ngContentFor(sub)) : null;
+        const own = info ? this._readingSections(sub, info, "defender", true) : [];
+        const details = sub && sub._defenseDetails, detail = d.detail != null && details ? details[d.detail] : null;
+        const sections = own.filter((x) => x.key === "safety-notice");
+        sections.push({ key: "escape", label: threat ? "Their escape" : "The escape", kind: "text", value: (detail && detail.action) || d.action || d.label });
+        if (detail && detail.when_to_use) sections.push({ key: "escape-when", label: "When it works", kind: "text", value: detail.when_to_use });
+        if (detail && detail.risk) sections.push({ key: "escape-risk", label: "The risk", kind: "text", value: detail.risk });
+        return this._readingHTML(sections.concat(own.filter((x) => x.key === "safety")), "sheet");
+      },
+    };
   }
 
   optionsFor(posIdx, role) {
@@ -14063,7 +14133,7 @@ class Component extends DCLogic {
     const isThreat = !!opt.threat;
     const card = document.createElement("div");
     card.setAttribute(isThreat ? "data-threat-tech" : "data-tech", n.t); // player choices and opponent previews are distinct surfaces
-    card.style.cssText = "pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;display:flex;flex-direction:column;flex:0 0 150px;width:150px;height:144px;box-sizing:border-box;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
+    card.style.cssText = "--ng-move-num:" + NG_CARD_MOVE_NUM + "px;--ng-move-label:" + NG_CARD_MOVE_LABEL + ";--ng-win:" + NG_CARD_WIN + ";pointer-events:auto;cursor:pointer;position:relative;overflow:hidden;display:flex;flex-direction:column;flex:0 0 150px;width:150px;height:144px;box-sizing:border-box;background:rgba(28,32,52,.78);backdrop-filter:blur(6px);border:1px solid rgba(150,170,210,.18);border-radius:11px;padding:11px 12px 13px;opacity:1;transform:translateY(10px);transition:transform .34s cubic-bezier(.2,.7,.2,1),border-color .15s,background .15s;";
     // ONE KIND OF NUMBER ON THE HAND (owner, 2026-09-29): player cards show your Win chance, and so
     // do opponent previews — YOUR win chance if they try that move (engine threat probes), painted by
     // `_paintThreatValue` when the values arrive. Previews keep their authored immediate rate ("Odds").
@@ -14073,10 +14143,10 @@ class Component extends DCLogic {
     const oddsCol = isThreat ? this.choiceOddsColor(pct, true) : "#d7e2f4";
     const value = !isThreat ? this.choiceValueView(opt) : null;
     const bottomRow = '<div class="ngbotrow" style="flex:none;margin-top:auto;padding-top:8px;white-space:nowrap;border-top:1px solid rgba(150,170,210,.1);display:flex;align-items:center;justify-content:space-between;gap:4px;">' +
-      '<div data-immediate-label' + (!isThreat && value.immediateKind === "entry" ? ' title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:9px;font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
-      '<span class="ngodds" style="flex:none;font-size:15px;font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (isThreat ? (pct == null ? '—' : pct + '%') : this.choiceEscape(value.immediate)) + '</span></div>';
+      '<div data-immediate-label' + (!isThreat && value.immediateKind === "entry" ? ' title="The finish\'s chance once you are in. Stepping in is certain."' : '') + ' style="font-size:calc(var(--ng-move-num) * var(--ng-move-label));font-weight:600;color:#b3c2da;white-space:nowrap;">' + (isThreat ? 'Odds' : value.immediateLabel) + '</div>' +
+      '<span class="ngodds" style="flex:none;font-size:var(--ng-move-num);font-weight:700;line-height:1.2;color:' + oddsCol + ';">' + (isThreat ? (pct == null ? '—' : pct + '%') : this.choiceEscape(value.immediate)) + '</span></div>';
     const headMid = isEsc ? "Escape" : n.ty === "positions" ? "Position" : n.ty === "submissions" ? "Submission" : "Transition";
-    const headVal = isThreat ? '<span class="ngedge" data-threat-win title="Your win chance if they try this" style="flex:none;font-size:13px;font-weight:700;color:#b3c6ea;">—</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';
+    const headVal = isThreat ? '<span class="ngedge" data-threat-win title="Your win chance if they try this" style="flex:none;font-size:calc(var(--ng-move-num) * var(--ng-win));font-weight:600;color:#aebbd3;">—</span>' : '<span data-choice-recommended style="font-size:9px;color:#c5d6ff;"></span>';
     card.innerHTML =
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">' +
         this.catGlyph(n, num, col) +
@@ -14179,6 +14249,7 @@ class Component extends DCLogic {
       ({ text, win } = last.threat.get(oc.opt)); tip = "Your win chance if they try this: " + text + ", updating"; stale = true;
     } else last.threat.delete(oc.opt);
     el.toggleAttribute("data-choice-stale", stale);
+    if (stale) el.setAttribute("aria-label", tip); else el.removeAttribute("aria-label");   // "…, updating", said as well as dimmed
     el.textContent = text; el.title = tip;
     const col = win == null ? "#b3c6ea" : this.hex(this.domColor(win * 2 - 1));
     el.style.color = col;
@@ -14699,12 +14770,14 @@ class Component extends DCLogic {
   // pager: "left right scrolling should still work", i.e. the GESTURES are the feature) ═══════
   // Swipe / trackpad wheel / ←→ page the CURRENT NODE's own flashcard deck — `_landPageTo` with
   // the per-landing cursor `_landPage`. No visible pager chrome.
-  // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST
-  // answered card per landing (whichever one it is) is THE landing question — refund, combo,
-  // qMod, `land_q_answered` — and every later answer is study: stage/srs/prep/noteCardDone all
-  // still run inside _mcAnswer/gradeRecall (mastery moves the odds), but the onDone routes to a
-  // grade-only path that emits `land_q_extra`. The latch is `_landAnswers` (a Set of qhashes),
-  // never `_landPending` — `_breakCombo` clears that one.
+  // ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so the FIRST card
+  // resolved per landing (whichever one it is; answered, or run out of time) is THE landing
+  // question — combo, `land_q_answered` — and those stay once per landing. Every card counts for the
+  // ODDS (v1.221.0, owner: "it's not a 1 slot thing, but many"): the k-th card resolved adds row k of
+  // NG_LAND_ANSWER_STEPS to qMod, diminishing, nothing past the table, and takes the same hit on the
+  // cards; a later card emits `land_q_extra` with its k. stage/srs/prep still run for every card
+  // inside _mcAnswer/gradeRecall. The step counter is `_landResolved`, never `_landPending` —
+  // `_breakCombo` clears that one; `_landAnswers` (qhashes) still drives the deck's completion.
   _landDeckCards(key) {
     return this._cardsOf(((this.flashcards && this.flashcards.decks) || {})[key]) || [];
   }
@@ -14740,15 +14813,10 @@ class Component extends DCLogic {
                                 // (declined-but-unrevealed is NOT this case: see _expireLandQ)
       rec.answered = true;
       if (this._landQ === rec) this._landQ.answered = true;
-      const first = !this._landAnswers || this._landAnswers.size === 0;
       if (this._landAnswers) this._landAnswers.add(qh);
-      if (first) this._landAnswered(ok, tier, mode, hooks, fmt);
-      else {
-        this._disarmLandClock();
-        this._dropCountdownEvent();
-        this.refreshOptionOdds();
-        this.fx("land_q_extra", { correct: !!ok, tier: tier || null, deckKey: key });
-      }
+      // EVERY CARD COUNTS (v1.221.0): its place among the resolved cards picks its step; the first
+      // alone is the landing question (momentum, challenge evidence)
+      this._landAnswered(ok, tier, mode, hooks, fmt, (this._landResolved = (this._landResolved || 0) + 1));
       this._updateLandDeck();
     };
     let usedRecall = landRecall;
@@ -14893,7 +14961,8 @@ class Component extends DCLogic {
     const q = this._landQ, el = this._landEl;
     if (!q || q.answered || q.revealed || !el) return;
     this._armLandClock(el.querySelector("[data-land-clock]"));
-    if (this._landClockEl) this._landClockEl.style.transform = "scaleX(1)";
+    const d = this._decision;
+    if (this._landClockEl) this._landClockEl.style.transform = "scaleX(" + (d && d.total && d.remaining != null ? Math.max(0, Math.min(1, d.remaining / d.total)).toFixed(4) : 1) + ")";
   }
   // ── PAGING: prev/next flashcard of THIS node ── (owner: "scroll left or right on the land
   // card, and it should show the previous or the next card" = the same node's deck.) Replaces
@@ -14916,6 +14985,11 @@ class Component extends DCLogic {
     const seq = (this._landPageSeq = (this._landPageSeq || 0) + 1);
     // Pause immediately, including while a cold distractor pool loads. A newly mounted,
     // unanswered card gets its own full window; edge-clamped gestures never reset the clock.
+    // ONE WINDOW PER CARD (v1.221.0): the card being left keeps what was left of its window, and
+    // coming back to it resumes that instead of a fresh one — a skip is free, but paging back and
+    // forth can never buy a card more time.
+    const leaving = this._landQ, dd = this._decision;
+    if (leaving && !leaving.answered && dd && dd.remaining != null && !this._cwArm) leaving.left = Math.max(0, dd.remaining);
     this._disarmLandClock();
     this._dropCountdownEvent();
     const mount = (qw) => {
@@ -15020,7 +15094,8 @@ class Component extends DCLogic {
       this._landPage = null;         // cursor into _cardsOf(deck); set at the first mount
       this._landPaged = false;       // "the user moved the cursor this landing"
       this._landDeckComplete = false;
-      this._landAnswers = new Set(); // qhashes answered THIS landing — the first is the scored one
+      this._landAnswers = new Set(); // qhashes answered THIS landing
+      this._landResolved = 0;        // cards resolved THIS landing (answered or timed out): the step row
       this._landPageCache = {};      // qhash -> {el, q, mc}: re-paging re-parents, never redraws
     }
     // A cold visitor's FIRST landing carries its question like every other one. This used to
@@ -16440,10 +16515,24 @@ class Component extends DCLogic {
     this._dockLandStack();
     this._dockLandMore(el, rb);
   }
-  _landAnswered(correct, tier, mode, hooks, format) {
+  /** The qMod step of the k-th card resolved in this landing (k from 1): kind is correct · wrong · trap ·
+   *  expiry, and a timeout reads the wrong step. 0 past the table (the cap). */
+  _landStep(k, kind) {
+    const row = Number.isSafeInteger(k) && k >= 1 ? NG_LAND_ANSWER_STEPS[k - 1] : null;
+    if (!row) return 0;
+    return kind === "correct" ? row.correct : kind === "trap" ? row.trap : row.wrong;
+  }
+  /** One card resolved by an answer. `k` is its place among the cards resolved in this landing
+   *  (`_landResolved`): k = 1 is THE landing question, which alone moves momentum and is challenge
+   *  evidence (`land_q_answered`); every later card adds only its NG_LAND_ANSWER_STEPS step to this
+   *  exchange (`land_q_extra`), and takes the same hit on the cards. */
+  _landAnswered(correct, tier, mode, hooks, format, k) {
+    k = k || 1;
     this._disarmLandClock(); // the question is resolved — the window is spent, well or badly
     this._landPending = false;
     if (this._landQ) this._landQ.answered = true; // scored — no payload may ever re-mount this block
+    const step = this._landStep(k, correct ? "correct" : tier === "trap" ? "trap" : "wrong");
+    if (step) this._qMod = (this._qMod || 0) + step;
     if (correct) {
       // SELF-GRADED RECALL EARNS ODDS, NEVER CLOCK OR COMBO (v1.105.1). "Show answer → Got it"
       // is an unverifiable claim; under MC the +2.5s refund and the combo tick are unforgeable,
@@ -16451,21 +16540,25 @@ class Component extends DCLogic {
       // (gradeRecall → noteCardDone) still flows — recall is worth MORE proof, just not more
       // clock.
       const selfGraded = format === "recall";
-      if (!selfGraded) this._comboUp();
+      if (k === 1 && !selfGraded) this._comboUp();
       // The +2.5s refund died with the hand clock (v1.133.0): answering IS what the window was for.
       // The outcome lands on the cards (v1.218.0); ×2+ still gets the combo pop on top.
-      this._outcome({ tone: "good", tag: "correct", big: "\u2191", sr: "Correct: your chances on these moves go up." });
+      this._outcome({ tone: "good", tag: "correct", big: step ? "+" + Math.round(step * 100) + "%" : "\u2191",
+        sr: k === 1 || step ? "Correct: your chances on these moves go up." : "Correct." });
     } else {
-      const cost = tier === "trap" ? 0.08 : 0.04;
-      this._qMod = (this._qMod || 0) - cost;
-      const broke = this._breakCombo("wrong");
-      const pts = Math.round(cost * 100);
-      this._outcome({ tone: "bad", tag: tier === "trap" ? "that one hurts" : "missed", big: "\u2212" + pts + "%", broke: broke,
-        sr: (tier === "trap" ? "That one hurts" : "Missed") + ": your chances on these moves drop " + pts + " points." });
+      const broke = k === 1 ? this._breakCombo("wrong") : 0;
+      const pts = Math.round(-step * 100);
+      const tag = tier === "trap" ? "that one hurts" : "missed";
+      this._outcome({ tone: "bad", tag: tag, big: pts ? "\u2212" + pts + "%" : "0%", broke: broke,
+        sr: (tier === "trap" ? "That one hurts" : "Missed") + (pts ? ": your chances on these moves drop " + pts + " points." : ": no further cost on this exchange.") });
     }
     this.refreshOptionOdds();
-    this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0, combo: this._combo || 0 });
-    if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
+    if (k === 1) {
+      this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0, combo: this._combo || 0 });
+      if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
+    } else {
+      this.fx("land_q_extra", { correct: !!correct, tier: tier || null, deckKey: this._landQ ? this._landQ.key || null : null, k: k, step: step, qMod: this._qMod || 0 });
+    }
   }
   // ══ THE OUTCOME LANDS ON YOUR CARDS (v1.218.0, owner 2026-10-02) ════════════════════════════
   // "this toast is very distracting, and i'm like -4%? wait what? … like that animation that happens
@@ -16852,6 +16945,16 @@ class Component extends DCLogic {
           this.fx("escape_odds_pumped", { deck_key: pk });
           this._jitIdx[pk] = idx + 1;
           render();                     // next question, exactly as Got-it always advanced
+        } else {
+          // A WRONG ANSWER COSTS WHAT RUNNING OUT OF TIME COSTS (v1.221.0, orchestrator LDECK-GO): the
+          // drill's timeout breaks momentum, and a wrong answer used to cost nothing, so letting the
+          // clock run was never cheaper than guessing — the timeout must never cost more than a wrong
+          // answer on the same card. Now both break momentum, as the landing's first card does; no
+          // escape number moves either way, so no card takes a hit. (ngKnowledgeAdvance's panic
+          // "wrong" row says the same since DEVMV39; the MDP never reads it — arrivals only.)
+          const broke = this._breakCombo("wrong");
+          this._outcome({ tone: "bad", tag: "missed", big: "no boost", broke: broke, hits: false,
+            sr: "Missed: your escapes get no boost." });
         }
         this._dockLandCard(card);
         if (row) this.setBeacon("escape", row);  // graded — now TAKE the escape
@@ -18254,6 +18357,10 @@ class Component extends DCLogic {
     const grace = this._returningVisitor() ? 1 : 1.5;
     const sec = (this._decisionDsec || this.get("decisionSec", 9)) * grace;
     d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
+    // a landing card paged back to resumes ITS window (`_landPageTo` keeps what was left of it)
+    const lq = this._landQ;
+    if (lq && lq.left != null && !lq.answered && clockEl && this._landEl && this._landEl.contains(clockEl) &&
+      !this._landEl.hasAttribute("data-panic")) d.remaining = Math.min(d.total, lq.left);
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
     this._barF = null; // the >0.002 dedupe latch must not skip the first write
@@ -18349,14 +18456,20 @@ class Component extends DCLogic {
       }
     }
     if (q.key && q.card) this._schedule(q.key, q.card.q, false); // revealed unanswered = a failed review
-    this._qMod = (this._qMod || 0) - 0.04;
-    this.fx("land_q_expired", { deckKey: q.key || null }); // beat BEFORE the break — it clears _landPending
-    const broke = this._breakCombo("slow");
+    // A TIMEOUT IS THE WRONG STEP OF THE CARD IT RAN OUT ON (v1.221.0), never more: the first card
+    // resolved in a landing costs −4 and breaks momentum exactly as a wrong answer does; a later
+    // card, paged to, costs its smaller step and leaves momentum alone — as a wrong answer there does.
+    const k = (this._landResolved = (this._landResolved || 0) + 1);
+    const step = this._landStep(k, "expiry");
+    if (step) this._qMod = (this._qMod || 0) + step;
+    this.fx("land_q_expired", { deckKey: q.key || null, k: k, step: step }); // beat BEFORE the break — it clears _landPending
+    const broke = k === 1 ? this._breakCombo("slow") : 0;
     this._landPending = false;
     if (this._landEl) this._dockLandCard(this._landEl);
     // armed BEFORE the refresh, so the repaint that moves each card's number is the one that hits it
-    this._outcome({ tone: "bad", tag: "too slow", big: "\u22124%", broke: broke,
-      sr: "Too slow: the answer is revealed, and your chances on these moves drop 4 points." });
+    const pts = Math.round(-step * 100);
+    this._outcome({ tone: "bad", tag: "too slow", big: pts ? "\u2212" + pts + "%" : "0%", broke: broke,
+      sr: "Too slow: the answer is revealed" + (pts ? ", and your chances on these moves drop " + pts + " points." : ", at no further cost on this exchange.") });
     this.refreshOptionOdds();
   }
   // (The v1.138.0 "expiry sentence is a lease" — `_evExpiry`, `_dropExpiryEvent`, its five drop
@@ -18424,7 +18537,13 @@ class Component extends DCLogic {
   executionCard(opt) {
     const shown = (this._optionCards || []).find((c) => c.opt === opt);
     if (!shown) return null;
-    const card = shown.card.cloneNode(true); // no listeners, no live choice or forecast record
+    // TWO LAYERS (v1.220.0): `face` is the chosen card, cloned (no listeners, no live choice or
+    // forecast record); `card` is the static HOLDER that owns the stand-in's rectangle, its status
+    // attributes and its input. The face is what `_placeOnTable` lifts, so the lift never moves the
+    // hit area: a click anywhere on the card's old rectangle still lands on the stand-in (§6.1).
+    const face = shown.card.cloneNode(true);
+    const card = document.createElement("div");
+    card.appendChild(face);
     const row = this.optionsRef.current;
     // Keep the chosen card under the pointer for a repeated click. Clamp an off-screen
     // keyboard choice into view; the percentage bound also survives a narrower viewport.
@@ -18439,9 +18558,9 @@ class Component extends DCLogic {
       const x = shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left - padL;
       card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - 150px + " + padR + "px))";
     }
-    card.removeAttribute("data-tech");
-    card.removeAttribute("data-choice-action");
-    card.removeAttribute("tabindex");
+    face.removeAttribute("data-tech");
+    face.removeAttribute("data-choice-action");
+    face.removeAttribute("tabindex");
     card.setAttribute("data-executing-tech", this.choiceLabel(opt));
     card.setAttribute("role", "status");
     card.setAttribute("aria-live", "polite");
@@ -18449,14 +18568,34 @@ class Component extends DCLogic {
     card.setAttribute("aria-disabled", "true");
     // Preserve the chosen face and its status label while retiring the execute control.
     // cloneNode already dropped its handlers; the resulting status has no live buttons.
-    card.querySelectorAll("[data-choice-execute]").forEach((el) => el.replaceWith(...el.childNodes));
-    card.querySelectorAll("button, .ngbar, .ngedge").forEach((el) => el.remove());
+    face.querySelectorAll("[data-choice-execute]").forEach((el) => el.replaceWith(...el.childNodes));
+    face.querySelectorAll("button, .ngbar, .ngedge").forEach((el) => el.remove());
     // It has no action, but still owns its rectangle: a second click must not tap the graph
     // underneath. The tray's parent remains disabled; only this presentation catches input.
     card.addEventListener("pointerdown", (e) => e.stopPropagation());
     card.addEventListener("click", (e) => e.stopPropagation());
-    Object.assign(card.style, { pointerEvents: "auto", cursor: "default", transform: "none", transition: "none", opacity: "1", width: "150px", flex: "0 0 150px" });
+    Object.assign(card.style, { position: "relative", pointerEvents: "auto", cursor: "default", width: "150px", flex: "0 0 150px", height: (shown.card.offsetHeight || 144) + "px" });
+    Object.assign(face.style, { pointerEvents: "none", cursor: "default", transform: "none", transition: "none", opacity: "1", width: "100%" });
     return card;
+  }
+  // THE CARD IS PUT ON THE TABLE (v1.220.0, owner 2026-10-05: "when i click on a choice card there
+  // should be a more polished animation of the card. it seems very static and immovable, perhaps it
+  // should move a little bit up as if putting a card on the table in front of us"). The chosen
+  // card's FACE rises NG_CARD_LIFT of its own height, then is set down with a slight give, and the
+  // execution presentation carries on. Only the face moves: the holder (`executionCard`) owns the
+  // rectangle throughout, so the lift opens no click hole onto the graph. Under reduced motion it
+  // does not rise. Pinned by e2e/journeys/card-presentation.spec.ts.
+  _placeOnTable(card) {
+    const face = card && card.firstElementChild;
+    if (!face || typeof face.animate !== "function") return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const lift = -Math.round(NG_CARD_LIFT * (face.offsetHeight || 144));
+    face.animate([
+      { transform: "translateY(0) scale(1)", easing: "cubic-bezier(.2,.8,.3,1)" },
+      { transform: "translateY(" + lift + "px) scale(1.035)", offset: 0.38, easing: "cubic-bezier(.5,0,.75,.4)" },
+      { transform: "translateY(0) scale(.985)", offset: 0.76, easing: "ease-out" },
+      { transform: "translateY(0) scale(1)" },
+    ], { duration: NG_CARD_LIFT_MS });
   }
   startExecution(opt, card) {
     this.clearExecution();
@@ -18464,7 +18603,11 @@ class Component extends DCLogic {
     this._bandBot = null; // the selected card, not the retired landing, now bounds the flight
     if (card && this.optionsRef.current) {
       this.optionsRef.current.style.justifyContent = "flex-start";
+      // the row holds only the stand-in now and scrolls nothing, so it stops clipping: a row that
+      // scrolls in x clips in y, and the lift rises past its 8px top padding (the deal restores both)
+      this.optionsRef.current.style.overflow = "visible";
       this.optionsRef.current.appendChild(card);
+      this._placeOnTable(card);
     }
   }
   executionEvent(kicker, text, tone, status) {

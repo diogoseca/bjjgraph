@@ -168,6 +168,27 @@ jobs:
       - name: Category index pages match their generator (hard gate)
         run: python3 scripts/check_category_hubs.py
 
+      # EVERY GENERATED PAGE MATCHES ITS GENERATOR (B-07, 2026-10-06). content/*.md is generated from
+      # content/*.json and templates/, and nothing checked that the committed pages were the generator's
+      # current output, so 507 pages drifted silently: their system-card titles and captions lagged the
+      # 2026-09-17 System renames for three weeks. This re-runs the FREE half of the chain (never the paid
+      # regenerate:json) and fails on ANY difference. `git status --porcelain`, not `git diff --exit-code`,
+      # so a newly generated page (untracked) or a deleted one fails too. Both generators are deterministic
+      # and read no git history or file times, so CI's shallow checkout regenerates the same bytes.
+      # The fix for a red here is `npm run regenerate:md && npm run regenerate:hubs`, then commit content/.
+      - name: Generated content matches its generator (hard gate)
+        run: |
+          python3 scripts/regenerate_md_from_json.py --all > /tmp/regen-md.log 2>&1 || { tail -40 /tmp/regen-md.log; exit 1; }
+          python3 scripts/regenerate_category_hub_pages.py > /tmp/regen-hubs.log 2>&1 || { tail -40 /tmp/regen-hubs.log; exit 1; }
+          drift="$(git status --porcelain -- content/)"
+          if [ -n "$drift" ]; then
+            echo "::error::$(printf '%s\n' "$drift" | wc -l) file(s) under content/ differ from what the generator writes. Run: npm run regenerate:md && npm run regenerate:hubs, then commit content/."
+            printf '%s\n' "$drift" | head -40
+            git diff --stat -- content/ | tail -3
+            exit 1
+          fi
+          echo "content/ matches its generator: $(git ls-files -- 'content/*.md' | wc -l) tracked pages, 0 drifted"
+
       # THE SCHEMA MARKUP MUST PARSE. Every content page carries JSON-LD built by interpolating
       # authored prose into a hand-written JSON string literal, so one `"` in the prose ends the
       # string early and the block is silently unparseable: Google drops it without a word, the
