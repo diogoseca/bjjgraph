@@ -1731,8 +1731,8 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "908d57f6e2e8692c8acb70550603b366b2ae89ad",
-   "capture_id": "fa5742b803594a89a2a378bef65ee2da",
+   "capture_git_head": "de24ad1895427032bf09153f67c0a5c8ce11dc5c",
+   "capture_id": "94e2b4ce7c27402e80c3c1d205bbac6a",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -1761,12 +1761,12 @@
     }
    },
    "output_identity": {
-    "files": 15996,
-    "sha256": "2ee97c57030358716c7798f8cd387f5c3451a4b6a3fa74def5c2d16f05820953"
+    "files": 16001,
+    "sha256": "2ff6d9b29c2057c4c2cbca94a3054311a92eeca57d5eb1e7a5d509094ee703c4"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-adopt-system-card-regen-908d57f6e/pr-adopt-system-card-regen-908d57f6e"
+    "/home/user/bjj-orchestrator/golden/pr-twa-android-de24ad189/pr-twa-android-de24ad189"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
