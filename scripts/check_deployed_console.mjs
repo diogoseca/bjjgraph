@@ -8,7 +8,10 @@
 // (CLAUDE.md 6.4), the local build is keyless (no PostHog), and Cloudflare injects its analytics
 // beacon at the EDGE, so it is in no built file. This runs after the deploy, against the deploy.
 //
-// WHAT IT DOES. Boot `/`, wait for the app to move the address bar itself, play one move, then
+// WHAT IT DOES. First wait until the deployment URL answers like this site (waitForReady: HTTP 200, a CSP
+// header, /postscript.js in the document; bounded at 180 s, every attempt printed), because Cloudflare
+// serves a fresh per-deploy URL a little after wrangler prints it. Then boot `/`, wait for the app to move
+// the address bar itself, play one move, then
 // check four things and print every offender:
 //   1. CSP: no `securitypolicyviolation` event (report-only today, so these are exactly the lines
 //      the owner saw), and the document must CARRY a CSP, or "no violations" means "no policy";
@@ -36,7 +39,7 @@
 // Usage: node scripts/check_deployed_console.mjs <origin>       e.g. https://bjjgraph.org
 // It reads POSTHOG_API_HOST (both deploy jobs export it) ONLY to print that host as <posthog-proxy>:
 // its logs are public, and the proxy's name stays out of this repo (see report()).
-// Exit: 0 clean · 1 offenders (each printed) · 2 could not run.
+// Exit: 0 clean · 1 offenders (each printed), or the deployment URL never became ready · 2 could not run.
 import { pathToFileURL } from "node:url"
 
 export const ANALYTICS_SITE_HOST = "bjjgraph.org"
@@ -204,12 +207,71 @@ export function report(log, env = process.env) {
   return { out: out.map(r), err: err.map(r), code: offenders.length ? 1 : 0 }
 }
 
+// READINESS (CONSOLE-FLAKE, 2026-10-07). wrangler prints the per-deployment URL the moment the upload
+// finishes, but Cloudflare serves it a little later: 4 of 5 dev deploys (runs 37556087454, 37562249240,
+// 37569156104, 37572736399) read `HTTP 404: https://<hash>.bjjgraph.pages.dev/` with no CSP, and so failed
+// all six of their offenders on a URL that answered 200 minutes later. The check was right to fail (it
+// never passed on an empty run); it was asked too early. So the browser does not start until the URL
+// answers like THIS site: HTTP 200, a CSP header (the not-ready 404 carries none), and the root-absolute
+// /postscript.js every page loads. Bounded; every attempt printed; never ready FAILS BY NAME, never passes.
+export const READY_TIMEOUT_MS = 180_000
+export const READY_MARKER = "/postscript.js"
+
+/** One response -> is this our deployed document? Pure, so a test can hold it to the rule. */
+export function readyVerdict(status, headers, body) {
+  const h = Object.fromEntries(Object.entries(headers ?? {}).map(([k, v]) => [k.toLowerCase(), v]))
+  if (status !== 200) return { ready: false, why: `HTTP ${status}` }
+  if (!h["content-security-policy-report-only"] && !h["content-security-policy"])
+    return { ready: false, why: "HTTP 200 but no CSP header (not this site's document yet)" }
+  if (!String(body ?? "").includes(READY_MARKER))
+    return { ready: false, why: `HTTP 200 but the body does not load ${READY_MARKER}` }
+  return { ready: true, why: "HTTP 200, CSP present, document loads " + READY_MARKER }
+}
+
+/** Polls `url` until readyVerdict says ready or `timeoutMs` passes. Injectable fetch, sleep and clock. */
+export async function waitForReady(url, {
+  fetchImpl = fetch,
+  sleep = (ms) => new Promise((res) => setTimeout(res, ms)),
+  now = () => Date.now(),
+  timeoutMs = READY_TIMEOUT_MS,
+  intervalMs = 5_000,
+  log = (line) => console.log(line),
+} = {}) {
+  const start = now()
+  let attempts = 0
+  let last = "no attempt made"
+  for (;;) {
+    attempts++
+    let verdict
+    try {
+      const res = await fetchImpl(url, { redirect: "follow", headers: { "cache-control": "no-cache" } })
+      const headers = {}
+      res.headers.forEach((v, k) => (headers[k] = v))
+      verdict = readyVerdict(res.status, headers, await res.text())
+    } catch (e) {
+      verdict = { ready: false, why: `request failed: ${e?.message ?? e}` }
+    }
+    last = verdict.why
+    const elapsed = Math.round((now() - start) / 1000)
+    log(`[deployed-console] readiness attempt ${attempts} at ${elapsed}s: ${verdict.ready ? "READY" : "not ready"}: ${verdict.why}`)
+    if (verdict.ready) return { ready: true, attempts, waitedMs: now() - start, last }
+    if (now() - start + intervalMs > timeoutMs) return { ready: false, attempts, waitedMs: now() - start, last }
+    await sleep(intervalMs)
+  }
+}
+
 async function main() {
   const r = redactor(proxyHost())
   const originArg = process.argv[2]
   if (!originArg) {
     console.error("usage: node scripts/check_deployed_console.mjs <origin>")
     process.exit(2)
+  }
+  const origin = new URL(originArg).origin
+  const ready = await waitForReady(origin + "/", { log: (line) => console.log(r(line)) })
+  if (!ready.ready) {
+    console.error(r(`[deployed-console] FAIL — deployment URL never became ready: ${origin}/ after ${ready.attempts} attempts over ${Math.round(ready.waitedMs / 1000)}s (last: ${ready.last})`))
+    process.exit(1)
   }
   let log
   try {
