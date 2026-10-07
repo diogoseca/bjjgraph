@@ -1,14 +1,14 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-twa-android-de24ad189/pr-twa-android-de24ad189",
+  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-family-wikilinks-1b21f00f0/pr-family-wikilinks-1b21f00f0",
   "content_provenance": {
-   "capture_git_head": "de24ad1895427032bf09153f67c0a5c8ce11dc5c",
-   "capture_id": "94e2b4ce7c27402e80c3c1d205bbac6a",
+   "capture_git_head": "1b21f00f0085f75c896c50be75e625e3e1efe0d6",
+   "capture_id": "264d136c022d4784bfa397263084cc67",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "3b3af35c10e310a595387aeea89fa3487b7f8d53",
+   "content_tree": "b73c105f6bc4a79323c129bd4e324977771ce04a",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -33,11 +33,11 @@
    },
    "output_identity": {
     "files": 16001,
-    "sha256": "2ff6d9b29c2057c4c2cbca94a3054311a92eeca57d5eb1e7a5d509094ee703c4"
+    "sha256": "028a885aeaaacfe7c9f6fad28de717252e8f5c2384de48c366a61ebd5fba5667"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-twa-android-de24ad189/pr-twa-android-de24ad189"
+    "/home/user/bjj-orchestrator/golden/pr-family-wikilinks-1b21f00f0/pr-family-wikilinks-1b21f00f0"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

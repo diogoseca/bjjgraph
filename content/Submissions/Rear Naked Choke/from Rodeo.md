@@ -317,9 +317,9 @@ This submission represents a high-level integration of positional control and fi
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Rodeo Ride]] - Primary starting position from which this choke is applied
 - [[Positions/Back Control]] - Related dominant position and common transition when choke fails but control is maintained
-- [[Submissions/Bow and Arrow Choke/from Body Triangle]] - Related RNC variation from established back control using body triangle for enhanced hip control
+- [[Submissions/Rear Naked Choke/from Body Triangle]] - Related RNC variation from established back control using body triangle for enhanced hip control
 - [[Positions/Turtle]] - Defensive position the opponent occupies and common escape target
-- [[Submissions/Gift Wrap Armbar/from Gift Wrap]] - Related RNC variation using gift wrap arm isolation for finishing control
+- [[Submissions/Rear Naked Choke/from Gift Wrap]] - Related RNC variation using gift wrap arm isolation for finishing control
 - [[Positions/Back Control/Standing Back Control]] - Alternative starting position where RNC can be initiated before transitioning to ground
 - [[Positions/Crab Ride]] - Related turtle attack position that can transition to Rodeo Ride and RNC opportunities
 

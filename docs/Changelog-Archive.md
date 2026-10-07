@@ -10699,3 +10699,64 @@ ORDER1):
 - `.well-known` 1 → 2.
 
 SEO head and JSON-LD are identical.
+
+## v1.224.0 — A BARE WIKILINK RESOLVES INSIDE ITS OWN FAMILY; WHAT NO FAMILY CAN DECIDE IS COUNTED (B07-RED1, 2026-10-07)
+
+quartz-cto's B-07 tally (`b07-ambiguous-bare-names.json`, at caa16fd17) found 77 bare stems that answer to
+more than one page: 1,659 authored references in 783 files. The sorted walk made the pick deterministic but
+not right. A variant stem such as "from Gift Wrap" exists in Gift Wrap Armbar, Kimura, Rear Naked Choke and
+Short Choke, and the sorted-first one is right for at most one family: Rear Naked Choke's own variants linked
+Gift Wrap Armbar's.
+
+`resolve.for_page(json_path)` binds the resolver to the page doing the linking, and `process_json_file` uses
+it for every render. A candidate in the page's own family folder wins: a hub
+(`Submissions/Rear Naked Choke.json`) and its variants share one family. The context-free `resolve` is
+unchanged, so the B-07 walk-order cases still hold.
+
+Measured on the full corpus run (a dry `process_all_categories(dry_run=True)`, then each `_FAMILY_RESOLVED`
+pair compared with the context-free `resolve`):
+- 25 (page, name) pairs resolve in-family, 3 of them from hubs. 18 had already landed in their own family
+  under the sorted-first pick. The report's 294 in-family references are mostly hub `variations[].name`
+  (235), and a hub reaches its variants through its own folder (`aggregate_family_variants`), never
+  through `resolve`;
+- 7 links on 5 pages retarget:
+  - Armbar/from Crucifix and Armbar/from Side Control: Americana → Armbar (from Mount, from Side Control);
+  - Calf Slicer/from Rodeo Ride: Banana Split → Calf Slicer (from Truck);
+  - Rear Naked Choke/from Mounted Crucifix and from Rodeo: Gift Wrap Armbar → RNC (from Gift Wrap), and
+    Bow and Arrow Choke → RNC (from Body Triangle).
+
+**What family cannot decide is a name shared ACROSS families or categories.** The worst:
+- "Knee on Belly", from 120 pages;
+- "Gift Wrap", 112 (a Position AND a Transition);
+- "Anaconda Choke", 107.
+
+In all, 18 names and 1,007 page links keep the sorted-first fallback. Every run prints them as a positive
+count (CLAUDE.md §6.6), and `tests/artifacts/wikilink_ambiguity_baseline.json` ratchets them by name:
+- a NEW name fails any run, naming its pages;
+- a cleared name fails a full run only, because a `--file` run cannot see the corpus;
+- the baseline is rewritten only by `--all --accept-ambiguity --reason`, which the parser refuses on
+  `--file` or `--category`.
+
+ci-validate's drift step runs `--all`, so the ratchet fires in CI. The bots' `--file` runs judge only the
+page they rewrote:
+- `proofread-bot` and `validation-fixer` stop when a bot authors a new cross-family bare name, before
+  opening a PR that the drift step would fail anyway;
+- the two content bots log a warning and carry on.
+
+**Gates.** `tests/wikilink_family_test.py` has 9 cases, collected through its `.test.mjs` wrapper. The
+candidate families come from the FILESYSTEM, not from the resolver's own index (§6.3): 455 family links
+checked, 241 of them from hubs. 7 mutants, each red by name:
+
+| mutant | killed by |
+|---|---|
+| no family preference | every-family-page, RNC gift wrap |
+| a hub outside its own family | every-family-page (hub half), RNC gift wrap |
+| cross-family pairs not counted | falls-back-and-is-counted |
+| NEW-name loop removed | a-new-name-fails-any-run |
+| cleared-name loop removed | a-cleared-name-fails-a-full-run-only |
+| a partial run judges cleared names | the same |
+| `--accept-ambiguity` guard removed | accepting-needs-the-whole-corpus |
+
+**Not done: FIELD-aware resolution.** A `transitions[].transition` entry can only mean a Transition, so the
+cross-category names ("Gift Wrap", "Knee on Belly") could be settled by the field that names them. That is
+a separate change, and the baseline shrinks when it lands.
