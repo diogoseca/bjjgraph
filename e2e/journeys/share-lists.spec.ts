@@ -202,12 +202,25 @@ test("a coach collects today's class into a list from the surfaces they are alre
       b.y + b.height <= 900
     );
   };
-  for (let i = 0; i < 30 && !(await onScreen()); i++) await j.advance(400);
+  // ...and not merely on screen but REACHABLE: since v1.221.0 the seat star is graph chrome UNDER the
+  // landing card (it used to float over it and eat the card's clicks — the deck's next chevron, an MC
+  // option), so mid-flight, while the star still crosses the card, the card rightly takes the point.
+  // Wait for the flight to clear it and take it with a real mouse (§6.3).
+  const reachable = async () =>
+    (await onScreen()) &&
+    page.evaluate((id: string) => {
+      const b = document.querySelector(`[data-list-add="${id}"][data-list-surface="seat"]`) as HTMLElement | null;
+      if (!b) return false;
+      const r = b.getBoundingClientRect(), at = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+      return !!at && b.contains(at);
+    }, picks[1].id);
+  for (let i = 0; i < 30 && !(await reachable()); i++) await j.advance(400);
   expect(
     await onScreen(),
     "the opened technique's capture lands on screen after the flight",
   ).toBe(true);
-  await dossierAdd.click();
+  expect(await reachable(), "...and nothing covers it once the flight settles").toBe(true);
+  await j.clickByMouse(`[data-list-add="${picks[1].id}"][data-list-surface="seat"]`, "the opened technique's seat star");
   // ...and the second asks too, with the one list on offer
   await expect(page.locator("[data-list-picker]"), "the star asks again").toBeVisible();
   await page.locator("[data-list-pick]").first().click();
