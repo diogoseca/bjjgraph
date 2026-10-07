@@ -10645,3 +10645,27 @@ New ci-validate step, "Generated content matches its generator": regenerate, the
 three packages: 0 drifted on this branch (4,601 pages), red on origin/dev naming the 507. **A first mutant
 SURVIVED and the mutant was wrong, not the gate:** a hand edit left uncommitted is overwritten by the
 regeneration itself. The claim is about COMMITTED pages, and a committed hand edit is red, naming the file.
+
+## DEVMV39 — THE EXPOSURE LAW'S PANIC ROW MATCHES THE DRILL (2026-10-07, version stamped at merge)
+
+Follow-up from PR #272 (LDECK). Since v1.221.0 a wrong answer in the panic drill breaks momentum, as its
+timeout always did and as the landing's first card does, and moves no escape number. The shared law
+`ngKnowledgeAdvance` (`neural/src/knowledge-profile.src.js`) still described the old drill: a panic
+"wrong" returned the context unchanged. Its first guard now lets a panic wrong through to the
+`wrong`/`expiry` case, which breaks combo, clears the pending question and applies no qMod on the panic
+surface. Deck, JIT and node grades still change nothing.
+
+**Pins moved.** The law file's sha256 is a reviewed exposure-label law: `mdp-exposure.src.js`
+(`expected.knowledge`, now 17c12cbf…, with a changelog line) and `tests/mdp_exposure_adapter.test.mjs`.
+The MDP manifest carries it too (`lawHashes.knowledge`, `modelHash`); that is regenerated on every
+build. The census app rows were re-seeded with `validate:build-shape:app` from the clean tree, and again on the tree merged with #273's dev (B-07's content provenance kept).
+
+**Label-neutral, measured.** The adapter calls `ngKnowledgeAdvance` for arrivals only
+(`mdp-adapter.src.js`). Regenerated before and after the edit, every MDP shard part is byte-identical. The two variant descriptors differ only in `mechanicsHash`, and the manifest only in its provenance: `lawHashes.knowledge`, `modelHash`, and `gameplayHash`/`sourceHash` (from the one-line app comment this change corrects).
+
+**Gates.** `tests/knowledge_profile.test.mjs`: the old "panic wrong changes nothing" assertion is now
+"panic wrong = panic expiry, combo 0, qMod kept". A new test drives the CURRENT app's
+`_breakCombo("wrong")`, the call the drill's `done(false)` makes, and its panic `_expireLandQ`, and
+compares them field by field with the law. Putting the old guard back turns both red at the panic
+assertions. Partially pinned: that `done(false)` calls `_breakCombo` is the landing-deck-answers panic
+journey's claim, not this unit's.

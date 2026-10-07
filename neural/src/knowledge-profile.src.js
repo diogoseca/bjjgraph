@@ -178,17 +178,18 @@ export function ngKnowledgeAdvance(context, event) {
   const c = { ...ngKnowledgeClone(context) };
   const surface = event.surface || "land";
   // Only the landing onDone owns gameplay question rewards. Deck/JIT/panic MC
-  // grades change evidence, but never earn/break momentum. Panic expiry is the
-  // sole exception: it breaks combo without the landing's question penalty.
-  if (["mc-correct", "recall-correct", "wrong"].includes(event.type) && surface !== "land") return ngKnowledgeFreeze(c);
-  if (event.type === "expiry" && surface !== "land" && surface !== "panic") return ngKnowledgeFreeze(c);
+  // grades change evidence, but never earn momentum. The panic drill is the one
+  // other surface that costs it: a wrong answer and an expiry both break combo,
+  // without the landing's question penalty (the drill since v1.221.0, PR #272).
+  if (["mc-correct", "recall-correct"].includes(event.type) && surface !== "land") return ngKnowledgeFreeze(c);
+  if ((event.type === "wrong" || event.type === "expiry") && surface !== "land" && surface !== "panic") return ngKnowledgeFreeze(c);
   switch (event.type) {
     case "arrival": c.qMod = 0; c.arrivalAge = (c.arrivalAge || 0) + (event.first ? 0 : 1); break;
     case "commit": c.questionPending = false; break;
     case "mc-correct": c.combo = (c.combo || 0) + 1; c.questionPending = false; break;
     case "recall-correct": c.questionPending = false; break;
     case "wrong": case "expiry":
-      // Panic expiry only breaks momentum. Its own drill never applies qMod.
+      // The panic drill only breaks momentum. It never applies qMod.
       if (event.surface !== "panic") c.qMod = (c.qMod || 0) - (event.type === "wrong" && event.tier === "trap" ? 0.08 : 0.04);
       c.combo = 0; c.questionPending = false; break;
     case "new-roll": c.arrivalAge = 0; c.combo = 0; c.qMod = 0; c.questionPending = false; break;

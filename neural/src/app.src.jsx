@@ -16951,7 +16951,7 @@ class Component extends DCLogic {
           // clock run was never cheaper than guessing — the timeout must never cost more than a wrong
           // answer on the same card. Now both break momentum, as the landing's first card does; no
           // escape number moves either way, so no card takes a hit. (ngKnowledgeAdvance's panic
-          // "wrong" row still reads the pre-v1.221.0 drill; the MDP never reads it — arrivals only.)
+          // "wrong" row says the same since DEVMV39; the MDP never reads it — arrivals only.)
           const broke = this._breakCombo("wrong");
           this._outcome({ tone: "bad", tag: "missed", big: "no boost", broke: broke, hits: false,
             sr: "Missed: your escapes get no boost." });

@@ -93,7 +93,15 @@ test("future arrival law exactly matches real prior decay; commit and defense do
   assert.equal(K.ngKnowledgeAdvance(c, { type: "recall-correct" }).combo, 5);
   assert.equal(K.ngKnowledgeAdvance(c, { type: "mc-correct" }).combo, 6);
   for (const surface of ["panic", "jit", "deck", "node"]) for (const type of ["mc-correct", "recall-correct", "wrong"]) {
+    if (surface === "panic" && type === "wrong") continue; // the drill's one cost, below
     assert.deepEqual(K.ngKnowledgeAdvance(c, { type, surface, tier: "trap" }), c);
+  }
+  // THE PANIC DRILL (v1.221.0): a wrong answer costs exactly what its timeout costs — momentum, never qMod.
+  const cq = { ...c, qMod: -.02, questionPending: true };
+  for (const tier of ["wrong", "trap"]) {
+    const w = K.ngKnowledgeAdvance(cq, { type: "wrong", surface: "panic", tier });
+    assert.deepEqual(w, K.ngKnowledgeAdvance(cq, { type: "expiry", surface: "panic" }), `panic ${tier} = panic expiry`);
+    assert.equal(w.combo, 0); assert.equal(w.qMod, -.02); assert.equal(w.questionPending, false);
   }
   console.log(`prior sharpness transitions compared: ${checked}`);
 });
@@ -399,6 +407,33 @@ test("transient event projection equals real landing answer and both expiry bran
     assert.equal(c.combo, h._combo); assert.equal(c.qMod, h._qMod); assert.equal(c.questionPending, h._landPending); checked++;
   }
   console.log(`captured prior transient branches: ${checked}`);
+});
+
+// THE PANIC DRILL, AS THE CURRENT APP RUNS IT (v1.221.0). A wrong answer in the drill calls `_breakCombo("wrong")`
+// (its `done(false)`, app.src.jsx) and its clock calls `_expireLandQ`; each must land exactly where the law's panic
+// row does, field by field, stubbing only DOM callees. Partially pinned: this drives `_breakCombo`, the call
+// `done(false)` makes; that `done(false)` makes it is e2e/journeys/landing-deck-answers.spec.ts's panic journey.
+test("the panic drill's wrong answer and its timeout land where the law's panic rows do", () => {
+  const host = () => {
+    const h = Object.create(Component.prototype);
+    Object.assign(h, { _qMod: -.02, _combo: 3, _landPending: true, outcomes: [], beats: [], now: 10,
+      _defendSub: 1, _landEl: { hasAttribute: () => true, querySelector: () => null }, _panicFc: { pk: "A", fc: { q: "q" } },
+      _disarmLandClock() {}, _updateComboChip() {}, _comboPop() {}, refreshOptionOdds() {}, _schedule() {}, _dockLandCard() {},
+      _outcome(o) { this.outcomes.push(o); }, fx(beat, p) { this.beats.push([beat, p]); } });
+    return h;
+  };
+  const start = { combo: 3, qMod: -.02, questionPending: true };
+  let checked = 0;
+  for (const [drive, ev] of [[(h) => h._breakCombo("wrong"), { type: "wrong", surface: "panic", tier: "wrong" }],
+    [(h) => h._breakCombo("wrong"), { type: "wrong", surface: "panic", tier: "trap" }],
+    [(h) => h._expireLandQ(), { type: "expiry", surface: "panic" }]]) {
+    const h = host(); drive(h);
+    const c = K.ngKnowledgeAdvance(start, ev);
+    assert.equal(c.combo, h._combo, `${ev.type}/${ev.tier || "-"} combo`); assert.equal(c.qMod, h._qMod, `${ev.type}/${ev.tier || "-"} qMod`);
+    assert.equal(c.questionPending, h._landPending, `${ev.type}/${ev.tier || "-"} pending`);
+    assert.ok(h.beats.some(([b]) => b === "combo_break"), "the app broke momentum out loud"); checked++;
+  }
+  console.log(`panic drill resolutions checked against the law: ${checked}`);
 });
 
 // EVERY CARD COUNTS (v1.221.0). The steps are the owner's: the app's `_landStep` (NG_LAND_ANSWER_STEPS in
