@@ -685,6 +685,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
 | `tests/artifacts/ruleset_availability.json` | `validate:availability` | DERIVED, never authored — regenerate, never hand-edit |
 | `tests/artifacts/ruleset_surfaces.json` | `validate:surfaces` | one row per enumeration that deliberately skips the mask, each with a REASON; a row matching nothing fails |
+| `tests/artifacts/wikilink_ambiguity_baseline.json` | `regenerate:md` | bare names no family decides; a new one fails, a cleared one fails `--all`; move with `--accept-ambiguity --reason` |
 
 **Suites own dedicated ports** (core :8133, gen :8127, share :8129, replay :8151), all with
 `reuseExistingServer:false`. A config that reuses another worktree's server tests *that worktree's*
