@@ -8,6 +8,7 @@
     "serve": "node scripts/dev-serve.mjs",
     "build:forward": "node scripts/build_forward_components.mjs",
     "validate:forward": "node scripts/check_forward_catalog.mjs",
+    "ci:validate": "bash scripts/ci-local.sh",
     "validate:claudemd": "python3 scripts/check_claudemd_budget.py && python3 scripts/check_claudemd_refs.py",
     "census:update": "node scripts/update_census.mjs",
     "dev:neural": "npm run regenerate:neural && mkdir -p source/public/static/neural/app && cp -r source/quartz/static/neural/. source/public/static/neural/ && cp neural/dist/* source/public/static/neural/app/ && python3 scripts/apply_affiliate_ref.py && echo 'neural refreshed — reload the browser'",
