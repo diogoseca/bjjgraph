@@ -73,7 +73,10 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           MAX_CLAUDE_FILES: ${{ github.event.inputs.max_claude_files || '15' }}
         run: |
-          python3 scripts/validate_graph_integrity.py # fails on graph errors, writes audit_report.json
+          # Report the remaining errors for repair; the final whole-graph step gates the PR.
+          # Remove stale output so a validator crash cannot feed an old report to Claude.
+          rm -f tests/artifacts/audit_report.json
+          python3 scripts/validate_graph_integrity.py || true
           # Distinct files with error-severity issues, capped.
           python3 - <<'PY' > /tmp/errfiles.txt
           import json, os, sys

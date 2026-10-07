@@ -20,6 +20,7 @@ import argparse
 import json
 import sys
 import subprocess
+import tempfile
 from pathlib import Path
 
 AUDIT_PATH = Path("tests/artifacts/from_position_audit.json")
@@ -28,6 +29,29 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _ruleset import as_map, sum_cells, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2)
 from technique_equivalence import equivalence, technique_index
 from bot_queue import filter_candidates
+
+
+def graph_errors():
+    """Run the real validator and return named errors, allowing an existing backlog.
+
+    Exit 1 with a complete error report is a diagnostic result. A missing report,
+    unexpected exit code, or empty coverage is a failed inspection, never success.
+    """
+    with tempfile.TemporaryDirectory(prefix="from-position-graph-") as temp:
+        report = Path(temp) / "audit.json"
+        command = [sys.executable, str(Path(__file__).with_name("validate_graph_integrity.py")),
+                   "--output", str(report)]
+        result = subprocess.run(command)
+        if result.returncode not in (0, 1):
+            raise subprocess.CalledProcessError(result.returncode, command)
+        data = json.loads(report.read_text())
+    errors = [issue for issue in data["issues"] if issue["severity"] == "error"]
+    coverage = data["summary"]["ruleset_frames_checked"]
+    if (coverage <= 0 or len(errors) != data["summary"]["errors"]
+            or bool(errors) != (result.returncode == 1)):
+        raise ValueError("Incomplete graph inspection; aborting deterministic fixes")
+    print(f"Graph inspection: {coverage} ruleset frames checked; {len(errors)} errors reported.")
+    return {json.dumps(issue, sort_keys=True) for issue in errors}
 
 
 def safe_reference_rewrite(generic, variant, identities, results, pos_file):
@@ -481,6 +505,7 @@ def main():
     with open(AUDIT_PATH, "r", encoding="utf-8") as f:
         audit = json.load(f)
 
+    errors_before = graph_errors() if not args.dry_run else set()
     all_results = {}
     mode = "DRY RUN" if args.dry_run else "APPLYING FIXES"
 
@@ -547,10 +572,16 @@ def main():
     if not args.dry_run:
         if total_errors:
             sys.exit("Deterministic fixes reported errors; aborting.")
-        # Per-file schema checks cannot detect an orphan. Use the same whole-graph
-        # gate as npm run validate:graph; a failure stops the workflow before any PR.
-        subprocess.run([sys.executable, str(Path(__file__).with_name("validate_graph_integrity.py"))],
-                       check=True)
+        # Preserve the repair backlog, but never send a newly introduced error
+        # (such as Aoki's orphan) to Claude. The final workflow gate still requires
+        # ZERO errors before a PR, irrespective of this before/after comparison.
+        errors_after = graph_errors()
+        new_errors = errors_after - errors_before
+        print(f"Deterministic graph gate: {len(errors_before)} before, {len(errors_after)} after, "
+              f"{len(new_errors)} new errors.")
+        if new_errors:
+            sys.exit("Deterministic edits introduced graph errors; aborting before repair or PR:\n"
+                     + "\n".join(sorted(new_errors)))
         print("\nNext steps:")
         print("  python3 scripts/audit_from_position.py   # Re-audit to verify fixes")
         print("  npm run validate:graph                    # Run validation")

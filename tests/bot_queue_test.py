@@ -90,6 +90,47 @@ class QueueTests(unittest.TestCase):
             queue.snapshot("owner/repo", "proofread-bot",
                            lambda _: (_ for _ in ()).throw(subprocess.CalledProcessError(1, "gh")))
 
+    def test_oversized_votes_pr_reserves_its_batch_without_blocking_other_bots(self):
+        # #192/#194/#196: a 49 MB graph diff made GitHub report zero changed files.
+        for count in (0, 1, 2):
+            for bot in queue.BOT_BRANCHES.keys() - {"votes-refresh"}:
+                def get(url):
+                    if "state=open" in url:
+                        return [pr(192, "votes-refresh/date", bot=True)]
+                    if "/files?" in url:
+                        return []  # Also cover an incomplete positive-count response.
+                    return {"changed_files": count}
+                output = io.StringIO()
+                with self.subTest(count=count, bot=bot), contextlib.redirect_stderr(output):
+                    state = queue.snapshot("owner/repo", bot, get)
+                    self.assertEqual(state["own_prs"], [])
+                    self.assertEqual(state["reserved"], {"templates/votes.json": [192], "graph.json": [192]})
+                    self.assertEqual(queue.filter_candidates([
+                        "graph.json", "templates/votes.json", "content/Positions/Mount.json"], state),
+                        ["content/Positions/Mount.json"])
+                    self.assertIn("known votes-refresh batch", output.getvalue())
+
+    def test_votes_file_api_failure_recovers_known_batch(self):
+        def get(url):
+            if "state=open" in url:
+                return [pr(194, "votes-refresh/date", bot=True)]
+            if "/files?" in url:
+                raise subprocess.CalledProcessError(1, "gh")
+            return {"changed_files": 2}
+        state = queue.snapshot("owner/repo", "validation-fixer", get)
+        self.assertEqual(set(state["reserved"]), {"templates/votes.json", "graph.json"})
+        self.assertEqual(state["requests_checked"], 2)
+
+    def test_known_batch_cannot_hide_evidence_of_other_files(self):
+        def get(url):
+            if "state=open" in url:
+                return [pr(196, "votes-refresh/date", bot=True)]
+            if "/files?" in url:
+                return [{"filename": "content/unexpected.json"}]
+            return {"changed_files": 2}
+        with self.assertRaises(ValueError):
+            queue.snapshot("owner/repo", "validation-fixer", get)
+
     def test_cli_lookup_failure_is_nonzero_and_does_not_authorize_work(self):
         with tempfile.TemporaryDirectory(prefix="fixbots-queue-") as temp:
             root = Path(temp)

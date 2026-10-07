@@ -1,7 +1,9 @@
 """Derive the producer/action inventory from every workflow, then check its gates."""
 from pathlib import Path
+import os
 import re
 import subprocess
+import tempfile
 import unittest
 import yaml
 
@@ -58,7 +60,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertGreaterEqual(parsed, 16)
         print(f"Parsed {parsed} workflows; checked {actions} model/output contracts")
 
-    def test_deterministic_and_final_graph_gates_are_not_suppressed(self):
+    def test_final_graph_gate_is_not_suppressed(self):
         workflow = yaml.safe_load((ROOT / ".github/workflows/validation-fixer.yml").read_text())
         steps = workflow["jobs"]["fix"]["steps"]
         final_gate = next(i for i,s in enumerate(steps) if s["name"] == "Whole-graph gate after all edits")
@@ -66,9 +68,47 @@ class WorkflowTests(unittest.TestCase):
         self.assertLess(final_gate, pr)
         self.assertNotIn("||", steps[final_gate]["run"])
         self.assertFalse(steps[final_gate].get("continue-on-error", False))
-        script = (ROOT / "scripts/fix_from_position.py").read_text()
-        self.assertIn('with_name("validate_graph_integrity.py")', script)
-        self.assertIn('check=True', script)
+
+    def test_report_failure_reaches_repair_but_final_failure_blocks_pr(self):
+        workflow = yaml.safe_load((ROOT / ".github/workflows/validation-fixer.yml").read_text())
+        steps = workflow["jobs"]["fix"]["steps"]
+        repair = next(s for s in steps if s.get("id") == "claudepass")
+        final = next(s for s in steps if s["name"] == "Whole-graph gate after all edits")
+        self.assertLess(steps.index(repair), steps.index(final))
+        with tempfile.TemporaryDirectory(prefix="fixbots-wiring-") as temp:
+            root = Path(temp)
+            (root / "scripts").mkdir()
+            (root / "tests/artifacts").mkdir(parents=True)
+            (root / "content").mkdir()
+            (root / "content/Broken File.json").write_text('{}')
+            (root / "scripts/bot_queue.py").write_text('def filter_candidates(files): return files\n')
+            (root / "scripts/validate_graph_integrity.py").write_text(
+                'from pathlib import Path\n'
+                'Path("tests/artifacts/audit_report.json").write_text(\'{"issues": ['
+                '{"severity": "error", "file": "content/Broken File.json"}]}\')\n'
+                'raise SystemExit(1)\n')
+            (root / "scripts/regenerate_content_json.py").write_text(
+                'from pathlib import Path\nPath("repair-reached").touch()\n')
+            command = repair["run"].replace('/tmp/errfiles.txt', str(root / 'errfiles.txt'))
+            result = subprocess.run(['bash', '-eo', 'pipefail', '-c', command], cwd=root,
+                                    env={**os.environ, 'MAX_CLAUDE_FILES': '1'}, capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue((root / 'repair-reached').exists())
+            result = subprocess.run(['bash', '-eo', 'pipefail', '-c', final['run'] + '\ntouch pr-reached'],
+                                    cwd=root, capture_output=True, text=True)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertFalse((root / 'pr-reached').exists())
+        print('Report exit 1 reached repair; final exit 1 blocked PR publication')
+
+    def test_votes_known_batch_matches_the_workflow_staging_scope(self):
+        import sys
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from bot_queue import KNOWN_BATCHES
+        workflow = yaml.safe_load((ROOT / ".github/workflows/votes-refresh.yml").read_text())
+        creates = next(s['run'] for s in workflow['jobs']['votes']['steps'] if 'gh pr create' in s.get('run', ''))
+        staged = re.findall(r'^git add (.+)$', creates, re.M)
+        self.assertEqual(len(staged), 1)
+        self.assertEqual(set(staged[0].split()), set(KNOWN_BATCHES['votes-refresh']))
 
     def test_changed_workflow_shell_blocks_parse(self):
         count = 0

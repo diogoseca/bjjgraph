@@ -18,6 +18,10 @@ BOT_BRANCHES = {
     "proofread-bot": "proofread-bot/",
     "votes-refresh": "votes-refresh/",
 }
+# votes-refresh stages exactly this batch. GitHub can report zero files for its
+# oversized graph diff (#192/#194/#196). The workflow contract test pins this
+# fallback to the producer's actual staging scope.
+KNOWN_BATCHES = {"votes-refresh": ("templates/votes.json", "graph.json")}
 
 
 def api(path):
@@ -63,31 +67,55 @@ def reservation_key(filename):
 
 
 def snapshot(repo, bot, get=api):
-    prs, requests = pages(f"repos/{repo}/pulls?state=open", get)
+    requests = 0
+
+    def lookup(path):
+        nonlocal requests
+        result = get(path)
+        requests += 1
+        return result
+
+    prs, _ = pages(f"repos/{repo}/pulls?state=open", lookup)
     if len({p["number"] for p in prs}) != len(prs):
         raise ValueError("PR inventory changed during pagination; retry the lookup")
     own = [p["number"] for p in prs if producer(p) == bot]
     bot_prs = [pr for pr in prs if is_bot(pr)]
-    reserved, files_checked = {}, 0
+    reserved, files_checked, batch_paths = {}, 0, 0
     # No reservations are needed when the entire producer is already blocked.
     for pr in ([] if own else bot_prs):
         number = pr["number"]
-        detail = get(f"repos/{repo}/pulls/{number}")
-        requests += 1
-        count = detail["changed_files"]
-        if not isinstance(count, int) or count <= 0 or count > 3000:
-            raise ValueError(f"PR #{number}: cannot establish complete reservations ({count} files)")
-        files, used = pages(f"repos/{repo}/pulls/{number}/files", get)
-        requests += used
-        if len(files) != count or len({f['filename'] for f in files}) != count:
-            raise ValueError(f"PR #{number}: expected {count} files, received {len(files)}")
-        files_checked += len(files)
+        files, count = [], None
+        try:
+            detail = lookup(f"repos/{repo}/pulls/{number}")
+            count = detail["changed_files"]
+            if not isinstance(count, int) or count <= 0 or count > 3000:
+                raise ValueError(f"GitHub reports {count} changed files")
+            files, _ = pages(f"repos/{repo}/pulls/{number}/files", lookup)
+            if len(files) != count or len({f['filename'] for f in files}) != count:
+                raise ValueError(f"expected {count} files, received {len(files)}")
+        except (ValueError, KeyError, TypeError, subprocess.SubprocessError) as exc:
+            batch = KNOWN_BATCHES.get(producer(pr))
+            # Do not use a known batch to hide evidence of a broader change.
+            listed = {path for row in files if isinstance(row, dict)
+                      for path in (row.get("filename"), row.get("previous_filename")) if path}
+            if (not batch
+                    or (count is not None and (not isinstance(count, int) or not 0 <= count <= len(batch)))
+                    or listed - set(batch)):
+                raise ValueError(f"PR #{number}: cannot establish complete reservations: {exc}") from exc
+            files = [{"filename": path} for path in batch]
+            batch_paths += len(files)
+            print(f"PR #{number}: reserving known votes-refresh batch ({', '.join(batch)}); "
+                  f"GitHub file lookup unavailable: {exc}.", file=sys.stderr)
+        else:
+            files_checked += len(files)
+            print(f"PR #{number}: GitHub files API checked {len(files)} paths.", file=sys.stderr)
         for row in files:
             for path in (row["filename"], row.get("previous_filename")):
                 if path:
                     reserved.setdefault(reservation_key(path), []).append(number)
     print(f"Queue check: {requests} successful API requests; {len(prs)} open PRs checked; "
-          f"{len(bot_prs)} bot PRs; {files_checked} changed files checked.", file=sys.stderr)
+          f"{len(bot_prs)} bot PRs; {files_checked} changed files checked; "
+          f"{batch_paths} known-batch paths reserved.", file=sys.stderr)
     if own:
         print(f"SKIP {bot}: own open PR(s) {own}; no paid work or new PR.", file=sys.stderr)
     else:
