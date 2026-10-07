@@ -10579,3 +10579,55 @@ That is a follow-up for the full-game seat, not this PR.
 | unit: a table row, a growing step, a timeout at the trap step, no cap in `_landStep`, momentum on every card | tests/knowledge_profile.test.mjs, by name |
 
 **Payload** (final tree, dev 3c1e3cc9b merged). First-hand core 365,705 B: +409 B over dev 3c1e3cc9b's own 365,296 B (the same spec on a sandbox of dev's app), which this branch accepted as the first-hand baseline in its own commit (it stood +5,743 over the 359,553 accepted at v1.216.0, so with this change the 6,000 cap was crossed by dev's drift, not by this change). Eager gzip 346,137 B, +3,139 over the accepted 342,998 (cap 5,000); with dev's own bundle 345,717, so this change's eager share is +420 B. Gzip -9: `neural.js` +418 B, `neural.css` +0.
+
+## v1.221.2 — WEAK SPOTS, ACCEPTED END TO END: GI NUMBERS AND THE START SETTING, AS THE PLAYER SEES THEM (WEAK0, 2026-10-07)
+
+`e2e/journeys/weak-spots-acceptance.spec.ts`, from the owner's 2026-09-30 rulings ("ideally fix weak spots
+now"; "it should match the starting point set by the app indeed"). Until now weak spots had unit coverage
+only (`tests/flow.test.mjs`). The journey drives the player's surfaces by measured mouse clicks: Settings
+(daily goal 200, so "Learn next" holds ~20 rows; the uniform; where the roll starts), then Explore's "N new"
+cell, whose "Learn next" rows are the weak-spots ranking ("weakest first", D1). Every read pairs rows by
+their own `data-session-row` key, with a 15-row floor on each list. Every gameplay tag is rigged before
+the bundle loads, and the journey counts and forbids unrigged draws.
+
+**The measurement that reshaped claim 1.** The obvious oracle, "the gi plan differs from the no-gi plan",
+stayed GREEN with FLOW's frame pinned to "nogi" (the pre-v1.209.0 gi player). `flowScore`'s frame picks
+only the HANDS; the state space follows the player's ruleset, so the two plans differ on no-gi numbers
+too. The claim is now a one-build-booted-twice differential (§6.6): the same new gi player on a wire whose
+`cal.evGi` is removed (what a stale cached payload serves; the app falls back to no-gi hands and
+announces `flow_frame_fallback`). Gi numbers must move the gi plan (shared floor 10) and never the
+no-gi plan, and the control must announce its fallback while the full wire never does.
+
+**What the player sees** (fresh profile, gi, Anywhere, 20 rows). On gi numbers Half Guard is a Top spot
+and Cross Collar Choke from Mount, Guard Opening Sequence and Americana from Side Control rank. On no-gi
+numbers (before v1.209.0) Half Guard is a Bottom spot, and Arm Triangle from Side Control, Sit Out from
+Side Control and Body Lock Pass rank instead (16 shared, 133 gi hand blocks removed). From Standing,
+Standing Position ranks #3, with Front Headlock, Pull Guard from Standing, Takedown from Bottom,
+Butterfly Guard and Scissor Sweep entering (13 shared with Anywhere). "My weak spots" ranks exactly as
+Anywhere (the shipped reading, which avoids a feedback loop).
+
+**Mutants** (patched into the built `neural.js`; one at a time, both journeys):
+
+| mutant | result |
+|---|---|
+| M0 control: `_flowStartSpec` parenthesised | green |
+| M1 FLOW's frame pinned to "nogi" | red at "gi numbers move the gi plan" |
+| M2 frame pinned to "gi" | red at "and never the no-gi plan" |
+| M3 memo key loses the frame AND the flip stops releasing FLOW | red at "and never the no-gi plan" |
+| M4 the plan's fallback reads `_weakSpotsLegacy` | red at both claims |
+| M6 `_flowStartSpec` returns null · M7 memo key loses the start · M9 Standing ranks from Closed Guard | red at "Standing Position is in the Standing plan" |
+| M8 "My weak spots" ranks from Standing | red at "My weak spots ranks as Anywhere" |
+| S1 the spec leaves the daily goal at 30 (3 rows) | red at the 15-row floor |
+
+Non-kills, recorded in the spec header: M3a and M3b (each half of M3 alone), because each guard covers
+for the other; M5 (`weakSpots()` stops dropping decks the ruleset rules out), because a no-gi kernel never
+prices a gi-only deck.
+
+**One flake, found and fixed in the spec before shipping.** "Refresh plan" lives in the pane's scroller,
+which the plan scrolls itself when it opens the first row's card, on a later frame than the rows mount.
+Once in 15 runs the click came first and `clickByMouse` refused a centre at y=2006 of 900. The journey now
+scrolls to the button and waits until it is still and on screen before the measured click: 30/30 after.
+
+**Not covered.** The app has no fixed-position start, so that branch of the brief has nothing to drive. The
+open plan keeps its order when a setting changes (D2 freeze); the journey re-reads through ‹ Back →
+Explore → "N new" and through "Refresh plan".
