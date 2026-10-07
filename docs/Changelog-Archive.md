@@ -62,6 +62,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.218.3** — [THE CONSOLE STAYS CLEAN AFTER THE APP MOVES THE ADDRESS BAR](#v12183--the-console-stays-clean-after-the-app-moves-the-address-bar)
 - **v1.218.5** — [THE DEPLOYED CONSOLE CHECK NO LONGER PRINTS THE ANALYTICS PROXY'S NAME](#v12185--the-deployed-console-check-no-longer-prints-the-analytics-proxys-name)
 - **v1.219.0** — [THE CAMERA GLIDES, AND FRAMES WHAT YOU CAN SEE](#v12190--the-camera-glides-and-frames-what-you-can-see)
+- **v1.223.0** — [THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)](#v12230--the-site-installs-a-web-app-manifest-maskable-icons-and-assetlinks-plumbing-twa-phase-1)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10449,3 +10450,32 @@ over the 5,000 B per-change cap. So the baseline was first accepted at DEV'S mea
 own commit (orchestrator CAM-GO0, the owner's 2026-09-29 pre-authorisation; its reason lists #259–#268 and
 #267). This change stays its own visible +2,218 B. The first-hand core is 364,779 B, +5,226 over 359,553
 (cap 6,000), and needed no accept.
+
+## v1.223.0 — THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)
+
+**Owner, 2026-09-24:** "use the TWA tech to quickly adapt this to a native mobile app so we can put it on play store".
+This is phase 1, the in-repo half that improves the mobile web either way:
+- the manifest (`display: standalone`, theme and background `#1a1a2e`, the app's own background);
+- 192 and 512 icons plus a 512 MASKABLE icon;
+- the head links;
+- `/.well-known/assetlinks.json` with a PLACEHOLDER identity that prints "TWA ownership NOT verified";
+- exact, disjoint `max-age=0` header rules;
+- wiring into the root build AND both deploys;
+- a keystore `.gitignore` rule laid down before any key exists.
+
+Phases 2 (the Bubblewrap project and the owner checklist, outside the repo) and 3 (the service worker, a
+separate change) are in the private report.
+
+The work was rescued from a worker that hit its usage limit (`f71002c35`) and reconciled with 502 dev commits.
+The one SEMANTIC conflict git could not see: the branch built the manifest and apple-touch-icon hrefs from
+`baseDir`, which v1.218.3 had deleted. The file would not have compiled, and the URLs would have been
+page-relative again, the CONSOLE0 defect. Both now use the site root, as `check_pwa.py` already expected.
+
+The census moves are legitimate and were re-seeded through a guarded capture taken on #273's merged dev (D-288,
+ORDER1):
+- files +5 and static files +3;
+- head links +12,402 (2 × 6,201 pages);
+- `theme-color` meta 0 → 6,201;
+- `.well-known` 1 → 2.
+
+SEO head and JSON-LD are identical.
