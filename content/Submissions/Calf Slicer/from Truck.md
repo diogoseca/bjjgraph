@@ -313,7 +313,7 @@ Emerging from the 10th Planet system's leg-attack arsenal, the Calf Slicer from 
 
 ## Related
 - [[Submissions/Calf Slicer]]
-- [[Submissions/Toe Hold/from 50-50]]
+- [[Submissions/Kneebar/from 50-50]]
 - [[Submissions/Banana Split]]
 - [[Submissions/Bicep Slicer]]
 - [[Positions/Half Guard/Electric Chair]]

@@ -421,7 +421,7 @@ Pass to Side Control from 50-50 is generally low-risk for both practitioners whe
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Strategy: Check Your Event and Division</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Pass to Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Competition Requirements</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related transition reference: Pass to Side Control.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

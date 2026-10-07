@@ -421,7 +421,7 @@ The Kimura places significant rotational stress on the shoulder joint's glenohum
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back-Attack Study</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Straightjacket Back Attacks</span><span class="system-card__unlocks-badge">28 related references</span><span class="system-card__blurb">Related transition on the graph.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

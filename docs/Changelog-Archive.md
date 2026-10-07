@@ -64,6 +64,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.219.0** — [THE CAMERA GLIDES, AND FRAMES WHAT YOU CAN SEE](#v12190--the-camera-glides-and-frames-what-you-can-see)
 - **v1.220.0** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v12200--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
 - **v1.221.0** — [EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT](#v12210--every-flashcard-you-answer-counts-and-shows-it)
+- **v1.221.1** — [507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI](#v12211--507-stale-system-cards-regenerated-and-generated-content-now-matches-its-generator-in-ci)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10631,6 +10632,19 @@ scrolls to the button and waits until it is still and on screen before the measu
 **Not covered.** The app has no fixed-position start, so that branch of the brief has nothing to drive. The
 open plan keeps its order when a setting changes (D2 freeze); the journey re-reads through ‹ Back →
 Explore → "N new" and through "Refresh plan".
+## v1.221.1 — 507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI
+
+B-07, approved 2026-10-06. The 2026-09-17 System renames and caption rewrites never reached the committed pages:
+nothing checked that `content/*.md` was the generator's current output. The FREE path only (`regenerate:md`,
+`regenerate:hubs`, never the paid `regenerate:json`) changed 507 files, 1,827 lines each way, and ALL 3,654
+changed lines are `<a class="system-card"` lines (title only 1,123 cards, caption only 112, both 592). A
+second run changes 0 files.
+
+New ci-validate step, "Generated content matches its generator": regenerate, then `git status --porcelain
+-- content/`, which also catches new and deleted pages. Proven in a clean venv holding only the workflow's
+three packages: 0 drifted on this branch (4,601 pages), red on origin/dev naming the 507. **A first mutant
+SURVIVED and the mutant was wrong, not the gate:** a hand edit left uncommitted is overwritten by the
+regeneration itself. The claim is about COMMITTED pages, and a committed hand edit is red, naming the file.
 
 ## DEVMV39 — THE EXPOSURE LAW'S PANIC ROW MATCHES THE DRILL (2026-10-07, version stamped at merge)
 
@@ -10644,7 +10658,7 @@ surface. Deck, JIT and node grades still change nothing.
 **Pins moved.** The law file's sha256 is a reviewed exposure-label law: `mdp-exposure.src.js`
 (`expected.knowledge`, now 17c12cbf…, with a changelog line) and `tests/mdp_exposure_adapter.test.mjs`.
 The MDP manifest carries it too (`lawHashes.knowledge`, `modelHash`); that is regenerated on every
-build. The census app rows were re-seeded with `validate:build-shape:app` from the clean tree.
+build. The census app rows were re-seeded with `validate:build-shape:app` from the clean tree, and again on the tree merged with #273's dev (B-07's content provenance kept).
 
 **Label-neutral, measured.** The adapter calls `ngKnowledgeAdvance` for arrivals only
 (`mdp-adapter.src.js`). Regenerated before and after the edit, every MDP shard part is byte-identical. The two variant descriptors differ only in `mechanicsHash`, and the manifest only in its provenance: `lawHashes.knowledge`, `modelHash`, and `gameplayHash`/`sourceHash` (from the one-line app comment this change corrects).
