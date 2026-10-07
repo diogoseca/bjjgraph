@@ -32,7 +32,9 @@ test("the real workflow: every step, in order, with the three substitutions name
     "the workflow's own order: the payload emit stays above the unit suites");
   ok(/\[pip\] Install Python dependencies/.test(r.stdout), "pip install becomes an import check");
   ok(/\[npm\] Install source\/ dependencies/.test(r.stdout), "npm ci becomes a resolve check (never run into a shared donor)");
-  ok(/--baseline-ref HEAD\^1 -> [0-9a-f]{9}/.test(r.stdout), "HEAD^1 becomes the merge-base, said out loud");
+  // named, not resolved: CI's own shallow checkout has no origin/dev (PR #275's first run), and the
+  // merge-base is resolved only when the step runs
+  ok(/--baseline-ref HEAD\^1 -> the merge-base with origin\/dev/.test(r.stdout), "HEAD^1 becomes the merge-base, said out loud");
 });
 
 test("a workflow with nothing runnable is a failure, never a clean pass", () => {

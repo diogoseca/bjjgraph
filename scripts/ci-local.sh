@@ -47,12 +47,12 @@ jobs = wf.get("jobs") or {}
 IMPORT_NAME = {"pyyaml": "yaml"}
 
 def base_ref():
+    """The local stand-in for CI's HEAD^1, or None. Resolved only when the step RUNS, so --list works
+    in a checkout without origin/dev (CI's own shallow one, measured on PR #275's first run)."""
     if os.environ.get("CI_LOCAL_BASE"):
         return os.environ["CI_LOCAL_BASE"]
     r = subprocess.run(["git", "merge-base", "HEAD", "origin/dev"], capture_output=True, text=True)
-    if r.returncode != 0:
-        sys.exit("ci-local: no merge-base with origin/dev (fetch it, or set CI_LOCAL_BASE)")
-    return r.stdout.strip()
+    return r.stdout.strip() if r.returncode == 0 else None
 
 def plan():
     out = []
@@ -83,11 +83,7 @@ def plan():
             if re.match(r"^npm (ci|install)\b", s) and "\n" not in s:
                 out.append(dict(job=jname, name=name, kind="npm", wd=wd))
                 continue
-            note = None
-            if "--baseline-ref HEAD^1" in run:
-                ref = base_ref()
-                run = run.replace("--baseline-ref HEAD^1", f"--baseline-ref {ref}")
-                note = f"--baseline-ref HEAD^1 -> {ref[:9]} (merge-base with origin/dev)"
+            note = "--baseline-ref HEAD^1 -> the merge-base with origin/dev" if "--baseline-ref HEAD^1" in run else None
             out.append(dict(job=jname, name=name, kind="run", run=run, wd=wd, env=env, note=note,
                             cont=bool(st.get("continue-on-error"))))
     return out
@@ -150,7 +146,12 @@ for i, s in enumerate(steps, 1):
         print(f"{head}: SUBSTITUTED npm ci -> {msg}")
     else:
         if s["note"]:
-            print(f"{head}: substitution {s['note']}")
+            ref = base_ref()
+            if not ref:
+                print(f"{head}: FAILED — no merge-base with origin/dev to stand in for HEAD^1 (fetch it, or set CI_LOCAL_BASE)")
+                results.append((s["name"], False)); break
+            s["run"] = s["run"].replace("--baseline-ref HEAD^1", f"--baseline-ref {ref}")
+            print(f"{head}: substitution {s['note']} ({ref[:9]})")
         print(f"{head}: running (cwd {s['wd']})", flush=True)
         r = subprocess.run(["bash", "--noprofile", "--norc", "-eo", "pipefail", "-c", s["run"]],
                            cwd=s["wd"], env={**env0, **s["env"]})
