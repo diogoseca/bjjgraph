@@ -81,6 +81,9 @@ on:
       - "CLAUDE.md"
       - "docs/**"
       - "tests/artifacts/budget_docs.json"
+      # The path-scoped half of the canon (v1.224.3): both gates read every file here, so a PR
+      # that edits only a rules file must still run them.
+      - ".claude/rules/**"
       # The chain/provisioning gate reads every workflow and reachable Python input.
       - ".github/workflows/**"
       - "source/package.json"

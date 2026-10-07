@@ -33,7 +33,13 @@ that silently matched nothing is indistinguishable from a clean run, which is th
 most-repeated failure class. Exit 1 on any dangling reference, and exit 1 if it somehow
 resolved zero references at all.
 
-Scope: CLAUDE.md by default; pass paths to check other documents (docs/*.md).
+Scope: CLAUDE.md AND every .claude/rules/*.md by default; pass paths to check other documents
+(docs/*.md) instead. The rules files are the path-scoped half of the canon (v1.224.3): §5 and
+most of §6 moved there to load only with their folders, and every reference they carry moved
+with them. Checking CLAUDE.md alone after that split would have reported the same OK over half
+the references, which is a check that stopped looking reading clean (§6.6). The default set is
+DISCOVERED from the directory rather than listed, and every file it checked is named in the OK
+line, so a new rules file is covered the day it lands.
 Deliberately stdlib-only.
 """
 
@@ -80,13 +86,30 @@ ALLOW_ABSENT = {
 
 TOP_DIRS = ("scripts/", "e2e/", "neural/", "source/", "docs/", "tests/", "content/",
             "templates/", "functions/", "forward/", ".github/", "workers/", "supabase/",
-            "branding/")
+            "branding/", ".claude/")
+# The two dot-directories a reference may legitimately start with. Every other token starting
+# with "." is prose (`.env`, `.css`, a sentence fragment between two backticks). `.github/` sat
+# in TOP_DIRS from the start and was never reached: the leading-dot skip below ran first, so its
+# paths were never checked until v1.224.3 admitted `.claude/` beside it.
+DOT_DIRS = (".github/", ".claude/")
+RULES_DIR = ROOT / ".claude" / "rules"
 
 
 INDEXED: dict[str, int] = {"files": 0}
+_INDEX: dict[str, int] = {}
 
 
 def _index_basenames() -> dict:
+    """Built ONCE per run. `check` calls this per document, and before v1.224.3 every call
+    rebuilt the index and added to INDEXED, so the moment a second document was checked the OK
+    line printed the tracked-file count multiplied by the number of documents (44,898 for six
+    documents over a 7,483-file tree)."""
+    if not _INDEX:
+        _INDEX.update(_build_index())
+    return _INDEX
+
+
+def _build_index() -> dict:
     """basename -> count, over the TRACKED tree (`git ls-files`). Lets a BARE filename
     (`build.mjs`) be validated as 'exists somewhere' without demanding a full path in the prose.
 
@@ -110,7 +133,9 @@ def _index_basenames() -> dict:
         sys.exit(f"[check_claudemd_refs] FAILED: cannot list the tracked tree with git ({e}); "
                  "bare filenames cannot be checked without it")
     idx = {}
-    skip = {"node_modules", ".git", ".quartz-cache", "public", "dist", ".claude"}
+    # `.claude` left this set at v1.224.3: .claude/rules/ is tracked now, and every other
+    # .claude/ path is still gitignored, so `git ls-files` never lists it anyway.
+    skip = {"node_modules", ".git", ".quartz-cache", "public", "dist"}
     for rel in out.decode("utf-8", "surrogateescape").split("\0"):
         if not rel:
             continue
@@ -183,7 +208,9 @@ def path_candidates(text: str):
         tok = m.group(1).strip().rstrip(".,;:")
         if not tok or " " in tok or any(c in tok for c in "()<>|*${},"):
             continue
-        if tok.startswith(("http", "~", ".")) or tok.startswith(("npm ", "python", "node ", "git ")):
+        if tok.startswith(("http", "~")) or tok.startswith(("npm ", "python", "node ", "git ")):
+            continue
+        if tok.startswith(".") and not tok.startswith(DOT_DIRS):
             continue
         if "/" in tok:
             # Only treat it as a repo path when it is rooted at a real top-level dir.
@@ -199,8 +226,18 @@ def line_of(text: str, off: int) -> int:
     return text.count("\n", 0, off) + 1
 
 
+def display(doc: Path) -> str:
+    """Repo-relative where possible: five rules files and CLAUDE.md share no basename today,
+    but an error that names only `traps-neural.md` sends the reader looking for it."""
+    try:
+        return doc.resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return doc.name
+
+
 def check(doc: Path, generated: set) -> tuple[list[str], dict]:
     text = doc.read_text(encoding="utf-8")
+    name = display(doc)
     errors, counts = [], {"paths": 0, "npm": 0, "cites": 0, "generated": 0}
 
     names = _index_basenames()
@@ -213,7 +250,7 @@ def check(doc: Path, generated: set) -> tuple[list[str], dict]:
                     counts["generated"] += 1
                     generated.add(tok)
                 else:
-                    errors.append(f"{doc.name}:{line_of(text, off)} dangling path `{tok}`")
+                    errors.append(f"{name}:{line_of(text, off)} dangling path `{tok}`")
         elif tok not in names and tok not in ALLOW_ABSENT:
             # Same question the path branch asks, and for the same reason: a bare filename
             # that git deliberately ignores is a file the canon names ON PURPOSE because it
@@ -225,7 +262,7 @@ def check(doc: Path, generated: set) -> tuple[list[str], dict]:
                 generated.add(tok)
             else:
                 errors.append(
-                    f"{doc.name}:{line_of(text, off)} names `{tok}`, which exists nowhere "
+                    f"{name}:{line_of(text, off)} names `{tok}`, which exists nowhere "
                     f"in the tree — renamed or deleted?")
 
     # Root AND the source/ sub-package: the docs legitimately name commands from both
@@ -239,7 +276,7 @@ def check(doc: Path, generated: set) -> tuple[list[str], dict]:
         counts["npm"] += 1
         if m.group(1) not in pkg:
             errors.append(
-                f"{doc.name}:{line_of(text, m.start())} `npm run {m.group(1)}` "
+                f"{name}:{line_of(text, m.start())} `npm run {m.group(1)}` "
                 f"is not a script in package.json or source/package.json")
 
     for m in LINE_CITE_RE.finditer(text):
@@ -252,14 +289,15 @@ def check(doc: Path, generated: set) -> tuple[list[str], dict]:
         window = "\n".join(lines[max(0, num - 3): num + 2])
         if sym not in window:
             errors.append(
-                f"{doc.name}:{line_of(text, m.start())} cites `{sym}` at {rel}:{num} "
+                f"{name}:{line_of(text, m.start())} cites `{sym}` at {rel}:{num} "
                 f"but that symbol is not within +/-2 lines there — cite the SYMBOL, not "
                 f"the line number (every such citation in the pre-split file was wrong)")
     return errors, counts
 
 
 def main() -> None:
-    docs = [Path(a) for a in sys.argv[1:]] or [ROOT / "CLAUDE.md"]
+    rules = sorted(RULES_DIR.glob("*.md")) if RULES_DIR.is_dir() else []
+    docs = [Path(a) for a in sys.argv[1:]] or [ROOT / "CLAUDE.md", *rules]
     all_errors, total = [], {"paths": 0, "npm": 0, "cites": 0, "generated": 0}
     generated: set = set()
     for d in docs:
@@ -285,7 +323,7 @@ def main() -> None:
 
     print(f"[check_claudemd_refs] OK — {total['paths']} repo paths, "
           f"{total['npm']} npm scripts, {total['cites']} symbol@line citations, "
-          f"all resolve ({', '.join(d.name for d in docs)}); bare names checked against "
+          f"all resolve ({', '.join(display(d) for d in docs)}); bare names checked against "
           f"{INDEXED['files']:,} tracked files")
     # THE SKIP PRINTS (§6.6). A reference waved through as "generated" is one this gate did
     # not actually verify, so it is named every run: a list that grows is a list to read.
