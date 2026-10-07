@@ -61,7 +61,15 @@ jobs:
           python3 scripts/fetch_posthog_search.py /tmp/seo/posthog_search.json
           echo "Prefetched PostHog search data to /tmp/seo/posthog_search.json"
 
+      - name: Resolve Claude model
+        id: model
+        run: |
+          MODEL=$(python3 scripts/_model.py --print default)
+          test -n "$MODEL"
+          echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+
       - name: Generate SEO trend report
+        id: seo_report
         uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -70,7 +78,7 @@ jobs:
           # agent reads prefetched PostHog JSON and only Writes the report (commit is
           # scoped to seo_trends.md below).
           claude_args: |
-            --model "$(python3 scripts/_model.py --print default)"
+            --model "${{ steps.model.outputs.model }}"
             --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Bash(mkdir:*),Bash(date:*),mcp__dataforseo__serp_organic_live_advanced'
@@ -109,6 +117,28 @@ jobs:
               variant/role page ranks instead of the canonical hub, or a previously-ranking
               keyword disappeared (compare against the most recent prior section in the file).
             Keep the whole new section under ~150 lines. Write the file with the Write tool.
+
+      - name: Check Claude execution
+        id: execution
+        env:
+          EXECUTION_FILE: ${{ steps.seo_report.outputs.execution_file }}
+        run: |
+          python3 scripts/bot_run.py check-execution "$EXECUTION_FILE"
+          test -s tests/artifacts/seo_trends.md
+
+      - name: Report file counts
+        if: always()
+        env:
+          OUTCOME: ${{ steps.execution.outcome }}
+          ATTEMPTED: ${{ steps.seo_report.outcome != 'skipped' }}
+        run: |
+          if [ "$ATTEMPTED" != true ]; then
+            echo 'Files: attempted=0, valid=0, skipped=1, failed=0'
+          elif [ "$OUTCOME" = success ]; then
+            echo 'Files: attempted=1, valid=1, skipped=0, failed=0'
+          else
+            echo 'Files: attempted=1, valid=0, skipped=0, failed=1'
+          fi
 
       - name: Publish report to seo-reports branch + artifact
         env:

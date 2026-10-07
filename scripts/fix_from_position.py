@@ -19,12 +19,27 @@ Usage:
 import argparse
 import json
 import sys
+import subprocess
 from pathlib import Path
 
 AUDIT_PATH = Path("tests/artifacts/from_position_audit.json")
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _ruleset import as_map, sum_cells, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2)
+from technique_equivalence import equivalence, technique_index
+from bot_queue import filter_candidates
+
+
+def safe_reference_rewrite(generic, variant, identities, results, pos_file):
+    """Recheck disk evidence even when the audit report is stale or hand edited."""
+    proof = equivalence(generic, variant, identities)
+    if proof:
+        print(f"  Identity proven: {generic!r} -> {variant!r}: {proof}")
+        return True
+    reason = "no alias/family equivalence; preserving distinct incoming reference"
+    print(f"  SKIP {generic!r} -> {variant!r}: {reason}")
+    results.append({"file": pos_file, "technique": generic, "status": "skipped", "reason": reason})
+    return False
 
 
 def merge_cells(a, b):
@@ -116,6 +131,9 @@ def fix_case_d(issues, dry_run):
 
     for issue in issues:
         technique_file = issue["technique_file"]
+        if not filter_candidates([technique_file]):
+            results.append({"file": technique_file, "status": "skipped", "reason": "reserved by open bot PR"})
+            continue
         expected = issue["expected_from"]
         actual = issue["actual_from"]
 
@@ -152,6 +170,9 @@ def fix_case_a(issues, dry_run):
 
     for issue in issues:
         technique_file = issue["technique_file"]
+        if not filter_candidates([technique_file]):
+            results.append({"file": technique_file, "status": "skipped", "reason": "reserved by open bot PR"})
+            continue
         expected = issue["expected_from"]
         actual = issue["actual_from"]
 
@@ -190,6 +211,7 @@ def fix_case_b(issues, dual_refs, dry_run):
     2. Single reference to generic: rename to specific variant
     """
     results = []
+    identities = technique_index()
 
     # Group by position file to batch edits
     edits_by_file = {}
@@ -200,6 +222,9 @@ def fix_case_b(issues, dual_refs, dry_run):
         edits_by_file[pos_file].append(issue)
 
     for pos_file, file_issues in edits_by_file.items():
+        if not filter_candidates([pos_file]):
+            results.append({"file": pos_file, "status": "skipped", "reason": "reserved by open bot PR"})
+            continue
         data = load_json(pos_file)
         if not data:
             results.append({"file": pos_file, "status": "error", "reason": "could not load"})
@@ -212,6 +237,8 @@ def fix_case_b(issues, dual_refs, dry_run):
             generic_name = issue["technique"]
             variant_name = issue["variant_name"]
             is_dual = issue.get("is_dual_reference", False)
+            if not safe_reference_rewrite(generic_name, variant_name, identities, results, pos_file):
+                continue
 
             role_data = data.get(role)
             if not role_data:
@@ -331,6 +358,7 @@ def fix_dual_references(dual_refs, dry_run):
     from_position actually matches for the generic. Handle those here.
     """
     results = []
+    identities = technique_index()
 
     # Group by position file
     edits_by_file = {}
@@ -357,6 +385,9 @@ def fix_dual_references(dual_refs, dry_run):
         edits_by_file[pos_file].append(dual)
 
     for pos_file, duals in edits_by_file.items():
+        if not filter_candidates([pos_file]):
+            results.append({"file": pos_file, "status": "skipped", "reason": "reserved by open bot PR"})
+            continue
         data = load_json(pos_file)
         if not data:
             continue
@@ -367,6 +398,8 @@ def fix_dual_references(dual_refs, dry_run):
             role = dual["role"]
             generic_name = dual["generic"]
             variant_name = dual["specific"]
+            if not safe_reference_rewrite(generic_name, variant_name, identities, results, pos_file):
+                continue
 
             role_data = data.get(role)
             if not role_data:
@@ -512,6 +545,12 @@ def main():
         print(f"Fixes applied: {total_fixed}, Errors: {total_errors}, Skipped: {total_skipped}")
 
     if not args.dry_run:
+        if total_errors:
+            sys.exit("Deterministic fixes reported errors; aborting.")
+        # Per-file schema checks cannot detect an orphan. Use the same whole-graph
+        # gate as npm run validate:graph; a failure stops the workflow before any PR.
+        subprocess.run([sys.executable, str(Path(__file__).with_name("validate_graph_integrity.py"))],
+                       check=True)
         print("\nNext steps:")
         print("  python3 scripts/audit_from_position.py   # Re-audit to verify fixes")
         print("  npm run validate:graph                    # Run validation")

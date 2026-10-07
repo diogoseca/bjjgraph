@@ -15,15 +15,19 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: votes-refresh
+  group: bot-proposals # shared reservation snapshot lasts through PR creation
   cancel-in-progress: false
 
 jobs:
   votes:
     runs-on: ubuntu-latest
+    env:
+      BOT_QUEUE_STATE: ${{ runner.temp }}/bot-queue.json
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: dev
 
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
@@ -38,7 +42,14 @@ jobs:
       - name: Install Python dependencies
         run: pip install jsonschema jinja2
 
+      - name: Check bot queue and reserve open-PR files
+        id: queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/bot_queue.py --bot votes-refresh --candidate templates/votes.json --candidate graph.json
+
       - name: Refresh votes (PostHog) + regenerate graph
+        if: steps.queue.outputs.proceed == 'true'
         env:
           # regenerate_votes.py needs a PostHog PERSONAL key (phx_) for the Events API.
           # POSTHOG_API_KEY is the project/capture key (phc_) and would 401, so we
@@ -60,6 +71,7 @@ jobs:
           npm run regenerate:graph-strength
 
       - name: Detect changes
+        if: steps.queue.outputs.proceed == 'true'
         id: changes
         run: |
           # Gate on votes.json only — graph.json carries an always-changing
@@ -72,10 +84,11 @@ jobs:
           fi
 
       - name: Create Pull Request
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.queue.outputs.proceed == 'true' && (steps.changes.outputs.changed == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          python3 scripts/bot_queue.py --check-changes
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           BRANCH="votes-refresh/$(date +%Y%m%d-%H%M%S)"
@@ -87,6 +100,6 @@ jobs:
           gh pr create \
             --title "Votes refresh ($(date +%Y-%m-%d))" \
             --body "Mechanical weekly community-vote sync (PostHog) + graph regeneration. No Claude. Validated inline; safe to merge." \
-            --base main \
+            --base dev \
             --head "$BRANCH"
           gh pr edit "$BRANCH" --add-label automated || true
