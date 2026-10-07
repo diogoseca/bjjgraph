@@ -333,11 +333,11 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 <section id="related" class="content-section">
 
 ## Related
-- [[Submissions/Kimura/from Mount]]
-- [[Submissions/Kimura/from Guard]]
+- [[Submissions/Americana/from Mount]]
+- [[Submissions/Armbar/from Guard]]
 - [[Submissions/Choke from Crucifix]]
 - [[Submissions/Armbar/from Back]]
-- [[Submissions/Arm Crush/from Side Control]]
+- [[Submissions/Americana/from Side Control]]
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Armbar/from Back with Legs]]
 - [[Submissions/Far Side Armbar]]

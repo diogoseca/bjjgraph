@@ -608,9 +608,9 @@
  },
  "Positions/Mount/Bottom.html": {
   "canonical": "https://bjjgraph.org/Positions/Mount/Bottom",
-  "content_floor": 12426,
-  "content_hash": "f7012ab82d462726020da3ad5623288e83381bb622bafb2d94afc681702ef5c7",
-  "content_len": 14619,
+  "content_floor": 11816,
+  "content_hash": "6c9f3d296f9d001a93f5b04ade44106dd4360c179cd612e3934220f2e8e40128",
+  "content_len": 13902,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/\", \"name\": \"Positions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Positions/Mount-Bottom\", \"name\": \"Mount Bottom\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Allows opponent to distribute full weight making escape nearly impossible and exposing all submission targets The correct approach is: Immediately establish elbow-knee connection frames and maintain slight angle to prevent flat positioning\"}, \"name\": \"What happens if you lying completely flat on back with no defensive frames or angle established?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Opponent posts free hand easily maintaining base while wasting defender's energy and potentially exposing back The correct approach is: Only bridge explosively after properly trapping same-side arm and foot, or use bridge as setup for hip escape\"}, \"name\": \"What happens if you attempting explosive bridge without first trapping opponent's arm and corresponding leg?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Creates immediate vulnerability for Americana, Kimura, and armbar attacks on the extended limbs The correct approach is: Frame on hips and cross-face area using forearm frames rather than extended arm pushing\"}, \"name\": \"What happens if you pushing directly on opponent's chest or shoulders with extended straight arms?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Gives up back control to opponent who can insert hooks easily into the exposed space The correct approach is: Create space through shrimping first, then turn only when sufficient distance prevents hook insertion\"}, \"name\": \"What happens if you turning to side prematurely without creating sufficient space through hip escape first?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Rapid energy depletion with minimal position improvement as arms fatigue against body weight The correct approach is: Focus on hip escape mechanics and leg drive rather than arm strength for sustainable escape\"}, \"name\": \"What happens if you using only upper body strength for escape attempts without engaging hip escape mechanics?\"}]}",
@@ -1269,9 +1269,9 @@
  },
  "Principles/Action-and-Reaction.html": {
   "canonical": "https://bjjgraph.org/Principles/Action-and-Reaction",
-  "content_floor": 8648,
-  "content_hash": "847038e08f5d59565befb00aa2d73d822675226bec79bb7ccf10853d9ab520e5",
-  "content_len": 10175,
+  "content_floor": 8613,
+  "content_hash": "9c7f0d4cd586ef9820c4fd3b04dbc958d6059691532d25b31ad7c282d5a166a4",
+  "content_len": 10133,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Principles/\", \"name\": \"Principles\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Principles/Action-and-Reaction\", \"name\": \"Action and Reaction\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"Action and reaction means using one threat to draw a defensive response, then attacking the opening that response creates.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Principles/\", \"name\": \"Action and Reaction\"}",
@@ -1612,9 +1612,9 @@
  },
  "Transitions/Armbar-from-Back-Transition.html": {
   "canonical": "https://bjjgraph.org/Transitions/Armbar-from-Back-Transition",
-  "content_floor": 9177,
-  "content_hash": "098b4c12bf0e53231a3cda7481e6b1236889ceac2828e225294a066427829172",
-  "content_len": 10797,
+  "content_floor": 9149,
+  "content_hash": "b0178f55051b81c426a1111587a6370056f3968b604f74100df361ae64006091",
+  "content_len": 10764,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Transitions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition\", \"name\": \"Armbar from Back Transition\", \"position\": 3}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"description\": \"The Armbar from Back Transition is a submission setup that converts standing back control into an armbar by isolating the arm an opponent commits to neck defense, then rotating to the ground to attack the exposed elbow joint.\", \"inDefinedTermSet\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Armbar from Back Transition\"}",
@@ -1675,9 +1675,9 @@
  },
  "Transitions/Armbar-from-Back-Transition/Attacker.html": {
   "canonical": "https://bjjgraph.org/Transitions/Armbar-from-Back-Transition/Attacker",
-  "content_floor": 9758,
-  "content_hash": "64074b644be122af8963d1270f09d258c922165bd81ffbbba88f40feebaa8c6e",
-  "content_len": 11481,
+  "content_floor": 9730,
+  "content_hash": "e72f8e717f0c624bfc5e793b19d8d8c927a69b74dab401415ef9637976155ac4",
+  "content_len": 11448,
   "ldjson": [
    "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/\", \"name\": \"Home\", \"position\": 1}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/\", \"name\": \"Transitions\", \"position\": 2}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition\", \"name\": \"Armbar from Back Transition\", \"position\": 3}, {\"@type\": \"ListItem\", \"item\": \"https://bjjgraph.org/Transitions/Armbar-from-Back-Transition/Attacker\", \"name\": \"Attacker\", \"position\": 4}]}",
    "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The primary goal is to transition from back control to a secured armbar position when the opponent defends the rear naked choke. This technique converts their defensive hand positioning into a submission opportunity by attacking the arms they commit to neck defense.\"}, \"name\": \"What is the primary goal of the Armbar from Back Transition?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The optimal timing occurs when the opponent commits both hands to defending your choking arm, typically in a two-on-one grip configuration to prevent the rear naked choke. This defensive commitment exposes their arm structure and makes retraction difficult when you initiate the armbar transition.\"}, \"name\": \"What specific defensive behavior creates the optimal timing window for this transition?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The leg across the face serves multiple critical functions: it prevents the opponent from turning to face you, controls their posture to prevent stacking, acts as a pivot point for your rotation during descent, and ultimately controls their head position to prevent escape once the armbar is secured.\"}, \"name\": \"What is the critical function of the leg that crosses over the opponent's face during transition?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"If the arm retracts early in the transition, immediately return to rear naked choke attack since their arm retraction opens neck access. If you are mid-transition, consider switching to the opposite arm if exposed, or completing the transition and attacking the other arm from armbar position.\"}, \"name\": \"Your opponent begins retracting their arm as you initiate the transition - how should you respond?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The wrist must be controlled with thumbs facing toward the ceiling (supinated grip). This orientation provides superior grip strength, prevents the hitchhiker escape where opponent rotates their thumb toward you, and positions the elbow correctly in your hip crease for proper breaking mechanics.\"}, \"name\": \"What grip orientation is required for the wrist control and why?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Maintain heavy leg pressure across the opponent's face throughout the descent and landing. If they begin stacking, use the leg to push their face away while scooting your hips out. Alternatively, continue rotation to belly-down armbar if they commit fully to the stack.\"}, \"name\": \"How do you prevent the stack counter where opponent drives forward during the transition?\"}]}",
@@ -1731,13 +1731,13 @@
  },
  "_meta": {
   "content_provenance": {
-   "capture_git_head": "bac9386f004186d4a14b7c528f7977d74610bbc2",
-   "capture_id": "da4aca6b8c854c7db7d08861e80462f0",
+   "capture_git_head": "908d57f6e2e8692c8acb70550603b366b2ae89ad",
+   "capture_id": "fa5742b803594a89a2a378bef65ee2da",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
-   "content_tree": "110d50fcea322d4ddb0857617d043e76d07f7f87",
+   "content_tree": "3b3af35c10e310a595387aeea89fa3487b7f8d53",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -1762,11 +1762,11 @@
    },
    "output_identity": {
     "files": 15996,
-    "sha256": "d261cf8e7d77490f292a325fafb78d245a105c0a452f4e1c4d0f4af6a825a1c0"
+    "sha256": "2ee97c57030358716c7798f8cd387f5c3451a4b6a3fa74def5c2d16f05820953"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-principles-hub-drift-bac9386f0/pr-principles-hub-drift-bac9386f0"
+    "/home/user/bjj-orchestrator/golden/pr-adopt-system-card-regen-908d57f6e/pr-adopt-system-card-regen-908d57f6e"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"

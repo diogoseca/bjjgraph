@@ -400,7 +400,7 @@ Grip breaking is generally a low-risk technique with minimal injury potential wh
 ## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Standing Defense: Alex Enriquez&#x27;s Takedown Study Guide</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related principle reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Alex Enriquez: Wrestling Takedown Defense</span><span class="system-card__unlocks-badge">27 related references</span><span class="system-card__blurb">Related principle reference for standing defense study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>
