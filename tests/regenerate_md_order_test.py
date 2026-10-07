@@ -15,7 +15,8 @@ directory order, which the filesystem decides. These cases run the REAL resolver
 
 MUTANTS (each turns this file red; measured 2026-10-06):
   - _sorted_walk returning list(root.rglob(...)) instead of sorted(...): test_resolver_ignores_walk_order;
-  - the _AMBIGUOUS_NAMES bookkeeping removed: test_an_ambiguous_bare_name_is_counted_...
+  - the _AMBIGUOUS_NAMES bookkeeping removed: test_an_ambiguous_bare_name_is_counted_...;
+  - the per-build reset removed (the tally accumulates across builds): test_the_ambiguity_count_is_the_same_...
 Run by tests/regenerate_md_order_py.test.mjs, which `test:units` collects.
 """
 import json
@@ -79,6 +80,15 @@ class WalkOrder(unittest.TestCase):
         self.assertEqual(differ, [], f"{len(differ)} names resolve differently when the walk is reversed")
         self.assertEqual(self.normal_ambiguous, self.reversed_ambiguous)
         print(f"  {len(self.names)} names resolve identically under both walk orders")
+
+    def test_the_ambiguity_count_is_the_same_however_many_times_the_resolver_is_built(self):
+        # a full run builds the resolver once per category; the tally must not accumulate across builds
+        gen._AMBIGUOUS_NAMES.clear()
+        gen.build_wikilink_resolver()
+        once = {k: list(v) for k, v in gen._AMBIGUOUS_NAMES.items()}
+        gen.build_wikilink_resolver()
+        self.assertEqual(once, dict(gen._AMBIGUOUS_NAMES), "a second build changed the ambiguity tally")
+        self.assertEqual(len(once["from Side Control"]), len(set(once["from Side Control"])), "duplicate pages in one name's tally")
 
     def test_an_ambiguous_bare_name_is_counted_and_resolves_to_the_sorted_first_path(self):
         self.assertIn("from Mount", self.normal_ambiguous, "the bare stem 'from Mount' is no longer counted")

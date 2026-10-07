@@ -406,6 +406,10 @@ def build_wikilink_resolver():
     falling back to plain text otherwise — so `family:` and `disambiguations[]`
     entries that point at not-yet-created pages don't emit dangling links (H6).
     """
+    # Each build recounts from scratch: the resolver is built once PER CATEGORY in a full run, and a
+    # module-level tally that only appended printed 'from Side Control' x85 for a name that answers
+    # to 15 pages (the first version of this counter, caught the same day).
+    _AMBIGUOUS_NAMES.clear()
     index = {}
     for category, folder in CATEGORIES.items():
         folder_path = Path(folder)
