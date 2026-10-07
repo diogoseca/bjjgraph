@@ -336,8 +336,8 @@ The submission can be entered from various side control variations including sta
 <section id="related" class="content-section">
 
 ## Related
-- [[Submissions/Kimura/from Mount]]
-- [[Submissions/Kimura/from Guard]]
+- [[Submissions/Americana/from Mount]]
+- [[Submissions/Armbar/from Guard]]
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Arm Triangle]]

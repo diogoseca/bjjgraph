@@ -165,7 +165,10 @@ class CategoryHubPageGenerator:
         items = []
         
         # Scan recursively to include variants in subfolders (Positions and Submissions)
-        json_files = list(category_dir.glob("**/*.json"))
+        # SORTED (B-07): items are later sorted by name, but that sort is stable, so two items with
+        # the same name would keep DIRECTORY order, which the filesystem decides. Sorting the walk
+        # makes even that tie identical on every machine (see regenerate_md_from_json._sorted_walk).
+        json_files = sorted(category_dir.glob("**/*.json"))
         
         print(f"Found {len(json_files)} JSON files in {category_dir}")
         

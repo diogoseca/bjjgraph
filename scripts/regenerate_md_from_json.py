@@ -377,6 +377,26 @@ def _with_utm(url, system_name='', product_id=''):
 _JINJA_ENV.filters["with_utm"] = _with_utm
 
 
+# WALK ORDER IS A CONTRACT (B-07, 2026-10-06). Several lookups below keep the FIRST file found for a
+# name (the link index, the alias map, the variant fallback), and a bare variant stem such as
+# "from Mount" exists in several families. Path.rglob/glob return files in DIRECTORY order, which
+# the filesystem decides: stable on one disk, different on another. So the same commit rendered
+# 7 Submissions pages differently in CI than on the box that committed them (Armbar/from Crucifix's
+# Related list linked Kimura/from Mount here and Monoplata/from Mount there), and the generated-
+# content gate in ci-validate went red on a correct commit. Every walk whose order can decide an
+# output goes through this one function, so "first found" means "first in sorted path order"
+# everywhere. Pinned by tests/regenerate_md_order_test.py, which re-runs the resolver with the
+# walk REVERSED and requires an identical result.
+def _sorted_walk(root, pattern, recursive=True):
+    return sorted(root.rglob(pattern) if recursive else root.glob(pattern))
+
+
+# Bare names that more than one page answers to. The resolver still picks one (the sorted-first
+# path), but that pick is a fallback, so it is COUNTED and printed every run (CLAUDE.md 6.6) rather
+# than passing silently as a link someone authored.
+_AMBIGUOUS_NAMES = {}
+
+
 def build_wikilink_resolver():
     """Build name->category lookup for unambiguous wikilinks.
 
@@ -391,9 +411,12 @@ def build_wikilink_resolver():
         folder_path = Path(folder)
         if not folder_path.exists():
             continue
-        for json_file in folder_path.rglob("*.json"):
+        for json_file in _sorted_walk(folder_path, "*.json"):
             name = json_file.stem
-            if name not in index:  # first-found wins (Positions > Transitions > Submissions)
+            if name in index:
+                _AMBIGUOUS_NAMES.setdefault(name, [index[name]]).append(
+                    f"{category}/{json_file.relative_to(folder_path).parent}")
+            if name not in index:  # first-found wins (Positions > Transitions > Submissions), sorted
                 rel = json_file.relative_to(folder_path).parent
                 if str(rel) == '.':
                     index[name] = category
@@ -405,7 +428,7 @@ def build_wikilink_resolver():
     family_names = set()
     families_dir = Path("content/Families")
     if families_dir.exists():
-        for json_file in families_dir.rglob("*.json"):
+        for json_file in _sorted_walk(families_dir, "*.json"):
             family_names.add(json_file.stem)
 
     # Alias map: a reference to a merged/renamed technique's name (e.g. "Bullfighter
@@ -416,7 +439,7 @@ def build_wikilink_resolver():
         folder_path = Path(folder)
         if not folder_path.exists():
             continue
-        for json_file in folder_path.rglob("*.json"):
+        for json_file in _sorted_walk(folder_path, "*.json"):
             try:
                 data = json.loads(json_file.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
@@ -733,7 +756,7 @@ def find_variant_file(variant_folder, slug):
     normalized_slug = slug.lower().replace(' ', '-')
 
     # Search all JSON files in folder and compare normalized names
-    for json_file in variant_folder.glob("*.json"):
+    for json_file in _sorted_walk(variant_folder, "*.json", recursive=False):
         file_normalized = json_file.stem.lower().replace(' ', '-')
         if file_normalized == normalized_slug:
             return json_file
@@ -1182,6 +1205,13 @@ def _print_render_coverage(scope, framed_here=None):
               f" ({_VOTE_STATS['no_frame_rate']} carry no {_RENDER_FRAME} rate)")
     print(f"  votes override skipped, content frame absent: {_VOTE_STATS['absent_skipped']}"
           f"; no success_rate field: {_VOTE_STATS['no_rate_field']}")
+    if _AMBIGUOUS_NAMES:
+        worst = sorted(_AMBIGUOUS_NAMES.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:3]
+        print(f"  ambiguous bare names: {len(_AMBIGUOUS_NAMES)} resolve to more than one page; each "
+              f"links to its sorted-first path. Worst: "
+              + "; ".join(f"{n!r} x{len(p)}" for n, p in worst))
+    else:
+        print("  ambiguous bare names: 0")
     print(f"  family variant refs: {_VARIANT_STATS['found']} resolved"
           f" / {_VARIANT_STATS['missing']} unresolved / {_VARIANT_STATS['errors']} errored")
     print(f"  stale pages left by skipped files: {_STALE_STATS['pages']}"
