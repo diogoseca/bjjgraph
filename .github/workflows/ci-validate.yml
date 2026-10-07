@@ -15,6 +15,11 @@ on:
       - "templates/**"
       - "scripts/**"
       - "site/**"
+      # PWA artifact, rendered Head and deploy-chain unit tests read these inputs.
+      - "pwa/**"
+      - "branding/icon.svg"
+      - ".github/workflows/deploy.yaml"
+      - ".github/workflows/deploy-dev.yaml"
       - "functions/**"
       - "source/quartz/static/robots.txt"
       - "source/quartz/static/_headers"

@@ -65,6 +65,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.220.0** — [THE CARD, PRESENTED: WIN CHANCE QUIET, THE CARD PUT DOWN, ONE INSPECT SHEET](#v12200--the-card-presented-win-chance-quiet-the-card-put-down-one-inspect-sheet)
 - **v1.221.0** — [EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT](#v12210--every-flashcard-you-answer-counts-and-shows-it)
 - **v1.221.1** — [507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI](#v12211--507-stale-system-cards-regenerated-and-generated-content-now-matches-its-generator-in-ci)
+- **v1.223.0** — [THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)](#v12230--the-site-installs-a-web-app-manifest-maskable-icons-and-assetlinks-plumbing-twa-phase-1)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10669,3 +10670,32 @@ build. The census app rows were re-seeded with `validate:build-shape:app` from t
 compares them field by field with the law. Putting the old guard back turns both red at the panic
 assertions. Partially pinned: that `done(false)` calls `_breakCombo` is the landing-deck-answers panic
 journey's claim, not this unit's.
+
+## v1.223.0 — THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)
+
+**Owner, 2026-09-24:** "use the TWA tech to quickly adapt this to a native mobile app so we can put it on play store".
+This is phase 1, the in-repo half that improves the mobile web either way:
+- the manifest (`display: standalone`, theme and background `#1a1a2e`, the app's own background);
+- 192 and 512 icons plus a 512 MASKABLE icon;
+- the head links;
+- `/.well-known/assetlinks.json` with a PLACEHOLDER identity that prints "TWA ownership NOT verified";
+- exact, disjoint `max-age=0` header rules;
+- wiring into the root build AND both deploys;
+- a keystore `.gitignore` rule laid down before any key exists.
+
+Phases 2 (the Bubblewrap project and the owner checklist, outside the repo) and 3 (the service worker, a
+separate change) are in the private report.
+
+The work was rescued from a worker that hit its usage limit (`f71002c35`) and reconciled with 502 dev commits.
+The one SEMANTIC conflict git could not see: the branch built the manifest and apple-touch-icon hrefs from
+`baseDir`, which v1.218.3 had deleted. The file would not have compiled, and the URLs would have been
+page-relative again, the CONSOLE0 defect. Both now use the site root, as `check_pwa.py` already expected.
+
+The census moves are legitimate and were re-seeded through a guarded capture taken on #273's merged dev (D-288,
+ORDER1):
+- files +5 and static files +3;
+- head links +12,402 (2 × 6,201 pages);
+- `theme-color` meta 0 → 6,201;
+- `.well-known` 1 → 2.
+
+SEO head and JSON-LD are identical.

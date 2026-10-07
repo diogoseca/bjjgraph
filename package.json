@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.222.4",
+  "version": "1.223.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -66,7 +66,7 @@
     "clips:source": "python3 scripts/source_clips.py",
     "clips:verify": "python3 scripts/verify_clips.py",
     "clips:report": "python3 scripts/source_clips.py --stage report",
-    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && python3 scripts/check_redirect_targets.py && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents && python3 scripts/apply_affiliate_ref.py && npm run validate:payload",
+    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run regenerate:pwa && npm run validate:pwa && npm run build:forward && npm run build:share-shell && python3 scripts/check_redirect_targets.py && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents && python3 scripts/apply_affiliate_ref.py && npm run validate:payload",
     "regenerate:build": "npm run regenerate && npm run build",
     "test": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts",
     "test:curated": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts --grep @curated",
@@ -83,7 +83,9 @@
     "e2e:replay": "playwright test -c e2e/playwright.replay.config.ts",
     "regenerate:agents": "python3 scripts/regenerate_agent_discovery.py",
     "test:agents": "node --test tests/agent_discovery.test.mjs && python3 -B tests/agent_discovery_test.py",
-    "regenerate:mdp": "python3 -B scripts/regenerate_mdp_data.py"
+    "regenerate:mdp": "python3 -B scripts/regenerate_mdp_data.py",
+    "regenerate:pwa": "python3 scripts/regenerate_pwa.py",
+    "validate:pwa": "python3 scripts/check_pwa.py"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",

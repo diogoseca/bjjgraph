@@ -95,6 +95,16 @@ jobs:
           python3 ../scripts/regenerate_llms_txt.py
         working-directory: ./source
 
+      # Public app identity only: package + certificate fingerprints, never keys/passwords.
+      # Empty variables intentionally emit a non-verifying placeholder until owner setup.
+      - name: Emit and validate PWA assets
+        env:
+          TWA_PACKAGE_ID: ${{ vars.TWA_PACKAGE_ID }}
+          TWA_SHA256_CERT_FINGERPRINTS: ${{ vars.TWA_SHA256_CERT_FINGERPRINTS }}
+        run: |
+          npm run regenerate:pwa
+          npm run validate:pwa
+
       # Share-link static shell (/l.html + /l-manifest.json) and its SEO gate.
       # MUST be a step here: deploy does NOT run root `npm run build`, so anything wired only
       # into that script runs locally and never in production. Emits the shell the /l/* -> 200
