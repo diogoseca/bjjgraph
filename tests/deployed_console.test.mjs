@@ -12,7 +12,7 @@
 // fails...". No surviving mutant.
 import { test } from "node:test"
 import assert from "node:assert/strict"
-import { classify, ANALYTICS_SITE_HOST, proxyHost, redactor, report } from "../scripts/check_deployed_console.mjs"
+import { classify, ANALYTICS_SITE_HOST, proxyHost, redactor, report, readyVerdict, waitForReady, READY_MARKER } from "../scripts/check_deployed_console.mjs"
 
 const CSP = "default-src 'self'; script-src 'self'; connect-src 'self'"
 const clean = (origin, extra = {}) => ({
@@ -132,4 +132,70 @@ test("no line of the whole output carries the proxy host: hosts list, offenders,
   assert.match(res.err.join("\n"), /<posthog-proxy>/, "the offender lines name the proxy only as <posthog-proxy>")
   // control: the same log without the secret DOES print the host, so the assertion above is not vacuous
   assert.match([...report(log, {}).out, ...report(log, {}).err].join("\n"), /telemetry\.example\.org/)
+})
+
+// ── READINESS (CONSOLE-FLAKE, 2026-10-07) ──────────────────────────────────────────────────────
+// 4 of 5 dev deploys hit the fresh per-deploy URL before Cloudflare served it: one 404, no CSP. These
+// cases drive waitForReady with a SIMULATED server and a fake clock, so no network and no real waiting.
+// MUTANTS, each red by the test named: waitForReady returning ready on its first attempt whatever the
+// answer ("no wait") -> "a 404 then 200 waits for the 200"; readyVerdict ignoring the CSP header ->
+// "a 200 without a CSP header is not ready"; the timeout never firing -> the run times out INSIDE "never ready gives up, by name" (an endless
+// wait is that claim failing; node:test then reports the file, not the case).
+const CSP_H = { "content-security-policy-report-only": "default-src 'self'" }
+const OUR_DOC = `<html><head><script src="${READY_MARKER}"></script></head></html>`
+function fakeServer(answers) {
+  let i = 0
+  const calls = []
+  const fetchImpl = async (url) => {
+    calls.push(url)
+    const a = answers[Math.min(i++, answers.length - 1)]
+    if (a instanceof Error) throw a
+    return { status: a.status, headers: new Map(Object.entries(a.headers ?? {})), text: async () => a.body ?? "" }
+  }
+  return { fetchImpl, calls }
+}
+function fakeClock() {
+  let t = 0
+  return { now: () => t, sleep: async (ms) => { t += ms } }
+}
+
+test("readyVerdict: only a 200 that carries a CSP and loads /postscript.js is this site", () => {
+  assert.equal(readyVerdict(404, {}, "").ready, false)
+  assert.equal(readyVerdict(200, {}, OUR_DOC).ready, false)
+  assert.equal(readyVerdict(200, CSP_H, "<html>placeholder</html>").ready, false)
+  assert.equal(readyVerdict(200, { "Content-Security-Policy-Report-Only": "x" }, OUR_DOC).ready, true, "header names are case-insensitive")
+})
+
+test("a 200 without a CSP header is not ready (the not-ready Cloudflare answer carried none)", () => {
+  const v = readyVerdict(200, {}, OUR_DOC)
+  assert.equal(v.ready, false)
+  assert.match(v.why, /no CSP/)
+})
+
+test("a 404 then 200 waits for the 200, printing every attempt", async () => {
+  const srv = fakeServer([{ status: 404 }, { status: 404 }, { status: 200, headers: CSP_H, body: OUR_DOC }])
+  const clock = fakeClock(); const lines = []
+  const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...clock, fetchImpl: srv.fetchImpl, log: (l) => lines.push(l) })
+  assert.equal(r.ready, true)
+  assert.equal(r.attempts, 3, "it must not proceed on the 404s")
+  assert.equal(lines.length, 3)
+  assert.match(lines[0], /attempt 1 .*not ready: HTTP 404/)
+  assert.match(lines[2], /attempt 3 .*READY/)
+})
+
+test("a refused connection is not ready, and the wait goes on", async () => {
+  const srv = fakeServer([new Error("ECONNRESET"), { status: 200, headers: CSP_H, body: OUR_DOC }])
+  const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...fakeClock(), fetchImpl: srv.fetchImpl, log: () => {} })
+  assert.equal(r.ready, true)
+  assert.equal(r.attempts, 2)
+})
+
+test("never ready gives up, by name, inside its bound, and never reports ready", async () => {
+  const srv = fakeServer([{ status: 404 }])
+  const lines = []
+  const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...fakeClock(), fetchImpl: srv.fetchImpl, timeoutMs: 30_000, intervalMs: 5_000, log: (l) => lines.push(l) })
+  assert.equal(r.ready, false)
+  assert.ok(r.attempts >= 2 && r.waitedMs <= 30_000, `attempts ${r.attempts}, waited ${r.waitedMs}`)
+  assert.equal(r.last, "HTTP 404")
+  assert.equal(lines.length, r.attempts, "every attempt is printed")
 })
