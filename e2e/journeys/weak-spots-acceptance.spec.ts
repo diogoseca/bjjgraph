@@ -197,19 +197,31 @@ async function openPlan(j: any, page: Page) {
  * pane's scroller, which the plan scrolls on its own when it opens the first row's card (on a later frame
  * than the rows mount), so the button can sit ~1,800px below the fold for a moment: measured once in 15
  * runs, `clickByMouse` refused a centre at y=2006 of 900. The player scrolls to it and clicks it once it is
- * still; so does this, and the click itself is still a measured mouse click.
+ * still; so does this, and the click itself is still a measured mouse click. A re-render can replace
+ * the button while Playwright waits for stability; only that transient readiness failure is retried.
  */
 async function refreshPlan(j: any, page: Page) {
   const sel = "[data-gameplan-refresh]", button = page.locator(sel);
   await expect(button, "one Refresh plan button").toHaveCount(1);
   const height = page.viewportSize()?.height ?? 900;
   await expect.poll(async () => {
-    await button.scrollIntoViewIfNeeded();
-    const top = () => button.evaluate((el) => Math.round(el.getBoundingClientRect().top));
-    const a = await top();
-    await page.waitForTimeout(200);
-    const b = await top();
-    return a === b && b >= 0 && b < height;
+    try {
+      // Bound one stability wait so a moving button can return to the readiness poll.
+      await button.scrollIntoViewIfNeeded({ timeout: 1_000 });
+      const top = () => button.evaluate((el) => Math.round(el.getBoundingClientRect().top));
+      const a = await top();
+      await page.waitForTimeout(200);
+      const b = await top();
+      return a === b && b >= 0 && b < height;
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "", cause = message.split("\n")[0];
+      const detached = /^locator\.(scrollIntoViewIfNeeded|evaluate): Element is not attached to the DOM$/.test(cause);
+      const unstable = error instanceof Error && error.name === "TimeoutError"
+        && cause.startsWith("locator.scrollIntoViewIfNeeded: Timeout ") && message.includes("element is not stable");
+      if (!detached && !unstable) throw error;
+      test.info().annotations.push({ type: "refresh-plan-readiness-retry", description: cause });
+      return false; // The locator resolves the replacement button on the next poll.
+    }
   }, { timeout: 10_000, message: "Refresh plan comes to rest on screen" }).toBe(true);
   await j.clickByMouse(sel, "Refresh plan");
   return readPlan(page);
