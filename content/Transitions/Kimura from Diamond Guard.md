@@ -64,17 +64,6 @@ description: "Master the Kimura from Diamond Guard in BJJ. Convert overhook cont
       "url": "https://www.youtube.com/watch?v=IA4laaUMfD8",
       "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
       "duration": "PT70S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Kimura sweep from half guard",
-      "description": "Kimura from Diamond Guard film study: Kimura sweep from half guard, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R1DqRqmwDOw/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/R1DqRqmwDOw",
-      "url": "https://www.youtube.com/watch?v=R1DqRqmwDOw",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT117S"
     }
   ]
 }
@@ -139,14 +128,6 @@ The Kimura from Diamond Guard occupies a critical junction in the diamond guard 
 ![](https://www.youtube.com/watch?v=IA4laaUMfD8)
 
 <p class="clip-credit"><strong>Kimura sweep to kimura finish</strong> — taught by BJJ4Breakfast · 1:10 · <a href="https://www.youtube.com/watch?v=IA4laaUMfD8" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=R1DqRqmwDOw)
-
-<p class="clip-credit"><strong>Kimura sweep from half guard</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:57 · <a href="https://www.youtube.com/watch?v=R1DqRqmwDOw" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

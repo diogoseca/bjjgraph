@@ -46,17 +46,6 @@ description: "Master Gift Wrap Arm Recovery in BJJ. Step-by-step escape from tra
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back Escape with Arms Trapped",
-      "description": "Gift Wrap Arm Recovery film study: Back Escape with Arms Trapped, taught by Skyhook Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/B_kiu8SIRRc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/B_kiu8SIRRc",
-      "url": "https://www.youtube.com/watch?v=B_kiu8SIRRc",
-      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
-      "duration": "PT40S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "The Gift Wrap in 2 Minutes - No Gi",
       "description": "Gift Wrap Arm Recovery film study: The Gift Wrap in 2 Minutes - No Gi, taught by Brian Glick.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
@@ -114,14 +103,6 @@ Strategically, Gift Wrap Arm Recovery represents the critical first step in any 
 
 <p class="section-subtitle">Watch Gift Wrap Arm Recovery in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=B_kiu8SIRRc)
-
-<p class="clip-credit"><strong>Back Escape with Arms Trapped</strong> — taught by Skyhook Martial Arts · 0:40 · <a href="https://www.youtube.com/watch?v=B_kiu8SIRRc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

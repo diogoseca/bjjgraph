@@ -203,17 +203,6 @@ description: "Complete attacker guide for executing sweeps from Standing Guard i
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Standing guard sweeps breakdown",
-      "description": "Sweep from Standing Guard (Attacker) film study: Standing guard sweeps breakdown, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tj8NhpI88JU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/tj8NhpI88JU",
-      "url": "https://www.youtube.com/watch?v=tj8NhpI88JU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT102S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Foot scoop sweep when opponent stands in closed guard",
       "description": "Sweep from Standing Guard (Attacker) film study: Foot scoop sweep when opponent stands in closed guard, taught by SlothGuard.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pqNvQJ_tnmQ/hqdefault.jpg",
@@ -251,14 +240,6 @@ Executing sweeps from Standing Guard requires understanding the biomechanical vu
 ![](https://www.youtube.com/watch?v=IPvmkijzJmQ)
 
 <p class="clip-credit"><strong>Flower sweep against a standing opponent</strong> — taught by Jeffjitsu · 1:00 · <a href="https://www.youtube.com/watch?v=IPvmkijzJmQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=tj8NhpI88JU)
-
-<p class="clip-credit"><strong>Standing guard sweeps breakdown</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:42 · <a href="https://www.youtube.com/watch?v=tj8NhpI88JU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -160,17 +160,6 @@ description: "How to defend against Aoki Lock to Back Control in BJJ. Recognitio
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back escape against the seatbelt grip",
-      "description": "Aoki Lock to Back Control (Defender) film study: Back escape against the seatbelt grip, taught by Skyhook Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/djhMEfVZozo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/djhMEfVZozo",
-      "url": "https://www.youtube.com/watch?v=djhMEfVZozo",
-      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Back escape detail: no seat belt grip",
       "description": "Aoki Lock to Back Control (Defender) film study: Back escape detail: no seat belt grip, taught by Elements Martial Arts Brighton.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cfvNAYrogwQ/hqdefault.jpg",
@@ -206,14 +195,6 @@ Defensive success depends on recognizing the transition early through tactile cu
 
 <p class="section-subtitle">Watch Aoki Lock to Back Control (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=djhMEfVZozo)
-
-<p class="clip-credit"><strong>Back escape against the seatbelt grip</strong> — taught by Skyhook Martial Arts · 0:36 · <a href="https://www.youtube.com/watch?v=djhMEfVZozo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

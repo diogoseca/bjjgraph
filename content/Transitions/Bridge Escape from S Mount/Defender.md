@@ -170,17 +170,6 @@ description: "Maintain S Mount control against bridge escapes in BJJ. Counter-te
       "url": "https://www.youtube.com/watch?v=_jeIL_n2UcY",
       "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
       "duration": "PT41S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar from S-mount",
-      "description": "Bridge Escape from S Mount (Defender) film study: Armbar from S-mount, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
-      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT78S"
     }
   ]
 }
@@ -219,14 +208,6 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 ![](https://www.youtube.com/watch?v=_jeIL_n2UcY)
 
 <p class="clip-credit"><strong>Maintaining mount by swimming through the arms</strong> — taught by Gracie Charlottesville · 0:41 · <a href="https://www.youtube.com/watch?v=_jeIL_n2UcY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
-
-<p class="clip-credit"><strong>Armbar from S-mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

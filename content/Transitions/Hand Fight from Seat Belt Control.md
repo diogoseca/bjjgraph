@@ -46,17 +46,6 @@ description: "Master hand fighting defense from seat belt back control in BJJ. S
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back escape vs seatbelt grip",
-      "description": "Hand Fight from Seat Belt Control film study: Back escape vs seatbelt grip, taught by Skyhook Martial Arts coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/djhMEfVZozo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/djhMEfVZozo",
-      "url": "https://www.youtube.com/watch?v=djhMEfVZozo",
-      "creator": { "@type": "Person", "name": "Skyhook Martial Arts coach" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "\"Home Alone\" back escape off the seat belt",
       "description": "Hand Fight from Seat Belt Control film study: \"Home Alone\" back escape off the seat belt, taught by Procel BJJ coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/cWrV0wc6jyQ/hqdefault.jpg",
@@ -114,14 +103,6 @@ Successful hand fighting creates cascading defensive advantages that compound th
 
 <p class="section-subtitle">Watch Hand Fight from Seat Belt Control in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=djhMEfVZozo)
-
-<p class="clip-credit"><strong>Back escape vs seatbelt grip</strong> — taught by Skyhook Martial Arts coach · 0:36 · <a href="https://www.youtube.com/watch?v=djhMEfVZozo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 
