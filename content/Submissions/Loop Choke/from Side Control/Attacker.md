@@ -206,17 +206,6 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
       "url": "https://www.youtube.com/watch?v=Er-26kb4wss",
       "creator": { "@type": "Person", "name": "Alexandre Vieira" },
       "duration": "PT50S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Loop Choke from Side Control",
-      "description": "Loop Choke from Side Control (Attacker) film study: Loop Choke from Side Control, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YZuU9259pcs/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/YZuU9259pcs",
-      "url": "https://www.youtube.com/watch?v=YZuU9259pcs",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT118S"
     }
   ]
 }
@@ -256,14 +245,6 @@ The Loop Choke from Side Control leverages the perpendicular body alignment to c
 ![](https://www.youtube.com/watch?v=Er-26kb4wss)
 
 <p class="clip-credit"><strong>Alexandre Vieira Loop Choke</strong> — taught by Alexandre Vieira · 0:50 · <a href="https://www.youtube.com/watch?v=Er-26kb4wss" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=YZuU9259pcs)
-
-<p class="clip-credit"><strong>Loop Choke from Side Control</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:58 · <a href="https://www.youtube.com/watch?v=YZuU9259pcs" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

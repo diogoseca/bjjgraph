@@ -10806,3 +10806,16 @@ line no longer multiplies the tracked-file count by the number of documents. Mut
 budget gate and 4 of 4 on the refs gate were killed by named tests (`tests/claudemd_budget_gate.test.mjs`,
 `tests/claudemd_refs_gate.test.mjs`). A dangling path planted in a rules file turns `validate:claudemd`
 red, and passes under the old CLAUDE.md-only default.
+
+## v1.224.11 — Remove unavailable film-study clips (2026-10-08)
+
+A read-only audit checked all 3,870 unique YouTube IDs behind 8,104 clip references in
+65 minutes 11 seconds. Nine IDs rejected embedding and also returned 404 thumbnails;
+their 26 references were removed from 26 source JSON files. All surviving clip metadata,
+including verification dates and format flags, is unchanged.
+
+Free Markdown and hub regeneration changed 38 pages. Removing the sole attacker clip
+from Reverse Armbar from Mount activates the existing hub-template fallback to its two
+live defender clips. The other changes remove unavailable embeds, credits and video
+structured data, with list positions renumbered where needed. No source, template or
+application code changed. The monthly verifier repair follows in a separate PR.

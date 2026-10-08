@@ -64,17 +64,6 @@ description: "Learn the Mounted Crucifix to S Mount transition in BJJ. Step-by-s
       "url": "https://www.youtube.com/watch?v=NSQos3RARTk",
       "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
       "duration": "PT61S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
-      "name": "Armbar from S-mount",
-      "description": "Mounted Crucifix to S Mount film study: Armbar from S-mount, taught by Fenrir Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
-      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu" },
-      "duration": "PT78S"
     }
   ]
 }
@@ -139,14 +128,6 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 ![](https://www.youtube.com/watch?v=NSQos3RARTk)
 
 <p class="clip-credit"><strong>S-mount armbar setup</strong> — taught by Team Daruma Dojo · 1:01 · <a href="https://www.youtube.com/watch?v=NSQos3RARTk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
-
-<p class="clip-credit"><strong>Armbar from S-mount</strong> — taught by Fenrir Jiu-Jitsu · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

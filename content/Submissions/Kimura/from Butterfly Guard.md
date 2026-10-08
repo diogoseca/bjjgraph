@@ -46,17 +46,6 @@ description: "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, h
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Kimura from guard, Marcelo Garcia version",
-      "description": "Kimura from Butterfly Guard film study: Kimura from guard, Marcelo Garcia version, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a52wxVLVkAY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a52wxVLVkAY",
-      "url": "https://www.youtube.com/watch?v=a52wxVLVkAY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Kimura from half guard bottom",
       "description": "Kimura from Butterfly Guard film study: Kimura from half guard bottom, taught by Georges St-Pierre.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
@@ -126,14 +115,6 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 <p class="section-subtitle">Watch Kimura from Butterfly Guard in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=a52wxVLVkAY)
-
-<p class="clip-credit"><strong>Kimura from guard, Marcelo Garcia version</strong> — taught by Marcelo Garcia · 1:46 · <a href="https://www.youtube.com/watch?v=a52wxVLVkAY" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

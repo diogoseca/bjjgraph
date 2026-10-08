@@ -173,17 +173,6 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
       "url": "https://www.youtube.com/watch?v=py3b0tmTJuU",
       "creator": { "@type": "Person", "name": "TrickyBJJ Academy" },
       "duration": "PT57S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
-      "name": "Destroy the De La Riva pass",
-      "description": "De La Riva Guard (Top) film study: Destroy the De La Riva pass, taught by Augusto Frota.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S5IKZijyNMc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S5IKZijyNMc",
-      "url": "https://www.youtube.com/watch?v=S5IKZijyNMc",
-      "creator": { "@type": "Person", "name": "Augusto Frota" },
-      "duration": "PT51S"
     }
   ]
 }
@@ -221,14 +210,6 @@ The most effective DLR passers develop a systematic approach that addresses each
 ![](https://www.youtube.com/watch?v=py3b0tmTJuU)
 
 <p class="clip-credit"><strong>De La Riva float pass</strong> — taught by TrickyBJJ Academy · 0:57 · <a href="https://www.youtube.com/watch?v=py3b0tmTJuU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=S5IKZijyNMc)
-
-<p class="clip-credit"><strong>Destroy the De La Riva pass</strong> — taught by Augusto Frota · 0:51 · <a href="https://www.youtube.com/watch?v=S5IKZijyNMc" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

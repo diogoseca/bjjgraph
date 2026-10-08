@@ -192,17 +192,6 @@ description: "Execute the S Mount Armbar Setup in BJJ. Step-by-step guide coveri
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar from S-mount",
-      "description": "S Mount Armbar Setup (Attacker) film study: Armbar from S-mount, taught by Fenrir Jiu-Jitsu coach.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
-      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu coach" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Switch-side armbar from S-mount",
       "description": "S Mount Armbar Setup (Attacker) film study: Switch-side armbar from S-mount, taught by Darrin Lillian.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
@@ -213,7 +202,7 @@ description: "Execute the S Mount Armbar Setup in BJJ. Step-by-step guide coveri
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "S-mount armbar, kimura and far-side armbar",
       "description": "S Mount Armbar Setup (Attacker) film study: S-mount armbar, kimura and far-side armbar, taught by GB Costa Mesa coach.",
       "thumbnailUrl": "https://i.ytimg.com/vi/nH4ly3vk7WI/hqdefault.jpg",
@@ -245,14 +234,6 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 <p class="section-subtitle">Watch S Mount Armbar Setup (Attacker) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
-
-<p class="clip-credit"><strong>Armbar from S-mount</strong> — taught by Fenrir Jiu-Jitsu coach · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

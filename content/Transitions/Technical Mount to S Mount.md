@@ -57,17 +57,6 @@ description: "Master the Technical Mount to S Mount transition in BJJ. Learn per
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar from S-mount",
-      "description": "Technical Mount to S Mount film study: Armbar from S-mount, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
-      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Switch side armbar from S-mount",
       "description": "Technical Mount to S Mount film study: Switch side armbar from S-mount, taught by Darrin Lillian.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
@@ -131,14 +120,6 @@ This transition functions as the bridge between mount control and submission fin
 ![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
 
 <p class="clip-credit"><strong>S-mount troubleshooting, no-gi</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
-
-<p class="clip-credit"><strong>Armbar from S-mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

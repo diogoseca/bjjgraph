@@ -160,17 +160,6 @@ description: "How to defend against Seat Belt Control Back in BJJ. Recognition c
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back escape against the seatbelt grip",
-      "description": "Seat Belt Control Back (Defender) film study: Back escape against the seatbelt grip, taught by Skyhook Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/djhMEfVZozo/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/djhMEfVZozo",
-      "url": "https://www.youtube.com/watch?v=djhMEfVZozo",
-      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
-      "duration": "PT36S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Quick fix for the seatbelt grip",
       "description": "Seat Belt Control Back (Defender) film study: Quick fix for the seatbelt grip, taught by Ben Kool.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
@@ -206,14 +195,6 @@ The defender's primary advantage is that this transition requires the attacker t
 
 <p class="section-subtitle">Watch Seat Belt Control Back (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=djhMEfVZozo)
-
-<p class="clip-credit"><strong>Back escape against the seatbelt grip</strong> — taught by Skyhook Martial Arts · 0:36 · <a href="https://www.youtube.com/watch?v=djhMEfVZozo" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 
