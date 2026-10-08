@@ -485,8 +485,8 @@ uploader metadata are not practitioner endorsements.
 # AI-assisted planning/curation of real search results, verification, and application
 npm run clips:source
 
-# Network re-verification; refreshes verification metadata in source JSON
-npm run clips:verify
+# Read-only availability report; preserve source metadata
+npm run clips:verify -- --report-only --report-dir clips-verification
 
 # Also remove confirmed dead or embedding-disabled clips; transient errors are kept
 npm run clips:verify -- --prune
@@ -494,6 +494,14 @@ npm run clips:verify -- --prune
 # Generate the local review report
 npm run clips:report
 ```
+
+Verification checks each eligible video ID once across all holders, with bounded retries for
+transient errors, four workers, and a global 0.5-second request interval by default. A duplicate
+with any stale reference is eligible under `--max-age-days`. `--report-dir` must be a fresh path
+outside `content/`; it retains each completed result in JSONL plus JSON/Markdown summaries.
+In report mode, dead IDs exit 1; zero coverage, errors or an incomplete run exit 2. The monthly
+workflow uploads complete or partial results and publishes the coverage summary even on failure.
+`--prune` only removes unavailable references and never refreshes surviving metadata.
 
 Sourcing uses yt-dlp search results, AI-assisted selection from those results, and machine video
 checks. “Never AI-authored” here means never invent IDs or let general content enrichment replace
@@ -511,8 +519,9 @@ alone is not evidence of the portrait format. Principle sourcing also reads inst
 tabs because yt-dlp's ordinary search applies a Videos-only filter; `--shorts-channel HANDLE`
 can override the default instructor handles (repeat the flag for multiple channels). Picks still
 require relevance curation and oEmbed verification. Format comes from portrait-thumbnail checks
-or official Shorts-tab URLs with portrait thumbnail dimensions. Re-verification retains the
-known format when portrait thumbnails are missing or temporarily unavailable.
+or official Shorts-tab URLs with portrait thumbnail dimensions. Read-only availability checks
+preserve all existing metadata and do not probe portrait thumbnails; sourcing still checks format
+when choosing new clips.
 
 `validate:json` rejects inverted loop bounds but only warns about duplicate IDs and end times past
 the recorded duration. Network availability checks belong to `verify_clips.py`; neither tool checks
@@ -538,7 +547,7 @@ same contract. Inspect the selected template when changing metadata.
 | `validate:json` | JSON Schema requirements, probability sums and null handling, selected references and semantic checks | All prose wikilinks, safe mechanics, or expert agreement; default severity permits some findings |
 | `validate:graph` | Content connectivity/reference audits, probability checks, emitted headline coherence and defender complements, vote/prior checks | A fresh graph, universal per-source rate equality, or complete BJJ correctness |
 | `regenerate:md` | Schema-backed rendering and explicit render failures | Correct graph payloads or a built site |
-| `clips:verify` | Current machine video checks and refreshed metadata | Instructional relevance, copyright permission, or safety review |
+| `clips:verify` | Current oEmbed availability and explicit unique-ID coverage; source unchanged unless `--prune` is requested | Instructional relevance, copyright permission, or safety review |
 
 Read the named errors and warnings, fix the source or template responsible, then regenerate the
 relevant outputs. Passing automation is evidence only for the conditions actually checked.
