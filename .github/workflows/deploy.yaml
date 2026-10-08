@@ -35,6 +35,7 @@ jobs:
   deploy:
     outputs:
       console: ${{ steps.console.outcome }}
+      stamp: ${{ steps.stamp.outcome }}
     env:
       POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
       POSTHOG_API_HOST: ${{ secrets.POSTHOG_API_HOST }}
@@ -311,6 +312,14 @@ jobs:
           { echo '### Deployed console'; echo '```'; cat deployed-console.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           exit $rc
 
+      # Production only: the dev preview uses a pages.dev hostname that the zone setting cannot
+      # affect, so this check would always pass there. Like console, its verdict fails separately
+      # below so Lighthouse, IndexNow and release can still run after the site is live.
+      - name: Live stamp cache header check
+        id: stamp
+        continue-on-error: true
+        run: python3 scripts/check_headers_cache.py --live https://bjjgraph.org
+
       # ── Training-day digest (v1.105.7): the Worker + its secrets, and the unsubscribe
       #    Function's Pages secrets — ALL flowing from GitHub secrets, so there is exactly one
       #    place a credential lives. Skips loudly (never fails the deploy) until the owner adds
@@ -339,19 +348,23 @@ jobs:
           printf '%s' "$SUPABASE_SERVICE_ROLE_KEY" | npx wrangler pages secret put SUPABASE_SERVICE_ROLE_KEY --project-name=bjjgraph
           printf '%s' "$UNSUB_HMAC_SECRET"         | npx wrangler pages secret put UNSUB_HMAC_SECRET --project-name=bjjgraph
 
-  # The deployed-console verdict, as its own red (see the `Deployed console check` step). The
-  # offenders are printed in that step and in the deploy job's summary.
+  # Post-deploy verdicts get their own red; observations are in the corresponding deploy steps.
   deployed-console:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Deployed console is clean (gate)
+      - name: Deployed console and stamp cache header are clean (gate)
         run: |
           if [ "${{ needs.deploy.outputs.console }}" != "success" ]; then
             echo "::error::The deployed console check did not pass (outcome: ${{ needs.deploy.outputs.console }}). Its offenders are in the deploy job's 'Deployed console check' step and summary."
             exit 1
           fi
           echo "deployed console clean"
+          if [ "${{ needs.deploy.outputs.stamp }}" != "success" ]; then
+            echo "::error::The live stamp cache header check did not pass (outcome: ${{ needs.deploy.outputs.stamp }}). See the deploy job's 'Live stamp cache header check' step for the observed header and Cloudflare setting."
+            exit 1
+          fi
+          echo "live stamp cache header clean"
 
   lighthouse-ci:
     needs: deploy

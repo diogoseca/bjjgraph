@@ -55,15 +55,19 @@ Checks the CANONICAL source (source/quartz/static/_headers) and, when present, t
 emitted deploy-root copy (source/public/_headers) that regenerate_headers.py writes.
 
 Usage:  python3 scripts/check_headers_cache.py
-Exit:   0 = disjoint, 1 = a rule overlap or limit breach ships otherwise.
+        python3 scripts/check_headers_cache.py --live https://bjjgraph.org
+Exit:   0 = cache policy holds, 1 = unsafe or unverifiable headers.
 """
 
 from __future__ import annotations
 
+import argparse
 import fnmatch
 import json
 import re
 import sys
+import time
+import urllib.request
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -120,6 +124,35 @@ PROBE_PATHS = (
 # production skew, v1.182.15's neural.js against v1.204.4's data. So exactly one rule must match it,
 # and that rule must revalidate on every load with no stale-while-revalidate.
 STAMP_CARRIER = "/postscript.js"
+
+
+def stamp_uncached(header: str | None) -> bool:
+    directives = {d.strip().lower() for d in (header or "").split(",")}
+    return {"max-age=0", "must-revalidate"} <= directives and not any(
+        d.startswith(("stale-while-revalidate", "stale-if-error"))
+        or (d.startswith("max-age=") and d != "max-age=0") for d in directives
+    )
+
+
+def check_live(base: str) -> int:
+    for attempt in range(3):
+        url = f"{base.rstrip('/')}{STAMP_CARRIER}?stamp-check={time.time_ns()}"
+        header = None
+        try:
+            # Cloudflare rejects urllib's default user agent (1010); identify this check.
+            request = urllib.request.Request(url, headers={"User-Agent": "BJJGraph-header-check/1.0"})
+            with urllib.request.urlopen(request, timeout=10) as response:
+                header = ", ".join(response.headers.get_all("Cache-Control", []))
+        except OSError as error:
+            print(f"[check_headers_cache] {url}: {error}")
+        print(f"[check_headers_cache] live {attempt + 1}/3: {url} Cache-Control: {header!r}")
+        if stamp_uncached(header):
+            print("[check_headers_cache] OK — 1 live stamp carrier checked, revalidation required")
+            return 0
+        if attempt < 2:
+            time.sleep(2)
+    print('[check_headers_cache] FAIL — Cloudflare → Caching → Configuration → Browser Cache TTL → "Respect Existing Headers"')
+    return 1
 
 
 def parse(path: Path) -> list[tuple[str, list[str]]]:
@@ -187,10 +220,7 @@ def check(path: Path) -> list[str]:
             f"stamp the app bundle URL is keyed on, so it needs exactly one, revalidated on every load."
         )
     else:
-        directives = {d.strip().lower() for d in carrier[0].split(":", 1)[1].split(",")}
-        if not {"max-age=0", "must-revalidate"} <= directives or any(
-            d.startswith("stale-while-revalidate") or d.startswith("stale-if-error") for d in directives
-        ):
+        if not stamp_uncached(carrier[0].split(":", 1)[1]):
             errors.append(
                 f"{label}: {STAMP_CARRIER} is served {carrier[0]!r}; it must be `max-age=0, "
                 f"must-revalidate` with no stale-while-revalidate, or a cached copy carries a stale "
@@ -390,6 +420,11 @@ def check_functions(headers_path: Path, warnings: list[str] | None = None) -> li
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__.split("\n", 1)[0])
+    parser.add_argument("--live", metavar="BASE_URL", help="check the deployed stamp carrier's Cache-Control")
+    args = parser.parse_args()
+    if args.live:
+        sys.exit(check_live(args.live))
     targets = [p for p in (CANONICAL, EMITTED) if p.exists()]
     if not targets:
         print(f"[check_headers_cache] ERROR: no _headers found at {CANONICAL}", file=sys.stderr)
