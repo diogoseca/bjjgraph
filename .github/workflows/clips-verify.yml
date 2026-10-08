@@ -1,15 +1,12 @@
 name: Clips Verify (monthly YouTube rot check)
 
-# Curated film-study clips rot: videos get deleted, made private, or have
-# embedding disabled after curation. This re-runs the machine checks (oEmbed
-# embeddability + Shorts thumbnail) over every clip whose `verified` date is
-# older than 30 days. REPORT-ONLY: a failing run means dead clips exist — fix
-# locally with `npm run clips:verify -- --prune` (or replace ids by hand) and
-# commit; this workflow never mutates content.
-
+# Availability checks are read-only, paced across a bounded worker pool, and
+# deduplicated by video ID. The verifier checkpoints every result. Its internal
+# 80-minute limit and the 85-minute step limit leave time to retain evidence
+# before the 90-minute job limit, even when YouTube is slow or unavailable.
 on:
   schedule:
-    - cron: "0 6 1 * *" # 1st of the month, 06:00 UTC
+    - cron: "0 6 1 * *"
   workflow_dispatch:
 
 permissions:
@@ -22,7 +19,7 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 90
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -32,5 +29,29 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Re-verify stale clips (exit 1 = rot found)
-        run: python3 scripts/verify_clips.py --max-age-days 30 --sleep 0.5
+      - name: Report stale clips (rot, incomplete or zero coverage fails)
+        id: verify-clips
+        timeout-minutes: 85
+        run: >-
+          python3 scripts/verify_clips.py --report-only --max-age-days 30
+          --workers 4 --sleep 0.5 --max-seconds 4800
+          --report-dir clips-verification
+
+      - name: Publish clip coverage and failures in the job summary
+        if: always()
+        run: |
+          if [ -f clips-verification/summary.md ]; then
+            cat clips-verification/summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf '%s\n' '## Clip verification failed before reporting coverage' >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+      - name: Retain complete or partial clip-verification results
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: clips-verification
+          path: clips-verification/
+          if-no-files-found: error
+          retention-days: 90
