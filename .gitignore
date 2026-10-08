@@ -73,6 +73,8 @@ occurrence_elicitation/
 # YouTube clip sourcing working state (resumable per-slot state + raw search results +
 # review.html; the applied clips live in content/*.json which IS committed)
 clips_sourcing/
+# Availability reports are local/CI artifacts, never authored content.
+clips-verification/
 # regenerable from calibration/occurrence_calibration.json via `occurrence_moe.py --aggregate`
 /calibration/occurrence_preview.md
 # Legacy preview from older checkouts.

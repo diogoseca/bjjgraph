@@ -69,17 +69,6 @@ description: "Master the Kimura shoulder lock in BJJ. Complete guide covering gr
     {
       "@type": "VideoObject",
       "position": 3,
-      "name": "Kimura from guard, Marcelo Garcia version",
-      "description": "Kimura film study: Kimura from guard, Marcelo Garcia version, taught by Marcelo Garcia.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a52wxVLVkAY/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/a52wxVLVkAY",
-      "url": "https://www.youtube.com/watch?v=a52wxVLVkAY",
-      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
-      "duration": "PT106S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 4,
       "name": "Kimura from half guard bottom",
       "description": "Kimura film study: Kimura from half guard bottom, taught by Georges St-Pierre.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
@@ -166,14 +155,6 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 ![](https://www.youtube.com/watch?v=MIPeuSLIaKQ)
 
 <p class="clip-credit"><strong>North-south kimura grip to armbar</strong> — taught by Raven Jiu Jitsu · 3:34 · <a href="https://www.youtube.com/watch?v=MIPeuSLIaKQ" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=a52wxVLVkAY)
-
-<p class="clip-credit"><strong>Kimura from guard, Marcelo Garcia version</strong> — taught by Marcelo Garcia · 1:46 · <a href="https://www.youtube.com/watch?v=a52wxVLVkAY" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

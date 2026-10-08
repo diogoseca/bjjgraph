@@ -955,6 +955,35 @@ test("native target scan rejects a skipped traversal", async (t) => {
 
 test("authored tag and folder-index routes keep incumbent overlapping-write behavior", (t) => {
   const f = fixture(t);
+  // Observe the REAL filesystem calls and delay shared-route I/O to expose overlap even
+  // when this machine would otherwise finish the first write before the second starts.
+  // Every emitter still writes its full page; neither the probe nor the driver drops a writer.
+  const runner = path.join(f.source, "run.mjs");
+  fs.writeFileSync(
+    runner,
+    `
+const originalWriteFile = fs.promises.writeFile;
+const activeWrites = new Set();
+let overlapWrites = 0;
+fs.promises.writeFile = async (file, ...args) => {
+  if (!/(?:Extra\\/index|tags\\/fixture)\\.html$/.test(String(file)))
+    return originalWriteFile.call(fs.promises, file, ...args);
+  const key = path.resolve(String(file));
+  assert.ok(!activeWrites.has(key), "concurrent overlapping write: " + key);
+  activeWrites.add(key);
+  try {
+    await new Promise(resolve => setTimeout(resolve, 25));
+    await originalWriteFile.call(fs.promises, file, ...args);
+    overlapWrites++;
+  } finally {
+    activeWrites.delete(key);
+  }
+};
+` + fs.readFileSync(runner, "utf8") + `
+assert.equal(overlapWrites, 4);
+console.log("Overlap write coverage: 4 completed writes, no concurrent same-path writes");
+`,
+  );
   f.put(
     "content/tags/fixture.md",
     `${frontmatter("Authored tag")}\n# Authored\n\nauthored tag description marker\n`,
@@ -976,6 +1005,25 @@ test("authored tag and folder-index routes keep incumbent overlapping-write beha
       fs.readFileSync(path.join(a, file)),
       fs.readFileSync(path.join(b, file)),
       file,
+    );
+  // Independent winner oracle: configured order gives the specialized FolderPage and
+  // TagPage layouts the final write. Comparing two racy builds alone pins no winner.
+  // Reversing the driver's page-emitter order must fail THIS named test even when both
+  // concurrency settings produce byte-identical ContentPage output.
+  const folder = fs.readFileSync(path.join(b, "Extra/index.html"), "utf8");
+  assert.match(folder, /<div class="popover-hint"><article><h1 id="folder">/);
+  assert.match(folder, /authored folder description marker<\/p><\/article><\/div>/);
+  assert.equal(folder.match(/<\/html>/g)?.length, 1, "no stale trailing HTML bytes");
+  const tag = fs.readFileSync(path.join(b, "tags/fixture.html"), "utf8");
+  assert.match(
+    tag,
+    /authored tag description marker<\/p><\/article><div class="page-listing">/,
+  );
+  assert.equal(tag.match(/<\/html>/g)?.length, 1, "no stale trailing HTML bytes");
+  for (const result of [serial, parallel])
+    assert.match(
+      result.log,
+      /Overlap write coverage: 4 completed writes, no concurrent same-path writes/,
     );
   assert.match(parallel.log, /\[emit:plan\] shardEmitters=0 mainEmitters=7/);
   assert.match(

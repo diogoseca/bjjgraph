@@ -160,17 +160,6 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Guard pass shutting down De La Riva and berimbolo",
-      "description": "Bolo Sweep (Defender) film study: Guard pass shutting down De La Riva and berimbolo, taught by Augusto Frota.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/S5IKZijyNMc/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/S5IKZijyNMc",
-      "url": "https://www.youtube.com/watch?v=S5IKZijyNMc",
-      "creator": { "@type": "Person", "name": "Augusto Frota" },
-      "duration": "PT51S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "De La Riva counter into back take",
       "description": "Bolo Sweep (Defender) film study: De La Riva counter into back take, taught by Vicente Cavalcanti.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bdD496w3erA/hqdefault.jpg",
@@ -181,7 +170,7 @@ description: "How to defend and counter the Bolo Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Passing De La Riva with your pant controlled",
       "description": "Bolo Sweep (Defender) film study: Passing De La Riva with your pant controlled, taught by Alec Baulding.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QSZEm0Y0KIg/hqdefault.jpg",
@@ -215,14 +204,6 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 
 <p class="section-subtitle">Watch Bolo Sweep (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=S5IKZijyNMc)
-
-<p class="clip-credit"><strong>Guard pass shutting down De La Riva and berimbolo</strong> — taught by Augusto Frota · 0:51 · <a href="https://www.youtube.com/watch?v=S5IKZijyNMc" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

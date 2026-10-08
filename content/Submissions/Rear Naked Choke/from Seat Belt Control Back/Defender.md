@@ -162,17 +162,6 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Back escape vs rear naked choke",
-      "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Back escape vs rear naked choke, taught by Skyhook Martial Arts.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dWEiE8VqqM4/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/dWEiE8VqqM4",
-      "url": "https://www.youtube.com/watch?v=dWEiE8VqqM4",
-      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
-      "duration": "PT19S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Back escape and RNC defence",
       "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Back escape and RNC defence, taught by Arete BJJ Malta.",
       "thumbnailUrl": "https://i.ytimg.com/vi/L1KeviYu1FQ/hqdefault.jpg",
@@ -183,7 +172,7 @@ description: "Defend the Rear Naked Choke from Seat Belt Control Back. Recogniti
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Rear naked choke escape",
       "description": "Rear Naked Choke from Seat Belt Control Back (Defender) film study: Rear naked choke escape, taught by Renato Migliaccio.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ylLO80PM4zg/hqdefault.jpg",
@@ -216,14 +205,6 @@ Defending the Rear Naked Choke from Seat Belt Control Back requires immediate re
 
 <p class="section-subtitle">Watch Rear Naked Choke from Seat Belt Control Back (Defender) in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=dWEiE8VqqM4)
-
-<p class="clip-credit"><strong>Back escape vs rear naked choke</strong> — taught by Skyhook Martial Arts · 0:19 · <a href="https://www.youtube.com/watch?v=dWEiE8VqqM4" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

@@ -176,17 +176,6 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "VideoObject",
       "position": 2,
-      "name": "Armbar from S-Mount",
-      "description": "3-4 Mount (Top) film study: Armbar from S-Mount, taught by Fenrir Jiu-Jitsu.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
-      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 3,
       "name": "Switch-side armbar from S-Mount",
       "description": "3-4 Mount (Top) film study: Switch-side armbar from S-Mount, taught by Darrin Lillian.",
       "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
@@ -226,14 +215,6 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 ![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
 
 <p class="clip-credit"><strong>S-Mount top troubleshooting</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
-
-</div>
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
-
-<p class="clip-credit"><strong>Armbar from S-Mount</strong> — taught by Fenrir Jiu-Jitsu · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
 
 </div>
 

@@ -47,17 +47,6 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
     {
       "@type": "VideoObject",
       "position": 1,
-      "name": "Armbar from S-Mount",
-      "description": "Armbar film study: Armbar from S-Mount, taught by Fenrir Jiu-Jitsu Academy.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
-      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
-      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
-      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
-      "duration": "PT78S"
-    },
-    {
-      "@type": "VideoObject",
-      "position": 2,
       "name": "Brutal armbar from S-mount",
       "description": "Armbar film study: Brutal armbar from S-mount, taught by Lux\u0027s Jiu Jitsu.",
       "thumbnailUrl": "https://i.ytimg.com/vi/N-fwXASdMCQ/hqdefault.jpg",
@@ -68,7 +57,7 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
     },
     {
       "@type": "VideoObject",
-      "position": 3,
+      "position": 2,
       "name": "Overhook closed guard to rolling armbar",
       "description": "Armbar film study: Overhook closed guard to rolling armbar, taught by BOWERHOUSE MMA.",
       "thumbnailUrl": "https://i.ytimg.com/vi/XVxTzuJ1F60/hqdefault.jpg",
@@ -79,7 +68,7 @@ description: "Master the Armbar submission in BJJ. Complete guide covering setup
     },
     {
       "@type": "VideoObject",
-      "position": 4,
+      "position": 3,
       "name": "Roger Gracie armbars",
       "description": "Armbar film study: Roger Gracie armbars, taught by Roger Gracie.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
@@ -155,14 +144,6 @@ As one of the first submissions taught to beginners and one of the last perfecte
 
 <p class="section-subtitle">Watch Armbar in action — curated instructionals</p>
 
-
-<div class="film-clip">
-
-![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
-
-<p class="clip-credit"><strong>Armbar from S-Mount</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
-
-</div>
 
 <div class="film-clip">
 

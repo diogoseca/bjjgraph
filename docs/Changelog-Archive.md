@@ -10806,3 +10806,34 @@ line no longer multiplies the tracked-file count by the number of documents. Mut
 budget gate and 4 of 4 on the refs gate were killed by named tests (`tests/claudemd_budget_gate.test.mjs`,
 `tests/claudemd_refs_gate.test.mjs`). A dangling path planted in a rules file turns `validate:claudemd`
 red, and passes under the old CLAUDE.md-only default.
+
+## v1.224.11 — Remove unavailable film-study clips (2026-10-08)
+
+A read-only audit checked all 3,870 unique YouTube IDs behind 8,104 clip references in
+65 minutes 11 seconds. Nine IDs rejected embedding and also returned 404 thumbnails;
+their 26 references were removed from 26 source JSON files. All surviving clip metadata,
+including verification dates and format flags, is unchanged.
+
+Free Markdown and hub regeneration changed 38 pages. Removing the sole attacker clip
+from Reverse Armbar from Mount activates the existing hub-template fallback to its two
+live defender clips. The other changes remove unavailable embeds, credits and video
+structured data, with list positions renumbered where needed. No source, template or
+application code changed. The monthly verifier repair follows in a separate PR.
+
+
+## v1.224.12 — Read-only monthly clip verification with durable reports (2026-10-08)
+
+The verifier now checks unique video IDs with four workers and a global 0.5-second
+request interval. Health checks use oEmbed only; sourcing retains portrait-format
+checks. Default/report-only runs preserve all content bytes. Explicit pruning removes
+only unavailable references and keeps surviving metadata unchanged.
+
+Each result is flushed to JSONL and coverage is checkpointed to JSON/Markdown. CI
+publishes the summary and uploads partial results even after failure. Dead clips,
+exhausted transient retries, incomplete coverage and zero checked IDs fail. Internal,
+step and job deadlines leave time to retain evidence before the job ends.
+
+A live run with the monthly flags checked 3,698 eligible unique IDs out of 3,861 in
+30 minutes 50 seconds, with zero errors and identical hashes for all 6,412 content
+files. Sixteen offline fixtures cover read-only behavior, deduplication, pacing,
+pruning and failure durability; five named mutants are killed by those fixtures.

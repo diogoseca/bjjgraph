@@ -209,9 +209,11 @@ def is_short(video_id, timeout=15):
     return None
 
 
-def verify_video(video_id, timeout=15):
+def verify_video(video_id, timeout=15, *, check_format=True):
     """Machine-verify one YouTube ID. Returns
-    {status: ok|embed-disabled|gone|error, channel, vertical}."""
+    {status: ok|embed-disabled|gone|error, channel, vertical, reason}.
+    Report-only availability checks skip the four portrait-thumbnail probes.
+    Sourcing keeps the existing format verification by default."""
     url = ("https://www.youtube.com/oembed?url=https%3A//www.youtube.com/watch%3Fv%3D"
            + video_id + "&format=json")
     req = urllib.request.Request(url, headers=_UA)
@@ -220,10 +222,11 @@ def verify_video(video_id, timeout=15):
             channel = json.load(r).get("author_name") or ""
     except urllib.error.HTTPError as e:
         if e.code in (401, 403):
-            return {"status": "embed-disabled", "channel": None, "vertical": None}
+            return {"status": "embed-disabled", "channel": None, "vertical": None, "reason": f"oEmbed HTTP {e.code}: embedding unavailable"}
         if e.code == 404:
-            return {"status": "gone", "channel": None, "vertical": None}
-        return {"status": "error", "channel": None, "vertical": None}
-    except Exception:
-        return {"status": "error", "channel": None, "vertical": None}
-    return {"status": "ok", "channel": channel, "vertical": is_short(video_id, timeout)}
+            return {"status": "gone", "channel": None, "vertical": None, "reason": "oEmbed HTTP 404: unavailable or private"}
+        return {"status": "error", "channel": None, "vertical": None, "reason": f"oEmbed HTTP {e.code}: transient check failure"}
+    except Exception as e:
+        return {"status": "error", "channel": None, "vertical": None, "reason": f"oEmbed {type(e).__name__}: check failed"}
+    return {"status": "ok", "channel": channel, "vertical": is_short(video_id, timeout) if check_format else None,
+            "reason": "oEmbed HTTP 200: available for embedding"}
