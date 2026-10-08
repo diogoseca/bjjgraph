@@ -6,12 +6,14 @@
 # step list is never copied here, so a step added to the workflow is replayed the day it lands —
 # a hand-picked local gate list silently runs a subset of CI.
 #
-# Three steps cannot run as written on a seat, and each is SUBSTITUTED, out loud:
+# Installer steps cannot run as written on a seat, and each is SUBSTITUTED, out loud:
 #   · `pip install …`  — would change this machine's Python. Replaced by an import check of the same
 #     packages: absent is a failure that names them, never a skip.
 #   · `npm ci` / `npm install` — would DELETE and reinstall node_modules, which in a worktree is a
 #     symlink into the shared deps donor: every other worktree would go red at once. Replaced by a
 #     check that every dependency in that directory's package.json resolves.
+#   · actionlint install — checks an existing binary (ACTIONLINT or PATH) against the version
+#     pinned in the workflow's own env. The following lint step still runs unchanged.
 #   · `--baseline-ref HEAD^1` — on CI's merge ref HEAD^1 is the base branch tip; on a branch it is
 #     your previous commit. Replaced by the merge-base with origin/dev (override: CI_LOCAL_BASE).
 # `uses:` steps (checkout, setup-python, setup-node) are reported, with the versions CI asks for
@@ -83,17 +85,20 @@ def plan():
             if re.match(r"^npm (ci|install)\b", s) and "\n" not in s:
                 out.append(dict(job=jname, name=name, kind="npm", wd=wd))
                 continue
+            if s == "bash scripts/install_actionlint.sh":
+                out.append(dict(job=jname, name=name, kind="actionlint", wd=wd, env=env))
+                continue
             note = "--baseline-ref HEAD^1 -> the merge-base with origin/dev" if "--baseline-ref HEAD^1" in run else None
             out.append(dict(job=jname, name=name, kind="run", run=run, wd=wd, env=env, note=note,
                             cont=bool(st.get("continue-on-error"))))
     return out
 
 steps = plan()
-runnable = [s for s in steps if s["kind"] in ("run", "pip", "npm", "unsupported")]   # unsupported fails closed below
+runnable = [s for s in steps if s["kind"] in ("run", "pip", "npm", "actionlint", "unsupported")]   # unsupported fails closed below
 if ONLY:
     steps = [s for s in steps if ONLY.lower() in s["name"].lower()]
 print(f"ci-local: {WF} — {len(steps)} steps, {sum(s['kind'] == 'run' for s in steps)} run as written, "
-      f"{sum(s['kind'] in ('pip', 'npm') for s in steps)} substituted, {sum(s['kind'] == 'uses' for s in steps)} actions")
+      f"{sum(s['kind'] in ('pip', 'npm', 'actionlint') for s in steps)} substituted, {sum(s['kind'] == 'uses' for s in steps)} actions")
 if not runnable:
     sys.exit("ci-local: FAILED — the workflow parsed to zero runnable steps (has its shape changed?)")
 
@@ -101,6 +106,7 @@ if LIST:
     for i, s in enumerate(steps, 1):
         extra = {"run": s.get("note") or "", "pip": "import check: " + " ".join(s.get("pkgs", [])),
                  "npm": f"resolve check in {s.get('wd')}", "uses": s.get("uses", ""),
+                 "actionlint": f"existing binary version check: {s.get('env', {}).get('ACTIONLINT_VERSION', 'MISSING PIN')}",
                  "unsupported": s.get("why", "")}[s["kind"]]
         print(f"  {i:2d}. [{s['kind']}] {s['name']}" + (f"  — {extra}" if extra else ""))
     sys.exit(0)
@@ -144,6 +150,11 @@ for i, s in enumerate(steps, 1):
     elif s["kind"] == "npm":
         ok, msg = check_npm(s["wd"])
         print(f"{head}: SUBSTITUTED npm ci -> {msg}")
+    elif s["kind"] == "actionlint":
+        print(f"{head}: SUBSTITUTED actionlint install -> existing binary version check", flush=True)
+        r = subprocess.run(["bash", "scripts/install_actionlint.sh", "--check"], cwd=s["wd"],
+                           env={**env0, **s["env"]})
+        ok, msg = r.returncode == 0, f"exit {r.returncode}"
     else:
         if s["note"]:
             ref = base_ref()

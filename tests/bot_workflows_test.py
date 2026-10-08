@@ -22,10 +22,17 @@ class WorkflowTests(unittest.TestCase):
                     continue
                 producers += 1
                 with self.subTest(workflow=path.name):
-                    self.assertEqual(steps[0]["with"]["ref"], "dev")
+                    self.assertNotIn("BOT_QUEUE_STATE", job.get("env", {}))
+                    self.assertEqual(steps[0]["name"], "Set bot queue state path")
+                    with tempfile.TemporaryDirectory(prefix="fixbots-env-") as temp:
+                        output = Path(temp) / "github-env"
+                        subprocess.run(["bash", "-e", "-c", steps[0]["run"]], check=True,
+                                       env={**os.environ, "RUNNER_TEMP": temp, "GITHUB_ENV": str(output)})
+                        self.assertEqual(output.read_text(), f"BOT_QUEUE_STATE={temp}/bot-queue.json\n")
+                    self.assertEqual(steps[1]["with"]["ref"], "dev")
                     guard = next(i for i,s in enumerate(steps) if s.get("id") == "queue")
                     self.assertIn("scripts/bot_queue.py --bot", steps[guard]["run"])
-                    for step in steps[1:guard]:
+                    for step in steps[2:guard]:
                         self.assertIn(step["name"], ["Setup Python", "Setup Node", "Install Python dependencies"])
                     concurrency = job.get("concurrency", workflow.get("concurrency"))
                     self.assertEqual(concurrency["group"], "bot-proposals")

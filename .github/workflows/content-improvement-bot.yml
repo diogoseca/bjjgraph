@@ -21,8 +21,6 @@ on:
 jobs:
   improve-content:
     runs-on: ubuntu-latest
-    env:
-      BOT_QUEUE_STATE: ${{ runner.temp }}/bot-queue.json
     concurrency:
       group: bot-proposals # shared reservation snapshot lasts through PR creation
       cancel-in-progress: false
@@ -32,6 +30,9 @@ jobs:
       id-token: write
 
     steps:
+      - name: Set bot queue state path
+        run: echo "BOT_QUEUE_STATE=$RUNNER_TEMP/bot-queue.json" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
