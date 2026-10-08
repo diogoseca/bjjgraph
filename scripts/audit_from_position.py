@@ -26,6 +26,7 @@ OUTPUT_PATH = Path("tests/artifacts/from_position_audit.json")
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+from technique_equivalence import equivalence, technique_index
 
 
 def load_json(path):
@@ -141,6 +142,7 @@ def classify_mismatches(ref_map, transitions, submissions):
     """Classify every reference into actionable categories."""
     all_technique_names = set(transitions.keys()) | set(submissions.keys())
     collision_names = set(transitions.keys()) & set(submissions.keys())
+    identities = technique_index()
 
     results = {
         "match": [],
@@ -155,7 +157,7 @@ def classify_mismatches(ref_map, transitions, submissions):
 
     # Detect dual references: position/role that references both generic and specific
     # e.g., Mount/Top refs both "Americana" (generic) and "Americana from Mount" (specific)
-    dual_refs = _find_dual_references(ref_map, all_technique_names)
+    dual_refs = _find_dual_references(ref_map, identities)
     results["dual_references"] = dual_refs
 
     for technique_name, refs in sorted(ref_map.items()):
@@ -220,7 +222,7 @@ def classify_mismatches(ref_map, transitions, submissions):
             position_name = ref["position"]
             variant = check_variant_exists(technique_name, position_name, all_technique_names)
 
-            if variant:
+            if variant and equivalence(technique_name, variant, identities):
                 # Case B-fix: specific variant exists
                 # Check if this is a dual reference (position already refs the variant too)
                 is_dual = any(
@@ -247,9 +249,10 @@ def classify_mismatches(ref_map, transitions, submissions):
     return results
 
 
-def _find_dual_references(ref_map, all_technique_names):
-    """Find positions that reference both a generic technique and its position-specific variant."""
+def _find_dual_references(ref_map, identities):
+    """Find proven duplicate identities, never infer identity from a name suffix."""
     duals = []
+    checked = 0
 
     # Group refs by (position, role)
     pos_role_refs = defaultdict(list)
@@ -263,11 +266,17 @@ def _find_dual_references(ref_map, all_technique_names):
             # Check if "{tech} from {position}" is also in the list
             variant = f"{tech} from {position}"
             if variant in techniques:
+                checked += 1
+                proof = equivalence(tech, variant, identities)
+                if not proof:
+                    print(f"  SKIP unproven equivalence: {tech!r} / {variant!r}")
+                    continue
                 duals.append({
                     "position": position,
                     "role": role,
                     "generic": tech,
                     "specific": variant,
+                    "equivalence": proof,
                     "generic_prob": next(
                         (r["attempt_probability"] for r in ref_map[tech]
                          if r["position"] == position and r["role"] == role), 0
@@ -278,6 +287,8 @@ def _find_dual_references(ref_map, all_technique_names):
                     ),
                 })
 
+    print(f"Identity check: {len(identities)} indexed names; {checked} candidate pairs; "
+          f"{len(duals)} proven equivalents; {checked - len(duals)} preserved.")
     return duals
 
 

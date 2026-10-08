@@ -16,7 +16,7 @@ jobs:
   improve:
     runs-on: ubuntu-latest
     concurrency:
-      group: analytics-content-improvement
+      group: bot-proposals # shared reservation snapshot lasts through PR creation
       cancel-in-progress: false
     permissions:
       contents: write
@@ -24,9 +24,13 @@ jobs:
       id-token: write
 
     steps:
+      - name: Set bot queue state path
+        run: echo "BOT_QUEUE_STATE=$RUNNER_TEMP/bot-queue.json" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
+          ref: dev
           fetch-depth: 0
 
       - name: Setup Python
@@ -43,7 +47,22 @@ jobs:
       # Claude agent. The agent reads these prefetched files; it gets no arbitrary
       # python3/find and no Write (see claude_args). The Query API needs the PERSONAL
       # key (phx_) — the public project key (phc_) 401s.
+      - name: Check bot queue and reserve open-PR files
+        id: queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/bot_queue.py --bot analytics-content-improvement
+
+      - name: Resolve Claude model
+        if: steps.queue.outputs.proceed == 'true'
+        id: model
+        run: |
+          MODEL=$(python3 scripts/_model.py --print default)
+          test -n "$MODEL"
+          echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+
       - name: Prefetch analytics + content catalog
+        if: steps.queue.outputs.proceed == 'true'
         env:
           POSTHOG_PERSONAL_API_KEY: ${{ secrets.POSTHOG_PERSONAL_API_KEY }}
           POSTHOG_PROJECT_ID: "236155"
@@ -55,10 +74,23 @@ jobs:
             -exec basename {} \; | sed 's/\.json$//; s/\.md$//' | sort -u > /tmp/analytics/content_catalog.txt
           echo "Prefetched analytics + catalog to /tmp/analytics/."
 
+      - name: Select unreserved analytics candidates
+        if: steps.queue.outputs.proceed == 'true'
+        id: select_files
+        env:
+          NUM_FILES: ${{ github.event.inputs.num_files || '3' }}
+        run: |
+          python3 scripts/bot_run.py select-analytics /tmp/analytics/analytics.json "$RUNNER_TEMP/selected.txt" --count "$NUM_FILES"
+          echo 'selected_files<<EOF' >> "$GITHUB_OUTPUT"
+          cat "$RUNNER_TEMP/selected.txt" >> "$GITHUB_OUTPUT"
+          echo 'EOF' >> "$GITHUB_OUTPUT"
+
       - name: Fetch analytics and improve content with Claude
+        if: steps.queue.outputs.proceed == 'true' && steps.select_files.outputs.selected_files != ''
         id: improve_content
         uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
+          base_branch: dev
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ content expert improving pages based on real user analytics data.
@@ -82,12 +114,11 @@ jobs:
 
             # Step 2: Select Files
 
-            Select the top ${{ github.event.inputs.num_files || '3' }} files to improve, prioritizing:
-            1. **HIGH TRAFFIC + LOW ENGAGEMENT**: Many views but avg session duration <20s or bounce rate >70%
-            2. **SEARCH ENTRY + THIN CONTENT**: Landing pages from search that have TODOs or overview <500 chars
-            3. **HIGH TRAFFIC + OLD CONTENT**: Popular pages not improved in >60 days (check bot_metadata.last_improved in JSON or git log)
+            Process only these files, selected before inference using analytics and shared reservations:
+            ${{ steps.select_files.outputs.selected_files }}
 
-            Skip files that don't have a .json source (truly orphaned .md files are handled by the Monday content bot).
+            Do not select additional files or edit other content. Files held by any open bot PR
+            have already been excluded. If this list is empty, stop without changes.
 
             # Step 3: Read the content catalog
 
@@ -136,11 +167,18 @@ jobs:
           # restricted to that validator; the post-step re-validates and the commit is
           # scoped to content/ below. No PostHog key is set on this step (prefetched).
           claude_args: |
-            --model "$(python3 scripts/_model.py --print default)"
+            --model "${{ steps.model.outputs.model }}"
             --effort xhigh
             --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*),Bash(python3 scripts/validate_json.py:*),Glob,Grep'
 
+      - name: Check Claude execution (improve_content)
+        if: steps.queue.outputs.proceed == 'true' && steps.improve_content.outcome == 'success'
+        env:
+          EXECUTION_FILE: ${{ steps.improve_content.outputs.execution_file }}
+        run: python3 scripts/bot_run.py check-execution "$EXECUTION_FILE"
+
       - name: Validate and retry .json files
+        if: steps.queue.outputs.proceed == 'true'
         id: validate_retry
         run: |
           echo "========================================"
@@ -165,7 +203,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Regenerate markdown from validated .json
-        if: steps.validate_retry.outputs.updated_json_files != ''
+        if: steps.queue.outputs.proceed == 'true' && (steps.validate_retry.outputs.updated_json_files != '')
         run: |
           echo "Regenerating markdown from validated .json files..."
 
@@ -176,6 +214,7 @@ jobs:
           done <<< "${{ steps.validate_retry.outputs.updated_json_files }}"
 
       - name: Check for changes
+        if: steps.queue.outputs.proceed == 'true'
         id: check_changes
         run: |
           if [[ -n $(git status --porcelain) ]]; then
@@ -193,10 +232,11 @@ jobs:
           fi
 
       - name: Create Pull Request
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.queue.outputs.proceed == 'true' && (steps.check_changes.outputs.has_changes == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          python3 scripts/bot_queue.py --check-changes
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -281,8 +321,17 @@ jobs:
           PR_URL=$(gh pr create \
             --title "📊 Analytics-driven content improvement ($(date +%Y-%m-%d))" \
             --body-file /tmp/pr-body.md \
-            --base main \
+            --base dev \
             --head "$BRANCH_NAME")
 
           echo "Created PR: $PR_URL"
           gh pr edit "$BRANCH_NAME" --add-label "automated" --add-label "analytics" --add-label "content-improvement" || true
+
+      - name: Report attempted, valid, skipped and failed files
+        if: always() && steps.queue.outputs.proceed == 'true'
+        env:
+          RUN_FAILED: ${{ job.status == 'failure' }}
+        run: |
+          FLAGS=()
+          if [ "$RUN_FAILED" = true ]; then FLAGS+=(--failed); fi
+          python3 scripts/bot_run.py summary "$RUNNER_TEMP/selected.txt" "${FLAGS[@]}"

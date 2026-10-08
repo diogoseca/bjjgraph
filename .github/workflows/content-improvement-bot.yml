@@ -22,7 +22,7 @@ jobs:
   improve-content:
     runs-on: ubuntu-latest
     concurrency:
-      group: content-improvement-bot
+      group: bot-proposals # shared reservation snapshot lasts through PR creation
       cancel-in-progress: false
     permissions:
       contents: write
@@ -30,9 +30,13 @@ jobs:
       id-token: write
 
     steps:
+      - name: Set bot queue state path
+        run: echo "BOT_QUEUE_STATE=$RUNNER_TEMP/bot-queue.json" >> "$GITHUB_ENV"
+
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
+          ref: dev
           fetch-depth: 0  # Full history for git log
 
       - name: Setup Python
@@ -44,14 +48,31 @@ jobs:
         run: |
           pip install jsonschema jinja2
 
+      - name: Check bot queue and reserve open-PR files
+        id: queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/bot_queue.py --bot content-improvement-bot
+
+      - name: Resolve Claude model
+        if: steps.queue.outputs.proceed == 'true'
+        id: model
+        run: |
+          MODEL=$(python3 scripts/_model.py --print default)
+          test -n "$MODEL"
+          echo "model=$MODEL" >> "$GITHUB_OUTPUT"
+
       - name: Select oldest files
+        if: steps.queue.outputs.proceed == 'true'
         id: select_files
         run: |
           chmod +x ./scripts/select_oldest_files.sh
           NUM_FILES=${{ github.event.inputs.num_files || '2' }}
           echo "Selecting $NUM_FILES files from 100 oldest (by git creation date)..."
 
-          SELECTED_FILES=$(./scripts/select_oldest_files.sh "$NUM_FILES")
+          ./scripts/select_oldest_files.sh "$NUM_FILES" > "$RUNNER_TEMP/candidates.txt"
+          python3 scripts/bot_queue.py --filter "$RUNNER_TEMP/candidates.txt" --output "$RUNNER_TEMP/selected.txt"
+          SELECTED_FILES=$(cat "$RUNNER_TEMP/selected.txt")
           echo "selected_files<<EOF" >> $GITHUB_OUTPUT
           echo "$SELECTED_FILES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -60,6 +81,7 @@ jobs:
           echo "$SELECTED_FILES"
 
       - name: Pre-process files and prepare context
+        if: steps.queue.outputs.proceed == 'true' && steps.select_files.outputs.selected_files != ''
         id: preprocess
         run: |
           echo "========================================"
@@ -212,10 +234,11 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Prepare PAA context with Claude
-        if: ${{ github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule' }}
+        if: steps.queue.outputs.proceed == 'true' && steps.preprocess.outputs.claude_files != '' && (github.event.inputs.enable_paa == 'true' || github.event_name == 'schedule')
         id: prepare_paa
         uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
+          base_branch: dev
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for AI search optimization.
@@ -287,15 +310,23 @@ jobs:
 
             Begin processing. Focus on high-intent questions that match user search behavior.
           claude_args: |
-            --model "$(python3 scripts/_model.py --print default)"
+            --model "${{ steps.model.outputs.model }}"
             --effort xhigh
             --mcp-config '{"mcpServers":{"dataforseo":{"command":"npx","args":["-y","@modelcontextprotocol/server-dataforseo"],"env":{"DATAFORSEO_LOGIN":"${{ secrets.DATAFORSEO_LOGIN }}","DATAFORSEO_PASSWORD":"${{ secrets.DATAFORSEO_PASSWORD }}"}}}}'
             --allowedTools 'Read,Write,Glob,Bash(mkdir:*),Bash(ls:*),mcp__dataforseo__serp_organic_live_advanced'
 
+      - name: Check Claude execution (prepare_paa)
+        if: steps.queue.outputs.proceed == 'true' && steps.prepare_paa.outcome == 'success'
+        env:
+          EXECUTION_FILE: ${{ steps.prepare_paa.outputs.execution_file }}
+        run: python3 scripts/bot_run.py check-execution "$EXECUTION_FILE"
+
       - name: Improve content with AI SEO optimization
+        if: steps.queue.outputs.proceed == 'true' && steps.preprocess.outputs.claude_files != ''
         id: improve_content
         uses: anthropics/claude-code-action@51705da45eecce209d4700538bf8377d5b5fc695 # v1
         with:
+          base_branch: dev
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are an elite BJJ black belt instructor AND Google AI search optimization expert.
@@ -463,11 +494,18 @@ jobs:
           # commit step would then push. `Edit` only touches files that already exist,
           # and the commit step is scoped to content/ + tests/artifacts/ below.
           claude_args: |
-            --model "$(python3 scripts/_model.py --print default)"
+            --model "${{ steps.model.outputs.model }}"
             --effort xhigh
             --allowedTools 'Read,Edit,Bash(date:*),Bash(cat:*)'
 
+      - name: Check Claude execution (improve_content)
+        if: steps.queue.outputs.proceed == 'true' && steps.improve_content.outcome == 'success'
+        env:
+          EXECUTION_FILE: ${{ steps.improve_content.outputs.execution_file }}
+        run: python3 scripts/bot_run.py check-execution "$EXECUTION_FILE"
+
       - name: Validate and retry .json files
+        if: steps.queue.outputs.proceed == 'true' && steps.select_files.outputs.selected_files != ''
         id: validate_retry
         run: |
           echo "========================================"
@@ -529,7 +567,7 @@ jobs:
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Regenerate markdown from validated .json
-        if: steps.validate_retry.outputs.updated_json_files != ''
+        if: steps.queue.outputs.proceed == 'true' && (steps.validate_retry.outputs.updated_json_files != '')
         run: |
           echo "Regenerating markdown from validated .json files..."
 
@@ -540,6 +578,7 @@ jobs:
           done <<< "${{ steps.validate_retry.outputs.updated_json_files }}"
 
       - name: Check for changes
+        if: steps.queue.outputs.proceed == 'true'
         id: check_changes
         run: |
           if [[ -n $(git status --porcelain) ]]; then
@@ -563,10 +602,11 @@ jobs:
           fi
 
       - name: Create Pull Request
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: steps.queue.outputs.proceed == 'true' && (steps.check_changes.outputs.has_changes == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          python3 scripts/bot_queue.py --check-changes
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
@@ -692,8 +732,17 @@ jobs:
           PR_URL=$(gh pr create \
             --title "🤖 AI SEO optimization ($(date +%Y-%m-%d))" \
             --body-file /tmp/pr-body.md \
-            --base main \
+            --base dev \
             --head "$BRANCH_NAME")
 
           echo "Created PR: $PR_URL"
           gh pr edit "$BRANCH_NAME" --add-label "automated" --add-label "content-improvement" --add-label "ai-seo" || true
+
+      - name: Report attempted, valid, skipped and failed files
+        if: always() && steps.queue.outputs.proceed == 'true'
+        env:
+          RUN_FAILED: ${{ job.status == 'failure' }}
+        run: |
+          FLAGS=()
+          if [ "$RUN_FAILED" = true ]; then FLAGS+=(--failed); fi
+          python3 scripts/bot_run.py summary "$RUNNER_TEMP/selected.txt" "${FLAGS[@]}"
