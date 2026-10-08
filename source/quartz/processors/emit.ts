@@ -164,15 +164,37 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     results.push({ files: await run(index), coverage: getRenderCoverage() })
   }
   const remaining = ordered.filter((index) => !required.includes(cfg.plugins.emitters[index].name))
+  const sharedPageRoutes = content.some(([, file]) => {
+    const slug = file.data.slug ?? ""
+    return slug.startsWith("tags/") || slug.endsWith("/index") || slug === "404"
+  })
+  const runMain = (indices: number[]) => {
+    // Authored indexes/descriptions share filenames with the specialized page emitters.
+    // Since bb63b2ff0, concurrent writeFile calls could leave either layout OR a shorter
+    // page followed by the longer page's stale tail. Staying on one JS thread did not
+    // serialize filesystem writes. Restore configured page-emitter order for this corpus:
+    // ContentPage, then FolderPage/TagPage/404Page in the default configuration.
+    // Non-page emitters and corpora without shared routes retain concurrent execution.
+    const pageEmitters = new Set(["ContentPage", "FolderPage", "TagPage", "404Page"])
+    let previous: Promise<unknown> = Promise.resolve()
+    return indices.map((index) => {
+      if (sharedPageRoutes && pageEmitters.has(cfg.plugins.emitters[index].name)) {
+        const result = previous.then(() => run(index))
+        previous = result
+        return result
+      }
+      return run(index)
+    })
+  }
   const concurrency = workerCount(argv, content.length)
   console.log(
     `[emit] path=${concurrency === 1 ? "main" : "workers"} concurrency=${concurrency} emitters=${remaining.length}`,
   )
   if (concurrency === 1) {
-    // One JavaScript thread still starts every phase-two emitter concurrently, as the
-    // frozen ABI requires. Counters belong to the phase, not overlapping emitter calls.
+    // Counters belong to the phase, not overlapping emitter calls. Shared page routes
+    // require the same write-order barrier on main as on the requested-worker path.
     resetRenderState()
-    const settled = await Promise.allSettled(remaining.map(run))
+    const settled = await Promise.allSettled(runMain(remaining))
     // Join every writer before a failure releases the build lock or permits cleanup.
     const failure = settled.find((result) => result.status === "rejected")
     if (failure?.status === "rejected") throw failure.reason
@@ -186,13 +208,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
       (index) => cfg.plugins.emitters[index].name === "ContentPage",
     )
     const uniqueSlugs = new Set(content.map(([, file]) => file.data.slug)).size === content.length
-    // These authored routes overlap FolderPage/TagPage/404 outputs. Shard timing can
-    // change their last writer: this is a replacement-induced defect, not inherited
-    // behavior to preserve. Keep the incumbent main-thread scheduling for that corpus.
-    const sharedPageRoutes = content.some(([, file]) => {
-      const slug = file.data.slug ?? ""
-      return slug.startsWith("tags/") || slug.endsWith("/index") || slug === "404"
-    })
+    // Shared-route writers stay on main so runMain can order their completed writes.
     const sharded =
       contentPages.length === 1 && uniqueSlugs && !sharedPageRoutes && content.length > 0
         ? contentPages.filter(
@@ -248,7 +264,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
         tasks,
         concurrency,
       ),
-      ...main.map(run),
+      ...runMain(main),
     ])
     // Wait for both the worker pool and every main writer, even if either fails.
     const failure = settled.find((result) => result.status === "rejected")
