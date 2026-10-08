@@ -1092,7 +1092,8 @@ Interval: {'none (batch)' if args.batch else f'{args.interval}s between calls'}
     print()
 
     # Collect files
-    files = collect_files(args.category, args.file)
+    from bot_queue import filter_candidates
+    files = filter_candidates(collect_files(args.category, args.file))
     if not files:
         print("No files to process!")
         return 0
