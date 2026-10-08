@@ -26,11 +26,16 @@ import { journey } from "../dsl";
  *     resumes it, never a fresh one.
  * The step numbers below are the owner's (`NG_LAND_ANSWER_STEPS` in knowledge-profile.src.js, pinned
  * again by tests/knowledge_profile.test.mjs); change them in both places.
- * No journey here commits a move, so no rng draw can end the exchange early (§6.3): the branch is
- * unreachable by construction, and each test asserts at its end that nothing was committed.
+ * Only the new-landing reset journey commits a move; it rigs every exchange draw below (§6.3).
+ * The other landing journeys assert that nothing was committed. MC pool/shuffle draws are rigged
+ * too, and journey.land rigs the opening role, difficulty and move cap.
  * Mutants, each red here by name: the second answer routed back to the grade-only path; one step for
  * every card (no diminishing); no cap; momentum ticking per card; evidence emitted per card; the
  * paged timeout at the full −4 / breaking momentum; the clock re-armed full on a page back.
+ * v1.224.9: the all-card glint check first waits for this hand's real worker values. A controlled
+ * late reply reproduced answer 2's Kimura failure: Works — → 59% BEFORE the answer, with no glint.
+ * That is a first value arriving, not an answer changing a number. Start with populated values;
+ * keep checking every card, including unchanged Works cards. Missing/extra-glint mutants both fail.
  */
 
 const VIEWS = [
@@ -38,6 +43,9 @@ const VIEWS = [
   { name: "390", width: 390, height: 844 },
 ];
 const WRONG_STEPS = [-4, -3, -2, -1, 0]; // NG_LAND_ANSWER_STEPS[k-1].wrong × 100, then the cap
+const questionRolls = () => Object.fromEntries(
+  ["land-mc-pick", "land-mc-shuffle", "panic-mc-pick", "panic-mc-shuffle"].map((tag) => [tag, Array(128).fill(0.5)]),
+);
 
 type Card = { t: string; n: string; word: string; delta: string | null; hit: boolean };
 const cards = (page: Page) =>
@@ -76,7 +84,7 @@ const deltas = (before: Card[], after: Card[], room: number) =>
 async function setup(page: Page, width: number, height: number) {
   await page.setViewportSize({ width, height });
   const j = journey(page);
-  await j.boot("/");
+  await j.boot("/", { seedRolls: questionRolls() });
   await j.land("Mount Top");
   expect(await j.landQuestion(), "the landing asks a question").not.toBeNull();
   await j.advance(200); // let the hand settle under the card
@@ -244,6 +252,15 @@ test(`wrong answers stack down the table, −4 −3 −2 −1, and stop at its c
 
 test(`correct answers stack with never-growing steps, and stop when there is nothing left to add`, async ({ page }) => {
   const j = await setup(page, 1440, 900);
+  // Works comes from the worker, unlike the immediate Move chance. Its first — → number paint
+  // is not an answer delta. Wait once before answering: these Mount answers do not change the
+  // follow-up finish's chance, and pending re-solves retain the populated number (WINLAT1).
+  await expect.poll(() => page.evaluate(() => {
+    const a: any = (window as any).__neural, s = a._choiceValues?.snapshot();
+    return !!(s && s.handId === a._choiceHandId && ["ready", "bounded"].includes(s.status)
+      && !a._choiceValueQueued && !a._residencyHold
+      && a._choiceValueSource?.isCurrent(a, s.request, a._choiceHandId));
+  }), { timeout: 120_000, message: "this hand's initial worker values are current before measuring answer deltas" }).toBe(true);
   const pos = (await st(page)).pos;
   const seen: number[] = [];
   for (let k = 1; k <= 6; k++) {
@@ -397,7 +414,7 @@ const enterDefence = (page: Page) =>
 const panicSetup = async (page: Page) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   const j = journey(page);
-  await j.boot("/");
+  await j.boot("/", { seedRolls: questionRolls() });
   await j.hydrateAll();
   await j.land("Mount Top");
   await enterDefence(page);
