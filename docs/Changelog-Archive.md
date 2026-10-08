@@ -66,6 +66,7 @@ four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 - **v1.221.0** — [EVERY FLASHCARD YOU ANSWER COUNTS, AND SHOWS IT](#v12210--every-flashcard-you-answer-counts-and-shows-it)
 - **v1.221.1** — [507 STALE SYSTEM CARDS REGENERATED, AND GENERATED CONTENT NOW MATCHES ITS GENERATOR IN CI](#v12211--507-stale-system-cards-regenerated-and-generated-content-now-matches-its-generator-in-ci)
 - **v1.223.0** — [THE SITE INSTALLS: A WEB APP MANIFEST, MASKABLE ICONS AND ASSETLINKS PLUMBING (TWA PHASE 1)](#v12230--the-site-installs-a-web-app-manifest-maskable-icons-and-assetlinks-plumbing-twa-phase-1)
+- **v1.224.3** — [CLAUDE.MD LOADS ONLY WHAT EVERY SESSION NEEDS; APP, TEST AND CI TRAPS LOAD WITH THEIR FOLDERS (SLIMDOC, 2026-10-08)](#v12243--claudemd-loads-only-what-every-session-needs-app-test-and-ci-traps-load-with-their-folders-slimdoc-2026-10-08)
 - **v1.195.8** — [THE PRESSED EXPLORE TAB IS THE WAY HOME](#v11958--the-pressed-explore-tab-is-the-way-home)
 - **v1.195.7** — [THE COLLAPSED MORE PILL, CENTRED AGAIN](#v11957--the-collapsed-more-pill-centred-again)
 - **v1.195.6** — [THE GHOST CONTENTS ROW ATE CLICKS](#v11956--the-ghost-contents-row-ate-clicks)
@@ -10760,3 +10761,48 @@ checked, 241 of them from hubs. 7 mutants, each red by name:
 **Not done: FIELD-aware resolution.** A `transitions[].transition` entry can only mean a Transition, so the
 cross-category names ("Gift Wrap", "Knee on Belly") could be settled by the field that names them. That is
 a separate change, and the baseline shrinks when it lands.
+
+## v1.224.3 — CLAUDE.MD LOADS ONLY WHAT EVERY SESSION NEEDS; APP, TEST AND CI TRAPS LOAD WITH THEIR FOLDERS (SLIMDOC, 2026-10-08)
+
+The owner approved the orchestrator's `/doctor` recommendation with "slim CLAUDE.md". The file stood at
+81,857 of 82,000 chars, and it loads into every seat and five CI workflows. §5, trap groups 6.1–6.6 and
+five of 6.7's six traps moved byte-for-byte into `.claude/rules/`. Each file has `paths:` globs, so it
+loads only when a session touches the folders it guards:
+
+| file | holds | paths | chars |
+|---|---|---|---:|
+| `CLAUDE.md` | §0–§4, §5 stub, §6 index, 6.7 `head`, 6.8, 6.9, §7–§10 | always | 81,857 → 37,767 |
+| `neural-app.md` | §5 | `neural/**` | 7,301 |
+| `traps-neural.md` | 6.1, 6.2, 6.5, 6.6 app side | `neural/**` | 18,617 |
+| `traps-playwright.md` | 6.3, 6.4 | `e2e/**`, `tests/**` | 11,486 |
+| `traps-wire.md` | 6.6 build side | `scripts/**`, `neural/**`, `node_ordinals.json`, `tests/**` | 7,724 |
+| `traps-ci.md` | 6.7 minus `head` | `.github/**`, `scripts/**`, `neural/**`, `e2e/**`, `tests/**`, `source/quartz/**`, `functions/**` | 5,225 |
+
+A content, bot, ops or research session reads 44,090 fewer chars (~11,000 tokens). A session that
+touches every folder reads 88,120, 6,263 more than before: the index's trigger tokens, the pointers and
+five file headers. The `head` survey trap stays at the root because a rename can start anywhere.
+
+**Loading, measured on Claude Code 2.1.293.** A throwaway repo, one `claude -p` session per case, each
+checked by grepping that session's own transcript rather than trusting its answer. A scoped rule
+arrives as a `nested_memory` attachment after `Read`, `Write` or a read-like Bash `cat` on a matching
+path. It does not arrive after `Grep` or `Glob`. Root-level and multi-glob rules match, a nested
+`CLAUDE.md` loads too, and a control session sees neither. `claude-code-action` (pinned v1) defaults
+`settingSources` to `user,project,local`, so CI's Claude jobs load the rules as well. On PR events it
+first restores `.claude/` and `CLAUDE.md` from the base branch. `claude-code-review.yml` reviews from
+`gh pr diff`, which loads no rule. Its gh-only allow-list still lets it Read inside the checkout
+(measured on 2.1.183, where a Read there needs no permission), so its prompt now tells it to Read the
+rules file that §6's index names for each folder a PR touches. `.claude` had been gitignored whole, so
+`.gitignore` now re-admits `/.claude/rules/` and nothing else.
+
+**No trap lost.** 50 entries before and 50 after. All 71 trigger tokens are in the new set, and all 45
+backticked ones still appear in CLAUDE.md's index. 197 of the 201 moved lines are byte-identical. The
+other four are two split headings and two pointer edits ("the fallback above", "group 1").
+
+**Gates.** The budget gate's floor of 20 now counts the catalogue across both halves. It fails a rules
+file that has no `paths:`, a glob that matches no tracked file, a file the root does not name, an
+@-import, or a ceiling left naming a deleted file. The refs gate checks every rules file by default. It
+also checks `.github/` paths now: a leading-dot skip had hidden them since the gate was written. Its OK
+line no longer multiplies the tracked-file count by the number of documents. Mutants: 8 of 8 on the
+budget gate and 4 of 4 on the refs gate were killed by named tests (`tests/claudemd_budget_gate.test.mjs`,
+`tests/claudemd_refs_gate.test.mjs`). A dangling path planted in a rules file turns `validate:claudemd`
+red, and passes under the old CLAUDE.md-only default.

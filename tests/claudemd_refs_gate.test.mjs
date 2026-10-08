@@ -20,7 +20,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
-import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { mkdtempSync, writeFileSync, rmSync, existsSync, readdirSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve, join } from "node:path";
@@ -161,4 +161,42 @@ test("a temp directory that vanishes mid-run cannot fail the gate: bare names co
     rmSync(dir, { recursive: true, force: true });
     rmSync(victim, { recursive: true, force: true });
   }
+});
+
+// ── THE SCOPED HALF OF THE CANON (v1.224.3) ────────────────────────────────────────────
+// §5 and most of §6 moved out of CLAUDE.md into path-scoped `.claude/rules/*.md`, and every
+// reference they carry moved with them. A gate that still checked CLAUDE.md alone would print
+// the same OK over half the references: a check that stopped looking, reading clean (§6.6).
+// Mutant, recorded 2026-10-08: restoring the CLAUDE.md-only default turns the first test red,
+// and a dangling path planted in a rules file then passes the gate untouched.
+test("with no arguments the gate checks CLAUDE.md AND every .claude/rules file, and names each", () => {
+  const rulesDir = resolve(ROOT, ".claude/rules");
+  const rules = existsSync(rulesDir) ? readdirSync(rulesDir).filter((f) => f.endsWith(".md")).sort() : [];
+  // Fail on zero rather than pass vacuously: CLAUDE.md's §6 index points into this directory.
+  assert.ok(rules.length > 0, "no .claude/rules/*.md found: the scoped canon is missing, not clean");
+  const r = spawnSync("python3", [GATE], { cwd: ROOT, encoding: "utf8" });
+  const out = `${r.stdout || ""}${r.stderr || ""}`;
+  assert.equal(r.status, 0, `the default run must pass:\n${out}`);
+  assert.match(out, /all resolve \(CLAUDE\.md, /, "CLAUDE.md is checked");
+  for (const f of rules) assert.ok(out.includes(`.claude/rules/${f}`), `the default run must check .claude/rules/${f}:\n${out}`);
+  // The basename index is built once per RUN, not once per document: before v1.224.3 a
+  // six-document run printed six times the tracked-file count (44,898 for 7,483).
+  const one = spawnSync("python3", [GATE, resolve(ROOT, "CLAUDE.md")], { cwd: ROOT, encoding: "utf8" });
+  const count = (txt) => Number((txt.match(/against ([\d,]+) tracked files/) || [, "NaN"])[1].replace(/,/g, ""));
+  assert.equal(count(out), count(`${one.stdout}`), "the index size must not scale with the number of documents");
+});
+
+test("a `.claude/` or `.github/` path is checked like any other: real ones pass, dangling ones fail", () => {
+  // Before v1.224.3 every backticked token starting with "." was skipped as prose, so
+  // `.github/` paths were never checked despite sitting in TOP_DIRS, and `.claude/rules/`
+  // pointers would not have been either.
+  const ok = runGate("Real: `.github/workflows/ci-validate.yml` and `.claude/rules/traps-ci.md`.\n");
+  assert.equal(ok.code, 0, `real dot-dir paths must pass; gate said:\n${ok.out}`);
+  const bad = runGate("Gone: `.github/workflows/no-such-workflow.yml` and `.claude/rules/no-such-rule.md`.\n");
+  assert.equal(bad.code, 1, `dangling dot-dir paths must fail; gate said:\n${bad.out}`);
+  for (const needle of ["no-such-workflow.yml", "no-such-rule.md"]) assert.match(bad.out, new RegExp(needle.replace(/[.]/g, "\\.")), `must name ${needle}`);
+  // ...and prose that merely starts with a dot is still not a path
+  const prose = runGate("Prose, not paths: `.env` and `.css`. One real path: `scripts/check_claudemd_refs.py`.\n");
+  assert.equal(prose.code, 0, `dot-prefixed prose must not be read as a path; gate said:\n${prose.out}`);
+  assert.match(prose.out, /OK — 1 repo paths/, `only the real path is counted:\n${prose.out}`);
 });

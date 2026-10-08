@@ -21,6 +21,7 @@ It is deliberately **not**:
 | schema markup, keywords, analytics | `docs/SEO.md` |
 | what the map MEANS: the Markov kernel, territories, committors, names | `docs/GraphSemantics.md` |
 | an API reference for `neural/src/app.src.jsx` | the code, which carries ~400k chars of comments |
+| the app's seam index, and the traps for app code, specs and CI | `.claude/rules/` — each file loads with the folders it guards; §6's index names them |
 
 **The admission test.** A line belongs here if *a reader could break something by not knowing it,
 and it will still be true after the next ten commits*. If it explains **why** the current state is
@@ -32,7 +33,8 @@ it until it has one.
 **Pointer direction.** This file points **out** to the implementation and its gates. Nothing
 points in.
 
-**Before you touch app code or write a spec, read §6.** It is the reason this file is loaded at all.
+**Before you touch app code or write a spec, read §6.** It is the reason this file is loaded at all,
+and its index names the scoped file each trap group loads from.
 
 ---
 
@@ -96,7 +98,8 @@ decisions, so the plan can be approved or redirected without reading the rest.
 
 ```
 bjjgraph/
-├── CLAUDE.md              # this file — canon + traps
+├── CLAUDE.md              # this file — canon + the traps every session needs
+├── .claude/rules/         # path-scoped canon: §5 and the app, test and CI traps (§6 index)
 ├── docs/                  # Neural, Architecture, Content, SEO, Changelog-Archive, …
 ├── calibration/      # tracked anchors, overrides, review entries; ignored run outputs
 ├── content/               # *.json = SOURCE (authored) · *.md = GENERATED (never edit)
@@ -293,7 +296,9 @@ rather than rejecting it.
 
 ## 5. The Neural app — current state, and the seam index
 
-Behaviour in full: **`docs/Neural.md`**. This section is orientation plus the names to grep for.
+**Moved, and loaded with its folder:** the orientation and the seam index are in
+`.claude/rules/neural-app.md`, which loads when a session touches `neural/**`. Behaviour in full:
+**`docs/Neural.md`**. What stays here is what the static site shares.
 
 **There is ONE front-end.** The legacy Quartz page UI was deleted; `?variant=legacy` is
 accepted-and-ignored. Do not restore the deleted modules or write prose implying they exist.
@@ -305,81 +310,6 @@ are the only static importer of `supabase.ts`, which installs the `window.__bjjA
 the only code that completes a Google OAuth redirect-back; **`CategoryNav.tsx`** is the site's only
 persistent nav on the static surface and **no gate guards it** (`check_seo_parity.py` scopes to the
 `<article>`, and the nav is outside it).
-
-**Delivery.** Boot fetches `graph-data.json` (the compact wire — `ingest()` expands it),
-`app/neural.js` + `.css`, the deck **manifest** `flashcards/_index.json`, and `curriculum.json`.
-On demand: one deck's cards, one node's dossier, `systems.json`, `concepts.json`
-(the Principles + Learning index — each concept's readable body is a dossier in the SAME
-`content/` chunk space, keyed `<Name>|Principle`). **`_cardsOf(d)` is the only legal
-way to read cards — a manifest stub is truthy.** The manifest's `n` is load-bearing: `deckMastery`
-computes from it when cards are absent, so dropping it zeroes every user's knowledge.
-
-**Pane law.** The pane is **manual-only** — nothing in the roll loop opens or closes it. **Open =
-the game stops; close = it resumes, but only if the pane is what stopped it** (latched in
-`applyDeckVisibility`, not `setDeckOpen`). One pane, anchored left, three tabs: Explore ·
-Challenges · Last rolls.
-
-**Reference law** (owner). A **Principle, a Learning entry and a System are pages, not places.**
-Opening one — its row, or its own URL — lights the techniques it references and shows its body,
-and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only when the
-player clicks a position, transition or submission.** `_refPage`, set from the path alone in
-`_seedPageFromUrl`, is what holds the intro handoff off `startRoll()`; deciding it from the path
-rather than from the payload is deliberate, because the payload is deferred and used to lose the
-race. Pinned by `e2e/journeys/concepts-surface.spec.ts` (both halves — an arrival that starts
-nothing, and a member row that starts a roll).
-
-**The hand.** `optionsFor` deals every legal move (uncapped) ranked by **EDGE**, sorted ONCE by
-**Win chance** (Neural.md §4) if untouched, else **frozen**: a grade moves
-the numbers but must never re-sort a tray the player is reaching into. The clock times the QUESTION, never the hand (v1.133.0):
-`decisionSec` arms when a question mounts and expiry reveals the answer as a miss
-(`_expireLandQ`) while the hand stays live, untimed;
-deck warm-up is capped at `NG_PREFETCH_CAP`.
-
-**EDGE** (not printed) = `100 × (Q(s,a) − B(s))`: how much better this move is than the *ordinary* choice from
-where you stand, counting where a miss leaves you. `0` is normal, not "no value". **The honesty
-gap is the opponent's POLICY:** since v1.176.0 `opponentDefend` draws from `optionsFor` (role- and
-origin-filtered) but never reads attempt shares — it finishes w.p. clamp(0.34 + 0.55·adv), else
-picks among the top 3 by landing value — and resists your odds (aiMod). From standing (no-gi,
-shipped rule) P(I finish) is 0.34 against the corpus's 0.72 (`scripts/semantics/app_game.py`). EDGE
-describes the corpus's opponent, not the one you face. Say so in any copy explaining EDGE.
-
-**The pair.** Every state draws as two orbs (merged → mitosis → split, gated by `kLOD`). It is
-**derived at ingest** (`_deriveDualPairs`), costs zero wire bytes, and is UNCONDITIONAL — the
-`?dual=legacy` escape hatch was retired in v1.158.1 along with its query-param read, so no URL
-parameter can change how the graph renders. The pre-split graph survives for ONE caller,
-`j.boot("/", { noPairs: true })`, because `dual-consumers.spec.ts` needs it as a live control group. The **rep member IS the hub** — same id, same share ordinal, same URL — so lists,
-systems and curriculum joins all still land. `adj` is per-SITE and **must not be role-split**.
-
-**Persistence.** One v2 blob: settings (per-key LWW), `challenges`, `badges`, `coins`, `srs`,
-`lists`. Lists merge **add-wins**; a settings key can never be deleted (§6.6).
-
-**The z ladder** (documented in `neural/src/helmet.html`): 1–9 ambient state · 10–49 ambient fx ·
-50–79 coaching · **90–99 deliberate temporary screens**. The app wrap is `position:fixed`, so a
-deliberate screen must portal to the app root. Esc walks the ladder top-down, pane last.
-
-### Seam index — the names to grep
-
-| what you are doing | seams |
-|---|---|
-| overlays, hit-testing | `attachInput` · `_suppressLand` · `_landHidden` · `_tapBackground` |
-| docking fixed chrome | `_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` |
-| the three bottom layers (film · card · hand), sticky by setting | `setLayer` · `_layerOn` · `_handShown` · `_applyLayers` · `_renderLayerDock` — a collapsed card is NOT BUILT, a collapsed hand is dealt and hidden; More is a separate scroll surface subordinate to the card layer |
-| node coordinates, camera | `pairMid` · `_LY` · `headPos` · `rollCamTarget` · `holdCamera` · `frameNodes` |
-| starting/staging a roll | `rollFromPosition` · `techniqueOrigin` · `confirmPlayFrom` · `seatRole` · `_seatMember` · `stageRollAt` |
-| the hand and its numbers | `optionsFor` · `edgeMark` · `orderScore` · `moveChance` · `movePotential` (escape tray only) |
-| outcomes | `drawOutcome` · `resolve` · `opponentDefend` · `momentumSkew` |
-| roles and values | `valIdx` · `roleIdx` · `myColor` · `displayName` · `graphName` |
-| naming a node on ANY surface | `graphName` (the one name — a position's `"… Top"` title suffix is a rendering artifact and comes off everywhere, canvas and DOM) · `nodeQual` (the dim second line: `from <origin>`, or an own/family alias) · `nodeMatches` (all aliases; `_ensureAliases` defers the index) — a SEAT is named beside a name, never inside it: the node card's badge, the row's role chip, the canvas sub-line |
-| decks, grading, score | `_cardsOf` · `deckMastery` · `gameScore` · `_bumpStageVer` · `_warmMcPool` · `_schedule` · `ngWireDecks` · `ngWireScoreWeights` (the ordinal-keyed manifest + score wire) |
-| lists and sharing | `siteIdOf` · `captureNode` · `ngListEncodeOrdinals` · `_openSharedListFromUrl` |
-| a page-shaped entry (Principle · Learning · System): its body, its panel, its URL | `_docBody` · `_bodyDocHTML` · `NG_DOC_LABELS` · `_seedPageFromUrl` — and **never `_ngc` here**: it caches a miss as an answer, which is right for a node and wrong for an entry whose index promises a body |
-| persistence | `_pullAndMerge` · `ngMergeLists` · `_saveProgress` |
-| randomness | `rng(tag)` — **never `Math.random`**; `scripts/check_no_raw_random.sh` gates it |
-| the tray | `_trayStop` · `_trayGlideBy` · `_trayFling` |
-| the pane's tabs (click AND swipe) | `NG_PANE_TABS` · `setViewMode` · `_paneTabPageTo` · `_paneGestureDir` |
-| keys on an inline deck (history · session · corridor) | `_miniReg` · `_focusRow` · `_challengeInline` · `challengeLessonNav` · `_lessonRows` — one registry for all three; a deck that takes focus takes it on the deck BOX, never a button (Space/⏎ are activation keys, §6.1) |
-| gi / no-gi exclusion | `giAllows` · `rsAllows` · `_rulesetMask` · `setGiMode` · `cal.avail` · `frame_reachable` |
-| build-side joins | `_tech_keys` · `fnv1a32` (in `scripts/_neural_content.py`) |
 
 ---
 ## 6. THOUGHT TRAPS
@@ -399,15 +329,44 @@ symbol to every version that touched it.
 
 ### About to…
 
-- …add, move or hide a fixed overlay, or touch `attachInput` → **§6.1**
-- …change the canvas draw path, a node coordinate, or the camera → **§6.2**
-- …write — or trust — a Playwright assertion → **§6.3**
-- …rely on the harness: the DSL, a port, a payload, which build is under test → **§6.4**
-- …write app runtime logic → **§6.5**
-- …change a join, an id, a slug, an ordering or a persisted key → **§6.6**
-- …edit CI, a build emitter, or rename/delete a symbol → **§6.7**
+Groups 6.1–6.6 and most of 6.7 live in `.claude/rules/`, one file per area they guard, and Claude
+Code loads a file when the session reads or writes a path its `paths:` globs match. Measured on
+2.1.293: `Read`, `Write` and a read-like Bash `cat` load it; `Grep` and `Glob` do not, so **a
+grep-only survey or a review read from a diff means opening the file by hand.** Section numbers
+are unchanged, so a code comment citing `CLAUDE.md §6.4` resolves through this index. Each line
+carries its traps' trigger tokens.
+
+- …add, move or hide a fixed overlay, or touch `attachInput` → **§6.1** in
+  `.claude/rules/traps-neural.md`: `setPointerCapture` · `opacity:0` · `_dockLandCard` ·
+  `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` · `position:fixed` · `z-index` ·
+  `style.color = ""`
+- …change the canvas draw path, a node coordinate, or the camera → **§6.2**, same file: `n.y` vs
+  `LY(n)` / `pairMid(n)` · `camTarget` · `this.now` · `halfW(n)` vs `n.r * scale`
+- …write — or trust — a Playwright assertion → **§6.3** in `.claude/rules/traps-playwright.md`:
+  `locator.click()` · a render re-implemented in a spec · a probe is not a gate · an unrigged
+  `rng()` tag · a green gate's blind spot · an assertion stricter than its claim · `nth()` ·
+  `all()[i]` · `data-tech`
+- …rely on the harness: the DSL, a port, a payload, which build is under test → **§6.4**, same
+  file: a payload pattern is a URL SUBSTRING · what the harness does NOT serve · `testDir` · a
+  result from a shared port · a WebGL context left on the old page · `ERR_INSUFFICIENT_RESOURCES`
+  · `Target crashed` · `df -h /`
+- …write app runtime logic → **§6.5** in `.claude/rules/traps-neural.md`: a single-slot resource
+  with many writers · a suppression flag's LIFTERS · one question answered in two places · if the
+  data states it, READ it
+- …change a join, an id, a slug, an ordering or a persisted key → **§6.6**, split by side. App
+  side, `.claude/rules/traps-neural.md`: a fallback that never says it fired · `s` ·
+  `[top, bottom]` · `[attacker, defender]` · `siteIdOf` · `adj` · a settings key can NEVER be
+  deleted · `startPosTraffic` · `_posSlugIndex` · `_ev` · `_deriveDualPairs` · `cal.ev` · a value
+  identical across a whole category. Build side, `.claude/rules/traps-wire.md`: a CHECK THAT
+  NEVER RAN · `cal.avail` · `frame_reachable` · `_tech_keys` · an index-keyed join · an ARRAY
+  INDEX in a URL
+- …edit CI or a build emitter, or delete a component → **§6.7** in `.claude/rules/traps-ci.md`:
+  CI running a subset of the chain · a tolerance baseline · deleting an emitter deletes its
+  telemetry · a new file under `neural/src/` · scope every selector to a marker you OWN
+- …rename or delete a symbol → **§6.7** below: never pipe the survey through `head`
 - …delete something that looks dead, or debug something that looks alive → **§6.8**
 - …quote a number, cite a gate, or claim something is covered → **§6.9**
+- …look up the app's seams, its pane law or its z ladder → **§5** in `.claude/rules/neural-app.md`
 
 > **The single most repeated class in this repo, and it cuts across every group below:**
 > **absence produces a plausible answer.** A check that never ran reads as a pass; a rule that
@@ -416,188 +375,13 @@ symbol to every version that touched it.
 > times: **emit a positive coverage count and fail on zero.** Never let "found no problems" and
 > "never looked" produce the same output.
 
-### 6.1 Before you add, move or hide a fixed overlay (or touch `attachInput`)
+### 6.7 Before you rename or delete a symbol
 
-- **`attachInput` · `setPointerCapture` — a control inside a fixed overlay is dead to the MOUSE.** `attachInput`'s `pointerdown` captures on the wrap, which retargets the later `pointerup`, so the browser resolves the click from the down/up common ancestor and your listener never runs. It measures correctly, `elementFromPoint` returns it, keyboard works, and `locator.click()` passes because it dispatches on the element.
-  **Do:** name the overlay in `attachInput`'s pointerdown early-return list (`app.src.jsx` — 8 surfaces: node card, dossier sheet, landing card, film strip, More reading card, option-detail sheet, layer dock, hand ✕); keep card siblings in `_landSurfaces()`, set `pointer-events:auto` INLINE on the control, and prove it with `j.clickByMouse(sel)` (`e2e/dsl.ts`).
-  **Partially pinned:** `clickByMouse` only fires for overlays somebody wrote a mouse journey for, and the full list is still hand-maintained — that is how `.ng-seemore` stayed dead to the mouse for its entire existence.
-  <br>_(8 surfaces today; 6 defect instances found by hand)_
-
-- **`opacity:0` IS NOT HIDDEN — an invisible overlay still eats clicks.** Hit-testing ignores opacity, and `pointer-events` is inherited, so any descendant that re-enables it inline stays live across its whole box — `[data-land-more]` does that inside the floating row (`app.src.jsx`). Symptom: something UNDERNEATH is dead to the mouse; before the landing footer was retired, `elementFromPoint` measured its invisible `<div data-land-foot="1">` at the centre of a capture button after 120s of Playwright retries.
-  **Do:** also write `visibility:hidden !important` — inherited, unescapable here, removes the subtree from hit-testing. `_suppressLand` (`app.src.jsx`) is the reference. Assert inertness with `elementFromPoint`, never a visual check.
-  **UNGUARDED: no gate enumerates the hide-sites.** (The long-leaky `expandOption` site was
-  DELETED outright in v1.136.0 — the sheet stacks OVER the landing card at z:6 vs z:5 instead of
-  hiding it, owner's call.)
-  <br>_(5 by v1.100.2; the last leaky site deleted in v1.136.0)_
-
-- **`_dockLandCard` · `_dockLandFilm` · `_dockLandMore` · `_landDatum` · `_bandBot` — fixed chrome docks off a MEASURED rect, never a CSS constant.** The option tray is `bottom:84px` with no height and grows upward as names wrap; anything tuned against it collides at some viewport. Measured overlaps: landing card 63px, escape tray 7px, option hint 2px at EVERY width, pane/card 108px at 1024, phone challenge cue 6,700 px².
-  **Two sub-rules:** keep the TIGHTEST measurement ever taken at this viewport (the band flickers because card and film mount on different frames, and a per-landing reset hands the loose answer straight back); and an element that has not laid out yet reads `rect.top == 0` — that is SKIP, not a constraint.
-  (The fourth instance — the phone challenge cue over the focus label — was resolved by DELETING the cue in v1.133.0, owner's call; `_cue_collision_probe.mjs` stays as the archive's evidence.)
-  <br>_(12 (self-counted as "the third"); 0 still open)_
-
-- **The app wrap is `position:fixed` = its own stacking context, so a `z-index` inside it is trapped at plane 0.** A deliberate screen must PORTAL to the app root or ambient gameplay chrome paints over it (the pane at z:8 was buried by a root-plane landing card at z:5; the account menu needed z:46 on the root plane). Bands, documented in `neural/src/helmet.html`: **1-9 ambient state · 10-49 ambient fx · 50-79 coaching · 90-99 deliberate temporary screens.** Pick a band, never a loose number; Esc walks the ladder top-down, pane last.
-  <br>_(4 (dossier under the transport pill; the pane under the landcard; the account menu; seat star))_
-
-- **`style.color = ""` DELETES an inline declaration; it does not restore one.** After `More → Less` the toggle went black on a dark card, because clearing removed the value the button's own `cssText` had written and it inherited the UA default. To return an element to a colour declared inline, WRITE it — `NG_LAND_MORE_COL` exists so the two sites that set it cannot drift. Related sizing rule: a 44px thumb target must not set a 24px row's layout box — shrink the box with a negative margin and keep the hit area (`.ng-lists-new` pattern).
-  <br>_(2)_
-
-
-### 6.2 Before you touch the canvas draw path, a node coordinate, or the camera
-
-- **`n.y` vs `LY(n)` / `pairMid(n)` — never convert a node to a screen position from its STORED coordinate.** Each pair member is lifted off a shared ground point (~37px at roll zoom, against a 28px pick radius), so `n.y` is not where the orb is. **FIVE recorded instances as of v1.129.7:** the hover label AND the tap handler (clicking a visible orb matched nothing and fell through to `_tapBackground`), `rollFromPosition`'s camera aim, four specs at once in v1.125.0, and `headPos()` (`app.src.jsx`), which also feeds `camFocus` through two callers — so the camera and the light were wrong TOGETHER and neither looked broken alone.
-  **Do:** the frame publishes its own lift (`this._LY = LY`, `app.src.jsx`); every consumer AND every spec goes through `_LY` / `pairMid`. Both are the identity on an unpaired node, so applying the rule can never change production geometry. Companion quantity trap: `deg` is GEOMETRY (split per member), `siteDeg` is the STATE (whole) — reading `deg` where the state is meant halves the number the escape tray prints.
-  <br>_(5 (v1.114.3 ×2, v1.114.4, v1.125.0, v1.129.7) · _re-verify before quoting_)_
-
-- **Never assert camera behaviour by reading `camTarget`.** It has nine writers and `updateCamera()`'s follow-cam rewrites it every frame, so a selection flight is overwritten within one frame of a live roll — which is exactly how that bug survived three reviews. **Do:** project the node through `draw()`'s transform and assert it lands inside the viewport rect (`e2e/journeys/share-camera.spec.ts` is the reference). A deliberate flight takes a LEASE (`holdCamera()`, `camHoldSec = 7`, released by any real pan/pinch/wheel and by the user's own go-elsewhere paths), and `frameNodes` fits BOTH axes because `vw` is a width.
-  <br>_(3 (the share-list flight; `challenge-curriculum`'s retired ±60 contract; `systems-surface` and `url-arrival` still read it directly))_
-
-- **`this.now` IS the game clock, so a paused roll freezes every age-derived value into a FALSE PASS.** `parkOn` pauses; `age = now - lit` then stops advancing, and a canvas floor assertion passed against a build with the glow deleted, reading a frozen arrival flare. **Do:** age the value out explicitly and assert that it did, or drive the pumped clock. Same family: one `advance()` is not a frame (the landing card's top read 588 on the frame the camera aimed against and 376 on the next — a second bare `advance` is not enough; an intervening `page.evaluate` is what forces layout).
-  <br>_(3)_
-
-- **Anchor a label off `halfW(n)` — the DRAWN silhouette — never `n.r * scale`.** `shapePath` widens a triangle to 1.242r and a diamond to 1.18r, and `nodeK` scales everything again, so `n.r` stopped being the drawn radius twice over. Measure text on a SCRATCH context (`_labelWidthPx`): `this.ctx.font` is mid-frame state during a draw. And **the graph never bakes a role into a name** — all 136 position hub titles end "… Top" as an artifact of the visual collapse, and `splitName().main` only strips a `from <position>` tail, so `graphName(n)` is the single rule for all four canvas label paths.
-  <br>_(2 (label anchoring; 136 of 136 roleless names))_
-
-
-### 6.3 Before you write — or trust — a Playwright assertion
-
-- **`locator.click()` is not a mouse.** It scrolls into view and dispatches ON the element, so it cannot prove reachability and it masks every overlay trap in group 1 completely. **`j.clickByMouse(sel)` is the only claim:** it measures the centre, refuses to scroll, refuses an off-screen centre, and fails if `elementFromPoint` is anything but the target or a DESCENDANT of it — an intercepting ANCESTOR is a failure, not a pass. On mobile use `page.mouse.click` / `page.touchscreen.tap` at MEASURED coordinates plus an effective-opacity walk up the ancestor chain.
-  <br>_(4+ (every instance in group 1 was masked by it))_
-
-- **Never assert a render by re-implementing it.** A spec-side copy of a filter, of "what the node set is", or of a screen coordinate is written from the same reading of the code under test — usually with the fix already in it — so it agrees by construction and reports green on a build you have already broken. **The v1.126.0 audit BUILT to find this class committed it:** its probe measured `nodes.filter(n => n.rep && …)` and reported "identical" about Explore's search, which was doubling every hit and halving its own 120-row cap.
-  **Do:** drive the real entry point (`renderExplorer()`, `optionsFor()`, `draw()`) and assert on what it EMITTED — DOM rows, duplicate row TEXT, read-back pixels. When the geometry lives in a draw-local closure (`halfW`, `ox`) you cannot recompute it at all: read what the frame PUBLISHED (`_lastPairLabel`, `_lastRichLabel`, `this._LY`), which is the render's output, not a second implementation. A second implementation is legitimate ONLY when it also asserts SET EQUALITY against the app's own result (`option-hand.spec.ts`).
-  <br>_(10 (6 specs in v1.125.0, the audit itself, 3 specs pinned to a moved label in v1.129.4))_
-
-- **A probe is evidence for a commit message; only a spec is a gate.** `tests/artifacts/_*_probe.mjs` measured the mobile framing (v1.128.1) and the focus kicker (v1.129.1), both shipped, and in both cases the mutant SURVIVED the red-proof pass because no journey covered them — the same lesson two versions running. **Do:** mutate every claim; a surviving mutant means the claim has no gate. And **record non-kills in the spec's own header** — `dual-pair.spec.ts` names its two, so nobody later reads that spec as covering them.
-  <br>_(3 (v1.128.1, v1.129.1, plus the reverted tray drag whose own mutants could not kill its test))_
-
-- **A journey that leaves a gameplay `rng()` tag unrigged has not chosen a branch — it has bought a lottery ticket, and the ticket only prints when it loses.** `graph-naming` left `rng("opp-finish")` live, so the opponent could submit you and END the round before the journey's second landing: **6 failures in 78 un-rigged runs (7.7%) vs 0 in 30 rigged**, and P(four consecutive green full suites) ≈ 0.73, so three earlier clean reports were never evidence of absence. The fix is DEDUCTIVE — rig the value so the branch is unreachable — and the counts are corroboration, not proof.
-  **Do:** when a journey's subject is what happens AFTER an exchange, rig every draw that can end the exchange early. The 13 static tags: `start-pos role outcome resolve max-moves ai-skill opp-pick opp-sub-pick opp-finish mc-pick mc-shuffle escape checkpoint-pick`, plus surface-scoped variants (`land-mc-pick`, `land-mc-shuffle`) so a landing card can never eat the sidebar's rigged queue. `scripts/check_no_raw_random.sh` pins the seam: exactly 1 `Math.random()` in `app.src.jsx`, 0 in `sound.src.js`.
-  <br>_(1 measured, on a journey that had been a coin toss in every version it existed)_
-
-- **A green gate is evidence only about what that gate can SEE.** `payload-first-hand` pins `start-pos:[0]` — a 7-card hand — so it reports the same bytes with the hand cap and without it: **do not read a green payload gate as evidence about hand size.** `replay-digest` rigs one scripted roll on a single-success-cell submission, so the outcome-kernel fix, the `cardOrder` retirement and the loss-aversion dial were all structurally invisible to it — and **no fixture holds the expected digest anywhere in the repo** (`triple_replay.sh` compares runs to each other), so the hashes in prose describe nothing checkable.
-  **Do:** cite a gate only for a claim a mutant of that claim makes red; otherwise write its blind spot in the same sentence as the green. **And if your change SHOULD have moved the digest and did not, that is the finding.**
-  <br>_(12 (incl. 4 separate re-discoveries of the digest case))_
-
-- **An assertion stricter than its own claim goes RED on a CORRECT build.** "Nothing is drawn above the name" fails on the name's own ascenders; "nothing is drawn at merge scale" is false because the ordinary hover label takes over; "the announcer is blank after staging" is false because a staged landing may legitimately say something else. **Do:** assert the DIFFERENTIAL the change is about, against a CONTROL FRAME — everything the graph would draw anyway subtracts to zero, and the constant contribution cancels. **After relaxing an assertion, re-run its mutant**, so "less strict" does not become "less able to fail".
-  <br>_(3 named together in v1.129.0, plus 3 label-position specs in v1.129.4 and 5 mutants needed in v1.114.0)_
-
-- **`nth()` · `all()[i]` — pair cards across a re-sort by IDENTITY (`data-tech` plus its occurrence), never by POSITION.** A grade or a Win-chance update re-sorts the hand (#267's outcome-on-cards), so index *i* after is another card than index *i* before. <br>_(1)_
-
-
-### 6.4 Before you rely on the harness (DSL, ports, payloads, which build is under test)
-
-- **A harness payload pattern is a SUBSTRING of the request URL, so a stale name matches nothing and holds nothing.** Twelve rules armed `"flashcards.json"`, which the app has not fetched since v1.80.4 (it fetches `flashcards/_index.json` via `_dataBase()`), so every cold-start assertion about the ~18s skew measured a fully-warm boot — root cause of 15 red journeys. The same dead name hid in `build.mjs`, whose guard only warned when EVERY rewrite missed. **Do:** a rewrite/substitution table must THROW when a rule's `from` string is absent from the source (`neural/build/build.mjs` does now); when a rule holds a payload, assert the timeline shows it held.
-  <br>_(2 (12 harness rules + 2 of 4 build rewrites))_
-
-- **Name what the harness does NOT serve, beside every assertion — if the absence alone satisfies it, the assertion is about the harness.** The DSL serves `{}` for dossier chunks, so there is no film strip and most states legitimately have no `More` fold; a journey about either must AUTHOR content. `test.use({ reducedMotion })` leaves `matchMedia` FALSE here, so a spec relying on the fixture option **asserts nothing and passes forever** — use `page.emulateMedia`. Non-localhost requests are aborted, which is why the GitHub-stars `.catch` is load-bearing. A screenshot taken under the harness photographs the harness (`tests/artifacts/_owner_shoot.mjs` drives the real dev server for exactly this reason).
-  <br>_(7)_
-
-- **A spec in a directory no config's `testDir` collects is a NOTE, not a gate.** the old prototype specs directory (since deleted) was collected by nothing — not `package.json`, not `.github/workflows/`, not any config (only `playwright.{private,chrome}.config.ts` take `PW_TESTDIR`, from a hand-typed invocation) — so its three journeys ran when somebody remembered, through thirteen versions that included making their subject the DEFAULT and deleting the flag they booted with. **Do:** before claiming coverage, check the spec is actually collected. A spec that needs a gitignored payload cannot be a gate at all.
-  <br>_(1 (3 journeys, 13 versions))_
-
-- **A result taken while another process could write the tree under test is not a result.** A config with `reuseExistingServer:true` on a shared port means whichever WORKTREE started it owns it, and every later run tests THAT worktree's `source/public` — measured, a run was served a 343,153-byte `neural.js` where its own was 364,190. Every gate suite now owns a dedicated port with `reuseExistingServer:false` (core :8133 · gen :8127 · share :8129 · replay :8151 · catalog :8131; only `observe`/`quarantine` reuse, deliberately).
-  **And `npm run build` does NOT rebuild the neural bundle** — a stale served `neural.js` makes neural journeys silently 240s-timeout and looks exactly like contention or a regression. Refresh with `npm run dev:neural:app` (<1s). Cache keys must name the RESOLVED artifact version, never a file that changes on every commit (the Playwright cache was keyed on `package-lock` in a repo that bumps the version every commit: the key missed every run while still uploading 261 MiB).
-  <br>_(3)_
-
-
-- **A WebGL context left alive on the OLD page stalls the NEXT navigation, and it presents as "the page load hangs".** Headless Chromium (SwiftShader) defers a navigation's COMMIT while the previous page's GL contexts tear down, scaling with frames drawn — and every CDP signal (goto resolution, `frameNavigated`, evaluate against the new context) waits together, so nothing points at GL. It once put the curated gate over its 12-minute ceiling on **every** dev deploy for three days, which silently SKIPPED the deploy step and left the dev preview stale for ~6 days.
-  **Do:** any new WebGL surface on a page the journeys boot must either early-return on `window.__NEURAL_TEST__` or be registered for the sweep in `e2e/dsl.ts` (contexts are recorded at creation into `__glCtxs` and lost before navigation). **Never probe with `getContext("webgl")` to DETECT a context — that CREATES one**, at ~11s to make and lose.
-  **Diagnostic:** if the dev preview looks stale, read the gate step's DURATION before assuming a content problem.
-  <br>_(the two Pixi surfaces that caused it are deleted, but the sweep and the guard are live and load-bearing)_
-
-- **`ERR_INSUFFICIENT_RESOURCES` · `Target crashed` · a 240s timeout on a spec that takes 2s — read `df -h /` BEFORE reading the diff.** Chromium's user-data-dir and temp files go to `TMPDIR` (default `/tmp`), which on this host is the 25G ROOT volume, not the 98G `/home` one the repo sits on. A full root does not fail loudly: the browser dies on the 4th or 5th heavy navigation in one page, the failing route MOVES between runs, and every other test in the same file passes. Measured: `forward-components.spec.ts:716` red 3-of-3 at 6.2s with 111M free, green 2-of-2 at 2.0s with `TMPDIR=/home/user/tmp-pw`, same commit, same idle box. It also mimics contention exactly (`browserContext.close: Target … has been closed` under a full suite), so it is the first thing to rule out, not the last.
-  **Do:** `TMPDIR=<dir on the roomy volume> npx playwright test …`, and never conclude a red is "load" or "content" until `df` is clean. Ruling out shm (`--disable-dev-shm-usage`) and the disk CACHE (`--disk-cache-dir`) does not rule out the profile — that is the mistake that cost a session here.
-  <br>_(1 measured, and it had already been misread twice as contention)_
-
-### 6.5 Before you write app runtime logic
-
-- **A single-slot resource with many writers needs a stamped owner and an explicit lifetime.** The announcer (`setEvent`) has ONE slot: a share-arrival sentence was overwritten by the roll within seconds (hence `_announceArrival` HOLDS it for the next landing), "Decide 1…" outlived its hand (hence the `_evCountdown` stamp, which every other `setEvent` releases and `clearOptions` honours), and "Time's up" was overwritten SYNCHRONOUSLY on the next line (the surviving lessons: the countdown stamp, and `clearOptions()` before any sentence that replaces it — the hesitation branch itself retired with the hand clock in v1.133.0). Same shape: `camTarget` (nine writers, follow-cam rewrites it every frame → a 7s LEASE) and `scrollLeft` (ONE rAF owns it — `_trayStop()` is called by every competing animator). **Three remedies: a stamp released by every other writer, a lease with an expiry, or a single declared writer (`_bumpStageVer`).**
-  <br>_(9)_
-
-- **Every suppression flag declares its complete set of LIFTERS at its definition.** The canonical incident: the v1.129.5 stand-down latch had exactly ONE lifter (the play button), so a background tap left the app dealing hands and flying cameras underneath a suppression nobody lifted — "nothing happens when I click, but the node lights up". (v1.134.0 dissolved that latch pair entirely: a background tap now CLOSES rather than suppresses, so there is nothing to restore.)
-  **Diagnostic worth memorising: `_landHidden()` (`app.src.jsx`) asks THREE holders — `_landPaneHid`, `_traySup`, `_detailCtx`. Any one stuck leaves a built, mounted, correctly populated card invisible while every other surface behaves. Read the holders before you read the render path.** Good pattern: one latch per pauser (`_landAutoPaused` / `_paneAutoPaused` / `_replayAutoPaused` / `_dossierAutoPaused`) so releasing gives back only the pause you took. Never gate on `userActiveNow()` — it measures the GAME clock, so one click on a paused board latches "the user is active" forever.
-  <br>_(6)_
-
-- **When one question is answered in two places, one of them is already wrong.** `playFrom` was a whole stale copy of `rollFromPosition` (hard-coded camera, no archive, no state reset); `rollFromPosition` then walked `adj[]` for a technique's origin while `confirmPlayFrom` had read `fromPositionId` all along — **wrong on 907 of 1,331 techniques, and the technique you just tapped was not in the hand you were dealt 68.4% of the time**; the same function kept a hard-coded `vw: graphW*0.42` after `rollCamTarget` existed, and still aimed at `{n.x, n.y}` one version after `camFocus` was fixed on the line beside it ("same defect, missed once"). A two-branch tap rule written before a third case existed is the same failure.
-  **Do:** collapse to ONE named seam (`rollCamTarget`, `techniqueOrigin`, `captureNode`, `siteIdOf`) BEFORE adding a third caller, and DELETE the copy rather than syncing it. Where two names for one value must coexist in a shared bundle scope (`NG_LIST_ITEM_CAP` / `NG_LIST_MAX_ITEMS`), a test pins them equal.
-  <br>_(9)_
-
-- **If the data states it, READ it — and a derivation that returns the same answer for the whole corpus is a constant with a function around it.** `optionsFor` inferred the performer from `myVal < oppVal - 0.05` while every technique carries `fromRole`; `performerRole(...) === "top"` stood in for an offence/defence test on an axis that is not top/bottom. All 136 position hub titles end "… Top", so deriving a role from a title IS the constant `top` — which is why `seatRole` exists (596 techniques are bottom-authored) and why `playFrom`/`confirmPlayFrom` take an explicit `role`. A fallback may relax ORIGIN; it must **never** relax ROLE.
-  <br>_(9)_
-
-
-### 6.6 Before you change a join, an id, a slug, an order or a persisted key
-
-- **A CHECK THAT NEVER RAN REPORTS CLEAN — absence produces a plausible answer.** A bare `except Exception: return issues`, a matcher that matches nothing, a zero-length comparison loop and `git diff --quiet` on an UNTRACKED file all emit exactly what success emits. `check_position_type_vs_score` reported "0 disagreements" for months because a missing `import os` raised `NameError` into a bare except (real figure 95); a headers gate passed a Function that had stopped setting `Cache-Control` because "the comparison loop had nothing to iterate"; `keepalive.yml` had never committed anything, ever.
-  **Do: every matcher, join, gate and rewrite emits a POSITIVE coverage count and hard-fails below a floor, and a skip path PRINTS.** The repo invented this fix five separate times without naming it — `regenerate_neural_data.py` and `:575` (refuse a wire below 95% join coverage, printed every run), `build.mjs` (throw per dead rewrite rule), `check_headers_cache.py` check 6a (OMISSION, not only drift), and the `mc_pool_cold` / `land_warm_stalled` beats.
-  <br>_(17)_
-
-- **A fallback that produces a plausible value and never says it fired is strictly worse than a crash — it buys months of silence.** A missing `cal` made `calSuccess()` return null and `moveChance` fall through to `0.36 + dom*0.1`, so **~289 of 1,204 dealt cards printed a fabricated ~45.6% where authored rates span 10–74%**; `posId`-vs-slug left 54 of 136 positions running entirely on the no-candidates fallback; `posIdx` fell back to the technique itself and staged 1,331 of 2,934 nodes ON a technique node. **Do:** every fallback emits a NAMED beat or a counter (`mc_pool_cold`, `land_warm_stalled` are the pattern), and it is CHOSEN before any rng draw so the draw count cannot depend on content.
-  <br>_(8)_
-
-- **`cal.avail` · `frame_reachable` — RULESET AVAILABILITY IS A REACHABILITY PROPERTY, NOT AN EDGE PROPERTY.** "Is this move attempted anywhere in frame F" is a question about one edge and cannot see the case that matters: a technique whose only origin is a state F never produces. `Worm Guard/Bottom` deals a full, honest no-gi hand (X-Guard Sweep 33, Omoplata 21) — conditional on standing in a guard entered by threading the opponent's lapel through their own legs, which no no-gi edge does. Measured: the edge question calls 52 techniques gi-only; the walk from `standing-position` calls **124 techniques and 22 position role-nodes** absent in no-gi.
-  **THE WALK REPORTS BOTH FRAMES; THE LAYER ACTS ON ONE.** `EXCLUDING_FRAMES` is `("nogi",)`. The gi column the walk finds — 21 techniques, all heel-hook family — is IBJJF LEGALITY, not equipment, and acting on it is not safe today: `backside-50-50/bottom` has exactly ONE gi move surviving `optionsFor`'s role AND origin filters, so removing it empties the main pass into the ORIGIN-RELAXED fallback — cards from other origins carrying no `ord` and no `ordOdds`. **`graph.json` cannot see that coming**: its per-frame sums apply neither role nor origin, so it reports the state healthy. An empty-hand check cannot see it either, because the fallback returns cards — test for `ord === undefined`.
-  **Do:** derive availability with `frame_reachable` (`scripts/regenerate_neural_data.py`), filter at the READER via `rsAllows` — never inside `adj`, which is per-SITE and role-blind by design — and never from a NAME (ruling P3a: a name sweep kills `Rear Naked Choke from Invisible Collar`, the canonical no-gi choke, because the POSITION is named "Collar"). Two numbers now both mean "availability" and are different sets: `cal.avail` is the walk; `docs/Neural.md`'s score-weight 52/16 is `_frame_positive`, the edge question, and is correct for what it measures.
-  **AND THE SURFACE LIST WAS HAND-MAINTAINED FOR EXACTLY ONE VERSION.** v1.153.0 filtered the surfaces its author could enumerate; a four-lens sweep then found **38 more** a player could reach — the ESCAPE TRAY you pick from while caught, the drill queue built from a shared class, a URL arrival straight onto a gi-only technique's page, and all four node walks in `neural/src/flow.src.js`, the weak-spots engine, in a file the target-file sweep never opened. That is §6.7's hand-maintained-enumeration defect, and it landed within one commit. The list is now DERIVED by `validate:surfaces`; the guard belongs at the READER, never inside `adj`.
-  **The recurring line: material the app DEALS obeys the ruleset; the player's own RECORD does not.** A class a coach posted stays what they posted — filtering `listIdxs` would silently shrink a received class and re-encode a SHORTER share code.
-  **Pinned by `validate:availability` (wire parity, zero mass loss, no dead ends) + `validate:surfaces` (every enumeration filtered or justified) + `tests/ruleset_availability.test.mjs` (the surfaces, the fallback detector, and the standing anti-name-matcher fixture).**
-  <br>_(1, and the whole no-gi graph was 104 techniques and 18 states too large)_
-
-- **`_tech_keys` — a spelling-sensitive join must try every spelling and then COUNT itself.** `graph.json` keys a technique by `slugify(<display name>)`, one flat kebab token; a layout id keeps the authored PATH, so `Submissions/Kimura/from-Front-Headlock` arrives with a `/` where the key has a `-`. **0 of 297 submission keys contain an inner slash, so 294 of 297 submissions shipped no odds at all** and nothing went red, because the fallback above printed a plausible number. The ladder is three rungs, cheapest first, and the last is the key's OWN CONSTRUCTOR rather than another guess: `as-is` → `slash→hyphen` → `slugify(title)`. Together 1331 of 1331. The emitter now refuses to write a wire below 95% coverage per type and prints the figure every run.
-  <br>_(1, hidden for months, across 2 joins (`cal` and `tech_avail`))_
-
-- **`s` is TWO DIFFERENT PAIRS behind one shape: `[top, bottom]` on a POSITION, `[attacker, defender]` on a TECHNIQUE.** `roleIdx()` (side) indexed both, so every bottom-performed technique was read as its opponent's value: **a bottom player was shown ZERO of the 297 submission nodes**, and 144 of 596 bottom-authored techniques were silently discarded. **Use `valIdx(node)` — performer for a technique, side for a position — never `roleIdx()` on a technique.** Two nearly identical accessors sit side by side in `app.src.jsx` and the code cannot explain why both exist; this is why.
-  <br>_(1, corpus-wide)_
-
-- **An index-keyed or positional join fails by printing the WRONG right-looking answer.** `cal.ev` is keyed `<position node index>/<role>` with `blk[0]` a list of TECHNIQUE node indexes: nothing is self-describing, so a wrong remap still finds rows, still prints an integer on every card, and prints a different technique's number on each — no exception, no warning, no blank. **Do: gate it with a whole-structure DIFFERENTIAL against a known-good graph (one build, booted twice) PLUS a non-triviality floor** — `dual-consumers.spec.ts` asserts >1200 cards carry a real mark, so it cannot pass on a build where `_ev` came back empty on BOTH sides and every comparison was trivially equal. Never a non-null count: a wrong-but-complete remap satisfies it perfectly. An index is safe only when it never leaves the file that defines it.
-  <br>_(6 (cal.ev, the `s` pair, `posId`-vs-`fromPositionId`, `deg`/`siteDeg`, the cal key, links-as-pairs))_
-
-- **A node's ARRAY INDEX can never go in a URL, and any user-visible order needs a strict total order whose final tiebreak is stable CONTENT.** `regenerate_graph.py` walks an unsorted `rglob('*.json')` and the layout derives its node list from `adjacency` DICT INSERTION order seeded by that — so adding ONE content file renumbers pre-existing entries and an index-encoded share link would silently open a DIFFERENT set of techniques, with no error anywhere. Hence `node_ordinals.json`: permanent, append-only, never renumbered, never reused, retired-not-removed, minted in sorted-id order, hard-gated by `validate:ordinals`.
-  **Corollaries:** `Array#sort` is STABLE, so a comparator that can return 0 hands the decision to the node index — 21 dealt option pairs tie on EDGE, odds AND attempt%, and only the name separates them. And **a cap applied over an unordered list is a random sample**: a constant sort key made the 10-cap deal submissions ALPHABETICALLY and truncate the state's most-attempted move.
-  <br>_(5)_
-
-- **Lists hold SITES: `siteIdOf` normalises in the LIST LAYER — the writer AND every membership reader.** Only a hub carries a share ordinal; the derived pair's partner mints `<hub>/Bottom` / `<hub>/Defender` with `o: null` (**0 of 1467**), so a `+` pressed while standing on the lower orb filed an id the encoder reports as `missing`: **the technique was dropped from the share code with no error, and a one-item list of it encoded to the empty string.** Not an edge case — 136 of 272 position landings and 172 of 400 technique seats stand on a partner, i.e. every time the coach is playing bottom. **Normalising only the WRITE is the tempting half-fix and is wrong**: it makes a captured technique show `+` instead of `✓` on the very orb you captured it from. Nine call sites today (`addToList`, `removeFromList`, `removeListItem`, `activeListHas`, `nodeInAnyList`, `listsWith`, `listItemName`, `openListPicker`, the id lookup); it is the layer's invariant, so a surface added later cannot bypass it.
-  <br>_(1, reachable on half of all landings)_
-
-- **DO NOT role-split `adj`.** `opponentDefend`, `_mcPool` and `_posIdx` walk `adj[currentPos]` with NO role filter, deliberately — they are asking about the EXCHANGE, not about your hand. A purely role-split adjacency handed the opponent YOUR hand, the belt-test opponent stopped finding submissions, and `content-capstone` went red. Each pair member therefore carries its SITE's technique set (link kind 2, one-way, never drawn). **Precise wording matters here:** the two members' `adj` are NOT byte-identical — measured 136 of 136 differ by exactly the pair tie, and order legitimately differs because a site link is pushed one-way. The design claim holds; a spec written against the retired "byte-for-byte, in the same order" phrasing goes red on a correct build.
-  <br>_(1 (found by the suite, not by review) · _re-verify before quoting_)_
-
-- **A settings key can NEVER be deleted — retire it by ceasing to READ it.** `_pullAndMerge`'s per-key settings merge is `if (!(sk in merged) || ct > lt)` with **no tombstone** (`app.src.jsx`), so a key deleted locally is unconditionally RE-ADDED by the first pull from any device that still carries it; pruning on load is theatre. Dormant today, read by nothing: `cardOrder`, `studyOrder`, `challengePinnedTrack`, `activeListId`, `lossAversion`. Same shape, chosen deliberately, elsewhere: list reconciliation is ADD-WINS, so a DELETE loses to a stale device (deleting again is trivial; losing the class a coach already posted is not), and `srs` merge is later-`last`-wins with a same-day tie going to the SMALLER interval. And a state-driven auto-flip is not a mint: driving a reward toggle off "belt is black" re-enables it on every device forever through LWW — flip it once, inside the mint.
-  <br>_(8 across three storage layers)_
-
-- **`startPosTraffic` · `_posSlugIndex` — position traffic is keyed to the TOP MEMBER ONLY, so anything weighted by it scores ZERO for the entire bottom side.** `_posSlugIndex` maps a bare posId to the top member (`app.src.jsx`), while `resolveOutcomeTo` lands you on a bottom member on **2,071 of 3,842 outcome cells**. Measured on a bottom player who had drilled 90 bottom decks: **0 of 90 changed score**, and their "15 weakest spots" came back as fifteen guard-passing techniques — real names, ranked, entirely wrong. The obvious repair does not work either: **136 of 136 hubs give top and bottom IDENTICAL traffic**, so a hub lookup carries no side information at all.
-  **Do:** key anything role-sensitive on `posId + "/" + role` and read the hand from `_ev`, which is keyed that way already. `flow.src.js` does; nothing else may weight by `startPosTraffic`.
-  **Pinned by `tests/flow.test.mjs`** ("both roles carry occupancy").
-  <br>_(1, and it silently produced a complete, plausible, wrong ranking)_
-
-- **`_ev` holds 544 entries for 272 hands — `_deriveDualPairs` files the SAME `cal.ev` block on BOTH pair members.** Iterating it directly doubles every state and still prints believable numbers. Dedupe on `posId + "/" + role`. Same family: **`sum(att · EDGE) == 0` at every state BY CONSTRUCTION** (`_evShift` subtracts an attempt-weighted hand mean), so any score built out of `moveEdge` has an identically-zero total everywhere and its ranking is rounding noise — build in **Q**, never in EDGE. And `c1` is `int(round(100 * (A - B)))`: scaled ×100, integer-rounded, one per λ. Never `Math.abs` it — the negative rows are the feature, not noise.
-  <br>_(3, all found before shipping FLOW)_
-
-- **A value identical across a whole category on screen is a CONSTANT until proven otherwise.** `movePotential` returned `1` for every submission, so the sort key was constant across all 297; the dominance fallback priced the entire submission corpus at **2 distinct values** where 37 are authored; "30+ weak spots" printed `get("dailyGoal",30) + "+"` and read the same for a player with 3 gaps and one with 700. **Detection, cheap and general: count the DISTINCT values a field actually produces, and where two printed values are bit-identical, assert the underlying source rows are identical too** (42 of 42 is the passing shape). An exact tie on screen must be a tie in the data, never a constant in the code.
-  <br>_(4)_
-
-
-### 6.7 Before you edit CI, a build emitter, or rename/delete a symbol
-
-- **CI must not silently run a subset of the chain a human runs, and no emitted path may be allow-listed.** `votes-refresh.yml` once ran bare `regenerate_graph.py` and committed a graph.json with `strength` **stripped from 4,464 of 4,465 nodes**. `e2e-full.yml` tarred six allow-listed paths, so the PR gate for BOTH protected branches could not pass — an allow-list rots silently and that one predated every spec that broke on it; package by default and `--exclude` explicitly. A `paths:` filter must include the INPUTS its own gates read.
-  **Corrected rule, because the absolute version is contradicted by a deliberate fix:** `votes-refresh.yml` today runs `regenerate:graph-base` + `regenerate:graph-strength` and NOT the umbrella — the layout/ordinal steps need an ML stack that job does not install (the umbrella failed there every week) and would rewrite files the PR step never stages. So: **a partial chain must be justified AT THE CALL SITE and must include every step that mutates the artifact it commits.** Do not "fix" that workflow back to the umbrella.
-  **Standing hazard: deploy does NOT run root `npm run build`** — both workflows re-list the steps inline, so any new build step is absent in production unless added there too, and no gate compares the two lists.
-  <br>_(7, all found in one pass; 1 since deliberately reverted · _re-verify before quoting_)_
+The CI, emitter and deletion traps of this group are in `.claude/rules/traps-ci.md`; this one stays
+here because a rename can start anywhere.
 
 - **Never pipe the survey that decides a rename or a deletion through `head`.** The `auto_pick` retirement was scoped from a truncated grep showing the sound catalog, the app and ONE gen spec, so it looked cheap. The real list is **7 gen specs + 2 core journeys** (`announcer-coherence`, `jit-loop`), and the core one only surfaced when the full suite went red. **Do: `| wc -l` first, then read all of it.** Second form of the same trap: where the enumeration is HAND-MAINTAINED rather than derived, a new member is missing by default — `attachInput`'s overlay early-return list has no gate deriving it, and `.ng-seemore` was absent from it for its entire existence.
   <br>_(2)_
-
-- **A tolerance baseline must be at least as strict as the gate downstream of it, and must ENUMERATE what it tolerates by name.** The PR ratchet allowed 76 graph errors while both deploys hard-fail on the first (now 0, with the reasoning in the baseline's own `note`). `e2e:gen`'s was prose only and drifted 13 → 40 reds unseen; its ledger is now read by the runner. **An aggregate count is unfalsifiable and rots into permanent noise: put the baseline where the RUNNER reads it, not where the reader does.**
-  <br>_(3)_
-
-- **Deleting a component deletes its telemetry and its capability, and no gate reports it.** Removing `AffiliateTracking` removed the only emitter of three PostHog events — the links still worked, the MEASUREMENT stopped. Removing `SystemProgress` removed a whole UX from 48 pages and the only emitter of three more events, with no Neural equivalent: a capability LOST, not moved, and any per-system completion figure goes flat from the deploy date — do not read that as a usage collapse. Its dead markup still ships, because the shell is emitted by `templates/Systems.md.jinja2`, not by the component. **Do:** treat an emitter deletion as a data-loss event — in the same commit, enumerate every event, capability and dashboard it was the ONLY source of, and check for dead markup emitted by a template rather than by the component. Retiring a mapped `fx()` beat means deleting its sound cue, and breaking every spec that asserts it.
-  <br>_(5)_
-
-- **A new file under `neural/src/` is INVISIBLE to git unless its name matches the allow-list.** `.gitignore`'s `neural/src/*` rule re-admits only `*.src.js`, `*.src.jsx`, `*.css`, `xdc-template.html`, `helmet.html`, `props.json`, `technique-content.js` — deliberately, because that directory also holds untracked design dumps. Add a new `.js` file there and CI checks out without it, so `node neural/build/build.mjs` either throws or quietly ships a bundle missing the feature: **green locally, broken in production.** Any new build input carries the `.src.` infix or is `.css`; verify with `git check-ignore -v neural/src/<file>`.
-  <br>_(1 documented in .gitignore, 0 caught by any gate)_
-
-- **Scope every selector to a marker you OWN and assert it appears exactly once.** A query that resolves to the wrong object returns plausible data, not an error: `body[data-share-cue]` collided with the cue BUTTON's own attribute, so `querySelector` returned `<body>` and every "where is the cue" measurement silently became the whole 390x844 viewport (three journeys red); `HTMLRewriter.on("title", …)` matches by element NAME and the shell carries a second `<title>` inside an inline SVG (fixed with `title[data-share-title]`, written and asserted once by `build_share_shell.mjs`). Never query by a shape another object can have — element name, a bare attribute, or a computed dimension (a CSS-border triangle computes to `width: 8px`, not 0). Bundle corollary: `lists.src.js` and `lists-codec.src.js` share ONE scope in the IIFE, so no top-level name may collide, and `build.mjs`'s duplicate-name scan must cover `function|const|let|var|class` — it used to scan only `function|const`, so a colliding `let` walked past the guard into the SyntaxError it exists to prevent.
-  <br>_(6)_
 
 
 ### 6.8 Before you delete something that looks dead (or debug something that looks alive)
@@ -679,7 +463,7 @@ Numbers live where they are enforced, never in prose here — prose copies drift
 | `tests/artifacts/budget_neural.json` | `e2e/journeys/payload-first-hand.spec.ts` | the same weight from a real browser: raw bytes, and the boot's chunk-request COUNT |
 | `tests/artifacts/payload_policy.json` | both of those | **the two gzip figures are SOFT** — over `target` warns and passes, over `action` fails, and any one change growing more than `delta_cap` fails whatever the absolute figure. Bands are hand-set; a baseline moves ONLY via `--accept-baseline <metric> --reason "…"`, never by itself (a self-advancing baseline is a delta check that never runs) |
 | `tests/artifacts/build_fingerprint.json` | `validate:build-shape` | the build's CENSUS, not its bytes: counts, markers, `@type` histogram, bundle hashes. Re-seed with `--update` and say what moved. A version bump moves nothing (neural.js's baked version is normalised and asserted); a bundle-only change re-seeds with `validate:build-shape:app`, no capture |
-| `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling |
+| `tests/artifacts/budget_docs.json` | `check_claudemd_budget.py` | this file's own char ceiling, and one per `.claude/rules/` file |
 | `tests/artifacts/graph_validation_baseline.json` | `validate:graph` | `max_errors` is 0 |
 | `node_ordinals.json` | `validate:ordinals` | append-only; never renumber, never reuse, retire don't delete |
 | `e2e/gen/ledger.json` | `scripts/check_gen_specs.sh`, `e2e/gen-ledger-reporter.ts` | one row per spec; `known-red` = tolerated |
@@ -720,7 +504,9 @@ content are inputs to what the bots write, and a change here changes their outpu
 | `claude.yml` † / `claude-code-review.yml` † | mention / PR | the assistant in issues and PR review |
 | `keepalive.yml`, `supabase-keepalive.yml` | weekly / 5-daily | stop GitHub Actions and Supabase auto-disabling |
 
-† loads `CLAUDE.md`.
+† loads `CLAUDE.md`. The action's default `settingSources` (`user,project,local`) loads `.claude/rules/`
+too, when a bot reads or writes a matching path; on a PR event it first restores `.claude/` and
+`CLAUDE.md` from the base branch, so a PR's own edits to them never steer its own review.
 
 **Hosting** is Cloudflare Pages. Deploys never run root `npm run build` — they re-list the build
 steps inline, so a new emitted artifact or a new gate must be added to **both** deploy workflows
@@ -747,11 +533,14 @@ config; a rule about the repo rather than about a file.
 
 **§6 grows only by adding a TRAP** — trigger token, mechanism, symptom, fix, guarded status — never
 a story. At budget, admission requires eviction in the same commit; the default demotion criterion
-is *the trap now has a gate that fails loudly and names it*.
+is *the trap now has a gate that fails loudly and names it*. A trap whose code lives under one
+area goes into that area's file in `.claude/rules/`, never into this file; a new file there needs
+`paths:` globs, a ceiling and a line in §6's index, and the budget gate fails without each.
 
-`scripts/check_claudemd_budget.py` enforces the ceiling, the absence of `@`-imports and the
-presence of the catalogue. `scripts/check_claudemd_refs.py` checks every path,
-`npm run` script and symbol citation resolves. Both run in `ci-validate.yml`.
+`scripts/check_claudemd_budget.py` enforces the ceilings, the absence of `@`-imports and the
+presence of the catalogue, here and in every `.claude/rules/` file. `scripts/check_claudemd_refs.py`
+checks every path, `npm run` script and symbol citation resolves, in the same files. Both run in
+`ci-validate.yml`.
 
 ---
 

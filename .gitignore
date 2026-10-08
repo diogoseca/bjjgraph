@@ -83,7 +83,15 @@ clips_sourcing/
 # yarn.lock
 # pnpm-lock.yaml
 __pycache__/
+# Local Claude Code state (settings, skills, worktrees) at any depth, EXCEPT the root's
+# .claude/rules/: the path-scoped half of the CLAUDE.md canon (v1.224.3), which loads only when a
+# session touches the folders its `paths:` name. Untracked, it would exist in the worktree that
+# wrote it and nowhere else, CI's Claude jobs included. Order matters: a directory git excludes
+# cannot have a file inside it re-included, so the root directory is re-admitted first.
 .claude
+!/.claude/
+/.claude/*
+!/.claude/rules/
 .playwright-mcp/
 scripts/list-claude-sessions.sh
 
