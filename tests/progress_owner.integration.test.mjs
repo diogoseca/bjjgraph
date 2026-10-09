@@ -64,7 +64,7 @@ test('malformed legacy progress is never adopted and stays byte-identical',async
   assert.deepEqual(h.get().prep,{}); assert.equal(h.mem.rows.get('bjj-neural-progress'),bad);
   assert.equal(h.mem.rows.get(ngProgressLocalKey(guest)),undefined);
 });
-test('an account never adopts unowned legacy automatically; it is offered to accounts as an explicit import',async()=>{
+test('an account never adopts unowned legacy automatically; the data layer retains explicit legacy import',async()=>{
   const h=harness(); h.setIdentity({id:'A',email:'A@example.invalid'});
   h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({legacy:5}))); await h.boot();
   assert.equal(h.get()._progressOwner.kind,'account'); assert.deepEqual(h.get().prep,{});
@@ -79,6 +79,27 @@ test('signout restores guest rather than relabeling account practice',async()=>{
   const h=harness();await h.boot();h.get().prep.guest=4;const a=h.switchTo('A');a.prep.a=9;a._clearAuthUser();
   assert.deepEqual(h.get().prep,{guest:4});assert.deepEqual(h.host.store.read(ownerA).blob.prep,{a:9});assert.equal(h.get().user,undefined);
 });
+for (const existingGuest of [false,true]) {
+  test(existingGuest
+    ? 'signout with an existing guest keeps legacy separate; guest import exposes only that guest'
+    : 'signout without a guest adopts legacy; signing back in can import it through guest progress',async()=>{
+    const h=harness(), legacy={
+      'bjj-neural-progress':'{ "v": 2, "prep": { "legacy": 5 } }\n',
+      'bjj-neural-ladder':'{ "rank": 3 }', 'bjj-neural-firstroll':'1', 'bjj-neural-coached':'1',
+    };
+    for (const [key,value] of Object.entries(legacy)) h.mem.rows.set(key,value);
+    if (existingGuest) h.host.store.write(guest,blob({guest:2}));
+    h.setIdentity({id:'A',email:'A@example.invalid'});await h.boot();
+    assert.deepEqual(h.get().prep,{},'account boot never adopts legacy');
+    h.setIdentity(null);h.get()._clearAuthUser();
+    const expected=existingGuest?{guest:2}:{legacy:5};
+    assert.equal(h.get()._progressOwner.kind,'guest');assert.deepEqual(h.get().prep,expected);
+    const a=h.switchTo('A'), preview=h.host.previewImport(a,'guest');
+    assert.equal(preview.status,'preview');assert.deepEqual(a.prep,{},'import still requires confirmation');
+    assert.equal(h.host.confirmImport(a,preview).status,'ready');assert.deepEqual(h.get().prep,expected);
+    for (const [key,value] of Object.entries(legacy)) assert.equal(h.mem.rows.get(key),value,key+' stays byte-identical');
+  });
+}
 test('same-account token identity preserves current roll and study object',async()=>{
   const h=harness();await h.boot();const a=h.switchTo('A');a._session={live:true};a._knowledgeAttempts=['old'];const count=h.mounted.length;
   a._applyUser({id:'A',email:'fresh@example.invalid'});assert.equal(h.get(),a);assert.equal(h.mounted.length,count);assert.deepEqual(a._session,{live:true});assert.equal(a.user.email,'fresh@example.invalid');
@@ -172,15 +193,15 @@ test('asynchronous mount failure destroys the partial instance and offers a retr
   const h=harness();await h.boot();const a=h.get();h.host.mountFailed(a);assert.equal(a.__ngDestroyed,true);assert.equal(h.held.at(-1).reason,'mount-failed');
   await h.host.retry();assert.notEqual(h.get(),a);assert.equal(h.host.current(h.get()),true);
 });
-test('import UI names target, cancel keeps separate, explicit click imports',async()=>{
+test('guest import UI names target, cancel keeps separate, explicit click imports',async()=>{
   const oldDocument=globalThis.document;
   const element=tag=>({tag,children:[],attrs:{},style:{},textContent:'',setAttribute(k,v){this.attrs[k]=v;},append(...items){this.children.push(...items);},appendChild(item){this.children.push(item);},set innerHTML(v){this.children=[];}});
   globalThis.document={createElement:element};
   try {
     const h=harness();h.mem.rows.set('bjj-neural-progress',JSON.stringify(blob({old:4})));await h.boot();const a=h.switchTo('A');let closed=0;a.openModal=()=>{};a.closeModal=()=>{closed++;};a.modalCardRef.current=element('div');
-    a.openProgressImport('legacy');let section=a.modalCardRef.current.children[0];assert.ok(section.children[1].textContent.includes('A@example.invalid'));assert.ok(section.children[1].textContent.includes('email consent stay unchanged'));
+    a.openProgressImport('guest');let section=a.modalCardRef.current.children[0];assert.equal(section.attrs['data-progress-import'],'guest');assert.ok(section.children[1].textContent.startsWith('Guest progress is kept separately. '));assert.ok(section.children[1].textContent.includes('A@example.invalid'));assert.ok(section.children[1].textContent.includes('email consent stay unchanged'));
     section.children.find(x=>x.textContent==='Keep separate').onclick();assert.equal(closed,1);assert.deepEqual(a.prep,{});
-    a.openProgressImport('legacy');section=a.modalCardRef.current.children[0];section.children.find(x=>x.attrs['data-progress-import-confirm']==='1').onclick();assert.equal(h.get().prep.old,4);assert.notEqual(h.get(),a);
+    a.openProgressImport('guest');section=a.modalCardRef.current.children[0];section.children.find(x=>x.attrs['data-progress-import-confirm']==='1').onclick();assert.equal(h.get().prep.old,4);assert.notEqual(h.get(),a);
   } finally {globalThis.document=oldDocument;}
 });
 

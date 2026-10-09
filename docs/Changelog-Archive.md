@@ -10837,3 +10837,30 @@ A live run with the monthly flags checked 3,698 eligible unique IDs out of 3,861
 30 minutes 50 seconds, with zero errors and identical hashes for all 6,412 content
 files. Sixteen offline fixtures cover read-only behavior, deduplication, pacing,
 pruning and failure durability; five named mutants are killed by those fixtures.
+
+## v1.224.13 — Remove the older-progress account-menu row (2026-10-09)
+
+The owner requested removal of "Review older saved progress". The account menu now
+offers only the existing guest-progress import, and the unreachable legacy-only modal
+copy is gone. The ownership data layer is byte-identical: legacy keys are preserved,
+automatic guest adoption still works, and explicit legacy import remains available
+in the data API, with no normal menu entrypoint.
+
+Signing out makes legacy progress available through "Review guest progress" after
+signing back in only when no guest envelope already exists. An existing guest profile
+is restored as-is; it does not absorb legacy evidence. Two integration cases pin that
+distinction and preserve all four legacy storage values byte-for-byte.
+
+The account-menu regression now seeds valid legacy progress before sign-in and opens
+the menu with a real mouse. It retains the guest-row, single-separator and six-button
+assertions. A behaviour-neutral app mutant passed first; restoring the legacy row
+then failed `signed in with legacy progress: guest import only, email + Log out; logout
+flips the chip` on the legacy-row count (expected 0, received 1). Both private mutant
+manifests carried the matching gameplay hash. All eight menu journeys and all fifty
+progress-owner integration cases passed on the fixed app.
+
+The same first-hand browser journey on fresh v1.224.12 and v1.224.13 builds measured
+398,661 → 398,608 gzip bytes (−53 B), with eleven requests in each run. The core subtotal
+fell 365,518 → 365,464 B (−54 B); the version stamp added 1 gzip byte to `postscript.js`.
+The app bundle fell 686,886 → 686,757 raw bytes and 210,529 → 210,475 gzip bytes.
+The required curated suite passed all 456 tests on the fresh v1.224.13 build.
