@@ -138,7 +138,7 @@ test("no line of the whole output carries the proxy host: hosts list, offenders,
 // 4 of 5 dev deploys hit the fresh per-deploy URL before Cloudflare served it: one 404, no CSP. These
 // cases drive waitForReady with a SIMULATED server and a fake clock, so no network and no real waiting.
 // MUTANTS, each red by the test named: waitForReady returning ready on its first attempt whatever the
-// answer ("no wait") -> "a 404 then 200 waits for the 200"; readyVerdict ignoring the CSP header ->
+// answer ("no wait"), or READY_STREAK = 1 -> "flapping readiness waits for three consecutive good answers"; readyVerdict ignoring the CSP header ->
 // "a 200 without a CSP header is not ready"; the timeout never firing -> the run times out INSIDE "never ready gives up, by name" (an endless
 // wait is that claim failing; node:test then reports the file, not the case).
 const CSP_H = { "content-security-policy-report-only": "default-src 'self'" }
@@ -172,22 +172,55 @@ test("a 200 without a CSP header is not ready (the not-ready Cloudflare answer c
   assert.match(v.why, /no CSP/)
 })
 
-test("a 404 then 200 waits for the 200, printing every attempt", async () => {
-  const srv = fakeServer([{ status: 404 }, { status: 404 }, { status: 200, headers: CSP_H, body: OUR_DOC }])
+test("flapping readiness waits for three consecutive good answers", async () => {
+  const good = { status: 200, headers: CSP_H, body: OUR_DOC }
+  const srv = fakeServer([{ status: 404 }, good, { status: 404 }, good, good, good])
   const clock = fakeClock(); const lines = []
   const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...clock, fetchImpl: srv.fetchImpl, log: (l) => lines.push(l) })
   assert.equal(r.ready, true)
-  assert.equal(r.attempts, 3, "it must not proceed on the 404s")
-  assert.equal(lines.length, 3)
-  assert.match(lines[0], /attempt 1 .*not ready: HTTP 404/)
-  assert.match(lines[2], /attempt 3 .*READY/)
+  assert.equal(r.attempts, 6, "one good answer must not launch the browser")
+  assert.equal(srv.calls.length, 6)
+  assert.equal(r.waitedMs, 25_000)
+  assert.deepEqual(lines.map((line) => line.match(/(?:not ready|READY) \(\d\/3\)/)?.[0]), [
+    "not ready (0/3)", "READY (1/3)", "not ready (0/3)", "READY (1/3)", "READY (2/3)", "READY (3/3)",
+  ], "every attempt reports its streak, including the reset")
 })
 
-test("a refused connection is not ready, and the wait goes on", async () => {
-  const srv = fakeServer([new Error("ECONNRESET"), { status: 200, headers: CSP_H, body: OUR_DOC }])
+test("a refused connection resets an otherwise ready streak", async () => {
+  const good = { status: 200, headers: CSP_H, body: OUR_DOC }
+  const srv = fakeServer([good, good, new Error("ECONNRESET"), good])
   const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...fakeClock(), fetchImpl: srv.fetchImpl, log: () => {} })
   assert.equal(r.ready, true)
-  assert.equal(r.attempts, 2)
+  assert.equal(r.attempts, 6)
+})
+
+test("an immediately healthy URL needs exactly three attempts", async () => {
+  const srv = fakeServer([{ status: 200, headers: CSP_H, body: OUR_DOC }])
+  const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...fakeClock(), fetchImpl: srv.fetchImpl, log: () => {} })
+  assert.equal(r.ready, true)
+  assert.equal(r.attempts, 3)
+  assert.equal(srv.calls.length, 3)
+  assert.equal(r.waitedMs, 10_000)
+})
+
+test("a streak that never reaches three inside the bound fails even after good answers", async () => {
+  const good = { status: 200, headers: CSP_H, body: OUR_DOC }
+  const srv = fakeServer([good, good, { status: 404 }, good, good])
+  const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...fakeClock(), fetchImpl: srv.fetchImpl, timeoutMs: 20_000, log: () => {} })
+  assert.equal(r.ready, false)
+  assert.equal(r.attempts, 5)
+  assert.equal(r.waitedMs, 20_000)
+})
+
+test("a third good answer arriving after the deadline is not ready", async () => {
+  const srv = fakeServer([{ status: 200, headers: CSP_H, body: OUR_DOC }])
+  const clock = fakeClock()
+  const r = await waitForReady("https://abc.bjjgraph.pages.dev/", { ...clock, timeoutMs: 10_000, log: () => {}, fetchImpl: async (url) => {
+    if (srv.calls.length === 2) await clock.sleep(1)
+    return srv.fetchImpl(url)
+  } })
+  assert.equal(r.ready, false)
+  assert.equal(r.attempts, 3)
 })
 
 test("never ready gives up, by name, inside its bound, and never reports ready", async () => {

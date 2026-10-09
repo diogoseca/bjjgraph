@@ -8,8 +8,8 @@
 // (CLAUDE.md 6.4), the local build is keyless (no PostHog), and Cloudflare injects its analytics
 // beacon at the EDGE, so it is in no built file. This runs after the deploy, against the deploy.
 //
-// WHAT IT DOES. First wait until the deployment URL answers like this site (waitForReady: HTTP 200, a CSP
-// header, /postscript.js in the document; bounded at 180 s, every attempt printed), because Cloudflare
+// WHAT IT DOES. First wait until the deployment URL answers like this site three times in a row
+// (HTTP 200, a CSP header, /postscript.js; five seconds apart, bounded at 180 s, every attempt printed), because Cloudflare
 // serves a fresh per-deploy URL a little after wrangler prints it. Then boot `/`, wait for the app to move
 // the address bar itself, play one move, then
 // check four things and print every offender:
@@ -214,8 +214,12 @@ export function report(log, env = process.env) {
 // never passed on an empty run); it was asked too early. So the browser does not start until the URL
 // answers like THIS site: HTTP 200, a CSP header (the not-ready 404 carries none), and the root-absolute
 // /postscript.js every page loads. Bounded; every attempt printed; never ready FAILS BY NAME, never passes.
+// One good answer still flapped in runs 37771464874 and 37869163633: READY then a browser root 404.
+// The ~75.5 s until the failure log includes 45 s waiting for navigation and 30 s for a card.
+// Require three consecutive READY verdicts, five seconds apart; any not-ready answer resets the streak.
 export const READY_TIMEOUT_MS = 180_000
 export const READY_MARKER = "/postscript.js"
+const READY_STREAK = 3
 
 /** One response -> is this our deployed document? Pure, so a test can hold it to the rule. */
 export function readyVerdict(status, headers, body) {
@@ -228,7 +232,7 @@ export function readyVerdict(status, headers, body) {
   return { ready: true, why: "HTTP 200, CSP present, document loads " + READY_MARKER }
 }
 
-/** Polls `url` until readyVerdict says ready or `timeoutMs` passes. Injectable fetch, sleep and clock. */
+/** Polls `url` for a READY streak within `timeoutMs`. Injectable fetch, sleep and clock. */
 export async function waitForReady(url, {
   fetchImpl = fetch,
   sleep = (ms) => new Promise((res) => setTimeout(res, ms)),
@@ -239,6 +243,7 @@ export async function waitForReady(url, {
 } = {}) {
   const start = now()
   let attempts = 0
+  let streak = 0
   let last = "no attempt made"
   for (;;) {
     attempts++
@@ -252,10 +257,12 @@ export async function waitForReady(url, {
       verdict = { ready: false, why: `request failed: ${e?.message ?? e}` }
     }
     last = verdict.why
-    const elapsed = Math.round((now() - start) / 1000)
-    log(`[deployed-console] readiness attempt ${attempts} at ${elapsed}s: ${verdict.ready ? "READY" : "not ready"}: ${verdict.why}`)
-    if (verdict.ready) return { ready: true, attempts, waitedMs: now() - start, last }
-    if (now() - start + intervalMs > timeoutMs) return { ready: false, attempts, waitedMs: now() - start, last }
+    streak = verdict.ready ? streak + 1 : 0
+    const waitedMs = now() - start
+    const elapsed = Math.round(waitedMs / 1000)
+    log(`[deployed-console] readiness attempt ${attempts} at ${elapsed}s: ${verdict.ready ? "READY" : "not ready"} (${streak}/${READY_STREAK}): ${verdict.why}`)
+    if (streak >= READY_STREAK && waitedMs <= timeoutMs) return { ready: true, attempts, waitedMs, last }
+    if (waitedMs + intervalMs > timeoutMs) return { ready: false, attempts, waitedMs, last }
     await sleep(intervalMs)
   }
 }
