@@ -91,17 +91,30 @@ test("signed out: exactly the owner's rows, one separator, no filler", async ({ 
   expect(vp.width - (m.x + m.width), "on the chip's right edge").toBeLessThan(60)
 })
 
-test("signed in: email row (non-interactive) + Log out; logging out flips the chip", async ({
+test("signed in with legacy progress: guest import only, email + Log out; logout flips the chip", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/", { beforeNavigate: beforeNeuralAuthNavigate })
   await waitNeuralAuthOwner(page, null)
-  // Persist the actual guest profile; account entry offers an explicit import.
-  await page.evaluate(() => (window as any).__neural._flushSave())
+  // Both sources are valid: this must catch a restored legacy row, not just an empty browser.
+  const legacy = {
+    "bjj-neural-progress": '{ "v": 2, "prep": { "legacy": 7 } }\n',
+    "bjj-neural-ladder": '{ "rank": 3 }',
+    "bjj-neural-firstroll": "1",
+    "bjj-neural-coached": "1",
+  }
+  await page.evaluate((entries) => {
+    ;(window as any).__neural._flushSave()
+    for (const [key, value] of Object.entries(entries)) localStorage.setItem(key, value)
+  }, legacy)
   await signInNeuralAuthSDK(page, "account-menu-user", { email: "diogo@example.com", name: "Diogo" })
   await j.land("Mount Top")
   await expect(page.locator(".ngAcctChip")).toContainText("Diogo")
+  expect(await page.evaluate(() => {
+    const app = (window as any).__neural
+    return app._progressHost.previewImport(app, "legacy").status
+  }), "the retained data layer can preview this legacy fixture").toBe("preview")
 
   await j.clickByMouse(".ngAcctChip", "the signed-in chip")
   const menu = page.locator(".ng-account-menu")
@@ -123,6 +136,9 @@ test("signed in: email row (non-interactive) + Log out; logging out flips the ch
   await waitNeuralAuthOwner(page, null)
   expect(await menuOpen(page), "acting on a row closes the menu").toBe(false)
   await expect(page.locator(".ngAcctChip"), "back to Guest").toContainText("Guest")
+  expect(await page.evaluate((keys) => Object.fromEntries(
+    keys.map((key) => [key, localStorage.getItem(key)]),
+  ), Object.keys(legacy)), "sign-in, menu use and sign-out preserve every legacy byte").toEqual(legacy)
 })
 
 test("rows open the real surfaces: auth modal, Settings, Shortcuts tab, Terms", async ({

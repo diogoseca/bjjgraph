@@ -7296,7 +7296,7 @@ class Component extends DCLogic {
     // A verified account without display email is not a sufficiently clear import target.
     if (!target) { this.closeModal(); return; }
     const detail = document.createElement("p");
-    detail.textContent = (kind === "legacy" ? "Older saved progress has no confirmed account owner. " : "Guest progress is kept separately. ") +
+    detail.textContent = "Guest progress is kept separately. " +
       "Import practice evidence, saved lists and achievements into " + target + "? Account settings and email consent stay unchanged. The original copy is kept.";
     const error = document.createElement("p"); error.setAttribute("role", "status");
     const cancel = document.createElement("button"); cancel.type = "button"; cancel.textContent = "Keep separate";
@@ -7346,10 +7346,9 @@ class Component extends DCLogic {
       m.appendChild(row("data-menu-create", "Create account", () => this.openAuth("create")));
       m.appendChild(row("data-menu-login", "Log in", () => this.openAuth("login")));
     }
-    for (const [kind, label] of [["legacy", "Review older saved progress"], ["guest", "Review guest progress"]]) {
-      const source = this._progressHost && this._progressHost.previewImport(this, kind);
-      if (source && source.status === "preview") m.appendChild(row("data-menu-import-" + kind, label, () => this.openProgressImport(kind)));
-    }
+    // Owner removed the legacy row (2026-10-09); the data layer still supports legacy import.
+    const source = this._progressHost && this._progressHost.previewImport(this, "guest");
+    if (source && source.status === "preview") m.appendChild(row("data-menu-import-guest", "Review guest progress", () => this.openProgressImport("guest")));
     if (this._progressStorageError) {
       const status = document.createElement("p"); status.setAttribute("role", "status");
       status.textContent = "Progress could not be saved on this device. Keep this page open and free some browser storage.";
