@@ -10864,3 +10864,19 @@ The same first-hand browser journey on fresh v1.224.12 and v1.224.13 builds meas
 fell 365,518 → 365,464 B (−54 B); the version stamp added 1 gzip byte to `postscript.js`.
 The app bundle fell 686,886 → 686,757 raw bytes and 210,529 → 210,475 gzip bytes.
 The required curated suite passed all 456 tests on the fresh v1.224.13 build.
+
+## v1.224.14 — Wait for a stable deployed-console URL (2026-10-09)
+
+The readiness probe admitted the browser after one good response while Cloudflare was
+still propagating. Runs 37771464874 and 37869163633 then received a root 404 without CSP.
+Their roughly 75.5-second READY-to-error-report gaps include the browser's 45-second
+navigation wait and 30-second card wait, consistent with an immediate bad navigation.
+Neither log demonstrates failure after sustained readiness, so no browser retry was added.
+
+The check now requires three consecutive valid responses, five seconds apart, within
+the existing 180-second polling budget. Every attempt prints its streak, and any failure
+resets it. Nineteen unit cases pass. Setting the streak requirement back to one fails
+`flapping readiness waits for three consecutive good answers`: it returns on attempt
+two instead of six for the sequence 404, 200, 404, 200, 200, 200.
+The live dev check printed READY (1/3), (2/3), and (3/3) at 0, 5, and 10 seconds,
+then navigated and played a move with CSP present and no console offenders.
