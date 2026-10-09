@@ -260,10 +260,13 @@ export class Journey {
     if (opts.noCurriculum) this.st.noCurriculum = true; // latches, as the old second route did
     // unique URL per boot: a hash-only (or identical-URL) goto is a SAME-DOCUMENT navigation —
     // no reload, no init scripts, no wipe/seed. The nonce forces a real navigation every time.
+    const hashAt = path.indexOf("#");
+    const fragment = hashAt < 0 ? "" : path.slice(hashAt);
+    if (hashAt >= 0) path = path.slice(0, hashAt);
     path += (path.includes("?") ? "&" : "?") + "ngb=" + ++this.st.bootSeq;
     if (opts.initialState) {
       path += `#ngseed=${encodeURIComponent(JSON.stringify(opts.initialState))}`;
-    }
+    } else path += fragment;
     // journeys don't need the 20MB dossier payload — abort it (the app is absence-guarded).
     // Register ONCE per page: duplicate handlers + a prior boot's in-flight aborts can cancel
     // the next navigation (net::ERR_ABORTED on the second boot of a determinism replay).
@@ -1100,4 +1103,3 @@ export class Journey {
 }
 
 export const journey = (page: Page) => new Journey(page);
-

@@ -82,6 +82,9 @@ test('real library waits for Explore intent, fetches only the selected record an
   expect(requests.filter(recordRequest)).toEqual([]);
   const responsePromise = page.waitForResponse(response => new URL(response.url()).pathname === '/static/neural/' + recordPath);
   await activate(selectedRow);
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  expect(requests.filter(recordRequest), 'reading the article does not fetch the study record').toEqual([]);
+  await activate(page.locator('[data-reader-practice]'));
   const response = await responsePromise;
   expect(response.ok()).toBe(true);
   const loadedBytes = await response.body();

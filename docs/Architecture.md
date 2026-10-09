@@ -329,23 +329,33 @@ Lazy loading has behavioral consequences:
 
 ### Reading delivery
 
-More selects lightweight section descriptors while folded and builds its body on first opening.
-It uses 13px prose, semantic headings/lists and natural wrapping. Position reads include their
-profile, principles, decision branches without percentages, mistakes, variations and drills.
-Technique reads use the chosen seat's recognition and execution or defense; an unauthored defender
-never borrows attacker mechanics. Submission reads start with the source-backed safety notice,
-then place the complete safety guide after execution/defense. All risk severities, application
-instructions, tap signals, release steps and restrictions survive without truncation. Own aliases
-and inherited family aliases are labeled separately. Position points are retained in data but not
-displayed: their authored values do not establish a scoring rule.
+`reader.src.js` is a deferred module emitted as `app/reader.js`. A mixed game landing
+requests it only after the real hand mounts; explicit reading requests it without creating a
+hand. `reading.css` is deferred and must finish loading before measuring the shelf or docking
+game controls. Both remain excluded from the game first-hand request window.
+The eager bridge reserves the preview's cold footprint and measures existing bottom chrome;
+the loaded reader replaces that forecast with its measured shelf. This keeps the first camera
+target stable. Short landscape uses the quiz's left column for its compact article preview and
+keeps the hand and films in the right column. Reading expands into the available article area.
 
-Keyboard opening focuses the reading region. Up/Down move 40px; Page Up/Down and Shift+Space/Space
-move 85% of the viewport; Home/End reach the bounds; Escape closes and returns focus to More.
-Reading keys cannot grade or navigate the question underneath. Content-keyed completion refreshes
-More, film and a matching option sheet independently of question/drill DOM, including after an
-answer. Same-reader updates preserve focus and the visible section's offset. Two hidden reading
-layers request no dossier; restoring a layer loads it. Singleton Explore rows use their known node
-directly and never fetch dossiers merely to render names.
+The complete published Quartz `<article>` is the reading source. The original hidden article
+is cached under `body.dataset.slug`, never the address after `_pushUrl`. Other pages fetch their
+canonical HTML and extract its article. The session cache holds at most eight successful pages.
+A hub includes its full default role; an explicit role includes its hub context. Families and
+pages absent from the playable graph remain readable. Abort plus a request serial prevents an
+old page or role from replacing a newer navigation. Errors remain retryable.
+
+Cloned ids are unique and preserve their source ids for heading links. Relative links and media
+resolve against each source page, with internal links and Back staying in reading intent.
+Modified clicks and external links retain browser behavior. Published video frames become
+explicit Play controls; hiding Videos or Book removes a playing frame, and article playback
+retires the game film strip. Every authored credit and source link remains.
+
+The article has native text selection, scrolling and keyboard focus. Real reading interaction
+declines a timed question without a miss; automatically rendering it does not pause gameplay.
+Its lifetime is independent of question DOM and deferred dossier completion. Dossiers still
+serve option sheets, films and the optional reference study controls, using the existing
+section renderer; they are not an alternate abridged source for the full article.
 
 **Dossier enrichment.** `_neural_content.py` resolves own aliases/disambiguations and submission
 family metadata once for both dossiers and the deferred alias index. Families join by parent

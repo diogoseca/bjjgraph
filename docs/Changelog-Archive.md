@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.225.0** — [A reading-first way through the content](#v12250--a-reading-first-way-through-the-content-issue-289)
+
 - [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
 
 Newest first. Where a narrative's own label disagrees with git, the real shipping version is
@@ -10880,3 +10882,49 @@ resets it. Nineteen unit cases pass. Setting the streak requirement back to one 
 two instead of six for the sequence 404, 200, 404, 200, 200, 200.
 The live dev check printed READY (1/3), (2/3), and (3/3) at 0, 5, and 10 seconds,
 then navigated and played a move with CSP present and no console offenders.
+
+## v1.225.0 — A reading-first way through the content (issue #289)
+
+More showed an abridged dossier, disappeared with the question card and led readers back into
+gameplay when they browsed. The replacement deferred reader uses the complete published article,
+including the selected role and hub context, and owns its page independently of the question.
+The source DOM is cached by its original body slug; the game can change the address without
+replacing that DOM. Canonical HTML loads retain every paragraph and link. Abort plus a serial
+guard prevents a late page from replacing Back navigation. Article and module failures offer Retry.
+
+The labeled shelf restores Videos, Practice, Moves, Map, Feedback and Book. Focus on reading
+persists separate scalar visibility overrides, preserving the player's normal settings. Only an
+explicit Focus action reapplies the preset. Browse, related links and saved Focus create no roll,
+hand or timed question; Practice is explicit. The owner-pending
+`NG_READING_DEFAULT_ON_CONTENT_URL` switch remains false: fresh playable URLs retain the game
+landing with an automatically loaded article. Actual scrolling, selection or focus declines the
+question without a miss; loading prose alone never pauses a move. Published video frames mount
+only after Play and are removed when Videos or Book is hidden.
+
+The mixed view shares limited space with the full question and hand. `_landDatum` reserves the
+preview before deferred CSS/code arrives, then the reader measures the shelf and existing corner
+chrome. Short landscape keeps independent quiz/article and hand/film columns. Phone film
+thumbnails shrink while Book is present. Paused camera framing preserves its clearance; a changed
+band around the same node uses the spring without waiting for a new flight. Practice uses
+`stageRollAt`, including its role. These changes were driven by existing motion, placement and
+zero-overlap checks; their bounds were retained.
+
+Real-mouse journeys compare against published HTML across positions, both technique roles,
+submission safety, family hubs and reference pages. They cover persistence, keyboard reading,
+reload anchors, Back, retry, minimization, video ownership and reading past the question deadline.
+Obsolete virtual-More assertions were replaced; the independent late option-sheet dossier check
+remains. Mutation evidence and limitations live in the reader spec header. The gameplay DSL now
+puts its navigation nonce before the fragment, so a reload does not change the requested anchor.
+
+The new `app/reader.js` is classified as deferred with a matching first-hand request ban. Numeric
+payload policy is unchanged; reading-ready delivery has its own observation, without pretending
+that reading creates a hand. The separate question-form commit adds the existing question label
+and optional URL/device fields, while keeping blank issues disabled.
+
+Static eager gzip grew 687 B from the Phase 1 build, inside the 1,919 B room. Game first-hand
+core gzip grew 658 B; reading-ready delivery measured 13 requests and 427,752 gzip B separately.
+Twenty-four final MDP-sandbox mutants produced 44 reviewed assertion failures; Back-only race
+mutants survived, so the same-reader Browse race supplies that guard's kill. Firefox with
+resistFingerprinting and WebGL disabled passed at both sizes; LibreWolf on Arch was not run.
+The clean curated run passed 451/451 without retries; CI replay passed 24/24 steps and
+1,258/1,258 unit tests with zero skips. Earlier fixture failures remain in the delivery report.

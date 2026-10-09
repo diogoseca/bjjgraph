@@ -4,21 +4,10 @@ import { journey } from "../dsl";
 /**
  * THE LANDING CARD'S PRIORITY LAW.
  *
- * Owner's rule for what a landing may show, in order: the title, a one- or two-phrase description,
- * where you came from, your role, whether you have done this — then film, then the question, then
- * the multiple choice, then your options. And then: "if it's not priority, if it's not video, if
- * it's not that quick explanation, if it's not the Q&A, if it's not multiple choice, if it's not
- * the choices out of this — then it doesn't matter. If it doesn't matter, it should be hidden and
- * only shown if the user clicks to show more."
- * v1.174.0 makes the boundary structural: More and the retained familiarity control share a
- * root-plane sibling; expanding it must never append to or mutate the timed landing card.
- *
- * So this spec is a NEGATIVE test as much as a positive one: the deep content the dossier holds
- * (decision trees, principles, common mistakes, metrics) must NOT be in the landing card before
- * or after More is used.
- *
- * Surfaces: [data-landcard] [data-land-film] [data-land-q] [data-land-corner] [data-land-count]
- *           [data-land-more-body] .ng-landmore [data-land-more] · setting: landQuestions
+ * The timed question remains a separate surface from the complete published article.
+ * Issue #289 replaces the old More fold with visible, independently scrollable prose.
+ * Reading must not append deep content to the question, reshuffle it, or score a miss.
+ * Surfaces: [data-landcard], [data-land-film], [data-land-q], [data-reader].
  */
 
 test("the landing shows film, then the question — in that order @curated", async ({
@@ -31,10 +20,8 @@ test("the landing shows film, then the question — in that order @curated", asy
   const card = page.locator("[data-landcard]");
   await expect(card).toBeVisible();
 
-  // DOM order IS the landing card's read order. The graph owns name and side; the definition
-  // stays behind More, its own root-plane sibling below the dealt choices; the deck count is a
-  // line inside the corner (v1.175.0). Swipe guides sit outside the card; deep content
-  // stays behind More.
+  // DOM order is the question's read order. The independent article owns prose;
+  // swipe guides and the film remain siblings outside the timed card.
   const order = await card.evaluate((el) =>
     Array.from(el.children)
       .filter((c) => !c.hasAttribute("data-land-corner") && !c.hasAttribute("data-land-clock-track"))
@@ -120,75 +107,20 @@ test("the graph owns identity; the timed card keeps only a quiet deck count", as
   expect(txt, "no familiarity glyph leaks into the timed card").not.toMatch(/[○◐●]/);
 });
 
-test("everything that is NOT priority stays behind More", async ({ page }) => {
+test("the complete article stays separate from the timed question", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
-
-  // v1.101.9: a state with nothing behind `More` renders no `More`. Author one, so this journey
-  // is about what stays BEHIND the fold rather than about whether the fold exists.
-  await page.evaluate(() => {
-    const a = (window as any).__neural;
-    const key = a.deckKeyFor(a.nodes[a.currentPos]).key;
-    const w = window as any;
-    w.NG_CONTENT = w.NG_CONTENT || {};
-    w.NG_CONTENT.decks = w.NG_CONTENT.decks || {};
-    w.NG_CONTENT.decks[key] = { def: "Seeded.", principles: ["Seeded principle"] };
-    a._landQ = null;
-    a.renderLandCard(a.nodes[a.currentPos], "land", null);
-  });
-
   const card = page.locator("[data-landcard]");
-  const landingBody = ((await card.textContent()) || "").toLowerCase();
-  // the dossier's deep sections must not leak onto the landing
-  for (const deep of [
-    "decision tree",
-    "common mistakes",
-    "key principles",
-    "if it stalls",
-    "numbers",
-  ]) {
-    expect(landingBody, `"${deep}" is not on the landing card`).not.toContain(deep);
-  }
-
-  await expect(
-    page.locator("[data-land-more]"),
-    "one affordance for the rest",
-  ).toBeVisible();
-  expect(
-    await page.evaluate(() => (window as any).__neural._dossierIdx != null),
-    "and the dossier is shut until it is used",
-  ).toBe(false);
-
-  await j.clickByMouse("[data-land-more]", "the independent More control");
-  await expect(
-    page.locator("[data-land-more-body]"),
-    "the deferred reading surface paints its fuller rows",
-  ).toContainText("Seeded principle");
-  const opened = await page.evaluate(() => {
-    const a = (window as any).__neural;
-    const card = a._landEl as HTMLElement;
-    const row = a._landMoreEl as HTMLElement;
-    const detail = row && row.querySelector("[data-land-more-body]") as HTMLElement | null;
-    return {
-      visible: !!detail && detail.style.display === "block" && (detail.textContent || "").trim().length > 0,
-      separate: !!detail && row.contains(detail) && !card.contains(detail),
-      expanded: row && row.classList.contains("open"),
-      landingText: (card.textContent || "").toLowerCase(),
-    };
-  });
-  expect(opened.visible, "More fills its own card with the fuller rows").toBe(true);
-  expect(opened.separate, "the reading card is a sibling, never a landing-card child").toBe(true);
-  expect(opened.expanded, "the More surface itself becomes that card").toBe(true);
-  expect(opened.landingText, "opening More leaves the landing card's content untouched").toBe(landingBody);
-  expect(
-    await page.evaluate(() => (window as any).__neural._dossierIdx != null),
-    "and still does not enter the node dossier",
-  ).toBe(false);
-  expect(
-    await page.evaluate(() => !!(window as any).__neural.paused),
-    "the independent reading card stops the game while it is open",
-  ).toBe(true);
+  const article = page.locator('[data-reader-ready="true"] [data-reader-body]');
+  await expect(article).toContainText("Mount");
+  const question = await card.textContent();
+  expect(await card.locator("article").count()).toBe(0);
+  await expect(page.locator("[data-land-more]")).toHaveCount(0);
+  await article.focus();
+  expect(await page.evaluate(() => !!(window as any).__neural.paused)).toBe(true);
+  expect(await card.textContent(), "reading leaves the question's text intact").toBe(question);
+  expect(await page.evaluate(() => (window as any).__neural._dossierIdx ?? null)).toBeNull();
 });
 
 test("turning questions off leaves the landing surface but asks nothing", async ({

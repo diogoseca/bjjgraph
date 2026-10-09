@@ -67,40 +67,19 @@ test("the film strip spans exactly the card it sits on, outer AND content box @c
   expect(geo.filmInner, "and the thumbnails line up with the text above them").toEqual(geo.cardInner);
 });
 
-test("More -> Less leaves the toggle readable, not black @curated", async ({ page }) => {
+test("Book minimize and restore keep a readable, reachable control @curated", async ({ page }) => {
   const j = journey(page);
   await j.boot("/");
   await j.land("Mount Top");
-  await seedFilm(page);
-  await page.waitForTimeout(300);
-
-  const read = () =>
-    page.evaluate(() => {
-      const el = document.querySelector("[data-land-more]") as HTMLElement;
-      // BOTH: the computed colour is what the user sees, the inline one is what the code wrote.
-      // `color` carries a .16s transition, so a computed read taken in the same tick as the write
-      // still returns the OLD value — measure after settling, and keep the inline value as the
-      // statement of intent.
-      return el ? { computed: getComputedStyle(el).color, inline: el.style.color } : null;
-    });
-
-  const before = await read();
-  expect(before, "the fold must exist (content is authored above)").toBeTruthy();
-
-  await page.evaluate(() => (window as any).__neural.expandLandCard(true));
-  await page.waitForTimeout(260);
-  const open = await read();
-
-  await page.evaluate(() => (window as any).__neural.expandLandCard(false));
-  await page.waitForTimeout(260);
-  const after = await read();
-
-  // THE BUG: `style.color = ""` deleted the inline declaration instead of restoring it, so the
-  // collapsed button inherited and computed to black.
-  expect(after!.inline, "collapsing RESTORES a colour, it does not clear one").not.toBe("");
-  expect(after!.computed, "and it is the resting colour again").toBe(before!.computed);
-  expect(after!.computed, "certainly not black on a #131625 card").not.toBe("rgb(0, 0, 0)");
-  expect(open!.computed, "open is brighter, so the toggle still reads as active").not.toBe(before!.computed);
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  const color = () => page.locator('[data-reader-part="book"]').evaluate(el => getComputedStyle(el).color);
+  const before = await color();
+  await j.clickByMouse('[data-layer-hide="book"]');
+  await expect(page.locator('[data-reader]')).toBeHidden();
+  expect(await color()).not.toBe("rgb(0, 0, 0)");
+  await j.clickByMouse('[data-layer-show="book"]');
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  expect(await color()).toBe(before);
 });
 
 test("the question corner keeps its close button and count; capture belongs to the seat", async ({ page }) => {

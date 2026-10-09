@@ -242,7 +242,11 @@ const openMountInExplore = async (page: Page, j: ReturnType<typeof journey>) => 
   });
   expect(tagged, "the Explore list shows Mount").toBe(true);
 };
-const clickMount = (j: ReturnType<typeof journey>) => j.clickByMouse('[data-cam-test="mount"]', "the Mount row in Explore");
+const clickMount = async (page: Page, j: ReturnType<typeof journey>) => {
+  await j.clickByMouse('[data-cam-test="mount"]', "read Mount from Explore");
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  await j.clickByMouse('[data-reader-practice]', "explicitly practice the selected page");
+};
 
 for (const viewport of VIEWPORTS) {
   const W = viewport.width;
@@ -326,7 +330,7 @@ for (const viewport of VIEWPORTS) {
         const target = await pickFar(page, "Mount");
         await openMountInExplore(page, j);
         const S = [await frame(page)];          // at rest: the click's first frame is a kick from here
-        await clickMount(j);
+        await clickMount(page, j);
         S.push(...(await record(page, 60 * 3)));
         expectContinuous(S, W, `Explore → Mount (${name})`);
         const last = S[S.length - 1];
@@ -414,6 +418,8 @@ for (const viewport of VIEWPORTS) {
       await j.boot("/Submissions/Triangle-Choke/from-Triangle-Control/Defender");
       await j.advance(4000);
       await expect.poll(async () => { await j.advance(200); return page.evaluate(() => ((window as any).__neural._optionCards || []).filter((c: any) => !c.opt.threat && c.opt.action === "escape").length); }, { timeout: 20_000 }).toBeGreaterThan(0);
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+      await page.waitForTimeout(350); // finish deferred layout before the at-rest mouse sample
       await j.advance(8000);                                 // the catch's lease (camHoldSec 7) has run out
       expect(await page.evaluate(() => (window as any).__neural.camHeld()), "the lease is over").toBe(false);
       const title = await page.evaluate(() => {
@@ -444,6 +450,7 @@ for (const viewport of VIEWPORTS) {
       await j.boot("/");
       await j.land("Mount Top");
       // every layer off: nothing bounds the graph, so the node is framed at the screen's middle
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
       await page.evaluate(() => { const a = (window as any).__neural; for (const k of ["film", "card", "hand"]) a.setLayer(k, false, "test"); });
       await j.advance(3000);
       const before = await frame(page);
@@ -462,7 +469,11 @@ for (const viewport of VIEWPORTS) {
       const j = journey(page);
       await j.boot("/");
       await j.land("Mount Top");          // the harness serves no clips: no film row at the landing
-      await j.advance(3000);
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+      // Mixed view can absorb a late film by shrinking the article preview. Put
+      // Book away here so this fixture still forces a substantial camera move.
+      await j.clickByMouse('[data-layer-hide="book"]', "make the late film own the clearance change");
+      await j.advance(6000); // let the mouse-input camera lease and the resulting flight settle
       const before = await frame(page);
       expect(before.film, "no film row before its content arrives").toBeNull();
       // the content arrives late: the same path a hydrated dossier chunk takes

@@ -121,6 +121,9 @@ const NG_LAND_DECK_MIN_H = 236;
 //   · hand OFF  = DEALT but hidden (`_syncHandLayer`): the deal IS the roll state and its order
 //                 is frozen at deal time (§5), so expanding shows the same hand, instantly.
 //                 The ESCAPE tray obeys it too (v1.171.1, owner: nothing shows that was not asked for).
+// Owner-pending: only fresh direct content arrivals (no readingFocus preference).
+// False preserves the game landing; Browse/Read and persisted Focus always read.
+const NG_READING_DEFAULT_ON_CONTENT_URL = false;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
@@ -354,6 +357,7 @@ class Component extends DCLogic {
   componentDidMount() { return this.boot(); }
   componentWillUnmount() {
     this.__ngDestroyed = true;
+    this._reader?.destroy();
     if (this._settingsRowRO) this._settingsRowRO.disconnect();
     this._destroyGameplanStudy();
     if (this._systemsLoader) this._systemsLoader.dispose();
@@ -1224,6 +1228,7 @@ class Component extends DCLogic {
     try {
       this._onNeuralPopstate = () => {
         if (!this._progressCurrent()) return;
+        if (history.state?.ngReading || this._readerIntent || this.get("readingFocus", false)) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
         if (hit.idx >= 0 && hit.idx !== this.currentPos) this.rollFromPosition(hit.idx, true, hit.role);
         // ...and Back onto a concept or system page re-opens that page, the same way arriving on
@@ -3935,33 +3940,6 @@ class Component extends DCLogic {
   /** Content completion is not a new question. Keep the scored DOM and all gameplay clocks
    * intact, and touch only the reader whose current owner requested this key. */
   _refreshReadingContent(keys) {
-    const owner = this._landReadOwner;
-    if (owner && owner.card === this._landEl && this._layerOn("card") && (!keys || keys.includes(owner.key))) {
-      const sections = this._landMoreSections(owner.node, owner.side);
-      let row = this._landMoreEl;
-      if (!sections.length) {
-        if (row) { if (this._landOpen) this.expandLandCard(false); this._clearLandMore(); }
-      } else if (!row) {
-        this._renderLandMore(owner.node, owner.side);
-      } else {
-        const body = row.lastChild, focused = body.contains(document.activeElement);
-        const offset = this._readS || 0;
-        const anchor = Array.from(body.children).find((el) => el.getBoundingClientRect().bottom > 0);
-        const marker = anchor && Array.from(anchor.attributes).find((a) => a.name.startsWith("data-land-"));
-        const top = anchor && anchor.getBoundingClientRect().top;
-        body._ngMoreSections = sections;
-        // A collapsed body is invalidated without doing the long render nobody asked for.
-        if (this._landOpen) this._paintRead(row, body); else body.innerHTML = "";
-        this._dockLandMore(owner.card);
-        if (this._landOpen) {
-          this._readApply(offset);
-          const next = marker && body.querySelector("[" + marker.name + "]");
-          if (next) this._readApply(offset + next.getBoundingClientRect().top - top);
-          if (focused) body.focus({ preventScroll: true });
-        }
-      }
-      if (this._landEl) this._dockLandCard(this._landEl);
-    }
     // A hidden card can still own a visible film; never fetch for two hidden layers.
     const n = this.nodes && this.nodes[this._landIdx];
     const key = n && (n.ty === "positions" ? this.deckKeyFor(n).key : n.t);
@@ -8384,7 +8362,7 @@ class Component extends DCLogic {
       const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
         ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
       for (const s of systems) {
-        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this.openSystem(s.id));
+        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this._readArticle("/" + s.id));
         hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
       }
       if (!matches.length && systems.length) return;
@@ -8392,7 +8370,7 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this._readArticle(this._nodeUrlPath(n.idx)));
         list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
@@ -8432,7 +8410,7 @@ class Component extends DCLogic {
       list.appendChild(hdr);
       if (!open) return;
       for (const c of all) {
-        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.title || c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this.openConcept(c.id));
+        const row = mk('<span style="font-size:13px;color:#c4cde0;">' + this.escHTML(c.title || c.name) + '</span>' + (c.meta ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;white-space:nowrap;">' + this.escHTML(c.meta) + '</span>' : ""), 22, () => this._readArticle("/" + c.id));
         row.style.paddingRight = "12px";
         row.setAttribute("data-concept-row", c.id);
         row.setAttribute("data-concept-cat", c.cat);
@@ -8484,7 +8462,7 @@ class Component extends DCLogic {
           children.replaceChildren();
           if (!expanded) return;
           for (const s of [...systems].sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id))) {
-            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.display_title || s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this.openSystem(s.id));
+            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.display_title || s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this._readArticle("/" + s.id));
             leaf.style.paddingRight = "12px";
             leaf.setAttribute("data-system-row", s.id);
             leaf.style.pointerEvents = "auto";
@@ -8516,12 +8494,12 @@ class Component extends DCLogic {
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this._readArticle(this._nodeUrlPath(n.idx))), n, "explore"));
         } else {
           // A one-site family already identifies its representative. Probing role dossiers here
           // used to fetch both seats for every visible singleton just to choose that same node.
           const solo = nodes[0], qual = this.nodeQual(solo);
-          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this.openDossier(solo.idx)), solo, "explore"));
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this._readArticle(this._nodeUrlPath(solo.idx))), solo, "explore"));
         }
       }
     };
@@ -11804,6 +11782,16 @@ class Component extends DCLogic {
    */
   _seedFromUrl() {
     if (/^\/l\//.test(location.pathname)) return false;
+    const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
+    if (content) {
+      this._readerInitialPath = location.pathname + location.hash;
+      if (this.get("readingFocus", NG_READING_DEFAULT_ON_CONTENT_URL) ||
+          /^(?:\/(Principles|Learning|Systems))(?:\/|$)/i.test(location.pathname) || this._nodeAndRoleForPath(location.pathname).idx < 0) {
+        this._readArticle(this._readerInitialPath, true, false);
+        this._readerInitialPath = null;
+        return true;
+      }
+    }
     const hit = this._nodeAndRoleForPath(location.pathname);
     if (hit.idx < 0) return this._seedPageFromUrl(location.pathname);
     this._urlSeedIdx = hit.idx; this._urlSeedRole = hit.role;
@@ -13097,6 +13085,7 @@ class Component extends DCLogic {
     }
     if (film) film.style.left = (compact ? W * .78 : center) + "px";
     chrome.forEach((el, i) => { el.style.left = chromeAt[i] + "px"; });
+    this._reader?.layout();
   }
   updateUiShift(dt) {
     const tgt = this.deckShown ? 1 : 0;
@@ -14655,10 +14644,9 @@ class Component extends DCLogic {
    *  `_dockLandFilm` knows what it serves and a late chunk (`_landBackfill`) can still dock the
    *  film under it. INVARIANT since v1.171.0: `_landIdx` MAY be set while `_landEl` is null.
    *  Every reader that matters already asks `_landEl` (or `_landHidden()`, which reads a null
-   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert. More follows
-   *  this layer: no question card means no orphan More pill or reading card. */
+   *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert.
+   *  The complete article has its own lifetime and Book preference. */
   _clearLandCardOnly() {
-    this._landReadOwner = null;
     this._landQ = null; this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
     this._landClockEl = null; // the bar dies with the card; a still-armed window rebinds on rebuild
     // The truth for a destroyed surface must not linger: `this._mc` is what a keypress grades
@@ -14936,11 +14924,11 @@ class Component extends DCLogic {
     // If it exceeds the available band, start at the top and move the entire column to read.
     // Expanding a video keeps the thumbnail's reservation; playback must not squash the deck.
     const film = this._landFilmEl;
-    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : film.offsetHeight) : 0;
+    const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : Math.ceil(film.getBoundingClientRect().height)) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
-    const available = Math.max(80, (window.innerHeight || 800) - bottom - filmSpace - 16);
-    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : NG_LAND_DECK_MIN_H, available) + "px";
-    this._landOverflow = Math.max(0, el.offsetHeight - available);
+    const available = (window.innerHeight || 800) - bottom - filmSpace - 16;
+    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : NG_LAND_DECK_MIN_H, Math.max(80, available)) + "px";
+    this._landOverflow = Math.max(0, Math.ceil(el.getBoundingClientRect().height - available));
     el.style.setProperty("bottom", (bottom - this._landOverflow) + "px", "important");
     stack.style.left = cs.left;
     stack.style.width = el.offsetWidth + "px";
@@ -15130,6 +15118,7 @@ class Component extends DCLogic {
       card = null;                                     // ask nothing until the pool is resident
       warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
+    this._queueReader(node, this._landPerspSide(node));
     const readVisible = this._layerOn("card") || this._layerOn("film");
     const info = readVisible ? this.ngContentFor(node) : null;
     const filmClips = this._layerOn("film") ? this._landFilmClips(node, info) : null;
@@ -15369,75 +15358,50 @@ class Component extends DCLogic {
     this._syncDetailDim();
     return el;
   }
-  /** Build the More surface as a sibling of the timed card — ONLY when this state has
-   * something behind More (`_landMoreHTML` non-empty; owner v1.102.0: "if there is nothing to
-   * show by clicking More then don't show the More"). Collapsed, it is the measured row below the
-   * dealt hand holding the More pill and nothing else (v1.175.0 — the familiarity count moved
-   * into the timed card's corner, `_landCardChrome`). Expanded, this same element becomes the
-   * long, unclipped second card of the reading column (`expandLandCard`). `_landCardChrome` is
-   * shared by ordinary and panic cards, so `side` must travel with it for defender content. */
-  _renderLandMore(node, side) {
-    this._clearLandMore();
-    const sections = this._landMoreSections(node, side);
-    if (!sections.length) return;
-    const moreRow = document.createElement("div");
-    moreRow.className = "ng-landmore";
-    // THE HEAD IS NAMED, AND EVERY LOOKUP RESOLVES BY ATTRIBUTE (v1.194.0). It used to be
-    // `row.firstChild.firstChild` in expandLandCard — put anything beside the button and that
-    // expression returns the wrapper, and the `textContent` write below it deletes the button
-    // AND the contents row. Reproduced during review: 0 buttons and 0 navs survived opening.
-    // THE HEAD IS TWO BARS, AND THE INNER ONE IS THE ONE THAT PINS (v1.194.1). The OUTER bar
-    // owns the row's 38px and the collapsed dock's `translateX(90px)`; the INNER bar owns the
-    // counter-translate that holds the contents row still while the document travels under it
-    // (`_readPin`). It cannot be one element: `helmet.html:243` writes `transform:none!important`
-    // on `.ng-landmore.open > div:first-child` — that is what clears the collapsed dock's nudge
-    // when the fold opens — and an `!important` stylesheet declaration beats an inline style.
-    // WHAT PUTS THE FLOATING HEAD IN FRONT OF THE PROSE is the inner bar's own transform: a
-    // transformed element makes a stacking context and paints as if positioned at z-index 0,
-    // above the body's in-flow content. NOT the outer bar's `position:relative` — dropping that
-    // was tried as a mutant and the mouse gate stayed green, so it is not what carries this.
-    moreRow.innerHTML = '<div class=r-bar data-read-bar><div class=r-pin data-read-pin><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div></div>' +
-      '<div id="ng-land-more" data-land-more-body role="region" aria-label="More about this state" tabindex="0" style="display:none;outline-offset:4px;"></div>';
-    const moreHead = moreRow.querySelector("[data-read-bar]"), more = moreRow.querySelector("[data-land-more]");
-    moreHead.style.cssText = "position:relative;height:38px;" + NG_READ_BAR_CSS;
-    // Held on the element, not on `this`: the row is rebuilt whenever the seat changes, and a
-    // cached node on the app outlives the row it was read from.
-    moreRow._ngPin = moreRow.querySelector("[data-read-pin]");
-    moreRow._ngPin.style.cssText = "flex:1 1 auto;min-width:0;" + NG_READ_BAR_CSS;
-    moreRow.querySelector("[data-land-more-body]")._ngMoreSections = sections;
-    // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
-    more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
-    this._landMoreAlign(more, false);   // shut: centred by the bar. Open: `expandLandCard` right-aligns it.
-    more.onclick = (e) => {
-      e.stopPropagation(); this.expandLandCard();
-      if (e.detail === 0 && this._landOpen) moreRow.querySelector("[data-land-more-body]").focus({ preventScroll: true });
-    };
-    // ONE DELEGATED LISTENER on the row itself. The row is already in `_landSurfaces()`, so
-    // `attachInput`'s pointerdown guard covers everything inside it — a control on a NEW
-    // root-plane sibling would be dead to a real mouse while `locator.click()` still passed.
-    // The buttons also carry `pointer-events:auto` inline, because the row rests at "none".
-    moreRow.addEventListener("click", (e) => {
-      const t = e.target && e.target.closest && e.target.closest("[data-read-to]");
-      if (!t) return;
-      e.stopPropagation();
-      this._navJump(t.getAttribute("data-read-to"));
-    });
-    this.wrapRef.current.appendChild(moreRow);
-    this._landMoreEl = moreRow;
-    this._readTouch(moreRow);   // a phone reads by dragging the card it is reading
+  // The deferred reader owns a page, never the question DOM. Automatic game arrivals
+  // request it after the real hand is mounted; explicit reading creates no hand at all.
+  _queueReader(node, side) {
+    if (this._readerIntent || this._reader?.interacting || !node) return;
+    let path = this._nodeUrlPath(node.idx);
+    if (path && !/\/(Top|Bottom|Attacker|Defender)$/i.test(path))
+      path += "/" + (node.ty === "positions" ? (this.playerRole === "bottom" ? "Bottom" : "Top") : (side === "defender" ? "Defender" : "Attacker"));
+    const request = this._readerQueued = { path: this._readerInitialPath || path };
+    requestAnimationFrame(() => setTimeout(() => {
+      if (this.__ngDestroyed || this._readerIntent || this._reader?.interacting || request !== this._readerQueued) return;
+      if (!this.optionsRef.current?.querySelector("[data-tech]") && !this._urlSeeded) return;
+      this._readerInitialPath = null;
+      this._readArticle(request.path, false, false);
+    }, 0));
   }
-  /**
-   * SHARED CARD CHROME. The question card owns only its top-right corner: capture, the
-   * card-layer ✕, and under them the deck count. `_renderLandMore` creates the fuller reading
-   * surface beside it. Keeping both calls in this helper makes the ordinary landing and panic
-   * drill share one anatomy without putting the More body back inside either timed card.
-   *
-   * `side` picks the perspective the sibling reads from: a technique's defending seat uses its
-   * authored DEFENDER block (see `_landMoreHTML`).
-   */
+  _readArticle(path, intent = true, push = true) {
+    if (!path) return;
+    if (intent) {
+      this._readerIntent = true;
+      this._declineLandQ("reading");
+      this._leaveRollForReference();
+      this.setDeckOpen(false);
+    }
+    const request = this._readerRequest = { path, intent, push };
+    if (!this._readerLoad) this._readerLoad = import(this._appAsset("reader.js") + (this._readerRetry ? "&retry=" + this._readerRetry : ""))
+      .then((m) => { if (!this.__ngDestroyed) return m.installReader(this); })
+      .catch((error) => {
+        this._readerLoad = null; this._readerRetry = (this._readerRetry || 0) + 1;
+        console.warn("[reader] load failed", error);
+        if (this.__ngDestroyed) return;
+        const r = this._readerRequest, card = this.modalCardRef.current;
+        card.innerHTML = '<p style="padding:20px" role="alert">Reading could not load. Please try again.</p>';
+        const retry = this.segBtn("Retry reading", true, false, () => { this.closeModal(); this._readArticle(r.path, r.intent, r.push); });
+        retry.setAttribute("data-reader-load-retry", ""); card.append(retry); this.openModal();
+      });
+    return this._readerLoad.then(() => {
+      if (!this.__ngDestroyed && request === this._readerRequest) return this._reader?.open(request);
+    });
+  }
+
+  /** Question chrome has its own lifetime; panic cards also request the full
+   * defender article, independently of the question and deferred dossiers. */
   _landCardChrome(el, node, key, side) {
-    this._landReadOwner = { node, side, card: el, key: node.ty === "positions" ? this.deckKeyFor(node).key : node.t };
-    this._renderLandMore(node, side);
+    if (el.hasAttribute("data-panic")) this._queueReader(node, side);
     // The question card owns its close button and deck count. The capture star belongs
     // to the graph's seat label, and remains available when this card is hidden.
     const corner = document.createElement("div");
@@ -16070,7 +16034,10 @@ class Component extends DCLogic {
    * inside a scrollport. If it would climb off the top it pins to a 16px inset instead.
    */
   // ═══ THE THREE BOTTOM LAYERS (v1.171.0) — see NG_LAYER_KEYS for the design ═══════════════════
-  _layerOn(name) { const k = NG_LAYER_KEYS[name]; return !k || this.get(k, true) !== false; }
+  _layerOn(name) {
+    const k = NG_LAYER_KEYS[name];
+    return !k || this.get(this.get("readingFocus", false) ? "reading" + k.slice(4) : k, true) !== false;
+  }
   /** A put-away hand stays away, CAUGHT OR NOT (v1.171.1, owner — a Defender URL arrival with
    *  only the videos on showed the escape tray: "if I didn't ask to see outcomes don't show them
    *  to me"). v1.171.0 forced the escapes visible under attack on the theory that hiding the
@@ -16082,7 +16049,7 @@ class Component extends DCLogic {
     if (!NG_LAYER_KEYS[name]) return false;
     on = on !== false;
     if (this._layerOn(name) === on) return false;
-    this.set(NG_LAYER_KEYS[name], on);
+    this.set(this.get("readingFocus", false) ? "reading" + NG_LAYER_KEYS[name].slice(4) : NG_LAYER_KEYS[name], on);
     this.fx("land_layer", { layer: name, on: on, src: src || "api" });
     // A layer toggle invalidates the cached teardown framing; the next frame measures
     // the newly docked surfaces, including any space this toggle has freed.
@@ -16138,13 +16105,31 @@ class Component extends DCLogic {
    *  the tray's slot (the screen the player asked back). ONE seam (§6.5) for the three dockers
    *  that each used to carry their own `TRAY_BOTTOM = 84`. */
   _landDatum() {
-    const TRAY_BOTTOM = 84; // matches .ng-optionrow's own `bottom` in xdc-template.html
+    // Reserve the preview before its deferred module arrives, so loading prose
+    // does not move an already-dealt hand or its camera target. The shelf's cold
+    // footprint is its six fixed buttons + gaps/padding; the reader measures it
+    // once mounted. Both paths measure the same existing bottom chrome.
+    const W = this.W || 1200, H = this.H || 800, center = this._paneLayout().center;
+    const half = (W <= 640 ? 318 : 360) / 2;
+    const cold = this.get("readerBook", true) ? this._readerShelfBottom({ left: center - half, right: center + half }) + 78 + Math.min(128, H * .15) : 84;
+    const TRAY_BOTTOM = this._reader?.trayBottom || cold;
     const row = this.optionsRef.current;
+    if (!this._reader && row && !this._readMax) row.style.bottom = TRAY_BOTTOM + "px";
     const h = row && this._handShown() ? row.getBoundingClientRect().height : 0;
     return { tray: TRAY_BOTTOM, h: h > 0 ? h : 0 };
   }
+  _readerShelfBottom(horizontal) {
+    let bottom = 12;
+    for (const el of [this.accountRef.current, this.shareCueRef.current, this.wrapRef.current.querySelector(".ng-winbar")]) {
+      if (!el || getComputedStyle(el).visibility === "hidden") continue;
+      const box = el.getBoundingClientRect();
+      if (box.height && box.top > 0 && box.left < horizontal.right && box.right > horizontal.left)
+        bottom = Math.max(bottom, (this.H || 800) - box.top + 8);
+    }
+    return Math.round(bottom);
+  }
   /** WHICH PERSPECTIVE THIS CARD SPEAKS FROM — one seam, because two callers ask it (v1.173.0).
-   *  The film picks its reel with it and `_landCardChrome` picks the block `More ▸` unfolds; when
+   *  The film picks its reel with it and the automatic article picks its guide; when
    *  the film extraction moved the expression out of renderLandCard, the chrome call was left
    *  reading a `perspSide` that no longer existed there — a ReferenceError on every landing, from
    *  a merge that compiled clean (§6.5: collapse to ONE named seam before a second caller exists).
@@ -16261,6 +16246,7 @@ class Component extends DCLogic {
    *  `_layoutLandHorizontal` (every frame, and once here so the first frame is already right),
    *  which is what keeps it under the card while the pane is open or animating (v1.196.1). */
   _renderLayerDock() {
+    if (this._reader) { this._reader.shelf(); return; }
     const wrap = this.wrapRef && this.wrapRef.current; if (!wrap) return;
     const off = NG_LAYER_ORDER.filter((l) => !this._layerOn(l));
     let dock = this._layerDockEl;
@@ -16325,7 +16311,7 @@ class Component extends DCLogic {
     else if (c) cardTop = H - parseFloat(getComputedStyle(c).bottom) - c.offsetHeight;
     else if (this._layerOn("card")) cardTop = H - 236;
     else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
-    const h = f.offsetHeight || 0;
+    const h = Math.ceil(f.getBoundingClientRect().height);
     // THE ✕ HUGS THE LAST THUMBNAIL (v1.171.1, owner: "sometimes appears far away from the last
     // video"). Measured, never a constant: 4px right of the last clip's box, top-aligned to it,
     // and clamped inside the strip when the row overflows and scrolls.
@@ -16470,7 +16456,7 @@ class Component extends DCLogic {
     // Short landscape screens use two columns: deck on the left, film and choices on the
     // right. A long question grows down into the reading column.
     if (el === this._landEl && this._compactLandDeck()) {
-      el.style.setProperty("bottom", (TRAY_BOTTOM + 12) + "px", "important");
+      el.style.setProperty("bottom", ((this._reader?.cardBottom || TRAY_BOTTOM) + 12) + "px", "important");
       this._dockLandStack();
       this._dockLandMore(el);
       return;
@@ -17447,8 +17433,8 @@ class Component extends DCLogic {
       this._trayGlideBy(row, want - row.scrollLeft);
     }
   }
-  stageRollAt(nodeIdx) {
-    this.rollFromPosition(nodeIdx, true);
+  stageRollAt(nodeIdx, roleOverride) {
+    this.rollFromPosition(nodeIdx, true, roleOverride);
     this._staged = this.currentPos;
     this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null, technique: this._stagedTech && this.nodes[this._stagedTech.idx] ? this.nodes[this._stagedTech.idx].t : null });
   }
@@ -18475,6 +18461,7 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
+    if (this._readerIntent || this._reader?.interacting) { this._declineLandQ("reading"); return; }
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
     if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
@@ -19551,8 +19538,9 @@ class Component extends DCLogic {
   /** The bottom of the band a landing will have (see `_viewRect`'s `ahead`). An exact memo for the
    *  rows it will show, else the tightest memo of any combination that includes them (an error
    *  that lifts too high, never too low), else a guess for the session's first landing at this
-   *  viewport: 19% of the height when the card or film shows, tighter than every composition
-   *  measured at 1440x900 (27.6%) and 390x844 (20.4%). Every remaining miss is a row the camera
+   *  viewport: reserve the article preview before its deferred module arrives. The phone's
+   *  full stack can start at 13% of its height; 10% leaves the landing clear during hydration.
+   *  Without the book, the original 19% reservation suffices. Every remaining miss is a row the camera
    *  could not see coming, and the lift's eased edge (`NG_CAM_EDGE_SEC`) clears it. */
   _predictBottom(ahead) {
     const W = this.W || 1200, H = this.H || 800;
@@ -19561,17 +19549,20 @@ class Component extends DCLogic {
     if (film && n) { try { film = !!this._landFilmClips(n); } catch (e) { film = true; } }
     const want = [film, this._layerOn("card"), this._handShown()];
     if (!want[0] && !want[1] && !want[2]) return H - 16;
+    // A later question can need more space than any one already measured. Keep
+    // the book's conservative reserve when forecasting the next landing.
+    const prior = (want[0] || want[1]) && this.get("readerBook", true) ? H * .1 : Infinity;
     const memo = this._bandMemo || {}, pre = W + "x" + H + "|";
     const exact = memo[pre + want.map((w) => (w ? "1" : "0")).join("")];
-    if (exact != null) return exact;
-    let best = null;
+    if (exact != null) return Math.min(exact, prior);
+    let best = Number.isFinite(prior) ? prior : null;
     for (const k in memo) {
       if (k.slice(0, pre.length) !== pre) continue;
       const rows = k.slice(pre.length);
       if (want.every((w, i) => !w || rows[i] === "1")) best = best == null ? memo[k] : Math.min(best, memo[k]);
     }
     if (best != null) return best;
-    return want[0] || want[1] ? H * 0.19 : H * 0.6;
+    return want[0] || want[1] ? H * (this.get("readerBook", true) ? 0.1 : 0.19) : H * 0.6;
   }
   /** Make room for a landing that has not mounted yet: move framing `t` the least distance that
    *  puts node `idx` (both pair members, drawn size) inside the band that landing will have. The
@@ -19741,7 +19732,7 @@ class Component extends DCLogic {
     const arriveGlide = this._arriveGlideUntil != null && this.now < this._arriveGlideUntil
       && !this.camHeld() && !this.userActiveNow();
     const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
-    const ctx = {};
+    const ctx = { holdLift: this.paused && !execution && !this.camHeld() && !this._conceptId };
     if (!this.introDone) {
       // the intro's parting overview must have landed before it hands over at 3.2s
       ctx.trackW = 3; ctx.dur = () => clamp(3.0 - el, 0.6, 1.4);
@@ -19930,9 +19921,8 @@ class Component extends DCLogic {
       const hi = fy - margin + up, dn = lf.top + sp(hi - lf.top) - hi; // >= 0: back down if it now pokes above
       want = -(up + dn) * gate;                                        // screen px; positive moves the node up
     }
-    // While the lift stays engaged its target is already continuous (a continuous pose against an
-    // eased edge), so it is followed exactly — a spring here would only add lag under a row. The
-    // spring smooths the two discontinuities left: the lift engaging and letting go.
+    // Follow small continuous lift changes exactly to avoid lag under a row. Larger changes
+    // from a newly measured band use the spring, as do engagement and release.
     const L = m.lift, was = L.on, prevWant = L.w, prevSubj = L.subj;
     L.on = !!(lf && lf.f); L.subj = lf && lf.n ? lf.n.idx : -1;
     // THE LIFT HOLDS, IT NEVER YANKS. Its target is continuous while it holds (a continuous pose
@@ -19941,13 +19931,17 @@ class Component extends DCLogic {
     // lands) — means the band-aware target is already moving the node out. So it waits until that
     // motion has the node (nearly) clear, then holds. Measured: yanking at 157-177px under the card
     // kicked 13-16px in one frame at 390x844.
-    // no jump in the target itself, and the SAME node: a landing hands the lift a new subject, whose
-    // want is a different quantity (measured: 7.4 -> 0.9px in one frame on an escape's landing)
+    // Only a new subject waits for its flight. A changed band around the current node must
+    // clear promptly; spring larger changes rather than waiting for a flight that may not exist.
     const continuous = was && L.on && L.subj === prevSubj && Math.abs(want - prevWant) < 24;
-    if (L.on && !continuous && want > 6) L.wait = true;
+    if (L.on && (!was || L.subj !== prevSubj) && want > 6) L.wait = true;
     if (L.wait) { if (!L.on || want <= 6) L.wait = false; else want = 0; }
     L.w = want;
-    if (continuous && !L.wait && (L.exact || Math.abs(want - L.o) < 1.5)) {
+    if (!lf && ctx.holdLift) {
+      // Pausing freezes the framing, including its screen-space clearance. A
+      // manual camera write adopts a fresh integrator with zero lift as usual.
+      L.v = 0;
+    } else if (continuous && Math.abs(want - prevWant) < (W <= 640 ? 4 : 12) && !L.wait && (L.exact || Math.abs(want - L.o) < 1.5)) {
       L.v = dt > 0 ? (want - L.o) / dt : 0; L.o = want; L.exact = true;
     } else {
       const LS = this._camSpring(L.o, L.v, want, 18, dt);
@@ -20155,7 +20149,7 @@ class Component extends DCLogic {
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
       for (const ov of [...this._landSurfaces(), this.optDetailRef && this.optDetailRef.current,
-        this._layerDockEl, this._handCloseEl]) {
+        this._layerDockEl, this._handCloseEl, this._readerEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();

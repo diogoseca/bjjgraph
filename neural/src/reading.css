@@ -1,4 +1,4 @@
-/* THE READING SYSTEM — the More fold and the option-detail sheet (v1.194.0)
+/* THE READING SYSTEM — complete articles and the option-detail sheet
    ============================================================================================
    WHY THIS FILE EXISTS, AND WHY IT IS NOT IN neural.css
    ============================================================================================
@@ -11,20 +11,16 @@
    smallest, dimmest text on it. Four of its colours appeared exactly once each in 17,938 lines.
 
    THIS FILE IS DELIBERATELY NOT PART OF `cssJoined` IN build.mjs. It is emitted as its own
-   artifact (`dist/reading.css` -> `static/neural/app/reading.css`), declared in
-   `check_payload_budget.py`'s DEFERRED tuple, and fetched by `_ensureReadCSS()` on the first
-   deliberate press of More — which is always after the first hand is dealt. That keeps ~237 gzip
-   bytes of rules off the eager boot payload, which matters because the eager ceiling had 196
-   bytes of headroom when this shipped.
-     - A <link> in the shell is NOT an alternative: `payload-first-hand.spec.ts`'s BANNED_ON_BOOT
-       fails on a boot-time request for this file, deliberately.
-     - Do NOT prefetch it at landing either. `app.src.jsx`'s deck-prefetch comment says it: a
-       prefetch is on the first-hand payload bill, which would defeat the whole point.
-     - build.mjs asserts BOTH halves: these rules present here AND absent from neural.css.
-       Absence alone is also satisfied by an empty file, which is why both are checked.
+   artifact (`dist/reading.css` -> `static/neural/app/reading.css`) in the DEFERRED budget.
+   `_ensureReadCSS()` runs when the deferred reader or an option detail sheet needs it. Automatic
+   game articles wait for the first real hand; reading intent creates no hand. The first-hand
+   browser gate bans this request before the hand, and build.mjs asserts that the section styles
+   are present here and absent from neural.css. Both conditions matter: an empty file passes an
+   absence-only check.
 
    ============================================================================================
-   THE SYSTEM
+   THE SECTION SYSTEM (retained for option sheets and reference study controls;
+   complete articles use the .ng-reader rules below)
    ============================================================================================
    TYPE — three sizes plus a micro tier. Both faces are already in the boot font request
    (helmet.html), so this costs no font bytes.
@@ -45,8 +41,7 @@
        #e8956b  the mistake      #7ee0a8  the correction     #ffb45a  hazard
 
    RHYTHM — 1 : 2 : 4 : 8 on u = 12px = the card's own phone side padding (helmet.html), so it is
-   a ratio of a token already on screen rather than a new number. THE TEST PINS THE RATIO, NOT
-   THE PX (e2e/journeys/landcard-more-content.spec.ts).
+   a ratio of a token already on screen rather than a new number.
        s1  3px  u/4   a term to its own second line
        s2  6px  u/2   between items in one list
        s3 12px  1u    between compound items; a title to its body
@@ -214,4 +209,91 @@
 .r-pin.pinned {
   background: #1b2034;
   box-shadow: 0 -20px 0 #1b2034, 0 14px 16px -12px rgba(0, 0, 0, .8);
+}
+
+/* The complete article has native selection, scrolling and links. Its measured
+   bottom boundary is the shelf; the browser never scrolls the fixed app wrap. */
+.ng-reader {
+  position: absolute; z-index: 5; transform: translateX(-50%);
+  box-sizing: border-box; overflow: auto; overscroll-behavior: contain;
+  touch-action: pan-y; cursor: auto; scrollbar-gutter: stable;
+  background: #1b2034; color: #d6def0; border: 1px solid #414c68;
+  border-radius: 14px; padding: 16px 20px; font-size: 16px; line-height: 1.65;
+  box-shadow: 0 12px 32px #080b1680;
+}
+.ng-reader[hidden] { display: none !important; }
+.ng-reader[data-reading-compact] { padding: 3px 8px; }
+.ng-reader h1 { font: 600 23px/1.3 "Space Grotesk", sans-serif; color: #f0f3fa; margin: 0 0 12px; }
+.ng-reader h2 { font-size: 21px; line-height: 1.4; margin: 28px 0 12px; }
+.ng-reader h3 { font-size: 18px; margin: 22px 0 10px; }
+.ng-reader p { margin: 12px 0; }
+.ng-reader a { color: #adc9ff; text-decoration: underline; text-underline-offset: 3px; }
+.ng-reader article { all: revert; display: block; color: inherit; font: inherit; overflow-wrap: break-word; }
+.ng-reader article img, .ng-reader iframe { max-width: 100%; }
+.ng-reader table { display: block; overflow-x: auto; font-size: 14px; }
+.ng-reader th, .ng-reader td { padding: 8px; border-bottom: 1px solid #414c68; }
+.ng-reader ul, .ng-reader ol { padding-left: 24px; }
+.ng-reader button { min-height: 44px; padding: 8px 10px; font: inherit; font-size: 13px; cursor: pointer; color: #e4ebfa; background: #29334d; border: 1px solid #596782; border-radius: 8px; }
+.ng-reader [data-reading-focus] { background: #344f7a; font-weight: 600; }
+.ng-reader :focus-visible, .ng-reader-shelf :focus-visible { outline: 2px solid #afcfff; outline-offset: 3px; }
+.ng-reader-head { display: block; margin: 0; position: sticky; top: -16px; background: #1b2034; z-index: 1; padding: 0 0 10px; }
+.ng-reader-tools, .ng-reader-roles { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.ng-reader-roles a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 8px; }
+.ng-reader-roles [aria-current] { font-weight: 700; background: #2c3853; border-radius: 6px; }
+.ng-reader-contents { display: flex; gap: 14px; overflow-x: auto; white-space: nowrap; margin-top: 8px; font-size: 12px; }
+.ng-reader-contents a { display: inline-flex; align-items: center; min-height: 44px; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-contents { display: none; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-roles { display: none; }
+.ng-reader:not([data-reading-expanded]) { display: grid; grid-template-columns: minmax(0, 1fr) max-content; gap: 8px; align-items: start; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-head { grid-column: 2; grid-row: 1; position: sticky; top: 0; padding-bottom: 0; }
+.ng-reader:not([data-reading-expanded]) h1 { display: none; }
+.ng-reader:not([data-reading-expanded]) [data-reader-body] { grid-column: 1; grid-row: 1; }
+/* The actual overview leads the narrow mixed view. All source nodes remain in
+   the native scrollport; reading expands them back into their authored order. */
+.ng-reader:not([data-reading-expanded]) [data-source-id="overview"] { order: -1; }
+.ng-reader:not([data-reading-expanded]) [data-source-id="overview"] > p:first-child { margin-top: 0; }
+.ng-reader:not([data-reading-expanded]) .ng-reader-tools { flex: none; }
+.ng-reader:not([data-reading-expanded]) [data-reader-browse],
+.ng-reader:not([data-reading-expanded]) [data-reader-practice] { display: none; }
+.ng-reader [data-reader-body] { outline-offset: -2px; }
+.ng-reader[data-videos="false"] [data-reader-film] { display: none; }
+.ng-reader-shelf {
+  position: absolute; z-index: 6; display: flex; gap: 4px; transform: translateX(-50%);
+  box-sizing: border-box; padding: 4px; border: 1px solid #414c68; border-radius: 12px;
+  background: #161c30; cursor: auto; touch-action: manipulation;
+}
+.ng-reader-shelf button {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 44px; min-height: 48px; width: 55px; margin: 0; padding: 4px 2px; gap: 3px;
+  border: 1px solid transparent; border-radius: 7px; background: transparent;
+  color: #b6c5df; font: 10px/1.2 "Plus Jakarta Sans", sans-serif; cursor: pointer;
+}
+.ng-reader-shelf button > span:first-child { font-size: 18px; }
+.ng-reader-shelf [aria-pressed="false"] { background: #2c3e60; color: #eff5ff; border-color: #718ab0; }
+.ng-reader-practice { position: absolute; z-index: 6; transform: translateX(-50%); min-height: 44px; border-radius: 8px; padding: 8px 14px; background: #344f7a; color: #eff5ff; border: 1px solid #718ab0; cursor: pointer; }
+.ng-reader-practice[hidden] { display: none; }
+.ng-reader-no-map > canvas, .ng-reader-no-map .ng-legendkey,
+.ng-reader-no-map [data-seat-star], .ng-reader-no-map [data-reader-map],
+.ng-reader-no-feedback .ng-evtoast, .ng-reader-no-feedback .ng-winbar,
+.ng-reader-no-feedback .ng-challenge-reward, .ng-reader-no-feedback .ng-combo-pop,
+.ng-reader-no-feedback .ng-momentum, .ng-reader-no-feedback .ng-vignette,
+.ng-reader-no-feedback .ng-tut,
+.ng-reader-no-feedback [data-reader-feedback],
+.ng-reader-active .ng-landcard, .ng-reader-active .ng-landfilm,
+.ng-reader-active .ng-landstack, .ng-reader-active [data-land-nav],
+.ng-reader-active .ng-optionrow, .ng-reader-active [data-hand-close] {
+  visibility: hidden !important;
+}
+@media (max-width: 640px) {
+  .ng-reader { padding: 14px; font-size: 16px; }
+  .ng-reader[data-reading-compact] { padding: 3px 8px; }
+  /* Keep the phone's graph and full-size answer targets clear above the book.
+     Expanded playback keeps its inline dimensions and borrows the preview. */
+  .ng-has-land-deck:has(.ng-reader:not([hidden])) .ng-landfilm .ng-clip { height: 64px !important; }
+  .ng-reader h1 { font-size: 21px; }
+  .ng-reader-head { top: -14px; }
+  .ng-reader-shelf button { width: 48px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ng-reader, .ng-reader * { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
 }

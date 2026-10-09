@@ -1,4 +1,4 @@
-import { routeSystemsDemand } from "./systems-demand-fixture";
+import { routeSystemsDemand, routeSystemArticles } from "./systems-demand-fixture";
 import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -80,6 +80,7 @@ const bootFixtures = async (page: Page, j = journey(page), data = catalog(), dos
   await j.boot("/");
   // Register after the DSL routes so authored fixtures override its intentionally empty chunks.
   await routeSystemsDemand(page, data);
+  await routeSystemArticles(page, data);
   await page.route("**/concepts.json", r => r.fulfill({ json: { concepts: [
     { id: "Principles/Fixture-Frames", key: "Fixture Frames|Principle", name: "Frames reference", cat: "Principle", nodes: [] },
   ] } }));
@@ -92,7 +93,11 @@ const bootFixtures = async (page: Page, j = journey(page), data = catalog(), dos
   await page.evaluate(() => (window as any).__neural._ensureSystems());
   return j;
 };
-const openFirst = async (page: Page) => { await openExplore(page); await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click(); };
+const openStudy = async (page: Page) => {
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  await journey(page).clickByMouse('[data-reader-practice]', 'open the optional System study controls');
+};
+const openFirst = async (page: Page) => { await openExplore(page); await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click(); await openStudy(page); };
 const referenceState = (page: Page) => page.evaluate(() => {
   const a = (window as any).__neural;
   return { ref: a._refPage, position: a.currentPos, system: a._systemId,
@@ -163,6 +168,7 @@ for (const width of [1440, 390]) {
     const targetId = await nestedRows.first().getAttribute("data-system-row");
     await nestedRows.first().scrollIntoViewIfNeeded();
     await j.clickByMouse(`[data-system-row="${targetId}"]`);
+    await openStudy(page);
     await expect(page.locator(`[data-system-detail="${targetId}"]`)).toBeVisible();
     await j.clickByMouse("[data-system-back]");
     await expect(guard).toHaveAttribute("aria-expanded", "true");
@@ -218,6 +224,7 @@ test("guide gives course identity, fit, evidence and working internal alternativ
   expect(await referenceState(page)).toMatchObject({ ref: true, position: null });
   await page.locator("[data-system-back]").click();
   await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click();
+  await openStudy(page);
   const principle = page.locator('[data-system-reference="Principles/Fixture-Frames"]');
   await principle.focus(); await page.keyboard.press("Enter");
   await expect(page.locator('[data-concept-detail="Principles/Fixture-Frames"]')).toBeVisible();
@@ -233,6 +240,7 @@ test("Explore searches stable names, display titles, aliases, instructors and co
     const row = page.locator('[data-system-row="Systems/Fixture-Octopus"]');
     await expect(row).toHaveCount(1); await expect(row).toContainText("Octopus choices");
     await row.focus(); await page.keyboard.press("Enter");
+    await openStudy(page);
     await expect(page.locator("[data-system-detail] h2")).toHaveText("Octopus choices");
     expect(await referenceState(page)).toMatchObject({ ref: true, position: null });
     await page.locator("[data-system-back]").click();
@@ -419,6 +427,7 @@ test("opening a System from scrolled search results starts at the top", async ({
   const target = '[data-system-row="Systems/Fixture-Octopus"]';
   await page.locator(target).scrollIntoViewIfNeeded();
   await j.clickByMouse(target);
+  await openStudy(page);
   await expect(page.locator('[data-system-detail="Systems/Fixture-Octopus"]')).toBeVisible();
   await expect(page.locator("[data-system-coverage]")).toBeVisible();
   await expect.poll(() => list.evaluate(el => el.scrollTop)).toBe(0);
@@ -446,6 +455,7 @@ test("index preview starts before its guide loads and survives hydration and unr
     expect(activity.sdkRequests).toBe(0);
     const row = '[data-system-row="Systems/Fixture-Octopus"]';
     await page.locator(row).scrollIntoViewIfNeeded(); await j.clickByMouse(row);
+    await openStudy(page);
     await expect.poll(() => dossierRequests).toBe(1);
     await expect(page.locator("[data-system-loading]")).toContainText("Loading guide");
     const player = page.locator("[data-system-player]");

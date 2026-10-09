@@ -849,6 +849,12 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
   const j = journey(page)
   await j.boot(AT)
   await settle(page, j)
+  // This journey measures graph labels. Use the supported minimize controls to
+  // expose the map now that a complete article occupies the former More area.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.clickByMouse('[data-layer-hide="book"]')
+  await j.clickByMouse('[data-layer-hide="card"]')
+  await settle(page, j)
 
   const WORDS: Record<string, [string, string]> = {
     positions: ["TOP", "BOTTOM"],
@@ -946,6 +952,12 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
 }) => {
   const j = journey(page)
   await j.boot(AT)
+  await settle(page, j)
+  // This journey measures graph labels. Use the supported minimize controls to
+  // expose the map now that a complete article occupies the former More area.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await j.clickByMouse('[data-layer-hide="book"]')
+  await j.clickByMouse('[data-layer-hide="card"]')
   await settle(page, j)
 
   const hoverKind = async (want: "qual" | "plain") => {

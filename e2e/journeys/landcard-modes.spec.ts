@@ -357,9 +357,10 @@ test("a technique page keeps its URL and stages the exchange, card standard @cur
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
   }
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   const a = await page.evaluate(() => {
     const app = (window as W).__neural
-    const more = document.querySelector("[data-land-more-body]") as HTMLElement | null
+    const more = document.querySelector("[data-reader-body]") as HTMLElement | null
     return {
       url: location.pathname,
       posTy: app.nodes[app.currentPos].ty,
@@ -371,7 +372,7 @@ test("a technique page keeps its URL and stages the exchange, card standard @cur
       mode: (document.querySelector("[data-landcard]") as HTMLElement | null)?.getAttribute("data-landcard"),
       header: !!document.querySelector("[data-land-id]"),
       playBtn: !!document.querySelector("[data-land-play]"),
-      folded: !more || more.style.display === "none",
+      article: !!more,
     }
   })
   // M5: the pre-v1.132.0 behaviour REWROTE the address to /Positions/Side-Control — the owner:
@@ -384,7 +385,7 @@ test("a technique page keeps its URL and stages the exchange, card standard @cur
   expect(a.mode).toBe("attempt")
   expect(a.header, "no header — position-card anatomy").toBe(false)
   expect(a.playBtn, "no 'Roll from here'").toBe(false)
-  expect(a.folded, "folded, like every landing").toBe(true)
+  expect(a.article, "the full article is already rendered beside the game").toBe(true)
   expect(a.posTy, "the seat is a real position").toBe("positions")
   expect(a.pos, "…the technique's origin").toContain("Side Control")
   expect(a.paused, "staged: clock held until play").toBe(true)
@@ -574,16 +575,17 @@ test("arriving on the defending side brings the red rush — no play button in b
     a.buildPanicCard(a.optionsRef.current, sub)
   })
   await j.advance(600)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   const d = await page.evaluate(() => {
     const a = (window as W).__neural
     const card = document.querySelector("[data-panic]") as HTMLElement
-    const more = a._landMoreEl as HTMLElement | null
+    const more = a._readerEl as HTMLElement | null
     return {
       panicKey: a._panicKey,
       mc: card.querySelectorAll("[data-panic-mc-opt], [data-panic-reveal]").length,
       close: !!card.querySelector("[data-land-close]"),
       add: !!card.querySelector("[data-list-add]"),
-      more: !!more && !card.contains(more) && !!more.querySelector("[data-land-more]"),
+      more: !!more && !card.contains(more) && !!more.querySelector("[data-reader-body]"),
       foot: !!card.querySelector("[data-land-foot]"),
       beats: (a.beats || []).map((b: any) => b.beat),
     }
@@ -591,7 +593,7 @@ test("arriving on the defending side brings the red rush — no play button in b
   expect(d.panicKey, "the drill credits the Defender deck once it lands").toMatch(/\|Defender$/)
   expect(d.beats).toContain("panic_drill_opened")
   expect(d.mc, "the question is on the table — choices, or the recall fallback").toBeGreaterThan(0)
-  expect(d.close && !d.add && d.more && !d.foot, "the drill shares close and More; capture belongs to the graph seat").toBe(true)
+  expect(d.close && !d.add && d.more && !d.foot, "the drill has a close control and an independent article; capture belongs to the graph seat").toBe(true)
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
   // capture) — the catch stays live and the escapes stay dealt
   await j.clickByMouse("[data-land-close]")

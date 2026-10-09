@@ -57,8 +57,10 @@ for (const mobile of [false, true]) {
       const j = journey(page)
       await j.boot("/Positions/Mount/Bottom")
       await j.advance(6500)
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+      await page.waitForTimeout(350) // the deferred article and card CSS use wall time
       await page.evaluate(() => document.body.getBoundingClientRect().top)
-      await j.advance(600)
+      await j.advance(2500) // finish the camera's continuous approach to the settled band
       await page.evaluate(() => (window as any).__neural.newList())
       const star = page.locator("[data-seat-star]")
       await expect(star).toHaveCount(1)
@@ -88,7 +90,7 @@ for (const mobile of [false, true]) {
       await expect(star).toHaveCSS("color", "rgb(239, 198, 109)")
       const rewardClose = page.locator("[data-reward-close]")
       if (await rewardClose.isVisible()) await rewardClose.click()
-      await page.screenshot({ path: `/tmp/favorite-${mobile ? "phone" : "desktop"}.png` })
+      await page.screenshot({ path: test.info().outputPath(`favorite-${mobile ? "phone" : "desktop"}.png`) })
 
       await j.clickByMouse("[data-land-close]", "hide the question card")
       await j.advance(500)

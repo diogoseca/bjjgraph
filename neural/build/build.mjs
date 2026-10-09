@@ -61,7 +61,7 @@ const challengeFeedbackCSS = readFileSync(
 const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
 const conceptsCSS = readFileSync(R("src/concepts.css"), "utf8");
 // THE READING STYLESHEET IS READ HERE AND DELIBERATELY NOT JOINED INTO `cssJoined` (v1.194.0).
-// It is emitted as its own artifact below and fetched on the first press of More. See the long
+// It is emitted as its own artifact below and fetched by the deferred reader. See the long
 // note at the top of src/reading.css for why, and the both-halves assertion after the emit.
 const readingCSS = readFileSync(R("src/reading.css"), "utf8");
 
@@ -448,6 +448,12 @@ await build({
   bundle: true, format: "esm", target: "es2019", minify: true, legalComments: "none",
   define: { NG_SETTINGS_UI_BUILD: JSON.stringify(SETTINGS_UI_BUILD) },
   outfile: R("dist/settings-ui.js"), logLevel: "info",
+});
+
+// Independent article renderer: requested on reading intent or after the real first hand.
+await build({
+  entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
+  minify: true, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",
 });
 
 await build({

@@ -62,7 +62,7 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 ### Landing
 
 `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray:
-**film → one three-option question → your options → More**. The timed card has no header,
+**film → one three-option question → your options → complete article**. The timed card has no header,
 footer, name or side. Top-right: card-layer ✕, then noninteractive grey `done/total` text.
 
 The star beside each graph seat label opens the list picker: outline if unsaved, gold if listed.
@@ -77,34 +77,33 @@ anatomy under the danger skin (v1.133.0), asked **above** the escape hand. The D
 question clock; the ESCAPES are untimed — expiry no longer taps you out, it reveals the drill's
 answer with no pump and the player still chooses. While caught, the field fogs to the exchange
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
-vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
+vignette. The complete linked article appears automatically below the game controls.
 
-**Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
-film row, the timed card and the hand each collapse from their own ghost ✕ and come back from a
-dock at bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed
-layer and nothing when all are open. Its centre is the column's, not the viewport's: with the
-pane open it sits under the card, as does the replay bar (`_layoutLandHorizontal`, v1.196.1). The choice is a setting — `landFilm` · `landCard` ·
-`landHand`, mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A
-collapsed card is **not built**: no question, no clock, no miss,
-`land_q_skipped {reason:"collapsed"}` (the panic drill skips the same way, `panic_skipped`);
-expanding it mid-landing asks then. A collapsed hand is **dealt and hidden** — the roll waits,
-digits are dead — escapes included (v1.173.0, owner: "if I didn't ask to see outcomes don't show
-them to me"; the catch is announced as "<name> locked in", nothing more). All three collapsed is
-a graph browser: click a node, the ripple lights what it connects to, nothing docks. `setLayer`
-is the one writer (`_applyLayers` follows a cloud pull too).
+**Reading and minimizing.** The complete published article replaces More and survives
+question replacement, grading and hiding the practice card. It uses native scrolling, 16px
+prose, perspective links and a contents row. Hubs include the full Top/Attacker guide; role pages
+include their hub context and safety. Failed loads offer Retry.
 
-**More is subordinate to the card layer.** Its pill appears only for readable content and
-opens a separate full-height card at z:90, 6px under the timed card. The question stays intact;
-the hand moves below the read. `_dockLandMore` measures that overhang (`_readMax`), and
-`_readApply` translates the whole column by `_readS`. Docks measure the home frame via
-`_readClear`; film/camera readers add `_readOffset()` back. Wheel and touch scroll the column;
-the final offset brings the hand home. No nested scrollport or height cap.
+The labeled shelf exposes Videos, Practice questions, Moves, Map, Game feedback and Book.
+Targets are at least 44px; the shelf clears corner controls and follows the article beside Browse. `landFilm`, `landCard`, `landHand`, `landMap` and
+`landFeedback` store normal visibility; `readerBook` stores article visibility. A hidden
+question is not built, while a hidden game hand remains dealt and untimed.
 
-More builds its seat-specific body on opening. Aliases retain family attribution; submission
-safety is complete. Focused reading keys: arrows, Page Up/Down, Space and Home/End. Escape returns
-focus to More. Less, background dismissal and a move close the read and return only its owned
-pause. Hiding the card removes More; restoring it starts folded. Content arrival preserves the
-question. See [Reading delivery](Architecture.md#reading-delivery) for sections and loading rules.
+**Focus on reading** is one action. It persists `readingFocus` and scalar `readingFilm`,
+`readingCard`, `readingHand`, `readingMap`, `readingFeedback` overrides, leaving game preferences
+intact. Only Focus reapplies the preset; navigation, reload and cloud merge retain individual
+restores. Restoring parts or leaving Focus starts no roll. Practice stages the current technique
+or opens reference study controls; it is also offered when Book is hidden and practice restored.
+
+Browse and article links enter reading intent: no position, hand, stage or timed question.
+Direct content arrivals use the named `NG_READING_DEFAULT_ON_CONTENT_URL` switch only when no
+Focus preference exists; it remains false pending the owner. Principle, Learning, System and
+content-only pages always read. A fresh playable game landing still displays its complete article.
+Automatic rendering never pauses a move; scrolling, selecting or focusing the article declines
+the question without a miss and takes reading ownership. Native reading keys cannot grade the
+question. Escape closes an overlaid pane without discarding the article.
+
+See [Reading delivery](Architecture.md#reading-delivery) for source identity and payload ownership.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
@@ -148,9 +147,8 @@ start. `roll_staged` carries a `technique` prop when an exchange is staged; the 
 
 The corner's sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture;
 the count opens nothing — the pane's Last rolls tab is the study route. The panic drill is a
-landing card on the same seam (`_landCardChrome`): its More reads the submission's DEFENDER
-block, while `✕` hides the card layer and the catch and escapes stay
-live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
+landing card on the same seam (`_landCardChrome`): its independent article reads the submission's
+Defender guide, while `✕` hides the question and the catch and escapes stay live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -577,8 +575,8 @@ drawn inside a node at any zoom; zoom changes how many nodes you can see, never 
 One pane, anchored left, 360px, opened by the logo. Three tabs: **Explore · Challenges · Last
 rolls**.
 
-The card, videos, More and camera shift beside the pane with the choices. Readable widths stay
-fixed; overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
+The card, videos, article and camera shift beside the pane with the choices. The article fits
+the free width; game-control overlap paints beneath the pane. Phones retain the overlay drawer, and short landscape
 retains its two columns. Closing restores the layout without resetting the card or reading position.
 
 **Pane law: the pane is manual-only.** Nothing in the roll loop opens or closes it. **Open = the
@@ -588,7 +586,7 @@ because several study entry points assign `deckOpen` directly. A hand-paused rol
 
 Every pauser owns its own latch — `_landAutoPaused`, `_paneAutoPaused`, `_replayAutoPaused`,
 `_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
-still-open pane, More read or replay.
+still-open pane or replay. Reading intent retires the roll until explicit Practice.
 
 On a phone the pane is an 88vw drawer and **is** the screen, so closing it is how you look at the
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the
@@ -835,7 +833,7 @@ number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
 grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
-`_dockLandFilm` and `_dockLandMore` place the landing surfaces from it (the hand ✕ docks inside
+`_dockLandFilm` place the game surfaces from it; the reader measures its shelf (the hand ✕ docks inside
 the row beside its last card; the film ✕ off the last thumbnail). `_bandBot` keeps the tightest
 observed play band.
 
@@ -850,7 +848,7 @@ and focus-visible states belong in CSS, never JS hover painting, which cannot ex
 **A row of tabs never decides its panel's width** (v1.196.1). Settings' tabs are one declared list
 (`NG_SETTINGS_TABS`), rendered as a real tablist by `_settingsTabRow`. ←/→ wrap and Home/End jump,
 each selecting on arrival, and none of these keys reaches `_onKey`. Opening Settings focuses the
-active tab, and Esc still closes it. The row is the More fold's single scrolling row: all five tabs
+active tab, and Esc still closes it. The tabs use one scrolling row: all five tabs
 fit the 440px card, and a phone scrolls, centring the active tab. An edge fade (`data-fade`) dims
 a side only while a tab is hidden past it. A new tab row copies this, not the pane's fixed
 three-column grid, which cannot take a sixth tab.

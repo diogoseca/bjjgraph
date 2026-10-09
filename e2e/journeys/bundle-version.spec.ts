@@ -90,9 +90,11 @@ test("@curated the loader requests the bundle under the deploy's build stamp, ne
 
 test("@curated the app's deferred reference sheet is keyed on the bundle's own version", async ({ page }) => {
   const requested = await watch(page)
-  // A Principle page loads the concepts index, and with it reference.css (_ensureConcepts).
+  // Reading opens the complete article; Practice requests the reference study sheet.
   const sheet = page.waitForRequest((r) => /\/app\/reference\.css/.test(r.url()), { timeout: 60_000 })
   await page.goto("/Principles/Frames", { waitUntil: "load" })
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await page.locator("[data-reader-practice]").click()
   await sheet
   const vs = versioned(requested, "reference.css")
   expect(vs.length, "reference.css was never requested with ?v=").toBeGreaterThanOrEqual(1)
