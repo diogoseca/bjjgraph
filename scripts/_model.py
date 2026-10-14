@@ -61,7 +61,7 @@ MODELS_ENV = ROOT / "models.env"
 # are the "don't crash the nightly bot" floor.
 TIERS: dict[str, tuple[str, str]] = {
     "default": ("BJJ_CLAUDE_MODEL", "claude-opus-5-5"),
-    "deep": ("BJJ_CLAUDE_MODEL_DEEP", "claude-fable-5"),
+    "deep": ("BJJ_CLAUDE_MODEL_DEEP", "claude-opus-5-5"),
     "fast": ("BJJ_CLAUDE_MODEL_FAST", "claude-sonnet-5"),
 }
 EFFORT_ENV, EFFORT_FALLBACK = "BJJ_CLAUDE_EFFORT", "xhigh"

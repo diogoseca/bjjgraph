@@ -10890,3 +10890,12 @@ that resolver; the deep and fast tiers and reasoning effort are unchanged.
 The offline CLI test pins the configured and missing-file paths and their agreement,
 with the environment override unset. It fails by name on the old `claude-opus-5`
 default. Verification makes no paid inference calls.
+
+## v1.224.16 — The deep model tier moves to Claude Opus 5.5 (2026-10-14)
+
+The owner's October 14 follow-up also selects `claude-opus-5-5` for the deep tier,
+in both `models.env` and the resolver's fallback. Its callers are `draft_curriculum.py`
+and `regen_mc_answers.py`; no workflow selects this tier. The default, fast tier,
+and effort keep their existing values. The offline CLI test now checks default and
+deep with and without the config file. The old deep value fails the named deep case
+while the default case stays green. Verification makes no paid inference calls.
