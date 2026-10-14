@@ -221,11 +221,23 @@ test("demoting recalled decks drops score and crowns while master-three, its rat
   })
 
   // ── DEMOTE two weighted decks card-by-card through the app's own downgrade seam. ──
-  const demoted = await page.evaluate(
-    async ({ keys, held }) => {
+  // Chromium can collect the promise returned by an async evaluate while these chunks arrive.
+  // Playwright 1.61.1 reports that CDP error as "Execution context was destroyed", even though
+  // the document never navigated. Start hydration once, poll only residency, then grade and
+  // read back synchronously: no browser promise crosses the protocol and no demotion retries.
+  await page.evaluate((keys) => {
+    void (window as any).__neural.hydrateDecks(keys)
+  }, DEMOTED)
+  await expect.poll(
+    () => page.evaluate((keys) => {
       const a = (window as any).__neural
-      // the cards to demote must be resident first (on-demand residency, v1.80.4)
-      await a.hydrateDecks(keys as string[])
+      return keys.map((k) => a.deckStatus(k))
+    }, DEMOTED),
+    { message: "both demotion decks are resident before grading", timeout: 15_000 },
+  ).toEqual(["ready", "ready"])
+  const demoted = await page.evaluate(
+    ({ keys, held }) => {
+      const a = (window as any).__neural
       const stages: number[] = []
       for (const k of keys as string[])
         for (const c of a._cardsOf(a.flashcards.decks[k]) || []) stages.push(a._bumpStage(k, c.q, -1))
