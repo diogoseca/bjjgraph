@@ -25,7 +25,7 @@ the game stops; close = it resumes, but only if the pane is what stopped it** (l
 Challenges · Last rolls.
 
 **Reference law** (owner). A **Principle, a Learning entry and a System are pages, not places.**
-Opening one — its row, or its own URL — shows its complete article,
+Opening one — its row, or its own URL — shows its complete article and lights the techniques it references while Map is shown,
 and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only through an explicit move or landing-card answer; Browse and article links read.** `_refPage`, set from the path alone in
 `_seedPageFromUrl`, is what holds the intro handoff off `startRoll()`; deciding it from the path
 rather than from the payload is deliberate, because the payload is deferred and used to lose the

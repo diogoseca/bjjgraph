@@ -83,13 +83,16 @@ test('real library waits for Explore intent, fetches only the selected record an
   const responsePromise = page.waitForResponse(response => new URL(response.url()).pathname === '/static/neural/' + recordPath);
   await activate(selectedRow);
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  expect(requests.filter(recordRequest), 'reading the article does not fetch the study record').toEqual([]);
-  await activate(page.locator('[data-reader-study]'));
+  // The selected record supplies the owner-required graph highlight on arrival.
+  // Opening Study tools must reuse it, never fetch the whole library or a second record.
   const response = await responsePromise;
   expect(response.ok()).toBe(true);
   const loadedBytes = await response.body();
   expect(sha(loadedBytes)).toBe(chosen.detailHash);
   expect(JSON.parse(loadedBytes.toString('utf8'))).toEqual(record);
+  await expect.poll(() => page.evaluate(() => (window as any).__neural._focusIdxSet?.size || 0)).toBeGreaterThan(0);
+  expect(requests.filter(recordRequest).map(url => new URL(url).pathname)).toEqual(['/static/neural/' + recordPath]);
+  await activate(page.locator('[data-reader-study]'));
   await expect(page.locator(`[data-system-detail=${JSON.stringify(chosen.id)}]`)).toBeVisible();
   const state = await page.evaluate(id => {
     const a = (window as any).__neural, s = a._systemsById[id];

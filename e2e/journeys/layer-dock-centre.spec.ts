@@ -169,7 +169,7 @@ test("@curated the dock rides the pane's open AND close animation frame by frame
   for (const [label, frames] of [["opening", opening], ["closing", closing]] as const) {
     const mid = frames.filter((g) => g.card!.c > lo && g.card!.c < hi)
     expect(mid.length, `premise: ${label} frames were sampled MID-animation`).toBeGreaterThanOrEqual(3)
-    frames.forEach((g, i) => same(g.dock?.c, g.article?.c, `${label} frame ${i}: the dock travels WITH the card`))
+    frames.forEach((g, i) => same(g.dock?.c, g.article?.c, `${label} frame ${i}: the dock travels WITH the article`))
   }
   // the close is the hard half: display:none zeroes the pane's rect on the first frame, and only
   // the width `_paneLayout` retained keeps the column (and now the dock) gliding home
@@ -188,7 +188,7 @@ test("@curated resizing with the pane open re-centres the dock with the column a
     await page.setViewportSize(vp)
     await settle(page, j)
     const g = await geo(page)
-    same(g.dock?.c, g.article?.c, `${vp.width}px after a resize with the pane open: under the card`)
+    same(g.dock?.c, g.article?.c, `${vp.width}px after a resize with the pane open: under the article`)
   }
   await j.clickByMouse('[data-layer-show="film"]', "the dock's film glyph after the resizes")
   await settle(page, j)

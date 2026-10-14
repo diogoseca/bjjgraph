@@ -565,20 +565,21 @@ test("Explore lists every authored Learning entry, and opening one opens content
     `the ${target.name} learning row`,
   );
   await expect(
-    page.locator(`[data-concept-detail="${target.id}"]`),
+    page.locator(`[data-reader-ready="true"][data-reader-path="/${target.id}"]`),
   ).toBeVisible();
 
+  await expect.poll(async () => (await litIds(page))?.length || 0).toBeGreaterThan(0);
   const s = await searchState(page);
   expect(s.exQ, "a Learning row does not run a query either").toBe("");
   expect(s.input, "and leaves the search box alone").toBe("");
   expect(s.resultsHeader, "and does not render search results").toBe(false);
 
   await expect(
-    page.locator("[data-concept-body]"),
+    page.locator("[data-reader-body]"),
     "it opens the entry's own content",
   ).toBeVisible({ timeout: 20_000 });
   expect(
-    ((await page.locator("[data-concept-body]").textContent()) || "").trim()
+    ((await page.locator("[data-reader-body]").textContent()) || "").trim()
       .length,
   ).toBeGreaterThan(400);
 
@@ -607,6 +608,8 @@ test("arriving on a principle's own page opens it and starts NOTHING @curated", 
 
   const j = journey(page);
   await j.boot("/" + target.id);
+  await expect(page.locator('[data-reader-ready="true"]')).toHaveAttribute("data-reader-path", "/" + target.id);
+  await expect.poll(() => litIds(page), { message: "URL arrival lights every referenced technique before Study tools" }).toEqual([...target.nodes].sort());
   await readerStudyTools(page, j);
 
   // concepts.json is deferred, so the arrival kicks the fetch itself and the panel opens when it
@@ -784,6 +787,17 @@ for (const viewport of [
     expect(await page.evaluate(() => (window as any).__neural.challengeProgress("white.film").done),
       "film challenge starts incomplete, so an accidental reward cannot pass vacuously").toBe(false);
     const highlighted = await litIds(page);
+    // Multiple subscribers to one deferred body must not repeatedly detach the
+    // controls. The old callback repainted this detail three times on hydration.
+    await page.evaluate(() => {
+      const w = window as any;
+      w.__conceptPaints = 0;
+      w.__conceptPaintObserver = new MutationObserver(records => {
+        for (const record of records) for (const node of record.addedNodes)
+          if (node instanceof Element && node.matches('[data-concept-detail]')) w.__conceptPaints++;
+      });
+      w.__conceptPaintObserver.observe(w.__neural.explorerListRef.current, { childList: true });
+    });
     release();
 
     const film = page.locator(`[data-concept-film="${concept.id}"]`);
@@ -798,6 +812,11 @@ for (const viewport of [
       return !!(detail.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING)
         && !!(el.compareDocumentPosition(body) & Node.DOCUMENT_POSITION_FOLLOWING);
     }), "film follows the summary and precedes the readable body").toBe(true);
+    expect(await page.evaluate(() => {
+      const w = window as any;
+      w.__conceptPaintObserver.disconnect();
+      return w.__conceptPaints;
+    }), "one deferred body replaces the summary once, preserving live controls").toBe(1);
     const widths = await film.locator(".ng-clip").evaluateAll((cards) => cards.map((card) => card.getBoundingClientRect().width));
     expect(widths[2], "longer landscape videos keep their wider thumbnails").toBeGreaterThan(widths[0]);
     const row = film.locator(".ng-cliprow");
@@ -1119,6 +1138,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await expect(page.locator('[data-reader-ready="true"]')).toHaveAttribute("data-reader-path", "/" + id);
     await expect(page.locator("[data-reader-body]")).not.toBeEmpty();
     expect(new URL(page.url()).pathname).toBe("/" + id);
+    await expect.poll(async () => (await litIds(page))?.length || 0).toBeGreaterThan(0);
     const assertIdle = async () => {
       expect(await page.evaluate(() => {
         const a = (window as any).__neural;
@@ -1135,6 +1155,7 @@ for (const category of ["Principles", "Systems", "Learning"] as const) {
     await j.clickByMouse(".ng-explorer-close"); // closing Browse must not resume the old roll
     await j.advance(12000);
     await assertIdle();
+    expect((await litIds(page))!.length).toBeGreaterThan(0);
     await page.evaluate(() => {
       const a = (window as any).__neural;
       a.stageRollAt(a.nodes.findIndex((n: any) => n.id === "Positions/Mount"));

@@ -10904,46 +10904,31 @@ while the default case stays green. Verification makes no paid inference calls.
 
 ## v1.225.0 — A reading-first way through the content (issue #289)
 
-More showed an abridged dossier, disappeared with the question card and led readers back into
-gameplay when they browsed. The replacement deferred reader uses the complete published article,
-including the selected role and shared safety, and owns its page independently of the question.
-The source DOM is cached by its original body slug; the game can change the address without
-replacing that DOM. Canonical HTML loads retain every paragraph and link. Abort plus a serial
-guard prevents a late page from replacing Back navigation. Article and module failures offer Retry.
+The deferred reader replaces More with the complete published article, independent
+of the question card. Role isolation, shared safety and guarded late responses keep
+its content correct. A labeled shelf restores six parts; Focus persists separate
+visibility settings. Content URLs select the node with dormant game controls. The
+first move or answer starts play without a Practice gate; reading never scores a
+miss. Reference arrivals light their techniques before Study tools. Videos need Play.
+The question form is a separate commit. Numeric payload limits are unchanged;
+reader.js is deferred and banned from first-hand requests. D-297's capture is reused.
 
-The labeled shelf restores Videos, Questions, Moves, Map, Feedback and Book. Focus on reading
-persists separate scalar visibility overrides, preserving the player's normal settings. Only an
-explicit Focus action reapplies the preset. OWNERQ1 sets `NG_READING_DEFAULT_ON_CONTENT_URL`
-true: content arrivals select their node with dormant controls. A move or landing-card answer
-starts play directly, without a Practice button. No question clock runs before that action.
-Reading interaction declines a live question without a miss; loading prose alone never pauses
-a move. Video frames mount only after Play and leave when Videos or Book is hidden.
+PR #298 initially ran only curated tests. Full CI found 26 core and two generated
+failures. tests/artifacts/reading_test_migration.json classifies each and maps all
+49 E2E declarations to 80 references, plus one unit rename. Generated remounts assert exact
+dormant beats; the known-red ledger stays empty. Local full-suite findings are mapped too.
 
-`_landDatum` reserves the preview before deferred assets arrive; the reader then measures the
-shelf and corner chrome. Short landscape uses separate quiz/article and hand/film columns.
-Compact thumbnails and narrow-band node fitting keep short-screen captions clear. Paused
-framing retains clearance and springs when the band changes around the same node. Existing
-motion and overlap bounds were retained.
+Review exposed hidden Map picking: Map now gates hover, picking and every gesture,
+clearing captured pointers. Real mouse tests hide, click and restore a known node.
+Camera reservations and zoom duration preserve the 1.07 bound and phone central band.
+Other fixes retain first-Finish history, clear study scroll, prevent reward interception
+and coalesce reference paints without suppressing retries. Dead More branches are gone;
+shared article renderers and tall-question overflow remain. Geometry fixtures await
+reader readiness. Fourteen isolated app mutants produced 23 assertion failures after
+21 positive controls passed; setup errors are excluded. Prior OWNERQ1 controls also
+covered seat leakage, safety, stale responses and reading-only input.
 
-Real-mouse journeys use published HTML, preserving seat isolation, complete safety, stale-response
-protection, native keys, rhythm ratios and heading hierarchy. D-297a maps all 49 removed or renamed
-declarations to 80 replacement references in `tests/artifacts/reading_test_migration.json`.
-The independent late option-sheet check remains. The DSL nonce now precedes the fragment,
-so reload keeps the requested anchor. Reader spec headers record mutation evidence and limits.
-
-The new `app/reader.js` is classified as deferred with a matching first-hand request ban. Numeric
-payload policy is unchanged; reading-ready delivery has its own observation, without pretending
-that dormant controls are active play. The separate question-form commit adds the existing question label
-and optional URL/device fields, while keeping blank issues disabled.
-
-Final static eager gzip grew 1,062 B from Phase 1, inside the approved 1,919 B room.
-Fifteen OWNERQ1 MDP-sandbox mutants produced 33 reviewed assertion failures, including the
-forbidden Practice gate, early pressure, seat leakage and narrow-band overlap. The first Inspect
-mutant run hit a sandbox path error; the corrected run failed both escape destinations. Earlier
-Back-only race mutants survived; same-reader Browse and seat races supply the guard's kills.
-Chromium, Firefox with resistFingerprinting and WebGL disabled, and no-JS fallback passed at
-both sizes. LibreWolf on Arch and external video playback were not verified.
-All 476 curated and seven additional audit cases passed without retries.
+Full core: 880 passed, 5 existing skips; generated: 101 passed. CI: 24/24; 1,260 units passed.
 
 ## v1.224.18 — Generated demotion waits for resident decks (2026-10-14)
 

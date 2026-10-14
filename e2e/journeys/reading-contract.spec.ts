@@ -16,6 +16,8 @@ import { journey } from "../dsl"
 // m36b removes Inspect Go's beginPlay: both choice-value escape journeys stay at
 // Triangle Control instead of Half Guard. m36's earlier asset-cwd failure is invalid.
 // m39 removes narrow-band fitting: the drawn caption reaches 122.6px; videos start at 98px.
+// CI298 correction controls: m45 restores the Practice gate (four reds); m46
+// removes pair fitting and fails the same film clearance across merged/split labels.
 // These controls assert UI/state contracts, not external video playback or the
 // accuracy of authored safety advice. The renderer must preserve that advice.
 const READY = '[data-reader][data-reader-ready="true"]'
@@ -42,13 +44,20 @@ test('@curated a short desktop arrival keeps the node title clear of real built 
   await j.landQuestion()
   await j.advance(6000)
   const frame = await page.evaluate(() => {
-    const a = (window as any).__neural, label = a._lastPairLabel
+    const a = (window as any).__neural, pair = a._lastPairLabel, rich = a._lastRichLabel
+    // Fitting the real video stack can merge the pair. Measure whichever naming
+    // design THIS frame drew, including its role and optional qualifier baselines.
+    const label = pair ? { idx: pair.idx, main: pair.main, role: pair.sub, focused: pair.focused, baselines: [pair.nameY, pair.subY, pair.qualY] }
+      : rich ? { idx: rich.idx, main: rich.name, role: rich.kicker, focused: rich.big, baselines: [rich.nameY, rich.roleY, rich.qualY] } : null
     const film = a._landFilmEl.getBoundingClientRect()
-    return { label, filmTop: film.top, reader: a._readerEl.getBoundingClientRect().height }
+    return { label, focus: a.focusIdx, filmTop: film.top, reader: a._readerEl.getBoundingClientRect().height }
   })
   expect(frame.label?.main, 'the frame really drew the selected node').toBe('Knee Slice Pass')
+  expect(frame.label!.idx).toBe(frame.focus)
+  expect(frame.label!.focused).toBe(true)
+  expect(frame.label!.role).toBeTruthy()
   expect(frame.reader, 'the article still has a readable preview').toBeGreaterThanOrEqual(50)
-  expect(Math.max(frame.label.nameY + 5, frame.label.subY + 5), 'the drawn title and seat stay above the real videos').toBeLessThan(frame.filmTop - 2)
+  expect(Math.max(...frame.label!.baselines.filter(Number.isFinite)) + 5, 'the drawn title, seat and qualifier stay above the real videos').toBeLessThan(frame.filmTop - 2)
   expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
 })
 

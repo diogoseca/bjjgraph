@@ -96,8 +96,12 @@ const AT = "/Positions/Side-Control/Bottom"
  * here too: every number below is a SCREEN position, and the landing card animates in. A second
  * bare `advance` does not do it; the intervening layout read is what lets a frame actually render.
  */
+const bootContent = async (page: Page, j: ReturnType<typeof journey>, path: string) => {
+  await j.boot(path)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+}
 const settle = async (page: Page, j: ReturnType<typeof journey>) => {
-  await j.advance(6000) // past the 3.2s intro
+  await j.advance(6000) // settle after the deferred reader has seated the content URL
   for (let i = 0; i < 4; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top)
     await j.advance(400)
@@ -216,7 +220,7 @@ test("@curated the pair reads as one state: both halves framed, the name on the 
   page,
 }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
 
   const g = await geometry(page)
@@ -288,7 +292,7 @@ test("@curated the hit-test reads where the orb is drawn, not where it is stored
   page,
 }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
 
   const g = await geometry(page)
@@ -360,7 +364,7 @@ test("@curated the hit-test reads where the orb is drawn, not where it is stored
 test("swapping to the other half holds the camera, and a real pan releases it", async ({ page }) => {
   test.fixme(true, "Owner deferred this disputed camera assertion for the 2026-09-11 release. It reads camTarget during card hydration; a fresh-build probe kept both nodes visible and settled within 3px. Replace with a reviewed screen-space contract before re-enabling.");
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
 
   const read = () =>
@@ -446,7 +450,7 @@ test.describe("pinch on a staged board", () => {
     page,
   }) => {
     const j = journey(page)
-    await j.boot(AT)
+    await bootContent(page, j, AT)
     await settle(page, j)
 
     const read = () =>
@@ -463,17 +467,19 @@ test.describe("pinch on a staged board", () => {
     expect(before.staged, "a URL arrival is a staged board").toBe(true)
     expect(before.free, "…whose framing tracks until the user moves the camera").toBe(true)
 
-    // BARE CANVAS: y=230 is under the announcer and above the card (top ≈ 368 at this height).
-    const hit = await page.evaluate(() => {
-      const el = document.elementFromPoint(195, 230)
-      return el ? el.tagName : "none"
+    // The reading preview changes the free band. Both fingers must start on
+    // the actual canvas, at a measured row clear across the full gesture.
+    const y = await page.evaluate(() => {
+      for (let y = 70; y < 700; y += 5)
+        if ([50, 120, 170, 195, 220, 270, 340].every(x => document.elementFromPoint(x, y)?.tagName === "CANVAS")) return y
+      return null
     })
-    expect(hit, "the pinch starts on the canvas, not on an overlay").toBe("CANVAS")
+    expect(y, "the pinch has a clear canvas row, not an overlay").not.toBeNull()
 
     const cdp = await page.context().newCDPSession(page)
     const pts = (d: number) => [
-      { x: 195 - d, y: 230, id: 0 },
-      { x: 195 + d, y: 230, id: 1 },
+      { x: 195 - d, y: y!, id: 0 },
+      { x: 195 + d, y: y!, id: 1 },
     ]
     await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: pts(25).slice(0, 1) })
     await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: pts(25) })
@@ -560,7 +566,7 @@ test("@curated hovering any pair names it once, on the midline, with the role on
   page,
 }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
 
   const o = await otherPair(page)
@@ -641,7 +647,7 @@ test("@curated hovering any pair names it once, on the midline, with the role on
  */
 test("zoomed out, a pair is one site again and the group stands down", async ({ page }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
   expect((await otherPair(page)).lodK, "split to begin with").toBeGreaterThan(0.5)
 
@@ -711,7 +717,7 @@ test("zoomed out, a pair is one site again and the group stands down", async ({ 
 test("@curated the phone frames the orb AND its name, centred together", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
 
   const block = (p: Page) =>
@@ -746,7 +752,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
   // THE WORST POSITION NAME IN THE CORPUS still fits — this is the 18-of-136 half of the fix, and
   // it is the one a constant framing could not deliver at any offset.
   await page.goto("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
-  await j.boot("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
+  await bootContent(page, j, "/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
   await settle(page, j)
   const w = await block(page)
   expect(w.labelW, "this is the widest position label in the corpus").toBeGreaterThan(200)
@@ -776,7 +782,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
   const j = journey(page)
   for (const width of [320, 360, 390]) {
     await page.setViewportSize({ width, height: 780 })
-    await j.boot("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
+    await bootContent(page, j, "/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
     await settle(page, j)
     const g = await page.evaluate(() => {
       const a: any = (window as any).__neural
@@ -812,7 +818,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
 /** ...AND DESKTOP KEEPS THE 44% READING BIAS, because there was never a problem to solve there. */
 test("desktop framing is untouched — the orb stays at the reading bias", async ({ page }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
   const m = await page.evaluate(() => {
     const a: any = (window as any).__neural
@@ -847,7 +853,7 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
   page,
 }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
   // This journey measures graph labels. Use the supported minimize controls to
   // expose the map now that a complete article occupies the former More area.
@@ -951,7 +957,7 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
   page,
 }) => {
   const j = journey(page)
-  await j.boot(AT)
+  await bootContent(page, j, AT)
   await settle(page, j)
   // This journey measures graph labels. Use the supported minimize controls to
   // expose the map now that a complete article occupies the former More area.
@@ -1027,7 +1033,8 @@ test("@curated the name and its qualifier centre on the pair, and the one-row ca
  */
 test("@curated at a wide split the role word sits at its orb, not the midline", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Mount/Top")
+  await bootContent(page, j, "/Positions/Mount/Top")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(6000)
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top)

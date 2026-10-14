@@ -33,7 +33,7 @@ export async function installReader(app) {
   const reader = app._reader = new Reader(app);
   // Game intent is explicit. Restoring a layer, closing Browse or leaving Focus is
   // deliberately absent from these lifters: none of those actions starts a roll.
-  for (const name of ["rollFromPosition", "stageRollAt", "startRoll"]) {
+  for (const name of ["rollFromPosition", "stageRollAt", "startRoll", "resetRoll"]) {
     const original = app[name];
     app[name] = function (...args) {
       if (!reader.seating) reader.leaveReading();
@@ -57,6 +57,12 @@ export async function installReader(app) {
   app.enterAttempt = function (...args) { reader.beginPlay(); return attempt.apply(this, args); };
   const apply = app._applyLayers;
   app._applyLayers = function (...args) { const result = apply.apply(this, args); reader.sync(); return result; };
+  const deck = app.setDeckOpen;
+  app.setDeckOpen = function (...args) {
+    const result = deck.apply(this, args);
+    if (!args[0] && reader.intent) reader.lightReference();
+    return result;
+  };
   for (const name of ["expandClip", "collapseClip"]) {
     const original = app[name];
     app[name] = function (...args) { const result = original.apply(this, args); reader.layout(); return result; };
@@ -137,6 +143,13 @@ class Reader {
     }
     this.abort?.abort();
     const controller = this.abort = new AbortController(), serial = ++this.serial;
+    this.reference = null;
+    if (intent && /^\/(Principles|Learning|Systems)\//i.test(path)) {
+      this.app.clearFocus();
+      this.app._exQ = "";
+      if (this.app.explorerSearchRef.current) this.app.explorerSearchRef.current.value = "";
+      this.highlightReference(path, serial);
+    }
     if (push) history.pushState({ ...history.state, ngReading: true }, "", url.pathname + url.search + url.hash);
     this.root.dataset.readerPath = path;
     this.root.dataset.readerReady = "false";
@@ -169,6 +182,23 @@ class Reader {
         button("Retry article", () => this.open({ path, intent, push: false }), { "data-reader-retry": "" }),
         element("a", { href: path, target: "_blank", rel: "noopener" }, "Open the original page in a new tab"));
     }
+  }
+  async highlightReference(path, serial) {
+    const a = this.app, id = path.slice(1), system = path.startsWith("/Systems/");
+    let record;
+    if (system) record = await a._ensureSystemRecord(id);
+    else { await a._ensureConcepts(); record = a._conceptsById?.[id]; }
+    if (!record || serial !== this.serial || a.__ngDestroyed || !this.intent) return;
+    this.reference = { record, system };
+    if (system) { a._systemId = id; a._systemRecordStatus = "ready"; }
+    else a._conceptId = id;
+    this.lightReference();
+  }
+  lightReference() {
+    if (!this.reference || !this.on("map")) return;
+    const { record, system } = this.reference, a = this.app;
+    if (system) { a._systemId = record.id; a.setFocusIdxSet(a.systemNodeIdxs(record)); }
+    else { a._conceptId = record.id; a.focusConcept(record); }
   }
   roleLinks(html, path) {
     const box = document.createElement("div"); box.innerHTML = html;
@@ -317,6 +347,9 @@ class Reader {
     if (!this.intent && !this.interacting) return;
     const a = this.app;
     this.leaveReading();
+    // A finish can clear the hand before the next tick. Record the deliberate
+    // start here so that a one-action roll is still eligible for its history.
+    a._played = true;
     a._applyLayers();
     if (a._readingDefense) a._startDefensePressure();
     a._engage();
@@ -386,7 +419,10 @@ class Reader {
     for (const ref of [a.evCenterRef, a.fxRef]) ref.current?.setAttribute("data-reader-feedback", "");
     wrap.classList.toggle("ng-reader-active", expanded && this.on("book"));
     wrap.classList.toggle("ng-reader-dormant", !!this.intent);
-    wrap.classList.toggle("ng-reader-no-map", !this.on("map"));
+    const map = this.on("map");
+    if (!map) a._cancelGraphInput?.();
+    else if (wrap.classList.contains("ng-reader-no-map")) this.lightReference();
+    wrap.classList.toggle("ng-reader-no-map", !map);
     wrap.classList.toggle("ng-reader-no-feedback", !this.on("feedback"));
     a.__ngRoot?.classList.toggle("ng-reader-no-feedback", !this.on("feedback"));
     // Static embeds and app clips never play together. The prose owns playback on
@@ -413,7 +449,8 @@ class Reader {
     // Explicit playback borrows the preview's space while the game film is open.
     // Keep the article DOM and preference, then restore its dock when playback closes.
     const playing = !expanded && a._expandedClip && a._landFilmEl?.contains(a._expandedClip);
-    this.root.hidden = !this.on("book") || !!playing;
+    const arriving = !expanded && a._arriveLabelT != null && a.now < a._arriveLabelT;
+    this.root.hidden = !this.on("book") || !!playing || arriving;
     // A preview shares the screen with the actual game stack. Preserve the deck's
     // ordinary height instead of squeezing its answers to make room for prose.
     const card = a._landEl, hand = a._handShown() ? a.optionsRef.current?.offsetHeight || 0 : 0;
@@ -435,7 +472,9 @@ class Reader {
     this.root.style.bottom = H - end - push + "px";
     this.root.style.height = height + "px";
     const previous = this.trayBottom, previousCard = this.cardBottom;
-    this.cardBottom = !this.root.hidden && !expanded ? H - end + height + 12 : 84;
+    // Hiding the preview during the arrival heading must keep its reservation.
+    // Releasing it here moves the camera's landing aim twice during one flight.
+    this.cardBottom = expanded ? 84 : H - end + 12 + ((!this.on("book") || playing) ? 0 : height);
     // Short landscape has independent columns: the article sits under the quiz
     // on the left, while the hand keeps room for its film on the right.
     this.trayBottom = compact ? 84 : this.cardBottom;

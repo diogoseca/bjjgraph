@@ -106,7 +106,8 @@ test("the question corner keeps its close button and count; capture belongs to t
   expect(m.countBelow).toBe(true);
   expect(m.hit).toBe(true);
   expect(m.stars).toBe(0);
-  await expect(page.locator("[data-seat-star]")).toBeVisible();
+  await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toHaveCount(1);
+  await expect(page.locator('[data-seat-star][data-list-add="Positions/Mount"]')).toBeVisible();
 });
 
 test("the clip hover is a hint, not a flash", async ({ page }) => {

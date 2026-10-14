@@ -583,7 +583,7 @@ game stops. Close = the game resumes, but only if the pane is what stopped it** 
 (`_paneAutoPaused`) for the whole pane, taken in `applyDeckVisibility` rather than `setDeckOpen`,
 because several study entry points assign `deckOpen` directly. A hand-paused roll stays paused.
 
-Every pauser owns its own latch — `_landAutoPaused`, `_paneAutoPaused`, `_replayAutoPaused`,
+Every pauser owns its own latch — `_paneAutoPaused`, `_replayAutoPaused`,
 `_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
 still-open pane or replay. Reading holds play until a move or landing-card answer.
 
