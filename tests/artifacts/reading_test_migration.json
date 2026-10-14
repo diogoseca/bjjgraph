@@ -1408,5 +1408,29 @@
         "mutant": "m54_nan_role_baseline"
       }
     ]
+  },
+  "deploy298_update": {
+    "reviewed_head": "32069747cb9fe9846fbdaa1decf4f748bc2de165",
+    "authority": "DEPLOY298RED; DEPLOY298RED-EVIDENCE",
+    "file": "e2e/journeys/landcard-more-content.spec.ts",
+    "original_line": 203,
+    "test": "@curated a slower article never replaces a later Browse selection in the same reader",
+    "classification": "TEST SEQUENCING RACE",
+    "contract_changed": false,
+    "cause": "Browse hydration removed a status row between measuring Mount and pointerdown. The mouse clicked Mount to Armbar; no Mount navigation had occurred, and the held Knee Slice Pass/Defender request was not released. The exact wrong click was reproduced with delayed aliases under CPU throttling.",
+    "disposition": "Await actual alias and Systems-index readiness before measuring the same real-mouse Mount selector. Preserve exact selected path, same reader identity and full guide path. Observe the old reader.open promise through its paint instead of sleeping 100 ms, then reassert both Mount path and guide.",
+    "mutant": "m55_late_article_wins",
+    "additional_full_core_findings": [
+      {
+        "file": "e2e/journeys/landcard-modes.spec.ts",
+        "original_line": 713,
+        "test": "a family-hub URL lands on the family, not on a random weighted start",
+        "classification": "TEST SEQUENCING RACE",
+        "contract_changed": false,
+        "cause": "The fixture reads _stagedTech before the deferred reader import seats the URL arrival. Advancing simulated time does not await that import. Delaying the actual reader module by 250 or 1000 ms reproduces the null stage at both normal and 4x CPU speed.",
+        "disposition": "Await the visible reader-ready signal before the same 6000 ms frame pump. Retain the original Kimura-family regex and paused-state assertions unchanged.",
+        "mutant": "m56_family_hub_wrong_family"
+      }
+    ]
   }
 }

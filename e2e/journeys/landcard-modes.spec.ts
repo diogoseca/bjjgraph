@@ -83,6 +83,7 @@ import { journey } from "../dsl"
  *        recognise-first progression — the owner's Americana report)         → journey 5b
  *   M9 — the option-label pass draws over the focused pair (printed twice)   → journey 5
  *   M10 — the film ignores perspective-nested clips (technique film lost)    → journey 5
+ *   m56_family_hub_wrong_family — a hub stages outside its family           → journey 8
  */
 
 test.use({ hasTouch: true })
@@ -713,6 +714,8 @@ test("a staged technique's own card is the go — highlighted, then committed in
 test("a family-hub URL lands on the family, not on a random weighted start", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Submissions/Kimura")
+  // The deferred reader seats URL arrivals; pumping simulated time cannot await its import.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
   await j.advance(6000)
   const a = await page.evaluate(() => {
     const app = (window as W).__neural
