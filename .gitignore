@@ -29,6 +29,10 @@ Thumbs.db
 *.swo
 *~
 
+# Obsidian workspace state contains open tabs and recent files for each device.
+/content/.obsidian/workspace.json
+/content/.obsidian/workspace-mobile.json
+
 # Logs
 logs/
 *.log

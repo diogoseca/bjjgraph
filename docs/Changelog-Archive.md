@@ -10890,3 +10890,16 @@ that resolver; the deep and fast tiers and reasoning effort are unchanged.
 The offline CLI test pins the configured and missing-file paths and their agreement,
 with the environment override unset. It fails by name on the old `claude-opus-5`
 default. Verification makes no paid inference calls.
+
+## v1.224.17 — Keep Obsidian workspace state local (2026-10-14)
+
+Untrack `content/.obsidian/workspace.json` and ignore both the desktop and mobile
+workspace files. Open tabs, recent files and sidebar layout belong to each device;
+opening the browsing vault should not publish that state in this public repository.
+Shared vault settings and the Git plugin are unchanged. Its tracked automatic commit,
+push and pull settings are already disabled; the vault and plugin's future remain
+separate owner decisions because the Markdown content is generated from JSON.
+
+Validation also exposes the provenance guard treating excluded vault metadata as
+content input. Its existing receipt becomes stale after untracking the workspace;
+that guard/baseline contract must be reconciled before this cleanup is merged.
