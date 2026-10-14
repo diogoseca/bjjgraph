@@ -6,6 +6,9 @@ import { journey } from "../dsl"
  * journeys; the independent option-sheet late-dossier assertion remains below.
  * These tests compare against authored HTML, not a second dossier renderer.
  * MDP-sandbox mutation evidence is recorded in reading-mode.spec.ts.
+ * m55_late_article_wins removes cancellation and the serial paint guard: the
+ * same-reader Browse journey must reject the old Defender article by name.
+ * A cancellation-only control survives: the serial check still blocks its paint.
  */
 
 type Dossier = Record<string, any>
@@ -205,7 +208,16 @@ test("@curated a slower article never replaces a later Browse selection in the s
   await j.boot("/Transitions/Knee-Slice-Pass", { initialState: readingState })
   await j.advance(5000)
   await expect(page.locator(READER)).toBeVisible()
-  await page.evaluate(() => { (window as any).__racingReader = (window as any).__neural._reader })
+  await page.evaluate(() => {
+    const w = window as any, reader = w.__racingReader = w.__neural._reader
+    const open = reader.open
+    // Observe the real operation, including its paint, not just the network event.
+    reader.open = function (request: any) {
+      const done = open.call(this, request)
+      if (request.path === "/Transitions/Knee-Slice-Pass/Defender") w.__slowArticle = done
+      return done
+    }
+  })
   let release!: () => void
   const held = new Promise<void>(resolve => { release = resolve })
   let requested = false, settled = false
@@ -225,13 +237,27 @@ test("@curated a slower article never replaces a later Browse selection in the s
   await j.clickByMouse('[data-view="explore"]', "the Browse tab")
   await expect(page.locator(".ng-explorer-search input")).toBeVisible()
   await page.locator(".ng-explorer-search input").fill("Mount")
+  // Alias/Systems hydration rebuilds these rows. In the failed dev deploy it
+  // moved Mount's measured centre onto Mount to Armbar before pointerdown. Wait
+  // for both actual payloads before measuring; keep the real mouse and exact ID.
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural
+    return !!a._aliasesReady && a.systems?.length > 0 && !a._systemsLoading
+  }), { message: "Browse hydration finishes before measuring the Mount row" }).toBe(true)
+  await expect(page.locator("[data-alias-status], [data-systems-status]")).toHaveCount(0)
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child')
   await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
   expect(await page.evaluate(() => (window as any).__racingReader === (window as any).__neural._reader), "both navigations use the same live reader").toBe(true)
   release()
   await expect.poll(() => settled).toBe(true)
-  await page.waitForTimeout(100)
-  await expect(page.locator('[data-reader-article="guide"]')).toHaveAttribute("data-source-path", "/Positions/Mount/Top")
+  await page.evaluate(async () => {
+    const done = (window as any).__slowArticle
+    if (!done) throw new Error("The held Defender article must have a real reader operation")
+    await done
+  })
+  await expect(page.locator(READER)).toHaveAttribute("data-reader-path", "/Positions/Mount")
+  await expect(page.locator('[data-reader-article="guide"]'), "the completed old Defender request cannot repaint the later Mount selection")
+    .toHaveAttribute("data-source-path", "/Positions/Mount/Top")
 })
 
 test("@curated a failed reader module remains retryable without substituting another page", async ({ page }) => {

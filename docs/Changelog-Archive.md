@@ -10904,33 +10904,32 @@ while the default case stays green. Verification makes no paid inference calls.
 
 ## v1.225.0 — A reading-first way through the content (issue #289)
 
-The deferred reader replaces More with the complete article. Role isolation, shared
-safety and guarded late responses keep it correct. A labeled shelf restores six parts;
-Focus persists separate visibility settings. Content URLs select the node with dormant game controls. The
-first move or answer starts play without a Practice gate; reading never scores a
-miss. Reference arrivals light techniques before Study tools. Videos need Play.
-The question form ships separately. Payload limits stay fixed; reader.js
-is deferred and banned from first-hand requests. D-297's capture is reused.
+The deferred reader replaces More with complete articles, role isolation, shared
+safety and stale guards. Six controls restore hidden parts; Focus persists. Content
+arrivals are dormant; moves and answers start play without a Practice gate. Reading
+never scores a miss. References light techniques. The Question form ships separately.
+Payload limits stay fixed; reader.js is deferred and banned from first-hand requests.
+D-297's capture is reused.
 
-Curated missed 26 core and two generated CI failures.
-reading_test_migration.json classifies them and maps all 49 removed/renamed E2E
-declarations to 80 references, plus one unit rename. Generated remounts assert exact
-dormant beats; the known-red ledger stays empty.
+Full CI found 26 core and two generated failures missed by curated. The migration
+record maps 49 E2E declarations to 80 references, plus one unit rename. Generated
+remounts assert exact dormant beats; no known reds. Map gates input and clears captures.
+Camera fixes preserve 1.07 and phone bounds. Dead More code is gone; shared renderers
+remain. Fourteen mutants produced 23 assertion failures. CI298B waits for reader/camera
+readiness. S3 requires finite title/role coordinates with +5 and filmTop - 2; the NaN
+role mutant kills the corrected oracle. Full core: 880 passed, 5 existing skips;
+generated: 101 passed; CI: 24/24, 1,260 units.
 
-Map now gates hover, picking and gestures, clearing captured pointers. Real mouse
-journeys hide, click and restore a known node. Camera reservations and zoom duration
-preserve the 1.07 bound and phone central band. Fixes also retain first-Finish history,
-clear study scroll, prevent reward interception and coalesce reference paints without
-suppressing retries. Dead More branches are gone; shared renderers and tall questions remain.
-Fourteen isolated mutants produced 23 assertion failures after 21 positive controls.
+## v1.225.1 — Await Browse hydration before the stale-reader mouse journey
 
-CI298B exposed two remaining arrival races: wait for the deferred reader before
-pumping; require camera/animation completion before measuring the unchanged <0.1 zoom.
-S3 requires finite title/role coordinates; only an absent qualifier is omitted.
-The +5 descent and filmTop - 2 clearance remain. m54_nan_role_baseline survives the
-old oracle and fails the corrected required-role assertion by name.
-
-Full core: 880 passed, 5 existing skips; generated: 101 passed. CI: 24/24; 1,260 units passed.
+Deploy 38624002553 failed before releasing the old Knee Slice Pass/Defender request:
+late Browse hydration moved Mount's measured centre onto Mount to Armbar. The mouse selected
+that row; no stale reader painted. Await alias and Systems-index readiness before
+measuring the same Mount selector. Await the old reader operation through its paint
+instead of 100 ms, then require the exact Mount path and Top guide. Isolated mutant
+m55_late_article_wins removes abort and serial guards and must fail the named stale
+paint assertion. App source and numeric bounds are unchanged.
+Family URLs await reader readiness; m56_family_hub_wrong_family fails the unchanged family check.
 
 ## v1.224.18 — Generated demotion waits for resident decks (2026-10-14)
 
