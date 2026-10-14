@@ -10904,29 +10904,31 @@ while the default case stays green. Verification makes no paid inference calls.
 
 ## v1.225.0 — A reading-first way through the content (issue #289)
 
-The deferred reader replaces More with the complete published article, independent
-of the question card. Role isolation, shared safety and guarded late responses keep
-its content correct. A labeled shelf restores six parts; Focus persists separate
-visibility settings. Content URLs select the node with dormant game controls. The
+The deferred reader replaces More with the complete article. Role isolation, shared
+safety and guarded late responses keep it correct. A labeled shelf restores six parts;
+Focus persists separate visibility settings. Content URLs select the node with dormant game controls. The
 first move or answer starts play without a Practice gate; reading never scores a
-miss. Reference arrivals light their techniques before Study tools. Videos need Play.
-The question form is a separate commit. Numeric payload limits are unchanged;
-reader.js is deferred and banned from first-hand requests. D-297's capture is reused.
+miss. Reference arrivals light techniques before Study tools. Videos need Play.
+The question form ships separately. Payload limits stay fixed; reader.js
+is deferred and banned from first-hand requests. D-297's capture is reused.
 
-PR #298 initially ran only curated tests. Full CI found 26 core and two generated
-failures. tests/artifacts/reading_test_migration.json classifies each and maps all
-49 E2E declarations to 80 references, plus one unit rename. Generated remounts assert exact
-dormant beats; the known-red ledger stays empty. Local full-suite findings are mapped too.
+Curated missed 26 core and two generated CI failures.
+reading_test_migration.json classifies them and maps all 49 removed/renamed E2E
+declarations to 80 references, plus one unit rename. Generated remounts assert exact
+dormant beats; the known-red ledger stays empty.
 
-Review exposed hidden Map picking: Map now gates hover, picking and every gesture,
-clearing captured pointers. Real mouse tests hide, click and restore a known node.
-Camera reservations and zoom duration preserve the 1.07 bound and phone central band.
-Other fixes retain first-Finish history, clear study scroll, prevent reward interception
-and coalesce reference paints without suppressing retries. Dead More branches are gone;
-shared article renderers and tall-question overflow remain. Geometry fixtures await
-reader readiness. Fourteen isolated app mutants produced 23 assertion failures after
-21 positive controls passed; setup errors are excluded. Prior OWNERQ1 controls also
-covered seat leakage, safety, stale responses and reading-only input.
+Map now gates hover, picking and gestures, clearing captured pointers. Real mouse
+journeys hide, click and restore a known node. Camera reservations and zoom duration
+preserve the 1.07 bound and phone central band. Fixes also retain first-Finish history,
+clear study scroll, prevent reward interception and coalesce reference paints without
+suppressing retries. Dead More branches are gone; shared renderers and tall questions remain.
+Fourteen isolated mutants produced 23 assertion failures after 21 positive controls.
+
+CI298B exposed two remaining arrival races: wait for the deferred reader before
+pumping; require camera/animation completion before measuring the unchanged <0.1 zoom.
+S3 requires finite title/role coordinates; only an absent qualifier is omitted.
+The +5 descent and filmTop - 2 clearance remain. m54_nan_role_baseline survives the
+old oracle and fails the corrected required-role assertion by name.
 
 Full core: 880 passed, 5 existing skips; generated: 101 passed. CI: 24/24; 1,260 units passed.
 

@@ -18,6 +18,8 @@ import { journey } from "../dsl"
 // m39 removes narrow-band fitting: the drawn caption reaches 122.6px; videos start at 98px.
 // CI298 correction controls: m45 restores the Practice gate (four reds); m46
 // removes pair fitting and fails the same film clearance across merged/split labels.
+// m54_nan_role_baseline makes the required role coordinate NaN: it must fail by
+// name before the clearance calculation, never disappear from its measurements.
 // These controls assert UI/state contracts, not external video playback or the
 // accuracy of authored safety advice. The renderer must preserve that advice.
 const READY = '[data-reader][data-reader-ready="true"]'
@@ -47,8 +49,8 @@ test('@curated a short desktop arrival keeps the node title clear of real built 
     const a = (window as any).__neural, pair = a._lastPairLabel, rich = a._lastRichLabel
     // Fitting the real video stack can merge the pair. Measure whichever naming
     // design THIS frame drew, including its role and optional qualifier baselines.
-    const label = pair ? { idx: pair.idx, main: pair.main, role: pair.sub, focused: pair.focused, baselines: [pair.nameY, pair.subY, pair.qualY] }
-      : rich ? { idx: rich.idx, main: rich.name, role: rich.kicker, focused: rich.big, baselines: [rich.nameY, rich.roleY, rich.qualY] } : null
+    const label = pair ? { idx: pair.idx, main: pair.main, role: pair.sub, focused: pair.focused, titleY: pair.nameY, roleY: pair.subY, qualifier: pair.qual, qualY: pair.qualY }
+      : rich ? { idx: rich.idx, main: rich.name, role: rich.kicker, focused: rich.big, titleY: rich.nameY, roleY: rich.roleY, qualifier: rich.qual, qualY: rich.qualY } : null
     const film = a._landFilmEl.getBoundingClientRect()
     return { label, focus: a.focusIdx, filmTop: film.top, reader: a._readerEl.getBoundingClientRect().height }
   })
@@ -57,7 +59,16 @@ test('@curated a short desktop arrival keeps the node title clear of real built 
   expect(frame.label!.focused).toBe(true)
   expect(frame.label!.role).toBeTruthy()
   expect(frame.reader, 'the article still has a readable preview').toBeGreaterThanOrEqual(50)
-  expect(Math.max(...frame.label!.baselines.filter(Number.isFinite)) + 5, 'the drawn title, seat and qualifier stay above the real videos').toBeLessThan(frame.filmTop - 2)
+  expect(Number.isFinite(frame.label!.titleY), 'the required title baseline is finite').toBe(true)
+  expect(Number.isFinite(frame.label!.roleY), 'the required role baseline is finite').toBe(true)
+  const baselines = [frame.label!.titleY, frame.label!.roleY]
+  // The renderer publishes null only when there is no qualifier. A present word
+  // with a missing coordinate, or a non-null invalid coordinate, must fail too.
+  if (frame.label!.qualifier || frame.label!.qualY !== null) {
+    expect(Number.isFinite(frame.label!.qualY), 'the present qualifier baseline is finite').toBe(true)
+    baselines.push(frame.label!.qualY)
+  }
+  expect(Math.max(...baselines) + 5, 'the drawn title, seat and qualifier stay above the real videos').toBeLessThan(frame.filmTop - 2)
   expect(await activity(page)).toMatchObject({ intent: true, paused: true, played: false, remaining: null, beats: [] })
 })
 

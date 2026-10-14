@@ -13,6 +13,9 @@ for (const mobile of [false, true]) {
     test("both seats of each node type carry their star beside the role @curated", async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Top")
+      // Graph ingest precedes the deferred reader that seats this URL. Simulation
+      // time cannot finish that fetch: wait for the rendered article before pumping.
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
       await j.advance(6500)
       const nodes = await page.evaluate(() => {
         const a = (window as any).__neural
@@ -56,8 +59,8 @@ for (const mobile of [false, true]) {
     test("gold means saved; the seat star works after hiding the flashcard @curated", async ({ page }) => {
       const j = journey(page)
       await j.boot("/Positions/Mount/Bottom")
+      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
       await j.advance(6500)
-      await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
       await page.waitForTimeout(350) // the deferred article and card CSS use wall time
       await page.evaluate(() => document.body.getBoundingClientRect().top)
       await j.advance(2500) // finish the camera's continuous approach to the settled band

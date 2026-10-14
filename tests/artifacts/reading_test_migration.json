@@ -1371,5 +1371,42 @@
       "retired_rule": "The unreachable _landMoreHTML wrapper is removed under S2. Its empty-output assertion now calls the retained _readingSections and _readingHTML renderer directly; both existing sheet-status assertions remain.",
       "disposition": "renamed and ported to live shared renderer"
     }
-  ]
+  ],
+  "ci298b_updates": {
+    "reviewed_head": "d88743971f0b08826a6e04e9904982aac5ec8b7b",
+    "authority": [
+      "CI298B",
+      "CI298B-EVIDENCE",
+      "REVIEW298R2"
+    ],
+    "note": "Two retained tests still assumed eager URL seating or a fixed arrival duration. Readiness now precedes the simulation pump; framing waits for motion completion independently of its unchanged acceptance bounds. S3 restores required-coordinate validation in the title-clearance oracle.",
+    "tests": [
+      {
+        "file": "e2e/journeys/seat-star.spec.ts",
+        "original_line": 13,
+        "test": "both seats of each node type carry their star beside the role @curated",
+        "ci_variant": "phone seat star",
+        "classification": "STALE SPEC",
+        "disposition": "Wait for the deferred reader-ready surface before advancing simulation or dereferencing the focused seat. Keep all six seat identities, visibility, role-relative geometry, target size and card exclusion assertions. Apply the same ordering to the existing save/remove journey. A fourfold CPU slowdown plus a held reader script reproduces the undefined focused-node read in the original test."
+      },
+      {
+        "file": "e2e/journeys/url-arrival.spec.ts",
+        "original_line": 136,
+        "test": "the node it navigates to is framed clear of the landing card",
+        "classification": "STALE SPEC",
+        "disposition": "Wait for reader readiness and landing hydration before simulation, then require the camera integrator flight to end, its velocities to settle, and finite landing animations/edge motion to finish. Do not poll the desired framing. Keep zoom fraction <0.1, positive node/card clearance, and both <2 target comparisons. Under CPU throttling and delayed reader delivery the original test reads 0.1992696642448606 mid-flight."
+      }
+    ],
+    "review_fixes": [
+      {
+        "finding": "S3",
+        "file": "e2e/journeys/reading-contract.spec.ts",
+        "test": "@curated a short desktop arrival keeps the node title clear of real built videos",
+        "classification": "REAL BREAK",
+        "scope": "test oracle",
+        "disposition": "Require finite title and role coordinates before Math.max. Omit the qualifier only when its text is absent and its coordinate is the renderer's null sentinel; otherwise require a finite coordinate. Preserve +5 descent, filmTop - 2 clearance, identity, preview size and dormant-state assertions.",
+        "mutant": "m54_nan_role_baseline"
+      }
+    ]
+  }
 }

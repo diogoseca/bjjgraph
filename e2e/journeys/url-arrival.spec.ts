@@ -136,16 +136,32 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
+  // boot() waits for graph ingest, not the deferred reader's seat or styled article.
+  // Advancing first can spend all six seconds before the arrival flight even starts.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+  await j.landSettled()
   await j.advance(6000)
-  // LET THE CARD SETTLE, AND READ BETWEEN THE PUMPS. The landing card animates in: measured, its
-  // top was still at 588 on the frame the camera last aimed against and reached 376 on the next,
-  // so a camera read taken mid-settle describes nothing. A second `advance` alone is NOT enough —
-  // the intervening `arrival()` is what forces layout and lets a frame actually render between
-  // pumps (with two bare advances the reading stayed at the mid-settle value).
-  for (let i = 0; i < 3; i++) {
-    await arrival(page)
-    await j.advance(400)
-  }
+  // CSS uses wall time while the camera uses the stopped simulation clock. Poll
+  // their own completion signals, pumping between samples. Do NOT wait for the
+  // desired zoom/clearance: a settled but wrong framing must reach the assertions.
+  await expect.poll(async () => {
+    await j.advance(200)
+    return page.evaluate(() => {
+      const a = (window as Any).__neural, m = a._cm
+      const card = document.querySelector("[data-landcard]")
+      card?.getBoundingClientRect() // flush layout before observing its transitions
+      const animating = card?.getAnimations({ subtree: true }).some(animation =>
+        animation.playState !== "finished" && animation.playState !== "idle" &&
+        animation.effect?.getComputedTiming().iterations !== Infinity)
+      return {
+        flightEnded: !!m && !m.flight,
+        cameraAtRest: !!m && Math.hypot(m.v.x, m.v.y) * a.W / a.cam.vw < 0.1 &&
+          Math.abs(m.v.l) < 0.0001 && Math.abs(m.lift.v) < 0.1,
+        chromeAtRest: !!card && !animating && (!m?.edge || m.edge.t === 1),
+      }
+    })
+  }, { timeout: 15000, intervals: [50], message: "the arrival flight and landing layout finish before framing is measured" })
+    .toEqual({ flightEnded: true, cameraAtRest: true, chromeAtRest: true })
 
   const a = await arrival(page)
   expect(a.zoomFrac, "zoomed in to reading distance, not the overview").toBeLessThan(0.1)
