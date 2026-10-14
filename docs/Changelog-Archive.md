@@ -10944,3 +10944,24 @@ Back-only race mutants survived; same-reader Browse and seat races supply the gu
 Chromium, Firefox with resistFingerprinting and WebGL disabled, and no-JS fallback passed at
 both sizes. LibreWolf on Arch and external video playback were not verified.
 All 476 curated and seven additional audit cases passed without retries.
+
+## v1.224.18 — Generated demotion waits for resident decks (2026-10-14)
+
+PR #297's endgame-score journey failed inside its asynchronous hydration/demotion
+evaluation. There was no navigation: a repeat against that CI artifact recorded
+Chromium's `Promise was collected` protocol error, which Playwright 1.61.1 rewrites
+as `Execution context was destroyed, most likely because of a navigation`. The
+document and execution context survived. The unchanged spec passed 10 serial runs
+and failed 7 of 40 parallel runs under six CPU burners, always at that evaluation.
+
+The test now starts hydration once, polls the two decks' actual residency, and
+demotes and reads back synchronously. No app behavior changes and no demotion retry
+is added. All 16 stage transitions, score and crown drops, challenge ratchets,
+reward key sets and the empty economy-beat window retain their original assertions.
+
+The fixed spec passed 110 repeats: 50 serial, 50 parallel under CPU load, and 10
+under the same protocol diagnostics as the mutant. Restoring the original async
+evaluation failed the named spec in 3 of 20 loaded runs with the same raw CDP error.
+Post-failure reads found all 16 cards already at stage 2, so retrying that evaluation
+could demote them twice. The full local CI replay passed all 24 executable steps,
+including 1,260 unit tests with no skips. The generated ledger still has zero known-reds.
