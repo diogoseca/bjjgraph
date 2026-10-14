@@ -3,9 +3,9 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "314cb2cdfc2379b95e5aee51a82b45c9e64c113b",
+   "git_head": "d0101ce5af463c732fcdc0689ee5b96a94ff2efe",
    "inputs": {
-    "tree": "1aa2bd6775af2d72880a4290ca53fbc37b186dd4"
+    "tree": "ad82b2b7162b60801b84523df6abe173a99fea45"
    },
    "package_version": "1.225.0",
    "rows_from": "neural/dist",
@@ -65,21 +65,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "749f7380b1c8fc294876b5fe7d64b7fc39eea7c8c5aa2f95cb576f762badc220"
+    "sha256": "c4694894f4cb6e53d5bf60a12884b4e51e9b9c2a5412985f193da6c57cf3f283"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "747b4df8736a9848110f455639307968cb40ecc5f9bde6f3b634ee352a0fec82",
+    "sha256": "81050ee12f690801641452fe46d3f396e4b9b7cbbb80614acc392c865d4d3de1",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "204f5828dedc1ebc78ee2f1768d92ff9a55c1564961539c8e8b5871ada6cd63d",
+    "sha256": "0ed1de806b7692d0b30cc6b6235d8b26f45dd833cd5940ccc9b6ad793da4fa03",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "33e30bde7afa7af231ee9a0e1113a99c02d561ba3fd0ed7d891f9596f9cce9af",
+    "sha256": "23a593e0985782cac2673467d5ef063585fc92f1c7326377f70661daf239d1a4",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -91,21 +91,21 @@
     "sha256": "df5c7cc44b72f51be63a84b5b3e42df67bef67e448a561b176b20c0e57204f23"
    },
    "static/neural/app/neural.css": {
-    "bytes": 41201,
-    "sha256": "c82c317592daaa88c9e29bcacd2c90f3933ed5c0864aa9fd3480fb15ee8d631e"
+    "bytes": 40833,
+    "sha256": "eb801ccf8c68bee30b47c600f369dbe78022342d608ba9d610afb565af30ddcc"
    },
    "static/neural/app/neural.js": {
-    "bytes": 689269,
-    "sha256": "4d7f717cc0ff878967690069ad3c14919f911fb91512f868f52ef8d33c5985ea",
+    "bytes": 684895,
+    "sha256": "c76a2a01e070358f0e89ec7d65a6d59607da782aff011d28481f7cdd88639217",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
-    "bytes": 15389,
-    "sha256": "6a81a64ce9813b89f74d49bbb9fe9ffac62d110935e6735ea5f6b60f72ab3ded"
+    "bytes": 16507,
+    "sha256": "407022be5ecc68fe7df5c046c6dd12af142bd1d28547c0869301a5dd655b3c81"
    },
    "static/neural/app/reading.css": {
-    "bytes": 7583,
-    "sha256": "df4e7a9b9573955da5aa9ed85a1c37b419f74e2acab3ef78eff4a6a9abcf6ffe"
+    "bytes": 6733,
+    "sha256": "7ee99b55042ee543a403a30edd563bc6dcdbb1071e3a413042e4109ac902acdc"
    },
    "static/neural/app/reference.css": {
     "bytes": 15360,
