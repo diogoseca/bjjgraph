@@ -60,7 +60,7 @@ MODELS_ENV = ROOT / "models.env"
 # missing that key; they are not a second source of truth to keep in sync, they
 # are the "don't crash the nightly bot" floor.
 TIERS: dict[str, tuple[str, str]] = {
-    "default": ("BJJ_CLAUDE_MODEL", "claude-opus-5"),
+    "default": ("BJJ_CLAUDE_MODEL", "claude-opus-5-5"),
     "deep": ("BJJ_CLAUDE_MODEL_DEEP", "claude-fable-5"),
     "fast": ("BJJ_CLAUDE_MODEL_FAST", "claude-sonnet-5"),
 }
