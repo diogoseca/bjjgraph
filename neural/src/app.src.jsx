@@ -121,9 +121,9 @@ const NG_LAND_DECK_MIN_H = 236;
 //   · hand OFF  = DEALT but hidden (`_syncHandLayer`): the deal IS the roll state and its order
 //                 is frozen at deal time (§5), so expanding shows the same hand, instantly.
 //                 The ESCAPE tray obeys it too (v1.171.1, owner: nothing shows that was not asked for).
-// Owner-pending: only fresh direct content arrivals (no readingFocus preference).
-// False preserves the game landing; Browse/Read and persisted Focus always read.
-const NG_READING_DEFAULT_ON_CONTENT_URL = false;
+// OWNERQ1: content URLs select their node with dormant game controls. A move or
+// landing-card answer starts play; reading and minimizing never arm the clock.
+const NG_READING_DEFAULT_ON_CONTENT_URL = true;
 const NG_LAYER_KEYS = { film: "landFilm", card: "landCard", hand: "landHand" };
 const NG_LAYER_ORDER = ["film", "card", "hand"];
 // THE CAMERA'S MOTION (v1.219.0; see `_camStep`). Module scope, so an app built without its
@@ -657,6 +657,7 @@ class Component extends DCLogic {
     this._landAutoPaused = false; this._bgAutoPaused = false;
   }
   setPaused(p) {
+    if (!p && this._readerIntent) return; // reading/minimizing never resumes a dormant board
     if (this.paused === p) return;
     // PRESSING PLAY ENDS THE FILM. A replay holds the clock on purpose; resuming the roll under it
     // would leave two things moving the same camera and the same pulse. `stopReplay` nulls
@@ -688,6 +689,7 @@ class Component extends DCLogic {
     // rollFromPosition that starts it. Cancellation is explicit (startRoll / endRound).
     this._decision = null; this._optPick = null; this._optList = null;
     this._defendSub = null; this._panicKey = null; this._stagedDefense = null;
+    this._readingDefense = false;
     this._sweep = null; this._hitStop = null; this._shake = null;
     this.killVignette(false);
   }
@@ -5312,7 +5314,7 @@ class Component extends DCLogic {
       if (bedit) bedit.addEventListener("click", (e) => { e.stopPropagation(); bedit.style.display = "none"; if (bsteps) { bsteps.style.display = "flex"; requestAnimationFrame(() => bsteps.style.opacity = "1"); } });
       if (bdn) bdn.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, -1); bupd(); });
       if (bup) bup.addEventListener("click", (e) => { e.stopPropagation(); this.bumpCardSuccess(n, 1); bupd(); }); }
-    go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this.setPaused(false); onPick(opt); });
+    go.addEventListener("click", () => { this._setDetailCtx(null); this.hideOptDetail(); this._reader?.beginPlay(); this.setPaused(false); onPick(opt); });
     // the two actions lifted out of the head (v1.102.1) land here, on their own row above the
     // primary pair — grouped with the other things you can DO, not stacked over the name
     if (!sc) {   // perspective and Play from here belong to a technique, not to a response in an exchange
@@ -11669,6 +11671,7 @@ class Component extends DCLogic {
     this.fx("url_fault", { kind: kind, path: String(path || "").slice(0, 200), error: (e && e.name) || String(e), n: this._urlFaults });
   }
   _syncUrl(idx, replace = false) {
+    if (this._readerIntent) return; // the reader owns one canonical history entry, including its seat/hash
     const path = this._nodeUrlPath(idx); if (!path) return;
     this._pushUrl(path, { ngNode: this.nodes[idx].id }, replace);
   }
@@ -11785,7 +11788,7 @@ class Component extends DCLogic {
     const content = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i.test(location.pathname);
     if (content) {
       this._readerInitialPath = location.pathname + location.hash;
-      if (this.get("readingFocus", NG_READING_DEFAULT_ON_CONTENT_URL) ||
+      if (NG_READING_DEFAULT_ON_CONTENT_URL || this.get("readingFocus", false) ||
           /^(?:\/(Principles|Learning|Systems))(?:\/|$)/i.test(location.pathname) || this._nodeAndRoleForPath(location.pathname).idx < 0) {
         this._readArticle(this._readerInitialPath, true, false);
         this._readerInitialPath = null;
@@ -15359,7 +15362,7 @@ class Component extends DCLogic {
     return el;
   }
   // The deferred reader owns a page, never the question DOM. Automatic game arrivals
-  // request it after the real hand is mounted; explicit reading creates no hand at all.
+  // request it after the real hand mounts; content arrivals prepare dormant controls.
   _queueReader(node, side) {
     if (this._readerIntent || this._reader?.interacting || !node) return;
     let path = this._nodeUrlPath(node.idx);
@@ -16906,7 +16909,7 @@ class Component extends DCLogic {
       // riding the card's top edge exactly like a landing.
       card.innerHTML =
         '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
-        '<div style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">Defend it \u2014 beat the clock</div>' +
+        '<div data-defense-prompt style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">' + (this._readerIntent ? 'Defender question' : 'Defend it \u2014 beat the clock') + '</div>' +
         '<div style="padding-right:54px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
       // THE LANDING CARD'S SHARED CHROME, ON THE DRILL TOO. The timed question keeps only the
       // card-layer corner; More builds as its own sibling and reads the submission's DEFENDER
@@ -16925,6 +16928,7 @@ class Component extends DCLogic {
       // what is panic's own: the escape-odds pump on a right answer, the next card, the beacon.
       const done = (ok) => {
         this._disarmLandClock();        // resolved, well or badly — the window is spent
+        this._reader?.beginPlay();
         if (ok) {
           this.refreshEscapeOdds();     // the payoff: every escape's % climbs before your eyes
           this.fx("escape_odds_pumped", { deck_key: pk });
@@ -16966,6 +16970,7 @@ class Component extends DCLogic {
         // Same qualification repair as JIT: this is recall evidence, including SRS/proof.
         this.gradeRecall(pk, fc, true, null, "panic");
         this._disarmLandClock();        // drilled in time — the window is spent well
+        this._reader?.beginPlay();
         this.refreshEscapeOdds();
         this.fx("escape_odds_pumped", { deck_key: pk });
         this._jitIdx[pk] = idx + 1;
@@ -17397,7 +17402,7 @@ class Component extends DCLogic {
       // deck via deckKeyFor), the hand is yours from the defending side, the camera is
       // `rollCamTarget`'s band-aware composition, and play waits for the button like any other.
       const st = this._stagedTech;
-      if (st && st.side === "defender" && this.nodes[st.idx] && this.nodes[st.idx].ty === "submissions") {
+      if (!this._readerIntent && st && st.side === "defender" && this.nodes[st.idx] && this.nodes[st.idx].ty === "submissions") {
         this._stagedTech = null;
         this._prefetchDefendDeck(st.idx);   // same warm as the opponent-finish path
         this.setPaused(false);
@@ -17428,7 +17433,7 @@ class Component extends DCLogic {
       eyebrow.style.letterSpacing = ".08em";
     }
     const row = this.optionsRef.current;
-    if (row) {
+    if (row && !this._readerIntent) {
       const want = oc.card.offsetLeft - (row.clientWidth - oc.card.offsetWidth) / 2;
       this._trayGlideBy(row, want - row.scrollLeft);
     }
@@ -18240,7 +18245,7 @@ class Component extends DCLogic {
     const opts = this.optionsFor(this.currentPos);
     if (!opts.length) { this.after(1.0, () => this.startRoll()); return; }
     this.optionIdxs = opts.map((o) => o.idx);
-    this.fx("options_dealt", { count: opts.length });
+    if (!this._readerIntent) this.fx("options_dealt", { count: opts.length });
     // WARM THE NEIGHBOURHOOD (v1.80.4) — one macrotask LATER, so it cannot compete with drawing
     // the hand. These are the decks the player is about to need: this state's own, and one per
     // option card (the JIT drill behind each option, and the landing question wherever they go
@@ -18269,7 +18274,7 @@ class Component extends DCLogic {
         ),
       );
     }, 0);
-    this.startLandRipple(this.currentPos, this.optionIdxs);
+    if (!this._readerIntent) this.startLandRipple(this.currentPos, this.optionIdxs);
     // ── THE CLOCK MOVED TO THE QUESTION (v1.133.0, owner) ─────────────────────────────────────
     // "Pressure should not be on the choices … the choices are fun to click." The HAND is never
     // timed: the window arms when a QUESTION mounts (_armLandClock — from _mountLandQ and the
@@ -18284,7 +18289,7 @@ class Component extends DCLogic {
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the hand LAYER (v1.171.0): dealt either way, shown by preference
     this._optPick = pick; this._optList = opts;
-    this._highlightStagedCard();
+    this._highlightStagedCard(); // a dormant choice keeps its static accent, without moving the tray
     // the landing's decision CONTEXT — pick/opts for the hand, plus the QUESTION window's timer
     // fields, disarmed until a question mounts (_armLandClock). gdt-driven, so pauses freeze it.
     this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: opts };
@@ -18315,11 +18320,12 @@ class Component extends DCLogic {
   // before that parks in `_cwArm` and fires from `_engage`/`_tickDecision` the moment both
   // are true. The pressure itself is untouched — once engaged, the full window runs.
   _engage() {
+    if (this._readerIntent) return;
     if (!this._engaged) { this._engaged = true; this.fx("engaged", {}); }
     this._tryArmClock();
   }
   _clockGate() {
-    return !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
+    return !this._readerIntent && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
   }
   _tryArmClock() {
     if (!this._cwArm || !this._clockGate()) return;
@@ -18461,7 +18467,8 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
-    if (this._readerIntent || this._reader?.interacting) { this._declineLandQ("reading"); return; }
+    if (this._readerIntent) return;
+    if (this._reader?.interacting) { this._declineLandQ("reading"); return; }
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
     const d = this._decision;
     if (!d || d.remaining == null || this._checkpoint) return; // Q002 lives on: the checkpoint quiz is untimed — and so is every HAND now (v1.133.0); this window times the QUESTION only
@@ -19141,6 +19148,25 @@ class Component extends DCLogic {
     this.enterDefense(sd);
     return true;
   }
+  // The catch has one pressure writer, whether reached during play or activated
+  // by the first deliberate action on a dormant defender arrival. Activating it
+  // must preserve the existing question, its grade and the identity of the hand.
+  _startDefensePressure() {
+    const sub = this.nodes[this._defendSub];
+    if (!sub) return;
+    this._readingDefense = false;
+    const escapes = this._optList || [];
+    this.fx("defend_start", { submission: sub.t });
+    this.fx("caught", { submission: sub.t });
+    this.fx("options_dealt", { count: escapes.length, kind: "defense" });
+    this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad");
+    const nodes = [sub.idx, this.currentPos, ...escapes.map(e => e.res)];
+    this._dangerSet = new Set(nodes);
+    this.frameNodes(nodes);
+    this.showVignette();
+    const prompt = this._landEl?.querySelector("[data-defense-prompt]");
+    if (prompt) prompt.textContent = "Defend it — beat the clock";
+  }
   enterDefense(subIdx) {
     this._stagedDefense = null; // any defense entry supersedes a deferred catch (enterLand)
     this.clearExecution();
@@ -19152,14 +19178,13 @@ class Component extends DCLogic {
     }
     this._declineLandQ("defense"); // the rush owns the screen — the landing question stands down, free
     this.clearLandCard();
-    this.fx("defend_start", { submission: sub ? sub.t : null });
-    this.fx("caught", { submission: sub ? sub.t : null });
+    this._readingDefense = !!this._readerIntent;
     this._stagedTech = null;
     this.setPaused(false);
     subIdx = this.submissionNode(sub).idx;
     this.playerRole = this.nodes[subIdx].fromRole === "top" ? "bottom" : "top";
     this.currentPos = this.nodes[subIdx].pi >= 0 ? this.nodes[subIdx].pi : subIdx;
-    this.focusIdx = this.currentPos;
+    this.focusIdx = this._readingDefense ? this._lastChosenIdx : this.currentPos;
     this._syncUrl(this.focusIdx, true);
     const key = this.deckKeyFor(this.nodes[this.currentPos]).key;
     const log = this.rollLog = this.rollLog || [];
@@ -19175,13 +19200,8 @@ class Component extends DCLogic {
     this._pendingIntent = null;
     const escapes = this.submissionDefenses(this.nodes[subIdx]);
     if (!escapes.length) throw new Error("Submission has no available defensive responses: " + sub.t);
-    this.fx("options_dealt", { count: escapes.length, kind: "defense" });
     this.optionIdxs = escapes.map((e) => e.res);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
-    this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad"); // v1.171.1, owner: no "drill to loosen it" tail
-    // the danger owns the camera and the field: frame the exchange, fog everything else
-    this._dangerSet = new Set([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
-    this.frameNodes([subIdx, this.currentPos].concat(escapes.map((e) => e.res)));
     this._defendSub = subIdx;
     // the panic drill credits the authored Defender deck when it exists, else your position deck
     // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
@@ -19191,7 +19211,6 @@ class Component extends DCLogic {
     const dk = this.defendKeyFor(sub);
     this._panicKey = this._deckHasCards(dk) ? dk : (this._deckHasCards(this._posKey) ? this._posKey : null);
     this.buildDrillPanel(this.currentPos, dk); // surfaces the Defender deck via the tab; respects the user's open/closed choice (no auto-open)
-    this.showVignette(); // heartbeat — you are IN TROUBLE, and the screen says so
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
@@ -19254,6 +19273,7 @@ class Component extends DCLogic {
     if (el) el.style.pointerEvents = "auto";
     this._syncHandLayer();               // the escapes obey the hand layer too (v1.171.1, owner)
     this._optPick = pick; this._optList = escapes;
+    if (!this._readingDefense) this._startDefensePressure();
     this.buildPanicCard(el, sub);
     // the DRILL runs on the question clock (v1.133.0, armed by buildPanicCard); the ESCAPES are
     // untimed — expiry no longer taps you out, it reveals the drill's answer as a miss and the
@@ -19416,16 +19436,26 @@ class Component extends DCLogic {
   //  mount when it lands find the node already clear of them: travel (`moving`) and an exchange
   //  in flight (`executionCameraTarget`) always pass it.
   rollCamTarget(f, moving, nodeIdx, ahead) {
-    const vw = moving
+    let vw = moving
       ? Math.max(this.graphW * 0.3, this.graphR * 0.7)
       : this.graphW * this.ROLL_ZOOM;
     const H = this.H || 800, W = this.W || 1200;
     const R = this._viewRect(moving || ahead != null ? { ahead: ahead != null ? ahead : true } : null);
     const top = R.top, bot = R.bottom;
     const wantY = (top + bot) / 2;
-    const scale = W / vw;
     const ni = nodeIdx == null ? this.focusIdx : nodeIdx;
     const n = this.nodes && ni >= 0 ? this.nodes[ni] : null;
+    // Dormant controls can leave less than three text lines above the film. Fit
+    // the drawn pair in that narrow band; the ordinary zoom and spring remain
+    // unchanged wherever the node already has room.
+    if (!moving && this._readerIntent && n && R.height < this.nameFontPx() * 3) {
+      const mid = this.pairMid(n), ly = this._LY || (q => q.y);
+      const k = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
+      const pair = [n, n.pi >= 0 ? this.nodes[n.pi] : null].filter(Boolean);
+      const half = Math.max(...pair.map(q => Math.abs(ly(q) - mid.y) + q.r * k * 1.6));
+      vw = Math.max(vw, 2 * half * W / Math.max(32, R.height - 16));
+    }
+    const scale = W / vw;
     if (!moving && n) f = this.pairMid(n);
     const nodeK = Math.max(0.4, Math.min(1, vw / (this.graphW * 0.5)));
     // a PAIR is aimed at its midpoint, where the name is now drawn — the triangle nudge that

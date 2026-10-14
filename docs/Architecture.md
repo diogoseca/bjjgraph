@@ -330,8 +330,8 @@ Lazy loading has behavioral consequences:
 ### Reading delivery
 
 `reader.src.js` is a deferred module emitted as `app/reader.js`. A mixed game landing
-requests it only after the real hand mounts; explicit reading requests it without creating a
-hand. `reading.css` is deferred and must finish loading before measuring the shelf or docking
+requests it only after the real hand mounts; content arrivals prepare dormant controls in
+reading intent. `reading.css` is deferred and must finish loading before measuring the shelf or docking
 game controls. Both remain excluded from the game first-hand request window.
 The eager bridge reserves the preview's cold footprint and measures existing bottom chrome;
 the loaded reader replaces that forecast with its measured shelf. This keeps the first camera
@@ -341,7 +341,7 @@ keeps the hand and films in the right column. Reading expands into the available
 The complete published Quartz `<article>` is the reading source. The original hidden article
 is cached under `body.dataset.slug`, never the address after `_pushUrl`. Other pages fetch their
 canonical HTML and extract its article. The session cache holds at most eight successful pages.
-A hub includes its full default role; an explicit role includes its hub context. Families and
+A hub includes its full default role; an explicit role adds only shared hub safety, excluding the other seat’s rules. Families and
 pages absent from the playable graph remain readable. Abort plus a request serial prevents an
 old page or role from replacing a newer navigation. Errors remain retryable.
 

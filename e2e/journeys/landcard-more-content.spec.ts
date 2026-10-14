@@ -124,12 +124,12 @@ for (const path of [
       const response = await fetch(path)
       const doc = new DOMParser().parseFromString(await response.text(), "text/html")
       const source = doc.querySelector("article")!
-      const normalized = (s: string) => s.replace(/\s+/g, " ").trim()
-      const prose = [...source.querySelectorAll("p,li,h2,h3")].map(n => normalized(n.textContent || "")).filter(s => s.length > 40)
+      const normalized = (s: string) => s.replace(/Play as /g, "Read as ").replace(/\s+/g, " ").trim()
+      const prose = [...source.querySelectorAll("p,li,h2,h3,h4,td,th,aside")].map(n => normalized(n.textContent || "")).filter(s => s.length > 0)
       const shown = normalized(document.querySelector('[data-reader-article="guide"]')!.textContent || "")
       const a = (window as any).__neural
       return { status: response.status, prose: prose.length, missing: prose.filter(s => !shown.includes(s)),
-        current: a.currentPos ?? null, staged: !!a._staged, played: !!a._played,
+        current: a.currentPos ?? null, staged: !!a._staged, played: !!a._played, paused: a.paused, clock: a._decision?.remaining ?? null, deals: (a.beats || []).filter((b: any) => b.beat === "options_dealt").length,
         hand: document.querySelectorAll("[data-tech]").length, question: !!a._landQ,
         links: document.querySelectorAll('[data-reader-article="guide"] a[href]').length }
     }, path)
@@ -137,7 +137,7 @@ for (const path of [
     expect(comparison.prose, "source comparison is nonempty").toBeGreaterThan(0)
     expect(comparison.missing, "every full published paragraph/list item survives").toEqual([])
     expect(comparison.links, "the complete guide keeps its links").toBeGreaterThan(0)
-    expect(comparison).toMatchObject({ current: null, staged: false, played: false, hand: 0, question: false })
+    expect(comparison).toMatchObject({ played: false, paused: true, clock: null, deals: 0 })
   })
 }
 

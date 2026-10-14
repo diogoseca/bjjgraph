@@ -77,15 +77,20 @@ type Any = any
  * Rails: __neural._urlSeeded, ._urlSeedIdx, ._urlSeedRole, ._played, ._pastRolls, .paused
  */
 
-const arrival = (page: Page) =>
-  page.evaluate(() => {
+const arrival = async (page: Page) => {
+  // Content arrivals seat after the deferred reader loads. Pumping the game clock
+  // does not settle HTTP; observe the actual board before measuring its camera.
+  await page.waitForFunction(() => { const a = (window as Any).__neural; return !!a?.nodes[a.currentPos] })
+  return page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes[a.currentPos]
     const scale = a.W / a.cam.vw
     const nodeK = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
     const card = document.querySelector("[data-landcard]") as HTMLElement | null
     const cr = card ? card.getBoundingClientRect() : null
-    const sy = (n.y - a.cam.cy) * scale + a.H / 2
+    // Use the frame's published pair lift: n.y is the stored ground point,
+    // not the orb the visitor sees (CLAUDE.md §6.2).
+    const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
     return {
       pos: n.t as string,
       role: a.roleLabel() as string,
@@ -99,6 +104,7 @@ const arrival = (page: Page) =>
       seeded: !!a._urlSeeded,
     }
   })
+}
 
 test("@curated a role page sets the board on THAT side, paused, and starts no roll", async ({
   page,
@@ -174,7 +180,7 @@ test("the node it navigates to is framed clear of the landing card", async ({ pa
   expect(Math.abs(aim.vw - aim.wantVw), "at the same zoom").toBeLessThan(2)
 })
 
-test("pressing play is what starts the roll, and only then does it reach history", async ({
+test("answering the landing card starts play, and only then can the roll reach history", async ({
   page,
 }) => {
   const j = journey(page)
@@ -198,7 +204,9 @@ test("pressing play is what starts the roll, and only then does it reach history
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)
   expect((await arrival(page)).played, "staged again, still not played").toBe(false)
-  await page.evaluate(() => (window as Any).__neural.setPaused(false)) // the transport's play
+  const q = await j.landQuestion()
+  expect(q).not.toBeNull()
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "answer the selected node’s landing card")
   await j.advance(900)
   const live = await arrival(page)
   expect(live.paused, "the clock is running").toBe(false)

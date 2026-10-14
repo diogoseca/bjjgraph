@@ -82,7 +82,7 @@ vignette. The complete linked article appears automatically below the game contr
 **Reading and minimizing.** The complete published article replaces More and survives
 question replacement, grading and hiding the practice card. It uses native scrolling, 16px
 prose, perspective links and a contents row. Hubs include the full Top/Attacker guide; role pages
-include their hub context and safety. Failed loads offer Retry.
+include shared hub safety without the other seat’s instructions. Failed loads offer Retry.
 
 The labeled shelf exposes Videos, Practice questions, Moves, Map, Game feedback and Book.
 Targets are at least 44px; the shelf clears corner controls and follows the article beside Browse. `landFilm`, `landCard`, `landHand`, `landMap` and
@@ -92,16 +92,15 @@ question is not built, while a hidden game hand remains dealt and untimed.
 **Focus on reading** is one action. It persists `readingFocus` and scalar `readingFilm`,
 `readingCard`, `readingHand`, `readingMap`, `readingFeedback` overrides, leaving game preferences
 intact. Only Focus reapplies the preset; navigation, reload and cloud merge retain individual
-restores. Restoring parts or leaving Focus starts no roll. Practice stages the current technique
-or opens reference study controls; it is also offered when Book is hidden and practice restored.
+restores. Restoring parts or leaving Focus starts no play. Reference pages offer Study tools.
 
-Browse and article links enter reading intent: no position, hand, stage or timed question.
-Direct content arrivals use the named `NG_READING_DEFAULT_ON_CONTENT_URL` switch only when no
-Focus preference exists; it remains false pending the owner. Principle, Learning, System and
-content-only pages always read. A fresh playable game landing still displays its complete article.
-Automatic rendering never pauses a move; scrolling, selecting or focusing the article declines
-the question without a miss and takes reading ownership. Native reading keys cannot grade the
-question. Escape closes an overlaid pane without discarding the article.
+Content URLs, Browse and article links select the node and prepare its dormant game controls.
+`NG_READING_DEFAULT_ON_CONTENT_URL` is true (OWNERQ1). There is no Practice gate: choosing a move
+or answering the landing card starts play. Until then there is no question clock or miss.
+Principle, Learning, System and content-only pages have no game seat. Automatic articles during
+play never pause a move; scrolling, selecting or focusing prose declines the live question and
+pauses play without a miss. Reading keys, links and minimizing never start play. Escape closes
+an overlaid pane without discarding the article.
 
 See [Reading delivery](Architecture.md#reading-delivery) for source identity and payload ownership.
 
@@ -586,7 +585,7 @@ because several study entry points assign `deckOpen` directly. A hand-paused rol
 
 Every pauser owns its own latch — `_landAutoPaused`, `_paneAutoPaused`, `_replayAutoPaused`,
 `_dossierAutoPaused` — so releasing gives back only the pause you took, transferring it to any
-still-open pane or replay. Reading intent retires the roll until explicit Practice.
+still-open pane or replay. Reading holds play until a move or landing-card answer.
 
 On a phone the pane is an 88vw drawer and **is** the screen, so closing it is how you look at the
 graph: a list focus survives a mobile close, and closing it during a replay hands the clock to the

@@ -95,7 +95,7 @@ const bootFixtures = async (page: Page, j = journey(page), data = catalog(), dos
 };
 const openStudy = async (page: Page) => {
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  await journey(page).clickByMouse('[data-reader-practice]', 'open the optional System study controls');
+  await journey(page).clickByMouse('[data-reader-study]', 'open the optional System study controls');
 };
 const openFirst = async (page: Page) => { await openExplore(page); await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click(); await openStudy(page); };
 const referenceState = (page: Page) => page.evaluate(() => {

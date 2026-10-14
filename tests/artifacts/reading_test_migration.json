@@ -1,0 +1,821 @@
+{
+  "base": "caaf78414f13370ac029e134a34ad812e496718e",
+  "capture_candidate": "d9bbe3e80f842a67d6c4e4dc64eacbdbccf220ed",
+  "authority": [
+    "D-297a",
+    "OWNERQ1"
+  ],
+  "count_note": "AST declarations: 49 removed or renamed across the complete feature diff. The five named files contribute 39: landcard-more-content 29 (27 quoted titles plus two template literals), roll-card 3, land-layers 2, landing-priority 1, pane-layout 4. Ten additional renames in seven files are also mapped. Runtime loops expand separately. No removed declaration is omitted.",
+  "entries": [
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 157,
+      "old_title": "@curated position More reads the selected seat and complete authored sections",
+      "preserved_rule": "Selected seat, complete summaries/aliases in order, principles, mistakes, variations, drills and related content.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "complete published article:"
+        }
+      ],
+      "retired_rule": "The dossier-only three-branch cap, probability/point suppression and 13px abridgement are retired: the full published page is authoritative; authored tables are retained.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 194,
+      "old_title": "@curated an attacker's More preserves alias provenance, every step, and the complete safety guide",
+      "preserved_rule": "Attacker identity, own/family aliases, classification, complete execution and safety.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "complete published article:"
+        },
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "defender reading excludes attacker rules and preserves real safety:"
+        }
+      ],
+      "retired_rule": "Dossier-specific data-land-* hooks and More disclosure are replaced by published semantic HTML. Safety is now compared in full, not a heading-only match.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 212,
+      "old_title": "@curated a defender panic More reads escapes and safety without attacker content",
+      "preserved_rule": "Defender summary/options/conditions/destinations and safety; no attacker steps, principles, counters or outcomes.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "defender reading excludes attacker rules and preserves real safety:"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 228,
+      "old_title": "@curated an unauthored transition defender never falls back to the attacker",
+      "preserved_rule": "An unauthored transition defender cannot borrow attacker content or turn into a submission panic.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "an unauthored defender never falls back to the attacker hub"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 246,
+      "old_title": "@curated no-content More is absent, while a wire alias alone is meaningful content",
+      "preserved_rule": "Absent content must not invent a dossier summary; alias-only authored material remains readable.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "complete published article:"
+        },
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "a failed article request has a real Retry path"
+        }
+      ],
+      "retired_rule": "Whether an empty dossier hides the More button no longer applies: More is removed and canonical articles are independent of dossier availability. Full comparison includes short alias and aside text.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 273,
+      "old_title": "@curated ${width}px More supports keyboard reading without operating the question",
+      "preserved_rule": "Phone PageDown/Space/Home/End, final text reachability, no horizontal overflow or accidental game operation.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": "Escape folding More and returning focus to its disclosure is retired. Book has an explicit shelf control; native article keys do not operate the game.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 331,
+      "old_title": "@curated a late dossier refreshes More after an answer without replacing or paying the question twice",
+      "preserved_rule": "Late data cannot replace an answered question or pay its grade twice.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late real dossier preserves reader focus, scroll and the answered question"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late full article preserves the answered question and never pays twice"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 382,
+      "old_title": "@curated More builds its HTML on first open and reuses it on repeated reads",
+      "preserved_rule": "Successful content is fetched once and reused across reading/restore.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "successful article responses are reused across seat navigation and Book restores"
+        }
+      ],
+      "retired_rule": "First-More-open laziness is retired by automatic complete articles. Game-first-hand deferred request bans remain in payload-first-hand.spec.ts.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 410,
+      "old_title": "@curated two hidden reading layers request no dossiers and restoring the card fetches its own once",
+      "preserved_rule": "Layer visibility does not start work or play for hidden game surfaces; restoration is independent.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/land-layers.spec.ts",
+          "title_contains": "the article survives minimizing the question, videos and moves"
+        },
+        {
+          "file": "e2e/journeys/reading-mode.spec.ts",
+          "title_contains": "complete article, Focus, every restore and reload"
+        }
+      ],
+      "retired_rule": "Hiding Film and Card no longer suppresses article delivery: Book is its own owner. Dossier request count was tied to the removed More renderer. Game dossier suppression is retained in the layer tests; reader HTML is measured separately.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 442,
+      "old_title": "@curated the real emitted dossier reaches More through the production chunk request",
+      "preserved_rule": "Real production built content, aliases, every step and complete release/restriction text.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "complete published article:"
+        },
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "defender reading excludes attacker rules and preserves real safety:"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late real dossier preserves reader focus, scroll and the answered question"
+        }
+      ],
+      "retired_rule": "The reading source is built HTML rather than the dossier JSON. A separate real JSON late-delivery test preserves the independent game surface contract.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 529,
+      "old_title": "@curated a matching late dossier preserves the visible reading section and keyboard focus",
+      "preserved_rule": "Late matching data preserves reader DOM, focus and scroll.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late real dossier preserves reader focus, scroll and the answered question"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 578,
+      "old_title": "@curated an old Top dossier response cannot repaint the current Bottom reading surface",
+      "preserved_rule": "An old position-seat response cannot repaint the opposite seat.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "a late response cannot repaint the opposite seat in the same reader"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 630,
+      "old_title": "@curated a shared technique dossier arriving after a seat switch reads the current defender",
+      "preserved_rule": "A shared technique response cannot paint the previous attacker perspective after navigation.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "defender reading excludes attacker rules and preserves real safety:"
+        },
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "a slower article never replaces a later Browse selection in the same reader"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late real dossier preserves reader focus, scroll and the answered question"
+        }
+      ],
+      "retired_rule": "Reader requests now have canonical page/seat identity; shared dossier JSON cannot own the article. Opposite-seat and page serial races cover the new writers.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 693,
+      "old_title": "@curated the reading rhythm is a ratio, not a pixel",
+      "preserved_rule": "Section-to-item spacing is a 4:1 ratio, based on the reader padding unit.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "reader rhythm scales as a ratio and headings keep their hierarchy"
+        }
+      ],
+      "retired_rule": "The old exact 13px body/24px gap constants belong to the removed 13px More renderer. The new ratio is tested at two widths and with an altered CSS unit.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 716,
+      "old_title": "@curated the section heading is the largest and brightest thing in its section",
+      "preserved_rule": "Section heading is larger/brighter than prose and larger than its subheadings.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "reader rhythm scales as a ratio and headings keep their hierarchy"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 745,
+      "old_title": "@curated a split step keeps its 804-character description",
+      "preserved_rule": "An entire 804-character structured step and an unstructured sibling survive.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a complete structured step keeps its long description and plain sibling"
+        },
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "complete published article:"
+        }
+      ],
+      "retired_rule": "Parsing a dossier colon into a <b> is retired: the published heading/paragraph structure is preserved directly.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 786,
+      "old_title": "@curated the contents row addresses every section",
+      "preserved_rule": "Every article heading, including the opening overview, has a contents target in authored order.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 814,
+      "old_title": "@curated a delayed dossier leaves no stale contents entry",
+      "preserved_rule": "Delayed content never leaves stale, duplicated or blank contents entries.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-more-content.spec.ts",
+          "title_contains": "a slower article never replaces a later Browse selection in the same reader"
+        },
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "a late response cannot repaint the opposite seat in the same reader"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 845,
+      "old_title": "@curated the contents row is reachable by mouse",
+      "preserved_rule": "Every contents control resolves and the far end is reachable by a real mouse on a phone.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 861,
+      "old_title": "@curated a contents click lands its section under the head",
+      "preserved_rule": "Contents puts the target below the header; the document end remains reachable.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": "Manual _readS/_readMax clamping is replaced by the browser native scrollport. The visible target and end boundary remain asserted.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 937,
+      "old_title": "@curated a contents click moves focus to its section",
+      "preserved_rule": "Contents navigation moves keyboard focus to its target.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/reading-mode.spec.ts",
+          "title_contains": "heading links focus the cloned article"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 958,
+      "old_title": "@curated the contents row leaves the tray where the body put it",
+      "preserved_rule": "Contents changes reading position without a second writer moving game controls.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "pane moves film, card, article and the projected current node together"
+        }
+      ],
+      "retired_rule": "The former counter-translated virtual column, cached tray datum and pin-offset identity have no reader equivalent. Reader native scroll owns only its own content; pane/camera geometry remains separately gated.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1083,
+      "old_title": "@curated the pinned head holds while the document travels under it",
+      "preserved_rule": "The opaque reading header holds while body prose scrolls.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": "Virtual counter-translation _readPin is replaced by native sticky positioning.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1125,
+      "old_title": "@curated the pinned head costs the hand nothing",
+      "preserved_rule": "Reading header pinning does not spend extra game-hand space.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "pane moves film, card, article and the projected current node together"
+        }
+      ],
+      "retired_rule": "The old virtual-column part-b tail pin is retired. The independent reader has a fixed measured box; its header height stays constant while scrolling.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1181,
+      "old_title": "@curated the head keeps the same box whether it is floating or at rest",
+      "preserved_rule": "Header retains the same height and position when floating.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1206,
+      "old_title": "@curated a re-dock in the middle of a read leaves the head where it was",
+      "preserved_rule": "Redocking preserves reading position and pane/game geometry.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "pane moves film, card, article and the projected current node together"
+        },
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "Browse overlays the article and preserves its place"
+        }
+      ],
+      "retired_rule": "Virtual _readPin offsets and whole-column _readS no longer exist for Book.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1226,
+      "old_title": "@curated the pinned contents row is reachable by mouse where it floats",
+      "preserved_rule": "Floating contents are real mouse targets and move focus.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": null,
+      "disposition": "ported"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1277,
+      "old_title": "@curated shutting the fold removes the contents row from the strip; reopening restores it over the same body",
+      "preserved_rule": "Hiding reading leaves no ghost hit target; restoring keeps the same DOM and scroll.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/land-layers.spec.ts",
+          "title_contains": "the article survives minimizing the question, videos and moves"
+        }
+      ],
+      "retired_rule": "More-close inertness owned by an option sheet is replaced by Book hidden state. Independent option sheets retain their separate dim/lifetime tests.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-more-content.spec.ts",
+      "old_line": 1372,
+      "old_title": "@curated ${width}px: shut, the More pill is centred; open, the ✕ sits right and the contents row fills between",
+      "preserved_rule": "Reader controls remain reachable on narrow screens.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/reading-mode.spec.ts",
+          "title_contains": "complete article, Focus, every restore and reload"
+        }
+      ],
+      "retired_rule": "Centered closed More pill / right-aligned open X is entirely retired. A labeled Book shelf control replaces both states, with 44px targets and no overlap.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/roll-card.spec.ts",
+      "old_line": 269,
+      "old_title": "More grows into a long second card and the whole column scrolls, hand pushed not covered @curated",
+      "preserved_rule": "Complete independent article, quiet question deck count, native reading, hide/restore, no stale hit surface and safe pause.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/roll-card.spec.ts",
+          "title_contains": "the complete article renders automatically and survives the question lifetime"
+        },
+        {
+          "file": "e2e/journeys/landing-priority.spec.ts",
+          "title_contains": "the graph owns identity; the timed card keeps only a quiet deck count"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/land-layers.spec.ts",
+          "title_contains": "the article survives minimizing the question, videos and moves"
+        }
+      ],
+      "retired_rule": "More-as-a-second-card, whole-column translation, 84px tray datum, More-owned auto-resume and tearing Book down with clearOptions are explicitly retired. Book is independent and reading never resumes merely because it closes.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/roll-card.spec.ts",
+      "old_line": 466,
+      "old_title": "a card picked from the foot of the read closes the column and opens its sheet",
+      "preserved_rule": "A visible move can be inspected without executing; choosing a move needs no Practice gate.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/card-click-contract.spec.ts",
+          "title_contains": "Inspect"
+        },
+        {
+          "file": "e2e/journeys/reading-contract.spec.ts",
+          "title_contains": "reading-first arrival is dormant until a real outcome click"
+        }
+      ],
+      "retired_rule": "The hand-at-foot and automatic collapse of the old virtual More column are retired. Existing Inspect contract owns sheet opening; Book stays independent.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/roll-card.spec.ts",
+      "old_line": 734,
+      "old_title": "the timed card stays on screen and the column scrolls from the graph at ${height}px tall",
+      "preserved_rule": "Reading remains usable at short heights without clipping the final text.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/roll-card.spec.ts",
+          "title_contains": "the complete article has a native scrollport at"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        }
+      ],
+      "retired_rule": "Graph-wheel capture to translate the entire column, non-scrollport More, and Escape restoring a fixed 84px datum are retired. Native wheel over Book scrolls Book; graph navigation remains its own action.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/land-layers.spec.ts",
+      "old_line": 266,
+      "old_title": "the More reading card is independent of film and hand, but follows the minimized card layer",
+      "preserved_rule": "Film/hand/article independence, preserved DOM and part restoration.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/land-layers.spec.ts",
+          "title_contains": "the article survives minimizing the question, videos and moves"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, contents and Book preserve the complete document"
+        },
+        {
+          "file": "e2e/journeys/reading-mode.spec.ts",
+          "title_contains": "complete article, Focus, every restore and reload"
+        }
+      ],
+      "retired_rule": "The rule making More subordinate to Card is reversed by approved Design A. Book survives Card minimization; hiding it never auto-resumes a roll.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/land-layers.spec.ts",
+      "old_line": 328,
+      "old_title": "geometry: a put-away hand gives the card its slot while preserving More above the layer dock",
+      "preserved_rule": "Card/hand geometry is recomputed after minimizing; article and shelf remain clear and readable.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/land-layers.spec.ts",
+          "title_contains": "the measured reader and shelf reserve the final paragraph"
+        },
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "pane moves film, card, article and the projected current node together"
+        },
+        {
+          "file": "e2e/journeys/reading-mode.spec.ts",
+          "title_contains": "complete article, Focus, every restore and reload"
+        }
+      ],
+      "retired_rule": "More immediately below the hand/card by 5–7px and the fixed 84px datum are replaced by the measured independent reader/shelf boundary.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landing-priority.spec.ts",
+      "old_line": 123,
+      "old_title": "everything that is NOT priority stays behind More",
+      "preserved_rule": "Deep article material stays separate from the timed landing question and never replaces it.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landing-priority.spec.ts",
+          "title_contains": "the complete article stays separate from the timed question"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late real dossier preserves reader focus, scroll and the answered question"
+        },
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "a late full article preserves the answered question and never pays twice"
+        }
+      ],
+      "retired_rule": "Hiding all deep material behind More is retired by the complete article. Opening the node dossier is still not necessary.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/pane-layout.spec.ts",
+      "old_line": 79,
+      "old_title": "@curated ${width}px pane moves film, card, More and the projected current node together",
+      "preserved_rule": "Pane moves game surfaces/projected node together while preserving card state, clearance and zoom; reader uses remaining width.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "pane moves film, card, article and the projected current node together"
+        }
+      ],
+      "retired_rule": "More sharing the exact card width and x displacement is replaced by a reader centered in the measured available area. Existing numeric game geometry bounds are unchanged.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/pane-layout.spec.ts",
+      "old_line": 118,
+      "old_title": "@curated ${viewport.width}px overlapping gameplay surfaces stay readable beneath the pane",
+      "preserved_rule": "Pane wins overlapping hit tests; article stays readable and preserves scroll.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "Browse overlays the article and preserves its place"
+        },
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "exposed cards, videos and reading take real mouse input while the pane is open"
+        }
+      ],
+      "retired_rule": "Focus hides game parts, so the old all-surfaces-overlap premise no longer applies to reading. Exposed gameplay still has mouse/keyboard coverage in the companion test.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/pane-layout.spec.ts",
+      "old_line": 153,
+      "old_title": "@curated exposed cards, videos and More take real mouse input while the pane is open",
+      "preserved_rule": "Exposed cards/videos/reader accept real input; pane keys do not answer/page the game; pane wheel does not move reading.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/pane-layout.spec.ts",
+          "title_contains": "exposed cards, videos and reading take real mouse input while the pane is open"
+        }
+      ],
+      "retired_rule": "Whole-column scrolling moves film and card together is retired: only the native reader scrollport moves.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/pane-layout.spec.ts",
+      "old_line": 215,
+      "old_title": "@curated ${first} releases its pause only after the other surface closes",
+      "preserved_rule": "Closing either reading or pane must not release another surface’s pause.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "first never resumes reading without a game action"
+        },
+        {
+          "file": "e2e/journeys/pane-keyboard.spec.ts",
+          "title_contains": "leaving Focus preserves the stopped reading intent until a move"
+        }
+      ],
+      "retired_rule": "Last More-owned pause automatically resuming gameplay is retired by OWNERQ1: minimizing, leaving Focus or closing Browse never counts as a deliberate game action.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/coldstart-backfill.spec.ts",
+      "old_line": 169,
+      "old_title": "cold start: the dossier payload landing mid-turn gives the current state its definition",
+      "preserved_rule": "Late game data reaches the current game surface without overwriting complete published prose.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/coldstart-backfill.spec.ts",
+          "title_contains": "cold start: a late dossier adds film without replacing the complete article"
+        }
+      ],
+      "retired_rule": "A dossier definition populating the removed More view is retired; published HTML owns prose and the dossier still owns game film.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/coldstart-backfill.spec.ts",
+      "old_line": 331,
+      "old_title": "cold start: the dossier payload backfills a definition onto a question not yet answered",
+      "preserved_rule": "An unanswered question, its choices and its complete article survive a late dossier.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/coldstart-backfill.spec.ts",
+          "title_contains": "cold start: a late dossier preserves both the unanswered question and the complete article"
+        }
+      ],
+      "retired_rule": "The More-affordance and dossier-definition assertions are replaced by independent article identity.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-chrome.spec.ts",
+      "old_line": 70,
+      "old_title": "More -> Less leaves the toggle readable, not black @curated",
+      "preserved_rule": "The reading control stays readable and reachable through minimize and restore.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-chrome.spec.ts",
+          "title_contains": "Book minimize and restore keep a readable, reachable control"
+        }
+      ],
+      "retired_rule": "The removed inline More color writer and open-state emphasis are presentation mechanics; Book uses CSS and an explicit pressed state.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/landcard-modes.spec.ts",
+      "old_line": 526,
+      "old_title": "arriving on the defending side brings the red rush — no play button in between @curated",
+      "preserved_rule": "A defender gets actual escape choices and the full panic-question chrome; its first answer activates the catch without a Practice gate.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/landcard-modes.spec.ts",
+          "title_contains": "a defender content arrival keeps the rush dormant until an answer"
+        }
+      ],
+      "retired_rule": "Immediate pressure on URL arrival is superseded by OWNERQ1. The same question/hand must survive activation; its deck late-binding and close control remain tested.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "old_line": 125,
+      "old_title": "@curated ${width}px with the pane open, the dock sits under the column: the owner's More → ✕ path, then the film's ✕",
+      "preserved_rule": "The shelf follows the measured reading column beside Browse on its first frame and after minimizing/restoring controls.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/layer-dock-centre.spec.ts",
+          "title_contains": "with the pane open, the dock sits under the column: the article stays"
+        }
+      ],
+      "retired_rule": "The dock disappearing when all game parts are restored is retired. The labeled shelf remains available and follows the independent article rather than whichever game card survives.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "old_line": 303,
+      "old_title": "@curated the dock stays under the card, keeps its 44px targets, and still steps aside for the share cue on its first frame",
+      "preserved_rule": "On a phone, shelf targets are at least 44px, clear the share cue immediately, and own their mouse hit centers.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/layer-dock-centre.spec.ts",
+          "title_contains": "the dock stays under the card, keeps its 44px targets, and clears the share cue"
+        }
+      ],
+      "retired_rule": "Horizontal displacement around the cue is replaced by measured vertical clearance; the no-overlap and reachability rules remain.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/pane-keyboard.spec.ts",
+      "old_line": 46,
+      "old_title": "@curated Esc closes the pane before the expanded reading column",
+      "preserved_rule": "Escape closes the overlaid pane first and preserves reading without resuming play.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/pane-keyboard.spec.ts",
+          "title_contains": "Esc closes Browse and leaves the independent article reading"
+        }
+      ],
+      "retired_rule": "A second Escape folding More and resuming play is retired. Book has a dedicated shelf control and closing UI is not a game action.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/pane-keyboard.spec.ts",
+      "old_line": 121,
+      "old_title": "@curated ending replay preserves an expanded More pause after the pane closes",
+      "preserved_rule": "Stopping a replay after Browse closes must preserve the reader and its pause.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "ending a replay after Browse closes preserves reading intent"
+        }
+      ],
+      "retired_rule": "The last More pause auto-resuming is retired by OWNERQ1; game actions own the return to play.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/share-lists.spec.ts",
+      "old_line": 287,
+      "old_title": "the in-roll capture flow survives REAL mouse clicks on a full-height landing card @curated",
+      "preserved_rule": "The complete in-roll list capture flow uses real mouse clicks while the question and article are present.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/share-lists.spec.ts",
+          "title_contains": "the in-roll capture flow survives REAL mouse clicks on a landing card and article"
+        }
+      ],
+      "retired_rule": "Injecting and unfolding More to make a tall combined landing card is retired; the article now has its own measured surface.",
+      "disposition": "ported with named retired UI mechanics"
+    },
+    {
+      "old_file": "e2e/journeys/url-arrival.spec.ts",
+      "old_line": 177,
+      "old_title": "pressing play is what starts the roll, and only then does it reach history",
+      "preserved_rule": "An untouched arrival never enters roll history; deliberate play makes it archivable.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/url-arrival.spec.ts",
+          "title_contains": "answering the landing card starts play, and only then can the roll reach history"
+        }
+      ],
+      "retired_rule": "The separate Play setup is replaced by a real landing-card answer, per OWNERQ1.",
+      "disposition": "ported with named retired UI mechanics"
+    }
+  ]
+}

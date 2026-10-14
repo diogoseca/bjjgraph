@@ -56,8 +56,8 @@ test("@curated Esc closes Browse and leaves the independent article reading", as
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
-    return { reading: a._readerIntent, hand: (a._optList || []).length, question: !!a._landQ, paused: a.paused }
-  })).toEqual({ reading: true, hand: 0, question: false, paused: true })
+    return { reading: a._readerIntent, clock: a._decision?.remaining ?? null, paused: a.paused }
+  })).toEqual({ reading: true, clock: null, paused: true })
 })
 
 test("@curated fresh, cached and backfilled landing pages preserve the pane's answer keys", async ({ page }) => {
@@ -119,7 +119,7 @@ test("@curated a recall page mounted under the pane receives Space when the pane
   await expect(page.locator("[data-land-answer]")).toBeVisible()
 })
 
-test("@curated leaving Focus preserves the stopped reading intent until Practice", async ({ page }) => {
+test("@curated leaving Focus preserves the stopped reading intent until a move", async ({ page }) => {
   const j = await setup(page)
   await addMore(page)
   await j.clickByMouse("[data-reading-focus]")
@@ -128,10 +128,10 @@ test("@curated leaving Focus preserves the stopped reading intent until Practice
   await j.advance(12000)
   expect(await page.evaluate(() => {
     const a = (window as any).__neural
-    return { focus: a.get("readingFocus", false), reading: a._readerIntent, current: a.currentPos, hand: (a._optList || []).length }
-  })).toEqual({ focus: false, reading: true, current: null, hand: 0 })
-  await j.clickByMouse("[data-reader-practice]", "explicit Practice")
+    return { focus: a.get("readingFocus", false), reading: a._readerIntent, paused: a.paused }
+  })).toEqual({ focus: false, reading: true, paused: true })
+  await page.evaluate(() => (window as any).__neural._optionCards.find((c: any) => !c.opt.threat).card.setAttribute("data-reading-choice", ""))
+  await j.clickByMouse("[data-reading-choice]", "choose a move directly")
   await j.advance(1500)
-  await expect(page.locator("[data-tech]").first()).toBeVisible()
   expect(await page.evaluate(() => (window as any).__neural._readerIntent)).toBe(false)
 })

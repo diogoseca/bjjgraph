@@ -210,10 +210,11 @@ test("the complete article renders automatically and survives the question lifet
   await expect(page.locator("[data-land-more]")).toHaveCount(0)
   await expect(page.locator("[data-reader-body]")).toContainText("Training")
   expect(await page.evaluate(() => !!(window as Any).__neural.paused), "rendering an article does not pause a live roll").toBe(false)
-  const article = await page.locator("[data-reader-body]").innerText()
+  // Compare the complete DOM text: expanded reading also reveals the Overview heading.
+  const article = await page.locator("[data-reader-body]").textContent()
   await j.clickByMouse('[data-layer-hide="card"]')
   await expect(page.locator("[data-landcard]")).toHaveCount(0)
-  await expect(page.locator("[data-reader-body]")).toHaveText(article, { useInnerText: true })
+  await expect(page.locator("[data-reader-body]")).toHaveText(article!)
   const r = await page.locator("[data-reader]").boundingBox()
   await page.mouse.move(r!.x + r!.width / 2, r!.y + r!.height - 10)
   await page.mouse.wheel(0, 300)
@@ -223,7 +224,7 @@ test("the complete article renders automatically and survives the question lifet
   await j.advance(20000)
   expect((await j.beats()).filter(b => b.beat === "land_q_expired")).toEqual([])
   await page.evaluate(() => (window as Any).__neural.clearOptions())
-  await expect(page.locator("[data-reader-body]")).toHaveText(article, { useInnerText: true })
+  await expect(page.locator("[data-reader-body]")).toHaveText(article!)
 })
 
 test("the film row rides the game card", async ({ page }) => {
@@ -467,6 +468,7 @@ for (const height of [900, 720]) {
     await j.clickByMouse("[data-reading-focus]")
     await page.locator("[data-reader-body]").focus()
     await page.keyboard.press("Control+End")
+    await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollHeight - e.clientHeight - e.scrollTop), { message: "native scrolling reaches the article end" }).toBeLessThan(2)
     const end = await page.locator("[data-reader]").evaluate(e => ({ top: e.getBoundingClientRect().top, bottom: e.getBoundingClientRect().bottom, scroll: e.scrollTop, remaining: e.scrollHeight - e.clientHeight - e.scrollTop }))
     expect(end.top).toBeGreaterThanOrEqual(0)
     expect(end.bottom).toBeLessThan(height)
@@ -720,6 +722,7 @@ test("@curated background taps: close the card, then free roam — and a node cl
 test("@curated the commit hands the camera to the roll", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(6000)
   const res = await page.evaluate(() => {
     const a: any = (window as any).__neural

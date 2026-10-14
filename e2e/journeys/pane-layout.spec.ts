@@ -5,6 +5,8 @@ import { journey, type Journey } from "../dsl"
  * The DSL authors films but reads complete prose from published HTML. The article
  * uses native scrolling; it stays below Browse's plane and preserves its position.
  * Prior virtual-More/pause-transfer mutants were retired with that interaction.
+ * Current MDP sandbox control m38 (2026-10-14) removes paused lift retention:
+ * both widths fail the unchanged vertical-clearance assertion.
  * External video playback is not covered by the harness. */
 
 async function settle(page: Page, j: Journey) {
@@ -141,7 +143,7 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     } else expect(overlap.width, "the tablet article fits beside Browse").toBeLessThanOrEqual(0)
     await closePane(page, j)
     expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
-    expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._readerIntent, hand: (window as any).__neural.optionIdxs.length }))).toEqual({ reading: true, hand: 0 })
+    expect(await page.evaluate(() => ({ reading: !!(window as any).__neural._readerIntent, paused: (window as any).__neural.paused }))).toEqual({ reading: true, paused: true })
   })
 }
 
@@ -197,7 +199,7 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   expect(await page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBe(before)
   await closePane(page, j)
   await j.advance(20000)
-  expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBe(0)
+  expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
 })
 
 test("@curated resizing an open pane keeps the selected card and the short-landscape composition", async ({ page }) => {

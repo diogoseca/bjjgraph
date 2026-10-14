@@ -488,7 +488,12 @@ test("@curated an expiry never pins — off the announcer, and gone in ~1.6 s ev
   page,
 }) => {
   const j = journey(page);
-  await j.boot("/Positions/Side-Control/Bottom");
+  // This is the game's expiry contract. OWNERQ1 content arrivals stay dormant.
+  await j.boot("/");
+  await j.advance(12000); // let the root intro relinquish its delayed start
+  await j.landQuestion();
+  await page.evaluate(() => { const a = (window as any).__neural; a.rollFromPosition(a.nodes.findIndex((n: any) => n.id === "Positions/Side-Control"), true, "bottom"); });
+  await j.landQuestion();
   await j.advance(7000);
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top);

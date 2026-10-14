@@ -26,7 +26,7 @@ Challenges · Last rolls.
 
 **Reference law** (owner). A **Principle, a Learning entry and a System are pages, not places.**
 Opening one — its row, or its own URL — shows its complete article,
-and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only through an explicit game or Practice action; Browse and article links read.** `_refPage`, set from the path alone in
+and that is *all* it does: no seat, no hand, no stage, no roll. **A roll starts only through an explicit move or landing-card answer; Browse and article links read.** `_refPage`, set from the path alone in
 `_seedPageFromUrl`, is what holds the intro handoff off `startRoll()`; deciding it from the path
 rather than from the payload is deliberate, because the payload is deferred and used to lose the
 race. Pinned by `e2e/journeys/concepts-surface.spec.ts` (both halves — an arrival that starts

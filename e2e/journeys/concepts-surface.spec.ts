@@ -344,12 +344,12 @@ const searchState = (page: Page) =>
   });
 
 // Reader navigation opens full HTML. These study-panel regressions enter the
-// retained reference controls through the reader's explicit Practice action.
-async function readerPractice(page: Page, j: ReturnType<typeof journey>) {
+// retained reference controls through the reader's Study tools action.
+async function readerStudyTools(page: Page, j: ReturnType<typeof journey>) {
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 20000 });
   expect(await page.evaluate(() => { const a = (window as any).__neural; return { hand: a.optionIdxs.length, question: !!a._landQ, played: !!a._played }; })).toEqual({ hand: 0, question: false, played: false });
   if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]", "dismiss the fixture's grandfathered reward");
-  await j.clickByMouse("[data-reader-practice]", "open the page's related practice");
+  await j.clickByMouse("[data-reader-study]", "open the page's related practice");
 }
 
 test("Explore lists every authored principle, and opening one opens content — never a search @curated", async ({
@@ -399,7 +399,7 @@ test("Explore lists every authored principle, and opening one opens content — 
     `[data-concept-row="${first.id}"]`,
     `the ${first.name} principle row`,
   );
-  await readerPractice(page, j);
+  await readerStudyTools(page, j);
   await expect(
     page.locator(`[data-concept-detail="${first.id}"]`),
     "a principle row opens that principle",
@@ -445,7 +445,7 @@ test("Explore lists every authored principle, and opening one opens content — 
     (a, b) => b.nodes.length - a.nodes.length,
   )[0];
   await page.locator(`[data-concept-row="${target.id}"]`).click();
-  await readerPractice(page, j);
+  await readerStudyTools(page, j);
   const detail = page.locator(`[data-concept-detail="${target.id}"]`);
   await expect(detail).toBeVisible();
   await expect(page, "the second principle pushed its path too").toHaveURL(
@@ -607,7 +607,7 @@ test("arriving on a principle's own page opens it and starts NOTHING @curated", 
 
   const j = journey(page);
   await j.boot("/" + target.id);
-  await readerPractice(page, j);
+  await readerStudyTools(page, j);
 
   // concepts.json is deferred, so the arrival kicks the fetch itself and the panel opens when it
   // lands. Nothing has advanced the game clock yet, so the intro is still running — which is the
@@ -1006,7 +1006,7 @@ for (const viewport of [
     await page.setViewportSize(viewport);
     const j = journey(page);
     await j.boot("/Principles/Compression-Locks", { keepTutorial: true });
-    await readerPractice(page, j);
+    await readerStudyTools(page, j);
     await expect(
       page.locator('[data-concept-detail="Principles/Compression-Locks"]'),
     ).toBeVisible();
@@ -1186,7 +1186,7 @@ test("clicking the pressed Explore tab returns a drilled Principle, then a Syste
   // ── a Principle owns the pane ──
   const first = [...principles].sort((a, b) => a.id.localeCompare(b.id))[0];
   await j.clickByMouse(`[data-concept-row="${first.id}"]`, `the ${first.name} principle row`);
-  await readerPractice(page, j);
+  await readerStudyTools(page, j);
   await expect(page.locator(`[data-concept-detail="${first.id}"]`), "premise: the principle owns the pane").toBeVisible();
   await expect(searchRow, "premise: and the root's search row is gone with it").toBeHidden();
   await expect(page.locator(tab), "premise: Explore is the pressed tab").toHaveAttribute("aria-pressed", "true");

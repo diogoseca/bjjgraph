@@ -458,6 +458,7 @@ test("the owner's Americana page asks MULTIPLE CHOICE — recognition first, alw
   // builds: corpus viability measured 96.3% → 100.0%, worklist 110 → 0. The recall block
   // remains only as a last-resort safety net with no live trigger in this corpus.
   await j.boot("/Submissions/Americana/from-Kimura-Trap")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(6000)
   await j.landQuestion()
   const s = await page.evaluate(() => ({
@@ -524,10 +525,9 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
 })
 
 // ── 6. the defending side = the rush, on arrival ─────────────────────────────────────────────
-test("arriving on the defending side brings the red rush — no play button in between @curated", async ({ page }) => {
+test("a defender content arrival keeps the rush dormant until an answer @curated", async ({ page }) => {
   const j = journey(page)
-  // v1.134.0 (owner): "the rush starts on click" — the transport is retired, so clicking (or
-  // arriving on) the ESCAPING side IS choosing to be caught. No setPaused, no latch.
+  // OWNERQ1: arrival prepares the actual catch; only an answer or escape starts pressure.
   await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
   await j.advance(8000)
   // The sim clock cannot finish the real submission-choices fetch. Wait for its
@@ -545,10 +545,10 @@ test("arriving on the defending side brings the red rush — no play button in b
       escapes: (a.optionIdxs || []).length,
     }
   })
-  expect(s.defense, "the catch is live").toBe(true)
-  expect(s.vignette, "the vignette burns").toBe(true)
-  expect(s.beats, "the rush announced itself").toContain("defend_start")
-  expect(s.beats).toContain("caught")
+  expect(s.defense, "the catch is prepared").toBe(true)
+  expect(s.vignette, "reading has no pressure effect").toBe(false)
+  expect(s.beats).not.toContain("defend_start")
+  expect(s.beats).not.toContain("caught")
   expect(s.escapes, "the escape hand is dealt — untimed").toBeGreaterThan(0)
 
   // ── THE DRILL OPENS WHEN ITS DECK LANDS, WITH THE LANDING CARD'S CHROME ──────────────────
@@ -594,6 +594,12 @@ test("arriving on the defending side brings the red rush — no play button in b
   expect(d.beats).toContain("panic_drill_opened")
   expect(d.mc, "the question is on the table — choices, or the recall fallback").toBeGreaterThan(0)
   expect(d.close && !d.add && d.more && !d.foot, "the drill has a close control and an independent article; capture belongs to the graph seat").toBe(true)
+  const answer = await page.evaluate(() => (window as W).__neural._mc.correct)
+  await j.clickByMouse(`[data-panic-mc-opt="${answer}"]`, "answer the dormant defender question")
+  expect(await page.evaluate(() => {
+    const a = (window as W).__neural
+    return { reading: a._readerIntent, paused: a.paused, vignette: !!document.querySelector('.ng-vignette'), catches: a.beats.filter((b: any) => b.beat === 'defend_start').length }
+  })).toEqual({ reading: false, paused: false, vignette: true, catches: 1 })
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
   // capture) — the catch stays live and the escapes stay dealt
   await j.clickByMouse("[data-land-close]")
@@ -675,6 +681,7 @@ test("a staged technique's own card is the go — highlighted, then committed in
 }) => {
   const j = journey(page)
   await j.boot("/Transitions/Side-Control-to-Mount")
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await j.advance(8000)
   const hl = await page.evaluate(() => {
     const a = (window as W).__neural
@@ -734,7 +741,12 @@ test("@curated the meter mirrors Win-left, and the clock drains through pause in
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  // Keep the gameplay clock contract; content URLs now wait for a game action.
+  await j.boot("/")
+  await j.advance(12000) // finish the root intro before replacing its board
+  await j.landQuestion()
+  await page.evaluate(() => { const a = (window as W).__neural; a.rollFromPosition(a.nodes.findIndex((n: any) => n.id === "Positions/Side-Control"), true, "bottom") })
+  await j.landQuestion()
   await j.advance(6000)
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top)

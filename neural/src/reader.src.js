@@ -1,5 +1,5 @@
 // The complete published article is the source of truth. This module is deferred:
-// reading intent has no hand; an automatic game article loads after the real hand.
+// content arrivals prepare dormant controls; game articles load after the real hand.
 const PARTS = [
   ["film", "Videos", "▶"], ["card", "Practice questions", "?"],
   ["hand", "Moves", "⋯"], ["map", "Map", "◇"],
@@ -33,13 +33,28 @@ export async function installReader(app) {
   const reader = app._reader = new Reader(app);
   // Game intent is explicit. Restoring a layer, closing Browse or leaving Focus is
   // deliberately absent from these lifters: none of those actions starts a roll.
-  for (const name of ["rollFromPosition", "stageRollAt", "startRoll", "activateOption"]) {
+  for (const name of ["rollFromPosition", "stageRollAt", "startRoll"]) {
     const original = app[name];
     app[name] = function (...args) {
-      reader.leaveReading();
+      if (!reader.seating) reader.leaveReading();
       return original.apply(this, args);
     };
   }
+  const activate = app.activateOption;
+  app.activateOption = function (opt, pick, card, inspect) {
+    if (opt && !opt.threat && !inspect && !this._execution && !this._checkpoint && (!this._rollHand || this._rollHand.mounted)) reader.beginPlay();
+    return activate.call(this, opt, pick, card, inspect);
+  };
+  // An answer starts play on the SAME question and hand; rebuilding would lose
+  // its grade or pay it twice. Inspecting an opponent's option is still reading.
+  const answered = app._landAnswered;
+  app._landAnswered = function (...args) {
+    const result = answered.apply(this, args);
+    reader.beginPlay();
+    return result;
+  };
+  const attempt = app.enterAttempt;
+  app.enterAttempt = function (...args) { reader.beginPlay(); return attempt.apply(this, args); };
   const apply = app._applyLayers;
   app._applyLayers = function (...args) { const result = apply.apply(this, args); reader.sync(); return result; };
   for (const name of ["expandClip", "collapseClip"]) {
@@ -104,7 +119,22 @@ class Reader {
     if (!intent && this.path === path) return;
     this.path = path;
     this.intent = intent;
-    this.interacting = !!intent;
+    const hit = this.app._nodeAndRoleForPath(path);
+    this.interacting = !!intent && (this.app.get("readingFocus", false) || hit.idx < 0);
+    if (intent && hit.idx >= 0) {
+      // Reuse the real seat, question and choices without a deal, rush or clock.
+      // The selected technique owns focus/URL; its origin remains the engine seat.
+      this.seating = true;
+      // A cached direct article can finish before the first animation frame.
+      // Seat timestamps must use the frame clock's origin, never undefined.
+      if (!Number.isFinite(this.app.now)) this.app.now = this.app.lastT || 0;
+      try { this.app.rollFromPosition(hit.idx, true, hit.role); }
+      finally { this.seating = false; }
+      this.app._staged = this.app.currentPos;
+      this.app._urlSeeded = true;
+      this.app._refPage = false;
+      this.app.introDone = true;
+    }
     this.abort?.abort();
     const controller = this.abort = new AbortController(), serial = ++this.serial;
     if (push) history.pushState({ ...history.state, ngReading: true }, "", url.pathname + url.search + url.hash);
@@ -132,7 +162,7 @@ class Reader {
       this.root.dataset.readerReady = "true";
       this.sync();
       if (url.hash) this.anchor(url.hash);
-      else if (intent) this.root.querySelector("h1").focus({ preventScroll: true });
+      else if (this.interacting) this.root.querySelector("h1").focus({ preventScroll: true });
     } catch (error) {
       if (serial !== this.serial || error.name === "AbortError" || this.app.__ngDestroyed) return;
       this.root.replaceChildren(element("p", { role: "alert" }, error.message),
@@ -153,6 +183,8 @@ class Reader {
     const article = element("article", { "data-reader-article": kind, "data-source-path": path });
     article.innerHTML = record.html;
     article.querySelectorAll("script,style").forEach((node) => node.remove());
+    const overview = article.querySelector("section#overview");
+    if (overview && !overview.querySelector("h2")) overview.prepend(element("h2", { id: "overview" }, "Overview"));
     const base = new URL(path, location.origin), ids = new Map();
     // Source pages sometimes repeat a section's id on its heading. Each clone id
     // is unique, and heading links resolve within this article, never the hidden DOM.
@@ -192,7 +224,13 @@ class Reader {
     const tools = element("div", { class: "ng-reader-tools" });
     tools.append(button(this.app.get("readingFocus", false) ? "Leave reading focus" : "Focus on reading", () => this.focus(), { "data-reading-focus": "" }));
     tools.append(button("Browse", () => this.app.openPane("explore"), { "data-reader-browse": "" }));
-    tools.append(button("Practice", () => this.practice(), { "data-reader-practice": "" }));
+    if (/^\/(Systems|Principles|Learning)\//.test(this.path)) {
+      tools.append(button("Study tools", async () => {
+        const id = this.path.slice(1);
+        if (id.startsWith("Systems/")) this.app.openSystem(id);
+        else { await this.app._ensureConcepts(); if (this.path.slice(1) === id) this.app.openConcept(id); }
+      }, { "data-reader-study": "" }));
+    }
     head.append(heading, tools);
     const roles = element("nav", { "aria-label": "Reading perspectives", class: "ng-reader-roles" });
     const roleLinks = this.roleLinks((context || record).html, hub);
@@ -207,7 +245,15 @@ class Reader {
     }
     const body = element("div", { "data-reader-body": "", tabindex: "0" });
     if (context) {
-      body.append(this.article(context, hub, "hub"));
+      const shared = this.article(context, hub, "hub");
+      // A perspective page is already complete. Its hub contains BOTH players'
+      // summaries, execution steps and outcomes, which must never leak across a
+      // seat or stand in for an unauthored defender. Only shared safety is added.
+      if (ROLES.test(this.path)) {
+        const safety = [...shared.querySelectorAll('[data-source-id="safety-considerations"],blockquote.callout.danger')];
+        shared.replaceChildren(...safety);
+      }
+      body.append(shared);
       body.append(element("h2", {}, record.title));
     }
     body.append(this.article(record, path, "guide"));
@@ -241,14 +287,14 @@ class Reader {
     const node = target ? this.root.querySelector("#" + CSS.escape(target)) : scope.querySelector('[data-source-id="' + CSS.escape(id) + '"]');
     if (!node) return;
     node.tabIndex = -1;
-    this.root.scrollTop += node.getBoundingClientRect().top - this.root.getBoundingClientRect().top - this.root.querySelector("header").offsetHeight - 12;
+    this.root.scrollTop += node.getBoundingClientRect().top - this.root.querySelector("header").getBoundingClientRect().bottom - 12;
     node.focus({ preventScroll: true });
     history.replaceState({ ...history.state, ngReading: !!this.intent }, "", this.path + hash);
   }
   readingInteraction(type) {
     if (this.interacting) return;
     this.interacting = true;
-    this.app._declineLandQ("reading");
+    if (!this.intent) this.app._declineLandQ("reading");
     this.app.setPaused(true);
     // Do not move text during a drag selection. The clock is already declined;
     // expanding after pointerup keeps the browser's native selection intact.
@@ -267,6 +313,15 @@ class Reader {
     this.intent = false; this.interacting = false;
     this.sync();
   }
+  beginPlay() {
+    if (!this.intent && !this.interacting) return;
+    const a = this.app;
+    this.leaveReading();
+    a._applyLayers();
+    if (a._readingDefense) a._startDefensePressure();
+    a._engage();
+    a.setPaused(false);
+  }
   focus() {
     const a = this.app, on = !a.get("readingFocus", false);
     a.set("readingFocus", on);
@@ -275,26 +330,14 @@ class Reader {
       // and reload read them as-is, so an individually restored part stays restored.
       for (const key of Object.values(READ_KEYS)) a.set(key, false);
       a.set("readerBook", true);
-      a._readArticle(this.path, true, false);
-    }
+      a._declineLandQ("reading");
+      a.setPaused(true);
+      a._readerIntent = this.intent = this.interacting = true;
+      a.setDeckOpen(false);
+    } else this.interacting = false;
     a._applyLayers(); this.sync();
     const b = this.root.querySelector("[data-reading-focus]");
     if (b) b.textContent = on ? "Leave reading focus" : "Focus on reading";
-  }
-  async practice() {
-    const a = this.app, hit = a._nodeAndRoleForPath(this.path);
-    if (hit.idx < 0) {
-      const id = this.path.slice(1);
-      if (/^Systems\//.test(id)) a.openSystem(id);
-      else if (/^(Principles|Learning)\//.test(id)) { await a._ensureConcepts(); if (this.path.slice(1) === id) a.openConcept(id); }
-      else a.openPane("explore");
-      return;
-    }
-    // Practice is a new explicit game intent. Focus visibility can be left without
-    // changing the player's pre-existing film/card/hand preferences.
-    if (a.get("readingFocus", false)) a.set("readingFocus", false);
-    this.leaveReading(); a.setDeckOpen(false); a.stageRollAt(hit.idx, hit.role);
-    a._applyLayers();
   }
   on(part) {
     if (part === "book") return this.app.get("readerBook", true) !== false;
@@ -305,6 +348,7 @@ class Reader {
     if (part === "book") a.set("readerBook", on);
     else if (["film", "card", "hand"].includes(part)) a.setLayer(part, on, "reader-shelf");
     else a.set((a.get("readingFocus", false) ? READ_KEYS : GAME_KEYS)[part], on);
+    if (on && (part === "card" || part === "hand")) this.interacting = false;
     this.sync();
     // The old button may have been replaced. Give focus to the visible replacement.
     this.dock.querySelector('[data-reader-part="' + part + '"]')?.focus({ preventScroll: true });
@@ -326,7 +370,7 @@ class Reader {
       this.dock.replaceChildren(...PARTS.map(([part, label, icon]) => {
         const on = this.on(part);
         const b = button("", () => this.toggle(part), { "data-reader-part": part, [on ? "data-layer-hide" : "data-layer-show"]: part, "aria-label": (on ? "Hide " : "Show ") + label, "aria-pressed": String(on), title: (on ? "Hide " : "Show ") + label });
-        b.append(element("span", { "aria-hidden": "true" }, icon), element("span", {}, part === "card" ? "Practice" : part === "feedback" ? "Feedback" : part === "book" ? "Book" : label));
+        b.append(element("span", { "aria-hidden": "true" }, icon), element("span", {}, part === "card" ? "Questions" : part === "feedback" ? "Feedback" : part === "book" ? "Book" : label));
         return b;
       }));
     }
@@ -336,11 +380,12 @@ class Reader {
     const a = this.app, wrap = a.wrapRef.current;
     if (a.get("readingFocus", false) && !a._readerIntent && this.path) { a._readArticle(this.path, true, false); return; }
     this.root.hidden = !this.on("book");
-    const expanded = !!(this.intent || (this.interacting && !this.selecting));
+    const expanded = !!(this.interacting && !this.selecting);
     this.root.toggleAttribute("data-reading-expanded", expanded);
     for (const ref of [a.nodeCardRef]) ref.current?.setAttribute("data-reader-map", "");
     for (const ref of [a.evCenterRef, a.fxRef]) ref.current?.setAttribute("data-reader-feedback", "");
     wrap.classList.toggle("ng-reader-active", expanded && this.on("book"));
+    wrap.classList.toggle("ng-reader-dormant", !!this.intent);
     wrap.classList.toggle("ng-reader-no-map", !this.on("map"));
     wrap.classList.toggle("ng-reader-no-feedback", !this.on("feedback"));
     a.__ngRoot?.classList.toggle("ng-reader-no-feedback", !this.on("feedback"));
@@ -351,13 +396,6 @@ class Reader {
       if (this.root.dataset.videos === "false" || this.root.hidden) frame.replaceWith(frame._readerPlay);
     }
     if (this.intent || !this.on("film")) a._clearLandFilm();
-    if (!this.offer) {
-      this.offer = button("Practice this page", () => this.practice(), { class: "ng-reader-practice", "data-reader-practice-offer": "" });
-      this.offer.addEventListener("pointerdown", e => e.stopPropagation());
-      this.offer.addEventListener("keydown", e => e.stopPropagation());
-      wrap.append(this.offer);
-    }
-    this.offer.hidden = !(this.intent && !this.on("book") && (this.on("card") || this.on("hand")));
     this.shelf();
   }
   layout() {
@@ -371,7 +409,7 @@ class Reader {
     const shelf = this.dock.getBoundingClientRect();
     const logo = a.wrapRef.current.querySelector(".ng-logo").getBoundingClientRect();
     const top = Math.max(68, logo.bottom + 12), end = shelf.top - 8;
-    const expanded = this.intent || (this.interacting && !this.selecting);
+    const expanded = this.interacting && !this.selecting;
     // Explicit playback borrows the preview's space while the game film is open.
     // Keep the article DOM and preference, then restore its dock when playback closes.
     const playing = !expanded && a._expandedClip && a._landFilmEl?.contains(a._expandedClip);
@@ -396,7 +434,6 @@ class Reader {
     const push = !expanded && !compact ? Math.max(0, (a._readMax || 0) - (a._readS || 0)) : 0;
     this.root.style.bottom = H - end - push + "px";
     this.root.style.height = height + "px";
-    if (this.offer) { this.offer.style.left = free.center + "px"; this.offer.style.bottom = H - end + "px"; }
     const previous = this.trayBottom, previousCard = this.cardBottom;
     this.cardBottom = !this.root.hidden && !expanded ? H - end + height + 12 : 84;
     // Short landscape has independent columns: the article sits under the quiz
@@ -413,9 +450,9 @@ class Reader {
     }
   }
   destroy() {
-    this.abort?.abort(); this.resize.disconnect(); this.root.remove(); this.dock?.remove(); this.offer?.remove();
+    this.abort?.abort(); this.resize.disconnect(); this.root.remove(); this.dock?.remove();
     document.removeEventListener("pointerup", this.selectionEnd);
-    this.app.wrapRef.current?.classList.remove("ng-reader-active", "ng-reader-no-map", "ng-reader-no-feedback");
+    this.app.wrapRef.current?.classList.remove("ng-reader-active", "ng-reader-dormant", "ng-reader-no-map", "ng-reader-no-feedback");
     this.app.__ngRoot?.classList.remove("ng-reader-no-feedback");
   }
 }

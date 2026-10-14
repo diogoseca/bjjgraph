@@ -1,13 +1,13 @@
 import { test, expect } from "@playwright/test"
 import { gzipSync } from "node:zlib"
 
-/** Reading has no first hand. This separate observation counts every localhost
+/** Reading arrives with dormant controls. This separate observation counts every localhost
  * response requested through complete article readiness, including the full HTML
  * documents, bridge, renderer and stylesheet. No payload budget or baseline is
  * changed or inferred from the result. Third parties are blocked, as in the game
  * first-hand gate. It exercises real boot and delivery, without the gameplay DSL.
  */
-test("@curated reading-ready payload counts delivery without inventing a hand", async ({ page }, info) => {
+test("@curated reading-ready payload counts delivery with dormant controls", async ({ page }, info) => {
   await page.setViewportSize({ width: 1366, height: 768 })
   await page.addInitScript(() => {
     const blob = { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false,
@@ -51,10 +51,10 @@ test("@curated reading-ready payload counts delivery without inventing a hand", 
     return { readyAt: (window as any).__readingReadyAt as number,
       starts: performance.getEntriesByType("resource").map(e => [e.name, e.startTime] as const),
       hand: document.querySelectorAll("[data-tech]").length, current: a.currentPos ?? null, played: !!a._played, staged: !!a._staged,
-      question: !!a._landQ, intent: !!a._readerIntent }
+      question: !!a._landQ, intent: !!a._readerIntent, paused: a.paused, clock: a._decision?.remaining ?? null }
   })
   expect(measured.readyAt).toBeGreaterThan(0)
-  expect(measured).toMatchObject({ hand: 0, current: null, played: false, staged: false, question: false, intent: true })
+  expect(measured).toMatchObject({ played: false, intent: true, paused: true, clock: null })
   for (const [url, start] of measured.starts) if (start > measured.readyAt) requested.delete(url)
   const byUrl = new Map((await Promise.all(bodies)).filter(row => row && requested.has(row.url)).map(row => [row!.url, row!]))
   expect([...requested].filter(url => !byUrl.has(url)), "no requested response is scored as free").toEqual([])
@@ -65,7 +65,7 @@ test("@curated reading-ready payload counts delivery without inventing a hand", 
   for (const path of ["/static/neural/app/reader.js", "/static/neural/app/reading.css", "/Transitions/Knee-Slice-Pass", "/Transitions/Knee-Slice-Pass/Attacker"]) {
     expect(rows.some(row => row.url === path), `delivery includes ${path}`).toBe(true)
   }
-  const report = { note: "Observed reading-ready delivery; no hand and no threshold change.",
+  const report = { note: "Observed reading-ready delivery; dormant controls and no threshold change.",
     reading_ready_ms: measured.readyAt, request_count: rows.length,
     reading_ready_raw_bytes: rows.reduce((sum, row) => sum + row.raw, 0),
     reading_ready_gzip_bytes: rows.reduce((sum, row) => sum + row.gzip, 0), rows }

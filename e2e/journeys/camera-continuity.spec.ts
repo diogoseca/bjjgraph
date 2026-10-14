@@ -245,7 +245,6 @@ const openMountInExplore = async (page: Page, j: ReturnType<typeof journey>) => 
 const clickMount = async (page: Page, j: ReturnType<typeof journey>) => {
   await j.clickByMouse('[data-cam-test="mount"]', "read Mount from Explore");
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  await j.clickByMouse('[data-reader-practice]', "explicitly practice the selected page");
 };
 
 for (const viewport of VIEWPORTS) {

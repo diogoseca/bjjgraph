@@ -68,7 +68,7 @@ const boot = async (page: Page) => {
   }
   await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click();
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-  await j.clickByMouse('[data-reader-practice]', 'open the optional System study controls');
+  await j.clickByMouse('[data-reader-study]', 'open the optional System study controls');
   await expect(page.locator("[data-system-coverage]")).toBeVisible();
   await expect(page.locator("[data-system-sources]")).toBeVisible();
   await page.evaluate(() => document.fonts.ready);

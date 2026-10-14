@@ -2,7 +2,7 @@ import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /** Complete article journeys for #289. Published HTML is real; the DSL controls
- * gameplay only. MDP-manifest sandbox controls, 2026-10-09: 24 final variants
+ * gameplay only. Historical PRE-OWNERQ1 controls, 2026-10-09: 24 final variants
  * rejected by 44 assertion failures, with emitted-byte differentials checked.
  *
  * m01 truncated prose: 9 full-HTML comparisons fail across all named page types.
@@ -34,6 +34,11 @@ import { journey } from "../dsl"
  * m23 hidden preview: prose visibility/hit-testing fails before any click.
  * m24b eager reader import: the real first-hand gate names reader.js as banned.
  *
+ * OWNERQ1 supersedes m02/m04/m20: content arrivals now keep dormant controls and
+ * have no Practice gate. Current controls live in reading-contract/navigation.
+ * m37 (2026-10-14) resets saved Focus on arrival: both reload journeys fail on
+ * the missing hidden-film restore target. It replaces m04's old zero-deal proof.
+ *
  * Invalid attempts are NOT kills: m14 did not compile; m24 selected zero tests.
  * The first m03 selection setup targeted a now-hidden title; m03b selects actual
  * prose and replaces that evidence. Original logs remain in the delivery report.
@@ -61,8 +66,8 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect(page.locator(READY)).toBeVisible({ timeout: 20000 })
     await expect(page.locator("[data-land-more]")).toHaveCount(0)
     await expect(page.locator("[data-reader-body]")).toContainText("Training Progressions")
-    expect((await state(page)).intent).toBe(false)
-    const prose = await page.locator('[data-reader-article="hub"] [data-source-id="overview"] > p').first().evaluate(el => {
+    expect((await state(page)).intent).toBe(true)
+    const prose = await page.locator('[data-reader-body] [data-source-id="overview"] > p').first().evaluate(el => {
       const r = el.getBoundingClientRect(), box = el.closest('[data-reader]')!.getBoundingClientRect()
       const y = Math.max(r.top, box.top) + 12, x = r.left + 10
       const hit = document.elementFromPoint(x, y)
@@ -72,13 +77,13 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     expect(prose.text, "the immediate preview contains authored prose").toBeGreaterThan(80)
     expect(prose, "a real prose line is visible before any disclosure click").toMatchObject({ visible: "visible", lineVisible: true, hit: true })
     await j.clickByMouse("[data-reading-focus]", "one-click Focus on reading")
-    await expect.poll(() => state(page)).toMatchObject({ intent: true, hand: 0, question: false, staged: false, focus: true })
+    await expect.poll(() => state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
     await expect(page.locator(READY)).toBeVisible()
     for (const part of ["film", "card", "hand", "map", "feedback"]) {
       await j.clickByMouse(`[data-layer-show="${part}"]`, `restore ${part}`)
       await expect(page.locator(`[data-layer-hide="${part}"]`)).toBeVisible()
       if (part === "map" || part === "feedback") expect(await page.evaluate(p => { const a = (window as any).__neural; return getComputedStyle(p === "map" ? a.canvas : a.evRef.current).visibility }, part)).toBe("visible")
-      expect((await state(page)).hand, "restoration never creates a hand").toBe(0)
+      expect((await state(page)).deals, "restoration never deals or starts play").toBe(0)
       await j.clickByMouse(`[data-layer-hide="${part}"]`, `minimize ${part}`)
       if (part === "map" || part === "feedback") expect(await page.evaluate(p => { const a = (window as any).__neural; return getComputedStyle(p === "map" ? a.canvas : a.evRef.current).visibility }, part)).toBe("hidden")
     }
@@ -98,7 +103,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await expect(page.locator(READY)).toBeVisible()
     await expect(page.locator('[data-layer-hide="map"]')).toBeVisible()
     for (const part of ["film", "card", "hand", "feedback"]) await expect(page.locator(`[data-layer-show="${part}"]`)).toBeVisible()
-    expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false, focus: true, deals: 0 })
+    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
     await page.locator('[data-layer-hide="book"]').focus()
     await page.keyboard.press("Enter")
     await expect(page.locator("[data-reader]")).toBeHidden()
@@ -108,7 +113,7 @@ for (const viewport of [{ width: 1366, height: 768 }, { width: 390, height: 844 
     await page.locator('[data-layer-show="book"]').focus()
     await page.keyboard.press("Enter")
     await expect(page.locator(READY)).toBeVisible()
-    expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false, focus: true, deals: 0 })
+    expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null, focus: true, deals: 0 })
   })
 }
 
@@ -150,10 +155,10 @@ test("@curated reading perspectives and Back retain canonical content without ga
     return [...doc.querySelectorAll("article p,article li")].map(e => norm(e.textContent || "")).filter(s => s.length > 40 && !text.includes(s))
   }, KNEE + "/Defender")
   expect(missing, "navigation cannot reuse the previous page's HTML under a new path").toEqual([])
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
   await page.goBack()
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", KNEE)
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
 })
 
 test("@curated an automatic game article follows the bottom player's perspective", async ({ page }) => {
@@ -181,7 +186,8 @@ test("@curated a technique outside the active game ruleset remains readable on d
 for (const action of ["wheel", "selection"] as const) {
   test(`@curated mixed ${action} declines the live question without scoring a miss`, async ({ page }) => {
     const j = journey(page)
-    await j.boot("/Positions/Mount/Top")
+    await j.boot("/")
+    await j.land("Mount Top")
     await j.advance(5000)
     await expect(page.locator(READY)).toBeVisible()
     await j.landQuestion()
@@ -198,7 +204,7 @@ for (const action of ["wheel", "selection"] as const) {
       await page.mouse.wheel(0, 300)
       await expect.poll(() => page.locator("[data-reader]").evaluate(e => e.scrollTop)).toBeGreaterThan(0)
     } else {
-      const r = await page.locator('[data-reader-article="hub"] [data-source-id="overview"] > p').first().boundingBox()
+      const r = await page.locator('[data-reader-body] [data-source-id="overview"] > p').first().boundingBox()
       await page.mouse.move(r!.x + 2, r!.y + 12)
       await page.mouse.down()
       await page.mouse.move(r!.x + Math.min(r!.width - 2, 90), r!.y + 12, { steps: 10 })
@@ -221,14 +227,14 @@ test("@curated Browse and linked content keep reading intent through positions, 
   await expect(star).toHaveCount(1)
   await j.clickByMouse('div:has(> [data-list-surface="explore"][data-list-add="Positions/Mount"]) > button:first-child', "read the Mount search result")
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", /\/Positions\/Mount(?:\/Top)?$/)
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
   const link = page.locator('[data-reader-body] a[href*="/Transitions/"]').first()
   const url = new URL(await link.getAttribute("href")!, page.url())
   await link.scrollIntoViewIfNeeded()
   await link.evaluate(e => e.setAttribute("data-reading-link", ""))
   await j.clickByMouse("[data-reading-link]", "a linked technique")
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", decodeURI(url.pathname))
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
   await j.clickByMouse("[data-reader-browse]")
   await page.locator(".ng-explorer-search input").fill("")
   const section = page.locator('[data-explore-section="Principles"]')
@@ -237,10 +243,10 @@ test("@curated Browse and linked content keep reading intent through positions, 
   await principle.scrollIntoViewIfNeeded()
   await j.clickByMouse('[data-concept-row="Principles/Base"]')
   await expect(page.locator(READY)).toHaveAttribute("data-reader-path", "/Principles/Base")
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
 })
 
-test("@curated heading links focus the cloned article and Practice stays explicit with Book minimized", async ({ page }) => {
+test("@curated heading links focus the cloned article and a restored question starts play with Book minimized", async ({ page }) => {
   const j = journey(page)
   await j.boot(KNEE, { initialState: { v: 2, settings: { readingFocus: true, readingFilm: false, readingCard: false, readingHand: false, readingFeedback: false }, settingsAt: {} } })
   await expect(page.locator(READY)).toBeVisible()
@@ -255,10 +261,12 @@ test("@curated heading links focus the cloned article and Practice stays explici
   expect(await page.evaluate(() => (document.activeElement as HTMLElement)?.dataset.sourceId)).toBe(decodeURIComponent(hash.slice(1)))
   await j.clickByMouse('[data-layer-hide="book"]')
   await j.clickByMouse('[data-layer-show="card"]')
-  await expect(page.locator('[data-reader-practice-offer]')).toBeVisible()
+  await expect(page.locator('[data-reader-practice-offer]')).toHaveCount(0)
+  const q = await j.landQuestion()
+  expect(q).not.toBeNull()
   await j.advance(20000)
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
-  await j.clickByMouse('[data-reader-practice-offer]')
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, 'answer the restored question directly')
   await expect.poll(() => state(page)).toMatchObject({ intent: false, focus: false })
   await j.advance(1000)
   expect((await state(page)).hand).toBeGreaterThan(0)
@@ -288,5 +296,5 @@ test("@curated reading videos have one explicit owner and stop when Videos or Bo
   await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
   await j.clickByMouse('[data-layer-show="book"]')
   await expect(page.locator('[data-reader] iframe')).toHaveCount(0)
-  expect(await state(page)).toMatchObject({ intent: true, hand: 0, question: false })
+  expect(await state(page)).toMatchObject({ intent: true, paused: true, clock: null })
 })
