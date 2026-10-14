@@ -10883,6 +10883,25 @@ two instead of six for the sequence 404, 200, 404, 200, 200, 200.
 The live dev check printed READY (1/3), (2/3), and (3/3) at 0, 5, and 10 seconds,
 then navigated and played a move with CSP present and no console offenders.
 
+## v1.224.15 — Content bots default to Claude Opus 5.5 (2026-10-14)
+
+The owner's September 24 instruction, confirmed October 14, now reaches the shared
+default: `models.env` and the resolver's missing-file fallback both select
+`claude-opus-5-5`. The eight default-tier scripts and three workflows already use
+that resolver; the deep and fast tiers and reasoning effort are unchanged.
+The offline CLI test pins the configured and missing-file paths and their agreement,
+with the environment override unset. It fails by name on the old `claude-opus-5`
+default. Verification makes no paid inference calls.
+
+## v1.224.16 — The deep model tier moves to Claude Opus 5.5 (2026-10-14)
+
+The owner's October 14 follow-up also selects `claude-opus-5-5` for the deep tier,
+in both `models.env` and the resolver's fallback. Its callers are `draft_curriculum.py`
+and `regen_mc_answers.py`; no workflow selects this tier. The default, fast tier,
+and effort keep their existing values. The offline CLI test now checks default and
+deep with and without the config file. The old deep value fails the named deep case
+while the default case stays green. Verification makes no paid inference calls.
+
 ## v1.225.0 — A reading-first way through the content (issue #289)
 
 More showed an abridged dossier, disappeared with the question card and led readers back into
