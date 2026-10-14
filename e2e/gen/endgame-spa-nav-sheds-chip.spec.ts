@@ -195,14 +195,14 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
         beats: ((a.beats || []) as any[]).map((b) => b.beat),
       }
     }, refName)
-  const assertShed = (life: string, c: Awaited<ReturnType<typeof census>>) => {
+  const assertShed = (life: string, c: Awaited<ReturnType<typeof census>>, beats: string[]) => {
     expect(c.sameDoc, `${life}: soft nav stayed same-document (canonical slug — the alias stub hard-navigates)`).toBe(true)
     expect(c.sameRef, `${life}: remount is a NEW instance, not the old ref`).toBe(false)
     expect(c.roots, `${life}: exactly one #neural-root — the old overlay root left with its life`).toBe(1)
     expect(c.combo, `${life}: (_combo||0) === 0 — the meter never existed on this instance`).toBe(0)
     expect(c.chips, `${life}: zero [data-momentum] anywhere in the document — no ghost chip`).toBe(0)
     expect(c.pops, `${life}: zero [data-combo-pop] anywhere in the document — the live pop died with __ngRoot`).toBe(0)
-    expect(c.beats, `${life}: fresh beat stream is EMPTY (hence no combo_break)`).toEqual([])
+    expect(c.beats, `${life}: exactly this arrival's beats, no combo_break or earlier life residue`).toEqual(beats)
   }
 
   // ── NAV 1 mid-streak → /Positions/Mount ──
@@ -213,7 +213,10 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
   })
   await page.evaluate(() => (window as any).spaNavigate(new URL("/Positions/Mount", location.origin)))
   await waitRemount(1)
-  assertShed("life 2", await census("__probeRef1"))
+  await expect(page.locator('[data-reader-ready="true"][data-reader-path="/Positions/Mount"]')).toBeVisible()
+  await j.landSettled()
+  expect(await page.evaluate(() => { const a = (window as any).__neural; return { intent: a._readerIntent, paused: a.paused, clock: a._decision?.remaining ?? null, played: !!a._played } })).toEqual({ intent: true, paused: true, clock: null, played: false })
+  assertShed("life 2", await census("__probeRef1"), ["land", "beacon_moved", "mc_shown", "land_q_shown"])
 
   // ── NAV 2 back home → / ──
   await page.evaluate(() => {
@@ -223,7 +226,7 @@ test("×2 streak (pop live in DOM) → two soft navs: each remount boots combo-c
   })
   await page.evaluate(() => (window as any).spaNavigate(new URL("/", location.origin)))
   await waitRemount(2)
-  assertShed("life 3", await census("__probeRef2"))
+  assertShed("life 3", await census("__probeRef2"), [])
 
   // ── non-vacuity: life 3 is first-class — a fresh land pumps a clean stream and a NEW
   // landing question asks (unanswered — no combo state is minted by merely asking) ──

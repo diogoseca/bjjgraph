@@ -61,7 +61,7 @@ const challengeFeedbackCSS = readFileSync(
 const systemsCSS = readFileSync(R("src/systems.css"), "utf8");
 const conceptsCSS = readFileSync(R("src/concepts.css"), "utf8");
 // THE READING STYLESHEET IS READ HERE AND DELIBERATELY NOT JOINED INTO `cssJoined` (v1.194.0).
-// It is emitted as its own artifact below and fetched on the first press of More. See the long
+// It is emitted as its own artifact below and fetched by the deferred reader. See the long
 // note at the top of src/reading.css for why, and the both-halves assertion after the emit.
 const readingCSS = readFileSync(R("src/reading.css"), "utf8");
 
@@ -450,6 +450,12 @@ await build({
   outfile: R("dist/settings-ui.js"), logLevel: "info",
 });
 
+// Independent article renderer: requested on reading intent or after the real first hand.
+await build({
+  entryPoints: [R("src/reader.src.js")], bundle: true, format: "esm", target: "es2019",
+  minify: true, legalComments: "none", outfile: R("dist/reader.js"), logLevel: "info",
+});
+
 await build({
   entryPoints: [R("build/.tmp/entry.tsx")],
   bundle: true,
@@ -486,9 +492,8 @@ const cssJoined = [
 // Reference-page styles are requested with their deferred indexes. The game boot should not
 // pay for a reader it never opens. Both local refresh commands copy every built app asset.
 //
-// NAMED `reference.css`, NOT `readers.css` (renamed before either branch merged). The More
-// fold's own deferred stylesheet is `reading.css`, emitted a few lines below by
-// `discuss/readinghtml-landmore-reading-panel-redesign-neural`. Two files one letter apart in
+// NAMED `reference.css`, NOT `readers.css` (renamed before either branch merged).
+// The article and option-sheet stylesheet is `reading.css`, emitted below. Two files one letter apart in
 // one directory, serving surfaces that share no selector, no class name and no declaration
 // set, is a wrong-file edit waiting to happen (CLAUDE.md 6.7). `reference.css` also says what
 // it holds: Systems, Principles and Learning are REFERENCE PAGES, the owner's own words in
@@ -545,7 +550,7 @@ writeFileSync(R("dist/reading.css"), readMin);
 // satisfied by an empty or missing reading.css, and "present in reading.css" is satisfied by a
 // build that ALSO left them in the eager sheet — which would ship them twice and save nothing.
 // A filename ban cannot see rules embedded in another file; only this can.
-const READ_PROBE = [".r-s", ".r-toc"];
+const READ_PROBE = [".r-s", ".ng-reader-contents"];
 for (const sel of READ_PROBE) {
   if (!readMin.includes(sel)) {
     throw new Error(

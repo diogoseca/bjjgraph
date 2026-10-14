@@ -1260,7 +1260,7 @@
    "L": "fresh-visitor",
    "F": "spa-nav",
    "B": "idempotence",
-   "invariant": "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (empty beats array, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners).",
+   "invariant": "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (only its own dormant-arrival beats on a content URL, empty beats on home, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners).",
    "origin": "auto",
    "status": "accepted",
    "wave": 1,

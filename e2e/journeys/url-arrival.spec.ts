@@ -77,15 +77,20 @@ type Any = any
  * Rails: __neural._urlSeeded, ._urlSeedIdx, ._urlSeedRole, ._played, ._pastRolls, .paused
  */
 
-const arrival = (page: Page) =>
-  page.evaluate(() => {
+const arrival = async (page: Page) => {
+  // Content arrivals seat after the deferred reader loads. Pumping the game clock
+  // does not settle HTTP; observe the actual board before measuring its camera.
+  await page.waitForFunction(() => { const a = (window as Any).__neural; return !!a?.nodes[a.currentPos] })
+  return page.evaluate(() => {
     const a = (window as Any).__neural
     const n = a.nodes[a.currentPos]
     const scale = a.W / a.cam.vw
     const nodeK = Math.max(0.4, Math.min(1, a.cam.vw / (a.graphW * 0.5)))
     const card = document.querySelector("[data-landcard]") as HTMLElement | null
     const cr = card ? card.getBoundingClientRect() : null
-    const sy = (n.y - a.cam.cy) * scale + a.H / 2
+    // Use the frame's published pair lift: n.y is the stored ground point,
+    // not the orb the visitor sees (CLAUDE.md §6.2).
+    const sy = (a._LY(n) - a.cam.cy) * scale + a.H / 2
     return {
       pos: n.t as string,
       role: a.roleLabel() as string,
@@ -99,6 +104,7 @@ const arrival = (page: Page) =>
       seeded: !!a._urlSeeded,
     }
   })
+}
 
 test("@curated a role page sets the board on THAT side, paused, and starts no roll", async ({
   page,
@@ -130,16 +136,32 @@ test("@curated a role page sets the board on THAT side, paused, and starts no ro
 test("the node it navigates to is framed clear of the landing card", async ({ page }) => {
   const j = journey(page)
   await j.boot("/Positions/Side-Control/Bottom")
+  // boot() waits for graph ingest, not the deferred reader's seat or styled article.
+  // Advancing first can spend all six seconds before the arrival flight even starts.
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible({ timeout: 15000 })
+  await j.landSettled()
   await j.advance(6000)
-  // LET THE CARD SETTLE, AND READ BETWEEN THE PUMPS. The landing card animates in: measured, its
-  // top was still at 588 on the frame the camera last aimed against and reached 376 on the next,
-  // so a camera read taken mid-settle describes nothing. A second `advance` alone is NOT enough —
-  // the intervening `arrival()` is what forces layout and lets a frame actually render between
-  // pumps (with two bare advances the reading stayed at the mid-settle value).
-  for (let i = 0; i < 3; i++) {
-    await arrival(page)
-    await j.advance(400)
-  }
+  // CSS uses wall time while the camera uses the stopped simulation clock. Poll
+  // their own completion signals, pumping between samples. Do NOT wait for the
+  // desired zoom/clearance: a settled but wrong framing must reach the assertions.
+  await expect.poll(async () => {
+    await j.advance(200)
+    return page.evaluate(() => {
+      const a = (window as Any).__neural, m = a._cm
+      const card = document.querySelector("[data-landcard]")
+      card?.getBoundingClientRect() // flush layout before observing its transitions
+      const animating = card?.getAnimations({ subtree: true }).some(animation =>
+        animation.playState !== "finished" && animation.playState !== "idle" &&
+        animation.effect?.getComputedTiming().iterations !== Infinity)
+      return {
+        flightEnded: !!m && !m.flight,
+        cameraAtRest: !!m && Math.hypot(m.v.x, m.v.y) * a.W / a.cam.vw < 0.1 &&
+          Math.abs(m.v.l) < 0.0001 && Math.abs(m.lift.v) < 0.1,
+        chromeAtRest: !!card && !animating && (!m?.edge || m.edge.t === 1),
+      }
+    })
+  }, { timeout: 15000, intervals: [50], message: "the arrival flight and landing layout finish before framing is measured" })
+    .toEqual({ flightEnded: true, cameraAtRest: true, chromeAtRest: true })
 
   const a = await arrival(page)
   expect(a.zoomFrac, "zoomed in to reading distance, not the overview").toBeLessThan(0.1)
@@ -174,7 +196,7 @@ test("the node it navigates to is framed clear of the landing card", async ({ pa
   expect(Math.abs(aim.vw - aim.wantVw), "at the same zoom").toBeLessThan(2)
 })
 
-test("pressing play is what starts the roll, and only then does it reach history", async ({
+test("answering the landing card starts play, and only then can the roll reach history", async ({
   page,
 }) => {
   const j = journey(page)
@@ -198,7 +220,9 @@ test("pressing play is what starts the roll, and only then does it reach history
   await j.boot("/Positions/Side-Control/Bottom")
   await j.advance(6000)
   expect((await arrival(page)).played, "staged again, still not played").toBe(false)
-  await page.evaluate(() => (window as Any).__neural.setPaused(false)) // the transport's play
+  const q = await j.landQuestion()
+  expect(q).not.toBeNull()
+  await j.clickByMouse(`[data-land-mc-opt="${q!.correct}"]`, "answer the selected node’s landing card")
   await j.advance(900)
   const live = await arrival(page)
   expect(live.paused, "the clock is running").toBe(false)

@@ -34,3 +34,12 @@ export async function routeSystemsDemand(page: Page, catalogue: { _meta?: any; s
   });
   return fixture;
 }
+
+// Synthetic published pages for the study-control fixtures. Browse now enters the
+// article first; these small pages do not certify the authored corpus.
+export async function routeSystemArticles(page: Page, catalogue: { systems: any[] }) {
+  const esc = (s: string) => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+  for (const system of catalogue.systems) await page.route('**/' + system.id, route => route.fulfill({
+    contentType: 'text/html', body: `<html><body data-slug="${esc(system.id)}"><h1 class="article-title">${esc(system.display_title || system.name)}</h1><article><p>${esc(system.summary || 'System fixture article.')}</p></article></body></html>`,
+  }));
+}

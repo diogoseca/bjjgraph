@@ -76,6 +76,9 @@ const NG_CHALLENGE_FEEDBACK_METHODS = {
       '</b><button type="button" data-reward-collection>View Collection</button></div><button type="button" data-reward-close aria-label="Dismiss reward">&times;</button>';
     (this.__ngRoot || document.body).appendChild(el);
     this._challengeRewardEl = el;
+    // The notice is ambient. Only its deliberate controls take input; its prose
+    // must not swallow a graph pan or an arrow in the nearby videos row.
+    for (const b of el.querySelectorAll("button")) b.style.pointerEvents = "auto";
     const dismiss = () => {
       clearTimeout(this._challengeRewardTimer);
       if (this._challengeRewardEl) this._challengeRewardEl.remove();

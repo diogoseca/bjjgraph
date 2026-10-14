@@ -43,7 +43,7 @@
 // within ..."), trading an unreachable document for a canonical URL that serves a file index. A
 // faithful harness needs rewrite rules, a different server, or a tree without the duplicates.
 // None of those is measured yet; quartz-cto is not naming a fix until one is.
-/* @hyperspace {"theme":"lifetime-journeys","L":"fresh-visitor","F":"spa-nav","B":"idempotence"} @invariant "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (empty beats array, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners)." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"fresh-visitor","F":"spa-nav","B":"idempotence"} @invariant "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (only its own dormant-arrival beats on a content URL, empty beats on home, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners)." */
 import { test, expect } from "@playwright/test";
 import { journey } from "../dsl";
 import { freshVisitor, CURRICULUM } from "./personas";
@@ -65,7 +65,7 @@ import { freshVisitor, CURRICULUM } from "./personas";
  *     the DSL's hermetic route filter
  *   - each life tagged __probeId=n; remount awaited via __probeId !== n + nodes ingested
  *     (+ flashcards.decks + curriculum before the drilling leg)
- *   - beats array FULLY EMPTY right after remount (test mode freezes the loop — safe pre-pump)
+ *   - content remount has exactly its dormant-arrival beats; home remount stays empty
  *   - (v1.104.0: the coach is deleted; the life-1 marker is the dealt hand) across soft
  *     navs (dismissCoach() guards on _coach), so life 3's post-land stream is exactly
  *     stakes,land,options_dealt,beacon_moved with exactly one land beat
@@ -170,12 +170,16 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
     (window as any).spaNavigate(new URL("/Positions/Mount", location.origin)),
   );
   await waitRemount(1);
+  await expect(page.locator('[data-reader-ready="true"][data-reader-path="/Positions/Mount"]')).toBeVisible();
+  await j.landSettled();
   const life2 = await page.evaluate(() => {
     const w = window as any;
     const a = w.__neural;
     return {
       roots: document.querySelectorAll("#neural-root").length,
       beatsLen: (a.beats || []).length,
+      beats: (a.beats || []).map((b: any) => b.beat),
+      dormant: { intent: a._readerIntent, paused: a.paused, clock: a._decision?.remaining ?? null, played: !!a._played },
       nodesLen: (a.nodes || []).length,
       isNewInstance: a !== w.__life1,
       oldDestroyed: w.__life1.__ngDestroyed === true,
@@ -196,9 +200,10 @@ test("spa nav single-instance law: two soft navs → one root, fresh instance ea
   ).toBe(true);
   expect(life2.oldRootDetached, "life-1 #neural-root left the DOM").toBe(true);
   expect(
-    life2.beatsLen,
-    "fresh instance: beats array EMPTY right after remount",
-  ).toBe(0);
+    life2.beats,
+    "fresh content instance: only its own dormant landing, no prior-life beats",
+  ).toEqual(["land", "beacon_moved", "mc_shown", "land_q_shown", "land_q_unseen"]);
+  expect(life2.dormant).toEqual({ intent: true, paused: true, clock: null, played: false });
   expect(life2.nodesLen, "fresh instance: new nodes ingested").toBeGreaterThan(
     0,
   );

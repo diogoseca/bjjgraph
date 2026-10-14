@@ -1,4 +1,4 @@
-import { routeSystemsDemand } from "./systems-demand-fixture";
+import { routeSystemsDemand, routeSystemArticles } from "./systems-demand-fixture";
 import { expect, test, type Page } from "@playwright/test";
 import { journey } from "../dsl";
 
@@ -49,6 +49,7 @@ const boot = async (page: Page) => {
   await j.boot("/");
   const data = catalog();
   await routeSystemsDemand(page, data);
+  await routeSystemArticles(page, data);
   await page.route("**/concepts.json", r => r.fulfill({ json: { concepts: [{ id: "Principles/Fixture-Frames", key: "Fixture Frames|Principle", name: "Frames reference", cat: "Principle", nodes: [] }] } }));
   await page.route("**/static/neural/content/*.json", r => r.fulfill({ json: {
     [data.systems[0].key]: body(),
@@ -66,6 +67,8 @@ const boot = async (page: Page) => {
     if ((await category.getAttribute("aria-expanded")) !== "true") await category.click();
   }
   await page.locator('[data-system-row="Systems/Fixture-Octopus"]').click();
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+  await j.clickByMouse('[data-reader-study]', 'open the optional System study controls');
   await expect(page.locator("[data-system-coverage]")).toBeVisible();
   await expect(page.locator("[data-system-sources]")).toBeVisible();
   await page.evaluate(() => document.fonts.ready);

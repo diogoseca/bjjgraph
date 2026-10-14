@@ -39,7 +39,7 @@ test("missing defenders explain the gap in sheets and never borrow attacker mate
   assert.equal(app._readingSections(node, {}, "defender", false).length, 0);
 });
 
-test("cold and unavailable sheets stay informative without inventing a More section", (t) => {
+test("cold and unavailable sheets stay informative without inventing a reading section", (t) => {
   const old = globalThis.window;
   globalThis.window = { NG_CONTENT: { decks: {} } };
   t.after(() => { if (old === undefined) delete globalThis.window; else globalThis.window = old; });
@@ -48,5 +48,5 @@ test("cold and unavailable sheets stay informative without inventing a More sect
   assert.match(app.detailHTML(node, "Transition", [], "attacker"), /Loading this breakdown/);
   window.NG_CONTENT.decks[node.t] = null;
   assert.match(app.detailHTML(node, "Transition", [], "attacker"), /This breakdown is unavailable/);
-  assert.equal(app._landMoreHTML(node, "attacker"), "");
+  assert.equal(app._readingHTML(app._readingSections(node, {}, "attacker", false), "sheet"), "");
 });

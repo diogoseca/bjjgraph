@@ -1,56 +1,10 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey, type Journey } from "../dsl"
 
-/**
- * THE LAYER DOCK — AND THE REPLAY BAR — CENTRE ON THE COLUMN, NOT ON THE VIEWPORT (owner, 2026-09-23).
- *
- * "When i click close on some element like the flashcard/landcard after i opened/expanded the More
- * container, i see the dock icons but they're not rightly centered since i have the left side
- * panel open, so they should be centered like the rest."
- *
- * The pane-aware layout moves the card, its stack, nav, More and the film to the MEASURED centre
- * of the space the pane leaves (`_paneLayout` → `_layoutLandHorizontal`, every frame). The layer
- * dock kept a literal `left:50%` — measured 180px left of the card at a 360px pane, at 1440 and at
- * 1024 — and so did the replay bar, which stands in for the card while a film runs and is started
- * FROM the pane (at 1024 it also painted over the pane's right 108px). Both now take the column's
- * centre from that same per-frame writer; in the short-landscape composition, whose left column
- * sits under an open pane, they centre on the free area instead.
- *
- * Geometry is read from what the frame PUBLISHED — the rendered rects of the dock and of the
- * sibling it belongs under (the card; the film when the card is put away) — never recomputed here
- * (§6.3). The two claims that have no sibling to compare against are stated against the viewport
- * and the pane's own rect: "where it always was" (innerWidth / 2, pane shut) and "clear of the
- * pane" (left edge past the pane's right edge). Every control is pressed with `j.clickByMouse`,
- * which also proves reachability (§6.1).
- *
- * Harness: the DSL serves {} for dossier chunks, so the film and More are AUTHORED in `setup`;
- * without them the owner's path (More open, then the card's ✕) and "under the film" have nothing
- * to be measured against. The DSL stops the free-running frame loop, so a read taken right after a
- * click, with no `advance`, is the dock's FIRST frame.
- *
- * RED FIRST: on the pre-fix bundle 7 of these 9 are red (dock 720 vs film 900 at 1440, 512 vs 692
- * at 1024, 400 vs 524 at 800; replay bar 720 vs card 900); short landscape and the phone are
- * guards, green on both builds by design — neither viewport moved with the pane.
- *
- * MUTANTS — 11 of 11 killed by a named assertion, 0 by timeout (v1.196.1, own build, :private):
- *   M1  the pre-fix dock (literal left:50%, outside the seam)   → owner path ×3, animation, resize
- *   M2  chrome re-centred every frame on the VIEWPORT           → owner path ×3, animation, resize, replay ×2
- *   M3  chrome jumps to the pane's TARGET centre                → animation ("frame 0: 900 vs 741")
- *   M4  `_renderLayerDock` does not lay itself out              → phone (the cue's first frame)
- *   M5  short landscape follows the deck column                 → short landscape (at the pane-SHUT line)
- *   M6  the replay bar left out of the seam                     → replay ×2
- *   M7  the phone share-cue step-aside dropped                  → phone
- *   M8  the phone 44px targets dropped                          → phone, and land-layers.spec's phone test
- *   M9  chrome clamps on its own width even under a card        → owner path at 800 (the clamped card)
- *   M10 the old early return (`!card && !film`)                 → owner path ×3 ("alone, … clear of the pane")
- *   M11 the half-fix: dock `left` computed once at render       → owner path at 800, animation, resize
- * NOT PINNED HERE: "no glyph under the cue's pill" can fail for no mutant today — the cue sits at
- * bottom:84, above the dock's band — so it records intent, not a gate. The short-landscape
- * "clear of the pane" line has no mutant of its own (M5 dies one line earlier). The read-before-
- * write order in `_layoutLandHorizontal` is a performance property no journey can see. Below
- * ~1030px the column itself overlaps beneath the pane by design, and the root-plane replay bar
- * paints over that overlap: not asserted, an open stacking question.
- */
+/** The labeled shelf follows the article's measured column beside Browse.
+ * Films are authored because the DSL omits dossiers. Replay retains its original
+ * card-column tests. Old More/dock mutants describe the retired geometry; reader
+ * mutation results are recorded in reading-mode.spec.ts. */
 
 async function settle(page: Page, j: Journey) {
   await j.advance(100)
@@ -77,14 +31,15 @@ async function setup(page: Page) {
     a.onContentReady(key)
   })
   await expect(page.locator("[data-land-film] .ng-clip")).toHaveCount(2)
-  await expect(page.locator("[data-land-more]")).toBeVisible()
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await settle(page, j)
+  if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]', 'dismiss the earned patch before measuring dock controls')
   return j
 }
 
 type Box = { l: number; r: number; t: number; b: number; w: number; h: number; c: number }
 type Geo = {
-  W: number; pane: Box | null; card: Box | null; film: Box | null; dock: Box | null; replay: Box | null
+  W: number; pane: Box | null; card: Box | null; article: Box | null; film: Box | null; dock: Box | null; replay: Box | null
   glyphs: { layer: string | null; box: Box; own: boolean }[]
 }
 
@@ -98,7 +53,7 @@ const geo = (page: Page): Promise<Geo> => page.evaluate(() => {
   return {
     W: innerWidth,
     pane: pane && getComputedStyle(pane).display !== "none" ? rect(pane) : null,
-    card: box("[data-landcard]"), film: box("[data-land-film]"), dock: box("[data-layer-dock]"),
+    card: box("[data-landcard]"), article: box("[data-reader]"), film: box("[data-land-film]"), dock: box("[data-layer-dock]"),
     replay: box("[data-replay-bar]"),
     glyphs: Array.from(document.querySelectorAll("[data-layer-show]")).map((b) => {
       const q = rect(b)
@@ -122,7 +77,7 @@ const openPane = async (page: Page, j: Journey) => {
 const closePane = (j: Journey) => j.clickByMouse(".ng-explorer-close", "the pane close button")
 
 for (const width of [1440, 1024, 800]) {
-  test(`@curated ${width}px with the pane open, the dock sits under the column: the owner's More → ✕ path, then the film's ✕`, async ({ page }) => {
+  test(`@curated ${width}px with the pane open, the dock sits under the column: the article stays when the question is minimized, then the film's ✕`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     const j = await setup(page)
     const shut = await geo(page)
@@ -132,30 +87,29 @@ for (const width of [1440, 1024, 800]) {
     expect(open.card!.c - shut.card!.c, "premise: the column moved right for the pane").toBeGreaterThan(40)
 
     // ── the owner's path: the reading column open, then the card put away ──
-    await j.clickByMouse("[data-land-more]", "More, with the pane open")
-    await settle(page, j)
     await j.clickByMouse("[data-land-close]", "the card's ✕ while More is open")
     const first = await geo(page)
     expect(first.glyphs.map((g) => g.layer), "the dock offers the card back").toEqual(["card"])
     expect(first.card, "the card layer is away").toBeNull()
-    same(first.dock?.c, first.film?.c, "the dock's FIRST frame sits under the film strip")
+    same(first.dock?.c, first.article?.c, "the dock's FIRST frame sits under the film strip")
     await settle(page, j)
     const put = await geo(page)
-    same(put.dock?.c, put.film?.c, "settled, the dock sits under the film strip")
+    same(put.dock?.c, put.article?.c, "settled, the dock sits under the film strip")
     expect(put.dock!.l, "…clear of the pane").toBeGreaterThan(put.pane!.r)
     await j.clickByMouse('[data-layer-show="card"]', "the dock's card glyph, beside the open pane")
     await settle(page, j)
-    expect((await geo(page)).dock, "every layer is back: the dock is removed").toBeNull()
+    expect((await geo(page)).dock, "the labeled shelf remains available").not.toBeNull()
 
+    if (await page.locator("[data-reward-close]").isVisible()) await j.clickByMouse("[data-reward-close]")
     // ── the film put away: now the card itself is what the dock sits under ──
     await j.clickByMouse("[data-film-close]", "the film's ✕, with the pane open")
     const f1 = await geo(page)
     expect(f1.glyphs.map((g) => g.layer)).toEqual(["film"])
-    same(f1.dock?.c, f1.card?.c, "the dock's FIRST frame sits under the card")
+    same(f1.dock?.c, f1.article?.c, "the dock's FIRST frame sits under the card")
     await settle(page, j)
     const f2 = await geo(page)
-    same(f2.dock?.c, f2.card?.c, "settled, the dock sits under the card")
-    same(f2.card?.c, open.card?.c, "premise: the toggles did not move the column")
+    same(f2.dock?.c, f2.article?.c, "settled, the dock sits under the card")
+    same(f2.article?.c, open.article?.c, "the toggles preserve the article column")
     expect(f2.dock!.l, "…clear of the pane").toBeGreaterThan(f2.pane!.r)
 
     // ── and the card too: NO column member is left (a state with no film authored reaches this
@@ -174,8 +128,8 @@ for (const width of [1440, 1024, 800]) {
     // column's, so the dock must not move when the column's last member leaves. (At 800 the card
     // is clamped — its right edge would leave the screen — so there it legitimately does move.)
     if (width >= 1024) {
-      same(n1.dock?.c, f2.card?.c, "alone, first frame: where the card's centre was")
-      same(n2.dock?.c, f2.card?.c, "alone, settled: where the card's centre was")
+      same(n1.dock?.c, f2.article?.c, "alone, first frame: where the card's centre was")
+      same(n2.dock?.c, f2.article?.c, "alone, settled: where the card's centre was")
     }
     await j.clickByMouse('[data-layer-show="card"]', "the dock's card glyph with nothing else up")
     await settle(page, j)
@@ -184,7 +138,7 @@ for (const width of [1440, 1024, 800]) {
     const back = await geo(page)
     expect(back.card, "the card came back from the dock").not.toBeNull()
     expect(back.film, "the film strip came back from the dock").not.toBeNull()
-    expect(back.dock).toBeNull()
+    expect(back.dock).not.toBeNull()
   })
 }
 
@@ -215,7 +169,7 @@ test("@curated the dock rides the pane's open AND close animation frame by frame
   for (const [label, frames] of [["opening", opening], ["closing", closing]] as const) {
     const mid = frames.filter((g) => g.card!.c > lo && g.card!.c < hi)
     expect(mid.length, `premise: ${label} frames were sampled MID-animation`).toBeGreaterThanOrEqual(3)
-    frames.forEach((g, i) => same(g.dock?.c, g.card?.c, `${label} frame ${i}: the dock travels WITH the card`))
+    frames.forEach((g, i) => same(g.dock?.c, g.article?.c, `${label} frame ${i}: the dock travels WITH the article`))
   }
   // the close is the hard half: display:none zeroes the pane's rect on the first frame, and only
   // the width `_paneLayout` retained keeps the column (and now the dock) gliding home
@@ -234,7 +188,7 @@ test("@curated resizing with the pane open re-centres the dock with the column a
     await page.setViewportSize(vp)
     await settle(page, j)
     const g = await geo(page)
-    same(g.dock?.c, g.card?.c, `${vp.width}px after a resize with the pane open: under the card`)
+    same(g.dock?.c, g.article?.c, `${vp.width}px after a resize with the pane open: under the article`)
   }
   await j.clickByMouse('[data-layer-show="film"]', "the dock's film glyph after the resizes")
   await settle(page, j)
@@ -300,12 +254,12 @@ for (const width of [1440, 1024]) {
 
 test.describe("phone", () => {
   test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
-  test("@curated the dock stays under the card, keeps its 44px targets, and still steps aside for the share cue on its first frame", async ({ page }) => {
+  test("@curated the dock stays under the card, keeps its 44px targets, and clears the share cue on its first frame", async ({ page }) => {
     const j = await setup(page)
     await j.clickByMouse("[data-film-close]", "the film's ✕")
     await settle(page, j)
     const g = await geo(page)
-    same(g.dock?.c, g.card?.c, "no cue: under the card")
+    same(g.dock?.c, g.article?.c, "no cue: under the card")
     for (const x of g.glyphs) {
       expect(x.box.w, `${x.layer}: 44px wide`).toBeGreaterThanOrEqual(44)
       expect(x.box.h, `${x.layer}: 44px tall`).toBeGreaterThanOrEqual(44)
@@ -334,7 +288,7 @@ test.describe("phone", () => {
       return { dock: d.left + d.width / 2, card: card.left + card.width / 2, cue: cue.map((q) => ({ l: q.left, r: q.right, t: q.top, b: q.bottom })), glyphs }
     })
     expect(cued.cue.length, "premise: the cue's pill is up").toBeGreaterThan(0)
-    expect(cued.dock, "with the cue live the dock steps LEFT of the column").toBeLessThan(cued.card - 20)
+    expect(cued.dock, "the shelf remains centered; it clears the cue vertically").toBeCloseTo(cued.card, 0)
     const hits = (a: any, b: any) => !(a.r <= b.l || a.l >= b.r || a.b <= b.t || a.t >= b.b)
     for (const x of cued.glyphs) {
       expect(x.own, "each glyph is on screen and owns its centre on the cue's first frame").toBe(true)

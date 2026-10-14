@@ -34,7 +34,9 @@ async function setup(page: Page, recall = false) {
     return cards.length
   }, recall)
   expect(total).toBeGreaterThan(5)
+  await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   await page.waitForTimeout(350) // initial entry motion, not the transition under test
+  if (await page.locator('[data-reward-close]').isVisible()) await j.clickByMouse('[data-reward-close]', 'dismiss the harness visitor’s earned patch')
   return { j, total }
 }
 

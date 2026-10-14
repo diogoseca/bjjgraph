@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.225.0** — [A reading-first way through the content](#v12250--a-reading-first-way-through-the-content-issue-289)
+
 - [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
 
 Newest first. Where a narrative's own label disagrees with git, the real shipping version is
@@ -10899,6 +10901,36 @@ and `regen_mc_answers.py`; no workflow selects this tier. The default, fast tier
 and effort keep their existing values. The offline CLI test now checks default and
 deep with and without the config file. The old deep value fails the named deep case
 while the default case stays green. Verification makes no paid inference calls.
+
+## v1.225.0 — A reading-first way through the content (issue #289)
+
+The deferred reader replaces More with the complete article. Role isolation, shared
+safety and guarded late responses keep it correct. A labeled shelf restores six parts;
+Focus persists separate visibility settings. Content URLs select the node with dormant game controls. The
+first move or answer starts play without a Practice gate; reading never scores a
+miss. Reference arrivals light techniques before Study tools. Videos need Play.
+The question form ships separately. Payload limits stay fixed; reader.js
+is deferred and banned from first-hand requests. D-297's capture is reused.
+
+Curated missed 26 core and two generated CI failures.
+reading_test_migration.json classifies them and maps all 49 removed/renamed E2E
+declarations to 80 references, plus one unit rename. Generated remounts assert exact
+dormant beats; the known-red ledger stays empty.
+
+Map now gates hover, picking and gestures, clearing captured pointers. Real mouse
+journeys hide, click and restore a known node. Camera reservations and zoom duration
+preserve the 1.07 bound and phone central band. Fixes also retain first-Finish history,
+clear study scroll, prevent reward interception and coalesce reference paints without
+suppressing retries. Dead More branches are gone; shared renderers and tall questions remain.
+Fourteen isolated mutants produced 23 assertion failures after 21 positive controls.
+
+CI298B exposed two remaining arrival races: wait for the deferred reader before
+pumping; require camera/animation completion before measuring the unchanged <0.1 zoom.
+S3 requires finite title/role coordinates; only an absent qualifier is omitted.
+The +5 descent and filmTop - 2 clearance remain. m54_nan_role_baseline survives the
+old oracle and fails the corrected required-role assertion by name.
+
+Full core: 880 passed, 5 existing skips; generated: 101 passed. CI: 24/24; 1,260 units passed.
 
 ## v1.224.18 — Generated demotion waits for resident decks (2026-10-14)
 

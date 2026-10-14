@@ -3,18 +3,18 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "767f6cb99e6137e633abba11abf7597eb042bdb3",
+   "git_head": "d0101ce5af463c732fcdc0689ee5b96a94ff2efe",
    "inputs": {
-    "tree": "22d267c39d81d8448adec0f53f1d82b197e8c11f"
+    "tree": "ad82b2b7162b60801b84523df6abe173a99fea45"
    },
-   "package_version": "1.224.13",
+   "package_version": "1.225.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
-  "capture_tree": "/home/user/bjj-orchestrator/golden/pr-dead-clips-75b323227/pr-dead-clips-75b323227",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/reading-mode-289/capture-d9bbe3e80/pr-reading-mode-d9bbe3e80",
   "content_provenance": {
-   "capture_git_head": "75b323227fcaa4cb24c48472c8715fb969b1201f",
-   "capture_id": "b0f94acd8c0e46fab6c89ffea31053af",
+   "capture_git_head": "d9bbe3e80f842a67d6c4e4dc64eacbdbccf220ed",
+   "capture_id": "336e39f638e149cebb6e01fb90467951",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
@@ -43,12 +43,12 @@
     }
    },
    "output_identity": {
-    "files": 16001,
-    "sha256": "c2210efd31f8b660d0a6baae5c8749ef1a8897c51b9f64248fc2b457e1e776b8"
+    "files": 16002,
+    "sha256": "4314165936cceb265e37829e74e05a040978cbf35ba8eae50fc8a62899f87ec5"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/golden/pr-dead-clips-75b323227/pr-dead-clips-75b323227"
+    "/home/user/bjj-orchestrator/scratch/reading-mode-289/capture-d9bbe3e80/pr-reading-mode-d9bbe3e80"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -57,7 +57,7 @@
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
-  "count": 12,
+  "count": 13,
   "files": {
    "static/neural/app/choice-values.js": {
     "bytes": 19998,
@@ -65,21 +65,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "ed322ab3e6bafb6b682d81453d6958685455501cbbd71075ccc831d832a9213d"
+    "sha256": "c4694894f4cb6e53d5bf60a12884b4e51e9b9c2a5412985f193da6c57cf3f283"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "94025fa4d59d9e64abb050ba88777dd592c7ba41bacb152b17f91ef262865f3a",
+    "sha256": "81050ee12f690801641452fe46d3f396e4b9b7cbbb80614acc392c865d4d3de1",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "99f40fd1a72d38ab12631caaa101493976395740d2796b5310a9e3ccf0232e0a",
+    "sha256": "0ed1de806b7692d0b30cc6b6235d8b26f45dd833cd5940ccc9b6ad793da4fa03",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "178feaa92fafeb95390b10fba8bc8f109a4fcc69fd8bf4ef87659348b9186dfc",
+    "sha256": "23a593e0985782cac2673467d5ef063585fc92f1c7326377f70661daf239d1a4",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -91,17 +91,21 @@
     "sha256": "df5c7cc44b72f51be63a84b5b3e42df67bef67e448a561b176b20c0e57204f23"
    },
    "static/neural/app/neural.css": {
-    "bytes": 41201,
-    "sha256": "c82c317592daaa88c9e29bcacd2c90f3933ed5c0864aa9fd3480fb15ee8d631e"
+    "bytes": 40833,
+    "sha256": "eb801ccf8c68bee30b47c600f369dbe78022342d608ba9d610afb565af30ddcc"
    },
    "static/neural/app/neural.js": {
-    "bytes": 686827,
-    "sha256": "96e7410167829b99c7998a24dd924551cdd6744e49daba735fdaaa1173c7a942",
+    "bytes": 684895,
+    "sha256": "c76a2a01e070358f0e89ec7d65a6d59607da782aff011d28481f7cdd88639217",
     "version_token": "normalised"
    },
+   "static/neural/app/reader.js": {
+    "bytes": 16507,
+    "sha256": "407022be5ecc68fe7df5c046c6dd12af142bd1d28547c0869301a5dd655b3c81"
+   },
    "static/neural/app/reading.css": {
-    "bytes": 2104,
-    "sha256": "6f19fbb8330533c0bf2b3f6a8e2328f12df77bfd53f02021bd9564711062f206"
+    "bytes": 6733,
+    "sha256": "7ee99b55042ee543a403a30edd563bc6dcdbb1071e3a413042e4109ac902acdc"
    },
    "static/neural/app/reference.css": {
     "bytes": 15360,
@@ -139,7 +143,7 @@
   "css": 17,
   "gzip": 1,
   "html": 6212,
-  "js": 39,
+  "js": 40,
   "json_opaque": 5037,
   "json_semantic": 5,
   "text_opaque": 4665,
@@ -157,13 +161,13 @@
   "Transitions": 4101,
   "dev": 59,
   "markdown": 4599,
-  "static": 5123,
+  "static": 5124,
   "tags": 73
  },
  "census": {
   "article_headings": 94291,
   "article_links": 213116,
-  "files": 16001,
+  "files": 16002,
   "gzip_files": 1,
   "head_links": 49759,
   "html_pages": 6212,
@@ -179,7 +183,7 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5123
+  "static_files": 5124
  },
  "distinct_values": {
   "name=description": 4563,

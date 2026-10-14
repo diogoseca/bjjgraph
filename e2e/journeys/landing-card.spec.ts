@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test"
+import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
 /**
@@ -18,6 +18,19 @@ import { journey } from "../dsl"
  * Surfaces: [data-landcard] [data-land-q] [data-land-corner] [data-land-count] .ng-landmore [data-land-more] [data-land-close]
  * Beats: land_q_shown, land_q_answered {correct, tier, qMod}
  */
+
+// OWNERQ1 holds content arrivals dormant. These expiry/grace tests exercise the
+// game's original clock on a staged gameplay board; reading has its own journeys.
+async function gameBoard(page: Page, j: ReturnType<typeof journey>) {
+  await j.boot("/")
+  await j.advance(12000) // finish the root intro before staging; do not engage
+  await j.landQuestion()
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.rollFromPosition(a.nodes.findIndex((n: any) => n.id === "Positions/Side-Control"), true, "bottom")
+  })
+  await j.landQuestion()
+}
 
 /** the live MC truth (correct index + option count) — the same rail mc-flashcards.spec uses */
 const truth = (page: any) =>
@@ -219,7 +232,7 @@ test("the corner shows card position as bare text that opens nothing", async ({ 
  */
 test("@curated a timed-out question is spent — a late click grades nothing", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  await gameBoard(page, j)
   await j.advance(6000)
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top)
@@ -316,7 +329,7 @@ test("@curated a timed-out question is spent — a late click grades nothing", a
  */
 test("@curated expiry is fluid — no re-entry replay, the bar eases home", async ({ page }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  await gameBoard(page, j)
   await j.advance(6000)
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top)
@@ -376,7 +389,7 @@ test("@curated no clock before the first real interaction — then full pressure
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom") // boot only — NO land(), NO engagement
+  await gameBoard(page, j) // boot only — NO land(), NO engagement
   await j.advance(9000) // a long, slow "page load"
   for (let i = 0; i < 3; i++) {
     await page.evaluate(() => document.body.getBoundingClientRect().top)

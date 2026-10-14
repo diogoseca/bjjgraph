@@ -1,0 +1,28 @@
+name: Question
+description: Ask about using the site, browsing the content, or understanding a feature.
+title: "Question"
+labels:
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: If your question is about a particular page, include its address.
+      placeholder: https://bjjgraph.org/Positions/Mount
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Optional, if relevant to your question.
+    validations:
+      required: false
