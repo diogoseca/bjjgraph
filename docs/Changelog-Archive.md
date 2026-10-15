@@ -11014,3 +11014,16 @@ the full-core gate to the new head's four CI shards. Measured against dev dc72b9
 gzip +250 B, first-hand gzip +246 B (core +247 B), deferred raw +460 B. No payload allowance
 or accepted checkpoint changes. Earlier archive entries, including the original v1.227.0
 entry, remain verbatim; the approved general archive ceiling stays 913,038.
+
+The first review-fix full CI gate (bd87d42d4) had 907 passes, two failures and five skips.
+J6 was a STALE SPEC: it read frozen entry-time `_panicKey` as the grading identity. Holding
+the real Defender chunk reproduces the same null assertion on 79f7e09c4 and bd87d42d4;
+both render and credit the Defender correctly. J6 now controls cold and warm order and
+checks the exact authored question, mounted MC key and real mouse grade. An attacker-deck
+mutant fails both arms, including the exact rendered-key comparison in the warm arm.
+The 1440px concept failure was a PRE-EXISTING FLAKE: all ten unchanged trials passed on
+each head, but late body/Systems publication detaches the summary on both. Progress
+hydration and motion synchronization do not replace it. The spec waits for publication,
+including the harness's bounded empty-body retry, before its unchanged interaction and
+geometry assertions. Ten delayed-publication stress trials pass. No action retry or
+production change was added for these two CI failures.

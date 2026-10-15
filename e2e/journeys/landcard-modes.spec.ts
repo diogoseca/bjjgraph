@@ -44,6 +44,8 @@
 // faithful harness needs rewrite rules, a different server, or a tree without the duplicates.
 // None of those is measured yet; quartz-cto is not naming a fix until one is.
 import { test, expect } from "@playwright/test"
+import { readFileSync } from "node:fs"
+import { resolve } from "node:path"
 import { journey } from "../dsl"
 
 /**
@@ -78,12 +80,21 @@ import { journey } from "../dsl"
  *   M6b — a transition's Defender page enters the rush anyway (`ty` gate gone) → journey 6b
  *   M6c — enterDefense never late-binds the Defender deck (cold arrival: no drill) → journey 6
  *   M6d — renderLandCard ships defense without its shared chrome → journey 6
+ *   M6e — renderLandCard mounts the Attacker deck in defense → journey 6 (both orders)
+ *          Measured kill: cold rejects a premature attacker question; warm rejects the
+ *          exact Attacker key at the rendered-deck assertion (J6-attacker-deck.log).
  *   M8 — the emitter ships paragraph display-answers again (_hard_clip gone:
  *        MC starves on 532 decks and recall shows at stage 0, inverting the
  *        recognise-first progression — the owner's Americana report)         → journey 5b
  *   M9 — the option-label pass draws over the focused pair (printed twice)   → journey 5
  *   M10 — the film ignores perspective-nested clips (technique film lost)    → journey 5
  *   m56_family_hub_wrong_family — a hub stages outside its family           → journey 8
+ *
+ * CI bd87d42d4 J6 classification: STALE SPEC. The former odds-residency-key assertion
+ * fails on BOTH 79f7e09c4 and bd87d42d4 when the real Defender chunk arrives after entry
+ * (j6-original-{reviewed,current}-red.log). Both apps render and credit the Defender
+ * question in either order (ci-red-{reviewed,current}.log). J6 now proves the exact
+ * authored/rendered/grading identity with cold AND warm entry, without changing odds.
  */
 
 test.use({ hasTouch: true })
@@ -525,18 +536,38 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
   expect(blue.armed, "…and the recall question is on the clock").toBe(true)
 })
 
-// ── 6. the defending side = the rush, on arrival ─────────────────────────────────────────────
-test("a defender content arrival stays calm after an answer @curated", async ({ page }) => {
+// ── 6. v1.134.0 arrival rush superseded: every content arrival starts calm ───────────────────
+// CI bd87d42d4: the former `_panicKey` assertion confused frozen entry-time odds residency
+// with the rendered/grading key. Holding the actual Defender chunk reproduces its null failure
+// on BOTH 79f7e09c4 and bd87d42d4; reversing the fetch order passes it on both. Neither head
+// changes that assignment. Check both orders, the authored question, the mounted MC truth,
+// and the real mouse grade. Never warm everything to conceal a wrong-deck race.
+for (const cold of [true, false]) test(`a defender content arrival stays calm after an answer (${cold ? "cold" : "warm"} deck) @curated`, async ({ page }) => {
   const j = journey(page)
+  const key = "Kimura from Knee on Belly|Defender"
+  // Emitted qhash(key) chunk, served by the DSL's real per-deck residency path.
+  const chunk = "flashcards/7620da91.json"
+  const authored = JSON.parse(readFileSync(resolve(__dirname, "../../source/public/static/neural", chunk), "utf8"))[key].cards
+  const held = cold ? chunk : "submission-details/"
   // Owner 2026-10-15: arrival and its first answer/escape have no opponent catch provenance.
-  await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
+  await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender", { payloads: { [held]: { never: true } } })
   await j.advance(8000)
+  await expect.poll(() => j.payloadTimeline().filter(e => e.url.includes(held) && e.releasedAtMs === null).length).toBeGreaterThan(0)
+  if (!cold) {
+    await page.waitForFunction(k => (window as W).__neural._deckHasCards(k), key)
+    j.releasePayload(held)
+  }
   // The sim clock cannot finish the real submission-choices fetch. Wait for its
   // automatic defense handoff; no click or direct state mutation may start it.
   await page.waitForFunction(() => {
     const a = (window as W).__neural
     return a?._defendSub != null && !a._waitingSubmission
   }, null, { timeout: 20000 })
+  expect(await page.evaluate(() => (window as W).__neural._panicKey), "odds residency freezes at entry in either fetch order").toBe(cold ? null : key)
+  if (cold) {
+    await expect(page.locator("[data-land-q]")).toHaveCount(0)
+    j.releasePayload(held)
+  }
   const s = await page.evaluate(() => {
     const a = (window as W).__neural
     return {
@@ -555,8 +586,9 @@ test("a defender content arrival stays calm after an answer @curated", async ({ 
   // ── THE DRILL OPENS WHEN ITS DECK LANDS, WITH THE LANDING CARD'S CHROME ──────────────────
   // Owner, on /Submissions/Americana/from-Modified-Scarf-Hold/Defender: "the choices row is
   // also missing here? why?" — a URL arrival has no travel window, so the Defender chunk was
-  // still in flight when enterDefense chose `_panicKey`, and the drill silently never opened
-  // (vignette, Caught, one escape, no question). enterDefense now late-binds the Defender deck.
+  // still in flight when enterDefense chose its frozen odds key, and the drill silently never
+  // opened (vignette, Caught, one escape, no question). The renderer late-binds the Defender deck
+  // independently of that odds key; this test observes its actual rendered and credited key.
   // The wait below is REAL time (the chunk is a fetch); sim-time advances do not move it.
   // Kills: dropping the late-bind (no [data-landcard="defense"] ever on a cold arrival) and dropping
   // `_landCardChrome` from the shared defense renderer (no private drill chrome).
@@ -577,12 +609,18 @@ test("a defender content arrival stays calm after an answer @curated", async ({ 
   })
   await j.advance(600)
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
+  await expect(page.locator('[data-landcard="defense"] [data-panic-mc-opt]').first()).toBeVisible()
   const d = await page.evaluate(() => {
     const a = (window as W).__neural
     const card = document.querySelector('[data-landcard="defense"]') as HTMLElement
     const more = a._readerEl as HTMLElement | null
+    const question = card.querySelector("[data-land-q]")!
+    const mc = (question.querySelector('[role="radiogroup"]') as any).__ngMc
     return {
-      panicKey: a._panicKey,
+      key: a._landQ.key, mcKey: mc.key, qhash: mc.qhash, correct: mc.correct,
+      question: question.firstElementChild!.textContent,
+      cardsToday: a.cardsToday || 0,
+      shownKeys: a.beats.filter((b: any) => b.beat === "mc_shown" && b.surface === "panic").map((b: any) => b.deckKey),
       mc: card.querySelectorAll("[data-panic-mc-opt], [data-panic-reveal]").length,
       close: !!card.querySelector("[data-land-close]"),
       add: !!card.querySelector("[data-list-add]"),
@@ -591,12 +629,23 @@ test("a defender content arrival stays calm after an answer @curated", async ({ 
       beats: (a.beats || []).map((b: any) => b.beat),
     }
   })
-  expect(d.panicKey, "the drill credits the Defender deck once it lands").toMatch(/\|Defender$/)
+  expect(d.key, "the rendered question belongs to this exact Defender deck").toBe(key)
+  expect(d.mcKey, "the mounted options' own click closure grades this exact Defender deck").toBe(key)
+  expect(authored.map((c: any) => c.q), "the visible question is authored for the Defender").toContain(d.question)
+  expect(d.shownKeys.length).toBeGreaterThan(0)
+  expect([...new Set(d.shownKeys)], "no transient panic question used another deck").toEqual([key])
   expect(d.beats).toContain("panic_drill_opened")
   expect(d.mc, "the question is on the table — choices, or the recall fallback").toBeGreaterThan(0)
   expect(d.close && !d.add && d.more && !d.foot, "the drill has a close control and an independent article; capture belongs to the graph seat").toBe(true)
-  const answer = await page.evaluate(() => (window as W).__neural._mc.correct)
-  await j.clickByMouse(`[data-panic-mc-opt="${answer}"]`, "answer the dormant defender question")
+  await j.clickByMouse(`[data-panic-mc-opt="${d.correct}"]`, "answer the dormant defender question")
+  const credited = await page.evaluate(() => {
+    const a = (window as W).__neural
+    return { cardsToday: a.cardsToday, stage: a.stage,
+      correct: a.beats.filter((b: any) => b.beat === "mc_correct").map((b: any) => ({ deckKey: b.deckKey, qhash: b.qhash })) }
+  })
+  expect(credited.cardsToday).toBe(d.cardsToday + 1)
+  expect(credited.correct, "the mouse answer actually credits the rendered Defender question").toEqual([{ deckKey: key, qhash: d.qhash }])
+  expect(credited.stage, "no attacker or prior-position grade is written").toEqual({ [key]: { [d.qhash]: 1 } })
   expect(await page.evaluate(() => {
     const a = (window as W).__neural
     return { reading: a._readerIntent, paused: a.paused, vignette: !!document.querySelector('.ng-vignette'), catches: a.beats.filter((b: any) => b.beat === 'defend_start').length }
