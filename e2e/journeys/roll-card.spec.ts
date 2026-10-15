@@ -248,24 +248,23 @@ test("the film row rides the game card", async ({ page }) => {
   await j.land("Mount Top")
   await j.advance(2000)
 
-  // the row is the SAME renderer the reading surface uses, in its compact variant — and since
-  // v1.101.1 it is its OWN strip, docked immediately above the card rather than scrolling inside it
+  // The same existing host now belongs to the shared native game flow: beside
+  // practice on wide screens, above it when stacked (approved media design A).
   const film = await page.evaluate(() => {
     const a = (window as Any).__neural
     const f = a._landFilmEl
-    const q = a._landEl ? a._landEl.querySelector("[data-land-q]") : null
     if (!f) return null
-    const fr = f.getBoundingClientRect(), qr = q ? q.getBoundingClientRect() : null
-    return { clips: f.querySelectorAll(".ng-clip").length, h: fr.height, filmTop: fr.top, qTop: qr ? qr.top : null,
+    const fr = f.getBoundingClientRect(), cr = a._landEl.getBoundingClientRect(), r = a._reader
+    return { clips: f.querySelectorAll(".ng-clip").length, shared: f.parentElement === r.mediaHome && r.mediaHome.parentElement === r.game,
+             layout: r.game.dataset.mediaLayout, gapX: cr.left - fr.right, gapY: cr.top - fr.bottom,
              inCard: !!(a._landEl && a._landEl.contains(f)) }
   })
   expect(film, "the film row is up").not.toBeNull()
-  expect(film!.inCard, "outside the card, immediately above it").toBe(false)
+  expect(film!.inCard, "outside the practice card").toBe(false)
   expect(film!.clips, "with the authored clip").toBeGreaterThan(0)
-  // COMPACT ON PURPOSE: the full-size strip is ~210px and pushed the question below the
-  // landing card's capped viewport.
-  if (film!.qTop != null)
-    expect(film!.filmTop, "film reads before the question, as it always has").toBeLessThan(film!.qTop!)
+  expect(film!.shared, "one media host shares the scrollport with practice").toBe(true)
+  expect(['side-by-side', 'stacked']).toContain(film!.layout)
+  expect(film!.layout === 'side-by-side' ? film!.gapX : film!.gapY).toBeCloseTo(film!.layout === 'side-by-side' ? 60 : 12, 1)
 })
 
 test("a node you are NOT standing on still opens the GAME CARD, never a second surface", async ({

@@ -124,4 +124,29 @@ test("a target that moves LESS than a jump during a flight bends it smoothly, ne
   assert.ok(Math.abs((P.y - last.cy) * W / last.vw + H / 2 - 233) < 1, "and it still arrives at the moved target");
 });
 
-console.log("camera motion: 5 cases (flight, straight zoom, adopted write, lift, moving goal)");
+test("a paused reader's TOC exclusion does not accumulate and hiding it restores the camera", () => {
+  const readerSource = readFileSync(new URL("../neural/src/reader.src.js", import.meta.url), "utf8").replace(/^export /gm, "");
+  const Reader = new Function(readerSource + "\nreturn Reader;")();
+  const a = app(), reader = Object.create(Reader.prototype), n = { idx: 0, pi: -1, x: 0, y: 0, r: 12, ty: "submissions" };
+  a.W = 1152; a.nodes = [n]; a.focusIdx = 0; a.paused = true;
+  a._LY = q => q.y; a._paneLayout = () => ({ left: 0, shift: 0 }); a._labelWidthPx = () => 150;
+  reader.app = a; reader.on = () => true;
+  reader.contents = { hidden: false, getBoundingClientRect: () => ({ left: 928, right: 1128, top: 68, bottom: 700, width: 200 }) };
+  reader.articleEl = { getBoundingClientRect: () => ({ left: 236, right: 916, top: 68, bottom: 800, width: 680 }) };
+  const original = { cx: a.W / 2 - 980, cy: H / 2 - 300, vw: a.W };
+  a.cam = { ...original }; a.camTarget = { ...original };
+  let framed;
+  for (let i = 0; i < 180; i++) {
+    a.camTarget = reader.frameCamera(a._paneCameraTarget(a.camTarget));
+    a._camStep(DT);
+    if (!framed) framed = { ...a.cam };
+    assert.equal(a.cam.cx, framed.cx, "re-applying the occupied rectangle must not drift");
+  }
+  const drawnX = (n.x - a.cam.cx) * a.W / a.cam.vw + a.W / 2;
+  assert.ok(drawnX > 12 && drawnX + 150 + 11 + 12 < 236, "the current state fits the free left gutter");
+  reader.contents.hidden = true;
+  a.camTarget = reader.frameCamera(a._paneCameraTarget(a.camTarget)); a._camStep(DT);
+  assert.equal(a.cam.cx, original.cx, "hiding the overlay releases exactly its camera shift");
+});
+
+console.log("camera motion: 6 cases (flight, straight zoom, adopted write, lift, moving goal, reader exclusion)");

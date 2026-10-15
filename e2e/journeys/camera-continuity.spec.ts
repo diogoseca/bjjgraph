@@ -451,7 +451,9 @@ for (const viewport of VIEWPORTS) {
       // every layer off: nothing bounds the graph, so the node is framed at the screen's middle
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
       await page.evaluate(() => { const a = (window as any).__neural; for (const k of ["film", "card", "hand"]) a.setLayer(k, false, "test"); });
-      await j.advance(3000);
+      await j.clickByMouse('[data-layer-hide="book"]', "put the article away too, leaving the graph unbounded");
+      await page.waitForTimeout(80); // apply the coalesced native layout before pumping the camera
+      await j.advance(6000); // the real Book click's four-second input lease must expire first
       const before = await frame(page);
       expect(before.rows, "no rows while every layer is off").toBeNull();
       // the player turns the card and the hand back on (the layer dock): rows the camera did not predict
@@ -469,19 +471,25 @@ for (const viewport of VIEWPORTS) {
       await j.boot("/");
       await j.land("Mount Top");          // the harness serves no clips: no film row at the landing
       await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
-      // Mixed view can absorb a late film by shrinking the article preview. Put
-      // Book away here so this fixture still forces a substantial camera move.
+      // A small A film fits beside practice without moving the camera. Put the
+      // other surfaces away so the late film alone changes an unbounded band.
+      await page.evaluate(() => { const a = (window as any).__neural; a.setLayer("card", false, "test"); a.setLayer("hand", false, "test"); });
       await j.clickByMouse('[data-layer-hide="book"]', "make the late film own the clearance change");
+      await page.waitForTimeout(80);
       await j.advance(6000); // let the mouse-input camera lease and the resulting flight settle
       const before = await frame(page);
       expect(before.film, "no film row before its content arrives").toBeNull();
       // the content arrives late: the same path a hydrated dossier chunk takes
       await seedFilm(page, "Mount|Top");
-      await page.evaluate(() => (window as any).__neural._refreshReadingContent());
+      await page.evaluate(() => {
+        const a = (window as any).__neural;
+        a._refreshReadingContent();
+      });
       const S = await record(page, 60 * 2);
-      expect(S[0].film, "the late film row mounted").not.toBeNull();
+      const visible = S.findIndex(s => s.film != null);
+      expect(visible, "the late film row mounted after its coalesced layout frame").toBeGreaterThanOrEqual(0);
       expectContinuous([before, ...S], W, "late film row");
-      expectClearedWithin(S, "late film row");
+      expectClearedWithin(S.slice(visible), "late film row");
     });
   });
 }

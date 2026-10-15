@@ -2313,7 +2313,9 @@ class Component extends DCLogic {
     if (!card || !clip) return;
     if (card._expanded) return;
     if (this._expandedClip && this._expandedClip !== card) this.collapseClip(this._expandedClip);
-    card._expanded = true; this._expandedClip = card;
+    card._expanded = true; card._mediaPaused = false; card._mediaStale = false; card._mediaClip = clip; this._expandedClip = card;
+    const generation = card._mediaGeneration = (card._mediaGeneration || 0) + 1;
+    const current = () => card._expanded && card.isConnected && !card._mediaStale && card._mediaGeneration === generation;
     { const fx = this._landFilmEl && this._landFilmEl.querySelector("[data-film-close]"); if (fx) fx.style.visibility = "hidden"; } // never beside the player's own ✕
     // Principle film is reference reading. This beat awards the gameplay film challenge,
     // so it belongs only to the existing position/technique study surfaces.
@@ -2370,7 +2372,7 @@ class Component extends DCLogic {
     // capture phase, so a surface that stops propagation cannot keep the player alive behind it.
     // Registered DURING the click that expanded this card, which has already dispatched its own
     // pointerdown — so it cannot close what it just opened.
-    card._outside = (e) => { if (!card._expanded) return; if (e.target && card.contains(e.target)) return; this.collapseClip(card); };
+    card._outside = (e) => { if (!card._expanded) return; if (e.target && card.contains(e.target)) return; if (card.closest("[data-reader-media-slot],[data-land-media-slot]") && e.target?.closest("[data-section-toggle],[data-toc-eye],[data-section-link],[data-reader-part],[data-reading-focus],[data-section-settings]")) return; this.collapseClip(card); };
     document.addEventListener("pointerdown", card._outside, true);
     // TOP-CENTRE. Two axes, and they were both wrong for the same reason: the clip grew inside a
     // horizontal scroller and nothing re-placed the strip afterwards. `tweenScroll` centres the
@@ -2390,22 +2392,22 @@ class Component extends DCLogic {
         else if (top < view.top + 8) conceptList.scrollTop += top - view.top - 8;
       }
     }); }
-    const fail = () => { if (!card._expanded) return; window.open("https://www.youtube.com/watch?v=" + clip.id + (start ? "&t=" + start + "s" : ""), "_blank", "noopener"); this.collapseClip(card); };
+    const fail = () => { if (!current()) return; window.open("https://www.youtube.com/watch?v=" + clip.id + (start ? "&t=" + start + "s" : ""), "_blank", "noopener"); this.collapseClip(card); };
     this.ytApiReady().then((YT) => {
-      if (!card._expanded) return;
+      if (!current()) return;
       if (!YT || !YT.Player) { fail(); return; }
       let started = false;
       const player = new YT.Player(vhost, {
         width: "100%", height: "100%", videoId: clip.id,
-        playerVars: { autoplay: 1, mute: 1, controls: 0, disablekb: 1, start: start, end: end || undefined, rel: 0, modestbranding: 1, playsinline: 1, fs: 0, iv_load_policy: 3 },
+        playerVars: { autoplay: card._mediaPaused ? 0 : 1, mute: 1, controls: 0, disablekb: 1, start: start, end: end || undefined, rel: 0, modestbranding: 1, playsinline: 1, fs: 0, iv_load_policy: 3 },
         events: {
-          onReady: (e) => { try { const fr = e.target.getIframe && e.target.getIframe(); if (fr) fr.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture"); e.target.mute(); e.target.seekTo(start, true); e.target.playVideo(); setTimeout(() => { try { e.target.playVideo(); } catch (x) {} }, 220); } catch (x) {} },
-          onStateChange: (e) => { if (e.data === 1) { started = true; if (spin) spin.style.display = "none"; } if (e.data === YT.PlayerState.ENDED) { try { e.target.seekTo(start, true); e.target.playVideo(); } catch (x) {} } },
+          onReady: (e) => { if (!current()) return; try { const fr = e.target.getIframe && e.target.getIframe(); if (fr) fr.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture"); e.target.mute(); e.target.seekTo(start, true); if (!card._mediaPaused && current()) e.target.playVideo(); else e.target.pauseVideo(); setTimeout(() => { try { if (!card._mediaPaused && current()) e.target.playVideo(); } catch (x) {} }, 220); } catch (x) {} },
+          onStateChange: (e) => { if (!current()) return; if (e.data === 1 && (card._mediaPaused || !card._expanded || !card.isConnected)) { try { e.target.pauseVideo(); } catch (x) {} return; } if (e.data === 1) { started = true; if (spin) spin.style.display = "none"; } if (e.data === YT.PlayerState.ENDED && !card._mediaPaused && current()) { try { e.target.seekTo(start, true); e.target.playVideo(); } catch (x) {} } },
           onError: () => { fail(); }
         }
       });
       card._player = player;
-      if (end) { card._loop = setInterval(() => { try { if (player.getCurrentTime && player.getCurrentTime() >= end) player.seekTo(start, true); } catch (x) {} }, 250); }
+      if (end) { card._loop = setInterval(() => { try { if (!card._mediaPaused && current() && player.getCurrentTime && player.getCurrentTime() >= end) player.seekTo(start, true); } catch (x) {} }, 250); }
       setTimeout(() => { if (!started && spin) spin.style.display = "none"; }, 4500);
     });
   }
@@ -2413,6 +2415,7 @@ class Component extends DCLogic {
     if (!card) return;
     if (card._loop) { clearInterval(card._loop); card._loop = null; }
     if (card._player) { try { card._player.destroy(); } catch (e) {} card._player = null; }
+    card.querySelector("[data-film-resume]")?.remove();
     const ph = card.querySelector(".ngPlayerHost"); if (ph) ph.remove();
     const mb = card.querySelector(".ngMuteBtn"); if (mb) mb.remove();
     const cx = card.querySelector(".ngClipX"); if (cx) cx.remove();
@@ -3939,6 +3942,7 @@ class Component extends DCLogic {
       const clips = this._landFilmClips(n);
       if (clips) { this._renderLandFilm(clips); this._dockLandFilm(); }
     }
+    this._reader?.sync();
   }
   // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
   track(event, props) {
@@ -5560,7 +5564,7 @@ class Component extends DCLogic {
       this._settingsPresentationLoad = Promise.resolve().then(() => this._fetchSettingsPresentation(attempt))
         .then((runtime) => {
           if (this.__ngDestroyed || !this._progressCurrent()) throw new Error("Settings owner changed");
-          runtime.ngInstallSettingsPresentation(this, {
+          return runtime.ngInstallSettingsPresentation(this, {
             expectedBuild: NG_SETTINGS_UI_BUILD,
             NG_SETTINGS_TABS, NG_START_FROM,
           });
@@ -11344,6 +11348,7 @@ class Component extends DCLogic {
     // `visible` to escape it, and it removes the subtree from hit-testing outright. `!important`
     // is required for the same reason as opacity above: a running entry animation outranks it.
     for (const t of surfaces) {
+      if (this._reader?.placesMedia(t)) continue;
       if (hide) { t.style.setProperty("opacity", "0", "important"); t.style.pointerEvents = "none"; t.style.setProperty("visibility", "hidden", "important"); }
       else { t.style.removeProperty("opacity"); t.style.pointerEvents = t._ngRestPointerEvents || ""; t.style.removeProperty("visibility"); }
     }
@@ -13076,9 +13081,9 @@ class Component extends DCLogic {
     const center = compact ? W * .28 : anchor ? fit(anchor) : 0;
     const chromeAt = chrome.map((el) => (anchor && !compact ? center : fit(el)));
     for (const el of [card, this._landStackEl, this._landNavEl]) {
-      if (el) el.style.left = center + "px";
+      if (el && !el.hasAttribute("data-reader-game-part")) el.style.left = center + "px";
     }
-    if (film) film.style.left = (compact ? W * .78 : center) + "px";
+    if (film && !this._reader?.placesMedia(film)) film.style.left = (compact ? W * .78 : center) + "px";
     chrome.forEach((el, i) => { el.style.left = chromeAt[i] + "px"; });
     this._reader?.layout();
   }
@@ -14654,15 +14659,42 @@ class Component extends DCLogic {
     this._readClear();
   }
   // the film strip is an INDEPENDENT layer sibling (v1.171.0)
+  // Non-destructive suspension belongs to the media owner. It is used by
+  // section collapse and the appendChild fallback, and never resumes implicitly.
+  pauseLandFilm() {
+    const host = this._landFilmEl;
+    if (!host) return;
+    for (const card of host.querySelectorAll(".ng-clip")) {
+      if (!card._expanded && !card._player) continue;
+      card._mediaPaused = true;
+      try { card._player?.pauseVideo(); } catch (e) {}
+      this._reader?.resumeFilm(card);
+    }
+  }
+  // appendChild reloads an embed. Its old API object is no longer a live player;
+  // callbacks carry a generation, and only an explicit normal play can bind anew.
+  _landFilmMoved() {
+    for (const card of this._landFilmEl?.querySelectorAll(".ng-clip") || []) {
+      if (!card._expanded) continue;
+      card._mediaPaused = true; card._mediaStale = true;
+      card._mediaGeneration = (card._mediaGeneration || 0) + 1;
+      if (card._loop) { clearInterval(card._loop); card._loop = null; }
+      card._player = null;
+      // A reloaded autoplay URL can start without an API callback. Keep the
+      // same iframe stopped; only the normal Play path binds a new player.
+      const frame = card.querySelector("iframe");
+      if (frame) { frame.removeAttribute("srcdoc"); frame.src = "about:blank"; }
+    }
+  }
   _clearLandFilm() {
     if (this._landFilmEl) { this.clearClipLoops(); if (this._landFilmEl._ngRO) this._landFilmEl._ngRO.disconnect(); try { this._landFilmEl.remove(); } catch (e) {} this._landFilmEl = null; }
   }
   /** Full card-slot teardown; a same-question repaint preserves its scroll offset. */
-  clearLandCard(preserveScroll) {
+  clearLandCard(preserveScroll, preserveMedia) {
     if (!preserveScroll) this._readS = 0;
     this._clearLandCardOnly();
     this._landIdx = null; this._landMode = null;
-    this._clearLandFilm();
+    if (!preserveMedia) this._clearLandFilm();
   }
   // ── LATE PAYLOAD BACKFILL ── the comprehension payloads are deferred on purpose (decks 4.3MB
   // gz, dossier content 5.3MB gz — first paint must not wait on them) and on a measured Fast-4G
@@ -14889,12 +14921,14 @@ class Component extends DCLogic {
     this._dockLandCard(el);
   }
   _compactLandDeck() {
+    if (this._landEl?.hasAttribute("data-reader-game-part")) return false;
     return !!(this._landEl && this._landEl.classList.contains("ng-land-deck") &&
       window.matchMedia("(min-width:700px) and (max-height:540px)").matches);
   }
   _dockLandStack() {
     const el = this._landEl, stack = this._landStackEl;
     if (!el || !stack) return;
+    if (el.hasAttribute("data-reader-game-part")) { this._reader?.layout(); return; }
     const cs = getComputedStyle(el), bottom = parseFloat(cs.bottom);
     // Keep the usual deck height, but let a longer face grow without clipping its answer.
     // If it exceeds the available band, start at the top and move the entire column to read.
@@ -15043,7 +15077,7 @@ class Component extends DCLogic {
     }
     // A late film/question backfill preserves the current landing's reader.
     const sameLanding = this._landIdx === node.idx;
-    if (sameLanding) this.clearLandCard(true);
+    if (sameLanding) this.clearLandCard(true, this._landFilmEl?._ngMediaRole === (this._landPerspSide(node) || this.playerRole));
     else {
       // Navigation retires the old question before the new landing is rendered.
       this.clearLandCard();
@@ -15434,11 +15468,12 @@ class Component extends DCLogic {
   }
   /** The home frame: every column member where its dock put it, the hand at the tray datum. */
   _readClear() {
-    for (const t of this._landSurfaces()) t.style.transform = "translateX(-50%)";
+    for (const t of this._landSurfaces()) if (!t.hasAttribute("data-reader-game-part") && !this._reader?.placesMedia(t)) t.style.transform = "translateX(-50%)";
     const tray = this.optionsRef && this.optionsRef.current;
-    if (tray) tray.style.bottom = this._landDatum().tray + "px";   // WRITE the template's value, never delete it (§6.1)
+    if (tray && !tray.hasAttribute("data-reader-game-part")) tray.style.bottom = this._landDatum().tray + "px";   // WRITE the template's value, never delete it (§6.1)
   }
   _readApply(s) {
+    if (this._landEl?.hasAttribute("data-reader-game-part") || this.optionsRef.current?.hasAttribute("data-reader-game-part")) { this._readMax = 0; this._reader?.layout(); return; }
     const max = this._readMax || 0;
     s = Math.max(0, Math.min(max, Math.round(s || 0)));
     this._readS = s;
@@ -15736,6 +15771,7 @@ class Component extends DCLogic {
    */
   // ═══ THE THREE BOTTOM LAYERS (v1.171.0) — see NG_LAYER_KEYS for the design ═══════════════════
   _layerOn(name) {
+    if (name === "film" && this._reader) return this._reader.wantsMedia() || this.get("landFilm", true) !== false;
     const k = NG_LAYER_KEYS[name];
     return !k || this.get(this.get("readingFocus", false) ? "reading" + k.slice(4) : k, true) !== false;
   }
@@ -15748,9 +15784,10 @@ class Component extends DCLogic {
    *  layers to the current landing in place. `src` is the handle that asked: x · dock · settings. */
   setLayer(name, on, src) {
     if (!NG_LAYER_KEYS[name]) return false;
+    if (name === "film" && this._reader?.wantsMedia() && src !== "settings") { this._reader.toggleSection("videos", on !== false); return true; }
     on = on !== false;
     if (this._layerOn(name) === on) return false;
-    this.set(this.get("readingFocus", false) ? "reading" + NG_LAYER_KEYS[name].slice(4) : NG_LAYER_KEYS[name], on);
+    this.set(name === "film" && this._reader ? "landFilm" : this.get("readingFocus", false) ? "reading" + NG_LAYER_KEYS[name].slice(4) : NG_LAYER_KEYS[name], on);
     this.fx("land_layer", { layer: name, on: on, src: src || "api" });
     // A layer toggle invalidates the cached teardown framing; the next frame measures
     // the newly docked surfaces, including any space this toggle has freed.
@@ -15776,7 +15813,10 @@ class Component extends DCLogic {
       // scored on this one and re-arms the clock through `_mountLandQ`.
       this.renderLandCard(n, this._landMode, null, { el: null });
     }
-    if (!this._layerOn("film")) this._clearLandFilm();
+    if (!this._layerOn("film")) {
+      if (this._reader && this._landFilmEl) { this.pauseLandFilm(); this._landFilmEl.hidden = true; }
+      else this._clearLandFilm();
+    }
     else if (!this._landFilmEl && n && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
       const clips = this._landFilmClips(n); if (clips) this._renderLandFilm(clips);
     }
@@ -15855,6 +15895,8 @@ class Component extends DCLogic {
   // film LAYER's handle — hidden while a clip is expanded so it never sits beside the player's.
   _renderLandFilm(filmClips) {
     if (!filmClips || !filmClips.length) return null;
+    const current = this._landFilmEl, node = this.nodes[this._landIdx];
+    if (current?.isConnected && current._ngMediaIdx === this._landIdx && current._ngMediaRole === (this._landPerspSide(node) || this.playerRole)) return current;
     this._clearLandFilm();
     const film = document.createElement("div");
     film.className = "ng-landfilm";
@@ -15894,6 +15936,9 @@ class Component extends DCLogic {
     film.appendChild(xb);
     this.wrapRef.current.appendChild(film);
     this._landFilmEl = film;
+    film._ngMediaIdx = this._landIdx;
+    const mediaNode = this.nodes[this._landIdx];
+    film._ngMediaRole = mediaNode ? this._landPerspSide(mediaNode) || this.playerRole : null;
     // `_dockLandFilm`'s top clamp reads this strip's HEIGHT, so a height change without a dock left
     // it stale: a rotation resizes `.ng-clip` via a media rule while its inline .34s height
     // transition runs, the resize dock measured it mid-flight (98 of a settled 70 at 844x390),
@@ -15906,12 +15951,21 @@ class Component extends DCLogic {
     }
     this.wireClips(film, filmClips);
     this._readTouch(film);   // the strip rides the reading column too (v1.175.0)
+    this._reader?.syncMedia();
     return film;
   }
   _dockHandClose(row, button) {
     const last = row.lastElementChild, wrap = this.wrapRef.current;
     if (!last || !wrap) return;
     const rr = row.getBoundingClientRect(), lr = last.getBoundingClientRect(), wr = wrap.getBoundingClientRect();
+    const reader = row.closest("[data-reader]");
+    // The native hand is in the reader's z:5 plane; its close target must own
+    // the same visible rectangle above that plane, still below menus/sheets.
+    button.style.zIndex = reader ? "6" : "4";
+    if (reader) {
+      const visible = reader.getBoundingClientRect();
+      if (lr.top < visible.top || lr.top + 28 > visible.bottom) { button.style.visibility = "hidden"; return; }
+    }
     // Like the videos' ✕: beside the last item, aligned with its top, and clamped
     // inside the visible row while it scrolls. No separate band above the choices.
     button.style.left = Math.round(Math.max(rr.left, Math.min(lr.right + 4, rr.right - 28)) - wr.left) + "px";
@@ -15977,6 +16031,7 @@ class Component extends DCLogic {
   }
   _dockLandFilm() {
     const f = this._landFilmEl; if (!f) return;
+    if (this._reader?.placesMedia(f)) { this._reader.layout(); this._syncFilmEdges(); return; }
     const H = window.innerHeight || 800;
     const c = this._landEl;
     // THE STRIP TAKES ITS WIDTH FROM THE CARD IT SITS ON, MEASURED (v1.104.2, owner: "the span
@@ -16006,7 +16061,7 @@ class Component extends DCLogic {
     // Use the settled dock, excluding both the entry animation and reading translation.
     let cardTop;
     if (this._compactLandDeck()) { const d = this._landDatum(); cardTop = H - d.tray - d.h; }
-    else if (c) cardTop = H - parseFloat(getComputedStyle(c).bottom) - c.offsetHeight;
+    else if (c) cardTop = c.hasAttribute("data-reader-game-part") ? c.getBoundingClientRect().top : H - parseFloat(getComputedStyle(c).bottom) - c.offsetHeight;
     else if (this._layerOn("card")) cardTop = H - 236;
     else { const d = this._landDatum(); cardTop = H - (d.tray + (d.h ? d.h + 12 : 0)); }
     const h = Math.ceil(f.getBoundingClientRect().height);
@@ -16076,6 +16131,7 @@ class Component extends DCLogic {
   }
   _layoutLandCard(el) {
     if (!el) return;
+    if (el.hasAttribute("data-reader-game-part")) { this._reader?.layout(); return; }
     // Every rect below is read in the HOME frame; `_dockLandMore` re-applies the column after.
     if (this._readMax) this._readClear();
     const row = this.optionsRef.current;
@@ -19150,13 +19206,15 @@ class Component extends DCLogic {
       } catch (e) { /* non-fatal */ }
     }
     let bottom = H - 16, measured = false, rows = "";
-    const surfaces = [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current, this._readerEl, this._layerDockEl];
+    const surfaces = [this._landFilmEl, this._landEl, this._handShown() && this.optionsRef?.current, this._reader?.articleEl || this._readerEl, this._layerDockEl];
     for (const [i, el] of surfaces.entries()) {
       let on = false;
       if (el && el.offsetHeight) {
         const css = getComputedStyle(el);
         if (css.display !== "none" && css.visibility !== "hidden") {
-          const dock = parseFloat(css.bottom);
+          // Inside the native reader, a used bottom is relative to the game
+          // container, not the viewport. Read its actual visible rectangle.
+          const dock = this._readerEl?.contains(el) ? NaN : parseFloat(css.bottom);
           const y = Number.isFinite(dock) ? H - dock - el.offsetHeight : el.getBoundingClientRect().top;
           if (y > top + 32) { bottom = Math.min(bottom, y - 12); measured = on = true; }
         }
@@ -19227,6 +19285,20 @@ class Component extends DCLogic {
     if (lo > R.bottom) dy = lo - R.bottom;                 // the node sits under the coming rows: lift it
     else if (hi < R.top) dy = hi - R.top;                  // ...or above the band: lower it
     return dy ? { ...t, cy: t.cy + dy / s } : t;
+  }
+  // Shared drawn silhouette: camera exclusions and labels must clear the same shape/rings.
+  _nodeHalfW(n, scale, nodeK, kLOD) {
+    const rr = (n.z && n.rep) ? n.rSite + (n.r - n.rSite) * kLOD : n.r;
+    const f = n.ty === "submissions" ? 1.242 : n.ty === "positions" ? 1 : 1.18;
+    // ...and it must clear whatever the node is WEARING, not just its own silhouette. The
+    // focus mark and the three ring passes are all concentric circles centred on it, and the
+    // widest wins: measured on screen, an option's name started INSIDE its own 2.4x ring.
+    let worn = f;
+    if (n.idx === this.focusIdx && !this.pulse) worn = Math.max(worn, 1.28);
+    if (this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0) worn = Math.max(worn, 2.4);
+    if (this._focusIdxSet && this._focusIdxSet.has(n.idx)) worn = Math.max(worn, 2.7);
+    if (this._sessionNodes && this._sessionNodes.indexOf(n.idx) >= 0) worn = Math.max(worn, 3);
+    return rr * nodeK * worn * scale;
   }
   // THE WIDTH OF THE WIDEST ROW THE GRAPH IS ABOUT TO DRAW, in px, measured with that row's
   // actual font. Cached per node + headline size, because the follow-cam calls `rollCamTarget`
@@ -19805,7 +19877,7 @@ class Component extends DCLogic {
       // dead to a real mouse. The option sheet, minimized-layer dock and hand ✕ complete the
       // current fixed-control set.
       for (const ov of [...this._landSurfaces(), this.optDetailRef && this.optDetailRef.current,
-        this._layerDockEl, this._handCloseEl, this._readerEl]) {
+        this._layerDockEl, this._handCloseEl, this._readerEl, this._readerTocEl]) {
         if (ov && e.target && ov.contains(e.target)) return;
       }
       this.closeDeckIfStudying();
@@ -20453,19 +20525,7 @@ class Component extends DCLogic {
       // its site radius and its own, and `shapePath` widens a triangle to 1.242r and a diamond to
       // 1.18r. Now that the label is THE naming design at every zoom it has to sit against the
       // edge it is naming, not against a number that only agreed with it at one camera.
-      const halfW = (n) => {
-        const rr = (n.z && n.rep) ? n.rSite + (n.r - n.rSite) * kLOD : n.r;
-        const f = n.ty === "submissions" ? 1.242 : n.ty === "positions" ? 1 : 1.18;
-        // ...and it must clear whatever the node is WEARING, not just its own silhouette. The
-        // focus mark and the three ring passes are all concentric circles centred on it, and the
-        // widest wins: measured on screen, an option's name started INSIDE its own 2.4x ring.
-        let worn = f;
-        if (n.idx === this.focusIdx && !this.pulse) worn = Math.max(worn, 1.28);
-        if (this.optionIdxs && this.optionIdxs.indexOf(n.idx) >= 0) worn = Math.max(worn, 2.4);
-        if (this._focusIdxSet && this._focusIdxSet.has(n.idx)) worn = Math.max(worn, 2.7);
-        if (this._sessionNodes && this._sessionNodes.indexOf(n.idx) >= 0) worn = Math.max(worn, 3);
-        return rr * nodeK * worn * scale;
-      };
+      const halfW = n => this._nodeHalfW(n, scale, nodeK, kLOD);
       // transient names on recently-lit nodes (excluding the focus, which gets a rich label)
       ctx.textBaseline = "bottom";
       ctx.font = "600 12px 'Plus Jakarta Sans', sans-serif";

@@ -1,0 +1,150 @@
+{
+  "base": "dc72b958c88e8f3ed17d3d6b599b190e5daf81f4",
+  "authority": "Article sections Phase 2 approval and owner TOC placement change, 2026-10-15; one existing media host, phone headers, floating contents and 6px gap",
+  "entries": [
+    {
+      "old_file": "e2e/journeys/reading-mode.spec.ts",
+      "old_title": "@curated reading videos have one explicit owner and stop when Videos or Book is hidden",
+      "preserved_rule": "One media owner; hiding pauses; reading stays dormant; deliberate play only.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-media-placement.spec.ts",
+          "title_contains": "media identity and"
+        },
+        {
+          "file": "e2e/journeys/article-sections.spec.ts",
+          "title_contains": "section settings carry"
+        }
+      ],
+      "retired_rule": "A separate article iframe, deleted on hide, is replaced by the approved existing host moved without cloning and paused without destruction. Book returns it to normal home."
+    },
+    {
+      "old_file": "e2e/journeys/reading-navigation.spec.ts",
+      "old_title": "${width}px native reading keys, contents and Book preserve the complete document",
+      "preserved_rule": "Native scrolling keys, complete document identity across Book hiding, no ghost hit target, no overflow, no accidental play.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-navigation.spec.ts",
+          "title_contains": "native reading keys, section headers and Book preserve"
+        },
+        {
+          "file": "e2e/journeys/article-sections.spec.ts",
+          "title_contains": "contents and header targets"
+        }
+      ],
+      "retired_rule": "Phone contents and sticky horizontal heading strip are removed by approval. Phone headers toggle; larger screens have independent label and eye targets."
+    },
+    {
+      "old_file": "e2e/journeys/landcard-chrome.spec.ts",
+      "old_title": "the film strip spans exactly the card it sits on, outer AND content box @curated",
+      "preserved_rule": "The single media owner has a measured, responsive home with no overlap. Its internal clip-row inset/fade ratios remain covered by film-row-arrows.spec.ts.",
+      "replacement_tests": [
+        {
+          "file": "e2e/journeys/reading-media-placement.spec.ts",
+          "title_contains": "normal media home shares the game scrollport"
+        }
+      ],
+      "retired_rule": "The approved A integration uses 400px media beside a 390px practice card on desktop and 358px media above practice on phone. The phone deck face remains viewport-minus-104 (286px at 390). Equal outer/content-box alignment with a fixed card is no longer the layout contract."
+    }
+  ],
+  "assertion_migrations": [
+    {
+      "file": "neural/build/build.mjs",
+      "test": "READ_PROBE deferred-only stylesheet checks",
+      "change": "The owner removed the Contents trigger, the last selector matching .ng-reader-contents. Probe its replacement .ng-reader-toc instead. Both existing requirements remain: the rule must exist in reading.css and must be absent from eager neural.css; the independent .r-s probe remains."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "contents and header targets; floating contents owns real mouse input",
+      "change": "Owner replaces the in-flow desktop rail and tablet panel with containerless fixed Contents. The independent article keeps its 680px maximum width and centre. A measured 200px TOC plus 12px gap must fit the right gutter; 24px edge gives a 1152px closed-pane cutoff. Narrow tablets retain header toggles, as phones do. Separate label navigation, eye toggles, keyboard, contrast, persistence and dormant-game assertions remain; new geometry, transparent-surface and mouse/canvas positive-control checks pin the new placement in both themes. The follow-up journey measures the drawn current-node label and both orbs against the TOC at 1152, 1200, 1280, 1366 and 1440px before and after real-mouse reading navigation; removing TOC from the camera occupied set reproduces the collision and fails."
+    },
+    {
+      "file": "e2e/journeys/reading-contract.spec.ts",
+      "test": "reader rhythm scales as a ratio and headings keep their hierarchy",
+      "change": "The former section margin = 2u is replaced by the independent approved 6px external gap. Internal list rhythm remains u/2, and heading size/luminance ordering remains checked."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "complete article, Focus, every restore and reload",
+      "change": "The first expanded card is Videos; Overview follows. Focus preserves semantic section preferences. Other layer restoration, storage and dormant-game assertions remain."
+    },
+    {
+      "file": "e2e/journeys/reading-mode.spec.ts",
+      "test": "heading links focus the cloned article",
+      "change": "Canonical authored anchors still navigate and survive reload. A hidden original heading focuses its new section header."
+    },
+    {
+      "files": [
+        "reading-mode.spec.ts",
+        "reading-contract.spec.ts",
+        "landcard-more-content.spec.ts"
+      ],
+      "change": "Complete guide text is collected from every source fragment. Path checks assert the unique set across all fragments; they never select only the first fragment. Safety and late-response checks retain their original rules."
+    },
+    {
+      "files": [
+        "reading-mode.spec.ts",
+        "reading-navigation.spec.ts"
+      ],
+      "change": "Book hides the article and its toolbar. The shared game scrollport remains to carry the unchanged practice/choices and the normal media home, as requested in the integration ruling. Hidden article hit tests target that article; document identity and scroll restoration remain checked."
+    },
+    {
+      "file": "e2e/journeys/reading-navigation.spec.ts",
+      "test": "a late real dossier preserves reader focus, scroll and the answered question",
+      "change": "Compare all complete source fragments rather than the outer body HTML: the shared live media host is intentionally inserted on late dossier hydration. Reader/body/question identity, article bytes, focus, scroll, grade and answer count remain unchanged."
+    },
+    {
+      "files": [
+        "landcard-chrome.spec.ts",
+        "land-layers.spec.ts",
+        "layer-dock-centre.spec.ts"
+      ],
+      "change": "Book visibility means the article, not the shared game scrollport. A hidden film is retained and inert, rather than absent. Dock centering measures the article column, not the now full-width scrollport. Existing mouse, persistence, geometry, keyboard and layer-independence rules remain."
+    },
+    {
+      "file": "e2e/journeys/announcer-coherence.spec.ts",
+      "test": "a Decide countdown does not survive staging another node",
+      "change": "Select an exposed position through the real elementFromPoint hit boxes across the viewport. The old fixed-card 320px/340px exclusion excluded exposed nodes under the approved native scrollport. All real-mouse hover, countdown, staging and reset assertions remain. A real wheel zoom exposes an alternative while preserving the live countdown, before the existing real node click."
+    },
+    {
+      "file": "e2e/journeys/landcard-deck.spec.ts",
+      "test": "responsive deck and long mobile choices",
+      "change": "The approved A media home shares the game scrollport: 60px horizontal gap on desktop (the geometry ruling preserves outside 44px deck arrows), 12px above practice when stacked, and the unchanged 16px deck-to-hand gap. Short-screen content is bounded by the native scroll extent rather than required to fit one viewport. Real touch must move that scrollport; the question itself remains unscrolled, preserves paging and can still be answered by a fresh tap. The touch fixture holds before release so it measures a reading drag rather than a native inertial fling past the question into the full article."
+    },
+    {
+      "file": "e2e/journeys/camera-continuity.spec.ts",
+      "test": "CLEAR_SEC card restore and late film",
+      "change": "Hide Book as well as the game surfaces to establish the existing empty-band premise, then let the real Book click’s four-second camera input lease expire. The late-film case hides practice and the hand so the actual existing media owner changes an unbounded band without a fabricated height. The original per-frame motion and 0.35s clearance bounds remain unchanged."
+    },
+    {
+      "file": "e2e/journeys/landing-reveal.spec.ts",
+      "test": "staging and layer changes center the node",
+      "change": "Measure the actual blocking article and game rectangles. The transparent reader scrollport no longer counts as an opaque row, and bottom coordinates inside it are container-relative. Await article readiness and the existing media transition before advancing the camera clock. The same 5px central-band bound remains."
+    },
+    {
+      "file": "e2e/journeys/pane-layout.spec.ts",
+      "test": "pane movement, tablet Browse and landscape resize",
+      "change": "The article is measured separately from its transparent full-width scrollport. Unchanged side-by-side composition retains the original translation, width and vertical-clearance bounds. Crossing the approved media breakpoint instead checks the exact 400px media width, viewport-minus-pane-minus-104 deck width, 12px media gap and 16px hand gap; landscape uses the same stacked native flow. Question, answer, selection, camera, input and scroll preservation assertions remain."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards; optional chrome frame",
+      "change": "The orchestrator’s option A ruling puts the whole no-hook head before section one, with 6px before and after it. The hook replaces ownTop only: unclamped movement = headBottom - ownTop + offset, with no map-band head reservation. Existing node-band, practice-to-hand, article gap, section-gap and authoritative bottomReserve clamps remain pinned. New desktop/phone tests keep the same tools in the approved homes; null/undefined preserve fallback/reference geometry."
+    },
+    {
+      "file": "e2e/journeys/coldstart-backfill.spec.ts",
+      "test": "the landing card stays centred through its entry animation",
+      "change": "The native flow uses explicit coordinates and transform:none, so requiring a resting transform matrix is obsolete. The test now samples the actual CSS animation at six times plus rest and requires every horizontal centre within 1px. The original keyframe translateX(-50%) check still covers the fixed home before adoption."
+    },
+    {
+      "file": "e2e/journeys/layer-dock-centre.spec.ts",
+      "test": "pane-open and short-landscape compositions",
+      "change": "The pane must move the persistent article/shelf column, while practice may switch between approved side-by-side and stacked layouts. Short landscape uses the stacked native flow; practice must fit beside the pane. Existing real-click, first-frame, centre, share-cue clearance and target-ownership assertions stay unchanged."
+    },
+    {
+      "file": "e2e/journeys/roll-card.spec.ts",
+      "test": "the film row rides the game card",
+      "change": "The approved A normal home replaces the old always-above-film premise. The authored existing host must share the game scrollport and maintain exactly 60px beside practice or 12px above it. The shared media spec covers both viewport geometries, player identity and playback."
+    }
+  ]
+}

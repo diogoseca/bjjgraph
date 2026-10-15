@@ -149,11 +149,15 @@ for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 
           a.stageRollAt(a.nodes.findIndex((n: any) => n.id === 'Positions/Half-Guard'));
         }, layers);
         await j.landSettled();
+        await expect(page.locator('[data-reader-ready="true"]')).toBeVisible();
+        await page.waitForTimeout(400); // settle native layout and the existing 340ms film resize before pumping the camera
         await j.advance(6500);
         const m = await page.evaluate(() => {
           const a = (window as any).__neural, n = a.nodes[a.focusIdx], mid = a.pairMid(n);
-          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, a._readerEl, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
-          const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => a.H - parseFloat(getComputedStyle(el).bottom) - el.offsetHeight - 12));
+          // The reader root is a transparent game scrollport. Only its article
+          // blocks the map; child bottom coordinates are now container-relative.
+          const surfaces = [a._landEl, a._landFilmEl, a._handShown() && a.optionsRef.current, a._reader?.articleEl || a._readerEl, a._layerDockEl].filter((el: HTMLElement) => el && el.offsetHeight && getComputedStyle(el).display !== 'none' && getComputedStyle(el).visibility !== 'hidden');
+          const bottom = Math.min(a.H - 16, ...surfaces.map((el: HTMLElement) => el.getBoundingClientRect().top - 12));
           const ev = a.evRef.current;
           const top = ev && getComputedStyle(ev).opacity !== "0" ? Math.max(16, ev.getBoundingClientRect().bottom + 12) : 16;
           return { y: a.H / 2 + (mid.y - a.cam.cy) * a.W / a.cam.vw, want: (top + bottom) / 2, path: location.pathname, id: n.id };

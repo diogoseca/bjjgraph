@@ -69,7 +69,8 @@ const geometry = (page: Page) => page.evaluate(() => {
   }
   const n = a.nodes[a.currentPos], mid = a.pairMid(n), scale = a.W / a.cam.vw
   return {
-    card: box("[data-landcard]"), film: box("[data-land-film]"), more: box("[data-reader]"),
+    card: box("[data-landcard]"), film: box("[data-land-film]"), more: box(".ng-reader-article"), hand: box(".ng-optionrow"),
+    layout: a._reader.game.dataset.mediaLayout,
     pane: box(".ng-drill"), nav: box("[data-land-nav]"),
     node: { id: n.id, x: a.W / 2 + (mid.x - a.cam.cx) * scale, y: a.H / 2 + (mid.y - a.cam.cy) * scale },
     zoom: a.cam.vw, paused: !!a.paused, read: a._readerEl?.scrollTop || 0, open: !!a._reader?.interacting,
@@ -89,13 +90,24 @@ for (const width of [1440, 1024]) {
 
     await openPane(page, j)
     const open = await geometry(page)
-    const shift = open.card.x - before.card.x
-    expect(shift).toBeGreaterThan(80)
+    const shift = open.card.x - before.card.x, reflow = open.layout !== before.layout
+    if (!reflow) expect(shift).toBeGreaterThan(80)
     for (const surface of ["card", "film"] as const) {
       expect(open[surface].visible, `${surface} remains visible`).toBe(true)
-      expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
-      expect(open[surface].x - before[surface].x, `${surface} moves with the card`).toBeCloseTo(shift, 0)
-      expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
+      expect(open[surface].x).toBeGreaterThanOrEqual(open.pane.right)
+      expect(open[surface].right).toBeLessThanOrEqual(width)
+      if (!reflow) {
+        expect(open[surface].width, `${surface} keeps its readable width`).toBeCloseTo(before[surface].width, 0)
+        expect(open[surface].x - before[surface].x, `${surface} moves with the card`).toBeCloseTo(shift, 0)
+        expect(open[surface].y, `${surface} keeps its vertical dock`).toBeCloseTo(before[surface].y, 0)
+      }
+    }
+    if (reflow) {
+      expect(open.layout).toBe('stacked')
+      expect(open.film.width).toBe(400)
+      expect(open.card.width).toBe(Math.min(560, width - open.pane.width - 104))
+      expect(open.card.y - open.film.bottom).toBeCloseTo(12, 0)
+      expect(open.hand.y - open.card.bottom).toBeCloseTo(16, 0)
     }
     expect(open.more.center - before.more.center).toBeCloseTo(open.pane.width / 2, -1)
     expect(open.more.right).toBeLessThanOrEqual(width)
@@ -130,7 +142,7 @@ for (const viewport of [{ width: 768, height: 1024 }, { width: 390, height: 844 
     const before = await page.locator("[data-reader]").evaluate(e => e.scrollTop)
     await openPane(page, j)
     const overlap = await page.evaluate(() => {
-      const pane = document.querySelector(".ng-drill")!, article = document.querySelector("[data-reader]")!
+      const pane = document.querySelector(".ng-drill")!, article = document.querySelector(".ng-reader-article")!
       const p = pane.getBoundingClientRect(), r = article.getBoundingClientRect()
       const l = Math.max(p.left, r.left), right = Math.min(p.right, r.right), top = Math.max(p.top, r.top), bottom = Math.min(p.bottom, r.bottom)
       const hit = document.elementFromPoint((l + right) / 2, (top + bottom) / 2)
@@ -202,7 +214,7 @@ test("@curated exposed cards, videos and reading take real mouse input while the
   expect(await page.evaluate(() => (window as any).__neural.paused)).toBe(true)
 })
 
-test("@curated resizing an open pane keeps the selected card and the short-landscape composition", async ({ page }) => {
+test("@curated resizing an open pane preserves the card through the stacked landscape flow", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   const j = await setup(page)
   await j.clickByMouse("[data-land-next]")
@@ -214,12 +226,15 @@ test("@curated resizing an open pane keeps the selected card and the short-lands
   expect(landscape.selected).toBe(desktop.selected)
   expect(landscape.node.id).toBe(desktop.node.id)
   expect(landscape.card.visible).toBe(true)
-  expect(landscape.film.x, "film remains in the right-hand landscape column").toBeGreaterThan(landscape.card.right)
+  expect(landscape.layout).toBe('stacked')
+  expect(landscape.card.y - landscape.film.bottom).toBeCloseTo(12, 0)
+  expect(landscape.hand.y - landscape.card.bottom).toBeCloseTo(16, 0)
   expect(landscape.film.right, "the composition stays within the viewport").toBeLessThanOrEqual(844)
   await closePane(page, j)
   const closed = await geometry(page)
-  expect(closed.card.x, "a composition already against the right edge does not shift for the pane").toBeCloseTo(landscape.card.x, 0)
-  expect(closed.film.x).toBeCloseTo(landscape.film.x, 0)
+  expect(closed.layout).toBe('stacked')
+  expect(closed.card.center).toBeCloseTo(844 / 2, 0)
+  expect(closed.film.center).toBeCloseTo(844 / 2, 0)
   await openPane(page, j)
   await page.setViewportSize({ width: 1440, height: 900 })
   await settle(page, j)
