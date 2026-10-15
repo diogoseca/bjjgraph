@@ -27,7 +27,7 @@ test("restart mid-defense: no ghost tap, no ladder drop, defense state fully dis
   await j.advance(3000)
   await j.pick(options[0]) // attempt the finish from the established submission
   await j.advanceUntil("caught", 20000)
-  await expect(page.locator("[data-panic]")).toBeVisible()
+  await expect(page.locator("[data-landcard=defense]")).toBeVisible()
 
   // the user bails: transport Reset while the defense window is still draining
   await page.evaluate(() => (window as any).__neural.resetRoll())
@@ -57,7 +57,7 @@ test("restart mid-defense: no ghost tap, no ladder drop, defense state fully dis
   // and the new roll actually lands with a live hand
   expect(beats.filter((b) => b === "land").length).toBeGreaterThanOrEqual(2)
   expect(await page.evaluate(() => ((window as any).__neural.optionIdxs || []).length)).toBeGreaterThan(0)
-  expect(await page.locator("[data-panic]").count()).toBe(0)
+  expect(await page.locator("[data-landcard=defense]").count()).toBe(0)
 })
 
 test("restart mid-sweep: the cancelled needle does not haunt the canvas", async ({ page }) => {

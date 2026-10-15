@@ -5,7 +5,7 @@ import { whiteBeltHolder } from "./personas"
 
 /**
  * PANIC GRADE = STUDY CREDIT — defense drilling is not a parallel currency. Grading the drill
- * (`buildPanicCard`, neural/src/app.src.jsx — cited by symbol; the ~line numbers this header
+ * (`renderLandCard (defense)`, neural/src/app.src.jsx — cited by symbol; the ~line numbers this header
  * carried had drifted ~11,000 lines) routes through the SAME ledger lesson drilling uses:
  * prep[panicKey] += 1, then noteCardDone(card, panicKey), then fx("escape_odds_pumped").
  * Since v1.135.0 (0c4fbc53d) the drill is MULTIPLE CHOICE when its pool is warm, and the
@@ -62,7 +62,7 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   await j.advanceUntil("caught", 20000)
 
   // panic surface up; the opened beat names the SAME deck the ledger is about to credit
-  await expect(page.locator("[data-panic]"), "inline panic drill visible when caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible when caught").toBeVisible()
   const pk: string = await page.evaluate(() => (window as any).__neural._panicKey)
   expect(pk, "panic drill resolved a real deck key").toBeTruthy()
   const opened = (await j.beats()).filter((b: any) => b.beat === "panic_drill_opened") as any[]
@@ -89,7 +89,7 @@ test("caught → panic grade credits the shared study ledger (prep +1, cardsToda
   //    guidance-defense / panic-card adopted in that commit. ──
   const mcCorrect = await page.evaluate(() => {
     const a = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
       ? a._mc.correct
       : null

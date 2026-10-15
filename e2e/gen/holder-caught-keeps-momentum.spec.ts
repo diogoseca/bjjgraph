@@ -135,10 +135,10 @@ test("rigged catch → panic drill → rigged escape: _combo stays at its earned
   //    `[data-panic-reveal]` click waited out the 240s timeout. Answer whichever block the card
   //    mounted, correctly (guidance-defense.spec.ts idiom): the claim is that a CORRECT defence
   //    grade leaves the streak alone, so the answer must be the right one either way. ──
-  await expect(page.locator("[data-panic]"), "inline panic drill visible while caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible while caught").toBeVisible()
   const mcCorrect = await page.evaluate(() => {
     const a = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {

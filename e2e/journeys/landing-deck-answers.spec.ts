@@ -409,7 +409,8 @@ const enterDefence = (page: Page) =>
     const a: any = (window as any).__neural;
     a._combo = 3;
     const sub = a.adj[a.currentPos].find((k: number) => a.nodes[k].ty === "submissions");
-    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"));
+    a._rollActed = true; // fixture: a prior committed move; navigation alone is calm (v1.227.0)
+    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"), a._catchProvenance());
   });
 const panicSetup = async (page: Page) => {
   await page.setViewportSize({ width: 1440, height: 900 });
@@ -421,7 +422,7 @@ const panicSetup = async (page: Page) => {
   await page.waitForTimeout(400);
   const mc = await page.evaluate(() => {
     const a: any = (window as any).__neural;
-    const card = document.querySelector("[data-panic]");
+    const card = document.querySelector("[data-landcard=defense]");
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? { correct: a._mc.correct, n: a._mc.n } : null;
   });
   expect(mc, "the drill asks multiple choice (its pool is warm)").not.toBeNull();

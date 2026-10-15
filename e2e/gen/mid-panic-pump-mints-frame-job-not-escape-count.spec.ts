@@ -14,7 +14,7 @@ import { curriculumMid } from "./personas"
  *   - app.src.jsx ~4444 — the [data-panic-got] grade fires
  *     fx("escape_odds_pumped", { deck_key }).
  *     RE-PINNED by the gen-suite triage (dev 8d6ae5d01, v1.206.2): since v1.135.0 (0c4fbc53d)
- *     the drill is MULTIPLE CHOICE when the pool is warm (buildPanicCard → _mcBlock; a correct
+ *     the drill is MULTIPLE CHOICE when the pool is warm (renderLandCard (defense) → _mcBlock; a correct
  *     answer's `done(true)` fires the SAME escape_odds_pumped), and reveal/got is only the
  *     cold-pool fallback — so `[data-panic-reveal]` was absent and gradePanic went red. It now
  *     answers whichever block mounted, correctly; both exchanges ran the MC block when re-pinned.
@@ -125,10 +125,10 @@ test("catch → panic grade mints frame-job with escape count at zero; the escap
   // `[data-panic-reveal]` wait found nothing. Grade whichever block the card mounted, CORRECTLY
   // (the guidance-defense.spec.ts idiom): only a right answer pumps, on either block.
   const gradePanic = async () => {
-    await expect(page.locator("[data-panic]"), "panic drill up while caught").toBeVisible()
+    await expect(page.locator("[data-landcard=defense]"), "panic drill up while caught").toBeVisible()
     const mcCorrect = await page.evaluate(() => {
       const a = (window as any).__neural
-      const card = document.querySelector("[data-panic]")
+      const card = document.querySelector("[data-landcard=defense]")
       return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
     })
     if (mcCorrect != null) {
