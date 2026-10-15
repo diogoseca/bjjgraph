@@ -11114,3 +11114,11 @@ finding, not a census re-seed: a generated-output cleanup and full repeat restor
 D-253 birthtimes by replaying all 73 listing groups against 26 unchanged Learning sources.
 The guarded capture reuses p2b and must preserve those tag samples; only the two declared
 Armbar-from-Back Film Study removals are expected to alter the SEO sample.
+
+
+The D-306 guarded capture at `f842d88e6` on base `45cf1f9e1` confirms those exact five
+census movements and only the two Armbar-from-Back SEO excisions. Both Learning tag
+samples are unchanged under the reused checkout stamps. The receipt-bound census and
+SEO re-seed preserves all other measured fields, including 14 app assets, three root
+bundles, 66 MDP files and 290 submission-detail files. The two SEO text floors become
+8,861 and 9,433, with their remaining article text, metadata and non-video schema verified.
