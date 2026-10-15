@@ -82,3 +82,44 @@ test("danger animation is a visual preference, intersected with live provenance 
   assert.equal(on, true, "OS preference never overwrites the stored setting");
   console.log("# danger preference: 5 assertions");
 });
+
+// Review S2: an actual tick in reader intent used to query .ng-logo and rewrite
+// logo/card styles every frame. Count writes at the DOM boundary, not sync calls.
+test("unchanged danger ticks do no DOM work; motion is cached and change-driven", () => {
+  const oldWindow = globalThis.window;
+  const writes = [], queries = [], listeners = new Map();
+  let mediaQueries = 0;
+  const media = { matches: false, addEventListener: (event, fn) => listeners.set(event, fn) };
+  globalThis.window = { matchMedia: () => { mediaQueries++; return media; } };
+  try {
+    const a = app(), style = new Proxy({}, { set: (target, key, value) => { writes.push([key, value]); target[key] = value; return true; } });
+    a.get = (key, fallback) => a.settings?.[key] ?? fallback;
+    a._saveProgress = () => {};
+    a.wrapRef = { current: { querySelector: selector => { queries.push(selector); return { style }; } } };
+    a._landEl = { style, classList: { remove: name => writes.push(name) } };
+    a._landMode = "defense"; a._defendSub = sub.idx; a._readerIntent = true;
+    a.showVignette = () => { writes.push("show"); a._vignetteEl = { remove: () => writes.push("remove") }; };
+    for (let i = 0; i < 122; i++) a._tickDecision(1 / 122);
+    assert.equal(writes.length, 0, "calm ticks never rewrite unchanged danger styles");
+    assert.deepEqual(queries, [], "calm ticks never look up the logo");
+    a._defensePressure = true; a._syncDangerAnimation();
+    assert.equal(writes.filter(x => x === "show").length, 1);
+    const unchanged = () => {
+      const before = [writes.length, queries.length, mediaQueries];
+      for (let i = 0; i < 122; i++) { a._tickDecision(1 / 122); a._syncDangerAnimation(); }
+      assert.deepEqual([writes.length, queries.length, mediaQueries], before, "unchanged ticks/events do no DOM work or media queries");
+    };
+    unchanged();
+    media.matches = true; listeners.get("change")();
+    assert.equal(a._vignetteEl, null, "OS change removes danger immediately, without a tick");
+    assert.equal(a._defensePressure, true);
+    unchanged();
+    media.matches = false; listeners.get("change")();
+    assert.equal(writes.filter(x => x === "show").length, 2);
+    a.set("dangerAnimation", false);
+    assert.equal(a._vignetteEl, null, "the setting removes danger immediately, without a tick");
+    unchanged();
+    assert.equal(mediaQueries, 1, "one MediaQueryList for the component lifetime");
+    console.log("# danger synchronization: 12 assertions, 610 unchanged ticks, 1 media query");
+  } finally { if (oldWindow === undefined) delete globalThis.window; else globalThis.window = oldWindow; }
+});

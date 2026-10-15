@@ -30,6 +30,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 ## Index A — by version
 
 - **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
+- **v1.227.0 review** — [Defending review corrections](#v12270--defending-review-corrections)
 
 - **v1.225.0** — [A reading-first way through the content](#v12250--a-reading-first-way-through-the-content-issue-289)
 
@@ -10978,3 +10979,38 @@ Headers name non-kills (wait tokens/empty reels); synthetic reels pin fallback a
 storage checks catch pagehide-masked saves. Execution holds the card's dock and preview
 through its result. Retired panic code/skin, activation, state and `.pAns` trim
 bytes; no ceiling changed.
+
+
+## v1.227.0 — Defending review corrections
+
+The independent review found that the shared cold recall used current visibility as its
+warm-upgrade guard. Reveal then Space hid the answer and let the pending pool replace an
+already exposed question with fresh MC credit. Recall truth now keeps a monotonic `seen`
+bit across hiding and cached paging; detached recall teardown stays unchanged. Real mouse
+and Space pins fail on the reviewed build both directly and after paging away/back
+(`cardsToday`/`mc_correct` 0 → 1), then pass with no upgrade or credit. Untouched recall still
+upgrades exactly once and can earn its one MC credit.
+
+Wrong and expiry renderer differentials now start both arms at combo 3 and compare all four
+published escape-card percentages by choice identity. Removing the new wrong break, or
+suppressing the break only for the new expiry arm, fails the outcome comparison: combo 3
+instead of 0, no break beat, 64/67% instead of 59/62%. Suppressing the new path's displayed
+percentage writes after grading also fails: 59/62% remains instead of 72/75%, despite equal
+recomputed odds. Deleting only the redundant `refreshEscapeOdds` call is a recorded non-kill.
+The exact old renderer shares head grading/expiry helpers; the differential does not compare
+the beacon, clock DOM disconnection or the full persisted SRS record. Cold fallback is now
+included; paging is a new-renderer pin because the old renderer had no pager.
+
+Danger synchronization leaves the frame loop. Pressure, setting, progress receipt and cached
+motion-query change events update visuals only when the effective state changes; unmount
+removes the listener. The clock remains live. A unit counts zero DOM work on 610 unchanged
+ticks (the reviewed calm case made 610 style/class operations in 122 ticks), and one media
+query. The cloud pin fails before the fix and proves immediate changes without a clock tick.
+Reusing that query also removes three duplicate reduced-motion queries in the app.
+
+Local review gates: 76 focused browser cases, including the reviewer's unchanged momentum
+control and recall-hide; 24/24 CI replay checks, 1,277 unit passes, no skips. The owner assigns
+the full-core gate to the new head's four CI shards. Measured against dev dc72b958c: eager
+gzip +250 B, first-hand gzip +246 B (core +247 B), deferred raw +460 B. No payload allowance
+or accepted checkpoint changes. Earlier archive entries, including the original v1.227.0
+entry, remain verbatim; the approved general archive ceiling stays 913,038.

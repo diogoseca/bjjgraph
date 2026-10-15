@@ -342,6 +342,7 @@ class Component extends DCLogic {
   componentWillUnmount() {
     this.__ngDestroyed = true;
     this._reader?.destroy();
+    this._motionQuery?.removeEventListener("change", this._motionChanged);
     if (this._settingsRowRO) this._settingsRowRO.disconnect();
     this._destroyGameplanStudy();
     if (this._systemsLoader) this._systemsLoader.dispose();
@@ -3877,6 +3878,7 @@ class Component extends DCLogic {
       // _syncWhiteChallengeCompatibility. `challengeMigrationSeen` is now read by nothing.
       this.cardsToday = this._days[this._dayKey()] || 0;
     this._publishKnowledge("progress-load");
+    this._syncDangerAnimation(); // live cloud/other-tab receipt; staged merge has no pressure
   }
   /** last-30-keys trim, shared by `days` and `dayLog` */
   _trimDays(m) { const out = {}; for (const k of Object.keys(m).sort().slice(-30)) out[k] = m[k]; return out; }
@@ -12699,6 +12701,7 @@ class Component extends DCLogic {
     };
     truth.toggle = () => {
       if (graded) return;                      // a paid question does not go back under the cover
+      truth.seen = true; // monotonic: Space can hide, and paging reuses this truth, but neither unsees an answer
       truth.revealed = !truth.revealed;
       live.textContent = truth.revealed ? "Answer revealed." : "Answer hidden.";
       paint();
@@ -14797,7 +14800,7 @@ class Component extends DCLogic {
       if (!tried[key]) {
         tried[key] = true;
         this._warmMcPool(card, key, "panic").then(() => {
-          if (this._landQ !== rec || rec.answered || block.__ngRecall?.revealed || !qw.isConnected) return;
+          if (this._landQ !== rec || rec.answered || block.__ngRecall?.seen || !qw.isConnected) return;
           const replacement = this._mountLandQ(card, key, mode, hooks, { paged: true });
           if (replacement) { qw.replaceWith(replacement); this._updateLandDeck(); this._dockLandCard(this._landEl); }
         });
@@ -15007,7 +15010,7 @@ class Component extends DCLogic {
       this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
       this._updateLandDeck();
       // Animate the face only: the shell and film stay anchored, including during rapid paging.
-      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && qw.animate) {
+      if (!this._reducedMotion() && qw.animate) {
         for (const animation of qw.getAnimations()) animation.cancel();
         qw.animate([
           { opacity: .35, transform: "translateX(" + (dir > 0 ? 28 : -28) + "px) rotate(" + (dir > 0 ? 1 : -1) + "deg) scale(.98)" },
@@ -16116,7 +16119,7 @@ class Component extends DCLogic {
     if (!row) return;
     const fade = (parseFloat(f.style.getPropertyValue("--film-fade")) || parseFloat(getComputedStyle(f).getPropertyValue("--film-fade")) || 0);
     const delta = dir * Math.max(1, row.clientWidth - 2 * fade);
-    const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reduce = this._reducedMotion();
     if (reduce) {
       if (this._scrollRaf) { cancelAnimationFrame(this._scrollRaf); this._scrollRaf = 0; }
       row.scrollLeft = Math.max(0, Math.min(row.scrollWidth - row.clientWidth, row.scrollLeft + delta));
@@ -16519,8 +16522,12 @@ class Component extends DCLogic {
   }
   // Visuals only: never call killVignette here (it also releases the catch's
   // framing), rebuild a question, change odds, or disarm/refund the live clock.
+  // State transitions own this work: pressure, setting, OS motion and progress
+  // receipts. No frame polling or repeated DOM writes for an unchanged state.
   _syncDangerAnimation() {
     const on = this._dangerAnimationOn();
+    if (!!this._dangerAnimated === on) return;
+    this._dangerAnimated = on;
     if (on) this.showVignette();
     else {
       if (this._vignetteEl) { this._vignetteEl.remove(); this._vignetteEl = null; }
@@ -16544,6 +16551,7 @@ class Component extends DCLogic {
     if (logo) { logo.style.opacity = "0"; logo.style.pointerEvents = "none"; }
   }
   killVignette(relief) {
+    this._dangerAnimated = false;
     this._dangerSet = null; // the fog lifts with the danger (set in enterDefense)
     const logo = this.wrapRef && this.wrapRef.current ? this.wrapRef.current.querySelector(".ng-logo") : null;
     if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
@@ -17012,7 +17020,14 @@ class Component extends DCLogic {
   // It replays ONLY what is already in the in-memory roll log; nothing is persisted for it.
   // ══════════════════════════════════════════════════════════════════════════════════════
   _reducedMotion() {
-    try { return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches); }
+    try {
+      if (this._motionQuery === undefined) {
+        this._motionQuery = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
+        this._motionChanged = () => this._syncDangerAnimation();
+        this._motionQuery?.addEventListener("change", this._motionChanged);
+      }
+      return !!this._motionQuery?.matches;
+    }
     catch (e) { return false; }
   }
   /** The one announcer slot, saved and put back — a film borrows it, it does not own it. */
@@ -18012,9 +18027,6 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
-    // Also observes live OS motion changes and cloud preference merges. This does
-    // not write settings: reduced motion is an effective preference, not a save.
-    if (this._defendSub != null) this._syncDangerAnimation();
     if (this._readerIntent) return;
     if (this._reader?.interacting) { this._declineLandQ("reading"); return; }
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
@@ -18133,7 +18145,7 @@ class Component extends DCLogic {
   _placeOnTable(card) {
     const face = card && card.firstElementChild;
     if (!face || typeof face.animate !== "function") return;
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (this._reducedMotion()) return;
     const lift = -Math.round(NG_CARD_LIFT * (face.offsetHeight || 144));
     face.animate([
       { transform: "translateY(0) scale(1)", easing: "cubic-bezier(.2,.8,.3,1)" },
@@ -18721,7 +18733,7 @@ class Component extends DCLogic {
     this.fx("caught", { submission: sub.t });
     this.fx("options_dealt", { count: escapes.length, kind: "defense" });
     this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad");
-    this.showVignette();
+    this._syncDangerAnimation();
   }
   enterDefense(subIdx, catchArrival = null) {
     if (catchArrival && catchArrival.journey !== this._journeyId) return;
@@ -18737,6 +18749,7 @@ class Component extends DCLogic {
     this.clearLandCard();
     const live = this._isLiveCatch(sub, catchArrival);
     this._defensePressure = false;
+    if (!live) this._syncDangerAnimation();
     this._defenseDrillOpened = false;
     this._stagedTech = null;
     if (live) this.setPaused(false);

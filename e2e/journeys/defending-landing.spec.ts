@@ -22,6 +22,23 @@ import { legacyDefenseRenderer } from '../fixtures/legacy-defense-renderer'
 // NON-KILL: M5 borrows legacy top-level clips in an empty half. The five real gaps
 // have no legacy clips to borrow. Their no-strip assertions pass; the synthetic
 // competing reel in defending_landing.test.mjs kills this exact fallback (U4).
+// Renderer differential scope: both arms use the head's shared grading/expiry helpers;
+// this is not a full base-app differential. It compares question identity/order, timing
+// state, grades, combo, study counters and PUBLISHED escape-card percentages, plus choices.
+// It does NOT compare the beacon, clock DOM disconnection, or the full persisted SRS record.
+// Cold fallback is included with a held panic-pool warm-up (review B1): production
+// reveal, Space, replacement and grading stay live. Paging is a new-renderer-only pin.
+// Review red proofs (2026-10-15): B1's reviewed visibility guard fails both real
+// mouse/Space cases, with and without paging: MC credit 0 -> 1; fixed stays 0.
+// S1: removing NEW _defenseAnswered's wrong break is killed at the outcome
+// comparison (combo 3 vs 0, missing break beat, published 64/67% vs 59/62%).
+// The new-renderer-only expiry-break mutant fails the same comparison. Expiry
+// remains shared head code; this conditional mutant does not make it a base-app oracle.
+// N1: suppressing paintChoiceValues' new defensive card percentage writes AFTER
+// grading is killed at the outcome comparison: published 59/62% vs 72/75%,
+// although escapeOddsSnapshot is 72 in both arms. Controls and mutant builds pass.
+// NON-KILL (review N1): deleting only _defenseAnswered's refreshEscapeOdds survives;
+// _mcAnswer -> refreshOptionOdds already refreshes. No redundant call-count assertion.
 // Playback on YouTube is outside this contract; mounted reel identity is in it.
 const LOOP = '/Submissions/Loop-Choke/from-Half-Guard'
 const KEY = 'Loop Choke from Half Guard|Defender'
@@ -50,12 +67,12 @@ async function calm(page: Page) {
   await expect(page.locator('.ng-landstack')).toBeVisible()
   await expect(page.locator('[data-defense-prompt]')).toHaveCount(0)
 }
-async function catchLoop(page: Page, legacy = false) {
+async function catchLoop(page: Page, legacy = false, cold = false) {
   const j = journey(page)
   await j.boot('/Positions/Half-Guard/Bottom', { beforeNavigate: realContent })
   await expect(page.locator(READY)).toBeVisible()
   await j.hydrateAll()
-  await page.evaluate(({ old, legacy }) => {
+  await page.evaluate(({ old, legacy, cold }) => {
     const a = (window as any).__neural
     // URL staging draws these before boot() can enqueue RNG. Hold the initial
     // opponent and roll length identical for the old/new renderer comparison.
@@ -73,14 +90,31 @@ async function catchLoop(page: Page, legacy = false) {
         return render.call(this, node, mode, ...args)
       }
     }
+    if (cold) {
+      const originalMc = a._mcBlock, originalWarm = a._warmMcPool
+      let release: () => void
+      const pending = new Promise<void>(resolve => { release = resolve })
+      a.__coldWarmCalls = 0
+      a._mcBlock = function (...args: any[]) {
+        if (args[3] === 'panic' && (!a.__coldQuestion || args[0].q === a.__coldQuestion)) {
+          a.__coldQuestion = args[0].q; return null
+        }
+        return originalMc.apply(this, args)
+      }
+      a._warmMcPool = function (...args: any[]) {
+        if (args[2] !== 'panic' || args[0].q !== a.__coldQuestion) return originalWarm.apply(this, args)
+        a.__coldWarmCalls++; return pending
+      }
+      a.__releaseCold = () => { a._mcBlock = originalMc; a._warmMcPool = originalWarm; release!() }
+    }
     for (const [tag, values] of Object.entries({ resolve: [.999], outcome: [0], 'opp-finish': [0], 'opp-sub-pick': [.75], 'opp-pick': [0], escape: [0], 'panic-mc-pick': Array(40).fill(.23), 'panic-mc-shuffle': Array(40).fill(.61) })) a.rig(tag, values)
     const pick = a._optionCards.find((c: any) => c.opt.node.t === 'Half Guard to Back Take' && !c.opt.threat)
     if (!pick) throw new Error('the authored move is absent')
     pick.card.setAttribute('data-defending-commit', '')
-  }, { old: legacyDefenseRenderer, legacy })
+  }, { old: legacyDefenseRenderer, legacy, cold })
   await j.clickByMouse('[data-defending-commit]', 'commit Half Guard to Back Take')
   await j.advanceUntil('caught', 20000, 100)
-  await expect(page.locator('[data-panic-mc-opt]').first()).toBeVisible()
+  await expect(page.locator(cold ? '[data-panic-reveal]' : '[data-panic-mc-opt]').first()).toBeVisible()
   await expect(page.locator('.ng-evtoast')).toContainText('Caught')
   expect(await page.evaluate(() => (window as any).__neural.nodes[(window as any).__neural._defendSub].t)).toBe('Loop Choke from Half Guard')
   return j
@@ -162,7 +196,9 @@ const mechanics = (page: Page) => page.evaluate(() => {
     total: a._decision?.total ?? null, remaining: a._decision?.remaining ?? null,
     prep: a.prep?.[key] || 0, sharp: a._sharp?.[key] || 0, stage: a.stage?.[key] || {}, rec: a.rec?.[key] || {},
     combo: a._combo || 0, qMod: a._qMod || 0, cardsToday: a.cardsToday || 0,
-    odds: a.escapeOddsSnapshot(), choices: a._optList.map((o: any) => ({ label: a.choiceLabel(o), res: o.res, role: o.destinationRole })),
+    odds: a.escapeOddsSnapshot(), publishedOdds: a._optList.map((o: any) => ({
+      label: a.choiceLabel(o), res: o.res, role: o.destinationRole,
+      percent: a._optionCards.find((oc: any) => oc.opt === o)?.card.querySelector('.ngodds')?.textContent.trim() })), choices: a._optList.map((o: any) => ({ label: a.choiceLabel(o), res: o.res, role: o.destinationRole })),
     grades: a.beats.filter((b: any) => ['mc_correct', 'mc_wrong', 'escape_odds_pumped', 'land_q_expired', 'combo_break'].includes(b.beat)).map(({ t, ...b }: any) => b) }
 })
 
@@ -171,7 +207,14 @@ for (const answer of ['right', 'wrong', 'expiry']) {
     const results = []
     for (const legacy of [true, false]) {
       const j = await catchLoop(page, legacy)
+      if (answer !== 'right') await page.evaluate(() => {
+        const a = (window as any).__neural
+        a._combo = 3; a.refreshOptionOdds()
+      })
       const before = await mechanics(page)
+      if (answer !== 'right') expect(before.combo).toBe(3)
+      expect(before.publishedOdds).toHaveLength(before.choices.length)
+      for (const card of before.publishedOdds) expect(card.percent).toMatch(/^\d+%$/)
       expect(before.total).toBe(13500)
       if (answer === 'expiry') await j.advance(14000)
       else {
@@ -181,6 +224,84 @@ for (const answer of ['right', 'wrong', 'expiry']) {
       results.push({ before, after: await mechanics(page) })
     }
     expect(results[1], 'the generic renderer preserves the retired live drill mechanics').toEqual(results[0])
+    if (answer !== 'right') {
+      expect(results[1].after.combo).toBe(0)
+      expect(results[1].after.grades).toContainEqual({ beat: 'combo_break', at: 3, reason: answer === 'wrong' ? 'wrong' : 'slow' })
+    } else expect(results[1].after.publishedOdds).not.toEqual(results[1].before.publishedOdds)
+  })
+}
+
+const coldState = (page: Page) => page.evaluate(() => {
+  const a = (window as any).__neural
+  return { mc: !!a._landEl.querySelector('[data-panic-mc-opt]'), warmCalls: a.__coldWarmCalls,
+    cardsToday: a.cardsToday || 0, correct: a.beats.filter((b: any) => b.beat === 'mc_correct').length }
+})
+async function releaseCold(page: Page) {
+  await page.evaluate(async () => {
+    const a = (window as any).__neural
+    a.__releaseCold()
+    // The held promise's upgrade callback runs before this microtask completes.
+    await Promise.resolve()
+  })
+}
+
+test('cold renderer differential: an untouched fallback upgrades exactly once', async ({ page }) => {
+  const results = []
+  for (const legacy of [true, false]) {
+    const j = await catchLoop(page, legacy, true)
+    expect(await coldState(page)).toEqual({ mc: false, warmCalls: 1, cardsToday: 0, correct: 0 })
+    const before = await mechanics(page)
+    await releaseCold(page)
+    await expect(page.locator('[data-panic-mc-opt]').first()).toBeVisible()
+    expect(await coldState(page)).toEqual({ mc: true, warmCalls: 1, cardsToday: 0, correct: 0 })
+    await page.evaluate(() => { const a = (window as any).__neural; a.__coldUpgradeBlock = a._landEl.querySelector('[role="radiogroup"]') })
+    await releaseCold(page)
+    await j.advance(20)
+    expect(await page.evaluate(() => { const a = (window as any).__neural; return a.__coldUpgradeBlock === a._landEl.querySelector('[role="radiogroup"]') })).toBe(true)
+    const upgraded = await mechanics(page)
+    expect(upgraded.q).toBe(before.q)
+    await j.clickByMouse(`[data-panic-mc-opt="${upgraded.mc!.correct}"]`, 'answer the untouched upgraded question')
+    results.push({ upgraded, after: await mechanics(page), cold: await coldState(page) })
+  }
+  expect(results[1]).toEqual(results[0])
+  expect(results[1].cold).toMatchObject({ warmCalls: 1, cardsToday: 1, correct: 1 })
+})
+
+for (const paged of [false, true]) {
+  test(`cold fallback: reveal then Space hide cannot buy fresh MC credit${paged ? ' after paging away and back' : ' (old/new differential)'}`, async ({ page }) => {
+    const results = []
+    // The retired renderer had no pager; the shared cold contract still compares both arms.
+    for (const legacy of paged ? [false] : [true, false]) {
+      const j = await catchLoop(page, legacy, true)
+      const question = (await mechanics(page)).q
+      await j.clickByMouse('[data-panic-reveal]', 'read the cold answer')
+      await j.clickByMouse('[data-panic-answer],.pAns', 'read the answer text, leaving native focus outside the button')
+      await page.keyboard.press('Space')
+      if (!legacy) await expect(page.locator('[data-panic-answer]')).toBeHidden()
+      if (paged) {
+        await j.clickByMouse('[data-land-next]', 'leave the seen question while warm-up is pending')
+        await expect.poll(() => page.evaluate(() => (window as any).__neural._landPage)).toBe(1)
+        await expect(page.locator('[data-land-prev]')).toBeVisible()
+        await j.clickByMouse('[data-land-prev]', 'return to its cached hidden answer')
+        expect((await mechanics(page)).q).toBe(question)
+        await expect(page.locator('[data-panic-answer]')).toBeHidden()
+      }
+      await releaseCold(page)
+      const after = await coldState(page)
+      // If the regression returns, exercise the illicit credit with an actual mouse,
+      // rather than failing at a setup check before the outcome can be observed.
+      if (after.mc) {
+        const correct = (await mechanics(page)).mc!.correct
+        await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'try to earn fresh MC credit after seeing this answer')
+      }
+      results.push({ after, credit: await coldState(page) })
+    }
+    console.log('COLD_SEEN', JSON.stringify({ paged, results }))
+    for (const result of results) {
+      expect(result.after.mc, 'an exposed answer never upgrades to fresh MC, even when hidden').toBe(false)
+      expect(result.credit).toEqual({ mc: false, warmCalls: 1, cardsToday: 0, correct: 0 })
+    }
+    if (!paged) expect(results[1]).toEqual(results[0])
   })
 }
 

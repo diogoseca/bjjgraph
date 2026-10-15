@@ -263,12 +263,14 @@ The shared defending card uses `_mcBlock` on surface `"panic"` (`data-panic-mc-o
 renderer and red skin are retired. Defense always uses MC despite the in-play recall preference.
 Correct answers pump escape odds and deal the next card; wrong answers reveal without a boost
 and break momentum. Expiry reveals a miss. Reveal/Got-it is the cold-pool fallback, with one
-warm-upgrade attempt per deck. The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+warm-upgrade attempt per deck. Seeing the answer permanently prevents that upgrade, even
+after Space hides it or paging brings it back. The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
 
 **Danger animation**, beside Answer time in Rolling, uses permanent boolean `dangerAnimation`
 (default `true`). Off removes pulsing edges and card warnings, retaining static catch status,
 countdown and mechanics. Reduced motion also suppresses frame-driven glow without changing
-the saved key. Sound/volume still govern caught and expiry cues; no heartbeat audio loops.
+the saved key. Pressure, settings, progress receipts and a cached motion-query change listener
+synchronize visuals only when the effective state changes; frame ticks still drive the clock. Sound/volume still govern caught and expiry cues; no heartbeat audio loops.
 
 ### The pair label (v1.135.0; compact qualified stack v1.173.2)
 
