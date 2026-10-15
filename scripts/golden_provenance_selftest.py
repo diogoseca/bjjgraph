@@ -31,7 +31,11 @@ def baseline_bindings(repo, root, receipt):
     public = root / 'public'; public.mkdir()
     raw = (root / 'index.html').read_bytes()
     for rel in seo.SAMPLE:
-        p = public / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(raw)
+        p = public / rel; p.parent.mkdir(parents=True, exist_ok=True)
+        # Tag extraction requires its real listing region and a crawlable link.
+        p.write_bytes(raw.replace(b'<article>Control</article>',
+                                 b'<div class="popover-hint"><article></article><a href="/Positions/Mount">Mount</a></div>')
+                      if rel.startswith('tags/') else raw)
     for rel in ('static/neural/app/neural.js', 'static/neural/app/neural.css', *build.BUNDLES):
         p = public / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_text('fixture')
     # Format 4: the versioned bundle must bake exactly one NG_APP_VERSION, equal to package.json's.

@@ -10954,15 +10954,24 @@ including 1,260 unit tests with no skips. The generated ledger still has zero kn
 
 v1.225.2: slugify strength; fail misses.
 
-## v1.224.17 — Keep Obsidian workspace state local (2026-10-14)
+## v1.227.1 — Keep a lean Obsidian reading vault and scope content provenance (2026-10-15)
 
-Untrack `content/.obsidian/workspace.json` and ignore both the desktop and mobile
-workspace files. Open tabs, recent files and sidebar layout belong to each device;
-opening the browsing vault should not publish that state in this public repository.
-Shared vault settings and the Git plugin are unchanged. Its tracked automatic commit,
-push and pull settings are already disabled; the vault and plugin's future remain
-separate owner decisions because the Markdown content is generated from JSON.
+Keep `content/` as a lean browsing vault. New tabs use Reading view; new Wikilinks
+use paths from the vault root, and automatic rename/move rewrites are off. Remove
+the vendored Git plugin and its enablement. Disable note-writing plugins in both
+core-plugin snapshots; keep navigation, search, graph, backlinks, previews and
+bookmarks. Desktop/mobile workspace files stay untracked and ignored. Reading
+view is a default, not filesystem write protection; content authoring stays in JSON.
 
-Validation also exposes the provenance guard treating excluded vault metadata as
-content input. Its existing receipt becomes stale after untracking the workspace;
-that guard/baseline contract must be reconciled before this cleanup is merged.
+The content-provenance guard excludes exactly `content/.obsidian`, matching the
+site's vault exclusion. Version 2 receipts hash the Git content tree with that one
+root entry removed; counts cover the remaining Markdown, JSON and other inputs.
+Version 1 receipts must first match their original full tree and counts before the
+verified subset can be compared. Dirty/staged/committed content, ignored real
+inputs, unsupported symlinks and Git trust flags outside the vault still fail.
+
+The unit runner now executes the provenance self-test and ten scope tests. Four
+mutants are killed: removing the vault exclusion, excluding all JSON, omitting
+committed-tree comparison, and hiding ignored inputs. The existing self-test's tag
+fixture now includes its required listing; production gates and floors are unchanged.
+Capture and full CI evidence will be recorded before this draft PR is delivered.
