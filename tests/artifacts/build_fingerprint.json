@@ -1,5 +1,16 @@
 {
  "_meta": {
+  "app_provenance": {
+   "command": "npm run regenerate:neural",
+   "esbuild": "0.27.0",
+   "git_head": "e424eff4c872da89324f3cffbdbb4d59ce7b9e8b",
+   "inputs": {
+    "tree": "ac80063233017315aa4bf4ccdcdf46b7a31634c3"
+   },
+   "package_version": "1.226.0",
+   "rows_from": "neural/dist",
+   "schema": "app-assets-rebuild-v2"
+  },
   "capture_tree": "/home/user/bjj-orchestrator/scratch/mastery-gold/capture/mastery-gold-1.226.0-clean",
   "content_provenance": {
    "capture_git_head": "181ba2b0356cf41352248c4814eff7ce858d8dfb",
