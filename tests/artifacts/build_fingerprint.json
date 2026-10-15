@@ -3,9 +3,9 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "e5ba5fdd05ec70b98c25b50c29b162048aa77510",
+   "git_head": "a5c954bc38f38020cce49c7acb01cababe7efdd5",
    "inputs": {
-    "tree": "6dd977631e8bd7e404a0cef278997acbcd4ab1b0"
+    "tree": "25d1286787144179f177381b29b24fc143245ecf"
    },
    "package_version": "1.227.0",
    "rows_from": "neural/dist",
@@ -277,21 +277,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "9147ea862e182b28a64c243693cc682373465770bc780752378e9bae2738bf4f"
+    "sha256": "55673f53eb1daeaba6c7d04462055eada58449a1da6dcaf70f45d241847a04c0"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "103087db4b3010b1e10f71bea085ffe557d8194ecd2fc0adc4d6dd6d3f05ee91",
+    "sha256": "b64e57075a15b4a2f231fc2e97b1f884e8b98b1ebc15ba95d49bdb1d9b4aeb5a",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "bc40664a48bf6e515fdc82addfa1f8f3a023a3ab5fb514561936aecd5c3daea6",
+    "sha256": "23f664549327f5d2763eb1b4e8bdfec5a4b4e8c1e5f8065f6f8c7cc03e4d2a06",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "7656f30a93f6344cb01409c01ef69a718e0786691d1d157bac9cad2264d78199",
+    "sha256": "06be009e687d3baceda6798cf96aafbe4a8f875b3eef81f23cfe67772787e2ce",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -311,8 +311,8 @@
     "sha256": "46486119408b67528bdc3bef6cb9edd27311f531dbdb20f6dae6701e90cbb73c"
    },
    "static/neural/app/neural.js": {
-    "bytes": 686073,
-    "sha256": "a3809923ee969b3b7f0531c575c0268faf53653902a1cad85a9138626a60d478",
+    "bytes": 686299,
+    "sha256": "3664610af940f431ba172ce0c4a5f6d1bd7f12b941b0c077be9452b31d860808",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
