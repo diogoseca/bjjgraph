@@ -54,6 +54,15 @@ Record the evidence and scope of any actual review rather than inferring approva
 Do not edit a generated `.md` that has a JSON source. Edit its JSON for data or its Jinja template
 for layout. Some standalone Markdown pages, such as `content/Game Over.md`, are not JSON-generated.
 
+### Browse in Obsidian
+
+Open `content/` as an existing vault to browse the generated pages. Its shared settings open new
+tabs in Reading view, use vault-root Wikilinks such as `[[Positions/Mount]]`, and disable automatic
+link rewrites. The Git plugin is removed; Canvas, daily notes, templates, note composition, file
+recovery and other authoring plugins are off. Desktop and mobile workspace files stay local and
+ignored; an existing workspace can retain its previous tab modes. Reading view is a default,
+not filesystem write protection: make content changes through the JSON workflow above.
+
 ### Checks and Generation Are Different
 
 ```bash

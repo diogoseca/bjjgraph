@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.1** — [A lean reading vault and scoped content provenance](#v12271--a-lean-reading-vault-and-scoped-content-provenance)
 - **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
 - **v1.227.0 review** — [Defending review corrections](#v12270--defending-review-corrections)
 
@@ -11027,3 +11028,34 @@ hydration and motion synchronization do not replace it. The spec waits for publi
 including the harness's bounded empty-body retry, before its unchanged interaction and
 geometry assertions. Ten delayed-publication stress trials pass. No action retry or
 production change was added for these two CI failures.
+
+
+## v1.227.1 — A lean reading vault and scoped content provenance
+
+Keep `content/` as a browsing vault: new tabs use Reading view, Wikilinks use paths
+from the vault root, and rename/move operations do not rewrite links automatically.
+Remove the vendored Git plugin and its enablement; turn off note-writing plugins in
+both core-plugin snapshots. Desktop/mobile workspace state stays local and ignored.
+Reading view is a default, not filesystem write protection; author content in JSON.
+
+The provenance guard excludes only the root `content/.obsidian` entry. Receipts keep
+the existing envelope for Quartz observers and declare
+`content_scope: content-excluding-obsidian-v1`; their tree hash and counts exclude
+vault metadata. Older receipts must validate their original full tree/counts before
+comparing that verified subset. All other content, including ignored inputs, remains
+guarded. No emitted content or payload change is intended.
+
+Ten disposable-Git scope tests cover vault changes, real Markdown/JSON drift,
+ignored inputs, trust flags and legacy receipts. The existing provenance self-test
+now runs in the unit suite; its tag fixture includes the required listing/link.
+Four gate mutants fail named tests: removing the vault exclusion, excluding all
+JSON, dropping committed-tree comparison, and hiding ignored inputs with
+`--exclude-standard`. The real Quartz observer and 15 capture-driver fixture cases
+also pass. Production gates and ceilings are unchanged.
+
+Guarded capture `af62ba20e` on post-escape base `f006d73b8` confirms zero emitted
+changes: all 19 census counts, three root bundles and 14 app assets match after the
+existing version normalization. The receipt-bound re-seed changes metadata only:
+6,412 inputs become 6,401, Markdown stays 4,601, and both dirty-path lists are empty.
+The integrated payload passes at 346,317 B eager gzip (+3,319 B against the 342,998 B
+checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceiling).
