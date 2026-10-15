@@ -4,7 +4,7 @@
 
 ---
 title: "Hand Fighting to Remove Collar Grip | BJJ Technique | BJJ Graph"
-description: "Master hand fighting to remove collar grip from invisible collar bottom. Two-on-one grip breaking mechanics and bridging techniques for back control escape."
+description: "Hand fighting in Invisible Collar concerns high-leg and arm connections; stripping a jacket-collar grip requires a separately established cloth choke."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master hand fighting to remove collar grip from invisible collar b
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hand Fighting to Remove Collar Grip",
-  "description": "Master hand fighting to remove collar grip from invisible collar bottom. Two-on-one grip breaking mechanics and bridging techniques for back control escape.",
+  "description": "Hand fighting in Invisible Collar concerns high-leg and arm connections; stripping a jacket-collar grip requires a separately established cloth choke.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -76,7 +76,7 @@ description: "Master hand fighting to remove collar grip from invisible collar b
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Hand Fighting to Remove Collar Grip",
-  "description": "Hand Fighting to Remove Collar Grip is a defensive back-escape technique where the bottom player uses two-on-one wrist control and a coordinated bridge to strip the attacker's deep gi collar grip, neutralizing an invisible collar choke before it can finish.",
+  "description": "Hand fighting in Invisible Collar concerns high-leg and arm connections; stripping a jacket-collar grip requires a separately established cloth choke.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -94,13 +94,15 @@ description: "Master hand fighting to remove collar grip from invisible collar b
 
 <section id="overview" class="content-section">
 
-**Hand Fighting to Remove Collar Grip is a defensive back-escape technique where the bottom player uses two-on-one wrist control and a coordinated bridge to strip the attacker's deep gi collar grip, neutralizing an invisible collar choke before it can finish.**
+**Hand fighting in Invisible Collar concerns high-leg and arm connections; stripping a jacket-collar grip requires a separately established cloth choke.**
 
-Hand Fighting to Remove Collar Grip represents the critical first layer of defense when trapped in the invisible collar position from bottom. The technique addresses the most immediate threat—the deep collar grip that can finish the match within seconds. Unlike generic hand fighting, this defensive sequence specifically targets the biomechanics of collar grip removal, using two-on-one control to systematically peel fingers from the gi material before the attacker can apply finishing pressure.
+The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. The word collar does not establish a gi grip. The bottom player owns the leg clinch, and a collar strip is conditional on an opponent actually taking the jacket.
 
-The defensive urgency cannot be overstated. Once an invisible collar grip achieves full depth with knuckles pressed against the carotid, the submission becomes nearly inevitable regardless of chin tuck or other secondary defenses. Successful practitioners recognize the setup early and immediately engage aggressive hand fighting before the grip consolidates. This requires constant monitoring of the attacker's hand position and the discipline to prioritize grip removal over other escape attempts.
+The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-Strategically, this technique serves as the gateway to all other back control escapes. Without first neutralizing the collar threat, hip escapes and hook removal become futile—the attacker simply finishes the choke while you work. Mastering this hand fighting sequence transforms a desperate survival situation into a systematic defensive framework where each successful grip break creates windows for positional improvement.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Eddie Bravo — MTS 134 Invisible Collar in Austin](https://www.youtube.com/watch?v=KCyIwacRKu8); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
 
 **From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 **Success Rate**: 55%
@@ -155,8 +157,8 @@ Strategically, this technique serves as the gateway to all other back control es
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Commit both hands to two-on-one grip control on the choking ... | Use opponent's two-on-one commitment against them by attacki... |
-| **Options** | 8 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the actual control: The bottom player faces the kn... | Recognize the high closure: The free leg moving behind your ... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -169,55 +171,49 @@ Strategically, this technique serves as the gateway to all other back control es
 ### Key Principles
 
 
-- Commit both hands to two-on-one grip control on the choking wrist immediately upon recognition
+- Recognize the actual control: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.
 
-- Pull the grip away from your neck rather than trying to strip fingers from collar material
+- Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Maintain aggressive chin tuck throughout to limit choking angles during hand fighting
+- Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-- Time your strongest grip break attempts with hip movement that disrupts attacker's base
+- Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.
 
-- Monitor grip depth constantly and re-engage hand fighting if attacker attempts to re-establish
+- Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
 
-- Prioritize grip removal over hook escape—the choke finishes faster than positional escape
-
-- Use small circular motions to break grip rather than straight pulling which attacker can resist
+- Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack.
 
 
 ### Execution Steps
 
 
-- **Recognize the threat**: Identify opponent's choking hand by feeling for finger penetration in your collar. The invisible col...
+- **Recognize the actual control**: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolate...
 
-- **Establish chin tuck**: Drive your chin aggressively toward your chest, pressing it so tightly that no gi material can fit b...
+- **Remove submission pressure**: Release any wrist, neck or elbow loading before opening the high-leg enclosure....
 
-- **Locate the choking wrist**: Bring both hands to the opponent's choking arm, specifically targeting the wrist joint where you hav...
+- **Open the high connection**: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the k...
 
-- **Establish two-on-one control**: Grip the opponent's wrist with both hands in a pistol grip configuration—your thumbs on top of their...
+- **Restore inside frames**: Bring the forearms and knees between the bodies as space becomes available....
 
-- **Create pulling angle**: Rather than pulling straight down which the opponent can brace against, angle your pull toward your ...
+- **Face the opponent**: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing ...
 
-- **Bridge and strip**: Execute a strong bridge toward the choking arm side while simultaneously pulling their wrist away fr...
-
-- **Maintain control and trap arm**: After breaking the grip, do not release their wrist immediately. Keep two-on-one control and pull th...
-
-- **Transition to escape sequence**: With the collar threat neutralized and their arm controlled, immediately begin hip escape toward the...
+- **Stabilize before moving again**: Check posture, knee comfort and inside space before resuming a sweep or submission attack....
 
 
 ### Common Mistakes
 
 
-- **Using only one hand to fight the collar grip while keeping other hand on the mat**
-  - Consequence: Insufficient grip strength to overcome opponent's collar grip, allowing them to maintain position and eventually finish the choke
-  - Correction: Commit both hands immediately to two-on-one control on the choking wrist. Accept temporary vulnerability to other attacks in exchange for addressing the primary threat with maximum force.
+- **Skipping the checkpoint: recognize the actual control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.
+  - Correction: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence.
 
-- **Trying to strip fingers from the collar rather than controlling the wrist**
-  - Consequence: Fingers are difficult to individually control and opponent simply re-grips faster than you can strip, wasting energy without progress
-  - Correction: Control the wrist joint where you have mechanical advantage. Pulling the entire hand away from your neck is more effective than trying to pry individual fingers from gi material.
+- **Skipping the checkpoint: remove submission pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+  - Correction: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- **Lifting chin or extending neck while attempting grip break**
-  - Consequence: Creates additional space for the choke to sink in and gives opponent better angle to apply finishing pressure during your escape attempt
-  - Correction: Maintain aggressive chin tuck throughout the entire hand fighting sequence. Your neck should feel compressed and tight even while your hands are actively working the grip break.
+- **Skipping the checkpoint: open the high connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+  - Correction: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
 
 </section>
@@ -231,39 +227,37 @@ Strategically, this technique serves as the gateway to all other back control es
 ### Key Principles
 
 
-- Use opponent's two-on-one commitment against them by attacking undefended areas while they focus on your choking hand
+- Recognize the high closure: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-- Drive your choking elbow toward your own hip to tighten the collar against their pulling force rather than fighting their pull directly
+- Protect the neck and arm: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-- Maintain constant chest-to-back pressure to limit the bridging mechanics they need for effective grip breaks
+- Keep a balanced base: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-- Re-grip immediately at deeper angles when they momentarily relax after failed strip attempts
+- Address the leg enclosure: Create space at the hip and thigh before trying to raise the head or extract the arm.
 
-- Transition to alternative submissions when collar grip retention becomes unsustainable rather than fighting a losing grip battle
+- Recover inside position: Bring the elbow back between the bodies after the high closure opens.
 
-- Keep hooks active and driving deep while they occupy both hands on your wrist, exploiting their lower body vulnerability
+- Stop on compression: Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
 
 
 ### Recognition Cues
 
 
-- Opponent brings both hands simultaneously to your choking wrist, abandoning all other defensive actions to focus on grip removal
+- The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection.
 
-- Opponent begins aggressive chin tuck combined with attempts to locate and control your wrist rather than your forearm or fingers
+- Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Opponent initiates bridging motion toward the collar side, attempting to combine hip movement with pulling force on your wrist
-
-- Opponent's body shifts to create a diagonal pulling angle toward their far hip rather than pulling straight down on your arm
+- Bring the forearms and knees between the bodies as space becomes available.
 
 
 ### Defensive Options
 
 
-- **Drive choking elbow to your hip and tighten collar grip against their pull by rotating your forearm inward** - When: When opponent first establishes two-on-one on your wrist and begins pulling, before they coordinate with bridging
+- **The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Release collar grip and immediately swim arm to rear naked choke position while both their hands are occupied low** - When: When their two-on-one control is strong and collar retention is failing, but their neck is momentarily exposed because both hands are on your wrist
+- **Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Flatten opponent by driving hooks deep and extending your legs while maintaining collar grip with maximum resistance** - When: When opponent begins bridging to assist their grip break, flatten them to eliminate the bridging platform they need
+- **Avoid driving all weight onto the partner's shoulders while the legs are locked high.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -274,13 +268,10 @@ Strategically, this technique serves as the gateway to all other back control es
 ## Variations
 
 
-**Single Hand Strip with Frame**: When two-on-one is not possible due to arm positioning, use one hand on their wrist while the other frames against their bicep or shoulder. The frame prevents them from driving the choke deeper while the single hand works to strip the grip. Less effective but necessary when positioning limits options. (When to use: When one arm is trapped under opponent's body or when their seatbelt arm is controlling one of your hands)
+**Cooperative checkpoint drill**: The bottom player faces the kneeling or leaning top player in a high guard. One arm has been isolated through the New York and neck-clearing sequence. Release any wrist, neck or elbow loading before opening the high-leg enclosure. (When to use: Learning the control without submission pressure)
 
 
-**Rotation Strip**: Instead of pulling their wrist straight away, rotate your entire torso toward the collar grip side while maintaining two-on-one control. The rotation peels the grip loose using your body weight rather than just arm strength. Particularly effective against very strong grips. (When to use: Against opponents with significantly stronger grip than your pulling power, or when you have the space to rotate)
-
-
-**Explosive Bridge and Trap**: Execute a violent upward bridge while simultaneously shooting your far hand behind their choking elbow, trapping the entire arm against your back. This variant aims to completely immobilize the choking arm rather than stripping the grip, creating escape opportunity through arm control. (When to use: When the grip is already too deep to strip conventionally and you need to prevent finishing pressure rather than remove the grip entirely)
+**Response and reset drill**: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -292,7 +283,7 @@ Strategically, this technique serves as the gateway to all other back control es
 
 ## Position Integration
 
-Hand Fighting to Remove Collar Grip serves as the essential first step in all back control escape sequences when the opponent has established gi-based collar attacks. This technique sits at the critical juncture between survival and submission—without neutralizing the collar threat first, all other escapes become meaningless as the choke finishes before positional improvement occurs. The technique connects directly to hip escape series, hook removal sequences, and turtle recovery as follow-up options once the grip is broken. Understanding this hand fighting sequence transforms the invisible collar from an immediately desperate position to a systematic defensive problem with clear solutions. Advanced practitioners chain this grip break directly into back escape series, treating successful grip removal as the trigger for explosive hip movement rather than a separate isolated technique.
+The bottom player is already facing the opponent in Invisible Collar, with a high rubber-guard leg connection. The word collar does not establish a gi grip. The bottom player owns the leg clinch, and a collar strip is conditional on an opponent actually taking the jacket. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -302,25 +293,13 @@ Hand Fighting to Remove Collar Grip serves as the essential first step in all ba
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/Invisible Collar]] - Starting position being defended against
+- [[Positions/Rubber Guard/Chill Dog]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Chill Dog.
 
-- [[Positions/Back Control]] - Position reached after successful grip removal
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Transitions/Back Door Escape]] - Follow-up escape sequence after grip removal
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Transitions/Hip Escape to Guard]] - Common escape chain after neutralizing collar threat
-
-- [[Submissions/Rear Naked Choke]] - Alternative attack opponent may switch to during defense
-
-- [[Transitions/Granby Roll to Guard]] - Alternative escape option once hooks are addressed
-
-- [[Transitions/Elbow Escape to Remove Hooks]] - Follow-up technique after grip removal
-
-- [[Positions/Turtle]] - Transitional position during escape sequence
-
-- [[Transitions/Hand Fighting from Back]] - Related grip fighting concept from standard back control
-
-- [[Positions/Back Control/Seat Belt Control Back]] - Grip structure opponent may revert to after collar removal
+- [[Positions/Rubber Guard/Crackhead Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Crackhead Control.
 
 
 </section>

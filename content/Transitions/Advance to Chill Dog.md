@@ -4,7 +4,7 @@
 
 ---
 title: "Advance to Chill Dog | BJJ Technique | BJJ Graph"
-description: "Master Advance to Chill Dog transition in BJJ. Progress from New York to gogoplata position with systematic leg threading and overhook control."
+description: "Advancing to Chill Dog clears the head-side arm around the neck from New York while the bottom player keeps the trapped arm isolated and the controlling knee hugged."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master Advance to Chill Dog transition in BJJ. Progress from New Y
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Advance to Chill Dog",
-  "description": "Master Advance to Chill Dog transition in BJJ. Progress from New York to gogoplata position with systematic leg threading and overhook control.",
+  "description": "Advancing to Chill Dog clears the head-side arm around the neck from New York while the bottom player keeps the trapped arm isolated and the controlling knee hugged.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master Advance to Chill Dog transition in BJJ. Progress from New Y
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Advance to Chill Dog",
-  "description": "Advance to Chill Dog is a 10th Planet Rubber Guard transition where the bottom player threads their shin from across the opponent's back to hook around the neck, converting New York control into a gogoplata-threatening Chill Dog position.",
+  "description": "Advancing to Chill Dog clears the head-side arm around the neck from New York while the bottom player keeps the trapped arm isolated and the controlling knee hugged.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,15 +105,17 @@ description: "Master Advance to Chill Dog transition in BJJ. Progress from New Y
 
 <section id="overview" class="content-section">
 
-**Advance to Chill Dog is a 10th Planet Rubber Guard transition where the bottom player threads their shin from across the opponent's back to hook around the neck, converting New York control into a gogoplata-threatening Chill Dog position.**
+**Advancing to Chill Dog clears the head-side arm around the neck from New York while the bottom player keeps the trapped arm isolated and the controlling knee hugged.**
 
-Advance to Chill Dog represents a critical progression within the 10th Planet Rubber Guard system, moving from the foundational New York control into a deeper attacking position that sets up the gogoplata and other high-percentage finishes. This transition capitalizes on the broken posture and overhook control established in New York, threading the controlling leg deeper across the opponent's back to create the distinctive Chill Dog configuration.
+The bottom guard player begins in New York, facing a top player whose posture is controlled. This advances an existing rubber-guard arm trap; it does not move a turtle defender under a ride.
 
-The strategic value of this advancement lies in its ability to convert positional control into immediate submission threat. While New York offers multiple attack pathways, Chill Dog narrows the focus to neck attacks - particularly the gogoplata - while maintaining the fundamental overhook control that prevents the opponent from posturing. The transition exploits the opponent's compromised structure, using their forward-driven posture as the mechanism for deepening leg control.
+Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee. Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
-Biomechanically, the move requires threading the shin that was across the opponent's back deeper until the instep can hook around their neck. This demands significant hip flexibility combined with precise timing - attempting the thread while the opponent is fighting posture creates the space needed for the leg to travel. The overhook arm maintains constant pressure throughout, preventing any explosive posture recovery that would shut down the transition.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-From a game theory perspective, Advance to Chill Dog forces the opponent into increasingly desperate defensive decisions. Once the leg begins threading deeper, they must choose between accepting the deeper control or attempting explosive escapes that often expose them to armbar, triangle, or omoplata attacks. This dilemma-based approach exemplifies the 10th Planet philosophy of creating no-win situations through systematic positional advancement.
+Instructional sources: [Brandon McCaghren — Gogoplata from rubber guard](https://www.youtube.com/watch?v=wn39-wrfsbs); [Eddie Bravo — Chill Dog / Invisible Collar clarification](https://www.10thplanetjj.com/forum/threads/17657-Chill-Dog-Invisible-Collar-Question).
+
+Chill Dog can support a submission chain toward a separately established Carni shoulder lock or Gogoplata shin-under-chin enclosure. Preserve the arm isolation, then confirm the new shoulder or neck configuration before adding any finishing pressure.
 
 **From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 **Success Rate**: 55%
@@ -176,7 +178,7 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Maintain deep overhook control throughout the transition - a... | Early recognition is everything - once the shin hooks the ne... |
+| **Key Principles** | Secure New York first: Keep the opposing hand on the mat and... | Track the trapped elbow: Keep the free hand available for fr... |
 | **Options** | 6 execution steps | 4 defensive options |
 
 </section>
@@ -190,51 +192,49 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 ### Key Principles
 
 
-- Maintain deep overhook control throughout the transition - any loosening allows opponent escape
+- Secure New York first: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-- Thread the leg during opponent's forward pressure, using their drive as assistance
+- Turn onto the hip: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
-- Hip angle must rotate toward the overhook side to create space for the leg to travel
+- Clear the neck: Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
-- The shin-gripping hand transitions to guide the foot around the neck as the leg deepens
+- Place the inside frame: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
 
-- Core engagement prevents being flattened during the vulnerable transition phase
+- Maintain the arm trap: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup.
 
-- Opponent's broken posture is the prerequisite - never attempt against upright opponent
-
-- The transition is continuous motion, not segmented steps - fluidity prevents defensive adjustments
+- Recover when control opens: Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back.
 
 
 ### Execution Steps
 
 
-- **Confirm New York control**: Verify deep overhook with shoulder tight to opponent's armpit, shin across their upper back, and sam...
+- **Secure New York first**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip....
 
-- **Rotate hips toward overhook**: Turn your hips slightly toward the overhook side, creating the angle needed for your leg to travel d...
+- **Turn onto the hip**: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the ...
 
-- **Release shin grip and guide foot**: Release your grip on your own shin and immediately use that hand to guide your foot around the oppon...
+- **Clear the neck**: Move the controlling arm around the head while keeping the leg and trapped arm connected....
 
-- **Thread instep around neck**: Drive your instep across the back of opponent's neck, hooking it on the far side. Your shin should n...
+- **Place the inside frame**: Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse acr...
 
-- **Secure Chill Dog configuration**: Once the foot hooks around, use your hand to grab your own shin or ankle to lock the position. Your ...
+- **Maintain the arm trap**: Keep the knee hug while choosing further control such as Invisible Collar or an omoplata setup....
 
-- **Adjust angle for attacks**: Fine-tune your hip angle and leg position to maximize pressure on opponent's neck. Pull with your ov...
+- **Recover when control opens**: Return the legs to a comfortable guard if the opponent withdraws the elbow or stacks your upper back...
 
 
 ### Common Mistakes
 
 
-- **Loosening overhook while focusing on leg threading**
-  - Consequence: Opponent extracts arm and recovers posture, escaping both New York and preventing Chill Dog entry
-  - Correction: Maintain constant overhook pressure with shoulder-to-armpit contact throughout. The overhook is the anchor that makes the transition possible.
+- **Skipping the checkpoint: secure new york first**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
+  - Correction: Keep the opposing hand on the mat and hug the knee before changing the head-side grip.
 
-- **Attempting transition against opponent with recovered posture**
-  - Consequence: Leg cannot travel the required distance and opponent easily defends the thread attempt
-  - Correction: Re-break posture using closed guard mechanics before attempting Chill Dog advancement. Broken posture is a prerequisite, not optional.
+- **Skipping the checkpoint: turn onto the hip**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
+  - Correction: Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
-- **Threading leg in segmented steps rather than fluid motion**
-  - Consequence: Each pause gives opponent time to adjust defense and block the next segment of movement
-  - Correction: Execute the transition as one continuous flowing movement from New York to secured Chill Dog. Fluidity prevents defensive adaptation.
+- **Skipping the checkpoint: clear the neck**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Move the controlling arm around the head while keeping the leg and trapped arm connected.
+  - Correction: Move the controlling arm around the head while keeping the leg and trapped arm connected.
 
 
 </section>
@@ -248,43 +248,37 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 ### Key Principles
 
 
-- Early recognition is everything - once the shin hooks the neck, defensive options decrease dramatically
+- Track the trapped elbow: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.
 
-- Never drive forward into the bottom player during the transition, as forward pressure assists their leg threading
+- Recognize neck clearing: The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.
 
-- Pin the threading leg with your free hand before it crosses the neck line to prevent Chill Dog establishment
+- Deny the second leg: Keep a safe base and prevent the free leg from closing high behind your head.
 
-- Posture recovery must be explosive and immediate when you feel the hip rotation that signals the advancement
+- Undo the arm isolation: Recover the elbow toward your ribs only when the leg enclosure has slack, rather than jerking the shoulder.
 
-- The bottom player's shin grip release is your highest-percentage escape window - recognize and exploit it
+- Posture after release: Bring the head and chest upright in stages after clearing the upper-body control.
 
-- Turn your head and shoulders away from the threading leg to increase the distance it must travel
-
-- If Chill Dog is partially established, address neck pressure before attempting full escape to prevent strangulation
+- Avoid forced stacking: Do not drive the partner onto the neck or force the bent leg sideways to escape the control.
 
 
 ### Recognition Cues
 
 
-- Bottom player's hips rotate toward their overhook side, shifting their weight and opening the angle for leg travel
+- The bottom guard player begins in New York, facing a top player whose posture is controlled.
 
-- Bottom player releases their same-side grip on their shin near the ankle, reaching to cup and guide their own foot
+- Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee.
 
-- The shin that was across your upper back begins sliding higher toward your neck rather than maintaining static position
-
-- Bottom player's pulling pressure with the overhook intensifies as they use it as the primary anchor during the transition
-
-- You feel the bottom player's instep moving across the back of your neck rather than resting on your shoulder blade
+- Use the forearm near the shoulder line to manage forward pressure; do not let the frame collapse across your own wrist.
 
 
 ### Defensive Options
 
 
-- **Explosive posture recovery by driving hips back and chest up while stripping overhook** - When: Immediately upon recognizing the hip rotation that signals Chill Dog advancement - must act within one to two seconds
+- **Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Pin the threading leg with your free hand, pressing it down against their torso to block the shin from reaching your neck** - When: When you feel the shin beginning to slide higher on your back but before it crosses past your shoulder line to your neck
+- **The opponent changing the hand around your head signals the move beyond New York, not a turtle escape.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Turn head and shoulders away from the threading direction while circling your trapped elbow downward for extraction** - When: When the bottom player releases their shin grip to guide their foot - this momentary control gap is the optimal window
+- **Keep a safe base and prevent the free leg from closing high behind your head.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -295,13 +289,10 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 ## Variations
 
 
-**Assisted Thread**: Use your free hand to physically lift and guide your ankle across opponent's neck when hip flexibility is limited. This variation trades some overhook security for guaranteed foot placement. (When to use: When hip flexibility is insufficient for pure leg threading or against particularly tight defensive posture)
+**Cooperative checkpoint drill**: Keep the opposing hand on the mat and hug the knee before changing the head-side grip. Bring the knee toward the chest through hip movement so the neck-clearing motion does not twist the knee. (When to use: Learning the control without submission pressure)
 
 
-**Pressure Thread**: Instead of waiting for opponent's forward drive, actively pull them forward with overhook and hip movement to create the momentum needed for threading. More aggressive but higher risk if opponent reads the pull. (When to use: When opponent is being passive and not providing forward pressure to exploit)
-
-
-**Crackhead First**: Transition through Crackhead Control before advancing to Chill Dog. This adds an intermediate position but provides more control throughout the movement. (When to use: When opponent has strong posture defense and direct Chill Dog entry is consistently failing)
+**Response and reset drill**: Keep the free hand available for framing while preventing the isolated elbow from being pulled further away from your torso. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -313,7 +304,7 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 ## Position Integration
 
-Advance to Chill Dog occupies a critical junction in the 10th Planet Rubber Guard attack tree. It represents the progression from New York's controlling hub position into a finishing-focused configuration. Within the broader system, this transition is one of several options from New York - alongside Invisible Collar, Zombie, and Carni - each leading to different submission families. Chill Dog specifically funnels into gogoplata attempts, making it the pathway of choice when neck attacks are the goal. The transition also connects to the dilemma-creation philosophy: attempting Chill Dog often exposes triangle and omoplata opportunities when defended, meaning even failed attempts advance your position. This makes the technique valuable both as a primary attack and as a threat that opens secondary options.
+The bottom guard player begins in New York, facing a top player whose posture is controlled. This advances an existing rubber-guard arm trap; it does not move a turtle defender under a ride. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -323,29 +314,13 @@ Advance to Chill Dog occupies a critical junction in the 10th Planet Rubber Guar
 ## Related Techniques
 
 
-- [[Positions/Rubber Guard/New York]] - Starting position - must be consolidated before advancing
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Rubber Guard/Chill Dog]] - Target position achieved upon successful leg threading
+- [[Positions/Rubber Guard/New York]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for New York.
 
-- [[Transitions/Gogoplata]] - Primary follow-up submission from Chill Dog
+- [[Positions/Rubber Guard/Invisible Collar]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Invisible Collar.
 
-- [[Positions/Rubber Guard/Mission Control]] - Prerequisite position in Rubber Guard progression
-
-- [[Positions/Rubber Guard/Invisible Collar]] - Alternative attack pathway from New York
-
-- [[Positions/Rubber Guard/Zombie]] - Alternative attack pathway from New York
-
-- [[Positions/Rubber Guard/Carni]] - Alternative attack pathway from New York
-
-- [[Positions/Triangle Control]] - Chain attack when Chill Dog is defended
-
-- [[Positions/Omoplata Control]] - Chain attack when Chill Dog is defended
-
-- [[Positions/Rubber Guard]] - Parent system encompassing the full progression
-
-- [[Positions/Rubber Guard/Crackhead Control]] - Intermediate position variant for limited flexibility
-
-- [[Positions/Closed Guard]] - Fallback position if Rubber Guard system fails
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
 
 </section>

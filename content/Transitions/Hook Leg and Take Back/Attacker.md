@@ -4,7 +4,7 @@
 
 ---
 title: "Hook Leg and Take Back Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Hook Leg and Take Back in BJJ. Attacking perspective with setup, execution steps, and counters."
+description: "Hook Leg and Take Back (attacker): The bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal."
 ---
 
 
@@ -20,38 +20,38 @@ description: "How to execute Hook Leg and Take Back in BJJ. Attacking perspectiv
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Recognize trigger",
-      "text": "Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture",
+      "name": "Identify the starting enclosure",
+      "text": "The bottom player has turned partly toward the opponent and brought an arm past the head.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Maintain harness connection",
-      "text": "Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement",
+      "name": "Remove finishing pressure",
+      "text": "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Follow with chest",
-      "text": "Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction",
+      "name": "Release before repositioning",
+      "text": "Open the original connection before either partner turns, rises or changes the captured limb.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Insert near-side hook",
-      "text": "As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation",
+      "name": "Require rear torso access",
+      "text": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Complete with second hook",
-      "text": "Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration",
+      "name": "Contain the shoulder and hip lines",
+      "text": "Use controlled upper-body and leg attachment while preserving neck alignment.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish back control",
-      "text": "Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology",
+      "name": "Stabilize rear control",
+      "text": "Confirm that the opponent cannot simply turn to face you before considering a back attack.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Hook Leg and Take Back in BJJ. Attacking perspectiv
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of Hook Leg and Take Back?",
+      "name": "Hook Leg and Take Back (attacker): What matters when you identify the starting enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery."
+        "text": "The bottom player has turned partly toward the opponent and brought an arm past the head."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing for inserting the first hook?",
+      "name": "Hook Leg and Take Back (attacker): What matters when you remove finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion."
+        "text": "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal."
       }
     },
     {
       "@type": "Question",
-      "name": "Why must harness grip be maintained throughout the entire transition?",
+      "name": "Hook Leg and Take Back (attacker): What matters when you release before repositioning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments."
+        "text": "Open the original connection before either partner turns, rises or changes the captured limb."
       }
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting but immediately reclines backward to pin you - how do you adjust?",
+      "name": "Hook Leg and Take Back (attacker): What matters when you require rear torso access?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle."
+        "text": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
       }
     },
     {
       "@type": "Question",
-      "name": "What determines whether to complete with second hook or transition to body triangle?",
+      "name": "Hook Leg and Take Back (attacker): What matters when you contain the shoulder and hip lines?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security."
+        "text": "Use controlled upper-body and leg attachment while preserving neck alignment."
       }
     },
     {
       "@type": "Question",
-      "name": "How does chest position affect transition success rate?",
+      "name": "Hook Leg and Take Back (attacker): What matters when you stabilize rear control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase."
+        "text": "Confirm that the opponent cannot simply turn to face you before considering a back attack."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Hook Leg and Take Back in BJJ. Attacking perspectiv
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hook Leg and Take Back Attacker",
-  "description": "How to execute Hook Leg and Take Back in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "description": "Hook Leg and Take Back (attacker): The bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -220,11 +220,15 @@ description: "How to execute Hook Leg and Take Back in BJJ. Attacking perspectiv
 
 <section id="overview" class="content-section">
 
-The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.
+The initial Buggy Choke configuration must be identified before considering Back Control. The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.
 
-The technical foundation relies on timing the leg hook insertion precisely as the opponent's hip rises during the sitting motion. Unlike static back takes that require setting up multiple control points sequentially, this transition capitalizes on the dynamic moment when the opponent voluntarily compromises their hip defense. The harness grip maintained from buggy choke position provides the upper body anchor that makes the hook insertion possible without sacrificing control.
+The bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal. Open the original connection before either partner turns, rises or changes the captured limb.
 
-Strategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.
+Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. Use controlled upper-body and leg attachment while preserving neck alignment. Confirm that the opponent cannot simply turn to face you before considering a back attack.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+After the Buggy loop is completely open, a separate back take needs hip control and rear torso contact before hooks can hold the new position. The same-side arm-and-leg choke loop does not provide that hip attachment.
 
 **From Position**: [[Positions/Buggy Choke]] (Top)
 
@@ -272,12 +276,12 @@ Strategically, this technique represents the positional advancement pathway with
 
 <p class="section-subtitle">What are the key principles for executing Hook Leg and Take Back?</p>
 
-- Maintain harness grip throughout the transition to anchor upper body control while legs adjust for hook insertion
-- Time the hook insertion precisely as opponent's near hip rises during the sit-up motion to catch the optimal entry window
-- Drive chest forward following opponent's sitting movement to prevent space creation and maintain pressure during transition
-- Insert near-side hook first while keeping far-side leg ready to follow once initial hook secures hip control
-- Use opponent's momentum against them by flowing with their sitting direction rather than resisting or stalling
-- Keep head tight to opponent's far shoulder throughout transition to prevent rotational escapes during position change
+- Identify the starting enclosure: The bottom player has turned partly toward the opponent and brought an arm past the head.
+- Remove finishing pressure: Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.
+- Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.
+- Require rear torso access: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
+- Contain the shoulder and hip lines: Use controlled upper-body and leg attachment while preserving neck alignment.
+- Stabilize rear control: Confirm that the opponent cannot simply turn to face you before considering a back attack.
 
 
 </section>
@@ -288,11 +292,10 @@ Strategically, this technique represents the positional advancement pathway with
 
 <p class="section-subtitle">What do you need before attempting Hook Leg and Take Back?</p>
 
-- Buggy choke control established with threading arm deep under opponent's armpit and second grip secured
-- Opponent initiating sit-up motion or showing intention to turn toward guard recovery
-- Harness grip must be secure enough to follow opponent's movement without losing upper body connection
-- Your hips positioned close to opponent's hips to minimize distance needed for hook insertion
-- Chest-to-back connection maintained preventing opponent from creating separation during sitting attempt
+- The initial Buggy Choke configuration must be identified before considering Back Control.
+- The bottom player has turned partly toward the opponent and brought an arm past the head.
+- Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.
+- The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.
 
 
 </section>
@@ -303,12 +306,12 @@ Strategically, this technique represents the positional advancement pathway with
 
 <p class="section-subtitle">How do you execute Hook Leg and Take Back step by step?</p>
 
-1. **Recognize trigger**: Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture
-2. **Maintain harness connection**: Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement
-3. **Follow with chest**: Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction
-4. **Insert near-side hook**: As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation
-5. **Complete with second hook**: Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration
-6. **Establish back control**: Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology
+1. **Identify the starting enclosure**: The bottom player has turned partly toward the opponent and brought an arm past the head.
+2. **Remove finishing pressure**: Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.
+3. **Release before repositioning**: Open the original connection before either partner turns, rises or changes the captured limb.
+4. **Require rear torso access**: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
+5. **Contain the shoulder and hip lines**: Use controlled upper-body and leg attachment while preserving neck alignment.
+6. **Stabilize rear control**: Confirm that the opponent cannot simply turn to face you before considering a back attack.
 
 
 </section>
@@ -332,10 +335,10 @@ Strategically, this technique represents the positional advancement pathway with
 
 <p class="section-subtitle">How might your opponent counter Hook Leg and Take Back?</p>
 
-- **Opponent immediately reclines backward to pin your back to mat and limit hook insertion angles** (Effectiveness: High) - Your Response: Anticipate backward pressure and swim your head to opposite shoulder side, using momentum to rotate toward crucifix or maintain top pressure through sprawl → Leads to [[Positions/Buggy Choke]]
-- **Opponent hand-fights aggressively on your harness grip to strip control before hooks can be inserted** (Effectiveness: Medium) - Your Response: Tighten harness by pulling elbows inward and use body weight to drive forward, making grip stripping ineffective against structural pressure → Leads to [[Positions/Buggy Choke]]
-- **Opponent turns into you quickly rather than sitting away, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Follow the turn with your chest, transitioning to gift wrap arm control if they turn, or switch to darce configuration if neck angle presents → Leads to [[Positions/Half Guard]]
-- **Opponent extends far leg to post and prevent complete transition, maintaining distance** (Effectiveness: Low) - Your Response: Continue with near-side hook only and use that anchor to progressively work for second hook, or transition to body triangle on the controlled side → Leads to [[Positions/Back Control]]
+- **Keep the shoulders facing the opponent before a seatbelt closes.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. The bottom player has turned partly toward the opponent and brought an arm past the head. → Leads to [[Positions/Buggy Choke]]
+- **Hand fight any arm approaching the neck while maintaining a stable base.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal. → Leads to [[Positions/Buggy Choke]]
+- **Avoid exposing an isolated arm while turning to face the opponent.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Open the original connection before either partner turns, rises or changes the captured limb. → Leads to [[Positions/Half Guard]]
+- **Insert elbows and knees when space opens after the original control is released.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. → Leads to [[Positions/Back Control]]
 
 
 </section>
@@ -346,30 +349,30 @@ Strategically, this technique represents the positional advancement pathway with
 
 <p class="section-subtitle">What mistakes should you avoid when executing Hook Leg and Take Back?</p>
 
-### 1. Releasing harness grip prematurely to reach for legs or hooks before opponent commits to sitting
+### 1. Skipping the checkpoint: identify the starting enclosure
 
-- **Consequence**: Opponent feels control release and either returns to defensive turtle or explosively escapes to guard before hooks can be established
-- **Correction**: Maintain harness grip throughout entire transition, using it as the anchor that makes hook insertion possible without losing connection
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: The bottom player has turned partly toward the opponent and brought an arm past the head.
+- **Correction**: The bottom player has turned partly toward the opponent and brought an arm past the head.
 
-### 2. Attempting hook insertion before opponent actually commits to sitting movement
+### 2. Skipping the checkpoint: remove finishing pressure
 
-- **Consequence**: Reveals intention too early allowing opponent to maintain turtle position, or creates space that facilitates defensive escape
-- **Correction**: Wait for clear hip elevation and commitment to sitting motion before initiating hook insertion sequence
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.
+- **Correction**: Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.
 
-### 3. Allowing chest to separate from opponent's back during the transitional movement phase
+### 3. Skipping the checkpoint: release before repositioning
 
-- **Consequence**: Creates space that opponent uses to turn and face you, recover guard, or strip harness grip with improved leverage
-- **Correction**: Drive chest forward following opponent's movement direction, maintaining constant chest-to-back pressure throughout transition
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Open the original connection before either partner turns, rises or changes the captured limb.
+- **Correction**: Open the original connection before either partner turns, rises or changes the captured limb.
 
-### 4. Inserting hooks too shallow with feet near opponent's knees instead of deep inside thighs
+### 4. Skipping the checkpoint: require rear torso access
 
-- **Consequence**: Shallow hooks provide minimal hip control and are easily cleared by opponent's defensive leg movements or hand fighting
-- **Correction**: Drive hooks deep with feet crossing inside opponent's thighs near groin area, toes pointing outward for maximum control
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
+- **Correction**: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.
 
-### 5. Focusing only on hook insertion while neglecting head position and upper body control maintenance
+### 5. Skipping the checkpoint: contain the shoulder and hip lines
 
-- **Consequence**: Opponent creates rotational angle during hook insertion attempt, escaping to guard or reversing position during transition
-- **Correction**: Keep head tight to opponent's far shoulder as active control point preventing rotation while legs work for hooks
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use controlled upper-body and leg attachment while preserving neck alignment.
+- **Correction**: Use controlled upper-body and leg attachment while preserving neck alignment.
 
 
 
@@ -381,17 +384,17 @@ Strategically, this technique represents the positional advancement pathway with
 
 <p class="section-subtitle">How do you train Hook Leg and Take Back (Attacker)?</p>
 
-**Week 1-2** - Mechanical recognition
-Partner performs slow-motion sitting attempts from buggy choke bottom. Focus on recognizing the hip elevation trigger and maintaining harness grip while following movement. No hook insertion yet, just movement pattern recognition and upper body control maintenance.
+**Phase 1** - Identify the configuration
+Work cooperatively on identify the starting enclosure. The bottom player has turned partly toward the opponent and brought an arm past the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Hook insertion timing
-Add hook insertion to the drill with partner providing predictable sitting movements. Practice timing the near-side hook insertion precisely as hip space appears, then completing with second hook. Partner provides light resistance to test timing accuracy.
+**Phase 2** - Rehearse the connection
+Work cooperatively on remove finishing pressure. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Counter-reaction adaptation
-Partner varies defensive responses including backward recline, hand fighting, and turning into you. Practice recognizing which counter is occurring and selecting appropriate response while still attempting back take completion. Develop pattern recognition under uncertainty.
+**Phase 3** - Add an early response
+Work cooperatively on release before repositioning. Open the original connection before either partner turns, rises or changes the captured limb. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Competition simulation
-Full resistance positional sparring from buggy choke position. Partner attempts all available escapes including sitting to guard while you work complete attack system including back take, choke finish, and alternative transitions. Score for successful back take or submission.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on require rear torso access. Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -405,7 +408,7 @@ Full resistance positional sparring from buggy choke position. Partner attempts 
 
 <p class="section-subtitle">What are the safety concerns for Hook Leg and Take Back?</p>
 
-This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

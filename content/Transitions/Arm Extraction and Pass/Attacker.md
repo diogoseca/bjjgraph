@@ -4,7 +4,7 @@
 
 ---
 title: "Arm Extraction and Pass Attacker | BJJ Technique Guide | BJJ Graph"
-description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspective with setup, execution steps, and counters."
+description: "Arm Extraction and Pass (attacker): Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem."
 ---
 
 
@@ -20,38 +20,38 @@ description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspecti
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Secure shoulder control",
-      "text": "From Crackhead Control, drive your chest weight forward onto opponent's near shoulder blade, pinning their shoulder to the mat. Your crossface arm should be controlling their far shoulder or head to prevent them from turning away.",
+      "name": "Recognize the upper-body trap",
+      "text": "Avoid extending an arm between the high legs where it can be isolated.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Isolate the trapped arm",
-      "text": "Use your near hand to grip opponent's trapped wrist or forearm. Do not pull yet - simply establish control. The shoulder pin should have already loosened their arm's structural connection to their body.",
+      "name": "Protect the captured limb",
+      "text": "A second leg climbing behind your head increases the posture-control problem.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Create extraction space",
-      "text": "Shift your hips slightly toward their legs while maintaining chest pressure on their shoulder. This creates a gap between your hip and their torso through which the arm can pass. Your inside leg should stay hooked to prevent them from sitting through.",
+      "name": "Work before pressure engages",
+      "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Guide arm extraction",
-      "text": "Using your grip on their wrist, guide their arm across your body toward their hip. Do not yank - use steady pressure combined with your hip movement. The arm should slide past your hip as you transition your weight perpendicular to their body.",
+      "name": "Open the high enclosure",
+      "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Transition hip position",
-      "text": "As the arm clears your body, drop your hips from the chair-sit to a sprawled position perpendicular to their torso. Your near hip should land heavy on their near hip, and your chest should maintain contact across their upper back and shoulders.",
+      "name": "Recover the elbow and posture",
+      "text": "Withdraw the shoulder and elbow only after the high leg connection has opened.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Establish side control",
-      "text": "Complete the transition by establishing crossface control with your far arm driving their face away from you, near arm blocking their far hip to prevent guard recovery, and hips heavy and low against their body. Release any remaining grip on the extracted arm.",
+      "name": "Confirm the next position",
+      "text": "Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared.",
       "position": 6
     }
   ],
@@ -68,50 +68,50 @@ description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspecti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of Arm Extraction and Pass?",
+      "name": "Arm Extraction and Pass (attacker): What matters when you recognize the upper-body trap?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to clear a trapped arm that blocks the path from Crackhead Control to side control. By extracting the arm and transitioning, you convert a dynamic turtle control position into stable side control with its associated point value and extensive submission options."
+        "text": "Avoid extending an arm between the high legs where it can be isolated."
       }
     },
     {
       "@type": "Question",
-      "name": "What position do you start Arm Extraction and Pass from?",
+      "name": "Arm Extraction and Pass (attacker): What matters when you protect the captured limb?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from Crackhead Control Top, specifically when you have established the chair-sit position on opponent's hips but their arm is wedged between your body and theirs, preventing direct transition to side control."
+        "text": "A second leg climbing behind your head increases the posture-control problem."
       }
     },
     {
       "@type": "Question",
-      "name": "What must you establish before attempting to move the opponent's arm?",
+      "name": "Arm Extraction and Pass (attacker): What matters when you work before pressure engages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You must establish a shoulder pin by driving your chest weight forward onto their near shoulder blade. This pin breaks the structural connection between their arm and body, loosening the arm without requiring grip strength to fight against their resistance."
+        "text": "Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock."
       }
     },
     {
       "@type": "Question",
-      "name": "They explosively post the extracted arm as you transition. What is your immediate response?",
+      "name": "Arm Extraction and Pass (attacker): What matters when you open the high enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately attack the posted arm with a kimura grip before completing the pass. The extended arm is vulnerable to shoulder lock attacks. Alternatively, redirect to north-south transition to avoid the frame entirely rather than fighting against it."
+        "text": "Create slack at the hip and thigh while keeping the head and captured arm aligned."
       }
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing window to attempt this technique?",
+      "name": "Arm Extraction and Pass (attacker): What matters when you recover the elbow and posture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing is immediately after opponent has defended a back take attempt or choke threat from Crackhead Control. Their defensive reaction to those threats depletes energy and often extends their arm or loosens their turtle structure, creating the opening for extraction."
+        "text": "Withdraw the shoulder and elbow only after the high leg connection has opened."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the critical error that causes most failures of this technique?",
+      "name": "Arm Extraction and Pass (attacker): What matters when you confirm the next position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The critical error is attempting to pull the arm out using grip strength without first establishing the shoulder pin. Fighting a structurally supported arm creates a grip battle that exhausts you, gives opponent time to counter, and rarely succeeds against resistance."
+        "text": "Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared."
       }
     }
   ]
@@ -124,7 +124,7 @@ description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspecti
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Arm Extraction and Pass Attacker",
-  "description": "How to execute Arm Extraction and Pass in BJJ. Attacking perspective with setup, execution steps, and counters.",
+  "description": "Arm Extraction and Pass (attacker): Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -209,11 +209,15 @@ description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspecti
 
 <section id="overview" class="content-section">
 
-The Arm Extraction and Pass is a systematic transition from Crackhead Control that addresses one of the most common obstacles when attacking from turtle top: the opponent's arm blocking your path to side control. When controlling an opponent in turtle from the chair-sit position, their near arm often becomes wedged between your body and theirs, preventing you from flattening them out or advancing to traditional side control. This technique provides a methodical approach to clearing that arm while maintaining dominant position throughout the transition.
+The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed. The arm must come free before passing. The two-leg clinch does not guarantee either a shoulder lock or an immediate side-control opening.
 
-The mechanical foundation relies on isolating the opponent's arm through shoulder pressure while using your hips to create the space needed to extract and pass the limb. Rather than fighting the arm directly, you redirect your weight to pin their shoulder to the mat, which naturally extends and loosens the arm's defensive structure. The extraction itself uses a combination of your free hand and hip movement to guide the arm past your body as you transition your weight from the chair-sit to a traditional perpendicular side control alignment.
+Avoid extending an arm between the high legs where it can be isolated. A second leg climbing behind your head increases the posture-control problem. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-Strategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.
+Create slack at the hip and thigh while keeping the head and captured arm aligned. Withdraw the shoulder and elbow only after the high leg connection has opened. Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+The arm escape comes before hip control for the pass: recover the elbow from the high-leg clinch and any retained overhook first. After clearing both knees, a side pin can use crossface shoulder pressure and balanced chest pressure while the hip block prevents the knees returning.
 
 **From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
@@ -253,12 +257,12 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 <p class="section-subtitle">What are the key principles for executing Arm Extraction and Pass?</p>
 
-- Maintain constant hip pressure throughout the extraction to prevent opponent from recovering their base or creating space for guard recovery
-- Pin the shoulder to the mat before attempting to move the arm - fighting a structurally supported arm wastes energy and creates scramble opportunities
-- Use hip movement rather than arm strength to create the space needed for extraction - your legs are stronger than your arms
-- Keep chest contact with opponent's back throughout the transition to prevent them from turning into you or standing up
-- Control the far hip with your hand during the pass phase to prevent knee insertion and half guard recovery
-- Time the transition when opponent's defensive energy is depleted from defending back take attempts or choke threats
+- Recognize the upper-body trap: Avoid extending an arm between the high legs where it can be isolated.
+- Protect the captured limb: A second leg climbing behind your head increases the posture-control problem.
+- Work before pressure engages: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+- Open the high enclosure: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+- Recover the elbow and posture: Withdraw the shoulder and elbow only after the high leg connection has opened.
+- Confirm the next position: Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 </section>
@@ -269,11 +273,10 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 <p class="section-subtitle">What do you need before attempting Arm Extraction and Pass?</p>
 
-- Crackhead Control established with stable chair-sit position and hip pressure on opponent's lower back
-- Opponent's arm trapped between your body and their torso, blocking direct transition to side control
-- At least one controlling grip on opponent's upper body (overhook, collar tie, or underhook) to limit their mobility
-- Opponent's hips controlled through your leg position, preventing them from sitting through to guard
-- Opponent's defensive structure broken down through previous attack attempts, reducing their ability to explosively counter
+- The top player faces a bottom guard player using Crackhead Control; the head, shoulder or arm may still be enclosed.
+- Avoid extending an arm between the high legs where it can be isolated.
+- A second leg climbing behind your head increases the posture-control problem.
+- The arm must come free before passing. The two-leg clinch does not guarantee either a shoulder lock or an immediate side-control opening.
 
 
 </section>
@@ -284,12 +287,12 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 <p class="section-subtitle">How do you execute Arm Extraction and Pass step by step?</p>
 
-1. **Secure shoulder control**: From Crackhead Control, drive your chest weight forward onto opponent's near shoulder blade, pinning their shoulder to the mat. Your crossface arm should be controlling their far shoulder or head to prevent them from turning away.
-2. **Isolate the trapped arm**: Use your near hand to grip opponent's trapped wrist or forearm. Do not pull yet - simply establish control. The shoulder pin should have already loosened their arm's structural connection to their body.
-3. **Create extraction space**: Shift your hips slightly toward their legs while maintaining chest pressure on their shoulder. This creates a gap between your hip and their torso through which the arm can pass. Your inside leg should stay hooked to prevent them from sitting through.
-4. **Guide arm extraction**: Using your grip on their wrist, guide their arm across your body toward their hip. Do not yank - use steady pressure combined with your hip movement. The arm should slide past your hip as you transition your weight perpendicular to their body.
-5. **Transition hip position**: As the arm clears your body, drop your hips from the chair-sit to a sprawled position perpendicular to their torso. Your near hip should land heavy on their near hip, and your chest should maintain contact across their upper back and shoulders.
-6. **Establish side control**: Complete the transition by establishing crossface control with your far arm driving their face away from you, near arm blocking their far hip to prevent guard recovery, and hips heavy and low against their body. Release any remaining grip on the extracted arm.
+1. **Recognize the upper-body trap**: Avoid extending an arm between the high legs where it can be isolated.
+2. **Protect the captured limb**: A second leg climbing behind your head increases the posture-control problem.
+3. **Work before pressure engages**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+4. **Open the high enclosure**: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+5. **Recover the elbow and posture**: Withdraw the shoulder and elbow only after the high leg connection has opened.
+6. **Confirm the next position**: Establish side control after a completed guard pass only when the upper-body enclosure and relevant leg hooks have cleared.
 
 
 </section>
@@ -313,10 +316,10 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 <p class="section-subtitle">How might your opponent counter Arm Extraction and Pass?</p>
 
-- **Opponent posts extracted arm and frames against your hip** (Effectiveness: High) - Your Response: Immediately attack the posted arm with kimura grip before completing the pass, or switch to north-south transition to avoid the frame → Leads to [[Positions/Rubber Guard/Crackhead Control]]
-- **Opponent times a granby roll as you shift your hips for extraction** (Effectiveness: Medium) - Your Response: Follow their roll maintaining chest contact and transition to back control as they expose their back during the roll → Leads to [[Positions/Half Guard]]
-- **Opponent explosively sits through to guard during the transition** (Effectiveness: Medium) - Your Response: Maintain inside leg hook until the final moment of the pass to prevent the sit-through, or accept half guard and pass from there → Leads to [[Positions/Half Guard]]
-- **Opponent turtles tighter and blocks arm extraction with their other arm** (Effectiveness: Low) - Your Response: Attack the protecting arm with a kimura or switch to the other side to extract the opposite arm instead → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Establish the first high leg and its hand support before adding the second leg.** (Effectiveness: High) - Your Response: Re-check the prerequisite before continuing. Avoid extending an arm between the high legs where it can be isolated. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Reinforce the clinch without forcing the knees beyond a comfortable hip angle.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. A second leg climbing behind your head increases the posture-control problem. → Leads to [[Positions/Half Guard]]
+- **Do not assume that high legs alone have isolated an arm or completed Dead Orchard.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. → Leads to [[Positions/Half Guard]]
+- **Use hip position and connected leg pressure rather than pulling the feet against fixed knees.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Create slack at the hip and thigh while keeping the head and captured arm aligned. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>
@@ -327,30 +330,30 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 <p class="section-subtitle">What mistakes should you avoid when executing Arm Extraction and Pass?</p>
 
-### 1. Attempting to pull the arm out using only grip strength without pinning the shoulder first
+### 1. Skipping the checkpoint: recognize the upper-body trap
 
-- **Consequence**: Opponent maintains structural integrity and can easily resist the extraction, creating a grip battle that exhausts you and allows escape opportunities
-- **Correction**: Always establish heavy shoulder pressure to break opponent's arm structure before attempting any arm movement. The pin does the work, not your grip strength.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid extending an arm between the high legs where it can be isolated.
+- **Correction**: Avoid extending an arm between the high legs where it can be isolated.
 
-### 2. Losing hip pressure during the extraction phase
+### 2. Skipping the checkpoint: protect the captured limb
 
-- **Consequence**: Opponent recovers their base and either stands up, sits through to guard, or creates a scramble situation where your positional advantage disappears
-- **Correction**: Maintain constant contact between your hips/chest and opponent's body throughout the entire transition. Never create space between your weight and their back.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: A second leg climbing behind your head increases the posture-control problem.
+- **Correction**: A second leg climbing behind your head increases the posture-control problem.
 
-### 3. Releasing the inside leg hook too early before the arm is fully extracted
+### 3. Skipping the checkpoint: work before pressure engages
 
-- **Consequence**: Opponent immediately sits through to guard during the transition, turning your advancement attempt into a guard recovery for them
-- **Correction**: Keep inside leg hook until your hip is already transitioning to side control position. The hook releases naturally as you sprawl perpendicular.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
+- **Correction**: Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock.
 
-### 4. Failing to control the far hip immediately upon establishing side control
+### 4. Skipping the checkpoint: open the high enclosure
 
-- **Consequence**: Opponent inserts their knee and recovers half guard before you can settle the position, negating the pass
-- **Correction**: Make far hip control your first priority after the transition - your near hand should be blocking their hip before you even think about crossface adjustment.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Create slack at the hip and thigh while keeping the head and captured arm aligned.
+- **Correction**: Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
-### 5. Attempting the extraction when opponent is fresh and actively defending
+### 5. Skipping the checkpoint: recover the elbow and posture
 
-- **Consequence**: High failure rate as opponent has full energy to counter. Creates a 50-50 scramble situation rather than controlled advancement
-- **Correction**: Use the extraction after threatening back takes or submissions. Opponent's defensive reactions to those threats create the opening for arm extraction.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Withdraw the shoulder and elbow only after the high leg connection has opened.
+- **Correction**: Withdraw the shoulder and elbow only after the high leg connection has opened.
 
 
 
@@ -362,17 +365,17 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 <p class="section-subtitle">How do you train Arm Extraction and Pass (Attacker)?</p>
 
-**Week 1-2** - Mechanics isolation
-Practice the shoulder pin and arm extraction motion with a completely compliant partner. Focus on proper weight distribution during the pin and the hip movement that creates extraction space. Drill 50 repetitions per side daily.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the upper-body trap. Avoid extending an arm between the high legs where it can be isolated. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 3-4** - Timing development
-Partner holds defensive turtle position and attempts to prevent the extraction with light resistance. Practice recognizing when the shoulder pin has sufficiently loosened their arm structure. Add transitions from back take attempts into the extraction.
+**Phase 2** - Rehearse the connection
+Work cooperatively on protect the captured limb. A second leg climbing behind your head increases the posture-control problem. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 5-6** - Chain integration
-Combine arm extraction with the full Crackhead Control attack system. Practice flowing between back take attempts, truck entries, and arm extraction based on opponent reactions. Partner provides realistic defensive responses.
+**Phase 3** - Add an early response
+Work cooperatively on work before pressure engages. Keep a balanced base and early inside frames; tap instead of moving against a completed choke or joint lock. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Week 7+** - Competition application
-Apply the technique in full positional sparring and rolling. Focus on recognizing optimal timing windows during live exchanges. Track success rate and identify specific failure patterns for targeted correction.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on open the high enclosure. Create slack at the hip and thigh while keeping the head and captured arm aligned. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
@@ -386,7 +389,7 @@ Apply the technique in full positional sparring and rolling. Focus on recognizin
 
 <p class="section-subtitle">What are the safety concerns for Arm Extraction and Pass?</p>
 
-This technique presents low injury risk when practiced with proper control. The shoulder pressure component can be uncomfortable but does not create joint lock danger when applied gradually. Partners should communicate if shoulder pin pressure becomes painful. During drilling, extract the arm smoothly rather than yanking to avoid wrist or elbow strain. The transition phase involves weight transfer that can compress the lower back - practitioners with spinal issues should communicate with partners about pressure limits. In competition, this technique is safe to execute at full speed as it does not involve submission mechanics.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 </section>
 

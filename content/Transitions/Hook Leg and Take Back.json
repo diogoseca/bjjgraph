@@ -1,14 +1,11 @@
 {
   "name": "Hook Leg and Take Back",
-  "summary": "Hook Leg and Take Back is a back-take transition from buggy choke top that exploits the hip exposure created when a turtled opponent sits to guard, inserting leg hooks while retaining the harness grip to advance into back control.",
-  "description": "Hook Leg and Take Back from Buggy Choke. Step-by-step back take when opponent sits to guard. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "summary": "A back take after Buggy Choke needs a separate rear torso attachment; the original control alone does not establish hooks, a seatbelt or completed back control.",
+  "description": "A back take after Buggy Choke needs a separate rear torso attachment; the original control alone does not establish hooks, a seatbelt or completed back control.",
   "tags": [
     "bjj",
     "transition",
-    "back-take",
-    "buggy-choke",
-    "turtle-attack",
-    "positional-advancement"
+    "position-change"
   ],
   "from_position": "Buggy Choke/Top",
   "outcomes": [
@@ -41,346 +38,317 @@
     "gi": 58,
     "nogi": 58
   },
-  "overview": "The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.\n\nThe technical foundation relies on timing the leg hook insertion precisely as the opponent's hip rises during the sitting motion. Unlike static back takes that require setting up multiple control points sequentially, this transition capitalizes on the dynamic moment when the opponent voluntarily compromises their hip defense. The harness grip maintained from buggy choke position provides the upper body anchor that makes the hook insertion possible without sacrificing control.\n\nStrategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.",
+  "overview": "The initial Buggy Choke configuration must be identified before considering Back Control. The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.\n\nThe bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal. Open the original connection before either partner turns, rises or changes the captured limb.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nInstructional sources: [Kade and Tye Ruotolo — OG Buggy Choke](https://www.youtube.com/watch?v=zixbOyLpoOc); [Jay Rodriguez — three Buggy Choke mistakes](https://www.youtube.com/watch?v=MjKERx4N4mY).",
   "related_content": [
     {
-      "name": "Buggy Choke",
-      "relationship": "Starting position for this back take transition"
+      "name": "Side Control",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Side Control."
+    },
+    {
+      "name": "Half Guard",
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Half Guard."
     },
     {
       "name": "Back Control",
-      "relationship": "Primary target position achieved through successful execution"
-    },
-    {
-      "name": "Rear Naked Choke",
-      "relationship": "High-percentage submission available after completing back take"
-    },
-    {
-      "name": "Body Triangle Lock",
-      "relationship": "Alternative leg control when second hook is defended"
-    },
-    {
-      "name": "Back Take",
-      "relationship": "Related back take transition sharing similar positional concepts"
-    },
-    {
-      "name": "Gift Wrap",
-      "relationship": "Alternative control when opponent's arm exposes during turn"
-    },
-    {
-      "name": "Turtle",
-      "relationship": "Original position from which buggy choke develops"
-    },
-    {
-      "name": "Harness",
-      "relationship": "Critical grip structure maintained throughout transition"
-    },
-    {
-      "name": "Crucifix",
-      "relationship": "Alternative transition when opponent reclines backward defensively"
-    },
-    {
-      "name": "Darce Control",
-      "relationship": "Switch option when opponent turns into the attack"
+      "relationship": "Related configuration; establish its own prerequisites: compare the configuration and required controls for Back Control."
     }
   ],
   "attacker": {
     "name": "Hook Leg and Take Back Attacker",
-    "description": "How to execute Hook Leg and Take Back in BJJ. Attacking perspective with setup, execution steps, and counters.",
-    "overview": "The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.\n\nThe technical foundation relies on timing the leg hook insertion precisely as the opponent's hip rises during the sitting motion. Unlike static back takes that require setting up multiple control points sequentially, this transition capitalizes on the dynamic moment when the opponent voluntarily compromises their hip defense. The harness grip maintained from buggy choke position provides the upper body anchor that makes the hook insertion possible without sacrificing control.\n\nStrategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.",
+    "description": "Hook Leg and Take Back (attacker): The bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+    "overview": "The initial Buggy Choke configuration must be identified before considering Back Control. The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.\n\nThe bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal. Open the original connection before either partner turns, rises or changes the captured limb.\n\nEstablish a separate chest-to-back connection before reaching for hooks or a seatbelt. Use controlled upper-body and leg attachment while preserving neck alignment. Confirm that the opponent cannot simply turn to face you before considering a back attack.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nAfter the Buggy loop is completely open, a separate back take needs hip control and rear torso contact before hooks can hold the new position. The same-side arm-and-leg choke loop does not provide that hip attachment.",
     "key_principles": [
-      "Maintain harness grip throughout the transition to anchor upper body control while legs adjust for hook insertion",
-      "Time the hook insertion precisely as opponent's near hip rises during the sit-up motion to catch the optimal entry window",
-      "Drive chest forward following opponent's sitting movement to prevent space creation and maintain pressure during transition",
-      "Insert near-side hook first while keeping far-side leg ready to follow once initial hook secures hip control",
-      "Use opponent's momentum against them by flowing with their sitting direction rather than resisting or stalling",
-      "Keep head tight to opponent's far shoulder throughout transition to prevent rotational escapes during position change"
+      "Identify the starting enclosure: The bottom player has turned partly toward the opponent and brought an arm past the head.",
+      "Remove finishing pressure: Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+      "Release before repositioning: Open the original connection before either partner turns, rises or changes the captured limb.",
+      "Require rear torso access: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
+      "Contain the shoulder and hip lines: Use controlled upper-body and leg attachment while preserving neck alignment.",
+      "Stabilize rear control: Confirm that the opponent cannot simply turn to face you before considering a back attack."
     ],
     "setup_requirements": [
-      "Buggy choke control established with threading arm deep under opponent's armpit and second grip secured",
-      "Opponent initiating sit-up motion or showing intention to turn toward guard recovery",
-      "Harness grip must be secure enough to follow opponent's movement without losing upper body connection",
-      "Your hips positioned close to opponent's hips to minimize distance needed for hook insertion",
-      "Chest-to-back connection maintained preventing opponent from creating separation during sitting attempt"
+      "The initial Buggy Choke configuration must be identified before considering Back Control.",
+      "The bottom player has turned partly toward the opponent and brought an arm past the head.",
+      "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+      "The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry."
     ],
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Recognize trigger",
-        "description": "Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture"
+        "action": "Identify the starting enclosure",
+        "description": "The bottom player has turned partly toward the opponent and brought an arm past the head."
       },
       {
         "step_number": 2,
-        "action": "Maintain harness connection",
-        "description": "Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement"
+        "action": "Remove finishing pressure",
+        "description": "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal."
       },
       {
         "step_number": 3,
-        "action": "Follow with chest",
-        "description": "Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction"
+        "action": "Release before repositioning",
+        "description": "Open the original connection before either partner turns, rises or changes the captured limb."
       },
       {
         "step_number": 4,
-        "action": "Insert near-side hook",
-        "description": "As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation"
+        "action": "Require rear torso access",
+        "description": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
       },
       {
         "step_number": 5,
-        "action": "Complete with second hook",
-        "description": "Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration"
+        "action": "Contain the shoulder and hip lines",
+        "description": "Use controlled upper-body and leg attachment while preserving neck alignment."
       },
       {
         "step_number": 6,
-        "action": "Establish back control",
-        "description": "Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology"
+        "action": "Stabilize rear control",
+        "description": "Confirm that the opponent cannot simply turn to face you before considering a back attack."
       }
     ],
     "common_counters": [
       {
-        "counter": "Opponent immediately reclines backward to pin your back to mat and limit hook insertion angles",
+        "counter": "Keep the shoulders facing the opponent before a seatbelt closes.",
         "effectiveness": "High",
-        "your_response": "Anticipate backward pressure and swim your head to opposite shoulder side, using momentum to rotate toward crucifix or maintain top pressure through sprawl",
+        "your_response": "Re-check the prerequisite before continuing. The bottom player has turned partly toward the opponent and brought an arm past the head.",
         "targets_outcome": "Buggy Choke/Top"
       },
       {
-        "counter": "Opponent hand-fights aggressively on your harness grip to strip control before hooks can be inserted",
+        "counter": "Hand fight any arm approaching the neck while maintaining a stable base.",
         "effectiveness": "Medium",
-        "your_response": "Tighten harness by pulling elbows inward and use body weight to drive forward, making grip stripping ineffective against structural pressure",
+        "your_response": "Re-check the prerequisite before continuing. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
         "targets_outcome": "Buggy Choke/Top"
       },
       {
-        "counter": "Opponent turns into you quickly rather than sitting away, attempting to face you and recover guard",
+        "counter": "Avoid exposing an isolated arm while turning to face the opponent.",
         "effectiveness": "Medium",
-        "your_response": "Follow the turn with your chest, transitioning to gift wrap arm control if they turn, or switch to darce configuration if neck angle presents",
+        "your_response": "Re-check the prerequisite before continuing. Open the original connection before either partner turns, rises or changes the captured limb.",
         "targets_outcome": "Half Guard/Bottom"
       },
       {
-        "counter": "Opponent extends far leg to post and prevent complete transition, maintaining distance",
+        "counter": "Insert elbows and knees when space opens after the original control is released.",
         "effectiveness": "Low",
-        "your_response": "Continue with near-side hook only and use that anchor to progressively work for second hook, or transition to body triangle on the controlled side",
+        "your_response": "Re-check the prerequisite before continuing. Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
         "targets_outcome": "Back Control/Top"
       }
     ],
     "common_errors": [
       {
-        "error": "Releasing harness grip prematurely to reach for legs or hooks before opponent commits to sitting",
-        "consequence": "Opponent feels control release and either returns to defensive turtle or explosively escapes to guard before hooks can be established",
-        "correction": "Maintain harness grip throughout entire transition, using it as the anchor that makes hook insertion possible without losing connection"
+        "error": "Skipping the checkpoint: identify the starting enclosure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: The bottom player has turned partly toward the opponent and brought an arm past the head.",
+        "correction": "The bottom player has turned partly toward the opponent and brought an arm past the head."
       },
       {
-        "error": "Attempting hook insertion before opponent actually commits to sitting movement",
-        "consequence": "Reveals intention too early allowing opponent to maintain turtle position, or creates space that facilitates defensive escape",
-        "correction": "Wait for clear hip elevation and commitment to sitting motion before initiating hook insertion sequence"
+        "error": "Skipping the checkpoint: remove finishing pressure",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+        "correction": "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal."
       },
       {
-        "error": "Allowing chest to separate from opponent's back during the transitional movement phase",
-        "consequence": "Creates space that opponent uses to turn and face you, recover guard, or strip harness grip with improved leverage",
-        "correction": "Drive chest forward following opponent's movement direction, maintaining constant chest-to-back pressure throughout transition"
+        "error": "Skipping the checkpoint: release before repositioning",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Open the original connection before either partner turns, rises or changes the captured limb.",
+        "correction": "Open the original connection before either partner turns, rises or changes the captured limb."
       },
       {
-        "error": "Inserting hooks too shallow with feet near opponent's knees instead of deep inside thighs",
-        "consequence": "Shallow hooks provide minimal hip control and are easily cleared by opponent's defensive leg movements or hand fighting",
-        "correction": "Drive hooks deep with feet crossing inside opponent's thighs near groin area, toes pointing outward for maximum control"
+        "error": "Skipping the checkpoint: require rear torso access",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
+        "correction": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
       },
       {
-        "error": "Focusing only on hook insertion while neglecting head position and upper body control maintenance",
-        "consequence": "Opponent creates rotational angle during hook insertion attempt, escaping to guard or reversing position during transition",
-        "correction": "Keep head tight to opponent's far shoulder as active control point preventing rotation while legs work for hooks"
+        "error": "Skipping the checkpoint: contain the shoulder and hip lines",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Use controlled upper-body and leg attachment while preserving neck alignment.",
+        "correction": "Use controlled upper-body and leg attachment while preserving neck alignment."
       }
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2",
-        "focus": "Mechanical recognition",
-        "description": "Partner performs slow-motion sitting attempts from buggy choke bottom. Focus on recognizing the hip elevation trigger and maintaining harness grip while following movement. No hook insertion yet, just movement pattern recognition and upper body control maintenance."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on identify the starting enclosure. The bottom player has turned partly toward the opponent and brought an arm past the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 3-4",
-        "focus": "Hook insertion timing",
-        "description": "Add hook insertion to the drill with partner providing predictable sitting movements. Practice timing the near-side hook insertion precisely as hip space appears, then completing with second hook. Partner provides light resistance to test timing accuracy."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on remove finishing pressure. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 5-6",
-        "focus": "Counter-reaction adaptation",
-        "description": "Partner varies defensive responses including backward recline, hand fighting, and turning into you. Practice recognizing which counter is occurring and selecting appropriate response while still attempting back take completion. Develop pattern recognition under uncertainty."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on release before repositioning. Open the original connection before either partner turns, rises or changes the captured limb. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 7+",
-        "focus": "Competition simulation",
-        "description": "Full resistance positional sparring from buggy choke position. Partner attempts all available escapes including sitting to guard while you work complete attack system including back take, choke finish, and alternative transitions. Score for successful back take or submission."
+        "phase": "Phase 4",
+        "focus": "Link only verified checkpoints",
+        "description": "Work cooperatively on require rear torso access. Establish a separate chest-to-back connection before reaching for hooks or a seatbelt. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "flashcards": [
       {
-        "question": "What is the primary goal of Hook Leg and Take Back?",
-        "answer": "The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery.",
-        "answer_line": "Punish sit-up with back take",
+        "question": "Hook Leg and Take Back (attacker): What matters when you identify the starting enclosure?",
+        "answer": "The bottom player has turned partly toward the opponent and brought an arm past the head.",
+        "answer_line": "Identify the starting enclosure",
         "distractors": {
           "plausible": [
-            "Stay in buggy choke position",
-            "Force opponent to turtle up"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Let go and reset to guard"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "What is the optimal timing for inserting the first hook?",
-        "answer": "The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion.",
-        "answer_line": "As near hip rises to sit",
+        "question": "Hook Leg and Take Back (attacker): What matters when you remove finishing pressure?",
+        "answer": "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+        "answer_line": "Remove finishing pressure",
         "distractors": {
           "plausible": [
-            "Right when they start moving",
-            "After they turn to face you"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Insert before any movement"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Why must harness grip be maintained throughout the entire transition?",
-        "answer": "The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments.",
-        "answer_line": "Anchors hooks, keeps upper control",
+        "question": "Hook Leg and Take Back (attacker): What matters when you release before repositioning?",
+        "answer": "Open the original connection before either partner turns, rises or changes the captured limb.",
+        "answer_line": "Release before repositioning",
         "distractors": {
           "plausible": [
-            "Prevents opponent posting hands",
-            "Sets up rear naked choke"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Release it to free your hands"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Your opponent begins sitting but immediately reclines backward to pin you - how do you adjust?",
-        "answer": "Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle.",
-        "answer_line": "Swim head opposite, ride to crucifix",
+        "question": "Hook Leg and Take Back (attacker): What matters when you require rear torso access?",
+        "answer": "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt.",
+        "answer_line": "Require rear torso access",
         "distractors": {
           "plausible": [
-            "Push straight back to stop them",
-            "Release harness, reset position"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Fight backward pressure head-on"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "What determines whether to complete with second hook or transition to body triangle?",
-        "answer": "If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security.",
-        "answer_line": "Second hook blocked, go triangle",
+        "question": "Hook Leg and Take Back (attacker): What matters when you contain the shoulder and hip lines?",
+        "answer": "Use controlled upper-body and leg attachment while preserving neck alignment.",
+        "answer_line": "Contain the shoulder and hip lines",
         "distractors": {
           "plausible": [
-            "Always fight for second hook",
-            "Switch to seatbelt control only"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Release first hook to reset"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "How does chest position affect transition success rate?",
-        "answer": "Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase.",
-        "answer_line": "Chest glued, forward drive",
+        "question": "Hook Leg and Take Back (attacker): What matters when you stabilize rear control?",
+        "answer": "Confirm that the opponent cannot simply turn to face you before considering a back attack.",
+        "answer_line": "Stabilize rear control",
         "distractors": {
           "plausible": [
-            "Chest light for mobility",
-            "Chest square, weight centered"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Lean back to load hips"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Why is recognizing the hip elevation trigger critical for this technique?",
-        "answer": "Hip elevation during the sitting motion creates the only high-percentage window for hook insertion. Before elevation, the hip blocks entry; after completion, opponent has established guard position. Recognizing this trigger through proprioception allows precisely timed insertion that catches optimal entry without revealing intention prematurely.",
-        "answer_line": "Only window before hip blocks entry",
+        "question": "Hook Leg and Take Back (attacker): What configuration must exist before this sequence?",
+        "answer": "The initial Buggy Choke configuration must be identified before considering Back Control.",
+        "answer_line": "Check the starting configuration",
         "distractors": {
           "plausible": [
-            "Signals opponent is tapping",
-            "Means grip is fully stripped"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Wait until they sit fully"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "What common defensive tell indicates opponent is about to sit to guard?",
-        "answer": "Weight shift toward their posting arm or base, intentional head movement looking toward guard recovery direction, relaxation of the neck defense focus, and hip positioning that prepares for rotation all indicate sitting intention. Reading these tells allows pre-positioning for the transition before opponent commits to the escape.",
-        "answer_line": "Weight shift to posting arm",
+        "question": "Hook Leg and Take Back (attacker): What distinguishes this control from a similar-looking position?",
+        "answer": "The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
+        "answer_line": "Check the defining controls",
         "distractors": {
           "plausible": [
-            "Explosive hip escape attempt",
-            "Tight grip on your ankle"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Increased neck defense pressure"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "They strip your choking grip during the sit-up but you keep the seatbelt: best option?",
-        "answer": "Abandon the choke attempt and commit fully to the back take. With the seatbelt intact you still have sufficient upper body control to follow their movement and insert hooks. The choking grip is not required for the back take; the seatbelt alone anchors the transition. Prioritize hook insertion over re-establishing the choke during the dynamic sitting phase.",
-        "answer_line": "Abandon choke, commit to hooks",
+        "question": "Hook Leg and Take Back (attacker): When should the partners stop or reset?",
+        "answer": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+        "answer_line": "Release before unsafe loading",
         "distractors": {
           "plausible": [
-            "Re-fight the choking grip",
-            "Pause to reset position"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Release seatbelt and reset"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "What is the direction of force you should apply with your chest during the transition?",
-        "answer": "The force must follow the opponent's movement direction, driving forward and slightly downward as they sit. You are not pushing them back into turtle but rather flowing with their sitting momentum while maintaining zero space between your chest and their back. The forward drive prevents gap creation and keeps your weight loaded onto their spine throughout.",
-        "answer_line": "Forward and down, following them",
+        "question": "Hook Leg and Take Back (attacker): What should a cooperative first drill establish?",
+        "answer": "Identify the starting configuration and rehearse the first connection without finishing pressure. The bottom player has turned partly toward the opponent and brought an arm past the head.",
+        "answer_line": "Rehearse the first connection",
         "distractors": {
           "plausible": [
-            "Straight down, driving to mat",
-            "Backward to prevent recovery"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Push them back into turtle"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "One hook in and they grab your foot with both hands: what chain attack opens up?",
-        "answer": "When opponent dedicates both hands to stripping your hook, their neck becomes completely undefended. Immediately re-engage the choking grip since their hand fighting on your foot means zero neck protection. Alternatively, use the distraction to switch to a gift wrap on whichever arm is reaching lowest, trapping it and completing the back take with arm control instead of hooks.",
-        "answer_line": "Neck undefended - re-attack choke",
+        "question": "Hook Leg and Take Back (attacker): What should be checked before changing direction?",
+        "answer": "Confirm that the captured neck or limb can move freely. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+        "answer_line": "Free the captured neck or limb",
         "distractors": {
           "plausible": [
-            "Strip harness while they strip hook",
-            "Switch straight to armbar"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Release hook to free your leg"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "What entry conditions must exist before you can attempt this transition?",
-        "answer": "You must have established buggy choke control with a secure harness grip and chest-to-back connection. The opponent must be initiating a sit-up or guard recovery motion that creates hip elevation. Your hips must be close enough to the opponent's hips that hook insertion distance is minimal. Without these conditions, attempting the transition results in positional loss.",
-        "answer_line": "Buggy choke, harness, hips close",
+        "question": "Hook Leg and Take Back (attacker): How should the next position be confirmed?",
+        "answer": "Check the actual body relationship rather than assuming the technique name guarantees a destination. The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.",
+        "answer_line": "Confirm the actual position",
         "distractors": {
           "plausible": [
-            "Opponent flat on stomach",
-            "Full mount already established"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Opponent standing to escape"
+            "Force a trapped joint to move"
           ]
         }
       }
     ],
-    "safety_considerations": "This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back.",
+    "safety_considerations": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
     "clips": [
       {
         "id": "f3PJ06A_bWQ",
@@ -413,181 +381,165 @@
   },
   "defender": {
     "name": "Hook Leg and Take Back Defender",
-    "description": "How to defend against Hook Leg and Take Back in BJJ. Recognition cues, defensive options, and escape strategies.",
-    "overview": "Defending the Hook Leg and Take Back requires understanding that the most dangerous moment occurs during your own escape attempt from buggy choke. When you sit to guard to escape the choking threat, you voluntarily create the hip elevation and space that enables hook insertion. The defender's challenge is navigating a genuine positional dilemma: remaining static in buggy choke allows the choke to develop, but sitting to guard without proper defensive structure invites the back take. Successful defense requires executing the sit-up escape while simultaneously denying the hook insertion window through hip control, hand positioning, and directional awareness.\n\nThe critical defensive window is narrow. Once the attacker's first hook enters your thigh, defensive options diminish rapidly, and once both hooks are established with harness grip intact, you are in full back control with limited escape paths. Prevention-focused defense during the sitting motion itself yields far higher success rates than attempting to strip hooks after they are inserted. Defenders must train to feel the attacker's leg movement against their hip during the sit-up and immediately implement countermeasures before the hook seats deep.\n\nStrategically, the defender should approach this situation by choosing escape directions and timing that minimize hook insertion opportunities. Sitting directly backward into the attacker creates the worst-case scenario with maximum hip exposure. Instead, sitting laterally or incorporating rotation during the escape changes the geometry and forces the attacker to chase angles rather than simply inserting hooks into a presented target. Understanding these directional principles transforms the buggy choke escape from a binary choice between choke and back take into a navigable positional problem with viable defensive solutions.",
+    "description": "Hook Leg and Take Back (defender): Keep the shoulders facing the opponent before a seatbelt closes. Hand fight any arm approaching the neck while maintaining a stable base.",
+    "overview": "The initial Buggy Choke configuration must be identified before considering Back Control. The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry.\n\nKeep the shoulders facing the opponent before a seatbelt closes. Hand fight any arm approaching the neck while maintaining a stable base. Avoid exposing an isolated arm while turning to face the opponent.\n\nInsert elbows and knees when space opens after the original control is released. Wait for a trapped foot or arm to be released before changing direction. Tap before pressure develops rather than completing a positional escape through a lock.\n\nMove through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.\n\nThe original Buggy exchange includes top chest pressure against the bottom holder. Once the old loop releases, keep the near elbow and knee connected as you face the opponent; that guard barrier prevents the new attacker occupying the space behind your shoulder while reaching for the hip line.",
     "key_principles": [
-      "Keep elbows tight to hips during the sit-up motion to physically block hook insertion pathways before they develop",
-      "Sit laterally rather than directly backward to change the angle and deny the attacker clean hook entry geometry",
-      "Prioritize stripping the harness grip during the sit-up rather than after hooks are already inserted, since without upper body control the back take cannot complete",
-      "Maintain awareness of near-side hip exposure and actively shield it with your near arm or knee during any sitting escape movement",
-      "Control the tempo of your escape rather than sitting explosively, which creates the hip elevation window the attacker needs for hook insertion",
-      "If first hook enters, immediately address it before the second arrives by trapping the hooking foot against your inner thigh and turning toward it"
+      "Deny rear torso access: Keep the shoulders facing the opponent before a seatbelt closes.",
+      "Protect the neck: Hand fight any arm approaching the neck while maintaining a stable base.",
+      "Keep elbows connected: Avoid exposing an isolated arm while turning to face the opponent.",
+      "Recover facing frames: Insert elbows and knees when space opens after the original control is released.",
+      "Do not roll against a lock: Wait for a trapped foot or arm to be released before changing direction.",
+      "Stop at a secured submission: Tap before pressure develops rather than completing a positional escape through a lock."
     ],
     "recognition_cues": [
-      "Feeling the attacker's near-side leg shift from a base position to a reaching or curling motion against your hip during your sit-up escape",
-      "Attacker's harness grip tightening and chest pressure increasing forward just as you begin sitting, indicating they are loading to follow your movement",
-      "Attacker's head driving harder into your far shoulder during the sit-up, signaling they are preparing to maintain connection through the transition rather than finishing the choke",
-      "Sensation of the attacker's hips closing distance to yours rather than maintaining static position, indicating preparation for hook insertion"
+      "The initial Buggy Choke configuration must be identified before considering Back Control.",
+      "Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+      "Establish a separate chest-to-back connection before reaching for hooks or a seatbelt."
     ],
     "defensive_options": [
       {
-        "action": "Lateral sit with elbow block: sit to guard at a 45-degree angle away from the attacker's near leg while keeping near elbow pinned tight against your hip to physically obstruct hook entry",
-        "when_to_use": "As the primary defensive modification whenever you decide to sit out of buggy choke, before the attacker initiates hook insertion",
+        "action": "Keep the shoulders facing the opponent before a seatbelt closes.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Buggy Choke/Top",
-        "if_successful": "Escape to seated guard position without hooks, forcing attacker to either disengage or re-establish turtle top control",
-        "risk": "If angle is insufficient, attacker follows your lateral movement and inserts hook from a wider angle"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Grip strip and face: use both hands to explosively strip the harness grip during the sit-up, then immediately turn to face the attacker before hooks can be inserted",
-        "when_to_use": "When you feel the harness grip is not fully consolidated and you have hand access to the seatbelt connection point",
+        "action": "Hand fight any arm approaching the neck while maintaining a stable base.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "Break upper body control entirely, allowing you to turn and face attacker in open guard or half guard without back exposure",
-        "risk": "Momentarily exposes neck if grip strip fails and attacker re-tightens harness with choking intent"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Hook trap and rotate: if the first hook enters, immediately clamp your thighs together to trap the hooking foot, then rotate your body toward the hook side to prevent the second hook and begin facing the attacker",
-        "when_to_use": "When prevention fails and the attacker has successfully inserted their near-side hook during your sit-up",
+        "action": "Avoid exposing an isolated arm while turning to face the opponent.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "Prevent second hook insertion and transition to half guard by trapping the single leg and rotating to face attacker",
-        "risk": "If rotation is too slow, attacker uses first hook as anchor to insert second hook during your turning motion"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       },
       {
-        "action": "Recline and pin: instead of sitting forward, recline backward to pin the attacker's chest to the mat, eliminating the space needed for hook insertion",
-        "when_to_use": "When you recognize the attacker is committed to the back take rather than the choke and your priority shifts to denying hooks",
+        "action": "Insert elbows and knees when space opens after the original control is released.",
+        "when_to_use": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.",
         "targets_outcome": "Buggy Choke/Top",
-        "if_successful": "Pin attacker flat with your back weight, forcing a positional reset where they must re-establish turtle top or transition to a different attack",
-        "risk": "Reclining can tighten existing collar grips and may expose you to crucifix entries if attacker swims their head"
+        "if_successful": "The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
+        "risk": "Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route."
       }
     ],
     "favorable_outcomes": [
       {
         "outcome": "Buggy Choke/Top",
-        "how": "Deny hook insertion through lateral sitting angle and elbow blocking, or recline to pin attacker flat. Either method forces a positional reset where the attacker remains in buggy choke top but has failed the back take transition, giving you another opportunity to escape with better defensive structure."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Keep the shoulders facing the opponent before a seatbelt closes."
       },
       {
         "outcome": "Half Guard/Bottom",
-        "how": "Strip the harness grip during the sit-up and immediately turn to face the attacker, or trap the first hook with your thighs and rotate toward the hook side. Both methods result in facing the attacker with their leg trapped between yours in half guard, a vastly improved defensive position compared to back control."
+        "how": "Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Hand fight any arm approaching the neck while maintaining a stable base."
       }
     ],
     "common_errors": [
       {
-        "error": "Sitting directly backward in a straight line during buggy choke escape without any lateral angle",
-        "consequence": "Creates maximum hip exposure on both sides simultaneously, giving the attacker a clean entry for the near-side hook with the far-side hook immediately available",
-        "correction": "Always sit at a 45-degree angle away from the attacker's dominant hook side, reducing the exposed hip surface and forcing them to chase the angle"
+        "error": "Skipping the checkpoint: deny rear torso access",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Keep the shoulders facing the opponent before a seatbelt closes.",
+        "correction": "Keep the shoulders facing the opponent before a seatbelt closes."
       },
       {
-        "error": "Keeping arms extended away from body during the sit-up to post or base",
-        "consequence": "Removes the elbow obstruction that would block hook insertion, creating an unguarded highway for the attacker's leg to enter your thigh space",
-        "correction": "Keep elbows pinned tight to your hips during the entire sit-up motion, using them as physical barriers against hook entry before posting with hands"
+        "error": "Skipping the checkpoint: protect the neck",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Hand fight any arm approaching the neck while maintaining a stable base.",
+        "correction": "Hand fight any arm approaching the neck while maintaining a stable base."
       },
       {
-        "error": "Focusing entirely on escaping the choke threat without addressing the back take threat during the sit-up",
-        "consequence": "Successfully escapes the choke but transitions directly into full back control with both hooks, trading one bad position for a worse one",
-        "correction": "Treat the sit-up escape as a two-threat problem: address both the choke and the hook insertion simultaneously by combining directional sitting with grip stripping"
-      },
-      {
-        "error": "Attempting to strip hooks after both are already inserted instead of preventing entry during the transition",
-        "consequence": "Once both hooks are deep with harness grip intact, hook removal success rate drops below 30% and you are now defending full back control submissions",
-        "correction": "Prevention is the primary defense; invest energy in blocking hook entry during the sit-up rather than saving it for hook removal after the fact"
-      },
-      {
-        "error": "Sitting up explosively with maximum speed hoping to outrun the hook insertion",
-        "consequence": "Explosive sit-up creates larger hip elevation window and more momentum for the attacker to follow, actually facilitating hook insertion rather than preventing it",
-        "correction": "Control the sit-up tempo with deliberate movement, keeping hips low and tight while incorporating lateral angle to minimize the insertion window"
+        "error": "Skipping the checkpoint: keep elbows connected",
+        "consequence": "The intended control is not established before the next movement; the missing requirement is: Avoid exposing an isolated arm while turning to face the opponent.",
+        "correction": "Avoid exposing an isolated arm while turning to face the opponent."
       }
     ],
     "flashcards": [
       {
-        "question": "Why is sitting directly backward the worst escape direction when defending Hook Leg and Take Back?",
-        "answer": "Sitting directly backward creates maximum hip exposure on both sides simultaneously, presenting the attacker with a clean and unobstructed entry for the near-side hook. The straight-back motion also makes it easiest for the attacker to follow with chest connection because there is no lateral displacement to chase. Sitting at a 45-degree angle forces the attacker to adjust and reduces the available hook insertion surface.",
-        "answer_line": "Exposes both hips, easy chase",
+        "question": "Hook Leg and Take Back (defender): What matters when you deny rear torso access?",
+        "answer": "Keep the shoulders facing the opponent before a seatbelt closes.",
+        "answer_line": "Deny rear torso access",
         "distractors": {
           "plausible": [
-            "Makes choke tighter on neck",
-            "Puts weight on attacker's legs"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Creates a scramble opportunity"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "They insert their near-side hook during your escape: what do you do first?",
-        "answer": "Immediately clamp your thighs together to trap the hooking foot and prevent it from seating deep inside your thigh. Then rotate your body toward the hook side to prevent the second hook from entering. Addressing the first hook before the second arrives is critical because single-hook back control is far more escapable than double hooks, and the rotation toward the trapped leg creates half guard geometry.",
-        "answer_line": "Clamp thighs, trap the hook",
+        "question": "Hook Leg and Take Back (defender): What matters when you protect the neck?",
+        "answer": "Hand fight any arm approaching the neck while maintaining a stable base.",
+        "answer_line": "Protect the neck",
         "distractors": {
           "plausible": [
-            "Strip harness grip immediately",
-            "Sit up to face attacker"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Kick leg free and stand up"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "Why strip the harness grip during the sit-up rather than after hooks are in?",
-        "answer": "During the sit-up, the attacker's grip structure is in transition and their body is adjusting to follow your movement, making the harness grip less consolidated and more vulnerable to stripping. After hooks are established, the attacker has a stable base with lower body anchoring that reinforces their harness grip through structural connection. Stripping the harness during transition eliminates the upper body control that makes hook insertion effective.",
-        "answer_line": "Grip weaker during mid-transition",
+        "question": "Hook Leg and Take Back (defender): What matters when you keep elbows connected?",
+        "answer": "Avoid exposing an isolated arm while turning to face the opponent.",
+        "answer_line": "Keep elbows connected",
         "distractors": {
           "plausible": [
-            "Easier once hooks are set",
-            "Harness weakest at start only"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Wait for both hooks then strip"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "They have one hook in and reach for the second: which defense gives the best position?",
-        "answer": "Trap the inserted hook by clamping your thighs and immediately rotate toward the hook side while stripping the harness grip with your hands. This creates a half guard position where the attacker's inserted leg becomes trapped between your legs and you are now facing them. Half guard bottom is dramatically better than back control bottom, and the rotation prevents the second hook from ever arriving.",
-        "answer_line": "Trap hook, rotate to half guard",
+        "question": "Hook Leg and Take Back (defender): What matters when you recover facing frames?",
+        "answer": "Insert elbows and knees when space opens after the original control is released.",
+        "answer_line": "Recover facing frames",
         "distractors": {
           "plausible": [
-            "Strip harness, sit up straight",
-            "Grab second leg to block it"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Turn away from trapped hook"
+            "Force a trapped joint to move"
           ]
         }
       },
       {
-        "question": "How does controlling the tempo of your sit-up escape help defend against the back take?",
-        "answer": "A controlled, deliberate sit-up keeps hip elevation minimal and reduces the window of time where the hip space is open for hook insertion. Explosive sit-ups create large, fast hip elevation that actually opens more space and generates momentum the attacker can ride to follow your movement. Controlled tempo combined with lateral angle minimizes the insertion opportunity and forces the attacker into a reactive chase rather than a timed entry.",
-        "answer_line": "Controlled tempo, minimal hip rise",
+        "question": "Hook Leg and Take Back (defender): What matters when you do not roll against a lock?",
+        "answer": "Wait for a trapped foot or arm to be released before changing direction.",
+        "answer_line": "Do not roll against a lock",
         "distractors": {
           "plausible": [
-            "Explosive speed beats timing",
-            "Slow pause after each movement"
+            "Advance without checking control",
+            "Choose the route by name alone"
           ],
           "trap": [
-            "Fast sit-up to outrun the hook"
+            "Force a trapped joint to move"
           ]
         }
       }
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2",
-        "focus": "Directional awareness",
-        "description": "Practice sitting out of buggy choke position at various angles with no resistance. Focus on feeling the difference between sitting straight back versus 45-degree lateral angles. Partner holds buggy choke grips without attempting hook insertion. Develop muscle memory for the lateral sit-up escape path and elbow-tight hip shielding posture."
+        "phase": "Phase 1",
+        "focus": "Identify the configuration",
+        "description": "Work cooperatively on deny rear torso access. Keep the shoulders facing the opponent before a seatbelt closes. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 3-4",
-        "focus": "Hook prevention mechanics",
-        "description": "Partner attempts slow-motion hook insertion during your sit-up escapes. Practice blocking with elbow positioning, lateral angle, and thigh clamping. Partner provides feedback on which attempts would have succeeded. Gradually increase speed of hook insertion attempts while maintaining defensive structure."
+        "phase": "Phase 2",
+        "focus": "Rehearse the connection",
+        "description": "Work cooperatively on protect the neck. Hand fight any arm approaching the neck while maintaining a stable base. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       },
       {
-        "phase": "Week 5-6",
-        "focus": "Grip strip integration",
-        "description": "Combine harness grip stripping with directional sitting and hook prevention. Partner maintains realistic harness grip while attempting hook insertion. Practice the two-threat defense of addressing both choke and back take simultaneously. Partner provides moderate resistance on grip retention."
-      },
-      {
-        "phase": "Week 7+",
-        "focus": "Full resistance positional sparring",
-        "description": "Start in buggy choke bottom position against fully resisting partner who attacks both the choke finish and the back take transition. Score for successful escapes to guard or half guard. Develop real-time decision-making about when to sit, which direction, and how to address hooks under competition pressure."
+        "phase": "Phase 3",
+        "focus": "Add an early response",
+        "description": "Work cooperatively on keep elbows connected. Avoid exposing an isolated arm while turning to face the opponent. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance."
       }
     ],
     "clips": [
@@ -622,26 +574,20 @@
   },
   "variants_and_adaptations": [
     {
-      "variant_name": "Rolling back take",
-      "description": "When opponent sits aggressively toward one side, flow with their momentum by rolling in the same direction while maintaining harness grip. Complete back control on the opposite side from the roll direction with hooks already partially inserted from the rolling momentum.",
-      "when_to_use": "When opponent commits strongly to one direction during escape attempt"
+      "variant_name": "Cooperative checkpoint drill",
+      "description": "The bottom player has turned partly toward the opponent and brought an arm past the head. Protect both the defender's neck and the attacker's knee. Do not pull the foot against a fixed knee, use a slam, or remain attached when lifted. Open the whole loop on any stop signal.",
+      "when_to_use": "Learning the control without submission pressure"
     },
     {
-      "variant_name": "Single hook to body triangle",
-      "description": "When second hook insertion is blocked by opponent's leg positioning or hand fighting, secure the single hook deep and immediately transition to body triangle configuration. Lock triangle on the controlled side, using the body triangle's superior control to finish rather than fighting for second hook.",
-      "when_to_use": "When opponent successfully defends second hook but first hook is secure"
-    },
-    {
-      "variant_name": "Seat belt adjustment to gift wrap",
-      "description": "If opponent's turn toward you during sitting creates arm exposure, transition harness grip to gift wrap on the exposed arm. Use gift wrap control to complete back take with superior arm trap that eliminates hand fighting.",
-      "when_to_use": "When opponent turns into you exposing arm during transition"
+      "variant_name": "Response and reset drill",
+      "description": "Keep the shoulders facing the opponent before a seatbelt closes. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.",
+      "when_to_use": "Adding one early response after both partners recognize the configuration"
     }
   ],
   "conditions": [
-    "Buggy choke control established with secure harness grip and chest-to-back connection",
-    "Opponent initiating sit-up or guard recovery motion creating hip elevation",
-    "Your hips positioned close enough to opponent's hips to allow hook insertion without bridging a gap",
-    "Opponent's hip defense compromised by their own escape movement exposing near-side hook entry"
+    "The initial Buggy Choke configuration must be identified before considering Back Control.",
+    "The bottom player has turned partly toward the opponent and brought an arm past the head.",
+    "The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry."
   ],
-  "position_integration": "Hook Leg and Take Back represents the positional advancement pathway within the buggy choke attack system, creating a branching decision tree where opponent's defensive choices determine which dominant outcome occurs. When opponents prioritize neck defense and remain static, the buggy choke finishes; when they attempt to escape by sitting to guard, this transition punishes that choice with back control. The technique connects buggy choke control directly to the back control attack system, maintaining offensive pressure throughout the positional change. This integration exemplifies sophisticated jiu-jitsu strategy where multiple high-percentage outcomes branch from a single controlling position based on opponent's reactions. Mastering this transition elevates the buggy choke from a single-path attack to a multi-threat system that covers all common defensive responses."
+  "position_integration": "The initial Buggy Choke configuration must be identified before considering Back Control. The bottom player supplies the arm-and-leg loop around the opponent's head and one arm. It does not require a collar grip, a turtle ride, or trapping the opponent's arm alone across their own throat. The reviewed instruction does not establish a direct Buggy Choke-to-Back Control connection. Release the original lock safely and establish the destination's own prerequisites; do not treat these checkpoints as a demonstrated continuous entry. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route."
 }

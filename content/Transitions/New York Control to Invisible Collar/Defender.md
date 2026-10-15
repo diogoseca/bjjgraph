@@ -4,7 +4,7 @@
 
 ---
 title: "New York Control to Invisible Collar Defender | BJJ Defense Guide | BJJ Graph"
-description: "Defend against the New York Control to Invisible Collar transition. Recognition cues, defensive timing, and escape strategies to disrupt rubber guard positional cycling."
+description: "New York Control to Invisible Collar (defender): The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
 ---
 
 
@@ -20,20 +20,20 @@ description: "Defend against the New York Control to Invisible Collar transition
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Posture up aggressively during the overhook release window",
-      "text": "When you feel the overhook loosening or see the attacker's hand moving to guide their leg If successful: Bottom player's transition is disrupted and they must re-establish New York Control or abandon rubber guard",
+      "name": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Strip the controlling leg off your shoulder during the shin slide",
-      "text": "When the leg is in transit between shoulder and neck position, momentarily weakened in its control If successful: Rubber guard is completely broken and you establish open guard passing position",
+      "name": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Drive forward and stack to prevent hip rotation",
-      "text": "When you detect the initial hip rotation that precedes the shin slide If successful: The bottom player cannot generate the angle needed for shin repositioning and must abandon the transition",
+      "name": "Avoid driving all weight onto the partner's shoulders while the legs are locked high.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     }
   ],
@@ -50,42 +50,42 @@ description: "Defend against the New York Control to Invisible Collar transition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary escape window during the New York to Invisible Collar transition?",
+      "name": "New York Control to Invisible Collar (defender): What matters when you recognize the high closure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary window occurs when the attacker releases the overhook to complete the shin slide. During this moment, the primary posture control mechanism of New York Control is voluntarily abandoned, creating a gap where the top player can posture up and potentially strip the rubber guard entirely. This window typically lasts one to two seconds and must be exploited immediately upon recognition."
+        "text": "The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip."
       }
     },
     {
       "@type": "Question",
-      "name": "Defending New York bottom: how do you tell a real gogoplata from an invisible collar feint?",
+      "name": "New York Control to Invisible Collar (defender): What matters when you protect the neck and arm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A committed gogoplata involves the shin driving directly toward the throat with hip extension, while the invisible collar feint directs the shin behind the neck with hip rotation toward the overhook side. Watch the direction of hip movement: gogoplata requires hips pushing forward and up, while the invisible collar setup requires lateral hip rotation. The hand positioning also differs, as the invisible collar feint involves the free hand reaching toward the own ankle rather than the opponent's head."
+        "text": "Keep the head aligned and the captured elbow compact rather than twisting against the enclosure."
       }
     },
     {
       "@type": "Question",
-      "name": "They lock the invisible collar on you — what defensive posture do you adopt immediately?",
+      "name": "New York Control to Invisible Collar (defender): What matters when you keep a balanced base?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Immediately tuck your chin aggressively toward your chest to limit the angle available for gogoplata extension. Bring both hands to the shin behind your neck and begin working to strip it by pushing the ankle away from your body. Keep your hips heavy and resist the urge to posture, as posturing drives your neck into the shin pressure. Begin systematic hip escape toward the side opposite the shin to create space for removal."
+        "text": "Avoid driving all weight onto the partner's shoulders while the legs are locked high."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is lateral movement more effective than backward movement when defending this transition?",
+      "name": "New York Control to Invisible Collar (defender): What matters when you address the leg enclosure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Lateral movement disrupts the hip rotation that powers the shin slide from shoulder to behind the neck. The attacker needs a specific angle created by rotating toward the overhook side, and lateral movement by the top player changes this angle, blocking the shin pathway. Backward movement actually stretches the rubber guard configuration without disrupting the angle, often assisting the shin's travel by creating space along the intended path."
+        "text": "Create space at the hip and thigh before trying to raise the head or extract the arm."
       }
     },
     {
       "@type": "Question",
-      "name": "They've tried the invisible collar transition twice and reset — how do you exploit that persistence?",
+      "name": "New York Control to Invisible Collar (defender): What matters when you recover inside position?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bait the third attempt by appearing to settle passively in New York Control, then time an explosive posture recovery during the overhook release that you now anticipate. Each failed attempt teaches you the attacker's specific setup tells and timing. Alternatively, preemptively strip the controlling leg from the shoulder when you sense the hip rotation beginning, converting their transition attempt into a complete guard break before they can even begin the shin slide."
+        "text": "Bring the elbow back between the bodies after the high closure opens."
       }
     }
   ]
@@ -98,7 +98,7 @@ description: "Defend against the New York Control to Invisible Collar transition
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "New York Control to Invisible Collar Defender",
-  "description": "Defend against the New York Control to Invisible Collar transition. Recognition cues, defensive timing, and escape strategies to disrupt rubber guard positional cycling.",
+  "description": "New York Control to Invisible Collar (defender): The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -194,7 +194,13 @@ description: "Defend against the New York Control to Invisible Collar transition
 
 <section id="overview" class="content-section">
 
-Defending the New York Control to Invisible Collar transition requires recognizing the subtle hip and leg movements that precede the shin repositioning. The defender's primary window for escape occurs during the brief moment when the attacker releases the overhook to complete the transition, as this creates a gap in the controlling structure that can be exploited for posture recovery. Understanding the transition mechanics allows the top player to anticipate the movement and preemptively posture before the invisible collar is established, converting the attacker's transition attempt into an opportunity to escape the rubber guard entirely. The defender must resist the instinct to remain passive during rubber guard position changes, instead treating each transition as an actionable escape window.
+The bottom guard player begins in New York Control, facing a top player whose posture is controlled. Clear the neck through the Chill Dog checkpoint before adding the second leg. Neither a jacket collar nor rear hooks define this route.
+
+The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. Avoid driving all weight onto the partner's shoulders while the legs are locked high.
+
+Create space at the hip and thigh before trying to raise the head or extract the arm. Bring the elbow back between the bodies after the high closure opens. Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
@@ -242,11 +248,9 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 <p class="section-subtitle">How do you know when someone is attempting New York Control to Invisible Collar?</p>
 
-- Bottom player's free hand reaches toward their own ankle or shin while maintaining rubber guard
-- Subtle hip rotation toward the overhook side creating an angle change under you
-- Overhook pressure decreases or changes character as the attacker prepares to release
-- The controlling leg begins shifting from its stable position across the shoulder
-- Bottom player initiates an exaggerated submission threat that feels like a setup rather than a committed attack
+- The bottom guard player begins in New York Control, facing a top player whose posture is controlled.
+- Maintain the cleared hand position and knee hug as the free leg comes higher.
+- Hold the upper body close with the whole leg configuration rather than squeezing or wrenching the neck.
 
 
 </section>
@@ -257,12 +261,12 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 <p class="section-subtitle">What are the key principles for defending New York Control to Invisible Collar?</p>
 
-- Recognize the hip rotation and hand-to-ankle movement that signals an impending transition before it develops
-- Exploit the overhook release window by posturing immediately when control loosens rather than waiting for the new position to consolidate
-- Keep shoulders square and hips back to prevent the shin from clearing the shoulder and reaching behind the neck
-- Use framing on the opponent's hip to create the distance that disrupts shin repositioning mechanics
-- Treat every rubber guard transition as an escape opportunity rather than passively waiting in the new position
-- Strip leg control during the transition gap when the attacker's leg is between positions and not fully engaged
+- Recognize the high closure: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
+- Protect the neck and arm: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
+- Keep a balanced base: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
+- Address the leg enclosure: Create space at the hip and thigh before trying to raise the head or extract the arm.
+- Recover inside position: Bring the elbow back between the bodies after the high closure opens.
+- Stop on compression: Tap immediately to a choke or joint pressure; posture recovery is an early defense, not a late escape guarantee.
 
 
 </section>
@@ -273,26 +277,26 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 <p class="section-subtitle">What can you do to defend against New York Control to Invisible Collar?</p>
 
-### 1. Posture up aggressively during the overhook release window
+### 1. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-- **When to use**: When you feel the overhook loosening or see the attacker's hand moving to guide their leg
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/New York Control]]
-- **If successful**: Bottom player's transition is disrupted and they must re-establish New York Control or abandon rubber guard
-- **Risk**: If the shin has already reached behind your neck, posturing drives your neck into the invisible collar pressure
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Strip the controlling leg off your shoulder during the shin slide
+### 2. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-- **When to use**: When the leg is in transit between shoulder and neck position, momentarily weakened in its control
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Open Guard]]
-- **If successful**: Rubber guard is completely broken and you establish open guard passing position
-- **Risk**: If the strip fails, you have exposed your arms to potential armbar or triangle from the transition
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Drive forward and stack to prevent hip rotation
+### 3. Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
-- **When to use**: When you detect the initial hip rotation that precedes the shin slide
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/New York Control]]
-- **If successful**: The bottom player cannot generate the angle needed for shin repositioning and must abandon the transition
-- **Risk**: Forward pressure against rubber guard can feed into other submissions like triangle or omoplata if poorly timed
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -306,7 +310,7 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 ### → [[Positions/Open Guard]]
 
-Exploit the transition window to strip the controlling leg when it is between positions. Time the strip when the overhook releases and the shin has not yet settled behind the neck. Use both hands to push the leg toward the mat while posturing your upper body to create maximum distance from the rubber guard structure.
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
 
 
@@ -318,25 +322,20 @@ Exploit the transition window to strip the controlling leg when it is between po
 
 <p class="section-subtitle">What mistakes should you avoid when defending New York Control to Invisible Collar?</p>
 
-### 1. Remaining passive during the transition and allowing the invisible collar to establish without resistance
+### 1. Skipping the checkpoint: recognize the high closure
 
-- **Consequence**: The invisible collar consolidates with full shin pressure behind the neck, creating immediate gogoplata and choke threats that are much harder to defend than the transition itself
-- **Correction**: Treat every rubber guard position change as an active escape opportunity. The transition window is the moment of greatest vulnerability for the bottom player and must be exploited immediately.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
+- **Correction**: The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip.
 
-### 2. Attempting to posture after the shin has already settled behind the neck
+### 2. Skipping the checkpoint: protect the neck and arm
 
-- **Consequence**: Posturing drives the neck into the shin pressure, actually tightening the invisible collar rather than escaping it
-- **Correction**: If the invisible collar is already established, shift to invisible collar-specific defense with chin tuck and hand fighting rather than attempting to posture through the shin pressure.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
+- **Correction**: Keep the head aligned and the captured elbow compact rather than twisting against the enclosure.
 
-### 3. Using only one hand to fight the transitioning leg while the other posts for base
+### 3. Skipping the checkpoint: keep a balanced base
 
-- **Consequence**: Single-hand defense is insufficient against the hip rotation momentum driving the shin into position, and the posted hand is vulnerable to grip control
-- **Correction**: Commit both hands to disrupting the leg transition when the overhook releases, accepting the temporary base compromise for the opportunity to fully strip the rubber guard.
-
-### 4. Pulling straight backward to escape the rubber guard during the transition
-
-- **Consequence**: Backward movement stretches the opponent's legs, which can actually help them achieve the angle needed for shin placement behind the neck
-- **Correction**: Move laterally or drive forward at an angle rather than pulling straight back. Lateral movement disrupts the hip rotation mechanics, while angled forward pressure prevents the shin from clearing the shoulder.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
+- **Correction**: Avoid driving all weight onto the partner's shoulders while the legs are locked high.
 
 
 
@@ -348,14 +347,14 @@ Exploit the transition window to strip the controlling leg when it is between po
 
 <p class="section-subtitle">How do you train defense against New York Control to Invisible Collar?</p>
 
-**Phase 1: Recognition Training** - Identifying transition cues and timing windows
-Partner performs the New York to Invisible Collar transition at slow speed while you practice identifying the recognition cues: hip rotation, hand movement to ankle, overhook loosening. Call out when you detect the transition beginning. Develop the pattern recognition that allows early intervention before the shin reaches the neck.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the high closure. The free leg moving behind your head is an attempt to reinforce posture control, even without a collar grip. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Defensive Timing Drills** - Exploiting the vulnerability window with progressive resistance
-From New York Control, partner attempts the transition at moderate speed while you practice specific defensive responses: posturing during overhook release, stripping the leg during the slide, and stacking to prevent hip rotation. Partner provides 50% resistance, increasing to 75% as timing improves.
+**Phase 2** - Rehearse the connection
+Work cooperatively on protect the neck and arm. Keep the head aligned and the captured elbow compact rather than twisting against the enclosure. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Live Positional Sparring** - Full-speed defense against rubber guard transitions
-Begin in New York Control with partner attempting any rubber guard transition including invisible collar. Defend with full resistance while partner attacks at full speed. Develop the ability to recognize and defend the transition in real time against an actively threatening opponent. Track success rate over multiple rounds.
+**Phase 3** - Add an early response
+Work cooperatively on keep a balanced base. Avoid driving all weight onto the partner's shoulders while the legs are locked high. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

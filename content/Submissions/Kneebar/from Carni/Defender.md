@@ -4,13 +4,13 @@
 
 ---
 title: "Kneebar from Carni Defender | BJJ Defense Guide | BJJ Graph"
-description: "How to defend and escape the kneebar from Carni. Recognition cues, defensive options, escape paths, and safety-first approach to leg lock defense."
+description: "Kneebar from Carni (defender): A knee trapped at the attacker's hips with the ankle held indicates the extension threat. Hand fight and keep the lower leg free before the attacker completes the capture."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Kneebar from Carni targets the Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule). Tap early and often. Your safety is more important than any training round.
+> **SAFETY**: Kneebar from Carni targets the Knee joint. Tap early and often. Your safety is more important than any training round.
 
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
@@ -22,26 +22,26 @@ description: "How to defend and escape the kneebar from Carni. Recognition cues,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Aggressive knee bend and retraction",
-      "text": "Immediately upon recognizing the kneebar setup, before the attacker closes their leg triangle above the knee If successful: Attacker cannot finish the kneebar and must return to heel hook threat or transition to saddle",
+      "name": "A knee trapped at the attacker's hips with the ankle held indicates the extension threat.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Hip rotation toward attacker to collapse extension angle",
-      "text": "When the attacker has begun extension but has not yet reached full hyperextension, and you still have rotational freedom in your hips If successful: Collapsing the angle eliminates the hyperextension threat and may create scramble opportunities to rebuild guard",
+      "name": "Hand fight and keep the lower leg free before the attacker completes the capture.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Stand up and posture using free leg to create upward pressure",
-      "text": "When the attacker's leg triangle is loose and you have your free leg planted on the mat with ability to drive upward If successful: Break free from the leg entanglement entirely and recover to standing or pass to top position",
+      "name": "Move the knee away from the fulcrum only while the leg can still move freely.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Peel attacker's hands off shin grip before triangle closes",
-      "text": "During the transition window when the attacker is shifting grips from heel to shin, before they establish a secure hold If successful: Without the shin-to-chest grip, the attacker cannot generate sufficient finishing force and must reset",
+      "name": "Avoid a twisting escape against a held ankle and trapped thigh.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -58,42 +58,42 @@ description: "How to defend and escape the kneebar from Carni. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a kneebar from Carni is being set up rather than a heel hook?",
+      "name": "Kneebar from Carni (defender): What matters when you recognize the straight-leg line?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The key recognition cue is the attacker's hip position shifting from angled (heel hook) to directly behind your knee (kneebar). Additionally, the attacker's grip transitions from your heel and ankle to your shin and lower leg. The pressure direction changes from rotational torque to linear extension. Recognizing this shift early gives you the transition window to defend before the position is fully established."
+        "text": "A knee trapped at the attacker's hips with the ankle held indicates the extension threat."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the safest way to tap to the kneebar from Carni to prevent injury?",
+      "name": "Kneebar from Carni (defender): What matters when you deny ankle control early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tap immediately with a clear physical hand tap on your opponent's body or the mat, combined with a verbal signal. Tap early when you feel the knee approaching its natural extension limit rather than waiting to see if you can escape. Kneebars have a very small margin between full extension and ligament damage. Multiple tap signals simultaneously ensure the attacker recognizes and releases. Never try to tough out a locked kneebar to avoid tapping."
+        "text": "Hand fight and keep the lower leg free before the attacker completes the capture."
       }
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the kneebar from Carni at different stages?",
+      "name": "Kneebar from Carni (defender): What matters when you recover the knee line early?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "During the transition window (attacker shifting from heel hook to kneebar), bend your knee aggressively and fight the grip transition. Once the attacker has positioned hips behind the knee but before the triangle closes, focus on preventing the leg triangle by kicking their crossing leg away. After the triangle closes, rotate your hips toward the attacker to collapse the extension angle. Once extension begins approaching end range, tap immediately rather than risking ligament damage."
+        "text": "Move the knee away from the fulcrum only while the leg can still move freely."
       }
     },
     {
       "@type": "Question",
-      "name": "Why is bending the knee the first priority when defending the kneebar from Carni?",
+      "name": "Kneebar from Carni (defender): What matters when you keep the foot aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A bent knee cannot be hyperextended because the joint is already in flexion, which is the opposite direction of the kneebar force. Bending the knee immediately removes the submission threat and buys time to address other aspects of the position. While bending the knee may re-expose the heel for a heel hook, this trade is preferable because you move from immediate submission danger to a position where you have time to implement additional defenses."
+        "text": "Avoid a twisting escape against a held ankle and trapped thigh."
       }
     },
     {
       "@type": "Question",
-      "name": "What makes the kneebar from Carni particularly dangerous compared to standalone kneebar entries?",
+      "name": "Kneebar from Carni (defender): What matters when you tap at controlled extension?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The kneebar from Carni is more dangerous because the attacker already has established leg entanglement control, reducing their setup time significantly. The defender is often mentally focused on defending the heel hook threat, which delays recognition of the kneebar transition. The attacker's pre-existing inside leg positioning means they can close the leg triangle faster than from a cold entry. Additionally, the dual heel hook and kneebar threat creates a dilemma where each defense opens the other attack."
+        "text": "Do not wait for severe pain or test how far the knee can bend backward."
       }
     }
   ]
@@ -106,7 +106,7 @@ description: "How to defend and escape the kneebar from Carni. Recognition cues,
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kneebar from Carni Defender",
-  "description": "How to defend and escape the kneebar from Carni. Recognition cues, defensive options, escape paths, and safety-first approach to leg lock defense.",
+  "description": "Kneebar from Carni (defender): A knee trapped at the attacker's hips with the ankle held indicates the extension threat. Hand fight and keep the lower leg free before the attacker completes the capture.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -191,7 +191,13 @@ description: "How to defend and escape the kneebar from Carni. Recognition cues,
 
 <section id="overview" class="content-section">
 
-Defending the kneebar from Carni requires early recognition and immediate action, because once the attacker establishes their hip fulcrum behind your knee and closes their leg triangle, escape options diminish rapidly. The defender's primary advantage is the transition window - the brief period when the attacker shifts from heel hook positioning to kneebar alignment. During this window, the attacker must release some control to reposition, creating opportunities for knee retraction, hip rotation, or positional escape. Understanding this timing is the difference between a successful defense and a forced tap. The most critical defensive principle is knowing when to tap. Kneebars can damage the PCL, MCL, and menisci with relatively little warning, and training partners who refuse to tap risk injuries requiring months of rehabilitation or surgery.
+The attacker has isolated one leg between the legs, with the opponent's knee aligned at the hip fulcrum and the ankle controlled. Carni is a shoulder-lock configuration. A kneebar needs a separately captured leg and a new hip-to-knee alignment; neither the Carni leg clamp nor its name supplies that alignment.
+
+A knee trapped at the attacker's hips with the ankle held indicates the extension threat. Hand fight and keep the lower leg free before the attacker completes the capture. Move the knee away from the fulcrum only while the leg can still move freely.
+
+Avoid a twisting escape against a held ankle and trapped thigh. Do not wait for severe pain or test how far the knee can bend backward. Rebuild guard or base once the whole leg has been freed.
+
+Drill the control without a finishing bridge. Use slow, supervised practice, early taps and immediate release; check division-specific rules before live use.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
@@ -232,11 +238,9 @@ Defending the kneebar from Carni requires early recognition and immediate action
 
 <p class="section-subtitle">How do you know when someone is attempting Kneebar from Carni?</p>
 
-- Attacker shifts their hips from angled heel hook position to directly behind your knee joint
-- Attacker releases heel or ankle grip and transitions hands to your shin or lower leg
-- Attacker's legs begin to reposition and triangle around your thigh above the knee rather than around the ankle
-- Pressure shifts from rotational torque on your heel to linear extension pressure against the back of your knee
-- Attacker pulls your foot toward their chest rather than rotating it across their body
+- The attacker has isolated one leg between the legs, with the opponent's knee aligned at the hip fulcrum and the ankle controlled.
+- Use the legs to keep the opponent's hip from moving freely away.
+- Hold the lower leg close without turning the foot into a rotational lock.
 
 
 </section>
@@ -247,12 +251,12 @@ Defending the kneebar from Carni requires early recognition and immediate action
 
 <p class="section-subtitle">What are the key principles for defending Kneebar from Carni?</p>
 
-- Bend your knee immediately upon recognizing the kneebar setup - a bent knee cannot be hyperextended
-- Prevent the attacker from closing their leg triangle above your knee, as this is the primary retention mechanism
-- Control the attacker's hands to prevent them from securing your shin to their chest
-- Use hip rotation toward the attacker to collapse the extension angle and rebuild guard
-- Tap early when extension begins and your knee approaches end range - kneebars damage rapidly with little warning
-- Exploit the transition window when the attacker shifts from heel hook to kneebar positioning
+- Recognize the straight-leg line: A knee trapped at the attacker's hips with the ankle held indicates the extension threat.
+- Deny ankle control early: Hand fight and keep the lower leg free before the attacker completes the capture.
+- Recover the knee line early: Move the knee away from the fulcrum only while the leg can still move freely.
+- Keep the foot aligned: Avoid a twisting escape against a held ankle and trapped thigh.
+- Tap at controlled extension: Do not wait for severe pain or test how far the knee can bend backward.
+- Separate after release: Rebuild guard or base once the whole leg has been freed.
 
 
 </section>
@@ -263,33 +267,33 @@ Defending the kneebar from Carni requires early recognition and immediate action
 
 <p class="section-subtitle">What can you do to defend against Kneebar from Carni?</p>
 
-### 1. Aggressive knee bend and retraction
+### 1. A knee trapped at the attacker's hips with the ankle held indicates the extension threat.
 
-- **When to use**: Immediately upon recognizing the kneebar setup, before the attacker closes their leg triangle above the knee
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Carni]]
-- **If successful**: Attacker cannot finish the kneebar and must return to heel hook threat or transition to saddle
-- **Risk**: Bending the knee re-exposes your heel for heel hook attack, creating the attacker's desired dilemma
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Drill the control without a finishing bridge. Use slow, supervised practice, early taps and immediate release; check division-specific rules before live use.
 
-### 2. Hip rotation toward attacker to collapse extension angle
+### 2. Hand fight and keep the lower leg free before the attacker completes the capture.
 
-- **When to use**: When the attacker has begun extension but has not yet reached full hyperextension, and you still have rotational freedom in your hips
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Carni]]
-- **If successful**: Collapsing the angle eliminates the hyperextension threat and may create scramble opportunities to rebuild guard
-- **Risk**: Rotating too aggressively can expose your back if the attacker follows your rotation
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Drill the control without a finishing bridge. Use slow, supervised practice, early taps and immediate release; check division-specific rules before live use.
 
-### 3. Stand up and posture using free leg to create upward pressure
+### 3. Move the knee away from the fulcrum only while the leg can still move freely.
 
-- **When to use**: When the attacker's leg triangle is loose and you have your free leg planted on the mat with ability to drive upward
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Break free from the leg entanglement entirely and recover to standing or pass to top position
-- **Risk**: Standing with a trapped leg can increase extension pressure if the attacker maintains grip and drives hips forward
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Drill the control without a finishing bridge. Use slow, supervised practice, early taps and immediate release; check division-specific rules before live use.
 
-### 4. Peel attacker's hands off shin grip before triangle closes
+### 4. Avoid a twisting escape against a held ankle and trapped thigh.
 
-- **When to use**: During the transition window when the attacker is shifting grips from heel to shin, before they establish a secure hold
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Carni]]
-- **If successful**: Without the shin-to-chest grip, the attacker cannot generate sufficient finishing force and must reset
-- **Risk**: Using both hands to fight grips reduces your base and can compromise your ability to posture
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Drill the control without a finishing bridge. Use slow, supervised practice, early taps and immediate release; check division-specific rules before live use.
 
 
 
@@ -301,8 +305,8 @@ Defending the kneebar from Carni requires early recognition and immediate action
 
 <p class="section-subtitle">How do you escape Kneebar from Carni?</p>
 
-- Bend knee aggressively and rotate hips toward attacker to collapse the extension angle, then pummel free leg to rebuild closed guard or half guard
-- Drive up to standing using free leg while fighting the shin grip, creating upward pressure that breaks the attacker's leg triangle and allows full leg extraction
+- Hand fight and keep the lower leg free before the attacker completes the capture.
+- Move the knee away from the fulcrum only while the leg can still move freely.
 
 
 </section>
@@ -315,11 +319,11 @@ Defending the kneebar from Carni requires early recognition and immediate action
 
 ### → [[Positions/Closed Guard]]
 
-Successfully extract your trapped leg by standing and driving upward pressure, breaking the attacker's leg triangle and grip, then settling into top closed guard position where you control distance and posture
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. A knee trapped at the attacker's hips with the ankle held indicates the extension threat.
 
 ### → [[Positions/Rubber Guard/Carni]]
 
-Deny the kneebar finish through aggressive knee bend and grip fighting, forcing the attacker to reset to the base Carni position without completing the submission transition
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Hand fight and keep the lower leg free before the attacker completes the capture.
 
 
 
@@ -331,25 +335,20 @@ Deny the kneebar finish through aggressive knee bend and grip fighting, forcing 
 
 <p class="section-subtitle">What mistakes should you avoid when defending Kneebar from Carni?</p>
 
-### 1. Keeping the leg extended while trying to pull it free with hip movement alone
+### 1. Skipping the checkpoint: recognize the straight-leg line
 
-- **Consequence**: An extended leg is the exact position the attacker needs to finish the kneebar - your escape attempts actually assist the submission
-- **Correction**: Always bend your knee first before attempting any escape. A bent knee cannot be hyperextended. Make knee bend your automatic first response to any kneebar threat.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: A knee trapped at the attacker's hips with the ankle held indicates the extension threat.
+- **Correction**: A knee trapped at the attacker's hips with the ankle held indicates the extension threat.
 
-### 2. Refusing to tap when the extension reaches end range of motion
+### 2. Skipping the checkpoint: deny ankle control early
 
-- **Consequence**: PCL, MCL, or meniscus damage that requires surgery and 3-12 months of recovery, potentially ending training for an extended period
-- **Correction**: Tap immediately when you feel the knee reaching its natural extension limit. There is very little warning between full extension and ligament damage in kneebars. Train the habit of tapping early.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Hand fight and keep the lower leg free before the attacker completes the capture.
+- **Correction**: Hand fight and keep the lower leg free before the attacker completes the capture.
 
-### 3. Focusing only on fighting the attacker's hands while ignoring leg triangle prevention
+### 3. Skipping the checkpoint: recover the knee line early
 
-- **Consequence**: The attacker closes their leg triangle around your thigh while your hands are busy, making escape exponentially harder once the triangle locks
-- **Correction**: Prioritize preventing the leg triangle closure above the knee. Use your free leg to kick the attacker's crossing leg away before it closes. Address the triangle first, grips second.
-
-### 4. Rolling away from the attacker expecting to escape the kneebar
-
-- **Consequence**: Rolling away often maintains the hyperextension angle and can expose your back for a back take or transition to truck position
-- **Correction**: Roll toward the attacker to collapse the extension angle, not away from them. Closing distance reduces the lever arm and makes the kneebar mechanically weaker.
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Move the knee away from the fulcrum only while the leg can still move freely.
+- **Correction**: Move the knee away from the fulcrum only while the leg can still move freely.
 
 
 
@@ -361,17 +360,14 @@ Deny the kneebar finish through aggressive knee bend and grip fighting, forcing 
 
 <p class="section-subtitle">How do you train defense against Kneebar from Carni?</p>
 
-**Phase 1: Recognition and Tap Training** - Identifying kneebar setup cues and developing early tap habits
-Partner slowly transitions from Carni heel hook threat to kneebar positioning. Defender practices recognizing the transition cues (hip shift, grip change, pressure direction change) and tapping early before extension reaches end range. Build the habit of tapping before any discomfort. 15 repetitions per side.
+**Phase 1** - Identify the configuration
+Work cooperatively on recognize the straight-leg line. A knee trapped at the attacker's hips with the ankle held indicates the extension threat. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Defensive Mechanics** - Knee bend, grip fighting, and triangle prevention
-Partner transitions to kneebar at moderate speed. Defender practices immediate knee bend response, fighting the shin grip during transition, and using free leg to prevent leg triangle closure. Partner does not resist the defense, allowing the defender to build correct movement patterns.
+**Phase 2** - Rehearse the connection
+Work cooperatively on deny ankle control early. Hand fight and keep the lower leg free before the attacker completes the capture. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Escape Integration** - Complete defensive sequences with escape to safety
-Partner applies the kneebar transition with progressive resistance. Defender chains defensive responses: recognize, bend knee, fight triangle, rotate toward attacker, and escape to guard or standing. Partner provides feedback on timing and technique quality. Build toward full positional sparring pace.
-
-**Phase 4: Live Defense Sparring** - Applying defense under full competitive pressure
-Positional sparring starting from Carni with full resistance. Attacker works all submissions including kneebar. Defender applies complete defensive system. Two-minute rounds. Track escape success rate and identify defensive gaps that need additional drilling.
+**Phase 3** - Add an early response
+Work cooperatively on recover the knee line early. Move the knee away from the fulcrum only while the leg can still move freely. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

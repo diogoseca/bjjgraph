@@ -4,7 +4,7 @@
 
 ---
 title: "Posture Recovery from Carni Defender | BJJ Defense Guide | BJJ Graph"
-description: "Complete guide to preventing posture recovery from Carni bottom. Maintain leg entanglement control, counter stacking pressure, and advance to dominant positions."
+description: "Posture Recovery from Carni (defender): Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head."
 ---
 
 
@@ -20,26 +20,26 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Thread inside leg deeper to establish saddle entry hook as opponent drives forward",
-      "text": "When opponent commits to forward pressure and creates space between their knees by driving forward If successful: Transition to saddle position with deeper control and immediate heel hook threat from superior angle",
+      "name": "Use the guard and shoulder connection to bring the opponent close before moving the high leg.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Invert under the stacking pressure and re-establish Carni from opposite angle",
-      "text": "When opponent's forward pressure is moderate and there is space to rotate underneath If successful: Reset Carni control from fresh angle with maintained leg entanglement and renewed offensive options",
+      "name": "Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Close guard around opponent's waist as entanglement loosens to retain control",
-      "text": "When stacking pressure is too strong to maintain Carni and entanglement is collapsing If successful: Retain opponent in closed guard with sweep and submission opportunities, preventing complete escape",
+      "name": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Tighten heel grip and apply immediate finishing pressure before stack completes",
-      "text": "When opponent initiates forward pressure but heel grip is still deep and secure If successful: Force opponent to abandon stacking attempt due to immediate submission danger and reset to defensive position",
+      "name": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.",
+      "text": "Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded. If successful: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.",
       "position": 4
     }
   ],
@@ -56,34 +56,34 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting posture recovery from Carni?",
+      "name": "Posture Recovery from Carni (defender): What matters when you set the upper-body angle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The earliest cue is when the opponent's free hand moves to establish a frame against your hip or ribcage, indicating they are setting up a stacking base. This hand placement precedes the actual forward pressure by several seconds, giving you time to implement counter-measures. Secondary cues include forward weight shift and increased urgency in grip fighting against your heel control."
+        "text": "Use the guard and shoulder connection to bring the opponent close before moving the high leg."
       }
     },
     {
       "@type": "Question",
-      "name": "How do you use the opponent's forward stacking pressure to advance to the saddle?",
+      "name": "Posture Recovery from Carni (defender): What matters when you frame before clearing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As the opponent drives forward, their forward momentum creates space between their knees and opens their guard structure. Thread your inside leg deeper through this space, using their forward pressure to carry your hook past the point where they can retract. The key timing is threading the hook as they commit to the forward drive but before they achieve chest-to-chest contact that would compress you too much to complete the transition."
+        "text": "Manage the shoulder and neck line with a forearm frame as the leg clears the head."
       }
     },
     {
       "@type": "Question",
-      "name": "When should you abandon Carni retention and default to closing your guard?",
+      "name": "Posture Recovery from Carni (defender): What matters when you anchor through the hips?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Default to closing guard when the opponent has achieved deep stacking pressure with chest-to-chest contact and your inside leg hook has been cleared or is about to be cleared. At this point, attempting to maintain Carni or transition to saddle carries high risk of being passed entirely. Closing guard retains the opponent in your control system with sweep and submission opportunities, which is far preferable to being passed to side control."
+        "text": "Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head."
       }
     },
     {
       "@type": "Question",
-      "name": "In Carni, what is the risk of aggressively finishing the heel hook as they stack forward?",
+      "name": "Posture Recovery from Carni (defender): What matters when you hold the triceps?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Applying aggressive heel hook during dynamic forward pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force can cause sudden, uncontrollable knee ligament damage before either person can react to tap. The safer approach is to use the heel hook threat to stall forward pressure and create transition opportunities rather than attempting to finish during active stacking movement."
+        "text": "Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder."
       }
     }
   ]
@@ -96,7 +96,7 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Posture Recovery from Carni Defender",
-  "description": "Complete guide to preventing posture recovery from Carni bottom. Maintain leg entanglement control, counter stacking pressure, and advance to dominant positions.",
+  "description": "Posture Recovery from Carni (defender): Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -181,7 +181,15 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
 
 <section id="overview" class="content-section">
 
-As the bottom player in Carni, preventing your opponent's posture recovery is essential for maintaining your offensive position and threat of submission. When the top player attempts to drive forward and stack through your guard, you must recognize the attempt early and implement counter-measures that either maintain your existing Carni control or advance you to a more dominant position like the saddle. The key defensive principle is that the top player's forward pressure, while dangerous to your Carni position, also creates opportunities for saddle transitions and back takes if redirected properly. Understanding how to use the opponent's own momentum against them transforms their escape attempt into your positional advancement opportunity.
+The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed. Carni attacks the shoulder. A Saddle counter or lower-leg extraction is not implied by the configuration.
+
+Use the guard and shoulder connection to bring the opponent close before moving the high leg. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+
+Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder. Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly. Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
+
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+As the shoulder clamp opens, rebuild guard retention with a frame on the side of the neck and hip movement that returns the knee shield. Keep the forearm inside against a crossface or chest pressure rather than following the freed arm with both hands.
 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
@@ -221,11 +229,9 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 <p class="section-subtitle">How do you know when someone is attempting Posture Recovery from Carni?</p>
 
-- Opponent's free hand moves to establish frame against your hip or ribcage indicating stacking setup
-- Forward shift in opponent's weight distribution as they begin driving hips forward through hip extension
-- Opponent begins stripping or fighting your heel and ankle grips with increased urgency
-- Opponent's chest drops toward your torso as they initiate the stacking pressure sequence
-- Opponent's free leg repositions wider to generate forward driving base for stacking motion
+- The top player faces a bottom guard player using Carni; the head, shoulder or arm may still be enclosed.
+- Avoid reaching away while the opponent sets the triceps control.
+- Create slack at the hip and thigh while keeping the head and captured arm aligned.
 
 
 </section>
@@ -236,12 +242,12 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 <p class="section-subtitle">What are the key principles for defending Posture Recovery from Carni?</p>
 
-- Recognize stacking pressure early through hip and chest contact changes before forward drive builds momentum
-- Maintain active heel and ankle grip throughout the opponent's recovery attempt to preserve submission threat
-- Use opponent's forward pressure to create angles for saddle transition rather than fighting the pressure directly
-- Keep inside leg hook active and threatening to prevent the top player from achieving clean forward drive
-- Stay connected to opponent's hips with your legs through all defensive transitions to prevent clean extraction
-- Convert failed Carni defense into closed guard retention as minimum acceptable outcome
+- Set the upper-body angle: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- Frame before clearing: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- Anchor through the hips: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+- Hold the triceps: Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
+- Control before finishing: Hold the wrist and elbow at a comfortable angle; a small change can load the shoulder rapidly.
+- Let the lock go: Release the wrist and leg clamp immediately on a tap or when the partner needs to roll safely.
 
 
 </section>
@@ -252,33 +258,33 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 <p class="section-subtitle">What can you do to defend against Posture Recovery from Carni?</p>
 
-### 1. Thread inside leg deeper to establish saddle entry hook as opponent drives forward
+### 1. Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-- **When to use**: When opponent commits to forward pressure and creates space between their knees by driving forward
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Ashi Garami/Saddle]]
-- **If successful**: Transition to saddle position with deeper control and immediate heel hook threat from superior angle
-- **Risk**: If hook fails to set, opponent may complete stack and extract leg more easily
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 2. Invert under the stacking pressure and re-establish Carni from opposite angle
+### 2. Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-- **When to use**: When opponent's forward pressure is moderate and there is space to rotate underneath
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Carni]]
-- **If successful**: Reset Carni control from fresh angle with maintained leg entanglement and renewed offensive options
-- **Risk**: Failed inversion under heavy pressure can result in being stacked and passed directly
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 3. Close guard around opponent's waist as entanglement loosens to retain control
+### 3. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
-- **When to use**: When stacking pressure is too strong to maintain Carni and entanglement is collapsing
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Closed Guard]]
-- **If successful**: Retain opponent in closed guard with sweep and submission opportunities, preventing complete escape
-- **Risk**: Gives up leg entanglement and all immediate leg lock threats
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
-### 4. Tighten heel grip and apply immediate finishing pressure before stack completes
+### 4. Keep the captured arm connected so the opponent cannot freely roll or withdraw the shoulder.
 
-- **When to use**: When opponent initiates forward pressure but heel grip is still deep and secure
+- **When to use**: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 - **Targets**: [[Positions/Rubber Guard/Carni]]
-- **If successful**: Force opponent to abandon stacking attempt due to immediate submission danger and reset to defensive position
-- **Risk**: Aggressive heel hook application during dynamic movement increases injury risk for both parties
+- **If successful**: The next connection is interrupted. The eventual position depends on which controls remain; a new guard, pin or rear attachment must be established separately.
+- **Risk**: Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
 
 
 
@@ -292,11 +298,11 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 ### → [[Positions/Ashi Garami/Saddle]]
 
-Use the opponent's forward driving pressure to thread your inside leg deeper through their guard, establishing the saddle hook as their forward momentum carries them past the Carni position into the deeper entanglement
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
 ### → [[Positions/Rubber Guard/Carni]]
 
-Invert underneath the stacking pressure before it builds full momentum, using the rotation to re-establish Carni control from a fresh angle while maintaining the critical inside leg hook and heel grip
+Interrupt the next connection while preserving a safe base. Establish any new guard or pin separately rather than assuming this response guarantees it. Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
 
 
@@ -308,25 +314,20 @@ Invert underneath the stacking pressure before it builds full momentum, using th
 
 <p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery from Carni?</p>
 
-### 1. Fighting the stacking pressure with arm strength rather than using leg entanglement mechanics
+### 1. Skipping the checkpoint: set the upper-body angle
 
-- **Consequence**: Arms fatigue rapidly while the fundamental forward pressure is not addressed, resulting in eventual collapse of position
-- **Correction**: Use leg hooks and hip movement to redirect the stacking pressure rather than pushing against it with arms, threading hooks deeper or inverting to use the momentum advantageously
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
+- **Correction**: Use the guard and shoulder connection to bring the opponent close before moving the high leg.
 
-### 2. Releasing heel grip to push against opponent's chest or shoulders during stack
+### 2. Skipping the checkpoint: frame before clearing
 
-- **Consequence**: Abandoning heel grip removes all submission threat and allows opponent to focus entirely on extraction without defensive concerns
-- **Correction**: Maintain heel and ankle control throughout the defensive sequence, only transitioning grip when moving to closed guard as last resort
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
+- **Correction**: Manage the shoulder and neck line with a forearm frame as the leg clears the head.
 
-### 3. Remaining flat on back without inverting or creating angles as opponent drives forward
+### 3. Skipping the checkpoint: anchor through the hips
 
-- **Consequence**: Allows opponent to build maximum stacking pressure directly through your center line, collapsing the entanglement from the most advantageous angle
-- **Correction**: Stay active with hip movement, angling off to one side or beginning inversion early to prevent the clean forward drive from building full pressure
-
-### 4. Over-committing to saddle transition when opponent's forward pressure is already too established
-
-- **Consequence**: Failed saddle entry under heavy stacking pressure results in being folded and passed with no guard retention
-- **Correction**: Recognize when the window for saddle transition has closed and default to closed guard retention as the minimum acceptable defensive outcome
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
+- **Correction**: Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head.
 
 
 
@@ -338,17 +339,14 @@ Invert underneath the stacking pressure before it builds full momentum, using th
 
 <p class="section-subtitle">How do you train defense against Posture Recovery from Carni?</p>
 
-**Phase 1: Recognition** - Identifying posture recovery attempts early
-Partner performs posture recovery at slow speed while you practice recognizing the setup cues such as hand placement, weight shift, and grip fighting patterns. Call out the recognition before the partner completes the attempt. 20 repetitions focusing on timing awareness.
+**Phase 1** - Identify the configuration
+Work cooperatively on set the upper-body angle. Use the guard and shoulder connection to bring the opponent close before moving the high leg. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Counter Threading** - Saddle entry timing against forward pressure
-Partner drives forward at moderate pace while you practice threading inside leg for saddle entry. Focus on timing the thread with the opponent's commitment to forward drive. Start with light resistance and progress to moderate. 30 repetitions each side.
+**Phase 2** - Rehearse the connection
+Work cooperatively on frame before clearing. Manage the shoulder and neck line with a forearm frame as the leg clears the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Decision Making** - Choosing between saddle, re-establishment, and guard retention
-Partner varies the speed and intensity of posture recovery attempts. Practice selecting the appropriate defensive response based on pressure level: saddle when window is open, re-establishment when possible, guard retention when necessary. Random variation forces pattern recognition.
-
-**Phase 4: Live Defense** - Full resistance prevention of posture recovery
-Positional sparring from Carni bottom with partner actively working all escape options including posture recovery. Defend and counter while maintaining offensive threat. Round ends on successful escape, submission, or positional advancement. 2-minute rounds.
+**Phase 3** - Add an early response
+Work cooperatively on anchor through the hips. Turn partly belly down with the knee close and foot supported rather than wrenching the leg across the head. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 

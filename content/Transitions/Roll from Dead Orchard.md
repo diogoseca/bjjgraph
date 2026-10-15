@@ -4,7 +4,7 @@
 
 ---
 title: "Roll from Dead Orchard | BJJ Technique | BJJ Graph"
-description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to rolling mechanics, timing windows, and turtle recovery from dangerous choke control."
+description: "A Dead Orchard reset opens the high both-arm leg triangle before turning or reorganizing guard. A rolling headlock escape needs a separate starting position."
 ---
 
 
@@ -16,7 +16,7 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Roll from Dead Orchard",
-  "description": "Master the Roll from Dead Orchard escape in BJJ. Complete guide to rolling mechanics, timing windows, and turtle recovery from dangerous choke control.",
+  "description": "A Dead Orchard reset opens the high both-arm leg triangle before turning or reorganizing guard. A rolling headlock escape needs a separate starting position.",
   "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
 }
 </script>
@@ -87,7 +87,7 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Roll from Dead Orchard",
-  "description": "The Roll from Dead Orchard is a last-resort forward-rolling escape from the bottom of dead orchard control, redirecting the top player's committed finishing pressure into rotational momentum that breaks the anaconda grip and delivers the defender into turtle.",
+  "description": "A Dead Orchard reset releases the high both-arm leg triangle before the bottom player turns or reorganizes guard.",
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -105,13 +105,15 @@ description: "Master the Roll from Dead Orchard escape in BJJ. Complete guide to
 
 <section id="overview" class="content-section">
 
-**The Roll from Dead Orchard is a last-resort forward-rolling escape from the bottom of dead orchard control, redirecting the top player's committed finishing pressure into rotational momentum that breaks the anaconda grip and delivers the defender into turtle.**
+**A Dead Orchard reset releases the high both-arm leg triangle before the bottom player turns or reorganizes guard.**
 
-The Roll from Dead Orchard is a high-stakes defensive escape technique used when trapped in dead orchard control, an advanced anaconda choke variation where the top player maintains crushing pressure with deep grip configuration and committed shoulder drive. When frame-based escapes and arm extraction attempts have been exhausted or are unavailable, the forward roll represents the bottom player's last viable option before the choke becomes inescapable. The technique leverages the opponent's own forward pressure commitment as the escape mechanism, redirecting their energy into rotational momentum that disrupts the circular compression necessary for the blood choke finish.
+The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. Dead Orchard is not an Anaconda front headlock. A rolling headlock escape cannot be taught from this configuration without a separate headlock exchange.
 
-Executing this roll requires precise timing and directional awareness. The bottom player initiates a forward roll toward the choking arm side during a moment when the top player drives forward to tighten the submission. By rolling through at the correct angle, the bottom player breaks the structural alignment of the anaconda grip while transitioning through to turtle position. While turtle remains a defensive position with back exposure, it represents a dramatic improvement over dead orchard where submission is imminent and breathing is severely restricted.
+The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-The primary risk of this escape is that a poorly timed or incorrectly angled roll allows the opponent to follow the rotation and secure back control with hooks, potentially creating an even worse situation. The technique demands sensitivity to opponent weight distribution and pressure patterns, executing the roll during the specific window when the top player commits maximum forward pressure for the finish. This escape is most effective when combined with initial framing and hip movement that disguises the roll direction until the point of commitment.
+Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route.
+
+Instructional sources: [Nathan Orchard — Dead Orchard, part 1](https://www.youtube.com/watch?v=XoiB1D2WJwE); [Ben Eddy — the Zombie pummel](https://www.youtube.com/watch?v=JzSxFvNA5Uo).
 
 **From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 **Success Rate**: 40%
@@ -174,8 +176,8 @@ The primary risk of this escape is that a poorly timed or incorrectly angled rol
 | &nbsp; | Attacker | Defender |
 |--------|----------|----------|
 | **Focus** | Execute technique | Prevent or counter |
-| **Key Principles** | Use the opponent's forward pressure commitment as your escap... | Maintain heavy shoulder pressure driving downward into the t... |
-| **Options** | 8 execution steps | 4 defensive options |
+| **Key Principles** | Recognize the actual control: The bottom player faces the op... | Recognize both-arm capture: Treat a high leg triangle contai... |
+| **Options** | 6 execution steps | 4 defensive options |
 
 </section>
 
@@ -188,53 +190,49 @@ The primary risk of this escape is that a poorly timed or incorrectly angled rol
 ### Key Principles
 
 
-- Use the opponent's forward pressure commitment as your escape fuel rather than fighting against their weight directly
+- Recognize the actual control: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.
 
-- Time the roll during the opponent's maximum forward drive when their weight is most committed and least recoverable
+- Remove submission pressure: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Roll toward the choking arm side to maximize disruption of the anaconda grip's circular compression angle
+- Open the high connection: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
-- Commit fully to the roll once initiated because hesitation allows the opponent to adjust and follow the movement
+- Restore inside frames: Bring the forearms and knees between the bodies as space becomes available.
 
-- Establish tight turtle base immediately upon completing the roll to prevent the opponent from securing back hooks
+- Face the opponent: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing guard.
 
-- Disguise the roll intention with preliminary framing and hip adjustments that keep the opponent guessing your escape direction
+- Stabilize before moving again: Check posture, knee comfort and inside space before resuming a sweep or submission attack.
 
 
 ### Execution Steps
 
 
-- **Create space at the neck**: Use your free hand to wedge your forearm between your neck and the opponent's choking arm at the elb...
+- **Recognize the actual control**: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a...
 
-- **Load hips toward the choking arm side**: Shift your hips slightly toward the side of the opponent's choking arm, angling your body to load th...
+- **Remove submission pressure**: Release any wrist, neck or elbow loading before opening the high-leg enclosure....
 
-- **Post free hand on the mat**: Place your free hand palm-down on the mat in the direction you intend to roll, approximately shoulde...
+- **Open the high connection**: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the k...
 
-- **Wait for opponent's forward pressure commitment**: Remain patient and feel for the moment when the opponent increases their forward pressure to finish ...
+- **Restore inside frames**: Bring the forearms and knees between the bodies as space becomes available....
 
-- **Initiate the forward roll explosively**: Drive off your posting hand and near knee simultaneously to initiate a forward roll toward the choki...
+- **Face the opponent**: Keep the shoulders and hips oriented toward the opponent while re-establishing a comfortable facing ...
 
-- **Break grip alignment during rotation**: As you rotate through the roll, the circular compression angle of the anaconda grip naturally disrup...
-
-- **Complete rotation to hands and knees**: Finish the roll by landing on your hands and knees in a tight turtle position. Your knees should be ...
-
-- **Secure turtle base and defend the back**: Immediately upon establishing turtle, tuck your elbows tight to your knees, round your upper back, a...
+- **Stabilize before moving again**: Check posture, knee comfort and inside space before resuming a sweep or submission attack....
 
 
 ### Common Mistakes
 
 
-- **Rolling in the wrong direction, away from the choking arm instead of toward it**
-  - Consequence: The anaconda grip tightens dramatically during the roll as the rotation reinforces rather than disrupts the choke compression angle, often resulting in immediate tap
-  - Correction: Always roll toward the choking arm side where the opponent's elbow points. This direction fights against the circular compression of the anaconda grip and creates the structural disruption needed to escape
+- **Skipping the checkpoint: recognize the actual control**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.
+  - Correction: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside.
 
-- **Initiating the roll when the opponent's weight is settled and centered rather than during their forward drive**
-  - Consequence: The opponent easily follows the roll because their weight is balanced and they have full mobility to adjust, typically resulting in back control with hooks
-  - Correction: Wait for the opponent to commit their weight forward for the finish before initiating. Use small hip adjustments and framing to bait the forward pressure commitment
+- **Skipping the checkpoint: remove submission pressure**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
+  - Correction: Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- **Lifting the head and extending the neck during the roll instead of keeping chin tucked**
-  - Consequence: The exposed neck allows the choke to tighten during rotation, potentially finishing the submission mid-roll. Also risks cervical spine injury under the rotational forces
-  - Correction: Maintain a tight chin tuck throughout the entire roll. The head should stay connected to the chest with the back of the skull leading the rotation, not the face or forehead
+- **Skipping the checkpoint: open the high connection**
+  - Consequence: The intended control is not established before the next movement; the missing requirement is: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
+  - Correction: Lower the controlling leg through a comfortable hip angle rather than pulling the foot against the knee.
 
 
 </section>
@@ -248,41 +246,37 @@ The primary risk of this escape is that a poorly timed or incorrectly angled rol
 ### Key Principles
 
 
-- Maintain heavy shoulder pressure driving downward into the trapped shoulder to deny the rotational space needed for the roll
+- Recognize both-arm capture: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.
 
-- Keep hips low and connected to the opponent's body to prevent the hip loading that precedes the roll initiation
+- Protect the elbows: Keep the arms compact and avoid offering a straight arm while trying to force posture.
 
-- Monitor the free hand for framing patterns at the elbow crook that indicate roll setup preparations
+- Prevent the leg closure: Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.
 
-- Avoid over-committing forward pressure that the opponent can redirect into rotational escape momentum
+- Clear a shoulder safely: Work on opening the leg enclosure before withdrawing the shoulder and elbow together; stop if an arm is already loaded.
 
-- Be prepared to instantly transition to back control if the roll partially succeeds, following with chest-to-back contact
+- Recover base in stages: Only raise posture after the shoulder line is free; a sudden pull can extend a captured elbow.
 
-- Use controlled, incremental pressure increases rather than explosive forward drives that create the timing window the escape requires
+- Tap with any free signal: Use a verbal tap or foot tap if both hands are trapped, and do not rely on pain to judge remaining range.
 
 
 ### Recognition Cues
 
 
-- Bottom player's free hand shifts from general defensive framing to a specific wedge position at the elbow crook of the choking arm
+- The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection.
 
-- Subtle hip shift toward the choking arm side as the bottom player loads the rotation direction
+- Release any wrist, neck or elbow loading before opening the high-leg enclosure.
 
-- Free hand moves to post palm-down on the mat in the anticipated roll direction, away from defensive neck framing
-
-- Momentary pause in the bottom player's defensive movement followed by a burst of hip rotation, indicating roll commitment
-
-- Bottom player's knees slide forward slightly as they position the rotational axis for the forward roll
+- Bring the forearms and knees between the bodies as space becomes available.
 
 
 ### Defensive Options
 
 
-- **Sprawl hips back and increase downward shoulder pressure to block the rotation** - When: When you detect the initial hip loading or free hand posting that signals the roll setup, before the roll is initiated
+- **Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Follow the roll maintaining chest-to-back contact and transition to back control with hook insertion** - When: When the roll has already been initiated and is past the point where sprawling can prevent it, follow the momentum rather than fighting it
+- **Keep the arms compact and avoid offering a straight arm while trying to force posture.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
-- **Release anaconda grip and immediately transition to seatbelt or harness control during the roll** - When: When the roll disrupts your anaconda grip alignment to the point where the choke is no longer viable, proactively release and secure back control grips
+- **Maintain an early frame at the hip or thigh before the figure-four closes around the shoulders.** - When: Before the next connection or finishing pressure is established; stop if the neck or limb is already loaded.
 
 
 </section>
@@ -293,13 +287,10 @@ The primary risk of this escape is that a poorly timed or incorrectly angled rol
 ## Variations
 
 
-**Forward Roll to Turtle**: The standard version where the bottom player rolls forward toward the choking arm side, using the opponent's committed pressure to fuel the rotation. The roll breaks the anaconda grip alignment and the practitioner establishes turtle base immediately upon completing the rotation. Most commonly drilled and highest percentage of the roll variations. (When to use: When opponent drives heavy forward pressure for the finish and their weight is committed over your shoulders)
+**Cooperative checkpoint drill**: The bottom player faces the opponent and keeps the hips close beneath the shoulders. The legs form a high figure-four around the shoulder line, with both opposing arms inside. Release any wrist, neck or elbow loading before opening the high-leg enclosure. (When to use: Learning the control without submission pressure)
 
 
-**Diagonal Roll to Guard Recovery**: An angled variation where the bottom player rolls at approximately 45 degrees toward the choking arm side while simultaneously threading the near leg through to begin guard recovery. Instead of establishing turtle, the practitioner aims to land facing the opponent in open guard or half guard. Requires more precise timing and hip dexterity than the standard version. (When to use: When you sense the opponent is likely to follow a standard forward roll and you want to deny the back take by facing them immediately)
-
-
-**Granby-Style Inversion Roll**: A more athletic variation using granby roll mechanics where the bottom player inverts over the shoulder opposite the choking arm, using a shoulder roll rather than a forward tumble. This version creates a wider arc of rotation that can more completely break the grip but requires greater flexibility and carries higher risk if the opponent reads the direction early. (When to use: When the standard forward roll direction is blocked by opponent's hip positioning and you need an alternative escape angle)
+**Response and reset drill**: Treat a high leg triangle containing both your arms as an arm-lock threat even when the neck is not being choked. Move through available space with a stable base. Stop and release any trapped neck, shoulder or knee before changing direction; do not force a roll or stack to preserve the route. (When to use: Adding one early response after both partners recognize the configuration)
 
 
 
@@ -311,7 +302,7 @@ The primary risk of this escape is that a poorly timed or incorrectly angled rol
 
 ## Position Integration
 
-The Roll from Dead Orchard serves as a last-resort escape option within the dead orchard control defensive hierarchy. It sits below higher-percentage options like frame-based escapes and arm extraction in the escape priority chain, but becomes essential when the choke is actively tightening and other methods have failed. Successfully reaching turtle from this roll creates a new defensive sequence where the practitioner can work standard turtle escapes toward guard recovery or standing position, representing a significant positional improvement from the near-submission state of dead orchard bottom. This technique connects the front headlock submission defense system to the turtle escape system, bridging two critical defensive chains in the overall grappling framework.
+The bottom player is already facing the opponent in Dead Orchard Control, with a high rubber-guard leg connection. Dead Orchard is not an Anaconda front headlock. A rolling headlock escape cannot be taught from this configuration without a separate headlock exchange. A destination is established by its actual body configuration, not by completing an isolated grip or by the name of the route.
 
 </section>
 
@@ -321,29 +312,13 @@ The Roll from Dead Orchard serves as a last-resort escape option within the dead
 ## Related Techniques
 
 
-- [[Positions/Dead Orchard Control]] - Source position where this escape is initiated from bottom
+- [[Positions/Rubber Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Rubber Guard.
 
-- [[Positions/Turtle]] - Primary target position after successful roll completion
+- [[Positions/Rubber Guard/Mission Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Mission Control.
 
-- [[Positions/Back Control]] - Counter outcome if opponent follows the roll and establishes hooks
+- [[Positions/Rubber Guard/Crackhead Control]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Crackhead Control.
 
-- [[Positions/Anaconda Control]] - Parent control family sharing similar grip mechanics and escape principles
-
-- [[Transitions/Escape Dead Orchard Control]] - Alternative escape method from the same starting position using frames
-
-- [[Transitions/Escape from Dead Orchard]] - Related escape pathway from dead orchard control
-
-- [[Submissions/Anaconda Choke/from Dead Orchard]] - Submission threat that motivates this escape attempt
-
-- [[Transitions/Granby Roll to Guard]] - Similar rolling escape mechanic for recovering guard from a back-exposed scramble
-
-- [[Transitions/Anaconda Grip Break to Front Headlock]] - Higher-priority grip-breaking escape from related control that downgrades the threat before rolling becomes necessary
-
-- [[Positions/Darce Control]] - Sister position with similar escape principles applicable to this technique
-
-- [[Positions/Front Headlock]] - Common preceding position before dead orchard is established
-
-- [[Transitions/Anaconda Control to Dead Orchard Control]] - Transition into dead orchard that creates the situation requiring this escape
+- [[Positions/Closed Guard]] - Related configuration; establish its own prerequisites: compare the configuration and required controls for Closed Guard.
 
 
 </section>

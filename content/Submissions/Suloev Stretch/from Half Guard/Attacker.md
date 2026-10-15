@@ -4,13 +4,13 @@
 
 ---
 title: "Suloev Stretch from Half Guard Attacker | BJJ Submission Guide | BJJ Graph"
-description: "How to execute Suloev Stretch in BJJ. Attacking perspective with setup, execution, and finishing mechanics."
+description: "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Suloev Stretch from Half Guard targets the Knee joint and calf muscle. Risk: Posterior knee ligament damage (PCL tear or strain). Release immediately upon tap.
+> **SAFETY**: Suloev Stretch from Half Guard targets the Hamstring and posterior hip; knee at risk if the leg is twisted. Risk: Hamstring or tendon injury from forced extension. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
@@ -22,38 +22,38 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Isolate and Control the Target Leg",
-      "text": "From top position (commonly half guard top, knee shield pass, or leg entanglement), secure control of one of your opponent's legs. Cup the ankle or control the lower leg while using your weight to prevent them from extending the leg fully. Your chest and shoulder pressure should be driving into their upper body to prevent them from sitting up. This initial control is critical - if they can extend the leg or create distance, the entry becomes impossible.",
+      "name": "Establish rear attachment",
+      "text": "Control the torso from behind before reaching below the hips.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Step Over with Near Leg",
-      "text": "Take your leg that is closest to their head (near leg) and step it over their trapped leg, positioning your shin across their thigh just above the knee. This creates the first part of the figure-four configuration. Your foot should be positioned so you can hook it around your own ankle in the next step. Maintain downward pressure with your upper body throughout this transition to prevent them from recovering guard or extracting the leg.",
+      "name": "Recognize the tripod",
+      "text": "Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Complete the Figure-Four Lock",
-      "text": "Bring your far leg (the one near their feet) underneath their trapped leg and hook your own ankle with your foot, completing a figure-four configuration around their leg. Your legs should form a tight lock with their leg trapped inside, their knee bent, and their heel pulled toward their own buttocks. Squeeze your knees together slightly to secure the lock. This figure-four creates the structural integrity needed for the submission and prevents the leg from escaping.",
+      "name": "Capture the ankle",
+      "text": "Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Establish Hip and Upper Body Position",
-      "text": "Position your hips close to their hip on the trapped leg side. Your chest should be driving into their upper body, keeping them flat on their back or preventing them from turning into you. Control their far arm or establish a crossface if needed to prevent rotation. Your body position should create a 'T' shape where your torso is perpendicular to theirs, with your hips loaded and ready to extend forward. This positioning is crucial - your hips must be in alignment to generate the compression force.",
+      "name": "Keep the leg aligned",
+      "text": "Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Create the Compression Angle",
-      "text": "Adjust the angle of their trapped leg so their heel is being pulled toward their own buttocks by your figure-four lock. Their knee should be bent at approximately 90-120 degrees. Use small adjustments with your legs to ensure their calf muscle is pressed firmly against their hamstring. The tighter you can make this calf-to-hamstring compression before extending your hips, the more effective the submission. In training, communicate with your partner at this stage to ensure proper positioning before applying pressure.",
+      "name": "Limit the extension",
+      "text": "In practice, identify the stretch geometry without dropping body weight or driving the leg to end range.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Apply Hip Extension Pressure",
-      "text": "Slowly and progressively extend your hips forward while maintaining all other controls. This hip extension drives your body weight through the figure-four lock, increasing the compression of their calf into their hamstring while simultaneously creating pressure on the posterior knee joint. The pressure should be smooth and gradual - imagine pushing your hips forward toward their head in a controlled manner. In training, apply this pressure over 5-7 seconds minimum, constantly monitoring for the tap. The submission creates intense pressure rapidly, so controlled application is essential for safety.",
+      "name": "Release and support the landing",
+      "text": "Let the ankle go immediately on a tap and help the partner return to a stable base.",
       "position": 6
     }
   ],
@@ -70,50 +70,50 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What does the Suloev Stretch target, and what dual mechanism creates the pressure?",
+      "name": "Suloev Stretch from Half Guard (attacker): What matters when you establish rear attachment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Suloev Stretch primarily targets the posterior knee joint (specifically the PCL and posterior capsule) while simultaneously creating pressure through two mechanisms: compression of the calf muscle into the hamstring, and bending stress on the knee joint. The figure-four configuration traps the leg in a bent position while hip extension drives the compression force through both the muscular tissue and the joint structures. This dual-threat nature makes the submission effective against various body types and flexibility levels."
+        "text": "Control the torso from behind before reaching below the hips."
       }
     },
     {
       "@type": "Question",
-      "name": "Suloev Stretch: how long should you take to apply it in training, and why does speed matter?",
+      "name": "Suloev Stretch from Half Guard (attacker): What matters when you recognize the tripod?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The minimum application time in training should be 5-7 seconds of progressive, controlled pressure. This is critical because the Suloev Stretch can cause severe knee ligament damage (particularly PCL tears) and calf muscle tears if applied explosively. The submission creates intense pressure rapidly, and the bent leg position makes it difficult for the defending person to tap quickly in some cases. Slow, progressive application allows the training partner to recognize the danger, feel the pressure building, and tap safely before any injury occurs. Explosive or jerking motions can cause immediate injury before the tap can even be executed."
+        "text": "Work only when the opponent's raised hips expose an ankle without sacrificing your balance."
       }
     },
     {
       "@type": "Question",
-      "name": "How is the figure-four locked in the Suloev Stretch, and why does that structure matter?",
+      "name": "Suloev Stretch from Half Guard (attacker): What matters when you capture the ankle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The figure-four lock is configured by stepping your near leg over the opponent's trapped thigh (shin across their thigh above the knee), then bringing your far leg underneath their trapped leg to hook your own ankle with your foot, creating a locked loop around their leg. This structural integrity is important because it prevents the leg from extending or escaping, maintains the proper bent angle at the knee, secures the compression of calf-to-hamstring, and provides the stable platform needed to transmit your hip extension pressure effectively into the submission. Without a tight, secure figure-four, the leg can slip out or the pressure dissipates ineffectively."
+        "text": "Reach down with the opposite hand and secure the lower leg while maintaining rear torso control."
       }
     },
     {
       "@type": "Question",
-      "name": "Which upper body controls hold the Suloev Stretch, and what happens if you lose them?",
+      "name": "Suloev Stretch from Half Guard (attacker): What matters when you keep the leg aligned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You must maintain constant chest pressure into the opponent's upper body, often combined with crossface control or controlling their far arm to prevent rotation. If these upper body controls are lost, the opponent can sit up, turn into you, relieve pressure on the submission, potentially escape the position entirely, or counter-attack with their own leg entanglements. The upper body control is what keeps them flat and prevents them from generating the leverage needed to defend the leg attack. The submission requires simultaneous control of both upper and lower body to be effective."
+        "text": "Arrange the leg so it extends in its natural line rather than rotating sideways at the knee."
       }
     },
     {
       "@type": "Question",
-      "name": "Describe the proper release protocol when your partner taps to a Suloev Stretch?",
+      "name": "Suloev Stretch from Half Guard (attacker): What matters when you limit the extension?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When your partner taps, immediately stop all forward hip pressure and extension, cease any driving motion with your body. Release the figure-four lock by unhooking your ankle and separating your legs from around their trapped leg. Allow their leg to extend naturally into a comfortable position without forcing any movement. Create space by moving your hips backward away from them. Finally, check on your partner's condition before continuing training, asking if they're okay and if they need a moment. This systematic release protocol prevents additional injury during the release phase and demonstrates proper training partner care."
+        "text": "In practice, identify the stretch geometry without dropping body weight or driving the leg to end range."
       }
     },
     {
       "@type": "Question",
-      "name": "What must be in place before you apply finishing pressure in the Suloev Stretch?",
+      "name": "Suloev Stretch from Half Guard (attacker): What matters when you release and support the landing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Before applying finishing pressure, you must have: a secure figure-four lock with knees squeezed together and ankle properly hooked; the opponent's heel pulled toward their own buttocks with knee bent at 90-120 degrees; your hips positioned close to their hip on the trapped leg side; their calf compressed firmly against their hamstring; upper body controls (chest pressure and/or crossface) preventing them from sitting up; and your body alignment creating a 'T' shape where you can extend your hips forward effectively. Attempting to finish without all these elements in place results in an ineffective submission and potentially unsafe mechanics. The setup is 80% of the technique's effectiveness."
+        "text": "Let the ankle go immediately on a tap and help the partner return to a stable base."
       }
     }
   ]
@@ -126,7 +126,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Suloev Stretch from Half Guard Attacker",
-  "description": "How to execute Suloev Stretch in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+  "description": "Suloev Stretch from Half Guard (attacker): Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -211,7 +211,13 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
 
 <section id="overview" class="content-section">
 
-The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.
+The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle. Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
+
+Control the torso from behind before reaching below the hips. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.
+
+Arrange the leg so it extends in its natural line rather than rotating sideways at the knee. In practice, identify the stretch geometry without dropping body weight or driving the leg to end range. Let the ankle go immediately on a tap and help the partner return to a stable base.
+
+Use a cooperative entry and stop at the aligned capture. Never drop onto the stretch, bounce the leg, or roll sideways while the ankle is fixed.
 
 **From Position**: [[Positions/Half Guard]] (Top)
 
@@ -252,12 +258,12 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <p class="section-subtitle">What are the key principles for executing Suloev Stretch from Half Guard?</p>
 
-- **Hip Extension Creates Pressure** - The finishing force comes from extending your hips forward while maintaining the leg configuration, not from pulling with the arms
-- **Figure-Four Lock Structure** - Secure leg positioning with your own legs creates the mechanical advantage necessary for the compression
-- **Angle Management** - The angle of the trapped leg relative to your body determines both control and finishing pressure
-- **Center of Gravity** - Proper weight placement on the hip and control of the opponent's upper body prevents escape while maximizing submission effectiveness
-- **Calf-to-Hamstring Compression** - The submission works by forcing the calf muscle into the hamstring while bending the knee, creating dual pressure points
-- **Control Before Submission** - Establish dominant position and secure the leg configuration completely before applying any finishing pressure
+- Establish rear attachment: Control the torso from behind before reaching below the hips.
+- Recognize the tripod: Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
+- Capture the ankle: Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.
+- Keep the leg aligned: Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
+- Limit the extension: In practice, identify the stretch geometry without dropping body weight or driving the leg to end range.
+- Release and support the landing: Let the ankle go immediately on a tap and help the partner return to a stable base.
 
 
 </section>
@@ -268,13 +274,10 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <p class="section-subtitle">What do you need before attempting Suloev Stretch from Half Guard?</p>
 
-- Dominant top position with access to at least one of opponent's legs
-- Opponent's leg isolated and controlled, typically with knee bent or in defensive posture
-- Your body positioned on the same side as the leg you're attacking
-- Ability to create and maintain a figure-four configuration with your own legs around opponent's leg
-- Upper body control or sufficient weight distribution to prevent opponent from sitting up or turning into you
-- Clear space to extend your hips forward for the finishing pressure
-- Opponent's heel positioned near their own buttocks to create the compression angle
+- The attacker is attached behind an opponent who has raised the hips into a tripod, with torso control and access to one ankle.
+- Control the torso from behind before reaching below the hips.
+- Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
+- Half guard is not the demonstrated finishing configuration. Sterling and Gonzalez distinguish the straight-leg stretch from sideways knee torque; obtaining the back is a separate prerequisite.
 
 
 </section>
@@ -285,12 +288,12 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <p class="section-subtitle">How do you execute Suloev Stretch from Half Guard step by step?</p>
 
-1. **Isolate and Control the Target Leg**: From top position (commonly half guard top, knee shield pass, or leg entanglement), secure control of one of your opponent's legs. Cup the ankle or control the lower leg while using your weight to prevent them from extending the leg fully. Your chest and shoulder pressure should be driving into their upper body to prevent them from sitting up. This initial control is critical - if they can extend the leg or create distance, the entry becomes impossible. (Timing: Initial control phase - 2-3 seconds)
-2. **Step Over with Near Leg**: Take your leg that is closest to their head (near leg) and step it over their trapped leg, positioning your shin across their thigh just above the knee. This creates the first part of the figure-four configuration. Your foot should be positioned so you can hook it around your own ankle in the next step. Maintain downward pressure with your upper body throughout this transition to prevent them from recovering guard or extracting the leg. (Timing: Transition phase - 1-2 seconds)
-3. **Complete the Figure-Four Lock**: Bring your far leg (the one near their feet) underneath their trapped leg and hook your own ankle with your foot, completing a figure-four configuration around their leg. Your legs should form a tight lock with their leg trapped inside, their knee bent, and their heel pulled toward their own buttocks. Squeeze your knees together slightly to secure the lock. This figure-four creates the structural integrity needed for the submission and prevents the leg from escaping. (Timing: Lock completion - 2-3 seconds)
-4. **Establish Hip and Upper Body Position**: Position your hips close to their hip on the trapped leg side. Your chest should be driving into their upper body, keeping them flat on their back or preventing them from turning into you. Control their far arm or establish a crossface if needed to prevent rotation. Your body position should create a 'T' shape where your torso is perpendicular to theirs, with your hips loaded and ready to extend forward. This positioning is crucial - your hips must be in alignment to generate the compression force. (Timing: Position refinement - 2-3 seconds)
-5. **Create the Compression Angle**: Adjust the angle of their trapped leg so their heel is being pulled toward their own buttocks by your figure-four lock. Their knee should be bent at approximately 90-120 degrees. Use small adjustments with your legs to ensure their calf muscle is pressed firmly against their hamstring. The tighter you can make this calf-to-hamstring compression before extending your hips, the more effective the submission. In training, communicate with your partner at this stage to ensure proper positioning before applying pressure. (Timing: Angle adjustment - 2-3 seconds)
-6. **Apply Hip Extension Pressure**: Slowly and progressively extend your hips forward while maintaining all other controls. This hip extension drives your body weight through the figure-four lock, increasing the compression of their calf into their hamstring while simultaneously creating pressure on the posterior knee joint. The pressure should be smooth and gradual - imagine pushing your hips forward toward their head in a controlled manner. In training, apply this pressure over 5-7 seconds minimum, constantly monitoring for the tap. The submission creates intense pressure rapidly, so controlled application is essential for safety. (Timing: Finish application - 5-7 seconds minimum in training)
+1. **Establish rear attachment**: Control the torso from behind before reaching below the hips.
+2. **Recognize the tripod**: Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
+3. **Capture the ankle**: Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.
+4. **Keep the leg aligned**: Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
+5. **Limit the extension**: In practice, identify the stretch geometry without dropping body weight or driving the leg to end range.
+6. **Release and support the landing**: Let the ankle go immediately on a tap and help the partner return to a stable base.
 
 
 </section>
@@ -314,10 +317,10 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <p class="section-subtitle">How might your opponent defend against Suloev Stretch from Half Guard?</p>
 
-- **Opponent attempts to straighten the trapped leg by pushing against your leg configuration** (Effectiveness: Medium) - Your Response: Tighten your figure-four lock by squeezing your knees together and pulling your feet closer to your body. Use your upper body pressure to drive them flat and prevent them from generating the leverage needed to extend the leg. If needed, adjust your angle slightly to maintain the bent knee position. → Leads to [[Positions/Half Guard]]
-- **Opponent tries to turn into you to escape or counter with a leg entanglement** (Effectiveness: Medium) - Your Response: Establish strong crossface control or overhook their far arm to prevent rotation. Keep your chest pressure heavy on their upper body. If they begin turning, you can often transition to a modified position or release and pass to a more dominant position rather than forcing a compromised submission. → Leads to [[Positions/Half Guard]]
-- **Opponent bridges explosively to create space or disrupt your position** (Effectiveness: Low) - Your Response: Maintain tight hip positioning and ride the bridge by keeping your weight distributed properly. Your figure-four lock should remain secure throughout the bridge. As they lower back down, immediately re-establish your optimal position and continue the submission sequence. Their bridge actually can increase the pressure on their own leg if your lock is secure. → Leads to [[Positions/Half Guard]]
-- **Opponent attacks your exposed leg or attempts to enter leg entanglement** (Effectiveness: Low) - Your Response: Your top position and weight distribution should prevent effective leg attacks. Keep your exposed leg's knee tight to their body and maintain heavy chest pressure. If they begin establishing dangerous leg control, assess whether to finish quickly, transition positions, or release the submission to address the counter-attack. In training, communicate and reset rather than creating a dangerous scramble. → Leads to [[Positions/Half Guard]]
+- **A hand reaching from your back toward the ankle is an early cue to protect the leg.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Control the torso from behind before reaching below the hips. → Leads to [[Positions/Half Guard]]
+- **Use hand fighting before the ankle and torso are controlled together.** (Effectiveness: Medium) - Your Response: Re-check the prerequisite before continuing. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. → Leads to [[Positions/Half Guard]]
+- **Maintain a stable base and address the rear attachment before raising the hips with a leg available.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. → Leads to [[Positions/Half Guard]]
+- **Keep the captured leg aligned instead of rolling sideways against the ankle grip.** (Effectiveness: Low) - Your Response: Re-check the prerequisite before continuing. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee. → Leads to [[Positions/Half Guard]]
 
 
 </section>
@@ -328,40 +331,30 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <p class="section-subtitle">What mistakes should you avoid when executing Suloev Stretch from Half Guard?</p>
 
-### 1. Applying explosive or jerking pressure to finish the submission
+### 1. Skipping the checkpoint: establish rear attachment
 
-- **Consequence**: Immediate severe knee injury or calf tear, potentially ending training partner's ability to train for months
-- **Correction**: Always apply smooth, progressive pressure over 5-7 seconds minimum in training. The submission is effective with controlled pressure - explosive force is never necessary and violates fundamental training safety principles
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Control the torso from behind before reaching below the hips.
+- **Correction**: Control the torso from behind before reaching below the hips.
 
-### 2. Poor figure-four lock structure allowing the leg to slip out
+### 2. Skipping the checkpoint: recognize the tripod
 
-- **Consequence**: Loss of submission, opponent escapes to better position, wasted energy and opportunity
-- **Correction**: Ensure your ankle hook is secure and your knees are squeezed together. Take the extra 1-2 seconds to perfect the lock before attempting to finish. If the lock feels loose, reset and re-establish proper configuration before continuing
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
+- **Correction**: Work only when the opponent's raised hips expose an ankle without sacrificing your balance.
 
-### 3. Neglecting upper body control and allowing opponent to sit up
+### 3. Skipping the checkpoint: capture the ankle
 
-- **Consequence**: Loss of submission leverage, opponent can defend effectively or counter-attack, potential position reversal
-- **Correction**: Maintain constant chest pressure or crossface control throughout the entire sequence. Your upper body control is what allows your lower body to finish the submission. Never abandon upper body pressure to focus only on the leg configuration
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.
+- **Correction**: Reach down with the opposite hand and secure the lower leg while maintaining rear torso control.
 
-### 4. Incorrect hip positioning too far from opponent's hip
+### 4. Skipping the checkpoint: keep the leg aligned
 
-- **Consequence**: Unable to generate proper finishing pressure, submission feels weak and ineffective, opponent easily defends
-- **Correction**: Position your hips close to their hip on the trapped leg side before extending forward. The closer your hips are to theirs, the more effective your hip extension will be in creating compression. Adjust position before applying pressure
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
+- **Correction**: Arrange the leg so it extends in its natural line rather than rotating sideways at the knee.
 
-### 5. Attempting the submission without proper angle, leaving their knee not fully bent
+### 5. Skipping the checkpoint: limit the extension
 
-- **Consequence**: Submission lacks effectiveness, opponent experiences pressure but not sufficient to finish, increased injury risk from improper mechanics
-- **Correction**: Before applying hip extension pressure, ensure their heel is pulled toward their buttocks and their calf is compressed against their hamstring. Use small adjustments with your figure-four to dial in the perfect angle. The setup is 80% of the effectiveness
-
-### 6. Continuing pressure after partner taps or shows distress
-
-- **Consequence**: Severe injury to training partner, violation of academy culture, potential permanent damage to relationship and their training
-- **Correction**: Develop acute awareness of tap signals and immediately release all pressure the instant you feel or hear a tap. In training, err on the side of releasing too early rather than too late. Your partner's safety is always more important than finishing the submission
-
-### 7. Forcing the position when the angle or control is not optimal
-
-- **Consequence**: Ineffective submission attempt, wasted energy, potential injury from improper mechanics, possible counter-attack from opponent
-- **Correction**: If the position does not feel right or controls are not secure, reset and re-establish proper configuration. The Suloev Stretch requires precise mechanics to be both safe and effective. Never force a submission from a compromised position
+- **Consequence**: The intended control is not established before the next movement; the missing requirement is: In practice, identify the stretch geometry without dropping body weight or driving the leg to end range.
+- **Correction**: In practice, identify the stretch geometry without dropping body weight or driving the leg to end range.
 
 
 
@@ -373,17 +366,17 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 <p class="section-subtitle">How do you train Suloev Stretch from Half Guard (Attacker)?</p>
 
-**Phase 1: Static Positioning** - Figure-four lock mechanics and body positioning
-Practice establishing the figure-four lock around a compliant partner's leg from half guard top. Focus on proper ankle hook placement, knee squeeze, and hip alignment without applying any finishing pressure. Drill entering the lock from multiple angles until the configuration becomes automatic. Partner provides zero resistance and gives verbal feedback on lock tightness and positioning.
+**Phase 1** - Identify the configuration
+Work cooperatively on establish rear attachment. Control the torso from behind before reaching below the hips. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 2: Controlled Finish Mechanics** - Hip extension pressure application with communication
-With the figure-four lock established, practice applying progressive hip extension pressure at 30-50% intensity. Partner communicates constantly about pressure levels and taps early. Focus on developing sensitivity to the submission's progression - learning to feel when the compression angle is correct and when pressure is building on the knee joint. Drill the complete release protocol after every repetition.
+**Phase 2** - Rehearse the connection
+Work cooperatively on recognize the tripod. Work only when the opponent's raised hips expose an ankle without sacrificing your balance. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 3: Entry Chains from Live Positions** - Transitioning from half guard passing to Suloev Stretch entries
-Begin from live half guard top passing scenarios. Partner defends the pass with bent leg postures (knee shield, lockdown, Z-guard). Practice recognizing when the Suloev Stretch entry is available during passing sequences. Chain the entry with passing attempts so the submission becomes a natural option within your passing game rather than an isolated technique. Partner provides 50-70% resistance on entries but taps early once the lock is established.
+**Phase 3** - Add an early response
+Work cooperatively on capture the ankle. Reach down with the opposite hand and secure the lower leg while maintaining rear torso control. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
-**Phase 4: Full Positional Sparring Integration** - Live application with defensive awareness and safety protocols
-Incorporate the Suloev Stretch into positional sparring from half guard top. Work against fully resisting partners who know the submission is coming. Develop the ability to chain between passing and submission attempts based on defensive reactions. Practice abandoning the submission when the position is compromised and transitioning to passing. Always maintain competition-level control with training-level finishing speed.
+**Phase 4** - Link only verified checkpoints
+Work cooperatively on keep the leg aligned. Arrange the leg so it extends in its natural line rather than rotating sideways at the knee. Pause at the checkpoint, check both partners' comfort, and reset before adding resistance.
 
 
 
