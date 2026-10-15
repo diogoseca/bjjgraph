@@ -1,15 +1,15 @@
 {
  "_meta": {
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/obsidian-decisions/capture/pr-obsidian-settings-af62ba20e",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/node-identities/capture/pr-node-identities-a2939ad77",
   "content_provenance": {
-   "capture_git_head": "af62ba20ee4db2f2c48cf3c5163bc8eef7cccaa2",
-   "capture_id": "4404e8e24e414a4c9b831897c4b67371",
+   "capture_git_head": "a2939ad77c3106105253ac724caf2605c45dad7f",
+   "capture_id": "987adb4b58214705974ad7478b68adb0",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6401,
    "content_md": 4601,
    "content_scope": "content-excluding-obsidian-v1",
-   "content_tree": "231de5dfaa1ccb350686c3a98c4524268f411b5a",
+   "content_tree": "b3cc16e37cbcc27861132c8154e660eebf14e112",
    "dirty_paths_end": [],
    "dirty_paths_start": [],
    "environment_assertions": {
@@ -34,11 +34,11 @@
    },
    "output_identity": {
     "files": 16003,
-    "sha256": "dcbe550ea8978d9a67ea3b675b5d92dc966ebde4286fa5433a363ceba4b8b8a2"
+    "sha256": "804b0ab33b74c5df2535f08792492af0c1affff27c282b9a744eadfacb9604eb"
    },
    "output_roots": [
     "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/obsidian-decisions/capture/pr-obsidian-settings-af62ba20e"
+    "/home/user/bjj-orchestrator/scratch/node-identities/capture/pr-node-identities-a2939ad77"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -55,21 +55,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "55673f53eb1daeaba6c7d04462055eada58449a1da6dcaf70f45d241847a04c0"
+    "sha256": "ed05623abf0f7196c512ae5636380ad9f485e595b56869d42e24f03ae2a30c50"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "b64e57075a15b4a2f231fc2e97b1f884e8b98b1ebc15ba95d49bdb1d9b4aeb5a",
+    "sha256": "4f5b503890abd81de47d6e52a97e9c0ca443e297bd91649566900941240a42b9",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "23f664549327f5d2763eb1b4e8bdfec5a4b4e8c1e5f8065f6f8c7cc03e4d2a06",
+    "sha256": "7ab7c3e895d23067b54dd5eb26a3faad94cf9404399c33f7af451dc25f1cac27",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "06be009e687d3baceda6798cf96aafbe4a8f875b3eef81f23cfe67772787e2ce",
+    "sha256": "cb2e92a7e3ca2c334faf990bdde537b5f8da22d7f4a9358405840288304da004",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -159,15 +159,15 @@
   "tags": 73
  },
  "census": {
-  "article_headings": 94291,
-  "article_links": 213116,
+  "article_headings": 94083,
+  "article_links": 211752,
   "files": 16003,
   "gzip_files": 1,
   "head_links": 49759,
   "html_pages": 6212,
   "jsonld_blocks": 33517,
   "meta_tags": 130097,
-  "outside_links": 149868,
+  "outside_links": 149660,
   "pages_with_article": 6201,
   "pages_with_canonical": 6204,
   "pages_with_description": 6207,
@@ -180,7 +180,7 @@
   "static_files": 5125
  },
  "distinct_values": {
-  "name=description": 4563,
+  "name=description": 4567,
   "property=og:title": 4675
  },
  "jsonld_types": {

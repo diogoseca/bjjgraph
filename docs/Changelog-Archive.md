@@ -11077,12 +11077,13 @@ context remove every new collision: distinct descriptions rise 4,563 → 4,567; 
 sharing is confined to 88 existing HTML/index aliases. The own-build article-link delta
 is −1,364, including −398 across 87 hub folder copies and −966 on other routes. The
 orchestrator moved identity ahead of clip curation's review hold: its capture base is
-obsidian dev 45cf1f9e1, with 213,116 article links. The expected 211,752 clears the current
+obsidian dev 45cf1f9e1, with 213,116 article links. The guarded count of 211,752 clears the current
 200,000 tier-0 and 195,944 payload floors by 11,752 and 15,808. The earlier post-curation
 projection of about 197,886 and D-304's future floors do not apply to this capture.
-Identity changes no floor; the integrated own build must confirm the counts. Learning tag-order
-movement remains a guarded-stamp check, not an accepted re-seed: created dates fall back
-to filesystem birth time. If the order still moves in capture, stop and report it.
+Identity changes no payload or tier-0 floor. The guarded capture confirms the own-build
+count deltas: −208 headings, −1,364 article links and −208 outside links. Both Learning
+tag listings are exactly equal to BASE under preserved p2b stamps; the own-build order
+change was a filesystem-date artifact and is not re-seeded.
 
 Rewritten defensive prose changes 57 content-derived MDP response IDs across 15 attempts.
 An attempt/index mapping leaves every other mechanical field, ordered destination and
@@ -11100,7 +11101,13 @@ keyword-attributed. The matcher is unchanged. Negation and inherited origin keyw
 remain known limits, not claims that every matching principle applies to the technique.
 
 Escape f006d73b8 and obsidian 45cf1f9e1 are merged without rebasing before capture.
-This is an own-build measurement and draft delivery, not the scheduled content capture.
-No census or SEO baseline is written from it. The draft stays pending exact-ref guarded
-capture on 45cf1f9e1, authorized re-seed and green CI. Existing archive entries
-and the approved 913,038-character ceiling remain unchanged.
+D-309 confirms BASE/PREMERGE 45cf1f9e1 and CANDIDATE/TOOLS a2939ad77. The guarded
+pr-node-identities-a2939ad77 capture is production-accepted; all 6,407 tracked content
+stamps survive cleanup, and checkout changes stamps only on Git-changed paths. The
+accepted retained output matches every declared census, description, app, MDP, concepts
+and SEO movement. No other movement is re-seeded. The census and SEO baselines bind
+that actual receipt; only the two Positions summary SEO rows change, with stronger
+text floors. All 37 corpus-census literals stay fixed. Eager gzip is 346,243 B and
+deferred raw is 480,054 B, within the unchanged allowances. The capture runs no
+source rewrite or graph/categorical correction. Existing archive entries and the
+approved 913,038-character ceiling remain unchanged.
