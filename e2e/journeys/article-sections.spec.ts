@@ -79,13 +79,16 @@ for (const width of [1366, 390]) {
     const measure = () => page.evaluate(() => {
       const a = (window as any).__neural, cards = [...document.querySelectorAll('.ng-section-card')]
       const card = a._landEl.getBoundingClientRect(), hand = a.optionsRef.current.getBoundingClientRect(), first = cards[0].getBoundingClientRect(), head = a._reader.head.getBoundingClientRect()
-      return { cardGap: hand.top - card.bottom, headGap: head.top - hand.bottom, sectionGap: first.top - head.bottom,
+      return { deck: a._landEl.classList.contains('ng-land-deck'), cardGap: hand.top - card.bottom, headGap: head.top - hand.bottom, sectionGap: first.top - head.bottom,
         headInArticle: a._reader.head.parentElement === a._reader.articleEl && a._reader.head.contains(a._reader.tools),
         gaps: cards.slice(1).map((c, i) => c.getBoundingClientRect().top - cards[i].getBoundingClientRect().bottom),
         overflow: a._readerEl.scrollWidth - a._readerEl.clientWidth }
     })
     const normal = await measure()
-    expect(normal.cardGap).toBeCloseTo(width === 390 ? 8 : 12, 0)
+    // Escape now gives this calm defending landing the same deck face as every
+    // other practice card: 12px of visible backs plus 4px of air before the hand.
+    expect(normal.deck).toBe(true)
+    expect(normal.cardGap).toBeCloseTo(16, 0)
     expect(normal.headInArticle).toBe(true)
     expect(normal.headGap).toBeCloseTo(6, 0)
     expect(normal.sectionGap).toBeCloseTo(6, 0)

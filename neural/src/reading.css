@@ -139,10 +139,10 @@
 .ng-reader { position:absolute;z-index:5;box-sizing:border-box;overflow:auto;overflow-x:hidden;overscroll-behavior:contain;overflow-anchor:none;touch-action:pan-y;scrollbar-width:thin;--reader-unit:20px;--section-gap:6px; }
 .ng-reader[hidden],.ng-reader [hidden] { display:none!important; }
 .ng-reader-game { position:relative;pointer-events:none; }
-.ng-reader-game>[data-reader-game-part=card],.ng-reader-game>[data-reader-game-part=hand] { pointer-events:auto; }
+.ng-reader-game>:is([data-reader-game-part=card],[data-reader-game-part=hand]) { pointer-events:auto; }
 .ng-reader-game>[data-reader-game-part=card] { touch-action:pan-y; }
 .ng-reader-article { pointer-events:auto;color:#d6def0;font:16px/1.65 "Plus Jakarta Sans",sans-serif;padding-bottom:30px; }
-.ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin-bottom:6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
+.ng-reader-head { box-sizing:border-box;position:relative;pointer-events:auto;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;z-index:7;background:#1b2034;border:1px solid #414c68;border-radius:10px;padding:4px 8px; }
 .ng-reader>.ng-reader-head { position:absolute; }
 .ng-reader-article>.ng-reader-tools { margin-bottom:6px; }
 .ng-reader-head h1 { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
@@ -160,28 +160,28 @@
 .ng-section-body { padding:0 var(--reader-unit) var(--reader-unit); }
 .ng-section-body article { all:revert;display:block;font:inherit;color:inherit;overflow-wrap:break-word; }
 .ng-section-body article+article { margin-top:var(--reader-unit); }
-.ng-section-body .content-section,.ng-section-body .learning-section,.ng-section-body .system-section { margin:0; }
+.ng-section-body :is(.content-section,.learning-section,.system-section) { margin:0; }
 .ng-section-body .ng-section-source-title { display:none; }
-.ng-section-body h2,.ng-section-body h3 { color:#e7edf8;font:600 18px/1.4 "Space Grotesk",sans-serif;margin:var(--reader-unit) 0 calc(var(--reader-unit)/2); }
+.ng-section-body :is(h2,h3) { color:#e7edf8;font:600 18px/1.4 "Space Grotesk",sans-serif;margin:var(--reader-unit) 0 calc(var(--reader-unit)/2); }
 .ng-section-body h4 { color:#dbe2f0;font-size:17px; }
 .ng-section-body p { margin:0 0 var(--reader-unit);color:#d6def0; }
 .ng-section-body p:last-child { margin-bottom:0; }
-.ng-section-body li,.ng-section-body td,.ng-section-body th { color:#d6def0; }
-.ng-section-body ul,.ng-section-body ol { display:grid;gap:calc(var(--reader-unit)/2);padding-left:24px;margin:0; }
+.ng-section-body :is(li,td,th) { color:#d6def0; }
+.ng-section-body :is(ul,ol) { display:grid;gap:calc(var(--reader-unit)/2);padding-left:24px;margin:0; }
 .ng-section-body li { margin:0; }
 .ng-section-body a { color:#adc9ff;text-decoration:underline;text-underline-offset:3px; }
 .ng-section-body table { display:block;overflow-x:auto;font-size:14px; }
-.ng-section-body td,.ng-section-body th { padding:8px;border-bottom:1px solid #414c68; }
+.ng-section-body :is(td,th) { padding:8px;border-bottom:1px solid #414c68; }
 .ng-section-body img { max-width:100%; }
-.ng-section-body .section-subtitle,.ng-section-body .entity-relations { opacity:1;color:#b6c5df; }
+.ng-section-body :is(.section-subtitle,.entity-relations) { opacity:1;color:#b6c5df; }
 .ng-section-body blockquote { margin:0 0 var(--reader-unit);padding:12px;border-left:2px solid #ffb45a;background:#ffb45a08;color:#d6def0; }
 .ng-section-card[data-collapsed=true]>h2,.ng-reader-toc-row[data-collapsed=true] { color:#a8b0c2; }
 .ng-section-card[data-section-type=videos]:not([data-collapsed=true])>h2 { height:0;position:relative;z-index:6; }
 .ng-reader-article [data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle] { position:absolute;right:0;top:0;width:44px;min-height:44px;padding:13px;background:#1b2034ed;border-radius:0 0 0 8px; }
 .ng-section-card[data-section-type=videos]:not([data-collapsed=true]) [data-section-toggle]>span:first-child { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
-.ng-section-card[data-section-type=videos] .section-body,.ng-section-card[data-section-type=videos] .ng-section-body { padding-top:14px; }
+.ng-section-card[data-section-type=videos] :is(.section-body,.ng-section-body) { padding-top:14px; }
 .ng-section-card[data-section-type=videos] .section-subtitle { padding-right:32px; }
-.ng-reader [data-reader-media],.ng-reader [data-reader-game-media] { position:relative!important;inset:auto!important;transform:none!important;width:100%!important;visibility:visible!important;opacity:1!important; }
+.ng-reader :is([data-reader-media],[data-reader-game-media]) { position:relative!important;inset:auto!important;transform:none!important;width:100%!important;visibility:visible!important;opacity:1!important; }
 .ng-reader [data-reader-media] [data-film-close] { display:none!important; }
 .ng-reader [data-reader-media-slot] { margin-bottom:12px; }
 .ng-reader [data-reader-media-slot]:empty { display:none; }
@@ -205,7 +205,7 @@
 .ng-reader-shelf button { display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:44px;min-height:48px;width:55px;margin:0;padding:4px 2px;gap:3px;border:1px solid transparent;border-radius:7px;background:transparent;color:#b6c5df;font:10px/1.2 "Plus Jakarta Sans",sans-serif;cursor:pointer; }
 .ng-reader-shelf button>span:first-child { font-size:18px; }
 .ng-reader-shelf [aria-pressed=false] { background:#2c3e60;color:#eff5ff;border-color:#718ab0; }
-.ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback .ng-evtoast,.ng-reader-no-feedback .ng-winbar,.ng-reader-no-feedback .ng-challenge-reward,.ng-reader-no-feedback .ng-combo-pop,.ng-reader-no-feedback .ng-momentum,.ng-reader-no-feedback .ng-vignette,.ng-reader-no-feedback .ng-tut,.ng-reader-no-feedback [data-reader-feedback] { visibility:hidden!important; }
+.ng-reader-no-map>canvas,.ng-reader-no-map .ng-legendkey,.ng-reader-no-map [data-seat-star],.ng-reader-no-map [data-reader-map],.ng-reader-no-feedback :is(.ng-evtoast,.ng-winbar,.ng-challenge-reward,.ng-combo-pop,.ng-momentum,.ng-vignette,.ng-tut,[data-reader-feedback]) { visibility:hidden!important; }
 @media(max-width:640px) { .ng-reader { --reader-unit:14px; } .ng-reader-shelf button { width:48px; } .ng-reader-article [data-section-toggle] { min-height:52px; } }
 @media(prefers-reduced-motion:reduce) { .ng-reader,.ng-reader-article * { scroll-behavior:auto!important;animation:none!important;transition:none!important; } }
 .ng-section-body .ng-section-provenance { color:#b6c5df;font-size:12px;margin:0 0 8px; }

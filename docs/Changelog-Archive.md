@@ -29,6 +29,7 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.228.0** — [Article sections and floating contents](#v12280--article-sections-and-floating-contents)
 - **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
 - **v1.227.0 review** — [Defending review corrections](#v12270--defending-review-corrections)
 
@@ -11027,3 +11028,77 @@ hydration and motion synchronization do not replace it. The spec waits for publi
 including the harness's bounded empty-body retry, before its unchanged interaction and
 geometry assertions. Ten delayed-publication stress trials pass. No action retry or
 production change was added for these two CI failures.
+
+## v1.228.0 — Article sections and floating contents
+
+The complete published article now follows the existing choices row as separate cards.
+The approved order is untitled Videos, Overview, Essential principles, the authored
+recognition/setup and options for the current side, Safety guides, Common mistakes, other
+authored groups in source order, then Related. Learning and System Sources remain last.
+Missing groups are omitted; a defender receives shared hub safety, never attacker fallback
+prose. The app groups the existing article DOM, retaining source text and anchor identity;
+templates, generated pages and the corpus census do not change. The external gap is 6px.
+
+The perspectives switch stays. The owner's later revision replaces both the desktop rail
+and tablet Contents panel with a fixed, containerless list at the right control inset.
+It never contributes to article width or centering. At a 24px inset, a 200px list plus 12px
+clearance first fits beside the centered 680px article at 1152px. Below that measured fit,
+and on phones or short landscape screens, section headers retain the same controls.
+Labels scroll to a section; the separate 44px eye targets collapse its body to the header.
+Collapsed labels remain opaque and grey. A small text shadow supports contrast over the
+canvas without adding a panel. Scalar `readerSection.*` preferences use the existing
+per-key account sync and Settings editor; missing keys mean shown.
+
+The first 1152px screenshot exposed the current node's label crossing the new TOC.
+The reader now extends `_paneCameraTarget` with the article and TOC occupied rectangles.
+It uses `pairMid`, `_LY`, the shared `_nodeHalfW` silhouette and measured label width to
+frame the current pair in a fitting free gutter. It preserves the existing pane fraction
+so paused or leased cameras do not accumulate correction. Measurements at 1152, 1200,
+1280, 1366 and 1440px show zero label/orb intersections before and after entering reading;
+the article remains independently centered. Dropping the TOC from the occupied set fails
+the 1152px journey. All seven TOC mutation controls fail their intended assertions,
+including canvas input leakage and the first-mouse SVG replacement race. A canvas positive
+control proves that the input spy is live. `attachInput` names the overlay explicitly.
+
+There is one `_landFilmEl`. `place(target)` moves it between the article and a normal home
+inside the same native scrollport as practice and choices. Native `moveBefore` preserves
+the player; fallback `appendChild` first calls `pauseLandFilm`, then invalidates stale
+handles and callback generations. Collapsing Videos pauses without destroying anything or
+calling `collapseClip`. Desktop reserves 400px media, a 60px gap, a 390px practice face and
+52px for the right arrow. The 44px outside arrows remain in their original positions.
+Below the 902px composition fit, media stacks above practice with 12px clearance; at 390px
+the media is 358px and the deck face is 286px. Width is set before measuring
+`currentFilmHeight()` or the current host rectangle. A single requestAnimationFrame
+coalesces layout and unchanged geometry is not rewritten.
+
+Without chrome's optional `readerChromeFrame` hook, the whole head lives in the article
+flow above section one. No head height is reserved in the map band. With the hook,
+`headBottom` replaces only the old flow top; `offset` is added after the node band and
+game gaps, before the authoritative fit clamp. `bottomReserve`, when supplied, gives
+`end = viewportHeight - bottomReserve`; otherwise the shelf's top minus 8px remains the
+bound. Null and undefined preserve fallback geometry. Phone Focus/Browse stay in flow;
+desktop tools stay with the perspectives switch in chrome. Reference titles stay in flow.
+The header explicitly resets Quartz's global `header { margin: 2rem 0 }`; without
+that reset, its top margin collapsed through the article and replaced the 6px hand gap
+with 32px only on the no-hook path. Both paths now preserve the same exact flow gaps.
+
+Integration merges escape v1.227.0 rather than rebasing it. Its `_executionDock` owns the
+selected card's reservation lifetime. The reader adds measured `rowTop` and game height
+to that same reservation, preserves group-label clearance and leaves native top as the
+sole hand-position writer. A choice executed before reader adoption is translated once
+from its fixed rectangle. Arrival, resize and deliberate reading release the reservation
+through escape's existing contract. The direct handoff units cover both adoption orders.
+
+Removed premises and their replacement assertions are mapped in
+`tests/artifacts/article_sections_test_migration.json`. The shared media contract is in
+`reading-media-placement.spec.ts`; the TOC, semantic grouping and chrome hooks are in
+`article-sections.spec.ts`. No new callers are added to the legacy rendering helpers being
+retired by videos, and its `.r-*` rules remain unchanged. The inert `.ng-winbar` selector
+remains until chrome removes that markup.
+
+Known UI issue retained for the orchestrator's follow-up: at 390×844 an earned reward's
+dismiss button (x336–366, y110.969–154.969) overlaps the film next arrow
+(x337–381, y108–152). A native tap at (359,130) dismisses the notice; after dismissal
+the arrow scrolls normally. Film-only journeys use ordinary new-user progress instead of
+the harness's artificial White-track completion, preserving all existing arrow assertions.
+That fixture correction does not resolve the real transient collision.

@@ -5,8 +5,9 @@ const PARTS = [
   ["hand", "Moves", "⋯"], ["map", "Map", "◇"],
   ["feedback", "Game feedback", "◌"], ["book", "Article", "▤"],
 ];
-const GAME_KEYS = { film: "landFilm", card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
-const READ_KEYS = { film: "readingFilm", card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" };
+// Film has dedicated normal-home and section preferences; legacy keys remain in storage.
+const GAME_KEYS = { card: "landCard", hand: "landHand", map: "landMap", feedback: "landFeedback" };
+const READ_KEYS = { card: "readingCard", hand: "readingHand", map: "readingMap", feedback: "readingFeedback" };
 const CONTENT = /^\/(Positions|Transitions|Submissions|Principles|Learning|Systems)(?:\/|$)/i;
 const ROLES = /\/(Top|Bottom|Attacker|Defender)$/i;
 const cleanPath = (path) => decodeURI(new URL(path, location.href).pathname).replace(/\.html$/, "").replace(/\/$/, "") || "/";
@@ -252,8 +253,6 @@ class Reader {
     this.articleEl.replaceChildren(element("p", { role: "status" }, "Loading the complete article…"));
     this.sync();
     try {
-      const styled = await this.app._ensureReadCSS();
-      if (!styled) throw new Error("Reading styles could not be loaded.");
       const record = await this.page(path, controller.signal);
       // A hub includes its context and the full default perspective below it. A
       // role arrival also carries the hub, including submission safety. Links to

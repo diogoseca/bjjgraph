@@ -49,6 +49,16 @@
   ],
   "assertion_migrations": [
     {
+      "file": "e2e/journeys/film-row-arrows.spec.ts",
+      "test": "all film-row cases",
+      "change": "Use keepTutorial:true so boot does not artificially complete all White objectives and mint an unrelated reward. The 390px native trace measured that reward's deliberate dismiss button at x336..366,y110.969..154.969 over the next arrow at x337..381,y108..152; dismissal restored native arrow scrolling. KNOWN UI ISSUE: a real earned reward still collides there; the orchestrator tracks the follow-up. Real new-user progression remains enabled. No hit-test, fade, inset, keyboard, end-state or reduced-motion assertion changes."
+    },
+    {
+      "file": "e2e/journeys/article-sections.spec.ts",
+      "test": "choices precede section cards and preserve the six-pixel token",
+      "change": "After merging escape v1.227.0, the calm Loop Choke defending landing uses the shared ng-land-deck. Assert that premise and its existing 16px deck-to-hand contract at both widths (12px backs plus 4px air), replacing the former non-deck 8px phone/12px desktop fixture expectation. The exact 6px hand-to-head, head-to-section and inter-section gaps, control identity and scroll bounds remain unchanged."
+    },
+    {
       "file": "neural/build/build.mjs",
       "test": "READ_PROBE deferred-only stylesheet checks",
       "change": "The owner removed the Contents trigger, the last selector matching .ng-reader-contents. Probe its replacement .ng-reader-toc instead. Both existing requirements remain: the rule must exist in reading.css and must be absent from eager neural.css; the independent .r-s probe remains."
