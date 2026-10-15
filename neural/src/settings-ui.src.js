@@ -42,6 +42,10 @@ renderSettings() {
     const card = this.modalCardRef.current; if (!card) return;
     card.style.width = "min(440px,92vw)";
     const tab = this._settingsTab || "flashcards";
+    // A bottom-row toggle must stay under the pointer after its full-card repaint.
+    // A different tab starts at its own top; only the same panel keeps its scroll.
+    const previous = card.querySelector('[role="tabpanel"]');
+    const panelY = previous && previous.getAttribute("aria-labelledby") === "ng-stab-" + tab ? previous.scrollTop || 0 : 0;
     // Every change re-renders the whole card, so a tab that HAS focus (an arrow key, or the click
     // that just chose it) is destroyed under the user. Remember that, before the wipe blurs it,
     // and hand focus to the new active tab below; otherwise the second arrow press lands on <body>.
@@ -123,6 +127,11 @@ renderSettings() {
       cb.style.cssText = "width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (on ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (on ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       cb.addEventListener("click", () => { this.set("quizOnPages", !this.get("quizOnPages", true)); this.renderSettings(); });
       tg.appendChild(cb); body.appendChild(tg);
+      const gold = this.settingRow("Turn what you know gold", "The map turns gold as you master each side's flashcards. Full gold needs recall.",
+        [["On", true], ["Off", false]], "masteryGold", false);
+      gold.setAttribute("data-mastery-gold", "1");
+      gold.style.marginTop = "20px";
+      body.appendChild(gold);
     } else if (tab === "notifications") {
       // ONE ROW, AND THAT IS THE WHOLE TAB (owner, 2026-08-31: "a notifications tab would do
       // great"). The training-day email shipped inside FLASHCARDS in v1.105.7 — a tab about
@@ -330,6 +339,7 @@ renderSettings() {
       body.appendChild(wrap);
     }
     card.appendChild(body);
+    body.scrollTop = panelY;
     // legal links live HERE too (v1.93.0): the first Settings overlay carries Terms · Privacy,
     // so the account surface never needs a "Learn More" submenu (Shortcuts is already a tab).
     const legal = document.createElement("div");

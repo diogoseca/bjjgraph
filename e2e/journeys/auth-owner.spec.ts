@@ -328,18 +328,16 @@ test('@curated local-only: an unreachable SDK plays on this device, pushes nothi
   await bootOwner(page)
   await emitOwner(page, id)
   await addList(page, 'Cloud list')
-  await expect.poll(async () => (await fixture(page)).writes.length, { message: 'online play reaches the cloud' }).toBeGreaterThan(0)
-  // Another device adds a list to the cloud meanwhile; the reconnect merge must keep it.
-  await page.evaluate(i => {
-    const f = (window as any).__authOwnerFixture, cloud = f.cloudOf(i)
-    const row = Object.values(cloud.lists)[0] as any
-    cloud.lists['lotherdevice1'] = { ...row, name: 'Other device list' }
-    f.seedCloud(i, cloud); f.blockSdk()
+  await expect.poll(async () => Object.values((await fixture(page)).writes.at(-1)?.neural.lists || {})
+    .map((row: any) => row.name).sort(), { message: 'the actual list reaches the cloud' }).toEqual(['Cloud list'])
+  await page.evaluate(() => {
+    const f = (window as any).__authOwnerFixture
+    f.blockSdk()
     // Keep this device's storage across the reload (the harness wipes it otherwise): the stored
     // session and the account's local copy ARE the scenario.
     const a = (window as any).__neural; a.setPaused(true); a.clearTimers(); a._flushSave()
     sessionStorage.setItem('__ng_keep', '1')
-  }, id)
+  })
   await page.reload({ waitUntil: 'domcontentloaded' })
   const state = () => page.evaluate(() => {
     const a = (window as any).__neural
@@ -354,6 +352,15 @@ test('@curated local-only: an unreachable SDK plays on this device, pushes nothi
   await expect(banner).toContainText('won’t sync until you’re back online')
   await expect(page.locator('.ngAcctChip'), 'an account played unverified is never labelled Guest').toContainText('Offline')
   expect(await names(page), "this device's copy of the account plays").toEqual(['Cloud list'])
+  // The remote edit happens after offline entry. Before that barrier the outgoing
+  // page can flush its online copy and erase the fixture before the tested merge.
+  // An 800 ms outgoing-page delay reproduces that race on the unmodified base app.
+  await page.evaluate(i => {
+    const f = (window as any).__authOwnerFixture, cloud = f.cloudOf(i)
+    const row = Object.values(cloud.lists)[0] as any
+    cloud.lists['lotherdevice1'] = { ...row, name: 'Other device list' }
+    f.seedCloud(i, cloud)
+  }, id)
   const before = await fixture(page)
   expect(before.clients, 'the SDK never loaded').toBe(0)
   // The SDK's CDN request is the unreachable thing itself; any OTHER backend request still fails the test.

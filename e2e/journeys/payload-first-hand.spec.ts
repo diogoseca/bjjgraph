@@ -111,6 +111,7 @@ const BANNED_ON_BOOT = [
   /\/game-study\.js(\?|$)/,
   /\/game-study\.worker\.js(\?|$)/,
   /\/settings-ui\.js(\?|$)/,
+  /\/mastery-gold\.js(\?|$)/,
 ]
 
 test("@curated a first-time visitor reaches a playable hand inside the payload budget", async ({

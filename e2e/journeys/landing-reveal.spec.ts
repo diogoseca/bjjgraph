@@ -169,6 +169,8 @@ test('a played transition replaces the URL with its revealed landing', async ({ 
   const j = journey(page);
   await j.boot('/Positions/Mount');
   await j.advance(8000);
+  // Simulated time does not await the deferred reader that prepares this hand.
+  await expect(page.locator('[data-tech]').first()).toBeVisible();
   const pick = await page.evaluate(() => {
     const a = (window as any).__neural;
     const opt = a._optList.find((o: any) => o.node.ty === 'transitions' && o.res >= 0 && o.res !== a.currentPos);
