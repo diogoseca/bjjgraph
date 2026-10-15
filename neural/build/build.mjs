@@ -309,6 +309,11 @@ Component.prototype._fetchSettingsPresentation = function(attempt) {
   url.searchParams.set("v", NG_SETTINGS_UI_BUILD); url.searchParams.set("attempt", String(attempt));
   return import(url.href);
 };
+Component.prototype._fetchMasteryGold = function(attempt) {
+  const url = new URL(this._dataBase() + "app/mastery-gold.js", document.baseURI);
+  url.searchParams.set("v", ${JSON.stringify(APP_VERSION)}); url.searchParams.set("attempt", String(attempt));
+  return import(url.href);
+};
 Component.prototype._fetchGameplanRuntime = function(attempt) {
   const url = new URL(this._dataBase() + "app/gameplan.js", document.baseURI);
   url.searchParams.set("v", ${JSON.stringify(APP_VERSION)});
@@ -448,6 +453,12 @@ await build({
   bundle: true, format: "esm", target: "es2019", minify: true, legalComments: "none",
   define: { NG_SETTINGS_UI_BUILD: JSON.stringify(SETTINGS_UI_BUILD) },
   outfile: R("dist/settings-ui.js"), logLevel: "info",
+});
+
+// No import or prefetch until masteryGold is on (or the one-line site policy changes).
+await build({
+  entryPoints: [R("src/mastery-gold.src.js")], bundle: true, format: "esm", target: "es2019",
+  minify: true, legalComments: "none", outfile: R("dist/mastery-gold.js"), logLevel: "info",
 });
 
 // Independent article renderer: requested on reading intent or after the real first hand.

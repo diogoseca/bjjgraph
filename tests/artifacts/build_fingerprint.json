@@ -3,25 +3,237 @@
   "app_provenance": {
    "command": "npm run regenerate:neural",
    "esbuild": "0.27.0",
-   "git_head": "5281db7d12efe6d12053f3883373bf2fdc931ba9",
+   "git_head": "e424eff4c872da89324f3cffbdbb4d59ce7b9e8b",
    "inputs": {
-    "tree": "d37967a79543bad302ef2fee4862f4a5ccf132e5"
+    "tree": "ac80063233017315aa4bf4ccdcdf46b7a31634c3"
    },
-   "package_version": "1.225.2",
+   "package_version": "1.226.0",
    "rows_from": "neural/dist",
    "schema": "app-assets-rebuild-v2"
   },
-  "capture_tree": "/home/user/bjj-orchestrator/scratch/reading-mode-289/capture-d9bbe3e80/pr-reading-mode-d9bbe3e80",
+  "capture_tree": "/home/user/bjj-orchestrator/scratch/mastery-gold/capture/mastery-gold-1.226.0-clean",
   "content_provenance": {
-   "capture_git_head": "d9bbe3e80f842a67d6c4e4dc64eacbdbccf220ed",
-   "capture_id": "336e39f638e149cebb6e01fb90467951",
+   "capture_git_head": "181ba2b0356cf41352248c4814eff7ce858d8dfb",
+   "capture_id": "587a318a20a54a2fb443496063683435",
    "content_clean_at_end": true,
    "content_clean_at_start": true,
    "content_files": 6412,
    "content_md": 4601,
    "content_tree": "1bc475940b941d320bf97d71b09de9c20b35b734",
-   "dirty_paths_end": [],
-   "dirty_paths_start": [],
+   "dirty_paths_end": [
+    {
+     "bytes": 123865,
+     "kind": "file",
+     "path": "docs/GraphSemantics.md",
+     "sha256": "0e5799dd0fa281ec0886ad03a27585a55344b9425628f9f71f9603559b752bad",
+     "status": " M"
+    },
+    {
+     "bytes": 70340,
+     "kind": "file",
+     "path": "docs/Neural.md",
+     "sha256": "6e68bfafa0fcab02fc975af47a34fd0425426c2198fc4f221c667eda571df338",
+     "status": " M"
+    },
+    {
+     "bytes": 27646,
+     "kind": "file",
+     "path": "e2e/journeys/auth-owner.spec.ts",
+     "sha256": "063a1123507d4f5d6001d957327ad75ad6b714adae8fd5006f9c1c8ac2498c42",
+     "status": " M"
+    },
+    {
+     "bytes": 7694,
+     "kind": "file",
+     "path": "e2e/journeys/mastery-gold.spec.ts",
+     "sha256": "88448dd926817074076e7a19e0962c254e468b279298dffcd96808e7df7ae52e",
+     "status": "??"
+    },
+    {
+     "bytes": 23614,
+     "kind": "file",
+     "path": "e2e/journeys/payload-first-hand.spec.ts",
+     "sha256": "c6d7fb6cca6dc4ad399b6cf3ae24651a9412de9da2e543525aaf3c6ead5d53c1",
+     "status": " M"
+    },
+    {
+     "bytes": 33869,
+     "kind": "file",
+     "path": "neural/build/build.mjs",
+     "sha256": "07a45959a55c9092b3e2b30db80d7280f863b033422e7d31ab449d7597adb4c8",
+     "status": " M"
+    },
+    {
+     "bytes": 1407649,
+     "kind": "file",
+     "path": "neural/src/app.src.jsx",
+     "sha256": "01042f9cb37dad7d5a1bafbb44a9dc0a39ba65ce09aff0e3dbb4ba30f29878ad",
+     "status": " M"
+    },
+    {
+     "bytes": 3014,
+     "kind": "file",
+     "path": "neural/src/mastery-gold.src.js",
+     "sha256": "02884c20fbb0f64f94cbf149afd2a06b274d84fa84b32c7d94b91f32cdd95068",
+     "status": "??"
+    },
+    {
+     "bytes": 31167,
+     "kind": "file",
+     "path": "neural/src/settings-ui.src.js",
+     "sha256": "ff3aabd09c7c3861898d04cdfd03d2c92460abe099f2dbcdf58581a7634173c6",
+     "status": " M"
+    },
+    {
+     "bytes": 39015,
+     "kind": "file",
+     "path": "package-lock.json",
+     "sha256": "68588f52e8577dd4f98744bfbfdddc27873f9caae1b8beec0b532e8b072f9532",
+     "status": " M"
+    },
+    {
+     "bytes": 8060,
+     "kind": "file",
+     "path": "package.json",
+     "sha256": "da3df7ec042943d60a2b6b8c33f5f2dd3e47a6cb52f7149a2e9787f092668375",
+     "status": " M"
+    },
+    {
+     "bytes": 42259,
+     "kind": "file",
+     "path": "scripts/check_payload_budget.py",
+     "sha256": "6bd51adf075d1b17260ed18d282042cd60b7b62ea42193f089f046a556cb4b77",
+     "status": " M"
+    },
+    {
+     "bytes": 11689,
+     "kind": "file",
+     "path": "scripts/score_graph_nodes.py",
+     "sha256": "43265e564209cdbca01d95485fa23e5ee3e4dc60a3a5bc0102a1964e34f54173",
+     "status": " M"
+    },
+    {
+     "bytes": 3020,
+     "kind": "file",
+     "path": "tests/artifacts/mastery_gold_survey.mjs",
+     "sha256": "701e94f93a2275eb5588b609948a429c333d80485c0c13ed075feef8ca6bb611",
+     "status": "??"
+    },
+    {
+     "bytes": 9515,
+     "kind": "file",
+     "path": "tests/mastery_gold.test.mjs",
+     "sha256": "79680c907b54857f89a8087b50a42b10e9930a48fa7427ca360c099320dd5239",
+     "status": "??"
+    }
+   ],
+   "dirty_paths_start": [
+    {
+     "bytes": 123865,
+     "kind": "file",
+     "path": "docs/GraphSemantics.md",
+     "sha256": "0e5799dd0fa281ec0886ad03a27585a55344b9425628f9f71f9603559b752bad",
+     "status": " M"
+    },
+    {
+     "bytes": 70340,
+     "kind": "file",
+     "path": "docs/Neural.md",
+     "sha256": "6e68bfafa0fcab02fc975af47a34fd0425426c2198fc4f221c667eda571df338",
+     "status": " M"
+    },
+    {
+     "bytes": 27646,
+     "kind": "file",
+     "path": "e2e/journeys/auth-owner.spec.ts",
+     "sha256": "063a1123507d4f5d6001d957327ad75ad6b714adae8fd5006f9c1c8ac2498c42",
+     "status": " M"
+    },
+    {
+     "bytes": 7694,
+     "kind": "file",
+     "path": "e2e/journeys/mastery-gold.spec.ts",
+     "sha256": "88448dd926817074076e7a19e0962c254e468b279298dffcd96808e7df7ae52e",
+     "status": "??"
+    },
+    {
+     "bytes": 23614,
+     "kind": "file",
+     "path": "e2e/journeys/payload-first-hand.spec.ts",
+     "sha256": "c6d7fb6cca6dc4ad399b6cf3ae24651a9412de9da2e543525aaf3c6ead5d53c1",
+     "status": " M"
+    },
+    {
+     "bytes": 33869,
+     "kind": "file",
+     "path": "neural/build/build.mjs",
+     "sha256": "07a45959a55c9092b3e2b30db80d7280f863b033422e7d31ab449d7597adb4c8",
+     "status": " M"
+    },
+    {
+     "bytes": 1407649,
+     "kind": "file",
+     "path": "neural/src/app.src.jsx",
+     "sha256": "01042f9cb37dad7d5a1bafbb44a9dc0a39ba65ce09aff0e3dbb4ba30f29878ad",
+     "status": " M"
+    },
+    {
+     "bytes": 3014,
+     "kind": "file",
+     "path": "neural/src/mastery-gold.src.js",
+     "sha256": "02884c20fbb0f64f94cbf149afd2a06b274d84fa84b32c7d94b91f32cdd95068",
+     "status": "??"
+    },
+    {
+     "bytes": 31167,
+     "kind": "file",
+     "path": "neural/src/settings-ui.src.js",
+     "sha256": "ff3aabd09c7c3861898d04cdfd03d2c92460abe099f2dbcdf58581a7634173c6",
+     "status": " M"
+    },
+    {
+     "bytes": 39015,
+     "kind": "file",
+     "path": "package-lock.json",
+     "sha256": "68588f52e8577dd4f98744bfbfdddc27873f9caae1b8beec0b532e8b072f9532",
+     "status": " M"
+    },
+    {
+     "bytes": 8060,
+     "kind": "file",
+     "path": "package.json",
+     "sha256": "da3df7ec042943d60a2b6b8c33f5f2dd3e47a6cb52f7149a2e9787f092668375",
+     "status": " M"
+    },
+    {
+     "bytes": 42259,
+     "kind": "file",
+     "path": "scripts/check_payload_budget.py",
+     "sha256": "6bd51adf075d1b17260ed18d282042cd60b7b62ea42193f089f046a556cb4b77",
+     "status": " M"
+    },
+    {
+     "bytes": 11689,
+     "kind": "file",
+     "path": "scripts/score_graph_nodes.py",
+     "sha256": "43265e564209cdbca01d95485fa23e5ee3e4dc60a3a5bc0102a1964e34f54173",
+     "status": " M"
+    },
+    {
+     "bytes": 3020,
+     "kind": "file",
+     "path": "tests/artifacts/mastery_gold_survey.mjs",
+     "sha256": "701e94f93a2275eb5588b609948a429c333d80485c0c13ed075feef8ca6bb611",
+     "status": "??"
+    },
+    {
+     "bytes": 9515,
+     "kind": "file",
+     "path": "tests/mastery_gold.test.mjs",
+     "sha256": "79680c907b54857f89a8087b50a42b10e9930a48fa7427ca360c099320dd5239",
+     "status": "??"
+    }
+   ],
    "environment_assertions": {
     "TZ": {
      "expected": "UTC",
@@ -43,12 +255,12 @@
     }
    },
    "output_identity": {
-    "files": 16002,
-    "sha256": "4314165936cceb265e37829e74e05a040978cbf35ba8eae50fc8a62899f87ec5"
+    "files": 16003,
+    "sha256": "16f8b7c6a850c09d3d39e9b1985d8920ed185127719e355a2cb52cebe79c0bf1"
    },
    "output_roots": [
-    "/home/user/bjj-orchestrator/qz/capture-origin-coherence-p2b/source/public",
-    "/home/user/bjj-orchestrator/scratch/reading-mode-289/capture-d9bbe3e80/pr-reading-mode-d9bbe3e80"
+    "/home/user/.herdr/worktrees/bjjgraph/feat-mastery-gold/source/public",
+    "/home/user/bjj-orchestrator/scratch/mastery-gold/capture/mastery-gold-1.226.0-clean"
    ],
    "schema": "quartz-content-provenance-v1",
    "state": "complete"
@@ -57,7 +269,7 @@
  },
  "_note": "Committed census for scripts/check_build_fingerprint.py. Re-seed with --update (and a guarded capture's receipt) whenever the emit legitimately changes (content edits move article_links and the @type histogram), or with --update-app-assets when only static/neural/app/** moved, and say in the commit message what moved and why. This is the cheap shape gate; per-page byte/field comparison is scripts/emit_diff.py against an external golden snapshot.",
  "app_assets": {
-  "count": 13,
+  "count": 14,
   "files": {
    "static/neural/app/choice-values.js": {
     "bytes": 19998,
@@ -65,21 +277,21 @@
    },
    "static/neural/app/game-model.worker.js": {
     "bytes": 2695,
-    "sha256": "bc6c87d36233e39e80888ab48ec02e32ca3d8f571bb28aca4e58e4d13fdbd081"
+    "sha256": "5230f897e31820f821d5a77c9c4a896ad8bcaee4b7ff6efdd4bf78c4526cb33c"
    },
    "static/neural/app/game-study.js": {
     "bytes": 78734,
-    "sha256": "fff974e2fe47f45a543debeed7637bc098e4d3f55d09475034a7b7ebe5621b32",
+    "sha256": "eb78e8fb07e8b700f5d396a201838b2cb8b74961d7799f3b8eab41ba1a579d1e",
     "version_token": "normalised"
    },
    "static/neural/app/game-study.worker.js": {
     "bytes": 111618,
-    "sha256": "7fd17c5af35857f3190b4afe9263ee76ca3aebadf21be36da04c8baeb36e99d6",
+    "sha256": "e8397219b916b5f1219a9bb5881b6b278f34ce70fd14f72f4b0f39ed49598e73",
     "version_token": "normalised"
    },
    "static/neural/app/game-values.js": {
     "bytes": 28182,
-    "sha256": "bea71873684d2a70595a258a5c029c9ab6b3bb136be01d5009d101277d00edb1",
+    "sha256": "ffc6b3f932f480337312860d26c4d37c74fc253e1dbc8998b79329b47f98783a",
     "version_token": "normalised"
    },
    "static/neural/app/game-worker-core-27979b05ebdc3ec898c90f78b5fa61c0f4bb63f9d92f30916a01920f3da4fde1.js": {
@@ -90,13 +302,17 @@
     "bytes": 8503,
     "sha256": "df5c7cc44b72f51be63a84b5b3e42df67bef67e448a561b176b20c0e57204f23"
    },
+   "static/neural/app/mastery-gold.js": {
+    "bytes": 1412,
+    "sha256": "d807ef6f5dc3649d41932f2145b6716a61bd9386a1459974180854ef1e10dbf2"
+   },
    "static/neural/app/neural.css": {
     "bytes": 40833,
     "sha256": "eb801ccf8c68bee30b47c600f369dbe78022342d608ba9d610afb565af30ddcc"
    },
    "static/neural/app/neural.js": {
-    "bytes": 684895,
-    "sha256": "c76a2a01e070358f0e89ec7d65a6d59607da782aff011d28481f7cdd88639217",
+    "bytes": 686263,
+    "sha256": "a074d4dbb7f86506e0ff016b89f1b6025baf78cd5c96a05b41a90e09e5f8ee5c",
     "version_token": "normalised"
    },
    "static/neural/app/reader.js": {
@@ -112,8 +328,8 @@
     "sha256": "dc1c8ffede52936811c93d809eed54bacf71d83faf087dcded336f13c42e25d7"
    },
    "static/neural/app/settings-ui.js": {
-    "bytes": 19592,
-    "sha256": "89abbaf6e257162375cace52c27c53254a1510ba27b5d612ef8d2e12dcbbda1b",
+    "bytes": 19969,
+    "sha256": "2e3b8c570abc939c243555fe3a286311663a819a21c31bbed9067f8f0fae2c5f",
     "version_token": "normalised"
    }
   }
@@ -143,7 +359,7 @@
   "css": 17,
   "gzip": 1,
   "html": 6212,
-  "js": 40,
+  "js": 41,
   "json_opaque": 5037,
   "json_semantic": 5,
   "text_opaque": 4665,
@@ -161,13 +377,13 @@
   "Transitions": 4101,
   "dev": 59,
   "markdown": 4599,
-  "static": 5124,
+  "static": 5125,
   "tags": 73
  },
  "census": {
   "article_headings": 94291,
   "article_links": 213116,
-  "files": 16002,
+  "files": 16003,
   "gzip_files": 1,
   "head_links": 49759,
   "html_pages": 6212,
@@ -183,7 +399,7 @@
   "semantic_json": 5,
   "semantic_text": 7,
   "semantic_xml": 2,
-  "static_files": 5124
+  "static_files": 5125
  },
  "distinct_values": {
   "name=description": 4563,

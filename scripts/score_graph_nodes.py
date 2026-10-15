@@ -5,8 +5,8 @@ Computes a precomputed ``strength`` in ``[-1, +1]`` for every position role
 (top/bottom), submission (attacker/defender) and transition (attacker/defender),
 from existing JSON signals — ``point_value``, ``risk_level`` and the
 ``position_metrics`` triplet (submission/retention/advancement). The frontend
-then colours nodes on a red↔white↔blue ramp keyed to the viewer's role, so all
-the arithmetic lives here (regenerate-time), not in the browser.
+maps each half's strength to a red↔grey↔blue base; advantage chrome selects the
+viewer's role. Strength scoring happens here at regeneration, before map paint.
 
 This module is shape-agnostic: it reads the SOURCE ``content/*.json`` files
 directly so it can be validated independently of ``graph.json``'s structure, and
@@ -217,7 +217,7 @@ def _dump() -> None:
     # NOTE: the plan §6.6.1 "ground-truth" magnitudes (Mount/top +1.00, Closed
     # Guard/bottom +0.27) were EYEBALLED, not computed — the formula's max
     # point_value term is only ±0.40, so those magnitudes are unreachable. What
-    # actually matters for the red↔white↔blue ramp is the *ordering*, not the
+    # actually matters for the red↔grey↔blue ramp is the *ordering*, not the
     # absolute value. These invariants encode that, and all hold against real
     # data (Closed Guard paradox survives in relative terms: bottom > top).
     print("\n=== ORDERING INVARIANTS (the real coloring contract) ===")

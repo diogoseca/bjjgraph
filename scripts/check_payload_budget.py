@@ -177,6 +177,7 @@ DEFERRED = (
     "app/game-study.js",
     "app/game-study.worker.js",
     "app/settings-ui.js",
+    "app/mastery-gold.js",
 )
 
 # Ordinary worker JavaScript, shared between two independently created workers.

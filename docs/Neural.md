@@ -5,7 +5,7 @@ code carries the mechanism, `CLAUDE.md` §6 carries the traps, and `docs/Changel
 carries the story of how each rule was arrived at. When those disagree with this file, the code
 wins and this file is the bug.
 
-Scope: `neural/src/app.src.jsx` (one imperative component, ~13,000 lines, deliberately not split),
+Scope: `neural/src/app.src.jsx` (one imperative component),
 plus `challenge-*.src.js`, `sound.src.js`, `lists.src.js`, `lists-codec.src.js` and `helmet.html`,
 composed by `neural/build/build.mjs`.
 
@@ -452,93 +452,105 @@ under authored rates, not validated on real rolls.
 
 ## 4b. FLOW — what a DECK is worth (v1.138.0)
 
-**`GAIN(deck) = V₀(you, that deck mastered) − V₀(you, now)`**
+**`GAIN(deck) = V₀(you, that deck mastered) − V₀(you, now)`** ranks weak spots, the daily
+dose and study queue. EDGE prices a move; FLOW evaluates the played policy π, not EDGE's
+argmax policy. Kernel: `neural/src/flow.src.js`; reference: `scripts/solve_flow.py`
+(`npm run validate:flow`).
 
-EDGE prices *a move from where you stand*. FLOW prices *a deck across your whole game*, and it is
-what ranks weak spots, the daily dose and the study queue. Kernel: `neural/src/flow.src.js`;
-reference and gate: `scripts/solve_flow.py` (`npm run validate:flow`).
+The kernel uses the ruleset's hands (`cal.ev` / `cal.evGi`), rates and outcomes, renormalised
+per state. Start: uniform for Anywhere/My weak spots, both Standing seats otherwise.
+An adjoint sweep estimates derivatives; the displayed shortlist is re-solved exactly.
+Negative gain is a backfiring class. Tiers share current recoverable value; mastered decks
+score zero. Personalisation shrinks to the prior (`pseudo_count = 8`); `resolve()` records
+per-device G-Counters. Game Knowledge weights attackers, defenders and positions.
 
-**It is a POLICY EVALUATION, not the argmax solve EDGE ships.** Same recursion, `argmax → π`.
-The two value functions are measurably different objects — under argmax every dominant state
-compresses to `p_win ≈ 0.98`, under the played policy `mount/bottom` is −0.281 and
-`back-control/bottom` −0.479 — so `sol.v` cannot be reused for this and is not emitted.
-
-**Your ruleset, from your start (v1.209.0).** The browser rebuilds the kernel from the hands
-(`cal.ev` no-gi, `cal.evGi` gi at +2,598 B gzip, keyed `posIdx/role`) at the frame's own rate, and
-`cal.outcomes`. Shares renormalise per state. V₀ starts where your rolls do: uniform for
-Anywhere and My weak spots, standing's two seats for Standing.
-
-**All 1,500 deck derivatives come from one backward and one forward sweep** — the adjoint. The
-forward occupancy `ρ` *is* "how often you are there", exactly rather than as a metaphor. ~50ms for
-the whole corpus; verified against finite differences to 1.9e-09. The linearisation only recovers
-93–107% of the true change, so the **shown shortlist is re-solved exactly and no sign is ever
-taken from the tail**.
-
-**The score is SIGNED, and that is the point.** 18 decks LOWER your game when you drill them,
-because their success branch lands somewhere your own play leaks while their miss branch returns
-you somewhere you are strong. The list is the rubber-guard ladder — `New York to Invisible
-Collar` and its neighbours. Backfiring is a **class, never a tier**, and only ever from an exact
-re-solve.
-
-**Tiers are cumulative shares of the CURRENT recoverable total**, not a fixed one. Measured and
-counter-intuitive: mastering decks makes every *remaining* deck worth MORE (a better game reaches
-further and survives longer — V₀ 0.079 → 0.385 over the top 37), so a fixed denominator lets the
-called-out count grow from 37 to 570. Against the current total the list stays stable, a mastered
-deck scores exactly 0 and leaves it, and **recoverable value falls 0.862 → 0.425** as you close
-gaps. That figure, not the tier count, is the honest "how much is left".
-
-**Personalisation is a continuous deformation, never a second path.** At 5.23 decisions per roll,
-0 of 1,246 (state, move) cells reach n≥8 at 50 rolls — but the 8 states that do carry 43% of all
-traffic. So: a global execution offset, a conditional-logit tilt on the authored attempt
-distribution, per-state Dirichlet refinement where counts allow, and per-technique rates pooled
-across states — all shrinking to the prior at n=0, at the repo's own `pseudo_count = 8`. The
-ledger feeding it is written at ONE hook, `resolve()`, and stored as a per-device G-Counter
-(counters are the one thing the blob's per-key MAX merge cannot carry: two devices at 30 rolls
-each are 60, and MAX reads 30).
-
-**What it inherits, and the copy says so:** the opponent it prices is `opponentDefend`, which filters neither role nor
-origin, compounded over 11 plies; the 1,326 Defender decks are unscored because your drilling does
-not change the opponent's rates — that was about the ODDS model, and this is a KNOWLEDGE score, so
-since v1.145.13 both seats and all 272 position decks are weighted.
-
-> **RULED AND CLOSED (v1.145.13).** This file used to call the Defender and position zeros "on
-> purpose"; no human had. The owner's ruling: score the whole corpus and let scores fall, while
-> nobody yet holds a belt worth losing. `gameScore` now weights all three blocks — the FLOW
-> disagreement above is resolved in FLOW's favour, and the sentence before this one describes
-> what `gameScore` no longer does.
+History: [archive](Changelog-Archive.md), v1.138.0, v1.145.13, v1.209.0.
 
 ## 5. The pair
 
-Every state draws as **two orbs** — the two sides of one exchange.
+Visual glossary; game states: GraphSemantics §12.
 
-| phase | what you see | value |
-|---|---|---|
-| **merged** (a *site*) | one orb, no role distinction | `kLOD == 0` |
-| **mitosis** | one orb shrinking, two growing out of it | `0 < kLOD < 1` |
-| **split** (a *pair*) | two orbs | `kLOD == 1` |
+| Term | Meaning |
+|---|---|
+| **Site** | Named position/technique at one ground point; exchange, joint node or visual hub. |
+| **Pair** | Its two perspectives; also dual pair, twins or sides. |
+| **Half / member / role-node** | Runtime node with fixed role, base colour and deck; role-node is the model term. No half-circle implied. |
+| **Seat** | Contextual position role (`playerRole`), resolved through `fromRole` for a technique choice. |
+| **Performer / opponent** | Performer attempts; defender receives; either may be on top. Opponent is player-relative. |
+| **Representative / partner** | `rep` is top/attacker; `pi` joins its bottom/defender partner. No strength ordering implied. |
+| **Upper / lower** | Rep above, partner below with depth shade `colU`. `seatWord`'s “primary” means rep. |
+| **Hub** | Qualify: edgeless `graph.json` content aggregator, collapsed layout input, or zoomed-out site orb. |
+| **Orb / glyph** | Rendered half/site: circle = position, diamond = transition, triangle = submission. |
+| **Pole / base strength** | `n.dom`: own `s[si]` when present, else title heuristic `dominance()`. Positive blue, negative red, zero grey; fixed strength, not live Win chance or knowledge. `n.col = domColor(n.dom)` remains the base. |
+| **Mastery** | `deckMastery`: mean `min(stage,3)/3` over cards, not P3 bonus `mastery(key)`. Gold is knowledge. |
+| **Site mix** | Equal pigment weights from both halves, regardless of deck size, degree or rep. |
 
-It is **derived at ingest** (`_deriveDualPairs`) from data already in the model, so it costs zero
-wire bytes. `?dual=legacy` is the only escape hatch; every other value falls through to the pair.
+| Category | Rep role / deck suffix | Partner role / deck suffix | Existing pair words |
+|---|---|---|---|
+| Position | top / Top | bottom / Bottom | TOP / BOTTOM |
+| Transition | attacker / Attacker | defender / Defender | ATTEMPTING / DEFENDING |
+| Submission | attacker / Attacker | defender / Defender | FINISHING / ESCAPING |
 
-**The rep member IS the hub** — same id, same share ordinal, same URL — so every id-keyed consumer
-(lists, systems, curriculum, ordinals) lands on it unchanged. The partner mints `<hub>/Bottom` or
-`<hub>/Defender` and carries **no ordinal**.
+Role fixes perspective, not pole. `seatWord` owns pair copy; travel words name posture.
+Chooser/article wording is unchanged.
+Merged = one orb (`kLOD=0`); mitosis = separation (`0<kLOD<1`); split = two (`kLOD=1`).
 
-**Two kinds of link.** Kind 1 is the real edge, re-keyed one-for-one to the member it belongs to —
-one-for-one is load-bearing, because `rSite` recovers the hub radius from the two members' degrees.
-Kind 2 is **site adjacency**: the other half gets the technique too, so `adj[<either member>]` is
-byte-for-byte the hub's. **Do not role-split `adj`** — several readers walk it role-agnostically on
-purpose, because they are asking about the exchange, not about your hand.
+`_deriveDualPairs` runs at ingest. Rep keeps hub id/ordinal/URL; partner adds `/Bottom` or
+`/Defender`, no ordinal. Kind-1 edges re-key to members; `rSite` recovers radius. Kind-2
+`adj` shares site techniques (ties/order may differ); never role-split it. `deg` is geometry,
+`siteDeg` the site. Both halves retain `cal.ev`. `?dual=legacy` is retired; only test rail
+`noPairs` keeps the control.
 
-`deg` is geometry and stays split; `siteDeg` is the state and is the hub's. `cal.ev` goes on
-**both** halves whole, because the side you are playing can differ from the half you stand on.
+**Strength/coverage register.** Recompute:
+`npm run regenerate:neural && node tests/artifacts/mastery_gold_survey.mjs`.
+v1.225.2 exceptions: **empty**. All 2,896 halves / 1,448 sites have strength and decks;
+no unresolved/duplicate keys. The survey names missing halves/keys.
 
-**Labels.** `pairGroup` renders one label group for the pair: the name block pinned to the midline,
-the qualifier beneath the headline, and the role on the side of whichever half you point at. A
-qualified lower role joins that subtitle stack at the same row lead; all other split roles ride
-their orb. `richLabel` keeps the headline and qualifier separate after the pair merges. Role words
-are per category — positions **TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions
-**ATTEMPTING/DEFENDING**. The graph never bakes a role into a name (`graphName`).
+| Category | With deck | Without | Cards |
+|---|---:|---:|---:|
+| Positions | 266 | 0 | 2,608 |
+| Transitions | 2,050 | 0 | 14,547 |
+| Submissions | 580 | 0 | 4,606 |
+| Total | 2,896 | 0 | 21,761 |
+
+The survey's visible position/transition/submission halves: gi 242/2,050/580, no-gi 220/1,872/510.
+All have decks and shared knowledge. Resolved heuristic entries:
+
+| Former attacker entry | Former defender entry |
+|---|---|
+| Fireman's Carry — Attacker | Fireman's Carry — Defender |
+| Counter Entry to Opponent's Leg — Attacker | Counter Entry to Opponent's Leg — Defender |
+| 100% Sweep — Attacker | 100% Sweep — Defender |
+
+All now use strength; no application allowlist.
+
+**Mastery gold.** Flashcards → **Turn what you know gold** (`masteryGold`, default false), helper:
+“The map turns gold as you master each side's flashcards. Full gold needs recall.”
+Persists/merges per key. Half key: `ngWireDeckName(node) + "|" + capitalized(node.role)`,
+never played seat. Missing/empty deck = `null`, unstudied = `0`; manifest counts work unhydrated.
+
+`mastery-gold.src.js` uses a quadratic Bernstein palette of the existing grey/blue/red
+pigments and crown gold `#F0C05A`. Blue/gold and red/gold controls produce green/orange;
+blue/red stays purple/grey. For clamped strength `d` and mastery `m`, weights are
+`[(1−|d|)(1−m), max(d,0)(1−m), max(−d,0)(1−m), m]`. Sites average weights, never final RGB.
+Zero/missing mastery returns runtime `n.col` directly, including fallbacks.
+
+Off keeps base/lower/focus paint and the rep-only overview. On mixes the site, then `kLOD`
+hands over smoothly to each half/depth shade. Zero mastery keeps the half; its mixed site
+can differ. Default-mix switch: `NG_MIX_SITES_BY_DEFAULT = false`.
+
+The deferred cache rebuilds at ingest, toggle and `_publishKnowledge` (manifest/hydration,
+grades, progress load/merge). Late imports use current evidence/settings; frames interpolate
+cached endpoints only. Canvas material, node-derived edges and focus/resting glow use paint.
+DOM glyphs, labels, advantage chrome and underlying `n.col`/`n.colU`/`myColor` stay unchanged;
+so do belt, Win-chance, Suggested, posture, success and tension meanings.
+
+`tests/mastery_gold.test.mjs` pins OKLCH anchors at 1/3, 1/2, 2/3: blue/gold 125–170°,
+chroma ≥0.10; red/gold 40–80°, ≥0.12. Journeys pin mouse/draw/reload and default boot bytes.
+
+**Labels.** `pairGroup` pins name/qualifier at the midline; roles ride their halves except
+qualified lower roles join the subtitle stack. `richLabel` retains name/qualifier at merge;
+`graphName` never bakes in role.
 
 ---
 

@@ -193,6 +193,9 @@ const NG_RESIDENCY_MAX_HOLD_MS = 2000;
 // eye sees is a pager that moves the wrong way, and nothing would go red. "Last rolls" is display
 // copy for `history` — the view ids never migrated (v1.95.0).
 const NG_PANE_TABS = ["explore", "challenges", "history"];
+// Owner's default-mix decision remains one line. False preserves the historical
+// representative-only overview until masteryGold is enabled.
+const NG_MIX_SITES_BY_DEFAULT = false;
 // THE SETTINGS TABS, IN ROW ORDER: [id, label]. The row, its one click handler and its arrow keys
 // all read this, and nothing else names a tab (v1.196.1). It replaced five hand-built spans with
 // five class names (.t-fc .t-rl .t-md .t-nt .t-kb) and five listeners, i.e. the same list written
@@ -1924,6 +1927,7 @@ class Component extends DCLogic {
     this.cam = { cx, cy, vw: vw0, lvw: Math.log(vw0) };
     this.camTarget = { cx, cy, vw: vw0 };
     this.phaseVW = this.graphW * 0.34;
+    this._rebuildMapPaint();
   }
 
   // ---------- travel primitive ----------
@@ -1959,11 +1963,11 @@ class Component extends DCLogic {
     const p = this.pulse;
     const ly = this._LY || ((q) => q.y);
     if (!p) { const n = this.nodes[this.focusIdx] || { x: this.gcx, y: this.gcy }; return { x: n.x, y: ly(n), col: { r: 255, g: 255, b: 255 } }; }
-    if (p.seg >= p.path.length - 1) { const n = this.nodes[p.path[p.path.length - 1]]; return { x: n.x, y: ly(n), col: n.col }; }
+    if (p.seg >= p.path.length - 1) { const n = this.nodes[p.path[p.path.length - 1]]; return { x: n.x, y: ly(n), col: this._mapColor(n) }; }
     const a = this.nodes[p.path[p.seg]], b = this.nodes[p.path[p.seg + 1]];
     const tt = this.ease(p.t);
     const ay = ly(a), by = ly(b);
-    return { x: a.x + (b.x - a.x) * tt, y: ay + (by - ay) * tt, col: this.lerpCol(a.col, b.col, tt) };
+    return { x: a.x + (b.x - a.x) * tt, y: ay + (by - ay) * tt, col: this.lerpCol(this._mapColor(a), this._mapColor(b), tt) };
   }
   updateTravel(dt) {
     const p = this.pulse; if (!p || p.done) return;
@@ -2539,6 +2543,7 @@ class Component extends DCLogic {
     this._knowledgeRevision = revision == null ? (this._knowledgeRevision || 0) + 1 : revision;
     this._stageVer = (this._stageVer || 0) + 1;
     this._scoreCache = null; this._flowScoreCache = null; this._flowCache = null;
+    this._knowledgeEffect("map-paint", () => this._rebuildMapPaint());
     // the belt BEFORE the tab repaints, so the tab never paints a belt that is not yet persisted
     this._knowledgeEffect("belt-sync", () => this._syncBelt(reason));
     if (this.renderTabSubtitles) this._knowledgeEffect("renderTabSubtitles", () => this.renderTabSubtitles());
@@ -3894,7 +3899,7 @@ class Component extends DCLogic {
     const saved = this._progressHost.persist(this, this._progressBlob());
     if (saved.status === "saved" && this._pushCloud) this._pushCloud();
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -7770,9 +7775,8 @@ class Component extends DCLogic {
   // position, so any mass cutoff is meaningless).
   //
   // Per-deck mastery is min(stage,3)/3 averaged over its cards, so a multiple-choice answer is
-  // worth 2/3 of a card and recognition alone tops out at 0.67 — enough for purple, never enough
-  // for brown or black. Recall is the only route past 0.7, by construction, which is exactly the
-  // "white belts recognise, black belts recall" rule.
+  // worth 2/3 of a card and recognition alone tops out at 0.67. Recall is the only route
+  // past 0.7 and to full gold. The worn belt depends on proven challenge units, not this score.
   get BELT_SCORE() { return [["white", 0.2], ["blue", 0.4], ["purple", 0.6], ["brown", 0.7], ["black", 0.8]]; }
   deckMastery(key) {
     const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
@@ -7882,7 +7886,7 @@ class Component extends DCLogic {
     return out;
   }
   // a lesson's crown: the ring fills with deckMastery, and the numeral is the crown level 0-4.
-  // Same numbers that drive the belt score — grinding a bubble to gold IS moving your belt.
+  // Same deck mastery as Game Knowledge and map gold; the worn belt follows proven challenge units.
   crownBadge(frac, tint, locked) {
     const f = Math.max(0, Math.min(1, frac));
     const lvl = Math.floor(f * 4);
@@ -19931,6 +19935,30 @@ class Component extends DCLogic {
     else { const h = r * 1.18; ctx.moveTo(x, y - h); ctx.lineTo(x + h, y); ctx.lineTo(x, y + h); ctx.lineTo(x - h, y); ctx.closePath(); }
   }
 
+  // Rebuild at ingest, toggle, and knowledge publication (manifest/hydration,
+  // grades, load and merged progress). An import holds no owner/progress snapshot:
+  // completion re-reads the CURRENT setting and evidence, including a late Off.
+  // Failed imports retain base paint and retry on the next enable/publication.
+  _rebuildMapPaint() {
+    const on = this.get("masteryGold", false);
+    if ((!on && !NG_MIX_SITES_BY_DEFAULT) || !this.nodes || this.__ngDestroyed) { this._mapPaint = null; return; }
+    if (this._goldModule) { this._mapPaint = this._goldModule.ngGoldCache(this, on); return; }
+    this._mapPaint = null;
+    if (!this._goldLoading) {
+      this._goldLoading = this._fetchMasteryGold(this._goldAttempt = (this._goldAttempt || 0) + 1).then(module => {
+        this._goldModule = module; this._goldLoading = null; this._rebuildMapPaint();
+      }).catch(error => { this._goldLoading = null; console.warn("[neural] mastery gold unavailable", error); });
+    }
+  }
+  // Only cached endpoint interpolation belongs in a frame. DOM glyphs and
+  // advantage labels keep n.col/myColor; base colour objects are never overwritten.
+  _mapColor(n, lower = false) {
+    const e = this._mapPaint && this._mapPaint[n.idx];
+    if (!e) return lower && n.colU ? n.colU : n.col;
+    const half = lower ? e.lowerPaint : e.halfPaint, k = this._lodK == null ? 1 : this._lodK;
+    return k === 1 ? half : k === 0 ? e.sitePaint : this.lerp3(e.sitePaint, half, k);
+  }
+
   draw() {
     const ctx = this.ctx; if (!ctx || !this.nodes) return;
     const W = this.W, H = this.H, dpr = this.dpr;
@@ -20118,8 +20146,8 @@ class Component extends DCLogic {
           const rel = mw > 0 ? w / mw : 0;
           ctx.lineWidth = (0.8 + 1.4 * rel) / scale;
           const g2 = ctx.createLinearGradient(cn.x, cn.y, o.x, o.y);
-          g2.addColorStop(0, this.rgba(o.col, (0.04 + 0.06 * rel) * A * dim));
-          g2.addColorStop(1, this.rgba(o.col, (0.10 + 0.28 * rel) * A * dim));
+          g2.addColorStop(0, this.rgba(this._mapColor(o), (0.04 + 0.06 * rel) * A * dim));
+          g2.addColorStop(1, this.rgba(this._mapColor(o), (0.10 + 0.28 * rel) * A * dim));
           ctx.strokeStyle = g2;
           ctx.beginPath(); ctx.moveTo(cn.x, cn.y); ctx.lineTo(o.x, o.y); ctx.stroke();
         }
@@ -20132,7 +20160,7 @@ class Component extends DCLogic {
         const k = aAge / 0.38;
         const pa = this.nodes[this.pulse.path[0]], pb = this.nodes[this.pulse.path[1]];
         if (pa && pb) {
-          ctx.strokeStyle = this.rgba(pb.col, (0.12 + 0.55 * k) * A);
+          ctx.strokeStyle = this.rgba(this._mapColor(pb), (0.12 + 0.55 * k) * A);
           ctx.lineWidth = (3.4 - 2.2 * k) / scale;
           ctx.beginPath(); ctx.moveTo(pa.x, pa.y); ctx.lineTo(pb.x, pb.y); ctx.stroke();
         }
@@ -20141,7 +20169,7 @@ class Component extends DCLogic {
     // path ahead
     if (this.pulse && !this.pulse.done) {
       const p = this.pulse, head = this.headPos();
-      ctx.strokeStyle = this.rgba(this.nodes[p.path[p.path.length - 1]].col, 0.16 * glow * A);
+      ctx.strokeStyle = this.rgba(this._mapColor(this.nodes[p.path[p.path.length - 1]]), 0.16 * glow * A);
       ctx.lineWidth = 1.2 / scale;
       ctx.beginPath(); ctx.moveTo(head.x, head.y);
       for (let i = p.seg + 1; i < p.path.length; i++) { const n = this.nodes[p.path[i]]; ctx.lineTo(n.x, LY(n)); }
@@ -20151,7 +20179,7 @@ class Component extends DCLogic {
     for (const e of this.trail) {
       const age = this.now - e.time; const k = Math.max(0, 1 - age / 2.6); if (k <= 0) continue;
       const na = this.nodes[e.a], nb = this.nodes[e.b];
-      const tc = e.tint ? this.lerpCol(nb.col, e.tint, 0.6) : nb.col;
+      const tc = e.tint ? this.lerpCol(this._mapColor(nb), e.tint, 0.6) : this._mapColor(nb);
       ctx.strokeStyle = this.rgba(tc, 0.6 * k * glow * A);
       ctx.lineWidth = (0.8 + 2.4 * k) / scale;
       ctx.beginPath(); ctx.moveTo(na.x, LY(na)); ctx.lineTo(nb.x, LY(nb)); ctx.stroke();
@@ -20169,7 +20197,7 @@ class Component extends DCLogic {
         // birth: ease the pulse into existence over the first stretch so it doesn't pop
         const birth = Math.min(1, tt / 0.22);
         const fade = tt <= 1 ? 1 : Math.max(0, 1 - (tt - 1) / 0.35);
-        ctx.strokeStyle = this.rgba(b.col, 0.5 * fade * birth * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(b), 0.5 * fade * birth * A);
         ctx.lineWidth = 1.6 / scale;
         ctx.beginPath(); ctx.moveTo(a.x, LY(a)); ctx.lineTo(a.x + (b.x - a.x) * e, LY(a) + (LY(b) - LY(a)) * e); ctx.stroke();
         if (tt <= 1) {
@@ -20177,8 +20205,8 @@ class Component extends DCLogic {
           const hr = (2 + 4.5 * birth) * (tt > 0.85 ? Math.max(0.4, (1 - tt) / 0.15) : 1);
           const g = ctx.createRadialGradient(hx, hy, 0, hx, hy, hr);
           g.addColorStop(0, this.rgba({ r: 255, g: 255, b: 255 }, 0.9 * birth * A));
-          g.addColorStop(0.4, this.rgba(b.col, 0.7 * birth * A));
-          g.addColorStop(1, this.rgba(b.col, 0));
+          g.addColorStop(0.4, this.rgba(this._mapColor(b), 0.7 * birth * A));
+          g.addColorStop(1, this.rgba(this._mapColor(b), 0));
           ctx.fillStyle = g; ctx.beginPath(); ctx.arc(hx, hy, hr, 0, 6.2832); ctx.fill();
         }
       }
@@ -20197,10 +20225,10 @@ class Component extends DCLogic {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 2.6);
       for (const k of this._sessionNodes) {
         const n = this.nodes[k]; if (!n) continue;
-        ctx.strokeStyle = this.rgba(n.col, (0.45 + 0.4 * pulse) * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(n), (0.45 + 0.4 * pulse) * A);
         ctx.lineWidth = 2 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.stroke();
-        ctx.fillStyle = this.rgba(n.col, 0.1 * A);
+        ctx.fillStyle = this.rgba(this._mapColor(n), 0.1 * A);
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 3, 0, 6.2832); ctx.fill();
       }
     }
@@ -20213,7 +20241,7 @@ class Component extends DCLogic {
         const n = this.nodes[k]; if (!n) continue;
         // At overview zoom both roles share one visible site; avoid drawing the same ring twice.
         if (n.pairId && !n.rep && kLOD < 0.02) continue;
-        ctx.strokeStyle = this.rgba(n.col, (0.4 + 0.35 * pulse) * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(n), (0.4 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.8 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.7, 0, 6.2832); ctx.stroke();
       }
@@ -20224,7 +20252,7 @@ class Component extends DCLogic {
       const pulse = 0.5 + 0.5 * Math.sin(this.now * 3);
       for (const k of this.optionIdxs) {
         const n = this.nodes[k];
-        ctx.strokeStyle = this.rgba(n.col, (0.3 + 0.35 * pulse) * A);
+        ctx.strokeStyle = this.rgba(this._mapColor(n), (0.3 + 0.35 * pulse) * A);
         ctx.lineWidth = 1.4 / scale;
         ctx.beginPath(); ctx.arc(n.x, LY(n), n.r * nodeK * 2.4, 0, 6.2832); ctx.stroke();
       }
@@ -20263,7 +20291,7 @@ class Component extends DCLogic {
       const bk = br ? 1 + br * Math.sin(this.now * 1.4 + n.idx * 0.83) : 1;
       const fogK = fogSet && !fogSet.has(n.idx) ? 0.3 : 1;
       const rD = rr * nodeK * bk;
-      ctx.fillStyle = this.rgba(n.z < 0 && n.colU ? n.colU : n.col, 0.62 * A * dim * fogK * aK);
+      ctx.fillStyle = this.rgba(this._mapColor(n, true), 0.62 * A * dim * fogK * aK);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, ny, rD); ctx.fill();
       // one light direction for the whole scene — collected here, painted in a single batch below
       if (spec && rD * scale > 7 && aK > 0.55 && fogK > 0.5) spec.push(n.x - rD * 0.3, ny - rD * 0.3, rD * 0.4);
@@ -20302,7 +20330,7 @@ class Component extends DCLogic {
     // and the light is spent where it means something: the moment the move lands.
     if (this.focusIdx >= 0 && !this.pulse) {
       const n = this.nodes[this.focusIdx];
-      const pc = this.myColor(n);
+      const pc = this._mapPaint ? this._mapColor(n) : this.myColor(n);
       // landing settle: damped overshoot when the roll arrives
       let settle = 1;
       if (this.anim("landingSettle", true) && this._settleT) {
@@ -20336,9 +20364,9 @@ class Component extends DCLogic {
       const amp = n.litK || 1;
       const gr = Math.max(n.r * nodeK * (1.8 + 4.2 * k) * amp, (34 * k * amp) / scale);
       const g = ctx.createRadialGradient(n.x, LY(n), 0, n.x, LY(n), gr);
-      g.addColorStop(0, this.rgba(n.col, 0.9 * k * glow * A));
-      g.addColorStop(0.4, this.rgba(n.col, 0.32 * k * glow * A));
-      g.addColorStop(1, this.rgba(n.col, 0));
+      g.addColorStop(0, this.rgba(this._mapColor(n), 0.9 * k * glow * A));
+      g.addColorStop(0.4, this.rgba(this._mapColor(n), 0.32 * k * glow * A));
+      g.addColorStop(1, this.rgba(this._mapColor(n), 0));
       ctx.fillStyle = g; ctx.beginPath(); ctx.arc(n.x, LY(n), gr, 0, 6.2832); ctx.fill();
       ctx.fillStyle = this.rgba({ r: 255, g: 255, b: 255 }, 0.8 * k * A);
       ctx.beginPath(); this.shapePath(ctx, n.ty, n.x, LY(n), n.r * nodeK * (1 + 0.7 * k * amp)); ctx.fill();
@@ -20369,7 +20397,7 @@ class Component extends DCLogic {
       }
       if (dep > 0.01) {
         const kR = this.REST_GLOW * (0.86 + 0.14 * Math.sin(this.now * 1.6)) * dep * dim;
-        const col2 = this.myColor(cur);
+        const col2 = this._mapPaint ? this._mapColor(cur) : this.myColor(cur);
         const gr = Math.max(cur.r * nodeK * 2.6, 44 / scale);
         const g2 = ctx.createRadialGradient(cur.x, LY(cur), 0, cur.x, LY(cur), gr);
         g2.addColorStop(0, this.rgba(col2, 0.62 * kR * glow * A));
