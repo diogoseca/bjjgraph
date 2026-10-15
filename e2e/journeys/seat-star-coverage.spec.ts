@@ -2,6 +2,8 @@ import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 
 // EVERY OPENED SEAT CARRIES ITS STAR (v1.212.3, OCSTAR1).
+// v1.227.0: owner 2026-10-15 supersedes v1.134.0's immediate submission-orb
+// rush. The paused invariant now covers submission defender controls too.
 // The seat star is drawn beside the FOCUSED label, so a seat that loses its focus loses its star.
 // Opening a transition authored from a control alias put you inside that submission. On the seat
 // that DEFENDS it, the landing went straight into the rush: the focus moved to the submission and
@@ -39,8 +41,8 @@ test("every catch seat and a control sample, opened, keep focus, URL and their s
     const step = Math.max(1, Math.floor(rest.length / 20))
     for (let i = 0; i < rest.length && out.filter((s) => s.kind === "control").length < 40; i += step)
       out.push({ idx: rest[i].idx, t: rest[i].t, kind: "control" },
-        // a submission's escaping seat starts its rush at once (owner, v1.134.0): the clock is not held there
-        { idx: rest[i].pi, t: rest[i].t, kind: "control", rush: rest[i].ty === "submissions" })
+        // v1.134.0 superseded by owner 2026-10-15: every navigation starts calm.
+        { idx: rest[i].pi, t: rest[i].t, kind: "control" })
     return out
   })
   const catches = seats.filter((s: any) => s.kind === "catch").length
@@ -64,7 +66,7 @@ test("every catch seat and a control sample, opened, keep focus, URL and their s
       return { focus: a.focusIdx === idx, paused: !!a.paused, star: !!(box && box.width > 0 && box.height > 0),
         url: decodeURIComponent(location.pathname).replace(/^\//, "") === a.nodes[idx].id }
     }, s.idx)
-    if (!(r.focus && r.star && r.url && (r.paused || s.rush))) bad.push(`${s.kind} ${s.t} [${s.idx}] ${JSON.stringify(r)}`)
+    if (!(r.focus && r.star && r.url && r.paused)) bad.push(`${s.kind} ${s.t} [${s.idx}] ${JSON.stringify(r)}`)
   }
   expect(bad, `${bad.length} of ${seats.length} opened seats lost focus, URL, clock or star`).toEqual([])
 })

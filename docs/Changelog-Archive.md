@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
+
 - **v1.225.0** — [A reading-first way through the content](#v12250--a-reading-first-way-through-the-content-issue-289)
 
 - [Integrated Roll documentation consolidation](#integrated-roll-documentation-consolidation-v11980-candidate)
@@ -10953,3 +10955,26 @@ could demote them twice. The full local CI replay passed all 24 executable steps
 including 1,260 unit tests with no skips. The generated ledger still has zero known-reds.
 
 v1.225.2: slugify strength; fail misses.
+
+
+## v1.227.0 — Calm defending arrivals and one land card
+
+Owner 2026-10-15 supersedes v1.134.0: navigation always starts a calm journey. Danger requires
+an opponent catch from another state in the same active journey; cold input cannot create it.
+Async choices retain provenance and reject stale arrivals.
+
+All defenders use `renderLandCard` with their own deck, stack, paging and films. Loop Choke
+shows five defender cards/two clips, not ten attacker cards. Set `_landIdx` before selecting
+films and preserve them through reader intent sync: Kuzure Kesa Gatame Defender gets three
+clips; Knee Slice gets two versus Attacker's three. Five clip gaps show no reel; no clips added.
+
+Permanent/default-on `dangerAnimation` lives beside Answer time. Off/reduced motion retain
+static catch status, countdown and mechanics; audio is unchanged. A real-catch differential
+pins MC, timing, grading, odds and choices. Paging retains spent time/shuffle. Corpus replay
+caught a cold-deck odds mismatch: preserve `_panicKey`'s frozen residency rule independently
+of the displayed deck.
+
+Headers name non-kills (wait tokens/empty reels); synthetic reels pin fallback and immediate
+storage checks catch pagehide-masked saves. Execution holds the card's dock and preview
+through its result. Retired panic code/skin, activation, state and `.pAns` trim
+bytes; no ceiling changed.

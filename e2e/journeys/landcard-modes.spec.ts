@@ -57,10 +57,10 @@ import { journey } from "../dsl"
  * Navigation (v1.132.0, owner): "when you click on a transition or on a submission, you
  * navigate to it. The URL changes to it, and the landcard is standard." A technique click or
  * URL lands ON the technique — URL, camera, focus, a position-anatomy card — with the SEAT at
- * its origin, staged; committing its own highlighted card runs THE EXCHANGE (v1.134.0): finishing/attacking side
- * commits it, escaping a SUBMISSION gets the red defense rush ("if I click play, I want to
- * see that rush … you need to think fast"). Defending a TRANSITION is a calm staged landing
- * (journey 6b, owner: "we're not defending against a submission, we're in poor shape but calm down").
+ * its origin, staged. v1.134.0's defender-arrival rush is superseded by the owner's
+ * 2026-10-15 rule (v1.227.0): every navigation is calm; only an in-roll opponent catch
+ * from another state in the same journey enables danger. Answering a dormant card
+ * does not manufacture that provenance. Both halves use the generic card and paging.
  *
  * ECONOMY LAW: `land_q_answered` is challenge evidence and combo has no cap, so only the FIRST
  * card resolved per landing ticks combo and counts as evidence — later answers are named
@@ -73,11 +73,11 @@ import { journey } from "../dsl"
  *   M3 — the capture-phase click suppressor is gone (a swipe is a pick)      → journey 2
  *   M4 — the paging branch drops !_landHidden() (pages an invisible card)    → journey 3
  *   M5 — a technique URL is rewritten to its origin (the pre-v1.132.0 yank)  → journey 5
- *   M6 — play on a defender-staged technique deals a placid hand (no rush)   → journey 6
+ *   M6 — a dormant defender answer manufactures danger   → journey 6
  *   M7 — play on an attacker-staged technique does not commit the exchange   → journey 7
  *   M6b — a transition's Defender page enters the rush anyway (`ty` gate gone) → journey 6b
  *   M6c — enterDefense never late-binds the Defender deck (cold arrival: no drill) → journey 6
- *   M6d — buildPanicCard ships without the landing chrome (_landCardChrome gone) → journey 6
+ *   M6d — renderLandCard ships defense without its shared chrome → journey 6
  *   M8 — the emitter ships paragraph display-answers again (_hard_clip gone:
  *        MC starves on 532 decks and recall shows at stage 0, inverting the
  *        recognise-first progression — the owner's Americana report)         → journey 5b
@@ -330,8 +330,8 @@ test("trackpad deltaX pages once per gesture; arrows never page a hidden or stud
   expect(count(await j.beats(), "land_q_paged") - count(b3, "land_q_paged"), "no paging a hidden card").toBe(0)
 })
 
-// ── 4. the defense card is exempt ────────────────────────────────────────────────────────────
-test("the panic card pages nothing — arrows stay dead on a defense card", async ({ page }) => {
+// ── 4. defense shares the deck controls ────────────────────────────────────────────────────────────
+test("the generic defending card pages its own deck with the same arrows", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
@@ -341,10 +341,10 @@ test("the panic card pages nothing — arrows stay dead on a defense card", asyn
     a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"))
   })
   await j.advance(300)
-  await expect(page.locator("[data-panic]"), "the panic card is up").toBeVisible()
+  await expect(page.locator('[data-landcard="defense"]'), "the panic card is up").toBeVisible()
   const b0 = await j.beats()
   await page.keyboard.press("ArrowRight")
-  expect(count(await j.beats(), "land_q_paged") - count(b0, "land_q_paged"), "arrows page nothing").toBe(0)
+  expect(count(await j.beats(), "land_q_paged") - count(b0, "land_q_paged"), "arrows page the defender deck").toBe(1)
 })
 
 // ── 5. a technique URL lands ON the technique ────────────────────────────────────────────────
@@ -526,9 +526,9 @@ test("from blue belt up, a proven card asks as recall in play — below, MC hold
 })
 
 // ── 6. the defending side = the rush, on arrival ─────────────────────────────────────────────
-test("a defender content arrival keeps the rush dormant until an answer @curated", async ({ page }) => {
+test("a defender content arrival stays calm after an answer @curated", async ({ page }) => {
   const j = journey(page)
-  // OWNERQ1: arrival prepares the actual catch; only an answer or escape starts pressure.
+  // Owner 2026-10-15: arrival and its first answer/escape have no opponent catch provenance.
   await j.boot("/Submissions/Kimura/from-Knee-on-Belly/Defender")
   await j.advance(8000)
   // The sim clock cannot finish the real submission-choices fetch. Wait for its
@@ -558,9 +558,9 @@ test("a defender content arrival keeps the rush dormant until an answer @curated
   // still in flight when enterDefense chose `_panicKey`, and the drill silently never opened
   // (vignette, Caught, one escape, no question). enterDefense now late-binds the Defender deck.
   // The wait below is REAL time (the chunk is a fetch); sim-time advances do not move it.
-  // Kills: dropping the late-bind (no [data-panic] ever on a cold arrival) and dropping
-  // `_landCardChrome` from buildPanicCard (no ✕ / + / independent More sibling on the drill).
-  await page.waitForFunction(() => !!document.querySelector("[data-panic]"), null, { timeout: 20000 })
+  // Kills: dropping the late-bind (no [data-landcard="defense"] ever on a cold arrival) and dropping
+  // `_landCardChrome` from the shared defense renderer (no private drill chrome).
+  await page.waitForFunction(() => !!document.querySelector('[data-landcard="defense"]'), null, { timeout: 20000 })
   // The DSL serves `{}` for dossier chunks. Author one defender read so this test can distinguish
   // the shared More seam from the legitimate "nothing more, no control" degradation.
   await page.evaluate(() => {
@@ -573,13 +573,13 @@ test("a defender content arrival keeps the rush dormant until an answer @curated
       def: "Keep the threatened joint aligned while making space to recover a safe defensive frame.",
       counters: ["Clear the controlling grip before turning into the escape."],
     }
-    a.buildPanicCard(a.optionsRef.current, sub)
+    a.onContentReady([sub.t])
   })
   await j.advance(600)
   await expect(page.locator('[data-reader-ready="true"]')).toBeVisible()
   const d = await page.evaluate(() => {
     const a = (window as W).__neural
-    const card = document.querySelector("[data-panic]") as HTMLElement
+    const card = document.querySelector('[data-landcard="defense"]') as HTMLElement
     const more = a._readerEl as HTMLElement | null
     return {
       panicKey: a._panicKey,
@@ -600,13 +600,13 @@ test("a defender content arrival keeps the rush dormant until an answer @curated
   expect(await page.evaluate(() => {
     const a = (window as W).__neural
     return { reading: a._readerIntent, paused: a.paused, vignette: !!document.querySelector('.ng-vignette'), catches: a.beats.filter((b: any) => b.beat === 'defend_start').length }
-  })).toEqual({ reading: false, paused: false, vignette: true, catches: 1 })
+  })).toEqual({ reading: false, paused: false, vignette: false, catches: 0 })
   // the ✕ hides the drill by MOUSE (§6.1: the card is a fixed overlay under attachInput's
   // capture) — the catch stays live and the escapes stay dealt
   await j.clickByMouse("[data-land-close]")
   const closed = await page.evaluate(() => {
     const a = (window as W).__neural
-    return { card: !!document.querySelector("[data-panic]"), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
+    return { card: !!document.querySelector('[data-landcard="defense"]'), defense: a._defendSub != null, escapes: (a.optionIdxs || []).length }
   })
   expect(closed.card, "✕ hides the drill").toBe(false)
   expect(closed.defense, "…but you are still caught").toBe(true)
@@ -647,7 +647,7 @@ test("arriving on a TRANSITION's defending side is a calm staged landing — no 
     return {
       defense: a._defendSub != null,
       vignette: !!document.querySelector(".ng-vignette"),
-      panic: !!document.querySelector("[data-panic]"),
+      panic: !!document.querySelector('[data-landcard="defense"]'),
       beats: (a.beats || []).map((b: any) => b.beat),
       paused: a.paused,
       staged: n ? { t: n.t, ty: n.ty, side: st.side } : null,

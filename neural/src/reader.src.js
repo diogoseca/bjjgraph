@@ -351,7 +351,6 @@ class Reader {
     // start here so that a one-action roll is still eligible for its history.
     a._played = true;
     a._applyLayers();
-    if (a._readingDefense) a._startDefensePressure();
     a._engage();
     a.setPaused(false);
   }
@@ -431,7 +430,12 @@ class Reader {
     for (const frame of this.root.querySelectorAll("iframe")) {
       if (this.root.dataset.videos === "false" || this.root.hidden) frame.replaceWith(frame._readerPlay);
     }
-    if (this.intent || !this.on("film")) a._clearLandFilm();
+    // v1.227.0: a defending landing owns its films even on a reader/link arrival.
+    // Clearing them here made cache timing decide whether the correct reel survived:
+    // a dossier arriving after sync showed it, one arriving before sync lost it.
+    const land = a.nodes[a._landIdx];
+    const defending = land && a._landPerspSide(land) === "defender";
+    if ((this.intent && !defending) || !this.on("film")) a._clearLandFilm();
     this.shelf();
   }
   layout() {
@@ -461,14 +465,18 @@ class Reader {
     // Preserve the graph's drawn pair at resting roll zoom as well as the game
     // controls. A late film can borrow preview space before moving the graph.
     const graphSpace = n ? Math.max(132, 2 * ((n.h || 0) + n.r * 1.6) * .4 * W / (a.graphW * a.ROLL_ZOOM) + 50) : 180;
-    const height = compact ? 54 : Math.max(expanded ? 80 : 52, expanded ? end - top : Math.min(128, H * .15, end - gameHeight - graphSpace));
+    // Keep the chosen card's column reservation until its execution ends. A
+    // generic deck's teardown must not move that card or expand prose over it.
+    const handoff = a._executionDock()?.reader;
+    const height = handoff?.height ?? (compact ? 54 : Math.max(expanded ? 80 : 52, expanded ? end - top : Math.min(128, H * .15, end - gameHeight - graphSpace)));
     const column = compact ? card.getBoundingClientRect() : null;
     this.root.toggleAttribute("data-reading-compact", !expanded && height < 80);
     this.root.style.width = (column ? column.width : width) + "px";
     this.root.style.left = (column ? column.left + column.width / 2 : free.center) + "px";
     // On a very short screen the existing tall-question column scrolls. The
     // article follows its hand below the fold until that column reaches its end.
-    const push = !expanded && !compact ? Math.max(0, (a._readMax || 0) - (a._readS || 0)) : 0;
+    const push = handoff?.push ?? (!expanded && !compact ? Math.max(0, (a._readMax || 0) - (a._readS || 0)) : 0);
+    this._layoutSnapshot = { height, push };
     this.root.style.bottom = H - end - push + "px";
     this.root.style.height = height + "px";
     const previous = this.trayBottom, previousCard = this.cardBottom;
@@ -478,7 +486,7 @@ class Reader {
     // Short landscape has independent columns: the article sits under the quiz
     // on the left, while the hand keeps room for its film on the right.
     this.trayBottom = compact ? 84 : this.cardBottom;
-    if (!a._readMax && a.optionsRef.current) a.optionsRef.current.style.bottom = this.trayBottom + "px";
+    if (!a._readMax && a.optionsRef.current) a.optionsRef.current.style.bottom = a._landDatum().tray + "px";
     // The question and film use the same datum as the hand. Move all of them in
     // this layout pass; a later animation frame leaves a live hand behind its quiz.
     if ((previous !== this.trayBottom || previousCard !== this.cardBottom) && !this.docking) {

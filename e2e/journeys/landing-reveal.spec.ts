@@ -192,13 +192,14 @@ test('a played transition replaces the URL with its revealed landing', async ({ 
 
 test('a defensive arrival names the highlighted defending seat in the URL', async ({ page }) => {
   const j = journey(page);
-  // This is a catch during play. Content URLs now prepare a dormant reading seat;
-  // the home route starts the live roll whose defensive transition is exercised.
+  // v1.227.0: the owner's 2026-10-15 rule supersedes v1.134.0. A catch needs
+  // prior play in this journey; navigation alone prepares a dormant reading seat.
   await j.boot('/');
   await j.advance(8000);
   await page.evaluate(() => {
     const a = (window as any).__neural;
-    a.enterDefense(a.nodes.findIndex((n: any) => n.ty === 'submissions'));
+    a._rollActed = true;
+    a.enterDefense(a.nodes.findIndex((n: any) => n.ty === 'submissions'), a._catchProvenance());
   });
   await expect.poll(() => page.evaluate(() => (window as any).__neural._defendSub != null)).toBe(true);
   const state = await page.evaluate(() => {

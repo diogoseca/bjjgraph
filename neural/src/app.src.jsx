@@ -669,11 +669,18 @@ class Component extends DCLogic {
   // reroute odds refreshes to escape math, and a cancelled sweep never haunts the canvas.
   clearEngagement() {
     this.clearExecution();
+    // v1.227.0, owner 2026-10-15: navigation starts a NEW journey, even if a roll
+    // was already running. This seam covers restaging, reader links and resets.
+    // Capture the identity before opponent travel; neither a later fetch nor play
+    // on a dormant defender landing may manufacture a catch in the next journey.
+    this._journeyId = (this._journeyId || 0) + 1;
+    this._defensePressure = false;
+    this._waitingSubmission = null; this._cwArm = null;
+    this._syncDangerAnimation();
     // NOTE: _beltTest is deliberately ABSENT from this list — a belt test SURVIVES the
     // rollFromPosition that starts it. Cancellation is explicit (startRoll / endRound).
     this._decision = null; this._optPick = null; this._optList = null;
     this._defendSub = null; this._panicKey = null; this._stagedDefense = null;
-    this._readingDefense = false;
     this._sweep = null; this._hitStop = null; this._shake = null;
     this.killVignette(false);
   }
@@ -916,10 +923,10 @@ class Component extends DCLogic {
           // and, like ↓, never during an open checkpoint quiz (see the drill arrows above)
           e.preventDefault(); if (this._checkpoint) { /* the quiz owns the deck */ } else if (!this.revealed) this.drillReveal(); else this.drillGrade(true);
         }
-      } else if (!typing && !this.deckShown && !this._detailCtx && this._landEl && !this._landHidden() && (this._landMode === "land" || this._landMode === "attempt") && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
+      } else if (!typing && !this.deckShown && !this._detailCtx && this._landEl && !this._landHidden() && ["land", "attempt", "defense"].includes(this._landMode) && this._landPage != null && (e.key === "ArrowLeft" || e.key === "ArrowRight")) {
         // the landing card pages its own deck (v1.130.0). BELOW the pane-History and drill arrow
-        // branches so it can never steal from an open study surface; the defense card is excluded
-        // by mode (buildPanicCard assigns _landEl without ever entering renderLandCard).
+        // branches so it can never steal from an open study surface. Defense uses
+        // the same renderer and deck controls (v1.227.0).
         e.preventDefault();
         this._landPageTo(e.key === "ArrowRight" ? 1 : -1);
       } else if ((e.key === " " || e.key === "p" || e.key === "P") && !typing && !this._detailCtx) {
@@ -1214,7 +1221,7 @@ class Component extends DCLogic {
         if (!this._progressCurrent()) return;
         if (history.state?.ngReading || this._readerIntent || this.get("readingFocus", false)) { this._readArticle(location.pathname + location.hash, true, false); return; }
         const hit = this._nodeAndRoleForPath(location.pathname);
-        if (hit.idx >= 0 && hit.idx !== this.currentPos) this.rollFromPosition(hit.idx, true, hit.role);
+        if (hit.idx >= 0) this.rollFromPosition(hit.idx, true, hit.role);
         // ...and Back onto a concept or system page re-opens that page, the same way arriving on
         // it does. Without this the address bar said "Principles/Frames" and the pane showed
         // whatever it was showing before.
@@ -3316,6 +3323,8 @@ class Component extends DCLogic {
    * opens (a `startTravel` plus `after(0.3, …)` on the opponent-finish path), which is the window
    * this fetch belongs in. By the time `enterDefense` runs the chunk has landed, `_deckHasCards`
    * answers honestly, and the choice is made once, with the odds it will keep.
+   * Since v1.227.0 the shared card independently selects the Defender deck; this
+   * frozen bonus key must not choose which questions or films it displays.
    *
    * Idempotent and coalesced: `hydrateDeck` dedupes through `_deckWaits`, so calling it on a deck
    * already resident (or already in flight) costs nothing.
@@ -3899,7 +3908,7 @@ class Component extends DCLogic {
     const saved = this._progressHost.persist(this, this._progressBlob());
     if (saved.status === "saved" && this._pushCloud) this._pushCloud();
   }
-  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); }
+  set(k, v) { this.settings = this.settings || {}; this.settings[k] = v; (this._settingsAt = this._settingsAt || {})[k] = Date.now(); this._saveProgress(); if (k === "masteryGold") this._rebuildMapPaint(); if (k === "dangerAnimation") this._syncDangerAnimation(); }
   // deferred-payload hooks: refresh whatever is open when the heavy files land post-boot
   onFlashcardsReady() {
     try {
@@ -3935,7 +3944,7 @@ class Component extends DCLogic {
     // A hidden card can still own a visible film; never fetch for two hidden layers.
     const n = this.nodes && this.nodes[this._landIdx];
     const key = n && (n.ty === "positions" ? this.deckKeyFor(n).key : n.t);
-    if (n && this._layerOn("film") && (!keys || keys.includes(key)) && !this._landFilmEl && this._landMode !== "defense") {
+    if (n && this._layerOn("film") && (!keys || keys.includes(key)) && !this._landFilmEl) {
       const clips = this._landFilmClips(n);
       if (clips) { this._renderLandFilm(clips); this._dockLandFilm(); }
     }
@@ -11137,31 +11146,11 @@ class Component extends DCLogic {
     // landing card, but left every OTHER node opening a right-docked reading sheet. The owner,
     // looking at that sheet: "when i click on a node in the graph, [it] shouldnt appear anymore,
     // the node dialog we just practiced now should show instead". So the sheet never opens, on
-    // any form factor, and `openDossier` has exactly two jobs:
-    //
-    //   · the node you are on   -> rebuild its timed card if dismissed
-    //   · any other node        -> STAGE the roll there (fly, land, deal, clock held) with the
-    //     same timed card and independent article. This is already what tapping a node on the
-    //     graph does; `rollFromPosition` hops a technique to its adjacent position, so it is safe for both
-    //     node kinds. NB it archives a roll that has actually been PLAYED (`_played`); a staged
-    //     roll nobody played is never recorded.
-    //
-    // The `_landEl` guard used to sit on the first branch, which is how the sheet appeared for
-    // "Your current position" at all: dismissing the card with its ✕ (v1.101.1) nulls `_landEl`,
-    // so the next click on your own node fell straight through to the sheet. A dismissed card is
-    // a card to REBUILD, not a reason to open a different surface.
-    // Free roam keeps currentPos as a camera anchor, but its roll and hand are gone.
-    // Returning to that same position must stage it again, just like any other node;
-    // rebuilding only the card leaves _roam latched and the choices empty.
-    if (this._roam || n.ty !== "positions" || idx !== this.currentPos) {
-      // NAVIGATE TO IT (v1.132.0, owner: "when you click on a transition or on a submission, you
-      // navigate to it. The URL changes to it, and the landcard is standard."). A technique lands
-      // ON the technique — rollFromPosition keeps the chosen node's camera/URL/focus and seats
-      // the roll at its origin; play runs the exchange. The complete article stays independent.
-      this.stageRollAt(idx);
-    } else if (!this._landEl) {
-      this.renderLandCard(n, "land", null);
-    }
+    // any form factor; `openDossier` stages the ordinary landing surfaces.
+    // Every deliberate navigation stages a fresh journey, even when selecting the
+    // current node again (owner 2026-10-15, v1.227.0). Keeping the old position's
+    // live engagement here let a sidebar/list restage inherit its prior roll.
+    this.stageRollAt(idx);
     this._dossierIdx = null;                   // no dossier opened; the standard landing surfaces mounted
     if (this.deckShown) this.setDeckOpen(false);
     if (!this.paused) { this.setPaused(true); this._dossierAutoPaused = true; }
@@ -12713,10 +12702,10 @@ class Component extends DCLogic {
       truth.revealed = !truth.revealed;
       live.textContent = truth.revealed ? "Answer revealed." : "Answer hidden.";
       paint();
-      if (surface === "land" && this._landEl) this._dockLandCard(this._landEl);
+      if ((surface === "land" || surface === "panic") && this._landEl) this._dockLandCard(this._landEl);
     };
     const grade = (ok) => {
-      if (graded) return; graded = true; truth.spent = true;
+      if (graded || truth.spent) return; graded = true; truth.spent = true;
       this.gradeRecall(key, card, ok, null, surface || "deck");
       row.querySelectorAll("button").forEach((b) => { b.setAttribute("aria-disabled", "true"); b.style.cursor = "default"; });
       live.textContent = ok ? "Marked as recalled." : "Marked for review.";
@@ -13359,8 +13348,8 @@ class Component extends DCLogic {
     this.clearOptions();
     this._stagedTech = staged;
     const token = {}; this._waitingSubmission = token;
-    const pos = this.currentPos, role = this.playerRole;
-    const current = () => this._waitingSubmission === token && this.currentPos === pos && this.playerRole === role && !this.__ngDestroyed;
+    const pos = this.currentPos, role = this.playerRole, journey = this._journeyId;
+    const current = () => this._journeyId === journey && this._waitingSubmission === token && this.currentPos === pos && this.playerRole === role && !this.__ngDestroyed;
     const el = this.optionsRef.current;
     const message = (failed) => {
       if (!el) return;
@@ -14645,7 +14634,7 @@ class Component extends DCLogic {
     // longer on screen. It also made "wait for the next landing question" unreliable — the old
     // one was still there to find, which since v1.80.4 (the question docks a fetch after the
     // card) is a window wide enough to matter.
-    if (this._mc && this._mc.surface === "land") this._mc = null;
+    if (this._mc && (this._mc.surface === "land" || this._mc.surface === "panic")) this._mc = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
     if (this._landStackEl) { this._landStackEl.remove(); this._landStackEl = null; }
     if (this._landNavEl) { this._landNavEl.remove(); this._landNavEl = null; }
@@ -14672,7 +14661,7 @@ class Component extends DCLogic {
   // the app's central comprehension mechanic, simply did not happen for their first decision
   // (measured: tests/artifacts/coldstart/probe-late-payload.json). Fill the live card IN PLACE.
   // Every guard is load-bearing:
-  //   _landEl + _landMode "land" — never touch a technique card in flight (it owns answer hooks)
+  //   _landEl + a land/defense or staged-attempt mode — never touch a technique in flight
   //   NOT ANSWERED — the one hard rule. Mastery is recall-proven and an MC answer is scored once,
   //              so re-mounting a question the player has already answered would hand out a second
   //              attempt at credit already banked. An UNANSWERED question, by contrast, may be
@@ -14703,7 +14692,7 @@ class Component extends DCLogic {
       // docks the strip alone. No card, no question, no skip beat — the landing already named
       // its skip when it rendered.
       if (this._layerOn("card") || this._landIdx == null || this._landFilmEl || !this._layerOn("film")) return;
-      if (this._landMode !== "land" && this._landMode !== "attempt") return;
+      if (!["land", "attempt", "defense"].includes(this._landMode)) return;
       const n = this.nodes && this.nodes[this._landIdx]; if (!n) return;
       const clips = this._landFilmClips(n);
       if (clips) { this._renderLandFilm(clips); this._dockLandFilm(); }
@@ -14711,7 +14700,7 @@ class Component extends DCLogic {
     }
     if (this._landQ && this._landQ.answered) return;   // scored once, never re-asked
     const stTech = this._landMode === "attempt" && this._stagedTech && this._landIdx === this._stagedTech.idx;
-    if (!stTech && (this._landMode !== "land" || this._landIdx !== this.currentPos)) return;
+    if (!stTech && (!["land", "defense"].includes(this._landMode) || this._landIdx !== this.currentPos)) return;
     if (!this._decision || !this._optPick) return;
     const pos = this.nodes && this.nodes[stTech ? this._landIdx : this.currentPos];
     if (!pos) return;
@@ -14721,11 +14710,11 @@ class Component extends DCLogic {
     // over a mounted question left A-D dead and truth() empty while the mouse (whose listeners
     // ride the surviving DOM nodes) kept working. The exact bug class j.clickByMouse exists for,
     // inverted.
-    const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending, mc: (this._mc && this._mc.surface === "land") ? this._mc : null } : null;
+    const reuse = this._landQ ? { q: this._landQ, el: this._landEl.querySelector("[data-land-q]"), pending: !!this._landPending, mc: (this._mc && ["land", "panic"].includes(this._mc.surface)) ? this._mc : null } : null;
     // (v1.136.0: the sheet no longer hides the card inline, so a rebuilt card inherits nothing —
     // the opacity-inheritance dance that lived here died with the hide-site)
     this._landLate = true;                       // the beat says "this question arrived late"
-    try { this.renderLandCard(pos, stTech ? "attempt" : "land", null, reuse); } finally { this._landLate = false; }
+    try { this.renderLandCard(pos, this._landMode, null, reuse); } finally { this._landLate = false; }
 
   }
   // ═══ LANDING-CARD PAGING (v1.130.0; the reveal/hide rung shipped here and was retired the
@@ -14750,7 +14739,10 @@ class Component extends DCLogic {
   // void the skip debt and emit land_q_shown/land_q_unseen; paged mounts do none of that.
   _mountLandQ(card, key, mode, hooks, o) {
     o = o || {};
-    const landRecall = !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    // The shared face does not change the defensive drill's v1.135.0 MC rule,
+    // RNG stream or knowledge ledger. "panic" remains its grading/telemetry ID.
+    const defense = mode === "defense", surface = defense ? "panic" : "land";
+    const landRecall = !defense && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     const qh = this.qhash(card.q);
     const rec = { key: key, card: card, mode: mode || "land", answered: false };
     const qw = document.createElement("div");
@@ -14779,26 +14771,43 @@ class Component extends DCLogic {
       if (this._landAnswers) this._landAnswers.add(qh);
       // EVERY CARD COUNTS (v1.221.0): its place among the resolved cards picks its step; the first
       // alone is the landing question (momentum, challenge evidence)
-      this._landAnswered(ok, tier, mode, hooks, fmt, (this._landResolved = (this._landResolved || 0) + 1));
+      if (defense) this._defenseAnswered(ok, rec);
+      else this._landAnswered(ok, tier, mode, hooks, fmt, (this._landResolved = (this._landResolved || 0) + 1));
       this._updateLandDeck();
     };
     let usedRecall = landRecall;
-    let block = landRecall ? this._recallBlock(card, key, done("recall"), "land") : this._mcBlock(card, key, done(), "land");
-    if (!block && (o.paged || (mode || "land") === "attempt")) {
+    let block = landRecall ? this._recallBlock(card, key, done("recall"), surface) : this._mcBlock(card, key, done(), surface);
+    if (!block && (defense || o.paged || (mode || "land") === "attempt")) {
       // a paged deck sibling can have too few distractor survivors — the recall block needs
       // none, so the card stays browsable instead of silently unreachable
       usedRecall = true;
-      block = this._recallBlock(card, key, done("recall"), "land");
+      block = this._recallBlock(card, key, done("recall"), surface);
     }
     if (!block) return null;
     qw.appendChild(block);
     this._landQ = rec;
+    if (defense) this._panicFc = { fc: card, pk: key };
     if (this._landPageCache) this._landPageCache[qh] = { el: qw, q: rec, mc: usedRecall ? null : (block.__ngMc || null), recall: usedRecall ? block.__ngRecall : null };
+    if (defense && usedRecall) {
+      // Keep the old cold-pool escape hatch (reveal / Got it only), now in the
+      // shared block. An untouched question upgrades once when its pool arrives.
+      block.querySelector("[data-panic-hide]")?.remove();
+      block.querySelector("[data-panic-again]")?.remove();
+      const tried = this._panicWarmTried = this._panicWarmTried || {};
+      if (!tried[key]) {
+        tried[key] = true;
+        this._warmMcPool(card, key, "panic").then(() => {
+          if (this._landQ !== rec || rec.answered || block.__ngRecall?.revealed || !qw.isConnected) return;
+          const replacement = this._mountLandQ(card, key, mode, hooks, { paged: true });
+          if (replacement) { qw.replaceWith(replacement); this._updateLandDeck(); this._dockLandCard(this._landEl); }
+        });
+      }
+    }
     if (this._landPage == null) {
       const cs = this._landDeckCards(key);
       for (let i = 0; i < cs.length; i++) if (cs[i].q === card.q) { this._landPage = i; break; }
     }
-    if (!o.paged) {
+    if (!o.paged && !defense) {
       this._landPending = true; // a question is on the table — walking past it breaks momentum
       // COLD-START MEASUREMENT: is the game quizzing a state the player has never studied? The
       // glyph is the existing evidence ("○" = not one card in this deck has ever been met), so
@@ -14813,6 +14822,35 @@ class Component extends DCLogic {
         this._armLandClock(this._landEl ? this._landEl.querySelector("[data-land-clock]") : null);
     }
     return qw;
+  }
+  _defenseQuestion(key) {
+    const cards = this._landDeckCards(key);
+    return cards.length ? cards[((this._jitIdx || {})[key] || 0) % cards.length] : null;
+  }
+  // Renderer-independent v1.135.0 drill mechanics: grading comes from the same MC
+  // choke, a right answer pumps escape odds and advances, and the spent clock does
+  // NOT re-arm on that automatic next question. Paging is the ordinary deck control.
+  _defenseAnswered(ok, rec) {
+    this._disarmLandClock();
+    this._reader?.beginPlay();
+    if (ok) {
+      this.refreshEscapeOdds();
+      this.fx("escape_odds_pumped", { deck_key: rec.key });
+      const cards = this._landDeckCards(rec.key), idx = cards.indexOf(rec.card);
+      (this._jitIdx = this._jitIdx || {})[rec.key] = idx + 1;
+      const next = this._defenseQuestion(rec.key);
+      if (next && this._landEl) {
+        this._landPage = (idx + 1) % cards.length;
+        const qw = this._mountLandQ(next, rec.key, "defense", null, { paged: true });
+        if (qw) this._landEl.querySelector("[data-land-q]")?.replaceWith(qw);
+      }
+    } else {
+      const broke = this._breakCombo("wrong");
+      this._outcome({ tone: "bad", tag: "missed", big: "no boost", broke: broke, hits: false,
+        sr: "Missed: your escapes get no boost." });
+    }
+    this._dockLandCard(this._landEl);
+    if (this.optionsRef.current) this.setBeacon("escape", this.optionsRef.current);
   }
   // Backs and swipe guides are siblings outside the card's face, below the pane.
   // All hide/read/teardown paths own these surfaces together.
@@ -14939,7 +14977,7 @@ class Component extends DCLogic {
   // place in a deck they are browsing.
   _landPageTo(dir) {
     const el = this._landEl;
-    if (!el || (this._landMode !== "land" && this._landMode !== "attempt")) return false;
+    if (!el || !["land", "attempt", "defense"].includes(this._landMode)) return false;
     if (!this._landQ || !this._landQ.key || this._landPage == null) return false;
     const key = this._landQ.key;
     const cards = this._landDeckCards(key);
@@ -14987,16 +15025,17 @@ class Component extends DCLogic {
       // the keyboard's truth follows the mounted block (v1.106.10); an answered block's cached
       // truth is inert (its answer closure latched), so the only rule that matters is never to
       // clobber another surface's live block
-      if (!this.deckShown && (!this._mc || this._mc.surface === "land")) this._mc = (!cached.q.answered && cached.mc) ? cached.mc : null;
-      if (!this.deckShown && (!this._recall || this._recall.surface === "land")) this._recall = cached.q.answered ? null : cached.recall;
+      if (!this.deckShown && (!this._mc || ["land", "panic"].includes(this._mc.surface))) this._mc = (!cached.q.answered && cached.mc) ? cached.mc : null;
+      if (!this.deckShown && (!this._recall || ["land", "panic"].includes(this._recall.surface))) this._recall = cached.q.answered ? null : cached.recall;
+      if (this._landMode === "defense") this._panicFc = { fc: cached.q.card, pk: key };
       mount(cached.el);
       return true;
     }
-    const recallable = !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const recallable = this._landMode !== "defense" && !!(this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     if (!recallable && !this.mcPoolWarm(key, card)) {
       // cold distractor pool: warm it through _landWarmP (replace-not-clear, so landSettled()
       // still means settled), and only mount if the player has not paged again meanwhile
-      const p = this._warmMcPool(card, key, "land").then(() => {
+      const p = this._warmMcPool(card, key, this._landMode === "defense" ? "panic" : "land").then(() => {
         if (this._landEl !== el || this._landPageSeq !== seq) return;
         const qw = this._mountLandQ(card, key, this._landMode, null, { paged: true });
         if (qw) mount(qw);
@@ -15038,7 +15077,7 @@ class Component extends DCLogic {
         const cs = this._landDeckCards(key0);
         if (cs[this._landPage] && this._landQ.card && cs[this._landPage].q === this._landQ.card.q) return this._landEl;
       }
-      const want = this.get("landQuestions", true) ? this.questionFor(key0) : null;
+      const want = mode === "defense" ? this._defenseQuestion(key0) : this.get("landQuestions", true) ? this.questionFor(key0) : null;
       if (want && this._landQ.card && want.q === this._landQ.card.q) return this._landEl;
     }
     // A late film/question backfill preserves the current landing's reader.
@@ -15048,6 +15087,10 @@ class Component extends DCLogic {
       // Navigation retires the old question before the new landing is rendered.
       this.clearLandCard();
     }
+    // Identity precedes film/article selection and survives a collapsed card. The
+    // old order nulled _landIdx before selecting films, showing the attacker's
+    // reel on a transition's defender half until a later repaint (v1.227.0).
+    this._landIdx = node.idx; this._landMode = mode || "land";
     // ── PER-LANDING PAGING + RUNG STATE (v1.130.0) ── a backfill re-render (`reuse`) is the
     // SAME landing completing itself around the mounted question: the cursor, the answered set
     // and the page cache must survive it (the re-parented block lives in that cache). Everything
@@ -15069,8 +15112,9 @@ class Component extends DCLogic {
     const deckD = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
     const totalCards = this._deckCardCount(deckD);
     // the setting gates the QUESTION, not the card: identity and film are priority either way
-    const wantQ = this.get("landQuestions", true);
-    let card = wantQ ? this.questionFor(key) : null;
+    const defense = mode === "defense";
+    const wantQ = defense || this.get("landQuestions", true);
+    let card = defense ? this._defenseQuestion(key) : wantQ ? this.questionFor(key) : null;
     // ── deck residency (v1.80.4) ──────────────────────────────────────────────────────────
     // On a manifest boot this state's cards may not be here yet. The card renders NOW either
     // way (identity + film are the priority order, and the hand below it must not wait on a
@@ -15084,12 +15128,12 @@ class Component extends DCLogic {
     // reveal/self-grade block instead. Per-card, exactly as the owner specified: "after the
     // player gets the multiple choice right, the second time we show the card... Q and A, and we
     // hide the answer." A stage-0/1 card stays MC even with the badge on — recognition first.
-    const landRecall = !!(card && this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
+    const landRecall = !defense && !!(card && this._recallInPlayNow() && this.cardStage(key, card.q) >= 2);
     let warm = null, warmKind = null;
     if (wantQ && !card && !this._deckResident(key)) { warm = () => this.hydrateDeck(key); warmKind = "deck"; }
     // the warm gate is FORMAT-AWARE: a recall block needs no distractor pool, and holding its
     // card hostage to one would delay the question behind a fetch it will never use.
-    else if (card && !landRecall && !this.mcPoolWarm(key, card)) {
+    else if (card && !defense && !landRecall && !this.mcPoolWarm(key, card)) {
       const c0 = card;
       warm = () => this._warmMcPool(c0, key, "land");
       card = null;                                     // ask nothing until the pool is resident
@@ -15108,7 +15152,10 @@ class Component extends DCLogic {
       this._landIdx = node.idx; this._landMode = mode || "land";
       if (filmClips && this._layerOn("film")) this._renderLandFilm(filmClips);
       this._landWarmP = null;                                   // nothing outstanding: landSettled resolves
-      if (!this._landLate) this._landQSkip(key, "collapsed", mode);
+      if (!this._landLate) {
+        if (defense) this.fx("panic_skipped", { reason: "collapsed", deckKey: key });
+        else this._landQSkip(key, "collapsed", mode);
+      }
       this._dockLandFilm();
       this._renderLayerDock();
       return null;
@@ -15143,7 +15190,7 @@ class Component extends DCLogic {
     // what the submissions should show"). The attempt card's header and its "Roll from here"
     // button are gone: the graph names the focused node beside it (the same rule that removed
     // the position card's header in v1.101.1), and clicking the node already set the board —
-    // the play button is the one "go" control. Only the border skin distinguishes the modes.
+    // the play button is the one "go" control. All modes share this card; live warnings belong to its clock.
 
     // 2 — Definitions belong to the complete article in the independent reader;
     // the question card keeps the question and its answers.
@@ -15204,6 +15251,12 @@ class Component extends DCLogic {
     // hand retain their own lifetimes and preferences.
     this._landCardChrome(el, node, key, this._landPerspSide(node));
     this._updateLandDeck();
+    if (defense && this._landQ && !this._defenseDrillOpened) {
+      this._defenseDrillOpened = true;
+      this.fx("panic_drill_opened", { deck_key: key });
+      this.setBeacon("panic", el);
+      this._armLandClock(el.querySelector("[data-land-clock]"));
+    }
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
     // clearLandCard. Horizontal-dominant ONLY — vertical moves the whole reading column.
     // Thresholds are the drill's (40px / 700ms, passive). A SWIPE IS NOT A PICK: the
@@ -15369,10 +15422,8 @@ class Component extends DCLogic {
     });
   }
 
-  /** Question chrome has its own lifetime; panic cards also request the full
-   * defender article, independently of the question and deferred dossiers. */
+  /** Question chrome has its own lifetime, independently of the article. */
   _landCardChrome(el, node, key, side) {
-    if (el.hasAttribute("data-panic")) this._queueReader(node, side);
     // The question card owns its close button and deck count. The capture star belongs
     // to the graph's seat label, and remains available when this card is hidden.
     const corner = document.createElement("div");
@@ -15762,14 +15813,13 @@ class Component extends DCLogic {
    *  a cloud pull (`_pullAndMerge`) — another device may have flipped a key under this one. */
   _applyLayers() {
     const n = this._landIdx != null && this.nodes ? this.nodes[this._landIdx] : null;
-    const inDefense = this._defendSub != null;
     if (!this._layerOn("card")) {
       if (this._landEl) {
         this._declineLandQ("collapsed");
         this.fx("land_dismissed", { node: n ? n.t : null, answered: !!(this._landQ && this._landQ.answered) });
         this._clearLandCardOnly();
       } else this._readClear();
-    } else if (!this._landEl && n && this._decision && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
+    } else if (!this._landEl && n && this._decision && ["land", "attempt", "defense"].includes(this._landMode)) {
       // EXPANDING MID-LANDING ASKS (owner). A truthy `reuse` skips the per-landing reset, so
       // this landing's answered set and page cache survive: a question answered BEFORE the card
       // was put away grades the fresh one as extra (the economy law), an unanswered landing is
@@ -15777,7 +15827,7 @@ class Component extends DCLogic {
       this.renderLandCard(n, this._landMode, null, { el: null });
     }
     if (!this._layerOn("film")) this._clearLandFilm();
-    else if (!this._landFilmEl && n && !inDefense && (this._landMode === "land" || this._landMode === "attempt")) {
+    else if (!this._landFilmEl && n && ["land", "attempt", "defense"].includes(this._landMode)) {
       const clips = this._landFilmClips(n); if (clips) this._renderLandFilm(clips);
     }
     this._syncHandLayer();
@@ -15810,11 +15860,17 @@ class Component extends DCLogic {
     const W = this.W || 1200, H = this.H || 800, center = this._paneLayout().center;
     const half = (W <= 640 ? 318 : 360) / 2;
     const cold = this.get("readerBook", true) ? this._readerShelfBottom({ left: center - half, right: center + half }) + 78 + Math.min(128, H * .15) : 84;
-    const TRAY_BOTTOM = this._reader?.trayBottom || cold;
+    const TRAY_BOTTOM = this._executionDock()?.bottom ?? (this._reader?.trayBottom || cold);
     const row = this.optionsRef.current;
     if (!this._reader && row && !this._readMax) row.style.bottom = TRAY_BOTTOM + "px";
     const h = row && this._handShown() ? row.getBoundingClientRect().height : 0;
     return { tray: TRAY_BOTTOM, h: h > 0 ? h : 0 };
+  }
+  // A chosen card owns its dock until arrival. Resizing or entering the article
+  // releases the reservation so those deliberate layout changes can take effect.
+  _executionDock() {
+    const dock = this._execution?.card?._ngDock;
+    return dock && dock.w === window.innerWidth && dock.h === window.innerHeight && !this._reader?.interacting ? dock : null;
   }
   _readerShelfBottom(horizontal) {
     let bottom = 12;
@@ -15833,7 +15889,7 @@ class Component extends DCLogic {
    *  a merge that compiled clean (§6.5: collapse to ONE named seam before a second caller exists).
    *  Caught by `dual-pair.spec.ts`, not by the build. */
   _landPerspSide(node) {
-    return this._stagedTech && this._landIdx === this._stagedTech.idx ? this._stagedTech.side : (node.ty !== "positions" ? "attacker" : null);
+    return node.ty === "positions" ? null : this.deckRole(node).toLowerCase();
   }
   _landFilmClips(node, info) {
     info = info || this.ngContentFor(node);
@@ -15844,6 +15900,9 @@ class Component extends DCLogic {
     // shows the defense films.
     const perspSide = this._landPerspSide(node);
     const perspBlk = perspSide && info && info.perspectives ? info.perspectives[perspSide] : null;
+    // D-297a applies to the film too: missing/empty defender clips never inherit
+    // the attacker's top-level reel, and an unauthored half shows no placeholder.
+    if (perspSide === "defender") return perspBlk && perspBlk.authored && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null;
     return (info && info.clips && info.clips.length ? info.clips : null) || (perspBlk && perspBlk.clips && perspBlk.clips.length ? perspBlk.clips : null);
   }
   // FILM RIDES ITS OWN STRIP, OUTSIDE THE CARD (v1.101.1, owner: "place the film study row aka
@@ -16393,8 +16452,8 @@ class Component extends DCLogic {
   beaconState() { return this._beacon ? { target: this._beacon.target } : null; }
 
   // shared defense math: one seam for the escape cards, the live re-render, and the resolve.
-  // dmod credits whichever deck the panic drill drills (authored Defender deck when it exists,
-  // else your position deck) — so grading under fire visibly moves EVERY escape's number.
+  // dmod credits the submission's own Defender deck, including while it is loading,
+  // so grading under fire visibly moves EVERY escape's number. Never borrow another deck.
   /**
    * THE BASE IS THE SUBMISSION'S OWN RATE, SEEN FROM THE OTHER SEAT.
    *
@@ -16455,7 +16514,26 @@ class Component extends DCLogic {
 
   // heartbeat vignette — visible trouble, in slow motion (helmet.html `ngHeartbeat`). Escape
   // snaps it off in ~.3s (the relief IS the reward); a tap lets it drain slowly with the defeat.
+  _dangerAnimationOn() {
+    return !!this._defensePressure && this.get("dangerAnimation", true) !== false && !this._reducedMotion();
+  }
+  // Visuals only: never call killVignette here (it also releases the catch's
+  // framing), rebuild a question, change odds, or disarm/refund the live clock.
+  _syncDangerAnimation() {
+    const on = this._dangerAnimationOn();
+    if (on) this.showVignette();
+    else {
+      if (this._vignetteEl) { this._vignetteEl.remove(); this._vignetteEl = null; }
+      const logo = this.wrapRef?.current?.querySelector(".ng-logo");
+      if (logo) { logo.style.opacity = ""; logo.style.pointerEvents = ""; }
+      if (this._landEl && this._landMode === "defense") {
+        this._landEl.classList.remove("ng-clock-hot");
+        this._landEl.style.borderColor = ""; this._landEl.style.boxShadow = "";
+      }
+    }
+  }
   showVignette() {
+    if (!this._dangerAnimationOn()) return;
     if (this._vignetteEl) return;
     const v = document.createElement("div");
     v.className = "ng-vignette";
@@ -16484,134 +16562,6 @@ class Component extends DCLogic {
     v.style.transition = relief ? "opacity .32s ease-out, transform .32s ease-out" : "opacity .9s ease-in, transform .9s ease-in";
     v.style.opacity = "0"; v.style.transform = "scale(1)";
     setTimeout(() => { try { v.remove(); } catch (e) {} }, relief ? 340 : 920);
-  }
-
-  // ── PANIC DRILL: THE DEFENCE QUESTION IS A LANDING CARD (v1.104.4, owner: it "should show
-  // alike the ng-landcard, in fact it should be a ng-landcard i think. it should never be in the
-  // options row lol wtf"). It used to be a 236px flex item INSERTED AS THE FIRST CHILD OF THE
-  // ESCAPE TRAY — so the question you must read sat in the row of things you must choose between,
-  // shifting every escape card one slot right and competing with them for the same glance under a
-  // 4-9s clock. Everywhere else in the app a question is asked ABOVE the hand; this was the one
-  // place it was asked INSIDE it.
-  //
-  // It is not merely STYLED like a landing card, it IS one: the element goes in `_landEl`, so
-  // every piece of landing-card machinery applies for free and cannot drift — `_dockLandCard`
-  // (which keeps it clear of a tray whose height depends on how many lines a name wraps to),
-  // `_suppressLand` (the pane and the option sheet stand it down), `attachInput`'s
-  // pointer-capture early-return, and `clearLandCard` for teardown.
-  //
-  // Grading it still pumps every escape's odds live (+6% stateBonus) and refunds clock (+2s).
-  buildPanicCard(row, sub) {
-    const decks = (this.flashcards && this.flashcards.decks) || {};
-    const pk = this._panicKey;
-    const pc = pk ? this._cardsOf(decks[pk]) : null;
-    if (!pc || !pc.length) return;
-    // A COLLAPSED CARD ASKS NOTHING (v1.171.0, owner) — the drill included. The escapes are
-    // untimed already, so nothing is lost but the question; the gap is named (§6.6).
-    if (!this._layerOn("card")) { this.fx("panic_skipped", { reason: "collapsed", deckKey: pk }); return; }
-    this._jitIdx = this._jitIdx || {};
-    this.clearLandCard();               // one card slot; never two stacked
-    const card = document.createElement("div");
-    card.className = "ng-landcard";     // position, width, dock, animation — all inherited
-    card.setAttribute("data-landcard", "defense");
-    card.setAttribute("data-panic", "1");
-    // pointer-events:auto is LOAD-BEARING on every fixed overlay (inherited property; the canvas
-    // hit-tests above anything that does not re-enable it). The palette is the only thing this
-    // overrides — `.ng-landcard[data-landcard="defense"]` in helmet.html carries the danger skin.
-    card.style.pointerEvents = "auto";
-    const render = () => {
-      const idx = (this._jitIdx[pk] || 0) % pc.length;
-      const fc = pc[idx];
-      this._panicFc = { fc: fc, pk: pk }; // the expiry path grades THIS card as the miss
-      // ONE ANATOMY, DANGER SKIN (v1.133.0, owner: "should look like a ng-landcard, rn it looks
-      // ugly"): the drill is the landing question's recall idiom — same type ramp, same block
-      // shapes, same button geometry — under the defense palette, with the question clock's bar
-      // riding the card's top edge exactly like a landing.
-      card.innerHTML =
-        '<div data-land-clock-track="1" style="position:absolute;left:0;top:0;height:5px;width:100%;border-radius:15px 15px 0 0;overflow:hidden;background:rgba(255,110,110,.12);"><div data-land-clock="1" style="height:100%;width:100%;background:#ff8585;transform-origin:left;transform:scaleX(1);"></div></div>' +
-        '<div data-defense-prompt style="font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#ff9c9c;margin-bottom:7px;">' + (this._readerIntent ? 'Defender question' : 'Defend it \u2014 beat the clock') + '</div>' +
-        '<div style="padding-right:54px;font-size:12.5px;font-weight:600;color:#eef1f6;line-height:1.35;margin-bottom:8px;">' + fc.q + '</div>';
-      // Question chrome can repaint while the independent defender article stays open.
-      const chrome = () => {
-        const oldCorner = card.querySelector("[data-land-corner]"); if (oldCorner) oldCorner.remove();
-        this._landCardChrome(card, sub, pk, "defender");
-      };
-      // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
-      // more similar to the ng-landcard with multiple choice"). Same block, same grading choke
-      // (_mcAnswer carries the SRS/prep credit), danger skin from the card. `done` adds only
-      // what is panic's own: the escape-odds pump on a right answer, the next card, the beacon.
-      const done = (ok) => {
-        this._disarmLandClock();        // resolved, well or badly — the window is spent
-        this._reader?.beginPlay();
-        if (ok) {
-          this.refreshEscapeOdds();     // the payoff: every escape's % climbs before your eyes
-          this.fx("escape_odds_pumped", { deck_key: pk });
-          this._jitIdx[pk] = idx + 1;
-          render();                     // next question, exactly as Got-it always advanced
-        } else {
-          // A WRONG ANSWER COSTS WHAT RUNNING OUT OF TIME COSTS (v1.221.0, orchestrator LDECK-GO): the
-          // drill's timeout breaks momentum, and a wrong answer used to cost nothing, so letting the
-          // clock run was never cheaper than guessing — the timeout must never cost more than a wrong
-          // answer on the same card. Now both break momentum, as the landing's first card does; no
-          // escape number moves either way, so no card takes a hit. (ngKnowledgeAdvance's panic
-          // "wrong" row says the same since DEVMV39; the MDP never reads it — arrivals only.)
-          const broke = this._breakCombo("wrong");
-          this._outcome({ tone: "bad", tag: "missed", big: "no boost", broke: broke, hits: false,
-            sr: "Missed: your escapes get no boost." });
-        }
-        this._dockLandCard(card);
-        if (row) this.setBeacon("escape", row);  // graded — now TAKE the escape
-      };
-      const mcw = this._mcBlock(fc, pk, done, "panic");
-      if (mcw) { card.appendChild(mcw); chrome(); this._dockLandCard(card); return; }
-      // COLD POOL FALLBACK: the recall idiom the drill always had. The warm below upgrades this
-      // very question to MC the moment the pool lands — but only while it stands untouched.
-      let touched = false;
-      const tail = document.createElement("div");
-      tail.innerHTML =
-        '<div class="pAns" style="display:none;font-size:12.5px;line-height:1.5;color:#c8d2e4;padding:8px 11px;border-radius:9px;border:1px solid rgba(255,110,110,.28);background:rgba(255,110,110,.07);margin-bottom:8px;">' + fc.a + '</div>' +
-        '<div style="display:flex;gap:8px;">' +
-          '<button data-panic-reveal style="flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:1px solid rgba(255,110,110,.45);background:rgba(255,110,110,.14);color:#ffc9c9;">Show answer</button>' +
-          '<button data-panic-got style="display:none;flex:1;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;padding:9px 11px;min-height:38px;border-radius:9px;border:none;background:linear-gradient(135deg,#b8434a,#8f2f38);color:#ffecec;">Got it \u2192 +escape%</button>' +
-        '</div>';
-      while (tail.firstChild) card.appendChild(tail.firstChild);
-      chrome();
-      const rv = card.querySelector("[data-panic-reveal]"), gt = card.querySelector("[data-panic-got]");
-      rv.addEventListener("click", (ev) => { ev.stopPropagation(); touched = true; card.querySelector(".pAns").style.display = "block"; rv.style.display = "none"; gt.style.display = "block"; this._dockLandCard(card); });
-      gt.addEventListener("click", (ev) => {
-        ev.stopPropagation();
-        if (gt.disabled) return; gt.disabled = true;
-        // Same qualification repair as JIT: this is recall evidence, including SRS/proof.
-        this.gradeRecall(pk, fc, true, null, "panic");
-        this._disarmLandClock();        // drilled in time — the window is spent well
-        this._reader?.beginPlay();
-        this.refreshEscapeOdds();
-        this.fx("escape_odds_pumped", { deck_key: pk });
-        this._jitIdx[pk] = idx + 1;
-        render();
-        this._dockLandCard(card);
-        if (row) this.setBeacon("escape", row);  // drilled — now TAKE the escape
-      });
-      if (!this._panicWarmTried) this._panicWarmTried = {};
-      if (!this._panicWarmTried[pk]) {
-        this._panicWarmTried[pk] = true;  // ONE upgrade attempt per deck — a deck that cannot
-                                          // build MC (too few distractors) must not loop
-                                          // render -> fallback -> warm -> render forever
-        this._warmMcPool(fc, pk, "panic").then(() => {
-          if (touched || this._landEl !== card || !this._panicFc || this._panicFc.fc !== fc) return;
-          render();                     // same question, MC dress — a gentle upgrade, never a rug-pull
-          this._dockLandCard(card);
-        });
-      }
-    };
-    // A fresh defensive question belongs to this submission.
-    this._landIdx = sub.idx; this._landMode = "defense";
-    render();
-    this.wrapRef.current.appendChild(card);
-    this._landEl = card;
-    this._dockLandCard(card);
-    this.fx("panic_drill_opened", { deck_key: pk });
-    this.setBeacon("panic", card);
   }
 
   // ── CHALLENGES: permanent evidence tracks, separate from Game Knowledge ──
@@ -16999,26 +16949,9 @@ class Component extends DCLogic {
     this.flare(chosen);
     {
       this.enterLand(true);
-      // v1.134.0 (owner): clicking the ESCAPING orb IS choosing to be caught — the rush starts
-      // now, no play button in between. The attacker side reads instead, with its own card
-      // highlighted in the hand (the "Finish it" affordance, _highlightStagedCard).
-      // ONLY A SUBMISSION IS A CATCH. The roll loop itself never panics over a transition —
-      // `opponentDefend` plays one as a positional move and lands you in the next state — so a
-      // `/Transitions/<x>/Defender` arrival must not either (owner: "we're not defending against
-      // a submission, we're in poor shape but calm down"). It staged the panic drill instead:
-      // vignette, red clock, "beat the clock", and `frameNodes` fitting the whole danger set to
-      // the WHOLE viewport, which put the state behind the card `_dockLandCard` had just docked.
-      // A transition's defending seat is an ordinary staged landing: the attempt card reads the
-      // exchange from the defender perspective (`perspSide` in renderLandCard, the `|Defender`
-      // deck via deckKeyFor), the hand is yours from the defending side, the camera is
-      // `rollCamTarget`'s band-aware composition, and play waits for the button like any other.
-      const st = this._stagedTech;
-      if (!this._readerIntent && st && st.side === "defender" && this.nodes[st.idx] && this.nodes[st.idx].ty === "submissions") {
-        this._stagedTech = null;
-        this._prefetchDefendDeck(st.idx);   // same warm as the opponent-finish path
-        this.setPaused(false);
-        this.enterDefense(st.idx);
-      }
+      // v1.134.0's orb-arrival rush is superseded by the owner, 2026-10-15.
+      // Navigation has just cleared the journey; only a later opponent catch
+      // from another state may enable pressure. Play/answer alone cannot do it.
       this.camTarget = this.rollCamTarget(this.camFocus, false, chosen);
     }
   }
@@ -17725,14 +17658,15 @@ class Component extends DCLogic {
     const last = this.ripples[this.ripples.length - 1];
     if (this.now - (last.t0 + last.dur) > 1.9) this.ripples = [];
   }
-  enterLand(first, arriving = false) {
+  enterLand(first, arriving = false, catchArrival = null) {
+    if (catchArrival && catchArrival.journey !== this._journeyId) return;
     this.clearExecution();
     const canonical = this.canonicalState(this.currentPos, this.playerRole);
     if (canonical !== this.currentPos) this.currentPos = canonical;
     const pos = this.nodes[this.currentPos];
     if (pos.ty === "submissions") {
       const sub = this.submissionNode(pos);
-      if (this.waitForSubmissionChoices(sub, () => this.enterLand(first, arriving))) return;
+      if (this.waitForSubmissionChoices(sub, () => this.enterLand(first, arriving, catchArrival))) return;
       if (this.playerRole !== sub.fromRole) {
         // ── A STAGED TRANSITION KEEPS ITS OWN LANDING (v1.212.3, OCSTAR1) ─────────────────────
         // A transition authored from a CONTROL ALIAS (Gogoplata Control, Darce Control, …: 12
@@ -17745,14 +17679,13 @@ class Component extends DCLogic {
         // … the landcard is standard"), and their transition rule: "a transition's defending seat is
         // an ordinary staged landing … play waits for the button".
         // So a STAGED TRANSITION here gets the ordinary staged landing (its card, URL, focus and
-        // star, the clock held, NO hand: the escapes belong to the rush). The first unpaused frame
-        // runs the rush (`_stagedDefense`, consumed in the frame loop). A submission's own escaping
-        // seat keeps its immediate rush (v1.134.0, rollFromPosition), and an unstaged roll is
-        // already playing, so it still enters the defense here.
+        // star, the clock held, NO hand until play). The first unpaused frame deals
+        // the submission's escapes, calmly. v1.134.0's immediate rush, including
+        // this dormant-to-active path, was superseded by the owner on 2026-10-15.
         // `_stagedDefense` LIFTERS, complete: the first unpaused frame (consumes it), enterDefense,
         // clearEngagement (every new roll, restage and end).
         const stT = this._stagedTech && this.nodes[this._stagedTech.idx];
-        if (!(stT && stT.ty === "transitions" && this.paused)) { this.enterDefense(sub.idx); return; }
+        if (!(stT && stT.ty === "transitions" && this.paused)) { this.enterDefense(sub.idx, catchArrival); return; }
         this._stagedDefense = sub.idx;
       } else this.currentPos = sub.idx;
     }
@@ -17935,7 +17868,7 @@ class Component extends DCLogic {
     this._tryArmClock();
   }
   _clockGate() {
-    return !this._readerIntent && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
+    return !this._readerIntent && (this._landMode !== "defense" || this._defensePressure) && !!this._engaged && !this.deckShown && !!this._landEl && !this._landHidden();
   }
   _tryArmClock() {
     if (!this._cwArm || !this._clockGate()) return;
@@ -17960,8 +17893,8 @@ class Component extends DCLogic {
     d.remaining = sec * 1000; d.total = sec * 1000; d.warned = 0;
     // a landing card paged back to resumes ITS window (`_landPageTo` keeps what was left of it)
     const lq = this._landQ;
-    if (lq && lq.left != null && !lq.answered && clockEl && this._landEl && this._landEl.contains(clockEl) &&
-      !this._landEl.hasAttribute("data-panic")) d.remaining = Math.min(d.total, lq.left);
+    if (lq && lq.left != null && !lq.answered && clockEl && this._landEl && this._landEl.contains(clockEl))
+      d.remaining = Math.min(d.total, lq.left);
     this._landClockEl = clockEl || null;
     if (clockEl) { clockEl.style.transition = ""; this._clockBase = clockEl.style.background; } // frame-driven writes must not lag through a leftover reset transition
     this._barF = null; // the >0.002 dedupe latch must not skip the first write
@@ -18007,7 +17940,7 @@ class Component extends DCLogic {
   _expireLandQ() {
     this._disarmLandClock();
     // PANIC DRILL: reveal, no pump — composure came too late. The escapes below stay live.
-    if (this._defendSub != null && this._landEl && this._landEl.hasAttribute("data-panic")) {
+    if (this._defendSub != null && this._landEl && this._landMode === "defense") {
       const card = this._landEl;
       const pw = card.querySelector("[role='radiogroup']");
       if (pw && this._mc && this._mc.surface === "panic") {
@@ -18020,10 +17953,12 @@ class Component extends DCLogic {
         this._mc.spent = true; // the closure door — late clicks explore, never grade
         this._mc = null;
       }
-      const ans = card.querySelector(".pAns"); if (ans) ans.style.display = "block";
+      const ans = card.querySelector("[data-panic-answer]"); if (ans) ans.style.display = "block";
       const rv = card.querySelector("[data-panic-reveal]"); if (rv) rv.style.display = "none";
       const gt = card.querySelector("[data-panic-got]"); if (gt) gt.style.display = "none";
       const pf = this._panicFc;
+      if (this._landQ) { this._landQ.answered = true; this._landQ.revealed = true; }
+      if (this._recall?.surface === "panic") { this._recall.spent = true; this._recall = null; }
       if (pf && pf.fc) this._schedule(pf.pk, pf.fc.q, false); // revealed unanswered = a failed review
       this.fx("land_q_expired", { surface: "panic", deckKey: (pf && pf.pk) || null });
       const broke = this._breakCombo("slow");
@@ -18077,6 +18012,9 @@ class Component extends DCLogic {
   // sites and the ~5s frame-loop age-out — retired in v1.218.0: no outcome writes the announcer
   // any more, and a card hit cannot pin, it is gone in ~1.3s of wall clock.)
   _tickDecision(gdt) {
+    // Also observes live OS motion changes and cloud preference merges. This does
+    // not write settings: reduced motion is an effective preference, not a save.
+    if (this._defendSub != null) this._syncDangerAnimation();
     if (this._readerIntent) return;
     if (this._reader?.interacting) { this._declineLandQ("reading"); return; }
     if (this._cwArm) this._tryArmClock(); // the card can become visible after engagement
@@ -18091,13 +18029,13 @@ class Component extends DCLogic {
         this._landClockEl.style.transform = "scaleX(" + f.toFixed(4) + ")";
         if (d.remaining <= 3000) {
           this._landClockEl.style.background = "#ff8585";
-          if (this._landEl && !this._landEl.classList.contains("ng-clock-hot")) { this._landEl.classList.add("ng-clock-hot"); this._landEl.style.transition = ""; }
+          if (this._landEl && !this._landEl.classList.contains("ng-clock-hot") && !this._reducedMotion() && (this._landMode !== "defense" || this._dangerAnimationOn())) { this._landEl.classList.add("ng-clock-hot"); this._landEl.style.transition = ""; }
         }
       }
       // the last-three-seconds pulse is FRAME-DRIVEN (v1.135.1): a CSS animation on the card
       // replayed its entry animation when it ended (the owner's "weird flash"), so the glow is
       // written here each frame and eased off by the disarm's one-shot transition instead.
-      if (d.remaining <= 3000 && d.remaining > 0 && this._landEl) {
+      if (d.remaining <= 3000 && d.remaining > 0 && this._landEl && !this._reducedMotion() && (this._landMode !== "defense" || this._dangerAnimationOn())) {
         const ph = 0.5 + 0.5 * Math.sin(((this.now || 0) * 6.28318) / 0.8);
         this._landEl.style.borderColor = "rgba(255,110,110," + (0.35 + 0.5 * ph).toFixed(3) + ")";
         this._landEl.style.boxShadow = "0 14px 44px rgba(0,0,0,.5), 0 0 22px rgba(255,110,110," + (0.25 * ph).toFixed(3) + ")";
@@ -18158,6 +18096,10 @@ class Component extends DCLogic {
     // pane. Pinned by e2e/journeys/card-click-contract.spec.ts.
     if (row) {
       const cs = getComputedStyle(row), padL = parseFloat(cs.paddingLeft) || 0, padR = parseFloat(cs.paddingRight) || 0;
+      // v1.227.0: a tall generic defender can push this row below its home datum.
+      // Keep that dock and its preview reservation through teardown and flight;
+      // otherwise clearLandCard moves the stand-in, then reader layout moves it again.
+      card._ngDock = { bottom: parseFloat(cs.bottom), w: window.innerWidth, h: window.innerHeight, reader: this._reader?._layoutSnapshot };
       const x = shown.card.getBoundingClientRect().left - row.getBoundingClientRect().left - padL;
       card.style.marginLeft = "clamp(" + -Math.min(padL, padR) + "px, " + x + "px, calc(100% - 150px + " + padR + "px))";
     }
@@ -18210,6 +18152,7 @@ class Component extends DCLogic {
       // scrolls in x clips in y, and the lift rises past its 8px top padding (the deal restores both)
       this.optionsRef.current.style.overflow = "visible";
       this.optionsRef.current.appendChild(card);
+      if (card._ngDock) this.optionsRef.current.style.bottom = this._landDatum().tray + "px";
       this._placeOnTable(card);
     }
   }
@@ -18737,61 +18680,70 @@ class Component extends DCLogic {
     const r = this.resolveOutcomeTo(out.to);
     const dest = r.idx >= 0 ? this.canonicalState(r.idx, r.role || this.playerRole) : this.currentPos;
     const counter = out.result === "counter";
+    const arrival = this._catchProvenance();
     this.executionEvent(counter ? "Countered" : "Failed", act.t + (counter ? " reversed" : " stuffed"), "bad", counter ? "countered" : "failed");
     if (dest === this.currentPos) { this.after(1.25 / this.cfg().signalSpeed, () => this.opponentDefend()); return; }
     this.startTravel([opt.idx, dest], () => {
+      if (arrival.journey !== this._journeyId) return;
       const before = this.myVal(this.nodes[this.currentPos]);
       if (r.role) this.playerRole = r.role;
       else if (this.nodes[dest].ty === "submissions") { const sub = this.submissionNode(this.nodes[dest]); this.playerRole = sub.fromRole === "top" ? "bottom" : "top"; }
       this.flashFx(this.myVal(this.nodes[dest]) - before);
       this.currentPos = dest; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
-      this.after(0.5, () => this.opponentDefend());
+      this.after(0.5, () => this.opponentDefend(arrival));
     });
   }
 
   defendKeyFor(subNode) { return subNode.t + "|Defender"; } // full name, matches the emitted Defender deck key
+  _catchProvenance() {
+    return { journey: this._journeyId, from: this.currentPos, active: !!this._rollActed };
+  }
+  _isLiveCatch(sub, arrival) {
+    return !!(arrival && arrival.journey === this._journeyId && arrival.active &&
+      arrival.from !== sub.idx && arrival.from !== sub.pi);
+  }
   /** The first unpaused frame of a staged transition seated as a submission's defender (enterLand's
-   *  deferred catch, v1.212.3): the rush starts now, because the player pressed play. */
+   *  deferred defense, v1.212.3). Play deals the escapes but cannot create catch provenance. */
   _runDeferredCatch() {
     if (this._stagedDefense == null) return false;
     const sd = this._stagedDefense; this._stagedDefense = null;
     this.enterDefense(sd);
     return true;
   }
-  // The catch has one pressure writer, whether reached during play or activated
-  // by the first deliberate action on a dormant defender arrival. Activating it
-  // must preserve the existing question, its grade and the identity of the hand.
-  _startDefensePressure() {
+  // v1.227.0: only the opponent arrival supplies pressure provenance. The old
+  // reader beginPlay activation and its flag are retired; an answer is not a catch.
+  _startDefensePressure(arrival) {
     const sub = this.nodes[this._defendSub];
-    if (!sub) return;
-    this._readingDefense = false;
+    if (!sub || this._defensePressure || !this._isLiveCatch(sub, arrival)) return;
+    this._defensePressure = true;
     const escapes = this._optList || [];
     this.fx("defend_start", { submission: sub.t });
     this.fx("caught", { submission: sub.t });
     this.fx("options_dealt", { count: escapes.length, kind: "defense" });
     this.setEvent("Caught", this.splitName(sub.t).main + " locked in", "bad");
     this.showVignette();
-    const prompt = this._landEl?.querySelector("[data-defense-prompt]");
-    if (prompt) prompt.textContent = "Defend it — beat the clock";
   }
-  enterDefense(subIdx) {
+  enterDefense(subIdx, catchArrival = null) {
+    if (catchArrival && catchArrival.journey !== this._journeyId) return;
     this._stagedDefense = null; // any defense entry supersedes a deferred catch (enterLand)
     this.clearExecution();
     const sub = this.submissionNode(this.nodes[subIdx]);
     if (!sub.cal.defenses) {
       this.currentPos = sub.pi >= 0 ? sub.pi : sub.idx;
       this.playerRole = sub.fromRole === "top" ? "bottom" : "top";
-      this.waitForSubmissionChoices(sub, () => this.enterDefense(sub.idx)); return;
+      this.waitForSubmissionChoices(sub, () => this.enterDefense(sub.idx, catchArrival)); return;
     }
     this._declineLandQ("defense"); // the rush owns the screen — the landing question stands down, free
     this.clearLandCard();
-    this._readingDefense = !!this._readerIntent;
+    const live = this._isLiveCatch(sub, catchArrival);
+    this._defensePressure = false;
+    this._defenseDrillOpened = false;
     this._stagedTech = null;
-    this.setPaused(false);
+    if (live) this.setPaused(false);
     subIdx = this.submissionNode(sub).idx;
     this.playerRole = this.nodes[subIdx].fromRole === "top" ? "bottom" : "top";
     this.currentPos = this.nodes[subIdx].pi >= 0 ? this.nodes[subIdx].pi : subIdx;
-    this.focusIdx = this._readingDefense ? this._lastChosenIdx : this.currentPos;
+    this.focusIdx = this.currentPos;
     this._syncUrl(this.focusIdx, true);
     const key = this.deckKeyFor(this.nodes[this.currentPos]).key;
     const log = this.rollLog = this.rollLog || [];
@@ -18810,7 +18762,9 @@ class Component extends DCLogic {
     this.optionIdxs = escapes.map((e) => e.res);
     const dsec = this.get("decisionSec", 9); // the DRILL's window (v1.133.0) — the escapes are untimed
     this._defendSub = subIdx;
-    // the panic drill credits the authored Defender deck when it exists, else your position deck
+    // The shared renderer selects its own defender question independently of the
+    // frozen odds bonus below. Preserve that bonus's residency rule: changing it
+    // during a cold catch changes the drill mechanics and the solver's state.
     // NAMED, NEVER SILENT (§6.6): escapeChance falls back to the old flat 0.4 when this submission
     // carries no calibrated rate. 0 of 297 wire submissions do today, which is exactly why the day
     // one does must not look like an ordinary catch.
@@ -18821,7 +18775,7 @@ class Component extends DCLogic {
 
     const el = this.optionsRef.current; if (el) el.innerHTML = "";
     let picked = false;
-    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard(); this._defendSub = null; this._panicKey = null; this._panicFc = null; this.killVignette(false);
+    const finish = () => { picked = true; this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this._defendSub = null; this._panicKey = null; this._panicFc = null; this._defensePressure = false; this.killVignette(false);
       this.activeMove = null; this.flare(subIdx); this.setEvent("Tapped", this.splitName(sub.t).main, "bad");
       this.after(0.5, () => this.endRound("lose", sub.t, subIdx)); };
     const pick = (opt) => {
@@ -18839,7 +18793,10 @@ class Component extends DCLogic {
       // Pinned by e2e/journeys/card-click-contract.spec.ts.
       const card = this.executionCard(opt);
       this._rollActed = true;
-      this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions(); this.clearLandCard();
+      // A chained defense retains the opponent's live catch only when it was
+      // already live; escaping a calm opening cannot create danger by itself.
+      const continuedCatch = this._defensePressure ? this._catchProvenance() : null;
+      this._optPick = null; this._optList = null; this._decision = null; this.clearTimers(); this.clearOptions();
       this.startExecution(opt, card);
       this._execution.camera = false;
       // ...AND THE PICK IS NOT A CAMERA GESTURE (v1.219.0, enterAttempt's v1.135.1 doctrine). The
@@ -18852,7 +18809,7 @@ class Component extends DCLogic {
       this.executionEvent("Escaping", this.choiceLabel(opt), "info", "executing");
       this.activeMove = { idx: opt.idx, verb: "Escaping", col: { r: 126, g: 224, b: 168 } };
       this.startTravel([subIdx, opt.res], () => {
-        this._defendSub = null; this._panicKey = null;
+        this._defendSub = null; this._panicKey = null; this._defensePressure = false;
         if (this.rng("escape") < chance) {
           const landed = this.canonicalState(opt.res, opt.destinationRole);
           const stillCaught = !!this.submissionNode(this.nodes[landed]);
@@ -18873,7 +18830,7 @@ class Component extends DCLogic {
           // from the catch) is over the moment you are out, and `landed` (the canonical seat) need
           // not be one of the escape destinations the catch framed. A "Still defending" landing
           // frames its new catch itself (enterDefense -> frameNodes takes a fresh lease).
-          this.after(0.7, () => { this.releaseCamera(); this.enterLand(false); });
+          this.after(0.7, () => { this.releaseCamera(); this.enterLand(false, false, continuedCatch); });
         } else { finish(); }
       });
     };
@@ -18883,55 +18840,30 @@ class Component extends DCLogic {
     // The passive defender arrival may show its escape neighbourhood. Starting
     // pressure must not reframe it under the first deliberate escape click.
     const nodes = [sub.idx, this.currentPos, ...escapes.map(e => e.res)];
-    this._dangerSet = new Set(nodes);
+    this._dangerSet = live ? new Set(nodes) : null;
     this.frameNodes(nodes);
     this._optPick = pick; this._optList = escapes;
-    if (!this._readingDefense) this._startDefensePressure();
-    this.buildPanicCard(el, sub);
-    // the DRILL runs on the question clock (v1.133.0, armed by buildPanicCard); the ESCAPES are
+    if (live) this._startDefensePressure(catchArrival);
+    // The drill runs on the shared card's question clock; the ESCAPES are
     // untimed — expiry no longer taps you out, it reveals the drill's answer as a miss and the
     // player still chooses. `finish` survives as the failed-escape / tap-out path only.
     this._decision = { remaining: null, total: null, warned: 0, pick: pick, opts: escapes };
-    // the DRILL's window arms on the fresh decision — the panic card (already _landEl) carries the bar
-    const armDrill = () => {
-      if (this._landEl && this._landEl.hasAttribute("data-panic"))
-        this._armLandClock(this._landEl.querySelector("[data-land-clock]"));
-    };
-    armDrill();
-    // ── THE DRILL OPENS WHEN ITS DECK LANDS (owner, on /Submissions/Americana/from-Modified-
-    // Scarf-Hold/Defender: "the choices row is also missing here? why?"). A URL arrival on the
-    // escaping seat has NO travel window: `_prefetchLandDeck` fires at stage and `enterDefense`
-    // runs 0.6s later, so on a cold visit the Defender chunk is still in flight, `_deckHasCards`
-    // is honestly false for BOTH decks, `_panicKey` is null and `buildPanicCard` returns without
-    // a card — vignette, "Caught", one escape, and no question, ever. Measured with the harness:
-    // `wait:true` on the deck the frame the drill was skipped, 5 cards resident two seconds later.
-    // The odds are NOT moved under the player by binding late: with `_panicKey` null,
-    // `escapeChance` already reads `stateBonus(defendKeyFor(sub))`, i.e. THIS key — so the number
-    // every escape card printed is the number it keeps. Only the Defender deck is late-bound; the
-    // position-deck fallback is not (that WOULD change the odds' key). Guards: same catch, no card
-    // on the table (the player may have picked, been tapped, or reset), and a real deck.
-    if (!this._panicKey) {
-      const p = this.hydrateDeck(dk);
-      if (p) p.then(() => {
-        if (this._defendSub !== subIdx || this._landEl || !this._deckHasCards(dk)) return;
-        this._panicKey = dk;
-        this._gameValueChanged("defense-key");
-        this.buildPanicCard(this.optionsRef.current, sub);
-        armDrill();
-      });
-    }
+    // Use the DEFENDER member, including the reader's link arrival. The shared
+    // renderer owns hydration/backfill, stack, paging and this half's own films.
+    this.renderLandCard(this.nodes[this.currentPos], "defense");
   }
   oppVal(node) {
     const s = node.s;
     if (Array.isArray(s) && s.length >= 2) return s[this.valIdx(node) === 0 ? 1 : 0];
     return -(node.dom || 0);
   }
-  opponentDefend() {
+  opponentDefend(catchArrival = null) {
+    if (catchArrival && catchArrival.journey !== this._journeyId) return;
     this.clearExecution();
     this.currentPos = this.canonicalState(this.currentPos, this.playerRole);
     const state = this.submissionNode(this.nodes[this.currentPos]);
     if (state) {
-      if (this.playerRole !== state.fromRole) { this.enterDefense(state.idx); return; }
+      if (this.playerRole !== state.fromRole) { this.enterDefense(state.idx, catchArrival); return; }
       const responses = this.submissionDefenses(state);
       if (!responses.length) { this.enterLand(false); return; }
       const response = responses[Math.min(responses.length - 1, Math.floor(this.rng("opp-pick") * responses.length))];
@@ -18939,11 +18871,13 @@ class Component extends DCLogic {
       // The defense destination is from THEIR perspective. Mirror its seat for our landing.
       const role = response.destinationRole === "top" ? "bottom" : "top";
       const idx = dest.role === role ? dest.idx : (dest.pi >= 0 ? dest.pi : dest.idx);
+      const arrival = this._catchProvenance();
       this.setEvent("Opponent goes for", this.choiceLabel(response), "bad");
       this._pendingIntent = { actor: "opp", idx, via: state.idx, kind: "escape" };
       this.startTravel([state.idx, idx], () => {
+        if (arrival.journey !== this._journeyId) return;
         this.playerRole = role; this.currentPos = idx; this.moveCount++; this._lastActor = "opp";
-        this.after(0.5, () => this.enterLand(false));
+        this.after(0.5, () => this.enterLand(false, false, arrival));
       });
       return;
     }
@@ -18984,7 +18918,8 @@ class Component extends DCLogic {
       // This branch and the positional one below disagreed with each other.
       this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 110, b: 110 } };
       this._prefetchDefendDeck(def);   // travel + 0.3s is the window; the drill must not wait on it
-      this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def)));
+      const arrival = this._catchProvenance();
+      this.startTravel([this.currentPos, def], () => this.after(0.3, () => this.enterDefense(def, arrival)));
       return;
     }
 
@@ -19011,7 +18946,9 @@ class Component extends DCLogic {
     this.setEvent("Opponent goes for", defNode.t, "bad");
     this.activeMove = { idx: def, verb: "Defending", col: { r: 255, g: 140, b: 100 } };
     const path = actualDest !== this.currentPos ? [this.currentPos, def, actualDest] : [this.currentPos, def];
+    const arrival = this._catchProvenance();
     this.startTravel(path, () => {
+      if (arrival.journey !== this._journeyId) return;
       const nd = actualDest;
       const before = this.myVal(this.nodes[this.currentPos]);
       const caught = this.submissionNode(this.nodes[nd]);
@@ -19021,7 +18958,7 @@ class Component extends DCLogic {
       this.flashFx(this.myVal(this.nodes[nd]) - before);
       this.currentPos = nd; this.moveCount++; this.bumpBounce(); this._lastActor = "opp";
       if (this.moveCount >= this.maxMoves) this.after(0.8, () => this.endRound("reset"));
-      else this.after(0.6, () => this.enterLand(false));
+      else this.after(0.6, () => this.enterLand(false, false, arrival));
     });
   }
 
