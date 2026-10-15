@@ -1,3 +1,6 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": false,
+  "defaultViewMode": "preview",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": false
 }
