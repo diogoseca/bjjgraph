@@ -116,6 +116,7 @@ test("unchanged danger ticks do no DOM work; motion is cached and change-driven"
     unchanged();
     media.matches = false; listeners.get("change")();
     assert.equal(writes.filter(x => x === "show").length, 2);
+    unchanged();
     a.set("dangerAnimation", false);
     assert.equal(a._vignetteEl, null, "the setting removes danger immediately, without a tick");
     unchanged();
