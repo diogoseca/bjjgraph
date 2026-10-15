@@ -35,8 +35,12 @@ from pathlib import Path
 import re
 import subprocess
 
-LEGACY_SCHEMA = 'quartz-content-provenance-v1'
-SCHEMA = 'quartz-content-provenance-v2'
+SCHEMA = 'quartz-content-provenance-v1'
+# Preserve the capture envelope consumed by Quartz's parse/emit observers. The
+# explicit scope distinguishes filtered tree hashes from older full-tree proof;
+# old verifiers reject the new tree/counts rather than silently broadening them.
+FULL_SCOPE = 'content-v1'
+CONTENT_SCOPE = 'content-excluding-obsidian-v1'
 SCOPE = 'content/** excluding content/.obsidian/**'
 DEFAULT_REPO = Path(__file__).resolve().parent.parent
 
@@ -68,10 +72,10 @@ def is_content_input(path):
 
 
 @lru_cache(maxsize=32)
-def committed_content(repo, head, schema=SCHEMA):
+def committed_content(repo, head, scope=CONTENT_SCOPE):
     tree = git(repo, 'rev-parse', '--verify', f'{head}:content').decode().strip()
     entries = names(git(repo, 'ls-tree', '-r', '-z', tree))
-    if schema == SCHEMA:
+    if scope == CONTENT_SCOPE:
         entries = [row for row in entries if is_content_input('content/' + row.split('\t', 1)[1])]
         # Hash the Git tree with ONLY the root .obsidian entry removed. Subtree
         # object IDs preserve every other byte, path and mode. No -w: inspecting
@@ -85,7 +89,7 @@ def committed_content(repo, head, schema=SCHEMA):
             mode, _, oid = metadata.split(b' ')
             scoped_tree.extend(mode.lstrip(b'0') + b' ' + path + b'\0' + bytes.fromhex(oid.decode()))
         tree = git(repo, 'hash-object', '-t', 'tree', '--stdin', input=scoped_tree).decode().strip()
-    elif schema != LEGACY_SCHEMA:
+    elif scope != FULL_SCOPE:
         raise ProvenanceError('unknown content scope')
     if any(not row.startswith(('100644 blob ', '100755 blob ')) for row in entries):
         raise ProvenanceError('content contains symlinks/submodules; a Git tree does not attest their external target bytes')
@@ -146,7 +150,7 @@ def begin_capture(repo, capture_id):
     state = current_content(repo)
     if state['changed_paths']:
         raise ProvenanceError(f'capture requires clean, fully tracked content: {state["changed_paths"][:8]!r}')
-    return {'schema': SCHEMA, 'state': 'capturing', 'capture_id': capture_id,
+    return {'schema': SCHEMA, 'content_scope': CONTENT_SCOPE, 'state': 'capturing', 'capture_id': capture_id,
             'capture_git_head': state['git_head'],
             **{k: state[k] for k in ('content_tree', 'content_files', 'content_md')},
             'content_clean_at_start': True, 'content_clean_at_end': False,
@@ -169,7 +173,9 @@ def inspect_content(receipt, repo):
     if receipt.get('schema') == 'legacy-input-unverified':
         return {**result, 'reason': receipt['reason']}
     required = ('content_files', 'content_md')
-    if (receipt.get('schema') not in (SCHEMA, LEGACY_SCHEMA) or receipt.get('state') != 'complete'
+    scope = receipt.get('content_scope', FULL_SCOPE)
+    if (receipt.get('schema') != SCHEMA or scope not in (CONTENT_SCOPE, FULL_SCOPE)
+            or receipt.get('state') != 'complete'
             or receipt.get('content_clean_at_start') is not True or receipt.get('content_clean_at_end') is not True
             or not receipt.get('capture_id')
             or any(type(receipt.get(k)) is not int or receipt[k] <= 0 for k in required)
@@ -179,11 +185,11 @@ def inspect_content(receipt, repo):
         return {**result, 'reason': 'incomplete or invalid capture-time content attestation'}
     try:
         repo = str(Path(repo).resolve())
-        expected = committed_content(repo, receipt['capture_git_head'], receipt['schema'])
+        expected = committed_content(repo, receipt['capture_git_head'], scope)
         if any(receipt[k] != v for k, v in expected.items()):
             return {**result, 'reason': 'receipt disagrees with its named capture content tree/counts'}
-        # A completed v1 receipt attested the entire tree, a superset of today's
-        # inputs. Validate that original evidence above before narrowing it. A
+        # A completed receipt without a scope attested the entire tree, a superset
+        # of today's inputs. Validate that evidence above before narrowing it. A
         # commit alone or an incomplete receipt still cannot become a proof.
         captured = committed_content(repo, receipt['capture_git_head'])
         actual = current_content(repo)

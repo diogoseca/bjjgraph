@@ -19,7 +19,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'scripts'))
-from golden_provenance import (LEGACY_SCHEMA, SCHEMA, ProvenanceError, begin_capture,
+from golden_provenance import (CONTENT_SCOPE, FULL_SCOPE, SCHEMA, ProvenanceError, begin_capture,
                                committed_content, finish_capture, inspect_content)
 
 
@@ -42,8 +42,9 @@ class ContentScopeTests(unittest.TestCase):
             self.write(path, text)
         self.commit('initial fixture')
         self.receipt = finish_capture(begin_capture(self.repo, 'fixture'), self.repo)
-        self.legacy = {**self.receipt, 'schema': LEGACY_SCHEMA,
-                       **committed_content(str(self.repo), self.receipt['capture_git_head'], LEGACY_SCHEMA)}
+        self.legacy = {**self.receipt,
+                       **committed_content(str(self.repo), self.receipt['capture_git_head'], FULL_SCOPE)}
+        del self.legacy['content_scope']
 
     def git(self, *args):
         return subprocess.check_output(['git', '-C', str(self.repo), *args], stderr=subprocess.PIPE, text=True).strip()
@@ -75,6 +76,7 @@ class ContentScopeTests(unittest.TestCase):
 
     def test_receipt_excludes_vault_from_identity_and_counts(self):
         self.assertEqual(self.receipt['schema'], SCHEMA)
+        self.assertEqual(self.receipt['content_scope'], CONTENT_SCOPE)
         self.assertEqual(self.receipt['content_files'], 2)
         self.assertEqual(self.receipt['content_md'], 1)
         self.assertEqual(self.legacy['content_files'], 4)
@@ -84,6 +86,16 @@ class ContentScopeTests(unittest.TestCase):
         self.assertEqual(self.receipt['content_tree'], self.git('rev-parse', 'HEAD:content'))
         self.state('MATCH')
         self.cli(0)
+        # The virtual hash must also equal Git's real tree with nested subtrees
+        # and nontrivial filename bytes, not just the two flat fixture files.
+        self.write('content/nested/quoted "π"\tpage\n.md', 'nested input')
+        self.write('content/.obsidian/app.json', '{}')
+        self.commit('nested fixture with vault')
+        nested = finish_capture(begin_capture(self.repo, 'nested'), self.repo)
+        self.git('rm', '-qr', 'content/.obsidian')
+        self.git('commit', '-qm', 'remove only vault again')
+        self.assertEqual(nested['content_tree'], self.git('rev-parse', 'HEAD:content'))
+        self.state('MATCH', nested)
 
     def test_vault_dirty_staged_committed_added_removed_and_ignored_pass(self):
         self.write('content/.obsidian/app.json', '{"alwaysUpdateLinks": false}')
@@ -178,8 +190,8 @@ class ContentScopeTests(unittest.TestCase):
         for receipt in (self.receipt, self.legacy):
             for delta in ({'content_files': 99}, {'content_tree': '0' * 40},
                           {'content_clean_at_start': False}, {'content_clean_at_end': False},
-                          {'schema': 'invented'}):
-                with self.subTest(schema=receipt['schema'], delta=delta):
+                          {'schema': 'invented'}, {'content_scope': 'invented'}):
+                with self.subTest(scope=receipt.get('content_scope'), delta=delta):
                     self.state('UNVERIFIED', {**receipt, **delta})
         # A scoped count cannot be substituted into a full-tree v1 receipt.
         self.state('UNVERIFIED', {**self.legacy, 'content_files': 2})
