@@ -1,7 +1,8 @@
 import { test, expect, type Page } from "@playwright/test"
 import { journey } from "../dsl"
 
-// OWNERQ1 + D-297a. All activations use real mouse coordinates. Content and
+// v1.227.0: owner 2026-10-15 supersedes v1.134.0; a dormant defender
+// answer/escape starts play without inventing an opponent catch. OWNERQ1 + D-297a. All activations use real mouse coordinates. Content and
 // safety oracles come from the served build; the unauthored case is labelled.
 // MDP sandbox controls (2026-10-14), with emitted-byte differences checked:
 // m25 adds a Practice gate: 4 failures, including both real answers staying paused.
@@ -12,7 +13,8 @@ import { journey } from "../dsl"
 // m30 removes abort + serial checks (compound): late Bottom replaces Top.
 // m31 restores game-first: the immediate complete reader is absent at both widths.
 // m32 removes engagement/tick/clock guards (compound): hovering produces a miss.
-// m35 activates defender pressure on arrival: all four dormant cases emit a catch.
+// The old m35 expected pressure after the first action. v1.227.0 reverses that
+// expectation; defending-landing.spec.ts M1 pins an answer inventing pressure.
 // m36b removes Inspect Go's beginPlay: both choice-value escape journeys stay at
 // Triangle Control instead of Half Guard. m36's earlier asset-cwd failure is invalid.
 // m39 removes narrow-band fitting: the drawn caption reaches 122.6px; videos start at 98px.
@@ -190,7 +192,7 @@ test('@curated an unauthored defender never falls back to the attacker hub', asy
   await expect(page.locator(READY)).toHaveAttribute('data-reader-path', KNEE + '/Defender')
   await expect(page.locator('[data-reader-body]')).toHaveText(/This defender guide has not been authored/)
   await expect(page.locator('[data-reader-body]')).not.toContainText(/Execution Steps|Playing as Attacker|Possible Outcomes/)
-  await expect(page.locator('[data-panic]')).toHaveCount(0)
+  await expect(page.locator('[data-landcard=defense]')).toHaveCount(0)
 })
 
 for (const width of [1366, 390]) {
@@ -268,7 +270,7 @@ for (const path of [RNC, '/Submissions/Triangle-Choke/from-Triangle-Control']) {
         await j.clickByMouse(`[data-panic-mc-opt="${correct}"]`, 'answer the dormant defender question')
       }
       expect(await activity(page)).toMatchObject({ intent: false, paused: false })
-      expect((await activity(page)).beats.filter((b: string) => b === 'defend_start')).toHaveLength(1)
+      expect((await activity(page)).beats.filter((b: string) => b === 'defend_start')).toHaveLength(0)
     })
   }
 }

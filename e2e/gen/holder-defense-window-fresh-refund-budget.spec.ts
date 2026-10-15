@@ -98,7 +98,7 @@ test("attack window spent by expiry → caught opens a NEW defense window armed 
   await j.advanceUntil("caught", 20000)
 
   // ── SAME ROLL, NEW WINDOW: a fresh object, the escapes as its hand, its drill clock FULL ──
-  await expect(page.locator("[data-panic]"), "inline panic drill visible when caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible when caught").toBeVisible()
   const defense = await page.evaluate(() => {
     const a = (window as any).__neural
     const d = a._decision
@@ -120,7 +120,7 @@ test("attack window spent by expiry → caught opens a NEW defense window armed 
   const pumped0 = (await j.beats()).filter((b: any) => b.beat === "escape_odds_pumped").length
   const mcCorrect = await page.evaluate(() => {
     const a = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {

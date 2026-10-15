@@ -259,6 +259,26 @@ function recallHandlers(text, surface) {
   return code;
 }
 function bindRecallFallback(a, surface, code, key, question) {
+  if (code === null) {
+    // v1.227.0 retires the private panic DOM. Execute the shared recall block
+    // and its real defense completion callback against the unchanged prior oracle.
+    const element = tag => ({ tag, style: {}, attrs: {}, children: [], listeners: {},
+      setAttribute(k, v) { this.attrs[k] = v; },
+      appendChild(e) { this.children.push(e); },
+      addEventListener(k, fn) { this.listeners[k] = fn; },
+      click() { this.listeners.click(); },
+      querySelectorAll(sel) { return this.children.flatMap(c => [...(c.tag === sel ? [c] : []), ...c.querySelectorAll(sel)]); },
+    });
+    const document = { createElement: element };
+    a._landEl = {}; a.optionsRef = { current: {} };
+    a._landDeckCards = () => [question];
+    a._mountLandQ = () => { a.actions.render = (a.actions.render || 0) + 1; return null; };
+    const block = new Function('document', 'return ({' + Component.prototype._recallBlock.toString() + '})._recallBlock;')(document)
+      .call(a, question, key, ok => a._defenseAnswered(ok, { key, card: question }), surface);
+    const buttons = block.querySelectorAll('button');
+    return { reveal: buttons.find(b => b.attrs['data-panic-reveal']), got: buttons.find(b => b.attrs['data-panic-got']),
+      answer: block.children.find(c => c.attrs['data-panic-answer']), touched: () => block.__ngRecall.revealed };
+  }
   const button = () => ({ style: {}, disabled: false, listeners: {},
     addEventListener(type, fn) { this.listeners[type] = fn; },
     click() { assert.equal(typeof this.listeners.click, "function"); this.listeners.click({ stopPropagation() {} }); } });
@@ -302,7 +322,7 @@ test("JIT/panic plain recall deliberately qualifies proof/SRS; direct callbacks 
         _dockLandCard() { this.actions.dock = (this.actions.dock || 0) + 1; },
         setBeacon() { this.actions.beacon = (this.actions.beacon || 0) + 1; } });
     }
-    const currentCode = recallHandlers(appSource, surface);
+    const currentCode = surface === "panic" ? null : recallHandlers(appSource, surface);
     const now = bindRecallFallback(a, surface, currentCode, key, question);
     const before = bindRecallFallback(b, surface, prior.callbacks[surface + "Recall"], key, question);
     for (const [host, ui] of [[a, now], [b, before]]) {
@@ -323,7 +343,7 @@ test("JIT/panic plain recall deliberately qualifies proof/SRS; direct callbacks 
     assert.deepEqual(a.persisted, evidenceOf(a), "save contains all shared changes");
     assert.equal(a._qMod, -.08); assert.equal(a._combo, 4); assert.equal(b._qMod, -.08); assert.equal(b._combo, 4);
     assert.equal(Object.values(a._knowledgeAttempts)[0].surface, surface);
-    assert.equal(now.got.disabled, true);
+    assert.equal(now.got.disabled || now.got.attrs?.['aria-disabled'] === 'true', true);
     const first = evidenceOf(a), actions = structuredClone(a.actions), revision = a._knowledgeRevision;
     now.got.click(); // force the retained listener even though the native button is disabled
     assert.deepEqual(evidenceOf(a), first); assert.deepEqual(a.actions, actions);
@@ -417,7 +437,7 @@ test("the panic drill's wrong answer and its timeout land where the law's panic 
   const host = () => {
     const h = Object.create(Component.prototype);
     Object.assign(h, { _qMod: -.02, _combo: 3, _landPending: true, outcomes: [], beats: [], now: 10,
-      _defendSub: 1, _landEl: { hasAttribute: () => true, querySelector: () => null }, _panicFc: { pk: "A", fc: { q: "q" } },
+      _defendSub: 1, _landMode: "defense", _landEl: { querySelector: () => null }, _panicFc: { pk: "A", fc: { q: "q" } },
       _disarmLandClock() {}, _updateComboChip() {}, _comboPop() {}, refreshOptionOdds() {}, _schedule() {}, _dockLandCard() {},
       _outcome(o) { this.outcomes.push(o); }, fx(beat, p) { this.beats.push([beat, p]); } });
     return h;

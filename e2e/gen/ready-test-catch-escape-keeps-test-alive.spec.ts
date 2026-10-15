@@ -162,7 +162,7 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   expect(midBeats, "the failed move impacted").toContain("impact_fail")
   expect(midBeats, "the catch registered").toContain("caught")
   expect(midBeats, "the panic drill opened inside the test").toContain("panic_drill_opened")
-  await expect(page.locator("[data-panic]"), "inline panic micro-card visible while caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "inline panic micro-card visible while caught").toBeVisible()
   expect(
     await page.evaluate(() => (window as any).__neural._beltTest?.beltId ?? null),
     "the catch itself never clears the running test",
@@ -173,7 +173,7 @@ test("belt-ready: caught mid-test opens the panic drill, escape resumes the SAME
   //    fallback — so answer whichever block the card mounted (guidance-defense.spec.ts idiom). ──
   const mcCorrect = await page.evaluate(() => {
     const a = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic" ? a._mc.correct : null
   })
   if (mcCorrect != null) {
