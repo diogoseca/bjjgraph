@@ -11043,8 +11043,11 @@ Categorical and route corrections remain a separate owner proposal.
 The first description pass introduced 43 duplicate groups. Technique, origin and role
 context remove every new collision: distinct descriptions rise 4,563 → 4,567; retained
 sharing is confined to 88 existing HTML/index aliases. The own-build article-link delta
-is −1,364. The supplied clip-curation projection would become 201,148, with 1,148 above
-the floor; its actual merged figure must be measured before capture. Learning tag-order
+is −1,364, including −398 across 87 hub folder copies and −966 on other routes. D-304
+corrects curation's estimate to about 199,250 after accounting for its hub copies, making
+the combined projection about 197,886. PR #1 re-anchors tier-0 article links to 180,000,
+JSON-LD blocks to 27,000, and payload floors to int(0.92 × observed). Identity changes
+no floor; exact combined counts and margins must be measured after PR #1. Learning tag-order
 movement remains a guarded-stamp check, not an accepted re-seed: created dates fall back
 to filesystem birth time. If the order still moves in capture, stop and report it.
 
