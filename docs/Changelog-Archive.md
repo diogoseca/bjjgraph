@@ -11052,3 +11052,10 @@ Four gate mutants fail named tests: removing the vault exclusion, excluding all
 JSON, dropping committed-tree comparison, and hiding ignored inputs with
 `--exclude-standard`. The real Quartz observer and 15 capture-driver fixture cases
 also pass. Production gates and ceilings are unchanged.
+
+Guarded capture `af62ba20e` on post-escape base `f006d73b8` confirms zero emitted
+changes: all 19 census counts, three root bundles and 14 app assets match after the
+existing version normalization. The receipt-bound re-seed changes metadata only:
+6,412 inputs become 6,401, Markdown stays 4,601, and both dirty-path lists are empty.
+The integrated payload passes at 346,317 B eager gzip (+3,319 B against the 342,998 B
+checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceiling).
