@@ -79,7 +79,7 @@ test("caught: _combo 0→5 heats the live escape's odds by exactly +0.10, cards 
   expect(iFail, "our rigged move failed").toBeGreaterThanOrEqual(0)
   expect(iCaught, "opponent caught a submission after the failure").toBeGreaterThan(iFail)
   expect(iPanic, "panic drill opened on the catch").toBeGreaterThan(iCaught)
-  await expect(page.locator("[data-panic]"), "inline panic drill visible while caught").toBeVisible()
+  await expect(page.locator("[data-landcard=defense]"), "inline panic drill visible while caught").toBeVisible()
 
   // ── mid-band precondition: the cold snapshot must leave +10 points of headroom on BOTH
   // sides of the [8,92] clamp, or the "exactly +0.10" arithmetic stops being a fair test

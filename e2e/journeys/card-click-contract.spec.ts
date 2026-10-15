@@ -32,6 +32,9 @@ import { journey } from "../dsl"
  *
  * Mutants, recorded on the built bundle (one at a time; a neutral control stayed green): see the
  * bottom of the file.
+ * v1.227.0 regression: the generic defender's 53px overflow was dropped on teardown,
+ * then the reader expanded by another 75px. Preserve the chosen card's column until
+ * arrival; the original 2px assertion also runs through flight below.
  */
 
 type Kind = "transition" | "entry" | "finish" | "escape"
@@ -160,7 +163,12 @@ for (const [width, height] of [[1440, 900], [390, 844]]) {
     }
     // the escape resolves on the card it was chosen from, and the announcer says so
     let after = picked
-    for (let i = 0; i < 20 && after.stand && after.stand.status === "executing"; i++) { await j.advance(200); after = await state(page) }
+    for (let i = 0; i < 20 && after.stand && after.stand.status === "executing"; i++) {
+      await j.advance(200); after = await state(page)
+      if (after.stand) for (let d = 0; d < 4; d++) {
+        expect(Math.abs(after.stand.box![d] - before.target![d]), "the chosen escape keeps its rectangle through flight and result").toBeLessThanOrEqual(2)
+      }
+    }
     expect(after.stand?.status, "the stand-in shows the escape's result").toBe("landed")
     expect(after.ev, "...and the announcer names it, not the stale 'Escaping'").toContain("Escaped!")
     // the arrival lifts the stand-in (the one owner of that lifetime, enterLand)

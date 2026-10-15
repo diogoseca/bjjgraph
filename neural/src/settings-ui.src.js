@@ -261,6 +261,13 @@ renderSettings() {
       ticks.innerHTML = "<span>Brisk</span><span>Default</span><span>Relaxed</span>";
       dt.appendChild(ticks);
       body.appendChild(dt);
+      // Permanent boolean key (per-key LWW; never delete it). Only the catch's
+      // visual treatment changes; a live question keeps its timer and grading.
+      const danger = this.settingRow("Danger animation",
+        "Show pulsing red edges and card warnings when an opponent catches you. Turning this off keeps the drill and timer running.",
+        [["On", true], ["Off", false]], "dangerAnimation", true);
+      danger.setAttribute("data-danger-animation", "");
+      body.appendChild(danger);
       // landing questions — the in-roll quiz beat
       const lq = document.createElement("div");
       lq.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";

@@ -68,16 +68,12 @@ footer, name or side. Top-right: card-layer ✕, then noninteractive grey `done/
 The star beside each graph seat label opens the list picker: outline if unsaved, gold if listed.
 It remains after card dismissal. Lists save whole techniques across both seats.
 
-Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
-guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
-arrival, a staged exchange); only its border skin differs — **no header** (the graph names the
-focused node, the same rule that removed the position card's header) and **no "Roll from here"**
-(clicking already set the board; play is the one go control). `defense` — the panic drill, the landing card's own recall
-anatomy under the danger skin (v1.133.0), asked **above** the escape hand. The DRILL carries the
-question clock; the ESCAPES are untimed — expiry no longer taps you out, it reveals the drill's
-answer with no pump and the player still chooses. While caught, the field fogs to the exchange
-(`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
-vignette. The complete linked article appears automatically below the game controls.
+Three modes share `renderLandCard`: `land` for a position, `attempt` for a technique or
+staged exchange, and `defense` above the escape hand. Every defending half owns its deck,
+stack, paging and films (v1.227.0). Only the drill question is timed: expiry reveals a miss
+without a boost or tap-out, and escapes remain available. A live catch fogs the field to
+threat + seat + escapes (`_dangerSet`), frames them (`frameNodes`), and yields the brand to
+the vignette. The complete linked article appears below the game controls.
 
 **Reading and minimizing.** The full published article survives grading and card replacement,
 with native scrolling, 16px prose and perspective links. The actual choices precede section
@@ -128,31 +124,27 @@ still force-enables the toggle early. **The White Challenges cue card is retired
 challenge engine and the pane's Challenges tab are untouched; `renderChallengeCue` survives as a
 remover. **Win chance explains itself** in its tooltip and in Inspect (§4).
 
-**Clicking (or arriving on) a technique NAVIGATES to it** (v1.132.0, owner: "when you click on a
-transition or on a submission, you navigate to it. The URL changes to it, and the landcard is
-standard" — and "if I click Kimura, then the landing should land on Kimura, not Knee on Belly").
-`rollFromPosition` keeps the CHOSEN node's camera (`camFocus`), URL (`_syncUrl` — a technique URL
-is never rewritten to its origin), focus, flare and card, while the SEAT stays the technique's
-origin position (the engine's states are positions); `_stagedTech = {idx, side}` arms the
-exchange, where `side` falls out of the seat role vs the technique's `fromRole` — the escaping
-orb, a `/Defender` page, seats you defending. **Play runs the exchange** (`_runStagedTech`,
-consumed at the `_played` latch): the attacking side commits that very technique through the
-ordinary pick path; the defending side of a SUBMISSION gets `enterDefense` on arrival — the red
-rush, vignette burning, escape hand, think fast. The defending side of a TRANSITION is a calm
-staged landing (v1.171.0, owner: "we're not defending against a submission, we're in poor shape
-but calm down"): the attempt card reads from the defender perspective, your hand is the
-defending seat's, the camera keeps `rollCamTarget`'s band, and play waits for the button — the
-same thing the roll loop does, since `opponentDefend` plays a transition as a positional move and
-only ever rushes over a finish. Any other commit or teardown (`clearOptions`) consumes the latch, so
-picking a different card while staged simply wins. A family-hub URL (`/Submissions/Kimura`)
-resolves to the family's most-connected member instead of falling through to a random weighted
-start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
-`staged_exchange {technique, side}`.
+**Technique navigation** keeps the chosen node's camera (`camFocus`), URL (`_syncUrl`),
+focus, flare and card; the roll's seat remains its origin position. `_stagedTech = {idx, side}`
+uses the seat role versus `fromRole`. `_runStagedTech` consumes the `_played` latch to commit
+an attacking technique through the ordinary pick path. Another commit or `clearOptions`
+consumes the latch. Family hubs resolve to their most-connected member. Telemetry remains
+`roll_staged {technique}` and `staged_exchange {technique, side}`.
 
-The corner's sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture;
-the count opens nothing — the pane's Last rolls tab is the study route. The panic drill is a
-landing card on the same seam (`_landCardChrome`): its independent article reads the submission's
-Defender guide, while `✕` hides the question and the catch and escapes stay live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
+**Every navigation starts a calm journey** (owner 2026-10-15, v1.227.0, superseding v1.134.0):
+URL/reload, Back/Forward, sidebar/Browse/search, article/perspective/list/shared links, orb
+clicks and manual restaging. Submission defenders receive their escape hand and generic card;
+transitions keep their staged landing. Answering or starting a dormant defense also stays calm.
+
+**Only an opponent catch from another state in the same active journey enables danger.**
+`_catchProvenance` captures source and journey before travel; `clearEngagement` invalidates it.
+Submission-choice waits preserve it and reject stale callbacks, even after same-seat navigation.
+Deferred alias defense cannot create a catch. Live MC mechanics and timing remain unchanged:
+`_panicKey` freezes the existing residency-based odds bonus independently of the displayed deck.
+
+The sticky ✕ persists `landCard`; a background dismissal lasts one landing. Counts open nothing;
+Last rolls is the study route. The generic defending card uses `_landCardChrome`, reads the
+Defender article, and hydrates its own deck. Hiding the question leaves catch and escapes live.
 
 **Paging browses the current deck.** Horizontal swipes (40px / 700ms), accumulated trackpad
 `deltaX`, outside chevrons and `←`/`→` call `_landPageTo(dir)`. Keys yield to pane History and
@@ -160,8 +152,8 @@ drill arrows and refuse `_landHidden()`. The retired dots/reveal pager and undep
 `landAnswers` setting have no reader. Paging replaces only `[data-land-q]`, clamped at the ends.
 The per-landing cache re-parents the same shuffle without another RNG draw; answered cards
 return graded and disabled. Cold distractors warm through `_landWarmP` (replace-not-clear).
-A capture-phase suppressor swallows synthesized clicks after movement >6px. The panic card
-never pages. Paging resets the native game scroll; Home/End read the question, while focused
+A capture-phase suppressor swallows synthesized clicks after movement >6px. Live defense
+uses the same paging controls. Paging resets the native game scroll; Home/End read the question, while focused
 article content retains native document keys.
 
 **Every card counts; momentum and evidence once per landing** (v1.221.0). The FIRST card resolved
@@ -178,8 +170,12 @@ The film has one `.ng-landfilm` host, moved between game and article slots (see 
 delivery). Its ghost ✕ (`data-film-close`) hides while a clip expands. The row scrolls like the
 hand: no scrollbar, earned fades (`_syncEdgeFade`), and `data-film-prev/next` chevrons toward
 hidden clips. `_filmPage` glides about one view; end padding is 1x the side-padding token and
-fade 3x. Technique clips come from `perspectives.{attacker,defender}.clips`, selected by the
-staged side, never the opposite perspective.
+fade 3x. **Technique films** come from `perspectives.{attacker,defender}.clips`; the node's fixed half
+selects them on reader/link arrivals and live catches. `renderLandCard` assigns `_landIdx`
+before selection. Missing or unauthored defender clips show no reel and never borrow another
+half's content. At v1.227.0, 285/290 concrete submissions have defender clips. Gaps: Americana,
+Armbar and Kimura from Triangle Control; Achilles Lock from Inside Ashi-Garami; Suloev Stretch
+from Half Guard. All five have authored defender blocks; no clips were added.
 **Recognition comes first, everywhere** (v1.132.2, owner: "It should have shown me multiple
 choice … then I finally start to show actual Anki flashcards"): the emitter's `_hard_clip` bridge
 makes every display answer one-line-comparable (word-boundary ≤150 + ellipsis, full text in `d`),
@@ -228,6 +224,8 @@ After commit, the live hand is cleared and a non-actionable copy of the chosen c
 exactly where the card was (the row's padding, i.e. the open pane, comes off its offset), escapes
 included (v1.218.1; they used to clear the hand and show nothing). Its face rises 1/12 of its
 height and settles (`_placeOnTable`, 0.44 s, none under reduced motion); its holder never moves.
+The execution handoff retains the measured row position and game height through its result;
+the same dock supplies fixed-layout callers. Resizing or reading releases the reservation.
 It keeps the displayed odds and shows Executing, then the actual Landed, Failed or Countered
 result. Submission entry shows Entering and remains deterministic; it does not acquire a roll
 or a new interpretation of its printed odds. The existing sweep lasts **1.08 seconds** and
@@ -265,13 +263,19 @@ regression remains covered by `roll-card.spec.ts`; the execution cases live in
 
 ### The panic drill is multiple choice (v1.135.0)
 
-The defense drill asks its question as the landing does — an `_mcBlock` on surface `"panic"`
-(`data-panic-mc-opt`, rng tags `panic-mc-pick`/`panic-mc-shuffle`, danger skin from the card).
-A right answer pumps the escape odds and deals the next card; a wrong one reveals, pumps
-nothing and breaks momentum as the timeout does (v1.221.0); expiry reveals-as-miss exactly like the landing. The reveal/Got-it recall idiom
-survives only as the cold-pool fallback, with ONE warm-upgrade attempt per deck (a deck that
-cannot build MC must not loop). The bottom-left legend lost the "+7 Tilt toward winning" row
-(owner: "the bar already shows that nicely") and the Win–Lose bar dropped to 165×7px.
+The shared defending card uses `_mcBlock` on surface `"panic"` (`data-panic-mc-opt`, RNG tags
+`panic-mc-pick`/`panic-mc-shuffle`), preserving its knowledge/telemetry identity. The separate
+renderer and red skin are retired. Defense always uses MC despite the in-play recall preference.
+Correct answers pump escape odds and deal the next card; wrong answers reveal without a boost
+and break momentum. Expiry reveals a miss. Reveal/Got-it is the cold-pool fallback, with one
+warm-upgrade attempt per deck. Seeing the answer permanently prevents that upgrade, even
+after Space hides it or paging brings it back. The "+7 Tilt toward winning" legend retired; the meter is 165×7px.
+
+**Danger animation**, beside Answer time in Rolling, uses permanent boolean `dangerAnimation`
+(default `true`). Off removes pulsing edges and card warnings, retaining static catch status,
+countdown and mechanics. Reduced motion also suppresses frame-driven glow without changing
+the saved key. Pressure, settings, progress receipts and a cached motion-query change listener
+synchronize visuals only when the effective state changes; frame ticks still drive the clock. Sound/volume still govern caught and expiry cues; no heartbeat audio loops.
 
 ### The pair label (v1.135.0; compact qualified stack v1.173.2)
 
@@ -298,8 +302,8 @@ landing (`clearLandCard`); the layer ✕ handles persist preferences through `se
 A staged technique's own option gets the action accent and commit verb ("Finish it" for a
 submission, "Execute" otherwise), with its deal position preserved (`_highlightStagedCard`).
 Commit executes in place with pulse path `[tech, tech]`; the pair label names the action.
-Arriving on or clicking the defending orb immediately enters defense: clear the stale landing
-card, then show the vignette, drill clock and escape hand. The meter reads Win (blue) left and
+Arriving on or clicking the defending orb opens the generic defending card and escape hand
+calmly. Only an in-roll opponent catch enables the vignette and defensive question clock. The meter reads Win (blue) left and
 Lose (red) right, mirroring `adv.cur`; category tracking is .05em so SUBMISSION fits.
 
 ### The hand

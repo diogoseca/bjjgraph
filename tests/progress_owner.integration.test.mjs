@@ -356,3 +356,31 @@ test('local-only is only for the named facade failures with a stored account; ev
     assert.deepEqual(h.held.map(r => r.reason), ['identity-unavailable']);
   }
 });
+
+// v1.227.0 review S2: cloud receipt publication must update effective danger
+// immediately; no frame tick may be needed to notice a newer per-key setting.
+test('cloud danger preference updates visuals immediately and leaves the live clock alone', async () => {
+  const h = harness(); await h.boot(); const a = h.switchTo('A');
+  let shows = 0, removals = 0;
+  a._reducedMotion = () => false;
+  a.showVignette = () => { shows++; a._vignetteEl = { remove: () => removals++ }; };
+  a._defensePressure = true;
+  a._decision = { remaining: 2500, total: 13500 };
+  a.settings.dangerAnimation = true; a._settingsAt.dangerAnimation = 1;
+  a._syncDangerAnimation();
+  assert.equal(shows, 1);
+  h.facade.pullNeural = async userId => ({ userId, blob: blob({}, { settings: { dangerAnimation: false }, settingsAt: { dangerAnimation: 2 } }) });
+  a._pushCloud = () => {};
+  assert.equal(await a._pullAndMerge(), true);
+  assert.equal(a._vignetteEl, null, 'cloud off takes effect before any tick');
+  assert.equal(removals, 1);
+  assert.deepEqual(a._decision, { remaining: 2500, total: 13500 });
+  assert.equal(a._defensePressure, true);
+  assert.equal(await a._pullAndMerge(), true);
+  assert.deepEqual([shows, removals], [1, 1], 'same effective cloud preference does no extra DOM work');
+  h.facade.pullNeural = async userId => ({ userId, blob: blob({}, { settings: { dangerAnimation: true }, settingsAt: { dangerAnimation: 3 } }) });
+  assert.equal(await a._pullAndMerge(), true);
+  assert.deepEqual([shows, removals], [2, 1]);
+  assert.equal(a._settingsAt.dangerAnimation, 3);
+  console.log('# cloud danger preference: 11 assertions');
+});

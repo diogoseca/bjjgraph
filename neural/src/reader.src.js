@@ -104,10 +104,13 @@ export async function installReader(app) {
     const card = execution.call(this, opt), row = this.optionsRef.current;
     if (card && row?.parentElement === reader.game) {
       const shown = this._optionCards.find(c => c.opt === opt).card;
-      // Teardown removes the group label and practice card. Preserve the chosen
-      // rectangle in the native flow, including its measured label clearance.
-      card.style.marginTop = shown.getBoundingClientRect().top - row.getBoundingClientRect().top - parseFloat(getComputedStyle(row).paddingTop) + "px";
-      card._readerRowTop = row.offsetTop;
+      // Escape owns the reservation's lifetime (arrival, resize or deliberate
+      // reading). Native flow carries measured row/height instead of a fixed
+      // preview push, including the selected card's group-label clearance.
+      const box = row.getBoundingClientRect(), game = reader.game.getBoundingClientRect();
+      card.style.marginTop = shown.getBoundingClientRect().top - box.top - parseFloat(getComputedStyle(row).paddingTop) + "px";
+      card._ngDock.bottom = window.innerHeight - box.bottom;
+      card._ngDock.reader = { rowTop: box.top - game.top, height: game.height };
     }
     return card;
   };
@@ -571,7 +574,6 @@ class Reader {
     // start here so that a one-action roll is still eligible for its history.
     a._played = true;
     a._applyLayers();
-    if (a._readingDefense) a._startDefensePressure();
     a._engage();
     a.setPaused(false);
   }
@@ -797,6 +799,13 @@ class Reader {
         if (!this.gameHomes.has(el)) {
           const keys = ["position", "left", "right", "top", "bottom", "transform", "width", "height"];
           this.gameHomes.set(el, { parent: el.parentElement, next: el.nextSibling, styles: keys.map(k => [k, el.style.getPropertyValue(k), el.style.getPropertyPriority(k)]) });
+          // A choice can execute before the deferred reader adopts the hand.
+          // Translate its fixed rectangle once into the native flow.
+          const dock = el === row && a._executionDock();
+          if (dock) {
+            const box = el.getBoundingClientRect(), top = this.game.getBoundingClientRect().top;
+            dock.reader = { rowTop: box.top - top, height: box.bottom - top };
+          }
           this.game.append(el); el.setAttribute("data-reader-game-part", key);
           this.resize.observe(el);
         }
@@ -840,7 +849,8 @@ class Reader {
       const cardX = beside ? groupLeft + mediaWidth + 60 : Math.max(a.isMobile() ? 10 : 16, free.center - cardWidth / 2);
       const cardY = start + (beside ? stageHeight - cardHeight : homeMedia ? mediaHeight + 12 : 0);
       if (card) position(card, cardX, cardY);
-      const rowTop = a._execution?.card?._readerRowTop ?? start + stageHeight + gap;
+      const handoff = a._executionDock()?.reader;
+      const rowTop = handoff?.rowTop ?? start + stageHeight + gap;
       if (row) position(row, 0, rowTop, W);
       for (const [el, key] of [[a._landStackEl, "stack"], [a._landNavEl, "nav"]]) {
         if (el && card) { moved(el, key); position(el, cardX, cardY, cardWidth); style(el, "height", cardHeight + "px"); }
@@ -851,7 +861,7 @@ class Reader {
         const middle = (Math.max(top, cardTop) + Math.min(end, cardTop + cardHeight)) / 2 - cardTop;
         style(a._landNavEl, "--guide-y", Math.max(22, Math.min(cardHeight - 22, middle)) + "px");
       }
-      style(this.game, "height", rowTop + handHeight + "px");
+      style(this.game, "height", (handoff?.height ?? rowTop + handHeight) + "px");
       style(this.articleEl, "margin-top", "6px");
       this.trayBottom = H - end + 12 + Math.min(128, H * .15);
       this.cardBottom = this.trayBottom;

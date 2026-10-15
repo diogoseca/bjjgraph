@@ -392,7 +392,12 @@ Previous arrow with its 8px clearance, and 52px is reserved after the face for N
 media is 358px and the deck face keeps its viewport-minus-104 width (286px), stacked 12px below
 media. The arrows stay outside the face. The desktop pair stacks when its 902px footprint cannot fit.
 Layout is coalesced to one animation frame and writes changed geometry only; fixed docking writers leave
-both media slots alone. Optional `app.readerChromeFrame(headEl)` lets chrome position the existing
+both media slots alone. The execution card's `_ngDock.reader` carries measured `{rowTop, height}`
+for the native flow, replacing the old fixed preview's `{height, push}`. The shared `_executionDock()`
+gates that reservation through result display and releases it on arrival, resize or reading;
+`_landDatum()` still serves fixed callers. The native row has one top-position writer and never
+receives a competing bottom write. Adoption during an existing execution translates its fixed
+rectangle into the same flow coordinates. Optional `app.readerChromeFrame(headEl)` lets chrome position the existing
 reader head and return `{headBottom, offset, bottomReserve?}`. Its measured bottom replaces the
 reader's own top (`max(68, logo.bottom + 12)`), preserving the node band, `gameTop` and game gaps.
 The shared offset is added before the fit clamp; unclamped movement is

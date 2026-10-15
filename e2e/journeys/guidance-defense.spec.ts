@@ -11,7 +11,7 @@ import { journey } from "../dsl"
  * Surfaces under test (neural/src/app.src.jsx):
  *   __neural.beaconState()        — { target } | null
  *   [data-beacon]                 — the SINGLE currently-highlighted surface
- *   [data-panic]                  — the inline defender micro-card shown when caught
+ *   [data-landcard=defense]                  — the inline defender micro-card shown when caught
  *   [data-panic-reveal]/[data-panic-got] — its reveal/grade buttons
  *   beats: beacon_moved, caught, panic_drill_opened, escape_odds_pumped, relief,
  *          coach_1/2/3 + coach_done (guided first roll), short_watched
@@ -74,7 +74,7 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   await j.advanceUntil("caught", 20000)
 
   await j.expectBeat("impact_fail")
-  const panic = page.locator("[data-panic]")
+  const panic = page.locator("[data-landcard=defense]")
   await expect(panic, "inline panic drill visible when caught").toBeVisible()
   await j.expectBeat("panic_drill_opened")
   await expect(page.locator(".ng-vignette"), "heartbeat vignette on").toHaveCount(1)
@@ -86,7 +86,7 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   const escBefore = await page.evaluate(() => (window as any).__neural.escapeOddsSnapshot())
   const mcCorrect = await page.evaluate(() => {
     const a: any = (window as any).__neural
-    const card = document.querySelector("[data-panic]")
+    const card = document.querySelector("[data-landcard=defense]")
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
       ? a._mc.correct
       : null

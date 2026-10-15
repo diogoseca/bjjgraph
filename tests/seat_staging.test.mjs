@@ -4,8 +4,12 @@
 // changes to it, and the landcard is standard." Since the pair split each technique has two seats
 // (attacker and defender members). Opening either one stages a roll at the technique's origin, and
 // the CHOSEN node keeps the focus, the URL and the card; nothing starts until the player acts.
-// The one owner-ruled exception is a submission's own escaping seat, where the rush starts at once
-// (v1.134.0: "clicking the escaping orb IS choosing to be caught").
+// v1.227.0: the owner's 2026-10-15 journey rule supersedes v1.134.0. EVERY
+// navigation is calm; only an opponent catch from another state within a roll enables danger.
+// v1.227.0 NON-KILL U3: freezing journey identity survives this file's delayed-
+// choices case because its independent wait token also rejects the stale callback.
+// Do not claim this case alone pins identity: defending_landing.test.mjs U1 and
+// defending-arrivals.spec.ts M14 pin the provenance check and navigation identity.
 //
 // THE DEFECT THIS PINS: a transition authored from a CONTROL ALIAS (12 positions, e.g. Gogoplata
 // Control, that canonicalise to their submission state) seats you inside that submission. On the
@@ -13,7 +17,7 @@
 // the submission and rewrote the URL. On dev a7bc58ce4 that was 147 transition seats over both
 // rulesets (gi 74 + no-gi 73), and each one also lost its seat star (the star is drawn beside the
 // FOCUSED label; e2e/journeys/seat-star-coverage.spec.ts pins that half in the browser). Now those
-// seats get the ordinary staged landing, and the rush waits for play (`_stagedDefense`,
+// seats get the ordinary staged landing, and the calm escape hand waits for play (`_stagedDefense`,
 // `_runDeferredCatch`).
 //
 // THE SECOND CAUSE, found by the browser half: a COLD submission. The first technique opened per
@@ -45,7 +49,7 @@ const SIDE_EFFECTS = ["fx", "setEvent", "flashFx", "bumpBounce", "flare", "clear
   "renderTutorial", "_sayArrivalIfPending", "startLandRipple", "hydrateDecks", "hideCenter", "showCenter", "releaseCamera",
   "_prefetchLandDeck", "_prefetchDefendDeck", "frameNodes", "killVignette", "setStatus", "_endArrival", "stopReplay",
   "cancelChoiceValues", "hideOptDetail", "_closeRoll", "_updateComboChip", "_cancelCheckpoint", "pauseTimers", "resumeTimers", "_saveFlowSoon",
-  "_gameValueChanged", "decaySharp", "_flushLandSkipDebt", "showVignette", "buildPanicCard",
+  "_gameValueChanged", "decaySharp", "_flushLandSkipDebt", "showVignette",
   "_paintWinThermometer", "_dockLandCard"];
 
 async function app({ cold = false } = {}) {
@@ -88,14 +92,14 @@ function catchSeats(a) {
   return want;
 }
 
-test("every seat of every technique, opened, keeps the focus and the URL on the chosen node; only a submission's escaping seat starts its rush", async () => {
+test("every seat of every technique, opened, keeps the focus and the URL on the chosen node; every navigation is calm", async () => {
   const a = await app();
   const counts = {};
   for (const frame of ["gi", "nogi"]) {
     a._giMode = frame;
     const want = catchSeats(a);
     const deferred = new Set();
-    let n = 0, rushes = 0;
+    let n = 0, calmDefenders = 0;
     for (const s of seats(a)) {
       a.urls.length = 0; a.paused = false;
       a.stageRollAt(s.idx);
@@ -104,14 +108,14 @@ test("every seat of every technique, opened, keeps the focus and the URL on the 
       assert.equal(a.focusIdx, s.idx, `${where}: the focus stays on the node you opened`);
       assert.equal(a.urls[a.urls.length - 1], s.idx, `${where}: the URL stays on the node you opened`);
       const escapingSub = s.n.ty === "submissions" && s.seat === "defender";
-      if (escapingSub) { rushes++; assert.equal(a.paused, false, `${where}: a submission's escaping seat starts its rush (v1.134.0)`); }
+      if (escapingSub) { calmDefenders++; assert.equal(a.paused, true, `${where}: navigation is calm (owner 2026-10-15)`); assert.equal(a._defensePressure, false); }
       else {
         assert.equal(a.paused, true, `${where}: nothing starts until the player acts`);
         assert.equal(a._stagedTech && a._stagedTech.idx, s.idx, `${where}: the staged exchange is the chosen node`);
       }
       if (a._stagedDefense != null) {
         deferred.add(s.idx);
-        assert.deepEqual(a.optionIdxs, [], `${where}: a deferred catch deals no hand; the rush deals the escapes`);
+        assert.deepEqual(a.optionIdxs, [], `${where}: a deferred defense deals no hand until play`);
       }
     }
     // SET EQUALITY against the data-derived set (a second implementation is legitimate only with it),
@@ -119,12 +123,12 @@ test("every seat of every technique, opened, keeps the focus and the URL on the 
     assert.deepEqual([...deferred].sort(), [...want].sort(), `${frame}: the deferred catches are exactly the alias-defender transition seats`);
     assert.ok(want.size >= 60, `${frame}: ${want.size} catch seats is a real population`);
     assert.ok(n > 2000, `${frame}: ${n} seats staged`);
-    counts[frame] = { seats: n, deferred: deferred.size, rushes };
+    counts[frame] = { seats: n, deferred: deferred.size, calmDefenders };
   }
   console.log("# seat staging " + JSON.stringify(counts));
 });
 
-test("pressing play on a deferred catch runs the rush", async () => {
+test("pressing play on a deferred defense deals escapes without danger", async () => {
   const a = await app();
   a._giMode = "nogi";
   const want = [...catchSeats(a)].slice(0, 12);
@@ -136,7 +140,8 @@ test("pressing play on a deferred catch runs the rush", async () => {
     a.paused = false;
     assert.equal(a._runDeferredCatch(), true, `${a.nodes[idx].t}: the first unpaused frame consumes it`);
     assert.equal(a._stagedDefense, null);
-    assert.equal(a._defendSub, a.submissionNode(a.nodes[sub]).idx, `${a.nodes[idx].t}: the rush is the submission's`);
+    assert.equal(a._defendSub, a.submissionNode(a.nodes[sub]).idx, `${a.nodes[idx].t}: the defense uses the submission's escapes`);
+    assert.equal(a._defensePressure, false, "play is not an opponent catch");
     assert.equal(a._runDeferredCatch(), false, "and runs once");
   }
 });
@@ -183,4 +188,26 @@ test("a COLD submission (choices not loaded yet) defers the landing without losi
     assert.equal(a.paused, true, `${where}: nothing starts until the player acts`);
     assert.equal(a._stagedDefense != null, want.has(s.idx), `${where}: a catch seat defers its rush, a plain one has none`);
   }
+});
+
+test("a genuine catch keeps its provenance across cold submission choices; restaging the same seat rejects the old callback", async () => {
+  for (const restage of [false, true]) {
+    const a = await app({ cold: true });
+    const sub = a.nodes.find(n => n.rep && n.ty === 'submissions' && n.t === 'Loop Choke from Half Guard');
+    a._journeyId = 1; a._rollActed = true;
+    a.currentPos = a.nodes.findIndex(n => n.ty === 'positions' && n.rep);
+    const arrival = a._catchProvenance();
+    a.enterDefense(sub.idx, arrival);
+    assert.ok(a._waitingSubmission, 'choices are genuinely asynchronous');
+    if (restage) a.stageRollAt(sub.pi);
+    for (let i = 0; i < 20 && a._waitingSubmission; i++) await new Promise(r => setTimeout(r, 0));
+    assert.equal(a._waitingSubmission, null);
+    assert.equal(a._defendSub, sub.idx);
+    assert.equal(a._defensePressure, !restage, 'only the original active journey can acquire pressure');
+    if (restage) {
+      a._startDefensePressure();
+      assert.equal(a._defensePressure, false, 'the dormant-to-active path cannot revive the old catch');
+    }
+  }
+  console.log('# async catch provenance: 9 assertions');
 });

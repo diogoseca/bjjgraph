@@ -21,13 +21,14 @@ const enterDefence = (page: any) =>
   page.evaluate(() => {
     const a: any = (window as any).__neural;
     const sub = a.adj[a.currentPos].find((k: number) => a.nodes[k].ty === "submissions");
-    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"));
+    a._rollActed = true; // fixture: a prior committed move; navigation alone is calm (v1.227.0)
+    a.enterDefense(sub != null ? sub : a.nodes.findIndex((n: any) => n.ty === "submissions"), a._catchProvenance());
   });
 
 const geo = (page: any) =>
   page.evaluate(() => {
     const a: any = (window as any).__neural;
-    const p = document.querySelector("[data-panic]") as HTMLElement;
+    const p = document.querySelector("[data-landcard=defense]") as HTMLElement;
     if (!p) return null;
     const row = a.optionsRef.current as HTMLElement;
     const pb = p.getBoundingClientRect(), rb = row.getBoundingClientRect();
@@ -80,7 +81,7 @@ test("grading the drill in time pumps the escape odds and spends the window (v1.
   // v1.135.0: MC when warm (the landing idiom, danger skin); reveal/got is the cold fallback
   const mcIdx = await page.evaluate(() => {
     const a: any = (window as any).__neural;
-    const card = document.querySelector("[data-panic]");
+    const card = document.querySelector("[data-landcard=defense]");
     return card && card.querySelector("[data-panic-mc-opt]") && a._mc && a._mc.surface === "panic"
       ? a._mc.correct
       : null;
@@ -117,9 +118,9 @@ test("it goes when the defence does", async ({ page }) => {
     a._optPick(a._optList[0]);           // take an escape
   });
   await page.waitForTimeout(300);
-  expect(await page.evaluate(() => !!document.querySelector("[data-panic]")),
+  expect(await page.evaluate(() => !!document.querySelector("[data-landcard=defense]")),
     "no panic card survives the escape").toBe(false);
   expect(await page.evaluate(() => (window as any).__neural._landEl === null ||
-    !(window as any).__neural._landEl.hasAttribute("data-panic")),
+    (window as any).__neural._landMode !== "defense"),
     "and the landing-card slot is free for the next landing").toBe(true);
 });

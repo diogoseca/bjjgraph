@@ -456,7 +456,7 @@
    "L": "first-roll-day1",
    "F": "defense-panic",
    "B": "happy-path",
-   "invariant": "A rigged catch fires impact_fail, caught, and panic_drill_opened with a visible [data-panic] card and one .ng-vignette, grading the panic card strictly increases escapeOddsSnapshot() with escape_odds_pumped, and a rigged escape reaches relief with the escape beat and the vignette element cleared.",
+   "invariant": "A rigged catch fires impact_fail, caught, and panic_drill_opened with a visible [data-landcard=defense] card and one .ng-vignette, grading the panic card strictly increases escapeOddsSnapshot() with escape_odds_pumped, and a rigged escape reaches relief with the escape beat and the vignette element cleared.",
    "origin": "core",
    "status": "accepted"
   },
@@ -792,7 +792,7 @@
    "L": "first-roll-day1",
    "F": "defense-panic",
    "B": "interruption-abort",
-   "invariant": "resetRoll while caught clears _defendSub, _panicKey, and the vignette, keeps the ladder rank unchanged with zero defeat_drain/ladder_down beats, and the new roll lands (>=2 land beats) with live options and no [data-panic] card.",
+   "invariant": "resetRoll while caught clears _defendSub, _panicKey, and the vignette, keeps the ladder rank unchanged with zero defeat_drain/ladder_down beats, and the new roll lands (>=2 land beats) with live options and no [data-landcard=defense] card.",
    "origin": "core",
    "status": "accepted"
   },

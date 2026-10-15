@@ -369,8 +369,8 @@
   .ng-replaybar .ng-replay-stop{pointer-events:auto;flex:none;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin:-10px -6px -10px 0;cursor:pointer;font-family:inherit;font-size:16px;line-height:1;border:none;border-radius:11px;background:transparent;color:#8c9ab5;transition:background .15s ease,color .15s ease;}
   .ng-replaybar .ng-replay-stop:hover{background:rgba(255,255,255,.08);color:#eef1f6;}
   .ng-replaybar .ng-replay-stop:focus-visible{outline:2px solid rgba(160,185,255,.85);outline-offset:-3px;}
-  /* the panic drill wears the danger skin, but is a landing card in every other respect */
-  .ng-landcard[data-landcard="defense"]{border-color:rgba(255,110,110,.42);background:linear-gradient(180deg,rgba(52,22,24,.97),rgba(38,16,18,.97));}
+  /* v1.227.0: defending uses the same card. Live catch warnings are driven by
+     the clock, gated by Danger animation and reduced motion in app.src.jsx. */
   /* stood down behind the option sheet — why it is a rule and not an inline style: _syncDetailDim */
   [data-behind-sheet]{opacity:.38!important;filter:grayscale(.7) brightness(.8);transition:opacity .22s ease,filter .22s ease;}
   /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
