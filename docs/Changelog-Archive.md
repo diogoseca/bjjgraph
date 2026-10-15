@@ -29,6 +29,8 @@ people actually arrive here. Index A answers *"what shipped in vN?"*.
 
 ## Index A — by version
 
+- **v1.227.4** — [Default overview mixes both halves after the first hand](#v12274--default-overview-mixes-both-halves-after-the-first-hand)
+
 - **v1.227.1** — [A lean reading vault and scoped content provenance](#v12271--a-lean-reading-vault-and-scoped-content-provenance)
 - **v1.227.0** — [Calm defending arrivals and one land card](#v12270--calm-defending-arrivals-and-one-land-card)
 - **v1.227.0 review** — [Defending review corrections](#v12270--defending-review-corrections)
@@ -11059,3 +11061,57 @@ existing version normalization. The receipt-bound re-seed changes metadata only:
 6,412 inputs become 6,401, Markdown stays 4,601, and both dirty-path lists are empty.
 The integrated payload passes at 346,317 B eager gzip (+3,319 B against the 342,998 B
 checkpoint, within its 5,000 B cap) and 480,054 B deferred raw (500,000 B ceiling).
+
+
+## v1.227.4 — Default overview mixes both halves after the first hand
+
+The owner's 2026-10-15 answer was “b, always mix”: the single overview orb represents the
+pigment mix of both halves even when mastery gold is Off. He accepted that opposite technique
+poles consequently share a purple-grey overview, losing their earlier blue/red signal at that
+zoom. `NG_MIX_SITES_BY_DEFAULT` is true. Gold Off retains the exact runtime base/depth-shaded
+half objects; gold On uses the existing gold-adjusted weights. `kLOD` interpolates between the
+site and those halves, and the roll still opens zoomed in.
+
+The palette stays in deferred `app/mastery-gold.js`. Ingest, saved settings and progress
+publication cannot import it before the first playable hand paints. A subsequent animation
+frame schedules idle warming with a one-second deadline; until the module arrives, base paint
+remains. The import reads current settings and progress, so an intervening Off cannot apply a
+stale gold tint. Destroyed apps cannot begin warming.
+
+The first pre-merge browser run was five green; after the policy mutant was restored, the grade
+journey was four green and one readiness failure. This was an app bug, not a reason to move the
+fixture's wait. The callback rechecked `_gameValuePlayable()`, which rejects an open Settings
+modal. It discarded the warm, and every later draw also rejected it while Settings stayed open.
+A real-network diagnostic held idle until Settings opened: after two seconds there was no cache;
+closing Settings let the default mix arrive within two seconds. `requestIdleCallback` also had
+no timeout. The fix preserves an already-painted hand's warm across Settings and bounds the idle
+wait. The same diagnostic then found the mixed overview within two seconds both while Settings
+stayed open and after it closed, with one palette request and gold Off throughout.
+
+The grade journey keeps Settings-before-ready order and simulates a busy idle queue in which
+only callbacks with deadlines execute. The five palette journeys cover a user who never opens
+Settings, desktop/phone real mouse toggles and reload, actual recall grading, and late Off. The
+no-Settings policy-false mutant fails its own default-mix assertion (`shared` and `mixed` false
+at `kLOD=0`), rather than an import preflight. The nine palette units cover all runtime halves,
+pigment bands, own-half deck keys, cache publication, late imports and the scheduler. Seven unit
+mutants were killed: default mix false, pre-paint import, RGB averaging, played-seat keys,
+missing grade publication, Settings veto, and missing idle deadline. The unchanged first-hand
+payload journey still bans the palette before the playable hand.
+
+Integrated with dev `f006d73b8` (escape, v1.227.0), at package version v1.227.4: the own site
+build passed, as did all five palette journeys before the policy mutant and again after restoring
+and rebuilding the app. The mutant failed the no-Settings mix assertion itself. The Settings
+diagnostic again observed the default mix within two seconds while the modal stayed open and
+after it closed. The local CI replay passed all 24 steps, with 1,278 unit tests and no skips.
+
+Matched base/feature measurements used the same integrated graph, deck manifest, postscript
+and package version. Eager payload grew by 381 raw / 118 gzip bytes to 346,436 gzip bytes:
+3,438 above the unchanged 342,998 checkpoint, within its 5,000-byte delta cap. First-hand grew
+by 381 raw / 119 gzip bytes to 398,975 total gzip and 365,832 core gzip bytes, still 11 requests;
+the unchanged real-network gate passed both samples. Deferred raw stayed at 480,054 / 500,000
+bytes, and deferred gzip fell by 11 bytes. The palette itself stayed at 1,412 raw / 824 gzip
+bytes; the default visitor now fetches it after the first playable hand. No payload baseline moved.
+
+The branch subsequently merged Obsidian v1.227.1 (`45cf1f9e1`), which changes vault/provenance
+inputs without app code. The owner assigned the PR's four-shard core and generated suite as
+the full-suite gate, replacing the planned local full core to preserve shared capture capacity.

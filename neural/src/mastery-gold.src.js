@@ -1,6 +1,6 @@
 import { ngWireDeckName } from "./wire-keys.src.js";
 
-// Opt-in map material. These are the existing domColor endpoints and full-mastery
+// Default site mix and opt-in mastery tint. These are the domColor endpoints and full-mastery
 // crown gold. The quadratic Bernstein palette keeps all controls in gamut; only
 // blue/gold and red/gold depart from arithmetic midpoints, to read green/orange.
 // A site averages pigment WEIGHTS before evaluating the palette, never final RGB.
